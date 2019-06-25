@@ -1,8 +1,8 @@
 ---
+layout: post
 title: DVVR Dance Viewer VR
 description: MMD Dance Viewer for Desktop & VR
 ---
-
 
 # DVVR Dance Viewer VR
 
