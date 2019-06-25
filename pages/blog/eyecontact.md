@@ -1,5 +1,6 @@
 ---
 title: Eye Contact Feature
+layout: page
 ---
 
 [![Eye Contact Feature Showcase](https://img.youtube.com/vi/BVKBc11KhRU/0.jpg)](https://youtu.be/BVKBc11KhRU)
