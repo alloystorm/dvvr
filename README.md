@@ -14,6 +14,6 @@ In addition to the above mentioned auto adjustments, it also has tons of feature
 * VR support for all major VR platforms including Windows Mixed Reality
 * The best image quality in its class.
 * Easy adjustable lighting & environment control
-* Life-like motions, such as blinking, breathing and eye contact
+* Life-like motions, such as blinking, breathing and [eye contact](eyecontact.md)
 
 The first public demo will be available very soon.
