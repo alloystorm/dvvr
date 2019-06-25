@@ -1,4 +1,4 @@
-# dvvr dance viewer vr
+# DVVR dance viewer vr
 
 DVVR is a realtime MMD viewer made with Unity engine. The idea is to leverage the modern rendering techniques and scripting capabilities from Unity Engine to give the MMD community a powerful viewer for them to enjoy their content on both desktop platforms and VR. 
 
