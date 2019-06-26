@@ -4,7 +4,7 @@ youtubeId: zP966sQ6h0g
 
 ---
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtube.html id=page.youtubeId %}
 
 About the eye contact feature:
 
