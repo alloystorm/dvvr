@@ -1,8 +1,10 @@
 ---
 title: Eye Contact Feature
+youtubeId: zP966sQ6h0g
 
 ---
 
+{% include youtubePlayer.html id=page.youtubeId %}
 [![Eye Contact Feature Showcase](https://img.youtube.com/vi/zP966sQ6h0g/0.jpg)](https://youtu.be/zP966sQ6h0g)
 
 About the eye contact feature:
