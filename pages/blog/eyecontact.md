@@ -3,7 +3,7 @@ title: Eye Contact Feature
 
 ---
 
-[![Eye Contact Feature Showcase](https://img.youtube.com/vi/BVKBc11KhRU/0.jpg)](https://youtu.be/BVKBc11KhRU)
+[![Eye Contact Feature Showcase](https://img.youtube.com/vi/zP966sQ6h0g/0.jpg)](https://youtu.be/zP966sQ6h0g)
 
 About the eye contact feature:
 
