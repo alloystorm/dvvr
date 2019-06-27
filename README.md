@@ -8,6 +8,8 @@ DVVR tries to decouple motion data from models to allow possibility of using a d
 * Custom made deterministic IK solution that removes unstability
 * Automatically adjust foot position in real-time to make sure floor penetration doesn't happen at all. 
 
+Please note that this is not an opensource project, the content within this repository is just documentation.
+
 # Availability
 * Windows Desktop
 * MacOSX
@@ -22,8 +24,8 @@ Due to hardware availability, the VR experience is developed on and garenteed to
 Find the latest build in the [release section](https://github.com/alloystorm/dvvr/releases)
 
 # Installation & preparation 
-Unzip the app, run "dvvr". 
-Following instructions to [prepare your content folder](pages/blog/preparecontent.md)
+No installation is required, simply unzip and run. 
+You need to provide a content folder for it to load the models and motion files, follow [instructions on this page to prepare your content folder](pages/blog/preparecontent.md)
 
 # Usage
 [Controls can be found here](pages/blog/controls.md)
