@@ -23,7 +23,7 @@ Find the latest build in the [release section](https://github.com/alloystorm/dvv
 
 # Installation & preparation 
 Unzip the app, run "dvvr". 
-Following instructions to [prepare your content folder](pages/blog/preparation.md)
+Following instructions to [prepare your content folder](pages/blog/preparecontent.md)
 
 # Usage
 [Controls can be found here](pages/blog/controls.md)
