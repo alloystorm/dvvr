@@ -8,6 +8,12 @@ DVVR tries to decouple motion data from models to allow possibility of using a d
 * Custom made deterministic IK solution that removes unstability
 * Automatically adjust foot position in real-time to make sure floor penetration doesn't happen at all. 
 
+In addition to the above mentioned auto adjustments, it also has tons of features to enhance the experience
+* VR support for all major VR platforms including Windows Mixed Reality
+* The best image quality in its class.
+* Easy adjustable lighting & environment control
+* Life-like motions, such as blinking, breathing and [eye contact](pages/blog/eyecontact.md)
+
 Please note that this is not an opensource project, the content within this repository is just documentation.
 
 # Availability
@@ -30,16 +36,9 @@ You need to provide a content folder for it to load the models and motion files,
 # Usage
 [Controls can be found here](pages/blog/controls.md)
 
-# Options & UI
-Coming soon
+# Bug report & comment
+Please use [GitHub issue tracking](https://github.com/alloystorm/dvvr/issues) to report issues.
 
 # Future plans
 [Future Plans](pages/blog/futureplans.md)
 
-In addition to the above mentioned auto adjustments, it also has tons of features to enhance the experience
-* VR support for all major VR platforms including Windows Mixed Reality
-* The best image quality in its class.
-* Easy adjustable lighting & environment control
-* Life-like motions, such as blinking, breathing and [eye contact](pages/blog/eyecontact.md)
-
-The first public demo will be available very soon.
