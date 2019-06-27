@@ -8,7 +8,18 @@ DVVR tries to decouple motion data from models to allow possibility of using a d
 * Custom made deterministic IK solution that removes unstability
 * Automatically adjust foot position in real-time to make sure floor penetration doesn't happen at all. 
 
-All you need to do is placing your models and dance motion data in a content folder and select motion & model in DVVR to enjoy your content with any combination you like. 
+# Download
+Coming soon
+
+# Installation & preparation 
+Unzip the app, run "dvvr". 
+Following instructions to [prepare your content folder](pages/blog/preparation.md)
+
+# Usage
+[Controls can be found here](pages/blog/controls.md)
+
+# Options & UI
+
 
 In addition to the above mentioned auto adjustments, it also has tons of features to enhance the experience
 * VR support for all major VR platforms including Windows Mixed Reality
