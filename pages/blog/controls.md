@@ -1,4 +1,4 @@
-DVVR can be controled with keyboard, xbox layout controller or VR controllers in VR mode.
+Following controls are available in desktop & VR mode.
 
 
 Operation | Keyboard | Xbox controller | VR
