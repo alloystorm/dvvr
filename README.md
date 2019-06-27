@@ -14,7 +14,8 @@ In addition to the above mentioned auto adjustments, it also has tons of feature
 * Easy adjustable lighting & environment control
 * Life-like motions, such as blinking, breathing and [eye contact](pages/blog/eyecontact.md)
 
-Please note that this is not an opensource project, the content within this repository is just documentation.
+Please note that this is not opensource, the content within this repository is just documentation.
+
 
 ## Availability
 * Windows Desktop
