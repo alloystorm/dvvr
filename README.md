@@ -8,6 +8,16 @@ DVVR tries to decouple motion data from models to allow possibility of using a d
 * Custom made deterministic IK solution that removes unstability
 * Automatically adjust foot position in real-time to make sure floor penetration doesn't happen at all. 
 
+# Availability
+* Windows Desktop
+* MacOSX
+* VR Platforms 
+  * Windows MR
+  * OpenVR
+  * Oculus 
+  * Oculus Standalone coming soon
+Due to hardware availability, the VR experience is developed on and garenteed to work on Windows MR platform but should also work on any headset supporting OpenVR or Oculus including Rift and VIVE thanks to Unity engine XR system. 
+
 # Download
 Coming soon
 
@@ -19,7 +29,10 @@ Following instructions to [prepare your content folder](pages/blog/preparation.m
 [Controls can be found here](pages/blog/controls.md)
 
 # Options & UI
+Coming soon
 
+# Future plans
+[Future Plans](pages/blog/futureplans.md)
 
 In addition to the above mentioned auto adjustments, it also has tons of features to enhance the experience
 * VR support for all major VR platforms including Windows Mixed Reality
