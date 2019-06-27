@@ -19,7 +19,7 @@ DVVR tries to decouple motion data from models to allow possibility of using a d
 Due to hardware availability, the VR experience is developed on and garenteed to work on Windows MR platform but should also work on any headset supporting OpenVR or Oculus including Rift and VIVE thanks to Unity engine XR system. 
 
 # Download
-Coming soon
+Find the latest build in the [release section](releases/latest)
 
 # Installation & preparation 
 Unzip the app, run "dvvr". 
