@@ -24,7 +24,6 @@ Please note that this is not opensource, the content within this repository is j
 ## Demo videos
 {% include youtube.html id=page.youtubeId %}
 
-[More videos](pages/blog/demovideos.md)
 
 
 ## Availability
