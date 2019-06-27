@@ -1,3 +1,4 @@
+* Support for XNALara models (xps)
 * Hand IK
   * T pose A pose conversion
 * Audio visualization
@@ -9,5 +10,6 @@
   * Physics based motion smoothing
 * AI
   * Motion refine
+  * AI based IK solution
 * Motion creation
   
