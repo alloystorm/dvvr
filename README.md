@@ -30,9 +30,9 @@ Due to hardware availability, the VR experience is developed on and garenteed to
 ## Download
 Find the latest build in the [release section](https://github.com/alloystorm/dvvr/releases)
 
-## Installation & preparation 
+## Installation & content preparation 
 No installation is required, simply unzip and run. 
-You need to provide a content folder for it to load the models and motion files, follow [instructions on this page to prepare your content folder](pages/blog/preparecontent.md)
+The app does not come with any model or dance motion, you'll need to provide a path to your content folder for the app to find the models and motion files, follow [instructions on this page to prepare your content folder](pages/blog/preparecontent.md)
 
 ## Usage
 [Controls can be found here](pages/blog/controls.md)
