@@ -1,4 +1,4 @@
-# DVVR Dance Viewer VR
+## DVVR Dance Viewer VR
 
 DVVR is a realtime MMD viewer made with Unity engine. The idea is to leverage the modern rendering techniques and scripting capabilities from Unity Engine to give the MMD community a powerful viewer for them to enjoy their content on both desktop platforms and VR. 
 
@@ -16,7 +16,7 @@ In addition to the above mentioned auto adjustments, it also has tons of feature
 
 Please note that this is not an opensource project, the content within this repository is just documentation.
 
-# Availability
+## Availability
 * Windows Desktop
 * MacOSX
 * VR Platforms 
@@ -26,19 +26,17 @@ Please note that this is not an opensource project, the content within this repo
   * Oculus Standalone coming soon
 Due to hardware availability, the VR experience is developed on and garenteed to work on Windows MR platform but should also work on any headset supporting OpenVR or Oculus including Rift and VIVE thanks to Unity engine XR system. 
 
-# Download
+## Download
 Find the latest build in the [release section](https://github.com/alloystorm/dvvr/releases)
 
-# Installation & preparation 
+## Installation & preparation 
 No installation is required, simply unzip and run. 
 You need to provide a content folder for it to load the models and motion files, follow [instructions on this page to prepare your content folder](pages/blog/preparecontent.md)
 
-# Usage
+## Usage
 [Controls can be found here](pages/blog/controls.md)
 
-# Bug report & comment
+## Bug report & comment
 Please use [GitHub issue tracking](https://github.com/alloystorm/dvvr/issues) to report issues.
 
-# Future plans
-[Future Plans](pages/blog/futureplans.md)
 
