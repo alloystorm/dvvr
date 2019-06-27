@@ -15,5 +15,7 @@ Look Around | Mouse Press & Drag | |
 Raise Stage | Left Shift + Arrow Up | Left Shoulder + Dpad Up | Left Grip + Click Touch Pad Up
 Lower Stage | Left Shift + Arrow Down | Left Shoulder + Dpad Down | Left Grip + Click Touch Pad Down
 Rotate Stage | Left Shift + Arrow Left / Right | Left Shoulder + Dpad Left / Right | Left Grip + Click Touch Pad Left / Right
-Grab Camera 2 | | | Right Grip 
+Grab Camera<sup>1</sup> | | | Right Grip 
 Change Auto Camera FOV | I / K | A / Y button | Right Touch Pad Up / Down
+
+<sup>1</sup> Attach a camera to your right hand, image from the camera can be seen from one of the big screens.
