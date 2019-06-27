@@ -11,8 +11,9 @@ Move Left | A | Left Shoulder + Left Joystick Left | Left Grip + Left Joystick L
 Move Right | D | Left Shoulder + Left Joystick Right | Left Grip + Left Joystick Right
 Move Up | E | 
 Move Down | Q |
+Look Around | Mouse Press & Drag | | 
 Raise Stage | Left Shift + Arrow Up | Left Shoulder + Dpad Up | Left Grip + Click Touch Pad Up
 Lower Stage | Left Shift + Arrow Down | Left Shoulder + Dpad Down | Left Grip + Click Touch Pad Down
 Rotate Stage | Left Shift + Arrow Left / Right | Left Shoulder + Dpad Left / Right | Left Grip + Click Touch Pad Left / Right
-Grab Camera | | | Right Grip 
+Grab Camera 2 | | | Right Grip 
 Change Auto Camera FOV | I / K | A / Y button | Right Touch Pad Up / Down
