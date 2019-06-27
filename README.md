@@ -17,7 +17,7 @@ In addition to the above mentioned auto adjustments, it also has tons of feature
 Please note that this is not opensource, the content within this repository is just documentation.
 
 ## Demo videos
-{% include youtube.html id=zP966sQ6h0g %}
+{% include youtube.html id="zP966sQ6h0g" %}
 
 [More videos can be found here](pages/blog/demovideos.md)
 
