@@ -32,7 +32,11 @@ Find the latest build in the [release section](https://github.com/alloystorm/dvv
 
 ## Installation & content preparation 
 No installation is required, simply unzip and run. 
-The app does not come with any model or dance motion, you'll need to provide a path to your content folder for the app to find the models and motion files, follow [instructions on this page to prepare your content folder](pages/blog/preparecontent.md)
+
+The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
+
+On first launch you'll need to provide a path to your content folder for the app to find the models and motion files, follow [instructions on this page to prepare your content folder](pages/blog/preparecontent.md)
+
 
 ## Usage
 [Controls can be found here](pages/blog/controls.md)
