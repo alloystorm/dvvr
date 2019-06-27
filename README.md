@@ -42,6 +42,6 @@ On first launch you'll need to provide a path to your content folder for the app
 [Controls can be found here](pages/blog/controls.md)
 
 ## Bug report & comment
-Please use [GitHub issue tracking](https://github.com/alloystorm/dvvr/issues) to report issues.
+For feature request or bug report, please use the [GitHub issue tracking system](https://github.com/alloystorm/dvvr/issues).
 
 
