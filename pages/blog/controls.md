@@ -18,5 +18,7 @@ Rotate Stage | Left Shift + Arrow Left / Right | Left Shoulder + Dpad Left / Rig
 Grab Camera<sup>1</sup> | | | Right Grip 
 Change Auto Camera FOV<sup>2</sup> | I / K | A / Y button | Right Touch Pad Up / Down
 
+
 <sup>1</sup> Attach a camera to your right hand, image from the camera can be seen from one of the big screens.
+
 <sup>2</sup> Only if the camera is not being controled by animation track
