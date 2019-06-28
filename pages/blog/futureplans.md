@@ -1,12 +1,14 @@
+These are wild ideas we are looking to implement next
+
 * Support for XNALara models (xps)
-* Hand IK
-  * T pose A pose conversion
+* Arm IK
+* T pose A pose conversion
 * Audio visualization
   * Use audio data to control camera & stage items
-  * Stage graphics animation on audio data
 * Stage selection
+  * Load external model as stage
 * Physics interaction 
-  * Bouncy items
+  * Interactable items
   * Physics based motion smoothing
 * AI
   * Motion refine
