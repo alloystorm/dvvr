@@ -1,3 +1,5 @@
+First of all DVVR does not come with model or dance motion files since we are not licensed to distribute these content. However they are not very hard to find. Simply search for MMD model download and MMD motion download and you'll find a lot of resource available.  
+
 DVVR scan a content folder for models & motions on start. The first time you run DVVR, it will ask you for the location of the content folder. In the folder selection UI, select ".." to go to the parent folder and click on "select" when you have located the folder you want.
 
 This page will explain how to prepare the content folder for DVVR.
