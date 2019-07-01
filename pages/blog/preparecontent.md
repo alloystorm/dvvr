@@ -6,9 +6,13 @@ The content folder needs to have 2 sub folders
 * actors
 * motion
 
+## Prepare actor models
+
 ![Example of actors folder](/pages/content_actors.PNG)
 
 For actor models, DVVR will scan "actors" sub folder for all PMX files and store them in a list for you to select from. There is no particular requirement for organizing actor models other than making sure all the dependent texture files are in place relative to the PMX files. It is recommended to keep them in separate folders for easier maintenance and also remove pmx files that are not actor models. 
+
+## Prepare motion data
 
 ![Example of motion folder](/pages/content_motion.PNG)
 
@@ -20,4 +24,14 @@ The "motion" sub folder is where it look for the dance motion and music. In orde
 
 Once completed, select the folder you prepare when you launch DVVR.
 
+## Manage Content in app
+
+*Change content folder*
+
 There is currently no UI for changing the content folder after it is selected but you can remove the "config.json" in the app folder and next time you'll be asked to select the content folder again.
+
+*Exclude an entry from the list*
+
+In the selection dialog for actor or dance motion, use the "X" button to remove the entry from the list. 
+
+It doesn't actually delete the file but only creates an empty file next to it to mark it as excludded. To revert this exclusion, locate the PMX or VMD file and delete the empty file with ".block" extension next to it.
