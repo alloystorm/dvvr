@@ -14,7 +14,7 @@ The content folder needs to have 2 sub folders
 
 ![Example of actors folder](/pages/content_actors.PNG)
 
-For actor models, DVVR will scan "actors" sub folder for all PMX files and store them in a list for you to select from. There is no particular requirement for organizing actor models other than making sure all the dependent texture files are in place relative to the PMX files. It is recommended to keep them in separate folders for easier maintenance and also remove pmx files that are not charactor models. 
+For actor models, DVVR will scan "actors" sub folder for all PMX files and store them in a list for you to select from. There is no particular requirement for organizing actor models other than making sure all the dependent texture files are in place relative to the PMX files. It is recommended to keep them in separate folders for easier maintenance and also remove pmx files that are not character models. 
 
 ## Prepare motion data
 
