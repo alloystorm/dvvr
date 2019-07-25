@@ -16,7 +16,9 @@ In addition to the above mentioned auto adjustments, it also has tons of feature
 
 Please note that this is not opensource, the content within this repository is just documentation.
 
-## [Download](pages/blog/downloads.md)
+
+## [Download Demo Builds](pages/blog/downloads.md)
+
 
 ## Demo videos
 [Demo videos](pages/blog/demovideos.md)
