@@ -16,6 +16,8 @@ In addition to the above mentioned auto adjustments, it also has tons of feature
 
 Please note that this is not opensource, the content within this repository is just documentation.
 
+## [Download](pages/blog/downloads.md)
+
 ## Demo videos
 [Demo videos](pages/blog/demovideos.md)
 
@@ -28,9 +30,6 @@ Please note that this is not opensource, the content within this repository is j
   * Oculus 
   * Oculus Standalone coming soon
 Due to hardware availability, the VR experience is developed on and garenteed to work on Windows MR platform but should also work on any headset supporting OpenVR or Oculus including Rift and VIVE thanks to Unity engine XR system. 
-
-## Download
-Find the latest build in the [release section](https://github.com/alloystorm/dvvr/releases)
 
 ## Installation & content preparation 
 No installation is required, simply unzip and run. 
