@@ -2,8 +2,12 @@
 
 ## 0.2 Alpha released!
 Now supports XNALara models (XPS), as well as tons of other improvements!
-Get the 0.2 build: https://github.com/alloystorm/dvvr/releases/download/0.2/release0.2.zip
-Watch the demo video: https://youtu.be/HudMoueBbO4
+
+Get the 0.2 build: 
+https://github.com/alloystorm/dvvr/releases/download/0.2/release0.2.zip
+
+Watch the demo video: 
+https://youtu.be/HudMoueBbO4
 
 ## Introduction
 DVVR is a realtime MMD viewer made with Unity engine. The idea is to leverage the modern rendering techniques and scripting capabilities from Unity Engine to give the MMD community a powerful viewer for them to enjoy their content on both desktop platforms and VR. 
