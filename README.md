@@ -12,7 +12,7 @@ Watch the demo video:
 https://youtu.be/HudMoueBbO4
 
 
-## Introduction
+### Introduction
 DVVR is a realtime MMD viewer made with Unity engine. The idea is to leverage the modern rendering techniques and scripting capabilities from Unity Engine to give the MMD community a powerful viewer for them to enjoy their content on both desktop platforms and VR. 
 
 DVVR tries to decouple motion data from models to allow possibility of using a dance motion on different models with little or no modification at all. It has many automatic adjustments bulit-in to facilitate that goal. Such as:
@@ -30,7 +30,29 @@ In addition to the above mentioned auto adjustments, it also has tons of feature
 Please note that this is not opensource, the content within this repository is just documentation.
 
 
+### Getting started
+
+## Installation
+No installation is required, simply unzip and run. 
+
+
+## Content preparation 
+The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
+
+Once you have your model & motion files downloaded, you need to follow the following instructions to prepare your content folder for the app to find those files. 
+
+[instructions on this page to prepare your content folder](pages/blog/preparecontent.md)
+
+Then you'll be able to launch DVVR and select the content folder you prepared. If you accidentally selected wrong folder, you can delete the "config.json" file next to the DVVR executable and choose content folder again on the next launch.=
+
+
+### Download
 ## [Download Demo Builds](pages/blog/downloads.md)
+
+
+### Controls
+The app can be controled with keyboard, xbox controller or VR controllers.
+[Available controls are listed in this page](pages/blog/controls.md)
 
 
 ## Demo videos
@@ -46,16 +68,7 @@ Please note that this is not opensource, the content within this repository is j
   * Oculus Standalone coming soon
 Due to hardware availability, the VR experience is developed on and garenteed to work on Windows MR platform but should also work on any headset supporting OpenVR or Oculus including Rift and VIVE thanks to Unity engine XR system. 
 
-## Installation & content preparation 
-No installation is required, simply unzip and run. 
 
-The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
-
-On first launch you'll need to provide a path to your content folder for the app to find the models and motion files, follow [instructions on this page to prepare your content folder](pages/blog/preparecontent.md)
-
-
-## Usage
-[Controls can be found here](pages/blog/controls.md)
 
 ## Bug report & comment
 For feature request or bug report, please use the [GitHub issue tracking system](https://github.com/alloystorm/dvvr/issues).
