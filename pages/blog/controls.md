@@ -5,6 +5,10 @@ Operation | Keyboard | Xbox controller | VR
 --- | --- | --- | ---
 Toggle UI | Tab key | Select button | Left Menu Button
 Play / Pause music | Spacebar | Start button | Right Menu Button
+Load next model | L | B | Click Right Hand Touch Pad Right
+Load previous model | J | X | Click Right Hand Touch Pad Left
+Load next motion | K | A | Click Right Hand Touch Pad Down
+Load previous motion | I | Y | Click Right Hand Touch Pad Up
 Move forward | W | Left Shoulder + Left Joystick Forward | Left Grip + Left Joystick Forward
 Move back | S | Left Shoulder + Left Joystick Back | Left Grip + Left Joystick Back
 Move Left | A | Left Shoulder + Left Joystick Left | Left Grip + Left Joystick Left
