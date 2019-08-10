@@ -1,4 +1,4 @@
-## DVVR Dance Viewer VR
+# DVVR Dance Viewer VR
 
 ## 0.2 Alpha released!
 Now supports XNALara models (XPS), as well as tons of other improvements!
@@ -12,7 +12,7 @@ Watch the demo video:
 https://youtu.be/HudMoueBbO4
 
 
-### Introduction
+## Introduction
 DVVR is a realtime MMD viewer made with Unity engine. The idea is to leverage the modern rendering techniques and scripting capabilities from Unity Engine to give the MMD community a powerful viewer for them to enjoy their content on both desktop platforms and VR. 
 
 DVVR tries to decouple motion data from models to allow possibility of using a dance motion on different models with little or no modification at all. It has many automatic adjustments bulit-in to facilitate that goal. Such as:
@@ -30,13 +30,13 @@ In addition to the above mentioned auto adjustments, it also has tons of feature
 Please note that this is not opensource, the content within this repository is just documentation.
 
 
-### Getting started
+## Getting started
 
-## Installation
+### Installation
 No installation is required, simply unzip and run. 
 
 
-## Content preparation 
+### Content preparation 
 The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
 
 Once you have your model & motion files downloaded, you need to follow the following instructions to prepare your content folder for the app to find those files. 
@@ -46,11 +46,11 @@ Once you have your model & motion files downloaded, you need to follow the follo
 Then you'll be able to launch DVVR and select the content folder you prepared. If you accidentally selected wrong folder, you can delete the "config.json" file next to the DVVR executable and choose content folder again on the next launch.=
 
 
-### Download
-## [Download Demo Builds](pages/blog/downloads.md)
+## Download
+### [Download Demo Builds](pages/blog/downloads.md)
 
 
-### Controls
+## Controls
 The app can be controled with keyboard, xbox controller or VR controllers.
 [Available controls are listed in this page](pages/blog/controls.md)
 
