@@ -1,4 +1,4 @@
-A quick video that demonstration how to setup your content folder: youtu.be/JYEFUAP-3pk
+A quick video that demonstration how to setup your content folder: https://www.youtube.com/watch?v=JYEFUAP-3pk
 
 
 
