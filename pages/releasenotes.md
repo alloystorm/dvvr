@@ -1,10 +1,15 @@
 ## V0.2Alpha
-* Load XPS model
-* Async model loading
+* Support for XPS models
+* Async loading
 * Reworked IK solution
-* Support both T pose and A pose
+* Suport for non A-pose models
+* Enabled morph control
+
 
 ## V0.1Alpha
 First public release
-* Load PMX models
-* Load VMD motion
+* Support for PMX models
+* Support for VMD motion
+* Automatic correction of bone structure 
+* IK support for non-IK models
+* Foot correction
