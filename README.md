@@ -5,7 +5,7 @@ Now supports XNALara models (XPS), as well as tons of other improvements!
 
 Get the 0.2 build: 
 
-https://github.com/alloystorm/dvvr/releases/download/0.2/release0.2.zip
+https://github.com/alloystorm/dvvr/releases/
 
 Watch the demo video: 
 
