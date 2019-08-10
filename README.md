@@ -47,7 +47,9 @@ Then you'll be able to launch DVVR and select the content folder you prepared. I
 
 
 ## Download
-### [Download Demo Builds](pages/blog/downloads.md)
+Get the latest build from the release section:
+
+https://github.com/alloystorm/dvvr/releases
 
 
 ## Controls
