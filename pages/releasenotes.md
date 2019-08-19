@@ -1,3 +1,13 @@
+## v0.2.2 closed alpha
+* Volumetric fog
+* Floor reflection
+* Physics controled light balls
+
+## v0.2.2 public beta
+* Fixed material glossiness presentation
+* Fixed foot IK for certain dance motions
+* Reworked config UI
+
 ## V0.2Alpha
 * Support for XPS models
 * Async loading
