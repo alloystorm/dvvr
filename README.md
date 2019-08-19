@@ -1,9 +1,9 @@
 # DVVR Dance Viewer VR
 
-## 0.2.2 public beta build released!
+## 0.2.1 public beta build released!
 Now supports XNALara models (XPS), as well as tons of other improvements!
 
-Get the 0.2.2 public beta: 
+Get the 0.2.1 public beta: 
 https://github.com/alloystorm/dvvr/releases/
 
 ## 0.2.2 hdrp closed alpha build
