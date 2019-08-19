@@ -3,7 +3,7 @@
 * Floor reflection
 * Physics controled light balls
 
-## v0.2.2 public beta
+## v0.2.1 public beta
 * Fixed material glossiness presentation
 * Fixed foot IK for certain dance motions
 * Reworked config UI
