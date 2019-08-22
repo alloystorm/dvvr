@@ -41,11 +41,9 @@ No installation is required, simply unzip and run.
 ### Content preparation 
 The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
 
-Once you have your model & motion files downloaded, you need to follow the following instructions to prepare your content folder for the app to find those files. 
+Here is a guide on where to find and how to prepare your content for DVVR:
 
-[instructions on this page to prepare your content folder](pages/blog/preparecontent.md)
-
-Then you'll be able to launch DVVR and select the content folder you prepared. If you accidentally selected wrong folder, you can delete the "config.json" file next to the DVVR executable and choose content folder again on the next launch.=
+[A guide on finding and preparing your content](pages/blog/preparecontent.md)
 
 
 ## Download
