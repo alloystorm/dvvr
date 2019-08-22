@@ -1,4 +1,4 @@
-## Get started
+## Getting started
 
 Please watch this demonstration video in which I search and download model & motion files, set up the content folder and get DVVR running all in a couple of minutes. 
 
@@ -8,7 +8,7 @@ The basic requirement is that you need to have at least one VMD motion (as well 
 
 In most cases when DVVR complains about couldn't find model or motion files, it is because it couldn't located the required audio file for the motion. Please double check that your audio file is in place and in WAV format. 
 
-## Why there is no bundled model or motion with it
+## Why there is no bundled model or motion with DVVR
 
 DVVR doesn't come with models and motion included because we want to avoid licensing issues. Often creators don't like their work re-distritubed and it is sometimes hard to tell who actually owns the copyright. 
 
