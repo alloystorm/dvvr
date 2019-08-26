@@ -1,14 +1,38 @@
-## v0.2.2 closed alpha
-* Volumetric fog
-* Floor reflection
-* Physics controled light balls
+## 0.2.3
+### Both private and public branches. 
+Bug fixes & compatibility improvements.
 
-## v0.2.1 public beta
+Model compatibility
+* Ground position
+* Center Correction
+* Missing texture
+
+Bug fixes
+* Audio motion lag
+* Actor position lock fix
+* UI fixes
+
+New
+* Refine spotlight control
+* Simple looping
+* Micro motion
+* WASD keyboard control in VR
+ 
+
+## v0.2.2
+
+### Public branch
 * Fixed material glossiness presentation
 * Fixed foot IK for certain dance motions
 * Reworked config UI
 
-## V0.2Alpha
+### Private branch
+Everything in public branch plus
+* Volumetric fog
+* Floor reflection
+* Physics controled light balls
+
+## V0.2
 * Support for XPS models
 * Async loading
 * Reworked IK solution
