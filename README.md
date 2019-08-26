@@ -3,13 +3,19 @@
 ## Latest release
 ### 0.2.3 
 Bug fixes & compatibility improvements
+
 Public build download: 
+
 https://github.com/alloystorm/dvvr/releases/tag/0.2.3
+
 Private build:
+
 https://www.patreon.com/posts/0-2-3-hd-29457828
+
 Thank you for your support!
 
 Video demonstration of what's new in 0.2.3
+
 https://youtu.be/V1NbW-_V3vE
 
 For detailed change log, visit [release notes](pages/releasenotes.md)
