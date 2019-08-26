@@ -22,11 +22,13 @@ New
 ## 0.2.2
 
 ### Public branch
+* LWRP pipeline
 * Fixed material glossiness presentation
 * Fixed foot IK for certain dance motions
 * Reworked config UI
 
 ### Private branch
+* HDRP pipeline
 Everything in public branch plus
 * Volumetric fog
 * Floor reflection
