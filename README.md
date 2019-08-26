@@ -1,20 +1,18 @@
 # DVVR Dance Viewer VR
 
 ## Latest release
-### 0.2.1 public beta
-Now supports XNALara models (XPS), as well as tons of other improvements!
+### 0.2.3 
+Bug fixes & compatibility improvements
+Public build download: 
+https://github.com/alloystorm/dvvr/releases/tag/0.2.3
+Private build:
+https://www.patreon.com/posts/0-2-3-hd-29457828
+Thank you for your support!
 
-Get the 0.2.1 public beta: 
-https://github.com/alloystorm/dvvr/releases/
+Video demonstration of what's new in 0.2.3
+https://youtu.be/V1NbW-_V3vE
 
-### 0.2.2 hdrp closed alpha build
-Please follow the link to join closed alpha test
-https://www.patreon.com/posts/dvvr-0-2-2-hdrp-29278430
-
-Demo video for 0.2.2hdrp
-https://youtu.be/Ik_jhkgXxmM
-
-[Release Notes](pages/releasenotes.md)
+For detailed change log, visit [release notes](pages/releasenotes.md)
 
 
 ## Introduction
