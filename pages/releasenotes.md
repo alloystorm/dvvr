@@ -19,7 +19,7 @@ New
 * WASD keyboard control in VR
  
 
-## v0.2.2
+## 0.2.2
 
 ### Public branch
 * Fixed material glossiness presentation
@@ -32,7 +32,7 @@ Everything in public branch plus
 * Floor reflection
 * Physics controled light balls
 
-## V0.2
+## 0.2
 * Support for XPS models
 * Async loading
 * Reworked IK solution
@@ -40,7 +40,7 @@ Everything in public branch plus
 * Enabled morph control
 
 
-## V0.1Alpha
+## 0.1
 First public release
 * Support for PMX models
 * Support for VMD motion
