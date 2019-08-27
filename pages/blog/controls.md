@@ -4,7 +4,8 @@ Following controls are available in desktop & VR mode.
 Operation | Keyboard | Xbox controller | VR
 --- | --- | --- | ---
 Toggle UI | Tab key | Select button | Left Menu Button
-Click on UI elements | Mouse Button | N/A | Trigger
+Desktop UI interaction | Mouse Click | N/A | N/A
+VR UI interaction | N/A | N/A | Pointer + Trigger to click
 Play / Pause music | Spacebar | Start button | Right Menu Button
 Load next model | L | B | Click Right Hand Touch Pad Right
 Load previous model | J | X | Click Right Hand Touch Pad Left
