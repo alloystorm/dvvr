@@ -10,10 +10,7 @@ Load next model | L | B | Click Right Hand Touch Pad Right
 Load previous model | J | X | Click Right Hand Touch Pad Left
 Load next motion | K | A | Click Right Hand Touch Pad Down
 Load previous motion | I | Y | Click Right Hand Touch Pad Up
-Move forward | Left Shift + W<sup>3</sup> | Left Shoulder + Left Joystick Forward | Left Grip + Left Joystick Forward
-Move back | Left Shift + S<sup>3</sup> | Left Shoulder + Left Joystick Back | Left Grip + Left Joystick Back
-Move Left | Left Shift + A<sup>3</sup> | Left Shoulder + Left Joystick Left | Left Grip + Left Joystick Left
-Move Right | Left Shift + D<sup>3</sup> | Left Shoulder + Left Joystick Right | Left Grip + Left Joystick Right
+VR Mode Camera Fly | Left Shift + W, A, S, D<sup>3</sup> | Left Shoulder + Left Joystick | Left Grip + Left Joystick
 Desktop Mode Camera Fly | W, A, S, D | N/A | N/A 
 Desktop Mode Camera Up / Down | E, Q | N/A | N/A
 Look Around | Mouse Press & Drag | | 
