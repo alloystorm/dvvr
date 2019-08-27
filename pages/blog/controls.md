@@ -28,4 +28,4 @@ Change Auto Camera FOV<sup>2</sup> | I / K | A / Y button | Right Touch Pad Up /
 
 <sup>2</sup> Only if the camera is not being controled by animation track
 
-<sup>3</sup> Available since 0.2.3
+<sup>3</sup> Available since 0.2.3, works only when there is no VR controllers connected. 
