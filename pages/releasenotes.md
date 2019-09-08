@@ -18,7 +18,8 @@
   1. Tick the track from UI or use C to activate camera track
   2. Toggle off UI with controller menu button or Tab key on keyboard. The camera track controls main camera when UI is not present.
   3. To quit the camera control, toggle on UI again then tick off the camera track. 
-*Changes available in both public and private release branches*
+
+Above changes available in both public and private release branches
 
 ## 0.2.3
 ### Both private and public branches. 
