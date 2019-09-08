@@ -11,7 +11,7 @@
 * Updated PMX model physics interpretation, there are still issues in this area and will continue to work on this in the future versions.
 * Control updates
   * Keyboard C to toggle camera tracks
-  * WASD now works in VR when hand controllers available
+  * WASD now works in VR when hand controllers are connected
   * Updated hand controller detection
   * Attempt to get Index controller to work with UI
 * Camera tracks work in VR. 
