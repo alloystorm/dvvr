@@ -1,9 +1,13 @@
 ## 0.2.4
 * Able to launch in desktop mode only from a shortcut argument. 
-* Error handling when loading texture maps. Ignores texture error so the app can continue to function.
+  * Use "desktop_only.cmd" to launch in desktop mode only
+* Resolution dialog hidden by default
+  * Hold down alt key when launching DVVR if you wish to change resolution / window mode
+* Improved error handling when loading texture maps. So the app can continue to function without restart if an error is encountered.
 * Found a better way to find model ground position, the "Ground" settings is no longer necessary and removed from UI.
-* Feet correction improvements 
+* More accurate feet correction
 * Added texture settings for PMX models, can be used to change texture modes when the default value is not working well. 
+  * Mode 0: Opaque, 1: Cutoff mode, alpha value lower than 0.5 will be invisible. 2/3: Transparent mode, use alpha channel for transparency.
 * Updated PMX model physics interpretation, there are still issues in this area and will continue to work on this in the future versions.
 * Control updates
   * Keyboard C to toggle camera tracks
