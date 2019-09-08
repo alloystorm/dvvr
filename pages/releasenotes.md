@@ -1,22 +1,25 @@
 ## 0.2.4
+Preparing 0.2.4 release right now, will post download link later. 
+All changes available in both private and public release branches.
+
 * Able to launch in desktop mode only from a shortcut argument. 
-  * Use "desktop_only.cmd" to launch in desktop mode only
+  * Use the included "desktop_only.cmd" to launch in desktop mode only
 * Resolution dialog hidden by default
-  * Hold down alt key when launching DVVR if you wish to change resolution / window mode
-* Improved error handling when loading texture maps. So the app can continue to function without restart if an error is encountered.
-* Found a better way to find model ground position, the "Ground" settings is no longer necessary and removed from UI.
-* More accurate feet correction
+  * Hold down Alt key when launching DVVR if you wish to change resolution / window mode
+* Improved error handling when loading texture maps. So the app can continue to function without restart when error occurs.
+* Found a better way to get model ground position, the "Ground" setting introduced in the previous release is no longer required and removed from UI.
+* Updated feet correction, more accurate result.
 * Added texture settings for PMX models, can be used to change texture modes when the default value is not working well. 
   * Mode 0: Opaque, 1: Cutoff mode, alpha value lower than 0.5 will be invisible. 2/3: Transparent mode, use alpha channel for transparency.
-* Updated PMX model physics interpretation, there are still issues in this area and will continue to work on this in the future versions.
+* Updated PMX model physics interpretation, there are still issues in physics and we will continue to work on this in future releases.
 * Control updates
-  * Keyboard C to toggle camera tracks
-  * WASD now works in VR when hand controllers are connected
+  * Use C key on  keyboard to switch between camera tracks
+  * Left Shift + WASD navigation now works in VR when hand controllers are connected
   * Updated hand controller detection
-  * Attempt to get Index controller to work with UI
-* Camera tracks work in VR. 
-  1. Tick the track from UI or use C to activate camera track
-  2. Toggle off UI with controller menu button or Tab key on keyboard. The camera track controls main camera when UI is not present.
+  * Attempt to get Index controller to work with UI, looking forward to hear from Index users to see if this is working.
+* Camera tracks now work in VR. To activate it, 
+  1. Tick the track from UI or use C key to activate camera track
+  2. Camera tracks will stay inactive when UI is on screen, to ensure UI is controllable. Simply toggle off UI with left hand menu button or Tab key on keyboard to turn off UI and activate the selected camera track.
   3. To quit the camera control, toggle on UI again then tick off the camera track. 
 
 Above changes available in both public and private release branches
