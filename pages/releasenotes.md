@@ -6,14 +6,14 @@
 * Added texture settings for PMX models, can be used to change texture modes when the default value is not working well. 
 * Updated PMX model physics interpretation, there are still issues in this area and will continue to work on this in the future versions.
 * Control updates
- * Keyboard C to toggle camera tracks
- * WASD now works in VR when hand controllers available
- * Updated hand controller detection
- * Attempt to get Index controller to work with UI
+  * Keyboard C to toggle camera tracks
+  * WASD now works in VR when hand controllers available
+  * Updated hand controller detection
+  * Attempt to get Index controller to work with UI
 * Camera tracks work in VR. 
- 1. Tick the track from UI or use C to activate camera track
- 2. Toggle off UI with controller menu button or Tab key on keyboard. The camera track controls main camera when UI is not present.
- 3. To quit the camera control, toggle on UI again then tick off the camera track. 
+  1. Tick the track from UI or use C to activate camera track
+  2. Toggle off UI with controller menu button or Tab key on keyboard. The camera track controls main camera when UI is not present.
+  3. To quit the camera control, toggle on UI again then tick off the camera track. 
 *Changes available in both public and private release branches*
 
 ## 0.2.3
