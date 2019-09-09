@@ -11,6 +11,7 @@ Load next model | L | B | Click Right Hand Touch Pad Right
 Load previous model | J | X | Click Right Hand Touch Pad Left
 Load next motion | K | A | Click Right Hand Touch Pad Down
 Load previous motion | I | Y | Click Right Hand Touch Pad Up
+Switch camera track | C | N/A | N/A
 VR Mode Camera Fly | Left Shift + W, A, S, D<sup>3</sup> | Left Shoulder + Left Joystick | Left Grip + Left Joystick
 Desktop Mode Camera Fly | W, A, S, D | N/A | N/A 
 Desktop Mode Camera Up / Down | E, Q | N/A | N/A
