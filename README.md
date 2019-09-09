@@ -1,22 +1,16 @@
 # DVVR Dance Viewer VR
 
 ## Latest release
-### 0.2.3 
-Bug fixes & compatibility improvements
+### 0.2.4 
+Bug fixes, camera & control updates.
 
 Public build download: 
 
-https://github.com/alloystorm/dvvr/releases/tag/0.2.3
+https://github.com/alloystorm/dvvr/releases/tag/0.2.4
 
 Private build:
 
-https://www.patreon.com/posts/0-2-3-hd-29457828
-
-Thank you for your support!
-
-Video demonstration of what's new in 0.2.3
-
-https://youtu.be/V1NbW-_V3vE
+https://www.patreon.com/posts/dvvr-0-2-4-link-29802985
 
 For detailed change log, visit [release notes](pages/releasenotes.md)
 
