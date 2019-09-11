@@ -77,7 +77,9 @@ The app can be controled with keyboard, xbox controller or VR controllers.
 ## Support us
 The best way to support us is to download DVVR, use it and give us feedback. And if you like it, please recommend DVVR to your friends. 
 
-You can also fund us through [Patreon](https://patreon.com/alloystorm) or make one-off [donation through PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ULM8P3H5D8SRU&currency_code=USD&source=url)
+You can fund us through [Patreon](https://patreon.com/alloystorm) or make one-off [donation through PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ULM8P3H5D8SRU&currency_code=USD&source=url)
+
+Patreon supporters will have access to private releases on Patreon, and for PayPal donations, we'll also try to email you the download link to the latest private release if you leave an email address. 
 
 Thank you very much!
 
