@@ -73,6 +73,15 @@ The app can be controled with keyboard, xbox controller or VR controllers.
 ## Demo videos
 [Demo videos](pages/blog/demovideos.md)
 
+
+## Support us
+The best way to support us is to download DVVR, use it and give us feedback. And if you like it, please recommend DVVR to your friends. 
+
+You can also fund us through [Patreon](https://patreon.com/alloystorm) or make one-off [donation through PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ULM8P3H5D8SRU&currency_code=USD&source=url)
+
+Thank you very much!
+
+
 ## Availability
 * Windows Desktop
 * MacOSX
