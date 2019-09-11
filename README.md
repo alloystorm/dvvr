@@ -38,18 +38,17 @@ Please note that this is not opensource, the content within this repository is j
 ### Installation
 No installation is required, simply unzip and run. 
 
+### Private & public releases
+We have 2 release branches, the public releases contains basic features that are more stable and mature while private release will have the latest and the greatest as well as experimental features that may or may not make into the public release. 
+
+To gain access to the private release, see the support us section below. 
+
+
 ### HDRP & LWRP
-In the release section you might find builds labeled with HDRP or LWRP. Here is to explain what they mean. 
+In the release section you might find builds labeled with HDRP or LWRP. They are render pipelines available in Unity. LWRP stands for light weight and focuses on efficiency while HDRP provides the best image quality possible. 
 
-HDRP and LWRP are render pipelines available in Unity. LWRP stands for light weight and focuses on efficiency while HDRP provides the best image quality possible. 
+LWRP provides the best performance but lacks a bit graphics quality & effects comparing to HDRP. DVVR LWRP build can easily reach 90fps in VR on the latest mid-range graphic card while HDRP is about 60-75fps on the same setup. 
 
-LWRP is more suited for VR due to its performance. DVVR LWRP build can easily reach 90fps in VR on the latest mid-range graphic card. On the graphics quality side, it supports only up to 4 dynamic lights and limited effects. 
-
-HDRP offers a lot more on the graphics side, such as volumetric fog, reflection, refraction and will be supporting ray trace later this year. But it is about 15-20% slower than LWRP in VR. On the same setup we observed around 60-75fps in VR with the same model. Unity HDRP is still in preview and not production ready. 
-
-Due to their different characteristics, DVVR will be supporting both render pipelines. You can use LWRP for VR to enjoy the silky smooth motion (FPS does make a big difference) and on the desktop mode you can use HDRP for the best quality. Or you can enjoy the best of both worlds if you have a high-end setup. 
-
-Since HDRP is in preview and could have issues here and there, at the moment we reserve HDRP builds for private release branch only. Will be pushing that to public branch as soon as it is production ready.
 
 ### Content preparation 
 The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
