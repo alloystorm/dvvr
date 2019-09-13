@@ -1,24 +1,3 @@
-## 0.2.5
-Bug fixes, physics stability & UI updates
-
-Public branch:
-* HDRP build first public release
-* Physics improvements
-  * Fixed physics issues on certain models
-  * Improve stability
-* Further improvements of feet adjustment
-* Fixed camera motion FOV
-* Improved camera motion adjustment, can change height & FOV offsets
-* Improved default motion scale
-
-Private branch:
-* Fixed reflection control
-* Overall material control
-  * Change glossness of all materials
-  * Added material modifications
-* Various posing controls to blend actor pose 
-
-
 ## 0.2.4
 Bug fixes, control & camera updates.
 * Able to launch in desktop mode only from a shortcut argument. 
