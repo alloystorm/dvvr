@@ -9,6 +9,7 @@ Public branch:
 * Fixed camera motion FOV
 * Improved camera motion adjustment, can change height & FOV offsets
 * Improved default motion scale
+
 Private branch:
 * Fixed reflection control
 * Overall material control
