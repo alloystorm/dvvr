@@ -1,5 +1,6 @@
 ## 0.2.5
 Bug fixes, physics stability & UI updates
+
 Public branch:
 * HDRP build first public release
 * Physics improvements
