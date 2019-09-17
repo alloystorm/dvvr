@@ -45,8 +45,7 @@ To gain access to the private release, see the support us section below.
 ### HDRP & LWRP
 In the release section you might find builds labeled with HDRP or LWRP. They are render pipelines available in Unity. LWRP stands for light weight and focuses on efficiency while HDRP provides the best image quality possible. 
 
-LWRP provides the best performance but lacks a bit graphics quality & effects comparing to HDRP. DVVR LWRP build can easily reach 90fps in VR on the latest mid-range graphic card while HDRP is about 60-75fps on the same setup. 
-
+LWRP runs extremely fast therefore is best suited for VR. HDRP also supports VR but you might need to tune down graphics settings to get a high frame rate. For a quick comparison, on a RTX2070 build LWRP can usually keep stable 90fps while HDRP is about 60-75fps on the same setup. Obviously your experience might vary dependent on your hardware and the complexity of the model. 
 
 ### Content preparation 
 The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
