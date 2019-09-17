@@ -1,6 +1,10 @@
+## 0.2.5
+First HDRP public release, material controls, physics stability & bug fixes.
+[Full release notes](blog/releasenotes0.2.5.md)
+
 ## 0.2.4
 Bug fixes, control & camera updates.
-[DVVR 0.2.4 Release Notes](blog/releasenotes0.2.4.md)
+[Full release notes](blog/releasenotes0.2.4.md)
 
 ## 0.2.3
 ### Both private and public branches. 
