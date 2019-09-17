@@ -69,7 +69,9 @@ The app can be controled with keyboard, xbox controller or VR controllers.
 
 
 ## Demo videos
-[Demo videos](pages/blog/demovideos.md)
+For latest demo videos, visit our Youtube channel: https://www.youtube.com/channel/UC4kSPkrWRR_oE2QMOjFYwBg
+
+There you can find showcase recordings and walk-throughs of new features with each release, as well as tutorials about how to setup DVVR for the first time.
 
 
 ## Support us
