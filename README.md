@@ -21,7 +21,7 @@ DVVR is not yet-another ordinary MMD player. In addition to loading the model an
 * We fix bone structures on the fly, missing IK or wrong center position? No issue at all!
 * In addition to PMX models, we also support XPS models, they are usually better quality and more realistic than traditional PMXs. No conversion required!
 * Floor penatraiton? Not an issue any more! We implemented a robust algorithm to keep feet on the floor on every frame!
-* We use a custom made IK solver to eliminate jittering as much as possible.
+* We use a custom made IK solver to eliminate jittering and allow for motion blending & post processes for pose modifiers.
 
 In addition to the above, we also have lots of addons & modifiers to enhance the experience
 * Easy adjustable lighting & environment control
