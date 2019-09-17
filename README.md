@@ -16,19 +16,20 @@ For detailed change log, visit [release notes](pages/releasenotes.md)
 ## Introduction
 DVVR is a realtime MMD viewer made with Unity engine. The idea is to leverage the modern rendering techniques and scripting capabilities from Unity Engine to give the MMD community a powerful viewer for them to enjoy their content on both desktop platforms and VR. 
 
-DVVR tries to decouple motion data from models to allow possibility of using a dance motion on different models with little or no modification at all. It has many automatic adjustments bulit-in to facilitate that goal. Such as:
-* Automatically create IK bones for models without IK capability.
-* Automatically create missing bone structures required by motion data.
-* Custom made deterministic IK solution that removes unpredictability.
-* Automatically adjust foot position in real-time to make sure floor penetration doesn't happen at all. 
+DVVR is not yet-another ordinary MMD player. In addition to loading the model and playing the motion, we have tons of hard work put in to handling the model & motion in real-time, to ensure the best outcome possible. 
+* We broke the barrier between different model poses, T pose or A pose all work fine with any motion you find. 
+* We fix bone structures on the fly, missing IK or wrong center position? No issue at all!
+* In addition to PMX models, we also support XPS models, they are usually better quality and more realistic than traditional PMXs. No conversion required!
+* Floor penatraiton? Not an issue any more! We implemented a robust algorithm to keep feet on the floor on every frame!
+* We use a custom made IK solver to eliminate jittering as much as possible.
 
-In addition to the above mentioned auto adjustments, it also has tons of features to enhance the experience
-* VR support for all major VR platforms including Windows Mixed Reality
-* The best image quality in its class.
+In addition to the above, we also have lots of addons & modifiers to enhance the experience
 * Easy adjustable lighting & environment control
-* Life-like motions, such as blinking, breathing and [eye contact](pages/blog/eyecontact.md)
+* Models makes eye contact with viewer automatically
+* They blink, breath and makes micro movements like a real human does
+* Material modifiers for special effect like latex, chrome & glossness adjustments
 
-Please note that this is not opensource, the content within this repository is just documentation.
+And there are more coming with each release!
 
 
 ## Getting started
