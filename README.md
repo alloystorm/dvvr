@@ -1,16 +1,14 @@
 # DVVR Dance Viewer VR
 
 ## Latest release
-### 0.2.4 
-Bug fixes, camera & control updates.
+### 0.2.5 
+First HDRP public release, material controls, physics stability & bug fixes. 
 
 Public build download: 
-
-https://github.com/alloystorm/dvvr/releases/tag/0.2.4
+https://github.com/alloystorm/dvvr/releases/tag/0.2.5
 
 Private build:
-
-https://www.patreon.com/posts/dvvr-0-2-4-link-29802985
+https://www.patreon.com/posts/dvvr-0-2-5-29998197
 
 For detailed change log, visit [release notes](pages/releasenotes.md)
 
