@@ -35,7 +35,14 @@ And there are more coming with each release!
 ## Getting started
 
 ### Installation
-No installation is required, simply unzip and run. 
+No installation is required, simply unzip and run once you have your content folder prepared. 
+
+### Content preparation 
+The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
+
+Here is a guide on where to find and how to prepare your content for DVVR:
+
+[A guide on finding and preparing your content](pages/blog/preparecontent.md)
 
 ### Private & public releases
 We have 2 release branches, the public releases contains basic features that are more stable and mature while private release will have the latest and the greatest as well as experimental features that may or may not make into the public release. 
@@ -49,13 +56,6 @@ In the release section you might find builds labeled with HD or LW. They are ren
 LWRP runs extremely fast therefore is best suited for VR. HDRP also supports VR but you might need to tune down graphics settings to get a high frame rate. For a quick comparison, on a RTX2070 build LWRP can usually keep stable 90fps while HDRP is about 60-75fps on the same setup. Obviously your experience might vary dependent on your hardware and the complexity of the model. 
 
 Both LWRP and HDRP are fairly new to Unity and HDRP in particular is still in preview therefore do expect occational crashes...
-
-### Content preparation 
-The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
-
-Here is a guide on where to find and how to prepare your content for DVVR:
-
-[A guide on finding and preparing your content](pages/blog/preparecontent.md)
 
 
 ## Download
