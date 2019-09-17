@@ -47,6 +47,8 @@ In the release section you might find builds labeled with HD or LW. They are ren
 
 LWRP runs extremely fast therefore is best suited for VR. HDRP also supports VR but you might need to tune down graphics settings to get a high frame rate. For a quick comparison, on a RTX2070 build LWRP can usually keep stable 90fps while HDRP is about 60-75fps on the same setup. Obviously your experience might vary dependent on your hardware and the complexity of the model. 
 
+Both LWRP and HDRP are fairly new to Unity and HDRP in particular is still in preview therefore do expect occational crashes...
+
 ### Content preparation 
 The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
 
