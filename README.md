@@ -41,9 +41,8 @@ No installation is required, simply unzip and run once you have your content fol
 ### Content preparation 
 The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
 
-Here is a guide on where to find and how to prepare your content for DVVR:
+Here is [a guide on where to find and how to prepare your content for DVVR](pages/blog/preparecontent.md).
 
-[A guide on finding and preparing your content](pages/blog/preparecontent.md)
 
 ### Private & public releases
 We have 2 release branches, the public releases contains basic features that are more stable and mature while private release will have the latest and the greatest as well as experimental features that may or may not make into the public release. 
