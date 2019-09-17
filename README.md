@@ -28,6 +28,7 @@ In addition to the above, we also have lots of addons & modifiers to enhance the
 * Models makes eye contact with viewer automatically
 * They blink, breath and makes micro movements like a real human does
 * Material modifiers for special effect like latex, chrome & glossness adjustments
+* Controllable pose modifiers that blends motion on the fly
 
 And there are more coming with each release!
 
