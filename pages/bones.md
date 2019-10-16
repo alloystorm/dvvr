@@ -100,33 +100,33 @@ XPS (XNALara) models
     ├unused (unused)
       ├unused.001 (unused.001)
       ├unused.002 (unused.002)
-      └root hips (Center)
+      └<b>root hips (Center)*</b>
         └ (Groove)
           ├ (Waist)
           │ └pelvis (HipMaster)
-          │   ├leg left thigh (LeftLeg)
-          │   │ └leg left knee (LeftKnee)
-          │   │   └leg left ankle (LeftAnkle)
+          │   ├<b>leg left thigh (LeftLeg)*</b>
+          │   │ └<b>leg left knee (LeftKnee)*</b>
+          │   │   └<b>leg left ankle (LeftAnkle)*</b>
           │   │     └leg left toes (LeftToe)
-          │   └leg right thigh (RightLeg)
-          │     └leg right knee (RightKnee)
-          │       └leg right ankle (RightAnkle)
+          │   └<b>leg right thigh (RightLeg)*</b>
+          │     └<b>leg right knee (RightKnee)*</b>
+          │       └<b>leg right ankle (RightAnkle)*</b>
           │         └leg right toes (RightToe)
-          └spine lower (Torso)
+          └<b>spine lower (Torso)*</b>
             └spine middle (Torso1)
               └spine upper (Torso2)
                 ├head neck lower (Neck)
-                │ └head neck upper (Head)
+                │ └<b>head neck upper (Head)*</b>
                 │   ├head eyelid left upper (LeftEyelidUpper)
                 │   ├head eyeball right (RightEye)
                 │   ├head eyeball left (LeftEye)
                 │   ├head eyelid left lower (LeftEyelidLower)
                 │   ├head eyelid right lower (RightEyelidLower)
                 │   ├head eyelid right upper (RightEyelidUpper)
-                ├arm left shoulder 1 (LeftShoulder)
-                │ └arm left shoulder 2 (LeftArm)
-                │   ├arm left elbow (LeftElbow)
-                │   │ ├arm left wrist (LeftWrist)
+                ├<b>arm left shoulder 1 (LeftShoulder)*</b>
+                │ └<b>arm left shoulder 2 (LeftArm)*</b>
+                │   ├<b>arm left elbow (LeftElbow)*</b>
+                │   │ ├<b>arm left wrist (LeftWrist)*</b>
                 │   │ │ ├arm left finger 1a (LeftThumb1)
                 │   │ │ │ └arm left finger 1b (LeftThumb2)
                 │   │ │ │   └arm left finger 1c (LeftThumbTip)
@@ -147,10 +147,10 @@ XPS (XNALara) models
                 │   │ └arm left wrist tw (arm left wrist tw)
                 │   └arm left shoulder tw (arm left shoulder tw)
                 ├breasts (breasts)
-                └arm right shoulder 1 (RightShoulder)
-                  └arm right shoulder 2 (RightArm)
-                    └arm right elbow (RightElbow)
-                      └arm right wrist (RightWrist)
+                └<b>arm right shoulder 1 (RightShoulder)*</b>
+                  └<b>arm right shoulder 2 (RightArm)*</b>
+                    └<b>arm right elbow (RightElbow)*</b>
+                      └<b>arm right wrist (RightWrist)*</b>
                         ├arm right finger 1a (RightThumb1)
                         │ └arm right finger 1b (RightThumb2)
                         │   └arm right finger 1c (RightThumbTip)
@@ -167,3 +167,4 @@ XPS (XNALara) models
                           └arm right finger 5b (RightPinky2)
                             └arm right finger 5c (RightPinky3)
 </pre>
+<b>* indicates required bones</b>
