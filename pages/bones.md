@@ -168,4 +168,5 @@ A sample bone structure of XPS (XNALara) models:
                             └arm right finger 5c (RightPinky3)
 </pre>
 <b>* indicates required bones</b>
+
 At the moment the bone names have to match exactly in the list above for it to work. We do realize that there are models using completely different sets of names, unfortunately these models will not work in DVVR for now until we figure out a smarter bone mapping solution. 
