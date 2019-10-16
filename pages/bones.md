@@ -90,5 +90,6 @@ A typical PMX bone strucutre that works well with DVVR.
     └右足ＩＫ () (RightLegIK)
       └右つま先ＩＫ () (RightToeIK)
 </pre>
+<b>* indicates required bones</b>
 
-Most PMX models should work fine unless they are missing the requried bones which are bold and marked with "*". DVVR will automatically create the remaining bones that it needs such as IK bones.
+Most PMX models should work fine unless they are missing the requried bones. DVVR will automatically create the remaining bones that it needs such as IK bones.
