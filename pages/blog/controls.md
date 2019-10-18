@@ -1,7 +1,7 @@
 Following controls are available in desktop & VR mode.
 
 
-Operation | Keyboard | Xbox controller | VR
+Operation | Keyboard | Xbox style game controller | VR
 --- | --- | --- | ---
 Toggle UI | Tab key | Select button | Left Menu Button
 Desktop UI interaction | Mouse Click | N/A | N/A
@@ -13,7 +13,7 @@ Switch camera track | C | N/A | N/A
 Camera Fly<sup>3</sup> | W, A, S, D | Left Joystick | Left Joystick(Touchpad)
 Camera Up / Down<sup>3</sup> | E / Q / Up / Down | Right Joystick Up / Down | Right Joystick(Touchpad) Up / Down
 Rotate Actor<sup>3</sup> | Left / Right | Right Joystick Left / Right | Right Joystick(Touchpad) Left / Right
-Re-Center<sup>3</sup> | | | Left Grip + Left Trigger 
+Re-Center<sup>3</sup> | | Left Sholder + Left Trigger | Left Grip + Left Trigger 
 Look Around | Mouse Press & Drag | | 
 
 
