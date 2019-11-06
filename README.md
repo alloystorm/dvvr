@@ -80,7 +80,9 @@ You can fund us through [Patreon](https://patreon.com/alloystorm) or make one-of
 
 Patreon supporters will have access to private releases on Patreon, and for PayPal donations, we'll also try to email you the download link to the latest private release if you leave an email address. 
 
-Thank you very much!
+If you prefer an one-off purchase to access the private builds, you can buy from here: https://alloystorm.itch.io/dvvr
+
+Thank you very much for your support!
 
 
 ## Availability
