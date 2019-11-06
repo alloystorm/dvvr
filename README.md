@@ -1,16 +1,11 @@
 # DVVR Dance Viewer VR
 
 ## Latest release
-### 0.3.1 
-UI & control updates. Upgrade to Unity 2019.3 
-
-For latest download, please visit our Patreon page:
-
-LW public(free): https://www.patreon.com/posts/30855965
-
-LW private: https://www.patreon.com/posts/30856313
-
-HD private: https://www.patreon.com/posts/30856234
+### 0.3.2 
+Reworked camera track playback, plus UI improvements.  
+LW public(free): https://www.patreon.com/posts/release-0-3-2-31300717
+LW private: https://www.patreon.com/posts/release-0-3-2-31300663
+HD private: https://www.patreon.com/posts/release-0-3-2-31300680
 
 
 ## Introduction
