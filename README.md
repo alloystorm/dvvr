@@ -3,8 +3,11 @@
 ## Latest release
 ### 0.3.2 
 Reworked camera track playback, plus UI improvements.  
+
 LW public(free): https://www.patreon.com/posts/release-0-3-2-31300717
+
 LW private: https://www.patreon.com/posts/release-0-3-2-31300663
+
 HD private: https://www.patreon.com/posts/release-0-3-2-31300680
 
 
