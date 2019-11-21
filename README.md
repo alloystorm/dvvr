@@ -57,9 +57,7 @@ Both LWRP and HDRP are fairly new to Unity and HDRP in particular is still in pr
 
 
 ## Download
-Get the latest build from the release section:
-
-https://github.com/alloystorm/dvvr/releases
+Latest builds are published on our Patreon page: https://www.patreon.com/dvvr
 
 
 ## Controls
