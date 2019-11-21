@@ -1,14 +1,14 @@
 # DVVR Dance Viewer VR
 
 ## Latest release
-### 0.3.2 
-Reworked camera track playback, plus UI improvements.  
+### 0.4 
+Custom stages, virtual screens & various UI/UX improvements.   
 
-LW public(free): https://www.patreon.com/posts/release-0-3-2-31300717
+LW public(free): https://www.patreon.com/posts/release-0-4-31715495
 
-LW private: https://www.patreon.com/posts/release-0-3-2-31300663
+LW private: https://www.patreon.com/posts/release-0-4-for-31715781
 
-HD private: https://www.patreon.com/posts/release-0-3-2-31300680
+HD private: https://www.patreon.com/posts/release-0-4-for-31715721
 
 
 ## Introduction
