@@ -7,8 +7,7 @@
 * Simplified camera control
 * UI updates
 
-https://www.patreon.com/dvvr
-
+To download the latest builds, please visit https://www.patreon.com/dvvr
 
 ## Introduction
 DVVR is a realtime MMD viewer made with Unity engine. The idea is to leverage the modern rendering techniques and scripting capabilities from Unity Engine to give the MMD community a powerful viewer for them to enjoy their content on both desktop platforms and VR. 
