@@ -1,14 +1,13 @@
 # DVVR Dance Viewer VR
 
 ## Latest release
-### 0.4 
-Custom stages, virtual screens & various UI/UX improvements.   
+### 0.4.3 
+* Fixed PMX model distortion issue
+* Fixed actor scale control
+* Simplified camera control
+* UI updates
 
-LW public(free): https://www.patreon.com/posts/release-0-4-31715495
-
-LW private: https://www.patreon.com/posts/release-0-4-for-31715781
-
-HD private: https://www.patreon.com/posts/release-0-4-for-31715721
+https://www.patreon.com/dvvr
 
 
 ## Introduction
