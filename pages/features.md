@@ -9,3 +9,4 @@ Advanced material controls (Latex, Metallic & Gloss) | N/A | Available
 Material dissolve effect | N/A | Available
 Physics based light ball | N/A | Available
 Motion morphs | N/A | Available
+Fog control | N/A | Available in HDRP builds
