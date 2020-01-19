@@ -1,11 +1,9 @@
 # DVVR Dance Viewer VR
 
 ## Latest release
-### 0.4.3 
-* Fixed PMX model distortion issue
-* Fixed actor scale control
-* Simplified camera control
-* UI updates
+### 0.5 
+* Multiple actors (private builds only for now)
+* Physics improvements
 
 To download the latest builds, please visit https://www.patreon.com/dvvr
 
