@@ -21,6 +21,6 @@ Save scene | ✗ | ✓
 Load saved scenes | ✓ | ✓
 Advanced material controls (Latex, Chrome & Gloss sliders) | ✗ | ✓
 Dissolve effect | ✗ | ✓
-Light ball physics | ✗ | ✓
+Physics based light ball | ✗ | ✓
 Motion morphs | ✗ | ✓
 Multiple actors | ✗ | ✓
