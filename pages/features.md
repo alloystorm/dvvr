@@ -1,12 +1,14 @@
-Some features are only available in certain versions and some may behave differently on different variants. 
+Some features are not available in all versions and others may behave differently on different variants. 
 
-Feature | Public release | Private release
+Here is a list of such features and on which version are they available.
+
+Feature | Public builds | Private builds
 --- | --- | ---
-Load custome stages | Choose from 3 built-in stages | Able to load stages from PMX file
-Save selected actor / motion / stage into a scene file for later use | ✗ | ✓
-Load saved scene file | ✓ | ✓
-Advanced material controls (Latex, Metallic & Gloss) | ✗ | ✓
-Material dissolve effect | ✗ | ✓
-Physics based light ball | ✗ | ✓
-Motion morphs | ✗ | ✓
+Custome stages | Select from 3 built-in stages | built-in stage + loading custom PMX models
 Fog control | ✗ | ✓ (HDRP builds)
+Save scene | ✗ | ✓
+Load saved scenes | ✓ | ✓
+Advanced material controls (Latex, Chrome & Gloss sliders) | ✗ | ✓
+Dissolve effect | ✗ | ✓
+Light ball physics | ✗ | ✓
+Motion morphs | ✗ | ✓
