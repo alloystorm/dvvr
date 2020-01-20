@@ -12,10 +12,6 @@ Supporters | ✓ | ✓ | ✓ | ✓ | ✓
 
 ## Feature availability ##
 
-Some features are not available in all versions and others may behave differently on different variants. 
-
-Here is a list of such features and on which version are they available.
-
 Feature | Public builds | Private builds
 --- | --- | ---
 Custome stages | ✗ | ✓
