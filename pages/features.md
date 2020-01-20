@@ -3,11 +3,11 @@ We have 2 build variants, HDRP & LWRP, each use different render pipelines. And 
 ## Who gets what ##
 Here is a table of availability of different builds for different patron tiers
 
-Tiers | LWRP public | LWRP private | HDRP public | HDRP private | Content package
---- | --- | --- | --- | --- | --- | 
-Free / Fans | ✓ | ✗ | ✗ | ✗ | ✗ 
-Early birds | ✓ | ✓ | ✓ | ✗ | ✗ 
-Supporters | ✓ | ✓ | ✓ | ✓ | ✓ 
+Tiers | LWRP public | LWRP private | HDRP public | HDRP private | Content package | Vote for next feature
+--- | --- | --- | --- | --- | --- | --- | 
+Free / Fans | ✓ | ✗ | ✗ | ✗ | ✗ | ✗ 
+Early birds | ✓ | ✓ | ✓ | ✗ | ✗ | ✗ 
+Supporters | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ 
 
 
 ## Feature availability ##
