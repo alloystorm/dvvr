@@ -1,4 +1,4 @@
-We have 2 build variants, HDRP & LWRP, each use different render pipelines. And for each variant we have both public builds and private builds. New features will appear in the privates builds first and may become available in public builds when they are more stable. And private builds will also have dedicated advanced features too. 
+We have 2 build variants, HDRP & LWRP, each use a different render pipeline. And on each variant, we have 2 versions, public & private. In general new features appear in the private version first and may become available in public version later when they are more stable. And there are dedicated advanced features for private builds too.  
 
 ## Who gets what ##
 Here is a table of availability of different builds for different patron tiers
