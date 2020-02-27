@@ -1,6 +1,7 @@
 Starting from 0.5.2 release the controls on VR controllers are configurable. To use the default settings for your controller, go to settings and select the preset for your controller type in the input config. 
 
 The available control actions and default assignments are listed below
+
 Action | Type | Default keyboard control | Oculus | Windows Mixed Reality | HTC Vive | Valve Index
 --- | --- | --- | --- | --- | --- | --- 
 Toggle UI | Button | Esa Key | Left Button 1 | Left Menu | Left Menu | Left Button 1
