@@ -1,9 +1,17 @@
 # DVVR Dance Viewer VR
 
 ## Latest release
-### 0.5 
-* Multiple actors (private builds only for now)
-* Physics improvements
+### 0.7.1
+* Improved base bone structure for more accurate motion representation
+
+* Hand bones are now included in the base bone structure meaning hand motion should work accurately no matter of the model's standard pose. 
+
+* UI updates, improve efficiency & UX
+
+* Improved XPS physics
+
+* Dance remix that automatically adapts motion to work with alternative music pieces.  
+
 
 To download the latest builds, please visit https://www.patreon.com/dvvr
 
