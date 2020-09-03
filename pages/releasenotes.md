@@ -1,3 +1,67 @@
+## 0.7.1
+
+
+## 0.7
+https://www.patreon.com/posts/40230045
+
+## 0.6.3
+https://www.patreon.com/posts/38558214
+
+## 0.6.2
+https://www.patreon.com/posts/37468147
+
+## 0.6.1
+https://www.patreon.com/posts/36658089
+
+## 0.6
+https://www.patreon.com/posts/35668142
+
+## 0.5.3
+https://www.patreon.com/posts/34899808
+
+## 0.5.2
+https://www.patreon.com/posts/34158834
+
+## 0.5.1
+https://www.patreon.com/posts/33671682
+
+## 0.5
+https://www.patreon.com/posts/33251174
+
+## 0.4.4
+https://www.patreon.com/posts/32972137
+
+## 0.4.3
+https://www.patreon.com/posts/32321052
+
+## 0.4.2
+https://www.patreon.com/posts/32321052
+
+## 0.4
+https://www.patreon.com/posts/31715495
+* Custom stages (public version has 3 built-in stages to choose from while private version allows loading stage files from your content folder)
+* Virtual screens. This was available in early versions but later removed for performance reasons. Now it can be turned on in stage settings.  
+* Lighting control moved to stage settings, so each stage can have its own lighting setup. 
+* Saved scene data now include stage & its settings.
+* Various other fixes & improvements.
+
+
+## 0.3.2
+https://www.patreon.com/posts/31300717 
+* Media player repeat modes, 
+You can now switch between single / repeat one / repeat all / shuffle modes with a single button
+* Corrected camera track interpretation 
+Camera motion was wrong in all previous versions due to lack of documentation on the VMD file format. We've now worked out the correct interpretation so camera tracks will exactly match MikuMikuDance playback. 
+* UI updates & animations
+Now there are smooth transitions between UI windows. 
+* Load scene feature now available in public builds
+For content creators to publish their work with public builds of DVVR. 
+* All slider controls now have a simple toggle to turn on automatic updates with music timeline.  
+Once toggled on, the value will automatically be updated with the percentage value from music progress.  
+* Dissolving effect now available in private builds
+A fully customizable shader effect that simulates dissolving/tearing of cloth. 
+
+
 ## 0.3.1
 * Upgrade to Unity 2019.3, tons of updates & fixes from Unity for better performance & stability.
 
