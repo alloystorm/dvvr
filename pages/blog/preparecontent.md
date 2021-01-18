@@ -8,7 +8,6 @@ https://www.youtube.com/watch?v=JYEFUAP-3pk
 
 Basically you need a folder that contains a "actors" subfolder for all the character models, a "motion" folder for all the motion & music data, and starting from 0.4 release a "stages" folder for all custom stage models. When launching DVVR for the first time, use the built in browser to locate the content folder you prepared and you should be good to go after it scanned the entire folder. 
 
-![Select content folder](/pages/content_select.PNG)
 
 ## Prepare character models
 
