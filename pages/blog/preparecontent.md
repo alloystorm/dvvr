@@ -35,9 +35,14 @@ The recommendation is to keep motion sets in seperate folders, and make sure the
 
 If there are more than one audio file found in the folder, DVVR will assume that the VMD motion files that has the same filename is paired with the audio. So you can have one big folder with all your motion & audio files in it but it not a recommended layout from maintenance point of view.
 
-## Changing content folder
 
-There is currently no UI for changing the content folder after it is selected but you can remove the "config.json" in the app folder and next time you'll be asked to select the content folder again.
+## Force re-scan
+Content scan is done automatically on start if a change is detected. Otherwise it simply reads content from the cache to speed up load time. If required you can force it to rescan by going to settings -> options and click on "Refresh Content".
+
+
+## Changing content folder
+You can have multiple different content libraries and switch between them by going to settings -> options and click on "Change Library"
+
 
 ## Where to find content
 
