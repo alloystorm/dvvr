@@ -1,4 +1,4 @@
-## Getting started
+## The Content Library
 After you load up DVVR for the first time, once you attempt to load an actor or a motion, it will first prompt you to locate a "content" folder. That folder is where you should keep the content files so that DVVR can find them. The content files are categorized in a few different types and DVVR expects each different content types to be in a specific subfolder within your content library.
 
 
@@ -13,15 +13,19 @@ Here are the avaialble content types and expected names of subfolders:
 
 Out of these only "actors" and "motion" are requried, the others are all optional. 
 
+
 Once DVVR has scanned the content folder, it will generate a "cache.json" in there for faster loading next time. The cache file also contains the tagging & favourite information. A "scenes" folder will also be created for storing saved scenes. 
 
+
+One thing to keep in mind is that don't put the content folder within the folder of DVVR exe files. There is currently some issue that prevents it from loading content in that particular setup. 
+
+
+## Quick Setup Demo
 
 For a quick demonstration of how to setup a minimum required content library, please watch this video: 
 
 https://www.youtube.com/watch?v=JYEFUAP-3pk
 
-
-One thing to keep in mind is that don't put the content folder within the folder of DVVR exe files. There is currently some issue that prevents it from loading content in that particular setup. 
 
 
 ## Prepare character models
