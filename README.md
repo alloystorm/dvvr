@@ -1,19 +1,5 @@
 # DVVR Dance Viewer VR
 
-## Latest release
-### 0.7.1
-* Improved base bone structure for more accurate motion representation
-
-* Hand bones are now included in the base bone structure meaning hand motion should work accurately no matter of the model's standard pose. 
-
-* UI updates, improve efficiency & UX
-
-* Improved XPS physics
-
-* Dance remix that automatically adapts motion to work with alternative music pieces.  
-
-
-To download the latest builds, please visit https://www.patreon.com/dvvr
 
 ## Introduction
 DVVR is a realtime MMD viewer made with Unity engine. The idea is to leverage the modern rendering techniques and scripting capabilities from Unity Engine to give the MMD community a powerful viewer for them to enjoy their content on both desktop platforms and VR. 
