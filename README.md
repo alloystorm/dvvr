@@ -55,8 +55,11 @@ The app can be controled with keyboard, xbox controller or VR controllers.
 
 ## Videos
 Visit our Youtube channel for demos & tutorials: 
+
 https://www.youtube.com/channel/UC4kSPkrWRR_oE2QMOjFYwBg 
+
 Also available on LBRY. 
+
 https://lbry.tv/@alloystorm:e 
 
 
