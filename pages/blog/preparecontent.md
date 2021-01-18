@@ -1,12 +1,22 @@
 ## Getting started
+After you load up DVVR for the first time, once you attempt to load actor or motion, it will first prompt you to locate a "content" folder. That folder is where you should keep the content files so that DVVR can find them. The content files are categorized in a few different types and DVVR expects each different content types to be in a specific subfolder within your content library.
 
-DVVR requires a content library folder prepared to find all the data it needs, including character models, motion data and music. 
 
-You can watch this video for a quick demonstration of setting up a content folder for dvvr to use. 
+Here are the avaialble content types and expected names of subfolders:
+* actors - Actor models 
+* motion - Motion & audio files (vmd & wav)
+* stages - Stage models 
+* skys - Skymaps
+* textures - Replacement texture files for customizing stage
+* masks - Special texture files for the Outfit feature. e.g. you can add tatoo images here to place them on a character model. 
+
+
+Out of these only "actors" and "motion" are requried, the others are all optional. In addition, once DVVR has scanned the content folder, it will generate a "cache.json" in there for faster loading next time. The cache file also contains the tagging & favourite information. A "scenes" folder will also be created if you save a scene within DVVR. 
+
+
+For a quick demonstration of how to setup a basic content library, please watch this video: 
 
 https://www.youtube.com/watch?v=JYEFUAP-3pk
-
-Basically you need a folder that contains a "actors" subfolder for all the character models, a "motion" folder for all the motion & music data, and starting from 0.4 release a "stages" folder for all custom stage models. When launching DVVR for the first time, use the built in browser to locate the content folder you prepared and you should be good to go after it scanned the entire folder. 
 
 
 ## Prepare character models
