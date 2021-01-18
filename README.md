@@ -32,12 +32,12 @@ The app does not come with any model or dance motion, but they shouldn't be very
 Here is [a guide on where to find and how to prepare your content for DVVR](pages/blog/preparecontent.md).
 
 
-### Pro and Lite versions
+## Pro and Lite versions
 The Lit version (previously called public release) doesn't include advance features (Such as raytracing, auto motion, multiple actors etc). However the basic functionalities are all there, including VR. The Lite version on LW pipeline is free. 
 The Pro version contains the advanced features and is the quickest to get updates. It is available on all render pipelines including raytracing. It is only avaialble for patrons or if you purchase from https://alloystorm.itch.io/dvvr.  
 
 
-### Render pipelines
+## Render pipelines
 We currently have HD (HD render pipeline), LW (Universal render pipeline) and RT (Raytracing enabled) pipelines in parallel. 
 
 LW provides the best framerate, 
