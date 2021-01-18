@@ -11,12 +11,17 @@ Here are the avaialble content types and expected names of subfolders:
 * masks - Special texture files for the Outfit feature. e.g. you can add tatoo images here to place them on a character model. 
 
 
-Out of these only "actors" and "motion" are requried, the others are all optional. In addition, once DVVR has scanned the content folder, it will generate a "cache.json" in there for faster loading next time. The cache file also contains the tagging & favourite information. A "scenes" folder will also be created if you save a scene within DVVR. 
+Out of these only "actors" and "motion" are requried, the others are all optional. 
+
+Once DVVR has scanned the content folder, it will generate a "cache.json" in there for faster loading next time. The cache file also contains the tagging & favourite information. A "scenes" folder will also be created for storing saved scenes. 
 
 
-For a quick demonstration of how to setup a basic content library, please watch this video: 
+For a quick demonstration of how to setup a minimum required content library, please watch this video: 
 
 https://www.youtube.com/watch?v=JYEFUAP-3pk
+
+
+One thing to keep in mind is that don't put the content folder within the folder of DVVR exe files. There is currently some issue that prevents it from loading content in that particular setup. 
 
 
 ## Prepare character models
