@@ -46,18 +46,16 @@ The app does not come with any model or dance motion, but they shouldn't be very
 Here is [a guide on where to find and how to prepare your content for DVVR](pages/blog/preparecontent.md).
 
 
-### Private & public releases
-We have 2 release branches, the public releases contains basic features that are more stable and mature while private release will have the latest and the greatest as well as experimental features that may or may not make into the public release. 
+### Pro and Lite versions
+The Lit version (previously called public release) doesn't include advance features (Such as raytracing, auto motion, multiple actors etc). However the basic functionalities are all there, including VR. The Lite version on LW pipeline is free. 
+The Pro version contains the advanced features and is the quickest to get updates. It is available on all render pipelines including raytracing. It is only avaialble for patrons or if you purchase from https://alloystorm.itch.io/dvvr.  
 
-To gain access to the private release, see the support us section below. 
 
-
-### HDRP & LWRP
-In the release section you might find builds labeled with HD or LW. They are render pipelines available in Unity. LWRP stands for light weight and focuses on efficiency while HDRP provides the best image quality possible. 
-
-LWRP runs extremely fast therefore is best suited for VR. HDRP also supports VR but you might need to tune down graphics settings to get a high frame rate. For a quick comparison, on a RTX2070 build LWRP can usually keep stable 90fps while HDRP is about 60-75fps on the same setup. Obviously your experience might vary dependent on your hardware and the complexity of the model. 
-
-Both LWRP and HDRP are fairly new to Unity and HDRP in particular is still in preview therefore do expect occational crashes...
+### Render pipelines
+We currently have HD (HD render pipeline), LW (Universal render pipeline) and RT (Raytracing enabled) pipelines in parallel. 
+LW provides the best framerate, 
+RT has the best image quality through raytracing but is not available in VR, 
+HD has great render quality and is also available in VR.
 
 
 ## Download
@@ -69,22 +67,19 @@ The app can be controled with keyboard, xbox controller or VR controllers.
 [Available controls are listed in this page](pages/blog/controls.md)
 
 
-## Demo videos
-For latest demo videos, visit our Youtube channel: https://www.youtube.com/channel/UC4kSPkrWRR_oE2QMOjFYwBg
-
-There you can find showcase recordings and walk-throughs of new features with each release, as well as tutorials about how to setup DVVR for the first time.
+## Videos
+Visit our Youtube channel for demos & tutorials: 
+https://www.youtube.com/channel/UC4kSPkrWRR_oE2QMOjFYwBg 
+Also available on LBRY. 
+https://lbry.tv/@alloystorm:e 
 
 
 ## Support us
 The best way to support us is to download DVVR, use it and give us feedback. And if you like it, please recommend DVVR to your friends. 
 
-You can fund us through [Patreon](https://patreon.com/alloystorm) or make one-off [donation through PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ULM8P3H5D8SRU&currency_code=USD&source=url)
+You can fund us through [Patreon](https://patreon.com/alloystorm) or purchase from here https://alloystorm.itch.io/dvvr
 
-Patreon supporters will have access to private releases on Patreon, and for PayPal donations, we'll also try to email you the download link to the latest private release if you leave an email address. 
-
-If you prefer an one-off purchase to access the private builds, you can buy from here: https://alloystorm.itch.io/dvvr
-
-Thank you very much for your support!
+Updates will be published on Patreon first and patrons have access to Pro versions & HD & RT builds depending on your tier. 
 
 
 ## Availability
