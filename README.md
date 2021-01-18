@@ -39,8 +39,11 @@ The Pro version contains the advanced features and is the quickest to get update
 
 ### Render pipelines
 We currently have HD (HD render pipeline), LW (Universal render pipeline) and RT (Raytracing enabled) pipelines in parallel. 
+
 LW provides the best framerate, 
+
 RT has the best image quality through raytracing but is not available in VR, 
+
 HD has great render quality and is also available in VR.
 
 
