@@ -1,9 +1,3 @@
----
-layout: page
-title: Content Library
-permalink: /dvvr/content/
----
-
 ## The Content Library
 After you load up DVVR for the first time, once you attempt to load an actor or a motion, it will first prompt you to locate a "content" folder. That folder is where you should keep the content files so that DVVR can find them. The content files are categorized in a few different types and DVVR expects each different content types to be in a specific subfolder within your content library.
 
