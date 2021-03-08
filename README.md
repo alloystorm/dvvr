@@ -31,6 +31,7 @@ The app does not come with any model or dance motion, but they shouldn't be very
 
 Here is [a guide on where to find and how to prepare your content for DVVR](pages/blog/preparecontent.md).
 
+Please be aware that the developer of this program does not take any responsibility for the content loaded by the user. The user is responsible to to ensure that all the content that they use with DVVR satisfy all the legal & copyright requirements. 
 
 ## Pro and Lite versions
 The Lit version (previously called public release) doesn't include advance features (Such as raytracing, auto motion, multiple actors etc). However the basic functionalities are all there, including VR. The Lite version on LW pipeline is free. 
@@ -72,6 +73,10 @@ The best way to support us is to download DVVR, use it and give us feedback. And
 You can fund us through [Patreon](https://patreon.com/alloystorm) or purchase from here https://alloystorm.itch.io/dvvr
 
 Updates will be published on Patreon first and patrons have access to Pro versions & HD & RT builds depending on your tier. 
+
+
+## Terms & Conditions
+By using this program, the user agrees that they take full responsiblity for the content that they use with the program and that all the content that are used meet all the legal & copyright requirements. The developer of DanceViewerVR does not take any responsibility for the content created or downloaded by the user.  
 
 
 ## Availability
