@@ -38,11 +38,21 @@ For actor models, DVVR will scan "actors" sub folder for all PMX & XPS files and
 
 ![Example of motion folder](/pages/content_motion.PNG)
 
-Each motion set must have an audio file in WAV format, as well as one or more VMD motion tracks. 
+Each motion set must have an audio file in WAV or OGG format, as well as one or more VMD motion tracks. 
 
 The recommendation is to keep motion sets in seperate folders, and make sure there is only one WAV audio file in the folder. 
 
 If there are more than one audio file found in the folder, DVVR will assume that the VMD motion files that has the same filename is paired with the audio. So you can have one big folder with all your motion & audio files in it but it not a recommended layout from maintenance point of view.
+
+## Zip archives
+From 0.9 release DVVR supports loading content directly from a ZIP package. 
+
+* For a character model, you can zip all the files related to the model within a single zip package, this includes mesh data, textures and other files that are related. 
+* For a motion data, you can include the audio file, multiple VMD motion tracks with in the same zip package. 
+
+## Mobile & standalone platforms
+From 0.9 Android platform is supported, this includes Oculus Quest 1 & 2 as well as Android phones & tablets. 
+Watch this tutorial to find out how to load content onto your Android device: https://www.youtube.com/watch?v=ZmDeuWwZtmI
 
 
 ## Force re-scan
