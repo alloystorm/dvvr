@@ -31,6 +31,8 @@ The app does not come with any model or dance motion, but they shouldn't be very
 
 Here is [a guide on where to find and how to prepare your content for DVVR](pages/blog/preparecontent.md).
 
+From 0.9 release DVVR supports loading content from zip archives and is available on mobile platforms suchs as standalone VR headsets & mobile phones & tablets. Preparing content for those platforms can be different from that for a PC. Please read the above page for more details. 
+
 Please be aware that the developer of this program does not take any responsibility for the content loaded by the user. The user is responsible to to ensure that all the content that they use with DVVR satisfy all the legal & copyright requirements. 
 
 ## Pro and Lite versions
