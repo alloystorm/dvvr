@@ -2,9 +2,9 @@
 
 
 ## Introduction
-DanceXR is a realtime MMD viewer made with Unity engine. The idea is to leverage the modern rendering techniques and scripting capabilities from Unity Engine to give the MMD community a powerful viewer for them to enjoy their content on both desktop platforms and VR. 
+DanceXR is an universal 3D character model viewer and motion player with a focus on VR. It is built with Unity. The idea is to leverage the modern rendering techniques and scripting capabilities from Unity Engine to give the MMD community a powerful viewer for them to enjoy their content on both desktop platforms and VR. 
 
-DanceXR is not yet-another ordinary MMD player. In addition to loading the model and playing the motion, we have tons of hard work put in to handling the model & motion in real-time, to ensure the best outcome possible. 
+DanceXR is not just a MMD player. Tons of work has gone into it to make it the most versatile and easy to use character model viewer & motion player. 
 * We broke the barrier between different model poses, T pose or A pose all work fine with any motion you find. 
 * We fix bone structures on the fly, missing IK or wrong center position? No issue at all!
 * In addition to PMX models, we also support XPS models, they are usually better quality and more realistic than traditional PMXs. No conversion required!
