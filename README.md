@@ -51,7 +51,9 @@ HD has great render quality and is also available in VR.
 
 
 ## Download
+
 Get the latest version from: https://www.patreon.com/dvvr (Free download available and patrons can get access to the pro version)
+
 Or purchase from our itch.io store: https://stormlab.itch.io/dvvr
 
 
