@@ -1,10 +1,10 @@
-# DVVR Dance Viewer VR
+# DanceXR (aka DVVR Dance Viewer VR)
 
 
 ## Introduction
-DVVR is a realtime MMD viewer made with Unity engine. The idea is to leverage the modern rendering techniques and scripting capabilities from Unity Engine to give the MMD community a powerful viewer for them to enjoy their content on both desktop platforms and VR. 
+DanceXR is a realtime MMD viewer made with Unity engine. The idea is to leverage the modern rendering techniques and scripting capabilities from Unity Engine to give the MMD community a powerful viewer for them to enjoy their content on both desktop platforms and VR. 
 
-DVVR is not yet-another ordinary MMD player. In addition to loading the model and playing the motion, we have tons of hard work put in to handling the model & motion in real-time, to ensure the best outcome possible. 
+DanceXR is not yet-another ordinary MMD player. In addition to loading the model and playing the motion, we have tons of hard work put in to handling the model & motion in real-time, to ensure the best outcome possible. 
 * We broke the barrier between different model poses, T pose or A pose all work fine with any motion you find. 
 * We fix bone structures on the fly, missing IK or wrong center position? No issue at all!
 * In addition to PMX models, we also support XPS models, they are usually better quality and more realistic than traditional PMXs. No conversion required!
@@ -29,11 +29,11 @@ No installation is required, simply unzip and run once you have your content fol
 ### Content preparation 
 The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
 
-Here is [a guide on where to find and how to prepare your content for DVVR](pages/blog/preparecontent.md).
+Here is [a guide on where to find and how to prepare your content for DanceXR](pages/blog/preparecontent.md).
 
-From 0.9 release DVVR supports loading content from zip archives and is available on mobile platforms suchs as standalone VR headsets & mobile phones & tablets. Preparing content for those platforms can be different from that for a PC. Please read the above page for more details. 
+From 0.9 release DanceXR supports loading content from zip archives and is available on mobile platforms suchs as standalone VR headsets & mobile phones & tablets. Preparing content for those platforms can be different from that for a PC. Please read the above page for more details. 
 
-Please be aware that the developer of this program does not take any responsibility for the content loaded by the user. The user is responsible to to ensure that all the content that they use with DVVR satisfy all the legal & copyright requirements. 
+Please be aware that the developer of this program does not take any responsibility for the content loaded by the user. The user is responsible to to ensure that all the content that they use with DanceXR satisfy all the legal & copyright requirements. 
 
 ## Pro and Lite versions
 The Lit version (previously called public release) doesn't include advance features (Such as raytracing, auto motion, multiple actors etc). However the basic functionalities are all there, including VR. The Lite version on LW pipeline is free. 
@@ -70,7 +70,7 @@ https://lbry.tv/@alloystorm:e
 
 
 ## Support us
-The best way to support us is to download DVVR, use it and give us feedback. And if you like it, please recommend DVVR to your friends. 
+The best way to support us is to download DanceXR, use it and give us feedback. And if you like it, please recommend DanceXR to your friends. 
 
 You can fund us through [Patreon](https://patreon.com/alloystorm) or purchase from here https://alloystorm.itch.io/dvvr
 
