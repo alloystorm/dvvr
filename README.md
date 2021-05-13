@@ -51,7 +51,8 @@ HD has great render quality and is also available in VR.
 
 
 ## Download
-Latest builds are published on our Patreon page: https://www.patreon.com/dvvr
+Get the latest version from: https://www.patreon.com/dvvr (Free download available and patrons can get access to the pro version)
+Or purchase from our itch.io store: https://stormlab.itch.io/dvvr
 
 
 ## Controls
@@ -72,7 +73,7 @@ https://lbry.tv/@alloystorm:e
 ## Support us
 The best way to support us is to download DanceXR, use it and give us feedback. And if you like it, please recommend DanceXR to your friends. 
 
-You can fund us through [Patreon](https://patreon.com/alloystorm) or purchase from here https://alloystorm.itch.io/dvvr
+You can fund us through [Patreon](https://patreon.com/alloystorm) or purchase from here https://stormlab.itch.io/dvvr
 
 Updates will be published on Patreon first and patrons have access to Pro versions & HD & RT builds depending on your tier. 
 
