@@ -2,3 +2,4 @@ theme: jekyll-theme-minimal
 title: VR Storm Lab
 description: DanceXR universal 3D character model viewer & motion player. 
 google_analytics: UA-147265380-2
+include: app-ads.txt
