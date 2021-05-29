@@ -1,25 +1,12 @@
-# DanceXR (formerly Dance Viewer VR)
+# DanceXR (DVVR)
 
 
 ## Introduction
-DanceXR is an universal 3D character model viewer and motion player with a focus on VR. It is built with Unity. The idea is to leverage the modern rendering techniques and scripting capabilities from Unity Engine to give the MMD community a powerful viewer for them to enjoy their content on both desktop platforms and VR. 
+DanceXR is a character model viewer and motion player. It supports PMX(MMD) & XNALara/XPS models and VMD motion format. Unlike other MMD players DanceXR allows almost any motion to play on any model without any manual tweaking or bone adjustments. 
 
-DanceXR is not just a MMD player. Tons of work has gone into it to make it the most versatile and easy to use character model viewer & motion player. 
-* We broke the barrier between different model poses, T pose or A pose all work fine with any motion you find. 
-* We fix bone structures on the fly, missing IK or wrong center position? No issue at all!
-* In addition to PMX models, we also support XPS models, they are usually better quality and more realistic than traditional PMXs. No conversion required!
-* Floor penatraiton? Not an issue any more! We implemented a robust algorithm to keep feet on the floor on every frame!
-* We use a custom made IK solver to eliminate jittering and allow for motion blending & post processes for pose modifiers.
+It doesn't matter whether the model has IK bones or is it in T pose or A pose, the model & motion are adapted automatically on the fly by our unique motion system to ensure the maximum compatibility.
 
-In addition to the above, we also have lots of addons & modifiers to enhance the experience
-* Easy adjustable lighting & environment control
-* Models makes eye contact with viewer automatically
-* They blink, breath and makes micro movements like a real human does
-* Material modifiers for special effect like latex, chrome & glossness adjustments
-* Controllable pose modifiers that blends motion on the fly
-
-And there are more coming with each release!
-
+There are also tons of built-in features to make the characters more life-like. You can see them breathing, blinking eyes naturally and even making eye contact with you. Plus there are procedural motions for you to use and more features added every month with each updates.  
 
 ## Getting started
 
@@ -86,15 +73,7 @@ By using this program, the user agrees that they take full responsiblity for the
 
 
 ## Availability
-* Windows Desktop
-* MacOSX
-* VR Platforms 
-  * Windows MR
-  * OpenVR
-  * Oculus 
-  * Oculus Standalone coming soon
-Due to hardware availability, the VR experience is developed on and garenteed to work on Windows MR platform but should also work on any headset supporting OpenVR or Oculus including Rift and VIVE thanks to Unity engine XR system. 
-
+DanceXR currently is available on all desktop VR platforms like Oculus & SteamVR. Also available on Oculus Quest and its mobile version DanceXR Portable is currently available on Android.
 
 
 ## Bug report & comment
