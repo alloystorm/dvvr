@@ -1,4 +1,4 @@
-# DanceXR (aka DVVR Dance Viewer VR)
+# DanceXR (formerly Dance Viewer VR)
 
 
 ## Introduction
