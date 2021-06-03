@@ -61,6 +61,8 @@ Also available on LBRY.
 
 https://lbry.tv/@alloystorm:e 
 
+## Troubleshooting
+[Read about troubleshooting](pages/troubleshooting.md)
 
 ## Support us
 The best way to support us is to download DanceXR, use it and give us feedback. And if you like it, please recommend DanceXR to your friends. 
