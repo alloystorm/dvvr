@@ -24,27 +24,23 @@ From 0.9 release zip archives are supported, read this page for [ZIP package rel
 
 Please be aware that the developer of this program does not take any responsibility for the content loaded by the user. The user is responsible to to ensure that all the content that they use with DanceXR satisfy all the legal & copyright requirements. 
 
-## Pro and Lite versions
-The Lit version (previously called public release) doesn't include advance features (Such as raytracing, auto motion, multiple actors etc). However the basic functionalities are all there, including VR. The Lite version on LW pipeline is free. 
-The Pro version contains the advanced features and is the quickest to get updates. It is available on all render pipelines including raytracing. It is only avaialble for patrons or if you purchase from https://alloystorm.itch.io/dvvr.  
-
-
-## Render pipelines
-We currently have HD (HD render pipeline), LW (Universal render pipeline) and RT (Raytracing enabled) pipelines in parallel. 
-
-LW provides the best framerate, 
-
-RT has the best image quality through raytracing but is not available in VR, 
-
-HD has great render quality and is also available in VR.
-
+## Different versions
+From feature perspective, there are Lite and Pro versions. From platform perspective, we currently have PC, Android and Oculus Quest. And for the PC platform, we have LW (Universal Render Pipeline, used to be called LWRP), HD (High Definition Render Pipeline) and RT (HDRP with raytracing) variations. 
+Lite has basic functionalities, but only support one actor in the scene.
+Pro supports multiple actors, has access to advanced shaders and procedural motions. 
+Differences between different render pipelines are mainly image quality, but higher quality also means lower FPS. And raytracing is not supported in VR.
+[Detailed feature list & availabilities](pages/features.md)
 
 ## Download
-Get the latest version from: https://www.patreon.com/dvvr (Free download available and patrons can get access to the pro version)
 
+PC versions are published on Patreon
+https://www.patreon.com/dvvr
 
-Or purchase from our itch.io store: https://stormlab.itch.io/dvvr
+The Android version can be found on Google Play
+https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr
 
+Oculus Quest can be downloaded on itch.io
+https://stormlab.itch.io/dancexr-quest
 
 
 ## Controls
