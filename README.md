@@ -16,9 +16,11 @@ No installation is required, simply unzip and run once you have your content fol
 ### Content preparation 
 The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
 
-Here is [a guide on where to find and how to prepare your content for DanceXR](pages/blog/preparecontent.md).
+Here is [a guide on how to prepare your content on PC](pages/blog/preparecontent.md).
 
-From 0.9 release DanceXR supports loading content from zip archives and is available on mobile platforms suchs as standalone VR headsets & mobile phones & tablets. Preparing content for those platforms can be different from that for a PC. Please read the above page for more details. 
+For Android and Quest versions [read here](pages/content_android_quest.md)
+
+From 0.9 release zip archives are supported, [Please read this page for ZIP package related topic](pages/zip_package.md). 
 
 Please be aware that the developer of this program does not take any responsibility for the content loaded by the user. The user is responsible to to ensure that all the content that they use with DanceXR satisfy all the legal & copyright requirements. 
 
