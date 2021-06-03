@@ -17,12 +17,11 @@ Supporters | ✓ | ✓ | ✓ | ✓ | ✓ | ✓
 Feature | Public builds | Private builds
 --- | --- | ---
 Custome stages | ✗ | ✓
-| | Select from 3 built-in stages | built-in stage + loading custom PMX models
-Fog control | ✗ | ✓ (HDRP builds)
 Save scene | ✗ | ✓
 Load saved scenes | ✓ | ✓
-Advanced material controls (Latex, Chrome & Gloss sliders) | ✗ | ✓
-Dissolve effect | ✗ | ✓
-Physics based light ball | ✗ | ✓
-Motion morphs | ✗ | ✓
+Outfit (stockings) effect | ✗ | ✓
+Light ball | ✗ | ✓
 Multiple actors | ✗ | ✓
+Catwalk motion | ✓ | ✓
+Auto dance motion | ✗ | ✓
+Cowgirl motion | ✗ | ✓
