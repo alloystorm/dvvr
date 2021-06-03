@@ -7,6 +7,9 @@
 * The content cache file might not be fully compatible across different versions, if you start to experience issues after accessing the same content on an older version, you can try refresh the entire content to see if that solves the problem. 
 * Reset config for a particular model or motion. If you messed up the configurations, you can simply delete the JSON file next to the model or motion and have everything reset for you. 
 
+### Common problems
+* White eye: Usually this is due to certain transparent layer over the eyes renderred incorrectly. Try to go to the material settings and find something like "eye shadow" or "eye highlight" and set it as transparent. 
+* Model loads but textures are just white. If this is in a ZIP package, it could be due to the encoding issue, sometimes it is not able to locate files when the folder name contains non-english characters. [Set the correct encoding can solve this issue](zip_format.md).
 
 ### Locate log files (PC only)
 
