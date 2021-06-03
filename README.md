@@ -20,7 +20,7 @@ Here is [a guide on how to prepare your content on PC](pages/blog/preparecontent
 
 [Preapring content for Android and Quest versions read here](pages/content_android_quest.md)
 
-From 0.9 release zip archives are supported, [read this page for ZIP package related topics](pages/zip_package.md). 
+From 0.9 release zip archives are supported, [read this page for ZIP package related topics](pages/zip_format.md). 
 
 Please be aware that the developer of this program does not take any responsibility for the content loaded by the user. The user is responsible to to ensure that all the content that they use with DanceXR satisfy all the legal & copyright requirements. 
 
