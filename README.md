@@ -63,21 +63,12 @@ https://lbry.tv/@alloystorm:e
 ## Troubleshooting
 [Read about troubleshooting](pages/troubleshooting.md)
 
-## Support us
-The best way to support us is to download DanceXR, use it and give us feedback. And if you like it, please recommend DanceXR to your friends. 
 
-You can fund us through [Patreon](https://patreon.com/alloystorm) or purchase from here https://stormlab.itch.io/dvvr
-
-Updates will be published on Patreon first and patrons have access to Pro versions & HD & RT builds depending on your tier. 
+## Bug report & comment
+For feature request or bug report, please use the [GitHub issue tracking system](https://github.com/alloystorm/dvvr/issues).
 
 
 ## Terms & Conditions
 By using this program, the user agrees that they take full responsiblity for the content that they use with the program and that all the content that are used meet all the legal & copyright requirements. The developer of DanceViewerVR does not take any responsibility for the content created or downloaded by the user.  
 
 
-## Availability
-DanceXR currently is available on all desktop VR platforms like Oculus & SteamVR. Also available on Oculus Quest and its mobile version DanceXR Portable is currently available on Android.
-
-
-## Bug report & comment
-For feature request or bug report, please use the [GitHub issue tracking system](https://github.com/alloystorm/dvvr/issues).
