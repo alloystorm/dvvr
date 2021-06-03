@@ -18,7 +18,7 @@ Then you should be able to see your content next time you run DanceXR on the dev
 
 The Android version comes with a Content Manager app that can help you organize your content on the device. You should be able to see it from your apps drawer or desktop after installing DanceXR. It has the same icon as DanceXR player but is titled "Content Manager". Content Manager app supports only zip, png and jpg format. 
 
-Once you open it, you'll see your content folders and browse through the files they contain. You can click on the files to either move them elsewhere or set zip file encodings. 
+Once you open it, you'll see your content folders and browse through the files they contain. You can click on the files to either move them elsewhere or [set zip file encodings](pages/zip_format.md). 
 
 Content Manager app also set itself as a destination when you open or share a file of the supported file type (zip, png or jpg). 
 
