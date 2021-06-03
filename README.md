@@ -25,10 +25,14 @@ From 0.9 release zip archives are supported, read this page for [ZIP package rel
 Please be aware that the developer of this program does not take any responsibility for the content loaded by the user. The user is responsible to to ensure that all the content that they use with DanceXR satisfy all the legal & copyright requirements. 
 
 ## Different versions
-From feature perspective, there are Lite and Pro versions. From platform perspective, we currently have PC, Android and Oculus Quest. And for the PC platform, we have LW (Universal Render Pipeline, used to be called LWRP), HD (High Definition Render Pipeline) and RT (HDRP with raytracing) variations. 
+From feature perspective, there are Lite and Pro versions. From platform perspective, we are currently available on PC, Android and Oculus Quest. And for the PC platform, we have LW (Universal Render Pipeline, used to be called LWRP), HD (High Definition Render Pipeline) and RT (HDRP with raytracing) variations. 
+
 Lite has basic functionalities, but only support one actor in the scene.
+
 Pro supports multiple actors, has access to advanced shaders and procedural motions. 
+
 Differences between different render pipelines are mainly image quality, but higher quality also means lower FPS. And raytracing is not supported in VR.
+
 [Detailed feature list & availabilities](pages/features.md)
 
 ## Download
