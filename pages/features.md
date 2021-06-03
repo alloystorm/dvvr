@@ -14,7 +14,7 @@ Supporters | ✓ | ✓ | ✓ | ✓ | ✓ | ✓
 
 ## Feature availability ##
 
-Feature | Public builds | Private builds
+Feature | Lite Version | Pro Version
 --- | --- | ---
 Custome stages | ✗ | ✓
 Save scene | ✗ | ✓
