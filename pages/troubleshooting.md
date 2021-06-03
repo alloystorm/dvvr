@@ -8,7 +8,7 @@
 * Reset config for a particular model or motion. If you messed up the configurations, you can simply delete the JSON file next to the model or motion and have everything reset for you. 
 
 
-### Locate log files
+### Locate log files (PC only)
 
 If any error happens, usually there are log entries describing that error in your log files. Therefore it is really helpful if you can locate your log files and send them to us when you report issues. 
 
