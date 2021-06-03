@@ -32,14 +32,13 @@ Differences between different render pipelines are mainly image quality, but hig
 [Detailed feature list & availabilities](pages/features.md)
 
 ## Download
-
 PC versions are published on Patreon
 https://www.patreon.com/dvvr
 
 The Android version can be found on Google Play
 https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr
 
-Oculus Quest can be downloaded on itch.io
+Version for Oculus Quest can be downloaded on itch.io
 https://stormlab.itch.io/dancexr-quest
 
 
