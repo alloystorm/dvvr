@@ -12,7 +12,7 @@ Early birds | ✓ | ✓ | ✓ | ✗ | ✗ | ✗
 Supporters | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ 
 
 
-## Feature availability ##
+## Feature availability (as of 0.9.3 release) ##
 
 Feature | Lite Version | Pro Version
 --- | --- | ---
