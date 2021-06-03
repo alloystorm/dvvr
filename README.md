@@ -18,9 +18,9 @@ The app does not come with any model or dance motion, but they shouldn't be very
 
 Here is [a guide on how to prepare your content on PC](pages/blog/preparecontent.md).
 
-For Android and Quest versions [read here](pages/content_android_quest.md)
+[Preapring content for Android and Quest versions read here](pages/content_android_quest.md)
 
-From 0.9 release zip archives are supported, [Please read this page for ZIP package related topic](pages/zip_package.md). 
+From 0.9 release zip archives are supported, [read this page for ZIP package related topics](pages/zip_package.md). 
 
 Please be aware that the developer of this program does not take any responsibility for the content loaded by the user. The user is responsible to to ensure that all the content that they use with DanceXR satisfy all the legal & copyright requirements. 
 
