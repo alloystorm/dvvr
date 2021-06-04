@@ -1,27 +1,37 @@
-We have 2 build variants, HDRP & LWRP, each use a different render pipeline. And on each variant, we have 2 versions, public & private. In general new features appear in the private version first and may become available in public version later when they are more stable. And there are dedicated advanced features for private builds too.  
+# Feature list & availability on different versions
 
-HDRP render pipeline offers better image quality and more effects while LWRP runs faster. 
+Features | Demo | Lite | Pro
+--- | ---| --- | ---
+**Basic**
+Load actor model | ✓ | ✓ | ✓
+Load motion & audio | ✓ | ✓ | ✓
+Remix motion | ✗| ✗ | ✓
+Load stage model | ✓ | ✓ | ✓
+Load saved scenes | ✓ | ✓ | ✓
+Actor material settings | ✗ | ✓ | ✓
+Actor model morphs | ✗ | ✓ | ✓
+Multiple actors | ✗| ✗ | ✓
+Save scene | ✗ | ✗ | ✓
+**Procedural motions**
+Idle | ✓ | ✓ | ✓
+Catwalk | ✓ | ✓ | ✓
+Auto dance 1 | ✗ | ✗ | ✓
+Auto dance 2 | ✗ | ✗ | ✓
+**Pro & NSFW**
+Laser | ✗ | ✗ | ✓ 
+Rain effect | ✗ | ✗ | ✓
+NSFW motions | ✗ | ✗ | ✓
+XPS Physics | ✗| ✗ | ✓
+Outfit with stocking & dissolve effect | ✗ | ✗ | ✓
+Light ball | ✗| ✗ | ✓
+Blend Sex Motion (Sex motion added on top of the assigned motion) | ✗| ✗ | ✓
 
-## Who gets what ##
+
+## Patreon tiers
 Here is a table of availability of different builds for different patron tiers
 
-Tiers | LWRP public | LWRP private | HDRP public | HDRP private | Content package | Vote for next feature
---- | --- | --- | --- | --- | --- | --- | 
-Free / Fans | ✓ | ✗ | ✗ | ✗ | ✗ | ✗ 
-Early birds | ✓ | ✓ | ✓ | ✗ | ✗ | ✗ 
-Supporters | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ 
-
-
-## Feature availability (as of 0.9.3 release) ##
-
-Feature | Lite Version | Pro Version
---- | --- | ---
-Custome stages | ✗ | ✓
-Save scene | ✗ | ✓
-Load saved scenes | ✓ | ✓
-Outfit (stockings) effect | ✗ | ✓
-Light ball | ✗ | ✓
-Multiple actors | ✗ | ✓
-Catwalk motion | ✓ | ✓
-Auto dance motion | ✗ | ✓
-Cowgirl motion | ✗ | ✓
+Tiers | LW Lite | LW Pro | HD Lite | HD Pro | Content package
+--- | --- | --- | --- | --- | --- |
+Free / Fans | ✓ | ✗ | ✗ | ✗ | ✗ |
+Early birds | ✓ | ✓ | ✓ | ✗ | ✗ |
+Supporters | ✓ | ✓ | ✓ | ✓ | ✓ |
