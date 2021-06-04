@@ -26,7 +26,7 @@ Outfit with stocking & dissolve effect | ✗ | ✗ | ✓
 Light ball | ✗| ✗ | ✓
 Blend Sex Motion (Sex motion added on top of the assigned motion) | ✗| ✗ | ✓
 
-The free version of Android and Quest builds are based off the Demo version. You can upgrade to Pro version on Android through in-app purchase, however NSFW features are not available on Android due to platform restrictions. The paid version for Quest is available on Itch.io after purchase.  
+The free version of Android and Quest builds are based off the Demo version. You can upgrade to Pro version on Android through in-app purchase, however NSFW features are not available on Android due to platform restrictions. The Pro version for Quest is available on Itch.io after purchase.  
 
 ## Patreon tiers
 Here is a table of availability of different builds for different patron tiers
