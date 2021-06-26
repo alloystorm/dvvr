@@ -1,3 +1,5 @@
+### Purchase Options
+
 We need your support to keep the development going in order to continuously improving and adding new features to the application. 
 
 Here are a few options where you can help us while at the same time unlock Pro features which in turn improve your experience: 
