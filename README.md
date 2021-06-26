@@ -35,15 +35,21 @@ Differences between different render pipelines are mainly image quality, but hig
 
 [Detailed feature list & availabilities](pages/features.md)
 
+
 ## Download
-PC versions are published on Patreon
+PC versions are first published on Patreon every month
 https://www.patreon.com/dvvr
+And then made available on Itch.io store one month later
+https://stormlab.itch.io/dvvr
+Both Patreon and Itch.io have free versions to download. 
 
 The Android version can be found on Google Play
 https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr
+The basic version is free with ADs. An in-app-purchase option is available to remove ads and unlock pre features. 
 
-Version for Oculus Quest can be downloaded on itch.io
+Standalone build for Oculus Quest can be found Itch.io
 https://stormlab.itch.io/dancexr-quest
+
 
 
 ## Controls
