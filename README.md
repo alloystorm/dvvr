@@ -35,6 +35,12 @@ Differences between different render pipelines are mainly image quality, but hig
 
 [Detailed feature list & availabilities](pages/features.md)
 
+## Translation
+Starting from version 1.0, we added support for multiple languages. We've made the translation public so everybody can view and make suggestions. 
+
+https://docs.google.com/spreadsheets/d/1WPkruXerRjjCxXI99OElj8JMX60rU16Ul-cLGQ5NqLw/edit?usp=sharing
+
+If you find any text in your language that doesn't make sense, feel free to let us know so we can make adjustments.
 
 ## Download
 PC versions are first published on Patreon every month
