@@ -1,5 +1,13 @@
 ## Troubleshooting
 
+### Unable to launch VR
+If you have problems launching VR, try the following:
+
+* If you use Oculus (both Link and Air Link), open Oculus app on your desktop, in settings under "beta", you can find "OpenXR Runtime", click on "Set Oculus as active"
+* If you use SteamVR (Virtual Desktop), open SteamVR while the headset is connected, in the small SteamVR window, click on the top left and select "Settings", then go to the "Developer" section, in there you can see option for "Current OpenXR Runtime". Click on the button below to "Set SteamVR as OpenXR Runtime". 
+* If you use WMR, download "Windows Mixed Reality OpenXR Developer Tools" in Microsoft Store, and from there you can set WMR as active runtime. 
+
+
 ### Content
 
 * First time you run the PC version, it'll ask you to locate the content folder when you try to access model or motion menu. You'll need to guide it to the directory of content folder and click on the "tick" button on the top right corner to confirm. 
