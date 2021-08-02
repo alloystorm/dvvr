@@ -57,7 +57,7 @@ The Android version can be found on Google Play
 
 https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr
 
-The basic version is free with ADs. An in-app-purchase option is available to remove ads and unlock pre features. 
+The basic version is free with ads. An in-app-purchase option is available to remove ads and unlock advanced features. 
 
 Standalone build for Oculus Quest can be found Itch.io
 
