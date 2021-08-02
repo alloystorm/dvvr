@@ -31,7 +31,7 @@ Lite has basic functionalities, but only support one actor in the scene.
 
 Pro supports multiple actors, has access to advanced shaders and procedural motions. 
 
-Differences between different render pipelines are mainly image quality, but higher quality also means lower FPS. And raytracing is not supported in VR.
+Features unique to HD variant are volumetric fog, subsurface scattering (to simulate skin shade) and anisotropic effect (used for hair materials). 
 
 [Detailed feature list & availabilities](pages/features.md)
 
