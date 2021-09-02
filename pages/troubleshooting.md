@@ -20,7 +20,7 @@ If you have problems launching VR, try the following:
 * Model loads but textures are just white. If this is in a ZIP package, it could be due to the encoding issue, sometimes it is not able to locate files when the folder name contains non-english characters. [Set the correct encoding can solve this issue](zip_format.md).
 
 ### Performance hints
-* For Oculus Quest, you can try reduce render scale and tweak anti-aliasing settings to get the best balance between performance and image quality. By default render scale is set to 1 and anti-aliasing off. This means the graphic is renderred at full resolution but without anti-aliasing. You can try reduce render scale to 3/4 or 2/3 and turn on 4x anti-aliasing to achieve better performance at the cost of a slightly blurier image. 
+* For Oculus Quest, you can try reducing render scale and tweak anti-aliasing settings to get the best balance between performance and image quality. By default render scale is set to 1 and anti-aliasing off. This means the graphic is renderred at full resolution but without anti-aliasing. You can try reduce render scale to 3/4 or 2/3 and turn on 4x anti-aliasing to achieve better performance at the cost of a slightly blurier image. 
 
 ### Locate log files (PC only)
 
