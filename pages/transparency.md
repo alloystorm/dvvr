@@ -6,7 +6,7 @@ We try our best to provide a usable default configuration but often you'll need 
 
 There are a few tools within DanceXR that you can use to achieve this.
 
-First thing you can try is "Transparency Sorting". This setting configures how transparent materials are sorted in order to address sorting issues. 
+First thing you can try is "Transparent Sorting". This setting configures how transparent materials are sorted in order to address sorting issues. 
 
 The toggle (available in HD variant only) turns on Z sorting, it is the most accurate sorting method however it allows only the top layer to be visible, any overlaping layers below the top one will be ignored. We use this option as default. Take the following screenshot as example, notice that you can see through some part of her hair. This is because the hair layers below are invisible.  
 
