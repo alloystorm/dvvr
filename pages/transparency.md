@@ -4,6 +4,8 @@ Transparent materials are tricky. They can overlap incorrectly and render unexpe
 
 We try our best to provide a usable default configuration but often you'll need to manually tweak each model to make them look perfect.
 
+XPS models usually don't require any manual tweaking since the model definition tells us what is transparent and what is not. But PMX doesn't have this and the program has to determine by itself what to do with the materials. Currently (version 1.1) the HD variant uses transparent mode as default (since it has the zsorting capability and that provides an acceptable default behavior) and LW uses opaque as default. 
+
 There are a few tools within DanceXR that you can use to achieve this.
 
 First thing you can try is "Transparent Sorting". This setting configures how transparent materials are sorted in order to address sorting issues. 
