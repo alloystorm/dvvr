@@ -79,8 +79,10 @@ Also available on LBRY.
 
 https://lbry.tv/@alloystorm:e 
 
-## Troubleshooting
-[Read about troubleshooting](pages/troubleshooting.md)
+## Common issues & solutions
+[Troubleshooting common issues](pages/troubleshooting.md)
+
+[About transparency](pages/transparency.md)
 
 
 ## Bug report & comment
