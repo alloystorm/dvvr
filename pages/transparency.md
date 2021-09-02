@@ -2,9 +2,9 @@
 
 Transparent materials are tricky. They can overlap incorrectly and render unexpected color on top of certain parts if not set correctly. 
 
-We try our best to provide a usable default configuration but there are still models that require manually tweaking before they are renderred correctly. 
+We try our best to provide a usable default configuration but often you'll need to manually tweak each model to make them look perfect.
 
-To deal with these issues DanceXR has included a few settings for you to tweak your models.
+There are a few tools within DanceXR that you can use to achieve this.
 
 First thing you can try is "Transparency Sorting". This setting configures how transparent materials are sorted in order to address sorting issues. 
 
