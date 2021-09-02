@@ -20,6 +20,6 @@ Luckily problems like this can be solved by changing the material type of the ho
 
 ![Set Opaque Type](/pages/type_opaque.png)
 
-Now this looks almost perfect but there is still a minor problem: the facepaint on her face doesn't look quite right. This is due to the face paint material is incorrectly set to skin type (due to the face that we determine material type by checking its name, since it contains the word "face", the program set it as "skin" type by default). This made the edge of the image to show up incorrectly. You can fix this by setting its type to transparent.
+Now this looks almost perfect but there is still a minor problem: the facepaint on her face doesn't look quite right. This is due to the face paint material is incorrectly set to skin type (due to the fact that we determine material types by checking certain keywords from the material names. Since it contains the word "face", the program set it as "skin" type by default). This made the edge of the image to show up incorrectly. You can fix this by setting its type to transparent.
 
 ![Set Transparent Type](/pages/type_transparent.png)
