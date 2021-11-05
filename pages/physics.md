@@ -43,6 +43,9 @@ Projection Dist
 Projection Angle
 :  Similar to above, this one controls rotation. 
 
+Reset on change
+:  Once toggled, whenever a change is made here, all the bones are reset to their initial position before the new settings values are applied. This can prevent bones drifting off while changing physics settings. But sometimes this makes it hard to observe the effect of the change, in that case you can turn this option off before you make your changes, and then turn it back on after you found your ideal settings. 
+
 Within movement and drive settings, there are a few common setting values:
 
 Spring Force
