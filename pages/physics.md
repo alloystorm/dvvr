@@ -3,6 +3,8 @@
 ### System-wide physics settings
 You can locate the system-wide physics settings in Settings -> Options -> Physics. 
 
+![System Physics](/pages/system-physics.png)
+
 Enabled
 : Turn physics simulation on and off
 
@@ -18,3 +20,4 @@ Steps per second
 ### Model specific settings
 You can locate the model specific physics settings in model settings -> Options -> Physics
 
+![Model Physics](/pages/model-physics.png)
