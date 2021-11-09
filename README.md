@@ -84,6 +84,7 @@ https://lbry.tv/@alloystorm:e
 
 [About transparency](pages/transparency.md)
 
+[Physics settings](pages/physics.md)
 
 ## Bug report & comment
 For feature request or bug report, please use the [GitHub issue tracking system](https://github.com/alloystorm/dvvr/issues).
