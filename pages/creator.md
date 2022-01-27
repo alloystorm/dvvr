@@ -35,10 +35,14 @@ From the terminal window, type the following command:
 ffmpeg -r 30 -i movie_%04d.jpg -i sound.wav movie.mp4
 ```
 
-"-r 30" is the framerate of your video, if your setting is 60 fps, use "-r 60" instead. 
-"movie_%04d.jpg" is the pattern of the input image files, if your image format is not "jpg", use the correct extension instead. 
-"-i sound.wav" is the path to audio file. You can skip this part if you don't need audio in your video. 
-"movie.mp4" is the output filename, you can choose whatever you want. 
+**"-r 30"** is the framerate of your video, if your setting is 60 fps, use "-r 60" instead. 
+
+**"movie_%04d.jpg"** is the pattern of the input image files, if your image format is not "jpg", use the correct extension instead. 
+
+**"-i sound.wav"** is the path to audio file. You can skip this part if you don't need audio in your video. 
+
+**"movie.mp4"** is the output filename, you can choose whatever you want. 
+
 
 For 2D and 3D SBS videos, that is everything you need. If you are generating VR180 videos, you'll need another tool to set the correct tag so the video can be recognised correctly on platforms like Youtube. "VR180 Creator" from Google is the recommended tool for this step. 
 
