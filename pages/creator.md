@@ -31,7 +31,9 @@ FFMPEG is a commandline tool so you'll need to open a terminal window and naviga
 Then you'll need to copy the path of the audio file for the recording so that you can tell ffmpeg where to find the audio track to combine with. 
 
 From the terminal window, type the following command:
+```
 ffmpeg -r 30 -i movie_%04d.jpg -i sound.wav movie.mp4
+```
 
 "-r 30" is the framerate of your video, if your setting is 60 fps, use "-r 60" instead. 
 "movie_%04d.jpg" is the pattern of the input image files, if your image format is not "jpg", use the correct extension instead. 
