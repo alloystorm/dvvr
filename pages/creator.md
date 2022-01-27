@@ -37,7 +37,7 @@ ffmpeg -r 30 -i movie_%04d.jpg -i sound.wav movie.mp4
 
 **"-r 30"** is the framerate of your video, if your setting is 60 fps, use "-r 60" instead. 
 
-**"movie_%04d.jpg"** is the pattern of the input image files, if your image format is not "jpg", use the correct extension instead. 
+**"-i movie_%04d.jpg"** is the pattern of the input image files, if your image format is not "jpg", use the correct extension instead. 
 
 **"-i sound.wav"** is the path to audio file. You can skip this part if you don't need audio in your video. 
 
