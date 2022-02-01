@@ -1,4 +1,4 @@
-### Creator Edition
+# Creator Edition
 
 DanceXR Creator Edition features funcationalities that helps content creators. 
 
