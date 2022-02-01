@@ -31,6 +31,8 @@ Lite has basic functionalities, but only support one actor in the scene.
 
 Pro supports multiple actors, has access to advanced shaders and procedural motions. 
 
+[Creator edition](pages/creator.md) has the ability to generate video of various formats, including 3D and VR videos.  
+
 Features unique to HD variant are volumetric fog, subsurface scattering (to simulate skin shade) and anisotropic effect (used for hair materials). 
 
 [Detailed feature list & availabilities](pages/features.md)
