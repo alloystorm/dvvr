@@ -12,6 +12,8 @@ In addition, it is able to generate video formats that are not possible with scr
 
 ## Recording menu
 
+![Record Menu](record_menu.png)
+
 To access the recording features, click on the red circle "recording" button on the main UI. Then select one of the options in the recording menu to either start the recording process or change recording settings. 
 
 When you have a VMD motion with audio loaded, the recording will last for the duration of the whole song. Otherwise the default recording duration from within the recording settings will be used. 
@@ -21,16 +23,24 @@ You can use the preview option to preview the recording on screen. The output wi
 During recording or preview, the number of the currently frame and total frames of the recording are displayed on screen, and an estimated time is calculated to indicate how long it will take to generate the entire recording. You can use the "Terminate" button below to end the process at any time. 
 
 From the recording settings, you can also change the framerate, image format and compression quality. 
+![Record Setting](record_setting.png)
 
 ## Post processing
 
-The output of the recording are stored as sequence of images due to a technical limitation at the moment. So you'll need to use ffmpeg to convert the images into video and combine the audio track. (FFMPEG is the recommended tool here due to its ease of use, you can of course use any tool of your choice if you are familar with this process already)
+The output of the recording are stored as sequence of images due to a technical limitation at the moment. 
+![Record Images](record_images.png)
 
-FFMPEG is a commandline tool so you'll need to open a terminal window and navigate to the directory of the image output first. 
+You'll need to use tools like ffmpeg to convert the images into a video. (If you are familar with video editing, you can use whichever tool that you prefer. FFMPEG is only recommended here due to its ease of use)
 
-Then you'll need to copy the path of the audio file for the recording so that you can tell ffmpeg where to find the audio track to combine with. 
+Here is an article about how to install ffmpeg on Windows: https://www.wikihow.com/Install-FFmpeg-on-Windows
 
-From the terminal window, type the following command:
+Once you have ffmpeg installed and its path added to environment variables, you should be good to go. 
+
+In the folder that contains the output images, there is also a batch file that will perform the conversion if you have ffmpeg on your system. 
+
+You can also do it manually by opening a terminal window, navigate to the folder and type in the commands. 
+
+The command will look like this:
 ```
 ffmpeg -r 30 -i movie_%04d.jpg -i sound.wav movie.mp4
 ```
@@ -44,8 +54,11 @@ ffmpeg -r 30 -i movie_%04d.jpg -i sound.wav movie.mp4
 **"movie.mp4"** is the output filename, you can choose whatever you want. 
 
 
-For 2D and 3D SBS videos, that is everything you need. If you are generating VR180 videos, you'll need another tool to set the correct tag so the video can be recognised correctly on platforms like Youtube. "VR180 Creator" from Google is the recommended tool for this step. 
+For 2D and 3D SBS videos, that is all you need. If you are generating VR180 videos, you'll need another tool to set the correct tag so the video can be recognised correctly on platforms like Youtube. "VR180 Creator" from Google is the recommended tool for this step. 
 
+For some reason VR180 creator is no longer available from Google website, but you can still find it here: https://www.patrickgrunwald.de/vr180-creator-download
+
+Steps tp tag your video as VR180 content
 * Open "VR180 Creator"
 * Select "Prepare for publishing"
 * Drag the video file from the previous step to the big box
