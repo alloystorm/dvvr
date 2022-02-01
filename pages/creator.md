@@ -38,12 +38,14 @@ Once you have ffmpeg installed and its path added to environment variables, you 
 
 In the folder that contains the output images, there is also a batch file that will perform the conversion if you have ffmpeg on your system. 
 
-You can also do it manually by opening a terminal window, navigate to the folder and type in the commands. 
+You can also do it manually type the command in a terminal window if you wish to fine tune the parameters. 
 
-The command will look like this:
+The basic conversion command will look like this:
 ```
 ffmpeg -r 30 -i movie_%04d.jpg -i sound.wav movie.mp4
 ```
+
+What this does is it takes movie_####.jpg and sound.wav as input, generate a video at 30 fps, and save the output to movie.mp4
 
 **"-r 30"** is the framerate of your video, if your setting is 60 fps, use "-r 60" instead. 
 
