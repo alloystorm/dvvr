@@ -25,6 +25,16 @@ During recording or preview, the number of the currently frame and total frames 
 From the recording settings, you can also change the framerate, image format and compression quality. 
 ![Record Setting](record_setting.png)
 
+## Recording modes
+
+You can choose from 2D, 3D SBS and VR 180 recording modes when starting recording from the menu.
+
+With 3D SBS, 2 cameras are used to generate the output, one for each eye. The images are placed side by side. 
+
+With VR 180, please note that this doesn't provide true 180 degrees field of view. Instead each camera renders at 120 degrees and the outside area is filled with black. This is a compromise for efficiency for now. We'll evaluate options to provide full 180 and 360 field of view VR videos in future updates. 
+
+2D and 3D SBS modes use the selected resolution in the settings whereas VR180 output is fixed at 4096x2048, that is 2048x2048 each eye. 
+
 ## Post processing
 
 The output of the recording are stored as sequence of images due to a technical limitation at the moment. 
