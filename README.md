@@ -45,26 +45,12 @@ https://docs.google.com/spreadsheets/d/1WPkruXerRjjCxXI99OElj8JMX60rU16Ul-cLGQ5N
 If you find any text in your language that doesn't make sense, feel free to let us know so we can make adjustments.
 
 ## Download
-PC versions are first published on Patreon every month
 
-https://www.patreon.com/dvvr
+You can find the free version on our [Patreon page](https://www.patreon.com/dvvr) and access to paid versions if you make a pledge. 
 
-And then made available on Itch.io store one month later
+PC and Quest versions are also available on our Itch.io store: [DanceXR PC](https://stormlab.itch.io/dvvr) [DanceXR Quest](https://stormlab.itch.io/dancexr-quest)
 
-https://stormlab.itch.io/dvvr
-
-Both Patreon and Itch.io have free versions to download. 
-
-The Android version can be found on Google Play
-
-https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr
-
-The basic version is free with ads. An in-app-purchase option is available to remove ads and unlock advanced features. 
-
-Standalone build for Oculus Quest can be found Itch.io
-
-https://stormlab.itch.io/dancexr-quest
-
+The Android version can be found on [Google Play](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr)
 
 
 ## Controls
