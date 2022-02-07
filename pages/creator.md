@@ -68,10 +68,10 @@ What this does is it takes movie_####.jpg and sound.wav as input, generate a vid
 
 For 2D videos, that is all you need. 
 
-For **3D SBS** videos, you'll need to add additional parameters to set the correct metadata: **-vcodec libx264 -x264opts "frame-packing=3"**. Full command looks like this:
-```
-ffmpeg -r 30 -i movie_%03d.jpg -vcodec libx264 -x264opts "frame-packing=3" movie.mp4
-```
+For **3D SBS** videos, you'll need to add additional parameters to set the correct metadata:
+<pre>
+ffmpeg -r 30 -i movie_%03d.jpg <b>-vcodec libx264 -x264opts "frame-packing=3"</b> movie.mp4
+</pre>
 
 For **VR180** videos, you'll need another tool to set the correct tag so the video can be recognised correctly on platforms like Youtube. "VR180 Creator" from Google is the recommended tool for this step. 
 
