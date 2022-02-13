@@ -18,6 +18,7 @@ If you have problems launching VR, try the following:
 ### Common problems
 * White / black eyes: Usually this is due to certain transparent layer over the eyes renderred incorrectly. Try to go to the material settings and find something like "eye shadow" or "eye highlight" and set it as transparent. 
 * Model loads but textures are just white. If this is in a ZIP package, it could be due to the encoding issue, sometimes it is not able to locate files when the folder name contains non-english characters. [Set the correct encoding can solve this issue](zip_format.md).
+* Black screen: Sometimes after loading a model when you look at it the whole screen turns black, but if you look away it returns normal. Open system settings and under "Options" tab, select "Workarounds". In there you can toggle on "Stop NaN" and see if that problem is fixed. If you are still getting black screen after turning on "Stop NaN", try change to a different anti-aliasing option (such as SMAA or TAA) from the graphics settings.  
 
 ### Performance hints
 * For Oculus Quest, you can try reducing render scale and tweak anti-aliasing settings to get the best balance between performance and image quality. By default render scale is set to 1 and anti-aliasing off. This means the graphic is renderred at full resolution but without anti-aliasing. You can try reduce render scale to 3/4 or 2/3 and turn on 4x anti-aliasing to achieve better performance at the cost of a slightly blurier image. 
