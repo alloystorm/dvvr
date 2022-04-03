@@ -8,49 +8,39 @@ It doesn't matter whether the model has IK bones or is it in T pose or A pose, t
 
 There are also tons of built-in features to make the characters more life-like. You can see them breathing, blinking eyes naturally and even making eye contact with you. Plus there are procedural motions for you to use and more features added every month with each updates.  
 
+## Where to get it
+
+You can find the free version on our [Patreon page](https://www.patreon.com/dvvr) and access to paid versions if you make a pledge. 
+
+The paid versions can also be found on Itch.io store: 
+
+[DanceXR PC](https://stormlab.itch.io/dvvr) 
+
+[DanceXR Quest](https://stormlab.itch.io/dancexr-quest)
+
+The Android version is available on [Google Play](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr) for free. An in-app-purchase is available to remove ads and unlock Pro features. 
+
 ## Getting started
 
-### Installation
-No installation is required, simply unzip and run once you have your content folder prepared. 
+Before you start using DanceXR, you need to first prepare a content library so it knows where to find models and motions etc. On PC you'll be asked to locate your content library the first time you run the application. On Quest and Android this is a specific folder within the application data and you'll have to transfer your content onto the device into that particular folder for it to be able to find them. 
 
-### Content preparation 
-The app does not come with any model or dance motion, but they shouldn't be very difficult to find if you search for MMD motion download or model download. 
+[Here is a video](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3) demonstrating how to setup your content folder.
 
-Here is [a guide on how to prepare your content on PC](pages/blog/preparecontent.md).
+To read more about it [visit this page](pages/blog/preparecontent.md)
 
-To read about how to [preapring content for Android and Quest versions](pages/content_android_quest.md).
+## Different versions & builds
+With each release we publish multiple builds, here's what each different variant means.
 
-From 0.9 release zip archives are supported, read this page for [ZIP package related topics](pages/zip_format.md). 
+[Creator](pages/creator.md), Pro and Lite are 3 different feature levels. Creator being the most complete and Lite being the free version that lacks advanced features. [To read more about features](pages/features.md)
 
-Please be aware that the developer of this program does not take any responsibility for the content loaded by the user. The user is responsible to to ensure that all the content that they use with DanceXR satisfy all the legal & copyright requirements. 
+RT, HD & LW are different render pipelines that represent different graphic levels. RT uses raytracing and requires RTX hardware, HD has great image quality and LW is the fastest of all. 
 
-## Different versions
-From feature perspective, there are Lite and Pro versions. From platform perspective, we are currently available on PC, Android and Oculus Quest. And for the PC platform, we have LW (Universal Render Pipeline, used to be called LWRP), HD (High Definition Render Pipeline) and RT (HDRP with raytracing) variations. 
-
-Lite has basic functionalities, but only support one actor in the scene.
-
-Pro supports multiple actors, has access to advanced shaders and procedural motions. 
-
-[Creator edition](pages/creator.md) has the ability to generate video of various formats, including 3D and VR videos.  
-
-Features unique to HD variant are volumetric fog, subsurface scattering (to simulate skin shade) and anisotropic effect (used for hair materials). 
-
-[Detailed feature list & availabilities](pages/features.md)
-
-## Translation
+## Localization
 Starting from version 1.0, we added support for multiple languages. We've made the translation public so everybody can view and make suggestions. 
 
 https://docs.google.com/spreadsheets/d/1WPkruXerRjjCxXI99OElj8JMX60rU16Ul-cLGQ5NqLw/edit?usp=sharing
 
 If you find any text in your language that doesn't make sense, feel free to let us know so we can make adjustments.
-
-## Download
-
-You can find the free version on our [Patreon page](https://www.patreon.com/dvvr) and access to paid versions if you make a pledge. 
-
-PC and Quest versions are also available on our Itch.io store: [DanceXR PC](https://stormlab.itch.io/dvvr) [DanceXR Quest](https://stormlab.itch.io/dancexr-quest)
-
-The Android version can be found on [Google Play](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr)
 
 
 ## Controls
