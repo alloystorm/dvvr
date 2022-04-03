@@ -43,28 +43,17 @@ https://docs.google.com/spreadsheets/d/1WPkruXerRjjCxXI99OElj8JMX60rU16Ul-cLGQ5N
 If you find any text in your language that doesn't make sense, feel free to let us know so we can make adjustments.
 
 
-## Controls
-The app can be controled with keyboard, xbox controller or VR controllers.
-[Available controls are listed in this page](pages/blog/controls.md)
+## Documents, tutorials & bug report
+[Controls](pages/blog/controls.md)
 
-
-## Videos
-Visit our Youtube channel for demos & tutorials: 
-
-https://www.youtube.com/channel/UC4kSPkrWRR_oE2QMOjFYwBg 
-
-Also available on LBRY. 
-
-https://lbry.tv/@alloystorm:e 
-
-## Common issues & solutions
 [Troubleshooting common issues](pages/troubleshooting.md)
 
 [About transparency](pages/transparency.md)
 
 [Physics settings](pages/physics.md)
 
-## Bug report & comment
+[Visit our Youtube channel for video demos & tutorials](https://www.youtube.com/channel/UC4kSPkrWRR_oE2QMOjFYwBg) 
+
 For feature request or bug report, please use the [GitHub issue tracking system](https://github.com/alloystorm/dvvr/issues).
 
 
