@@ -6,7 +6,7 @@ Here are a few options where you can help us while at the same time unlock Pro f
 
 * [Purchase on Steam](https://store.steampowered.com/app/1905510/DanceXR) 
 
-One-off purchase that grants you access to all the pro features and future updates!
+One-off purchase that grants you access to all the Pro features and future updates!
 
 
 * [Become a patron on Patreon.](https://www.patreon.com/dvvr/) 
