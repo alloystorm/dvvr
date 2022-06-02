@@ -10,9 +10,11 @@ There are also tons of built-in features to make the characters more life-like. 
 
 ## Where to get it
 
+To celebrate our launch on Steam we are currently running a [30% off launch special for one week](https://store.steampowered.com/app/1905510/DanceXR/). Don't miss out!
+
 You can find the free version on our [Patreon page](https://www.patreon.com/dvvr) and access to paid versions if you make a pledge. 
 
-You can also purchase the PC version on [Steam](https://store.steampowered.com/app/1905510/DanceXR/?beta=0) or [Itch.io](https://stormlab.itch.io/dvvr) 
+You can also purchase the PC version on [Steam](https://store.steampowered.com/app/1905510/DanceXR/) or [Itch.io](https://stormlab.itch.io/dvvr) 
 
 And the Oculus Quest standalone here: [DanceXR Quest](https://stormlab.itch.io/dancexr-quest)
 
