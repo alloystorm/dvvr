@@ -10,15 +10,17 @@ There are also tons of built-in features to make the characters more life-like. 
 
 ## Where to get it
 
-To celebrate our launch on Steam we are currently running a [30% off launch special for one week](https://store.steampowered.com/app/1905510/DanceXR/). Don't miss out!
-
 You can find the free version on our [Patreon page](https://www.patreon.com/dvvr) and access to paid versions if you make a pledge. 
 
 You can also purchase the PC version on [Steam](https://store.steampowered.com/app/1905510/DanceXR/) or [Itch.io](https://stormlab.itch.io/dvvr) 
 
 And the Oculus Quest standalone here: [DanceXR Quest](https://stormlab.itch.io/dancexr-quest)
 
-We also have an Android version available on [Google Play](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr) for free. An in-app-purchase is available to remove ads and unlock Pro features. 
+The Android Pro version can be purchased from itch.io: [DanceXR Android Pro](https://stormlab.itch.io/dancexr-android)
+
+You can also download and purchase the Portable edition on [Google Play](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr) for free. The Portable edition is missing the NSFW features.
+
+中国大陆顾客[请点这里](pages/purchase_prc)
 
 ## Getting started
 
