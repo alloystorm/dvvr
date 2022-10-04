@@ -20,6 +20,9 @@ The Android Pro version can be purchased from itch.io: [DanceXR Android Pro](htt
 
 You can also download and purchase the Portable edition on [Google Play](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr) for free. The Portable edition is missing the NSFW features.
 
+[中国大陆购买选项](pages/purchase_prc.md)
+
+
 ## Getting started
 
 Before you start using DanceXR, you need to first prepare a content library so it knows where to find models and motions etc. On PC you'll be asked to locate your content library the first time you run the application. On Quest and Android this is a specific folder within the application data and you'll have to transfer your content onto the device into that particular folder for it to be able to find them. 
