@@ -20,7 +20,7 @@ The Android Pro version can be purchased from itch.io: [DanceXR Android Pro](htt
 
 You can also download and purchase the Portable edition on [Google Play](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr) for free. The Portable edition is missing the NSFW features.
 
-中国大陆顾客[请点这里](pages/purchase_prc)
+[中国大陆购买选项请点这里](pages/purchase_prc)
 
 ## Getting started
 
