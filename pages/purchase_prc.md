@@ -24,7 +24,7 @@
 
 **支付宝购买方式由于我们需要人工处理您的订单并寄送CD Key，整个过程可能需要2个工作日左右，请谅解。** 收到CD Key之后您就可以在itch.io平台凭CD Key领取您购买的版本并下载。激活时请选择itch.io通道。
 
-![Alipay Code](vrstormlab_alipay.jpg)
+![Alipay Code](vrstormlab_alipay.png)
 
 
 大陆地区的定价如下：
