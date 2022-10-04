@@ -20,10 +20,15 @@ https://stormlab.itch.io/dvvr （PC版）
 
 在itch.io上购买之后可以直接下载并激活，无需等待。但如果您没有itch.io支持的付款方式，可以选择用支付宝直接给我们付款，但请注意务必备注您的email联系方式，以便我们发送CD Key给您。同时由于我们需要人工处理您的订单并寄送CD Key，所以这个过程可能需要2个工作日左右，请谅解。
 
+
 大陆地区的定价如下：
 
+
 Android Pro版 ￥68
+
 Meta Quest版 ￥98
+
 PC版 $198 （购买PC版会附赠Android Pro版的Key）
+
 
 如果有任何问题请发email到 vrstormlab@gmail.com
