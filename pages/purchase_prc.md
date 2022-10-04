@@ -18,7 +18,11 @@
 [https://stormlab.itch.io/dvvr （PC版）](https://stormlab.itch.io/dvvr)
 
 
-在itch.io上购买之后可以直接下载并激活，无需等待。但如果您没有itch.io支持的付款方式，可以使用以下支付宝QR Code直接给我们扫码付款，但请注意务必备注您购买的版本和email联系方式，以便我们发送CD Key给您。同时由于我们需要人工处理您的订单并寄送CD Key，所以这个过程可能需要2个工作日左右，请谅解。
+在itch.io上购买之后可以直接下载并激活，无需等待。
+
+但如果您没有itch.io支持的付款方式，可以使用以下支付宝QR Code直接给我们扫码付款，但**请务必备注您购买的版本和email联系方式**，以便我们发送CD Key给您。
+
+**支付宝购买方式由于我们需要人工处理您的订单并寄送CD Key，整个过程可能需要2个工作日左右，请谅解。**
 
 ![Alipay Code](vrstormlab_alipay.jpg)
 
