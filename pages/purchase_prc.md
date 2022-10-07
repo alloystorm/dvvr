@@ -29,13 +29,14 @@
 
 大陆地区的定价如下：
 
+新张期间全场半价优惠！
 
-Android Pro版 ￥68
+Android Pro版 ~￥68~ ￥35
 
-Meta Quest版 ￥98
+Meta Quest版 ~￥98~ ￥49
 
-PC版 $198 （购买PC版会附赠Android Pro版的Key）
+PC版 ~$198~ ￥99
 
-（以上定价和附赠内容可能会更改，请以下订单时的描述为准）
+（以上定价和优惠可能会随时更改，请以下订单时的描述为准）
 
 如果有任何问题请发email到 vrstormlab@gmail.com
