@@ -18,10 +18,12 @@
 [https://stormlab.itch.io/dvvr （PC版）](https://stormlab.itch.io/dvvr)
 
 
-itch.io直接购买
+## itch.io直接购买
+
 如果您可以在itch.io支付成功，在itch.io上直接购买是最快的。购买之后马上可以下载并激活，无需等待。
 
-支付宝付款
+## 支付宝付款
+
 但如果您没有itch.io支持的付款方式，也可以使用以下支付宝QR Code直接给我们扫码付款。使用支付宝购买仍然需要借助itch.io平台来下载以及验证激活，所以注册itch.io账号是必须的。
 
 使用支付宝购买请注意：
