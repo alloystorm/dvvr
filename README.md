@@ -12,11 +12,15 @@ There are also tons of built-in features to make the characters more life-like. 
 
 ## Where to get it
 
+
 Since this is an evolving project, we appreciate if you can support us on Patreon. You will be the first to get each update and have your bug reports and feature requests prioritized. 
 
-Here is on our [Patreon page](https://www.patreon.com/dvvr). You will also find the free version and release notes overthere.
+Here is on our Patreon page: https://www.patreon.com/dvvr 
 
-If you prefer a one-off purchase, you can find it on Steam and Itch.io. 
+You will also find the free version and release notes overthere.
+
+
+If you prefer an one-off purchase, you can find it on Steam and Itch.io. 
 
 DanceXR Pro on Steam: https://store.steampowered.com/app/1905510/DanceXR/
 
@@ -25,6 +29,7 @@ DanceXR Pro on Itch.io: https://stormlab.itch.io/dvvr
 DanceXR Pure on Steam: https://store.steampowered.com/app/2193970/DanceXR_Pure/
 
 The difference between Pro and Pure version is that the Pro has some adult only features so is age restricted on Steam, also the raytraced version is a paid DLC on Steam. The Pure has all adult features removed, but it includes the raytraced version.
+
 
 The standalone build for Oculus Quest can be found here: [DanceXR Quest](https://stormlab.itch.io/dancexr-quest)
 
