@@ -39,7 +39,7 @@ The Pure and Pro are sold on Steam, Pro is also available on Itch.io and Patreon
 
 Please visit our [Patreon page](https://www.patreon.com/dvvr) for the latest release notes and download links. 
 
-For more details about download and purchase, please visit [this page](/pages/download)
+For more details about download and purchase, please visit [this page](/pages/download.md)
 
 
 ## Preparing content
