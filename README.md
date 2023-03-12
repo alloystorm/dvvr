@@ -6,41 +6,14 @@ permalink: /dancexr/
 
 ## Introduction
 
-DanceXR is a character model viewer and motion player. It supports PMX(MMD) & XNALara/XPS models and VMD motion format. Unlike other MMD players DanceXR allows almost any motion to play on any model without any manual tweaking or bone adjustments. 
+DanceXR is a universal character model viewer and motion player. It supports PMX(MMD) & XNALara/XPS models and VMD / BVH motion format. The main benefit of using DanceXR is that it allows almost any motion to play on any model without any manual tweaking or bone adjustments. 
 
-It doesn't matter whether the model has IK bones or is it in T pose or A pose, the model & motion are adapted automatically on the fly by our unique motion system to ensure the maximum compatibility.
+Both the model and the motion can be configured to support different standard poses, no matter if the motion was created for T pose or A pose models, there's always a configuration that allows it to play perfectly on any model of your choice. It also fixes many common bone structure issues on the fly to ensure the maximum compatibility.
 
-There are also tons of built-in features to make the characters more life-like. You can see them breathing, blinking eyes naturally and even making eye contact with you. Plus there are procedural motions for you to use and more features added every month with each updates.  
-
-
-## Where to get it
+There are also plenty built-in features for you to enjoy. For example the models will breath, blink eyes and even make eye contact with you like a real person. There are procedural motions for you to use and many different adjustments for you to find tune and change the look of your model. New features are added every month.  
 
 
-Since this is an evolving project, we appreciate if you can support us on Patreon. You will be the first to get each update and have your bug reports and feature requests prioritized. 
-
-Here is on our Patreon page: https://www.patreon.com/dvvr 
-
-You will also find the free version and release notes overthere.
-
-
-If you prefer an one-off purchase, you can find it on Steam and Itch.io. 
-
-DanceXR Pro on Steam: https://store.steampowered.com/app/1905510/DanceXR/
-
-DanceXR Pro on Itch.io: https://stormlab.itch.io/dvvr
-
-DanceXR Pure on Steam: https://store.steampowered.com/app/2193970/DanceXR_Pure/
-
-The difference between Pro and Pure version is that the Pro has some adult only features so is age restricted on Steam, also the raytraced version is a paid DLC on Steam. The Pure has all adult features removed, but it includes the raytraced version.
-
-
-The standalone build for Oculus Quest can be found here: [DanceXR Quest](https://stormlab.itch.io/dancexr-quest)
-
-The Android Pro version can be purchased from itch.io: [DanceXR Android Pro](https://stormlab.itch.io/dancexr-android)
-
-You can also download and purchase the Portable edition on [Google Play](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr) for free. The Portable edition is missing the NSFW features.
-
-[中国大陆购买选项](pages/purchase_prc.md)
+## [Where to download?](/pages/download)
 
 
 ## Getting started
