@@ -41,13 +41,16 @@ Please visit our [Patreon page](https://www.patreon.com/dvvr) for the latest rel
 
 For more details about download and purchase, please visit [this page](/pages/download)
 
-## Getting started
 
-Before you start using DanceXR, you need to first prepare a content library so it knows where to find models and motions etc. On PC you'll be asked to locate your content library the first time you run the application. On Quest and Android this is a specific folder within the application data and you'll have to transfer your content onto the device into that particular folder for it to be able to find them. 
+## Preparing content
 
-[Here is a video](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3) demonstrating how to setup your content folder.
+DanceXR does not include pre-loaded models and dance motions. To use the app, the user must create a content library folder and organize various types of resources into separate subfolders for DanceXR to access when needed.
 
-To read more about it [visit this page](pages/blog/preparecontent.md)
+On a PC, DanceXR will attempt to locate content in parent folders upon initial launch. If no content is found, the app will generate a folder with subfolders for different resource types. The user can then open the created folder from the system menu and transfer their content into the appropriate subfolder.
+
+However, on Quest and Android devices, the location of the content folder cannot be changed. To add content, Quest users must connect their device to a PC, while Android users are provided with a content manager to perform basic file management tasks within the content folder.
+
+If you require assistance setting up your content folder, a [video tutorial](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3) is available here and additional information can be found on the following [page](pages/blog/preparecontent.md).
 
 
 ## Documents, tutorials & bug report
