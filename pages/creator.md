@@ -1,5 +1,6 @@
 ---
 layout: single
+title: Creator Edition
 ---
 
 # Creator Edition
