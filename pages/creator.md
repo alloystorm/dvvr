@@ -1,14 +1,6 @@
 # Creator Edition
 
-DanceXR Creator Edition features funcationalities that helps content creators. 
-
-The first feature we are introducing with Creator Edition is video recording. 
-
-## Recording
-
-The recording feature in creator edition provides ability to offline render videos at a constant framerate. This differs from screen recording in that it is independent of hardware capabilities and will always provide smooth video regardless of your hardware specs. 
-
-In addition, it is able to generate video formats that are not possible with screen recording methods. Such as 3D SBS and VR 180 formats. 
+Creator edition offers offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K video smoothly at 60fps even when your monitor is 1080p and your computer is not able to maintain that framerate. It can also generate 3D and VR 180 videos.
 
 ## Recording menu
 
