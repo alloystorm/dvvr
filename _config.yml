@@ -1,6 +1,6 @@
 # theme: jekyll-theme-slate
 remote_theme: "mmistakes/minimal-mistakes"
-title: DanceXR (DVVR)
+title: VR Storm Lab
 description: Universal 3D character model viewer & motion player. 
 google_analytics: UA-147265380-2
 include: app-ads.txt
