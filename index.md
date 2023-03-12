@@ -1,6 +1,6 @@
 ---
 title: DanceXR
-excerpt: Universal chacracter model viewer and motion player.
+excerpt: Universal character model viewer and motion player
 layout: splash
 header:
   overlay_image: /images/header_wide.png
