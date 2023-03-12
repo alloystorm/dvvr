@@ -4,3 +4,10 @@ title: DanceXR (DVVR)
 description: Universal 3D character model viewer & motion player. 
 google_analytics: UA-147265380-2
 include: app-ads.txt
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
