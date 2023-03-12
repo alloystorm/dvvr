@@ -54,7 +54,7 @@ If you require assistance setting up your content folder, a [video tutorial](htt
 
 
 ## Documents, tutorials & bug report
-[Controls](pages/blog/controls.md)
+[Controls](pages/controls.md)
 
 [Troubleshooting common issues](pages/troubleshooting.md)
 
