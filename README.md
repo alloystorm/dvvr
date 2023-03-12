@@ -1,18 +1,3 @@
----
-title: DanceXR
-excerpt: Universal chacracter model viewer and motion player.
-header:
-  overlay_image: /images/header_wide.png
-  actions: 
-    - label: Patreon
-      url: https://www.patreon.com/dvvr
-    - label: Steam
-      url: https://store.steampowered.com/agecheck/app/1905510/
-    - label: Itch.io
-      url: https://stormlab.itch.io/dvvr
----
-
-
 ## Introduction
 
 DanceXR is a character model viewer and motion player. It supports PMX(MMD) & XNALara/XPS models and VMD motion format. Unlike other MMD players DanceXR allows almost any motion to play on any model without any manual tweaking or bone adjustments. 
