@@ -7,10 +7,8 @@ header:
   actions: 
     - label: Learn More
       url: /dancexr
-    - label: Patreon
-      url: https://www.patreon.com/dvvr
-    - label: Steam
-      url: https://store.steampowered.com/agecheck/app/1905510/
-    - label: Itch.io
-      url: https://stormlab.itch.io/dvvr
+    - label: Download
+      url: /pages/download
+    - label: YouTube
+      url: https://www.youtube.com/@dancexr
 ---
