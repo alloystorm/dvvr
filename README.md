@@ -15,7 +15,7 @@ In addition to character models and motions, DanceXR also supports loading stage
 DanceXR also offers built-in features that enhance the realism of character models. Models will breathe, blink their eyes, and even make eye contact with you like a real person. Additionally, users can utilize procedural motions and make various adjustments to fine-tune and change the look of their models. With new features added every month, DanceXR offers an exciting and constantly evolving experience.
 
 
-## Different versions & builds
+## Different editions and variants
 
 DanceXR offers four editions with different features: Free, Pure, Pro, and Creator.
 
