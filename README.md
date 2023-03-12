@@ -6,11 +6,11 @@ permalink: /dancexr/
 
 ## Introduction
 
-DanceXR is a universal character model viewer and motion player. It supports PMX(MMD) & XNALara/XPS models and VMD / BVH motion format. The main benefit of using DanceXR is that it allows almost any motion to play on any model without any manual tweaking or bone adjustments. 
+DanceXR is a universal character model viewer and motion player that supports PMX (MMD) & XNALara/XPS models and VMD/BVH motion formats. The main benefit of using DanceXR is that it allows almost any motion to be played on any model without requiring manual tweaking or bone adjustments.
 
-Both the model and the motion can be configured to support different standard poses, no matter if the motion was created for T pose or A pose models, there's always a configuration that allows it to play perfectly on any model of your choice. It also fixes many common bone structure issues on the fly to ensure the maximum compatibility.
+Both the model and the motion can be configured to support different standard poses, regardless of whether the motion was created for T-pose or A-pose models. There is always a configuration that allows it to play perfectly on any model of your choice. DanceXR also fixes many common bone structure issues on the fly to ensure maximum compatibility.
 
-There are also plenty built-in features for you to enjoy. For example the models will breath, blink eyes and even make eye contact with you like a real person. There are procedural motions for you to use and many different adjustments for you to find tune and change the look of your model. New features are added every month.  
+There are also plenty of built-in features for you to enjoy. For example, the models will breathe, blink their eyes, and even make eye contact with you like a real person. There are procedural motions for you to use, and many different adjustments for you to fine-tune and change the look of your model. New features are added every month.  
 
 
 ## [Where to download?](/pages/download)
