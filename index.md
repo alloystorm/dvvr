@@ -9,6 +9,6 @@ header:
       url: /dancexr
     - label: Download
       url: /pages/download
-    - label: YouTube
+    - label: Videos
       url: https://www.youtube.com/@dancexr
 ---
