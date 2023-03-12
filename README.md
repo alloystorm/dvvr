@@ -6,11 +6,13 @@ permalink: /dancexr/
 
 ## Introduction
 
-DanceXR is a universal character model viewer and motion player that supports PMX (MMD) & XNALara/XPS models and VMD/BVH motion formats. The main benefit of using DanceXR is that it allows almost any motion to be played on any model without requiring manual tweaking or bone adjustments.
+DanceXR is a versatile character model viewer and motion player that supports a range of model and motion formats including PMX (MMD) & XNALara/XPS models, as well as VMD/BVH motion formats. The most significant benefit of using DanceXR is its ability to play almost any motion on any model without requiring manual tweaking or bone adjustments.
 
-Both the model and the motion can be configured to support different standard poses, regardless of whether the motion was created for T-pose or A-pose models. There is always a configuration that allows it to play perfectly on any model of your choice. DanceXR also fixes many common bone structure issues on the fly to ensure maximum compatibility.
+One of the unique features of DanceXR is the ability to configure models and motions to support different standard poses. Whether the motion was created for T-pose or A-pose models, DanceXR ensures that it can be played perfectly on any model of your choice. It also fixes common bone structure issues on the fly to ensure maximum compatibility.
 
-There are also plenty of built-in features for you to enjoy. For example, the models will breathe, blink their eyes, and even make eye contact with you like a real person. There are procedural motions for you to use, and many different adjustments for you to fine-tune and change the look of your model. New features are added every month.  
+In addition to character models and motions, DanceXR also supports loading stage models and props such as mirrors and interactable primitive objects. Users can adjust the environment, including weather effects and lighting configurations, to suit their preferences. Moreover, DanceXR offers sophisticated graphics settings that can be adjusted to optimize performance and visual quality.
+
+DanceXR also offers built-in features that enhance the realism of character models. Models will breathe, blink their eyes, and even make eye contact with you like a real person. Additionally, users can utilize procedural motions and make various adjustments to fine-tune and change the look of their models. With new features added every month, DanceXR offers an exciting and constantly evolving experience.
 
 
 ## [Where to download?](/pages/download)
