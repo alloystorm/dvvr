@@ -1,3 +1,9 @@
+---
+layout: single
+title: DanceXR
+permalink: /dancexr/
+---
+
 ## Introduction
 
 DanceXR is a character model viewer and motion player. It supports PMX(MMD) & XNALara/XPS models and VMD motion format. Unlike other MMD players DanceXR allows almost any motion to play on any model without any manual tweaking or bone adjustments. 
