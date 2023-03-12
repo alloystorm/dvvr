@@ -15,6 +15,23 @@ In addition to character models and motions, DanceXR also supports loading stage
 DanceXR also offers built-in features that enhance the realism of character models. Models will breathe, blink their eyes, and even make eye contact with you like a real person. Additionally, users can utilize procedural motions and make various adjustments to fine-tune and change the look of their models. With new features added every month, DanceXR offers an exciting and constantly evolving experience.
 
 
+## Different versions & builds
+
+DanceXR offers four editions with different features: Free, Pure, Pro, and Creator.
+
+The Free edition includes all the basic functionalities such as standard pose conversion, stage and environment settings, and lifelike motions. However, it has the limitation of only allowing one actor on the stage at a time.
+
+The Pure edition has no such limit and includes most of the Pro features such as XPS physics and procedural dance motions. The only exceptions are features that are considered "adult only."
+
+The Pro edition is age-restricted and includes all of the features in the Pure edition.
+
+The Creator edition includes offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K videos even when your monitor is 1080p. It also has the ability to generate VR 180 videos.
+
+For each edition, you can choose between RT, HD, or LW builds. RT enables ray tracing, HD focuses on graphic quality, and LW is optimized for frame rate.
+
+PC supports all of these variants, while Mac currently only supports HD, and Android only supports LW.
+
+
 ## [Where to download?](/pages/download)
 
 
@@ -25,13 +42,6 @@ Before you start using DanceXR, you need to first prepare a content library so i
 [Here is a video](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3) demonstrating how to setup your content folder.
 
 To read more about it [visit this page](pages/blog/preparecontent.md)
-
-## Different versions & builds
-With each release we publish multiple builds, here's what each different variant means.
-
-[Creator](pages/creator.md), Pro and Lite are 3 different feature levels. Creator being the most complete and Lite being the free version that lacks advanced features. [To read more about features](pages/features.md)
-
-RT, HD & LW are different render pipelines that represent different graphic levels. RT uses raytracing and requires RTX hardware, HD has great image quality and LW is the fastest of all. 
 
 ## Localization
 Starting from version 1.0, we added support for multiple languages. We've made the translation public so everybody can view and make suggestions. 
