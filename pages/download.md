@@ -18,15 +18,22 @@ If you prefer an one-off purchase, you can also find it on Steam and Itch.io.
 [DanceXR Pro on Itch.io](https://stormlab.itch.io/dvvr)
 
 If you can't find DanceXR on Steam, it could be that it is blocked in your country, you can try the Pure edition instead.
+
 [DanceXR Pure on Steam](https://store.steampowered.com/app/2193970/DanceXR_Pure/)
 
 The difference between Pro and Pure version is that the Pro has some adult only features so is age restricted on Steam, also the raytraced version is a paid DLC on Steam. The Pure has all adult features removed, but it includes the raytraced version.
 
 
-The standalone build for Oculus Quest can be found here: [DanceXR Quest](https://stormlab.itch.io/dancexr-quest)
+The standalone build for Oculus Quest can be found here: 
 
-The Android Pro version can be purchased from itch.io: [DanceXR Android Pro](https://stormlab.itch.io/dancexr-android)
+[DanceXR Quest](https://stormlab.itch.io/dancexr-quest)
+
+The Android Pro version can be purchased from itch.io: 
+
+[DanceXR Android Pro](https://stormlab.itch.io/dancexr-android)
 
 You can also download and purchase the Portable edition on [Google Play](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr) for free. The Portable edition is missing the NSFW features.
 
-For mainland China users, please visit this page for more info: [中国大陆购买选项](purchase_prc.md)
+For mainland China users, please visit this page for more info: 
+
+[中国大陆购买选项](purchase_prc.md)
