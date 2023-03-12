@@ -1,5 +1,6 @@
 ---
 layout: single
+title: Download
 ---
 
 Please visit our Patreon page to find the release notes and download the free version.
