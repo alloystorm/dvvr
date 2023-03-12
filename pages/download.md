@@ -1,3 +1,7 @@
+---
+layout: single
+---
+
 Please visit our Patreon page to find the release notes and download the free version.
 
 https://www.patreon.com/dvvr 
