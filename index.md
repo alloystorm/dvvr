@@ -1,6 +1,6 @@
 ---
 title: DanceXR
-excerpt: Universal character model viewer and motion player
+excerpt: Unlock your imagination with this ultimate character model viewer and motion player. Comes with VR compatibility and available on PC, Mac, and Android. Unleash your creativity and bring your characters to life like never before!
 layout: splash
 header:
   overlay_image: /images/header_wide.png
