@@ -2,7 +2,7 @@
 layout: single
 title: DanceXR
 permalink: /dancexr/
-classes: wide
+toc: true
 ---
 
 ## Introduction
