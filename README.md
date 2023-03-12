@@ -33,8 +33,12 @@ PC supports all of these variants, while Mac currently only supports HD, and And
 
 The Pure and Pro are sold on Steam, Pro is also available on Itch.io and Patreon, while Creator is currently only offered on Patreon for the creator tier. 
 
-## [Where to download?](/pages/download)
 
+## Where to download?
+
+Please visit our [Patreon page](https://www.patreon.com/dvvr) for the latest release notes and download links. 
+
+For more details about download and purchase, please visit [this page](/pages/download)
 
 ## Getting started
 
