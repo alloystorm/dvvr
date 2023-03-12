@@ -4,6 +4,7 @@ title: VR Storm Lab
 description: Universal 3D character model viewer & motion player. 
 google_analytics: UA-147265380-2
 include: app-ads.txt
+logo: /images/icon.png
 
 plugins:
   - jekyll-paginate
