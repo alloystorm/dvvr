@@ -31,6 +31,7 @@ For each edition, you can choose between RT, HD, or LW builds. RT enables ray tr
 
 PC supports all of these variants, while Mac currently only supports HD, and Android only supports LW.
 
+The Pure and Pro are sold on Steam, Pro is also available on Itch.io and Patreon, while Creator is currently only offered on Patreon for the creator tier. 
 
 ## [Where to download?](/pages/download)
 
