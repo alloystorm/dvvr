@@ -1,4 +1,5 @@
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
+remote_theme: "mmistakes/minimal-mistakes"
 title: DanceXR (DVVR)
 description: Universal 3D character model viewer & motion player. 
 google_analytics: UA-147265380-2
