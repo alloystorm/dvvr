@@ -25,7 +25,7 @@ The Pure edition has no such limit and includes most of the Pro features such as
 
 The Pro edition is age-restricted and includes all of the features in the Pure edition.
 
-The Creator edition includes offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K videos even when your monitor is 1080p. It also has the ability to generate VR 180 videos.
+The Creator edition includes offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K at 60fps even when your monitor is 1080p and your computer is not able to maintain that framerate. It also has the ability to generate VR 180 videos.
 
 For each edition, you can choose between RT, HD, or LW builds. RT enables ray tracing, HD focuses on graphic quality, and LW is optimized for frame rate.
 
