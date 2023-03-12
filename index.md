@@ -5,6 +5,8 @@ layout: splash
 header:
   overlay_image: /images/header_wide.png
   actions: 
+    - label: Learn More
+      url: /dancexr
     - label: Patreon
       url: https://www.patreon.com/dvvr
     - label: Steam
