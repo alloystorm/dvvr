@@ -6,6 +6,10 @@ sidebar:
   nav: "docs"
 ---
 
+
+[Download DanceXR 1.4.1 (Latest Free Build)](https://www.patreon.com/posts/78062974)
+
+
 ## Patreon
 
 Every month, we publish the latest version on our [Patreon page](https://www.patreon.com/dvvr). The free version build will also be made available on Patreon one month after its initial release.
