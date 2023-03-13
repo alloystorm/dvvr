@@ -8,7 +8,7 @@ header:
     - label: Learn More
       url: /dancexr
     - label: Download
-      url: /pages/download
+      url: /dancexr/download
     - label: Videos
       url: https://www.youtube.com/@dancexr
 ---

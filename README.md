@@ -26,7 +26,7 @@ The Pure edition has no such limit and includes most of the Pro features such as
 
 The Pro edition is age-restricted and includes all of the features in the Pure edition.
 
-The [Creator edition](/pages/creator.md) includes offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K video smoothly at 60fps even when your monitor is 1080p and your computer is not able to maintain that framerate. It also has the ability to generate VR 180 videos.
+The [Creator edition](/dancexr/creator.md) includes offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K video smoothly at 60fps even when your monitor is 1080p and your computer is not able to maintain that framerate. It also has the ability to generate VR 180 videos.
 
 For each edition, you can choose between RT, HD, or LW builds. RT enables ray tracing, HD focuses on graphic quality, and LW is optimized for frame rate.
 
@@ -39,7 +39,7 @@ The Pure and Pro are sold on Steam, Pro is also available on Itch.io and Patreon
 
 Please visit our [Patreon page](https://www.patreon.com/dvvr) for the latest release notes and download links. 
 
-For more details about download and purchase, please visit [this page](/pages/download.md)
+For more details about download and purchase, please visit [this page](/dancexr/download.md)
 
 
 ## Preparing content
@@ -50,17 +50,17 @@ On a PC, DanceXR will attempt to locate content in parent folders upon initial l
 
 However, on Quest and Android devices, the location of the content folder cannot be changed. To add content, Quest users must connect their device to a PC, while Android users are provided with a content manager to perform basic file management tasks within the content folder.
 
-If you require assistance setting up your content folder, a [video tutorial is available here](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3) and [more information can be found on this page](pages/preparecontent.md).
+If you require assistance setting up your content folder, a [video tutorial is available here](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3) and [more information can be found on this page](dancexr/preparecontent.md).
 
 
 ## Documents, tutorials & bug report
-[Controls](pages/controls.md)
+[Controls](dancexr/controls.md)
 
-[Troubleshooting common issues](pages/troubleshooting.md)
+[Troubleshooting common issues](dancexr/troubleshooting.md)
 
-[About transparency](pages/transparency.md)
+[About transparency](dancexr/transparency.md)
 
-[Physics settings](pages/physics.md)
+[Physics settings](dancexr/physics.md)
 
 [Visit our Youtube channel for video demos & tutorials](https://www.youtube.com/channel/UC4kSPkrWRR_oE2QMOjFYwBg) 
 
