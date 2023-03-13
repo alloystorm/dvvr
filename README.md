@@ -71,3 +71,4 @@ For feature request or bug report, please use the [GitHub issue tracking system]
 By using this program, the user agrees that they take full responsiblity for the content that they use with the program and that all the content that are used meet all the legal & copyright requirements. The developer of DanceViewerVR does not take any responsibility for the content created or downloaded by the user.  
 
 
+
