@@ -53,18 +53,20 @@ However, on Quest and Android devices, the location of the content folder cannot
 If you require assistance setting up your content folder, a [video tutorial is available here](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3) and [more information can be found on this page](dancexr/preparecontent.md).
 
 
-## Documents, tutorials & bug report
-[Controls](dancexr/controls.md)
+## Documentation
 
-[Troubleshooting common issues](dancexr/troubleshooting.md)
-
-[About transparency](dancexr/transparency.md)
-
-[Physics settings](dancexr/physics.md)
-
-[Visit our Youtube channel for video demos & tutorials](https://www.youtube.com/channel/UC4kSPkrWRR_oE2QMOjFYwBg) 
-
-For feature request or bug report, please use the [GitHub issue tracking system](https://github.com/alloystorm/dvvr/issues).
+* Feature Lists
+    * [Basic Features](dancexr/basic_features.md)
+    * [Pro Features](dancexr/pro_features.md) [Video Demos](https://www.youtube.com/playlist?list=PLiOnKm2t3bhI6E47Smy6xX60n6h3uWeE2)
+    * [Adult Features](dancexr/adult_features.md)
+    * [Creator Features](dancexr/creator.md)
+* Topics
+    * [Transparency](dancexr/transparency.md)
+    * [Physics](dancexr/physics.md)
+    * [Controls](dancexr/controls.md)
+* [Troubleshooting](dancexr/troubleshooting.md)
+* [Report Bugs and Request Features](https://github.com/alloystorm/dvvr/issues)
+* [Demos & Tutorials](https://www.youtube.com/playlist?list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr)
 
 
 ## Terms & Conditions
