@@ -50,7 +50,7 @@ On a PC, DanceXR will attempt to locate content in parent folders upon initial l
 
 However, on Quest and Android devices, the location of the content folder cannot be changed. To add content, Quest users must connect their device to a PC, while Android users are provided with a content manager to perform basic file management tasks within the content folder.
 
-If you require assistance setting up your content folder, a [video tutorial](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3) is available here and additional information can be found on the following [page](pages/blog/preparecontent.md).
+If you require assistance setting up your content folder, a [video tutorial is available here](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3) and [more information can be found on this page](pages/preparecontent.md).
 
 
 ## Documents, tutorials & bug report
