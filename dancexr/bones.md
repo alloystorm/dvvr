@@ -1,3 +1,9 @@
+---
+layout: single
+title: Bones
+toc: true
+---
+
 While we aim for maximum compatibility, it is also important to know that MMD doesn't have a strict standard which makes it very hard to be compatible with everything. 
 
 A typical PMX bone strucutre that works well with DVVR. 

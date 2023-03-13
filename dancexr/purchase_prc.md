@@ -1,3 +1,9 @@
+---
+layout: single
+title: 中国大陆购买选项
+toc: true
+---
+
 ## 中国大陆购买选项
 
 首先感谢您的支持！

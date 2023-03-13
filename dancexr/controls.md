@@ -1,3 +1,10 @@
+---
+layout: single
+title: Controls
+toc: true
+---
+
+
 Starting from 0.5.2 release the controls on VR controllers are configurable. To use the default settings for your controller, go to settings and select the preset for your controller type in the input config. 
 
 The available control actions and default assignments are listed below

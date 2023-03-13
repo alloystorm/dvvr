@@ -1,3 +1,9 @@
+---
+layout: single
+title: Transparency
+toc: true
+---
+
 ### Issues With Transparency
 
 Transparent materials are tricky. They can overlap incorrectly and render unexpected color on top of certain parts if not set correctly. 

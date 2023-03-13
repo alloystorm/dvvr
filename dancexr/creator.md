@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Creator Edition
+toc: true
 ---
 
 # Creator Edition

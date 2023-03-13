@@ -1,3 +1,9 @@
+---
+layout: single
+title: Physics
+toc: true
+---
+
 ## Tweaking Physics
 
 ### System-wide physics settings

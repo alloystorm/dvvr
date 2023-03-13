@@ -1,7 +1,8 @@
 ---
 title: Eye Contact Feature
 youtubeId: zP966sQ6h0g
-
+toc: true
+layout: single
 ---
 
 {% include youtube.html id=page.youtubeId %}
