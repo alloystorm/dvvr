@@ -36,8 +36,8 @@ One thing to keep in mind is that don't put the content folder within the folder
 
 For a quick demonstration of how to setup a minimum required content library, please watch this video: 
 
-https://youtu.be/kjzxGEd8SqM
-{% include video id="kjzxGEd8SqM" provider="youtube" %}
+{% include video id="2LStDN7WB8" provider="youtube" %}
+https://youtu.be/2LStDN7WB8
 
 
 ## Prepare character models
@@ -56,15 +56,19 @@ The recommendation is to keep motion sets in seperate folders, and make sure the
 
 If there are more than one audio file found in the folder, DanceXR will assume that the VMD motion files that has the same filename is paired with the audio. So you can have one big folder with all your motion & audio files in it but it not a recommended layout from maintenance point of view.
 
+
 ## Zip archives
 From 0.9 release DanceXR supports loading content directly from a ZIP package. 
 
 * For a character model, you can zip all the files related to the model within a single zip package, this includes mesh data, textures and other files that are related. 
 * For a motion data, you can include the audio file, multiple VMD motion tracks with in the same zip package. 
 
+
 ## Mobile & standalone platforms
 From 0.9 Android platform is supported, this includes Oculus Quest 1 & 2 as well as Android phones & tablets. 
 Watch this tutorial to find out how to load content onto your Android device: https://www.youtube.com/watch?v=ZmDeuWwZtmI
+{% include video id="ZmDeuWwZtmI" provider="youtube" %}
+{% include video id="VQjnL9oq-hY" provider="youtube" %}
 
 
 ## Force re-scan
@@ -80,7 +84,4 @@ You can have multiple different content libraries and switch between them by goi
 Simply Google keywords like MMD download, MMD motion dl should be able to get you started. 
 
 Deviantart has tons of good quality XPS models, you can start with the XNALara group: https://www.deviantart.com/xnalara  
-
-And if you are looking for a good collection of model & motion, the best option is to get the Waifu Simulator from Lewd Fraggy
-https://www.patreon.com/lewdfraggy
 
