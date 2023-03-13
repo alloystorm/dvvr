@@ -4,6 +4,11 @@ title: Basic Features - Available in all editions
 toc: true
 ---
 
+
+(HD) indicates features avaialble in HD and RT variants
+(RT) indicates features available only in RT
+
+
 ## Application & System settings
 * Graphics settings
 * Screen resolution & refresh rate settings
