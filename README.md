@@ -20,19 +20,19 @@ DanceXR also offers built-in features that enhance the realism of character mode
 
 DanceXR offers four editions with different features: Free, Pure, Pro, and Creator.
 
-The Free edition includes all the basic functionalities such as standard pose conversion, stage and environment settings, and lifelike motions. However, it has the limitation of only allowing one actor on the stage at a time.
+The Free edition includes all the [basic features](dancexr/basic_features.md) such as standard pose conversion, stage and environment settings, and lifelike motions. However, it has the limitation of only allowing one actor on the stage at a time.
 
-The Pure edition has no such limit and includes most of the Pro features such as XPS physics and procedural dance motions. The only exceptions are features that are considered "adult only."
+The Pure edition offers [pro features](dancexr/pro_features.md) that are not avaialble in Free version, such as XPS physics and procedural dance motions. 
 
-The Pro edition is age-restricted and includes all of the features in the Pure edition.
+The Pro edition contains everything in Pure, plus [age-restricted features](dancexr/adult_features.md) and it is "adult only".
 
 The [Creator edition](/dancexr/creator.md) includes offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K video smoothly at 60fps even when your monitor is 1080p and your computer is not able to maintain that framerate. It also has the ability to generate VR 180 videos.
 
 For each edition, you can choose between RT, HD, or LW builds. RT enables ray tracing, HD focuses on graphic quality, and LW is optimized for frame rate.
 
-PC supports all of these variants, while Mac currently only supports HD, and Android only supports LW.
+Not all platforms supports all of these variants though. PC has all, while Mac currently only has HD, and Android is LW only.
 
-The Pure and Pro are sold on Steam, Pro is also available on Itch.io and Patreon, while Creator is currently only offered on Patreon for the creator tier. 
+The Pure and Pro are sold on Steam while Pro is also available on Itch.io and Patreon. Creator edition is currently only offered on Patreon for the creator tier. 
 
 
 ## Where to download?
