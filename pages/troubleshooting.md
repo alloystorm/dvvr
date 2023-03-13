@@ -1,3 +1,9 @@
+---
+layout: single
+title: Troubleshooting
+toc: true
+---
+
 ## Troubleshooting
 
 ### Unable to launch VR
