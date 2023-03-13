@@ -11,11 +11,11 @@ docs:
   - title: Feature Lists
     children:
       - title: "Basic Features"
-        url: /dancexr/basic-features
+        url: /dancexr/basic_features
       - title: "Pro Features"
-        url: /dancexr/adult-features
+        url: /dancexr/adult_features
       - title: "Adult Features"
-        url: /dancexr/adult-features
+        url: /dancexr/adult_features
       - title: "Creator Features"
         url: /dancexr/creator
 
