@@ -1,0 +1,21 @@
+docs:
+  - title: Getting Started
+    children:
+      - title: "Introduction"
+        url: /dancexr
+      - title: "Download"
+        url: /dancexr/download
+      - title: "Content Library"
+        url: /dancexr/preparecontent
+
+  - title: Feature Lists
+    children:
+      - title: "Basic Features"
+        url: /dancexr/basic-features
+      - title: "Pro Features"
+        url: /dancexr/adult-features
+      - title: "Adult Features"
+        url: /dancexr/adult-features
+      - title: "Creator Features"
+        url: /dancexr/creator
+
