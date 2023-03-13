@@ -6,13 +6,9 @@ toc: true
 
 ## Patreon
 
-Please visit our Patreon page to find the release notes and download the free version.
+Every month, we publish the latest version on our [Patreon page](https://www.patreon.com/dvvr). The free version build will also be made available on Patreon one month after its initial release.
 
-[DanceXR Patreon Page](https://www.patreon.com/dvvr) 
-
-The free version will have limitations like only one actor model can be loaded at a time, and unable to access some of the pro features. There are several options to purchase and unlock the pro version. 
-
-If you like this application and are eager to try out the new features before everyone else, we recommend supporting us on Patreon. You will be the first to get each update and have your bug reports and feature requests prioritized. 
+By becoming a supporter on Patreon, you will have exclusive access to the latest updates and the chance to provide feedback before the release is available on other platforms. If you appreciate our project and want to support us, we encourage you to become a Patreon supporter.
 
 
 ## PC version from Steam & Itch.io
