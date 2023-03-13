@@ -5,7 +5,7 @@ toc: true
 ---
 
 ## The Content Library
-After you load up DVVR for the first time, once you attempt to load an actor or a motion, it will first prompt you to locate a "content" folder. That folder is where you should keep the content files so that DVVR can find them. The content files are categorized in a few different types and DVVR expects each different content types to be in a specific subfolder within your content library.
+After you load up DanceXR for the first time, once you attempt to load an actor or a motion, it will first prompt you to locate a "content" folder. That folder is where you should keep the content files so that DanceXR can find them. The content files are categorized in a few different types and DanceXR expects each different content types to be in a specific subfolder within your content library.
 
 
 Here are the avaialble content types and expected names of subfolders:
@@ -20,10 +20,10 @@ Here are the avaialble content types and expected names of subfolders:
 Out of these only "actors" and "motion" are requried, the others are all optional. 
 
 
-Once DVVR has scanned the content folder, it will generate a "cache.json" in there for faster loading next time. The cache file also contains the tagging & favourite information. A "scenes" folder will also be created for storing saved scenes. 
+Once DanceXR has scanned the content folder, it will generate a "cache.json" in there for faster loading next time. The cache file also contains the tagging & favourite information. A "scenes" folder will also be created for storing saved scenes. 
 
 
-One thing to keep in mind is that don't put the content folder within the folder of DVVR exe files. There is currently some issue that prevents it from loading content in that particular setup. 
+One thing to keep in mind is that don't put the content folder within the folder of DanceXR exe files. There is currently some issue that prevents it from loading content in that particular setup. 
 
 
 ## Quick Setup Demo
@@ -38,7 +38,7 @@ https://youtu.be/kjzxGEd8SqM
 
 ![Example of actors folder](/pages/content_actors.PNG)
 
-For actor models, DVVR will scan "actors" sub folder for all PMX & XPS files and store them in a list for you to select from. There is no particular requirement for organizing actor models other than making sure all the dependent texture files are in place relative to the PMX files. It is recommended to keep them in separate folders for easier maintenance and also remove non-character pmx models to avoid confusing the program. 
+For actor models, DanceXR will scan "actors" sub folder for all PMX & XPS files and store them in a list for you to select from. There is no particular requirement for organizing actor models other than making sure all the dependent texture files are in place relative to the PMX files. It is recommended to keep them in separate folders for easier maintenance and also remove non-character pmx models to avoid confusing the program. 
 
 ## Prepare motion data
 
@@ -48,10 +48,10 @@ Each motion set must have an audio file in WAV or OGG format, as well as one or 
 
 The recommendation is to keep motion sets in seperate folders, and make sure there is only one WAV audio file in the folder. 
 
-If there are more than one audio file found in the folder, DVVR will assume that the VMD motion files that has the same filename is paired with the audio. So you can have one big folder with all your motion & audio files in it but it not a recommended layout from maintenance point of view.
+If there are more than one audio file found in the folder, DanceXR will assume that the VMD motion files that has the same filename is paired with the audio. So you can have one big folder with all your motion & audio files in it but it not a recommended layout from maintenance point of view.
 
 ## Zip archives
-From 0.9 release DVVR supports loading content directly from a ZIP package. 
+From 0.9 release DanceXR supports loading content directly from a ZIP package. 
 
 * For a character model, you can zip all the files related to the model within a single zip package, this includes mesh data, textures and other files that are related. 
 * For a motion data, you can include the audio file, multiple VMD motion tracks with in the same zip package. 
