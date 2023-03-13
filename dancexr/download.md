@@ -6,8 +6,16 @@ sidebar:
   nav: "docs"
 ---
 
+The latest paid version: 
 
-[Download DanceXR 1.4.1 (Latest Free Build)](https://www.patreon.com/posts/78062974)
+[DanceXR 1.4.2](https://www.patreon.com/posts/release-1-4-2-79391318)
+
+1.4.2 is available on Patreon and will be published to other platform soon.
+
+
+The latest free version: 
+
+[DanceXR 1.4.1](https://www.patreon.com/posts/78062974)
 
 
 ## Patreon
