@@ -2,6 +2,8 @@
 layout: single
 title: Creator Edition
 toc: true
+sidebar:
+  nav: "docs"
 ---
 
 # Creator Edition

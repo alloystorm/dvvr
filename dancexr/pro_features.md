@@ -2,6 +2,8 @@
 layout: single
 title: Pro Features - Available in Pure, Pro and Creator editions
 toc: true
+sidebar:
+  nav: "docs"
 ---
 
 

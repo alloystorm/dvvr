@@ -2,6 +2,8 @@
 layout: single
 title: Basic Features - Available in all editions
 toc: true
+sidebar:
+  nav: "docs"
 ---
 
 
