@@ -64,6 +64,7 @@ If you require assistance setting up your content folder, a [video tutorial is a
     * [Transparency](dancexr/transparency.md)
     * [Physics](dancexr/physics.md)
     * [Controls](dancexr/controls.md)
+    * [Bones](dancexr/bones.md)
 * [Troubleshooting](dancexr/troubleshooting.md)
 * [Report Bugs and Request Features](https://github.com/alloystorm/dvvr/issues)
 * [Demos & Tutorials](https://www.youtube.com/playlist?list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr)
