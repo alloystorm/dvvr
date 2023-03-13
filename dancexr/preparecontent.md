@@ -10,78 +10,55 @@ sidebar:
 
 The content library is a folder where DanceXR locates content and stores user created settings. 
 
-On a PC, the user can choose where the folder is located while on Quest and Android this is a dedicated folder within the application storage and you cannot change its location. 
-
-When you run DanceXR for the first time, it will first attempts to find the content library from its parent folders and if nothing is found, a new folder with created with appropriate subfolders for you to transfer your content into. From the system menu you can choose to open the content library in explorer and then start moving the content. 
-
-Here are the avaialble content types and expected names of subfolders:
-* actors - Actor models 
-* motion - Motion & audio files (vmd & wav)
-* stages - Stage models 
-* skys - Skymaps
-* textures - Replacement texture files for customizing stage
-* masks - Special texture files for the Outfit feature. e.g. you can add tatoo images here to place them on a character model. 
+DanceXR searches for various types of content in distinct subfolders located within the content library. 
+* actors: Character models 
+* motion: Motion & audio files
+* stages: Stage models 
+* accessory: Accessory models
+* skys: Panoramic skymaps
+* textures: Texture files for ground and built-in stages
+* masks: Special textures. Used in Outfit and particle effects.
 
 
-Out of these only "actors" and "motion" are requried, the others are all optional. 
+## Character models
+
+![Example of actors folder](/dancexr/content_actors.PNG)
+
+As long as the dependent texture files are in the correct location relative to the PMX files, there are no specific requirements for how actor models should be placed.
+
+For easier management, it is advisable to store all files in either zip packages or separate folders.
 
 
-Once DanceXR has scanned the content folder, it will generate a "cache.json" in there for faster loading next time. The cache file also contains the tagging & favourite information. A "scenes" folder will also be created for storing saved scenes. 
+## Motion data
+
+![Example of motion folder](/dancexr/content_motion.PNG)
+
+Although it is feasible to play a single motion file without audio or any associated camera motion, typically, motion data comes with an audio file, one or more motion files, and possibly several camera motion files as well.
+
+It is advisable to store all files related to the motion data in a single subfolder or, preferably, in a zip package. It is also essential to avoid mixing files for other motion data and to ensure that there is only one audio file associated with the motion data. Keep in mind that only WAV and OGG audio format are supported.
 
 
-One thing to keep in mind is that don't put the content folder within the folder of DanceXR exe files. There is currently some issue that prevents it from loading content in that particular setup. 
+## Demo Videos
 
-
-## Quick Setup Demo
-
-For a quick demonstration of how to setup a minimum required content library, please watch this video: 
-
+On PC:
 {% include video id="2LStDN7WB8" provider="youtube" %}
 https://youtu.be/2LStDN7WB8
 
 
-## Prepare character models
-
-![Example of actors folder](/dancexr/content_actors.PNG)
-
-For actor models, DanceXR will scan "actors" sub folder for all PMX & XPS files and store them in a list for you to select from. There is no particular requirement for organizing actor models other than making sure all the dependent texture files are in place relative to the PMX files. It is recommended to keep them in separate folders for easier maintenance and also remove non-character pmx models to avoid confusing the program. 
-
-## Prepare motion data
-
-![Example of motion folder](/dancexr/content_motion.PNG)
-
-Each motion set must have an audio file in WAV or OGG format, as well as one or more VMD motion tracks. 
-
-The recommendation is to keep motion sets in seperate folders, and make sure there is only one WAV audio file in the folder. 
-
-If there are more than one audio file found in the folder, DanceXR will assume that the VMD motion files that has the same filename is paired with the audio. So you can have one big folder with all your motion & audio files in it but it not a recommended layout from maintenance point of view.
-
-
-## Zip archives
-From 0.9 release DanceXR supports loading content directly from a ZIP package. 
-
-* For a character model, you can zip all the files related to the model within a single zip package, this includes mesh data, textures and other files that are related. 
-* For a motion data, you can include the audio file, multiple VMD motion tracks with in the same zip package. 
-
-
-## Mobile & standalone platforms
-From 0.9 Android platform is supported, this includes Oculus Quest 1 & 2 as well as Android phones & tablets. 
-Watch this tutorial to find out how to load content onto your Android device: https://www.youtube.com/watch?v=ZmDeuWwZtmI
-{% include video id="ZmDeuWwZtmI" provider="youtube" %}
+Using content manager on Android
 {% include video id="VQjnL9oq-hY" provider="youtube" %}
 
 
-## Force re-scan
-Content scan is done automatically on start if a change is detected. Otherwise it simply reads content from the cache to speed up load time. If required you can force it to rescan by going to settings -> options and click on "Refresh Content".
+Loading content on Quest
+{% include video id="ZmDeuWwZtmI" provider="youtube" %}
 
 
-## Changing content folder
-You can have multiple different content libraries and switch between them by going to settings -> options and click on "Change Library"
+## Content Library Tools
+There are a few tools provided in the content library menu.
 
+* "Refresh Content": DanceXR can detect changes of the content library and perform scan automatically. However if for some reason the auto scan doesn't work, you can use this option to force a re-scan of the whole content library. 
+* "Change Library": Use this to switch to a different content library on your machine. This is not available in Quest and Android versions.
 
-## Where to find content
-
-Simply Google keywords like MMD download, MMD motion dl should be able to get you started. 
-
-Deviantart has tons of good quality XPS models, you can start with the XNALara group: https://www.deviantart.com/xnalara  
+## Google Drive Integration
+DanceXR can download files from Google drive. As long as the drive folder is shared without any restriction. Simply type in the URL of your shared folder and DanceXR will be able to scan the drive folder and download the files that doesn't exist locally.
 
