@@ -24,7 +24,7 @@ The Free edition includes all the [basic features](dancexr/basic_features.md) su
 
 The Pure edition offers [pro features](dancexr/pro_features.md) that are not avaialble in Free version, such as XPS physics and procedural dance motions. 
 
-The Pro edition contains everything in Pure, plus [age-restricted features](dancexr/adult_features.md) and it is "adult only".
+The Pro edition contains everything in Pure, plus [age-restricted features](dancexr/adult_features.md).
 
 The [Creator edition](/dancexr/creator.md) includes offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K video smoothly at 60fps even when your monitor is 1080p and your computer is not able to maintain that framerate. It also has the ability to generate VR 180 videos.
 
