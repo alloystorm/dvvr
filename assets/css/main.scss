@@ -5,5 +5,15 @@ search: false
 
 @charset "utf-8";
 
+/* type scale */
+$type-size-1 : 2.0em;
+$type-size-2 : 1.75em;
+$type-size-3 : 1.5em;
+$type-size-4 : 1.25em;   // ~20px
+$type-size-5 : 1em;      // ~16px
+$type-size-6 : 0.75em;   // ~12px
+$type-size-7 : 0.6875em; // ~11px
+$type-size-8 : 0.625em;  // ~10px
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
