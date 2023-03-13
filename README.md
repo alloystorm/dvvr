@@ -3,6 +3,8 @@ layout: single
 title: DanceXR
 permalink: /dancexr/
 toc: true
+sidebar:
+  nav: "docs"
 ---
 
 ## Introduction

@@ -8,6 +8,7 @@ sidebar:
 
 
 (HD) indicates features avaialble in HD and RT variants
+
 (RT) indicates features available only in RT
 
 

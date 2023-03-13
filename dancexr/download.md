@@ -2,6 +2,8 @@
 layout: single
 title: Download
 toc: true
+sidebar:
+  nav: "docs"
 ---
 
 ## Patreon

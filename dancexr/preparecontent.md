@@ -2,6 +2,8 @@
 layout: single
 title: Content Library
 toc: true
+sidebar:
+  nav: "docs"
 ---
 
 ## The Content Library

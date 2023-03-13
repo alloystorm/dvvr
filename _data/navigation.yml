@@ -8,7 +8,7 @@ docs:
       - title: "Content Library"
         url: /dancexr/preparecontent
 
-  - title: Feature Lists
+  - title: Features & Variants
     children:
       - title: "Basic Features"
         url: /dancexr/basic_features
@@ -19,3 +19,9 @@ docs:
       - title: "Creator Features"
         url: /dancexr/creator
 
+  - title: FAQ & Troubleshooting
+    children:
+      - title: "FAQ"
+        url: /dancexr/faq
+      - title: "Troubleshooting"
+        url: /dancexr/troubleshooting
