@@ -41,8 +41,7 @@ It is advisable to store all files related to the motion data in a single subfol
 ## Demo Videos
 
 On PC:
-{% include video id="2LStDN7WB8" provider="youtube" %}
-https://youtu.be/2LStDN7WB8
+{% include video id="-2LStDN7WB8" provider="youtube" %}
 
 
 Using content manager on Android
