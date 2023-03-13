@@ -6,6 +6,7 @@ google_analytics: UA-147265380-2
 include: app-ads.txt
 logo: /images/icon.png
 breadcrumbs: true
+url: https://vrstormlab.com/
 
 plugins:
   - jekyll-paginate
