@@ -37,7 +37,7 @@ One thing to keep in mind is that don't put the content folder within the folder
 For a quick demonstration of how to setup a minimum required content library, please watch this video: 
 
 https://youtu.be/kjzxGEd8SqM
-
+{% include video id="kjzxGEd8SqM" provider="youtube" %}
 
 
 ## Prepare character models
