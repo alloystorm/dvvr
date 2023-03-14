@@ -9,15 +9,13 @@ sidebar:
 ## The Latest Version
 ### Paid 
 [DanceXR 1.4.2](https://www.patreon.com/posts/release-1-4-2-79391318)
-
 1.4.2 is currently available on Patreon and will be published to other platform soon.
 
 ### Free 
 [DanceXR 1.4.1](https://www.patreon.com/posts/78062974)
 
 ### Past releases
-
-Past releases can be found on our [Patreon page](https://www.patreon.com/dvvr)
+[Past releases can be found on our Patreon page](https://www.patreon.com/dvvr)
 
 
 ## Purchase Options
