@@ -48,11 +48,11 @@ docs-jp:
   - title: はじめに
     children:
       - title: "紹介"
-        url: /dancexr
+        url: /jp/dancexr
       - title: "Download"
-        url: /dancexr/download
+        url: /jp/dancexr/download
       - title: "コンテンツライブラリー"
-        url: /dancexr/preparecontent
+        url: /jp/dancexr/preparecontent
 
   - title: 特徴とバリアント
     children:
@@ -86,6 +86,6 @@ docs-jp:
   - title: FAQ＆トラブルシューティング
     children:
       - title: "FAQ"
-        url: /dancexr/faq
+        url: /jp/dancexr/faq
       - title: "トラブルシューティング"
-        url: /dancexr/troubleshooting        
+        url: /jp/dancexr/troubleshooting        
