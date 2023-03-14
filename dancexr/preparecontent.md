@@ -22,7 +22,7 @@ DanceXR searches for various types of content in distinct subfolders located wit
 
 ## Character models
 
-![Example of actors folder](/dancexr/content_actors.PNG)
+![Example of actors folder](/images/content_actors.PNG)
 
 As long as the dependent texture files are in the correct location relative to the PMX files, there are no specific requirements for how actor models should be placed.
 
@@ -31,7 +31,7 @@ For easier management, it is advisable to store all files in either zip packages
 
 ## Motion data
 
-![Example of motion folder](/dancexr/content_motion.PNG)
+![Example of motion folder](/images/content_motion.PNG)
 
 Although it is feasible to play a single motion file without audio or any associated camera motion, typically, motion data comes with an audio file, one or more motion files, and possibly several camera motion files as well.
 

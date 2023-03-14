@@ -39,7 +39,7 @@ toc: true
 
 收到CD Key之后您就可以在itch.io平台凭CD Key领取您购买的版本并下载。激活时请选择itch.io通道。
 
-![Alipay Code](vrstormlab_alipay.png)
+![Alipay Code](/images/vrstormlab_alipay.png)
 
 
 大陆地区的定价如下：

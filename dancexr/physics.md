@@ -9,7 +9,7 @@ toc: true
 ### System-wide physics settings
 You can locate the system-wide physics settings in Settings -> Options -> Physics. 
 
-![System Physics](/dancexr/system-physics.png)
+![System Physics](/images/system-physics.png)
 
 Enabled
 : Turn physics simulation on and off
@@ -26,7 +26,7 @@ Steps per second
 ### PMX Model specific settings
 You can locate the model specific physics settings in model settings -> Options -> Physics
 
-![Model Physics](/dancexr/model-physics.png)
+![Model Physics](/images/model-physics.png)
 
 Firmness
 :  This is an overall multiplier applied to the spring force of all joints. Increasing the value will reduce movements. On top of this you can control spring forces for linear and angular movements individually using the settings below.

@@ -10,7 +10,7 @@ It's still easier to use a PC to manage your content on the device. It's just co
 * Connect your device to your PC. Select "File Transfer" from the popup dialog or from system settings. 
 * Now open File Explorer and you should be able to see your device.
 * Navigate to /Android/data/com.vrstormlab.dancexr/files/. If you don't see that folder, make sure DanceXR is installed, and if you still cannot find it after install, let us know and we'll try our best to figure that out.
-* Copy your entire content folder into that directory. So your content folder structure will be like ![example folder](/dancexr/content_folder_android.png)
+* Copy your entire content folder into that directory. So your content folder structure will be like ![example folder](/images/content_folder_android.png)
 
 Then you should be able to see your content next time you run DanceXR on the device
 

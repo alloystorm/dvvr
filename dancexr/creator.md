@@ -12,7 +12,7 @@ Creator edition offers offline render capabilities, which allow you to record vi
 
 ## Recording menu
 
-![Record Menu](record_menu.png)
+![Record Menu](/images/record_menu.png)
 
 To access the recording features, click on the red circle "recording" button on the main UI. Then select one of the options in the recording menu to either start the recording process or change recording settings. 
 
@@ -23,7 +23,7 @@ You can use the preview option to preview the recording on screen. The output wi
 During recording or preview, the number of the currently frame and total frames of the recording are displayed on screen, and an estimated time is calculated to indicate how long it will take to generate the entire recording. You can use the "Terminate" button below to end the process at any time. 
 
 From the recording settings, you can also change the framerate, image format and compression quality. 
-![Record Setting](record_setting.png)
+![Record Setting](/images/record_setting.png)
 
 ## Recording modes
 
@@ -38,7 +38,7 @@ With VR 180, please note that this doesn't provide true 180 degrees field of vie
 ## Post processing
 
 The output of the recording are stored as sequence of images due to a technical limitation at the moment. 
-![Record Images](record_images.png)
+![Record Images](/images/record_images.png)
 
 You'll need to use tools like ffmpeg to convert the images into a video. (If you are familar with video editing, you can use whichever tool that you prefer. FFMPEG is only recommended here due to its ease of use)
 
