@@ -15,12 +15,11 @@ analytics:
     anonymize_ip: false # default
 
 # Language settings
-languages:
-  - name: English
-    locale: en-US
-  - name: 日本語
-    locale: ja-JP
-    
+locale: "en"
+languages: ["en", "ja"]
+default_lang: "en"
+lang_vars: ["locale"]
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
