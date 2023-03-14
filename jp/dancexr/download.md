@@ -1,9 +1,9 @@
 ---
 layout: single
-title: Download
+title: ダウンロード
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-jp"
 ---
 
 ## 最新バージョン

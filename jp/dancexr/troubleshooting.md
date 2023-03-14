@@ -1,9 +1,9 @@
 ---
 layout: single
-title: Troubleshooting
+title: トラブルシューティング
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-jp"
 ---
 
 ## バグの報告

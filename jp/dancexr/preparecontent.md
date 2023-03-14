@@ -3,7 +3,7 @@ layout: single
 title: コンテンツライブラリー
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-jp"
 ---
 
 ## コンテンツライブラリ

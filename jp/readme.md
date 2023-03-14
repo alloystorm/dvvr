@@ -6,7 +6,7 @@ toc: true
 lang: jp
 locale: jp
 sidebar:
-  nav: "docs"
+  nav: "docs-jp"
 ---
 
 ## はじめに
