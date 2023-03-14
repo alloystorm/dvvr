@@ -65,28 +65,28 @@ docs-jp:
       - title: "基本機能"
         url: /jp/dancexr/basic_features
       - title: "プロ機能"
-        url: /dancexr/pro_features
+        url: /jp/dancexr/pro_features
       - title: "成人向けの機能"
-        url: /dancexr/adult_features
+        url: /jp/dancexr/adult_features
       - title: "クリエイター機能"
-        url: /dancexr/creator
+        url: /jp/dancexr/creator
   
   - title: チュートリアル
     children:
       - title: "XPSボーンマッパー"
-        url: /dancexr/bone_mapper
+        url: /jp/dancexr/bone_mapper
       - title: "アニメーション衣装変更"
-        url: /dancexr/optionals
+        url: /jp/dancexr/optionals
       - title: "材料設定"
-        url: /dancexr/material_settings
+        url: /jp/dancexr/material_settings
       - title: "音楽タイミングの設定"
-        url: /dancexr/music_timing
+        url: /jp/dancexr/music_timing
       - title: "二次モーション"
-        url: /dancexr/assign_motion
+        url: /jp/dancexr/assign_motion
       - title: "XPS物理学"
-        url: /dancexr/xps_physics
+        url: /jp/dancexr/xps_physics
       - title: "スカイマップ"
-        url: /dancexr/skymap
+        url: /jp/dancexr/skymap
       
 
   - title: FAQ＆トラブルシューティング

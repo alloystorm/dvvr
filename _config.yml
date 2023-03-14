@@ -14,12 +14,6 @@ analytics:
     tracking_id: "G-3717TSDBXS"
     anonymize_ip: false # default
 
-# Language settings
-locale: "en"
-languages: ["en", "ja"]
-default_lang: "en"
-lang_vars: ["locale"]
-
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
