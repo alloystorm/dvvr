@@ -16,3 +16,6 @@ sidebar:
 * Use the sequence slider to preview the animation
 * Use "Auto Update" options for the sequence slider to animate it
 
+
+Here's a demo using this functionality:
+{% include video id="TQqR8ZPbqWI" provider="youtube" %}
