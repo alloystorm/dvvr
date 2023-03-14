@@ -5,10 +5,12 @@ search: false
 
 @charset "utf-8";
 
-p,
-li,
-dl {
-  font-size: 0.8em;
+.page__content {
+    p,
+    li,
+    dl {
+    font-size: 0.8em;
+    }
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
