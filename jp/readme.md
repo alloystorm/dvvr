@@ -3,8 +3,8 @@ layout: single
 title: DanceXR
 permalink: /jp/dancexr/
 toc: true
-lang: jp
-locale: jp
+lang: ja-JP
+locale: ja
 sidebar:
   nav: "docs-jp"
 ---
