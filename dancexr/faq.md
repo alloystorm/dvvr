@@ -14,9 +14,9 @@ This usually indicates something wrong during start up. You can try the followin
 
 
 ## I'm asked to activate again
-Sometimes your device ID can change because of OS update, hardware upgrade or other changes on your system. And this will trigger a new activation. 
+Sometimes your device ID can change because of OS update, hardware upgrade or other changes to your system. And this will require a new activation. 
 
-All you need to do is to perform the activation check again and it should work fine. Let us know if you are still having trouble with activation. 
+All you need to do is to perform the activation steps again and it should work fine afterwards. Let us know if you are having any issue with this and we can certainly help out. 
 
 
 ## Unable to launch VR
@@ -29,9 +29,11 @@ If you have problems launching VR, try the following:
 
 
 ## Model loads but everything is white
-Sometimes the filenamess are writen in different languages and the system might not be able to find the file needed. 
+Sometimes the filenames are writen in different languages and the system might not be able to find the file needed. 
 
 If this is in a ZIP package, you can set the encoding by adding extra string to the zip package name so DanceXR knows what encoding to use when parsing the files. [More detail here](zip_format.md).
+
+This can also be caused by extra spaces in the filename that prevents the file from being located. You can use PMXEditor to open your model and make sure the texture references match the actual filenames. 
 
 
 ## I can see through hair materials
@@ -40,3 +42,9 @@ By default, transparency depth prepass is turned on. This solves the transparenc
 To resolve this, you can try turning transparency depth prepass off, this will allow all transparent materials to be renderred but it may introduce sorting issue that things may appear inside-out, if the material order is not defined properly. There is no perfect solution for now. You'll have to try different configurations and use the one that is less problematic. 
 
 
+## Sky sphere from stage models look strange, there are holes and they look pixelated
+This is also caused by transparency depth prepass. When there are multiple sky spheres and they are all transparent, only the top layer is shown in some areas. 
+
+To fix this, either
+* Turn off transparent prepass
+* Or find the sky sphere that is the background and change it from transparent to opaque.
