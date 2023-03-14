@@ -1,3 +1,9 @@
+main:
+  - title: "English"
+    url: /
+  - title: "日本語"
+    url: /jp/
+
 docs:
   - title: Getting Started
     children:
