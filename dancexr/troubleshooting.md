@@ -7,7 +7,7 @@ sidebar:
 ---
 
 ## Reporting Bugs
-It is recommended to raise a bug on GitHub issue tracker, so it can be properly managed. 
+It is recommended to raise a bug on [GitHub issue tracker](https://github.com/alloystorm/dvvr/issues), so it can be properly managed. 
 
 You can also send emails to us directly to vrstormlab@gmail.com. It's best to attach screenshots, example models if possible. 
 

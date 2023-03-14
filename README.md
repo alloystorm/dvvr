@@ -57,19 +57,7 @@ If you require assistance setting up your content folder, a [video tutorial is a
 
 ## Documentation
 
-* Feature Lists
-    * [Basic Features](dancexr/basic_features.md)
-    * [Pro Features](dancexr/pro_features.md) [Video Demos](https://www.youtube.com/playlist?list=PLiOnKm2t3bhI6E47Smy6xX60n6h3uWeE2)
-    * [Adult Features](dancexr/adult_features.md)
-    * [Creator Features](dancexr/creator.md)
-* Topics
-    * [Transparency](dancexr/transparency.md)
-    * [Physics](dancexr/physics.md)
-    * [Controls](dancexr/controls.md)
-    * [Bones](dancexr/bones.md)
-* [Troubleshooting](dancexr/troubleshooting.md)
-* [Report Bugs and Request Features](https://github.com/alloystorm/dvvr/issues)
-* [Demos & Tutorials](https://www.youtube.com/playlist?list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr)
+To learn more about the features and functionalities, select a topic from the list on the left.
 
 
 ## Terms & Conditions
