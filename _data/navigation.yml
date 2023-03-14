@@ -33,6 +33,8 @@ docs:
         url: /dancexr/assign_motion
       - title: "XPS Physics"
         url: /dancexr/xps_physics
+      - title: "Sky Map"
+        url: /dancexr/sky_map
       
 
   - title: FAQ & Troubleshooting
