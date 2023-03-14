@@ -23,7 +23,7 @@ docs:
     children:
       - title: "XPS Bone Mapper"
         url: /dancexr/bone_mapper
-      - title: "Animate Clothing Change with Optional Items"
+      - title: "Animate Clothing Change"
         url: /dancexr/optionals
       - title: "Material Settings"
         url: /dancexr/material_settings
@@ -34,7 +34,7 @@ docs:
       - title: "XPS Physics"
         url: /dancexr/xps_physics
       - title: "Sky Map"
-        url: /dancexr/sky_map
+        url: /dancexr/skymap
       
 
   - title: FAQ & Troubleshooting
