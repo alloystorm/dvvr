@@ -49,7 +49,7 @@ docs-jp:
     children:
       - title: "紹介"
         url: /jp/dancexr
-      - title: "Download"
+      - title: "ダウンロード"
         url: /jp/dancexr/download
       - title: "コンテンツライブラリー"
         url: /jp/dancexr/preparecontent
@@ -57,7 +57,7 @@ docs-jp:
   - title: 機能
     children:
       - title: "基本機能"
-        url: /dancexr/basic_features
+        url: /jp/dancexr/basic_features
       - title: "プロ機能"
         url: /dancexr/pro_features
       - title: "成人向けの機能"
