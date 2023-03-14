@@ -1,9 +1,10 @@
 ---
 layout: single
 title: DanceXR
-permalink: /jp/dancexr/
+permalink: /jp/dancexr
 toc: true
 lang: jp
+locale: jp
 sidebar:
   nav: "docs"
 ---
