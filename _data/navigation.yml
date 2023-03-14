@@ -54,18 +54,18 @@ docs-jp:
       - title: "コンテンツライブラリー"
         url: /jp/dancexr/preparecontent
 
-  - title: 特徴とバリアント
+  - title: 機能
     children:
       - title: "基本機能"
         url: /dancexr/basic_features
       - title: "プロ機能"
         url: /dancexr/pro_features
-      - title: "成人向けの特徴"
+      - title: "成人向けの機能"
         url: /dancexr/adult_features
       - title: "クリエイター機能"
         url: /dancexr/creator
   
-  - title: Tutorials
+  - title: チュートリアル
     children:
       - title: "XPSボーンマッパー"
         url: /dancexr/bone_mapper
