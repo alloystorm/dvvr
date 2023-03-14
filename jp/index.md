@@ -6,7 +6,7 @@ permalink: /jp/
 header:
   overlay_image: /images/header_wide.png
   actions: 
-    - label: もっと学ぶ
+    - label: 紹介
       url: /jp/dancexr
     - label: ダウンロード
       url: /jp/dancexr/download
