@@ -57,7 +57,7 @@ If you require assistance setting up your content folder, a [video tutorial is a
 
 ## Documentation
 
-To learn more about the features and functionalities, select a topic from the list on the left.
+To learn more about the features and functionalities, select a topic from the "table of contents" on the left or top of this page.
 
 
 ## Terms & Conditions
