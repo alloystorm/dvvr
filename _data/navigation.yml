@@ -18,6 +18,22 @@ docs:
         url: /dancexr/adult_features
       - title: "Creator Features"
         url: /dancexr/creator
+  
+  - title: Tutorials
+    children:
+      - title: "XPS Bone Mapper"
+        url: /dancexr/bone_mapper
+      - title: "Animate Clothing Change with Optional Items"
+        url: /dancexr/optionals
+      - title: "Material Settings"
+        url: /dancexr/material_settings
+      - title: "Music Timing Config"
+        url: /dancexr/music_timing
+      - title: "Secondary Motion"
+        url: /dancexr/assign_motion
+      - title: "XPS Physics"
+        url: /dancexr/xps_physics
+      
 
   - title: FAQ & Troubleshooting
     children:

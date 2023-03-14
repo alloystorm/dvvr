@@ -2,6 +2,8 @@
 layout: single
 title: Troubleshooting
 toc: true
+sidebar:
+  nav: "docs"
 ---
 
 ## Reporting Bugs
