@@ -8,6 +8,12 @@ logo: /images/icon.png
 breadcrumbs: true
 url: https://vrstormlab.com/
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-3717TSDBXS"
+    anonymize_ip: false # default
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
