@@ -16,19 +16,6 @@ releases:
     - title: Release 1.4.1 Jan 2023
       url: /dancexr/releases/1.4.0
 
-releases-jp:
-  - title: 現在のリリース
-    children:
-    - title: リリース 1.4.2 2023年3月
-      url: /jp/dancexr/releases/1.4.2
-  - title: 以前のリリース
-    children:
-    - title: リリース 1.4.1 2023年2月
-      url: /jp/dancexr/releases/1.4.1
-    - title: リリース 1.4.0 2023年1月
-      url: /jp/dancexr/releases/1.4.0
-
-
 docs:
   - title: Getting Started
     children:
@@ -81,6 +68,20 @@ docs:
       - title: "Troubleshooting"
         url: /dancexr/troubleshooting
 
+
+
+releases-jp:
+  - title: 現在のリリース
+    children:
+    - title: リリース 1.4.2 2023年3月
+      url: /jp/dancexr/releases/1.4.2
+  - title: 以前のリリース
+    children:
+    - title: リリース 1.4.1 2023年2月
+      url: /jp/dancexr/releases/1.4.1
+    - title: リリース 1.4.0 2023年1月
+      url: /jp/dancexr/releases/1.4.0
+      
 docs-jp:
   - title: はじめに
     children:
