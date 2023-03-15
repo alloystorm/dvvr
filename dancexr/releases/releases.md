@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Releases
-permalink: /dancexr/releases
+permalink: /dancexr/releases/
 toc: true
 sidebar:
   nav: "docs"
@@ -15,4 +15,4 @@ sidebar:
 * [Release 1.4.1 Jan 2023](releases/1.4.0.md)
 
 
-Looking for even older release? [Visit our Patreon page](https://www.patreon.com/dvvr)
+Looking for even older releases? [Visit our Patreon page](https://www.patreon.com/dvvr)
