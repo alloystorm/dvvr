@@ -4,7 +4,7 @@ title: リリース
 permalink: /jp/dancexr/releases/
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-jp"
 ---
 
 {% include nav_list nav="releases-jp" %}
