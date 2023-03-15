@@ -6,17 +6,11 @@ sidebar:
   nav: "docs-jp"
 ---
 
-## 最新バージョン
-### 有料
-[DanceXR 1.4.2](https://www.patreon.com/posts/release-1-4-2-79391318)
-1.4.2は現在Patreonで利用可能であり、他のプラットフォームにも近日中に公開されます。
+## 無料版ダウンロード
 
-### 無料
-[DanceXR 1.4.1](https://www.patreon.com/posts/78062974)
+[DanceXR 1.4.1 HD](https://www.patreon.com/file?h=78062974&i=13384058)は、ダウンロード可能な最新の無料版です。
 
-### 過去のリリース
-[過去のリリースはPatreonページで見つけることができます](https://www.patreon.com/dvvr)
-
+無料版には、標準ポーズ変換、ステージと環境設定、そしてリアルなモーションなどの[基本機能](basic_features.md)が含まれています。ただし、ステージ上には1人のアクターしか表示できず、[有料版の高度な機能](pro_features.md)は使用できません。
 
 ## 購入オプション
 有料版にアクセスするには、以下のオプションを検討してください。

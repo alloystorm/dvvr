@@ -6,20 +6,14 @@ sidebar:
   nav: "docs"
 ---
 
-## The Latest Version
-### Paid 
-[DanceXR 1.4.2](https://www.patreon.com/posts/release-1-4-2-79391318)
-1.4.2 is currently available on Patreon and will be published to other platform soon.
+## Free Version Download
 
-### Free 
-[DanceXR 1.4.1](https://www.patreon.com/posts/78062974)
+[DanceXR 1.4.1 HD](https://www.patreon.com/file?h=78062974&i=13384058) is the latest free version you can download.
 
-### Past releases
-[Past releases can be found on our Patreon page](https://www.patreon.com/dvvr)
+The free version includes all [basic features](basic_features.md) such as standard pose conversion, stage and environment settings, and lifelike motions. However, it has some limitations: only one actor can be on the stage at a time, and [advanced features](pro_features.md) in the paid version are not available.
 
 
-## Purchase Options
-To gain access to the paid version, please consider one of the options below:
+[DanceXR 1.4.2](releases/1.4.2.md) is the latest paid version. You can use one of the following options to gain access to the latest paid release.
 
 ### Become a supporter on Patreon
 
