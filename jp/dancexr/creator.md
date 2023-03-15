@@ -1,86 +1,84 @@
 ---
 layout: single
-title: Creator Edition
+title: クリエーター エディション
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-jp"
 ---
+# クリエーター エディション
 
-# Creator Edition
+Creator エディションにはオフライン レンダリング機能があり、実際のフレーム レートや画面解像度を気にせずに動画を録画できます。 たとえば、モニターが 1080p で、コンピューターがそのフレームレートを維持できない場合でも、4K ビデオを 60fps でスムーズに録画できます。 また、3D および VR 180 ビデオを生成することもできます。
 
-Creator edition offers offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K video smoothly at 60fps even when your monitor is 1080p and your computer is not able to maintain that framerate. It can also generate 3D and VR 180 videos.
+## 録音メニュー
 
-## Recording menu
+![録画メニュー](/images/record_menu.png)
 
-![Record Menu](/images/record_menu.png)
+録画機能にアクセスするには、メイン UI の赤い丸の「録画」ボタンをクリックします。 次に、記録メニューのオプションの 1 つを選択して、記録プロセスを開始するか、記録設定を変更します。
 
-To access the recording features, click on the red circle "recording" button on the main UI. Then select one of the options in the recording menu to either start the recording process or change recording settings. 
+オーディオがロードされた VMD モーションがある場合、録音は曲全体にわたって続きます。 それ以外の場合は、録画設定内のデフォルトの録画時間が使用されます。
 
-When you have a VMD motion with audio loaded, the recording will last for the duration of the whole song. Otherwise the default recording duration from within the recording settings will be used. 
+プレビュー オプションを使用して、録画を画面上でプレビューできます。 出力は画面にレンダリングされるだけで、画像は保存されません。 これを使用して、カメラとモーションの選択が正しいことを確認します。
 
-You can use the preview option to preview the recording on screen. The output will only be renderred on screen and no image will be saved. Use this to make sure your camera and motion selection are correct. 
+録画またはプレビュー中に、現在のフレーム数と録画の合計フレーム数が画面に表示され、録画全体を生成するのにかかる時間を示す推定時間が計算されます。 下の [終了] ボタンを使用して、いつでもプロセスを終了できます。
 
-During recording or preview, the number of the currently frame and total frames of the recording are displayed on screen, and an estimated time is calculated to indicate how long it will take to generate the entire recording. You can use the "Terminate" button below to end the process at any time. 
+録画設定から、フレームレート、画像フォーマット、圧縮品質を変更することもできます。
+![録画設定](/images/record_setting.png)
 
-From the recording settings, you can also change the framerate, image format and compression quality. 
-![Record Setting](/images/record_setting.png)
+## 記録モード
 
-## Recording modes
+メニューから録画を開始すると、2D、3D SBS、VR 180 録画モードから選択できます。
 
-You can choose from 2D, 3D SBS and VR 180 recording modes when starting recording from the menu.
+3D SBS では、出力を生成するために 2 台のカメラが使用され、各眼に 1 台ずつ使用されます。 画像は横に並んでいます。
 
-With 3D SBS, 2 cameras are used to generate the output, one for each eye. The images are placed side by side. 
+VR 180 では、真の 180 度の視野が提供されないことに注意してください。 代わりに、各カメラは 120 度でレンダリングし、外側の領域は黒で塗りつぶされます。 これは、現時点では効率の妥協点です。 今後のアップデートで、180 度および 360 度の完全な視野の VR ビデオを提供するオプションを評価します。
 
-With VR 180, please note that this doesn't provide true 180 degrees field of view. Instead each camera renders at 120 degrees and the outside area is filled with black. This is a compromise for efficiency for now. We'll evaluate options to provide full 180 and 360 field of view VR videos in future updates. 
+2D および 3D SBS モードは設定で選択された解像度を使用しますが、VR180 出力は 4096x2048、つまり各目で 2048x2048 に固定されます。
 
-2D and 3D SBS modes use the selected resolution in the settings whereas VR180 output is fixed at 4096x2048, that is 2048x2048 each eye. 
+## 後処理
 
-## Post processing
+記録の出力は、現時点での技術的な制限により、一連の画像として保存されます。
+![画像を記録する](/images/record_images.png)
 
-The output of the recording are stored as sequence of images due to a technical limitation at the moment. 
-![Record Images](/images/record_images.png)
+画像をビデオに変換するには、ffmpeg などのツールを使用する必要があります。 (ビデオ編集に精通している場合は、好みのツールを使用できます。FFMPEG は使いやすいため、ここでのみお勧めします)
 
-You'll need to use tools like ffmpeg to convert the images into a video. (If you are familar with video editing, you can use whichever tool that you prefer. FFMPEG is only recommended here due to its ease of use)
+Windows に ffmpeg をインストールする方法に関する記事は次のとおりです: https://www.wikihow.com/Install-FFmpeg-on-Windows
 
-Here is an article about how to install ffmpeg on Windows: https://www.wikihow.com/Install-FFmpeg-on-Windows
+ffmpeg をインストールし、そのパスを環境変数に追加したら、準備完了です。
 
-Once you have ffmpeg installed and its path added to environment variables, you should be good to go. 
+出力画像を含むフォルダーには、システムに ffmpeg がある場合に変換を実行するバッチ ファイルもあります。
 
-In the folder that contains the output images, there is also a batch file that will perform the conversion if you have ffmpeg on your system. 
+パラメータを微調整したい場合は、端末ウィンドウにコマンドを手動で入力することもできます。
 
-You can also do it manually type the command in a terminal window if you wish to fine tune the parameters. 
-
-The basic conversion command will look like this:
+基本的な変換コマンドは次のようになります。
 ```
 ffmpeg -r 30 -i movie_%04d.jpg -i sound.wav movie.mp4
 ```
 
-What this does is it takes movie_####.jpg and sound.wav as input, generate a video at 30 fps, and save the output to movie.mp4
+これが行うことは、movie_####.jpg と sound.wav を入力として取り、30 fps でビデオを生成し、出力を movie.mp4 に保存することです。
 
-**"-r 30"** is the framerate of your video, if your setting is 60 fps, use "-r 60" instead. 
+**"-r 30"** はビデオのフレームレートです。設定が 60 fps の場合は、代わりに "-r 60" を使用してください。
 
-**"-i movie_%04d.jpg"** is the pattern of the input image files, if your image format is not "jpg", use the correct extension instead. 
+**"-i movie_%04d.jpg"** は入力画像ファイルのパターンです。画像形式が "jpg" でない場合は、代わりに正しい拡張子を使用してください。
 
-**"-i sound.wav"** is the path to audio file. You can skip this part if you don't need audio in your video. 
+**"-i sound.wav"** はオーディオ ファイルへのパスです。 動画に音声が必要ない場合は、この部分をスキップできます。
 
-**"movie.mp4"** is the output filename, you can choose whatever you want. 
+**"movie.mp4"** は出力ファイル名です。好きなものを選択できます。
 
 
-For 2D videos, that is all you need. 
+2D ビデオの場合は、これで十分です。
 
-For **3D SBS** videos, you'll need to add additional parameters to set the correct metadata:
-<pre>
+**3D SBS** 動画の場合は、正しいメタデータを設定するために追加のパラメーターを追加する必要があります。
+<プレ>
 ffmpeg -r 30 -i movie_%03d.jpg <b>-vcodec libx264 -x264opts "frame-packing=3"</b> movie.mp4
-</pre>
+</プレ>
 
-For **VR180** videos, you'll need another tool to set the correct tag so the video can be recognised correctly on platforms like Youtube. "VR180 Creator" from Google is the recommended tool for this step. 
+**VR180** ビデオの場合、Youtube などのプラットフォームでビデオが正しく認識されるように、正しいタグを設定する別のツールが必要です。 このステップで推奨されるツールは、Google の「VR180 Creator」です。
 
-For some reason VR180 creator is no longer available from Google website, but you can still find it here: https://www.patrickgrunwald.de/vr180-creator-download
+なんらかの理由で、VR180 クリエーターは Google の Web サイトから入手できなくなりましたが、こちらで見つけることができます: https://www.patrickgrunwald.de/vr180-creator-download
 
-Steps tp tag your video as VR180 content
-* Open "VR180 Creator"
-* Select "Prepare for publishing"
-* Drag the video file from the previous step to the big box
-* Make sure "Left/Right" is the selected sterero layout, and "180 video" is the selected input field of view. 
-* Click on export and you are all done!
-
+動画を VR180 コンテンツとしてタグ付けする手順
+*「VR180クリエーター」を開く
+※「公開準備」を選択
+* 前のステップの動画ファイルを大きなボックスにドラッグします
+*「左/右」が選択された立体レイアウトであり、「180 ビデオ」が選択された入力視野であることを確認してください。
+*エクスポートをクリックすると、すべて完了です！
