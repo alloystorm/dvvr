@@ -26,6 +26,9 @@ docs:
       - title: "Content Library"
         url: /dancexr/preparecontent
 
+  - title: Releases
+    url: /dancexr/releases/
+
   - title: Features & Variants
     children:
       - title: "Basic Features"
