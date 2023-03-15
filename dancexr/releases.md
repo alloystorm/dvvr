@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Releases
-permalink: /dancexr/releases/
+permalink: /dancexr/releases
 toc: true
 sidebar:
   nav: "docs"
