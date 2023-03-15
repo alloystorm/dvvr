@@ -9,9 +9,6 @@ sidebar:
 
 {% include nav_list nav="releases-jp" %}
 
-
-さらに古いリリースをお探しですか？[私たちのPatreonページを訪問してください](https://www.patreon.com/dvvr)
-
 ## リリーススケジュール
 
 当社の開発チームは、毎月リリースサイクルに従って、毎月アップデートをリリースすることを目指しています。

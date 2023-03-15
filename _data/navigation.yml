@@ -15,6 +15,8 @@ releases:
       url: /dancexr/releases/1.4.1
     - title: Release 1.4.1 Jan 2023
       url: /dancexr/releases/1.4.0
+  - title: Find past releases on Patreon
+      url: https://www.patreon.com/dvvr
 
 docs:
   - title: Getting Started
@@ -81,6 +83,9 @@ releases-jp:
       url: /jp/dancexr/releases/1.4.1
     - title: リリース 1.4.0 2023年1月
       url: /jp/dancexr/releases/1.4.0
+  - title: Patreonで過去のリリースを探す
+      url: https://www.patreon.com/dvvr
+
       
 docs-jp:
   - title: はじめに
