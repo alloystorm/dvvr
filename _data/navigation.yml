@@ -4,6 +4,12 @@ main:
   - title: "日本語"
     url: /jp/
 
+releases:
+  - title: 1.4.2
+    url: /dancexr/releases/1.4.2
+  - title: 1.4.1
+    url: /dancexr/releases/1.4.1
+
 docs:
   - title: Getting Started
     children:
