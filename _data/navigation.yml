@@ -5,10 +5,16 @@ main:
     url: /jp/
 
 releases:
-  - title: 1.4.2
-    url: /dancexr/releases/1.4.2
-  - title: 1.4.1
-    url: /dancexr/releases/1.4.1
+  - title: Current Release
+    children:
+    - title: 1.4.2
+      url: /dancexr/releases/1.4.2
+  - title: Older Releases
+    children:
+    - title: 1.4.1
+      url: /dancexr/releases/1.4.1
+    - title: 1.4.0
+      url: /dancexr/releases/1.4.0
 
 docs:
   - title: Getting Started
