@@ -7,12 +7,6 @@ sidebar:
   nav: "docs"
 ---
 
-## Current Release
-* [Release 1.4.2 Mar 2023](1.4.2.md)
-
-## Older Releases
-* [Release 1.4.1 Feb 2023](1.4.1.md)
-* [Release 1.4.0 Jan 2023](1.4.0.md)
-
+{% include nav_list nav="releases" %}
 
 Looking for even older releases? [Visit our Patreon page](https://www.patreon.com/dvvr)
