@@ -13,7 +13,8 @@ sidebar:
 The free version includes all [basic features](basic_features.md) such as standard pose conversion, stage and environment settings, and lifelike motions. However, it has some limitations: only one actor can be on the stage at a time, and [advanced features](pro_features.md) in the paid version are not available.
 
 
-[DanceXR 1.4.2](releases/1.4.2.md) is the latest paid version. You can use one of the following options to gain access to the latest paid release.
+## Purchase Options
+To gain access to the latest release and unlock advanced features, please use one of the following options to purchase. 
 
 ### Become a supporter on Patreon
 
