@@ -1,35 +1,34 @@
 ---
 layout: single
-title: Pro Features - Available in Pure, Pro and Creator editions
+title: プロ機能 - Pure、Pro、およびCreatorエディションで利用可能
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-jp"
 ---
 
-## System
-* Auto update system. Allows animating configuration values over timeline, musics beats and user input controls
+## システム
+* 自動更新システム。タイムライン、音楽のビート、ユーザー入力コントロールに沿って構成値をアニメーション化することができます。
 
-## Stage & Environment
-* Unlimited actors on stage. 
-* Laser
+## ステージ＆環境
+* ステージ上のアクターは無制限です。
+* レーザー
 
-## Actor models
-* Physics tools for XPS models. This includs 
-  * Bone colliders: Attach colliders to main body parts like torso and limbs so they can interact with other physics objects.
-  * Boobs: Control boobs movements with physics simulation. 
-  * Hair: Connecting hair bones with physics joints and colliders.
-  * Clothing: Connecting clothing bones with physics joints. 
-  * Skirt: Connecting bones both vertically and horizontally.
-  * Detach object: Let certain accessory objects to fall off from the model by applying gravity and collider to them. 
-* Outfit tool. Add tatoo, stocking and tear effect on top of the model materials.
-* Light ball. Attach lightballs to certain bones of the actor to create special effects.
-* Motion Override. Override motion by limiting certain motions, adding rocking motion and control hand and leg poses.
-* Accessory. Load models and attach to certain bones of the actor.
-* PMX blendshape morphs
-* PMX bone morphs
+## アクターモデル
+* XPSモデル用の物理ツール。これには以下が含まれます。
+  * ボーンコライダー：胴体や四肢などの主要な部位にコライダーを取り付け、他の物理オブジェクトと相互作用できるようにします。
+  * おっぱい：物理シミュレーションでおっぱいの動きを制御します。
+  * 髪：髪のボーンを物理ジョイントとコライダーで接続します。
+  * 衣服：衣服のボーンを物理ジョイントで接続します。
+  * スカート：垂直および水平にボーンを接続します。
+  * オブジェクトの切り離し：重力とコライダーを適用して、特定のアクセサリーオブジェクトをモデルから落とすことができます。
+* 衣装ツール。モデル素材の上にタトゥーやストッキング、ティア効果を追加します。
+* ライトボール。アクターの特定のボーンにライトボールを取り付けて、特殊効果を作成します。
+* モーションオーバーライド。特定のモーションを制限したり、揺れ動きを追加したり、手足のポーズを制御したりして、モーションをオーバーライドします。
+* アクセサリー。モデルをロードして、アクターの特定のボーンに取り付けます。
+* PMXブレンドシェイプモーフ
+* PMXボーンモーフ
 
-
-## Motion
-* Procedural Motions
-  * Auto Dance 1
-  * Auto Dance 2
+## モーション
+* プロシージャルモーション
+  * オートダンス1
+  * オートダンス2

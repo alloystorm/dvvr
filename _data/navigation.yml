@@ -26,7 +26,7 @@ docs:
       - title: "Content Library"
         url: /dancexr/preparecontent
 
-  - title: Releases
+  - title: Release Notes
     url: /dancexr/releases/
     children:
       - title: Release 1.4.2 Mar 2023
@@ -92,7 +92,7 @@ docs-jp:
       - title: "コンテンツライブラリー"
         url: /jp/dancexr/preparecontent
 
-  - title: リリース
+  - title: リリースノート
     url: /jp/dancexr/releases/
     children:
       - title: リリース1.4.2 2023年3月

@@ -37,11 +37,13 @@ Not all platforms supports all of these variants though. PC has all, while Mac c
 The Pure and Pro are sold on Steam while Pro is also available on Itch.io and Patreon. Creator edition is currently only offered on Patreon for the creator tier. 
 
 
-## Where to download?
+## Release schedule
 
-Please visit our [Patreon page](https://www.patreon.com/dvvr) for the latest release notes and download links. 
+Our development team follows a monthly release cycle, where we aim to release updates every month. 
 
-For more details about download and purchase, please visit [this page](/dancexr/download.md)
+These updates are initially made available to our Patreon supporters at the beginning of the month, followed by a release on the Steam beta branch around the 15th. Finally, the updates are rolled out to Steam main branch and the rest of the platforms before the end of the month. The free version will also be published around the same time. 
+
+[Please find the download link and purchase options on this page.](/dancexr/download.md)
 
 
 ## Preparing content
