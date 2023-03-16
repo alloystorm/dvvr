@@ -8,7 +8,7 @@ sidebar:
 
 ## Free Version Download
 
-[DanceXR 1.4.1 HD](https://www.patreon.com/file?h=78062974&i=13384058){: .centerbtn} 
+[DanceXR 1.4.1 HD](https://www.patreon.com/file?h=78062974&i=13384058){: .dlbtn .patreon} 
 
 1.4.1 is the latest free version you can download.
 
@@ -21,7 +21,9 @@ To gain access to the latest release and unlock advanced features, please use on
 
 ### Become a supporter on Patreon
 
-Every month, we publish the latest version on our [Patreon page](https://www.patreon.com/dvvr). The free version build will also be made available on Patreon one month after its initial release.
+[DanceXR on Patreon](https://www.patreon.com/dvvr){: .dlbtn .patreon} 
+
+Every month, we publish the latest version on our Patreon page. The free version build will also be made available on Patreon one month after its initial release.
 
 By becoming a supporter on Patreon, you will have exclusive access to the latest updates and the chance to provide feedback before the release is available on other platforms. If you appreciate our project and want to support us, we encourage you to become a Patreon supporter.
 
@@ -30,13 +32,13 @@ By becoming a supporter on Patreon, you will have exclusive access to the latest
 
 If you prefer an one-off purchase, you can also find it on Steam and Itch.io. 
 
-[DanceXR Pro on Steam](https://store.steampowered.com/app/1905510/DanceXR/)
+Steam: [DanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
 
-[DanceXR Pro on Itch.io](https://stormlab.itch.io/dvvr)
+Itch.io: [DanceXR Pro](https://stormlab.itch.io/dvvr){: .dlbtn .itchio}
 
 If you can't find DanceXR on Steam, it could be that it is blocked in your country, you can try the Pure edition instead.
 
-[DanceXR Pure on Steam](https://store.steampowered.com/app/2193970/DanceXR_Pure/)
+Steam: [DanceXR Pure](https://store.steampowered.com/app/2193970/DanceXR_Pure/){: .dlbtn .steam}
 
 The difference between Pro and Pure version is that the Pro has some adult only features so is age restricted on Steam, also the raytraced version is a paid DLC on Steam. The Pure has all adult features removed, but it includes the raytraced version.
 
@@ -45,14 +47,14 @@ The difference between Pro and Pure version is that the Pro has some adult only 
 
 The standalone build for Oculus Quest can be found here: 
 
-[DanceXR Quest](https://stormlab.itch.io/dancexr-quest)
+[DanceXR Quest](https://stormlab.itch.io/dancexr-quest){: .dlbtn .itchio}
 
 
 ### Purchase Android version on Google Play & Itch.io
 
 The Android Pro version can be purchased from itch.io: 
 
-[DanceXR Android Pro](https://stormlab.itch.io/dancexr-android)
+[DanceXR Android Pro](https://stormlab.itch.io/dancexr-android){: .dlbtn .itchio}
 
 You can also download and purchase the Portable edition on [Google Play](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr) for free. The Portable edition is missing the NSFW features.
 

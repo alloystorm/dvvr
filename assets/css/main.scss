@@ -25,10 +25,9 @@ html {
     }
   }
 
-.centerbtn {
+.dlbtn {
   border: none;
   color: white;
-  background-color: #FF424D;
   padding: 12px 24px;
   text-align: center;
   text-decoration: none;
@@ -40,3 +39,15 @@ html {
   margin-left: auto;
   margin-right: auto;
 }  
+a:hover .dlbtn {
+  color: white;
+}
+.patreon {
+  background-color: #FF424D;
+}
+.itchio {
+  background-color: #000;
+}
+.steam {
+  background-color: #003;
+}
