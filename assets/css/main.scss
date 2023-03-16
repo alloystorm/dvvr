@@ -39,7 +39,10 @@ html {
   margin-left: auto;
   margin-right: auto;
 }  
-a:hover .dlbtn {
+.dlbtn:hover {
+  color: white;
+}
+.dlbtn:visited {
   color: white;
 }
 .patreon {
