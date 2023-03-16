@@ -32,13 +32,13 @@ By becoming a supporter on Patreon, you will have exclusive access to the latest
 
 If you prefer an one-off purchase, you can also find it on Steam and Itch.io. 
 
-Steam: [DanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
+[Steam: DanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
 
-Itch.io: [DanceXR Pro](https://stormlab.itch.io/dvvr){: .dlbtn .itchio}
+[Itch.io: DanceXR Pro](https://stormlab.itch.io/dvvr){: .dlbtn .itchio}
 
 If you can't find DanceXR on Steam, it could be that it is blocked in your country, you can try the Pure edition instead.
 
-Steam: [DanceXR Pure](https://store.steampowered.com/app/2193970/DanceXR_Pure/){: .dlbtn .steam}
+[Steam: DanceXR Pure](https://store.steampowered.com/app/2193970/DanceXR_Pure/){: .dlbtn .steam}
 
 The difference between Pro and Pure version is that the Pro has some adult only features so is age restricted on Steam, also the raytraced version is a paid DLC on Steam. The Pure has all adult features removed, but it includes the raytraced version.
 
@@ -56,7 +56,9 @@ The Android Pro version can be purchased from itch.io:
 
 [DanceXR Android Pro](https://stormlab.itch.io/dancexr-android){: .dlbtn .itchio}
 
-You can also download and purchase the Portable edition on [Google Play](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr) for free. The Portable edition is missing the NSFW features.
+[DanceXR Portable](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr){: .dlbtn .itchio}
+
+You can also download and purchase the Portable edition on Google Play for free. The Portable edition is missing the NSFW features.
 
 
 ### For users in mainland China
