@@ -13,7 +13,7 @@ releases:
     children:
     - title: Release 1.4.1 Feb 2023
       url: /dancexr/releases/1.4.1
-    - title: Release 1.4.1 Jan 2023
+    - title: Release 1.4.0 Jan 2023
       url: /dancexr/releases/1.4.0
   - title: About Releases
     url: /dancexr/releases
