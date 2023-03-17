@@ -14,8 +14,8 @@ This usually indicates something wrong during start up. You can try the followin
 
 
 ## It works fine before but suddenly started to crash everytime it launches. Reverting to older version doesn't help.
-This is usually not because of DanceXR itself and most likely something wrong with the VR runtime on your system.
-* If you have multiple VR runtime available on your system, try switching to a different one and see if that helps.
+This is usually not because of DanceXR itself, but rather something wrong with the VR runtime on your system.
+* If you have multiple VR runtimes available on your system, try switching to a different one and see if that helps.
   * For example if you use Meta Quest 2, you can actually choose between Oculus or SteamVR to be your VR runtime. Check the "Unable to launch VR" question below to find out how to change VR runtimes.
 * If you identified for example it's the SteamVR that's causing the problem, try to revert it to a cleaner state and see if that works. 
   * Open SteamVR settings and disable the startup overlap app and addons that you don't need.
