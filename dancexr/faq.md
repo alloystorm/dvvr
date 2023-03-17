@@ -13,6 +13,16 @@ This usually indicates something wrong during start up. You can try the followin
 * Remove (and backup) your cache.json file from your content library
 
 
+## It works fine before but suddenly started to crash everytime it launches. Reverting to older version doesn't help.
+This is usually not because of DanceXR itself and most likely something wrong with the VR runtime on your system.
+* If you have multiple VR runtime available on your system, try switching to a different one and see if that helps.
+  * For example if you use Meta Quest 2, you can actually choose between Oculus or SteamVR to be your VR runtime. Check the "Unable to launch VR" question below to find out how to change VR runtimes.
+* If you identified for example it's the SteamVR that's causing the problem, try to revert it to a cleaner state and see if that works. 
+  * Open SteamVR settings and disable the startup overlap app and addons that you don't need.
+  * You can also go into the SteamVR directory by opening its properties window in Steam, and select browse local files. Then check the "driver" folder and see if there's anything recently installed or updated that you can remove.
+  * Try to uninstall and reinstall SteamVR. 
+
+
 ## I'm asked to activate again
 Sometimes your device ID can change because of OS update, hardware upgrade or other changes to your system. And this will require a new activation. 
 
