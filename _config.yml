@@ -1,5 +1,5 @@
 # theme: jekyll-theme-slate
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "alloystorm/minimal-mistakes"
 title: VR Storm Lab
 description: Universal character model viewer and motion player 
 google_analytics: UA-147265380-2
