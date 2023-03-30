@@ -4,7 +4,7 @@ title: DanceXR
 permalink: /jp/dancexr/
 toc: true
 lang: ja-JP
-locale: ja
+locale: ja-JP
 sidebar:
   nav: "docs-jp"
 ---
