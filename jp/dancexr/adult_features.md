@@ -2,6 +2,7 @@
 layout: single
 title: アダルト機能 - プロ版およびクリエイターエディションで利用可能
 toc: true
+locale: ja-JP
 sidebar:
   nav: "docs-jp"
 ---

@@ -2,6 +2,7 @@
 layout: single
 title: 二次モーション
 toc: true
+locale: ja-JP
 sidebar:
   nav: "docs-jp"
 ---

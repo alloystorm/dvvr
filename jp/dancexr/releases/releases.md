@@ -2,6 +2,7 @@
 layout: single
 title: リリース
 permalink: /jp/dancexr/releases/
+locale: ja-JP
 toc: true
 sidebar:
   nav: "docs-jp"

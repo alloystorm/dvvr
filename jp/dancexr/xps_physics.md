@@ -2,6 +2,7 @@
 layout: single
 title: XPS物理学
 toc: true
+locale: ja-JP
 sidebar:
   nav: "docs-jp"
 ---

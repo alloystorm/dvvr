@@ -2,6 +2,7 @@
 layout: single
 title: 音楽のタイミング
 toc: true
+locale: ja-JP
 sidebar:
   nav: "docs-jp"
 ---

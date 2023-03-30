@@ -2,6 +2,7 @@
 layout: single
 title: 基本機能 - すべてのエディションで利用可能
 toc: true
+locale: ja-JP
 sidebar:
   nav: "docs-jp"
 ---

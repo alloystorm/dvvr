@@ -2,6 +2,7 @@
 layout: single
 title: プロ機能 - Pure、Pro、およびCreatorエディションで利用可能
 toc: true
+locale: ja-JP
 sidebar:
   nav: "docs-jp"
 ---

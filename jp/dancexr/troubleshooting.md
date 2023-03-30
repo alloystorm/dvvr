@@ -2,6 +2,7 @@
 layout: single
 title: トラブルシューティング
 toc: true
+locale: ja-JP
 sidebar:
   nav: "docs-jp"
 ---
