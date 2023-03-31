@@ -78,6 +78,7 @@ docs:
 
 releases-jp:
   - title: 今後のリリース
+    children:
     - title: Release 1.4.3 Apr 2023
       url: /jp/dancexr/releases/1.4.3
   - title: 現在のリリース
