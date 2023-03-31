@@ -6,6 +6,7 @@ main:
 
 releases:
   - title: Upcoming Release
+    children:
     - title: Release 1.4.3 Apr 2023
       url: /dancexr/releases/1.4.3
   - title: Current Release
