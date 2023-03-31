@@ -5,6 +5,9 @@ main:
     url: /jp/
 
 releases:
+  - title: Upcoming Release
+    - title: Release 1.4.3 Apr 2023
+      url: /dancexr/releases/1.4.3
   - title: Current Release
     children:
     - title: Release 1.4.2 Mar 2023
@@ -73,6 +76,9 @@ docs:
 
 
 releases-jp:
+  - title: 今後のリリース
+    - title: Release 1.4.3 Apr 2023
+      url: /jp/dancexr/releases/1.4.3
   - title: 現在のリリース
     children:
     - title: リリース 1.4.2 2023年3月
