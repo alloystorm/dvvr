@@ -12,6 +12,6 @@ header:
       url: /jp/dancexr
     - label: ダウンロード
       url: /jp/dancexr/download
-    - label: ビデオ
-      url: https://www.youtube.com/@dancexr
+    - label: リリース
+      url: /jp/dancexr/releases/
 ---
