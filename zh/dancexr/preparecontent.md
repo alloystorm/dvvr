@@ -23,7 +23,7 @@ Dancexr在內容庫中的不同子文件夾中搜索各種類型的內容。
 
 ## 角色模型
 
-![Actors文件夾的示例](/images/content_actors.png)
+![Actors文件夾的示例](/images/content_actors.PNG)
 
 只要將PMX或XPS文件，以及其依賴的紋理文件放在actors子文件夾中就可以了。
 
@@ -32,7 +32,7 @@ Dancexr在內容庫中的不同子文件夾中搜索各種類型的內容。
 
 ## 運動數據
 
-![運動文件夾的示例](/images/content_motion.png)
+![運動文件夾的示例](/images/content_motion.PNG)
 
 儘管在沒有音頻或任何相關的相機運動的情況下播放單個運動文件是可行的，但通常情況下，運動數據帶有音頻文件，一個或多個運動文件，也可能是幾個相機運動文件。
 
