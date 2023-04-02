@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Basic Features - Available in all editions
+title: 基本功能 - 所有版本可用
 toc: true
 locale: zh-TW
 sidebar:

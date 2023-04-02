@@ -1,17 +1,17 @@
 ---
 layout: single
-title: Adult Features - Available in Pro and Creator editions
+title: 成人功能 - 專業版和創作者版本可用
 toc: true
 locale: zh-TW
 sidebar:
   nav: "docs-zh"
 ---
 
-## Actor Models
-* Dildo Accessory
-* Sex Motion Overlay
-* Shake Boobs Overlay
+## 演員模型
+* 假陽具配件
+* 性運動覆蓋
+* 搖動胸部覆蓋
 
 ## Motion
-* Cowgirl Sex Motion
-* Sex From Behind Motion
+* 騎乘性愛動作
+* 從背後的性愛動作
