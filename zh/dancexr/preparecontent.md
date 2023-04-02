@@ -50,7 +50,7 @@ Dancexr在內容庫中的不同子文件夾中搜索各種類型的內容。
 
 
 在任務上加載內容
-{% include video id="zmdeuwwztmi” provider="youtube" %}
+{% include video id="zmdeuwwztmi" provider="youtube" %}
 
 
 ## 內容庫工具
