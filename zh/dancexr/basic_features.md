@@ -2,8 +2,9 @@
 layout: single
 title: Basic Features - Available in all editions
 toc: true
+locale: zh-TW
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
 

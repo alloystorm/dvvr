@@ -2,8 +2,9 @@
 layout: single
 title: Animate Cloth Change
 toc: true
+locale: zh-TW
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
 {% include video id="MN-JIDmAR3Q" provider="youtube" %}

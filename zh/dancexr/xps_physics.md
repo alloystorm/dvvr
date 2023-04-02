@@ -2,20 +2,21 @@
 layout: single
 title: XPS Physics
 toc: true
+locale: zh-TW
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
 {% include video id="-IZTzHUpROs" provider="youtube" %}
 
-To use the XPS physics tools, most of the time you just need to find and select the right bones and the program will take care of the rest. 
+要使用XPS物理工具，大多數情況下，您只需要找到並選擇合適的骨頭，而該程序將負責其餘的骨骼。
 
-Things like ponytails and ribbons are super easy like demonstrated in the video above. 
+像上面的視頻中所展示的那樣，諸如馬尾辮和緞帶之類的東西非常容易。
 
-Sometimes there are too many child bones and the bones you need might actually be buried several levels under those child bones. In this case you can select the parent bones and then use the "Skip First X Bones" setting to fine tune your selection. 
+有時，有太多的兒童骨頭，您需要的骨頭實際上可能被埋在這些兒童骨頭下。在這種情況下，您可以選擇父骨頭，然後使用“跳過第一X骨頭”設置來微調您的選擇。
 
-If during the process things got messy, don't panic. Finish your selection and then you can try stablize things in the settings. 
-* First try to reduce "inter-link dist" to 0 to disable inter-link joints, then 
-* try to increase the collider size a little bit (don't overdo it), 
-* if that still doesn't work you can try disable and re-enable the settings, 
-* and then ultimately reload the model and it can sometimes resolve the instability.
+如果在此過程中事情變得混亂，請不要驚慌。完成您的選擇，然後您可以嘗試在設置中穩定問題。
+*首先嘗試將“間鏈接區域”降低到0，以禁用鏈接接頭，然後
+*嘗試將撞機尺寸提高一點（不要過度），
+*如果仍然不起作用，您可以嘗試禁用並重新啟用設置，
+*然後最終重新加載模型，有時可以解決不穩定性。

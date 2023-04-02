@@ -2,8 +2,9 @@
 layout: single
 title: XPS Bone Mapper
 toc: true
+locale: zh-TW
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
 Using the Bone Mapper feature to create a mapping between native bones and the MMD bone system so that motions can be played on those models.

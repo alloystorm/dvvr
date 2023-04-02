@@ -2,8 +2,9 @@
 layout: single
 title: Music Timing
 toc: true
+locale: zh-TW
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
 {% include video id="m6U7wYCqfYk" provider="youtube" %}

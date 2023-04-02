@@ -2,6 +2,7 @@
 layout: single
 title: 中国大陆购买选项
 toc: true
+locale: zh-TW
 ---
 
 ## 中国大陆购买选项

@@ -2,24 +2,25 @@
 layout: single
 title: ZIP format
 toc: true
+locale: zh-TW
 ---
 
-## ZIP format
+## Zip格式
 
-### Content
+### 內容
 
-It is now recommended to use ZIP format to package your individual content for easier manager and reduce storage space. This works both for models & motions. 
+現在，建議使用ZIP格式包裝您的單個內容，以便更輕鬆的管理器並減少存儲空間。這既適用於模型和動作。
 
-For models, each ZIP package can contain multiple models, and that should include all the textures and mesh definitions, and it can have its sub folders within the package as well. 
+對於型號，每個ZIP軟件包可以包含多個型號，其中應包括所有紋理和網格定義，並且它也可以在軟件包中包含其子文件夾。
 
-For motions, all the motion files within the package will be grouped in one. Audio file is optional but there should be no more than one audio file in that package. For audio format both WAV and OGG are supported but it is recommended to use OGG for storage space considerations. 
+對於動作，軟件包中的所有運動文件都將分組為一。音頻文件是可選的，但該軟件包中不應不超過一個音頻文件。對於音頻格式，支持WAV和OGG，但建議使用OGG進行存儲空間注意事項。
 
-### Encodings
+### 編碼
 
-ZIP format does have folder structure but it may cause problem when you have folder names that contains Japanese or Chinese characters. Typical sign of this problem is models loads but textures are just white.
+ZIP格式確實具有文件夾結構，但是當您具有包含日語或漢字的文件夾名稱時，可能會導致問題。這個問題的典型跡像是模型負載，但紋理只是白色。
 
-To tackle that problem we added a workaround in 0.9.3 that you can label your ZIP package with the correct encoding so that it know what encoding to use when parsing your ZIP package. This done by adding encoding label at the end of the file name. Currently supported encoding tags are "jis932" for Japanese and "gb2312" for Chinese. 
+為了解決這個問題，我們在0.9.3中添加了一個解決方法，您可以用正確的編碼標記ZIP軟件包，以便知道在解析ZIP軟件包時要使用的編碼。這是通過在文件名的末尾添加編碼標籤來完成的。目前支持的編碼標籤是日語的“ JIS932”和中文的“ GB2312”。
 
-For example if you zip file is "abc.zip", and it contains Japanese file names inside, all you need to do is to rename it to "abc.jis932.zip", and DanceXR will be able parse it correctly. 
+例如，如果您的zip文件為“ abc.zip”，並且它包含在內部的日語名稱，則需要做的就是將其重命名為“ abc.jis932.zip”，而Dancexr將能夠正確解析它。
 
-If you are on Android, the built-in Content Manager app can do that renaming for you, you just need to select the correct encoding from the menu.
+如果您在Android上，內置的內容管理器應用程序可以為您重命名，那麼您只需要從菜單中選擇正確的編碼即可。

@@ -3,6 +3,7 @@ title: Eye Contact Feature
 youtubeId: zP966sQ6h0g
 toc: true
 layout: single
+locale: zh-TW
 ---
 
 {% include youtube.html id=page.youtubeId %}

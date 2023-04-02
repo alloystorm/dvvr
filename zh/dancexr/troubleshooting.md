@@ -2,24 +2,25 @@
 layout: single
 title: Troubleshooting
 toc: true
+locale: zh-TW
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
-## Reporting Bugs
-It is recommended to raise a bug on [GitHub issue tracker](https://github.com/alloystorm/dvvr/issues), so it can be properly managed. 
+## 報告錯誤
+建議在[GitHub Issue Tracker]（https://github.com/alloystorm/dvvr/issues）上提出一個錯誤，以便可以正確管理。
 
-You can also send emails to us directly to vrstormlab@gmail.com. It's best to attach screenshots, example models if possible. 
+您也可以將電子郵件直接發送到vrstormlab@gmail.com。最好連接屏幕截圖，如果可能的話，示例模型。
 
-We will try to read and responde to comments and directly messages on other platforms but we can't garentee that every message is handled through those channels. 
+我們將嘗試閱讀並響應其他平台上的評論和直接消息，但是我們不能garentee通過這些渠道處理每個消息。
 
 
-## Locate log files (PC only)
-If any error happens, usually there are log entries describing that error in your log files. Therefore it is really helpful if you can locate your log files and send them to us when you report issues. 
+## 定位日誌文件（僅PC）
+如果發生任何錯誤，通常會有日誌條目描述日誌文件中的錯誤。因此，如果您可以找到日誌文件並在報告問題時將其發送給我們，這確實很有幫助。
 
-The log files can be found in **C:\Users\\\[your user name]\AppData\LocalLow\VR Storm Lab\DanceXR HD**, the last folder name depends on the version you are running, so it might be "DanceXR HD", "DanceXR LW" or "DanceXR RT". 
+該日誌文件可以在** c：\ users \\\ [您的用戶名] \ appdata \ locallow \ locallow \ vr storm lab \ dancexr hd **，最後一個文件夾名稱取決於您正在運行的版本，因此它可能可能成為“ dancexr hd”，“ dancexr lw”或“ dancexr rt”。
 
-Some of the folders might be hidden by default in your system so you might need to [set explorer to show hidden files](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2) before you can find them. 
+某些文件夾可能默認情況下隱藏在系統中，因此您可能需要[設置Explorer顯示隱藏的文件]（https://support.microsoft.com/en-us/windows/windows/show-hidden-hidden-files-0320fe58--0117-FD59-6851-9B7F9840FDB2）在找到它們之前。
 
-Once you open the folder you'll see the log files "**Player.log**" and "**Player-prev.log**"
+打開文件夾後，您將看到日誌文件“ ** player.log **”和“ ** player-prev.log **”
 

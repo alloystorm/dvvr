@@ -2,6 +2,7 @@
 layout: single
 title: Controls
 toc: true
+locale: zh-TW
 ---
 
 

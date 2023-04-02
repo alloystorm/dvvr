@@ -2,8 +2,9 @@
 layout: single
 title: FAQ
 toc: true
+locale: zh-TW
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
 ## Only sky is displayed, no UI or camera control available

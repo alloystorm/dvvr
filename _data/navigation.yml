@@ -99,7 +99,7 @@ docs-zh:
   - title: 發行說明
     url: /zh/dancexr/releases/
     children:
-      - title: 版本1.4.2 2023年3月2日
+      - title: 版本1.4.2 2023年3月
         url: /zh/dancexr/releases/1.4.2
   - title: 功能和變體
     children:

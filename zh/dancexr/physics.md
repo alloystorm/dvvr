@@ -2,6 +2,7 @@
 layout: single
 title: Physics
 toc: true
+locale: zh-TW
 ---
 
 ## Tweaking Physics

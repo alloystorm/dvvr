@@ -2,34 +2,35 @@
 layout: single
 title: Pro Features - Available in Pure, Pro and Creator editions
 toc: true
+locale: zh-TW
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
-## System
-* Auto update system. Allows animating configuration values over timeline, musics beats and user input controls
+## 系統
+*自動更新系統。允許在時間軸上進行動畫配置值，音樂節拍和用戶輸入控件
 
-## Stage & Environment
-* Unlimited actors on stage. 
-* Laser
+## 舞台和環境
+*舞台上無限的演員。
+* 激光
 
-## Actor models
-* Physics tools for XPS models. This includs 
-  * Bone colliders: Attach colliders to main body parts like torso and limbs so they can interact with other physics objects.
-  * Boobs: Control boobs movements with physics simulation. 
-  * Hair: Connecting hair bones with physics joints and colliders.
-  * Clothing: Connecting clothing bones with physics joints. 
-  * Skirt: Connecting bones both vertically and horizontally.
-  * Detach object: Let certain accessory objects to fall off from the model by applying gravity and collider to them. 
-* Outfit tool. Add tatoo, stocking and tear effect on top of the model materials.
-* Light ball. Attach lightballs to certain bones of the actor to create special effects.
-* Motion Override. Override motion by limiting certain motions, adding rocking motion and control hand and leg poses.
-* Accessory. Load models and attach to certain bones of the actor.
-* PMX blendshape morphs
-* PMX bone morphs
+## 演員模型
+* XPS型號的物理工具。這包括
+  *骨壁：將山利區連接到軀乾和四肢等主體部位，以便它們可以與其他物理對象相互作用。
+  *胸部：具有物理模擬的控制胸部運動。
+  *頭髮：將骨頭與物理關節和山脈連接起來。
+  *服裝：將衣服骨頭與物理關節連接起來。
+  *裙子：垂直和水平連接骨骼。
+  *分離對象：讓某些附件對象通過將重力和對撞機施加到它們中，從模型中脫落。
+*服裝工具。在模型材料的頂部加入tatoo，庫存和撕裂效果。
+*輕球。將Light Balls連接到演員的某些骨頭，以創造特殊效果。
+*運動覆蓋。通過限制某些動作，添加搖擺運動和控製手和腿部姿勢來超越運動。
+* 配飾。負載模型並附著在演員的某些骨頭上。
+* PMX BlendShape Morphs
+* PMX骨變形
 
 
-## Motion
-* Procedural Motions
-  * Auto Dance 1
-  * Auto Dance 2
+## 運動
+*程序動作
+  *自動舞1
+  *自動舞2

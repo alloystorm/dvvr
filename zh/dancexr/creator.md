@@ -2,8 +2,9 @@
 layout: single
 title: Creator Edition
 toc: true
+locale: zh-TW
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
 # Creator Edition

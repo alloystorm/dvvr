@@ -2,32 +2,33 @@
 layout: single
 title: Transparency
 toc: true
+locale: zh-TW
 ---
 
-### Issues With Transparency
+###透明度問題
 
-Transparent materials are tricky. They can overlap incorrectly and render unexpected color on top of certain parts if not set correctly. 
+透明的材料很棘手。如果不正確設置，它們可能會錯誤地重疊，並在某些零件的頂部呈現出意外的顏色。
 
-We try our best to provide a usable default configuration but often you'll need to manually tweak each model to make them look perfect.
+我們盡力提供可用的默認配置，但通常需要手動調整每個型號以使它們看起來完美。
 
-XPS models usually don't require any manual tweaking since the model definition tells us what is transparent and what is not. But PMX doesn't have this and the program has to determine by itself what to do with the materials. Currently (version 1.1) the HD variant uses transparent mode as default (since it has the zsorting capability and that provides an acceptable default behavior) and LW uses opaque as default. 
+XPS型號通常不需要任何手動調整，因為模型定義告訴我們什麼是透明的，什麼不是。但是PMX沒有這個，該程序必須自己確定該如何處理材料。當前（版本1.1）HD變體使用透明模式為默認模式（因為它具有ZSORTRING功能，並且提供了可接受的默認行為），而LW則使用不透明的默認值。
 
-There are a few tools within DanceXR that you can use to tweak transparency behaviours.
+Dancexr中有一些工具可以用於調整透明度行為。
 
-First thing you can try is "Transparent Sorting". This setting configures how transparent materials are sorted. The default option is "use mesh order" which means they are sorted with the same order that their mesh are defined in the file. Usually they are orderred from inside out and that's exactly what we needed.  
+您可以嘗試的第一件事是“透明排序”。此設置配置了透明材料的排序方式。默認選項是“使用網格訂單”，這意味著它們以與文件中的網格相同的順序進行排序。通常，它們是從內而外訂購的，這正是我們需要的。
 
-The toggle (available in HD variant only) turns on Z sorting, it uses z buffer to determine what is visible and what is not. This present a very accurate result however it allows only the top layer to be visible since there can only be one z value for each pixel, any overlaping layers below the top one will be ignored. We use this option as default. Take the following screenshot as example, the sorting is perfect, nothing covers what it shouldn't be but you can see through some part of her hair. That is because the hair layers below are invisible.  
+切換（僅以HD變體可用）打開Z排序，它使用Z緩衝區來確定什麼是可見的，什麼不是。這是一個非常準確的結果，但是它僅允許頂層可見，因為每個像素只能有一個z值，在頂部下方的任何重疊層都將被忽略。我們將此選項用作默認值。以以下屏幕截圖為例，排序是完美的，沒有什麼可以涵蓋應該的東西，但是您可以通過她的頭髮的某些部分看到。那是因為下面的頭髮是看不見的。
 
-![Z Sorting On](/images/zsorting_on.png)
+![z排序]（/images/zsorting_on.png）
 
-You can uncheck the toggle if you wish all transparent materials to be renderred. See the result from the image below. Now hair looks great but you can see that this created another problem for this model, the horns are now covered by hair where they shouldn't be. 
+如果您希望將所有透明的材料放置，則可以取消選中切換。請參閱下圖的結果。現在頭髮看起來很棒，但是您可以看到這為該模型造成了另一個問題，現在的角被頭髮覆蓋了。
 
-![Z Sorting Off](/images/zsorting_off.png)
+![z分類]（/images/zsorting_off.png）
 
-Luckily problems like this can be solved by changing the material type of the items being covered. You can go to the material settings, find the material that renders the horns, and change it to opaque type. This will allow it to be renderred before transparent materials and the z depth test can prevents incorrect ordering from happening.  
+幸運的是，可以通過更改所涵蓋的物品的材料類型來解決此類問題。您可以轉到材料設置，找到呈現角的材料，然後將其更改為不透明的類型。這將允許在透明的材料之前對其進行呈現，並且Z深度測試可以防止訂購不正確。
 
-![Set Opaque Type](/images/type_opaque.png)
+![設置不透明類型]（/images/type_opaque.png）
 
-Now this looks almost perfect but there is still a minor problem: the facepaint on her face doesn't look quite right. This is due to the face paint material is incorrectly set to skin type (due to the fact that we determine material types by checking certain keywords from the material names. Since it contains the word "head", the program set it to "skin" type by default). This made the edge of the image to show up incorrectly. You can fix this by setting its type to transparent.
+現在看起來幾乎是完美的，但是仍然存在一個小問題：她臉上的面漆看起來不太正確。這是由於面部油漆材料錯誤地設置為皮膚類型（由於我們通過檢查材料名稱中的某些關鍵字來確定材料類型。由於它包含“頭”一詞，因此程序將其設置為“皮膚”默認鍵入）。這使圖像的邊緣出現了錯誤。您可以通過將其類型設置為透明來解決此問題。
 
-![Set Transparent Type](/images/type_transparent.png)
+![設置透明類型]（/images/type_transparent.png）

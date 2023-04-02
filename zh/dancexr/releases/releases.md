@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Releases
+title: 發行
 permalink: /zh/dancexr/releases/
 locale: zh-TW
 toc: true

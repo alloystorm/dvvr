@@ -2,8 +2,9 @@
 layout: single
 title: Material Settings
 toc: true
+locale: zh-TW
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
 {% include video id="xazXOlls5mM" provider="youtube" %}
