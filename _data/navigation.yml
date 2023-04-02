@@ -54,6 +54,8 @@ docs:
         url: /dancexr/bone_mapper
       - title: "Animate Clothing Change"
         url: /dancexr/optionals
+      - title: "Transparency"
+        url: /dancexr/transparency
       - title: "Material Settings"
         url: /dancexr/material_settings
       - title: "Music Timing Config"
@@ -119,6 +121,8 @@ docs-zh:
         url: /zh/dancexr/bone_mapper
       - title: "動畫服裝換衣服"
         url: /zh/dancexr/optionals
+      - title: "透明材質問題"
+        url: /zh/dancexr/transparency
       - title: "材質設置"
         url: /zh/dancexr/material_settings
       - title: "音樂正時配置"

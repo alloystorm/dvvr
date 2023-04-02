@@ -1,11 +1,13 @@
 ---
 layout: single
-title: Transparency
+title: 透明材質問題
 toc: true
 locale: zh-TW
+sidebar:
+  nav: "docs-zh"
 ---
 
-## 透明度問題
+## 透明材質問題
 
 透明材質的問題主要有兩個方面
 * 確定材質是透明或不透明
