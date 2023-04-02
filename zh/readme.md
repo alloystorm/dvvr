@@ -5,7 +5,7 @@ permalink: /zh/dancexr/
 toc: true
 locale: zh-TW
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
 ## 介紹
