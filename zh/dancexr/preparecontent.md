@@ -42,15 +42,15 @@ Dancexr在內容庫中的不同子文件夾中搜索各種類型的內容。
 ## 演示視頻
 
 在PC上：
-{% include video id="-2LSTDN7WB8" provider="YouTube" %}
+{% include video id="-2LStDN7WB8" provider="youtube" %}
 
 
 在Android上使用內容管理器
-{% include video id="vqjnl9oq-hy" provider="youtube" %}
+{% include video id="VQjnL9oq-hY" provider="youtube" %}
 
 
 在任務上加載內容
-{% include video id="zmdeuwwztmi" provider="youtube" %}
+{% include video id="ZmDeuWwZtmI" provider="youtube" %}
 
 
 ## 內容庫工具
