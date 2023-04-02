@@ -1,33 +1,50 @@
 ---
 layout: single
-title: Transparency
+title: Transparent Materials
 toc: true
+sidebar:
+  nav: "docs"
 ---
 
-### Issues With Transparency
+## Transparent Materials
 
-Transparent materials are tricky. They can overlap incorrectly and render unexpected color on top of certain parts if not set correctly. 
+There are two main aspects of the transparent material issue:
 
-We try our best to provide a usable default configuration but often you'll need to manually tweak each model to make them look perfect.
+* Determining whether a material is transparent or opaque.
+* The rendering order of transparent materials.
 
-XPS models usually don't require any manual tweaking since the model definition tells us what is transparent and what is not. But PMX doesn't have this and the program has to determine by itself what to do with the materials. Currently (version 1.1) the HD variant uses transparent mode as default (since it has the zsorting capability and that provides an acceptable default behavior) and LW uses opaque as default. 
 
-There are a few tools within DanceXR that you can use to tweak transparency behaviours.
+### Determining Transparency/Opaque Materials
 
-First thing you can try is "Transparent Sorting". This setting configures how transparent materials are sorted. The default option is "use mesh order" which means they are sorted with the same order that their mesh are defined in the file. Usually they are orderred from inside out and that's exactly what we needed.  
+XPS model data includes the material's properties, which we can use to determine whether to use a transparent mode. Therefore, XPS models usually do not have misjudgment cases.
 
-The toggle (available in HD variant only) turns on Z sorting, it uses z buffer to determine what is visible and what is not. This present a very accurate result however it allows only the top layer to be visible since there can only be one z value for each pixel, any overlaping layers below the top one will be ignored. We use this option as default. Take the following screenshot as example, the sorting is perfect, nothing covers what it shouldn't be but you can see through some part of her hair. That is because the hair layers below are invisible.  
+PMX models do not provide such data, so we currently mainly use two methods:
+* Infer whether the material is transparent by the properties of the texture. If the texture contains an alpha channel, the material is judged to be transparent. However, there are exceptions, such as some materials that use the alpha channel as a smooth value rather than transparency.
+* Infer through the name. For example, if the name contains words like "shadow" or "hair," it is judged to be transparent.
 
-![Z Sorting On](/images/zsorting_on.png)
+Therefore, PMX models may have a certain percentage of misjudgment cases.
 
-You can uncheck the toggle if you wish all transparent materials to be renderred. See the result from the image below. Now hair looks great but you can see that this created another problem for this model, the horns are now covered by hair where they shouldn't be. 
 
-![Z Sorting Off](/images/zsorting_off.png)
+### Rendering Order of Transparent Materials
 
-Luckily problems like this can be solved by changing the material type of the items being covered. You can go to the material settings, find the material that renders the horns, and change it to opaque type. This will allow it to be renderred before transparent materials and the z depth test can prevents incorrect ordering from happening.  
+Most XPS models include data on the rendering order, so there are usually no major issues.
 
-![Set Opaque Type](/images/type_opaque.png)
+Some PMX models' materials do not have a reasonable rendering order, which can cause strange screens to appear after layering.
 
-Now this looks almost perfect but there is still a minor problem: the facepaint on her face doesn't look quite right. This is due to the face paint material is incorrectly set to skin type (due to the fact that we determine material types by checking certain keywords from the material names. Since it contains the word "head", the program set it to "skin" type by default). This made the edge of the image to show up incorrectly. You can fix this by setting its type to transparent.
+### Transparent Depth Prepass (HD)
+By default, the HD and RT versions will turn on transparent depth prepass mode. In this mode, all transparent materials will undergo a depth prepass pass, using the z-buffer to determine the layering relationship of the materials to ensure that the top layer of transparent materials is rendered correctly. This approach can solve the layering problem, but the downside is that it will discard all underlying materials. If the model requires multiple layers to be displayed simultaneously, problems may arise. For example, hair and transparent clothing or when the character is obscured by other transparent objects. This mode can be turned off in the system settings.
 
-![Set Transparent Type](/images/type_transparent.png)
+Starting from version 1.4.3, independent fine-tuning depth prepass settings can be set for each individual material:
+
+* Transparent prepass switch: Each material can independently control whether to use depth prepass.
+* Transparent prepass threshold: In the case of using depth prepass, this parameter can be used to control the depth prepass area. The larger the value, the smaller the depth prepass range. The default setting is 0.8.
+
+
+### Transparent Material Settings
+
+In each individual material option, you can change the material's transparency mode, which can be set to automatic, force transparency, or force opacity.
+
+In the hair options, you can change the transparency mode of all hair materials.
+
+In the Global Material Settings, you can choose the transparency sorting order from a few different options.
+
