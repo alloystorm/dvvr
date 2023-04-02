@@ -109,7 +109,7 @@ docs-zh:
         url: /zh/dancexr/pro_features
       - title: "成人功能"
         url: /zh/dancexr/adult_features
-      - title: "創建者功能"
+      - title: "創作者版本"
         url: /zh/dancexr/creator
   - title: 教程
     children:
@@ -127,9 +127,9 @@ docs-zh:
         url: /zh/dancexr/xps_physics
       - title: "天空地圖"
         url: /zh/dancexr/skymap
-  - title: FAQ & Troubleshooting
+  - title: 常見問題解答和故障排除
     children:
-      - title: "FAQ"
+      - title: "常見問題解答"
         url: /zh/dancexr/faq
       - title: "故障排除"
         url: /zh/dancexr/troubleshooting
