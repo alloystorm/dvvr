@@ -31,13 +31,11 @@ docs:
         url: /dancexr/download
       - title: "Content Library"
         url: /dancexr/preparecontent
-
   - title: Release Notes
     url: /dancexr/releases/
     children:
       - title: Release 1.4.2 Mar 2023
         url: /dancexr/releases/1.4.2
-
   - title: Features & Variants
     children:
       - title: "Basic Features"
@@ -48,7 +46,6 @@ docs:
         url: /dancexr/adult_features
       - title: "Creator Features"
         url: /dancexr/creator
-  
   - title: Tutorials
     children:
       - title: "XPS Bone Mapper"
@@ -65,8 +62,6 @@ docs:
         url: /dancexr/xps_physics
       - title: "Sky Map"
         url: /dancexr/skymap
-      
-
   - title: FAQ & Troubleshooting
     children:
       - title: "FAQ"
@@ -75,74 +70,69 @@ docs:
         url: /dancexr/troubleshooting
 
 releases-zh:
-  - title: Upcoming Release
+  - title: 即將發布的版本
     children:
-    - title: Release 1.4.3 Apr 2023
-      url: /dancexr/releases/1.4.3
-  - title: Current Release
+    - title: 版本1.4.3 2023年4月
+      url: /zh/dancexr/releases/1.4.3
+  - title: 當前版本
     children:
-    - title: Release 1.4.2 Mar 2023
-      url: /dancexr/releases/1.4.2
-  - title: Older Releases
+    - title: 版本1.4.2 2023年3月2日
+      url: /zh/dancexr/releases/1.4.2
+  - title: 較舊的版本
     children:
-    - title: Release 1.4.1 Feb 2023
-      url: /dancexr/releases/1.4.1
-    - title: Release 1.4.0 Jan 2023
-      url: /dancexr/releases/1.4.0
-  - title: About Releases
-    url: /dancexr/releases
+    - title: 版本1.4.1 2023年2月
+      url: /zh/dancexr/releases/1.4.1
+    - title: 版本1.4.0 2023年1月
+      url: /zh/dancexr/releases/1.4.0
+  - title: 關於版本
+    url: /zh/dancexr/releases
 
 docs-zh:
-  - title: Getting Started
+  - title: 入門
     children:
-      - title: "Introduction"
-        url: /dancexr
-      - title: "Download"
-        url: /dancexr/download
-      - title: "Content Library"
-        url: /dancexr/preparecontent
-
-  - title: Release Notes
-    url: /dancexr/releases/
+      - title: "介紹"
+        url: /zh/dancexr
+      - title: "下載"
+        url: /zh/dancexr/download
+      - title: "內容庫"
+        url: /zh/dancexr/preparecontent
+  - title: 發行說明
+    url: /zh/dancexr/releases/
     children:
-      - title: Release 1.4.2 Mar 2023
-        url: /dancexr/releases/1.4.2
-
-  - title: Features & Variants
+      - title: 版本1.4.2 2023年3月2日
+        url: /zh/dancexr/releases/1.4.2
+  - title: 功能和變體
     children:
-      - title: "Basic Features"
-        url: /dancexr/basic_features
-      - title: "Pro Features"
-        url: /dancexr/pro_features
-      - title: "Adult Features"
-        url: /dancexr/adult_features
-      - title: "Creator Features"
-        url: /dancexr/creator
-  
-  - title: Tutorials
+      - title: "基本功能"
+        url: /zh/dancexr/basic_features
+      - title: "專業功能"
+        url: /zh/dancexr/pro_features
+      - title: "成人功能"
+        url: /zh/dancexr/adult_features
+      - title: "創建者功能"
+        url: /zh/dancexr/creator
+  - title: 教程
     children:
-      - title: "XPS Bone Mapper"
-        url: /dancexr/bone_mapper
-      - title: "Animate Clothing Change"
-        url: /dancexr/optionals
-      - title: "Material Settings"
-        url: /dancexr/material_settings
-      - title: "Music Timing Config"
-        url: /dancexr/music_timing
-      - title: "Secondary Motion"
-        url: /dancexr/assign_motion
-      - title: "XPS Physics"
-        url: /dancexr/xps_physics
-      - title: "Sky Map"
-        url: /dancexr/skymap
-      
-
+      - title: "XPS骨映射器"
+        url: /zh/dancexr/bone_mapper
+      - title: "動畫服裝換衣服"
+        url: /zh/dancexr/optionals
+      - title: "材質設置"
+        url: /zh/dancexr/material_settings
+      - title: "音樂正時配置"
+        url: /zh/dancexr/music_timing
+      - title: "次要運動"
+        url: /zh/dancexr/assign_motion
+      - title: "XPS物理"
+        url: /zh/dancexr/xps_physics
+      - title: "天空地圖"
+        url: /zh/dancexr/skymap
   - title: FAQ & Troubleshooting
     children:
       - title: "FAQ"
-        url: /dancexr/faq
-      - title: "Troubleshooting"
-        url: /dancexr/troubleshooting
+        url: /zh/dancexr/faq
+      - title: "故障排除"
+        url: /zh/dancexr/troubleshooting
 
 
 releases-jp:
