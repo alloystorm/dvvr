@@ -3,6 +3,7 @@ layout: single
 title: DanceXR
 permalink: /zh/dancexr/
 toc: true
+locale: zh-TW
 sidebar:
   nav: "docs"
 ---

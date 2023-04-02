@@ -1,20 +1,21 @@
 ---
 layout: single
 title: Releases
-permalink: /dancexr/releases/
+permalink: /zh/dancexr/releases/
+locale: zh-TW
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
-{% include nav_list nav="releases" %}
+{% include nav_list nav="releases-zh" %}
 
-## Looking for even older releases? 
+## 尋找更舊的版本？
 
-[Find past releases on Patreon](https://www.patreon.com/dvvr)
+[在 Patreon 上查找過去的版本](https://www.patreon.com/dvvr)
 
-## Release schedule
+## 發佈時間表
 
-Our development team follows a monthly release cycle, where we aim to release new updates every month. 
+我們的開發團隊遵循每月發布週期，我們的目標是每月發布新的更新。
 
-These updates are initially made available to our Patreon supporters at the beginning of the month, followed by a release on the Steam beta branch around the 15th. Finally, the updates are rolled out to Steam main branch and all other platforms before the end of the month.
+這些更新最初在月初提供給我們的 Patreon 支持者，隨後在 15 日左右在 Steam 測試版分支上發布。 最後，更新將在月底前在 Steam 主分支和所有其他平台推出。

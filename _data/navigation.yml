@@ -74,6 +74,75 @@ docs:
       - title: "Troubleshooting"
         url: /dancexr/troubleshooting
 
+releases-zh:
+  - title: Upcoming Release
+    children:
+    - title: Release 1.4.3 Apr 2023
+      url: /dancexr/releases/1.4.3
+  - title: Current Release
+    children:
+    - title: Release 1.4.2 Mar 2023
+      url: /dancexr/releases/1.4.2
+  - title: Older Releases
+    children:
+    - title: Release 1.4.1 Feb 2023
+      url: /dancexr/releases/1.4.1
+    - title: Release 1.4.0 Jan 2023
+      url: /dancexr/releases/1.4.0
+  - title: About Releases
+    url: /dancexr/releases
+
+docs-zh:
+  - title: Getting Started
+    children:
+      - title: "Introduction"
+        url: /dancexr
+      - title: "Download"
+        url: /dancexr/download
+      - title: "Content Library"
+        url: /dancexr/preparecontent
+
+  - title: Release Notes
+    url: /dancexr/releases/
+    children:
+      - title: Release 1.4.2 Mar 2023
+        url: /dancexr/releases/1.4.2
+
+  - title: Features & Variants
+    children:
+      - title: "Basic Features"
+        url: /dancexr/basic_features
+      - title: "Pro Features"
+        url: /dancexr/pro_features
+      - title: "Adult Features"
+        url: /dancexr/adult_features
+      - title: "Creator Features"
+        url: /dancexr/creator
+  
+  - title: Tutorials
+    children:
+      - title: "XPS Bone Mapper"
+        url: /dancexr/bone_mapper
+      - title: "Animate Clothing Change"
+        url: /dancexr/optionals
+      - title: "Material Settings"
+        url: /dancexr/material_settings
+      - title: "Music Timing Config"
+        url: /dancexr/music_timing
+      - title: "Secondary Motion"
+        url: /dancexr/assign_motion
+      - title: "XPS Physics"
+        url: /dancexr/xps_physics
+      - title: "Sky Map"
+        url: /dancexr/skymap
+      
+
+  - title: FAQ & Troubleshooting
+    children:
+      - title: "FAQ"
+        url: /dancexr/faq
+      - title: "Troubleshooting"
+        url: /dancexr/troubleshooting
 
 
 releases-jp:

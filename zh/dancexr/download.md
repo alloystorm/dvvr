@@ -2,63 +2,64 @@
 layout: single
 title: Download
 toc: true
+locale: zh-TW
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
-## Free Version Download
+## 免費版下載
 
-[DanceXR 1.4.2 HD](https://www.patreon.com/file?h=79391318&i=13573848){: .dlbtn .patreon} 
+[DanceXR 1.4.2 HD](https://www.patreon.com/file?h=79391318&i=13573848){: .dlbtn .patreon}
 
-1.4.2 is the current free version you can download.
+1.4.2 是您可以下載的當前免費版本。
 
-The free version includes all [basic features](basic_features.md) such as standard pose conversion, stage and environment settings, and lifelike motions. However, it has some limitations: only one actor can be on the stage at a time, and [advanced features](pro_features.md) in the paid version are not available.
+免費版包括所有[基本功能](basic_features.md)，例如標準姿勢轉換、舞台和環境設置以及逼真的動作。 但是，它有一些限制：一次只能有一個演員在舞台上，並且付費版本中的[高級功能](pro_features.md) 不可用。
 
-## Purchase Options
-To gain access to the latest release and unlock advanced features, please use one of the following options to purchase. 
+## 購買選項
+要訪問最新版本並解鎖高級功能，請使用以下選項之一進行購買。
 
-### Become a supporter on Patreon
+### 成為 Patreon 的支持者
 
-[DanceXR on Patreon](https://www.patreon.com/dvvr){: .dlbtn .patreon} 
+[Patreon 上的 DanceXR](https://www.patreon.com/dvvr){: .dlbtn .patreon}
 
-Every month, we publish the latest version on our Patreon page. The free version build will also be made available on Patreon one month after its initial release.
+每個月，我們都會在 Patreon 頁面上發布最新版本。 免費版本構建也將在首次發布一個月後在 Patreon 上提供。
 
-By becoming a supporter on Patreon, you will have exclusive access to the latest updates and the chance to provide feedback before the release is available on other platforms. If you appreciate our project and want to support us, we encourage you to become a Patreon supporter.
-
-
-### Purchase PC version from Steam & Itch.io
-
-If you prefer an one-off purchase, you can also find it on Steam and Itch.io. 
-
-[Steam: DanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
-
-[Itch.io: DanceXR Pro](https://stormlab.itch.io/dvvr){: .dlbtn .itchio}
-
-If you can't find DanceXR on Steam, it could be that it is blocked in your country, you can try the Pure edition instead.
-
-[Steam: DanceXR Pure](https://store.steampowered.com/app/2193970/DanceXR_Pure/){: .dlbtn .steam}
-
-The difference between Pro and Pure version is that the Pro has some adult only features so is age restricted on Steam, also the raytraced version is a paid DLC on Steam. The Pure has all adult features removed, but it includes the raytraced version.
+通過成為 Patreon 的支持者，您將獲得最新更新的獨家訪問權，並有機會在其他平台上發布之前提供反饋。 如果您欣賞我們的項目並希望支持我們，我們鼓勵您成為 Patreon 的支持者。
 
 
-### Purchase Quest standalone version on Itch.io
+### 從 Steam & Itch.io 購買 PC 版
 
-The standalone build for Oculus Quest can be found here: 
+如果您更喜歡一次性購買，您也可以在 Steam 和 Itch.io 上找到它。
 
-[DanceXR Quest](https://stormlab.itch.io/dancexr-quest){: .dlbtn .itchio}
+[Steam：DanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
+
+[Itch.io：DanceXR Pro](https://stormlab.itch.io/dvvr){: .dlbtn .itchio}
+
+如果您在 Steam 上找不到 DanceXR，可能是它在您所在的國家/地區被屏蔽，您可以試試 Pure 版。
+
+[Steam：DanceXR Pure](https://store.steampowered.com/app/2193970/DanceXR_Pure/){: .dlbtn .steam}
+
+Pro 和 Pure 版本之間的區別在於 Pro 具有一些僅限成人的功能，因此在 Steam 上有年齡限制，光線追踪版本是 Steam 上的付費 DLC。 Pure 刪除了所有成人功能，但它包括光線追踪版本。
 
 
-### Purchase Android version on Google Play & Itch.io
+### 在 Itch.io 上購買 Quest 單機版
 
-The Android Pro version can be purchased from itch.io: 
+Oculus Quest 的獨立構建可以在這裡找到：
+
+[DanceXR 任務](https://stormlab.itch.io/dancexr-quest){: .dlbtn .itchio}
+
+
+### 在 Google Play 和 Itch.io 上購買 Android 版本
+
+Android Pro 版本可以從 itch.io 購買：
 
 [DanceXR Android Pro](https://stormlab.itch.io/dancexr-android){: .dlbtn .itchio}
 
-[DanceXR Portable](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr){: .dlbtn .itchio}
+[DanceXR 便攜式](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr){: .dlbtn .itchio}
 
-You can also download and purchase the Portable edition on Google Play for free. The Portable edition is missing the NSFW features.
+您還可以在 Google Play 免費下載和購買便攜版。 便攜版缺少 NSFW 功能。
 
 
-### For users in mainland China
+### 中國大陸用戶
 
 [中国大陆购买选项](purchase_prc.md)
