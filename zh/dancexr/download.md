@@ -31,31 +31,31 @@ sidebar:
 
 如果您更喜歡一次性購買，您也可以在 Steam 和 Itch.io 上找到它。
 
-[Steam：DanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
+[Steam：DanceXR 專業版](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
 
-[Itch.io：DanceXR Pro](https://stormlab.itch.io/dvvr){: .dlbtn .itchio}
+[Itch.io：DanceXR 專業版](https://stormlab.itch.io/dvvr){: .dlbtn .itchio}
 
-如果您在 Steam 上找不到 DanceXR，可能是它在您所在的國家/地區被屏蔽，您可以試試 Pure 版。
+如果您在 Steam 上找不到 DanceXR 專業版，可能是它在您所在的國家/地區被屏蔽，您可以試試純潔版。
 
-[Steam：DanceXR Pure](https://store.steampowered.com/app/2193970/DanceXR_Pure/){: .dlbtn .steam}
+[Steam：DanceXR 純潔版](https://store.steampowered.com/app/2193970/DanceXR_Pure/){: .dlbtn .steam}
 
-Pro 和 Pure 版本之間的區別在於 Pro 具有一些僅限成人的功能，因此在 Steam 上有年齡限制，光線追踪版本是 Steam 上的付費 DLC。 Pure 刪除了所有成人功能，但它包括光線追踪版本。
+專業版 和 純潔版 之間的區別在於 專業版 具有一些僅限成人的功能，因此在 Steam 上有年齡限制，同時光線追踪的版本在專業版中是額外付費的 DLC。 純潔版 刪除了所有成人功能，但它已經包含光線追踪版本。
 
 
 ### 在 Itch.io 上購買 Quest 單機版
 
 Oculus Quest 的獨立構建可以在這裡找到：
 
-[DanceXR 任務](https://stormlab.itch.io/dancexr-quest){: .dlbtn .itchio}
+[DanceXR Quest](https://stormlab.itch.io/dancexr-quest){: .dlbtn .itchio}
 
 
 ### 在 Google Play 和 Itch.io 上購買 Android 版本
 
 Android Pro 版本可以從 itch.io 購買：
 
-[DanceXR Android Pro](https://stormlab.itch.io/dancexr-android){: .dlbtn .itchio}
+[DanceXR 安卓專業版](https://stormlab.itch.io/dancexr-android){: .dlbtn .itchio}
 
-[DanceXR 便攜式](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr){: .dlbtn .itchio}
+[DanceXR 移動版](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr){: .dlbtn .itchio}
 
 您還可以在 Google Play 免費下載和購買便攜版。 便攜版缺少 NSFW 功能。
 
