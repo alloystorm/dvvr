@@ -9,7 +9,7 @@ sidebar:
 
 ## 無料版ダウンロード
 
-[DanceXR 1.4.2 HD](https://www.patreon.com/file?h=79391318&i=13573848){: .dlbtn .patreon}
+[DanceXR 1.4.4 HD](https://www.patreon.com/file?h=82334795&i=14338236){: .dlbtn .patreon}
 
 は、ダウンロード可能な最新の無料版です。
 

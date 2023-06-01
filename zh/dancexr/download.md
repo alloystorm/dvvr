@@ -9,9 +9,9 @@ sidebar:
 
 ## 免費版下載
 
-[DanceXR 1.4.2 HD](https://www.patreon.com/file?h=79391318&i=13573848){: .dlbtn .patreon}
+[DanceXR 1.4.4 HD](https://www.patreon.com/file?h=82334795&i=14338236){: .dlbtn .patreon}
 
-1.4.2 是您可以下載的當前免費版本。
+1.4.4 是您可以下載的當前免費版本。
 
 免費版包括所有[基本功能](basic_features.md)，例如標準姿勢轉換、舞台和環境設置以及逼真的動作。 但是，它有一些限制：一次只能有一個演員在舞台上，並且付費版本中的[高級功能](pro_features.md) 不可用。
 

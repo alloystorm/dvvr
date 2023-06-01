@@ -8,9 +8,9 @@ sidebar:
 
 ## Free Version Download
 
-[DanceXR 1.4.2 HD](https://www.patreon.com/file?h=79391318&i=13573848){: .dlbtn .patreon} 
+[DanceXR 1.4.4 HD](https://www.patreon.com/file?h=82334795&i=14338236){: .dlbtn .patreon} 
 
-1.4.2 is the current free version you can download.
+1.4.4 is the current free version you can download.
 
 The free version includes all [basic features](basic_features.md) such as standard pose conversion, stage and environment settings, and lifelike motions. However, it has some limitations: only one actor can be on the stage at a time, and [advanced features](pro_features.md) in the paid version are not available.
 
