@@ -51,10 +51,14 @@ Oculus Quest用のスタンドアロンビルドはこちらから入手でき�
 
 ### Google Play＆Itch.ioでAndroid版を購入する
 
-Android Pro版はitch.ioから購入できます。
+Android Proバージョンはitch.ioで入手でき、純粋なバージョンはGoogle Playで入手できます。
 
 [DanceXR Android Pro](https://stormlab.itch.io/dancexr-android){: .dlbtn .itchio} 
 
 [DanceXR Portable](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr){: .dlbtn .itchio}
 
-また、無料でGoogle PlayからPortable版をダウンロードして購入することもできます。Portable版にはNSFW機能が欠落しています。
+Google Playユーザーの場合、パブリックベータテストを共同して、次のアップデートに早期にアクセスできるようになりました。以下のリンクにアクセスしてください。
+
+https://play.google.com/apps/testing/com.vrstormlab.dancexr
+
+制作バージョンに戻す場合は、同じページから「プログラムを残す」を選択してから、Google Playから古いバージョンをインストールできます。

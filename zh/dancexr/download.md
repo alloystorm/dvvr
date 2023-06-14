@@ -51,13 +51,17 @@ Oculus Quest 的獨立構建可以在這裡找到：
 
 ### 在 Google Play 和 Itch.io 上購買 Android 版本
 
-Android Pro 版本可以從 itch.io 購買：
+Android Pro版本可在itch.io上找到，純版本可在Google Play上獲得：
 
 [DanceXR 安卓專業版](https://stormlab.itch.io/dancexr-android){: .dlbtn .itchio}
 
 [DanceXR 移動版](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr){: .dlbtn .itchio}
 
-您還可以在 Google Play 免費下載和購買便攜版。 便攜版缺少 NSFW 功能。
+對於Google Play用戶，您現在可以聯合我們的公共Beta測試，以儘早訪問下一個更新。只需訪問以下鏈接：
+
+https://play.google.com/apps/testing/com.vrstormlab.dancexr
+
+如果要恢復生產版本，則可以從同一頁面中選擇“離開程序”，然後可以從Google Play安裝舊版本。
 
 
 ### 中國大陸用戶
