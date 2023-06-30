@@ -25,10 +25,10 @@ footer:
   links:
     - label: "Steam"
       icon: "fab fa-steam"
-      url: "https://store.steampowered.com/app/2193970/DanceXR_Pure"
+      url: "https://store.steampowered.com/search/?developer=VR%20Storm%20Lab"
     - label: "Itch.io"
       icon: "fab fa-itch-io"
-      url: "https://stormlab.itch.io/dvvr"
+      url: "https://stormlab.itch.io"
     - label: "Google Play"
       icon: "fab fa-google-play"
       url: "https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr"
@@ -44,18 +44,3 @@ footer:
     - label: "iXiGua"
       icon: "fas fa-play-circle"
       url: "https://www.ixigua.com/home/633750488883656"      
-
-author:
-  links:
-    - label: "YouTube"
-      icon: "fab fa-youtube"
-      url: "https://www.youtube.com/@dancexr"
-    - label: "TikTok"
-      icon: "fab fa-tiktok"
-      url: "https://www.tiktok.com/@vrstormlab"  
-    - label: "BiliBili"
-      icon: "fas fa-play-circle"
-      url: "https://space.bilibili.com/167383940"
-    - label: "iXiGua"
-      icon: "fas fa-play-circle"
-      url: "https://www.ixigua.com/home/633750488883656"   
