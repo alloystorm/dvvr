@@ -20,3 +20,18 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+
+footer:
+  links:
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/@dancexr"
+    - label: "TikTok"
+      icon: "fab fa-tiktok"
+      url: "https://www.tiktok.com/@vrstormlab"  
+    - label: "BiliBili"
+      icon: "fas fa-play-circle"
+      url: "https://space.bilibili.com/167383940"
+    - label: "iXiGua"
+      icon: "fas fa-play-circle"
+      url: "https://www.ixigua.com/home/633750488883656"      
