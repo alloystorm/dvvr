@@ -23,6 +23,12 @@ plugins:
 
 footer:
   links:
+    - label: "Patreon"
+      icon: "fab fa-patreon"
+      url: "https://www.patreon.com/dvvr"
+    - label: "Discord"
+      icon: "fab fa-discord"
+      url: "https://discord.gg/wCMy7C3H"
     - label: "Steam"
       icon: "fab fa-steam"
       url: "https://store.steampowered.com/search/?developer=VR%20Storm%20Lab"
