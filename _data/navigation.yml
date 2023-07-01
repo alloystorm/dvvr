@@ -42,8 +42,8 @@ docs:
   - title: Release Notes
     url: /dancexr/releases/
     children:
-      - title: Release 1.4.5 June 2023
-        url: /dancexr/releases/1.4.5
+      - title: Release 1.4.6 July 2023
+        url: /dancexr/releases/1.4.6
   - title: Features & Variants
     children:
       - title: "Basic Features"
