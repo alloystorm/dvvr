@@ -144,8 +144,8 @@ docs-zh:
   - title: 發行說明
     url: /zh/dancexr/releases/
     children:
-      - title: 版本1.4.5 2023年6月
-        url: /zh/dancexr/releases/1.4.5
+      - title: 版本1.4.6 2023年7月
+        url: /zh/dancexr/releases/1.4.6
   - title: 功能和變體
     children:
       - title: "基本功能"
@@ -247,8 +247,8 @@ docs-jp:
   - title: リリースノート
     url: /jp/dancexr/releases/
     children:
-      - title: リリース 1.4.5 2023年6月
-        url: /jp/dancexr/releases/1.4.5
+      - title: リリース 1.4.6 2023年7月
+        url: /jp/dancexr/releases/1.4.6
   - title: 機能
     children:
       - title: "基本機能"
