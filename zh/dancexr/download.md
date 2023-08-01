@@ -9,7 +9,7 @@ sidebar:
 
 ## 免費版下載
 
-[DanceXR 1.4.4 HD](https://www.patreon.com/file?h=82334795&i=14338236){: .dlbtn .patreon}
+[DanceXR 1.4.6 HD](https://www.patreon.com/file?h=85423487&i=15211815){: .dlbtn .patreon}
 
 1.4.4 是您可以下載的當前免費版本。
 
