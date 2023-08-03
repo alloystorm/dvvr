@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Download
+title: 下载和购买链接
 toc: true
 locale: zh-TW
 sidebar:
