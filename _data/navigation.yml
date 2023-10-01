@@ -9,14 +9,16 @@ main:
 releases:
   - title: Upcoming Release
     children:
+    - title: Release 1.4.9 Oct 2023
+      url: /dancexr/releases/1.4.9
+  - title: Current Release
+    children:
     - title: Release 1.4.8 Sep 2023
       url: /dancexr/releases/1.4.8
-  - title: Current Release
+  - title: Older Releases
     children:
     - title: Release 1.4.7 Aug 2023
       url: /dancexr/releases/1.4.7
-  - title: Older Releases
-    children:
     - title: Release 1.4.6 July 2023
       url: /dancexr/releases/1.4.6
     - title: Release 1.4.5 June 2023
@@ -46,8 +48,8 @@ docs:
   - title: Release Notes
     url: /dancexr/releases/
     children:
-    - title: Release 1.4.8 Sep 2023
-      url: /dancexr/releases/1.4.8
+    - title: Release 1.4.9 Oct 2023
+      url: /dancexr/releases/1.4.9
   - title: Features & Variants
     children:
       - title: "Basic Features"
@@ -115,14 +117,16 @@ docs:
 releases-zh:
   - title: 即將發布的版本
     children:
+    - title: 版本1.4.9 2023年10月
+      url: /zh/dancexr/releases/1.4.9
+  - title: 當前版本
+    children:
     - title: 版本1.4.8 2023年9月
       url: /zh/dancexr/releases/1.4.8
-  - title: 當前版本
+  - title: 較舊的版本
     children:
     - title: 版本1.4.7 2023年8月
       url: /zh/dancexr/releases/1.4.7
-  - title: 較舊的版本
-    children:
     - title: 版本1.4.6 2023年7月
       url: /zh/dancexr/releases/1.4.6
     - title: 版本1.4.5 2023年6月
@@ -152,8 +156,8 @@ docs-zh:
   - title: 發行說明
     url: /zh/dancexr/releases/
     children:
-    - title: 版本1.4.8 2023年9月
-      url: /zh/dancexr/releases/1.4.8
+    - title: 版本1.4.9 2023年10月
+      url: /zh/dancexr/releases/1.4.9
   - title: 功能和變體
     children:
       - title: "基本功能"
@@ -221,14 +225,16 @@ docs-zh:
 releases-jp:
   - title: 今後のリリース
     children:
+    - title: リリース 1.4.9 2023年10月
+      url: /jp/dancexr/releases/1.4.9
+  - title: 現在のリリース
+    children:
     - title: リリース 1.4.8 2023年9月
       url: /jp/dancexr/releases/1.4.8
-  - title: 現在のリリース
+  - title: 以前のリリース
     children:
     - title: リリース 1.4.7 2023年8月
       url: /jp/dancexr/releases/1.4.7
-  - title: 以前のリリース
-    children:
     - title: リリース 1.4.6 2023年7月
       url: /jp/dancexr/releases/1.4.6
     - title: リリース 1.4.5 2023年6月
@@ -259,8 +265,8 @@ docs-jp:
   - title: リリースノート
     url: /jp/dancexr/releases/
     children:
-    - title: リリース 1.4.8 2023年9月
-      url: /jp/dancexr/releases/1.4.8
+    - title: リリース 1.4.9 2023年10月
+      url: /jp/dancexr/releases/1.4.9
   - title: 機能
     children:
       - title: "基本機能"
