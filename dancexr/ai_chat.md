@@ -33,9 +33,8 @@ This is the most intelligent option at the moment.
 **Cons:**
 * Censored
 
-Setup:
-
-To use OpenAI service with DanceXR, you need an OpenAI account and login, then click on your icon from the top right corner, then select "View API Keys", then 
+**Setup:**
+To use OpenAI service with DanceXR, you need an OpenAI API key.
 * Register and login your OpenAI account. 
 * Click on your profile icon on the top right corner of the page. 
 * Select "View API Keys" to open the API page.
@@ -73,7 +72,7 @@ There are services that allow you to rent a GPU and run AI models. Runpod is one
 
 **Pros:** 
 * Fast and easy
-* Freedom to choose any model that you want to run. Even those that are impossible to run on your GPU. 
+* Freedom to choose any model that you want to run. Even those that are impossible to run on your local GPU. 
 
 **Cons:**
 * A bit more expensive than OpenAI
@@ -156,8 +155,13 @@ Manual mode means you click on the microphone button, it starts recording, and o
 
 
 ### Automatic Mode
-Automatic mode means it will automatically start recording when chat is idle (Characters not talking), you can speak and it will process your speak automatically. However sometimes this is not very smart. And for lower end devices processing audio to text can take some time. 
+Automatic mode means it will automatically start recording when chat is idle (Characters not talking), process the audio on the fly and then sends it when you are done talking. However sometimes it is not very smart. 
+
+For lower end devices, processing audio to text can take some time. So the automatic mode is not recommended for Android, Quest and Pico.
 
 ### Key Binding
 In the Input Settings, you can assign a button to toggle the microphone state, so you can use control recording without entering the UI. By default it is assigned to right hand controller menu button.
 
+
+## Resetting Configuration and Character Settings
+Everything is saved in the chat folder of your content library. Feel free to delete the chat folder to reset everything to default. 
