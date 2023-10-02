@@ -100,7 +100,7 @@ In DanceXR, go to Chat Settings -> Templates to select the template you created.
 ### Characters
 The characters are derived from the name of the actor model. For example "Koharu Bouquet Cattleya Hair B Side Ponytail", "Koharu" will be interpreted as the character name, the rest "Bouquet Cattleya Hair B Side Ponytail" will be used as description for her outfit. 
 
-The language model might have a bit knowledge on the character if it is well known, so it sometimes knows what they do and how they behave, especially when you use OpenAI. 
+The language model might have some knowledge on the character if they are well known, so it sometimes knows who they are and how they behave, especially when you use OpenAI. 
 
 In the character settings you can enter description and personality for the character, and that will greatly affect how they behave in chat. For example you can change a proud and arrogant character to be obidient by just describing them as "Obidient and eager to please".
 
