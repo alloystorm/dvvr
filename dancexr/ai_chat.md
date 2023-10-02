@@ -144,7 +144,8 @@ The LLMs have token limits, content that exceed this limit will not be generated
 
 ### Auto Generate and Generate For Player
 Turn on "Auto Generate Next" to allow AI to automatically generate the next message when the timer is up. 
-Turn on to allow AI to generate messages for the player.
+
+Turn on "Generate For Player" to allow AI to generate messages for the player.
 
 
 ## Text To Speech
