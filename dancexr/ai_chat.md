@@ -143,6 +143,7 @@ The built-in voice model contains over 900 different voices. By default we are o
 
 You can choose different voice for System, Player and each of the characters. 
 
+
 ### Language Matching & Fallback
 The AI model can generate different language messages. But the voice model can't. DanceXR will try to determine what language the message is and if it doesn't match the selected voice language, enabling "Fallback" in the voice settings will allow it to choose a different voice that matches the language within the voice list.
 
@@ -151,7 +152,7 @@ The AI model can generate different language messages. But the voice model can't
 The built-in Whisper model can convert your voice to text and then send to AI. There are 2 modes, manual and automatic.
 
 ### Manual Mode
-Manual mode means you click on the microphone button, it starts recording, and once you are done, click on it again and it will be processed to text and then sent to AI. 
+Manual mode means you click on the microphone button, it starts recording, and once you are done, click on it again and the audio will be processed and result will then be sent to AI. 
 
 
 ### Automatic Mode
@@ -159,9 +160,10 @@ Automatic mode means it will automatically start recording when chat is idle (Ch
 
 For lower end devices, processing audio to text can take some time. So the automatic mode is not recommended for Android, Quest and Pico.
 
+
 ### Key Binding
-In the Input Settings, you can assign a button to toggle the microphone state, so you can use control recording without entering the UI. By default it is assigned to right hand controller menu button.
+In the Input Settings, you can assign a button to toggle the microphone state, so you can control recording without entering the UI. By default it is assigned to right hand controller menu button.
 
 
-## Resetting Configuration and Character Settings
+## Resetting Configurations and Character Settings
 Everything is saved in the chat folder of your content library. Feel free to delete the chat folder to reset everything to default. 
