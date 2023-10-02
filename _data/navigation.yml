@@ -162,6 +162,8 @@ docs-zh:
       url: /zh/dancexr/releases/1.4.9
   - title: 功能和變體
     children:
+      - title: "AI语音聊天"
+        url: /zh/dancexr/ai_chat
       - title: "基本功能"
         url: /zh/dancexr/basic_features
       - title: "專業功能"
@@ -330,3 +332,6 @@ docs-jp:
       - title: "iXiGua"
         icon: "fas fa-play-circle"
         url: "https://www.ixigua.com/home/633750488883656"          
+
+
+        
