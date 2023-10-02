@@ -1,3 +1,9 @@
+---
+layout: single
+title: Motion Override
+toc: true
+---
+
 ## Motion Override Overview
 Motion Override is a feature that allows you to take over the motion for certain part of the body. You can use it to limit the motion of the actor, adding motions to the dance move or changing the motion for a specific body part.
 

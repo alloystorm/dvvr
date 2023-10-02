@@ -1,3 +1,9 @@
+---
+layout: single
+title: Outfit Body Paint
+toc: true
+---
+
 ## Outfit & Body Paint Overview
 This feature allows you to change looks of the actor by painting on the body and outfit. You can also use it to create custom outfit patterns.
 

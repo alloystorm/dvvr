@@ -1,3 +1,9 @@
+---
+layout: single
+title: XPS Physics
+toc: true
+---
+
 ### XPS Model Specific Settings
 XPS models don't come with physics definitions so the program does not know where to add physics components. To deal with this several physics settings are added to each XPS model for you to configure physics components on a XPS model. 
 

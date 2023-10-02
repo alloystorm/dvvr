@@ -1,3 +1,9 @@
+---
+layout: single
+title: System Physics
+toc: true
+---
+
 ### System-wide physics settings
 You can locate the system-wide physics settings in Settings -> Options -> Physics. 
 

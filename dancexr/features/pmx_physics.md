@@ -1,3 +1,9 @@
+---
+layout: single
+title: PMX Physics
+toc: true
+---
+
 ### PMX Model specific settings
 You can locate the model specific physics settings in model settings -> Options -> Physics
 

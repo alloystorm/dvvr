@@ -1,3 +1,9 @@
+---
+layout: single
+title: Secondary Motion
+toc: true
+---
+
 ## Overview
 You can assign up to 2 motions to an actor, to allow mixing the motions together. Usually this is used when you have one motion for the body and another for the facial moves. 
 

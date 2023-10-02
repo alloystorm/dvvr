@@ -7,20 +7,20 @@ sidebar:
 ---
 
 ## Models
-* [Formation](/dancexr/features/formation.md)
-* [Loader Options](/dancexr/features/loader_options.md)
-* [Playlists](/dancexr/features/actor_playlist.md)
+* [Formation](/dancexr/features/formation)
+* [Loader Options](/dancexr/features/loader_options)
+* [Playlists](/dancexr/features/actor_playlist)
 * Tagging
-* [PMX Physics](/dancexr/features/pmx_physics.md)
-* [XPS Physics](/dancexr/features/xps_physics.md)
-* [Outfit & Body Paint](/dancexr/features/outfit_body_paint.md)
-* [Motion Override](/dancexr/features/motion_override.md)
+* [PMX Physics](/dancexr/features/pmx_physics)
+* [XPS Physics](/dancexr/features/xps_physics)
+* [Outfit & Body Paint](/dancexr/features/outfit_body_paint)
+* [Motion Override](/dancexr/features/motion_override)
 * Boob Shake & Sex Overlay
 
 ## Motions
 * Playback options
-* [Timing & Beats](/dancexr/music_timing.md)
-* [Secondary Motion](/dancexr/features/secondary_motion.md)
+* [Timing & Beats](/dancexr/music_timing)
+* [Secondary Motion](/dancexr/features/secondary_motion)
 * Remix
 * Motion Settings
 * Actor Motion Settings
@@ -40,12 +40,12 @@ sidebar:
 * Camera
 
 ## System
-* [Input Settings](/dancexr/controls.md)
+* [Input Settings](/dancexr/controls)
 * Display & UI
 * Graphics
-* [Physics Config](/dancexr/features/system_physics.md)
+* [Physics Config](/dancexr/features/system_physics)
 * Language
 * App Settings
 
-## [AI Chat](/dancexr/ai_chat.md)
+## [AI Chat](/dancexr/ai_chat)
 
