@@ -130,6 +130,8 @@ The LLMs have token limits, content that exceed this limit will not be generated
 
 
 ## Voice Control
+
+### Additional Voices
 DanceXR uses a TTS engine called Piper. Here you can listen to and download additional voice models to use in DanceXR. 
 
 https://rhasspy.github.io/piper-samples/
@@ -137,22 +139,25 @@ https://rhasspy.github.io/piper-samples/
 Once downloaded, put them in chat\voices\piper folder. Keep in mind that both the onnx and onnx.json files are required. 
 
 
+### Voice Manager
 The built-in voice model contains over 900 different voices. By default we are only enabling the first 20 of them. Since 900 is too many for the user to choose from. To enable other voices, go to Voice -> Voice Manager from the chat settings, choose one of the voices from the list, listen to it and tick "Selected" to allow it to be added to the voice list.
 
 You can choose different voice for System, Player and each of the characters. 
 
+### Language Matching & Fallback
 The AI model can generate different language messages. But the voice model can't. DanceXR will try to determine what language the message is and if it doesn't match the selected voice language, enabling "Fallback" in the voice settings will allow it to choose a different voice that matches the language within the voice list.
 
 
-## Microphone Input
-There are 2 modes, manual and automatic.
+## Voice To Text
+The built-in Whisper model can convert your voice to text and then send to AI. There are 2 modes, manual and automatic.
 
-
+### Manual Mode
 Manual mode means you click on the microphone button, it starts recording, and once you are done, click on it again and it will be processed to text and then sent to AI. 
 
 
+### Automatic Mode
 Automatic mode means it will automatically start recording when chat is idle (Characters not talking), you can speak and it will process your speak automatically. However sometimes this is not very smart. And for lower end devices processing audio to text can take some time. 
 
-
+### Key Binding
 In the Input Settings, you can assign a button to toggle the microphone state, so you can use control recording without entering the UI. By default it is assigned to right hand controller menu button.
 
