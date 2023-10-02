@@ -104,6 +104,8 @@ The language model might have some knowledge on the character if they are well k
 
 In the character settings you can enter description and personality for the character, and that will greatly affect how they behave in chat. For example you can change a proud and arrogant character to be obidient by just describing them as "Obidient and eager to please".
 
+The "Player" is technically also a character, you can change the name, description and personality for yourself and be whoever you like. 
+
 
 ### Persona
 The character setting also have a Persona drop down. This allows you to use characters downloaded from AI roleplay programs like TavernAI. These usually come in PNG format. The metadata of the png images contains description for the character. 
