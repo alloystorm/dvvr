@@ -38,16 +38,16 @@ sidebar:
 * Save & Load Scene
 
 ## Environment
-* [Sky](/dancexr/skymap.md)
-* Ground
-* Particles
+* [Sky and Cloud](/dancexr/skymap.md)
+* [Ground, Stage & Water System](/dancexr/features/ground)
+* [Particle System](/dancexr/features/particles)
 * Lighting
 * Camera
 
 ## System
 * [Input Settings](/dancexr/controls)
 * Display & UI
-* Graphics
+* Graphic Settings
 * [Physics Config](/dancexr/features/system_physics)
 * Language
 * App Settings
