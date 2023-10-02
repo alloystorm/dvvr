@@ -123,7 +123,7 @@ Please note that once the prompt limit is reached, the oldest messages will be i
 In the chat interface you can click on the icon next to the chat message to manipulate chat history. Options include:
 
 * Regenerate: Delete all message below and let AI to regenerate this message
-* Rewrite: Takes over the message and rewrite it yourself. When you do this you need to keep the name and colon in front of the message intact otherwise the system will not know who is this message from.
+* Rewrite: Take over the message and rewrite it yourself. When you do this you need to keep the name and colon in front of the message intact otherwise the system will not know who is this message from.
 * Replay: Replay the chat history from this message
 * Delete Entry: Delete this message
 * Remove above: Delete all messages above this one
