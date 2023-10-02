@@ -118,6 +118,8 @@ Then place the json in "chat/personas" folder and they will appear in the Person
 ### Chat History
 The chat history is sent to the AI every time you generate new content, in order to maintain a context. If you want to switch to a different scenario or topic, clear the history first so that the AI won't be affected by the previous chat context. You can also use this to manipulate the environment and drive the chat. Like if you describe something happened in your message, the AI will continue on that context.
 
+Please note that once the prompt limit is reached, the oldest message will be ignored and not included in the context. So the AI might forget things that are too far back in the history.
+
 
 ### Temperature
 This values controls how much freedom the AI models has when generating chat messages. Just like image generation, with the same input, each time the generation might be slightly different and temperature controls how much it can vary. 
