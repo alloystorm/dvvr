@@ -1,3 +1,11 @@
+---
+layout: single
+title: Ground
+toc: true
+sidebar:
+  nav: "docs"
+---
+
 ## Ground Modes
 You can use either a textured surface or the sky map for your ground. 
 

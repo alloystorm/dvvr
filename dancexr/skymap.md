@@ -21,6 +21,8 @@ Procedurally generate cloud that can be affected by wind and changes realistical
 ## Sky Map
 You can use HDRI panaramic images as sky map. Both jpg and HDR formats are supported.
 
+{% include video id="2NZpffP1X5o" provider="youtube" %}
+
 {% include video id="vUY7DY4cCV0" provider="youtube" %}
 
 Find skymaps and load them in DanceXR as background.

@@ -38,7 +38,7 @@ sidebar:
 * Save & Load Scene
 
 ## Environment
-* [Sky and Cloud](/dancexr/skymap.md)
+* [Sky and Cloud](/dancexr/skymap)
 * [Ground, Stage & Water System](/dancexr/features/ground)
 * [Particle System](/dancexr/features/particles)
 * Lighting
