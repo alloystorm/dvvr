@@ -20,7 +20,7 @@ sidebar:
 
 
 ## AI Services
-There are various options to use as AI service to give your character intelligence. We'll discuss pros and cons for each options below
+There are various options to use as AI service to give your character intelligence. We'll discuss pros and cons for each option below
 
 ### OpenAI (ChatGPT)
 This is the most intelligent option at the moment. 
@@ -102,15 +102,15 @@ The characters are derived from the name of the actor model. For example "Koharu
 
 The language model might have a bit knowledge on the character if it is well known, so it sometimes knows what they do and how they behave, especially when you use OpenAI. 
 
-You can change character description in the character settings. There you can enter description and personality for them, and that will greatly affect how they behave in chat. For example you can change a proud and arrogant character to be obidient by just describing them as "Obidient and eager to please".
+In the character settings you can enter description and personality for the character, and that will greatly affect how they behave in chat. For example you can change a proud and arrogant character to be obidient by just describing them as "Obidient and eager to please".
 
 
 ### Persona
-The character setting also have a Persona drop down. This allows you to use characters downloaded from AI roleplay programs like TavernAI. These usually comes in PNG format. The metadata of the png images contains description for the character. 
+The character setting also have a Persona drop down. This allows you to use characters downloaded from AI roleplay programs like TavernAI. These usually come in PNG format. The metadata of the png images contains description for the character. 
 
 Use this online character editor to convert the png character to json format https://zoltanai.github.io/character-editor/
 
-Then place the json in "chat/personas" folder and they will appear in the Persona drop down in the character settings. Once you done that, the description of the persona will override the character description.
+Then place the json in "chat/personas" folder and they will appear in the Persona drop down in the character settings. Once you've done that, the description of the persona will override the character description.
 
 
 ### Chat History
@@ -123,6 +123,7 @@ This values controls how much freedom the AI models has when generating chat mes
 
 ### Presense Penalty and Frequency Penalty
 Increase these values to reduce the chance of AI generating repeating content.
+
 
 ### Max Generate Tokens and Max Prompt Length
 The LLMs have token limits, content that exceed this limit will not be generated correctly. 
@@ -156,7 +157,7 @@ Manual mode means you click on the microphone button, it starts recording, and o
 
 
 ### Automatic Mode
-Automatic mode means it will automatically start recording when chat is idle (Characters not talking), process the audio on the fly and then sends it when you are done talking. However sometimes it is not very smart. 
+Automatic mode means it will automatically start recording when chat is idle (Characters not talking), processing the audio on the fly and then sends it when you are done talking. However sometimes it is not very smart. 
 
 For lower end devices, processing audio to text can take some time. So the automatic mode is not recommended for Android, Quest and Pico.
 
