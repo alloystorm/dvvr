@@ -2,6 +2,8 @@
 layout: single
 title: AI Powered Voice Chat
 toc: true
+sidebar:
+  nav: "docs"
 ---
 
 ## AI Powered Voice Chat
@@ -134,7 +136,7 @@ https://rhasspy.github.io/piper-samples/
 Once downloaded, put them in chat\voices\piper folder. Keep in mind that both the onnx and onnx.json files are required. 
 
 
-The built-in voice model contains over 900 different voices. By default we are only enabling the first 20 of them. Since 900 too many for user to choose from. To enable other voices, go to Voice -> Voice Manager from the chat settings, choose one of the voices from the list, listen to it and tick "Selected" to allow it to be added to the voice list.
+The built-in voice model contains over 900 different voices. By default we are only enabling the first 20 of them. Since 900 is too many for the user to choose from. To enable other voices, go to Voice -> Voice Manager from the chat settings, choose one of the voices from the list, listen to it and tick "Selected" to allow it to be added to the voice list.
 
 You can choose different voice for System, Player and each of the characters. 
 

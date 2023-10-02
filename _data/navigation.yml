@@ -52,6 +52,8 @@ docs:
       url: /dancexr/releases/1.4.9
   - title: Features & Variants
     children:
+      - title: "AI Powered Chat"
+        url: /dancexr/ai_chat
       - title: "Basic Features"
         url: /dancexr/basic_features
       - title: "Pro Features"
