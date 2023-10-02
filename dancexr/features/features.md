@@ -10,7 +10,11 @@ sidebar:
 * [Formation](/dancexr/features/formation)
 * [Loader Options](/dancexr/features/loader_options)
 * [Playlists](/dancexr/features/actor_playlist)
-* Tagging
+
+* [Bone Mapper](/dancexr/bone_mapper.md)
+* [Material Settings](/dancexr/material_settings.md)
+* [Dressing System](/dancexr/optionals.md)
+* [Blink, Breath and Eye Contact](/dancexr/eyecontact.md)
 * [PMX Physics](/dancexr/features/pmx_physics)
 * [XPS Physics](/dancexr/features/xps_physics)
 * [Outfit & Body Paint](/dancexr/features/outfit_body_paint)
@@ -34,7 +38,7 @@ sidebar:
 * Save & Load Scene
 
 ## Environment
-* Sky
+* [Sky](/dancexr/skymap.md)
 * Ground
 * Particles
 * Lighting
@@ -47,6 +51,8 @@ sidebar:
 * [Physics Config](/dancexr/features/system_physics)
 * Language
 * App Settings
+
+## [Offline Render & Recording](/dancexr/creator.md)
 
 ## [AI Chat](/dancexr/ai_chat)
 
