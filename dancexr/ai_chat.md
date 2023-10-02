@@ -129,7 +129,7 @@ Increase these values to reduce the chance of AI generating repeating content.
 The LLMs have token limits, content that exceed this limit will not be generated correctly. 
 
 
-### Voice Control
+## Voice Control
 DanceXR uses a TTS engine called Piper. Here you can listen to and download additional voice models to use in DanceXR. 
 
 https://rhasspy.github.io/piper-samples/
@@ -144,7 +144,7 @@ You can choose different voice for System, Player and each of the characters.
 The AI model can generate different language messages. But the voice model can't. DanceXR will try to determine what language the message is and if it doesn't match the selected voice language, enabling "Fallback" in the voice settings will allow it to choose a different voice that matches the language within the voice list.
 
 
-### Microphone Input
+## Microphone Input
 There are 2 modes, manual and automatic.
 
 
