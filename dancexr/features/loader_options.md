@@ -14,4 +14,4 @@ Loaded actor models are cached in memory so that next time it is loaded it will 
 Once turned on, when replacing actors, the settings for the outgoing actor will be kept and applied to the new actor model.
 
 #### Transition Effect
-Choose and configure the effect when actor models are faded in and out. 
+Choose and configure the animation when actor models are faded in and out. 
