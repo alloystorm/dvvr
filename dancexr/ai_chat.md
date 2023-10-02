@@ -118,7 +118,16 @@ Then place the json in "chat/personas" folder and they will appear in the Person
 ### Chat History
 The chat history is sent to the AI every time you generate new content, in order to maintain a context. If you want to switch to a different scenario or topic, clear the history first so that the AI won't be affected by the previous chat context. You can also use this to manipulate the environment and drive the chat. Like if you describe something happened in your message, the AI will continue on that context.
 
-Please note that once the prompt limit is reached, the oldest message will be ignored and not included in the context. So the AI might forget things that are too far back in the history.
+Please note that once the prompt limit is reached, the oldest messages will be ignored and not included in the context. So the AI might forget things that are too far back in the history.
+
+In the chat interface you can click on the icon next to the chat message to manipulate chat history. Options include:
+
+* Regenerate: Delete all message below and let AI to regenerate this message
+* Rewrite: Takes over the message and rewrite it yourself. When you do this you need to keep the name and colon in front of the message intact otherwise the system will not know who is this message from.
+* Replay: Replay the chat history from this message
+* Delete Entry: Delete this message
+* Remove above: Delete all messages above this one
+* Remove below: Delete all messages below this one
 
 
 ### Temperature
@@ -131,6 +140,11 @@ Increase these values to reduce the chance of AI generating repeating content.
 
 ### Max Generate Tokens and Max Prompt Length
 The LLMs have token limits, content that exceed this limit will not be generated correctly. 
+
+
+### Auto Generate and Generate For Player
+Turn on "Auto Generate Next" to allow AI to automatically generate the next message when the timer is up. 
+Turn on to allow AI to generate messages for the player.
 
 
 ## Text To Speech
