@@ -2,7 +2,7 @@
 layout: single
 title: 特点
 toc: true
-permalink: /dancexr/features/
+permalink: /zh/dancexr/features/
 sidebar:
   nav: "docs"
 ---
