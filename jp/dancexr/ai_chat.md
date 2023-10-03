@@ -3,7 +3,7 @@ layout: single
 title: AIパワードボイスチャット
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-jp"
 ---
 
 ## AIパワードボイスチャット

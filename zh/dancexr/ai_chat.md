@@ -3,7 +3,7 @@ layout: single
 title: AI 动力语音聊天
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
 ## AI 动力语音聊天
