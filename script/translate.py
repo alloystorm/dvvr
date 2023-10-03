@@ -33,7 +33,7 @@ def translate(text, target_language):
         "model": "gpt-3.5-turbo-16k",
         "messages": [{"role": "user", "content": f"Translate the following English text to {target_language}:\n{text}"}],
         "max_tokens": len(text) * 2,  # Adjust as needed
-        "temperature": 0.7
+        "temperature": 0.2
     }
     response = requests.post(url, json=data, headers=headers)
     print(response.json())
