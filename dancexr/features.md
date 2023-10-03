@@ -11,8 +11,8 @@ sidebar:
 We support PMX and XPS for character models and PMX, XPS or OBJ for stages and props.
 
 ### Managing Models
-* Content Library
-* Basic Controls, Move, Rotate, Scale, Duplicate and Remove
+* [Tag, Search, Delete](features/tagging)
+* [Basic Controls, Move, Rotate, Scale, Duplicate and Remove](features/actor_tools)
 * [Model Cache & Loader Options](features/loader_options)
 * [Formation](features/formation)
 * [Playlists](features/actor_playlist)
@@ -46,7 +46,7 @@ We support VMD and BVH motions.
 
 
 ### Managing Motions
-* Content Library
+* Tag, Search, Delete
 * [Dance set](features/dance_set)
 * [Playback options](features/playback_options)
 * [Assigning Motions](features/assign_motion)

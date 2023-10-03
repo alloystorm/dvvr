@@ -4,7 +4,7 @@ title: Load Options
 toc: true
 ---
 
-## Loader Options
+## Overview
 Loader Options contains options when loading an actor model and provides management for actor cache.
 
 ### Actor Cache
