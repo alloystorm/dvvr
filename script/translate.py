@@ -57,16 +57,17 @@ def split_text(text, max_chars):
     paragraphs = text.split("\n## ")
     print(f"{len(paragraphs)} paragraphs.")
     chunks = []
-    current_chunk = ""
     
     # Handle the first paragraph separately to avoid undesired prefixing
     first_paragraph = paragraphs[0] if paragraphs else ""
     remaining_paragraphs = paragraphs[1:] if len(paragraphs) > 1 else []
+    current_chunk = first_paragraph
     
     # If the first paragraph is too long, make it a separate chunk
     if len(first_paragraph) > max_chars or len(remaining_paragraphs) == 0:
         chunks.append(first_paragraph)
         first_paragraph = ""
+        current_chunk = ""
     
     for paragraph in remaining_paragraphs:
         # If adding the next paragraph exceeds the max length, start a new chunk
@@ -119,7 +120,7 @@ for subdir, _, files in os.walk(src_path):
             translated_chunks = []
             print(f"{len(chunks)} chunks to translate.")
             for chunk in chunks:
-                print(len(chunk))
+                print(chunk)
                 translated_chunks.append(translate(chunk, lang))
             
             # Combine the translated chunks and save the result

@@ -18,4 +18,3 @@ To allow DanceXR to find the texture files correctly, you need to place the text
 If the model is within a zip package, the entire package will be scanned for alternative textures. 
 
 If the modle is within a folder, you need to place the texture files in separate folders within the subfolders of the folder that contains the main model file. 
-
