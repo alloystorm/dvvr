@@ -7,6 +7,7 @@ include: app-ads.txt
 logo: /images/icon.png
 breadcrumbs: false
 url: https://vrstormlab.com/
+markdown: GFM
 
 analytics:
   provider: "google-gtag"
