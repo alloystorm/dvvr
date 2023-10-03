@@ -2,7 +2,7 @@
 layout: single
 title: 特徴
 toc: true
-permalink: /jp/dancexr/features
+permalink: /jp/dancexr/feature
 sidebar:
   nav: "docs"
 ---

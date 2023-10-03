@@ -11,7 +11,7 @@ header:
     - label: 紹介
       url: /jp/dancexr
     - label: 機能
-      url: /jp/dancexr/features
+      url: /jp/dancexr/feature
     - label: ダウンロード
       url: /jp/dancexr/download
 ---
