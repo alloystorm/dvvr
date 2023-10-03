@@ -1,90 +1,90 @@
 ## モデル
-キャラクターモデルにはPMXとXPSがサポートされており、ステージや小道具にはPMX、XPS、またはOBJがサポートされています。
+キャラクターモデルにはPMXとXPSをサポートし、ステージと小道具にはPMX、XPS、またはOBJをサポートしています。
 
 ### モデルの管理
 * コンテンツライブラリ
-* 基本操作、移動、回転、スケール、複製、削除
-* [モデルキャッシュ＆ローダーオプション](/dancexr/features/loader_options)
-* [フォーメーション](/dancexr/features/formation)
-* [プレイリスト](/dancexr/features/actor_playlist)
+* 基本的なコントロール、移動、回転、スケール、複製、削除
+* [モデルキャッシュとローダーオプション](features/loader_options)
+* [フォーメーション](features/formation)
+* [プレイリスト](features/actor_playlist)
 
 ### キャラクターモデルの設定
-* [マテリアル設定](/dancexr/features/material_settings)
-* [ドレッシングシステム（マテリアル変形およびXPSオプショナル）](/dancexr/features/optionals)
-* [まばたき、呼吸、目の接触](/dancexr/features/eyecontact)
+* [マテリアル設定](features/material_settings)
+* [ドレッシングシステム（マテリアルモーフとXPSオプショナル）](features/optionals)
+* [まばたき、呼吸、アイコンタクト](features/eyecontact)
 * 足の調整
 * トラブルシューティングオプション
 
 ### ステージモデルの設定
-* オフセット＆スケール
-* オブジェクトの移動
+* オフセットとスケール
+* 移動オブジェクト
 
 ### XPS固有の設定
-* [ボーンマッパー](/dancexr/features/bone_mapper.md)
-* [XPS物理](/dancexr/features/xps_physics)
-* [代替テクスチャ](/dancexr/features/alternative_textures)
+* [ボーンマッパー](features/bone_mapper.md)
+* [XPS物理](features/xps_physics)<sup>PRO</sup>
+* [代替テクスチャ](features/alternative_textures)
 
 ### PMX固有の設定
-* [PMX物理](/dancexr/features/pmx_physics)
+* [PMX物理](features/pmx_physics)
 
 ### 高度なモデル機能
-* [衣装＆ボディペイント](/dancexr/features/outfit_body_paint)
-* [モーションオーバーライド](/dancexr/features/motion_override)
-* [胸揺れ＆セックスオーバーレイ](/dancexr/features/boob_shake_sex_overlay)
+* [衣装とボディペイント](features/outfit_body_paint)<sup>PRO</sup>
+* [モーションオーバーライド](features/motion_override)<sup>PRO</sup>
+* [ブーブシェイク＆セックスオーバーレイ](features/boob_shake_sex_overlay)<sup>PRO</sup>
 
 ## モーション
 VMDとBVHのモーションをサポートしています。
 
 ### モーションの管理
 * コンテンツライブラリ
-* [ダンスセット](/dancexr/features/dance_set)
-* [再生オプション](/dancexr/features/playback_options)
-* [モーションの割り当て](/dancexr/features/assign_motion)
+* [ダンスセット](features/dance_set)
+* [再生オプション](features/playback_options)
+* [モーションの割り当て](features/assign_motion)
 
 ### VMD＆BVHモーション
 
 ### プロシージャルモーション
 * アイドルモーション
 * キャットウォーク
-* オートダンス
-* オートダンス2
-* カウガールセックス
-* 後ろからのセックス
-* セックスモーション3
+* オートダンス<sup>PRO</sup>
+* オートダンス2<sup>PRO</sup>
+* カウガールセックス<sup>PRO</sup>
+* バックからのセックス<sup>PRO</sup>
+* セックスモーション3<sup>PRO</sup>
 
-### セカンダリモーション＆リミックス
-* [セカンダリモーション](/dancexr/features/secondary_motion)
-* [リミックス](/dancexr/features/remix)
+### セカンダリモーションとリミックス
+* [セカンダリモーション](features/secondary_motion)
+* [リミックス](features/remix)
 
 ### ダンスセットとモーションの設定
-* [タイミング＆ビート](/dancexr/features/music_timing)
-* [モーション設定](/dancexr/features/motion_settings)
-* [アクターモーション設定](/dancexr/features/actor_motion_settings)
-* [プロシージャルモーション](/dancexr/features/procedural_motions)
+* [タイミングとビート](features/music_timing)
+* [モーションの設定](features/motion_settings)
+* [アクターモーションの設定](features/actor_motion_settings)
+* [プロシージャルモーション](features/procedural_motions)
 
 ## 環境
-* [空と雲](/dancexr/features/skymap)
-* [地面、ステージ、水システム](/dancexr/features/ground)
-* [パーティクルシステム](/dancexr/features/particles)
+* [空と雲](features/skymap)
+* [地面、ステージ＆水システム](features/ground)
+* [パーティクルシステム](features/particles)
 * 照明
 
 ## シーン
 * カメラ
-* [ステージ](/dancexr/features/stages)
-* [小道具](/dancexr/features/props)
+* [ステージ](features/stages)
+* [小道具](features/props)
 * ステージオプション、ビートリング、レーザー、スクリーン＆ミラー
 * シーンの保存と読み込み
 
 ## システム
-* コンテンツライブラリ
-* Android、Quest、Pico用のコンテンツライブラリ
-* ディスプレイとUI
+* [コンテンツライブラリ](preparecontent)
+* [Android、Quest、Pico用のコンテンツライブラリ](content_android_quest)
+* [ディスプレイとUI](features/display_settings)
 * グラフィック設定
 * 言語
-* [入力設定](/dancexr/features/controls)
-* [物理設定](/dancexr/features/system_physics)
-* アプリ設定
+* [入力設定](features/controls)
+* [物理設定](features/system_physics)
+* アプリの設定
 
-## [オフラインレンダー＆録画（クリエイターエディション）](/dancexr/creator.md)
+## [オフラインレンダー＆録画（クリエイターエディション）](creator.md)<sup>CREATOR</sup>
 
-## [AIチャット](/dancexr/ai_chat)
+## [AIチャット](ai_chat)<sup>PRO</sup>

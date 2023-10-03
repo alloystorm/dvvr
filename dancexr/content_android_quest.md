@@ -2,7 +2,7 @@
 
 Similar to the PC versions, DanceXR requires a content folder to be prepared so it knows where to find all the models, motions & textures. However on Android, apps can only access specific folders unless a special permission is granted. Therefore on Android and Oculus Quest platforms you will not be able to select content folder like on PC. The content needs to be at a specific location. 
 
-### If you can connect your device to a PC
+## If you can connect your device to a PC
 
 It's still easier to use a PC to manage your content on the device. It's just copy & paste files within your Windows "File Explorer". Before you copy content from your PC, it is recommended to zip the content individually for easier manage and reduce storage space. 
 
@@ -14,7 +14,7 @@ It's still easier to use a PC to manage your content on the device. It's just co
 
 Then you should be able to see your content next time you run DanceXR on the device
 
-### If you don't have access to a PC (Android version only)
+## If you don't have access to a PC (Android version only)
 
 The Android version comes with a Content Manager app that can help you organize your content on the device. You should be able to see it from your apps drawer or desktop after installing DanceXR. It has the same icon as DanceXR player but is titled "Content Manager". Content Manager app supports only zip, png and jpg format. 
 

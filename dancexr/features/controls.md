@@ -4,34 +4,49 @@ title: Controls
 toc: true
 ---
 
+## Overview
+The input mapping of DanceXR is based on popular VR controllers and gamepads. 
 
-Starting from 0.5.2 release the controls on VR controllers are configurable. To use the default settings for your controller, go to settings and select the preset for your controller type in the input config. 
+You can have 2 thumbsticks, a dpad, left and right trigger buttons, left and right shoulder buttons, A, B, X, Y, select and menu buttons (button 1, 2 and menu for each hand in the VR context)
 
-The available control actions and default assignments are listed below
+Each of the input above can have keyboard keys mapped to them so you can operate with keyboard only.
 
-Action | Type | Default keyboard control | Oculus | Windows Mixed Reality | HTC Vive | Valve Index
---- | --- | --- | --- | --- | --- | --- 
-Toggle UI | Button | Esa Key | Left Button 1 | Left Menu | Left Menu | Left Button 1
-Play / Pause | Button | Spacebar | Right Button A | Right Menu | Right Menu | Right Button 1
-UI Go Back | Button | Left Shift | Left / Right Grip | Left Grip | Left Grip | Left / Right Grip
-Reset Physics | Button | P | Right Button B | Right Grip | Right Grip | Right Button 2
-Center Actor | Button | H | Left Button 2 | None | None | Left Button 2
-Load Next Model | Button | + | None | None | None | None 
-Load Previous Model | Button | - | None | None | None | None 
-Load Next Motion | Button | } | None | None | None | None 
-Load Previous Motion | Button | { | None | None | None | None 
-Switch Camera Track | Button | C | None | None | None | None 
-Slow Motion | Button | Z | None | None | None | None 
-Move Left / Right | Axis | A / D | Left Thumbstick X | Left Thumbstick X | Left Trackpad Press | Left Trackpad Press
-Move Forward / Back | Axis | W / S | Left Thumbstick Y | Left Thumbstick Y | Left Trackpad Press | Left Trackpad Press
-Move Up / Down | Axis | E / Q | Right Thumbstick Y | Right Thumbstick Y | Right Trackpad Press | Right Trackpad Press
-Rotate | Axis | Page Up / Down | Right Thumbstick X | Right Thumbstick X | Right Trackpad Press | Right Trackpad Press
-Move Actor X | Axis | Arrow Left / Right | Grip + Left Thumbstick X | Grip + Left Thumbstick X | Grip + Left Trackpad Press | Grip + Left Trackpad Press
-Move Actor Y | Axis | Arrow Up / Down | Grip + Left Thumbstick Y | Grip + Left Thumbstick Y | Grip + Left Trackpad Press | Grip + Left Trackpad Press
-Custom Axis 1 | Axis | None | Grip + Right Thumbstick X | Grip + Right Thumbstick X | Grip + Right Trackpad Press | Grip + Right Trackpad Press 
-Custom Axis 2 | Axis | None | Grip + Right Thumbstick Y | Grip + Right Thumbstick Y | Grip + Right Trackpad Press | Grip + Right Trackpad Press 
-Custom Axis 3 | Axis | None | None | None | None | None 
-Custom Axis 4 | Axis | None | None | None | None | None 
+In addition, on PC and Android you can use mouse or touch screen to pan the camera or select and drag interactable objects.
 
-* Custom axies can be used in auto update values once assigned. 
+In VR, you also have laser pointers to operate menu and drag & drop objects.
+
+## Second Action
+By default, grip button on VR controllers and shoulder buttons on gamepads are asssigned to "Second Action", which means when you hold this button while pressing another control, it will trigger a secondary action for that control, instead of the primary action. 
+
+You can assign a different button to "Second Action" if you prefer.
+
+## Default Controls
+The default control action assignment are listed below
+
+### Button Controls
+Gamepad | VR | Key | Primary Action | Second Action | 
+--- | --- | --- | --- | ---
+Btn X | Left Btn 1 | Number 1 | Center Actor | Reset Physics
+Btn Y | Left Btn 2 | Number 2 | Next Model | Shuffle Model
+Btn A | Right Btn 1 | Number 3 | Next Motion | Previous Motion
+Btn B | Right Btn 2 | Number 4 | Play / Pause | Slow Motion
+LB | Left Grip | Left Shift | Second Action | None 
+RB | Right Grip | Right Shift | Second Action | None
+Left Thumb Click | Left Thumb Click | None | None
+Right Thumb Click | Right Thumb Click | None | None
+Select | Left Menu | Esc | Toggle UI | UI Back
+Start | Right Menu | Enter | Toggle Microphone | Toggle Microphone
+
+
+### Axis Controls
+Gamepad | VR | Key | Primary Action | Second Action / Button Action | 
+--- | --- | --- | --- | ---
+Left Thumb X | Left Thumb X | A / D | Move X | Rotate
+Left Thumb Y | Left Thumb Y | W / S | Move Y | Up / Down
+Right Thumb X | Right Thumb X | Left / Right | Rotate | Move X
+Right Thumb Y | Right Thumb Y | Up / Down | Up / Down | Move Y 
+Left Trigger | Left Trigger | Tab | Custom 1 | UI Toggle
+Right Trigger | Right Trigger | Space | Custom 2 | UI Toggle
+DPad X | N/A | L / J | UI X | UI X
+DPad Y | N/A | I / K | UI Y | Scroll
  
