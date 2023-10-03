@@ -1,12 +1,12 @@
 ---
 layout: single
-title: AI Powered Voice Chat
+title: AI驱动的语音聊天
 toc: true
 sidebar:
   nav: "docs-zh"
 ---
 
-## AI 动力语音聊天
+## AI驱动的语音聊天
 
 ### 主要特点
 * 选择使用 OpenAI、本地或远程文本生成 WebUI 作为 AI 服务

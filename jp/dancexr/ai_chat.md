@@ -1,3 +1,12 @@
+---
+layout: single
+title: AI パワードボイスチャット
+toc: true
+locale: ja-JP
+sidebar:
+  nav: "docs-jp"
+---
+
 ## AI パワードボイスチャット
 
 ### 主な特徴

@@ -1,7 +1,7 @@
 ---
-レイアウト：シングル
-タイトル：PMX物理
-目次：true
+layout: single
+title: PMX物理
+toc: true
 ---
 
 ## PMXモデル固有の設定
