@@ -39,13 +39,13 @@ releases:
 docs:
   - title: Getting Started
     children:
-      - title: "Introduction"
+      - title: "Overview"
         url: /dancexr
       - title: "Download"
         url: /dancexr/download
       - title: "Content Library"
         url: /dancexr/preparecontent
-  - title: "AI Powered Chat"
+  - title: "Introducing: AI Powered Chat"
     url: /dancexr/ai_chat
   - title: Release Notes
     url: /dancexr/releases/
@@ -129,47 +129,21 @@ docs-zh:
         url: /zh/dancexr/download
       - title: "內容庫"
         url: /zh/dancexr/preparecontent
-  - title: 發行說明
+  - title: "隆重介绍：AI聊天"
+    url: /zh/dancexr/ai_chat
+  - title: 發布說明
     url: /zh/dancexr/releases/
     children:
-    - title: 版本1.4.9 2023年10月
+    - title: 版本 1.4.9 2023年10月
       url: /zh/dancexr/releases/1.4.9
-  - title: 功能和變體
-    children:
-      - title: "AI语音聊天"
-        url: /zh/dancexr/ai_chat
-      - title: "基本功能"
-        url: /zh/dancexr/basic_features
-      - title: "專業功能"
-        url: /zh/dancexr/pro_features
-      - title: "成人功能"
-        url: /zh/dancexr/adult_features
-      - title: "創作者版本"
-        url: /zh/dancexr/creator
-  - title: 教程
-    children:
-      - title: "XPS骨映射器"
-        url: /zh/dancexr/bone_mapper
-      - title: "動畫服裝換衣服"
-        url: /zh/dancexrfeatures/optionals
-      - title: "透明材質問題"
-        url: /zh/dancexr/transparency
-      - title: "材質設置"
-        url: /zh/dancexr/material_settings
-      - title: "音樂正時配置"
-        url: /zh/dancexr/music_timing
-      - title: "次要運動"
-        url: /zh/dancexr/assign_motion
-      - title: "XPS物理"
-        url: /zh/dancexr/xps_physics
-      - title: "天空地圖"
-        url: /zh/dancexr/skymap
-  - title: 常見問題解答和故障排除
-    children:
-      - title: "常見問題解答"
-        url: /zh/dancexr/faq
-      - title: "故障排除"
-        url: /zh/dancexr/troubleshooting
+  - title: 功能
+    url: /zh/dancexr/features
+  - title: 版本
+    url: /zh/dancexr/versions
+  - title: 常见问题
+    url: /zh/dancexr/faq
+  - title: 疑难解答
+    url: /zh/dancexr/troubleshooting
   - title: 鏈接
     children:
       - title: "Patreon"
@@ -245,38 +219,14 @@ docs-jp:
     children:
     - title: リリース 1.4.9 2023年10月
       url: /jp/dancexr/releases/1.4.9
+  - title: AIチャット
+    url: /jp/dancexr/ai_chat
   - title: 機能
-    children:
-      - title: "基本機能"
-        url: /jp/dancexr/basic_features
-      - title: "プロ機能"
-        url: /jp/dancexr/pro_features
-      - title: "成人向けの機能"
-        url: /jp/dancexr/adult_features
-      - title: "クリエイター機能"
-        url: /jp/dancexr/creator
-  - title: チュートリアル
-    children:
-      - title: "XPSボーンマッパー"
-        url: /jp/dancexr/bone_mapper
-      - title: "アニメーション衣装変更"
-        url: /jp/dancexrfeatures/optionals
-      - title: "材料設定"
-        url: /jp/dancexr/material_settings
-      - title: "音楽タイミングの設定"
-        url: /jp/dancexr/music_timing
-      - title: "二次モーション"
-        url: /jp/dancexr/assign_motion
-      - title: "XPS物理学"
-        url: /jp/dancexr/xps_physics
-      - title: "スカイマップ"
-        url: /jp/dancexr/skymap
-  - title: FAQ＆トラブルシューティング
-    children:
-      - title: "FAQ"
-        url: /jp/dancexr/faq
-      - title: "トラブルシューティング"
-        url: /jp/dancexr/troubleshooting        
+    url: /jp/dancexr/features
+  - title: "FAQ"
+    url: /jp/dancexr/faq
+  - title: "トラブルシューティング"
+    url: /jp/dancexr/troubleshooting        
   - title: Links
     children:
       - title: "Patreon"
