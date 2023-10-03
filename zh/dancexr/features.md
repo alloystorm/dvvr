@@ -4,7 +4,7 @@ title: 特点
 toc: true
 permalink: /zh/dancexr/features
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 
 ## 模型

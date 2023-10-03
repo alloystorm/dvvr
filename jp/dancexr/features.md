@@ -4,7 +4,7 @@ title: 特徴
 toc: true
 permalink: /jp/dancexr/features
 sidebar:
-  nav: "docs"
+  nav: "docs-jp"
 ---
 
 ## モデル
