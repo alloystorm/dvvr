@@ -2,7 +2,7 @@
 layout: single
 title: 中国大陆购买选项
 toc: true
-locale: zh-TW
+permalink: /dancexr/purchase_prc
 ---
 
 ## 中国大陆购买选项
