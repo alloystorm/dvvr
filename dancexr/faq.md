@@ -41,7 +41,7 @@ If you have problems launching VR, try the following:
 ## Model loads but everything is white
 Sometimes the filenames are writen in different languages and the system might not be able to find the file needed. 
 
-If this is in a ZIP package, you can set the encoding by adding extra string to the zip package name so DanceXR knows what encoding to use when parsing the files. [More detail here](zip_format.md).
+If this is in a ZIP package, you can set the encoding by adding extra string to the zip package name so DanceXR knows what encoding to use when parsing the files. [More detail here](features/zip_format).
 
 This can also be caused by extra spaces in the filename that prevents the file from being located. You can use PMXEditor to open your model and make sure the texture references match the actual filenames. 
 

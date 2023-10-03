@@ -45,47 +45,21 @@ docs:
         url: /dancexr/download
       - title: "Content Library"
         url: /dancexr/preparecontent
+  - title: "AI Powered Chat"
+    url: /dancexr/ai_chat
   - title: Release Notes
     url: /dancexr/releases/
     children:
     - title: Release 1.4.9 Oct 2023
       url: /dancexr/releases/1.4.9
-  - title: Features & Variants
-    children:
-      - title: "AI Powered Chat"
-        url: /dancexr/ai_chat
-      - title: "Basic Features"
-        url: /dancexr/basic_features
-      - title: "Pro Features"
-        url: /dancexr/pro_features
-      - title: "Adult Features"
-        url: /dancexr/adult_features
-      - title: "Creator Features"
-        url: /dancexr/creator
-  - title: Tutorials
-    children:
-      - title: "XPS Bone Mapper"
-        url: /dancexr/bone_mapper
-      - title: "Animate Clothing Change"
-        url: /dancexrfeatures/optionals
-      - title: "Transparency"
-        url: /dancexr/transparency
-      - title: "Material Settings"
-        url: /dancexr/material_settings
-      - title: "Music Timing Config"
-        url: /dancexr/music_timing
-      - title: "Secondary Motion"
-        url: /dancexr/assign_motion
-      - title: "XPS Physics"
-        url: /dancexr/xps_physics
-      - title: "Sky Map"
-        url: /dancexr/skymap
-  - title: FAQ & Troubleshooting
-    children:
-      - title: "FAQ"
-        url: /dancexr/faq
-      - title: "Troubleshooting"
-        url: /dancexr/troubleshooting
+  - title: Features
+    url: /dancexr/features
+  - title: Versions
+    url: /dancexr/versions
+  - title: "FAQ"
+    url: /dancexr/faq
+  - title: "Troubleshooting"
+    url: /dancexr/troubleshooting
   - title: Links
     children:
       - title: "Patreon"
