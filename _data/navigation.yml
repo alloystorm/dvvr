@@ -67,7 +67,7 @@ docs:
       - title: "XPS Bone Mapper"
         url: /dancexr/bone_mapper
       - title: "Animate Clothing Change"
-        url: /dancexr/optionals
+        url: /dancexrfeatures/optionals
       - title: "Transparency"
         url: /dancexr/transparency
       - title: "Material Settings"
@@ -177,7 +177,7 @@ docs-zh:
       - title: "XPS骨映射器"
         url: /zh/dancexr/bone_mapper
       - title: "動畫服裝換衣服"
-        url: /zh/dancexr/optionals
+        url: /zh/dancexrfeatures/optionals
       - title: "透明材質問題"
         url: /zh/dancexr/transparency
       - title: "材質設置"
@@ -286,7 +286,7 @@ docs-jp:
       - title: "XPSボーンマッパー"
         url: /jp/dancexr/bone_mapper
       - title: "アニメーション衣装変更"
-        url: /jp/dancexr/optionals
+        url: /jp/dancexrfeatures/optionals
       - title: "材料設定"
         url: /jp/dancexr/material_settings
       - title: "音楽タイミングの設定"
