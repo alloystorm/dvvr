@@ -8,7 +8,7 @@ toc: true
 While we aim for maximum compatibility, it is also important to know that MMD doesn't have a strict standard which makes it very hard to be compatible with everything. 
 
 
-## Example Structure
+## PMX Bone Structure
 A typical PMX bone strucutre that works well with DanceXR. 
 
 <pre>
@@ -103,6 +103,7 @@ A typical PMX bone strucutre that works well with DanceXR.
 
 Most PMX models should work fine unless they are missing the requried bones. DanceXR will automatically create the remaining bones that it needs such as IK bones.
 
+## XPS Bone Structure
 A sample bone structure of XPS (XNALara) models: 
 <pre>
   └root ground (Master)

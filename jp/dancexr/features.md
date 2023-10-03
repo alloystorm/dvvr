@@ -1,16 +1,25 @@
+---
+layout: single
+title: 特徴
+toc: true
+permalink: /dancexr/features/
+sidebar:
+  nav: "docs"
+---
+
 ## モデル
-キャラクターモデルにはPMXとXPSをサポートし、ステージと小道具にはPMX、XPS、またはOBJをサポートしています。
+キャラクターモデルにはPMXとXPSをサポートしており、ステージと小道具にはPMX、XPS、またはOBJをサポートしています。
 
 ### モデルの管理
-* コンテンツライブラリ
-* 基本的なコントロール、移動、回転、スケール、複製、削除
-* [モデルキャッシュとローダーオプション](features/loader_options)
+* [タグ付け、検索、削除](features/tagging)
+* [基本的な操作、移動、回転、拡大縮小、複製、削除](features/actor_tools)
+* [モデルのキャッシュとローダーオプション](features/loader_options)
 * [フォーメーション](features/formation)
 * [プレイリスト](features/actor_playlist)
 
 ### キャラクターモデルの設定
 * [マテリアル設定](features/material_settings)
-* [ドレッシングシステム（マテリアルモーフとXPSオプショナル）](features/optionals)
+* [ドレッシングシステム（マテリアルモーフとXPSオプション）](features/optionals)
 * [まばたき、呼吸、アイコンタクト](features/eyecontact)
 * 足の調整
 * トラブルシューティングオプション
@@ -27,21 +36,21 @@
 ### PMX固有の設定
 * [PMX物理](features/pmx_physics)
 
-### 高度なモデル機能
+### 高度なモデルの機能
 * [衣装とボディペイント](features/outfit_body_paint)<sup>PRO</sup>
 * [モーションオーバーライド](features/motion_override)<sup>PRO</sup>
-* [ブーブシェイク＆セックスオーバーレイ](features/boob_shake_sex_overlay)<sup>PRO</sup>
+* [おっぱいの揺れとセックスオーバーレイ](features/boob_shake_sex_overlay)<sup>PRO</sup>
 
 ## モーション
 VMDとBVHのモーションをサポートしています。
 
 ### モーションの管理
-* コンテンツライブラリ
+* タグ付け、検索、削除
 * [ダンスセット](features/dance_set)
 * [再生オプション](features/playback_options)
 * [モーションの割り当て](features/assign_motion)
 
-### VMD＆BVHモーション
+### VMDとBVHのモーション
 
 ### プロシージャルモーション
 * アイドルモーション
@@ -49,7 +58,7 @@ VMDとBVHのモーションをサポートしています。
 * オートダンス<sup>PRO</sup>
 * オートダンス2<sup>PRO</sup>
 * カウガールセックス<sup>PRO</sup>
-* バックからのセックス<sup>PRO</sup>
+* 後ろからのセックス<sup>PRO</sup>
 * セックスモーション3<sup>PRO</sup>
 
 ### セカンダリモーションとリミックス
@@ -64,27 +73,29 @@ VMDとBVHのモーションをサポートしています。
 
 ## 環境
 * [空と雲](features/skymap)
-* [地面、ステージ＆水システム](features/ground)
+* [地面、ステージ、水システム](features/ground)
 * [パーティクルシステム](features/particles)
 * 照明
+* [自動更新値](features/autoupdate)<sup>PRO</sup>
 
 ## シーン
 * カメラ
 * [ステージ](features/stages)
 * [小道具](features/props)
-* ステージオプション、ビートリング、レーザー、スクリーン＆ミラー
+* ステージオプション、ビートリング、レーザー、スクリーン、ミラー
 * シーンの保存と読み込み
 
 ## システム
 * [コンテンツライブラリ](preparecontent)
-* [Android、Quest、Pico用のコンテンツライブラリ](content_android_quest)
-* [ディスプレイとUI](features/display_settings)
+* [Android、Quest、Pico向けのコンテンツライブラリ](content_android_quest)
+* [表示とUI](features/display_settings)
 * グラフィック設定
 * 言語
 * [入力設定](features/controls)
 * [物理設定](features/system_physics)
 * アプリの設定
+* [自動更新](features/autoupdate)<sup>PRO</sup>
 
-## [オフラインレンダー＆録画（クリエイターエディション）](creator.md)<sup>CREATOR</sup>
+## [オフラインレンダリングと録画（クリエイターエディション）](creator.md)<sup>CREATOR</sup>
 
 ## [AIチャット](ai_chat)<sup>PRO</sup>

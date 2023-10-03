@@ -1,12 +1,13 @@
 ---
 layout: single
-title: Bones
+title: 例の骨構造
 toc: true
 ---
+## 概要
 
-While we aim for maximum compatibility, it is also important to know that MMD doesn't have a strict standard which makes it very hard to be compatible with everything. 
-
-A typical PMX bone strucutre that works well with DVVR. 
+最大の互換性を目指している一方で、MMDには厳格な基準がないため、すべてと互換性を持つことは非常に困難であることを知っておくことも重要です。
+## ## PMXボーン構造
+DanceXRとうまく動作する典型的なPMXボーン構造。
 
 <pre>
   └全ての親 (master) (Master)
@@ -96,11 +97,11 @@ A typical PMX bone strucutre that works well with DVVR.
     └右足ＩＫ () (RightLegIK)
       └右つま先ＩＫ () (RightToeIK)
 </pre>
-<b>* indicates required bones</b>
+<b>*は必要なボーンを示します</b>
 
-Most PMX models should work fine unless they are missing the requried bones. DVVR will automatically create the remaining bones that it needs such as IK bones.
-
-A sample bone structure of XPS (XNALara) models: 
+ほとんどのPMXモデルは、必要なボーンが欠けていない限り、問題なく動作するはずです。 DanceXRは、必要なIKボーンなど、必要なボーンを自動的に作成します。
+## ## XPSのボーン構造
+XPS（XNALara）モデルのサンプルボーン構造：
 <pre>
   └root ground (Master)
     ├unused (unused)
@@ -173,6 +174,6 @@ A sample bone structure of XPS (XNALara) models:
                           └arm right finger 5b (RightPinky2)
                             └arm right finger 5c (RightPinky3)
 </pre>
-<b>* indicates required bones</b>
+<b>*は必要なボーンを示します</b>
 
-At the moment the bone names have to match exactly in the list above for it to work. We do realize that there are models using completely different sets of names, unfortunately these models will not work in DVVR for now until we figure out a smarter bone mapping solution. 
+XPSモデルのボーンマッピングについての詳細は、[ボーンマッパー](bone_mapper)ページをご覧ください。

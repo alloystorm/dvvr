@@ -1,12 +1,13 @@
 ---
 layout: single
-title: Bones
+title: 示例骨骼结构
 toc: true
 ---
+## 概述
 
-While we aim for maximum compatibility, it is also important to know that MMD doesn't have a strict standard which makes it very hard to be compatible with everything. 
-
-A typical PMX bone strucutre that works well with DVVR. 
+虽然我们的目标是最大兼容性，但也很重要要知道MMD没有严格的标准，这使得它很难与所有东西兼容。
+## ## PMX骨骼结构
+适用于DanceXR的典型PMX骨骼结构。
 
 <pre>
   └全ての親 (master) (Master)
@@ -96,11 +97,11 @@ A typical PMX bone strucutre that works well with DVVR.
     └右足ＩＫ () (RightLegIK)
       └右つま先ＩＫ () (RightToeIK)
 </pre>
-<b>* indicates required bones</b>
+<b>*表示必需的骨骼</b>
 
-Most PMX models should work fine unless they are missing the requried bones. DVVR will automatically create the remaining bones that it needs such as IK bones.
-
-A sample bone structure of XPS (XNALara) models: 
+大多数PMX模型应该可以正常工作，除非它们缺少所需的骨骼。DanceXR将自动创建其所需的其他骨骼，例如IK骨骼。
+## ## XPS骨骼结构
+XPS（XNALara）模型的样本骨骼结构：
 <pre>
   └root ground (Master)
     ├unused (unused)
@@ -173,6 +174,6 @@ A sample bone structure of XPS (XNALara) models:
                           └arm right finger 5b (RightPinky2)
                             └arm right finger 5c (RightPinky3)
 </pre>
-<b>* indicates required bones</b>
+<b>*表示必需的骨骼</b>
 
-At the moment the bone names have to match exactly in the list above for it to work. We do realize that there are models using completely different sets of names, unfortunately these models will not work in DVVR for now until we figure out a smarter bone mapping solution. 
+有关如何为XPS模型映射骨骼的更多信息，请查看[骨骼映射器](bone_mapper)页面。
