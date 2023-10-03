@@ -64,7 +64,7 @@ def split_text(text, max_chars):
     remaining_paragraphs = paragraphs[1:] if len(paragraphs) > 1 else []
     
     # If the first paragraph is too long, make it a separate chunk
-    if len(first_paragraph) > max_chars:
+    if len(first_paragraph) > max_chars or len(remaining_paragraphs) == 0:
         chunks.append(first_paragraph)
         first_paragraph = ""
     
