@@ -2,8 +2,6 @@
 layout: single
 title: Sky & Cloud
 toc: true
-sidebar:
-  nav: "docs"
 ---
 
 ## Sky Modes

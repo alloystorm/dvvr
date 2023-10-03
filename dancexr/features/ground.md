@@ -2,8 +2,6 @@
 layout: single
 title: Ground
 toc: true
-sidebar:
-  nav: "docs"
 ---
 
 ## Ground Modes

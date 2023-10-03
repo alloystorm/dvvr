@@ -1,8 +1,7 @@
 ---
-title: Blink, Breathing and Eye Contact
-youtubeId: zP966sQ6h0g
-toc: true
 layout: single
+title: Blink, Breathing and Eye Contact
+toc: true
 ---
 
 ## Eye Contact
@@ -13,7 +12,7 @@ Basically we are trying to achieve natural eye contact of human interaction.
 * Spectators will not look at camera or each other, they are only interested in actors.
 * Obviously this requires that the model has bones that controls eye movements.
 
-{% include youtube.html id=page.youtubeId %}
+{% include video id="zP966sQ6h0g" provider="youtube" %}
 
 ## Blink
 The actors blink at a random interval. This requries bones that controls eyelids.

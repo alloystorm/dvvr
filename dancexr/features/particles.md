@@ -2,8 +2,6 @@
 layout: single
 title: Particle System
 toc: true
-sidebar:
-  nav: "docs"
 ---
 
 ## Overview

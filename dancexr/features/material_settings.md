@@ -2,8 +2,6 @@
 layout: single
 title: Material Settings
 toc: true
-sidebar:
-  nav: "docs"
 ---
 
 ## Organization

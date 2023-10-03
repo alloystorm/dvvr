@@ -2,8 +2,6 @@
 layout: single
 title: Animate Cloth Change
 toc: true
-sidebar:
-  nav: "docs"
 ---
 
 ## Overview

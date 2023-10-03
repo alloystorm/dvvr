@@ -1,3 +1,9 @@
+---
+layout: single
+title: Dance Set
+toc: true
+---
+
 ## Overview
 A dance set is a collection of audio actor motions and camera motions if available. 
 

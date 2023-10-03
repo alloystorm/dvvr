@@ -1,3 +1,9 @@
+---
+layout: single
+title: Alternative Textures
+toc: true
+---
+
 ## Overview
 Alternatvie textures are sets of textures that can replace the default textures of the model. 
 

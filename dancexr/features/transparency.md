@@ -2,8 +2,6 @@
 layout: single
 title: Transparent Materials
 toc: true
-sidebar:
-  nav: "docs"
 ---
 
 ## Transparent Materials

@@ -2,8 +2,6 @@
 layout: single
 title: Music Timing
 toc: true
-sidebar:
-  nav: "docs"
 ---
 
 ## Overview

@@ -2,8 +2,6 @@
 layout: single
 title: XPS Bone Mapper
 toc: true
-sidebar:
-  nav: "docs"
 ---
 
 ## Overview

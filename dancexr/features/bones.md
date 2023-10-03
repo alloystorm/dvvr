@@ -1,11 +1,14 @@
 ---
 layout: single
-title: Bones
+title: Example Bone Structure
 toc: true
 ---
+## Overview
 
 While we aim for maximum compatibility, it is also important to know that MMD doesn't have a strict standard which makes it very hard to be compatible with everything. 
 
+
+## Example Structure
 A typical PMX bone strucutre that works well with DVVR. 
 
 <pre>
