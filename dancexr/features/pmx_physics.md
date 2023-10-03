@@ -4,7 +4,7 @@ title: PMX Physics
 toc: true
 ---
 
-### PMX Model specific settings
+## PMX Model specific settings
 You can locate the model specific physics settings in model settings -> Options -> Physics
 
 ![Model Physics](/images/model-physics.png)

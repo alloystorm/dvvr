@@ -6,8 +6,7 @@ sidebar:
   nav: "docs"
 ---
 
-{% include video id="MN-JIDmAR3Q" provider="youtube" %}
-
+## Overview
 "Optional items" is where you can control visibility of certain parts of the model. You can arrange the sequence of the change and animate it over time. 
 
 * First setup the initial state by toggling each parts.
@@ -16,6 +15,6 @@ sidebar:
 * Use the sequence slider to preview the animation
 * Use "Auto Update" options for the sequence slider to animate it
 
-
-Here's a demo using this functionality:
+## Demo Videos
+{% include video id="MN-JIDmAR3Q" provider="youtube" %}
 {% include video id="TQqR8ZPbqWI" provider="youtube" %}

@@ -1,64 +1,54 @@
----
-layout: single
-title: ダウンロード
-toc: true
-locale: ja-JP
-sidebar:
-  nav: "docs-jp"
----
-
 ## 無料版ダウンロード
 
-[DanceXR 1.4.7 HD](https://www.patreon.com/posts/release-1-4-7-87008597){: .dlbtn .patreon}
+[DanceXR 1.4.7 HD](https://www.patreon.com/posts/release-1-4-7-87008597){: .dlbtn .patreon} 
 
-は、ダウンロード可能な最新の無料版です。
-
-無料版には、標準ポーズ変換、ステージと環境設定、そしてリアルなモーションなどの[基本機能](basic_features.md)が含まれています。ただし、ステージ上には1人のアクターしか表示できず、[有料版の高度な機能](pro_features.md)は使用できません。
+無料版には、標準のポーズ変換、ステージと環境の設定、リアルなモーションなど、[基本機能](basic_features.md)がすべて含まれています。ただし、以下の制限があります：ステージ上に同時に1人のアクターしか配置できませんし、[有料版の高度な機能](pro_features.md)は利用できません。
 
 ## 購入オプション
-有料版にアクセスするには、以下のオプションを検討してください。
+最新版にアクセスし、高度な機能を解除するには、以下のいずれかのオプションを使用して購入してください。
 
-### Patreonのサポーターになる
+### Patreonでのサポーターになる
 
 [DanceXR on Patreon](https://www.patreon.com/dvvr){: .dlbtn .patreon} 
 
-毎月、最新バージョンをPatreonページで公開しています。無料版のビルドも、初回リリースから1か月後にPatreonで利用可能になります。
+毎月、最新版をPatreonページで公開しています。無料版ビルドも、初回リリースから1か月後にPatreonで利用できるようになります。
 
-Patreonのサポーターになることで、最新のアップデートに独占的にアクセスし、リリースが他のプラットフォームで利用可能になる前にフィードバックを提供する機会があります。私たちのプロジェクトを評価し、サポートしたい場合は、Patreonのサポーターになることをお勧めします。
+Patreonのサポーターになると、最新のアップデートに独占的にアクセスでき、他のプラットフォームでリリースされる前にフィードバックを提供する機会があります。私たちのプロジェクトを評価し、サポートしたい場合は、Patreonのサポーターになることをお勧めします。
 
+### SteamとItch.ioでPC版を購入する
 
-### Steam＆Itch.ioからPC版を購入する
+一度きりの購入を希望する場合、SteamとItch.ioでも入手できます。
 
-一度限りの購入を希望する場合は、SteamとItch.ioでも購入できます。
+[Steam: DanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
 
-[SteamのDanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam} 
+[Itch.io: DanceXR Pro](https://stormlab.itch.io/dvvr){: .dlbtn .itchio}
 
-[Itch.ioのDanceXR Pro](https://stormlab.itch.io/dvvr){: .dlbtn .itchio} 
+SteamでDanceXRを見つけられない場合は、お住まいの国でブロックされている可能性がありますので、代わりにPure版をお試しください。
 
-SteamでDanceXRを見つけられない場合は、代わりにPure版を試すことができます。
+[Steam: DanceXR Pure](https://store.steampowered.com/app/2193970/DanceXR_Pure/){: .dlbtn .steam}
 
-[SteamのDanceXR Pure](https://store.steampowered.com/app/2193970/DanceXR_Pure/){: .dlbtn .steam} 
-
-Pro版とPure版の違いは、Pro版には成人向けの機能がいくつか含まれているため、Steamで年齢制限がかけられていること、また、レイトレーシング版が有料DLCとして提供されていることです。Pure版にはすべての成人向けの機能が削除されていますが、レイトレーシング版が含まれています。
-
+Pro版とPure版の違いは、Pro版には一部の成人向けの機能があり、Steamでは年齢制限があること、また、レイトレーシング版はSteamで有料のDLCになっていることです。Pure版にはすべての成人向けの機能が削除されていますが、レイトレーシング版が含まれています。
 
 ### Itch.ioでQuestスタンドアロン版を購入する
 
-Oculus Quest用のスタンドアロンビルドはこちらから入手できます。
+Oculus Quest用のスタンドアロンビルドはこちらで入手できます。
 
-[DanceXR Quest](https://stormlab.itch.io/dancexr-quest){: .dlbtn .itchio} 
+[DanceXR Quest](https://stormlab.itch.io/dancexr-quest){: .dlbtn .itchio}
 
+### Google PlayとItch.ioでAndroid版を購入する
 
-### Google Play＆Itch.ioでAndroid版を購入する
+Android Pro版はitch.ioで、Pure版はGoogle Playで入手できます。
 
-Android Proバージョンはitch.ioで入手でき、純粋なバージョンはGoogle Playで入手できます。
-
-[DanceXR Android Pro](https://stormlab.itch.io/dancexr-android){: .dlbtn .itchio} 
+[DanceXR Android Pro](https://stormlab.itch.io/dancexr-android){: .dlbtn .itchio}
 
 [DanceXR Portable](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr){: .dlbtn .itchio}
 
-Google Playユーザーの場合、パブリックベータテストを共同して、次のアップデートに早期にアクセスできるようになりました。以下のリンクにアクセスしてください。
+Google Playのユーザーは、次のアップデートに早期アクセスするために公開ベータテストに参加できます。以下のリンクを訪れるだけです。
 
 https://play.google.com/apps/testing/com.vrstormlab.dancexr
 
-制作バージョンに戻す場合は、同じページから「プログラムを残す」を選択してから、Google Playから古いバージョンをインストールできます。
+本番版に戻したい場合は、同じページから「プログラムを離れる」を選択し、Google Playから古いバージョンをインストールすることができます。
+
+### 中国本土のユーザー向け
+
+[中国大陸購買選項](purchase_prc.md)

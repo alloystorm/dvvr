@@ -4,7 +4,7 @@ title: System Physics
 toc: true
 ---
 
-### System-wide physics settings
+## System-wide physics settings
 You can locate the system-wide physics settings in Settings -> Options -> Physics. 
 
 ![System Physics](/images/system-physics.png)

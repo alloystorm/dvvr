@@ -46,15 +46,57 @@ def ensure_dir(file_path):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
+# Maximum tokens for GPT-3.5-turbo
+MAX_TOKENS = 1024
+# Roughly estimating 4 characters per token as a heuristic
+CHARS_PER_TOKEN = 4
+MAX_CHARS = MAX_TOKENS * CHARS_PER_TOKEN
+
+def split_text(text, max_chars):
+    # Split by section headers and ensure each chunk is under the maximum character limit
+    paragraphs = text.split("\n## ")
+    print(f"{len(paragraphs)} paragraphs.")
+    chunks = []
+    current_chunk = ""
+    
+    # Handle the first paragraph separately to avoid undesired prefixing
+    first_paragraph = paragraphs[0] if paragraphs else ""
+    remaining_paragraphs = paragraphs[1:] if len(paragraphs) > 1 else []
+    
+    # If the first paragraph is too long, make it a separate chunk
+    if len(first_paragraph) > max_chars:
+        chunks.append(first_paragraph)
+        first_paragraph = ""
+    
+    for paragraph in remaining_paragraphs:
+        # If adding the next paragraph exceeds the max length, start a new chunk
+        if len(current_chunk) + len(paragraph) > max_chars:
+            if current_chunk:  # Avoid appending empty chunks
+                chunks.append(current_chunk)
+            current_chunk = "## " + paragraph
+        else:
+            # Prefix with "## " unless it's the very first paragraph
+            divider = "" if not current_chunk and not first_paragraph else "\n## "
+            current_chunk = current_chunk + divider + paragraph
+    
+    # Don't forget to append the last chunk
+    if current_chunk:
+        chunks.append(current_chunk)
+    
+    return chunks
+
+
 # Iterate through all files in the source path
 for subdir, _, files in os.walk(src_path):
     for file in files:
+        _, file_extension = os.path.splitext(file)
+        
+        # Check if the file is a .md file
+        if file_extension.lower() != '.md':
+            continue
+        
         # Construct the file path
         file_path = os.path.join(subdir, file)
-        
-        # Read the English content
-        with open(file_path, 'r', encoding='utf-8') as f:
-            english_content = f.read()
         
         # Translate and save in corresponding directories for each language
         for lang, dst_path in dst_paths.items():
@@ -67,7 +109,21 @@ for subdir, _, files in os.walk(src_path):
                 continue
             
             print(dst_file_path)
-            translated_content = translate(english_content, lang)
+
+            # Read the English content
+            with open(file_path, 'r', encoding='utf-8') as f:
+                english_content = f.read()
+            
+            # Split the content into chunks and translate each chunk
+            chunks = split_text(english_content, MAX_CHARS)
+            translated_chunks = []
+            print(f"{len(chunks)} chunks to translate.")
+            for chunk in chunks:
+                print(len(chunk))
+                translated_chunks.append(translate(chunk, lang))
+            
+            # Combine the translated chunks and save the result
+            translated_content = "\n## ".join(translated_chunks)
             
             # Ensure the directory exists
             ensure_dir(dst_file_path)

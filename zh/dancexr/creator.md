@@ -1,87 +1,84 @@
 ---
 layout: single
-title: Creator Edition
+title: 创作者版
 toc: true
-locale: zh-TW
 sidebar:
-  nav: "docs-zh"
+  nav: "docs"
 ---
 
-# Creator Edition
+# 创作者版
 
-Creator edition offers offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K video smoothly at 60fps even when your monitor is 1080p and your computer is not able to maintain that framerate. It can also generate 3D and VR 180 videos.
+创作者版提供离线渲染功能，使您可以在不担心实际帧率和屏幕分辨率的情况下录制视频。例如，即使您的显示器是1080p，您的计算机无法维持该帧率，您仍可以以流畅的60fps录制4K视频。它还可以生成3D和VR 180度视频。
 
-## Recording menu
+## 录制菜单
 
-![Record Menu](/images/record_menu.png)
+![录制菜单](/images/record_menu.png)
 
-To access the recording features, click on the red circle "recording" button on the main UI. Then select one of the options in the recording menu to either start the recording process or change recording settings. 
+要访问录制功能，请单击主界面上的红色圆形“录制”按钮。然后在录制菜单中选择其中一个选项，以开始录制过程或更改录制设置。
 
-When you have a VMD motion with audio loaded, the recording will last for the duration of the whole song. Otherwise the default recording duration from within the recording settings will be used. 
+当加载了带有音频的VMD动作时，录音将持续整首歌的时间。否则，将使用录制设置中的默认录制持续时间。
 
-You can use the preview option to preview the recording on screen. The output will only be renderred on screen and no image will be saved. Use this to make sure your camera and motion selection are correct. 
+您可以使用预览选项在屏幕上预览录制内容。输出只会在屏幕上渲染，不会保存图像。使用此功能确保您的相机和动作选择正确。
 
-During recording or preview, the number of the currently frame and total frames of the recording are displayed on screen, and an estimated time is calculated to indicate how long it will take to generate the entire recording. You can use the "Terminate" button below to end the process at any time. 
+在录制或预览过程中，屏幕上会显示当前帧和总帧数，并计算估计的时间，以指示生成整个录制所需的时间。您可以随时使用下方的“终止”按钮结束进程。
 
-From the recording settings, you can also change the framerate, image format and compression quality. 
-![Record Setting](/images/record_setting.png)
+从录制设置中，您还可以更改帧率、图像格式和压缩质量。
+![录制设置](/images/record_setting.png)
 
-## Recording modes
+## 录制模式
 
-You can choose from 2D, 3D SBS and VR 180 recording modes when starting recording from the menu.
+当从菜单开始录制时，您可以选择2D、3D SBS和VR 180度录制模式。
 
-With 3D SBS, 2 cameras are used to generate the output, one for each eye. The images are placed side by side. 
+使用3D SBS，将使用2个摄像机生成输出，每个眼睛一个摄像机。图像并排放置。
 
-With VR 180, please note that this doesn't provide true 180 degrees field of view. Instead each camera renders at 120 degrees and the outside area is filled with black. This is a compromise for efficiency for now. We'll evaluate options to provide full 180 and 360 field of view VR videos in future updates. 
+请注意，使用VR 180度，这并不提供真正的180度视野。相反，每个摄像机渲染120度，外部区域填充为黑色。这是为了效率而做出的妥协。我们将在未来的更新中评估提供完整的180度和360度视野VR视频的选项。
 
-2D and 3D SBS modes use the selected resolution in the settings whereas VR180 output is fixed at 4096x2048, that is 2048x2048 each eye. 
+2D和3D SBS模式使用设置中选择的分辨率，而VR180输出固定为4096x2048，即每个眼睛2048x2048。
 
-## Post processing
+## 后期处理
 
-The output of the recording are stored as sequence of images due to a technical limitation at the moment. 
-![Record Images](/images/record_images.png)
+由于目前的技术限制，录制的输出存储为图像序列。
+![录制图像](/images/record_images.png)
 
-You'll need to use tools like ffmpeg to convert the images into a video. (If you are familar with video editing, you can use whichever tool that you prefer. FFMPEG is only recommended here due to its ease of use)
+您需要使用诸如ffmpeg之类的工具将图像转换为视频。（如果您熟悉视频编辑，可以使用您喜欢的任何工具。由于易于使用，这里推荐使用FFMPEG）
 
-Here is an article about how to install ffmpeg on Windows: https://www.wikihow.com/Install-FFmpeg-on-Windows
+这是有关如何在Windows上安装ffmpeg的文章：https://www.wikihow.com/Install-FFmpeg-on-Windows
 
-Once you have ffmpeg installed and its path added to environment variables, you should be good to go. 
+安装了ffmpeg并将其路径添加到环境变量后，您就可以开始了。
 
-In the folder that contains the output images, there is also a batch file that will perform the conversion if you have ffmpeg on your system. 
+在包含输出图像的文件夹中，还有一个批处理文件，如果您的系统上安装了ffmpeg，将执行转换。
 
-You can also do it manually type the command in a terminal window if you wish to fine tune the parameters. 
+如果您希望精调参数，也可以在终端窗口中手动输入命令。
 
-The basic conversion command will look like this:
+基本的转换命令如下：
 ```
 ffmpeg -r 30 -i movie_%04d.jpg -i sound.wav movie.mp4
 ```
 
-What this does is it takes movie_####.jpg and sound.wav as input, generate a video at 30 fps, and save the output to movie.mp4
+这将以30帧每秒的速度将movie_####.jpg和sound.wav作为输入，生成一个视频，并将输出保存为movie.mp4
 
-**"-r 30"** is the framerate of your video, if your setting is 60 fps, use "-r 60" instead. 
+**“-r 30”** 是您的视频的帧率，如果您的设置是60帧每秒，请使用“-r 60”。
 
-**"-i movie_%04d.jpg"** is the pattern of the input image files, if your image format is not "jpg", use the correct extension instead. 
+**“-i movie_%04d.jpg”** 是输入图像文件的模式，如果您的图像格式不是“jpg”，请使用正确的扩展名。
 
-**"-i sound.wav"** is the path to audio file. You can skip this part if you don't need audio in your video. 
+**“-i sound.wav”** 是音频文件的路径。如果您的视频中不需要音频，则可以跳过此部分。
 
-**"movie.mp4"** is the output filename, you can choose whatever you want. 
+**“movie.mp4”** 是输出文件名，您可以自行选择。
 
+对于2D视频，您只需要这些信息。
 
-For 2D videos, that is all you need. 
-
-For **3D SBS** videos, you'll need to add additional parameters to set the correct metadata:
+对于**3D SBS**视频，您需要添加其他参数来设置正确的元数据：
 <pre>
 ffmpeg -r 30 -i movie_%03d.jpg <b>-vcodec libx264 -x264opts "frame-packing=3"</b> movie.mp4
 </pre>
 
-For **VR180** videos, you'll need another tool to set the correct tag so the video can be recognised correctly on platforms like Youtube. "VR180 Creator" from Google is the recommended tool for this step. 
+对于**VR180**视频，您需要另一个工具来设置正确的标签，以便能够在YouTube等平台上正确识别视频。Google的“VR180 Creator”是此步骤的推荐工具。
 
-For some reason VR180 creator is no longer available from Google website, but you can still find it here: https://www.patrickgrunwald.de/vr180-creator-download
+由于某种原因，VR180创建器不再在Google网站上提供，但您仍然可以在此处找到它：https://www.patrickgrunwald.de/vr180-creator-download
 
-Steps tp tag your video as VR180 content
-* Open "VR180 Creator"
-* Select "Prepare for publishing"
-* Drag the video file from the previous step to the big box
-* Make sure "Left/Right" is the selected sterero layout, and "180 video" is the selected input field of view. 
-* Click on export and you are all done!
-
+将视频标记为VR180内容的步骤
+* 打开“VR180 Creator”
+* 选择“准备发布”
+* 将上一步骤中的视频文件拖放到大框中
+* 确保“左/右”是所选的立体布局，而“180视频”是所选的输入视野。
+* 点击导出，您就完成了！
