@@ -8,7 +8,7 @@ header:
     - label: Learn More
       url: /dancexr
     - label: Features
-      url: /dancexr/feature
+      url: /dancexr/features
     - label: Download
       url: /dancexr/download
 ---

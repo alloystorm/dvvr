@@ -53,7 +53,7 @@ docs:
     - title: Release 1.4.9 Oct 2023
       url: /dancexr/releases/1.4.9
   - title: Features
-    url: /dancexr/feature
+    url: /dancexr/features
   - title: Versions
     url: /dancexr/versions
   - title: "FAQ"
@@ -137,7 +137,7 @@ docs-zh:
     - title: 版本 1.4.9 2023年10月
       url: /zh/dancexr/releases/1.4.9
   - title: 功能
-    url: /zh/dancexr/feature
+    url: /zh/dancexr/features
   - title: 版本
     url: /zh/dancexr/versions
   - title: 常见问题
@@ -222,7 +222,7 @@ docs-jp:
   - title: AIチャット
     url: /jp/dancexr/ai_chat
   - title: 機能
-    url: /jp/dancexr/feature
+    url: /jp/dancexr/features
   - title: "FAQ"
     url: /jp/dancexr/faq
   - title: "トラブルシューティング"
