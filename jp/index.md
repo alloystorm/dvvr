@@ -10,8 +10,8 @@ header:
   actions: 
     - label: 紹介
       url: /jp/dancexr
+    - label: 機能
+      url: /jp/dancexr/features
     - label: ダウンロード
       url: /jp/dancexr/download
-    - label: リリース
-      url: /jp/dancexr/releases/
 ---

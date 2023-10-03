@@ -11,6 +11,4 @@ header:
       url: /dancexr/features
     - label: Download
       url: /dancexr/download
-    - label: Releases
-      url: /dancexr/releases/
 ---

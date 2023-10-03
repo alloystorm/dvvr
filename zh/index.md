@@ -9,8 +9,8 @@ header:
   actions: 
     - label: 瞭解更多
       url: /zh/dancexr
+    - label: 功能
+      url: /zh/dancexr/features
     - label: 下載
       url: /zh/dancexr/download
-    - label: 版本
-      url: /zh/dancexr/releases/
 ---
