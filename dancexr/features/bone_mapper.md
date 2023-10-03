@@ -20,4 +20,3 @@ The statuc of bone mapping are indicated using circle icons.
 * Circle with exclamation mark means the bone is not mapped and is critical for the model to function.
 
 {% include video id="jtxQo5NYk2o" provider="youtube" %}
-

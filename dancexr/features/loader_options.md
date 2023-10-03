@@ -15,3 +15,14 @@ Once turned on, when replacing actors, the settings for the outgoing actor will 
 
 ### Transition Effect
 Choose and configure the animation when actor models are faded in and out. 
+
+### Auto Actor Change
+This is a special feature that automatically replace current actor on the stage with cached actors, when the value of this slider cross certain threshold. 
+
+For example if you have 4 actors in the cache. The value of the slider and the corresponding actor will be:
+* 0-0.25: Actor 1
+* 0.25-0.5: Actor 2
+* 0.5-0.75: Actor 3
+* 0.75-1: Actor 4
+
+A common usecase for this is to enable [Auto Update](autoupdate) and set it to timeline 0-100%. When the song is in the first 25%, the first actor will be on the stage, then when it cross the 25% mark, the system will start the transition from actor 1 to actor 2.

@@ -45,4 +45,3 @@ In each individual material option, you can change the material's transparency m
 In the hair options, you can change the transparency mode of all hair materials.
 
 In the Global Material Settings, you can choose the transparency sorting order from a few different options.
-

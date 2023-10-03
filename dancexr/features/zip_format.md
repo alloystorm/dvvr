@@ -23,3 +23,4 @@ To tackle that problem we added a workaround in 0.9.3 that you can label your ZI
 For example if you zip file is "abc.zip", and it contains Japanese file names inside, all you need to do is to rename it to "abc.jis932.zip", and DanceXR will be able parse it correctly. 
 
 If you are on Android, the built-in Content Manager app can do that renaming for you, you just need to select the correct encoding from the menu.
+

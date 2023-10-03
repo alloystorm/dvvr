@@ -25,4 +25,3 @@ This affects the filtering behaviour when you select multiple tags in the filter
 Tags within the same category are treated as a "OR" relationship. For example if you select both "Tamaki" and "Leifang" tags, since they are both in the "Character" category, the filtered result will be "Tamaki" or "Leifang". 
 
 Tags don't belong to the same category will be treated as a "AND" relationship. If you select both "Leifang" and "Bikini", then only the models that have both these tags will appears in the filterred result.
-

@@ -4,7 +4,7 @@ title: Material Settings
 toc: true
 ---
 
-## Organization
+## How Material List Is Organized
 
 A model can have hundreds of different materials, to manage them more efficiently, we are organizing the materials in the following way:
 

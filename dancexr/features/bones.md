@@ -9,7 +9,7 @@ While we aim for maximum compatibility, it is also important to know that MMD do
 
 
 ## Example Structure
-A typical PMX bone strucutre that works well with DVVR. 
+A typical PMX bone strucutre that works well with DanceXR. 
 
 <pre>
   └全ての親 (master) (Master)
@@ -101,7 +101,7 @@ A typical PMX bone strucutre that works well with DVVR.
 </pre>
 <b>* indicates required bones</b>
 
-Most PMX models should work fine unless they are missing the requried bones. DVVR will automatically create the remaining bones that it needs such as IK bones.
+Most PMX models should work fine unless they are missing the requried bones. DanceXR will automatically create the remaining bones that it needs such as IK bones.
 
 A sample bone structure of XPS (XNALara) models: 
 <pre>
@@ -178,4 +178,4 @@ A sample bone structure of XPS (XNALara) models:
 </pre>
 <b>* indicates required bones</b>
 
-At the moment the bone names have to match exactly in the list above for it to work. We do realize that there are models using completely different sets of names, unfortunately these models will not work in DVVR for now until we figure out a smarter bone mapping solution. 
+Checkout the [Bone Mapper](bone_mapper) page for more information on how to map bones for XPS models.

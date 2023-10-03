@@ -20,4 +20,3 @@ Try out presets to see what it can do and then dive into the details to create y
 * Also include an Outfit painting mode that allows modifying generated outfit patterns with paint brush or images. 
 * When choosing image templates used for drawing, PNG format is recommended since it support alpha channel. 
 * For tattoo images, it's best to find white ones since they work better with different color and glow effect. 
-

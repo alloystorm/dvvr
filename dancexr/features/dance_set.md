@@ -19,4 +19,3 @@ Dance Set have individual [settings for each motion](/dancexr/features/motion_se
 
 ## [Remix](/dancexr/features/remix)
 Remix in DanceXR means using motion data from one dance set with the audio from another dance set. With this feature, you can adapt motions for different audio. And it will automatically adjust speed to match the motion and music.
-

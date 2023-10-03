@@ -82,7 +82,7 @@ We support VMD and BVH motions.
 * [Ground, Stage & Water System](features/ground)
 * [Particle System](features/particles)
 * Lighting
-
+* [Auto Update Values](features/autoupdate)<sup>PRO</sup>
 
 ## Scene
 * Camera
@@ -100,6 +100,7 @@ We support VMD and BVH motions.
 * [Input Settings](features/controls)
 * [Physics Config](features/system_physics)
 * App Settings
+* [Auto Update](features/autoupdate)<sup>PRO</sup>
 
 ## [Offline Render & Recording (Creator Edition)](creator.md)<sup>CREATOR</sup>
 

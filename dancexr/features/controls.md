@@ -49,4 +49,3 @@ Left Trigger | Left Trigger | Tab | Custom 1 | UI Toggle
 Right Trigger | Right Trigger | Space | Custom 2 | UI Toggle
 DPad X | N/A | L / J | UI X | UI X
 DPad Y | N/A | I / K | UI Y | Scroll
- 

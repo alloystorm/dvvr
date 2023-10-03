@@ -27,4 +27,3 @@ For eye contact, you have 3 individual sliders to affect how they choose viewing
 * Camera: The player main camera, or mirror and any other camera in the scene.
 * Peers: Other actors and spectators
 * Body parts: Body parts of actors, this allows them to look at the person even when their face is obscured.
-
