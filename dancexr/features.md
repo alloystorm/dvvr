@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Features
+title: Feature List
 toc: true
 permalink: /dancexr/features
 sidebar:
@@ -17,6 +17,7 @@ We support PMX and XPS for character models and PMX, XPS or OBJ for stages and p
 * [Formation](features/formation)
 * [Playlists](features/actor_playlist)
 
+
 ### Character Model Settings
 * [Material Settings](features/material_settings)
 * [Dressing System (Material Morphs and XPS Optionals)](features/optionals)
@@ -24,35 +25,43 @@ We support PMX and XPS for character models and PMX, XPS or OBJ for stages and p
 * Feet Adjustments
 * Troubleshooting Options
 
-### Stage Model Settings
-* Offset & Scale
-* Moving Objects
-
-### XPS Specific
-* [Bone Mapper](features/bone_mapper.md)
-* [XPS Physics](features/xps_physics)<sup>PRO</sup>
-* [Alternative Textures](features/alternative_textures)
-
-### PMX Specific
-* [PMX Physics](features/pmx_physics)
 
 ### Advanced Model Features
 * [Outfit & Body Paint](features/outfit_body_paint)<sup>PRO</sup>
 * [Motion Override](features/motion_override)<sup>PRO</sup>
 * [Boob Shake & Sex Overlay](features/boob_shake_sex_overlay)<sup>PRO</sup>
 
+
+### XPS Specific
+* [Bone Mapper](features/bone_mapper.md)
+* [XPS Physics](features/xps_physics)<sup>PRO</sup>
+* [Alternative Textures](features/alternative_textures)
+
+
+### PMX Specific
+* [PMX Physics](features/pmx_physics)
+
+
+### Stage Model Settings
+* [Stage Model Setting & Tools](feature/stages)
+
+
 ## Motions
-We support VMD and BVH motions.
+DanceXR supports motions in both VMD and BVH formats.
 
 
 ### Managing Motions
-* Tag, Search, Delete
-* [Dance set](features/dance_set)
 * [Playback options](features/playback_options)
 * [Assigning Motions](features/assign_motion)
+* [Secondary Motion](features/secondary_motion)
+* [Remix](features/remix)
+* [Actor Motion Settings](features/actor_motion_settings)
 
 
 ### VMD & BVH Motions
+* [Dance Set](features/dance_set)
+* [Timing & Beats](features/music_timing)
+* [Motion Settings](features/motion_settings)
 
 
 ### Procedural Motions
@@ -63,18 +72,6 @@ We support VMD and BVH motions.
 * Cowgirl Sex<sup>PRO</sup>
 * Sex From Behind<sup>PRO</sup>
 * Sex Motion 3<sup>PRO</sup>
-
-
-### Secondary Motion & Remix
-* [Secondary Motion](features/secondary_motion)
-* [Remix](features/remix)
-
-
-### Dance Set and Motion Settings
-* [Timing & Beats](features/music_timing)
-* [Motion Settings](features/motion_settings)
-* [Actor Motion Settings](features/actor_motion_settings)
-* [Procedural Motions](features/procedural_motions)
 
 
 ## Environment
@@ -103,7 +100,9 @@ We support VMD and BVH motions.
 * App Settings
 * [Auto Update](features/autoupdate)<sup>PRO</sup>
 
-## [Offline Render & Recording (Creator Edition)](creator.md)<sup>CREATOR</sup>
+## Creator Edition
+[Offline Render & Recording](creator.md)<sup>CREATOR</sup>
 
-## [AI Chat](ai_chat)<sup>PRO</sup>
+## AI Voice Chat
+[AI Voice Chat](ai_chat)<sup>PRO</sup>
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 特徴
+title: 機能リスト
 toc: true
 permalink: /jp/dancexr/features
 sidebar:
@@ -12,10 +12,11 @@ sidebar:
 
 ### モデルの管理
 * [タグ付けと検索](features/tagging)
-* [基本的な操作、移動、回転、拡大縮小、複製、削除](features/actor_tools)
+* [基本操作、移動、回転、スケール、複製、削除](features/actor_tools)
 * [モデルキャッシュとローダーオプション](features/loader_options)
 * [フォーメーション](features/formation)
 * [プレイリスト](features/actor_playlist)
+
 
 ### キャラクターモデルの設定
 * [マテリアル設定](features/material_settings)
@@ -24,33 +25,44 @@ sidebar:
 * 足の調整
 * トラブルシューティングオプション
 
-### ステージモデルの設定
-* オフセットとスケール
-* 移動オブジェクト
-
-### XPS固有
-* [ボーンマッパー](features/bone_mapper.md)
-* [XPS物理](features/xps_physics)<sup>PRO</sup>
-* [代替テクスチャ](features/alternative_textures)
-
-### PMX固有
-* [PMX物理](features/pmx_physics)
 
 ### 高度なモデル機能
 * [衣装とボディペイント](features/outfit_body_paint)<sup>PRO</sup>
 * [モーションオーバーライド](features/motion_override)<sup>PRO</sup>
 * [おっぱいの揺れとセックスオーバーレイ](features/boob_shake_sex_overlay)<sup>PRO</sup>
 
+
+### XPS固有
+* [ボーンマッパー](features/bone_mapper.md)
+* [XPS物理](features/xps_physics)<sup>PRO</sup>
+* [代替テクスチャ](features/alternative_textures)
+
+
+### PMX固有
+* [PMX物理](features/pmx_physics)
+
+
+### ステージモデルの設定
+* [ステージモデルの設定とツール](feature/stages)
+
+
 ## モーション
-VMDとBVHモーションをサポートしています。
+DanceXRはVMDおよびBVH形式のモーションをサポートしています。
+
 
 ### モーションの管理
-* タグ付け、検索、削除
-* [ダンスセット](features/dance_set)
 * [再生オプション](features/playback_options)
 * [モーションの割り当て](features/assign_motion)
+* [セカンダリモーション](features/secondary_motion)
+* [リミックス](features/remix)
+* [アクターモーションの設定](features/actor_motion_settings)
 
-### VMDとBVHモーション
+
+### VMDおよびBVHモーション
+* [ダンスセット](features/dance_set)
+* [タイミングとビート](features/music_timing)
+* [モーションの設定](features/motion_settings)
+
 
 ### プロシージャルモーション
 * アイドルモーション
@@ -61,15 +73,6 @@ VMDとBVHモーションをサポートしています。
 * 後ろからのセックス<sup>PRO</sup>
 * セックスモーション3<sup>PRO</sup>
 
-### セカンダリモーションとリミックス
-* [セカンダリモーション](features/secondary_motion)
-* [リミックス](features/remix)
-
-### ダンスセットとモーションの設定
-* [タイミングとビート](features/music_timing)
-* [モーション設定](features/motion_settings)
-* [アクターモーション設定](features/actor_motion_settings)
-* [プロシージャルモーション](features/procedural_motions)
 
 ## 環境
 * [空と雲](features/skymap)
@@ -87,9 +90,9 @@ VMDとBVHモーションをサポートしています。
 
 ## システム
 * [コンテンツライブラリ](preparecontent)
-* [Googleドライブの統合](features/googledrive)
+* [Google Driveの統合](features/googledrive)
 * [Android、Quest、Pico向けのコンテンツライブラリ](content_android_quest)
-* [表示とUI](features/display_settings)
+* [ディスプレイとUI](features/display_settings)
 * [グラフィック設定](features/graphics)
 * 言語
 * [入力設定](features/controls)
@@ -97,6 +100,8 @@ VMDとBVHモーションをサポートしています。
 * アプリの設定
 * [自動更新](features/autoupdate)<sup>PRO</sup>
 
-## [オフラインレンダリングと録画（クリエイターエディション）](creator.md)<sup>CREATOR</sup>
+## クリエイターエディション
+[オフラインレンダリングと録画](creator.md)<sup>CREATOR</sup>
 
-## [AIチャット](ai_chat)<sup>PRO</sup>
+## AI音声チャット
+[AI音声チャット](ai_chat)<sup>PRO</sup>
