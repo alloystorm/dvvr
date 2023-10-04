@@ -1,4 +1,8 @@
-## Latest updates
+---
+layout: single
+title: Camera
+toc: true
+---
 
 ## Overview
 We have 5 procedural camera motions available and you can also use camera motion from loaded dance motions if available.

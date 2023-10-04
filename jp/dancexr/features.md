@@ -11,15 +11,15 @@ sidebar:
 キャラクターモデルにはPMXとXPSをサポートしており、ステージと小道具にはPMX、XPS、またはOBJをサポートしています。
 
 ### モデルの管理
-* [タグ付け、検索、削除](features/tagging)
+* [タグ付けと検索](features/tagging)
 * [基本的な操作、移動、回転、拡大縮小、複製、削除](features/actor_tools)
-* [モデルのキャッシュとローダーオプション](features/loader_options)
+* [モデルキャッシュとローダーオプション](features/loader_options)
 * [フォーメーション](features/formation)
 * [プレイリスト](features/actor_playlist)
 
 ### キャラクターモデルの設定
 * [マテリアル設定](features/material_settings)
-* [ドレッシングシステム（マテリアルモーフとXPSオプション）](features/optionals)
+* [ドレッシングシステム（マテリアルモーフとXPSオプショナル）](features/optionals)
 * [まばたき、呼吸、アイコンタクト](features/eyecontact)
 * 足の調整
 * トラブルシューティングオプション
@@ -28,21 +28,21 @@ sidebar:
 * オフセットとスケール
 * 移動オブジェクト
 
-### XPS固有の設定
+### XPS固有
 * [ボーンマッパー](features/bone_mapper.md)
 * [XPS物理](features/xps_physics)<sup>PRO</sup>
 * [代替テクスチャ](features/alternative_textures)
 
-### PMX固有の設定
+### PMX固有
 * [PMX物理](features/pmx_physics)
 
-### 高度なモデルの機能
+### 高度なモデル機能
 * [衣装とボディペイント](features/outfit_body_paint)<sup>PRO</sup>
 * [モーションオーバーライド](features/motion_override)<sup>PRO</sup>
 * [おっぱいの揺れとセックスオーバーレイ](features/boob_shake_sex_overlay)<sup>PRO</sup>
 
 ## モーション
-VMDとBVHのモーションをサポートしています。
+VMDとBVHモーションをサポートしています。
 
 ### モーションの管理
 * タグ付け、検索、削除
@@ -50,7 +50,7 @@ VMDとBVHのモーションをサポートしています。
 * [再生オプション](features/playback_options)
 * [モーションの割り当て](features/assign_motion)
 
-### VMDとBVHのモーション
+### VMDとBVHモーション
 
 ### プロシージャルモーション
 * アイドルモーション
@@ -67,8 +67,8 @@ VMDとBVHのモーションをサポートしています。
 
 ### ダンスセットとモーションの設定
 * [タイミングとビート](features/music_timing)
-* [モーションの設定](features/motion_settings)
-* [アクターモーションの設定](features/actor_motion_settings)
+* [モーション設定](features/motion_settings)
+* [アクターモーション設定](features/actor_motion_settings)
 * [プロシージャルモーション](features/procedural_motions)
 
 ## 環境
@@ -79,7 +79,7 @@ VMDとBVHのモーションをサポートしています。
 * [自動更新値](features/autoupdate)<sup>PRO</sup>
 
 ## シーン
-* カメラ
+* [カメラ](features/camera)
 * [ステージ](features/stages)
 * [小道具](features/props)
 * ステージオプション、ビートリング、レーザー、スクリーン、ミラー
@@ -87,9 +87,10 @@ VMDとBVHのモーションをサポートしています。
 
 ## システム
 * [コンテンツライブラリ](preparecontent)
+* [Googleドライブの統合](features/googledrive)
 * [Android、Quest、Pico向けのコンテンツライブラリ](content_android_quest)
 * [表示とUI](features/display_settings)
-* グラフィック設定
+* [グラフィック設定](features/graphics)
 * 言語
 * [入力設定](features/controls)
 * [物理設定](features/system_physics)

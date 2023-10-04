@@ -3,7 +3,7 @@ layout: single
 title: ダウンロード
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-jp"
 ---
 
 ## 概要
