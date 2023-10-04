@@ -42,8 +42,8 @@ VRモードでは、サムスティックの上下を使用してアクターを
 * モーションの割り当てと設定
 * 最近変更された設定
 * [ドレッシングシステム（マテリアルモーフとXPSオプション）](optionals)
-* [ボーンマッパー（XPSのみ）](features/bone_mapper.md)
-* [代替テクスチャ](features/alternative_textures)
+* [ボーンマッパー（XPSのみ）](bone_mapper.md)
+* [代替テクスチャ](alternative_textures)
 * マテリアル
     * スキン
     * 髪
@@ -60,7 +60,7 @@ VRモードでは、サムスティックの上下を使用してアクターを
     * アクセサリー
     * ラグドール
     * [モーションオーバーライド](motion_override)
-    * [おっぱいの揺れとセックスオーバーレイ](features/boob_shake_sex_overlay)
+    * [おっぱいの揺れとセックスオーバーレイ](boob_shake_sex_overlay)
     * ディルド
     * ライトボール
     * [XPS物理（XPSのみ）](xps_physics)

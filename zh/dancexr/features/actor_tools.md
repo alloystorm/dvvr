@@ -41,27 +41,27 @@ toc: true
 以下是每个设置的详细文档链接。
 * 动作分配和设置
 * 最近修改的设置
-* [装扮系统（材质变形和XPS可选项）](/zh/optionals)
-* [骨骼映射（仅限XPS）](/zh/features/bone_mapper.md)
-* [替代纹理](/zh/features/alternative_textures)
+* [装扮系统（材质变形和XPS可选项）](optionals)
+* [骨骼映射（仅限XPS）](bone_mapper.md)
+* [替代纹理](alternative_textures)
 * 材质
     * 皮肤
     * 头发
     * 眼睛、嘴唇、透明、不透明、自定义1和2
-    * [材质设置](/zh/material_settings)
+    * [材质设置](material_settings)
 * 设置
-    * [PMX物理（仅限PMX）](/zh/pmx_physics)
-    * [脚部调整](/zh/feet_adjustments)
-    * [面部控制](/zh/facial_control)
-    * [眨眼、呼吸和眼神接触](/zh/eyecontact)
-    * [故障排除选项](/zh/troubleshooting_options)
+    * [PMX物理（仅限PMX）](pmx_physics)
+    * [脚部调整](feet_adjustments)
+    * [面部控制](facial_control)
+    * [眨眼、呼吸和眼神接触](eyecontact)
+    * [故障排除选项](troubleshooting_options)
 * 专业版
-    * [服装和身体绘制](/zh/outfit_body_paint)
+    * [服装和身体绘制](outfit_body_paint)
     * 饰品
     * 布娃娃
-    * [动作覆盖](/zh/motion_override)
-    * [乳摇和性交叠加](/zh/features/boob_shake_sex_overlay)
+    * [动作覆盖](motion_override)
+    * [乳摇和性交叠加](boob_shake_sex_overlay)
     * 假阳具
     * 灯球
-    * [XPS物理（仅限XPS）](/zh/xps_physics)
+    * [XPS物理（仅限XPS）](xps_physics)
 * 形态列表（仅限PMX）
