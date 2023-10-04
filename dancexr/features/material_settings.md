@@ -59,3 +59,8 @@ Most of the time you can simply material settings in the material category confi
 
 You can also find all the materials from the list and change them individually if necessary. 
 
+### New Gradient Control
+Allow changing material properties along a gradient path. 
+{% include video id="Yi2W_cwufNk" provider="youtube" %}
+{% include video id="d8GP3G0wF3M" provider="youtube" %}
+{% include video id="atIdSd2TIrA" provider="youtube" %}

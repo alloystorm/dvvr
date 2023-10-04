@@ -24,28 +24,31 @@ You can assign a different button to "Second Action" if you prefer.
 The default control action assignment are listed below
 
 ### Button Controls
-Gamepad | VR | Key | Primary Action | Second Action | 
---- | --- | --- | --- | ---
-Btn X | Left Btn 1 | Number 1 | Center Actor | Reset Physics
-Btn Y | Left Btn 2 | Number 2 | Next Model | Shuffle Model
-Btn A | Right Btn 1 | Number 3 | Next Motion | Previous Motion
-Btn B | Right Btn 2 | Number 4 | Play / Pause | Slow Motion
-LB | Left Grip | Left Shift | Second Action | None 
-RB | Right Grip | Right Shift | Second Action | None
-Left Thumb Click | Left Thumb Click | None | None
-Right Thumb Click | Right Thumb Click | None | None
-Select | Left Menu | Esc | Toggle UI | UI Back
-Start | Right Menu | Enter | Toggle Microphone | Toggle Microphone
+
+| Gamepad | VR | Key | Primary Action | Second Action | 
+| --- | --- | --- | --- | --- |
+| Btn X | Left Btn 1 | Number 1 | Center Actor | Reset Physics |
+| Btn Y | Left Btn 2 | Number 2 | Next Model | Shuffle Model |
+| Btn A | Right Btn 1 | Number 3 | Next Motion | Previous Motion |
+| Btn B | Right Btn 2 | Number 4 | Play / Pause | Slow Motion |
+| LB | Left Grip | Left Shift | Second Action | None |
+| RB | Right Grip | Right Shift | Second Action | None |
+| Left Thumb Click | Left Thumb Click | None | None |
+| Right Thumb Click | Right Thumb Click | None | None |
+| Select | Left Menu | Esc | Toggle UI | UI Back |
+| Start | Right Menu | Enter | Toggle Microphone | Toggle Microphone |
 
 
 ### Axis Controls
-Gamepad | VR | Key | Primary Action | Second Action / Button Action | 
---- | --- | --- | --- | ---
-Left Thumb X | Left Thumb X | A / D | Move X | Rotate
-Left Thumb Y | Left Thumb Y | W / S | Move Y | Up / Down
-Right Thumb X | Right Thumb X | Left / Right | Rotate | Move X
-Right Thumb Y | Right Thumb Y | Up / Down | Up / Down | Move Y 
-Left Trigger | Left Trigger | Tab | Custom 1 | UI Toggle
-Right Trigger | Right Trigger | Space | Custom 2 | UI Toggle
-DPad X | N/A | L / J | UI X | UI X
-DPad Y | N/A | I / K | UI Y | Scroll
+
+| Gamepad | VR | Key | Primary Action | Second Action / B | 
+| --- | --- | --- | --- | ---  |
+| Left Thumb X | Left Thumb X | A / D | Move X | Rotate |
+| Left Thumb Y | Left Thumb Y | W / S | Move Y | Up / Down |
+| Right Thumb X | Right Thumb X | Left / Right | Rotate | Move X |
+| Right Thumb Y | Right Thumb Y | Up / Down | Up / Down | Move Y |
+| Left Trigger | Left Trigger | Tab | Custom 1 | UI Toggle |
+| Right Trigger | Right Trigger | Space | Custom 2 | UI Toggle |
+| DPad X | N/A | L / J | UI X | UI X |
+| DPad Y | N/A | I / K | UI Y | Scroll |
+ 

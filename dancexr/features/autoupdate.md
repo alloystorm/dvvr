@@ -34,5 +34,14 @@ For example, for a configuration that is ranged from 0 to 1, when the mode is se
 * When the timeline goes above 80%, the output will also be 0.6, since it is clamped.
 * When the timeline is at 50%, the output will be 1 * ((0.6 - 0.4) * (50% - 20%) / (80% - 20%) + 0.4) = 0.5
 
+## Audio Data Sources
+{% include video id="A00DhbCOgu0" provider="youtube" %}
+* Audio Amplitude mode allows changing the config value based on currently audio output level. 
+    * You can choose smoothing settings to fine tune the output according to your need. 
+    * Higher smooth setting generates smooth output while lower smooth setting allows faster response.
+* Spectrum Band mode gets output from the audio spectrum data. 
+* It is divided into 1024 bands. In the order of frequency. 
+* Lower band number represents bass and vice versa.
+
 ## Auto Update Values
 All active Auto Update values are shown in the "Auto Update Values" list under "Scene" menu. Here you can quickly see the current value of each auto update and also edit the configurations.

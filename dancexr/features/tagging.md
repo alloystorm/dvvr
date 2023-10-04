@@ -7,6 +7,8 @@ toc: true
 ## Overview
 DanceXR allows you to create tags for actor models and dance motions to make them easier to manage and retrieve.
 
+{% include video id="kOrp7rESrXQ" provider="youtube" %}
+
 ## Auto Tagging
 With this tool, DanceXR analyse the names for all the items in your content library and generate possible tags for you to choose from. 
 

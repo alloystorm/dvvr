@@ -84,3 +84,12 @@ Steps tp tag your video as VR180 content
 * Make sure "Left/Right" is the selected sterero layout, and "180 video" is the selected input field of view. 
 * Click on export and you are all done!
 
+## Latest updates
+### 1.4.3
+* Proper support for VR180 format with full 180 horizontal field of view. Previously VR180 are renderred at 120 degrees. 
+
+* Support for VR360 video is also added. (2D only ATM)
+
+{% include video id="Xeh9l8K8nqo" provider="youtube" %}
+
+{% include video id="V6zpyW1hDog" provider="youtube" %}

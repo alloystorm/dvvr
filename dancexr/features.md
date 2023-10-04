@@ -11,7 +11,7 @@ sidebar:
 We support PMX and XPS for character models and PMX, XPS or OBJ for stages and props.
 
 ### Managing Models
-* [Tag, Search, Delete](features/tagging)
+* [Tagging and Search](features/tagging)
 * [Basic Controls, Move, Rotate, Scale, Duplicate and Remove](features/actor_tools)
 * [Model Cache & Loader Options](features/loader_options)
 * [Formation](features/formation)
@@ -85,7 +85,7 @@ We support VMD and BVH motions.
 * [Auto Update Values](features/autoupdate)<sup>PRO</sup>
 
 ## Scene
-* Camera
+* [Camera](features/camera)
 * [Stages](features/stages)
 * [Props](features/props)
 * Stage Options, Beats Ring, Laser, Screen & Mirror
@@ -93,9 +93,10 @@ We support VMD and BVH motions.
 
 ## System
 * [Content Library](preparecontent)
+* [Google Drive Integration](features/googledrive)
 * [Content Library for Android, Quest and Pico](content_android_quest)
 * [Display & UI](features/display_settings)
-* Graphic Settings
+* [Graphic Settings](features/graphics)
 * Language
 * [Input Settings](features/controls)
 * [Physics Config](features/system_physics)

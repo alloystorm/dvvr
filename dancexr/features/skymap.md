@@ -24,3 +24,9 @@ You can use HDRI panaramic images as sky map. Both jpg and HDR formats are suppo
 {% include video id="vUY7DY4cCV0" provider="youtube" %}
 
 Find skymaps and load them in DanceXR as background.
+
+## Procedural Sky
+* Sunlight angle is now controlled by time of day, ecliptic angle and orientation.
+* Automatic transition between day and night based on time of day value.
+* Night sky with stars
+{% include video id="D745FYNcx4c" provider="youtube" %}
