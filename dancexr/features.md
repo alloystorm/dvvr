@@ -31,10 +31,10 @@ We support PMX and XPS for character models and PMX, XPS or OBJ for stages and p
 ### Advanced Model Features
 * [Outfit & Body Paint<sup>PRO</sup>](features/outfit_body_paint)
 * [Motion Override<sup>PRO</sup>](features/motion_override)
-* [Boob Shake & Sex Overlay<sup>PRO</sup>](features/boob_shake_sex_overlay)
+* [Boob Shake & Sex Overlay<sup>PRO</sup>](features/boob_shake_sex_overlay){: .nsfw}
 * Accessory<sup>PRO</sup>
 * Ragdoll<sup>PRO</sup>
-* Dildo<sup>PRO</sup>
+* [Dildo<sup>PRO</sup>](features/dildo){: .nsfw}
 
 ### XPS Specific
 * [Bone Mapper](features/bone_mapper.md)
@@ -73,9 +73,9 @@ DanceXR supports motions in both VMD and BVH formats.
 * Catwalk
 * Auto Dance<sup>PRO</sup>
 * Auto Dance 2<sup>PRO</sup>
-* Cowgirl Sex<sup>PRO</sup>
-* Sex From Behind<sup>PRO</sup>
-* Sex Motion 3<sup>PRO</sup>
+* Cowgirl Sex<sup>PRO</sup>{: .nsfw}
+* Sex From Behind<sup>PRO</sup>{: .nsfw}
+* Sex Motion 3<sup>PRO</sup>{: .nsfw}
 
 
 ## Environment

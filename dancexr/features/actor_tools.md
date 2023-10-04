@@ -60,8 +60,8 @@ The following are links to the detailed documentation for each of the settings.
     * Accessory
     * Ragdoll
     * [Motion Override](motion_override)
-    * [Boob Shake & Sex Overlay](features/boob_shake_sex_overlay)
-    * Dildo
+    * [Boob Shake & Sex Overlay](features/boob_shake_sex_overlay){: .nsfw}
+    * Dildo{: .nsfw}
     * Light Ball
     * [XPS Physics (XPS Only)](xps_physics)
 * Morph List (PMX Only)
