@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Actor Tools
+title: Actor Menu & Tools
 toc: true
 ---
 

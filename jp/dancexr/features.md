@@ -7,34 +7,38 @@ sidebar:
   nav: "docs-jp"
 ---
 
+[English](/dancexr/features) | [简体中文](/zh/dancexr/features) | [日本語](/ja/dancexr/features)
+
 ## モデル
-キャラクターモデルにはPMXとXPSをサポートしており、ステージと小道具にはPMX、XPS、またはOBJをサポートしています。
+キャラクターモデルにはPMXとXPSをサポートし、ステージと小道具にはPMX、XPS、またはOBJをサポートしています。
 
 ### モデルの管理
 * [タグ付けと検索](features/tagging)
-* [基本操作、移動、回転、スケール、複製、削除](features/actor_tools)
 * [モデルキャッシュとローダーオプション](features/loader_options)
 * [フォーメーション](features/formation)
 * [プレイリスト](features/actor_playlist)
 
 
 ### キャラクターモデルの設定
+* [アクターメニューとアクターツール](features/actor_tools)
 * [マテリアル設定](features/material_settings)
 * [ドレッシングシステム（マテリアルモーフとXPSオプショナル）](features/optionals)
-* [まばたき、呼吸、アイコンタクト](features/eyecontact)
+* [まばたき、呼吸、目の接触](features/eyecontact)
 * 足の調整
 * トラブルシューティングオプション
 
 
 ### 高度なモデル機能
-* [衣装とボディペイント](features/outfit_body_paint)<sup>PRO</sup>
-* [モーションオーバーライド](features/motion_override)<sup>PRO</sup>
-* [おっぱいの揺れとセックスオーバーレイ](features/boob_shake_sex_overlay)<sup>PRO</sup>
-
+* [衣装とボディペイント<sup>PRO</sup>](features/outfit_body_paint)
+* [モーションオーバーライド<sup>PRO</sup>](features/motion_override)
+* [おっぱいの揺れとセックスオーバーレイ<sup>PRO</sup>](features/boob_shake_sex_overlay)
+* アクセサリー<sup>PRO</sup>
+* ラグドール<sup>PRO</sup>
+* ディルド<sup>PRO</sup>
 
 ### XPS固有
 * [ボーンマッパー](features/bone_mapper.md)
-* [XPS物理](features/xps_physics)<sup>PRO</sup>
+* [XPS物理<sup>PRO</sup>](features/xps_physics)
 * [代替テクスチャ](features/alternative_textures)
 
 
@@ -76,7 +80,7 @@ DanceXRはVMDおよびBVH形式のモーションをサポートしています�
 
 ## 環境
 * [空と雲](features/skymap)
-* [地面、ステージ、水システム](features/ground)
+* [地面、ステージ、および水システム](features/ground)
 * [パーティクルシステム](features/particles)
 * 照明
 * [自動更新値](features/autoupdate)<sup>PRO</sup>
@@ -90,9 +94,9 @@ DanceXRはVMDおよびBVH形式のモーションをサポートしています�
 
 ## システム
 * [コンテンツライブラリ](preparecontent)
-* [Google Driveの統合](features/googledrive)
-* [Android、Quest、Pico向けのコンテンツライブラリ](content_android_quest)
-* [ディスプレイとUI](features/display_settings)
+* [Googleドライブの統合](features/googledrive)
+* [Android、Quest、およびPico向けのコンテンツライブラリ](content_android_quest)
+* [表示とUI](features/display_settings)
 * [グラフィック設定](features/graphics)
 * 言語
 * [入力設定](features/controls)

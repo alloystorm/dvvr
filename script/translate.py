@@ -24,6 +24,8 @@ dst_paths = {
 
 # Function to call OpenAI API for translation
 def translate(text, target_language):
+    text = text.replace("permalink: /dancexr/", f"permalink: /{target_language}/dancexr/")
+    text = text.replace("nav: \"docs\"", f"nav: \"docs-{target_language}\"")
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",
