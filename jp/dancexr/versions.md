@@ -33,6 +33,7 @@ Proバージョンには、オフラインレンダリングやビデオキャ�
 Patreon、Itch.io、Steamで利用できます。
 
 利用可能なプラットフォームは以下の通りです。
+
 | プラットフォーム＆ティア | Pure | Pro | RT | Creator | Quest / Pico | Android |
 | --- | --- | --- | --- | --- | --- | --- | 
 | Patreon Patronティア |  | * | |  |  | |

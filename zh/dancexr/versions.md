@@ -33,6 +33,7 @@ Pro版本具有所有功能，除了Creator特定功能，如离线渲染和视�
 我们在Patreon、Itch.io和Steam上提供。
 
 可用性如下所示：
+
 | 平台和层级 | Pure | Pro | RT | Creator | Quest / Pico | Android |
 | --- | --- | --- | --- | --- | --- | --- | 
 | Patreon Patron层级 |  | * | |  |  | |
