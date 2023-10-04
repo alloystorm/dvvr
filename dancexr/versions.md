@@ -33,6 +33,7 @@ Pro version has all features excpet Creator specific features like offline rende
 We are available on Patreon, Itch.io and Steam.
 
 Availability are listed as below
+
 | Platform & Tier | Pure | Pro | RT | Creator | Quest / Pico | Android |
 | --- | --- | --- | --- | --- | --- | --- | 
 | Patreon Patron Tier |  | * | |  |  | |
