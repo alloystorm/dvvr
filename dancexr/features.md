@@ -12,13 +12,13 @@ We support PMX and XPS for character models and PMX, XPS or OBJ for stages and p
 
 ### Managing Models
 * [Tagging and Search](features/tagging)
-* [Basic Controls, Move, Rotate, Scale, Duplicate and Remove](features/actor_tools)
 * [Model Cache & Loader Options](features/loader_options)
 * [Formation](features/formation)
 * [Playlists](features/actor_playlist)
 
 
 ### Character Model Settings
+* [Actor Menu & Actor Tools](features/actor_tools)
 * [Material Settings](features/material_settings)
 * [Dressing System (Material Morphs and XPS Optionals)](features/optionals)
 * [Blink, Breath and Eye Contact](features/eyecontact)
@@ -27,14 +27,16 @@ We support PMX and XPS for character models and PMX, XPS or OBJ for stages and p
 
 
 ### Advanced Model Features
-* [Outfit & Body Paint](features/outfit_body_paint)<sup>PRO</sup>
-* [Motion Override](features/motion_override)<sup>PRO</sup>
-* [Boob Shake & Sex Overlay](features/boob_shake_sex_overlay)<sup>PRO</sup>
-
+* [Outfit & Body Paint<sup>PRO</sup>](features/outfit_body_paint)
+* [Motion Override<sup>PRO</sup>](features/motion_override)
+* [Boob Shake & Sex Overlay<sup>PRO</sup>](features/boob_shake_sex_overlay)
+* Accessory<sup>PRO</sup>
+* Ragdoll<sup>PRO</sup>
+* Dildo<sup>PRO</sup>
 
 ### XPS Specific
 * [Bone Mapper](features/bone_mapper.md)
-* [XPS Physics](features/xps_physics)<sup>PRO</sup>
+* [XPS Physics<sup>PRO</sup>](features/xps_physics)
 * [Alternative Textures](features/alternative_textures)
 
 
