@@ -23,22 +23,24 @@ We support PMX and XPS for character models and PMX, XPS or OBJ for stages and p
 * [Actor Menu & Actor Tools](features/actor_tools)
 * [Material Settings](features/material_settings)
 * [Dressing System (Material Morphs and XPS Optionals)](features/optionals)
+* [Alternative Textures](features/alternative_textures)
+* [Material Settings](features/material_settings)
+* [Facial Control](features/facial_control)
 * [Blink, Breath and Eye Contact](features/eyecontact)
-* Feet Adjustments
-* Troubleshooting Options
-
+* [Feet Adjustments](features/feet_adjustments)
+* [Troubleshooting Options](features/troubleshooting_options)
 
 ### Advanced Model Features
-* [Outfit & Body Paint<sup>PRO</sup>](features/outfit_body_paint)
-* [Motion Override<sup>PRO</sup>](features/motion_override)
-* [Boob Shake & Sex Overlay<sup>PRO</sup>](features/boob_shake_sex_overlay){: .nsfw}
-* Accessory<sup>PRO</sup>
-* Ragdoll<sup>PRO</sup>
-* [Dildo<sup>PRO</sup>](features/dildo){: .nsfw}
+* [Outfit & Body Paint<sup>[PRO]</sup>](features/outfit_body_paint){: .pro}
+* [Motion Override<sup>[PRO]</sup>](features/motion_override){: .pro}
+* Accessory<sup>[PRO]</sup>
+* Ragdoll<sup>[PRO]</sup>
+* [Boob Shake & Sex Overlay<sup>[PRO]</sup>](features/boob_shake_sex_overlay){: .nsfw}
+* [Dildo<sup>[PRO]</sup>](features/dildo){: .nsfw}
 
 ### XPS Specific
 * [Bone Mapper](features/bone_mapper.md)
-* [XPS Physics<sup>PRO</sup>](features/xps_physics)
+* [XPS Physics<sup>[PRO]</sup>](features/xps_physics){: .pro}
 * [Alternative Textures](features/alternative_textures)
 
 
@@ -71,11 +73,11 @@ DanceXR supports motions in both VMD and BVH formats.
 ### Procedural Motions
 * Idle Motion
 * Catwalk
-* Auto Dance<sup>PRO</sup>
-* Auto Dance 2<sup>PRO</sup>
-* Cowgirl Sex<sup>PRO</sup>{: .nsfw}
-* Sex From Behind<sup>PRO</sup>{: .nsfw}
-* Sex Motion 3<sup>PRO</sup>{: .nsfw}
+* [Auto Dance<sup>[PRO]</sup>](features/autodance){: .pro}
+* [Auto Dance 2<sup>[PRO]</sup>](features/autodance2){: .pro}
+* [Cowgirl Sex<sup>[PRO]</sup>](features/scg_motion){: .nsfw}
+* [Sex From Behind<sup>[PRO]</sup>](features/sfb_motion){: .nsfw}
+* [Sex Motion 3<sup>[PRO]</sup>](features/sm3_motion){: .nsfw}
 
 
 ## Environment
@@ -83,7 +85,7 @@ DanceXR supports motions in both VMD and BVH formats.
 * [Ground, Stage & Water System](features/ground)
 * [Particle System](features/particles)
 * Lighting
-* [Auto Update Values](features/autoupdate)<sup>PRO</sup>
+* [Auto Update Values<sup>[PRO]</sup>](features/autoupdate){: .pro}
 
 ## Scene
 * [Camera](features/camera)
@@ -102,11 +104,11 @@ DanceXR supports motions in both VMD and BVH formats.
 * [Input Settings](features/controls)
 * [Physics Config](features/system_physics)
 * App Settings
-* [Auto Update](features/autoupdate)<sup>PRO</sup>
+* [Auto Update<sup>[PRO]</sup>](features/autoupdate){: .pro}
 
 ## Creator Edition
-[Offline Render & Recording](creator.md)<sup>CREATOR</sup>
+[Offline Render & Recording<sup>[CREATOR]</sup>](creator.md){: .creator}
 
 ## AI Voice Chat
-[AI Voice Chat](ai_chat)<sup>PRO</sup>
+[AI Voice Chat<sup>[PRO]</sup>](ai_chat){: .pro}
 

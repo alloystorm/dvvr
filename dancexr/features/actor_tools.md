@@ -4,6 +4,8 @@ title: Actor Menu & Tools
 toc: true
 ---
 
+[English](/dancexr/features/actor_tools.md) | [简体中文](/zh/dancexr/features/actor_tools.md) | [日本語](/jp/dancexr/features/actor_tools.md)
+
 ## Basic Operations
 These are the basic operations you can do to manipulate actor models.
 
@@ -42,8 +44,8 @@ The following are links to the detailed documentation for each of the settings.
 * Motin Assign & Settings
 * Recently Modified Settings
 * [Dressing System (Material Morphs and XPS Optionals)](optionals)
-* [Bone Mapper (XPS Only)](features/bone_mapper.md)
-* [Alternative Textures](features/alternative_textures)
+* [Bone Mapper (XPS Only)](bone_mapper.md)
+* [Alternative Textures](alternative_textures)
 * Materials
     * Skin
     * Hair
@@ -60,8 +62,8 @@ The following are links to the detailed documentation for each of the settings.
     * Accessory
     * Ragdoll
     * [Motion Override](motion_override)
-    * [Boob Shake & Sex Overlay](features/boob_shake_sex_overlay){: .nsfw}
-    * Dildo{: .nsfw}
+    * [Boob Shake & Sex Overlay](boob_shake_sex_overlay){: .nsfw}
+    * [Dildo](dildo){: .nsfw}
     * Light Ball
     * [XPS Physics (XPS Only)](xps_physics)
 * Morph List (PMX Only)
