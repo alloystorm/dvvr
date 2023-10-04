@@ -6,6 +6,8 @@ sidebar:
   nav: "docs"
 ---
 
+[English](/dancexr/ai_chat) | [简体中文](/zh/dancexr/ai_chat) | [日本語](/jp/dancexr/ai_chat)
+
 ## AI Powered Voice Chat
 
 ### Key features

@@ -6,6 +6,8 @@ sidebar:
   nav: "docs"
 ---
 
+[English](/dancexr/versions) | [简体中文](/zh/dancexr/versions) | [日本語](/jp/dancexr/versions)
+
 ## Overview
 DanceXR comes in different versions with different feature sets and render techniques to suite capabilities on different platforms.
 

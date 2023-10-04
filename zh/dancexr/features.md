@@ -7,7 +7,7 @@ sidebar:
   nav: "docs-zh"
 ---
 
-[English](/dancexr/features) | [简体中文](/zh/dancexr/features) | [日本語](/ja/dancexr/features)
+[English](/dancexr/features) | [简体中文](/zh/dancexr/features) | [日本語](/jp/dancexr/features)
 
 ## 模型
 我们支持 PMX 和 XPS 格式的角色模型，以及 PMX、XPS 或 OBJ 格式的舞台和道具。
@@ -29,21 +29,21 @@ sidebar:
 
 
 ### 高级模型功能
-* [服装和身体绘画<sup>PRO</sup>](features/outfit_body_paint)
+* [服装和身体绘制<sup>PRO</sup>](features/outfit_body_paint)
 * [动作覆盖<sup>PRO</sup>](features/motion_override)
-* [胸部晃动和性交叠加<sup>PRO</sup>](features/boob_shake_sex_overlay)
+* [胸部晃动和性别叠加<sup>PRO</sup>](features/boob_shake_sex_overlay)
 * 饰品<sup>PRO</sup>
 * 布娃娃<sup>PRO</sup>
 * 假阳具<sup>PRO</sup>
 
 ### XPS 特定功能
 * [骨骼映射器](features/bone_mapper.md)
-* [XPS 物理效果<sup>PRO</sup>](features/xps_physics)
+* [XPS 物理<sup>PRO</sup>](features/xps_physics)
 * [替代纹理](features/alternative_textures)
 
 
 ### PMX 特定功能
-* [PMX 物理效果](features/pmx_physics)
+* [PMX 物理](features/pmx_physics)
 
 
 ### 舞台模型设置
@@ -63,7 +63,7 @@ DanceXR 支持 VMD 和 BVH 格式的动作。
 
 ### VMD 和 BVH 动作
 * [舞蹈集](features/dance_set)
-* [时机和节拍](features/music_timing)
+* [节奏和拍子](features/music_timing)
 * [动作设置](features/motion_settings)
 
 
@@ -72,16 +72,16 @@ DanceXR 支持 VMD 和 BVH 格式的动作。
 * 走秀
 * 自动舞蹈<sup>PRO</sup>
 * 自动舞蹈 2<sup>PRO</sup>
-* 骑乘位性交<sup>PRO</sup>
-* 背后性交<sup>PRO</sup>
-* 性动作 3<sup>PRO</sup>
+* 骑乘位性爱<sup>PRO</sup>
+* 背后性爱<sup>PRO</sup>
+* 性爱动作 3<sup>PRO</sup>
 
 
 ## 环境
 * [天空和云](features/skymap)
 * [地面、舞台和水系统](features/ground)
 * [粒子系统](features/particles)
-* 照明
+* 灯光
 * [自动更新数值](features/autoupdate)<sup>PRO</sup>
 
 ## 场景
