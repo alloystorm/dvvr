@@ -35,12 +35,12 @@ We are available on Patreon, Itch.io and Steam.
 Availability are listed as below
 | Platform & Tier | Pure | Pro | RT | Creator | Quest / Pico | Android |
 | --- | --- | --- | --- | --- | --- | --- | 
-| Patreon Patron Tier |  | * | |  |  
-| Patreon Pro Tier |  | * | * |  | * 
-| Patreon Creator Tier |  | * | * | * | *
-| Itch.io PC | | * |
-| Itch.io Quest | | | | | *
-| Itch.io Android Pro | | | | | | * 
-| Steam Pure | * | | 
-| Steam Pro | | * 
-| Steam Raytracing | | * | *
+| Patreon Patron Tier |  | * | |  |  | |
+| Patreon Pro Tier |  | * | * |  | * | |
+| Patreon Creator Tier |  | * | * | * | * | |
+| Itch.io PC | | * | | | | |
+| Itch.io Quest | | | | | * | |
+| Itch.io Android Pro | | | | | | * |
+| Steam Pure | * | | | | | |
+| Steam Pro | | * | | | | |
+| Steam Raytracing | | * | * | | | |
