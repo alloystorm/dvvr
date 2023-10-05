@@ -5,9 +5,6 @@ toc: true
 ---
 [English](/dancexr/features/facial_control) | [简体中文](/zh/dancexr/features/facial_control) | [日本語](/jp/dancexr/features/facial_control)
 
-
-[英文](/dancexr/features/facial_control) | [简体中文](/zh/dancexr/features/facial_control) | [日本語](/jp/dancexr/features/facial_control)
-
 ## 概述
 面部控制允许您预览面部变形并微调模型的XPS面部设置。
 
