@@ -5,7 +5,7 @@ description: Universal character model viewer and motion player
 google_analytics: UA-147265380-2
 include: app-ads.txt
 logo: /images/icon.png
-breadcrumbs: false
+breadcrumbs: true
 url: https://vrstormlab.com/
 
 analytics:
