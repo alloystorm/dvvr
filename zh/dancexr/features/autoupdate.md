@@ -3,6 +3,8 @@ layout: single
 title: 自动更新
 toc: true
 ---
+[English](/dancexr/features/autoupdate) | [简体中文](/zh/dancexr/features/autoupdate) | [日本語](/jp/dancexr/features/autoupdate)
+
 
 ## 概述
 自动更新是一个令人惊叹的功能，它允许您根据各种数据源（如时间轴、音频频谱、自定义输入等）来动画配置更改。

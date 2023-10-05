@@ -3,6 +3,8 @@ layout: single
 title: 材质设置
 toc: true
 ---
+[English](/dancexr/features/material_settings) | [简体中文](/zh/dancexr/features/material_settings) | [日本語](/jp/dancexr/features/material_settings)
+
 
 ## 材质列表的组织方式
 

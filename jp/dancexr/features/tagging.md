@@ -3,6 +3,8 @@ layout: single
 title: タグ付け
 toc: true
 ---
+[English](/dancexr/features/tagging) | [简体中文](/zh/dancexr/features/tagging) | [日本語](/jp/dancexr/features/tagging)
+
 
 ## 概要
 DanceXRでは、アクターモデルとダンスモーションにタグを付けて、管理や検索を容易にすることができます。

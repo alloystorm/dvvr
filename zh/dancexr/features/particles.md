@@ -3,6 +3,8 @@ layout: single
 title: 粒子系统
 toc: true
 ---
+[English](/dancexr/features/particles) | [简体中文](/zh/dancexr/features/particles) | [日本語](/jp/dancexr/features/particles)
+
 
 ## 概述
 粒子系统可以用来创建雨、雪、闪光等效果。

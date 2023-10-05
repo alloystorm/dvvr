@@ -3,6 +3,8 @@ layout: single
 title: 控制
 toc: true
 ---
+[English](/dancexr/features/controls) | [简体中文](/zh/dancexr/features/controls) | [日本語](/jp/dancexr/features/controls)
+
 
 ## 概述
 DanceXR的输入映射基于流行的VR控制器和游戏手柄。

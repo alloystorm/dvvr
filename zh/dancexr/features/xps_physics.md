@@ -3,6 +3,8 @@ layout: single
 title: XPS物理学
 toc: true
 ---
+[English](/dancexr/features/xps_physics) | [简体中文](/zh/dancexr/features/xps_physics) | [日本語](/jp/dancexr/features/xps_physics)
+
 
 ## XPS模型特定设置
 XPS模型不带有物理定义，因此程序不知道在哪里添加物理组件。为了解决这个问题，为每个XPS模型添加了几个物理设置，供您配置XPS模型上的物理组件。

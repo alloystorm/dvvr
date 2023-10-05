@@ -3,6 +3,8 @@ layout: single
 title: Remix Motion
 toc: true
 ---
+[English](/dancexr/features/remix) | [简体中文](/zh/dancexr/features/remix) | [日本語](/jp/dancexr/features/remix)
+
 
 ## 概述
 在DanceXR中，Remix意味着使用一个舞蹈集的动作数据和另一个舞蹈集的音频，并自动调整动作速度以匹配音乐。

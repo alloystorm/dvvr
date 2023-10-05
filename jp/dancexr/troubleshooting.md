@@ -6,6 +6,8 @@ locale: ja-JP
 sidebar:
   nav: "docs-jp"
 ---
+[English](/dancexr/troubleshooting) | [简体中文](/zh/dancexr/troubleshooting) | [日本語](/jp/dancexr/troubleshooting)
+
 
 ## バグの報告
 適切に管理するために、[GitHubの問題トラッカー](https://github.com/alloystorm/dvvr/issues)でバグを報告することをお勧めします。

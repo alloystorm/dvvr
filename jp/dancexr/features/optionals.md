@@ -3,6 +3,8 @@ layout: single
 title: ドレッシングシステム（マテリアルモーフとXPSオプションアイテム）
 toc: true
 ---
+[English](/dancexr/features/optionals) | [简体中文](/zh/dancexr/features/optionals) | [日本語](/jp/dancexr/features/optionals)
+
 
 ## 概要
 「ドレッシングシステム」は、PMXモデルのマテリアルモーフとXPSモデルのオプションアイテムを組み合わせたものです。

@@ -5,6 +5,8 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
+[English](/dancexr/ai_chat) | [简体中文](/zh/dancexr/ai_chat) | [日本語](/jp/dancexr/ai_chat)
+
 
 [英語](/dancexr/ai_chat) | [简体中文](/zh/dancexr/ai_chat) | [日本語](/jp/dancexr/ai_chat)
 

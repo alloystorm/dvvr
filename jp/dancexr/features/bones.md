@@ -3,6 +3,8 @@ layout: single
 title: 例の骨構造
 toc: true
 ---
+[English](/dancexr/features/bones) | [简体中文](/zh/dancexr/features/bones) | [日本語](/jp/dancexr/features/bones)
+
 ## 概要
 
 最大の互換性を目指している一方で、MMDには厳格な基準がないため、すべてと互換性を持つことは非常に困難であることを知っておくことも重要です。

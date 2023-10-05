@@ -3,6 +3,8 @@ layout: single
 title: オプションの読み込み
 toc: true
 ---
+[English](/dancexr/features/loader_options) | [简体中文](/zh/dancexr/features/loader_options) | [日本語](/jp/dancexr/features/loader_options)
+
 
 ## 概要
 ローダーオプションは、アクターモデルを読み込む際のオプションを含み、アクターキャッシュの管理を提供します。

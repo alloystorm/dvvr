@@ -3,6 +3,8 @@ layout: single
 title: 替代纹理
 toc: true
 ---
+[English](/dancexr/features/alternative_textures) | [简体中文](/zh/dancexr/features/alternative_textures) | [日本語](/jp/dancexr/features/alternative_textures)
+
 
 ## 概述
 替代纹理是一组可以替换模型默认纹理的纹理集。

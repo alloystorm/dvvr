@@ -3,6 +3,8 @@ layout: single
 title: XPS骨骼映射器
 toc: true
 ---
+[English](/dancexr/features/bone_mapper) | [简体中文](/zh/dancexr/features/bone_mapper) | [日本語](/jp/dancexr/features/bone_mapper)
+
 
 ## 概述
 XPS模型需要进行骨骼映射，以便动画和其他功能能够找到正确的骨骼。

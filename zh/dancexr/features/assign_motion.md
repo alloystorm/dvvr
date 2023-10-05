@@ -3,6 +3,8 @@ layout: single
 title: 分配动作
 toc: true
 ---
+[English](/dancexr/features/assign_motion) | [简体中文](/zh/dancexr/features/assign_motion) | [日本語](/jp/dancexr/features/assign_motion)
+
 
 ## 从动作菜单中
 动作菜单列出了所有已加载并准备好使用的动作。它也是您加载动作的入口。

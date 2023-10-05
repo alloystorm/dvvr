@@ -3,6 +3,8 @@ layout: single
 title: 服装和身体彩绘
 toc: true
 ---
+[English](/dancexr/features/outfit_body_paint) | [简体中文](/zh/dancexr/features/outfit_body_paint) | [日本語](/jp/dancexr/features/outfit_body_paint)
+
 
 ## 服装和身体彩绘概述
 这个功能允许您通过在身体和服装上绘画来改变演员的外观。您还可以使用它来创建自定义的服装图案。

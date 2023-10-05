@@ -3,6 +3,8 @@ layout: single
 title: 瞬き、呼吸、目線
 toc: true
 ---
+[English](/dancexr/features/eyecontact) | [简体中文](/zh/dancexr/features/eyecontact) | [日本語](/jp/dancexr/features/eyecontact)
+
 
 ## 目線
 基本的に、人間の相互作用の自然な目線を実現しようとしています。

@@ -3,6 +3,8 @@ layout: single
 title: モーションオーバーライド
 toc: true
 ---
+[English](/dancexr/features/motion_override) | [简体中文](/zh/dancexr/features/motion_override) | [日本語](/jp/dancexr/features/motion_override)
+
 
 ## モーションオーバーライドの概要
 モーションオーバーライドは、特定の体の部位のモーションを制御する機能です。俳優のモーションを制限したり、ダンスの動きにモーションを追加したり、特定の体の部位のモーションを変更することができます。

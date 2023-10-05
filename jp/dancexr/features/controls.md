@@ -3,6 +3,8 @@ layout: single
 title: コントロール
 toc: true
 ---
+[English](/dancexr/features/controls) | [简体中文](/zh/dancexr/features/controls) | [日本語](/jp/dancexr/features/controls)
+
 
 ## 概要
 DanceXRの入力マッピングは、人気のあるVRコントローラーやゲームパッドに基づいています。

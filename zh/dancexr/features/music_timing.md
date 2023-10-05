@@ -3,6 +3,8 @@ layout: single
 title: 音乐节奏
 toc: true
 ---
+[English](/dancexr/features/music_timing) | [简体中文](/zh/dancexr/features/music_timing) | [日本語](/jp/dancexr/features/music_timing)
+
 
 ## 概述
 音乐节奏信息对于所有的程序化动作非常重要，因为它用于将动作与音乐匹配。如果没有它，BPM（每分钟节拍数）默认为120，与音乐不会同步。

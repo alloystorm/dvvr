@@ -3,6 +3,8 @@ layout: single
 title: グラフィックス
 toc: true
 ---
+[English](/dancexr/features/graphics) | [简体中文](/zh/dancexr/features/graphics) | [日本語](/jp/dancexr/features/graphics)
+
 
 ## 特殊なレンダリングモード：デプスとノーマル
 {% include video id="fKxTDq88gBk" provider="youtube" %}

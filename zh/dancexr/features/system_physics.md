@@ -3,6 +3,8 @@ layout: single
 title: 系统物理
 toc: true
 ---
+[English](/dancexr/features/system_physics) | [简体中文](/zh/dancexr/features/system_physics) | [日本語](/jp/dancexr/features/system_physics)
+
 
 ## 系统范围的物理设置
 您可以在设置 -> 选项 -> 物理中找到系统范围的物理设置。

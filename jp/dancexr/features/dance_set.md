@@ -3,6 +3,8 @@ layout: single
 title: ダンスセット
 toc: true
 ---
+[English](/dancexr/features/dance_set) | [简体中文](/zh/dancexr/features/dance_set) | [日本語](/jp/dancexr/features/dance_set)
+
 
 ## 概要
 ダンスセットは、音声アクターのモーションとカメラのモーション（利用可能な場合）のコレクションです。

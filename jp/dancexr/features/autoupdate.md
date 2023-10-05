@@ -3,6 +3,8 @@ layout: single
 title: 自動更新
 toc: true
 ---
+[English](/dancexr/features/autoupdate) | [简体中文](/zh/dancexr/features/autoupdate) | [日本語](/jp/dancexr/features/autoupdate)
+
 
 ## 概要
 自動更新は、タイムライン、オーディオスペクトル、カスタム入力などのさまざまなデータソースに基づいて構成変更をアニメーション化することができる素晴らしい機能です。

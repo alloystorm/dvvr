@@ -3,6 +3,8 @@ layout: single
 title: 示例骨骼结构
 toc: true
 ---
+[English](/dancexr/features/bones) | [简体中文](/zh/dancexr/features/bones) | [日本語](/jp/dancexr/features/bones)
+
 ## 概述
 
 虽然我们的目标是最大兼容性，但也很重要要知道MMD没有严格的标准，这使得它很难与所有东西兼容。

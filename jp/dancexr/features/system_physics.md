@@ -3,6 +3,8 @@ layout: single
 title: システム物理学
 toc: true
 ---
+[English](/dancexr/features/system_physics) | [简体中文](/zh/dancexr/features/system_physics) | [日本語](/jp/dancexr/features/system_physics)
+
 
 ## システム全体の物理設定
 システム全体の物理設定は、設定→オプション→物理学の順に見つけることができます。

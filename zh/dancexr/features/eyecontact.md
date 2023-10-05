@@ -3,6 +3,8 @@ layout: single
 title: 眨眼、呼吸和眼神交流
 toc: true
 ---
+[English](/dancexr/features/eyecontact) | [简体中文](/zh/dancexr/features/eyecontact) | [日本語](/jp/dancexr/features/eyecontact)
+
 
 ## 眼神交流
 基本上，我们试图实现人类互动的自然眼神交流。

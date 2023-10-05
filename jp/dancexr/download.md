@@ -1,3 +1,12 @@
+---
+layout: single
+title: Download
+toc: true
+sidebar:
+  nav: "docs-jp"
+---
+[English](/dancexr/download) | [简体中文](/zh/dancexr/download) | [日本語](/jp/dancexr/download)
+
 ## 無料版ダウンロード
 
 [DanceXR 1.4.7 HD](https://www.patreon.com/posts/release-1-4-7-87008597){: .dlbtn .patreon} 

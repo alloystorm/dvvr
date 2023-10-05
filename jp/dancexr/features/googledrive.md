@@ -3,6 +3,8 @@ layout: single
 title: Google Driveの統合
 toc: true
 ---
+[English](/dancexr/features/googledrive) | [简体中文](/zh/dancexr/features/googledrive) | [日本語](/jp/dancexr/features/googledrive)
+
 
 ## Google Driveの統合
 {% include video id="N7o0CdbFvD4" provider="youtube" %}

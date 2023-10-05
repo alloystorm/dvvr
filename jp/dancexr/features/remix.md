@@ -3,6 +3,8 @@ layout: single
 title: リミックスモーション
 toc: true
 ---
+[English](/dancexr/features/remix) | [简体中文](/zh/dancexr/features/remix) | [日本語](/jp/dancexr/features/remix)
+
 
 ## 概要
 DanceXRにおけるリミックスは、1つのダンスセットからモーションデータを使用し、別のオーディオから音楽に合わせてモーションの速度を自動的に調整することを意味します。

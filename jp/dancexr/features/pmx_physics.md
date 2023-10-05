@@ -3,6 +3,8 @@ layout: single
 title: PMX物理
 toc: true
 ---
+[English](/dancexr/features/pmx_physics) | [简体中文](/zh/dancexr/features/pmx_physics) | [日本語](/jp/dancexr/features/pmx_physics)
+
 
 ## PMXモデル固有の設定
 モデル固有の物理設定は、モデル設定->オプション->物理にあります。

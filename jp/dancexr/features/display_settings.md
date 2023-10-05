@@ -3,6 +3,8 @@ layout: single
 title: 表示設定
 toc: true
 ---
+[English](/dancexr/features/display_settings) | [简体中文](/zh/dancexr/features/display_settings) | [日本語](/jp/dancexr/features/display_settings)
+
 
 ## 概要
 表示設定では、UI、画面解像度、フレームレートに関する設定を変更することができます。

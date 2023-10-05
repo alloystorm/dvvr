@@ -3,6 +3,8 @@ layout: single
 title: 地面
 toc: true
 ---
+[English](/dancexr/features/ground) | [简体中文](/zh/dancexr/features/ground) | [日本語](/jp/dancexr/features/ground)
+
 
 ## 地面模式
 您可以使用纹理表面或天空地图作为地面。

@@ -3,6 +3,8 @@ layout: single
 title: XPSボーンマッパー
 toc: true
 ---
+[English](/dancexr/features/bone_mapper) | [简体中文](/zh/dancexr/features/bone_mapper) | [日本語](/jp/dancexr/features/bone_mapper)
+
 
 ## 概要
 XPSモデルでは、アニメーションやその他の機能が正しいボーンを見つけるために、ボーンマッピングが必要です。

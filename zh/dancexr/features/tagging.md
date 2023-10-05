@@ -3,6 +3,8 @@ layout: single
 title: 标签
 toc: true
 ---
+[English](/dancexr/features/tagging) | [简体中文](/zh/dancexr/features/tagging) | [日本語](/jp/dancexr/features/tagging)
+
 
 ## 概述
 DanceXR允许您为演员模型和舞蹈动作创建标签，以便更容易管理和检索它们。

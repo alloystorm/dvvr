@@ -3,6 +3,8 @@ layout: single
 title: グラウンド
 toc: true
 ---
+[English](/dancexr/features/ground) | [简体中文](/zh/dancexr/features/ground) | [日本語](/jp/dancexr/features/ground)
+
 
 ## グラウンドモード
 テクスチャのある地表面またはスカイマップを使用することができます。

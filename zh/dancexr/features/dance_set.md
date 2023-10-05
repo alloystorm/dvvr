@@ -3,6 +3,8 @@ layout: single
 title: 舞蹈集
 toc: true
 ---
+[English](/dancexr/features/dance_set) | [简体中文](/zh/dancexr/features/dance_set) | [日本語](/jp/dancexr/features/dance_set)
+
 
 ## 概述
 舞蹈集是一组包含音频演员动作和摄像机动作（如果有的话）的集合。

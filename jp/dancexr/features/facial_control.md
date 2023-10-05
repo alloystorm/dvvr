@@ -3,6 +3,8 @@ layout: single
 title: 顔の制御
 toc: true
 ---
+[English](/dancexr/features/facial_control) | [简体中文](/zh/dancexr/features/facial_control) | [日本語](/jp/dancexr/features/facial_control)
+
 
 [英語](/dancexr/features/facial_control) | [简体中文](/zh/dancexr/features/facial_control) | [日本語](/jp/dancexr/features/facial_control)
 

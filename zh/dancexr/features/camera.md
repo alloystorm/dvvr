@@ -3,6 +3,8 @@ layout: single
 title: 相机
 toc: true
 ---
+[English](/dancexr/features/camera) | [简体中文](/zh/dancexr/features/camera) | [日本語](/jp/dancexr/features/camera)
+
 
 ## 概述
 我们有5种过程化相机运动可用，您还可以使用加载的舞蹈动作中的相机运动（如果有）。

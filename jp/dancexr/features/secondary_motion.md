@@ -3,6 +3,8 @@ layout: single
 title: セカンダリモーション
 toc: true
 ---
+[English](/dancexr/features/secondary_motion) | [简体中文](/zh/dancexr/features/secondary_motion) | [日本語](/jp/dancexr/features/secondary_motion)
+
 ## 概要
 アクターには最大2つのモーションを割り当てることができ、モーションを混ぜ合わせることができます。通常、これは体のモーションと顔の動きのために使用されます。
 

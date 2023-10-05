@@ -3,6 +3,8 @@ layout: single
 title: 运动设置
 toc: true
 ---
+[English](/dancexr/features/motion_settings) | [简体中文](/zh/dancexr/features/motion_settings) | [日本語](/jp/dancexr/features/motion_settings)
+
 
 ## 概述
 运动设置允许您选择动作是T形还是A形，调整运动速度并更改循环选项。

@@ -3,6 +3,8 @@ layout: single
 title: 显示设置
 toc: true
 ---
+[English](/dancexr/features/display_settings) | [简体中文](/zh/dancexr/features/display_settings) | [日本語](/jp/dancexr/features/display_settings)
+
 
 ## 概述
 显示设置允许您更改有关用户界面（UI）、屏幕分辨率和帧率的配置。

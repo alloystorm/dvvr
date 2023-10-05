@@ -1,3 +1,13 @@
+---
+layout: single
+title: FAQ
+toc: true
+sidebar:
+  nav: "docs-jp"
+---
+[English](/dancexr/faq) | [简体中文](/zh/dancexr/faq) | [日本語](/jp/dancexr/faq)
+
+
 ## UIやカメラの制御はできません、ただし空のみ表示されます。
 これは通常、起動時に何か問題が発生していることを示しています。以下の方法を試してみることができます：
 * license.txtファイルを削除してみて、動作するか確認してください。

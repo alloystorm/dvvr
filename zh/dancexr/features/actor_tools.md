@@ -4,7 +4,7 @@ title: 演员菜单和工具
 toc: true
 ---
 
-[English](/dancexr/features/actor_tools.md) | [简体中文](/zh/dancexr/features/actor_tools.md) | [日本語](/jp/dancexr/features/actor_tools.md)
+[English](/dancexr/features/actor_tools) | [简体中文](/zh/dancexr/features/actor_tools) | [日本語](/jp/dancexr/features/actor_tools)
 
 ## 鼠标和指针交互
 以下是您可以使用鼠标和VR指针进行的操作。

@@ -3,6 +3,8 @@ layout: single
 title: 加载选项
 toc: true
 ---
+[English](/dancexr/features/loader_options) | [简体中文](/zh/dancexr/features/loader_options) | [日本語](/jp/dancexr/features/loader_options)
+
 
 ## 概述
 加载选项包含在加载演员模型时的选项，并提供演员缓存的管理。

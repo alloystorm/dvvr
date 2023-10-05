@@ -3,8 +3,10 @@ layout: single
 title: クリエイターエディション
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-jp"
 ---
+[English](/dancexr/creator) | [简体中文](/zh/dancexr/creator) | [日本語](/jp/dancexr/creator)
+
 
 # クリエイターエディション
 

@@ -3,6 +3,8 @@ layout: single
 title: 运动覆盖
 toc: true
 ---
+[English](/dancexr/features/motion_override) | [简体中文](/zh/dancexr/features/motion_override) | [日本語](/jp/dancexr/features/motion_override)
+
 
 ## 运动覆盖概述
 运动覆盖是一项功能，允许您接管身体的某些部分的运动。您可以使用它来限制演员的运动，为舞蹈动作添加动作或更改特定身体部位的运动。

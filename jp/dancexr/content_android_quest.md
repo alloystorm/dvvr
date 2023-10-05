@@ -1,3 +1,10 @@
+---
+layout: single
+title: Content Library For Android & Quest / Pico
+toc: true
+sidebar:
+  nav: "docs-jp"
+---
 ## AndroidとOculus Quest向けのコンテンツの準備
 
 PC版と同様に、DanceXRはモデル、モーション、テクスチャのすべてを見つけるためにコンテンツフォルダの準備が必要です。ただし、Androidでは、特別な許可がない限り、アプリは特定のフォルダにしかアクセスできません。したがって、AndroidとOculus Questのプラットフォームでは、PCのようにコンテンツフォルダを選択することはできません。コンテンツは特定の場所に配置する必要があります。

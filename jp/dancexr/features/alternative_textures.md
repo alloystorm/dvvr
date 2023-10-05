@@ -3,6 +3,8 @@ layout: single
 title: 代替テクスチャ
 toc: true
 ---
+[English](/dancexr/features/alternative_textures) | [简体中文](/zh/dancexr/features/alternative_textures) | [日本語](/jp/dancexr/features/alternative_textures)
+
 
 ## 概要
 代替テクスチャは、モデルのデフォルトのテクスチャを置き換えることができるテクスチャのセットです。

@@ -3,6 +3,8 @@ layout: single
 title: 二次动作
 toc: true
 ---
+[English](/dancexr/features/secondary_motion) | [简体中文](/zh/dancexr/features/secondary_motion) | [日本語](/jp/dancexr/features/secondary_motion)
+
 ## 概述
 您可以为一个角色分配最多两个动作，以便混合这些动作在一起。通常情况下，这是在您有一个用于身体动作和另一个用于面部动作时使用的。
 

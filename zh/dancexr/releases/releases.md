@@ -7,6 +7,8 @@ toc: true
 sidebar:
   nav: "docs-zh"
 ---
+[English](/dancexr/releases/releases) | [简体中文](/zh/dancexr/releases/releases) | [日本語](/jp/dancexr/releases/releases)
+
 
 {% include nav_list nav="releases-zh" %}
 

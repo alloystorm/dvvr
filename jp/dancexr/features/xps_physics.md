@@ -3,6 +3,8 @@ layout: single
 title: XPS物理学
 toc: true
 ---
+[English](/dancexr/features/xps_physics) | [简体中文](/zh/dancexr/features/xps_physics) | [日本語](/jp/dancexr/features/xps_physics)
+
 
 ## XPSモデル固有の設定
 XPSモデルには物理学の定義が付属していないため、プログラムはどこに物理学のコンポーネントを追加すべきかわかりません。そのため、XPSモデルごとにいくつかの物理学の設定が追加されており、XPSモデル上で物理学のコンポーネントを設定できるようになっています。

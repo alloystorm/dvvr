@@ -3,6 +3,8 @@ layout: single
 title: 足の調整
 toc: true
 ---
+[English](/dancexr/features/feet_adjustments) | [简体中文](/zh/dancexr/features/feet_adjustments) | [日本語](/jp/dancexr/features/feet_adjustments)
+
 
 [英語](/dancexr/features/feet_adjustments) | [简体中文](/zh/dancexr/features/feet_adjustments) | [日本語](/jp/dancexr/features/feet_adjustments)
 

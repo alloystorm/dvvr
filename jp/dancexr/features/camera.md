@@ -3,6 +3,8 @@ layout: single
 title: カメラ
 toc: true
 ---
+[English](/dancexr/features/camera) | [简体中文](/zh/dancexr/features/camera) | [日本語](/jp/dancexr/features/camera)
+
 
 ## 概要
 利用可能な手続き型カメラモーションは5つあり、また、利用可能な場合はロードされたダンスモーションからもカメラモーションを使用することができます。

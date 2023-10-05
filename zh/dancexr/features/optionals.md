@@ -3,6 +3,8 @@ layout: single
 title: 穿衣系统（材质变形和XPS可选物品）
 toc: true
 ---
+[English](/dancexr/features/optionals) | [简体中文](/zh/dancexr/features/optionals) | [日本語](/jp/dancexr/features/optionals)
+
 
 ## 概述
 “穿衣系统”结合了PMX模型的材质变形和XPS模型的可选物品。

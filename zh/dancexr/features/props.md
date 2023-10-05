@@ -3,6 +3,8 @@ layout: single
 title: 道具
 toc: true
 ---
+[English](/dancexr/features/props) | [简体中文](/zh/dancexr/features/props) | [日本語](/jp/dancexr/features/props)
+
 
 ## 新的道具功能
 * 现在您可以从内置模型或带有“道具”标签的模型库中向场景中添加道具。

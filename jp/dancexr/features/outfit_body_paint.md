@@ -3,6 +3,8 @@ layout: single
 title: アウトフィットボディペイント
 toc: true
 ---
+[English](/dancexr/features/outfit_body_paint) | [简体中文](/zh/dancexr/features/outfit_body_paint) | [日本語](/jp/dancexr/features/outfit_body_paint)
+
 
 ## アウトフィット＆ボディペイントの概要
 この機能を使用すると、アクターの外見を体や衣装に描いて変更することができます。また、カスタムのアウトフィットパターンを作成することもできます。

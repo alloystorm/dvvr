@@ -3,6 +3,8 @@ layout: single
 title: 演员播放列表
 toc: true
 ---
+[English](/dancexr/features/actor_playlist) | [简体中文](/zh/dancexr/features/actor_playlist) | [日本語](/jp/dancexr/features/actor_playlist)
+
 
 ## 演员播放列表
 演员播放列表会保存演员模型的列表，以便您可以跳过列表中的内容。

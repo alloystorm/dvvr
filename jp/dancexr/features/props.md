@@ -3,6 +3,8 @@ layout: single
 title: プロップ
 toc: true
 ---
+[English](/dancexr/features/props) | [简体中文](/zh/dancexr/features/props) | [日本語](/jp/dancexr/features/props)
+
 
 ## 新しいプロップの機能
 * ビルトインのモデルまたはライブラリの「プロップ」タグが付いたモデルから、シーンにプロップを追加することができます。

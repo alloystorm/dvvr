@@ -4,6 +4,8 @@ title: 中国大陆购买选项
 toc: true
 permalink: /dancexr/purchase_prc
 ---
+[English](/dancexr/purchase_prc) | [简体中文](/zh/dancexr/purchase_prc) | [日本語](/jp/dancexr/purchase_prc)
+
 
 ## 中国大陆购买选项
 

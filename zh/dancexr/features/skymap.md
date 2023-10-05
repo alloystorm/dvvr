@@ -3,6 +3,8 @@ layout: single
 title: 天空与云
 toc: true
 ---
+[English](/dancexr/features/skymap) | [简体中文](/zh/dancexr/features/skymap) | [日本語](/jp/dancexr/features/skymap)
+
 
 ## 天空模式
 您可以选择使用天空地图、纯色或程序模式来渲染天空。

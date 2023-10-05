@@ -3,6 +3,8 @@ layout: single
 title: 布局
 toc: true
 ---
+[English](/dancexr/features/formation) | [简体中文](/zh/dancexr/features/formation) | [日本語](/jp/dancexr/features/formation)
+
 
 ## 布局
 布局控制着演员在场景中的排列方式，还提供了方便的工具来重置演员的位置。

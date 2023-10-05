@@ -3,6 +3,8 @@ layout: single
 title: 图形
 toc: true
 ---
+[English](/dancexr/features/graphics) | [简体中文](/zh/dancexr/features/graphics) | [日本語](/jp/dancexr/features/graphics)
+
 
 ## 特殊渲染模式：深度和法线
 {% include video id="fKxTDq88gBk" provider="youtube" %}

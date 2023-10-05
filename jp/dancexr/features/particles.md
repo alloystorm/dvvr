@@ -3,6 +3,8 @@ layout: single
 title: パーティクルシステム
 toc: true
 ---
+[English](/dancexr/features/particles) | [简体中文](/zh/dancexr/features/particles) | [日本語](/jp/dancexr/features/particles)
+
 
 ## 概要
 パーティクルシステムは、雨、雪、キラキラなどのエフェクトを作成するために使用することができます。

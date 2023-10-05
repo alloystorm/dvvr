@@ -3,6 +3,8 @@ layout: single
 title: 音楽のタイミング
 toc: true
 ---
+[English](/dancexr/features/music_timing) | [简体中文](/zh/dancexr/features/music_timing) | [日本語](/jp/dancexr/features/music_timing)
+
 
 ## 概要
 音楽のタイミング情報は、すべての手続き的な動きにとって非常に重要です。なぜなら、それは動きを音楽に合わせるために使用されるからです。それがなければ、BPM（1分間の拍数）はデフォルトで120になり、音楽と同期しません。

@@ -3,6 +3,8 @@ layout: single
 title: PMX物理
 toc: true
 ---
+[English](/dancexr/features/pmx_physics) | [简体中文](/zh/dancexr/features/pmx_physics) | [日本語](/jp/dancexr/features/pmx_physics)
+
 
 ## PMX模型特定设置
 您可以在模型设置 -> 选项 -> 物理 中找到模型特定的物理设置。
