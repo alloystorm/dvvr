@@ -10,7 +10,7 @@ sidebar:
 
 ## 免费版本下载
 
-[DanceXR 1.4.7 HD](https://www.patreon.com/posts/release-1-4-7-87008597){: .dlbtn .patreon} 
+[DanceXR 1.4.8 HD](https://www.patreon.com/posts/version-1-4-8-88596346){: .dlbtn .patreon} 
 
 免费版本包括所有[基本功能](basic_features.md)，如标准姿势转换、舞台和环境设置以及逼真的动作。然而，它有一些限制：一次只能有一个角色在舞台上，并且[付费版本](pro_features.md)中的高级功能不可用。
 

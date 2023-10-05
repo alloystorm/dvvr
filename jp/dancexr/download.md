@@ -10,7 +10,7 @@ sidebar:
 
 ## 無料版のダウンロード
 
-[DanceXR 1.4.7 HD](https://www.patreon.com/posts/release-1-4-7-87008597){: .dlbtn .patreon} 
+[DanceXR 1.4.8 HD](https://www.patreon.com/posts/version-1-4-8-88596346){: .dlbtn .patreon} 
 
 無料版には、標準ポーズ変換、ステージと環境設定、リアルなモーションなどの[基本機能](basic_features.md)がすべて含まれています。ただし、ステージ上には1つのアクターしか配置できず、[有料版の高度な機能](pro_features.md)は利用できません。
 
