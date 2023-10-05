@@ -5,6 +5,8 @@ toc: true
 sidebar:
   nav: "docs"
 ---
+[English](/dancexr/faq) | [简体中文](/zh/dancexr/faq) | [日本語](/jp/dancexr/faq)
+
 
 ## Only sky is displayed, no UI or camera control available
 This usually indicates something wrong during start up. You can try the following:

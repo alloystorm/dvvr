@@ -3,6 +3,8 @@ layout: single
 title: System Physics
 toc: true
 ---
+[English](/dancexr/features/system_physics) | [简体中文](/zh/dancexr/features/system_physics) | [日本語](/jp/dancexr/features/system_physics)
+
 
 ## System-wide physics settings
 You can locate the system-wide physics settings in Settings -> Options -> Physics. 

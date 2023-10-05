@@ -3,6 +3,8 @@ layout: single
 title: Physics
 toc: true
 ---
+[English](/dancexr/features/physics) | [简体中文](/zh/dancexr/features/physics) | [日本語](/jp/dancexr/features/physics)
+
 
 ## Tweaking Physics
 

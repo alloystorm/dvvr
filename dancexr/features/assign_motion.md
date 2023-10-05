@@ -3,6 +3,8 @@ layout: single
 title: Assigning Motion
 toc: true
 ---
+[English](/dancexr/features/assign_motion) | [简体中文](/zh/dancexr/features/assign_motion) | [日本語](/jp/dancexr/features/assign_motion)
+
 
 ## From Motion Menu
 The motion menu lists all the motions that are loaded and ready to use. It is also the entry point for you to load a motion.

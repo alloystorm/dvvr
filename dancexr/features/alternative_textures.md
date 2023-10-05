@@ -3,6 +3,8 @@ layout: single
 title: Alternative Textures
 toc: true
 ---
+[English](/dancexr/features/alternative_textures) | [简体中文](/zh/dancexr/features/alternative_textures) | [日本語](/jp/dancexr/features/alternative_textures)
+
 
 ## Overview
 Alternatvie textures are sets of textures that can replace the default textures of the model. 

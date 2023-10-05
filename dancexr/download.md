@@ -5,6 +5,8 @@ toc: true
 sidebar:
   nav: "docs"
 ---
+[English](/dancexr/download) | [简体中文](/zh/dancexr/download) | [日本語](/jp/dancexr/download)
+
 
 ## Free Version Download
 

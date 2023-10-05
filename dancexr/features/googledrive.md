@@ -3,6 +3,8 @@ layout: single
 title: Google Drive Integration
 toc: true
 ---
+[English](/dancexr/features/googledrive) | [简体中文](/zh/dancexr/features/googledrive) | [日本語](/jp/dancexr/features/googledrive)
+
 
 ## Google Drive Integration
 {% include video id="N7o0CdbFvD4" provider="youtube" %}

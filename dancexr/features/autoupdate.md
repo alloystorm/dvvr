@@ -3,6 +3,8 @@ layout: single
 title: Auto Update
 toc: true
 ---
+[English](/dancexr/features/autoupdate) | [简体中文](/zh/dancexr/features/autoupdate) | [日本語](/jp/dancexr/features/autoupdate)
+
 
 ## Overview
 Auto Update is an amazing that allows you to animate configuration changes based on various data sources like timeline, audio spectrum, custom input, etc.

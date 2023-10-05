@@ -5,6 +5,8 @@ toc: true
 sidebar:
   nav: "docs"
 ---
+[English](/dancexr/creator) | [简体中文](/zh/dancexr/creator) | [日本語](/jp/dancexr/creator)
+
 
 # Creator Edition
 

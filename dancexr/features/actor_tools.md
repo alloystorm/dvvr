@@ -4,7 +4,7 @@ title: Actor Menu & Tools
 toc: true
 ---
 
-[English](/dancexr/features/actor_tools.md) | [简体中文](/zh/dancexr/features/actor_tools.md) | [日本語](/jp/dancexr/features/actor_tools.md)
+[English](/dancexr/features/actor_tools) | [简体中文](/zh/dancexr/features/actor_tools) | [日本語](/jp/dancexr/features/actor_tools)
 
 ## Mouse and Pointer Interaction
 These are the operations you can do with mouse and VR pointer.

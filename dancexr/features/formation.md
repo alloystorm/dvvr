@@ -3,6 +3,8 @@ layout: single
 title: Formation
 toc: true
 ---
+[English](/dancexr/features/formation) | [简体中文](/zh/dancexr/features/formation) | [日本語](/jp/dancexr/features/formation)
+
 
 ## Formation
 Formation controls how the actors are layed out in the scene, it also provides convenient tools to reset actor positions.

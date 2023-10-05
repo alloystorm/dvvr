@@ -3,6 +3,8 @@ layout: single
 title: Display Settings
 toc: true
 ---
+[English](/dancexr/features/display_settings) | [简体中文](/zh/dancexr/features/display_settings) | [日本語](/jp/dancexr/features/display_settings)
+
 
 ## Overview
 Display settings allows you to change configurations regarding UI, screen resolution and framerate. 

@@ -3,6 +3,8 @@ layout: single
 title: PMX Physics
 toc: true
 ---
+[English](/dancexr/features/pmx_physics) | [简体中文](/zh/dancexr/features/pmx_physics) | [日本語](/jp/dancexr/features/pmx_physics)
+
 
 ## PMX Model specific settings
 You can locate the model specific physics settings in model settings -> Options -> Physics

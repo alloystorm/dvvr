@@ -3,6 +3,8 @@ layout: single
 title: Material Settings
 toc: true
 ---
+[English](/dancexr/features/material_settings) | [简体中文](/zh/dancexr/features/material_settings) | [日本語](/jp/dancexr/features/material_settings)
+
 
 ## How Material List Is Organized
 

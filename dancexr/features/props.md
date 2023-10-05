@@ -3,6 +3,8 @@ layout: single
 title: Props
 toc: true
 ---
+[English](/dancexr/features/props) | [简体中文](/zh/dancexr/features/props) | [日本語](/jp/dancexr/features/props)
+
 
 ## New props functionality
 * You can now add props to your scene from either the built-in models or models that are tagged with "Props" tag from your library.

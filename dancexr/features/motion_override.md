@@ -3,6 +3,8 @@ layout: single
 title: Motion Override
 toc: true
 ---
+[English](/dancexr/features/motion_override) | [简体中文](/zh/dancexr/features/motion_override) | [日本語](/jp/dancexr/features/motion_override)
+
 
 ## Motion Override Overview
 Motion Override is a feature that allows you to take over the motion for certain part of the body. You can use it to limit the motion of the actor, adding motions to the dance move or changing the motion for a specific body part.

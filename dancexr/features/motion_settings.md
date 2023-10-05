@@ -3,6 +3,8 @@ layout: single
 title: Motion Settings
 toc: true
 ---
+[English](/dancexr/features/motion_settings) | [简体中文](/zh/dancexr/features/motion_settings) | [日本語](/jp/dancexr/features/motion_settings)
+
 
 ## Overview
 Motion settings allow you to choose whether the motion is T pose or A pose, adjust motion speed and change looping options. 

@@ -3,6 +3,8 @@ layout: single
 title: Tagging
 toc: true
 ---
+[English](/dancexr/features/tagging) | [简体中文](/zh/dancexr/features/tagging) | [日本語](/jp/dancexr/features/tagging)
+
 
 ## Overview
 DanceXR allows you to create tags for actor models and dance motions to make them easier to manage and retrieve.

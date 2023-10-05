@@ -3,6 +3,8 @@ layout: single
 title: Music Timing
 toc: true
 ---
+[English](/dancexr/features/music_timing) | [简体中文](/zh/dancexr/features/music_timing) | [日本語](/jp/dancexr/features/music_timing)
+
 
 ## Overview
 Music timing information is very important for all the procedural motions because it is used to match the motion with the music. Without it the BPM (beats per minute) is default at 120 and it won't be in sync with the music. 

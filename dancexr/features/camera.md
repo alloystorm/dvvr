@@ -3,6 +3,8 @@ layout: single
 title: Camera
 toc: true
 ---
+[English](/dancexr/features/camera) | [简体中文](/zh/dancexr/features/camera) | [日本語](/jp/dancexr/features/camera)
+
 
 ## Overview
 We have 5 procedural camera motions available and you can also use camera motion from loaded dance motions if available.

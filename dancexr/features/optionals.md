@@ -3,6 +3,8 @@ layout: single
 title: Dressing System (Material Morph and XPS Optional Items)
 toc: true
 ---
+[English](/dancexr/features/optionals) | [简体中文](/zh/dancexr/features/optionals) | [日本語](/jp/dancexr/features/optionals)
+
 
 ## Overview
 The "Dressing System" combines material morphs from PMX models and optional items from XPS models. 

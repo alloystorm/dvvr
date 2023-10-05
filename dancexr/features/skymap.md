@@ -3,6 +3,8 @@ layout: single
 title: Sky & Cloud
 toc: true
 ---
+[English](/dancexr/features/skymap) | [简体中文](/zh/dancexr/features/skymap) | [日本語](/jp/dancexr/features/skymap)
+
 
 ## Sky Modes
 You can choose to use sky map, pure color or procedural mode to render sky.

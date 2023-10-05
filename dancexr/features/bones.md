@@ -3,6 +3,8 @@ layout: single
 title: Example Bone Structure
 toc: true
 ---
+[English](/dancexr/features/bones) | [简体中文](/zh/dancexr/features/bones) | [日本語](/jp/dancexr/features/bones)
+
 ## Overview
 
 While we aim for maximum compatibility, it is also important to know that MMD doesn't have a strict standard which makes it very hard to be compatible with everything. 

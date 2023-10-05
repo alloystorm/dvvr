@@ -3,6 +3,8 @@ layout: single
 title: Blink, Breathing and Eye Contact
 toc: true
 ---
+[English](/dancexr/features/eyecontact) | [简体中文](/zh/dancexr/features/eyecontact) | [日本語](/jp/dancexr/features/eyecontact)
+
 
 ## Eye Contact
 Basically we are trying to achieve natural eye contact of human interaction. 

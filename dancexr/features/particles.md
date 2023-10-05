@@ -3,6 +3,8 @@ layout: single
 title: Particle System
 toc: true
 ---
+[English](/dancexr/features/particles) | [简体中文](/zh/dancexr/features/particles) | [日本語](/jp/dancexr/features/particles)
+
 
 ## Overview
 Particle system can be used to create effects like rain, snow, glitter etc.

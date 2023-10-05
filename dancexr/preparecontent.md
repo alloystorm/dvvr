@@ -5,6 +5,8 @@ toc: true
 sidebar:
   nav: "docs"
 ---
+[English](/dancexr/preparecontent) | [简体中文](/zh/dancexr/preparecontent) | [日本語](/jp/dancexr/preparecontent)
+
 
 ## The Content Library
 

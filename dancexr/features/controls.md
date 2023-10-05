@@ -3,6 +3,8 @@ layout: single
 title: Controls
 toc: true
 ---
+[English](/dancexr/features/controls) | [简体中文](/zh/dancexr/features/controls) | [日本語](/jp/dancexr/features/controls)
+
 
 ## Overview
 The input mapping of DanceXR is based on popular VR controllers and gamepads. 

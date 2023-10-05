@@ -3,6 +3,8 @@ layout: single
 title: XPS Physics
 toc: true
 ---
+[English](/dancexr/features/xps_physics) | [简体中文](/zh/dancexr/features/xps_physics) | [日本語](/jp/dancexr/features/xps_physics)
+
 
 ## XPS Model Specific Settings
 XPS models don't come with physics definitions so the program does not know where to add physics components. To deal with this several physics settings are added to each XPS model for you to configure physics components on a XPS model. 

@@ -3,6 +3,8 @@ layout: single
 title: Remix Motion
 toc: true
 ---
+[English](/dancexr/features/remix) | [简体中文](/zh/dancexr/features/remix) | [日本語](/jp/dancexr/features/remix)
+
 
 ## Overview
 Remix in DanceXR means using motion data from one dance set and audio from another, and automatically adjust motion speed to match the music. 

@@ -3,6 +3,8 @@ layout: single
 title: XPS Bone Mapper
 toc: true
 ---
+[English](/dancexr/features/bone_mapper) | [简体中文](/zh/dancexr/features/bone_mapper) | [日本語](/jp/dancexr/features/bone_mapper)
+
 
 ## Overview
 Bone mapping is required for XPS models to allow the animation and other features to find the correct bone.

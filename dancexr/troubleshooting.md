@@ -5,6 +5,8 @@ toc: true
 sidebar:
   nav: "docs"
 ---
+[English](/dancexr/troubleshooting) | [简体中文](/zh/dancexr/troubleshooting) | [日本語](/jp/dancexr/troubleshooting)
+
 
 ## Reporting Bugs
 It is recommended to raise a bug on [GitHub issue tracker](https://github.com/alloystorm/dvvr/issues), so it can be properly managed. 

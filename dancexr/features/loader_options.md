@@ -3,6 +3,8 @@ layout: single
 title: Load Options
 toc: true
 ---
+[English](/dancexr/features/loader_options) | [简体中文](/zh/dancexr/features/loader_options) | [日本語](/jp/dancexr/features/loader_options)
+
 
 ## Overview
 Loader Options contains options when loading an actor model and provides management for actor cache.

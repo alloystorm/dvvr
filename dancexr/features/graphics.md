@@ -3,6 +3,8 @@ layout: single
 title: Graphics
 toc: true
 ---
+[English](/dancexr/features/graphics) | [简体中文](/zh/dancexr/features/graphics) | [日本語](/jp/dancexr/features/graphics)
+
 
 ## Special rendering modes: Depth and Normal
 {% include video id="fKxTDq88gBk" provider="youtube" %}

@@ -3,6 +3,8 @@ layout: single
 title: Ground
 toc: true
 ---
+[English](/dancexr/features/ground) | [简体中文](/zh/dancexr/features/ground) | [日本語](/jp/dancexr/features/ground)
+
 
 ## Ground Modes
 You can use either a textured surface or the sky map for your ground. 
