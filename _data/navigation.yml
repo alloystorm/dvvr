@@ -7,7 +7,7 @@ main:
     url: /zh/
 
 releases:
-  - title: Upcoming Release
+  - title: Early Access
     children:
     - title: Release 1.4.9 Oct 2023
       url: /dancexr/releases/1.4.9
@@ -47,15 +47,15 @@ docs:
         url: /dancexr/preparecontent
   - title: "New: AI Powered Chat"
     url: /dancexr/ai_chat
+  - title: Feature List
+    url: /dancexr/features
   - title: Releases
     url: /dancexr/releases/
     children:
-    - title: "Upcoming: 1.4.9"
+    - title: "Early Access: v1.4.9"
       url: /dancexr/releases/1.4.9
-    - title: "Current: 1.4.8"
+    - title: "Latest: v1.4.8"
       url: /dancexr/releases/1.4.8
-  - title: Feature List
-    url: /dancexr/features
   - title: Variants & Availability
     url: /dancexr/versions
   - title: FAQ
@@ -64,11 +64,11 @@ docs:
     url: /dancexr/troubleshooting  
 
 releases-zh:
-  - title: 即將發布的版本
+  - title: 抢先体验
     children:
     - title: 版本1.4.9 2023年10月
       url: /zh/dancexr/releases/1.4.9
-  - title: 當前版本
+  - title: 当前版本
     children:
     - title: 版本1.4.8 2023年9月
       url: /zh/dancexr/releases/1.4.8
@@ -102,16 +102,18 @@ docs-zh:
         url: /zh/dancexr/download
       - title: "內容庫"
         url: /zh/dancexr/preparecontent
-  - title: "隆重介绍: AI聊天"
+  - title: "新功能: AI聊天"
     url: /zh/dancexr/ai_chat
-  - title: 發布說明
+  - title: 功能清单
+    url: /zh/dancexr/features
+  - title: 版本更新
     url: /zh/dancexr/releases/
     children:
-    - title: 版本 1.4.9 2023年10月
+    - title: 抢先体验 v1.4.9
       url: /zh/dancexr/releases/1.4.9
-  - title: 功能
-    url: /zh/dancexr/features
-  - title: 版本
+    - title: 当前版本 v1.4.8
+      url: /zh/dancexr/releases/1.4.8
+  - title: 平台与版本差异
     url: /zh/dancexr/versions
   - title: 常见问题
     url: /zh/dancexr/faq
@@ -119,7 +121,7 @@ docs-zh:
     url: /zh/dancexr/troubleshooting
 
 releases-jp:
-  - title: 今後のリリース
+  - title: 早期アクセス
     children:
     - title: リリース 1.4.9 2023年10月
       url: /jp/dancexr/releases/1.4.9
@@ -158,16 +160,20 @@ docs-jp:
         url: /jp/dancexr/download
       - title: "コンテンツライブラリー"
         url: /jp/dancexr/preparecontent
+  - title: AIチャット
+    url: /jp/dancexr/ai_chat
+  - title: 機能一覧
+    url: /jp/dancexr/features
   - title: リリースノート
     url: /jp/dancexr/releases/
     children:
-    - title: リリース 1.4.9 2023年10月
+    - title: 早期アクセス 1.4.9
       url: /jp/dancexr/releases/1.4.9
-  - title: AIチャット
-    url: /jp/dancexr/ai_chat
-  - title: 機能
-    url: /jp/dancexr/features
-  - title: "FAQ"
+    - title: 現在のリリース 1.4.8
+      url: /jp/dancexr/releases/1.4.8
+  - title: バリアントと入手可能性
+    url: /jp/dancexr/versions
+  - title: よくある質問
     url: /jp/dancexr/faq
   - title: "トラブルシューティング"
     url: /jp/dancexr/troubleshooting        
