@@ -2,7 +2,7 @@ import os
 import re
 
 # Base path
-base_path = "jp/dancexr"
+base_path = "dancexr"
 
 # Regular expressions
 front_matter_pattern = re.compile(r'---.*?---', re.DOTALL)

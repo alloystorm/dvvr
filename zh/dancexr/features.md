@@ -12,7 +12,7 @@ sidebar:
 ## 模型
 我们支持PMX和XPS格式的角色模型，以及PMX、XPS或OBJ格式的舞台和道具。
 
-### 管理模型
+### 模型管理
 * [标签和搜索](features/tagging)
 * [模型缓存和加载选项](features/loader_options)
 * [编队](features/formation)
@@ -22,7 +22,7 @@ sidebar:
 ### 角色模型设置
 * [角色菜单、工具和交互](features/actor_tools)
 * [材质设置](features/material_settings)
-* [着装系统（材质变形和XPS可选项）](features/optionals)
+* [装扮系统（材质变形和XPS可选项）](features/optionals)
 * [替代纹理](features/alternative_textures)
 * [材质设置](features/material_settings)
 * [面部控制](features/facial_control)
@@ -32,7 +32,7 @@ sidebar:
 
 
 ### 高级模型功能
-* [服装和身体绘制<sup>[PRO]</sup>](features/outfit_body_paint){: .pro}
+* [服装和身体绘画<sup>[PRO]</sup>](features/outfit_body_paint){: .pro}
 * [动作覆盖<sup>[PRO]</sup>](features/motion_override){: .pro}
 * 饰品<sup>[PRO]</sup>
 * 布娃娃<sup>[PRO]</sup>
@@ -41,7 +41,7 @@ sidebar:
 
 
 ### XPS特定功能
-* [骨骼映射](features/bone_mapper.md)
+* [骨骼映射器](features/bone_mapper.md)
 * [XPS物理效果<sup>[PRO]</sup>](features/xps_physics){: .pro}
 
 
@@ -54,10 +54,10 @@ sidebar:
 
 
 ## 音乐和动作
-DanceXR支持VMD和BVH格式的动作。与音乐和多个动作一起，它们形成一个舞蹈集。您还可以选择其中一种程序性动作。
+DanceXR支持VMD和BVH格式的动作。它们与音乐和多个动作一起组成了一个舞蹈集。您还可以选择其中一种过程动作。
 
 
-### 管理动作
+### 动作管理
 * [播放选项](features/playback_options)
 * [分配动作](features/assign_motion)
 * [次要动作](features/secondary_motion)
@@ -67,17 +67,17 @@ DanceXR支持VMD和BVH格式的动作。与音乐和多个动作一起，它们�
 
 ### VMD和BVH动作
 * [舞蹈集](features/dance_set)
-* [时序和节拍](features/music_timing)
+* [节奏和拍子](features/music_timing)
 * [动作设置](features/motion_settings)
 
 
-### 程序性动作
+### 过程动作
 * 空闲动作
 * 走秀
 * [自动舞蹈<sup>[PRO]</sup>](features/autodance){: .pro}
 * [自动舞蹈2<sup>[PRO]</sup>](features/autodance2){: .pro}
-* [骑乘位性交<sup>[PRO]</sup>](features/scg_motion){: .nsfw}
-* [后背位性交<sup>[PRO]</sup>](features/sfb_motion){: .nsfw}
+* [骑乘位<sup>[PRO]</sup>](features/scg_motion){: .nsfw}
+* [后入位<sup>[PRO]</sup>](features/sfb_motion){: .nsfw}
 * [性动作3<sup>[PRO]</sup>](features/sm3_motion){: .nsfw}
 
 
@@ -88,7 +88,7 @@ DanceXR支持VMD和BVH格式的动作。与音乐和多个动作一起，它们�
 ## 环境
 * [天空和云](features/skymap)
 * [地面、舞台和水系统](features/ground)
-* 灯光
+* 照明
 * [粒子系统](features/particles)
 
 

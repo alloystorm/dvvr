@@ -5,6 +5,9 @@ toc: true
 sidebar:
   nav: "docs"
 ---
+[English](/dancexr/content_android_quest) | [简体中文](/zh/dancexr/content_android_quest) | [日本語](/jp/dancexr/content_android_quest)
+
+
 ## Preparing content for Android & Oculus Quest
 
 Similar to the PC versions, DanceXR requires a content folder to be prepared so it knows where to find all the models, motions & textures. However on Android, apps can only access specific folders unless a special permission is granted. Therefore on Android and Oculus Quest platforms you will not be able to select content folder like on PC. The content needs to be at a specific location. 

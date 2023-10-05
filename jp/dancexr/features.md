@@ -10,7 +10,7 @@ sidebar:
 [English](/dancexr/features) | [简体中文](/zh/dancexr/features) | [日本語](/jp/dancexr/features)
 
 ## モデル
-キャラクターモデルにはPMXとXPSがサポートされており、ステージと小道具にはPMX、XPS、またはOBJがサポートされています。
+キャラクターモデルにはPMXとXPSをサポートしており、ステージと小道具にはPMX、XPS、またはOBJをサポートしています。
 
 ### モデルの管理
 * [タグ付けと検索](features/tagging)
@@ -31,12 +31,12 @@ sidebar:
 * [トラブルシューティングオプション](features/troubleshooting_options)
 
 
-### 高度なモデル機能
+### 高度なモデルの機能
 * [衣装とボディペイント<sup>[PRO]</sup>](features/outfit_body_paint){: .pro}
 * [モーションオーバーライド<sup>[PRO]</sup>](features/motion_override){: .pro}
 * アクセサリー<sup>[PRO]</sup>
 * ラグドール<sup>[PRO]</sup>
-* [胸揺れとセックスオーバーレイ<sup>[PRO]</sup>](features/boob_shake_sex_overlay){: .nsfw}
+* [おっぱい揺れとセックスオーバーレイ<sup>[PRO]</sup>](features/boob_shake_sex_overlay){: .nsfw}
 * [ディルド<sup>[PRO]</sup>](features/dildo){: .nsfw}
 
 
