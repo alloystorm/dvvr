@@ -6,8 +6,8 @@ toc: true
 
 [English](/dancexr/features/actor_tools.md) | [简体中文](/zh/dancexr/features/actor_tools.md) | [日本語](/jp/dancexr/features/actor_tools.md)
 
-## Basic Operations
-These are the basic operations you can do to manipulate actor models.
+## Mouse and Pointer Interaction
+These are the operations you can do with mouse and VR pointer.
 
 ### Move
 Actors have selection discs under them. When the UI is visible, the disc will be also visible and you can drag the disc to move the actor.
@@ -20,6 +20,22 @@ While dragging the actor, you can use the mouse wheel or thumbstick left / right
 If your mouse has horizontal scroll wheel, you can use it to move the actor up and down.
 
 In VR mode use the thumbstick up / down to move the actor vertically.
+
+### Gizmo Cube
+Gizmo cubes are virtual cubes that you can use to move and pose the actor. They are visible when the supported motion or tools are activated. Currently the following motions and tools support gizmo cubes.
+
+* Idle Motion
+* Auto Dance
+* Auto Dance 2
+* [Cowgirl Sex](scg_motion){: .nsfw}
+* [Sex From Behind](sfb_motion){: .nsfw}
+* [Sex Motion 3](sm3_motion){: .nsfw}
+* Motion Override
+
+When the gizmo cube is visible, place your mouse or pointer on one of its faces, drag to move it along the surface and use wheel or thumbstick to rotate within the surface.
+
+Ususally there are 2 cubes for the hands, 2 cubes for the feet and 1 for the body. So you can move and adjust pose of these body parts individually.
+
 
 ## Tools Menu
 When you click on the selection disc, the actor menu will pop up. Next to the actor name, there is a "screw driver and hammer" icon that will open the actor tools menu.
