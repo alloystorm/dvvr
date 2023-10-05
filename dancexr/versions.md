@@ -46,4 +46,4 @@ Availability are listed as below
 | Itch.io Android Pro | | | | | | * |
 | Steam Pure | * | | | | | |
 | Steam Pro | | * | | | | |
-| Steam Raytracing | | * | * | | | |
+| Steam Raytracing DLC | | * | * | | | |

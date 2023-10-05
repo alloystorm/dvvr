@@ -46,4 +46,4 @@ Patreon、Itch.io、Steamで利用できます。
 | Itch.io Android Pro | | | | | | * |
 | Steam Pure | * | | | | | |
 | Steam Pro | | * | | | | |
-| Steam Raytracing | | * | * | | | |
+| Steam Raytracing DLC | | * | * | | | |

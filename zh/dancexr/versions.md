@@ -45,4 +45,4 @@ HD和RT在移动平台上不可用，因此Android，Quest和Pico版本仅有LW�
 | Itch.io Android专业版 | | | | | | * |
 | Steam纯净版 | * | | | | | |
 | Steam专业版 | | * | | | | |
-| Steam光线追踪版 | | * | * | | | |
+| Steam光线追踪DLC | | * | * | | | |
