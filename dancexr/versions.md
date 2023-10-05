@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Download
+title: Variants & Availability
 toc: true
 sidebar:
   nav: "docs"

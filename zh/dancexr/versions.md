@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 下载
+title: 平台与版本差异
 toc: true
 sidebar:
   nav: "docs-zh"

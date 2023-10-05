@@ -1,6 +1,6 @@
 ---
 layout: single
-title: ダウンロード
+title: バリアントと入手可能性
 toc: true
 sidebar:
   nav: "docs-jp"
