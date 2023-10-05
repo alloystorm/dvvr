@@ -45,14 +45,14 @@ docs:
         url: /dancexr/download
       - title: "Content Library"
         url: /dancexr/preparecontent
-  - title: "Introducing: AI Powered Chat"
+  - title: "New: AI Powered Chat"
     url: /dancexr/ai_chat
   - title: Releases
     url: /dancexr/releases/
     children:
-    - title: Upcoming: 1.4.9
+    - title: "Upcoming: 1.4.9"
       url: /dancexr/releases/1.4.9
-    - title: Current: 1.4.8
+    - title: "Current: 1.4.8"
       url: /dancexr/releases/1.4.8
   - title: Feature List
     url: /dancexr/features
