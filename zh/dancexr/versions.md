@@ -1,11 +1,11 @@
 ---
-布局：单一
-标题：下载
-目录：是
-侧边栏：
-  导航：“docs-zh”
-
-[英文](/dancexr/versions) | [简体中文](/zh/dancexr/versions) | [日本語](/jp/dancexr/versions)
+layout: single
+title: 下载
+toc: true
+sidebar:
+  nav: "docs-zh"
+---
+[English](/dancexr/versions) | [简体中文](/zh/dancexr/versions) | [日本語](/jp/dancexr/versions)
 
 ## 概述
 DanceXR有不同版本，具有不同的功能集和渲染技术，以适应不同平台的能力。
