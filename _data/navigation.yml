@@ -59,36 +59,7 @@ docs:
   - title: "FAQ"
     url: /dancexr/faq
   - title: "Troubleshooting"
-    url: /dancexr/troubleshooting
-  - title: Links
-    children:
-      - title: "Patreon"
-        icon: "fab fa-patreon"
-        url: "https://www.patreon.com/dvvr"
-      - title: "Discord"
-        icon: "fab fa-discord"
-        url: "https://discord.gg/xN2MaM7C5q"
-      - title: "Steam"
-        icon: "fab fa-steam"
-        url: "https://store.steampowered.com/search/?developer=VR%20Storm%20Lab"
-      - title: "Itch.io"
-        icon: "fab fa-itch-io"
-        url: "https://stormlab.itch.io"
-      - title: "Google Play"
-        icon: "fab fa-google-play"
-        url: "https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr"
-      - title: "YouTube"
-        icon: "fab fa-youtube"
-        url: "https://www.youtube.com/@dancexr"
-      - title: "TikTok"
-        icon: "fab fa-tiktok"
-        url: "https://www.tiktok.com/@vrstormlab"  
-      - title: "BiliBili"
-        icon: "fas fa-play-circle"
-        url: "https://space.bilibili.com/167383940"
-      - title: "iXiGua"
-        icon: "fas fa-play-circle"
-        url: "https://www.ixigua.com/home/633750488883656"      
+    url: /dancexr/troubleshooting  
 
 releases-zh:
   - title: 即將發布的版本
@@ -144,35 +115,6 @@ docs-zh:
     url: /zh/dancexr/faq
   - title: 疑难解答
     url: /zh/dancexr/troubleshooting
-  - title: 鏈接
-    children:
-      - title: "Patreon"
-        icon: "fab fa-patreon"
-        url: "https://www.patreon.com/dvvr"
-      - title: "Discord"
-        icon: "fab fa-discord"
-        url: "https://discord.gg/xN2MaM7C5q"
-      - title: "Steam"
-        icon: "fab fa-steam"
-        url: "https://store.steampowered.com/search/?developer=VR%20Storm%20Lab"
-      - title: "Itch.io"
-        icon: "fab fa-itch-io"
-        url: "https://stormlab.itch.io"
-      - title: "Google Play"
-        icon: "fab fa-google-play"
-        url: "https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr"
-      - title: "YouTube"
-        icon: "fab fa-youtube"
-        url: "https://www.youtube.com/@dancexr"
-      - title: "TikTok"
-        icon: "fab fa-tiktok"
-        url: "https://www.tiktok.com/@vrstormlab"  
-      - title: "BiliBili"
-        icon: "fas fa-play-circle"
-        url: "https://space.bilibili.com/167383940"
-      - title: "iXiGua"
-        icon: "fas fa-play-circle"
-        url: "https://www.ixigua.com/home/633750488883656"  
 
 releases-jp:
   - title: 今後のリリース
@@ -227,35 +169,3 @@ docs-jp:
     url: /jp/dancexr/faq
   - title: "トラブルシューティング"
     url: /jp/dancexr/troubleshooting        
-  - title: Links
-    children:
-      - title: "Patreon"
-        icon: "fab fa-patreon"
-        url: "https://www.patreon.com/dvvr"
-      - title: "Discord"
-        icon: "fab fa-discord"
-        url: "https://discord.gg/xN2MaM7C5q"
-      - title: "Steam"
-        icon: "fab fa-steam"
-        url: "https://store.steampowered.com/search/?developer=VR%20Storm%20Lab"
-      - title: "Itch.io"
-        icon: "fab fa-itch-io"
-        url: "https://stormlab.itch.io"
-      - title: "Google Play"
-        icon: "fab fa-google-play"
-        url: "https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr"
-      - title: "YouTube"
-        icon: "fab fa-youtube"
-        url: "https://www.youtube.com/@dancexr"
-      - title: "TikTok"
-        icon: "fab fa-tiktok"
-        url: "https://www.tiktok.com/@vrstormlab"  
-      - title: "BiliBili"
-        icon: "fas fa-play-circle"
-        url: "https://space.bilibili.com/167383940"
-      - title: "iXiGua"
-        icon: "fas fa-play-circle"
-        url: "https://www.ixigua.com/home/633750488883656"          
-
-
-        
