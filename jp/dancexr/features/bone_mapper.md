@@ -2,6 +2,8 @@
 layout: single
 title: XPSボーンマッパー
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/bone_mapper) | [简体中文](/zh/dancexr/features/bone_mapper) | [日本語](/jp/dancexr/features/bone_mapper)
 

@@ -2,6 +2,8 @@
 layout: single
 title: System Physics
 toc: true
+sidebar:
+  nav: "docs"
 ---
 [English](/dancexr/features/system_physics) | [简体中文](/zh/dancexr/features/system_physics) | [日本語](/jp/dancexr/features/system_physics)
 

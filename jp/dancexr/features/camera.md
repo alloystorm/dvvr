@@ -2,6 +2,8 @@
 layout: single
 title: カメラ
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/camera) | [简体中文](/zh/dancexr/features/camera) | [日本語](/jp/dancexr/features/camera)
 

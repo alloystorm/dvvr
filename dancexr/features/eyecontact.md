@@ -2,6 +2,8 @@
 layout: single
 title: Blink, Breathing and Eye Contact
 toc: true
+sidebar:
+  nav: "docs"
 ---
 [English](/dancexr/features/eyecontact) | [简体中文](/zh/dancexr/features/eyecontact) | [日本語](/jp/dancexr/features/eyecontact)
 

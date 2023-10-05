@@ -2,6 +2,8 @@
 layout: single
 title: Formation
 toc: true
+sidebar:
+  nav: "docs"
 ---
 [English](/dancexr/features/formation) | [简体中文](/zh/dancexr/features/formation) | [日本語](/jp/dancexr/features/formation)
 

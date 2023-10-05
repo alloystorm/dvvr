@@ -2,6 +2,8 @@
 layout: single
 title: 分配动作
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/assign_motion) | [简体中文](/zh/dancexr/features/assign_motion) | [日本語](/jp/dancexr/features/assign_motion)
 

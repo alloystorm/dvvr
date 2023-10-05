@@ -2,6 +2,8 @@
 layout: single
 title: オプションの読み込み
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/loader_options) | [简体中文](/zh/dancexr/features/loader_options) | [日本語](/jp/dancexr/features/loader_options)
 

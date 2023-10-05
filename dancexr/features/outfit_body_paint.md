@@ -2,6 +2,8 @@
 layout: single
 title: Outfit Body Paint
 toc: true
+sidebar:
+  nav: "docs"
 ---
 [English](/dancexr/features/outfit_body_paint) | [简体中文](/zh/dancexr/features/outfit_body_paint) | [日本語](/jp/dancexr/features/outfit_body_paint)
 

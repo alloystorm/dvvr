@@ -2,6 +2,8 @@
 layout: single
 title: Dressing System (Material Morph and XPS Optional Items)
 toc: true
+sidebar:
+  nav: "docs"
 ---
 [English](/dancexr/features/optionals) | [简体中文](/zh/dancexr/features/optionals) | [日本語](/jp/dancexr/features/optionals)
 

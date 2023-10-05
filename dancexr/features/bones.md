@@ -2,6 +2,8 @@
 layout: single
 title: Example Bone Structure
 toc: true
+sidebar:
+  nav: "docs"
 ---
 [English](/dancexr/features/bones) | [简体中文](/zh/dancexr/features/bones) | [日本語](/jp/dancexr/features/bones)
 

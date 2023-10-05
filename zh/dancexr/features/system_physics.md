@@ -2,6 +2,8 @@
 layout: single
 title: 系统物理
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/system_physics) | [简体中文](/zh/dancexr/features/system_physics) | [日本語](/jp/dancexr/features/system_physics)
 

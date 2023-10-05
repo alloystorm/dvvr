@@ -2,6 +2,8 @@
 layout: single
 title: 舞蹈集
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/dance_set) | [简体中文](/zh/dancexr/features/dance_set) | [日本語](/jp/dancexr/features/dance_set)
 

@@ -2,6 +2,8 @@
 layout: single
 title: Physics
 toc: true
+sidebar:
+  nav: "docs"
 ---
 [English](/dancexr/features/physics) | [简体中文](/zh/dancexr/features/physics) | [日本語](/jp/dancexr/features/physics)
 

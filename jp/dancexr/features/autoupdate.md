@@ -2,6 +2,8 @@
 layout: single
 title: 自動更新
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/autoupdate) | [简体中文](/zh/dancexr/features/autoupdate) | [日本語](/jp/dancexr/features/autoupdate)
 

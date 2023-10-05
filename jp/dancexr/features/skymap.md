@@ -2,6 +2,8 @@
 layout: single
 title: 空と雲
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/skymap) | [简体中文](/zh/dancexr/features/skymap) | [日本語](/jp/dancexr/features/skymap)
 

@@ -2,6 +2,8 @@
 layout: single
 title: Feet Adjustments
 toc: true
+sidebar:
+  nav: "docs"
 ---
 
 [English](/dancexr/features/feet_adjustments) | [简体中文](/zh/dancexr/features/feet_adjustments) | [日本語](/jp/dancexr/features/feet_adjustments)

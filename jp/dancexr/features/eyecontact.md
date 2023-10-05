@@ -2,6 +2,8 @@
 layout: single
 title: 瞬き、呼吸、目線
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/eyecontact) | [简体中文](/zh/dancexr/features/eyecontact) | [日本語](/jp/dancexr/features/eyecontact)
 

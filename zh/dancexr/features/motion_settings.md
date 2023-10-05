@@ -2,6 +2,8 @@
 layout: single
 title: 运动设置
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/motion_settings) | [简体中文](/zh/dancexr/features/motion_settings) | [日本語](/jp/dancexr/features/motion_settings)
 

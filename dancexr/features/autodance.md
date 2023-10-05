@@ -2,6 +2,8 @@
 layout: single
 title: Auto Dance
 toc: true
+sidebar:
+  nav: "docs"
 ---
 [English](/dancexr/features/autodance) | [简体中文](/zh/dancexr/features/autodance) | [日本語](/jp/dancexr/features/autodance)
 

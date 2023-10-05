@@ -2,6 +2,8 @@
 layout: single
 title: 道具
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/props) | [简体中文](/zh/dancexr/features/props) | [日本語](/jp/dancexr/features/props)
 

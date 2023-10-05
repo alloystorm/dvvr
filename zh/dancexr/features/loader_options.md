@@ -2,6 +2,8 @@
 layout: single
 title: 加载选项
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/loader_options) | [简体中文](/zh/dancexr/features/loader_options) | [日本語](/jp/dancexr/features/loader_options)
 

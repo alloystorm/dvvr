@@ -2,6 +2,8 @@
 layout: single
 title: 眨眼、呼吸和眼神交流
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/eyecontact) | [简体中文](/zh/dancexr/features/eyecontact) | [日本語](/jp/dancexr/features/eyecontact)
 

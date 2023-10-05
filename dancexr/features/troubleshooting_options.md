@@ -2,6 +2,8 @@
 layout: single
 title: Troubleshooting Options
 toc: true
+sidebar:
+  nav: "docs"
 ---
 
 [English](/dancexr/features/troubleshooting_options) | [简体中文](/zh/dancexr/features/troubleshooting_options) | [日本語](/jp/dancexr/features/troubleshooting_options)

@@ -2,6 +2,8 @@
 layout: single
 title: 代替テクスチャ
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/alternative_textures) | [简体中文](/zh/dancexr/features/alternative_textures) | [日本語](/jp/dancexr/features/alternative_textures)
 

@@ -2,6 +2,8 @@
 layout: single
 title: ZIP格式
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/zip_format) | [简体中文](/zh/dancexr/features/zip_format) | [日本語](/jp/dancexr/features/zip_format)
 

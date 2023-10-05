@@ -2,6 +2,8 @@
 layout: single
 title: タグ付け
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/tagging) | [简体中文](/zh/dancexr/features/tagging) | [日本語](/jp/dancexr/features/tagging)
 

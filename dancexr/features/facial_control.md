@@ -2,6 +2,8 @@
 layout: single
 title: Facial Control
 toc: true
+sidebar:
+  nav: "docs"
 ---
 
 [English](/dancexr/features/facial_control) | [简体中文](/zh/dancexr/features/facial_control) | [日本語](/jp/dancexr/features/facial_control)

@@ -2,6 +2,8 @@
 layout: single
 title: 乳房震动和性交叠加
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/boob_shake_sex_overlay) | [简体中文](/zh/dancexr/features/boob_shake_sex_overlay) | [日本語](/jp/dancexr/features/boob_shake_sex_overlay)
 

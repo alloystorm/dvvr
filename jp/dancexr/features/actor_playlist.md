@@ -2,6 +2,8 @@
 layout: single
 title: アクタープレイリスト
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/actor_playlist) | [简体中文](/zh/dancexr/features/actor_playlist) | [日本語](/jp/dancexr/features/actor_playlist)
 

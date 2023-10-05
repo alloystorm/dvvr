@@ -2,6 +2,8 @@
 layout: single
 title: Music Timing
 toc: true
+sidebar:
+  nav: "docs"
 ---
 [English](/dancexr/features/music_timing) | [简体中文](/zh/dancexr/features/music_timing) | [日本語](/jp/dancexr/features/music_timing)
 

@@ -2,6 +2,8 @@
 layout: single
 title: Actor Menu & Tools
 toc: true
+sidebar:
+  nav: "docs"
 ---
 
 [English](/dancexr/features/actor_tools) | [简体中文](/zh/dancexr/features/actor_tools) | [日本語](/jp/dancexr/features/actor_tools)

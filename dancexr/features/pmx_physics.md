@@ -2,6 +2,8 @@
 layout: single
 title: PMX Physics
 toc: true
+sidebar:
+  nav: "docs"
 ---
 [English](/dancexr/features/pmx_physics) | [简体中文](/zh/dancexr/features/pmx_physics) | [日本語](/jp/dancexr/features/pmx_physics)
 

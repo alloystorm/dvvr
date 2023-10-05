@@ -2,6 +2,8 @@
 layout: single
 title: 演员菜单和工具
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 
 [English](/dancexr/features/actor_tools) | [简体中文](/zh/dancexr/features/actor_tools) | [日本語](/jp/dancexr/features/actor_tools)

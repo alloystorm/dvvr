@@ -2,6 +2,8 @@
 layout: single
 title: Transparent Materials
 toc: true
+sidebar:
+  nav: "docs"
 ---
 [English](/dancexr/features/transparency) | [简体中文](/zh/dancexr/features/transparency) | [日本語](/jp/dancexr/features/transparency)
 

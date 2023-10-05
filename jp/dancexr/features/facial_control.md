@@ -2,6 +2,8 @@
 layout: single
 title: 顔の制御
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/facial_control) | [简体中文](/zh/dancexr/features/facial_control) | [日本語](/jp/dancexr/features/facial_control)
 

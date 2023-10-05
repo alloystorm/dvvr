@@ -2,6 +2,8 @@
 layout: single
 title: 服装和身体彩绘
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/outfit_body_paint) | [简体中文](/zh/dancexr/features/outfit_body_paint) | [日本語](/jp/dancexr/features/outfit_body_paint)
 

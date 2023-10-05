@@ -2,6 +2,8 @@
 layout: single
 title: 二次动作
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/secondary_motion) | [简体中文](/zh/dancexr/features/secondary_motion) | [日本語](/jp/dancexr/features/secondary_motion)
 

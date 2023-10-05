@@ -2,6 +2,8 @@
 layout: single
 title: 表示設定
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/display_settings) | [简体中文](/zh/dancexr/features/display_settings) | [日本語](/jp/dancexr/features/display_settings)
 

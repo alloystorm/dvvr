@@ -2,6 +2,8 @@
 layout: single
 title: XPS Physics
 toc: true
+sidebar:
+  nav: "docs"
 ---
 [English](/dancexr/features/xps_physics) | [简体中文](/zh/dancexr/features/xps_physics) | [日本語](/jp/dancexr/features/xps_physics)
 

@@ -2,6 +2,8 @@
 layout: single
 title: パーティクルシステム
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/particles) | [简体中文](/zh/dancexr/features/particles) | [日本語](/jp/dancexr/features/particles)
 

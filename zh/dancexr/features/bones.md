@@ -2,6 +2,8 @@
 layout: single
 title: 示例骨骼结构
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/bones) | [简体中文](/zh/dancexr/features/bones) | [日本語](/jp/dancexr/features/bones)
 

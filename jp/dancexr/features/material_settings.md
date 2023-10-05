@@ -2,6 +2,8 @@
 layout: single
 title: マテリアル設定
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/material_settings) | [简体中文](/zh/dancexr/features/material_settings) | [日本語](/jp/dancexr/features/material_settings)
 

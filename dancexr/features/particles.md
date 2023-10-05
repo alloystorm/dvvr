@@ -2,6 +2,8 @@
 layout: single
 title: Particle System
 toc: true
+sidebar:
+  nav: "docs"
 ---
 [English](/dancexr/features/particles) | [简体中文](/zh/dancexr/features/particles) | [日本語](/jp/dancexr/features/particles)
 

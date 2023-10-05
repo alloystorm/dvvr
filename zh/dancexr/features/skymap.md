@@ -2,6 +2,8 @@
 layout: single
 title: 天空与云
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/skymap) | [简体中文](/zh/dancexr/features/skymap) | [日本語](/jp/dancexr/features/skymap)
 

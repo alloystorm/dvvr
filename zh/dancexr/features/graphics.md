@@ -2,6 +2,8 @@
 layout: single
 title: 图形
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/graphics) | [简体中文](/zh/dancexr/features/graphics) | [日本語](/jp/dancexr/features/graphics)
 

@@ -2,6 +2,8 @@
 layout: single
 title: 运动覆盖
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/motion_override) | [简体中文](/zh/dancexr/features/motion_override) | [日本語](/jp/dancexr/features/motion_override)
 

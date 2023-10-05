@@ -2,6 +2,8 @@
 layout: single
 title: 演员播放列表
 toc: true
+sidebar:
+  nav: "docs-zh"
 ---
 [English](/dancexr/features/actor_playlist) | [简体中文](/zh/dancexr/features/actor_playlist) | [日本語](/jp/dancexr/features/actor_playlist)
 

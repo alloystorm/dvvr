@@ -2,6 +2,8 @@
 layout: single
 title: グラウンド
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/ground) | [简体中文](/zh/dancexr/features/ground) | [日本語](/jp/dancexr/features/ground)
 

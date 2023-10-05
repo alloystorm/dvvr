@@ -2,6 +2,8 @@
 layout: single
 title: リミックスモーション
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/remix) | [简体中文](/zh/dancexr/features/remix) | [日本語](/jp/dancexr/features/remix)
 

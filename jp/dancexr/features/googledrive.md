@@ -2,6 +2,8 @@
 layout: single
 title: Google Driveの統合
 toc: true
+sidebar:
+  nav: "docs-jp"
 ---
 [English](/dancexr/features/googledrive) | [简体中文](/zh/dancexr/features/googledrive) | [日本語](/jp/dancexr/features/googledrive)
 
