@@ -47,18 +47,20 @@ docs:
         url: /dancexr/preparecontent
   - title: "Introducing: AI Powered Chat"
     url: /dancexr/ai_chat
-  - title: Release Notes
+  - title: Releases
     url: /dancexr/releases/
     children:
-    - title: Release 1.4.9 Oct 2023
+    - title: Upcoming: 1.4.9
       url: /dancexr/releases/1.4.9
-  - title: Features
+    - title: Current: 1.4.8
+      url: /dancexr/releases/1.4.8
+  - title: Feature List
     url: /dancexr/features
-  - title: Versions
+  - title: Variants & Availability
     url: /dancexr/versions
-  - title: "FAQ"
+  - title: FAQ
     url: /dancexr/faq
-  - title: "Troubleshooting"
+  - title: Troubleshooting
     url: /dancexr/troubleshooting  
 
 releases-zh:
@@ -100,7 +102,7 @@ docs-zh:
         url: /zh/dancexr/download
       - title: "內容庫"
         url: /zh/dancexr/preparecontent
-  - title: "隆重介绍：AI聊天"
+  - title: "隆重介绍: AI聊天"
     url: /zh/dancexr/ai_chat
   - title: 發布說明
     url: /zh/dancexr/releases/
