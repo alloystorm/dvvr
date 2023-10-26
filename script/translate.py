@@ -138,7 +138,7 @@ for subdir, _, files in os.walk(src_path):
             #     print(f"Skipping {dst_file_path} because it is newer than source.")
             #     continue
             if not is_file_newer_than_translation(file_path, lang):
-                print(f"Skipping {dst_file_path} because it is newer than source.")
+                # print(f"Skipping {dst_file_path} because it is newer than source.")
                 continue
             
             print(dst_file_path)
