@@ -44,15 +44,15 @@ It is advisable to store all files related to the motion data in a single subfol
 
 On PC:
 {% include video id="-2LStDN7WB8" provider="youtube" %}
-
+{% include video id="BV1BH4y167jG" provider="bilibili" %}
 
 Using content manager on Android
 {% include video id="VQjnL9oq-hY" provider="youtube" %}
-
+{% include video id="BV1Ne4y137Ci" provider="bilibili" %}
 
 Loading content on Quest
 {% include video id="ZmDeuWwZtmI" provider="youtube" %}
-
+{% include video id="BV1Dh4y1i7jJ" provider="bilibili" %}
 
 ## Content Library Tools
 There are a few tools provided in the content library menu.
