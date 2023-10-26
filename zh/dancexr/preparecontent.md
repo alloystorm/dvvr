@@ -44,15 +44,15 @@ DanceXR在内容库中的不同子文件夹中搜索各种类型的内容。
 
 在PC上：
 {% include video id="-2LStDN7WB8" provider="youtube" %}
-
+{% include video id="BV1BH4y167jG" provider="bilibili" %}
 
 在Android上使用内容管理器
 {% include video id="VQjnL9oq-hY" provider="youtube" %}
-
+{% include video id="BV1Ne4y137Ci" provider="bilibili" %}
 
 在Quest上加载内容
 {% include video id="ZmDeuWwZtmI" provider="youtube" %}
-
+{% include video id="BV1Dh4y1i7jJ" provider="bilibili" %}
 
 ## 内容库工具
 内容库菜单中提供了一些工具。
