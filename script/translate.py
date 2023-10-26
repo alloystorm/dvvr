@@ -157,19 +157,19 @@ for subdir, _, files in os.walk(src_path):
                 for chunk in chunks:
                     index += 1
                     print(f"Translating chunk {index}/{len(chunks)} size: {len(chunk)}...")
-                    # translated_chunks.append(translate(chunk, lang))
+                    translated_chunks.append(translate(chunk, lang))
                     print("Done.")
                 
                 # Combine the translated chunks and save the result
-                # translated_content = "\n## ".join(translated_chunks)
+                translated_content = "\n## ".join(translated_chunks)
                 print(f"Saving translated content to {dst_file_path}...")
                 
                 # Ensure the directory exists
-                # ensure_dir(dst_file_path)
+                ensure_dir(dst_file_path)
                 
                 # Save the translated content
-                # with open(dst_file_path, 'w', encoding='utf-8') as f:
-                #     f.write(translated_content)
+                with open(dst_file_path, 'w', encoding='utf-8') as f:
+                    f.write(translated_content)
             except Exception as e:
                 print(e)
                 print(f"Skipping {dst_file_path} due to error...")
