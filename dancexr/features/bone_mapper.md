@@ -24,3 +24,9 @@ The statuc of bone mapping are indicated using circle icons.
 * Circle with exclamation mark means the bone is not mapped and is critical for the model to function.
 
 {% include video id="jtxQo5NYk2o" provider="youtube" %}
+
+## More Demos
+Here's a video demo of converting FBX model into XPS format and then use the bone mapper to allow it to work in DanceXR
+  
+{% include video id="YqX_uktVvQk" provider="youtube" %}
+{% include video id="BV1CF411o7P2" provider="bilibili" %}

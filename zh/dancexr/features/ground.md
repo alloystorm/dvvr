@@ -19,6 +19,8 @@ sidebar:
 
 ## 过程化舞台
 {% include video id="K3WSqEj7K-4" provider="youtube" %}
+{% include video id="BV1F3411d7gn" provider="bilibili" %}
+
 过程化舞台提供可调节的简单几何形状作为舞台。您可以：
 * 轻松更改舞台的宽度和深度
 * 提高或降低舞台的高度，甚至在地面上挖洞

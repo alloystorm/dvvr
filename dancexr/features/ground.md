@@ -19,6 +19,8 @@ You can put texture images in texture/ground folder of your content library to a
 
 ## Procedural Stage
 {% include video id="K3WSqEj7K-4" provider="youtube" %}
+{% include video id="BV1F3411d7gn" provider="bilibili" %}
+
 Procedural Stage provides adjustable simple geometry to use as stage. With it you can
 * Easily change the width and depth of the stage
 * Raise it up or lower it down, even digging holes into the ground.

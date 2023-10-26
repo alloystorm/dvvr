@@ -40,6 +40,8 @@ sidebar:
 
 ## 音频数据源
 {% include video id="A00DhbCOgu0" provider="youtube" %}
+{% include video id="BV1cm4y1t74d" provider="bilibili" %}
+
 * 音频振幅模式允许根据当前音频输出水平更改配置值。
     * 您可以选择平滑设置来根据需要微调输出。
     * 较高的平滑设置会生成平滑的输出，而较低的平滑设置则允许更快的响应。

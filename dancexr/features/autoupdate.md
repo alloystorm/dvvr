@@ -40,6 +40,8 @@ For example, for a configuration that is ranged from 0 to 1, when the mode is se
 
 ## Audio Data Sources
 {% include video id="A00DhbCOgu0" provider="youtube" %}
+{% include video id="BV1cm4y1t74d" provider="bilibili" %}
+
 * Audio Amplitude mode allows changing the config value based on currently audio output level. 
     * You can choose smoothing settings to fine tune the output according to your need. 
     * Higher smooth setting generates smooth output while lower smooth setting allows faster response.
