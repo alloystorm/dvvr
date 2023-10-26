@@ -38,7 +38,8 @@ def translate(text, target_language):
         "temperature": 0.2
     }
     response = requests.post(url, json=data, headers=headers)
-    print(response.json())
+    # print(response.json())
+    print("Received translation...")
     translated_text = response.json()['choices'][0]['message']['content'].strip()
     return translated_text
 
@@ -121,8 +122,10 @@ for subdir, _, files in os.walk(src_path):
             chunks = split_text(english_content, MAX_CHARS)
             translated_chunks = []
             print(f"{len(chunks)} chunks to translate.")
+            index = 0
             for chunk in chunks:
-                print(chunk)
+                index += 1
+                print(f"Translating chunk {index}/{len(chunks)} size: {len(chunk)}...")
                 translated_chunks.append(translate(chunk, lang))
             
             # Combine the translated chunks and save the result
