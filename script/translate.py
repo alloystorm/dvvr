@@ -1,6 +1,32 @@
 import os
 import requests
 import json
+import subprocess
+import os
+
+def get_latest_commit_info(file_path):
+    """Get the latest commit date for a given file."""
+    cmd = f"git log -1 --pretty=format:%ci -- {file_path}"
+    result = subprocess.run(cmd.split(), capture_output=True, text=True, check=True)
+    return result.stdout.strip()
+
+def is_file_newer_than_translation(file_path, prefix):
+    """Check if the given file is newer than its Japanese counterpart."""
+    jp_file_path = os.path.join(prefix, file_path)
+
+    commit_date_original = get_latest_commit_info(file_path)
+    commit_date_jp = get_latest_commit_info(jp_file_path)
+
+    # If the original file has no commit history, it's not "newer".
+    if not commit_date_original:
+        return False
+
+    # If the Japanese version has no commit history, the original is "newer".
+    if not commit_date_jp:
+        return True
+
+    # Return True if the original file's latest commit is more recent than the Japanese version.
+    return commit_date_original > commit_date_jp
 
 # Function to read API key from a JSON file
 def get_api_key_from_file(file_path):
@@ -108,7 +134,10 @@ for subdir, _, files in os.walk(src_path):
             dst_file_path = os.path.join(dst_path, os.path.relpath(file_path, src_path))
 
             # Check if destination file exists and is newer than source file
-            if os.path.exists(dst_file_path) and os.path.getmtime(dst_file_path) >= os.path.getmtime(file_path):
+            # if os.path.exists(dst_file_path) and os.path.getmtime(dst_file_path) >= os.path.getmtime(file_path):
+            #     print(f"Skipping {dst_file_path} because it is newer than source.")
+            #     continue
+            if not is_file_newer_than_translation(file_path, lang):
                 print(f"Skipping {dst_file_path} because it is newer than source.")
                 continue
             
@@ -122,20 +151,26 @@ for subdir, _, files in os.walk(src_path):
             chunks = split_text(english_content, MAX_CHARS)
             translated_chunks = []
             print(f"{len(chunks)} chunks to translate.")
-            index = 0
-            for chunk in chunks:
-                index += 1
-                print(f"Translating chunk {index}/{len(chunks)} size: {len(chunk)}...")
-                translated_chunks.append(translate(chunk, lang))
-                print("Done.")
-            
-            # Combine the translated chunks and save the result
-            translated_content = "\n## ".join(translated_chunks)
-            print(f"Saving translated content to {dst_file_path}...")
-            
-            # Ensure the directory exists
-            ensure_dir(dst_file_path)
-            
-            # Save the translated content
-            with open(dst_file_path, 'w', encoding='utf-8') as f:
-               f.write(translated_content)
+
+            try:
+                index = 0
+                for chunk in chunks:
+                    index += 1
+                    print(f"Translating chunk {index}/{len(chunks)} size: {len(chunk)}...")
+                    # translated_chunks.append(translate(chunk, lang))
+                    print("Done.")
+                
+                # Combine the translated chunks and save the result
+                # translated_content = "\n## ".join(translated_chunks)
+                print(f"Saving translated content to {dst_file_path}...")
+                
+                # Ensure the directory exists
+                # ensure_dir(dst_file_path)
+                
+                # Save the translated content
+                # with open(dst_file_path, 'w', encoding='utf-8') as f:
+                #     f.write(translated_content)
+            except Exception as e:
+                print(e)
+                print(f"Skipping {dst_file_path} due to error...")
+                continue
