@@ -31,30 +31,45 @@ for lang_dir in LANG_DIRS:
         if key not in lang_strings:
             missing_entries[key] = value
 
+    MAX_TOKENS = 1024
+    # Roughly estimating 4 characters per token as a heuristic
+    CHARS_PER_TOKEN = 4
+    MAX_CHARS = MAX_TOKENS * CHARS_PER_TOKEN
+
     # If there are missing entries, generate a file and wait for translation
     if missing_entries:
         # with open(os.path.join(lang_dir, "missing_strings.txt"), "w") as f:
-        missing_strings = "<resources>\n"
+        chunks = []
+        #missing_strings = "<resources>\n"
+        chunk = ""
         for key, value in missing_entries.items():
-            missing_strings += f"\t<string name=\"{key}\">{value}</string>\n"
-        missing_strings += "</resources>"
-        print(missing_strings)
-        try:
-            # Here, we would wait for translation. In this demo, let's mock the translation.
-            # translated_strings = {key: f"Translated {value}" for key, value in missing_entries.items()}
-            translated_strings = translate(missing_strings, lang)
-            # Append the translated strings back to the respective strings.xml
-            #parser = etree.XMLParser(remove_blank_text=True)
-            tree = ET.parse(lang_file)
-            root = tree.getroot()
-            translatedRoot = ET.fromstring(translated_strings)
-            for elem in translatedRoot:
-                root.append(elem)
-            # for key, value in translated_strings.items():
-            #     elem = etree.SubElement(root, "string", name=key)
-            #     elem.text = value
-            tree.write(lang_file, xml_declaration=True, encoding="utf-8")
-        except Exception as e:
-            print(e)
-            print(f"Skipping {lang_file} due to error...")
+            line = f"\t<string name=\"{key}\">{value}</string>\n"
+            if len(chunk) + len(line) > MAX_CHARS:
+                chunks.append(chunk)
+                chunk = line
+            else:
+                chunk += line
+        if chunk:
+            chunks.append(chunk)
+        #missing_strings += "</resources>"
+        print(f"Split into {len(chunks)} chunks.")
+        for missing_strings in chunks:
+            try:
+                # Here, we would wait for translation. In this demo, let's mock the translation.
+                # translated_strings = {key: f"Translated {value}" for key, value in missing_entries.items()}
+                translated_strings = translate(f"<resources>\n{missing_strings}</resources>", lang)
+                # Append the translated strings back to the respective strings.xml
+                #parser = etree.XMLParser(remove_blank_text=True)
+                tree = ET.parse(lang_file)
+                root = tree.getroot()
+                translatedRoot = ET.fromstring(translated_strings)
+                for elem in translatedRoot:
+                    root.append(elem)
+                # for key, value in translated_strings.items():
+                #     elem = etree.SubElement(root, "string", name=key)
+                #     elem.text = value
+                tree.write(lang_file, xml_declaration=True, encoding="utf-8")
+            except Exception as e:
+                print(e)
+                print(f"Skipping {lang_file} due to error...")
 print("Process completed!")
