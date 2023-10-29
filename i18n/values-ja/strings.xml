@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
 	<string name="H680F5489">2ピース</string>
 	<string name="HD2D43B5D">3Dスナップショット</string>
@@ -835,7 +836,7 @@
 	<string name="H380DC95A">透過の順序</string>
 	<string name="HE96AC539">グリップ入力を使用</string>
 	<string name="H9E9A5E4">幅</string>
-	<!--Added 19/10/21-->
+	
 	<string name="HC84ECFE6">加速</string>
 	<string name="H827DEC05">アクセント</string>
 	<string name="H6D3AF61">アクセサリー</string>
@@ -2260,4 +2261,44 @@
 	<string name="H7B453089">変更を保存</string>
 	<string name="H327A9FC8">不明</string>
 	<string name="H1196230F">音声マネージャー</string>
+<string name="H9E9F8AB9">[シーケンス]</string>
+    <string name="HF2D6584D">アライン閾値</string>
+    <string name="HAA0D830A">地面に合わせる</string>
+    <string name="H7D15B908">腕の回転</string>
+    <string name="H14AA5E7C">ブレンド時間</string>
+    <string name="HD34EF3F8">ブレンドモーション</string>
+    <string name="HC6C80CC0">中心位置</string>
+    <string name="H18866746">カスタム初期状態</string>
+    <string name="H61306658">カスタム状態1</string>
+    <string name="H2F11B079">カスタム状態2</string>
+    <string name="HE8E46F85">カスタム状態3</string>
+    <string name="H957AC2E2">カスタム状態4</string>
+    <string name="HCA2ADDFC">カスタム状態5</string>
+    <string name="H9642CC1F">カスタム状態6</string>
+    <string name="HFD395632">カスタム状態7</string>
+    <string name="HA6973363">カスタム状態8</string>
+    <string name="H4D9F27F0">エンジン</string>
+    <string name="H48E46654">ボーン階層の修正</string>
+    <string name="H70098F98">欠落したボーンの修正</string>
+    <string name="H496ACB9F">足の回転</string>
+    <string name="HD81113AB">前腕の回転</string>
+    <string name="HB3DD1997">脚の回転</string>
+    <string name="HBC208927">頭の回転制限</string>
+    <string name="H17C97656">首の回転制限</string>
+    <string name="HE199B814">最大時間</string>
+    <string name="H93112E12">パディング終了</string>
+    <string name="H8E925E85">パディング開始</string>
+    <string name="HD0A27359">物理エンジン</string>
+    <string name="H99076FD7">PhysX（デフォルト）</string>
+    <string name="H75BEED21">ポーズ調整</string>
+    <string name="HC0B2ABD0">シーケンスの再構築</string>
+    <string name="HCE1C1FC4">X軸回転</string>
+    <string name="H201A961E">Y軸回転</string>
+    <string name="H8055205E">Z軸回転</string>
+    <string name="H87480336">ボーンの選択</string>
+    <string name="H513FBDEC">シーケンス設定</string>
+    <string name="H5CB14138">肩のアニメーション</string>
+    <string name="H44E256E8">システムデフォルト</string>
+    <string name="H17E6BF15">先端距離</string>
+    <string name="H4D5A9C28">つま先の高さ</string>
 </resources>

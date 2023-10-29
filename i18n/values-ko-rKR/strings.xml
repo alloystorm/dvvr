@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
 	<string name="H680F5489">2 개</string>
 	<string name="HD2D43B5D">3D 스냅 샷</string>
@@ -835,7 +836,7 @@
 	<string name="H380DC95A">투명한 정렬</string>
 	<string name="HE96AC539">그립 입력 사용</string>
 	<string name="H9E9A5E4">너비</string>
-	<!--Added 19/10/21-->
+	
 	<string name="HC84ECFE6">가속</string>
 	<string name="H827DEC05">악센트</string>
 	<string name="H6D3AF61">액세서리</string>
@@ -2260,4 +2261,44 @@
 	<string name="H7B453089">변경 사항 저장</string>
 	<string name="H327A9FC8">알 수 없음</string>
 	<string name="H1196230F">음성 관리자</string>
+<string name="H9E9F8AB9">[시퀀스]</string>
+	<string name="HF2D6584D">정렬 임계값</string>
+	<string name="HAA0D830A">지면에 정렬</string>
+	<string name="H7D15B908">팔 회전</string>
+	<string name="H14AA5E7C">블렌드 지속 시간</string>
+	<string name="HD34EF3F8">블렌드 모션</string>
+	<string name="HC6C80CC0">중심 위치</string>
+	<string name="H18866746">사용자 정의 초기 상태</string>
+	<string name="H61306658">사용자 정의 상태 1</string>
+	<string name="H2F11B079">사용자 정의 상태 2</string>
+	<string name="HE8E46F85">사용자 정의 상태 3</string>
+	<string name="H957AC2E2">사용자 정의 상태 4</string>
+	<string name="HCA2ADDFC">사용자 정의 상태 5</string>
+	<string name="H9642CC1F">사용자 정의 상태 6</string>
+	<string name="HFD395632">사용자 정의 상태 7</string>
+	<string name="HA6973363">사용자 정의 상태 8</string>
+	<string name="H4D9F27F0">엔진</string>
+	<string name="H48E46654">본 계층 구조 수정</string>
+	<string name="H70098F98">누락된 본 수정</string>
+	<string name="H496ACB9F">발 회전</string>
+	<string name="HD81113AB">팔꿈치 회전</string>
+	<string name="HB3DD1997">다리 회전</string>
+	<string name="HBC208927">머리 회전 제한</string>
+	<string name="H17C97656">목 회전 제한</string>
+	<string name="HE199B814">최대 지속 시간</string>
+	<string name="H93112E12">패딩 끝</string>
+	<string name="H8E925E85">패딩 시작</string>
+	<string name="HD0A27359">물리 엔진</string>
+	<string name="H99076FD7">PhysX (기본값)</string>
+	<string name="H75BEED21">자세 조정</string>
+	<string name="HC0B2ABD0">시퀀스 재구성</string>
+	<string name="HCE1C1FC4">X축 회전</string>
+	<string name="H201A961E">Y축 회전</string>
+	<string name="H8055205E">Z축 회전</string>
+	<string name="H87480336">본 선택</string>
+	<string name="H513FBDEC">시퀀스 설정</string>
+	<string name="H5CB14138">어깨 애니메이션</string>
+	<string name="H44E256E8">시스템 기본값</string>
+	<string name="H17E6BF15">팁 거리</string>
+	<string name="H4D5A9C28">발높이</string>
 </resources>

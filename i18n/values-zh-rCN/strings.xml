@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="H680F5489">2 件</string>
     <string name="HD2D43B5D">3D 快照</string>
@@ -835,7 +836,7 @@
     <string name="H380DC95A">透明排序</string>
     <string name="HE96AC539">使用夹点输入</string>
     <string name="H9E9A5E4">宽度</string>
-    <!--Added 19/10/21-->
+    
     <string name="HC84ECFE6">加速</string>
     <string name="H827DEC05">口音</string>
     <string name="H6D3AF61">附件</string>
@@ -2098,7 +2099,7 @@
     <string name="HB1B3F15F">裙子物理</string>
     <string name="HDC82991B">主要组</string>
 
-    <string name="H969962E">用于颜色</string >
+    <string name="H969962E">用于颜色</string>
     <string name="H9F1C1304">来自高光贴图</string>
     <string name="H3DF62B55">中间颜色</string>
     <string name="HC005D3D8">法线贴图</string>
@@ -2260,4 +2261,44 @@
     <string name="H7B453089">保存更改</string>
     <string name="H327A9FC8">未知</string>
     <string name="H1196230F">语音管理器</string>
+<string name="H9E9F8AB9">[序列]</string>
+    <string name="HF2D6584D">对齐阈值</string>
+    <string name="HAA0D830A">对齐到地面</string>
+    <string name="H7D15B908">手臂旋转</string>
+    <string name="H14AA5E7C">混合持续时间</string>
+    <string name="HD34EF3F8">混合动作</string>
+    <string name="HC6C80CC0">中心位置</string>
+    <string name="H18866746">自定义初始状态</string>
+    <string name="H61306658">自定义状态1</string>
+    <string name="H2F11B079">自定义状态2</string>
+    <string name="HE8E46F85">自定义状态3</string>
+    <string name="H957AC2E2">自定义状态4</string>
+    <string name="HCA2ADDFC">自定义状态5</string>
+    <string name="H9642CC1F">自定义状态6</string>
+    <string name="HFD395632">自定义状态7</string>
+    <string name="HA6973363">自定义状态8</string>
+    <string name="H4D9F27F0">引擎</string>
+    <string name="H48E46654">修复骨骼层次结构</string>
+    <string name="H70098F98">修复缺失骨骼</string>
+    <string name="H496ACB9F">脚部旋转</string>
+    <string name="HD81113AB">前臂旋转</string>
+    <string name="HB3DD1997">腿部旋转</string>
+    <string name="HBC208927">限制头部旋转</string>
+    <string name="H17C97656">限制颈部旋转</string>
+    <string name="HE199B814">最大持续时间</string>
+    <string name="H93112E12">填充结束</string>
+    <string name="H8E925E85">填充开始</string>
+    <string name="HD0A27359">物理引擎</string>
+    <string name="H99076FD7">PhysX（默认）</string>
+    <string name="H75BEED21">姿势调整</string>
+    <string name="HC0B2ABD0">重建序列</string>
+    <string name="HCE1C1FC4">绕X轴旋转</string>
+    <string name="H201A961E">绕Y轴旋转</string>
+    <string name="H8055205E">绕Z轴旋转</string>
+    <string name="H87480336">选择骨骼</string>
+    <string name="H513FBDEC">序列设置</string>
+    <string name="H5CB14138">肩部动画</string>
+    <string name="H44E256E8">系统默认</string>
+    <string name="H17E6BF15">尖端距离</string>
+    <string name="H4D5A9C28">脚趾高度</string>
 </resources>

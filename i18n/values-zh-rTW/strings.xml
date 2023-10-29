@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="H680F5489">2 件</string>
     <string name="HD2D43B5D">3D 快照</string>
@@ -835,7 +836,7 @@
     <string name="H380DC95A">透明排序</string>
     <string name="HE96AC539">使用夾點輸入</string>
     <string name="H9E9A5E4">寬度</string>
-    <!--Added 19/10/21-->
+    
     <string name="HC84ECFE6">加速</string>
     <string name="H827DEC05">口音</string>
     <string name="H6D3AF61">附件</string>
@@ -2081,7 +2082,7 @@
     <string name="HB1B3F15F">裙子物理</string>
     <string name="HDC82991B">主要組</string>
 
-    <string name="H969962E">用於顏色</string >
+    <string name="H969962E">用於顏色</string>
     <string name="H9F1C1304">來自高光貼圖</string>
     <string name="H3DF62B55">中間顏色</string>
     <string name="HC005D3D8">法線貼圖</string>
@@ -2252,4 +2253,51 @@
     <string name="H7B453089">儲存變更</string>
     <string name="H327A9FC8">未知</string>
     <string name="H1196230F">語音管理器</string>
+<string name="HBD94030B">[空白]</string>
+    <string name="H7B55FEE4">[灰塵]</string>
+    <string name="H8AA4E97D">[葉子]</string>
+    <string name="H87DE07B9">[花瓣]</string>
+    <string name="H7C6C2116">[星空地圖]</string>
+    <string name="HFDACF8E3">[紋身]</string>
+    <string name="H129ACF82">抖動</string>
+    <string name="H9E9F8AB9">[序列]</string>
+    <string name="HF2D6584D">對齊閾值</string>
+    <string name="HAA0D830A">對齊到地面</string>
+    <string name="H7D15B908">手臂旋轉</string>
+    <string name="H14AA5E7C">混合持續時間</string>
+    <string name="HD34EF3F8">混合動作</string>
+    <string name="HC6C80CC0">中心位置</string>
+    <string name="H18866746">自訂初始狀態</string>
+    <string name="H61306658">自訂狀態1</string>
+    <string name="H2F11B079">自訂狀態2</string>
+    <string name="HE8E46F85">自訂狀態3</string>
+    <string name="H957AC2E2">自訂狀態4</string>
+    <string name="HCA2ADDFC">自訂狀態5</string>
+    <string name="H9642CC1F">自訂狀態6</string>
+    <string name="HFD395632">自訂狀態7</string>
+    <string name="HA6973363">自訂狀態8</string>
+    <string name="H4D9F27F0">引擎</string>
+    <string name="H48E46654">修復骨骼層次結構</string>
+    <string name="H70098F98">修復缺失骨骼</string>
+    <string name="H496ACB9F">腳旋轉</string>
+    <string name="HD81113AB">前臂旋轉</string>
+    <string name="HB3DD1997">腿旋轉</string>
+    <string name="HBC208927">限制頭部旋轉</string>
+    <string name="H17C97656">限制頸部旋轉</string>
+    <string name="HE199B814">最大持續時間</string>
+    <string name="H93112E12">填充結束</string>
+    <string name="H8E925E85">填充開始</string>
+    <string name="HD0A27359">物理引擎</string>
+    <string name="H99076FD7">PhysX（預設）</string>
+    <string name="H75BEED21">姿勢調整</string>
+    <string name="HC0B2ABD0">重建序列</string>
+    <string name="HCE1C1FC4">旋轉 X</string>
+    <string name="H201A961E">旋轉 Y</string>
+    <string name="H8055205E">旋轉 Z</string>
+    <string name="H87480336">選擇骨骼</string>
+    <string name="H513FBDEC">序列設定</string>
+    <string name="H5CB14138">肩膀動畫</string>
+    <string name="H44E256E8">系統預設</string>
+    <string name="H17E6BF15">尖端距離</string>
+    <string name="H4D5A9C28">腳趾高度</string>
 </resources>
