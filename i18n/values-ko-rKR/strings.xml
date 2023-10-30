@@ -2569,4 +2569,24 @@
 	<string name="H8489F76E">핀 메뉴 기능 사용. 선택한 메뉴의 상위 레벨을 모두 숨겨 공간 확보</string>
 	<string name="H3FC63FDB">자동 확대/축소 사용 시 대상의 수직 높이</string>
 	<string name="H101A90BD">메뉴 항목의 너비</string>
+<string name="H4DBB668A">FPS 표시 옆에 시스템 시간 추가</string>
+	<string name="H8793ED46">아니소트로피 효과</string>
+	<string name="H516A6366">이보다 낮은 알파 값이 있는 영역은 깊이 사전 패스를 트리거하지 않습니다.</string>
+	<string name="HE8B7ACBE">원하는 FPS 선택</string>
+	<string name="H96AA6A9C">습기(땀이나 비)로 인해 색상 어둡게 하기</string>
+	<string name="HCA4A4327">화면 왼쪽에 FPS 표시</string>
+	<string name="H85B0F9E0">화면에 FPS 표시. VR 모드에서는 FPS가 손등에 표시됩니다.</string>
+	<string name="H950ADF56">VR 모드에서 사용자로부터 UI의 거리</string>
+	<string name="HD10FCBF8">깊이 사전 패스 활성화</string>
+	<string name="H87CED7EA">색상 맵 정보를 기반으로 노멀 맵 생성</string>
+	<string name="H5DA58682">생성된 노멀 맵의 강도</string>
+	<string name="H5E65F2B5">스킨 디테일 범프 맵의 강도</string>
+	<string name="HFB5EA22A">노멀 맵 생성 시 X/Y 축의 비율</string>
+	<string name="H57701DC6">스킨 디테일 범프 맵의 스케일</string>
+	<string name="HCA2008FE">모션의 끝과 시작을 혼합하여 원활하게 루프</string>
+	<string name="HA884EC8A">절차적 하늘을 사용할 때 밤 시간의 별의 강도 설정</string>
+	<string name="H63D3E997">땀 효과</string>
+	<string name="H49A5B1FA">서브서피스 산란 효과에 사용되는 두께. 낮을수록 투명도가 높아집니다.</string>
+	<string name="H706F24C7">VR 모드에서 UI가 자동으로 사용자의 방향을 따라갑니다.</string>
+	<string name="HE03DCB7">가능한 경우 스페큘러 맵을 사용하여 노멀 맵 생성</string>
 </resources>

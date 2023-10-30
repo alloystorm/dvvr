@@ -2568,4 +2568,24 @@
     <string name="H8489F76E">使用固定選單功能。隱藏所選選單的所有父層級以為場景留出空間</string>
     <string name="H3FC63FDB">使用自動縮放時目標的垂直高度</string>
     <string name="H101A90BD">選單項目的寬度</string>
+<string name="H4DBB668A">在FPS顯示旁邊添加系統時間</string>
+	<string name="H8793ED46">各向異性效果</string>
+	<string name="H516A6366">低於此alpha值的區域將不會觸發深度預先通過</string>
+	<string name="HE8B7ACBE">選擇所需的FPS</string>
+	<string name="H96AA6A9C">濕潤時（汗水或雨水）加深顏色</string>
+	<string name="HCA4A4327">在左側顯示FPS</string>
+	<string name="H85B0F9E0">在屏幕上顯示FPS。在VR模式下，FPS顯示在手背上</string>
+	<string name="H950ADF56">VR模式下UI與使用者的距離</string>
+	<string name="HD10FCBF8">啟用深度預先通過</string>
+	<string name="H87CED7EA">根據顏色圖信息生成法線貼圖</string>
+	<string name="H5DA58682">生成的法線貼圖強度</string>
+	<string name="H5E65F2B5">皮膚細節凹凸貼圖強度</string>
+	<string name="HFB5EA22A">生成法線貼圖時的X/Y軸比例</string>
+	<string name="H57701DC6">皮膚細節凹凸貼圖的比例</string>
+	<string name="HCA2008FE">通過混合結束和開始來無縫循環運動</string>
+	<string name="HA884EC8A">在使用程序化天空時設置夜間星星的強度</string>
+	<string name="H63D3E997">汗水效果</string>
+	<string name="H49A5B1FA">次表面散射效果中使用的厚度。較低=更透明</string>
+	<string name="H706F24C7">在VR模式下，UI自動跟隨使用者的方向</string>
+	<string name="HE03DCB7">如果有的話，使用高光貼圖生成法線貼圖</string>
 </resources>

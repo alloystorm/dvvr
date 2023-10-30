@@ -2569,4 +2569,24 @@
     <string name="H8489F76E">ピンメニュー機能を使用する。選択したメニューの親レベルをすべて非表示にしてシーンのためのスペースを作る</string>
     <string name="H3FC63FDB">自動ズーム時のターゲットの垂直高さ</string>
     <string name="H101A90BD">メニューアイテムの幅</string>
+<string name="H4DBB668A">FPS表示の横にシステム時刻を追加する</string>
+	<string name="H8793ED46">異方性効果</string>
+	<string name="H516A6366">この値よりも低いアルファ値を持つ領域は、デプスプリパスをトリガーしません</string>
+	<string name="HE8B7ACBE">希望するFPSを選択する</string>
+	<string name="H96AA6A9C">湿った状態（汗や雨）で色を暗くする</string>
+	<string name="HCA4A4327">FPSを画面の左側に表示する</string>
+	<string name="H85B0F9E0">FPSを画面に表示する。VRモードではFPSが手の裏に表示されます</string>
+	<string name="H950ADF56">VRモードでのユーザーからのUIの距離</string>
+	<string name="HD10FCBF8">デプスプリパスを有効にする</string>
+	<string name="H87CED7EA">カラーマップ情報に基づいて法線マップを生成する</string>
+	<string name="H5DA58682">生成された法線マップの強度</string>
+	<string name="H5E65F2B5">スキンディテールバンプマップの強度</string>
+	<string name="HFB5EA22A">法線マップ生成時のX/Y軸の比率</string>
+	<string name="H57701DC6">スキンディテールバンプマップのスケール</string>
+	<string name="HCA2008FE">モーションの終わりと始まりをブレンドしてシームレスにループさせる</string>
+	<string name="HA884EC8A">手続き型スカイを使用する際の夜間の星の強度を設定する</string>
+	<string name="H63D3E997">汗の効果</string>
+	<string name="H49A5B1FA">サブサーフェス散乱効果に使用される厚さ。低いほど透明度が高くなります</string>
+	<string name="H706F24C7">VRモードでUIが自動的にユーザーの向きに追従する</string>
+	<string name="HE03DCB7">利用可能な場合、スペキュラマップを使用して法線マップを生成する</string>
 </resources>

@@ -2578,4 +2578,25 @@
 	<string name="H8489F76E">Use pin menu feature. Hide all parent levels of the selected menu to make room for the scene</string>
 	<string name="H3FC63FDB">Vertical height for the target when using auto zoom</string>
 	<string name="H101A90BD">Width of menu item</string>
+
+    <string name="H4DBB668A">Add system time next to the FPS display</string>
+	<string name="H8793ED46">Anisotropy effect</string>
+	<string name="H516A6366">Areas that have lower alpha value than this will not trigger depth prepass</string>
+	<string name="HE8B7ACBE">Choose desired FPS</string>
+	<string name="H96AA6A9C">Darken the color when wet (from sweat or rain)</string>
+	<string name="HCA4A4327">Display FPS on the left side</string>
+	<string name="H85B0F9E0">Display FPS on the screen. In VR mode FPS is shown on the back of your hand</string>
+	<string name="H950ADF56">Distance of UI from the user in VR mode</string>
+	<string name="HD10FCBF8">Enable depth prepass.</string>
+	<string name="H87CED7EA">Generate normal map based on color map information</string>
+	<string name="H5DA58682">Intensity of the generated normal map</string>
+	<string name="H5E65F2B5">Intensity of the skin detail bump map</string>
+	<string name="HFB5EA22A">Ratio of X/Y axis when generating normal map</string>
+	<string name="H57701DC6">Scale of the skin detail bump map</string>
+	<string name="HCA2008FE">Seamlessly loop the motion by blending the end and start</string>
+	<string name="HA884EC8A">Set intensity of stars in night time when using procedural sky.</string>
+	<string name="H63D3E997">Sweat effect</string>
+	<string name="H49A5B1FA">Thickness used in the subsurface scattering effect. Lower = more translucent</string>
+	<string name="H706F24C7">UI automatically follow user's orientation in VR mode</string>
+	<string name="HE03DCB7">Use specular map to generate normal map if available</string>
 </resources>

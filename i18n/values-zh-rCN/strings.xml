@@ -2569,4 +2569,24 @@
 	<string name="H8489F76E">使用固定菜单功能。隐藏所选菜单的所有父级以为场景腾出空间</string>
 	<string name="H3FC63FDB">使用自动缩放时目标的垂直高度</string>
 	<string name="H101A90BD">菜单项的宽度</string>
+<string name="H4DBB668A">在FPS显示旁边添加系统时间</string>
+    <string name="H8793ED46">各向异性效果</string>
+    <string name="H516A6366">低于此透明度的区域不会触发深度预通</string>
+    <string name="HE8B7ACBE">选择所需的FPS</string>
+    <string name="H96AA6A9C">当湿润时（出汗或下雨）加深颜色</string>
+    <string name="HCA4A4327">在屏幕左侧显示FPS</string>
+    <string name="H85B0F9E0">在屏幕上显示FPS。在VR模式下，FPS显示在手背上</string>
+    <string name="H950ADF56">VR模式下用户界面与用户的距离</string>
+    <string name="HD10FCBF8">启用深度预通</string>
+    <string name="H87CED7EA">根据颜色图信息生成法线贴图</string>
+    <string name="H5DA58682">生成的法线贴图强度</string>
+    <string name="H5E65F2B5">皮肤细节凹凸贴图强度</string>
+    <string name="HFB5EA22A">生成法线贴图时的X/Y轴比例</string>
+    <string name="H57701DC6">皮肤细节凹凸贴图的缩放</string>
+    <string name="HCA2008FE">通过混合结束和开始来无缝循环动作</string>
+    <string name="HA884EC8A">在使用程序化天空时设置夜间星星的强度</string>
+    <string name="H63D3E997">汗水效果</string>
+    <string name="H49A5B1FA">次表面散射效果中使用的厚度。较低=更透明</string>
+    <string name="H706F24C7">VR模式下用户界面自动跟随用户的方向</string>
+    <string name="HE03DCB7">如果有的话，使用高光贴图生成法线贴图</string>
 </resources>
