@@ -2550,4 +2550,32 @@
 	<string name="H9A47FFD5">The scale applied to mass values in auto mode</string>
 	<string name="HB3A86A3F">Use the experimental setup that reduces constraints to allow smoother simulation</string>
 
+	<string name="HC15F5F64">Apply resolution change</string>
+	<string name="H97339B20">Automatically focus on target</string>
+	<string name="H547664FC">Automatically zoom in and out to keep the size of the target the same</string>
+	<string name="H828EA683">Camera follows the rotation of the target</string>
+	<string name="H1A6973C7">Choose fullscreen resolution</string>
+	<string name="HF8AB18A1">Choose window resolution</string>
+	<string name="HDF2CF3DF">End value for the input</string>
+	<string name="H88C76AA">End value for the output</string>
+	<string name="H85901351">Exclusive fullscreen mode</string>
+	<string name="H596CE56C">Experimental. Choose to turn off audio play bar</string>
+	<string name="HE3E962A5">Horizontal rotation range.</string>
+	<string name="H339F4BC3">Maintain the rotation when there is no input</string>
+	<string name="HFB2D08A0">Max levels of menu levels appear at the same time</string>
+	<string name="H96EC72E5">Maximum rotation speed</string>
+	<string name="H11A05D9E">Minimum rotation speed</string>
+	<string name="HB94B61D0">Move focus position up when distance gets smaller</string>
+	<string name="HCDFA6DAA">Offset vertically</string>
+	<string name="H1F3C6C86">Predict position of the target to reduce lag caused by smoothing</string>
+	<string name="HF93B1767">Select frequency band when using audio as input</string>
+	<string name="H18816B53">Size of menu indentation</string>
+	<string name="HB09627E">Start value for the input</string>
+	<string name="H5ED60384">Start value for the output</string>
+	<string name="HF7A40436">Swap width and height in window mode</string>
+	<string name="H1C722CB7">The ease curve used when changing motion</string>
+	<string name="H3E7834F3">UI always on top in VR mode</string>
+	<string name="H8489F76E">Use pin menu feature. Hide all parent levels of the selected menu to make room for the scene</string>
+	<string name="H3FC63FDB">Vertical height for the target when using auto zoom</string>
+	<string name="H101A90BD">Width of menu item</string>
 </resources>
