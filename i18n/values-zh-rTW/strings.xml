@@ -2588,4 +2588,25 @@
 	<string name="H49A5B1FA">次表面散射效果中使用的厚度。較低=更透明</string>
 	<string name="H706F24C7">在VR模式下，UI自動跟隨使用者的方向</string>
 	<string name="HE03DCB7">如果有的話，使用高光貼圖生成法線貼圖</string>
+<string name="H2A8DBDAE">錨點位置</string>
+    <string name="HA31302D1">音頻振幅</string>
+    <string name="H5C4384C2">頻帶</string>
+    <string name="HC4AFA87E">每個層級的封閉迴路骨骼</string>
+    <string name="HFD69C955">方塊</string>
+    <string name="H81BD6837">在創建關節時選擇錨點位置。0 = 錨點在父骨骼，1 = 錨點在子骨骼</string>
+    <string name="HEEB7BA3A">圓形</string>
+    <string name="HEBF76DEF">在前x個層級中不創建物理連接</string>
+    <string name="H69202657">輸入來源</string>
+    <string name="H8A0E289A">輸入目標</string>
+    <string name="H9FE2E351">連接同一層級骨骼時的關節參數</string>
+    <string name="HCDFD4597">連接到上一層級時的關節參數</string>
+    <string name="H9EFC7129">限制扭轉旋轉</string>
+    <string name="HA4BC661A">線性</string>
+    <string name="H30C27290">物理屬性，如質量、阻力和摩擦力</string>
+    <string name="HA1FD635C">在每個層級減少彈簧力</string>
+    <string name="H65AFEF6B">選擇骨骼</string>
+    <string name="HC03DB35B">選擇順序</string>
+    <string name="H1333410B">連接骨骼時使用的排序方法</string>
+    <string name="HD5A712DC">最短路徑</string>
+    <string name="H20D4C92E">頻譜頻帶</string>
 </resources>

@@ -2589,4 +2589,25 @@
 	<string name="H49A5B1FA">サブサーフェス散乱効果に使用される厚さ。低いほど透明度が高くなります</string>
 	<string name="H706F24C7">VRモードでUIが自動的にユーザーの向きに追従する</string>
 	<string name="HE03DCB7">利用可能な場合、スペキュラマップを使用して法線マップを生成する</string>
+<string name="H2A8DBDAE">アンカーポジション</string>
+    <string name="HA31302D1">オーディオ振幅</string>
+    <string name="H5C4384C2">バンド</string>
+    <string name="HC4AFA87E">各レベルで閉じたループ用のボーン</string>
+    <string name="HFD69C955">ボックス</string>
+    <string name="H81BD6837">ジョイントを作成する際にアンカーポジションを選択します。0 = 親ボーンにアンカー、1 = 子ボーンにアンカー</string>
+    <string name="HEEB7BA3A">円形</string>
+    <string name="HEBF76DEF">最初のx個のレベルに対して物理的な接続を作成しない</string>
+    <string name="H69202657">入力元</string>
+    <string name="H8A0E289A">入力先</string>
+    <string name="H9FE2E351">同じレベルのボーンを接続する際のジョイントパラメータ</string>
+    <string name="HCDFD4597">親レベルに接続する際のジョイントパラメータ</string>
+    <string name="H9EFC7129">ねじれ回転を制限する</string>
+    <string name="HA4BC661A">リニア</string>
+    <string name="H30C27290">質量、ドラッグ、摩擦などの物理特性</string>
+    <string name="HA1FD635C">各レベルでスプリング力を減少させる</string>
+    <string name="H65AFEF6B">ボーンを選択</string>
+    <string name="HC03DB35B">選択順序</string>
+    <string name="H1333410B">ボーンを接続する際に使用されるソート方法を設定します</string>
+    <string name="HD5A712DC">最短経路</string>
+    <string name="H20D4C92E">スペクトルバンド</string>
 </resources>

@@ -2599,4 +2599,26 @@
 	<string name="H49A5B1FA">Thickness used in the subsurface scattering effect. Lower = more translucent</string>
 	<string name="H706F24C7">UI automatically follow user's orientation in VR mode</string>
 	<string name="HE03DCB7">Use specular map to generate normal map if available</string>
+
+    <string name="H2A8DBDAE">Anchor Position</string>
+	<string name="HA31302D1">Audio Amplitude</string>
+	<string name="H5C4384C2">Band</string>
+	<string name="HC4AFA87E">Bones for closed loops at each level</string>
+	<string name="HFD69C955">Box</string>
+	<string name="H81BD6837">Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone</string>
+	<string name="HEEB7BA3A">Circular</string>
+	<string name="HEBF76DEF">Do not create physics connection for the first x number of levels</string>
+	<string name="H69202657">Input From</string>
+	<string name="H8A0E289A">Input To</string>
+	<string name="H9FE2E351">Joint parameters when connecting bones at the same level</string>
+	<string name="HCDFD4597">Joint parameters when connecting to parent level</string>
+	<string name="H9EFC7129">Limit tiwsting rotation</string>
+	<string name="HA4BC661A">Linear</string>
+	<string name="H30C27290">Physics properties like mass, drag and friction</string>
+	<string name="HA1FD635C">Reduce spring force at each level</string>
+	<string name="H65AFEF6B">Select bones</string>
+	<string name="HC03DB35B">Selection Order</string>
+	<string name="H1333410B">Set sorting method used when connecting bones</string>
+	<string name="HD5A712DC">Shortest Path</string>
+	<string name="H20D4C92E">Spectrum Band</string>
 </resources>

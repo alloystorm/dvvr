@@ -2589,4 +2589,25 @@
 	<string name="H49A5B1FA">서브서피스 산란 효과에 사용되는 두께. 낮을수록 투명도가 높아집니다.</string>
 	<string name="H706F24C7">VR 모드에서 UI가 자동으로 사용자의 방향을 따라갑니다.</string>
 	<string name="HE03DCB7">가능한 경우 스페큘러 맵을 사용하여 노멀 맵 생성</string>
+<string name="H2A8DBDAE">앵커 위치</string>
+	<string name="HA31302D1">오디오 진폭</string>
+	<string name="H5C4384C2">밴드</string>
+	<string name="HC4AFA87E">각 레벨에서 닫힌 루프용 본</string>
+	<string name="HFD69C955">상자</string>
+	<string name="H81BD6837">조인트를 생성할 때 앵커 위치 선택. 0 = 부모 본에서 앵커, 1 = 자식 본에서 앵커</string>
+	<string name="HEEB7BA3A">원형</string>
+	<string name="HEBF76DEF">처음 x개의 레벨에 대해 물리 연결 생성하지 않음</string>
+	<string name="H69202657">입력 위치</string>
+	<string name="H8A0E289A">출력 위치</string>
+	<string name="H9FE2E351">동일 레벨의 본을 연결할 때의 조인트 매개변수</string>
+	<string name="HCDFD4597">상위 레벨에 연결할 때의 조인트 매개변수</string>
+	<string name="H9EFC7129">회전 제한</string>
+	<string name="HA4BC661A">선형</string>
+	<string name="H30C27290">질량, 저항 및 마찰과 같은 물리 속성</string>
+	<string name="HA1FD635C">각 레벨에서 스프링 힘 감소</string>
+	<string name="H65AFEF6B">본 선택</string>
+	<string name="HC03DB35B">선택 순서</string>
+	<string name="H1333410B">본을 연결할 때 사용되는 정렬 방법 설정</string>
+	<string name="HD5A712DC">가장 짧은 경로</string>
+	<string name="H20D4C92E">스펙트럼 밴드</string>
 </resources>

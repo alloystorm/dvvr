@@ -2589,4 +2589,25 @@
     <string name="H49A5B1FA">次表面散射效果中使用的厚度。较低=更透明</string>
     <string name="H706F24C7">VR模式下用户界面自动跟随用户的方向</string>
     <string name="HE03DCB7">如果有的话，使用高光贴图生成法线贴图</string>
+<string name="H2A8DBDAE">锚点位置</string>
+    <string name="HA31302D1">音频振幅</string>
+    <string name="H5C4384C2">频带</string>
+    <string name="HC4AFA87E">每个级别闭环的骨骼</string>
+    <string name="HFD69C955">盒子</string>
+    <string name="H81BD6837">创建关节时选择锚点位置。0 = 锚点在父骨骼上，1 = 锚点在子骨骼上</string>
+    <string name="HEEB7BA3A">圆形</string>
+    <string name="HEBF76DEF">在前x个级别不创建物理连接</string>
+    <string name="H69202657">输入来自</string>
+    <string name="H8A0E289A">输入到</string>
+    <string name="H9FE2E351">连接同级骨骼时的关节参数</string>
+    <string name="HCDFD4597">连接到父级别时的关节参数</string>
+    <string name="H9EFC7129">限制扭转旋转</string>
+    <string name="HA4BC661A">线性</string>
+    <string name="H30C27290">物理属性，如质量、阻力和摩擦力</string>
+    <string name="HA1FD635C">在每个级别减少弹簧力</string>
+    <string name="H65AFEF6B">选择骨骼</string>
+    <string name="HC03DB35B">选择顺序</string>
+    <string name="H1333410B">连接骨骼时设置的排序方法</string>
+    <string name="HD5A712DC">最短路径</string>
+    <string name="H20D4C92E">频谱频带</string>
 </resources>
