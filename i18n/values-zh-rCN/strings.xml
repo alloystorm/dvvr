@@ -1706,4 +1706,11 @@
     <string name="HFB2E9DC6">玻璃扭曲</string>
 <string name="H6D7E8C00">发丝物理</string>
 	<string name="H5DAB2A17">布料物理</string>
+<string name="HFF1A19FA">骨骼映射器</string>
+    <string name="HC2EA8A3C">尝试自动映射</string>
+    <string name="HF264FB8E">清除手臂扭曲</string>
+    <string name="HDE7DC4F5">故障排除</string>
+    <string name="HE716817E">中心位置转换</string>
+    <string name="H4DE86C41">将中心位置转换为适用于具有不同中心骨骼设置的模型</string>
+    <string name="H2281D997">中心骨骼的预期高度，介于地面和臀部高度之间</string>
 </resources>

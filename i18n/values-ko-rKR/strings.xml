@@ -1706,4 +1706,11 @@
 	<string name="HA424138F">시작과 루프 끝에서 위치를 정렬하기 위해 자동으로 오프셋 적용</string>
 	<string name="H8A67B731">개수</string>
 	<string name="HFB2E9DC6">유리 왜곡</string>
+<string name="HFF1A19FA">본 매퍼</string>
+    <string name="HC2EA8A3C">자동 매핑 시도</string>
+    <string name="HF264FB8E">팔 꼬임 해제</string>
+    <string name="HDE7DC4F5">문제 해결</string>
+    <string name="HE716817E">중심 위치 변환</string>
+    <string name="H4DE86C41">다른 중심 본 설정을 가진 모델에서 작업하기 위해 중심 위치 변환</string>
+    <string name="H2281D997">지면과 엉덩이 높이 사이의 예상 중심 본 높이</string>
 </resources>
