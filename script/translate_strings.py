@@ -16,6 +16,7 @@ default_strings = {elem.attrib["name"]: elem.text for elem in default_root}
 
 # Loop through each supported language
 for lang_dir in LANG_DIRS:
+    print("Processing " + lang_dir)
     missing_entries = {}
     lang = os.path.basename(lang_dir).replace("values-", "")
     # Parse the strings.xml for the current language
@@ -52,9 +53,12 @@ for lang_dir in LANG_DIRS:
         if chunk:
             chunks.append(chunk)
         #missing_strings += "</resources>"
-        print(f"Split into {len(chunks)} chunks.")
+        print(f"Split {len(missing_entries)} entries into {len(chunks)} chunks.")
+        index = 0
         for missing_strings in chunks:
+            index += 1
             try:
+                print(f"Translating chunk {index}...")
                 # Here, we would wait for translation. In this demo, let's mock the translation.
                 # translated_strings = {key: f"Translated {value}" for key, value in missing_entries.items()}
                 translated_strings = translate(f"<resources>\n{missing_strings}</resources>", lang)
