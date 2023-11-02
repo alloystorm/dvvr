@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[영어](/dancexr/features/actor_playlist) | [繁中](/tw/dancexr/features/actor_playlist) | [일본어](/jp/dancexr/features/actor_playlist) | [한국어](/kr/dancexr/features/actor_playlist) | [간체중국어](/zh/dancexr/features/actor_playlist)
+[Eng](/kr/dancexr/features/actor_playlist) | [繁中](/tw/kr/dancexr/features/actor_playlist) | [日本語](/jp/kr/dancexr/features/actor_playlist) | [한국어](/kr/kr/dancexr/features/actor_playlist) | [简中](/zh/kr/dancexr/features/actor_playlist)
 
 
 ## 배우 재생목록

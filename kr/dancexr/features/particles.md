@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[영어](/dancexr/features/particles) | [繁中](/tw/dancexr/features/particles) | [일본어](/jp/dancexr/features/particles) | [한국어](/kr/dancexr/features/particles) | [간체중국어](/zh/dancexr/features/particles)
+[Eng](/kr/dancexr/features/particles) | [繁中](/tw/kr/dancexr/features/particles) | [日本語](/jp/kr/dancexr/features/particles) | [한국어](/kr/kr/dancexr/features/particles) | [简中](/zh/kr/dancexr/features/particles)
 
 
 ## 개요

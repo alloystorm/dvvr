@@ -6,7 +6,7 @@ sidebar:
   nav: "docs-kr"
 ---
 
-[영어](/dancexr/versions) | [번체](/tw/dancexr/versions) | [일본어](/jp/dancexr/versions) | [한국어](/kr/dancexr/versions) | [간체](/zh/dancexr/versions)
+[Eng](/kr/dancexr/versions) | [繁中](/tw/kr/dancexr/versions) | [日本語](/jp/kr/dancexr/versions) | [한국어](/kr/kr/dancexr/versions) | [简中](/zh/kr/dancexr/versions)
 
 ## 개요
 DanceXR은 다른 플랫폼의 기능에 맞추기 위해 다양한 버전과 다른 기능 세트 및 렌더링 기술을 제공합니다.

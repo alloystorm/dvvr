@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/troubleshooting) | [繁中](/tw/dancexr/troubleshooting) | [日本](/jp/dancexr/troubleshooting) | [한국어](/kr/dancexr/troubleshooting) | [简中](/zh/dancexr/troubleshooting)
+[Eng](/tw/dancexr/troubleshooting) | [繁中](/tw/tw/dancexr/troubleshooting) | [日本語](/jp/tw/dancexr/troubleshooting) | [한국어](/kr/tw/dancexr/troubleshooting) | [简中](/zh/tw/dancexr/troubleshooting)
 
 
 ## 回報錯誤

@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[영어](/dancexr/features/physics) | [繁体 중국어](/tw/dancexr/features/physics) | [일본어](/jp/dancexr/features/physics) | [한국어](/kr/dancexr/features/physics) | [간체 중국어](/zh/dancexr/features/physics)
+[Eng](/kr/dancexr/features/physics) | [繁中](/tw/kr/dancexr/features/physics) | [日本語](/jp/kr/dancexr/features/physics) | [한국어](/kr/kr/dancexr/features/physics) | [简中](/zh/kr/dancexr/features/physics)
 ## ## 물리학 조정
 
 ### 시스템 전체 물리학 설정

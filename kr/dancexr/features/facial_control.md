@@ -6,7 +6,7 @@ sidebar:
   nav: "docs-kr"
 ---
 
-[Eng](/dancexr/features/facial_control) | [繁中](/tw/dancexr/features/facial_control) | [日本](/jp/dancexr/features/facial_control) | [한국어](/kr/dancexr/features/facial_control) | [简中](/zh/dancexr/features/facial_control)
+[Eng](/kr/dancexr/features/facial_control) | [繁中](/tw/kr/dancexr/features/facial_control) | [日本語](/jp/kr/dancexr/features/facial_control) | [한국어](/kr/kr/dancexr/features/facial_control) | [简中](/zh/kr/dancexr/features/facial_control)
 
 ## 개요
 얼굴 제어를 통해 모델의 얼굴 형태를 미리보고 세부 조정할 수 있습니다.

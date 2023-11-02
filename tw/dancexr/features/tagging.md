@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/tagging) | [繁中](/tw/dancexr/features/tagging) | [日本](/jp/dancexr/features/tagging) | [한국어](/kr/dancexr/features/tagging) | [简中](/zh/dancexr/features/tagging)
+[Eng](/tw/dancexr/features/tagging) | [繁中](/tw/tw/dancexr/features/tagging) | [日本語](/jp/tw/dancexr/features/tagging) | [한국어](/kr/tw/dancexr/features/tagging) | [简中](/zh/tw/dancexr/features/tagging)
 
 
 ## 概述

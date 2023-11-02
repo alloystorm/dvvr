@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/motion_override) | [繁中](/tw/dancexr/features/motion_override) | [日本](/jp/dancexr/features/motion_override) | [한국어](/kr/dancexr/features/motion_override) | [简中](/zh/dancexr/features/motion_override)
+[Eng](/tw/dancexr/features/motion_override) | [繁中](/tw/tw/dancexr/features/motion_override) | [日本語](/jp/tw/dancexr/features/motion_override) | [한국어](/kr/tw/dancexr/features/motion_override) | [简中](/zh/tw/dancexr/features/motion_override)
 
 
 ## 動作覆蓋概述

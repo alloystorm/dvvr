@@ -6,7 +6,7 @@ sidebar:
   nav: "docs-tw"
 ---
 
-[Eng](/dancexr/features/feet_adjustments) | [繁中](/tw/dancexr/features/feet_adjustments) | [日本](/jp/dancexr/features/feet_adjustments) | [한국어](/kr/dancexr/features/feet_adjustments) | [简中](/zh/dancexr/features/feet_adjustments)
+[Eng](/tw/dancexr/features/feet_adjustments) | [繁中](/tw/tw/dancexr/features/feet_adjustments) | [日本語](/jp/tw/dancexr/features/feet_adjustments) | [한국어](/kr/tw/dancexr/features/feet_adjustments) | [简中](/zh/tw/dancexr/features/feet_adjustments)
 
 ## 概述
 腳部調整功能可以調整模型的腳部位置。當腳部位置不正確時，這一功能非常有用。

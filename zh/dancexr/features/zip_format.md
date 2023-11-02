@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-zh"
 ---
-[Eng](/dancexr/features/zip_format) | [繁中](/tw/dancexr/features/zip_format) | [日本](/jp/dancexr/features/zip_format) | [한국어](/kr/dancexr/features/zip_format) | [简中](/zh/dancexr/features/zip_format)
+[Eng](/dancexr/features/zip_format) | [繁中](/tw/dancexr/features/zip_format) | [日本語](/jp/dancexr/features/zip_format) | [한국어](/kr/dancexr/features/zip_format) | [简中](/zh/dancexr/features/zip_format)
 
 
 ## ZIP格式

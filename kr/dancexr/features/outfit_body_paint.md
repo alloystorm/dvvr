@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/dancexr/features/outfit_body_paint) | [繁中](/tw/dancexr/features/outfit_body_paint) | [日本](/jp/dancexr/features/outfit_body_paint) | [한국어](/kr/dancexr/features/outfit_body_paint) | [简中](/zh/dancexr/features/outfit_body_paint)
+[Eng](/kr/dancexr/features/outfit_body_paint) | [繁中](/tw/kr/dancexr/features/outfit_body_paint) | [日本語](/jp/kr/dancexr/features/outfit_body_paint) | [한국어](/kr/kr/dancexr/features/outfit_body_paint) | [简中](/zh/kr/dancexr/features/outfit_body_paint)
 
 
 ## 의상 및 바디 페인트 개요

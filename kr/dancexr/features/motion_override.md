@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/dancexr/features/motion_override) | [繁中](/tw/dancexr/features/motion_override) | [日本](/jp/dancexr/features/motion_override) | [한국어](/kr/dancexr/features/motion_override) | [简中](/zh/dancexr/features/motion_override)
+[Eng](/kr/dancexr/features/motion_override) | [繁中](/tw/kr/dancexr/features/motion_override) | [日本語](/jp/kr/dancexr/features/motion_override) | [한국어](/kr/kr/dancexr/features/motion_override) | [简中](/zh/kr/dancexr/features/motion_override)
 
 
 ## 모션 오버라이드 개요

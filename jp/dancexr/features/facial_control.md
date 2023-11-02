@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
-[Eng](/dancexr/features/facial_control) | [繁中](/tw/dancexr/features/facial_control) | [日本](/jp/dancexr/features/facial_control) | [한국어](/kr/dancexr/features/facial_control) | [简中](/zh/dancexr/features/facial_control)
+[Eng](/dancexr/features/facial_control) | [繁中](/tw/dancexr/features/facial_control) | [日本語](/jp/dancexr/features/facial_control) | [한국어](/kr/dancexr/features/facial_control) | [简中](/zh/dancexr/features/facial_control)
 
 ## 概要
 顔の制御により、モデルの顔の変形をプレビューし、XPSの顔の設定を微調整することができます。

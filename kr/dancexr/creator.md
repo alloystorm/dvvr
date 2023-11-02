@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/dancexr/creator) | [繁中](/tw/dancexr/creator) | [日本](/jp/dancexr/creator) | [한국어](/kr/dancexr/creator) | [简中](/zh/dancexr/creator)
+[Eng](/kr/dancexr/creator) | [繁中](/tw/kr/dancexr/creator) | [日本語](/jp/kr/dancexr/creator) | [한국어](/kr/kr/dancexr/creator) | [简中](/zh/kr/dancexr/creator)
 
 
 # 크리에이터 에디션

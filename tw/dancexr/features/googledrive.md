@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/googledrive) | [繁中](/tw/dancexr/features/googledrive) | [日本](/jp/dancexr/features/googledrive) | [한국어](/kr/dancexr/features/googledrive) | [简中](/zh/dancexr/features/googledrive)
+[Eng](/tw/dancexr/features/googledrive) | [繁中](/tw/tw/dancexr/features/googledrive) | [日本語](/jp/tw/dancexr/features/googledrive) | [한국어](/kr/tw/dancexr/features/googledrive) | [简中](/zh/tw/dancexr/features/googledrive)
 
 
 ## Google Drive 整合

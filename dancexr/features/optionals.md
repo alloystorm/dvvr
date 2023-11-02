@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/features/optionals) | [繁中](/tw/dancexr/features/optionals) | [日本](/jp/dancexr/features/optionals) | [한국어](/kr/dancexr/features/optionals) | [简中](/zh/dancexr/features/optionals)
+[Eng](/dancexr/features/optionals) | [繁中](/tw/dancexr/features/optionals) | [日本語](/jp/dancexr/features/optionals) | [한국어](/kr/dancexr/features/optionals) | [简中](/zh/dancexr/features/optionals)
 
 
 ## Overview

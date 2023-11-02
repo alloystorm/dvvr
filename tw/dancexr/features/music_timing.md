@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/music_timing) | [繁中](/tw/dancexr/features/music_timing) | [日本](/jp/dancexr/features/music_timing) | [한국어](/kr/dancexr/features/music_timing) | [简中](/zh/dancexr/features/music_timing)
+[Eng](/tw/dancexr/features/music_timing) | [繁中](/tw/tw/dancexr/features/music_timing) | [日本語](/jp/tw/dancexr/features/music_timing) | [한국어](/kr/tw/dancexr/features/music_timing) | [简中](/zh/tw/dancexr/features/music_timing)
 
 
 ## 概述

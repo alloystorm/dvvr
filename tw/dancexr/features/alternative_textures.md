@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/alternative_textures) | [繁中](/tw/dancexr/features/alternative_textures) | [日本](/jp/dancexr/features/alternative_textures) | [한국어](/kr/dancexr/features/alternative_textures) | [简中](/zh/dancexr/features/alternative_textures)
+[Eng](/tw/dancexr/features/alternative_textures) | [繁中](/tw/tw/dancexr/features/alternative_textures) | [日本語](/jp/tw/dancexr/features/alternative_textures) | [한국어](/kr/tw/dancexr/features/alternative_textures) | [简中](/zh/tw/dancexr/features/alternative_textures)
 
 
 ## 概述

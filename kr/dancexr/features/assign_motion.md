@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/dancexr/features/assign_motion) | [繁中](/tw/dancexr/features/assign_motion) | [日本](/jp/dancexr/features/assign_motion) | [한국어](/kr/dancexr/features/assign_motion) | [简中](/zh/dancexr/features/assign_motion)
+[Eng](/kr/dancexr/features/assign_motion) | [繁中](/tw/kr/dancexr/features/assign_motion) | [日本語](/jp/kr/dancexr/features/assign_motion) | [한국어](/kr/kr/dancexr/features/assign_motion) | [简中](/zh/kr/dancexr/features/assign_motion)
 
 
 ## 동작 메뉴에서

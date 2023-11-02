@@ -6,7 +6,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[영어](/dancexr/releases/releases) | [繁中](/tw/dancexr/releases/releases) | [일본어](/jp/dancexr/releases/releases) | [한국어](/kr/dancexr/releases/releases) | [간체중국어](/zh/dancexr/releases/releases)
+[Eng](/kr/dancexr/releases/releases) | [繁中](/tw/kr/dancexr/releases/releases) | [日本語](/jp/kr/dancexr/releases/releases) | [한국어](/kr/kr/dancexr/releases/releases) | [简中](/zh/kr/dancexr/releases/releases)
 
 
 {% include nav_list nav="releases" %}

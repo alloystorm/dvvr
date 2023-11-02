@@ -6,7 +6,7 @@ sidebar:
   nav: "docs"
 ---
 
-[Eng](/dancexr/features/actor_tools) | [繁中](/tw/dancexr/features/actor_tools) | [日本](/jp/dancexr/features/actor_tools) | [한국어](/kr/dancexr/features/actor_tools) | [简中](/zh/dancexr/features/actor_tools)
+[Eng](/dancexr/features/actor_tools) | [繁中](/tw/dancexr/features/actor_tools) | [日本語](/jp/dancexr/features/actor_tools) | [한국어](/kr/dancexr/features/actor_tools) | [简中](/zh/dancexr/features/actor_tools)
 
 ## Mouse and Pointer Interaction
 These are the operations you can do with mouse and VR pointer.

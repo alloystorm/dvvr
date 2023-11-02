@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/dancexr/features/ground) | [繁中](/tw/dancexr/features/ground) | [日本](/jp/dancexr/features/ground) | [한국어](/kr/dancexr/features/ground) | [简中](/zh/dancexr/features/ground)
+[Eng](/kr/dancexr/features/ground) | [繁中](/tw/kr/dancexr/features/ground) | [日本語](/jp/kr/dancexr/features/ground) | [한국어](/kr/kr/dancexr/features/ground) | [简中](/zh/kr/dancexr/features/ground)
 
 
 ## 지면 모드

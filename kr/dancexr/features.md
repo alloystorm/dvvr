@@ -7,7 +7,7 @@ sidebar:
   nav: "docs-kr"
 ---
 
-[영어](/dancexr/features) | [번체](/tw/dancexr/features) | [일본어](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [간체](/zh/dancexr/features)
+[Eng](/kr/dancexr/features) | [繁中](/tw/kr/dancexr/features) | [日本語](/jp/kr/dancexr/features) | [한국어](/kr/kr/dancexr/features) | [简中](/zh/kr/dancexr/features)
 
 ## 모델
 캐릭터 모델에는 PMX와 XPS를 지원하며, 무대와 소품에는 PMX, XPS 또는 OBJ를 지원합니다.

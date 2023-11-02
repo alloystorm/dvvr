@@ -7,7 +7,7 @@ sidebar:
   nav: "docs-zh"
 ---
 
-[Eng](/dancexr/features) | [繁中](/tw/dancexr/features) | [日本](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [简中](/zh/dancexr/features)
+[Eng](/dancexr/features) | [繁中](/tw/dancexr/features) | [日本語](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [简中](/zh/dancexr/features)
 
 ## 模型
 我们支持PMX和XPS格式的角色模型，以及PMX、XPS或OBJ格式的舞台和道具。

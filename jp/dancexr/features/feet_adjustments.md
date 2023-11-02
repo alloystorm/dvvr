@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
-[Eng](/dancexr/features/feet_adjustments) | [繁中](/tw/dancexr/features/feet_adjustments) | [日本](/jp/dancexr/features/feet_adjustments) | [한국어](/kr/dancexr/features/feet_adjustments) | [简中](/zh/dancexr/features/feet_adjustments)
+[Eng](/dancexr/features/feet_adjustments) | [繁中](/tw/dancexr/features/feet_adjustments) | [日本語](/jp/dancexr/features/feet_adjustments) | [한국어](/kr/dancexr/features/feet_adjustments) | [简中](/zh/dancexr/features/feet_adjustments)
 
 ## 概要
 足の調整では、モデルの足の位置を調整することができます。モデルの足の位置が正しくない場合に便利です。

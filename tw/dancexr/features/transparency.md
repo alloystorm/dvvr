@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/transparency) | [繁中](/tw/dancexr/features/transparency) | [日本](/jp/dancexr/features/transparency) | [한국어](/kr/dancexr/features/transparency) | [简中](/zh/dancexr/features/transparency)
+[Eng](/tw/dancexr/features/transparency) | [繁中](/tw/tw/dancexr/features/transparency) | [日本語](/jp/tw/dancexr/features/transparency) | [한국어](/kr/tw/dancexr/features/transparency) | [简中](/zh/tw/dancexr/features/transparency)
 
 
 ## 透明材料

@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/ground) | [繁中](/tw/dancexr/features/ground) | [日本](/jp/dancexr/features/ground) | [한국어](/kr/dancexr/features/ground) | [简中](/zh/dancexr/features/ground)
+[Eng](/tw/dancexr/features/ground) | [繁中](/tw/tw/dancexr/features/ground) | [日本語](/jp/tw/dancexr/features/ground) | [한국어](/kr/tw/dancexr/features/ground) | [简中](/zh/tw/dancexr/features/ground)
 
 
 ## 地面模式

@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
-[Eng](/dancexr/features/graphics) | [繁中](/tw/dancexr/features/graphics) | [日本](/jp/dancexr/features/graphics) | [한국어](/kr/dancexr/features/graphics) | [简中](/zh/dancexr/features/graphics)
+[Eng](/dancexr/features/graphics) | [繁中](/tw/dancexr/features/graphics) | [日本語](/jp/dancexr/features/graphics) | [한국어](/kr/dancexr/features/graphics) | [简中](/zh/dancexr/features/graphics)
 
 
 ## 特殊なレンダリングモード：デプスとノーマル

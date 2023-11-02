@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-zh"
 ---
-[Eng](/dancexr/faq) | [繁中](/tw/dancexr/faq) | [日本](/jp/dancexr/faq) | [한국어](/kr/dancexr/faq) | [简中](/zh/dancexr/faq)
+[Eng](/dancexr/faq) | [繁中](/tw/dancexr/faq) | [日本語](/jp/dancexr/faq) | [한국어](/kr/dancexr/faq) | [简中](/zh/dancexr/faq)
 
 
 ## 只显示天空，没有UI或相机控制

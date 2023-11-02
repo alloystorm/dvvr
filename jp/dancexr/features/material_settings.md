@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
-[Eng](/dancexr/features/material_settings) | [繁中](/tw/dancexr/features/material_settings) | [日本](/jp/dancexr/features/material_settings) | [한국어](/kr/dancexr/features/material_settings) | [简中](/zh/dancexr/features/material_settings)
+[Eng](/dancexr/features/material_settings) | [繁中](/tw/dancexr/features/material_settings) | [日本語](/jp/dancexr/features/material_settings) | [한국어](/kr/dancexr/features/material_settings) | [简中](/zh/dancexr/features/material_settings)
 
 
 ## マテリアルリストの組織化方法

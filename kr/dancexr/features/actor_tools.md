@@ -6,7 +6,7 @@ sidebar:
   nav: "docs-kr"
 ---
 
-[Eng](/dancexr/features/actor_tools) | [繁中](/tw/dancexr/features/actor_tools) | [日本](/jp/dancexr/features/actor_tools) | [한국어](/kr/dancexr/features/actor_tools) | [简中](/zh/dancexr/features/actor_tools)
+[Eng](/kr/dancexr/features/actor_tools) | [繁中](/tw/kr/dancexr/features/actor_tools) | [日本語](/jp/kr/dancexr/features/actor_tools) | [한국어](/kr/kr/dancexr/features/actor_tools) | [简中](/zh/kr/dancexr/features/actor_tools)
 
 ## 마우스 및 포인터 상호작용
 마우스 및 VR 포인터로 수행할 수 있는 작업입니다.

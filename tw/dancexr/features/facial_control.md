@@ -6,7 +6,7 @@ sidebar:
   nav: "docs-tw"
 ---
 
-[英文](/dancexr/features/facial_control) | [繁中](/tw/dancexr/features/facial_control) | [日本](/jp/dancexr/features/facial_control) | [한국어](/kr/dancexr/features/facial_control) | [簡中](/zh/dancexr/features/facial_control)
+[Eng](/tw/dancexr/features/facial_control) | [繁中](/tw/tw/dancexr/features/facial_control) | [日本語](/jp/tw/dancexr/features/facial_control) | [한국어](/kr/tw/dancexr/features/facial_control) | [简中](/zh/tw/dancexr/features/facial_control)
 
 ## 概述
 臉部控制功能可讓您預覽臉部變形並微調模型的 XPS 臉部設定。

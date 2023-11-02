@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
-[Eng](/dancexr/features/camera) | [繁中](/tw/dancexr/features/camera) | [日本](/jp/dancexr/features/camera) | [한국어](/kr/dancexr/features/camera) | [简中](/zh/dancexr/features/camera)
+[Eng](/dancexr/features/camera) | [繁中](/tw/dancexr/features/camera) | [日本語](/jp/dancexr/features/camera) | [한국어](/kr/dancexr/features/camera) | [简中](/zh/dancexr/features/camera)
 
 
 ## 概要

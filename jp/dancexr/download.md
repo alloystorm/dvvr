@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
-[Eng](/dancexr/download) | [繁中](/tw/dancexr/download) | [日本](/jp/dancexr/download) | [한국어](/kr/dancexr/download) | [简中](/zh/dancexr/download)
+[Eng](/dancexr/download) | [繁中](/tw/dancexr/download) | [日本語](/jp/dancexr/download) | [한국어](/kr/dancexr/download) | [简中](/zh/dancexr/download)
 
 
 ## 無料版のダウンロード

@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/material_settings) | [繁中](/tw/dancexr/features/material_settings) | [日本](/jp/dancexr/features/material_settings) | [한국어](/kr/dancexr/features/material_settings) | [简中](/zh/dancexr/features/material_settings)
+[Eng](/tw/dancexr/features/material_settings) | [繁中](/tw/tw/dancexr/features/material_settings) | [日本語](/jp/tw/dancexr/features/material_settings) | [한국어](/kr/tw/dancexr/features/material_settings) | [简中](/zh/tw/dancexr/features/material_settings)
 
 
 ## 材質清單的組織方式

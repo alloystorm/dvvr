@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/content_android_quest) | [繁中](/tw/dancexr/content_android_quest) | [日本](/jp/dancexr/content_android_quest) | [한국어](/kr/dancexr/content_android_quest) | [简中](/zh/dancexr/content_android_quest)
+[Eng](/dancexr/content_android_quest) | [繁中](/tw/dancexr/content_android_quest) | [日本語](/jp/dancexr/content_android_quest) | [한국어](/kr/dancexr/content_android_quest) | [简中](/zh/dancexr/content_android_quest)
 
 
 ## Preparing content for Android & Oculus Quest

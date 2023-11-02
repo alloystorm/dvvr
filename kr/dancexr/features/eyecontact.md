@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[영어](/dancexr/features/eyecontact) | [繁中](/tw/dancexr/features/eyecontact) | [일본어](/jp/dancexr/features/eyecontact) | [한국어](/kr/dancexr/features/eyecontact) | [간체중국어](/zh/dancexr/features/eyecontact)
+[Eng](/kr/dancexr/features/eyecontact) | [繁中](/tw/kr/dancexr/features/eyecontact) | [日本語](/jp/kr/dancexr/features/eyecontact) | [한국어](/kr/kr/dancexr/features/eyecontact) | [简中](/zh/kr/dancexr/features/eyecontact)
 
 
 ## 눈동자 접촉

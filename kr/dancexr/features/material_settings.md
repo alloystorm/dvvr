@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[영어](/dancexr/features/material_settings) | [繁中](/tw/dancexr/features/material_settings) | [일본어](/jp/dancexr/features/material_settings) | [한국어](/kr/dancexr/features/material_settings) | [간체중국어](/zh/dancexr/features/material_settings)
+[Eng](/kr/dancexr/features/material_settings) | [繁中](/tw/kr/dancexr/features/material_settings) | [日本語](/jp/kr/dancexr/features/material_settings) | [한국어](/kr/kr/dancexr/features/material_settings) | [简中](/zh/kr/dancexr/features/material_settings)
 
 
 ## 재료 목록의 구성 방식

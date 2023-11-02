@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/formation) | [繁中](/tw/dancexr/features/formation) | [日本](/jp/dancexr/features/formation) | [한국어](/kr/dancexr/features/formation) | [简中](/zh/dancexr/features/formation)
+[Eng](/tw/dancexr/features/formation) | [繁中](/tw/tw/dancexr/features/formation) | [日本語](/jp/tw/dancexr/features/formation) | [한국어](/kr/tw/dancexr/features/formation) | [简中](/zh/tw/dancexr/features/formation)
 
 
 ## 編制

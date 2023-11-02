@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/outfit_body_paint) | [繁中](/tw/dancexr/features/outfit_body_paint) | [日本](/jp/dancexr/features/outfit_body_paint) | [한국어](/kr/dancexr/features/outfit_body_paint) | [简中](/zh/dancexr/features/outfit_body_paint)
+[Eng](/tw/dancexr/features/outfit_body_paint) | [繁中](/tw/tw/dancexr/features/outfit_body_paint) | [日本語](/jp/tw/dancexr/features/outfit_body_paint) | [한국어](/kr/tw/dancexr/features/outfit_body_paint) | [简中](/zh/tw/dancexr/features/outfit_body_paint)
 
 
 ## 服裝與身體彩繪概述

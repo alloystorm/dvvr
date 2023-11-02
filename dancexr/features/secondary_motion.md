@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/features/secondary_motion) | [繁中](/tw/dancexr/features/secondary_motion) | [日本](/jp/dancexr/features/secondary_motion) | [한국어](/kr/dancexr/features/secondary_motion) | [简中](/zh/dancexr/features/secondary_motion)
+[Eng](/dancexr/features/secondary_motion) | [繁中](/tw/dancexr/features/secondary_motion) | [日本語](/jp/dancexr/features/secondary_motion) | [한국어](/kr/dancexr/features/secondary_motion) | [简中](/zh/dancexr/features/secondary_motion)
 
 ## Overview
 You can assign up to 2 motions to an actor, to allow mixing the motions together. Usually this is used when you have one motion for the body and another for the facial moves. 

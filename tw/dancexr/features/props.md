@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/props) | [繁中](/tw/dancexr/features/props) | [日本](/jp/dancexr/features/props) | [한국어](/kr/dancexr/features/props) | [简中](/zh/dancexr/features/props)
+[Eng](/tw/dancexr/features/props) | [繁中](/tw/tw/dancexr/features/props) | [日本語](/jp/tw/dancexr/features/props) | [한국어](/kr/tw/dancexr/features/props) | [简中](/zh/tw/dancexr/features/props)
 
 
 ## 新的道具功能

@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/bone_mapper) | [繁中](/tw/dancexr/features/bone_mapper) | [日本](/jp/dancexr/features/bone_mapper) | [한국어](/kr/dancexr/features/bone_mapper) | [简中](/zh/dancexr/features/bone_mapper)
+[Eng](/tw/dancexr/features/bone_mapper) | [繁中](/tw/tw/dancexr/features/bone_mapper) | [日本語](/jp/tw/dancexr/features/bone_mapper) | [한국어](/kr/tw/dancexr/features/bone_mapper) | [简中](/zh/tw/dancexr/features/bone_mapper)
 
 
 ## 概述

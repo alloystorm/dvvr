@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
-[Eng](/dancexr/features/secondary_motion) | [繁中](/tw/dancexr/features/secondary_motion) | [日本](/jp/dancexr/features/secondary_motion) | [한국어](/kr/dancexr/features/secondary_motion) | [简中](/zh/dancexr/features/secondary_motion)
+[Eng](/dancexr/features/secondary_motion) | [繁中](/tw/dancexr/features/secondary_motion) | [日本語](/jp/dancexr/features/secondary_motion) | [한국어](/kr/dancexr/features/secondary_motion) | [简中](/zh/dancexr/features/secondary_motion)
 
 ## 概要
 アクターには最大2つのモーションを割り当てることができ、モーションを混ぜ合わせることができます。通常、これは体のモーションと顔の動きのために使用されます。

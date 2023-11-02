@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/dancexr/features/secondary_motion) | [繁中](/tw/dancexr/features/secondary_motion) | [日本](/jp/dancexr/features/secondary_motion) | [한국어](/kr/dancexr/features/secondary_motion) | [简中](/zh/dancexr/features/secondary_motion)
+[Eng](/kr/dancexr/features/secondary_motion) | [繁中](/tw/kr/dancexr/features/secondary_motion) | [日本語](/jp/kr/dancexr/features/secondary_motion) | [한국어](/kr/kr/dancexr/features/secondary_motion) | [简中](/zh/kr/dancexr/features/secondary_motion)
 
 ## 개요
 한 배우에게 최대 2개의 동작을 할당하여 동작을 혼합할 수 있습니다. 일반적으로 이는 몸의 동작과 얼굴 움직임을 위해 사용됩니다.

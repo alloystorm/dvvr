@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/particles) | [繁中](/tw/dancexr/features/particles) | [日本](/jp/dancexr/features/particles) | [한국어](/kr/dancexr/features/particles) | [简中](/zh/dancexr/features/particles)
+[Eng](/tw/dancexr/features/particles) | [繁中](/tw/tw/dancexr/features/particles) | [日本語](/jp/tw/dancexr/features/particles) | [한국어](/kr/tw/dancexr/features/particles) | [简中](/zh/tw/dancexr/features/particles)
 
 
 ## 概述
