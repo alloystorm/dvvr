@@ -7,7 +7,7 @@ sidebar:
   nav: "docs"
 ---
 
-[English](/dancexr/features) | [简体中文](/zh/dancexr/features) | [日本語](/jp/dancexr/features)
+[Eng](/dancexr/features) | [繁中](/tw/dancexr/features) | [日本](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [简中](/zh/dancexr/features)
 
 ## Models
 We support PMX and XPS for character models and PMX, XPS or OBJ for stages and props.

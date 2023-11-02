@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-zh"
 ---
-[English](/dancexr/versions) | [简体中文](/zh/dancexr/versions) | [日本語](/jp/dancexr/versions)
+[Eng](/dancexr/versions) | [繁中](/tw/dancexr/versions) | [日本](/jp/dancexr/versions) | [한국어](/kr/dancexr/versions) | [简中](/zh/dancexr/versions)
 
 ## 概述
 DanceXR有不同版本，具有不同的功能集和渲染技术，以适应不同平台的能力。

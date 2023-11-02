@@ -6,7 +6,7 @@ sidebar:
   nav: "docs-jp"
 ---
 
-[English](/dancexr/versions) | [简体中文](/zh/dancexr/versions) | [日本語](/jp/dancexr/versions)
+[Eng](/dancexr/versions) | [繁中](/tw/dancexr/versions) | [日本](/jp/dancexr/versions) | [한국어](/kr/dancexr/versions) | [简中](/zh/dancexr/versions)
 
 ## 概要
 DanceXRには、異なるバージョンがあり、異なる機能セットとレンダリング技術があり、さまざまなプラットフォームの能力に合わせています。

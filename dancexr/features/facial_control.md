@@ -6,7 +6,7 @@ sidebar:
   nav: "docs"
 ---
 
-[English](/dancexr/features/facial_control) | [简体中文](/zh/dancexr/features/facial_control) | [日本語](/jp/dancexr/features/facial_control)
+[Eng](/dancexr/features/facial_control) | [繁中](/tw/dancexr/features/facial_control) | [日本](/jp/dancexr/features/facial_control) | [한국어](/kr/dancexr/features/facial_control) | [简中](/zh/dancexr/features/facial_control)
 
 ## Overview
 Facial control allows you to preview facial morphs and fine tune the XPS facial settings for your model. 

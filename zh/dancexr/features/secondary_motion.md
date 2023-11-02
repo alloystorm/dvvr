@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-zh"
 ---
-[English](/dancexr/features/secondary_motion) | [简体中文](/zh/dancexr/features/secondary_motion) | [日本語](/jp/dancexr/features/secondary_motion)
+[Eng](/dancexr/features/secondary_motion) | [繁中](/tw/dancexr/features/secondary_motion) | [日本](/jp/dancexr/features/secondary_motion) | [한국어](/kr/dancexr/features/secondary_motion) | [简中](/zh/dancexr/features/secondary_motion)
 
 ## 概述
 您可以为一个角色分配最多两个动作，以便混合这些动作在一起。通常情况下，这是在您有一个用于身体动作和另一个用于面部动作时使用的。

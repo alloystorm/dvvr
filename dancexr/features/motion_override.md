@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[English](/dancexr/features/motion_override) | [简体中文](/zh/dancexr/features/motion_override) | [日本語](/jp/dancexr/features/motion_override)
+[Eng](/dancexr/features/motion_override) | [繁中](/tw/dancexr/features/motion_override) | [日本](/jp/dancexr/features/motion_override) | [한국어](/kr/dancexr/features/motion_override) | [简中](/zh/dancexr/features/motion_override)
 
 
 ## Motion Override Overview

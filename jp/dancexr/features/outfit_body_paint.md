@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
-[English](/dancexr/features/outfit_body_paint) | [简体中文](/zh/dancexr/features/outfit_body_paint) | [日本語](/jp/dancexr/features/outfit_body_paint)
+[Eng](/dancexr/features/outfit_body_paint) | [繁中](/tw/dancexr/features/outfit_body_paint) | [日本](/jp/dancexr/features/outfit_body_paint) | [한국어](/kr/dancexr/features/outfit_body_paint) | [简中](/zh/dancexr/features/outfit_body_paint)
 
 
 ## アウトフィット＆ボディペイントの概要

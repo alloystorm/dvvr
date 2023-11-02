@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
-[English](/dancexr/features/autoupdate) | [简体中文](/zh/dancexr/features/autoupdate) | [日本語](/jp/dancexr/features/autoupdate)
+[Eng](/dancexr/features/autoupdate) | [繁中](/tw/dancexr/features/autoupdate) | [日本](/jp/dancexr/features/autoupdate) | [한국어](/kr/dancexr/features/autoupdate) | [简中](/zh/dancexr/features/autoupdate)
 
 
 ## 概要

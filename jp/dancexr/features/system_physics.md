@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
-[English](/dancexr/features/system_physics) | [简体中文](/zh/dancexr/features/system_physics) | [日本語](/jp/dancexr/features/system_physics)
+[Eng](/dancexr/features/system_physics) | [繁中](/tw/dancexr/features/system_physics) | [日本](/jp/dancexr/features/system_physics) | [한국어](/kr/dancexr/features/system_physics) | [简中](/zh/dancexr/features/system_physics)
 
 
 ## システム全体の物理設定

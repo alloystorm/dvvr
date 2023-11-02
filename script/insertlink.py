@@ -2,7 +2,7 @@ import os
 import re
 
 # Base path
-base_path = "dancexr"
+base_path = "zh/dancexr"
 
 # Regular expressions
 front_matter_pattern = re.compile(r'---.*?---', re.DOTALL)
@@ -25,7 +25,7 @@ for subdir, _, files in os.walk(base_path):
                 url_path = url_path[3:]
             elif url_path.startswith('jp/'):
                 url_path = url_path[3:]
-            language_links = f"[English](/{url_path}) | [简体中文](/zh/{url_path}) | [日本語](/jp/{url_path})\n"
+            language_links = f"[Eng](/{url_path}) | [繁中](/tw/{url_path}) | [日本](/jp/{url_path}) | [한국어](/kr/{url_path}) | [简中](/zh/{url_path})\n"
             
             # Check if the language links line already exists in the file
             existing_links_match = re.search(language_links_pattern, content)

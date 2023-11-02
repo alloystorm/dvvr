@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[English](/dancexr/features/actor_playlist) | [简体中文](/zh/dancexr/features/actor_playlist) | [日本語](/jp/dancexr/features/actor_playlist)
+[Eng](/dancexr/features/actor_playlist) | [繁中](/tw/dancexr/features/actor_playlist) | [日本](/jp/dancexr/features/actor_playlist) | [한국어](/kr/dancexr/features/actor_playlist) | [简中](/zh/dancexr/features/actor_playlist)
 
 
 ## Actor Playlist

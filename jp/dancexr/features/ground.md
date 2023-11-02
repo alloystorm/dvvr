@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
-[English](/dancexr/features/ground) | [简体中文](/zh/dancexr/features/ground) | [日本語](/jp/dancexr/features/ground)
+[Eng](/dancexr/features/ground) | [繁中](/tw/dancexr/features/ground) | [日本](/jp/dancexr/features/ground) | [한국어](/kr/dancexr/features/ground) | [简中](/zh/dancexr/features/ground)
 
 
 ## グラウンドモード

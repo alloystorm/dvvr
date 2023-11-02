@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-zh"
 ---
-[English](/dancexr/features/eyecontact) | [简体中文](/zh/dancexr/features/eyecontact) | [日本語](/jp/dancexr/features/eyecontact)
+[Eng](/dancexr/features/eyecontact) | [繁中](/tw/dancexr/features/eyecontact) | [日本](/jp/dancexr/features/eyecontact) | [한국어](/kr/dancexr/features/eyecontact) | [简中](/zh/dancexr/features/eyecontact)
 
 
 ## 眼神交流

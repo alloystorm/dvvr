@@ -6,7 +6,7 @@ sidebar:
   nav: "docs"
 ---
 
-[English](/dancexr/features/feet_adjustments) | [简体中文](/zh/dancexr/features/feet_adjustments) | [日本語](/jp/dancexr/features/feet_adjustments)
+[Eng](/dancexr/features/feet_adjustments) | [繁中](/tw/dancexr/features/feet_adjustments) | [日本](/jp/dancexr/features/feet_adjustments) | [한국어](/kr/dancexr/features/feet_adjustments) | [简中](/zh/dancexr/features/feet_adjustments)
 
 ## Overview
 Feet adjustments allows you to adjust the position of the feet for your model. This is useful when the feet are not positioned correctly for your model.

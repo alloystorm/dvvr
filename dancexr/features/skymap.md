@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[English](/dancexr/features/skymap) | [简体中文](/zh/dancexr/features/skymap) | [日本語](/jp/dancexr/features/skymap)
+[Eng](/dancexr/features/skymap) | [繁中](/tw/dancexr/features/skymap) | [日本](/jp/dancexr/features/skymap) | [한국어](/kr/dancexr/features/skymap) | [简中](/zh/dancexr/features/skymap)
 
 
 ## Sky Modes

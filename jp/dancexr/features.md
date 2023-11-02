@@ -7,7 +7,7 @@ sidebar:
   nav: "docs-jp"
 ---
 
-[English](/dancexr/features) | [简体中文](/zh/dancexr/features) | [日本語](/jp/dancexr/features)
+[Eng](/dancexr/features) | [繁中](/tw/dancexr/features) | [日本](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [简中](/zh/dancexr/features)
 
 ## モデル
 キャラクターモデルにはPMXとXPSをサポートしており、ステージと小道具にはPMX、XPS、またはOBJをサポートしています。

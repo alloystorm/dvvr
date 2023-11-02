@@ -6,7 +6,7 @@ sidebar:
   nav: "docs"
 ---
 
-[English](/dancexr/features/troubleshooting_options) | [简体中文](/zh/dancexr/features/troubleshooting_options) | [日本語](/jp/dancexr/features/troubleshooting_options)
+[Eng](/dancexr/features/troubleshooting_options) | [繁中](/tw/dancexr/features/troubleshooting_options) | [日本](/jp/dancexr/features/troubleshooting_options) | [한국어](/kr/dancexr/features/troubleshooting_options) | [简中](/zh/dancexr/features/troubleshooting_options)
 
 ## Overview
 These are options that are designed to handle some common issues with models.

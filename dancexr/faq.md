@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[English](/dancexr/faq) | [简体中文](/zh/dancexr/faq) | [日本語](/jp/dancexr/faq)
+[Eng](/dancexr/faq) | [繁中](/tw/dancexr/faq) | [日本](/jp/dancexr/faq) | [한국어](/kr/dancexr/faq) | [简中](/zh/dancexr/faq)
 
 
 ## Only sky is displayed, no UI or camera control available

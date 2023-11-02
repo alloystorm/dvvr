@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[English](/dancexr/features/display_settings) | [简体中文](/zh/dancexr/features/display_settings) | [日本語](/jp/dancexr/features/display_settings)
+[Eng](/dancexr/features/display_settings) | [繁中](/tw/dancexr/features/display_settings) | [日本](/jp/dancexr/features/display_settings) | [한국어](/kr/dancexr/features/display_settings) | [简中](/zh/dancexr/features/display_settings)
 
 
 ## Overview
