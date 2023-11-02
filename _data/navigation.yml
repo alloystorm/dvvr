@@ -1,11 +1,3 @@
-main:
-  - title: "English"
-    url: /
-  - title: "日本語"
-    url: /jp/
-  - title: "漢語"
-    url: /zh/
-
 releases:
   - title: Early Access
     children:

@@ -12,7 +12,7 @@ base_path = [
 
 # Regular expressions
 front_matter_pattern = re.compile(r'---.*?---', re.DOTALL)
-language_links_pattern = re.compile(r'\[Eng\]\(.*\) \| \[繁中\]\(.*\) \| \[日本\]\(.*\) \| \[한국어\]\(.*\) \| \[简中\]\(.*\)\n')
+language_links_pattern = re.compile(r'\[.+\]\(.*\) \| \[.+\]\(.*\) \| \[.+\]\(.*\) \| \[.+\]\(.*\) \| \[.+\]\(.*\)\n')
 
 # Iterate through all files in the base path
 for folder in base_path:
@@ -32,7 +32,7 @@ for folder in base_path:
                     url_path = url_path[3:]
                 elif url_path.startswith('jp/'):
                     url_path = url_path[3:]
-                language_links = f"[Eng](/{url_path}) | [繁中](/tw/{url_path}) | [日本](/jp/{url_path}) | [한국어](/kr/{url_path}) | [简中](/zh/{url_path})\n"
+                language_links = f"[Eng](/{url_path}) | [繁中](/tw/{url_path}) | [日本語](/jp/{url_path}) | [한국어](/kr/{url_path}) | [简中](/zh/{url_path})\n"
                 
                 # Check if the language links line already exists in the file
                 existing_links_match = re.search(language_links_pattern, content)
