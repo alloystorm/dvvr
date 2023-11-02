@@ -6,7 +6,7 @@ base_path = "zh/dancexr"
 
 # Regular expressions
 front_matter_pattern = re.compile(r'---.*?---', re.DOTALL)
-language_links_pattern = re.compile(r'\[English\]\(.*\) \| \[简体中文\]\(.*\) \| \[日本語\]\(.*\)\n')
+language_links_pattern = re.compile(r'\[Eng\]\(.*\) \| \[繁中\]\(.*\) \| \[日本\]\(.*\) \| \[한국어\]\(.*\) \| \[简中\]\(.*\)\n')
 
 # Iterate through all files in the base path
 for subdir, _, files in os.walk(base_path):
