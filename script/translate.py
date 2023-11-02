@@ -118,62 +118,66 @@ def split_text(text, max_chars, separator="\n## ", prefix = "## "):
     
     return chunks
 
+def translate_file(subdir, file):
+    print(subdir + " " + file)
+    _, file_extension = os.path.splitext(file)
+    
+    # Check if the file is a .md file
+    if file_extension.lower() != '.md':
+        return
+    
+    # Construct the file path
+    file_path = os.path.join(subdir, file)
+    
+    # Translate and save in corresponding directories for each language
+    for lang, dst_path in dst_paths.items():
+        # Construct the destination file path
+        dst_file_path = os.path.join(dst_path, os.path.relpath(file_path, src_path))
 
+        # Check if destination file exists and is newer than source file
+        # if os.path.exists(dst_file_path) and os.path.getmtime(dst_file_path) >= os.path.getmtime(file_path):
+        #     print(f"Skipping {dst_file_path} because it is newer than source.")
+        #     continue
+        if not is_file_newer_than_translation(file_path, lang):
+            # print(f"Skipping {dst_file_path} because it is newer than source.")
+            continue
+        
+        print(dst_file_path)
+
+        # Read the English content
+        with open(file_path, 'r', encoding='utf-8') as f:
+            english_content = f.read()
+        
+        # Split the content into chunks and translate each chunk
+        chunks = split_text(english_content, MAX_CHARS)
+        translated_chunks = []
+        print(f"{len(chunks)} chunks to translate.")
+
+        try:
+            index = 0
+            for chunk in chunks:
+                index += 1
+                print(f"Translating chunk {index}/{len(chunks)} size: {len(chunk)}...")
+                translated_chunks.append(translate(chunk, lang))
+                print("Done.")
+            
+            # Combine the translated chunks and save the result
+            translated_content = "\n## ".join(translated_chunks)
+            print(f"Saving translated content to {dst_file_path}...")
+            
+            # Ensure the directory exists
+            ensure_dir(dst_file_path)
+            
+            # Save the translated content
+            with open(dst_file_path, 'w', encoding='utf-8') as f:
+                f.write(translated_content)
+        except Exception as e:
+            print(e)
+            print(f"Skipping {dst_file_path} due to error...")
+
+# translate_file("", "index.md")
+translate_file("", "README.md")
 # Iterate through all files in the source path
 for subdir, _, files in os.walk(src_path):
     for file in files:
-        _, file_extension = os.path.splitext(file)
-        
-        # Check if the file is a .md file
-        if file_extension.lower() != '.md':
-            continue
-        
-        # Construct the file path
-        file_path = os.path.join(subdir, file)
-        
-        # Translate and save in corresponding directories for each language
-        for lang, dst_path in dst_paths.items():
-            # Construct the destination file path
-            dst_file_path = os.path.join(dst_path, os.path.relpath(file_path, src_path))
-
-            # Check if destination file exists and is newer than source file
-            # if os.path.exists(dst_file_path) and os.path.getmtime(dst_file_path) >= os.path.getmtime(file_path):
-            #     print(f"Skipping {dst_file_path} because it is newer than source.")
-            #     continue
-            if not is_file_newer_than_translation(file_path, lang):
-                # print(f"Skipping {dst_file_path} because it is newer than source.")
-                continue
-            
-            print(dst_file_path)
-
-            # Read the English content
-            with open(file_path, 'r', encoding='utf-8') as f:
-                english_content = f.read()
-            
-            # Split the content into chunks and translate each chunk
-            chunks = split_text(english_content, MAX_CHARS)
-            translated_chunks = []
-            print(f"{len(chunks)} chunks to translate.")
-
-            try:
-                index = 0
-                for chunk in chunks:
-                    index += 1
-                    print(f"Translating chunk {index}/{len(chunks)} size: {len(chunk)}...")
-                    translated_chunks.append(translate(chunk, lang))
-                    print("Done.")
-                
-                # Combine the translated chunks and save the result
-                translated_content = "\n## ".join(translated_chunks)
-                print(f"Saving translated content to {dst_file_path}...")
-                
-                # Ensure the directory exists
-                ensure_dir(dst_file_path)
-                
-                # Save the translated content
-                with open(dst_file_path, 'w', encoding='utf-8') as f:
-                    f.write(translated_content)
-            except Exception as e:
-                print(e)
-                print(f"Skipping {dst_file_path} due to error...")
-                continue
+        translate_file(subdir, file)
