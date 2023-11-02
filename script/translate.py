@@ -45,7 +45,9 @@ src_path = 'dancexr'
 # Define the paths for the translated content
 dst_paths = {
     'jp': 'jp/dancexr',
-    'zh': 'zh/dancexr'
+    'zh': 'zh/dancexr',
+    'kr': 'kr/dancexr',
+    'tw': 'tw/dancexr'
 }
 
 # Function to call OpenAI API for translation
