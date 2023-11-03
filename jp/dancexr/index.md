@@ -5,6 +5,8 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
+[Eng](/dancexr/index) | [繁中](/tw/dancexr/index) | [日本語](/jp/dancexr/index) | [한국어](/kr/dancexr/index) | [简中](/zh/dancexr/index)
+
 
 ## イントロダクション
 
