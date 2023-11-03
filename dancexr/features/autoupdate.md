@@ -9,7 +9,7 @@ sidebar:
 
 
 ## Overview
-Auto Update is an amazing that allows you to animate configuration changes based on various data sources like timeline, audio spectrum, custom input, etc.
+Auto Update is a tool that allows you to animate configuration changes based on various data sources like timeline, audio spectrum, custom input, etc.
 
 It can be used on many different types of configurations. Including position, rotation, scale, and even color and opacity.
 
