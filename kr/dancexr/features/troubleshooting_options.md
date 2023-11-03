@@ -6,7 +6,7 @@ sidebar:
   nav: "docs-kr"
 ---
 
-[Eng](/kr/dancexr/features/troubleshooting_options) | [繁中](/tw/kr/dancexr/features/troubleshooting_options) | [日本語](/jp/kr/dancexr/features/troubleshooting_options) | [한국어](/kr/kr/dancexr/features/troubleshooting_options) | [简中](/zh/kr/dancexr/features/troubleshooting_options)
+[Eng](/dancexr/features/troubleshooting_options) | [繁中](/tw/dancexr/features/troubleshooting_options) | [日本語](/jp/dancexr/features/troubleshooting_options) | [한국어](/kr/dancexr/features/troubleshooting_options) | [简中](/zh/dancexr/features/troubleshooting_options)
 
 ## 개요
 이러한 옵션은 모델의 일반적인 문제를 처리하기 위해 설계된 옵션입니다.

@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/kr/dancexr/features/skymap) | [繁中](/tw/kr/dancexr/features/skymap) | [日本語](/jp/kr/dancexr/features/skymap) | [한국어](/kr/kr/dancexr/features/skymap) | [简中](/zh/kr/dancexr/features/skymap)
+[Eng](/dancexr/features/skymap) | [繁中](/tw/dancexr/features/skymap) | [日本語](/jp/dancexr/features/skymap) | [한국어](/kr/dancexr/features/skymap) | [简中](/zh/dancexr/features/skymap)
 
 
 ## 하늘 모드

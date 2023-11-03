@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/tw/dancexr/preparecontent) | [繁中](/tw/tw/dancexr/preparecontent) | [日本語](/jp/tw/dancexr/preparecontent) | [한국어](/kr/tw/dancexr/preparecontent) | [简中](/zh/tw/dancexr/preparecontent)
+[Eng](/dancexr/preparecontent) | [繁中](/tw/dancexr/preparecontent) | [日本語](/jp/dancexr/preparecontent) | [한국어](/kr/dancexr/preparecontent) | [简中](/zh/dancexr/preparecontent)
 
 
 ## 內容庫

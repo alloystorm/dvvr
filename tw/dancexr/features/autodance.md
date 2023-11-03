@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/tw/dancexr/features/autodance) | [繁中](/tw/tw/dancexr/features/autodance) | [日本語](/jp/tw/dancexr/features/autodance) | [한국어](/kr/tw/dancexr/features/autodance) | [简中](/zh/tw/dancexr/features/autodance)
+[Eng](/dancexr/features/autodance) | [繁中](/tw/dancexr/features/autodance) | [日本語](/jp/dancexr/features/autodance) | [한국어](/kr/dancexr/features/autodance) | [简中](/zh/dancexr/features/autodance)
 
 
 ## 概述

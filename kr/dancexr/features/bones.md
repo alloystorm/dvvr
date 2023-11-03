@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/kr/dancexr/features/bones) | [繁中](/tw/kr/dancexr/features/bones) | [日本語](/jp/kr/dancexr/features/bones) | [한국어](/kr/kr/dancexr/features/bones) | [简中](/zh/kr/dancexr/features/bones)
+[Eng](/dancexr/features/bones) | [繁中](/tw/dancexr/features/bones) | [日本語](/jp/dancexr/features/bones) | [한국어](/kr/dancexr/features/bones) | [简中](/zh/dancexr/features/bones)
 
 ## 개요
 

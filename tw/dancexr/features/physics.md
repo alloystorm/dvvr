@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/tw/dancexr/features/physics) | [繁中](/tw/tw/dancexr/features/physics) | [日本語](/jp/tw/dancexr/features/physics) | [한국어](/kr/tw/dancexr/features/physics) | [简中](/zh/tw/dancexr/features/physics)
+[Eng](/dancexr/features/physics) | [繁中](/tw/dancexr/features/physics) | [日本語](/jp/dancexr/features/physics) | [한국어](/kr/dancexr/features/physics) | [简中](/zh/dancexr/features/physics)
 ## 微調物理效果
 
 系統全域物理設定

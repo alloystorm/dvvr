@@ -58,3 +58,4 @@ docs:
   - title: 故障排除
     url: /dancexr/troubleshooting  
 ---
+[Eng](/dancexr/navigation) | [繁中](/tw/dancexr/navigation) | [日本語](/jp/dancexr/navigation) | [한국어](/kr/dancexr/navigation) | [简中](/zh/dancexr/navigation)

@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/kr/dancexr/features/dance_set) | [繁中](/tw/kr/dancexr/features/dance_set) | [日本語](/jp/kr/dancexr/features/dance_set) | [한국어](/kr/kr/dancexr/features/dance_set) | [简中](/zh/kr/dancexr/features/dance_set)
+[Eng](/dancexr/features/dance_set) | [繁中](/tw/dancexr/features/dance_set) | [日本語](/jp/dancexr/features/dance_set) | [한국어](/kr/dancexr/features/dance_set) | [简中](/zh/dancexr/features/dance_set)
 
 
 ## 개요

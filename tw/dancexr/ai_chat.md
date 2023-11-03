@@ -6,7 +6,7 @@ sidebar:
   nav: "docs-tw"
 ---
 
-[Eng](/tw/dancexr/ai_chat) | [繁中](/tw/tw/dancexr/ai_chat) | [日本語](/jp/tw/dancexr/ai_chat) | [한국어](/kr/tw/dancexr/ai_chat) | [简中](/zh/tw/dancexr/ai_chat)
+[Eng](/dancexr/ai_chat) | [繁中](/tw/dancexr/ai_chat) | [日本語](/jp/dancexr/ai_chat) | [한국어](/kr/dancexr/ai_chat) | [简中](/zh/dancexr/ai_chat)
 
 ## AI 強化語音聊天
 

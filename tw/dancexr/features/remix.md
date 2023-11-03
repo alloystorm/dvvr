@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/tw/dancexr/features/remix) | [繁中](/tw/tw/dancexr/features/remix) | [日本語](/jp/tw/dancexr/features/remix) | [한국어](/kr/tw/dancexr/features/remix) | [简中](/zh/tw/dancexr/features/remix)
+[Eng](/dancexr/features/remix) | [繁中](/tw/dancexr/features/remix) | [日本語](/jp/dancexr/features/remix) | [한국어](/kr/dancexr/features/remix) | [简中](/zh/dancexr/features/remix)
 
 
 ## 概述

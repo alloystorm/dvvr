@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/tw/dancexr/features/xps_physics) | [繁中](/tw/tw/dancexr/features/xps_physics) | [日本語](/jp/tw/dancexr/features/xps_physics) | [한국어](/kr/tw/dancexr/features/xps_physics) | [简中](/zh/tw/dancexr/features/xps_physics)
+[Eng](/dancexr/features/xps_physics) | [繁中](/tw/dancexr/features/xps_physics) | [日本語](/jp/dancexr/features/xps_physics) | [한국어](/kr/dancexr/features/xps_physics) | [简中](/zh/dancexr/features/xps_physics)
 
 
 ## XPS 模型特定設定

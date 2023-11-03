@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/kr/dancexr/faq) | [繁中](/tw/kr/dancexr/faq) | [日本語](/jp/kr/dancexr/faq) | [한국어](/kr/kr/dancexr/faq) | [简中](/zh/kr/dancexr/faq)
+[Eng](/dancexr/faq) | [繁中](/tw/dancexr/faq) | [日本語](/jp/dancexr/faq) | [한국어](/kr/dancexr/faq) | [简中](/zh/dancexr/faq)
 
 
 ## 하늘만 표시되고 UI나 카메라 제어가 불가능합니다.

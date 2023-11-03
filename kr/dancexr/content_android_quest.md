@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/kr/dancexr/content_android_quest) | [繁中](/tw/kr/dancexr/content_android_quest) | [日本語](/jp/kr/dancexr/content_android_quest) | [한국어](/kr/kr/dancexr/content_android_quest) | [简中](/zh/kr/dancexr/content_android_quest)
+[Eng](/dancexr/content_android_quest) | [繁中](/tw/dancexr/content_android_quest) | [日本語](/jp/dancexr/content_android_quest) | [한국어](/kr/dancexr/content_android_quest) | [简中](/zh/dancexr/content_android_quest)
 
 
 ## 안드로이드 및 오큘러스 퀘스트용 콘텐츠 준비하기

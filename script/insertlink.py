@@ -28,9 +28,7 @@ for folder in base_path:
                 
                 # Generate the URL based on the file path
                 url_path = os.path.splitext(file_path.replace('\\', '/'))[0].lstrip('/')
-                if url_path.startswith('zh/'):
-                    url_path = url_path[3:]
-                elif url_path.startswith('jp/'):
+                if url_path.startswith('zh/') or url_path.startswith('tw/') or url_path.startswith('kr/') or url_path.startswith('jp/'):
                     url_path = url_path[3:]
                 language_links = f"[Eng](/{url_path}) | [繁中](/tw/{url_path}) | [日本語](/jp/{url_path}) | [한국어](/kr/{url_path}) | [简中](/zh/{url_path})\n"
                 

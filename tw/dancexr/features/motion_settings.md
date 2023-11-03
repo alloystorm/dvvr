@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/tw/dancexr/features/motion_settings) | [繁中](/tw/tw/dancexr/features/motion_settings) | [日本語](/jp/tw/dancexr/features/motion_settings) | [한국어](/kr/tw/dancexr/features/motion_settings) | [简中](/zh/tw/dancexr/features/motion_settings)
+[Eng](/dancexr/features/motion_settings) | [繁中](/tw/dancexr/features/motion_settings) | [日本語](/jp/dancexr/features/motion_settings) | [한국어](/kr/dancexr/features/motion_settings) | [简中](/zh/dancexr/features/motion_settings)
 
 
 ## 概述

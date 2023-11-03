@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/tw/dancexr/features/graphics) | [繁中](/tw/tw/dancexr/features/graphics) | [日本語](/jp/tw/dancexr/features/graphics) | [한국어](/kr/tw/dancexr/features/graphics) | [简中](/zh/tw/dancexr/features/graphics)
+[Eng](/dancexr/features/graphics) | [繁中](/tw/dancexr/features/graphics) | [日本語](/jp/dancexr/features/graphics) | [한국어](/kr/dancexr/features/graphics) | [简中](/zh/dancexr/features/graphics)
 
 
 ## 特殊渲染模式：深度和法线

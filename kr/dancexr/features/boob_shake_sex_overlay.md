@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/kr/dancexr/features/boob_shake_sex_overlay) | [繁中](/tw/kr/dancexr/features/boob_shake_sex_overlay) | [日本語](/jp/kr/dancexr/features/boob_shake_sex_overlay) | [한국어](/kr/kr/dancexr/features/boob_shake_sex_overlay) | [简中](/zh/kr/dancexr/features/boob_shake_sex_overlay)
+[Eng](/dancexr/features/boob_shake_sex_overlay) | [繁中](/tw/dancexr/features/boob_shake_sex_overlay) | [日本語](/jp/dancexr/features/boob_shake_sex_overlay) | [한국어](/kr/dancexr/features/boob_shake_sex_overlay) | [简中](/zh/dancexr/features/boob_shake_sex_overlay)
 
 
 ## 개요

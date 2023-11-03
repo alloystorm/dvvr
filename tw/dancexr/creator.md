@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/tw/dancexr/creator) | [繁中](/tw/tw/dancexr/creator) | [日本語](/jp/tw/dancexr/creator) | [한국어](/kr/tw/dancexr/creator) | [简中](/zh/tw/dancexr/creator)
+[Eng](/dancexr/creator) | [繁中](/tw/dancexr/creator) | [日本語](/jp/dancexr/creator) | [한국어](/kr/dancexr/creator) | [简中](/zh/dancexr/creator)
 
 
 # 創作者版

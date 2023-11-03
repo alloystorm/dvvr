@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/kr/dancexr/features/loader_options) | [繁中](/tw/kr/dancexr/features/loader_options) | [日本語](/jp/kr/dancexr/features/loader_options) | [한국어](/kr/kr/dancexr/features/loader_options) | [简中](/zh/kr/dancexr/features/loader_options)
+[Eng](/dancexr/features/loader_options) | [繁中](/tw/dancexr/features/loader_options) | [日本語](/jp/dancexr/features/loader_options) | [한국어](/kr/dancexr/features/loader_options) | [简中](/zh/dancexr/features/loader_options)
 
 
 ## 개요

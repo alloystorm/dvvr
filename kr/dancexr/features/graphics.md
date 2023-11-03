@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/kr/dancexr/features/graphics) | [繁中](/tw/kr/dancexr/features/graphics) | [日本語](/jp/kr/dancexr/features/graphics) | [한국어](/kr/kr/dancexr/features/graphics) | [简中](/zh/kr/dancexr/features/graphics)
+[Eng](/dancexr/features/graphics) | [繁中](/tw/dancexr/features/graphics) | [日本語](/jp/dancexr/features/graphics) | [한국어](/kr/dancexr/features/graphics) | [简中](/zh/dancexr/features/graphics)
 
 
 ## 특수 렌더링 모드: 깊이와 노멀

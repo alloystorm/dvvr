@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/kr/dancexr/features/playback_options) | [繁中](/tw/kr/dancexr/features/playback_options) | [日本語](/jp/kr/dancexr/features/playback_options) | [한국어](/kr/kr/dancexr/features/playback_options) | [简中](/zh/kr/dancexr/features/playback_options)
+[Eng](/dancexr/features/playback_options) | [繁中](/tw/dancexr/features/playback_options) | [日本語](/jp/dancexr/features/playback_options) | [한국어](/kr/dancexr/features/playback_options) | [简中](/zh/dancexr/features/playback_options)
 
 
 ## 개요

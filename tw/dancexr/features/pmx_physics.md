@@ -5,7 +5,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/tw/dancexr/features/pmx_physics) | [繁中](/tw/tw/dancexr/features/pmx_physics) | [日本語](/jp/tw/dancexr/features/pmx_physics) | [한국어](/kr/tw/dancexr/features/pmx_physics) | [简中](/zh/tw/dancexr/features/pmx_physics)
+[Eng](/dancexr/features/pmx_physics) | [繁中](/tw/dancexr/features/pmx_physics) | [日本語](/jp/dancexr/features/pmx_physics) | [한국어](/kr/dancexr/features/pmx_physics) | [简中](/zh/dancexr/features/pmx_physics)
 
 
 ## PMX 模型特定設定
