@@ -58,8 +58,6 @@ docs:
   - title: Troubleshooting
     url: /dancexr/troubleshooting  
 
-[Eng](/dancexr/navigation) | [繁中](/tw/dancexr/navigation) | [日本語](/jp/dancexr/navigation) | [한국어](/kr/dancexr/navigation) | [简中](/zh/dancexr/navigation)
-    
 releases-zh:
   - title: 早期访问
     children:
@@ -118,8 +116,6 @@ docs-zh:
     url: /zh/dancexr/faq
   - title: 故障排除
     url: /zh/dancexr/troubleshooting  
-
-[Eng](/zh/dancexr/navigation) | [繁中](/tw/zh/dancexr/navigation) | [日本語](/jp/zh/dancexr/navigation) | [한국어](/kr/zh/dancexr/navigation) | [简中](/zh/zh/dancexr/navigation)
 
 releases-tw:
   - title: 早期存取
@@ -180,8 +176,6 @@ docs-tw:
   - title: 故障排除
     url: /tw/dancexr/troubleshooting  
 
-[Eng](/tw/dancexr/navigation) | [繁中](/tw/tw/dancexr/navigation) | [日本語](/jp/tw/dancexr/navigation) | [한국어](/kr/tw/dancexr/navigation) | [简中](/zh/tw/dancexr/navigation)
-
 releases-jp:
   - title: 早期アクセス
     children:
@@ -241,8 +235,6 @@ docs-jp:
   - title: トラブルシューティング
     url: /jp/dancexr/troubleshooting  
 
-[Eng](/jp/dancexr/navigation) | [繁中](/tw/jp/dancexr/navigation) | [日本語](/jp/jp/dancexr/navigation) | [한국어](/kr/jp/dancexr/navigation) | [简中](/zh/jp/dancexr/navigation)
-
 releases-kr:
   - title: 초기 액세스
     children:
@@ -301,5 +293,3 @@ docs-kr:
     url: /kr/dancexr/faq
   - title: 문제 해결
     url: /kr/dancexr/troubleshooting  
-
-[Eng](/kr/dancexr/navigation) | [繁中](/tw/kr/dancexr/navigation) | [日本語](/jp/kr/dancexr/navigation) | [한국어](/kr/kr/dancexr/navigation) | [简中](/zh/kr/dancexr/navigation)
