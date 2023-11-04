@@ -15,7 +15,7 @@ for file, suffix in base_path.items():
     with open(file, 'r', encoding='utf-8') as f:
         content = f.read()
         if (len(suffix) > 0):
-            content = content.replace("docs", "docs-" + suffix).replace("releases", "releases-" + suffix).replace("dancexr/", suffix + "/dancexr/")
+            content = content.replace("docs", "docs-" + suffix).replace("releases", "releases-" + suffix).replace("/dancexr", "/" + suffix + "/dancexr")
         # remove the last 2 lines from the content
         content = "\n".join(content.split("\n")[:-2])
         combined += content.replace("---", "")

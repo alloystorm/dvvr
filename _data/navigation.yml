@@ -94,7 +94,7 @@ docs-zh:
   - title: 入门指南
     children:
       - title: "概述"
-        url: /dancexr
+        url: /zh/dancexr
       - title: "下载"
         url: /zh/dancexr/download
       - title: "内容库"
@@ -153,7 +153,7 @@ docs-tw:
   - title: 入門指南
     children:
       - title: "概述"
-        url: /dancexr
+        url: /tw/dancexr
       - title: "下載"
         url: /tw/dancexr/download
       - title: "內容庫"
@@ -212,7 +212,7 @@ docs-jp:
   - title: はじめに
     children:
       - title: "概要"
-        url: /dancexr
+        url: /jp/dancexr
       - title: "ダウンロード"
         url: /jp/dancexr/download
       - title: "コンテンツライブラリ"
@@ -271,7 +271,7 @@ docs-kr:
   - title: 시작하기
     children:
       - title: "개요"
-        url: /dancexr
+        url: /kr/dancexr
       - title: "다운로드"
         url: /kr/dancexr/download
       - title: "콘텐츠 라이브러리"
