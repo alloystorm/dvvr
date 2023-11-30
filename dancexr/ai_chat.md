@@ -104,7 +104,7 @@ The characters are derived from the name of the actor model. For example "Koharu
 
 The language model might have some knowledge on the character if they are well known, so it sometimes knows who they are and how they behave, especially when you use OpenAI. 
 
-In the character settings you can enter description and personality for the character, and that will greatly affect how they behave in chat. For example you can change a proud and arrogant character to be obidient by just describing them as "Obidient and eager to please".
+In the character settings you can enter description and personality for the character, and that will greatly affect how they behave in chat. For example you can change a proud and arrogant character to be obedient by just describing them as "Obedient and eager to please".
 
 The "Player" is technically also a character, you can change the name, description and personality for yourself and be whoever you like. 
 

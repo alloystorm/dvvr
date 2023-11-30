@@ -37,7 +37,7 @@ def get_api_key_from_file(file_path):
 # Get the API key
 api_key_path = os.path.expanduser("~/.openai/auth.json")
 api_key = get_api_key_from_file(api_key_path)
-print(api_key)
+# print(api_key)
 
 # Define the path to the English content
 src_path = 'dancexr'
