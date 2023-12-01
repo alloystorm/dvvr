@@ -10,18 +10,18 @@ sidebar:
 
 ## 免費版本下載
 
-[DanceXR 1.4.9 HD](https://www.patreon.com/posts/releaes-1-4-9-ai-90132466){: .dlbtn .patreon} 
+[DanceXR 1.5.0 HD](https://github.com/alloystorm/dvvr/releases/tag/1.5.0){: .dlbtn .patreon} 
 
-免費版本包含所有[基本功能](basic_features.md)，如標準姿勢轉換、舞台和環境設置以及逼真的動作。然而，它有一些限制：一次只能有一個演員在舞台上，並且[付費版本](pro_features.md)中的高級功能不可用。
+免費版本包含所有[基本功能](basic_features.md)，如標準姿勢轉換、舞台和環境設置以及逼真的動作。但是，它有一些限制：一次只能有一個演員在舞台上，並且[付費版本](pro_features.md)中的高級功能不可用。
 
 ## 購買選項
-為了獲得最新版本並解鎖高級功能，請使用以下其中一種選項進行購買。
+為了獲得最新版本並解鎖高級功能，請使用以下購買選項之一。
 
 ### 在 Patreon 上成為支持者
 
-[DanceXR 在 Patreon 上](https://www.patreon.com/dvvr){: .dlbtn .patreon} 
+[DanceXR on Patreon](https://www.patreon.com/dvvr){: .dlbtn .patreon} 
 
-每個月，我們在 Patreon 上發布最新版本。免費版本的建構也將在其初始發布後一個月內在 Patreon 上提供。
+每個月，我們在 Patreon 頁面上發布最新版本。免費版本將在初始發布後一個月內也在 Patreon 上提供。
 
 通過在 Patreon 上成為支持者，您將獲得獨家訪問最新更新的機會，並有機會在發布之前提供反饋。如果您欣賞我們的項目並希望支持我們，我們鼓勵您成為 Patreon 的支持者。
 
@@ -38,7 +38,7 @@ sidebar:
 
 [Steam：DanceXR Pure](https://store.steampowered.com/app/2193970/DanceXR_Pure/){: .dlbtn .steam}
 
-Pro 版本和 Pure 版本之間的區別在於 Pro 版本具有一些僅限成人的功能，因此在 Steam 上有年齡限制，同時光線追蹤版本是 Steam 上的付費 DLC。Pure 版本則去除了所有成人功能，但包含了光線追蹤版本。
+Pro 版本和 Pure 版本之間的區別在於 Pro 版本具有一些僅限成年人使用的功能，因此在 Steam 上有年齡限制，同時光線追蹤版本是 Steam 上的付費 DLC。Pure 版本則去除了所有成年人功能，但包含了光線追蹤版本。
 
 
 ### 在 Itch.io 上購買 Quest 獨立版本
@@ -56,7 +56,7 @@ Android Pro 版本可在 itch.io 上找到，而 Pure 版本可在 Google Play �
 
 [DanceXR Portable](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr){: .dlbtn .itchio}
 
-對於 Google Play 用戶，您現在可以參加我們的公開測試以提前獲得下一個更新。只需訪問下面的鏈接：
+對於 Google Play 用戶，您現在可以參加我們的公共測試版本，以提前獲得下一個更新。只需訪問下面的鏈接：
 
 https://play.google.com/apps/testing/com.vrstormlab.dancexr
 
@@ -65,4 +65,4 @@ https://play.google.com/apps/testing/com.vrstormlab.dancexr
 
 ### 面向中國大陸用戶
 
-[中國大陸購買選項](purchase_prc.md)
+[中国大陆购买选项](purchase_prc.md)
