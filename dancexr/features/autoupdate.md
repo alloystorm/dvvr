@@ -24,6 +24,8 @@ Configuration for auto update includes:
 * Cycle Time: This is the time it takes for the value to go from Input From to Input To. This is useful when you want to repeat the animation.
 * Phase: This is the time offset for the animation. For example if you have 2 auto update with the same cycle time, but one has phase 0 and the other has phase 0.5, then the 2 animations will be out of phase by half a cycle.
 * Band: When using audio spectrum, this controls which band of the spectrum to use.
+* Input Channel: which input axis to use when choosing the axis input mode
+* Consume Input: Once toggled on, the selected input axis will not trigger other action specified in input settings.
 
 The calculation is done as follows:
 

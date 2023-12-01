@@ -44,6 +44,7 @@ To use OpenAI service with DanceXR, you need an OpenAI API key.
 * Open DanceXR and click on the Config icon from the Chat menu. 
 * Go to AI Service and paste your key in the "OpenAI API Key" box. 
 * Then select "OpenAI (ChatGPT)" in the "AI Service" dropdown and you should be good to go.
+* In the chat settings you can choose the model that you want to use. 
 
 
 ### OobaBooga Text Generation WebUI 
@@ -168,6 +169,10 @@ You can choose different voice for System, Player and each of the characters.
 
 ### Language Matching & Fallback
 The AI model can generate different language messages. But the voice model can't. DanceXR will try to determine what language the message is and if it doesn't match the selected voice language, enabling "Fallback" in the voice settings will allow it to choose a different voice that matches the language within the voice list.
+
+New setting introduced in 1.5.1 update allows selection of a chat language, on top of the default "auto" mode. The auto mode will behave exactly like before, it tries to determine language from the text content itself. But if you choose one of the language in the chat language settings, it will be used for both chat message and voice.
+
+Keep in mind that the prompt message has a higher imfluence to the GPT models in deciding what language to use when generating responses. If you choose a language other than English, it's best to also update the prompt template with native text to the language you are choosing. 
 
 
 ## Speech To Text
