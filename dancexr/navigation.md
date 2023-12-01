@@ -2,14 +2,16 @@
 releases:
   - title: Early Access
     children:
+    - title: Release 1.5.1 Dec 2023
+      url: /dancexr/releases/1.5.1
+  - title: Current Release
+    children:
     - title: Release 1.5.0 Nov 2023
       url: /dancexr/releases/1.5.0
-  - title: Current Release
+  - title: Older Releases
     children:
     - title: Release 1.4.9 Oct 2023
       url: /dancexr/releases/1.4.9
-  - title: Older Releases
-    children:
     - title: Release 1.4.8 Sep 2023
       url: /dancexr/releases/1.4.8
     - title: Release 1.4.7 Aug 2023
