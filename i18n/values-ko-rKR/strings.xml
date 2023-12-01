@@ -1939,4 +1939,21 @@
 	<string name="HDFF314C0">보간</string>
 	<string name="H99967B23">동작 2</string>
 	<string name="H5750A504">동작 1</string>
+<string name="H70E592CE">16k 토큰, 가격은 OpenAI 웹사이트에서 확인하세요 ($0.001/1K 토큰 기준 12월 23일 기준)</string>
+    <string name="H4CB6267B">GPT-3.5 정확한 모델 사양 및 가격은 OpenAI 웹사이트에서 확인하세요</string>
+    <string name="HC5583F67">128k 토큰, 가격은 OpenAI 웹사이트에서 확인하세요 ($0.010/1K 토큰 기준 12월 23일 기준)</string>
+    <string name="H73902179">GPT-4 정확한 모델 사양 및 가격은 OpenAI 웹사이트에서 확인하세요</string>
+    <string name="H59CC5EEE">물 상호 작용</string>
+    <string name="HBACBCCDE">Stk. 효과</string>
+    <string name="HE7BC0CD7">Edge Stk. 효과</string>
+    <string name="HEA3C5571">해제용 용해</string>
+    <string name="H85582FA2">보통 STR</string>
+    <string name="H93E24E90">유리</string>
+    <string name="H512FEF89">이동 거리</string>
+    <string name="H7A3EF33E">충돌 후 추가 거리</string>
+    <string name="HB24585A3">남성과 여성 사이의 움직임 할당</string>
+    <string name="HE18287AA">충돌 후 튕김</string>
+    <string name="HD73E5880">남성과 여성 사이의 튕김 움직임 할당</string>
+    <string name="H1818BC9A">이 값으로 생성된 움직임 재정의</string>
+    <string name="HC8D475D8">사이클 내 시작 위치</string>
 </resources>

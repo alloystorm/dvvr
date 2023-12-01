@@ -1939,4 +1939,21 @@
 	<string name="HDFF314C0">補間</string>
 	<string name="H99967B23">モーション2</string>
 	<string name="H5750A504">モーション1</string>
+<string name="H70E592CE">16k トークン、価格についてはOpenAIのウェブサイトを確認してください（2023年12月現在、1Kトークンあたり$0.001）</string>
+	<string name="H4CB6267B">GPT-3.5の正確なモデル仕様と価格についてはOpenAIのウェブサイトを確認してください</string>
+	<string name="HC5583F67">128k トークン、価格についてはOpenAIのウェブサイトを確認してください（2023年12月現在、1Kトークンあたり$0.010）</string>
+	<string name="H73902179">GPT-4の正確なモデル仕様と価格についてはOpenAIのウェブサイトを確認してください</string>
+	<string name="H59CC5EEE">水の相互作用</string>
+	<string name="HBACBCCDE">ストック効果</string>
+	<string name="HE7BC0CD7">エッジストック効果</string>
+	<string name="HEA3C5571">溶解を有効にする</string>
+	<string name="H85582FA2">通常の強度</string>
+	<string name="H93E24E90">ガラス</string>
+	<string name="H512FEF89">移動距離</string>
+	<string name="H7A3EF33E">衝突後のさらなる距離</string>
+	<string name="HB24585A3">男性と女性の間での移動の割り当て</string>
+	<string name="HE18287AA">衝突後のバウンス</string>
+	<string name="HD73E5880">男性と女性の間でのバウンス運動の割り当て</string>
+	<string name="H1818BC9A">この値で生成された動きを上書き</string>
+	<string name="HC8D475D8">サイクル内の開始位置</string>
 </resources>

@@ -1939,4 +1939,21 @@
 	<string name="HDFF314C0">插值</string>
 	<string name="H99967B23">动作 2</string>
 	<string name="H5750A504">动作 1</string>
+<string name="H70E592CE">16k令牌，请查看OpenAI网站的定价（截至12月23日，每千个令牌0.001美元）</string>
+    <string name="H4CB6267B">GPT-3.5，请查看OpenAI网站获取确切的模型规格和定价</string>
+    <string name="HC5583F67">128k令牌，请查看OpenAI网站的定价（截至12月23日，每千个令牌0.010美元）</string>
+    <string name="H73902179">GPT-4，请查看OpenAI网站获取确切的模型规格和定价</string>
+    <string name="H59CC5EEE">水相互作用</string>
+    <string name="HBACBCCDE">Stk.效果</string>
+    <string name="HE7BC0CD7">边缘Stk.效果</string>
+    <string name="HEA3C5571">启用溶解</string>
+    <string name="H85582FA2">正常STR</string>
+    <string name="H93E24E90">玻璃</string>
+    <string name="H512FEF89">行程距离</string>
+    <string name="H7A3EF33E">碰撞后的进一步距离</string>
+    <string name="HB24585A3">男性和女性之间的移动分配</string>
+    <string name="HE18287AA">碰撞后的弹跳</string>
+    <string name="HD73E5880">男性和女性之间弹跳移动的分配</string>
+    <string name="H1818BC9A">使用此值覆盖生成的移动</string>
+    <string name="HC8D475D8">在周期中的起始位置</string>
 </resources>
