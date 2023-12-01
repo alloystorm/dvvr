@@ -14,6 +14,10 @@ def is_file_newer_than_translation(file_path, prefix):
     """Check if the given file is newer than its Japanese counterpart."""
     jp_file_path = os.path.join(prefix, file_path)
 
+    if not os.path.exists(jp_file_path):
+        # If the Japanese version doesn't exist, the original is "newer".
+        return True
+    
     commit_date_original = get_latest_commit_info(file_path)
     commit_date_jp = get_latest_commit_info(jp_file_path)
 
