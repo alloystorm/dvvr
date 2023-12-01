@@ -49,10 +49,10 @@ docs:
   - title: Releases
     url: /dancexr/releases/
     children:
-    - title: "Early Access: v1.5.0"
+    - title: "Early Access: v1.5.1"
+      url: /dancexr/releases/1.5.1
+    - title: "Latest: v1.5.0"
       url: /dancexr/releases/1.5.0
-    - title: "Latest: v1.4.9"
-      url: /dancexr/releases/1.4.9
   - title: Variants & Availability
     url: /dancexr/versions
   - title: FAQ

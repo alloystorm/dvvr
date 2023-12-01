@@ -49,10 +49,10 @@ docs:
   - title: 릴리스
     url: /dancexr/releases/
     children:
-    - title: "초기 액세스: v1.5.0"
+    - title: "초기 액세스: v1.5.1"
+      url: /dancexr/releases/1.5.1
+    - title: "최신: v1.5.0"
       url: /dancexr/releases/1.5.0
-    - title: "최신: v1.4.9"
-      url: /dancexr/releases/1.4.9
   - title: 변형 및 가용성
     url: /dancexr/versions
   - title: FAQ
