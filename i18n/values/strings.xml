@@ -1942,4 +1942,22 @@
 	<string name="HDFF314C0">Interpolation</string>
 	<string name="H99967B23">Motion 2</string>
 	<string name="H5750A504">Motion 1</string>
+
+		<string name="H70E592CE">16k tokens, check OpenAI website for pricing ($0.001/1K tokens as of Dec 23)</string>
+	<string name="H4CB6267B">GPT-3.5 check OpenAI website for exact model specs &amp; pricing</string>
+	<string name="HC5583F67">128k tokens, check OpenAI website for pricing ($0.010/1K tokens as of Dec 23)</string>
+	<string name="H73902179">GPT-4 check OpenAI website for exact model specs &amp; pricing</string>
+	<string name="H59CC5EEE">Water Interaction</string>
+	<string name="HBACBCCDE">Stk. Effect</string>
+	<string name="HE7BC0CD7">Edge Stk. Effect</string>
+	<string name="HEA3C5571">Enable Dissolve</string>
+	<string name="H85582FA2">Normal STR</string>
+	<string name="H93E24E90">Glass</string>
+	<string name="H512FEF89">Travel distance</string>
+	<string name="H7A3EF33E">Further distance after collision</string>
+	<string name="HB24585A3">Allocation of movement between male and female</string>
+	<string name="HE18287AA">Bounce after collision</string>
+	<string name="HD73E5880">Allocation of bounce movement between male and female</string>
+	<string name="H1818BC9A">Override generated movement with this value</string>
+	<string name="HC8D475D8">Starting position in the cycle</string>
 </resources>
