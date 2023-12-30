@@ -1956,4 +1956,18 @@
 	<string name="HD73E5880">男性和女性之間的彈跳移動分配</string>
 	<string name="H1818BC9A">使用此值覆蓋生成的移動</string>
 	<string name="HC8D475D8">在週期中的起始位置</string>
+<string name="H73D5183A">捆綁</string>
+    <string name="HFE109F84">選擇捆綁名稱：</string>
+    <string name="HE184244D">保存新預設</string>
+    <string name="H603F9FCA">重新載入已保存的</string>
+    <string name="HD208FDCC">為{0}保存新的預設</string>
+    <string name="HE9B10E8F">保存預設</string>
+    <string name="H273442C6">載入預設</string>
+    <string name="HA14D9223">服裝</string>
+    <string name="H3D9D84C0">系統預設</string>
+    <string name="HF5B01E5E">保存新的系統預設</string>
+    <string name="H7A83A7C2">菜單的最大高度</string>
+    <string name="HF42F753B">液滴密度</string>
+    <string name="H780EE018">液滴持續時間</string>
+    <string name="HABC777FE">正在創建捆綁...</string>
 </resources>

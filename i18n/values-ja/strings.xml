@@ -1956,4 +1956,18 @@
 	<string name="HD73E5880">男性と女性の間でのバウンス運動の割り当て</string>
 	<string name="H1818BC9A">この値で生成された動きを上書き</string>
 	<string name="HC8D475D8">サイクル内の開始位置</string>
+<string name="H73D5183A">バンドル</string>
+    <string name="HFE109F84">バンドル名を選択：</string>
+    <string name="HE184244D">新しいプリセットを保存</string>
+    <string name="H603F9FCA">保存済みのリロード</string>
+    <string name="HD208FDCC">{0}の新しいプリセットを保存</string>
+    <string name="HE9B10E8F">プリセットを保存</string>
+    <string name="H273442C6">プリセットを読み込む</string>
+    <string name="HA14D9223">衣類</string>
+    <string name="H3D9D84C0">システムプリセット</string>
+    <string name="HF5B01E5E">新しいシステムプリセットを保存</string>
+    <string name="H7A83A7C2">メニューの最大高さ</string>
+    <string name="HF42F753B">液滴密度</string>
+    <string name="H780EE018">液滴の持続時間</string>
+    <string name="HABC777FE">バンドルを作成中...</string>
 </resources>
