@@ -1960,4 +1960,19 @@
 	<string name="HD73E5880">Allocation of bounce movement between male and female</string>
 	<string name="H1818BC9A">Override generated movement with this value</string>
 	<string name="HC8D475D8">Starting position in the cycle</string>
+
+	<string name="H73D5183A">Bundle</string>
+	<string name="HFE109F84">Choose bundle name:</string>
+	<string name="HE184244D">Save New Preset</string>
+	<string name="H603F9FCA">Reload Saved</string>
+	<string name="HD208FDCC">Save new preset for {0}</string>
+	<string name="HE9B10E8F">Save Preset</string>
+	<string name="H273442C6">Load Preset</string>
+	<string name="HA14D9223">Clothing</string>
+	<string name="H3D9D84C0">System Presets</string>
+	<string name="HF5B01E5E">Save new system preset</string>
+	<string name="H7A83A7C2">Max height of menu</string>
+	<string name="HF42F753B">Droplet Density</string>
+	<string name="H780EE018">Droplet Duration</string>
+	<string name="HABC777FE">Creating bundle...</string>
 </resources>
