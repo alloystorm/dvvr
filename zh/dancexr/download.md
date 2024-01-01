@@ -10,7 +10,7 @@ sidebar:
 
 ## 免费版本下载
 
-[DanceXR 1.5.0 HD](https://github.com/alloystorm/dvvr/releases/tag/1.5.0){: .dlbtn .patreon} 
+[DanceXR 1.5.1 HD](https://github.com/alloystorm/dvvr/releases/tag/1.5.1){: .dlbtn .patreon} 
 
 免费版本包括所有[基本功能](basic_features.md)，如标准姿势转换、舞台和环境设置以及逼真的动作。但是，它有一些限制：一次只能有一个演员在舞台上，并且[付费版本](pro_features.md)中的高级功能不可用。
 
