@@ -1,15 +1,17 @@
 ---
 releases:
-  - title: 초기 액세스
+  - title: 이른 액세스
+    children:
+    - title: 릴리스 2024.1
+      url: /dancexr/releases/2024.1
+  - title: 현재 릴리스
     children:
     - title: 릴리스 1.5.1 2023년 12월
       url: /dancexr/releases/1.5.1
-  - title: 현재 릴리스
+  - title: 이전 릴리스
     children:
     - title: 릴리스 1.5.0 2023년 11월
       url: /dancexr/releases/1.5.0
-  - title: 이전 릴리스
-    children:
     - title: 릴리스 1.4.9 2023년 10월
       url: /dancexr/releases/1.4.9
     - title: 릴리스 1.4.8 2023년 9월
@@ -49,10 +51,10 @@ docs:
   - title: 릴리스
     url: /dancexr/releases/
     children:
-    - title: "초기 액세스: v1.5.1"
+    - title: "이른 액세스: v2024.1"
+      url: /dancexr/releases/2024.1
+    - title: "최신: v1.5.1"
       url: /dancexr/releases/1.5.1
-    - title: "최신: v1.5.0"
-      url: /dancexr/releases/1.5.0
   - title: 변형 및 가용성
     url: /dancexr/versions
   - title: FAQ
@@ -60,4 +62,6 @@ docs:
   - title: 문제 해결
     url: /dancexr/troubleshooting  
 ---
+[Eng](/dancexr/navigation) | [繁中](/tw/dancexr/navigation) | [日本語](/jp/dancexr/navigation) | [한국어](/kr/dancexr/navigation) | [简中](/zh/dancexr/navigation)
+
 [Eng](/dancexr/navigation) | [繁中](/tw/dancexr/navigation) | [日本語](/jp/dancexr/navigation) | [한국어](/kr/dancexr/navigation) | [简中](/zh/dancexr/navigation)
