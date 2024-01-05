@@ -5,6 +5,8 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
+[Eng](/dancexr/support) | [繁中](/tw/dancexr/support) | [日本語](/jp/dancexr/support) | [한국어](/kr/dancexr/support) | [简中](/zh/dancexr/support)
+
 
 ## 일반 도움말
 일반적인 문제에 대한 기능 및 해결책에 대해 알아보기 위해 문서를 참조해주시기 바랍니다.
