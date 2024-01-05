@@ -1956,4 +1956,18 @@
     <string name="HD73E5880">남성과 여성 사이의 튕김 움직임 할당</string>
     <string name="H1818BC9A">이 값으로 생성된 움직임 재정의</string>
     <string name="HC8D475D8">사이클 내 시작 위치</string>
+<string name="H73D5183A">번들</string>
+    <string name="HFE109F84">번들 이름 선택:</string>
+    <string name="HE184244D">새로운 프리셋 저장</string>
+    <string name="H603F9FCA">저장된 것 다시 불러오기</string>
+    <string name="HD208FDCC">{0}을(를) 위한 새로운 프리셋 저장</string>
+    <string name="HE9B10E8F">프리셋 저장</string>
+    <string name="H273442C6">프리셋 불러오기</string>
+    <string name="HA14D9223">의류</string>
+    <string name="H3D9D84C0">시스템 프리셋</string>
+    <string name="HF5B01E5E">새로운 시스템 프리셋 저장</string>
+    <string name="H7A83A7C2">메뉴의 최대 높이</string>
+    <string name="HF42F753B">물방울 밀도</string>
+    <string name="H780EE018">물방울 지속 시간</string>
+    <string name="HABC777FE">번들 생성 중...</string>
 </resources>
