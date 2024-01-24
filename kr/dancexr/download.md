@@ -32,7 +32,7 @@ Patreon에서 후원자가 되면 다른 플랫폼에서 릴리스되기 전에 
 
 [Steam: DanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
 
-[Itch.io: DanceXR Pro](https://stormlab.itch.io/dvvr){: .dlbtn .itchio}
+[Itch.io: DanceXR Pro](https://stormlab.itch.io/dancexr){: .dlbtn .itchio}
 
 Steam에서 DanceXR을 찾을 수 없는 경우 귀하의 국가에서 차단되었을 수 있으므로 대신 Pure 에디션을 시도해 볼 수 있습니다.
 

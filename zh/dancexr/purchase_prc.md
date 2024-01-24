@@ -24,7 +24,7 @@ permalink: /dancexr/purchase_prc
 
 [https://stormlab.itch.io/dancexr-quest](https://stormlab.itch.io/dancexr-quest)
 
-[https://stormlab.itch.io/dvvr （PC版）](https://stormlab.itch.io/dvvr)
+[https://stormlab.itch.io/dancexr （PC版）](https://stormlab.itch.io/dancexr)
 
 
 ### itch.io直接购买

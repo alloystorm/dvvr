@@ -32,7 +32,7 @@ If you prefer an one-off purchase, you can also find it on Steam and Itch.io.
 
 [Steam: DanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
 
-[Itch.io: DanceXR Pro](https://stormlab.itch.io/dvvr){: .dlbtn .itchio}
+[Itch.io: DanceXR Pro](https://stormlab.itch.io/dancexr){: .dlbtn .itchio}
 
 If you can't find DanceXR on Steam, it could be that it is blocked in your country, you can try the Pure edition instead.
 
