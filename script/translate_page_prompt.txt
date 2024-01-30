@@ -1,0 +1,3 @@
+Please translate the following to {target_language}. Do not translate field names within front matter. 
+
+{text}
