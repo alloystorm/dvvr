@@ -1,6 +1,6 @@
 [Eng](/dancexr/listing/googleplay) | [繁中](/tw/dancexr/listing/googleplay) | [日本語](/jp/dancexr/listing/googleplay) | [한국어](/kr/dancexr/listing/googleplay) | [简中](/zh/dancexr/listing/googleplay)
-Animate any model, anywhere
 
+Animate any model, anywhere
 
 DanceXR is a character model viewer and motion player. It supports PMX(MMD) & XNALara/XPS models and VMD motion format. Unlike other MMD players DanceXR allows almost any motion to play on any model without any manual tweaking or bone adjustments. 
 
