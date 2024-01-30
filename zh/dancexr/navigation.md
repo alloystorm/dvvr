@@ -51,10 +51,10 @@ docs:
   - title: 版本
     url: /dancexr/releases/
     children:
-    - title: "早期访问：v1.5.1"
+    - title: "早期访问：2024.1"
+      url: /dancexr/releases/2024.1
+    - title: "最新：v1.5.1"
       url: /dancexr/releases/1.5.1
-    - title: "最新：v1.5.0"
-      url: /dancexr/releases/1.5.0
   - title: 变体和可用性
     url: /dancexr/versions
   - title: 常见问题
