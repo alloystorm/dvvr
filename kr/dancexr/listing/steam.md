@@ -1,3 +1,4 @@
+[Eng](/dancexr/listing/steam) | [繁中](/tw/dancexr/listing/steam) | [日本語](/jp/dancexr/listing/steam) | [한국어](/kr/dancexr/listing/steam) | [简中](/zh/dancexr/listing/steam)
 DanceXR는 캐릭터 모델 뷰어 및 모션 플레이어입니다. PMX(MMD) 및 XNALara/XPS 모델 및 VMD 모션 형식을 지원합니다. 다른 MMD 플레이어와 달리 DanceXR은 수동 조정이나 본 조정없이 거의 모든 모션을 어떤 모델에서도 재생할 수 있습니다.
 
 모델이 IK 본을 가지고 있는지, T 포즈 또는 A 포즈에 있는지 여부는 중요하지 않으며, 고유한 모션 시스템에 의해 모델 및 모션은 최대 호환성을 보장하기 위해 자동으로 조정됩니다.

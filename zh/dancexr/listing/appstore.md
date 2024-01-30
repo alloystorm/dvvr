@@ -1,3 +1,4 @@
+[Eng](/dancexr/listing/appstore) | [繁中](/tw/dancexr/listing/appstore) | [日本語](/jp/dancexr/listing/appstore) | [한국어](/kr/dancexr/listing/appstore) | [简中](/zh/dancexr/listing/appstore)
 DanceXR是一个多功能的角色模型查看器和动作播放器，支持一系列模型和动作格式，包括PMX（MMD）和XNALara/XPS模型，以及VMD/BVH动作格式。使用DanceXR的最显著好处是它能够在不需要手动调整或骨骼调整的情况下，在任何模型上播放几乎任何动作。
 
 您可以配置模型和动作以支持不同的标准姿势。无论动作是为T形姿势还是A形姿势模型创建的，DanceXR都可以确保它可以完美地在您选择的任何模型上播放。它还可以即时修复常见的骨骼结构问题，以确保最大的兼容性。

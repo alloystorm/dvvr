@@ -1,3 +1,4 @@
+[Eng](/dancexr/listing/appstore) | [繁中](/tw/dancexr/listing/appstore) | [日本語](/jp/dancexr/listing/appstore) | [한국어](/kr/dancexr/listing/appstore) | [简中](/zh/dancexr/listing/appstore)
 DanceXR is a versatile character model viewer and motion player that supports a range of model and motion formats including PMX (MMD) & XNALara/XPS models, as well as VMD/BVH motion formats. The most significant benefit of using DanceXR is its ability to play almost any motion on any model without requiring manual tweaking or bone adjustments.
 
 You can configure models and motions to support different standard poses. No matter if the motion was created for T-pose or A-pose models, DanceXR can ensure that it can be played perfectly on any model of your choice. It also fixes common bone structure issues on the fly to ensure maximum compatibility.

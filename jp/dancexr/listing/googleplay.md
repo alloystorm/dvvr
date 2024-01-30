@@ -1,3 +1,4 @@
+[Eng](/dancexr/listing/googleplay) | [繁中](/tw/dancexr/listing/googleplay) | [日本語](/jp/dancexr/listing/googleplay) | [한국어](/kr/dancexr/listing/googleplay) | [简中](/zh/dancexr/listing/googleplay)
 どんなモデルでも、どこでもアニメーションさせる
 
 DanceXRはキャラクターモデルビューアーであり、モーションプレイヤーです。PMX（MMD）＆XNALara/XPSモデルおよびVMDモーションフォーマットをサポートしています。他のMMDプレイヤーとは異なり、DanceXRはほとんどのモーションを手動で調整やボーンの調整をすることなく、どんなモデルでも再生することができます。

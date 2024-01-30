@@ -45,6 +45,9 @@ for folder in base_path:
                     # Insert the language links line after the front matter
                     insert_pos = front_matter_match.end()
                     content = content[:insert_pos] + "\n" + language_links + content[insert_pos:]
+                else:
+                    # Insert the language links line at the beginning of the file
+                    content = language_links + content
                 
                 # Write the modified content back to the file
                 with open(file_path, 'w', encoding='utf-8') as f:

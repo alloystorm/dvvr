@@ -1,3 +1,4 @@
+[Eng](/dancexr/listing/googleplay) | [繁中](/tw/dancexr/listing/googleplay) | [日本語](/jp/dancexr/listing/googleplay) | [한국어](/kr/dancexr/listing/googleplay) | [简中](/zh/dancexr/listing/googleplay)
 어떤 모델이든 어디에서든 애니메이션화하세요.
 
 DanceXR은 캐릭터 모델 뷰어이자 모션 플레이어입니다. PMX(MMD) 및 XNALara/XPS 모델 및 VMD 모션 형식을 지원합니다. 다른 MMD 플레이어와 달리 DanceXR은 수동 조정이나 본 조정 없이 거의 모든 모션을 어떤 모델에서도 재생할 수 있습니다.

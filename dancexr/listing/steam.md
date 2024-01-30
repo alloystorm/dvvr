@@ -1,3 +1,4 @@
+[Eng](/dancexr/listing/steam) | [繁中](/tw/dancexr/listing/steam) | [日本語](/jp/dancexr/listing/steam) | [한국어](/kr/dancexr/listing/steam) | [简中](/zh/dancexr/listing/steam)
 DanceXR is a character model viewer and motion player. It supports PMX(MMD) & XNALara/XPS models and VMD motion format. Unlike other MMD players DanceXR allows almost any motion to play on any model without any manual tweaking or bone adjustments. 
 
 It doesn't matter whether the model has IK bones or is it in T pose or A pose, the model & motion are adapted automatically on the fly by our unique motion system to ensure the maximum compatibility.

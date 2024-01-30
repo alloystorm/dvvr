@@ -1,3 +1,4 @@
+[Eng](/dancexr/listing/googleplay) | [繁中](/tw/dancexr/listing/googleplay) | [日本語](/jp/dancexr/listing/googleplay) | [한국어](/kr/dancexr/listing/googleplay) | [简中](/zh/dancexr/listing/googleplay)
 隨時隨地操控任何模型
 
 DanceXR是一個角色模型查看器和動作播放器。它支持PMX（MMD）和XNALara/XPS模型以及VMD動作格式。與其他MMD播放器不同，DanceXR允許幾乎任何動作在任何模型上播放，無需任何手動調整或骨骼調整。

@@ -1,3 +1,4 @@
+[Eng](/dancexr/listing/appstore) | [繁中](/tw/dancexr/listing/appstore) | [日本語](/jp/dancexr/listing/appstore) | [한국어](/kr/dancexr/listing/appstore) | [简中](/zh/dancexr/listing/appstore)
 DanceXRは、PMX（MMD）＆XNALara/XPSモデル、VMD/BVHモーション形式を含むさまざまなモデルとモーション形式をサポートする多目的なキャラクターモデルビューアーおよびモーションプレーヤーです。DanceXRを使用する最も重要な利点は、手動の調整やボーンの調整を必要とせず、ほとんどのモーションを任意のモデルで再生できる能力です。
 
 モデルとモーションを様々な標準ポーズに対応させることができます。TポーズまたはAポーズモデル用に作成されたモーションであっても、DanceXRは任意のモデルで完璧に再生できるようにします。また、最大の互換性を確保するために、ボーン構造の一般的な問題を即座に修正します。
