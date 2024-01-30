@@ -1,7 +1,7 @@
 # theme: jekyll-theme-slate
 remote_theme: "alloystorm/minimal-mistakes"
 title: VR Storm Lab
-description: Universal character model viewer and motion player 
+description: Animate any character, anywhere. 
 google_analytics: UA-147265380-2
 include: app-ads.txt
 logo: /images/icon.png
