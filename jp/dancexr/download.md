@@ -32,7 +32,7 @@ Patreonでサポーターになると、他のプラットフォームでリリ�
 
 [Steam: DanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
 
-[Itch.io: DanceXR Pro](https://stormlab.itch.io/dvvr){: .dlbtn .itchio}
+[Itch.io: DanceXR Pro](https://stormlab.itch.io/dancexr){: .dlbtn .itchio}
 
 SteamでDanceXRが見つからない場合は、お住まいの国でブロックされている可能性がありますので、代わりにPureエディションを試してみてください。
 

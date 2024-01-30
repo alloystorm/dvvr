@@ -32,7 +32,7 @@ sidebar:
 
 [Steam：DanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
 
-[Itch.io：DanceXR Pro](https://stormlab.itch.io/dvvr){: .dlbtn .itchio}
+[Itch.io：DanceXR Pro](https://stormlab.itch.io/dancexr){: .dlbtn .itchio}
 
 如果您在 Steam 上找不到 DanceXR，可能是因为它在您的国家被封锁，您可以尝试使用 Pure 版本。
 
