@@ -1,6 +1,6 @@
 ---
 layout: single
-title: DanceXR, animate any model, any where!
+title: DanceXR, animate any model, anywhere!
 toc: true
 sidebar:
   nav: "docs"
