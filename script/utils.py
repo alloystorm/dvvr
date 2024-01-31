@@ -14,6 +14,12 @@ api_key = get_api_key_from_file(api_key_path)
 # print(api_key)
 
 translation = {
+     'alpha': {
+        'zh': '透明度',
+        'tw': '透明度',
+        'jp': 'アルファ',
+        'kr': '알파'
+     },
     'scene bundle': {
         'zh': '场景包',
         'tw': '場景包',
@@ -114,7 +120,7 @@ def translate(text, target_language):
         terms=terms,
         text=text)
     
-    print(prompt)
+    # print(prompt)
 
     data = {
         "model": "gpt-3.5-turbo-1106",

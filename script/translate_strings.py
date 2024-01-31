@@ -3,6 +3,11 @@ import xml.etree.ElementTree as ET
 from lxml import etree
 import json
 from utils import translate
+import sys
+
+refresh = False
+if len(sys.argv) > 1:
+    refresh = sys.argv[1] == "refresh"
 
 # from translate import translate
 
@@ -43,7 +48,7 @@ for lang_dir in LANG_DIRS:
 
     # Compare and find missing entries
     for key, value in default_strings.items():
-        if key not in lang_strings:
+        if refresh or key not in lang_strings:
             missing_entries[key] = value
 
     MAX_TOKENS = 1024
@@ -69,6 +74,11 @@ for lang_dir in LANG_DIRS:
         #missing_strings += "</resources>"
         print(f"Split {len(missing_entries)} entries into {len(chunks)} chunks.")
         index = 0
+        if refresh:
+            tree = ET.ElementTree(ET.Element("resources"))
+        else:
+            tree = ET.parse(lang_file)
+        root = tree.getroot()
         for missing_strings in chunks:
             index += 1
             try:
@@ -78,8 +88,6 @@ for lang_dir in LANG_DIRS:
                 translated_strings = translate(f"<resources>\n{missing_strings}</resources>", lang)
                 # Append the translated strings back to the respective strings.xml
                 #parser = etree.XMLParser(remove_blank_text=True)
-                tree = ET.parse(lang_file)
-                root = tree.getroot()
                 translatedRoot = ET.fromstring(translated_strings)
                 for elem in translatedRoot:
                     root.append(elem)
