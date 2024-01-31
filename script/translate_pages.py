@@ -55,11 +55,53 @@ dst_paths = {
 }
 
 translation = {
-    'DanceXR': {
-        'zh': '舞动幻境',
-        'tw': '舞動幻境',
+    'procedural': {
+        'zh': '程序化',
+        'tw': '程序化',
+        'jp': 'プロシージャル',
+        'kr': '프로시저'
+    },
+    'release': {
+        'zh': '发布',
+        'tw': '發布',
+        'jp': 'リリース',
+        'kr': '출시'
+    },
+    'version': {
+        'zh': '版本',
+        'tw': '版本',
+        'jp': 'バージョン',
+        'kr': '버전'
+    },
+    'pro': {
+        'zh': '专业版',
+        'tw': '專業版',
+        'jp': 'プロ版',
+        'kr': '프로버전'
+    },
+    'camera': {
+        'zh': '摄影机',
+        'tw': '攝影機',
+        'jp': 'カメラ',
+        'kr': '카메라'
+    },
+    'creator': {
+        'zh': '创作版',
+        'tw': '創作版',
+        'jp': 'クリエイター版',
+        'kr': '크리에이터버전'
+    },
+    'DanceXR Immersion': {
+        'zh': 'DanceXR舞动幻境',
+        'tw': 'DanceXR舞動幻境',
         'jp': 'ダンスXR幻境',
         'kr': '댄스XR환경'
+    },
+    'DanceXR Mix': {
+        'zh': 'DanceXR舞动幻影',
+        'tw': 'DanceXR舞動幻影',
+        'jp': 'ダンスXR幻影',
+        'kr': '댄스XR환영'
     },
     'Animate any model, anywhere': {
         'zh': '遍地皆是舞台，模型随意动画',
@@ -82,7 +124,7 @@ def translate(text, target_language):
     with open("script/translate_page_prompt.txt", 'r', encoding='utf-8') as f:
             template = f.read()
 
-    terms = '\n'.join([f"'{key}': '{value[target_language]}'" for key, value in translation.items() if target_language in value])
+    terms = '\n'.join([f"{i+1}. {key}: {value[target_language]}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
     prompt = template.format(
         target_language=target_language, 
         terms=terms,
@@ -209,8 +251,8 @@ def translate_file(subdir, file):
 translate_file("", "index.md")
 # translate_file("", "README.md")
 # Iterate through all files in the source path
-for subdir, _, files in os.walk(src_path):
-    for file in files:
-        translate_file(subdir, file)
+# for subdir, _, files in os.walk(src_path):
+#     for file in files:
+#         translate_file(subdir, file)
 
-# print(translate("---\ntitle:test page\nnavigation:docs\n---\n\nThis is a test. \nDanceXR: Animate any model, anywhere! ", "jp"))
+print(translate("---\ntitle:test page\nnavigation:docs\n---\n\nThis is a test. \nDanceXR Immersion: Animate any model, anywhere! ", "zh"))
