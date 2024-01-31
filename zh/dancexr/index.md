@@ -2,6 +2,7 @@
 layout: single
 title: DanceXR舞动幻境，遍地皆是舞台，模型随意动画！
 toc: true
+locale: zh-CN
 sidebar:
   nav: "docs-zh"
 ---

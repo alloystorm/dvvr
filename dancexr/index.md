@@ -2,6 +2,7 @@
 layout: single
 title: DanceXR, animate any model, anywhere!
 toc: true
+locale: en-US
 sidebar:
   nav: "docs"
 ---
