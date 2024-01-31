@@ -1,12 +1,10 @@
-Please help me translate text to {target_language}. Text inside area surrounded by "---" is called front matter, it contains property values. Do not translate property names names in front matter. 
+Please help me translate text from English to {target_language}. 
 
-Also use the specified translation below for these names, terms & sentences
+If there are properties and values inside area surrounded by "---" in front of the page, please only translate the title value, include the rest as is.
 
-|      | zh | tw | jp | kr |
-| --- | --- | --- | --- | --- |
-| DanceXR | 舞动幻境 | 舞動幻境 | ダンスXR幻境 | 댄스XR환경 | 
-｜ Animate any model, anywhere ｜ 遍地皆是舞台，模型随意动画 ｜ 遍地皆是舞台，模型隨意動畫 ｜ どこでも舞台、モデルは自由にアニメーション ｜ 어디든 무대가 되고, 모델은 자유롭게 애니메이션 ｜
+When translating, please use the specified translations below for the following terms.
 
+{terms}
 
 The text to tranlsate is as follows:
 
