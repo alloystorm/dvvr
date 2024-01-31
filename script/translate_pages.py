@@ -55,6 +55,24 @@ dst_paths = {
 }
 
 translation = {
+    'scene bundle': {
+        'zh': '场景包',
+        'tw': '場景包',
+        'jp': 'シーンバンドル',
+        'kr': '씬 번들'
+    },
+    'asset': {
+        'zh': '资源',
+        'tw': '資源',
+        'jp': 'アセット',
+        'kr': '에셋'
+    },
+    'bone': {
+        'zh': '骨骼',
+        'tw': '骨骼',
+        'jp': 'ボーン',
+        'kr': '본'
+    },
     'procedural': {
         'zh': '程序化',
         'tw': '程序化',
@@ -251,8 +269,8 @@ def translate_file(subdir, file):
 translate_file("", "index.md")
 # translate_file("", "README.md")
 # Iterate through all files in the source path
-# for subdir, _, files in os.walk(src_path):
-#     for file in files:
-#         translate_file(subdir, file)
+for subdir, _, files in os.walk(src_path):
+    for file in files:
+        translate_file(subdir, file)
 
-print(translate("---\ntitle:test page\nnavigation:docs\n---\n\nThis is a test. \nDanceXR Immersion: Animate any model, anywhere! ", "zh"))
+# print(translate("---\ntitle:test page\nnavigation:docs\n---\n\nThis is a test. \nDanceXR Immersion: Animate any model, anywhere! ", "zh"))
