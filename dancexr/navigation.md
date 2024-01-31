@@ -1,4 +1,3 @@
----
 releases:
   - title: Early Access
     children:
@@ -60,6 +59,4 @@ docs:
   - title: FAQ
     url: /dancexr/faq
   - title: Troubleshooting
-    url: /dancexr/troubleshooting  
----
-[Eng](/dancexr/navigation) | [繁中](/tw/dancexr/navigation) | [日本語](/jp/dancexr/navigation) | [한국어](/kr/dancexr/navigation) | [简中](/zh/dancexr/navigation)
+    url: /dancexr/troubleshooting
