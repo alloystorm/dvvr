@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 假阳具
 toc: true

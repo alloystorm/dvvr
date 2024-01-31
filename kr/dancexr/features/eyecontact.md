@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 깜빡임, 숨쉬기 및 눈동자 접촉
 toc: true

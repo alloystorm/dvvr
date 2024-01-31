@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 動作設定
 toc: true

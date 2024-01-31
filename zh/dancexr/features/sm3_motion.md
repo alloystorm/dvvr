@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 性感动作3
 toc: true

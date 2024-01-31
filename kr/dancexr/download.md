@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 다운로드
 toc: true

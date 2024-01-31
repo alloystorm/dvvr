@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: DanceXR舞動幻境，遍地皆是舞台，模型隨意動畫！
 toc: true

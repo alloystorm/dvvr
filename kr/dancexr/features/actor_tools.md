@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 배우 메뉴 및 도구
 toc: true

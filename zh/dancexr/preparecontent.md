@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 内容库
 toc: true

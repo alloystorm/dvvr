@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 服裝與身體彩繪
 toc: true

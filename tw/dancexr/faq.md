@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 常見問題
 toc: true

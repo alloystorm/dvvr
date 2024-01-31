@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 演員選單和工具
 toc: true

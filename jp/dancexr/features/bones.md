@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: 例の骨構造
 toc: true

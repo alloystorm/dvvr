@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 自動跳舞
 toc: true

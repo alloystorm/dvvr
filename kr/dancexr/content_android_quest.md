@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 안드로이드 및 퀘스트/피코용 콘텐츠 라이브러리
 toc: true

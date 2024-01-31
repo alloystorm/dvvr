@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 地面
 toc: true

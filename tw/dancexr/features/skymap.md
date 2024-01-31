@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 天空與雲
 toc: true

@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 發布
 permalink: /tw/dancexr/releases/

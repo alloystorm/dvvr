@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 粒子系统
 toc: true

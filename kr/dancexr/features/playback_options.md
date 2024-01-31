@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 재생 옵션
 toc: true

@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: システム物理学
 toc: true

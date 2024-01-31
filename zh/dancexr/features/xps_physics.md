@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: XPS物理学
 toc: true

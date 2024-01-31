@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 仿真陽具
 toc: true

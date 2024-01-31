@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 기능 목록
 toc: true

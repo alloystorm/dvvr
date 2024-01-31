@@ -1,4 +1,5 @@
 ---
+locale: en-US
 layout: single
 title: Blink, Breathing and Eye Contact
 toc: true

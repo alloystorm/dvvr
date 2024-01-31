@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 骨骼結構範例
 toc: true

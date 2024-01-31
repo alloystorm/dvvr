@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 태깅
 toc: true

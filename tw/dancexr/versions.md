@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 不同版本和可用性
 toc: true

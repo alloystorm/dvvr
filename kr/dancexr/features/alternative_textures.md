@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 대체 텍스처
 toc: true

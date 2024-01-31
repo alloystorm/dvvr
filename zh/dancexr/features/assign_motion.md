@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 分配动作
 toc: true

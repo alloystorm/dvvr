@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: XPS物理学
 toc: true

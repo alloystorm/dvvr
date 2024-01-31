@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 모션 오버라이드
 toc: true

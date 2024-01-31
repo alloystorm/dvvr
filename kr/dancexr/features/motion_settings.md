@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 모션 설정
 toc: true

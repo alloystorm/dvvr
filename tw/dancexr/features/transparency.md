@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 透明材料
 toc: true

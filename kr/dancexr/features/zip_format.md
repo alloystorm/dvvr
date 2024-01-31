@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: ZIP 형식
 toc: true

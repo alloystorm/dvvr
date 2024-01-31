@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 카메라
 toc: true

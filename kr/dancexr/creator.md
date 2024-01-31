@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 크리에이터 에디션
 toc: true

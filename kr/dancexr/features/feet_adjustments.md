@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 발 조정
 toc: true

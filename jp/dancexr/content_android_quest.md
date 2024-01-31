@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: Android＆Quest / Pico用コンテンツライブラリ
 toc: true

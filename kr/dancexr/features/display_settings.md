@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 디스플레이 설정
 toc: true

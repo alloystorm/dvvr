@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 섹스 모션 2
 toc: true

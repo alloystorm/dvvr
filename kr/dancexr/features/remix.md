@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 리믹스 모션
 toc: true

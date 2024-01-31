@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 系统物理
 toc: true

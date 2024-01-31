@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: 空と雲
 toc: true

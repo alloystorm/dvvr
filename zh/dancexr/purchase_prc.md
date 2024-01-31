@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 中国大陆购买选项
 toc: true

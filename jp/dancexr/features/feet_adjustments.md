@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: 足の調整
 toc: true

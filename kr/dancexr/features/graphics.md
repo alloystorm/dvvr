@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 그래픽
 toc: true

@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: ダンスXR、どこでも舞台、モデルは自由にアニメーション！
 toc: true

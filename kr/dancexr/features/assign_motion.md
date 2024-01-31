@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 동작 할당
 toc: true

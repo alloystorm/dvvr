@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 舞蹈集
 toc: true

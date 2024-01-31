@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 显示设置
 toc: true

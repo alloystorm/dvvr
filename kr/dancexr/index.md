@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 댄스XR, 어디든 무대가 되고, 모델은 자유롭게 애니메이션!
 toc: true

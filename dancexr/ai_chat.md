@@ -1,4 +1,5 @@
 ---
+locale: en-US
 layout: single
 title: AI Powered Voice Chat
 toc: true

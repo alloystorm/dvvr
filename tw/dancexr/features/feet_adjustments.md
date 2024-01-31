@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 腳部調整
 toc: true

@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: XPS 본 매핑
 toc: true

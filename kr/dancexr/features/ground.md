@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 지면
 toc: true

@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 보조 동작
 toc: true

@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 面部控制
 toc: true

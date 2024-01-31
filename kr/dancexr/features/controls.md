@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 컨트롤
 toc: true

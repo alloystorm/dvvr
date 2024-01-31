@@ -1,4 +1,5 @@
 ---
+locale: en-US
 layout: single
 title: Dressing System (Material Morph and XPS Optional Items)
 toc: true

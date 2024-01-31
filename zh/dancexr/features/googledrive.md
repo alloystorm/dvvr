@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: Google Drive 集成
 toc: true

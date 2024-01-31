@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: AI Powered Voice Chat
 toc: true

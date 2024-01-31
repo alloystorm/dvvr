@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: 顔の制御
 toc: true

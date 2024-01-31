@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: バリアントと入手可能性
 toc: true

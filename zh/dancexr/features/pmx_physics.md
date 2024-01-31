@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: PMX物理
 toc: true

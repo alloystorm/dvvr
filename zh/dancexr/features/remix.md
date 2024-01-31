@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: Remix Motion
 toc: true

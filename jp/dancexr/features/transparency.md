@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: 透明な素材
 toc: true

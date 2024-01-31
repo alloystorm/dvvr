@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: 機能リスト
 toc: true

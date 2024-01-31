@@ -1,4 +1,5 @@
 ---
+locale: en-US
 layout: single
 title: Support
 toc: true

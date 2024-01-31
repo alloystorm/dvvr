@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 道具
 toc: true

@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 故障排除
 toc: true

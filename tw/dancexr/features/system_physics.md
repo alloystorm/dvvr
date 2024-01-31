@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 系統物理學
 toc: true

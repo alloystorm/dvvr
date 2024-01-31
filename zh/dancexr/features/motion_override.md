@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 运动覆盖
 toc: true

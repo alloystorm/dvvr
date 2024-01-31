@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 하늘과 구름
 toc: true

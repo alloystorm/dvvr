@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 파티클 시스템
 toc: true

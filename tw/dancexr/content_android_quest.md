@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: Android和Quest / Pico的內容庫
 toc: true

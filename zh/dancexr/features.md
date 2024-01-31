@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 功能列表
 toc: true

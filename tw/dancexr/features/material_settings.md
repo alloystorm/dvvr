@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 材質設定
 toc: true

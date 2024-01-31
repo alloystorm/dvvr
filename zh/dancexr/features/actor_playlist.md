@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 演员播放列表
 toc: true

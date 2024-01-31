@@ -1,4 +1,5 @@
 ---
+locale: en-US
 layout: single
 title: Troubleshooting
 toc: true

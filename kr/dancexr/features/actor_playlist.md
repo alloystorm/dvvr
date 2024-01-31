@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 배우 재생목록
 toc: true

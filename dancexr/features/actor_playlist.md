@@ -1,4 +1,5 @@
 ---
+locale: en-US
 layout: single
 title: Actor Playlist
 toc: true

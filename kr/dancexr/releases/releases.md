@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 릴리스
 permalink: /kr/dancexr/releases/

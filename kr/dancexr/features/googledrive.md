@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: Google Drive 통합
 toc: true

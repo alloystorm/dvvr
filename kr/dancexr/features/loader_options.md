@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 로드 옵션
 toc: true

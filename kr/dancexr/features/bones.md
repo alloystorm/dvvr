@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 예시 뼈 구조
 toc: true

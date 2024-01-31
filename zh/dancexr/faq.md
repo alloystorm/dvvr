@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 常见问题
 toc: true

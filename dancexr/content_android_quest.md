@@ -1,4 +1,5 @@
 ---
+locale: en-US
 layout: single
 title: Content Library For Android & Quest / Pico
 toc: true

@@ -1,4 +1,5 @@
 ---
+locale: en-US
 layout: single
 title: Releases
 permalink: /dancexr/releases/

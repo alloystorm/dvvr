@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: XPS 物理效果
 toc: true

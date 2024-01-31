@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 穿衣系统（材质变形和XPS可选物品）
 toc: true

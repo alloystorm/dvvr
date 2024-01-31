@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 드레싱 시스템 (재료 변형 및 XPS 선택 항목)
 toc: true

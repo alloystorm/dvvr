@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: ZIP形式
 toc: true

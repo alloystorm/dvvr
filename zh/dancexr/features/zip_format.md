@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: ZIP格式
 toc: true

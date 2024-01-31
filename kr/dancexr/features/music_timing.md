@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 음악 타이밍
 toc: true

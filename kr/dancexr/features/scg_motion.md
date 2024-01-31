@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 카우걸 섹스 모션
 toc: true

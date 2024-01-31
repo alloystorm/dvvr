@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 투명 재료
 toc: true

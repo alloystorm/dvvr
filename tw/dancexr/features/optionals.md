@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 穿搭系統（材質變形和XPS可選項目）
 toc: true

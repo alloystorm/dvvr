@@ -2,7 +2,7 @@
 layout: single
 title: 發行
 permalink: /zh/dancexr/releases/
-locale: zh-TW
+locale: zh-CN
 toc: true
 sidebar:
   nav: "docs-zh"

@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 眨眼、呼吸和眼神交流
 toc: true

@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: AI 強化語音聊天
 toc: true

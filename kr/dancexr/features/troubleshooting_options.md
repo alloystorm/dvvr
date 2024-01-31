@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 문제 해결 옵션
 toc: true

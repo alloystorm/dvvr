@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: XPS 물리학
 toc: true

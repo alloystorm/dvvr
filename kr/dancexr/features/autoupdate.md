@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 자동 업데이트
 toc: true

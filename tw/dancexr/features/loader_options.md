@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 載入選項
 toc: true

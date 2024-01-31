@@ -1,4 +1,5 @@
 ---
+locale: en-US
 layout: single
 title: Remix Motion
 toc: true

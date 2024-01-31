@@ -1,4 +1,5 @@
 ---
+locale: en-US
 layout: single
 title: Auto Dance 2
 toc: true

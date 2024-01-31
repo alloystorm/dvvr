@@ -1,4 +1,5 @@
 ---
+locale: en-US
 layout: single
 title: Outfit Body Paint
 toc: true

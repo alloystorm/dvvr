@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 演員播放清單
 toc: true

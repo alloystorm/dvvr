@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 二次动作
 toc: true

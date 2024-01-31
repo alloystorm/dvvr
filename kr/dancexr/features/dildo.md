@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 딜도
 toc: true

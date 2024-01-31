@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: モーションの割り当て
 toc: true

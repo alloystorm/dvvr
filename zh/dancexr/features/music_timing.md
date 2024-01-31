@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 音乐节奏
 toc: true

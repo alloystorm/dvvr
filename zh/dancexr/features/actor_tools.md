@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 演员菜单和工具
 toc: true

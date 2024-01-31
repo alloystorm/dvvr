@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: Google Driveの統合
 toc: true

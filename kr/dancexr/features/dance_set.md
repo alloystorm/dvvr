@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 댄스 세트
 toc: true

@@ -1,4 +1,5 @@
 ---
+locale: en-US
 layout: single
 title: Dance Set
 toc: true

@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 재료 설정
 toc: true

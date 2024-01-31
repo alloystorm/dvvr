@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 시스템 물리학
 toc: true

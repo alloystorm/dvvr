@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: 瞬き、呼吸、目線
 toc: true

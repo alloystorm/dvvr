@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 人工智能语音聊天
 toc: true

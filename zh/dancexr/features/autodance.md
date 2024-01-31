@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 自动舞蹈
 toc: true

@@ -1,4 +1,5 @@
 ---
+locale: zh-CN
 layout: single
 title: 平台与版本差异
 toc: true

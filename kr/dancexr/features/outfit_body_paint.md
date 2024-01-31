@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 의상 및 바디 페인트
 toc: true

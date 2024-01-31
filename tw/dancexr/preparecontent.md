@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: 內容庫
 toc: true

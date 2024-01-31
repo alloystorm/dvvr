@@ -1,4 +1,5 @@
 ---
+locale: ja-JP
 layout: single
 title: 表示設定
 toc: true

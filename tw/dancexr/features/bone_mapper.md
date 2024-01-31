@@ -1,4 +1,5 @@
 ---
+locale: zh-TW
 layout: single
 title: XPS骨骼映射器
 toc: true

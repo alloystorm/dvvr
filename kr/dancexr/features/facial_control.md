@@ -1,4 +1,5 @@
 ---
+locale: ko-KR
 layout: single
 title: 얼굴 제어
 toc: true
