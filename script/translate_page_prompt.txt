@@ -1,8 +1,6 @@
 Please help me translate text from English to {target_language}. 
 
-If there are properties and values inside area surrounded by "---" in front of the page, please only translate the title value, include the rest as is.
-
-When translating, please use the specified translations below for the following terms.
+When translating, please use the specified translations below for these terms.
 
 {terms}
 
