@@ -1,66 +1,62 @@
----
 releases:
-  - title: Early Access
+  - title: リリース
     children:
-    - title: Release 2024.1
+    - title: リリース 2024.1
       url: /dancexr/releases/2024.1
-  - title: Current Release
+  - title: 現在のリリース
     children:
-    - title: Release 1.5.1 Dec 2023
+    - title: リリース 1.5.1 Dec 2023
       url: /dancexr/releases/1.5.1
-  - title: Older Releases
+  - title: 以前のリリース
     children:
-    - title: Release 1.5.0 Nov 2023
+    - title: リリース 1.5.0 Nov 2023
       url: /dancexr/releases/1.5.0
-    - title: Release 1.4.9 Oct 2023
+    - title: リリース 1.4.9 Oct 2023
       url: /dancexr/releases/1.4.9
-    - title: Release 1.4.8 Sep 2023
+    - title: リリース 1.4.8 Sep 2023
       url: /dancexr/releases/1.4.8
-    - title: Release 1.4.7 Aug 2023
+    - title: リリース 1.4.7 Aug 2023
       url: /dancexr/releases/1.4.7
-    - title: Release 1.4.6 July 2023
+    - title: リリース 1.4.6 July 2023
       url: /dancexr/releases/1.4.6
-    - title: Release 1.4.5 June 2023
+    - title: リリース 1.4.5 June 2023
       url: /dancexr/releases/1.4.5
-    - title: Release 1.4.4 May 2023
+    - title: リリース 1.4.4 May 2023
       url: /dancexr/releases/1.4.4
-    - title: Release 1.4.3 Apr 2023
+    - title: リリース 1.4.3 Apr 2023
       url: /dancexr/releases/1.4.3
-    - title: Release 1.4.2 Mar 2023
+    - title: リリース 1.4.2 Mar 2023
       url: /dancexr/releases/1.4.2
-    - title: Release 1.4.1 Feb 2023
+    - title: リリース 1.4.1 Feb 2023
       url: /dancexr/releases/1.4.1
-    - title: Release 1.4.0 Jan 2023
+    - title: リリース 1.4.0 Jan 2023
       url: /dancexr/releases/1.4.0
-  - title: About Releases
+  - title: リリースについて
     url: /dancexr/releases
 
 docs:
-  - title: Getting Started
+  - title: はじめに
     children:
-      - title: "Overview"
+      - title: "概要"
         url: /dancexr
-      - title: "Download"
+      - title: "ダウンロード"
         url: /dancexr/download
-      - title: "Content Library"
+      - title: "コンテンツライブラリ"
         url: /dancexr/preparecontent
-  - title: "New: AI Powered Chat"
+  - title: "新機能: AIチャット"
     url: /dancexr/ai_chat
-  - title: Feature List
+  - title: 機能一覧
     url: /dancexr/features
-  - title: Releases
+  - title: リリース
     url: /dancexr/releases/
     children:
-    - title: "Early Access: v2024.1"
+    - title: "アーリーアクセス: v2024.1"
       url: /dancexr/releases/2024.1
-    - title: "Latest: v1.5.1"
+    - title: "最新: v1.5.1"
       url: /dancexr/releases/1.5.1
-  - title: Variants & Availability
+  - title: バリアントと利用可能性
     url: /dancexr/versions
-  - title: FAQ
+  - title: よくある質問
     url: /dancexr/faq
-  - title: Troubleshooting
-    url: /dancexr/troubleshooting  
----
-[Eng](/dancexr/navigation) | [繁中](/tw/dancexr/navigation) | [日本語](/jp/dancexr/navigation) | [한국어](/kr/dancexr/navigation) | [简中](/zh/dancexr/navigation)
-    
+  - title: トラブルシューティング
+    url: /dancexr/troubleshooting

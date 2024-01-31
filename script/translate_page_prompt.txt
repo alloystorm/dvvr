@@ -4,6 +4,8 @@ When translating, please use the specified translations below for these terms.
 
 {terms}
 
+When it comes to properties, only translate the values for the "title" field.
+
 The text to tranlsate is as follows:
 
 {text}
