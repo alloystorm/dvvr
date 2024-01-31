@@ -192,8 +192,8 @@ def translate_page(english_content, lang, dst_file_path = ""):
 translate_file("", "index.md")
 # translate_file("", "README.md")
 # Iterate through all files in the source path
-# for subdir, _, files in os.walk(src_path):
-#     for file in files:
-#         translate_file(subdir, file)
+for subdir, _, files in os.walk(src_path):
+    for file in files:
+        translate_file(subdir, file)
 
-print(translate_page("---\ntitle: test page\nsidebar:\n  nav: \"releases\"\n---\n\nThis is a test. \nDanceXR Immersion: Animate any model, anywhere! ", "zh"))
+# print(translate_page("---\ntitle: test page\nsidebar:\n  nav: \"releases\"\n---\n\nThis is a test. \nDanceXR Immersion: Animate any model, anywhere! ", "zh"))
