@@ -3,6 +3,7 @@ import requests
 import json
 import subprocess
 import os
+import re
 
 def get_latest_commit_info(file_path):
     """Get the latest commit date for a given file."""
@@ -175,6 +176,24 @@ MAX_TOKENS = 1024
 CHARS_PER_TOKEN = 4
 MAX_CHARS = MAX_TOKENS * CHARS_PER_TOKEN
 
+def extract_section(content):
+    front_matter_pattern = re.compile(r'---.*?---', re.DOTALL)
+    front_matter_match = re.search(front_matter_pattern, content)
+    if front_matter_match:
+        front_matter = front_matter_match.group()
+        content = content.replace(front_matter, "")
+    else:
+        front_matter = ""
+    language_links_pattern = re.compile(r'\[.+\]\(.*\) \| \[.+\]\(.*\) \| \[.+\]\(.*\) \| \[.+\]\(.*\) \| \[.+\]\(.*\)\n')
+    links_match = re.search(language_links_pattern, content)
+    if links_match:
+        links = links_match.group()
+        content = content.replace(links_match.group(), "")
+    else:
+        links = ""
+    chunks = split_text(content, MAX_CHARS)
+    return front_matter, links, chunks
+
 def split_text(text, max_chars, separator="\n## ", prefix = "## "):
     # Split by section headers and ensure each chunk is under the maximum character limit
     paragraphs = text.split(separator)
@@ -240,7 +259,7 @@ def translate_file(subdir, file):
             english_content = f.read()
         
         # Split the content into chunks and translate each chunk
-        chunks = split_text(english_content, MAX_CHARS)
+        front_matter, links, chunks = extract_section(english_content)
         translated_chunks = []
         print(f"{len(chunks)} chunks to translate.")
 
@@ -254,6 +273,10 @@ def translate_file(subdir, file):
             
             # Combine the translated chunks and save the result
             translated_content = "\n## ".join(translated_chunks)
+            if (links):
+                translated_content = links + "\n" + translated_content
+            if (front_matter):
+                translated_content = front_matter + "\n" + translated_content
             print(f"Saving translated content to {dst_file_path}...")
             
             # Ensure the directory exists
