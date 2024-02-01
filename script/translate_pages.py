@@ -29,6 +29,7 @@ def is_file_newer_than_translation(file_path, prefix):
     if not commit_date_jp:
         return True
 
+    # print(f"Comparing {file_path} ({commit_date_original}) to {jp_file_path} ({commit_date_jp}) {commit_date_original > commit_date_jp}")
     # Return True if the original file's latest commit is more recent than the Japanese version.
     return commit_date_original > commit_date_jp
 

@@ -9,15 +9,14 @@ sidebar:
 ---
 [Eng](/dancexr/releases/releases) | [繁中](/tw/dancexr/releases/releases) | [日本語](/jp/dancexr/releases/releases) | [한국어](/kr/dancexr/releases/releases) | [简中](/zh/dancexr/releases/releases)
 
-
 {% include nav_list nav="releases-zh" %}
 
-## 尋找更舊的版本？
+## 寻找更早的版本？
 
-[在 Patreon 上查找過去的版本](https://www.patreon.com/dvvr)
+[在Patreon上找到以前的版本](https://www.patreon.com/dvvr)
 
-## 發佈時間表
+## 发布计划
 
-我們的開發團隊遵循每月發布週期，我們的目標是每月發布新的更新。
+我们的开发团队遵循每月发布更新的周期，旨在每个月发布新的更新。
 
-這些更新最初在月初提供給我們的 Patreon 支持者，隨後在 15 日左右在 Steam 測試版分支上發布。 最後，更新將在月底前在 Steam 主分支和所有其他平台推出。
+这些更新最初在月初首先提供给我们的Patreon支持者，然后在大约15号在Steam测试分支上发布。最后，在月底之前，这些更新将在Steam主分支和所有其他平台上推出。
