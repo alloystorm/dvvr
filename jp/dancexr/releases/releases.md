@@ -9,7 +9,7 @@ sidebar:
 ---
 [Eng](/dancexr/releases/releases) | [繁中](/tw/dancexr/releases/releases) | [日本語](/jp/dancexr/releases/releases) | [한국어](/kr/dancexr/releases/releases) | [简中](/zh/dancexr/releases/releases)
 
-{% リリースを含む nav_list nav="releases" %}
+{% include nav_list nav="releases-jp" %}
 
 ## もっと古いリリースをお探しですか？
 
