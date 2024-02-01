@@ -5,66 +5,60 @@ Animate any model, anywhere
 ## DanceXR
 
 ### Description
-DanceXR is a character model viewer and motion player. It supports PMX(MMD) & XNALara/XPS models and VMD motion format. Unlike other MMD players DanceXR allows almost any motion to play on any model without any manual tweaking or bone adjustments. 
+Immerse yourself in the world of DanceXR, an unparalleled character model viewer and motion player crafted to bring your favorite characters to vivid life with ease.
 
-It doesn't matter whether the model has IK bones or is it in T pose or A pose, the model & motion are adapted automatically on the fly by our unique motion system to ensure the maximum compatibility.
+DanceXR empowers you to animate models in PMX, XNALara/XPS, VMD, and BVH formats with unmatched versatility. It stands as the market's most user-friendly character animation tool, letting you animate any model, anywhere, without the fuss.
 
-There are also tons of built-in features to enrich your experience with your favourite characters models. 
-* The characters breath, blink eyes naturally and can even make eye contact with you. 
-* Multiple procedural (programmatically generated) motions for you to use on your models. Including catwalk, dances and a few other motions.
-* "Outfit" feature to modify the look of your model, this can create effects like stocking, latex, fishnet and so on.
-* "Motion Override" to modify motion on the fly to change arm and leg pose and incorporate accessories like hoverbike into the motion flawlessly.
-Just to name a few. More features are being developed added in each monthly update.  
+Forget the limitations of T-pose or A-pose, the absence of certain bones, or improper scaling. DanceXR's intelligent system automatically adjusts everything for you, ensuring seamless integration and animation.
 
-DanceXR is previously known as Dance Viewer VR (DVVR) and has been supported by our lovely community on Patreon for years. We are now bringing it to Steam to introduce it to wider audiences. To learn more about the project follow the link down below to our website and YouTube channel. 
+But DanceXR offers more than mere motion playback. Its comprehensive suite of built-in tools and sophisticated settings menus allows you to customize and refine every aspect of your experience. Whether tweaking motion playback or adjusting materials for the perfect visual presentation, the possibilities are limitless.
 
-Please note that we do not provide any content that we don't own within the application. By downloading this app you agree that you take full responsibility for the content you use with it and all legal & copyright requirements are satisfied. The developer of DanceXR will not be responsibility for user generated content.
+Available across a wide range of platforms, from mobile to high-end PC VR, DanceXR ensures you can enjoy your creations wherever you are.
+
+Visit our website and YouTube channel for more insights and tutorials.
 
 ### Short Description
-DanceXR is a character model viewer and motion player that supports PMX and XPS model formats, and VMD & BVH motion files.
+DanceXR: Animate any character model effortlessly, anywhere. The definitive tool for creating MMD music videos and immersive VR experiences.
 
 
 ## DanceXR Pure
 
 ### Description
-DanceXR Pure is an universal character model viewer and motion player that supports PMX(MMD) / XNALara (XPS) models and VMD / BVH motion formats. This Pure edition packs advanced features that focus on dance motion playback and VR experiences. 
+Immerse yourself in the world of DanceXR, an unparalleled character model viewer and motion player crafted to bring your favorite characters to vivid life with ease.
 
-Unlike other MMD players DanceXR Pure allows almost any motion to play on any model without any manual tweaking or bone adjustments. It doesn't matter whether the model has IK bones or which standard pose it uses, models & motions are adapted automatically on the fly by our unique motion system to ensure the maximum compatibility.
+DanceXR empowers you to animate models in PMX, XNALara/XPS, VMD, and BVH formats with unmatched versatility. It stands as the market's most user-friendly character animation tool, letting you animate any model, anywhere, without the fuss.
 
-There are also tons of built-in features to enrich your experience and make your favourite characters more life-like. 
-* The characters breath, blink eyes naturally and can make eye contact with you. 
-* Included multiple highly customizable procedural (programmatically generated) motions for you to play with. Including catwalk and 2 different dance moves.
-* Sophisticated shaders and material settings for you to fine tune the look of your model. Out of the box you get subsurface scattering enabled and anisotropy capable shaders to render natural looks of skin and hair. You can also change materials to totally different colors, switch between transparent and opaque modes and even use the glass mode that has light refraction.
-* "Outfit" feature to modify the look of your model, this can create effects like stocking, latex, fishnet and so on.
-* "Motion Override" to modify motion on the fly to change arm and leg pose and incorporate accessories like hoverbike into the motion flawlessly.
-Just to name a few. More features are being developed added in each monthly update.  
+Forget the limitations of T-pose or A-pose, the absence of certain bones, or improper scaling. DanceXR's intelligent system automatically adjusts everything for you, ensuring seamless integration and animation.
 
-Prior to Steam release we have been supported by our lovely community on Patreon for years. To learn more about the past releases and keep an eye on the future developments follow the link down below to our website and YouTube channel. 
+But DanceXR offers more than mere motion playback. Its comprehensive suite of built-in tools and sophisticated settings menus allows you to customize and refine every aspect of your experience. Whether tweaking motion playback or adjusting materials for the perfect visual presentation, the possibilities are limitless.
 
-Please note that we do not provide any content that we don't own within the application. By downloading this app you agree that you take full responsibility for the content you use with it and all legal & copyright requirements are satisfied. The developer of DanceXR will not be responsibility for user generated content.
+The Pure edition comes with all the Pro features except for the NSFW ones, and it includes the Raytracing version at no extra cost.
+
+Visit our website and YouTube channel for more insights and tutorials.
 
 ### Short Description
-DanceXR Pure is an universal character model viewer and motion player that supports PMX(MMD) / XNALara (XPS) models and VMD / BVH motion formats.
+DanceXR: Animate any character model effortlessly, anywhere. The definitive tool for creating MMD music videos and immersive VR experiences.
 
 ## DanceXR Raytracing
 
 ### Description
-The Raytracing version comes with raytracd effects like
-* Raytraced reflection
-* Raytraced shadow
-* Raytraced ambient occulusion
-* Raytraced global illumination
+Experience the pinnacle of visual fidelity with DanceXR Raytracing, a specialized edition of the acclaimed character model viewer and motion player. Designed for enthusiasts who demand the ultimate in graphics quality, this version introduces real-time raytracing effects, elevating your favorite characters and scenes to breathtaking levels of realism.
 
-All the effects are configurable in graphics settings. It also supports both DLSS and FSR to boost performance. 
+DanceXR Raytracing enriches your animations with dynamic lighting, accurate reflections, soft shadows, and enhanced ambient occlusion, showcasing your models in stunningly lifelike environments. This graphical leap is powered by cutting-edge technology, requiring a high-end PC setup to unlock its full potential.
 
-The Raytracing version is a separate binary than the main app. You can run both versions independently and set them to use the same content library.
+While DanceXR Raytracing offers unmatched visual splendor, it is tailored for systems equipped with DirectX 12 and DirectX Raytracing capabilities, with nVidia RTX series cards recommended for the best experience. Be mindful that this version operates at a slower pace compared to the standard edition, a trade-off for its advanced raytraced visuals.
 
-An activation is required to unlock the pro features just like the standard version. The license can't be used interchangably between Raytracing and standard versions.  
+Despite these demands, DanceXR Raytracing remains user-friendly, maintaining the core application's ease of use. Animate models in PMX, XNALara/XPS, VMD, and BVH formats with the added dimension of real-time raytracing, bringing an unparalleled depth and realism to your creations.
 
-Minimum requirement is graphics cards that support DirectX 12 and DirectX Raytracing. nVidia RTX series is recommended.
-
-Performance warning: 
-Realtime raytracing is a lot more demanding than the standard version. Expect FPS to drop by half in desktop mode comparing to standard. VR mode is supported but is currently experimental, you will need to turn on DLSS for a reasonable FPS even if you have a higher end card.
+For those looking to push the boundaries of character animation and visual quality, DanceXR Raytracing is your gateway to a new era of immersive experiences. Explore more on our website and YouTube channel, where we share insights, tutorials, and showcase the stunning capabilities of raytraced animations.
 
 ### Short Description
-Raytracing version comes with realtime raytracing effects that provides the best image quality possible.
+DanceXR Raytracing: Elevate your animations with real-time raytracing effects for the ultimate visual realism. Designed for high-end PCs, it's the premier choice for creating and enjoying next-level MMD music videos and VR experiences.
+
+## DanceXR LW
+
+### Description
+The LW version uses a simpler but more performant render pipeline, which provides double the frame rate comparing to HD, while maintaining similar grahpics quality. However it will be missing a few advanced graphics features HD has. Like volumetric fog, screen space shadows, global illumination and water system.
+
+### Short Description
+A more performant version of DanceXR, allowing you to enjoy butter smooth motion playback on low end devices.
