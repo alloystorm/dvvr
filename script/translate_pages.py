@@ -52,7 +52,7 @@ def ensure_dir(file_path):
         os.makedirs(directory)
 
 # Maximum tokens for GPT-3.5-turbo
-MAX_TOKENS = 1024
+MAX_TOKENS = 8192
 # Roughly estimating 4 characters per token as a heuristic
 CHARS_PER_TOKEN = 4
 MAX_CHARS = MAX_TOKENS * CHARS_PER_TOKEN
