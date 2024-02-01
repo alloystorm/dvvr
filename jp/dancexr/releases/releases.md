@@ -1,5 +1,5 @@
 ---
-locale: en-US
+locale: ja-JP
 layout: single
 title: リリース
 permalink: /jp/dancexr/releases/
