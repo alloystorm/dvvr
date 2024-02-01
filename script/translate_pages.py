@@ -2,6 +2,7 @@ import subprocess
 import os
 import re
 from utils import translate
+from utils import correct
 
 def get_latest_commit_info(file_path):
     """Get the latest commit date for a given file."""
@@ -136,27 +137,36 @@ def translate_file(subdir, file):
         # Read the English content
         with open(file_path, 'r', encoding='utf-8') as f:
             english_content = f.read()
-        translate_page(english_content, lang, dst_file_path)
+        corrected = translate_page(english_content, lang, dst_file_path)
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write(corrected)
         
 def translate_page(english_content, lang, dst_file_path = ""):
     # Split the content into chunks and translate each chunk
     front_matter, links, chunks = extract_section(english_content)
     translated_chunks = []
+    corrected_chunks = []
     print(f"{len(chunks)} chunks to translate.")
 
     try:
         index = 0
         for chunk in chunks:
             index += 1
+            print(f"Correcting grammar for chunk {index}/{len(chunks)} size: {len(chunk)}...")
+            chunk = correct(chunk)
+            corrected_chunks.append(chunk)
             print(f"Translating chunk {index}/{len(chunks)} size: {len(chunk)}...")
             translated_chunks.append(translate(chunk, lang))
         
         # Combine the translated chunks and save the result
         translated_content = "\n## ".join(translated_chunks)
+        corrected_content = "\n## ".join(corrected_chunks)
         if (links):
             translated_content = links + "\n" + translated_content
+            corrected_content = links + "\n" + corrected_content
         # print(f"Translated content: {translated_content}")
         if (front_matter):
+            corrected_content = front_matter + "\n" + corrected_content
             nav_pattern = re.compile(r'nav: ".*"')
             nav_line = re.search(nav_pattern, front_matter)
             if nav_line:
@@ -174,8 +184,9 @@ def translate_page(english_content, lang, dst_file_path = ""):
                 # print("[title]" + line + " " + title + " " + translated_title)
                 front_matter = front_matter.replace(title, translated_title)
                 # print(f"[{front_matter}]")
+            front_matter = front_matter.replace("permalink: /dancexr/", f"permalink: /{lang}/dancexr/")
             translated_content = front_matter + "\n" + translated_content
-
+        
         if dst_file_path:
             print(f"Saving translated content to {dst_file_path}...")
             # Ensure the directory exists
@@ -185,9 +196,11 @@ def translate_page(english_content, lang, dst_file_path = ""):
                 f.write(translated_content)
         else:
             print(f"Translated content: \n{translated_content}")
+        return corrected_content
     except Exception as e:
         print(e)
         print(f"Skipping {dst_file_path} due to error...")
+        return english_content
 
 translate_file("", "index.md")
 # translate_file("", "README.md")
