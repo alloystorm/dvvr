@@ -147,12 +147,12 @@ def translate_file(subdir, file):
 def translate_page(english_content, target_files):
     # Split the content into chunks and translate each chunk
     front_matter, links, chunks = extract_section(english_content)
-    translated_chunks = []
     print(f"{len(chunks)} chunks to translate.")
 
     try:
         index = 0
         for lang, dst_file_path in target_files:
+            translated_chunks = []
             for chunk in chunks:
                 print(f"Translating chunk {index}/{len(chunks)} lang: {lang}...")
                 translated_chunks.append(translate(chunk, lang))
@@ -163,23 +163,24 @@ def translate_page(english_content, target_files):
             # print(f"Translated content: {translated_content}")
             if (front_matter):
                 nav_pattern = re.compile(r'nav: ".*"')
-                nav_line = re.search(nav_pattern, front_matter)
+                fm = front_matter
+                nav_line = re.search(nav_pattern, fm)
                 if nav_line:
                     line = nav_line.group()
                     nav = line.replace("nav: ", "").replace('"', "").strip()
                     # print("[nav]" + line + " " + nav)
-                    front_matter = front_matter.replace(line, line.replace(nav, nav + "-" + lang))
-                    # print(f"[{front_matter}]")
+                    fm = fm.replace(line, line.replace(nav, nav + "-" + lang))
+                    # print(f"[{fm}]")
                 title_pattern = re.compile(r'title: .*')
-                title_line = re.search(title_pattern, front_matter)
+                title_line = re.search(title_pattern, fm)
                 if title_line:
                     line = title_line.group()
                     title = line.replace("title:", "").strip()
                     translated_title = translate(title, lang)
                     # print("[title]" + line + " " + title + " " + translated_title)
-                    front_matter = front_matter.replace(title, translated_title)
-                    # print(f"[{front_matter}]")
-                front_matter = front_matter.replace("permalink: /dancexr/", f"permalink: /{lang}/dancexr/")
+                    fm = fm.replace(title, translated_title)
+                    # print(f"[{fm}]")
+                fm = fm.replace("permalink: /dancexr/", f"permalink: /{lang}/dancexr/")
                 locale_pattern = re.compile(r'locale: .*')
                 locale = "en-US"
                 if lang == 'zh':
@@ -190,14 +191,14 @@ def translate_page(english_content, target_files):
                     locale = "ja-JP"
                 elif lang == 'kr':
                     locale = "ko-KR"
-                existing_locale_match = re.search(locale_pattern, front_matter)
+                existing_locale_match = re.search(locale_pattern, fm)
                 if existing_locale_match:
                     # Replace the existing locale line with the new line
-                    front_matter = front_matter.replace(existing_locale_match.group(), f'locale: {locale}')
+                    fm = fm.replace(existing_locale_match.group(), f'locale: {locale}')
                 else:
                     # Insert the locale line at the beginning of the front matter
-                    front_matter = f'---\nlocale: {locale}' + front_matter[3:]
-                translated_content = front_matter + "\n" + translated_content
+                    fm = f'---\nlocale: {locale}' + fm[3:]
+                translated_content = fm + "\n" + translated_content
             
             if dst_file_path:
                 print(f"Saving translated content to {dst_file_path}...")

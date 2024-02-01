@@ -1,14 +1,16 @@
 releases:
   - title: 發布
     children:
+    - title: 版本 2024.2
+      url: /dancexr/releases/2024.2
+  - title: 當前版本
+    children:
     - title: 版本 2024.1
       url: /dancexr/releases/2024.1
-  - title: 當前發布
+  - title: 較舊版本
     children:
     - title: 版本 1.5.1 2023年12月
       url: /dancexr/releases/1.5.1
-  - title: 較舊的發布
-    children:
     - title: 版本 1.5.0 2023年11月
       url: /dancexr/releases/1.5.0
     - title: 版本 1.4.9 2023年10月
@@ -31,7 +33,7 @@ releases:
       url: /dancexr/releases/1.4.1
     - title: 版本 1.4.0 2023年1月
       url: /dancexr/releases/1.4.0
-  - title: 關於發布
+  - title: 關於版本
     url: /dancexr/releases
 
 docs:
@@ -47,13 +49,13 @@ docs:
     url: /dancexr/ai_chat
   - title: 功能列表
     url: /dancexr/features
-  - title: 發布
+  - title: 版本
     url: /dancexr/releases/
     children:
-    - title: "早期訪問：v2024.1"
+    - title: "早期訪問：v2024.2"
+      url: /dancexr/releases/2024.2
+    - title: "最新版本：v2024.1"
       url: /dancexr/releases/2024.1
-    - title: "最新版本：v1.5.1"
-      url: /dancexr/releases/1.5.1
   - title: 變體與可用性
     url: /dancexr/versions
   - title: 常見問題
