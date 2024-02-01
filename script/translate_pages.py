@@ -29,7 +29,8 @@ def is_file_newer_than_translation(file_path, prefix):
     if not commit_date_jp:
         return True
 
-    # print(f"Comparing {file_path} ({commit_date_original}) to {jp_file_path} ({commit_date_jp}) {commit_date_original > commit_date_jp}")
+    if commit_date_original > commit_date_jp:
+        print(f"Comparing {file_path} ({commit_date_original}) to {jp_file_path} ({commit_date_jp}) {commit_date_original > commit_date_jp}")
     # Return True if the original file's latest commit is more recent than the Japanese version.
     return commit_date_original > commit_date_jp
 
@@ -121,6 +122,7 @@ def translate_file(subdir, file):
     file_path = os.path.join(subdir, file)
     
     # Translate and save in corresponding directories for each language
+    target_files = []
     for lang, dst_path in dst_paths.items():
         # Construct the destination file path
         dst_file_path = os.path.join(dst_path, os.path.relpath(file_path, src_path))
@@ -134,15 +136,17 @@ def translate_file(subdir, file):
             continue
         
         print(dst_file_path)
-
+        target_files.append((lang, dst_file_path))
+    
+    if target_files:
         # Read the English content
         with open(file_path, 'r', encoding='utf-8') as f:
             english_content = f.read()
-        corrected = translate_page(english_content, lang, dst_file_path)
+        corrected = translate_page(english_content, target_files)
         with open(file_path, 'w', encoding='utf-8') as f:
             f.write(corrected)
         
-def translate_page(english_content, lang, dst_file_path = ""):
+def translate_page(english_content, target_files):
     # Split the content into chunks and translate each chunk
     front_matter, links, chunks = extract_section(english_content)
     translated_chunks = []
@@ -156,75 +160,77 @@ def translate_page(english_content, lang, dst_file_path = ""):
             print(f"Correcting grammar for chunk {index}/{len(chunks)} size: {len(chunk)}...")
             chunk = correct(chunk)
             corrected_chunks.append(chunk)
-            print(f"Translating chunk {index}/{len(chunks)} size: {len(chunk)}...")
-            translated_chunks.append(translate(chunk, lang))
-        
-        # Combine the translated chunks and save the result
-        translated_content = "\n## ".join(translated_chunks)
-        corrected_content = "\n## ".join(corrected_chunks)
-        if (links):
-            translated_content = links + "\n" + translated_content
-            corrected_content = links + "\n" + corrected_content
-        # print(f"Translated content: {translated_content}")
-        if (front_matter):
-            corrected_content = front_matter + "\n" + corrected_content
-            nav_pattern = re.compile(r'nav: ".*"')
-            nav_line = re.search(nav_pattern, front_matter)
-            if nav_line:
-                line = nav_line.group()
-                nav = line.replace("nav: ", "").replace('"', "").strip()
-                # print("[nav]" + line + " " + nav)
-                front_matter = front_matter.replace(line, line.replace(nav, nav + "-" + lang))
-                # print(f"[{front_matter}]")
-            title_pattern = re.compile(r'title: .*')
-            title_line = re.search(title_pattern, front_matter)
-            if title_line:
-                line = title_line.group()
-                title = line.replace("title:", "").strip()
-                translated_title = translate(title, lang)
-                # print("[title]" + line + " " + title + " " + translated_title)
-                front_matter = front_matter.replace(title, translated_title)
-                # print(f"[{front_matter}]")
-            front_matter = front_matter.replace("permalink: /dancexr/", f"permalink: /{lang}/dancexr/")
-            locale_pattern = re.compile(r'locale: .*')
-            locale = "en-US"
-            if lang == 'zh':
-                locale = "zh-CN"
-            elif lang == 'tw':
-                locale = "zh-TW"
-            elif lang == 'jp':
-                locale = "ja-JP"
-            elif lang == 'kr':
-                locale = "ko-KR"
-            existing_locale_match = re.search(locale_pattern, front_matter)
-            if existing_locale_match:
-                # Replace the existing locale line with the new line
-                front_matter = front_matter.replace(existing_locale_match.group(), f'locale: {locale}')
+
+        for lang, dst_file_path in target_files:
+            for chunk in chunks:
+                print(f"Translating chunk {index}/{len(chunks)} lang: {lang}...")
+                translated_chunks.append(translate(chunk, lang))
+            # Combine the translated chunks and save the result
+            translated_content = "\n## ".join(translated_chunks)
+            corrected_content = "\n## ".join(corrected_chunks)
+            if (links):
+                translated_content = links + "\n" + translated_content
+                corrected_content = links + "\n" + corrected_content
+            # print(f"Translated content: {translated_content}")
+            if (front_matter):
+                corrected_content = front_matter + "\n" + corrected_content
+                nav_pattern = re.compile(r'nav: ".*"')
+                nav_line = re.search(nav_pattern, front_matter)
+                if nav_line:
+                    line = nav_line.group()
+                    nav = line.replace("nav: ", "").replace('"', "").strip()
+                    # print("[nav]" + line + " " + nav)
+                    front_matter = front_matter.replace(line, line.replace(nav, nav + "-" + lang))
+                    # print(f"[{front_matter}]")
+                title_pattern = re.compile(r'title: .*')
+                title_line = re.search(title_pattern, front_matter)
+                if title_line:
+                    line = title_line.group()
+                    title = line.replace("title:", "").strip()
+                    translated_title = translate(title, lang)
+                    # print("[title]" + line + " " + title + " " + translated_title)
+                    front_matter = front_matter.replace(title, translated_title)
+                    # print(f"[{front_matter}]")
+                front_matter = front_matter.replace("permalink: /dancexr/", f"permalink: /{lang}/dancexr/")
+                locale_pattern = re.compile(r'locale: .*')
+                locale = "en-US"
+                if lang == 'zh':
+                    locale = "zh-CN"
+                elif lang == 'tw':
+                    locale = "zh-TW"
+                elif lang == 'jp':
+                    locale = "ja-JP"
+                elif lang == 'kr':
+                    locale = "ko-KR"
+                existing_locale_match = re.search(locale_pattern, front_matter)
+                if existing_locale_match:
+                    # Replace the existing locale line with the new line
+                    front_matter = front_matter.replace(existing_locale_match.group(), f'locale: {locale}')
+                else:
+                    # Insert the locale line at the beginning of the front matter
+                    front_matter = f'---\nlocale: {locale}' + front_matter[3:]
+                translated_content = front_matter + "\n" + translated_content
+            
+            if dst_file_path:
+                print(f"Saving translated content to {dst_file_path}...")
+                # Ensure the directory exists
+                ensure_dir(dst_file_path)
+                # Save the translated content
+                with open(dst_file_path, 'w', encoding='utf-8') as f:
+                    f.write(translated_content)
             else:
-                # Insert the locale line at the beginning of the front matter
-                front_matter = f'---\nlocale: {locale}' + front_matter[3:]
-            translated_content = front_matter + "\n" + translated_content
-        
-        if dst_file_path:
-            print(f"Saving translated content to {dst_file_path}...")
-            # Ensure the directory exists
-            ensure_dir(dst_file_path)
-            # Save the translated content
-            with open(dst_file_path, 'w', encoding='utf-8') as f:
-                f.write(translated_content)
-        else:
-            print(f"Translated content: \n{translated_content}")
-        return corrected_content
+                print(f"Translated content: \n{translated_content}")
+            return corrected_content
     except Exception as e:
-        print(e)
-        print(f"Skipping {dst_file_path} due to error...")
+        print(f"error: {e}")
+        print(f"Skipping {target_files} due to error...")
         return english_content
 
 translate_file("", "index.md")
 # translate_file("", "README.md")
 # Iterate through all files in the source path
-for subdir, _, files in os.walk(src_path):
-    for file in files:
-        translate_file(subdir, file)
+# for subdir, _, files in os.walk(src_path):
+#     for file in files:
+#         translate_file(subdir, file)
 
-# print(translate_page("---\ntitle: test page\nsidebar:\n  nav: \"releases\"\n---\n\nThis is a test. \nDanceXR Immersion: Animate any model, anywhere! ", "zh"))
+print(translate_page("---\ntitle: test page\nsidebar:\n  nav: \"releases\"\n---\n\nThis is a test. \nDanceXR Immersion: Animate any model, anywhere! ", [("zh", None)]))
