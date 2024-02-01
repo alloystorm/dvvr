@@ -101,6 +101,8 @@ lang_names = {
     'kr': 'Korean'
 }
 
+gpt_model = "gpt-3.5-turbo-1106"
+
 # Function to call OpenAI API for translation
 def translate(text, target_language):
     url = "https://api.openai.com/v1/chat/completions"
@@ -121,7 +123,7 @@ def translate(text, target_language):
     # print(prompt)
 
     data = {
-        "model": "gpt-4-0125-preview",
+        "model": gpt_model,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0
     }
@@ -142,7 +144,7 @@ def correct(text):
             template = f.read()
     prompt = template.format(text=text)
     data = {
-        "model": "gpt-4-0125-preview",
+        "model": gpt_model,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0
     }
