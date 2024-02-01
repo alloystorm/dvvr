@@ -185,6 +185,23 @@ def translate_page(english_content, lang, dst_file_path = ""):
                 front_matter = front_matter.replace(title, translated_title)
                 # print(f"[{front_matter}]")
             front_matter = front_matter.replace("permalink: /dancexr/", f"permalink: /{lang}/dancexr/")
+            locale_pattern = re.compile(r'locale: .*')
+            locale = "en-US"
+            if lang == 'zh':
+                locale = "zh-CN"
+            elif lang == 'tw':
+                locale = "zh-TW"
+            elif lang == 'jp':
+                locale = "ja-JP"
+            elif lang == 'kr':
+                locale = "ko-KR"
+            existing_locale_match = re.search(locale_pattern, front_matter)
+            if existing_locale_match:
+                # Replace the existing locale line with the new line
+                front_matter = front_matter.replace(existing_locale_match.group(), f'locale: {locale}')
+            else:
+                # Insert the locale line at the beginning of the front matter
+                front_matter = f'---\nlocale: {locale}' + front_matter[3:]
             translated_content = front_matter + "\n" + translated_content
         
         if dst_file_path:

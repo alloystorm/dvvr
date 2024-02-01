@@ -114,7 +114,7 @@ def translate(text, target_language):
 
     terms = '\n'.join([f"{i+1}. {key}: {value[target_language]}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
     prompt = template.format(
-        target_language=target_language, 
+        target_language=lang_names[target_language], 
         terms=terms,
         text=text)
     
