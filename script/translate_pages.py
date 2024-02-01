@@ -220,7 +220,7 @@ def translate_page(english_content, target_files):
                     f.write(translated_content)
             else:
                 print(f"Translated content: \n{translated_content}")
-            return corrected_content
+        return corrected_content
     except Exception as e:
         print(f"error: {e}")
         print(f"Skipping {target_files} due to error...")
@@ -229,8 +229,8 @@ def translate_page(english_content, target_files):
 translate_file("", "index.md")
 # translate_file("", "README.md")
 # Iterate through all files in the source path
-# for subdir, _, files in os.walk(src_path):
-#     for file in files:
-#         translate_file(subdir, file)
+for subdir, _, files in os.walk(src_path):
+    for file in files:
+        translate_file(subdir, file)
 
-print(translate_page("---\ntitle: test page\nsidebar:\n  nav: \"releases\"\n---\n\nThis is a test. \nDanceXR Immersion: Animate any model, anywhere! ", [("zh", None)]))
+# print(translate_page("---\ntitle: test page\nsidebar:\n  nav: \"releases\"\n---\n\nThis is a test. \nDanceXR Immersion: Animate any model, anywhere! ", [("zh", None)]))
