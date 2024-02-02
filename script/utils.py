@@ -14,12 +14,18 @@ api_key = get_api_key_from_file(api_key_path)
 # print(api_key)
 
 translation = {
-     'alpha': {
+    'alpha': {
         'zh': '透明度',
         'tw': '透明度',
         'jp': 'アルファ',
         'kr': '알파'
-     },
+    },
+    'stage': {
+        'zh': '舞台',
+        'tw': '舞台',
+        'jp': 'ステージ',
+        'kr': '무대'
+    },
     'scene bundle': {
         'zh': '场景包',
         'tw': '場景包',
