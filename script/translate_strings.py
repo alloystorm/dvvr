@@ -24,8 +24,9 @@ api_key = get_api_key_from_file(api_key_path)
 
 # Define directories
 ROOT_DIR = "i18n"  # Root directory of your resources
+ROOT_DIR = "../android/mobile/DanceXR/launcher/src/main/res"  # Root directory of your resources
 DEFAULT_LANG_DIR = os.path.join(ROOT_DIR, "values")
-LANG_DIRS = [os.path.join(ROOT_DIR, d) for d in os.listdir(ROOT_DIR) if d.startswith("values-")]
+LANG_DIRS = [os.path.join(ROOT_DIR, d) for d in ['values-ja', 'values-ko-rKR', 'values-zh-rCN', 'values-zh-rTW']]
 STRINGS_FILE = "strings.xml"
 
 # Parse the default (English) strings.xml
@@ -41,6 +42,7 @@ for lang_dir in LANG_DIRS:
     # Parse the strings.xml for the current language
     lang_file = os.path.join(lang_dir, STRINGS_FILE)
     if not os.path.exists(lang_file):
+        print(f"Skipping {lang_file} due to missing file...")
         continue
     lang_tree = ET.parse(lang_file)
     lang_root = lang_tree.getroot()
@@ -58,6 +60,7 @@ for lang_dir in LANG_DIRS:
 
     # If there are missing entries, generate a file and wait for translation
     if missing_entries:
+        print(f"Found {len(missing_entries)} missing entries in {lang_file}")
         # with open(os.path.join(lang_dir, "missing_strings.txt"), "w") as f:
         chunks = []
         #missing_strings = "<resources>\n"
@@ -82,7 +85,7 @@ for lang_dir in LANG_DIRS:
         for missing_strings in chunks:
             index += 1
             try:
-                print(f"Translating chunk {index}...")
+                print(f"Translating chunk {index}... \n" + missing_strings)
                 # Here, we would wait for translation. In this demo, let's mock the translation.
                 # translated_strings = {key: f"Translated {value}" for key, value in missing_entries.items()}
                 translated_strings = translate(f"<resources>\n{missing_strings}</resources>", lang)
@@ -96,6 +99,6 @@ for lang_dir in LANG_DIRS:
                 #     elem.text = value
                 tree.write(lang_file, xml_declaration=True, encoding="utf-8")
             except Exception as e:
-                print(e)
+                print("error: " + e)
                 print(f"Skipping {lang_file} due to error...")
 print("Process completed!")

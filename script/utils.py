@@ -102,9 +102,13 @@ translation = {
 
 lang_names = {
     'zh': 'Simplified Chinese',
+    'zh-rCN': 'Simplified Chinese',
     'tw': 'Traditional Chinese',
+    'zh-rTW': 'Traditional Chinese',
     'jp': 'Japanese',
-    'kr': 'Korean'
+    'ja': 'Japanese',
+    'kr': 'Korean',
+    'ko-rKR': 'Korean',
 }
 
 gpt_model = "gpt-3.5-turbo-1106"
