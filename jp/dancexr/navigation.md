@@ -1,14 +1,16 @@
 releases:
   - title: アーリーアクセス
     children:
+    - title: リリース2024.3
+      url: /dancexr/releases/2024.3
+  - title: 現行リリース
+    children:
     - title: リリース2024.2
       url: /dancexr/releases/2024.2
-  - title: 現行リリース
+  - title: 旧バージョン
     children:
     - title: リリース2024.1
       url: /dancexr/releases/2024.1
-  - title: 旧バージョン
-    children:
     - title: リリース1.5.1 2023年12月
       url: /dancexr/releases/1.5.1
     - title: リリース1.5.0 2023年11月

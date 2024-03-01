@@ -1,14 +1,16 @@
 releases:
   - title: 早期访问
     children:
+    - title: 发布2024.3
+      url: /dancexr/releases/2024.3
+  - title: 当前版本
+    children:
     - title: 发布2024.2
       url: /dancexr/releases/2024.2
-  - title: 当前版本
+  - title: 旧版本
     children:
     - title: 发布2024.1
       url: /dancexr/releases/2024.1
-  - title: 旧版本
-    children:
     - title: 发布1.5.1 2023年12月
       url: /dancexr/releases/1.5.1
     - title: 发布1.5.0 2023年11月

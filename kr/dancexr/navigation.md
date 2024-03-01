@@ -1,14 +1,16 @@
 releases:
   - title: 얼리 액세스
     children:
+    - title: 출시 2024.3
+      url: /dancexr/releases/2024.3
+  - title: 현재 출시
+    children:
     - title: 출시 2024.2
       url: /dancexr/releases/2024.2
-  - title: 현재 출시
+  - title: 이전 출시
     children:
     - title: 출시 2024.1
       url: /dancexr/releases/2024.1
-  - title: 이전 출시
-    children:
     - title: 출시 1.5.1 2023년 12월
       url: /dancexr/releases/1.5.1
     - title: 출시 1.5.0 2023년 11월
