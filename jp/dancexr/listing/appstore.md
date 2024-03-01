@@ -1,4 +1,4 @@
-[日本語](/jp/dancexr/listing/appstore) | [Eng](/dancexr/listing/appstore) | [繁中](/tw/dancexr/listing/appstore) | [한국어](/kr/dancexr/listing/appstore) | [简中](/zh/dancexr/listing/appstore)
+[Eng](/dancexr/listing/appstore) | [繁中](/tw/dancexr/listing/appstore) | [日本語](/jp/dancexr/listing/appstore) | [한국어](/kr/dancexr/listing/appstore) | [简中](/zh/dancexr/listing/appstore)
 
 どこでも舞台、モデルは自由にアニメーション
 

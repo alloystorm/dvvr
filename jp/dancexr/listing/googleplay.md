@@ -1,4 +1,4 @@
-[日本語](/jp/dancexr/listing/googleplay) | [Eng](/dancexr/listing/googleplay) | [繁中](/tw/dancexr/listing/googleplay) | [한국어](/kr/dancexr/listing/googleplay) | [简中](/zh/dancexr/listing/googleplay)
+[Eng](/dancexr/listing/googleplay) | [繁中](/tw/dancexr/listing/googleplay) | [日本語](/jp/dancexr/listing/googleplay) | [한국어](/kr/dancexr/listing/googleplay) | [简中](/zh/dancexr/listing/googleplay)
 
 どこでも舞台、モデルは自由にアニメーション
 
