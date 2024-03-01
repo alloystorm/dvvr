@@ -1,14 +1,16 @@
 releases:
   - title: Early Access
     children:
+    - title: Release 2024.3
+      url: /dancexr/releases/2024.3
+  - title: Current Release
+    children:
     - title: Release 2024.2
       url: /dancexr/releases/2024.2
-  - title: Current Release
+  - title: Older Releases
     children:
     - title: Release 2024.1
       url: /dancexr/releases/2024.1
-  - title: Older Releases
-    children:
     - title: Release 1.5.1 Dec 2023
       url: /dancexr/releases/1.5.1
     - title: Release 1.5.0 Nov 2023
@@ -52,10 +54,10 @@ docs:
   - title: Releases
     url: /dancexr/releases/
     children:
-    - title: "Early Access: v2024.2"
+    - title: "Early Access: v2024.3"
+      url: /dancexr/releases/2024.3
+    - title: "Latest: v2024.2"
       url: /dancexr/releases/2024.2
-    - title: "Latest: v2024.1"
-      url: /dancexr/releases/2024.1
   - title: Variants & Availability
     url: /dancexr/versions
   - title: FAQ
