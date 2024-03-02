@@ -121,10 +121,10 @@ docs-zh:
   - title: 发布
     url: /zh/dancexr/releases/
     children:
-    - title: "早期访问：v2024.2"
+    - title: "早期访问：v2024.3"
+      url: /zh/dancexr/releases/2024.3
+    - title: "最新版本：v2024.2"
       url: /zh/dancexr/releases/2024.2
-    - title: "最新版本：v2024.1"
-      url: /zh/dancexr/releases/2024.1
   - title: 变体和可用性
     url: /zh/dancexr/versions
   - title: 常见问题
@@ -188,10 +188,10 @@ docs-tw:
   - title: 版本
     url: /tw/dancexr/releases/
     children:
-    - title: "早期訪問：v2024.2"
+    - title: "早期訪問：v2024.3"
+      url: /tw/dancexr/releases/2024.3
+    - title: "最新版本：v2024.2"
       url: /tw/dancexr/releases/2024.2
-    - title: "最新版本：v2024.1"
-      url: /tw/dancexr/releases/2024.1
   - title: 變體與可用性
     url: /tw/dancexr/versions
   - title: 常見問題
@@ -255,10 +255,10 @@ docs-jp:
   - title: リリース
     url: /jp/dancexr/releases/
     children:
-    - title: "アーリーアクセス：v2024.2"
+    - title: "アーリーアクセス：v2024.3"
+      url: /jp/dancexr/releases/2024.3
+    - title: "最新：v2024.2"
       url: /jp/dancexr/releases/2024.2
-    - title: "最新：v2024.1"
-      url: /jp/dancexr/releases/2024.1
   - title: バリアントと利用可能性
     url: /jp/dancexr/versions
   - title: よくある質問
@@ -322,10 +322,10 @@ docs-kr:
   - title: 출시
     url: /kr/dancexr/releases/
     children:
-    - title: "얼리 액세스: v2024.2"
+    - title: "얼리 액세스: v2024.3"
+      url: /kr/dancexr/releases/2024.3
+    - title: "최신: v2024.2"
       url: /kr/dancexr/releases/2024.2
-    - title: "최신: v2024.1"
-      url: /kr/dancexr/releases/2024.1
   - title: 변형 및 가용성
     url: /kr/dancexr/versions
   - title: FAQ

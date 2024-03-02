@@ -54,10 +54,10 @@ docs:
   - title: 출시
     url: /dancexr/releases/
     children:
-    - title: "얼리 액세스: v2024.2"
+    - title: "얼리 액세스: v2024.3"
+      url: /dancexr/releases/2024.3
+    - title: "최신: v2024.2"
       url: /dancexr/releases/2024.2
-    - title: "최신: v2024.1"
-      url: /dancexr/releases/2024.1
   - title: 변형 및 가용성
     url: /dancexr/versions
   - title: FAQ

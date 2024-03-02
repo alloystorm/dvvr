@@ -54,10 +54,10 @@ docs:
   - title: リリース
     url: /dancexr/releases/
     children:
-    - title: "アーリーアクセス：v2024.2"
+    - title: "アーリーアクセス：v2024.3"
+      url: /dancexr/releases/2024.3
+    - title: "最新：v2024.2"
       url: /dancexr/releases/2024.2
-    - title: "最新：v2024.1"
-      url: /dancexr/releases/2024.1
   - title: バリアントと利用可能性
     url: /dancexr/versions
   - title: よくある質問

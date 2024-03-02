@@ -54,10 +54,10 @@ docs:
   - title: 版本
     url: /dancexr/releases/
     children:
-    - title: "早期訪問：v2024.2"
+    - title: "早期訪問：v2024.3"
+      url: /dancexr/releases/2024.3
+    - title: "最新版本：v2024.2"
       url: /dancexr/releases/2024.2
-    - title: "最新版本：v2024.1"
-      url: /dancexr/releases/2024.1
   - title: 變體與可用性
     url: /dancexr/versions
   - title: 常見問題
