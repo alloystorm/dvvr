@@ -14,14 +14,31 @@ sidebar:
 The content library is a folder where DanceXR locates content and stores user created settings. 
 
 DanceXR searches for various types of content in distinct subfolders located within the content library. 
+
 * actors: Character models 
 * motion: Motion & audio files
-* stages: Stage models 
-* accessory: Accessory models
-* skys: Panoramic skymaps
-* textures: Texture files for ground and built-in stages
-* masks: Special textures. Used in Outfit and particle effects.
-
+* stages: 3D models for stage
+* accessory: 3D models that can be attached to actor body parts. 
+* props: 3D models that can be used for stage props. Like furnitures. 
+* texture 
+  * cookie: Textures for light mask
+  * drawing: Saved images for body paint feature
+  * ground: Ground textures
+  * mask: Detail & normal maps that can be applied to models
+  * particle: Textures for particle effect
+  * sky: Panaramic sky maps, recommend using HDR format
+* settings: All the saved settings. These files are not meant to be modified by users but you can copy and keep a backup if you prefer.
+* scenes: Saved scene files. 
+* bundles: Saved scene along with all the necessary assets included in a zip package.
+* export: Exported model files can be found here when you use the 3D snapshot feature.
+* presets: Saved preset files. You can share these files with your friendds as long as you are using the same version of DanceXR.  
+* videos: Videos that can be used for projection and dynamic texture map. Supports MP4 format only.
+* chat: Files used for the AI chat system. 
+  * characters: Character thumbnail and templates. These are automatically generated but you can make modifications.
+  * tempplates: Prompt templates, you can make modifications and create new ones.
+  * history: Saved chat history
+  * persona: Personality descriptions that can be applied to characters
+  * voices/piper/: Custom voice models for the TTS system
 
 ## Character models
 
