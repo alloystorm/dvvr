@@ -28,7 +28,7 @@ Pure版提供了免费版本中不可用的专业功能，如XPS物理和程序�
 
 Pro版包含Pure中的所有内容，以及年龄限制的功能。
 
-[Creator版](/dancexr/creator.md)包括离线渲染功能，允许您录制视频而不必担心实际帧速率和屏幕分辨率。例如，即使您的显示器是1080p，您的计算机无法保持那个帧速率，也可以顺畅地录制4K视频以及60fps。它还具有生成VR 180视频的功能。
+[Creator版](creator.md)包括离线渲染功能，允许您录制视频而不必担心实际帧速率和屏幕分辨率。例如，即使您的显示器是1080p，您的计算机无法保持那个帧速率，也可以顺畅地录制4K视频以及60fps。它还具有生成VR 180视频的功能。
 
 对于每个版本，您可以选择RT、HD或LW版本。RT启用光线追踪，HD专注于图形质量，LW优化帧速率。
 
@@ -42,7 +42,7 @@ Pure和Pro在Steam上出售，而Pro也可以在Itch.io和Patreon上获得。Cre
 
 这些更新最初会在每个月初提供给我们的Patreon支持者，然后在每月15日左右在Steam测试分支上发布，最后在月底之前在Steam主分支和其他平台上推出更新。免费版本也将在大约同一时间发布。
 
-[请在此页面上找到下载链接和购买选项。](/dancexr/download.md)
+[请在此页面上找到下载链接和购买选项。](download.md)
 ## ## 准备内容
 
 DanceXR不包括预加载的模型和舞蹈动作。要使用该应用程序，用户必须创建一个内容库文件夹，并将各种类型的资源组织到单独的子文件夹中，以便DanceXR在需要时访问。
@@ -51,7 +51,7 @@ DanceXR不包括预加载的模型和舞蹈动作。要使用该应用程序，�
 
 但是，在Quest和Android设备上，内容文件夹的位置无法更改。要添加内容，Quest用户必须将其设备连接到PC，而Android用户则提供了内容管理器，以在内容文件夹内执行基本文件管理任务。
 
-如果您需要帮助设置内容文件夹，可以在[此处找到视频教程](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3)，并且可以在此页面上找到[更多信息](dancexr/preparecontent.md)。
+如果您需要帮助设置内容文件夹，可以在[此处找到视频教程](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3)，并且可以在此页面上找到[更多信息](preparecontent.md)。
 
 ## 文档
 

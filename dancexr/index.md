@@ -28,7 +28,7 @@ The Pure edition offers pro features that are not available in the Free version,
 
 The Pro edition contains everything in Pure, plus age-restricted features.
 
-The [Creator edition](/dancexr/creator.md) includes offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K video smoothly at 60fps even when your monitor is 1080p and your computer is not able to maintain that framerate. It also has the ability to generate VR 180 videos.
+The [Creator edition](creator.md) includes offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K video smoothly at 60fps even when your monitor is 1080p and your computer is not able to maintain that framerate. It also has the ability to generate VR 180 videos.
 
 For each edition, you can choose between RT, HD, or LW builds. RT enables ray tracing, HD focuses on graphic quality, and LW is optimized for frame rate.
 
@@ -42,7 +42,7 @@ Our development team follows a monthly release cycle, where we aim to release up
 
 These updates are initially made available to our Patreon supporters at the beginning of the month, followed by a release on the Steam beta branch around the 15th. Finally, the updates are rolled out to the Steam main branch and the rest of the platforms before the end of the month. The free version will also be published around the same time.
 
-[Please find the download link and purchase options on this page.](/dancexr/download.md)
+[Please find the download link and purchase options on this page.](download.md)
 ## ## Preparing Content
 
 DanceXR does not include pre-loaded models and dance motions. To use the app, the user must create a content library folder and organize various types of resources into separate subfolders for DanceXR to access when needed.
@@ -51,7 +51,7 @@ On a PC, DanceXR will attempt to locate content in parent folders upon initial l
 
 However, on Quest and Android devices, the location of the content folder cannot be changed. To add content, Quest users must connect their device to a PC, while Android users are provided with a content manager to perform basic file management tasks within the content folder.
 
-If you require assistance setting up your content folder, a [video tutorial is available here](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3) and [more information can be found on this page](dancexr/preparecontent.md).
+If you require assistance setting up your content folder, a [video tutorial is available here](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3) and [more information can be found on this page](preparecontent.md).
 
 
 ## Documentation
