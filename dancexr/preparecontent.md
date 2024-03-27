@@ -40,23 +40,66 @@ DanceXR searches for various types of content in distinct subfolders located wit
   * persona: Personality descriptions that can be applied to characters
   * voices/piper/: Custom voice models for the TTS system
 
-## Character models
+## Supported formats
+
+* 3D models: PMX, XPS and OBJ (for stage props)
+* Audio: OGG and MP3 (on mobile platforms only)
+* Video: MP4
+* Motion: VMD, BVH
+* Textures: PNG, JPG and HDR (for sky maps)
+
+## Grouping and organization
+
+For easier management of data files, especially for those content that requires multiple files to work together, we support using zip package to organize your files. You can also keep all the required files in a subfolder and they should work the same.
+
+#### 3D Models
+
+3D models usually comes with one file that describe the mesh and multiple texture files. Make sure the relative relationship of the textures and the mesh files stay the same when you move or extract files. That's important for the program to find the correct textures to use.
+
+For PMX the mesh file is the .pmx file and for XPS the mesh file can be .xps, .mesh or .mesh.ascii. 
+
+It is recommended to keep all the files for one model in a zip package for smaller file size and easier management.
+
+Some models have alternative textures, DanceXR can search through the folder or zip package to find textures files that are similar to the ones used for the model and automatically include them in a menu for you to choose from. To allow this to work you need to make sure the alternative textures have the same file name of the main texture. For example if the base map is named base.png, when DanceXR finds another base.png in a different subfolder, it will automatically add it as an alternative texture. If your model is in a zip package, DanceXR will search the entire zip package for alternative textures, if your model is in a subfolder, it will search all the subfolders from where the mesh file is located. Keep this in mind since if you place your alternative textures outside of the mesh file folder, they won't be recognized.
 
 ![Example of actors folder](/images/content_actors.PNG)
 
-As long as the dependent texture files are in the correct location relative to the PMX files, there are no specific requirements for how actor models should be placed.
 
-For easier management, it is advisable to store all files in either zip packages or separate folders.
+#### Motion files
 
+Typically motion data contains audio file, character motions and camera motions. In DanceXR we call a bundle of audio, character motions and camera motions a "dance set". 
 
-## Motion data
+To allow DanceXR to detect dance sets, you just need to keep all of these files inside a subfolder, or a zip package. But make sure that there is only one audio file in it.
+
+For simple content that has only a motion / audio pair, you can have multiple of these in a single folder but you need to make sure the audio and motion file have the same name, for example "dance.vmd" and "dance.ogg". That allows DanceXR to know that they are a pair and create a dance set for it.
+
+You can also have multiple unrelated motions or audios files in the same folders too. They'll just be recognized as individual motion or audio files that has no relationship with other files.
 
 ![Example of motion folder](/images/content_motion.PNG)
 
-Although it is feasible to play a single motion file without audio or any associated camera motion, typically, motion data comes with an audio file, one or more motion files, and possibly several camera motion files as well.
 
-It is advisable to store all files related to the motion data in a single subfolder or, preferably, in a zip package. It is also essential to avoid mixing files for other motion data and to ensure that there is only one audio file associated with the motion data. Keep in mind that only WAV and OGG audio format are supported.
+## Content Library Tools
 
+After you made changes to your content library files, DanceXR should automatically detect changes and rescan the content when you launch it. 
+
+However if that doesn't happen or you moved files when it is running, you can use the Content Library tools in the system menu to refresh it manually.
+
+You can also point it to a different location by using the "Change Library" option.
+
+
+## Google Drive Integration
+DanceXR can download files from Google drive. As long as the drive folder is shared without any restriction. Simply type in the URL of your shared folder and DanceXR will be able to scan the drive folder and download the files that doesn't exist locally.
+
+
+## Preparing content for Android & Oculus Quest
+
+Android system has strict file access rules. Normally apps can't access folders withint your storage. So by default the Android and Quest version have the content library inside the app storage space which requires a PC to copy files into it.
+
+In the latest version we are requesting the storage permission to make mangaging files a bit easier. For that you need to grant DanceXR the permission to access your storage and then you'll be able to use the system files app to move and copy files.
+
+{% include video id="mFnXE7LBV-M" provider="youtube" %}
+
+For older versions or if you choose to use app internal storage space, the content library is located here: /Android/data/com.vrstormlab.dancexr/files/. 
 
 ## Demo Videos
 
@@ -71,43 +114,4 @@ Using content manager on Android
 Loading content on Quest
 {% include video id="ZmDeuWwZtmI" provider="youtube" %}
 {% include video id="BV1Dh4y1i7jJ" provider="bilibili" %}
-
-## Content Library Tools
-There are a few tools provided in the content library menu.
-
-* "Refresh Content": DanceXR can detect changes of the content library and perform scan automatically. However if for some reason the auto scan doesn't work, you can use this option to force a re-scan of the whole content library. 
-* "Change Library": Use this to switch to a different content library on your machine. This is not available in Quest and Android versions.
-
-## Google Drive Integration
-DanceXR can download files from Google drive. As long as the drive folder is shared without any restriction. Simply type in the URL of your shared folder and DanceXR will be able to scan the drive folder and download the files that doesn't exist locally.
-
-
-## Preparing content for Android & Oculus Quest
-
-Similar to the PC versions, DanceXR requires a content folder to be prepared so it knows where to find all the models, motions & textures. However on Android, apps can only access specific folders unless a special permission is granted. Therefore on Android and Oculus Quest platforms you will not be able to select content folder like on PC. The content needs to be at a specific location. 
-
-### If you can connect your device to a PC
-
-It's still easier to use a PC to manage your content on the device. It's just copy & paste files within your Windows "File Explorer". Before you copy content from your PC, it is recommended to zip the content individually for easier manage and reduce storage space. 
-
-* Install DanceXR on the device
-* Connect your device to your PC. Select "File Transfer" from the popup dialog or from system settings. 
-* Now open File Explorer and you should be able to see your device.
-* Navigate to /Android/data/com.vrstormlab.dancexr/files/. If you don't see that folder, make sure DanceXR is installed, and if you still cannot find it after install, let us know and we'll try our best to figure that out.
-* Copy your entire content folder into that directory. So your content folder structure will be like ![example folder](/images/content_folder_android.png)
-
-Then you should be able to see your content next time you run DanceXR on the device
-
-### If you don't have access to a PC (Android version only)
-
-The Android version comes with a Content Manager app that can help you organize your content on the device. You should be able to see it from your apps drawer or desktop after installing DanceXR. It has the same icon as DanceXR player but is titled "Content Manager". Content Manager app supports only zip, png and jpg format. 
-
-Once you open it, you'll see your content folders and browse through the files they contain. You can click on the files to either move them elsewhere or [set zip file encodings](features/zip_format). 
-
-Content Manager app also set itself as a destination when you open or share a file of the supported file type (zip, png or jpg). 
-
-* If you download zip from your browser. Once downloaded, tap on the downloaded file and you should see the DanceXR icon with "Add to library", select that one and you can then select where to save that file into, and it will then be copied to the content library.
-* You can also use File Manager app to browse through your phone and then select "Open with" from the menu and you'll be able to see the DanceXR "Add to library" option as well.
-
-This is just the first version of Content Manager, we'll continue to add more features to it along the way. 
 
