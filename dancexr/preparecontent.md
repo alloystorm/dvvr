@@ -25,15 +25,15 @@ DanceXR searches for various types of content in distinct subfolders located wit
   * drawing: Saved images for body paint feature
   * ground: Ground textures
   * mask: Detail & normal maps that can be applied to models
-  * particle: Textures for particle effect
-  * sky: Panaramic sky maps, recommend using HDR format
+  * particle: Textures for [particle effect](features/particles.md)
+  * sky: [Panaramic sky maps](features/skymap.md), recommend using HDR format
 * settings: All the saved settings. These files are not meant to be modified by users but you can copy and keep a backup if you prefer.
 * scenes: Saved scene files. 
 * bundles: Saved scene along with all the necessary assets included in a zip package.
 * export: Exported model files can be found here when you use the 3D snapshot feature.
 * presets: Saved preset files. You can share these files with your friendds as long as you are using the same version of DanceXR.  
 * videos: Videos that can be used for projection and dynamic texture map. Supports MP4 format only.
-* chat: Files used for the AI chat system. 
+* chat: Files used for the [AI chat system](ai_chat.md). 
   * characters: Character thumbnail and templates. These are automatically generated but you can make modifications.
   * tempplates: Prompt templates, you can make modifications and create new ones.
   * history: Saved chat history
@@ -60,7 +60,7 @@ For PMX the mesh file is the .pmx file and for XPS the mesh file can be .xps, .m
 
 It is recommended to keep all the files for one model in a zip package for smaller file size and easier management.
 
-Some models have alternative textures, DanceXR can search through the folder or zip package to find textures files that are similar to the ones used for the model and automatically include them in a menu for you to choose from. To allow this to work you need to make sure the alternative textures have the same file name of the main texture. For example if the base map is named base.png, when DanceXR finds another base.png in a different subfolder, it will automatically add it as an alternative texture. If your model is in a zip package, DanceXR will search the entire zip package for alternative textures, if your model is in a subfolder, it will search all the subfolders from where the mesh file is located. Keep this in mind since if you place your alternative textures outside of the mesh file folder, they won't be recognized.
+Some models have [alternative textures](features/alternative_textures.md), DanceXR can search through the folder or zip package to find textures files that are similar to the ones used for the model and automatically include them in a menu for you to choose from. To allow this to work you need to make sure the alternative textures have the same file name of the main texture. For example if the base map is named base.png, when DanceXR finds another base.png in a different subfolder, it will automatically add it as an alternative texture. If your model is in a zip package, DanceXR will search the entire zip package for alternative textures, if your model is in a subfolder, it will search all the subfolders from where the mesh file is located. Keep this in mind since if you place your alternative textures outside of the mesh file folder, they won't be recognized.
 
 ![Example of actors folder](/images/content_actors.PNG)
 
@@ -88,7 +88,7 @@ You can also point it to a different location by using the "Change Library" opti
 
 
 ## Google Drive Integration
-DanceXR can download files from Google drive. As long as the drive folder is shared without any restriction. Simply type in the URL of your shared folder and DanceXR will be able to scan the drive folder and download the files that doesn't exist locally.
+DanceXR can [download files from Google drive](features/googledrive.md). As long as the drive folder is shared without any restriction. Simply type in the URL of your shared folder and DanceXR will be able to scan the drive folder and download the files that doesn't exist locally.
 
 
 ## Preparing content for Android & Oculus Quest
