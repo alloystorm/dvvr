@@ -23,8 +23,8 @@ api_key = get_api_key_from_file(api_key_path)
 # print(api_key)
 
 # Define directories
-ROOT_DIR = "i18n"  # Root directory of your resources
-# ROOT_DIR = "../android/mobile/DanceXR/launcher/src/main/res"  # Root directory of your resources
+# ROOT_DIR = "i18n"  # Root directory of your resources
+ROOT_DIR = "../android/mobile/DanceXR/launcher/src/main/res"  # Root directory of your resources
 DEFAULT_LANG_DIR = os.path.join(ROOT_DIR, "values")
 LANG_DIRS = [os.path.join(ROOT_DIR, d) for d in ['values-ja', 'values-ko-rKR', 'values-zh-rCN', 'values-zh-rTW']]
 STRINGS_FILE = "strings.xml"
@@ -42,8 +42,10 @@ for lang_dir in LANG_DIRS:
     # Parse the strings.xml for the current language
     lang_file = os.path.join(lang_dir, STRINGS_FILE)
     if not os.path.exists(lang_file):
-        print(f"Skipping {lang_file} due to missing file...")
-        continue
+        print(f"Creating empty string file {lang_file}...")
+        tree = ET.ElementTree(ET.Element("resources"))
+        tree.write(lang_file, xml_declaration=True, encoding="utf-8")
+        # continue
     lang_tree = ET.parse(lang_file)
     lang_root = lang_tree.getroot()
     lang_strings = {elem.attrib["name"]: elem.text for elem in lang_root}
