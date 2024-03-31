@@ -23,8 +23,8 @@ api_key = get_api_key_from_file(api_key_path)
 # print(api_key)
 
 # Define directories
-# ROOT_DIR = "i18n"  # Root directory of your resources
-ROOT_DIR = "../android/mobile/DanceXR/launcher/src/main/res"  # Root directory of your resources
+ROOT_DIR = "i18n"  # Root directory of your resources
+# ROOT_DIR = "../android/mobile/DanceXR/launcher/src/main/res"  # Root directory of your resources
 DEFAULT_LANG_DIR = os.path.join(ROOT_DIR, "values")
 LANG_DIRS = [os.path.join(ROOT_DIR, d) for d in ['values-ja', 'values-ko-rKR', 'values-zh-rCN', 'values-zh-rTW']]
 STRINGS_FILE = "strings.xml"
