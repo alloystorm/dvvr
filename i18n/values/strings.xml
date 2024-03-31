@@ -2213,4 +2213,28 @@
 	<string name="HCF55DE15">Emissive Screen</string>
 	<string name="H3A460860">Video</string>
 	<string name="HDF23E54">Enable </string>
+
+	<string name="H9AAB3B16">[Dummy]</string>
+	<string name="H86456D34">[VRGirl Black]</string>
+	<string name="H5AECC332">[VRGirl White]</string>
+	<string name="H8A26F6DA">[VRGirl Chrome]</string>
+	<string name="H196797AC">[Cube]</string>
+	<string name="H30CAAAA">[Ball]</string>
+	<string name="H564E61E7">[Wall]</string>
+	<string name="H532D28CB">[Pole]</string>
+	<string name="HD30981F9">[Cylinder]</string>
+	<string name="H1885E26">[Screen]</string>
+	<string name="HC9DB3179">[Mirror]</string>
+	<string name="HF4496B6D">[Room]</string>
+	<string name="HB98AB97B">Use XPS Tools</string>
+	<string name="H3E56D26E">Reduced Constraints</string>
+	<string name="HD32E5E02">Subframe Motion</string>
+	<string name="H24062679">Perform multiple motion updates per frame for better physics simulation, especially when there's fast movements.</string>
+	<string name="HE1DBE7EA">Set physics simulation rate. Higher = smoother simulation but at higher CPU cost.</string>
+	<string name="H318885A">Line</string>
+	<string name="H5A7D5F8F">A Shape</string>
+	<string name="HD21310ED">Circle</string>
+	<string name="H7A087D3A">Fan Shape</string>
+	<string name="H2DD64495">Random Props Position</string>
+	<string name="H88157F9B">Select Start Band</string>	
 </resources>
