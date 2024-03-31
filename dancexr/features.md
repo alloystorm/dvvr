@@ -11,9 +11,8 @@ sidebar:
 [Eng](/dancexr/features) | [繁中](/tw/dancexr/features) | [日本語](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [简中](/zh/dancexr/features)
 
 
-| Feature | |
+| Features | |
 | :--- | ---: |
-|
 | **# Character, Stages And Props Models** 
 | *Content Management*
 | [Tagging and Search](features/tagging) 
@@ -107,7 +106,7 @@ sidebar:
 | [Primitive Shapes](features/primitive_shapes)
 | [Screen](features/screen.md)
 | [Mirror](features/mirror.md)
-| [Prop Model & Settings]
+| [Prop Model & Settings](features/props.md)
 |
 | **# System** |
 | [Content Library](preparecontent)
