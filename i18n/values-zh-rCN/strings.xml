@@ -533,7 +533,7 @@
     <string name="H254BA9C8">光线限制</string>
     <string name="H4F635EFB">加载音频/动作</string>
 <string name="H9DFFBE06">加载场景</string>
-	<string name="HB290557D">加载阶段</string>
+	<string name="HB290557D">加载舞台</string>
 	<string name="H301297DA">加载中</string>
 	<string name="H17C7B301">标志表面1</string>
 	<string name="H6A702C2B">标志表面2</string>
@@ -786,7 +786,7 @@
     <string name="HB80DD1A7">[音频+动作]</string>
     <string name="HE31AFE6">[仅音频]</string>
     <string name="H8F0DB752">[加载演员]</string>
-<string name="H306C4835">[加载阶段]</string>
+<string name="H306C4835">[加载舞台]</string>
 	<string name="H545C58B2">[仅动作]</string>
 	<string name="H553B7BB9">[多个]</string>
 	<string name="HA3BB89FD">[无]</string>
