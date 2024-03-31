@@ -2227,4 +2227,16 @@
 	<string name="H7A087D3A">扇形</string>
 	<string name="H2DD64495">隨機道具位置</string>
 	<string name="H88157F9B">選擇起始帶</string>
+<string name="H4913A25F">[木1]</string>
+	<string name="HCA8CAFD8">[木2]</string>
+	<string name="HD969BA13">[瓷磚]</string>
+	<string name="H273CAF03">[混凝土]</string>
+	<string name="HEF9FCAF8">Pitch Angle</string>
+	<string name="HFB8669BC">Physically Based</string>
+	<string name="HDD4B0BC1">Point Light</string>
+	<string name="HB996B7BB">Area Light</string>
+	<string name="HEB584519">Pyramid Projector Near</string>
+	<string name="H7EBA373D">Pyramid Projector Far</string>
+	<string name="HEB1995CA">Box Projector Near</string>
+	<string name="H6E31F4C1">Box Projector Far</string>
 </resources>

@@ -2228,4 +2228,16 @@
     <string name="H7A087D3A">扇形</string>
     <string name="H2DD64495">随机道具位置</string>
     <string name="H88157F9B">选择起始频段</string>
+<string name="H4913A25F">[木1]</string>
+	<string name="HCA8CAFD8">[木2]</string>
+	<string name="HD969BA13">[瓷砖]</string>
+	<string name="H273CAF03">[混凝土]</string>
+	<string name="HEF9FCAF8">[倾斜角]</string>
+	<string name="HFB8669BC">[基于物理的]</string>
+	<string name="HDD4B0BC1">[点光源]</string>
+	<string name="HB996B7BB">[区域光源]</string>
+	<string name="HEB584519">[金字塔投影仪近]</string>
+	<string name="H7EBA373D">[金字塔投影仪远]</string>
+	<string name="HEB1995CA">[盒子投影仪近]</string>
+	<string name="H6E31F4C1">[盒子投影仪远]</string>
 </resources>

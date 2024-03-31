@@ -2228,4 +2228,16 @@
 	<string name="H7A087D3A">扇形</string>
 	<string name="H2DD64495">ランダムなプロップの位置</string>
 	<string name="H88157F9B">開始バンドを選択</string>
+<string name="H4913A25F">[木材1]</string>
+	<string name="HCA8CAFD8">[木材2]</string>
+	<string name="HD969BA13">[タイル]</string>
+	<string name="H273CAF03">[コンクリート]</string>
+	<string name="HEF9FCAF8">Pitch Angle</string>
+	<string name="HFB8669BC">Physically Based</string>
+	<string name="HDD4B0BC1">Point Light</string>
+	<string name="HB996B7BB">Area Light</string>
+	<string name="HEB584519">Pyramid Projector Near</string>
+	<string name="H7EBA373D">Pyramid Projector Far</string>
+	<string name="HEB1995CA">Box Projector Near</string>
+	<string name="H6E31F4C1">Box Projector Far</string>
 </resources>

@@ -2228,4 +2228,16 @@
 	<string name="H7A087D3A">부채꼴 모양</string>
 	<string name="H2DD64495">랜덤 소품 위치</string>
 	<string name="H88157F9B">시작 밴드 선택</string>
+<string name="H4913A25F">[나무1]</string>
+	<string name="HCA8CAFD8">[나무2]</string>
+	<string name="HD969BA13">[타일]</string>
+	<string name="H273CAF03">[콘크리트]</string>
+	<string name="HEF9FCAF8">피치 각도</string>
+	<string name="HFB8669BC">물리 기반</string>
+	<string name="HDD4B0BC1">포인트 라이트</string>
+	<string name="HB996B7BB">면적 라이트</string>
+	<string name="HEB584519">피라미드 프로젝터 근처</string>
+	<string name="H7EBA373D">피라미드 프로젝터 멀리</string>
+	<string name="HEB1995CA">박스 프로젝터 근처</string>
+	<string name="H6E31F4C1">박스 프로젝터 멀리</string>
 </resources>
