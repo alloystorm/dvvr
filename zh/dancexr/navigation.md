@@ -37,6 +37,10 @@ releases：
       url: /dancexr/releases/1.4.0
   - title: 关于发布
     url: /dancexr/releases
+  - title: 文档
+    url: /dancexr
+  - title: 功能列表
+    url: /dancexr/features
 
 docs：
   - title: 入门指南
@@ -47,9 +51,15 @@ docs：
         url: /dancexr/download
       - title: "内容库"
         url: /dancexr/preparecontent
-  - title: "新功能：AI 动力聊天"
-    url: /dancexr/ai_chat
-  - title: 功能列表
+  - title: 新功能
+    children:
+      - title: "视频播放"
+        url: /dancexr/video_playback
+      - title: "AR模式"
+        url: /dancexr/ar_mode
+      - title: "AI聊天"
+        url: /dancexr/ai_chat
+  - title: 完整功能列表
     url: /dancexr/features
   - title: 发布
     url: /dancexr/releases/

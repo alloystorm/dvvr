@@ -66,7 +66,7 @@ DanceXR支持VMD和BVH格式的动作。它们与音乐和多个动作一起组�
 * [角色动作设置](features/actor_motion_settings)
 
 
-### VMD和BVH动作
+### VMD 和 BVH 动作
 * [舞蹈集](features/dance_set)
 * [节奏和拍子](features/music_timing)
 * [动作设置](features/motion_settings)
@@ -76,10 +76,10 @@ DanceXR支持VMD和BVH格式的动作。它们与音乐和多个动作一起组�
 * 空闲动作
 * 走秀
 * [自动舞蹈<sup>[PRO]</sup>](features/autodance){: .pro}
-* [自动舞蹈2<sup>[PRO]</sup>](features/autodance2){: .pro}
+* [自动舞蹈 2<sup>[PRO]</sup>](features/autodance2){: .pro}
 * [骑乘位<sup>[PRO]</sup>](features/scg_motion){: .nsfw}
 * [后入位<sup>[PRO]</sup>](features/sfb_motion){: .nsfw}
-* [性动作3<sup>[PRO]</sup>](features/sm3_motion){: .nsfw}
+* [性动作 3<sup>[PRO]</sup>](features/sm3_motion){: .nsfw}
 
 
 ### 摄像机动作
@@ -102,20 +102,20 @@ DanceXR支持VMD和BVH格式的动作。它们与音乐和多个动作一起组�
 
 ## 系统
 * [内容库](preparecontent)
-* [Google Drive集成](features/googledrive)
-* [Android、Quest和Pico的内容库](content_android_quest)
+* [Google Drive 集成](features/googledrive)
+* [Android、Quest 和 Pico 的内容库](content_android_quest)
 * [显示和用户界面](features/display_settings)
 * [图形设置](features/graphics)
 * 语言
 * [输入设置](features/controls)
 * [物理配置](features/system_physics)
-* 应用程序设置
+* 应用设置
 * [自动更新<sup>[PRO]</sup>](features/autoupdate){: .pro}
 
 
-## 创作者版
+## 创作版
 [离线渲染和录制<sup>[CREATOR]</sup>](creator.md){: .creator}
 
 
-## AI语音聊天
-[AI语音聊天<sup>[PRO]</sup>](ai_chat){: .pro}
+## AI 语音聊天
+[AI 语音聊天<sup>[PRO]</sup>](ai_chat){: .pro}

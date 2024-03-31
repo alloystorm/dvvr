@@ -21,7 +21,7 @@ sidebar:
 
 
 ### 캐릭터 모델 설정
-* [배우 메뉴, 도구 및 상호작용](features/actor_tools)
+* [배우 메뉴, 도구 및 상호 작용](features/actor_tools)
 * [재질 설정](features/material_settings)
 * [드레싱 시스템 (재질 모프 및 XPS 옵션)](features/optionals)
 * [대체 텍스처](features/alternative_textures)

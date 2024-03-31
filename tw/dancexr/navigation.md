@@ -1,13 +1,13 @@
 releases:
   - title: 2024
     children:
-    - title: 2024.4發布
+    - title: 發布 2024.4
       url: /dancexr/releases/2024.4
-    - title: 2024.3發布
+    - title: 發布 2024.3
       url: /dancexr/releases/2024.3
-    - title: 2024.2發布
+    - title: 發布 2024.2
       url: /dancexr/releases/2024.2
-    - title: 2024.1發布
+    - title: 發布 2024.1
       url: /dancexr/releases/2024.1
   - title: 2023
     children:
@@ -37,6 +37,10 @@ releases:
       url: /dancexr/releases/1.4.0
   - title: 關於發布
     url: /dancexr/releases
+  - title: 文件
+    url: /dancexr
+  - title: 功能清單
+    url: /dancexr/features
 
 docs:
   - title: 入門指南
@@ -47,9 +51,15 @@ docs:
         url: /dancexr/download
       - title: "內容庫"
         url: /dancexr/preparecontent
-  - title: "新功能: AI 助力聊天"
-    url: /dancexr/ai_chat
-  - title: 功能列表
+  - title: 新功能
+    children:
+      - title: "視頻播放"
+        url: /dancexr/video_playback
+      - title: "AR模式"
+        url: /dancexr/ar_mode
+      - title: "AI聊天"
+        url: /dancexr/ai_chat
+  - title: 完整功能清單
     url: /dancexr/features
   - title: 發布
     url: /dancexr/releases/
