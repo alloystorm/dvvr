@@ -65,7 +65,7 @@ docs:
   - title: Troubleshooting
     url: /dancexr/troubleshooting
 
-releases:
+releases-zh:
   - title: 2024
     children:
     - title: 发布 2024.4
@@ -105,7 +105,7 @@ releases:
   - title: 关于发布
     url: /zh/dancexr/releases
 
-docs:
+docs-zh:
   - title: 入门指南
     children:
       - title: "概述"
