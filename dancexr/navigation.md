@@ -54,9 +54,9 @@ docs:
   - title: New Features
     children:
       - title: "Video Playback"
-        url: /dancexr/video_playback
+        url: /dancexr/features/video_playback
       - title: "AR Mode"
-        url: /dancexr/ar_mode
+        url: /dancexr/features/ar_mode
       - title: "AI Chat"
         url: /dancexr/ai_chat
   - title: Full Feature List
