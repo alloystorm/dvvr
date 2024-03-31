@@ -12,10 +12,9 @@ sidebar:
 
 
 | Feature | |
-| :--- | :---: |
+| :--- | ---: |
 |
 | **# Character, Stages And Props Models** 
-|
 | *Content Management*
 | [Tagging and Search](features/tagging) 
 | [Model Cache & Loader Options](features/loader_options) 
@@ -39,9 +38,9 @@ sidebar:
 | [Accessory](features/accessory.md){: .pro} | PRO |
 | [Ragdoll](features/ragdoll.md){: .pro} | PRO |
 | [Lightball](features/lightball.md){: .pro} | PRO |
-| [Boob Shake](features/boob_shake_sex_overlay){: .nsfw} | PRO |
-| [Sex Overlay](features/boob_shake_sex_overlay){: .nsfw} | PRO |
-| [Dildo](features/dildo){: .nsfw} | PRO |
+| [Boob Shake](features/boob_shake_sex_overlay){: .nsfw}<sup>[NSFW]</sup> | PRO |
+| [Sex Overlay](features/boob_shake_sex_overlay){: .nsfw}<sup>[NSFW]</sup> | PRO |
+| [Dildo](features/dildo){: .nsfw}<sup>[NSFW]</sup> | PRO |
 |
 | *Model Format Specific*
 | [XPS Bone Mapper](features/bone_mapper.md)
@@ -49,13 +48,7 @@ sidebar:
 | [Custom Inherit Motion](features/custom_inherit.md)
 | [PMX Physics](features/pmx_physics)
 |
-| *Stage Model Settings*
-| [Stage Model Setting & Tools](features/stages)
-| [Primitive Shapes](features/primitive_shapes)
-| [Procedural Room Stage](features/room_stage)
-|
 | **# Motion & Media Content** |
-|
 | *Audio & Video*
 | [Video Playback](features/video_playback){: .pro} | PRO |
 | [Audio Playback Options](features/audio_options)
@@ -78,25 +71,43 @@ sidebar:
 | [Auto Dance](features/autodance){: .pro} | PRO |
 | [Auto Dance 2](features/autodance2){: .pro} | PRO |
 | [Auto Dance 3](features/autodance3.md){: .pro} | PRO |
-| [Cowgirl Sex](features/scg_motion){: .nsfw} | PRO |
-| [Sex From Behind](features/sfb_motion){: .nsfw} | PRO |
-| [Sex Motion 3](features/sm3_motion){: .nsfw} | PRO |
+| [Cowgirl Sex](features/scg_motion){: .nsfw}<sup>[NSFW]</sup> | PRO |
+| [Sex From Behind](features/sfb_motion){: .nsfw}<sup>[NSFW]</sup> | PRO |
+| [Sex Motion 3](features/sm3_motion){: .nsfw}<sup>[NSFW]</sup> | PRO |
 |
 | *Camera Motions*
-| [Camera Motions](features/camera)
+| [Freefly Camera](features/camera)
+| [Orbit Camera](features/camera)
+| [Auto Camera](features/camera)
+| [One-shot Camera](features/camera)
+| [First Person Camera](features/camera)
+| [Fixed Camera (Concert Mode)](features/camera)
+| [Camera Motion & Settings](features/camera)
 |
 | **# Environment** |
 | [Sky and Cloud](features/skymap)
-| [Ground, Stage & Water System](features/ground)
 | [Lighting](features/lighting)
 | [Particle System](features/particles)
 | [AR Mode](features/ar_mode) | PRO |
 | [Stages](features/stages)
 | [Props](features/props)
-| Stage Options, Beats Ring, Laser, Screen & Mirror
+| [Beats Ring](features/beats_ring.md)
+| [Laser](features/laser.md)
 | [Stage Laser](features/laser.md)
 | [Save & Load Scene](features/save_scene.md)
 | [Scene Bundles](features/scene_bundle.md)
+|
+| **# Scene & Stage**
+| *Stages*
+| [Ground, Stage & Water System](features/ground)
+| [Procedural Room Stage](features/room_stage)
+| [Stage Model & Settings](features/stages)
+|
+| *Props*
+| [Primitive Shapes](features/primitive_shapes)
+| [Screen](features/screen.md)
+| [Mirror](features/mirror.md)
+| [Prop Model & Settings]
 |
 | **# System** |
 | [Content Library](preparecontent)
@@ -109,7 +120,7 @@ sidebar:
 | [Physics Config](features/system_physics)
 | [Auto Update](features/autoupdate){: .pro} | PRO |
 |
-| [**Offline Render & Recording**](creator.md){: .creator} | CREATOR |
+| [**Offline Render & Recording**](creator.md){: .pro} | CREATOR |
 |
 | [**AI Voice Chat**](ai_chat){: .pro} | PRO |
 
