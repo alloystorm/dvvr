@@ -7,15 +7,14 @@ permalink: /jp/dancexr/features
 sidebar:
   nav: "docs-jp"
 ---
-
 [Eng](/dancexr/features) | [繁中](/tw/dancexr/features) | [日本語](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [简中](/zh/dancexr/features)
 
 ## モデル
-キャラクターモデルにはPMXとXPSをサポートしており、ステージと小道具にはPMX、XPS、またはOBJをサポートしています。
+キャラクターモデルにはPMXとXPSをサポートし、ステージと小道具にはPMX、XPS、またはOBJをサポートしています。
 
 ### モデルの管理
 * [タグ付けと検索](features/tagging)
-* [モデルキャッシュとローダーオプション](features/loader_options)
+* [モデルキャッシュ＆ローダーオプション](features/loader_options)
 * [フォーメーション](features/formation)
 * [プレイリスト](features/actor_playlist)
 
@@ -23,7 +22,7 @@ sidebar:
 ### キャラクターモデルの設定
 * [アクターメニュー、ツール、およびインタラクション](features/actor_tools)
 * [マテリアル設定](features/material_settings)
-* [ドレッシングシステム（マテリアルモーフとXPSオプショナル）](features/optionals)
+* [ドレッシングシステム（マテリアルモーフとXPSオプション）](features/optionals)
 * [代替テクスチャ](features/alternative_textures)
 * [マテリアル設定](features/material_settings)
 * [表情制御](features/facial_control)
@@ -33,17 +32,17 @@ sidebar:
 
 
 ### 高度なモデル機能
-* [衣装＆ボディペイント<sup>[プロ版]</sup>](features/outfit_body_paint){: .pro}
-* [モーションオーバーライド<sup>[プロ版]</sup>](features/motion_override){: .pro}
-* アクセサリー<sup>[プロ版]</sup>
-* ラグドール<sup>[プロ版]</sup>
-* [おっぱいシェイク＆セックスオーバーレイ<sup>[プロ版]</sup>](features/boob_shake_sex_overlay){: .nsfw}
-* [ディルド<sup>[プロ版]</sup>](features/dildo){: .nsfw}
+* [衣装＆ボディペイント<sup>[PRO]</sup>](features/outfit_body_paint){: .pro}
+* [モーションオーバーライド<sup>[PRO]</sup>](features/motion_override){: .pro}
+* アクセサリー<sup>[PRO]</sup>
+* ラグドール<sup>[PRO]</sup>
+* [おっぱいシェイク＆セックスオーバーレイ<sup>[PRO]</sup>](features/boob_shake_sex_overlay){: .nsfw}
+* [ディルド<sup>[PRO]</sup>](features/dildo){: .nsfw}
 
 
 ### XPS固有
 * [ボーンマッパー](features/bone_mapper.md)
-* [XPS物理<sup>[プロ版]</sup>](features/xps_physics){: .pro}
+* [XPS物理<sup>[PRO]</sup>](features/xps_physics){: .pro}
 
 
 ### PMX固有
@@ -82,11 +81,11 @@ DanceXRはVMDおよびBVH形式のモーションをサポートしています�
 ### プロシージャルモーション
 * アイドルモーション
 * キャットウォーク
-* [オートダンス<sup>[プロ版]</sup>](features/autodance){: .pro}
-* [オートダンス2<sup>[プロ版]</sup>](features/autodance2){: .pro}
-* [カウガールセックス<sup>[プロ版]</sup>](features/scg_motion){: .nsfw}
-* [バックからのセックス<sup>[プロ版]</sup>](features/sfb_motion){: .nsfw}
-* [セックスモーション3<sup>[プロ版]</sup>](features/sm3_motion){: .nsfw}
+* [オートダンス<sup>[PRO]</sup>](features/autodance){: .pro}
+* [オートダンス2<sup>[PRO]</sup>](features/autodance2){: .pro}
+* [カウガールセックス<sup>[PRO]</sup>](features/scg_motion){: .nsfw}
+* [後ろからのセックス<sup>[PRO]</sup>](features/sfb_motion){: .nsfw}
+* [セックスモーション3<sup>[PRO]</sup>](features/sm3_motion){: .nsfw}
 
 
 ### カメラモーション
@@ -118,12 +117,12 @@ DanceXRはVMDおよびBVH形式のモーションをサポートしています�
 * [入力設定](features/controls)
 * [物理設定](features/system_physics)
 * アプリの設定
-* [自動更新<sup>[プロ版]</sup>](features/autoupdate){: .pro}
+* [自動更新<sup>[PRO]</sup>](features/autoupdate){: .pro}
 
 
 ## クリエイターエディション
-[オフラインレンダー＆録画<sup>[クリエイター版]</sup>](creator.md){: .creator}
+[オフラインレンダー＆録画<sup>[CREATOR]</sup>](creator.md){: .creator}
 
 
 ## AIボイスチャット
-[AIボイスチャット<sup>[プロ版]</sup>](ai_chat){: .pro}
+[AIボイスチャット<sup>[PRO]</sup>](ai_chat){: .pro}
