@@ -37,6 +37,10 @@ releases:
       url: /dancexr/releases/1.4.0
   - title: About Releases
     url: /dancexr/releases
+  - title: Documentation
+    url: /dancexr
+  - title: Feature List
+    url: /dancexr/features
 
 docs:
   - title: Getting Started
@@ -47,8 +51,14 @@ docs:
         url: /dancexr/download
       - title: "Content Library"
         url: /dancexr/preparecontent
-  - title: "New: AI Powered Chat"
-    url: /dancexr/ai_chat
+  - title: New Features
+    children:
+      - title: "Video Playback"
+        url: /dancexr/video_playback
+      - title: "AR Mode"
+        url: /dancexr/ar_mode
+      - title: "AI Chat"
+        url: /dancexr/ai_chat
   - title: Feature List
     url: /dancexr/features
   - title: Releases
