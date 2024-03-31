@@ -54,9 +54,9 @@ docs:
   - title: New Features
     children:
       - title: "Video Playback"
-        url: /dancexr/video_playback
+        url: /dancexr/features/video_playback
       - title: "AR Mode"
-        url: /dancexr/ar_mode
+        url: /dancexr/features/ar_mode
       - title: "AI Chat"
         url: /dancexr/ai_chat
   - title: Full Feature List
@@ -131,9 +131,9 @@ docs-zh:
   - title: 新功能
     children:
       - title: "视频播放"
-        url: /zh/dancexr/video_playback
+        url: /zh/dancexr/features/video_playback
       - title: "AR模式"
-        url: /zh/dancexr/ar_mode
+        url: /zh/dancexr/features/ar_mode
       - title: "AI聊天"
         url: /zh/dancexr/ai_chat
   - title: 完整功能列表
@@ -155,45 +155,45 @@ docs-zh:
 releases-tw:
   - title: 2024
     children:
-    - title: 發布 2024.4
+    - title: 2024.4發布
       url: /tw/dancexr/releases/2024.4
-    - title: 發布 2024.3
+    - title: 2024.3發布
       url: /tw/dancexr/releases/2024.3
-    - title: 發布 2024.2
+    - title: 2024.2發布
       url: /tw/dancexr/releases/2024.2
-    - title: 發布 2024.1
+    - title: 2024.1發布
       url: /tw/dancexr/releases/2024.1
   - title: 2023
     children:
-    - title: 2023年12月發布1.5.1
+    - title: 2023年12月1.5.1版本發布
       url: /tw/dancexr/releases/1.5.1
-    - title: 2023年11月發布1.5.0
+    - title: 2023年11月1.5.0版本發布
       url: /tw/dancexr/releases/1.5.0
-    - title: 2023年10月發布1.4.9
+    - title: 2023年10月1.4.9版本發布
       url: /tw/dancexr/releases/1.4.9
-    - title: 2023年9月發布1.4.8
+    - title: 2023年9月1.4.8版本發布
       url: /tw/dancexr/releases/1.4.8
-    - title: 2023年8月發布1.4.7
+    - title: 2023年8月1.4.7版本發布
       url: /tw/dancexr/releases/1.4.7
-    - title: 2023年7月發布1.4.6
+    - title: 2023年7月1.4.6版本發布
       url: /tw/dancexr/releases/1.4.6
-    - title: 2023年6月發布1.4.5
+    - title: 2023年6月1.4.5版本發布
       url: /tw/dancexr/releases/1.4.5
-    - title: 2023年5月發布1.4.4
+    - title: 2023年5月1.4.4版本發布
       url: /tw/dancexr/releases/1.4.4
-    - title: 2023年4月發布1.4.3
+    - title: 2023年4月1.4.3版本發布
       url: /tw/dancexr/releases/1.4.3
-    - title: 2023年3月發布1.4.2
+    - title: 2023年3月1.4.2版本發布
       url: /tw/dancexr/releases/1.4.2
-    - title: 2023年2月發布1.4.1
+    - title: 2023年2月1.4.1版本發布
       url: /tw/dancexr/releases/1.4.1
-    - title: 2023年1月發布1.4.0
+    - title: 2023年1月1.4.0版本發布
       url: /tw/dancexr/releases/1.4.0
   - title: 關於發布
     url: /tw/dancexr/releases
   - title: 文件
     url: /tw/dancexr
-  - title: 功能清單
+  - title: 功能列表
     url: /tw/dancexr/features
 
 docs-tw:
@@ -208,12 +208,12 @@ docs-tw:
   - title: 新功能
     children:
       - title: "視頻播放"
-        url: /tw/dancexr/video_playback
+        url: /tw/dancexr/features/video_playback
       - title: "AR模式"
-        url: /tw/dancexr/ar_mode
+        url: /tw/dancexr/features/ar_mode
       - title: "AI聊天"
         url: /tw/dancexr/ai_chat
-  - title: 完整功能清單
+  - title: 完整功能列表
     url: /tw/dancexr/features
   - title: 發布
     url: /tw/dancexr/releases/
@@ -285,9 +285,9 @@ docs-jp:
   - title: 新機能
     children:
       - title: "ビデオ再生"
-        url: /jp/dancexr/video_playback
+        url: /jp/dancexr/features/video_playback
       - title: "ARモード"
-        url: /jp/dancexr/ar_mode
+        url: /jp/dancexr/features/ar_mode
       - title: "AIチャット"
         url: /jp/dancexr/ai_chat
   - title: 全機能リスト
@@ -362,10 +362,10 @@ docs-kr:
   - title: 새로운 기능
     children:
       - title: "비디오 재생"
-        url: /kr/dancexr/video_playback
+        url: /kr/dancexr/features/video_playback
       - title: "AR 모드"
-        url: /kr/dancexr/ar_mode
-      - title: "AI 챗봇"
+        url: /kr/dancexr/features/ar_mode
+      - title: "AI 챗"
         url: /kr/dancexr/ai_chat
   - title: 전체 기능 목록
     url: /kr/dancexr/features
