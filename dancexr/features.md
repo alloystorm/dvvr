@@ -1,7 +1,7 @@
 ---
 locale: en-US
 layout: single
-title: Feature List
+title: Features
 toc: true
 permalink: /dancexr/features
 sidebar:
