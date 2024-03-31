@@ -1,4 +1,4 @@
-releases：
+releases:
   - title: 2024
     children:
     - title: 发布 2024.4
@@ -42,7 +42,7 @@ releases：
   - title: 功能列表
     url: /dancexr/features
 
-docs：
+docs:
   - title: 入门指南
     children:
       - title: "概述"
@@ -54,9 +54,9 @@ docs：
   - title: 新功能
     children:
       - title: "视频播放"
-        url: /dancexr/video_playback
+        url: /dancexr/features/video_playback
       - title: "AR模式"
-        url: /dancexr/ar_mode
+        url: /dancexr/features/ar_mode
       - title: "AI聊天"
         url: /dancexr/ai_chat
   - title: 完整功能列表

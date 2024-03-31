@@ -54,10 +54,10 @@ docs:
   - title: 새로운 기능
     children:
       - title: "비디오 재생"
-        url: /dancexr/video_playback
+        url: /dancexr/features/video_playback
       - title: "AR 모드"
-        url: /dancexr/ar_mode
-      - title: "AI 챗봇"
+        url: /dancexr/features/ar_mode
+      - title: "AI 챗"
         url: /dancexr/ai_chat
   - title: 전체 기능 목록
     url: /dancexr/features

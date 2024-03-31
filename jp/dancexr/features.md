@@ -22,7 +22,7 @@ sidebar:
 ### キャラクターモデルの設定
 * [アクターメニュー、ツール、およびインタラクション](features/actor_tools)
 * [マテリアル設定](features/material_settings)
-* [ドレッシングシステム（マテリアルモーフとXPSオプション）](features/optionals)
+* [ドレッシングシステム（マテリアルモーフとXPSオプショナル）](features/optionals)
 * [代替テクスチャ](features/alternative_textures)
 * [マテリアル設定](features/material_settings)
 * [表情制御](features/facial_control)
@@ -61,7 +61,7 @@ sidebar:
 DanceXRはVMDおよびBVH形式のモーションをサポートしています。音楽と複数のモーションと共に、ダンスセットを形成します。また、プロシージャルモーションの1つを選択することもできます。
 
 ### オーディオ＆ビデオ
-* [ビデオ再生](features/video_playback)
+* [ビデオ再生<sup>[PRO]</sup>](features/video_playback){: .pro}
 * [オーディオ再生オプション](features/audio_options)
 * [音楽タイミング](features/music_timing)
 

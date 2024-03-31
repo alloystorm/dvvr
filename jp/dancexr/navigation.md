@@ -54,9 +54,9 @@ docs:
   - title: 新機能
     children:
       - title: "ビデオ再生"
-        url: /dancexr/video_playback
+        url: /dancexr/features/video_playback
       - title: "ARモード"
-        url: /dancexr/ar_mode
+        url: /dancexr/features/ar_mode
       - title: "AIチャット"
         url: /dancexr/ai_chat
   - title: 全機能リスト

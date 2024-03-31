@@ -1,7 +1,7 @@
 ---
 locale: zh-TW
 layout: single
-title: 功能列表
+title: 特點
 toc: true
 permalink: /tw/dancexr/features
 sidebar:
@@ -34,14 +34,14 @@ sidebar:
 ### 高級模型功能
 * [服裝和身體彩繪<sup>[專業版]</sup>](features/outfit_body_paint){: .pro}
 * [運動覆蓋<sup>[專業版]</sup>](features/motion_override){: .pro}
-* 飾品<sup>[專業版]</sup>
+* 配飾<sup>[專業版]</sup>
 * 布娃娃<sup>[專業版]</sup>
-* [胸部搖擺和性動畫<sup>[專業版]</sup>](features/boob_shake_sex_overlay){: .nsfw}
+* [胸部搖晃和性動畫<sup>[專業版]</sup>](features/boob_shake_sex_overlay){: .nsfw}
 * [假陽具<sup>[專業版]</sup>](features/dildo){: .nsfw}
 
 
 ### XPS 專用
-* [骨骼映射器](features/bone_mapper.md)
+* [骨骼映射](features/bone_mapper.md)
 * [XPS 物理<sup>[專業版]</sup>](features/xps_physics){: .pro}
 
 
@@ -61,7 +61,7 @@ sidebar:
 DanceXR 支持 VMD 和 BVH 格式的動作。與音樂和多個動作一起，它們形成一個舞蹈組。您還可以從程序化動作中選擇一個。
 
 ### 音頻和視頻
-* [視頻播放](features/video_playback)
+* [視頻播放<sup>[專業版]</sup>](features/video_playback){: .pro}
 * [音頻播放選項](features/audio_options)
 * [音樂定時](features/music_timing)
 
@@ -83,8 +83,8 @@ DanceXR 支持 VMD 和 BVH 格式的動作。與音樂和多個動作一起，�
 * 走秀
 * [自動舞蹈<sup>[專業版]</sup>](features/autodance){: .pro}
 * [自動舞蹈 2<sup>[專業版]</sup>](features/autodance2){: .pro}
-* [女上位性愛<sup>[專業版]</sup>](features/scg_motion){: .nsfw}
-* [後背式性愛<sup>[專業版]</sup>](features/sfb_motion){: .nsfw}
+* [女上位性動作<sup>[專業版]</sup>](features/scg_motion){: .nsfw}
+* [後背性動作<sup>[專業版]</sup>](features/sfb_motion){: .nsfw}
 * [性動作 3<sup>[專業版]</sup>](features/sm3_motion){: .nsfw}
 
 

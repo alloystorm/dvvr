@@ -62,7 +62,7 @@ We support PMX and XPS for character models and PMX, XPS or OBJ for stages and p
 DanceXR supports motions in both VMD and BVH formats. Together with the music and multiple motions, they form a dance set. You can also choose from one of the procedural motions.
 
 ### Audio & Video
-* [Video Playback<sup>[PRO]</sup>](features/video_playback)
+* [Video Playback<sup>[PRO]</sup>](features/video_playback){: .pro}
 * [Audio Playback Options](features/audio_options)
 * [Music Timing](features/music_timing)
 

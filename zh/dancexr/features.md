@@ -61,7 +61,7 @@ sidebar:
 DanceXR支持VMD和BVH格式的动作。连同音乐和多个动作，它们形成一个舞蹈套装。您还可以从程序化动作中选择一个。
 
 ### 音频和视频
-* [视频播放](features/video_playback)
+* [视频播放<sup>[PRO]</sup>](features/video_playback){: .pro}
 * [音频播放选项](features/audio_options)
 * [音乐定时](features/music_timing)
 
