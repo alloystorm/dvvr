@@ -1,0 +1,13 @@
+---
+locale: en-US
+layout: single
+title: Primitive Shapes
+toc: true
+sidebar:
+  nav: "docs"
+---
+
+Box, cylinder and sphere objects are available on the stage as props.
+
+You can adjust the surface materials and enable physics properties so they can interact physically.
+

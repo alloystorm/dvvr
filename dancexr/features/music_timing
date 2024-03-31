@@ -1,0 +1,15 @@
+---
+locale: en-US
+layout: single
+title: Music Timing
+toc: true
+sidebar:
+  nav: "docs"
+---
+
+DanceXR uses bpm and offset information of the music to drive procedural motions. 
+
+You can setup the music timing by simply tapping the "Tap Beat" button while the music is playing. The system will calculate the bpm and offset based on your taps.
+
+You can also manually input the bpm and offset values. The system will then use these values to drive the procedural motions.
+

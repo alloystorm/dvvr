@@ -51,12 +51,20 @@ We support PMX and XPS for character models and PMX, XPS or OBJ for stages and p
 
 
 ### Stage Model Settings
-* [Stage Model Setting & Tools](feature/stages)
+* [Stage Model Setting & Tools](features/stages)
+
+### Procedural Stage & Props
+* [Primitive Shapes](features/primitive_shapes)
+* [Room Stage](features/room_stage)
 
 
-## Music & Motion
+## Media & Motion
 DanceXR supports motions in both VMD and BVH formats. Together with the music and multiple motions, they form a dance set. You can also choose from one of the procedural motions.
 
+### Audio & Video
+* [Video Playback](features/video_playback)
+* [Audio Playback Options](features/audio_options)
+* [Music Timing](features/music_timing)
 
 ### Managing Motions
 * [Playback options](features/playback_options)
@@ -89,8 +97,9 @@ DanceXR supports motions in both VMD and BVH formats. Together with the music an
 ## Environment
 * [Sky and Cloud](features/skymap)
 * [Ground, Stage & Water System](features/ground)
-* Lighting
+* [Lighting](features/lighting)
 * [Particle System](features/particles)
+* [AR Mode](features/ar_mode)
 
 
 ## Scene
