@@ -1,45 +1,45 @@
 releases:
-  - title: アーリーアクセス
+  - title: 2024
     children:
-    - title: リリース2024.3
+    - title: リリース 2024.4
+      url: /dancexr/releases/2024.4
+    - title: リリース 2024.3
       url: /dancexr/releases/2024.3
-  - title: 現行リリース
-    children:
-    - title: リリース2024.2
+    - title: リリース 2024.2
       url: /dancexr/releases/2024.2
-  - title: 旧バージョン
-    children:
-    - title: リリース2024.1
+    - title: リリース 2024.1
       url: /dancexr/releases/2024.1
-    - title: リリース1.5.1 2023年12月
+  - title: 2023
+    children:
+    - title: リリース 1.5.1 Dec 2023
       url: /dancexr/releases/1.5.1
-    - title: リリース1.5.0 2023年11月
+    - title: リリース 1.5.0 Nov 2023
       url: /dancexr/releases/1.5.0
-    - title: リリース1.4.9 2023年10月
+    - title: リリース 1.4.9 Oct 2023
       url: /dancexr/releases/1.4.9
-    - title: リリース1.4.8 2023年9月
+    - title: リリース 1.4.8 Sep 2023
       url: /dancexr/releases/1.4.8
-    - title: リリース1.4.7 2023年8月
+    - title: リリース 1.4.7 Aug 2023
       url: /dancexr/releases/1.4.7
-    - title: リリース1.4.6 2023年7月
+    - title: リリース 1.4.6 July 2023
       url: /dancexr/releases/1.4.6
-    - title: リリース1.4.5 2023年6月
+    - title: リリース 1.4.5 June 2023
       url: /dancexr/releases/1.4.5
-    - title: リリース1.4.4 2023年5月
+    - title: リリース 1.4.4 May 2023
       url: /dancexr/releases/1.4.4
-    - title: リリース1.4.3 2023年4月
+    - title: リリース 1.4.3 Apr 2023
       url: /dancexr/releases/1.4.3
-    - title: リリース1.4.2 2023年3月
+    - title: リリース 1.4.2 Mar 2023
       url: /dancexr/releases/1.4.2
-    - title: リリース1.4.1 2023年2月
+    - title: リリース 1.4.1 Feb 2023
       url: /dancexr/releases/1.4.1
-    - title: リリース1.4.0 2023年1月
+    - title: リリース 1.4.0 Jan 2023
       url: /dancexr/releases/1.4.0
   - title: リリースについて
     url: /dancexr/releases
 
 docs:
-  - title: はじめに
+  - title: 初めての方へ
     children:
       - title: "概要"
         url: /dancexr
@@ -47,18 +47,18 @@ docs:
         url: /dancexr/download
       - title: "コンテンツライブラリ"
         url: /dancexr/preparecontent
-  - title: "新機能：AIチャット"
+  - title: "新機能: AIチャット"
     url: /dancexr/ai_chat
   - title: 機能一覧
     url: /dancexr/features
   - title: リリース
     url: /dancexr/releases/
     children:
-    - title: "アーリーアクセス：v2024.3"
+    - title: "2024.4 (アーリーアクセス)"
+      url: /dancexr/releases/2024.4
+    - title: "2024.3"
       url: /dancexr/releases/2024.3
-    - title: "最新：v2024.2"
-      url: /dancexr/releases/2024.2
-  - title: バリアントと利用可能性
+  - title: バリアントと入手可能性
     url: /dancexr/versions
   - title: よくある質問
     url: /dancexr/faq

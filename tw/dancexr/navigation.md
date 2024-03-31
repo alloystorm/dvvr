@@ -1,41 +1,41 @@
 releases:
-  - title: 發布
+  - title: 2024
     children:
-    - title: 版本 2024.3
+    - title: 2024.4發布
+      url: /dancexr/releases/2024.4
+    - title: 2024.3發布
       url: /dancexr/releases/2024.3
-  - title: 當前版本
-    children:
-    - title: 版本 2024.2
+    - title: 2024.2發布
       url: /dancexr/releases/2024.2
-  - title: 較舊版本
-    children:
-    - title: 版本 2024.1
+    - title: 2024.1發布
       url: /dancexr/releases/2024.1
-    - title: 版本 1.5.1 2023年12月
+  - title: 2023
+    children:
+    - title: 2023年12月發布1.5.1
       url: /dancexr/releases/1.5.1
-    - title: 版本 1.5.0 2023年11月
+    - title: 2023年11月發布1.5.0
       url: /dancexr/releases/1.5.0
-    - title: 版本 1.4.9 2023年10月
+    - title: 2023年10月發布1.4.9
       url: /dancexr/releases/1.4.9
-    - title: 版本 1.4.8 2023年9月
+    - title: 2023年9月發布1.4.8
       url: /dancexr/releases/1.4.8
-    - title: 版本 1.4.7 2023年8月
+    - title: 2023年8月發布1.4.7
       url: /dancexr/releases/1.4.7
-    - title: 版本 1.4.6 2023年7月
+    - title: 2023年7月發布1.4.6
       url: /dancexr/releases/1.4.6
-    - title: 版本 1.4.5 2023年6月
+    - title: 2023年6月發布1.4.5
       url: /dancexr/releases/1.4.5
-    - title: 版本 1.4.4 2023年5月
+    - title: 2023年5月發布1.4.4
       url: /dancexr/releases/1.4.4
-    - title: 版本 1.4.3 2023年4月
+    - title: 2023年4月發布1.4.3
       url: /dancexr/releases/1.4.3
-    - title: 版本 1.4.2 2023年3月
+    - title: 2023年3月發布1.4.2
       url: /dancexr/releases/1.4.2
-    - title: 版本 1.4.1 2023年2月
+    - title: 2023年2月發布1.4.1
       url: /dancexr/releases/1.4.1
-    - title: 版本 1.4.0 2023年1月
+    - title: 2023年1月發布1.4.0
       url: /dancexr/releases/1.4.0
-  - title: 關於版本
+  - title: 關於發布
     url: /dancexr/releases
 
 docs:
@@ -47,18 +47,18 @@ docs:
         url: /dancexr/download
       - title: "內容庫"
         url: /dancexr/preparecontent
-  - title: "新功能：AI 助力聊天"
+  - title: "新功能: AI 助力聊天"
     url: /dancexr/ai_chat
   - title: 功能列表
     url: /dancexr/features
-  - title: 版本
+  - title: 發布
     url: /dancexr/releases/
     children:
-    - title: "早期訪問：v2024.3"
+    - title: "2024.4 (早期訪問)"
+      url: /dancexr/releases/2024.4
+    - title: "2024.3"
       url: /dancexr/releases/2024.3
-    - title: "最新版本：v2024.2"
-      url: /dancexr/releases/2024.2
-  - title: 變體與可用性
+  - title: 變體和可用性
     url: /dancexr/versions
   - title: 常見問題
     url: /dancexr/faq
