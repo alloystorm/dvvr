@@ -2205,4 +2205,27 @@
 	<string name="HCF55DE15">발광 스크린</string>
 	<string name="H3A460860">비디오</string>
 	<string name="HDF23E54">활성화</string>
+<string name="H9AAB3B16">[더미]</string>
+	<string name="H86456D34">[VRGirl 블랙]</string>
+	<string name="H5AECC332">[VRGirl 화이트]</string>
+	<string name="H8A26F6DA">[VRGirl 크롬]</string>
+	<string name="H196797AC">[큐브]</string>
+	<string name="H30CAAAA">[공]</string>
+	<string name="H564E61E7">[벽]</string>
+	<string name="H532D28CB">[막대]</string>
+	<string name="HD30981F9">[실린더]</string>
+	<string name="H1885E26">[화면]</string>
+	<string name="HC9DB3179">[거울]</string>
+	<string name="HF4496B6D">[방]</string>
+	<string name="HB98AB97B">XPS 도구 사용</string>
+	<string name="H3E56D26E">제한 감소</string>
+	<string name="HD32E5E02">서브프레임 모션</string>
+	<string name="H24062679">빠른 움직임이 있는 경우 더 나은 물리 시뮬레이션을 위해 프레임 당 여러 모션 업데이트 수행</string>
+	<string name="HE1DBE7EA">물리 시뮬레이션 속도 설정. 높을수록 부드러운 시뮬레이션이지만 높은 CPU 비용 발생</string>
+	<string name="H318885A">선</string>
+	<string name="H5A7D5F8F">모양</string>
+	<string name="HD21310ED">원</string>
+	<string name="H7A087D3A">부채꼴 모양</string>
+	<string name="H2DD64495">랜덤 소품 위치</string>
+	<string name="H88157F9B">시작 밴드 선택</string>
 </resources>

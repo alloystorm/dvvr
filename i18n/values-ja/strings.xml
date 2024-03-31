@@ -2205,4 +2205,27 @@
 	<string name="HCF55DE15">発光スクリーン</string>
 	<string name="H3A460860">ビデオ</string>
 	<string name="HDF23E54">有効にする</string>
+<string name="H9AAB3B16">[ダミー]</string>
+	<string name="H86456D34">[VRガール ブラック]</string>
+	<string name="H5AECC332">[VRガール ホワイト]</string>
+	<string name="H8A26F6DA">[VRガール クローム]</string>
+	<string name="H196797AC">[キューブ]</string>
+	<string name="H30CAAAA">[ボール]</string>
+	<string name="H564E61E7">[壁]</string>
+	<string name="H532D28CB">[ポール]</string>
+	<string name="HD30981F9">[シリンダー]</string>
+	<string name="H1885E26">[スクリーン]</string>
+	<string name="HC9DB3179">[ミラー]</string>
+	<string name="HF4496B6D">[部屋]</string>
+	<string name="HB98AB97B">XPSツールを使用</string>
+	<string name="H3E56D26E">制約の削減</string>
+	<string name="HD32E5E02">サブフレームモーション</string>
+	<string name="H24062679">フレームごとに複数のモーション更新を実行して、特に高速な動きの場合に物理シミュレーションを向上させます。</string>
+	<string name="HE1DBE7EA">物理シミュレーションレートを設定します。高いほど滑らかなシミュレーションになりますが、CPU負荷が高くなります。</string>
+	<string name="H318885A">ライン</string>
+	<string name="H5A7D5F8F">形状</string>
+	<string name="HD21310ED">円</string>
+	<string name="H7A087D3A">扇形</string>
+	<string name="H2DD64495">ランダムなプロップの位置</string>
+	<string name="H88157F9B">開始バンドを選択</string>
 </resources>

@@ -2204,4 +2204,27 @@
 	<string name="HCF55DE15">發光屏幕</string>
 	<string name="H3A460860">視頻</string>
 	<string name="HDF23E54">啟用</string>
+<string name="H9AAB3B16">[虛擬]</string>
+	<string name="H86456D34">[VR女孩 黑色]</string>
+	<string name="H5AECC332">[VR女孩 白色]</string>
+	<string name="H8A26F6DA">[VR女孩 鉻色]</string>
+	<string name="H196797AC">[立方體]</string>
+	<string name="H30CAAAA">[球]</string>
+	<string name="H564E61E7">[牆]</string>
+	<string name="H532D28CB">[柱]</string>
+	<string name="HD30981F9">[圓柱]</string>
+	<string name="H1885E26">[屏幕]</string>
+	<string name="HC9DB3179">[鏡子]</string>
+	<string name="HF4496B6D">[房間]</string>
+	<string name="HB98AB97B">使用 XPS 工具</string>
+	<string name="H3E56D26E">減少約束</string>
+	<string name="HD32E5E02">子框架運動</string>
+	<string name="H24062679">每幀執行多個運動更新，以獲得更好的物理模擬，特別是在快速運動時。</string>
+	<string name="HE1DBE7EA">設置物理模擬速率。越高=更平滑的模擬，但CPU成本更高。</string>
+	<string name="H318885A">線</string>
+	<string name="H5A7D5F8F">一個形狀</string>
+	<string name="HD21310ED">圓</string>
+	<string name="H7A087D3A">扇形</string>
+	<string name="H2DD64495">隨機道具位置</string>
+	<string name="H88157F9B">選擇起始帶</string>
 </resources>
