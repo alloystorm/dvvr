@@ -59,7 +59,7 @@ docs:
         url: /dancexr/ar_mode
       - title: "AI Chat"
         url: /dancexr/ai_chat
-  - title: Feature List
+  - title: Full Feature List
     url: /dancexr/features
   - title: Releases
     url: /dancexr/releases/
