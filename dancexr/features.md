@@ -76,7 +76,6 @@ DanceXR supports motions in both VMD and BVH formats. Together with the music an
 
 ### VMD & BVH Motions
 * [Dance Set](features/dance_set)
-* [Timing & Beats](features/music_timing)
 * [Motion Settings](features/motion_settings)
 
 
