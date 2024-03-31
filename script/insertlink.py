@@ -19,7 +19,7 @@ for folder in base_path:
     for subdir, _, files in os.walk(folder):
         for file in files:
             # Check if the file is a .md file
-            if file.endswith('.md'):
+            if file.endswith('.md') and not file.startswith('navigation'):
                 file_path = os.path.join(subdir, file)
                 
                 # Read the file content

@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/ar_mode) | [繁中](/tw/dancexr/features/ar_mode) | [日本語](/jp/dancexr/features/ar_mode) | [한국어](/kr/dancexr/features/ar_mode) | [简中](/zh/dancexr/features/ar_mode)
+
 
 AR mode is available on supported devices on iOS, Android and Quest. Not all devices have the capability of AR so if you don't see the AR option in the menu, it means your device does not support AR.
 

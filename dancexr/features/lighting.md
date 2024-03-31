@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/lighting) | [繁中](/tw/dancexr/features/lighting) | [日本語](/jp/dancexr/features/lighting) | [한국어](/kr/dancexr/features/lighting) | [简中](/zh/dancexr/features/lighting)
+
 
 DanceXR uses realtime lighting and has sophisticated configurations for you to customize your lighting.
 
