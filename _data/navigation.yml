@@ -43,7 +43,7 @@ releases:
     url: /dancexr/features
 
 docs:
-  - title: Getting Started
+  - title: Help
     children:
       - title: "Overview"
         url: /dancexr
@@ -51,6 +51,14 @@ docs:
         url: /dancexr/download
       - title: "Content Library"
         url: /dancexr/preparecontent
+      - title: Feature List
+        url: /dancexr/features
+      - title: Variants & Availability
+        url: /dancexr/versions
+      - title: FAQ
+        url: /dancexr/faq
+      - title: Troubleshooting
+        url: /dancexr/troubleshooting
   - title: New Features
     children:
       - title: "Video Playback"
@@ -59,8 +67,6 @@ docs:
         url: /dancexr/features/ar_mode
       - title: "AI Chat"
         url: /dancexr/ai_chat
-  - title: Full Feature List
-    url: /dancexr/features
   - title: Releases
     url: /dancexr/releases/
     children:
@@ -68,12 +74,7 @@ docs:
       url: /dancexr/releases/2024.4
     - title: "2024.3"
       url: /dancexr/releases/2024.3
-  - title: Variants & Availability
-    url: /dancexr/versions
-  - title: FAQ
-    url: /dancexr/faq
-  - title: Troubleshooting
-    url: /dancexr/troubleshooting
+
 
 releases-zh:
   - title: 2024
@@ -88,29 +89,29 @@ releases-zh:
       url: /zh/dancexr/releases/2024.1
   - title: 2023
     children:
-    - title: 2023年12月发布1.5.1
+    - title: 发布 1.5.1 2023年12月
       url: /zh/dancexr/releases/1.5.1
-    - title: 2023年11月发布1.5.0
+    - title: 发布 1.5.0 2023年11月
       url: /zh/dancexr/releases/1.5.0
-    - title: 2023年10月发布1.4.9
+    - title: 发布 1.4.9 2023年10月
       url: /zh/dancexr/releases/1.4.9
-    - title: 2023年9月发布1.4.8
+    - title: 发布 1.4.8 2023年9月
       url: /zh/dancexr/releases/1.4.8
-    - title: 2023年8月发布1.4.7
+    - title: 发布 1.4.7 2023年8月
       url: /zh/dancexr/releases/1.4.7
-    - title: 2023年7月发布1.4.6
+    - title: 发布 1.4.6 2023年7月
       url: /zh/dancexr/releases/1.4.6
-    - title: 2023年6月发布1.4.5
+    - title: 发布 1.4.5 2023年6月
       url: /zh/dancexr/releases/1.4.5
-    - title: 2023年5月发布1.4.4
+    - title: 发布 1.4.4 2023年5月
       url: /zh/dancexr/releases/1.4.4
-    - title: 2023年4月发布1.4.3
+    - title: 发布 1.4.3 2023年4月
       url: /zh/dancexr/releases/1.4.3
-    - title: 2023年3月发布1.4.2
+    - title: 发布 1.4.2 2023年3月
       url: /zh/dancexr/releases/1.4.2
-    - title: 2023年2月发布1.4.1
+    - title: 发布 1.4.1 2023年2月
       url: /zh/dancexr/releases/1.4.1
-    - title: 2023年1月发布1.4.0
+    - title: 发布 1.4.0 2023年1月
       url: /zh/dancexr/releases/1.4.0
   - title: 关于发布
     url: /zh/dancexr/releases
@@ -120,7 +121,7 @@ releases-zh:
     url: /zh/dancexr/features
 
 docs-zh:
-  - title: 入门指南
+  - title: 帮助
     children:
       - title: "概述"
         url: /zh/dancexr
@@ -128,6 +129,14 @@ docs-zh:
         url: /zh/dancexr/download
       - title: "内容库"
         url: /zh/dancexr/preparecontent
+      - title: 功能列表
+        url: /zh/dancexr/features
+      - title: 变体和可用性
+        url: /zh/dancexr/versions
+      - title: 常见问题
+        url: /zh/dancexr/faq
+      - title: 故障排除
+        url: /zh/dancexr/troubleshooting
   - title: 新功能
     children:
       - title: "视频播放"
@@ -136,8 +145,6 @@ docs-zh:
         url: /zh/dancexr/features/ar_mode
       - title: "AI聊天"
         url: /zh/dancexr/ai_chat
-  - title: 完整功能列表
-    url: /zh/dancexr/features
   - title: 发布
     url: /zh/dancexr/releases/
     children:
@@ -145,49 +152,43 @@ docs-zh:
       url: /zh/dancexr/releases/2024.4
     - title: "2024.3"
       url: /zh/dancexr/releases/2024.3
-  - title: 变体和可用性
-    url: /zh/dancexr/versions
-  - title: 常见问题
-    url: /zh/dancexr/faq
-  - title: 故障排除
-    url: /zh/dancexr/troubleshooting
 
 releases-tw:
   - title: 2024
     children:
-    - title: 2024.4發布
+    - title: 發布 2024.4
       url: /tw/dancexr/releases/2024.4
-    - title: 2024.3發布
+    - title: 發布 2024.3
       url: /tw/dancexr/releases/2024.3
-    - title: 2024.2發布
+    - title: 發布 2024.2
       url: /tw/dancexr/releases/2024.2
-    - title: 2024.1發布
+    - title: 發布 2024.1
       url: /tw/dancexr/releases/2024.1
   - title: 2023
     children:
-    - title: 2023年12月1.5.1版本發布
+    - title: 發布 1.5.1 2023年12月
       url: /tw/dancexr/releases/1.5.1
-    - title: 2023年11月1.5.0版本發布
+    - title: 發布 1.5.0 2023年11月
       url: /tw/dancexr/releases/1.5.0
-    - title: 2023年10月1.4.9版本發布
+    - title: 發布 1.4.9 2023年10月
       url: /tw/dancexr/releases/1.4.9
-    - title: 2023年9月1.4.8版本發布
+    - title: 發布 1.4.8 2023年9月
       url: /tw/dancexr/releases/1.4.8
-    - title: 2023年8月1.4.7版本發布
+    - title: 發布 1.4.7 2023年8月
       url: /tw/dancexr/releases/1.4.7
-    - title: 2023年7月1.4.6版本發布
+    - title: 發布 1.4.6 2023年7月
       url: /tw/dancexr/releases/1.4.6
-    - title: 2023年6月1.4.5版本發布
+    - title: 發布 1.4.5 2023年6月
       url: /tw/dancexr/releases/1.4.5
-    - title: 2023年5月1.4.4版本發布
+    - title: 發布 1.4.4 2023年5月
       url: /tw/dancexr/releases/1.4.4
-    - title: 2023年4月1.4.3版本發布
+    - title: 發布 1.4.3 2023年4月
       url: /tw/dancexr/releases/1.4.3
-    - title: 2023年3月1.4.2版本發布
+    - title: 發布 1.4.2 2023年3月
       url: /tw/dancexr/releases/1.4.2
-    - title: 2023年2月1.4.1版本發布
+    - title: 發布 1.4.1 2023年2月
       url: /tw/dancexr/releases/1.4.1
-    - title: 2023年1月1.4.0版本發布
+    - title: 發布 1.4.0 2023年1月
       url: /tw/dancexr/releases/1.4.0
   - title: 關於發布
     url: /tw/dancexr/releases
@@ -197,7 +198,7 @@ releases-tw:
     url: /tw/dancexr/features
 
 docs-tw:
-  - title: 入門指南
+  - title: 幫助
     children:
       - title: "概述"
         url: /tw/dancexr
@@ -205,6 +206,14 @@ docs-tw:
         url: /tw/dancexr/download
       - title: "內容庫"
         url: /tw/dancexr/preparecontent
+      - title: 功能列表
+        url: /tw/dancexr/features
+      - title: 變體與可用性
+        url: /tw/dancexr/versions
+      - title: 常見問題
+        url: /tw/dancexr/faq
+      - title: 故障排除
+        url: /tw/dancexr/troubleshooting
   - title: 新功能
     children:
       - title: "視頻播放"
@@ -213,8 +222,6 @@ docs-tw:
         url: /tw/dancexr/features/ar_mode
       - title: "AI聊天"
         url: /tw/dancexr/ai_chat
-  - title: 完整功能列表
-    url: /tw/dancexr/features
   - title: 發布
     url: /tw/dancexr/releases/
     children:
@@ -222,12 +229,6 @@ docs-tw:
       url: /tw/dancexr/releases/2024.4
     - title: "2024.3"
       url: /tw/dancexr/releases/2024.3
-  - title: 變體和可用性
-    url: /tw/dancexr/versions
-  - title: 常見問題
-    url: /tw/dancexr/faq
-  - title: 故障排除
-    url: /tw/dancexr/troubleshooting
 
 releases-jp:
   - title: 2024
@@ -274,7 +275,7 @@ releases-jp:
     url: /jp/dancexr/features
 
 docs-jp:
-  - title: はじめに
+  - title: ヘルプ
     children:
       - title: "概要"
         url: /jp/dancexr
@@ -282,6 +283,14 @@ docs-jp:
         url: /jp/dancexr/download
       - title: "コンテンツライブラリ"
         url: /jp/dancexr/preparecontent
+      - title: 機能リスト
+        url: /jp/dancexr/features
+      - title: バリアントと利用可能性
+        url: /jp/dancexr/versions
+      - title: FAQ
+        url: /jp/dancexr/faq
+      - title: トラブルシューティング
+        url: /jp/dancexr/troubleshooting
   - title: 新機能
     children:
       - title: "ビデオ再生"
@@ -290,8 +299,6 @@ docs-jp:
         url: /jp/dancexr/features/ar_mode
       - title: "AIチャット"
         url: /jp/dancexr/ai_chat
-  - title: 全機能リスト
-    url: /jp/dancexr/features
   - title: リリース
     url: /jp/dancexr/releases/
     children:
@@ -299,12 +306,6 @@ docs-jp:
       url: /jp/dancexr/releases/2024.4
     - title: "2024.3"
       url: /jp/dancexr/releases/2024.3
-  - title: バリアントと利用可能性
-    url: /jp/dancexr/versions
-  - title: よくある質問
-    url: /jp/dancexr/faq
-  - title: トラブルシューティング
-    url: /jp/dancexr/troubleshooting
 
 releases-kr:
   - title: 2024
@@ -319,29 +320,29 @@ releases-kr:
       url: /kr/dancexr/releases/2024.1
   - title: 2023
     children:
-    - title: 1.5.1 2023년 12월 출시
+    - title: 12월 2023 출시 1.5.1
       url: /kr/dancexr/releases/1.5.1
-    - title: 1.5.0 2023년 11월 출시
+    - title: 11월 2023 출시 1.5.0
       url: /kr/dancexr/releases/1.5.0
-    - title: 1.4.9 2023년 10월 출시
+    - title: 10월 2023 출시 1.4.9
       url: /kr/dancexr/releases/1.4.9
-    - title: 1.4.8 2023년 9월 출시
+    - title: 9월 2023 출시 1.4.8
       url: /kr/dancexr/releases/1.4.8
-    - title: 1.4.7 2023년 8월 출시
+    - title: 8월 2023 출시 1.4.7
       url: /kr/dancexr/releases/1.4.7
-    - title: 1.4.6 2023년 7월 출시
+    - title: 7월 2023 출시 1.4.6
       url: /kr/dancexr/releases/1.4.6
-    - title: 1.4.5 2023년 6월 출시
+    - title: 6월 2023 출시 1.4.5
       url: /kr/dancexr/releases/1.4.5
-    - title: 1.4.4 2023년 5월 출시
+    - title: 5월 2023 출시 1.4.4
       url: /kr/dancexr/releases/1.4.4
-    - title: 1.4.3 2023년 4월 출시
+    - title: 4월 2023 출시 1.4.3
       url: /kr/dancexr/releases/1.4.3
-    - title: 1.4.2 2023년 3월 출시
+    - title: 3월 2023 출시 1.4.2
       url: /kr/dancexr/releases/1.4.2
-    - title: 1.4.1 2023년 2월 출시
+    - title: 2월 2023 출시 1.4.1
       url: /kr/dancexr/releases/1.4.1
-    - title: 1.4.0 2023년 1월 출시
+    - title: 1월 2023 출시 1.4.0
       url: /kr/dancexr/releases/1.4.0
   - title: 출시 정보
     url: /kr/dancexr/releases
@@ -351,7 +352,7 @@ releases-kr:
     url: /kr/dancexr/features
 
 docs-kr:
-  - title: 시작하기
+  - title: 도움말
     children:
       - title: "개요"
         url: /kr/dancexr
@@ -359,16 +360,22 @@ docs-kr:
         url: /kr/dancexr/download
       - title: "콘텐츠 라이브러리"
         url: /kr/dancexr/preparecontent
+      - title: 기능 목록
+        url: /kr/dancexr/features
+      - title: 변형 및 이용 가능성
+        url: /kr/dancexr/versions
+      - title: FAQ
+        url: /kr/dancexr/faq
+      - title: 문제 해결
+        url: /kr/dancexr/troubleshooting
   - title: 새로운 기능
     children:
       - title: "비디오 재생"
         url: /kr/dancexr/features/video_playback
       - title: "AR 모드"
         url: /kr/dancexr/features/ar_mode
-      - title: "AI 챗"
+      - title: "AI 챗봇"
         url: /kr/dancexr/ai_chat
-  - title: 전체 기능 목록
-    url: /kr/dancexr/features
   - title: 출시
     url: /kr/dancexr/releases/
     children:
@@ -376,10 +383,4 @@ docs-kr:
       url: /kr/dancexr/releases/2024.4
     - title: "2024.3"
       url: /kr/dancexr/releases/2024.3
-  - title: 변형 및 가용성
-    url: /kr/dancexr/versions
-  - title: FAQ
-    url: /kr/dancexr/faq
-  - title: 문제 해결
-    url: /kr/dancexr/troubleshooting
 
