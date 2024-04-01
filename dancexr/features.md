@@ -32,9 +32,8 @@ sidebar:
 | [Water Interaction](features/water_interaction.md)
 |
 | *Pro Features*
-| [Outfit & Body Paint](features/outfit_body_paint){: .pro} | PRO |{: .pro}
+| [Outfit & Body Paint](features/outfit_body_paint){: .pro} | PRO |
 | [Motion Override](features/motion_override){: .pro} | PRO |
-{: .pro}
 | [Accessory](features/accessory.md){: .pro} | PRO |
 | [Ragdoll](features/ragdoll.md){: .pro} | PRO |
 | [Lightball](features/lightball.md){: .pro} | PRO |
