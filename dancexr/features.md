@@ -13,7 +13,7 @@ sidebar:
 
 | Features | |
 | :--- | ---: |
-| **# Character, Stages And Props Models** 
+| ***Character, Stages And Props Models*** 
 | *Content Management*
 | [Tagging and Search](features/tagging) 
 | [Model Cache & Loader Options](features/loader_options) 
@@ -47,7 +47,7 @@ sidebar:
 | [Custom Inherit Motion](features/custom_inherit.md)
 | [PMX Physics](features/pmx_physics)
 |
-| **# Motion & Media Content** |
+| ***Motion & Media Content*** |
 | *Audio & Video*
 | [Video Playback](features/video_playback){: .pro} | PRO |
 | [Audio Playback Options](features/audio_options)
@@ -83,7 +83,7 @@ sidebar:
 | [Fixed Camera (Concert Mode)](features/camera)
 | [Camera Motion & Settings](features/camera)
 |
-| **# Environment** |
+| ***Environment*** |
 | [Sky and Cloud](features/skymap)
 | [Lighting](features/lighting)
 | [Particle System](features/particles)
@@ -96,7 +96,7 @@ sidebar:
 | [Save & Load Scene](features/save_scene.md)
 | [Scene Bundles](features/scene_bundle.md)
 |
-| **# Scene & Stage**
+| ***Scene & Stage***
 | *Stages*
 | [Ground, Stage & Water System](features/ground)
 | [Procedural Room Stage](features/room_stage)
@@ -108,7 +108,7 @@ sidebar:
 | [Mirror](features/mirror.md)
 | [Prop Model & Settings](features/props.md)
 |
-| **# System** |
+| ***System*** |
 | [Content Library](preparecontent)
 | [Google Drive Integration](features/googledrive)
 | [Content Library for Android, Quest and Pico](content_android_quest)
