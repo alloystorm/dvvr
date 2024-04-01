@@ -31,27 +31,28 @@ sidebar:
 | [Feet Adjustments](features/feet_adjustments)
 | [Troubleshooting Options](features/troubleshooting_options)
 | [Water Interaction](features/water_interaction.md)
+| [Actor Presets](features/actor_presets.md) | [2024.1](releases/2024.1.md)
 |
 | *Pro Features*
-| [Outfit & Body Paint](features/outfit_body_paint){: .pro} | [2024.3](releases/2024.3.md) | PRO
-| [Motion Override](features/motion_override){: .pro} | | PRO |
-| [Accessory](features/accessory.md){: .pro} | | PRO |
-| [Ragdoll](features/ragdoll.md){: .pro} | | PRO |
-| [Lightball](features/lightball.md){: .pro} | | PRO |
+| [Outfit & Body Paint](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | PRO
+| [Motion Override](features/motion_override) | | PRO |
+| [Accessory](features/accessory.md) | | PRO |
+| [Ragdoll](features/ragdoll.md) | | PRO |
+| [Lightball](features/lightball.md) | | PRO |
 | [Boob Shake](features/boob_shake_sex_overlay){: .nsfw} | | NSFW |
 | [Sex Overlay](features/boob_shake_sex_overlay){: .nsfw} | | NSFW |
 | [Dildo](features/dildo){: .nsfw} | | NSFW |
 |
 | *Model Format Specific*
 | [XPS Bone Mapper](features/bone_mapper.md)
-| [XPS Physics](features/xps_physics){: .pro} | | PRO |
+| [XPS Physics](features/xps_physics) | | PRO |
 | [Custom Inherit Motion](features/custom_inherit.md)
 | [PMX Physics](features/pmx_physics)
 |
 | ***Motion & Media Content*** |
 | [Organizing Motion Files Best Practices](preparecontent#motion-files)
 | *Audio & Video*
-| [Video Playback](features/video_playback){: .pro} | [2024.4](releases/2024.4.md) | PRO
+| [Video Playback](features/video_playback) | [2024.4](releases/2024.4.md) | PRO
 | [Audio Playback Options](features/audio_options)
 | [Music Timing](features/music_timing)
 |
@@ -69,9 +70,9 @@ sidebar:
 | *Procedural Motions*
 | [Idle Motion](features/idle_motion.md)
 | [Catwalk](features/catwalk.md)
-| [Auto Dance](features/autodance){: .pro} | | PRO |
-| [Auto Dance 2](features/autodance2){: .pro} | | PRO |
-| [Auto Dance 3](features/autodance3.md){: .pro} | | PRO |
+| [Auto Dance](features/autodance) | | PRO |
+| [Auto Dance 2](features/autodance2) | | PRO |
+| [Auto Dance 3](features/autodance3.md) | | PRO |
 | [Cowgirl Sex](features/scg_motion){: .nsfw} | | NSFW |
 | [Sex From Behind](features/sfb_motion){: .nsfw} | | NSFW |
 | [Sex Motion 3](features/sm3_motion){: .nsfw} | | NSFW |
@@ -118,9 +119,10 @@ sidebar:
 | [Multi-Language Support](features/languages.md)
 | [Input Settings](features/controls)
 | [Physics Config](features/system_physics)
-| [Auto Update](features/autoupdate){: .pro} | | PRO |
+| [Auto Update](features/autoupdate) | | PRO |
+| [System Presets](features/system_presets.md) | [2024.1](releases/2024.1.md)
 |
-| [**Offline Render & Recording**](creator.md){: .pro} | | CREATOR |
+| [**Offline Render & Recording**](creator.md) | | CREATOR |
 |
-| [**AI Voice Chat**](ai_chat){: .pro} | | PRO |
+| [**AI Voice Chat**](ai_chat) | | PRO |
 
