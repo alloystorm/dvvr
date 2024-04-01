@@ -33,25 +33,25 @@ sidebar:
 | [Water Interaction](features/water_interaction.md)
 |
 | *Pro Features*
-| [Outfit & Body Paint](features/outfit_body_paint){: .pro} | [2024.3](releases/2024.3.md) | <sup>PRO</sup>
-| [Motion Override](features/motion_override){: .pro} | | <sup>PRO</sup> |
-| [Accessory](features/accessory.md){: .pro} | | <sup>PRO</sup> |
-| [Ragdoll](features/ragdoll.md){: .pro} | | <sup>PRO</sup> |
-| [Lightball](features/lightball.md){: .pro} | | <sup>PRO</sup> |
-| [Boob Shake](features/boob_shake_sex_overlay){: .nsfw} | | <sup>NSFW</sup> |
-| [Sex Overlay](features/boob_shake_sex_overlay){: .nsfw} | | <sup>NSFW</sup> |
-| [Dildo](features/dildo){: .nsfw} | | <sup>NSFW</sup> |
+| [Outfit & Body Paint](features/outfit_body_paint){: .pro} | [2024.3](releases/2024.3.md) | PRO
+| [Motion Override](features/motion_override){: .pro} | | PRO |
+| [Accessory](features/accessory.md){: .pro} | | PRO |
+| [Ragdoll](features/ragdoll.md){: .pro} | | PRO |
+| [Lightball](features/lightball.md){: .pro} | | PRO |
+| [Boob Shake](features/boob_shake_sex_overlay){: .nsfw} | | NSFW |
+| [Sex Overlay](features/boob_shake_sex_overlay){: .nsfw} | | NSFW |
+| [Dildo](features/dildo){: .nsfw} | | NSFW |
 |
 | *Model Format Specific*
 | [XPS Bone Mapper](features/bone_mapper.md)
-| [XPS Physics](features/xps_physics){: .pro} | | <sup>PRO</sup> |
+| [XPS Physics](features/xps_physics){: .pro} | | PRO |
 | [Custom Inherit Motion](features/custom_inherit.md)
 | [PMX Physics](features/pmx_physics)
 |
 | ***Motion & Media Content*** |
 | [Organizing Motion Files Best Practices](preparecontent#motion-files)
 | *Audio & Video*
-| [Video Playback](features/video_playback){: .pro} | [2024.4](releases/2024.4.md) | <sup>PRO</sup>
+| [Video Playback](features/video_playback){: .pro} | [2024.4](releases/2024.4.md) | PRO
 | [Audio Playback Options](features/audio_options)
 | [Music Timing](features/music_timing)
 |
@@ -69,12 +69,12 @@ sidebar:
 | *Procedural Motions*
 | [Idle Motion](features/idle_motion.md)
 | [Catwalk](features/catwalk.md)
-| [Auto Dance](features/autodance){: .pro} | | <sup>PRO</sup> |
-| [Auto Dance 2](features/autodance2){: .pro} | | <sup>PRO</sup> |
-| [Auto Dance 3](features/autodance3.md){: .pro} | | <sup>PRO</sup> |
-| [Cowgirl Sex](features/scg_motion){: .nsfw}<sup>[NSFW]</sup> | | <sup>NSFW</sup> |
-| [Sex From Behind](features/sfb_motion){: .nsfw}<sup>[NSFW]</sup> | | <sup>NSFW</sup> |
-| [Sex Motion 3](features/sm3_motion){: .nsfw}<sup>[NSFW]</sup> | | <sup>NSFW</sup> |
+| [Auto Dance](features/autodance){: .pro} | | PRO |
+| [Auto Dance 2](features/autodance2){: .pro} | | PRO |
+| [Auto Dance 3](features/autodance3.md){: .pro} | | PRO |
+| [Cowgirl Sex](features/scg_motion){: .nsfw} | | NSFW |
+| [Sex From Behind](features/sfb_motion){: .nsfw} | | NSFW |
+| [Sex Motion 3](features/sm3_motion){: .nsfw} | | NSFW |
 |
 | *Camera Motions*
 | [Freefly Camera](features/camera)
@@ -89,13 +89,13 @@ sidebar:
 | [Sky and Cloud](features/skymap)
 | [Lighting](features/lighting)
 | [Particle System](features/particles)
-| [AR Mode](features/ar_mode) | | <sup>PRO</sup> |
+| [AR Mode](features/ar_mode) | | PRO |
 | [Stages](features/stages)
 | [Props](features/props)
 | [Beats Ring](features/beats_ring.md)
 | [Stage Laser](features/laser.md) | [2024.3](releases/2024.3.md) |
 | [Save & Load Scene](features/save_scene.md)
-| [Scene Bundles](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | <sup>PRO</sup> |
+| [Scene Bundles](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | PRO |
 |
 | ***Scene & Stage***
 | *Stages*
@@ -118,9 +118,9 @@ sidebar:
 | [Multi-Language Support](features/languages.md)
 | [Input Settings](features/controls)
 | [Physics Config](features/system_physics)
-| [Auto Update](features/autoupdate){: .pro} | | <sup>PRO</sup> |
+| [Auto Update](features/autoupdate){: .pro} | | PRO |
 |
-| [**Offline Render & Recording**](creator.md){: .pro} | | <sup>CREATOR</sup> |
+| [**Offline Render & Recording**](creator.md){: .pro} | | CREATOR |
 |
-| [**AI Voice Chat**](ai_chat){: .pro} | | <sup>PRO</sup> |
+| [**AI Voice Chat**](ai_chat){: .pro} | | PRO |
 
