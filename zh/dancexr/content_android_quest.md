@@ -8,32 +8,45 @@ sidebar:
 ---
 [Eng](/dancexr/content_android_quest) | [繁中](/tw/dancexr/content_android_quest) | [日本語](/jp/dancexr/content_android_quest) | [한국어](/kr/dancexr/content_android_quest) | [简中](/zh/dancexr/content_android_quest)
 
-
 ## 为Android和Oculus Quest准备内容
 
-与PC版本类似，DanceXR需要准备一个内容文件夹，以便知道在哪里找到所有的模型、动作和纹理。然而在Android上，应用程序只能访问特定的文件夹，除非授予特殊权限。因此，在Android和Oculus Quest平台上，您将无法像在PC上那样选择内容文件夹。内容需要放置在特定的位置。
+与PC版本类似，DanceXR需要准备一个内容文件夹，以便知道在哪里找到所有的模型、动作和纹理。
 
-## 如果您可以将设备连接到PC
+然而，Android系统有严格的文件访问规则。通常应用程序无法访问存储中的文件夹。因此，默认情况下，Android和Quest版本的内容库位于应用程序存储空间内，需要使用PC将文件复制到其中。
 
-使用PC在设备上管理内容仍然更容易。只需在Windows的“文件资源管理器”中复制和粘贴文件即可。在从PC复制内容之前，建议将内容单独压缩以便更容易管理和减少存储空间。
+从版本2024.3开始，我们使用存储权限来使文件管理变得更加容易。为此，您需要授予DanceXR访问存储的权限，然后您就可以使用系统文件应用程序移动和复制文件了。
+
+{% include video id="mFnXE7LBV-M" provider="youtube" %}
+
+对于旧版本或者如果选择使用应用程序内部存储空间，内容库位于此处：/Android/data/com.vrstormlab.dancexr/files/。
+
+## 如果您可以将您的设备连接到PC
+
+使用PC来管理设备上的内容仍然更容易。只需在Windows“文件资源管理器”中复制和粘贴文件。在从PC复制内容之前，建议将内容单独压缩以便更容易管理和减少存储空间。
 
 * 在设备上安装DanceXR
-* 将设备连接到PC。从弹出对话框或系统设置中选择“文件传输”。
+* 将您的设备连接到PC。从弹出对话框或系统设置中选择“文件传输”。
 * 现在打开文件资源管理器，您应该能够看到您的设备。
-* 导航到/Android/data/com.vrstormlab.dancexr/files/。如果您看不到该文件夹，请确保已安装DanceXR，如果安装后仍然找不到，请告诉我们，我们将尽力解决。
-* 将整个内容文件夹复制到该目录中。因此，您的内容文件夹结构将类似于![示例文件夹](/images/content_folder_android.png)
+* 导航到/DanceXR/，或者如果您使用旧版本或选择使用内部存储，则导航到/Android/data/com.vrstormlab.dancexr/files/。如果您没有看到该文件夹，请确保DanceXR已安装，如果安装后仍然找不到，请告诉我们，我们将尽力找出原因。
+* 将整个内容文件夹复制到该目录。因此，您的内容文件夹结构将如下所示：![example folder](/images/content_folder_android.png)
 
-然后，您应该能够在下次在设备上运行DanceXR时看到您的内容。
+然后，您应该能够在设备上运行DanceXR时看到您的内容。
 
-## 如果您无法访问PC（仅适用于Android版本）
+## 使用系统文件应用程序
 
-Android版本附带了一个名为Content Manager的应用程序，可以帮助您在设备上组织内容。安装DanceXR后，您应该能够在应用程序抽屉或桌面上看到它。它的图标与DanceXR播放器相同，但标题为“Content Manager”。Content Manager应用程序仅支持zip、png和jpg格式。
+有了新的外部存储权限，您可以使用系统文件应用程序在库中传输和管理内容。
 
-打开它后，您将看到您的内容文件夹，并浏览其中包含的文件。您可以点击文件，将它们移动到其他位置或[设置zip文件编码](features/zip_format)。
+找到存储根目录下的DanceXR内容文件夹，然后您可以看到各种类型的内容的所有子文件夹，并在它们之间移动文件。
 
-Content Manager应用程序还在打开或共享支持的文件类型（zip、png或jpg）时将自身设置为目标。
+## 内容管理器应用程序（仅限Android）
 
-* 如果您从浏览器下载zip文件。下载完成后，点击下载的文件，您应该会看到带有“添加到库”的DanceXR图标，选择该选项，然后选择要保存该文件的位置，它将被复制到内容库中。
+Android版本附带了一个内容管理器应用程序，可以帮助您在设备上组织内容。安装DanceXR后，您应该能够在应用程序抽屉或桌面上看到它。它的图标与DanceXR播放器相同，但标题为“内容管理器”。内容管理器应用程序仅支持zip、png和jpg格式。
+
+打开后，您将看到您的内容文件夹，并浏览其中包含的文件。您可以单击文件，将它们移动到其他位置，或者[设置zip文件编码](features/zip_format)。
+
+内容管理器应用程序还会在您打开或共享支持的文件类型（zip、png或jpg）时将自身设置为目标。
+
+* 如果您从浏览器下载zip文件。下载完成后，点击下载的文件，您应该会看到DanceXR图标和“添加到库”选项，选择该选项，然后选择要将文件保存到的位置，然后文件将被复制到内容库中。
 * 您还可以使用文件管理器应用程序浏览手机，然后从菜单中选择“打开方式”，您也将能够看到DanceXR的“添加到库”选项。
 
-这只是Content Manager的第一个版本，我们将继续在其中添加更多功能。
+这只是内容管理器的第一个版本，我们将继续在其中添加更多功能。
