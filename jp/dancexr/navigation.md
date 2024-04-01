@@ -43,7 +43,7 @@ releases:
     url: /dancexr/features
 
 docs:
-  - title: はじめに
+  - title: ヘルプ
     children:
       - title: "概要"
         url: /dancexr
@@ -51,6 +51,14 @@ docs:
         url: /dancexr/download
       - title: "コンテンツライブラリ"
         url: /dancexr/preparecontent
+      - title: 機能リスト
+        url: /dancexr/features
+      - title: バリアントと利用可能性
+        url: /dancexr/versions
+      - title: FAQ
+        url: /dancexr/faq
+      - title: トラブルシューティング
+        url: /dancexr/troubleshooting
   - title: 新機能
     children:
       - title: "ビデオ再生"
@@ -59,8 +67,6 @@ docs:
         url: /dancexr/features/ar_mode
       - title: "AIチャット"
         url: /dancexr/ai_chat
-  - title: 全機能リスト
-    url: /dancexr/features
   - title: リリース
     url: /dancexr/releases/
     children:
@@ -68,9 +74,3 @@ docs:
       url: /dancexr/releases/2024.4
     - title: "2024.3"
       url: /dancexr/releases/2024.3
-  - title: バリアントと利用可能性
-    url: /dancexr/versions
-  - title: よくある質問
-    url: /dancexr/faq
-  - title: トラブルシューティング
-    url: /dancexr/troubleshooting
