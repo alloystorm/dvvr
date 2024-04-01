@@ -111,7 +111,7 @@ lang_names = {
     'ko-rKR': 'Korean',
 }
 
-gpt_model = "gpt-3.5-turbo-1106"
+gpt_model = "gpt-3.5-turbo"
 
 # Function to call OpenAI API for translation
 def translate(text, target_language):

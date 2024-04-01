@@ -1,3 +1,12 @@
+---
+locale: en-US
+layout: single
+title: Laser System
+toc: true
+sidebar:
+  nav: "docs"
+---
+
 # New Laser System
 * All new shader that simulates stage laser realistically
 * Highly customizable formation & position, allowing you to place laser array on the wall, ceilling or the ground
