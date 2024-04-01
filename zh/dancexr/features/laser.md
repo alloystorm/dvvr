@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-zh"
 ---
+[Eng](/dancexr/features/laser) | [繁中](/tw/dancexr/features/laser) | [日本語](/jp/dancexr/features/laser) | [한국어](/kr/dancexr/features/laser) | [简中](/zh/dancexr/features/laser)
+
 # 新激光系统
 * 全新的着色器，逼真模拟舞台激光
 * 高度可定制的形成和位置，允许您将激光阵列放置在墙壁、天花板或地面上

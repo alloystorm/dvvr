@@ -6,6 +6,8 @@ title: 피부 소재
 sidebar:
   nav: "docs-kr"
 ---
+[Eng](/dancexr/features/material_skin) | [繁中](/tw/dancexr/features/material_skin) | [日本語](/jp/dancexr/features/material_skin) | [한국어](/kr/dancexr/features/material_skin) | [简中](/zh/dancexr/features/material_skin)
+
 ## 피부 소재
 피부 소재로 분류된 소재의 속성을 제어합니다.
 

@@ -6,6 +6,8 @@ title: 自定义继承动作
 sidebar:
   nav: "docs-zh"
 ---
+[Eng](/dancexr/features/custom_inherit) | [繁中](/tw/dancexr/features/custom_inherit) | [日本語](/jp/dancexr/features/custom_inherit) | [한국어](/kr/dancexr/features/custom_inherit) | [简中](/zh/dancexr/features/custom_inherit)
+
 ## 自定义继承动作
 
 alpha: 透明度

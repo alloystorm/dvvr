@@ -6,6 +6,8 @@ title: スキンマテリアル
 sidebar:
   nav: "docs-jp"
 ---
+[Eng](/dancexr/features/material_skin) | [繁中](/tw/dancexr/features/material_skin) | [日本語](/jp/dancexr/features/material_skin) | [한국어](/kr/dancexr/features/material_skin) | [简中](/zh/dancexr/features/material_skin)
+
 ## スキンマテリアル
 スキンマテリアルとして分類されるマテリアルのプロパティを制御します。
 

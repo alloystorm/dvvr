@@ -6,6 +6,8 @@ title: 머리 재질
 sidebar:
   nav: "docs-kr"
 ---
+[Eng](/dancexr/features/material_hair) | [繁中](/tw/dancexr/features/material_hair) | [日本語](/jp/dancexr/features/material_hair) | [한국어](/kr/dancexr/features/material_hair) | [简中](/zh/dancexr/features/material_hair)
+
 ## 헤어 소재
 헤어 소재로 분류된 소재의 속성을 제어합니다.
 

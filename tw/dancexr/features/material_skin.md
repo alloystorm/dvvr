@@ -6,6 +6,8 @@ title: 皮膚材質
 sidebar:
   nav: "docs-tw"
 ---
+[Eng](/dancexr/features/material_skin) | [繁中](/tw/dancexr/features/material_skin) | [日本語](/jp/dancexr/features/material_skin) | [한국어](/kr/dancexr/features/material_skin) | [简中](/zh/dancexr/features/material_skin)
+
 ## 皮膚材質
 控制被歸類為皮膚材質的材料的屬性。
 

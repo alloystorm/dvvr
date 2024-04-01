@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/laser) | [繁中](/tw/dancexr/features/laser) | [日本語](/jp/dancexr/features/laser) | [한국어](/kr/dancexr/features/laser) | [简中](/zh/dancexr/features/laser)
+
 
 # New Laser System
 * All new shader that simulates stage laser realistically

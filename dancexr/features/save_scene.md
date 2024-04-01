@@ -6,6 +6,8 @@ title: Save Scene
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/save_scene) | [繁中](/tw/dancexr/features/save_scene) | [日本語](/jp/dancexr/features/save_scene) | [한국어](/kr/dancexr/features/save_scene) | [简中](/zh/dancexr/features/save_scene)
+
 
 ## Save Scene
 You can save your scene setup including actors, motions, stage and configurations in a scene file in order to retrieve later.

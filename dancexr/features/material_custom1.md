@@ -6,6 +6,8 @@ title: Custom Materials
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/material_custom1) | [繁中](/tw/dancexr/features/material_custom1) | [日本語](/jp/dancexr/features/material_custom1) | [한국어](/kr/dancexr/features/material_custom1) | [简中](/zh/dancexr/features/material_custom1)
+
 
 ## Custom Materials
 By default this is off and has no materials assigned to it. 

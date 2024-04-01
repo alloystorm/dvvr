@@ -6,6 +6,8 @@ title: オートダンス3
 sidebar:
   nav: "docs-jp"
 ---
+[Eng](/dancexr/features/autodance3) | [繁中](/tw/dancexr/features/autodance3) | [日本語](/jp/dancexr/features/autodance3) | [한국어](/kr/dancexr/features/autodance3) | [简中](/zh/dancexr/features/autodance3)
+
 ## オートダンス3
 これは[SM3](sm3_motion.md)に似ているが、NSFWの部分はない手続き的な動きです。
 

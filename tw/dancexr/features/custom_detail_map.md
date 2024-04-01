@@ -6,6 +6,8 @@ title: 自定義細節地圖
 sidebar:
   nav: "docs-tw"
 ---
+[Eng](/dancexr/features/custom_detail_map) | [繁中](/tw/dancexr/features/custom_detail_map) | [日本語](/jp/dancexr/features/custom_detail_map) | [한국어](/kr/dancexr/features/custom_detail_map) | [简中](/zh/dancexr/features/custom_detail_map)
+
 ## 自定義細節地圖
 自定義細節地圖允許您將自定義細節地圖添加到材質中。此地圖可用於為材質添加在基本地圖中不存在的細節。
 

@@ -6,6 +6,8 @@ title: 自定义详细地图
 sidebar:
   nav: "docs-zh"
 ---
+[Eng](/dancexr/features/custom_detail_map) | [繁中](/tw/dancexr/features/custom_detail_map) | [日本語](/jp/dancexr/features/custom_detail_map) | [한국어](/kr/dancexr/features/custom_detail_map) | [简中](/zh/dancexr/features/custom_detail_map)
+
 ## 自定义细节地图
 自定义细节地图允许您向材质添加自定义细节地图。该地图可用于向材质添加在基础地图中不存在的细节。
 

@@ -6,6 +6,8 @@ title: 六角形パターン詳細マップ
 sidebar:
   nav: "docs-jp"
 ---
+[Eng](/dancexr/features/hexagon_detail) | [繁中](/tw/dancexr/features/hexagon_detail) | [日本語](/jp/dancexr/features/hexagon_detail) | [한국어](/kr/dancexr/features/hexagon_detail) | [简中](/zh/dancexr/features/hexagon_detail)
+
 ## ヘキサゴンパターン詳細マップ
 これは即座に生成されるプロシージャルな詳細マップです。詳細マップをサポートするマテリアルカテゴリやアウトフィット効果で使用できます。
 

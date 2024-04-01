@@ -6,6 +6,8 @@ title: 自定义材质
 sidebar:
   nav: "docs-zh"
 ---
+[Eng](/dancexr/features/material_custom1) | [繁中](/tw/dancexr/features/material_custom1) | [日本語](/jp/dancexr/features/material_custom1) | [한국어](/kr/dancexr/features/material_custom1) | [简中](/zh/dancexr/features/material_custom1)
+
 ## 自定义材质
 默认情况下，此选项关闭，并未分配任何材质。
 

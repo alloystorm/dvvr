@@ -6,6 +6,8 @@ title: 투명 소재
 sidebar:
   nav: "docs-kr"
 ---
+[Eng](/dancexr/features/material_transparent) | [繁中](/tw/dancexr/features/material_transparent) | [日本語](/jp/dancexr/features/material_transparent) | [한국어](/kr/dancexr/features/material_transparent) | [简中](/zh/dancexr/features/material_transparent)
+
 ## 투명 소재
 투명 소재는 피부, 머리, 눈, 또는 입 소재에 포함되지 않은 투명한 소재입니다.
 

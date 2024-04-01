@@ -6,6 +6,8 @@ title: 保存场景
 sidebar:
   nav: "docs-zh"
 ---
+[Eng](/dancexr/features/save_scene) | [繁中](/tw/dancexr/features/save_scene) | [日本語](/jp/dancexr/features/save_scene) | [한국어](/kr/dancexr/features/save_scene) | [简中](/zh/dancexr/features/save_scene)
+
 ## 保存场景
 您可以将包括演员、动作、舞台和配置在内的场景设置保存在一个场景文件中，以便以后检索。
 

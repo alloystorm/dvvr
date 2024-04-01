@@ -6,6 +6,8 @@ title: Hexagon Pattern Detail Map
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/hexagon_detail) | [繁中](/tw/dancexr/features/hexagon_detail) | [日本語](/jp/dancexr/features/hexagon_detail) | [한국어](/kr/dancexr/features/hexagon_detail) | [简中](/zh/dancexr/features/hexagon_detail)
+
 
 ## Hexagon Pattern Detail Map
 This is a procedural detail map that is generated on the fly. It can be used in material categories that support detail maps and the Outfit effect.

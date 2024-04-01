@@ -6,6 +6,8 @@ title: 头发材质
 sidebar:
   nav: "docs-zh"
 ---
+[Eng](/dancexr/features/material_hair) | [繁中](/tw/dancexr/features/material_hair) | [日本語](/jp/dancexr/features/material_hair) | [한국어](/kr/dancexr/features/material_hair) | [简中](/zh/dancexr/features/material_hair)
+
 ## 头发材质
 控制被归类为头发材质的材质属性。
 

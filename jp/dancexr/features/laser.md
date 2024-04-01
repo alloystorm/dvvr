@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
+[Eng](/dancexr/features/laser) | [繁中](/tw/dancexr/features/laser) | [日本語](/jp/dancexr/features/laser) | [한국어](/kr/dancexr/features/laser) | [简中](/zh/dancexr/features/laser)
+
 # 新しいレーザーシステム
 * ステージレーザーをリアルにシミュレートする新しいシェーダー
 * 高度にカスタマイズ可能な形状と位置、壁、天井、または地面にレーザーアレイを配置できます

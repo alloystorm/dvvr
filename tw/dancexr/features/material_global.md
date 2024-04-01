@@ -6,6 +6,8 @@ title: 全局材質設置
 sidebar:
   nav: "docs-tw"
 ---
+[Eng](/dancexr/features/material_global) | [繁中](/tw/dancexr/features/material_global) | [日本語](/jp/dancexr/features/material_global) | [한국어](/kr/dancexr/features/material_global) | [简中](/zh/dancexr/features/material_global)
+
 ## 全局材質設置
 更改演員模型所有材質的某些屬性。
 

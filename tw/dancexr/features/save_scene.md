@@ -6,6 +6,8 @@ title: 保存場景
 sidebar:
   nav: "docs-tw"
 ---
+[Eng](/dancexr/features/save_scene) | [繁中](/tw/dancexr/features/save_scene) | [日本語](/jp/dancexr/features/save_scene) | [한국어](/kr/dancexr/features/save_scene) | [简中](/zh/dancexr/features/save_scene)
+
 ## 儲存場景
 您可以將包括演員、動作、舞台和配置在內的場景設置保存在場景文件中，以便以後檢索。
 

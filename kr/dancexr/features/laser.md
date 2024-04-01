@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
+[Eng](/dancexr/features/laser) | [繁中](/tw/dancexr/features/laser) | [日本語](/jp/dancexr/features/laser) | [한국어](/kr/dancexr/features/laser) | [简中](/zh/dancexr/features/laser)
+
 # 새로운 레이저 시스템
 * 무대 레이저를 현실적으로 시뮬레이션하는 새로운 쉐이더
 * 고도로 사용자 정의 가능한 형성 및 위치, 벽, 천장 또는 바닥에 레이저 어레이를 배치할 수 있도록 함

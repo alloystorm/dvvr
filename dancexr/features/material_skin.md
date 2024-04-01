@@ -6,6 +6,8 @@ title: Skin Materials
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/material_skin) | [繁中](/tw/dancexr/features/material_skin) | [日本語](/jp/dancexr/features/material_skin) | [한국어](/kr/dancexr/features/material_skin) | [简中](/zh/dancexr/features/material_skin)
+
 
 ## Skin Materials
 Controls properties of the materials that are categorized as skin materials.

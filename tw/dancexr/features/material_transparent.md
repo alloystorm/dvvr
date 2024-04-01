@@ -6,6 +6,8 @@ title: 透明材料
 sidebar:
   nav: "docs-tw"
 ---
+[Eng](/dancexr/features/material_transparent) | [繁中](/tw/dancexr/features/material_transparent) | [日本語](/jp/dancexr/features/material_transparent) | [한국어](/kr/dancexr/features/material_transparent) | [简中](/zh/dancexr/features/material_transparent)
+
 ## 透明度材料
 透明材料是透明的材料，不包括皮膚、頭髮、眼睛或嘴唇材料。
 

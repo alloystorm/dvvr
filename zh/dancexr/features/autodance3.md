@@ -6,6 +6,8 @@ title: 自动舞蹈 3
 sidebar:
   nav: "docs-zh"
 ---
+[Eng](/dancexr/features/autodance3) | [繁中](/tw/dancexr/features/autodance3) | [日本語](/jp/dancexr/features/autodance3) | [한국어](/kr/dancexr/features/autodance3) | [简中](/zh/dancexr/features/autodance3)
+
 ## 自动舞蹈 3
 这是一个类似于[SM3](sm3_motion.md)的程序化动作，但没有不适宜内容。
 

@@ -6,6 +6,8 @@ title: Hair Materials
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/material_hair) | [繁中](/tw/dancexr/features/material_hair) | [日本語](/jp/dancexr/features/material_hair) | [한국어](/kr/dancexr/features/material_hair) | [简中](/zh/dancexr/features/material_hair)
+
 
 ## Hair Materials
 Controls properties of the materials that are categorized as hair materials.

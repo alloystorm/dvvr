@@ -6,6 +6,8 @@ title: 자동 댄스 3
 sidebar:
   nav: "docs-kr"
 ---
+[Eng](/dancexr/features/autodance3) | [繁中](/tw/dancexr/features/autodance3) | [日本語](/jp/dancexr/features/autodance3) | [한국어](/kr/dancexr/features/autodance3) | [简中](/zh/dancexr/features/autodance3)
+
 ## 자동 댄스 3
 이것은 [SM3](sm3_motion.md)과 유사하지만 NSFW 부분이 없는 프로시저 모션입니다.
 

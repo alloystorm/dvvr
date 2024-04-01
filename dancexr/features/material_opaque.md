@@ -6,6 +6,8 @@ title: Opaque Materials
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/material_opaque) | [繁中](/tw/dancexr/features/material_opaque) | [日本語](/jp/dancexr/features/material_opaque) | [한국어](/kr/dancexr/features/material_opaque) | [简中](/zh/dancexr/features/material_opaque)
+
 
 ## Opaque Materials
 Opaque materials are materials that are opaque and not included in skin, hair, eyes, or lips materials.

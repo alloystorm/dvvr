@@ -6,6 +6,8 @@ title: Transparent Materials
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/material_transparent) | [繁中](/tw/dancexr/features/material_transparent) | [日本語](/jp/dancexr/features/material_transparent) | [한국어](/kr/dancexr/features/material_transparent) | [简中](/zh/dancexr/features/material_transparent)
+
 
 ## Transparent Materials
 Transparent materials are materials that are transparent and not included in skin, hair, eyes, or lips materials.

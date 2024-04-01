@@ -6,6 +6,8 @@ title: 不透明材料
 sidebar:
   nav: "docs-tw"
 ---
+[Eng](/dancexr/features/material_opaque) | [繁中](/tw/dancexr/features/material_opaque) | [日本語](/jp/dancexr/features/material_opaque) | [한국어](/kr/dancexr/features/material_opaque) | [简中](/zh/dancexr/features/material_opaque)
+
 ## 不透明材料
 不透明材料是不透明的材料，不包括皮膚、頭髮、眼睛或嘴唇材料。
 

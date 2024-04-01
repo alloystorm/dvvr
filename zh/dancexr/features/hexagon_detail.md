@@ -6,6 +6,8 @@ title: 六边形图案细节地图
 sidebar:
   nav: "docs-zh"
 ---
+[Eng](/dancexr/features/hexagon_detail) | [繁中](/tw/dancexr/features/hexagon_detail) | [日本語](/jp/dancexr/features/hexagon_detail) | [한국어](/kr/dancexr/features/hexagon_detail) | [简中](/zh/dancexr/features/hexagon_detail)
+
 ## 六边形图案细节贴图
 这是一个实时生成的程序化细节贴图。可以在支持细节贴图和服装效果的材质类别中使用。
 

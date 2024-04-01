@@ -6,6 +6,8 @@ title: カスタムマテリアル
 sidebar:
   nav: "docs-jp"
 ---
+[Eng](/dancexr/features/material_custom1) | [繁中](/tw/dancexr/features/material_custom1) | [日本語](/jp/dancexr/features/material_custom1) | [한국어](/kr/dancexr/features/material_custom1) | [简中](/zh/dancexr/features/material_custom1)
+
 ## カスタムマテリアル
 デフォルトではオフで、割り当てられたマテリアルはありません。
 

@@ -6,6 +6,8 @@ title: Global Material Settings
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/material_global) | [繁中](/tw/dancexr/features/material_global) | [日本語](/jp/dancexr/features/material_global) | [한국어](/kr/dancexr/features/material_global) | [简中](/zh/dancexr/features/material_global)
+
 
 ## Global Material Settings
 Changes certain properties for all materials of the actor model.

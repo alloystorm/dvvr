@@ -6,6 +6,8 @@ title: シーンを保存
 sidebar:
   nav: "docs-jp"
 ---
+[Eng](/dancexr/features/save_scene) | [繁中](/tw/dancexr/features/save_scene) | [日本語](/jp/dancexr/features/save_scene) | [한국어](/kr/dancexr/features/save_scene) | [简中](/zh/dancexr/features/save_scene)
+
 ## シーンを保存
 アクター、モーション、ステージ、設定を含むシーンセットアップをシーンファイルに保存して、後で取り出すことができます。
 

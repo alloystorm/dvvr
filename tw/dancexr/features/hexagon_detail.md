@@ -6,6 +6,8 @@ title: 六角形圖案細節地圖
 sidebar:
   nav: "docs-tw"
 ---
+[Eng](/dancexr/features/hexagon_detail) | [繁中](/tw/dancexr/features/hexagon_detail) | [日本語](/jp/dancexr/features/hexagon_detail) | [한국어](/kr/dancexr/features/hexagon_detail) | [简中](/zh/dancexr/features/hexagon_detail)
+
 ## 六角形圖案細節地圖
 這是一個即時生成的程序化細節地圖。它可以用於支持細節地圖和服裝效果的材質類別。
 

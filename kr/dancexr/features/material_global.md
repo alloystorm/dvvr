@@ -6,6 +6,8 @@ title: 글로벌 재질 설정
 sidebar:
   nav: "docs-kr"
 ---
+[Eng](/dancexr/features/material_global) | [繁中](/tw/dancexr/features/material_global) | [日本語](/jp/dancexr/features/material_global) | [한국어](/kr/dancexr/features/material_global) | [简中](/zh/dancexr/features/material_global)
+
 ## 전역 재질 설정
 배우 모델의 모든 재질에 대한 특정 속성을 변경합니다.
 
