@@ -2240,4 +2240,13 @@
 	<string name="H7EBA373D">피라미드 프로젝터 멀리</string>
 	<string name="HEB1995CA">박스 프로젝터 근처</string>
 	<string name="H6E31F4C1">박스 프로젝터 멀리</string>
+<string name="H6A69378E">방향만</string>
+    <string name="HA64E70EF">전체 회전</string>
+    <string name="H57634432">비트 시각화</string>
+    <string name="H676BB78D">베이스 레벨</string>
+    <string name="HB9812E01">가장자리 레벨</string>
+    <string name="H28CAD66">히트 레벨</string>
+    <string name="H864918DE">레이저</string>
+    <string name="HC012A371">반원</string>
+    <string name="H3BABBBD0">포인트</string>
 </resources>

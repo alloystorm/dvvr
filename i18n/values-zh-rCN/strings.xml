@@ -2240,4 +2240,13 @@
 	<string name="H7EBA373D">[金字塔投影仪远]</string>
 	<string name="HEB1995CA">[盒子投影仪近]</string>
 	<string name="H6E31F4C1">[盒子投影仪远]</string>
+<string name="H6A69378E">方向</string>
+    <string name="HA64E70EF">全旋转</string>
+    <string name="H57634432">节拍可视化</string>
+    <string name="H676BB78D">基础水平</string>
+    <string name="HB9812E01">边缘水平</string>
+    <string name="H28CAD66">击打水平</string>
+    <string name="H864918DE">激光</string>
+    <string name="HC012A371">半圆</string>
+    <string name="H3BABBBD0">点</string>
 </resources>

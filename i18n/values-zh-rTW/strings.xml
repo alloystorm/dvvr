@@ -2239,4 +2239,13 @@
 	<string name="H7EBA373D">Pyramid Projector Far</string>
 	<string name="HEB1995CA">Box Projector Near</string>
 	<string name="H6E31F4C1">Box Projector Far</string>
+<string name="H6A69378E">僅限方向</string>
+    <string name="HA64E70EF">完整旋轉</string>
+    <string name="H57634432">節拍視覺化</string>
+    <string name="H676BB78D">基準水平</string>
+    <string name="HB9812E01">邊緣水平</string>
+    <string name="H28CAD66">擊打水平</string>
+    <string name="H864918DE">雷射</string>
+    <string name="HC012A371">半圓</string>
+    <string name="H3BABBBD0">點</string>
 </resources>

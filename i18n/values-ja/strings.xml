@@ -2240,4 +2240,13 @@
 	<string name="H7EBA373D">Pyramid Projector Far</string>
 	<string name="HEB1995CA">Box Projector Near</string>
 	<string name="H6E31F4C1">Box Projector Far</string>
+<string name="H6A69378E">方向のみ</string>
+    <string name="HA64E70EF">完全回転</string>
+    <string name="H57634432">ビートビジュアライザー</string>
+    <string name="H676BB78D">ベースレベル</string>
+    <string name="HB9812E01">エッジレベル</string>
+    <string name="H28CAD66">ヒットレベル</string>
+    <string name="H864918DE">レーザー</string>
+    <string name="HC012A371">ハーフサークル</string>
+    <string name="H3BABBBD0">ポイント</string>
 </resources>

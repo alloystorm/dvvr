@@ -2250,4 +2250,15 @@
 	<string name="H7EBA373D">Pyramid Projector Far</string>
 	<string name="HEB1995CA">Box Projector Near</string>
 	<string name="H6E31F4C1">Box Projector Far</string>	
+
+	<string name="H6A69378E">Direction Only</string>
+	<string name="HA64E70EF">Full Rotation</string>
+	<string name="H57634432">Beats Visualizer</string>
+	<string name="H676BB78D">Base Level</string>
+	<string name="HB9812E01">Edge Level</string>
+	<string name="H28CAD66">Hit Level</string>
+	<string name="H864918DE">Laser</string>
+	<string name="HC012A371">Half Circle</string>
+	<string name="H3BABBBD0">Point</string>
+
 </resources>
