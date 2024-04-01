@@ -21,9 +21,8 @@ sidebar:
 |
 | *角色模型設置*
 | [演員菜單、工具和互動](features/actor_tools)
-| [材質設置](features/material_settings)
-| [服裝系統（材質變形和XPS可選項）](features/optionals)
-| [替代紋理](features/alternative_textures)
+| [服裝系統（材質變形和XPS選項）](features/optionals)
+| [替代材質](features/alternative_textures)
 | [面部控制](features/facial_control)
 | [眨眼、呼吸和眼神接觸](features/eyecontact)
 | [腳部調整](features/feet_adjustments)
@@ -31,15 +30,27 @@ sidebar:
 | [水的互動](features/water_interaction.md)
 | [演員預設](features/actor_presets.md) | [2024.1](releases/2024.1.md)
 |
+| *材質設置*
+| [全局材質設置](features/material_global.md)
+| [皮膚材質](features/material_skin.md)
+| [頭髮材質](features/material_hair.md)
+| [眼睛材質](features/material_eyes.md)
+| [嘴唇材質](features/material_lips.md)
+| [不透明材質](features/material_opaque.md)
+| [透明材質](features/material_transparent.md)
+| [自定義1材質](features/material_custom1.md)
+| [自定義2材質](features/material_custom1.md)
+| [材質列表](features/material_settings.md)
+|
 | *專業版功能*
 | [服裝和身體彩繪](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 專業版
 | [運動覆蓋](features/motion_override) | | 專業版 |
 | [配飾](features/accessory.md) | | 專業版 |
 | [布娃娃](features/ragdoll.md) | | 專業版 |
 | [光球](features/lightball.md) | | 專業版 |
-| [胸部搖晃](features/boob_shake_sex_overlay){: .nsfw} | | 不適宜在工作場所觀看 |
-| [性愛覆蓋](features/boob_shake_sex_overlay){: .nsfw} | | 不適宜在工作場所觀看 |
-| [假陽具](features/dildo){: .nsfw} | | 不適宜在工作場所觀看 |
+| [胸部搖晃](features/boob_shake_sex_overlay){: .nsfw} | | 不安全工作環境 |
+| [性覆蓋](features/boob_shake_sex_overlay){: .nsfw} | | 不安全工作環境 |
+| [假陽具](features/dildo){: .nsfw} | | 不安全工作環境 |
 |
 | *模型格式特定*
 | [XPS骨骼映射器](features/bone_mapper.md)
@@ -71,9 +82,9 @@ sidebar:
 | [自動舞蹈](features/autodance) | | 專業版 |
 | [自動舞蹈2](features/autodance2) | | 專業版 |
 | [自動舞蹈3](features/autodance3.md) | | 專業版 |
-| [女上位性愛](features/scg_motion){: .nsfw} | | 不適宜在工作場所觀看 |
-| [後背性愛](features/sfb_motion){: .nsfw} | | 不適宜在工作場所觀看 |
-| [性愛運動3](features/sm3_motion){: .nsfw} | | 不適宜在工作場所觀看 |
+| [女上位性行為](features/scg_motion){: .nsfw} | | 不安全工作環境 |
+| [後背性行為](features/sfb_motion){: .nsfw} | | 不安全工作環境 |
+| [性運動3](features/sm3_motion){: .nsfw} | | 不安全工作環境 |
 |
 | *攝影機運動*
 | [自由飛行攝影機](features/camera)

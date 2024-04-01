@@ -9,7 +9,7 @@ sidebar:
 ---
 [Eng](/dancexr/features) | [繁中](/tw/dancexr/features) | [日本語](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [简中](/zh/dancexr/features)
 
-| 기능 |  |  |
+| 특징 |  |  |
 | :--- | ---: | ---: |
 | ***캐릭터, 무대 및 소품 모델*** 
 | *콘텐츠 관리*
@@ -21,7 +21,6 @@ sidebar:
 |
 | *캐릭터 모델 설정*
 | [배우 메뉴, 도구 및 상호작용](features/actor_tools)
-| [재질 설정](features/material_settings)
 | [드레싱 시스템 (재질 모프 및 XPS 옵션)](features/optionals)
 | [대체 텍스처](features/alternative_textures)
 | [얼굴 제어](features/facial_control)
@@ -30,6 +29,18 @@ sidebar:
 | [문제 해결 옵션](features/troubleshooting_options)
 | [물 상호작용](features/water_interaction.md)
 | [배우 프리셋](features/actor_presets.md) | [2024.1](releases/2024.1.md)
+|
+| *재질 설정*
+| [전역 재질 설정](features/material_global.md)
+| [피부 재질](features/material_skin.md)
+| [머리카락 재질](features/material_hair.md)
+| [눈 재질](features/material_eyes.md)
+| [입술 재질](features/material_lips.md)
+| [불투명 재질](features/material_opaque.md)
+| [투명 재질](features/material_transparent.md)
+| [사용자 정의 1 재질](features/material_custom1.md)
+| [사용자 정의 2 재질](features/material_custom1.md)
+| [재질 목록](features/material_settings.md)
 |
 | *프로 기능*
 | [의상 및 바디 페인트](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 프로
@@ -44,11 +55,11 @@ sidebar:
 | *모델 형식별*
 | [XPS 본 매핑](features/bone_mapper.md)
 | [XPS 물리](features/xps_physics) | | 프로 |
-| [사용자 지정 상속 모션](features/custom_inherit.md)
+| [사용자 정의 상속 모션](features/custom_inherit.md)
 | [PMX 물리](features/pmx_physics)
 |
 | ***모션 및 미디어 콘텐츠*** |
-| [모션 파일 최상의 방법으로 정리](preparecontent#motion-files)
+| [모션 파일 정리 최상의 방법](preparecontent#motion-files)
 | *오디오 및 비디오*
 | [비디오 재생](features/video_playback) | [2024.4](releases/2024.4.md) | 프로
 | [오디오 재생 옵션](features/audio_options)
@@ -73,11 +84,11 @@ sidebar:
 | [자동 댄스 3](features/autodance3.md) | | 프로 |
 | [카우걸 섹스](features/scg_motion){: .nsfw} | | 성인 |
 | [뒤에서 섹스](features/sfb_motion){: .nsfw} | | 성인 |
-| [섹스 모션 3](features/sm3_motion){: .nsfw} | | 성인 |
+| [성적 모션 3](features/sm3_motion){: .nsfw} | | 성인 |
 |
 | *카메라 모션*
 | [프리플라이 카메라](features/camera)
-| [궤도 카메라](features/camera)
+| [오비트 카메라](features/camera)
 | [자동 카메라](features/camera)
 | [원샷 카메라](features/camera)
 | [일인칭 카메라](features/camera)
@@ -96,7 +107,7 @@ sidebar:
 | [씬 저장 및 불러오기](features/save_scene.md)
 | [씬 번들](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 프로 |
 |
-| ***씬 및 무대*** |
+| ***씬 및 무대***
 | *무대*
 | [지면, 무대 및 물 시스템](features/ground)
 | [프로시저 룸 무대](features/room_stage)

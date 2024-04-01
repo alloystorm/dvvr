@@ -11,7 +11,7 @@ sidebar:
 
 | 特徴 |  |  |
 | :--- | ---: | ---: |
-| ***キャラクター、ステージ、およびプロップモデル*** 
+| ***キャラクター、ステージ、プロップモデル*** 
 | *コンテンツ管理*
 | [モデルファイルの整理のベストプラクティス](preparecontent#3d-models)
 | [タグ付けと検索](features/tagging) 
@@ -20,8 +20,7 @@ sidebar:
 | [フォーメーション](features/formation)
 |
 | *キャラクターモデル設定*
-| [アクターメニュー、ツール、およびインタラクション](features/actor_tools)
-| [マテリアル設定](features/material_settings)
+| [アクターメニュー、ツール、インタラクション](features/actor_tools)
 | [ドレッシングシステム（マテリアルモーフとXPSオプション）](features/optionals)
 | [代替テクスチャ](features/alternative_textures)
 | [表情コントロール](features/facial_control)
@@ -31,28 +30,40 @@ sidebar:
 | [水の相互作用](features/water_interaction.md)
 | [アクタープリセット](features/actor_presets.md) | [2024.1](releases/2024.1.md)
 |
-| *プロ版の特徴*
-| [衣装＆ボディペイント](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | プロ版
-| [モーションオーバーライド](features/motion_override) | | プロ版 |
-| [アクセサリー](features/accessory.md) | | プロ版 |
-| [ラグドール](features/ragdoll.md) | | プロ版 |
-| [ライトボール](features/lightball.md) | | プロ版 |
-| [おっぱいシェイク](features/boob_shake_sex_overlay){: .nsfw} | | 非公開 |
-| [セックスオーバーレイ](features/boob_shake_sex_overlay){: .nsfw} | | 非公開 |
-| [ディルド](features/dildo){: .nsfw} | | 非公開 |
+| *マテリアル設定*
+| [グローバルマテリアル設定](features/material_global.md)
+| [スキンマテリアル](features/material_skin.md)
+| [髪のマテリアル](features/material_hair.md)
+| [目のマテリアル](features/material_eyes.md)
+| [唇のマテリアル](features/material_lips.md)
+| [不透明なマテリアル](features/material_opaque.md)
+| [透明なマテリアル](features/material_transparent.md)
+| [カスタム1のマテリアル](features/material_custom1.md)
+| [カスタム2のマテリアル](features/material_custom1.md)
+| [マテリアルリスト](features/material_settings.md)
+|
+| *プロ機能*
+| [衣装＆ボディペイント](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | プロ
+| [モーションオーバーライド](features/motion_override) | | プロ |
+| [アクセサリー](features/accessory.md) | | プロ |
+| [ラグドール](features/ragdoll.md) | | プロ |
+| [ライトボール](features/lightball.md) | | プロ |
+| [おっぱいシェイク](features/boob_shake_sex_overlay){: .nsfw} | | NSFW |
+| [セックスオーバーレイ](features/boob_shake_sex_overlay){: .nsfw} | | NSFW |
+| [ディルド](features/dildo){: .nsfw} | | NSFW |
 |
 | *モデルフォーマット固有*
 | [XPSボーンマッパー](features/bone_mapper.md)
-| [XPS物理](features/xps_physics) | | プロ版 |
+| [XPS物理](features/xps_physics) | | プロ |
 | [カスタム継承モーション](features/custom_inherit.md)
 | [PMX物理](features/pmx_physics)
 |
 | ***モーション＆メディアコンテンツ*** |
 | [モーションファイルの整理のベストプラクティス](preparecontent#motion-files)
 | *オーディオ＆ビデオ*
-| [ビデオ再生](features/video_playback) | [2024.4](releases/2024.4.md) | プロ版
+| [ビデオ再生](features/video_playback) | [2024.4](releases/2024.4.md) | プロ
 | [オーディオ再生オプション](features/audio_options)
-| [音楽タイミング](features/music_timing)
+| [音楽のタイミング](features/music_timing)
 |
 | *モーションの管理*
 | [再生オプション](features/playback_options)
@@ -68,12 +79,12 @@ sidebar:
 | *プロシージャルモーション*
 | [アイドルモーション](features/idle_motion.md)
 | [キャットウォーク](features/catwalk.md)
-| [オートダンス](features/autodance) | | プロ版 |
-| [オートダンス2](features/autodance2) | | プロ版 |
-| [オートダンス3](features/autodance3.md) | | プロ版 |
-| [カウガールセックス](features/scg_motion){: .nsfw} | | 非公開 |
-| [後ろからのセックス](features/sfb_motion){: .nsfw} | | 非公開 |
-| [セックスモーション3](features/sm3_motion){: .nsfw} | | 非公開 |
+| [オートダンス](features/autodance) | | プロ |
+| [オートダンス2](features/autodance2) | | プロ |
+| [オートダンス3](features/autodance3.md) | | プロ |
+| [カウガールセックス](features/scg_motion){: .nsfw} | | NSFW |
+| [後ろからのセックス](features/sfb_motion){: .nsfw} | | NSFW |
+| [セックスモーション3](features/sm3_motion){: .nsfw} | | NSFW |
 |
 | *カメラモーション*
 | [フリーフライカメラ](features/camera)
@@ -88,17 +99,17 @@ sidebar:
 | [空と雲](features/skymap)
 | [照明](features/lighting)
 | [パーティクルシステム](features/particles)
-| [ARモード](features/ar_mode) | | プロ版 |
+| [ARモード](features/ar_mode) | | プロ |
 | [ステージ](features/stages)
 | [プロップ](features/props)
 | [ビートリング](features/beats_ring.md)
 | [ステージレーザー](features/laser.md) | [2024.3](releases/2024.3.md) |
 | [シーンの保存と読み込み](features/save_scene.md)
-| [シーンバンドル](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | プロ版 |
+| [シーンバンドル](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | プロ |
 |
 | ***シーン＆ステージ*** |
 | *ステージ*
-| [地面、ステージ＆水システム](features/ground)
+| [地面、ステージ、水システム](features/ground)
 | [プロシージャルルームステージ](features/room_stage)
 | [ステージモデル＆設定](features/stages)
 |
@@ -111,15 +122,15 @@ sidebar:
 | ***システム*** |
 | [コンテンツライブラリ](preparecontent)
 | [Googleドライブ統合](features/googledrive)
-| [Android、Quest、およびPico向けのコンテンツライブラリ](content_android_quest)
+| [Android、Quest、Pico向けのコンテンツライブラリ](content_android_quest)
 | [ディスプレイ＆UI](features/display_settings)
 | [グラフィック設定](features/graphics)
 | [多言語サポート](features/languages.md)
 | [入力設定](features/controls)
 | [物理設定](features/system_physics)
-| [自動更新](features/autoupdate) | | プロ版 |
+| [自動更新](features/autoupdate) | | プロ |
 | [システムプリセット](features/system_presets.md) | [2024.1](releases/2024.1.md)
 |
-| [**オフラインレンダリング＆録画**](creator.md) | | クリエイター版 |
+| [**オフラインレンダリング＆録画**](creator.md) | | クリエイター |
 |
-| [**AIボイスチャット**](ai_chat) | | プロ版 |
+| [**AIボイスチャット**](ai_chat) | | プロ |

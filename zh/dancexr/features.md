@@ -21,15 +21,26 @@ sidebar:
 |
 | *角色模型设置*
 | [演员菜单、工具和交互](features/actor_tools)
-| [材质设置](features/material_settings)
 | [服装系统（材质变形和XPS可选项）](features/optionals)
 | [替代纹理](features/alternative_textures)
 | [面部控制](features/facial_control)
 | [眨眼、呼吸和眼神交流](features/eyecontact)
 | [脚部调整](features/feet_adjustments)
 | [故障排除选项](features/troubleshooting_options)
-| [水的交互](features/water_interaction.md)
+| [水的互动](features/water_interaction.md)
 | [演员预设](features/actor_presets.md) | [2024.1](releases/2024.1.md)
+|
+| *材质设置*
+| [全局材质设置](features/material_global.md)
+| [皮肤材质](features/material_skin.md)
+| [头发材质](features/material_hair.md)
+| [眼睛材质](features/material_eyes.md)
+| [嘴唇材质](features/material_lips.md)
+| [不透明材质](features/material_opaque.md)
+| [透明材质](features/material_transparent.md)
+| [自定义1材质](features/material_custom1.md)
+| [自定义2材质](features/material_custom1.md)
+| [材质列表](features/material_settings.md)
 |
 | *专业版功能*
 | [服装和身体彩绘](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 专业版
@@ -38,7 +49,7 @@ sidebar:
 | [布娃娃](features/ragdoll.md) | | 专业版 |
 | [光球](features/lightball.md) | | 专业版 |
 | [胸部晃动](features/boob_shake_sex_overlay){: .nsfw} | | 限制级 |
-| [性动作叠加](features/boob_shake_sex_overlay){: .nsfw} | | 限制级 |
+| [性爱叠加](features/boob_shake_sex_overlay){: .nsfw} | | 限制级 |
 | [跳蛋](features/dildo){: .nsfw} | | 限制级 |
 |
 | *模型格式特定*
@@ -54,7 +65,7 @@ sidebar:
 | [音频播放选项](features/audio_options)
 | [音乐定时](features/music_timing)
 |
-| *动作管理*
+| *管理动作*
 | [播放选项](features/playback_options)
 | [分配动作](features/assign_motion)
 | [次要动作](features/secondary_motion)
@@ -72,8 +83,8 @@ sidebar:
 | [自动舞蹈2](features/autodance2) | | 专业版 |
 | [自动舞蹈3](features/autodance3.md) | | 专业版 |
 | [骑乘位性爱](features/scg_motion){: .nsfw} | | 限制级 |
-| [后入式性爱](features/sfb_motion){: .nsfw} | | 限制级 |
-| [性动作3](features/sm3_motion){: .nsfw} | | 限制级 |
+| [后背位性爱](features/sfb_motion){: .nsfw} | | 限制级 |
+| [性爱动作3](features/sm3_motion){: .nsfw} | | 限制级 |
 |
 | *摄影机动作*
 | [自由飞行摄影机](features/camera)
@@ -96,7 +107,7 @@ sidebar:
 | [保存和加载场景](features/save_scene.md)
 | [场景包](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 专业版 |
 |
-| ***场景和舞台*** |
+| ***场景和舞台***
 | *舞台*
 | [地面、舞台和水系统](features/ground)
 | [程序化房间舞台](features/room_stage)
