@@ -43,7 +43,7 @@ releases:
     url: /dancexr/features
 
 docs:
-  - title: Getting Started
+  - title: Help
     children:
       - title: "Overview"
         url: /dancexr
@@ -51,6 +51,14 @@ docs:
         url: /dancexr/download
       - title: "Content Library"
         url: /dancexr/preparecontent
+      - title: Feature List
+        url: /dancexr/features
+      - title: Variants & Availability
+        url: /dancexr/versions
+      - title: FAQ
+        url: /dancexr/faq
+      - title: Troubleshooting
+        url: /dancexr/troubleshooting
   - title: New Features
     children:
       - title: "Video Playback"
@@ -59,8 +67,6 @@ docs:
         url: /dancexr/features/ar_mode
       - title: "AI Chat"
         url: /dancexr/ai_chat
-  - title: Full Feature List
-    url: /dancexr/features
   - title: Releases
     url: /dancexr/releases/
     children:
@@ -68,9 +74,3 @@ docs:
       url: /dancexr/releases/2024.4
     - title: "2024.3"
       url: /dancexr/releases/2024.3
-  - title: Variants & Availability
-    url: /dancexr/versions
-  - title: FAQ
-    url: /dancexr/faq
-  - title: Troubleshooting
-    url: /dancexr/troubleshooting
