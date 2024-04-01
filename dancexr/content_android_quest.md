@@ -11,7 +11,15 @@ sidebar:
 
 ## Preparing content for Android & Oculus Quest
 
-Similar to the PC versions, DanceXR requires a content folder to be prepared so it knows where to find all the models, motions & textures. However on Android, apps can only access specific folders unless a special permission is granted. Therefore on Android and Oculus Quest platforms you will not be able to select content folder like on PC. The content needs to be at a specific location. 
+Similar to the PC versions, DanceXR requires a content folder to be prepared so it knows where to find all the models, motions & textures. 
+
+However, Android system has strict file access rules. Normally apps can't access folders withint your storage. So by default the Android and Quest version have the content library inside the app storage space which requires a PC to copy files into it.
+
+From version 2024.3 we are using the storage permission to make mangaging files a bit easier. For that you need to grant DanceXR the permission to access your storage and then you'll be able to use the system files app to move and copy files.
+
+{% include video id="mFnXE7LBV-M" provider="youtube" %}
+
+For older versions or if you choose to use app internal storage space, the content library is located here: /Android/data/com.vrstormlab.dancexr/files/. 
 
 ## If you can connect your device to a PC
 
@@ -20,12 +28,20 @@ It's still easier to use a PC to manage your content on the device. It's just co
 * Install DanceXR on the device
 * Connect your device to your PC. Select "File Transfer" from the popup dialog or from system settings. 
 * Now open File Explorer and you should be able to see your device.
-* Navigate to /Android/data/com.vrstormlab.dancexr/files/. If you don't see that folder, make sure DanceXR is installed, and if you still cannot find it after install, let us know and we'll try our best to figure that out.
+* Navigate to /DanceXR/ or /Android/data/com.vrstormlab.dancexr/files/ if you are on older versions or choose to use internal storage. If you don't see that folder, make sure DanceXR is installed, and if you still cannot find it after install, let us know and we'll try our best to figure that out.
 * Copy your entire content folder into that directory. So your content folder structure will be like ![example folder](/images/content_folder_android.png)
 
 Then you should be able to see your content next time you run DanceXR on the device
 
-## If you don't have access to a PC (Android version only)
+
+## Using System Files app
+
+With the new external storage permission, you can use the system Files app to transfer and manage content in your library.
+
+Locate the DanceXR content folder under the root of your storage, then you can all the subfolders for different types of content and move files into and between them.
+
+
+## Content Manager App (Android Only)
 
 The Android version comes with a Content Manager app that can help you organize your content on the device. You should be able to see it from your apps drawer or desktop after installing DanceXR. It has the same icon as DanceXR player but is titled "Content Manager". Content Manager app supports only zip, png and jpg format. 
 

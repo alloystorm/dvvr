@@ -53,6 +53,7 @@ DanceXR searches for various types of content in distinct subfolders located wit
 For easier management of data files, especially for those content that requires multiple files to work together, we support using zip package to organize your files. You can also keep all the required files in a subfolder and they should work the same.
 
 #### 3D Models
+<a id="3d-models"></a>
 
 3D models usually comes with one file that describe the mesh and multiple texture files. Make sure the relative relationship of the textures and the mesh files stay the same when you move or extract files. That's important for the program to find the correct textures to use.
 
@@ -66,6 +67,7 @@ Some models have [alternative textures](features/alternative_textures.md), Dance
 
 
 #### Motion files
+<a id="motion-files"></a>
 
 Typically motion data contains audio file, character motions and camera motions. In DanceXR we call a bundle of audio, character motions and camera motions a "dance set". 
 
@@ -95,7 +97,7 @@ DanceXR can [download files from Google drive](features/googledrive.md). As long
 
 Android system has strict file access rules. Normally apps can't access folders withint your storage. So by default the Android and Quest version have the content library inside the app storage space which requires a PC to copy files into it.
 
-In the latest version we are requesting the storage permission to make mangaging files a bit easier. For that you need to grant DanceXR the permission to access your storage and then you'll be able to use the system files app to move and copy files.
+From version 2024.3 we are using the storage permission to make mangaging files a bit easier. For that you need to grant DanceXR the permission to access your storage and then you'll be able to use the system files app to move and copy files.
 
 {% include video id="mFnXE7LBV-M" provider="youtube" %}
 
