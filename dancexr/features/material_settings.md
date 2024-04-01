@@ -9,7 +9,8 @@ sidebar:
 [Eng](/dancexr/features/material_settings) | [繁中](/tw/dancexr/features/material_settings) | [日本語](/jp/dancexr/features/material_settings) | [한국어](/kr/dancexr/features/material_settings) | [简中](/zh/dancexr/features/material_settings)
 
 
-## How Material List Is Organized
+## How Materials Are Organized
+<a id="material-category"></a>
 
 A model can have hundreds of different materials, to manage them more efficiently, we are organizing the materials in the following way:
 

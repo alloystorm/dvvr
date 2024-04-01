@@ -23,7 +23,6 @@ sidebar:
 |
 | *Character Model Settings*
 | [Actor Menu, Tools and Interaction](features/actor_tools)
-| [Material Settings](features/material_settings)
 | [Dressing System (Material Morphs and XPS Optionals)](features/optionals)
 | [Alternative Textures](features/alternative_textures)
 | [Facial Control](features/facial_control)
@@ -32,6 +31,18 @@ sidebar:
 | [Troubleshooting Options](features/troubleshooting_options)
 | [Water Interaction](features/water_interaction.md)
 | [Actor Presets](features/actor_presets.md) | [2024.1](releases/2024.1.md)
+|
+| *Material Settings*
+| [Global Material Settings](features/material_global.md)
+| [Skin Materials](features/material_skin.md)
+| [Hair Materials](features/material_hair.md)
+| [Eyes Materials](features/material_eyes.md)
+| [Lips Materials](features/material_lips.md)
+| [Opaque Materials](features/material_opaque.md)
+| [Transparent Materials](features/material_transparent.md)
+| [Custom 1 Materials](features/material_custom1.md)
+| [Custom 2 Materials](features/material_custom1.md)
+| [Material List](features/material_settings.md)
 |
 | *Pro Features*
 | [Outfit & Body Paint](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | PRO

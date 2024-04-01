@@ -25,3 +25,13 @@ When you use the video image for projection or texture, make sure you have the c
 
 In the LW variants (Android, Quest, Mac, iOS and PC LW), there's a "Fit Frame" option that will place the images with black bars to fit the rectangle aspect ratio. Only use this mode when you want to use a spotlight to project the image.
 
+## Settings
+
+* Loop: Loop the video when the audio is longer than the video.
+* Mute: Mute the audio of the video. 
+* Time Offset: Sync the video timeline with the dance music.
+* Aspect Ratio: Select the aspect ratio of the video. This needs to be set correctly for the video image to be displayed properly.
+* Fit Frame: Adds black bars to fit the video image in the rectangle texture. This is only needed when you use a spotlight to project the image in the LW versions.
+* Projector Scene Example: Load the procedural "Room" stage in the projector preset and switch to "Projector" preset to projector the video on the wall.
+* Emissive Scene Example: Load the procedural "Room" stage in the emissive preset to allow the video image to be used as the texture for the wall.
+* Load Video: Select a video from your content library to play.
