@@ -9,7 +9,7 @@ sidebar:
 ---
 [Eng](/dancexr/features) | [繁中](/tw/dancexr/features) | [日本語](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [简中](/zh/dancexr/features)
 
-| 特徴 |  |  |
+| 機能 |  |  |
 | :--- | ---: | ---: |
 | ***キャラクター、ステージ、プロップモデル*** 
 | *コンテンツ管理*
@@ -27,7 +27,7 @@ sidebar:
 | [まばたき、呼吸、目の接触](features/eyecontact)
 | [足の調整](features/feet_adjustments)
 | [トラブルシューティングオプション](features/troubleshooting_options)
-| [水の相互作用](features/water_interaction.md)
+| [水のインタラクション](features/water_interaction.md)
 | [アクタープリセット](features/actor_presets.md) | [2024.1](releases/2024.1.md)
 |
 | *マテリアル設定*
@@ -55,6 +55,13 @@ sidebar:
 | *モデルフォーマット固有*
 | [XPSボーンマッパー](features/bone_mapper.md)
 | [XPS物理](features/xps_physics) | | プロ |
+| - [ボディコライダー](features/xps_body_colliders.md)
+| - [おっぱいの物理](features/xps_boobs.md)
+| - [髪の物理](features/xps_hair.md)
+| - [服の物理](features/xps_cloth.md)
+| - [スカートの物理](features/xps_skirt.md)
+| - [ソフトボディの物理](features/xps_softbody.md)
+| - [オブジェクトの検出](features/xps_detech.md)
 | [カスタム継承モーション](features/custom_inherit.md)
 | [PMX物理](features/pmx_physics)
 |

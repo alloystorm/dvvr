@@ -24,7 +24,7 @@ sidebar:
 | [服装系统（材质变形和XPS可选项）](features/optionals)
 | [替代纹理](features/alternative_textures)
 | [面部控制](features/facial_control)
-| [眨眼、呼吸和眼神交流](features/eyecontact)
+| [眨眼、呼吸和眼神接触](features/eyecontact)
 | [脚部调整](features/feet_adjustments)
 | [故障排除选项](features/troubleshooting_options)
 | [水的互动](features/water_interaction.md)
@@ -48,13 +48,20 @@ sidebar:
 | [配饰](features/accessory.md) | | 专业版 |
 | [布娃娃](features/ragdoll.md) | | 专业版 |
 | [光球](features/lightball.md) | | 专业版 |
-| [胸部晃动](features/boob_shake_sex_overlay){: .nsfw} | | 限制级 |
+| [胸部摇晃](features/boob_shake_sex_overlay){: .nsfw} | | 限制级 |
 | [性爱叠加](features/boob_shake_sex_overlay){: .nsfw} | | 限制级 |
-| [跳蛋](features/dildo){: .nsfw} | | 限制级 |
+| [假阳具](features/dildo){: .nsfw} | | 限制级 |
 |
 | *模型格式特定*
 | [XPS骨骼映射器](features/bone_mapper.md)
 | [XPS物理](features/xps_physics) | | 专业版 |
+| - [身体碰撞器](features/xps_body_colliders.md)
+| - [胸部物理](features/xps_boobs.md)
+| - [头发物理](features/xps_hair.md)
+| - [服装物理](features/xps_cloth.md)
+| - [裙子物理](features/xps_skirt.md)
+| - [软体物理](features/xps_softbody.md)
+| - [检测物体](features/xps_detech.md)
 | [自定义继承动作](features/custom_inherit.md)
 | [PMX物理](features/pmx_physics)
 |
@@ -107,7 +114,7 @@ sidebar:
 | [保存和加载场景](features/save_scene.md)
 | [场景包](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 专业版 |
 |
-| ***场景和舞台***
+| ***场景和舞台*** |
 | *舞台*
 | [地面、舞台和水系统](features/ground)
 | [程序化房间舞台](features/room_stage)

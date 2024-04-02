@@ -21,7 +21,7 @@ sidebar:
 |
 | *캐릭터 모델 설정*
 | [배우 메뉴, 도구 및 상호작용](features/actor_tools)
-| [드레싱 시스템 (재질 모프 및 XPS 옵션)](features/optionals)
+| [드레싱 시스템 (재질 변형 및 XPS 옵션)](features/optionals)
 | [대체 텍스처](features/alternative_textures)
 | [얼굴 제어](features/facial_control)
 | [눈 깜빡임, 숨쉬기 및 눈동자 접촉](features/eyecontact)
@@ -33,7 +33,7 @@ sidebar:
 | *재질 설정*
 | [전역 재질 설정](features/material_global.md)
 | [피부 재질](features/material_skin.md)
-| [머리카락 재질](features/material_hair.md)
+| [머리 재질](features/material_hair.md)
 | [눈 재질](features/material_eyes.md)
 | [입술 재질](features/material_lips.md)
 | [불투명 재질](features/material_opaque.md)
@@ -46,16 +46,23 @@ sidebar:
 | [의상 및 바디 페인트](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 프로
 | [모션 오버라이드](features/motion_override) | | 프로 |
 | [액세서리](features/accessory.md) | | 프로 |
-| [랙돌](features/ragdoll.md) | | 프로 |
+| [래그돌](features/ragdoll.md) | | 프로 |
 | [라이트볼](features/lightball.md) | | 프로 |
-| [가슴 흔들림](features/boob_shake_sex_overlay){: .nsfw} | | 성인 |
-| [성적 오버레이](features/boob_shake_sex_overlay){: .nsfw} | | 성인 |
+| [가슴 흔들기](features/boob_shake_sex_overlay){: .nsfw} | | 성인 |
+| [성인 오버레이](features/boob_shake_sex_overlay){: .nsfw} | | 성인 |
 | [딜도](features/dildo){: .nsfw} | | 성인 |
 |
 | *모델 형식별*
 | [XPS 본 매핑](features/bone_mapper.md)
 | [XPS 물리](features/xps_physics) | | 프로 |
-| [사용자 정의 상속 모션](features/custom_inherit.md)
+| - [바디 콜라이더](features/xps_body_colliders.md)
+| - [가슴 물리](features/xps_boobs.md)
+| - [머리 물리](features/xps_hair.md)
+| - [의류 물리](features/xps_cloth.md)
+| - [치마 물리](features/xps_skirt.md)
+| - [소프트바디 물리](features/xps_softbody.md)
+| - [물체 감지](features/xps_detech.md)
+| [사용자 정의 모션 상속](features/custom_inherit.md)
 | [PMX 물리](features/pmx_physics)
 |
 | ***모션 및 미디어 콘텐츠*** |
@@ -84,11 +91,11 @@ sidebar:
 | [자동 댄스 3](features/autodance3.md) | | 프로 |
 | [카우걸 섹스](features/scg_motion){: .nsfw} | | 성인 |
 | [뒤에서 섹스](features/sfb_motion){: .nsfw} | | 성인 |
-| [성적 모션 3](features/sm3_motion){: .nsfw} | | 성인 |
+| [성인 모션 3](features/sm3_motion){: .nsfw} | | 성인 |
 |
 | *카메라 모션*
 | [프리플라이 카메라](features/camera)
-| [오비트 카메라](features/camera)
+| [궤도 카메라](features/camera)
 | [자동 카메라](features/camera)
 | [원샷 카메라](features/camera)
 | [일인칭 카메라](features/camera)
