@@ -19,3 +19,11 @@ This is a procedural detail map that is generated on the fly. It can be used in 
 * Bump: Intensity of the bump effect of the hexagon sides. It can be negative to inverse the bump direction.
 * Noise: Add a random direction to the normal map for each hexagon cell.
 * Soft edge: Soften the edge of the hexagon to allow it to blend into the normal texture.
+
+## Typical usages
+* Add hexagon pattern bump effect for materials: Enable detail map and the hexagon pattern, adjust the bump value for desired effect.
+* Add glittering effect for materials: Enable detail map and the hexagon pattern, increase density increase the noise value, adjust smoothness and metallic values for desired effect.
+
+{% include video id="G9SSJQieO-E" provider="youtube" %}
+
+{% include video id="BV1VD421W7YK" provider="bilibili" %}

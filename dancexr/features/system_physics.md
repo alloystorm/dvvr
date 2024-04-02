@@ -10,18 +10,27 @@ sidebar:
 
 
 ## System-wide physics settings
-You can locate the system-wide physics settings in Settings -> Options -> Physics. 
 
-![System Physics](/images/system-physics.png)
+These are configurations for system wide physics simulation. You can enable or disable physics simulation, adjust gravity, time scale, and other settings.
 
-Enabled
-: Turn physics simulation on and off
 
-Gravity
-:  Change gravity force. Set it to negative will reverse the gravity direction. 
+## Settings
 
-Disable Collision
-:  Controls collision between model parts. There are 2 types of colliders in a model, type A are the ones that move with animation, like arms and legs, type B are the ones that move freely, usually they are connected to other parts by one or more joints. By default type B will collide with type A but if you turn "Disable Collision" on, then type B objects will no longer collide with type A objects and will penetrate through. 
+- Enabled: Turn physics simulation on and off
+- Engine: Select the physics engine to use. Currently only the Physx engine is available.
+- Gravity: Change gravity force. Set it to negative will reverse the gravity direction. 
+- Time Scale: Change the time scale of physics simulation, creating slow motion or fast forward effect without affecting animation.
+- Disable Collision: Disable collision between stationary and dynamic colliders.
+- Subframe Motion: Enable subframe motion for smoother simulation.
+- Steps per second: Number of physics simulation steps per second.
 
-Steps per second
-:  Physics simulation are calculated with a certain interval between steps, and it works best if it is a fixed interval. This option controls how many simulation is performed within a second. The more the better but too many steps will slow down your FPS. It's best to match it with your FPS for smooth animation.
+
+## Physics Frame Rate and Subframe Motion
+<a id="subframe"></a>
+
+For best result, physics simulation are calculated at a fixed interval, which means there can be multiple simulation steps per frame and the actual number of steps performed each frame can be different depending on the stability of your frame rate.
+
+You can choose your desired physics frame rate by setting the "Steps per second" option. But do keep in mind that physics simulation take CPU resources and setting it too high can slow down your frame rate resulting in worse experience. So it's best to find a sweet spot that doesn't hurt your frame rate too much while providing smooth simulation.
+
+Subframe motion is a new feature that updates motion at the selected physics framerate. This can reduce the amount of movements of each physics simulation step, resulting in smoother simulation and more stability. This is especially useful for fast moving objects or when you want to achieve more realistic motion. However this will also require more CPU resources, so only use it when you have CPU head rooms to spare.
+

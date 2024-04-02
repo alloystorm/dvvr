@@ -9,39 +9,50 @@ sidebar:
 [Eng](/dancexr/features/pmx_physics) | [繁中](/tw/dancexr/features/pmx_physics) | [日本語](/jp/dancexr/features/pmx_physics) | [한국어](/kr/dancexr/features/pmx_physics) | [简中](/zh/dancexr/features/pmx_physics)
 
 
-## PMX Model specific settings
-You can locate the model specific physics settings in model settings -> Options -> Physics
+## PMX Model physics settings
 
-![Model Physics](/images/model-physics.png)
+* Use XPS Tools: Enable this option if you want to use the XPS tools to adjust the physics settings. This will disable the built-in physics settings and use the XPS tools instead.
+* Reduce Constraints: This uses a simplified physics model that reduces the number of constraints to improve stability and smoothness. Previously named "Experimental Setup".
+* Linear Motion: Configures parameters for linear motion of joints.
+* Angular Motion: Configures parameters for angular motion of joints.
+* Options: Configures rigidbody parameters like mass, drag and center of mass.
+* Auto Reset Threshold: If the velocity of the bone exceeds the threshold value, it will be reset to its original position. This can prevent the explosion of the physics simulation.
 
-Firmness
-:  This is an overall multiplier applied to the spring force of all joints. Increasing the value will reduce movements. On top of this you can control spring forces for linear and angular movements individually using the settings below.
 
-Linear Movement
-:  Choose how linear movements are restricted for all joints. Auto will set restriction based on the linear limit defined in the model. If the limit is smaller than a small amount, it will be locked otherwise it will be limited. "Bounciness" controls how much velocity is preserved when it hit the edge of its limit and bounce back. "Contact distance" decides when to apply limit spring force when it goes near its limit, 0 means it moves freely until it actually hits the limit, 1 means that the force is always applied when it is with in the limit. 
+## Groups
 
-Angular Movement
-:  Similar to the linear movement above, this one controls angular movements of all joints.
+Joints and colliders are automatically grouped based on how they are connected together. 
 
-Linear Drive
-:  This controls how much spring force is used to make the connected object to return to its original positoin. The "Target" setting here controls where the neutural position is. 
+For each of the group, a separate setting is available to fine tune the physics simulation for different body parts.
 
-Angular Drive
-:  This controls the force that make objects to return to their orientation. 
+The number of groups varis depending on the model, and the program does not know a group is for which body part. So we added a label configuration for each group to help you label the group for your convenience.
 
-Projection Dist
-:  Projection distance. If the distance between the 2 connected objects is greater than the value defined here, the objects will be moved back to avoid runaway situation. 
 
-Projection Angle
-:  Similar to above, this one controls rotation. 
+## Group Settings
 
-Reset on change
-:  Once toggled, whenever a change is made here, all the bones are reset to their initial position before the new settings values are applied. This can prevent bones drifting off while changing physics settings. But sometimes this makes it hard to observe the effect of the change, in that case you can turn this option off before you make your changes, and then turn it back on after you found your ideal settings. 
+* Visualize joints: Toggle to show the joints in the group.
+* Visualize colliders: Toggle to show the colliders in the group.
+* Override Configs: Toggle to override physics settings for the group. Once enabled, the following configs will appear.
 
-Within movement and drive settings, there are a few common setting values
+* Parent-child Linear: Configures linear motion settings for parent-child joints.
+* Parent-child Angular: Configures angular motion settings for parent-child joints.
+* Lateral Linear: Configures linear motion settings for lateral joints.
+* Lateral Angular: Configures angular motion settings for lateral joints.
 
-Spring Force
-:  Used to calculate force based on Hooke's law
 
-Damp / drag
-:  How much force is applied to stop the movements in ralation to the current velocity. 
+## Linear / Angular Motion Settings
+
+For each of the linear and angular motion settings mentioned above, the following options are available:
+
+* Firmness: Overall multiplier applied to the spring force of all joints.
+* Main Drive Force: Spring force for linear and angular movements on the main axis.
+* Second Drive Force: Spring force for linear and angular movements on the secondary axis.
+* Target Position: The neutral position for the joint.
+* Lock When Possible: Lock the joint based on the PMX definition of the joint.
+* Accerlation Mode: Use accerlation mode that ignores the mass of the object.
+* Damping: Daming of the spring force.
+* Drag: Drag of the object.
+
+## XPS Tools
+If you turn on the "Use XPS Tools" option, the physics componenets defined in the PMX model will all be disabled and you can then use the XPS tools to adjust the physics settings.
+

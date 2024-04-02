@@ -115,7 +115,7 @@ def translate_file(subdir, file):
     _, file_extension = os.path.splitext(file)
     
     # Check if the file is a .md file
-    if file_extension.lower() != '.md':
+    if file_extension.lower() != '.md' and file_extension.lower() != '.txt':
         return
     
     # Construct the file path
