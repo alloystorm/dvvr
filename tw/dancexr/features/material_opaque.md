@@ -23,4 +23,4 @@ sidebar:
 
 * [使用高光/遮罩圖](specular_map.md)
 * [生成法線圖](normal_map.md)
-* [使用自定義細節圖](detail_map.md)
+* [使用自定義細節圖](custom_detail_map.md)

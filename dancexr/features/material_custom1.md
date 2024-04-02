@@ -19,4 +19,4 @@ You can enhance the textures of the materials in this category by utilizing the 
 
 * [Using specular / mask map](specular_map.md)
 * [Generating normal map](normal_map.md)
-* [Using custom detail maps](detail_map.md)
+* [Using custom detail maps](custom_detail_map.md)

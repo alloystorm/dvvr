@@ -18,4 +18,4 @@ sidebar:
 
 * [スペキュラー/マスクマップの使用](specular_map.md)
 * [法線マップの生成](normal_map.md)
-* [カスタムディテールマップの使用](detail_map.md)
+* [カスタムディテールマップの使用](custom_detail_map.md)

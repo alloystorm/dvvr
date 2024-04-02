@@ -18,4 +18,4 @@ sidebar:
 
 * [使用镜面/遮罩贴图](specular_map.md)
 * [生成法线贴图](normal_map.md)
-* [使用自定义细节贴图](detail_map.md)
+* [使用自定义细节贴图](custom_detail_map.md)

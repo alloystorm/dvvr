@@ -15,4 +15,4 @@ sidebar:
 
 * [반짝임 / 마스크 맵 사용](specular_map.md)
 * [노멀 맵 생성](normal_map.md)
-* [사용자 정의 디테일 맵 사용](detail_map.md)
+* [사용자 정의 디테일 맵 사용](custom_detail_map.md)

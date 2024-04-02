@@ -18,4 +18,4 @@ sidebar:
 
 * [使用高光/遮罩貼圖](specular_map.md)
 * [生成法線貼圖](normal_map.md)
-* [使用自定義細節貼圖](detail_map.md)
+* [使用自定義細節貼圖](custom_detail_map.md)

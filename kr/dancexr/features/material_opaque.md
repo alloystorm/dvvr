@@ -23,4 +23,4 @@ sidebar:
 
 * [반사 / 마스크 맵 사용하기](specular_map.md)
 * [노멀 맵 생성하기](normal_map.md)
-* [사용자 정의 디테일 맵 사용하기](detail_map.md)
+* [사용자 정의 디테일 맵 사용하기](custom_detail_map.md)
