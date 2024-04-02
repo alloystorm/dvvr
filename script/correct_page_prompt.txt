@@ -1,4 +1,4 @@
-Please help me correct gramma mistakes in the following text. Only return corrected text, nothing else.
+Please help me correct gramma mistakes in the following text. 
 
 Here's the text:
 {text}

@@ -10,4 +10,4 @@ sidebar:
 
 
 ### Bone Colliders 
-This setting creates colliders on common body parts to allow them to interact with other physics objects. Use the slider to change the size to fit the model body build. 
+This setting creates colliders on common body parts to allow them to interact with other physics objects. Use the slider to change the size to fit the model's body build.

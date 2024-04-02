@@ -1,3 +1,4 @@
+import datetime
 import subprocess
 import os
 import re
@@ -34,6 +35,11 @@ def is_file_newer_than_translation(file_path, prefix):
     # Return True if the original file's latest commit is more recent than the Japanese version.
     return commit_date_original > commit_date_jp
 
+def is_file_committed_today(file_path):
+    """Check if the given file was committed today."""
+    commit_date = get_latest_commit_info(file_path)
+    # print(f"Comparing {file_path} ({commit_date}) to today {commit_date[:10] == str(datetime.date.today())}")
+    return commit_date[:10] == str(datetime.date.today())
 
 # Define the path to the English content
 src_path = 'dancexr'
@@ -111,7 +117,7 @@ def split_text(text, max_chars, separator="\n## ", prefix = "## "):
     return chunks
 
 def correct_file(subdir, file):
-    print(subdir + " " + file)
+    # print(subdir + " " + file)
     _, file_extension = os.path.splitext(file)
     
     # Check if the file is a .md file
@@ -121,30 +127,32 @@ def correct_file(subdir, file):
     # Construct the file path
     file_path = os.path.join(subdir, file)
     
-    # Translate and save in corresponding directories for each language
-    target_files = []
-    for lang, dst_path in dst_paths.items():
-        # Construct the destination file path
-        dst_file_path = os.path.join(dst_path, os.path.relpath(file_path, src_path))
+    # # Translate and save in corresponding directories for each language
+    # target_files = []
+    # for lang, dst_path in dst_paths.items():
+    #     # Construct the destination file path
+    #     dst_file_path = os.path.join(dst_path, os.path.relpath(file_path, src_path))
 
-        # Check if destination file exists and is newer than source file
-        # if os.path.exists(dst_file_path) and os.path.getmtime(dst_file_path) >= os.path.getmtime(file_path):
-        #     print(f"Skipping {dst_file_path} because it is newer than source.")
-        #     continue
-        if not is_file_newer_than_translation(file_path, lang):
-            # print(f"Skipping {dst_file_path} because it is newer than source.")
-            continue
+    #     # Check if destination file exists and is newer than source file
+    #     # if os.path.exists(dst_file_path) and os.path.getmtime(dst_file_path) >= os.path.getmtime(file_path):
+    #     #     print(f"Skipping {dst_file_path} because it is newer than source.")
+    #     #     continue
+    #     if not is_file_newer_than_translation(file_path, lang):
+    #         # print(f"Skipping {dst_file_path} because it is newer than source.")
+    #         continue
         
-        print(dst_file_path)
-        target_files.append((lang, dst_file_path))
+    #     print(dst_file_path)
+    #     target_files.append((lang, dst_file_path))
     
-    if target_files:
+    # if target_files:
+    if is_file_committed_today(file_path):
         # Read the English content
+        print(f"Reading {file_path}...")
         with open(file_path, 'r', encoding='utf-8') as f:
             english_content = f.read()
         corrected = translate_page(english_content)
         with open(file_path, 'w', encoding='utf-8') as f:
-            f.write(corrected)
+           f.write(corrected)
         
 def translate_page(english_content):
     # Split the content into chunks and translate each chunk
