@@ -56,3 +56,10 @@ For each of the linear and angular motion settings mentioned above, the followin
 ## XPS Tools
 If you turn on the "Use XPS Tools" option, the physics componenets defined in the PMX model will all be disabled and you can then use the XPS tools to adjust the physics settings.
 
+* [Body Colliders](xps_body_colliders.md)
+* [Boobs Physics](xps_boobs.md)
+* [Hair Physics](xps_hair.md)
+* [Clothes Physics](xps_cloth.md)
+* [Skirt Physics](xps_skirt.md)
+* [Softbody Physics](xps_softbody.md)
+* [Detech Object](xps_detech.md)

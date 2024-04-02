@@ -57,6 +57,13 @@ sidebar:
 | *Model Format Specific*
 | [XPS Bone Mapper](features/bone_mapper.md)
 | [XPS Physics](features/xps_physics) | | PRO |
+| - [Body Colliders](features/xps_body_colliders.md)
+| - [Boobs Physics](features/xps_boobs.md)
+| - [Hair Physics](features/xps_hair.md)
+| - [Clothes Physics](features/xps_cloth.md)
+| - [Skirt Physics](features/xps_skirt.md)
+| - [Softbody Physics](features/xps_softbody.md)
+| - [Detech Object](features/xps_detech.md)
 | [Custom Inherit Motion](features/custom_inherit.md)
 | [PMX Physics](features/pmx_physics)
 |
