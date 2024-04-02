@@ -6,7 +6,7 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/features/xps_detech) | [繁中](/tw/dancexr/features/xps_detech) | [日本語](/jp/dancexr/features/xps_detech) | [한국어](/kr/dancexr/features/xps_detech) | [简中](/zh/dancexr/features/xps_detech)
+[Eng](/dancexr/features/xps_detach) | [繁中](/tw/dancexr/features/xps_detach) | [日本語](/jp/dancexr/features/xps_detach) | [한국어](/kr/dancexr/features/xps_detach) | [简中](/zh/dancexr/features/xps_detach)
 ## Detach Objects
 
 This feature allows you to detach the selected bones from the model.

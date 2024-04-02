@@ -59,4 +59,4 @@ If you turn on the "Use XPS Tools" option, the physics components defined in the
 * [Clothes Physics](xps_cloth.md)
 * [Skirt Physics](xps_skirt.md)
 * [Softbody Physics](xps_softbody.md)
-* [Detach Object](xps_detech.md)
+* [Detach Object](xps_detach.md)

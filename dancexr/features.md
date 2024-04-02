@@ -63,7 +63,7 @@ sidebar:
 | - [Clothes Physics](features/xps_cloth.md)
 | - [Skirt Physics](features/xps_skirt.md)
 | - [Softbody Physics](features/xps_softbody.md)
-| - [Detech Object](features/xps_detech.md)
+| - [Detech Object](features/xps_detach.md)
 | [Custom Inherit Motion](features/custom_inherit.md)
 | [PMX Physics](features/pmx_physics)
 |
