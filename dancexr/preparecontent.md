@@ -22,17 +22,17 @@ DanceXR searches for various types of content in distinct subfolders located wit
 * props: 3D models that can be used for stage props. Like furnitures. 
 * texture 
   * cookie: Textures for light mask
-  * drawing: Saved images for body paint feature
+  * drawing: Saved images for [body paint feature](features/outfit_body_paint.md)
   * ground: Ground textures
-  * mask: Detail & normal maps that can be applied to models
+  * mask: [Detail & normal maps](features/custom_detail_map.md) that can be applied to models
   * particle: Textures for [particle effect](features/particles.md)
   * sky: [Panaramic sky maps](features/skymap.md), recommend using HDR format
 * settings: All the saved settings. These files are not meant to be modified by users but you can copy and keep a backup if you prefer.
-* scenes: Saved scene files. 
-* bundles: Saved scene along with all the necessary assets included in a zip package.
+* scenes: [Saved scene](features/save_scene.md) files. 
+* bundles: [Saved scene along with all the necessary assets](features/scene_bundle.md) included in a zip package.
 * export: Exported model files can be found here when you use the 3D snapshot feature.
 * presets: Saved preset files. You can share these files with your friendds as long as you are using the same version of DanceXR.  
-* videos: Videos that can be used for projection and dynamic texture map. Supports MP4 format only.
+* videos: Videos that can be used for [projection and dynamic texture map](features/video_playback.md). Supports MP4 format only.
 * chat: Files used for the [AI chat system](ai_chat.md). 
   * characters: Character thumbnail and templates. These are automatically generated but you can make modifications.
   * tempplates: Prompt templates, you can make modifications and create new ones.
@@ -52,8 +52,7 @@ DanceXR searches for various types of content in distinct subfolders located wit
 
 For easier management of data files, especially for those content that requires multiple files to work together, we support using zip package to organize your files. You can also keep all the required files in a subfolder and they should work the same.
 
-#### 3D Models
-<a id="3d-models"></a>
+#### 3D Models<a id="3d-models"></a>
 
 3D models usually comes with one file that describe the mesh and multiple texture files. Make sure the relative relationship of the textures and the mesh files stay the same when you move or extract files. That's important for the program to find the correct textures to use.
 
@@ -66,8 +65,7 @@ Some models have [alternative textures](features/alternative_textures.md), Dance
 ![Example of actors folder](/images/content_actors.PNG)
 
 
-#### Motion files
-<a id="motion-files"></a>
+#### Motion files<a id="motion-files"></a>
 
 Typically motion data contains audio file, character motions and camera motions. In DanceXR we call a bundle of audio, character motions and camera motions a "dance set". 
 

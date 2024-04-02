@@ -1,7 +1,7 @@
 ---
 locale: en-US
 layout: single
-title: Features
+title: Feature List
 toc: true
 permalink: /dancexr/features
 sidebar:
@@ -34,15 +34,15 @@ sidebar:
 |
 | *Material Settings*
 | [Global Material Settings](features/material_global.md)
-| [Skin Materials](features/material_skin.md)
-| [Hair Materials](features/material_hair.md)
-| [Eyes Materials](features/material_eyes.md)
-| [Lips Materials](features/material_lips.md)
-| [Opaque Materials](features/material_opaque.md)
-| [Transparent Materials](features/material_transparent.md)
-| [Custom 1 Materials](features/material_custom1.md)
-| [Custom 2 Materials](features/material_custom1.md)
-| [Material List](features/material_settings.md)
+| [Material List & Categories](features/material_settings.md#material-list)
+| - [Skin Materials](features/material_skin.md)
+| - [Hair Materials](features/material_hair.md)
+| - [Eyes Materials](features/material_eyes.md)
+| - [Lips Materials](features/material_lips.md)
+| - [Opaque Materials](features/material_opaque.md)
+| - [Transparent Materials](features/material_transparent.md)
+| - [Custom 1 Materials](features/material_custom1.md)
+| - [Custom 2 Materials](features/material_custom1.md)
 |
 | *Pro Features*
 | [Outfit & Body Paint](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | PRO
