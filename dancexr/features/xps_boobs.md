@@ -7,20 +7,22 @@ sidebar:
   nav: "docs"
 ---
 
-### Boobs Physics
-Eventhough this is turned on by default it does nothing until you select the correct boobs related bones from the settings. Usually they are child bones of torso2 and have 2 of them one for each side. 
+## Boobs Physics
 
-Spring, Mass, Damp
-: controls physics properties of the joints. 
+Select bones and create physics componenets for boobs physics.
 
-Limit
-: controls how much rotation they can move from their parent bones
 
-Counter Gravity
-: lifts the boobs up by the selected degrees to counter the effect of gravity pulling them down. 
+## Settings
 
-Collider Radius
-: controls size of the collider, better to set it to a value that matches the model.
-
-Anchor and Center
-: controls the position of the joints.
+* Select Bones: Select the bones that are related to the boobs.
+* Mass: Mass of the rigidbodies.
+* Drag: Drag of the rigidbodies.
+* Collider Radius: Radius of the sphere collider created for the boobs.
+* Collide With Arms: Allow the boobs to collide with the arms.
+* Drive: Spring and damping force that keeps the boobs in their neutral position.
+* Angle Limit: The maximum angles the boobs can rotate in each axis.
+* Anchor: Adjust the anchor position for the joints.
+* Center: Adjust the center position for the created rigidbodies and colliders.
+* Counter Gravity: Lift the neutral position of the boobs by the selected degrees to counter the effect of gravity pulling them down.
+* Visualize: Visualize the created colliders.
+* Softbody: If the selected bone has many child bones, enabling this option will create a mesh of joints for the child bones to allow them to move individually.

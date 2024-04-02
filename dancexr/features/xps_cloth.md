@@ -7,5 +7,6 @@ sidebar:
   nav: "docs"
 ---
 
-### Cloth Physics
-This is similar to hair physics but it also has horizontal connection between the branches of the "tree", forming a "mesh"
+### Clothes Physics
+This is similar to [hair physics](xps_hair.md) but for accessories, sleeves and decorations like bunny ears.
+
