@@ -34,6 +34,9 @@ You can choose your desired physics frame rate by setting the "Steps per second"
 
 Subframe motion is a new feature that updates motion at the selected physics framerate. This can reduce the amount of movements of each physics simulation step, resulting in smoother simulation and more stability. This is especially useful for fast moving objects or when you want to achieve more realistic motion. However this will also require more CPU resources, so only use it when you have CPU head rooms to spare.
 
-Imagine an object with a chain attached to it moving from left to right. Without subframe motion, the physics simulation has a much greater gap to fill in the next frame while with subframe motion, the gap is much smaller which resulting in smoother motion.
+The following image shows the difference between subframe motion and normal motion.
 
 ![Subframe Demo](/images/subframe640.png)
+
+Imagine an object with a chain attached to it moving from left to right. Without subframe motion, the physics simulation has a much greater gap to fill in the next frame while with subframe motion, the gaps are much smaller which resulting in smoother motion. 
+
