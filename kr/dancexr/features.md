@@ -16,12 +16,12 @@ sidebar:
 | [모델 파일 정리 최상의 방법](preparecontent#3d-models)
 | [태깅 및 검색](features/tagging) 
 | [모델 캐시 및 로더 옵션](features/loader_options) 
-| [플레이리스트](features/actor_playlist)
+| [재생 목록](features/actor_playlist)
 | [포메이션](features/formation)
 |
 | *캐릭터 모델 설정*
 | [배우 메뉴, 도구 및 상호작용](features/actor_tools)
-| [드레싱 시스템 (재질 변형 및 XPS 옵션)](features/optionals)
+| [드레싱 시스템 (재질 모프 및 XPS 옵션)](features/optionals)
 | [대체 텍스처](features/alternative_textures)
 | [얼굴 제어](features/facial_control)
 | [눈 깜빡임, 숨쉬기 및 눈동자 접촉](features/eyecontact)
@@ -33,7 +33,7 @@ sidebar:
 | *재질 설정*
 | [전역 재질 설정](features/material_global.md)
 | [피부 재질](features/material_skin.md)
-| [머리 재질](features/material_hair.md)
+| [머리카락 재질](features/material_hair.md)
 | [눈 재질](features/material_eyes.md)
 | [입술 재질](features/material_lips.md)
 | [불투명 재질](features/material_opaque.md)
@@ -61,7 +61,7 @@ sidebar:
 | - [의류 물리](features/xps_cloth.md)
 | - [치마 물리](features/xps_skirt.md)
 | - [소프트바디 물리](features/xps_softbody.md)
-| - [물체 감지](features/xps_detech.md)
+| - [떼치 오브젝트](features/xps_detach.md)
 | [사용자 정의 모션 상속](features/custom_inherit.md)
 | [PMX 물리](features/pmx_physics)
 |

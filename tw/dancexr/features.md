@@ -13,7 +13,7 @@ sidebar:
 | :--- | ---: | ---: |
 | ***角色、舞台和道具模型*** 
 | *內容管理*
-| [整理模型文件最佳實踐](preparecontent#3d-models)
+| [組織模型文件最佳實踐](preparecontent#3d-models)
 | [標記和搜索](features/tagging) 
 | [模型緩存和加載器選項](features/loader_options) 
 | [播放列表](features/actor_playlist)
@@ -45,7 +45,7 @@ sidebar:
 | *專業版功能*
 | [服裝和身體彩繪](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 專業版
 | [運動覆蓋](features/motion_override) | | 專業版 |
-| [配件](features/accessory.md) | | 專業版 |
+| [配飾](features/accessory.md) | | 專業版 |
 | [布娃娃](features/ragdoll.md) | | 專業版 |
 | [光球](features/lightball.md) | | 專業版 |
 | [胸部搖晃](features/boob_shake_sex_overlay){: .nsfw} | | 不安全工作環境 |
@@ -61,12 +61,12 @@ sidebar:
 | - [衣物物理](features/xps_cloth.md)
 | - [裙子物理](features/xps_skirt.md)
 | - [軟體物理](features/xps_softbody.md)
-| - [檢測物件](features/xps_detech.md)
+| - [分離物件](features/xps_detach.md)
 | [自定義繼承運動](features/custom_inherit.md)
 | [PMX物理](features/pmx_physics)
 |
 | ***運動和媒體內容*** |
-| [整理運動文件最佳實踐](preparecontent#motion-files)
+| [組織運動文件最佳實踐](preparecontent#motion-files)
 | *音頻和視頻*
 | [視頻播放](features/video_playback) | [2024.4](releases/2024.4.md) | 專業版
 | [音頻播放選項](features/audio_options)
@@ -91,7 +91,7 @@ sidebar:
 | [自動舞蹈3](features/autodance3.md) | | 專業版 |
 | [女上位性交](features/scg_motion){: .nsfw} | | 不安全工作環境 |
 | [後背性交](features/sfb_motion){: .nsfw} | | 不安全工作環境 |
-| [性運動3](features/sm3_motion){: .nsfw} | | 不安全工作環境 |
+| [性動作3](features/sm3_motion){: .nsfw} | | 不安全工作環境 |
 |
 | *攝影機運動*
 | [自由飛行攝影機](features/camera)
@@ -114,7 +114,7 @@ sidebar:
 | [保存和加載場景](features/save_scene.md)
 | [場景包](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 專業版 |
 |
-| ***場景和舞台***
+| ***場景和舞台*** |
 | *舞台*
 | [地面、舞台和水系統](features/ground)
 | [程序化房間舞台](features/room_stage)

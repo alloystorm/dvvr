@@ -9,7 +9,7 @@ sidebar:
 ---
 [Eng](/dancexr/features) | [繁中](/tw/dancexr/features) | [日本語](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [简中](/zh/dancexr/features)
 
-| 機能 |  |  |
+| 特徴 |  |  |
 | :--- | ---: | ---: |
 | ***キャラクター、ステージ、プロップモデル*** 
 | *コンテンツ管理*
@@ -27,7 +27,7 @@ sidebar:
 | [まばたき、呼吸、目の接触](features/eyecontact)
 | [足の調整](features/feet_adjustments)
 | [トラブルシューティングオプション](features/troubleshooting_options)
-| [水のインタラクション](features/water_interaction.md)
+| [水の相互作用](features/water_interaction.md)
 | [アクタープリセット](features/actor_presets.md) | [2024.1](releases/2024.1.md)
 |
 | *マテリアル設定*
@@ -61,7 +61,7 @@ sidebar:
 | - [服の物理](features/xps_cloth.md)
 | - [スカートの物理](features/xps_skirt.md)
 | - [ソフトボディの物理](features/xps_softbody.md)
-| - [オブジェクトの検出](features/xps_detech.md)
+| - [オブジェクトのデタッチ](features/xps_detach.md)
 | [カスタム継承モーション](features/custom_inherit.md)
 | [PMX物理](features/pmx_physics)
 |
@@ -138,6 +138,6 @@ sidebar:
 | [自動更新](features/autoupdate) | | プロ |
 | [システムプリセット](features/system_presets.md) | [2024.1](releases/2024.1.md)
 |
-| [**オフラインレンダリング＆録画**](creator.md) | | クリエイター |
+| [**オフラインレンダー＆録画**](creator.md) | | クリエイター |
 |
 | [**AIボイスチャット**](ai_chat) | | プロ |

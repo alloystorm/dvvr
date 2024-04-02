@@ -61,7 +61,7 @@ sidebar:
 | - [服装物理](features/xps_cloth.md)
 | - [裙子物理](features/xps_skirt.md)
 | - [软体物理](features/xps_softbody.md)
-| - [检测物体](features/xps_detech.md)
+| - [分离物体](features/xps_detach.md)
 | [自定义继承动作](features/custom_inherit.md)
 | [PMX物理](features/pmx_physics)
 |
@@ -90,7 +90,7 @@ sidebar:
 | [自动舞蹈2](features/autodance2) | | 专业版 |
 | [自动舞蹈3](features/autodance3.md) | | 专业版 |
 | [骑乘位性爱](features/scg_motion){: .nsfw} | | 限制级 |
-| [后背位性爱](features/sfb_motion){: .nsfw} | | 限制级 |
+| [后入式性爱](features/sfb_motion){: .nsfw} | | 限制级 |
 | [性爱动作3](features/sm3_motion){: .nsfw} | | 限制级 |
 |
 | *摄影机动作*
