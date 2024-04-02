@@ -7,6 +7,8 @@ sidebar:
   nav: "docs"
 ---
 
+## Room Stage
+
 Room stage is a procedural (programmatically generated) stage model with many settings for customization.
 
 Use the presets to see how it works. You can also adjust the settings to create your own stage model.
