@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/xps_softbody) | [繁中](/tw/dancexr/features/xps_softbody) | [日本語](/jp/dancexr/features/xps_softbody) | [한국어](/kr/dancexr/features/xps_softbody) | [简中](/zh/dancexr/features/xps_softbody)
+
 
 ## Softbody Physics
 

@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
+[Eng](/dancexr/features/xps_hair) | [繁中](/tw/dancexr/features/xps_hair) | [日本語](/jp/dancexr/features/xps_hair) | [한국어](/kr/dancexr/features/xps_hair) | [简中](/zh/dancexr/features/xps_hair)
+
 ## ヘアーフィジックス
 
 ヘアーフィジックスツールを使用すると、髪の根本のボーンを選択し、末端に到達するまでのすべての子ボーンに物理コンポーネントを作成して、関節とコライダーのツリー構造を形成します。

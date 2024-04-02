@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
+[Eng](/dancexr/features/xps_softbody) | [繁中](/tw/dancexr/features/xps_softbody) | [日本語](/jp/dancexr/features/xps_softbody) | [한국어](/kr/dancexr/features/xps_softbody) | [简中](/zh/dancexr/features/xps_softbody)
+
 ## 軟體物理
 
 軟體物理創建了一組骨骼之間的聯繫網格，以模擬軟體物理。與裙子物理不同，裙子物理從根部到尖端有清晰的層次結構，而這更像是所有骨骼之間的平面關係。

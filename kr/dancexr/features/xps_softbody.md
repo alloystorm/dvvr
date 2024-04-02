@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
+[Eng](/dancexr/features/xps_softbody) | [繁中](/tw/dancexr/features/xps_softbody) | [日本語](/jp/dancexr/features/xps_softbody) | [한국어](/kr/dancexr/features/xps_softbody) | [简中](/zh/dancexr/features/xps_softbody)
+
 ## 소프트바디 물리학
 
 소프트바디 물리학은 소프트바디 물리학을 시뮬레이션하기 위해 본 그룹 사이에 연결된 관절 메쉬를 생성합니다. 루트에서 끝까지 명확한 계층 구조를 가진 스커트 물리학과 달리, 이는 모든 본 사이의 평면 관곌 관계와 같습니다.

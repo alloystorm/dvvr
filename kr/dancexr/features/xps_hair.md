@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
+[Eng](/dancexr/features/xps_hair) | [繁中](/tw/dancexr/features/xps_hair) | [日本語](/jp/dancexr/features/xps_hair) | [한국어](/kr/dancexr/features/xps_hair) | [简中](/zh/dancexr/features/xps_hair)
+
 ## 헤어 물리학
 
 헤어 물리학 도구를 사용하면 머리카락의 뿌리 본을 선택하고 끝에 도달할 때까지 모든 하위 본에 대한 물리 구성 요소를 생성합니다. 이는 관절 및 충돌체의 트리 구조를 형성합니다.

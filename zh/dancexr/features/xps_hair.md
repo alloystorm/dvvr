@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-zh"
 ---
+[Eng](/dancexr/features/xps_hair) | [繁中](/tw/dancexr/features/xps_hair) | [日本語](/jp/dancexr/features/xps_hair) | [한국어](/kr/dancexr/features/xps_hair) | [简中](/zh/dancexr/features/xps_hair)
+
 ## 头发物理
 
 使用头发物理工具，您可以选择头发的根骨骼，它将为所有子骨骼创建物理组件，直到达到末端形成关节和碰撞体的树状结构。

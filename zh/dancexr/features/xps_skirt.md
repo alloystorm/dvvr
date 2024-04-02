@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-zh"
 ---
+[Eng](/dancexr/features/xps_skirt) | [繁中](/tw/dancexr/features/xps_skirt) | [日本語](/jp/dancexr/features/xps_skirt) | [한국어](/kr/dancexr/features/xps_skirt) | [简中](/zh/dancexr/features/xps_skirt)
+
 ## 裙子物理
 
 裙子物理为所选骨骼创建一个互连的关节网格，以模拟织物物理效果。

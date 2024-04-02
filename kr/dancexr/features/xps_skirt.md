@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
+[Eng](/dancexr/features/xps_skirt) | [繁中](/tw/dancexr/features/xps_skirt) | [日本語](/jp/dancexr/features/xps_skirt) | [한국어](/kr/dancexr/features/xps_skirt) | [简中](/zh/dancexr/features/xps_skirt)
+
 ## 스커트 물리학
 
 스커트 물리학은 선택한 본들에 대한 연결된 관절 메쉬를 생성하여 천의 물리학을 시뮬레이션합니다.

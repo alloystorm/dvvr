@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/xps_boobs) | [繁中](/tw/dancexr/features/xps_boobs) | [日本語](/jp/dancexr/features/xps_boobs) | [한국어](/kr/dancexr/features/xps_boobs) | [简中](/zh/dancexr/features/xps_boobs)
+
 
 ## Boobs Physics
 

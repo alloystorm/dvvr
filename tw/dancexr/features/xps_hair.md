@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
+[Eng](/dancexr/features/xps_hair) | [繁中](/tw/dancexr/features/xps_hair) | [日本語](/jp/dancexr/features/xps_hair) | [한국어](/kr/dancexr/features/xps_hair) | [简中](/zh/dancexr/features/xps_hair)
+
 ## 髮體物理
 
 使用髮體物理工具，您可以選擇髮體的根骨骼，系統將為所有子骨骼創建物理組件，直到達到末端形成一個關節和碰撞器的樹狀結構。

@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-zh"
 ---
+[Eng](/dancexr/features/xps_detech) | [繁中](/tw/dancexr/features/xps_detech) | [日本語](/jp/dancexr/features/xps_detech) | [한국어](/kr/dancexr/features/xps_detech) | [简中](/zh/dancexr/features/xps_detech)
+
 ## 检测对象
 
 此功能允许您从模型中检测出选定的骨骼。

@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-zh"
 ---
+[Eng](/dancexr/features/xps_softbody) | [繁中](/tw/dancexr/features/xps_softbody) | [日本語](/jp/dancexr/features/xps_softbody) | [한국어](/kr/dancexr/features/xps_softbody) | [简中](/zh/dancexr/features/xps_softbody)
+
 ## 软体物理
 
 软体物理创建了一组骨骼之间的联接网格，以模拟软体物理。与裙子物理不同，裙子物理具有从根部到尖端的清晰层次结构，而软体物理更像是所有骨骼之间的平面关系。

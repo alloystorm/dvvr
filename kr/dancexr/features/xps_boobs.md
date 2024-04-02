@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
+[Eng](/dancexr/features/xps_boobs) | [繁中](/tw/dancexr/features/xps_boobs) | [日本語](/jp/dancexr/features/xps_boobs) | [한국어](/kr/dancexr/features/xps_boobs) | [简中](/zh/dancexr/features/xps_boobs)
+
 ## 가슴 물리학
 
 본을 선택하고 가슴 물리학을 위한 물리 구성 요소를 생성합니다.

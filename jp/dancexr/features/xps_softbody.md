@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
+[Eng](/dancexr/features/xps_softbody) | [繁中](/tw/dancexr/features/xps_softbody) | [日本語](/jp/dancexr/features/xps_softbody) | [한국어](/kr/dancexr/features/xps_softbody) | [简中](/zh/dancexr/features/xps_softbody)
+
 ## ソフトボディ物理
 
 ソフトボディ物理は、一群のボーン間に関節のメッシュを作成して、ソフトボディ物理をシミュレートします。スカート物理とは異なり、ルートから先端まで明確な階層構造があるわけではなく、すべてのボーン間にフラットな関係があります。
