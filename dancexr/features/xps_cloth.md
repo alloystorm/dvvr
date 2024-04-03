@@ -10,4 +10,4 @@ sidebar:
 
 
 ### Clothing Physics
-This is similar to [hair physics](xps_hair.md), but for accessories, sleeves, and decorations like bunny ears.
+This is similar to [hair physics](xps_hair.md), but for accessories, sleeves, and decorations such as bunny ears.

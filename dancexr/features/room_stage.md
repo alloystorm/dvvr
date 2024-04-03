@@ -9,9 +9,8 @@ sidebar:
 
 ## Room Stage
 
-Room stage is a procedural (programmatically generated) stage model with many settings for customization.
+Room Stage is a procedural (programmatically generated) stage model with many settings for customization.
 
 Use the presets to see how it works. You can also adjust the settings to create your own stage model.
 
-The model is split into several parts, including the walls, the ceiling, the floor, the edges and the back. Each part has its own settings for material, texture.
-
+The model is split into several parts, including the walls, the ceiling, the floor, the edges, and the back. Each part has its own settings for material and texture.

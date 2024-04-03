@@ -13,7 +13,7 @@ sidebar:
 
 | Features |  |  |
 | :--- | ---: | ---: |
-| ***Character, Stages And Props Models*** 
+| ***Character, Stages, And Props Models*** 
 | *Content Management*
 | [Organizing Model Files Best Practices](preparecontent#3d-models)
 | [Tagging and Search](features/tagging) 
@@ -22,11 +22,11 @@ sidebar:
 | [Formation](features/formation)
 |
 | *Character Model Settings*
-| [Actor Menu, Tools and Interaction](features/actor_tools)
+| [Actor Menu, Tools, and Interaction](features/actor_tools)
 | [Dressing System (Material Morphs and XPS Optionals)](features/optionals)
 | [Alternative Textures](features/alternative_textures)
 | [Facial Control](features/facial_control)
-| [Blink, Breath and Eye Contact](features/eyecontact)
+| [Blink, Breath, and Eye Contact](features/eyecontact)
 | [Feet Adjustments](features/feet_adjustments)
 | [Troubleshooting Options](features/troubleshooting_options)
 | [Water Interaction](features/water_interaction.md)
@@ -131,7 +131,7 @@ sidebar:
 | ***System*** |
 | [Content Library](preparecontent)
 | [Google Drive Integration](features/googledrive)
-| [Content Library for Android, Quest and Pico](content_android_quest)
+| [Content Library for Android, Quest, and Pico](content_android_quest)
 | [Display & UI](features/display_settings)
 | [Graphic Settings](features/graphics)
 | [Multi-Language Support](features/languages.md)
@@ -143,4 +143,3 @@ sidebar:
 | [**Offline Render & Recording**](creator.md) | | CREATOR |
 |
 | [**AI Voice Chat**](ai_chat) | | PRO |
-
