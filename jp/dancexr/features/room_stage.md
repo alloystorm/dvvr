@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-jp"
 ---
+[Eng](/dancexr/features/room_stage) | [繁中](/tw/dancexr/features/room_stage) | [日本語](/jp/dancexr/features/room_stage) | [한국어](/kr/dancexr/features/room_stage) | [简中](/zh/dancexr/features/room_stage)
+
 ## ルームステージ
 
 ルームステージは、カスタマイズのための多くの設定を持つプロシージャル（プログラムによって生成された）ステージモデルです。

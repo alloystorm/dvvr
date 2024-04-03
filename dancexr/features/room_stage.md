@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/room_stage) | [繁中](/tw/dancexr/features/room_stage) | [日本語](/jp/dancexr/features/room_stage) | [한국어](/kr/dancexr/features/room_stage) | [简中](/zh/dancexr/features/room_stage)
+
 
 ## Room Stage
 

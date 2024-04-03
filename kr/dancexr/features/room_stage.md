@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
+[Eng](/dancexr/features/room_stage) | [繁中](/tw/dancexr/features/room_stage) | [日本語](/jp/dancexr/features/room_stage) | [한국어](/kr/dancexr/features/room_stage) | [简中](/zh/dancexr/features/room_stage)
+
 ## 방 무대
 
 방 무대는 많은 설정을 가진 프로시저(프로그래밍으로 생성된) 무대 모델입니다.

@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
+[Eng](/dancexr/features/room_stage) | [繁中](/tw/dancexr/features/room_stage) | [日本語](/jp/dancexr/features/room_stage) | [한국어](/kr/dancexr/features/room_stage) | [简中](/zh/dancexr/features/room_stage)
+
 ## 房間舞台
 
 房間舞台是一個程序化（程式生成）的舞台模型，具有許多自定義設置。
