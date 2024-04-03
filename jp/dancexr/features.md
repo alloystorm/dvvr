@@ -129,7 +129,7 @@ sidebar:
 | ***システム*** |
 | [コンテンツライブラリ](preparecontent)
 | [Googleドライブ統合](features/googledrive)
-| [Android、Quest、Pico向けのコンテンツライブラリ](content_android_quest)
+| [Android、Quest向けのコンテンツライブラリ](content_android_quest)
 | [ディスプレイ＆UI](features/display_settings)
 | [グラフィック設定](features/graphics)
 | [多言語サポート](features/languages.md)

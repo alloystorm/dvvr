@@ -186,7 +186,7 @@ Manual mode means you click on the microphone button, it starts recording, and o
 ### Automatic Mode
 Automatic mode means it will automatically start recording when chat is idle (Characters not talking), processing the audio on the fly and then sends it when you are done talking. However sometimes it is not very smart. 
 
-For lower end devices, processing audio to text can take some time. So the automatic mode is not recommended for Android, Quest and Pico.
+For lower end devices, processing audio to text can take some time. So the automatic mode is not recommended for Android and Quest.
 
 
 ### Key Binding

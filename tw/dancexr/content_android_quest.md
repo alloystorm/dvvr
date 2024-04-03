@@ -1,7 +1,7 @@
 ---
 locale: zh-TW
 layout: single
-title: 安卓和Quest / Pico的內容庫
+title: 安卓和Quest的內容庫
 toc: true
 sidebar:
   nav: "docs-tw"

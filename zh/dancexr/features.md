@@ -129,7 +129,7 @@ sidebar:
 | ***系统*** |
 | [内容库](preparecontent)
 | [Google Drive集成](features/googledrive)
-| [Android、Quest和Pico的内容库](content_android_quest)
+| [Android、Quest的内容库](content_android_quest)
 | [显示和用户界面](features/display_settings)
 | [图形设置](features/graphics)
 | [多语言支持](features/languages.md)

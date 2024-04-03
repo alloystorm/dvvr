@@ -1,7 +1,7 @@
 ---
 locale: zh-CN
 layout: single
-title: 适用于Android和Quest / Pico的内容库
+title: 适用于Android和Quest的内容库
 toc: true
 sidebar:
   nav: "docs-zh"

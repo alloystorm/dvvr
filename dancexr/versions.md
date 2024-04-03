@@ -21,7 +21,7 @@ HD uses Unity HDRP, this focus more on grphics quality but can also drive VR on 
 
 RT uses Raytracing, this has the best graphics but might not be able to run at full frame rate in VR.
 
-HD and RT are not avaialble on mobile platforms so Android, Quest and Pico builds have LW option only.
+HD and RT are not avaialble on mobile platforms so Android and Quest builds have LW option only.
 
 ## Feature Sets
 We have Free, Pure, Pro and Creator tiers that have different features
@@ -37,7 +37,7 @@ We are available on Patreon, Itch.io and Steam.
 
 Availability are listed as below
 
-| Platform & Tier | Pure | Pro | RT | Creator | Quest / Pico | Android |
+| Platform & Tier | Pure | Pro | RT | Creator | Quest | Android |
 | --- | --- | --- | --- | --- | --- | --- | 
 | Patreon Patron Tier |  | * | |  |  | |
 | Patreon Pro Tier |  | * | * |  | * | |

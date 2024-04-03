@@ -131,7 +131,7 @@ sidebar:
 | ***System*** |
 | [Content Library](preparecontent)
 | [Google Drive Integration](features/googledrive)
-| [Content Library for Android, Quest, and Pico](content_android_quest)
+| [Content Library for Android and Quest](content_android_quest)
 | [Display & UI](features/display_settings)
 | [Graphic Settings](features/graphics)
 | [Multi-Language Support](features/languages.md)
