@@ -1,4 +1,4 @@
-发布:
+releases:
   - title: 2024
     children:
     - title: 发布 2024.4
@@ -42,7 +42,7 @@
   - title: 功能列表
     url: /dancexr/features
 
-文档:
+docs:
   - title: 帮助
     children:
       - title: "概述"
