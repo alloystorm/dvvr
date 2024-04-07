@@ -21,7 +21,7 @@ HD는 Unity HDRP를 사용하며, 그래픽 품질에 더 중점을 둡니다. �
 
 RT는 레이트레이싱을 사용하며, 가장 우수한 그래픽을 제공하지만 VR에서 전체 프레임 속도로 실행되지 않을 수 있습니다.
 
-HD 및 RT는 모바일 플랫폼에서 사용할 수 없으므로 Android, Quest 및 Pico 빌드는 LW 옵션만 사용할 수 있습니다.
+HD 및 RT는 모바일 플랫폼에서 사용할 수 없으므로 Android, Quest 빌드는 LW 옵션만 사용할 수 있습니다.
 
 ## 기능 세트
 Free, Pure, Pro 및 Creator 티어에는 다른 기능이 있습니다.
@@ -37,7 +37,7 @@ Pro 버전은 오프라인 렌더링 및 비디오 캡처 기능과 같은 Creat
 
 이용 가능성은 아래와 같이 나열됩니다.
 
-| 플랫폼 및 티어 | Pure | Pro | RT | Creator | Quest / Pico | Android |
+| 플랫폼 및 티어 | Pure | Pro | RT | Creator | Quest | Android |
 | --- | --- | --- | --- | --- | --- | --- | 
 | Patreon Patron 티어 |  | * | |  |  | |
 | Patreon Pro 티어 |  | * | * |  | * | |

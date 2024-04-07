@@ -32,20 +32,20 @@ sidebar:
 |
 | *マテリアル設定*
 | [グローバルマテリアル設定](features/material_global.md)
-| [スキンマテリアル](features/material_skin.md)
-| [髪のマテリアル](features/material_hair.md)
-| [目のマテリアル](features/material_eyes.md)
-| [唇のマテリアル](features/material_lips.md)
-| [不透明なマテリアル](features/material_opaque.md)
-| [透明なマテリアル](features/material_transparent.md)
-| [カスタム1のマテリアル](features/material_custom1.md)
-| [カスタム2のマテリアル](features/material_custom1.md)
-| [マテリアルリスト](features/material_settings.md)
+| [マテリアルリスト＆カテゴリ](features/material_settings.md#material-list)
+| - [スキンマテリアル](features/material_skin.md)
+| - [髪の毛のマテリアル](features/material_hair.md)
+| - [目のマテリアル](features/material_eyes.md)
+| - [唇のマテリアル](features/material_lips.md)
+| - [不透明なマテリアル](features/material_opaque.md)
+| - [透明なマテリアル](features/material_transparent.md)
+| - [カスタム1のマテリアル](features/material_custom1.md)
+| - [カスタム2のマテリアル](features/material_custom1.md)
 |
 | *プロ機能*
 | [衣装＆ボディペイント](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | プロ
 | [モーションオーバーライド](features/motion_override) | | プロ |
-| [アクセサリー](features/accessory.md) | | プロ |
+| [アクセサリ](features/accessory.md) | | プロ |
 | [ラグドール](features/ragdoll.md) | | プロ |
 | [ライトボール](features/lightball.md) | | プロ |
 | [おっぱいシェイク](features/boob_shake_sex_overlay){: .nsfw} | | NSFW |
@@ -129,7 +129,7 @@ sidebar:
 | ***システム*** |
 | [コンテンツライブラリ](preparecontent)
 | [Googleドライブ統合](features/googledrive)
-| [Android、Quest、Pico向けのコンテンツライブラリ](content_android_quest)
+| [Android、Quest向けのコンテンツライブラリ](content_android_quest)
 | [ディスプレイ＆UI](features/display_settings)
 | [グラフィック設定](features/graphics)
 | [多言語サポート](features/languages.md)
@@ -138,6 +138,6 @@ sidebar:
 | [自動更新](features/autoupdate) | | プロ |
 | [システムプリセット](features/system_presets.md) | [2024.1](releases/2024.1.md)
 |
-| [**オフラインレンダー＆録画**](creator.md) | | クリエイター |
+| [**オフラインレンダリング＆録画**](creator.md) | | クリエイター |
 |
 | [**AIボイスチャット**](ai_chat) | | プロ |

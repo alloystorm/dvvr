@@ -1,7 +1,7 @@
 ---
 locale: en-US
 layout: single
-title: Features
+title: Feature List
 toc: true
 permalink: /dancexr/features
 sidebar:
@@ -13,7 +13,7 @@ sidebar:
 
 | Features |  |  |
 | :--- | ---: | ---: |
-| ***Character, Stages And Props Models*** 
+| ***Character, Stages, And Props Models*** 
 | *Content Management*
 | [Organizing Model Files Best Practices](preparecontent#3d-models)
 | [Tagging and Search](features/tagging) 
@@ -22,11 +22,11 @@ sidebar:
 | [Formation](features/formation)
 |
 | *Character Model Settings*
-| [Actor Menu, Tools and Interaction](features/actor_tools)
+| [Actor Menu, Tools, and Interaction](features/actor_tools)
 | [Dressing System (Material Morphs and XPS Optionals)](features/optionals)
 | [Alternative Textures](features/alternative_textures)
 | [Facial Control](features/facial_control)
-| [Blink, Breath and Eye Contact](features/eyecontact)
+| [Blink, Breath, and Eye Contact](features/eyecontact)
 | [Feet Adjustments](features/feet_adjustments)
 | [Troubleshooting Options](features/troubleshooting_options)
 | [Water Interaction](features/water_interaction.md)
@@ -34,15 +34,15 @@ sidebar:
 |
 | *Material Settings*
 | [Global Material Settings](features/material_global.md)
-| [Skin Materials](features/material_skin.md)
-| [Hair Materials](features/material_hair.md)
-| [Eyes Materials](features/material_eyes.md)
-| [Lips Materials](features/material_lips.md)
-| [Opaque Materials](features/material_opaque.md)
-| [Transparent Materials](features/material_transparent.md)
-| [Custom 1 Materials](features/material_custom1.md)
-| [Custom 2 Materials](features/material_custom1.md)
-| [Material List](features/material_settings.md)
+| [Material List & Categories](features/material_settings.md#material-list)
+| - [Skin Materials](features/material_skin.md)
+| - [Hair Materials](features/material_hair.md)
+| - [Eyes Materials](features/material_eyes.md)
+| - [Lips Materials](features/material_lips.md)
+| - [Opaque Materials](features/material_opaque.md)
+| - [Transparent Materials](features/material_transparent.md)
+| - [Custom 1 Materials](features/material_custom1.md)
+| - [Custom 2 Materials](features/material_custom1.md)
 |
 | *Pro Features*
 | [Outfit & Body Paint](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | PRO
@@ -131,7 +131,7 @@ sidebar:
 | ***System*** |
 | [Content Library](preparecontent)
 | [Google Drive Integration](features/googledrive)
-| [Content Library for Android, Quest and Pico](content_android_quest)
+| [Content Library for Android and Quest](content_android_quest)
 | [Display & UI](features/display_settings)
 | [Graphic Settings](features/graphics)
 | [Multi-Language Support](features/languages.md)
@@ -143,4 +143,3 @@ sidebar:
 | [**Offline Render & Recording**](creator.md) | | CREATOR |
 |
 | [**AI Voice Chat**](ai_chat) | | PRO |
-

@@ -20,7 +20,7 @@ HD使用Unity HDRP，这更注重图形质量，但也可以在高端PC上驱动
 
 RT使用光线追踪，这具有最佳的图形效果，但可能无法以全帧率运行VR。
 
-HD和RT在移动平台上不可用，因此Android，Quest和Pico版本仅有LW选项。
+HD和RT在移动平台上不可用，因此Android，Quest版本仅有LW选项。
 
 ## 功能集
 我们有免费版，纯净版，专业版和创作者版，具有不同的功能。
@@ -36,7 +36,7 @@ HD和RT在移动平台上不可用，因此Android，Quest和Pico版本仅有LW�
 
 可用性如下所示
 
-| 平台和版本 | 纯净版 | 专业版 | RT | 创作者版 | Quest / Pico | Android |
+| 平台和版本 | 纯净版 | 专业版 | RT | 创作者版 | Quest | Android |
 | --- | --- | --- | --- | --- | --- | --- | 
 | Patreon赞助者版本 |  | * | |  |  | |
 | Patreon专业版 |  | * | * |  | * | |

@@ -32,15 +32,15 @@ sidebar:
 |
 | *材质设置*
 | [全局材质设置](features/material_global.md)
-| [皮肤材质](features/material_skin.md)
-| [头发材质](features/material_hair.md)
-| [眼睛材质](features/material_eyes.md)
-| [嘴唇材质](features/material_lips.md)
-| [不透明材质](features/material_opaque.md)
-| [透明材质](features/material_transparent.md)
-| [自定义1材质](features/material_custom1.md)
-| [自定义2材质](features/material_custom1.md)
-| [材质列表](features/material_settings.md)
+| [材质列表和类别](features/material_settings.md#material-list)
+| - [皮肤材质](features/material_skin.md)
+| - [头发材质](features/material_hair.md)
+| - [眼睛材质](features/material_eyes.md)
+| - [嘴唇材质](features/material_lips.md)
+| - [不透明材质](features/material_opaque.md)
+| - [透明材质](features/material_transparent.md)
+| - [自定义1材质](features/material_custom1.md)
+| - [自定义2材质](features/material_custom1.md)
 |
 | *专业版功能*
 | [服装和身体彩绘](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 专业版
@@ -129,7 +129,7 @@ sidebar:
 | ***系统*** |
 | [内容库](preparecontent)
 | [Google Drive集成](features/googledrive)
-| [Android、Quest和Pico的内容库](content_android_quest)
+| [Android、Quest的内容库](content_android_quest)
 | [显示和用户界面](features/display_settings)
 | [图形设置](features/graphics)
 | [多语言支持](features/languages.md)

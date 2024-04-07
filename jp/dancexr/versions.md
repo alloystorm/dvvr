@@ -21,7 +21,7 @@ HDはUnity HDRPを使用しており、これはより高品質なグラフィ�
 
 RTはレイトレーシングを使用しており、最高のグラフィックスを提供しますが、VRでのフルフレームレートでの実行ができない場合があります。
 
-HDとRTはモバイルプラットフォームでは利用できないため、Android、Quest、PicoビルドではLWオプションのみが利用可能です。
+HDとRTはモバイルプラットフォームでは利用できないため、Android、QuestビルドではLWオプションのみが利用可能です。
 
 ## 機能セット
 Free、Pure、Pro、Creatorの4つのティアがあり、それぞれ異なる機能を備えています。
@@ -37,7 +37,7 @@ Patreon、Itch.io、Steamで利用できます。
 
 利用可能なプラットフォームは以下の通りです。
 
-| プラットフォーム＆ティア | Pure | Pro | RT | Creator | Quest / Pico | Android |
+| プラットフォーム＆ティア | Pure | Pro | RT | Creator | Quest | Android |
 | --- | --- | --- | --- | --- | --- | --- | 
 | Patreon Patronティア |  | * | |  |  | |
 | Patreon Proティア |  | * | * |  | * | |

@@ -1,7 +1,7 @@
 ---
 locale: ko-KR
 layout: single
-title: 특징
+title: 기능 목록
 toc: true
 permalink: /kr/dancexr/features
 sidebar:
@@ -16,12 +16,12 @@ sidebar:
 | [모델 파일 정리 최상의 방법](preparecontent#3d-models)
 | [태깅 및 검색](features/tagging) 
 | [모델 캐시 및 로더 옵션](features/loader_options) 
-| [재생 목록](features/actor_playlist)
+| [플레이리스트](features/actor_playlist)
 | [포메이션](features/formation)
 |
 | *캐릭터 모델 설정*
 | [배우 메뉴, 도구 및 상호작용](features/actor_tools)
-| [드레싱 시스템 (재질 모프 및 XPS 옵션)](features/optionals)
+| [드레싱 시스템 (재질 변형 및 XPS 옵션)](features/optionals)
 | [대체 텍스처](features/alternative_textures)
 | [얼굴 제어](features/facial_control)
 | [눈 깜빡임, 숨쉬기 및 눈동자 접촉](features/eyecontact)
@@ -32,15 +32,15 @@ sidebar:
 |
 | *재질 설정*
 | [전역 재질 설정](features/material_global.md)
-| [피부 재질](features/material_skin.md)
-| [머리카락 재질](features/material_hair.md)
-| [눈 재질](features/material_eyes.md)
-| [입술 재질](features/material_lips.md)
-| [불투명 재질](features/material_opaque.md)
-| [투명 재질](features/material_transparent.md)
-| [사용자 정의 1 재질](features/material_custom1.md)
-| [사용자 정의 2 재질](features/material_custom1.md)
-| [재질 목록](features/material_settings.md)
+| [재질 목록 및 카테고리](features/material_settings.md#material-list)
+| - [피부 재질](features/material_skin.md)
+| - [머리 재질](features/material_hair.md)
+| - [눈 재질](features/material_eyes.md)
+| - [입술 재질](features/material_lips.md)
+| - [불투명 재질](features/material_opaque.md)
+| - [투명 재질](features/material_transparent.md)
+| - [사용자 정의 1 재질](features/material_custom1.md)
+| - [사용자 정의 2 재질](features/material_custom1.md)
 |
 | *프로 기능*
 | [의상 및 바디 페인트](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 프로
@@ -48,7 +48,7 @@ sidebar:
 | [액세서리](features/accessory.md) | | 프로 |
 | [래그돌](features/ragdoll.md) | | 프로 |
 | [라이트볼](features/lightball.md) | | 프로 |
-| [가슴 흔들기](features/boob_shake_sex_overlay){: .nsfw} | | 성인 |
+| [가슴 흔들림](features/boob_shake_sex_overlay){: .nsfw} | | 성인 |
 | [성인 오버레이](features/boob_shake_sex_overlay){: .nsfw} | | 성인 |
 | [딜도](features/dildo){: .nsfw} | | 성인 |
 |
@@ -61,7 +61,7 @@ sidebar:
 | - [의류 물리](features/xps_cloth.md)
 | - [치마 물리](features/xps_skirt.md)
 | - [소프트바디 물리](features/xps_softbody.md)
-| - [떼치 오브젝트](features/xps_detach.md)
+| - [떼어내기 객체](features/xps_detach.md)
 | [사용자 정의 모션 상속](features/custom_inherit.md)
 | [PMX 물리](features/pmx_physics)
 |
@@ -95,7 +95,7 @@ sidebar:
 |
 | *카메라 모션*
 | [프리플라이 카메라](features/camera)
-| [궤도 카메라](features/camera)
+| [오비트 카메라](features/camera)
 | [자동 카메라](features/camera)
 | [원샷 카메라](features/camera)
 | [일인칭 카메라](features/camera)
@@ -114,7 +114,7 @@ sidebar:
 | [씬 저장 및 불러오기](features/save_scene.md)
 | [씬 번들](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 프로 |
 |
-| ***씬 및 무대***
+| ***씬 및 무대*** |
 | *무대*
 | [지면, 무대 및 물 시스템](features/ground)
 | [프로시저 룸 무대](features/room_stage)

@@ -1,7 +1,7 @@
 ---
 locale: en-US
 layout: single
-title: Content Library For Android & Quest / Pico
+title: Content Library For Android & Quest
 toc: true
 sidebar:
   nav: "docs"

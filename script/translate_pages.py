@@ -2,7 +2,8 @@ import subprocess
 import os
 import re
 from utils import translate
-from utils import correct
+from utils import correct_page
+from utils import extract_section
 
 def get_latest_commit_info(file_path):
     """Get the latest commit date for a given file."""
@@ -52,64 +53,6 @@ def ensure_dir(file_path):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-# Maximum tokens for GPT-3.5-turbo
-MAX_TOKENS = 8192
-# Roughly estimating 4 characters per token as a heuristic
-CHARS_PER_TOKEN = 4
-MAX_CHARS = MAX_TOKENS * CHARS_PER_TOKEN
-
-def extract_section(content):
-    front_matter_pattern = re.compile(r'---.*?---', re.DOTALL)
-    front_matter_match = re.search(front_matter_pattern, content)
-    if front_matter_match:
-        front_matter = front_matter_match.group()
-        content = content.replace(front_matter, "")
-    else:
-        front_matter = ""
-    language_links_pattern = re.compile(r'\[.+\]\(.*\) \| \[.+\]\(.*\) \| \[.+\]\(.*\) \| \[.+\]\(.*\) \| \[.+\]\(.*\)\n')
-    links_match = re.search(language_links_pattern, content)
-    if links_match:
-        links = links_match.group()
-        content = content.replace(links_match.group(), "")
-    else:
-        links = ""
-    chunks = split_text(content, MAX_CHARS)
-    return front_matter, links, chunks
-
-def split_text(text, max_chars, separator="\n## ", prefix = "## "):
-    # Split by section headers and ensure each chunk is under the maximum character limit
-    paragraphs = text.split(separator)
-    print(f"{len(paragraphs)} paragraphs.")
-    chunks = []
-    
-    # Handle the first paragraph separately to avoid undesired prefixing
-    first_paragraph = paragraphs[0] if paragraphs else ""
-    remaining_paragraphs = paragraphs[1:] if len(paragraphs) > 1 else []
-    current_chunk = first_paragraph
-    
-    # If the first paragraph is too long, make it a separate chunk
-    if len(first_paragraph) > max_chars or len(remaining_paragraphs) == 0:
-        chunks.append(first_paragraph)
-        first_paragraph = ""
-        current_chunk = ""
-    
-    for paragraph in remaining_paragraphs:
-        # If adding the next paragraph exceeds the max length, start a new chunk
-        if len(current_chunk) + len(paragraph) > max_chars:
-            if current_chunk:  # Avoid appending empty chunks
-                chunks.append(current_chunk)
-            current_chunk = prefix + paragraph
-        else:
-            # Prefix with "## " unless it's the very first paragraph
-            divider = "" if not current_chunk and not first_paragraph else separator
-            current_chunk = current_chunk + divider + paragraph
-    
-    # Don't forget to append the last chunk
-    if current_chunk:
-        chunks.append(current_chunk)
-    
-    return chunks
-
 def translate_file(subdir, file):
     print(subdir + " " + file)
     _, file_extension = os.path.splitext(file)
@@ -140,9 +83,11 @@ def translate_file(subdir, file):
     
     if target_files:
         # Read the English content
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(file_path, 'r+', encoding='utf-8') as f:
             english_content = f.read()
-        translate_page(english_content, target_files)
+            corrected = correct_page(english_content)
+            f.write(corrected)
+            translate_page(english_content, target_files)
         
 def translate_page(english_content, target_files):
     # Split the content into chunks and translate each chunk

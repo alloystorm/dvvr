@@ -1,7 +1,7 @@
 ---
 locale: ja-JP
 layout: single
-title: Android＆Quest / Pico用コンテンツライブラリ
+title: Android＆Quest用コンテンツライブラリ
 toc: true
 sidebar:
   nav: "docs-jp"

@@ -12,8 +12,8 @@ sidebar:
 ## Sky Modes
 You can choose to use sky map, pure color or procedural mode to render sky.
 
-## On Quest and Pico
-For performance reasons, on Quest and Pico devices you don't have sky map or procedural options. Sky color options are located in the lighting configurations. It has additional passthrough slider that controls the transparency of the background to allow for mixed reality.
+## On Quest
+For performance reasons, on Quest you don't have sky map or procedural options. Sky color options are located in the lighting configurations. It has additional passthrough slider that controls the transparency of the background to allow for mixed reality.
 
 ## Passthrough on PC
 Certain PC VR streaming programing allows reaplcing pure color background with passthrough image. You can set the sky to color mode and pick a color (for example pure black or green) that the streaming system uses for this to work.
