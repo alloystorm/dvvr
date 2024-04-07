@@ -2,8 +2,6 @@
 locale: zh-CN
 layout: single
 title: 下载
-
-Please note that the specified translations for the terms provided should be used when translating the text.
 toc: true
 sidebar:
   nav: "docs-zh"
