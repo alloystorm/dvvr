@@ -11,12 +11,14 @@ sidebar:
 
 ## Free Version Download
 
-[DanceXR 1.5.1 HD](https://github.com/alloystorm/dvvr/releases/tag/1.5.1){: .dlbtn .patreon} 
+[DanceXR 2024.2 HD](https://github.com/alloystorm/dvvr/releases/tag/2024.2){: .dlbtn .patreon} 
 
-The free version includes all [basic features](basic_features.md) such as standard pose conversion, stage and environment settings, and lifelike motions. However, it has some limitations: only one actor can be on the stage at a time, and [advanced features](pro_features.md) in the paid version are not available.
+The free version includes all basic functionalities such as standard pose conversion, stage and environment settings, and lifelike motions. However, it only one actor can be on the stage at a time, and advanced features in the paid version are not available.
+
+Check the [full feature list](features.md), items marked with a `PRO`, `NSFW` or `CREATOR` are not available in the free version.
 
 ## Purchase Options
-To gain access to the latest release and unlock advanced features, please use one of the following options to purchase. 
+To gain access to the latest release and unlock advanced features, you have the following options:
 
 ### Become a supporter on Patreon
 
@@ -24,7 +26,9 @@ To gain access to the latest release and unlock advanced features, please use on
 
 Every month, we publish the latest version on our Patreon page. The free version build will also be made available on Patreon one month after its initial release.
 
-By becoming a supporter on Patreon, you will have exclusive access to the latest updates and the chance to provide feedback before the release is available on other platforms. If you appreciate our project and want to support us, we encourage you to become a Patreon supporter.
+By becoming a supporter on Patreon, you will have exclusive access to the latest updates and the chance to provide feedback before the release is available on other platforms. 
+
+Also the creator edition is only available on the Patreon platform for the creator tier supporters. 
 
 
 ### Purchase PC version from Steam & Itch.io
@@ -62,6 +66,12 @@ For Google Play users you can now joint our public beta test to get early access
 https://play.google.com/apps/testing/com.vrstormlab.dancexr
 
 If you want to revert to the production version, you can choose "Leave the Program" from the same page and then you'll be able to install the old version from Google Play.
+
+### Purchase iOS version on App Store
+
+The iOS version for iPhone, iPad is available on the App Store:
+
+[DanceXR iOS](https://apps.apple.com/au/app/dancexr/id6475269158){: .dlbtn .itchio}
 
 
 ### For users in mainland China
