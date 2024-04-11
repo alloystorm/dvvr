@@ -12,7 +12,7 @@ sidebar:
 
 
 | Features |  |  |
-| :--- | ---: | ---: |
+| :--- | --- |---: |
 | ***Character, Stages, And Props Models*** 
 | *Content Management*
 | [Organizing Model Files Best Practices](preparecontent#3d-models)
@@ -46,17 +46,17 @@ sidebar:
 |
 | *Pro Features*
 | [Outfit & Body Paint](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | PRO
-| [Motion Override](features/motion_override) | | PRO |
-| [Accessory](features/accessory.md) | | PRO |
-| [Ragdoll](features/ragdoll.md) | | PRO |
-| [Lightball](features/lightball.md) | | PRO |
-| [Boob Shake](features/boob_shake_sex_overlay){: .nsfw} | | NSFW |
-| [Sex Overlay](features/boob_shake_sex_overlay){: .nsfw} | | NSFW |
-| [Dildo](features/dildo){: .nsfw} | | NSFW |
+| [Motion Override](features/motion_override) || PRO |
+| [Accessory](features/accessory.md) || PRO |
+| [Ragdoll](features/ragdoll.md) || PRO |
+| [Lightball](features/lightball.md) || PRO |
+| [Boob Shake](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
+| [Sex Overlay](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
+| [Dildo](features/dildo){: .nsfw} || NSFW |
 |
 | *Model Format Specific*
 | [XPS Bone Mapper](features/bone_mapper.md)
-| [XPS Physics](features/xps_physics) | | PRO |
+| [XPS Physics](features/xps_physics) || PRO |
 | - [Body Colliders](features/xps_body_colliders.md)
 | - [Boobs Physics](features/xps_boobs.md)
 | - [Hair Physics](features/xps_hair.md)
@@ -88,12 +88,12 @@ sidebar:
 | *Procedural Motions*
 | [Idle Motion](features/idle_motion.md)
 | [Catwalk](features/catwalk.md)
-| [Auto Dance](features/autodance) | | PRO |
-| [Auto Dance 2](features/autodance2) | | PRO |
-| [Auto Dance 3](features/autodance3.md) | | PRO |
-| [Cowgirl Sex](features/scg_motion){: .nsfw} | | NSFW |
-| [Sex From Behind](features/sfb_motion){: .nsfw} | | NSFW |
-| [Sex Motion 3](features/sm3_motion){: .nsfw} | | NSFW |
+| [Auto Dance](features/autodance) || PRO |
+| [Auto Dance 2](features/autodance2) || PRO |
+| [Auto Dance 3](features/autodance3.md) || PRO |
+| [Cowgirl Sex](features/scg_motion){: .nsfw} || NSFW |
+| [Sex From Behind](features/sfb_motion){: .nsfw} || NSFW |
+| [Sex Motion 3](features/sm3_motion){: .nsfw} || NSFW |
 |
 | *Camera Motions*
 | [Freefly Camera](features/camera)
@@ -108,7 +108,7 @@ sidebar:
 | [Sky and Cloud](features/skymap)
 | [Lighting](features/lighting)
 | [Particle System](features/particles)
-| [AR Mode](features/ar_mode) | | PRO |
+| [AR Mode](features/ar_mode) | Mobile & Quest | PRO | 
 | [Stages](features/stages)
 | [Props](features/props)
 | [Beats Ring](features/beats_ring.md)
@@ -118,7 +118,8 @@ sidebar:
 |
 | ***Scene & Stage***
 | *Stages*
-| [Ground, Stage & Water System](features/ground)
+| [Ground & Stage](features/ground)
+| [Water System](features/water_system.md) | PC
 | [Procedural Room Stage](features/room_stage)
 | [Stage Model & Settings](features/stages)
 |
@@ -134,12 +135,18 @@ sidebar:
 | [Content Library for Android and Quest](content_android_quest)
 | [Display & UI](features/display_settings)
 | [Graphic Settings](features/graphics)
+| [Raytracing Effects](features/raytracing.md) | PC
 | [Multi-Language Support](features/languages.md)
 | [Input Settings](features/controls)
 | [Physics Config](features/system_physics)
-| [Auto Update](features/autoupdate) | | PRO |
+| [Auto Update](features/autoupdate) || PRO
 | [System Presets](features/system_presets.md) | [2024.1](releases/2024.1.md)
 |
-| [**Offline Render & Recording**](creator.md) | | CREATOR |
+| [**Offline Render & Recording**](creator.md) | PC | CREATOR | 
 |
-| [**AI Voice Chat**](ai_chat) | | PRO |
+| [**AI Voice Chat**](ai_chat) || PRO |
+
+
+PC: HD or RT version on Windows PC only
+Mobile: Supported iPhone, iPad and Android devices (Not all device supports AR)
+Quest: Quest 2, 3 or Pro
