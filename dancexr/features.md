@@ -135,19 +135,21 @@ sidebar:
 | [Content Library for Android and Quest](content_android_quest)
 | [Display & UI](features/display_settings)
 | [Graphic Settings](features/graphics)
-| [Raytracing Effects](features/raytracing.md) | PC
+| [Raytracing Effects](features/raytracing.md) | [^PC]
 | [Multi-Language Support](features/languages.md)
 | [Input Settings](features/controls)
 | [Physics Config](features/system_physics)
 | [Auto Update](features/autoupdate) || PRO
 | [System Presets](features/system_presets.md) | [2024.1](releases/2024.1.md)
 |
-| [**Offline Render & Recording**](creator.md) | PC | CREATOR | 
+| [**Offline Render & Recording**](creator.md) | PC[^1] | CREATOR | 
 |
 | [**AI Voice Chat**](ai_chat) || PRO |
 
 
-PC: HD or RT version on Windows PC only
+[^1]: PC: HD or RT version on Windows PC only
+
+[^PC]: HD or RT version on Windows PC only
 
 Mobile: Supported iPhone, iPad and Android devices (Not all device supports AR)
 
