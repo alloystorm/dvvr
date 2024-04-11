@@ -43,7 +43,8 @@ sidebar:
 | - [Transparent Materials](features/material_transparent.md)
 | - [Custom 1 Materials](features/material_custom1.md)
 | - [Custom 2 Materials](features/material_custom1.md)
-| [Sweat Effect](features/sweat_effect.md) || PRO
+| [Texture Enhancement](features/texture_enhancement.md) || PRO
+| [Sweat Effect](features/sweat_effect.md) || NSFW
 | [Material List](features/material_settings.md#material-list) || PRO
 |
 | *Pro Features*
@@ -115,7 +116,7 @@ sidebar:
 | [Stages](features/stages)
 | [Props](features/props)
 | [Beats Ring](features/beats_ring.md)
-| [Stage Laser](features/laser.md) | [2024.3](releases/2024.3.md) |
+| [Stage Laser](features/laser.md) | [2024.3](releases/2024.3.md) | PRO
 | [Save & Load Scene](features/save_scene.md)
 | [Scene Bundles](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | PRO |
 |
