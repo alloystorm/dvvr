@@ -148,5 +148,7 @@ sidebar:
 
 
 PC: HD or RT version on Windows PC only
+
 Mobile: Supported iPhone, iPad and Android devices (Not all device supports AR)
+
 Quest: Quest 2, 3 or Pro
