@@ -23,7 +23,7 @@ sidebar:
 |
 | *Character Model Settings*
 | [Actor Menu, Tools, and Interaction](features/actor_tools)
-| [Dressing System (Material Morphs and XPS Optionals)](features/optionals)
+| [Dressing System (Material Morphs and XPS Optionals)](features/optionals) || PRO
 | [Alternative Textures](features/alternative_textures)
 | [Facial Control](features/facial_control)
 | [Blink, Breath, and Eye Contact](features/eyecontact)
@@ -34,7 +34,7 @@ sidebar:
 |
 | *Material Settings*
 | [Global Material Settings](features/material_global.md)
-| [Material List & Categories](features/material_settings.md#material-list)
+| Material Categories
 | - [Skin Materials](features/material_skin.md)
 | - [Hair Materials](features/material_hair.md)
 | - [Eyes Materials](features/material_eyes.md)
@@ -43,6 +43,8 @@ sidebar:
 | - [Transparent Materials](features/material_transparent.md)
 | - [Custom 1 Materials](features/material_custom1.md)
 | - [Custom 2 Materials](features/material_custom1.md)
+| [Sweat Effect](features/sweat_effect.md) || PRO
+| [Material List](features/material_settings.md#material-list) || PRO
 |
 | *Pro Features*
 | [Outfit & Body Paint](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | PRO
@@ -58,14 +60,15 @@ sidebar:
 | [XPS Bone Mapper](features/bone_mapper.md)
 | [XPS Physics](features/xps_physics) || PRO |
 | - [Body Colliders](features/xps_body_colliders.md)
-| - [Boobs Physics](features/xps_boobs.md)
+| - [Boobs Physics](features/xps_boobs.md) || PRO
 | - [Hair Physics](features/xps_hair.md)
 | - [Clothes Physics](features/xps_cloth.md)
 | - [Skirt Physics](features/xps_skirt.md)
-| - [Softbody Physics](features/xps_softbody.md)
+| - [Softbody Physics](features/xps_softbody.md) || PRO
 | - [Detech Object](features/xps_detach.md)
 | [Custom Inherit Motion](features/custom_inherit.md)
 | [PMX Physics](features/pmx_physics)
+| PMX Blendshape Morphs || PRO
 |
 | ***Motion & Media Content*** |
 | [Organizing Motion Files Best Practices](preparecontent#motion-files)
@@ -107,7 +110,7 @@ sidebar:
 | ***Environment*** |
 | [Sky and Cloud](features/skymap)
 | [Lighting](features/lighting)
-| [Particle System](features/particles)
+| [Particle System](features/particles) || PRO
 | [AR Mode](features/ar_mode) | Mobile[^2] & Quest[^3] | PRO | 
 | [Stages](features/stages)
 | [Props](features/props)
