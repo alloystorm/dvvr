@@ -108,7 +108,7 @@ sidebar:
 | [Sky and Cloud](features/skymap)
 | [Lighting](features/lighting)
 | [Particle System](features/particles)
-| [AR Mode](features/ar_mode) | Mobile & Quest | PRO | 
+| [AR Mode](features/ar_mode) | Mobile[^2] & Quest[^3] | PRO | 
 | [Stages](features/stages)
 | [Props](features/props)
 | [Beats Ring](features/beats_ring.md)
@@ -119,7 +119,7 @@ sidebar:
 | ***Scene & Stage***
 | *Stages*
 | [Ground & Stage](features/ground)
-| [Water System](features/water_system.md) | PC
+| [Water System](features/water_system.md) | PC[^1]
 | [Procedural Room Stage](features/room_stage)
 | [Stage Model & Settings](features/stages)
 |
@@ -135,7 +135,7 @@ sidebar:
 | [Content Library for Android and Quest](content_android_quest)
 | [Display & UI](features/display_settings)
 | [Graphic Settings](features/graphics)
-| [Raytracing Effects](features/raytracing.md) | [^PC]
+| [Raytracing Effects](features/raytracing.md) | PC[^1]
 | [Multi-Language Support](features/languages.md)
 | [Input Settings](features/controls)
 | [Physics Config](features/system_physics)
@@ -147,10 +147,8 @@ sidebar:
 | [**AI Voice Chat**](ai_chat) || PRO |
 
 
-[^1]: PC: HD or RT version on Windows PC only
+[^1]: Available in HD or RT version on Windows PC only
 
-[^PC]: HD or RT version on Windows PC only
+[^2]: Available on supported iPhone, iPad and Android devices (Not all device supports AR)
 
-Mobile: Supported iPhone, iPad and Android devices (Not all device supports AR)
-
-Quest: Quest 2, 3 or Pro
+[^3]: Available on Quest 2, 3 or Pro
