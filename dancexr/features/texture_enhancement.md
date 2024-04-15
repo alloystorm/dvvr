@@ -6,6 +6,8 @@ toc: true
 sidebar:
   nav: "docs"
 ---
+[Eng](/dancexr/features/texture_enhancement) | [繁中](/tw/dancexr/features/texture_enhancement) | [日本語](/jp/dancexr/features/texture_enhancement) | [한국어](/kr/dancexr/features/texture_enhancement) | [简中](/zh/dancexr/features/texture_enhancement)
+
 
 {% include video id="uk7QGK3rOQk" provider="youtube" %}
 

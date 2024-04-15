@@ -85,8 +85,8 @@ def translate_file(subdir, file):
         # Read the English content
         with open(file_path, 'r+', encoding='utf-8') as f:
             english_content = f.read()
-            corrected = correct_page(english_content)
-            f.write(corrected)
+            #corrected = correct_page(english_content)
+            #f.write(corrected)
             translate_page(english_content, target_files)
         
 def translate_page(english_content, target_files):
