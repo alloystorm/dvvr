@@ -13,6 +13,20 @@ sidebar:
 
 The content library is a folder where DanceXR locates content and stores user-created settings.
 
+
+## Locating the content library
+
+**Windows**: On Windows, you can locate the content library by clicking on the "Show in Explorer" item from within "Content Library" section in the system menu (the gear icon on bottom left).
+
+**Android**: After 2024.3 update the content folder is located at /DanceXR/ in your storage. If you are using an older version, it is located at /Android/data/com.vrstormlab.dancexr/files/.
+
+**iPhone and iPad**: You can find the content library in the "On My iPhone" or "On My iPad" section in the Files app. DanceXR creates a folder called "DanceXR" in the root directory of your device.
+
+**Oculus Quest**: The content library is located at /DanceXR/ in your storage after 2024.3 and for older version at /Android/data/com.vrstormlab.dancexr/files/. Similar to the Android version.
+
+
+## Folder Structure
+
 DanceXR searches for various types of content in distinct subfolders located within the content library.
 
 * actors: Character models
