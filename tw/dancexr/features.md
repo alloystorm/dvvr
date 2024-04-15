@@ -1,7 +1,7 @@
 ---
 locale: zh-TW
 layout: single
-title: 功能清單
+title: 功能列表
 toc: true
 permalink: /tw/dancexr/features
 sidebar:
@@ -21,7 +21,7 @@ sidebar:
 |
 | *角色模型設置*
 | [演員菜單、工具和互動](features/actor_tools)
-| [服裝系統（材質變形和XPS可選項）](features/optionals)
+| [服裝系統（材質變形和XPS可選項）](features/optionals) || 專業版
 | [替代材質](features/alternative_textures)
 | [面部控制](features/facial_control)
 | [眨眼、呼吸和眼神接觸](features/eyecontact)
@@ -32,7 +32,7 @@ sidebar:
 |
 | *材質設置*
 | [全局材質設置](features/material_global.md)
-| [材質列表和類別](features/material_settings.md#material-list)
+| 材質類別
 | - [皮膚材質](features/material_skin.md)
 | - [頭髮材質](features/material_hair.md)
 | - [眼睛材質](features/material_eyes.md)
@@ -41,36 +41,40 @@ sidebar:
 | - [透明材質](features/material_transparent.md)
 | - [自定義1材質](features/material_custom1.md)
 | - [自定義2材質](features/material_custom1.md)
+| [紋理增強](features/texture_enhancement.md) || 專業版
+| [汗水效果](features/sweat_effect.md) || NSFW
+| [材質列表](features/material_settings.md#material-list) || 專業版
 |
 | *專業版功能*
 | [服裝和身體彩繪](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 專業版
 | [運動覆蓋](features/motion_override) || 專業版 |
-| [配飾](features/accessory.md) || 專業版 |
+| [配件](features/accessory.md) || 專業版 |
 | [布娃娃](features/ragdoll.md) || 專業版 |
 | [光球](features/lightball.md) || 專業版 |
-| [胸部搖晃](features/boob_shake_sex_overlay){: .nsfw} || 不適於工作場所 |
-| [性交覆蓋](features/boob_shake_sex_overlay){: .nsfw} || 不適於工作場所 |
-| [假陽具](features/dildo){: .nsfw} || 不適於工作場所 |
+| [胸部搖晃](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
+| [性交疊加](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
+| [假陽具](features/dildo){: .nsfw} || NSFW |
 |
 | *模型格式特定*
 | [XPS骨骼映射器](features/bone_mapper.md)
 | [XPS物理](features/xps_physics) || 專業版 |
 | - [身體碰撞器](features/xps_body_colliders.md)
-| - [胸部物理](features/xps_boobs.md)
+| - [胸部物理](features/xps_boobs.md) || 專業版
 | - [頭髮物理](features/xps_hair.md)
 | - [衣物物理](features/xps_cloth.md)
 | - [裙子物理](features/xps_skirt.md)
-| - [軟體物理](features/xps_softbody.md)
-| - [檢測物件](features/xps_detach.md)
+| - [軟體物理](features/xps_softbody.md) || 專業版
+| - [分離物件](features/xps_detach.md)
 | [自定義繼承運動](features/custom_inherit.md)
 | [PMX物理](features/pmx_physics)
+| PMX混合形態 || 專業版
 |
 | ***運動和媒體內容*** |
 | [組織運動文件最佳實踐](preparecontent#motion-files)
 | *音頻和視頻*
 | [視頻播放](features/video_playback) | [2024.4](releases/2024.4.md) | 專業版
 | [音頻播放選項](features/audio_options)
-| [音樂節奏](features/music_timing)
+| [音樂定時](features/music_timing)
 |
 | *管理運動*
 | [播放選項](features/playback_options)
@@ -85,13 +89,13 @@ sidebar:
 |
 | *程序化運動*
 | [閒置運動](features/idle_motion.md)
-| [Catwalk](features/catwalk.md)
+| [走秀](features/catwalk.md)
 | [自動舞蹈](features/autodance) || 專業版 |
 | [自動舞蹈2](features/autodance2) || 專業版 |
 | [自動舞蹈3](features/autodance3.md) || 專業版 |
-| [騎乘姿勢](features/scg_motion){: .nsfw} || 不適於工作場所 |
-| [後背性交](features/sfb_motion){: .nsfw} || 不適於工作場所 |
-| [性運動3](features/sm3_motion){: .nsfw} || 不適於工作場所 |
+| [女上位性愛](features/scg_motion){: .nsfw} || NSFW |
+| [後背性愛](features/sfb_motion){: .nsfw} || NSFW |
+| [性運動3](features/sm3_motion){: .nsfw} || NSFW |
 |
 | *攝影機運動*
 | [自由飛行攝影機](features/camera)
@@ -105,19 +109,19 @@ sidebar:
 | ***環境*** |
 | [天空和雲](features/skymap)
 | [照明](features/lighting)
-| [粒子系統](features/particles)
-| [AR模式](features/ar_mode) | 手機和Quest | 專業版 | 
+| [粒子系統](features/particles) || 專業版
+| [AR模式](features/ar_mode) | 手機[^2] 和 Quest[^3] | 專業版 | 
 | [舞台](features/stages)
 | [道具](features/props)
 | [節奏環](features/beats_ring.md)
-| [舞台激光](features/laser.md) | [2024.3](releases/2024.3.md) |
+| [舞台激光](features/laser.md) | [2024.3](releases/2024.3.md) | 專業版
 | [保存和加載場景](features/save_scene.md)
 | [場景包](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 專業版 |
 |
 | ***場景和舞台***
 | *舞台*
 | [地面和舞台](features/ground)
-| [水系統](features/water_system.md) | PC
+| [水系統](features/water_system.md) | PC[^1]
 | [程序化房間舞台](features/room_stage)
 | [舞台模型和設置](features/stages)
 |
@@ -133,13 +137,21 @@ sidebar:
 | [Android和Quest的內容庫](content_android_quest)
 | [顯示和用戶界面](features/display_settings)
 | [圖形設置](features/graphics)
-| [光線追蹤效果](features/raytracing.md) | PC
+| [光線追蹤效果](features/raytracing.md) | PC[^1]
 | [多語言支持](features/languages.md)
 | [輸入設置](features/controls)
 | [物理配置](features/system_physics)
 | [自動更新](features/autoupdate) || 專業版
 | [系統預設](features/system_presets.md) | [2024.1](releases/2024.1.md)
 |
-| [**離線渲染和錄製**](creator.md) | PC | 創作版 | 
+| [**離線渲染和錄製**](creator.md) | PC[^1] | 創作版 | 
 |
 | [**AI語音聊天**](ai_chat) || 專業版 |
+|  |  |  |
+
+
+[^1]: 只在Windows PC上的HD或RT版本中提供
+
+[^2]: 可在支持的iPhone、iPad和Android設備上使用（並非所有設備都支持AR）
+
+[^3]: 可在Quest 2、3或Pro上使用

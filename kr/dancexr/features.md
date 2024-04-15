@@ -21,7 +21,7 @@ sidebar:
 |
 | *캐릭터 모델 설정*
 | [배우 메뉴, 도구 및 상호작용](features/actor_tools)
-| [드레싱 시스템 (재질 변형 및 XPS 옵션)](features/optionals)
+| [드레싱 시스템 (재질 변형 및 XPS 옵션)](features/optionals) || 프로버전
 | [대체 텍스처](features/alternative_textures)
 | [얼굴 제어](features/facial_control)
 | [눈 깜빡임, 숨쉬기 및 눈동자 접촉](features/eyecontact)
@@ -32,7 +32,7 @@ sidebar:
 |
 | *재질 설정*
 | [전역 재질 설정](features/material_global.md)
-| [재질 목록 및 카테고리](features/material_settings.md#material-list)
+| 재질 카테고리
 | - [피부 재질](features/material_skin.md)
 | - [머리 재질](features/material_hair.md)
 | - [눈 재질](features/material_eyes.md)
@@ -41,34 +41,38 @@ sidebar:
 | - [투명 재질](features/material_transparent.md)
 | - [사용자 정의 1 재질](features/material_custom1.md)
 | - [사용자 정의 2 재질](features/material_custom1.md)
+| [텍스처 향상](features/texture_enhancement.md) || 프로버전
+| [땀 효과](features/sweat_effect.md) || 성인물
+| [재질 목록](features/material_settings.md#material-list) || 프로버전
 |
 | *프로 기능*
-| [의상 및 바디 페인트](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 프로
-| [모션 오버라이드](features/motion_override) || 프로 |
-| [액세서리](features/accessory.md) || 프로 |
-| [레그돌](features/ragdoll.md) || 프로 |
-| [라이트볼](features/lightball.md) || 프로 |
-| [가슴 흔들림](features/boob_shake_sex_overlay){: .nsfw} || 성인 |
-| [성적 오버레이](features/boob_shake_sex_overlay){: .nsfw} || 성인 |
-| [딜도](features/dildo){: .nsfw} || 성인 |
+| [의상 및 바디 페인트](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 프로버전
+| [모션 오버라이드](features/motion_override) || 프로버전 |
+| [액세서리](features/accessory.md) || 프로버전 |
+| [레그돌](features/ragdoll.md) || 프로버전 |
+| [라이트볼](features/lightball.md) || 프로버전 |
+| [가슴 흔들기](features/boob_shake_sex_overlay){: .nsfw} || 성인물 |
+| [성적 오버레이](features/boob_shake_sex_overlay){: .nsfw} || 성인물 |
+| [딜도](features/dildo){: .nsfw} || 성인물 |
 |
 | *모델 형식별*
 | [XPS 본 매핑](features/bone_mapper.md)
-| [XPS 물리](features/xps_physics) || 프로 |
-| - [바디 콜라이더](features/xps_body_colliders.md)
-| - [가슴 물리](features/xps_boobs.md)
+| [XPS 물리](features/xps_physics) || 프로버전 |
+| - [몸 콜라이더](features/xps_body_colliders.md)
+| - [가슴 물리](features/xps_boobs.md) || 프로버전
 | - [머리 물리](features/xps_hair.md)
 | - [의류 물리](features/xps_cloth.md)
 | - [치마 물리](features/xps_skirt.md)
-| - [소프트바디 물리](features/xps_softbody.md)
-| - [떼어난 객체](features/xps_detach.md)
-| [사용자 정의 모션 상속](features/custom_inherit.md)
+| - [소프트바디 물리](features/xps_softbody.md) || 프로버전
+| - [떼어낸 오브젝트](features/xps_detach.md)
+| [사용자 정의 상속 모션](features/custom_inherit.md)
 | [PMX 물리](features/pmx_physics)
+| PMX 블렌드 모프 || 프로버전
 |
 | ***모션 및 미디어 콘텐츠*** |
-| [모션 파일 정리 최상의 방법](preparecontent#motion-files)
+| [모션 파일 최상의 방법으로 정리](preparecontent#motion-files)
 | *오디오 및 비디오*
-| [비디오 재생](features/video_playback) | [2024.4](releases/2024.4.md) | 프로
+| [비디오 재생](features/video_playback) | [2024.4](releases/2024.4.md) | 프로버전
 | [오디오 재생 옵션](features/audio_options)
 | [음악 타이밍](features/music_timing)
 |
@@ -86,18 +90,18 @@ sidebar:
 | *프로시저 모션*
 | [아이들 모션](features/idle_motion.md)
 | [캣워크](features/catwalk.md)
-| [자동 댄스](features/autodance) || 프로 |
-| [자동 댄스 2](features/autodance2) || 프로 |
-| [자동 댄스 3](features/autodance3.md) || 프로 |
-| [카우걸 섹스](features/scg_motion){: .nsfw} || 성인 |
-| [뒤에서 섹스](features/sfb_motion){: .nsfw} || 성인 |
-| [섹스 모션 3](features/sm3_motion){: .nsfw} || 성인 |
+| [자동 댄스](features/autodance) || 프로버전 |
+| [자동 댄스 2](features/autodance2) || 프로버전 |
+| [자동 댄스 3](features/autodance3.md) || 프로버전 |
+| [카우걸 섹스](features/scg_motion){: .nsfw} || 성인물 |
+| [뒤에서 섹스](features/sfb_motion){: .nsfw} || 성인물 |
+| [섹스 모션 3](features/sm3_motion){: .nsfw} || 성인물 |
 |
 | *카메라 모션*
 | [프리플라이 카메라](features/camera)
 | [궤도 카메라](features/camera)
 | [자동 카메라](features/camera)
-| [일회용 카메라](features/camera)
+| [원샷 카메라](features/camera)
 | [일인칭 카메라](features/camera)
 | [고정 카메라 (콘서트 모드)](features/camera)
 | [카메라 모션 및 설정](features/camera)
@@ -105,19 +109,19 @@ sidebar:
 | ***환경*** |
 | [하늘과 구름](features/skymap)
 | [조명](features/lighting)
-| [입자 시스템](features/particles)
-| [AR 모드](features/ar_mode) | 모바일 및 퀘스트 | 프로 | 
+| [입자 시스템](features/particles) || 프로버전
+| [AR 모드](features/ar_mode) | 모바일[^2] 및 퀘스트[^3] | 프로버전 | 
 | [무대](features/stages)
 | [소품](features/props)
 | [비트 링](features/beats_ring.md)
-| [무대 레이저](features/laser.md) | [2024.3](releases/2024.3.md) |
+| [무대 레이저](features/laser.md) | [2024.3](releases/2024.3.md) | 프로버전
 | [씬 저장 및 불러오기](features/save_scene.md)
-| [씬 번들](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 프로 |
+| [씬 번들](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 프로버전 |
 |
 | ***씬 및 무대***
 | *무대*
 | [지면 및 무대](features/ground)
-| [물 시스템](features/water_system.md) | PC
+| [물 시스템](features/water_system.md) | PC[^1]
 | [프로시저 룸 무대](features/room_stage)
 | [무대 모델 및 설정](features/stages)
 |
@@ -133,13 +137,21 @@ sidebar:
 | [안드로이드 및 퀘스트용 콘텐츠 라이브러리](content_android_quest)
 | [디스플레이 및 UI](features/display_settings)
 | [그래픽 설정](features/graphics)
-| [레이트레이싱 효과](features/raytracing.md) | PC
+| [레이트레이싱 효과](features/raytracing.md) | PC[^1]
 | [다국어 지원](features/languages.md)
 | [입력 설정](features/controls)
 | [물리 설정](features/system_physics)
-| [자동 업데이트](features/autoupdate) || 프로
+| [자동 업데이트](features/autoupdate) || 프로버전
 | [시스템 프리셋](features/system_presets.md) | [2024.1](releases/2024.1.md)
 |
-| [**오프라인 렌더링 및 녹화**](creator.md) | PC | 크리에이터 | 
+| [**오프라인 렌더링 및 녹화**](creator.md) | PC[^1] | 크리에이터 | 
 |
-| [**AI 음성 채팅**](ai_chat) || 프로 |
+| [**AI 음성 채팅**](ai_chat) || 프로버전 |
+|  |  |  |
+
+
+[^1]: 윈도우 PC에서 HD 또는 RT 버전으로만 사용 가능
+
+[^2]: 지원되는 iPhone, iPad 및 Android 기기에서 사용 가능 (모든 기기가 AR을 지원하지는 않음)
+
+[^3]: Quest 2, 3 또는 Pro에서 사용 가능

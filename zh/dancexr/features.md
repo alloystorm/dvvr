@@ -1,7 +1,7 @@
 ---
 locale: zh-CN
 layout: single
-title: 功能列表
+title: 特性列表
 toc: true
 permalink: /zh/dancexr/features
 sidebar:
@@ -21,10 +21,10 @@ sidebar:
 |
 | *角色模型设置*
 | [演员菜单、工具和交互](features/actor_tools)
-| [服装系统（材质变形和XPS可选项）](features/optionals)
+| [服装系统（材质变形和XPS可选项）](features/optionals) || 专业版
 | [替代纹理](features/alternative_textures)
 | [面部控制](features/facial_control)
-| [眨眼、呼吸和眼神交流](features/eyecontact)
+| [眨眼、呼吸和眼神接触](features/eyecontact)
 | [脚部调整](features/feet_adjustments)
 | [故障排除选项](features/troubleshooting_options)
 | [水的互动](features/water_interaction.md)
@@ -32,7 +32,7 @@ sidebar:
 |
 | *材质设置*
 | [全局材质设置](features/material_global.md)
-| [材质列表和类别](features/material_settings.md#material-list)
+| 材质类别
 | - [皮肤材质](features/material_skin.md)
 | - [头发材质](features/material_hair.md)
 | - [眼睛材质](features/material_eyes.md)
@@ -41,6 +41,9 @@ sidebar:
 | - [透明材质](features/material_transparent.md)
 | - [自定义1材质](features/material_custom1.md)
 | - [自定义2材质](features/material_custom1.md)
+| [纹理增强](features/texture_enhancement.md) || 专业版
+| [汗水效果](features/sweat_effect.md) || 不适宜未成年人观看
+| [材质列表](features/material_settings.md#material-list) || 专业版
 |
 | *专业版功能*
 | [服装和身体彩绘](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 专业版
@@ -48,22 +51,23 @@ sidebar:
 | [配饰](features/accessory.md) || 专业版 |
 | [布娃娃](features/ragdoll.md) || 专业版 |
 | [光球](features/lightball.md) || 专业版 |
-| [胸部摇晃](features/boob_shake_sex_overlay){: .nsfw} || 限制级 |
-| [性爱叠加](features/boob_shake_sex_overlay){: .nsfw} || 限制级 |
-| [假阳具](features/dildo){: .nsfw} || 限制级 |
+| [胸部摇晃](features/boob_shake_sex_overlay){: .nsfw} || 不适宜未成年人观看 |
+| [性行为叠加](features/boob_shake_sex_overlay){: .nsfw} || 不适宜未成年人观看 |
+| [跳蛋](features/dildo){: .nsfw} || 不适宜未成年人观看 |
 |
 | *模型格式特定*
 | [XPS骨骼映射器](features/bone_mapper.md)
 | [XPS物理](features/xps_physics) || 专业版 |
 | - [身体碰撞体](features/xps_body_colliders.md)
-| - [胸部物理](features/xps_boobs.md)
+| - [胸部物理](features/xps_boobs.md) || 专业版
 | - [头发物理](features/xps_hair.md)
 | - [服装物理](features/xps_cloth.md)
 | - [裙子物理](features/xps_skirt.md)
-| - [软体物理](features/xps_softbody.md)
-| - [检测物体](features/xps_detach.md)
+| - [软体物理](features/xps_softbody.md) || 专业版
+| - [分离对象](features/xps_detach.md)
 | [自定义继承动作](features/custom_inherit.md)
 | [PMX物理](features/pmx_physics)
+| PMX混合形态 || 专业版
 |
 | ***动作和媒体内容*** |
 | [组织动作文件最佳实践](preparecontent#motion-files)
@@ -85,13 +89,13 @@ sidebar:
 |
 | *程序化动作*
 | [空闲动作](features/idle_motion.md)
-| [走秀](features/catwalk.md)
+| [T台走秀](features/catwalk.md)
 | [自动舞蹈](features/autodance) || 专业版 |
 | [自动舞蹈2](features/autodance2) || 专业版 |
 | [自动舞蹈3](features/autodance3.md) || 专业版 |
-| [骑乘位性爱](features/scg_motion){: .nsfw} || 限制级 |
-| [后背性爱](features/sfb_motion){: .nsfw} || 限制级 |
-| [性爱动作3](features/sm3_motion){: .nsfw} || 限制级 |
+| [骑乘位性行为](features/scg_motion){: .nsfw} || 不适宜未成年人观看 |
+| [后背位性行为](features/sfb_motion){: .nsfw} || 不适宜未成年人观看 |
+| [性行为动作3](features/sm3_motion){: .nsfw} || 不适宜未成年人观看 |
 |
 | *摄影机动作*
 | [自由飞行摄影机](features/camera)
@@ -105,19 +109,19 @@ sidebar:
 | ***环境*** |
 | [天空和云](features/skymap)
 | [照明](features/lighting)
-| [粒子系统](features/particles)
-| [AR模式](features/ar_mode) | 移动设备和Quest | 专业版 | 
+| [粒子系统](features/particles) || 专业版
+| [AR模式](features/ar_mode) | 移动设备[^2] & Quest[^3] | 专业版 | 
 | [舞台](features/stages)
 | [道具](features/props)
 | [节拍环](features/beats_ring.md)
-| [舞台激光](features/laser.md) | [2024.3](releases/2024.3.md) |
+| [舞台激光](features/laser.md) | [2024.3](releases/2024.3.md) | 专业版
 | [保存和加载场景](features/save_scene.md)
 | [场景包](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 专业版 |
 |
-| ***场景和舞台*** |
+| ***场景和舞台***
 | *舞台*
 | [地面和舞台](features/ground)
-| [水系统](features/water_system.md) | PC
+| [水系统](features/water_system.md) | 仅限PC[^1]
 | [程序化房间舞台](features/room_stage)
 | [舞台模型和设置](features/stages)
 |
@@ -133,20 +137,21 @@ sidebar:
 | [Android和Quest的内容库](content_android_quest)
 | [显示和用户界面](features/display_settings)
 | [图形设置](features/graphics)
-| [光线追踪效果](features/raytracing.md) | PC
+| [光线追踪效果](features/raytracing.md) | 仅限PC[^1]
 | [多语言支持](features/languages.md)
 | [输入设置](features/controls)
 | [物理配置](features/system_physics)
 | [自动更新](features/autoupdate) || 专业版
 | [系统预设](features/system_presets.md) | [2024.1](releases/2024.1.md)
 |
-| [**离线渲染和录制**](creator.md) | PC | 创作版 | 
+| [**离线渲染和录制**](creator.md) | 仅限PC[^1] | 创作版 | 
 |
 | [**AI语音聊天**](ai_chat) || 专业版 |
+|  |  |  |
 
 
-PC：仅支持Windows PC上的高清或光线追踪版本
+[^1]: 仅在Windows PC上的高清或光线追踪版本中提供
 
-移动设备：支持iPhone、iPad和Android设备（并非所有设备都支持AR）
+[^2]: 仅支持iPhone、iPad和Android设备（并非所有设备都支持AR）
 
-Quest：Quest 2、3或Pro
+[^3]: 仅在Quest 2、3或Pro上提供
