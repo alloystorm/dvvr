@@ -149,6 +149,7 @@ sidebar:
 | [**Offline Render & Recording**](creator.md) | PC[^1] | CREATOR | 
 |
 | [**AI Voice Chat**](ai_chat) || PRO |
+|  |  |  |
 
 
 [^1]: Available in HD or RT version on Windows PC only
