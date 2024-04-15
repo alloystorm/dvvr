@@ -66,7 +66,7 @@ DanceXR searches for various types of content in distinct subfolders located wit
 
 For easier management of data files, especially for that content that requires multiple files to work together, we support using a zip package to organize your files. You can also keep all the required files in a subfolder, and they should work the same.
 
-#### 3D Models<a id="3d-models"></a>
+### 3D Models<a id="3d-models"></a>
 
 3D models usually come with one file that describes the mesh and multiple texture files. Make sure the relative relationship of the textures and the mesh files stays the same when you move or extract files. That's important for the program to find the correct textures to use.
 
@@ -78,7 +78,7 @@ Some models have [alternative textures](features/alternative_textures.md). Dance
 
 ![Example of actors folder](/images/content_actors.PNG)
 
-#### Motion files<a id="motion-files"></a>
+### Motion files<a id="motion-files"></a>
 
 Typically, motion data contains an audio file, character motions, and camera motions. In DanceXR, we call a bundle of audio, character motions, and camera motions a "dance set".
 
@@ -89,6 +89,7 @@ For simple content that has only a motion/audio pair, you can have multiple of t
 You can also have multiple unrelated motions or audio files in the same folders too. They'll just be recognized as individual motion or audio files that have no relationship with other files.
 
 ![Example of motion folder](/images/content_motion.PNG)
+
 
 ## Content Library Tools
 
