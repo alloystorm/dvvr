@@ -10,13 +10,13 @@ sidebar:
 [Eng](/dancexr/features) | [繁中](/tw/dancexr/features) | [日本語](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [简中](/zh/dancexr/features)
 
 | 특징 |  |  |
-| :--- | ---: | ---: |
+| :--- | --- |---: |
 | ***캐릭터, 무대 및 소품 모델*** 
 | *콘텐츠 관리*
 | [모델 파일 정리 최상의 방법](preparecontent#3d-models)
 | [태깅 및 검색](features/tagging) 
 | [모델 캐시 및 로더 옵션](features/loader_options) 
-| [플레이리스트](features/actor_playlist)
+| [재생 목록](features/actor_playlist)
 | [포메이션](features/formation)
 |
 | *캐릭터 모델 설정*
@@ -44,24 +44,24 @@ sidebar:
 |
 | *프로 기능*
 | [의상 및 바디 페인트](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 프로
-| [모션 오버라이드](features/motion_override) | | 프로 |
-| [액세서리](features/accessory.md) | | 프로 |
-| [래그돌](features/ragdoll.md) | | 프로 |
-| [라이트볼](features/lightball.md) | | 프로 |
-| [가슴 흔들림](features/boob_shake_sex_overlay){: .nsfw} | | 성인 |
-| [성인 오버레이](features/boob_shake_sex_overlay){: .nsfw} | | 성인 |
-| [딜도](features/dildo){: .nsfw} | | 성인 |
+| [모션 오버라이드](features/motion_override) || 프로 |
+| [액세서리](features/accessory.md) || 프로 |
+| [레그돌](features/ragdoll.md) || 프로 |
+| [라이트볼](features/lightball.md) || 프로 |
+| [가슴 흔들림](features/boob_shake_sex_overlay){: .nsfw} || 성인 |
+| [성적 오버레이](features/boob_shake_sex_overlay){: .nsfw} || 성인 |
+| [딜도](features/dildo){: .nsfw} || 성인 |
 |
 | *모델 형식별*
 | [XPS 본 매핑](features/bone_mapper.md)
-| [XPS 물리](features/xps_physics) | | 프로 |
+| [XPS 물리](features/xps_physics) || 프로 |
 | - [바디 콜라이더](features/xps_body_colliders.md)
 | - [가슴 물리](features/xps_boobs.md)
 | - [머리 물리](features/xps_hair.md)
 | - [의류 물리](features/xps_cloth.md)
 | - [치마 물리](features/xps_skirt.md)
 | - [소프트바디 물리](features/xps_softbody.md)
-| - [떼어내기 객체](features/xps_detach.md)
+| - [떼어난 객체](features/xps_detach.md)
 | [사용자 정의 모션 상속](features/custom_inherit.md)
 | [PMX 물리](features/pmx_physics)
 |
@@ -86,18 +86,18 @@ sidebar:
 | *프로시저 모션*
 | [아이들 모션](features/idle_motion.md)
 | [캣워크](features/catwalk.md)
-| [자동 댄스](features/autodance) | | 프로 |
-| [자동 댄스 2](features/autodance2) | | 프로 |
-| [자동 댄스 3](features/autodance3.md) | | 프로 |
-| [카우걸 섹스](features/scg_motion){: .nsfw} | | 성인 |
-| [뒤에서 섹스](features/sfb_motion){: .nsfw} | | 성인 |
-| [성인 모션 3](features/sm3_motion){: .nsfw} | | 성인 |
+| [자동 댄스](features/autodance) || 프로 |
+| [자동 댄스 2](features/autodance2) || 프로 |
+| [자동 댄스 3](features/autodance3.md) || 프로 |
+| [카우걸 섹스](features/scg_motion){: .nsfw} || 성인 |
+| [뒤에서 섹스](features/sfb_motion){: .nsfw} || 성인 |
+| [섹스 모션 3](features/sm3_motion){: .nsfw} || 성인 |
 |
 | *카메라 모션*
 | [프리플라이 카메라](features/camera)
-| [오비트 카메라](features/camera)
+| [궤도 카메라](features/camera)
 | [자동 카메라](features/camera)
-| [원샷 카메라](features/camera)
+| [일회용 카메라](features/camera)
 | [일인칭 카메라](features/camera)
 | [고정 카메라 (콘서트 모드)](features/camera)
 | [카메라 모션 및 설정](features/camera)
@@ -106,7 +106,7 @@ sidebar:
 | [하늘과 구름](features/skymap)
 | [조명](features/lighting)
 | [입자 시스템](features/particles)
-| [AR 모드](features/ar_mode) | | 프로 |
+| [AR 모드](features/ar_mode) | 모바일 및 퀘스트 | 프로 | 
 | [무대](features/stages)
 | [소품](features/props)
 | [비트 링](features/beats_ring.md)
@@ -114,9 +114,10 @@ sidebar:
 | [씬 저장 및 불러오기](features/save_scene.md)
 | [씬 번들](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 프로 |
 |
-| ***씬 및 무대*** |
+| ***씬 및 무대***
 | *무대*
-| [지면, 무대 및 물 시스템](features/ground)
+| [지면 및 무대](features/ground)
+| [물 시스템](features/water_system.md) | PC
 | [프로시저 룸 무대](features/room_stage)
 | [무대 모델 및 설정](features/stages)
 |
@@ -129,15 +130,16 @@ sidebar:
 | ***시스템*** |
 | [콘텐츠 라이브러리](preparecontent)
 | [구글 드라이브 통합](features/googledrive)
-| [안드로이드, 퀘스트 및 피코용 콘텐츠 라이브러리](content_android_quest)
+| [안드로이드 및 퀘스트용 콘텐츠 라이브러리](content_android_quest)
 | [디스플레이 및 UI](features/display_settings)
 | [그래픽 설정](features/graphics)
+| [레이트레이싱 효과](features/raytracing.md) | PC
 | [다국어 지원](features/languages.md)
 | [입력 설정](features/controls)
 | [물리 설정](features/system_physics)
-| [자동 업데이트](features/autoupdate) | | 프로 |
+| [자동 업데이트](features/autoupdate) || 프로
 | [시스템 프리셋](features/system_presets.md) | [2024.1](releases/2024.1.md)
 |
-| [**오프라인 렌더링 및 녹화**](creator.md) | | 크리에이터 |
+| [**오프라인 렌더링 및 녹화**](creator.md) | PC | 크리에이터 | 
 |
-| [**AI 음성 채팅**](ai_chat) | | 프로 |
+| [**AI 음성 채팅**](ai_chat) || 프로 |

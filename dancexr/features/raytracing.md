@@ -9,7 +9,7 @@ sidebar:
 
 ## Reflection
 
-## Ambient Occulusion
+## Ambient Occlusion
 
 ## Global Illumination
 
