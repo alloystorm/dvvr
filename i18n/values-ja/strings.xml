@@ -2232,14 +2232,6 @@
 	<string name="HCA8CAFD8">[木材2]</string>
 	<string name="HD969BA13">[タイル]</string>
 	<string name="H273CAF03">[コンクリート]</string>
-	<string name="HEF9FCAF8">Pitch Angle</string>
-	<string name="HFB8669BC">Physically Based</string>
-	<string name="HDD4B0BC1">Point Light</string>
-	<string name="HB996B7BB">Area Light</string>
-	<string name="HEB584519">Pyramid Projector Near</string>
-	<string name="H7EBA373D">Pyramid Projector Far</string>
-	<string name="HEB1995CA">Box Projector Near</string>
-	<string name="H6E31F4C1">Box Projector Far</string>
 <string name="H6A69378E">方向のみ</string>
     <string name="HA64E70EF">完全回転</string>
     <string name="H57634432">ビートビジュアライザー</string>
@@ -2354,4 +2346,12 @@
 	<string name="HAF3F38BA">終了を入力</string>
 	<string name="H4D569365">から入力</string>
 	<string name="HB57401CB">まで入力</string>
+<string name="HEF9FCAF8">ピッチ角</string>
+	<string name="HFB8669BC">物理ベース</string>
+	<string name="HDD4B0BC1">ポイントライト</string>
+	<string name="HB996B7BB">エリアライト</string>
+	<string name="HEB584519">ピラミッドプロジェクター 近</string>
+	<string name="H7EBA373D">ピラミッドプロジェクター 遠</string>
+	<string name="HEB1995CA">ボックスプロジェクター 近</string>
+	<string name="H6E31F4C1">ボックスプロジェクター 遠</string>
 </resources>

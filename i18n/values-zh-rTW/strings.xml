@@ -2231,14 +2231,6 @@
 	<string name="HCA8CAFD8">[木2]</string>
 	<string name="HD969BA13">[瓷磚]</string>
 	<string name="H273CAF03">[混凝土]</string>
-	<string name="HEF9FCAF8">Pitch Angle</string>
-	<string name="HFB8669BC">Physically Based</string>
-	<string name="HDD4B0BC1">Point Light</string>
-	<string name="HB996B7BB">Area Light</string>
-	<string name="HEB584519">Pyramid Projector Near</string>
-	<string name="H7EBA373D">Pyramid Projector Far</string>
-	<string name="HEB1995CA">Box Projector Near</string>
-	<string name="H6E31F4C1">Box Projector Far</string>
 <string name="H6A69378E">僅限方向</string>
     <string name="HA64E70EF">完整旋轉</string>
     <string name="H57634432">節拍視覺化</string>
@@ -2353,4 +2345,12 @@
     <string name="HAF3F38BA">輸入結束</string>
     <string name="H4D569365">從輸入</string>
     <string name="HB57401CB">輸入至</string>
+<string name="HEF9FCAF8">俯仰角</string>
+    <string name="HFB8669BC">物理上基於</string>
+    <string name="HDD4B0BC1">點光源</string>
+    <string name="HB996B7BB">面光源</string>
+    <string name="HEB584519">金字塔投影機 近</string>
+    <string name="H7EBA373D">金字塔投影機 遠</string>
+    <string name="HEB1995CA">方塊投影機 近</string>
+    <string name="H6E31F4C1">方塊投影機 遠</string>
 </resources>
