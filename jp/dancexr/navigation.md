@@ -1,6 +1,8 @@
 releases:
   - title: 2024
     children:
+    - title: リリース 2024.5
+      url: /dancexr/releases/2024.5
     - title: リリース 2024.4
       url: /dancexr/releases/2024.4
     - title: リリース 2024.3
@@ -70,7 +72,7 @@ docs:
   - title: リリース
     url: /dancexr/releases/
     children:
-    - title: "2024.4 (アーリーアクセス)"
+    - title: "2024.5 (アーリーアクセス)"
+      url: /dancexr/releases/2024.5
+    - title: "2024.4"
       url: /dancexr/releases/2024.4
-    - title: "2024.3"
-      url: /dancexr/releases/2024.3
