@@ -48,27 +48,39 @@ To use OpenAI service with DanceXR, you need an OpenAI API key.
 * In the chat settings you can choose the model that you want to use. 
 
 
-### OobaBooga Text Generation WebUI 
-This option allows you to run large language models (LLM) locally if your PC is powerful enough. A 7b or 13b model should be good enough for chatting. 
+### Running LLM Locally (LM Studio, OobaBooga etc) 
+You can also run LLMs locally if your computer is powerful enough. For example the latest Llama3 8b should be more than enough for role playing. We have tested OobaBooga and LM Studio and they work well with DanceXR. 
+
+Keep in mind that the AI space is developing really fast and new tools and models are coming out all the time. The recommendations here are based on what we know at the time of writing and might be out of date when you are reading it. Feel free to explore your own options. DanceXR should work with any LLM tool as well that supports OpenAI API spec. 
 
 **Pros:**
 * Privacy, nothing is sent out, everything happens locally.
-* You can use uncensored models for NSFW content.
+* You can choose any model to run, including uncensored ones.
 * Free
 
 **Cons:**
-* Not as smart as OpenAI models
+* Not as smart as online models
 * Requires a bit setup
-* Can become very slow if there's not enough VRAM. Especially when you are running DanceXR at the same time, the system might push LLMs to virtual VRAM which is going to destroy its performance. 
+* Running LLMs locally can be very resource intensive. Especially if you plan to run both DanceXR and LLMs on the same machine. 
 
 **Setup:** 
+At the moment LM Studio is a better choice if you don't want to fiddle with command line tools. 
+For LM Studio, you can follow the instructions here:
+* Download and install LM Studio from their website https://lmstudio.ai/
+* Choose and download a LLM model from within LM Studio. At the moment we recommend using Llama3 8b.
+* Switch to the chat tab and load the model you downloaded.
+* Go to "Local Server" tab and click "Start Server". Note the port number (Default is 1234).
+  
+For OobaBooga, you can follow the instructions here:
 * Follow the instructions here to download and install https://github.com/oobabooga/text-generation-webui
 * To allow WebUI to work with DanceXR, you need to turn on API. To do this, open the CMD_FLAGS.txt file and add "--listen --api" in there, then restart it.
 * Once it's running, go to the model tab and download a model if you don't have it already. 
 * We recommend using one of these 2 models: https://huggingface.co/TheBloke/Luna-AI-Llama2-Uncensored-GPTQ (7b, easier to run) https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GPTQ (13b, smarter)
-* Refresh the model list and load it. 
+* Refresh the model list and load it. The default port number is 5000.
+
+Configurations in DanceXR: 
 * In DanceXR, choose "Local WebUI" from AI Service -> Select Service
-* The default URL (http://127.0.0.1:5000) should work unless your setup requries a different port or URL. 
+* Type in the server URL and port number. For example "http://127.0.0.1:1234"(LM Studio) or "http://127.0.0.1:5000"(OobaBooga). 
 
 
 ### Use Remote Service like Runpod to run WebUI
