@@ -1,9 +1,7 @@
 ---
 locale: ja-JP
 layout: single
-title: AI Powered Voice Chat
-
-AIパワードボイスチャット
+title: AIパワードボイスチャット
 toc: true
 sidebar:
   nav: "docs-jp"

@@ -1,9 +1,7 @@
 ---
 locale: zh-TW
 layout: single
-title: AI Powered Voice Chat
-
-AI 強化語音聊天
+title: AI 強化語音聊天
 toc: true
 sidebar:
   nav: "docs-tw"

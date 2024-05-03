@@ -1,9 +1,7 @@
 ---
 locale: zh-CN
 layout: single
-title: AI Powered Voice Chat
-
-AI 动力语音聊天
+title: AI 动力语音聊天
 toc: true
 sidebar:
   nav: "docs-zh"

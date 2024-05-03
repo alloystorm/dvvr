@@ -1,9 +1,7 @@
 ---
 locale: ko-KR
 layout: single
-title: AI Powered Voice Chat
-
-인공지능 기반 음성 채팅
+title: 인공지능 기반 음성 채팅
 toc: true
 sidebar:
   nav: "docs-kr"
