@@ -1,6 +1,8 @@
 releases:
   - title: 2024
     children:
+    - title: Release 2024.6
+      url: /dancexr/releases/2024.6
     - title: Release 2024.5
       url: /dancexr/releases/2024.5
     - title: Release 2024.4
@@ -72,14 +74,16 @@ docs:
   - title: Releases
     url: /dancexr/releases/
     children:
-    - title: "2024.5 (Early Access)"
+    - title: "2024.6 (Early Access)"
+      url: /dancexr/releases/2024.6
+    - title: "2024.5"
       url: /dancexr/releases/2024.5
-    - title: "2024.4"
-      url: /dancexr/releases/2024.4
 
 releases-zh:
   - title: 2024
     children:
+    - title: 发布 2024.6
+      url: /zh/dancexr/releases/2024.6
     - title: 发布 2024.5
       url: /zh/dancexr/releases/2024.5
     - title: 发布 2024.4
@@ -151,14 +155,16 @@ docs-zh:
   - title: 发布
     url: /zh/dancexr/releases/
     children:
-    - title: "2024.5 (提前访问)"
+    - title: "2024.6 (提前访问)"
+      url: /zh/dancexr/releases/2024.6
+    - title: "2024.5"
       url: /zh/dancexr/releases/2024.5
-    - title: "2024.4"
-      url: /zh/dancexr/releases/2024.4
 
 releases-tw:
   - title: 2024
     children:
+    - title: 發布 2024.6
+      url: /tw/dancexr/releases/2024.6
     - title: 發布 2024.5
       url: /tw/dancexr/releases/2024.5
     - title: 發布 2024.4
@@ -213,7 +219,7 @@ docs-tw:
         url: /tw/dancexr/preparecontent
       - title: 功能列表
         url: /tw/dancexr/features
-      - title: 變體與可用性
+      - title: 變體和可用性
         url: /tw/dancexr/versions
       - title: 常見問題
         url: /tw/dancexr/faq
@@ -230,14 +236,16 @@ docs-tw:
   - title: 發布
     url: /tw/dancexr/releases/
     children:
-    - title: "2024.5 (早期訪問)"
+    - title: "2024.6 (早期訪問)"
+      url: /tw/dancexr/releases/2024.6
+    - title: "2024.5"
       url: /tw/dancexr/releases/2024.5
-    - title: "2024.4"
-      url: /tw/dancexr/releases/2024.4
 
 releases-jp:
   - title: 2024
     children:
+    - title: リリース 2024.6
+      url: /jp/dancexr/releases/2024.6
     - title: リリース 2024.5
       url: /jp/dancexr/releases/2024.5
     - title: リリース 2024.4
@@ -309,14 +317,16 @@ docs-jp:
   - title: リリース
     url: /jp/dancexr/releases/
     children:
-    - title: "2024.5 (アーリーアクセス)"
+    - title: "2024.6 (アーリーアクセス)"
+      url: /jp/dancexr/releases/2024.6
+    - title: "2024.5"
       url: /jp/dancexr/releases/2024.5
-    - title: "2024.4"
-      url: /jp/dancexr/releases/2024.4
 
 releases-kr:
   - title: 2024
     children:
+    - title: 출시 2024.6
+      url: /kr/dancexr/releases/2024.6
     - title: 출시 2024.5
       url: /kr/dancexr/releases/2024.5
     - title: 출시 2024.4
@@ -371,7 +381,7 @@ docs-kr:
         url: /kr/dancexr/preparecontent
       - title: 기능 목록
         url: /kr/dancexr/features
-      - title: 변형 및 가용성
+      - title: 변형 및 이용 가능성
         url: /kr/dancexr/versions
       - title: FAQ
         url: /kr/dancexr/faq
@@ -383,13 +393,13 @@ docs-kr:
         url: /kr/dancexr/features/video_playback
       - title: "AR 모드"
         url: /kr/dancexr/features/ar_mode
-      - title: "AI 챗봇"
+      - title: "AI 채팅"
         url: /kr/dancexr/ai_chat
   - title: 출시
     url: /kr/dancexr/releases/
     children:
-    - title: "2024.5 (얼리 액세스)"
+    - title: "2024.6 (얼리 액세스)"
+      url: /kr/dancexr/releases/2024.6
+    - title: "2024.5"
       url: /kr/dancexr/releases/2024.5
-    - title: "2024.4"
-      url: /kr/dancexr/releases/2024.4
 
