@@ -2465,4 +2465,15 @@
     <string name="H4BEBB51A">[単色]</string>
     <string name="H633A4211">粘着（最大摩擦）</string>
     <string name="HF748814A">ロック</string>
+<string name="H87D2A198">空気抵抗</string>
+	<string name="HA5F1B743">衝突を有効にする</string>
+<string name="HCC589670">メートル</string>
+	<string name="H5CDDB3D4">度</string>
+	<string name="H125E9335">ミリメートル</string>
+	<string name="HF5E498C5">ロード後にオープンモーションメニュー</string>
+	<string name="H26F4E2ED">自動同期デルタ</string>
+	<string name="H8DE8FC70">自動同期モード</string>
+	<string name="HF1BD999E">オーディオを移動</string>
+	<string name="HEBB50DAB">モーションを移動</string>
+	<string name="HF261F10">時間差がこの量を超えると、モーションとオーディオを自動的に同期します。秒単位。</string>
 </resources>

@@ -2465,4 +2465,15 @@
     <string name="H4BEBB51A">[단색]</string>
     <string name="H633A4211">끈적거림 (최대 마찰)</string>
     <string name="HF748814A">잠금</string>
+<string name="H87D2A198">공기 저항</string>
+	<string name="HA5F1B743">충돌 활성화</string>
+<string name="HCC589670">미터</string>
+    <string name="H5CDDB3D4">도</string>
+    <string name="H125E9335">밀리미터</string>
+    <string name="HF5E498C5">로드 후 모션 메뉴 열기</string>
+    <string name="H26F4E2ED">자동 동기화 델타</string>
+    <string name="H8DE8FC70">자동 동기화 모드</string>
+    <string name="HF1BD999E">오디오 이동</string>
+    <string name="HEBB50DAB">모션 이동</string>
+    <string name="HF261F10">시간 차이가 이 값 이상인 경우 모션과 오디오를 자동으로 동기화합니다. 초 단위.</string>
 </resources>

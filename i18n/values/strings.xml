@@ -2480,4 +2480,17 @@
 	<string name="H4BEBB51A">[Solid Color]</string>
 	<string name="H633A4211">Sticky (Max Friction)</string>
 	<string name="HF748814A">Lock</string>
+
+	<string name="H87D2A198">Air Resistance</string>
+	<string name="HA5F1B743">Enable Collision</string>
+	<string name="HCC589670">Meters</string>
+	<string name="H5CDDB3D4">Degrees</string>
+	<string name="H125E9335">Millimeters</string>
+	<string name="HF5E498C5">Open Motion Menu After Load</string>
+	<string name="H26F4E2ED">Auto Sync Delta</string>
+	<string name="H8DE8FC70">Auto Sync Mode</string>
+	<string name="HF1BD999E">Move Audio</string>
+	<string name="HEBB50DAB">Move Motion</string>
+	<string name="HF261F10">Automatically sync motion and audio when time differences exceed this amount. In seconds.</string>
+
 </resources>

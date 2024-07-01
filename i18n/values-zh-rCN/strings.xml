@@ -2465,4 +2465,15 @@
     <string name="H4BEBB51A">[纯色]</string>
     <string name="H633A4211">粘性（最大摩擦力）</string>
     <string name="HF748814A">锁定</string>
+<string name="H87D2A198">空气阻力</string>
+    <string name="HA5F1B743">启用碰撞</string>
+<string name="HCC589670">米</string>
+    <string name="H5CDDB3D4">度</string>
+    <string name="H125E9335">毫米</string>
+    <string name="HF5E498C5">加载后打开动作菜单</string>
+    <string name="H26F4E2ED">自动同步差值</string>
+    <string name="H8DE8FC70">自动同步模式</string>
+    <string name="HF1BD999E">移动音频</string>
+    <string name="HEBB50DAB">移动动作</string>
+    <string name="HF261F10">当时间差超过此数量时，自动同步动作和音频。以秒为单位。</string>
 </resources>
