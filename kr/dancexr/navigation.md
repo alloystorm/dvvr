@@ -1,6 +1,8 @@
 releases:
   - title: 2024
     children:
+    - title: 출시 2024.7
+      url: /dancexr/releases/2024.7
     - title: 출시 2024.6
       url: /dancexr/releases/2024.6
     - title: 출시 2024.5
@@ -69,12 +71,12 @@ docs:
         url: /dancexr/features/video_playback
       - title: "AR 모드"
         url: /dancexr/features/ar_mode
-      - title: "AI 채팅"
+      - title: "AI 챗봇"
         url: /dancexr/ai_chat
   - title: 출시
     url: /dancexr/releases/
     children:
-    - title: "2024.6 (얼리 액세스)"
+    - title: "2024.7 (얼리 액세스)"
+      url: /dancexr/releases/2024.7
+    - title: "2024.6"
       url: /dancexr/releases/2024.6
-    - title: "2024.5"
-      url: /dancexr/releases/2024.5

@@ -1,6 +1,8 @@
 releases:
   - title: 2024
     children:
+    - title: 發布 2024.7
+      url: /dancexr/releases/2024.7
     - title: 發布 2024.6
       url: /dancexr/releases/2024.6
     - title: 發布 2024.5
@@ -57,7 +59,7 @@ docs:
         url: /dancexr/preparecontent
       - title: 功能列表
         url: /dancexr/features
-      - title: 變體和可用性
+      - title: 變體與可用性
         url: /dancexr/versions
       - title: 常見問題
         url: /dancexr/faq
@@ -74,7 +76,7 @@ docs:
   - title: 發布
     url: /dancexr/releases/
     children:
-    - title: "2024.6 (早期訪問)"
+    - title: "2024.7 (早期訪問)"
+      url: /dancexr/releases/2024.7
+    - title: "2024.6"
       url: /dancexr/releases/2024.6
-    - title: "2024.5"
-      url: /dancexr/releases/2024.5
