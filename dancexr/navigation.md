@@ -1,6 +1,8 @@
 releases:
   - title: 2024
     children:
+    - title: Release 2024.7
+      url: /dancexr/releases/2024.7
     - title: Release 2024.6
       url: /dancexr/releases/2024.6
     - title: Release 2024.5
@@ -74,7 +76,7 @@ docs:
   - title: Releases
     url: /dancexr/releases/
     children:
-    - title: "2024.6 (Early Access)"
+    - title: "2024.7 (Early Access)"
+      url: /dancexr/releases/2024.7
+    - title: "2024.6"
       url: /dancexr/releases/2024.6
-    - title: "2024.5"
-      url: /dancexr/releases/2024.5
