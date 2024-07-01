@@ -2452,4 +2452,16 @@
 	<string name="HE0936B13">藍瓷磚</string>
 	<string name="HFF1C258">運動單位</string>
 	<string name="H69F3F66C">以秒為單位。當時間差異超過此數量時，自動同步運動和音頻。</string>
+<string name="HA1984610">黏附靜摩擦</string>
+    <string name="HF293D9A4">黏附層頂部</string>
+    <string name="HB385CD17">黏附層底部</string>
+    <string name="H51F7745C">黏附模式</string>
+    <string name="H54FE02A1">桌子尺寸</string>
+    <string name="HE6C812B7">腰部</string>
+    <string name="HA943493">自適應六邊形</string>
+    <string name="H3F0F5BB6">自適應矩形</string>
+    <string name="H7A733783">均勻六邊形</string>
+    <string name="H4BEBB51A">[單色]</string>
+    <string name="H633A4211">黏性（最大摩擦力）</string>
+    <string name="HF748814A">鎖定</string>
 </resources>

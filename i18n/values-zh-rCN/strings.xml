@@ -2453,4 +2453,16 @@
     <string name="HE0936B13">蓝色瓷砖</string>
     <string name="HFF1C258">运动单位</string>
     <string name="H69F3F66C">以秒为单位。当时间差超过此数量时，自动同步运动和音频。</string>
+<string name="HA1984610">粘附静摩擦</string>
+    <string name="HF293D9A4">粘附层顶部</string>
+    <string name="HB385CD17">粘附层底部</string>
+    <string name="H51F7745C">粘附模式</string>
+    <string name="H54FE02A1">桌子尺寸</string>
+    <string name="HE6C812B7">腰围</string>
+    <string name="HA943493">自适应六边形</string>
+    <string name="H3F0F5BB6">自适应矩形</string>
+    <string name="H7A733783">均匀六边形</string>
+    <string name="H4BEBB51A">[纯色]</string>
+    <string name="H633A4211">粘性（最大摩擦力）</string>
+    <string name="HF748814A">锁定</string>
 </resources>

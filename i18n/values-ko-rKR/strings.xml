@@ -2453,4 +2453,16 @@
 	<string name="HE0936B13">파란 타일</string>
 	<string name="HFF1C258">모션 유닛</string>
 	<string name="H69F3F66C">초 단위. 시간 차이가 이 값 이상일 때 모션과 오디오를 자동으로 동기화합니다.</string>
+<string name="HA1984610">접착 정적 마찰</string>
+    <string name="HF293D9A4">접착 층 상단</string>
+    <string name="HB385CD17">접착 층 하단</string>
+    <string name="H51F7745C">접착 모드</string>
+    <string name="H54FE02A1">테이블 크기</string>
+    <string name="HE6C812B7">허리</string>
+    <string name="HA943493">적응형 육각형</string>
+    <string name="H3F0F5BB6">적응형 직사각형</string>
+    <string name="H7A733783">균일한 육각형</string>
+    <string name="H4BEBB51A">[단색]</string>
+    <string name="H633A4211">끈적거림 (최대 마찰)</string>
+    <string name="HF748814A">잠금</string>
 </resources>

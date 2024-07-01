@@ -2453,4 +2453,16 @@
 	<string name="HE0936B13">青いタイル</string>
 	<string name="HFF1C258">モーションユニット</string>
 	<string name="H69F3F66C">秒単位。時間差がこの量を超えると、モーションとオーディオが自動的に同期されます。</string>
+<string name="HA1984610">クリング静止摩擦</string>
+    <string name="HF293D9A4">クリングレイヤートップ</string>
+    <string name="HB385CD17">クリングレイヤーボトム</string>
+    <string name="H51F7745C">クリングモード</string>
+    <string name="H54FE02A1">テーブルサイズ</string>
+    <string name="HE6C812B7">ウエスト</string>
+    <string name="HA943493">適応ヘキサゴン</string>
+    <string name="H3F0F5BB6">適応長方形</string>
+    <string name="H7A733783">均一ヘキサゴン</string>
+    <string name="H4BEBB51A">[単色]</string>
+    <string name="H633A4211">粘着（最大摩擦）</string>
+    <string name="HF748814A">ロック</string>
 </resources>

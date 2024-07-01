@@ -2468,4 +2468,16 @@
 	<string name="HFF1C258">Motion Unit</string>
 	<string name="H69F3F66C">In seconds. Automatically sync motion and audio when time differences exceed this amount. </string>
 
+	<string name="HA1984610">Cling Static Friction</string>
+	<string name="HF293D9A4">Cling Layer Top</string>
+	<string name="HB385CD17">Cling Layer Bottom</string>
+	<string name="H51F7745C">Cling Mode</string>
+	<string name="H54FE02A1">Table Size</string>
+	<string name="HE6C812B7">Waist</string>
+	<string name="HA943493">Adaptive Hexagon</string>
+	<string name="H3F0F5BB6">Adaptive Rectangle</string>
+	<string name="H7A733783">Uniform Hexagon</string>
+	<string name="H4BEBB51A">[Solid Color]</string>
+	<string name="H633A4211">Sticky (Max Friction)</string>
+	<string name="HF748814A">Lock</string>
 </resources>
