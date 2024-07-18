@@ -111,7 +111,7 @@ sidebar:
 | ***Environment*** |
 | [Sky and Cloud](features/skymap)
 | [Lighting](features/lighting)
-| [Particle System](features/particles) || PRO
+| [Particle System](features/particles) | All Except Android[^4] | PRO
 | [AR Mode](features/ar_mode) | Mobile[^2] & Quest[^3] | PRO | 
 | [Stages](features/stages)
 | [Props](features/props)
@@ -157,3 +157,5 @@ sidebar:
 [^2]: Available on supported iPhone, iPad and Android devices (Not all device supports AR)
 
 [^3]: Available on Quest 2, 3 or Pro
+
+[^4]: Temporarily disabled for Android due to conflict with AR mode
