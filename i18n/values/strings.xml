@@ -2493,4 +2493,29 @@
 	<string name="HEBB50DAB">Move Motion</string>
 	<string name="HF261F10">Automatically sync motion and audio when time differences exceed this amount. In seconds.</string>
 
+	<string name="H87AF970">Length Scale</string>
+	<string name="HF1C6618">Back Side Scale</string>
+	<string name="HE8BDD599">Middle Scale</string>
+	<string name="H5736067C">Mirror Scaled</string>
+	<string name="H924FFA2E">Mirror Actual</string>
+	<string name="H3156FD36">Wrap Scaled</string>
+	<string name="H6C249BDF">Wrap Actual</string>
+	<string name="HF381D42A">Simulation FPS</string>
+	<string name="HA6E7E0F1">Alternate Solving Order</string>
+	<string name="HFD1BA87D">Dynamic</string>
+	<string name="H416BD5B7">Fixed 30</string>
+	<string name="H4640568C">Fixed 60</string>
+	<string name="HB97D2969">Fixed 90</string>
+	<string name="H2A81A293">Fixed 100</string>
+	<string name="HBA06B9BD">Fixed 120</string>
+	<string name="HF3A56765">Fixed 160</string>
+	<string name="H8DDD20AD">Fixed 175</string>
+	<string name="H4F04B39C">Fixed 240</string>
+	<string name="H23B52C5F">Position From</string>
+	<string name="H68369086">Radius From</string>
+	<string name="H763177CD">Position To</string>
+	<string name="HD48B3BB1">Radius To</string>
+	<string name="H62398DD0">Position Middle</string>
+	<string name="HEDB4008C">Radius Middle</string>
+	<string name="H4A5E691">Curve Middle</string>
 </resources>
