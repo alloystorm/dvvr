@@ -9,7 +9,7 @@ sidebar:
 ---
 [Eng](/dancexr/features) | [繁中](/tw/dancexr/features) | [日本語](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [简中](/zh/dancexr/features)
 
-| 특징 |  |  |
+| 기능 |  |  |
 | :--- | --- |---: |
 | ***캐릭터, 무대 및 소품 모델*** 
 | *콘텐츠 관리*
@@ -21,7 +21,7 @@ sidebar:
 |
 | *캐릭터 모델 설정*
 | [배우 메뉴, 도구 및 상호작용](features/actor_tools)
-| [드레싱 시스템 (재질 변형 및 XPS 옵션)](features/optionals) || 프로버전
+| [드레싱 시스템 (재질 모프 및 XPS 옵션)](features/optionals) || 프로버전
 | [대체 텍스처](features/alternative_textures)
 | [얼굴 제어](features/facial_control)
 | [눈 깜빡임, 숨쉬기 및 눈동자 접촉](features/eyecontact)
@@ -42,7 +42,7 @@ sidebar:
 | - [사용자 정의 1 재질](features/material_custom1.md)
 | - [사용자 정의 2 재질](features/material_custom1.md)
 | [텍스처 향상](features/texture_enhancement.md) || 프로버전
-| [땀 효과](features/sweat_effect.md) || 성인물
+| [땀 효과](features/sweat_effect.md) || 성인 콘텐츠
 | [재질 목록](features/material_settings.md#material-list) || 프로버전
 |
 | *프로 기능*
@@ -51,9 +51,9 @@ sidebar:
 | [액세서리](features/accessory.md) || 프로버전 |
 | [레그돌](features/ragdoll.md) || 프로버전 |
 | [라이트볼](features/lightball.md) || 프로버전 |
-| [가슴 흔들기](features/boob_shake_sex_overlay){: .nsfw} || 성인물 |
-| [성적 오버레이](features/boob_shake_sex_overlay){: .nsfw} || 성인물 |
-| [딜도](features/dildo){: .nsfw} || 성인물 |
+| [가슴 흔들림](features/boob_shake_sex_overlay){: .nsfw} || 성인 콘텐츠 |
+| [성적 오버레이](features/boob_shake_sex_overlay){: .nsfw} || 성인 콘텐츠 |
+| [딜도](features/dildo){: .nsfw} || 성인 콘텐츠 |
 |
 | *모델 형식별*
 | [XPS 본 매핑](features/bone_mapper.md)
@@ -64,8 +64,8 @@ sidebar:
 | - [의류 물리](features/xps_cloth.md)
 | - [치마 물리](features/xps_skirt.md)
 | - [소프트바디 물리](features/xps_softbody.md) || 프로버전
-| - [떼어낸 오브젝트](features/xps_detach.md)
-| [사용자 정의 상속 모션](features/custom_inherit.md)
+| - [떼치 오브젝트](features/xps_detach.md)
+| [사용자 정의 모션 상속](features/custom_inherit.md)
 | [PMX 물리](features/pmx_physics)
 | PMX 블렌드 모프 || 프로버전
 |
@@ -93,13 +93,13 @@ sidebar:
 | [자동 댄스](features/autodance) || 프로버전 |
 | [자동 댄스 2](features/autodance2) || 프로버전 |
 | [자동 댄스 3](features/autodance3.md) || 프로버전 |
-| [카우걸 섹스](features/scg_motion){: .nsfw} || 성인물 |
-| [뒤에서 섹스](features/sfb_motion){: .nsfw} || 성인물 |
-| [섹스 모션 3](features/sm3_motion){: .nsfw} || 성인물 |
+| [카우걸 섹스](features/scg_motion){: .nsfw} || 성인 콘텐츠 |
+| [뒤에서 섹스](features/sfb_motion){: .nsfw} || 성인 콘텐츠 |
+| [성적 모션 3](features/sm3_motion){: .nsfw} || 성인 콘텐츠 |
 |
 | *카메라 모션*
 | [프리플라이 카메라](features/camera)
-| [궤도 카메라](features/camera)
+| [오비트 카메라](features/camera)
 | [자동 카메라](features/camera)
 | [원샷 카메라](features/camera)
 | [일인칭 카메라](features/camera)
@@ -109,7 +109,7 @@ sidebar:
 | ***환경*** |
 | [하늘과 구름](features/skymap)
 | [조명](features/lighting)
-| [입자 시스템](features/particles) || 프로버전
+| [입자 시스템](features/particles) | 안드로이드 제외[^4] | 프로버전
 | [AR 모드](features/ar_mode) | 모바일[^2] 및 퀘스트[^3] | 프로버전 | 
 | [무대](features/stages)
 | [소품](features/props)
@@ -155,3 +155,5 @@ sidebar:
 [^2]: 지원되는 iPhone, iPad 및 Android 기기에서 사용 가능 (모든 기기가 AR을 지원하지는 않음)
 
 [^3]: Quest 2, 3 또는 Pro에서 사용 가능
+
+[^4]: AR 모드와 충돌로 인해 일시적으로 Android에서 비활성화됨
