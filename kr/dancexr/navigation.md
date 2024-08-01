@@ -1,6 +1,8 @@
 releases:
   - title: 2024
     children:
+    - title: 출시 2024.8
+      url: /dancexr/releases/2024.8
     - title: 출시 2024.7
       url: /dancexr/releases/2024.7
     - title: 출시 2024.6
@@ -76,7 +78,7 @@ docs:
   - title: 출시
     url: /dancexr/releases/
     children:
-    - title: "2024.7 (얼리 액세스)"
+    - title: "2024.8 (얼리 액세스)"
+      url: /dancexr/releases/2024.8
+    - title: "2024.7"
       url: /dancexr/releases/2024.7
-    - title: "2024.6"
-      url: /dancexr/releases/2024.6
