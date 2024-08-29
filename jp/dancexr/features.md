@@ -24,7 +24,7 @@ sidebar:
 | [ドレッシングシステム（マテリアルモーフとXPSオプション）](features/optionals) || プロ版
 | [代替テクスチャ](features/alternative_textures)
 | [表情コントロール](features/facial_control)
-| [まばたき、呼吸、目の接触](features/eyecontact)
+| [瞬き、呼吸、目の接触](features/eyecontact)
 | [足の調整](features/feet_adjustments)
 | [トラブルシューティングオプション](features/troubleshooting_options)
 | [水の相互作用](features/water_interaction.md)
@@ -109,7 +109,7 @@ sidebar:
 | ***環境*** |
 | [空と雲](features/skymap)
 | [照明](features/lighting)
-| [パーティクルシステム](features/particles) || プロ版
+| [パーティクルシステム](features/particles) | Androidを除くすべて[^4] | プロ版
 | [ARモード](features/ar_mode) | モバイル[^2] & クエスト[^3] | プロ版 | 
 | [ステージ](features/stages)
 | [プロップ](features/props)
@@ -144,7 +144,7 @@ sidebar:
 | [自動更新](features/autoupdate) || プロ版
 | [システムプリセット](features/system_presets.md) | [2024.1](releases/2024.1.md)
 |
-| [**オフラインレンダリング＆録画**](creator.md) | PC[^1] | クリエイター版 | 
+| [**オフラインレンダリング＆録画**](creator.md) | PC[^1] | クリエイター | 
 |
 | [**AIボイスチャット**](ai_chat) || プロ版 |
 |  |  |  |
@@ -155,3 +155,5 @@ sidebar:
 [^2]: サポートされているiPhone、iPad、およびAndroidデバイスで利用可能（すべてのデバイスがARをサポートしているわけではありません）
 
 [^3]: Quest 2、3、またはProで利用可能
+
+[^4]: Androidで一時的に無効になっています。ARモードとの競合が原因

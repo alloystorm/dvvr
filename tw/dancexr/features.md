@@ -13,7 +13,7 @@ sidebar:
 | :--- | --- |---: |
 | ***角色、舞台和道具模型*** 
 | *內容管理*
-| [組織模型文件最佳實踐](preparecontent#3d-models)
+| [整理模型文件最佳實踐](preparecontent#3d-models)
 | [標記和搜索](features/tagging) 
 | [模型緩存和加載器選項](features/loader_options) 
 | [播放列表](features/actor_playlist)
@@ -42,7 +42,7 @@ sidebar:
 | - [自定義1材質](features/material_custom1.md)
 | - [自定義2材質](features/material_custom1.md)
 | [紋理增強](features/texture_enhancement.md) || 專業版
-| [汗水效果](features/sweat_effect.md) || NSFW
+| [汗水效果](features/sweat_effect.md) || 不適宜工作場所
 | [材質列表](features/material_settings.md#material-list) || 專業版
 |
 | *專業版功能*
@@ -51,9 +51,9 @@ sidebar:
 | [配件](features/accessory.md) || 專業版 |
 | [布娃娃](features/ragdoll.md) || 專業版 |
 | [光球](features/lightball.md) || 專業版 |
-| [胸部搖晃](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
-| [性交疊加](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
-| [假陽具](features/dildo){: .nsfw} || NSFW |
+| [胸部搖晃](features/boob_shake_sex_overlay){: .nsfw} || 不適宜工作場所 |
+| [性交覆蓋](features/boob_shake_sex_overlay){: .nsfw} || 不適宜工作場所 |
+| [假陽具](features/dildo){: .nsfw} || 不適宜工作場所 |
 |
 | *模型格式特定*
 | [XPS骨骼映射器](features/bone_mapper.md)
@@ -70,7 +70,7 @@ sidebar:
 | PMX混合形態 || 專業版
 |
 | ***運動和媒體內容*** |
-| [組織運動文件最佳實踐](preparecontent#motion-files)
+| [整理運動文件最佳實踐](preparecontent#motion-files)
 | *音頻和視頻*
 | [視頻播放](features/video_playback) | [2024.4](releases/2024.4.md) | 專業版
 | [音頻播放選項](features/audio_options)
@@ -93,9 +93,9 @@ sidebar:
 | [自動舞蹈](features/autodance) || 專業版 |
 | [自動舞蹈2](features/autodance2) || 專業版 |
 | [自動舞蹈3](features/autodance3.md) || 專業版 |
-| [女上位性愛](features/scg_motion){: .nsfw} || NSFW |
-| [後背性愛](features/sfb_motion){: .nsfw} || NSFW |
-| [性運動3](features/sm3_motion){: .nsfw} || NSFW |
+| [女上位性行為](features/scg_motion){: .nsfw} || 不適宜工作場所 |
+| [後背性行為](features/sfb_motion){: .nsfw} || 不適宜工作場所 |
+| [性行為3](features/sm3_motion){: .nsfw} || 不適宜工作場所 |
 |
 | *攝影機運動*
 | [自由飛行攝影機](features/camera)
@@ -109,7 +109,7 @@ sidebar:
 | ***環境*** |
 | [天空和雲](features/skymap)
 | [照明](features/lighting)
-| [粒子系統](features/particles) || 專業版
+| [粒子系統](features/particles) | 除了Android[^4] | 專業版
 | [AR模式](features/ar_mode) | 手機[^2] 和 Quest[^3] | 專業版 | 
 | [舞台](features/stages)
 | [道具](features/props)
@@ -152,6 +152,8 @@ sidebar:
 
 [^1]: 只在Windows PC上的HD或RT版本中提供
 
-[^2]: 可在支持的iPhone、iPad和Android設備上使用（並非所有設備都支持AR）
+[^2]: 只在支持的iPhone、iPad和Android設備上提供（並非所有設備都支持AR）
 
-[^3]: 可在Quest 2、3或Pro上使用
+[^3]: 只在Quest 2、3或Pro上提供
+
+[^4]: 由於與AR模式衝突，Android暫時停用

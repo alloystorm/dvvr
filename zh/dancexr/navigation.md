@@ -1,6 +1,8 @@
 releases:
   - title: 2024
     children:
+    - title: 发布 2024.8
+      url: /dancexr/releases/2024.8
     - title: 发布 2024.7
       url: /dancexr/releases/2024.7
     - title: 发布 2024.6
@@ -76,7 +78,7 @@ docs:
   - title: 发布
     url: /dancexr/releases/
     children:
-    - title: "2024.7 (提前访问)"
+    - title: "2024.8 (提前访问)"
+      url: /dancexr/releases/2024.8
+    - title: "2024.7"
       url: /dancexr/releases/2024.7
-    - title: "2024.6"
-      url: /dancexr/releases/2024.6
