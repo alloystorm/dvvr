@@ -1,6 +1,8 @@
 releases:
   - title: 2024
     children:
+    - title: Release 2024.9
+      url: /dancexr/releases/2024.9
     - title: Release 2024.8
       url: /dancexr/releases/2024.8
     - title: Release 2024.7
@@ -78,15 +80,17 @@ docs:
   - title: Releases
     url: /dancexr/releases/
     children:
-    - title: "2024.8 (Early Access)"
+    - title: "2024.9 (Early Access)"
+      url: /dancexr/releases/2024.9
+    - title: "2024.8"
       url: /dancexr/releases/2024.8
-    - title: "2024.7"
-      url: /dancexr/releases/2024.7
 
 
 releases-zh:
   - title: 2024
     children:
+    - title: 发布 2024.9
+      url: /zh/dancexr/releases/2024.9
     - title: 发布 2024.8
       url: /zh/dancexr/releases/2024.8
     - title: 发布 2024.7
@@ -164,14 +168,16 @@ docs-zh:
   - title: 发布
     url: /zh/dancexr/releases/
     children:
-    - title: "2024.8 (提前访问)"
+    - title: "2024.9 (提前访问)"
+      url: /zh/dancexr/releases/2024.9
+    - title: "2024.8"
       url: /zh/dancexr/releases/2024.8
-    - title: "2024.7"
-      url: /zh/dancexr/releases/2024.7
 
 releases-tw:
   - title: 2024
     children:
+    - title: 發布 2024.9
+      url: /tw/dancexr/releases/2024.9
     - title: 發布 2024.8
       url: /tw/dancexr/releases/2024.8
     - title: 發布 2024.7
@@ -249,14 +255,16 @@ docs-tw:
   - title: 發布
     url: /tw/dancexr/releases/
     children:
-    - title: "2024.8 (早期訪問)"
+    - title: "2024.9 (早期訪問)"
+      url: /tw/dancexr/releases/2024.9
+    - title: "2024.8"
       url: /tw/dancexr/releases/2024.8
-    - title: "2024.7"
-      url: /tw/dancexr/releases/2024.7
 
 releases-jp:
   - title: 2024
     children:
+    - title: リリース 2024.9
+      url: /jp/dancexr/releases/2024.9
     - title: リリース 2024.8
       url: /jp/dancexr/releases/2024.8
     - title: リリース 2024.7
@@ -334,14 +342,16 @@ docs-jp:
   - title: リリース
     url: /jp/dancexr/releases/
     children:
-    - title: "2024.8 (アーリーアクセス)"
+    - title: "2024.9 (アーリーアクセス)"
+      url: /jp/dancexr/releases/2024.9
+    - title: "2024.8"
       url: /jp/dancexr/releases/2024.8
-    - title: "2024.7"
-      url: /jp/dancexr/releases/2024.7
 
 releases-kr:
   - title: 2024
     children:
+    - title: 출시 2024.9
+      url: /kr/dancexr/releases/2024.9
     - title: 출시 2024.8
       url: /kr/dancexr/releases/2024.8
     - title: 출시 2024.7
@@ -419,8 +429,8 @@ docs-kr:
   - title: 출시
     url: /kr/dancexr/releases/
     children:
-    - title: "2024.8 (얼리 액세스)"
+    - title: "2024.9 (얼리 액세스)"
+      url: /kr/dancexr/releases/2024.9
+    - title: "2024.8"
       url: /kr/dancexr/releases/2024.8
-    - title: "2024.7"
-      url: /kr/dancexr/releases/2024.7
 
