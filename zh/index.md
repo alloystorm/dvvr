@@ -14,3 +14,5 @@ header:
     - label: 下載
       url: /zh/dancexr/download
 ---
+
+[Eng](/dancexr) | [繁中](/tw/dancexr) | [日本語](/jp/dancexr) | [한국어](/kr/dancexr) | [简中](/zh/dancexr)
