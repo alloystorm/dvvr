@@ -2655,8 +2655,6 @@
 	<string name="H37030711">Select Actor</string>
 	<string name="H84A00036">Audio Processing</string>
 
-	<string name="HCE0946F5">Downloading license ...</string>
-	<string name="H4932DCB1">Possibly you've hit your download limit. Please wait a few hours before you try again.</string>
 	<string name="HBF581E5B">Left Foot</string>
 	<string name="HDA0EA5C2">Right Foot</string>
 	<string name="H75C4DB21">Symmetrical Hands</string>
@@ -2706,4 +2704,9 @@
 	<string name="HE20E730F">Left Hand Accessory</string>
 	<string name="H1071D65A">Right Hand Pose</string>
 	<string name="HAD58C694">Right Hand Accessory</string>
+
+	<string name="H61CCBD68">On Floor</string>
+	<string name="H7A08A252">Max Heels</string>
+	<string name="H998EF77">Wireframe</string>
+	<string name="H41DEE39D">Control Actor Movement</string>
 </resources>
