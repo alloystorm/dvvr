@@ -2782,5 +2782,7 @@
 	<string name="H91A3B820">Use toon shading for stages and props.</string>
 	<string name="H30B30798">Global wind that affects cloth simulation, particle dynamics and cloud</string>
 	<string name="H8DD5046F">Wind Multiplier</string>
-
+<string name="H425C6F8E">Raise Focus When Close</string>
+	<string name="H42A600DF">Camera Shake</string>
+	<string name="HC822F376">Wind Field</string>
 </resources>
