@@ -2757,4 +2757,7 @@
 	<string name="H91A3B820">ステージと小道具にトゥーンシェーディングを使用します。</string>
 	<string name="H30B30798">布シミュレーション、粒子ダイナミクス、およびクラウドに影響を与えるグローバル風</string>
 	<string name="H8DD5046F">風の乗数</string>
+<string name="H425C6F8E">近づいたときに焦点を上げる</string>
+	<string name="H42A600DF">カメラシェイク</string>
+	<string name="HC822F376">風のフィールド</string>
 </resources>

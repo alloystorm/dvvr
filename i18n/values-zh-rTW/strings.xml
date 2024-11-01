@@ -2756,4 +2756,7 @@
 	<string name="H91A3B820">對舞台和道具使用卡通著色。</string>
 	<string name="H30B30798">影響布料模擬、粒子動力學和雲的全局風</string>
 	<string name="H8DD5046F">風乘數</string>
+<string name="H425C6F8E">接近時提高焦點</string>
+	<string name="H42A600DF">相機抖動</string>
+	<string name="HC822F376">風場</string>
 </resources>

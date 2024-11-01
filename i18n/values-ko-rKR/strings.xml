@@ -2757,4 +2757,7 @@
 	<string name="H91A3B820">스테이지와 소품에 대해 툰 쉐이딩 사용</string>
 	<string name="H30B30798">옷 시뮬레이션, 입자 역학 및 구름에 영향을 주는 전역 바람</string>
 	<string name="H8DD5046F">바람 배수기</string>
+<string name="H425C6F8E">가까워질 때 초점 조절</string>
+	<string name="H42A600DF">카메라 흔들림</string>
+	<string name="HC822F376">바람 필드</string>
 </resources>
