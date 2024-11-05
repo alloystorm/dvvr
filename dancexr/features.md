@@ -59,10 +59,10 @@ sidebar:
 | [Dildo](features/dildo){: .nsfw} || NSFW |
 |
 | *Cloth Simulation*
-| [Cloth Simulation](features/cloth_simulation) | [2024.8](releases/2024.8.md) | PRO
-| [Mesh To Cloth Simulation](features/mesh_to_cloth) | [2024.9](releases/2024.9.md) | PRO
-| [Particle Dynamics](features/particle_dynamics) | [2024.9](releases/2024.9.md) | PRO
-| [Soft body simulation](features/softbody) | [2024.11](releases/2024.9.md) | PRO
+| [Cloth Simulation](features/cloth_simulation.md) | [2024.8](releases/2024.8.md) | PRO
+| [Mesh To Cloth Simulation](features/cloth_simulation.md#mesh_to_cloth) | [2024.9](releases/2024.9.md) | PRO
+| [Particle Dynamics](features/particle_dynamics.md) | [2024.9](releases/2024.9.md) | PRO
+| [Soft body simulation](features/particle_dynamics.md#softbody) | [2024.11](releases/2024.9.md) | PRO
 |
 | *Model Format Specific*
 | [XPS Bone Mapper](features/bone_mapper.md)
