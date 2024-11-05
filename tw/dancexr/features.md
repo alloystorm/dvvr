@@ -2,6 +2,21 @@
 locale: zh-TW
 layout: single
 title: 功能列表
+
+- Alpha: 透明度
+- Stage: 舞台
+- Scene Bundle: 場景包
+- Asset: 資源
+- Bone: 骨骼
+- Procedural: 程序化
+- Release: 發布
+- Version: 版本
+- Pro: 專業版
+- Camera: 攝影機
+- Creator: 創作版
+- DanceXR Immersion: DanceXR舞動幻境
+- DanceXR Mix: DanceXR舞動幻影
+- Animate any model, anywhere: 遍地皆是舞台，模型隨意動畫
 toc: true
 permalink: /tw/dancexr/features
 sidebar:
@@ -32,7 +47,7 @@ sidebar:
 |
 | *材質設置*
 | [全局材質設置](features/material_global.md)
-| [卡通著色](features/toon_shading.md)
+| [卡通陰影](features/toon_shading.md)
 | 材質類別
 | - [皮膚材質](features/material_skin.md)
 | - [頭髮材質](features/material_hair.md)
@@ -43,24 +58,24 @@ sidebar:
 | - [自定義1材質](features/material_custom1.md)
 | - [自定義2材質](features/material_custom1.md)
 | [紋理增強](features/texture_enhancement.md) || 專業版
-| [汗水效果](features/sweat_effect.md) || 不適宜工作場所
+| [汗水效果](features/sweat_effect.md) || NSFW
 | [材質列表](features/material_settings.md#material-list) || 專業版
 |
 | *專業版功能*
 | [服裝和身體彩繪](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 專業版
 | [運動覆蓋](features/motion_override) || 專業版 |
-| [配件](features/accessory.md) || 專業版 |
+| [配飾](features/accessory.md) || 專業版 |
 | [布娃娃](features/ragdoll.md) || 專業版 |
 | [光球](features/lightball.md) || 專業版 |
-| [胸部搖晃](features/boob_shake_sex_overlay){: .nsfw} || 不適宜工作場所 |
-| [性交覆蓋](features/boob_shake_sex_overlay){: .nsfw} || 不適宜工作場所 |
-| [假陽具](features/dildo){: .nsfw} || 不適宜工作場所 |
+| [胸部搖晃](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
+| [性交覆蓋](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
+| [假陽具](features/dildo){: .nsfw} || NSFW |
 |
 | *布料模擬*
-| [布料模擬](features/cloth_simulation) | [2024.8](releases/2024.8.md) | 專業版
-| [網格轉布料模擬](features/mesh_to_cloth) | [2024.9](releases/2024.9.md) | 專業版
-| [粒子動力學](features/particle_dynamics) | [2024.9](releases/2024.9.md) | 專業版
-| [軟體模擬](features/softbody) | [2024.11](releases/2024.9.md) | 專業版
+| [布料模擬](features/cloth_simulation.md) | [2024.8](releases/2024.8.md) | 專業版
+| [網格轉布料模擬](features/cloth_simulation.md#mesh_to_cloth) | [2024.9](releases/2024.9.md) | 專業版
+| [粒子動力學](features/particle_dynamics.md) | [2024.9](releases/2024.9.md) | 專業版
+| [軟體模擬](features/particle_dynamics.md#softbody) | [2024.11](releases/2024.9.md) | 專業版
 |
 | *模型格式特定*
 | [XPS骨骼映射器](features/bone_mapper.md)
@@ -83,28 +98,28 @@ sidebar:
 | [音頻播放選項](features/audio_options)
 | [音樂定時](features/music_timing)
 |
-| *管理動作*
+| *管理運動*
 | [播放選項](features/playback_options)
-| [分配動作](features/assign_motion)
+| [分配運動](features/assign_motion)
 | [次要運動](features/secondary_motion)
 | [混音](features/remix)
 | [演員運動設置](features/actor_motion_settings)
 |
-| *VMD和BVH動作*
+| *VMD和BVH運動*
 | [舞蹈設置](features/dance_set)
 | [運動設置](features/motion_settings)
 |
-| *程序化動作*
-| [閒置動作](features/idle_motion.md)
+| *程序化運動*
+| [閒置運動](features/idle_motion.md)
 | [走秀](features/catwalk.md)
 | [自動舞蹈](features/autodance) || 專業版 |
 | [自動舞蹈2](features/autodance2) || 專業版 |
 | [自動舞蹈3](features/autodance3.md) || 專業版 |
-| [女上位性行為](features/scg_motion){: .nsfw} || 不適宜工作場所 |
-| [後背性行為](features/sfb_motion){: .nsfw} || 不適宜工作場所 |
-| [性動作3](features/sm3_motion){: .nsfw} || 不適宜工作場所 |
+| [女上位性行為](features/scg_motion){: .nsfw} || NSFW |
+| [後背性行為](features/sfb_motion){: .nsfw} || NSFW |
+| [性行為3](features/sm3_motion){: .nsfw} || NSFW |
 |
-| *攝影機動作*
+| *攝影機運動*
 | [自由飛行攝影機](features/camera)
 | [軌道攝影機](features/camera)
 | [自動攝影機](features/camera)
@@ -125,7 +140,7 @@ sidebar:
 | [保存和加載場景](features/save_scene.md)
 | [場景包](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 專業版 |
 |
-| ***場景和舞台***
+| ***場景和舞台*** |
 | *舞台*
 | [地面和舞台](features/ground)
 | [水系統](features/water_system.md) | PC[^1]
@@ -144,7 +159,7 @@ sidebar:
 | [Android和Quest的內容庫](content_android_quest)
 | [顯示和用戶界面](features/display_settings)
 | [圖形設置](features/graphics)
-| [光線追踪效果](features/raytracing.md) | PC[^1]
+| [光線追蹤效果](features/raytracing.md) | PC[^1]
 | [多語言支持](features/languages.md)
 | [輸入設置](features/controls)
 | [物理配置](features/system_physics)

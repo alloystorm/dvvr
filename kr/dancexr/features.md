@@ -21,7 +21,7 @@ sidebar:
 |
 | *캐릭터 모델 설정*
 | [배우 메뉴, 도구 및 상호작용](features/actor_tools)
-| [드레싱 시스템 (재질 변형 및 XPS 옵션)](features/optionals) || 프로버전
+| [드레싱 시스템 (재질 모프 및 XPS 옵션)](features/optionals) || 프로버전
 | [대체 텍스처](features/alternative_textures)
 | [얼굴 제어](features/facial_control)
 | [눈 깜빡임, 숨쉬기 및 눈동자 접촉](features/eyecontact)
@@ -52,27 +52,27 @@ sidebar:
 | [액세서리](features/accessory.md) || 프로버전 |
 | [랙돌](features/ragdoll.md) || 프로버전 |
 | [빛 공](features/lightball.md) || 프로버전 |
-| [가슴 흔들림](features/boob_shake_sex_overlay){: .nsfw} || 성인 콘텐츠 |
+| [가슴 흔들기](features/boob_shake_sex_overlay){: .nsfw} || 성인 콘텐츠 |
 | [성적 오버레이](features/boob_shake_sex_overlay){: .nsfw} || 성인 콘텐츠 |
 | [딜도](features/dildo){: .nsfw} || 성인 콘텐츠 |
 |
 | *의류 시뮬레이션*
-| [의류 시뮬레이션](features/cloth_simulation) | [2024.8](releases/2024.8.md) | 프로버전
-| [메쉬를 의류 시뮬레이션으로](features/mesh_to_cloth) | [2024.9](releases/2024.9.md) | 프로버전
-| [입자 역학](features/particle_dynamics) | [2024.9](releases/2024.9.md) | 프로버전
-| [소프트 바디 시뮬레이션](features/softbody) | [2024.11](releases/2024.9.md) | 프로버전
+| [의류 시뮬레이션](features/cloth_simulation.md) | [2024.8](releases/2024.8.md) | 프로버전
+| [메쉬를 의류 시뮬레이션으로](features/cloth_simulation.md#mesh_to_cloth) | [2024.9](releases/2024.9.md) | 프로버전
+| [입자 역학](features/particle_dynamics.md) | [2024.9](releases/2024.9.md) | 프로버전
+| [소프트 바디 시뮬레이션](features/particle_dynamics.md#softbody) | [2024.11](releases/2024.9.md) | 프로버전
 |
 | *모델 형식별*
 | [XPS 본 매핑](features/bone_mapper.md)
 | [XPS 물리](features/xps_physics) || 프로버전 |
-| - [바디 콜라이더](features/xps_body_colliders.md)
+| - [몸 콜라이더](features/xps_body_colliders.md)
 | - [가슴 물리](features/xps_boobs.md) || 프로버전
 | - [머리 물리](features/xps_hair.md)
 | - [의류 물리](features/xps_cloth.md)
 | - [치마 물리](features/xps_skirt.md)
 | - [소프트 바디 물리](features/xps_softbody.md) || 프로버전
 | - [떨어지는 물체](features/xps_detach.md)
-| [사용자 정의 모션 상속](features/custom_inherit.md)
+| [사용자 정의 상속 모션](features/custom_inherit.md)
 | [PMX 물리](features/pmx_physics)
 | PMX 블렌드 모프 || 프로버전
 |
@@ -95,7 +95,7 @@ sidebar:
 | [모션 설정](features/motion_settings)
 |
 | *프로시저 모션*
-| [아이들 모션](features/idle_motion.md)
+| [대기 모션](features/idle_motion.md)
 | [캣워크](features/catwalk.md)
 | [자동 댄스](features/autodance) || 프로버전 |
 | [자동 댄스 2](features/autodance2) || 프로버전 |
@@ -125,7 +125,7 @@ sidebar:
 | [씬 저장 및 불러오기](features/save_scene.md)
 | [씬 번들](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 프로버전 |
 |
-| ***씬 및 무대***
+| ***씬 및 무대*** |
 | *무대*
 | [지면 및 무대](features/ground)
 | [물 시스템](features/water_system.md) | PC[^1]
@@ -134,7 +134,7 @@ sidebar:
 |
 | *소품*
 | [기본 모양](features/primitive_shapes)
-| [스크린](features/screen.md)
+| [화면](features/screen.md)
 | [거울](features/mirror.md)
 | [소품 모델 및 설정](features/props.md)
 |
@@ -157,10 +157,10 @@ sidebar:
 |  |  |  |
 
 
-[^1]: 윈도우 PC에서만 HD 또는 RT 버전으로 사용 가능
+[^1]: 윈도우 PC에서 HD 또는 RT 버전으로만 사용 가능
 
 [^2]: 지원되는 iPhone, iPad 및 Android 기기에서 사용 가능 (모든 기기가 AR을 지원하지는 않음)
 
 [^3]: Quest 2, 3 또는 Pro에서 사용 가능
 
-[^4]: AR 모드와 충돌로 인해 일시적으로 Android에서 비활성화됨
+[^4]: AR 모드와 충돌로 인해 안드로이드에서 일시적으로 비활성화됨
