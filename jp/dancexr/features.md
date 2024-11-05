@@ -32,8 +32,9 @@ sidebar:
 |
 | *マテリアル設定*
 | [グローバルマテリアル設定](features/material_global.md)
+| [トゥーンシェーディング](features/toon_shading.md)
 | マテリアルカテゴリ
-| - [スキンマテリアル](features/material_skin.md)
+| - [肌のマテリアル](features/material_skin.md)
 | - [髪のマテリアル](features/material_hair.md)
 | - [目のマテリアル](features/material_eyes.md)
 | - [唇のマテリアル](features/material_lips.md)
@@ -55,6 +56,12 @@ sidebar:
 | [セックスオーバーレイ](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
 | [ディルド](features/dildo){: .nsfw} || NSFW |
 |
+| *布シミュレーション*
+| [布シミュレーション](features/cloth_simulation) | [2024.8](releases/2024.8.md) | プロ版
+| [メッシュから布へのシミュレーション](features/mesh_to_cloth) | [2024.9](releases/2024.9.md) | プロ版
+| [パーティクルダイナミクス](features/particle_dynamics) | [2024.9](releases/2024.9.md) | プロ版
+| [ソフトボディシミュレーション](features/softbody) | [2024.11](releases/2024.9.md) | プロ版
+|
 | *モデルフォーマット固有*
 | [XPSボーンマッパー](features/bone_mapper.md)
 | [XPS物理](features/xps_physics) || プロ版 |
@@ -64,7 +71,7 @@ sidebar:
 | - [服の物理](features/xps_cloth.md)
 | - [スカートの物理](features/xps_skirt.md)
 | - [ソフトボディの物理](features/xps_softbody.md) || プロ版
-| - [オブジェクトのデタッチ](features/xps_detach.md)
+| - [オブジェクトの分離](features/xps_detach.md)
 | [カスタム継承モーション](features/custom_inherit.md)
 | [PMX物理](features/pmx_physics)
 | PMXブレンドシェイプモーフ || プロ版
@@ -156,4 +163,4 @@ sidebar:
 
 [^3]: Quest 2、3、またはProで利用可能
 
-[^4]: Androidで一時的に無効になっています。ARモードとの競合が原因
+[^4]: Androidとの競合のため一時的に無効化されています

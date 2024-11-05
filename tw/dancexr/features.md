@@ -32,6 +32,7 @@ sidebar:
 |
 | *材質設置*
 | [全局材質設置](features/material_global.md)
+| [卡通著色](features/toon_shading.md)
 | 材質類別
 | - [皮膚材質](features/material_skin.md)
 | - [頭髮材質](features/material_hair.md)
@@ -55,13 +56,19 @@ sidebar:
 | [性交覆蓋](features/boob_shake_sex_overlay){: .nsfw} || 不適宜工作場所 |
 | [假陽具](features/dildo){: .nsfw} || 不適宜工作場所 |
 |
+| *布料模擬*
+| [布料模擬](features/cloth_simulation) | [2024.8](releases/2024.8.md) | 專業版
+| [網格轉布料模擬](features/mesh_to_cloth) | [2024.9](releases/2024.9.md) | 專業版
+| [粒子動力學](features/particle_dynamics) | [2024.9](releases/2024.9.md) | 專業版
+| [軟體模擬](features/softbody) | [2024.11](releases/2024.9.md) | 專業版
+|
 | *模型格式特定*
 | [XPS骨骼映射器](features/bone_mapper.md)
 | [XPS物理](features/xps_physics) || 專業版 |
 | - [身體碰撞器](features/xps_body_colliders.md)
 | - [胸部物理](features/xps_boobs.md) || 專業版
 | - [頭髮物理](features/xps_hair.md)
-| - [衣物物理](features/xps_cloth.md)
+| - [衣服物理](features/xps_cloth.md)
 | - [裙子物理](features/xps_skirt.md)
 | - [軟體物理](features/xps_softbody.md) || 專業版
 | - [分離物件](features/xps_detach.md)
@@ -76,28 +83,28 @@ sidebar:
 | [音頻播放選項](features/audio_options)
 | [音樂定時](features/music_timing)
 |
-| *管理運動*
+| *管理動作*
 | [播放選項](features/playback_options)
-| [分配運動](features/assign_motion)
+| [分配動作](features/assign_motion)
 | [次要運動](features/secondary_motion)
 | [混音](features/remix)
 | [演員運動設置](features/actor_motion_settings)
 |
-| *VMD和BVH運動*
+| *VMD和BVH動作*
 | [舞蹈設置](features/dance_set)
 | [運動設置](features/motion_settings)
 |
-| *程序化運動*
-| [閒置運動](features/idle_motion.md)
+| *程序化動作*
+| [閒置動作](features/idle_motion.md)
 | [走秀](features/catwalk.md)
 | [自動舞蹈](features/autodance) || 專業版 |
 | [自動舞蹈2](features/autodance2) || 專業版 |
 | [自動舞蹈3](features/autodance3.md) || 專業版 |
 | [女上位性行為](features/scg_motion){: .nsfw} || 不適宜工作場所 |
 | [後背性行為](features/sfb_motion){: .nsfw} || 不適宜工作場所 |
-| [性行為3](features/sm3_motion){: .nsfw} || 不適宜工作場所 |
+| [性動作3](features/sm3_motion){: .nsfw} || 不適宜工作場所 |
 |
-| *攝影機運動*
+| *攝影機動作*
 | [自由飛行攝影機](features/camera)
 | [軌道攝影機](features/camera)
 | [自動攝影機](features/camera)
@@ -137,7 +144,7 @@ sidebar:
 | [Android和Quest的內容庫](content_android_quest)
 | [顯示和用戶界面](features/display_settings)
 | [圖形設置](features/graphics)
-| [光線追蹤效果](features/raytracing.md) | PC[^1]
+| [光線追踪效果](features/raytracing.md) | PC[^1]
 | [多語言支持](features/languages.md)
 | [輸入設置](features/controls)
 | [物理配置](features/system_physics)
