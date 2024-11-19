@@ -14,6 +14,8 @@ header:
       url: /jp/dancexr/features
     - label: ダウンロード
       url: /jp/dancexr/download
+    - label: 最新リリース
+      url: /jp/dancexr/releases/2024.11
 ---
 
 [Eng](/dancexr) | [繁中](/tw/dancexr) | [日本語](/jp/dancexr) | [한국어](/kr/dancexr) | [简中](/zh/dancexr)

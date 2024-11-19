@@ -6,11 +6,13 @@ header:
   overlay_image: /images/header_wide.png
   actions: 
     - label: 자세히 알아보기
-      url: /dancexr
+      url: /kr/dancexr
     - label: 기능
-      url: /dancexr/features
+      url: /kr/dancexr/features
     - label: 다운로드
-      url: /dancexr/download
+      url: /kr/dancexr/download
+    - label: 최신 릴리스
+      url: /kr/dancexr/releases/2024.11
 ---
 
 [Eng](/dancexr) | [繁中](/tw/dancexr) | [日本語](/jp/dancexr) | [한국어](/kr/dancexr) | [简中](/zh/dancexr)

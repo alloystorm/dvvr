@@ -34,6 +34,7 @@ sidebar:
 |
 | *Material Settings*
 | [Global Material Settings](features/material_global.md)
+| [Toon Shading](features/toon_shading.md)
 | Material Categories
 | - [Skin Materials](features/material_skin.md)
 | - [Hair Materials](features/material_hair.md)
@@ -51,11 +52,17 @@ sidebar:
 | [Outfit & Body Paint](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | PRO
 | [Motion Override](features/motion_override) || PRO |
 | [Accessory](features/accessory.md) || PRO |
-| [Ragdoll](features/ragdoll.md) || PRO |
-| [Lightball](features/lightball.md) || PRO |
+| [Rag doll](features/ragdoll.md) || PRO |
+| [Light ball](features/lightball.md) || PRO |
 | [Boob Shake](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
 | [Sex Overlay](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
 | [Dildo](features/dildo){: .nsfw} || NSFW |
+|
+| *Cloth Simulation*
+| [Cloth Simulation](features/cloth_simulation.md) | [2024.8](releases/2024.8.md) | PRO
+| [Mesh To Cloth Simulation](features/cloth_simulation.md#mesh_to_cloth) | [2024.9](releases/2024.9.md) | PRO
+| [Particle Dynamics](features/particle_dynamics.md) | [2024.9](releases/2024.9.md) | PRO
+| [Soft body simulation](features/particle_dynamics.md#softbody) | [2024.11](releases/2024.9.md) | PRO
 |
 | *Model Format Specific*
 | [XPS Bone Mapper](features/bone_mapper.md)
@@ -65,8 +72,8 @@ sidebar:
 | - [Hair Physics](features/xps_hair.md)
 | - [Clothes Physics](features/xps_cloth.md)
 | - [Skirt Physics](features/xps_skirt.md)
-| - [Softbody Physics](features/xps_softbody.md) || PRO
-| - [Detech Object](features/xps_detach.md)
+| - [Soft body Physics](features/xps_softbody.md) || PRO
+| - [Detach Object](features/xps_detach.md)
 | [Custom Inherit Motion](features/custom_inherit.md)
 | [PMX Physics](features/pmx_physics)
 | PMX Blendshape Morphs || PRO
@@ -139,7 +146,7 @@ sidebar:
 | [Content Library for Android and Quest](content_android_quest)
 | [Display & UI](features/display_settings)
 | [Graphic Settings](features/graphics)
-| [Raytracing Effects](features/raytracing.md) | PC[^1]
+| [Ray tracing Effects](features/raytracing.md) | PC[^1]
 | [Multi-Language Support](features/languages.md)
 | [Input Settings](features/controls)
 | [Physics Config](features/system_physics)

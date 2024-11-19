@@ -1,20 +1,22 @@
 ---
-layout: single
-title: Release 2024.8
-toc: true
 locale: en-US
+layout: single
+toc: true
+title: Cloth Simulation
 sidebar:
-  nav: "releases"
+  nav: "docs"
 ---
-[Eng](/dancexr/releases/2024.8) | [繁中](/tw/dancexr/releases/2024.8) | [日本語](/jp/dancexr/releases/2024.8) | [한국어](/kr/dancexr/releases/2024.8) | [简中](/zh/dancexr/releases/2024.8)
+[Eng](/dancexr/features/cloth_simulation) | [繁中](/tw/dancexr/features/cloth_simulation) | [日本語](/jp/dancexr/features/cloth_simulation) | [한국어](/kr/dancexr/features/cloth_simulation) | [简中](/zh/dancexr/features/cloth_simulation)
 
+# Cloth Simulation
+Cloth simulation creates realistic clothing and fabric effects by simulating the movements of particles and constraints between them. From version 2024.8 you can create clothings for your character and watch them move and interact with the motion.
 
-## Cloth Simulation
-The cloth simulation system is now available to use on XPS and PMX models. The key characteristics of the new system are
+The key characteristics of the new system are
 
 * Unconditionally stable, the simulation will always recover to stable state no matter how extreme the conditions are.
 * Running parallel in real-time on a separate thread alongside the existing physics and animation systems. This allows us to utilize power of multi-core CPUs and deliver the best performance possible.
 * Custom curved collider shapes. Unlike traditional geometry shapes, our custom collider model allows us to match the curved body parts almost perfectly.
+
 
 ### Configurations
 "Cloth Simulation" configurations can be found under "Pro" section in actor menus. 
@@ -28,6 +30,7 @@ The cloth simulation system is now available to use on XPS and PMX models. The k
 * Self collision: control collision between particles
 * Physics properties: gravity, friction etc
 * Compute settings: controls simulation frame rate, sub-steps and other parameters
+
 
 ### Mesh creation
 The cloth mesh is generated procedurally based on the configurations you set. You can checkout the mesh presets for some examples.
@@ -45,6 +48,7 @@ With the adaptive hex or rectangle options, the cloth mesh will increase or decr
 With the horizontal layout option, it's mostly the same to the above 2 but you can specify the anchoring partially.
 
 With the vertical layout option, each row has exactly the same number of particles but you can split the cloth mesh at an interval.
+
 
 ### Anchoring
 You can anchor the cloth mesh to the model by selecting the body parts you want to anchor to. The cloth mesh will be attached to the selected body parts and will move with them. 
@@ -67,14 +71,11 @@ You can imagine the collider as 2 spheres on both ends with adjustable smooth cu
 
 There are no interaction between the cloth system and other physics component at the moment. The only exception is the XPS Boobs Physics which contains new settings to create cloth simulation compatible colliders.
 
-## Motion Updates
-Major changes have been made to the motion system to allow cloth simulation to work smoothly. This also comes with a few other benefits.
-* Motion system should be more performant with less overhead interacting with GameObjects
-* PMX models with complex recursive inheritance structure should work perfectly now.
-* More accurate and consistent motion playback across different model types.
-* Motion adjustments are more precise and accurate.
-* Procedural motions and motion overrides works better too.
 
-Features that are not yet supported in the new motion system:
-* Motion transition anchoring is not working.
-* Rag-doll disabled temporarily.
+### Convert Model Mesh To Cloth<a id="mesh_to_cloth"></a>
+
+You can now convert model meshes into cloth and simulate with the cloth simulation system. 
+
+Simply check the box in the mesh list within the "Mesh To Cloth" setting to convert the mesh to cloth. After this the entire mesh will start to move freely like a piece of cloth. But you can constraint it using the options below.
+
+You can select anchor bones for each mesh to constraint the mesh to certain bones. You can also specify height limit for the constraint, meaning only the particles within that height range will be constrained to the selected bones. 

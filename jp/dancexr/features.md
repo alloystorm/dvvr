@@ -24,7 +24,7 @@ sidebar:
 | [ドレッシングシステム（マテリアルモーフとXPSオプション）](features/optionals) || プロ版
 | [代替テクスチャ](features/alternative_textures)
 | [表情コントロール](features/facial_control)
-| [瞬き、呼吸、目の接触](features/eyecontact)
+| [まばたき、呼吸、目の接触](features/eyecontact)
 | [足の調整](features/feet_adjustments)
 | [トラブルシューティングオプション](features/troubleshooting_options)
 | [水の相互作用](features/water_interaction.md)
@@ -32,9 +32,10 @@ sidebar:
 |
 | *マテリアル設定*
 | [グローバルマテリアル設定](features/material_global.md)
+| [トゥーンシェーディング](features/toon_shading.md)
 | マテリアルカテゴリ
 | - [スキンマテリアル](features/material_skin.md)
-| - [髪のマテリアル](features/material_hair.md)
+| - [髪の毛マテリアル](features/material_hair.md)
 | - [目のマテリアル](features/material_eyes.md)
 | - [唇のマテリアル](features/material_lips.md)
 | - [不透明なマテリアル](features/material_opaque.md)
@@ -55,16 +56,22 @@ sidebar:
 | [セックスオーバーレイ](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
 | [ディルド](features/dildo){: .nsfw} || NSFW |
 |
+| *布シミュレーション*
+| [布シミュレーション](features/cloth_simulation.md) | [2024.8](releases/2024.8.md) | プロ版
+| [メッシュから布へのシミュレーション](features/cloth_simulation.md#mesh_to_cloth) | [2024.9](releases/2024.9.md) | プロ版
+| [パーティクルダイナミクス](features/particle_dynamics.md) | [2024.9](releases/2024.9.md) | プロ版
+| [ソフトボディシミュレーション](features/particle_dynamics.md#softbody) | [2024.11](releases/2024.9.md) | プロ版
+|
 | *モデルフォーマット固有*
 | [XPSボーンマッパー](features/bone_mapper.md)
 | [XPS物理](features/xps_physics) || プロ版 |
 | - [ボディコライダー](features/xps_body_colliders.md)
 | - [おっぱいの物理](features/xps_boobs.md) || プロ版
-| - [髪の物理](features/xps_hair.md)
+| - [髪の毛の物理](features/xps_hair.md)
 | - [服の物理](features/xps_cloth.md)
 | - [スカートの物理](features/xps_skirt.md)
 | - [ソフトボディの物理](features/xps_softbody.md) || プロ版
-| - [オブジェクトのデタッチ](features/xps_detach.md)
+| - [オブジェクトの分離](features/xps_detach.md)
 | [カスタム継承モーション](features/custom_inherit.md)
 | [PMX物理](features/pmx_physics)
 | PMXブレンドシェイプモーフ || プロ版
@@ -109,7 +116,7 @@ sidebar:
 | ***環境*** |
 | [空と雲](features/skymap)
 | [照明](features/lighting)
-| [パーティクルシステム](features/particles) | Androidを除くすべて[^4] | プロ版
+| [パーティクルシステム](features/particles) | Android以外[^4] | プロ版
 | [ARモード](features/ar_mode) | モバイル[^2] & クエスト[^3] | プロ版 | 
 | [ステージ](features/stages)
 | [プロップ](features/props)
@@ -156,4 +163,4 @@ sidebar:
 
 [^3]: Quest 2、3、またはProで利用可能
 
-[^4]: Androidで一時的に無効になっています。ARモードとの競合が原因
+[^4]: Androidで一時的に無効になっています。ARモードとの競合が原因です。

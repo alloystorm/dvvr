@@ -6,11 +6,13 @@ header:
   overlay_image: /images/header_wide.png
   actions: 
     - label: 了解更多
-      url: /dancexr
+      url: /tw/dancexr
     - label: 功能
-      url: /dancexr/features
+      url: /tw/dancexr/features
     - label: 下載
-      url: /dancexr/download
+      url: /tw/dancexr/download
+    - label: 最新發布
+      url: /tw/dancexr/releases/2024.11
 ---
 
 [Eng](/dancexr) | [繁中](/tw/dancexr) | [日本語](/jp/dancexr) | [한국어](/kr/dancexr) | [简中](/zh/dancexr)

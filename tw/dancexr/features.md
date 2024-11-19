@@ -2,6 +2,21 @@
 locale: zh-TW
 layout: single
 title: 功能列表
+
+- Alpha: 透明度
+- Stage: 舞台
+- Scene Bundle: 場景包
+- Asset: 資源
+- Bone: 骨骼
+- Procedural: 程序化
+- Release: 發布
+- Version: 版本
+- Pro: 專業版
+- Camera: 攝影機
+- Creator: 創作版
+- DanceXR Immersion: DanceXR舞動幻境
+- DanceXR Mix: DanceXR舞動幻影
+- Animate any model, anywhere: 遍地皆是舞台，模型隨意動畫
 toc: true
 permalink: /tw/dancexr/features
 sidebar:
@@ -32,6 +47,7 @@ sidebar:
 |
 | *材質設置*
 | [全局材質設置](features/material_global.md)
+| [卡通陰影](features/toon_shading.md)
 | 材質類別
 | - [皮膚材質](features/material_skin.md)
 | - [頭髮材質](features/material_hair.md)
@@ -42,18 +58,24 @@ sidebar:
 | - [自定義1材質](features/material_custom1.md)
 | - [自定義2材質](features/material_custom1.md)
 | [紋理增強](features/texture_enhancement.md) || 專業版
-| [汗水效果](features/sweat_effect.md) || 不適宜工作場所
+| [汗水效果](features/sweat_effect.md) || NSFW
 | [材質列表](features/material_settings.md#material-list) || 專業版
 |
 | *專業版功能*
 | [服裝和身體彩繪](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | 專業版
 | [運動覆蓋](features/motion_override) || 專業版 |
-| [配件](features/accessory.md) || 專業版 |
+| [配飾](features/accessory.md) || 專業版 |
 | [布娃娃](features/ragdoll.md) || 專業版 |
 | [光球](features/lightball.md) || 專業版 |
-| [胸部搖晃](features/boob_shake_sex_overlay){: .nsfw} || 不適宜工作場所 |
-| [性交覆蓋](features/boob_shake_sex_overlay){: .nsfw} || 不適宜工作場所 |
-| [假陽具](features/dildo){: .nsfw} || 不適宜工作場所 |
+| [胸部搖晃](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
+| [性交覆蓋](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
+| [假陽具](features/dildo){: .nsfw} || NSFW |
+|
+| *布料模擬*
+| [布料模擬](features/cloth_simulation.md) | [2024.8](releases/2024.8.md) | 專業版
+| [網格轉布料模擬](features/cloth_simulation.md#mesh_to_cloth) | [2024.9](releases/2024.9.md) | 專業版
+| [粒子動力學](features/particle_dynamics.md) | [2024.9](releases/2024.9.md) | 專業版
+| [軟體模擬](features/particle_dynamics.md#softbody) | [2024.11](releases/2024.9.md) | 專業版
 |
 | *模型格式特定*
 | [XPS骨骼映射器](features/bone_mapper.md)
@@ -61,7 +83,7 @@ sidebar:
 | - [身體碰撞器](features/xps_body_colliders.md)
 | - [胸部物理](features/xps_boobs.md) || 專業版
 | - [頭髮物理](features/xps_hair.md)
-| - [衣物物理](features/xps_cloth.md)
+| - [衣服物理](features/xps_cloth.md)
 | - [裙子物理](features/xps_skirt.md)
 | - [軟體物理](features/xps_softbody.md) || 專業版
 | - [分離物件](features/xps_detach.md)
@@ -93,9 +115,9 @@ sidebar:
 | [自動舞蹈](features/autodance) || 專業版 |
 | [自動舞蹈2](features/autodance2) || 專業版 |
 | [自動舞蹈3](features/autodance3.md) || 專業版 |
-| [女上位性行為](features/scg_motion){: .nsfw} || 不適宜工作場所 |
-| [後背性行為](features/sfb_motion){: .nsfw} || 不適宜工作場所 |
-| [性行為3](features/sm3_motion){: .nsfw} || 不適宜工作場所 |
+| [女上位性行為](features/scg_motion){: .nsfw} || NSFW |
+| [後背性行為](features/sfb_motion){: .nsfw} || NSFW |
+| [性行為3](features/sm3_motion){: .nsfw} || NSFW |
 |
 | *攝影機運動*
 | [自由飛行攝影機](features/camera)
@@ -118,7 +140,7 @@ sidebar:
 | [保存和加載場景](features/save_scene.md)
 | [場景包](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 專業版 |
 |
-| ***場景和舞台***
+| ***場景和舞台*** |
 | *舞台*
 | [地面和舞台](features/ground)
 | [水系統](features/water_system.md) | PC[^1]

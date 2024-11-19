@@ -1,7 +1,7 @@
 ---
 locale: zh-CN
 layout: single
-title: 功能列表
+title: 特性列表
 toc: true
 permalink: /zh/dancexr/features
 sidebar:
@@ -24,7 +24,7 @@ sidebar:
 | [着装系统（材质变形和XPS可选项）](features/optionals) || 专业版
 | [替代纹理](features/alternative_textures)
 | [面部控制](features/facial_control)
-| [眨眼、呼吸和眼神接触](features/eyecontact)
+| [眨眼、呼吸和眼神交流](features/eyecontact)
 | [脚部调整](features/feet_adjustments)
 | [故障排除选项](features/troubleshooting_options)
 | [水的互动](features/water_interaction.md)
@@ -32,6 +32,7 @@ sidebar:
 |
 | *材质设置*
 | [全局材质设置](features/material_global.md)
+| [卡通着色](features/toon_shading.md)
 | 材质类别
 | - [皮肤材质](features/material_skin.md)
 | - [头发材质](features/material_hair.md)
@@ -53,18 +54,24 @@ sidebar:
 | [光球](features/lightball.md) || 专业版 |
 | [胸部摇晃](features/boob_shake_sex_overlay){: .nsfw} || 不适宜工作场所 |
 | [性交叠加](features/boob_shake_sex_overlay){: .nsfw} || 不适宜工作场所 |
-| [假阳具](features/dildo){: .nsfw} || 不适宜工作场所 |
+| [跳蛋](features/dildo){: .nsfw} || 不适宜工作场所 |
 |
-| *模型格式特定*
+| *布料模拟*
+| [布料模拟](features/cloth_simulation.md) | [2024.8](releases/2024.8.md) | 专业版
+| [网格到布料模拟](features/cloth_simulation.md#mesh_to_cloth) | [2024.9](releases/2024.9.md) | 专业版
+| [粒子动力学](features/particle_dynamics.md) | [2024.9](releases/2024.9.md) | 专业版
+| [软体模拟](features/particle_dynamics.md#softbody) | [2024.11](releases/2024.9.md) | 专业版
+|
+| *特定模型格式*
 | [XPS骨骼映射器](features/bone_mapper.md)
 | [XPS物理](features/xps_physics) || 专业版 |
-| - [身体碰撞器](features/xps_body_colliders.md)
+| - [身体碰撞体](features/xps_body_colliders.md)
 | - [胸部物理](features/xps_boobs.md) || 专业版
 | - [头发物理](features/xps_hair.md)
 | - [服装物理](features/xps_cloth.md)
 | - [裙子物理](features/xps_skirt.md)
 | - [软体物理](features/xps_softbody.md) || 专业版
-| - [检测物体](features/xps_detach.md)
+| - [分离物体](features/xps_detach.md)
 | [自定义继承动作](features/custom_inherit.md)
 | [PMX物理](features/pmx_physics)
 | PMX混合形态 || 专业版
@@ -76,7 +83,7 @@ sidebar:
 | [音频播放选项](features/audio_options)
 | [音乐定时](features/music_timing)
 |
-| *管理动作*
+| *动作管理*
 | [播放选项](features/playback_options)
 | [分配动作](features/assign_motion)
 | [次要动作](features/secondary_motion)
@@ -89,12 +96,12 @@ sidebar:
 |
 | *程序化动作*
 | [空闲动作](features/idle_motion.md)
-| [走秀](features/catwalk.md)
+| [T台走秀](features/catwalk.md)
 | [自动舞蹈](features/autodance) || 专业版 |
 | [自动舞蹈2](features/autodance2) || 专业版 |
 | [自动舞蹈3](features/autodance3.md) || 专业版 |
-| [骑乘位性交](features/scg_motion){: .nsfw} || 不适宜工作场所 |
-| [后背位性交](features/sfb_motion){: .nsfw} || 不适宜工作场所 |
+| [骑乘位](features/scg_motion){: .nsfw} || 不适宜工作场所 |
+| [后背位](features/sfb_motion){: .nsfw} || 不适宜工作场所 |
 | [性动作3](features/sm3_motion){: .nsfw} || 不适宜工作场所 |
 |
 | *摄影机动作*
@@ -110,7 +117,7 @@ sidebar:
 | [天空和云](features/skymap)
 | [照明](features/lighting)
 | [粒子系统](features/particles) | 除Android外[^4] | 专业版
-| [AR模式](features/ar_mode) | 移动设备[^2]和Quest[^3] | 专业版 | 
+| [AR模式](features/ar_mode) | 移动设备[^2] 和 Quest[^3] | 专业版 | 
 | [舞台](features/stages)
 | [道具](features/props)
 | [节拍环](features/beats_ring.md)
@@ -118,7 +125,7 @@ sidebar:
 | [保存和加载场景](features/save_scene.md)
 | [场景包](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | 专业版 |
 |
-| ***场景和舞台***
+| ***场景和舞台*** |
 | *舞台*
 | [地面和舞台](features/ground)
 | [水系统](features/water_system.md) | 仅PC[^1]
@@ -150,7 +157,7 @@ sidebar:
 |  |  |  |
 
 
-[^1]: 仅在Windows PC上的高清或光线追踪版本中可用
+[^1]: 仅在Windows PC上的高清或RT版本中可用
 
 [^2]: 仅支持iPhone、iPad和Android设备（并非所有设备都支持AR）
 
