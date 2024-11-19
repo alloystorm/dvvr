@@ -110,6 +110,10 @@ lang_names = {
     'ja': 'Japanese',
     'kr': 'Korean',
     'ko-rKR': 'Korean',
+    'de': 'German',
+    'es': 'Spanish',
+    'it': 'Italian',
+    'fr': 'French',
 }
 
 gpt_model = "gpt-3.5-turbo"
