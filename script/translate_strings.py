@@ -23,10 +23,11 @@ api_key = get_api_key_from_file(api_key_path)
 # print(api_key)
 
 # Define directories
-ROOT_DIR = "i18n"  # Root directory of your resources
-# ROOT_DIR = "../android/mobile/DanceXR/launcher/src/main/res"  # Root directory of your resources
+# ROOT_DIR = "i18n"  # Root directory of your resources
+ROOT_DIR = "../android/mobile/DanceXR/launcher/src/main/res"  # Root directory of your resources
 DEFAULT_LANG_DIR = os.path.join(ROOT_DIR, "values")
-LANG_DIRS = [os.path.join(ROOT_DIR, d) for d in ['values-ja', 'values-ko-rKR', 'values-zh-rCN', 'values-zh-rTW', 'values-de', 'values-es', 'values-it', 'values-fr']]
+LANG_DIRS = [os.path.join(ROOT_DIR, d) for d in ['values-it']]
+# ['values-ja', 'values-ko-rKR', 'values-zh-rCN', 'values-zh-rTW', 'values-de', 'values-es', 'values-it', 'values-fr']]
 STRINGS_FILE = "strings.xml"
 
 # Parse the default (English) strings.xml
@@ -92,7 +93,10 @@ for lang_dir in LANG_DIRS:
                 print(f"Translating chunk {index}... \n" + missing_strings)
                 # Here, we would wait for translation. In this demo, let's mock the translation.
                 # translated_strings = {key: f"Translated {value}" for key, value in missing_entries.items()}
-                translated_strings = translate(f"<resources>\n{missing_strings}</resources>", lang).replace(" & ", " &amp; ").replace('"', "&quot;").replace("'", "&apos;")
+                translated_strings = translate(f"<resources>\n{missing_strings}</resources>", lang)
+                print(translated_strings)
+                translated_strings = translated_strings.replace("&", "&amp;").replace("'", "\\'")
+                print(translated_strings)
                 # Append the translated strings back to the respective strings.xml
                 #parser = etree.XMLParser(remove_blank_text=True)
                 # print(f"Translated chunk {index}... \n" + translated_strings)
