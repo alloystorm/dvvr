@@ -90,8 +90,8 @@ def translate_file(subdir, file):
         
 def translate_page(english_content, target_files):
     # Split the content into chunks and translate each chunk
-    chunks = extract_xml_chunks(english_content)
-    # chunks = [english_content]
+    # chunks = extract_xml_chunks(english_content)
+    chunks = english_content.split("\n# ")
     print(f"{len(chunks)} chunks to translate.")
 
     try:
@@ -100,9 +100,26 @@ def translate_page(english_content, target_files):
             translated_content = ""
             for chunk in chunks:
                 index+=1
-                print(f"Translating chunk {index}/{len(chunks)} lang: {lang}...")
-                translated_content += translate(chunk, lang)
-                translated_content += "\n"
+                success = False
+                counter = 0
+                if (index > 1):
+                    chunk = "# " + chunk
+                while not success and counter < 3:
+                    first_line = chunk.split("\n")[0]
+                    lines = len(chunk.split("\n"))
+                    print(f"Translating chunk {index}/{len(chunks)} {first_line} of {lines} lines to {lang}... Attempt {counter+1}")
+                    translated = translate(chunk, lang)
+                    translatedLines = len(translated.split("\n"))
+                    success = lines == translatedLines
+                    counter += 1
+                if success:
+                    translated_content += translate(chunk, lang)
+                    translated_content += "\n"
+                else:
+                    print(f"Failed to translate chunk. {lines} vs {translatedLines} {counter}")
+                    print(chunk)
+                    print(translated)
+                    return
             # Combine the translated chunks and save the result
             if dst_file_path:
                 print(f"Saving translated content to {dst_file_path}...")

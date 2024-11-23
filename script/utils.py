@@ -145,7 +145,7 @@ def translate(text, target_language):
         terms=terms,
         text=text)
     
-    print(first_last_lines(prompt, 25, 5))
+    # print(first_last_lines(prompt, 25, 5))
 
     data = {
         "model": gpt_model,
@@ -156,8 +156,8 @@ def translate(text, target_language):
     #print(first_last_lines(response.text, 20, 20))
     translated_text = response.json()['choices'][0]['message']['content'].strip()
     #translated_text = text
-    print(first_last_lines(translated_text))
-    print(f"Received translation...")
+    # print(first_last_lines(translated_text))
+    # print(f"Received translation...")
     return translated_text
 
 def correct(text):
