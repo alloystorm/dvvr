@@ -2,7 +2,7 @@ import subprocess
 import os
 import re
 from utils import translate
-from utils import extract_xml_chunks
+from utils import translate_missing
 
 def get_latest_commit_info(file_path):
     """Get the latest commit date for a given file."""
@@ -40,10 +40,14 @@ src_path = 'i18n/values'
 
 # Define the paths for the translated content
 dst_paths = {
-    'jp': 'i18n/values-ja',
-    'zh': 'i18n/values-zh-rCN',
-    'tw': 'i18n/values-zh-rTW',
-    'kr': 'i18n/values-ko-rKR'
+    #'jp': 'i18n/values-ja',
+    #'zh': 'i18n/values-zh-rCN',
+    #'tw': 'i18n/values-zh-rTW',
+    #'kr': 'i18n/values-ko-rKR',
+    'de': 'i18n/values-de',
+    #'es': 'i18n/values-es',
+    #'it': 'i18n/values-it',
+    #'fr': 'i18n/values-fr',
 }
 
 # Function to create directories if they don't exist
@@ -96,16 +100,20 @@ def translate_chunk(chunk, lang, index, total_chunks):
     counter = 0
     if index > 1:
         chunk = "# " + chunk
+    first_line = chunk.split("\n")[0]
+    lines = len(chunk.split("\n"))
+    print(f"Translating chunk {index}/{total_chunks} {first_line} of {lines} lines to {lang}... ")
+    translated = translate(chunk, lang)
+    translatedLines = len(translated.split("\n"))
+    success = lines == translatedLines
     while not success and counter < 3:
-        first_line = chunk.split("\n")[0]
-        lines = len(chunk.split("\n"))
-        print(f"Translating chunk {index}/{total_chunks} {first_line} of {lines} lines to {lang}... Attempt {counter+1}")
-        translated = translate(chunk, lang)
+        counter += 1
+        print(f"Retrying chunk {index}/{total_chunks} {first_line} {lines} vs {translatedLines}... Attempt {counter}")
+        translated = translate_missing(chunk, translated, lang)
         translatedLines = len(translated.split("\n"))
         success = lines == translatedLines
-        counter += 1
-        if success:
-            return index, translated
+    if success:
+        return index, translated
     print(f"Failed to translate chunk. {first_line} {lines} vs {translatedLines} {counter}")
     print(f"Original: {chunk}")
     print(f"Translated: {translated}")

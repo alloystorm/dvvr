@@ -128,6 +128,33 @@ def first_last_lines(text, f=5, l=5):
     lines = text.split("\n")
     return "\n".join(lines[:f]) + "\n...\n" + "\n".join(lines[-l:])
 
+def translate_missing(original, translation, lang):
+    url = "https://api.openai.com/v1/chat/completions"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {api_key}"
+    }
+
+    with open("script/translate_missing.txt", 'r', encoding='utf-8') as f:
+        template = f.read()
+
+    prompt = template.format(
+        target_language=lang_names[lang], 
+        original=original,
+        translation=translation)
+
+    #print(prompt)
+
+    data = {
+        "model": gpt_model,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 1.0
+    }
+    response = requests.post(url, json=data, headers=headers)
+    translated_text = response.json()['choices'][0]['message']['content'].strip()
+    #print(translated_text)
+    return translated_text
+
 # Function to call OpenAI API for translation
 def translate(text, target_language):
     url = "https://api.openai.com/v1/chat/completions"

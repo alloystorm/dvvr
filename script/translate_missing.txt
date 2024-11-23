@@ -1,0 +1,9 @@
+Here's a translation of string resources from English to {target_language}. But there are mismatch between the 2. Please review the translation line by line and make corrections for me, thanks! Pay attention to the line numbers in front and make sure the translation matches the original.
+
+Original:
+{original}
+
+Translation:
+{translation}
+
+Please respond with only the corrected translation, don't add anything else.
