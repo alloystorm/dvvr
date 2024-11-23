@@ -88,38 +88,56 @@ def translate_file(subdir, file):
             #f.write(corrected)
             translate_page(english_content, target_files)
         
-def translate_page(english_content, target_files):
-    # Split the content into chunks and translate each chunk
-    # chunks = extract_xml_chunks(english_content)
+import concurrent.futures
+import time  # For simulating delays or retries
+
+def translate_chunk(chunk, lang, index, total_chunks):
+    success = False
+    counter = 0
+    if index > 1:
+        chunk = "# " + chunk
+    while not success and counter < 3:
+        first_line = chunk.split("\n")[0]
+        lines = len(chunk.split("\n"))
+        print(f"Translating chunk {index}/{total_chunks} {first_line} of {lines} lines to {lang}... Attempt {counter+1}")
+        translated = translate(chunk, lang)
+        translatedLines = len(translated.split("\n"))
+        success = lines == translatedLines
+        counter += 1
+        if success:
+            return index, translated
+    print(f"Failed to translate chunk. {first_line} {lines} vs {translatedLines} {counter}")
+    print(f"Original: {chunk}")
+    print(f"Translated: {translated}")
+    return index, None  # Returning None if it fails after 3 attempts
+
+def translate_page(english_content, target_files): 
+    # Split the content into chunks
     chunks = english_content.split("\n# ")
     print(f"{len(chunks)} chunks to translate.")
+    translated = chunks.copy()
 
     try:
-        index = 0
+        # Iterate through each target language and destination file
         for lang, dst_file_path in target_files:
-            translated_content = ""
-            for chunk in chunks:
-                index+=1
-                success = False
-                counter = 0
-                if (index > 1):
-                    chunk = "# " + chunk
-                while not success and counter < 3:
-                    first_line = chunk.split("\n")[0]
-                    lines = len(chunk.split("\n"))
-                    print(f"Translating chunk {index}/{len(chunks)} {first_line} of {lines} lines to {lang}... Attempt {counter+1}")
-                    translated = translate(chunk, lang)
-                    translatedLines = len(translated.split("\n"))
-                    success = lines == translatedLines
-                    counter += 1
-                if success:
-                    translated_content += translate(chunk, lang)
-                    translated_content += "\n"
-                else:
-                    print(f"Failed to translate chunk. {lines} vs {translatedLines} {counter}")
-                    print(chunk)
-                    print(translated)
-                    return
+            total_chunks = len(chunks)
+            
+            # Using ThreadPoolExecutor to translate chunks concurrently
+            with concurrent.futures.ThreadPoolExecutor() as executor:
+                # Submit translation tasks for each chunk
+                futures = [
+                    executor.submit(translate_chunk, chunk, lang, index + 1, total_chunks)
+                    for index, chunk in enumerate(chunks)
+                ]
+                
+                # Collect results as they complete
+                for future in concurrent.futures.as_completed(futures):
+                    index, result = future.result()
+                    if result is None:
+                        print(f"Translation failed for chunk.")
+                        return  # Exit if any chunk translation fails
+                    print(f"Translated chunk {index}/{total_chunks} to {lang}.")
+                    translated[index - 1] = result
             # Combine the translated chunks and save the result
             if dst_file_path:
                 print(f"Saving translated content to {dst_file_path}...")
@@ -127,13 +145,13 @@ def translate_page(english_content, target_files):
                 ensure_dir(dst_file_path)
                 # Save the translated content
                 with open(dst_file_path, 'w', encoding='utf-8') as f:
-                    f.write(translated_content)
-            else:
-                print(f"Translated content: \n{translated_content}")
+                    for chunk in translated:
+                        f.write(chunk + "\n")
+                
     except Exception as e:
-        e.print_stack()
         print(f"error: {e}")
         print(f"Skipping {target_files} due to error...")
+
 
 # Iterate through all files in the source path
 for subdir, _, files in os.walk(src_path):
