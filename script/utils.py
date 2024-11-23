@@ -177,7 +177,7 @@ def translate(text, target_language):
     data = {
         "model": gpt_model,
         "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0
+        "temperature": 1.0
     }
     response = requests.post(url, json=data, headers=headers)
     #print(first_last_lines(response.text, 20, 20))
