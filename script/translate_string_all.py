@@ -40,10 +40,10 @@ src_path = 'i18n/values'
 
 # Define the paths for the translated content
 dst_paths = {
-    #'jp': 'i18n/values-ja',
+    'jp': 'i18n/values-ja',
     'zh': 'i18n/values-zh-rCN',
-    #'tw': 'i18n/values-zh-rTW',
-    #'kr': 'i18n/values-ko-rKR'
+    'tw': 'i18n/values-zh-rTW',
+    'kr': 'i18n/values-ko-rKR'
 }
 
 # Function to create directories if they don't exist
