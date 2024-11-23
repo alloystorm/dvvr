@@ -1,11 +1,8 @@
 Please help me translate text from English to {target_language}. 
 
-When translating, please use the specified translations below for these terms.
-
+There are a few terms below I would like you to follow in your translation:
 {terms}
 
-When it comes to properties, only translate the values for the "title" field.
-
-The text to tranlsate is as follows:
+Please only respond with the translated text, don't add anything else. The text to translate is as follows:
 
 {text}

@@ -98,6 +98,12 @@ translation = {
         'tw': '遍地皆是舞台，模型隨意動畫', 
         'jp': 'どこでも舞台、モデルは自由にアニメーション',
         'kr': '어디든 무대가 되고, 모델은 자유롭게 애니메이션',
+    },
+    'Long Take': {
+        'zh': '长镜头',
+        'tw': '長鏡頭', 
+        'jp': '長回し',
+        'kr': '롱 테이크',
     }
 }
 
@@ -116,7 +122,11 @@ lang_names = {
     'fr': 'French',
 }
 
-gpt_model = "gpt-3.5-turbo"
+gpt_model = "gpt-4o-mini"
+
+def first_last_lines(text, f=5, l=5):
+    lines = text.split("\n")
+    return "\n".join(lines[:f]) + "\n...\n" + "\n".join(lines[-l:])
 
 # Function to call OpenAI API for translation
 def translate(text, target_language):
@@ -129,13 +139,13 @@ def translate(text, target_language):
     with open("script/translate_page_prompt.txt", 'r', encoding='utf-8') as f:
             template = f.read()
 
-    terms = '\n'.join([f"{key} - {value[target_language]}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
+    terms = '\n'.join([f"{key}={value[target_language]}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
     prompt = template.format(
         target_language=lang_names[target_language], 
         terms=terms,
         text=text)
     
-    # print(prompt)
+    print(first_last_lines(prompt, 25, 5))
 
     data = {
         "model": gpt_model,
@@ -143,9 +153,11 @@ def translate(text, target_language):
         "temperature": 0
     }
     response = requests.post(url, json=data, headers=headers)
-    # print(response.json())
-    print("Received translation...")
+    #print(first_last_lines(response.text, 20, 20))
     translated_text = response.json()['choices'][0]['message']['content'].strip()
+    #translated_text = text
+    print(first_last_lines(translated_text))
+    print(f"Received translation...")
     return translated_text
 
 def correct(text):
@@ -170,10 +182,14 @@ def correct(text):
 
 
 # Maximum tokens for GPT-3.5-turbo
-MAX_TOKENS = 8192
+MAX_TOKENS = 12000
 # Roughly estimating 4 characters per token as a heuristic
-CHARS_PER_TOKEN = 4
+CHARS_PER_TOKEN = 3
 MAX_CHARS = MAX_TOKENS * CHARS_PER_TOKEN
+
+def extract_xml_chunks(content):
+    chunks = split_text(content, MAX_CHARS, "\n", prefix="")
+    return chunks
 
 def extract_section(content):
     front_matter_pattern = re.compile(r'---.*?---', re.DOTALL)
@@ -213,6 +229,7 @@ def split_text(text, max_chars, separator="\n## ", prefix = "## "):
     for paragraph in remaining_paragraphs:
         # If adding the next paragraph exceeds the max length, start a new chunk
         if len(current_chunk) + len(paragraph) > max_chars:
+            print(f"divide at: {paragraph}")
             if current_chunk:  # Avoid appending empty chunks
                 chunks.append(current_chunk)
             current_chunk = prefix + paragraph
@@ -220,6 +237,7 @@ def split_text(text, max_chars, separator="\n## ", prefix = "## "):
             # Prefix with "## " unless it's the very first paragraph
             divider = "" if not current_chunk and not first_paragraph else separator
             current_chunk = current_chunk + divider + paragraph
+            #print(f"add to chunk: {paragraph}")
     
     # Don't forget to append the last chunk
     if current_chunk:
