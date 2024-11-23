@@ -117,11 +117,11 @@ def translate_page(english_content, target_files):
     print(f"{len(chunks)} chunks to translate.")
     translated = chunks.copy()
 
-    try:
-        # Iterate through each target language and destination file
-        for lang, dst_file_path in target_files:
-            total_chunks = len(chunks)
+    for lang, dst_file_path in target_files:
+        total_chunks = len(chunks)
             
+        try:
+            # Iterate through each target language and destination file
             # Using ThreadPoolExecutor to translate chunks concurrently
             with concurrent.futures.ThreadPoolExecutor() as executor:
                 # Submit translation tasks for each chunk
@@ -136,7 +136,7 @@ def translate_page(english_content, target_files):
                     if result is None:
                         print(f"Translation failed for chunk.")
                         return  # Exit if any chunk translation fails
-                    print(f"Translated chunk {index}/{total_chunks} to {lang}.")
+                    # print(f"Translated chunk {index}/{total_chunks} to {lang}.")
                     translated[index - 1] = result
             # Combine the translated chunks and save the result
             if dst_file_path:
@@ -147,10 +147,9 @@ def translate_page(english_content, target_files):
                 with open(dst_file_path, 'w', encoding='utf-8') as f:
                     for chunk in translated:
                         f.write(chunk + "\n")
-                
-    except Exception as e:
-        print(f"error: {e}")
-        print(f"Skipping {target_files} due to error...")
+        except Exception as e:
+            print(f"error: {e}")
+            print(f"Skipping {target_files} due to error...")
 
 
 # Iterate through all files in the source path
