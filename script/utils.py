@@ -166,12 +166,15 @@ def translate(text, target_language):
     with open("script/translate_page_prompt.txt", 'r', encoding='utf-8') as f:
             template = f.read()
 
-    terms = '\n'.join([f"{key}={value[target_language]}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
+    original = ', '.join([f"{key}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
+    translated = ', '.join([f"{value[target_language]}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
     prompt = template.format(
         target_language=lang_names[target_language], 
-        terms=terms,
+        original=original,
+        translation=translated,
         text=text)
-    
+    # print(prompt)
+
     # print(first_last_lines(prompt, 25, 5))
 
     data = {

@@ -1,7 +1,10 @@
 Please help me translate text from English to {target_language}. 
 
-There are a few terms below I would like you to follow in your translation:
-{terms}
+Example text:
+{original}
+
+Translation:
+{translation}
 
 Please only respond with the translated text, don't add anything else. The text to translate is as follows:
 
