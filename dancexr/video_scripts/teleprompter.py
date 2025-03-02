@@ -50,7 +50,19 @@ class Teleprompter:
             wraplength=700,  # Will be updated on resize
             justify="center"
         )
-        self.text_display.pack(expand=True, fill="both", padx=20, pady=(5, 20))
+        self.text_display.pack(expand=True, fill="both", padx=20, pady=(5, 10))
+        
+        # Add next line display
+        self.next_line_display = tk.Label(
+            root,
+            text="",
+            font=("Arial", 36),  # Smaller font for the next line
+            fg="#808080",  # Gray color
+            bg="black",
+            wraplength=700,  # Will be updated on resize
+            justify="center"
+        )
+        self.next_line_display.pack(fill="both", padx=20, pady=(0, 10))
         
         # Variables
         self.lines = []
@@ -118,12 +130,15 @@ class Teleprompter:
             # Leave some padding
             new_width = self.root.winfo_width() - 40
             self.text_display.config(wraplength=new_width)
-            
+            self.next_line_display.config(wraplength=new_width)
+
     def toggle_font_size(self, event=None):
         """Cycle through font sizes"""
         self.current_font_size_index = (self.current_font_size_index + 1) % len(self.font_sizes)
         new_size = self.font_sizes[self.current_font_size_index]
         self.text_display.config(font=("Arial", new_size))
+        # Also update next line display with slightly smaller font
+        self.next_line_display.config(font=("Arial", max(int(new_size * 0.75), 24)))
         
     def toggle_always_on_top(self, event=None):
         """Toggle whether window stays on top"""
@@ -168,9 +183,16 @@ class Teleprompter:
             self.text_display.config(text=f"Error loading file:\n{str(e)}")
     
     def display_current_line(self):
-        """Show the current line in the display"""
+        """Show the current line and next line in the display"""
         if 0 <= self.current_line < len(self.lines):
             self.text_display.config(text=self.lines[self.current_line])
+            
+            # Show next line if available
+            if self.current_line + 1 < len(self.lines):
+                self.next_line_display.config(text=self.lines[self.current_line + 1])
+            else:
+                self.next_line_display.config(text="")
+        
         self.update_status()
     
     def toggle_play(self, event=None):
