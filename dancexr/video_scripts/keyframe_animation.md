@@ -14,6 +14,14 @@ Then we move the timeline to 0, add a new keyframe and adjust the initial value.
 
 Next we move the timeline a bit forward, add another keyframe and choose a different value.
 
+BTW you can now fine adjust the time on the timeline with long press and then move left or right while holding the button. 
+
+Long press for over half a second, and you can see the time starts to move slowly. 
+
+Then you can move the cursor left or right to change the speed and direction of the movement.
+
+This should make selecting a specific time much more easily.
+
 Let's add a few more.
 
 To select a keyframe you simply click on it and it will move timeline to that keyframe.
