@@ -8,15 +8,37 @@ import os
 class Teleprompter:
     def __init__(self, root):
         self.root = root
-        self.root.title("Simple Teleprompter")
         self.root.configure(bg="black")
         
+        # Create borderless window
+        self.root.overrideredirect(True)
+        
         # Window size and position settings
-        self.root.geometry("1024x240+40+40")  # Default size and position
+        self.root.geometry("1280x300+20+20")  # Default size and position
         self.root.minsize(400, 200)  # Minimum window size
         
-        # Make the window stay on top of others
-        self.root.attributes("-topmost", True)
+        # Create custom title bar
+        self.title_bar = tk.Frame(root, bg="#1A1A1A", height=25)
+        self.title_bar.pack(fill="x", side="top")
+        
+        # Title text
+        self.title_label = tk.Label(self.title_bar, text="Simple Teleprompter", 
+                                   bg="#1A1A1A", fg="white", font=("Arial", 10))
+        self.title_label.pack(side="left", padx=10)
+        
+        # Close button
+        self.close_button = tk.Button(self.title_bar, text="×", bg="#1A1A1A", fg="white",
+                                    font=("Arial", 14), bd=0, highlightthickness=0,
+                                    activebackground="#AA0000", command=self.exit_application)
+        self.close_button.pack(side="right", padx=10)
+        
+        # Bind title bar for moving window
+        self.title_bar.bind("<ButtonPress-1>", self.start_move)
+        self.title_bar.bind("<ButtonRelease-1>", self.stop_move)
+        self.title_bar.bind("<B1-Motion>", self.do_move)
+        self.title_label.bind("<ButtonPress-1>", self.start_move)
+        self.title_label.bind("<ButtonRelease-1>", self.stop_move)
+        self.title_label.bind("<B1-Motion>", self.do_move)
         
         # Configure the main display area
         self.text_display = tk.Label(
@@ -28,7 +50,7 @@ class Teleprompter:
             wraplength=700,  # Will be updated on resize
             justify="center"
         )
-        self.text_display.pack(expand=True, fill="both", padx=20, pady=20)
+        self.text_display.pack(expand=True, fill="both", padx=20, pady=(5, 20))
         
         # Variables
         self.lines = []
@@ -36,6 +58,8 @@ class Teleprompter:
         self.playing = False
         self.wpm = 100  # Default words per minute
         self.words_per_line = 0
+        self.x = None
+        self.y = None
         
         # Keybindings
         self.root.bind("<o>", self.open_file)
@@ -67,6 +91,25 @@ class Teleprompter:
             bg="black"
         )
         self.status.pack(side="bottom", pady=5)
+
+    def start_move(self, event):
+        """Begin window drag operation"""
+        self.x = event.x
+        self.y = event.y
+
+    def stop_move(self, event):
+        """End window drag operation"""
+        self.x = None
+        self.y = None
+
+    def do_move(self, event):
+        """Move window during drag operation"""
+        if self.x is not None and self.y is not None:
+            deltax = event.x - self.x
+            deltay = event.y - self.y
+            x = self.root.winfo_x() + deltax
+            y = self.root.winfo_y() + deltay
+            self.root.geometry(f"+{x}+{y}")
 
     def on_resize(self, event):
         """Update text wrapping when window is resized"""
@@ -120,7 +163,7 @@ class Teleprompter:
                     self.text_display.config(text="No text found in file")
                 
                 # Update title with filename
-                self.root.title(f"Teleprompter - {os.path.basename(filename)}")
+                self.title_label.config(text=f"Teleprompter - {os.path.basename(filename)}")
         except Exception as e:
             self.text_display.config(text=f"Error loading file:\n{str(e)}")
     
