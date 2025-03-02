@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import filedialog
 import time
 import threading
 import sys
@@ -9,7 +10,13 @@ class Teleprompter:
         self.root = root
         self.root.title("Simple Teleprompter")
         self.root.configure(bg="black")
-        self.root.attributes("-fullscreen", True)  # Start in fullscreen
+        
+        # Window size and position settings
+        self.root.geometry("800x400+100+100")  # Default size and position
+        self.root.minsize(400, 200)  # Minimum window size
+        
+        # Make the window stay on top of others
+        self.root.attributes("-topmost", True)
         
         # Configure the main display area
         self.text_display = tk.Label(
@@ -18,10 +25,10 @@ class Teleprompter:
             font=("Arial", 48),
             fg="white",
             bg="black",
-            wraplength=root.winfo_screenwidth() - 100,
+            wraplength=700,  # Will be updated on resize
             justify="center"
         )
-        self.text_display.pack(expand=True, fill="both", padx=50, pady=50)
+        self.text_display.pack(expand=True, fill="both", padx=20, pady=20)
         
         # Variables
         self.lines = []
@@ -39,20 +46,54 @@ class Teleprompter:
         self.root.bind("<Down>", self.decrease_speed)
         self.root.bind("<Left>", self.previous_line)
         self.root.bind("<Right>", self.next_line)
+        self.root.bind("<f>", self.toggle_font_size)
+        self.root.bind("<F>", self.toggle_font_size)
+        self.root.bind("<t>", self.toggle_always_on_top)
+        self.root.bind("<T>", self.toggle_always_on_top)
+        
+        # Bind window resize event
+        self.root.bind("<Configure>", self.on_resize)
+        
+        # Font sizes for toggling
+        self.font_sizes = [36, 48, 60, 72]
+        self.current_font_size_index = 1  # Start with 48
         
         # Status display
         self.status = tk.Label(
             root,
-            text="WPM: 100 | SPACE: Play/Pause | ↑↓: Speed | ←→: Navigate | ESC: Exit | O: Open File",
-            font=("Arial", 12),
+            text="WPM: 100 | SPACE: Play/Pause | ↑↓: Speed | ←→: Navigate | F: Font | T: TopMost | ESC: Exit",
+            font=("Arial", 10),
             fg="gray",
             bg="black"
         )
-        self.status.pack(side="bottom", pady=10)
+        self.status.pack(side="bottom", pady=5)
+
+    def on_resize(self, event):
+        """Update text wrapping when window is resized"""
+        # Only update if the window size changed (not other configure events)
+        if event.widget == self.root:
+            # Leave some padding
+            new_width = self.root.winfo_width() - 40
+            self.text_display.config(wraplength=new_width)
+            
+    def toggle_font_size(self, event=None):
+        """Cycle through font sizes"""
+        self.current_font_size_index = (self.current_font_size_index + 1) % len(self.font_sizes)
+        new_size = self.font_sizes[self.current_font_size_index]
+        self.text_display.config(font=("Arial", new_size))
+        
+    def toggle_always_on_top(self, event=None):
+        """Toggle whether window stays on top"""
+        current_state = self.root.attributes("-topmost")
+        self.root.attributes("-topmost", not current_state)
+        top_status = "ON" if not current_state else "OFF"
+        self.status.config(text=f"Always on Top: {top_status} | Press T to toggle")
+        # Restore normal status after 2 seconds
+        self.root.after(2000, self.update_status)
 
     def open_file(self, event=None):
         """Open a text file for teleprompter"""
-        filename = tk.filedialog.askopenfilename(
+        filename = filedialog.askopenfilename(
             filetypes=[("Text files", "*.txt"), ("Markdown files", "*.md"), ("All files", "*.*")]
         )
         if filename:
@@ -109,7 +150,6 @@ class Teleprompter:
                 words = 1
                 
             # Calculate seconds to display based on WPM
-            # Use either line-specific word count or average words per line
             wait_time = (words / self.wpm) * 60
             
             # Minimum time of 1 second per line
