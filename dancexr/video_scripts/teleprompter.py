@@ -12,7 +12,7 @@ class Teleprompter:
         self.root.configure(bg="black")
         
         # Window size and position settings
-        self.root.geometry("800x400+100+100")  # Default size and position
+        self.root.geometry("1024x240+40+40")  # Default size and position
         self.root.minsize(400, 200)  # Minimum window size
         
         # Make the window stay on top of others
