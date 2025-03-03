@@ -16,6 +16,7 @@ class Teleprompter:
         # Window size and position settings
         self.root.geometry("1440x300+20+20")  # Default size and position
         self.root.minsize(400, 200)  # Minimum window size
+        self.root.attributes("-topmost", True)  # Always on top by default
         
         # Create custom title bar
         self.title_bar = tk.Frame(root, bg="#1A1A1A", height=25)
@@ -89,6 +90,9 @@ class Teleprompter:
         self.x = None
         self.y = None
         self.scroll_animation_id = None
+        
+        # Add fixed line height variable
+        self.fixed_line_height = 120  # Default height for each line
         
         # Keybindings
         self.root.bind("<o>", self.open_file)
@@ -164,6 +168,8 @@ class Teleprompter:
         # Update font size for all line labels
         for label in self.line_labels:
             label.config(font=("Arial", new_size))
+            # Adjust height parameter based on font size
+            label.config(height=2)
         
         # Update the display to reflect changes
         if self.lines:
@@ -228,6 +234,9 @@ class Teleprompter:
             if 0 <= line_index < len(self.lines):
                 self.line_labels[i].config(text=self.lines[line_index])
                 
+                # Ensure consistent height for each line
+                self.line_labels[i].config(height=2)
+                
                 # Set color based on line index (alternating between white and gray)
                 # This keeps the color consistent per line as it scrolls
                 if line_index % 2 == 0:
@@ -268,8 +277,8 @@ class Teleprompter:
         if not self.playing:
             return
         
-        # Calculate height of a single line
-        line_height = self.line_labels[0].winfo_height() + 10  # Add padding
+        # Use fixed line height instead of calculating it dynamically
+        line_height = self.fixed_line_height
         
         # Adjust scroll speed based on line length and WPM
         if self.top_line_index < len(self.lines):
@@ -277,8 +286,8 @@ class Teleprompter:
             # Base speed on current line's word count and WPM
             line_duration = max(60 * words / self.wpm, 2.0)  # Minimum 2 seconds per line
             target_speed = line_height / (line_duration * (1000 / self.scroll_update_ms))
-            # Gradually adjust speed for smoother transitions
-            self.scroll_speed = self.scroll_speed * 0.95 + target_speed * 0.05
+            # Use consistent speed instead of gradual adjustment
+            self.scroll_speed = target_speed
         
         # Increment scroll position
         self.scroll_position += self.scroll_speed
