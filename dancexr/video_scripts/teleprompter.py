@@ -14,7 +14,7 @@ class Teleprompter:
         self.root.overrideredirect(True)
         
         # Window size and position settings
-        self.root.geometry("1280x300+20+20")  # Default size and position
+        self.root.geometry("1440x300+20+20")  # Default size and position
         self.root.minsize(400, 200)  # Minimum window size
         
         # Create custom title bar
@@ -40,38 +40,55 @@ class Teleprompter:
         self.title_label.bind("<ButtonRelease-1>", self.stop_move)
         self.title_label.bind("<B1-Motion>", self.do_move)
         
-        # Configure the main display area
-        self.text_display = tk.Label(
-            root, 
-            text="Press 'O' to open a file",
-            font=("Arial", 48),
-            fg="white",
-            bg="black",
-            wraplength=700,  # Will be updated on resize
-            justify="center"
-        )
-        self.text_display.pack(expand=True, fill="both", padx=20, pady=(5, 10))
-        
-        # Add next line display
-        self.next_line_display = tk.Label(
+        # Create canvas for smooth scrolling
+        self.canvas = tk.Canvas(
             root,
-            text="",
-            font=("Arial", 36),  # Smaller font for the next line
-            fg="#808080",  # Gray color
             bg="black",
-            wraplength=700,  # Will be updated on resize
-            justify="center"
+            highlightthickness=0,
+            bd=0
         )
-        self.next_line_display.pack(fill="both", padx=20, pady=(0, 10))
+        self.canvas.pack(expand=True, fill="both", padx=20, pady=(5, 10))
+        
+        # Create text frame inside canvas - change to include multiple visible lines
+        self.text_frame = tk.Frame(self.canvas, bg="black")
+        self.canvas_frame = self.canvas.create_window((0, 0), window=self.text_frame, anchor="nw")
+        
+        # Create a container for multiple lines
+        self.lines_container = tk.Frame(self.text_frame, bg="black")
+        self.lines_container.pack(fill="both", expand=True)
+        
+        # Empty list to hold line label widgets
+        self.line_labels = []
+        
+        # Number of visible lines to create (current + next + buffer)
+        self.visible_line_count = 4
+        
+        # Create label widgets for visible lines
+        for i in range(self.visible_line_count):
+            color = "white" if i == 0 else "#808080"  # First line white, rest gray
+            label = tk.Label(
+                self.lines_container,
+                text="" if i > 0 else "Press 'O' to open a file",
+                font=("Arial", 48),
+                fg=color,
+                bg="black",
+                wraplength=700,
+                justify="center"
+            )
+            label.pack(fill="both", pady=(0, 10))
+            self.line_labels.append(label)
         
         # Variables
         self.lines = []
-        self.current_line = 0
+        self.top_line_index = 0  # Index of the top visible line in the script
         self.playing = False
         self.wpm = 100  # Default words per minute
-        self.words_per_line = 0
+        self.scroll_speed = 1.0  # Pixels per update
+        self.scroll_position = 0.0
+        self.scroll_update_ms = 16  # ~60fps
         self.x = None
         self.y = None
+        self.scroll_animation_id = None
         
         # Keybindings
         self.root.bind("<o>", self.open_file)
@@ -125,20 +142,32 @@ class Teleprompter:
 
     def on_resize(self, event):
         """Update text wrapping when window is resized"""
-        # Only update if the window size changed (not other configure events)
         if event.widget == self.root:
-            # Leave some padding
+            # Update canvas size
             new_width = self.root.winfo_width() - 40
-            self.text_display.config(wraplength=new_width)
-            self.next_line_display.config(wraplength=new_width)
+            
+            # Update wraplength for all line labels
+            for label in self.line_labels:
+                label.config(wraplength=new_width)
+                
+            self.canvas.itemconfig(self.canvas_frame, width=new_width)
+            
+            # Update the display to reflect changes
+            if self.lines:
+                self.display_lines()
 
     def toggle_font_size(self, event=None):
         """Cycle through font sizes"""
         self.current_font_size_index = (self.current_font_size_index + 1) % len(self.font_sizes)
         new_size = self.font_sizes[self.current_font_size_index]
-        self.text_display.config(font=("Arial", new_size))
-        # Also update next line display with slightly smaller font
-        self.next_line_display.config(font=("Arial", max(int(new_size * 0.75), 24)))
+        
+        # Update font size for all line labels
+        for label in self.line_labels:
+            label.config(font=("Arial", new_size))
+        
+        # Update the display to reflect changes
+        if self.lines:
+            self.display_lines()
         
     def toggle_always_on_top(self, event=None):
         """Toggle whether window stays on top"""
@@ -164,35 +193,53 @@ class Teleprompter:
                 content = file.read()
                 # Split by lines, filter out empty lines
                 self.lines = [line.strip() for line in content.split('\n') if line.strip()]
-                self.current_line = 0
+                self.top_line_index = 0
                 
-                # Estimate words per line
-                total_words = sum(len(line.split()) for line in self.lines)
+                # Show first few lines
                 if self.lines:
-                    self.words_per_line = total_words / len(self.lines)
-                
-                # Show first line
-                if self.lines:
-                    self.display_current_line()
+                    self.display_lines()
                 else:
-                    self.text_display.config(text="No text found in file")
+                    self.line_labels[0].config(text="No text found in file")
+                    for i in range(1, self.visible_line_count):
+                        self.line_labels[i].config(text="")
                 
                 # Update title with filename
                 self.title_label.config(text=f"Teleprompter - {os.path.basename(filename)}")
         except Exception as e:
-            self.text_display.config(text=f"Error loading file:\n{str(e)}")
+            self.line_labels[0].config(text=f"Error loading file:\n{str(e)}")
+            for i in range(1, self.visible_line_count):
+                self.line_labels[i].config(text="")
     
-    def display_current_line(self):
-        """Show the current line and next line in the display"""
-        if 0 <= self.current_line < len(self.lines):
-            self.text_display.config(text=self.lines[self.current_line])
-            
-            # Show next line if available
-            if self.current_line + 1 < len(self.lines):
-                self.next_line_display.config(text=self.lines[self.current_line + 1])
-            else:
-                self.next_line_display.config(text="")
+    def display_lines(self):
+        """Update all visible line labels with current text"""
+        if not self.lines:
+            self.line_labels[0].config(text="Press 'O' to open a file")
+            for i in range(1, self.visible_line_count):
+                self.line_labels[i].config(text="")
+            return
         
+        # Reset scroll position
+        self.scroll_position = 0.0
+        self.canvas.yview_moveto(0)
+        
+        # Display each visible line
+        for i in range(self.visible_line_count):
+            line_index = self.top_line_index + i
+            if 0 <= line_index < len(self.lines):
+                self.line_labels[i].config(text=self.lines[line_index])
+                
+                # Set color based on line index (alternating between white and gray)
+                # This keeps the color consistent per line as it scrolls
+                if line_index % 2 == 0:
+                    self.line_labels[i].config(fg="white")
+                else:
+                    self.line_labels[i].config(fg="#808080")
+            else:
+                self.line_labels[i].config(text="")
+        
+        # Update canvas scrollregion
+        self.lines_container.update_idletasks()
+        self.canvas.config(scrollregion=self.canvas.bbox("all"))
         self.update_status()
     
     def toggle_play(self, event=None):
@@ -202,47 +249,90 @@ class Teleprompter:
             
         self.playing = not self.playing
         if self.playing:
-            threading.Thread(target=self.play_lines, daemon=True).start()
+            # Cancel any existing animation
+            if self.scroll_animation_id:
+                self.root.after_cancel(self.scroll_animation_id)
+            
+            # Start smooth scrolling animation
+            self.scroll_animation()
+        else:
+            # Stop animation
+            if self.scroll_animation_id:
+                self.root.after_cancel(self.scroll_animation_id)
+                self.scroll_animation_id = None
+                
         self.update_status()
     
-    def play_lines(self):
-        """Auto-advance through lines based on WPM"""
-        while self.playing and self.current_line < len(self.lines):
-            # Calculate delay based on words in current line and WPM
-            line = self.lines[self.current_line]
-            words = len(line.split())
-            if words == 0:
-                words = 1
-                
-            # Calculate seconds to display based on WPM
-            wait_time = (words / self.wpm) * 60
+    def scroll_animation(self):
+        """Smoothly scroll the text upward"""
+        if not self.playing:
+            return
+        
+        # Calculate height of a single line
+        line_height = self.line_labels[0].winfo_height() + 10  # Add padding
+        
+        # Adjust scroll speed based on line length and WPM
+        if self.top_line_index < len(self.lines):
+            words = len(self.lines[self.top_line_index].split())
+            # Base speed on current line's word count and WPM
+            line_duration = max(60 * words / self.wpm, 2.0)  # Minimum 2 seconds per line
+            target_speed = line_height / (line_duration * (1000 / self.scroll_update_ms))
+            # Gradually adjust speed for smoother transitions
+            self.scroll_speed = self.scroll_speed * 0.95 + target_speed * 0.05
+        
+        # Increment scroll position
+        self.scroll_position += self.scroll_speed
+        
+        # Move the canvas view
+        self.canvas.yview_moveto(self.scroll_position / (line_height * self.visible_line_count))
+        
+        # Check if we need to shift lines
+        if self.scroll_position >= line_height:
+            # Move to next line
+            self.scroll_position = 0
+            self.top_line_index += 1
             
-            # Minimum time of 1 second per line
-            wait_time = max(wait_time, 1)
-            
-            time.sleep(wait_time)
-            
-            if not self.playing:
-                break
-                
-            self.current_line += 1
-            if self.current_line < len(self.lines):
-                self.root.after(0, self.display_current_line)
+            if self.top_line_index < len(self.lines):
+                # Update display with new top line
+                self.display_lines()
             else:
+                # End of script
                 self.playing = False
+                self.top_line_index = max(0, len(self.lines) - 1)
+                self.display_lines()
                 self.update_status()
-    
+                return
+        
+        # Schedule the next animation frame
+        self.scroll_animation_id = self.root.after(self.scroll_update_ms, self.scroll_animation)
+
     def next_line(self, event=None):
         """Move to next line"""
-        if self.lines and self.current_line < len(self.lines) - 1:
-            self.current_line += 1
-            self.display_current_line()
+        if self.playing:
+            # Stop any ongoing animation
+            if self.scroll_animation_id:
+                self.root.after_cancel(self.scroll_animation_id)
+                self.scroll_animation_id = None
+            self.playing = False
+            
+        if self.lines and self.top_line_index < len(self.lines) - 1:
+            self.top_line_index += 1
+            self.display_lines()
+        self.update_status()
     
     def previous_line(self, event=None):
         """Move to previous line"""
-        if self.lines and self.current_line > 0:
-            self.current_line -= 1
-            self.display_current_line()
+        if self.playing:
+            # Stop any ongoing animation
+            if self.scroll_animation_id:
+                self.root.after_cancel(self.scroll_animation_id)
+                self.scroll_animation_id = None
+            self.playing = False
+            
+        if self.lines and self.top_line_index > 0:
+            self.top_line_index -= 1
+            self.display_lines()
+        self.update_status()
     
     def increase_speed(self, event=None):
         """Increase WPM"""
@@ -259,7 +349,7 @@ class Teleprompter:
         """Update the status bar"""
         status = f"WPM: {self.wpm} | "
         if self.lines:
-            status += f"Line: {self.current_line + 1}/{len(self.lines)} | "
+            status += f"Line: {self.top_line_index + 1}/{len(self.lines)} | "
         status += "▶ PLAYING" if self.playing else "⏸ PAUSED"
         self.status.config(text=status)
     
