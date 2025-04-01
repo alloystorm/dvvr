@@ -92,6 +92,7 @@ sidebar:
 | [Secondary Motion](features/secondary_motion)
 | [Remix](features/remix)
 | [Actor Motion Settings](features/actor_motion_settings)
+| [Keyframe Animation](features/keyframe_animation.md) | [2025.3](releases/2025.3.md) | PRO
 |
 | *VMD & BVH Motions*
 | [Dance Set](features/dance_set)
