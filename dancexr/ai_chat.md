@@ -23,7 +23,7 @@ sidebar:
 
 
 ## AI Services
-There are various options to use as AI service to give your character intelligence. We'll discuss pros and cons for each option below
+There are various options to use as AI service to give your character intelligence. We'll discuss pros and cons for each option below.
 
 ### OpenAI (ChatGPT)
 This is the most intelligent option at the moment. 
@@ -48,10 +48,10 @@ To use OpenAI service with DanceXR, you need an OpenAI API key.
 * In the chat settings you can choose the model that you want to use. 
 
 
-### Running LLM Locally (LM Studio, OobaBooga etc) 
-You can also run LLMs locally if your computer is powerful enough. For example the latest Llama3 8b should be more than enough for role playing. We have tested OobaBooga and LM Studio and they work well with DanceXR. 
+### Running LLM Locally (LM Studio, OobaBooga, Ollama)
+You can also run LLMs locally if your computer is powerful enough. For example, the latest Llama3 8b should be more than enough for role-playing. We have tested OobaBooga, LM Studio, and Ollama, and they work well with DanceXR.
 
-Keep in mind that the AI space is developing really fast and new tools and models are coming out all the time. The recommendations here are based on what we know at the time of writing and might be out of date when you are reading it. Feel free to explore your own options. DanceXR should work with any LLM tool as well that supports OpenAI API spec. 
+Keep in mind that the AI space is developing really fast and new tools and models are coming out all the time. The recommendations here are based on what we know at the time of writing and might be out of date when you are reading it. Feel free to explore your own options. DanceXR should work with any LLM tool that supports OpenAI API spec.
 
 **Pros:**
 * Privacy, nothing is sent out, everything happens locally.
@@ -60,8 +60,8 @@ Keep in mind that the AI space is developing really fast and new tools and model
 
 **Cons:**
 * Not as smart as online models
-* Requires a bit setup
-* Running LLMs locally can be very resource intensive. Especially if you plan to run both DanceXR and LLMs on the same machine. 
+* Requires a bit of setup
+* Running LLMs locally can be very resource-intensive, especially if you plan to run both DanceXR and LLMs on the same machine.
 
 **Setup:** 
 At the moment LM Studio is a better choice if you don't want to fiddle with command line tools. 
@@ -77,6 +77,14 @@ For OobaBooga, you can follow the instructions here:
 * Once it's running, go to the model tab and download a model if you don't have it already. 
 * We recommend using one of these 2 models: https://huggingface.co/TheBloke/Luna-AI-Llama2-Uncensored-GPTQ (7b, easier to run) https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GPTQ (13b, smarter)
 * Refresh the model list and load it. The default port number is 5000.
+
+**Setup for Ollama:**
+Ollama provides an easy way to run local AI models with minimal setup.
+* Download and install Ollama from their website: https://ollama.ai/
+* Open the Ollama app and download a model of your choice.
+* In DanceXR, choose "Ollama" from AI Service -> Select Service.
+* Enter the model name in the "Model Name" box. For example, "llama2-7b-chat".
+* You should now be able to use Ollama as your AI backend.
 
 Configurations in DanceXR: 
 * In DanceXR, choose "Local WebUI" from AI Service -> Select Service
@@ -101,6 +109,10 @@ There are services that allow you to rent a GPU and run AI models. Runpod is one
 * Click on the WebUI link and then go to the model tab to download a model.
 * We recommend using one of these 2 models: https://huggingface.co/TheBloke/Luna-AI-Llama2-Uncensored-GPTQ (7b, easier to run) https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GPTQ (13b, smarter)
 * Refresh the model list and load it. 
+
+
+### Improved Prompting for Local Models
+DanceXR now includes improved prompting techniques to enhance conversation quality, especially when using smaller local models. This ensures better responses and more engaging interactions.
 
 
 ## Chat Control
@@ -206,4 +218,4 @@ In the Input Settings, you can assign a button to toggle the microphone state, s
 
 
 ## Resetting Configurations and Character Settings
-Everything is saved in the chat folder of your content library. Feel free to delete the chat folder to reset everything to default. 
+Everything is saved in the chat folder of your content library. Feel free to delete the chat folder to reset everything to default.
