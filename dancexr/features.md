@@ -59,7 +59,7 @@ sidebar:
 | [Sex Overlay](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
 | [Dildo](features/dildo){: .nsfw} || NSFW |
 |
-| *Cloth Simulation*
+| *[Simulation](features/simulation.md)*
 | [Cloth Simulation](features/cloth_simulation.md) | [2024.8](releases/2024.8.md) | PRO
 | [Mesh To Cloth Simulation](features/cloth_simulation.md#mesh_to_cloth) | [2024.9](releases/2024.9.md) | PRO
 | [Particle Dynamics](features/particle_dynamics.md) | [2024.9](releases/2024.9.md) | PRO
