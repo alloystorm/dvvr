@@ -11,69 +11,70 @@ sidebar:
 
 | 機能 |  |  |
 | :--- | --- |---: |
-| ***キャラクター、ステージ、およびプロップモデル*** 
+| ***キャラクター、ステージ、プロップモデル*** 
 | *コンテンツ管理*
 | [モデルファイルの整理のベストプラクティス](preparecontent#3d-models)
 | [タグ付けと検索](features/tagging) 
-| [モデルキャッシュ＆ローダーオプション](features/loader_options) 
+| [モデルキャッシュとローダーオプション](features/loader_options) 
 | [プレイリスト](features/actor_playlist)
 | [フォーメーション](features/formation)
 |
 | *キャラクターモデル設定*
-| [アクターメニュー、ツール、およびインタラクション](features/actor_tools)
+| [アクターメニュー、ツール、相互作用](features/actor_tools)
+| [アクターに添付](features/attach-to-actor.md) | [2025.2](releases/2025.2) | プロ版
 | [ドレッシングシステム（マテリアルモーフとXPSオプション）](features/optionals) || プロ版
 | [代替テクスチャ](features/alternative_textures)
-| [表情コントロール](features/facial_control)
-| [まばたき、呼吸、目の接触](features/eyecontact)
+| [フェイシャルコントロール](features/facial_control)
+| [まばたき、呼吸、アイコンタクト](features/eyecontact)
 | [足の調整](features/feet_adjustments)
 | [トラブルシューティングオプション](features/troubleshooting_options)
-| [水の相互作用](features/water_interaction.md)
+| [水との相互作用](features/water_interaction.md)
 | [アクタープリセット](features/actor_presets.md) | [2024.1](releases/2024.1.md)
 |
 | *マテリアル設定*
 | [グローバルマテリアル設定](features/material_global.md)
 | [トゥーンシェーディング](features/toon_shading.md)
 | マテリアルカテゴリ
-| - [スキンマテリアル](features/material_skin.md)
-| - [髪の毛マテリアル](features/material_hair.md)
-| - [目のマテリアル](features/material_eyes.md)
-| - [唇のマテリアル](features/material_lips.md)
-| - [不透明なマテリアル](features/material_opaque.md)
-| - [透明なマテリアル](features/material_transparent.md)
-| - [カスタム1のマテリアル](features/material_custom1.md)
-| - [カスタム2のマテリアル](features/material_custom1.md)
-| [テクスチャの強化](features/texture_enhancement.md) || プロ版
-| [汗の効果](features/sweat_effect.md) || NSFW
+| - [肌素材](features/material_skin.md)
+| - [髪素材](features/material_hair.md)
+| - [目素材](features/material_eyes.md)
+| - [唇素材](features/material_lips.md)
+| - [不透明素材](features/material_opaque.md)
+| - [透明素材](features/material_transparent.md)
+| - [カスタム1素材](features/material_custom1.md)
+| - [カスタム2素材](features/material_custom1.md)
+| [テクスチャ強化](features/texture_enhancement.md) || プロ版
+| [汗エフェクト](features/sweat_effect.md) || NSFW
 | [マテリアルリスト](features/material_settings.md#material-list) || プロ版
 |
 | *プロ機能*
-| [衣装＆ボディペイント](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | プロ版
+| [アウトフィット＆ボディペイント](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | プロ版
 | [モーションオーバーライド](features/motion_override) || プロ版 |
 | [アクセサリー](features/accessory.md) || プロ版 |
 | [ラグドール](features/ragdoll.md) || プロ版 |
 | [ライトボール](features/lightball.md) || プロ版 |
-| [おっぱいシェイク](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
+| [ボディシェイク](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
 | [セックスオーバーレイ](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
 | [ディルド](features/dildo){: .nsfw} || NSFW |
 |
-| *布シミュレーション*
+| *[シミュレーション](features/simulation.md)*
 | [布シミュレーション](features/cloth_simulation.md) | [2024.8](releases/2024.8.md) | プロ版
-| [メッシュから布へのシミュレーション](features/cloth_simulation.md#mesh_to_cloth) | [2024.9](releases/2024.9.md) | プロ版
+| [メッシュから布シミュレーション](features/cloth_simulation.md#mesh_to_cloth) | [2024.9](releases/2024.9.md) | プロ版
 | [パーティクルダイナミクス](features/particle_dynamics.md) | [2024.9](releases/2024.9.md) | プロ版
 | [ソフトボディシミュレーション](features/particle_dynamics.md#softbody) | [2024.11](releases/2024.9.md) | プロ版
 |
-| *モデルフォーマット固有*
+| *モデルフォーマット特有*
 | [XPSボーンマッパー](features/bone_mapper.md)
-| [XPS物理](features/xps_physics) || プロ版 |
+| [XPS物理学](features/xps_physics) || プロ版 |
 | - [ボディコライダー](features/xps_body_colliders.md)
-| - [おっぱいの物理](features/xps_boobs.md) || プロ版
-| - [髪の毛の物理](features/xps_hair.md)
-| - [服の物理](features/xps_cloth.md)
-| - [スカートの物理](features/xps_skirt.md)
-| - [ソフトボディの物理](features/xps_softbody.md) || プロ版
-| - [オブジェクトの分離](features/xps_detach.md)
+| - [ボディ物理学](features/xps_boobs.md) || プロ版
+| - [髪物理学](features/xps_hair.md)
+| - [衣服物理学](features/xps_cloth.md)
+| - [スカート物理学](features/xps_skirt.md)
+| - [ソフトボディ物理学](features/xps_softbody.md) || プロ版
+| - [オブジェクトを切り離す](features/xps_detach.md)
 | [カスタム継承モーション](features/custom_inherit.md)
-| [PMX物理](features/pmx_physics)
+| [PMX物理学](features/pmx_physics)
 | PMXブレンドシェイプモーフ || プロ版
 |
 | ***モーション＆メディアコンテンツ*** |
@@ -83,12 +84,13 @@ sidebar:
 | [オーディオ再生オプション](features/audio_options)
 | [音楽のタイミング](features/music_timing)
 |
-| *モーションの管理*
+| *モーション管理*
 | [再生オプション](features/playback_options)
 | [モーションの割り当て](features/assign_motion)
 | [セカンダリモーション](features/secondary_motion)
 | [リミックス](features/remix)
 | [アクターモーション設定](features/actor_motion_settings)
+| [キーフレームアニメーション](features/keyframe_animation.md) | [2025.3](releases/2025.3.md) | プロ版
 |
 | *VMD＆BVHモーション*
 | [ダンスセット](features/dance_set)
@@ -97,27 +99,27 @@ sidebar:
 | *プロシージャルモーション*
 | [アイドルモーション](features/idle_motion.md)
 | [キャットウォーク](features/catwalk.md)
-| [オートダンス](features/autodance) || プロ版 |
-| [オートダンス2](features/autodance2) || プロ版 |
-| [オートダンス3](features/autodance3.md) || プロ版 |
+| [自動ダンス](features/autodance) || プロ版 |
+| [自動ダンス2](features/autodance2) || プロ版 |
+| [自動ダンス3](features/autodance3.md) || プロ版 |
 | [カウガールセックス](features/scg_motion){: .nsfw} || NSFW |
 | [後ろからのセックス](features/sfb_motion){: .nsfw} || NSFW |
 | [セックスモーション3](features/sm3_motion){: .nsfw} || NSFW |
 |
 | *カメラモーション*
 | [フリーフライカメラ](features/camera)
-| [軌道カメラ](features/camera)
+| [オービットカメラ](features/camera)
 | [オートカメラ](features/camera)
 | [ワンショットカメラ](features/camera)
-| [ファーストパーソンカメラ](features/camera)
+| [一人称カメラ](features/camera)
 | [固定カメラ（コンサートモード）](features/camera)
-| [カメラモーション＆設定](features/camera)
+| [カメラモーションと設定](features/camera)
 |
 | ***環境*** |
 | [空と雲](features/skymap)
-| [照明](features/lighting)
-| [パーティクルシステム](features/particles) | Android以外[^4] | プロ版
-| [ARモード](features/ar_mode) | モバイル[^2] & クエスト[^3] | プロ版 | 
+| [ライティング](features/lighting)
+| [パーティクルシステム](features/particles) | Androidを除くすべて[^4] | プロ版
+| [ARモード](features/ar_mode) | モバイル[^2] ＆ クエスト[^3] | プロ版 | 
 | [ステージ](features/stages)
 | [プロップ](features/props)
 | [ビートリング](features/beats_ring.md)
@@ -125,27 +127,27 @@ sidebar:
 | [シーンの保存と読み込み](features/save_scene.md)
 | [シーンバンドル](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | プロ版 |
 |
-| ***シーン＆ステージ*** |
+| ***シーン＆ステージ***
 | *ステージ*
-| [地面＆ステージ](features/ground)
+| [地面とステージ](features/ground)
 | [水システム](features/water_system.md) | PC[^1]
 | [プロシージャルルームステージ](features/room_stage)
-| [ステージモデル＆設定](features/stages)
+| [ステージモデルと設定](features/stages)
 |
 | *プロップ*
 | [プリミティブシェイプ](features/primitive_shapes)
 | [スクリーン](features/screen.md)
 | [ミラー](features/mirror.md)
-| [プロップモデル＆設定](features/props.md)
+| [プロップモデルと設定](features/props.md)
 |
 | ***システム*** |
 | [コンテンツライブラリ](preparecontent)
 | [Googleドライブ統合](features/googledrive)
-| [AndroidおよびQuest用のコンテンツライブラリ](content_android_quest)
+| [Androidとクエストのコンテンツライブラリ](content_android_quest)
 | [ディスプレイ＆UI](features/display_settings)
 | [グラフィック設定](features/graphics)
 | [レイトレーシングエフェクト](features/raytracing.md) | PC[^1]
-| [多言語サポート](features/languages.md)
+| [マルチ言語サポート](features/languages.md)
 | [入力設定](features/controls)
 | [物理設定](features/system_physics)
 | [自動更新](features/autoupdate) || プロ版
@@ -157,10 +159,10 @@ sidebar:
 |  |  |  |
 
 
-[^1]: Windows PCのHDまたはRTバージョンでのみ利用可能
+[^1]: Windows PCのHDまたはRTバージョンで利用可能
 
-[^2]: サポートされているiPhone、iPad、およびAndroidデバイスで利用可能（すべてのデバイスがARをサポートしているわけではありません）
+[^2]: 対応するiPhone、iPad、Androidデバイスで利用可能（すべてのデバイスがARをサポートしているわけではありません）
 
-[^3]: Quest 2、3、またはProで利用可能
+[^3]: Quest 2、3またはProで利用可能
 
-[^4]: Androidで一時的に無効になっています。ARモードとの競合が原因です。
+[^4]: ARモードとの競合により、Androidでは一時的に無効になっています
