@@ -23,6 +23,7 @@ sidebar:
 |
 | *Character Model Settings*
 | [Actor Menu, Tools, and Interaction](features/actor_tools)
+| [Attach To Actor](features/attach-to-actor.md) | [2025.2](releases/2025.2) | PRO
 | [Dressing System (Material Morphs and XPS Optionals)](features/optionals) || PRO
 | [Alternative Textures](features/alternative_textures)
 | [Facial Control](features/facial_control)
