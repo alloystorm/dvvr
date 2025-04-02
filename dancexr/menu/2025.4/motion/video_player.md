@@ -18,7 +18,7 @@ sidebar:
 | Loop | OFF | 
 | Mute | OFF | 
 |- Time Offset | [0] (Unlimited) | 
-| Aspect Ratio |  1:1,  4:3,  14:9,  16:10,  **16:9**,  1.85:1,  2:1,  2.35:1,  2.39:1,  2.4:1,  |  |
+| Aspect Ratio | 1:1, 4:3, 14:9, 16:10, **16:9**, 1.85:1, 2:1, 2.35:1, 2.39:1, 2.4:1,  |  |
 |- Offset | [0] (Unlimited) | 
 |- BPM | [120] (1 ~ 240) | Beats per minute
 |- Beat Offset | [0] (0 ~ 1) | 

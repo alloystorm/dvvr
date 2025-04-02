@@ -51,7 +51,7 @@ sidebar:
 |**Additional 1** | | Configure light group 1
 | Enable Additional 1 | OFF | 
 |- Volumetric Multiplier | [1] (0 ~ 16) | 
-| Type |  **Spotlight**,  Point light,  Area light,  Pyramid,  Box,  |  |
+| Type | **Spotlight**, Point light, Area light, Pyramid, Box,  |  |
 |**Color** | | 
 |- Color Mode | **RGB**, HSV,  | 
 |- Hue | [0] (0 ~ 1) | 
@@ -62,10 +62,10 @@ sidebar:
 |- Blue | [1] (0 ~ 1) | 
 | Use Stage Color | OFF | Use the color from the stage ring
 |- Color Temp | [6500] (3000 ~ 8000) | 
-| Presets |  **White**,  Sunset,  Red,  Yellow,  Blue,  Green,  |  |
+| Presets | **White**, Sunset, Red, Yellow, Blue, Green,  |  |
 |
 |- Intensity | [25] (0 ~ 100) | 
-| Cookie |  **[None]**,  [Window],  [Blinds],  [Spot],  [Tube],  [Video],  |  |
+| Cookie | **[None]**, [Window], [Blinds], [Spot], [Tube], [Video],  |  |
 |- Emitter Radius | [0.05] (0 ~ 1) | Size of the light source.
 |- Size X | [1.25] (0 ~ 16) | 
 |- Size Y | [1.25] (0 ~ 16) | 
@@ -75,7 +75,7 @@ sidebar:
 |- Angle | [25] (-90 ~ 180) | 
 |- Distance | [3] (0 ~ 20) | 
 |- Height | [2] (0 ~ 16) | Height of light position.
-| Dynamics |  Stationary,  Follow Actor,  Behind Actor,  **Maintain Distance**,  |  |
+| Dynamics | Stationary, Follow Actor, Behind Actor, **Maintain Distance**,  |  |
 |- Max Follow Distance | [5] (Unlimited) | 
 | Suspension | OFF | 
 |- Suspension Segments | [2] (1 ~ 5) | Enable suspension effect.
@@ -90,7 +90,7 @@ sidebar:
 |- Formation | Circle, **Grid**,  | Use grid or circle formation.
 |- Dist / Radius | [7] (0 ~ 20) | Distance between the lights in grid mode.
 |- Range | [360] (0 ~ 360) | The angle of the lights in circle mode.
-| Presets |  **Off**,  3x3 Grid,  2x Fan,  4x Fan,  4x Circle,  8x Circle,  |  |
+| Presets | **Off**, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |  |
 |
 |**Shadow** | | 
 | Enable Shadow | ON | 
@@ -101,12 +101,12 @@ sidebar:
 |- Denoise Radius | [8] (1 ~ 32) | 
 |- Shadow Dimmer | [1] (0 ~ 1) | Reduce intensity of the shadow.
 |
-| Presets |  **Spotlight**,  Point Light,  Area Light,  Pyramid Projector Near,  Pyramid Projector Far,  Box Projector Near,  Box Projector Far,  Spotlight Array,  Spotlight Suspended,  Preset 1,  |  |
+| Presets | **Spotlight**, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |  |
 |
 |**Additional 2** | | Configure light group 2
 | Enable Additional 2 | OFF | 
 |- Volumetric Multiplier | [1] (0 ~ 16) | 
-| Type |  **Spotlight**,  Point light,  Area light,  Pyramid,  Box,  |  |
+| Type | **Spotlight**, Point light, Area light, Pyramid, Box,  |  |
 |**Color** | | 
 |- Color Mode | **RGB**, HSV,  | 
 |- Hue | [0] (0 ~ 1) | 
@@ -117,10 +117,10 @@ sidebar:
 |- Blue | [1] (0 ~ 1) | 
 | Use Stage Color | OFF | Use the color from the stage ring
 |- Color Temp | [6500] (3000 ~ 8000) | 
-| Presets |  **White**,  Sunset,  Red,  Yellow,  Blue,  Green,  |  |
+| Presets | **White**, Sunset, Red, Yellow, Blue, Green,  |  |
 |
 |- Intensity | [25] (0 ~ 100) | 
-| Cookie |  **[None]**,  [Window],  [Blinds],  [Spot],  [Tube],  [Video],  |  |
+| Cookie | **[None]**, [Window], [Blinds], [Spot], [Tube], [Video],  |  |
 |- Emitter Radius | [0.05] (0 ~ 1) | Size of the light source.
 |- Size X | [1.25] (0 ~ 16) | 
 |- Size Y | [1.25] (0 ~ 16) | 
@@ -130,7 +130,7 @@ sidebar:
 |- Angle | [35] (-90 ~ 180) | 
 |- Distance | [3] (0 ~ 20) | 
 |- Height | [2] (0 ~ 16) | Height of light position.
-| Dynamics |  Stationary,  **Follow Actor**,  Behind Actor,  Maintain Distance,  |  |
+| Dynamics | Stationary, **Follow Actor**, Behind Actor, Maintain Distance,  |  |
 |- Max Follow Distance | [5] (Unlimited) | 
 | Suspension | OFF | 
 |- Suspension Segments | [2] (1 ~ 5) | Enable suspension effect.
@@ -145,7 +145,7 @@ sidebar:
 |- Formation | Circle, **Grid**,  | Use grid or circle formation.
 |- Dist / Radius | [7] (0 ~ 20) | Distance between the lights in grid mode.
 |- Range | [360] (0 ~ 360) | The angle of the lights in circle mode.
-| Presets |  **Off**,  3x3 Grid,  2x Fan,  4x Fan,  4x Circle,  8x Circle,  |  |
+| Presets | **Off**, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |  |
 |
 |**Shadow** | | 
 | Enable Shadow | ON | 
@@ -156,12 +156,12 @@ sidebar:
 |- Denoise Radius | [8] (1 ~ 32) | 
 |- Shadow Dimmer | [1] (0 ~ 1) | Reduce intensity of the shadow.
 |
-| Presets |  **Spotlight**,  Point Light,  Area Light,  Pyramid Projector Near,  Pyramid Projector Far,  Box Projector Near,  Box Projector Far,  Spotlight Array,  Spotlight Suspended,  Preset 1,  |  |
+| Presets | **Spotlight**, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |  |
 |
 |**Additional 3** | | Configure light group 3
 | Enable Additional 3 | OFF | 
 |- Volumetric Multiplier | [1] (0 ~ 16) | 
-| Type |  **Spotlight**,  Point light,  Area light,  Pyramid,  Box,  |  |
+| Type | **Spotlight**, Point light, Area light, Pyramid, Box,  |  |
 |**Color** | | 
 |- Color Mode | **RGB**, HSV,  | 
 |- Hue | [0] (0 ~ 1) | 
@@ -172,10 +172,10 @@ sidebar:
 |- Blue | [1] (0 ~ 1) | 
 | Use Stage Color | OFF | Use the color from the stage ring
 |- Color Temp | [6500] (3000 ~ 8000) | 
-| Presets |  **White**,  Sunset,  Red,  Yellow,  Blue,  Green,  |  |
+| Presets | **White**, Sunset, Red, Yellow, Blue, Green,  |  |
 |
 |- Intensity | [25] (0 ~ 100) | 
-| Cookie |  **[None]**,  [Window],  [Blinds],  [Spot],  [Tube],  [Video],  |  |
+| Cookie | **[None]**, [Window], [Blinds], [Spot], [Tube], [Video],  |  |
 |- Emitter Radius | [0.05] (0 ~ 1) | Size of the light source.
 |- Size X | [1.25] (0 ~ 16) | 
 |- Size Y | [1.25] (0 ~ 16) | 
@@ -185,7 +185,7 @@ sidebar:
 |- Angle | [35] (-90 ~ 180) | 
 |- Distance | [3] (0 ~ 20) | 
 |- Height | [2] (0 ~ 16) | Height of light position.
-| Dynamics |  Stationary,  **Follow Actor**,  Behind Actor,  Maintain Distance,  |  |
+| Dynamics | Stationary, **Follow Actor**, Behind Actor, Maintain Distance,  |  |
 |- Max Follow Distance | [5] (Unlimited) | 
 | Suspension | OFF | 
 |- Suspension Segments | [2] (1 ~ 5) | Enable suspension effect.
@@ -200,7 +200,7 @@ sidebar:
 |- Formation | Circle, **Grid**,  | Use grid or circle formation.
 |- Dist / Radius | [7] (0 ~ 20) | Distance between the lights in grid mode.
 |- Range | [360] (0 ~ 360) | The angle of the lights in circle mode.
-| Presets |  **Off**,  3x3 Grid,  2x Fan,  4x Fan,  4x Circle,  8x Circle,  |  |
+| Presets | **Off**, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |  |
 |
 |**Shadow** | | 
 | Enable Shadow | ON | 
@@ -211,7 +211,7 @@ sidebar:
 |- Denoise Radius | [8] (1 ~ 32) | 
 |- Shadow Dimmer | [1] (0 ~ 1) | Reduce intensity of the shadow.
 |
-| Presets |  **Spotlight**,  Point Light,  Area Light,  Pyramid Projector Near,  Pyramid Projector Far,  Box Projector Near,  Box Projector Far,  Spotlight Array,  Spotlight Suspended,  Preset 1,  |  |
+| Presets | **Spotlight**, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |  |
 |
 |- Overall Intensity | [1] (0 ~ 2) | Overall intensity of all the lights.
 |- Sky Ambient | [1] (0 ~ 14) | Intensity of ambient lighting from sky.
@@ -230,5 +230,5 @@ sidebar:
 |- Refresh Interval | [8] (1 ~ 32) | How often does it reassign lights. In beats.
 | Manual Refresh || Force reassign lights.
 |
-| Presets |  Sunset,  **Daylight**,  Window,  Stage,  Silhouette,  Projector,  Area light,  Point Light Array,  Preset 1,  Preset 2,  Preset 3,  |  |
+| Presets | Sunset, **Daylight**, Window, Stage, Silhouette, Projector, Area light, Point Light Array, Preset 1, Preset 2, Preset 3,  |  |
 |

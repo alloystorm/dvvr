@@ -33,9 +33,9 @@ sidebar:
 |- Red | [1] (0 ~ 1) | 
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
-| Blend Mode |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
-| Presets |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
 |
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
@@ -49,14 +49,14 @@ sidebar:
 |- Shadow Area | [0.65] (0 ~ 1) | 
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
-| Presets |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
 |
 |**Special Shader** | | 
-| Mode |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
 |
-| Presets |  **White Gloss**,  Red Gloss,  Chrome,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| Presets | **White Gloss**, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
 |
 |**Logo Surface 2** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -74,9 +74,9 @@ sidebar:
 |- Red | [1] (0 ~ 1) | 
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
-| Blend Mode |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
-| Presets |  Original,  White,  Black,  **Red**,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| Presets | Original, White, Black, **Red**, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
 |
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
@@ -90,14 +90,14 @@ sidebar:
 |- Shadow Area | [0.65] (0 ~ 1) | 
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
-| Presets |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
 |
 |**Special Shader** | | 
-| Mode |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
 |
-| Presets |  White Gloss,  **Red Gloss**,  Chrome,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| Presets | White Gloss, **Red Gloss**, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
 |
 | Diamond | ON | 
 |**Diamond Surface** | | 
@@ -116,9 +116,9 @@ sidebar:
 |- Red | [1] (0 ~ 1) | 
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
-| Blend Mode |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
-| Presets |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
 |
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
@@ -132,14 +132,14 @@ sidebar:
 |- Shadow Area | [0.65] (0 ~ 1) | 
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
-| Presets |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
 |
 |**Special Shader** | | 
-| Mode |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
 |
-| Presets |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
 |
 |- Distance | [4.5] (1 ~ 8) | 
 |- Position | [0] (-180 ~ 180) | 
@@ -161,7 +161,7 @@ sidebar:
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [0] (0 ~ 1) | 
 |- Glow | [1] (0 ~ 20) | 
-| Presets |  White,  Red,  **Green**,  Blue,  Animated Hue,  Glow w/ Music,  |  |
+| Presets | White, Red, **Green**, Blue, Animated Hue, Glow w/ Music,  |  |
 |
 |**Marker Color** | | 
 |- Color Mode | RGB, **HSV**,  | 
@@ -172,7 +172,7 @@ sidebar:
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
 |- Glow | [1] (0 ~ 20) | 
-| Presets |  **White**,  Red,  Green,  Blue,  Animated Hue,  Glow w/ Music,  |  |
+| Presets | **White**, Red, Green, Blue, Animated Hue, Glow w/ Music,  |  |
 |
 |- Beat Cycle | [8] (2 ~ 16) | 
 |- Normal Glow | [1] (0 ~ 8) | 
@@ -200,7 +200,7 @@ sidebar:
 |- Base Level | [-1] (-3 ~ 3) | 
 |- Edge Level | [2] (0 ~ 5) | 
 |- Hit Level | [2] (0 ~ 5) | 
-| Presets |  White,  Red,  Green,  Blue,  **Animated Hue**,  Glow w/ Music,  |  |
+| Presets | White, Red, Green, Blue, **Animated Hue**, Glow w/ Music,  |  |
 |
 |**Motion** | | 
 |- Moves Per Group | [1] (1 ~ 32) | 
@@ -212,7 +212,7 @@ sidebar:
 |- Horizontal | [0.5] (0 ~ 1) | 
 |- Vertical | [0.1] (0 ~ 1) | 
 |
-| Mode |  **Random**,  Random Preset,  Manual,  |  |
+| Mode | **Random**, Random Preset, Manual,  |  |
 |**Motion X** | | 
 |- Override | [0] (-1 ~ 1) | Override generated movement with this value
 |- Speed Multiplier | [-1] (-3 ~ 3) | 
@@ -233,7 +233,7 @@ sidebar:
 |
 |- Use Audio | [2] (0 ~ 4) | 
 |- Seed | [1234] (Unlimited) | Controls randomized pattern sequence
-| Presets |  **Default (Reset)**,  |  |
+| Presets | **Default (Reset)**,  |  |
 |
-| Presets |  **Off**,  Line,  Half Circle,  Point,  Glow w/ Music,  Preset 1,  |  |
+| Presets | **Off**, Line, Half Circle, Point, Glow w/ Music, Preset 1,  |  |
 |

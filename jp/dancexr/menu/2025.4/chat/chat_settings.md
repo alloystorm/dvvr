@@ -15,10 +15,10 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**チャット設定** | | 
-| チャット言語 |  **Auto**,  English,  Chinese,  Japanese,  Korean,  Vietnamese,  Thai,  French,  German,  Spanish,  |  |
-| テンプレート |  **default**,  |  |
+| チャット言語 | **自動**, 英語, 中国語, 日本語, 韓国語, ベトナム語, タイ語, フランス語, ドイツ語, スペイン語,  |  |
+| テンプレート | **(default)**,  |  |
 | ストーリーを生成 | ON | 
-| ストーリージャンル |  Random,  Sci-Fi,  **Fantasy**,  Mystery,  Thriller,  Romance,  Action,  Horror,  Adventure,  Comedy,  Erotic,  |  |
+| ストーリージャンル | ランダム, サイエンスフィクション, **ファンタジー**, ミステリー, スリラー, ロマンス, アクション, ホラー, 冒険, コメディ, エロティック,  |  |
 | ストーリーを再生成 || 
 | 古いメッセージを要約 | ON | 
 |- 最大メッセージ数 | [10] (10 ~ 25) | この制限を超える古いメッセージは要約されます。

@@ -15,6 +15,6 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**マイク** | | 
-| モード |  **Manual**,  Auto,  |  |
-| マイク選択 |  **[Default]**,  Headset Microphone (Oculus Virtual Audio Device),  Microphone (Pico Streaming Virtual Audio),  Microphone Array (Pico Streaming Speaker),  Microphone (Virtual Desktop Audio),  |  |
+| モード | **手動**, 自動,  |  |
+| マイク選択 | **([Default])**, (Headset Microphone (Oculus Virtual Audio Device)), (Microphone (Pico Streaming Virtual Audio)), (Microphone Array (Pico Streaming Speaker)), (Microphone (Virtual Desktop Audio)),  |  |
 |

@@ -32,10 +32,10 @@ sidebar:
 |- 旋轉 | [45] (-90 ~ 90) | 
 | 更新指標 || 
 |
-| 左手姿勢 |  **Auto**,  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+| 左手姿勢 | **自動**, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 點, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**左手配件** | | 
 | (Enable Left Hand Accessory) | OFF | 
-| 模型 |  **[Pole]**,  |  |
+| 模型 | **[柱子]**,  |  |
 |**錨點偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -50,7 +50,7 @@ sidebar:
 |- 物件半徑 | [0.02] (0.01 ~ 0.05) | 
 |- 物件長度 | [0.2] (0 ~ 5) | 
 |- 縮放 | [0] (-5 ~ 5) | 
-|- 朝向 | **Y Up**, Y Down, X Up, X Down, Z Up, Z Down,  | 
+|- 朝向 | **(Y Up)**, (Y Down), (X Up), (X Down), (Z Up), (Z Down),  | 
 | 偏移 || 
 |- (X) | [0] (-2 ~ 2) | 
 |- (Y) | [0] (-2 ~ 2) | 
@@ -63,19 +63,19 @@ sidebar:
 |**運動** | | Apply up / down motion to the attachment model
 | (Enable Motion) | OFF | 
 |**速度** | | 
-|- 每拍動作數 | 1/4, 1/3, 1/2, 2/3, **1**, 4/3, 3/2, 2, 3, 4,  | 
+|- 每拍動作數 | (1/4), (1/3), (1/2), (2/3), **(1)**, (4/3), (3/2), (2), (3), (4),  | 
 |- 每組動作數 | [8] (4 ~ 32) | 
 |- 相位 | [0] (0 ~ 1) | 
 |- 曲線 | [0] (0 ~ 1) | 
 | 變量速度 | OFF | 
-|- 模式 | **Gradual**, Random, Volume,  | 
-|- 最小速度 | 1/4, 1/3, **1/2**, 2/3, 1,  | 
-|- 最大速度 | 1, **3/2**, 2, 3, 4,  | 
+|- 模式 | **(Gradual)**, 隨機, 音量,  | 
+|- 最小速度 | (1/4), (1/3), **(1/2)**, (2/3), (1),  | 
+|- 最大速度 | (1), **(3/2)**, (2), (3), (4),  | 
 |
 |- 距離 | [0.1] (0 ~ 0.3) | 
 |- 角度 | [0] (-60 ~ 60) | 
 |
-| 動畫 |  **None**,  | 選擇已加載的運動供附加模型使用 |
+| 動畫 | **無**,  | 選擇已加載的運動供附加模型使用 |
 |**表面** | | 
 |- 光澤 | [0.9] (0 ~ 1) | 
 |- 金屬質感 | [1] (0 ~ 1) | 
@@ -85,16 +85,16 @@ sidebar:
 |- 透明度 | [1] (0 ~ 1) | 
 |- 剪裁 | [0] (0 ~ 1) | 
 |**顏色** | | 
-|- 顏色模式 | **RGB**, HSV,  | 
+|- 顏色模式 | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 飽和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
 |- 紅色 | [1] (0 ~ 1) | 
 |- 綠色 | [1] (0 ~ 1) | 
 |- 藍色 | [1] (0 ~ 1) | 
-| 混合模式 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| 混合模式 | 原版, (Multiply), **混合**, (Color Shift),  |  |
 |- 混合 | [1] (0 ~ 1) | 
-| 預設 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| 預設 | 原版, **白色**, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |  |
 |
 |**卡通著色器** | | 
 | (Enable Toon Shader) | OFF | 
@@ -108,14 +108,14 @@ sidebar:
 |- 陰影區域 | [0.65] (0 ~ 1) | 
 |- 陰影 | [0.75] (0 ~ 1) | 
 |- 柔和陰影 | [0.1] (0 ~ 1) | 
-| 預設 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| 預設 | **銳利**, 柔和, 明亮, 平面 + 光澤, 平面,  |  |
 |
 |**特殊著色器** | | 
-| 模式 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| 模式 | **關閉**, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |  |
 |- 折射 | [0.5] (1 ~ 3) | 
 |- 厚度 | [1] (0 ~ 1) | 
 |
-| 預設 |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| 預設 | 白色光澤, 紅色光澤, **鍍鉻**, 黑色光澤, 金色, 實心玻璃, 薄玻璃,  |  |
 |
 |- X光 | [0] (0 ~ 1) | 
 |- 透明度 | [1] (0 ~ 1) | 
@@ -123,10 +123,10 @@ sidebar:
 | 抓取姿勢 | ON | 當手在附加物上時，自動改變手部姿勢為抓取
 |- 手部運動 | [0] (-1 ~ 1) | 相對於附加物運動移動手部
 |
-| 右手姿勢 |  **Auto**,  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+| 右手姿勢 | **自動**, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 點, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**右手配件** | | 
 | (Enable Right Hand Accessory) | OFF | 
-| 模型 |  **[Pole]**,  |  |
+| 模型 | **[柱子]**,  |  |
 |**錨點偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -141,7 +141,7 @@ sidebar:
 |- 物件半徑 | [0.02] (0.01 ~ 0.05) | 
 |- 物件長度 | [0.2] (0 ~ 5) | 
 |- 縮放 | [0] (-5 ~ 5) | 
-|- 朝向 | **Y Up**, Y Down, X Up, X Down, Z Up, Z Down,  | 
+|- 朝向 | **(Y Up)**, (Y Down), (X Up), (X Down), (Z Up), (Z Down),  | 
 | 偏移 || 
 |- (X) | [0] (-2 ~ 2) | 
 |- (Y) | [0] (-2 ~ 2) | 
@@ -154,19 +154,19 @@ sidebar:
 |**運動** | | Apply up / down motion to the attachment model
 | (Enable Motion) | OFF | 
 |**速度** | | 
-|- 每拍動作數 | 1/4, 1/3, 1/2, 2/3, **1**, 4/3, 3/2, 2, 3, 4,  | 
+|- 每拍動作數 | (1/4), (1/3), (1/2), (2/3), **(1)**, (4/3), (3/2), (2), (3), (4),  | 
 |- 每組動作數 | [8] (4 ~ 32) | 
 |- 相位 | [0] (0 ~ 1) | 
 |- 曲線 | [0] (0 ~ 1) | 
 | 變量速度 | OFF | 
-|- 模式 | **Gradual**, Random, Volume,  | 
-|- 最小速度 | 1/4, 1/3, **1/2**, 2/3, 1,  | 
-|- 最大速度 | 1, **3/2**, 2, 3, 4,  | 
+|- 模式 | **(Gradual)**, 隨機, 音量,  | 
+|- 最小速度 | (1/4), (1/3), **(1/2)**, (2/3), (1),  | 
+|- 最大速度 | (1), **(3/2)**, (2), (3), (4),  | 
 |
 |- 距離 | [0.1] (0 ~ 0.3) | 
 |- 角度 | [0] (-60 ~ 60) | 
 |
-| 動畫 |  **None**,  | 選擇已加載的運動供附加模型使用 |
+| 動畫 | **無**,  | 選擇已加載的運動供附加模型使用 |
 |**表面** | | 
 |- 光澤 | [0.9] (0 ~ 1) | 
 |- 金屬質感 | [1] (0 ~ 1) | 
@@ -176,16 +176,16 @@ sidebar:
 |- 透明度 | [1] (0 ~ 1) | 
 |- 剪裁 | [0] (0 ~ 1) | 
 |**顏色** | | 
-|- 顏色模式 | **RGB**, HSV,  | 
+|- 顏色模式 | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 飽和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
 |- 紅色 | [1] (0 ~ 1) | 
 |- 綠色 | [1] (0 ~ 1) | 
 |- 藍色 | [1] (0 ~ 1) | 
-| 混合模式 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| 混合模式 | 原版, (Multiply), **混合**, (Color Shift),  |  |
 |- 混合 | [1] (0 ~ 1) | 
-| 預設 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| 預設 | 原版, **白色**, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |  |
 |
 |**卡通著色器** | | 
 | (Enable Toon Shader) | OFF | 
@@ -199,14 +199,14 @@ sidebar:
 |- 陰影區域 | [0.65] (0 ~ 1) | 
 |- 陰影 | [0.75] (0 ~ 1) | 
 |- 柔和陰影 | [0.1] (0 ~ 1) | 
-| 預設 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| 預設 | **銳利**, 柔和, 明亮, 平面 + 光澤, 平面,  |  |
 |
 |**特殊著色器** | | 
-| 模式 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| 模式 | **關閉**, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |  |
 |- 折射 | [0.5] (1 ~ 3) | 
 |- 厚度 | [1] (0 ~ 1) | 
 |
-| 預設 |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| 預設 | 白色光澤, 紅色光澤, **鍍鉻**, 黑色光澤, 金色, 實心玻璃, 薄玻璃,  |  |
 |
 |- X光 | [0] (0 ~ 1) | 
 |- 透明度 | [1] (0 ~ 1) | 
@@ -215,6 +215,6 @@ sidebar:
 |- 手部運動 | [0] (-1 ~ 1) | 相對於附加物運動移動手部
 |
 |
-| Gizmo 第三軸 |  **Rotation**,  Depth,  |  |
+| Gizmo 第三軸 | **旋轉**, 深度,  |  |
 | 使用翻譯名稱 | ON | 
 |

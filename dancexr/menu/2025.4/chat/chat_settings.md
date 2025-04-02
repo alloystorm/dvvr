@@ -15,10 +15,10 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**Chat Settings** | | 
-| Chat Language |  **Auto**,  English,  Chinese,  Japanese,  Korean,  Vietnamese,  Thai,  French,  German,  Spanish,  |  |
-| Template |  **default**,  |  |
+| Chat Language | **Auto**, English, Chinese, Japanese, Korean, Vietnamese, Thai, French, German, Spanish,  |  |
+| Template | **default**,  |  |
 | Generate Story | ON | 
-| Story Genre |  Random,  Sci-Fi,  **Fantasy**,  Mystery,  Thriller,  Romance,  Action,  Horror,  Adventure,  Comedy,  Erotic,  |  |
+| Story Genre | Random, Sci-Fi, **Fantasy**, Mystery, Thriller, Romance, Action, Horror, Adventure, Comedy, Erotic,  |  |
 | Regenerate Story || 
 | Summarize Older Messages | ON | 
 |- Max Message Count | [10] (10 ~ 25) | Older messages over this limit will be summarized.

@@ -19,7 +19,7 @@ sidebar:
 |- Spawn Rate | [1] (0 ~ 2) | Density of particles
 |- Life | [1] (0 ~ 10) | How long does each particle last
 |- Size | [0.005] (0 ~ 0.2) | Size of the particles
-| Texture |  **[None]**,  [Dust],  [Petal],  [Leaf],  |  |
+| Texture | **[None]**, [Dust], [Petal], [Leaf],  |  |
 |- Glow | [0] (0 ~ 10) | 
 |- Metallic | [0] (0 ~ 1) | 
 |- Smoothness | [0.5] (0 ~ 1) | 
@@ -44,5 +44,5 @@ sidebar:
 |- Bump | [0.35] (0 ~ 1) | 
 |- Wetness | [0.5] (0 ~ 2) | 
 |
-| Presets |  **Off**,  Dust,  Rain,  Snow,  Petal,  Leaf,  Glitter,  |  |
+| Presets | **Off**, Dust, Rain, Snow, Petal, Leaf, Glitter,  |  |
 |

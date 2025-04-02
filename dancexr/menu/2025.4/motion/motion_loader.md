@@ -16,16 +16,16 @@ sidebar:
 | :--- | --- | :--- |
 |**Playback Options** | | 
 | Prime Motion || 
-| Playback Mode |  **List Once**,  Single,  Loop List,  Loop Single,  Shuffle,  |  |
+| Playback Mode | **List Once**, Single, Loop List, Loop Single, Shuffle,  |  |
 | Auto-Load Actors | OFF | Automatically load actors to match the number of motion tracks and assign different motion for each actor
 | Auto-Assign Camera | OFF | Automatically assign camera motion if available
 | Remix Motion || 
-| Remix Mode |  Continue Next,  **Synchronized**,  Loop,  Shuffle Next,  |  |
+| Remix Mode | Continue Next, **Synchronized**, Loop, Shuffle Next,  |  |
 | Time || 
 | Timeline Fine Adjust | ON | Long press on the timeline to fine adjust playback time.
 |- Speed | [1] (0.5 ~ 2) | Change speed of audio. This also affects motion and physics speed
 | Pitch Shift | ON | Adjust audio to match the original pitch after changing speed
-| Auto Sync Mode |  **Off**,  Move Audio,  Move Motion,  |  |
+| Auto Sync Mode | **Off**, Move Audio, Move Motion,  |  |
 |- Auto Sync Threshold | [0.05] (0 ~ 0.2) | Automatically sync motion and audio when time differences exceed this amount. In seconds.
 |- Offset | [0] (Unlimited) | 
 |- BPM | [120] (1 ~ 240) | Beats per minute

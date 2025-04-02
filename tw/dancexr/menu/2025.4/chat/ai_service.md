@@ -15,9 +15,9 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**AI服務** | | 
-| 選擇服務 |  **OpenAI (ChatGPT)**,  Local WebUI,  Remote WebUI,  Ollama,  |  |
+| 選擇服務 | **OpenAI (ChatGPT)**, 本地WebUI, 遠端WebUI, (Ollama),  |  |
 | OpenAI API金鑰 || 
-| GPT模型 |  **gpt-3.5-turbo**,  gpt-4,  gpt-4-turbo,  gpt-4o,  |  |
+| GPT模型 | **(gpt-3.5-turbo)**, (gpt-4), (gpt-4-turbo), (gpt-4o),  |  |
 | 本地WebUI網址 || 
 | 遠端WebUI網址 || 
 | Ollama網址 || 

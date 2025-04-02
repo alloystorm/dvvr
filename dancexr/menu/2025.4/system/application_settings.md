@@ -32,10 +32,10 @@ sidebar:
 |- Rotation | [45] (-90 ~ 90) | 
 | Update Pointer || 
 |
-| Left Hand Pose |  **Auto**,  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+| Left Hand Pose | **Auto**, Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |  |
 |**Left Hand Accessory** | | 
 | Enable Left Hand Accessory | OFF | 
-| Model |  **[Pole]**,  |  |
+| Model | **[Pole]**,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -75,7 +75,7 @@ sidebar:
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
 |
-| Animation |  **None**,  | Select loaded motion to use for the attachment model |
+| Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
 |- Metallic | [1] (0 ~ 1) | 
@@ -92,9 +92,9 @@ sidebar:
 |- Red | [1] (0 ~ 1) | 
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
-| Blend Mode |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
-| Presets |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
 |
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
@@ -108,14 +108,14 @@ sidebar:
 |- Shadow Area | [0.65] (0 ~ 1) | 
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
-| Presets |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
 |
 |**Special Shader** | | 
-| Mode |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
 |
-| Presets |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
 |
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
@@ -123,10 +123,10 @@ sidebar:
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 |
-| Right Hand Pose |  **Auto**,  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+| Right Hand Pose | **Auto**, Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |  |
 |**Right Hand Accessory** | | 
 | Enable Right Hand Accessory | OFF | 
-| Model |  **[Pole]**,  |  |
+| Model | **[Pole]**,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -166,7 +166,7 @@ sidebar:
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
 |
-| Animation |  **None**,  | Select loaded motion to use for the attachment model |
+| Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
 |- Metallic | [1] (0 ~ 1) | 
@@ -183,9 +183,9 @@ sidebar:
 |- Red | [1] (0 ~ 1) | 
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
-| Blend Mode |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
-| Presets |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
 |
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
@@ -199,14 +199,14 @@ sidebar:
 |- Shadow Area | [0.65] (0 ~ 1) | 
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
-| Presets |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
 |
 |**Special Shader** | | 
-| Mode |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
 |
-| Presets |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
 |
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
@@ -215,6 +215,6 @@ sidebar:
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 |
 |
-| Gizmo 3rd Axis |  **Rotation**,  Depth,  |  |
+| Gizmo 3rd Axis | **Rotation**, Depth,  |  |
 | Use Translated Names | ON | 
 |

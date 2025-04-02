@@ -38,7 +38,7 @@ sidebar:
 |- Curve | [0.35] (0 ~ 1) | 
 | Hands Symmetrical | ON | 
 |**Left Hand** | | 
-| Gesture |  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  **Grab**,  |  |
+| Gesture | Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, **Grab**,  |  |
 |**Hand Position** | | 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
@@ -52,8 +52,8 @@ sidebar:
 |- Rotation Type | **Relative to Reference Bone**, Relative to Self, Absolute Rotation, No Rotation,  | 
 |- Elbow Orientation | [0] (-180 ~ 180) | 
 | Mirror Left/Right | OFF | 
-| Reference Actor |  **Self**,  Partner,  Closest,  |  |
-| Reference Bone |  None,  **Hip**,  Chest,  Head,  Center,  Pole,  Upperarm,  Forearm,  Hand,  Leg,  Knee,  Foot,  Belly,  Boobs,  Pussy,  Dick,  |  |
+| Reference Actor | **Self**, Partner, Closest,  |  |
+| Reference Bone | None, **Hip**, Chest, Head, Center, Pole, Upperarm, Forearm, Hand, Leg, Knee, Foot, Belly, Boobs, Pussy, Dick,  |  |
 |- IK Mode | **Auto**, Normal, Cylinder, Sphere, Align,  | 
 |- Side Selection | **Auto**, Left, Right,  | 
 |- Blend Range | [0.75] (0 ~ 2) | 
@@ -91,10 +91,10 @@ sidebar:
 |- Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 |- Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 |- Grab Axis | [0] (-180 ~ 180) | 
-| Presets |  Rest,  Back,  Front,  **Hip**,  Head,  Pole,  Grab Boobs,  Hand Job,  chest,  Preset 1,  Preset 2,  Preset 3,  |  |
+| Presets | Rest, Back, Front, **Hip**, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |  |
 |
 |**Right Hand** | | 
-| Gesture |  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  **Grab**,  |  |
+| Gesture | Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, **Grab**,  |  |
 |**Hand Position** | | 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
@@ -108,8 +108,8 @@ sidebar:
 |- Rotation Type | **Relative to Reference Bone**, Relative to Self, Absolute Rotation, No Rotation,  | 
 |- Elbow Orientation | [0] (-180 ~ 180) | 
 | Mirror Left/Right | OFF | 
-| Reference Actor |  **Self**,  Partner,  Closest,  |  |
-| Reference Bone |  None,  **Hip**,  Chest,  Head,  Center,  Pole,  Upperarm,  Forearm,  Hand,  Leg,  Knee,  Foot,  Belly,  Boobs,  Pussy,  Dick,  |  |
+| Reference Actor | **Self**, Partner, Closest,  |  |
+| Reference Bone | None, **Hip**, Chest, Head, Center, Pole, Upperarm, Forearm, Hand, Leg, Knee, Foot, Belly, Boobs, Pussy, Dick,  |  |
 |- IK Mode | **Auto**, Normal, Cylinder, Sphere, Align,  | 
 |- Side Selection | **Auto**, Left, Right,  | 
 |- Blend Range | [0.75] (0 ~ 2) | 
@@ -147,7 +147,7 @@ sidebar:
 |- Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 |- Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 |- Grab Axis | [0] (-180 ~ 180) | 
-| Presets |  Rest,  Back,  Front,  **Hip**,  Head,  Pole,  Grab Boobs,  Hand Job,  chest,  Preset 1,  Preset 2,  Preset 3,  |  |
+| Presets | Rest, Back, Front, **Hip**, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |  |
 |
 |**Walk in Circle** | | 
 | Walk in Circle | OFF | 
@@ -194,7 +194,7 @@ sidebar:
 |- Range X | [30] (0 ~ 45) | 
 |- Range Y | [30] (0 ~ 45) | 
 |- Orient | [0] (-45 ~ 45) | 
-| Presets |  **Default (Reset)**,  |  |
+| Presets | **Default (Reset)**,  |  |
 |
 |- Extent | [0.5] (0 ~ 1) | 
 |**Speed** | | 
@@ -253,7 +253,7 @@ sidebar:
 |- Motion Per Beat | **1**, 1.5, 2, 3,  | 
 | Hands Symmetrical | ON | 
 |**Left Hand** | | 
-| Gesture |  Palm Fingers Apart,  **Palm Fingers Together**,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+| Gesture | Palm Fingers Apart, **Palm Fingers Together**, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |  |
 |**Hand Position** | | 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
@@ -267,8 +267,8 @@ sidebar:
 |- Rotation Type | Relative to Reference Bone, Relative to Self, Absolute Rotation, **No Rotation**,  | 
 |- Elbow Orientation | [0] (-180 ~ 180) | 
 | Mirror Left/Right | OFF | 
-| Reference Actor |  **Self**,  Partner,  Closest,  |  |
-| Reference Bone |  **None**,  Hip,  Chest,  Head,  Center,  Pole,  Upperarm,  Forearm,  Hand,  Leg,  Knee,  Foot,  Belly,  Boobs,  Pussy,  Dick,  |  |
+| Reference Actor | **Self**, Partner, Closest,  |  |
+| Reference Bone | **None**, Hip, Chest, Head, Center, Pole, Upperarm, Forearm, Hand, Leg, Knee, Foot, Belly, Boobs, Pussy, Dick,  |  |
 |- IK Mode | **Auto**, Normal, Cylinder, Sphere, Align,  | 
 |- Side Selection | **Auto**, Left, Right,  | 
 |- Blend Range | [0.75] (0 ~ 2) | 
@@ -306,10 +306,10 @@ sidebar:
 |- Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 |- Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 |- Grab Axis | [0] (-180 ~ 180) | 
-| Presets |  **Rest**,  Back,  Front,  Hip,  Head,  Pole,  Grab Boobs,  Hand Job,  chest,  Preset 1,  Preset 2,  Preset 3,  |  |
+| Presets | **Rest**, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |  |
 |
 |**Right Hand** | | 
-| Gesture |  Palm Fingers Apart,  **Palm Fingers Together**,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+| Gesture | Palm Fingers Apart, **Palm Fingers Together**, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |  |
 |**Hand Position** | | 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
@@ -323,8 +323,8 @@ sidebar:
 |- Rotation Type | Relative to Reference Bone, Relative to Self, Absolute Rotation, **No Rotation**,  | 
 |- Elbow Orientation | [0] (-180 ~ 180) | 
 | Mirror Left/Right | OFF | 
-| Reference Actor |  **Self**,  Partner,  Closest,  |  |
-| Reference Bone |  **None**,  Hip,  Chest,  Head,  Center,  Pole,  Upperarm,  Forearm,  Hand,  Leg,  Knee,  Foot,  Belly,  Boobs,  Pussy,  Dick,  |  |
+| Reference Actor | **Self**, Partner, Closest,  |  |
+| Reference Bone | **None**, Hip, Chest, Head, Center, Pole, Upperarm, Forearm, Hand, Leg, Knee, Foot, Belly, Boobs, Pussy, Dick,  |  |
 |- IK Mode | **Auto**, Normal, Cylinder, Sphere, Align,  | 
 |- Side Selection | **Auto**, Left, Right,  | 
 |- Blend Range | [0.75] (0 ~ 2) | 
@@ -362,7 +362,7 @@ sidebar:
 |- Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 |- Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 |- Grab Axis | [0] (-180 ~ 180) | 
-| Presets |  **Rest**,  Back,  Front,  Hip,  Head,  Pole,  Grab Boobs,  Hand Job,  chest,  Preset 1,  Preset 2,  Preset 3,  |  |
+| Presets | **Rest**, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |  |
 |
 | Use Loudness For | ON | 
 |- Upper Body Motion | [0.5] (0 ~ 1) | 
@@ -454,8 +454,8 @@ sidebar:
 | Camera Motion || 
 |**[Freefly Cam]** | | 
 | Assign To Main || 
-| Target Select |  **Auto**,  Selected,  Group,  Rotate,  Rotate + Group,  Stage Center,  |  |
-| Tracking Mode |  **Center**,  Head,  Chest,  |  |
+| Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
+| Tracking Mode | **Center**, Head, Chest,  |  |
 |- Target Smoothing | [0.5] (0 ~ 2) | 
 |- Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
 | Lock On Target | OFF | Automatically focus on target
@@ -468,12 +468,12 @@ sidebar:
 |- FOV | [30] (5 ~ 120) | 
 |- Beat Cycle | [8] (1 ~ 16) | 
 | Use Orbit Move | OFF | 
-| Presets |  **Freefly**,  Lock On Actor,  Lock + Zoom Fullbody,  Lock + Zoom Upper Body,  |  |
+| Presets | **Freefly**, Lock On Actor, Lock + Zoom Fullbody, Lock + Zoom Upper Body,  |  |
 |
 |**[Orbit Cam]** | | 
 | Assign To Main || 
-| Target Select |  **Auto**,  Selected,  Group,  Rotate,  Rotate + Group,  Stage Center,  |  |
-| Tracking Mode |  **Center**,  Head,  Chest,  |  |
+| Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
+| Tracking Mode | **Center**, Head, Chest,  |  |
 |- Target Smoothing | [0.5] (0 ~ 2) | 
 |- Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
 |- FOV | [30] (5 ~ 120) | 
@@ -494,12 +494,12 @@ sidebar:
 |- Height Max | [0.5] (0 ~ 1) | 
 |- Height Cycle | [32] (Unlimited) | 
 |- Speed | [10] (0 ~ 90) | 
-| Presets |  **Default (Reset)**,  Preset 1,  |  |
+| Presets | **Default (Reset)**, Preset 1,  |  |
 |
 |**[Auto Cam]** | | 
 | Assign To Main || 
-| Target Select |  **Auto**,  Selected,  Group,  Rotate,  Rotate + Group,  Stage Center,  |  |
-| Tracking Mode |  **Center**,  Head,  Chest,  |  |
+| Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
+| Tracking Mode | **Center**, Head, Chest,  |  |
 |- Target Smoothing | [0.5] (0 ~ 2) | 
 |- Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
 |- FOV | [30] (5 ~ 120) | 
@@ -532,12 +532,12 @@ sidebar:
 |- Side 90 | [0.25] (0 ~ 1) | 
 |- Back 135 | [0] (0 ~ 1) | 
 |- Back 180 | [0.25] (0 ~ 1) | 
-| Presets |  **Default (Reset)**,  Preset 1,  |  |
+| Presets | **Default (Reset)**, Preset 1,  |  |
 |
 |**[Long Take]** | | 
 | Assign To Main || 
-| Target Select |  **Auto**,  Selected,  Group,  Rotate,  Rotate + Group,  Stage Center,  |  |
-| Tracking Mode |  **Center**,  Head,  Chest,  |  |
+| Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
+| Tracking Mode | **Center**, Head, Chest,  |  |
 |- Target Smoothing | [0.5] (0 ~ 2) | 
 |- Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
 |- FOV | [30] (5 ~ 120) | 
@@ -549,7 +549,7 @@ sidebar:
 | Prevent Below Floor | ON | 
 | Use Actor Orientation | ON | 
 | Raise Focus When Close | OFF | Move focus position up when distance gets smaller
-| Presets |  **Default (Reset)**,  Preset 1,  Preset 2,  Preset 3,  |  |
+| Presets | **Default (Reset)**, Preset 1, Preset 2, Preset 3,  |  |
 |
 |**[First Person]** | | 
 | Assign To Main || 
@@ -566,8 +566,8 @@ sidebar:
 |
 |**[Fixed Camera]** | | 
 | Assign To Main || 
-| Target Select |  **Auto**,  Selected,  Group,  Rotate,  Rotate + Group,  Stage Center,  |  |
-| Tracking Mode |  **Center**,  Head,  Chest,  |  |
+| Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
+| Tracking Mode | **Center**, Head, Chest,  |  |
 |- Target Smoothing | [0.5] (0 ~ 2) | 
 |- Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
 | Lock On Target | OFF | Automatically focus on target
@@ -586,5 +586,5 @@ sidebar:
 |- X | [0] (-2 ~ 2) | 
 |- Y | [0] (-2 ~ 2) | 
 |- Z | [0] (-2 ~ 2) | 
-| Presets |  Near,  **Far**,  |  |
+| Presets | Near, **Far**,  |  |
 |

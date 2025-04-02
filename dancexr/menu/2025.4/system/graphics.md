@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**Graphics** | | 
-| Anti-Aliasing |  No AA,  **Deferred SMAA**,  Deferred TAA,  |  |
+| Anti-Aliasing | No AA, **Deferred SMAA**, Deferred TAA,  |  |
 |**Raytracing** | | 
 | Enable Raytracing | ON | 
 | Reflection | ON | 
@@ -27,7 +27,7 @@ sidebar:
 | Denoise | ON | 
 |- Denoise Radius | [0.1] (0 ~ 1) | 
 |
-| Super Sampling |  **Off**,  DLSS Performance,  DLSS Balance,  DLSS Quality,  DLSS Ultra Performance,  FSR 50%,  FSR 66%,  FSR 75%,  FSR 100%,  |  |
+| Super Sampling | **Off**, DLSS Performance, DLSS Balance, DLSS Quality, DLSS Ultra Performance, FSR 50%, FSR 66%, FSR 75%, FSR 100%,  |  |
 |**Reflection** | | 
 | Enable Reflection | ON | 
 |- Mode | **Screen Space**, Probe,  | 
@@ -85,7 +85,7 @@ sidebar:
 |- Blue | [1] (0 ~ 1) | 
 | Use Stage Color | OFF | Use the color from the stage ring
 |- Color Temp | [6500] (3000 ~ 8000) | 
-| Presets |  **White**,  Sunset,  Red,  Yellow,  Blue,  Green,  |  |
+| Presets | **White**, Sunset, Red, Yellow, Blue, Green,  |  |
 |
 |- Flares | [1] (0 ~ 1) | 
 |- Streaks | [0.2] (0 ~ 1) | 
@@ -107,7 +107,7 @@ sidebar:
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
 |- Glow | [1] (0 ~ 20) | 
-| Presets |  **White**,  Red,  Green,  Blue,  Animated Hue,  Glow w/ Music,  |  |
+| Presets | **White**, Red, Green, Blue, Animated Hue, Glow w/ Music,  |  |
 |
 |
 |**Color Curve** | | 
@@ -143,5 +143,5 @@ sidebar:
 | Stop NaN | ON | Prevent black screen when error happens during post processing. 
 | Compute Thickness | ON | Calculate thickness that can be used in skin effect.
 |
-| Presets |  Performance,  Medium,  **High**,  Indoor GI,  Outdoor GI,  Toon Effect,  |  |
+| Presets | Performance, Medium, **High**, Indoor GI, Outdoor GI, Toon Effect,  |  |
 |

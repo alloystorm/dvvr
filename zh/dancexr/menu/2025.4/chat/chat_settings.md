@@ -15,10 +15,10 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**聊天设置** | | 
-| 聊天语言 |  **Auto**,  English,  Chinese,  Japanese,  Korean,  Vietnamese,  Thai,  French,  German,  Spanish,  |  |
-| 模板 |  **default**,  |  |
+| 聊天语言 | **自动**, 英语, 中文, 日语, 韩语, 越南语, 泰语, 法语, 德语, 西班牙语,  |  |
+| 模板 | **(default)**,  |  |
 | 生成故事 | ON | 
-| 故事类型 |  Random,  Sci-Fi,  **Fantasy**,  Mystery,  Thriller,  Romance,  Action,  Horror,  Adventure,  Comedy,  Erotic,  |  |
+| 故事类型 | 随机, 科幻, **奇幻**, 悬疑, 惊悚, 浪漫, 动作, 恐怖, 冒险, 喜剧, 情色,  |  |
 | 重新生成故事 || 
 | 总结旧消息 | ON | 
 |- 最大消息数量 | [10] (10 ~ 25) | 超过此限制的旧消息将会被总结。

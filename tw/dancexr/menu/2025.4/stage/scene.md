@@ -26,16 +26,16 @@ sidebar:
 |- 透明度 | [1] (0 ~ 1) | 
 |- 剪裁 | [0] (0 ~ 1) | 
 |**顏色** | | 
-|- 顏色模式 | **RGB**, HSV,  | 
+|- 顏色模式 | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 飽和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
 |- 紅色 | [1] (0 ~ 1) | 
 |- 綠色 | [1] (0 ~ 1) | 
 |- 藍色 | [1] (0 ~ 1) | 
-| 混合模式 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| 混合模式 | 原版, (Multiply), **混合**, (Color Shift),  |  |
 |- 混合 | [1] (0 ~ 1) | 
-| 預設 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| 預設 | 原版, **白色**, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |  |
 |
 |**卡通著色器** | | 
 | (Enable Toon Shader) | OFF | 
@@ -49,14 +49,14 @@ sidebar:
 |- 陰影區域 | [0.65] (0 ~ 1) | 
 |- 陰影 | [0.75] (0 ~ 1) | 
 |- 柔和陰影 | [0.1] (0 ~ 1) | 
-| 預設 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| 預設 | **銳利**, 柔和, 明亮, 平面 + 光澤, 平面,  |  |
 |
 |**特殊著色器** | | 
-| 模式 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| 模式 | **關閉**, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |  |
 |- 折射 | [0.5] (1 ~ 3) | 
 |- 厚度 | [1] (0 ~ 1) | 
 |
-| 預設 |  **White Gloss**,  Red Gloss,  Chrome,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| 預設 | **白色光澤**, 紅色光澤, 鍍鉻, 黑色光澤, 金色, 實心玻璃, 薄玻璃,  |  |
 |
 |**商標表面 2** | | 
 |- 光澤 | [0.9] (0 ~ 1) | 
@@ -67,16 +67,16 @@ sidebar:
 |- 透明度 | [1] (0 ~ 1) | 
 |- 剪裁 | [0] (0 ~ 1) | 
 |**顏色** | | 
-|- 顏色模式 | **RGB**, HSV,  | 
+|- 顏色模式 | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 飽和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
 |- 紅色 | [1] (0 ~ 1) | 
 |- 綠色 | [1] (0 ~ 1) | 
 |- 藍色 | [1] (0 ~ 1) | 
-| 混合模式 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| 混合模式 | 原版, (Multiply), **混合**, (Color Shift),  |  |
 |- 混合 | [1] (0 ~ 1) | 
-| 預設 |  Original,  White,  Black,  **Red**,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| 預設 | 原版, 白色, 黑色, **紅色**, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |  |
 |
 |**卡通著色器** | | 
 | (Enable Toon Shader) | OFF | 
@@ -90,14 +90,14 @@ sidebar:
 |- 陰影區域 | [0.65] (0 ~ 1) | 
 |- 陰影 | [0.75] (0 ~ 1) | 
 |- 柔和陰影 | [0.1] (0 ~ 1) | 
-| 預設 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| 預設 | **銳利**, 柔和, 明亮, 平面 + 光澤, 平面,  |  |
 |
 |**特殊著色器** | | 
-| 模式 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| 模式 | **關閉**, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |  |
 |- 折射 | [0.5] (1 ~ 3) | 
 |- 厚度 | [1] (0 ~ 1) | 
 |
-| 預設 |  White Gloss,  **Red Gloss**,  Chrome,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| 預設 | 白色光澤, **紅色光澤**, 鍍鉻, 黑色光澤, 金色, 實心玻璃, 薄玻璃,  |  |
 |
 | 鑽石 | ON | 
 |**鑽石表面** | | 
@@ -109,16 +109,16 @@ sidebar:
 |- 透明度 | [1] (0 ~ 1) | 
 |- 剪裁 | [0] (0 ~ 1) | 
 |**顏色** | | 
-|- 顏色模式 | **RGB**, HSV,  | 
+|- 顏色模式 | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 飽和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
 |- 紅色 | [1] (0 ~ 1) | 
 |- 綠色 | [1] (0 ~ 1) | 
 |- 藍色 | [1] (0 ~ 1) | 
-| 混合模式 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| 混合模式 | 原版, (Multiply), **混合**, (Color Shift),  |  |
 |- 混合 | [1] (0 ~ 1) | 
-| 預設 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| 預設 | 原版, **白色**, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |  |
 |
 |**卡通著色器** | | 
 | (Enable Toon Shader) | OFF | 
@@ -132,14 +132,14 @@ sidebar:
 |- 陰影區域 | [0.65] (0 ~ 1) | 
 |- 陰影 | [0.75] (0 ~ 1) | 
 |- 柔和陰影 | [0.1] (0 ~ 1) | 
-| 預設 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| 預設 | **銳利**, 柔和, 明亮, 平面 + 光澤, 平面,  |  |
 |
 |**特殊著色器** | | 
-| 模式 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| 模式 | **關閉**, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |  |
 |- 折射 | [0.5] (1 ~ 3) | 
 |- 厚度 | [1] (0 ~ 1) | 
 |
-| 預設 |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| 預設 | 白色光澤, 紅色光澤, **鍍鉻**, 黑色光澤, 金色, 實心玻璃, 薄玻璃,  |  |
 |
 |- 距離 | [4.5] (1 ~ 8) | 
 |- 位置 | [0] (-180 ~ 180) | 
@@ -147,13 +147,13 @@ sidebar:
 |
 |**節拍視覺化** | | 
 | (Enable Beats Visualizer) | ON | 
-|- 數據 | **Beats**, Raw Beats, Raw Onset,  | 
-|- 位置 | Camera, **Stage**, Actor,  | 
+|- 數據 | **節拍**, 原始節拍, 原始開始,  | 
+|- 位置 | 攝影機, **舞台**, 演員,  | 
 |- 半徑 | [1.2] (0.2 ~ 5) | 
 |- 標記大小 | [0.02] (0 ~ 1) | 
 |- 線條寬度 | [0.01] (0 ~ 1) | 
 |**線條顏色** | | 
-|- 顏色模式 | RGB, **HSV**,  | 
+|- 顏色模式 | (RGB), **(HSV)**,  | 
 |- 色相 | [0.3333333] (0 ~ 1) | 
 |- 飽和度 | [1] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
@@ -161,10 +161,10 @@ sidebar:
 |- 綠色 | [1] (0 ~ 1) | 
 |- 藍色 | [0] (0 ~ 1) | 
 |- 發光 | [1] (0 ~ 20) | 
-| 預設 |  White,  Red,  **Green**,  Blue,  Animated Hue,  Glow w/ Music,  |  |
+| 預設 | 白色, 紅色, **綠色**, 藍色, 動畫色相, 隨音樂發光,  |  |
 |
 |**標記顏色** | | 
-|- 顏色模式 | RGB, **HSV**,  | 
+|- 顏色模式 | (RGB), **(HSV)**,  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 飽和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
@@ -172,7 +172,7 @@ sidebar:
 |- 綠色 | [1] (0 ~ 1) | 
 |- 藍色 | [1] (0 ~ 1) | 
 |- 發光 | [1] (0 ~ 20) | 
-| 預設 |  **White**,  Red,  Green,  Blue,  Animated Hue,  Glow w/ Music,  |  |
+| 預設 | **白色**, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |  |
 |
 |- 節拍循環 | [8] (2 ~ 16) | 
 |- 一般光暈 | [1] (0 ~ 8) | 
@@ -189,7 +189,7 @@ sidebar:
 |- 高度 | [0] (0 ~ 8) | 
 |- 角度 | [45] (0 ~ 90) | 
 |**顏色** | | 
-|- 顏色模式 | RGB, **HSV**,  | 
+|- 顏色模式 | (RGB), **(HSV)**,  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 飽和度 | [1] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
@@ -200,7 +200,7 @@ sidebar:
 |- 基準水平 | [-1] (-3 ~ 3) | 
 |- 邊緣水平 | [2] (0 ~ 5) | 
 |- 碰撞水平 | [2] (0 ~ 5) | 
-| 預設 |  White,  Red,  Green,  Blue,  **Animated Hue**,  Glow w/ Music,  |  |
+| 預設 | 白色, 紅色, 綠色, 藍色, **動畫色相**, 隨音樂發光,  |  |
 |
 |**運動** | | 
 |- 每組動作數 | [1] (1 ~ 32) | 
@@ -212,7 +212,7 @@ sidebar:
 |- 水平 | [0.5] (0 ~ 1) | 
 |- 垂直 | [0.1] (0 ~ 1) | 
 |
-| 模式 |  **Random**,  Random Preset,  Manual,  |  |
+| 模式 | **隨機**, 隨機預設, 手動,  |  |
 |**運動 X** | | 
 |- 覆蓋 | [0] (-1 ~ 1) | 使用此值覆蓋生成的動作
 |- 速度倍增器 | [-1] (-3 ~ 3) | 
@@ -233,7 +233,7 @@ sidebar:
 |
 |- 使用音頻 | [2] (0 ~ 4) | 
 |- 種子 | [1234] ((Unlimited)) | 控制隨機化的模式序列
-| 預設 |  **Default (Reset)**,  |  |
+| 預設 | **預設 (重置)**,  |  |
 |
-| 預設 |  **Off**,  Line,  Half Circle,  Point,  Glow w/ Music,  Preset 1,  |  |
+| 預設 | **關閉**, 線, 半圓, 點, 隨音樂發光, (Preset 1),  |  |
 |

@@ -32,10 +32,10 @@ sidebar:
 |- 回転 | [45] (-90 ~ 90) | 
 | ポインターを更新 || 
 |
-| 左手のポーズ |  **Auto**,  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+| 左手のポーズ | **自動**, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**左手アクセサリー** | | 
 | (Enable Left Hand Accessory) | OFF | 
-| モデル |  **[Pole]**,  |  |
+| モデル | **[ポール]**,  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -50,7 +50,7 @@ sidebar:
 |- オブジェクト半径 | [0.02] (0.01 ~ 0.05) | 
 |- オブジェクト長 | [0.2] (0 ~ 5) | 
 |- スケール | [0] (-5 ~ 5) | 
-|- オリエンテーション | **Y Up**, Y Down, X Up, X Down, Z Up, Z Down,  | 
+|- オリエンテーション | **(Y Up)**, (Y Down), (X Up), (X Down), (Z Up), (Z Down),  | 
 | オフセット || 
 |- (X) | [0] (-2 ~ 2) | 
 |- (Y) | [0] (-2 ~ 2) | 
@@ -63,19 +63,19 @@ sidebar:
 |**モーション** | | Apply up / down motion to the attachment model
 | (Enable Motion) | OFF | 
 |**スピード** | | 
-|- ビートあたりの動き | 1/4, 1/3, 1/2, 2/3, **1**, 4/3, 3/2, 2, 3, 4,  | 
+|- ビートあたりの動き | (1/4), (1/3), (1/2), (2/3), **(1)**, (4/3), (3/2), (2), (3), (4),  | 
 |- グループあたりの動き | [8] (4 ~ 32) | 
 |- フェーズ | [0] (0 ~ 1) | 
 |- カーブ | [0] (0 ~ 1) | 
 | 可変速度 | OFF | 
-|- モード | **Gradual**, Random, Volume,  | 
-|- 最小速度 | 1/4, 1/3, **1/2**, 2/3, 1,  | 
-|- 最大速度 | 1, **3/2**, 2, 3, 4,  | 
+|- モード | **(Gradual)**, ランダム, ボリューム,  | 
+|- 最小速度 | (1/4), (1/3), **(1/2)**, (2/3), (1),  | 
+|- 最大速度 | (1), **(3/2)**, (2), (3), (4),  | 
 |
 |- 距離 | [0.1] (0 ~ 0.3) | 
 |- 角度 | [0] (-60 ~ 60) | 
 |
-| アニメーション |  **None**,  | 取り付けモデルに使用するローディングモーションを選択 |
+| アニメーション | **なし**,  | 取り付けモデルに使用するローディングモーションを選択 |
 |**表面** | | 
 |- グロス | [0.9] (0 ~ 1) | 
 |- 金属的 | [1] (0 ~ 1) | 
@@ -85,16 +85,16 @@ sidebar:
 |- アルファ | [1] (0 ~ 1) | 
 |- クリップ | [0] (0 ~ 1) | 
 |**色** | | 
-|- カラーモード | **RGB**, HSV,  | 
+|- カラーモード | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 彩度 | [0] (0 ~ 1) | 
 |- 明度 | [1] (0 ~ 1) | 
 |- 赤 | [1] (0 ~ 1) | 
 |- 緑 | [1] (0 ~ 1) | 
 |- 青 | [1] (0 ~ 1) | 
-| ブレンドモード |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| ブレンドモード | オリジナル, (Multiply), **ブレンド**, (Color Shift),  |  |
 |- ブレンド | [1] (0 ~ 1) | 
-| プリセット |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| プリセット | オリジナル, **白**, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |  |
 |
 |**トゥーンシェーダー** | | 
 | (Enable Toon Shader) | OFF | 
@@ -108,14 +108,14 @@ sidebar:
 |- シャドウエリア | [0.65] (0 ~ 1) | 
 |- シャドウ | [0.75] (0 ~ 1) | 
 |- ソフトシャドウ | [0.1] (0 ~ 1) | 
-| プリセット |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| プリセット | **シャープ**, ソフト, 明るい, フラット + スペキュラー, フラット,  |  |
 |
 |**特別シェーダー** | | 
-| モード |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| モード | **オフ**, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |  |
 |- 屈折 | [0.5] (1 ~ 3) | 
 |- 厚さ | [1] (0 ~ 1) | 
 |
-| プリセット |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| プリセット | ホワイトグロス, レッドグロス, **クローム**, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |  |
 |
 |- X線 | [0] (0 ~ 1) | 
 |- アルファ | [1] (0 ~ 1) | 
@@ -123,10 +123,10 @@ sidebar:
 | グラブポーズ | ON | 取り付けにいるときに手のポーズを自動的にグラブに変更
 |- 手の動き | [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
 |
-| 右手のポーズ |  **Auto**,  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+| 右手のポーズ | **自動**, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**右手アクセサリー** | | 
 | (Enable Right Hand Accessory) | OFF | 
-| モデル |  **[Pole]**,  |  |
+| モデル | **[ポール]**,  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -141,7 +141,7 @@ sidebar:
 |- オブジェクト半径 | [0.02] (0.01 ~ 0.05) | 
 |- オブジェクト長 | [0.2] (0 ~ 5) | 
 |- スケール | [0] (-5 ~ 5) | 
-|- オリエンテーション | **Y Up**, Y Down, X Up, X Down, Z Up, Z Down,  | 
+|- オリエンテーション | **(Y Up)**, (Y Down), (X Up), (X Down), (Z Up), (Z Down),  | 
 | オフセット || 
 |- (X) | [0] (-2 ~ 2) | 
 |- (Y) | [0] (-2 ~ 2) | 
@@ -154,19 +154,19 @@ sidebar:
 |**モーション** | | Apply up / down motion to the attachment model
 | (Enable Motion) | OFF | 
 |**スピード** | | 
-|- ビートあたりの動き | 1/4, 1/3, 1/2, 2/3, **1**, 4/3, 3/2, 2, 3, 4,  | 
+|- ビートあたりの動き | (1/4), (1/3), (1/2), (2/3), **(1)**, (4/3), (3/2), (2), (3), (4),  | 
 |- グループあたりの動き | [8] (4 ~ 32) | 
 |- フェーズ | [0] (0 ~ 1) | 
 |- カーブ | [0] (0 ~ 1) | 
 | 可変速度 | OFF | 
-|- モード | **Gradual**, Random, Volume,  | 
-|- 最小速度 | 1/4, 1/3, **1/2**, 2/3, 1,  | 
-|- 最大速度 | 1, **3/2**, 2, 3, 4,  | 
+|- モード | **(Gradual)**, ランダム, ボリューム,  | 
+|- 最小速度 | (1/4), (1/3), **(1/2)**, (2/3), (1),  | 
+|- 最大速度 | (1), **(3/2)**, (2), (3), (4),  | 
 |
 |- 距離 | [0.1] (0 ~ 0.3) | 
 |- 角度 | [0] (-60 ~ 60) | 
 |
-| アニメーション |  **None**,  | 取り付けモデルに使用するローディングモーションを選択 |
+| アニメーション | **なし**,  | 取り付けモデルに使用するローディングモーションを選択 |
 |**表面** | | 
 |- グロス | [0.9] (0 ~ 1) | 
 |- 金属的 | [1] (0 ~ 1) | 
@@ -176,16 +176,16 @@ sidebar:
 |- アルファ | [1] (0 ~ 1) | 
 |- クリップ | [0] (0 ~ 1) | 
 |**色** | | 
-|- カラーモード | **RGB**, HSV,  | 
+|- カラーモード | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 彩度 | [0] (0 ~ 1) | 
 |- 明度 | [1] (0 ~ 1) | 
 |- 赤 | [1] (0 ~ 1) | 
 |- 緑 | [1] (0 ~ 1) | 
 |- 青 | [1] (0 ~ 1) | 
-| ブレンドモード |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| ブレンドモード | オリジナル, (Multiply), **ブレンド**, (Color Shift),  |  |
 |- ブレンド | [1] (0 ~ 1) | 
-| プリセット |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| プリセット | オリジナル, **白**, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |  |
 |
 |**トゥーンシェーダー** | | 
 | (Enable Toon Shader) | OFF | 
@@ -199,14 +199,14 @@ sidebar:
 |- シャドウエリア | [0.65] (0 ~ 1) | 
 |- シャドウ | [0.75] (0 ~ 1) | 
 |- ソフトシャドウ | [0.1] (0 ~ 1) | 
-| プリセット |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| プリセット | **シャープ**, ソフト, 明るい, フラット + スペキュラー, フラット,  |  |
 |
 |**特別シェーダー** | | 
-| モード |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| モード | **オフ**, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |  |
 |- 屈折 | [0.5] (1 ~ 3) | 
 |- 厚さ | [1] (0 ~ 1) | 
 |
-| プリセット |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| プリセット | ホワイトグロス, レッドグロス, **クローム**, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |  |
 |
 |- X線 | [0] (0 ~ 1) | 
 |- アルファ | [1] (0 ~ 1) | 
@@ -215,6 +215,6 @@ sidebar:
 |- 手の動き | [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
 |
 |
-| ギズモ第3軸 |  **Rotation**,  Depth,  |  |
+| ギズモ第3軸 | **回転**, 深度,  |  |
 | 翻訳された名前を使用 | ON | 
 |

@@ -39,7 +39,7 @@ sidebar:
 |
 |**阴影** | | Shadow settings.
 | (Enable Shadow) | ON | 
-|- 模式 | **Use Global Setting**, Shadow Map, Screen Space, Raytracing (If Available),  | 
+|- 模式 | **使用全局设置**, 阴影图, 屏幕空间, 光线追踪（如可用）,  | 
 | 接触阴影 | OFF | 为小细节启用阴影。
 |- 样本数量 | [8] (1 ~ 32) | 使用光线追踪阴影时的样本数量。数量越高 = 结果越好，但性能越差。
 | 去噪 | OFF | 使用光线追踪阴影时启用去噪。
@@ -51,9 +51,9 @@ sidebar:
 |**附加 1** | | Configure light group 1
 | (Enable Additional 1) | OFF | 
 |- 体积乘数 | [1] (0 ~ 16) | 
-| 类型 |  **Spotlight**,  Point light,  Area light,  Pyramid,  Box,  |  |
+| 类型 | **聚光灯**, 点光源, 区域灯, 金字塔, 箱子,  |  |
 |**颜色** | | 
-|- 颜色模式 | **RGB**, HSV,  | 
+|- 颜色模式 | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 饱和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
@@ -62,10 +62,10 @@ sidebar:
 |- 蓝色 | [1] (0 ~ 1) | 
 | 使用舞台颜色 | OFF | 使用舞台环的颜色
 |- 色温 | [6500] (3000 ~ 8000) | 
-| 预设 |  **White**,  Sunset,  Red,  Yellow,  Blue,  Green,  |  |
+| 预设 | **白色**, 日落, 红色, (Yellow), 蓝色, 绿色,  |  |
 |
 |- 强度 | [25] (0 ~ 100) | 
-| 饼干 |  **[None]**,  [Window],  [Blinds],  [Spot],  [Tube],  [Video],  |  |
+| 饼干 | **[无]**, [窗口], [百叶窗], [聚光灯], [管道], [视频],  |  |
 |- 发射器半径 | [0.05] (0 ~ 1) | 光源的大小。
 |- X轴尺寸 | [1.25] (0 ~ 16) | 
 |- Y轴尺寸 | [1.25] (0 ~ 16) | 
@@ -75,7 +75,7 @@ sidebar:
 |- 角度 | [25] (-90 ~ 180) | 
 |- 距离 | [3] (0 ~ 20) | 
 |- 高度 | [2] (0 ~ 16) | 光源位置的高度。
-| 动态 |  Stationary,  Follow Actor,  Behind Actor,  **Maintain Distance**,  |  |
+| 动态 | 静止, 跟随演员, 在演员背后, **保持距离**,  |  |
 |- 最大跟随距离 | [5] ((Unlimited)) | 
 | 悬挂 | OFF | 
 |- 悬挂段 | [2] (1 ~ 5) | 启用悬挂效果。
@@ -87,28 +87,28 @@ sidebar:
 |**重复** | | 
 | (Enable Repeat) | OFF | 
 |- 数量 | [1] (1 ~ 8) | 阵列中的灯光数量。
-|- 编队 | Circle, **Grid**,  | 使用网格或圆形排列。
+|- 编队 | 圆形, **网格**,  | 使用网格或圆形排列。
 |- 距离 / 半径 | [7] (0 ~ 20) | 网格模式下灯光之间的距离。
 |- 范围 | [360] (0 ~ 360) | 圆形模式下灯光的角度。
-| 预设 |  **Off**,  3x3 Grid,  2x Fan,  4x Fan,  4x Circle,  8x Circle,  |  |
+| 预设 | **关闭**, (3x3 Grid), (2x Fan), (4x Fan), (4x Circle), (8x Circle),  |  |
 |
 |**阴影** | | 
 | (Enable Shadow) | ON | 
-|- 模式 | **Use Global Setting**, Shadow Map, Screen Space, Raytracing (If Available),  | 
+|- 模式 | **使用全局设置**, 阴影图, 屏幕空间, 光线追踪（如可用）,  | 
 | 接触阴影 | OFF | 为小细节启用阴影。
 |- 样本数量 | [8] (1 ~ 32) | 使用光线追踪阴影时的样本数量。数量越高 = 结果越好，但性能越差。
 | 去噪 | OFF | 使用光线追踪阴影时启用去噪。
 |- 去噪半径 | [8] (1 ~ 32) | 
 |- 阴影调节 | [1] (0 ~ 1) | 减少阴影的强度。
 |
-| 预设 |  **Spotlight**,  Point Light,  Area Light,  Pyramid Projector Near,  Pyramid Projector Far,  Box Projector Near,  Box Projector Far,  Spotlight Array,  Spotlight Suspended,  Preset 1,  |  |
+| 预设 | **聚光灯**, 点光源, 区域光源, 金字塔投影仪近, 金字塔投影仪远, 箱形投影仪近, 箱形投影仪远, 聚光灯阵列, 悬挂聚光灯, (Preset 1),  |  |
 |
 |**附加 2** | | Configure light group 2
 | (Enable Additional 2) | OFF | 
 |- 体积乘数 | [1] (0 ~ 16) | 
-| 类型 |  **Spotlight**,  Point light,  Area light,  Pyramid,  Box,  |  |
+| 类型 | **聚光灯**, 点光源, 区域灯, 金字塔, 箱子,  |  |
 |**颜色** | | 
-|- 颜色模式 | **RGB**, HSV,  | 
+|- 颜色模式 | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 饱和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
@@ -117,10 +117,10 @@ sidebar:
 |- 蓝色 | [1] (0 ~ 1) | 
 | 使用舞台颜色 | OFF | 使用舞台环的颜色
 |- 色温 | [6500] (3000 ~ 8000) | 
-| 预设 |  **White**,  Sunset,  Red,  Yellow,  Blue,  Green,  |  |
+| 预设 | **白色**, 日落, 红色, (Yellow), 蓝色, 绿色,  |  |
 |
 |- 强度 | [25] (0 ~ 100) | 
-| 饼干 |  **[None]**,  [Window],  [Blinds],  [Spot],  [Tube],  [Video],  |  |
+| 饼干 | **[无]**, [窗口], [百叶窗], [聚光灯], [管道], [视频],  |  |
 |- 发射器半径 | [0.05] (0 ~ 1) | 光源的大小。
 |- X轴尺寸 | [1.25] (0 ~ 16) | 
 |- Y轴尺寸 | [1.25] (0 ~ 16) | 
@@ -130,7 +130,7 @@ sidebar:
 |- 角度 | [35] (-90 ~ 180) | 
 |- 距离 | [3] (0 ~ 20) | 
 |- 高度 | [2] (0 ~ 16) | 光源位置的高度。
-| 动态 |  Stationary,  **Follow Actor**,  Behind Actor,  Maintain Distance,  |  |
+| 动态 | 静止, **跟随演员**, 在演员背后, 保持距离,  |  |
 |- 最大跟随距离 | [5] ((Unlimited)) | 
 | 悬挂 | OFF | 
 |- 悬挂段 | [2] (1 ~ 5) | 启用悬挂效果。
@@ -142,28 +142,28 @@ sidebar:
 |**重复** | | 
 | (Enable Repeat) | OFF | 
 |- 数量 | [1] (1 ~ 8) | 阵列中的灯光数量。
-|- 编队 | Circle, **Grid**,  | 使用网格或圆形排列。
+|- 编队 | 圆形, **网格**,  | 使用网格或圆形排列。
 |- 距离 / 半径 | [7] (0 ~ 20) | 网格模式下灯光之间的距离。
 |- 范围 | [360] (0 ~ 360) | 圆形模式下灯光的角度。
-| 预设 |  **Off**,  3x3 Grid,  2x Fan,  4x Fan,  4x Circle,  8x Circle,  |  |
+| 预设 | **关闭**, (3x3 Grid), (2x Fan), (4x Fan), (4x Circle), (8x Circle),  |  |
 |
 |**阴影** | | 
 | (Enable Shadow) | ON | 
-|- 模式 | **Use Global Setting**, Shadow Map, Screen Space, Raytracing (If Available),  | 
+|- 模式 | **使用全局设置**, 阴影图, 屏幕空间, 光线追踪（如可用）,  | 
 | 接触阴影 | OFF | 为小细节启用阴影。
 |- 样本数量 | [8] (1 ~ 32) | 使用光线追踪阴影时的样本数量。数量越高 = 结果越好，但性能越差。
 | 去噪 | OFF | 使用光线追踪阴影时启用去噪。
 |- 去噪半径 | [8] (1 ~ 32) | 
 |- 阴影调节 | [1] (0 ~ 1) | 减少阴影的强度。
 |
-| 预设 |  **Spotlight**,  Point Light,  Area Light,  Pyramid Projector Near,  Pyramid Projector Far,  Box Projector Near,  Box Projector Far,  Spotlight Array,  Spotlight Suspended,  Preset 1,  |  |
+| 预设 | **聚光灯**, 点光源, 区域光源, 金字塔投影仪近, 金字塔投影仪远, 箱形投影仪近, 箱形投影仪远, 聚光灯阵列, 悬挂聚光灯, (Preset 1),  |  |
 |
 |**附加 3** | | Configure light group 3
 | (Enable Additional 3) | OFF | 
 |- 体积乘数 | [1] (0 ~ 16) | 
-| 类型 |  **Spotlight**,  Point light,  Area light,  Pyramid,  Box,  |  |
+| 类型 | **聚光灯**, 点光源, 区域灯, 金字塔, 箱子,  |  |
 |**颜色** | | 
-|- 颜色模式 | **RGB**, HSV,  | 
+|- 颜色模式 | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 饱和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
@@ -172,10 +172,10 @@ sidebar:
 |- 蓝色 | [1] (0 ~ 1) | 
 | 使用舞台颜色 | OFF | 使用舞台环的颜色
 |- 色温 | [6500] (3000 ~ 8000) | 
-| 预设 |  **White**,  Sunset,  Red,  Yellow,  Blue,  Green,  |  |
+| 预设 | **白色**, 日落, 红色, (Yellow), 蓝色, 绿色,  |  |
 |
 |- 强度 | [25] (0 ~ 100) | 
-| 饼干 |  **[None]**,  [Window],  [Blinds],  [Spot],  [Tube],  [Video],  |  |
+| 饼干 | **[无]**, [窗口], [百叶窗], [聚光灯], [管道], [视频],  |  |
 |- 发射器半径 | [0.05] (0 ~ 1) | 光源的大小。
 |- X轴尺寸 | [1.25] (0 ~ 16) | 
 |- Y轴尺寸 | [1.25] (0 ~ 16) | 
@@ -185,7 +185,7 @@ sidebar:
 |- 角度 | [35] (-90 ~ 180) | 
 |- 距离 | [3] (0 ~ 20) | 
 |- 高度 | [2] (0 ~ 16) | 光源位置的高度。
-| 动态 |  Stationary,  **Follow Actor**,  Behind Actor,  Maintain Distance,  |  |
+| 动态 | 静止, **跟随演员**, 在演员背后, 保持距离,  |  |
 |- 最大跟随距离 | [5] ((Unlimited)) | 
 | 悬挂 | OFF | 
 |- 悬挂段 | [2] (1 ~ 5) | 启用悬挂效果。
@@ -197,38 +197,38 @@ sidebar:
 |**重复** | | 
 | (Enable Repeat) | OFF | 
 |- 数量 | [1] (1 ~ 8) | 阵列中的灯光数量。
-|- 编队 | Circle, **Grid**,  | 使用网格或圆形排列。
+|- 编队 | 圆形, **网格**,  | 使用网格或圆形排列。
 |- 距离 / 半径 | [7] (0 ~ 20) | 网格模式下灯光之间的距离。
 |- 范围 | [360] (0 ~ 360) | 圆形模式下灯光的角度。
-| 预设 |  **Off**,  3x3 Grid,  2x Fan,  4x Fan,  4x Circle,  8x Circle,  |  |
+| 预设 | **关闭**, (3x3 Grid), (2x Fan), (4x Fan), (4x Circle), (8x Circle),  |  |
 |
 |**阴影** | | 
 | (Enable Shadow) | ON | 
-|- 模式 | **Use Global Setting**, Shadow Map, Screen Space, Raytracing (If Available),  | 
+|- 模式 | **使用全局设置**, 阴影图, 屏幕空间, 光线追踪（如可用）,  | 
 | 接触阴影 | OFF | 为小细节启用阴影。
 |- 样本数量 | [8] (1 ~ 32) | 使用光线追踪阴影时的样本数量。数量越高 = 结果越好，但性能越差。
 | 去噪 | OFF | 使用光线追踪阴影时启用去噪。
 |- 去噪半径 | [8] (1 ~ 32) | 
 |- 阴影调节 | [1] (0 ~ 1) | 减少阴影的强度。
 |
-| 预设 |  **Spotlight**,  Point Light,  Area Light,  Pyramid Projector Near,  Pyramid Projector Far,  Box Projector Near,  Box Projector Far,  Spotlight Array,  Spotlight Suspended,  Preset 1,  |  |
+| 预设 | **聚光灯**, 点光源, 区域光源, 金字塔投影仪近, 金字塔投影仪远, 箱形投影仪近, 箱形投影仪远, 聚光灯阵列, 悬挂聚光灯, (Preset 1),  |  |
 |
 |- 整体强度 | [1] (0 ~ 2) | 所有灯光的整体强度。
 |- 天空环境光 | [1] (0 ~ 14) | 来自天空的环境光强度。
 |**自动曝光** | | Auto exposure settings.
 | (Enable Auto Exposure) | OFF | 
-|- 测光模式 | **Average**, Spot, Center Weighted,  | 选择测光模式。
-|- 补偿 | -3.00, -2.75, -2.50, -2.25, -2.00, -1.75, -1.50, -1.25, -1.00, -0.75, -0.50, -0.25, **0.00**, 0.25, 0.50, 0.75, 1.00, 1.25, 1.50, 1.75, 2.00, 2.25, 2.50, 2.75, 3.00,  | 
+|- 测光模式 | **平均**, 点测光, 中心加权,  | 选择测光模式。
+|- 补偿 | (-3.00), (-2.75), (-2.50), (-2.25), (-2.00), (-1.75), (-1.50), (-1.25), (-1.00), (-0.75), (-0.50), (-0.25), **(0.00)**, (0.25), (0.50), (0.75), (1.00), (1.25), (1.50), (1.75), (2.00), (2.25), (2.50), (2.75), (3.00),  | 
 |- 范围 | [0] (0 ~ 15) | 
-|- 适应 | **Normal**, Fast, Instant,  | 光照条件变化时自动曝光级别变化的速度。
+|- 适应 | **正常**, 快速, 立即,  | 光照条件变化时自动曝光级别变化的速度。
 |
 |- 雾 | [0] (0 ~ 1) | 雾水平
 |- 光线限制 | [8] (0 ~ 16) | 设置场景中可用的最大灯光数量。
 |- 阴影限制 | [4] (0 ~ 16) | 设置可以投射阴影的最大灯光数量。
 |**分配** | | 
-|- 自动分配 | **By Distance**, By Index (Fixed),  | 
+|- 自动分配 | **按距离**, 按索引（固定）,  | 
 |- 刷新间隔 | [8] (1 ~ 32) | 重新分配灯光的频率。以节拍为单位。
 | 手动刷新 || 强制重新分配灯光。
 |
-| 预设 |  Sunset,  **Daylight**,  Window,  Stage,  Silhouette,  Projector,  Area light,  Point Light Array,  Preset 1,  Preset 2,  Preset 3,  |  |
+| 预设 | 日落, **日光**, 窗户, 舞台, 轮廓, 投影仪, 区域灯, 点光源阵列, (Preset 1), (Preset 2), (Preset 3),  |  |
 |

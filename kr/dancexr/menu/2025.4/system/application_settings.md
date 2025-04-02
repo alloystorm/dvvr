@@ -32,10 +32,10 @@ sidebar:
 |- 회전 | [45] (-90 ~ 90) | 
 | 포인터 업데이트 || 
 |
-| 왼손 포즈 |  **Auto**,  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+| 왼손 포즈 | **자동**, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**왼손 액세서리** | | 
 | (Enable Left Hand Accessory) | OFF | 
-| 모델 |  **[Pole]**,  |  |
+| 모델 | **[기둥]**,  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -50,7 +50,7 @@ sidebar:
 |- 객체 반경 | [0.02] (0.01 ~ 0.05) | 
 |- 객체 길이 | [0.2] (0 ~ 5) | 
 |- 스케일 | [0] (-5 ~ 5) | 
-|- 방향 | **Y Up**, Y Down, X Up, X Down, Z Up, Z Down,  | 
+|- 방향 | **(Y Up)**, (Y Down), (X Up), (X Down), (Z Up), (Z Down),  | 
 | 오프셋 || 
 |- (X) | [0] (-2 ~ 2) | 
 |- (Y) | [0] (-2 ~ 2) | 
@@ -63,19 +63,19 @@ sidebar:
 |**모션** | | Apply up / down motion to the attachment model
 | (Enable Motion) | OFF | 
 |**속도** | | 
-|- 비트당 움직임 | 1/4, 1/3, 1/2, 2/3, **1**, 4/3, 3/2, 2, 3, 4,  | 
+|- 비트당 움직임 | (1/4), (1/3), (1/2), (2/3), **(1)**, (4/3), (3/2), (2), (3), (4),  | 
 |- 그룹당 움직임 | [8] (4 ~ 32) | 
 |- 주기 | [0] (0 ~ 1) | 
 |- 곡선 | [0] (0 ~ 1) | 
 | 변동 속도 | OFF | 
-|- 모드 | **Gradual**, Random, Volume,  | 
-|- 최소 속도 | 1/4, 1/3, **1/2**, 2/3, 1,  | 
-|- 최대 속도 | 1, **3/2**, 2, 3, 4,  | 
+|- 모드 | **(Gradual)**, 무작위, 볼륨,  | 
+|- 최소 속도 | (1/4), (1/3), **(1/2)**, (2/3), (1),  | 
+|- 최대 속도 | (1), **(3/2)**, (2), (3), (4),  | 
 |
 |- 거리 | [0.1] (0 ~ 0.3) | 
 |- 각도 | [0] (-60 ~ 60) | 
 |
-| 애니메이션 |  **None**,  | 부착 모델에 사용할 로드된 모션 선택 |
+| 애니메이션 | **없음**,  | 부착 모델에 사용할 로드된 모션 선택 |
 |**표면** | | 
 |- 광택 | [0.9] (0 ~ 1) | 
 |- 금속성 | [1] (0 ~ 1) | 
@@ -85,16 +85,16 @@ sidebar:
 |- 알파 | [1] (0 ~ 1) | 
 |- 클립 | [0] (0 ~ 1) | 
 |**색상** | | 
-|- 색상 모드 | **RGB**, HSV,  | 
+|- 색상 모드 | **(RGB)**, (HSV),  | 
 |- 색조 | [0] (0 ~ 1) | 
 |- 채도 | [0] (0 ~ 1) | 
 |- 밝기 | [1] (0 ~ 1) | 
 |- 빨간색 | [1] (0 ~ 1) | 
 |- 초록색 | [1] (0 ~ 1) | 
 |- 파란색 | [1] (0 ~ 1) | 
-| 혼합 모드 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| 혼합 모드 | 원본, (Multiply), **혼합**, (Color Shift),  |  |
 |- 혼합 | [1] (0 ~ 1) | 
-| 프리셋 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| 프리셋 | 원본, **흰색**, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |  |
 |
 |**툰 셰이더** | | 
 | (Enable Toon Shader) | OFF | 
@@ -108,14 +108,14 @@ sidebar:
 |- 그림자 영역 | [0.65] (0 ~ 1) | 
 |- 그림자 | [0.75] (0 ~ 1) | 
 |- 부드러운 그림자 | [0.1] (0 ~ 1) | 
-| 프리셋 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| 프리셋 | **선명한**, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |  |
 |
 |**특수 셰이더** | | 
-| 모드 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| 모드 | **끄기**, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |  |
 |- 굴절 | [0.5] (1 ~ 3) | 
 |- 두께 | [1] (0 ~ 1) | 
 |
-| 프리셋 |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| 프리셋 | 흰색 광택, 붉은색 광택, **크롬**, 검은색 광택, 금색, 단단한 유리, 얇은 유리,  |  |
 |
 |- X레이 | [0] (0 ~ 1) | 
 |- 알파 | [1] (0 ~ 1) | 
@@ -123,10 +123,10 @@ sidebar:
 | 잡기 포즈 | ON | 부착물에 있을 때 자동으로 손 포즈를 잡기 자세로 변경
 |- 손 동작 | [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
 |
-| 오른손 포즈 |  **Auto**,  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+| 오른손 포즈 | **자동**, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**오른손 액세서리** | | 
 | (Enable Right Hand Accessory) | OFF | 
-| 모델 |  **[Pole]**,  |  |
+| 모델 | **[기둥]**,  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -141,7 +141,7 @@ sidebar:
 |- 객체 반경 | [0.02] (0.01 ~ 0.05) | 
 |- 객체 길이 | [0.2] (0 ~ 5) | 
 |- 스케일 | [0] (-5 ~ 5) | 
-|- 방향 | **Y Up**, Y Down, X Up, X Down, Z Up, Z Down,  | 
+|- 방향 | **(Y Up)**, (Y Down), (X Up), (X Down), (Z Up), (Z Down),  | 
 | 오프셋 || 
 |- (X) | [0] (-2 ~ 2) | 
 |- (Y) | [0] (-2 ~ 2) | 
@@ -154,19 +154,19 @@ sidebar:
 |**모션** | | Apply up / down motion to the attachment model
 | (Enable Motion) | OFF | 
 |**속도** | | 
-|- 비트당 움직임 | 1/4, 1/3, 1/2, 2/3, **1**, 4/3, 3/2, 2, 3, 4,  | 
+|- 비트당 움직임 | (1/4), (1/3), (1/2), (2/3), **(1)**, (4/3), (3/2), (2), (3), (4),  | 
 |- 그룹당 움직임 | [8] (4 ~ 32) | 
 |- 주기 | [0] (0 ~ 1) | 
 |- 곡선 | [0] (0 ~ 1) | 
 | 변동 속도 | OFF | 
-|- 모드 | **Gradual**, Random, Volume,  | 
-|- 최소 속도 | 1/4, 1/3, **1/2**, 2/3, 1,  | 
-|- 최대 속도 | 1, **3/2**, 2, 3, 4,  | 
+|- 모드 | **(Gradual)**, 무작위, 볼륨,  | 
+|- 최소 속도 | (1/4), (1/3), **(1/2)**, (2/3), (1),  | 
+|- 최대 속도 | (1), **(3/2)**, (2), (3), (4),  | 
 |
 |- 거리 | [0.1] (0 ~ 0.3) | 
 |- 각도 | [0] (-60 ~ 60) | 
 |
-| 애니메이션 |  **None**,  | 부착 모델에 사용할 로드된 모션 선택 |
+| 애니메이션 | **없음**,  | 부착 모델에 사용할 로드된 모션 선택 |
 |**표면** | | 
 |- 광택 | [0.9] (0 ~ 1) | 
 |- 금속성 | [1] (0 ~ 1) | 
@@ -176,16 +176,16 @@ sidebar:
 |- 알파 | [1] (0 ~ 1) | 
 |- 클립 | [0] (0 ~ 1) | 
 |**색상** | | 
-|- 색상 모드 | **RGB**, HSV,  | 
+|- 색상 모드 | **(RGB)**, (HSV),  | 
 |- 색조 | [0] (0 ~ 1) | 
 |- 채도 | [0] (0 ~ 1) | 
 |- 밝기 | [1] (0 ~ 1) | 
 |- 빨간색 | [1] (0 ~ 1) | 
 |- 초록색 | [1] (0 ~ 1) | 
 |- 파란색 | [1] (0 ~ 1) | 
-| 혼합 모드 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| 혼합 모드 | 원본, (Multiply), **혼합**, (Color Shift),  |  |
 |- 혼합 | [1] (0 ~ 1) | 
-| 프리셋 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| 프리셋 | 원본, **흰색**, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |  |
 |
 |**툰 셰이더** | | 
 | (Enable Toon Shader) | OFF | 
@@ -199,14 +199,14 @@ sidebar:
 |- 그림자 영역 | [0.65] (0 ~ 1) | 
 |- 그림자 | [0.75] (0 ~ 1) | 
 |- 부드러운 그림자 | [0.1] (0 ~ 1) | 
-| 프리셋 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| 프리셋 | **선명한**, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |  |
 |
 |**특수 셰이더** | | 
-| 모드 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| 모드 | **끄기**, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |  |
 |- 굴절 | [0.5] (1 ~ 3) | 
 |- 두께 | [1] (0 ~ 1) | 
 |
-| 프리셋 |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+| 프리셋 | 흰색 광택, 붉은색 광택, **크롬**, 검은색 광택, 금색, 단단한 유리, 얇은 유리,  |  |
 |
 |- X레이 | [0] (0 ~ 1) | 
 |- 알파 | [1] (0 ~ 1) | 
@@ -215,6 +215,6 @@ sidebar:
 |- 손 동작 | [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
 |
 |
-| 기즈모 3차 축 |  **Rotation**,  Depth,  |  |
+| 기즈모 3차 축 | **회전**, 깊이,  |  |
 | 번역된 이름 사용 | ON | 
 |

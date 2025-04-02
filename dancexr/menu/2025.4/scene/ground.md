@@ -20,7 +20,7 @@ sidebar:
 |- Radius | [200] (2 ~ 100) | Size of the ground mesh.
 | Hide If Stage Present | ON | Hide ground when there are stage models.
 |**Surface** | | 
-| Texture |  [Sky Map],  [Wood1],  [Wood2],  **[Tiles]**,  [Concrete],  [Video],  |  |
+| Texture | [Sky Map], [Wood1], [Wood2], **[Tiles]**, [Concrete], [Video],  |  |
 |**Tiling** | | 
 |- Tiling X | [1] (0.1 ~ 10) | 
 |- Tiling Y | [1] (0.1 ~ 10) | 
@@ -46,9 +46,9 @@ sidebar:
 |- Red | [1] (0 ~ 1) | 
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
-| Blend Mode |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
-| Presets |  Original,  White,  **Black**,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| Presets | Original, White, **Black**, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
 |
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
@@ -62,10 +62,10 @@ sidebar:
 |- Shadow Area | [0.65] (0 ~ 1) | 
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
-| Presets |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
 |
 |**Special Shader** | | 
-| Mode |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
 |
@@ -79,11 +79,11 @@ sidebar:
 |- Edge | [0.5] (0 ~ 1) | 
 |- Reduce Moire | [0.1] (0 ~ 1) | 
 |
-| Presets |  Sky Map,  Wood,  Concrete,  Blue Tiles,  Projector Screen,  Emissive Screen,  LED Screen,  **Black Gloss**,  Glow,  Glass,  |  |
+| Presets | Sky Map, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, **Black Gloss**, Glow, Glass,  |  |
 |
 |**Shadow Only** | | 
 | Shadow Color || 
-| Presets |  White,  **Black**,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  Preset 1,  |  |
+| Presets | White, **Black**, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |  |
 |- Color Mode | **RGB**, HSV,  | 
 |- Hue | [0] (0 ~ 1) | 
 |- Satuation | [0] (0 ~ 1) | 
@@ -94,7 +94,7 @@ sidebar:
 |- Transparency | [0.5] (0 ~ 1) | 
 |
 | Stage / Pool | OFF | 
-| Presets |  **Off**,  Runway,  Pool,  Room,  Background Board,  Projector Screen,  LED Screen,  |  |
+| Presets | **Off**, Runway, Pool, Room, Background Board, Projector Screen, LED Screen,  |  |
 |- Lift | [0.5] (-2 ~ 2) | Lift the stage up / down.
 |- Front / Back Offset | [0] (-10 ~ 10) | 
 |**Shape** | | 
@@ -110,7 +110,7 @@ sidebar:
 | Floating | OFF | 
 |
 |**Surface** | | 
-| Texture |  [Blank],  **[Wood1]**,  [Wood2],  [Tiles],  [Concrete],  [Video],  |  |
+| Texture | [Blank], **[Wood1]**, [Wood2], [Tiles], [Concrete], [Video],  |  |
 |**Tiling** | | 
 |- Tiling X | [1] (0.1 ~ 10) | 
 |- Tiling Y | [1] (0.1 ~ 10) | 
@@ -136,9 +136,9 @@ sidebar:
 |- Red | [1] (0 ~ 1) | 
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
-| Blend Mode |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
-| Presets |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
 |
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
@@ -152,10 +152,10 @@ sidebar:
 |- Shadow Area | [0.65] (0 ~ 1) | 
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
-| Presets |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
 |
 |**Special Shader** | | 
-| Mode |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
 |
@@ -168,10 +168,10 @@ sidebar:
 |- Edge | [0.5] (0 ~ 1) | 
 |- Reduce Moire | [0.1] (0 ~ 1) | 
 |
-| Presets |  Blank,  **Wood**,  Concrete,  Blue Tiles,  Projector Screen,  Emissive Screen,  LED Screen,  Black Gloss,  Glow,  Glass,  |  |
+| Presets | Blank, **Wood**, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |  |
 |
 |**Back Surface** | | 
-| Texture |  **[Blank]**,  [Wood1],  [Wood2],  [Tiles],  [Concrete],  [Video],  |  |
+| Texture | **[Blank]**, [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |  |
 |**Tiling** | | 
 |- Tiling X | [1] (0.1 ~ 10) | 
 |- Tiling Y | [1] (0.1 ~ 10) | 
@@ -197,9 +197,9 @@ sidebar:
 |- Red | [1] (0 ~ 1) | 
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
-| Blend Mode |  **Original**,  Multiply,  Blend,  Color Shift,  |  |
+| Blend Mode | **Original**, Multiply, Blend, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
-| Presets |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
 |
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
@@ -213,10 +213,10 @@ sidebar:
 |- Shadow Area | [0.65] (0 ~ 1) | 
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
-| Presets |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
 |
 |**Special Shader** | | 
-| Mode |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
 |
@@ -229,10 +229,10 @@ sidebar:
 |- Edge | [0.5] (0 ~ 1) | 
 |- Reduce Moire | [0.1] (0 ~ 1) | 
 |
-| Presets |  **Blank**,  Wood,  Concrete,  Blue Tiles,  Projector Screen,  Emissive Screen,  LED Screen,  Black Gloss,  Glow,  Glass,  |  |
+| Presets | **Blank**, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |  |
 |
 | Water System | OFF | 
-| Presets |  **Off**,  Pool,  Still Water,  Ocean,  |  |
+| Presets | **Off**, Pool, Still Water, Ocean,  |  |
 |- Type | **Pool**, River, Ocean,  | 
 |- Height | [-0.1] (-2 ~ 2) | Height of water level.
 |- Ripples | [3] (0 ~ 10) | Intensity of small wave
@@ -241,5 +241,5 @@ sidebar:
 |- Absorption Distance | [5] (1 ~ 10) | Max distance you can see in the water from above.
 |- Caustics | [0.5] (0 ~ 1) | Caustics effect
 |- Absorption Multiplier | [2] (0 ~ 5) | Multiplication applied to the Absorption Distance when viewing from below.
-| Presets |  Sky Map,  **Black Gloss**,  Stage,  Pool,  Ocean,  Background Board,  Projector Screen,  Emissive Screen,  Preset 1,  |  |
+| Presets | Sky Map, **Black Gloss**, Stage, Pool, Ocean, Background Board, Projector Screen, Emissive Screen, Preset 1,  |  |
 |

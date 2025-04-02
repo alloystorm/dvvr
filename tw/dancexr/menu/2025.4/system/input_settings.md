@@ -21,127 +21,127 @@ sidebar:
 | 使用遊戲手把 | OFF | 在 VR 模式中啟用遊戲手把輸入
 | 使用握把輸入 | ON | 關閉時完全忽略握把按鈕
 |- 握把閾值 | [0.5] (0 ~ 1) | 觸發握把按鈕輸入的閾值，對於像 Valve Index 這樣的非常敏感控制器非常有用
-| 預設 |  **Thumbstick**,  Trackpad,  Trackpad + Thumbstick,  |  |
+| 預設 | **(Thumbstick)**, (Trackpad), (Trackpad + Thumbstick),  |  |
 |
 |**左拇指 X** | | 
-| 主要動作 |  None,  **Move Left / Right**,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| 第二動作 |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  **Rotate Left / Right**,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
+| 主要動作 | 無, **向左 / 向右移動**, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |  |
+| 第二動作 | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, **向左 / 向右旋轉**, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |  |
 |- 死區 | [0.1] (0 ~ 1) | 
 | 反轉 | OFF | 
-| 鍵盤替代 + |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  **D**,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
-| 鍵盤替代 - |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  **A**,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 鍵盤替代 + | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), **(D)**, 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
+| 鍵盤替代 - | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, **A**, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- 平滑度 | [0.1] (0 ~ 1) | 
 |
 |**左拇指 Y** | | 
-| 主要動作 |  None,  Move Left / Right,  **Move Forward / Back**,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| 第二動作 |  None,  Move Left / Right,  Move Forward / Back,  **Move Up / Down**,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
+| 主要動作 | 無, 向左 / 向右移動, **向前 / 向後移動**, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |  |
+| 第二動作 | 無, 向左 / 向右移動, 向前 / 向後移動, **向上 / 向下移動**, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |  |
 |- 死區 | [0.1] (0 ~ 1) | 
 | 反轉 | OFF | 
-| 鍵盤替代 + |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  **W**,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
-| 鍵盤替代 - |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  **S**,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 鍵盤替代 + | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), **(W)**, (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
+| 鍵盤替代 - | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), **(S)**, (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- 平滑度 | [0.1] (0 ~ 1) | 
 |
 |**右拇指 X** | | 
-| 主要動作 |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  **Rotate Left / Right**,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| 第二動作 |  None,  **Move Left / Right**,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
+| 主要動作 | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, **向左 / 向右旋轉**, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |  |
+| 第二動作 | 無, **向左 / 向右移動**, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |  |
 |- 死區 | [0.1] (0 ~ 1) | 
 | 反轉 | OFF | 
-| 鍵盤替代 + |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  **Right**,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
-| 鍵盤替代 - |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  **Left**,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 鍵盤替代 + | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, **右**, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
+| 鍵盤替代 - | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, **左**, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- 平滑度 | [0.1] (0 ~ 1) | 
 |
 |**右拇指 Y** | | 
-| 主要動作 |  None,  Move Left / Right,  Move Forward / Back,  **Move Up / Down**,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| 第二動作 |  None,  Move Left / Right,  **Move Forward / Back**,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
+| 主要動作 | 無, 向左 / 向右移動, 向前 / 向後移動, **向上 / 向下移動**, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |  |
+| 第二動作 | 無, 向左 / 向右移動, **向前 / 向後移動**, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |  |
 |- 死區 | [0.1] (0 ~ 1) | 
 | 反轉 | OFF | 
-| 鍵盤替代 + |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  **Up**,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
-| 鍵盤替代 - |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  **Down**,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 鍵盤替代 + | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), **向上**, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
+| 鍵盤替代 - | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, **向下**, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- 平滑度 | [0.1] (0 ~ 1) | 
 |
 |**左觸發器** | | 
-| 主要軸動作 |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  **Custom Axis 1**,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| 主要按鈕動作 |  **None**,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
+| 主要軸動作 | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, **自定義軸 1**, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |  |
+| 主要按鈕動作 | **無**, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
 |- 死區 | [0.1] (0 ~ 1) | 
 |- 按鈕閾值 | [0.75] (0 ~ 1) | 
-| 鍵盤替代 + |  None,  Esc,  Backspace,  **Tab**,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 鍵盤替代 + | 無, (Esc), (Backspace), **(Tab)**, (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- 平滑度 | [0.1] (0 ~ 1) | 
 |
 |**右扳機** | | 
-| 主要軸動作 |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  **Custom Axis 2**,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| 主要按鈕動作 |  **None**,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
+| 主要軸動作 | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, **自定義軸 2**, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |  |
+| 主要按鈕動作 | **無**, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
 |- 死區 | [0.1] (0 ~ 1) | 
 |- 按鈕閾值 | [0.75] (0 ~ 1) | 
-| 鍵盤替代 + |  None,  Esc,  Backspace,  Tab,  **Space**,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 鍵盤替代 + | 無, (Esc), (Backspace), (Tab), **(Space)**, (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- 平滑度 | [0.1] (0 ~ 1) | 
 |
 |**十字按鍵 X** | | 
-| 主要動作 |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  **UI X**,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| 第二動作 |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  **Seek Timeline**,  Seek Frame,  |  |
+| 主要動作 | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, **UI X**, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |  |
+| 第二動作 | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, **尋找時間線**, 尋找幀,  |  |
 |- 死區 | [0.1] (0 ~ 1) | 
 | 反轉 | OFF | 
-| 鍵盤替代 + |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  **L**,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
-| 鍵盤替代 - |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  **J**,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 鍵盤替代 + | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), **(L)**, (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
+| 鍵盤替代 - | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, **(J)**, (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- 平滑度 | [0.1] (0 ~ 1) | 
 |
 |**十字按鍵 Y** | | 
-| 主要動作 |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  **UI Y**,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| 第二動作 |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  **Seek Frame**,  |  |
+| 主要動作 | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, **UI Y**, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |  |
+| 第二動作 | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, **尋找幀**,  |  |
 |- 死區 | [0.1] (0 ~ 1) | 
 | 反轉 | OFF | 
-| 鍵盤替代 + |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  **I**,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
-| 鍵盤替代 - |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  **K**,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 鍵盤替代 + | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), **我**, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
+| 鍵盤替代 - | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), **(K)**, (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- 平滑度 | [0.1] (0 ~ 1) | 
 |
 |**按鈕 X / 左 1** | | 
-| 主要動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  **Center Actor**,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| 第二動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  **Reset Physics**,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  **1**,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 主要動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, **中心演員**, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| 第二動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, **重設物理**, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| (Key) | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), **(1)**, (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**按鈕 Y / 左 2** | | 
-| 主要動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  **Next Actor**,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| 第二動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  **Shuffle Actor**,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  **2**,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 主要動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, **下一個演員**, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| 第二動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, **隨機演員**, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| (Key) | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), **(2)**, (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**按鈕 A / 右 1** | | 
-| 主要動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  **Next Motion**,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| 第二動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  **Prev Motion**,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  **3**,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 主要動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, **下一個動作**, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| 第二動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, **上一個動作**, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| (Key) | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), **(3)**, (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**按鈕 B / 右 2** | | 
-| 主要動作 |  None,  Toggle UI,  **Play / Pause**,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| 第二動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  **Slow Motion**,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  **4**,  5,  6,  7,  8,  9,  0,  |  |
+| 主要動作 | 無, 切換 UI, **播放 / 暫停**, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| 第二動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, **慢動作**, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| (Key) | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), **(4)**, (5), (6), (7), (8), (9), (0),  |  |
 |
 |**左肩** | | 
-| 主要動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  **Secondary Action**,  Center UI,  Toggle Microphone,  |  |
-| 第二動作 |  **None**,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  **L Shift**,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 主要動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, **次要操作**, 中心 UI, 切換麥克風,  |  |
+| 第二動作 | **無**, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| (Key) | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), **(L Shift)**, (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**右肩** | | 
-| 主要動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  **Secondary Action**,  Center UI,  Toggle Microphone,  |  |
-| 第二動作 |  **None**,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  **R Shift**,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 主要動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, **次要操作**, 中心 UI, 切換麥克風,  |  |
+| 第二動作 | **無**, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| (Key) | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), **(R Shift)**, (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**左拇指點擊** | | 
-| 主要動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  **Reset Physics**,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| 第二動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  **Center UI**,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  **L Ctrl**,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 主要動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, **重設物理**, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| 第二動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, **中心 UI**, 切換麥克風,  |  |
+| (Key) | 無, (Esc), (Backspace), (Tab), (Space), (Return), **(L Ctrl)**, (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**右拇指點擊** | | 
-| 主要動作 |  None,  **Toggle UI**,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| 第二動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  **Center UI**,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  **R Ctrl**,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 主要動作 | 無, **切換 UI**, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| 第二動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, **中心 UI**, 切換麥克風,  |  |
+| (Key) | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), **(R Ctrl)**, (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**選擇** | | 
-| 主要動作 |  None,  **Toggle UI**,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| 第二動作 |  None,  Toggle UI,  Play / Pause,  **UI Back**,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  **Esc**,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 主要動作 | 無, **切換 UI**, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| 第二動作 | 無, 切換 UI, 播放 / 暫停, **返回 UI**, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |  |
+| (Key) | 無, **(Esc)**, (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**開始** | | 
-| 主要動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  **Toggle Microphone**,  |  |
-| 第二動作 |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  **Toggle Microphone**,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  **Return**,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| 主要動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, **切換麥克風**,  |  |
+| 第二動作 | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, **切換麥克風**,  |  |
+| (Key) | 無, (Esc), (Backspace), (Tab), (Space), **(Return)**, (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
-| 預設 |  **Default (Reset)**,  |  |
+| 預設 | **預設 (重置)**,  |  |
 |

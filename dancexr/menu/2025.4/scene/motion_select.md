@@ -17,8 +17,8 @@ sidebar:
 | Camera: [Freefly Cam] || 
 | [Freefly Cam] || 
 |**[Freefly Cam]** | | 
-| Target Select |  **Auto**,  Selected,  Group,  Rotate,  Rotate + Group,  Stage Center,  |  |
-| Tracking Mode |  **Center**,  Head,  Chest,  |  |
+| Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
+| Tracking Mode | **Center**, Head, Chest,  |  |
 |- Target Smoothing | [0.5] (0 ~ 2) | 
 |- Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
 | Lock On Target | OFF | Automatically focus on target
@@ -31,12 +31,12 @@ sidebar:
 |- FOV | [30] (5 ~ 120) | 
 |- Beat Cycle | [8] (1 ~ 16) | 
 | Use Orbit Move | OFF | 
-| Presets |  **Freefly**,  Lock On Actor,  Lock + Zoom Fullbody,  Lock + Zoom Upper Body,  |  |
+| Presets | **Freefly**, Lock On Actor, Lock + Zoom Fullbody, Lock + Zoom Upper Body,  |  |
 |
 | [Orbit Cam] || 
 |**[Orbit Cam]** | | 
-| Target Select |  **Auto**,  Selected,  Group,  Rotate,  Rotate + Group,  Stage Center,  |  |
-| Tracking Mode |  **Center**,  Head,  Chest,  |  |
+| Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
+| Tracking Mode | **Center**, Head, Chest,  |  |
 |- Target Smoothing | [0.5] (0 ~ 2) | 
 |- Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
 |- FOV | [30] (5 ~ 120) | 
@@ -57,12 +57,12 @@ sidebar:
 |- Height Max | [0.5] (0 ~ 1) | 
 |- Height Cycle | [32] (Unlimited) | 
 |- Speed | [10] (0 ~ 90) | 
-| Presets |  **Default (Reset)**,  Preset 1,  |  |
+| Presets | **Default (Reset)**, Preset 1,  |  |
 |
 | [Auto Cam] || 
 |**[Auto Cam]** | | 
-| Target Select |  **Auto**,  Selected,  Group,  Rotate,  Rotate + Group,  Stage Center,  |  |
-| Tracking Mode |  **Center**,  Head,  Chest,  |  |
+| Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
+| Tracking Mode | **Center**, Head, Chest,  |  |
 |- Target Smoothing | [0.5] (0 ~ 2) | 
 |- Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
 |- FOV | [30] (5 ~ 120) | 
@@ -95,12 +95,12 @@ sidebar:
 |- Side 90 | [0.25] (0 ~ 1) | 
 |- Back 135 | [0] (0 ~ 1) | 
 |- Back 180 | [0.25] (0 ~ 1) | 
-| Presets |  **Default (Reset)**,  Preset 1,  |  |
+| Presets | **Default (Reset)**, Preset 1,  |  |
 |
 | [Long Take] || 
 |**[Long Take]** | | 
-| Target Select |  **Auto**,  Selected,  Group,  Rotate,  Rotate + Group,  Stage Center,  |  |
-| Tracking Mode |  **Center**,  Head,  Chest,  |  |
+| Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
+| Tracking Mode | **Center**, Head, Chest,  |  |
 |- Target Smoothing | [0.5] (0 ~ 2) | 
 |- Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
 |- FOV | [30] (5 ~ 120) | 
@@ -112,7 +112,7 @@ sidebar:
 | Prevent Below Floor | ON | 
 | Use Actor Orientation | ON | 
 | Raise Focus When Close | OFF | Move focus position up when distance gets smaller
-| Presets |  **Default (Reset)**,  Preset 1,  Preset 2,  Preset 3,  |  |
+| Presets | **Default (Reset)**, Preset 1, Preset 2, Preset 3,  |  |
 |
 | [First Person] || 
 |**[First Person]** | | 
@@ -129,8 +129,8 @@ sidebar:
 |
 | [Fixed Camera] || 
 |**[Fixed Camera]** | | 
-| Target Select |  **Auto**,  Selected,  Group,  Rotate,  Rotate + Group,  Stage Center,  |  |
-| Tracking Mode |  **Center**,  Head,  Chest,  |  |
+| Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
+| Tracking Mode | **Center**, Head, Chest,  |  |
 |- Target Smoothing | [0.5] (0 ~ 2) | 
 |- Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
 | Lock On Target | OFF | Automatically focus on target
@@ -149,7 +149,7 @@ sidebar:
 |- X | [0] (-2 ~ 2) | 
 |- Y | [0] (-2 ~ 2) | 
 |- Z | [0] (-2 ~ 2) | 
-| Presets |  Near,  **Far**,  |  |
+| Presets | Near, **Far**,  |  |
 |
 | Config || 
 |**Main Camera** | | 

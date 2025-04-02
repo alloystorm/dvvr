@@ -21,127 +21,127 @@ sidebar:
 | ゲームパッドを使用 | OFF | VRモードでゲームパッド入力を有効にする
 | グリップ入力を使用 | ON | オフにするとグリップボタンを完全に無視
 |- グリップ閾値 | [0.5] (0 ~ 1) | グリップボタン入力をトリガーするための閾値。Valve Indexのような非常に敏感なコントローラーに便利
-| プリセット |  **Thumbstick**,  Trackpad,  Trackpad + Thumbstick,  |  |
+| プリセット | **(Thumbstick)**, (Trackpad), (Trackpad + Thumbstick),  |  |
 |
 |**左サムスティック X** | | 
-| プライムアクション |  None,  **Move Left / Right**,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| セカンダリアクション |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  **Rotate Left / Right**,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
+| プライムアクション | なし, **左 / 右に移動**, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |  |
+| セカンダリアクション | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, **左 / 右に回転**, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |  |
 |- デッドゾーン | [0.1] (0 ~ 1) | 
 | 反転 | OFF | 
-| キーボードオルタナティブ + |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  **D**,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
-| キーボードオルタナティブ - |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  **A**,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| キーボードオルタナティブ + | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), **(D)**, E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
+| キーボードオルタナティブ - | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, **A**, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- スムージング | [0.1] (0 ~ 1) | 
 |
 |**左サムスティック Y** | | 
-| プライムアクション |  None,  Move Left / Right,  **Move Forward / Back**,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| セカンダリアクション |  None,  Move Left / Right,  Move Forward / Back,  **Move Up / Down**,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
+| プライムアクション | なし, 左 / 右に移動, **前方 / 後方に移動**, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |  |
+| セカンダリアクション | なし, 左 / 右に移動, 前方 / 後方に移動, **上 / 下に移動**, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |  |
 |- デッドゾーン | [0.1] (0 ~ 1) | 
 | 反転 | OFF | 
-| キーボードオルタナティブ + |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  **W**,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
-| キーボードオルタナティブ - |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  **S**,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| キーボードオルタナティブ + | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), **(W)**, (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
+| キーボードオルタナティブ - | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), **(S)**, (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- スムージング | [0.1] (0 ~ 1) | 
 |
 |**右サムスティック X** | | 
-| プライムアクション |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  **Rotate Left / Right**,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| セカンダリアクション |  None,  **Move Left / Right**,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
+| プライムアクション | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, **左 / 右に回転**, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |  |
+| セカンダリアクション | なし, **左 / 右に移動**, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |  |
 |- デッドゾーン | [0.1] (0 ~ 1) | 
 | 反転 | OFF | 
-| キーボードオルタナティブ + |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  **Right**,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
-| キーボードオルタナティブ - |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  **Left**,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| キーボードオルタナティブ + | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, **右**, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
+| キーボードオルタナティブ - | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, **左**, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- スムージング | [0.1] (0 ~ 1) | 
 |
 |**右サムスティック Y** | | 
-| プライムアクション |  None,  Move Left / Right,  Move Forward / Back,  **Move Up / Down**,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| セカンダリアクション |  None,  Move Left / Right,  **Move Forward / Back**,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
+| プライムアクション | なし, 左 / 右に移動, 前方 / 後方に移動, **上 / 下に移動**, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |  |
+| セカンダリアクション | なし, 左 / 右に移動, **前方 / 後方に移動**, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |  |
 |- デッドゾーン | [0.1] (0 ~ 1) | 
 | 反転 | OFF | 
-| キーボードオルタナティブ + |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  **Up**,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
-| キーボードオルタナティブ - |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  **Down**,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| キーボードオルタナティブ + | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), **上**, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
+| キーボードオルタナティブ - | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, **下**, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- スムージング | [0.1] (0 ~ 1) | 
 |
 |**左トリガー** | | 
-| プライム軸アクション |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  **Custom Axis 1**,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| プライムボタンアクション |  **None**,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
+| プライム軸アクション | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, **カスタム軸 1**, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |  |
+| プライムボタンアクション | **なし**, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
 |- デッドゾーン | [0.1] (0 ~ 1) | 
 |- ボタンしきい値 | [0.75] (0 ~ 1) | 
-| キーボードオルタナティブ + |  None,  Esc,  Backspace,  **Tab**,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| キーボードオルタナティブ + | なし, (Esc), (Backspace), **(Tab)**, (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- スムージング | [0.1] (0 ~ 1) | 
 |
 |**右トリガー** | | 
-| プライム軸アクション |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  **Custom Axis 2**,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| プライムボタンアクション |  **None**,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
+| プライム軸アクション | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, **カスタム軸 2**, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |  |
+| プライムボタンアクション | **なし**, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
 |- デッドゾーン | [0.1] (0 ~ 1) | 
 |- ボタンしきい値 | [0.75] (0 ~ 1) | 
-| キーボードオルタナティブ + |  None,  Esc,  Backspace,  Tab,  **Space**,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| キーボードオルタナティブ + | なし, (Esc), (Backspace), (Tab), **(Space)**, (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- スムージング | [0.1] (0 ~ 1) | 
 |
 |**十字キー X** | | 
-| プライムアクション |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  **UI X**,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| セカンダリアクション |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  **Seek Timeline**,  Seek Frame,  |  |
+| プライムアクション | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, **UI X**, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |  |
+| セカンダリアクション | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, **タイムラインをシーク**, フレームをシーク,  |  |
 |- デッドゾーン | [0.1] (0 ~ 1) | 
 | 反転 | OFF | 
-| キーボードオルタナティブ + |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  **L**,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
-| キーボードオルタナティブ - |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  **J**,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| キーボードオルタナティブ + | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), **(L)**, (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
+| キーボードオルタナティブ - | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, **(J)**, (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- スムージング | [0.1] (0 ~ 1) | 
 |
 |**十字キー Y** | | 
-| プライムアクション |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  **UI Y**,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  Seek Frame,  |  |
-| セカンダリアクション |  None,  Move Left / Right,  Move Forward / Back,  Move Up / Down,  Rotate Left / Right,  UI X,  UI Y,  Custom Axis 1,  Custom Axis 2,  Tilt View,  UI Scroll,  Seek Timeline,  **Seek Frame**,  |  |
+| プライムアクション | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, **UI Y**, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |  |
+| セカンダリアクション | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, **フレームをシーク**,  |  |
 |- デッドゾーン | [0.1] (0 ~ 1) | 
 | 反転 | OFF | 
-| キーボードオルタナティブ + |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  **I**,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
-| キーボードオルタナティブ - |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  **K**,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| キーボードオルタナティブ + | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), **I**, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
+| キーボードオルタナティブ - | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), **(K)**, (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |- スムージング | [0.1] (0 ~ 1) | 
 |
 |**ボタン X / 左 1** | | 
-| プライムアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  **Center Actor**,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| セカンダリアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  **Reset Physics**,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  **1**,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| プライムアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, **アクターを中央に**, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| セカンダリアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, **物理をリセット**, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| (Key) | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), **(1)**, (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**ボタン Y / 左 2** | | 
-| プライムアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  **Next Actor**,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| セカンダリアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  **Shuffle Actor**,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  **2**,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| プライムアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, **次のアクター**, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| セカンダリアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, **アクターをシャッフル**, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| (Key) | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), **(2)**, (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**ボタン A / 右 1** | | 
-| プライムアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  **Next Motion**,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| セカンダリアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  **Prev Motion**,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  **3**,  4,  5,  6,  7,  8,  9,  0,  |  |
+| プライムアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, **次の動作**, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| セカンダリアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, **前の動作**, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| (Key) | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), **(3)**, (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**ボタン B / 右 2** | | 
-| プライムアクション |  None,  Toggle UI,  **Play / Pause**,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| セカンダリアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  **Slow Motion**,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  **4**,  5,  6,  7,  8,  9,  0,  |  |
+| プライムアクション | なし, UIを切り替え, **再生 / 一時停止**, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| セカンダリアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, **スローモーション**, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| (Key) | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), **(4)**, (5), (6), (7), (8), (9), (0),  |  |
 |
 |**左ショルダー** | | 
-| プライムアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  **Secondary Action**,  Center UI,  Toggle Microphone,  |  |
-| セカンダリアクション |  **None**,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  **L Shift**,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| プライムアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, **セカンダリーアクション**, UIを中央に, マイクを切り替え,  |  |
+| セカンダリアクション | **なし**, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| (Key) | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), **(L Shift)**, (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**右ショルダー** | | 
-| プライムアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  **Secondary Action**,  Center UI,  Toggle Microphone,  |  |
-| セカンダリアクション |  **None**,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  **R Shift**,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| プライムアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, **セカンダリーアクション**, UIを中央に, マイクを切り替え,  |  |
+| セカンダリアクション | **なし**, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| (Key) | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), **(R Shift)**, (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**左サムスティッククリック** | | 
-| プライムアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  **Reset Physics**,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| セカンダリアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  **Center UI**,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  **L Ctrl**,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| プライムアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, **物理をリセット**, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| セカンダリアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, **UIを中央に**, マイクを切り替え,  |  |
+| (Key) | なし, (Esc), (Backspace), (Tab), (Space), (Return), **(L Ctrl)**, (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**右サムスティッククリック** | | 
-| プライムアクション |  None,  **Toggle UI**,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| セカンダリアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  **Center UI**,  Toggle Microphone,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  Return,  L Ctrl,  **R Ctrl**,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| プライムアクション | なし, **UIを切り替え**, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| セカンダリアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, **UIを中央に**, マイクを切り替え,  |  |
+| (Key) | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), **(R Ctrl)**, (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**選択** | | 
-| プライムアクション |  None,  **Toggle UI**,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| セカンダリアクション |  None,  Toggle UI,  Play / Pause,  **UI Back**,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  Toggle Microphone,  |  |
-| (Key) |  None,  **Esc**,  Backspace,  Tab,  Space,  Return,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| プライムアクション | なし, **UIを切り替え**, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| セカンダリアクション | なし, UIを切り替え, 再生 / 一時停止, **UIバック**, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |  |
+| (Key) | なし, **(Esc)**, (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
 |**スタート** | | 
-| プライムアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  **Toggle Microphone**,  |  |
-| セカンダリアクション |  None,  Toggle UI,  Play / Pause,  UI Back,  Reset Physics,  Center Actor,  Next Actor,  Prev Actor,  Next Motion,  Prev Motion,  Switch Camera,  Slow Motion,  Shuffle Actor,  Shuffle Motion,  Next Stage,  Previous Stage,  Shuffle Stage,  UI Action,  UI Alternative,  Secondary Action,  Center UI,  **Toggle Microphone**,  |  |
-| (Key) |  None,  Esc,  Backspace,  Tab,  Space,  **Return**,  L Ctrl,  R Ctrl,  L Shift,  R Shift,  L Alt,  R Alt,  Insert,  Delete,  Home,  End,  PageUp,  PageDown,  Up,  Down,  Left,  Right,  A,  B,  C,  D,  E,  F,  G,  H,  I,  J,  K,  L,  M,  N,  O,  P,  Q,  R,  S,  T,  U,  V,  W,  X,  Y,  Z,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,  |  |
+| プライムアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, **マイクを切り替え**,  |  |
+| セカンダリアクション | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, **マイクを切り替え**,  |  |
+| (Key) | なし, (Esc), (Backspace), (Tab), (Space), **(Return)**, (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |  |
 |
-| プリセット |  **Default (Reset)**,  |  |
+| プリセット | **デフォルト（リセット）**,  |  |
 |

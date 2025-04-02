@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**그래픽** | | 
-| 안티 앨리어싱 |  No AA,  **Deferred SMAA**,  Deferred TAA,  |  |
+| 안티 앨리어싱 | AA 없음, **지연 SMAA**, 지연 TAA,  |  |
 |**레이 트레이싱** | | 
 | (Enable Raytracing) | ON | 
 | 반사 | ON | 
@@ -27,12 +27,12 @@ sidebar:
 | 노이즈 제거 | ON | 
 |- 노이즈 제거 반경 | [0.1] (0 ~ 1) | 
 |
-| 슈퍼 샘플링 |  **Off**,  DLSS Performance,  DLSS Balance,  DLSS Quality,  DLSS Ultra Performance,  FSR 50%,  FSR 66%,  FSR 75%,  FSR 100%,  |  |
+| 슈퍼 샘플링 | **끄기**, DLSS 성능, DLSS 균형, DLSS 품질, DLSS 초성능, FSR 50%, FSR 66%, FSR 75%, FSR 100%,  |  |
 |**반사** | | 
 | (Enable Reflection) | ON | 
-|- 모드 | **Screen Space**, Probe,  | 
-|- 품질 | Low, Medium, **High**,  | 
-|- 알고리즘 | **Approximation**, PBRAccumulation,  | 스크린 스페이스 반사를 위한 알고리즘.
+|- 모드 | **스크린 스페이스**, 프로브,  | 
+|- 품질 | 낮음, 보통, **높음**,  | 
+|- 알고리즘 | **근사값**, PBR 누적,  | 스크린 스페이스 반사를 위한 알고리즘.
 |- 엣지 페이드 거리 | [0.1] (0 ~ 1) | 
 |- 객체 두께 | [0.01] (0 ~ 0.1) | 
 | 하늘로 대체 | ON | 레이 트레이싱에서 히트가 없을 때 하늘 색으로 대체.
@@ -47,28 +47,28 @@ sidebar:
 |
 |**주변 광 차폐** | | 
 | (Enable Ambient Occlusion) | OFF | 
-|- 품질 | Low, Medium, **High**,  | 
+|- 품질 | 낮음, 보통, **높음**,  | 
 |- 강도 | [1] (0 ~ 1) | 
 |
 |**전역 조명** | | 
 | (Enable Global Illumination) | OFF | 
-|- 품질 | **Low**, Medium, High,  | 
+|- 품질 | **낮음**, 보통, 높음,  | 
 | 하늘로 대체 | ON | 
 |
 |**피사계 심도** | | 
 | (Enable Depth Of Field) | OFF | 
-|- 품질 | Low, **Medium**, High,  | 
+|- 품질 | 낮음, **보통**, 높음,  | 
 |- 강도 | [0.25] (0 ~ 1) | 
 |- 오프셋 | [0.1] (-1 ~ 1) | 
 |
 |**모션 블러** | | 
 | (Enable Motion Blur) | OFF | 
-|- 품질 | Low, **Medium**, High,  | 
+|- 품질 | 낮음, **보통**, 높음,  | 
 |- 강도 | [0.25] (0 ~ 1) | 
 |
 |**블룸** | | 
 | (Enable Bloom) | ON | 
-|- 품질 | Low, Medium, **High**,  | 
+|- 품질 | 낮음, 보통, **높음**,  | 
 |- 강도 | [0.25] (0 ~ 1) | 
 |
 |**렌즈 플레어** | | 
@@ -76,7 +76,7 @@ sidebar:
 | VR에서 비활성화 | ON | 이 효과는 VR에 권장되지 않습니다.
 |- 강도 | [0.1] (0 ~ 1) | 
 |**색상** | | 
-|- 색상 모드 | **RGB**, HSV,  | 
+|- 색상 모드 | **(RGB)**, (HSV),  | 
 |- 색조 | [0] (0 ~ 1) | 
 |- 채도 | [0] (0 ~ 1) | 
 |- 밝기 | [1] (0 ~ 1) | 
@@ -85,7 +85,7 @@ sidebar:
 |- 파란색 | [1] (0 ~ 1) | 
 | 무대 색상 사용 | OFF | 무대 링에서 색상 사용
 |- 색온도 | [6500] (3000 ~ 8000) | 
-| 프리셋 |  **White**,  Sunset,  Red,  Yellow,  Blue,  Green,  |  |
+| 프리셋 | **흰색**, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |  |
 |
 |- 플레어 | [1] (0 ~ 1) | 
 |- 스트릭 | [0.2] (0 ~ 1) | 
@@ -99,7 +99,7 @@ sidebar:
 |- 색조 변형 | [0] (-180 ~ 180) | 
 |- 채도 | [1] (-100 ~ 100) | 
 |**색상 필터** | | 
-|- 색상 모드 | RGB, **HSV**,  | 
+|- 색상 모드 | (RGB), **(HSV)**,  | 
 |- 색조 | [0] (0 ~ 1) | 
 |- 채도 | [0] (0 ~ 1) | 
 |- 밝기 | [1] (0 ~ 1) | 
@@ -107,7 +107,7 @@ sidebar:
 |- 초록색 | [1] (0 ~ 1) | 
 |- 파란색 | [1] (0 ~ 1) | 
 |- 발광 | [1] (0 ~ 20) | 
-| 프리셋 |  **White**,  Red,  Green,  Blue,  Animated Hue,  Glow w/ Music,  |  |
+| 프리셋 | **흰색**, 빨간색, 초록색, 파란색, 애니메이션 색조, 음악과 함께 빛남,  |  |
 |
 |
 |**색상 곡선** | | 
@@ -126,13 +126,13 @@ sidebar:
 |
 |**특수 렌더** | | 
 | (Enable Special Render) | OFF | 
-|- 모드 | **Depth Output**, Normal Output,  | 
+|- 모드 | **깊이 출력**, 노멀 출력,  | 
 |- 깊이 범위 | [1] (0 ~ 1) | 
 |- 깊이 비율 | [0.25] (0 ~ 1) | 
 |- 노멀 비율 | [1] (0 ~ 1) | 
 |- 노멀 블렌드 | [0] (0 ~ 1) | 
 |
-|- 톤 매핑 | None, Neutral, ACES, **Custom**,  | 
+|- 톤 매핑 | 없음, 중립, ACES, **사용자 정의**,  | 
 | 배우 만화 셰이딩 | OFF | 모든 배우에 대해 툰 셰이딩 사용.
 | 스테이지 만화 셰이딩 | OFF | 무대 및 소품에 대해 툰 셰이딩 사용.
 |**옵션** | | 
@@ -143,5 +143,5 @@ sidebar:
 | NaN 중지 | ON | (Prevent black screen when error happens during post processing. )
 | 두께 계산 | ON | 피부 효과에 사용할 수 있는 두께 계산.
 |
-| 프리셋 |  Performance,  Medium,  **High**,  Indoor GI,  Outdoor GI,  Toon Effect,  |  |
+| 프리셋 | 성능, 보통, **높음**, 실내 GI, 실외 GI, 툰 효과,  |  |
 |

@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**图形** | | 
-| 抗锯齿 |  No AA,  **Deferred SMAA**,  Deferred TAA,  |  |
+| 抗锯齿 | 无抗锯齿, **延迟 SMAA**, 延迟 TAA,  |  |
 |**光线追踪** | | 
 | (Enable Raytracing) | ON | 
 | 反射 | ON | 
@@ -27,12 +27,12 @@ sidebar:
 | 去噪 | ON | 
 |- 去噪半径 | [0.1] (0 ~ 1) | 
 |
-| 超采样 |  **Off**,  DLSS Performance,  DLSS Balance,  DLSS Quality,  DLSS Ultra Performance,  FSR 50%,  FSR 66%,  FSR 75%,  FSR 100%,  |  |
+| 超采样 | **关闭**, DLSS 性能, DLSS 平衡, DLSS 质量, DLSS 超性能, FSR 50%, FSR 66%, FSR 75%, FSR 100%,  |  |
 |**反射** | | 
 | (Enable Reflection) | ON | 
-|- 模式 | **Screen Space**, Probe,  | 
-|- 质量 | Low, Medium, **High**,  | 
-|- 算法 | **Approximation**, PBRAccumulation,  | 用于屏幕空间反射的算法。
+|- 模式 | **屏幕空间**, 探头,  | 
+|- 质量 | 低, 中型, **高**,  | 
+|- 算法 | **近似**, 基于物理的渲染积累,  | 用于屏幕空间反射的算法。
 |- 边缘渐变距离 | [0.1] (0 ~ 1) | 
 |- 物体厚度 | [0.01] (0 ~ 0.1) | 
 | 回退到天空 | ON | 当光线追踪没有命中时回退到天空颜色。
@@ -47,28 +47,28 @@ sidebar:
 |
 |**环境光遮蔽** | | 
 | (Enable Ambient Occlusion) | OFF | 
-|- 质量 | Low, Medium, **High**,  | 
+|- 质量 | 低, 中型, **高**,  | 
 |- 强度 | [1] (0 ~ 1) | 
 |
 |**全局光照** | | 
 | (Enable Global Illumination) | OFF | 
-|- 质量 | **Low**, Medium, High,  | 
+|- 质量 | **低**, 中型, 高,  | 
 | 回退到天空 | ON | 
 |
 |**景深** | | 
 | (Enable Depth Of Field) | OFF | 
-|- 质量 | Low, **Medium**, High,  | 
+|- 质量 | 低, **中型**, 高,  | 
 |- 强度 | [0.25] (0 ~ 1) | 
 |- 偏移 | [0.1] (-1 ~ 1) | 
 |
 |**运动模糊** | | 
 | (Enable Motion Blur) | OFF | 
-|- 质量 | Low, **Medium**, High,  | 
+|- 质量 | 低, **中型**, 高,  | 
 |- 强度 | [0.25] (0 ~ 1) | 
 |
 |**辉光** | | 
 | (Enable Bloom) | ON | 
-|- 质量 | Low, Medium, **High**,  | 
+|- 质量 | 低, 中型, **高**,  | 
 |- 强度 | [0.25] (0 ~ 1) | 
 |
 |**镜头光晕** | | 
@@ -76,7 +76,7 @@ sidebar:
 | 在 VR 中禁用 | ON | 不推荐在 VR 中使用此效果
 |- 强度 | [0.1] (0 ~ 1) | 
 |**颜色** | | 
-|- 颜色模式 | **RGB**, HSV,  | 
+|- 颜色模式 | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 饱和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
@@ -85,7 +85,7 @@ sidebar:
 |- 蓝色 | [1] (0 ~ 1) | 
 | 使用舞台颜色 | OFF | 使用舞台环的颜色
 |- 色温 | [6500] (3000 ~ 8000) | 
-| 预设 |  **White**,  Sunset,  Red,  Yellow,  Blue,  Green,  |  |
+| 预设 | **白色**, 日落, 红色, (Yellow), 蓝色, 绿色,  |  |
 |
 |- 光晕 | [1] (0 ~ 1) | 
 |- 条纹 | [0.2] (0 ~ 1) | 
@@ -99,7 +99,7 @@ sidebar:
 |- 色相偏移 | [0] (-180 ~ 180) | 
 |- 饱和度 | [1] (-100 ~ 100) | 
 |**颜色滤镜** | | 
-|- 颜色模式 | RGB, **HSV**,  | 
+|- 颜色模式 | (RGB), **(HSV)**,  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 饱和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
@@ -107,7 +107,7 @@ sidebar:
 |- 绿色 | [1] (0 ~ 1) | 
 |- 蓝色 | [1] (0 ~ 1) | 
 |- 发光 | [1] (0 ~ 20) | 
-| 预设 |  **White**,  Red,  Green,  Blue,  Animated Hue,  Glow w/ Music,  |  |
+| 预设 | **白色**, 红色, 绿色, 蓝色, 动画色相, 伴音乐的辉光,  |  |
 |
 |
 |**颜色曲线** | | 
@@ -126,13 +126,13 @@ sidebar:
 |
 |**特殊渲染** | | 
 | (Enable Special Render) | OFF | 
-|- 模式 | **Depth Output**, Normal Output,  | 
+|- 模式 | **深度输出**, 法线输出,  | 
 |- 深度范围 | [1] (0 ~ 1) | 
 |- 深度缩放 | [0.25] (0 ~ 1) | 
 |- 法线缩放 | [1] (0 ~ 1) | 
 |- 法线混合 | [0] (0 ~ 1) | 
 |
-|- 色调映射 | None, Neutral, ACES, **Custom**,  | 
+|- 色调映射 | 无, 中性, ACES, **自定义**,  | 
 | 演员卡通着色 | OFF | 对所有角色使用卡通着色。
 | 阶段卡通着色 | OFF | 对场景和道具使用卡通着色。
 |**选项** | | 
@@ -143,5 +143,5 @@ sidebar:
 | 停止 NaN | ON | (Prevent black screen when error happens during post processing. )
 | 计算厚度 | ON | 计算可用于皮肤效果的厚度。
 |
-| 预设 |  Performance,  Medium,  **High**,  Indoor GI,  Outdoor GI,  Toon Effect,  |  |
+| 预设 | 性能, 中型, **高**, 室内全局光照, 室外全局光照, 卡通效果,  |  |
 |

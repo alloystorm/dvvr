@@ -15,10 +15,10 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**채팅 설정** | | 
-| 채팅 언어 |  **Auto**,  English,  Chinese,  Japanese,  Korean,  Vietnamese,  Thai,  French,  German,  Spanish,  |  |
-| 템플릿 |  **default**,  |  |
+| 채팅 언어 | **자동**, 영어, 중국어, 일본어, 한국어, 베트남어, 태국어, 프랑스어, 독일어, 스페인어,  |  |
+| 템플릿 | **(default)**,  |  |
 | 스토리 생성 | ON | 
-| 스토리 장르 |  Random,  Sci-Fi,  **Fantasy**,  Mystery,  Thriller,  Romance,  Action,  Horror,  Adventure,  Comedy,  Erotic,  |  |
+| 스토리 장르 | 무작위, 공상 과학, **판타지**, 미스터리, 스릴러, 로맨스, 액션, 공포, 모험, 코미디, 에로틱,  |  |
 | 스토리 재생성 || 
 | 오래된 메시지 요약 | ON | 
 |- 최대 메시지 수 | [10] (10 ~ 25) | 이 한계를 넘는 오래된 메시지는 요약됩니다.

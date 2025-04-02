@@ -20,11 +20,11 @@ sidebar:
 |- 반경 | [200] (2 ~ 100) | 바닥 메쉬의 크기
 | 스테이지가 존재할 경우 숨기기 | ON | 스테이지 모델이 있을 때 바닥 숨기기
 |**표면** | | 
-| 텍스처 |  [Sky Map],  [Wood1],  [Wood2],  **[Tiles]**,  [Concrete],  [Video],  |  |
+| 텍스처 | [하늘 맵], [우드1], [우드2], **[타일]**, [콘크리트], [비디오],  |  |
 |**타일링** | | 
 |- 타일링 X | [1] (0.1 ~ 10) | 
 |- 타일링 Y | [1] (0.1 ~ 10) | 
-|- 랩 모드 | **Repeat**, Mirror U, Mirror V, Mirror Both,  | 
+|- 랩 모드 | **반복**, 거울 U, 거울 V, 거울 모두,  | 
 |- 오프셋 X | [0] (0 ~ 1) | 
 |- Y 오프셋 | [0] (0 ~ 1) | 
 |- 회전 | [0] (0 ~ 360) | 
@@ -39,16 +39,16 @@ sidebar:
 |- 알파 | [1] (0 ~ 1) | 
 |- 클립 | [0] (0 ~ 1) | 
 |**색상** | | 
-|- 색상 모드 | **RGB**, HSV,  | 
+|- 색상 모드 | **(RGB)**, (HSV),  | 
 |- 색조 | [0] (0 ~ 1) | 
 |- 채도 | [0] (0 ~ 1) | 
 |- 밝기 | [1] (0 ~ 1) | 
 |- 빨간색 | [1] (0 ~ 1) | 
 |- 초록색 | [1] (0 ~ 1) | 
 |- 파란색 | [1] (0 ~ 1) | 
-| 혼합 모드 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| 혼합 모드 | 원본, (Multiply), **혼합**, (Color Shift),  |  |
 |- 혼합 | [1] (0 ~ 1) | 
-| 프리셋 |  Original,  White,  **Black**,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| 프리셋 | 원본, 흰색, **검은색**, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |  |
 |
 |**툰 셰이더** | | 
 | (Enable Toon Shader) | OFF | 
@@ -62,10 +62,10 @@ sidebar:
 |- 그림자 영역 | [0.65] (0 ~ 1) | 
 |- 그림자 | [0.75] (0 ~ 1) | 
 |- 부드러운 그림자 | [0.1] (0 ~ 1) | 
-| 프리셋 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| 프리셋 | **선명한**, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |  |
 |
 |**특수 셰이더** | | 
-| 모드 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| 모드 | **끄기**, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |  |
 |- 굴절 | [0.5] (1 ~ 3) | 
 |- 두께 | [1] (0 ~ 1) | 
 |
@@ -79,12 +79,12 @@ sidebar:
 |- 엣지 | [0.5] (0 ~ 1) | 
 |- 모아레 감소 | [0.1] (0 ~ 1) | 
 |
-| 프리셋 |  Sky Map,  Wood,  Concrete,  Blue Tiles,  Projector Screen,  Emissive Screen,  LED Screen,  **Black Gloss**,  Glow,  Glass,  |  |
+| 프리셋 | 하늘 맵, 나무, 콘크리트, 블루 타일, 프로젝터 화면, 발광 화면, LED 화면, **검은색 광택**, 발광, 유리,  |  |
 |
 |**그림자 전용** | | 
 | 그림자 색상 || 
-| 프리셋 |  White,  **Black**,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  Preset 1,  |  |
-|- 색상 모드 | **RGB**, HSV,  | 
+| 프리셋 | 흰색, **검은색**, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange), (Preset 1),  |  |
+|- 색상 모드 | **(RGB)**, (HSV),  | 
 |- 색조 | [0] (0 ~ 1) | 
 |- 채도 | [0] (0 ~ 1) | 
 |- 밝기 | [0] (0 ~ 1) | 
@@ -94,7 +94,7 @@ sidebar:
 |- 투명도 | [0.5] (0 ~ 1) | 
 |
 | 스테이지 / 풀 | OFF | 
-| 프리셋 |  **Off**,  Runway,  Pool,  Room,  Background Board,  Projector Screen,  LED Screen,  |  |
+| 프리셋 | **끄기**, 활주로, 풀, 방, 배경 판, 프로젝터 화면, LED 화면,  |  |
 |- 들기 | [0.5] (-2 ~ 2) | 스테이지를 위/아래로 들어 올리기
 |- (Front / Back Offset) | [0] (-10 ~ 10) | 
 |**형상** | | 
@@ -110,11 +110,11 @@ sidebar:
 | 떠 있는 | OFF | 
 |
 |**표면** | | 
-| 텍스처 |  [Blank],  **[Wood1]**,  [Wood2],  [Tiles],  [Concrete],  [Video],  |  |
+| 텍스처 | [빈], **[우드1]**, [우드2], [타일], [콘크리트], [비디오],  |  |
 |**타일링** | | 
 |- 타일링 X | [1] (0.1 ~ 10) | 
 |- 타일링 Y | [1] (0.1 ~ 10) | 
-|- 랩 모드 | **Repeat**, Mirror U, Mirror V, Mirror Both,  | 
+|- 랩 모드 | **반복**, 거울 U, 거울 V, 거울 모두,  | 
 |- 오프셋 X | [0] (0 ~ 1) | 
 |- Y 오프셋 | [0] (0 ~ 1) | 
 |- 회전 | [0] (0 ~ 360) | 
@@ -129,16 +129,16 @@ sidebar:
 |- 알파 | [1] (0 ~ 1) | 
 |- 클립 | [0] (0 ~ 1) | 
 |**색상** | | 
-|- 색상 모드 | **RGB**, HSV,  | 
+|- 색상 모드 | **(RGB)**, (HSV),  | 
 |- 색조 | [0] (0 ~ 1) | 
 |- 채도 | [0] (0 ~ 1) | 
 |- 밝기 | [1] (0 ~ 1) | 
 |- 빨간색 | [1] (0 ~ 1) | 
 |- 초록색 | [1] (0 ~ 1) | 
 |- 파란색 | [1] (0 ~ 1) | 
-| 혼합 모드 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| 혼합 모드 | 원본, (Multiply), **혼합**, (Color Shift),  |  |
 |- 혼합 | [1] (0 ~ 1) | 
-| 프리셋 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| 프리셋 | 원본, **흰색**, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |  |
 |
 |**툰 셰이더** | | 
 | (Enable Toon Shader) | OFF | 
@@ -152,10 +152,10 @@ sidebar:
 |- 그림자 영역 | [0.65] (0 ~ 1) | 
 |- 그림자 | [0.75] (0 ~ 1) | 
 |- 부드러운 그림자 | [0.1] (0 ~ 1) | 
-| 프리셋 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| 프리셋 | **선명한**, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |  |
 |
 |**특수 셰이더** | | 
-| 모드 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| 모드 | **끄기**, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |  |
 |- 굴절 | [0.5] (1 ~ 3) | 
 |- 두께 | [1] (0 ~ 1) | 
 |
@@ -168,14 +168,14 @@ sidebar:
 |- 엣지 | [0.5] (0 ~ 1) | 
 |- 모아레 감소 | [0.1] (0 ~ 1) | 
 |
-| 프리셋 |  Blank,  **Wood**,  Concrete,  Blue Tiles,  Projector Screen,  Emissive Screen,  LED Screen,  Black Gloss,  Glow,  Glass,  |  |
+| 프리셋 | 빈칸, **나무**, 콘크리트, 블루 타일, 프로젝터 화면, 발광 화면, LED 화면, 검은색 광택, 발광, 유리,  |  |
 |
 |**뒤쪽 표면** | | 
-| 텍스처 |  **[Blank]**,  [Wood1],  [Wood2],  [Tiles],  [Concrete],  [Video],  |  |
+| 텍스처 | **[빈]**, [우드1], [우드2], [타일], [콘크리트], [비디오],  |  |
 |**타일링** | | 
 |- 타일링 X | [1] (0.1 ~ 10) | 
 |- 타일링 Y | [1] (0.1 ~ 10) | 
-|- 랩 모드 | **Repeat**, Mirror U, Mirror V, Mirror Both,  | 
+|- 랩 모드 | **반복**, 거울 U, 거울 V, 거울 모두,  | 
 |- 오프셋 X | [0] (0 ~ 1) | 
 |- Y 오프셋 | [0] (0 ~ 1) | 
 |- 회전 | [0] (0 ~ 360) | 
@@ -190,16 +190,16 @@ sidebar:
 |- 알파 | [1] (0 ~ 1) | 
 |- 클립 | [0] (0 ~ 1) | 
 |**색상** | | 
-|- 색상 모드 | **RGB**, HSV,  | 
+|- 색상 모드 | **(RGB)**, (HSV),  | 
 |- 색조 | [0] (0 ~ 1) | 
 |- 채도 | [0] (0 ~ 1) | 
 |- 밝기 | [1] (0 ~ 1) | 
 |- 빨간색 | [1] (0 ~ 1) | 
 |- 초록색 | [1] (0 ~ 1) | 
 |- 파란색 | [1] (0 ~ 1) | 
-| 혼합 모드 |  **Original**,  Multiply,  Blend,  Color Shift,  |  |
+| 혼합 모드 | **원본**, (Multiply), 혼합, (Color Shift),  |  |
 |- 혼합 | [1] (0 ~ 1) | 
-| 프리셋 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| 프리셋 | 원본, **흰색**, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |  |
 |
 |**툰 셰이더** | | 
 | (Enable Toon Shader) | OFF | 
@@ -213,10 +213,10 @@ sidebar:
 |- 그림자 영역 | [0.65] (0 ~ 1) | 
 |- 그림자 | [0.75] (0 ~ 1) | 
 |- 부드러운 그림자 | [0.1] (0 ~ 1) | 
-| 프리셋 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| 프리셋 | **선명한**, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |  |
 |
 |**특수 셰이더** | | 
-| 모드 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| 모드 | **끄기**, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |  |
 |- 굴절 | [0.5] (1 ~ 3) | 
 |- 두께 | [1] (0 ~ 1) | 
 |
@@ -229,11 +229,11 @@ sidebar:
 |- 엣지 | [0.5] (0 ~ 1) | 
 |- 모아레 감소 | [0.1] (0 ~ 1) | 
 |
-| 프리셋 |  **Blank**,  Wood,  Concrete,  Blue Tiles,  Projector Screen,  Emissive Screen,  LED Screen,  Black Gloss,  Glow,  Glass,  |  |
+| 프리셋 | **빈칸**, 나무, 콘크리트, 블루 타일, 프로젝터 화면, 발광 화면, LED 화면, 검은색 광택, 발광, 유리,  |  |
 |
 | 물 시스템 | OFF | 
-| 프리셋 |  **Off**,  Pool,  Still Water,  Ocean,  |  |
-|- 유형 | **Pool**, River, Ocean,  | 
+| 프리셋 | **끄기**, 풀, (Still Water), 바다,  |  |
+|- 유형 | **풀**, 강, 바다,  | 
 |- 높이 | [-0.1] (-2 ~ 2) | 수위의 높이
 |- 물결 | [3] (0 ~ 10) | 작은 파도의 세기
 |- 큰 파도 | [30] (0 ~ 100) | 큰 파도의 세기
@@ -241,5 +241,5 @@ sidebar:
 |- 흡수 거리 | [5] (1 ~ 10) | 위에서 물속에서 볼 수 있는 최대 거리
 |- 빛의 굴절 | [0.5] (0 ~ 1) | 빛의 굴절 효과
 |- 흡수 배수기 | [2] (0 ~ 5) | 아래에서 볼 때 흡수 거리에 적용되는 곱셈
-| 프리셋 |  Sky Map,  **Black Gloss**,  Stage,  Pool,  Ocean,  Background Board,  Projector Screen,  Emissive Screen,  Preset 1,  |  |
+| 프리셋 | 하늘 맵, **검은색 광택**, 무대, 풀, 바다, 배경 판, 프로젝터 화면, 발광 화면, (Preset 1),  |  |
 |

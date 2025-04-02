@@ -33,5 +33,5 @@ sidebar:
 |- Offset Y | [0] (-5 ~ 5) | 
 | Reset Actors || 
 | Random Props Position | ON | 
-| Presets |  **Default (Reset)**,  |  |
+| Presets | **Default (Reset)**,  |  |
 |

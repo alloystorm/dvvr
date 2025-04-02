@@ -20,11 +20,11 @@ sidebar:
 |- 半径 | [200] (2 ~ 100) | 地面网格的大小
 | 如果有舞台则隐藏 | ON | 当有舞台模型时隐藏地面
 |**表面** | | 
-| 纹理 |  [Sky Map],  [Wood1],  [Wood2],  **[Tiles]**,  [Concrete],  [Video],  |  |
+| 纹理 | [天空贴图], [木材1], [木材2], **[瓷砖]**, [混凝土], [视频],  |  |
 |**镶嵌** | | 
 |- 镶嵌 X | [1] (0.1 ~ 10) | 
 |- 镶嵌 Y | [1] (0.1 ~ 10) | 
-|- 包裹模式 | **Repeat**, Mirror U, Mirror V, Mirror Both,  | 
+|- 包裹模式 | **重复**, 镜像 U, 镜像 V, 镜像两者,  | 
 |- X轴偏移 | [0] (0 ~ 1) | 
 |- Y轴偏移 | [0] (0 ~ 1) | 
 |- 旋转 | [0] (0 ~ 360) | 
@@ -39,16 +39,16 @@ sidebar:
 |- 透明度 | [1] (0 ~ 1) | 
 |- 剪切 | [0] (0 ~ 1) | 
 |**颜色** | | 
-|- 颜色模式 | **RGB**, HSV,  | 
+|- 颜色模式 | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 饱和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
 |- 红色 | [1] (0 ~ 1) | 
 |- 绿色 | [1] (0 ~ 1) | 
 |- 蓝色 | [1] (0 ~ 1) | 
-| 混合模式 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| 混合模式 | 原始模型, (Multiply), **混合**, (Color Shift),  |  |
 |- 混合 | [1] (0 ~ 1) | 
-| 预设 |  Original,  White,  **Black**,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| 预设 | 原始模型, 白色, **黑色**, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |  |
 |
 |**卡通着色器** | | 
 | (Enable Toon Shader) | OFF | 
@@ -62,10 +62,10 @@ sidebar:
 |- 阴影区域 | [0.65] (0 ~ 1) | 
 |- 阴影 | [0.75] (0 ~ 1) | 
 |- 柔和阴影 | [0.1] (0 ~ 1) | 
-| 预设 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| 预设 | **锐利**, 柔和, 明亮, 平面 + 高光, 平面,  |  |
 |
 |**特效着色器** | | 
-| 模式 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| 模式 | **关闭**, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |  |
 |- 折射 | [0.5] (1 ~ 3) | 
 |- 厚度 | [1] (0 ~ 1) | 
 |
@@ -79,12 +79,12 @@ sidebar:
 |- 边缘 | [0.5] (0 ~ 1) | 
 |- 减少摩尔纹 | [0.1] (0 ~ 1) | 
 |
-| 预设 |  Sky Map,  Wood,  Concrete,  Blue Tiles,  Projector Screen,  Emissive Screen,  LED Screen,  **Black Gloss**,  Glow,  Glass,  |  |
+| 预设 | 天空贴图, 木材, 混凝土, 蓝色瓷砖, 投影仪屏幕, 自发光屏幕, LED 屏幕, **黑色光泽**, 发光, 玻璃,  |  |
 |
 |**仅影子** | | 
 | 阴影颜色 || 
-| 预设 |  White,  **Black**,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  Preset 1,  |  |
-|- 颜色模式 | **RGB**, HSV,  | 
+| 预设 | 白色, **黑色**, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange), (Preset 1),  |  |
+|- 颜色模式 | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 饱和度 | [0] (0 ~ 1) | 
 |- 亮度 | [0] (0 ~ 1) | 
@@ -94,7 +94,7 @@ sidebar:
 |- 透明度 | [0.5] (0 ~ 1) | 
 |
 | 舞台 / 池塘 | OFF | 
-| 预设 |  **Off**,  Runway,  Pool,  Room,  Background Board,  Projector Screen,  LED Screen,  |  |
+| 预设 | **关闭**, 跑道, 水池, 房间, 背景板, 投影仪屏幕, LED 屏幕,  |  |
 |- 提升 | [0.5] (-2 ~ 2) | 上下提升舞台
 |- (Front / Back Offset) | [0] (-10 ~ 10) | 
 |**形状** | | 
@@ -110,11 +110,11 @@ sidebar:
 | 漂浮 | OFF | 
 |
 |**表面** | | 
-| 纹理 |  [Blank],  **[Wood1]**,  [Wood2],  [Tiles],  [Concrete],  [Video],  |  |
+| 纹理 | [空白], **[木材1]**, [木材2], [瓷砖], [混凝土], [视频],  |  |
 |**镶嵌** | | 
 |- 镶嵌 X | [1] (0.1 ~ 10) | 
 |- 镶嵌 Y | [1] (0.1 ~ 10) | 
-|- 包裹模式 | **Repeat**, Mirror U, Mirror V, Mirror Both,  | 
+|- 包裹模式 | **重复**, 镜像 U, 镜像 V, 镜像两者,  | 
 |- X轴偏移 | [0] (0 ~ 1) | 
 |- Y轴偏移 | [0] (0 ~ 1) | 
 |- 旋转 | [0] (0 ~ 360) | 
@@ -129,16 +129,16 @@ sidebar:
 |- 透明度 | [1] (0 ~ 1) | 
 |- 剪切 | [0] (0 ~ 1) | 
 |**颜色** | | 
-|- 颜色模式 | **RGB**, HSV,  | 
+|- 颜色模式 | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 饱和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
 |- 红色 | [1] (0 ~ 1) | 
 |- 绿色 | [1] (0 ~ 1) | 
 |- 蓝色 | [1] (0 ~ 1) | 
-| 混合模式 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+| 混合模式 | 原始模型, (Multiply), **混合**, (Color Shift),  |  |
 |- 混合 | [1] (0 ~ 1) | 
-| 预设 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| 预设 | 原始模型, **白色**, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |  |
 |
 |**卡通着色器** | | 
 | (Enable Toon Shader) | OFF | 
@@ -152,10 +152,10 @@ sidebar:
 |- 阴影区域 | [0.65] (0 ~ 1) | 
 |- 阴影 | [0.75] (0 ~ 1) | 
 |- 柔和阴影 | [0.1] (0 ~ 1) | 
-| 预设 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| 预设 | **锐利**, 柔和, 明亮, 平面 + 高光, 平面,  |  |
 |
 |**特效着色器** | | 
-| 模式 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| 模式 | **关闭**, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |  |
 |- 折射 | [0.5] (1 ~ 3) | 
 |- 厚度 | [1] (0 ~ 1) | 
 |
@@ -168,14 +168,14 @@ sidebar:
 |- 边缘 | [0.5] (0 ~ 1) | 
 |- 减少摩尔纹 | [0.1] (0 ~ 1) | 
 |
-| 预设 |  Blank,  **Wood**,  Concrete,  Blue Tiles,  Projector Screen,  Emissive Screen,  LED Screen,  Black Gloss,  Glow,  Glass,  |  |
+| 预设 | 空白, **木材**, 混凝土, 蓝色瓷砖, 投影仪屏幕, 自发光屏幕, LED 屏幕, 黑色光泽, 发光, 玻璃,  |  |
 |
 |**后表面** | | 
-| 纹理 |  **[Blank]**,  [Wood1],  [Wood2],  [Tiles],  [Concrete],  [Video],  |  |
+| 纹理 | **[空白]**, [木材1], [木材2], [瓷砖], [混凝土], [视频],  |  |
 |**镶嵌** | | 
 |- 镶嵌 X | [1] (0.1 ~ 10) | 
 |- 镶嵌 Y | [1] (0.1 ~ 10) | 
-|- 包裹模式 | **Repeat**, Mirror U, Mirror V, Mirror Both,  | 
+|- 包裹模式 | **重复**, 镜像 U, 镜像 V, 镜像两者,  | 
 |- X轴偏移 | [0] (0 ~ 1) | 
 |- Y轴偏移 | [0] (0 ~ 1) | 
 |- 旋转 | [0] (0 ~ 360) | 
@@ -190,16 +190,16 @@ sidebar:
 |- 透明度 | [1] (0 ~ 1) | 
 |- 剪切 | [0] (0 ~ 1) | 
 |**颜色** | | 
-|- 颜色模式 | **RGB**, HSV,  | 
+|- 颜色模式 | **(RGB)**, (HSV),  | 
 |- 色相 | [0] (0 ~ 1) | 
 |- 饱和度 | [0] (0 ~ 1) | 
 |- 亮度 | [1] (0 ~ 1) | 
 |- 红色 | [1] (0 ~ 1) | 
 |- 绿色 | [1] (0 ~ 1) | 
 |- 蓝色 | [1] (0 ~ 1) | 
-| 混合模式 |  **Original**,  Multiply,  Blend,  Color Shift,  |  |
+| 混合模式 | **原始模型**, (Multiply), 混合, (Color Shift),  |  |
 |- 混合 | [1] (0 ~ 1) | 
-| 预设 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+| 预设 | 原始模型, **白色**, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |  |
 |
 |**卡通着色器** | | 
 | (Enable Toon Shader) | OFF | 
@@ -213,10 +213,10 @@ sidebar:
 |- 阴影区域 | [0.65] (0 ~ 1) | 
 |- 阴影 | [0.75] (0 ~ 1) | 
 |- 柔和阴影 | [0.1] (0 ~ 1) | 
-| 预设 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+| 预设 | **锐利**, 柔和, 明亮, 平面 + 高光, 平面,  |  |
 |
 |**特效着色器** | | 
-| 模式 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+| 模式 | **关闭**, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |  |
 |- 折射 | [0.5] (1 ~ 3) | 
 |- 厚度 | [1] (0 ~ 1) | 
 |
@@ -229,11 +229,11 @@ sidebar:
 |- 边缘 | [0.5] (0 ~ 1) | 
 |- 减少摩尔纹 | [0.1] (0 ~ 1) | 
 |
-| 预设 |  **Blank**,  Wood,  Concrete,  Blue Tiles,  Projector Screen,  Emissive Screen,  LED Screen,  Black Gloss,  Glow,  Glass,  |  |
+| 预设 | **空白**, 木材, 混凝土, 蓝色瓷砖, 投影仪屏幕, 自发光屏幕, LED 屏幕, 黑色光泽, 发光, 玻璃,  |  |
 |
 | 水系统 | OFF | 
-| 预设 |  **Off**,  Pool,  Still Water,  Ocean,  |  |
-|- 类型 | **Pool**, River, Ocean,  | 
+| 预设 | **关闭**, 水池, (Still Water), 海洋,  |  |
+|- 类型 | **水池**, 河流, 海洋,  | 
 |- 高度 | [-0.1] (-2 ~ 2) | 水位高度
 |- 涟漪 | [3] (0 ~ 10) | 小波浪强度
 |- 大波浪 | [30] (0 ~ 100) | 大波浪强度
@@ -241,5 +241,5 @@ sidebar:
 |- 吸收距离 | [5] (1 ~ 10) | 从上方可以看到的水中的最大距离。
 |- 光晕 | [0.5] (0 ~ 1) | 光晕效果
 |- 吸收倍增器 | [2] (0 ~ 5) | 从下方查看时应用于吸收距离的倍增。
-| 预设 |  Sky Map,  **Black Gloss**,  Stage,  Pool,  Ocean,  Background Board,  Projector Screen,  Emissive Screen,  Preset 1,  |  |
+| 预设 | 天空贴图, **黑色光泽**, 舞台, 水池, 海洋, 背景板, 投影仪屏幕, 自发光屏幕, (Preset 1),  |  |
 |
