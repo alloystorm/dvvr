@@ -15,8 +15,6 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**Global Actor Control** | | 
-|- Actor Scale| [1] (0.15 ~ 5) | 
-|- Motion Scale| [1] (0.5 ~ 1.5) | 
-| Reset || 
-| Confirm Reset || 
+|- Actor Scale | [1] (0.15 ~ 5) | 
+|- Motion Scale | [1] (0.5 ~ 1.5) | 
 |

@@ -22,6 +22,4 @@ sidebar:
 | 远程 WebUI URL || 
 | Ollama URL || 
 | Ollama 模型 || 
-| 重置 || 
-| (Confirm Reset) || 
 |

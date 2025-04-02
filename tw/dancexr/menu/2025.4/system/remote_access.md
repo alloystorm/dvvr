@@ -18,6 +18,4 @@ sidebar:
 | (Enable Remote Access) | OFF | 
 | 埠號 || 
 | 密碼 || 
-| 重置 || 
-| (Confirm Reset) || 
 |

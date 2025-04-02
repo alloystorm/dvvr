@@ -22,6 +22,4 @@ sidebar:
 | 遠端WebUI網址 || 
 | Ollama網址 || 
 | Ollama模型 || 
-| 重置 || 
-| (Confirm Reset) || 
 |

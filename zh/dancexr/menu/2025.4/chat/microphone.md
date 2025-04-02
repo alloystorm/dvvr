@@ -17,6 +17,4 @@ sidebar:
 |**麦克风** | | 
 | 模式 |  **Manual**,  Auto,  |  |
 | 麦克风选择 |  **[Default]**,  Headset Microphone (Oculus Virtual Audio Device),  Microphone (Pico Streaming Virtual Audio),  Microphone Array (Pico Streaming Speaker),  Microphone (Virtual Desktop Audio),  |  |
-| 重置 || 
-| (Confirm Reset) || 
 |

@@ -21,17 +21,15 @@ sidebar:
 | Story Genre |  Random,  Sci-Fi,  **Fantasy**,  Mystery,  Thriller,  Romance,  Action,  Horror,  Adventure,  Comedy,  Erotic,  |  |
 | Regenerate Story || 
 | Summarize Older Messages | ON | 
-|- Max Message Count| [10] (10 ~ 25) | Older messages over this limit will be summarized.
-|- Max Prompt Length| [11] (10 ~ 17) | 
-|- Max Generate Tokens| [250] (50 ~ 1000) | 
-|- Temperature| [0.75] (0 ~ 1) | 
-|- Presence Penalty| [0.5] (0 ~ 1) | 
-|- Frequency Penalty| [0.5] (0 ~ 1) | 
+|- Max Message Count | [10] (10 ~ 25) | Older messages over this limit will be summarized.
+|- Max Prompt Length | [11] (10 ~ 17) | 
+|- Max Generate Tokens | [250] (50 ~ 1000) | 
+|- Temperature | [0.75] (0 ~ 1) | 
+|- Presence Penalty | [0.5] (0 ~ 1) | 
+|- Frequency Penalty | [0.5] (0 ~ 1) | 
 | Generate For Player | OFF | 
 | Auto Generate Next | OFF | 
-|- Auto Generate Delay| [15] (1 ~ 20) | 
+|- Auto Generate Delay | [15] (1 ~ 20) | 
 | Use Subtitle | ON | 
 | Describe Outfit | OFF | 
-| Reset || 
-| Confirm Reset || 
 |

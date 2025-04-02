@@ -22,6 +22,4 @@ sidebar:
 | 원격 웹 UI URL || 
 | Ollama URL || 
 | Ollama 모델 || 
-| 초기화 || 
-| (Confirm Reset) || 
 |

@@ -22,15 +22,15 @@ sidebar:
 | Circle || 
 | Zero || 
 | Fan Shape || 
-|- X Dist| [1] (-10 ~ 10) | 
-|- Y Dist| [1] (-2 ~ 2) | 
-|- Rotation| [0] (-180 ~ 180) | 
-|- Orientation| [0] (-180 ~ 180) | 
+|- X Dist | [1] (-10 ~ 10) | 
+|- Y Dist | [1] (-2 ~ 2) | 
+|- Rotation | [0] (-180 ~ 180) | 
+|- Orientation | [0] (-180 ~ 180) | 
 | Use Spectator Formation | ON | 
-|- Spectator Dist| [2] (0.25 ~ 5) | 
+|- Spectator Dist | [2] (0.25 ~ 5) | 
 | Rotate Spectators | ON | 
-|- Offset X| [0] (-5 ~ 5) | 
-|- Offset Y| [0] (-5 ~ 5) | 
+|- Offset X | [0] (-5 ~ 5) | 
+|- Offset Y | [0] (-5 ~ 5) | 
 | Reset Actors || 
 | Random Props Position | ON | 
 | Presets |  **Default (Reset)**,  |  |

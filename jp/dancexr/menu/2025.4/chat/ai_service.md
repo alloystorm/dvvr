@@ -22,6 +22,4 @@ sidebar:
 | リモートWebUI URL || 
 | Ollama URL || 
 | Ollamaモデル || 
-| リセット || 
-| (Confirm Reset) || 
 |

@@ -22,6 +22,4 @@ sidebar:
 | Remote WebUI URL || 
 | Ollama URL || 
 | Ollama Model || 
-| Reset || 
-| Confirm Reset || 
 |

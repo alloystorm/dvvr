@@ -18,6 +18,4 @@ sidebar:
 | Enable Remote Access | OFF | 
 | Port Number || 
 | Password || 
-| Reset || 
-| Confirm Reset || 
 |

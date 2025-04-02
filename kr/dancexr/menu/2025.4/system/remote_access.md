@@ -18,6 +18,4 @@ sidebar:
 | (Enable Remote Access) | OFF | 
 | 포트 번호 || 
 | 비밀번호 || 
-| 초기화 || 
-| (Confirm Reset) || 
 |

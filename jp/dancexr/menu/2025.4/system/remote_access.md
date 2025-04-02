@@ -18,6 +18,4 @@ sidebar:
 | (Enable Remote Access) | OFF | 
 | ポート番号 || 
 | パスワード || 
-| リセット || 
-| (Confirm Reset) || 
 |
