@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/chat/save_history) | [繁中](/tw/dancexr/menu/2025.4/chat/save_history) | [日本語](/jp/dancexr/menu/2025.4/chat/save_history) | [한국어](/kr/dancexr/menu/2025.4/chat/save_history) | [简中](/zh/dancexr/menu/2025.4/chat/save_history)
 
-# 履歴を保存する
+[チャット設定](../menu#チャット設定) > 履歴を保存する
 
 
 

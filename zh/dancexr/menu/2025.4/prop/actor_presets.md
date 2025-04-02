@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/prop/actor_presets) | [繁中](/tw/dancexr/menu/2025.4/prop/actor_presets) | [日本語](/jp/dancexr/menu/2025.4/prop/actor_presets) | [한국어](/kr/dancexr/menu/2025.4/prop/actor_presets) | [简中](/zh/dancexr/menu/2025.4/prop/actor_presets)
 
-# 预设
+[(Prop)](../menu#(Prop)) > 预设
 
 
 

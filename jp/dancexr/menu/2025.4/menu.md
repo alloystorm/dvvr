@@ -1,7 +1,7 @@
 ---
 locale: ja-rJP
 layout: single
-title: "Menu catalogue for DanceXR 2025.4"
+title: Settings Manual (Version 2025.4)
 toc: true
 sidebar:
   nav: "docs-jp"
@@ -9,22 +9,18 @@ sidebar:
 
 [Eng](/dancexr/menu/2025.4/menu) | [繁中](/tw/dancexr/menu/2025.4/menu) | [日本語](/jp/dancexr/menu/2025.4/menu) | [한국어](/kr/dancexr/menu/2025.4/menu) | [简中](/zh/dancexr/menu/2025.4/menu)
 
-# Settings Manual (Version 2025.4)
-
-Generated on 2025-04-02 22:42:45
-
-### **(DanceXR Pro RT 2025.4.1543)**
+### **システム**
 
 | Setting | Description |
 | :--- | :--- |
-| [リモートアクセス](system/remote_access) |  | 
-| [コンテンツライブラリ](system/library) |  | 
-| [コントローラー入力](system/input_settings) |  | 
-| [表示＆UI](system/screen) |  | 
-| [グラフィックス](system/graphics) |  | 
-| [物理](system/physics) |  | 
-| [アプリケーション設定](system/application_settings) |  | 
-| [終了](system/exit) |  | 
+| [リモートアクセス](system2/remote_access) |  | 
+| [コンテンツライブラリ](system2/library) |  | 
+| [コントローラー入力](system2/input_settings) |  | 
+| [表示＆UI](system2/screen) |  | 
+| [グラフィックス](system2/graphics) |  | 
+| [物理](system2/physics) |  | 
+| [アプリケーション設定](system2/application_settings) |  | 
+| [終了](system2/exit) |  | 
 | | |
 
 

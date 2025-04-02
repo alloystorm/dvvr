@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/chat/chat_player) | [繁中](/tw/dancexr/menu/2025.4/chat/chat_player) | [日本語](/jp/dancexr/menu/2025.4/chat/chat_player) | [한국어](/kr/dancexr/menu/2025.4/chat/chat_player) | [简中](/zh/dancexr/menu/2025.4/chat/chat_player)
 
-# 플레이어
+[채팅 설정](../menu#채팅 설정) > 플레이어
 
 
 

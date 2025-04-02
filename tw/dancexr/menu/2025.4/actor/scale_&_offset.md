@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/actor/scale_&_offset) | [繁中](/tw/dancexr/menu/2025.4/actor/scale_&_offset) | [日本語](/jp/dancexr/menu/2025.4/actor/scale_&_offset) | [한국어](/kr/dancexr/menu/2025.4/actor/scale_&_offset) | [简中](/zh/dancexr/menu/2025.4/actor/scale_&_offset)
 
-# 比例與偏移
+[演員](../menu#演員) > 比例與偏移
 
 
 

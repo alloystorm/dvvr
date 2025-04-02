@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/prop/body_colliders) | [繁中](/tw/dancexr/menu/2025.4/prop/body_colliders) | [日本語](/jp/dancexr/menu/2025.4/prop/body_colliders) | [한국어](/kr/dancexr/menu/2025.4/prop/body_colliders) | [简中](/zh/dancexr/menu/2025.4/prop/body_colliders)
 
-# 身體碰撞器
+[(Prop)](../menu#(Prop)) > 身體碰撞器
 
 
 

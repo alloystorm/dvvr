@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/stage/body_colliders) | [繁中](/tw/dancexr/menu/2025.4/stage/body_colliders) | [日本語](/jp/dancexr/menu/2025.4/stage/body_colliders) | [한국어](/kr/dancexr/menu/2025.4/stage/body_colliders) | [简中](/zh/dancexr/menu/2025.4/stage/body_colliders)
 
-# 신체 콜라이더
+[무대](../menu#무대) > 신체 콜라이더
 
 
 

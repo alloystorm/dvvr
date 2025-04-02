@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/chat/load_history) | [繁中](/tw/dancexr/menu/2025.4/chat/load_history) | [日本語](/jp/dancexr/menu/2025.4/chat/load_history) | [한국어](/kr/dancexr/menu/2025.4/chat/load_history) | [简中](/zh/dancexr/menu/2025.4/chat/load_history)
 
-# 載入歷史
+[聊天設置](../menu#聊天設置) > 載入歷史
 
 
 

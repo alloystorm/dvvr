@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/chat/ai_service) | [繁中](/tw/dancexr/menu/2025.4/chat/ai_service) | [日本語](/jp/dancexr/menu/2025.4/chat/ai_service) | [한국어](/kr/dancexr/menu/2025.4/chat/ai_service) | [简中](/zh/dancexr/menu/2025.4/chat/ai_service)
 
-# AIサービス
+[チャット設定](../menu#チャット設定) > AIサービス
 
 
 

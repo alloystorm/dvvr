@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/chat/characters) | [繁中](/tw/dancexr/menu/2025.4/chat/characters) | [日本語](/jp/dancexr/menu/2025.4/chat/characters) | [한국어](/kr/dancexr/menu/2025.4/chat/characters) | [简中](/zh/dancexr/menu/2025.4/chat/characters)
 
-# キャラクター
+[チャット設定](../menu#チャット設定) > キャラクター
 
 
 

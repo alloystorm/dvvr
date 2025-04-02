@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/actor/pro_tools) | [繁中](/tw/dancexr/menu/2025.4/actor/pro_tools) | [日本語](/jp/dancexr/menu/2025.4/actor/pro_tools) | [한국어](/kr/dancexr/menu/2025.4/actor/pro_tools) | [简中](/zh/dancexr/menu/2025.4/actor/pro_tools)
 
-# 专业版
+[演员](../menu#演员) > 专业版
 
 
 

@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/actors/loader_options) | [繁中](/tw/dancexr/menu/2025.4/actors/loader_options) | [日本語](/jp/dancexr/menu/2025.4/actors/loader_options) | [한국어](/kr/dancexr/menu/2025.4/actors/loader_options) | [简中](/zh/dancexr/menu/2025.4/actors/loader_options)
 
-# 加载器选项
+[演员](../menu#演员) > 加载器选项
 
 
 

@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/system/input_settings) | [繁中](/tw/dancexr/menu/2025.4/system/input_settings) | [日本語](/jp/dancexr/menu/2025.4/system/input_settings) | [한국어](/kr/dancexr/menu/2025.4/system/input_settings) | [简中](/zh/dancexr/menu/2025.4/system/input_settings)
 
-# Controller Input
+[DanceXR Pro RT 2025.4.1543](../menu#DanceXR Pro RT 2025.4.1543) > Controller Input
 
 
 

@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/actor/model_physics) | [繁中](/tw/dancexr/menu/2025.4/actor/model_physics) | [日本語](/jp/dancexr/menu/2025.4/actor/model_physics) | [한국어](/kr/dancexr/menu/2025.4/actor/model_physics) | [简中](/zh/dancexr/menu/2025.4/actor/model_physics)
 
-# Physics
+[Actor](../menu#Actor) > Physics
 
 
 

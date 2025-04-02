@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/system/application_settings) | [繁中](/tw/dancexr/menu/2025.4/system/application_settings) | [日本語](/jp/dancexr/menu/2025.4/system/application_settings) | [한국어](/kr/dancexr/menu/2025.4/system/application_settings) | [简中](/zh/dancexr/menu/2025.4/system/application_settings)
 
-# 응용 프로그램 설정
+[(DanceXR Pro RT 2025.4.1543)](../menu#(DanceXR Pro RT 2025.4.1543)) > 응용 프로그램 설정
 
 
 

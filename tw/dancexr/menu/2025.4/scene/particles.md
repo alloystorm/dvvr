@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/scene/particles) | [繁中](/tw/dancexr/menu/2025.4/scene/particles) | [日本語](/jp/dancexr/menu/2025.4/scene/particles) | [한국어](/kr/dancexr/menu/2025.4/scene/particles) | [简中](/zh/dancexr/menu/2025.4/scene/particles)
 
-# 粒子效果
+[環境](../menu#環境) > 粒子效果
 
 
 

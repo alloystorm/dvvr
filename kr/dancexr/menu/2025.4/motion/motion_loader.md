@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/motion/motion_loader) | [繁中](/tw/dancexr/menu/2025.4/motion/motion_loader) | [日本語](/jp/dancexr/menu/2025.4/motion/motion_loader) | [한국어](/kr/dancexr/menu/2025.4/motion/motion_loader) | [简中](/zh/dancexr/menu/2025.4/motion/motion_loader)
 
-# 재생 옵션
+[오디오 / 모션](../menu#오디오 / 모션) > 재생 옵션
 
 
 

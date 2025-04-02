@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/motion/video_player) | [繁中](/tw/dancexr/menu/2025.4/motion/video_player) | [日本語](/jp/dancexr/menu/2025.4/motion/video_player) | [한국어](/kr/dancexr/menu/2025.4/motion/video_player) | [简中](/zh/dancexr/menu/2025.4/motion/video_player)
 
-# 비디오 플레이어
+[오디오 / 모션](../menu#오디오 / 모션) > 비디오 플레이어
 
 
 

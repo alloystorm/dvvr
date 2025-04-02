@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/actor/attach_to_actor) | [繁中](/tw/dancexr/menu/2025.4/actor/attach_to_actor) | [日本語](/jp/dancexr/menu/2025.4/actor/attach_to_actor) | [한국어](/kr/dancexr/menu/2025.4/actor/attach_to_actor) | [简中](/zh/dancexr/menu/2025.4/actor/attach_to_actor)
 
-# (Attach To Actor)
+[액터](../menu#액터) > (Attach To Actor)
 
 
 
