@@ -1,7 +1,7 @@
 ---
 locale: en-rUS
 layout: single
-title: Camera: [Freefly Cam]
+title: Camera Select
 toc: true
 sidebar:
   nav: "docs"
