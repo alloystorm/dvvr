@@ -4,13 +4,13 @@ layout: single
 title: 物理
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-jp"
 ---
 [Eng](/dancexr/menu/2025.4/system/physics) | [繁中](/tw/dancexr/menu/2025.4/system/physics) | [日本語](/jp/dancexr/menu/2025.4/system/physics) | [한국어](/kr/dancexr/menu/2025.4/system/physics) | [简中](/zh/dancexr/menu/2025.4/system/physics)
 
 # 物理
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

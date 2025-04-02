@@ -10,7 +10,7 @@ sidebar:
 
 # Save History
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

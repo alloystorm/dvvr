@@ -10,7 +10,7 @@ sidebar:
 
 # Procedural
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

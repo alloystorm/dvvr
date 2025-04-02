@@ -10,7 +10,7 @@ sidebar:
 
 # Exit
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

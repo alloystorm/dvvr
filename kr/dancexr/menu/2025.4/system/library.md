@@ -4,13 +4,13 @@ layout: single
 title: 콘텐츠 라이브러리
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-kr"
 ---
 [Eng](/dancexr/menu/2025.4/system/library) | [繁中](/tw/dancexr/menu/2025.4/system/library) | [日本語](/jp/dancexr/menu/2025.4/system/library) | [한국어](/kr/dancexr/menu/2025.4/system/library) | [简中](/zh/dancexr/menu/2025.4/system/library)
 
 # 콘텐츠 라이브러리
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

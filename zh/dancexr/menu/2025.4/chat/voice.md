@@ -4,13 +4,13 @@ layout: single
 title: 声音
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-tw"
 ---
 [Eng](/dancexr/menu/2025.4/chat/voice) | [繁中](/tw/dancexr/menu/2025.4/chat/voice) | [日本語](/jp/dancexr/menu/2025.4/chat/voice) | [한국어](/kr/dancexr/menu/2025.4/chat/voice) | [简中](/zh/dancexr/menu/2025.4/chat/voice)
 
 # 声音
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

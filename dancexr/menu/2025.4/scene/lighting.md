@@ -10,7 +10,7 @@ sidebar:
 
 # Lighting
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

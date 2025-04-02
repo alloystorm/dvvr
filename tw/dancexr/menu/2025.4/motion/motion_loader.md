@@ -4,13 +4,13 @@ layout: single
 title: 播放選項
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 [Eng](/dancexr/menu/2025.4/motion/motion_loader) | [繁中](/tw/dancexr/menu/2025.4/motion/motion_loader) | [日本語](/jp/dancexr/menu/2025.4/motion/motion_loader) | [한국어](/kr/dancexr/menu/2025.4/motion/motion_loader) | [简中](/zh/dancexr/menu/2025.4/motion/motion_loader)
 
 # 播放選項
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

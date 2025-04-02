@@ -10,7 +10,7 @@ sidebar:
 
 # Voice
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

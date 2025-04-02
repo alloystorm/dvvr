@@ -10,7 +10,7 @@ sidebar:
 
 # Options
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

@@ -10,7 +10,7 @@ sidebar:
 
 # Graphics
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

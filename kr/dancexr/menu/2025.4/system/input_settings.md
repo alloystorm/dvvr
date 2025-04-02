@@ -4,13 +4,13 @@ layout: single
 title: 컨트롤러 입력
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-kr"
 ---
 [Eng](/dancexr/menu/2025.4/system/input_settings) | [繁中](/tw/dancexr/menu/2025.4/system/input_settings) | [日本語](/jp/dancexr/menu/2025.4/system/input_settings) | [한국어](/kr/dancexr/menu/2025.4/system/input_settings) | [简中](/zh/dancexr/menu/2025.4/system/input_settings)
 
 # 컨트롤러 입력
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

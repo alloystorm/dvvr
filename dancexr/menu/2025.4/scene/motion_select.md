@@ -10,7 +10,7 @@ sidebar:
 
 # Camera: [Freefly Cam]
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

@@ -4,13 +4,13 @@ layout: single
 title: 天空
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 [Eng](/dancexr/menu/2025.4/scene/sky) | [繁中](/tw/dancexr/menu/2025.4/scene/sky) | [日本語](/jp/dancexr/menu/2025.4/scene/sky) | [한국어](/kr/dancexr/menu/2025.4/scene/sky) | [简中](/zh/dancexr/menu/2025.4/scene/sky)
 
 # 天空
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

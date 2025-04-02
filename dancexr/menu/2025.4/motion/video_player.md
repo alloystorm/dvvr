@@ -10,7 +10,7 @@ sidebar:
 
 # Video Player
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

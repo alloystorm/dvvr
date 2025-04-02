@@ -4,14 +4,14 @@ layout: single
 title: "Menu catalogue for DanceXR 2025.4"
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-tw"
 ---
 
 [Eng](/dancexr/menu/2025.4/menu) | [繁中](/tw/dancexr/menu/2025.4/menu) | [日本語](/jp/dancexr/menu/2025.4/menu) | [한국어](/kr/dancexr/menu/2025.4/menu) | [简中](/zh/dancexr/menu/2025.4/menu)
 
 # Menu catalogue for DanceXR 2025.4
 
-Generated on 2025-04-02 17:34:50
+Generated on 2025-04-02 17:58:37
 
 | | |
 | :--- | :--- |

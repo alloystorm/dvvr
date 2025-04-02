@@ -4,13 +4,13 @@ layout: single
 title: 图形
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-tw"
 ---
 [Eng](/dancexr/menu/2025.4/system/graphics) | [繁中](/tw/dancexr/menu/2025.4/system/graphics) | [日本語](/jp/dancexr/menu/2025.4/system/graphics) | [한국어](/kr/dancexr/menu/2025.4/system/graphics) | [简中](/zh/dancexr/menu/2025.4/system/graphics)
 
 # 图形
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

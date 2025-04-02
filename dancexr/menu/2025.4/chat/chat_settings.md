@@ -10,7 +10,7 @@ sidebar:
 
 # Chat Settings
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

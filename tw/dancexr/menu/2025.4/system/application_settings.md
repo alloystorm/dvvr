@@ -4,13 +4,13 @@ layout: single
 title: 應用設置
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 [Eng](/dancexr/menu/2025.4/system/application_settings) | [繁中](/tw/dancexr/menu/2025.4/system/application_settings) | [日本語](/jp/dancexr/menu/2025.4/system/application_settings) | [한국어](/kr/dancexr/menu/2025.4/system/application_settings) | [简中](/zh/dancexr/menu/2025.4/system/application_settings)
 
 # 應用設置
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

@@ -10,7 +10,7 @@ sidebar:
 
 # Particle Effect
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

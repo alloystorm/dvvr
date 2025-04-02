@@ -10,7 +10,7 @@ sidebar:
 
 # Microphone
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

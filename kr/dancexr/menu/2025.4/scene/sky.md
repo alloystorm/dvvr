@@ -4,13 +4,13 @@ layout: single
 title: 하늘
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-kr"
 ---
 [Eng](/dancexr/menu/2025.4/scene/sky) | [繁中](/tw/dancexr/menu/2025.4/scene/sky) | [日本語](/jp/dancexr/menu/2025.4/scene/sky) | [한국어](/kr/dancexr/menu/2025.4/scene/sky) | [简中](/zh/dancexr/menu/2025.4/scene/sky)
 
 # 하늘
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

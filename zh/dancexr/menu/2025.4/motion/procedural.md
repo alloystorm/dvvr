@@ -4,13 +4,13 @@ layout: single
 title: 程序化
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-tw"
 ---
 [Eng](/dancexr/menu/2025.4/motion/procedural) | [繁中](/tw/dancexr/menu/2025.4/motion/procedural) | [日本語](/jp/dancexr/menu/2025.4/motion/procedural) | [한국어](/kr/dancexr/menu/2025.4/motion/procedural) | [简中](/zh/dancexr/menu/2025.4/motion/procedural)
 
 # 程序化
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

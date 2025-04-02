@@ -4,13 +4,13 @@ layout: single
 title: 照明
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-tw"
 ---
 [Eng](/dancexr/menu/2025.4/scene/lighting) | [繁中](/tw/dancexr/menu/2025.4/scene/lighting) | [日本語](/jp/dancexr/menu/2025.4/scene/lighting) | [한국어](/kr/dancexr/menu/2025.4/scene/lighting) | [简中](/zh/dancexr/menu/2025.4/scene/lighting)
 
 # 照明
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

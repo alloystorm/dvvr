@@ -10,7 +10,7 @@ sidebar:
 
 # Animated Values
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

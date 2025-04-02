@@ -10,7 +10,7 @@ sidebar:
 
 # Ground
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

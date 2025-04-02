@@ -77,22 +77,18 @@ docs:
         url: /dancexr/download
       - title: "Content Library"
         url: /dancexr/preparecontent
-      - title: Feature List
-        url: /dancexr/features
       - title: Variants & Availability
         url: /dancexr/versions
       - title: FAQ
         url: /dancexr/faq
       - title: Troubleshooting
         url: /dancexr/troubleshooting
-  - title: New Features
+  - title: Features & Settings
     children:
-      - title: "Video Playback"
-        url: /dancexr/features/video_playback
-      - title: "AR Mode"
-        url: /dancexr/features/ar_mode
-      - title: "AI Chat"
-        url: /dancexr/ai_chat
+      - title: Feature List
+        url: /dancexr/features
+      - title: Settings Manual
+        url: /dancexr/menu/2025.4/menu
   - title: Releases
     url: /dancexr/releases/
     children:
@@ -181,22 +177,18 @@ docs-zh:
         url: /zh/dancexr/download
       - title: "内容库"
         url: /zh/dancexr/preparecontent
-      - title: 功能列表
-        url: /zh/dancexr/features
       - title: 变体和可用性
         url: /zh/dancexr/versions
       - title: 常见问题
         url: /zh/dancexr/faq
       - title: 故障排除
         url: /zh/dancexr/troubleshooting
-  - title: 新功能
+  - title: 功能与设置
     children:
-      - title: "视频播放"
-        url: /zh/dancexr/features/video_playback
-      - title: "AR模式"
-        url: /zh/dancexr/features/ar_mode
-      - title: "AI聊天"
-        url: /zh/dancexr/ai_chat
+      - title: 功能列表
+        url: /zh/dancexr/features
+      - title: 设置手册
+        url: /zh/dancexr/menu/2025.4/menu
   - title: 发布
     url: /zh/dancexr/releases/
     children:
@@ -284,22 +276,18 @@ docs-tw:
         url: /tw/dancexr/download
       - title: "內容庫"
         url: /tw/dancexr/preparecontent
-      - title: 功能列表
-        url: /tw/dancexr/features
       - title: 變體與可用性
         url: /tw/dancexr/versions
       - title: 常見問題
         url: /tw/dancexr/faq
       - title: 故障排除
         url: /tw/dancexr/troubleshooting
-  - title: 新功能
+  - title: 功能与设置
     children:
-      - title: "視頻播放"
-        url: /tw/dancexr/features/video_playback
-      - title: "AR模式"
-        url: /tw/dancexr/features/ar_mode
-      - title: "AI聊天"
-        url: /tw/dancexr/ai_chat
+      - title: 功能列表
+        url: /tw/dancexr/features
+      - title: 設置手冊
+        url: /tw/dancexr/menu/2025.4/menu
   - title: 發布
     url: /tw/dancexr/releases/
     children:
@@ -387,22 +375,18 @@ docs-jp:
         url: /jp/dancexr/download
       - title: "コンテンツライブラリ"
         url: /jp/dancexr/preparecontent
-      - title: 機能リスト
-        url: /jp/dancexr/features
       - title: バリアントと利用可能性
         url: /jp/dancexr/versions
       - title: FAQ
         url: /jp/dancexr/faq
       - title: トラブルシューティング
         url: /jp/dancexr/troubleshooting
-  - title: 新機能
+  - title: 機能と設定
     children:
-      - title: "ビデオ再生"
-        url: /jp/dancexr/features/video_playback
-      - title: "ARモード"
-        url: /jp/dancexr/features/ar_mode
-      - title: "AIチャット"
-        url: /jp/dancexr/ai_chat
+      - title: 機能リスト
+        url: /jp/dancexr/features
+      - title: 設定マニュアル
+        url: /jp/dancexr/menu/2025.4/menu
   - title: リリース
     url: /jp/dancexr/releases/
     children:
@@ -490,22 +474,19 @@ docs-kr:
         url: /kr/dancexr/download
       - title: "콘텐츠 라이브러리"
         url: /kr/dancexr/preparecontent
-      - title: 기능 목록
-        url: /kr/dancexr/features
       - title: 변형 및 이용 가능성
         url: /kr/dancexr/versions
       - title: FAQ
         url: /kr/dancexr/faq
       - title: 문제 해결
         url: /kr/dancexr/troubleshooting
-  - title: 새로운 기능
+  - title: 기능 및 설정
     children:
-      - title: "비디오 재생"
-        url: /kr/dancexr/features/video_playback
-      - title: "AR 모드"
-        url: /kr/dancexr/features/ar_mode
-      - title: "AI 챗봇"
-        url: /kr/dancexr/ai_chat
+      - title: 기능 목록
+        url: /kr/dancexr/features
+      - title: 설정 매뉴얼
+        url: /kr/dancexr/menu/2025.4/menu
+
   - title: 출시
     url: /kr/dancexr/releases/
     children:

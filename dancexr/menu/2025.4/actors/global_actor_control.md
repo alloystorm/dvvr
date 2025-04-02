@@ -10,7 +10,7 @@ sidebar:
 
 # Global Actor Control
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

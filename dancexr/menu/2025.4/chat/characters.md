@@ -10,7 +10,7 @@ sidebar:
 
 # Characters
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

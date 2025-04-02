@@ -4,13 +4,13 @@ layout: single
 title: 응용 프로그램 설정
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-kr"
 ---
 [Eng](/dancexr/menu/2025.4/system/application_settings) | [繁中](/tw/dancexr/menu/2025.4/system/application_settings) | [日本語](/jp/dancexr/menu/2025.4/system/application_settings) | [한국어](/kr/dancexr/menu/2025.4/system/application_settings) | [简中](/zh/dancexr/menu/2025.4/system/application_settings)
 
 # 응용 프로그램 설정
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

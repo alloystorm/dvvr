@@ -10,7 +10,7 @@ sidebar:
 
 # Load History
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

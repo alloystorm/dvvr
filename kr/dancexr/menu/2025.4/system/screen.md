@@ -4,13 +4,13 @@ layout: single
 title: 디스플레이 및 UI
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-kr"
 ---
 [Eng](/dancexr/menu/2025.4/system/screen) | [繁中](/tw/dancexr/menu/2025.4/system/screen) | [日本語](/jp/dancexr/menu/2025.4/system/screen) | [한국어](/kr/dancexr/menu/2025.4/system/screen) | [简中](/zh/dancexr/menu/2025.4/system/screen)
 
 # 디스플레이 및 UI
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

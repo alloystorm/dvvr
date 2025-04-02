@@ -10,7 +10,7 @@ sidebar:
 
 # Loader Options
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

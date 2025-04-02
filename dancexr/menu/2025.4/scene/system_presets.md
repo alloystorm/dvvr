@@ -10,7 +10,7 @@ sidebar:
 
 # System Presets
 
-## Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.
+Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

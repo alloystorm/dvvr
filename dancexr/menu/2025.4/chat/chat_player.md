@@ -10,7 +10,7 @@ sidebar:
 
 # Player
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

@@ -10,7 +10,7 @@ sidebar:
 
 # Physics
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

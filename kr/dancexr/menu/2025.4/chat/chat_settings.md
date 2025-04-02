@@ -4,13 +4,13 @@ layout: single
 title: 채팅 설정
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-kr"
 ---
 [Eng](/dancexr/menu/2025.4/chat/chat_settings) | [繁中](/tw/dancexr/menu/2025.4/chat/chat_settings) | [日本語](/jp/dancexr/menu/2025.4/chat/chat_settings) | [한국어](/kr/dancexr/menu/2025.4/chat/chat_settings) | [简中](/zh/dancexr/menu/2025.4/chat/chat_settings)
 
 # 채팅 설정
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

@@ -10,7 +10,7 @@ sidebar:
 
 # Application Settings
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

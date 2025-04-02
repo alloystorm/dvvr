@@ -10,7 +10,7 @@ sidebar:
 
 # Clear History
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

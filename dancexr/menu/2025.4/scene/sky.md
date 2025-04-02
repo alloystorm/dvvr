@@ -10,7 +10,7 @@ sidebar:
 
 # Sky
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

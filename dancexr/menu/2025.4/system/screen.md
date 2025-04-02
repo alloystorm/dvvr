@@ -10,7 +10,7 @@ sidebar:
 
 # Display & UI
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

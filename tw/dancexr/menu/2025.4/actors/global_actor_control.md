@@ -4,13 +4,13 @@ layout: single
 title: 全局演員控制
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-zh"
 ---
 [Eng](/dancexr/menu/2025.4/actors/global_actor_control) | [繁中](/tw/dancexr/menu/2025.4/actors/global_actor_control) | [日本語](/jp/dancexr/menu/2025.4/actors/global_actor_control) | [한국어](/kr/dancexr/menu/2025.4/actors/global_actor_control) | [简中](/zh/dancexr/menu/2025.4/actors/global_actor_control)
 
 # 全局演員控制
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

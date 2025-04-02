@@ -10,7 +10,7 @@ sidebar:
 
 # Formation
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

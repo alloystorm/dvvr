@@ -4,13 +4,13 @@ layout: single
 title: 프로시저
 toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-kr"
 ---
 [Eng](/dancexr/menu/2025.4/motion/procedural) | [繁中](/tw/dancexr/menu/2025.4/motion/procedural) | [日本語](/jp/dancexr/menu/2025.4/motion/procedural) | [한국어](/kr/dancexr/menu/2025.4/motion/procedural) | [简中](/zh/dancexr/menu/2025.4/motion/procedural)
 
 # 프로시저
 
-## 
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
