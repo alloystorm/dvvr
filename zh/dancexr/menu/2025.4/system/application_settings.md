@@ -1,0 +1,243 @@
+---
+locale: zh-rCN
+layout: single
+title: 应用程序设置
+toc: true
+sidebar:
+  nav: "docs"
+---
+[Eng](/dancexr/menu/2025.4/system/application_settings.md) | [繁中](/tw/dancexr/menu/2025.4/system/application_settings.md) | [日本語](/jp/dancexr/menu/2025.4/system/application_settings.md) | [한국어](/kr/dancexr/menu/2025.4/system/application_settings.md) | [简中](/zh/dancexr/menu/2025.4/system/application_settings.md)
+# 应用程序设置
+## 
+| Setting | Value | Description |
+| :--- | --- | :--- |
+|**应用程序设置** | | 
+| 加载上一个场景 | OFF | 启动时自动加载最后一个场景
+| 在VR中屏蔽桌面窗口 | ON | 在VR模式下屏蔽桌面窗口
+| 从保存中恢复标签 | OFF | 尝试从保存的设置中恢复标签，以防你的内容缓存被重建或损坏
+| 翻转DDS压缩 | ON | 翻转压缩的DDS纹理
+| 翻转DDS未压缩 | OFF | 翻转未压缩的DDS纹理
+|**虚拟现实手** | | 
+| 手可见 | ON | 
+| 投射阴影 | OFF | 
+| (Time And FPS) | ON | 
+|**手部方向** | | 
+| 偏移 || 
+|- (X)| [0] (-0.1 ~ 0.1) | 
+|- (Y)| [0] (-0.1 ~ 0.1) | 
+|- (Z)| [0] (-0.1 ~ 0.1) | 
+|- 旋转| [45] (-90 ~ 90) | 
+| 更新指针 || 
+| 重置 || 
+| (Confirm Reset) || 
+|
+| 左手姿势 |  **Auto**,  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+|**左手配件** | | 
+| (Enable Left Hand Accessory) | OFF | 
+| 模型 |  **[Pole]**,  |  |
+|**锚点偏移** | | Set the anchor position for the attachment to attach to
+| 位置 || 
+|- (X)| [0] (-1 ~ 1) | 
+|- (Y)| [0] (-1 ~ 1) | 
+|- (Z)| [0] (-1 ~ 1) | 
+| 旋转 || 
+|- (X)| [0] (-90 ~ 90) | 
+|- (Y)| [0] (-90 ~ 90) | 
+|- (Z)| [0] (-90 ~ 90) | 
+| 重置 || 
+| (Confirm Reset) || 
+|
+| 大小与对齐 || 
+|- 物体半径| [0.02] (0.01 ~ 0.05) | 
+|- 物体长度| [0.2] (0 ~ 5) | 
+|- 缩放| [0] (-5 ~ 5) | 
+|- 方向|  **Y Up**,  | 
+| 偏移 || 
+|- (X)| [0] (-2 ~ 2) | 
+|- (Y)| [0] (-2 ~ 2) | 
+|- (Z)| [0] (-2 ~ 2) | 
+| 旋转 || 
+|- (X)| [0] (-180 ~ 180) | 
+|- (Y)| [0] (-180 ~ 180) | 
+|- (Z)| [0] (-180 ~ 180) | 
+| 吉他模式 | OFF | 
+|**运动** | | Apply up / down motion to the attachment model
+| (Enable Motion) | OFF | 
+|**速度** | | 
+|- 每拍动作数|  1/4,  1/3,  1/2,  2/3,  **1**,  | 
+|- 每组动作数| [8] (4 ~ 32) | 
+|- 相位| [0] (0 ~ 1) | 
+|- 曲线| [0] (0 ~ 1) | 
+| 可变速度 | OFF | 
+|- 模式|  **Gradual**,  | 
+|- 最小速度|  1/4,  1/3,  **1/2**,  | 
+|- 最大速度|  1,  **3/2**,  | 
+| 重置 || 
+| (Confirm Reset) || 
+|
+|- 距离| [0.1] (0 ~ 0.3) | 
+|- 角度| [0] (-60 ~ 60) | 
+| 重置 || 
+| (Confirm Reset) || 
+|
+| 动画 |  **None**,  | 选择加载的运动以用于附加物模型 |
+|**表面** | | 
+|- 光泽| [0.9] (0 ~ 1) | 
+|- 金属质感| [1] (0 ~ 1) | 
+|- 凹凸| [0.2] (0 ~ 1) | 
+|- 发光| [0] (0 ~ 10) | 
+|- 环境光| [1] (0 ~ 1) | 
+|- 透明度| [1] (0 ~ 1) | 
+|- 剪切| [0] (0 ~ 1) | 
+|**颜色** | | 
+|- 颜色模式|  **RGB**,  | 
+|- 色相| [0] (0 ~ 1) | 
+|- 饱和度| [0] (0 ~ 1) | 
+|- 亮度| [1] (0 ~ 1) | 
+|- 红色| [1] (0 ~ 1) | 
+|- 绿色| [1] (0 ~ 1) | 
+|- 蓝色| [1] (0 ~ 1) | 
+| 混合模式 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+|- 混合| [1] (0 ~ 1) | 
+| 预设 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+|
+|**卡通着色器** | | 
+| (Enable Toon Shader) | OFF | 
+|- 着色| [1] (0 ~ 1) | 
+|- 轮廓| [0.5] (0 ~ 1) | 
+|- 高光| [0.25] (0 ~ 1) | 
+|- 柔和高光| [0.1] (0 ~ 1) | 
+|- 高光区域| [0.25] (0 ~ 1) | 
+|- 柔和高光| [0.1] (0 ~ 1) | 
+|- 环境光| [0.75] (0 ~ 1) | 
+|- 阴影区域| [0.65] (0 ~ 1) | 
+|- 阴影| [0.75] (0 ~ 1) | 
+|- 柔和阴影| [0.1] (0 ~ 1) | 
+| 预设 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+|
+|**特效着色器** | | 
+| 模式 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+|- 折射| [0.5] (1 ~ 3) | 
+|- 厚度| [1] (0 ~ 1) | 
+| 重置 || 
+| (Confirm Reset) || 
+|
+| 预设 |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+|
+|- X射线| [0] (0 ~ 1) | 
+|- 透明度| [1] (0 ~ 1) | 
+|- 拉手| [0.1] (0 ~ 0.5) | 当手靠近附加物时拉向附加物
+| 抓取姿势 | ON | 当手在附加物上时自动改变手的姿势为抓取
+|- 手的运动| [0] (-1 ~ 1) | 相对于附加物运动移动手
+| 重置 || 
+| (Confirm Reset) || 
+|
+| 右手姿势 |  **Auto**,  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+|**右手配件** | | 
+| (Enable Right Hand Accessory) | OFF | 
+| 模型 |  **[Pole]**,  |  |
+|**锚点偏移** | | Set the anchor position for the attachment to attach to
+| 位置 || 
+|- (X)| [0] (-1 ~ 1) | 
+|- (Y)| [0] (-1 ~ 1) | 
+|- (Z)| [0] (-1 ~ 1) | 
+| 旋转 || 
+|- (X)| [0] (-90 ~ 90) | 
+|- (Y)| [0] (-90 ~ 90) | 
+|- (Z)| [0] (-90 ~ 90) | 
+| 重置 || 
+| (Confirm Reset) || 
+|
+| 大小与对齐 || 
+|- 物体半径| [0.02] (0.01 ~ 0.05) | 
+|- 物体长度| [0.2] (0 ~ 5) | 
+|- 缩放| [0] (-5 ~ 5) | 
+|- 方向|  **Y Up**,  | 
+| 偏移 || 
+|- (X)| [0] (-2 ~ 2) | 
+|- (Y)| [0] (-2 ~ 2) | 
+|- (Z)| [0] (-2 ~ 2) | 
+| 旋转 || 
+|- (X)| [0] (-180 ~ 180) | 
+|- (Y)| [0] (-180 ~ 180) | 
+|- (Z)| [0] (-180 ~ 180) | 
+| 吉他模式 | OFF | 
+|**运动** | | Apply up / down motion to the attachment model
+| (Enable Motion) | OFF | 
+|**速度** | | 
+|- 每拍动作数|  1/4,  1/3,  1/2,  2/3,  **1**,  | 
+|- 每组动作数| [8] (4 ~ 32) | 
+|- 相位| [0] (0 ~ 1) | 
+|- 曲线| [0] (0 ~ 1) | 
+| 可变速度 | OFF | 
+|- 模式|  **Gradual**,  | 
+|- 最小速度|  1/4,  1/3,  **1/2**,  | 
+|- 最大速度|  1,  **3/2**,  | 
+| 重置 || 
+| (Confirm Reset) || 
+|
+|- 距离| [0.1] (0 ~ 0.3) | 
+|- 角度| [0] (-60 ~ 60) | 
+| 重置 || 
+| (Confirm Reset) || 
+|
+| 动画 |  **None**,  | 选择加载的运动以用于附加物模型 |
+|**表面** | | 
+|- 光泽| [0.9] (0 ~ 1) | 
+|- 金属质感| [1] (0 ~ 1) | 
+|- 凹凸| [0.2] (0 ~ 1) | 
+|- 发光| [0] (0 ~ 10) | 
+|- 环境光| [1] (0 ~ 1) | 
+|- 透明度| [1] (0 ~ 1) | 
+|- 剪切| [0] (0 ~ 1) | 
+|**颜色** | | 
+|- 颜色模式|  **RGB**,  | 
+|- 色相| [0] (0 ~ 1) | 
+|- 饱和度| [0] (0 ~ 1) | 
+|- 亮度| [1] (0 ~ 1) | 
+|- 红色| [1] (0 ~ 1) | 
+|- 绿色| [1] (0 ~ 1) | 
+|- 蓝色| [1] (0 ~ 1) | 
+| 混合模式 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+|- 混合| [1] (0 ~ 1) | 
+| 预设 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+|
+|**卡通着色器** | | 
+| (Enable Toon Shader) | OFF | 
+|- 着色| [1] (0 ~ 1) | 
+|- 轮廓| [0.5] (0 ~ 1) | 
+|- 高光| [0.25] (0 ~ 1) | 
+|- 柔和高光| [0.1] (0 ~ 1) | 
+|- 高光区域| [0.25] (0 ~ 1) | 
+|- 柔和高光| [0.1] (0 ~ 1) | 
+|- 环境光| [0.75] (0 ~ 1) | 
+|- 阴影区域| [0.65] (0 ~ 1) | 
+|- 阴影| [0.75] (0 ~ 1) | 
+|- 柔和阴影| [0.1] (0 ~ 1) | 
+| 预设 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+|
+|**特效着色器** | | 
+| 模式 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+|- 折射| [0.5] (1 ~ 3) | 
+|- 厚度| [1] (0 ~ 1) | 
+| 重置 || 
+| (Confirm Reset) || 
+|
+| 预设 |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+|
+|- X射线| [0] (0 ~ 1) | 
+|- 透明度| [1] (0 ~ 1) | 
+|- 拉手| [0.1] (0 ~ 0.5) | 当手靠近附加物时拉向附加物
+| 抓取姿势 | ON | 当手在附加物上时自动改变手的姿势为抓取
+|- 手的运动| [0] (-1 ~ 1) | 相对于附加物运动移动手
+| 重置 || 
+| (Confirm Reset) || 
+|
+| 重置 || 
+| (Confirm Reset) || 
+|
+| Gizmo第三轴 |  **Rotation**,  Depth,  |  |
+| 使用翻译名称 | ON | 
+| 重置 || 
+| (Confirm Reset) || 
+|

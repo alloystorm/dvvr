@@ -1,0 +1,21 @@
+---
+locale: zh-rCN
+layout: single
+title: 内容库
+toc: true
+sidebar:
+  nav: "docs"
+---
+[Eng](/dancexr/menu/2025.4/system/library.md) | [繁中](/tw/dancexr/menu/2025.4/system/library.md) | [日本語](/jp/dancexr/menu/2025.4/system/library.md) | [한국어](/kr/dancexr/menu/2025.4/system/library.md) | [简中](/zh/dancexr/menu/2025.4/system/library.md)
+# 内容库
+## 
+| Setting | Value | Description |
+| :--- | --- | :--- |
+| 内容库 || 
+| 刷新内容 || 
+| 迁移设置 || 
+| 删除重复项 || 
+| 切换库 || 
+| 在资源管理器中显示 || 
+| 谷歌云端硬盘 || 
+| 链接谷歌云端硬盘 || 

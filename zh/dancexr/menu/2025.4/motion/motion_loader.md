@@ -1,0 +1,46 @@
+---
+locale: zh-rCN
+layout: single
+title: 播放选项
+toc: true
+sidebar:
+  nav: "docs"
+---
+[Eng](/dancexr/menu/2025.4/motion/motion_loader.md) | [繁中](/tw/dancexr/menu/2025.4/motion/motion_loader.md) | [日本語](/jp/dancexr/menu/2025.4/motion/motion_loader.md) | [한국어](/kr/dancexr/menu/2025.4/motion/motion_loader.md) | [简中](/zh/dancexr/menu/2025.4/motion/motion_loader.md)
+# 播放选项
+## 
+| Setting | Value | Description |
+| :--- | --- | :--- |
+|**播放选项** | | 
+| 主运动 || 
+| 播放模式 |  **List Once**,  Single,  Loop List,  Loop Single,  Shuffle,  |  |
+| 自动加载演员 | OFF | 自动加载演员以匹配运动轨迹的数量，并为每个演员分配不同的运动
+| 自动分配摄影机 | OFF | 如果可用，自动分配摄影机运动
+| 混音运动 || 
+| 混音模式 |  Continue Next,  **Synchronized**,  Loop,  Shuffle Next,  |  |
+| 时间 || 
+| 时间线微调 | ON | 长按时间线以微调播放时间。
+|- 速度| [1] (0.5 ~ 2) | 改变音频速度。这也会影响运动和物理速度
+| 音调偏移 | ON | 调整音频以匹配改变速度后的原始音调
+| 自动同步模式 |  **Off**,  Move Audio,  Move Motion,  |  |
+|- 自动同步阈值| [0.05] (0 ~ 0.2) | 当时间差超过此值时，自动同步运动和音频。以秒为单位。
+|- 偏移| [0] ((Unlimited)) | 
+|- 每分钟节拍| [120] (1 ~ 240) | 每分钟节拍
+|- 节拍偏移| [0] (0 ~ 1) | 
+|- 每短语节拍数| [8] (4 ~ 64) | 
+|- 短语开始| [0] (0 ~ 32) | 
+| 点击节拍 || 在音乐播放时通过点击设置每分钟节拍
+| 振幅检测 || 
+|- 平滑| [0.25] (0 ~ 1) | 平滑响度值的输出
+|- (Fade In Out)| [0] (0 ~ 0.2) | 
+|- 频带选择| [0] (0 ~ 1) | 选择计算响度水平的频带范围
+|- 缩放| [0.25] (0.025 ~ 1) | 
+| 使用唇同步 | OFF | 
+|- 唇同步平滑| [0.05] (0 ~ 0.1) | 
+| 空间化 | OFF | 使用空间音频
+|- 空间混合| [0] (0 ~ 1) | 混合空间音频的3D效果
+| 跟随演员 | OFF | 
+| 选择角色 |  |  |
+| 重置 || 
+| (Confirm Reset) || 
+|

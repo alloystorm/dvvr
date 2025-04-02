@@ -1,0 +1,243 @@
+---
+locale: ko-rKR
+layout: single
+title: 응용 프로그램 설정
+toc: true
+sidebar:
+  nav: "docs"
+---
+[Eng](/dancexr/menu/2025.4/system/application_settings.md) | [繁中](/tw/dancexr/menu/2025.4/system/application_settings.md) | [日本語](/jp/dancexr/menu/2025.4/system/application_settings.md) | [한국어](/kr/dancexr/menu/2025.4/system/application_settings.md) | [简中](/zh/dancexr/menu/2025.4/system/application_settings.md)
+# 응용 프로그램 설정
+## 
+| Setting | Value | Description |
+| :--- | --- | :--- |
+|**응용 프로그램 설정** | | 
+| 이전 씬 로드 | OFF | 시작 시 마지막 씬 자동 로드
+| VR에서 데스크톱 창 차단 | ON | VR 모드에서 데스크톱 창 차단
+| 저장된 태그 복구 | OFF | 내용 캐시가 재구성되거나 손상된 경우 저장된 설정에서 태그 복구 시도
+| DDS 압축 전환 | ON | 압축된 DDS 텍스처 전환
+| DDS 비압축 전환 | OFF | 비압축된 DDS 텍스처 전환
+|**VR 손** | | 
+| 손 보이기 | ON | 
+| 그림자 생성 | OFF | 
+| (Time And FPS) | ON | 
+|**손 방향** | | 
+| 오프셋 || 
+|- (X)| [0] (-0.1 ~ 0.1) | 
+|- (Y)| [0] (-0.1 ~ 0.1) | 
+|- (Z)| [0] (-0.1 ~ 0.1) | 
+|- 회전| [45] (-90 ~ 90) | 
+| 포인터 업데이트 || 
+| 초기화 || 
+| (Confirm Reset) || 
+|
+| 왼손 포즈 |  **Auto**,  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+|**왼손 액세서리** | | 
+| (Enable Left Hand Accessory) | OFF | 
+| 모델 |  **[Pole]**,  |  |
+|**앵커 오프셋** | | Set the anchor position for the attachment to attach to
+| 위치 || 
+|- (X)| [0] (-1 ~ 1) | 
+|- (Y)| [0] (-1 ~ 1) | 
+|- (Z)| [0] (-1 ~ 1) | 
+| 회전 || 
+|- (X)| [0] (-90 ~ 90) | 
+|- (Y)| [0] (-90 ~ 90) | 
+|- (Z)| [0] (-90 ~ 90) | 
+| 초기화 || 
+| (Confirm Reset) || 
+|
+| 크기 및 정렬 || 
+|- 객체 반경| [0.02] (0.01 ~ 0.05) | 
+|- 객체 길이| [0.2] (0 ~ 5) | 
+|- 스케일| [0] (-5 ~ 5) | 
+|- 방향|  **Y Up**,  | 
+| 오프셋 || 
+|- (X)| [0] (-2 ~ 2) | 
+|- (Y)| [0] (-2 ~ 2) | 
+|- (Z)| [0] (-2 ~ 2) | 
+| 회전 || 
+|- (X)| [0] (-180 ~ 180) | 
+|- (Y)| [0] (-180 ~ 180) | 
+|- (Z)| [0] (-180 ~ 180) | 
+| 기타 모드 | OFF | 
+|**모션** | | Apply up / down motion to the attachment model
+| (Enable Motion) | OFF | 
+|**속도** | | 
+|- 비트당 움직임|  1/4,  1/3,  1/2,  2/3,  **1**,  | 
+|- 그룹당 움직임| [8] (4 ~ 32) | 
+|- 주기| [0] (0 ~ 1) | 
+|- 곡선| [0] (0 ~ 1) | 
+| 변동 속도 | OFF | 
+|- 모드|  **Gradual**,  | 
+|- 최소 속도|  1/4,  1/3,  **1/2**,  | 
+|- 최대 속도|  1,  **3/2**,  | 
+| 초기화 || 
+| (Confirm Reset) || 
+|
+|- 거리| [0.1] (0 ~ 0.3) | 
+|- 각도| [0] (-60 ~ 60) | 
+| 초기화 || 
+| (Confirm Reset) || 
+|
+| 애니메이션 |  **None**,  | 부착 모델에 사용할 로드된 모션 선택 |
+|**표면** | | 
+|- 광택| [0.9] (0 ~ 1) | 
+|- 금속성| [1] (0 ~ 1) | 
+|- 범프| [0.2] (0 ~ 1) | 
+|- 발광| [0] (0 ~ 10) | 
+|- 앰비언트| [1] (0 ~ 1) | 
+|- 알파| [1] (0 ~ 1) | 
+|- 클립| [0] (0 ~ 1) | 
+|**색상** | | 
+|- 색상 모드|  **RGB**,  | 
+|- 색조| [0] (0 ~ 1) | 
+|- 채도| [0] (0 ~ 1) | 
+|- 밝기| [1] (0 ~ 1) | 
+|- 빨간색| [1] (0 ~ 1) | 
+|- 초록색| [1] (0 ~ 1) | 
+|- 파란색| [1] (0 ~ 1) | 
+| 혼합 모드 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+|- 혼합| [1] (0 ~ 1) | 
+| 프리셋 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+|
+|**툰 셰이더** | | 
+| (Enable Toon Shader) | OFF | 
+|- 쉐이딩| [1] (0 ~ 1) | 
+|- 윤곽선| [0.5] (0 ~ 1) | 
+|- 스페큘러| [0.25] (0 ~ 1) | 
+|- 소프트 스페큘러| [0.1] (0 ~ 1) | 
+|- 하이라이트 영역| [0.25] (0 ~ 1) | 
+|- 부드러운 하이라이트| [0.1] (0 ~ 1) | 
+|- 앰비언트| [0.75] (0 ~ 1) | 
+|- 그림자 영역| [0.65] (0 ~ 1) | 
+|- 그림자| [0.75] (0 ~ 1) | 
+|- 부드러운 그림자| [0.1] (0 ~ 1) | 
+| 프리셋 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+|
+|**특수 셰이더** | | 
+| 모드 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+|- 굴절| [0.5] (1 ~ 3) | 
+|- 두께| [1] (0 ~ 1) | 
+| 초기화 || 
+| (Confirm Reset) || 
+|
+| 프리셋 |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+|
+|- X레이| [0] (0 ~ 1) | 
+|- 알파| [1] (0 ~ 1) | 
+|- 손을 당기기| [0.1] (0 ~ 0.5) | 부착물에 가까워지면 손을 부착물 쪽으로 당김
+| 잡기 포즈 | ON | 부착물에 있을 때 자동으로 손 포즈를 잡기 자세로 변경
+|- 손 동작| [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
+| 초기화 || 
+| (Confirm Reset) || 
+|
+| 오른손 포즈 |  **Auto**,  Palm Fingers Apart,  Palm Fingers Together,  Fist,  Victory,  Okay,  Hold,  Vulcan,  Horn,  Point,  Middle Finger,  Thumb Up,  Grab,  |  |
+|**오른손 액세서리** | | 
+| (Enable Right Hand Accessory) | OFF | 
+| 모델 |  **[Pole]**,  |  |
+|**앵커 오프셋** | | Set the anchor position for the attachment to attach to
+| 위치 || 
+|- (X)| [0] (-1 ~ 1) | 
+|- (Y)| [0] (-1 ~ 1) | 
+|- (Z)| [0] (-1 ~ 1) | 
+| 회전 || 
+|- (X)| [0] (-90 ~ 90) | 
+|- (Y)| [0] (-90 ~ 90) | 
+|- (Z)| [0] (-90 ~ 90) | 
+| 초기화 || 
+| (Confirm Reset) || 
+|
+| 크기 및 정렬 || 
+|- 객체 반경| [0.02] (0.01 ~ 0.05) | 
+|- 객체 길이| [0.2] (0 ~ 5) | 
+|- 스케일| [0] (-5 ~ 5) | 
+|- 방향|  **Y Up**,  | 
+| 오프셋 || 
+|- (X)| [0] (-2 ~ 2) | 
+|- (Y)| [0] (-2 ~ 2) | 
+|- (Z)| [0] (-2 ~ 2) | 
+| 회전 || 
+|- (X)| [0] (-180 ~ 180) | 
+|- (Y)| [0] (-180 ~ 180) | 
+|- (Z)| [0] (-180 ~ 180) | 
+| 기타 모드 | OFF | 
+|**모션** | | Apply up / down motion to the attachment model
+| (Enable Motion) | OFF | 
+|**속도** | | 
+|- 비트당 움직임|  1/4,  1/3,  1/2,  2/3,  **1**,  | 
+|- 그룹당 움직임| [8] (4 ~ 32) | 
+|- 주기| [0] (0 ~ 1) | 
+|- 곡선| [0] (0 ~ 1) | 
+| 변동 속도 | OFF | 
+|- 모드|  **Gradual**,  | 
+|- 최소 속도|  1/4,  1/3,  **1/2**,  | 
+|- 최대 속도|  1,  **3/2**,  | 
+| 초기화 || 
+| (Confirm Reset) || 
+|
+|- 거리| [0.1] (0 ~ 0.3) | 
+|- 각도| [0] (-60 ~ 60) | 
+| 초기화 || 
+| (Confirm Reset) || 
+|
+| 애니메이션 |  **None**,  | 부착 모델에 사용할 로드된 모션 선택 |
+|**표면** | | 
+|- 광택| [0.9] (0 ~ 1) | 
+|- 금속성| [1] (0 ~ 1) | 
+|- 범프| [0.2] (0 ~ 1) | 
+|- 발광| [0] (0 ~ 10) | 
+|- 앰비언트| [1] (0 ~ 1) | 
+|- 알파| [1] (0 ~ 1) | 
+|- 클립| [0] (0 ~ 1) | 
+|**색상** | | 
+|- 색상 모드|  **RGB**,  | 
+|- 색조| [0] (0 ~ 1) | 
+|- 채도| [0] (0 ~ 1) | 
+|- 밝기| [1] (0 ~ 1) | 
+|- 빨간색| [1] (0 ~ 1) | 
+|- 초록색| [1] (0 ~ 1) | 
+|- 파란색| [1] (0 ~ 1) | 
+| 혼합 모드 |  Original,  Multiply,  **Blend**,  Color Shift,  |  |
+|- 혼합| [1] (0 ~ 1) | 
+| 프리셋 |  Original,  **White**,  Black,  Red,  Yellow,  Dark Gray,  Blue,  Skin,  Gray,  Orange,  |  |
+|
+|**툰 셰이더** | | 
+| (Enable Toon Shader) | OFF | 
+|- 쉐이딩| [1] (0 ~ 1) | 
+|- 윤곽선| [0.5] (0 ~ 1) | 
+|- 스페큘러| [0.25] (0 ~ 1) | 
+|- 소프트 스페큘러| [0.1] (0 ~ 1) | 
+|- 하이라이트 영역| [0.25] (0 ~ 1) | 
+|- 부드러운 하이라이트| [0.1] (0 ~ 1) | 
+|- 앰비언트| [0.75] (0 ~ 1) | 
+|- 그림자 영역| [0.65] (0 ~ 1) | 
+|- 그림자| [0.75] (0 ~ 1) | 
+|- 부드러운 그림자| [0.1] (0 ~ 1) | 
+| 프리셋 |  **Sharp**,  Soft,  Bright,  Flat + Specular,  Flat,  |  |
+|
+|**특수 셰이더** | | 
+| 모드 |  **Off**,  Refraction Thick,  Refraction Thin,  Outline,  Unlit,  Experiment,  |  |
+|- 굴절| [0.5] (1 ~ 3) | 
+|- 두께| [1] (0 ~ 1) | 
+| 초기화 || 
+| (Confirm Reset) || 
+|
+| 프리셋 |  White Gloss,  Red Gloss,  **Chrome**,  Black Gloss,  Gold,  Solid Glass,  Thin Glass,  |  |
+|
+|- X레이| [0] (0 ~ 1) | 
+|- 알파| [1] (0 ~ 1) | 
+|- 손을 당기기| [0.1] (0 ~ 0.5) | 부착물에 가까워지면 손을 부착물 쪽으로 당김
+| 잡기 포즈 | ON | 부착물에 있을 때 자동으로 손 포즈를 잡기 자세로 변경
+|- 손 동작| [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
+| 초기화 || 
+| (Confirm Reset) || 
+|
+| 초기화 || 
+| (Confirm Reset) || 
+|
+| 기즈모 3차 축 |  **Rotation**,  Depth,  |  |
+| 번역된 이름 사용 | ON | 
+| 초기화 || 
+| (Confirm Reset) || 
+|
