@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Display & UI** | | 
 | UI || 
 | UI Scale | Tiny, Small, **Medium**, Large, XL, XXL,  |  |
 |- UI Width | [200] (200 ~ 500) | Width of menu item
@@ -41,4 +40,3 @@ sidebar:
 | On Left | OFF | Display FPS on the left side
 | With Time | OFF | Add system time next to the FPS display
 | Target FPS | **VSync**, Max, 30, 60, 90, 120, 144, 160, 240,  | Choose desired FPS |
-|

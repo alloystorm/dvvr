@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Physics** | | 
 | Disable PMX Physics | OFF | Disable PMX physics to use XPS tools instead
 | Reduced Constraints | ON | Use the experimental setup that reduces constraints to allow smoother simulation
 |**Collision** | | 
@@ -22,7 +21,6 @@ sidebar:
 | Static Exclusive | ON | 
 | Dynamic Inclusive | ON | 
 | Dynamic Exclusive | ON | 
-|
 |**Linear Movement** | | Settings for linear movements
 |- Restriction | **Auto**, Limited, Locked, Free,  | 
 | Lock 0 Limit | ON | 
@@ -32,7 +30,6 @@ sidebar:
 |- Contact Distance | [0.5] (0 ~ 1) | 
 |- Damping | [0.05] (0 ~ 1) | 
 |- Drag | [0.15] (0 ~ 1) | 
-|
 |**Angular Movement** | | Settings for angular movements
 |- Restriction | **Auto**, Limited, Locked, Free,  | 
 | Lock 0 Limit | ON | 
@@ -42,17 +39,14 @@ sidebar:
 |- Contact Distance | [0.5] (0 ~ 1) | 
 |- Damping | [0.05] (0 ~ 1) | 
 |- Drag | [0.15] (0 ~ 1) | 
-|
 |**Linear Drive** | | Apply linear drive
 | Enable Linear Drive | ON | 
 |- Spring Force | [3] (0 ~ 5) | 
 |- Damping | [0.1] (0 ~ 1) | 
-|
 |**Angular Drive** | | Apply angular drive
 | Enable Angular Drive | ON | 
 |- Spring Force | [0.1] (0 ~ 5) | 
 |- Damping | [0.1] (0 ~ 1) | 
-|
 |**Linear Motion** | | Settings for linear motion
 |- Firmness | [0] (-1 ~ 1) | 
 |- Main Drive Force | [5] (0 ~ 8) | 
@@ -63,7 +57,6 @@ sidebar:
 |- Damping | [0.05] (0 ~ 1) | 
 |- Drag | [0.15] (0 ~ 1) | 
 | Ignore Limit | OFF | Further reducing constraints by ignoring joint limits
-|
 |**Angular Motion** | | Settings for angular motion
 |- Firmness | [0] (-1 ~ 1) | 
 |- Main Drive Force | [5] (0 ~ 8) | 
@@ -74,7 +67,6 @@ sidebar:
 |- Damping | [0.05] (0 ~ 1) | 
 |- Drag | [0.15] (0 ~ 1) | 
 | Ignore Limit | OFF | Further reducing constraints by ignoring joint limits
-|
 |**Options** | | 
 |- Min Drag | [0] (0 ~ 1) | The min drag value in auto mode
 |- Drag Scale | [1] (0 ~ 5) | The scale applied to drag values in auto mode
@@ -83,11 +75,9 @@ sidebar:
 |- Center Of Mass | Auto, **Zero**,  | Set center of mass at zero or automatically based on position and size of each collider
 |- Projection Dist | [0.05] (0 ~ 0.1) | Force reset the joint when distance between objects relative to neutral exceed this value
 |- Projection Angle | [5] (0 ~ 60) | Force reset the joint when angle between the objects relative to neutral exceed this value
-|
 |- Auto Reset Threshold | [35] (0 ~ 100) | Automatically reset the bone and its children when the velocity exceed this value
 |**Auto Reset** | | 
 |- Threshold | [30] (0 ~ 50) | 
-|
 |**Body Colliders** | | 
 | Enable Body Colliders | ON | 
 |- Size | [0.5] (0 ~ 1) | 
@@ -110,7 +100,6 @@ sidebar:
 |- Hand | [0] (0 ~ 1) | 
 | Visualize | OFF | 
 | Presets | **Default (Reset)**, amy, misaki,  |  |
-|
 |**Boobs Physics**<sup>[PRO]</sup> | | 
 | Enable Boobs Physics | ON | 
 | Select Bones || 
@@ -127,17 +116,14 @@ sidebar:
 |- Damping | [1] (0 ~ 1) | 
 |- Contact Distance | [0.5] (0 ~ 1) | 
 |- Bounce | [0.2] (0 ~ 1) | 
-|
 |**Anchor** | | 
 |- X | [-0.03] (-0.2 ~ 0.2) | 
 |- Y | [0.03] (-0.2 ~ 0.2) | 
 |- Z | [0.08] (-0.2 ~ 0.2) | 
-|
 |**Center** | | 
 |- X | [0.02] (-0.2 ~ 0.2) | 
 |- Y | [-0.05] (-0.2 ~ 0.2) | 
 |- Z | [0.025] (-0.2 ~ 0.2) | 
-|
 |**Collision** | | 
 | Collide With Arms | OFF | 
 |- Collider Radius | [0.07] (0 ~ 0.1) | 
@@ -149,9 +135,7 @@ sidebar:
 |- X | [-0.18] (-1 ~ 1) | 
 |- Y | [0.09] (-1 ~ 1) | 
 |- Z | [0.2] (0 ~ 1) | 
-|
 |- Nipple Size | [0.1] (0 ~ 1) | 
-|
 |**Softbody** | | 
 | Enable Softbody | ON | 
 | Joints || 
@@ -180,7 +164,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | OFF | 
@@ -191,7 +174,6 @@ sidebar:
 | Legs | OFF | 
 | Feet | ON | 
 | Player | ON | 
-|
 |**Simulation Settings** | | 
 | Use Global | ON | Find the global settings under Pro / Cloth Simulation
 | Enable Dragging | ON | 
@@ -204,12 +186,9 @@ sidebar:
 |- Alternate Group Size | [0] (0 ~ 20) | 
 |- Table Size | [6] (1 ~ 20) | 
 | Two Step Solving | OFF | 
-|
 | Presets | **Boobs**, Butts, Legs, tina, 预设1, 预设2,  |  |
-|
 | Softbody Only | OFF | Disable physics joint and use softbody particles only.
 | Presets | **Default (Reset)**, Preset 1, Preset 2, Preset 3, tina, 预设1, 预设2,  |  |
-|
 |**Skirt Physics**<sup>[PRO]</sup> | | 
 | Enable Skirt Physics | ON | 
 | Use Particle Dynamics | ON | 
@@ -225,7 +204,6 @@ sidebar:
 |- Alternate Group Size | [0] (0 ~ 20) | 
 |- Table Size | [6] (1 ~ 20) | 
 | Two Step Solving | OFF | 
-|
 | Primary Group || 
 | Select Bones || 
 | Sorting | **Shortest Path**, Circular, Linear, No Sorting,  | Set sorting method used when making lateral connections. |
@@ -254,7 +232,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -265,8 +242,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
-|
 |**Physics Properties** | | Physics properties like mass, drag and friction
 |- Mass | [0.1] (0 ~ 1) | 
 |- Drag | [0] (0 ~ 10) | 
@@ -275,7 +250,6 @@ sidebar:
 |- Friction | [0] (0 ~ 1) | 
 |- Solver Iterations | [20] (1 ~ 150) | Number of iterations when solving collision
 |- Center Of Mass | Auto, **Zero**,  | Set center of mass at zero or automatically based on position and size of each collider
-|
 |**Parent-Child Joint** | | 
 | Visualize | OFF | 
 |- Swing Drive | [0] (0 ~ 10) | 
@@ -283,7 +257,6 @@ sidebar:
 |- Drive Damping | [0.01] (0 ~ 1) | 
 |- Reduction Rate | [0.5] (0 ~ 1) | 
 |- Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-|
 |**Lateral Joint** | | 
 | Visualize | OFF | 
 |- Linear Drive | [5] (0 ~ 10) | 
@@ -292,13 +265,11 @@ sidebar:
 |- Reduction Rate | [1] (0 ~ 1) | 
 | Lock Y | OFF | 
 | Lock Z | OFF | 
-|
 |**Collider** | | 
 |- Collider Radius | [0.01] (0 ~ 0.1) | 
 | Collider Type | **Box**, Capsule, Sphere,  |  |
 |- Collider Length | [0.8] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 |- First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
-|
 |- Additional Groups | [0] (0 ~ 7) | 
 |**Group 2** | | 
 | Enable Group 2 | OFF | 
@@ -329,7 +300,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -340,8 +310,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
-|
 |**Physics Properties** | | Physics properties like mass, drag and friction
 |- Mass | [0.1] (0 ~ 1) | 
 |- Drag | [0] (0 ~ 10) | 
@@ -350,7 +318,6 @@ sidebar:
 |- Friction | [0] (0 ~ 1) | 
 |- Solver Iterations | [20] (1 ~ 150) | Number of iterations when solving collision
 |- Center Of Mass | Auto, **Zero**,  | Set center of mass at zero or automatically based on position and size of each collider
-|
 |**Parent-Child Joint** | | 
 | Visualize | OFF | 
 |- Swing Drive | [0] (0 ~ 10) | 
@@ -358,7 +325,6 @@ sidebar:
 |- Drive Damping | [0.01] (0 ~ 1) | 
 |- Reduction Rate | [0.5] (0 ~ 1) | 
 |- Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-|
 |**Lateral Joint** | | 
 | Visualize | OFF | 
 |- Linear Drive | [5] (0 ~ 10) | 
@@ -367,15 +333,12 @@ sidebar:
 |- Reduction Rate | [1] (0 ~ 1) | 
 | Lock Y | OFF | 
 | Lock Z | OFF | 
-|
 |**Collider** | | 
 |- Collider Radius | [0.01] (0 ~ 0.1) | 
 | Collider Type | **Box**, Capsule, Sphere,  |  |
 |- Collider Length | [0.8] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 |- First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
-|
 | Use Primary Group Settings | ON | 
-|
 |**Group 3** | | 
 | Enable Group 3 | OFF | 
 | Select Bones || 
@@ -405,7 +368,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -416,8 +378,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
-|
 |**Physics Properties** | | Physics properties like mass, drag and friction
 |- Mass | [0.1] (0 ~ 1) | 
 |- Drag | [0] (0 ~ 10) | 
@@ -426,7 +386,6 @@ sidebar:
 |- Friction | [0] (0 ~ 1) | 
 |- Solver Iterations | [20] (1 ~ 150) | Number of iterations when solving collision
 |- Center Of Mass | Auto, **Zero**,  | Set center of mass at zero or automatically based on position and size of each collider
-|
 |**Parent-Child Joint** | | 
 | Visualize | OFF | 
 |- Swing Drive | [0] (0 ~ 10) | 
@@ -434,7 +393,6 @@ sidebar:
 |- Drive Damping | [0.01] (0 ~ 1) | 
 |- Reduction Rate | [0.5] (0 ~ 1) | 
 |- Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-|
 |**Lateral Joint** | | 
 | Visualize | OFF | 
 |- Linear Drive | [5] (0 ~ 10) | 
@@ -443,15 +401,12 @@ sidebar:
 |- Reduction Rate | [1] (0 ~ 1) | 
 | Lock Y | OFF | 
 | Lock Z | OFF | 
-|
 |**Collider** | | 
 |- Collider Radius | [0.01] (0 ~ 0.1) | 
 | Collider Type | **Box**, Capsule, Sphere,  |  |
 |- Collider Length | [0.8] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 |- First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
-|
 | Use Primary Group Settings | ON | 
-|
 |**Group 4** | | 
 | Enable Group 4 | OFF | 
 | Select Bones || 
@@ -481,7 +436,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -492,8 +446,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
-|
 |**Physics Properties** | | Physics properties like mass, drag and friction
 |- Mass | [0.1] (0 ~ 1) | 
 |- Drag | [0] (0 ~ 10) | 
@@ -502,7 +454,6 @@ sidebar:
 |- Friction | [0] (0 ~ 1) | 
 |- Solver Iterations | [20] (1 ~ 150) | Number of iterations when solving collision
 |- Center Of Mass | Auto, **Zero**,  | Set center of mass at zero or automatically based on position and size of each collider
-|
 |**Parent-Child Joint** | | 
 | Visualize | OFF | 
 |- Swing Drive | [0] (0 ~ 10) | 
@@ -510,7 +461,6 @@ sidebar:
 |- Drive Damping | [0.01] (0 ~ 1) | 
 |- Reduction Rate | [0.5] (0 ~ 1) | 
 |- Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-|
 |**Lateral Joint** | | 
 | Visualize | OFF | 
 |- Linear Drive | [5] (0 ~ 10) | 
@@ -519,15 +469,12 @@ sidebar:
 |- Reduction Rate | [1] (0 ~ 1) | 
 | Lock Y | OFF | 
 | Lock Z | OFF | 
-|
 |**Collider** | | 
 |- Collider Radius | [0.01] (0 ~ 0.1) | 
 | Collider Type | **Box**, Capsule, Sphere,  |  |
 |- Collider Length | [0.8] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 |- First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
-|
 | Use Primary Group Settings | ON | 
-|
 |**Group 5** | | 
 | Enable Group 5 | OFF | 
 | Select Bones || 
@@ -557,7 +504,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -568,8 +514,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
-|
 |**Physics Properties** | | Physics properties like mass, drag and friction
 |- Mass | [0.1] (0 ~ 1) | 
 |- Drag | [0] (0 ~ 10) | 
@@ -578,7 +522,6 @@ sidebar:
 |- Friction | [0] (0 ~ 1) | 
 |- Solver Iterations | [20] (1 ~ 150) | Number of iterations when solving collision
 |- Center Of Mass | Auto, **Zero**,  | Set center of mass at zero or automatically based on position and size of each collider
-|
 |**Parent-Child Joint** | | 
 | Visualize | OFF | 
 |- Swing Drive | [0] (0 ~ 10) | 
@@ -586,7 +529,6 @@ sidebar:
 |- Drive Damping | [0.01] (0 ~ 1) | 
 |- Reduction Rate | [0.5] (0 ~ 1) | 
 |- Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-|
 |**Lateral Joint** | | 
 | Visualize | OFF | 
 |- Linear Drive | [5] (0 ~ 10) | 
@@ -595,15 +537,12 @@ sidebar:
 |- Reduction Rate | [1] (0 ~ 1) | 
 | Lock Y | OFF | 
 | Lock Z | OFF | 
-|
 |**Collider** | | 
 |- Collider Radius | [0.01] (0 ~ 0.1) | 
 | Collider Type | **Box**, Capsule, Sphere,  |  |
 |- Collider Length | [0.8] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 |- First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
-|
 | Use Primary Group Settings | ON | 
-|
 |**Group 6** | | 
 | Enable Group 6 | OFF | 
 | Select Bones || 
@@ -633,7 +572,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -644,8 +582,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
-|
 |**Physics Properties** | | Physics properties like mass, drag and friction
 |- Mass | [0.1] (0 ~ 1) | 
 |- Drag | [0] (0 ~ 10) | 
@@ -654,7 +590,6 @@ sidebar:
 |- Friction | [0] (0 ~ 1) | 
 |- Solver Iterations | [20] (1 ~ 150) | Number of iterations when solving collision
 |- Center Of Mass | Auto, **Zero**,  | Set center of mass at zero or automatically based on position and size of each collider
-|
 |**Parent-Child Joint** | | 
 | Visualize | OFF | 
 |- Swing Drive | [0] (0 ~ 10) | 
@@ -662,7 +597,6 @@ sidebar:
 |- Drive Damping | [0.01] (0 ~ 1) | 
 |- Reduction Rate | [0.5] (0 ~ 1) | 
 |- Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-|
 |**Lateral Joint** | | 
 | Visualize | OFF | 
 |- Linear Drive | [5] (0 ~ 10) | 
@@ -671,15 +605,12 @@ sidebar:
 |- Reduction Rate | [1] (0 ~ 1) | 
 | Lock Y | OFF | 
 | Lock Z | OFF | 
-|
 |**Collider** | | 
 |- Collider Radius | [0.01] (0 ~ 0.1) | 
 | Collider Type | **Box**, Capsule, Sphere,  |  |
 |- Collider Length | [0.8] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 |- First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
-|
 | Use Primary Group Settings | ON | 
-|
 |**Group 7** | | 
 | Enable Group 7 | OFF | 
 | Select Bones || 
@@ -709,7 +640,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -720,8 +650,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
-|
 |**Physics Properties** | | Physics properties like mass, drag and friction
 |- Mass | [0.1] (0 ~ 1) | 
 |- Drag | [0] (0 ~ 10) | 
@@ -730,7 +658,6 @@ sidebar:
 |- Friction | [0] (0 ~ 1) | 
 |- Solver Iterations | [20] (1 ~ 150) | Number of iterations when solving collision
 |- Center Of Mass | Auto, **Zero**,  | Set center of mass at zero or automatically based on position and size of each collider
-|
 |**Parent-Child Joint** | | 
 | Visualize | OFF | 
 |- Swing Drive | [0] (0 ~ 10) | 
@@ -738,7 +665,6 @@ sidebar:
 |- Drive Damping | [0.01] (0 ~ 1) | 
 |- Reduction Rate | [0.5] (0 ~ 1) | 
 |- Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-|
 |**Lateral Joint** | | 
 | Visualize | OFF | 
 |- Linear Drive | [5] (0 ~ 10) | 
@@ -747,15 +673,12 @@ sidebar:
 |- Reduction Rate | [1] (0 ~ 1) | 
 | Lock Y | OFF | 
 | Lock Z | OFF | 
-|
 |**Collider** | | 
 |- Collider Radius | [0.01] (0 ~ 0.1) | 
 | Collider Type | **Box**, Capsule, Sphere,  |  |
 |- Collider Length | [0.8] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 |- First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
-|
 | Use Primary Group Settings | ON | 
-|
 |**Group 8** | | 
 | Enable Group 8 | OFF | 
 | Select Bones || 
@@ -785,7 +708,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -796,8 +718,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
-|
 |**Physics Properties** | | Physics properties like mass, drag and friction
 |- Mass | [0.1] (0 ~ 1) | 
 |- Drag | [0] (0 ~ 10) | 
@@ -806,7 +726,6 @@ sidebar:
 |- Friction | [0] (0 ~ 1) | 
 |- Solver Iterations | [20] (1 ~ 150) | Number of iterations when solving collision
 |- Center Of Mass | Auto, **Zero**,  | Set center of mass at zero or automatically based on position and size of each collider
-|
 |**Parent-Child Joint** | | 
 | Visualize | OFF | 
 |- Swing Drive | [0] (0 ~ 10) | 
@@ -814,7 +733,6 @@ sidebar:
 |- Drive Damping | [0.01] (0 ~ 1) | 
 |- Reduction Rate | [0.5] (0 ~ 1) | 
 |- Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-|
 |**Lateral Joint** | | 
 | Visualize | OFF | 
 |- Linear Drive | [5] (0 ~ 10) | 
@@ -823,17 +741,13 @@ sidebar:
 |- Reduction Rate | [1] (0 ~ 1) | 
 | Lock Y | OFF | 
 | Lock Z | OFF | 
-|
 |**Collider** | | 
 |- Collider Radius | [0.01] (0 ~ 0.1) | 
 | Collider Type | **Box**, Capsule, Sphere,  |  |
 |- Collider Length | [0.8] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 |- First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
-|
 | Use Primary Group Settings | ON | 
-|
 | Presets | **Default (Reset)**, hurrah, nyotengu cheongsam, nyo birthday, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5, Preset 6, 预设1,  |  |
-|
 |**Hair Physics** | | 
 | Enable Hair Physics | ON | 
 | Select Bones || Select bones
@@ -860,7 +774,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -871,7 +784,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
 |**Simulation Settings** | | 
 | Use Global | ON | Find the global settings under Pro / Cloth Simulation
 | Enable Dragging | ON | 
@@ -884,8 +796,6 @@ sidebar:
 |- Alternate Group Size | [0] (0 ~ 20) | 
 |- Table Size | [6] (1 ~ 20) | 
 | Two Step Solving | OFF | 
-|
-|
 |- Spring | [1.25] (0 ~ 5) | 
 |- Damp | [0.01] (0 ~ 0.1) | 
 |- Reduction Ratio | [0.25] (0 ~ 1) | Reducing stiffness at each level
@@ -897,7 +807,6 @@ sidebar:
 |- Collider Length | [0.9] (0 ~ 1) | 
 |- Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
 | Presets | **Default (Reset)**, momiji bob, Preset 1,  |  |
-|
 |**Dangling Physics** | | 
 | Enable Dangling Physics | ON | 
 | Select Bones || Select bones
@@ -924,7 +833,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -935,7 +843,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
 |**Simulation Settings** | | 
 | Use Global | ON | Find the global settings under Pro / Cloth Simulation
 | Enable Dragging | ON | 
@@ -948,8 +855,6 @@ sidebar:
 |- Alternate Group Size | [0] (0 ~ 20) | 
 |- Table Size | [6] (1 ~ 20) | 
 | Two Step Solving | OFF | 
-|
-|
 |- Spring | [0.5] (0 ~ 5) | 
 |- Damp | [0.01] (0 ~ 0.1) | 
 |- Reduction Ratio | [0.25] (0 ~ 1) | Reducing stiffness at each level
@@ -961,7 +866,6 @@ sidebar:
 |- Collider Length | [0.9] (0 ~ 1) | 
 |- Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
 | Presets | **Default (Reset)**, Preset 1, Preset 2,  |  |
-|
 |**Detach Object** | | 
 | Enable Detach Object | ON | 
 | Select Bones || 
@@ -971,6 +875,4 @@ sidebar:
 |- Collider | None, **Sphere**, Capsule,  | 
 |- Collider Radius | [0.1] (0 ~ 1) | 
 |- Collider Length | [0.3] (0 ~ 2) | 
-|
 | Presets | **Default (Reset)**,  |  |
-|

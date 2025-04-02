@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Actor Options** | | 
 |- Cache Size | [10] (0 ~ 20) | How many actor models to keep in cache
 | Force Refresh Materials | OFF | 
 | Retain Options | OFF | Automatically applies the settings from the outgoing actor to the incoming actor when replacing actors.
@@ -35,11 +34,9 @@ sidebar:
 |- Green | [0.9] (0 ~ 1) | 
 |- Blue | [0] (0 ~ 1) | 
 | Presets | White, Black, Red, **Yellow**, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |  |
-|
 |- Glow | [1] (0 ~ 10) | Brightness of the burn effect.
 |- Blend | [1] (0 ~ 1) | Blend between the original color and the burn color. 
 |- Duration | [2] (0 ~ 5) | The duration of the animation.
 |- Particle Effect | [2] (0 ~ 10) | Controls the amount of particles.
 |- Particle Duration | [2.5] (0 ~ 5) | Controls the lifetime of the particles.
 |- Auto Actor Change | [0] (0 ~ 1) | Automatically switch between actors in the cache based on the value
-|

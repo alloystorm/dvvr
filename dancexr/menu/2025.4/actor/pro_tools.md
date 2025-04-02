@@ -14,8 +14,24 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Pro || 
-|**Feet Adjustment**<sup>[PRO]</sup> | | 
+| [Feet Adjustment](#feet_adjustment) |
+| [Outfit & Bodypaint](#outfit_&_bodypaint) |
+| [Mesh To Cloth](#mesh_to_cloth) |
+| [Simulation](#simulation) |
+| [Accessory](#accessory) |
+| [Attach To Actor](#attach_to_actor) |
+| [Motion Override](#motion_override) |
+| [Shake Boobs Overlay](#shake_boobs_overlay) |
+| [Sex Overlay](#sex_overlay) |
+| [Dildo](#dildo) |
+| [Light Ball](#light_ball) |
+| [Export Bone Structure](#export_bone_structure) |
+
+
+### **Feet Adjustment**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 |- Ground Offset | [0] (-0.2 ~ 0.2) | 
 | Feet On Floor | OFF | 
 |- Sole Height | [0.03] (-0.1 ~ 0.1) | The desired distance from ground to the toe bone.
@@ -39,7 +55,6 @@ sidebar:
 |- Red | [1] (0 ~ 1) | 
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
-|
 | Heels || 
 |- High Heels | [0] (0 ~ 1) | 
 | Limit Angle | OFF | 
@@ -52,10 +67,13 @@ sidebar:
 |- Rotate X | [0] (-90 ~ 90) | 
 |- Rotate Y | [0] (-45 ~ 45) | 
 |- Rotate Z | [0] (-45 ~ 45) | 
-|
 | Presets | **Off**, On Floor, High Heels, Max Heels,  |  |
-|
-|**Outfit & Bodypaint**<sup>[PRO]</sup> | | 
+
+
+### **Outfit & Bodypaint**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Enable Outfit & Bodypaint | OFF | 
 |- Mode | **Color Paint**, Outfit, Outfit Paint,  | 
 |**Body Paint** | | 
@@ -74,13 +92,11 @@ sidebar:
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
 | Presets | **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |  |
-|
 |- Glow | [0] (0 ~ 10) | 
 |- Preserve Color | [0] (0 ~ 1) | 
 | Clear Canvas || 
 | Save Drawing || 
 | Load Drawing | **[None]**,  |  |
-|
 |**Shape & Pattern** | | 
 |- Top Height1 | [3] (0 ~ 3) | Height of the first line at center
 |- Top Angle1 | [0] (-180 ~ 180) | Angle of the first line
@@ -102,7 +118,6 @@ sidebar:
 |- Inside Bump | [0.5] (0 ~ 1) | 
 |- Inside Distance | [0.005] (0 ~ 0.1) | 
 | Presets | **Fullbody**, V Shape, Stockings, Fishnet Fullbody, Fishnet V Shape, Fishnet Stockings, Maze 1, Maze 2, Curve 1, Curve 2,  |  |
-|
 |**Hexagon Map** | | 
 | Enable Hexagon Map | OFF | 
 |- Density | [4] (0 ~ 8) | 
@@ -114,7 +129,6 @@ sidebar:
 | UV Projection | ON | 
 |- Projection Radius | [0.2] (0 ~ 1) | 
 |- Rotation | [0] (-90 ~ 90) | 
-|
 |**Surface Base** | | 
 |- Gloss | [0.5] (0 ~ 1) | 
 |- Metallic | [0] (0 ~ 1) | 
@@ -134,14 +148,12 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [0.9] (0 ~ 1) | 
 | Presets | Original, White, **Black**, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |- Anisotropy | [-0.5] (-1 ~ 1) | 
 |- Stocking Effect | [0.5] (0 ~ 1) | 
 |- Stocking Gradient | [2] (-3 ~ 3) | 
 |- Detail Density | [1] (0 ~ 2) | 
 | Enable Dissolve | ON | 
 | Presets | **Stocking Thin**, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |  |
-|
 |**Surface Pattern** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
 |- Metallic | [0] (0 ~ 1) | 
@@ -161,14 +173,12 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [0.8] (0 ~ 1) | 
 | Presets | Original, White, **Black**, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |- Anisotropy | [0] (-1 ~ 1) | 
 |- Stocking Effect | [1] (0 ~ 1) | 
 |- Stocking Gradient | [1] (-3 ~ 3) | 
 |- Detail Density | [1] (0 ~ 2) | 
 | Enable Dissolve | ON | 
 | Presets | Stocking Thin, Stocking Thick, White Stocking, **Latex**, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |  |
-|
 |**Surface Border** | | 
 |- Gloss | [0.5] (0 ~ 1) | 
 |- Metallic | [0] (0 ~ 1) | 
@@ -188,14 +198,12 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [0.9] (0 ~ 1) | 
 | Presets | Original, White, **Black**, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |- Anisotropy | [-0.5] (-1 ~ 1) | 
 |- Stocking Effect | [0.5] (0 ~ 1) | 
 |- Stocking Gradient | [2] (-3 ~ 3) | 
 |- Detail Density | [1] (0 ~ 2) | 
 | Enable Dissolve | ON | 
 | Presets | **Stocking Thin**, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |  |
-|
 |- Dissolve | [0] (0 ~ 1) | 
 |**Dissolve Map** | | 
 |- Pattern L1 | [13] (0 ~ 90) | Change the level 1 pattern when generating the dissolve map
@@ -211,7 +219,6 @@ sidebar:
 |- Offset X | [0] (-1 ~ 1) | Offset the dissolve map in X direction
 |- Offset Y | [0] (-1 ~ 1) | Offset the dissolve map in Y direction
 | Cutout | OFF | Make the dissolved area invisible
-|
 | Manual Selection | OFF | 
 | Select Material: 0 / 1 || 
 | Skin | ON | 
@@ -226,8 +233,12 @@ sidebar:
 |  | OFF | 
 | Filtering || 
 | Presets | **Body Paint**, Fullbody Latex, V Shape Fishnet, Stockings, Stockings Fishnet, Bodysuit 1, Bodysuit 2, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5,  |  |
-|
-|**Mesh To Cloth**<sup>[PRO]</sup> | | 
+
+
+### **Mesh To Cloth**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Combine As One | OFF | 
 |- Gradual Enable | [2] (0 ~ 5) | 
 |**Particle Properties** | | 
@@ -244,7 +255,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -255,7 +265,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
 | Enable Bending Constraints | ON | 
 |- Bending Compliance | [0] (0 ~ 1) | 
 |- Scale | [1] (0 ~ 2) | 
@@ -268,7 +277,6 @@ sidebar:
 | Enable Tearing | OFF | 
 |- Tear Threshold | [2] (1 ~ 10) | 
 |- Limit Tearing Speed | [0] (0 ~ 25) | Cool down interval after tearing, in frames
-|
 |**Simulation Settings** | | 
 | Use Global | ON | Find the global settings under Pro / Cloth Simulation
 | Enable Dragging | ON | 
@@ -282,9 +290,12 @@ sidebar:
 |- Alternate Group Size | [0] (0 ~ 20) | 
 |- Table Size | [6] (1 ~ 20) | 
 | Two Step Solving | OFF | 
-|
-|
-|**Simulation**<sup>[PRO]</sup> | | 
+
+
+### **Simulation**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Enable Simulation | ON | 
 | Reset || 
 |**Cloth 1** | | 
@@ -319,7 +330,6 @@ sidebar:
 |- X | [0] (-1 ~ 1) | 
 |- Y | [0] (-1 ~ 1) | 
 |- Z | [0] (-1 ~ 1) | 
-|
 |- Bottom Layers | [0] (0 ~ 10) | 
 |**Bottom Anchor** | | 
 |- Anchor Selection | [1] (0 ~ 1) | 
@@ -335,8 +345,6 @@ sidebar:
 |- X | [0] (-1 ~ 1) | 
 |- Y | [0] (-1 ~ 1) | 
 |- Z | [0] (-1 ~ 1) | 
-|
-|
 |**Particle Properties** | | 
 |- Particle Radius | [5] (1 ~ 20) | Size of particle in millimeters
 |- Stickiness | [0] (0 ~ 1) | 
@@ -351,7 +359,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -362,7 +369,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
 | Enable Bending Constraints | ON | 
 |- Bending Compliance | [0] (0 ~ 1) | 
 |- Scale | [1] (0 ~ 2) | 
@@ -375,9 +381,7 @@ sidebar:
 | Enable Tearing | OFF | 
 |- Tear Threshold | [2] (1 ~ 10) | 
 |- Limit Tearing Speed | [0] (0 ~ 25) | Cool down interval after tearing, in frames
-|
 | Presets | Skirt, **Top**, Tight Skirt, String Skirt, Hula Skirt,  |  |
-|
 |**C1 Material** | | 
 | Surface || 
 | Presets | Original, **Matt Gray**, Translucent, Glow, Silver, Solid Glass, Thin Glass, Outline, Preset 1, Preset 2, Preset 3,  |  |
@@ -405,7 +409,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, **Gray**, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -419,12 +422,10 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Texture | **[Solid Color]**, [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |  |
 |**Detail Map** | | 
 | Enable Detail Map | ON | 
@@ -436,7 +437,6 @@ sidebar:
 |- Noise | [0.2] (0 ~ 1) | 
 | Use Circle | OFF | 
 |- Soft Edge | [0.1] (0 ~ 1) | 
-|
 | Select Map | Carbon Fiber, Leather, Fabric 1, Fabric 2, **Fabric 3**, Wool 1, Wool 2, Metal Satin, Metal Brushed, Hair,  |  |
 |- Detail Map Rotation | [0] (-180 ~ 180) | 
 |- Detail Map Scale | [6] (0 ~ 8) | 
@@ -447,8 +447,6 @@ sidebar:
 |- Affect Color Blend | [0] (0 ~ 1) | 
 |- Anisotropy | [0] (-1 ~ 1) | 
 |- MIP Map Bias | [0] (-5 ~ 5) | Adjust sharpness of detail texture.
-|
-|
 |**Cloth 2** | | 
 | Enable Cloth 2 | OFF | 
 | Rebuild Mesh || Most parameters here requires rebuilding the mesh to take effect.
@@ -481,7 +479,6 @@ sidebar:
 |- X | [0] (-1 ~ 1) | 
 |- Y | [0] (-1 ~ 1) | 
 |- Z | [0] (-1 ~ 1) | 
-|
 |- Bottom Layers | [0] (0 ~ 10) | 
 |**Bottom Anchor** | | 
 |- Anchor Selection | [1] (0 ~ 1) | 
@@ -497,8 +494,6 @@ sidebar:
 |- X | [0] (-1 ~ 1) | 
 |- Y | [0] (-1 ~ 1) | 
 |- Z | [0] (-1 ~ 1) | 
-|
-|
 |**Particle Properties** | | 
 |- Particle Radius | [5] (1 ~ 20) | Size of particle in millimeters
 |- Stickiness | [0] (0 ~ 1) | 
@@ -513,7 +508,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -524,7 +518,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
 | Enable Bending Constraints | ON | 
 |- Bending Compliance | [0] (0 ~ 1) | 
 |- Scale | [1] (0 ~ 2) | 
@@ -537,9 +530,7 @@ sidebar:
 | Enable Tearing | OFF | 
 |- Tear Threshold | [2] (1 ~ 10) | 
 |- Limit Tearing Speed | [0] (0 ~ 25) | Cool down interval after tearing, in frames
-|
 | Presets | **Skirt**, Top, Tight Skirt, String Skirt, Hula Skirt,  |  |
-|
 |**C2 Material** | | 
 | Surface || 
 | Presets | Original, **Matt Gray**, Translucent, Glow, Silver, Solid Glass, Thin Glass, Outline, Preset 1, Preset 2, Preset 3,  |  |
@@ -567,7 +558,6 @@ sidebar:
 | Blend Mode | Original, **Multiply**, Blend, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, **Gray**, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -581,12 +571,10 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Texture | **[Solid Color]**, [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |  |
 |**Detail Map** | | 
 | Enable Detail Map | ON | 
@@ -598,7 +586,6 @@ sidebar:
 |- Noise | [0.2] (0 ~ 1) | 
 | Use Circle | OFF | 
 |- Soft Edge | [0.1] (0 ~ 1) | 
-|
 | Select Map | Carbon Fiber, Leather, Fabric 1, Fabric 2, **Fabric 3**, Wool 1, Wool 2, Metal Satin, Metal Brushed, Hair,  |  |
 |- Detail Map Rotation | [0] (-180 ~ 180) | 
 |- Detail Map Scale | [6] (0 ~ 8) | 
@@ -609,8 +596,6 @@ sidebar:
 |- Affect Color Blend | [0] (0 ~ 1) | 
 |- Anisotropy | [0] (-1 ~ 1) | 
 |- MIP Map Bias | [0] (-5 ~ 5) | Adjust sharpness of detail texture.
-|
-|
 | Combine | OFF | Combine Cloth 1 and 2 as a single simulation, this allows collision between the 2 but will be slower.
 |**Fluid (Experimental)** | | 
 | Enable Fluid (Experimental) | OFF | 
@@ -619,12 +604,10 @@ sidebar:
 |- X | [0] (Unlimited) | 
 |- Y | [2.5] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |**Rotation** | | 
 |- X | [0] (-180 ~ 180) | 
 |- Y | [0] (-180 ~ 180) | 
 |- Z | [0] (-180 ~ 180) | 
-|
 |- Spawn Radius | [0.1] (0 ~ 1) | 
 |- Spread | [0.1] (0 ~ 1) | 
 |- Spawn Rate | [20] (0 ~ 20) | 
@@ -635,7 +618,6 @@ sidebar:
 |- TTL on Floor | [0.1] (0 ~ 1) | Time to live after hitting floor.
 |- Smoothing | [0.5] (0 ~ 1) | 
 | Presets | Shower, Fountain, **Sprinkler**, Handheld,  |  |
-|
 |**Fluid** | | 
 |- Cohesion | [0.5] (0 ~ 1) | 
 |- Viscosity | [0] (0 ~ 1) | 
@@ -645,7 +627,6 @@ sidebar:
 |- Target Distance | [10] (1 ~ 20) | Minimum distance between particles in MM when cohesion is off.
 |- Elevation | [0.25] (0 ~ 0.5) | Elevate particle in proportion of its size
 | Presets | **Water**, Viscous, Sand,  |  |
-|
 |**Render** | | 
 | Render Particle | ON | 
 | Render Droplet | OFF | 
@@ -659,12 +640,10 @@ sidebar:
 |- Red | [1] (0 ~ 1) | 
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
-|
 |- Metallic | [0] (0 ~ 1) | 
 |- Smoothness | [0.95] (0 ~ 1) | 
 |- Glow | [0] (0 ~ 1) | 
 |- Transparency | [0.1] (0 ~ 1) | 
-|
 |**Particle Properties** | | 
 |- Gravity | [9.8] (-9.8 ~ 9.8) | 
 |- Friction | [0] (0 ~ 2) | 
@@ -677,7 +656,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -688,10 +666,7 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | OFF | 
-|
-|
 | Presets | **Default (Reset)**,  |  |
-|
 |**Geometry Collider** | | 
 | Enable Geometry Collider | ON | 
 | Visible | OFF | 
@@ -713,7 +688,6 @@ sidebar:
 |- X | [0.8] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [1] (0 ~ 1) | 
-|
 |**Neck** | | 
 | Enable Neck | ON | 
 | Position From || 
@@ -731,7 +705,6 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [1] (0 ~ 1) | 
-|
 |**Chest** | | 
 | Enable Chest | ON | 
 | Position From || 
@@ -749,7 +722,6 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [0.88] (0 ~ 1) | 
 |- Z | [0.7] (0 ~ 1) | 
-|
 |**Ribs** | | 
 | Enable Ribs | ON | 
 | Position From || 
@@ -767,7 +739,6 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [1] (0 ~ 1) | 
-|
 |**Waist** | | 
 | Enable Waist | ON | 
 | Position From || 
@@ -785,7 +756,6 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [0.8] (0 ~ 1) | 
-|
 |**Belly** | | 
 | Enable Belly | ON | 
 | Position From || 
@@ -803,7 +773,6 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [0.65] (0 ~ 1) | 
-|
 |**Butts** | | 
 | Enable Butts | ON | 
 | Position From || 
@@ -821,7 +790,6 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [1] (0 ~ 1) | 
-|
 |**Shoulder** | | 
 | Enable Shoulder | ON | 
 | Position From || 
@@ -839,7 +807,6 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [1] (0 ~ 1) | 
-|
 |**Upper Arm** | | 
 | Enable Upper Arm | ON | 
 | Position From || 
@@ -857,7 +824,6 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [1] (0 ~ 1) | 
-|
 |**Lower Arm** | | 
 | Enable Lower Arm | ON | 
 | Position From || 
@@ -875,7 +841,6 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [1] (0 ~ 1) | 
-|
 |**Hand** | | 
 | Enable Hand | ON | 
 | Position From || 
@@ -893,7 +858,6 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [1] (0 ~ 1) | 
-|
 |**Hips** | | 
 | Enable Hips | ON | 
 | Position From || 
@@ -911,7 +875,6 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [1] (0 ~ 1) | 
-|
 |**Thigh** | | 
 | Enable Thigh | ON | 
 | Position From || 
@@ -929,7 +892,6 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [1] (0 ~ 1) | 
-|
 |**Shin** | | 
 | Enable Shin | ON | 
 | Position From || 
@@ -953,7 +915,6 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [1] (0 ~ 1) | 
-|
 |**Foot** | | 
 | Enable Foot | ON | 
 | Position From || 
@@ -971,9 +932,7 @@ sidebar:
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [1] (0 ~ 1) | 
-|
 | Presets | **Default (Reset)**, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5,  |  |
-|
 |**Mesh Collider** | | 
 | Enable Mesh Collider | ON | 
 | Disable Geometry Colliders | ON | 
@@ -982,7 +941,6 @@ sidebar:
 | Skip Edge | ON | 
 | Skip Point | ON | 
 | Single Collision | ON | 
-|
 |**Simulation Settings** | | 
 | Enable Dragging | ON | 
 |- Reset Scale | [1] (1 ~ 5) | Transit from a larger scale for the cloth during reset to help with fitting.
@@ -995,10 +953,13 @@ sidebar:
 |- Alternate Group Size | [0] (0 ~ 20) | 
 |- Table Size | [6] (1 ~ 20) | 
 | Two Step Solving | OFF | 
-|
 | Presets | **Default (Reset)**,  |  |
-|
-|**Accessory**<sup>[PRO]</sup> | | 
+
+
+### **Accessory**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 |**Pole** | | 
 | Enable Pole | OFF | 
 | Model | **[Pole]**,  |  |
@@ -1011,7 +972,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [3] (0 ~ 5) | 
@@ -1037,10 +997,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -1061,7 +1019,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -1075,20 +1032,16 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | OFF | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
 |**Left Hand** | | 
 | Enable Left Hand | OFF | 
 | Model | **[Pole]**,  |  |
@@ -1101,7 +1054,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -1127,10 +1079,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -1151,7 +1101,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -1165,20 +1114,16 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
 | Symmetrical Hands | OFF | 
 |**Right Hand** | | 
 | Enable Right Hand | OFF | 
@@ -1192,7 +1137,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -1218,10 +1162,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -1242,7 +1184,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -1256,20 +1197,16 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
 |**Chest** | | 
 | Enable Chest | OFF | 
 | Model | **[Pole]**,  |  |
@@ -1282,7 +1219,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -1308,10 +1244,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -1332,7 +1266,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -1346,20 +1279,16 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
 |**Head** | | 
 | Enable Head | OFF | 
 | Model | **[Pole]**,  |  |
@@ -1372,7 +1301,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -1398,10 +1326,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -1422,7 +1348,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -1436,20 +1361,16 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
 |**Left Foot** | | 
 | Enable Left Foot | OFF | 
 | Model | **[Pole]**,  |  |
@@ -1462,7 +1383,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -1488,10 +1408,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -1512,7 +1430,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -1526,20 +1443,16 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
 | Symmetrical Foot | OFF | 
 |**Right Foot** | | 
 | Enable Right Foot | OFF | 
@@ -1553,7 +1466,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -1579,10 +1491,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -1603,7 +1513,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -1617,22 +1526,22 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
-|
-|**Attach To Actor**<sup>[PRO]</sup> | | 
+
+
+### **Attach To Actor**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Enable Attach To Actor | OFF | 
 | Select Source Bones || Select bone to attach
 | Select Actor |  |  |
@@ -1647,8 +1556,12 @@ sidebar:
 |- Y | [0] (-180 ~ 180) | 
 |- Z | [0] (-180 ~ 180) | 
 |- Scale | [0] (-4 ~ 4) | 
-|
-|**Motion Override**<sup>[PRO]</sup> | | 
+
+
+### **Motion Override**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Enable Motion Override | OFF | 
 |**Body** | | 
 |- Position | **Free**, Lock Horizontal, Lock Vertical, Lock Position,  | 
@@ -1665,7 +1578,6 @@ sidebar:
 |- Detect Range | [2] (0 ~ 10) | 
 |- Min Distance | [0.5] (0 ~ 1) | 
 |- Max Distance | [1] (0.5 ~ 2) | 
-|
 |**Rocking Motion** | | 
 | Enable Rocking Motion | ON | 
 |**Speed** | | 
@@ -1677,7 +1589,6 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Rocking Angle | [30] (0 ~ 60) | 
 |- Up / Down | [0.1] (0 ~ 0.3) | 
 |- Front / Back | [0.1] (0 ~ 0.3) | 
@@ -1685,13 +1596,11 @@ sidebar:
 |- Depth Max | [0.15] (0 ~ 0.3) | 
 |- Depth Extra | [0] (-0.1 ~ 0.1) | 
 |- Feet Motion | [0] (-1 ~ 1) | 
-|
 |**Head Pose** | | 
 | Enable Head Pose | OFF | 
 |- Rotatoin X | [0] (-90 ~ 90) | 
 |- Rotatoin Y | [0] (-90 ~ 90) | 
 |- Rotatoin Z | [0] (-90 ~ 90) | 
-|
 |**Leg Pose** | | 
 | Enable Leg Pose | ON | 
 | Relative To Floor | ON | 
@@ -1706,7 +1615,6 @@ sidebar:
 |- Foot Rotate Y | [0] (Unlimited) | 
 |- Foot Rotate Z | [0] (Unlimited) | 
 |- Toe | [0] (-180 ~ 180) | 
-|
 |**Right** | | 
 |- Open | [0] (-90 ~ 90) | 
 |- Foot X | [0] (Unlimited) | 
@@ -1716,9 +1624,7 @@ sidebar:
 |- Foot Rotate Y | [0] (Unlimited) | 
 |- Foot Rotate Z | [0] (Unlimited) | 
 |- Toe | [0] (-180 ~ 180) | 
-|
 | Presets | Sit, **Ride**, Kneel, Stand,  |  |
-|
 | Hands Symmetrical | ON | 
 |**Left Hand** | | 
 | Enable Left Hand | OFF | 
@@ -1727,12 +1633,10 @@ sidebar:
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |**Hand Rotation** | | 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |- Rotation Type | **Relative to Reference Bone**, Relative to Self, Absolute Rotation, No Rotation,  | 
 |- Elbow Orientation | [0] (-180 ~ 180) | 
 | Mirror Left/Right | OFF | 
@@ -1754,10 +1658,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 |**Custom Pose** | | 
 | Enable Custom Pose | OFF | 
 |- Open | [0] (-1 ~ 1) | 
@@ -1770,13 +1672,11 @@ sidebar:
 |- Pinky Bend | [0] (-1 ~ 1) | 
 |- Propagate | [1] (0 ~ 1) | 
 |- Blend | [1] (0 ~ 1) | 
-|
 |- Pose Weight | [1] (0 ~ 1) | 
 |- Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 |- Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 |- Grab Axis | [0] (-180 ~ 180) | 
 | Presets | **Rest**, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |  |
-|
 |**Right Hand** | | 
 | Enable Right Hand | OFF | 
 | Gesture | Palm Fingers Apart, Palm Fingers Together, **Fist**, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |  |
@@ -1784,12 +1684,10 @@ sidebar:
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |**Hand Rotation** | | 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |- Rotation Type | **Relative to Reference Bone**, Relative to Self, Absolute Rotation, No Rotation,  | 
 |- Elbow Orientation | [0] (-180 ~ 180) | 
 | Mirror Left/Right | OFF | 
@@ -1811,10 +1709,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 |**Custom Pose** | | 
 | Enable Custom Pose | OFF | 
 |- Open | [0] (-1 ~ 1) | 
@@ -1827,13 +1723,11 @@ sidebar:
 |- Pinky Bend | [0] (-1 ~ 1) | 
 |- Propagate | [1] (0 ~ 1) | 
 |- Blend | [1] (0 ~ 1) | 
-|
 |- Pose Weight | [1] (0 ~ 1) | 
 |- Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 |- Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 |- Grab Axis | [0] (-180 ~ 180) | 
 | Presets | **Rest**, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |  |
-|
 |**Ride Model** | | 
 | Enable Ride Model | ON | 
 | Model | **[Hoverbike]**, [Rocking Horse],  |  |
@@ -1850,18 +1744,25 @@ sidebar:
 |- Z | [0] (-90 ~ 90) | 
 |- Scale | [0] (-5 ~ 5) | 
 | Particle Effect | ON | 
-|
 | Presets | **Free**, Rocking Motion, Hoverbike, Rocking Horse, Pole Motion, Pole Blend,  |  |
-|
-|**Shake Boobs Overlay**<sup>[PRO]</sup> | | 
+
+
+### **Shake Boobs Overlay**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Enable Shake Boobs Overlay | OFF | 
 |- Intensity | [1] (0 ~ 2) | 
 |- Speed | [0] (-2 ~ 2) | 
 |- Motion Pattern | [1] (-1 ~ 1) | Choose horizontal, vertial or both (set to 0) motion
 |- Time Pattern | Constant, **Pulse**, Gradual,  | 
 | Abs Mode | OFF | Bounce back at neutral position
-|
-|**Sex Overlay**<sup>[PRO]</sup> | | 
+
+
+### **Sex Overlay**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Enable Sex Overlay | OFF | 
 |- Intensity | [1] (0 ~ 2) | 
 |- Bend | [0.2] (0 ~ 1) | 
@@ -1880,9 +1781,12 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
-|
-|**Dildo**<sup>[PRO]</sup> | | 
+
+
+### **Dildo**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Dildo | OFF | 
 | Model | **[Pole]**,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
@@ -1894,7 +1798,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -1920,10 +1823,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -1944,7 +1845,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -1958,21 +1858,22 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0.25] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
-|**Light Ball**<sup>[PRO]</sup> | | 
+
+
+### **Light Ball**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Enable Light Ball | OFF | 
 |- Shape | **Ball**, Diamond, Crystal,  | 
 |- Size | [1] (0.1 ~ 10) | 
@@ -1989,7 +1890,6 @@ sidebar:
 |- Blue | [1] (0 ~ 1) | 
 |- Glow | [1] (0 ~ 20) | 
 | Presets | **White**, Red, Green, Blue, Animated Hue, Glow w/ Music,  |  |
-|
 |- Gloss | [0.95] (0 ~ 1) | 
 |- Intensity | [10] (0 ~ 100) | 
 |- Glow | [0] (0 ~ 10) | 
@@ -1998,7 +1898,6 @@ sidebar:
 | Cast Shadow | OFF | 
 |- Trail | [0] (0 ~ 2) | 
 | Presets | **Glow**, Reflective, Crystal,  |  |
-|
 |**Physics** | | 
 | Gravity | OFF | 
 | Collision | ON | 
@@ -2009,11 +1908,13 @@ sidebar:
 |- Min Speed | [0] (0 ~ 5) | 
 |- Max Speed | [15] (2 ~ 15) | 
 | Presets | **Spring**, Hanging, Floating,  |  |
-|
 | Hands | ON | 
 | Hip | OFF | 
 | Torso | OFF | 
-|
-|**Export Bone Structure**<sup>[PRO]</sup> | | 
+
+
+### **Export Bone Structure**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Export Bone Structure || 
-|

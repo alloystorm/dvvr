@@ -14,8 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Remote Access** | | 
 | Enable Remote Access | OFF | 
 | Port Number || 
 | Password || 
-|

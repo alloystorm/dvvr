@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Offset** | | 
 | Position || 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
@@ -24,4 +23,3 @@ sidebar:
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
 |- Scale | [1] (0.2 ~ 2) | 
-|

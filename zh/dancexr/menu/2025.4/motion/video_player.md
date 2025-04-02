@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**视频播放器** | | 
 | 循环 | OFF | 
 | 静音 | OFF | 
 |- 时间偏移 | [0] ((Unlimited)) | 
@@ -29,4 +28,3 @@ sidebar:
 | LED屏幕示例 || 
 | 加载视频 || 
 | [无] || 
-|

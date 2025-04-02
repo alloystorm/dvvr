@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Presets || 
 | Reset All || 
 | Reload Saved || 
 | Save Actor Preset || 

@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 預設 || 
 | 重設所有 || 
 | 重新載入已儲存 || 
 | 儲存角色預設 || 

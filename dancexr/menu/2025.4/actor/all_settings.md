@@ -14,14 +14,29 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Settings || 
-|**Facial Control** | | 
+| [Facial Control](#facial_control) |
+| [Scale & Offset](#scale_&_offset) |
+| [Lifelike Motions](#lifelike_motions) |
+| [Troubleshooting](#troubleshooting) |
+| [Water Interaction](#water_interaction) |
+| [Visualize Bones](#visualize_bones) |
+| [Motion Passes](#motion_passes) |
+
+
+### **Facial Control**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Mouth || 
 | Use Lip Sync | OFF | 
 | Eyebrows || 
 | Eyelids || 
-|
-|**Scale & Offset** | | 
+
+
+### **Scale & Offset**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 |- Model Scale | [0] (-3 ~ 3) | 
 |- Ground Offset | [0] (-2 ~ 2) | 
 | Uniform Height | ON | Set the default scale to average human size
@@ -30,8 +45,12 @@ sidebar:
 |- Offset Z | [0] (-5 ~ 5) | 
 |- Snapping | **0**, 0.1, 0.2, 0.5, 1, 2,  | 
 | Presets | **Uniform Life Size**, Miniature, Giant, Original,  |  |
-|
-|**Lifelike Motions** | | 
+
+
+### **Lifelike Motions**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Eye Contact | ON | Enable eye contact, look at and turn head towards camera or other models when they are in visual range
 | Stare Mode | OFF | Constantly looking at the closest target in range.
 |- Look At Camera | [1] (0 ~ 1) | Priority of cameras as gaze target
@@ -50,8 +69,12 @@ sidebar:
 | Micro Move | OFF | Add micro movements
 |- Micro Move Extent | [0.25] (0 ~ 1) | 
 |- Micro Move Cycle | [3] (1 ~ 10) | 
-|
-|**Troubleshooting** | | 
+
+
+### **Troubleshooting**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Apply Body Rotation To Center | OFF | Apply rotation of hip and torso to the center bone
 | Twist Correction | OFF | Reduce twisting of arms & legs at joints
 |- Upper Arm Twist | [0] (0 ~ 1) | 
@@ -68,8 +91,12 @@ sidebar:
 | Reset Transition | OFF | When resetting physics, perform a transition from standard pose to the animated pose to allow physics components to settle properly.
 |- Leg Pose During Reset | [30] (0 ~ 45) | 
 | Skip Kinematic Updates | OFF | Not updating kinematic bones that are not animated.
-|
-|**Water Interaction**<sup>[PRO]</sup> | | 
+
+
+### **Water Interaction**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Ripple | OFF | 
 |- Intensity | [1] (0 ~ 2) | 
 |- Body | [1] (0.1 ~ 2) | 
@@ -85,15 +112,23 @@ sidebar:
 |- Size | [0.003] (0 ~ 0.01) | 
 |- Duration | [5] (0 ~ 10) | 
 | Sweat Collision | OFF | 
-|
-|**Visualize Bones** | | 
+
+
+### **Visualize Bones**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Enable Visualize Bones | OFF | 
 | Virtual Bones | ON | 
 | Bones | OFF | 
 | IK | OFF | 
 | Ragdoll | OFF | 
-|
-|**Motion Passes** | | 
+
+
+### **Motion Passes**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Reset Bones | ON | 
 | Animation | ON | 
 | Offset | ON | 
@@ -104,4 +139,3 @@ sidebar:
 | Post Transform | ON | 
 | Post IK | ON | 
 | Final Update | ON | 
-|

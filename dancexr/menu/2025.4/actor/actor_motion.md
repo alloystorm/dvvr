@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Motion Settings** | | 
 |- Motion Scale | [1] (0.2 ~ 2) | Scale the position offset.
 |- Vertical Pos Scale | [1] (0 ~ 1) | Reduce vertical movement for center bone.
 | Mirror (VMD Only) | OFF | Mirror left and right motion.
@@ -27,63 +26,50 @@ sidebar:
 |- X | [0] (-2 ~ 2) | 
 |- Y | [0] (-2 ~ 2) | 
 |- Z | [0] (-2 ~ 2) | 
-|
 |**Center Rotation** | | 
 |- X | [0] (-180 ~ 180) | 
 |- Y | [0] (-180 ~ 180) | 
 |- Z | [0] (-180 ~ 180) | 
-|
 |**Shoulder Rotation** | | 
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 |**Arm Rotation** | | 
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 |**Forearm Rotation** | | 
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 |**Hand Rotation** | | 
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 |**Leg Rotation** | | 
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 |**Foot Rotation** | | 
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 |**Thumb Rotation 1** | | 
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 |**Thumb Rotation 2** | | 
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 |**Pinky Finger** | | 
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 |- Ring Finger | [0.75] (0 ~ 1) | 
 |**Index Finger** | | 
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 |- Middle Finger | [0.5] (0 ~ 1) | 
 | Presets | **Default (Reset)**, 2b,  |  |
-|

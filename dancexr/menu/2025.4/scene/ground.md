@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Ground** | | 
 |- Ground Height | [0] (-2 ~ 2) | 
 | Ground | OFF | 
 |- Radius | [200] (2 ~ 100) | Size of the ground mesh.
@@ -30,7 +29,6 @@ sidebar:
 |- Rotation | [0] (0 ~ 360) | 
 |- Variation | [0.5] (0 ~ 1) | 
 | Fit Texture | OFF | 
-|
 |- Gloss | [0.95] (0 ~ 1) | 
 |- Metallic | [0] (0 ~ 1) | 
 |- Bump | [0.2] (0 ~ 1) | 
@@ -49,7 +47,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, White, **Black**, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -63,12 +60,10 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 |- Viewer Height | [1.5] (0.5 ~ 3) | Viewer height used when projecting the the texture on to the ground
 |**LED Mode** | | 
 | Enable LED Mode | OFF | 
@@ -78,9 +73,7 @@ sidebar:
 |- Viewing Angle | [1] (0 ~ 8) | Reduce brightness when viewed from an angle. 0 = perfect
 |- Edge | [0.5] (0 ~ 1) | 
 |- Reduce Moire | [0.1] (0 ~ 1) | 
-|
 | Presets | Sky Map, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, **Black Gloss**, Glow, Glass,  |  |
-|
 |**Shadow Only** | | 
 | Shadow Color || 
 | Presets | White, **Black**, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |  |
@@ -92,7 +85,6 @@ sidebar:
 |- Green | [0] (0 ~ 1) | 
 |- Blue | [0] (0 ~ 1) | 
 |- Transparency | [0.5] (0 ~ 1) | 
-|
 | Stage / Pool | OFF | 
 | Presets | **Off**, Runway, Pool, Room, Background Board, Projector Screen, LED Screen,  |  |
 |- Lift | [0.5] (-2 ~ 2) | Lift the stage up / down.
@@ -108,7 +100,6 @@ sidebar:
 |- Wall Thickness | [0.1] (0 ~ 1) | Size of the edge.
 |- Window | [0] (0 ~ 1) | 
 | Floating | OFF | 
-|
 |**Surface** | | 
 | Texture | [Blank], **[Wood1]**, [Wood2], [Tiles], [Concrete], [Video],  |  |
 |**Tiling** | | 
@@ -120,7 +111,6 @@ sidebar:
 |- Rotation | [0] (0 ~ 360) | 
 |- Variation | [0.5] (0 ~ 1) | 
 | Fit Texture | OFF | 
-|
 |- Gloss | [0.95] (0 ~ 1) | 
 |- Metallic | [0] (0 ~ 1) | 
 |- Bump | [0.2] (0 ~ 1) | 
@@ -139,7 +129,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -153,12 +142,10 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 |**LED Mode** | | 
 | Enable LED Mode | OFF | 
 |- Density | [7] (4 ~ 10) | 
@@ -167,9 +154,7 @@ sidebar:
 |- Viewing Angle | [1] (0 ~ 8) | Reduce brightness when viewed from an angle. 0 = perfect
 |- Edge | [0.5] (0 ~ 1) | 
 |- Reduce Moire | [0.1] (0 ~ 1) | 
-|
 | Presets | Blank, **Wood**, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |  |
-|
 |**Back Surface** | | 
 | Texture | **[Blank]**, [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |  |
 |**Tiling** | | 
@@ -181,7 +166,6 @@ sidebar:
 |- Rotation | [0] (0 ~ 360) | 
 |- Variation | [0.5] (0 ~ 1) | 
 | Fit Texture | ON | 
-|
 |- Gloss | [0.95] (0 ~ 1) | 
 |- Metallic | [0] (0 ~ 1) | 
 |- Bump | [0.2] (0 ~ 1) | 
@@ -200,7 +184,6 @@ sidebar:
 | Blend Mode | **Original**, Multiply, Blend, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -214,12 +197,10 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 |**LED Mode** | | 
 | Enable LED Mode | OFF | 
 |- Density | [7] (4 ~ 10) | 
@@ -228,9 +209,7 @@ sidebar:
 |- Viewing Angle | [1] (0 ~ 8) | Reduce brightness when viewed from an angle. 0 = perfect
 |- Edge | [0.5] (0 ~ 1) | 
 |- Reduce Moire | [0.1] (0 ~ 1) | 
-|
 | Presets | **Blank**, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |  |
-|
 | Water System | OFF | 
 | Presets | **Off**, Pool, Still Water, Ocean,  |  |
 |- Type | **Pool**, River, Ocean,  | 
@@ -242,4 +221,3 @@ sidebar:
 |- Caustics | [0.5] (0 ~ 1) | Caustics effect
 |- Absorption Multiplier | [2] (0 ~ 5) | Multiplication applied to the Absorption Distance when viewing from below.
 | Presets | Sky Map, **Black Gloss**, Stage, Pool, Ocean, Background Board, Projector Screen, Emissive Screen, Preset 1,  |  |
-|

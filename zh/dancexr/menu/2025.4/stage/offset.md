@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**偏移** | | 
 | 位置 || 
 |- (X) | [0] ((Unlimited)) | 
 |- (Y) | [0] ((Unlimited)) | 
@@ -24,4 +23,3 @@ sidebar:
 |- (Y) | [0] ((Unlimited)) | 
 |- (Z) | [0] ((Unlimited)) | 
 |- 缩放 | [1] (0.2 ~ 2) | 
-|

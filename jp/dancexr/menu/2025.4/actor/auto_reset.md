@@ -14,6 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**自動リセット** | | 
 |- しきい値 | [30] (0 ~ 50) | 
-|

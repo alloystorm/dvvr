@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**목소리** | | 
 | 음성 엔진 | [없음], **(Built-in)**,  |  |
 | 시스템 음성 | **([built-in]|0)**, ([built-in]|1), ([built-in]|2), ([built-in]|3), ([built-in]|4), ([built-in]|5), ([built-in]|6), ([built-in]|7), ([built-in]|8), ([built-in]|9), ([built-in]|10), ([built-in]|11), ([built-in]|12), ([built-in]|13), ([built-in]|14), ([built-in]|15), ([built-in]|16), ([built-in]|17), ([built-in]|18), ([built-in]|19),  |  |
 |- 더미 읽기 속도 | [15] (10 ~ 50) | 
@@ -30,5 +29,3 @@ sidebar:
 |- 평가 | [0] (0 ~ 10) | 
 | 미리 보기 || 
 | 변경 사항 저장 || 
-|
-|

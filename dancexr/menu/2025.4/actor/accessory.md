@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Accessory**<sup>[PRO]</sup> | | 
 |**Pole** | | 
 | Enable Pole | OFF | 
 | Model | **[Pole]**,  |  |
@@ -27,7 +26,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [3] (0 ~ 5) | 
@@ -53,10 +51,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -77,7 +73,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -91,20 +86,16 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | OFF | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
 |**Left Hand** | | 
 | Enable Left Hand | OFF | 
 | Model | **[Pole]**,  |  |
@@ -117,7 +108,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -143,10 +133,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -167,7 +155,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -181,20 +168,16 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
 | Symmetrical Hands | OFF | 
 |**Right Hand** | | 
 | Enable Right Hand | OFF | 
@@ -208,7 +191,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -234,10 +216,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -258,7 +238,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -272,20 +251,16 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
 |**Chest** | | 
 | Enable Chest | OFF | 
 | Model | **[Pole]**,  |  |
@@ -298,7 +273,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -324,10 +298,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -348,7 +320,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -362,20 +333,16 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
 |**Head** | | 
 | Enable Head | OFF | 
 | Model | **[Pole]**,  |  |
@@ -388,7 +355,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -414,10 +380,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -438,7 +402,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -452,20 +415,16 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
 |**Left Foot** | | 
 | Enable Left Foot | OFF | 
 | Model | **[Pole]**,  |  |
@@ -478,7 +437,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -504,10 +462,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -528,7 +484,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -542,20 +497,16 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
 | Symmetrical Foot | OFF | 
 |**Right Foot** | | 
 | Enable Right Foot | OFF | 
@@ -569,7 +520,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -595,10 +545,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -619,7 +567,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -633,18 +580,13 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
-|

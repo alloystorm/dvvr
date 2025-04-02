@@ -14,6 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| システムプリセット || (Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.)
 | すべてリセット || 
 | 保存したものを再読み込み || 

@@ -14,14 +14,48 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Procedural || 
 | Actor Motion || 
 | [Idle] || 
 | Assign To All || 
 | Assign To Selected || 
 | Assign To All as 2nd || 
 | Assign To Selected as 2nd || 
-|**[Catwalk]** | | 
+| [[Catwalk]](#catwalk) |
+| [[Biped]](#biped) |
+| [[Motion Builder]](#motion_builder) |
+| [[Zero]](#zero) |
+| [Player Control] || 
+| Assign To All || 
+| Assign To Selected || 
+| Assign To All as 2nd || 
+| Assign To Selected as 2nd || 
+| [[Auto Dance 1]](#auto_dance_1) |
+| [[Auto Dance 2]](#auto_dance_2) |
+| [Auto Dance 3] || 
+| Assign To All || 
+| Assign To Selected || 
+| Assign To All as 2nd || 
+| Assign To Selected as 2nd || 
+| [[Cowgirl Sex]](#cowgirl_sex) |
+| [[Sex From Behind]](#sex_from_behind) |
+| [Sex Motion 3] || 
+| Assign To All || 
+| Assign To Selected || 
+| Assign To All as 2nd || 
+| Assign To Selected as 2nd || 
+| Camera Motion || 
+| [[Freefly Cam]](#freefly_cam) |
+| [[Orbit Cam]](#orbit_cam) |
+| [[Auto Cam]](#auto_cam) |
+| [[Long Take]](#long_take) |
+| [[First Person]](#first_person) |
+| [[Fixed Camera]](#fixed_camera) |
+
+
+### **[Catwalk]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To All || 
 | Assign To Selected || 
 | Assign To All as 2nd || 
@@ -43,12 +77,10 @@ sidebar:
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |**Hand Rotation** | | 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |- Rotation Type | **Relative to Reference Bone**, Relative to Self, Absolute Rotation, No Rotation,  | 
 |- Elbow Orientation | [0] (-180 ~ 180) | 
 | Mirror Left/Right | OFF | 
@@ -70,10 +102,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 |**Custom Pose** | | 
 | Enable Custom Pose | OFF | 
 |- Open | [0] (-1 ~ 1) | 
@@ -86,25 +116,21 @@ sidebar:
 |- Pinky Bend | [0] (-1 ~ 1) | 
 |- Propagate | [1] (0 ~ 1) | 
 |- Blend | [1] (0 ~ 1) | 
-|
 |- Pose Weight | [1] (0 ~ 1) | 
 |- Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 |- Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 |- Grab Axis | [0] (-180 ~ 180) | 
 | Presets | Rest, Back, Front, **Hip**, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |  |
-|
 |**Right Hand** | | 
 | Gesture | Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, **Grab**,  |  |
 |**Hand Position** | | 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |**Hand Rotation** | | 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |- Rotation Type | **Relative to Reference Bone**, Relative to Self, Absolute Rotation, No Rotation,  | 
 |- Elbow Orientation | [0] (-180 ~ 180) | 
 | Mirror Left/Right | OFF | 
@@ -126,10 +152,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 |**Custom Pose** | | 
 | Enable Custom Pose | OFF | 
 |- Open | [0] (-1 ~ 1) | 
@@ -142,19 +166,20 @@ sidebar:
 |- Pinky Bend | [0] (-1 ~ 1) | 
 |- Propagate | [1] (0 ~ 1) | 
 |- Blend | [1] (0 ~ 1) | 
-|
 |- Pose Weight | [1] (0 ~ 1) | 
 |- Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 |- Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 |- Grab Axis | [0] (-180 ~ 180) | 
 | Presets | Rest, Back, Front, **Hip**, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |  |
-|
 |**Walk in Circle** | | 
 | Walk in Circle | OFF | 
 |- Radius | [2] (0 ~ 5) | 
-|
-|
-|**[Biped]** | | 
+
+
+### **[Biped]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To All || 
 | Assign To Selected || 
 | Assign To All as 2nd || 
@@ -169,15 +194,18 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Smooth | [0] (0 ~ 1) | 
 |- Swing | [15] (0 ~ 45) | 
 |- Twist | [15] (0 ~ 45) | 
 |- Torso Bend | [10] (0 ~ 30) | 
 |- Torso Swing | [0.2] (-1 ~ 1) | 
 |- Torso Twist | [0.5] (-1 ~ 1) | 
-|
-|**[Motion Builder]** | | 
+
+
+### **[Motion Builder]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To All || 
 | Assign To Selected || 
 | Assign To All as 2nd || 
@@ -195,7 +223,6 @@ sidebar:
 |- Range Y | [30] (0 ~ 45) | 
 |- Orient | [0] (-45 ~ 45) | 
 | Presets | **Default (Reset)**,  |  |
-|
 |- Extent | [0.5] (0 ~ 1) | 
 |**Speed** | | 
 |- Moves Per Beat | 1/4, 1/3, 1/2, 2/3, **1**, 4/3, 3/2, 2, 3, 4,  | 
@@ -206,22 +233,23 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |**Legs** | | 
 |- Dist | [0.1] (-1 ~ 1) | 
 |- Level | [0] (-1 ~ 1) | 
 |- Stride | [0] (-1 ~ 1) | 
 |- Forward | [0] (-1 ~ 1) | 
 |- Open | [0] (-1 ~ 1) | 
-|
 |**Transit Between Presets** | | 
 | Enable Transit Between Presets | OFF | 
 | Transit Between Presets: 0 / 1 || 
 | Default (Reset) | OFF | 
 | Random | OFF | 
-|
-|
-|**[Zero]** | | 
+
+
+### **[Zero]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To All || 
 | Assign To Selected || 
 | Assign To All as 2nd || 
@@ -235,13 +263,12 @@ sidebar:
 |- Pelvis | [0] (-25 ~ 25) | 
 |- Abdomen | [0] (-20 ~ 36) | 
 |- Chest | [0] (-25 ~ 36) | 
-|
-| [Player Control] || 
-| Assign To All || 
-| Assign To Selected || 
-| Assign To All as 2nd || 
-| Assign To Selected as 2nd || 
-|**[Auto Dance 1]** | | 
+
+
+### **[Auto Dance 1]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To All || 
 | Assign To Selected || 
 | Assign To All as 2nd || 
@@ -258,12 +285,10 @@ sidebar:
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |**Hand Rotation** | | 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |- Rotation Type | Relative to Reference Bone, Relative to Self, Absolute Rotation, **No Rotation**,  | 
 |- Elbow Orientation | [0] (-180 ~ 180) | 
 | Mirror Left/Right | OFF | 
@@ -285,10 +310,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 |**Custom Pose** | | 
 | Enable Custom Pose | OFF | 
 |- Open | [0] (-1 ~ 1) | 
@@ -301,25 +324,21 @@ sidebar:
 |- Pinky Bend | [0] (-1 ~ 1) | 
 |- Propagate | [1] (0 ~ 1) | 
 |- Blend | [1] (0 ~ 1) | 
-|
 |- Pose Weight | [1] (0 ~ 1) | 
 |- Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 |- Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 |- Grab Axis | [0] (-180 ~ 180) | 
 | Presets | **Rest**, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |  |
-|
 |**Right Hand** | | 
 | Gesture | Palm Fingers Apart, **Palm Fingers Together**, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |  |
 |**Hand Position** | | 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |**Hand Rotation** | | 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |- Rotation Type | Relative to Reference Bone, Relative to Self, Absolute Rotation, **No Rotation**,  | 
 |- Elbow Orientation | [0] (-180 ~ 180) | 
 | Mirror Left/Right | OFF | 
@@ -341,10 +360,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 |**Custom Pose** | | 
 | Enable Custom Pose | OFF | 
 |- Open | [0] (-1 ~ 1) | 
@@ -357,17 +374,19 @@ sidebar:
 |- Pinky Bend | [0] (-1 ~ 1) | 
 |- Propagate | [1] (0 ~ 1) | 
 |- Blend | [1] (0 ~ 1) | 
-|
 |- Pose Weight | [1] (0 ~ 1) | 
 |- Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 |- Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 |- Grab Axis | [0] (-180 ~ 180) | 
 | Presets | **Rest**, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |  |
-|
 | Use Loudness For | ON | 
 |- Upper Body Motion | [0.5] (0 ~ 1) | 
-|
-|**[Auto Dance 2]** | | 
+
+
+### **[Auto Dance 2]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To All || 
 | Assign To Selected || 
 | Assign To All as 2nd || 
@@ -382,17 +401,15 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Audio Sensitivity | [2] (0.5 ~ 5) | 
 |- Audio Threshold | [0.1] (0 ~ 0.5) | 
 |- Body Twist | [0] (0 ~ 1) | 
-|
-| [Auto Dance 3] || 
-| Assign To All || 
-| Assign To Selected || 
-| Assign To All as 2nd || 
-| Assign To Selected as 2nd || 
-|**[Cowgirl Sex]** | | 
+
+
+### **[Cowgirl Sex]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To All || 
 | Assign To Selected || 
 | Assign To All as 2nd || 
@@ -411,14 +428,17 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Sync | [-0.25] (-1 ~ 1) | 
 |- Audio Sensitivity | [1] (-2 ~ 4) | 
 |- Body Twist | [0] (-1 ~ 1) | 
 | Override | OFF | 
 |- Override Motion | [0] (0 ~ 1) | 
-|
-|**[Sex From Behind]** | | 
+
+
+### **[Sex From Behind]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To All || 
 | Assign To Selected || 
 | Assign To All as 2nd || 
@@ -443,16 +463,13 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Override Motion | [0] (-2 ~ 2) | 
-|
-| [Sex Motion 3] || 
-| Assign To All || 
-| Assign To Selected || 
-| Assign To All as 2nd || 
-| Assign To Selected as 2nd || 
-| Camera Motion || 
-|**[Freefly Cam]** | | 
+
+
+### **[Freefly Cam]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To Main || 
 | Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
 | Tracking Mode | **Center**, Head, Chest,  |  |
@@ -469,8 +486,12 @@ sidebar:
 |- Beat Cycle | [8] (1 ~ 16) | 
 | Use Orbit Move | OFF | 
 | Presets | **Freefly**, Lock On Actor, Lock + Zoom Fullbody, Lock + Zoom Upper Body,  |  |
-|
-|**[Orbit Cam]** | | 
+
+
+### **[Orbit Cam]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To Main || 
 | Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
 | Tracking Mode | **Center**, Head, Chest,  |  |
@@ -495,8 +516,12 @@ sidebar:
 |- Height Cycle | [32] (Unlimited) | 
 |- Speed | [10] (0 ~ 90) | 
 | Presets | **Default (Reset)**, Preset 1,  |  |
-|
-|**[Auto Cam]** | | 
+
+
+### **[Auto Cam]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To Main || 
 | Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
 | Tracking Mode | **Center**, Head, Chest,  |  |
@@ -533,8 +558,12 @@ sidebar:
 |- Back 135 | [0] (0 ~ 1) | 
 |- Back 180 | [0.25] (0 ~ 1) | 
 | Presets | **Default (Reset)**, Preset 1,  |  |
-|
-|**[Long Take]** | | 
+
+
+### **[Long Take]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To Main || 
 | Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
 | Tracking Mode | **Center**, Head, Chest,  |  |
@@ -550,8 +579,12 @@ sidebar:
 | Use Actor Orientation | ON | 
 | Raise Focus When Close | OFF | Move focus position up when distance gets smaller
 | Presets | **Default (Reset)**, Preset 1, Preset 2, Preset 3,  |  |
-|
-|**[First Person]** | | 
+
+
+### **[First Person]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To Main || 
 | Select Actor |  |  |
 |- Field of View | [45] (30 ~ 100) | 
@@ -563,8 +596,12 @@ sidebar:
 |- Damping | [0.1] (0 ~ 1) | 
 | Disable Auto Return | OFF | 
 | Re-Center || 
-|
-|**[Fixed Camera]** | | 
+
+
+### **[Fixed Camera]**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 | Assign To Main || 
 | Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
 | Tracking Mode | **Center**, Head, Chest,  |  |
@@ -587,4 +624,3 @@ sidebar:
 |- Y | [0] (-2 ~ 2) | 
 |- Z | [0] (-2 ~ 2) | 
 | Presets | Near, **Far**,  |  |
-|

@@ -14,6 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 系统预设 || (Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.)
 | 重置所有 || 
 | 重新加载保存 || 

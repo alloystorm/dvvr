@@ -14,8 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**リモートアクセス** | | 
 | (Enable Remote Access) | OFF | 
 | ポート番号 || 
 | パスワード || 
-|

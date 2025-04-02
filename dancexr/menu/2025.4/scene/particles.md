@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Particle Effect**<sup>[PRO]</sup> | | 
 | Particles | OFF | 
 |- Spawn Rate | [1] (0 ~ 2) | Density of particles
 |- Life | [1] (0 ~ 10) | How long does each particle last
@@ -43,6 +42,4 @@ sidebar:
 |- Droplet Density | [1] (-2 ~ 3) | 
 |- Bump | [0.35] (0 ~ 1) | 
 |- Wetness | [0.5] (0 ~ 2) | 
-|
 | Presets | **Off**, Dust, Rain, Snow, Petal, Leaf, Glitter,  |  |
-|

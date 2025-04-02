@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**비디오 플레이어** | | 
 | 루프 | OFF | 
 | 음소거 | OFF | 
 |- 시간 오프셋 | [0] ((Unlimited)) | 
@@ -29,4 +28,3 @@ sidebar:
 | LED 스크린 예시 || 
 | 비디오 로드 || 
 | [없음] || 
-|

@@ -14,8 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**遠端訪問** | | 
 | (Enable Remote Access) | OFF | 
 | 埠號 || 
 | 密碼 || 
-|

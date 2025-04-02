@@ -14,6 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**自动重置** | | 
 |- 阈值 | [30] (0 ~ 50) | 
-|

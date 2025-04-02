@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**(Attach To Actor)**<sup>[PRO]</sup> | | 
 | (Enable Attach To Actor) | OFF | 
 | 选择源骨骼 || 选择要附加的骨骼
 | 选择角色 |  |  |
@@ -29,4 +28,3 @@ sidebar:
 |- (Y) | [0] (-180 ~ 180) | 
 |- (Z) | [0] (-180 ~ 180) | 
 |- 缩放 | [0] (-4 ~ 4) | 
-|

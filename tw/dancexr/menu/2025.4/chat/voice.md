@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**聲音** | | 
 | 語音引擎 | [無], **(Built-in)**,  |  |
 | 系統語音 | **([built-in]|0)**, ([built-in]|1), ([built-in]|2), ([built-in]|3), ([built-in]|4), ([built-in]|5), ([built-in]|6), ([built-in]|7), ([built-in]|8), ([built-in]|9), ([built-in]|10), ([built-in]|11), ([built-in]|12), ([built-in]|13), ([built-in]|14), ([built-in]|15), ([built-in]|16), ([built-in]|17), ([built-in]|18), ([built-in]|19),  |  |
 |- 虛擬讀取速度 | [15] (10 ~ 50) | 
@@ -30,5 +29,3 @@ sidebar:
 |- 評分 | [0] (0 ~ 10) | 
 | 預覽 || 
 | 保存更改 || 
-|
-|

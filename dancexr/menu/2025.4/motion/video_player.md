@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Video Player** | | 
 | Loop | OFF | 
 | Mute | OFF | 
 |- Time Offset | [0] (Unlimited) | 
@@ -29,4 +28,3 @@ sidebar:
 | LED Screen Example || 
 | Load Video || 
 | [None] || 
-|

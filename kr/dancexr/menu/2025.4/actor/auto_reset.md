@@ -14,6 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**자동 재설정** | | 
 |- 임계값 | [30] (0 ~ 50) | 
-|

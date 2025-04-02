@@ -14,4 +14,3 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| マテリアル || 

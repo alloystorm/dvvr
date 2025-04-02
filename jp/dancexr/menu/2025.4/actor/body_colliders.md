@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**ボディコライダー** | | 
 | (Enable Body Colliders) | ON | 
 |- サイズ | [0.5] (0 ~ 1) | 
 |- 頭部半径 | [1] (0 ~ 2) | 
@@ -36,4 +35,3 @@ sidebar:
 |- 手 | [0] (0 ~ 1) | 
 | 可視化 | OFF | 
 | プリセット | **デフォルト（リセット）**, (amy), (misaki),  |  |
-|

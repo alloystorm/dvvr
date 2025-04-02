@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Camera: [Freefly Cam] || 
 | [Freefly Cam] || 
 |**[Freefly Cam]** | | 
 | Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
@@ -32,7 +31,6 @@ sidebar:
 |- Beat Cycle | [8] (1 ~ 16) | 
 | Use Orbit Move | OFF | 
 | Presets | **Freefly**, Lock On Actor, Lock + Zoom Fullbody, Lock + Zoom Upper Body,  |  |
-|
 | [Orbit Cam] || 
 |**[Orbit Cam]** | | 
 | Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
@@ -58,7 +56,6 @@ sidebar:
 |- Height Cycle | [32] (Unlimited) | 
 |- Speed | [10] (0 ~ 90) | 
 | Presets | **Default (Reset)**, Preset 1,  |  |
-|
 | [Auto Cam] || 
 |**[Auto Cam]** | | 
 | Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
@@ -96,7 +93,6 @@ sidebar:
 |- Back 135 | [0] (0 ~ 1) | 
 |- Back 180 | [0.25] (0 ~ 1) | 
 | Presets | **Default (Reset)**, Preset 1,  |  |
-|
 | [Long Take] || 
 |**[Long Take]** | | 
 | Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
@@ -113,7 +109,6 @@ sidebar:
 | Use Actor Orientation | ON | 
 | Raise Focus When Close | OFF | Move focus position up when distance gets smaller
 | Presets | **Default (Reset)**, Preset 1, Preset 2, Preset 3,  |  |
-|
 | [First Person] || 
 |**[First Person]** | | 
 | Select Actor |  |  |
@@ -126,7 +121,6 @@ sidebar:
 |- Damping | [0.1] (0 ~ 1) | 
 | Disable Auto Return | OFF | 
 | Re-Center || 
-|
 | [Fixed Camera] || 
 |**[Fixed Camera]** | | 
 | Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
@@ -150,9 +144,14 @@ sidebar:
 |- Y | [0] (-2 ~ 2) | 
 |- Z | [0] (-2 ~ 2) | 
 | Presets | Near, **Far**,  |  |
-|
 | Config || 
-|**Main Camera** | | 
+| [Config Camera](#config_camera) |
+
+
+### **Config Camera**
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
 |- Height Offset | [0] (-5 ~ 5) | 
 |- FOV Scale | [1] (0.25 ~ 2) | 
 |- Portrait Mode Zoom | [1.2] (1 ~ 2) | 
@@ -160,4 +159,3 @@ sidebar:
 |- Near Clip | [0.01] (0 ~ 0.5) | 
 | Reset When Motion Change | ON | 
 | Reset Offset || 
-|

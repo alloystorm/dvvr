@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Attach To Actor**<sup>[PRO]</sup> | | 
 | Enable Attach To Actor | OFF | 
 | Select Source Bones || Select bone to attach
 | Select Actor |  |  |
@@ -29,4 +28,3 @@ sidebar:
 |- Y | [0] (-180 ~ 180) | 
 |- Z | [0] (-180 ~ 180) | 
 |- Scale | [0] (-4 ~ 4) | 
-|

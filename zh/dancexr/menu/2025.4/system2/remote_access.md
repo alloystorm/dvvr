@@ -14,8 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**远程访问** | | 
 | (Enable Remote Access) | OFF | 
 | 端口号 || 
 | 密码 || 
-|

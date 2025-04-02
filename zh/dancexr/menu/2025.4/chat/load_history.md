@@ -14,4 +14,3 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 加载历史记录 || 

@@ -14,4 +14,3 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 清除歷史 || 

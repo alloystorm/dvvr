@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Lighting** | | 
 |**Sunlight** | | Settings for the sunlight. Keep in mind that sunlight is very bright and will require a higher exposure value.
 | Enable Sunlight | ON | 
 |- Ecliptic Angle | [0] (-90 ~ 90) | The angle between the horizon and the plane the sun moves within.
@@ -36,7 +35,6 @@ sidebar:
 | Circle | OFF | 
 |- Spacing | [0.05] (0 ~ 0.5) | 
 |- Glow | [0.25] (0 ~ 1) | 
-|
 |**Shadow** | | Shadow settings.
 | Enable Shadow | ON | 
 |- Mode | **Use Global Setting**, Shadow Map, Screen Space, Raytracing (If Available),  | 
@@ -45,9 +43,7 @@ sidebar:
 | Denoise | OFF | Enable denoising when using raytracing shadows.
 |- Denoise Radius | [8] (1 ~ 32) | 
 |- Shadow Dimmer | [1] (0 ~ 1) | Reduce intensity of the shadow.
-|
 | Lens Flare | ON | Enable lens flare
-|
 |**Additional 1** | | Configure light group 1
 | Enable Additional 1 | OFF | 
 |- Volumetric Multiplier | [1] (0 ~ 16) | 
@@ -63,7 +59,6 @@ sidebar:
 | Use Stage Color | OFF | Use the color from the stage ring
 |- Color Temp | [6500] (3000 ~ 8000) | 
 | Presets | **White**, Sunset, Red, Yellow, Blue, Green,  |  |
-|
 |- Intensity | [25] (0 ~ 100) | 
 | Cookie | **[None]**, [Window], [Blinds], [Spot], [Tube], [Video],  |  |
 |- Emitter Radius | [0.05] (0 ~ 1) | Size of the light source.
@@ -91,7 +86,6 @@ sidebar:
 |- Dist / Radius | [7] (0 ~ 20) | Distance between the lights in grid mode.
 |- Range | [360] (0 ~ 360) | The angle of the lights in circle mode.
 | Presets | **Off**, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |  |
-|
 |**Shadow** | | 
 | Enable Shadow | ON | 
 |- Mode | **Use Global Setting**, Shadow Map, Screen Space, Raytracing (If Available),  | 
@@ -100,9 +94,7 @@ sidebar:
 | Denoise | OFF | Enable denoising when using raytracing shadows.
 |- Denoise Radius | [8] (1 ~ 32) | 
 |- Shadow Dimmer | [1] (0 ~ 1) | Reduce intensity of the shadow.
-|
 | Presets | **Spotlight**, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |  |
-|
 |**Additional 2** | | Configure light group 2
 | Enable Additional 2 | OFF | 
 |- Volumetric Multiplier | [1] (0 ~ 16) | 
@@ -118,7 +110,6 @@ sidebar:
 | Use Stage Color | OFF | Use the color from the stage ring
 |- Color Temp | [6500] (3000 ~ 8000) | 
 | Presets | **White**, Sunset, Red, Yellow, Blue, Green,  |  |
-|
 |- Intensity | [25] (0 ~ 100) | 
 | Cookie | **[None]**, [Window], [Blinds], [Spot], [Tube], [Video],  |  |
 |- Emitter Radius | [0.05] (0 ~ 1) | Size of the light source.
@@ -146,7 +137,6 @@ sidebar:
 |- Dist / Radius | [7] (0 ~ 20) | Distance between the lights in grid mode.
 |- Range | [360] (0 ~ 360) | The angle of the lights in circle mode.
 | Presets | **Off**, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |  |
-|
 |**Shadow** | | 
 | Enable Shadow | ON | 
 |- Mode | **Use Global Setting**, Shadow Map, Screen Space, Raytracing (If Available),  | 
@@ -155,9 +145,7 @@ sidebar:
 | Denoise | OFF | Enable denoising when using raytracing shadows.
 |- Denoise Radius | [8] (1 ~ 32) | 
 |- Shadow Dimmer | [1] (0 ~ 1) | Reduce intensity of the shadow.
-|
 | Presets | **Spotlight**, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |  |
-|
 |**Additional 3** | | Configure light group 3
 | Enable Additional 3 | OFF | 
 |- Volumetric Multiplier | [1] (0 ~ 16) | 
@@ -173,7 +161,6 @@ sidebar:
 | Use Stage Color | OFF | Use the color from the stage ring
 |- Color Temp | [6500] (3000 ~ 8000) | 
 | Presets | **White**, Sunset, Red, Yellow, Blue, Green,  |  |
-|
 |- Intensity | [25] (0 ~ 100) | 
 | Cookie | **[None]**, [Window], [Blinds], [Spot], [Tube], [Video],  |  |
 |- Emitter Radius | [0.05] (0 ~ 1) | Size of the light source.
@@ -201,7 +188,6 @@ sidebar:
 |- Dist / Radius | [7] (0 ~ 20) | Distance between the lights in grid mode.
 |- Range | [360] (0 ~ 360) | The angle of the lights in circle mode.
 | Presets | **Off**, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |  |
-|
 |**Shadow** | | 
 | Enable Shadow | ON | 
 |- Mode | **Use Global Setting**, Shadow Map, Screen Space, Raytracing (If Available),  | 
@@ -210,9 +196,7 @@ sidebar:
 | Denoise | OFF | Enable denoising when using raytracing shadows.
 |- Denoise Radius | [8] (1 ~ 32) | 
 |- Shadow Dimmer | [1] (0 ~ 1) | Reduce intensity of the shadow.
-|
 | Presets | **Spotlight**, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |  |
-|
 |- Overall Intensity | [1] (0 ~ 2) | Overall intensity of all the lights.
 |- Sky Ambient | [1] (0 ~ 14) | Intensity of ambient lighting from sky.
 |**Auto Exposure** | | Auto exposure settings.
@@ -221,7 +205,6 @@ sidebar:
 |- Compensation | -3.00, -2.75, -2.50, -2.25, -2.00, -1.75, -1.50, -1.25, -1.00, -0.75, -0.50, -0.25, **0.00**, 0.25, 0.50, 0.75, 1.00, 1.25, 1.50, 1.75, 2.00, 2.25, 2.50, 2.75, 3.00,  | 
 |- Range | [0] (0 ~ 15) | 
 |- Adaptation | **Normal**, Fast, Instant,  | The speed of auto exposure level change when the lighting condition changes.
-|
 |- Fog | [0] (0 ~ 1) | Fog level
 |- Light Limit | [8] (0 ~ 16) | Set max number of lights available in the scene.
 |- Shadow Limit | [4] (0 ~ 16) | Set max number of lights that can have shadows.
@@ -229,6 +212,4 @@ sidebar:
 |- Auto Allocate | **By Distance**, By Index (Fixed),  | 
 |- Refresh Interval | [8] (1 ~ 32) | How often does it reassign lights. In beats.
 | Manual Refresh || Force reassign lights.
-|
 | Presets | Sunset, **Daylight**, Window, Stage, Silhouette, Projector, Area light, Point Light Array, Preset 1, Preset 2, Preset 3,  |  |
-|

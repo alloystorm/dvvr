@@ -14,6 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 动画值 || 
 |- 色相 | [0] (0 ~ 1) | 
 | 过滤 || 

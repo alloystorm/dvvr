@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Application Settings** | | 
 | Load Previous Scene | OFF | Automatically load the last scene on start
 | Block desktop window in VR | ON | Blocks desktop window in VR mode
 | Recover Tags From Save | OFF | Attempts to recover tags from saved settings in case your content cache is rebuilt or broken
@@ -31,7 +30,6 @@ sidebar:
 |- Z | [0] (-0.1 ~ 0.1) | 
 |- Rotation | [45] (-90 ~ 90) | 
 | Update Pointer || 
-|
 | Left Hand Pose | **Auto**, Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |  |
 |**Left Hand Accessory** | | 
 | Enable Left Hand Accessory | OFF | 
@@ -45,7 +43,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -71,10 +68,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -95,7 +90,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -109,20 +103,16 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
 | Right Hand Pose | **Auto**, Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |  |
 |**Right Hand Accessory** | | 
 | Enable Right Hand Accessory | OFF | 
@@ -136,7 +126,6 @@ sidebar:
 |- X | [0] (-90 ~ 90) | 
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
-|
 | Size & Alignment || 
 |- Object Radius | [0.02] (0.01 ~ 0.05) | 
 |- Object Length | [0.2] (0 ~ 5) | 
@@ -162,10 +151,8 @@ sidebar:
 |- Mode | **Gradual**, Random, Volume,  | 
 |- Min Speed | 1/4, 1/3, **1/2**, 2/3, 1,  | 
 |- Max Speed | 1, **3/2**, 2, 3, 4,  | 
-|
 |- Distance | [0.1] (0 ~ 0.3) | 
 |- Angle | [0] (-60 ~ 60) | 
-|
 | Animation | **None**,  | Select loaded motion to use for the attachment model |
 |**Surface** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
@@ -186,7 +173,6 @@ sidebar:
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
 | Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
-|
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -200,21 +186,15 @@ sidebar:
 |- Shadow | [0.75] (0 ~ 1) | 
 |- Soft Shadow | [0.1] (0 ~ 1) | 
 | Presets | **Sharp**, Soft, Bright, Flat + Specular, Flat,  |  |
-|
 |**Special Shader** | | 
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-|
 | Presets | White Gloss, Red Gloss, **Chrome**, Black Gloss, Gold, Solid Glass, Thin Glass,  |  |
-|
 |- XRay | [0] (0 ~ 1) | 
 |- Alpha | [1] (0 ~ 1) | 
 |- Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
-|
-|
 | Gizmo 3rd Axis | **Rotation**, Depth,  |  |
 | Use Translated Names | ON | 
-|

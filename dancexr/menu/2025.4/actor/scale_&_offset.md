@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Scale & Offset** | | 
 |- Model Scale | [0] (-3 ~ 3) | 
 |- Ground Offset | [0] (-2 ~ 2) | 
 | Uniform Height | ON | Set the default scale to average human size
@@ -23,4 +22,3 @@ sidebar:
 |- Offset Z | [0] (-5 ~ 5) | 
 |- Snapping | **0**, 0.1, 0.2, 0.5, 1, 2,  | 
 | Presets | **Uniform Life Size**, Miniature, Giant, Original,  |  |
-|

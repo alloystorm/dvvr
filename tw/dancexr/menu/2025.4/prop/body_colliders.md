@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**身體碰撞器** | | 
 | (Enable Body Colliders) | ON | 
 |- 大小 | [0.5] (0 ~ 1) | 
 |- 頭部半徑 | [1] (0 ~ 2) | 
@@ -36,4 +35,3 @@ sidebar:
 |- 手 | [0] (0 ~ 1) | 
 | 可視化 | OFF | 
 | 預設 | **預設 (重置)**, (amy), (misaki),  |  |
-|

@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 内容库 || 
 | 刷新内容 || 
 | 迁移设置 || 
 | 删除重复项 || 

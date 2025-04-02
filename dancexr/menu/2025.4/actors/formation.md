@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Formation** | | 
 | Formation || 
 | V Shape || 
 | Line || 
@@ -34,4 +33,3 @@ sidebar:
 | Reset Actors || 
 | Random Props Position | ON | 
 | Presets | **Default (Reset)**,  |  |
-|

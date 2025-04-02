@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Chat Settings** | | 
 | Chat Language | **Auto**, English, Chinese, Japanese, Korean, Vietnamese, Thai, French, German, Spanish,  |  |
 | Template | **default**,  |  |
 | Generate Story | ON | 
@@ -32,4 +31,3 @@ sidebar:
 |- Auto Generate Delay | [15] (1 ~ 20) | 
 | Use Subtitle | ON | 
 | Describe Outfit | OFF | 
-|

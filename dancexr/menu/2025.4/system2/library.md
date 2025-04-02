@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Content Library || 
 | Refresh Content || 
 | Migrate Settings || 
 | Remove Duplicates || 

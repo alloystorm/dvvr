@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**(Attach To Actor)**<sup>[PRO]</sup> | | 
 | (Enable Attach To Actor) | OFF | 
 | ソースボーンを選択 || アタッチするボーンを選択
 | アクターを選択 |  |  |
@@ -29,4 +28,3 @@ sidebar:
 |- (Y) | [0] (-180 ~ 180) | 
 |- (Z) | [0] (-180 ~ 180) | 
 |- スケール | [0] (-4 ~ 4) | 
-|

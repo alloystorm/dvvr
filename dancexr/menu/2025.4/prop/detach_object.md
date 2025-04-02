@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Detach Object** | | 
 | Enable Detach Object | ON | 
 | Select Bones || 
 | Gravity | ON | 
@@ -23,4 +22,3 @@ sidebar:
 |- Collider | None, **Sphere**, Capsule,  | 
 |- Collider Radius | [0.1] (0 ~ 1) | 
 |- Collider Length | [0.3] (0 ~ 2) | 
-|

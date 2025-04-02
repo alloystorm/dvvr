@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Dangling Physics** | | 
 | Enable Dangling Physics | ON | 
 | Select Bones || Select bones
 |- Skip First X Bones | [0] (0 ~ 5) | Do not create physics connection for the first x number of levels
@@ -40,7 +39,6 @@ sidebar:
 |- Turbulence Scale | [0] (-2 ~ 2) | 
 |- Turbulence Intensity | [1] (0 ~ 2) | 
 |- Turbulence Time Scale | [0] (-4 ~ 4) | 
-|
 |**Collide With** | | 
 | Head | ON | 
 | Body | ON | 
@@ -51,7 +49,6 @@ sidebar:
 | Legs | ON | 
 | Feet | ON | 
 | Player | ON | 
-|
 |**Simulation Settings** | | 
 | Use Global | ON | Find the global settings under Pro / Cloth Simulation
 | Enable Dragging | ON | 
@@ -64,8 +61,6 @@ sidebar:
 |- Alternate Group Size | [0] (0 ~ 20) | 
 |- Table Size | [6] (1 ~ 20) | 
 | Two Step Solving | OFF | 
-|
-|
 |- Spring | [0.5] (0 ~ 5) | 
 |- Damp | [0.01] (0 ~ 0.1) | 
 |- Reduction Ratio | [0.25] (0 ~ 1) | Reducing stiffness at each level
@@ -77,4 +72,3 @@ sidebar:
 |- Collider Length | [0.9] (0 ~ 1) | 
 |- Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
 | Presets | **Default (Reset)**, Preset 1, Preset 2,  |  |
-|

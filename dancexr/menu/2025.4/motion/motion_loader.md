@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Playback Options** | | 
 | Prime Motion || 
 | Playback Mode | **List Once**, Single, Loop List, Loop Single, Shuffle,  |  |
 | Auto-Load Actors | OFF | Automatically load actors to match the number of motion tracks and assign different motion for each actor
@@ -44,4 +43,3 @@ sidebar:
 |- Spatial Blend | [0] (0 ~ 1) | Blend the 3D effect of the spatial audio
 | Follow Actor | OFF | 
 | Select Actor |  |  |
-|

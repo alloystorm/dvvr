@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**(Attach To Actor)**<sup>[PRO]</sup> | | 
 | (Enable Attach To Actor) | OFF | 
 | 소스 본 선택 || 부착할 본 선택
 | 배우 선택 |  |  |
@@ -29,4 +28,3 @@ sidebar:
 |- (Y) | [0] (-180 ~ 180) | 
 |- (Z) | [0] (-180 ~ 180) | 
 |- 스케일 | [0] (-4 ~ 4) | 
-|

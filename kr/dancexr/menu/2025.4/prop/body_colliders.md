@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**신체 콜라이더** | | 
 | (Enable Body Colliders) | ON | 
 |- 크기 | [0.5] (0 ~ 1) | 
 |- 머리 반경 | [1] (0 ~ 2) | 
@@ -36,4 +35,3 @@ sidebar:
 |- 손 | [0] (0 ~ 1) | 
 | 시각화 | OFF | 
 | 프리셋 | **기본값 (초기화)**, (amy), (misaki),  |  |
-|

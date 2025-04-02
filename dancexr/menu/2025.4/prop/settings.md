@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Settings** | | 
 |- Scale | [0] (-2 ~ 2) | 
 |- Offset X | [0] (Unlimited) | 
 |- Offset Y | [0] (Unlimited) | 
@@ -30,4 +29,3 @@ sidebar:
 |- Drag | [0] (0 ~ 1) | 
 |- Friction | [0.5] (0 ~ 1) | 
 |- Bounciness | [0.5] (0 ~ 1) | 
-|

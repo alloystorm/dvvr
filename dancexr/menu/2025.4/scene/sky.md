@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Sky** | | 
 |- Mode | Color, Sky Map, **Procedural**,  | 
 |- Background | [1] (0 ~ 1) | Controls the brightness of the sky when it is renderred.
 |- Sky Ambient | [1] (0 ~ 1) | Controls how much the sky affects ambient lighting.
@@ -27,12 +26,10 @@ sidebar:
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |**Rotation** | | 
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|
 |- Distance | [5] (0 ~ 10) | 
 |- Radius | [1] (0 ~ 2) | 
 |- Speed | [1] (0 ~ 4) | 
@@ -48,7 +45,6 @@ sidebar:
 | Use Stage Color | OFF | Use the color from the stage ring
 |- Color Temp | [6500] (3000 ~ 8000) | 
 | Presets | **White**, Sunset, Red, Yellow, Blue, Green,  |  |
-|
 |**Middle Color** | | 
 |- Color Mode | **RGB**, HSV,  | 
 |- Hue | [0] (0 ~ 1) | 
@@ -60,7 +56,6 @@ sidebar:
 | Use Stage Color | OFF | Use the color from the stage ring
 |- Color Temp | [6500] (3000 ~ 8000) | 
 | Presets | **White**, Sunset, Red, Yellow, Blue, Green,  |  |
-|
 |**Ground Color** | | 
 |- Color Mode | **RGB**, HSV,  | 
 |- Hue | [0] (0 ~ 1) | 
@@ -72,7 +67,6 @@ sidebar:
 | Use Stage Color | OFF | Use the color from the stage ring
 |- Color Temp | [6500] (3000 ~ 8000) | 
 | Presets | **White**, Sunset, Red, Yellow, Blue, Green,  |  |
-|
 |**Cloud** | | 
 | Enable Cloud | ON | 
 |- Shape Scale | [1] (-1 ~ 2) | 
@@ -82,6 +76,4 @@ sidebar:
 |- Density | [0.2] (0 ~ 1) | 
 | Shadow | OFF | 
 |- Wind Multiplier | [3] (0 ~ 4) | 
-|
 | Presets | Skymap, Procedural, Indoor, **Thin Cloud**, Cloudy,  |  |
-|

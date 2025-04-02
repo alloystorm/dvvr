@@ -14,6 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Auto Reset** | | 
 |- Threshold | [30] (0 ~ 50) | 
-|

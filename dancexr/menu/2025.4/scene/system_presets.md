@@ -14,6 +14,5 @@ Save system settings as presets for you to load and apply in the future. Stored 
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| System Presets || Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.
 | Reset All || 
 | Reload Saved || 

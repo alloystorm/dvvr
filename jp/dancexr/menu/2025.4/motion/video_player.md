@@ -14,7 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**ビデオプレーヤー** | | 
 | ループ | OFF | 
 | ミュート | OFF | 
 |- 時間オフセット | [0] ((Unlimited)) | 
@@ -29,4 +28,3 @@ sidebar:
 | LEDスクリーンの例 || 
 | ビデオを読み込む || 
 | [なし] || 
-|

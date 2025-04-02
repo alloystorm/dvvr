@@ -14,6 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Animated Values || 
 |- Hue | [0] (0 ~ 1) | 
 | Filtering || 
