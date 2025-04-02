@@ -70,16 +70,16 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [(Enable Chat Settings)](Chat Settings/enabled) |  | 
-| [AIサービス](Chat Settings/ai_service) |  | 
-| [チャット設定](Chat Settings/chat_settings) |  | 
-| [声](Chat Settings/voice) |  | 
-| [マイク](Chat Settings/microphone) |  | 
-| [プレイヤー](Chat Settings/chat_player) |  | 
-| [キャラクター](Chat Settings/characters) |  | 
-| [履歴を読み込む](Chat Settings/load_history) |  | 
-| [履歴を保存する](Chat Settings/save_history) |  | 
-| [履歴をクリアする](Chat Settings/clear_history) |  | 
+| [(Enable Chat Settings)](chat/enabled) |  | 
+| [AIサービス](chat/ai_service) |  | 
+| [チャット設定](chat/chat_settings) |  | 
+| [声](chat/voice) |  | 
+| [マイク](chat/microphone) |  | 
+| [プレイヤー](chat/chat_player) |  | 
+| [キャラクター](chat/characters) |  | 
+| [履歴を読み込む](chat/load_history) |  | 
+| [履歴を保存する](chat/save_history) |  | 
+| [履歴をクリアする](chat/clear_history) |  | 
 | | |
 
 

@@ -70,16 +70,16 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [(Enable Chat Settings)](Chat Settings/enabled) |  | 
-| [AI 服务](Chat Settings/ai_service) |  | 
-| [聊天设置](Chat Settings/chat_settings) |  | 
-| [声音](Chat Settings/voice) |  | 
-| [麦克风](Chat Settings/microphone) |  | 
-| [玩家](Chat Settings/chat_player) |  | 
-| [角色](Chat Settings/characters) |  | 
-| [加载历史记录](Chat Settings/load_history) |  | 
-| [保存历史记录](Chat Settings/save_history) |  | 
-| [清除历史记录](Chat Settings/clear_history) |  | 
+| [(Enable Chat Settings)](chat/enabled) |  | 
+| [AI 服务](chat/ai_service) |  | 
+| [聊天设置](chat/chat_settings) |  | 
+| [声音](chat/voice) |  | 
+| [麦克风](chat/microphone) |  | 
+| [玩家](chat/chat_player) |  | 
+| [角色](chat/characters) |  | 
+| [加载历史记录](chat/load_history) |  | 
+| [保存历史记录](chat/save_history) |  | 
+| [清除历史记录](chat/clear_history) |  | 
 | | |
 
 

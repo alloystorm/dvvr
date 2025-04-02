@@ -70,16 +70,16 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [(Enable Chat Settings)](Chat Settings/enabled) |  | 
-| [AI 서비스](Chat Settings/ai_service) |  | 
-| [채팅 설정](Chat Settings/chat_settings) |  | 
-| [목소리](Chat Settings/voice) |  | 
-| [마이크](Chat Settings/microphone) |  | 
-| [플레이어](Chat Settings/chat_player) |  | 
-| [캐릭터](Chat Settings/characters) |  | 
-| [기록 불러오기](Chat Settings/load_history) |  | 
-| [기록 저장](Chat Settings/save_history) |  | 
-| [기록 지우기](Chat Settings/clear_history) |  | 
+| [(Enable Chat Settings)](chat/enabled) |  | 
+| [AI 서비스](chat/ai_service) |  | 
+| [채팅 설정](chat/chat_settings) |  | 
+| [목소리](chat/voice) |  | 
+| [마이크](chat/microphone) |  | 
+| [플레이어](chat/chat_player) |  | 
+| [캐릭터](chat/characters) |  | 
+| [기록 불러오기](chat/load_history) |  | 
+| [기록 저장](chat/save_history) |  | 
+| [기록 지우기](chat/clear_history) |  | 
 | | |
 
 

@@ -70,16 +70,16 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [Enable Chat Settings](Chat Settings/enabled) |  | 
-| [AI Service](Chat Settings/ai_service) |  | 
-| [Chat Settings](Chat Settings/chat_settings) |  | 
-| [Voice](Chat Settings/voice) |  | 
-| [Microphone](Chat Settings/microphone) |  | 
-| [Player](Chat Settings/chat_player) |  | 
-| [Characters](Chat Settings/characters) |  | 
-| [Load History](Chat Settings/load_history) |  | 
-| [Save History](Chat Settings/save_history) |  | 
-| [Clear History](Chat Settings/clear_history) |  | 
+| [Enable Chat Settings](chat/enabled) |  | 
+| [AI Service](chat/ai_service) |  | 
+| [Chat Settings](chat/chat_settings) |  | 
+| [Voice](chat/voice) |  | 
+| [Microphone](chat/microphone) |  | 
+| [Player](chat/chat_player) |  | 
+| [Characters](chat/characters) |  | 
+| [Load History](chat/load_history) |  | 
+| [Save History](chat/save_history) |  | 
+| [Clear History](chat/clear_history) |  | 
 | | |
 
 
