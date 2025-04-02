@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/actors/global_actor_control.md) | [繁中](/tw/dancexr/menu/2025.4/actors/global_actor_control.md) | [日本語](/jp/dancexr/menu/2025.4/actors/global_actor_control.md) | [한국어](/kr/dancexr/menu/2025.4/actors/global_actor_control.md) | [简中](/zh/dancexr/menu/2025.4/actors/global_actor_control.md)
+[Eng](/dancexr/menu/2025.4/actors/global_actor_control) | [繁中](/tw/dancexr/menu/2025.4/actors/global_actor_control) | [日本語](/jp/dancexr/menu/2025.4/actors/global_actor_control) | [한국어](/kr/dancexr/menu/2025.4/actors/global_actor_control) | [简中](/zh/dancexr/menu/2025.4/actors/global_actor_control)
+
 # 全局演員控制
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**全局演員控制** | | 

@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/scene/motion_select.md) | [繁中](/tw/dancexr/menu/2025.4/scene/motion_select.md) | [日本語](/jp/dancexr/menu/2025.4/scene/motion_select.md) | [한국어](/kr/dancexr/menu/2025.4/scene/motion_select.md) | [简中](/zh/dancexr/menu/2025.4/scene/motion_select.md)
+[Eng](/dancexr/menu/2025.4/scene/motion_select) | [繁中](/tw/dancexr/menu/2025.4/scene/motion_select) | [日本語](/jp/dancexr/menu/2025.4/scene/motion_select) | [한국어](/kr/dancexr/menu/2025.4/scene/motion_select) | [简中](/zh/dancexr/menu/2025.4/scene/motion_select)
+
 # Camera: [Freefly Cam]
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Camera: [Freefly Cam] || 

@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/system/graphics.md) | [繁中](/tw/dancexr/menu/2025.4/system/graphics.md) | [日本語](/jp/dancexr/menu/2025.4/system/graphics.md) | [한국어](/kr/dancexr/menu/2025.4/system/graphics.md) | [简中](/zh/dancexr/menu/2025.4/system/graphics.md)
+[Eng](/dancexr/menu/2025.4/system/graphics) | [繁中](/tw/dancexr/menu/2025.4/system/graphics) | [日本語](/jp/dancexr/menu/2025.4/system/graphics) | [한국어](/kr/dancexr/menu/2025.4/system/graphics) | [简中](/zh/dancexr/menu/2025.4/system/graphics)
+
 # Graphics
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**Graphics** | | 

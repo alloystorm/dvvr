@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/chat/voice.md) | [繁中](/tw/dancexr/menu/2025.4/chat/voice.md) | [日本語](/jp/dancexr/menu/2025.4/chat/voice.md) | [한국어](/kr/dancexr/menu/2025.4/chat/voice.md) | [简中](/zh/dancexr/menu/2025.4/chat/voice.md)
+[Eng](/dancexr/menu/2025.4/chat/voice) | [繁中](/tw/dancexr/menu/2025.4/chat/voice) | [日本語](/jp/dancexr/menu/2025.4/chat/voice) | [한국어](/kr/dancexr/menu/2025.4/chat/voice) | [简中](/zh/dancexr/menu/2025.4/chat/voice)
+
 # 목소리
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**목소리** | | 

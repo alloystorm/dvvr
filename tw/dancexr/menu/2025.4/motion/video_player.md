@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/motion/video_player.md) | [繁中](/tw/dancexr/menu/2025.4/motion/video_player.md) | [日本語](/jp/dancexr/menu/2025.4/motion/video_player.md) | [한국어](/kr/dancexr/menu/2025.4/motion/video_player.md) | [简中](/zh/dancexr/menu/2025.4/motion/video_player.md)
+[Eng](/dancexr/menu/2025.4/motion/video_player) | [繁中](/tw/dancexr/menu/2025.4/motion/video_player) | [日本語](/jp/dancexr/menu/2025.4/motion/video_player) | [한국어](/kr/dancexr/menu/2025.4/motion/video_player) | [简中](/zh/dancexr/menu/2025.4/motion/video_player)
+
 # 影片播放器
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**影片播放器** | | 

@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/system/physics.md) | [繁中](/tw/dancexr/menu/2025.4/system/physics.md) | [日本語](/jp/dancexr/menu/2025.4/system/physics.md) | [한국어](/kr/dancexr/menu/2025.4/system/physics.md) | [简中](/zh/dancexr/menu/2025.4/system/physics.md)
+[Eng](/dancexr/menu/2025.4/system/physics) | [繁中](/tw/dancexr/menu/2025.4/system/physics) | [日本語](/jp/dancexr/menu/2025.4/system/physics) | [한국어](/kr/dancexr/menu/2025.4/system/physics) | [简中](/zh/dancexr/menu/2025.4/system/physics)
+
 # Physics
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**Physics** | | 

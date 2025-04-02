@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/system/screen.md) | [繁中](/tw/dancexr/menu/2025.4/system/screen.md) | [日本語](/jp/dancexr/menu/2025.4/system/screen.md) | [한국어](/kr/dancexr/menu/2025.4/system/screen.md) | [简中](/zh/dancexr/menu/2025.4/system/screen.md)
+[Eng](/dancexr/menu/2025.4/system/screen) | [繁中](/tw/dancexr/menu/2025.4/system/screen) | [日本語](/jp/dancexr/menu/2025.4/system/screen) | [한국어](/kr/dancexr/menu/2025.4/system/screen) | [简中](/zh/dancexr/menu/2025.4/system/screen)
+
 # Display & UI
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**Display & UI** | | 

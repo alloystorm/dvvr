@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/scene/lighting.md) | [繁中](/tw/dancexr/menu/2025.4/scene/lighting.md) | [日本語](/jp/dancexr/menu/2025.4/scene/lighting.md) | [한국어](/kr/dancexr/menu/2025.4/scene/lighting.md) | [简中](/zh/dancexr/menu/2025.4/scene/lighting.md)
+[Eng](/dancexr/menu/2025.4/scene/lighting) | [繁中](/tw/dancexr/menu/2025.4/scene/lighting) | [日本語](/jp/dancexr/menu/2025.4/scene/lighting) | [한국어](/kr/dancexr/menu/2025.4/scene/lighting) | [简中](/zh/dancexr/menu/2025.4/scene/lighting)
+
 # 조명
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**조명** | | 

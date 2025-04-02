@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/actors/formation.md) | [繁中](/tw/dancexr/menu/2025.4/actors/formation.md) | [日本語](/jp/dancexr/menu/2025.4/actors/formation.md) | [한국어](/kr/dancexr/menu/2025.4/actors/formation.md) | [简中](/zh/dancexr/menu/2025.4/actors/formation.md)
+[Eng](/dancexr/menu/2025.4/actors/formation) | [繁中](/tw/dancexr/menu/2025.4/actors/formation) | [日本語](/jp/dancexr/menu/2025.4/actors/formation) | [한국어](/kr/dancexr/menu/2025.4/actors/formation) | [简中](/zh/dancexr/menu/2025.4/actors/formation)
+
 # 隊形
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**隊形** | | 

@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/chat/characters.md) | [繁中](/tw/dancexr/menu/2025.4/chat/characters.md) | [日本語](/jp/dancexr/menu/2025.4/chat/characters.md) | [한국어](/kr/dancexr/menu/2025.4/chat/characters.md) | [简中](/zh/dancexr/menu/2025.4/chat/characters.md)
+[Eng](/dancexr/menu/2025.4/chat/characters) | [繁中](/tw/dancexr/menu/2025.4/chat/characters) | [日本語](/jp/dancexr/menu/2025.4/chat/characters) | [한국어](/kr/dancexr/menu/2025.4/chat/characters) | [简中](/zh/dancexr/menu/2025.4/chat/characters)
+
 # 캐릭터
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 캐릭터 || 

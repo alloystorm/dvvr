@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/motion/motion_loader.md) | [繁中](/tw/dancexr/menu/2025.4/motion/motion_loader.md) | [日本語](/jp/dancexr/menu/2025.4/motion/motion_loader.md) | [한국어](/kr/dancexr/menu/2025.4/motion/motion_loader.md) | [简中](/zh/dancexr/menu/2025.4/motion/motion_loader.md)
+[Eng](/dancexr/menu/2025.4/motion/motion_loader) | [繁中](/tw/dancexr/menu/2025.4/motion/motion_loader) | [日本語](/jp/dancexr/menu/2025.4/motion/motion_loader) | [한국어](/kr/dancexr/menu/2025.4/motion/motion_loader) | [简中](/zh/dancexr/menu/2025.4/motion/motion_loader)
+
 # Playback Options
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**Playback Options** | | 

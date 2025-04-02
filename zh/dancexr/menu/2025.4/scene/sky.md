@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/scene/sky.md) | [繁中](/tw/dancexr/menu/2025.4/scene/sky.md) | [日本語](/jp/dancexr/menu/2025.4/scene/sky.md) | [한국어](/kr/dancexr/menu/2025.4/scene/sky.md) | [简中](/zh/dancexr/menu/2025.4/scene/sky.md)
+[Eng](/dancexr/menu/2025.4/scene/sky) | [繁中](/tw/dancexr/menu/2025.4/scene/sky) | [日本語](/jp/dancexr/menu/2025.4/scene/sky) | [한국어](/kr/dancexr/menu/2025.4/scene/sky) | [简中](/zh/dancexr/menu/2025.4/scene/sky)
+
 # 天空
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**天空** | | 

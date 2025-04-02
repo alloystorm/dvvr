@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/system/application_settings.md) | [繁中](/tw/dancexr/menu/2025.4/system/application_settings.md) | [日本語](/jp/dancexr/menu/2025.4/system/application_settings.md) | [한국어](/kr/dancexr/menu/2025.4/system/application_settings.md) | [简中](/zh/dancexr/menu/2025.4/system/application_settings.md)
+[Eng](/dancexr/menu/2025.4/system/application_settings) | [繁中](/tw/dancexr/menu/2025.4/system/application_settings) | [日本語](/jp/dancexr/menu/2025.4/system/application_settings) | [한국어](/kr/dancexr/menu/2025.4/system/application_settings) | [简中](/zh/dancexr/menu/2025.4/system/application_settings)
+
 # 應用設置
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**應用設置** | | 

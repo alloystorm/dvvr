@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/scene/particles.md) | [繁中](/tw/dancexr/menu/2025.4/scene/particles.md) | [日本語](/jp/dancexr/menu/2025.4/scene/particles.md) | [한국어](/kr/dancexr/menu/2025.4/scene/particles.md) | [简中](/zh/dancexr/menu/2025.4/scene/particles.md)
+[Eng](/dancexr/menu/2025.4/scene/particles) | [繁中](/tw/dancexr/menu/2025.4/scene/particles) | [日本語](/jp/dancexr/menu/2025.4/scene/particles) | [한국어](/kr/dancexr/menu/2025.4/scene/particles) | [简中](/zh/dancexr/menu/2025.4/scene/particles)
+
 # 粒子效果
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**粒子效果**<sup>[PRO]</sup> | | 

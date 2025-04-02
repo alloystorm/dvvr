@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/scene/ground.md) | [繁中](/tw/dancexr/menu/2025.4/scene/ground.md) | [日本語](/jp/dancexr/menu/2025.4/scene/ground.md) | [한국어](/kr/dancexr/menu/2025.4/scene/ground.md) | [简中](/zh/dancexr/menu/2025.4/scene/ground.md)
+[Eng](/dancexr/menu/2025.4/scene/ground) | [繁中](/tw/dancexr/menu/2025.4/scene/ground) | [日本語](/jp/dancexr/menu/2025.4/scene/ground) | [한국어](/kr/dancexr/menu/2025.4/scene/ground) | [简中](/zh/dancexr/menu/2025.4/scene/ground)
+
 # 地面
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**地面** | | 

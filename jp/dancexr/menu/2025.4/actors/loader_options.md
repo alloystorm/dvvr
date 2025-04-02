@@ -6,9 +6,12 @@ toc: true
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/menu/2025.4/actors/loader_options.md) | [繁中](/tw/dancexr/menu/2025.4/actors/loader_options.md) | [日本語](/jp/dancexr/menu/2025.4/actors/loader_options.md) | [한국어](/kr/dancexr/menu/2025.4/actors/loader_options.md) | [简中](/zh/dancexr/menu/2025.4/actors/loader_options.md)
+[Eng](/dancexr/menu/2025.4/actors/loader_options) | [繁中](/tw/dancexr/menu/2025.4/actors/loader_options) | [日本語](/jp/dancexr/menu/2025.4/actors/loader_options) | [한국어](/kr/dancexr/menu/2025.4/actors/loader_options) | [简中](/zh/dancexr/menu/2025.4/actors/loader_options)
+
 # ローダーオプション
+
 ## 
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**アクターオプション** | | 
