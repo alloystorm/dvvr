@@ -19,6 +19,8 @@ sidebar:
 
 ### **Player**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Name || 

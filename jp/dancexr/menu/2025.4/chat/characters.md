@@ -19,6 +19,8 @@ sidebar:
 
 ### **プレイヤー**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 名前 || 

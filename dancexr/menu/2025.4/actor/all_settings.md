@@ -25,6 +25,8 @@ sidebar:
 
 ### **Facial Control**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Mouth || 
@@ -35,19 +37,23 @@ sidebar:
 
 ### **Scale & Offset**
 
+Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments.
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|- Model Scale | [0] (-3 ~ 3) | 
-|- Ground Offset | [0] (-2 ~ 2) | 
-| Uniform Height | ON | Set the default scale to average human size
-|- Rotation | [0] (-180 ~ 180) | 
-|- Offset X | [0] (-5 ~ 5) | 
-|- Offset Z | [0] (-5 ~ 5) | 
-|- Snapping | **0**, 0.1, 0.2, 0.5, 1, 2,  | 
+|- Model Scale | [0] (-3 ~ 3) | Adjust the overall scale of the model. Values are exponential for finer control.
+|- Ground Offset | [0] (-2 ~ 2) | Set the vertical offset of the model relative to the ground.
+| Uniform Height | ON | Enable to scale the model to an average human height.
+|- Rotation | [0] (-180 ~ 180) | Set the rotation of the model in degrees.
+|- Offset X | [0] (-5 ~ 5) | Adjust the horizontal offset of the model along the X-axis.
+|- Offset Z | [0] (-5 ~ 5) | Adjust the horizontal offset of the model along the Z-axis.
+|- Snapping | **0**, 0.1, 0.2, 0.5, 1, 2,  | Set the snapping increment for drag adjustments. Smaller values allow finer control.
 | Presets | **Uniform Life Size**, Miniature, Giant, Original,  |  |
 
 
 ### **Lifelike Motions**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -73,6 +79,8 @@ sidebar:
 
 ### **Troubleshooting**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Apply Body Rotation To Center | OFF | Apply rotation of hip and torso to the center bone
@@ -95,6 +103,8 @@ sidebar:
 
 ### **Water Interaction**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Ripple | OFF | 
@@ -116,6 +126,8 @@ sidebar:
 
 ### **Visualize Bones**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Enable Visualize Bones | OFF | 
@@ -126,6 +138,8 @@ sidebar:
 
 
 ### **Motion Passes**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

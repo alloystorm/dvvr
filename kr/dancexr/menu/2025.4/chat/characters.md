@@ -19,6 +19,8 @@ sidebar:
 
 ### **플레이어**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 이름 || 

@@ -25,6 +25,8 @@ sidebar:
 
 ### **面部控制**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 嘴巴 || 
@@ -35,19 +37,23 @@ sidebar:
 
 ### **缩放与偏移**
 
+(Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments.)
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|- 模型比例 | [0] (-3 ~ 3) | 
-|- 地面偏移 | [0] (-2 ~ 2) | 
-| 统一高度 | ON | 将默认比例设置为平均人类大小
-|- 旋转 | [0] (-180 ~ 180) | 
-|- X轴偏移 | [0] (-5 ~ 5) | 
-|- Z轴偏移 | [0] (-5 ~ 5) | 
-|- 对齐 | **(0)**, (0.1), (0.2), (0.5), (1), (2),  | 
+|- 模型比例 | [0] (-3 ~ 3) | (Adjust the overall scale of the model. Values are exponential for finer control.)
+|- 地面偏移 | [0] (-2 ~ 2) | (Set the vertical offset of the model relative to the ground.)
+| 统一高度 | ON | (Enable to scale the model to an average human height.)
+|- 旋转 | [0] (-180 ~ 180) | (Set the rotation of the model in degrees.)
+|- X轴偏移 | [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the X-axis.)
+|- Z轴偏移 | [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the Z-axis.)
+|- 对齐 | **(0)**, (0.1), (0.2), (0.5), (1), (2),  | (Set the snapping increment for drag adjustments. Smaller values allow finer control.)
 | 预设 | **统一真实尺寸**, 微型模型, 巨型模型, 原始模型,  |  |
 
 
 ### **逼真的动作**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -73,6 +79,8 @@ sidebar:
 
 ### **故障排除**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 将身体旋转应用于中心 | OFF | 将臀部和躯干的旋转应用于中心骨骼
@@ -95,6 +103,8 @@ sidebar:
 
 ### **水的互动**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 涟漪 | OFF | 
@@ -116,6 +126,8 @@ sidebar:
 
 ### **可视化骨骼**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | (Enable Visualize Bones) | OFF | 
@@ -126,6 +138,8 @@ sidebar:
 
 
 ### **运动传递**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

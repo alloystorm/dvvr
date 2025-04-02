@@ -29,7 +29,7 @@ sidebar:
 |- 수직 오프셋 | [0] (-1 ~ 1) | 수직으로 오프셋
 |- FOV | [30] (5 ~ 120) | 
 |- 비트 사이클 | [8] (1 ~ 16) | 
-| 궤도 이동 사용 | OFF | 
+| 궤도 이동 사용 | OFF | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
 | 프리셋 | **(Freefly)**, (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |  |
 | [오르빗 카메라] || 
 |**[오르빗 카메라]** | | 
@@ -64,34 +64,34 @@ sidebar:
 |- 예측 | [1] (0 ~ 2) | 부드러움으로 인한 지연을 줄이기 위해 타겟의 위치를 예측
 |- FOV | [30] (5 ~ 120) | 
 |- 비트 사이클 | [8] (1 ~ 16) | 
-|- 근거리 | [1.5] (0.5 ~ 3) | 
-|- 원거리 | [2.5] (0.5 ~ 3) | 
-| 배우 방향 사용 | ON | 
-|- 시드 | [1234] ((Unlimited)) | 
-|- 검은색으로 페이드 | [0] (0 ~ 0.25) | 
-|- F2B 확률 | [0.5] (0 ~ 1) | 
-|- 오디오 민감도 | [1] (0 ~ 4) | 
+|- 근거리 | [1.5] (0.5 ~ 3) | (Minimum distance of the camera from the target.)
+|- 원거리 | [2.5] (0.5 ~ 3) | (Maximum distance of the camera from the target.)
+| 배우 방향 사용 | ON | (Enable or disable alignment of the camera to the actor's orientation.)
+|- 시드 | [1234] ((Unlimited)) | (Seed value for generating random camera motions.)
+|- 검은색으로 페이드 | [0] (0 ~ 0.25) | (Duration of the fade-to-black effect during transitions.)
+|- F2B 확률 | [0.5] (0 ~ 1) | (Probability of triggering the fade-to-black effect.)
+|- 오디오 민감도 | [1] (0 ~ 4) | (Sensitivity of the camera motion to audio levels.)
 | 대상 선택 || 
-|- 머리 | [1] (0 ~ 1) | 
-|- 가슴 | [1] (0 ~ 1) | 
-|- 센터 | [1] (0 ~ 1) | 
-|- 다리 | [0.5] (0 ~ 1) | 
-|- 발 | [0] (0 ~ 1) | 
+|- 머리 | [1] (0 ~ 1) | (Probability of targeting the actor's head.)
+|- 가슴 | [1] (0 ~ 1) | (Probability of targeting the actor's chest.)
+|- 센터 | [1] (0 ~ 1) | (Probability of targeting the actor's center.)
+|- 다리 | [0.5] (0 ~ 1) | (Probability of targeting the actor's legs.)
+|- 발 | [0] (0 ~ 1) | (Probability of targeting the actor's feet.)
 | 거리 선택 || 
-|- 클로즈 업 | [1] (0 ~ 1) | 
-|- 줌 인 | [0.25] (0 ~ 1) | 
-|- 줌 아웃 | [0.25] (0 ~ 1) | 
-|- 중간 | [0.25] (0 ~ 1) | 
-|- 멀리 | [0.25] (0 ~ 1) | 
+|- 클로즈 업 | [1] (0 ~ 1) | (Probability of a close-up camera distance.)
+|- 줌 인 | [0.25] (0 ~ 1) | (Probability of zooming in.)
+|- 줌 아웃 | [0.25] (0 ~ 1) | (Probability of zooming out.)
+|- 중간 | [0.25] (0 ~ 1) | (Probability of a middle-range camera distance.)
+|- 멀리 | [0.25] (0 ~ 1) | (Probability of a far camera distance.)
 | 경로 선택 || 
-|- 높은 각도 | [20] (0 ~ 30) | 
-|- 낮은 각도 | [-20] (-30 ~ 0) | 
+|- 높은 각도 | [20] (0 ~ 30) | (Maximum upward angle for the camera.)
+|- 낮은 각도 | [-20] (-30 ~ 0) | (Maximum downward angle for the camera.)
 | 방향 || 
-|- 앞 중앙 | [1] (0 ~ 1) | 
-|- 앞 45도 | [0] (0 ~ 1) | 
-|- 측면 90도 | [0.25] (0 ~ 1) | 
-|- 뒤 135도 | [0] (0 ~ 1) | 
-|- 뒤 180도 | [0.25] (0 ~ 1) | 
+|- 앞 중앙 | [1] (0 ~ 1) | (Probability of orienting the camera to the front center of the actor.)
+|- 앞 45도 | [0] (0 ~ 1) | (Probability of orienting the camera to a 45-degree angle in front of the actor.)
+|- 측면 90도 | [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
+|- 뒤 135도 | [0] (0 ~ 1) | (Probability of orienting the camera to a 135-degree angle behind the actor.)
+|- 뒤 180도 | [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
 | 프리셋 | **기본값 (초기화)**, (Preset 1),  |  |
 | [롱 테이크] || 
 |**[롱 테이크]** | | 
@@ -149,6 +149,8 @@ sidebar:
 
 
 ### **카메라 설정**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

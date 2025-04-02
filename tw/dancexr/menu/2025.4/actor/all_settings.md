@@ -25,6 +25,8 @@ sidebar:
 
 ### **面部控制**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 嘴巴 || 
@@ -35,19 +37,23 @@ sidebar:
 
 ### **比例與偏移**
 
+(Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments.)
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|- 模型比例 | [0] (-3 ~ 3) | 
-|- 地面偏移 | [0] (-2 ~ 2) | 
-| 均勻高度 | ON | 將預設比例設置為平均人類大小
-|- 旋轉 | [0] (-180 ~ 180) | 
-|- 偏移X | [0] (-5 ~ 5) | 
-|- 偏移Z | [0] (-5 ~ 5) | 
-|- 對齊 | **(0)**, (0.1), (0.2), (0.5), (1), (2),  | 
+|- 模型比例 | [0] (-3 ~ 3) | (Adjust the overall scale of the model. Values are exponential for finer control.)
+|- 地面偏移 | [0] (-2 ~ 2) | (Set the vertical offset of the model relative to the ground.)
+| 均勻高度 | ON | (Enable to scale the model to an average human height.)
+|- 旋轉 | [0] (-180 ~ 180) | (Set the rotation of the model in degrees.)
+|- 偏移X | [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the X-axis.)
+|- 偏移Z | [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the Z-axis.)
+|- 對齊 | **(0)**, (0.1), (0.2), (0.5), (1), (2),  | (Set the snapping increment for drag adjustments. Smaller values allow finer control.)
 | 預設 | **均勻實際大小**, 縮影, 巨型, 原版,  |  |
 
 
 ### **自然動態**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -73,6 +79,8 @@ sidebar:
 
 ### **故障排除**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 將身體旋轉應用於中心 | OFF | 將髖部和軀幹的旋轉應用於中心骨骼
@@ -95,6 +103,8 @@ sidebar:
 
 ### **水的互動**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 波紋 | OFF | 
@@ -116,6 +126,8 @@ sidebar:
 
 ### **可視化骨骼**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | (Enable Visualize Bones) | OFF | 
@@ -126,6 +138,8 @@ sidebar:
 
 
 ### **運動通過**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

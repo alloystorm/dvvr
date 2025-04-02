@@ -14,25 +14,25 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|- Mode | Color, Sky Map, **Procedural**,  | 
-|- Background | [1] (0 ~ 1) | Controls the brightness of the sky when it is renderred.
+|- Mode | Color, Sky Map, **Procedural**,  | Selects the sky rendering mode: Color, Sky Map, or Procedural.
+|- Background | [1] (0 ~ 1) | Controls the brightness of the sky when it is rendered.
 |- Sky Ambient | [1] (0 ~ 1) | Controls how much the sky affects ambient lighting.
 | Sky Map | **[Cloud]**, [Fantasy], [Day], [Studio],  |  |
-|- Orientation | [0] (0 ~ 360) | 
-|- Wind | [1] (0 ~ 4) | Global wind that affects cloth simulation, particle dynamics and cloud
-|- Wind Direction | [0] (0 ~ 360) | 
+|- Orientation | [0] (0 ~ 360) | Sets the rotation of the sky in degrees.
+|- Wind | [1] (0 ~ 4) | Global wind speed affecting cloth simulation, particle dynamics, and clouds.
+|- Wind Direction | [0] (0 ~ 360) | Sets the global wind direction in degrees.
 | Wind Field | OFF | 
-|**Position** | | 
+|**Position** | | Sets the position of the wind field.
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|**Rotation** | | 
+|**Rotation** | | Sets the rotation of the wind field.
 |- X | [0] (Unlimited) | 
 |- Y | [0] (Unlimited) | 
 |- Z | [0] (Unlimited) | 
-|- Distance | [5] (0 ~ 10) | 
-|- Radius | [1] (0 ~ 2) | 
-|- Speed | [1] (0 ~ 4) | 
+|- Distance | [5] (0 ~ 10) | Sets the distance of the wind field.
+|- Radius | [1] (0 ~ 2) | Sets the radius of the wind field.
+|- Speed | [1] (0 ~ 4) | Sets the speed of the wind field.
 | Sky Ambient || 
 |**Sky Color** | | 
 |- Color Mode | **RGB**, HSV,  | 
@@ -67,13 +67,13 @@ sidebar:
 | Use Stage Color | OFF | Use the color from the stage ring
 |- Color Temp | [6500] (3000 ~ 8000) | 
 | Presets | **White**, Sunset, Red, Yellow, Blue, Green,  |  |
-|**Cloud** | | 
-| Enable Cloud | ON | 
-|- Shape Scale | [1] (-1 ~ 2) | 
-|- Shape Factor | [0.8] (0 ~ 1) | 
-|- Erosion Scale | [2] (0 ~ 5) | 
-|- Erosion Factor | [0.8] (0 ~ 1) | 
-|- Density | [0.2] (0 ~ 1) | 
-| Shadow | OFF | 
-|- Wind Multiplier | [3] (0 ~ 4) | 
+|**Cloud** | | Configures volumetric clouds, including shape, erosion, density, and wind effects.
+| Enable Cloud | ON | Enables or disables volumetric clouds.
+|- Shape Scale | [1] (-1 ~ 2) | Controls the scale of the cloud shapes.
+|- Shape Factor | [0.8] (0 ~ 1) | Adjusts the shape factor of the clouds.
+|- Erosion Scale | [2] (0 ~ 5) | Controls the scale of cloud erosion.
+|- Erosion Factor | [0.8] (0 ~ 1) | Adjusts the erosion factor of the clouds.
+|- Density | [0.2] (0 ~ 1) | Sets the density multiplier for the clouds.
+| Shadow | OFF | Enables or disables cloud shadows.
+|- Wind Multiplier | [3] (0 ~ 4) | Sets the wind multiplier for cloud movement.
 | Presets | Skymap, Procedural, Indoor, **Thin Cloud**, Cloudy,  |  |

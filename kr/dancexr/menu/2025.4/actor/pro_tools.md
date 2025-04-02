@@ -30,24 +30,26 @@ sidebar:
 
 ### **발 조정**
 
+(Adjusts the feet's position and rotation to match the ground level, simulating realistic foot contact with the floor. Supports features like high heels, toe bending, and virtual shoe visualization.)
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|- 지면 오프셋 | [0] (-0.2 ~ 0.2) | 
+|- 지면 오프셋 | [0] (-0.2 ~ 0.2) | (Adjusts the vertical offset of the ground level.)
 | 바닥에 발 | OFF | 
-|- 발바닥 높이 | [0.03] (-0.1 ~ 0.1) | 발가락 뼈까지의 바닥에서 원하는 거리입니다.
-|- 들기 | [1] (0 ~ 1) | 지면 접촉을 해결할 때 전체 몸을 들어올리기.
-|- 접촉 변형 발가락 | [0.5] (0 ~ 1) | 발가락이 지면 아래에 있을 때 발가락 굽힘의 양.
-|- 접촉 회전 | [0.2] (0.1 ~ 0.3) | 
+|- 발바닥 높이 | [0.03] (-0.1 ~ 0.1) | (The desired distance from the ground to the toe bone.)
+|- 들기 | [1] (0 ~ 1) | (Controls the amount of body lift when solving ground contact.)
+|- 접촉 변형 발가락 | [0.5] (0 ~ 1) | (Determines the degree of toe bending when the toe is below the ground.)
+|- 접촉 회전 | [0.2] (0.1 ~ 0.3) | (Defines the rotational inertia for contact adjustments.)
 | 가상의 신발 | OFF | 
-|- 내부 | [0.04] (0 ~ 0.1) | 
-|- 외부 | [0.06] (0 ~ 0.1) | 
-|- 앞면 | [0.075] (0 ~ 0.1) | 
-|- 뒷면 | [0.05] (0 ~ 0.1) | 
-|- 신발 거리 | [0.02] (0 ~ 0.1) | 
-|- 굽 꼭대기 | [0] (-0.1 ~ 0.1) | 
-| 모드 | **와이어프레임**, 불투명, 크롬, 단단한 유리, 얇은 유리,  |  |
-|- 부드러움 | [1] (0 ~ 1) | 
-|**색상** | | 
+|- 내부 | [0.04] (0 ~ 0.1) | (Sets the inward offset for virtual shoe visualization.)
+|- 외부 | [0.06] (0 ~ 0.1) | (Sets the outward offset for virtual shoe visualization.)
+|- 앞면 | [0.075] (0 ~ 0.1) | (Sets the front offset for virtual shoe visualization.)
+|- 뒷면 | [0.05] (0 ~ 0.1) | (Sets the back offset for virtual shoe visualization.)
+|- 신발 거리 | [0.02] (0 ~ 0.1) | (Defines the distance between the virtual shoe and the foot.)
+|- 굽 꼭대기 | [0] (-0.1 ~ 0.1) | (Adjusts the height of the virtual shoe's heel top.)
+| 모드 | **와이어프레임**, 불투명, 크롬, 단단한 유리, 얇은 유리,  | (Selects the visualization mode for virtual shoes.) |
+|- 부드러움 | [1] (0 ~ 1) | (Controls the smoothness of the virtual shoe material.)
+|**색상** | | Sets the color of the virtual shoe material.
 |- 색상 모드 | **(RGB)**, (HSV),  | 
 |- 색조 | [0] (0 ~ 1) | 
 |- 채도 | [0] (0 ~ 1) | 
@@ -56,21 +58,23 @@ sidebar:
 |- 초록색 | [1] (0 ~ 1) | 
 |- 파란색 | [1] (0 ~ 1) | 
 | 굽 || 
-|- 하이힐 | [0] (0 ~ 1) | 
-| 제한 각도 | OFF | 
-|- 하이힐 발가락 굽힘 | [0.35] (0 ~ 1) | 발꿈치로 서 있을 때 발가락 굽힘의 양.
-|- 하이힐 블렌드 | [0] (0 ~ 1) | 하이힐 포즈를 애니메이션과 블렌드하여 부자연스러운 극단적인 포즈를 피합니다.
+|- 하이힐 | [0] (0 ~ 1) | (Adjusts the height of the high heel pose.)
+| 제한 각도 | OFF | (Limits the maximum angle for tiptoe rotation.)
+|- 하이힐 발가락 굽힘 | [0.35] (0 ~ 1) | (Controls the amount of toe bending when tiptoeing.)
+|- 하이힐 블렌드 | [0] (0 ~ 1) | (Blends the high heel pose with animation to avoid extreme poses.)
 | (Reduce Sliding) | OFF | 
-|- 차이 임계값 | [0] (0 ~ 0.2) | 미끄러짐을 줄이기 위해 접촉 지점에 마찰을 적용하되, 동작의 정확성에 영향을 미칠 수 있습니다.
-|- 감쇠 | [0.75] (0 ~ 1) | 미끄러짐을 줄이기 위해 접촉 지점에 마찰을 적용하되, 동작의 정확성에 영향을 미칠 수 있습니다.
+|- 차이 임계값 | [0] (0 ~ 0.2) | (Defines the distance threshold for applying friction to reduce sliding.)
+|- 감쇠 | [0.75] (0 ~ 1) | (Controls the damping factor for friction applied to reduce sliding.)
 |**발 각도** | | 
-|- X 축 회전 | [0] (-90 ~ 90) | 
-|- Y 축 회전 | [0] (-45 ~ 45) | 
-|- Z 축 회전 | [0] (-45 ~ 45) | 
+|- X 축 회전 | [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
+|- Y 축 회전 | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
+|- Z 축 회전 | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
 | 프리셋 | **끄기**, 바닥에, 하이힐, 최대 굽,  |  |
 
 
 ### **의상 & 바디페인트**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -237,6 +241,8 @@ sidebar:
 
 ### **메시를 옷으로**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 하나로 결합 | OFF | 
@@ -293,6 +299,8 @@ sidebar:
 
 
 ### **시뮬레이션**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -958,6 +966,8 @@ sidebar:
 
 ### **액세서리**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**폴** | | 
@@ -1540,6 +1550,8 @@ sidebar:
 
 ### **(Attach To Actor)**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | (Enable Attach To Actor) | OFF | 
@@ -1559,6 +1571,8 @@ sidebar:
 
 
 ### **모션 오버라이드**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -1749,6 +1763,8 @@ sidebar:
 
 ### **유방 흔들림 오버레이**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | (Enable Shake Boobs Overlay) | OFF | 
@@ -1760,6 +1776,8 @@ sidebar:
 
 
 ### **성별 오버레이**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -1784,6 +1802,8 @@ sidebar:
 
 
 ### **딜도**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -1872,6 +1892,8 @@ sidebar:
 
 ### **빛 공**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | (Enable Light Ball) | OFF | 
@@ -1914,6 +1936,8 @@ sidebar:
 
 
 ### **본 구조 내보내기**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

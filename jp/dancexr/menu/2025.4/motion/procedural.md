@@ -54,6 +54,8 @@ sidebar:
 
 ### **[キャットウォーク]**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | すべてに割り当て || 
@@ -178,6 +180,8 @@ sidebar:
 
 ### **([Biped])**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | すべてに割り当て || 
@@ -203,6 +207,8 @@ sidebar:
 
 
 ### **([Motion Builder])**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -248,6 +254,8 @@ sidebar:
 
 ### **[ゼロ]**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | すべてに割り当て || 
@@ -266,6 +274,8 @@ sidebar:
 
 
 ### **[オートダンス 1]**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -385,6 +395,8 @@ sidebar:
 
 ### **[オートダンス 2]**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | すべてに割り当て || 
@@ -407,6 +419,8 @@ sidebar:
 
 
 ### **[カウガールセックス]**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -436,6 +450,8 @@ sidebar:
 
 
 ### **[後背位セックス]**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -468,6 +484,8 @@ sidebar:
 
 ### **[フリーフライカメラ]**
 
+(Provides a free-fly camera mode where the user has full control over camera movement and rotation. The camera can move forward, backward, up, down, and rotate or tilt based on user input. Additional options include orbit movement and vertical movement restriction.)
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | メインに割り当て || 
@@ -484,11 +502,13 @@ sidebar:
 |- 縦オフセット | [0] (-1 ~ 1) | 縦にオフセット
 |- FOV | [30] (5 ~ 120) | 
 |- ビートサイクル | [8] (1 ~ 16) | 
-| オービット移動を使用 | OFF | 
+| オービット移動を使用 | OFF | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
 | プリセット | **(Freefly)**, (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |  |
 
 
 ### **[オービットカム]**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -520,6 +540,8 @@ sidebar:
 
 ### **[オートカム]**
 
+(Automatic camera motion system that dynamically adjusts based on music beats, actor orientation, and configurable parameters for distance, target selection, and motion paths.)
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | メインに割り当て || 
@@ -529,38 +551,40 @@ sidebar:
 |- 予測 | [1] (0 ~ 2) | スムージングによる遅延を減少させるため、ターゲットの位置を予測
 |- FOV | [30] (5 ~ 120) | 
 |- ビートサイクル | [8] (1 ~ 16) | 
-|- 近距離 | [1.5] (0.5 ~ 3) | 
-|- 遠距離 | [2.5] (0.5 ~ 3) | 
-| アクターの向きを使用 | ON | 
-|- シード | [1234] ((Unlimited)) | 
-|- フェード・トゥ・ブラック | [0] (0 ~ 0.25) | 
-|- F2B 確率 | [0.5] (0 ~ 1) | 
-|- オーディオ感度 | [1] (0 ~ 4) | 
+|- 近距離 | [1.5] (0.5 ~ 3) | (Minimum distance of the camera from the target.)
+|- 遠距離 | [2.5] (0.5 ~ 3) | (Maximum distance of the camera from the target.)
+| アクターの向きを使用 | ON | (Enable or disable alignment of the camera to the actor's orientation.)
+|- シード | [1234] ((Unlimited)) | (Seed value for generating random camera motions.)
+|- フェード・トゥ・ブラック | [0] (0 ~ 0.25) | (Duration of the fade-to-black effect during transitions.)
+|- F2B 確率 | [0.5] (0 ~ 1) | (Probability of triggering the fade-to-black effect.)
+|- オーディオ感度 | [1] (0 ~ 4) | (Sensitivity of the camera motion to audio levels.)
 | ターゲット選択 || 
-|- 頭 | [1] (0 ~ 1) | 
-|- 胸 | [1] (0 ~ 1) | 
-|- センター | [1] (0 ~ 1) | 
-|- 脚 | [0.5] (0 ~ 1) | 
-|- 足 | [0] (0 ~ 1) | 
+|- 頭 | [1] (0 ~ 1) | (Probability of targeting the actor's head.)
+|- 胸 | [1] (0 ~ 1) | (Probability of targeting the actor's chest.)
+|- センター | [1] (0 ~ 1) | (Probability of targeting the actor's center.)
+|- 脚 | [0.5] (0 ~ 1) | (Probability of targeting the actor's legs.)
+|- 足 | [0] (0 ~ 1) | (Probability of targeting the actor's feet.)
 | 距離選択 || 
-|- クローズアップ | [1] (0 ~ 1) | 
-|- ズームイン | [0.25] (0 ~ 1) | 
-|- ズームアウト | [0.25] (0 ~ 1) | 
-|- 中間 | [0.25] (0 ~ 1) | 
-|- 遠方 | [0.25] (0 ~ 1) | 
+|- クローズアップ | [1] (0 ~ 1) | (Probability of a close-up camera distance.)
+|- ズームイン | [0.25] (0 ~ 1) | (Probability of zooming in.)
+|- ズームアウト | [0.25] (0 ~ 1) | (Probability of zooming out.)
+|- 中間 | [0.25] (0 ~ 1) | (Probability of a middle-range camera distance.)
+|- 遠方 | [0.25] (0 ~ 1) | (Probability of a far camera distance.)
 | パス選択 || 
-|- 高角度 | [20] (0 ~ 30) | 
-|- 低角度 | [-20] (-30 ~ 0) | 
+|- 高角度 | [20] (0 ~ 30) | (Maximum upward angle for the camera.)
+|- 低角度 | [-20] (-30 ~ 0) | (Maximum downward angle for the camera.)
 | オリエンテーション || 
-|- 前方中央 | [1] (0 ~ 1) | 
-|- 前方 45 | [0] (0 ~ 1) | 
-|- 横 90 | [0.25] (0 ~ 1) | 
-|- 後方 135 | [0] (0 ~ 1) | 
-|- 後方 180 | [0.25] (0 ~ 1) | 
+|- 前方中央 | [1] (0 ~ 1) | (Probability of orienting the camera to the front center of the actor.)
+|- 前方 45 | [0] (0 ~ 1) | (Probability of orienting the camera to a 45-degree angle in front of the actor.)
+|- 横 90 | [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
+|- 後方 135 | [0] (0 ~ 1) | (Probability of orienting the camera to a 135-degree angle behind the actor.)
+|- 後方 180 | [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
 | プリセット | **デフォルト（リセット）**, (Preset 1),  |  |
 
 
 ### **[長回し]**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -583,6 +607,8 @@ sidebar:
 
 ### **[第一人称]**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | メインに割り当て || 
@@ -599,6 +625,8 @@ sidebar:
 
 
 ### **[固定カメラ]**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

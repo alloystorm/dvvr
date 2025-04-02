@@ -21,6 +21,8 @@ sidebar:
 
 ### **DanceXR Logo**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Enable DanceXR Logo | ON | 
@@ -143,6 +145,8 @@ sidebar:
 
 ### **Beats Visualizer**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Enable Beats Visualizer | ON | 
@@ -177,6 +181,8 @@ sidebar:
 
 
 ### **Laser**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

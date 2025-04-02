@@ -21,6 +21,8 @@ sidebar:
 
 ### **DanceXR 商標**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | (Enable DanceXR Logo) | ON | 
@@ -143,6 +145,8 @@ sidebar:
 
 ### **節拍視覺化**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | (Enable Beats Visualizer) | ON | 
@@ -177,6 +181,8 @@ sidebar:
 
 
 ### **激光**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

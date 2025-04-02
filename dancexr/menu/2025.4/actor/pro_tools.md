@@ -30,24 +30,26 @@ sidebar:
 
 ### **Feet Adjustment**
 
+Adjusts the feet's position and rotation to match the ground level, simulating realistic foot contact with the floor. Supports features like high heels, toe bending, and virtual shoe visualization.
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|- Ground Offset | [0] (-0.2 ~ 0.2) | 
+|- Ground Offset | [0] (-0.2 ~ 0.2) | Adjusts the vertical offset of the ground level.
 | Feet On Floor | OFF | 
-|- Sole Height | [0.03] (-0.1 ~ 0.1) | The desired distance from ground to the toe bone.
-|- Lift | [1] (0 ~ 1) | Lifting entire body when solving ground contact.
-|- Contact Bend Toe | [0.5] (0 ~ 1) | The amount of toe bending when the toe is below the ground.
-|- Contact Rotation | [0.2] (0.1 ~ 0.3) | 
+|- Sole Height | [0.03] (-0.1 ~ 0.1) | The desired distance from the ground to the toe bone.
+|- Lift | [1] (0 ~ 1) | Controls the amount of body lift when solving ground contact.
+|- Contact Bend Toe | [0.5] (0 ~ 1) | Determines the degree of toe bending when the toe is below the ground.
+|- Contact Rotation | [0.2] (0.1 ~ 0.3) | Defines the rotational inertia for contact adjustments.
 | Virtual Shoes | OFF | 
-|- Inner | [0.04] (0 ~ 0.1) | 
-|- Outer | [0.06] (0 ~ 0.1) | 
-|- Front | [0.075] (0 ~ 0.1) | 
-|- Back | [0.05] (0 ~ 0.1) | 
-|- Shoe Distance | [0.02] (0 ~ 0.1) | 
-|- Heel Top | [0] (-0.1 ~ 0.1) | 
-| Mode | **Wireframe**, Opaque, Chrome, Solid Glass, Thin Glass,  |  |
-|- Smoothness | [1] (0 ~ 1) | 
-|**Color** | | 
+|- Inner | [0.04] (0 ~ 0.1) | Sets the inward offset for virtual shoe visualization.
+|- Outer | [0.06] (0 ~ 0.1) | Sets the outward offset for virtual shoe visualization.
+|- Front | [0.075] (0 ~ 0.1) | Sets the front offset for virtual shoe visualization.
+|- Back | [0.05] (0 ~ 0.1) | Sets the back offset for virtual shoe visualization.
+|- Shoe Distance | [0.02] (0 ~ 0.1) | Defines the distance between the virtual shoe and the foot.
+|- Heel Top | [0] (-0.1 ~ 0.1) | Adjusts the height of the virtual shoe's heel top.
+| Mode | **Wireframe**, Opaque, Chrome, Solid Glass, Thin Glass,  | Selects the visualization mode for virtual shoes. |
+|- Smoothness | [1] (0 ~ 1) | Controls the smoothness of the virtual shoe material.
+|**Color** | | Sets the color of the virtual shoe material.
 |- Color Mode | **RGB**, HSV,  | 
 |- Hue | [0] (0 ~ 1) | 
 |- Satuation | [0] (0 ~ 1) | 
@@ -56,21 +58,23 @@ sidebar:
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
 | Heels || 
-|- High Heels | [0] (0 ~ 1) | 
-| Limit Angle | OFF | 
-|- High Heel Toe Bend | [0.35] (0 ~ 1) | The amount of toe bending when tiptoeing.
-|- High Heel Blend | [0] (0 ~ 1) | Blend high heel pose with animation, avoids unnatural extreme pose.
+|- High Heels | [0] (0 ~ 1) | Adjusts the height of the high heel pose.
+| Limit Angle | OFF | Limits the maximum angle for tiptoe rotation.
+|- High Heel Toe Bend | [0.35] (0 ~ 1) | Controls the amount of toe bending when tiptoeing.
+|- High Heel Blend | [0] (0 ~ 1) | Blends the high heel pose with animation to avoid extreme poses.
 | Reduce Sliding | OFF | 
-|- Dist Threshold | [0] (0 ~ 0.2) | Apply friction on contact points to reduce sliding, but may affect motion correctness.
-|- Damping | [0.75] (0 ~ 1) | Apply friction on contact points to reduce sliding, but may affect motion correctness.
+|- Dist Threshold | [0] (0 ~ 0.2) | Defines the distance threshold for applying friction to reduce sliding.
+|- Damping | [0.75] (0 ~ 1) | Controls the damping factor for friction applied to reduce sliding.
 |**Foot Angle** | | 
-|- Rotate X | [0] (-90 ~ 90) | 
-|- Rotate Y | [0] (-45 ~ 45) | 
-|- Rotate Z | [0] (-45 ~ 45) | 
+|- Rotate X | [0] (-90 ~ 90) | Adjusts the rotation of the foot around the X-axis.
+|- Rotate Y | [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Y-axis.
+|- Rotate Z | [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Z-axis.
 | Presets | **Off**, On Floor, High Heels, Max Heels,  |  |
 
 
 ### **Outfit & Bodypaint**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -237,6 +241,8 @@ sidebar:
 
 ### **Mesh To Cloth**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Combine As One | OFF | 
@@ -293,6 +299,8 @@ sidebar:
 
 
 ### **Simulation**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -958,6 +966,8 @@ sidebar:
 
 ### **Accessory**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |**Pole** | | 
@@ -1540,6 +1550,8 @@ sidebar:
 
 ### **Attach To Actor**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Enable Attach To Actor | OFF | 
@@ -1559,6 +1571,8 @@ sidebar:
 
 
 ### **Motion Override**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -1749,6 +1763,8 @@ sidebar:
 
 ### **Shake Boobs Overlay**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Enable Shake Boobs Overlay | OFF | 
@@ -1760,6 +1776,8 @@ sidebar:
 
 
 ### **Sex Overlay**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -1784,6 +1802,8 @@ sidebar:
 
 
 ### **Dildo**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -1872,6 +1892,8 @@ sidebar:
 
 ### **Light Ball**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Enable Light Ball | OFF | 
@@ -1914,6 +1936,8 @@ sidebar:
 
 
 ### **Export Bone Structure**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

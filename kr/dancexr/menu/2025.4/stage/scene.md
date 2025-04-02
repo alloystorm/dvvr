@@ -21,6 +21,8 @@ sidebar:
 
 ### **DanceXR 로고**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | (Enable DanceXR Logo) | ON | 
@@ -143,6 +145,8 @@ sidebar:
 
 ### **비트 시각화**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | (Enable Beats Visualizer) | ON | 
@@ -177,6 +181,8 @@ sidebar:
 
 
 ### **레이저**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

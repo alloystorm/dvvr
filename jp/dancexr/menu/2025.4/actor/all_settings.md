@@ -25,6 +25,8 @@ sidebar:
 
 ### **フェイシャルコントロール**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 口 || 
@@ -35,19 +37,23 @@ sidebar:
 
 ### **スケールとオフセット**
 
+(Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments.)
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|- モデルスケール | [0] (-3 ~ 3) | 
-|- 地面オフセット | [0] (-2 ~ 2) | 
-| 均一な高さ | ON | デフォルトスケールを平均的な人間のサイズに設定
-|- 回転 | [0] (-180 ~ 180) | 
-|- オフセットX | [0] (-5 ~ 5) | 
-|- オフセットZ | [0] (-5 ~ 5) | 
-|- スナッピング | **(0)**, (0.1), (0.2), (0.5), (1), (2),  | 
+|- モデルスケール | [0] (-3 ~ 3) | (Adjust the overall scale of the model. Values are exponential for finer control.)
+|- 地面オフセット | [0] (-2 ~ 2) | (Set the vertical offset of the model relative to the ground.)
+| 均一な高さ | ON | (Enable to scale the model to an average human height.)
+|- 回転 | [0] (-180 ~ 180) | (Set the rotation of the model in degrees.)
+|- オフセットX | [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the X-axis.)
+|- オフセットZ | [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the Z-axis.)
+|- スナッピング | **(0)**, (0.1), (0.2), (0.5), (1), (2),  | (Set the snapping increment for drag adjustments. Smaller values allow finer control.)
 | プリセット | **均一な実寸大**, ミニチュア, 巨人, オリジナル,  |  |
 
 
 ### **リアルな動き**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -73,6 +79,8 @@ sidebar:
 
 ### **トラブルシューティング**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 体の回転をセンターボーンに適用 | OFF | 腰と胴の回転をセンターボーンに適用
@@ -95,6 +103,8 @@ sidebar:
 
 ### **水の相互作用**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | リップル | OFF | 
@@ -116,6 +126,8 @@ sidebar:
 
 ### **ボーンの可視化**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | (Enable Visualize Bones) | OFF | 
@@ -126,6 +138,8 @@ sidebar:
 
 
 ### **モーションパス**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

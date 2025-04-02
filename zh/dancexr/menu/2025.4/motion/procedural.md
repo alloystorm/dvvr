@@ -54,6 +54,8 @@ sidebar:
 
 ### **[走台]**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 分配给所有 || 
@@ -178,6 +180,8 @@ sidebar:
 
 ### **([Biped])**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 分配给所有 || 
@@ -203,6 +207,8 @@ sidebar:
 
 
 ### **([Motion Builder])**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -248,6 +254,8 @@ sidebar:
 
 ### **[零]**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 分配给所有 || 
@@ -266,6 +274,8 @@ sidebar:
 
 
 ### **[自动舞蹈 1]**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -385,6 +395,8 @@ sidebar:
 
 ### **[自动舞蹈 2]**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 分配给所有 || 
@@ -407,6 +419,8 @@ sidebar:
 
 
 ### **[骑乘位性爱]**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -436,6 +450,8 @@ sidebar:
 
 
 ### **[从后方性爱]**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -468,6 +484,8 @@ sidebar:
 
 ### **[自由飞行相机]**
 
+(Provides a free-fly camera mode where the user has full control over camera movement and rotation. The camera can move forward, backward, up, down, and rotate or tilt based on user input. Additional options include orbit movement and vertical movement restriction.)
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 分配给主对象 || 
@@ -484,11 +502,13 @@ sidebar:
 |- 垂直偏移 | [0] (-1 ~ 1) | 垂直偏移
 |- 视场 | [30] (5 ~ 120) | 
 |- 节拍循环 | [8] (1 ~ 16) | 
-| 使用轨道移动 | OFF | 
+| 使用轨道移动 | OFF | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
 | 预设 | **(Freefly)**, (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |  |
 
 
 ### **[轨道摄像机]**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -520,6 +540,8 @@ sidebar:
 
 ### **[自动摄像机]**
 
+(Automatic camera motion system that dynamically adjusts based on music beats, actor orientation, and configurable parameters for distance, target selection, and motion paths.)
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 分配给主对象 || 
@@ -529,38 +551,40 @@ sidebar:
 |- 预测 | [1] (0 ~ 2) | 预测目标的位置以减少平滑造成的延迟
 |- 视场 | [30] (5 ~ 120) | 
 |- 节拍循环 | [8] (1 ~ 16) | 
-|- 近距离 | [1.5] (0.5 ~ 3) | 
-|- 远距离 | [2.5] (0.5 ~ 3) | 
-| 使用角色朝向 | ON | 
-|- 种子 | [1234] ((Unlimited)) | 
-|- 淡入黑色 | [0] (0 ~ 0.25) | 
-|- 淡入概率 | [0.5] (0 ~ 1) | 
-|- 音频灵敏度 | [1] (0 ~ 4) | 
+|- 近距离 | [1.5] (0.5 ~ 3) | (Minimum distance of the camera from the target.)
+|- 远距离 | [2.5] (0.5 ~ 3) | (Maximum distance of the camera from the target.)
+| 使用角色朝向 | ON | (Enable or disable alignment of the camera to the actor's orientation.)
+|- 种子 | [1234] ((Unlimited)) | (Seed value for generating random camera motions.)
+|- 淡入黑色 | [0] (0 ~ 0.25) | (Duration of the fade-to-black effect during transitions.)
+|- 淡入概率 | [0.5] (0 ~ 1) | (Probability of triggering the fade-to-black effect.)
+|- 音频灵敏度 | [1] (0 ~ 4) | (Sensitivity of the camera motion to audio levels.)
 | 目标选择 || 
-|- 头部 | [1] (0 ~ 1) | 
-|- 胸部 | [1] (0 ~ 1) | 
-|- 中心 | [1] (0 ~ 1) | 
-|- 腿 | [0.5] (0 ~ 1) | 
-|- 脚 | [0] (0 ~ 1) | 
+|- 头部 | [1] (0 ~ 1) | (Probability of targeting the actor's head.)
+|- 胸部 | [1] (0 ~ 1) | (Probability of targeting the actor's chest.)
+|- 中心 | [1] (0 ~ 1) | (Probability of targeting the actor's center.)
+|- 腿 | [0.5] (0 ~ 1) | (Probability of targeting the actor's legs.)
+|- 脚 | [0] (0 ~ 1) | (Probability of targeting the actor's feet.)
 | 距离选择 || 
-|- 特写 | [1] (0 ~ 1) | 
-|- 放大 | [0.25] (0 ~ 1) | 
-|- 缩小 | [0.25] (0 ~ 1) | 
-|- 中间 | [0.25] (0 ~ 1) | 
-|- 远 | [0.25] (0 ~ 1) | 
+|- 特写 | [1] (0 ~ 1) | (Probability of a close-up camera distance.)
+|- 放大 | [0.25] (0 ~ 1) | (Probability of zooming in.)
+|- 缩小 | [0.25] (0 ~ 1) | (Probability of zooming out.)
+|- 中间 | [0.25] (0 ~ 1) | (Probability of a middle-range camera distance.)
+|- 远 | [0.25] (0 ~ 1) | (Probability of a far camera distance.)
 | 路径选择 || 
-|- 高角度 | [20] (0 ~ 30) | 
-|- 低角度 | [-20] (-30 ~ 0) | 
+|- 高角度 | [20] (0 ~ 30) | (Maximum upward angle for the camera.)
+|- 低角度 | [-20] (-30 ~ 0) | (Maximum downward angle for the camera.)
 | 方向 || 
-|- 前中央 | [1] (0 ~ 1) | 
-|- 前45度 | [0] (0 ~ 1) | 
-|- 侧面90度 | [0.25] (0 ~ 1) | 
-|- 后135度 | [0] (0 ~ 1) | 
-|- 后180度 | [0.25] (0 ~ 1) | 
+|- 前中央 | [1] (0 ~ 1) | (Probability of orienting the camera to the front center of the actor.)
+|- 前45度 | [0] (0 ~ 1) | (Probability of orienting the camera to a 45-degree angle in front of the actor.)
+|- 侧面90度 | [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
+|- 后135度 | [0] (0 ~ 1) | (Probability of orienting the camera to a 135-degree angle behind the actor.)
+|- 后180度 | [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
 | 预设 | **默认（重置）**, (Preset 1),  |  |
 
 
 ### **[长镜头]**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
@@ -583,6 +607,8 @@ sidebar:
 
 ### **[第一人称]**
 
+
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 分配给主对象 || 
@@ -599,6 +625,8 @@ sidebar:
 
 
 ### **[固定摄影机]**
+
+
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
