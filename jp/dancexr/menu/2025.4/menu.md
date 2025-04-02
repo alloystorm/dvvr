@@ -11,11 +11,11 @@ sidebar:
 
 # Menu catalogue for DanceXR 2025.4
 
-Generated on 2025-04-02 22:07:22
+Generated on 2025-04-02 22:27:16
 
 | | |
 | :--- | :--- |
-| ###**(DanceXR Pro RT 2025.4.1543)** |  |
+| **(DanceXR Pro RT 2025.4.1543)** |  |
 | [リモートアクセス](system/remote_access) |  | 
 | [コンテンツライブラリ](system/library) |  | 
 | [コントローラー入力](system/input_settings) |  | 
@@ -25,7 +25,7 @@ Generated on 2025-04-02 22:07:22
 | [アプリケーション設定](system/application_settings) |  | 
 | [終了](system/exit) |  | 
 | | |
-| ###**環境** |  |
+| **環境** |  |
 | [空](scene/sky) |  | 
 | [地面](scene/ground) |  | 
 | [パーティクルエフェクト](scene/particles) |  | 
@@ -34,20 +34,20 @@ Generated on 2025-04-02 22:07:22
 | [アニメーション値](scene/auto_updates) |  | 
 | [システムプリセット](scene/system_presets) | (Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.) | 
 | | |
-| ###**シーン** |  |
+| **シーン** |  |
 | [オプション](stage/scene) |  | 
 | | |
-| ###**オーディオ / モーション** |  |
+| **オーディオ / モーション** |  |
 | [プロシージャル](motion/procedural) |  | 
 | [再生オプション](motion/motion_loader) |  | 
 | [ビデオプレーヤー](motion/video_player) |  | 
 | | |
-| ###**アクター** |  |
+| **アクター** |  |
 | [フォーメーション](actors/formation) |  | 
 | [グローバルアクターコントロール](actors/global_actor_control) |  | 
 | [ローダーオプション](actors/loader_options) |  | 
 | | |
-| ###**チャット設定** |  |
+| **チャット設定** |  |
 | [(Enable Chat Settings)](chat/enabled) |  | 
 | [AIサービス](chat/ai_service) |  | 
 | [チャット設定](chat/chat_settings) |  | 
@@ -59,7 +59,7 @@ Generated on 2025-04-02 22:07:22
 | [履歴を保存する](chat/save_history) |  | 
 | [履歴をクリアする](chat/clear_history) |  | 
 | | |
-| ###**アクター** |  |
+| **アクター** |  |
 | モーションを割り当て | |
 | [モーション設定](actor/actor_motion) |  | 
 | 最近変更された | |
@@ -73,5 +73,29 @@ Generated on 2025-04-02 22:07:22
 | [プロ版](actor/pro_tools) |  | 
 | [物理](actor/model_physics) |  | 
 | [プリセット](actor/actor_presets) |  | 
+| | |
+| **(Prop)** |  |
+| モーションを割り当て | |
+| 最近変更された | |
+| [自動リセット](prop/auto_reset) |  | 
+| [ボディコライダー](prop/body_colliders) |  | 
+| [ぶら下がり物理](prop/cloth_physics) |  | 
+| [オブジェクトを切り離す](prop/detach_object) |  | 
+| [マテリアル](prop/materials) |  | 
+| [設定](prop/settings) |  | 
+| [物理](prop/model_physics) |  | 
+| [プリセット](prop/actor_presets) |  | 
+| | |
+| **ステージ** |  |
+| モーションを割り当て | |
+| 最近変更された | |
+| [自動リセット](stage/auto_reset) |  | 
+| [ボディコライダー](stage/body_colliders) |  | 
+| [ぶら下がり物理](stage/cloth_physics) |  | 
+| [オブジェクトを切り離す](stage/detach_object) |  | 
+| [マテリアル](stage/materials) |  | 
+| [オフセット](stage/offset) |  | 
+| [物理](stage/model_physics) |  | 
+| [プリセット](stage/actor_presets) |  | 
 | | |
 

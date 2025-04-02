@@ -11,11 +11,11 @@ sidebar:
 
 # Menu catalogue for DanceXR 2025.4
 
-Generated on 2025-04-02 22:07:22
+Generated on 2025-04-02 22:27:17
 
 | | |
 | :--- | :--- |
-| ###**(DanceXR Pro RT 2025.4.1543)** |  |
+| **(DanceXR Pro RT 2025.4.1543)** |  |
 | [원격 액세스](system/remote_access) |  | 
 | [콘텐츠 라이브러리](system/library) |  | 
 | [컨트롤러 입력](system/input_settings) |  | 
@@ -25,7 +25,7 @@ Generated on 2025-04-02 22:07:22
 | [응용 프로그램 설정](system/application_settings) |  | 
 | [종료](system/exit) |  | 
 | | |
-| ###**환경** |  |
+| **환경** |  |
 | [하늘](scene/sky) |  | 
 | [바닥](scene/ground) |  | 
 | [파티클 이펙트](scene/particles) |  | 
@@ -34,20 +34,20 @@ Generated on 2025-04-02 22:07:22
 | [애니메이션 값](scene/auto_updates) |  | 
 | [시스템 프리셋](scene/system_presets) | (Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.) | 
 | | |
-| ###**씬** |  |
+| **씬** |  |
 | [옵션](stage/scene) |  | 
 | | |
-| ###**오디오 / 모션** |  |
+| **오디오 / 모션** |  |
 | [프로시저](motion/procedural) |  | 
 | [재생 옵션](motion/motion_loader) |  | 
 | [비디오 플레이어](motion/video_player) |  | 
 | | |
-| ###**배우들** |  |
+| **배우들** |  |
 | [편성](actors/formation) |  | 
 | [전역 액터 제어](actors/global_actor_control) |  | 
 | [로더 옵션](actors/loader_options) |  | 
 | | |
-| ###**채팅 설정** |  |
+| **채팅 설정** |  |
 | [(Enable Chat Settings)](chat/enabled) |  | 
 | [AI 서비스](chat/ai_service) |  | 
 | [채팅 설정](chat/chat_settings) |  | 
@@ -59,7 +59,7 @@ Generated on 2025-04-02 22:07:22
 | [기록 저장](chat/save_history) |  | 
 | [기록 지우기](chat/clear_history) |  | 
 | | |
-| ###**액터** |  |
+| **액터** |  |
 | 모션 할당 | |
 | [모션 설정](actor/actor_motion) |  | 
 | 최근 수정됨 | |
@@ -73,5 +73,29 @@ Generated on 2025-04-02 22:07:22
 | [프로](actor/pro_tools) |  | 
 | [물리](actor/model_physics) |  | 
 | [프리셋](actor/actor_presets) |  | 
+| | |
+| **(Prop)** |  |
+| 모션 할당 | |
+| 최근 수정됨 | |
+| [자동 재설정](prop/auto_reset) |  | 
+| [신체 콜라이더](prop/body_colliders) |  | 
+| [드리블 물리](prop/cloth_physics) |  | 
+| [객체 분리](prop/detach_object) |  | 
+| [재료](prop/materials) |  | 
+| [설정](prop/settings) |  | 
+| [물리](prop/model_physics) |  | 
+| [프리셋](prop/actor_presets) |  | 
+| | |
+| **무대** |  |
+| 모션 할당 | |
+| 최근 수정됨 | |
+| [자동 재설정](stage/auto_reset) |  | 
+| [신체 콜라이더](stage/body_colliders) |  | 
+| [드리블 물리](stage/cloth_physics) |  | 
+| [객체 분리](stage/detach_object) |  | 
+| [재료](stage/materials) |  | 
+| [오프셋](stage/offset) |  | 
+| [물리](stage/model_physics) |  | 
+| [프리셋](stage/actor_presets) |  | 
 | | |
 

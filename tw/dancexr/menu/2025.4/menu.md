@@ -11,11 +11,11 @@ sidebar:
 
 # Menu catalogue for DanceXR 2025.4
 
-Generated on 2025-04-02 22:07:22
+Generated on 2025-04-02 22:27:16
 
 | | |
 | :--- | :--- |
-| ###**(DanceXR Pro RT 2025.4.1543)** |  |
+| **(DanceXR Pro RT 2025.4.1543)** |  |
 | [遠端訪問](system/remote_access) |  | 
 | [內容庫](system/library) |  | 
 | [控制器輸入](system/input_settings) |  | 
@@ -25,7 +25,7 @@ Generated on 2025-04-02 22:07:22
 | [應用設置](system/application_settings) |  | 
 | [退出](system/exit) |  | 
 | | |
-| ###**環境** |  |
+| **環境** |  |
 | [天空](scene/sky) |  | 
 | [地面](scene/ground) |  | 
 | [粒子效果](scene/particles) |  | 
@@ -34,20 +34,20 @@ Generated on 2025-04-02 22:07:22
 | [動畫值](scene/auto_updates) |  | 
 | [系統預設](scene/system_presets) | (Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.) | 
 | | |
-| ###**場景** |  |
+| **場景** |  |
 | [選項](stage/scene) |  | 
 | | |
-| ###**音頻 / 動作** |  |
+| **音頻 / 動作** |  |
 | [程序化](motion/procedural) |  | 
 | [播放選項](motion/motion_loader) |  | 
 | [影片播放器](motion/video_player) |  | 
 | | |
-| ###**演員** |  |
+| **演員** |  |
 | [隊形](actors/formation) |  | 
 | [全局演員控制](actors/global_actor_control) |  | 
 | [加載選項](actors/loader_options) |  | 
 | | |
-| ###**聊天設置** |  |
+| **聊天設置** |  |
 | [(Enable Chat Settings)](chat/enabled) |  | 
 | [AI服務](chat/ai_service) |  | 
 | [聊天設置](chat/chat_settings) |  | 
@@ -59,7 +59,7 @@ Generated on 2025-04-02 22:07:22
 | [保存歷史](chat/save_history) |  | 
 | [清除歷史](chat/clear_history) |  | 
 | | |
-| ###**演員** |  |
+| **演員** |  |
 | 分配動作 | |
 | [動作設置](actor/actor_motion) |  | 
 | 最近修改 | |
@@ -73,5 +73,29 @@ Generated on 2025-04-02 22:07:22
 | [專業版](actor/pro_tools) |  | 
 | [物理](actor/model_physics) |  | 
 | [預設](actor/actor_presets) |  | 
+| | |
+| **(Prop)** |  |
+| 分配動作 | |
+| 最近修改 | |
+| [自動重置](prop/auto_reset) |  | 
+| [身體碰撞器](prop/body_colliders) |  | 
+| [垂懸物理](prop/cloth_physics) |  | 
+| [分離物體](prop/detach_object) |  | 
+| [材質](prop/materials) |  | 
+| [設定](prop/settings) |  | 
+| [物理](prop/model_physics) |  | 
+| [預設](prop/actor_presets) |  | 
+| | |
+| **舞台** |  |
+| 分配動作 | |
+| 最近修改 | |
+| [自動重置](stage/auto_reset) |  | 
+| [身體碰撞器](stage/body_colliders) |  | 
+| [垂懸物理](stage/cloth_physics) |  | 
+| [分離物體](stage/detach_object) |  | 
+| [材質](stage/materials) |  | 
+| [偏移](stage/offset) |  | 
+| [物理](stage/model_physics) |  | 
+| [預設](stage/actor_presets) |  | 
 | | |
 
