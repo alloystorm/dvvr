@@ -164,30 +164,26 @@ def translate(text, target_language):
     }
 
     with open("script/translate_page_prompt.txt", 'r', encoding='utf-8') as f:
-            template = f.read()
+        system_message = f.read()
 
     original = ', '.join([f"{key}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
     translated = ', '.join([f"{value[target_language]}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
-    prompt = template.format(
+    system_message = system_message.format(
         target_language=lang_names[target_language], 
         original=original,
-        translation=translated,
-        text=text)
-    # print(prompt)
-
-    # print(first_last_lines(prompt, 25, 5))
+        translation=translated
+    )
 
     data = {
         "model": gpt_model,
-        "messages": [{"role": "user", "content": prompt}],
+        "messages": [
+            {"role": "system", "content": system_message},
+            {"role": "user", "content": text}
+        ],
         "temperature": 1.0
     }
     response = requests.post(url, json=data, headers=headers)
-    #print(first_last_lines(response.text, 20, 20))
     translated_text = response.json()['choices'][0]['message']['content'].strip()
-    #translated_text = text
-    # print(first_last_lines(translated_text))
-    # print(f"Received translation...")
     return translated_text
 
 def correct(text):
