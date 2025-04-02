@@ -1,0 +1,33 @@
+---
+locale: ja-rJP
+layout: single
+title: チャット設定
+toc: true
+sidebar:
+  nav: "docs-jp"
+---
+[Eng](/dancexr/menu/2025.4/Chat Settings/chat_settings) | [繁中](/tw/dancexr/menu/2025.4/Chat Settings/chat_settings) | [日本語](/jp/dancexr/menu/2025.4/Chat Settings/chat_settings) | [한국어](/kr/dancexr/menu/2025.4/Chat Settings/chat_settings) | [简中](/zh/dancexr/menu/2025.4/Chat Settings/chat_settings)
+
+[チャット設定](../menu#チャット設定) > チャット設定
+
+
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
+| チャット言語 | **自動**, 英語, 中国語, 日本語, 韓国語, ベトナム語, タイ語, フランス語, ドイツ語, スペイン語,  |  |
+| テンプレート | **(default)**, (writer),  |  |
+| ストーリーを生成 | ON | 
+| ストーリージャンル | ランダム, サイエンスフィクション, **ファンタジー**, ミステリー, スリラー, ロマンス, アクション, ホラー, 冒険, コメディ, エロティック,  |  |
+| ストーリーを再生成 || 
+| 古いメッセージを要約 | ON | 
+|- 最大メッセージ数 | [15] (10 ~ 25) | この制限を超える古いメッセージは要約されます。
+|- 最大プロンプト長 | [10] (10 ~ 17) | 
+|- 最大生成トークン | [250] (50 ~ 1000) | 
+|- 温度 | [0.5] (0 ~ 1) | 
+|- 存在ペナルティ | [0.5] (0 ~ 1) | 
+|- 頻度ペナルティ | [0.5] (0 ~ 1) | 
+| プレイヤー向けに生成 | OFF | 
+| 次を自動生成 | ON | 
+|- 自動生成遅延 | [5.75] (1 ~ 20) | 
+| 字幕を使用 | ON | 
+| 服装を説明 | OFF | 

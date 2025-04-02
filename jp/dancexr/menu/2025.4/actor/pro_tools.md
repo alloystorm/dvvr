@@ -95,12 +95,12 @@ sidebar:
 |- 赤 | [1] (0 ~ 1) | 
 |- 緑 | [1] (0 ~ 1) | 
 |- 青 | [1] (0 ~ 1) | 
-| プリセット | **白**, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange), (Preset 1),  |  |
+| プリセット | **白**, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |  |
 |- グロー | [0] (0 ~ 10) | 
 |- 色を保持 | [0] (0 ~ 1) | 
 | キャンバスをクリア || 
 | 描画を保存 || 
-| 描画をロード | **[なし]**,  |  |
+| 描画をロード | **[なし]**, (230929-164956), (230929-170130),  |  |
 |**形状とパターン** | | 
 |- トップ高さ1 | [3] (0 ~ 3) | 中央の最初のラインの高さ
 |- トップ角度1 | [0] (-180 ~ 180) | 最初のラインの角度
@@ -157,7 +157,7 @@ sidebar:
 |- ストッキンググラデーション | [2] (-3 ~ 3) | 
 |- 詳細密度 | [1] (0 ~ 2) | 
 | ディゾルブを有効化 | ON | 
-| プリセット | **ストッキング薄**, ストッキング厚, ホワイトストッキング, ラテックス, クリアラテックス, シルバー, ゴールド, グロウホワイト, オリジナル, (Preset 1), (Preset 2), (预设1),  |  |
+| プリセット | **ストッキング薄**, ストッキング厚, ホワイトストッキング, ラテックス, クリアラテックス, シルバー, ゴールド, グロウホワイト, オリジナル,  |  |
 |**サーフェスパターン** | | 
 |- グロス | [0.9] (0 ~ 1) | 
 |- 金属的 | [0] (0 ~ 1) | 
@@ -182,7 +182,7 @@ sidebar:
 |- ストッキンググラデーション | [1] (-3 ~ 3) | 
 |- 詳細密度 | [1] (0 ~ 2) | 
 | ディゾルブを有効化 | ON | 
-| プリセット | ストッキング薄, ストッキング厚, ホワイトストッキング, **ラテックス**, クリアラテックス, シルバー, ゴールド, グロウホワイト, オリジナル, (Preset 1), (Preset 2), (预设1),  |  |
+| プリセット | ストッキング薄, ストッキング厚, ホワイトストッキング, **ラテックス**, クリアラテックス, シルバー, ゴールド, グロウホワイト, オリジナル,  |  |
 |**サーフェスボーダー** | | 
 |- グロス | [0.5] (0 ~ 1) | 
 |- 金属的 | [0] (0 ~ 1) | 
@@ -207,7 +207,7 @@ sidebar:
 |- ストッキンググラデーション | [2] (-3 ~ 3) | 
 |- 詳細密度 | [1] (0 ~ 2) | 
 | ディゾルブを有効化 | ON | 
-| プリセット | **ストッキング薄**, ストッキング厚, ホワイトストッキング, ラテックス, クリアラテックス, シルバー, ゴールド, グロウホワイト, オリジナル, (Preset 1), (Preset 2), (预设1),  |  |
+| プリセット | **ストッキング薄**, ストッキング厚, ホワイトストッキング, ラテックス, クリアラテックス, シルバー, ゴールド, グロウホワイト, オリジナル,  |  |
 |- ディゾルブ | [0] (0 ~ 1) | 
 |**ディゾルブマップ** | | 
 |- パターンL1 | [13] (0 ~ 90) | ディゾルブマップ生成時のレベル1パターンを変更
@@ -236,7 +236,7 @@ sidebar:
 | 手動選択 || 
 |  | OFF | 
 | フィルタリング || 
-| プリセット | **ボディペイント**, フルボディラテックス, V字型フィッシュネット, ストッキング, ストッキングフィッシュネット, ボディスーツ1, ボディスーツ2, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
+| プリセット | **ボディペイント**, フルボディラテックス, V字型フィッシュネット, ストッキング, ストッキングフィッシュネット, ボディスーツ1, ボディスーツ2, (Preset 1), (Preset 2),  |  |
 
 
 ### **メッシュを布に**
@@ -392,7 +392,7 @@ sidebar:
 | プリセット | スカート, **(Top)**, (Tight Skirt), (String Skirt), (Hula Skirt),  |  |
 |**C1 マテリアル** | | 
 | 表面 || 
-| プリセット | オリジナル, **マットグレー**, 半透明, グロー, シルバー, ソリッドグラス, 薄いガラス, アウトライン, (Preset 1), (Preset 2), (Preset 3),  |  |
+| プリセット | オリジナル, **マットグレー**, 半透明, グロー, シルバー, ソリッドグラス, 薄いガラス, アウトライン,  |  |
 | ガラスモード | OFF | 
 | アルファをグロスとして | OFF | 
 | ダブルサイド | ON | 
@@ -434,7 +434,7 @@ sidebar:
 | モード | **オフ**, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |  |
 |- 屈折 | [0.5] (1 ~ 3) | 
 |- 厚さ | [1] (0 ~ 1) | 
-| テクスチャ | **[ソリッドカラー]**, [ウッド1], [ウッド2], [タイル], [コンクリート], [ビデオ],  |  |
+| テクスチャ | **[ソリッドカラー]**, [ウッド1], [ウッド2], [タイル], [コンクリート], [ビデオ], (30off), (pattern 01), (pattern 03), (Wooden floor 01), (Wooden floor 03),  |  |
 |**ディテールマップ** | | 
 | (Enable Detail Map) | ON | 
 |**(Hexagon Map)** | | 
@@ -541,7 +541,7 @@ sidebar:
 | プリセット | **スカート**, (Top), (Tight Skirt), (String Skirt), (Hula Skirt),  |  |
 |**C2 マテリアル** | | 
 | 表面 || 
-| プリセット | オリジナル, **マットグレー**, 半透明, グロー, シルバー, ソリッドグラス, 薄いガラス, アウトライン, (Preset 1), (Preset 2), (Preset 3),  |  |
+| プリセット | オリジナル, **マットグレー**, 半透明, グロー, シルバー, ソリッドグラス, 薄いガラス, アウトライン,  |  |
 | ガラスモード | OFF | 
 | アルファをグロスとして | OFF | 
 | ダブルサイド | ON | 
@@ -583,7 +583,7 @@ sidebar:
 | モード | **オフ**, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |  |
 |- 屈折 | [0.5] (1 ~ 3) | 
 |- 厚さ | [1] (0 ~ 1) | 
-| テクスチャ | **[ソリッドカラー]**, [ウッド1], [ウッド2], [タイル], [コンクリート], [ビデオ],  |  |
+| テクスチャ | **[ソリッドカラー]**, [ウッド1], [ウッド2], [タイル], [コンクリート], [ビデオ], (30off), (pattern 01), (pattern 03), (Wooden floor 01), (Wooden floor 03),  |  |
 |**ディテールマップ** | | 
 | (Enable Detail Map) | ON | 
 |**(Hexagon Map)** | | 
@@ -940,7 +940,7 @@ sidebar:
 |- (X) | [1] (0 ~ 1) | 
 |- (Y) | [1] (0 ~ 1) | 
 |- (Z) | [1] (0 ~ 1) | 
-| プリセット | **デフォルト（リセット）**, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
+| プリセット | **デフォルト（リセット）**,  |  |
 |**メッシュコライダー** | | 
 | (Enable Mesh Collider) | ON | 
 | ジオメトリコライダーを無効にする | ON | 
@@ -972,7 +972,7 @@ sidebar:
 | :--- | --- | :--- |
 |**ポール** | | 
 | (Enable Pole) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1054,7 +1054,7 @@ sidebar:
 |- 手の動き | [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
 |**左手** | | 
 | (Enable Left Hand) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1137,7 +1137,7 @@ sidebar:
 | 対称の手 | OFF | 
 |**右手** | | 
 | (Enable Right Hand) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1219,7 +1219,7 @@ sidebar:
 |- 手の動き | [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
 |**胸** | | 
 | (Enable Chest) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1301,7 +1301,7 @@ sidebar:
 |- 手の動き | [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
 |**頭** | | 
 | (Enable Head) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1383,7 +1383,7 @@ sidebar:
 |- 手の動き | [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
 |**左足** | | 
 | (Enable Left Foot) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1466,7 +1466,7 @@ sidebar:
 | 対称の足 | OFF | 
 |**右足** | | 
 | (Enable Right Foot) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1690,7 +1690,7 @@ sidebar:
 |- つかむ距離 | [0.015] (-0.1 ~ 0.1) | 
 |- つかむ位置 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| プリセット | **(Rest)**, 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| プリセット | **(Rest)**, 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**右手** | | 
 | (Enable Right Hand) | OFF | 
 | ジェスチャー | (Palm Fingers Apart), (Palm Fingers Together), **(Fist)**, (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |  |
@@ -1741,10 +1741,10 @@ sidebar:
 |- つかむ距離 | [0.015] (-0.1 ~ 0.1) | 
 |- つかむ位置 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| プリセット | **(Rest)**, 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| プリセット | **(Rest)**, 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**ライドモデル** | | 
 | (Enable Ride Model) | ON | 
-| モデル | **([Hoverbike])**, ([Rocking Horse]),  |  |
+| モデル | **([Hoverbike])**, ([Rocking Horse]), (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |- 加速度 | [10] (0 ~ 20) | 
 |- ドラッグ | [0.05] (0 ~ 1) | 
 |- 曲がるときの傾き | [0.5] (0 ~ 1) | 
@@ -1808,7 +1808,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | ディルド | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 

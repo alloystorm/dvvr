@@ -16,7 +16,7 @@ sidebar:
 | :--- | --- | :--- |
 |**ポール** | | 
 | (Enable Pole) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -98,7 +98,7 @@ sidebar:
 |- 手の動き | [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
 |**左手** | | 
 | (Enable Left Hand) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -181,7 +181,7 @@ sidebar:
 | 対称の手 | OFF | 
 |**右手** | | 
 | (Enable Right Hand) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -263,7 +263,7 @@ sidebar:
 |- 手の動き | [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
 |**胸** | | 
 | (Enable Chest) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -345,7 +345,7 @@ sidebar:
 |- 手の動き | [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
 |**頭** | | 
 | (Enable Head) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -427,7 +427,7 @@ sidebar:
 |- 手の動き | [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
 |**左足** | | 
 | (Enable Left Foot) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -510,7 +510,7 @@ sidebar:
 | 対称の足 | OFF | 
 |**右足** | | 
 | (Enable Right Foot) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 

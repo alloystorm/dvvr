@@ -8,21 +8,19 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/system/application_settings) | [繁中](/tw/dancexr/menu/2025.4/system/application_settings) | [日本語](/jp/dancexr/menu/2025.4/system/application_settings) | [한국어](/kr/dancexr/menu/2025.4/system/application_settings) | [简中](/zh/dancexr/menu/2025.4/system/application_settings)
 
-[(DanceXR Pro RT 2025.4.1543)](../menu#(DanceXR Pro RT 2025.4.1543)) > 응용 프로그램 설정
+[시스템](../menu#시스템) > 응용 프로그램 설정
 
 
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**응용 프로그램 설정** | | 
 | 이전 씬 로드 | OFF | 시작 시 마지막 씬 자동 로드
-| VR에서 데스크톱 창 차단 | ON | VR 모드에서 데스크톱 창 차단
 | 저장된 태그 복구 | OFF | 내용 캐시가 재구성되거나 손상된 경우 저장된 설정에서 태그 복구 시도
 | DDS 압축 전환 | ON | 압축된 DDS 텍스처 전환
 | DDS 비압축 전환 | OFF | 비압축된 DDS 텍스처 전환
 |**VR 손** | | 
 | 손 보이기 | ON | 
-| 그림자 생성 | OFF | 
+| 그림자 생성 | ON | 
 | (Time And FPS) | ON | 
 |**손 방향** | | 
 | 오프셋 || 
@@ -31,11 +29,10 @@ sidebar:
 |- (Z) | [0] (-0.1 ~ 0.1) | 
 |- 회전 | [45] (-90 ~ 90) | 
 | 포인터 업데이트 || 
-|
 | 왼손 포즈 | **자동**, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**왼손 액세서리** | | 
 | (Enable Left Hand Accessory) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -45,7 +42,6 @@ sidebar:
 |- (X) | [0] (-90 ~ 90) | 
 |- (Y) | [0] (-90 ~ 90) | 
 |- (Z) | [0] (-90 ~ 90) | 
-|
 | 크기 및 정렬 || 
 |- 객체 반경 | [0.02] (0.01 ~ 0.05) | 
 |- 객체 길이 | [0.2] (0 ~ 5) | 
@@ -71,10 +67,8 @@ sidebar:
 |- 모드 | **(Gradual)**, 무작위, 볼륨,  | 
 |- 최소 속도 | (1/4), (1/3), **(1/2)**, (2/3), (1),  | 
 |- 최대 속도 | (1), **(3/2)**, (2), (3), (4),  | 
-|
 |- 거리 | [0.1] (0 ~ 0.3) | 
 |- 각도 | [0] (-60 ~ 60) | 
-|
 | 애니메이션 | **없음**,  | 부착 모델에 사용할 로드된 모션 선택 |
 |**표면** | | 
 |- 광택 | [0.9] (0 ~ 1) | 
@@ -94,8 +88,7 @@ sidebar:
 |- 파란색 | [1] (0 ~ 1) | 
 | 혼합 모드 | 원본, (Multiply), **혼합**, (Color Shift),  |  |
 |- 혼합 | [1] (0 ~ 1) | 
-| 프리셋 | 원본, **흰색**, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |  |
-|
+| 프리셋 | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, **(Gray)**, (Orange),  |  |
 |**툰 셰이더** | | 
 | (Enable Toon Shader) | OFF | 
 |- 쉐이딩 | [1] (0 ~ 1) | 
@@ -109,24 +102,20 @@ sidebar:
 |- 그림자 | [0.75] (0 ~ 1) | 
 |- 부드러운 그림자 | [0.1] (0 ~ 1) | 
 | 프리셋 | **선명한**, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |  |
-|
 |**특수 셰이더** | | 
 | 모드 | **끄기**, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |  |
 |- 굴절 | [0.5] (1 ~ 3) | 
 |- 두께 | [1] (0 ~ 1) | 
-|
 | 프리셋 | 흰색 광택, 붉은색 광택, **크롬**, 검은색 광택, 금색, 단단한 유리, 얇은 유리,  |  |
-|
 |- X레이 | [0] (0 ~ 1) | 
 |- 알파 | [1] (0 ~ 1) | 
 |- 손을 당기기 | [0.1] (0 ~ 0.5) | 부착물에 가까워지면 손을 부착물 쪽으로 당김
 | 잡기 포즈 | ON | 부착물에 있을 때 자동으로 손 포즈를 잡기 자세로 변경
 |- 손 동작 | [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
-|
 | 오른손 포즈 | **자동**, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**오른손 액세서리** | | 
 | (Enable Right Hand Accessory) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -136,7 +125,6 @@ sidebar:
 |- (X) | [0] (-90 ~ 90) | 
 |- (Y) | [0] (-90 ~ 90) | 
 |- (Z) | [0] (-90 ~ 90) | 
-|
 | 크기 및 정렬 || 
 |- 객체 반경 | [0.02] (0.01 ~ 0.05) | 
 |- 객체 길이 | [0.2] (0 ~ 5) | 
@@ -162,10 +150,8 @@ sidebar:
 |- 모드 | **(Gradual)**, 무작위, 볼륨,  | 
 |- 최소 속도 | (1/4), (1/3), **(1/2)**, (2/3), (1),  | 
 |- 최대 속도 | (1), **(3/2)**, (2), (3), (4),  | 
-|
 |- 거리 | [0.1] (0 ~ 0.3) | 
 |- 각도 | [0] (-60 ~ 60) | 
-|
 | 애니메이션 | **없음**,  | 부착 모델에 사용할 로드된 모션 선택 |
 |**표면** | | 
 |- 광택 | [0.9] (0 ~ 1) | 
@@ -185,8 +171,7 @@ sidebar:
 |- 파란색 | [1] (0 ~ 1) | 
 | 혼합 모드 | 원본, (Multiply), **혼합**, (Color Shift),  |  |
 |- 혼합 | [1] (0 ~ 1) | 
-| 프리셋 | 원본, **흰색**, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |  |
-|
+| 프리셋 | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, **(Gray)**, (Orange),  |  |
 |**툰 셰이더** | | 
 | (Enable Toon Shader) | OFF | 
 |- 쉐이딩 | [1] (0 ~ 1) | 
@@ -200,21 +185,15 @@ sidebar:
 |- 그림자 | [0.75] (0 ~ 1) | 
 |- 부드러운 그림자 | [0.1] (0 ~ 1) | 
 | 프리셋 | **선명한**, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |  |
-|
 |**특수 셰이더** | | 
 | 모드 | **끄기**, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |  |
 |- 굴절 | [0.5] (1 ~ 3) | 
 |- 두께 | [1] (0 ~ 1) | 
-|
 | 프리셋 | 흰색 광택, 붉은색 광택, **크롬**, 검은색 광택, 금색, 단단한 유리, 얇은 유리,  |  |
-|
 |- X레이 | [0] (0 ~ 1) | 
 |- 알파 | [1] (0 ~ 1) | 
 |- 손을 당기기 | [0.1] (0 ~ 0.5) | 부착물에 가까워지면 손을 부착물 쪽으로 당김
 | 잡기 포즈 | ON | 부착물에 있을 때 자동으로 손 포즈를 잡기 자세로 변경
 |- 손 동작 | [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
-|
-|
 | 기즈모 3차 축 | **회전**, 깊이,  |  |
 | 번역된 이름 사용 | ON | 
-|

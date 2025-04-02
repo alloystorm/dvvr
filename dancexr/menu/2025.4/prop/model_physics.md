@@ -99,7 +99,7 @@ sidebar:
 |- Thigh Start Position | [0] (0 ~ 1) | 
 |- Hand | [0] (0 ~ 1) | 
 | Visualize | OFF | 
-| Presets | **Default (Reset)**, amy, misaki,  |  |
+| Presets | **Default (Reset)**,  |  |
 |**Boobs Physics**<sup>[PRO]</sup> | | 
 | Enable Boobs Physics | ON | 
 | Select Bones || 
@@ -186,9 +186,9 @@ sidebar:
 |- Alternate Group Size | [0] (0 ~ 20) | 
 |- Table Size | [6] (1 ~ 20) | 
 | Two Step Solving | OFF | 
-| Presets | **Boobs**, Butts, Legs, tina, 预设1, 预设2,  |  |
+| Presets | **Boobs**, Butts, Legs,  |  |
 | Softbody Only | OFF | Disable physics joint and use softbody particles only.
-| Presets | **Default (Reset)**, Preset 1, Preset 2, Preset 3, tina, 预设1, 预设2,  |  |
+| Presets | **Default (Reset)**,  |  |
 |**Skirt Physics**<sup>[PRO]</sup> | | 
 | Enable Skirt Physics | ON | 
 | Use Particle Dynamics | ON | 
@@ -747,7 +747,7 @@ sidebar:
 |- Collider Length | [0.8] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 |- First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 | Use Primary Group Settings | ON | 
-| Presets | **Default (Reset)**, hurrah, nyotengu cheongsam, nyo birthday, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5, Preset 6, 预设1,  |  |
+| Presets | **Default (Reset)**, test,  |  |
 |**Hair Physics** | | 
 | Enable Hair Physics | ON | 
 | Select Bones || Select bones
@@ -806,7 +806,7 @@ sidebar:
 |- Collider Radius | [0.005] (0 ~ 0.05) | Size of the particle used when solving collision.
 |- Collider Length | [0.9] (0 ~ 1) | 
 |- Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-| Presets | **Default (Reset)**, momiji bob, Preset 1,  |  |
+| Presets | **Default (Reset)**,  |  |
 |**Dangling Physics** | | 
 | Enable Dangling Physics | ON | 
 | Select Bones || Select bones
@@ -865,7 +865,7 @@ sidebar:
 |- Collider Radius | [0.01] (0 ~ 0.05) | Size of the particle used when solving collision.
 |- Collider Length | [0.9] (0 ~ 1) | 
 |- Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-| Presets | **Default (Reset)**, Preset 1, Preset 2,  |  |
+| Presets | **Default (Reset)**,  |  |
 |**Detach Object** | | 
 | Enable Detach Object | ON | 
 | Select Bones || 

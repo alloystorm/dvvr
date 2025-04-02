@@ -8,14 +8,12 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/system/remote_access) | [繁中](/tw/dancexr/menu/2025.4/system/remote_access) | [日本語](/jp/dancexr/menu/2025.4/system/remote_access) | [한국어](/kr/dancexr/menu/2025.4/system/remote_access) | [简中](/zh/dancexr/menu/2025.4/system/remote_access)
 
-[DanceXR Pro RT 2025.4.1543](../menu#DanceXR Pro RT 2025.4.1543) > Remote Access
+[System](../menu#System) > Remote Access
 
 
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**Remote Access** | | 
 | Enable Remote Access | OFF | 
 | Port Number || 
 | Password || 
-|

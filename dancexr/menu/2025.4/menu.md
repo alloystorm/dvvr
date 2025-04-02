@@ -13,14 +13,14 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [Remote Access](system2/remote_access) |  | 
-| [Content Library](system2/library) |  | 
-| [Controller Input](system2/input_settings) |  | 
-| [Display & UI](system2/screen) |  | 
-| [Graphics](system2/graphics) |  | 
-| [Physics](system2/physics) |  | 
-| [Application Settings](system2/application_settings) |  | 
-| [Exit](system2/exit) |  | 
+| [Remote Access](system/remote_access) |  | 
+| [Content Library](system/library) |  | 
+| [Controller Input](system/input_settings) |  | 
+| [Display & UI](system/screen) |  | 
+| [Graphics](system/graphics) |  | 
+| [Physics](system/physics) |  | 
+| [Application Settings](system/application_settings) |  | 
+| [Exit](system/exit) |  | 
 | | |
 
 
@@ -70,16 +70,16 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [Enable Chat Settings](chat/enabled) |  | 
-| [AI Service](chat/ai_service) |  | 
-| [Chat Settings](chat/chat_settings) |  | 
-| [Voice](chat/voice) |  | 
-| [Microphone](chat/microphone) |  | 
-| [Player](chat/chat_player) |  | 
-| [Characters](chat/characters) |  | 
-| [Load History](chat/load_history) |  | 
-| [Save History](chat/save_history) |  | 
-| [Clear History](chat/clear_history) |  | 
+| [Enable Chat Settings](Chat Settings/enabled) |  | 
+| [AI Service](Chat Settings/ai_service) |  | 
+| [Chat Settings](Chat Settings/chat_settings) |  | 
+| [Voice](Chat Settings/voice) |  | 
+| [Microphone](Chat Settings/microphone) |  | 
+| [Player](Chat Settings/chat_player) |  | 
+| [Characters](Chat Settings/characters) |  | 
+| [Load History](Chat Settings/load_history) |  | 
+| [Save History](Chat Settings/save_history) |  | 
+| [Clear History](Chat Settings/clear_history) |  | 
 | | |
 
 

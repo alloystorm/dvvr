@@ -25,7 +25,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable DanceXR Logo) | ON | 
+| (Enable DanceXR Logo) | OFF | 
 |**商標表面 1** | | 
 |- 光澤 | [0.9] (0 ~ 1) | 
 |- 金屬質感 | [0] (0 ~ 1) | 
@@ -119,7 +119,7 @@ sidebar:
 |- 藍色 | [1] (0 ~ 1) | 
 | 混合模式 | 原版, (Multiply), **混合**, (Color Shift),  |  |
 |- 混合 | [1] (0 ~ 1) | 
-| 預設 | 原版, **白色**, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |  |
+| 預設 | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, **(Gray)**, (Orange),  |  |
 |**卡通著色器** | | 
 | (Enable Toon Shader) | OFF | 
 |- 陰影 | [1] (0 ~ 1) | 
@@ -149,7 +149,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Beats Visualizer) | ON | 
+| (Enable Beats Visualizer) | OFF | 
 |- 數據 | **節拍**, 原始節拍, 原始開始,  | 
 |- 位置 | 攝影機, **舞台**, 演員,  | 
 |- 半徑 | [1.2] (0.2 ~ 5) | 
@@ -237,4 +237,4 @@ sidebar:
 |- 使用音頻 | [2] (0 ~ 4) | 
 |- 種子 | [1234] ((Unlimited)) | 控制隨機化的模式序列
 | 預設 | **預設 (重置)**,  |  |
-| 預設 | **關閉**, 線, 半圓, 點, 隨音樂發光, (Preset 1),  |  |
+| 預設 | 關閉, **線**, 半圓, 點, 隨音樂發光,  |  |

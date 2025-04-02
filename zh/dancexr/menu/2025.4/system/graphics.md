@@ -8,25 +8,16 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/system/graphics) | [繁中](/tw/dancexr/menu/2025.4/system/graphics) | [日本語](/jp/dancexr/menu/2025.4/system/graphics) | [한국어](/kr/dancexr/menu/2025.4/system/graphics) | [简中](/zh/dancexr/menu/2025.4/system/graphics)
 
-[(DanceXR Pro RT 2025.4.1543)](../menu#(DanceXR Pro RT 2025.4.1543)) > 图形
+[系统](../menu#系统) > 图形
 
 
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**图形** | | 
 | 抗锯齿 | 无抗锯齿, **延迟 SMAA**, 延迟 TAA,  |  |
-|**光线追踪** | | 
-| (Enable Raytracing) | ON | 
-| 反射 | ON | 
-| 环境光遮蔽 | ON | 
-| 全局光照 | ON | 
-| 阴影 | ON | 
-| 接触阴影 | OFF | 
-|- 光线长度 | [50] (0 ~ 100) | 
-| 去噪 | ON | 
-|- 去噪半径 | [0.1] (0 ~ 1) | 
-|
+|**HDR 输出** | | 
+| (Enable HDR Output) | ON | 
+|- 纸白色 | [300] (0 ~ 400) | 
 | 超采样 | **关闭**, DLSS 性能, DLSS 平衡, DLSS 质量, DLSS 超性能, FSR 50%, FSR 66%, FSR 75%, FSR 100%,  |  |
 |**反射** | | 
 | (Enable Reflection) | ON | 
@@ -37,40 +28,33 @@ sidebar:
 |- 物体厚度 | [0.01] (0 ~ 0.1) | 
 | 回退到天空 | ON | 当光线追踪没有命中时回退到天空颜色。
 | 天空反射 | ON | 
-|
 |**雾** | | 
 | (Enable Fog) | ON | 
 | 体积雾 | ON | 
 |- 基础高度 | [0] (0 ~ 10) | 
 |- 最大高度 | [25] (10 ~ 100) | 
 |- 最大距离 | [5000] (0 ~ 10000) | 
-|
 |**环境光遮蔽** | | 
-| (Enable Ambient Occlusion) | OFF | 
+| (Enable Ambient Occlusion) | ON | 
 |- 质量 | 低, 中型, **高**,  | 
 |- 强度 | [1] (0 ~ 1) | 
-|
 |**全局光照** | | 
-| (Enable Global Illumination) | OFF | 
+| (Enable Global Illumination) | ON | 
 |- 质量 | **低**, 中型, 高,  | 
 | 回退到天空 | ON | 
-|
 |**景深** | | 
 | (Enable Depth Of Field) | OFF | 
 |- 质量 | 低, **中型**, 高,  | 
 |- 强度 | [0.25] (0 ~ 1) | 
 |- 偏移 | [0.1] (-1 ~ 1) | 
-|
 |**运动模糊** | | 
 | (Enable Motion Blur) | OFF | 
 |- 质量 | 低, **中型**, 高,  | 
 |- 强度 | [0.25] (0 ~ 1) | 
-|
 |**辉光** | | 
 | (Enable Bloom) | ON | 
 |- 质量 | 低, 中型, **高**,  | 
 |- 强度 | [0.25] (0 ~ 1) | 
-|
 |**镜头光晕** | | 
 | (Enable Lens Flare) | ON | 
 | 在 VR 中禁用 | ON | 不推荐在 VR 中使用此效果
@@ -86,12 +70,10 @@ sidebar:
 | 使用舞台颜色 | OFF | 使用舞台环的颜色
 |- 色温 | [6500] (3000 ~ 8000) | 
 | 预设 | **白色**, 日落, 红色, (Yellow), 蓝色, 绿色,  |  |
-|
 |- 光晕 | [1] (0 ~ 1) | 
 |- 条纹 | [0.2] (0 ~ 1) | 
 |- 长度 | [0.5] (0 ~ 1) | 
 |- 色差 | [0.5] (0 ~ 1) | 
-|
 |**颜色调整** | | 
 | (Enable Color Adjustment) | ON | 
 |- 后期曝光 | [0] (-12 ~ 12) | 
@@ -108,8 +90,6 @@ sidebar:
 |- 蓝色 | [1] (0 ~ 1) | 
 |- 发光 | [1] (0 ~ 20) | 
 | 预设 | **白色**, 红色, 绿色, 蓝色, 动画色相, 伴音乐的辉光,  |  |
-|
-|
 |**颜色曲线** | | 
 | (Enable Color Curve) | ON | 
 |- 起始渐变 | [1] (0 ~ 4) | 
@@ -118,12 +98,10 @@ sidebar:
 |- 结束渐变 | [1] (0 ~ 4) | 
 |- 结束位置 | [1] (0.5 ~ 1) | 
 |- 结束值 | [1] (0.5 ~ 1) | 
-|
 |**白平衡** | | 
 | (Enable White Balance) | ON | 
 |- 温度 | [0] (-100 ~ 100) | 
 |- 色调 | [0] (-100 ~ 100) | 
-|
 |**特殊渲染** | | 
 | (Enable Special Render) | OFF | 
 |- 模式 | **深度输出**, 法线输出,  | 
@@ -131,7 +109,6 @@ sidebar:
 |- 深度缩放 | [0.25] (0 ~ 1) | 
 |- 法线缩放 | [1] (0 ~ 1) | 
 |- 法线混合 | [0] (0 ~ 1) | 
-|
 |- 色调映射 | 无, 中性, ACES, **自定义**,  | 
 | 演员卡通着色 | OFF | 对所有角色使用卡通着色。
 | 阶段卡通着色 | OFF | 对场景和道具使用卡通着色。
@@ -142,6 +119,4 @@ sidebar:
 |- 凹凸贴图阴影 | [0.5] (0 ~ 1) | 为凹凸贴图和细节贴图启用阴影。
 | 停止 NaN | ON | (Prevent black screen when error happens during post processing. )
 | 计算厚度 | ON | 计算可用于皮肤效果的厚度。
-|
-| 预设 | 性能, 中型, **高**, 室内全局光照, 室外全局光照, 卡通效果,  |  |
-|
+| 预设 | 性能, 中型, 高, 室内全局光照, **室外全局光照**, 卡通效果,  |  |

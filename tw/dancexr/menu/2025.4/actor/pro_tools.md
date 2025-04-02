@@ -95,12 +95,12 @@ sidebar:
 |- 紅色 | [1] (0 ~ 1) | 
 |- 綠色 | [1] (0 ~ 1) | 
 |- 藍色 | [1] (0 ~ 1) | 
-| 預設 | **白色**, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange), (Preset 1),  |  |
+| 預設 | **白色**, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |  |
 |- 發光 | [0] (0 ~ 10) | 
 |- 保留顏色 | [0] (0 ~ 1) | 
 | 清除畫布 || 
 | 保存畫作 || 
-| 加載畫作 | **[無]**,  |  |
+| 加載畫作 | **[無]**, (230929-164956), (230929-170130),  |  |
 |**形狀與圖案** | | 
 |- 上部高度1 | [3] (0 ~ 3) | 中心第一條線的高度
 |- 上部角度1 | [0] (-180 ~ 180) | 第一條線的角度
@@ -157,7 +157,7 @@ sidebar:
 |- 絲襪漸變 | [2] (-3 ~ 3) | 
 |- 細節密度 | [1] (0 ~ 2) | 
 | 啟用溶解 | ON | 
-| 預設 | **薄絲襪**, 厚絲襪, 白色絲襪, 乳膠, 透明乳膠, 銀色, 金色, 發光白, 原版, (Preset 1), (Preset 2), (预设1),  |  |
+| 預設 | **薄絲襪**, 厚絲襪, 白色絲襪, 乳膠, 透明乳膠, 銀色, 金色, 發光白, 原版,  |  |
 |**表面圖樣** | | 
 |- 光澤 | [0.9] (0 ~ 1) | 
 |- 金屬質感 | [0] (0 ~ 1) | 
@@ -182,7 +182,7 @@ sidebar:
 |- 絲襪漸變 | [1] (-3 ~ 3) | 
 |- 細節密度 | [1] (0 ~ 2) | 
 | 啟用溶解 | ON | 
-| 預設 | 薄絲襪, 厚絲襪, 白色絲襪, **乳膠**, 透明乳膠, 銀色, 金色, 發光白, 原版, (Preset 1), (Preset 2), (预设1),  |  |
+| 預設 | 薄絲襪, 厚絲襪, 白色絲襪, **乳膠**, 透明乳膠, 銀色, 金色, 發光白, 原版,  |  |
 |**表面邊框** | | 
 |- 光澤 | [0.5] (0 ~ 1) | 
 |- 金屬質感 | [0] (0 ~ 1) | 
@@ -207,7 +207,7 @@ sidebar:
 |- 絲襪漸變 | [2] (-3 ~ 3) | 
 |- 細節密度 | [1] (0 ~ 2) | 
 | 啟用溶解 | ON | 
-| 預設 | **薄絲襪**, 厚絲襪, 白色絲襪, 乳膠, 透明乳膠, 銀色, 金色, 發光白, 原版, (Preset 1), (Preset 2), (预设1),  |  |
+| 預設 | **薄絲襪**, 厚絲襪, 白色絲襪, 乳膠, 透明乳膠, 銀色, 金色, 發光白, 原版,  |  |
 |- 溶解 | [0] (0 ~ 1) | 
 |**溶解貼圖** | | 
 |- 圖案 L1 | [13] (0 ~ 90) | 生成溶解貼圖時更改 L1 圖案
@@ -236,7 +236,7 @@ sidebar:
 | 手動選擇 || 
 |  | OFF | 
 | 過濾 || 
-| 預設 | **身體繪畫**, 全身乳膠, V形魚網, 絲襪, 魚網絲襪, 連身衣 1, 連身衣 2, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
+| 預設 | **身體繪畫**, 全身乳膠, V形魚網, 絲襪, 魚網絲襪, 連身衣 1, 連身衣 2, (Preset 1), (Preset 2),  |  |
 
 
 ### **網格轉布料**
@@ -392,7 +392,7 @@ sidebar:
 | 預設 | 裙子, **(Top)**, (Tight Skirt), (String Skirt), (Hula Skirt),  |  |
 |**C1 材質** | | 
 | 表面 || 
-| 預設 | 原版, **啞光灰**, 半透明, 發光, 銀色, 實心玻璃, 薄玻璃, 輪廓, (Preset 1), (Preset 2), (Preset 3),  |  |
+| 預設 | 原版, **啞光灰**, 半透明, 發光, 銀色, 實心玻璃, 薄玻璃, 輪廓,  |  |
 | 玻璃模式 | OFF | 
 | 光澤作為透明度 | OFF | 
 | 雙面 | ON | 
@@ -434,7 +434,7 @@ sidebar:
 | 模式 | **關閉**, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |  |
 |- 折射 | [0.5] (1 ~ 3) | 
 |- 厚度 | [1] (0 ~ 1) | 
-| 紋理 | **[實心顏色]**, [木材1], [木材2], [瓷磚], [混凝土], [視頻],  |  |
+| 紋理 | **[實心顏色]**, [木材1], [木材2], [瓷磚], [混凝土], [視頻], (30off), (pattern 01), (pattern 03), (Wooden floor 01), (Wooden floor 03),  |  |
 |**細節圖** | | 
 | (Enable Detail Map) | ON | 
 |**(Hexagon Map)** | | 
@@ -541,7 +541,7 @@ sidebar:
 | 預設 | **裙子**, (Top), (Tight Skirt), (String Skirt), (Hula Skirt),  |  |
 |**C2 材質** | | 
 | 表面 || 
-| 預設 | 原版, **啞光灰**, 半透明, 發光, 銀色, 實心玻璃, 薄玻璃, 輪廓, (Preset 1), (Preset 2), (Preset 3),  |  |
+| 預設 | 原版, **啞光灰**, 半透明, 發光, 銀色, 實心玻璃, 薄玻璃, 輪廓,  |  |
 | 玻璃模式 | OFF | 
 | 光澤作為透明度 | OFF | 
 | 雙面 | ON | 
@@ -583,7 +583,7 @@ sidebar:
 | 模式 | **關閉**, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |  |
 |- 折射 | [0.5] (1 ~ 3) | 
 |- 厚度 | [1] (0 ~ 1) | 
-| 紋理 | **[實心顏色]**, [木材1], [木材2], [瓷磚], [混凝土], [視頻],  |  |
+| 紋理 | **[實心顏色]**, [木材1], [木材2], [瓷磚], [混凝土], [視頻], (30off), (pattern 01), (pattern 03), (Wooden floor 01), (Wooden floor 03),  |  |
 |**細節圖** | | 
 | (Enable Detail Map) | ON | 
 |**(Hexagon Map)** | | 
@@ -940,7 +940,7 @@ sidebar:
 |- (X) | [1] (0 ~ 1) | 
 |- (Y) | [1] (0 ~ 1) | 
 |- (Z) | [1] (0 ~ 1) | 
-| 預設 | **預設 (重置)**, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
+| 預設 | **預設 (重置)**,  |  |
 |**網格碰撞體** | | 
 | (Enable Mesh Collider) | ON | 
 | 禁用幾何碰撞體 | ON | 
@@ -972,7 +972,7 @@ sidebar:
 | :--- | --- | :--- |
 |**桿** | | 
 | (Enable Pole) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假陽物, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**錨點偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1054,7 +1054,7 @@ sidebar:
 |- 手部運動 | [0] (-1 ~ 1) | 相對於附加物運動移動手部
 |**左手** | | 
 | (Enable Left Hand) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假陽物, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**錨點偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1137,7 +1137,7 @@ sidebar:
 | 對稱手 | OFF | 
 |**右手** | | 
 | (Enable Right Hand) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假陽物, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**錨點偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1219,7 +1219,7 @@ sidebar:
 |- 手部運動 | [0] (-1 ~ 1) | 相對於附加物運動移動手部
 |**胸部** | | 
 | (Enable Chest) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假陽物, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**錨點偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1301,7 +1301,7 @@ sidebar:
 |- 手部運動 | [0] (-1 ~ 1) | 相對於附加物運動移動手部
 |**頭部** | | 
 | (Enable Head) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假陽物, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**錨點偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1383,7 +1383,7 @@ sidebar:
 |- 手部運動 | [0] (-1 ~ 1) | 相對於附加物運動移動手部
 |**左腳** | | 
 | (Enable Left Foot) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假陽物, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**錨點偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1466,7 +1466,7 @@ sidebar:
 | 對稱腳 | OFF | 
 |**右腳** | | 
 | (Enable Right Foot) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假陽物, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**錨點偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1690,7 +1690,7 @@ sidebar:
 |- 抓取距離 | [0.015] (-0.1 ~ 0.1) | 
 |- 抓取位置 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| 預設 | **(Rest)**, 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| 預設 | **(Rest)**, 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**右手** | | 
 | (Enable Right Hand) | OFF | 
 | 手勢 | (Palm Fingers Apart), (Palm Fingers Together), **(Fist)**, (Victory), (Okay), (Hold), (Vulcan), (Horn), 點, (Middle Finger), (Thumb Up), (Grab),  |  |
@@ -1741,10 +1741,10 @@ sidebar:
 |- 抓取距離 | [0.015] (-0.1 ~ 0.1) | 
 |- 抓取位置 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| 預設 | **(Rest)**, 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| 預設 | **(Rest)**, 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**騎乘模型** | | 
 | (Enable Ride Model) | ON | 
-| 模型 | **([Hoverbike])**, ([Rocking Horse]),  |  |
+| 模型 | **([Hoverbike])**, ([Rocking Horse]), (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假陽物, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |- 加速度 | [10] (0 ~ 20) | 
 |- 拖曳 | [0.05] (0 ~ 1) | 
 |- 轉彎時傾斜 | [0.5] (0 ~ 1) | 
@@ -1808,7 +1808,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 假陽物 | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假陽物, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**錨點偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 

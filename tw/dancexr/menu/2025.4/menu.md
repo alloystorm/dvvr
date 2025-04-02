@@ -13,14 +13,14 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [遠端訪問](system2/remote_access) |  | 
-| [內容庫](system2/library) |  | 
-| [控制器輸入](system2/input_settings) |  | 
-| [顯示與UI](system2/screen) |  | 
-| [圖形](system2/graphics) |  | 
-| [物理](system2/physics) |  | 
-| [應用設置](system2/application_settings) |  | 
-| [退出](system2/exit) |  | 
+| [遠端訪問](system/remote_access) |  | 
+| [內容庫](system/library) |  | 
+| [控制器輸入](system/input_settings) |  | 
+| [顯示與UI](system/screen) |  | 
+| [圖形](system/graphics) |  | 
+| [物理](system/physics) |  | 
+| [應用設置](system/application_settings) |  | 
+| [退出](system/exit) |  | 
 | | |
 
 
@@ -70,16 +70,16 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [(Enable Chat Settings)](chat/enabled) |  | 
-| [AI服務](chat/ai_service) |  | 
-| [聊天設置](chat/chat_settings) |  | 
-| [聲音](chat/voice) |  | 
-| [麥克風](chat/microphone) |  | 
-| [玩家](chat/chat_player) |  | 
-| [角色](chat/characters) |  | 
-| [載入歷史](chat/load_history) |  | 
-| [保存歷史](chat/save_history) |  | 
-| [清除歷史](chat/clear_history) |  | 
+| [(Enable Chat Settings)](Chat Settings/enabled) |  | 
+| [AI服務](Chat Settings/ai_service) |  | 
+| [聊天設置](Chat Settings/chat_settings) |  | 
+| [聲音](Chat Settings/voice) |  | 
+| [麥克風](Chat Settings/microphone) |  | 
+| [玩家](Chat Settings/chat_player) |  | 
+| [角色](Chat Settings/characters) |  | 
+| [載入歷史](Chat Settings/load_history) |  | 
+| [保存歷史](Chat Settings/save_history) |  | 
+| [清除歷史](Chat Settings/clear_history) |  | 
 | | |
 
 

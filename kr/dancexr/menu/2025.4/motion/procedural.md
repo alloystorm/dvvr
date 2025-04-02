@@ -122,7 +122,7 @@ sidebar:
 |- 잡기 거리 | [0.015] (-0.1 ~ 0.1) | 
 |- 잡기 위치 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| 프리셋 | (Rest), 뒷면, 앞면, **엉덩이**, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| 프리셋 | (Rest), 뒷면, 앞면, 엉덩이, 머리, **폴**, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**오른손** | | 
 | 제스처 | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), **(Grab)**,  |  |
 |**손 위치** | | 
@@ -172,7 +172,7 @@ sidebar:
 |- 잡기 거리 | [0.015] (-0.1 ~ 0.1) | 
 |- 잡기 위치 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| 프리셋 | (Rest), 뒷면, 앞면, **엉덩이**, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| 프리셋 | (Rest), 뒷면, 앞면, 엉덩이, 머리, **폴**, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**원형 이동** | | 
 | 원형 이동 | OFF | 
 |- 반경 | [2] (0 ~ 5) | 
@@ -338,7 +338,7 @@ sidebar:
 |- 잡기 거리 | [0.015] (-0.1 ~ 0.1) | 
 |- 잡기 위치 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| 프리셋 | **(Rest)**, 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| 프리셋 | **(Rest)**, 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**오른손** | | 
 | 제스처 | (Palm Fingers Apart), **(Palm Fingers Together)**, (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**손 위치** | | 
@@ -388,7 +388,7 @@ sidebar:
 |- 잡기 거리 | [0.015] (-0.1 ~ 0.1) | 
 |- 잡기 위치 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| 프리셋 | **(Rest)**, 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| 프리셋 | **(Rest)**, 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 | 볼륨 사용 | ON | 
 |- 상체 모션 | [0.5] (0 ~ 1) | 
 
@@ -489,7 +489,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 메인에 할당 || 
-| 타겟 선택 | **자동**, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |  |
+| 타겟 선택 | 자동, 선택됨, 그룹, **회전**, 회전 + 그룹, 무대 중앙,  |  |
 | 트래킹 모드 | **센터**, 머리, 가슴,  |  |
 |- 타겟 부드럽게 만들기 | [0.5] (0 ~ 2) | 
 |- 예측 | [1] (0 ~ 2) | 부드러움으로 인한 지연을 줄이기 위해 타겟의 위치를 예측
@@ -513,7 +513,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 메인에 할당 || 
-| 타겟 선택 | **자동**, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |  |
+| 타겟 선택 | 자동, 선택됨, 그룹, **회전**, 회전 + 그룹, 무대 중앙,  |  |
 | 트래킹 모드 | **센터**, 머리, 가슴,  |  |
 |- 타겟 부드럽게 만들기 | [0.5] (0 ~ 2) | 
 |- 예측 | [1] (0 ~ 2) | 부드러움으로 인한 지연을 줄이기 위해 타겟의 위치를 예측
@@ -521,7 +521,7 @@ sidebar:
 |- 비트 사이클 | [8] (1 ~ 16) | 
 | 컨트롤러 입력 사용 | OFF | 
 | 바닥 아래 방지 | ON | 
-| 속도 유지 | OFF | 입력이 없을 때 회전 유지
+| 속도 유지 | ON | 입력이 없을 때 회전 유지
 |- 최대 속도 | [15] (0 ~ 30) | 최대 회전 속도
 |- 최소 속도 | [0] (0 ~ 30) | 최소 회전 속도
 | 자동 모드 | OFF | 
@@ -535,7 +535,7 @@ sidebar:
 |- 최대 높이 | [0.5] (0 ~ 1) | 
 |- 높이 주기 | [32] ((Unlimited)) | 
 |- 속도 | [10] (0 ~ 90) | 
-| 프리셋 | **기본값 (초기화)**, (Preset 1),  |  |
+| 프리셋 | **기본값 (초기화)**,  |  |
 
 
 ### **[오토 캠]**
@@ -579,7 +579,7 @@ sidebar:
 |- 측면 90도 | [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
 |- 뒤 135도 | [0] (0 ~ 1) | (Probability of orienting the camera to a 135-degree angle behind the actor.)
 |- 뒤 180도 | [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
-| 프리셋 | **기본값 (초기화)**, (Preset 1),  |  |
+| 프리셋 | **기본값 (초기화)**,  |  |
 
 
 ### **[롱 테이크]**
@@ -602,7 +602,7 @@ sidebar:
 | 바닥 아래 방지 | ON | 
 | 배우 방향 사용 | ON | 
 | 가까이 있을 때 초점 올리기 | OFF | 거리 감소 시 초점 위치 위로 이동
-| 프리셋 | **기본값 (초기화)**, (Preset 1), (Preset 2), (Preset 3),  |  |
+| 프리셋 | **기본값 (초기화)**,  |  |
 
 
 ### **[1인칭]**

@@ -25,7 +25,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable DanceXR Logo | ON | 
+| Enable DanceXR Logo | OFF | 
 |**Logo Surface 1** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
 |- Metallic | [0] (0 ~ 1) | 
@@ -119,7 +119,7 @@ sidebar:
 |- Blue | [1] (0 ~ 1) | 
 | Blend Mode | Original, Multiply, **Blend**, Color Shift,  |  |
 |- Blend | [1] (0 ~ 1) | 
-| Presets | Original, **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
+| Presets | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, **Gray**, Orange,  |  |
 |**Toon Shader** | | 
 | Enable Toon Shader | OFF | 
 |- Shading | [1] (0 ~ 1) | 
@@ -149,7 +149,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Beats Visualizer | ON | 
+| Enable Beats Visualizer | OFF | 
 |- Data | **Beats**, Raw Beats, Raw Onset,  | 
 |- Location | Camera, **Stage**, Actor,  | 
 |- Radius | [1.2] (0.2 ~ 5) | 
@@ -237,4 +237,4 @@ sidebar:
 |- Use Audio | [2] (0 ~ 4) | 
 |- Seed | [1234] (Unlimited) | Controls randomized pattern sequence
 | Presets | **Default (Reset)**,  |  |
-| Presets | **Off**, Line, Half Circle, Point, Glow w/ Music, Preset 1,  |  |
+| Presets | Off, **Line**, Half Circle, Point, Glow w/ Music,  |  |

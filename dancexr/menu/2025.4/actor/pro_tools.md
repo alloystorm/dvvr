@@ -95,12 +95,12 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 |- Red | [1] (0 ~ 1) | 
 |- Green | [1] (0 ~ 1) | 
 |- Blue | [1] (0 ~ 1) | 
-| Presets | **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |  |
+| Presets | **White**, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
 |- Glow | [0] (0 ~ 10) | 
 |- Preserve Color | [0] (0 ~ 1) | 
 | Clear Canvas || 
 | Save Drawing || 
-| Load Drawing | **[None]**,  |  |
+| Load Drawing | **[None]**, 230929-164956, 230929-170130,  |  |
 |**Shape & Pattern** | | 
 |- Top Height1 | [3] (0 ~ 3) | Height of the first line at center
 |- Top Angle1 | [0] (-180 ~ 180) | Angle of the first line
@@ -157,7 +157,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 |- Stocking Gradient | [2] (-3 ~ 3) | 
 |- Detail Density | [1] (0 ~ 2) | 
 | Enable Dissolve | ON | 
-| Presets | **Stocking Thin**, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |  |
+| Presets | **Stocking Thin**, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original,  |  |
 |**Surface Pattern** | | 
 |- Gloss | [0.9] (0 ~ 1) | 
 |- Metallic | [0] (0 ~ 1) | 
@@ -182,7 +182,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 |- Stocking Gradient | [1] (-3 ~ 3) | 
 |- Detail Density | [1] (0 ~ 2) | 
 | Enable Dissolve | ON | 
-| Presets | Stocking Thin, Stocking Thick, White Stocking, **Latex**, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |  |
+| Presets | Stocking Thin, Stocking Thick, White Stocking, **Latex**, Clear Latex, Silver, Gold, Glow White, Original,  |  |
 |**Surface Border** | | 
 |- Gloss | [0.5] (0 ~ 1) | 
 |- Metallic | [0] (0 ~ 1) | 
@@ -207,7 +207,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 |- Stocking Gradient | [2] (-3 ~ 3) | 
 |- Detail Density | [1] (0 ~ 2) | 
 | Enable Dissolve | ON | 
-| Presets | **Stocking Thin**, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |  |
+| Presets | **Stocking Thin**, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original,  |  |
 |- Dissolve | [0] (0 ~ 1) | 
 |**Dissolve Map** | | 
 |- Pattern L1 | [13] (0 ~ 90) | Change the level 1 pattern when generating the dissolve map
@@ -236,7 +236,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 | Manual Select || 
 |  | OFF | 
 | Filtering || 
-| Presets | **Body Paint**, Fullbody Latex, V Shape Fishnet, Stockings, Stockings Fishnet, Bodysuit 1, Bodysuit 2, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5,  |  |
+| Presets | **Body Paint**, Fullbody Latex, V Shape Fishnet, Stockings, Stockings Fishnet, Bodysuit 1, Bodysuit 2, Preset 1, Preset 2,  |  |
 
 
 ### **Mesh To Cloth**
@@ -392,7 +392,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 | Presets | Skirt, **Top**, Tight Skirt, String Skirt, Hula Skirt,  |  |
 |**C1 Material** | | 
 | Surface || 
-| Presets | Original, **Matt Gray**, Translucent, Glow, Silver, Solid Glass, Thin Glass, Outline, Preset 1, Preset 2, Preset 3,  |  |
+| Presets | Original, **Matt Gray**, Translucent, Glow, Silver, Solid Glass, Thin Glass, Outline,  |  |
 | Glass Mode | OFF | 
 | Alpha As Gloss | OFF | 
 | Double Side | OFF | 
@@ -434,7 +434,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-| Texture | **[Solid Color]**, [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |  |
+| Texture | **[Solid Color]**, [Wood1], [Wood2], [Tiles], [Concrete], [Video], 30off, pattern 01, pattern 03, Wooden floor 01, Wooden floor 03,  |  |
 |**Detail Map** | | 
 | Enable Detail Map | ON | 
 |**Hexagon Map** | | 
@@ -541,7 +541,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 | Presets | **Skirt**, Top, Tight Skirt, String Skirt, Hula Skirt,  |  |
 |**C2 Material** | | 
 | Surface || 
-| Presets | Original, **Matt Gray**, Translucent, Glow, Silver, Solid Glass, Thin Glass, Outline, Preset 1, Preset 2, Preset 3,  |  |
+| Presets | Original, **Matt Gray**, Translucent, Glow, Silver, Solid Glass, Thin Glass, Outline,  |  |
 | Glass Mode | OFF | 
 | Alpha As Gloss | OFF | 
 | Double Side | ON | 
@@ -583,7 +583,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 | Mode | **Off**, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |  |
 |- Refraction | [0.5] (1 ~ 3) | 
 |- Thickness | [1] (0 ~ 1) | 
-| Texture | **[Solid Color]**, [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |  |
+| Texture | **[Solid Color]**, [Wood1], [Wood2], [Tiles], [Concrete], [Video], 30off, pattern 01, pattern 03, Wooden floor 01, Wooden floor 03,  |  |
 |**Detail Map** | | 
 | Enable Detail Map | ON | 
 |**Hexagon Map** | | 
@@ -940,7 +940,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 |- X | [1] (0 ~ 1) | 
 |- Y | [1] (0 ~ 1) | 
 |- Z | [1] (0 ~ 1) | 
-| Presets | **Default (Reset)**, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5,  |  |
+| Presets | **Default (Reset)**,  |  |
 |**Mesh Collider** | | 
 | Enable Mesh Collider | ON | 
 | Disable Geometry Colliders | ON | 
@@ -972,7 +972,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 | :--- | --- | :--- |
 |**Pole** | | 
 | Enable Pole | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -1054,7 +1054,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 |**Left Hand** | | 
 | Enable Left Hand | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -1137,7 +1137,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 | Symmetrical Hands | OFF | 
 |**Right Hand** | | 
 | Enable Right Hand | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -1219,7 +1219,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 |**Chest** | | 
 | Enable Chest | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -1301,7 +1301,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 |**Head** | | 
 | Enable Head | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -1383,7 +1383,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 |**Left Foot** | | 
 | Enable Left Foot | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -1466,7 +1466,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 | Symmetrical Foot | OFF | 
 |**Right Foot** | | 
 | Enable Right Foot | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -1690,7 +1690,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 |- Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 |- Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 |- Grab Axis | [0] (-180 ~ 180) | 
-| Presets | **Rest**, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |  |
+| Presets | **Rest**, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5,  |  |
 |**Right Hand** | | 
 | Enable Right Hand | OFF | 
 | Gesture | Palm Fingers Apart, Palm Fingers Together, **Fist**, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |  |
@@ -1741,10 +1741,10 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 |- Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 |- Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 |- Grab Axis | [0] (-180 ~ 180) | 
-| Presets | **Rest**, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |  |
+| Presets | **Rest**, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5,  |  |
 |**Ride Model** | | 
 | Enable Ride Model | ON | 
-| Model | **[Hoverbike]**, [Rocking Horse],  |  |
+| Model | **[Hoverbike]**, [Rocking Horse], Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |- Acceleration | [10] (0 ~ 20) | 
 |- Drag | [0.05] (0 ~ 1) | 
 |- Tilt When Turning | [0.5] (0 ~ 1) | 
@@ -1808,7 +1808,7 @@ Adjusts the feet's position and rotation to match the ground level, simulating r
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Dildo | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 

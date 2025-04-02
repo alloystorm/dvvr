@@ -16,7 +16,7 @@ sidebar:
 | :--- | --- | :--- |
 |**Pole** | | 
 | Enable Pole | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -98,7 +98,7 @@ sidebar:
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 |**Left Hand** | | 
 | Enable Left Hand | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -181,7 +181,7 @@ sidebar:
 | Symmetrical Hands | OFF | 
 |**Right Hand** | | 
 | Enable Right Hand | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -263,7 +263,7 @@ sidebar:
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 |**Chest** | | 
 | Enable Chest | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -345,7 +345,7 @@ sidebar:
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 |**Head** | | 
 | Enable Head | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -427,7 +427,7 @@ sidebar:
 |- Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 |**Left Foot** | | 
 | Enable Left Foot | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 
@@ -510,7 +510,7 @@ sidebar:
 | Symmetrical Foot | OFF | 
 |**Right Foot** | | 
 | Enable Right Foot | OFF | 
-| Model | **[Pole]**,  |  |
+| Model | **[Pole]**, Anal Beads Fat Long, Anal Beads Fat, Anal Beads Little, Anal Pearls, Baton, Catfeathertoy, Dakimakura 2, Dakimakura, Consolador Accessory, Consolador, Pink Dildo, Dildo No Balls Accessory, Dildo No Balls, Dildo, Dildo Accessory, Vibrator, ﾕﾛﾉﾈ,  |  |
 |**Anchor Offset** | | Set the anchor position for the attachment to attach to
 | Position || 
 |- X | [0] (-1 ~ 1) | 

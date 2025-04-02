@@ -8,21 +8,19 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/system/application_settings) | [繁中](/tw/dancexr/menu/2025.4/system/application_settings) | [日本語](/jp/dancexr/menu/2025.4/system/application_settings) | [한국어](/kr/dancexr/menu/2025.4/system/application_settings) | [简中](/zh/dancexr/menu/2025.4/system/application_settings)
 
-[(DanceXR Pro RT 2025.4.1543)](../menu#(DanceXR Pro RT 2025.4.1543)) > アプリケーション設定
+[システム](../menu#システム) > アプリケーション設定
 
 
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**アプリケーション設定** | | 
 | 前のシーンを読み込む | OFF | 起動時に最後のシーンを自動的に読み込む
-| VRでデスクトップウィンドウをブロック | ON | VRモードでデスクトップウィンドウをブロック
 | セーブからタグを復元 | OFF | コンテンツキャッシュが再構築または破損した場合に、保存された設定からタグを復元しようとします
 | 圧縮DDSの反転 | ON | 圧縮DDSテクスチャを反転
 | 非圧縮DDSの反転 | OFF | 非圧縮DDSテクスチャを反転
 |**VR ハンズ** | | 
 | 手の表示 | ON | 
-| シャドウをキャスト | OFF | 
+| シャドウをキャスト | ON | 
 | (Time And FPS) | ON | 
 |**手の向き** | | 
 | オフセット || 
@@ -31,11 +29,10 @@ sidebar:
 |- (Z) | [0] (-0.1 ~ 0.1) | 
 |- 回転 | [45] (-90 ~ 90) | 
 | ポインターを更新 || 
-|
 | 左手のポーズ | **自動**, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**左手アクセサリー** | | 
 | (Enable Left Hand Accessory) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -45,7 +42,6 @@ sidebar:
 |- (X) | [0] (-90 ~ 90) | 
 |- (Y) | [0] (-90 ~ 90) | 
 |- (Z) | [0] (-90 ~ 90) | 
-|
 | サイズとアライメント || 
 |- オブジェクト半径 | [0.02] (0.01 ~ 0.05) | 
 |- オブジェクト長 | [0.2] (0 ~ 5) | 
@@ -71,10 +67,8 @@ sidebar:
 |- モード | **(Gradual)**, ランダム, ボリューム,  | 
 |- 最小速度 | (1/4), (1/3), **(1/2)**, (2/3), (1),  | 
 |- 最大速度 | (1), **(3/2)**, (2), (3), (4),  | 
-|
 |- 距離 | [0.1] (0 ~ 0.3) | 
 |- 角度 | [0] (-60 ~ 60) | 
-|
 | アニメーション | **なし**,  | 取り付けモデルに使用するローディングモーションを選択 |
 |**表面** | | 
 |- グロス | [0.9] (0 ~ 1) | 
@@ -94,8 +88,7 @@ sidebar:
 |- 青 | [1] (0 ~ 1) | 
 | ブレンドモード | オリジナル, (Multiply), **ブレンド**, (Color Shift),  |  |
 |- ブレンド | [1] (0 ~ 1) | 
-| プリセット | オリジナル, **白**, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |  |
-|
+| プリセット | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, **(Gray)**, (Orange),  |  |
 |**トゥーンシェーダー** | | 
 | (Enable Toon Shader) | OFF | 
 |- シェーディング | [1] (0 ~ 1) | 
@@ -109,24 +102,20 @@ sidebar:
 |- シャドウ | [0.75] (0 ~ 1) | 
 |- ソフトシャドウ | [0.1] (0 ~ 1) | 
 | プリセット | **シャープ**, ソフト, 明るい, フラット + スペキュラー, フラット,  |  |
-|
 |**特別シェーダー** | | 
 | モード | **オフ**, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |  |
 |- 屈折 | [0.5] (1 ~ 3) | 
 |- 厚さ | [1] (0 ~ 1) | 
-|
 | プリセット | ホワイトグロス, レッドグロス, **クローム**, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |  |
-|
 |- X線 | [0] (0 ~ 1) | 
 |- アルファ | [1] (0 ~ 1) | 
 |- 手を引っ張る | [0.1] (0 ~ 0.5) | 十分に近くにいるときに、取り付けに向かって手を引っ張る
 | グラブポーズ | ON | 取り付けにいるときに手のポーズを自動的にグラブに変更
 |- 手の動き | [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
-|
 | 右手のポーズ | **自動**, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**右手アクセサリー** | | 
 | (Enable Right Hand Accessory) | OFF | 
-| モデル | **[ポール]**,  |  |
+| モデル | **[ポール]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), ディルド, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**アンカーオフセット** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -136,7 +125,6 @@ sidebar:
 |- (X) | [0] (-90 ~ 90) | 
 |- (Y) | [0] (-90 ~ 90) | 
 |- (Z) | [0] (-90 ~ 90) | 
-|
 | サイズとアライメント || 
 |- オブジェクト半径 | [0.02] (0.01 ~ 0.05) | 
 |- オブジェクト長 | [0.2] (0 ~ 5) | 
@@ -162,10 +150,8 @@ sidebar:
 |- モード | **(Gradual)**, ランダム, ボリューム,  | 
 |- 最小速度 | (1/4), (1/3), **(1/2)**, (2/3), (1),  | 
 |- 最大速度 | (1), **(3/2)**, (2), (3), (4),  | 
-|
 |- 距離 | [0.1] (0 ~ 0.3) | 
 |- 角度 | [0] (-60 ~ 60) | 
-|
 | アニメーション | **なし**,  | 取り付けモデルに使用するローディングモーションを選択 |
 |**表面** | | 
 |- グロス | [0.9] (0 ~ 1) | 
@@ -185,8 +171,7 @@ sidebar:
 |- 青 | [1] (0 ~ 1) | 
 | ブレンドモード | オリジナル, (Multiply), **ブレンド**, (Color Shift),  |  |
 |- ブレンド | [1] (0 ~ 1) | 
-| プリセット | オリジナル, **白**, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |  |
-|
+| プリセット | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, **(Gray)**, (Orange),  |  |
 |**トゥーンシェーダー** | | 
 | (Enable Toon Shader) | OFF | 
 |- シェーディング | [1] (0 ~ 1) | 
@@ -200,21 +185,15 @@ sidebar:
 |- シャドウ | [0.75] (0 ~ 1) | 
 |- ソフトシャドウ | [0.1] (0 ~ 1) | 
 | プリセット | **シャープ**, ソフト, 明るい, フラット + スペキュラー, フラット,  |  |
-|
 |**特別シェーダー** | | 
 | モード | **オフ**, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |  |
 |- 屈折 | [0.5] (1 ~ 3) | 
 |- 厚さ | [1] (0 ~ 1) | 
-|
 | プリセット | ホワイトグロス, レッドグロス, **クローム**, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |  |
-|
 |- X線 | [0] (0 ~ 1) | 
 |- アルファ | [1] (0 ~ 1) | 
 |- 手を引っ張る | [0.1] (0 ~ 0.5) | 十分に近くにいるときに、取り付けに向かって手を引っ張る
 | グラブポーズ | ON | 取り付けにいるときに手のポーズを自動的にグラブに変更
 |- 手の動き | [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
-|
-|
 | ギズモ第3軸 | **回転**, 深度,  |  |
 | 翻訳された名前を使用 | ON | 
-|

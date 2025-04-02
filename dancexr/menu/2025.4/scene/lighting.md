@@ -94,7 +94,7 @@ sidebar:
 | Denoise | OFF | Enable denoising when using raytracing shadows.
 |- Denoise Radius | [8] (1 ~ 32) | 
 |- Shadow Dimmer | [1] (0 ~ 1) | Reduce intensity of the shadow.
-| Presets | **Spotlight**, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |  |
+| Presets | **Spotlight**, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended,  |  |
 |**Additional 2** | | Configure light group 2
 | Enable Additional 2 | OFF | 
 |- Volumetric Multiplier | [1] (0 ~ 16) | 
@@ -145,7 +145,7 @@ sidebar:
 | Denoise | OFF | Enable denoising when using raytracing shadows.
 |- Denoise Radius | [8] (1 ~ 32) | 
 |- Shadow Dimmer | [1] (0 ~ 1) | Reduce intensity of the shadow.
-| Presets | **Spotlight**, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |  |
+| Presets | **Spotlight**, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended,  |  |
 |**Additional 3** | | Configure light group 3
 | Enable Additional 3 | OFF | 
 |- Volumetric Multiplier | [1] (0 ~ 16) | 
@@ -196,7 +196,7 @@ sidebar:
 | Denoise | OFF | Enable denoising when using raytracing shadows.
 |- Denoise Radius | [8] (1 ~ 32) | 
 |- Shadow Dimmer | [1] (0 ~ 1) | Reduce intensity of the shadow.
-| Presets | **Spotlight**, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |  |
+| Presets | **Spotlight**, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended,  |  |
 |- Overall Intensity | [1] (0 ~ 2) | Overall intensity of all the lights.
 |- Sky Ambient | [1] (0 ~ 14) | Intensity of ambient lighting from sky.
 |**Auto Exposure** | | Auto exposure settings.
@@ -212,4 +212,4 @@ sidebar:
 |- Auto Allocate | **By Distance**, By Index (Fixed),  | 
 |- Refresh Interval | [8] (1 ~ 32) | How often does it reassign lights. In beats.
 | Manual Refresh || Force reassign lights.
-| Presets | Sunset, **Daylight**, Window, Stage, Silhouette, Projector, Area light, Point Light Array, Preset 1, Preset 2, Preset 3,  |  |
+| Presets | Sunset, **Daylight**, Window, Stage, Silhouette, Projector, Area light, Point Light Array,  |  |
