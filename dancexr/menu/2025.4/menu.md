@@ -9,13 +9,14 @@ sidebar:
 
 [Eng](/dancexr/menu/2025.4/menu) | [繁中](/tw/dancexr/menu/2025.4/menu) | [日本語](/jp/dancexr/menu/2025.4/menu) | [한국어](/kr/dancexr/menu/2025.4/menu) | [简中](/zh/dancexr/menu/2025.4/menu)
 
-# Menu catalogue for DanceXR 2025.4
+# Settings Manual (Version 2025.4)
 
-Generated on 2025-04-02 22:27:16
+Generated on 2025-04-02 22:42:45
 
-| | |
+### **DanceXR Pro RT 2025.4.1543**
+
+| Setting | Description |
 | :--- | :--- |
-| **DanceXR Pro RT 2025.4.1543** |  |
 | [Remote Access](system/remote_access) |  | 
 | [Content Library](system/library) |  | 
 | [Controller Input](system/input_settings) |  | 
@@ -25,7 +26,12 @@ Generated on 2025-04-02 22:27:16
 | [Application Settings](system/application_settings) |  | 
 | [Exit](system/exit) |  | 
 | | |
-| **Environment** |  |
+
+
+### **Environment**
+
+| Setting | Description |
+| :--- | :--- |
 | [Sky](scene/sky) |  | 
 | [Ground](scene/ground) |  | 
 | [Particle Effect](scene/particles) |  | 
@@ -34,20 +40,40 @@ Generated on 2025-04-02 22:27:16
 | [Animated Values](scene/auto_updates) |  | 
 | [System Presets](scene/system_presets) | Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library. | 
 | | |
-| **Scene** |  |
+
+
+### **Scene**
+
+| Setting | Description |
+| :--- | :--- |
 | [Options](stage/scene) |  | 
 | | |
-| **Audio / Motion** |  |
+
+
+### **Audio / Motion**
+
+| Setting | Description |
+| :--- | :--- |
 | [Procedural](motion/procedural) |  | 
 | [Playback Options](motion/motion_loader) |  | 
 | [Video Player](motion/video_player) |  | 
 | | |
-| **Actors** |  |
+
+
+### **Actors**
+
+| Setting | Description |
+| :--- | :--- |
 | [Formation](actors/formation) |  | 
 | [Global Actor Control](actors/global_actor_control) |  | 
 | [Loader Options](actors/loader_options) |  | 
 | | |
-| **Chat Settings** |  |
+
+
+### **Chat Settings**
+
+| Setting | Description |
+| :--- | :--- |
 | [Enable Chat Settings](chat/enabled) |  | 
 | [AI Service](chat/ai_service) |  | 
 | [Chat Settings](chat/chat_settings) |  | 
@@ -59,10 +85,13 @@ Generated on 2025-04-02 22:27:16
 | [Save History](chat/save_history) |  | 
 | [Clear History](chat/clear_history) |  | 
 | | |
-| **Actor** |  |
-| Assign Motion | |
+
+
+### **Actor**
+
+| Setting | Description |
+| :--- | :--- |
 | [Motion Settings](actor/actor_motion) |  | 
-| Recently Modified | |
 | [Accessory](actor/accessory) |  | 
 | [Attach To Actor](actor/attach_to_actor) |  | 
 | [Auto Reset](actor/auto_reset) |  | 
@@ -74,9 +103,12 @@ Generated on 2025-04-02 22:27:16
 | [Physics](actor/model_physics) |  | 
 | [Presets](actor/actor_presets) |  | 
 | | |
-| **Prop** |  |
-| Assign Motion | |
-| Recently Modified | |
+
+
+### **Prop**
+
+| Setting | Description |
+| :--- | :--- |
 | [Auto Reset](prop/auto_reset) |  | 
 | [Body Colliders](prop/body_colliders) |  | 
 | [Dangling Physics](prop/cloth_physics) |  | 
@@ -86,9 +118,12 @@ Generated on 2025-04-02 22:27:16
 | [Physics](prop/model_physics) |  | 
 | [Presets](prop/actor_presets) |  | 
 | | |
-| **Stage** |  |
-| Assign Motion | |
-| Recently Modified | |
+
+
+### **Stage**
+
+| Setting | Description |
+| :--- | :--- |
 | [Auto Reset](stage/auto_reset) |  | 
 | [Body Colliders](stage/body_colliders) |  | 
 | [Dangling Physics](stage/cloth_physics) |  | 
@@ -98,4 +133,6 @@ Generated on 2025-04-02 22:27:16
 | [Physics](stage/model_physics) |  | 
 | [Presets](stage/actor_presets) |  | 
 | | |
+
+
 

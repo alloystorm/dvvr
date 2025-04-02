@@ -9,13 +9,14 @@ sidebar:
 
 [Eng](/dancexr/menu/2025.4/menu) | [繁中](/tw/dancexr/menu/2025.4/menu) | [日本語](/jp/dancexr/menu/2025.4/menu) | [한국어](/kr/dancexr/menu/2025.4/menu) | [简中](/zh/dancexr/menu/2025.4/menu)
 
-# Menu catalogue for DanceXR 2025.4
+# Settings Manual (Version 2025.4)
 
-Generated on 2025-04-02 22:27:17
+Generated on 2025-04-02 22:42:45
 
-| | |
+### **(DanceXR Pro RT 2025.4.1543)**
+
+| Setting | Description |
 | :--- | :--- |
-| **(DanceXR Pro RT 2025.4.1543)** |  |
 | [远程访问](system/remote_access) |  | 
 | [内容库](system/library) |  | 
 | [控制器输入](system/input_settings) |  | 
@@ -25,7 +26,12 @@ Generated on 2025-04-02 22:27:17
 | [应用程序设置](system/application_settings) |  | 
 | [退出](system/exit) |  | 
 | | |
-| **环境** |  |
+
+
+### **环境**
+
+| Setting | Description |
+| :--- | :--- |
 | [天空](scene/sky) |  | 
 | [地面](scene/ground) |  | 
 | [粒子效果](scene/particles) |  | 
@@ -34,20 +40,40 @@ Generated on 2025-04-02 22:27:17
 | [动画值](scene/auto_updates) |  | 
 | [系统预设](scene/system_presets) | (Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.) | 
 | | |
-| **场景** |  |
+
+
+### **场景**
+
+| Setting | Description |
+| :--- | :--- |
 | [选项](stage/scene) |  | 
 | | |
-| **音频 / 动作** |  |
+
+
+### **音频 / 动作**
+
+| Setting | Description |
+| :--- | :--- |
 | [程序化](motion/procedural) |  | 
 | [播放选项](motion/motion_loader) |  | 
 | [视频播放器](motion/video_player) |  | 
 | | |
-| **演员** |  |
+
+
+### **演员**
+
+| Setting | Description |
+| :--- | :--- |
 | [编队](actors/formation) |  | 
 | [全局角色控制](actors/global_actor_control) |  | 
 | [加载器选项](actors/loader_options) |  | 
 | | |
-| **聊天设置** |  |
+
+
+### **聊天设置**
+
+| Setting | Description |
+| :--- | :--- |
 | [(Enable Chat Settings)](chat/enabled) |  | 
 | [AI 服务](chat/ai_service) |  | 
 | [聊天设置](chat/chat_settings) |  | 
@@ -59,10 +85,13 @@ Generated on 2025-04-02 22:27:17
 | [保存历史记录](chat/save_history) |  | 
 | [清除历史记录](chat/clear_history) |  | 
 | | |
-| **演员** |  |
-| 分配动作 | |
+
+
+### **演员**
+
+| Setting | Description |
+| :--- | :--- |
 | [动作设置](actor/actor_motion) |  | 
-| 最近修改 | |
 | [配件](actor/accessory) |  | 
 | [(Attach To Actor)](actor/attach_to_actor) |  | 
 | [自动重置](actor/auto_reset) |  | 
@@ -74,9 +103,12 @@ Generated on 2025-04-02 22:27:17
 | [物理](actor/model_physics) |  | 
 | [预设](actor/actor_presets) |  | 
 | | |
-| **(Prop)** |  |
-| 分配动作 | |
-| 最近修改 | |
+
+
+### **(Prop)**
+
+| Setting | Description |
+| :--- | :--- |
 | [自动重置](prop/auto_reset) |  | 
 | [身体碰撞器](prop/body_colliders) |  | 
 | [悬挂物理](prop/cloth_physics) |  | 
@@ -86,9 +118,12 @@ Generated on 2025-04-02 22:27:17
 | [物理](prop/model_physics) |  | 
 | [预设](prop/actor_presets) |  | 
 | | |
-| **舞台** |  |
-| 分配动作 | |
-| 最近修改 | |
+
+
+### **舞台**
+
+| Setting | Description |
+| :--- | :--- |
 | [自动重置](stage/auto_reset) |  | 
 | [身体碰撞器](stage/body_colliders) |  | 
 | [悬挂物理](stage/cloth_physics) |  | 
@@ -98,4 +133,6 @@ Generated on 2025-04-02 22:27:17
 | [物理](stage/model_physics) |  | 
 | [预设](stage/actor_presets) |  | 
 | | |
+
+
 
