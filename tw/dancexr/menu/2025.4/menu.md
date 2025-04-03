@@ -13,14 +13,14 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [遠端訪問](system2/remote_access) |  | 
-| [內容庫](system2/library) |  | 
-| [控制器輸入](system2/input_settings) |  | 
-| [顯示與UI](system2/screen) |  | 
-| [圖形](system2/graphics) |  | 
-| [物理](system2/physics) |  | 
-| [應用設置](system2/application_settings) |  | 
-| [退出](system2/exit) |  | 
+| [遠端訪問](system/remote_access) |  | 
+| [內容庫](system/library) |  | 
+| [控制器輸入](system/input_settings) |  | 
+| [顯示與UI](system/screen) |  | 
+| [圖形](system/graphics) |  | 
+| [物理](system/physics) |  | 
+| [應用設置](system/application_settings) |  | 
+| [退出](system/exit) |  | 
 | | |
 
 

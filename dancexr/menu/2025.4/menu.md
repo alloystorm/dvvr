@@ -13,14 +13,14 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [Remote Access](system2/remote_access) |  | 
-| [Content Library](system2/library) |  | 
-| [Controller Input](system2/input_settings) |  | 
-| [Display & UI](system2/screen) |  | 
-| [Graphics](system2/graphics) |  | 
-| [Physics](system2/physics) |  | 
-| [Application Settings](system2/application_settings) |  | 
-| [Exit](system2/exit) |  | 
+| [Remote Access](system/remote_access) |  | 
+| [Content Library](system/library) |  | 
+| [Controller Input](system/input_settings) |  | 
+| [Display & UI](system/screen) |  | 
+| [Graphics](system/graphics) |  | 
+| [Physics](system/physics) |  | 
+| [Application Settings](system/application_settings) |  | 
+| [Exit](system/exit) |  | 
 | | |
 
 

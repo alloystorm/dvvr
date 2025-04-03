@@ -72,4 +72,4 @@ sidebar:
 |- Y | [0] (-90 ~ 90) | 
 |- Z | [0] (-90 ~ 90) | 
 |- Middle Finger | [0.5] (0 ~ 1) | 
-| Presets | **Default (Reset)**, 2b,  |  |
+| Presets | **Default (Reset)**,  |  |

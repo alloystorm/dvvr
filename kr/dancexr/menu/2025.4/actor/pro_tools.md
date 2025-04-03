@@ -95,12 +95,12 @@ sidebar:
 |- 빨간색 | [1] (0 ~ 1) | 
 |- 초록색 | [1] (0 ~ 1) | 
 |- 파란색 | [1] (0 ~ 1) | 
-| 프리셋 | **흰색**, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange), (Preset 1),  |  |
+| 프리셋 | **흰색**, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |  |
 |- 발광 | [0] (0 ~ 10) | 
 |- 색상 보존 | [0] (0 ~ 1) | 
 | 캔버스 지우기 || 
 | 그림 저장 || 
-| 그림 불러오기 | **[없음]**,  |  |
+| 그림 불러오기 | **[없음]**, (230929-164956), (230929-170130),  |  |
 |**형태 및 패턴** | | 
 |- 상단 높이1 | [3] (0 ~ 3) | 중앙 첫 번째 선의 높이
 |- 상단 각도1 | [0] (-180 ~ 180) | 첫 번째 선의 각도
@@ -157,7 +157,7 @@ sidebar:
 |- 스타킹 그라데이션 | [2] (-3 ~ 3) | 
 |- 세부 밀도 | [1] (0 ~ 2) | 
 | 용해 활성화 | ON | 
-| 프리셋 | **얇은 스타킹**, 두꺼운 스타킹, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본, (Preset 1), (Preset 2), (预设1),  |  |
+| 프리셋 | **얇은 스타킹**, 두꺼운 스타킹, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본,  |  |
 |**서페이스 패턴** | | 
 |- 광택 | [0.9] (0 ~ 1) | 
 |- 금속성 | [0] (0 ~ 1) | 
@@ -182,7 +182,7 @@ sidebar:
 |- 스타킹 그라데이션 | [1] (-3 ~ 3) | 
 |- 세부 밀도 | [1] (0 ~ 2) | 
 | 용해 활성화 | ON | 
-| 프리셋 | 얇은 스타킹, 두꺼운 스타킹, 흰색 스타킹, **라텍스**, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본, (Preset 1), (Preset 2), (预设1),  |  |
+| 프리셋 | 얇은 스타킹, 두꺼운 스타킹, 흰색 스타킹, **라텍스**, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본,  |  |
 |**서페이스 테두리** | | 
 |- 광택 | [0.5] (0 ~ 1) | 
 |- 금속성 | [0] (0 ~ 1) | 
@@ -207,7 +207,7 @@ sidebar:
 |- 스타킹 그라데이션 | [2] (-3 ~ 3) | 
 |- 세부 밀도 | [1] (0 ~ 2) | 
 | 용해 활성화 | ON | 
-| 프리셋 | **얇은 스타킹**, 두꺼운 스타킹, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본, (Preset 1), (Preset 2), (预设1),  |  |
+| 프리셋 | **얇은 스타킹**, 두꺼운 스타킹, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본,  |  |
 |- 용해 | [0] (0 ~ 1) | 
 |**용해 맵** | | 
 |- 패턴 L1 | [13] (0 ~ 90) | 용해 맵 생성 시 레벨 1 패턴 변경
@@ -236,7 +236,7 @@ sidebar:
 | 수동 선택 || 
 |  | OFF | 
 | 필터링 || 
-| 프리셋 | **바디 페인트**, 풀바디 라텍스, V자 모양 어망, 스타킹, 스타킹 어망, 바디수트 1, 바디수트 2, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
+| 프리셋 | **바디 페인트**, 풀바디 라텍스, V자 모양 어망, 스타킹, 스타킹 어망, 바디수트 1, 바디수트 2, (Preset 1), (Preset 2),  |  |
 
 
 ### **메시를 옷으로**
@@ -392,7 +392,7 @@ sidebar:
 | 프리셋 | 치마, **(Top)**, (Tight Skirt), (String Skirt), (Hula Skirt),  |  |
 |**C1 재질** | | 
 | 표면 || 
-| 프리셋 | 원본, **회색 무광**, 반투명, 발광, 은색, 단단한 유리, 얇은 유리, 윤곽선, (Preset 1), (Preset 2), (Preset 3),  |  |
+| 프리셋 | 원본, **회색 무광**, 반투명, 발광, 은색, 단단한 유리, 얇은 유리, 윤곽선,  |  |
 | 유리 모드 | OFF | 
 | 알파를 광택으로 사용 | OFF | 
 | 양면 | ON | 
@@ -434,7 +434,7 @@ sidebar:
 | 모드 | **끄기**, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |  |
 |- 굴절 | [0.5] (1 ~ 3) | 
 |- 두께 | [1] (0 ~ 1) | 
-| 텍스처 | **[솔리드 컬러]**, [우드1], [우드2], [타일], [콘크리트], [비디오],  |  |
+| 텍스처 | **[솔리드 컬러]**, [우드1], [우드2], [타일], [콘크리트], [비디오], (30off), (pattern 01), (pattern 03), (Wooden floor 01), (Wooden floor 03),  |  |
 |**디테일 맵** | | 
 | (Enable Detail Map) | ON | 
 |**(Hexagon Map)** | | 
@@ -541,7 +541,7 @@ sidebar:
 | 프리셋 | **치마**, (Top), (Tight Skirt), (String Skirt), (Hula Skirt),  |  |
 |**C2 재질** | | 
 | 표면 || 
-| 프리셋 | 원본, **회색 무광**, 반투명, 발광, 은색, 단단한 유리, 얇은 유리, 윤곽선, (Preset 1), (Preset 2), (Preset 3),  |  |
+| 프리셋 | 원본, **회색 무광**, 반투명, 발광, 은색, 단단한 유리, 얇은 유리, 윤곽선,  |  |
 | 유리 모드 | OFF | 
 | 알파를 광택으로 사용 | OFF | 
 | 양면 | ON | 
@@ -583,7 +583,7 @@ sidebar:
 | 모드 | **끄기**, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |  |
 |- 굴절 | [0.5] (1 ~ 3) | 
 |- 두께 | [1] (0 ~ 1) | 
-| 텍스처 | **[솔리드 컬러]**, [우드1], [우드2], [타일], [콘크리트], [비디오],  |  |
+| 텍스처 | **[솔리드 컬러]**, [우드1], [우드2], [타일], [콘크리트], [비디오], (30off), (pattern 01), (pattern 03), (Wooden floor 01), (Wooden floor 03),  |  |
 |**디테일 맵** | | 
 | (Enable Detail Map) | ON | 
 |**(Hexagon Map)** | | 
@@ -940,7 +940,7 @@ sidebar:
 |- (X) | [1] (0 ~ 1) | 
 |- (Y) | [1] (0 ~ 1) | 
 |- (Z) | [1] (0 ~ 1) | 
-| 프리셋 | **기본값 (초기화)**, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
+| 프리셋 | **기본값 (초기화)**,  |  |
 |**메시 충돌기** | | 
 | (Enable Mesh Collider) | ON | 
 | 지오메트리 충돌기 비활성화 | ON | 
@@ -972,7 +972,7 @@ sidebar:
 | :--- | --- | :--- |
 |**폴** | | 
 | (Enable Pole) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1054,7 +1054,7 @@ sidebar:
 |- 손 동작 | [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
 |**왼손** | | 
 | (Enable Left Hand) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1137,7 +1137,7 @@ sidebar:
 | 대칭 손 | OFF | 
 |**오른손** | | 
 | (Enable Right Hand) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1219,7 +1219,7 @@ sidebar:
 |- 손 동작 | [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
 |**가슴** | | 
 | (Enable Chest) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1301,7 +1301,7 @@ sidebar:
 |- 손 동작 | [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
 |**머리** | | 
 | (Enable Head) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1383,7 +1383,7 @@ sidebar:
 |- 손 동작 | [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
 |**왼발** | | 
 | (Enable Left Foot) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1466,7 +1466,7 @@ sidebar:
 | 대칭 발 | OFF | 
 |**오른발** | | 
 | (Enable Right Foot) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -1690,7 +1690,7 @@ sidebar:
 |- 잡기 거리 | [0.015] (-0.1 ~ 0.1) | 
 |- 잡기 위치 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| 프리셋 | **(Rest)**, 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| 프리셋 | **(Rest)**, 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**오른손** | | 
 | (Enable Right Hand) | OFF | 
 | 제스처 | (Palm Fingers Apart), (Palm Fingers Together), **(Fist)**, (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |  |
@@ -1741,10 +1741,10 @@ sidebar:
 |- 잡기 거리 | [0.015] (-0.1 ~ 0.1) | 
 |- 잡기 위치 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| 프리셋 | **(Rest)**, 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| 프리셋 | **(Rest)**, 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**탑승 모델** | | 
 | (Enable Ride Model) | ON | 
-| 모델 | **([Hoverbike])**, ([Rocking Horse]),  |  |
+| 모델 | **([Hoverbike])**, ([Rocking Horse]), (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |- 가속 | [10] (0 ~ 20) | 
 |- 드래그 | [0.05] (0 ~ 1) | 
 |- 회전 시 기울기 | [0.5] (0 ~ 1) | 
@@ -1808,7 +1808,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 딜도 | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 

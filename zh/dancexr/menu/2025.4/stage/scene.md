@@ -25,7 +25,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable DanceXR Logo) | ON | 
+| (Enable DanceXR Logo) | OFF | 
 |**Logo表面1** | | 
 |- 光泽 | [0.9] (0 ~ 1) | 
 |- 金属质感 | [0] (0 ~ 1) | 
@@ -119,7 +119,7 @@ sidebar:
 |- 蓝色 | [1] (0 ~ 1) | 
 | 混合模式 | 原始模型, (Multiply), **混合**, (Color Shift),  |  |
 |- 混合 | [1] (0 ~ 1) | 
-| 预设 | 原始模型, **白色**, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |  |
+| 预设 | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, **(Gray)**, (Orange),  |  |
 |**卡通着色器** | | 
 | (Enable Toon Shader) | OFF | 
 |- 着色 | [1] (0 ~ 1) | 
@@ -149,7 +149,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Beats Visualizer) | ON | 
+| (Enable Beats Visualizer) | OFF | 
 |- 数据 | **节拍**, 原始节拍, 原始起始,  | 
 |- 位置 | 摄像机, **舞台**, 演员,  | 
 |- 半径 | [1.2] (0.2 ~ 5) | 
@@ -237,4 +237,4 @@ sidebar:
 |- 使用音频 | [2] (0 ~ 4) | 
 |- 种子 | [1234] ((Unlimited)) | 控制随机化的模式序列
 | 预设 | **默认（重置）**,  |  |
-| 预设 | **关闭**, 直线, 半圆, 点, 伴音乐的辉光, (Preset 1),  |  |
+| 预设 | 关闭, **直线**, 半圆, 点, 伴音乐的辉光,  |  |

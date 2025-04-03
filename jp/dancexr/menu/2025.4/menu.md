@@ -13,14 +13,14 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [リモートアクセス](system2/remote_access) |  | 
-| [コンテンツライブラリ](system2/library) |  | 
-| [コントローラー入力](system2/input_settings) |  | 
-| [表示＆UI](system2/screen) |  | 
-| [グラフィックス](system2/graphics) |  | 
-| [物理](system2/physics) |  | 
-| [アプリケーション設定](system2/application_settings) |  | 
-| [終了](system2/exit) |  | 
+| [リモートアクセス](system/remote_access) |  | 
+| [コンテンツライブラリ](system/library) |  | 
+| [コントローラー入力](system/input_settings) |  | 
+| [表示＆UI](system/screen) |  | 
+| [グラフィックス](system/graphics) |  | 
+| [物理](system/physics) |  | 
+| [アプリケーション設定](system/application_settings) |  | 
+| [終了](system/exit) |  | 
 | | |
 
 

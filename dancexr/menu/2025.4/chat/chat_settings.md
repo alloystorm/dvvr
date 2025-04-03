@@ -15,19 +15,19 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | Chat Language | **Auto**, English, Chinese, Japanese, Korean, Vietnamese, Thai, French, German, Spanish,  |  |
-| Template | **default**,  |  |
+| Template | **default**, writer,  |  |
 | Generate Story | ON | 
 | Story Genre | Random, Sci-Fi, **Fantasy**, Mystery, Thriller, Romance, Action, Horror, Adventure, Comedy, Erotic,  |  |
 | Regenerate Story || 
 | Summarize Older Messages | ON | 
-|- Max Message Count | [10] (10 ~ 25) | Older messages over this limit will be summarized.
-|- Max Prompt Length | [11] (10 ~ 17) | 
+|- Max Message Count | [15] (10 ~ 25) | Older messages over this limit will be summarized.
+|- Max Prompt Length | [10] (10 ~ 17) | 
 |- Max Generate Tokens | [250] (50 ~ 1000) | 
-|- Temperature | [0.75] (0 ~ 1) | 
+|- Temperature | [0.5] (0 ~ 1) | 
 |- Presence Penalty | [0.5] (0 ~ 1) | 
 |- Frequency Penalty | [0.5] (0 ~ 1) | 
 | Generate For Player | OFF | 
-| Auto Generate Next | OFF | 
-|- Auto Generate Delay | [15] (1 ~ 20) | 
+| Auto Generate Next | ON | 
+|- Auto Generate Delay | [5.75] (1 ~ 20) | 
 | Use Subtitle | ON | 
 | Describe Outfit | OFF | 

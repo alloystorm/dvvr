@@ -33,7 +33,7 @@ sidebar:
 |- Red | [0.9] (0 ~ 1) | 
 |- Green | [0.9] (0 ~ 1) | 
 |- Blue | [0] (0 ~ 1) | 
-| Presets | White, Black, Red, **Yellow**, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |  |
+| Presets | White, Black, Red, **Yellow**, Dark Gray, Blue, Skin, Gray, Orange,  |  |
 |- Glow | [1] (0 ~ 10) | Brightness of the burn effect.
 |- Blend | [1] (0 ~ 1) | Blend between the original color and the burn color. 
 |- Duration | [2] (0 ~ 5) | The duration of the animation.

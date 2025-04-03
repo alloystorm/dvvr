@@ -8,17 +8,21 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/system/library) | [繁中](/tw/dancexr/menu/2025.4/system/library) | [日本語](/jp/dancexr/menu/2025.4/system/library) | [한국어](/kr/dancexr/menu/2025.4/system/library) | [简中](/zh/dancexr/menu/2025.4/system/library)
 
-[DanceXR Pro RT 2025.4.1543](../menu#DanceXR Pro RT 2025.4.1543) > Content Library
+[System](../menu#System) > Content Library
 
 
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Content Library || 
 | Refresh Content || 
 | Migrate Settings || 
 | Remove Duplicates || 
 | Switch Library || 
+| /Users/frankli/Documents/unity/content || 
+| ./content || 
+| Select Library Folder || 
 | Show In Explorer || 
 | Google Drive || 
-| Link Google Drive || 
+| Download || 
+| Link Another || 
+| Unlink Drive || 

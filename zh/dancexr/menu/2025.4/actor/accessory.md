@@ -16,7 +16,7 @@ sidebar:
 | :--- | --- | :--- |
 |**杆** | | 
 | (Enable Pole) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假阳具, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**锚点偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -98,7 +98,7 @@ sidebar:
 |- 手的运动 | [0] (-1 ~ 1) | 相对于附加物运动移动手
 |**左手** | | 
 | (Enable Left Hand) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假阳具, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**锚点偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -181,7 +181,7 @@ sidebar:
 | 对称手 | OFF | 
 |**右手** | | 
 | (Enable Right Hand) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假阳具, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**锚点偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -263,7 +263,7 @@ sidebar:
 |- 手的运动 | [0] (-1 ~ 1) | 相对于附加物运动移动手
 |**胸部** | | 
 | (Enable Chest) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假阳具, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**锚点偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -345,7 +345,7 @@ sidebar:
 |- 手的运动 | [0] (-1 ~ 1) | 相对于附加物运动移动手
 |**头部** | | 
 | (Enable Head) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假阳具, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**锚点偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -427,7 +427,7 @@ sidebar:
 |- 手的运动 | [0] (-1 ~ 1) | 相对于附加物运动移动手
 |**左脚** | | 
 | (Enable Left Foot) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假阳具, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**锚点偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -510,7 +510,7 @@ sidebar:
 | 对称脚 | OFF | 
 |**右脚** | | 
 | (Enable Right Foot) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假阳具, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**锚点偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 

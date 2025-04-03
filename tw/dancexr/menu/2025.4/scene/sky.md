@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|- 模式 | 顏色, 天空地圖, **程序化**,  | (Selects the sky rendering mode: Color, Sky Map, or Procedural.)
+|- 模式 | 顏色, **天空地圖**, 程序化,  | (Selects the sky rendering mode: Color, Sky Map, or Procedural.)
 |- 背景 | [1] (0 ~ 1) | (Controls the brightness of the sky when it is rendered.)
 |- 天空環境光 | [1] (0 ~ 1) | 控制天空對環境光照明的影響程度。
-| 天空地圖 | **([Cloud])**, ([Fantasy]), ([Day]), ([Studio]),  |  |
+| 天空地圖 | ([Cloud]), ([Fantasy]), **([Day])**, ([Studio]), (adams_place_bridge), (autoshop_01), (circus_maximus_2), (concrete_tunnel_02), (dresden_square), (hansaplatz), (mealie_road), (neuer_zollhof), (old_bus_depot), (quarry_03), (rathaus), (skylit_garage), (small_hangar_01), (spiaggia_di_mondello), (vignaioli_night), (wide_street_02),  |  |
 |- 朝向 | [0] (0 ~ 360) | (Sets the rotation of the sky in degrees.)
 |- 風 | [1] (0 ~ 4) | (Global wind speed affecting cloth simulation, particle dynamics, and clouds.)
 |- 風向 | [0] (0 ~ 360) | (Sets the global wind direction in degrees.)
@@ -68,7 +68,7 @@ sidebar:
 |- 色溫 | [6500] (3000 ~ 8000) | 
 | 預設 | **白色**, 日落, 紅色, (Yellow), 藍色, 綠色,  |  |
 |**雲** | | Configures volumetric clouds, including shape, erosion, density, and wind effects.
-| (Enable Cloud) | ON | (Enables or disables volumetric clouds.)
+| (Enable Cloud) | OFF | (Enables or disables volumetric clouds.)
 |- 形狀縮放 | [1] (-1 ~ 2) | (Controls the scale of the cloud shapes.)
 |- 形狀因子 | [0.8] (0 ~ 1) | (Adjusts the shape factor of the clouds.)
 |- 侵蝕縮放 | [2] (0 ~ 5) | (Controls the scale of cloud erosion.)
@@ -76,4 +76,4 @@ sidebar:
 |- 密度 | [0.2] (0 ~ 1) | (Sets the density multiplier for the clouds.)
 | 陰影 | OFF | (Enables or disables cloud shadows.)
 |- 風倍增器 | [3] (0 ~ 4) | (Sets the wind multiplier for cloud movement.)
-| 預設 | 天空貼圖, 程序化, 室內, **薄雲**, 多雲,  |  |
+| 預設 | **天空貼圖**, 程序化, 室內, 薄雲, 多雲, (Preset 1),  |  |

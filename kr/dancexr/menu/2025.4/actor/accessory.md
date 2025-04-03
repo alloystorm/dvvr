@@ -16,7 +16,7 @@ sidebar:
 | :--- | --- | :--- |
 |**폴** | | 
 | (Enable Pole) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -98,7 +98,7 @@ sidebar:
 |- 손 동작 | [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
 |**왼손** | | 
 | (Enable Left Hand) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -181,7 +181,7 @@ sidebar:
 | 대칭 손 | OFF | 
 |**오른손** | | 
 | (Enable Right Hand) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -263,7 +263,7 @@ sidebar:
 |- 손 동작 | [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
 |**가슴** | | 
 | (Enable Chest) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -345,7 +345,7 @@ sidebar:
 |- 손 동작 | [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
 |**머리** | | 
 | (Enable Head) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -427,7 +427,7 @@ sidebar:
 |- 손 동작 | [0] (-1 ~ 1) | 부착물 모션에 따라 손을 이동
 |**왼발** | | 
 | (Enable Left Foot) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -510,7 +510,7 @@ sidebar:
 | 대칭 발 | OFF | 
 |**오른발** | | 
 | (Enable Right Foot) | OFF | 
-| 모델 | **[기둥]**,  |  |
+| 모델 | **[기둥]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 딜도, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**앵커 오프셋** | | Set the anchor position for the attachment to attach to
 | 위치 || 
 |- (X) | [0] (-1 ~ 1) | 

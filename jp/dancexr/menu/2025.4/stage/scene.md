@@ -25,7 +25,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable DanceXR Logo) | ON | 
+| (Enable DanceXR Logo) | OFF | 
 |**ロゴサーフェス1** | | 
 |- グロス | [0.9] (0 ~ 1) | 
 |- 金属的 | [0] (0 ~ 1) | 
@@ -119,7 +119,7 @@ sidebar:
 |- 青 | [1] (0 ~ 1) | 
 | ブレンドモード | オリジナル, (Multiply), **ブレンド**, (Color Shift),  |  |
 |- ブレンド | [1] (0 ~ 1) | 
-| プリセット | オリジナル, **白**, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |  |
+| プリセット | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, **(Gray)**, (Orange),  |  |
 |**トゥーンシェーダー** | | 
 | (Enable Toon Shader) | OFF | 
 |- シェーディング | [1] (0 ~ 1) | 
@@ -149,7 +149,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Beats Visualizer) | ON | 
+| (Enable Beats Visualizer) | OFF | 
 |- データ | **ビート**, 生ビート, 生オンセット,  | 
 |- ロケーション | カメラ, **ステージ**, アクター,  | 
 |- 半径 | [1.2] (0.2 ~ 5) | 
@@ -237,4 +237,4 @@ sidebar:
 |- オーディオ使用 | [2] (0 ~ 4) | 
 |- シード | [1234] ((Unlimited)) | ランダム化されたパターンシーケンスの制御
 | プリセット | **デフォルト（リセット）**,  |  |
-| プリセット | **オフ**, ライン, 半円, ポイント, 音楽による光, (Preset 1),  |  |
+| プリセット | オフ, **ライン**, 半円, ポイント, 音楽による光,  |  |

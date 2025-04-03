@@ -16,7 +16,7 @@ sidebar:
 | :--- | --- | :--- |
 | [Freefly Cam] || 
 |**[Freefly Cam]** | | 
-| Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
+| Target Select | Auto, Selected, Group, **Rotate**, Rotate + Group, Stage Center,  |  |
 | Tracking Mode | **Center**, Head, Chest,  |  |
 |- Target Smoothing | [0.5] (0 ~ 2) | 
 |- Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
@@ -33,7 +33,7 @@ sidebar:
 | Presets | **Freefly**, Lock On Actor, Lock + Zoom Fullbody, Lock + Zoom Upper Body,  |  |
 | [Orbit Cam] || 
 |**[Orbit Cam]** | | 
-| Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
+| Target Select | Auto, Selected, Group, **Rotate**, Rotate + Group, Stage Center,  |  |
 | Tracking Mode | **Center**, Head, Chest,  |  |
 |- Target Smoothing | [0.5] (0 ~ 2) | 
 |- Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
@@ -41,7 +41,7 @@ sidebar:
 |- Beat Cycle | [8] (1 ~ 16) | 
 | Use Controller Input | OFF | 
 | Prevent Below Floor | ON | 
-| Retain Velocity | OFF | Maintain the rotation when there is no input
+| Retain Velocity | ON | Maintain the rotation when there is no input
 |- Max Speed | [15] (0 ~ 30) | Maximum rotation speed
 |- Min Speed | [0] (0 ~ 30) | Minimum rotation speed
 | Auto Mode | OFF | 
@@ -55,7 +55,7 @@ sidebar:
 |- Height Max | [0.5] (0 ~ 1) | 
 |- Height Cycle | [32] (Unlimited) | 
 |- Speed | [10] (0 ~ 90) | 
-| Presets | **Default (Reset)**, Preset 1,  |  |
+| Presets | **Default (Reset)**,  |  |
 | [Auto Cam] || 
 |**[Auto Cam]** | | 
 | Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
@@ -92,7 +92,7 @@ sidebar:
 |- Side 90 | [0.25] (0 ~ 1) | Probability of orienting the camera to the actor's side at a 90-degree angle.
 |- Back 135 | [0] (0 ~ 1) | Probability of orienting the camera to a 135-degree angle behind the actor.
 |- Back 180 | [0.25] (0 ~ 1) | Probability of orienting the camera directly behind the actor.
-| Presets | **Default (Reset)**, Preset 1,  |  |
+| Presets | **Default (Reset)**,  |  |
 | [Long Take] || 
 |**[Long Take]** | | 
 | Target Select | **Auto**, Selected, Group, Rotate, Rotate + Group, Stage Center,  |  |
@@ -108,7 +108,7 @@ sidebar:
 | Prevent Below Floor | ON | 
 | Use Actor Orientation | ON | 
 | Raise Focus When Close | OFF | Move focus position up when distance gets smaller
-| Presets | **Default (Reset)**, Preset 1, Preset 2, Preset 3,  |  |
+| Presets | **Default (Reset)**,  |  |
 | [First Person] || 
 |**[First Person]** | | 
 | Select Actor |  |  |

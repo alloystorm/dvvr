@@ -19,7 +19,7 @@ sidebar:
 |- Radius | [200] (2 ~ 100) | Size of the ground mesh.
 | Hide If Stage Present | ON | Hide ground when there are stage models.
 |**Surface** | | 
-| Texture | [Sky Map], [Wood1], [Wood2], **[Tiles]**, [Concrete], [Video],  |  |
+| Texture | [Sky Map], [Wood1], [Wood2], **[Tiles]**, [Concrete], [Video], 30off, pattern 01, pattern 03, Wooden floor 01, Wooden floor 03,  |  |
 |**Tiling** | | 
 |- Tiling X | [1] (0.1 ~ 10) | 
 |- Tiling Y | [1] (0.1 ~ 10) | 
@@ -76,7 +76,7 @@ sidebar:
 | Presets | Sky Map, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, **Black Gloss**, Glow, Glass,  |  |
 |**Shadow Only** | | 
 | Shadow Color || 
-| Presets | White, **Black**, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |  |
+| Presets | White, **Black**, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |  |
 |- Color Mode | **RGB**, HSV,  | 
 |- Hue | [0] (0 ~ 1) | 
 |- Satuation | [0] (0 ~ 1) | 
@@ -101,7 +101,7 @@ sidebar:
 |- Window | [0] (0 ~ 1) | 
 | Floating | OFF | 
 |**Surface** | | 
-| Texture | [Blank], **[Wood1]**, [Wood2], [Tiles], [Concrete], [Video],  |  |
+| Texture | [Blank], **[Wood1]**, [Wood2], [Tiles], [Concrete], [Video], 30off, pattern 01, pattern 03, Wooden floor 01, Wooden floor 03,  |  |
 |**Tiling** | | 
 |- Tiling X | [1] (0.1 ~ 10) | 
 |- Tiling Y | [1] (0.1 ~ 10) | 
@@ -156,7 +156,7 @@ sidebar:
 |- Reduce Moire | [0.1] (0 ~ 1) | 
 | Presets | Blank, **Wood**, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |  |
 |**Back Surface** | | 
-| Texture | **[Blank]**, [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |  |
+| Texture | **[Blank]**, [Wood1], [Wood2], [Tiles], [Concrete], [Video], 30off, pattern 01, pattern 03, Wooden floor 01, Wooden floor 03,  |  |
 |**Tiling** | | 
 |- Tiling X | [1] (0.1 ~ 10) | 
 |- Tiling Y | [1] (0.1 ~ 10) | 

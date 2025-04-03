@@ -13,14 +13,14 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [원격 액세스](system2/remote_access) |  | 
-| [콘텐츠 라이브러리](system2/library) |  | 
-| [컨트롤러 입력](system2/input_settings) |  | 
-| [디스플레이 및 UI](system2/screen) |  | 
-| [그래픽](system2/graphics) |  | 
-| [물리](system2/physics) |  | 
-| [응용 프로그램 설정](system2/application_settings) |  | 
-| [종료](system2/exit) |  | 
+| [원격 액세스](system/remote_access) |  | 
+| [콘텐츠 라이브러리](system/library) |  | 
+| [컨트롤러 입력](system/input_settings) |  | 
+| [디스플레이 및 UI](system/screen) |  | 
+| [그래픽](system/graphics) |  | 
+| [물리](system/physics) |  | 
+| [응용 프로그램 설정](system/application_settings) |  | 
+| [종료](system/exit) |  | 
 | | |
 
 

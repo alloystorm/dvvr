@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|- 모드 | 색상, 하늘 맵, **프로시저**,  | (Selects the sky rendering mode: Color, Sky Map, or Procedural.)
+|- 모드 | 색상, **하늘 맵**, 프로시저,  | (Selects the sky rendering mode: Color, Sky Map, or Procedural.)
 |- 배경 | [1] (0 ~ 1) | (Controls the brightness of the sky when it is rendered.)
 |- 하늘 주변 | [1] (0 ~ 1) | 하늘이 주변 조명에 미치는 영향을 조절합니다.
-| 하늘 맵 | **([Cloud])**, ([Fantasy]), ([Day]), ([Studio]),  |  |
+| 하늘 맵 | ([Cloud]), ([Fantasy]), **([Day])**, ([Studio]), (adams_place_bridge), (autoshop_01), (circus_maximus_2), (concrete_tunnel_02), (dresden_square), (hansaplatz), (mealie_road), (neuer_zollhof), (old_bus_depot), (quarry_03), (rathaus), (skylit_garage), (small_hangar_01), (spiaggia_di_mondello), (vignaioli_night), (wide_street_02),  |  |
 |- 방향 | [0] (0 ~ 360) | (Sets the rotation of the sky in degrees.)
 |- 바람 | [1] (0 ~ 4) | (Global wind speed affecting cloth simulation, particle dynamics, and clouds.)
 |- 바람 방향 | [0] (0 ~ 360) | (Sets the global wind direction in degrees.)
@@ -68,7 +68,7 @@ sidebar:
 |- 색온도 | [6500] (3000 ~ 8000) | 
 | 프리셋 | **흰색**, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |  |
 |**구름** | | Configures volumetric clouds, including shape, erosion, density, and wind effects.
-| (Enable Cloud) | ON | (Enables or disables volumetric clouds.)
+| (Enable Cloud) | OFF | (Enables or disables volumetric clouds.)
 |- 형상 스케일 | [1] (-1 ~ 2) | (Controls the scale of the cloud shapes.)
 |- 형상 계수 | [0.8] (0 ~ 1) | (Adjusts the shape factor of the clouds.)
 |- 침식 스케일 | [2] (0 ~ 5) | (Controls the scale of cloud erosion.)
@@ -76,4 +76,4 @@ sidebar:
 |- 밀도 | [0.2] (0 ~ 1) | (Sets the density multiplier for the clouds.)
 | 그림자 | OFF | (Enables or disables cloud shadows.)
 |- 바람 배수기 | [3] (0 ~ 4) | (Sets the wind multiplier for cloud movement.)
-| 프리셋 | 스카이맵, 프로시저, 실내, **얇은 구름**, 흐림,  |  |
+| 프리셋 | **스카이맵**, 프로시저, 실내, 얇은 구름, 흐림, (Preset 1),  |  |

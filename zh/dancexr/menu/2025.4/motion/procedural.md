@@ -122,7 +122,7 @@ sidebar:
 |- 抓取距离 | [0.015] (-0.1 ~ 0.1) | 
 |- 抓取位置 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| 预设 | (Rest), 背面, 前面, **臀部**, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| 预设 | (Rest), 背面, 前面, 臀部, 头部, **杆**, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**右手** | | 
 | 手势 | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 点, (Middle Finger), (Thumb Up), **(Grab)**,  |  |
 |**手的位置** | | 
@@ -172,7 +172,7 @@ sidebar:
 |- 抓取距离 | [0.015] (-0.1 ~ 0.1) | 
 |- 抓取位置 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| 预设 | (Rest), 背面, 前面, **臀部**, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| 预设 | (Rest), 背面, 前面, 臀部, 头部, **杆**, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**圆周行走** | | 
 | 圆周行走 | OFF | 
 |- 半径 | [2] (0 ~ 5) | 
@@ -338,7 +338,7 @@ sidebar:
 |- 抓取距离 | [0.015] (-0.1 ~ 0.1) | 
 |- 抓取位置 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| 预设 | **(Rest)**, 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| 预设 | **(Rest)**, 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**右手** | | 
 | 手势 | (Palm Fingers Apart), **(Palm Fingers Together)**, (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 点, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**手的位置** | | 
@@ -388,7 +388,7 @@ sidebar:
 |- 抓取距离 | [0.015] (-0.1 ~ 0.1) | 
 |- 抓取位置 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| 预设 | **(Rest)**, 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| 预设 | **(Rest)**, 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 | 使用响度进行 | ON | 
 |- 上半身动作 | [0.5] (0 ~ 1) | 
 
@@ -489,7 +489,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 分配给主对象 || 
-| 目标选择 | **自动**, 已选择, 组, 旋转, 旋转 + 组, 舞台中心,  |  |
+| 目标选择 | 自动, 已选择, 组, **旋转**, 旋转 + 组, 舞台中心,  |  |
 | 跟踪模式 | **中心**, 头部, 胸部,  |  |
 |- 目标平滑 | [0.5] (0 ~ 2) | 
 |- 预测 | [1] (0 ~ 2) | 预测目标的位置以减少平滑造成的延迟
@@ -513,7 +513,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | 分配给主对象 || 
-| 目标选择 | **自动**, 已选择, 组, 旋转, 旋转 + 组, 舞台中心,  |  |
+| 目标选择 | 自动, 已选择, 组, **旋转**, 旋转 + 组, 舞台中心,  |  |
 | 跟踪模式 | **中心**, 头部, 胸部,  |  |
 |- 目标平滑 | [0.5] (0 ~ 2) | 
 |- 预测 | [1] (0 ~ 2) | 预测目标的位置以减少平滑造成的延迟
@@ -521,7 +521,7 @@ sidebar:
 |- 节拍循环 | [8] (1 ~ 16) | 
 | 使用控制器输入 | OFF | 
 | 防止低于地面 | ON | 
-| 保持速度 | OFF | 在没有输入时保持旋转
+| 保持速度 | ON | 在没有输入时保持旋转
 |- 最大速度 | [15] (0 ~ 30) | 最大旋转速度
 |- 最小速度 | [0] (0 ~ 30) | 最小旋转速度
 | 自动模式 | OFF | 
@@ -535,7 +535,7 @@ sidebar:
 |- 最大高度 | [0.5] (0 ~ 1) | 
 |- 高度循环 | [32] ((Unlimited)) | 
 |- 速度 | [10] (0 ~ 90) | 
-| 预设 | **默认（重置）**, (Preset 1),  |  |
+| 预设 | **默认（重置）**,  |  |
 
 
 ### **[自动摄像机]**
@@ -579,7 +579,7 @@ sidebar:
 |- 侧面90度 | [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
 |- 后135度 | [0] (0 ~ 1) | (Probability of orienting the camera to a 135-degree angle behind the actor.)
 |- 后180度 | [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
-| 预设 | **默认（重置）**, (Preset 1),  |  |
+| 预设 | **默认（重置）**,  |  |
 
 
 ### **[长镜头]**
@@ -602,7 +602,7 @@ sidebar:
 | 防止低于地面 | ON | 
 | 使用角色朝向 | ON | 
 | 靠近时提高焦点 | OFF | 距离变小时向上移动焦点位置
-| 预设 | **默认（重置）**, (Preset 1), (Preset 2), (Preset 3),  |  |
+| 预设 | **默认（重置）**,  |  |
 
 
 ### **[第一人称]**

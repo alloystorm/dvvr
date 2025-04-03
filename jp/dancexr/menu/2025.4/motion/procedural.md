@@ -122,7 +122,7 @@ sidebar:
 |- つかむ距離 | [0.015] (-0.1 ~ 0.1) | 
 |- つかむ位置 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| プリセット | (Rest), 背面, 前面, **ヒップ**, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| プリセット | (Rest), 背面, 前面, ヒップ, 頭, **ポール**, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**右手** | | 
 | ジェスチャー | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), **(Grab)**,  |  |
 |**手の位置** | | 
@@ -172,7 +172,7 @@ sidebar:
 |- つかむ距離 | [0.015] (-0.1 ~ 0.1) | 
 |- つかむ位置 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| プリセット | (Rest), 背面, 前面, **ヒップ**, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| プリセット | (Rest), 背面, 前面, ヒップ, 頭, **ポール**, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**円を描いて歩く** | | 
 | 円を描いて歩く | OFF | 
 |- 半径 | [2] (0 ~ 5) | 
@@ -338,7 +338,7 @@ sidebar:
 |- つかむ距離 | [0.015] (-0.1 ~ 0.1) | 
 |- つかむ位置 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| プリセット | **(Rest)**, 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| プリセット | **(Rest)**, 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 |**右手** | | 
 | ジェスチャー | (Palm Fingers Apart), **(Palm Fingers Together)**, (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**手の位置** | | 
@@ -388,7 +388,7 @@ sidebar:
 |- つかむ距離 | [0.015] (-0.1 ~ 0.1) | 
 |- つかむ位置 | [-0.05] (-0.1 ~ 0.1) | 
 |- (Grab Axis) | [0] (-180 ~ 180) | 
-| プリセット | **(Rest)**, 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |  |
+| プリセット | **(Rest)**, 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |  |
 | ラウドネスを使用する | ON | 
 |- 上半身のモーション | [0.5] (0 ~ 1) | 
 
@@ -489,7 +489,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | メインに割り当て || 
-| ターゲット選択 | **自動**, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |  |
+| ターゲット選択 | 自動, 選択されました, グループ, **回転**, 回転 + グループ, ステージセンター,  |  |
 | トラッキングモード | **センター**, 頭, 胸,  |  |
 |- ターゲットスムージング | [0.5] (0 ~ 2) | 
 |- 予測 | [1] (0 ~ 2) | スムージングによる遅延を減少させるため、ターゲットの位置を予測
@@ -513,7 +513,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | メインに割り当て || 
-| ターゲット選択 | **自動**, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |  |
+| ターゲット選択 | 自動, 選択されました, グループ, **回転**, 回転 + グループ, ステージセンター,  |  |
 | トラッキングモード | **センター**, 頭, 胸,  |  |
 |- ターゲットスムージング | [0.5] (0 ~ 2) | 
 |- 予測 | [1] (0 ~ 2) | スムージングによる遅延を減少させるため、ターゲットの位置を予測
@@ -521,7 +521,7 @@ sidebar:
 |- ビートサイクル | [8] (1 ~ 16) | 
 | コントローラー入力を使用 | OFF | 
 | 床下を防ぐ | ON | 
-| 速度を維持する | OFF | 入力がないときに回転を維持
+| 速度を維持する | ON | 入力がないときに回転を維持
 |- 最大速度 | [15] (0 ~ 30) | 最大回転速度
 |- 最小速度 | [0] (0 ~ 30) | 最小回転速度
 | 自動モード | OFF | 
@@ -535,7 +535,7 @@ sidebar:
 |- 最大高さ | [0.5] (0 ~ 1) | 
 |- 高さサイクル | [32] ((Unlimited)) | 
 |- スピード | [10] (0 ~ 90) | 
-| プリセット | **デフォルト（リセット）**, (Preset 1),  |  |
+| プリセット | **デフォルト（リセット）**,  |  |
 
 
 ### **[オートカム]**
@@ -579,7 +579,7 @@ sidebar:
 |- 横 90 | [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
 |- 後方 135 | [0] (0 ~ 1) | (Probability of orienting the camera to a 135-degree angle behind the actor.)
 |- 後方 180 | [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
-| プリセット | **デフォルト（リセット）**, (Preset 1),  |  |
+| プリセット | **デフォルト（リセット）**,  |  |
 
 
 ### **[長回し]**
@@ -602,7 +602,7 @@ sidebar:
 | 床下を防ぐ | ON | 
 | アクターの向きを使用 | ON | 
 | 近くに来たときにフォーカスを上げる | OFF | 距離が小さくなるときにフォーカス位置を上に移動する
-| プリセット | **デフォルト（リセット）**, (Preset 1), (Preset 2), (Preset 3),  |  |
+| プリセット | **デフォルト（リセット）**,  |  |
 
 
 ### **[第一人称]**

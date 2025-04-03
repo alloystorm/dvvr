@@ -25,7 +25,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable DanceXR Logo) | ON | 
+| (Enable DanceXR Logo) | OFF | 
 |**로고 표면 1** | | 
 |- 광택 | [0.9] (0 ~ 1) | 
 |- 금속성 | [0] (0 ~ 1) | 
@@ -119,7 +119,7 @@ sidebar:
 |- 파란색 | [1] (0 ~ 1) | 
 | 혼합 모드 | 원본, (Multiply), **혼합**, (Color Shift),  |  |
 |- 혼합 | [1] (0 ~ 1) | 
-| 프리셋 | 원본, **흰색**, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |  |
+| 프리셋 | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, **(Gray)**, (Orange),  |  |
 |**툰 셰이더** | | 
 | (Enable Toon Shader) | OFF | 
 |- 쉐이딩 | [1] (0 ~ 1) | 
@@ -149,7 +149,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Beats Visualizer) | ON | 
+| (Enable Beats Visualizer) | OFF | 
 |- 데이터 | **비트**, 원시 비트, 원시 시작,  | 
 |- 위치 | 카메라, **무대**, 액터,  | 
 |- 반경 | [1.2] (0.2 ~ 5) | 
@@ -237,4 +237,4 @@ sidebar:
 |- 오디오 사용 | [2] (0 ~ 4) | 
 |- 시드 | [1234] ((Unlimited)) | 무작위화된 패턴 시퀀스 제어
 | 프리셋 | **기본값 (초기화)**,  |  |
-| 프리셋 | **끄기**, 선, 반원, 점, 음악과 함께 빛남, (Preset 1),  |  |
+| 프리셋 | 끄기, **선**, 반원, 점, 음악과 함께 빛남,  |  |

@@ -8,21 +8,19 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/system/application_settings) | [繁中](/tw/dancexr/menu/2025.4/system/application_settings) | [日本語](/jp/dancexr/menu/2025.4/system/application_settings) | [한국어](/kr/dancexr/menu/2025.4/system/application_settings) | [简中](/zh/dancexr/menu/2025.4/system/application_settings)
 
-[(DanceXR Pro RT 2025.4.1543)](../menu#(DanceXR Pro RT 2025.4.1543)) > 应用程序设置
+[系统](../menu#系统) > 应用程序设置
 
 
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|**应用程序设置** | | 
 | 加载上一个场景 | OFF | 启动时自动加载最后一个场景
-| 在VR中屏蔽桌面窗口 | ON | 在VR模式下屏蔽桌面窗口
 | 从保存中恢复标签 | OFF | 尝试从保存的设置中恢复标签，以防你的内容缓存被重建或损坏
 | 翻转DDS压缩 | ON | 翻转压缩的DDS纹理
 | 翻转DDS未压缩 | OFF | 翻转未压缩的DDS纹理
 |**虚拟现实手** | | 
 | 手可见 | ON | 
-| 投射阴影 | OFF | 
+| 投射阴影 | ON | 
 | (Time And FPS) | ON | 
 |**手部方向** | | 
 | 偏移 || 
@@ -31,11 +29,10 @@ sidebar:
 |- (Z) | [0] (-0.1 ~ 0.1) | 
 |- 旋转 | [45] (-90 ~ 90) | 
 | 更新指针 || 
-|
 | 左手姿势 | **自动**, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 点, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**左手配件** | | 
 | (Enable Left Hand Accessory) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假阳具, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**锚点偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -45,7 +42,6 @@ sidebar:
 |- (X) | [0] (-90 ~ 90) | 
 |- (Y) | [0] (-90 ~ 90) | 
 |- (Z) | [0] (-90 ~ 90) | 
-|
 | 大小与对齐 || 
 |- 物体半径 | [0.02] (0.01 ~ 0.05) | 
 |- 物体长度 | [0.2] (0 ~ 5) | 
@@ -71,10 +67,8 @@ sidebar:
 |- 模式 | **(Gradual)**, 随机, 音量,  | 
 |- 最小速度 | (1/4), (1/3), **(1/2)**, (2/3), (1),  | 
 |- 最大速度 | (1), **(3/2)**, (2), (3), (4),  | 
-|
 |- 距离 | [0.1] (0 ~ 0.3) | 
 |- 角度 | [0] (-60 ~ 60) | 
-|
 | 动画 | **无**,  | 选择加载的运动以用于附加物模型 |
 |**表面** | | 
 |- 光泽 | [0.9] (0 ~ 1) | 
@@ -94,8 +88,7 @@ sidebar:
 |- 蓝色 | [1] (0 ~ 1) | 
 | 混合模式 | 原始模型, (Multiply), **混合**, (Color Shift),  |  |
 |- 混合 | [1] (0 ~ 1) | 
-| 预设 | 原始模型, **白色**, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |  |
-|
+| 预设 | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, **(Gray)**, (Orange),  |  |
 |**卡通着色器** | | 
 | (Enable Toon Shader) | OFF | 
 |- 着色 | [1] (0 ~ 1) | 
@@ -109,24 +102,20 @@ sidebar:
 |- 阴影 | [0.75] (0 ~ 1) | 
 |- 柔和阴影 | [0.1] (0 ~ 1) | 
 | 预设 | **锐利**, 柔和, 明亮, 平面 + 高光, 平面,  |  |
-|
 |**特效着色器** | | 
 | 模式 | **关闭**, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |  |
 |- 折射 | [0.5] (1 ~ 3) | 
 |- 厚度 | [1] (0 ~ 1) | 
-|
 | 预设 | 白色光泽, 红色光泽, **铬**, 黑色光泽, 金色, 实心玻璃, 薄玻璃,  |  |
-|
 |- X射线 | [0] (0 ~ 1) | 
 |- 透明度 | [1] (0 ~ 1) | 
 |- 拉手 | [0.1] (0 ~ 0.5) | 当手靠近附加物时拉向附加物
 | 抓取姿势 | ON | 当手在附加物上时自动改变手的姿势为抓取
 |- 手的运动 | [0] (-1 ~ 1) | 相对于附加物运动移动手
-|
 | 右手姿势 | **自动**, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 点, (Middle Finger), (Thumb Up), (Grab),  |  |
 |**右手配件** | | 
 | (Enable Right Hand Accessory) | OFF | 
-| 模型 | **[柱子]**,  |  |
+| 模型 | **[柱子]**, (Anal Beads Fat Long), (Anal Beads Fat), (Anal Beads Little), (Anal Pearls), (Baton), (Catfeathertoy), (Dakimakura 2), (Dakimakura), (Consolador Accessory), (Consolador), (Pink Dildo), (Dildo No Balls Accessory), (Dildo No Balls), 假阳具, (Dildo Accessory), (Vibrator), (ﾕﾛﾉﾈ),  |  |
 |**锚点偏移** | | Set the anchor position for the attachment to attach to
 | 位置 || 
 |- (X) | [0] (-1 ~ 1) | 
@@ -136,7 +125,6 @@ sidebar:
 |- (X) | [0] (-90 ~ 90) | 
 |- (Y) | [0] (-90 ~ 90) | 
 |- (Z) | [0] (-90 ~ 90) | 
-|
 | 大小与对齐 || 
 |- 物体半径 | [0.02] (0.01 ~ 0.05) | 
 |- 物体长度 | [0.2] (0 ~ 5) | 
@@ -162,10 +150,8 @@ sidebar:
 |- 模式 | **(Gradual)**, 随机, 音量,  | 
 |- 最小速度 | (1/4), (1/3), **(1/2)**, (2/3), (1),  | 
 |- 最大速度 | (1), **(3/2)**, (2), (3), (4),  | 
-|
 |- 距离 | [0.1] (0 ~ 0.3) | 
 |- 角度 | [0] (-60 ~ 60) | 
-|
 | 动画 | **无**,  | 选择加载的运动以用于附加物模型 |
 |**表面** | | 
 |- 光泽 | [0.9] (0 ~ 1) | 
@@ -185,8 +171,7 @@ sidebar:
 |- 蓝色 | [1] (0 ~ 1) | 
 | 混合模式 | 原始模型, (Multiply), **混合**, (Color Shift),  |  |
 |- 混合 | [1] (0 ~ 1) | 
-| 预设 | 原始模型, **白色**, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |  |
-|
+| 预设 | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, **(Gray)**, (Orange),  |  |
 |**卡通着色器** | | 
 | (Enable Toon Shader) | OFF | 
 |- 着色 | [1] (0 ~ 1) | 
@@ -200,21 +185,15 @@ sidebar:
 |- 阴影 | [0.75] (0 ~ 1) | 
 |- 柔和阴影 | [0.1] (0 ~ 1) | 
 | 预设 | **锐利**, 柔和, 明亮, 平面 + 高光, 平面,  |  |
-|
 |**特效着色器** | | 
 | 模式 | **关闭**, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |  |
 |- 折射 | [0.5] (1 ~ 3) | 
 |- 厚度 | [1] (0 ~ 1) | 
-|
 | 预设 | 白色光泽, 红色光泽, **铬**, 黑色光泽, 金色, 实心玻璃, 薄玻璃,  |  |
-|
 |- X射线 | [0] (0 ~ 1) | 
 |- 透明度 | [1] (0 ~ 1) | 
 |- 拉手 | [0.1] (0 ~ 0.5) | 当手靠近附加物时拉向附加物
 | 抓取姿势 | ON | 当手在附加物上时自动改变手的姿势为抓取
 |- 手的运动 | [0] (-1 ~ 1) | 相对于附加物运动移动手
-|
-|
 | Gizmo第三轴 | **旋转**, 深度,  |  |
 | 使用翻译名称 | ON | 
-|
