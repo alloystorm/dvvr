@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Motion Override) | OFF | 
+| 啟用 | OFF | 
 | **身體** | | 
 | ├ 位置 | 自由 | 自由, 鎖定水平, 鎖定垂直, 鎖定位置, 
 | ├ 旋轉 | 自由 | 自由, 鎖定旋轉, 
@@ -32,7 +32,7 @@ sidebar:
 | ├ 最小距離 | [0.5] (0 ~ 1) | 
 | └ 最大距離 | [1] (0.5 ~ 2) | 
 | **搖擺動作** | | 
-| ├ (Enable Rocking Motion) | ON | 
+| ├ 啟用 | ON | 
 | ├ **速度** | | 
 | │ ├ 每拍動作數 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 | │ ├ 每組動作數 | [8] (4 ~ 32) | 
@@ -50,12 +50,12 @@ sidebar:
 | ├ 深度額外 | [0] (-0.1 ~ 0.1) | 
 | └ 腳部動作 | [0] (-1 ~ 1) | 
 | **頭部姿勢** | | 
-| ├ (Enable Head Pose) | OFF | 
+| ├ 啟用 | OFF | 
 | ├ X 旋轉 | [0] (-90 ~ 90) | 
 | ├ Y 旋轉 | [0] (-90 ~ 90) | 
 | └ Z 旋轉 | [0] (-90 ~ 90) | 
 | **腿部姿勢** | | 
-| ├ (Enable Leg Pose) | ON | 
+| ├ 啟用 | ON | 
 | ├ 相對於地面 | ON | 
 | ├ 最大扭轉 | [60] (0 ~ 90) | 
 | ├ 對稱 | ON | 
@@ -77,10 +77,11 @@ sidebar:
 | │ ├ 腳旋轉 Y | [0] ((Unlimited)) | 
 | │ ├ 腳旋轉 Z | [0] ((Unlimited)) | 
 | │ └ 腳趾 | [0] (-180 ~ 180) | 
-| └ 預設 | **(Ride)** | (Sit), (Ride), (Kneel), (Stand),  |
+| └ (Presets: Ride) || 
+|   預設 | **(Ride)** | (Sit), (Ride), (Kneel), (Stand),  |
 | 手部對稱 | ON | 
 | **左手** | | 
-| ├ (Enable Left Hand) | OFF | 
+| ├ 啟用 | OFF | 
 | ├ (Gesture: Fist) || 
 | │ 手勢 | **(Fist)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 點, (Middle Finger), (Thumb Up), (Grab),  |
 | ├ **手部位置** | | 
@@ -104,7 +105,7 @@ sidebar:
 | ├ 對稱偏移 | [0] (-1 ~ 1) | 
 | ├ 使用配件位置 | ON | 
 | ├ **運動** | | 
-| │ ├ (Enable Motion) | OFF | 
+| │ ├ 啟用 | OFF | 
 | │ ├ **速度** | | 
 | │ │ ├ 每拍動作數 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 | │ │ ├ 每組動作數 | [8] (4 ~ 32) | 
@@ -117,7 +118,7 @@ sidebar:
 | │ ├ 距離 | [0.1] (0 ~ 0.3) | 
 | │ └ 角度 | [0] (-60 ~ 60) | 
 | ├ **自定義姿勢** | | 
-| │ ├ (Enable Custom Pose) | OFF | 
+| │ ├ 啟用 | OFF | 
 | │ ├ 打開 | [0] (-1 ~ 1) | 
 | │ ├ 拇指軸 | [90] (-360 ~ 360) | 
 | │ ├ 拇指摺疊 | [0] (-1 ~ 1) | 
@@ -132,9 +133,10 @@ sidebar:
 | ├ 抓取距離 | [0.015] (-0.1 ~ 0.1) | 
 | ├ 抓取位置 | [-0.05] (-0.1 ~ 0.1) | 
 | ├ (Grab Axis) | [0] (-180 ~ 180) | 
-| └ 預設 | **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| └ (Presets: Rest) || 
+|   預設 | **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 | **右手** | | 
-| ├ (Enable Right Hand) | OFF | 
+| ├ 啟用 | OFF | 
 | ├ (Gesture: Fist) || 
 | │ 手勢 | **(Fist)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 點, (Middle Finger), (Thumb Up), (Grab),  |
 | ├ **手部位置** | | 
@@ -158,7 +160,7 @@ sidebar:
 | ├ 對稱偏移 | [0] (-1 ~ 1) | 
 | ├ 使用配件位置 | ON | 
 | ├ **運動** | | 
-| │ ├ (Enable Motion) | OFF | 
+| │ ├ 啟用 | OFF | 
 | │ ├ **速度** | | 
 | │ │ ├ 每拍動作數 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 | │ │ ├ 每組動作數 | [8] (4 ~ 32) | 
@@ -171,7 +173,7 @@ sidebar:
 | │ ├ 距離 | [0.1] (0 ~ 0.3) | 
 | │ └ 角度 | [0] (-60 ~ 60) | 
 | ├ **自定義姿勢** | | 
-| │ ├ (Enable Custom Pose) | OFF | 
+| │ ├ 啟用 | OFF | 
 | │ ├ 打開 | [0] (-1 ~ 1) | 
 | │ ├ 拇指軸 | [90] (-360 ~ 360) | 
 | │ ├ 拇指摺疊 | [0] (-1 ~ 1) | 
@@ -186,9 +188,10 @@ sidebar:
 | ├ 抓取距離 | [0.015] (-0.1 ~ 0.1) | 
 | ├ 抓取位置 | [-0.05] (-0.1 ~ 0.1) | 
 | ├ (Grab Axis) | [0] (-180 ~ 180) | 
-| └ 預設 | **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| └ (Presets: Rest) || 
+|   預設 | **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 | **騎乘模型** | | 
-| ├ (Enable Ride Model) | ON | 
+| ├ 啟用 | ON | 
 | ├ (Model: [Hoverbike]) || 
 | │ 模型 | **([Hoverbike])** | ([Hoverbike]), ([Rocking Horse]),  |
 | ├ 加速度 | [10] (0 ~ 20) | 
@@ -204,4 +207,5 @@ sidebar:
 | ├ (Z) | [0] (-90 ~ 90) | 
 | ├ 縮放 | [0] (-5 ~ 5) | 
 | └ 粒子效果 | ON | 
+| (Presets: Free) || 
 | 預設 | **自由** | 自由, 搖擺動作, 懸浮摩托車, 搖擺馬, 桿子動作, 桿子混合,  |

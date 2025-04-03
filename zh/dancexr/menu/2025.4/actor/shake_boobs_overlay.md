@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Shake Boobs Overlay) | OFF | 
+| 启用 | OFF | 
 | 强度 | [1] (0 ~ 2) | 
 | 速度 | [0] (-2 ~ 2) | 
 | 运动模式 | [1] (-1 ~ 1) | 选择水平、垂直或两者（设置为 0）运动

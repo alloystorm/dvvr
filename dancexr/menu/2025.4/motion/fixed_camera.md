@@ -37,4 +37,5 @@ sidebar:
 | X | [0] (-2 ~ 2) | 
 | Y | [0] (-2 ~ 2) | 
 | Z | [0] (-2 ~ 2) | 
+| Presets: Far || 
 | Presets | **Far** | Near, Far,  |

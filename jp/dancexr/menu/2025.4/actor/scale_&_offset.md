@@ -21,4 +21,5 @@ sidebar:
 | オフセットX | [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the X-axis.)
 | オフセットZ | [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the Z-axis.)
 | スナッピング | (0) | (0), (0.1), (0.2), (0.5), (1), (2), <br/>(Set the snapping increment for drag adjustments. Smaller values allow finer control.)
+| (Presets: Uniform Life Size) || 
 | プリセット | **均一な実寸大** | 均一な実寸大, ミニチュア, 巨人, オリジナル,  |

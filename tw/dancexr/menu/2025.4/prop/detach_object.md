@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Detach Object) | ON | 
+| 啟用 | ON | 
 | 選擇骨骼 || 
 | 重力 | ON | 
 | 質量 | [0.1] (0 ~ 10) | 

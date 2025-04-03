@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Sex Overlay) | OFF | 
+| 활성화 | OFF | 
 | 강도 | [1] (0 ~ 2) | 
 | 구부리기 | [0.2] (0 ~ 1) | 
 | 각도 | [45] (0 ~ 90) | 

@@ -14,11 +14,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Dangling Physics | ON | 
+| Enable | ON | 
 | Select Bones || Select bones
 | Skip First X Bones | [0] (0 ~ 5) | Do not create physics connection for the first x number of levels
 | **Particle Dynamics** | | 
-| ├ Enable Particle Dynamics | ON | 
+| ├ Enable | ON | 
 | ├ Swing Compliance | [0.25] (0 ~ 1) | 
 | ├ Twist Compliance | [0.75] (0 ~ 1) | 
 | ├ Particle Anchor | [0.5] (0 ~ 1) | 
@@ -72,4 +72,5 @@ sidebar:
 | Collider Radius | [0.01] (0 ~ 0.05) | Size of the particle used when solving collision.
 | Collider Length | [0.9] (0 ~ 1) | 
 | Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
+| Presets: Default (Reset) || 
 | Presets | **Default (Reset)** | Default (Reset), Preset 1, Preset 2,  |

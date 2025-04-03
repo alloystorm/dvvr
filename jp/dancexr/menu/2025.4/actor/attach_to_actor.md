@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Attach To Actor) | OFF | 
+| 有効にする | OFF | 
 | ソースボーンを選択 || アタッチするボーンを選択
 | アクターを選択 || 
 | アクターを選択 |  |  |

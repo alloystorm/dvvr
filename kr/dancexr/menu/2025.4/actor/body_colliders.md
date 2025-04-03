@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Body Colliders) | ON | 
+| 활성화 | ON | 
 | 크기 | [0.5] (0 ~ 1) | 
 | 머리 반경 | [1] (0 ~ 2) | 
 | 팔 반경 | [1] (0 ~ 2) | 
@@ -34,4 +34,5 @@ sidebar:
 | 허벅지 시작 위치 | [0] (0 ~ 1) | 
 | 손 | [0] (0 ~ 1) | 
 | 시각화 | OFF | 
+| (Presets: Default (Reset)) || 
 | 프리셋 | **기본값 (초기화)** | 기본값 (초기화), (amy), (misaki),  |

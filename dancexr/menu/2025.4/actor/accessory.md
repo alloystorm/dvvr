@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | **Pole** | | 
-| ├ Enable Pole | OFF | 
+| ├ Enable | OFF | 
 | ├ Model: [Pole] || 
 | │ Model | **[Pole]** | [Pole],  |
 | ├ **Anchor Offset** | | Set the anchor position for the attachment to attach to
@@ -42,7 +42,7 @@ sidebar:
 | ├ Z | [0] (-180 ~ 180) | 
 | ├ Guitar Mode | OFF | 
 | ├ **Motion** | | Apply up / down motion to the attachment model
-| │ ├ Enable Motion | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ **Speed** | | 
 | │ │ ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├ Moves Per Group | [8] (4 ~ 32) | 
@@ -75,9 +75,10 @@ sidebar:
 | │ │ ├ Blend Mode: Blend || 
 | │ │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ │ ├ Blend | [1] (0 ~ 1) | 
-| │ │ └ Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ │ └ Presets: White || 
+| │ │   Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | │ ├ **Toon Shader** | | 
-| │ │ ├ Enable Toon Shader | OFF | 
+| │ │ ├ Enable | OFF | 
 | │ │ ├ Shading | [1] (0 ~ 1) | 
 | │ │ ├ Outline | [0.5] (0 ~ 1) | 
 | │ │ ├ Specular | [0.25] (0 ~ 1) | 
@@ -88,20 +89,22 @@ sidebar:
 | │ │ ├ Shadow Area | [0.65] (0 ~ 1) | 
 | │ │ ├ Shadow | [0.75] (0 ~ 1) | 
 | │ │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
-| │ │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ │ └ Presets: Sharp || 
+| │ │   Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | │ ├ **Special Shader** | | 
 | │ │ ├ Mode: Off || 
 | │ │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ │ ├ Refraction | [0.5] (1 ~ 3) | 
 | │ │ └ Thickness | [1] (0 ~ 1) | 
-| │ └ Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| │ └ Presets: Chrome || 
+| │   Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
 | ├ XRay | [0] (0 ~ 1) | 
 | ├ Alpha | [1] (0 ~ 1) | 
 | ├ Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | ├ Grab Pose | OFF | Automatically change hand pose to grab when they are on the attachment
 | └ Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 | **Left Hand** | | 
-| ├ Enable Left Hand | OFF | 
+| ├ Enable | OFF | 
 | ├ Model: [Pole] || 
 | │ Model | **[Pole]** | [Pole],  |
 | ├ **Anchor Offset** | | Set the anchor position for the attachment to attach to
@@ -128,7 +131,7 @@ sidebar:
 | ├ Z | [0] (-180 ~ 180) | 
 | ├ Guitar Mode | OFF | 
 | ├ **Motion** | | Apply up / down motion to the attachment model
-| │ ├ Enable Motion | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ **Speed** | | 
 | │ │ ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├ Moves Per Group | [8] (4 ~ 32) | 
@@ -161,9 +164,10 @@ sidebar:
 | │ │ ├ Blend Mode: Blend || 
 | │ │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ │ ├ Blend | [1] (0 ~ 1) | 
-| │ │ └ Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ │ └ Presets: White || 
+| │ │   Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | │ ├ **Toon Shader** | | 
-| │ │ ├ Enable Toon Shader | OFF | 
+| │ │ ├ Enable | OFF | 
 | │ │ ├ Shading | [1] (0 ~ 1) | 
 | │ │ ├ Outline | [0.5] (0 ~ 1) | 
 | │ │ ├ Specular | [0.25] (0 ~ 1) | 
@@ -174,13 +178,15 @@ sidebar:
 | │ │ ├ Shadow Area | [0.65] (0 ~ 1) | 
 | │ │ ├ Shadow | [0.75] (0 ~ 1) | 
 | │ │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
-| │ │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ │ └ Presets: Sharp || 
+| │ │   Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | │ ├ **Special Shader** | | 
 | │ │ ├ Mode: Off || 
 | │ │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ │ ├ Refraction | [0.5] (1 ~ 3) | 
 | │ │ └ Thickness | [1] (0 ~ 1) | 
-| │ └ Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| │ └ Presets: Chrome || 
+| │   Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
 | ├ XRay | [0] (0 ~ 1) | 
 | ├ Alpha | [1] (0 ~ 1) | 
 | ├ Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
@@ -188,7 +194,7 @@ sidebar:
 | └ Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 | Symmetrical Hands | OFF | 
 | **Right Hand** | | 
-| ├ Enable Right Hand | OFF | 
+| ├ Enable | OFF | 
 | ├ Model: [Pole] || 
 | │ Model | **[Pole]** | [Pole],  |
 | ├ **Anchor Offset** | | Set the anchor position for the attachment to attach to
@@ -215,7 +221,7 @@ sidebar:
 | ├ Z | [0] (-180 ~ 180) | 
 | ├ Guitar Mode | OFF | 
 | ├ **Motion** | | Apply up / down motion to the attachment model
-| │ ├ Enable Motion | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ **Speed** | | 
 | │ │ ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├ Moves Per Group | [8] (4 ~ 32) | 
@@ -248,9 +254,10 @@ sidebar:
 | │ │ ├ Blend Mode: Blend || 
 | │ │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ │ ├ Blend | [1] (0 ~ 1) | 
-| │ │ └ Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ │ └ Presets: White || 
+| │ │   Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | │ ├ **Toon Shader** | | 
-| │ │ ├ Enable Toon Shader | OFF | 
+| │ │ ├ Enable | OFF | 
 | │ │ ├ Shading | [1] (0 ~ 1) | 
 | │ │ ├ Outline | [0.5] (0 ~ 1) | 
 | │ │ ├ Specular | [0.25] (0 ~ 1) | 
@@ -261,20 +268,22 @@ sidebar:
 | │ │ ├ Shadow Area | [0.65] (0 ~ 1) | 
 | │ │ ├ Shadow | [0.75] (0 ~ 1) | 
 | │ │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
-| │ │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ │ └ Presets: Sharp || 
+| │ │   Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | │ ├ **Special Shader** | | 
 | │ │ ├ Mode: Off || 
 | │ │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ │ ├ Refraction | [0.5] (1 ~ 3) | 
 | │ │ └ Thickness | [1] (0 ~ 1) | 
-| │ └ Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| │ └ Presets: Chrome || 
+| │   Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
 | ├ XRay | [0] (0 ~ 1) | 
 | ├ Alpha | [1] (0 ~ 1) | 
 | ├ Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | ├ Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 | └ Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 | **Chest** | | 
-| ├ Enable Chest | OFF | 
+| ├ Enable | OFF | 
 | ├ Model: [Pole] || 
 | │ Model | **[Pole]** | [Pole],  |
 | ├ **Anchor Offset** | | Set the anchor position for the attachment to attach to
@@ -301,7 +310,7 @@ sidebar:
 | ├ Z | [0] (-180 ~ 180) | 
 | ├ Guitar Mode | OFF | 
 | ├ **Motion** | | Apply up / down motion to the attachment model
-| │ ├ Enable Motion | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ **Speed** | | 
 | │ │ ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├ Moves Per Group | [8] (4 ~ 32) | 
@@ -334,9 +343,10 @@ sidebar:
 | │ │ ├ Blend Mode: Blend || 
 | │ │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ │ ├ Blend | [1] (0 ~ 1) | 
-| │ │ └ Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ │ └ Presets: White || 
+| │ │   Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | │ ├ **Toon Shader** | | 
-| │ │ ├ Enable Toon Shader | OFF | 
+| │ │ ├ Enable | OFF | 
 | │ │ ├ Shading | [1] (0 ~ 1) | 
 | │ │ ├ Outline | [0.5] (0 ~ 1) | 
 | │ │ ├ Specular | [0.25] (0 ~ 1) | 
@@ -347,20 +357,22 @@ sidebar:
 | │ │ ├ Shadow Area | [0.65] (0 ~ 1) | 
 | │ │ ├ Shadow | [0.75] (0 ~ 1) | 
 | │ │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
-| │ │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ │ └ Presets: Sharp || 
+| │ │   Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | │ ├ **Special Shader** | | 
 | │ │ ├ Mode: Off || 
 | │ │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ │ ├ Refraction | [0.5] (1 ~ 3) | 
 | │ │ └ Thickness | [1] (0 ~ 1) | 
-| │ └ Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| │ └ Presets: Chrome || 
+| │   Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
 | ├ XRay | [0] (0 ~ 1) | 
 | ├ Alpha | [1] (0 ~ 1) | 
 | ├ Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | ├ Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 | └ Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 | **Head** | | 
-| ├ Enable Head | OFF | 
+| ├ Enable | OFF | 
 | ├ Model: [Pole] || 
 | │ Model | **[Pole]** | [Pole],  |
 | ├ **Anchor Offset** | | Set the anchor position for the attachment to attach to
@@ -387,7 +399,7 @@ sidebar:
 | ├ Z | [0] (-180 ~ 180) | 
 | ├ Guitar Mode | OFF | 
 | ├ **Motion** | | Apply up / down motion to the attachment model
-| │ ├ Enable Motion | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ **Speed** | | 
 | │ │ ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├ Moves Per Group | [8] (4 ~ 32) | 
@@ -420,9 +432,10 @@ sidebar:
 | │ │ ├ Blend Mode: Blend || 
 | │ │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ │ ├ Blend | [1] (0 ~ 1) | 
-| │ │ └ Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ │ └ Presets: White || 
+| │ │   Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | │ ├ **Toon Shader** | | 
-| │ │ ├ Enable Toon Shader | OFF | 
+| │ │ ├ Enable | OFF | 
 | │ │ ├ Shading | [1] (0 ~ 1) | 
 | │ │ ├ Outline | [0.5] (0 ~ 1) | 
 | │ │ ├ Specular | [0.25] (0 ~ 1) | 
@@ -433,20 +446,22 @@ sidebar:
 | │ │ ├ Shadow Area | [0.65] (0 ~ 1) | 
 | │ │ ├ Shadow | [0.75] (0 ~ 1) | 
 | │ │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
-| │ │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ │ └ Presets: Sharp || 
+| │ │   Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | │ ├ **Special Shader** | | 
 | │ │ ├ Mode: Off || 
 | │ │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ │ ├ Refraction | [0.5] (1 ~ 3) | 
 | │ │ └ Thickness | [1] (0 ~ 1) | 
-| │ └ Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| │ └ Presets: Chrome || 
+| │   Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
 | ├ XRay | [0] (0 ~ 1) | 
 | ├ Alpha | [1] (0 ~ 1) | 
 | ├ Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
 | ├ Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
 | └ Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 | **Left Foot** | | 
-| ├ Enable Left Foot | OFF | 
+| ├ Enable | OFF | 
 | ├ Model: [Pole] || 
 | │ Model | **[Pole]** | [Pole],  |
 | ├ **Anchor Offset** | | Set the anchor position for the attachment to attach to
@@ -473,7 +488,7 @@ sidebar:
 | ├ Z | [0] (-180 ~ 180) | 
 | ├ Guitar Mode | OFF | 
 | ├ **Motion** | | Apply up / down motion to the attachment model
-| │ ├ Enable Motion | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ **Speed** | | 
 | │ │ ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├ Moves Per Group | [8] (4 ~ 32) | 
@@ -506,9 +521,10 @@ sidebar:
 | │ │ ├ Blend Mode: Blend || 
 | │ │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ │ ├ Blend | [1] (0 ~ 1) | 
-| │ │ └ Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ │ └ Presets: White || 
+| │ │   Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | │ ├ **Toon Shader** | | 
-| │ │ ├ Enable Toon Shader | OFF | 
+| │ │ ├ Enable | OFF | 
 | │ │ ├ Shading | [1] (0 ~ 1) | 
 | │ │ ├ Outline | [0.5] (0 ~ 1) | 
 | │ │ ├ Specular | [0.25] (0 ~ 1) | 
@@ -519,13 +535,15 @@ sidebar:
 | │ │ ├ Shadow Area | [0.65] (0 ~ 1) | 
 | │ │ ├ Shadow | [0.75] (0 ~ 1) | 
 | │ │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
-| │ │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ │ └ Presets: Sharp || 
+| │ │   Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | │ ├ **Special Shader** | | 
 | │ │ ├ Mode: Off || 
 | │ │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ │ ├ Refraction | [0.5] (1 ~ 3) | 
 | │ │ └ Thickness | [1] (0 ~ 1) | 
-| │ └ Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| │ └ Presets: Chrome || 
+| │   Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
 | ├ XRay | [0] (0 ~ 1) | 
 | ├ Alpha | [1] (0 ~ 1) | 
 | ├ Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
@@ -533,7 +551,7 @@ sidebar:
 | └ Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
 | Symmetrical Foot | OFF | 
 | **Right Foot** | | 
-| ├ Enable Right Foot | OFF | 
+| ├ Enable | OFF | 
 | ├ Model: [Pole] || 
 | │ Model | **[Pole]** | [Pole],  |
 | ├ **Anchor Offset** | | Set the anchor position for the attachment to attach to
@@ -560,7 +578,7 @@ sidebar:
 | ├ Z | [0] (-180 ~ 180) | 
 | ├ Guitar Mode | OFF | 
 | ├ **Motion** | | Apply up / down motion to the attachment model
-| │ ├ Enable Motion | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ **Speed** | | 
 | │ │ ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├ Moves Per Group | [8] (4 ~ 32) | 
@@ -593,9 +611,10 @@ sidebar:
 | │ │ ├ Blend Mode: Blend || 
 | │ │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ │ ├ Blend | [1] (0 ~ 1) | 
-| │ │ └ Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ │ └ Presets: White || 
+| │ │   Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | │ ├ **Toon Shader** | | 
-| │ │ ├ Enable Toon Shader | OFF | 
+| │ │ ├ Enable | OFF | 
 | │ │ ├ Shading | [1] (0 ~ 1) | 
 | │ │ ├ Outline | [0.5] (0 ~ 1) | 
 | │ │ ├ Specular | [0.25] (0 ~ 1) | 
@@ -606,13 +625,15 @@ sidebar:
 | │ │ ├ Shadow Area | [0.65] (0 ~ 1) | 
 | │ │ ├ Shadow | [0.75] (0 ~ 1) | 
 | │ │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
-| │ │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ │ └ Presets: Sharp || 
+| │ │   Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | │ ├ **Special Shader** | | 
 | │ │ ├ Mode: Off || 
 | │ │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ │ ├ Refraction | [0.5] (1 ~ 3) | 
 | │ │ └ Thickness | [1] (0 ~ 1) | 
-| │ └ Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| │ └ Presets: Chrome || 
+| │   Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
 | ├ XRay | [0] (0 ~ 1) | 
 | ├ Alpha | [1] (0 ~ 1) | 
 | ├ Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough

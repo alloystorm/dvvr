@@ -30,4 +30,5 @@ sidebar:
 | 防止低于地面 | ON | 
 | 使用角色朝向 | ON | 
 | 靠近时提高焦点 | OFF | 距离变小时向上移动焦点位置
+| (Presets: Default (Reset)) || 
 | 预设 | **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2), (Preset 3),  |

@@ -34,7 +34,8 @@ sidebar:
 | ├ 빨간색 | [0.9] (0 ~ 1) | 
 | ├ 초록색 | [0.9] (0 ~ 1) | 
 | ├ 파란색 | [0] (0 ~ 1) | 
-| └ 프리셋 | **(Yellow)** | 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange), (Preset 1),  |
+| └ (Presets: Yellow) || 
+|   프리셋 | **(Yellow)** | 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange), (Preset 1),  |
 | 발광 | [1] (0 ~ 10) | 번짐 효과의 밝기.
 | 혼합 | [1] (0 ~ 1) | (Blend between the original color and the burn color. )
 | 지속 시간 | [2] (0 ~ 5) | 애니메이션의 지속 시간.

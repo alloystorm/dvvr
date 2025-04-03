@@ -48,7 +48,7 @@ sidebar:
 | ├ Symmetrical Offset | [0] (-1 ~ 1) | 
 | ├ Use Accessory Position | ON | 
 | ├ **Motion** | | 
-| │ ├ Enable Motion | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ **Speed** | | 
 | │ │ ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├ Moves Per Group | [8] (4 ~ 32) | 
@@ -61,7 +61,7 @@ sidebar:
 | │ ├ Distance | [0.1] (0 ~ 0.3) | 
 | │ └ Angle | [0] (-60 ~ 60) | 
 | ├ **Custom Pose** | | 
-| │ ├ Enable Custom Pose | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Open | [0] (-1 ~ 1) | 
 | │ ├ Thumb Axis | [90] (-360 ~ 360) | 
 | │ ├ Thumb Fold | [0] (-1 ~ 1) | 
@@ -76,7 +76,8 @@ sidebar:
 | ├ Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 | ├ Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 | ├ Grab Axis | [0] (-180 ~ 180) | 
-| └ Presets | **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
+| └ Presets: Rest || 
+|   Presets | **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
 | **Right Hand** | | 
 | ├ Gesture || 
 | │ Gesture | **Palm Fingers Together** | Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
@@ -101,7 +102,7 @@ sidebar:
 | ├ Symmetrical Offset | [0] (-1 ~ 1) | 
 | ├ Use Accessory Position | ON | 
 | ├ **Motion** | | 
-| │ ├ Enable Motion | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ **Speed** | | 
 | │ │ ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├ Moves Per Group | [8] (4 ~ 32) | 
@@ -114,7 +115,7 @@ sidebar:
 | │ ├ Distance | [0.1] (0 ~ 0.3) | 
 | │ └ Angle | [0] (-60 ~ 60) | 
 | ├ **Custom Pose** | | 
-| │ ├ Enable Custom Pose | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Open | [0] (-1 ~ 1) | 
 | │ ├ Thumb Axis | [90] (-360 ~ 360) | 
 | │ ├ Thumb Fold | [0] (-1 ~ 1) | 
@@ -129,6 +130,7 @@ sidebar:
 | ├ Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 | ├ Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 | ├ Grab Axis | [0] (-180 ~ 180) | 
-| └ Presets | **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
+| └ Presets: Rest || 
+|   Presets | **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
 | Use Loudness For | ON | 
 | Upper Body Motion | [0.5] (0 ~ 1) | 

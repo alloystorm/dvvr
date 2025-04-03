@@ -50,4 +50,5 @@ sidebar:
 | ├ X回転 | [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
 | ├ Y回転 | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
 | └ Z回転 | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
+| (Presets: Off) || 
 | プリセット | **オフ** | オフ, 床の上, ハイヒール, 最大ヒール,  |

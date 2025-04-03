@@ -45,7 +45,8 @@ sidebar:
 | ├ Blue | [1] (0 ~ 1) | 
 | ├ Use Stage Color | OFF | Use the color from the stage ring
 | ├ Color Temp | [6500] (3000 ~ 8000) | 
-| └ Presets | **White** | White, Sunset, Red, Yellow, Blue, Green,  |
+| └ Presets: White || 
+|   Presets | **White** | White, Sunset, Red, Yellow, Blue, Green,  |
 | **Middle Color** | | 
 | ├ Color Mode | RGB | RGB, HSV, 
 | ├ Hue | [0] (0 ~ 1) | 
@@ -56,7 +57,8 @@ sidebar:
 | ├ Blue | [1] (0 ~ 1) | 
 | ├ Use Stage Color | OFF | Use the color from the stage ring
 | ├ Color Temp | [6500] (3000 ~ 8000) | 
-| └ Presets | **White** | White, Sunset, Red, Yellow, Blue, Green,  |
+| └ Presets: White || 
+|   Presets | **White** | White, Sunset, Red, Yellow, Blue, Green,  |
 | **Ground Color** | | 
 | ├ Color Mode | RGB | RGB, HSV, 
 | ├ Hue | [0] (0 ~ 1) | 
@@ -67,9 +69,10 @@ sidebar:
 | ├ Blue | [1] (0 ~ 1) | 
 | ├ Use Stage Color | OFF | Use the color from the stage ring
 | ├ Color Temp | [6500] (3000 ~ 8000) | 
-| └ Presets | **White** | White, Sunset, Red, Yellow, Blue, Green,  |
+| └ Presets: White || 
+|   Presets | **White** | White, Sunset, Red, Yellow, Blue, Green,  |
 | **Cloud** | | Configures volumetric clouds, including shape, erosion, density, and wind effects.
-| ├ Enable Cloud | ON | Enables or disables volumetric clouds.
+| ├ Enable | ON | Enables or disables volumetric clouds.
 | ├ Shape Scale | [1] (-1 ~ 2) | Controls the scale of the cloud shapes.
 | ├ Shape Factor | [0.8] (0 ~ 1) | Adjusts the shape factor of the clouds.
 | ├ Erosion Scale | [2] (0 ~ 5) | Controls the scale of cloud erosion.
@@ -77,4 +80,5 @@ sidebar:
 | ├ Density | [0.2] (0 ~ 1) | Sets the density multiplier for the clouds.
 | ├ Shadow | OFF | Enables or disables cloud shadows.
 | └ Wind Multiplier | [3] (0 ~ 4) | Sets the wind multiplier for cloud movement.
+| Presets: Thin Cloud || 
 | Presets | **Thin Cloud** | Skymap, Procedural, Indoor, Thin Cloud, Cloudy,  |

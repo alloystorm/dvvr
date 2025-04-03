@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Simulation | ON | 
+| Enable | ON | 
 | Reset || 
 | **Cloth 1** | | 
-| ├ Enable Cloth 1 | OFF | 
+| ├ Enable | OFF | 
 | ├ Rebuild Mesh || Most parameters here requires rebuilding the mesh to take effect.
 | ├ Topology: Horizontal Layout || 
 | │ Topology | **Horizontal Layout** | Adaptive Hexagon, Adaptive Rectangle, Horizontal Layout, Horizontal Strings, Vertical Layout, Vertical Strings,  |
@@ -105,7 +105,8 @@ sidebar:
 | │ ├ Enable Tearing | OFF | 
 | │ ├ Tear Threshold | [2] (1 ~ 10) | 
 | │ └ Limit Tearing Speed | [0] (0 ~ 25) | Cool down interval after tearing, in frames
-| └ Presets | **Top** | Skirt, Top, Tight Skirt, String Skirt, Hula Skirt,  |
+| └ Presets: Top || 
+|   Presets | **Top** | Skirt, Top, Tight Skirt, String Skirt, Hula Skirt,  |
 | **C1 Material** | | 
 | ├ Surface || 
 | ├ Presets: Matt Gray || 
@@ -134,9 +135,10 @@ sidebar:
 | │ ├ Blend Mode: Blend || 
 | │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├ Blend | [1] (0 ~ 1) | 
-| │ └ Presets | **Gray** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └ Presets: Gray || 
+| │   Presets | **Gray** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├ **Toon Shader** | | 
-| │ ├ Enable Toon Shader | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Shading | [1] (0 ~ 1) | 
 | │ ├ Outline | [0.5] (0 ~ 1) | 
 | │ ├ Specular | [0.25] (0 ~ 1) | 
@@ -147,7 +149,8 @@ sidebar:
 | │ ├ Shadow Area | [0.65] (0 ~ 1) | 
 | │ ├ Shadow | [0.75] (0 ~ 1) | 
 | │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
-| │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └ Presets: Sharp || 
+| │   Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├ **Special Shader** | | 
 | │ ├ Mode: Off || 
 | │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
@@ -156,9 +159,9 @@ sidebar:
 | ├ Texture: [Solid Color] || 
 | │ Texture | **[Solid Color]** | [Solid Color], [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |
 | └ **Detail Map** | | 
-|   ├ Enable Detail Map | ON | 
+|   ├ Enable | ON | 
 |   ├ **Hexagon Map** | | 
-|   │ ├ Enable Hexagon Map | OFF | 
+|   │ ├ Enable | OFF | 
 |   │ ├ Density | [2] (0 ~ 8) | 
 |   │ ├ Size | [1] (0 ~ 1) | 
 |   │ ├ Bump | [0.5] (-1 ~ 1) | 
@@ -177,7 +180,7 @@ sidebar:
 |   ├ Anisotropy | [0] (-1 ~ 1) | 
 |   └ MIP Map Bias | [0] (-5 ~ 5) | Adjust sharpness of detail texture.
 | **Cloth 2** | | 
-| ├ Enable Cloth 2 | OFF | 
+| ├ Enable | OFF | 
 | ├ Rebuild Mesh || Most parameters here requires rebuilding the mesh to take effect.
 | ├ Topology: Horizontal Layout || 
 | │ Topology | **Horizontal Layout** | Adaptive Hexagon, Adaptive Rectangle, Horizontal Layout, Horizontal Strings, Vertical Layout, Vertical Strings,  |
@@ -265,7 +268,8 @@ sidebar:
 | │ ├ Enable Tearing | OFF | 
 | │ ├ Tear Threshold | [2] (1 ~ 10) | 
 | │ └ Limit Tearing Speed | [0] (0 ~ 25) | Cool down interval after tearing, in frames
-| └ Presets | **Skirt** | Skirt, Top, Tight Skirt, String Skirt, Hula Skirt,  |
+| └ Presets: Skirt || 
+|   Presets | **Skirt** | Skirt, Top, Tight Skirt, String Skirt, Hula Skirt,  |
 | **C2 Material** | | 
 | ├ Surface || 
 | ├ Presets: Matt Gray || 
@@ -294,9 +298,10 @@ sidebar:
 | │ ├ Blend Mode: Multiply || 
 | │ │ Blend Mode | **Multiply** | Original, Multiply, Blend, Color Shift,  |
 | │ ├ Blend | [1] (0 ~ 1) | 
-| │ └ Presets | **Gray** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └ Presets: Gray || 
+| │   Presets | **Gray** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├ **Toon Shader** | | 
-| │ ├ Enable Toon Shader | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Shading | [1] (0 ~ 1) | 
 | │ ├ Outline | [0.5] (0 ~ 1) | 
 | │ ├ Specular | [0.25] (0 ~ 1) | 
@@ -307,7 +312,8 @@ sidebar:
 | │ ├ Shadow Area | [0.65] (0 ~ 1) | 
 | │ ├ Shadow | [0.75] (0 ~ 1) | 
 | │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
-| │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └ Presets: Sharp || 
+| │   Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├ **Special Shader** | | 
 | │ ├ Mode: Off || 
 | │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
@@ -316,9 +322,9 @@ sidebar:
 | ├ Texture: [Solid Color] || 
 | │ Texture | **[Solid Color]** | [Solid Color], [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |
 | └ **Detail Map** | | 
-|   ├ Enable Detail Map | ON | 
+|   ├ Enable | ON | 
 |   ├ **Hexagon Map** | | 
-|   │ ├ Enable Hexagon Map | OFF | 
+|   │ ├ Enable | OFF | 
 |   │ ├ Density | [2] (0 ~ 8) | 
 |   │ ├ Size | [1] (0 ~ 1) | 
 |   │ ├ Bump | [0.5] (-1 ~ 1) | 
@@ -338,7 +344,7 @@ sidebar:
 |   └ MIP Map Bias | [0] (-5 ~ 5) | Adjust sharpness of detail texture.
 | Combine | OFF | Combine Cloth 1 and 2 as a single simulation, this allows collision between the 2 but will be slower.
 | **Fluid (Experimental)** | | 
-| ├ Enable Fluid (Experimental) | OFF | 
+| ├ Enable | OFF | 
 | ├ **Spawn** | | 
 | │ ├ **Position** | | 
 | │ │ ├ X | [0] (Unlimited) | 
@@ -357,7 +363,8 @@ sidebar:
 | │ ├ Max TTL | [10] (5 ~ 15) | Particles disappear and respawn after this amount of time.
 | │ ├ TTL on Floor | [0.1] (0 ~ 1) | Time to live after hitting floor.
 | │ ├ Smoothing | [0.5] (0 ~ 1) | 
-| │ └ Presets | **Sprinkler** | Shower, Fountain, Sprinkler, Handheld,  |
+| │ └ Presets: Sprinkler || 
+| │   Presets | **Sprinkler** | Shower, Fountain, Sprinkler, Handheld,  |
 | ├ **Fluid** | | 
 | │ ├ Cohesion | [0.5] (0 ~ 1) | 
 | │ ├ Viscosity | [0] (0 ~ 1) | 
@@ -366,7 +373,8 @@ sidebar:
 | │ ├ Cohesion Range | [20] (1 ~ 50) | Max distance for cohesion effect
 | │ ├ Target Distance | [10] (1 ~ 20) | Minimum distance between particles in MM when cohesion is off.
 | │ ├ Elevation | [0.25] (0 ~ 0.5) | Elevate particle in proportion of its size
-| │ └ Presets | **Water** | Water, Viscous, Sand,  |
+| │ └ Presets: Water || 
+| │   Presets | **Water** | Water, Viscous, Sand,  |
 | ├ **Render** | | 
 | │ ├ Render Particle | ON | 
 | │ ├ Render Droplet | OFF | 
@@ -406,13 +414,14 @@ sidebar:
 | │   ├ Legs | ON | 
 | │   ├ Feet | ON | 
 | │   └ Player | OFF | 
-| └ Presets | **Default (Reset)** | Default (Reset),  |
+| └ Presets: Default (Reset) || 
+|   Presets | **Default (Reset)** | Default (Reset),  |
 | **Geometry Collider** | | 
-| ├ Enable Geometry Collider | ON | 
+| ├ Enable | ON | 
 | ├ Visible | OFF | 
 | ├ Export Shape || 
 | ├ **Head** | | 
-| │ ├ Enable Head | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0] (-0.25 ~ 0.25) | 
 | │ ├ Y | [0] (-0.25 ~ 0.25) | 
@@ -429,7 +438,7 @@ sidebar:
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [1] (0 ~ 1) | 
 | ├ **Neck** | | 
-| │ ├ Enable Neck | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0] (-0.25 ~ 0.25) | 
 | │ ├ Y | [0] (-0.25 ~ 0.25) | 
@@ -446,7 +455,7 @@ sidebar:
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [1] (0 ~ 1) | 
 | ├ **Chest** | | 
-| │ ├ Enable Chest | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0] (-0.25 ~ 0.25) | 
 | │ ├ Y | [0.08] (-0.25 ~ 0.25) | 
@@ -463,7 +472,7 @@ sidebar:
 | │ ├ Y | [0.88] (0 ~ 1) | 
 | │ └ Z | [0.7] (0 ~ 1) | 
 | ├ **Ribs** | | 
-| │ ├ Enable Ribs | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0.075] (-0.25 ~ 0.25) | 
 | │ ├ Y | [0.015] (-0.25 ~ 0.25) | 
@@ -480,7 +489,7 @@ sidebar:
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [1] (0 ~ 1) | 
 | ├ **Waist** | | 
-| │ ├ Enable Waist | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0] (-0.25 ~ 0.25) | 
 | │ ├ Y | [0.032] (-0.25 ~ 0.25) | 
@@ -497,7 +506,7 @@ sidebar:
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [0.8] (0 ~ 1) | 
 | ├ **Belly** | | 
-| │ ├ Enable Belly | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0] (-0.25 ~ 0.25) | 
 | │ ├ Y | [0.013] (-0.25 ~ 0.25) | 
@@ -514,7 +523,7 @@ sidebar:
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [0.65] (0 ~ 1) | 
 | ├ **Butts** | | 
-| │ ├ Enable Butts | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0.066] (-0.25 ~ 0.25) | 
 | │ ├ Y | [-0.0425] (-0.25 ~ 0.25) | 
@@ -531,7 +540,7 @@ sidebar:
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [1] (0 ~ 1) | 
 | ├ **Shoulder** | | 
-| │ ├ Enable Shoulder | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [-0.02] (-0.25 ~ 0.25) | 
 | │ ├ Y | [0.02] (-0.25 ~ 0.25) | 
@@ -548,7 +557,7 @@ sidebar:
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [1] (0 ~ 1) | 
 | ├ **Upper Arm** | | 
-| │ ├ Enable Upper Arm | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0] (-0.25 ~ 0.25) | 
 | │ ├ Y | [0] (-0.25 ~ 0.25) | 
@@ -565,7 +574,7 @@ sidebar:
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [1] (0 ~ 1) | 
 | ├ **Lower Arm** | | 
-| │ ├ Enable Lower Arm | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0] (-0.25 ~ 0.25) | 
 | │ ├ Y | [0] (-0.25 ~ 0.25) | 
@@ -582,7 +591,7 @@ sidebar:
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [1] (0 ~ 1) | 
 | ├ **Hand** | | 
-| │ ├ Enable Hand | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0] (-0.25 ~ 0.25) | 
 | │ ├ Y | [0] (-0.25 ~ 0.25) | 
@@ -599,7 +608,7 @@ sidebar:
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [1] (0 ~ 1) | 
 | ├ **Hips** | | 
-| │ ├ Enable Hips | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0.01] (-0.25 ~ 0.25) | 
 | │ ├ Y | [-0.027] (-0.25 ~ 0.25) | 
@@ -616,7 +625,7 @@ sidebar:
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [1] (0 ~ 1) | 
 | ├ **Thigh** | | 
-| │ ├ Enable Thigh | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0.01] (-0.25 ~ 0.25) | 
 | │ ├ Y | [0] (-0.25 ~ 0.25) | 
@@ -633,7 +642,7 @@ sidebar:
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [1] (0 ~ 1) | 
 | ├ **Shin** | | 
-| │ ├ Enable Shin | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0] (-0.25 ~ 0.25) | 
 | │ ├ Y | [0] (-0.25 ~ 0.25) | 
@@ -656,7 +665,7 @@ sidebar:
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [1] (0 ~ 1) | 
 | ├ **Foot** | | 
-| │ ├ Enable Foot | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Position From || 
 | │ ├ X | [0] (-0.25 ~ 0.25) | 
 | │ ├ Y | [-0.03166673] (-0.25 ~ 0.25) | 
@@ -672,9 +681,10 @@ sidebar:
 | │ ├ X | [1] (0 ~ 1) | 
 | │ ├ Y | [1] (0 ~ 1) | 
 | │ └ Z | [1] (0 ~ 1) | 
-| └ Presets | **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3, Preset 4, Preset 5,  |
+| └ Presets: Default (Reset) || 
+|   Presets | **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3, Preset 4, Preset 5,  |
 | **Mesh Collider** | | 
-| ├ Enable Mesh Collider | ON | 
+| ├ Enable | ON | 
 | ├ Disable Geometry Colliders | ON | 
 | ├ Visulize | OFF | 
 | ├ Depth | [0.025] (0 ~ 0.1) | 
@@ -694,4 +704,5 @@ sidebar:
 | ├ Alternate Group Size | [0] (0 ~ 20) | 
 | ├ Table Size | [6] (1 ~ 20) | 
 | └ Two Step Solving | OFF | 
+| Presets: Default (Reset) || 
 | Presets | **Default (Reset)** | Default (Reset),  |

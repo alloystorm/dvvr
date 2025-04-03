@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Light Ball | OFF | 
+| Enable | OFF | 
 | Shape | Ball | Ball, Diamond, Crystal, 
 | Size | [1] (0.1 ~ 10) | 
 | **Style** | | 
@@ -29,7 +29,8 @@ sidebar:
 | │ ├ Green | [1] (0 ~ 1) | 
 | │ ├ Blue | [1] (0 ~ 1) | 
 | │ ├ Glow | [1] (0 ~ 20) | 
-| │ └ Presets | **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+| │ └ Presets: White || 
+| │   Presets | **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
 | ├ Gloss | [0.95] (0 ~ 1) | 
 | ├ Intensity | [10] (0 ~ 100) | 
 | ├ Glow | [0] (0 ~ 10) | 
@@ -37,7 +38,8 @@ sidebar:
 | ├ Refraction | [0.5] (-2 ~ 2) | 
 | ├ Cast Shadow | OFF | 
 | ├ Trail | [0] (0 ~ 2) | 
-| └ Presets | **Glow** | Glow, Reflective, Crystal,  |
+| └ Presets: Glow || 
+|   Presets | **Glow** | Glow, Reflective, Crystal,  |
 | **Physics** | | 
 | ├ Gravity | OFF | 
 | ├ Collision | ON | 
@@ -47,7 +49,8 @@ sidebar:
 | ├ Damping | [0.1] (0 ~ 10) | 
 | ├ Min Speed | [0] (0 ~ 5) | 
 | ├ Max Speed | [15] (2 ~ 15) | 
-| └ Presets | **Spring** | Spring, Hanging, Floating,  |
+| └ Presets: Spring || 
+|   Presets | **Spring** | Spring, Hanging, Floating,  |
 | Hands | ON | 
 | Hip | OFF | 
 | Torso | OFF | 

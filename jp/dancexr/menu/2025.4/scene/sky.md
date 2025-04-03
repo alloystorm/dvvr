@@ -45,7 +45,8 @@ sidebar:
 | ├ 青 | [1] (0 ~ 1) | 
 | ├ ステージカラーを使用 | OFF | ステージリングからの色を使用
 | ├ 色温度 | [6500] (3000 ~ 8000) | 
-| └ プリセット | **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
+| └ (Presets: White) || 
+|   プリセット | **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
 | **ミドルカラー** | | 
 | ├ カラーモード | (RGB) | (RGB), (HSV), 
 | ├ 色相 | [0] (0 ~ 1) | 
@@ -56,7 +57,8 @@ sidebar:
 | ├ 青 | [1] (0 ~ 1) | 
 | ├ ステージカラーを使用 | OFF | ステージリングからの色を使用
 | ├ 色温度 | [6500] (3000 ~ 8000) | 
-| └ プリセット | **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
+| └ (Presets: White) || 
+|   プリセット | **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
 | **グラウンドカラー** | | 
 | ├ カラーモード | (RGB) | (RGB), (HSV), 
 | ├ 色相 | [0] (0 ~ 1) | 
@@ -67,9 +69,10 @@ sidebar:
 | ├ 青 | [1] (0 ~ 1) | 
 | ├ ステージカラーを使用 | OFF | ステージリングからの色を使用
 | ├ 色温度 | [6500] (3000 ~ 8000) | 
-| └ プリセット | **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
+| └ (Presets: White) || 
+|   プリセット | **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
 | **雲** | | Configures volumetric clouds, including shape, erosion, density, and wind effects.
-| ├ (Enable Cloud) | ON | (Enables or disables volumetric clouds.)
+| ├ 有効にする | ON | (Enables or disables volumetric clouds.)
 | ├ 形状スケール | [1] (-1 ~ 2) | (Controls the scale of the cloud shapes.)
 | ├ 形状係数 | [0.8] (0 ~ 1) | (Adjusts the shape factor of the clouds.)
 | ├ 侵食スケール | [2] (0 ~ 5) | (Controls the scale of cloud erosion.)
@@ -77,4 +80,5 @@ sidebar:
 | ├ 密度 | [0.2] (0 ~ 1) | (Sets the density multiplier for the clouds.)
 | ├ シャドウ | OFF | (Enables or disables cloud shadows.)
 | └ 風の倍率 | [3] (0 ~ 4) | (Sets the wind multiplier for cloud movement.)
+| (Presets: Thin Cloud) || 
 | プリセット | **薄い雲** | スカイマップ, プロシージャル, 屋内, 薄い雲, 曇り,  |

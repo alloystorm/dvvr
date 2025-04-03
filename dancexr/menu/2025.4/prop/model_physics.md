@@ -40,11 +40,11 @@ sidebar:
 | ├ Damping | [0.05] (0 ~ 1) | 
 | └ Drag | [0.15] (0 ~ 1) | 
 | **Linear Drive** | | Apply linear drive
-| ├ Enable Linear Drive | ON | 
+| ├ Enable | ON | 
 | ├ Spring Force | [3] (0 ~ 5) | 
 | └ Damping | [0.1] (0 ~ 1) | 
 | **Angular Drive** | | Apply angular drive
-| ├ Enable Angular Drive | ON | 
+| ├ Enable | ON | 
 | ├ Spring Force | [0.1] (0 ~ 5) | 
 | └ Damping | [0.1] (0 ~ 1) | 
 | **Linear Motion** | | Settings for linear motion
@@ -79,7 +79,7 @@ sidebar:
 | **Auto Reset** | | 
 | └ Threshold | [30] (0 ~ 50) | 
 | **Body Colliders** | | 
-| ├ Enable Body Colliders | ON | 
+| ├ Enable | ON | 
 | ├ Size | [0.5] (0 ~ 1) | 
 | ├ Head Radius | [1] (0 ~ 2) | 
 | ├ Arm Radius | [1] (0 ~ 2) | 
@@ -99,9 +99,10 @@ sidebar:
 | ├ Thigh Start Position | [0] (0 ~ 1) | 
 | ├ Hand | [0] (0 ~ 1) | 
 | ├ Visualize | OFF | 
-| └ Presets | **Default (Reset)** | Default (Reset), amy, misaki,  |
+| └ Presets: Default (Reset) || 
+|   Presets | **Default (Reset)** | Default (Reset), amy, misaki,  |
 | **Boobs Physics**<sup>[PRO]</sup> | | 
-| ├ Enable Boobs Physics | ON | 
+| ├ Enable | ON | 
 | ├ Select Bones || 
 | ├ Spring Force | [1.5] (0 ~ 5) | 
 | ├ Damping | [0.1] (0 ~ 1) | 
@@ -137,7 +138,7 @@ sidebar:
 | │ │ └ Z | [0.2] (0 ~ 1) | 
 | │ └ Nipple Size | [0.1] (0 ~ 1) | 
 | ├ **Softbody** | | 
-| │ ├ Enable Softbody | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Joints || 
 | │ ├ Depth | [0.4] (0 ~ 1) | 
 | │ ├ Include Center | ON | 
@@ -187,11 +188,13 @@ sidebar:
 | │ │ ├ Alternate Group Size | [0] (0 ~ 20) | 
 | │ │ ├ Table Size | [6] (1 ~ 20) | 
 | │ │ └ Two Step Solving | OFF | 
-| │ └ Presets | **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+| │ └ Presets: Boobs || 
+| │   Presets | **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 | ├ Softbody Only | OFF | Disable physics joint and use softbody particles only.
-| └ Presets | **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3, tina, 预设1, 预设2,  |
+| └ Presets: Default (Reset) || 
+|   Presets | **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3, tina, 预设1, 预设2,  |
 | **Skirt Physics**<sup>[PRO]</sup> | | 
-| ├ Enable Skirt Physics | ON | 
+| ├ Enable | ON | 
 | ├ Use Particle Dynamics | ON | 
 | ├ **Simulation Settings** | | 
 | │ ├ Use Global | ON | Find the global settings under Pro / Cloth Simulation
@@ -276,7 +279,7 @@ sidebar:
 | │ └ First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 | ├ Additional Groups | [0] (0 ~ 7) | 
 | ├ **Group 2** | | 
-| │ ├ Enable Group 2 | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Select Bones || 
 | │ ├ Sorting: Shortest Path || Set sorting method used when making lateral connections.
 | │ │ Sorting | **Shortest Path** | Shortest Path, Circular, Linear, No Sorting, <br/>Set sorting method used when making lateral connections. |
@@ -346,7 +349,7 @@ sidebar:
 | │ │ └ First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 | │ └ Use Primary Group Settings | ON | 
 | ├ **Group 3** | | 
-| │ ├ Enable Group 3 | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Select Bones || 
 | │ ├ Sorting: Shortest Path || Set sorting method used when making lateral connections.
 | │ │ Sorting | **Shortest Path** | Shortest Path, Circular, Linear, No Sorting, <br/>Set sorting method used when making lateral connections. |
@@ -416,7 +419,7 @@ sidebar:
 | │ │ └ First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 | │ └ Use Primary Group Settings | ON | 
 | ├ **Group 4** | | 
-| │ ├ Enable Group 4 | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Select Bones || 
 | │ ├ Sorting: Shortest Path || Set sorting method used when making lateral connections.
 | │ │ Sorting | **Shortest Path** | Shortest Path, Circular, Linear, No Sorting, <br/>Set sorting method used when making lateral connections. |
@@ -486,7 +489,7 @@ sidebar:
 | │ │ └ First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 | │ └ Use Primary Group Settings | ON | 
 | ├ **Group 5** | | 
-| │ ├ Enable Group 5 | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Select Bones || 
 | │ ├ Sorting: Shortest Path || Set sorting method used when making lateral connections.
 | │ │ Sorting | **Shortest Path** | Shortest Path, Circular, Linear, No Sorting, <br/>Set sorting method used when making lateral connections. |
@@ -556,7 +559,7 @@ sidebar:
 | │ │ └ First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 | │ └ Use Primary Group Settings | ON | 
 | ├ **Group 6** | | 
-| │ ├ Enable Group 6 | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Select Bones || 
 | │ ├ Sorting: Shortest Path || Set sorting method used when making lateral connections.
 | │ │ Sorting | **Shortest Path** | Shortest Path, Circular, Linear, No Sorting, <br/>Set sorting method used when making lateral connections. |
@@ -626,7 +629,7 @@ sidebar:
 | │ │ └ First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 | │ └ Use Primary Group Settings | ON | 
 | ├ **Group 7** | | 
-| │ ├ Enable Group 7 | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Select Bones || 
 | │ ├ Sorting: Shortest Path || Set sorting method used when making lateral connections.
 | │ │ Sorting | **Shortest Path** | Shortest Path, Circular, Linear, No Sorting, <br/>Set sorting method used when making lateral connections. |
@@ -696,7 +699,7 @@ sidebar:
 | │ │ └ First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 | │ └ Use Primary Group Settings | ON | 
 | ├ **Group 8** | | 
-| │ ├ Enable Group 8 | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Select Bones || 
 | │ ├ Sorting: Shortest Path || Set sorting method used when making lateral connections.
 | │ │ Sorting | **Shortest Path** | Shortest Path, Circular, Linear, No Sorting, <br/>Set sorting method used when making lateral connections. |
@@ -765,13 +768,14 @@ sidebar:
 | │ │ ├ Collider Length | [0.8] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 | │ │ └ First Collider Length | [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 | │ └ Use Primary Group Settings | ON | 
-| └ Presets | **Default (Reset)** | Default (Reset), hurrah, nyotengu cheongsam, nyo birthday, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5, Preset 6, 预设1,  |
+| └ Presets: Default (Reset) || 
+|   Presets | **Default (Reset)** | Default (Reset), hurrah, nyotengu cheongsam, nyo birthday, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5, Preset 6, 预设1,  |
 | **Hair Physics** | | 
-| ├ Enable Hair Physics | ON | 
+| ├ Enable | ON | 
 | ├ Select Bones || Select bones
 | ├ Skip First X Bones | [0] (0 ~ 5) | Do not create physics connection for the first x number of levels
 | ├ **Particle Dynamics** | | 
-| │ ├ Enable Particle Dynamics | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Swing Compliance | [0.25] (0 ~ 1) | 
 | │ ├ Twist Compliance | [0.75] (0 ~ 1) | 
 | │ ├ Particle Anchor | [0.5] (0 ~ 1) | 
@@ -825,13 +829,14 @@ sidebar:
 | ├ Collider Radius | [0.005] (0 ~ 0.05) | Size of the particle used when solving collision.
 | ├ Collider Length | [0.9] (0 ~ 1) | 
 | ├ Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-| └ Presets | **Default (Reset)** | Default (Reset), momiji bob, Preset 1,  |
+| └ Presets: Default (Reset) || 
+|   Presets | **Default (Reset)** | Default (Reset), momiji bob, Preset 1,  |
 | **Dangling Physics** | | 
-| ├ Enable Dangling Physics | ON | 
+| ├ Enable | ON | 
 | ├ Select Bones || Select bones
 | ├ Skip First X Bones | [0] (0 ~ 5) | Do not create physics connection for the first x number of levels
 | ├ **Particle Dynamics** | | 
-| │ ├ Enable Particle Dynamics | ON | 
+| │ ├ Enable | ON | 
 | │ ├ Swing Compliance | [0.25] (0 ~ 1) | 
 | │ ├ Twist Compliance | [0.75] (0 ~ 1) | 
 | │ ├ Particle Anchor | [0.5] (0 ~ 1) | 
@@ -885,9 +890,10 @@ sidebar:
 | ├ Collider Radius | [0.01] (0 ~ 0.05) | Size of the particle used when solving collision.
 | ├ Collider Length | [0.9] (0 ~ 1) | 
 | ├ Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-| └ Presets | **Default (Reset)** | Default (Reset), Preset 1, Preset 2,  |
+| └ Presets: Default (Reset) || 
+|   Presets | **Default (Reset)** | Default (Reset), Preset 1, Preset 2,  |
 | **Detach Object** | | 
-| ├ Enable Detach Object | ON | 
+| ├ Enable | ON | 
 | ├ Select Bones || 
 | ├ Gravity | ON | 
 | ├ Mass | [0.1] (0 ~ 10) | 
@@ -895,4 +901,5 @@ sidebar:
 | ├ Collider | Sphere | None, Sphere, Capsule, 
 | ├ Collider Radius | [0.1] (0 ~ 1) | 
 | └ Collider Length | [0.3] (0 ~ 2) | 
+| Presets: Default (Reset) || 
 | Presets | **Default (Reset)** | Default (Reset),  |

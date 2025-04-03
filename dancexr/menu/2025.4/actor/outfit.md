@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Outfit & Bodypaint | OFF | 
+| Enable | OFF | 
 | Mode | Color Paint | Color Paint, Outfit, Outfit Paint, 
 | **Body Paint** | | 
 | ├ Paint Side | Both | Both, Front, Back, 
@@ -32,7 +32,8 @@ sidebar:
 | │ ├ Red | [1] (0 ~ 1) | 
 | │ ├ Green | [1] (0 ~ 1) | 
 | │ ├ Blue | [1] (0 ~ 1) | 
-| │ └ Presets | **White** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
+| │ └ Presets: White || 
+| │   Presets | **White** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
 | ├ Glow | [0] (0 ~ 10) | 
 | ├ Preserve Color | [0] (0 ~ 1) | 
 | ├ Clear Canvas || 
@@ -59,9 +60,10 @@ sidebar:
 | ├ Outside Distance | [0.01] (0 ~ 0.025) | 
 | ├ Inside Bump | [0.5] (0 ~ 1) | 
 | ├ Inside Distance | [0.005] (0 ~ 0.1) | 
-| └ Presets | **Fullbody** | Fullbody, V Shape, Stockings, Fishnet Fullbody, Fishnet V Shape, Fishnet Stockings, Maze 1, Maze 2, Curve 1, Curve 2,  |
+| └ Presets: Fullbody || 
+|   Presets | **Fullbody** | Fullbody, V Shape, Stockings, Fishnet Fullbody, Fishnet V Shape, Fishnet Stockings, Maze 1, Maze 2, Curve 1, Curve 2,  |
 | **Hexagon Map** | | 
-| ├ Enable Hexagon Map | OFF | 
+| ├ Enable | OFF | 
 | ├ Density | [4] (0 ~ 8) | 
 | ├ Size | [1] (0 ~ 1) | 
 | ├ Bump | [0.5] (-1 ~ 1) | 
@@ -90,13 +92,15 @@ sidebar:
 | │ ├ Blend Mode: Blend || 
 | │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├ Blend | [0.9] (0 ~ 1) | 
-| │ └ Presets | **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └ Presets: Black || 
+| │   Presets | **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├ Anisotropy | [-0.5] (-1 ~ 1) | 
 | ├ Stocking Effect | [0.5] (0 ~ 1) | 
 | ├ Stocking Gradient | [2] (-3 ~ 3) | 
 | ├ Detail Density | [1] (0 ~ 2) | 
 | ├ Enable Dissolve | ON | 
-| └ Presets | **Stocking Thin** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
+| └ Presets: Stocking Thin || 
+|   Presets | **Stocking Thin** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
 | **Surface Pattern** | | 
 | ├ Gloss | [0.9] (0 ~ 1) | 
 | ├ Metallic | [0] (0 ~ 1) | 
@@ -116,13 +120,15 @@ sidebar:
 | │ ├ Blend Mode: Blend || 
 | │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├ Blend | [0.8] (0 ~ 1) | 
-| │ └ Presets | **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └ Presets: Black || 
+| │   Presets | **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├ Anisotropy | [0] (-1 ~ 1) | 
 | ├ Stocking Effect | [1] (0 ~ 1) | 
 | ├ Stocking Gradient | [1] (-3 ~ 3) | 
 | ├ Detail Density | [1] (0 ~ 2) | 
 | ├ Enable Dissolve | ON | 
-| └ Presets | **Latex** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
+| └ Presets: Latex || 
+|   Presets | **Latex** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
 | **Surface Border** | | 
 | ├ Gloss | [0.5] (0 ~ 1) | 
 | ├ Metallic | [0] (0 ~ 1) | 
@@ -142,13 +148,15 @@ sidebar:
 | │ ├ Blend Mode: Blend || 
 | │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├ Blend | [0.9] (0 ~ 1) | 
-| │ └ Presets | **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └ Presets: Black || 
+| │   Presets | **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├ Anisotropy | [-0.5] (-1 ~ 1) | 
 | ├ Stocking Effect | [0.5] (0 ~ 1) | 
 | ├ Stocking Gradient | [2] (-3 ~ 3) | 
 | ├ Detail Density | [1] (0 ~ 2) | 
 | ├ Enable Dissolve | ON | 
-| └ Presets | **Stocking Thin** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
+| └ Presets: Stocking Thin || 
+|   Presets | **Stocking Thin** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
 | Dissolve | [0] (0 ~ 1) | 
 | **Dissolve Map** | | 
 | ├ Pattern L1 | [13] (0 ~ 90) | Change the level 1 pattern when generating the dissolve map
@@ -177,4 +185,5 @@ sidebar:
 | ├ Manual Select || 
 | ├  | OFF | 
 | └ Filtering || 
+| Presets: Body Paint || 
 | Presets | **Body Paint** | Body Paint, Fullbody Latex, V Shape Fishnet, Stockings, Stockings Fishnet, Bodysuit 1, Bodysuit 2, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5,  |

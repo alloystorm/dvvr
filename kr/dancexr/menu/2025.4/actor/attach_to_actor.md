@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Attach To Actor) | OFF | 
+| 활성화 | OFF | 
 | 소스 본 선택 || 부착할 본 선택
 | 배우 선택 || 
 | 배우 선택 |  |  |

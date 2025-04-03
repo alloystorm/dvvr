@@ -39,4 +39,5 @@ sidebar:
 | Height Max | [0.5] (0 ~ 1) | 
 | Height Cycle | [32] (Unlimited) | 
 | Speed | [10] (0 ~ 90) | 
+| Presets: Default (Reset) || 
 | Presets | **Default (Reset)** | Default (Reset), Preset 1,  |

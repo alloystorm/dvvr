@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Sex Overlay | OFF | 
+| Enable | OFF | 
 | Intensity | [1] (0 ~ 2) | 
 | Bend | [0.2] (0 ~ 1) | 
 | Angle | [45] (0 ~ 90) | 

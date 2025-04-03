@@ -48,9 +48,10 @@ sidebar:
 | │ ├ Blend Mode: Blend || 
 | │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├ Blend | [1] (0 ~ 1) | 
-| │ └ Presets | **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └ Presets: Black || 
+| │   Presets | **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├ **Toon Shader** | | 
-| │ ├ Enable Toon Shader | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Shading | [1] (0 ~ 1) | 
 | │ ├ Outline | [0.5] (0 ~ 1) | 
 | │ ├ Specular | [0.25] (0 ~ 1) | 
@@ -61,7 +62,8 @@ sidebar:
 | │ ├ Shadow Area | [0.65] (0 ~ 1) | 
 | │ ├ Shadow | [0.75] (0 ~ 1) | 
 | │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
-| │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └ Presets: Sharp || 
+| │   Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├ **Special Shader** | | 
 | │ ├ Mode: Off || 
 | │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
@@ -69,14 +71,15 @@ sidebar:
 | │ └ Thickness | [1] (0 ~ 1) | 
 | ├ Viewer Height | [1.5] (0.5 ~ 3) | Viewer height used when projecting the the texture on to the ground
 | ├ **LED Mode** | | 
-| │ ├ Enable LED Mode | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Density | [7] (4 ~ 10) | 
 | │ ├ Size | [0.8] (0 ~ 1) | 
 | │ ├ Soft Edge | [0.3] (0 ~ 1) | 
 | │ ├ Viewing Angle | [1] (0 ~ 8) | Reduce brightness when viewed from an angle. 0 = perfect
 | │ ├ Edge | [0.5] (0 ~ 1) | 
 | │ └ Reduce Moire | [0.1] (0 ~ 1) | 
-| └ Presets | **Black Gloss** | Sky Map, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
+| └ Presets: Black Gloss || 
+|   Presets | **Black Gloss** | Sky Map, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
 | **Shadow Only** | | 
 | ├ Shadow Color || 
 | ├ Presets: Black || 
@@ -135,9 +138,10 @@ sidebar:
 | │ ├ Blend Mode: Blend || 
 | │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├ Blend | [1] (0 ~ 1) | 
-| │ └ Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └ Presets: White || 
+| │   Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├ **Toon Shader** | | 
-| │ ├ Enable Toon Shader | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Shading | [1] (0 ~ 1) | 
 | │ ├ Outline | [0.5] (0 ~ 1) | 
 | │ ├ Specular | [0.25] (0 ~ 1) | 
@@ -148,21 +152,23 @@ sidebar:
 | │ ├ Shadow Area | [0.65] (0 ~ 1) | 
 | │ ├ Shadow | [0.75] (0 ~ 1) | 
 | │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
-| │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └ Presets: Sharp || 
+| │   Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├ **Special Shader** | | 
 | │ ├ Mode: Off || 
 | │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├ Refraction | [0.5] (1 ~ 3) | 
 | │ └ Thickness | [1] (0 ~ 1) | 
 | ├ **LED Mode** | | 
-| │ ├ Enable LED Mode | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Density | [7] (4 ~ 10) | 
 | │ ├ Size | [0.8] (0 ~ 1) | 
 | │ ├ Soft Edge | [0.3] (0 ~ 1) | 
 | │ ├ Viewing Angle | [1] (0 ~ 8) | Reduce brightness when viewed from an angle. 0 = perfect
 | │ ├ Edge | [0.5] (0 ~ 1) | 
 | │ └ Reduce Moire | [0.1] (0 ~ 1) | 
-| └ Presets | **Wood** | Blank, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
+| └ Presets: Wood || 
+|   Presets | **Wood** | Blank, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
 | **Back Surface** | | 
 | ├ Texture: [Blank] || 
 | │ Texture | **[Blank]** | [Blank], [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |
@@ -193,9 +199,10 @@ sidebar:
 | │ ├ Blend Mode: Original || 
 | │ │ Blend Mode | **Original** | Original, Multiply, Blend, Color Shift,  |
 | │ ├ Blend | [1] (0 ~ 1) | 
-| │ └ Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └ Presets: White || 
+| │   Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├ **Toon Shader** | | 
-| │ ├ Enable Toon Shader | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Shading | [1] (0 ~ 1) | 
 | │ ├ Outline | [0.5] (0 ~ 1) | 
 | │ ├ Specular | [0.25] (0 ~ 1) | 
@@ -206,21 +213,23 @@ sidebar:
 | │ ├ Shadow Area | [0.65] (0 ~ 1) | 
 | │ ├ Shadow | [0.75] (0 ~ 1) | 
 | │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
-| │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └ Presets: Sharp || 
+| │   Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├ **Special Shader** | | 
 | │ ├ Mode: Off || 
 | │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├ Refraction | [0.5] (1 ~ 3) | 
 | │ └ Thickness | [1] (0 ~ 1) | 
 | ├ **LED Mode** | | 
-| │ ├ Enable LED Mode | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Density | [7] (4 ~ 10) | 
 | │ ├ Size | [0.8] (0 ~ 1) | 
 | │ ├ Soft Edge | [0.3] (0 ~ 1) | 
 | │ ├ Viewing Angle | [1] (0 ~ 8) | Reduce brightness when viewed from an angle. 0 = perfect
 | │ ├ Edge | [0.5] (0 ~ 1) | 
 | │ └ Reduce Moire | [0.1] (0 ~ 1) | 
-| └ Presets | **Blank** | Blank, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
+| └ Presets: Blank || 
+|   Presets | **Blank** | Blank, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
 | Water System | OFF | 
 | Presets: Off || 
 | Presets | **Off** | Off, Pool, Still Water, Ocean,  |
@@ -232,4 +241,5 @@ sidebar:
 | Absorption Distance | [5] (1 ~ 10) | Max distance you can see in the water from above.
 | Caustics | [0.5] (0 ~ 1) | Caustics effect
 | Absorption Multiplier | [2] (0 ~ 5) | Multiplication applied to the Absorption Distance when viewing from below.
+| Presets: Black Gloss || 
 | Presets | **Black Gloss** | Sky Map, Black Gloss, Stage, Pool, Ocean, Background Board, Projector Screen, Emissive Screen, Preset 1,  |

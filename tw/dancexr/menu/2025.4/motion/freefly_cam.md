@@ -31,4 +31,5 @@ sidebar:
 | 視場 | [30] (5 ~ 120) | 
 | 節拍循環 | [8] (1 ~ 16) | 
 | 使用軌道移動 | OFF | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
+| (Presets: Freefly) || 
 | 預設 | **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |

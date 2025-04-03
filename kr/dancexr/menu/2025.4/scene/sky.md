@@ -45,7 +45,8 @@ sidebar:
 | ├ 파란색 | [1] (0 ~ 1) | 
 | ├ 무대 색상 사용 | OFF | 무대 링에서 색상 사용
 | ├ 색온도 | [6500] (3000 ~ 8000) | 
-| └ 프리셋 | **흰색** | 흰색, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |
+| └ (Presets: White) || 
+|   프리셋 | **흰색** | 흰색, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |
 | **중간 색상** | | 
 | ├ 색상 모드 | (RGB) | (RGB), (HSV), 
 | ├ 색조 | [0] (0 ~ 1) | 
@@ -56,7 +57,8 @@ sidebar:
 | ├ 파란색 | [1] (0 ~ 1) | 
 | ├ 무대 색상 사용 | OFF | 무대 링에서 색상 사용
 | ├ 색온도 | [6500] (3000 ~ 8000) | 
-| └ 프리셋 | **흰색** | 흰색, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |
+| └ (Presets: White) || 
+|   프리셋 | **흰색** | 흰색, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |
 | **지면 색상** | | 
 | ├ 색상 모드 | (RGB) | (RGB), (HSV), 
 | ├ 색조 | [0] (0 ~ 1) | 
@@ -67,9 +69,10 @@ sidebar:
 | ├ 파란색 | [1] (0 ~ 1) | 
 | ├ 무대 색상 사용 | OFF | 무대 링에서 색상 사용
 | ├ 색온도 | [6500] (3000 ~ 8000) | 
-| └ 프리셋 | **흰색** | 흰색, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |
+| └ (Presets: White) || 
+|   프리셋 | **흰색** | 흰색, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |
 | **구름** | | Configures volumetric clouds, including shape, erosion, density, and wind effects.
-| ├ (Enable Cloud) | ON | (Enables or disables volumetric clouds.)
+| ├ 활성화 | ON | (Enables or disables volumetric clouds.)
 | ├ 형상 스케일 | [1] (-1 ~ 2) | (Controls the scale of the cloud shapes.)
 | ├ 형상 계수 | [0.8] (0 ~ 1) | (Adjusts the shape factor of the clouds.)
 | ├ 침식 스케일 | [2] (0 ~ 5) | (Controls the scale of cloud erosion.)
@@ -77,4 +80,5 @@ sidebar:
 | ├ 밀도 | [0.2] (0 ~ 1) | (Sets the density multiplier for the clouds.)
 | ├ 그림자 | OFF | (Enables or disables cloud shadows.)
 | └ 바람 배수기 | [3] (0 ~ 4) | (Sets the wind multiplier for cloud movement.)
+| (Presets: Thin Cloud) || 
 | 프리셋 | **얇은 구름** | 스카이맵, 프로시저, 실내, 얇은 구름, 흐림,  |

@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Body Colliders) | ON | 
+| 启用 | ON | 
 | 大小 | [0.5] (0 ~ 1) | 
 | 头部半径 | [1] (0 ~ 2) | 
 | 手臂半径 | [1] (0 ~ 2) | 
@@ -34,4 +34,5 @@ sidebar:
 | 大腿起始位置 | [0] (0 ~ 1) | 
 | 手 | [0] (0 ~ 1) | 
 | 可视化 | OFF | 
+| (Presets: Default (Reset)) || 
 | 预设 | **默认（重置）** | 默认（重置）, (amy), (misaki),  |

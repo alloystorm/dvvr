@@ -20,7 +20,8 @@ sidebar:
 | ├ 게임패드 사용 | OFF | VR 모드에서 게임패드 입력 활성화
 | ├ 그립 입력 사용 | ON | 꺼져 있을 때 그립 버튼을 완전히 무시
 | ├ 그립 임계값 | [0.5] (0 ~ 1) | 그립 버튼 입력을 트리거하기 위한 임계값. Valve Index와 같은 매우 민감한 컨트롤러에 유용함
-| └ 프리셋 | **(Thumbstick)** | (Thumbstick), (Trackpad), (Trackpad + Thumbstick),  |
+| └ (Presets: Thumbstick) || 
+|   프리셋 | **(Thumbstick)** | (Thumbstick), (Trackpad), (Trackpad + Thumbstick),  |
 | **왼쪽 엄지 X** | | 
 | ├ (Prime Action: Move Left / Right) || 
 | │ 주 행동 | **좌/우 이동** | 없음, 좌/우 이동, 앞/뒤로 이동, 위/아래 이동, 좌/우 회전, UI X, UI Y, 커스텀 축 1, 커스텀 축 2, 기울기 보기, UI 스크롤, 타임라인 탐색, 프레임 탐색,  |
@@ -183,4 +184,5 @@ sidebar:
 | │ 두 번째 행동 | **마이크 토글** | 없음, UI 토글, 재생 / 일시 정지, UI 뒤로, 물리 초기화, 배우 중앙, 다음 배우, 이전 배우, 다음 모션, 이전 모션, 카메라 전환, 슬로우 모션, 배우 섞기, 모션 섞기, 다음 단계, 이전 단계, 단계 섞기, UI 액션, UI 대안, 보조 액션, UI 중앙, 마이크 토글,  |
 | └ (Key: Return) || 
 |   (Key) | **(Return)** | 없음, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 삭제, (Home), (End), (PageUp), (PageDown), 위, 아래, 왼쪽, 오른쪽, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+| (Presets: Default (Reset)) || 
 | 프리셋 | **기본값 (초기화)** | 기본값 (초기화),  |

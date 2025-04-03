@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Laser | OFF | 
+| Enable | OFF | 
 | Number | [16] (1 ~ 32) | 
 | Width | [8] (0 ~ 50) | 
 | Curvature | [-1] (-2 ~ 2) | 
@@ -35,7 +35,8 @@ sidebar:
 | ├ Base Level | [-1] (-3 ~ 3) | 
 | ├ Edge Level | [2] (0 ~ 5) | 
 | ├ Hit Level | [2] (0 ~ 5) | 
-| └ Presets | **Animated Hue** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+| └ Presets: Animated Hue || 
+|   Presets | **Animated Hue** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
 | **Motion** | | 
 | ├ Moves Per Group | [1] (1 ~ 32) | 
 | ├ Speed | [0] (-3 ~ 3) | 
@@ -65,5 +66,7 @@ sidebar:
 | │ └ Center | [0] (-1 ~ 1) | 
 | ├ Use Audio | [2] (0 ~ 4) | 
 | ├ Seed | [1234] (Unlimited) | Controls randomized pattern sequence
-| └ Presets | **Default (Reset)** | Default (Reset),  |
+| └ Presets: Default (Reset) || 
+|   Presets | **Default (Reset)** | Default (Reset),  |
+| Presets: Off || 
 | Presets | **Off** | Off, Line, Half Circle, Point, Glow w/ Music, Preset 1,  |

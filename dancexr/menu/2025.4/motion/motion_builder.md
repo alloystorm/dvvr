@@ -30,7 +30,8 @@ sidebar:
 | ├ Range X | [30] (0 ~ 45) | 
 | ├ Range Y | [30] (0 ~ 45) | 
 | ├ Orient | [0] (-45 ~ 45) | 
-| └ Presets | **Default (Reset)** | Default (Reset),  |
+| └ Presets: Default (Reset) || 
+|   Presets | **Default (Reset)** | Default (Reset),  |
 | Extent | [0.5] (0 ~ 1) | 
 | **Speed** | | 
 | ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
@@ -48,7 +49,7 @@ sidebar:
 | ├ Forward | [0] (-1 ~ 1) | 
 | └ Open | [0] (-1 ~ 1) | 
 | **Transit Between Presets** | | 
-| ├ Enable Transit Between Presets | OFF | 
+| ├ Enable | OFF | 
 | ├ Transit Between Presets: 0 / 1 || 
 | │ └ Default (Reset) | OFF | 
 | └ Random | OFF | 

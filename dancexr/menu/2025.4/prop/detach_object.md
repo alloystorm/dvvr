@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Detach Object | ON | 
+| Enable | ON | 
 | Select Bones || 
 | Gravity | ON | 
 | Mass | [0.1] (0 ~ 10) | 

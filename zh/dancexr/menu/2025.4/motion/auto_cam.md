@@ -51,4 +51,5 @@ sidebar:
 | 侧面90度 | [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
 | 后135度 | [0] (0 ~ 1) | (Probability of orienting the camera to a 135-degree angle behind the actor.)
 | 后180度 | [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
+| (Presets: Default (Reset)) || 
 | 预设 | **默认（重置）** | 默认（重置）, (Preset 1),  |

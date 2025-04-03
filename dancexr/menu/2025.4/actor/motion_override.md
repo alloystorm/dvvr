@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Motion Override | OFF | 
+| Enable | OFF | 
 | **Body** | | 
 | ├ Position | Free | Free, Lock Horizontal, Lock Vertical, Lock Position, 
 | ├ Rotation | Free | Free, Lock Rotation, 
@@ -32,7 +32,7 @@ sidebar:
 | ├ Min Distance | [0.5] (0 ~ 1) | 
 | └ Max Distance | [1] (0.5 ~ 2) | 
 | **Rocking Motion** | | 
-| ├ Enable Rocking Motion | ON | 
+| ├ Enable | ON | 
 | ├ **Speed** | | 
 | │ ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ ├ Moves Per Group | [8] (4 ~ 32) | 
@@ -50,12 +50,12 @@ sidebar:
 | ├ Depth Extra | [0] (-0.1 ~ 0.1) | 
 | └ Feet Motion | [0] (-1 ~ 1) | 
 | **Head Pose** | | 
-| ├ Enable Head Pose | OFF | 
+| ├ Enable | OFF | 
 | ├ Rotatoin X | [0] (-90 ~ 90) | 
 | ├ Rotatoin Y | [0] (-90 ~ 90) | 
 | └ Rotatoin Z | [0] (-90 ~ 90) | 
 | **Leg Pose** | | 
-| ├ Enable Leg Pose | ON | 
+| ├ Enable | ON | 
 | ├ Relative To Floor | ON | 
 | ├ Max Twist | [60] (0 ~ 90) | 
 | ├ Symmetrical | ON | 
@@ -77,10 +77,11 @@ sidebar:
 | │ ├ Foot Rotate Y | [0] (Unlimited) | 
 | │ ├ Foot Rotate Z | [0] (Unlimited) | 
 | │ └ Toe | [0] (-180 ~ 180) | 
-| └ Presets | **Ride** | Sit, Ride, Kneel, Stand,  |
+| └ Presets: Ride || 
+|   Presets | **Ride** | Sit, Ride, Kneel, Stand,  |
 | Hands Symmetrical | ON | 
 | **Left Hand** | | 
-| ├ Enable Left Hand | OFF | 
+| ├ Enable | OFF | 
 | ├ Gesture: Fist || 
 | │ Gesture | **Fist** | Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
 | ├ **Hand Position** | | 
@@ -104,7 +105,7 @@ sidebar:
 | ├ Symmetrical Offset | [0] (-1 ~ 1) | 
 | ├ Use Accessory Position | ON | 
 | ├ **Motion** | | 
-| │ ├ Enable Motion | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ **Speed** | | 
 | │ │ ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├ Moves Per Group | [8] (4 ~ 32) | 
@@ -117,7 +118,7 @@ sidebar:
 | │ ├ Distance | [0.1] (0 ~ 0.3) | 
 | │ └ Angle | [0] (-60 ~ 60) | 
 | ├ **Custom Pose** | | 
-| │ ├ Enable Custom Pose | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Open | [0] (-1 ~ 1) | 
 | │ ├ Thumb Axis | [90] (-360 ~ 360) | 
 | │ ├ Thumb Fold | [0] (-1 ~ 1) | 
@@ -132,9 +133,10 @@ sidebar:
 | ├ Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 | ├ Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 | ├ Grab Axis | [0] (-180 ~ 180) | 
-| └ Presets | **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
+| └ Presets: Rest || 
+|   Presets | **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
 | **Right Hand** | | 
-| ├ Enable Right Hand | OFF | 
+| ├ Enable | OFF | 
 | ├ Gesture: Fist || 
 | │ Gesture | **Fist** | Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
 | ├ **Hand Position** | | 
@@ -158,7 +160,7 @@ sidebar:
 | ├ Symmetrical Offset | [0] (-1 ~ 1) | 
 | ├ Use Accessory Position | ON | 
 | ├ **Motion** | | 
-| │ ├ Enable Motion | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ **Speed** | | 
 | │ │ ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├ Moves Per Group | [8] (4 ~ 32) | 
@@ -171,7 +173,7 @@ sidebar:
 | │ ├ Distance | [0.1] (0 ~ 0.3) | 
 | │ └ Angle | [0] (-60 ~ 60) | 
 | ├ **Custom Pose** | | 
-| │ ├ Enable Custom Pose | OFF | 
+| │ ├ Enable | OFF | 
 | │ ├ Open | [0] (-1 ~ 1) | 
 | │ ├ Thumb Axis | [90] (-360 ~ 360) | 
 | │ ├ Thumb Fold | [0] (-1 ~ 1) | 
@@ -186,9 +188,10 @@ sidebar:
 | ├ Grab Distance | [0.015] (-0.1 ~ 0.1) | 
 | ├ Grab Position | [-0.05] (-0.1 ~ 0.1) | 
 | ├ Grab Axis | [0] (-180 ~ 180) | 
-| └ Presets | **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
+| └ Presets: Rest || 
+|   Presets | **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
 | **Ride Model** | | 
-| ├ Enable Ride Model | ON | 
+| ├ Enable | ON | 
 | ├ Model: [Hoverbike] || 
 | │ Model | **[Hoverbike]** | [Hoverbike], [Rocking Horse],  |
 | ├ Acceleration | [10] (0 ~ 20) | 
@@ -204,4 +207,5 @@ sidebar:
 | ├ Z | [0] (-90 ~ 90) | 
 | ├ Scale | [0] (-5 ~ 5) | 
 | └ Particle Effect | ON | 
+| Presets: Free || 
 | Presets | **Free** | Free, Rocking Motion, Hoverbike, Rocking Horse, Pole Motion, Pole Blend,  |

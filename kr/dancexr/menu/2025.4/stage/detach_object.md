@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Detach Object) | ON | 
+| 활성화 | ON | 
 | 뼈 선택 || 
 | 중력 | ON | 
 | 질량 | [0.1] (0 ~ 10) | 

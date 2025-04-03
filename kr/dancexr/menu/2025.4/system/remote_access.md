@@ -14,6 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Remote Access) | OFF | 
+| 활성화 | OFF | 
 | 포트 번호 || 
 | 비밀번호 || 

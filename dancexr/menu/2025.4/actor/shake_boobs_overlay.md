@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Shake Boobs Overlay | OFF | 
+| Enable | OFF | 
 | Intensity | [1] (0 ~ 2) | 
 | Speed | [0] (-2 ~ 2) | 
 | Motion Pattern | [1] (-1 ~ 1) | Choose horizontal, vertial or both (set to 0) motion

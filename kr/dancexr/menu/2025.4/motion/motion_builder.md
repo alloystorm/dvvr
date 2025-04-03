@@ -30,7 +30,8 @@ sidebar:
 | ├ (Range X) | [30] (0 ~ 45) | 
 | ├ (Range Y) | [30] (0 ~ 45) | 
 | ├ (Orient) | [0] (-45 ~ 45) | 
-| └ 프리셋 | **기본값 (초기화)** | 기본값 (초기화),  |
+| └ (Presets: Default (Reset)) || 
+|   프리셋 | **기본값 (초기화)** | 기본값 (초기화),  |
 | 범위 | [0.5] (0 ~ 1) | 
 | **속도** | | 
 | ├ 비트당 움직임 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
@@ -48,7 +49,7 @@ sidebar:
 | ├ (Forward) | [0] (-1 ~ 1) | 
 | └ 열기 | [0] (-1 ~ 1) | 
 | **(Transit Between Presets)** | | 
-| ├ (Enable Transit Between Presets) | OFF | 
+| ├ 활성화 | OFF | 
 | ├ (Transit Between Presets: 0 / 1) || 
 | │ └ 기본값 (초기화) | OFF | 
 | └ 무작위 | OFF | 

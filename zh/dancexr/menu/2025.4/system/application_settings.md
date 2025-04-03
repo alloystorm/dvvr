@@ -33,7 +33,7 @@ sidebar:
 | ├ (Left Hand Pose: Auto) || 
 | │ 左手姿势 | **自动** | 自动, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 点, (Middle Finger), (Thumb Up), (Grab),  |
 | ├ **左手配件** | | 
-| │ ├ (Enable Left Hand Accessory) | OFF | 
+| │ ├ 启用 | OFF | 
 | │ ├ (Model: [Pole]) || 
 | │ │ 模型 | **[柱子]** | [柱子],  |
 | │ ├ **锚点偏移** | | Set the anchor position for the attachment to attach to
@@ -60,7 +60,7 @@ sidebar:
 | │ ├ (Z) | [0] (-180 ~ 180) | 
 | │ ├ 吉他模式 | OFF | 
 | │ ├ **运动** | | Apply up / down motion to the attachment model
-| │ │ ├ (Enable Motion) | OFF | 
+| │ │ ├ 启用 | OFF | 
 | │ │ ├ **速度** | | 
 | │ │ │ ├ 每拍动作数 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 | │ │ │ ├ 每组动作数 | [8] (4 ~ 32) | 
@@ -93,9 +93,10 @@ sidebar:
 | │ │ │ ├ (Blend Mode: Blend) || 
 | │ │ │ │ 混合模式 | **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 | │ │ │ ├ 混合 | [1] (0 ~ 1) | 
-| │ │ │ └ 预设 | **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
+| │ │ │ └ (Presets: White) || 
+| │ │ │   预设 | **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
 | │ │ ├ **卡通着色器** | | 
-| │ │ │ ├ (Enable Toon Shader) | OFF | 
+| │ │ │ ├ 启用 | OFF | 
 | │ │ │ ├ 着色 | [1] (0 ~ 1) | 
 | │ │ │ ├ 轮廓 | [0.5] (0 ~ 1) | 
 | │ │ │ ├ 高光 | [0.25] (0 ~ 1) | 
@@ -106,13 +107,15 @@ sidebar:
 | │ │ │ ├ 阴影区域 | [0.65] (0 ~ 1) | 
 | │ │ │ ├ 阴影 | [0.75] (0 ~ 1) | 
 | │ │ │ ├ 柔和阴影 | [0.1] (0 ~ 1) | 
-| │ │ │ └ 预设 | **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
+| │ │ │ └ (Presets: Sharp) || 
+| │ │ │   预设 | **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
 | │ │ ├ **特效着色器** | | 
 | │ │ │ ├ (Mode: Off) || 
 | │ │ │ │ 模式 | **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 | │ │ │ ├ 折射 | [0.5] (1 ~ 3) | 
 | │ │ │ └ 厚度 | [1] (0 ~ 1) | 
-| │ │ └ 预设 | **铬** | 白色光泽, 红色光泽, 铬, 黑色光泽, 金色, 实心玻璃, 薄玻璃,  |
+| │ │ └ (Presets: Chrome) || 
+| │ │   预设 | **铬** | 白色光泽, 红色光泽, 铬, 黑色光泽, 金色, 实心玻璃, 薄玻璃,  |
 | │ ├ X射线 | [0] (0 ~ 1) | 
 | │ ├ 透明度 | [1] (0 ~ 1) | 
 | │ ├ 拉手 | [0.1] (0 ~ 0.5) | 当手靠近附加物时拉向附加物
@@ -121,7 +124,7 @@ sidebar:
 | ├ (Right Hand Pose: Auto) || 
 | │ 右手姿势 | **自动** | 自动, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 点, (Middle Finger), (Thumb Up), (Grab),  |
 | └ **右手配件** | | 
-|   ├ (Enable Right Hand Accessory) | OFF | 
+|   ├ 启用 | OFF | 
 |   ├ (Model: [Pole]) || 
 |   │ 模型 | **[柱子]** | [柱子],  |
 |   ├ **锚点偏移** | | Set the anchor position for the attachment to attach to
@@ -148,7 +151,7 @@ sidebar:
 |   ├ (Z) | [0] (-180 ~ 180) | 
 |   ├ 吉他模式 | OFF | 
 |   ├ **运动** | | Apply up / down motion to the attachment model
-|   │ ├ (Enable Motion) | OFF | 
+|   │ ├ 启用 | OFF | 
 |   │ ├ **速度** | | 
 |   │ │ ├ 每拍动作数 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |   │ │ ├ 每组动作数 | [8] (4 ~ 32) | 
@@ -181,9 +184,10 @@ sidebar:
 |   │ │ ├ (Blend Mode: Blend) || 
 |   │ │ │ 混合模式 | **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |   │ │ ├ 混合 | [1] (0 ~ 1) | 
-|   │ │ └ 预设 | **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
+|   │ │ └ (Presets: White) || 
+|   │ │   预设 | **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
 |   │ ├ **卡通着色器** | | 
-|   │ │ ├ (Enable Toon Shader) | OFF | 
+|   │ │ ├ 启用 | OFF | 
 |   │ │ ├ 着色 | [1] (0 ~ 1) | 
 |   │ │ ├ 轮廓 | [0.5] (0 ~ 1) | 
 |   │ │ ├ 高光 | [0.25] (0 ~ 1) | 
@@ -194,13 +198,15 @@ sidebar:
 |   │ │ ├ 阴影区域 | [0.65] (0 ~ 1) | 
 |   │ │ ├ 阴影 | [0.75] (0 ~ 1) | 
 |   │ │ ├ 柔和阴影 | [0.1] (0 ~ 1) | 
-|   │ │ └ 预设 | **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
+|   │ │ └ (Presets: Sharp) || 
+|   │ │   预设 | **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
 |   │ ├ **特效着色器** | | 
 |   │ │ ├ (Mode: Off) || 
 |   │ │ │ 模式 | **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |   │ │ ├ 折射 | [0.5] (1 ~ 3) | 
 |   │ │ └ 厚度 | [1] (0 ~ 1) | 
-|   │ └ 预设 | **铬** | 白色光泽, 红色光泽, 铬, 黑色光泽, 金色, 实心玻璃, 薄玻璃,  |
+|   │ └ (Presets: Chrome) || 
+|   │   预设 | **铬** | 白色光泽, 红色光泽, 铬, 黑色光泽, 金色, 实心玻璃, 薄玻璃,  |
 |   ├ X射线 | [0] (0 ~ 1) | 
 |   ├ 透明度 | [1] (0 ~ 1) | 
 |   ├ 拉手 | [0.1] (0 ~ 0.5) | 当手靠近附加物时拉向附加物

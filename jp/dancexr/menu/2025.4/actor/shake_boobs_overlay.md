@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Shake Boobs Overlay) | OFF | 
+| 有効にする | OFF | 
 | 強度 | [1] (0 ~ 2) | 
 | スピード | [0] (-2 ~ 2) | 
 | モーションパターン | [1] (-1 ~ 1) | 水平、垂直、または両方の動きを選択（0に設定）

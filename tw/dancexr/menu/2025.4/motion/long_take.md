@@ -30,4 +30,5 @@ sidebar:
 | 防止低於地面 | ON | 
 | 使用演員方向 | ON | 
 | 靠近時抬高焦點 | OFF | 當距離變小時，上移焦點位置
+| (Presets: Default (Reset)) || 
 | 預設 | **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2), (Preset 3),  |

@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Visualize Bones | OFF | 
+| Enable | OFF | 
 | Virtual Bones | ON | 
 | Bones | OFF | 
 | IK | OFF | 

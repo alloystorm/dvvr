@@ -70,7 +70,7 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [(Enable Chat Settings)](chat/enabled) |  | 
+| [有効にする](chat/enabled) |  | 
 | [AIサービス](chat/ai_service) |  | 
 | [チャット設定](chat/chat_settings) |  | 
 | [声](chat/voice) |  | 

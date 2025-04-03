@@ -30,4 +30,5 @@ sidebar:
 | 바닥 아래 방지 | ON | 
 | 배우 방향 사용 | ON | 
 | 가까이 있을 때 초점 올리기 | OFF | 거리 감소 시 초점 위치 위로 이동
+| (Presets: Default (Reset)) || 
 | 프리셋 | **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2), (Preset 3),  |

@@ -70,7 +70,7 @@ sidebar:
 
 | Setting | Description |
 | :--- | :--- |
-| [(Enable Chat Settings)](chat/enabled) |  | 
+| [启用](chat/enabled) |  | 
 | [AI 服务](chat/ai_service) |  | 
 | [聊天设置](chat/chat_settings) |  | 
 | [声音](chat/voice) |  | 

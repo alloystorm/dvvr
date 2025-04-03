@@ -20,7 +20,8 @@ sidebar:
 | ├ 使用游戏手柄 | OFF | 在 VR 模式中启用游戏手柄输入
 | ├ 使用握持输入 | ON | 关闭时完全忽略握持按钮
 | ├ 握持阈值 | [0.5] (0 ~ 1) | 触发握持按钮输入的阈值。适用于非常灵敏的控制器，如 Valve Index
-| └ 预设 | **(Thumbstick)** | (Thumbstick), (Trackpad), (Trackpad + Thumbstick),  |
+| └ (Presets: Thumbstick) || 
+|   预设 | **(Thumbstick)** | (Thumbstick), (Trackpad), (Trackpad + Thumbstick),  |
 | **左拇指 X** | | 
 | ├ (Prime Action: Move Left / Right) || 
 | │ 主要动作 | **向左 / 向右移动** | 无, 向左 / 向右移动, 向前 / 向后移动, 向上 / 向下移动, 向左 / 向右旋转, UI X, UI Y, 自定义轴 1, 自定义轴 2, 倾斜视图, UI 滚动, 查找时间线, 查找帧,  |
@@ -183,4 +184,5 @@ sidebar:
 | │ 第二动作 | **切换麦克风** | 无, 切换 UI, 播放 / 暂停, 返回 UI, 重置物理, 中心角色, 下一个角色, 上一个角色, 下一个动作, 上一个动作, 切换摄像机, 慢动作, 随机角色, 随机动作, 下一个场景, 上一个场景, 随机场景, UI 操作, UI 替代, 次要操作, 中心 UI, 切换麦克风,  |
 | └ (Key: Return) || 
 |   (Key) | **(Return)** | 无, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 删除, (Home), (End), (PageUp), (PageDown), 上升, 下降, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+| (Presets: Default (Reset)) || 
 | 预设 | **默认（重置）** | 默认（重置）,  |

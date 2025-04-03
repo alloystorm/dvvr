@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Shake Boobs Overlay) | OFF | 
+| 활성화 | OFF | 
 | 강도 | [1] (0 ~ 2) | 
 | 속도 | [0] (-2 ~ 2) | 
 | 모션 패턴 | [1] (-1 ~ 1) | 수평, 수직 또는 둘 다(0으로 설정된) 모션 선택

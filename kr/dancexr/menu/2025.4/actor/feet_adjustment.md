@@ -50,4 +50,5 @@ sidebar:
 | ├ X 축 회전 | [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
 | ├ Y 축 회전 | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
 | └ Z 축 회전 | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
+| (Presets: Off) || 
 | 프리셋 | **끄기** | 끄기, 바닥에, 하이힐, 최대 굽,  |

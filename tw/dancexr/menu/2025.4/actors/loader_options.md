@@ -34,7 +34,8 @@ sidebar:
 | ├ 紅色 | [0.9] (0 ~ 1) | 
 | ├ 綠色 | [0.9] (0 ~ 1) | 
 | ├ 藍色 | [0] (0 ~ 1) | 
-| └ 預設 | **(Yellow)** | 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange), (Preset 1),  |
+| └ (Presets: Yellow) || 
+|   預設 | **(Yellow)** | 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange), (Preset 1),  |
 | 發光 | [1] (0 ~ 10) | 燒灼效果的亮度。
 | 混合 | [1] (0 ~ 1) | (Blend between the original color and the burn color. )
 | 持續時間 | [2] (0 ~ 5) | 動畫的持續時間。

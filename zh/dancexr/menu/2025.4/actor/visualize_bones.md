@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Visualize Bones) | OFF | 
+| 启用 | OFF | 
 | 虚拟骨骼 | ON | 
 | 骨骼 | OFF | 
 | IK | OFF | 

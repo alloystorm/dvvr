@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Motion Override) | OFF | 
+| 활성화 | OFF | 
 | **몸체** | | 
 | ├ 위치 | 자유 | 자유, 수평 고정, 수직 고정, 위치 고정, 
 | ├ 회전 | 자유 | 자유, 회전 고정, 
@@ -32,7 +32,7 @@ sidebar:
 | ├ 최소 거리 | [0.5] (0 ~ 1) | 
 | └ 최대 거리 | [1] (0.5 ~ 2) | 
 | **흔드는 모션** | | 
-| ├ (Enable Rocking Motion) | ON | 
+| ├ 활성화 | ON | 
 | ├ **속도** | | 
 | │ ├ 비트당 움직임 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 | │ ├ 그룹당 움직임 | [8] (4 ~ 32) | 
@@ -50,12 +50,12 @@ sidebar:
 | ├ 깊이 추가 | [0] (-0.1 ~ 0.1) | 
 | └ 발 모션 | [0] (-1 ~ 1) | 
 | **헤드 포즈** | | 
-| ├ (Enable Head Pose) | OFF | 
+| ├ 활성화 | OFF | 
 | ├ X 회전 | [0] (-90 ~ 90) | 
 | ├ Y 회전 | [0] (-90 ~ 90) | 
 | └ Z 회전 | [0] (-90 ~ 90) | 
 | **다리 포즈** | | 
-| ├ (Enable Leg Pose) | ON | 
+| ├ 활성화 | ON | 
 | ├ 바닥에 대한 상대적 위치 | ON | 
 | ├ 최대 비틀림 | [60] (0 ~ 90) | 
 | ├ 대칭적 | ON | 
@@ -77,10 +77,11 @@ sidebar:
 | │ ├ 발 회전 Y | [0] ((Unlimited)) | 
 | │ ├ 발 회전 Z | [0] ((Unlimited)) | 
 | │ └ 발가락 | [0] (-180 ~ 180) | 
-| └ 프리셋 | **(Ride)** | (Sit), (Ride), (Kneel), (Stand),  |
+| └ (Presets: Ride) || 
+|   프리셋 | **(Ride)** | (Sit), (Ride), (Kneel), (Stand),  |
 | 손 대칭 | ON | 
 | **왼손** | | 
-| ├ (Enable Left Hand) | OFF | 
+| ├ 활성화 | OFF | 
 | ├ (Gesture: Fist) || 
 | │ 제스처 | **(Fist)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |
 | ├ **손 위치** | | 
@@ -104,7 +105,7 @@ sidebar:
 | ├ 대칭 오프셋 | [0] (-1 ~ 1) | 
 | ├ 액세서리 위치 사용 | ON | 
 | ├ **모션** | | 
-| │ ├ (Enable Motion) | OFF | 
+| │ ├ 활성화 | OFF | 
 | │ ├ **속도** | | 
 | │ │ ├ 비트당 움직임 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 | │ │ ├ 그룹당 움직임 | [8] (4 ~ 32) | 
@@ -117,7 +118,7 @@ sidebar:
 | │ ├ 거리 | [0.1] (0 ~ 0.3) | 
 | │ └ 각도 | [0] (-60 ~ 60) | 
 | ├ **사용자 정의 포즈** | | 
-| │ ├ (Enable Custom Pose) | OFF | 
+| │ ├ 활성화 | OFF | 
 | │ ├ 열기 | [0] (-1 ~ 1) | 
 | │ ├ 엄지 축 | [90] (-360 ~ 360) | 
 | │ ├ 엄지 접기 | [0] (-1 ~ 1) | 
@@ -132,9 +133,10 @@ sidebar:
 | ├ 잡기 거리 | [0.015] (-0.1 ~ 0.1) | 
 | ├ 잡기 위치 | [-0.05] (-0.1 ~ 0.1) | 
 | ├ (Grab Axis) | [0] (-180 ~ 180) | 
-| └ 프리셋 | **(Rest)** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| └ (Presets: Rest) || 
+|   프리셋 | **(Rest)** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 | **오른손** | | 
-| ├ (Enable Right Hand) | OFF | 
+| ├ 활성화 | OFF | 
 | ├ (Gesture: Fist) || 
 | │ 제스처 | **(Fist)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |
 | ├ **손 위치** | | 
@@ -158,7 +160,7 @@ sidebar:
 | ├ 대칭 오프셋 | [0] (-1 ~ 1) | 
 | ├ 액세서리 위치 사용 | ON | 
 | ├ **모션** | | 
-| │ ├ (Enable Motion) | OFF | 
+| │ ├ 활성화 | OFF | 
 | │ ├ **속도** | | 
 | │ │ ├ 비트당 움직임 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 | │ │ ├ 그룹당 움직임 | [8] (4 ~ 32) | 
@@ -171,7 +173,7 @@ sidebar:
 | │ ├ 거리 | [0.1] (0 ~ 0.3) | 
 | │ └ 각도 | [0] (-60 ~ 60) | 
 | ├ **사용자 정의 포즈** | | 
-| │ ├ (Enable Custom Pose) | OFF | 
+| │ ├ 활성화 | OFF | 
 | │ ├ 열기 | [0] (-1 ~ 1) | 
 | │ ├ 엄지 축 | [90] (-360 ~ 360) | 
 | │ ├ 엄지 접기 | [0] (-1 ~ 1) | 
@@ -186,9 +188,10 @@ sidebar:
 | ├ 잡기 거리 | [0.015] (-0.1 ~ 0.1) | 
 | ├ 잡기 위치 | [-0.05] (-0.1 ~ 0.1) | 
 | ├ (Grab Axis) | [0] (-180 ~ 180) | 
-| └ 프리셋 | **(Rest)** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| └ (Presets: Rest) || 
+|   프리셋 | **(Rest)** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 | **탑승 모델** | | 
-| ├ (Enable Ride Model) | ON | 
+| ├ 활성화 | ON | 
 | ├ (Model: [Hoverbike]) || 
 | │ 모델 | **([Hoverbike])** | ([Hoverbike]), ([Rocking Horse]),  |
 | ├ 가속 | [10] (0 ~ 20) | 
@@ -204,4 +207,5 @@ sidebar:
 | ├ (Z) | [0] (-90 ~ 90) | 
 | ├ 스케일 | [0] (-5 ~ 5) | 
 | └ 파티클 이펙트 | ON | 
+| (Presets: Free) || 
 | 프리셋 | **자유** | 자유, 흔드는 모션, 호버바이크, 흔들말, 폴 모션, 폴 블렌드,  |

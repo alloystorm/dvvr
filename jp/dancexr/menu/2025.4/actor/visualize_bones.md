@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Visualize Bones) | OFF | 
+| 有効にする | OFF | 
 | バーチャルボーン | ON | 
 | ボーン | OFF | 
 | IK | OFF | 

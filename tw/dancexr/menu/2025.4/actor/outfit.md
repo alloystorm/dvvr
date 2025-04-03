@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Outfit & Bodypaint) | OFF | 
+| 啟用 | OFF | 
 | 模式 | 顏色彩繪 | 顏色彩繪, 服裝, 服裝彩繪, 
 | **身體繪畫** | | 
 | ├ 繪畫面 | 雙面 | 雙面, 正面, 背面, 
@@ -32,7 +32,8 @@ sidebar:
 | │ ├ 紅色 | [1] (0 ~ 1) | 
 | │ ├ 綠色 | [1] (0 ~ 1) | 
 | │ ├ 藍色 | [1] (0 ~ 1) | 
-| │ └ 預設 | **白色** | 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange), (Preset 1),  |
+| │ └ (Presets: White) || 
+| │   預設 | **白色** | 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange), (Preset 1),  |
 | ├ 發光 | [0] (0 ~ 10) | 
 | ├ 保留顏色 | [0] (0 ~ 1) | 
 | ├ 清除畫布 || 
@@ -59,9 +60,10 @@ sidebar:
 | ├ 外部距離 | [0.01] (0 ~ 0.025) | 
 | ├ 內部隆起 | [0.5] (0 ~ 1) | 
 | ├ 內部距離 | [0.005] (0 ~ 0.1) | 
-| └ 預設 | **(Fullbody)** | (Fullbody), V 形狀, 絲襪, (Fishnet Fullbody), (Fishnet V Shape), (Fishnet Stockings), (Maze 1), (Maze 2), (Curve 1), (Curve 2),  |
+| └ (Presets: Fullbody) || 
+|   預設 | **(Fullbody)** | (Fullbody), V 形狀, 絲襪, (Fishnet Fullbody), (Fishnet V Shape), (Fishnet Stockings), (Maze 1), (Maze 2), (Curve 1), (Curve 2),  |
 | **(Hexagon Map)** | | 
-| ├ (Enable Hexagon Map) | OFF | 
+| ├ 啟用 | OFF | 
 | ├ 密度 | [4] (0 ~ 8) | 
 | ├ 大小 | [1] (0 ~ 1) | 
 | ├ 凸起 | [0.5] (-1 ~ 1) | 
@@ -90,13 +92,15 @@ sidebar:
 | │ ├ (Blend Mode: Blend) || 
 | │ │ 混合模式 | **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 | │ ├ 混合 | [0.9] (0 ~ 1) | 
-| │ └ 預設 | **黑色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
+| │ └ (Presets: Black) || 
+| │   預設 | **黑色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
 | ├ 各向異性 | [-0.5] (-1 ~ 1) | 
 | ├ 絲襪效果 | [0.5] (0 ~ 1) | 
 | ├ 絲襪漸變 | [2] (-3 ~ 3) | 
 | ├ 細節密度 | [1] (0 ~ 2) | 
 | ├ 啟用溶解 | ON | 
-| └ 預設 | **薄絲襪** | 薄絲襪, 厚絲襪, 白色絲襪, 乳膠, 透明乳膠, 銀色, 金色, 發光白, 原版, (Preset 1), (Preset 2), (预设1),  |
+| └ (Presets: Stocking Thin) || 
+|   預設 | **薄絲襪** | 薄絲襪, 厚絲襪, 白色絲襪, 乳膠, 透明乳膠, 銀色, 金色, 發光白, 原版, (Preset 1), (Preset 2), (预设1),  |
 | **表面圖樣** | | 
 | ├ 光澤 | [0.9] (0 ~ 1) | 
 | ├ 金屬質感 | [0] (0 ~ 1) | 
@@ -116,13 +120,15 @@ sidebar:
 | │ ├ (Blend Mode: Blend) || 
 | │ │ 混合模式 | **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 | │ ├ 混合 | [0.8] (0 ~ 1) | 
-| │ └ 預設 | **黑色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
+| │ └ (Presets: Black) || 
+| │   預設 | **黑色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
 | ├ 各向異性 | [0] (-1 ~ 1) | 
 | ├ 絲襪效果 | [1] (0 ~ 1) | 
 | ├ 絲襪漸變 | [1] (-3 ~ 3) | 
 | ├ 細節密度 | [1] (0 ~ 2) | 
 | ├ 啟用溶解 | ON | 
-| └ 預設 | **乳膠** | 薄絲襪, 厚絲襪, 白色絲襪, 乳膠, 透明乳膠, 銀色, 金色, 發光白, 原版, (Preset 1), (Preset 2), (预设1),  |
+| └ (Presets: Latex) || 
+|   預設 | **乳膠** | 薄絲襪, 厚絲襪, 白色絲襪, 乳膠, 透明乳膠, 銀色, 金色, 發光白, 原版, (Preset 1), (Preset 2), (预设1),  |
 | **表面邊框** | | 
 | ├ 光澤 | [0.5] (0 ~ 1) | 
 | ├ 金屬質感 | [0] (0 ~ 1) | 
@@ -142,13 +148,15 @@ sidebar:
 | │ ├ (Blend Mode: Blend) || 
 | │ │ 混合模式 | **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 | │ ├ 混合 | [0.9] (0 ~ 1) | 
-| │ └ 預設 | **黑色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
+| │ └ (Presets: Black) || 
+| │   預設 | **黑色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
 | ├ 各向異性 | [-0.5] (-1 ~ 1) | 
 | ├ 絲襪效果 | [0.5] (0 ~ 1) | 
 | ├ 絲襪漸變 | [2] (-3 ~ 3) | 
 | ├ 細節密度 | [1] (0 ~ 2) | 
 | ├ 啟用溶解 | ON | 
-| └ 預設 | **薄絲襪** | 薄絲襪, 厚絲襪, 白色絲襪, 乳膠, 透明乳膠, 銀色, 金色, 發光白, 原版, (Preset 1), (Preset 2), (预设1),  |
+| └ (Presets: Stocking Thin) || 
+|   預設 | **薄絲襪** | 薄絲襪, 厚絲襪, 白色絲襪, 乳膠, 透明乳膠, 銀色, 金色, 發光白, 原版, (Preset 1), (Preset 2), (预设1),  |
 | 溶解 | [0] (0 ~ 1) | 
 | **溶解貼圖** | | 
 | ├ 圖案 L1 | [13] (0 ~ 90) | 生成溶解貼圖時更改 L1 圖案
@@ -177,4 +185,5 @@ sidebar:
 | ├ 手動選擇 || 
 | ├  | OFF | 
 | └ 過濾 || 
+| (Presets: Body Paint) || 
 | 預設 | **身體繪畫** | 身體繪畫, 全身乳膠, V形魚網, 絲襪, 魚網絲襪, 連身衣 1, 連身衣 2, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |

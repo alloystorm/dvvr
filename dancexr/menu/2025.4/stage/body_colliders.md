@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Body Colliders | ON | 
+| Enable | ON | 
 | Size | [0.5] (0 ~ 1) | 
 | Head Radius | [1] (0 ~ 2) | 
 | Arm Radius | [1] (0 ~ 2) | 
@@ -34,4 +34,5 @@ sidebar:
 | Thigh Start Position | [0] (0 ~ 1) | 
 | Hand | [0] (0 ~ 1) | 
 | Visualize | OFF | 
+| Presets: Default (Reset) || 
 | Presets | **Default (Reset)** | Default (Reset), amy, misaki,  |

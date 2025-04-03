@@ -20,7 +20,8 @@ sidebar:
 | ├ Use Gamepad | OFF | Enable gamepad input in VR mode
 | ├ Use Grip Input | ON | Ignores grip button completely when turned off
 | ├ Grip Threshold | [0.5] (0 ~ 1) | The threshold for triggering a grip button input. Useful for very sensitive controllers like Valve Index
-| └ Presets | **Thumbstick** | Thumbstick, Trackpad, Trackpad + Thumbstick,  |
+| └ Presets: Thumbstick || 
+|   Presets | **Thumbstick** | Thumbstick, Trackpad, Trackpad + Thumbstick,  |
 | **Left Thumb X** | | 
 | ├ Prime Action: Move Left / Right || 
 | │ Prime Action | **Move Left / Right** | None, Move Left / Right, Move Forward / Back, Move Up / Down, Rotate Left / Right, UI X, UI Y, Custom Axis 1, Custom Axis 2, Tilt View, UI Scroll, Seek Timeline, Seek Frame,  |
@@ -183,4 +184,5 @@ sidebar:
 | │ Second Action | **Toggle Microphone** | None, Toggle UI, Play / Pause, UI Back, Reset Physics, Center Actor, Next Actor, Prev Actor, Next Motion, Prev Motion, Switch Camera, Slow Motion, Shuffle Actor, Shuffle Motion, Next Stage, Previous Stage, Shuffle Stage, UI Action, UI Alternative, Secondary Action, Center UI, Toggle Microphone,  |
 | └ Key: Return || 
 |   Key | **Return** | None, Esc, Backspace, Tab, Space, Return, L Ctrl, R Ctrl, L Shift, R Shift, L Alt, R Alt, Insert, Delete, Home, End, PageUp, PageDown, Up, Down, Left, Right, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0,  |
+| Presets: Default (Reset) || 
 | Presets | **Default (Reset)** | Default (Reset),  |

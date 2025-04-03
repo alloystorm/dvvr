@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Beats Visualizer | ON | 
+| Enable | ON | 
 | Data | Beats | Beats, Raw Beats, Raw Onset, 
 | Location | Stage | Camera, Stage, Actor, 
 | Radius | [1.2] (0.2 ~ 5) | 
@@ -29,7 +29,8 @@ sidebar:
 | ├ Green | [1] (0 ~ 1) | 
 | ├ Blue | [0] (0 ~ 1) | 
 | ├ Glow | [1] (0 ~ 20) | 
-| └ Presets | **Green** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+| └ Presets: Green || 
+|   Presets | **Green** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
 | **Marker Color** | | 
 | ├ Color Mode | HSV | RGB, HSV, 
 | ├ Hue | [0] (0 ~ 1) | 
@@ -39,7 +40,8 @@ sidebar:
 | ├ Green | [1] (0 ~ 1) | 
 | ├ Blue | [1] (0 ~ 1) | 
 | ├ Glow | [1] (0 ~ 20) | 
-| └ Presets | **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+| └ Presets: White || 
+|   Presets | **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
 | Beat Cycle | [8] (2 ~ 16) | 
 | Normal Glow | [1] (0 ~ 8) | 
 | Flash Glow | [2] (0 ~ 8) | 

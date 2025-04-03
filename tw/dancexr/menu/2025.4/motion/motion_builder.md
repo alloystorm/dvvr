@@ -30,7 +30,8 @@ sidebar:
 | ├ (Range X) | [30] (0 ~ 45) | 
 | ├ (Range Y) | [30] (0 ~ 45) | 
 | ├ (Orient) | [0] (-45 ~ 45) | 
-| └ 預設 | **預設 (重置)** | 預設 (重置),  |
+| └ (Presets: Default (Reset)) || 
+|   預設 | **預設 (重置)** | 預設 (重置),  |
 | 範圍 | [0.5] (0 ~ 1) | 
 | **速度** | | 
 | ├ 每拍動作數 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
@@ -48,7 +49,7 @@ sidebar:
 | ├ (Forward) | [0] (-1 ~ 1) | 
 | └ 打開 | [0] (-1 ~ 1) | 
 | **(Transit Between Presets)** | | 
-| ├ (Enable Transit Between Presets) | OFF | 
+| ├ 啟用 | OFF | 
 | ├ (Transit Between Presets: 0 / 1) || 
 | │ └ 預設 (重置) | OFF | 
 | └ 隨機 | OFF | 

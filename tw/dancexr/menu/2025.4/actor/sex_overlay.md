@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Sex Overlay) | OFF | 
+| 啟用 | OFF | 
 | 強度 | [1] (0 ~ 2) | 
 | 彎曲 | [0.2] (0 ~ 1) | 
 | 角度 | [45] (0 ~ 90) | 

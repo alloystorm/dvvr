@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Attach To Actor) | OFF | 
+| 启用 | OFF | 
 | 选择源骨骼 || 选择要附加的骨骼
 | 选择角色 || 
 | 选择角色 |  |  |

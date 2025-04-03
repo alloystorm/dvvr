@@ -34,7 +34,8 @@ sidebar:
 | ├ 赤 | [0.9] (0 ~ 1) | 
 | ├ 緑 | [0.9] (0 ~ 1) | 
 | ├ 青 | [0] (0 ~ 1) | 
-| └ プリセット | **(Yellow)** | 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange), (Preset 1),  |
+| └ (Presets: Yellow) || 
+|   プリセット | **(Yellow)** | 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange), (Preset 1),  |
 | グロー | [1] (0 ~ 10) | バーナー効果の明るさ。
 | ブレンド | [1] (0 ~ 1) | (Blend between the original color and the burn color. )
 | 持続時間 | [2] (0 ~ 5) | アニメーションの持続時間。

@@ -31,4 +31,5 @@ sidebar:
 | FOV | [30] (5 ~ 120) | 
 | 비트 사이클 | [8] (1 ~ 16) | 
 | 궤도 이동 사용 | OFF | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
+| (Presets: Freefly) || 
 | 프리셋 | **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |

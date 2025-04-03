@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Body Colliders) | ON | 
+| 有効にする | ON | 
 | サイズ | [0.5] (0 ~ 1) | 
 | 頭部半径 | [1] (0 ~ 2) | 
 | 腕の半径 | [1] (0 ~ 2) | 
@@ -34,4 +34,5 @@ sidebar:
 | 太ももの開始位置 | [0] (0 ~ 1) | 
 | 手 | [0] (0 ~ 1) | 
 | 可視化 | OFF | 
+| (Presets: Default (Reset)) || 
 | プリセット | **デフォルト（リセット）** | デフォルト（リセット）, (amy), (misaki),  |
