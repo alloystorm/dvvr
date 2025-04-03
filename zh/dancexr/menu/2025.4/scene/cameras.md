@@ -1,14 +1,14 @@
 ---
 locale: zh-rCN
 layout: single
-title: (Camera: [Freefly Cam])
+title: 摄像机
 toc: true
 sidebar:
   nav: "docs-tw"
 ---
 [Eng](/dancexr/menu/2025.4/scene/cameras) | [繁中](/tw/dancexr/menu/2025.4/scene/cameras) | [日本語](/jp/dancexr/menu/2025.4/scene/cameras) | [한국어](/kr/dancexr/menu/2025.4/scene/cameras) | [简中](/zh/dancexr/menu/2025.4/scene/cameras)
 
-[环境](../menu#环境) > (Camera: [Freefly Cam])
+[环境](../menu#环境) > 摄像机
 
 
 

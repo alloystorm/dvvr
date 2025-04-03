@@ -1,14 +1,14 @@
 ---
 locale: ko-rKR
 layout: single
-title: (Camera: [Freefly Cam])
+title: 카메라
 toc: true
 sidebar:
   nav: "docs-kr"
 ---
 [Eng](/dancexr/menu/2025.4/scene/cameras) | [繁中](/tw/dancexr/menu/2025.4/scene/cameras) | [日本語](/jp/dancexr/menu/2025.4/scene/cameras) | [한국어](/kr/dancexr/menu/2025.4/scene/cameras) | [简中](/zh/dancexr/menu/2025.4/scene/cameras)
 
-[환경](../menu#환경) > (Camera: [Freefly Cam])
+[환경](../menu#환경) > 카메라
 
 
 

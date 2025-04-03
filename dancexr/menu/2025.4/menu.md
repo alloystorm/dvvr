@@ -32,7 +32,7 @@ sidebar:
 | [Ground](scene/ground) |  | 
 | [Particle Effect](scene/particles) |  | 
 | [Lighting](scene/lighting) |  | 
-| [Camera: [Freefly Cam]](scene/cameras) |  | 
+| [Camera](scene/cameras) |  | 
 | [Animated Values](scene/auto_updates) |  | 
 | [System Presets](scene/system_presets) | Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library. | 
 | | |

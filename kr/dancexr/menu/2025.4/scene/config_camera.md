@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/scene/config_camera) | [繁中](/tw/dancexr/menu/2025.4/scene/config_camera) | [日本語](/jp/dancexr/menu/2025.4/scene/config_camera) | [한국어](/kr/dancexr/menu/2025.4/scene/config_camera) | [简中](/zh/dancexr/menu/2025.4/scene/config_camera)
 
-[(Camera: [Freefly Cam])](../menu#(Camera: [Freefly Cam])) > 카메라 설정
+[카메라](../menu#카메라) > 카메라 설정
 
 
 

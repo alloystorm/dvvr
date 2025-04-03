@@ -32,7 +32,7 @@ sidebar:
 | [地面](scene/ground) |  | 
 | [粒子效果](scene/particles) |  | 
 | [照明](scene/lighting) |  | 
-| [(Camera: [Freefly Cam])](scene/cameras) |  | 
+| [攝影機](scene/cameras) |  | 
 | [動畫值](scene/auto_updates) |  | 
 | [系統預設](scene/system_presets) | (Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.) | 
 | | |

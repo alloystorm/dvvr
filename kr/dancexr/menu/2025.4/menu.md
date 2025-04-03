@@ -32,7 +32,7 @@ sidebar:
 | [바닥](scene/ground) |  | 
 | [파티클 이펙트](scene/particles) |  | 
 | [조명](scene/lighting) |  | 
-| [(Camera: [Freefly Cam])](scene/cameras) |  | 
+| [카메라](scene/cameras) |  | 
 | [애니메이션 값](scene/auto_updates) |  | 
 | [시스템 프리셋](scene/system_presets) | (Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.) | 
 | | |
