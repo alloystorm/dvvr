@@ -30,113 +30,113 @@ sidebar:
 | 曲线 | [0.35] (0 ~ 1) | 
 | 双手对称 | ON | 
 | **左手** | | 
-| ├ (Gesture: Grab) || 
-| │ 手势 | **(Grab)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 点, (Middle Finger), (Thumb Up), (Grab),  |
-| ├ **手的位置** | | 
-| │ ├ (X) | [0] ((Unlimited)) | 
-| │ ├ (Y) | [0] ((Unlimited)) | 
-| │ └ (Z) | [0] ((Unlimited)) | 
-| ├ **手部旋转** | | 
-| │ ├ (X) | [0] ((Unlimited)) | 
-| │ ├ (Y) | [0] ((Unlimited)) | 
-| │ └ (Z) | [0] ((Unlimited)) | 
-| ├ 旋转类型 | 相对于参考骨骼 | 相对于参考骨骼, 相对于自身, 绝对旋转, 无旋转, 
-| ├ 肘部方向 | [0] (-180 ~ 180) | 
-| ├ 左右镜像 | OFF | 
-| ├ (Reference Actor: Self) || 
-| │ 参考演员 | **(Self)** | (Self), (Partner), (Closest),  |
-| ├ (Reference Bone: Hip) || 
-| │ 参考骨骼 | **臀部** | 无, 臀部, 胸部, 头部, 中心, 杆, (Upperarm), (Forearm), 手, 腿, 膝盖, 脚, 腹部, 胸部, (Pussy), (Dick),  |
-| ├ IK 模式 | 自动 | 自动, 正常, (Cylinder), 球体, (Align), 
-| ├ 侧面选择 | 自动 | 自动, 左, 右, 
-| ├ 混合范围 | [0.75] (0 ~ 2) | 
-| ├ 对称偏移 | [0] (-1 ~ 1) | 
-| ├ 使用附件位置 | ON | 
-| ├ **运动** | | 
-| │ ├ 启用 | OFF | 
-| │ ├ **速度** | | 
-| │ │ ├ 每拍动作数 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
-| │ │ ├ 每组动作数 | [8] (4 ~ 32) | 
-| │ │ ├ 相位 | [0] (0 ~ 1) | 
-| │ │ ├ 曲线 | [0] (0 ~ 1) | 
-| │ │ ├ 可变速度 | OFF | 
-| │ │ ├ 模式 | (Gradual) | (Gradual), 随机, 音量, 
-| │ │ ├ 最小速度 | (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
-| │ │ └ 最大速度 | (3/2) | (1), (3/2), (2), (3), (4), 
-| │ ├ 距离 | [0.1] (0 ~ 0.3) | 
-| │ └ 角度 | [0] (-60 ~ 60) | 
-| ├ **自定义姿势** | | 
-| │ ├ 启用 | OFF | 
-| │ ├ 打开 | [0] (-1 ~ 1) | 
-| │ ├ 拇指轴 | [90] (-360 ~ 360) | 
-| │ ├ 拇指折叠 | [0] (-1 ~ 1) | 
-| │ ├ 拇指弯曲 | [0] (-1 ~ 1) | 
-| │ ├ 食指弯曲 | [0] (-1 ~ 1) | 
-| │ ├ 中指弯曲 | [0] (-1 ~ 1) | 
-| │ ├ 无名指弯曲 | [0] (-1 ~ 1) | 
-| │ ├ 小指弯曲 | [0] (-1 ~ 1) | 
-| │ ├ 传播 | [1] (0 ~ 1) | 
-| │ └ 混合 | [1] (0 ~ 1) | 
-| ├ 姿势权重 | [1] (0 ~ 1) | 
-| ├ 抓取距离 | [0.015] (-0.1 ~ 0.1) | 
-| ├ 抓取位置 | [-0.05] (-0.1 ~ 0.1) | 
-| ├ (Grab Axis) | [0] (-180 ~ 180) | 
-| └ (Presets: Hip) || 
-|   预设 | **臀部** | (Rest), 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| ├&nbsp;(Gesture: Grab) || 
+| │&nbsp;手势 | **(Grab)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 点, (Middle Finger), (Thumb Up), (Grab),  |
+| ├&nbsp;**手的位置** | | 
+| │&nbsp;├&nbsp;(X) | [0] ((Unlimited)) | 
+| │&nbsp;├&nbsp;(Y) | [0] ((Unlimited)) | 
+| │&nbsp;└&nbsp;(Z) | [0] ((Unlimited)) | 
+| ├&nbsp;**手部旋转** | | 
+| │&nbsp;├&nbsp;(X) | [0] ((Unlimited)) | 
+| │&nbsp;├&nbsp;(Y) | [0] ((Unlimited)) | 
+| │&nbsp;└&nbsp;(Z) | [0] ((Unlimited)) | 
+| ├&nbsp;旋转类型 | 相对于参考骨骼 | 相对于参考骨骼, 相对于自身, 绝对旋转, 无旋转, 
+| ├&nbsp;肘部方向 | [0] (-180 ~ 180) | 
+| ├&nbsp;左右镜像 | OFF | 
+| ├&nbsp;(Reference Actor: Self) || 
+| │&nbsp;参考演员 | **(Self)** | (Self), (Partner), (Closest),  |
+| ├&nbsp;(Reference Bone: Hip) || 
+| │&nbsp;参考骨骼 | **臀部** | 无, 臀部, 胸部, 头部, 中心, 杆, (Upperarm), (Forearm), 手, 腿, 膝盖, 脚, 腹部, 胸部, (Pussy), (Dick),  |
+| ├&nbsp;IK 模式 | 自动 | 自动, 正常, (Cylinder), 球体, (Align), 
+| ├&nbsp;侧面选择 | 自动 | 自动, 左, 右, 
+| ├&nbsp;混合范围 | [0.75] (0 ~ 2) | 
+| ├&nbsp;对称偏移 | [0] (-1 ~ 1) | 
+| ├&nbsp;使用附件位置 | ON | 
+| ├&nbsp;**运动** | | 
+| │&nbsp;├&nbsp;启用 | OFF | 
+| │&nbsp;├&nbsp;**速度** | | 
+| │&nbsp;│&nbsp;├&nbsp;每拍动作数 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
+| │&nbsp;│&nbsp;├&nbsp;每组动作数 | [8] (4 ~ 32) | 
+| │&nbsp;│&nbsp;├&nbsp;相位 | [0] (0 ~ 1) | 
+| │&nbsp;│&nbsp;├&nbsp;曲线 | [0] (0 ~ 1) | 
+| │&nbsp;│&nbsp;├&nbsp;可变速度 | OFF | 
+| │&nbsp;│&nbsp;├&nbsp;模式 | (Gradual) | (Gradual), 随机, 音量, 
+| │&nbsp;│&nbsp;├&nbsp;最小速度 | (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
+| │&nbsp;│&nbsp;└&nbsp;最大速度 | (3/2) | (1), (3/2), (2), (3), (4), 
+| │&nbsp;├&nbsp;距离 | [0.1] (0 ~ 0.3) | 
+| │&nbsp;└&nbsp;角度 | [0] (-60 ~ 60) | 
+| ├&nbsp;**自定义姿势** | | 
+| │&nbsp;├&nbsp;启用 | OFF | 
+| │&nbsp;├&nbsp;打开 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;拇指轴 | [90] (-360 ~ 360) | 
+| │&nbsp;├&nbsp;拇指折叠 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;拇指弯曲 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;食指弯曲 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;中指弯曲 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;无名指弯曲 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;小指弯曲 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;传播 | [1] (0 ~ 1) | 
+| │&nbsp;└&nbsp;混合 | [1] (0 ~ 1) | 
+| ├&nbsp;姿势权重 | [1] (0 ~ 1) | 
+| ├&nbsp;抓取距离 | [0.015] (-0.1 ~ 0.1) | 
+| ├&nbsp;抓取位置 | [-0.05] (-0.1 ~ 0.1) | 
+| ├&nbsp;(Grab Axis) | [0] (-180 ~ 180) | 
+| └&nbsp;(Presets: Hip) || 
+| &nbsp;&nbsp;预设 | **臀部** | (Rest), 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 | **右手** | | 
-| ├ (Gesture: Grab) || 
-| │ 手势 | **(Grab)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 点, (Middle Finger), (Thumb Up), (Grab),  |
-| ├ **手的位置** | | 
-| │ ├ (X) | [0] ((Unlimited)) | 
-| │ ├ (Y) | [0] ((Unlimited)) | 
-| │ └ (Z) | [0] ((Unlimited)) | 
-| ├ **手部旋转** | | 
-| │ ├ (X) | [0] ((Unlimited)) | 
-| │ ├ (Y) | [0] ((Unlimited)) | 
-| │ └ (Z) | [0] ((Unlimited)) | 
-| ├ 旋转类型 | 相对于参考骨骼 | 相对于参考骨骼, 相对于自身, 绝对旋转, 无旋转, 
-| ├ 肘部方向 | [0] (-180 ~ 180) | 
-| ├ 左右镜像 | OFF | 
-| ├ (Reference Actor: Self) || 
-| │ 参考演员 | **(Self)** | (Self), (Partner), (Closest),  |
-| ├ (Reference Bone: Hip) || 
-| │ 参考骨骼 | **臀部** | 无, 臀部, 胸部, 头部, 中心, 杆, (Upperarm), (Forearm), 手, 腿, 膝盖, 脚, 腹部, 胸部, (Pussy), (Dick),  |
-| ├ IK 模式 | 自动 | 自动, 正常, (Cylinder), 球体, (Align), 
-| ├ 侧面选择 | 自动 | 自动, 左, 右, 
-| ├ 混合范围 | [0.75] (0 ~ 2) | 
-| ├ 对称偏移 | [0] (-1 ~ 1) | 
-| ├ 使用附件位置 | ON | 
-| ├ **运动** | | 
-| │ ├ 启用 | OFF | 
-| │ ├ **速度** | | 
-| │ │ ├ 每拍动作数 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
-| │ │ ├ 每组动作数 | [8] (4 ~ 32) | 
-| │ │ ├ 相位 | [0] (0 ~ 1) | 
-| │ │ ├ 曲线 | [0] (0 ~ 1) | 
-| │ │ ├ 可变速度 | OFF | 
-| │ │ ├ 模式 | (Gradual) | (Gradual), 随机, 音量, 
-| │ │ ├ 最小速度 | (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
-| │ │ └ 最大速度 | (3/2) | (1), (3/2), (2), (3), (4), 
-| │ ├ 距离 | [0.1] (0 ~ 0.3) | 
-| │ └ 角度 | [0] (-60 ~ 60) | 
-| ├ **自定义姿势** | | 
-| │ ├ 启用 | OFF | 
-| │ ├ 打开 | [0] (-1 ~ 1) | 
-| │ ├ 拇指轴 | [90] (-360 ~ 360) | 
-| │ ├ 拇指折叠 | [0] (-1 ~ 1) | 
-| │ ├ 拇指弯曲 | [0] (-1 ~ 1) | 
-| │ ├ 食指弯曲 | [0] (-1 ~ 1) | 
-| │ ├ 中指弯曲 | [0] (-1 ~ 1) | 
-| │ ├ 无名指弯曲 | [0] (-1 ~ 1) | 
-| │ ├ 小指弯曲 | [0] (-1 ~ 1) | 
-| │ ├ 传播 | [1] (0 ~ 1) | 
-| │ └ 混合 | [1] (0 ~ 1) | 
-| ├ 姿势权重 | [1] (0 ~ 1) | 
-| ├ 抓取距离 | [0.015] (-0.1 ~ 0.1) | 
-| ├ 抓取位置 | [-0.05] (-0.1 ~ 0.1) | 
-| ├ (Grab Axis) | [0] (-180 ~ 180) | 
-| └ (Presets: Hip) || 
-|   预设 | **臀部** | (Rest), 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| ├&nbsp;(Gesture: Grab) || 
+| │&nbsp;手势 | **(Grab)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 点, (Middle Finger), (Thumb Up), (Grab),  |
+| ├&nbsp;**手的位置** | | 
+| │&nbsp;├&nbsp;(X) | [0] ((Unlimited)) | 
+| │&nbsp;├&nbsp;(Y) | [0] ((Unlimited)) | 
+| │&nbsp;└&nbsp;(Z) | [0] ((Unlimited)) | 
+| ├&nbsp;**手部旋转** | | 
+| │&nbsp;├&nbsp;(X) | [0] ((Unlimited)) | 
+| │&nbsp;├&nbsp;(Y) | [0] ((Unlimited)) | 
+| │&nbsp;└&nbsp;(Z) | [0] ((Unlimited)) | 
+| ├&nbsp;旋转类型 | 相对于参考骨骼 | 相对于参考骨骼, 相对于自身, 绝对旋转, 无旋转, 
+| ├&nbsp;肘部方向 | [0] (-180 ~ 180) | 
+| ├&nbsp;左右镜像 | OFF | 
+| ├&nbsp;(Reference Actor: Self) || 
+| │&nbsp;参考演员 | **(Self)** | (Self), (Partner), (Closest),  |
+| ├&nbsp;(Reference Bone: Hip) || 
+| │&nbsp;参考骨骼 | **臀部** | 无, 臀部, 胸部, 头部, 中心, 杆, (Upperarm), (Forearm), 手, 腿, 膝盖, 脚, 腹部, 胸部, (Pussy), (Dick),  |
+| ├&nbsp;IK 模式 | 自动 | 自动, 正常, (Cylinder), 球体, (Align), 
+| ├&nbsp;侧面选择 | 自动 | 自动, 左, 右, 
+| ├&nbsp;混合范围 | [0.75] (0 ~ 2) | 
+| ├&nbsp;对称偏移 | [0] (-1 ~ 1) | 
+| ├&nbsp;使用附件位置 | ON | 
+| ├&nbsp;**运动** | | 
+| │&nbsp;├&nbsp;启用 | OFF | 
+| │&nbsp;├&nbsp;**速度** | | 
+| │&nbsp;│&nbsp;├&nbsp;每拍动作数 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
+| │&nbsp;│&nbsp;├&nbsp;每组动作数 | [8] (4 ~ 32) | 
+| │&nbsp;│&nbsp;├&nbsp;相位 | [0] (0 ~ 1) | 
+| │&nbsp;│&nbsp;├&nbsp;曲线 | [0] (0 ~ 1) | 
+| │&nbsp;│&nbsp;├&nbsp;可变速度 | OFF | 
+| │&nbsp;│&nbsp;├&nbsp;模式 | (Gradual) | (Gradual), 随机, 音量, 
+| │&nbsp;│&nbsp;├&nbsp;最小速度 | (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
+| │&nbsp;│&nbsp;└&nbsp;最大速度 | (3/2) | (1), (3/2), (2), (3), (4), 
+| │&nbsp;├&nbsp;距离 | [0.1] (0 ~ 0.3) | 
+| │&nbsp;└&nbsp;角度 | [0] (-60 ~ 60) | 
+| ├&nbsp;**自定义姿势** | | 
+| │&nbsp;├&nbsp;启用 | OFF | 
+| │&nbsp;├&nbsp;打开 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;拇指轴 | [90] (-360 ~ 360) | 
+| │&nbsp;├&nbsp;拇指折叠 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;拇指弯曲 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;食指弯曲 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;中指弯曲 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;无名指弯曲 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;小指弯曲 | [0] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;传播 | [1] (0 ~ 1) | 
+| │&nbsp;└&nbsp;混合 | [1] (0 ~ 1) | 
+| ├&nbsp;姿势权重 | [1] (0 ~ 1) | 
+| ├&nbsp;抓取距离 | [0.015] (-0.1 ~ 0.1) | 
+| ├&nbsp;抓取位置 | [-0.05] (-0.1 ~ 0.1) | 
+| ├&nbsp;(Grab Axis) | [0] (-180 ~ 180) | 
+| └&nbsp;(Presets: Hip) || 
+| &nbsp;&nbsp;预设 | **臀部** | (Rest), 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 | **圆周行走** | | 
-| ├ 圆周行走 | OFF | 
-| └ 半径 | [2] (0 ~ 5) | 
+| ├&nbsp;圆周行走 | OFF | 
+| └&nbsp;半径 | [2] (0 ~ 5) | 

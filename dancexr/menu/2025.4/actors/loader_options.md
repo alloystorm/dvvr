@@ -27,15 +27,15 @@ sidebar:
 | Scale | [0] (-3 ~ 3) | Scale of the pattern.
 | Width | [0.1] (0 ~ 1) | The size of the transition area.
 | **Color** | | 
-| ├ Color Mode | RGB | RGB, HSV, 
-| ├ Hue | [0.1666667] (0 ~ 1) | 
-| ├ Satuation | [1] (0 ~ 1) | 
-| ├ Brightness | [0.9] (0 ~ 1) | 
-| ├ Red | [0.9] (0 ~ 1) | 
-| ├ Green | [0.9] (0 ~ 1) | 
-| ├ Blue | [0] (0 ~ 1) | 
-| └ Presets: Yellow || 
-|   Presets | **Yellow** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
+| ├&nbsp;Color Mode | RGB | RGB, HSV, 
+| ├&nbsp;Hue | [0.1666667] (0 ~ 1) | 
+| ├&nbsp;Satuation | [1] (0 ~ 1) | 
+| ├&nbsp;Brightness | [0.9] (0 ~ 1) | 
+| ├&nbsp;Red | [0.9] (0 ~ 1) | 
+| ├&nbsp;Green | [0.9] (0 ~ 1) | 
+| ├&nbsp;Blue | [0] (0 ~ 1) | 
+| └&nbsp;Presets: Yellow || 
+| &nbsp;&nbsp;Presets | **Yellow** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
 | Glow | [1] (0 ~ 10) | Brightness of the burn effect.
 | Blend | [1] (0 ~ 1) | Blend between the original color and the burn color. 
 | Duration | [2] (0 ~ 5) | The duration of the animation.

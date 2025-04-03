@@ -18,39 +18,39 @@ sidebar:
 | Shape | Ball | Ball, Diamond, Crystal, 
 | Size | [1] (0.1 ~ 10) | 
 | **Style** | | 
-| ├ Use Stage Color | OFF | 
-| ├ Flashing With Beats | OFF | 
-| ├ **Color** | | 
-| │ ├ Color Mode | RGB | RGB, HSV, 
-| │ ├ Hue | [0] (0 ~ 1) | 
-| │ ├ Satuation | [0] (0 ~ 1) | 
-| │ ├ Brightness | [1] (0 ~ 1) | 
-| │ ├ Red | [1] (0 ~ 1) | 
-| │ ├ Green | [1] (0 ~ 1) | 
-| │ ├ Blue | [1] (0 ~ 1) | 
-| │ ├ Glow | [1] (0 ~ 20) | 
-| │ └ Presets: White || 
-| │   Presets | **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
-| ├ Gloss | [0.95] (0 ~ 1) | 
-| ├ Intensity | [10] (0 ~ 100) | 
-| ├ Glow | [0] (0 ~ 10) | 
-| ├ Metallic | [1] (0 ~ 1) | 
-| ├ Refraction | [0.5] (-2 ~ 2) | 
-| ├ Cast Shadow | OFF | 
-| ├ Trail | [0] (0 ~ 2) | 
-| └ Presets: Glow || 
-|   Presets | **Glow** | Glow, Reflective, Crystal,  |
+| ├&nbsp;Use Stage Color | OFF | 
+| ├&nbsp;Flashing With Beats | OFF | 
+| ├&nbsp;**Color** | | 
+| │&nbsp;├&nbsp;Color Mode | RGB | RGB, HSV, 
+| │&nbsp;├&nbsp;Hue | [0] (0 ~ 1) | 
+| │&nbsp;├&nbsp;Satuation | [0] (0 ~ 1) | 
+| │&nbsp;├&nbsp;Brightness | [1] (0 ~ 1) | 
+| │&nbsp;├&nbsp;Red | [1] (0 ~ 1) | 
+| │&nbsp;├&nbsp;Green | [1] (0 ~ 1) | 
+| │&nbsp;├&nbsp;Blue | [1] (0 ~ 1) | 
+| │&nbsp;├&nbsp;Glow | [1] (0 ~ 20) | 
+| │&nbsp;└&nbsp;Presets: White || 
+| │&nbsp;&nbsp;&nbsp;Presets | **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+| ├&nbsp;Gloss | [0.95] (0 ~ 1) | 
+| ├&nbsp;Intensity | [10] (0 ~ 100) | 
+| ├&nbsp;Glow | [0] (0 ~ 10) | 
+| ├&nbsp;Metallic | [1] (0 ~ 1) | 
+| ├&nbsp;Refraction | [0.5] (-2 ~ 2) | 
+| ├&nbsp;Cast Shadow | OFF | 
+| ├&nbsp;Trail | [0] (0 ~ 2) | 
+| └&nbsp;Presets: Glow || 
+| &nbsp;&nbsp;Presets | **Glow** | Glow, Reflective, Crystal,  |
 | **Physics** | | 
-| ├ Gravity | OFF | 
-| ├ Collision | ON | 
-| ├ Mass | [0.1] (0 ~ 10) | 
-| ├ Distance | [0.15] (0 ~ 0.5) | 
-| ├ Spring Force | [250] (0 ~ 1000) | 
-| ├ Damping | [0.1] (0 ~ 10) | 
-| ├ Min Speed | [0] (0 ~ 5) | 
-| ├ Max Speed | [15] (2 ~ 15) | 
-| └ Presets: Spring || 
-|   Presets | **Spring** | Spring, Hanging, Floating,  |
+| ├&nbsp;Gravity | OFF | 
+| ├&nbsp;Collision | ON | 
+| ├&nbsp;Mass | [0.1] (0 ~ 10) | 
+| ├&nbsp;Distance | [0.15] (0 ~ 0.5) | 
+| ├&nbsp;Spring Force | [250] (0 ~ 1000) | 
+| ├&nbsp;Damping | [0.1] (0 ~ 10) | 
+| ├&nbsp;Min Speed | [0] (0 ~ 5) | 
+| ├&nbsp;Max Speed | [15] (2 ~ 15) | 
+| └&nbsp;Presets: Spring || 
+| &nbsp;&nbsp;Presets | **Spring** | Spring, Hanging, Floating,  |
 | Hands | ON | 
 | Hip | OFF | 
 | Torso | OFF | 

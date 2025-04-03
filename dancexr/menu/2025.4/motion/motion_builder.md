@@ -19,37 +19,37 @@ sidebar:
 | Assign To All as 2nd || 
 | Assign To Selected as 2nd || 
 | **Body Motion** | | 
-| ├ Sync | [0.5] (0 ~ 2) | 
-| ├ Delay | [-0.25] (-0.5 ~ 0.5) | 
-| ├ Ratio | [0.5] (0 ~ 1) | 
-| ├ Curve | [0] (0 ~ 1) | 
-| ├ Frequency X | [0] (-2 ~ 2) | 
-| ├ Frequency Y | [0] (-2 ~ 2) | 
-| ├ Center X | [0] (-1 ~ 1) | 
-| ├ Center Y | [0] (-1 ~ 1) | 
-| ├ Range X | [30] (0 ~ 45) | 
-| ├ Range Y | [30] (0 ~ 45) | 
-| ├ Orient | [0] (-45 ~ 45) | 
-| └ Presets: Default (Reset) || 
-|   Presets | **Default (Reset)** | Default (Reset),  |
+| ├&nbsp;Sync | [0.5] (0 ~ 2) | 
+| ├&nbsp;Delay | [-0.25] (-0.5 ~ 0.5) | 
+| ├&nbsp;Ratio | [0.5] (0 ~ 1) | 
+| ├&nbsp;Curve | [0] (0 ~ 1) | 
+| ├&nbsp;Frequency X | [0] (-2 ~ 2) | 
+| ├&nbsp;Frequency Y | [0] (-2 ~ 2) | 
+| ├&nbsp;Center X | [0] (-1 ~ 1) | 
+| ├&nbsp;Center Y | [0] (-1 ~ 1) | 
+| ├&nbsp;Range X | [30] (0 ~ 45) | 
+| ├&nbsp;Range Y | [30] (0 ~ 45) | 
+| ├&nbsp;Orient | [0] (-45 ~ 45) | 
+| └&nbsp;Presets: Default (Reset) || 
+| &nbsp;&nbsp;Presets | **Default (Reset)** | Default (Reset),  |
 | Extent | [0.5] (0 ~ 1) | 
 | **Speed** | | 
-| ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
-| ├ Moves Per Group | [8] (4 ~ 32) | 
-| ├ Phase | [0] (0 ~ 1) | 
-| ├ Curve | [0] (0 ~ 1) | 
-| ├ Variable Speed | OFF | 
-| ├ Mode | Gradual | Gradual, Random, Volume, 
-| ├ Min Speed | 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
-| └ Max Speed | 3/2 | 1, 3/2, 2, 3, 4, 
+| ├&nbsp;Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
+| ├&nbsp;Moves Per Group | [8] (4 ~ 32) | 
+| ├&nbsp;Phase | [0] (0 ~ 1) | 
+| ├&nbsp;Curve | [0] (0 ~ 1) | 
+| ├&nbsp;Variable Speed | OFF | 
+| ├&nbsp;Mode | Gradual | Gradual, Random, Volume, 
+| ├&nbsp;Min Speed | 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
+| └&nbsp;Max Speed | 3/2 | 1, 3/2, 2, 3, 4, 
 | **Legs** | | 
-| ├ Dist | [0.1] (-1 ~ 1) | 
-| ├ Level | [0] (-1 ~ 1) | 
-| ├ Stride | [0] (-1 ~ 1) | 
-| ├ Forward | [0] (-1 ~ 1) | 
-| └ Open | [0] (-1 ~ 1) | 
+| ├&nbsp;Dist | [0.1] (-1 ~ 1) | 
+| ├&nbsp;Level | [0] (-1 ~ 1) | 
+| ├&nbsp;Stride | [0] (-1 ~ 1) | 
+| ├&nbsp;Forward | [0] (-1 ~ 1) | 
+| └&nbsp;Open | [0] (-1 ~ 1) | 
 | **Transit Between Presets** | | 
-| ├ Enable | OFF | 
-| ├ Transit Between Presets: 0 / 1 || 
-| │ └ Default (Reset) | OFF | 
-| └ Random | OFF | 
+| ├&nbsp;Enable | OFF | 
+| ├&nbsp;Transit Between Presets: 0 / 1 || 
+| │&nbsp;└&nbsp;Default (Reset) | OFF | 
+| └&nbsp;Random | OFF | 

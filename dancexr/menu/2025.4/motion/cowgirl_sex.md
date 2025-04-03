@@ -24,14 +24,14 @@ sidebar:
 | Swing Angle | [30] (0 ~ 45) | 
 | Lower | [0.35] (0 ~ 0.8) | 
 | **Speed** | | 
-| ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
-| ├ Moves Per Group | [8] (4 ~ 32) | 
-| ├ Phase | [0] (0 ~ 1) | 
-| ├ Curve | [0] (0 ~ 1) | 
-| ├ Variable Speed | OFF | 
-| ├ Mode | Gradual | Gradual, Random, Volume, 
-| ├ Min Speed | 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
-| └ Max Speed | 3/2 | 1, 3/2, 2, 3, 4, 
+| ├&nbsp;Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
+| ├&nbsp;Moves Per Group | [8] (4 ~ 32) | 
+| ├&nbsp;Phase | [0] (0 ~ 1) | 
+| ├&nbsp;Curve | [0] (0 ~ 1) | 
+| ├&nbsp;Variable Speed | OFF | 
+| ├&nbsp;Mode | Gradual | Gradual, Random, Volume, 
+| ├&nbsp;Min Speed | 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
+| └&nbsp;Max Speed | 3/2 | 1, 3/2, 2, 3, 4, 
 | Sync | [-0.25] (-1 ~ 1) | 
 | Audio Sensitivity | [1] (-2 ~ 4) | 
 | Body Twist | [0] (-1 ~ 1) | 

@@ -28,4 +28,4 @@ sidebar:
 | Projector Scene Example || 
 | LED Screen Example || 
 | Load Video || 
-| └ [None] || 
+| └&nbsp;[None] || 

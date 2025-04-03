@@ -36,12 +36,12 @@ sidebar:
 | Stay On Ground | [0.5] (0 ~ 1) | How long does particle stay after falling on to the ground. Set to 0 and they will disappear immediately
 | Rain Sound Effect | [0.5] (0 ~ 1) | 
 | **Rain Shader** | | 
-| ├ Enable | OFF | 
-| ├ Intensity | [0.5] (0 ~ 1) | 
-| ├ Droplet Duration | [5] (0 ~ 20) | 
-| ├ Droplet Size | [1] (0 ~ 1) | 
-| ├ Droplet Density | [1] (-2 ~ 3) | 
-| ├ Bump | [0.35] (0 ~ 1) | 
-| └ Wetness | [0.5] (0 ~ 2) | 
+| ├&nbsp;Enable | OFF | 
+| ├&nbsp;Intensity | [0.5] (0 ~ 1) | 
+| ├&nbsp;Droplet Duration | [5] (0 ~ 20) | 
+| ├&nbsp;Droplet Size | [1] (0 ~ 1) | 
+| ├&nbsp;Droplet Density | [1] (-2 ~ 3) | 
+| ├&nbsp;Bump | [0.35] (0 ~ 1) | 
+| └&nbsp;Wetness | [0.5] (0 ~ 2) | 
 | Presets: Off || 
 | Presets | **Off** | Off, Dust, Rain, Snow, Petal, Leaf, Glitter,  |

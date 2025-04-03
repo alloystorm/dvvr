@@ -31,13 +31,13 @@ sidebar:
 | モード | **ワイヤーフレーム** | ワイヤーフレーム, 不透明, クローム, ソリッドグラス, 薄いガラス, <br/>(Selects the visualization mode for virtual shoes.) |
 | 滑らかさ | [1] (0 ~ 1) | (Controls the smoothness of the virtual shoe material.)
 | **色** | | Sets the color of the virtual shoe material.
-| ├ カラーモード | (RGB) | (RGB), (HSV), 
-| ├ 色相 | [0] (0 ~ 1) | 
-| ├ 彩度 | [0] (0 ~ 1) | 
-| ├ 明度 | [1] (0 ~ 1) | 
-| ├ 赤 | [1] (0 ~ 1) | 
-| ├ 緑 | [1] (0 ~ 1) | 
-| └ 青 | [1] (0 ~ 1) | 
+| ├&nbsp;カラーモード | (RGB) | (RGB), (HSV), 
+| ├&nbsp;色相 | [0] (0 ~ 1) | 
+| ├&nbsp;彩度 | [0] (0 ~ 1) | 
+| ├&nbsp;明度 | [1] (0 ~ 1) | 
+| ├&nbsp;赤 | [1] (0 ~ 1) | 
+| ├&nbsp;緑 | [1] (0 ~ 1) | 
+| └&nbsp;青 | [1] (0 ~ 1) | 
 | ヒール || 
 | ハイヒール | [0] (0 ~ 1) | (Adjusts the height of the high heel pose.)
 | 制限角度 | OFF | (Limits the maximum angle for tiptoe rotation.)
@@ -47,8 +47,8 @@ sidebar:
 | 距離の閾値 | [0] (0 ~ 0.2) | (Defines the distance threshold for applying friction to reduce sliding.)
 | ダンピング | [0.75] (0 ~ 1) | (Controls the damping factor for friction applied to reduce sliding.)
 | **足の角度** | | 
-| ├ X回転 | [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
-| ├ Y回転 | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
-| └ Z回転 | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
+| ├&nbsp;X回転 | [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
+| ├&nbsp;Y回転 | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
+| └&nbsp;Z回転 | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
 | (Presets: Off) || 
 | プリセット | **オフ** | オフ, 床の上, ハイヒール, 最大ヒール,  |

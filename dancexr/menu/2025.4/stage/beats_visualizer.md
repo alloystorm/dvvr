@@ -21,27 +21,27 @@ sidebar:
 | Marker Size | [0.02] (0 ~ 1) | 
 | Line Width | [0.01] (0 ~ 1) | 
 | **Line Color** | | 
-| ├ Color Mode | HSV | RGB, HSV, 
-| ├ Hue | [0.3333333] (0 ~ 1) | 
-| ├ Satuation | [1] (0 ~ 1) | 
-| ├ Brightness | [1] (0 ~ 1) | 
-| ├ Red | [0] (0 ~ 1) | 
-| ├ Green | [1] (0 ~ 1) | 
-| ├ Blue | [0] (0 ~ 1) | 
-| ├ Glow | [1] (0 ~ 20) | 
-| └ Presets: Green || 
-|   Presets | **Green** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+| ├&nbsp;Color Mode | HSV | RGB, HSV, 
+| ├&nbsp;Hue | [0.3333333] (0 ~ 1) | 
+| ├&nbsp;Satuation | [1] (0 ~ 1) | 
+| ├&nbsp;Brightness | [1] (0 ~ 1) | 
+| ├&nbsp;Red | [0] (0 ~ 1) | 
+| ├&nbsp;Green | [1] (0 ~ 1) | 
+| ├&nbsp;Blue | [0] (0 ~ 1) | 
+| ├&nbsp;Glow | [1] (0 ~ 20) | 
+| └&nbsp;Presets: Green || 
+| &nbsp;&nbsp;Presets | **Green** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
 | **Marker Color** | | 
-| ├ Color Mode | HSV | RGB, HSV, 
-| ├ Hue | [0] (0 ~ 1) | 
-| ├ Satuation | [0] (0 ~ 1) | 
-| ├ Brightness | [1] (0 ~ 1) | 
-| ├ Red | [1] (0 ~ 1) | 
-| ├ Green | [1] (0 ~ 1) | 
-| ├ Blue | [1] (0 ~ 1) | 
-| ├ Glow | [1] (0 ~ 20) | 
-| └ Presets: White || 
-|   Presets | **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+| ├&nbsp;Color Mode | HSV | RGB, HSV, 
+| ├&nbsp;Hue | [0] (0 ~ 1) | 
+| ├&nbsp;Satuation | [0] (0 ~ 1) | 
+| ├&nbsp;Brightness | [1] (0 ~ 1) | 
+| ├&nbsp;Red | [1] (0 ~ 1) | 
+| ├&nbsp;Green | [1] (0 ~ 1) | 
+| ├&nbsp;Blue | [1] (0 ~ 1) | 
+| ├&nbsp;Glow | [1] (0 ~ 20) | 
+| └&nbsp;Presets: White || 
+| &nbsp;&nbsp;Presets | **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
 | Beat Cycle | [8] (2 ~ 16) | 
 | Normal Glow | [1] (0 ~ 8) | 
 | Flash Glow | [2] (0 ~ 8) | 

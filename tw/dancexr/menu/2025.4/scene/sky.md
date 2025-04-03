@@ -24,61 +24,61 @@ sidebar:
 | 風向 | [0] (0 ~ 360) | (Sets the global wind direction in degrees.)
 | 風場 | OFF | 
 | **位置** | | Sets the position of the wind field.
-| ├ (X) | [0] ((Unlimited)) | 
-| ├ (Y) | [0] ((Unlimited)) | 
-| └ (Z) | [0] ((Unlimited)) | 
+| ├&nbsp;(X) | [0] ((Unlimited)) | 
+| ├&nbsp;(Y) | [0] ((Unlimited)) | 
+| └&nbsp;(Z) | [0] ((Unlimited)) | 
 | **旋轉** | | Sets the rotation of the wind field.
-| ├ (X) | [0] ((Unlimited)) | 
-| ├ (Y) | [0] ((Unlimited)) | 
-| └ (Z) | [0] ((Unlimited)) | 
+| ├&nbsp;(X) | [0] ((Unlimited)) | 
+| ├&nbsp;(Y) | [0] ((Unlimited)) | 
+| └&nbsp;(Z) | [0] ((Unlimited)) | 
 | 距離 | [5] (0 ~ 10) | (Sets the distance of the wind field.)
 | 半徑 | [1] (0 ~ 2) | (Sets the radius of the wind field.)
 | 速度 | [1] (0 ~ 4) | (Sets the speed of the wind field.)
 | 天空環境光 || 
 | **天空顏色** | | 
-| ├ 顏色模式 | (RGB) | (RGB), (HSV), 
-| ├ 色相 | [0] (0 ~ 1) | 
-| ├ 飽和度 | [0] (0 ~ 1) | 
-| ├ 亮度 | [1] (0 ~ 1) | 
-| ├ 紅色 | [1] (0 ~ 1) | 
-| ├ 綠色 | [1] (0 ~ 1) | 
-| ├ 藍色 | [1] (0 ~ 1) | 
-| ├ 使用舞台顏色 | OFF | 使用舞台環的顏色
-| ├ 色溫 | [6500] (3000 ~ 8000) | 
-| └ (Presets: White) || 
-|   預設 | **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
+| ├&nbsp;顏色模式 | (RGB) | (RGB), (HSV), 
+| ├&nbsp;色相 | [0] (0 ~ 1) | 
+| ├&nbsp;飽和度 | [0] (0 ~ 1) | 
+| ├&nbsp;亮度 | [1] (0 ~ 1) | 
+| ├&nbsp;紅色 | [1] (0 ~ 1) | 
+| ├&nbsp;綠色 | [1] (0 ~ 1) | 
+| ├&nbsp;藍色 | [1] (0 ~ 1) | 
+| ├&nbsp;使用舞台顏色 | OFF | 使用舞台環的顏色
+| ├&nbsp;色溫 | [6500] (3000 ~ 8000) | 
+| └&nbsp;(Presets: White) || 
+| &nbsp;&nbsp;預設 | **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
 | **中間顏色** | | 
-| ├ 顏色模式 | (RGB) | (RGB), (HSV), 
-| ├ 色相 | [0] (0 ~ 1) | 
-| ├ 飽和度 | [0] (0 ~ 1) | 
-| ├ 亮度 | [1] (0 ~ 1) | 
-| ├ 紅色 | [1] (0 ~ 1) | 
-| ├ 綠色 | [1] (0 ~ 1) | 
-| ├ 藍色 | [1] (0 ~ 1) | 
-| ├ 使用舞台顏色 | OFF | 使用舞台環的顏色
-| ├ 色溫 | [6500] (3000 ~ 8000) | 
-| └ (Presets: White) || 
-|   預設 | **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
+| ├&nbsp;顏色模式 | (RGB) | (RGB), (HSV), 
+| ├&nbsp;色相 | [0] (0 ~ 1) | 
+| ├&nbsp;飽和度 | [0] (0 ~ 1) | 
+| ├&nbsp;亮度 | [1] (0 ~ 1) | 
+| ├&nbsp;紅色 | [1] (0 ~ 1) | 
+| ├&nbsp;綠色 | [1] (0 ~ 1) | 
+| ├&nbsp;藍色 | [1] (0 ~ 1) | 
+| ├&nbsp;使用舞台顏色 | OFF | 使用舞台環的顏色
+| ├&nbsp;色溫 | [6500] (3000 ~ 8000) | 
+| └&nbsp;(Presets: White) || 
+| &nbsp;&nbsp;預設 | **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
 | **地面顏色** | | 
-| ├ 顏色模式 | (RGB) | (RGB), (HSV), 
-| ├ 色相 | [0] (0 ~ 1) | 
-| ├ 飽和度 | [0] (0 ~ 1) | 
-| ├ 亮度 | [1] (0 ~ 1) | 
-| ├ 紅色 | [1] (0 ~ 1) | 
-| ├ 綠色 | [1] (0 ~ 1) | 
-| ├ 藍色 | [1] (0 ~ 1) | 
-| ├ 使用舞台顏色 | OFF | 使用舞台環的顏色
-| ├ 色溫 | [6500] (3000 ~ 8000) | 
-| └ (Presets: White) || 
-|   預設 | **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
+| ├&nbsp;顏色模式 | (RGB) | (RGB), (HSV), 
+| ├&nbsp;色相 | [0] (0 ~ 1) | 
+| ├&nbsp;飽和度 | [0] (0 ~ 1) | 
+| ├&nbsp;亮度 | [1] (0 ~ 1) | 
+| ├&nbsp;紅色 | [1] (0 ~ 1) | 
+| ├&nbsp;綠色 | [1] (0 ~ 1) | 
+| ├&nbsp;藍色 | [1] (0 ~ 1) | 
+| ├&nbsp;使用舞台顏色 | OFF | 使用舞台環的顏色
+| ├&nbsp;色溫 | [6500] (3000 ~ 8000) | 
+| └&nbsp;(Presets: White) || 
+| &nbsp;&nbsp;預設 | **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
 | **雲** | | Configures volumetric clouds, including shape, erosion, density, and wind effects.
-| ├ 啟用 | ON | (Enables or disables volumetric clouds.)
-| ├ 形狀縮放 | [1] (-1 ~ 2) | (Controls the scale of the cloud shapes.)
-| ├ 形狀因子 | [0.8] (0 ~ 1) | (Adjusts the shape factor of the clouds.)
-| ├ 侵蝕縮放 | [2] (0 ~ 5) | (Controls the scale of cloud erosion.)
-| ├ 侵蝕因子 | [0.8] (0 ~ 1) | (Adjusts the erosion factor of the clouds.)
-| ├ 密度 | [0.2] (0 ~ 1) | (Sets the density multiplier for the clouds.)
-| ├ 陰影 | OFF | (Enables or disables cloud shadows.)
-| └ 風倍增器 | [3] (0 ~ 4) | (Sets the wind multiplier for cloud movement.)
+| ├&nbsp;啟用 | ON | (Enables or disables volumetric clouds.)
+| ├&nbsp;形狀縮放 | [1] (-1 ~ 2) | (Controls the scale of the cloud shapes.)
+| ├&nbsp;形狀因子 | [0.8] (0 ~ 1) | (Adjusts the shape factor of the clouds.)
+| ├&nbsp;侵蝕縮放 | [2] (0 ~ 5) | (Controls the scale of cloud erosion.)
+| ├&nbsp;侵蝕因子 | [0.8] (0 ~ 1) | (Adjusts the erosion factor of the clouds.)
+| ├&nbsp;密度 | [0.2] (0 ~ 1) | (Sets the density multiplier for the clouds.)
+| ├&nbsp;陰影 | OFF | (Enables or disables cloud shadows.)
+| └&nbsp;風倍增器 | [3] (0 ~ 4) | (Sets the wind multiplier for cloud movement.)
 | (Presets: Thin Cloud) || 
 | 預設 | **薄雲** | 天空貼圖, 程序化, 室內, 薄雲, 多雲,  |

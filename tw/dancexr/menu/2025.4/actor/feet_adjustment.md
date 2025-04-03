@@ -31,13 +31,13 @@ sidebar:
 | 模式 | **線框** | 線框, 不透明, 鍍鉻, 實心玻璃, 薄玻璃, <br/>(Selects the visualization mode for virtual shoes.) |
 | 光滑度 | [1] (0 ~ 1) | (Controls the smoothness of the virtual shoe material.)
 | **顏色** | | Sets the color of the virtual shoe material.
-| ├ 顏色模式 | (RGB) | (RGB), (HSV), 
-| ├ 色相 | [0] (0 ~ 1) | 
-| ├ 飽和度 | [0] (0 ~ 1) | 
-| ├ 亮度 | [1] (0 ~ 1) | 
-| ├ 紅色 | [1] (0 ~ 1) | 
-| ├ 綠色 | [1] (0 ~ 1) | 
-| └ 藍色 | [1] (0 ~ 1) | 
+| ├&nbsp;顏色模式 | (RGB) | (RGB), (HSV), 
+| ├&nbsp;色相 | [0] (0 ~ 1) | 
+| ├&nbsp;飽和度 | [0] (0 ~ 1) | 
+| ├&nbsp;亮度 | [1] (0 ~ 1) | 
+| ├&nbsp;紅色 | [1] (0 ~ 1) | 
+| ├&nbsp;綠色 | [1] (0 ~ 1) | 
+| └&nbsp;藍色 | [1] (0 ~ 1) | 
 | 鞋跟 || 
 | 高跟鞋 | [0] (0 ~ 1) | (Adjusts the height of the high heel pose.)
 | 限制角度 | OFF | (Limits the maximum angle for tiptoe rotation.)
@@ -47,8 +47,8 @@ sidebar:
 | 距離閾值 | [0] (0 ~ 0.2) | (Defines the distance threshold for applying friction to reduce sliding.)
 | 阻尼 | [0.75] (0 ~ 1) | (Controls the damping factor for friction applied to reduce sliding.)
 | **腳的角度** | | 
-| ├ 旋轉 X | [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
-| ├ 旋轉 Y | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
-| └ 旋轉 Z | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
+| ├&nbsp;旋轉 X | [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
+| ├&nbsp;旋轉 Y | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
+| └&nbsp;旋轉 Z | [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
 | (Presets: Off) || 
 | 預設 | **關閉** | 關閉, 接觸地面, 高跟鞋, 最大高跟鞋,  |

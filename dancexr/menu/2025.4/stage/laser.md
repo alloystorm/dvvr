@@ -24,49 +24,49 @@ sidebar:
 | Height | [0] (0 ~ 8) | 
 | Angle | [45] (0 ~ 90) | 
 | **Color** | | 
-| ├ Color Mode | HSV | RGB, HSV, 
-| ├ Hue | [0] (0 ~ 1) | 
-| ├ Satuation | [1] (0 ~ 1) | 
-| ├ Brightness | [1] (0 ~ 1) | 
-| ├ Red | [1] (0 ~ 1) | 
-| ├ Green | [0] (0 ~ 1) | 
-| ├ Blue | [0] (0 ~ 1) | 
-| ├ Glow | [1] (0 ~ 20) | 
-| ├ Base Level | [-1] (-3 ~ 3) | 
-| ├ Edge Level | [2] (0 ~ 5) | 
-| ├ Hit Level | [2] (0 ~ 5) | 
-| └ Presets: Animated Hue || 
-|   Presets | **Animated Hue** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+| ├&nbsp;Color Mode | HSV | RGB, HSV, 
+| ├&nbsp;Hue | [0] (0 ~ 1) | 
+| ├&nbsp;Satuation | [1] (0 ~ 1) | 
+| ├&nbsp;Brightness | [1] (0 ~ 1) | 
+| ├&nbsp;Red | [1] (0 ~ 1) | 
+| ├&nbsp;Green | [0] (0 ~ 1) | 
+| ├&nbsp;Blue | [0] (0 ~ 1) | 
+| ├&nbsp;Glow | [1] (0 ~ 20) | 
+| ├&nbsp;Base Level | [-1] (-3 ~ 3) | 
+| ├&nbsp;Edge Level | [2] (0 ~ 5) | 
+| ├&nbsp;Hit Level | [2] (0 ~ 5) | 
+| └&nbsp;Presets: Animated Hue || 
+| &nbsp;&nbsp;Presets | **Animated Hue** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
 | **Motion** | | 
-| ├ Moves Per Group | [1] (1 ~ 32) | 
-| ├ Speed | [0] (-3 ~ 3) | 
-| ├ Transition | [1] (0 ~ 1) | 
-| ├ Extent | [1] (0 ~ 1) | 
-| ├ **Damping** | | 
-| │ ├ Orientation | [0.5] (0 ~ 1) | 
-| │ ├ Horizontal | [0.5] (0 ~ 1) | 
-| │ └ Vertical | [0.1] (0 ~ 1) | 
-| ├ Mode: Random || 
-| │ Mode | **Random** | Random, Random Preset, Manual,  |
-| ├ **Motion X** | | 
-| │ ├ Override | [0] (-1 ~ 1) | Override generated movement with this value
-| │ ├ Speed Multiplier | [-1] (-3 ~ 3) | 
-| │ ├ Phase | [0.25] (0 ~ 1) | Starting position in the cycle
-| │ ├ Curve | [1] (0 ~ 1) | 
-| │ ├ Direction | [1] (-1 ~ 1) | 
-| │ ├ Scale | [1] (0 ~ 1) | 
-| │ └ Center | [0] (-1 ~ 1) | 
-| ├ **Motion Z** | | 
-| │ ├ Override | [0] (-1 ~ 1) | Override generated movement with this value
-| │ ├ Speed Multiplier | [-1] (-3 ~ 3) | 
-| │ ├ Phase | [0.25] (0 ~ 1) | Starting position in the cycle
-| │ ├ Curve | [1] (0 ~ 1) | 
-| │ ├ Direction | [1] (-1 ~ 1) | 
-| │ ├ Scale | [0] (0 ~ 1) | 
-| │ └ Center | [0] (-1 ~ 1) | 
-| ├ Use Audio | [2] (0 ~ 4) | 
-| ├ Seed | [1234] (Unlimited) | Controls randomized pattern sequence
-| └ Presets: Default (Reset) || 
-|   Presets | **Default (Reset)** | Default (Reset),  |
+| ├&nbsp;Moves Per Group | [1] (1 ~ 32) | 
+| ├&nbsp;Speed | [0] (-3 ~ 3) | 
+| ├&nbsp;Transition | [1] (0 ~ 1) | 
+| ├&nbsp;Extent | [1] (0 ~ 1) | 
+| ├&nbsp;**Damping** | | 
+| │&nbsp;├&nbsp;Orientation | [0.5] (0 ~ 1) | 
+| │&nbsp;├&nbsp;Horizontal | [0.5] (0 ~ 1) | 
+| │&nbsp;└&nbsp;Vertical | [0.1] (0 ~ 1) | 
+| ├&nbsp;Mode: Random || 
+| │&nbsp;Mode | **Random** | Random, Random Preset, Manual,  |
+| ├&nbsp;**Motion X** | | 
+| │&nbsp;├&nbsp;Override | [0] (-1 ~ 1) | Override generated movement with this value
+| │&nbsp;├&nbsp;Speed Multiplier | [-1] (-3 ~ 3) | 
+| │&nbsp;├&nbsp;Phase | [0.25] (0 ~ 1) | Starting position in the cycle
+| │&nbsp;├&nbsp;Curve | [1] (0 ~ 1) | 
+| │&nbsp;├&nbsp;Direction | [1] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;Scale | [1] (0 ~ 1) | 
+| │&nbsp;└&nbsp;Center | [0] (-1 ~ 1) | 
+| ├&nbsp;**Motion Z** | | 
+| │&nbsp;├&nbsp;Override | [0] (-1 ~ 1) | Override generated movement with this value
+| │&nbsp;├&nbsp;Speed Multiplier | [-1] (-3 ~ 3) | 
+| │&nbsp;├&nbsp;Phase | [0.25] (0 ~ 1) | Starting position in the cycle
+| │&nbsp;├&nbsp;Curve | [1] (0 ~ 1) | 
+| │&nbsp;├&nbsp;Direction | [1] (-1 ~ 1) | 
+| │&nbsp;├&nbsp;Scale | [0] (0 ~ 1) | 
+| │&nbsp;└&nbsp;Center | [0] (-1 ~ 1) | 
+| ├&nbsp;Use Audio | [2] (0 ~ 4) | 
+| ├&nbsp;Seed | [1234] (Unlimited) | Controls randomized pattern sequence
+| └&nbsp;Presets: Default (Reset) || 
+| &nbsp;&nbsp;Presets | **Default (Reset)** | Default (Reset),  |
 | Presets: Off || 
 | Presets | **Off** | Off, Line, Half Circle, Point, Glow w/ Music, Preset 1,  |
