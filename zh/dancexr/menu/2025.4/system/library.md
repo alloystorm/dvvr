@@ -14,15 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 刷新内容 || 
-| 迁移设置 || 
-| 删除重复项 || 
-| 切换库 || 
-| (/Users/frankli/Documents/unity/content) || 
-| (./content) || 
-| 选择库文件夹 || 
-| 在资源管理器中显示 || 
-| 谷歌云端硬盘 || 
-| 下载 || 
-| 链接另一个 || 
-| 解除链接云端硬盘 || 
+| 刷新内容 || 0/6/False
+| 迁移设置 || 1/6/False
+| 删除重复项 || 2/6/False
+| 切换库 || 3/6/False
+| 在资源管理器中显示 || 4/6/False
+| 谷歌云端硬盘 || 5/6/False
+| 链接谷歌云端硬盘 || 6/6/False

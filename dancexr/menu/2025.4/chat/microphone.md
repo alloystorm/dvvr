@@ -14,5 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Mode | **Manual**, Auto,  |  |
-| Mic Selection | **[Default]**, MacBook Pro Microphone,  |  |
+| Mode: Manual || 0/1/False
+| Mode | **Manual** | Manual, Auto,  |
+| Mic Selection: [Default] || 1/1/False
+| Mic Selection | **[Default]** | [Default], Headset Microphone (Oculus Virtual Audio Device), Microphone (Pico Streaming Virtual Audio), Microphone Array (Pico Streaming Speaker), Microphone (Virtual Desktop Audio),  |

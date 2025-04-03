@@ -14,4 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|- Threshold | [30] (0 ~ 50) | 
+| Threshold | [30] (0 ~ 50) | 0/0/False

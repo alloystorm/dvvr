@@ -14,11 +14,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Detach Object | ON | 
-| Select Bones || 
-| Gravity | ON | 
-|- Mass | [0.1] (0 ~ 10) | 
-|- Damp | [0] (0 ~ 1) | 
-|- Collider | None, **Sphere**, Capsule,  | 
-|- Collider Radius | [0.1] (0 ~ 1) | 
-|- Collider Length | [0.3] (0 ~ 2) | 
+| Enable Detach Object | ON | 0/7/False
+| Select Bones || 1/7/False
+| Gravity | ON | 2/7/False
+| Mass | [0.1] (0 ~ 10) | 3/7/False
+| Damp | [0] (0 ~ 1) | 4/7/False
+| Collider | Sphere | None, Sphere, Capsule, 5/7/False
+| Collider Radius | [0.1] (0 ~ 1) | 6/7/False
+| Collider Length | [0.3] (0 ~ 2) | 7/7/False

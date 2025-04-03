@@ -14,18 +14,18 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Loop | OFF | 
-| Mute | OFF | 
-|- Time Offset | [0] (Unlimited) | 
-| Aspect Ratio | 1:1, 4:3, 14:9, 16:10, **16:9**, 1.85:1, 2:1, 2.35:1, 2.39:1, 2.4:1,  |  |
-|- Offset | [0] (Unlimited) | 
-|- BPM | [120] (1 ~ 240) | Beats per minute
-|- Beat Offset | [0] (0 ~ 1) | 
-|- Beats Per Phrase | [8] (4 ~ 64) | 
-|- Phrase Begin | [0] (0 ~ 32) | 
-| Tap Beats || Set BPM by tapping while the music is playing
-| Projector Scene Example || 
-| LED Screen Example || 
-| Load Video || 
-| [None] || 
-| M09-1317.Mp4 || 
+| Loop | OFF | 0/12/False
+| Mute | OFF | 1/12/False
+| Time Offset | [0] (Unlimited) | 2/12/False
+| Aspect Ratio: 16:9 || 3/12/False
+| Aspect Ratio | **16:9** | 1:1, 4:3, 14:9, 16:10, 16:9, 1.85:1, 2:1, 2.35:1, 2.39:1, 2.4:1,  |
+| Offset | [0] (Unlimited) | 4/12/False
+| BPM | [120] (1 ~ 240) | Beats per minute5/12/False
+| Beat Offset | [0] (0 ~ 1) | 6/12/False
+| Beats Per Phrase | [8] (4 ~ 64) | 7/12/False
+| Phrase Begin | [0] (0 ~ 32) | 8/12/False
+| Tap Beats || Set BPM by tapping while the music is playing9/12/False
+| Projector Scene Example || 10/12/False
+| LED Screen Example || 11/12/False
+| Load Video || 12/12/False
+| └ [None] || 0/0/False

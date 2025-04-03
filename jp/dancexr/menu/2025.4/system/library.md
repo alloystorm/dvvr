@@ -14,15 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| コンテンツを更新 || 
-| 設定を移行 || 
-| 重複を削除 || 
-| ライブラリを切り替え || 
-| (/Users/frankli/Documents/unity/content) || 
-| (./content) || 
-| ライブラリフォルダを選択 || 
-| エクスプローラーで表示 || 
-| Google ドライブ || 
-| ダウンロード || 
-| 別のリンク || 
-| ドライブのリンク解除 || 
+| コンテンツを更新 || 0/6/False
+| 設定を移行 || 1/6/False
+| 重複を削除 || 2/6/False
+| ライブラリを切り替え || 3/6/False
+| エクスプローラーで表示 || 4/6/False
+| Google ドライブ || 5/6/False
+| Google ドライブのリンク || 6/6/False

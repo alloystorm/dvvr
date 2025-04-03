@@ -14,5 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| モード | **手動**, 自動,  |  |
-| マイク選択 | **([Default])**, (MacBook Pro Microphone),  |  |
+| (Mode: Manual) || 0/1/False
+| モード | **手動** | 手動, 自動,  |
+| (Mic Selection: [Default]) || 1/1/False
+| マイク選択 | **([Default])** | ([Default]), (Headset Microphone (Oculus Virtual Audio Device)), (Microphone (Pico Streaming Virtual Audio)), (Microphone Array (Pico Streaming Speaker)), (Microphone (Virtual Desktop Audio)),  |

@@ -14,10 +14,12 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 选择服务 | **OpenAI (ChatGPT)**, 本地 WebUI, 远程 WebUI, (Ollama),  |  |
-| OpenAI API 密钥 || 
-| GPT 模型 | **(gpt-3.5-turbo)**, (gpt-4), (gpt-4-turbo), (gpt-4o),  |  |
-| 本地 WebUI URL || 
-| 远程 WebUI URL || 
-| Ollama URL || 
-| Ollama 模型 || 
+| (Select Service: OpenAI (ChatGPT)) || 0/6/False
+| 选择服务 | **OpenAI (ChatGPT)** | OpenAI (ChatGPT), 本地 WebUI, 远程 WebUI, (Ollama),  |
+| OpenAI API 密钥 || 1/6/False
+| (GPT Model: gpt-3.5-turbo) || 2/6/False
+| GPT 模型 | **(gpt-3.5-turbo)** | (gpt-3.5-turbo), (gpt-4), (gpt-4-turbo), (gpt-4o),  |
+| 本地 WebUI URL || 3/6/False
+| 远程 WebUI URL || 4/6/False
+| Ollama URL || 5/6/False
+| Ollama 模型 || 6/6/False

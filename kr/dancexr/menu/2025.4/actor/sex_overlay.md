@@ -1,0 +1,34 @@
+---
+locale: ko-rKR
+layout: single
+title: 성별 오버레이
+toc: true
+sidebar:
+  nav: "docs-kr"
+---
+[Eng](/dancexr/menu/2025.4/actor/sex_overlay) | [繁中](/tw/dancexr/menu/2025.4/actor/sex_overlay) | [日本語](/jp/dancexr/menu/2025.4/actor/sex_overlay) | [한국어](/kr/dancexr/menu/2025.4/actor/sex_overlay) | [简中](/zh/dancexr/menu/2025.4/actor/sex_overlay)
+
+[프로](../menu#프로) > 성별 오버레이
+
+
+
+| Setting | Value | Description |
+| :--- | --- | :--- |
+| (Enable Sex Overlay) | OFF | 0/9/False
+| 강도 | [1] (0 ~ 2) | 1/9/False
+| 구부리기 | [0.2] (0 ~ 1) | 2/9/False
+| 각도 | [45] (0 ~ 90) | 3/9/False
+| 무작위 | [15] (0 ~ 45) | 4/9/False
+| 지연 | [0] (-1 ~ 1) | 5/9/False
+| (Arm IK Left) | [0.25] (0 ~ 1) | 6/9/False
+| (Arm IK Right) | [0.25] (0 ~ 1) | 7/9/False
+| 모션 오버라이드 | [0] (0 ~ 1) | 8/9/False
+| **속도** | | 9/9/False
+| ├ 비트당 움직임 | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 0/7/False
+| ├ 그룹당 움직임 | [8] (4 ~ 32) | 1/7/False
+| ├ 주기 | [0] (0 ~ 1) | 2/7/False
+| ├ 곡선 | [0] (0 ~ 1) | 3/7/False
+| ├ 변동 속도 | OFF | 4/7/False
+| ├ 모드 | (Gradual) | (Gradual), 무작위, 볼륨, 5/7/False
+| ├ 최소 속도 | (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 6/7/False
+| └ 최대 속도 | (3/2) | (1), (3/2), (2), (3), (4), 7/7/False
