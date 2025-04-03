@@ -2,7 +2,7 @@
 locale: zh-rCN
 layout: single
 title: 全局角色控制
-toc: true
+toc: false
 sidebar:
   nav: "docs-tw"
 ---

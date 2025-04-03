@@ -2,7 +2,7 @@
 locale: zh-rCN
 layout: single
 title: 配置摄影机
-toc: true
+toc: false
 sidebar:
   nav: "docs-tw"
 ---

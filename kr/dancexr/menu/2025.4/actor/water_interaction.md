@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 물 상호작용
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

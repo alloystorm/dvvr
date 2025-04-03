@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: 系統預設
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

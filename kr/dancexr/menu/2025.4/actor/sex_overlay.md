@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 성별 오버레이
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

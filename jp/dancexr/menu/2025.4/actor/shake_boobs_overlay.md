@@ -2,7 +2,7 @@
 locale: ja-rJP
 layout: single
 title: シェイクボブオーバーレイ
-toc: true
+toc: false
 sidebar:
   nav: "docs-jp"
 ---

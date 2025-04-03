@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: 清除歷史
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

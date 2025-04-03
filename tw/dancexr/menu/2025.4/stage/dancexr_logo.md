@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: DanceXR 商標
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

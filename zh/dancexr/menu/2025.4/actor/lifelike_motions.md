@@ -2,7 +2,7 @@
 locale: zh-rCN
 layout: single
 title: 逼真的动作
-toc: true
+toc: false
 sidebar:
   nav: "docs-tw"
 ---

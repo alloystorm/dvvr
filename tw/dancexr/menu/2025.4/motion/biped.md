@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: ([Biped])
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 얼굴 제어
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

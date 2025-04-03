@@ -2,7 +2,7 @@
 locale: ja-rJP
 layout: single
 title: 履歴を保存する
-toc: true
+toc: false
 sidebar:
   nav: "docs-jp"
 ---

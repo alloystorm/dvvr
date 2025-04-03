@@ -2,7 +2,7 @@
 locale: zh-rCN
 layout: single
 title: 性别叠加
-toc: true
+toc: false
 sidebar:
   nav: "docs-tw"
 ---

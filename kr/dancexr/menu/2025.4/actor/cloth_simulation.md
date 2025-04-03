@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 시뮬레이션
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

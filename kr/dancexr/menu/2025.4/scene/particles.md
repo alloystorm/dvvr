@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 파티클 이펙트
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

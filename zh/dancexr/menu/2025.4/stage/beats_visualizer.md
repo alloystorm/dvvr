@@ -2,7 +2,7 @@
 locale: zh-rCN
 layout: single
 title: 节拍可视化
-toc: true
+toc: false
 sidebar:
   nav: "docs-tw"
 ---

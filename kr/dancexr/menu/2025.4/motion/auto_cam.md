@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: [오토 캠]
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 메시를 옷으로
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

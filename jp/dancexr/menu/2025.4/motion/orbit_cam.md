@@ -2,7 +2,7 @@
 locale: ja-rJP
 layout: single
 title: [オービットカム]
-toc: true
+toc: false
 sidebar:
   nav: "docs-jp"
 ---

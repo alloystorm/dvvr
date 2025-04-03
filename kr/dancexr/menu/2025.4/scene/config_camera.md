@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 카메라 설정
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

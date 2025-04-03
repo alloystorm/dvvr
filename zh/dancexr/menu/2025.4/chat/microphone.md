@@ -2,7 +2,7 @@
 locale: zh-rCN
 layout: single
 title: 麦克风
-toc: true
+toc: false
 sidebar:
   nav: "docs-tw"
 ---

@@ -2,7 +2,7 @@
 locale: zh-rCN
 layout: single
 title: 可视化骨骼
-toc: true
+toc: false
 sidebar:
   nav: "docs-tw"
 ---

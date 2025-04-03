@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: 全局演員控制
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

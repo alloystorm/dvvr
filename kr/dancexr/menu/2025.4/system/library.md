@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 콘텐츠 라이브러리
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

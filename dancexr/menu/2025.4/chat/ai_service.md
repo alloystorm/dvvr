@@ -2,7 +2,7 @@
 locale: en-rUS
 layout: single
 title: AI Service
-toc: true
+toc: false
 sidebar:
   nav: "docs"
 ---

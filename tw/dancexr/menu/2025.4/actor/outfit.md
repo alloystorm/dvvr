@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: 服裝與身體彩繪
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

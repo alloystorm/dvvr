@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 신체 콜라이더
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

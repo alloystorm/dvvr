@@ -2,7 +2,7 @@
 locale: zh-rCN
 layout: single
 title: 保存历史记录
-toc: true
+toc: false
 sidebar:
   nav: "docs-tw"
 ---

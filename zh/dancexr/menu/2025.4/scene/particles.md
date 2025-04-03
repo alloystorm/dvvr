@@ -2,7 +2,7 @@
 locale: zh-rCN
 layout: single
 title: 粒子效果
-toc: true
+toc: false
 sidebar:
   nav: "docs-tw"
 ---

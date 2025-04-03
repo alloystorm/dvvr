@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: 影片播放器
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

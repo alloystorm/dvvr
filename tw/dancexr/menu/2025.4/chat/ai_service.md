@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: AI服務
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

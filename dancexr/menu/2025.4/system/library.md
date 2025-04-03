@@ -2,7 +2,7 @@
 locale: en-rUS
 layout: single
 title: Content Library
-toc: true
+toc: false
 sidebar:
   nav: "docs"
 ---

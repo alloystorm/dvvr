@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 디스플레이 및 UI
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: AI 서비스
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

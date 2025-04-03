@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: 激光
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

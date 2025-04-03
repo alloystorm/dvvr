@@ -2,7 +2,7 @@
 locale: ja-rJP
 layout: single
 title: 水の相互作用
-toc: true
+toc: false
 sidebar:
   nav: "docs-jp"
 ---

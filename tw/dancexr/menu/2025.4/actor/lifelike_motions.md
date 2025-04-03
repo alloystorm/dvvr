@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: 自然動態
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

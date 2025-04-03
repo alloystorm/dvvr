@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 빛 공
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

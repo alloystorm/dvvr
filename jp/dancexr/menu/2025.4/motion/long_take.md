@@ -2,7 +2,7 @@
 locale: ja-rJP
 layout: single
 title: [長回し]
-toc: true
+toc: false
 sidebar:
   nav: "docs-jp"
 ---

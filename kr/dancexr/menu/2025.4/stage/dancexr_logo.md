@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: DanceXR 로고
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

@@ -2,7 +2,7 @@
 locale: en-rUS
 layout: single
 title: Shake Boobs Overlay
-toc: true
+toc: false
 sidebar:
   nav: "docs"
 ---

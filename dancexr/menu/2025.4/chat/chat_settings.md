@@ -2,7 +2,7 @@
 locale: en-rUS
 layout: single
 title: Chat Settings
-toc: true
+toc: false
 sidebar:
   nav: "docs"
 ---

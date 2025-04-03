@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: 攝影機
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

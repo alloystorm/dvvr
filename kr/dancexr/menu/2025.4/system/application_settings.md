@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 응용 프로그램 설정
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

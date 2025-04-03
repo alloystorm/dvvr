@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 채팅 설정
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

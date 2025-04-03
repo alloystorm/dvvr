@@ -2,7 +2,7 @@
 locale: ja-rJP
 layout: single
 title: ぶら下がり物理
-toc: true
+toc: false
 sidebar:
   nav: "docs-jp"
 ---

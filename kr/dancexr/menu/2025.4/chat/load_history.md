@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 기록 불러오기
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

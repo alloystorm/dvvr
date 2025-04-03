@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: 光球
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

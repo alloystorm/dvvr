@@ -2,7 +2,7 @@
 locale: zh-rCN
 layout: single
 title: 网格转布料
-toc: true
+toc: false
 sidebar:
   nav: "docs-tw"
 ---

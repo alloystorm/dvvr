@@ -2,7 +2,7 @@
 locale: en-rUS
 layout: single
 title: Procedural
-toc: true
+toc: false
 sidebar:
   nav: "docs"
 ---

@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: 身體碰撞器
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

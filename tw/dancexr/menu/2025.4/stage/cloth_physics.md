@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: 垂懸物理
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

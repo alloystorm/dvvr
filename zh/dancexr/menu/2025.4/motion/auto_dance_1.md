@@ -2,7 +2,7 @@
 locale: zh-rCN
 layout: single
 title: [自动舞蹈 1]
-toc: true
+toc: false
 sidebar:
   nav: "docs-tw"
 ---

@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 뼈 시각화
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 의상 & 바디페인트
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

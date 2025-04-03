@@ -2,7 +2,7 @@
 locale: ja-rJP
 layout: single
 title: AIサービス
-toc: true
+toc: false
 sidebar:
   nav: "docs-jp"
 ---

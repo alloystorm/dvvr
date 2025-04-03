@@ -2,7 +2,7 @@
 locale: zh-rCN
 layout: single
 title: 导出骨骼结构
-toc: true
+toc: false
 sidebar:
   nav: "docs-tw"
 ---

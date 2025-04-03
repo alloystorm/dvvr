@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: 컨트롤러 입력
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

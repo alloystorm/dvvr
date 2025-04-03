@@ -2,7 +2,7 @@
 locale: zh-rTW
 layout: single
 title: 水的互動
-toc: true
+toc: false
 sidebar:
   nav: "docs-zh"
 ---

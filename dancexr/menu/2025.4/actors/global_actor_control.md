@@ -2,7 +2,7 @@
 locale: en-rUS
 layout: single
 title: Global Actor Control
-toc: true
+toc: false
 sidebar:
   nav: "docs"
 ---

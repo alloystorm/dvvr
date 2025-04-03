@@ -2,7 +2,7 @@
 locale: en-rUS
 layout: single
 title: Auto Reset
-toc: true
+toc: false
 sidebar:
   nav: "docs"
 ---

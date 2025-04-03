@@ -2,7 +2,7 @@
 locale: ja-rJP
 layout: single
 title: [オートダンス 1]
-toc: true
+toc: false
 sidebar:
   nav: "docs-jp"
 ---

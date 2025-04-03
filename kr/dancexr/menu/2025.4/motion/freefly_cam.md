@@ -2,7 +2,7 @@
 locale: ko-rKR
 layout: single
 title: [프리플라이 카메라]
-toc: true
+toc: false
 sidebar:
   nav: "docs-kr"
 ---

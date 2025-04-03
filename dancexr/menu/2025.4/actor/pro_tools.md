@@ -2,7 +2,7 @@
 locale: en-rUS
 layout: single
 title: Pro
-toc: true
+toc: false
 sidebar:
   nav: "docs"
 ---

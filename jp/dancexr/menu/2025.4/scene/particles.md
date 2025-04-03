@@ -2,7 +2,7 @@
 locale: ja-rJP
 layout: single
 title: パーティクルエフェクト
-toc: true
+toc: false
 sidebar:
   nav: "docs-jp"
 ---

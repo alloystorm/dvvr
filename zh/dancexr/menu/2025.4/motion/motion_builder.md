@@ -2,7 +2,7 @@
 locale: zh-rCN
 layout: single
 title: ([Motion Builder])
-toc: true
+toc: false
 sidebar:
   nav: "docs-tw"
 ---

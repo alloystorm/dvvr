@@ -2,7 +2,7 @@
 locale: en-rUS
 layout: single
 title: [Auto Dance 1]
-toc: true
+toc: false
 sidebar:
   nav: "docs"
 ---
