@@ -14,7 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Mode: Manual || 
-| Mode | **Manual** | Manual, Auto,  |
-| Mic Selection: [Default] || 
-| Mic Selection | **[Default]** | [Default], Headset Microphone (Oculus Virtual Audio Device), Microphone (Pico Streaming Virtual Audio), Microphone Array (Pico Streaming Speaker), Microphone (Virtual Desktop Audio),  |
+|<nobr>Mode</nobr>| **Manual** | Manual, Auto,  |
+|<nobr>Mic Selection</nobr>| **[Default]** | [Default], Headset Microphone (Oculus Virtual Audio Device), Microphone (Pico Streaming Virtual Audio), Microphone Array (Pico Streaming Speaker), Microphone (Virtual Desktop Audio),  |

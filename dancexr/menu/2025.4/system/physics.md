@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Physics | ON | 
-| Gravity | [9.81] (-10 ~ 10) | 
-| Time Scale | [1] (0.1 ~ 2) | Change time used for physics simulation.
-| Disable Collision | OFF | 
-| Steps Per Second | 180 | Flexible, 30, 45, 60, 90, 120, 180, 240, 300, 450, 600, 900, 1200, <br/>Set physics simulation rate. Higher = smoother simulation but at higher CPU cost.
+|<nobr>Enable Physics</nobr>| [ON] | 
+|<nobr>Gravity</nobr>| [9.81] (-10 ~ 10) | 
+|<nobr>Time Scale</nobr>| [1] (0.1 ~ 2) | Change time used for physics simulation.
+|<nobr>Disable Collision</nobr>| [OFF] | 
+|<nobr>Steps Per Second</nobr>| 180 | Flexible, 30, 45, 60, 90, 120, 180, 240, 300, 450, 600, 900, 1200, <br/>Set physics simulation rate. Higher = smoother simulation but at higher CPU cost.

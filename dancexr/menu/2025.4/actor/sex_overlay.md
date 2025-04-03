@@ -14,21 +14,21 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable | OFF | 
-| Intensity | [1] (0 ~ 2) | 
-| Bend | [0.2] (0 ~ 1) | 
-| Angle | [45] (0 ~ 90) | 
-| Random | [15] (0 ~ 45) | 
-| Delay | [0] (-1 ~ 1) | 
-| Arm IK Left | [0.25] (0 ~ 1) | 
-| Arm IK Right | [0.25] (0 ~ 1) | 
-| Override Motion | [0] (0 ~ 1) | 
-| **Speed** | | 
-| ├&nbsp;Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
-| ├&nbsp;Moves Per Group | [8] (4 ~ 32) | 
-| ├&nbsp;Phase | [0] (0 ~ 1) | 
-| ├&nbsp;Curve | [0] (0 ~ 1) | 
-| ├&nbsp;Variable Speed | OFF | 
-| ├&nbsp;Mode | Gradual | Gradual, Random, Volume, 
-| ├&nbsp;Min Speed | 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
-| └&nbsp;Max Speed | 3/2 | 1, 3/2, 2, 3, 4, 
+|<nobr>Enable</nobr>| [OFF] | 
+|<nobr>Intensity</nobr>| [1] (0 ~ 2) | 
+|<nobr>Bend</nobr>| [0.2] (0 ~ 1) | 
+|<nobr>Angle</nobr>| [45] (0 ~ 90) | 
+|<nobr>Random</nobr>| [15] (0 ~ 45) | 
+|<nobr>Delay</nobr>| [0] (-1 ~ 1) | 
+|<nobr>Arm IK Left</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>Arm IK Right</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>Override Motion</nobr>| [0] (0 ~ 1) | 
+|<nobr>**Speed**</nobr>| | 
+|<nobr>├&nbsp;Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
+|<nobr>├&nbsp;Moves Per Group</nobr>| [8] (4 ~ 32) | 
+|<nobr>├&nbsp;Phase</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;Curve</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;Variable Speed</nobr>| [OFF] | 
+|<nobr>├&nbsp;Mode</nobr>| Gradual | Gradual, Random, Volume, 
+|<nobr>├&nbsp;Min Speed</nobr>| 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
+|<nobr>└&nbsp;Max Speed</nobr>| 3/2 | 1, 3/2, 2, 3, 4, 

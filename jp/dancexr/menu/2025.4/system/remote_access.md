@@ -14,6 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 有効にする | OFF | 
-| ポート番号 || 
-| パスワード || 
+|<nobr>有効にする</nobr>| [OFF] | 
+|<nobr>ポート番号</nobr>|| 
+|<nobr>パスワード</nobr>|| 

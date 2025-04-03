@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 색조 | [0] (0 ~ 1) | 
-| 필터링 || 
+|<nobr>색조</nobr>| [0] (0 ~ 1) | 
+|<nobr>필터링</nobr>|| 

@@ -14,13 +14,13 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 重置骨骼 | ON | 
-| 动画 | ON | 
-| 偏移 | ON | 
-| IK | ON | 
-| 虚拟骨骼 | ON | 
-| 形态后期更新 | ON | 
-| 继承骨骼 | ON | 
-| 后期变换 | ON | 
-| 后期逆向运动学 | ON | 
-| 最终更新 | ON | 
+|<nobr>重置骨骼</nobr>| [ON] | 
+|<nobr>动画</nobr>| [ON] | 
+|<nobr>偏移</nobr>| [ON] | 
+|<nobr>IK</nobr>| [ON] | 
+|<nobr>虚拟骨骼</nobr>| [ON] | 
+|<nobr>形态后期更新</nobr>| [ON] | 
+|<nobr>继承骨骼</nobr>| [ON] | 
+|<nobr>后期变换</nobr>| [ON] | 
+|<nobr>后期逆向运动学</nobr>| [ON] | 
+|<nobr>最终更新</nobr>| [ON] | 

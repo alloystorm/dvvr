@@ -14,91 +14,84 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| ディルド | OFF | 
-| (Model: [Pole]) || 
-| モデル | **[ポール]** | [ポール],  |
-| **アンカーオフセット** | | Set the anchor position for the attachment to attach to
-| ├&nbsp;位置 || 
-| ├&nbsp;(X) | [0] (-1 ~ 1) | 
-| ├&nbsp;(Y) | [0] (-1 ~ 1) | 
-| ├&nbsp;(Z) | [0] (-1 ~ 1) | 
-| ├&nbsp;回転 || 
-| ├&nbsp;(X) | [0] (-90 ~ 90) | 
-| ├&nbsp;(Y) | [0] (-90 ~ 90) | 
-| └&nbsp;(Z) | [0] (-90 ~ 90) | 
-| サイズとアライメント || 
-| オブジェクト半径 | [0.02] (0.01 ~ 0.05) | 
-| オブジェクト長 | [0.2] (0 ~ 5) | 
-| スケール | [0] (-5 ~ 5) | 
-| オリエンテーション | (Y Up) | (Y Up), (Y Down), (X Up), (X Down), (Z Up), (Z Down), 
-| オフセット || 
-| (X) | [0] (-2 ~ 2) | 
-| (Y) | [0] (-2 ~ 2) | 
-| (Z) | [0] (-2 ~ 2) | 
-| 回転 || 
-| (X) | [0] (-180 ~ 180) | 
-| (Y) | [0] (-180 ~ 180) | 
-| (Z) | [0] (-180 ~ 180) | 
-| ギターモード | OFF | 
-| **モーション** | | Apply up / down motion to the attachment model
-| ├&nbsp;有効にする | OFF | 
-| ├&nbsp;**スピード** | | 
-| │&nbsp;├&nbsp;ビートあたりの動き | (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
-| │&nbsp;├&nbsp;グループあたりの動き | [8] (4 ~ 32) | 
-| │&nbsp;├&nbsp;フェーズ | [0] (0 ~ 1) | 
-| │&nbsp;├&nbsp;カーブ | [0] (0 ~ 1) | 
-| │&nbsp;├&nbsp;可変速度 | OFF | 
-| │&nbsp;├&nbsp;モード | (Gradual) | (Gradual), ランダム, ボリューム, 
-| │&nbsp;├&nbsp;最小速度 | (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
-| │&nbsp;└&nbsp;最大速度 | (3/2) | (1), (3/2), (2), (3), (4), 
-| ├&nbsp;距離 | [0.1] (0 ~ 0.3) | 
-| └&nbsp;角度 | [0] (-60 ~ 60) | 
-| (Animation: None) || 取り付けモデルに使用するローディングモーションを選択
-| アニメーション | **なし** | なし, <br/>取り付けモデルに使用するローディングモーションを選択 |
-| **表面** | | 
-| ├&nbsp;グロス | [0.9] (0 ~ 1) | 
-| ├&nbsp;金属的 | [1] (0 ~ 1) | 
-| ├&nbsp;バンプ | [0.2] (0 ~ 1) | 
-| ├&nbsp;グロー | [0] (0 ~ 10) | 
-| ├&nbsp;アンビエント | [1] (0 ~ 1) | 
-| ├&nbsp;アルファ | [1] (0 ~ 1) | 
-| ├&nbsp;クリップ | [0] (0 ~ 1) | 
-| ├&nbsp;**色** | | 
-| │&nbsp;├&nbsp;カラーモード | (RGB) | (RGB), (HSV), 
-| │&nbsp;├&nbsp;色相 | [0] (0 ~ 1) | 
-| │&nbsp;├&nbsp;彩度 | [0] (0 ~ 1) | 
-| │&nbsp;├&nbsp;明度 | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;赤 | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;緑 | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;青 | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;(Blend Mode: Blend) || 
-| │&nbsp;│&nbsp;ブレンドモード | **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
-| │&nbsp;├&nbsp;ブレンド | [1] (0 ~ 1) | 
-| │&nbsp;└&nbsp;(Presets: White) || 
-| │&nbsp;&nbsp;&nbsp;プリセット | **白** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
-| ├&nbsp;**トゥーンシェーダー** | | 
-| │&nbsp;├&nbsp;有効にする | OFF | 
-| │&nbsp;├&nbsp;シェーディング | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;アウトライン | [0.5] (0 ~ 1) | 
-| │&nbsp;├&nbsp;スペキュラー | [0.25] (0 ~ 1) | 
-| │&nbsp;├&nbsp;ソフトスペキュラー | [0.1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;ハイライトエリア | [0.25] (0 ~ 1) | 
-| │&nbsp;├&nbsp;ソフトハイライト | [0.1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;アンビエント | [0.75] (0 ~ 1) | 
-| │&nbsp;├&nbsp;シャドウエリア | [0.65] (0 ~ 1) | 
-| │&nbsp;├&nbsp;シャドウ | [0.75] (0 ~ 1) | 
-| │&nbsp;├&nbsp;ソフトシャドウ | [0.1] (0 ~ 1) | 
-| │&nbsp;└&nbsp;(Presets: Sharp) || 
-| │&nbsp;&nbsp;&nbsp;プリセット | **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
-| ├&nbsp;**特別シェーダー** | | 
-| │&nbsp;├&nbsp;(Mode: Off) || 
-| │&nbsp;│&nbsp;モード | **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
-| │&nbsp;├&nbsp;屈折 | [0.5] (1 ~ 3) | 
-| │&nbsp;└&nbsp;厚さ | [1] (0 ~ 1) | 
-| └&nbsp;(Presets: Chrome) || 
-| &nbsp;&nbsp;プリセット | **クローム** | ホワイトグロス, レッドグロス, クローム, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |
-| X線 | [0.25] (0 ~ 1) | 
-| アルファ | [1] (0 ~ 1) | 
-| 手を引っ張る | [0.1] (0 ~ 0.5) | 十分に近くにいるときに、取り付けに向かって手を引っ張る
-| グラブポーズ | ON | 取り付けにいるときに手のポーズを自動的にグラブに変更
-| 手の動き | [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
+|<nobr>ディルド</nobr>| [OFF] | 
+|<nobr>モデル</nobr>| **[ポール]** | [ポール],  |
+|<nobr>**アンカーオフセット**</nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>├&nbsp;位置</nobr>|| 
+|<nobr>├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp;回転</nobr>|| 
+|<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
+|<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
+|<nobr>└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
+|<nobr>サイズとアライメント</nobr>|| 
+|<nobr>オブジェクト半径</nobr>| [0.02] (0.01 ~ 0.05) | 
+|<nobr>オブジェクト長</nobr>| [0.2] (0 ~ 5) | 
+|<nobr>スケール</nobr>| [0] (-5 ~ 5) | 
+|<nobr>オリエンテーション</nobr>| (Y Up) | (Y Up), (Y Down), (X Up), (X Down), (Z Up), (Z Down), 
+|<nobr>オフセット</nobr>|| 
+|<nobr>(X)</nobr>| [0] (-2 ~ 2) | 
+|<nobr>(Y)</nobr>| [0] (-2 ~ 2) | 
+|<nobr>(Z)</nobr>| [0] (-2 ~ 2) | 
+|<nobr>回転</nobr>|| 
+|<nobr>(X)</nobr>| [0] (-180 ~ 180) | 
+|<nobr>(Y)</nobr>| [0] (-180 ~ 180) | 
+|<nobr>(Z)</nobr>| [0] (-180 ~ 180) | 
+|<nobr>ギターモード</nobr>| [OFF] | 
+|<nobr>**モーション**</nobr>| | Apply up / down motion to the attachment model
+|<nobr>├&nbsp;有効にする</nobr>| [OFF] | 
+|<nobr>├&nbsp;**スピード**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
+|<nobr>│&nbsp;├&nbsp;グループあたりの動き</nobr>| [8] (4 ~ 32) | 
+|<nobr>│&nbsp;├&nbsp;フェーズ</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;カーブ</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;可変速度</nobr>| [OFF] | 
+|<nobr>│&nbsp;├&nbsp;モード</nobr>| (Gradual) | (Gradual), ランダム, ボリューム, 
+|<nobr>│&nbsp;├&nbsp;最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
+|<nobr>│&nbsp;└&nbsp;最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
+|<nobr>├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
+|<nobr>└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
+|<nobr>アニメーション</nobr>| **なし** | なし, <br/>取り付けモデルに使用するローディングモーションを選択 |
+|<nobr>**表面**</nobr>| | 
+|<nobr>├&nbsp;グロス</nobr>| [0.9] (0 ~ 1) | 
+|<nobr>├&nbsp;金属的</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;バンプ</nobr>| [0.2] (0 ~ 1) | 
+|<nobr>├&nbsp;グロー</nobr>| [0] (0 ~ 10) | 
+|<nobr>├&nbsp;アンビエント</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;アルファ</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;クリップ</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;明度</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;赤</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;緑</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;青</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;ブレンドモード</nobr>| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
+|<nobr>│&nbsp;├&nbsp;ブレンド</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **白** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
+|<nobr>├&nbsp;**トゥーンシェーダー**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
+|<nobr>│&nbsp;├&nbsp;シェーディング</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;アウトライン</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;スペキュラー</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;ソフトスペキュラー</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;ハイライトエリア</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;ソフトハイライト</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;アンビエント</nobr>| [0.75] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;シャドウエリア</nobr>| [0.65] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;シャドウ</nobr>| [0.75] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;ソフトシャドウ</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
+|<nobr>├&nbsp;**特別シェーダー**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;モード</nobr>| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
+|<nobr>│&nbsp;├&nbsp;屈折</nobr>| [0.5] (1 ~ 3) | 
+|<nobr>│&nbsp;└&nbsp;厚さ</nobr>| [1] (0 ~ 1) | 
+|<nobr>└&nbsp;プリセット</nobr>| **クローム** | ホワイトグロス, レッドグロス, クローム, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |
+|<nobr>X線</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>アルファ</nobr>| [1] (0 ~ 1) | 
+|<nobr>手を引っ張る</nobr>| [0.1] (0 ~ 0.5) | 十分に近くにいるときに、取り付けに向かって手を引っ張る
+|<nobr>グラブポーズ</nobr>| [ON] | 取り付けにいるときに手のポーズを自動的にグラブに変更
+|<nobr>手の動き</nobr>| [0] (-1 ~ 1) | 取り付けモーションに対して手を移動

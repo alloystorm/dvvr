@@ -14,6 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 啟用 | OFF | 
-| 埠號 || 
-| 密碼 || 
+|<nobr>啟用</nobr>| [OFF] | 
+|<nobr>埠號</nobr>|| 
+|<nobr>密碼</nobr>|| 

@@ -14,4 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| ボーン構造をエクスポート || 
+|<nobr>ボーン構造をエクスポート</nobr>|| 

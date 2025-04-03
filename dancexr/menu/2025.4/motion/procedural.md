@@ -14,36 +14,36 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Actor Motion || 
-| [Idle] || 
-| ├&nbsp;Assign To All || 
-| ├&nbsp;Assign To Selected || 
-| ├&nbsp;Assign To All as 2nd || 
-| └&nbsp;Assign To Selected as 2nd || 
+|<nobr>Actor Motion</nobr>|| 
+|<nobr>[Idle]</nobr>|| 
+|<nobr>├&nbsp;Assign To All</nobr>|| 
+|<nobr>├&nbsp;Assign To Selected</nobr>|| 
+|<nobr>├&nbsp;Assign To All as 2nd</nobr>|| 
+|<nobr>└&nbsp;Assign To Selected as 2nd</nobr>|| 
 | [[Catwalk]](catwalk) |
 | [[Biped]](biped) |
 | [[Motion Builder]](motion_builder) |
 | [[Zero]](zero) |
-| [Player Control] || 
-| ├&nbsp;Assign To All || 
-| ├&nbsp;Assign To Selected || 
-| ├&nbsp;Assign To All as 2nd || 
-| └&nbsp;Assign To Selected as 2nd || 
+|<nobr>[Player Control]</nobr>|| 
+|<nobr>├&nbsp;Assign To All</nobr>|| 
+|<nobr>├&nbsp;Assign To Selected</nobr>|| 
+|<nobr>├&nbsp;Assign To All as 2nd</nobr>|| 
+|<nobr>└&nbsp;Assign To Selected as 2nd</nobr>|| 
 | [[Auto Dance 1]](auto_dance_1) |
 | [[Auto Dance 2]](auto_dance_2) |
-| [Auto Dance 3] || 
-| ├&nbsp;Assign To All || 
-| ├&nbsp;Assign To Selected || 
-| ├&nbsp;Assign To All as 2nd || 
-| └&nbsp;Assign To Selected as 2nd || 
+|<nobr>[Auto Dance 3]</nobr>|| 
+|<nobr>├&nbsp;Assign To All</nobr>|| 
+|<nobr>├&nbsp;Assign To Selected</nobr>|| 
+|<nobr>├&nbsp;Assign To All as 2nd</nobr>|| 
+|<nobr>└&nbsp;Assign To Selected as 2nd</nobr>|| 
 | [[Cowgirl Sex]](cowgirl_sex) |
 | [[Sex From Behind]](sex_from_behind) |
-| [Sex Motion 3] || 
-| ├&nbsp;Assign To All || 
-| ├&nbsp;Assign To Selected || 
-| ├&nbsp;Assign To All as 2nd || 
-| └&nbsp;Assign To Selected as 2nd || 
-| Camera Motion || 
+|<nobr>[Sex Motion 3]</nobr>|| 
+|<nobr>├&nbsp;Assign To All</nobr>|| 
+|<nobr>├&nbsp;Assign To Selected</nobr>|| 
+|<nobr>├&nbsp;Assign To All as 2nd</nobr>|| 
+|<nobr>└&nbsp;Assign To Selected as 2nd</nobr>|| 
+|<nobr>Camera Motion</nobr>|| 
 | [[Freefly Cam]](freefly_cam) |
 | [[Orbit Cam]](orbit_cam) |
 | [[Auto Cam]](auto_cam) |

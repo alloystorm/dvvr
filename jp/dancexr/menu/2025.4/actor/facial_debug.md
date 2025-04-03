@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 口 || 
-| リップシンクを使用 | OFF | 
-| 眉毛 || 
-| まぶた || 
+|<nobr>口</nobr>|| 
+|<nobr>リップシンクを使用</nobr>| [OFF] | 
+|<nobr>眉毛</nobr>|| 
+|<nobr>まぶた</nobr>|| 

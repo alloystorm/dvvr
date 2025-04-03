@@ -14,13 +14,13 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| ボーンをリセット | ON | 
-| アニメーション | ON | 
-| オフセット | ON | 
-| IK | ON | 
-| バーチャルボーン | ON | 
-| モーフ後の更新 | ON | 
-| ボーンの継承 | ON | 
-| ポストトランスフォーム | ON | 
-| ポストIK | ON | 
-| 最終更新 | ON | 
+|<nobr>ボーンをリセット</nobr>| [ON] | 
+|<nobr>アニメーション</nobr>| [ON] | 
+|<nobr>オフセット</nobr>| [ON] | 
+|<nobr>IK</nobr>| [ON] | 
+|<nobr>バーチャルボーン</nobr>| [ON] | 
+|<nobr>モーフ後の更新</nobr>| [ON] | 
+|<nobr>ボーンの継承</nobr>| [ON] | 
+|<nobr>ポストトランスフォーム</nobr>| [ON] | 
+|<nobr>ポストIK</nobr>| [ON] | 
+|<nobr>最終更新</nobr>| [ON] | 

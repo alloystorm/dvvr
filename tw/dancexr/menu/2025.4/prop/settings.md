@@ -14,18 +14,18 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 縮放 | [0] (-2 ~ 2) | 
-| 偏移X | [0] ((Unlimited)) | 
-| 偏移 Y | [0] ((Unlimited)) | 
-| 偏移Z | [0] ((Unlimited)) | 
-| 旋轉 X | [0] (-180 ~ 180) | 
-| 旋轉 Y | [0] (-180 ~ 180) | 
-| 旋轉 Z | [0] (-180 ~ 180) | 
-| 物理 | OFF | 
-| 靜止 | OFF | 
-| 重力 | ON | 
-| 形狀 | 盒子 | 球體, 膠囊, 盒子, 
-| 質量 | [1] (0 ~ 10) | 
-| 拖曳 | [0] (0 ~ 1) | 
-| 摩擦 | [0.5] (0 ~ 1) | 
-| 彈性 | [0.5] (0 ~ 1) | 
+|<nobr>縮放</nobr>| [0] (-2 ~ 2) | 
+|<nobr>偏移X</nobr>| [0] ((Unlimited)) | 
+|<nobr>偏移 Y</nobr>| [0] ((Unlimited)) | 
+|<nobr>偏移Z</nobr>| [0] ((Unlimited)) | 
+|<nobr>旋轉 X</nobr>| [0] (-180 ~ 180) | 
+|<nobr>旋轉 Y</nobr>| [0] (-180 ~ 180) | 
+|<nobr>旋轉 Z</nobr>| [0] (-180 ~ 180) | 
+|<nobr>物理</nobr>| [OFF] | 
+|<nobr>靜止</nobr>| [OFF] | 
+|<nobr>重力</nobr>| [ON] | 
+|<nobr>形狀</nobr>| 盒子 | 球體, 膠囊, 盒子, 
+|<nobr>質量</nobr>| [1] (0 ~ 10) | 
+|<nobr>拖曳</nobr>| [0] (0 ~ 1) | 
+|<nobr>摩擦</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>彈性</nobr>| [0.5] (0 ~ 1) | 

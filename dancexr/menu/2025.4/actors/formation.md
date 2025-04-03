@@ -14,23 +14,22 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Formation || 
-| V Shape || 
-| Line || 
-| A Shape || 
-| Circle || 
-| Zero || 
-| Fan Shape || 
-| X Dist | [1] (-10 ~ 10) | 
-| Y Dist | [1] (-2 ~ 2) | 
-| Rotation | [0] (-180 ~ 180) | 
-| Orientation | [0] (-180 ~ 180) | 
-| Use Spectator Formation | ON | 
-| Spectator Dist | [2] (0.25 ~ 5) | 
-| Rotate Spectators | ON | 
-| Offset X | [0] (-5 ~ 5) | 
-| Offset Y | [0] (-5 ~ 5) | 
-| Reset Actors || 
-| Random Props Position | ON | 
-| Presets: Default (Reset) || 
-| Presets | **Default (Reset)** | Default (Reset),  |
+|<nobr>Formation</nobr>|| 
+|<nobr>V Shape</nobr>|| 
+|<nobr>Line</nobr>|| 
+|<nobr>A Shape</nobr>|| 
+|<nobr>Circle</nobr>|| 
+|<nobr>Zero</nobr>|| 
+|<nobr>Fan Shape</nobr>|| 
+|<nobr>X Dist</nobr>| [1] (-10 ~ 10) | 
+|<nobr>Y Dist</nobr>| [1] (-2 ~ 2) | 
+|<nobr>Rotation</nobr>| [0] (-180 ~ 180) | 
+|<nobr>Orientation</nobr>| [0] (-180 ~ 180) | 
+|<nobr>Use Spectator Formation</nobr>| [ON] | 
+|<nobr>Spectator Dist</nobr>| [2] (0.25 ~ 5) | 
+|<nobr>Rotate Spectators</nobr>| [ON] | 
+|<nobr>Offset X</nobr>| [0] (-5 ~ 5) | 
+|<nobr>Offset Y</nobr>| [0] (-5 ~ 5) | 
+|<nobr>Reset Actors</nobr>|| 
+|<nobr>Random Props Position</nobr>| [ON] | 
+|<nobr>Presets</nobr>| **Default (Reset)** | Default (Reset),  |

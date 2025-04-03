@@ -14,18 +14,18 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 缩放 | [0] (-2 ~ 2) | 
-| X轴偏移 | [0] ((Unlimited)) | 
-| Y轴偏移 | [0] ((Unlimited)) | 
-| Z轴偏移 | [0] ((Unlimited)) | 
-| 旋转 X | [0] (-180 ~ 180) | 
-| 旋转 Y | [0] (-180 ~ 180) | 
-| 旋转 Z | [0] (-180 ~ 180) | 
-| 物理 | OFF | 
-| 静止 | OFF | 
-| 重力 | ON | 
-| 形状 | 箱子 | 球体, 胶囊, 箱子, 
-| 质量 | [1] (0 ~ 10) | 
-| 拖拽 | [0] (0 ~ 1) | 
-| 摩擦力 | [0.5] (0 ~ 1) | 
-| 弹性 | [0.5] (0 ~ 1) | 
+|<nobr>缩放</nobr>| [0] (-2 ~ 2) | 
+|<nobr>X轴偏移</nobr>| [0] ((Unlimited)) | 
+|<nobr>Y轴偏移</nobr>| [0] ((Unlimited)) | 
+|<nobr>Z轴偏移</nobr>| [0] ((Unlimited)) | 
+|<nobr>旋转 X</nobr>| [0] (-180 ~ 180) | 
+|<nobr>旋转 Y</nobr>| [0] (-180 ~ 180) | 
+|<nobr>旋转 Z</nobr>| [0] (-180 ~ 180) | 
+|<nobr>物理</nobr>| [OFF] | 
+|<nobr>静止</nobr>| [OFF] | 
+|<nobr>重力</nobr>| [ON] | 
+|<nobr>形状</nobr>| 箱子 | 球体, 胶囊, 箱子, 
+|<nobr>质量</nobr>| [1] (0 ~ 10) | 
+|<nobr>拖拽</nobr>| [0] (0 ~ 1) | 
+|<nobr>摩擦力</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>弹性</nobr>| [0.5] (0 ~ 1) | 

@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| コンテンツを更新 || 
-| 設定を移行 || 
-| 重複を削除 || 
-| ライブラリを切り替え || 
-| エクスプローラーで表示 || 
-| Google ドライブ || 
-| Google ドライブのリンク || 
+|<nobr>コンテンツを更新</nobr>|| 
+|<nobr>設定を移行</nobr>|| 
+|<nobr>重複を削除</nobr>|| 
+|<nobr>ライブラリを切り替え</nobr>|| 
+|<nobr>エクスプローラーで表示</nobr>|| 
+|<nobr>Google ドライブ</nobr>|| 
+|<nobr>Google ドライブのリンク</nobr>|| 

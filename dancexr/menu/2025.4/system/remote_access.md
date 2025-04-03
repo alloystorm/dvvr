@@ -14,6 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable | OFF | 
-| Port Number || 
-| Password || 
+|<nobr>Enable</nobr>| [OFF] | 
+|<nobr>Port Number</nobr>|| 
+|<nobr>Password</nobr>|| 

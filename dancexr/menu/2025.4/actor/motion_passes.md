@@ -14,13 +14,13 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Reset Bones | ON | 
-| Animation | ON | 
-| Offset | ON | 
-| IK | ON | 
-| Virtual Bones | ON | 
-| Morph Post Update | ON | 
-| Inherit Bones | ON | 
-| Post Transform | ON | 
-| Post IK | ON | 
-| Final Update | ON | 
+|<nobr>Reset Bones</nobr>| [ON] | 
+|<nobr>Animation</nobr>| [ON] | 
+|<nobr>Offset</nobr>| [ON] | 
+|<nobr>IK</nobr>| [ON] | 
+|<nobr>Virtual Bones</nobr>| [ON] | 
+|<nobr>Morph Post Update</nobr>| [ON] | 
+|<nobr>Inherit Bones</nobr>| [ON] | 
+|<nobr>Post Transform</nobr>| [ON] | 
+|<nobr>Post IK</nobr>| [ON] | 
+|<nobr>Final Update</nobr>| [ON] | 

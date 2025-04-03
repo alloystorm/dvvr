@@ -14,31 +14,29 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Cache Size | [10] (0 ~ 20) | How many actor models to keep in cache
-| Force Refresh Materials | OFF | 
-| Retain Options | OFF | Automatically applies the settings from the outgoing actor to the incoming actor when replacing actors.
-| Compress Textures | OFF | Compress textures to reduce VRAM use
-| Transition Effect || 
-| Presets: Default (Reset) || 
-| Presets | **Default (Reset)** | Default (Reset),  |
-| Direction | Down | Down, Up, <br/>The direction of the animation.
-| V Shape | [1] (0 ~ 5) | Controls the angle of the edge, 0 is flat.
-| Transition Mode | Cells | Cells, Mosaic, Noise, 
-| Scale | [0] (-3 ~ 3) | Scale of the pattern.
-| Width | [0.1] (0 ~ 1) | The size of the transition area.
-| **Color** | | 
-| ├&nbsp;Color Mode | RGB | RGB, HSV, 
-| ├&nbsp;Hue | [0.1666667] (0 ~ 1) | 
-| ├&nbsp;Satuation | [1] (0 ~ 1) | 
-| ├&nbsp;Brightness | [0.9] (0 ~ 1) | 
-| ├&nbsp;Red | [0.9] (0 ~ 1) | 
-| ├&nbsp;Green | [0.9] (0 ~ 1) | 
-| ├&nbsp;Blue | [0] (0 ~ 1) | 
-| └&nbsp;Presets: Yellow || 
-| &nbsp;&nbsp;Presets | **Yellow** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
-| Glow | [1] (0 ~ 10) | Brightness of the burn effect.
-| Blend | [1] (0 ~ 1) | Blend between the original color and the burn color. 
-| Duration | [2] (0 ~ 5) | The duration of the animation.
-| Particle Effect | [2] (0 ~ 10) | Controls the amount of particles.
-| Particle Duration | [2.5] (0 ~ 5) | Controls the lifetime of the particles.
-| Auto Actor Change | [0] (0 ~ 1) | Automatically switch between actors in the cache based on the value
+|<nobr>Cache Size</nobr>| [10] (0 ~ 20) | How many actor models to keep in cache
+|<nobr>Force Refresh Materials</nobr>| [OFF] | 
+|<nobr>Retain Options</nobr>| [OFF] | Automatically applies the settings from the outgoing actor to the incoming actor when replacing actors.
+|<nobr>Compress Textures</nobr>| [OFF] | Compress textures to reduce VRAM use
+|<nobr>Transition Effect</nobr>|| 
+|<nobr>Presets</nobr>| **Default (Reset)** | Default (Reset),  |
+|<nobr>Direction</nobr>| Down | Down, Up, <br/>The direction of the animation.
+|<nobr>V Shape</nobr>| [1] (0 ~ 5) | Controls the angle of the edge, 0 is flat.
+|<nobr>Transition Mode</nobr>| Cells | Cells, Mosaic, Noise, 
+|<nobr>Scale</nobr>| [0] (-3 ~ 3) | Scale of the pattern.
+|<nobr>Width</nobr>| [0.1] (0 ~ 1) | The size of the transition area.
+|<nobr>**Color**</nobr>| | 
+|<nobr>├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
+|<nobr>├&nbsp;Hue</nobr>| [0.1666667] (0 ~ 1) | 
+|<nobr>├&nbsp;Satuation</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;Brightness</nobr>| [0.9] (0 ~ 1) | 
+|<nobr>├&nbsp;Red</nobr>| [0.9] (0 ~ 1) | 
+|<nobr>├&nbsp;Green</nobr>| [0.9] (0 ~ 1) | 
+|<nobr>├&nbsp;Blue</nobr>| [0] (0 ~ 1) | 
+|<nobr>└&nbsp;Presets</nobr>| **Yellow** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
+|<nobr>Glow</nobr>| [1] (0 ~ 10) | Brightness of the burn effect.
+|<nobr>Blend</nobr>| [1] (0 ~ 1) | Blend between the original color and the burn color. 
+|<nobr>Duration</nobr>| [2] (0 ~ 5) | The duration of the animation.
+|<nobr>Particle Effect</nobr>| [2] (0 ~ 10) | Controls the amount of particles.
+|<nobr>Particle Duration</nobr>| [2.5] (0 ~ 5) | Controls the lifetime of the particles.
+|<nobr>Auto Actor Change</nobr>| [0] (0 ~ 1) | Automatically switch between actors in the cache based on the value

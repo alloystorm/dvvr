@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Height Offset | [0] (-5 ~ 5) | 
-| FOV Scale | [1] (0.25 ~ 2) | 
-| Portrait Mode Zoom | [1.2] (1 ~ 2) | 
-| Rotation Filter | Full Rotation | No Rotation, Direction Only, Full Rotation, 
-| Near Clip | [0.01] (0 ~ 0.5) | 
-| Reset When Motion Change | ON | 
-| Reset Offset || 
+|<nobr>Height Offset</nobr>| [0] (-5 ~ 5) | 
+|<nobr>FOV Scale</nobr>| [1] (0.25 ~ 2) | 
+|<nobr>Portrait Mode Zoom</nobr>| [1.2] (1 ~ 2) | 
+|<nobr>Rotation Filter</nobr>| Full Rotation | No Rotation, Direction Only, Full Rotation, 
+|<nobr>Near Clip</nobr>| [0.01] (0 ~ 0.5) | 
+|<nobr>Reset When Motion Change</nobr>| [ON] | 
+|<nobr>Reset Offset</nobr>|| 

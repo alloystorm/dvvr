@@ -14,21 +14,21 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Eye Contact | ON | Enable eye contact, look at and turn head towards camera or other models when they are in visual range
-| Stare Mode | OFF | Constantly looking at the closest target in range.
-| Look At Camera | [1] (0 ~ 1) | Priority of cameras as gaze target
-| Look At Peers | [0.5] (0 ~ 1) | Priority of other models as gaze target
-| Look At Body | [0.5] (0 ~ 1) | Priority of certain body parts as gaze target
-| Eye Contact Angle | [80] (0 ~ 180) | Angle of visual range, only objects within this angle can be gaze target
-| Eye Contact Head Turn | [0.7] (0 ~ 1) | Ratio of head turn when looking at target
-| Cartoon Eyes | ON | Reduce eye rotation, useful for models with big cartoon eyes
-| Cartoon Eyes Limit | [0.4] (0 ~ 1) | How much rotation reduction in cartoon eyes mode
-| Smile Mouth | [1] (0 ~ 1) | 
-| Smile Eyebrow | [0.5] (0 ~ 1) | 
-| Random Target | ON | 
-| Blink | ON | Automatically blink eyes at random interval
-| Breathing | ON | Breathing motion
-| Breath Rate | [0.3] (0 ~ 1) | 
-| Micro Move | OFF | Add micro movements
-| Micro Move Extent | [0.25] (0 ~ 1) | 
-| Micro Move Cycle | [3] (1 ~ 10) | 
+|<nobr>Eye Contact</nobr>| [ON] | Enable eye contact, look at and turn head towards camera or other models when they are in visual range
+|<nobr>Stare Mode</nobr>| [OFF] | Constantly looking at the closest target in range.
+|<nobr>Look At Camera</nobr>| [1] (0 ~ 1) | Priority of cameras as gaze target
+|<nobr>Look At Peers</nobr>| [0.5] (0 ~ 1) | Priority of other models as gaze target
+|<nobr>Look At Body</nobr>| [0.5] (0 ~ 1) | Priority of certain body parts as gaze target
+|<nobr>Eye Contact Angle</nobr>| [80] (0 ~ 180) | Angle of visual range, only objects within this angle can be gaze target
+|<nobr>Eye Contact Head Turn</nobr>| [0.7] (0 ~ 1) | Ratio of head turn when looking at target
+|<nobr>Cartoon Eyes</nobr>| [ON] | Reduce eye rotation, useful for models with big cartoon eyes
+|<nobr>Cartoon Eyes Limit</nobr>| [0.4] (0 ~ 1) | How much rotation reduction in cartoon eyes mode
+|<nobr>Smile Mouth</nobr>| [1] (0 ~ 1) | 
+|<nobr>Smile Eyebrow</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>Random Target</nobr>| [ON] | 
+|<nobr>Blink</nobr>| [ON] | Automatically blink eyes at random interval
+|<nobr>Breathing</nobr>| [ON] | Breathing motion
+|<nobr>Breath Rate</nobr>| [0.3] (0 ~ 1) | 
+|<nobr>Micro Move</nobr>| [OFF] | Add micro movements
+|<nobr>Micro Move Extent</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>Micro Move Cycle</nobr>| [3] (1 ~ 10) | 

@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 刷新內容 || 
-| 遷移設定 || 
-| 刪除重複項 || 
-| 切換庫 || 
-| 在資源管理器中顯示 || 
-| Google 雲端硬碟 || 
-| 連結 Google 雲端硬碟 || 
+|<nobr>刷新內容</nobr>|| 
+|<nobr>遷移設定</nobr>|| 
+|<nobr>刪除重複項</nobr>|| 
+|<nobr>切換庫</nobr>|| 
+|<nobr>在資源管理器中顯示</nobr>|| 
+|<nobr>Google 雲端硬碟</nobr>|| 
+|<nobr>連結 Google 雲端硬碟</nobr>|| 

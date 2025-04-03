@@ -14,12 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Select Service: OpenAI (ChatGPT)) || 
-| サービスを選択 | **OpenAI (ChatGPT)** | OpenAI (ChatGPT), ローカルWebUI, リモートWebUI, (Ollama),  |
-| OpenAI APIキー || 
-| (GPT Model: gpt-3.5-turbo) || 
-| GPTモデル | **(gpt-3.5-turbo)** | (gpt-3.5-turbo), (gpt-4), (gpt-4-turbo), (gpt-4o),  |
-| ローカルWebUI URL || 
-| リモートWebUI URL || 
-| Ollama URL || 
-| Ollamaモデル || 
+|<nobr>サービスを選択</nobr>| **OpenAI (ChatGPT)** | OpenAI (ChatGPT), ローカルWebUI, リモートWebUI, (Ollama),  |
+|<nobr>OpenAI APIキー</nobr>|| 
+|<nobr>GPTモデル</nobr>| **(gpt-3.5-turbo)** | (gpt-3.5-turbo), (gpt-4), (gpt-4-turbo), (gpt-4o),  |
+|<nobr>ローカルWebUI URL</nobr>|| 
+|<nobr>リモートWebUI URL</nobr>|| 
+|<nobr>Ollama URL</nobr>|| 
+|<nobr>Ollamaモデル</nobr>|| 

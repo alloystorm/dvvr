@@ -14,63 +14,61 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 활성화 | ON | 
-| 뼈 선택 || 본 선택
-| 첫 X 본 건너뛰기 | [0] (0 ~ 5) | 첫 X 개 레벨에 대해 물리 연결을 생성하지 않음
-| **입자 동역학** | | 
-| ├&nbsp;활성화 | ON | 
-| ├&nbsp;스윙 순응도 | [0.25] (0 ~ 1) | 
-| ├&nbsp;트위스트 순응도 | [0.75] (0 ~ 1) | 
-| ├&nbsp;입자 앵커 | [0.5] (0 ~ 1) | 
-| ├&nbsp;감소 비율 | [0] (0 ~ 1) | 각 레벨에서 질량 감소
-| ├&nbsp;시각화 | OFF | 
-| ├&nbsp;최대 각속도 | [2] (0 ~ 4) | 
-| ├&nbsp;관성 | [2] (1 ~ 5) | 
-| ├&nbsp;부드럽게 만들기 | [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
-| ├&nbsp;입자 반경 | [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
-| ├&nbsp;중력 | [9.8] (-9.8 ~ 9.8) | 
-| ├&nbsp;마찰 | [1] (0 ~ 2) | 
-| ├&nbsp;지면 마찰 | [1] (-2 ~ 2) | 
-| ├&nbsp;항력 (공기) | [0] (0 ~ 2) | 공기 저항
-| ├&nbsp;항력 (수중) | [1] (0 ~ 2) | 수중 저항
-| ├&nbsp;부력 | [-0.1] (-1 ~ 1) | 
-| ├&nbsp;**바람** | | 
-| │&nbsp;├&nbsp;바람 영향 | [0.25] (0 ~ 1) | 
-| │&nbsp;├&nbsp;난류 스케일 | [0] (-2 ~ 2) | 
-| │&nbsp;├&nbsp;난류 강도 | [1] (0 ~ 2) | 
-| │&nbsp;└&nbsp;난류 시간 스케일 | [0] (-4 ~ 4) | 
-| ├&nbsp;**충돌하기** | | 
-| │&nbsp;├&nbsp;머리 | ON | 
-| │&nbsp;├&nbsp;몸체 | ON | 
-| │&nbsp;├&nbsp;가슴 | ON | 
-| │&nbsp;├&nbsp;엉덩이 | ON | 
-| │&nbsp;├&nbsp;(Arms) | ON | 
-| │&nbsp;├&nbsp;손 | ON | 
-| │&nbsp;├&nbsp;다리 | ON | 
-| │&nbsp;├&nbsp;발 | ON | 
-| │&nbsp;└&nbsp;플레이어 | ON | 
-| └&nbsp;**시뮬레이션 설정** | | 
-| &nbsp;&nbsp;├&nbsp;전역 사용 | ON | Pro / Cloth Simulation 아래에서 전역 설정 찾기
-| &nbsp;&nbsp;├&nbsp;드래그 활성화 | ON | 
-| &nbsp;&nbsp;├&nbsp;시뮬레이트 | ON | 
-| &nbsp;&nbsp;├&nbsp;(Simulation FPS: Dynamic) || 
-| &nbsp;&nbsp;│&nbsp;시뮬레이션 FPS | **동적** | 동적, 고정 30, 고정 60, 고정 90, 고정 100, 고정 120, 고정 160, 고정 175, 고정 240,  |
-| &nbsp;&nbsp;├&nbsp;시간 스케일 | [0.65] (0.1 ~ 1) | 
-| &nbsp;&nbsp;├&nbsp;서브스텝 | [4] (1 ~ 20) | 
-| &nbsp;&nbsp;├&nbsp;반복 | [1] (0 ~ 10) | 
-| &nbsp;&nbsp;├&nbsp;짝수 서브스텝 역전 | OFF | 
-| &nbsp;&nbsp;├&nbsp;대체 그룹 크기 | [0] (0 ~ 20) | 
-| &nbsp;&nbsp;├&nbsp;테이블 크기 | [6] (1 ~ 20) | 
-| &nbsp;&nbsp;└&nbsp;2단계 해결 | OFF | 
-| 스프링 | [0.5] (0 ~ 5) | 
-| 감쇠 | [0.01] (0 ~ 0.1) | 
-| 감소 비율 | [0.25] (0 ~ 1) | 각 레벨에서 강성 감소
-| 비틀림 한계 | [5] (0 ~ 180) | 비틀림 회전 한계
-| 한계 힘 | [3] (0 ~ 8) | 
-| 질량 | [0.05] (0 ~ 0.1) | 
-| 드래그 | [1] (0 ~ 10) | 
-| 콜라이더 반지름 | [0.01] (0 ~ 0.05) | 충돌 해결 시 사용되는 입자의 크기
-| 콜라이더 길이 | [0.9] (0 ~ 1) | 
-| 앵커 위치 | [0] (0 ~ 1) | 조인트 생성 시 앵커 위치 선택. 0 = 부모 본에 앵커, 1 = 자식 본에 앵커
-| (Presets: Default (Reset)) || 
-| 프리셋 | **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2),  |
+|<nobr>활성화</nobr>| [ON] | 
+|<nobr>뼈 선택</nobr>|| 본 선택
+|<nobr>첫 X 본 건너뛰기</nobr>| [0] (0 ~ 5) | 첫 X 개 레벨에 대해 물리 연결을 생성하지 않음
+|<nobr>**입자 동역학**</nobr>| | 
+|<nobr>├&nbsp;활성화</nobr>| [ON] | 
+|<nobr>├&nbsp;스윙 순응도</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>├&nbsp;트위스트 순응도</nobr>| [0.75] (0 ~ 1) | 
+|<nobr>├&nbsp;입자 앵커</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>├&nbsp;감소 비율</nobr>| [0] (0 ~ 1) | 각 레벨에서 질량 감소
+|<nobr>├&nbsp;시각화</nobr>| [OFF] | 
+|<nobr>├&nbsp;최대 각속도</nobr>| [2] (0 ~ 4) | 
+|<nobr>├&nbsp;관성</nobr>| [2] (1 ~ 5) | 
+|<nobr>├&nbsp;부드럽게 만들기</nobr>| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
+|<nobr>├&nbsp;입자 반경</nobr>| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
+|<nobr>├&nbsp;중력</nobr>| [9.8] (-9.8 ~ 9.8) | 
+|<nobr>├&nbsp;마찰</nobr>| [1] (0 ~ 2) | 
+|<nobr>├&nbsp;지면 마찰</nobr>| [1] (-2 ~ 2) | 
+|<nobr>├&nbsp;항력 (공기)</nobr>| [0] (0 ~ 2) | 공기 저항
+|<nobr>├&nbsp;항력 (수중)</nobr>| [1] (0 ~ 2) | 수중 저항
+|<nobr>├&nbsp;부력</nobr>| [-0.1] (-1 ~ 1) | 
+|<nobr>├&nbsp;**바람**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;바람 영향</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;난류 스케일</nobr>| [0] (-2 ~ 2) | 
+|<nobr>│&nbsp;├&nbsp;난류 강도</nobr>| [1] (0 ~ 2) | 
+|<nobr>│&nbsp;└&nbsp;난류 시간 스케일</nobr>| [0] (-4 ~ 4) | 
+|<nobr>├&nbsp;**충돌하기**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;머리</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;몸체</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;가슴</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;엉덩이</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;(Arms)</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;손</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;다리</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;발</nobr>| [ON] | 
+|<nobr>│&nbsp;└&nbsp;플레이어</nobr>| [ON] | 
+|<nobr>└&nbsp;**시뮬레이션 설정**</nobr>| | 
+|<nobr>&nbsp;&nbsp;├&nbsp;전역 사용</nobr>| [ON] | Pro / Cloth Simulation 아래에서 전역 설정 찾기
+|<nobr>&nbsp;&nbsp;├&nbsp;드래그 활성화</nobr>| [ON] | 
+|<nobr>&nbsp;&nbsp;├&nbsp;시뮬레이트</nobr>| [ON] | 
+|<nobr>&nbsp;&nbsp;├&nbsp;시뮬레이션 FPS</nobr>| **동적** | 동적, 고정 30, 고정 60, 고정 90, 고정 100, 고정 120, 고정 160, 고정 175, 고정 240,  |
+|<nobr>&nbsp;&nbsp;├&nbsp;시간 스케일</nobr>| [0.65] (0.1 ~ 1) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;서브스텝</nobr>| [4] (1 ~ 20) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;반복</nobr>| [1] (0 ~ 10) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;짝수 서브스텝 역전</nobr>| [OFF] | 
+|<nobr>&nbsp;&nbsp;├&nbsp;대체 그룹 크기</nobr>| [0] (0 ~ 20) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;테이블 크기</nobr>| [6] (1 ~ 20) | 
+|<nobr>&nbsp;&nbsp;└&nbsp;2단계 해결</nobr>| [OFF] | 
+|<nobr>스프링</nobr>| [0.5] (0 ~ 5) | 
+|<nobr>감쇠</nobr>| [0.01] (0 ~ 0.1) | 
+|<nobr>감소 비율</nobr>| [0.25] (0 ~ 1) | 각 레벨에서 강성 감소
+|<nobr>비틀림 한계</nobr>| [5] (0 ~ 180) | 비틀림 회전 한계
+|<nobr>한계 힘</nobr>| [3] (0 ~ 8) | 
+|<nobr>질량</nobr>| [0.05] (0 ~ 0.1) | 
+|<nobr>드래그</nobr>| [1] (0 ~ 10) | 
+|<nobr>콜라이더 반지름</nobr>| [0.01] (0 ~ 0.05) | 충돌 해결 시 사용되는 입자의 크기
+|<nobr>콜라이더 길이</nobr>| [0.9] (0 ~ 1) | 
+|<nobr>앵커 위치</nobr>| [0] (0 ~ 1) | 조인트 생성 시 앵커 위치 선택. 0 = 부모 본에 앵커, 1 = 자식 본에 앵커
+|<nobr>프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2),  |

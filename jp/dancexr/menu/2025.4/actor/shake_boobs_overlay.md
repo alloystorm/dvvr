@@ -14,9 +14,9 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 有効にする | OFF | 
-| 強度 | [1] (0 ~ 2) | 
-| スピード | [0] (-2 ~ 2) | 
-| モーションパターン | [1] (-1 ~ 1) | 水平、垂直、または両方の動きを選択（0に設定）
-| 時間パターン | (Pulse) | (Constant), (Pulse), (Gradual), 
-| (Abs Mode) | OFF | 中立位置でバウンスバック
+|<nobr>有効にする</nobr>| [OFF] | 
+|<nobr>強度</nobr>| [1] (0 ~ 2) | 
+|<nobr>スピード</nobr>| [0] (-2 ~ 2) | 
+|<nobr>モーションパターン</nobr>| [1] (-1 ~ 1) | 水平、垂直、または両方の動きを選択（0に設定）
+|<nobr>時間パターン</nobr>| (Pulse) | (Constant), (Pulse), (Gradual), 
+|<nobr>(Abs Mode)</nobr>| [OFF] | 中立位置でバウンスバック

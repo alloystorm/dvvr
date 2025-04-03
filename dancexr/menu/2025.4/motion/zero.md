@@ -14,16 +14,16 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Assign To All || 
-| Assign To Selected || 
-| Assign To All as 2nd || 
-| Assign To Selected as 2nd || 
-| Spin | [0] (-1 ~ 1) | 
-| Offset | [0] (0 ~ 2) | 
-| Leg | [0] (-35 ~ 115) | 
-| Knee | [0] (-11 ~ 155) | 
-| Arm | [0] (-40 ~ 90) | 
-| Elbow | [0] (-20 ~ 135) | 
-| Pelvis | [0] (-25 ~ 25) | 
-| Abdomen | [0] (-20 ~ 36) | 
-| Chest | [0] (-25 ~ 36) | 
+|<nobr>Assign To All</nobr>|| 
+|<nobr>Assign To Selected</nobr>|| 
+|<nobr>Assign To All as 2nd</nobr>|| 
+|<nobr>Assign To Selected as 2nd</nobr>|| 
+|<nobr>Spin</nobr>| [0] (-1 ~ 1) | 
+|<nobr>Offset</nobr>| [0] (0 ~ 2) | 
+|<nobr>Leg</nobr>| [0] (-35 ~ 115) | 
+|<nobr>Knee</nobr>| [0] (-11 ~ 155) | 
+|<nobr>Arm</nobr>| [0] (-40 ~ 90) | 
+|<nobr>Elbow</nobr>| [0] (-20 ~ 135) | 
+|<nobr>Pelvis</nobr>| [0] (-25 ~ 25) | 
+|<nobr>Abdomen</nobr>| [0] (-20 ~ 36) | 
+|<nobr>Chest</nobr>| [0] (-25 ~ 36) | 

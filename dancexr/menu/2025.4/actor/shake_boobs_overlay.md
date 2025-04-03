@@ -14,9 +14,9 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable | OFF | 
-| Intensity | [1] (0 ~ 2) | 
-| Speed | [0] (-2 ~ 2) | 
-| Motion Pattern | [1] (-1 ~ 1) | Choose horizontal, vertial or both (set to 0) motion
-| Time Pattern | Pulse | Constant, Pulse, Gradual, 
-| Abs Mode | OFF | Bounce back at neutral position
+|<nobr>Enable</nobr>| [OFF] | 
+|<nobr>Intensity</nobr>| [1] (0 ~ 2) | 
+|<nobr>Speed</nobr>| [0] (-2 ~ 2) | 
+|<nobr>Motion Pattern</nobr>| [1] (-1 ~ 1) | Choose horizontal, vertial or both (set to 0) motion
+|<nobr>Time Pattern</nobr>| Pulse | Constant, Pulse, Gradual, 
+|<nobr>Abs Mode</nobr>| [OFF] | Bounce back at neutral position

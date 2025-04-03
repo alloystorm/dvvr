@@ -14,12 +14,12 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 위치 || 
-| (X) | [0] ((Unlimited)) | 
-| (Y) | [0] ((Unlimited)) | 
-| (Z) | [0] ((Unlimited)) | 
-| 회전 || 
-| (X) | [0] ((Unlimited)) | 
-| (Y) | [0] ((Unlimited)) | 
-| (Z) | [0] ((Unlimited)) | 
-| 스케일 | [1] (0.2 ~ 2) | 
+|<nobr>위치</nobr>|| 
+|<nobr>(X)</nobr>| [0] ((Unlimited)) | 
+|<nobr>(Y)</nobr>| [0] ((Unlimited)) | 
+|<nobr>(Z)</nobr>| [0] ((Unlimited)) | 
+|<nobr>회전</nobr>|| 
+|<nobr>(X)</nobr>| [0] ((Unlimited)) | 
+|<nobr>(Y)</nobr>| [0] ((Unlimited)) | 
+|<nobr>(Z)</nobr>| [0] ((Unlimited)) | 
+|<nobr>스케일</nobr>| [1] (0.2 ~ 2) | 

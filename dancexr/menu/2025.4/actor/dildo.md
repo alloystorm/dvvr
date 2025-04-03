@@ -14,91 +14,84 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Dildo | OFF | 
-| Model: [Pole] || 
-| Model | **[Pole]** | [Pole],  |
-| **Anchor Offset** | | Set the anchor position for the attachment to attach to
-| ├&nbsp;Position || 
-| ├&nbsp;X | [0] (-1 ~ 1) | 
-| ├&nbsp;Y | [0] (-1 ~ 1) | 
-| ├&nbsp;Z | [0] (-1 ~ 1) | 
-| ├&nbsp;Rotation || 
-| ├&nbsp;X | [0] (-90 ~ 90) | 
-| ├&nbsp;Y | [0] (-90 ~ 90) | 
-| └&nbsp;Z | [0] (-90 ~ 90) | 
-| Size & Alignment || 
-| Object Radius | [0.02] (0.01 ~ 0.05) | 
-| Object Length | [0.2] (0 ~ 5) | 
-| Scale | [0] (-5 ~ 5) | 
-| Orientation | Y Up | Y Up, Y Down, X Up, X Down, Z Up, Z Down, 
-| Offset || 
-| X | [0] (-2 ~ 2) | 
-| Y | [0] (-2 ~ 2) | 
-| Z | [0] (-2 ~ 2) | 
-| Rotation || 
-| X | [0] (-180 ~ 180) | 
-| Y | [0] (-180 ~ 180) | 
-| Z | [0] (-180 ~ 180) | 
-| Guitar Mode | OFF | 
-| **Motion** | | Apply up / down motion to the attachment model
-| ├&nbsp;Enable | OFF | 
-| ├&nbsp;**Speed** | | 
-| │&nbsp;├&nbsp;Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
-| │&nbsp;├&nbsp;Moves Per Group | [8] (4 ~ 32) | 
-| │&nbsp;├&nbsp;Phase | [0] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Curve | [0] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Variable Speed | OFF | 
-| │&nbsp;├&nbsp;Mode | Gradual | Gradual, Random, Volume, 
-| │&nbsp;├&nbsp;Min Speed | 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
-| │&nbsp;└&nbsp;Max Speed | 3/2 | 1, 3/2, 2, 3, 4, 
-| ├&nbsp;Distance | [0.1] (0 ~ 0.3) | 
-| └&nbsp;Angle | [0] (-60 ~ 60) | 
-| Animation: None || Select loaded motion to use for the attachment model
-| Animation | **None** | None, <br/>Select loaded motion to use for the attachment model |
-| **Surface** | | 
-| ├&nbsp;Gloss | [0.9] (0 ~ 1) | 
-| ├&nbsp;Metallic | [1] (0 ~ 1) | 
-| ├&nbsp;Bump | [0.2] (0 ~ 1) | 
-| ├&nbsp;Glow | [0] (0 ~ 10) | 
-| ├&nbsp;Ambient | [1] (0 ~ 1) | 
-| ├&nbsp;Alpha | [1] (0 ~ 1) | 
-| ├&nbsp;Clip | [0] (0 ~ 1) | 
-| ├&nbsp;**Color** | | 
-| │&nbsp;├&nbsp;Color Mode | RGB | RGB, HSV, 
-| │&nbsp;├&nbsp;Hue | [0] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Satuation | [0] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Brightness | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Red | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Green | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Blue | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Blend Mode: Blend || 
-| │&nbsp;│&nbsp;Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
-| │&nbsp;├&nbsp;Blend | [1] (0 ~ 1) | 
-| │&nbsp;└&nbsp;Presets: White || 
-| │&nbsp;&nbsp;&nbsp;Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├&nbsp;**Toon Shader** | | 
-| │&nbsp;├&nbsp;Enable | OFF | 
-| │&nbsp;├&nbsp;Shading | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Outline | [0.5] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Specular | [0.25] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Soft Specular | [0.1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Highlight Area | [0.25] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Soft Highlight | [0.1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Ambient | [0.75] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Shadow Area | [0.65] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Shadow | [0.75] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Soft Shadow | [0.1] (0 ~ 1) | 
-| │&nbsp;└&nbsp;Presets: Sharp || 
-| │&nbsp;&nbsp;&nbsp;Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| ├&nbsp;**Special Shader** | | 
-| │&nbsp;├&nbsp;Mode: Off || 
-| │&nbsp;│&nbsp;Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
-| │&nbsp;├&nbsp;Refraction | [0.5] (1 ~ 3) | 
-| │&nbsp;└&nbsp;Thickness | [1] (0 ~ 1) | 
-| └&nbsp;Presets: Chrome || 
-| &nbsp;&nbsp;Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
-| XRay | [0.25] (0 ~ 1) | 
-| Alpha | [1] (0 ~ 1) | 
-| Pull Hands | [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
-| Grab Pose | ON | Automatically change hand pose to grab when they are on the attachment
-| Hand Motion | [0] (-1 ~ 1) | Move hands relative to the attachment motion
+|<nobr>Dildo</nobr>| [OFF] | 
+|<nobr>Model</nobr>| **[Pole]** | [Pole],  |
+|<nobr>**Anchor Offset**</nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>├&nbsp;Position</nobr>|| 
+|<nobr>├&nbsp;X</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp;Y</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp;Z</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp;Rotation</nobr>|| 
+|<nobr>├&nbsp;X</nobr>| [0] (-90 ~ 90) | 
+|<nobr>├&nbsp;Y</nobr>| [0] (-90 ~ 90) | 
+|<nobr>└&nbsp;Z</nobr>| [0] (-90 ~ 90) | 
+|<nobr>Size & Alignment</nobr>|| 
+|<nobr>Object Radius</nobr>| [0.02] (0.01 ~ 0.05) | 
+|<nobr>Object Length</nobr>| [0.2] (0 ~ 5) | 
+|<nobr>Scale</nobr>| [0] (-5 ~ 5) | 
+|<nobr>Orientation</nobr>| Y Up | Y Up, Y Down, X Up, X Down, Z Up, Z Down, 
+|<nobr>Offset</nobr>|| 
+|<nobr>X</nobr>| [0] (-2 ~ 2) | 
+|<nobr>Y</nobr>| [0] (-2 ~ 2) | 
+|<nobr>Z</nobr>| [0] (-2 ~ 2) | 
+|<nobr>Rotation</nobr>|| 
+|<nobr>X</nobr>| [0] (-180 ~ 180) | 
+|<nobr>Y</nobr>| [0] (-180 ~ 180) | 
+|<nobr>Z</nobr>| [0] (-180 ~ 180) | 
+|<nobr>Guitar Mode</nobr>| [OFF] | 
+|<nobr>**Motion**</nobr>| | Apply up / down motion to the attachment model
+|<nobr>├&nbsp;Enable</nobr>| [OFF] | 
+|<nobr>├&nbsp;**Speed**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
+|<nobr>│&nbsp;├&nbsp;Moves Per Group</nobr>| [8] (4 ~ 32) | 
+|<nobr>│&nbsp;├&nbsp;Phase</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Curve</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Variable Speed</nobr>| [OFF] | 
+|<nobr>│&nbsp;├&nbsp;Mode</nobr>| Gradual | Gradual, Random, Volume, 
+|<nobr>│&nbsp;├&nbsp;Min Speed</nobr>| 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
+|<nobr>│&nbsp;└&nbsp;Max Speed</nobr>| 3/2 | 1, 3/2, 2, 3, 4, 
+|<nobr>├&nbsp;Distance</nobr>| [0.1] (0 ~ 0.3) | 
+|<nobr>└&nbsp;Angle</nobr>| [0] (-60 ~ 60) | 
+|<nobr>Animation</nobr>| **None** | None, <br/>Select loaded motion to use for the attachment model |
+|<nobr>**Surface**</nobr>| | 
+|<nobr>├&nbsp;Gloss</nobr>| [0.9] (0 ~ 1) | 
+|<nobr>├&nbsp;Metallic</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;Bump</nobr>| [0.2] (0 ~ 1) | 
+|<nobr>├&nbsp;Glow</nobr>| [0] (0 ~ 10) | 
+|<nobr>├&nbsp;Ambient</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;Alpha</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;Clip</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;**Color**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
+|<nobr>│&nbsp;├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Brightness</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Red</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Green</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Blue</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Blend Mode</nobr>| **Blend** | Original, Multiply, Blend, Color Shift,  |
+|<nobr>│&nbsp;├&nbsp;Blend</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;└&nbsp;Presets</nobr>| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+|<nobr>├&nbsp;**Toon Shader**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;Enable</nobr>| [OFF] | 
+|<nobr>│&nbsp;├&nbsp;Shading</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Outline</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Specular</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Soft Specular</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Highlight Area</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Soft Highlight</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Ambient</nobr>| [0.75] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Shadow Area</nobr>| [0.65] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Shadow</nobr>| [0.75] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Soft Shadow</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>│&nbsp;└&nbsp;Presets</nobr>| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+|<nobr>├&nbsp;**Special Shader**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;Mode</nobr>| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
+|<nobr>│&nbsp;├&nbsp;Refraction</nobr>| [0.5] (1 ~ 3) | 
+|<nobr>│&nbsp;└&nbsp;Thickness</nobr>| [1] (0 ~ 1) | 
+|<nobr>└&nbsp;Presets</nobr>| **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+|<nobr>XRay</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>Alpha</nobr>| [1] (0 ~ 1) | 
+|<nobr>Pull Hands</nobr>| [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
+|<nobr>Grab Pose</nobr>| [ON] | Automatically change hand pose to grab when they are on the attachment
+|<nobr>Hand Motion</nobr>| [0] (-1 ~ 1) | Move hands relative to the attachment motion

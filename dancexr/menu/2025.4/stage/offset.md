@@ -14,12 +14,12 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Position || 
-| X | [0] (Unlimited) | 
-| Y | [0] (Unlimited) | 
-| Z | [0] (Unlimited) | 
-| Rotation || 
-| X | [0] (Unlimited) | 
-| Y | [0] (Unlimited) | 
-| Z | [0] (Unlimited) | 
-| Scale | [1] (0.2 ~ 2) | 
+|<nobr>Position</nobr>|| 
+|<nobr>X</nobr>| [0] (Unlimited) | 
+|<nobr>Y</nobr>| [0] (Unlimited) | 
+|<nobr>Z</nobr>| [0] (Unlimited) | 
+|<nobr>Rotation</nobr>|| 
+|<nobr>X</nobr>| [0] (Unlimited) | 
+|<nobr>Y</nobr>| [0] (Unlimited) | 
+|<nobr>Z</nobr>| [0] (Unlimited) | 
+|<nobr>Scale</nobr>| [1] (0.2 ~ 2) | 

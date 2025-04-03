@@ -14,4 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| しきい値 | [30] (0 ~ 50) | 
+|<nobr>しきい値</nobr>| [30] (0 ~ 50) | 

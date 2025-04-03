@@ -14,36 +14,36 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 演员动作 || 
-| [待机] || 
-| ├&nbsp;分配给所有 || 
-| ├&nbsp;分配给所选 || 
-| ├&nbsp;作为第二个分配给所有 || 
-| └&nbsp;作为第二个分配给所选 || 
+|<nobr>演员动作</nobr>|| 
+|<nobr>[待机]</nobr>|| 
+|<nobr>├&nbsp;分配给所有</nobr>|| 
+|<nobr>├&nbsp;分配给所选</nobr>|| 
+|<nobr>├&nbsp;作为第二个分配给所有</nobr>|| 
+|<nobr>└&nbsp;作为第二个分配给所选</nobr>|| 
 | [[走台]](catwalk) |
 | [([Biped])](biped) |
 | [([Motion Builder])](motion_builder) |
 | [[零]](zero) |
-| [玩家控制] || 
-| ├&nbsp;分配给所有 || 
-| ├&nbsp;分配给所选 || 
-| ├&nbsp;作为第二个分配给所有 || 
-| └&nbsp;作为第二个分配给所选 || 
+|<nobr>[玩家控制]</nobr>|| 
+|<nobr>├&nbsp;分配给所有</nobr>|| 
+|<nobr>├&nbsp;分配给所选</nobr>|| 
+|<nobr>├&nbsp;作为第二个分配给所有</nobr>|| 
+|<nobr>└&nbsp;作为第二个分配给所选</nobr>|| 
 | [[自动舞蹈 1]](auto_dance_1) |
 | [[自动舞蹈 2]](auto_dance_2) |
-| [自动舞蹈 3] || 
-| ├&nbsp;分配给所有 || 
-| ├&nbsp;分配给所选 || 
-| ├&nbsp;作为第二个分配给所有 || 
-| └&nbsp;作为第二个分配给所选 || 
+|<nobr>[自动舞蹈 3]</nobr>|| 
+|<nobr>├&nbsp;分配给所有</nobr>|| 
+|<nobr>├&nbsp;分配给所选</nobr>|| 
+|<nobr>├&nbsp;作为第二个分配给所有</nobr>|| 
+|<nobr>└&nbsp;作为第二个分配给所选</nobr>|| 
 | [[骑乘位性爱]](cowgirl_sex) |
 | [[从后方性爱]](sex_from_behind) |
-| [性动作 3] || 
-| ├&nbsp;分配给所有 || 
-| ├&nbsp;分配给所选 || 
-| ├&nbsp;作为第二个分配给所有 || 
-| └&nbsp;作为第二个分配给所选 || 
-| 摄影机动作 || 
+|<nobr>[性动作 3]</nobr>|| 
+|<nobr>├&nbsp;分配给所有</nobr>|| 
+|<nobr>├&nbsp;分配给所选</nobr>|| 
+|<nobr>├&nbsp;作为第二个分配给所有</nobr>|| 
+|<nobr>└&nbsp;作为第二个分配给所选</nobr>|| 
+|<nobr>摄影机动作</nobr>|| 
 | [[自由飞行相机]](freefly_cam) |
 | [[轨道摄像机]](orbit_cam) |
 | [[自动摄像机]](auto_cam) |

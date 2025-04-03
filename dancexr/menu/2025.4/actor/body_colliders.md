@@ -14,25 +14,24 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable | ON | 
-| Size | [0.5] (0 ~ 1) | 
-| Head Radius | [1] (0 ~ 2) | 
-| Arm Radius | [1] (0 ~ 2) | 
-| Forearms | [1] (0 ~ 2) | 
-| Chest Width | [1] (0 ~ 2) | 
-| Waist Width | [0.5] (0 ~ 1) | 
-| Hips Width | [0] (-1 ~ 1) | 
-| Butts Radius | [1] (0 ~ 2) | 
-| Butts Position || 
-| X | [0] (-0.1 ~ 0.1) | 
-| Y | [0] (-0.1 ~ 0.1) | 
-| Z | [0] (-0.1 ~ 0.1) | 
-| Belly Radius | [1] (0 ~ 2) | 
-| Belly Position | [0] (-1 ~ 1) | 
-| Leg Radius | [1] (0 ~ 2) | 
-| Thigh Fwd/Back | [0] (-1 ~ 1) | 
-| Thigh Start Position | [0] (0 ~ 1) | 
-| Hand | [0] (0 ~ 1) | 
-| Visualize | OFF | 
-| Presets: Default (Reset) || 
-| Presets | **Default (Reset)** | Default (Reset), amy, misaki,  |
+|<nobr>Enable</nobr>| [ON] | 
+|<nobr>Size</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>Head Radius</nobr>| [1] (0 ~ 2) | 
+|<nobr>Arm Radius</nobr>| [1] (0 ~ 2) | 
+|<nobr>Forearms</nobr>| [1] (0 ~ 2) | 
+|<nobr>Chest Width</nobr>| [1] (0 ~ 2) | 
+|<nobr>Waist Width</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>Hips Width</nobr>| [0] (-1 ~ 1) | 
+|<nobr>Butts Radius</nobr>| [1] (0 ~ 2) | 
+|<nobr>Butts Position</nobr>|| 
+|<nobr>X</nobr>| [0] (-0.1 ~ 0.1) | 
+|<nobr>Y</nobr>| [0] (-0.1 ~ 0.1) | 
+|<nobr>Z</nobr>| [0] (-0.1 ~ 0.1) | 
+|<nobr>Belly Radius</nobr>| [1] (0 ~ 2) | 
+|<nobr>Belly Position</nobr>| [0] (-1 ~ 1) | 
+|<nobr>Leg Radius</nobr>| [1] (0 ~ 2) | 
+|<nobr>Thigh Fwd/Back</nobr>| [0] (-1 ~ 1) | 
+|<nobr>Thigh Start Position</nobr>| [0] (0 ~ 1) | 
+|<nobr>Hand</nobr>| [0] (0 ~ 1) | 
+|<nobr>Visualize</nobr>| [OFF] | 
+|<nobr>Presets</nobr>| **Default (Reset)** | Default (Reset), amy, misaki,  |

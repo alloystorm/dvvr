@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 启用 | OFF | 
-| 虚拟骨骼 | ON | 
-| 骨骼 | OFF | 
-| IK | OFF | 
-| 布娃娃 | OFF | 
+|<nobr>启用</nobr>| [OFF] | 
+|<nobr>虚拟骨骼</nobr>| [ON] | 
+|<nobr>骨骼</nobr>| [OFF] | 
+|<nobr>IK</nobr>| [OFF] | 
+|<nobr>布娃娃</nobr>| [OFF] | 

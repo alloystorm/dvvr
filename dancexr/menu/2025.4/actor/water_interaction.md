@@ -14,18 +14,18 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Ripple | OFF | 
-| Intensity | [1] (0 ~ 2) | 
-| Body | [1] (0.1 ~ 2) | 
-| Hands | [0.5] (0.1 ~ 2) | 
-| Feet | [0.5] (0.1 ~ 2) | 
-| Water Drop || 
-| Sweat Drops | [0] (0 ~ 1) | 
-| Water Drop Glow | [5] (0 ~ 20) | 
-| Water Drop Gravity | [3] (0 ~ 10) | 
-| Drag | [2.5] (0 ~ 10) | 
-| Metallic | [0.25] (0 ~ 1) | 
-| Alpha | [0.25] (0 ~ 1) | 
-| Size | [0.003] (0 ~ 0.01) | 
-| Duration | [5] (0 ~ 10) | 
-| Sweat Collision | OFF | 
+|<nobr>Ripple</nobr>| [OFF] | 
+|<nobr>Intensity</nobr>| [1] (0 ~ 2) | 
+|<nobr>Body</nobr>| [1] (0.1 ~ 2) | 
+|<nobr>Hands</nobr>| [0.5] (0.1 ~ 2) | 
+|<nobr>Feet</nobr>| [0.5] (0.1 ~ 2) | 
+|<nobr>Water Drop</nobr>|| 
+|<nobr>Sweat Drops</nobr>| [0] (0 ~ 1) | 
+|<nobr>Water Drop Glow</nobr>| [5] (0 ~ 20) | 
+|<nobr>Water Drop Gravity</nobr>| [3] (0 ~ 10) | 
+|<nobr>Drag</nobr>| [2.5] (0 ~ 10) | 
+|<nobr>Metallic</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>Alpha</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>Size</nobr>| [0.003] (0 ~ 0.01) | 
+|<nobr>Duration</nobr>| [5] (0 ~ 10) | 
+|<nobr>Sweat Collision</nobr>| [OFF] | 

@@ -14,22 +14,19 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 指派給主體 || 
-| (Target Select: Auto) || 
-| 目標選擇 | **自動** | 自動, 已選擇, 群組, 旋轉, 旋轉 + 群組, 舞台中心,  |
-| (Tracking Mode: Center) || 
-| 追踪模式 | **中心** | 中心, 頭部, 胸部,  |
-| 目標平滑 | [0.5] (0 ~ 2) | 
-| 預測 | [1] (0 ~ 2) | 預測目標位置以減少因平滑造成的延遲
-| 鎖定目標 | OFF | 自動聚焦於目標
-| 攝影機抖動 | [0.5] (0 ~ 1) | 
-| 鎖定旋轉 | OFF | 攝影機跟隨目標的旋轉
-| 自動縮放 | [0] (0 ~ 1) | 自動縮放以保持目標大小在視野中
-| 縮放速度 | [0.5] (0 ~ 1) | 縮放到目標視場所需的時間
-| 目標的視場高度 | [1] (0.2 ~ 2) | 使用自動縮放時目標的垂直高度
-| 垂直偏移 | [0] (-1 ~ 1) | 垂直偏移
-| 視場 | [30] (5 ~ 120) | 
-| 節拍循環 | [8] (1 ~ 16) | 
-| 使用軌道移動 | OFF | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
-| (Presets: Freefly) || 
-| 預設 | **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
+|<nobr>指派給主體</nobr>|| 
+|<nobr>目標選擇</nobr>| **自動** | 自動, 已選擇, 群組, 旋轉, 旋轉 + 群組, 舞台中心,  |
+|<nobr>追踪模式</nobr>| **中心** | 中心, 頭部, 胸部,  |
+|<nobr>目標平滑</nobr>| [0.5] (0 ~ 2) | 
+|<nobr>預測</nobr>| [1] (0 ~ 2) | 預測目標位置以減少因平滑造成的延遲
+|<nobr>鎖定目標</nobr>| [OFF] | 自動聚焦於目標
+|<nobr>攝影機抖動</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>鎖定旋轉</nobr>| [OFF] | 攝影機跟隨目標的旋轉
+|<nobr>自動縮放</nobr>| [0] (0 ~ 1) | 自動縮放以保持目標大小在視野中
+|<nobr>縮放速度</nobr>| [0.5] (0 ~ 1) | 縮放到目標視場所需的時間
+|<nobr>目標的視場高度</nobr>| [1] (0.2 ~ 2) | 使用自動縮放時目標的垂直高度
+|<nobr>垂直偏移</nobr>| [0] (-1 ~ 1) | 垂直偏移
+|<nobr>視場</nobr>| [30] (5 ~ 120) | 
+|<nobr>節拍循環</nobr>| [8] (1 ~ 16) | 
+|<nobr>使用軌道移動</nobr>| [OFF] | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
+|<nobr>預設</nobr>| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |

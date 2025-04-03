@@ -14,11 +14,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable | ON | 
-| Select Bones || 
-| Gravity | ON | 
-| Mass | [0.1] (0 ~ 10) | 
-| Damp | [0] (0 ~ 1) | 
-| Collider | Sphere | None, Sphere, Capsule, 
-| Collider Radius | [0.1] (0 ~ 1) | 
-| Collider Length | [0.3] (0 ~ 2) | 
+|<nobr>Enable</nobr>| [ON] | 
+|<nobr>Select Bones</nobr>|| 
+|<nobr>Gravity</nobr>| [ON] | 
+|<nobr>Mass</nobr>| [0.1] (0 ~ 10) | 
+|<nobr>Damp</nobr>| [0] (0 ~ 1) | 
+|<nobr>Collider</nobr>| Sphere | None, Sphere, Capsule, 
+|<nobr>Collider Radius</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>Collider Length</nobr>| [0.3] (0 ~ 2) | 

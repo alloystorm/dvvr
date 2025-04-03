@@ -14,18 +14,17 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Loop | OFF | 
-| Mute | OFF | 
-| Time Offset | [0] (Unlimited) | 
-| Aspect Ratio: 16:9 || 
-| Aspect Ratio | **16:9** | 1:1, 4:3, 14:9, 16:10, 16:9, 1.85:1, 2:1, 2.35:1, 2.39:1, 2.4:1,  |
-| Offset | [0] (Unlimited) | 
-| BPM | [120] (1 ~ 240) | Beats per minute
-| Beat Offset | [0] (0 ~ 1) | 
-| Beats Per Phrase | [8] (4 ~ 64) | 
-| Phrase Begin | [0] (0 ~ 32) | 
-| Tap Beats || Set BPM by tapping while the music is playing
-| Projector Scene Example || 
-| LED Screen Example || 
-| Load Video || 
-| └&nbsp;[None] || 
+|<nobr>Loop</nobr>| [OFF] | 
+|<nobr>Mute</nobr>| [OFF] | 
+|<nobr>Time Offset</nobr>| [0] (Unlimited) | 
+|<nobr>Aspect Ratio</nobr>| **16:9** | 1:1, 4:3, 14:9, 16:10, 16:9, 1.85:1, 2:1, 2.35:1, 2.39:1, 2.4:1,  |
+|<nobr>Offset</nobr>| [0] (Unlimited) | 
+|<nobr>BPM</nobr>| [120] (1 ~ 240) | Beats per minute
+|<nobr>Beat Offset</nobr>| [0] (0 ~ 1) | 
+|<nobr>Beats Per Phrase</nobr>| [8] (4 ~ 64) | 
+|<nobr>Phrase Begin</nobr>| [0] (0 ~ 32) | 
+|<nobr>Tap Beats</nobr>|| Set BPM by tapping while the music is playing
+|<nobr>Projector Scene Example</nobr>|| 
+|<nobr>LED Screen Example</nobr>|| 
+|<nobr>Load Video</nobr>|| 
+|<nobr>└&nbsp;[None]</nobr>|| 

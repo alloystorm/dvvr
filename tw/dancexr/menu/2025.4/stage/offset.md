@@ -14,12 +14,12 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 位置 || 
-| (X) | [0] ((Unlimited)) | 
-| (Y) | [0] ((Unlimited)) | 
-| (Z) | [0] ((Unlimited)) | 
-| 旋轉 || 
-| (X) | [0] ((Unlimited)) | 
-| (Y) | [0] ((Unlimited)) | 
-| (Z) | [0] ((Unlimited)) | 
-| 縮放 | [1] (0.2 ~ 2) | 
+|<nobr>位置</nobr>|| 
+|<nobr>(X)</nobr>| [0] ((Unlimited)) | 
+|<nobr>(Y)</nobr>| [0] ((Unlimited)) | 
+|<nobr>(Z)</nobr>| [0] ((Unlimited)) | 
+|<nobr>旋轉</nobr>|| 
+|<nobr>(X)</nobr>| [0] ((Unlimited)) | 
+|<nobr>(Y)</nobr>| [0] ((Unlimited)) | 
+|<nobr>(Z)</nobr>| [0] ((Unlimited)) | 
+|<nobr>縮放</nobr>| [1] (0.2 ~ 2) | 

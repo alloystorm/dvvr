@@ -14,34 +14,32 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable | ON | 
-| Data | Beats | Beats, Raw Beats, Raw Onset, 
-| Location | Stage | Camera, Stage, Actor, 
-| Radius | [1.2] (0.2 ~ 5) | 
-| Marker Size | [0.02] (0 ~ 1) | 
-| Line Width | [0.01] (0 ~ 1) | 
-| **Line Color** | | 
-| ├&nbsp;Color Mode | HSV | RGB, HSV, 
-| ├&nbsp;Hue | [0.3333333] (0 ~ 1) | 
-| ├&nbsp;Satuation | [1] (0 ~ 1) | 
-| ├&nbsp;Brightness | [1] (0 ~ 1) | 
-| ├&nbsp;Red | [0] (0 ~ 1) | 
-| ├&nbsp;Green | [1] (0 ~ 1) | 
-| ├&nbsp;Blue | [0] (0 ~ 1) | 
-| ├&nbsp;Glow | [1] (0 ~ 20) | 
-| └&nbsp;Presets: Green || 
-| &nbsp;&nbsp;Presets | **Green** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
-| **Marker Color** | | 
-| ├&nbsp;Color Mode | HSV | RGB, HSV, 
-| ├&nbsp;Hue | [0] (0 ~ 1) | 
-| ├&nbsp;Satuation | [0] (0 ~ 1) | 
-| ├&nbsp;Brightness | [1] (0 ~ 1) | 
-| ├&nbsp;Red | [1] (0 ~ 1) | 
-| ├&nbsp;Green | [1] (0 ~ 1) | 
-| ├&nbsp;Blue | [1] (0 ~ 1) | 
-| ├&nbsp;Glow | [1] (0 ~ 20) | 
-| └&nbsp;Presets: White || 
-| &nbsp;&nbsp;Presets | **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
-| Beat Cycle | [8] (2 ~ 16) | 
-| Normal Glow | [1] (0 ~ 8) | 
-| Flash Glow | [2] (0 ~ 8) | 
+|<nobr>Enable</nobr>| [ON] | 
+|<nobr>Data</nobr>| Beats | Beats, Raw Beats, Raw Onset, 
+|<nobr>Location</nobr>| Stage | Camera, Stage, Actor, 
+|<nobr>Radius</nobr>| [1.2] (0.2 ~ 5) | 
+|<nobr>Marker Size</nobr>| [0.02] (0 ~ 1) | 
+|<nobr>Line Width</nobr>| [0.01] (0 ~ 1) | 
+|<nobr>**Line Color**</nobr>| | 
+|<nobr>├&nbsp;Color Mode</nobr>| HSV | RGB, HSV, 
+|<nobr>├&nbsp;Hue</nobr>| [0.3333333] (0 ~ 1) | 
+|<nobr>├&nbsp;Satuation</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;Brightness</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;Red</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;Green</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;Blue</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;Glow</nobr>| [1] (0 ~ 20) | 
+|<nobr>└&nbsp;Presets</nobr>| **Green** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+|<nobr>**Marker Color**</nobr>| | 
+|<nobr>├&nbsp;Color Mode</nobr>| HSV | RGB, HSV, 
+|<nobr>├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;Brightness</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;Red</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;Green</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;Blue</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;Glow</nobr>| [1] (0 ~ 20) | 
+|<nobr>└&nbsp;Presets</nobr>| **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+|<nobr>Beat Cycle</nobr>| [8] (2 ~ 16) | 
+|<nobr>Normal Glow</nobr>| [1] (0 ~ 8) | 
+|<nobr>Flash Glow</nobr>| [2] (0 ~ 8) | 

@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 모두 리셋 || 
-| 저장된 다시 로드 || 
-| 액터 프리셋 저장 || 
-| 전역 저장 || 
+|<nobr>모두 리셋</nobr>|| 
+|<nobr>저장된 다시 로드</nobr>|| 
+|<nobr>액터 프리셋 저장</nobr>|| 
+|<nobr>전역 저장</nobr>|| 

@@ -14,36 +14,32 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Prime Motion || 
-| Playback Mode: List Once || 
-| Playback Mode | **List Once** | List Once, Single, Loop List, Loop Single, Shuffle,  |
-| Auto-Load Actors | OFF | Automatically load actors to match the number of motion tracks and assign different motion for each actor
-| Auto-Assign Camera | OFF | Automatically assign camera motion if available
-| Remix Motion || 
-| Remix Mode: Synchronized || 
-| Remix Mode | **Synchronized** | Continue Next, Synchronized, Loop, Shuffle Next,  |
-| Time || 
-| Timeline Fine Adjust | ON | Long press on the timeline to fine adjust playback time.
-| Speed | [1] (0.5 ~ 2) | Change speed of audio. This also affects motion and physics speed
-| Pitch Shift | ON | Adjust audio to match the original pitch after changing speed
-| Auto Sync Mode: Off || 
-| Auto Sync Mode | **Off** | Off, Move Audio, Move Motion,  |
-| Auto Sync Threshold | [0.05] (0 ~ 0.2) | Automatically sync motion and audio when time differences exceed this amount. In seconds.
-| Offset | [0] (Unlimited) | 
-| BPM | [120] (1 ~ 240) | Beats per minute
-| Beat Offset | [0] (0 ~ 1) | 
-| Beats Per Phrase | [8] (4 ~ 64) | 
-| Phrase Begin | [0] (0 ~ 32) | 
-| Tap Beats || Set BPM by tapping while the music is playing
-| Amplitude Detection || 
-| Smooth | [0.25] (0 ~ 1) | Smooth output of loudness value
-| Fade In Out | [0] (0 ~ 0.2) | 
-| Band Selection | [0] (0 ~ 1) | Select the range of bands to calculate loudness level
-| Scale | [0.25] (0.025 ~ 1) | 
-| Use Lip Sync | OFF | 
-| Lip Sync Smoothing | [0.05] (0 ~ 0.1) | 
-| Spatialize | OFF | Use spatial audio
-| Spatial Blend | [0] (0 ~ 1) | Blend the 3D effect of the spatial audio
-| Follow Actor | OFF | 
-| Select Actor || 
-| Select Actor |  |  |
+|<nobr>Prime Motion</nobr>|| 
+|<nobr>Playback Mode</nobr>| **List Once** | List Once, Single, Loop List, Loop Single, Shuffle,  |
+|<nobr>Auto-Load Actors</nobr>| [OFF] | Automatically load actors to match the number of motion tracks and assign different motion for each actor
+|<nobr>Auto-Assign Camera</nobr>| [OFF] | Automatically assign camera motion if available
+|<nobr>Remix Motion</nobr>|| 
+|<nobr>Remix Mode</nobr>| **Synchronized** | Continue Next, Synchronized, Loop, Shuffle Next,  |
+|<nobr>Time</nobr>|| 
+|<nobr>Timeline Fine Adjust</nobr>| [ON] | Long press on the timeline to fine adjust playback time.
+|<nobr>Speed</nobr>| [1] (0.5 ~ 2) | Change speed of audio. This also affects motion and physics speed
+|<nobr>Pitch Shift</nobr>| [ON] | Adjust audio to match the original pitch after changing speed
+|<nobr>Auto Sync Mode</nobr>| **Off** | Off, Move Audio, Move Motion,  |
+|<nobr>Auto Sync Threshold</nobr>| [0.05] (0 ~ 0.2) | Automatically sync motion and audio when time differences exceed this amount. In seconds.
+|<nobr>Offset</nobr>| [0] (Unlimited) | 
+|<nobr>BPM</nobr>| [120] (1 ~ 240) | Beats per minute
+|<nobr>Beat Offset</nobr>| [0] (0 ~ 1) | 
+|<nobr>Beats Per Phrase</nobr>| [8] (4 ~ 64) | 
+|<nobr>Phrase Begin</nobr>| [0] (0 ~ 32) | 
+|<nobr>Tap Beats</nobr>|| Set BPM by tapping while the music is playing
+|<nobr>Amplitude Detection</nobr>|| 
+|<nobr>Smooth</nobr>| [0.25] (0 ~ 1) | Smooth output of loudness value
+|<nobr>Fade In Out</nobr>| [0] (0 ~ 0.2) | 
+|<nobr>Band Selection</nobr>| [0] (0 ~ 1) | Select the range of bands to calculate loudness level
+|<nobr>Scale</nobr>| [0.25] (0.025 ~ 1) | 
+|<nobr>Use Lip Sync</nobr>| [OFF] | 
+|<nobr>Lip Sync Smoothing</nobr>| [0.05] (0 ~ 0.1) | 
+|<nobr>Spatialize</nobr>| [OFF] | Use spatial audio
+|<nobr>Spatial Blend</nobr>| [0] (0 ~ 1) | Blend the 3D effect of the spatial audio
+|<nobr>Follow Actor</nobr>| [OFF] | 
+|<nobr>Select Actor</nobr>|  |  |

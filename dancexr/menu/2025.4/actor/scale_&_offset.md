@@ -14,12 +14,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Model Scale | [0] (-3 ~ 3) | Adjust the overall scale of the model. Values are exponential for finer control.
-| Ground Offset | [0] (-2 ~ 2) | Set the vertical offset of the model relative to the ground.
-| Uniform Height | ON | Enable to scale the model to an average human height.
-| Rotation | [0] (-180 ~ 180) | Set the rotation of the model in degrees.
-| Offset X | [0] (-5 ~ 5) | Adjust the horizontal offset of the model along the X-axis.
-| Offset Z | [0] (-5 ~ 5) | Adjust the horizontal offset of the model along the Z-axis.
-| Snapping | 0 | 0, 0.1, 0.2, 0.5, 1, 2, <br/>Set the snapping increment for drag adjustments. Smaller values allow finer control.
-| Presets: Uniform Life Size || 
-| Presets | **Uniform Life Size** | Uniform Life Size, Miniature, Giant, Original,  |
+|<nobr>Model Scale</nobr>| [0] (-3 ~ 3) | Adjust the overall scale of the model. Values are exponential for finer control.
+|<nobr>Ground Offset</nobr>| [0] (-2 ~ 2) | Set the vertical offset of the model relative to the ground.
+|<nobr>Uniform Height</nobr>| [ON] | Enable to scale the model to an average human height.
+|<nobr>Rotation</nobr>| [0] (-180 ~ 180) | Set the rotation of the model in degrees.
+|<nobr>Offset X</nobr>| [0] (-5 ~ 5) | Adjust the horizontal offset of the model along the X-axis.
+|<nobr>Offset Z</nobr>| [0] (-5 ~ 5) | Adjust the horizontal offset of the model along the Z-axis.
+|<nobr>Snapping</nobr>| 0 | 0, 0.1, 0.2, 0.5, 1, 2, <br/>Set the snapping increment for drag adjustments. Smaller values allow finer control.
+|<nobr>Presets</nobr>| **Uniform Life Size** | Uniform Life Size, Miniature, Giant, Original,  |

@@ -14,63 +14,61 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable | ON | 
-| Select Bones || Select bones
-| Skip First X Bones | [0] (0 ~ 5) | Do not create physics connection for the first x number of levels
-| **Particle Dynamics** | | 
-| ├&nbsp;Enable | ON | 
-| ├&nbsp;Swing Compliance | [0.25] (0 ~ 1) | 
-| ├&nbsp;Twist Compliance | [0.75] (0 ~ 1) | 
-| ├&nbsp;Particle Anchor | [0.5] (0 ~ 1) | 
-| ├&nbsp;Reduction Ratio | [0] (0 ~ 1) | Reducing mass at each level
-| ├&nbsp;Visualize | OFF | 
-| ├&nbsp;Max Angular Velocity | [2] (0 ~ 4) | 
-| ├&nbsp;Inertia | [2] (1 ~ 5) | 
-| ├&nbsp;Soften | [0] (0 ~ 1) | Soften the particle constraints.
-| ├&nbsp;Particle Radius | [5] (1 ~ 20) | Size of particle in millimeters
-| ├&nbsp;Gravity | [9.8] (-9.8 ~ 9.8) | 
-| ├&nbsp;Friction | [1] (0 ~ 2) | 
-| ├&nbsp;Ground Friction | [1] (-2 ~ 2) | 
-| ├&nbsp;Drag (Air) | [0] (0 ~ 2) | Air resistancy
-| ├&nbsp;Drag (Underwater) | [1] (0 ~ 2) | Underwater resistancy
-| ├&nbsp;Buoyancy | [-0.1] (-1 ~ 1) | 
-| ├&nbsp;**Wind** | | 
-| │&nbsp;├&nbsp;Wind Influence | [0.25] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Turbulence Scale | [0] (-2 ~ 2) | 
-| │&nbsp;├&nbsp;Turbulence Intensity | [1] (0 ~ 2) | 
-| │&nbsp;└&nbsp;Turbulence Time Scale | [0] (-4 ~ 4) | 
-| ├&nbsp;**Collide With** | | 
-| │&nbsp;├&nbsp;Head | ON | 
-| │&nbsp;├&nbsp;Body | ON | 
-| │&nbsp;├&nbsp;Boobs | ON | 
-| │&nbsp;├&nbsp;Butts | ON | 
-| │&nbsp;├&nbsp;Arms | ON | 
-| │&nbsp;├&nbsp;Hands | ON | 
-| │&nbsp;├&nbsp;Legs | ON | 
-| │&nbsp;├&nbsp;Feet | ON | 
-| │&nbsp;└&nbsp;Player | ON | 
-| └&nbsp;**Simulation Settings** | | 
-| &nbsp;&nbsp;├&nbsp;Use Global | ON | Find the global settings under Pro / Cloth Simulation
-| &nbsp;&nbsp;├&nbsp;Enable Dragging | ON | 
-| &nbsp;&nbsp;├&nbsp;Simulate | ON | 
-| &nbsp;&nbsp;├&nbsp;Simulation FPS: Dynamic || 
-| &nbsp;&nbsp;│&nbsp;Simulation FPS | **Dynamic** | Dynamic, Fixed 30, Fixed 60, Fixed 90, Fixed 100, Fixed 120, Fixed 160, Fixed 175, Fixed 240,  |
-| &nbsp;&nbsp;├&nbsp;Time Scale | [0.65] (0.1 ~ 1) | 
-| &nbsp;&nbsp;├&nbsp;Substeps | [4] (1 ~ 20) | 
-| &nbsp;&nbsp;├&nbsp;Iterations | [1] (0 ~ 10) | 
-| &nbsp;&nbsp;├&nbsp;Reverse Even Substeps | OFF | 
-| &nbsp;&nbsp;├&nbsp;Alternate Group Size | [0] (0 ~ 20) | 
-| &nbsp;&nbsp;├&nbsp;Table Size | [6] (1 ~ 20) | 
-| &nbsp;&nbsp;└&nbsp;Two Step Solving | OFF | 
-| Spring | [0.5] (0 ~ 5) | 
-| Damp | [0.01] (0 ~ 0.1) | 
-| Reduction Ratio | [0.25] (0 ~ 1) | Reducing stiffness at each level
-| Twist Limit | [5] (0 ~ 180) | Limit tiwsting rotation
-| Limit Force | [3] (0 ~ 8) | 
-| Mass | [0.05] (0 ~ 0.1) | 
-| Drag | [1] (0 ~ 10) | 
-| Collider Radius | [0.01] (0 ~ 0.05) | Size of the particle used when solving collision.
-| Collider Length | [0.9] (0 ~ 1) | 
-| Anchor Position | [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-| Presets: Default (Reset) || 
-| Presets | **Default (Reset)** | Default (Reset), Preset 1, Preset 2,  |
+|<nobr>Enable</nobr>| [ON] | 
+|<nobr>Select Bones</nobr>|| Select bones
+|<nobr>Skip First X Bones</nobr>| [0] (0 ~ 5) | Do not create physics connection for the first x number of levels
+|<nobr>**Particle Dynamics**</nobr>| | 
+|<nobr>├&nbsp;Enable</nobr>| [ON] | 
+|<nobr>├&nbsp;Swing Compliance</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>├&nbsp;Twist Compliance</nobr>| [0.75] (0 ~ 1) | 
+|<nobr>├&nbsp;Particle Anchor</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>├&nbsp;Reduction Ratio</nobr>| [0] (0 ~ 1) | Reducing mass at each level
+|<nobr>├&nbsp;Visualize</nobr>| [OFF] | 
+|<nobr>├&nbsp;Max Angular Velocity</nobr>| [2] (0 ~ 4) | 
+|<nobr>├&nbsp;Inertia</nobr>| [2] (1 ~ 5) | 
+|<nobr>├&nbsp;Soften</nobr>| [0] (0 ~ 1) | Soften the particle constraints.
+|<nobr>├&nbsp;Particle Radius</nobr>| [5] (1 ~ 20) | Size of particle in millimeters
+|<nobr>├&nbsp;Gravity</nobr>| [9.8] (-9.8 ~ 9.8) | 
+|<nobr>├&nbsp;Friction</nobr>| [1] (0 ~ 2) | 
+|<nobr>├&nbsp;Ground Friction</nobr>| [1] (-2 ~ 2) | 
+|<nobr>├&nbsp;Drag (Air)</nobr>| [0] (0 ~ 2) | Air resistancy
+|<nobr>├&nbsp;Drag (Underwater)</nobr>| [1] (0 ~ 2) | Underwater resistancy
+|<nobr>├&nbsp;Buoyancy</nobr>| [-0.1] (-1 ~ 1) | 
+|<nobr>├&nbsp;**Wind**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;Wind Influence</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Turbulence Scale</nobr>| [0] (-2 ~ 2) | 
+|<nobr>│&nbsp;├&nbsp;Turbulence Intensity</nobr>| [1] (0 ~ 2) | 
+|<nobr>│&nbsp;└&nbsp;Turbulence Time Scale</nobr>| [0] (-4 ~ 4) | 
+|<nobr>├&nbsp;**Collide With**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;Head</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;Body</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;Boobs</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;Butts</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;Arms</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;Hands</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;Legs</nobr>| [ON] | 
+|<nobr>│&nbsp;├&nbsp;Feet</nobr>| [ON] | 
+|<nobr>│&nbsp;└&nbsp;Player</nobr>| [ON] | 
+|<nobr>└&nbsp;**Simulation Settings**</nobr>| | 
+|<nobr>&nbsp;&nbsp;├&nbsp;Use Global</nobr>| [ON] | Find the global settings under Pro / Cloth Simulation
+|<nobr>&nbsp;&nbsp;├&nbsp;Enable Dragging</nobr>| [ON] | 
+|<nobr>&nbsp;&nbsp;├&nbsp;Simulate</nobr>| [ON] | 
+|<nobr>&nbsp;&nbsp;├&nbsp;Simulation FPS</nobr>| **Dynamic** | Dynamic, Fixed 30, Fixed 60, Fixed 90, Fixed 100, Fixed 120, Fixed 160, Fixed 175, Fixed 240,  |
+|<nobr>&nbsp;&nbsp;├&nbsp;Time Scale</nobr>| [0.65] (0.1 ~ 1) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;Substeps</nobr>| [4] (1 ~ 20) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;Iterations</nobr>| [1] (0 ~ 10) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;Reverse Even Substeps</nobr>| [OFF] | 
+|<nobr>&nbsp;&nbsp;├&nbsp;Alternate Group Size</nobr>| [0] (0 ~ 20) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;Table Size</nobr>| [6] (1 ~ 20) | 
+|<nobr>&nbsp;&nbsp;└&nbsp;Two Step Solving</nobr>| [OFF] | 
+|<nobr>Spring</nobr>| [0.5] (0 ~ 5) | 
+|<nobr>Damp</nobr>| [0.01] (0 ~ 0.1) | 
+|<nobr>Reduction Ratio</nobr>| [0.25] (0 ~ 1) | Reducing stiffness at each level
+|<nobr>Twist Limit</nobr>| [5] (0 ~ 180) | Limit tiwsting rotation
+|<nobr>Limit Force</nobr>| [3] (0 ~ 8) | 
+|<nobr>Mass</nobr>| [0.05] (0 ~ 0.1) | 
+|<nobr>Drag</nobr>| [1] (0 ~ 10) | 
+|<nobr>Collider Radius</nobr>| [0.01] (0 ~ 0.05) | Size of the particle used when solving collision.
+|<nobr>Collider Length</nobr>| [0.9] (0 ~ 1) | 
+|<nobr>Anchor Position</nobr>| [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
+|<nobr>Presets</nobr>| **Default (Reset)** | Default (Reset), Preset 1, Preset 2,  |

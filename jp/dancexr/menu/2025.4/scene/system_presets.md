@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| すべてリセット || 
-| 保存したものを再読み込み || 
+|<nobr>すべてリセット</nobr>|| 
+|<nobr>保存したものを再読み込み</nobr>|| 

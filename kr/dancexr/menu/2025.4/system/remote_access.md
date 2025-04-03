@@ -14,6 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 활성화 | OFF | 
-| 포트 번호 || 
-| 비밀번호 || 
+|<nobr>활성화</nobr>| [OFF] | 
+|<nobr>포트 번호</nobr>|| 
+|<nobr>비밀번호</nobr>|| 

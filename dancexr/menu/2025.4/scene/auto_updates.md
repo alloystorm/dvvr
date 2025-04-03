@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Hue | [0] (0 ~ 1) | 
-| Filtering || 
+|<nobr>Hue</nobr>| [0] (0 ~ 1) | 
+|<nobr>Filtering</nobr>|| 

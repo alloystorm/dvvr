@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 嘴巴 || 
-| 使用口型同步 | OFF | 
-| 眉毛 || 
-| 眼瞼 || 
+|<nobr>嘴巴</nobr>|| 
+|<nobr>使用口型同步</nobr>| [OFF] | 
+|<nobr>眉毛</nobr>|| 
+|<nobr>眼瞼</nobr>|| 

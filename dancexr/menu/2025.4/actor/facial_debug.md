@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Mouth || 
-| Use Lip Sync | OFF | 
-| Eyebrows || 
-| Eyelids || 
+|<nobr>Mouth</nobr>|| 
+|<nobr>Use Lip Sync</nobr>| [OFF] | 
+|<nobr>Eyebrows</nobr>|| 
+|<nobr>Eyelids</nobr>|| 

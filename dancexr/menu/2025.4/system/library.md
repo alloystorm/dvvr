@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Refresh Content || 
-| Migrate Settings || 
-| Remove Duplicates || 
-| Switch Library || 
-| Show In Explorer || 
-| Google Drive || 
-| Link Google Drive || 
+|<nobr>Refresh Content</nobr>|| 
+|<nobr>Migrate Settings</nobr>|| 
+|<nobr>Remove Duplicates</nobr>|| 
+|<nobr>Switch Library</nobr>|| 
+|<nobr>Show In Explorer</nobr>|| 
+|<nobr>Google Drive</nobr>|| 
+|<nobr>Link Google Drive</nobr>|| 

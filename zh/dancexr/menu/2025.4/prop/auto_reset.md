@@ -14,4 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 阈值 | [30] (0 ~ 50) | 
+|<nobr>阈值</nobr>| [30] (0 ~ 50) | 

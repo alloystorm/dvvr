@@ -14,18 +14,17 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable | OFF | 
-| Select Source Bones || Select bone to attach
-| Select Actor || 
-| Select Actor |  |  |
-| Select Target Bones || Select target bone to attach to
-| Ignore Rotation | OFF | Ignore rotation of attach bone
-| Offset || 
-| X | [0] (-1 ~ 1) | 
-| Y | [0] (-1 ~ 1) | 
-| Z | [0] (-1 ~ 1) | 
-| Rotation || 
-| X | [0] (-180 ~ 180) | 
-| Y | [0] (-180 ~ 180) | 
-| Z | [0] (-180 ~ 180) | 
-| Scale | [0] (-4 ~ 4) | 
+|<nobr>Enable</nobr>| [OFF] | 
+|<nobr>Select Source Bones</nobr>|| Select bone to attach
+|<nobr>Select Actor</nobr>|  |  |
+|<nobr>Select Target Bones</nobr>|| Select target bone to attach to
+|<nobr>Ignore Rotation</nobr>| [OFF] | Ignore rotation of attach bone
+|<nobr>Offset</nobr>|| 
+|<nobr>X</nobr>| [0] (-1 ~ 1) | 
+|<nobr>Y</nobr>| [0] (-1 ~ 1) | 
+|<nobr>Z</nobr>| [0] (-1 ~ 1) | 
+|<nobr>Rotation</nobr>|| 
+|<nobr>X</nobr>| [0] (-180 ~ 180) | 
+|<nobr>Y</nobr>| [0] (-180 ~ 180) | 
+|<nobr>Z</nobr>| [0] (-180 ~ 180) | 
+|<nobr>Scale</nobr>| [0] (-4 ~ 4) | 

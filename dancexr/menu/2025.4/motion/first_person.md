@@ -14,15 +14,14 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Assign To Main || 
-| Select Actor || 
-| Select Actor |  |  |
-| Field of View | [45] (30 ~ 100) | 
-| Near Clip Dist | [0.15] (0 ~ 0.3) | 
-| Control Actor Movement | ON | 
-| Control Hands in VR | ON | 
-| Remove Roll | [1] (0 ~ 1) | 
-| Stablizer | [5] (0 ~ 20) | 
-| Damping | [0.1] (0 ~ 1) | 
-| Disable Auto Return | OFF | 
-| Re-Center || 
+|<nobr>Assign To Main</nobr>|| 
+|<nobr>Select Actor</nobr>|  |  |
+|<nobr>Field of View</nobr>| [45] (30 ~ 100) | 
+|<nobr>Near Clip Dist</nobr>| [0.15] (0 ~ 0.3) | 
+|<nobr>Control Actor Movement</nobr>| [ON] | 
+|<nobr>Control Hands in VR</nobr>| [ON] | 
+|<nobr>Remove Roll</nobr>| [1] (0 ~ 1) | 
+|<nobr>Stablizer</nobr>| [5] (0 ~ 20) | 
+|<nobr>Damping</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>Disable Auto Return</nobr>| [OFF] | 
+|<nobr>Re-Center</nobr>|| 

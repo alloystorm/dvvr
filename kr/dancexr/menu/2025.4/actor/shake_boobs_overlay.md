@@ -14,9 +14,9 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 활성화 | OFF | 
-| 강도 | [1] (0 ~ 2) | 
-| 속도 | [0] (-2 ~ 2) | 
-| 모션 패턴 | [1] (-1 ~ 1) | 수평, 수직 또는 둘 다(0으로 설정된) 모션 선택
-| 시간 패턴 | (Pulse) | (Constant), (Pulse), (Gradual), 
-| (Abs Mode) | OFF | 중립 위치에서 반동
+|<nobr>활성화</nobr>| [OFF] | 
+|<nobr>강도</nobr>| [1] (0 ~ 2) | 
+|<nobr>속도</nobr>| [0] (-2 ~ 2) | 
+|<nobr>모션 패턴</nobr>| [1] (-1 ~ 1) | 수평, 수직 또는 둘 다(0으로 설정된) 모션 선택
+|<nobr>시간 패턴</nobr>| (Pulse) | (Constant), (Pulse), (Gradual), 
+|<nobr>(Abs Mode)</nobr>| [OFF] | 중립 위치에서 반동

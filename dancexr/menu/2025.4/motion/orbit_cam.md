@@ -14,30 +14,27 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Assign To Main || 
-| Target Select: Auto || 
-| Target Select | **Auto** | Auto, Selected, Group, Rotate, Rotate + Group, Stage Center,  |
-| Tracking Mode: Center || 
-| Tracking Mode | **Center** | Center, Head, Chest,  |
-| Target Smoothing | [0.5] (0 ~ 2) | 
-| Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
-| FOV | [30] (5 ~ 120) | 
-| Beat Cycle | [8] (1 ~ 16) | 
-| Use Controller Input | OFF | 
-| Prevent Below Floor | ON | 
-| Retain Velocity | OFF | Maintain the rotation when there is no input
-| Max Speed | [15] (0 ~ 30) | Maximum rotation speed
-| Min Speed | [0] (0 ~ 30) | Minimum rotation speed
-| Auto Mode | OFF | 
-| Distance Min | [1] (0 ~ 10) | 
-| Distance Max | [3] (1 ~ 10) | 
-| Distance Cycle | [12] (Unlimited) | 
-| Pitch Min | [-15] (-45 ~ 0) | 
-| Pitch Max | [15] (0 ~ 45) | 
-| Pitch Cycle | [32] (Unlimited) | 
-| Height Min | [0] (-1 ~ 0) | 
-| Height Max | [0.5] (0 ~ 1) | 
-| Height Cycle | [32] (Unlimited) | 
-| Speed | [10] (0 ~ 90) | 
-| Presets: Default (Reset) || 
-| Presets | **Default (Reset)** | Default (Reset), Preset 1,  |
+|<nobr>Assign To Main</nobr>|| 
+|<nobr>Target Select</nobr>| **Auto** | Auto, Selected, Group, Rotate, Rotate + Group, Stage Center,  |
+|<nobr>Tracking Mode</nobr>| **Center** | Center, Head, Chest,  |
+|<nobr>Target Smoothing</nobr>| [0.5] (0 ~ 2) | 
+|<nobr>Prediction</nobr>| [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
+|<nobr>FOV</nobr>| [30] (5 ~ 120) | 
+|<nobr>Beat Cycle</nobr>| [8] (1 ~ 16) | 
+|<nobr>Use Controller Input</nobr>| [OFF] | 
+|<nobr>Prevent Below Floor</nobr>| [ON] | 
+|<nobr>Retain Velocity</nobr>| [OFF] | Maintain the rotation when there is no input
+|<nobr>Max Speed</nobr>| [15] (0 ~ 30) | Maximum rotation speed
+|<nobr>Min Speed</nobr>| [0] (0 ~ 30) | Minimum rotation speed
+|<nobr>Auto Mode</nobr>| [OFF] | 
+|<nobr>Distance Min</nobr>| [1] (0 ~ 10) | 
+|<nobr>Distance Max</nobr>| [3] (1 ~ 10) | 
+|<nobr>Distance Cycle</nobr>| [12] (Unlimited) | 
+|<nobr>Pitch Min</nobr>| [-15] (-45 ~ 0) | 
+|<nobr>Pitch Max</nobr>| [15] (0 ~ 45) | 
+|<nobr>Pitch Cycle</nobr>| [32] (Unlimited) | 
+|<nobr>Height Min</nobr>| [0] (-1 ~ 0) | 
+|<nobr>Height Max</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>Height Cycle</nobr>| [32] (Unlimited) | 
+|<nobr>Speed</nobr>| [10] (0 ~ 90) | 
+|<nobr>Presets</nobr>| **Default (Reset)** | Default (Reset), Preset 1,  |

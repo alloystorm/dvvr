@@ -14,4 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 導出骨架結構 || 
+|<nobr>導出骨架結構</nobr>|| 

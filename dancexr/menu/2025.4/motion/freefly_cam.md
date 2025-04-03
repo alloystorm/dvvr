@@ -14,22 +14,19 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Assign To Main || 
-| Target Select: Auto || 
-| Target Select | **Auto** | Auto, Selected, Group, Rotate, Rotate + Group, Stage Center,  |
-| Tracking Mode: Center || 
-| Tracking Mode | **Center** | Center, Head, Chest,  |
-| Target Smoothing | [0.5] (0 ~ 2) | 
-| Prediction | [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
-| Lock On Target | OFF | Automatically focus on target
-| Camera Shake | [0.5] (0 ~ 1) | 
-| Lock Rotation | OFF | Camera follows the rotation of the target
-| Auto Zoom | [0] (0 ~ 1) | Automatically zoom in and out to maintain the target size in view
-| Zoom Speed | [0.5] (0 ~ 1) | Time it takes to zoom to target FOV
-| FOV Height At Target | [1] (0.2 ~ 2) | Vertical height for the target when using auto zoom
-| Vertical Offset | [0] (-1 ~ 1) | Offset vertically
-| FOV | [30] (5 ~ 120) | 
-| Beat Cycle | [8] (1 ~ 16) | 
-| Use Orbit Move | OFF | Enable or disable orbit movement, allowing the camera to rotate around a central point.
-| Presets: Freefly || 
-| Presets | **Freefly** | Freefly, Lock On Actor, Lock + Zoom Fullbody, Lock + Zoom Upper Body,  |
+|<nobr>Assign To Main</nobr>|| 
+|<nobr>Target Select</nobr>| **Auto** | Auto, Selected, Group, Rotate, Rotate + Group, Stage Center,  |
+|<nobr>Tracking Mode</nobr>| **Center** | Center, Head, Chest,  |
+|<nobr>Target Smoothing</nobr>| [0.5] (0 ~ 2) | 
+|<nobr>Prediction</nobr>| [1] (0 ~ 2) | Predict position of the target to reduce lag caused by smoothing
+|<nobr>Lock On Target</nobr>| [OFF] | Automatically focus on target
+|<nobr>Camera Shake</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>Lock Rotation</nobr>| [OFF] | Camera follows the rotation of the target
+|<nobr>Auto Zoom</nobr>| [0] (0 ~ 1) | Automatically zoom in and out to maintain the target size in view
+|<nobr>Zoom Speed</nobr>| [0.5] (0 ~ 1) | Time it takes to zoom to target FOV
+|<nobr>FOV Height At Target</nobr>| [1] (0.2 ~ 2) | Vertical height for the target when using auto zoom
+|<nobr>Vertical Offset</nobr>| [0] (-1 ~ 1) | Offset vertically
+|<nobr>FOV</nobr>| [30] (5 ~ 120) | 
+|<nobr>Beat Cycle</nobr>| [8] (1 ~ 16) | 
+|<nobr>Use Orbit Move</nobr>| [OFF] | Enable or disable orbit movement, allowing the camera to rotate around a central point.
+|<nobr>Presets</nobr>| **Freefly** | Freefly, Lock On Actor, Lock + Zoom Fullbody, Lock + Zoom Upper Body,  |

@@ -14,4 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 임계값 | [30] (0 ~ 50) | 
+|<nobr>임계값</nobr>| [30] (0 ~ 50) | 

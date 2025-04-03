@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 有効にする | OFF | 
-| バーチャルボーン | ON | 
-| ボーン | OFF | 
-| IK | OFF | 
-| ラグドール | OFF | 
+|<nobr>有効にする</nobr>| [OFF] | 
+|<nobr>バーチャルボーン</nobr>| [ON] | 
+|<nobr>ボーン</nobr>| [OFF] | 
+|<nobr>IK</nobr>| [OFF] | 
+|<nobr>ラグドール</nobr>| [OFF] | 

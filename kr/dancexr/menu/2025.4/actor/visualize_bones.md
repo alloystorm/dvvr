@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 활성화 | OFF | 
-| 가상 본 | ON | 
-| 본 | OFF | 
-| IK | OFF | 
-| 랙돌 | OFF | 
+|<nobr>활성화</nobr>| [OFF] | 
+|<nobr>가상 본</nobr>| [ON] | 
+|<nobr>본</nobr>| [OFF] | 
+|<nobr>IK</nobr>| [OFF] | 
+|<nobr>랙돌</nobr>| [OFF] | 

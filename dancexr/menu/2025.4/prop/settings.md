@@ -14,18 +14,18 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Scale | [0] (-2 ~ 2) | 
-| Offset X | [0] (Unlimited) | 
-| Offset Y | [0] (Unlimited) | 
-| Offset Z | [0] (Unlimited) | 
-| Rotation X | [0] (-180 ~ 180) | 
-| Rotation Y | [0] (-180 ~ 180) | 
-| Rotation Z | [0] (-180 ~ 180) | 
-| Physics | OFF | 
-| Stationary | OFF | 
-| Gravity | ON | 
-| Shape | Box | Sphere, Capsule, Box, 
-| Mass | [1] (0 ~ 10) | 
-| Drag | [0] (0 ~ 1) | 
-| Friction | [0.5] (0 ~ 1) | 
-| Bounciness | [0.5] (0 ~ 1) | 
+|<nobr>Scale</nobr>| [0] (-2 ~ 2) | 
+|<nobr>Offset X</nobr>| [0] (Unlimited) | 
+|<nobr>Offset Y</nobr>| [0] (Unlimited) | 
+|<nobr>Offset Z</nobr>| [0] (Unlimited) | 
+|<nobr>Rotation X</nobr>| [0] (-180 ~ 180) | 
+|<nobr>Rotation Y</nobr>| [0] (-180 ~ 180) | 
+|<nobr>Rotation Z</nobr>| [0] (-180 ~ 180) | 
+|<nobr>Physics</nobr>| [OFF] | 
+|<nobr>Stationary</nobr>| [OFF] | 
+|<nobr>Gravity</nobr>| [ON] | 
+|<nobr>Shape</nobr>| Box | Sphere, Capsule, Box, 
+|<nobr>Mass</nobr>| [1] (0 ~ 10) | 
+|<nobr>Drag</nobr>| [0] (0 ~ 1) | 
+|<nobr>Friction</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>Bounciness</nobr>| [0.5] (0 ~ 1) | 

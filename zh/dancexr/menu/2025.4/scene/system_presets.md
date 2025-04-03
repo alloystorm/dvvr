@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 重置所有 || 
-| 重新加载保存 || 
+|<nobr>重置所有</nobr>|| 
+|<nobr>重新加载保存</nobr>|| 

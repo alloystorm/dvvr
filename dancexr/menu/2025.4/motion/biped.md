@@ -14,23 +14,23 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Assign To All || 
-| Assign To Selected || 
-| Assign To All as 2nd || 
-| Assign To Selected as 2nd || 
-| Extent | [0.5] (0 ~ 1) | 
-| **Speed** | | 
-| ├&nbsp;Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
-| ├&nbsp;Moves Per Group | [8] (4 ~ 32) | 
-| ├&nbsp;Phase | [0] (0 ~ 1) | 
-| ├&nbsp;Curve | [0] (0 ~ 1) | 
-| ├&nbsp;Variable Speed | OFF | 
-| ├&nbsp;Mode | Gradual | Gradual, Random, Volume, 
-| ├&nbsp;Min Speed | 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
-| └&nbsp;Max Speed | 3/2 | 1, 3/2, 2, 3, 4, 
-| Smooth | [0] (0 ~ 1) | 
-| Swing | [15] (0 ~ 45) | 
-| Twist | [15] (0 ~ 45) | 
-| Torso Bend | [10] (0 ~ 30) | 
-| Torso Swing | [0.2] (-1 ~ 1) | 
-| Torso Twist | [0.5] (-1 ~ 1) | 
+|<nobr>Assign To All</nobr>|| 
+|<nobr>Assign To Selected</nobr>|| 
+|<nobr>Assign To All as 2nd</nobr>|| 
+|<nobr>Assign To Selected as 2nd</nobr>|| 
+|<nobr>Extent</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>**Speed**</nobr>| | 
+|<nobr>├&nbsp;Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
+|<nobr>├&nbsp;Moves Per Group</nobr>| [8] (4 ~ 32) | 
+|<nobr>├&nbsp;Phase</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;Curve</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;Variable Speed</nobr>| [OFF] | 
+|<nobr>├&nbsp;Mode</nobr>| Gradual | Gradual, Random, Volume, 
+|<nobr>├&nbsp;Min Speed</nobr>| 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
+|<nobr>└&nbsp;Max Speed</nobr>| 3/2 | 1, 3/2, 2, 3, 4, 
+|<nobr>Smooth</nobr>| [0] (0 ~ 1) | 
+|<nobr>Swing</nobr>| [15] (0 ~ 45) | 
+|<nobr>Twist</nobr>| [15] (0 ~ 45) | 
+|<nobr>Torso Bend</nobr>| [10] (0 ~ 30) | 
+|<nobr>Torso Swing</nobr>| [0.2] (-1 ~ 1) | 
+|<nobr>Torso Twist</nobr>| [0.5] (-1 ~ 1) | 

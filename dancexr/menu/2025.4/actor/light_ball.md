@@ -14,43 +14,40 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable | OFF | 
-| Shape | Ball | Ball, Diamond, Crystal, 
-| Size | [1] (0.1 ~ 10) | 
-| **Style** | | 
-| ├&nbsp;Use Stage Color | OFF | 
-| ├&nbsp;Flashing With Beats | OFF | 
-| ├&nbsp;**Color** | | 
-| │&nbsp;├&nbsp;Color Mode | RGB | RGB, HSV, 
-| │&nbsp;├&nbsp;Hue | [0] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Satuation | [0] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Brightness | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Red | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Green | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Blue | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;Glow | [1] (0 ~ 20) | 
-| │&nbsp;└&nbsp;Presets: White || 
-| │&nbsp;&nbsp;&nbsp;Presets | **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
-| ├&nbsp;Gloss | [0.95] (0 ~ 1) | 
-| ├&nbsp;Intensity | [10] (0 ~ 100) | 
-| ├&nbsp;Glow | [0] (0 ~ 10) | 
-| ├&nbsp;Metallic | [1] (0 ~ 1) | 
-| ├&nbsp;Refraction | [0.5] (-2 ~ 2) | 
-| ├&nbsp;Cast Shadow | OFF | 
-| ├&nbsp;Trail | [0] (0 ~ 2) | 
-| └&nbsp;Presets: Glow || 
-| &nbsp;&nbsp;Presets | **Glow** | Glow, Reflective, Crystal,  |
-| **Physics** | | 
-| ├&nbsp;Gravity | OFF | 
-| ├&nbsp;Collision | ON | 
-| ├&nbsp;Mass | [0.1] (0 ~ 10) | 
-| ├&nbsp;Distance | [0.15] (0 ~ 0.5) | 
-| ├&nbsp;Spring Force | [250] (0 ~ 1000) | 
-| ├&nbsp;Damping | [0.1] (0 ~ 10) | 
-| ├&nbsp;Min Speed | [0] (0 ~ 5) | 
-| ├&nbsp;Max Speed | [15] (2 ~ 15) | 
-| └&nbsp;Presets: Spring || 
-| &nbsp;&nbsp;Presets | **Spring** | Spring, Hanging, Floating,  |
-| Hands | ON | 
-| Hip | OFF | 
-| Torso | OFF | 
+|<nobr>Enable</nobr>| [OFF] | 
+|<nobr>Shape</nobr>| Ball | Ball, Diamond, Crystal, 
+|<nobr>Size</nobr>| [1] (0.1 ~ 10) | 
+|<nobr>**Style**</nobr>| | 
+|<nobr>├&nbsp;Use Stage Color</nobr>| [OFF] | 
+|<nobr>├&nbsp;Flashing With Beats</nobr>| [OFF] | 
+|<nobr>├&nbsp;**Color**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
+|<nobr>│&nbsp;├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Brightness</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Red</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Green</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Blue</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;Glow</nobr>| [1] (0 ~ 20) | 
+|<nobr>│&nbsp;└&nbsp;Presets</nobr>| **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+|<nobr>├&nbsp;Gloss</nobr>| [0.95] (0 ~ 1) | 
+|<nobr>├&nbsp;Intensity</nobr>| [10] (0 ~ 100) | 
+|<nobr>├&nbsp;Glow</nobr>| [0] (0 ~ 10) | 
+|<nobr>├&nbsp;Metallic</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;Refraction</nobr>| [0.5] (-2 ~ 2) | 
+|<nobr>├&nbsp;Cast Shadow</nobr>| [OFF] | 
+|<nobr>├&nbsp;Trail</nobr>| [0] (0 ~ 2) | 
+|<nobr>└&nbsp;Presets</nobr>| **Glow** | Glow, Reflective, Crystal,  |
+|<nobr>**Physics**</nobr>| | 
+|<nobr>├&nbsp;Gravity</nobr>| [OFF] | 
+|<nobr>├&nbsp;Collision</nobr>| [ON] | 
+|<nobr>├&nbsp;Mass</nobr>| [0.1] (0 ~ 10) | 
+|<nobr>├&nbsp;Distance</nobr>| [0.15] (0 ~ 0.5) | 
+|<nobr>├&nbsp;Spring Force</nobr>| [250] (0 ~ 1000) | 
+|<nobr>├&nbsp;Damping</nobr>| [0.1] (0 ~ 10) | 
+|<nobr>├&nbsp;Min Speed</nobr>| [0] (0 ~ 5) | 
+|<nobr>├&nbsp;Max Speed</nobr>| [15] (2 ~ 15) | 
+|<nobr>└&nbsp;Presets</nobr>| **Spring** | Spring, Hanging, Floating,  |
+|<nobr>Hands</nobr>| [ON] | 
+|<nobr>Hip</nobr>| [OFF] | 
+|<nobr>Torso</nobr>| [OFF] | 

@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable | OFF | 
-| Virtual Bones | ON | 
-| Bones | OFF | 
-| IK | OFF | 
-| Ragdoll | OFF | 
+|<nobr>Enable</nobr>| [OFF] | 
+|<nobr>Virtual Bones</nobr>| [ON] | 
+|<nobr>Bones</nobr>| [OFF] | 
+|<nobr>IK</nobr>| [OFF] | 
+|<nobr>Ragdoll</nobr>| [OFF] | 

@@ -14,9 +14,9 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 启用 | OFF | 
-| 强度 | [1] (0 ~ 2) | 
-| 速度 | [0] (-2 ~ 2) | 
-| 运动模式 | [1] (-1 ~ 1) | 选择水平、垂直或两者（设置为 0）运动
-| 时间模式 | (Pulse) | (Constant), (Pulse), (Gradual), 
-| (Abs Mode) | OFF | 在中性位置反弹
+|<nobr>启用</nobr>| [OFF] | 
+|<nobr>强度</nobr>| [1] (0 ~ 2) | 
+|<nobr>速度</nobr>| [0] (-2 ~ 2) | 
+|<nobr>运动模式</nobr>| [1] (-1 ~ 1) | 选择水平、垂直或两者（设置为 0）运动
+|<nobr>时间模式</nobr>| (Pulse) | (Constant), (Pulse), (Gradual), 
+|<nobr>(Abs Mode)</nobr>| [OFF] | 在中性位置反弹

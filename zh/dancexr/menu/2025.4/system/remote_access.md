@@ -14,6 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 启用 | OFF | 
-| 端口号 || 
-| 密码 || 
+|<nobr>启用</nobr>| [OFF] | 
+|<nobr>端口号</nobr>|| 
+|<nobr>密码</nobr>|| 

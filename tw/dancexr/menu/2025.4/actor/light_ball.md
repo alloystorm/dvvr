@@ -14,43 +14,40 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 啟用 | OFF | 
-| 形狀 | 球 | 球, 鑽石, 水晶, 
-| 大小 | [1] (0.1 ~ 10) | 
-| **風格** | | 
-| ├&nbsp;使用舞台顏色 | OFF | 
-| ├&nbsp;與節拍閃爍 | OFF | 
-| ├&nbsp;**顏色** | | 
-| │&nbsp;├&nbsp;顏色模式 | (RGB) | (RGB), (HSV), 
-| │&nbsp;├&nbsp;色相 | [0] (0 ~ 1) | 
-| │&nbsp;├&nbsp;飽和度 | [0] (0 ~ 1) | 
-| │&nbsp;├&nbsp;亮度 | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;紅色 | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;綠色 | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;藍色 | [1] (0 ~ 1) | 
-| │&nbsp;├&nbsp;發光 | [1] (0 ~ 20) | 
-| │&nbsp;└&nbsp;(Presets: White) || 
-| │&nbsp;&nbsp;&nbsp;預設 | **白色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
-| ├&nbsp;光澤 | [0.95] (0 ~ 1) | 
-| ├&nbsp;強度 | [10] (0 ~ 100) | 
-| ├&nbsp;發光 | [0] (0 ~ 10) | 
-| ├&nbsp;金屬質感 | [1] (0 ~ 1) | 
-| ├&nbsp;折射 | [0.5] (-2 ~ 2) | 
-| ├&nbsp;投擲陰影 | OFF | 
-| ├&nbsp;軌跡 | [0] (0 ~ 2) | 
-| └&nbsp;(Presets: Glow) || 
-| &nbsp;&nbsp;預設 | **發光** | 發光, 反射, 水晶,  |
-| **物理** | | 
-| ├&nbsp;重力 | OFF | 
-| ├&nbsp;碰撞 | ON | 
-| ├&nbsp;質量 | [0.1] (0 ~ 10) | 
-| ├&nbsp;距離 | [0.15] (0 ~ 0.5) | 
-| ├&nbsp;彈簧力量 | [250] (0 ~ 1000) | 
-| ├&nbsp;阻尼 | [0.1] (0 ~ 10) | 
-| ├&nbsp;最小速度 | [0] (0 ~ 5) | 
-| ├&nbsp;最大速度 | [15] (2 ~ 15) | 
-| └&nbsp;(Presets: Spring) || 
-| &nbsp;&nbsp;預設 | **彈簧** | 彈簧, (Hanging), 浮動,  |
-| 手 | ON | 
-| 臀部 | OFF | 
-| 軀幹 | OFF | 
+|<nobr>啟用</nobr>| [OFF] | 
+|<nobr>形狀</nobr>| 球 | 球, 鑽石, 水晶, 
+|<nobr>大小</nobr>| [1] (0.1 ~ 10) | 
+|<nobr>**風格**</nobr>| | 
+|<nobr>├&nbsp;使用舞台顏色</nobr>| [OFF] | 
+|<nobr>├&nbsp;與節拍閃爍</nobr>| [OFF] | 
+|<nobr>├&nbsp;**顏色**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;亮度</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;紅色</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;綠色</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;藍色</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;發光</nobr>| [1] (0 ~ 20) | 
+|<nobr>│&nbsp;└&nbsp;預設</nobr>| **白色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
+|<nobr>├&nbsp;光澤</nobr>| [0.95] (0 ~ 1) | 
+|<nobr>├&nbsp;強度</nobr>| [10] (0 ~ 100) | 
+|<nobr>├&nbsp;發光</nobr>| [0] (0 ~ 10) | 
+|<nobr>├&nbsp;金屬質感</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;折射</nobr>| [0.5] (-2 ~ 2) | 
+|<nobr>├&nbsp;投擲陰影</nobr>| [OFF] | 
+|<nobr>├&nbsp;軌跡</nobr>| [0] (0 ~ 2) | 
+|<nobr>└&nbsp;預設</nobr>| **發光** | 發光, 反射, 水晶,  |
+|<nobr>**物理**</nobr>| | 
+|<nobr>├&nbsp;重力</nobr>| [OFF] | 
+|<nobr>├&nbsp;碰撞</nobr>| [ON] | 
+|<nobr>├&nbsp;質量</nobr>| [0.1] (0 ~ 10) | 
+|<nobr>├&nbsp;距離</nobr>| [0.15] (0 ~ 0.5) | 
+|<nobr>├&nbsp;彈簧力量</nobr>| [250] (0 ~ 1000) | 
+|<nobr>├&nbsp;阻尼</nobr>| [0.1] (0 ~ 10) | 
+|<nobr>├&nbsp;最小速度</nobr>| [0] (0 ~ 5) | 
+|<nobr>├&nbsp;最大速度</nobr>| [15] (2 ~ 15) | 
+|<nobr>└&nbsp;預設</nobr>| **彈簧** | 彈簧, (Hanging), 浮動,  |
+|<nobr>手</nobr>| [ON] | 
+|<nobr>臀部</nobr>| [OFF] | 
+|<nobr>軀幹</nobr>| [OFF] | 

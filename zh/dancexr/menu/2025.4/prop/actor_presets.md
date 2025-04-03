@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 重置所有 || 
-| 重新加载保存 || 
-| 保存演员预设 || 
-| 保存全局 || 
+|<nobr>重置所有</nobr>|| 
+|<nobr>重新加载保存</nobr>|| 
+|<nobr>保存演员预设</nobr>|| 
+|<nobr>保存全局</nobr>|| 
