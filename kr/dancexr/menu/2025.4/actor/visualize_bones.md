@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Visualize Bones) | OFF | 0/4/False
-| 가상 본 | ON | 1/4/False
-| 본 | OFF | 2/4/False
-| IK | OFF | 3/4/False
-| 랙돌 | OFF | 4/4/False
+| (Enable Visualize Bones) | OFF | 
+| 가상 본 | ON | 
+| 본 | OFF | 
+| IK | OFF | 
+| 랙돌 | OFF | 

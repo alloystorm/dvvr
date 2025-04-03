@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 嘴巴 || 0/3/False
-| 使用唇同步 | OFF | 1/3/False
-| 眉毛 || 2/3/False
-| 眼睑 || 3/3/False
+| 嘴巴 || 
+| 使用唇同步 | OFF | 
+| 眉毛 || 
+| 眼睑 || 

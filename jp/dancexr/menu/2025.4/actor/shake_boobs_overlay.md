@@ -14,9 +14,9 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Shake Boobs Overlay) | OFF | 0/5/False
-| 強度 | [1] (0 ~ 2) | 1/5/False
-| スピード | [0] (-2 ~ 2) | 2/5/False
-| モーションパターン | [1] (-1 ~ 1) | 水平、垂直、または両方の動きを選択（0に設定）3/5/False
-| 時間パターン | (Pulse) | (Constant), (Pulse), (Gradual), 4/5/False
-| (Abs Mode) | OFF | 中立位置でバウンスバック5/5/False
+| (Enable Shake Boobs Overlay) | OFF | 
+| 強度 | [1] (0 ~ 2) | 
+| スピード | [0] (-2 ~ 2) | 
+| モーションパターン | [1] (-1 ~ 1) | 水平、垂直、または両方の動きを選択（0に設定）
+| 時間パターン | (Pulse) | (Constant), (Pulse), (Gradual), 
+| (Abs Mode) | OFF | 中立位置でバウンスバック

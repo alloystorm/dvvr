@@ -14,125 +14,125 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable DanceXR Logo | ON | 0/7/False
-| **Logo Surface 1** | | 1/7/False
-| ├ Gloss | [0.9] (0 ~ 1) | 0/9/True
-| ├ Metallic | [0] (0 ~ 1) | 1/9/True
-| ├ Bump | [0.2] (0 ~ 1) | 2/9/True
-| ├ Glow | [0] (0 ~ 10) | 3/9/True
-| ├ Ambient | [1] (0 ~ 1) | 4/9/True
-| ├ Alpha | [1] (0 ~ 1) | 5/9/True
-| ├ Clip | [0] (0 ~ 1) | 6/9/True
-| ├ **Color** | | 7/9/True
-| │ ├ Color Mode | RGB | RGB, HSV, 0/8/True
-| │ ├ Hue | [0] (0 ~ 1) | 1/8/True
-| │ ├ Satuation | [0] (0 ~ 1) | 2/8/True
-| │ ├ Brightness | [1] (0 ~ 1) | 3/8/True
-| │ ├ Red | [1] (0 ~ 1) | 4/8/True
-| │ ├ Green | [1] (0 ~ 1) | 5/8/True
-| │ ├ Blue | [1] (0 ~ 1) | 6/8/True
-| │ ├ Blend Mode: Blend || 7/8/True
+| Enable DanceXR Logo | ON | 
+| **Logo Surface 1** | | 
+| ├ Gloss | [0.9] (0 ~ 1) | 
+| ├ Metallic | [0] (0 ~ 1) | 
+| ├ Bump | [0.2] (0 ~ 1) | 
+| ├ Glow | [0] (0 ~ 10) | 
+| ├ Ambient | [1] (0 ~ 1) | 
+| ├ Alpha | [1] (0 ~ 1) | 
+| ├ Clip | [0] (0 ~ 1) | 
+| ├ **Color** | | 
+| │ ├ Color Mode | RGB | RGB, HSV, 
+| │ ├ Hue | [0] (0 ~ 1) | 
+| │ ├ Satuation | [0] (0 ~ 1) | 
+| │ ├ Brightness | [1] (0 ~ 1) | 
+| │ ├ Red | [1] (0 ~ 1) | 
+| │ ├ Green | [1] (0 ~ 1) | 
+| │ ├ Blue | [1] (0 ~ 1) | 
+| │ ├ Blend Mode: Blend || 
 | │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
-| │ ├ Blend | [1] (0 ~ 1) | 8/8/True
+| │ ├ Blend | [1] (0 ~ 1) | 
 | │ └ Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├ **Toon Shader** | | 8/9/True
-| │ ├ Enable Toon Shader | OFF | 0/10/True
-| │ ├ Shading | [1] (0 ~ 1) | 1/10/True
-| │ ├ Outline | [0.5] (0 ~ 1) | 2/10/True
-| │ ├ Specular | [0.25] (0 ~ 1) | 3/10/True
-| │ ├ Soft Specular | [0.1] (0 ~ 1) | 4/10/True
-| │ ├ Highlight Area | [0.25] (0 ~ 1) | 5/10/True
-| │ ├ Soft Highlight | [0.1] (0 ~ 1) | 6/10/True
-| │ ├ Ambient | [0.75] (0 ~ 1) | 7/10/True
-| │ ├ Shadow Area | [0.65] (0 ~ 1) | 8/10/True
-| │ ├ Shadow | [0.75] (0 ~ 1) | 9/10/True
-| │ ├ Soft Shadow | [0.1] (0 ~ 1) | 10/10/True
+| ├ **Toon Shader** | | 
+| │ ├ Enable Toon Shader | OFF | 
+| │ ├ Shading | [1] (0 ~ 1) | 
+| │ ├ Outline | [0.5] (0 ~ 1) | 
+| │ ├ Specular | [0.25] (0 ~ 1) | 
+| │ ├ Soft Specular | [0.1] (0 ~ 1) | 
+| │ ├ Highlight Area | [0.25] (0 ~ 1) | 
+| │ ├ Soft Highlight | [0.1] (0 ~ 1) | 
+| │ ├ Ambient | [0.75] (0 ~ 1) | 
+| │ ├ Shadow Area | [0.65] (0 ~ 1) | 
+| │ ├ Shadow | [0.75] (0 ~ 1) | 
+| │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
 | │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| ├ **Special Shader** | | 9/9/True
-| │ ├ Mode: Off || 0/2/False
+| ├ **Special Shader** | | 
+| │ ├ Mode: Off || 
 | │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
-| │ ├ Refraction | [0.5] (1 ~ 3) | 1/2/False
-| │ └ Thickness | [1] (0 ~ 1) | 2/2/False
+| │ ├ Refraction | [0.5] (1 ~ 3) | 
+| │ └ Thickness | [1] (0 ~ 1) | 
 | └ Presets | **White Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
-| **Logo Surface 2** | | 2/7/False
-| ├ Gloss | [0.9] (0 ~ 1) | 0/9/True
-| ├ Metallic | [0] (0 ~ 1) | 1/9/True
-| ├ Bump | [0.2] (0 ~ 1) | 2/9/True
-| ├ Glow | [0] (0 ~ 10) | 3/9/True
-| ├ Ambient | [1] (0 ~ 1) | 4/9/True
-| ├ Alpha | [1] (0 ~ 1) | 5/9/True
-| ├ Clip | [0] (0 ~ 1) | 6/9/True
-| ├ **Color** | | 7/9/True
-| │ ├ Color Mode | RGB | RGB, HSV, 0/8/True
-| │ ├ Hue | [0] (0 ~ 1) | 1/8/True
-| │ ├ Satuation | [0] (0 ~ 1) | 2/8/True
-| │ ├ Brightness | [1] (0 ~ 1) | 3/8/True
-| │ ├ Red | [1] (0 ~ 1) | 4/8/True
-| │ ├ Green | [1] (0 ~ 1) | 5/8/True
-| │ ├ Blue | [1] (0 ~ 1) | 6/8/True
-| │ ├ Blend Mode: Blend || 7/8/True
+| **Logo Surface 2** | | 
+| ├ Gloss | [0.9] (0 ~ 1) | 
+| ├ Metallic | [0] (0 ~ 1) | 
+| ├ Bump | [0.2] (0 ~ 1) | 
+| ├ Glow | [0] (0 ~ 10) | 
+| ├ Ambient | [1] (0 ~ 1) | 
+| ├ Alpha | [1] (0 ~ 1) | 
+| ├ Clip | [0] (0 ~ 1) | 
+| ├ **Color** | | 
+| │ ├ Color Mode | RGB | RGB, HSV, 
+| │ ├ Hue | [0] (0 ~ 1) | 
+| │ ├ Satuation | [0] (0 ~ 1) | 
+| │ ├ Brightness | [1] (0 ~ 1) | 
+| │ ├ Red | [1] (0 ~ 1) | 
+| │ ├ Green | [1] (0 ~ 1) | 
+| │ ├ Blue | [1] (0 ~ 1) | 
+| │ ├ Blend Mode: Blend || 
 | │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
-| │ ├ Blend | [1] (0 ~ 1) | 8/8/True
+| │ ├ Blend | [1] (0 ~ 1) | 
 | │ └ Presets | **Red** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├ **Toon Shader** | | 8/9/True
-| │ ├ Enable Toon Shader | OFF | 0/10/True
-| │ ├ Shading | [1] (0 ~ 1) | 1/10/True
-| │ ├ Outline | [0.5] (0 ~ 1) | 2/10/True
-| │ ├ Specular | [0.25] (0 ~ 1) | 3/10/True
-| │ ├ Soft Specular | [0.1] (0 ~ 1) | 4/10/True
-| │ ├ Highlight Area | [0.25] (0 ~ 1) | 5/10/True
-| │ ├ Soft Highlight | [0.1] (0 ~ 1) | 6/10/True
-| │ ├ Ambient | [0.75] (0 ~ 1) | 7/10/True
-| │ ├ Shadow Area | [0.65] (0 ~ 1) | 8/10/True
-| │ ├ Shadow | [0.75] (0 ~ 1) | 9/10/True
-| │ ├ Soft Shadow | [0.1] (0 ~ 1) | 10/10/True
+| ├ **Toon Shader** | | 
+| │ ├ Enable Toon Shader | OFF | 
+| │ ├ Shading | [1] (0 ~ 1) | 
+| │ ├ Outline | [0.5] (0 ~ 1) | 
+| │ ├ Specular | [0.25] (0 ~ 1) | 
+| │ ├ Soft Specular | [0.1] (0 ~ 1) | 
+| │ ├ Highlight Area | [0.25] (0 ~ 1) | 
+| │ ├ Soft Highlight | [0.1] (0 ~ 1) | 
+| │ ├ Ambient | [0.75] (0 ~ 1) | 
+| │ ├ Shadow Area | [0.65] (0 ~ 1) | 
+| │ ├ Shadow | [0.75] (0 ~ 1) | 
+| │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
 | │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| ├ **Special Shader** | | 9/9/True
-| │ ├ Mode: Off || 0/2/False
+| ├ **Special Shader** | | 
+| │ ├ Mode: Off || 
 | │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
-| │ ├ Refraction | [0.5] (1 ~ 3) | 1/2/False
-| │ └ Thickness | [1] (0 ~ 1) | 2/2/False
+| │ ├ Refraction | [0.5] (1 ~ 3) | 
+| │ └ Thickness | [1] (0 ~ 1) | 
 | └ Presets | **Red Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
-| Diamond | ON | 3/7/False
-| **Diamond Surface** | | 4/7/False
-| ├ Gloss | [0.9] (0 ~ 1) | 0/9/True
-| ├ Metallic | [1] (0 ~ 1) | 1/9/True
-| ├ Bump | [0.2] (0 ~ 1) | 2/9/True
-| ├ Glow | [0] (0 ~ 10) | 3/9/True
-| ├ Ambient | [1] (0 ~ 1) | 4/9/True
-| ├ Alpha | [1] (0 ~ 1) | 5/9/True
-| ├ Clip | [0] (0 ~ 1) | 6/9/True
-| ├ **Color** | | 7/9/True
-| │ ├ Color Mode | RGB | RGB, HSV, 0/8/True
-| │ ├ Hue | [0] (0 ~ 1) | 1/8/True
-| │ ├ Satuation | [0] (0 ~ 1) | 2/8/True
-| │ ├ Brightness | [1] (0 ~ 1) | 3/8/True
-| │ ├ Red | [1] (0 ~ 1) | 4/8/True
-| │ ├ Green | [1] (0 ~ 1) | 5/8/True
-| │ ├ Blue | [1] (0 ~ 1) | 6/8/True
-| │ ├ Blend Mode: Blend || 7/8/True
+| Diamond | ON | 
+| **Diamond Surface** | | 
+| ├ Gloss | [0.9] (0 ~ 1) | 
+| ├ Metallic | [1] (0 ~ 1) | 
+| ├ Bump | [0.2] (0 ~ 1) | 
+| ├ Glow | [0] (0 ~ 10) | 
+| ├ Ambient | [1] (0 ~ 1) | 
+| ├ Alpha | [1] (0 ~ 1) | 
+| ├ Clip | [0] (0 ~ 1) | 
+| ├ **Color** | | 
+| │ ├ Color Mode | RGB | RGB, HSV, 
+| │ ├ Hue | [0] (0 ~ 1) | 
+| │ ├ Satuation | [0] (0 ~ 1) | 
+| │ ├ Brightness | [1] (0 ~ 1) | 
+| │ ├ Red | [1] (0 ~ 1) | 
+| │ ├ Green | [1] (0 ~ 1) | 
+| │ ├ Blue | [1] (0 ~ 1) | 
+| │ ├ Blend Mode: Blend || 
 | │ │ Blend Mode | **Blend** | Original, Multiply, Blend, Color Shift,  |
-| │ ├ Blend | [1] (0 ~ 1) | 8/8/True
+| │ ├ Blend | [1] (0 ~ 1) | 
 | │ └ Presets | **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├ **Toon Shader** | | 8/9/True
-| │ ├ Enable Toon Shader | OFF | 0/10/True
-| │ ├ Shading | [1] (0 ~ 1) | 1/10/True
-| │ ├ Outline | [0.5] (0 ~ 1) | 2/10/True
-| │ ├ Specular | [0.25] (0 ~ 1) | 3/10/True
-| │ ├ Soft Specular | [0.1] (0 ~ 1) | 4/10/True
-| │ ├ Highlight Area | [0.25] (0 ~ 1) | 5/10/True
-| │ ├ Soft Highlight | [0.1] (0 ~ 1) | 6/10/True
-| │ ├ Ambient | [0.75] (0 ~ 1) | 7/10/True
-| │ ├ Shadow Area | [0.65] (0 ~ 1) | 8/10/True
-| │ ├ Shadow | [0.75] (0 ~ 1) | 9/10/True
-| │ ├ Soft Shadow | [0.1] (0 ~ 1) | 10/10/True
+| ├ **Toon Shader** | | 
+| │ ├ Enable Toon Shader | OFF | 
+| │ ├ Shading | [1] (0 ~ 1) | 
+| │ ├ Outline | [0.5] (0 ~ 1) | 
+| │ ├ Specular | [0.25] (0 ~ 1) | 
+| │ ├ Soft Specular | [0.1] (0 ~ 1) | 
+| │ ├ Highlight Area | [0.25] (0 ~ 1) | 
+| │ ├ Soft Highlight | [0.1] (0 ~ 1) | 
+| │ ├ Ambient | [0.75] (0 ~ 1) | 
+| │ ├ Shadow Area | [0.65] (0 ~ 1) | 
+| │ ├ Shadow | [0.75] (0 ~ 1) | 
+| │ ├ Soft Shadow | [0.1] (0 ~ 1) | 
 | │ └ Presets | **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| ├ **Special Shader** | | 9/9/True
-| │ ├ Mode: Off || 0/2/False
+| ├ **Special Shader** | | 
+| │ ├ Mode: Off || 
 | │ │ Mode | **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
-| │ ├ Refraction | [0.5] (1 ~ 3) | 1/2/False
-| │ └ Thickness | [1] (0 ~ 1) | 2/2/False
+| │ ├ Refraction | [0.5] (1 ~ 3) | 
+| │ └ Thickness | [1] (0 ~ 1) | 
 | └ Presets | **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
-| Distance | [4.5] (1 ~ 8) | 5/7/False
-| Position | [0] (-180 ~ 180) | 6/7/False
-| Scale | [1] (0.2 ~ 2) | 7/7/False
+| Distance | [4.5] (1 ~ 8) | 
+| Position | [0] (-180 ~ 180) | 
+| Scale | [1] (0.2 ~ 2) | 

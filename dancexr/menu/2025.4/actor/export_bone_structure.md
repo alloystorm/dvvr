@@ -14,4 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Export Bone Structure || 0/0/False
+| Export Bone Structure || 

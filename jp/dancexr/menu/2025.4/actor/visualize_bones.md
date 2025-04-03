@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Visualize Bones) | OFF | 0/4/False
-| バーチャルボーン | ON | 1/4/False
-| ボーン | OFF | 2/4/False
-| IK | OFF | 3/4/False
-| ラグドール | OFF | 4/4/False
+| (Enable Visualize Bones) | OFF | 
+| バーチャルボーン | ON | 
+| ボーン | OFF | 
+| IK | OFF | 
+| ラグドール | OFF | 

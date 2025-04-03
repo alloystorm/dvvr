@@ -14,9 +14,9 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 名字 || 0/4/False
-| (Voice: [built-in]|0) || 1/4/False
+| 名字 || 
+| (Voice: [built-in]|0) || 
 | 声音 | **([built-in]|0)** | ([built-in]|0), ([built-in]|1), ([built-in]|2), ([built-in]|3), ([built-in]|4), ([built-in]|5), ([built-in]|6), ([built-in]|7), ([built-in]|8), ([built-in]|9), ([built-in]|10), ([built-in]|11), ([built-in]|12), ([built-in]|13), ([built-in]|14), ([built-in]|15), ([built-in]|16), ([built-in]|17), ([built-in]|18), ([built-in]|19),  |
-| 性别 | 男 | 男, 女, 2/4/False
-| 描述 || 3/4/False
-| 个性 || 4/4/False
+| 性别 | 男 | 男, 女, 
+| 描述 || 
+| 个性 || 

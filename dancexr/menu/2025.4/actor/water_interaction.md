@@ -14,18 +14,18 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Ripple | OFF | 0/14/False
-| Intensity | [1] (0 ~ 2) | 1/14/False
-| Body | [1] (0.1 ~ 2) | 2/14/False
-| Hands | [0.5] (0.1 ~ 2) | 3/14/False
-| Feet | [0.5] (0.1 ~ 2) | 4/14/False
-| Water Drop || 5/14/False
-| Sweat Drops | [0] (0 ~ 1) | 6/14/False
-| Water Drop Glow | [5] (0 ~ 20) | 7/14/False
-| Water Drop Gravity | [3] (0 ~ 10) | 8/14/False
-| Drag | [2.5] (0 ~ 10) | 9/14/False
-| Metallic | [0.25] (0 ~ 1) | 10/14/False
-| Alpha | [0.25] (0 ~ 1) | 11/14/False
-| Size | [0.003] (0 ~ 0.01) | 12/14/False
-| Duration | [5] (0 ~ 10) | 13/14/False
-| Sweat Collision | OFF | 14/14/False
+| Ripple | OFF | 
+| Intensity | [1] (0 ~ 2) | 
+| Body | [1] (0.1 ~ 2) | 
+| Hands | [0.5] (0.1 ~ 2) | 
+| Feet | [0.5] (0.1 ~ 2) | 
+| Water Drop || 
+| Sweat Drops | [0] (0 ~ 1) | 
+| Water Drop Glow | [5] (0 ~ 20) | 
+| Water Drop Gravity | [3] (0 ~ 10) | 
+| Drag | [2.5] (0 ~ 10) | 
+| Metallic | [0.25] (0 ~ 1) | 
+| Alpha | [0.25] (0 ~ 1) | 
+| Size | [0.003] (0 ~ 0.01) | 
+| Duration | [5] (0 ~ 10) | 
+| Sweat Collision | OFF | 

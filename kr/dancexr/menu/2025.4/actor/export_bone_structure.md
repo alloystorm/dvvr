@@ -14,4 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 본 구조 내보내기 || 0/0/False
+| 본 구조 내보내기 || 

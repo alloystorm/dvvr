@@ -14,9 +14,9 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Shake Boobs Overlay | OFF | 0/5/False
-| Intensity | [1] (0 ~ 2) | 1/5/False
-| Speed | [0] (-2 ~ 2) | 2/5/False
-| Motion Pattern | [1] (-1 ~ 1) | Choose horizontal, vertial or both (set to 0) motion3/5/False
-| Time Pattern | Pulse | Constant, Pulse, Gradual, 4/5/False
-| Abs Mode | OFF | Bounce back at neutral position5/5/False
+| Enable Shake Boobs Overlay | OFF | 
+| Intensity | [1] (0 ~ 2) | 
+| Speed | [0] (-2 ~ 2) | 
+| Motion Pattern | [1] (-1 ~ 1) | Choose horizontal, vertial or both (set to 0) motion
+| Time Pattern | Pulse | Constant, Pulse, Gradual, 
+| Abs Mode | OFF | Bounce back at neutral position

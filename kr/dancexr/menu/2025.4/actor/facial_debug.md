@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 입 || 0/3/False
-| 입 모양 동기 사용 | OFF | 1/3/False
-| 눈썹 || 2/3/False
-| 눈꺼풀 || 3/3/False
+| 입 || 
+| 입 모양 동기 사용 | OFF | 
+| 눈썹 || 
+| 눈꺼풀 || 

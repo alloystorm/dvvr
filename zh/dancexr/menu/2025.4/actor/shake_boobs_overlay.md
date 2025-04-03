@@ -14,9 +14,9 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Shake Boobs Overlay) | OFF | 0/5/False
-| 强度 | [1] (0 ~ 2) | 1/5/False
-| 速度 | [0] (-2 ~ 2) | 2/5/False
-| 运动模式 | [1] (-1 ~ 1) | 选择水平、垂直或两者（设置为 0）运动3/5/False
-| 时间模式 | (Pulse) | (Constant), (Pulse), (Gradual), 4/5/False
-| (Abs Mode) | OFF | 在中性位置反弹5/5/False
+| (Enable Shake Boobs Overlay) | OFF | 
+| 强度 | [1] (0 ~ 2) | 
+| 速度 | [0] (-2 ~ 2) | 
+| 运动模式 | [1] (-1 ~ 1) | 选择水平、垂直或两者（设置为 0）运动
+| 时间模式 | (Pulse) | (Constant), (Pulse), (Gradual), 
+| (Abs Mode) | OFF | 在中性位置反弹

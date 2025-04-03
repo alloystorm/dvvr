@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Enable Visualize Bones | OFF | 0/4/False
-| Virtual Bones | ON | 1/4/False
-| Bones | OFF | 2/4/False
-| IK | OFF | 3/4/False
-| Ragdoll | OFF | 4/4/False
+| Enable Visualize Bones | OFF | 
+| Virtual Bones | ON | 
+| Bones | OFF | 
+| IK | OFF | 
+| Ragdoll | OFF | 

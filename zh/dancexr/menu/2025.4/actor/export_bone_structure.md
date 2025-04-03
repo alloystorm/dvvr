@@ -14,4 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 导出骨骼结构 || 0/0/False
+| 导出骨骼结构 || 

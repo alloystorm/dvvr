@@ -14,20 +14,20 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Assign To All || 0/8/False
-| Assign To Selected || 1/8/False
-| Assign To All as 2nd || 2/8/False
-| Assign To Selected as 2nd || 3/8/False
-| Extent | [0.5] (0 ~ 1) | 4/8/False
-| **Speed** | | 5/8/False
-| ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 0/7/False
-| ├ Moves Per Group | [8] (4 ~ 32) | 1/7/False
-| ├ Phase | [0] (0 ~ 1) | 2/7/False
-| ├ Curve | [0] (0 ~ 1) | 3/7/False
-| ├ Variable Speed | OFF | 4/7/False
-| ├ Mode | Gradual | Gradual, Random, Volume, 5/7/False
-| ├ Min Speed | 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 6/7/False
-| └ Max Speed | 3/2 | 1, 3/2, 2, 3, 4, 7/7/False
-| Audio Sensitivity | [2] (0.5 ~ 5) | 6/8/False
-| Audio Threshold | [0.1] (0 ~ 0.5) | 7/8/False
-| Body Twist | [0] (0 ~ 1) | 8/8/False
+| Assign To All || 
+| Assign To Selected || 
+| Assign To All as 2nd || 
+| Assign To Selected as 2nd || 
+| Extent | [0.5] (0 ~ 1) | 
+| **Speed** | | 
+| ├ Moves Per Beat | 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
+| ├ Moves Per Group | [8] (4 ~ 32) | 
+| ├ Phase | [0] (0 ~ 1) | 
+| ├ Curve | [0] (0 ~ 1) | 
+| ├ Variable Speed | OFF | 
+| ├ Mode | Gradual | Gradual, Random, Volume, 
+| ├ Min Speed | 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
+| └ Max Speed | 3/2 | 1, 3/2, 2, 3, 4, 
+| Audio Sensitivity | [2] (0.5 ~ 5) | 
+| Audio Threshold | [0.1] (0 ~ 0.5) | 
+| Body Twist | [0] (0 ~ 1) | 

@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 모두 리셋 || 0/1/False
-| 저장된 다시 로드 || 1/1/False
+| 모두 리셋 || 
+| 저장된 다시 로드 || 

@@ -14,5 +14,5 @@ Save system settings as presets for you to load and apply in the future. Stored 
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Reset All || 0/1/False
-| Reload Saved || 1/1/False
+| Reset All || 
+| Reload Saved || 

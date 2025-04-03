@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| Actor Scale | [1] (0.15 ~ 5) | 0/1/False
-| Motion Scale | [1] (0.5 ~ 1.5) | 1/1/False
+| Actor Scale | [1] (0.15 ~ 5) | 
+| Motion Scale | [1] (0.5 ~ 1.5) | 

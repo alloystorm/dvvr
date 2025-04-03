@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Visualize Bones) | OFF | 0/4/False
-| 虚拟骨骼 | ON | 1/4/False
-| 骨骼 | OFF | 2/4/False
-| IK | OFF | 3/4/False
-| 布娃娃 | OFF | 4/4/False
+| (Enable Visualize Bones) | OFF | 
+| 虚拟骨骼 | ON | 
+| 骨骼 | OFF | 
+| IK | OFF | 
+| 布娃娃 | OFF | 

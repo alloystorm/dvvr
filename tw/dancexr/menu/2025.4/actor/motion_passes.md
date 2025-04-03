@@ -14,13 +14,13 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| 重置骨骼 | ON | 0/9/False
-| 動畫 | ON | 1/9/False
-| 偏移 | ON | 2/9/False
-| IK | ON | 3/9/False
-| 虛擬骨骼 | ON | 4/9/False
-| 形狀後更新 | ON | 5/9/False
-| 繼承骨骼 | ON | 6/9/False
-| 後變換 | ON | 7/9/False
-| 後IK | ON | 8/9/False
-| 最終更新 | ON | 9/9/False
+| 重置骨骼 | ON | 
+| 動畫 | ON | 
+| 偏移 | ON | 
+| IK | ON | 
+| 虛擬骨骼 | ON | 
+| 形狀後更新 | ON | 
+| 繼承骨骼 | ON | 
+| 後變換 | ON | 
+| 後IK | ON | 
+| 最終更新 | ON | 

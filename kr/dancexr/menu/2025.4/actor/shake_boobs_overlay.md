@@ -14,9 +14,9 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| (Enable Shake Boobs Overlay) | OFF | 0/5/False
-| 강도 | [1] (0 ~ 2) | 1/5/False
-| 속도 | [0] (-2 ~ 2) | 2/5/False
-| 모션 패턴 | [1] (-1 ~ 1) | 수평, 수직 또는 둘 다(0으로 설정된) 모션 선택3/5/False
-| 시간 패턴 | (Pulse) | (Constant), (Pulse), (Gradual), 4/5/False
-| (Abs Mode) | OFF | 중립 위치에서 반동5/5/False
+| (Enable Shake Boobs Overlay) | OFF | 
+| 강도 | [1] (0 ~ 2) | 
+| 속도 | [0] (-2 ~ 2) | 
+| 모션 패턴 | [1] (-1 ~ 1) | 수평, 수직 또는 둘 다(0으로 설정된) 모션 선택
+| 시간 패턴 | (Pulse) | (Constant), (Pulse), (Gradual), 
+| (Abs Mode) | OFF | 중립 위치에서 반동
