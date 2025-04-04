@@ -30,13 +30,13 @@ sidebar:
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> モード</nobr>| **ワイヤーフレーム** | ワイヤーフレーム, 不透明, クローム, ソリッドグラス, 薄いガラス, <br/>(Selects the visualization mode for virtual shoes.) |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 滑らかさ</nobr>| [1] (0 ~ 1) | (Controls the smoothness of the virtual shoe material.)
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>色</b></nobr>| | Sets the color of the virtual shoe material.
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> カラーモード</nobr>| (RGB) | (RGB), (HSV), 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑</nobr>| [1] (0 ~ 1) | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> カラーモード</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 青</nobr>| [1] (0 ~ 1) | 
 |<nobr> <b>ヒール</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> ハイヒール</nobr>| [0] (0 ~ 1) | (Adjusts the height of the high heel pose.)
 |<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 制限角度</nobr>| [OFF] | (Limits the maximum angle for tiptoe rotation.)
@@ -46,7 +46,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 距離の閾値</nobr>| [0] (0 ~ 0.2) | (Defines the distance threshold for applying friction to reduce sliding.)
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> ダンピング</nobr>| [0.75] (0 ~ 1) | (Controls the damping factor for friction applied to reduce sliding.)
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>足の角度</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> X回転</nobr>| [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y回転</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
-|<nobr>└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z回転</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> X回転</nobr>| [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Y回転</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Z回転</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **オフ** | オフ, 床の上, ハイヒール, 最大ヒール,  |

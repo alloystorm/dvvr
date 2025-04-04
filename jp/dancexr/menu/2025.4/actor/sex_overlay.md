@@ -24,11 +24,11 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Arm IK Right)</nobr>| [0.25] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> モーションのオーバーライド</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>スピード</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> グループあたりの動き</nobr>| [8] (4 ~ 32) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> フェーズ</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> カーブ</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可変速度</nobr>| [OFF] | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> モード</nobr>| (Gradual) | (Gradual), ランダム, ボリューム, 
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
-|<nobr>└&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> グループあたりの動き</nobr>| [8] (4 ~ 32) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> フェーズ</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> カーブ</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可変速度</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> モード</nobr>| (Gradual) | (Gradual), ランダム, ボリューム, 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 

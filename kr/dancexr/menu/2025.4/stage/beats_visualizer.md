@@ -21,25 +21,25 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 마커 크기</nobr>| [0.02] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 선 너비</nobr>| [0.01] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>선 색상</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 색상 모드</nobr>| (HSV) | (RGB), (HSV), 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조</nobr>| [0.3333333] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 채도</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 밝기</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 빨간색</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 초록색</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 파란색</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 발광</nobr>| [1] (0 ~ 20) | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **초록색** | 흰색, 빨간색, 초록색, 파란색, 애니메이션 색조, 음악과 함께 빛남,  |
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 색상 모드</nobr>| (HSV) | (RGB), (HSV), 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조</nobr>| [0.3333333] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 채도</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 밝기</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 빨간색</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 초록색</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 파란색</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 발광</nobr>| [1] (0 ~ 20) | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **초록색** | 흰색, 빨간색, 초록색, 파란색, 애니메이션 색조, 음악과 함께 빛남,  |
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>마커 색상</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 색상 모드</nobr>| (HSV) | (RGB), (HSV), 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 채도</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 밝기</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 빨간색</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 초록색</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 파란색</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 발광</nobr>| [1] (0 ~ 20) | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **흰색** | 흰색, 빨간색, 초록색, 파란색, 애니메이션 색조, 음악과 함께 빛남,  |
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 색상 모드</nobr>| (HSV) | (RGB), (HSV), 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 채도</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 밝기</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 빨간색</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 초록색</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 파란색</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 발광</nobr>| [1] (0 ~ 20) | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **흰색** | 흰색, 빨간색, 초록색, 파란색, 애니메이션 색조, 음악과 함께 빛남,  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 비트 사이클</nobr>| [8] (2 ~ 16) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 일반 발광</nobr>| [1] (0 ~ 8) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 플래시 발광</nobr>| [2] (0 ~ 8) | 

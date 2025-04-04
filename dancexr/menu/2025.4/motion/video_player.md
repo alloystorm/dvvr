@@ -27,4 +27,4 @@ sidebar:
 |<nobr> Projector Scene Example</nobr>|| 
 |<nobr> LED Screen Example</nobr>|| 
 |<nobr><img src="/images/icon/ic_video.png" alt="video icon"/> Load Video</nobr>|| 
-|<nobr>└&nbsp;<img src="/images/icon/ic_close.png" alt="close icon"/> [None]</nobr>|| 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_close.png" alt="close icon"/> [None]</nobr>|| 

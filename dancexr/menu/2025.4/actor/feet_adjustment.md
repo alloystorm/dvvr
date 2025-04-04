@@ -30,13 +30,13 @@ sidebar:
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Mode</nobr>| **Wireframe** | Wireframe, Opaque, Chrome, Solid Glass, Thin Glass, <br/>Selects the visualization mode for virtual shoes. |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Smoothness</nobr>| [1] (0 ~ 1) | Controls the smoothness of the virtual shoe material.
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b></nobr>| | Sets the color of the virtual shoe material.
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Color Mode</nobr>| RGB | RGB, HSV, 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green</nobr>| [1] (0 ~ 1) | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Color Mode</nobr>| RGB | RGB, HSV, 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Red</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Green</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue</nobr>| [1] (0 ~ 1) | 
 |<nobr> <b>Heels</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> High Heels</nobr>| [0] (0 ~ 1) | Adjusts the height of the high heel pose.
 |<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Limit Angle</nobr>| [OFF] | Limits the maximum angle for tiptoe rotation.
@@ -46,7 +46,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Dist Threshold</nobr>| [0] (0 ~ 0.2) | Defines the distance threshold for applying friction to reduce sliding.
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Damping</nobr>| [0.75] (0 ~ 1) | Controls the damping factor for friction applied to reduce sliding.
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Foot Angle</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotate X</nobr>| [0] (-90 ~ 90) | Adjusts the rotation of the foot around the X-axis.
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotate Y</nobr>| [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Y-axis.
-|<nobr>└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotate Z</nobr>| [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Z-axis.
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotate X</nobr>| [0] (-90 ~ 90) | Adjusts the rotation of the foot around the X-axis.
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotate Y</nobr>| [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Y-axis.
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotate Z</nobr>| [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Z-axis.
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Off** | Off, On Floor, High Heels, Max Heels,  |

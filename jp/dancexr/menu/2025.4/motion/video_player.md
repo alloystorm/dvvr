@@ -27,4 +27,4 @@ sidebar:
 |<nobr> プロジェクターシーンの例</nobr>|| 
 |<nobr> LEDスクリーンの例</nobr>|| 
 |<nobr><img src="/images/icon/ic_video.png" alt="video icon"/> ビデオを読み込む</nobr>|| 
-|<nobr>└&nbsp;<img src="/images/icon/ic_close.png" alt="close icon"/> [なし]</nobr>|| 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_close.png" alt="close icon"/> [なし]</nobr>|| 

@@ -26,14 +26,14 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Scale</nobr>| [0] (-3 ~ 3) | Scale of the pattern.
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Width</nobr>| [0.1] (0 ~ 1) | The size of the transition area.
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Color Mode</nobr>| RGB | RGB, HSV, 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue</nobr>| [0.1666667] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness</nobr>| [0.9] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red</nobr>| [0.9] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green</nobr>| [0.9] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue</nobr>| [0] (0 ~ 1) | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Yellow** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Color Mode</nobr>| RGB | RGB, HSV, 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue</nobr>| [0.1666667] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness</nobr>| [0.9] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Red</nobr>| [0.9] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Green</nobr>| [0.9] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Yellow** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow</nobr>| [1] (0 ~ 10) | Brightness of the burn effect.
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend</nobr>| [1] (0 ~ 1) | Blend between the original color and the burn color. 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Duration</nobr>| [2] (0 ~ 5) | The duration of the animation.

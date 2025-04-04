@@ -35,11 +35,11 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Stay On Ground</nobr>| [0.5] (0 ~ 1) | How long does particle stay after falling on to the ground. Set to 0 and they will disappear immediately
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Rain Sound Effect</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>Rain Shader</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_check_off.png" alt="check off icon"/> Enable</nobr>| [OFF] | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Intensity</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Droplet Duration</nobr>| [5] (0 ~ 20) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Droplet Size</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Droplet Density</nobr>| [1] (-2 ~ 3) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump</nobr>| [0.35] (0 ~ 1) | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Wetness</nobr>| [0.5] (0 ~ 2) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Enable</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Intensity</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Droplet Duration</nobr>| [5] (0 ~ 20) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Droplet Size</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Droplet Density</nobr>| [1] (-2 ~ 3) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump</nobr>| [0.35] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Wetness</nobr>| [0.5] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Off** | Off, Dust, Rain, Snow, Petal, Leaf, Glitter,  |

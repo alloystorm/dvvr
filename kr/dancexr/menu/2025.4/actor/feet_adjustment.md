@@ -30,13 +30,13 @@ sidebar:
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 모드</nobr>| **와이어프레임** | 와이어프레임, 불투명, 크롬, 단단한 유리, 얇은 유리, <br/>(Selects the visualization mode for virtual shoes.) |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 부드러움</nobr>| [1] (0 ~ 1) | (Controls the smoothness of the virtual shoe material.)
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>색상</b></nobr>| | Sets the color of the virtual shoe material.
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 색상 모드</nobr>| (RGB) | (RGB), (HSV), 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 채도</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 밝기</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 빨간색</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 초록색</nobr>| [1] (0 ~ 1) | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 파란색</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 색상 모드</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 채도</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 밝기</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 빨간색</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 초록색</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 파란색</nobr>| [1] (0 ~ 1) | 
 |<nobr> <b>굽</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 하이힐</nobr>| [0] (0 ~ 1) | (Adjusts the height of the high heel pose.)
 |<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 제한 각도</nobr>| [OFF] | (Limits the maximum angle for tiptoe rotation.)
@@ -46,7 +46,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 차이 임계값</nobr>| [0] (0 ~ 0.2) | (Defines the distance threshold for applying friction to reduce sliding.)
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 감쇠</nobr>| [0.75] (0 ~ 1) | (Controls the damping factor for friction applied to reduce sliding.)
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>발 각도</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> X 축 회전</nobr>| [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y 축 회전</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
-|<nobr>└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z 축 회전</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> X 축 회전</nobr>| [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Y 축 회전</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Z 축 회전</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **끄기** | 끄기, 바닥에, 하이힐, 최대 굽,  |

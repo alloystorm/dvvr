@@ -30,12 +30,12 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Z</nobr>| [0.15] (-0.2 ~ 0.2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Lower</nobr>| [0.1] (0 ~ 0.8) | 
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Speed</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Moves Per Group</nobr>| [8] (4 ~ 32) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Phase</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Curve</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_check_off.png" alt="check off icon"/> Variable Speed</nobr>| [OFF] | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Mode</nobr>| Gradual | Gradual, Random, Volume, 
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Min Speed</nobr>| 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
-|<nobr>└&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Max Speed</nobr>| 3/2 | 1, 3/2, 2, 3, 4, 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Moves Per Group</nobr>| [8] (4 ~ 32) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Phase</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Curve</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Variable Speed</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Mode</nobr>| Gradual | Gradual, Random, Volume, 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Min Speed</nobr>| 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Max Speed</nobr>| 3/2 | 1, 3/2, 2, 3, 4, 
 |<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Override Motion</nobr>| [0] (-2 ~ 2) | 

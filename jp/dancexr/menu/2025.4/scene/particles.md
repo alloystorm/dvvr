@@ -35,11 +35,11 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 地面に留まる</nobr>| [0.5] (0 ~ 1) | 地面に落ちた後のパーティクルの持続時間。0に設定すると即座に消えます
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 雨の効果音</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>雨シェーダー</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 有効にする</nobr>| [OFF] | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 強度</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴の持続時間</nobr>| [5] (0 ~ 20) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴サイズ</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴密度</nobr>| [1] (-2 ~ 3) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> バンプ</nobr>| [0.35] (0 ~ 1) | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 湿度</nobr>| [0.5] (0 ~ 2) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 有効にする</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 強度</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴の持続時間</nobr>| [5] (0 ~ 20) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴サイズ</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴密度</nobr>| [1] (-2 ~ 3) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> バンプ</nobr>| [0.35] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 湿度</nobr>| [0.5] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **オフ** | オフ, ほこり, 雨, 雪, 花びら, 葉, きらめき,  |

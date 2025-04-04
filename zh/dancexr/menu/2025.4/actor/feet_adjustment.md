@@ -30,13 +30,13 @@ sidebar:
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 模式</nobr>| **线框** | 线框, 不透明, 铬, 实心玻璃, 薄玻璃, <br/>(Selects the visualization mode for virtual shoes.) |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 平滑度</nobr>| [1] (0 ~ 1) | (Controls the smoothness of the virtual shoe material.)
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>颜色</b></nobr>| | Sets the color of the virtual shoe material.
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 颜色模式</nobr>| (RGB) | (RGB), (HSV), 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 饱和度</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 红色</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 绿色</nobr>| [1] (0 ~ 1) | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 蓝色</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 颜色模式</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 饱和度</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 红色</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 绿色</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 蓝色</nobr>| [1] (0 ~ 1) | 
 |<nobr> <b>鞋跟</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 高跟鞋</nobr>| [0] (0 ~ 1) | (Adjusts the height of the high heel pose.)
 |<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 限制角度</nobr>| [OFF] | (Limits the maximum angle for tiptoe rotation.)
@@ -46,7 +46,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 距离阈值</nobr>| [0] (0 ~ 0.2) | (Defines the distance threshold for applying friction to reduce sliding.)
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 阻尼</nobr>| [0.75] (0 ~ 1) | (Controls the damping factor for friction applied to reduce sliding.)
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>脚部角度</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> X轴旋转</nobr>| [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y轴旋转</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
-|<nobr>└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z轴旋转</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> X轴旋转</nobr>| [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Y轴旋转</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Z轴旋转</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **关闭** | 关闭, 在地面上, 高跟鞋, 最大鞋跟,  |

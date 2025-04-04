@@ -26,14 +26,14 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール</nobr>| [0] (-3 ~ 3) | パターンのスケール。
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 幅</nobr>| [0.1] (0 ~ 1) | トランジションエリアのサイズ。
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>色</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> カラーモード</nobr>| (RGB) | (RGB), (HSV), 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0.1666667] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度</nobr>| [0.9] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤</nobr>| [0.9] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑</nobr>| [0.9] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青</nobr>| [0] (0 ~ 1) | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **(Yellow)** | 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange), (Preset 1),  |
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> カラーモード</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0.1666667] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度</nobr>| [0.9] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤</nobr>| [0.9] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑</nobr>| [0.9] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 青</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **(Yellow)** | 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange), (Preset 1),  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー</nobr>| [1] (0 ~ 10) | バーナー効果の明るさ。
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> ブレンド</nobr>| [1] (0 ~ 1) | (Blend between the original color and the burn color. )
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 持続時間</nobr>| [2] (0 ~ 5) | アニメーションの持続時間。

@@ -18,49 +18,49 @@ sidebar:
 |<nobr> ボーンを選択</nobr>|| ボーンを選択
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最初のXボーンをスキップ</nobr>| [0] (0 ~ 5) | 最初のXレベルには物理接続を作成しない
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> <b>パーティクルダイナミクス</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 有効にする</nobr>| [ON] | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> スイングコンプライアンス</nobr>| [0.25] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> ツイストコンプライアンス</nobr>| [0.75] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> パーティクルアンカー</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少比率</nobr>| [0] (0 ~ 1) | 各レベルでの質量削減
-|<nobr>├&nbsp;<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大角速度</nobr>| [2] (0 ~ 4) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 慣性</nobr>| [2] (1 ~ 5) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフト化</nobr>| [0] (0 ~ 1) | パーティクル制約をソフト化する。
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 粒子半径</nobr>| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 重力</nobr>| [9.8] (-9.8 ~ 9.8) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 摩擦</nobr>| [1] (0 ~ 2) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 地面摩擦</nobr>| [1] (-2 ~ 2) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 空気の抗力</nobr>| [0] (0 ~ 2) | 空気抵抗
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水中の抗力</nobr>| [1] (0 ~ 2) | 水中抵抗
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 浮力</nobr>| [-0.1] (-1 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>風</b></nobr>| | 
-|<nobr>│&nbsp;├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 風の影響</nobr>| [0.25] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 乱流スケール</nobr>| [0] (-2 ~ 2) | 
-|<nobr>│&nbsp;├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 乱流強度</nobr>| [1] (0 ~ 2) | 
-|<nobr>│&nbsp;└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 乱流時間スケール</nobr>| [0] (-4 ~ 4) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>衝突する</b></nobr>| | 
-|<nobr>│&nbsp;├&nbsp;<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 頭</nobr>| [ON] | 
-|<nobr>│&nbsp;├&nbsp;<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 体</nobr>| [ON] | 
-|<nobr>│&nbsp;├&nbsp;<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 胸部</nobr>| [ON] | 
-|<nobr>│&nbsp;├&nbsp;<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 臀部</nobr>| [ON] | 
-|<nobr>│&nbsp;├&nbsp;<img src="/images/icon/ic_check_on.png" alt="check on icon"/> (Arms)</nobr>| [ON] | 
-|<nobr>│&nbsp;├&nbsp;<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 手</nobr>| [ON] | 
-|<nobr>│&nbsp;├&nbsp;<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 脚</nobr>| [ON] | 
-|<nobr>│&nbsp;├&nbsp;<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 足</nobr>| [ON] | 
-|<nobr>│&nbsp;└&nbsp;<img src="/images/icon/ic_check_on.png" alt="check on icon"/> プレイヤー</nobr>| [ON] | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>シミュレーション設定</b></nobr>| | 
-|<nobr>&nbsp;&nbsp;├&nbsp;<img src="/images/icon/ic_check_on.png" alt="check on icon"/> グローバルを使用</nobr>| [ON] | Pro / Cloth Simulationの下にあるグローバル設定を見つける
-|<nobr>&nbsp;&nbsp;├&nbsp;<img src="/images/icon/ic_check_on.png" alt="check on icon"/> ドラッグを有効にする</nobr>| [ON] | 
-|<nobr>&nbsp;&nbsp;├&nbsp;<img src="/images/icon/ic_check_on.png" alt="check on icon"/> シミュレート</nobr>| [ON] | 
-|<nobr>&nbsp;&nbsp;├&nbsp;<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> シミュレーションFPS</nobr>| **ダイナミック** | ダイナミック, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
-|<nobr>&nbsp;&nbsp;├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 時間スケール</nobr>| [0.65] (0.1 ~ 1) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> サブステップ</nobr>| [4] (1 ~ 20) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> イテレーション</nobr>| [1] (0 ~ 10) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 偶数サブステップを逆転</nobr>| [OFF] | 
-|<nobr>&nbsp;&nbsp;├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 代替グループサイズ</nobr>| [0] (0 ~ 20) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> テーブルサイズ</nobr>| [6] (1 ~ 20) | 
-|<nobr>&nbsp;&nbsp;└&nbsp;<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 二段階解法</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 有効にする</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> スイングコンプライアンス</nobr>| [0.25] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> ツイストコンプライアンス</nobr>| [0.75] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> パーティクルアンカー</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少比率</nobr>| [0] (0 ~ 1) | 各レベルでの質量削減
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大角速度</nobr>| [2] (0 ~ 4) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 慣性</nobr>| [2] (1 ~ 5) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフト化</nobr>| [0] (0 ~ 1) | パーティクル制約をソフト化する。
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 粒子半径</nobr>| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 重力</nobr>| [9.8] (-9.8 ~ 9.8) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 摩擦</nobr>| [1] (0 ~ 2) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 地面摩擦</nobr>| [1] (-2 ~ 2) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 空気の抗力</nobr>| [0] (0 ~ 2) | 空気抵抗
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水中の抗力</nobr>| [1] (0 ~ 2) | 水中抵抗
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 浮力</nobr>| [-0.1] (-1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>風</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 風の影響</nobr>| [0.25] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 乱流スケール</nobr>| [0] (-2 ~ 2) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 乱流強度</nobr>| [1] (0 ~ 2) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 乱流時間スケール</nobr>| [0] (-4 ~ 4) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>衝突する</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 頭</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 体</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 胸部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 臀部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> (Arms)</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 手</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 脚</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 足</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> プレイヤー</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>シミュレーション設定</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> グローバルを使用</nobr>| [ON] | Pro / Cloth Simulationの下にあるグローバル設定を見つける
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> ドラッグを有効にする</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> シミュレート</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> シミュレーションFPS</nobr>| **ダイナミック** | ダイナミック, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 時間スケール</nobr>| [0.65] (0.1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> サブステップ</nobr>| [4] (1 ~ 20) | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> イテレーション</nobr>| [1] (0 ~ 10) | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 偶数サブステップを逆転</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 代替グループサイズ</nobr>| [0] (0 ~ 20) | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> テーブルサイズ</nobr>| [6] (1 ~ 20) | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 二段階解法</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> スプリング</nobr>| [0.5] (0 ~ 5) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> ダンプ</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少比率</nobr>| [0.25] (0 ~ 1) | 各レベルでの硬さの減少

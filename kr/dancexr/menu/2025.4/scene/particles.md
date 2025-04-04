@@ -35,11 +35,11 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 지면에 머물기</nobr>| [0.5] (0 ~ 1) | 파티클이 지면에 떨어진 후 머무는 시간. 0으로 설정하면 즉시 사라집니다.
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 비 소리 효과</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>비 오는 셰이더</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 활성화</nobr>| [OFF] | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 강도</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 물방울 지속 시간</nobr>| [5] (0 ~ 20) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 물방울 크기</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 물방울 밀도</nobr>| [1] (-2 ~ 3) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 범프</nobr>| [0.35] (0 ~ 1) | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 습기</nobr>| [0.5] (0 ~ 2) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 활성화</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 강도</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 물방울 지속 시간</nobr>| [5] (0 ~ 20) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 물방울 크기</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 물방울 밀도</nobr>| [1] (-2 ~ 3) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 범프</nobr>| [0.35] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 습기</nobr>| [0.5] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **끄기** | 끄기, 먼지, 비, 눈, 꽃잎, 잎, 반짝임,  |

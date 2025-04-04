@@ -5,7 +5,7 @@ import os
 folder_path = "images/icon"
 
 def create_table_icon(up=False, down=False, left=False, right=False, 
-                      size=(32, 32), line_width=4, padding=4, filename="table_icon.png"):
+                      size=(16, 16), line_width=2, padding=2, filename="table_icon.png"):
     """
     Generates a table line icon with the specified connections and saves it as a PNG.
     
@@ -43,5 +43,6 @@ def create_table_icon(up=False, down=False, left=False, right=False,
 create_table_icon(up=True, down=True, filename="ic_line_v.png")  # Vertical line
 create_table_icon(up=True, right=True, filename="ic_line_l.png")  # L line
 create_table_icon(up=True, down=True, right=True, filename="ic_line_t.png")  # T-junction
+create_table_icon(filename="ic_space.png")
 
 print("Icons created!")

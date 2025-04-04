@@ -27,4 +27,4 @@ sidebar:
 |<nobr> 프로젝터 씬 예시</nobr>|| 
 |<nobr> LED 스크린 예시</nobr>|| 
 |<nobr><img src="/images/icon/ic_video.png" alt="video icon"/> 비디오 로드</nobr>|| 
-|<nobr>└&nbsp;<img src="/images/icon/ic_close.png" alt="close icon"/> [없음]</nobr>|| 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_close.png" alt="close icon"/> [없음]</nobr>|| 

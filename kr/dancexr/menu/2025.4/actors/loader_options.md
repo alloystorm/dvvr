@@ -26,14 +26,14 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 스케일</nobr>| [0] (-3 ~ 3) | 패턴의 비율.
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 폭</nobr>| [0.1] (0 ~ 1) | 전환 영역의 크기입니다.
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>색상</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 색상 모드</nobr>| (RGB) | (RGB), (HSV), 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조</nobr>| [0.1666667] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 채도</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 밝기</nobr>| [0.9] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 빨간색</nobr>| [0.9] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 초록색</nobr>| [0.9] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 파란색</nobr>| [0] (0 ~ 1) | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **(Yellow)** | 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange), (Preset 1),  |
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 색상 모드</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조</nobr>| [0.1666667] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 채도</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 밝기</nobr>| [0.9] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 빨간색</nobr>| [0.9] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 초록색</nobr>| [0.9] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 파란색</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **(Yellow)** | 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange), (Preset 1),  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 발광</nobr>| [1] (0 ~ 10) | 번짐 효과의 밝기.
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 혼합</nobr>| [1] (0 ~ 1) | (Blend between the original color and the burn color. )
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 지속 시간</nobr>| [2] (0 ~ 5) | 애니메이션의 지속 시간.

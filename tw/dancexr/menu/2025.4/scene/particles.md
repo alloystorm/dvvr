@@ -35,11 +35,11 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 停留在地面</nobr>| [0.5] (0 ~ 1) | 粒子落到地面後保持的時間。設置為0則會立即消失
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 雨聲效果</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>雨水材質</b></nobr>| | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 強度</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴持續時間</nobr>| [5] (0 ~ 20) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴大小</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴密度</nobr>| [1] (-2 ~ 3) | 
-|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 凸起</nobr>| [0.35] (0 ~ 1) | 
-|<nobr>└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 濕度</nobr>| [0.5] (0 ~ 2) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 強度</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴持續時間</nobr>| [5] (0 ~ 20) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴大小</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴密度</nobr>| [1] (-2 ~ 3) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 凸起</nobr>| [0.35] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 濕度</nobr>| [0.5] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **關閉** | 關閉, 灰塵, 雨, 雪, 花瓣, 葉子, 閃爍,  |
