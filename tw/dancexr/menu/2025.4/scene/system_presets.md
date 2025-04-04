@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>![refresh icon](/images/icon/ic_refresh.png) 重設所有</nobr>|| 
-|<nobr>![file icon](/images/icon/ic_file.png) 重新載入已儲存</nobr>|| 
+|<nobr> ![refresh icon](/images/icon/ic_refresh.png)  重設所有</nobr>|| 
+|<nobr> ![file icon](/images/icon/ic_file.png)  重新載入已儲存</nobr>|| 

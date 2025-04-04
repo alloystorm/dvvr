@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>![refresh icon](/images/icon/ic_refresh.png) Refresh Content</nobr>|| 
-|<nobr>![up icon](/images/icon/ic_up.png) Migrate Settings</nobr>|| 
-|<nobr>![delete icon](/images/icon/ic_delete.png) Remove Duplicates</nobr>|| 
-|<nobr>![replace icon](/images/icon/ic_replace.png) Switch Library</nobr>|| 
-|<nobr>![folder_open icon](/images/icon/ic_folder_open.png) Show In Explorer</nobr>|| 
+|<nobr> ![refresh icon](/images/icon/ic_refresh.png)  Refresh Content</nobr>|| 
+|<nobr> ![up icon](/images/icon/ic_up.png)  Migrate Settings</nobr>|| 
+|<nobr> ![delete icon](/images/icon/ic_delete.png)  Remove Duplicates</nobr>|| 
+|<nobr> ![replace icon](/images/icon/ic_replace.png)  Switch Library</nobr>|| 
+|<nobr> ![folder_open icon](/images/icon/ic_folder_open.png)  Show In Explorer</nobr>|| 
 |<nobr> <b>Google Drive</b></nobr>|| 
-|<nobr>![linked icon](/images/icon/ic_linked.png) Link Google Drive</nobr>|| 
+|<nobr> ![linked icon](/images/icon/ic_linked.png)  Link Google Drive</nobr>|| 

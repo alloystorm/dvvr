@@ -15,34 +15,34 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr> <b>アクターモーション</b></nobr>|| 
-|<nobr>![auto_round icon](/images/icon/ic_auto_round.png) [アイドル]</nobr>|| 
-|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) すべてに割り当て</nobr>|| 
-|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) 選択したものに割り当て</nobr>|| 
-|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) 2番目としてすべてに割り当て</nobr>|| 
-|<nobr>└&nbsp;![motion icon](/images/icon/ic_motion.png) 2番目として選択したものに割り当て</nobr>|| 
+|<nobr> ![auto_round icon](/images/icon/ic_auto_round.png)  [アイドル]</nobr>|| 
+|<nobr>├&nbsp; ![motion icon](/images/icon/ic_motion.png)  すべてに割り当て</nobr>|| 
+|<nobr>├&nbsp; ![motion icon](/images/icon/ic_motion.png)  選択したものに割り当て</nobr>|| 
+|<nobr>├&nbsp; ![motion icon](/images/icon/ic_motion.png)  2番目としてすべてに割り当て</nobr>|| 
+|<nobr>└&nbsp; ![motion icon](/images/icon/ic_motion.png)  2番目として選択したものに割り当て</nobr>|| 
 | [[キャットウォーク]](catwalk) |
 | [([Biped])](biped) |
 | [([Motion Builder])](motion_builder) |
 | [[ゼロ]](zero) |
-|<nobr>![auto_round icon](/images/icon/ic_auto_round.png) [プレイヤーコントロール]</nobr>|| 
-|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) すべてに割り当て</nobr>|| 
-|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) 選択したものに割り当て</nobr>|| 
-|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) 2番目としてすべてに割り当て</nobr>|| 
-|<nobr>└&nbsp;![motion icon](/images/icon/ic_motion.png) 2番目として選択したものに割り当て</nobr>|| 
+|<nobr> ![auto_round icon](/images/icon/ic_auto_round.png)  [プレイヤーコントロール]</nobr>|| 
+|<nobr>├&nbsp; ![motion icon](/images/icon/ic_motion.png)  すべてに割り当て</nobr>|| 
+|<nobr>├&nbsp; ![motion icon](/images/icon/ic_motion.png)  選択したものに割り当て</nobr>|| 
+|<nobr>├&nbsp; ![motion icon](/images/icon/ic_motion.png)  2番目としてすべてに割り当て</nobr>|| 
+|<nobr>└&nbsp; ![motion icon](/images/icon/ic_motion.png)  2番目として選択したものに割り当て</nobr>|| 
 | [[オートダンス 1]](auto_dance_1) |
 | [[オートダンス 2]](auto_dance_2) |
-|<nobr>![auto_round icon](/images/icon/ic_auto_round.png) [オートダンス 3]</nobr>|| 
-|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) すべてに割り当て</nobr>|| 
-|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) 選択したものに割り当て</nobr>|| 
-|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) 2番目としてすべてに割り当て</nobr>|| 
-|<nobr>└&nbsp;![motion icon](/images/icon/ic_motion.png) 2番目として選択したものに割り当て</nobr>|| 
+|<nobr> ![auto_round icon](/images/icon/ic_auto_round.png)  [オートダンス 3]</nobr>|| 
+|<nobr>├&nbsp; ![motion icon](/images/icon/ic_motion.png)  すべてに割り当て</nobr>|| 
+|<nobr>├&nbsp; ![motion icon](/images/icon/ic_motion.png)  選択したものに割り当て</nobr>|| 
+|<nobr>├&nbsp; ![motion icon](/images/icon/ic_motion.png)  2番目としてすべてに割り当て</nobr>|| 
+|<nobr>└&nbsp; ![motion icon](/images/icon/ic_motion.png)  2番目として選択したものに割り当て</nobr>|| 
 | [[カウガールセックス]](cowgirl_sex) |
 | [[後背位セックス]](sex_from_behind) |
-|<nobr>![auto_round icon](/images/icon/ic_auto_round.png) [セックスモーション 3]</nobr>|| 
-|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) すべてに割り当て</nobr>|| 
-|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) 選択したものに割り当て</nobr>|| 
-|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) 2番目としてすべてに割り当て</nobr>|| 
-|<nobr>└&nbsp;![motion icon](/images/icon/ic_motion.png) 2番目として選択したものに割り当て</nobr>|| 
+|<nobr> ![auto_round icon](/images/icon/ic_auto_round.png)  [セックスモーション 3]</nobr>|| 
+|<nobr>├&nbsp; ![motion icon](/images/icon/ic_motion.png)  すべてに割り当て</nobr>|| 
+|<nobr>├&nbsp; ![motion icon](/images/icon/ic_motion.png)  選択したものに割り当て</nobr>|| 
+|<nobr>├&nbsp; ![motion icon](/images/icon/ic_motion.png)  2番目としてすべてに割り当て</nobr>|| 
+|<nobr>└&nbsp; ![motion icon](/images/icon/ic_motion.png)  2番目として選択したものに割り当て</nobr>|| 
 |<nobr> <b>カメラモーション</b></nobr>|| 
 | [[フリーフライカメラ]](freefly_cam) |
 | [[オービットカム]](orbit_cam) |

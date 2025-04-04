@@ -14,4 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>![slider icon](/images/icon/ic_slider.png) 阈值</nobr>| [30] (0 ~ 50) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  阈值</nobr>| [30] (0 ~ 50) | 

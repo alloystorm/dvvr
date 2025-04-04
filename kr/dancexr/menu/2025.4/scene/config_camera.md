@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>![slider icon](/images/icon/ic_slider.png) 높이 오프셋</nobr>| [0] (-5 ~ 5) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) FOV 스케일</nobr>| [1] (0.25 ~ 2) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 초상화 모드 줌</nobr>| [1.2] (1 ~ 2) | 
-|<nobr>![toggle_on icon](/images/icon/ic_toggle_on.png) 회전 필터</nobr>| 전체 회전 | 회전 없음, 방향 전용, 전체 회전, 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 근접 클립</nobr>| [0.01] (0 ~ 0.5) | 
-|<nobr>![check_on icon](/images/icon/ic_check_on.png) 모션 변경 시 재설정</nobr>| [ON] | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  높이 오프셋</nobr>| [0] (-5 ~ 5) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  FOV 스케일</nobr>| [1] (0.25 ~ 2) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  초상화 모드 줌</nobr>| [1.2] (1 ~ 2) | 
+|<nobr> ![toggle_on icon](/images/icon/ic_toggle_on.png)  회전 필터</nobr>| 전체 회전 | 회전 없음, 방향 전용, 전체 회전, 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  근접 클립</nobr>| [0.01] (0 ~ 0.5) | 
+|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  모션 변경 시 재설정</nobr>| [ON] | 
 |<nobr> 오프셋 재설정</nobr>|| 

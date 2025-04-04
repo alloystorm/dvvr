@@ -14,251 +14,251 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>![check_off icon](/images/icon/ic_check_off.png) 禁用</nobr>| [OFF] | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 眼睑幅度</nobr>| [0.65] (0 ~ 1) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 嘴巴幅度</nobr>| [0.65] (0 ~ 1) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 眉毛幅度</nobr>| [1] (0 ~ 1) | 
+|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  禁用</nobr>| [OFF] | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  眼睑幅度</nobr>| [0.65] (0 ~ 1) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  嘴巴幅度</nobr>| [0.65] (0 ~ 1) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  眉毛幅度</nobr>| [1] (0 ~ 1) | 
 |<nobr> <b>嘴巴</b></nobr>|| 
-|<nobr>![check_off icon](/images/icon/ic_check_off.png) 使用唇同步</nobr>| [OFF] | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>嘴巴中性</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  使用唇同步</nobr>| [OFF] | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>嘴巴中性</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 下颚打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇张开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 角上扬</nobr>| [0] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>嘴巴自定义</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  下颚打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇张开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  角上扬</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>嘴巴自定义</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 下颚打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇张开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 角上扬</nobr>| [0] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(あ)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  下颚打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇张开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  角上扬</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(あ)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 下颚打开</nobr>| [0.4] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇打开</nobr>| [0.1] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇张开</nobr>| [-0.1] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 角上扬</nobr>| [0] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(い)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  下颚打开</nobr>| [0.4] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇打开</nobr>| [0.1] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇张开</nobr>| [-0.1] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  角上扬</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(い)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 下颚打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇打开</nobr>| [0.25] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇张开</nobr>| [0.15] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 角上扬</nobr>| [0.25] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(う)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  下颚打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇打开</nobr>| [0.25] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇张开</nobr>| [0.15] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  角上扬</nobr>| [0.25] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(う)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 下颚打开</nobr>| [0.1] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇张开</nobr>| [-0.5] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 角上扬</nobr>| [-0.25] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(え)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  下颚打开</nobr>| [0.1] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇张开</nobr>| [-0.5] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  角上扬</nobr>| [-0.25] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(え)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 下颚打开</nobr>| [0.15] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇打开</nobr>| [0.3] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇张开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 角上扬</nobr>| [-0.15] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(お)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  下颚打开</nobr>| [0.15] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇打开</nobr>| [0.3] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇张开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  角上扬</nobr>| [-0.15] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(お)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 下颚打开</nobr>| [0.2] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇张开</nobr>| [-0.5] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 角上扬</nobr>| [-0.25] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(にやり)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  下颚打开</nobr>| [0.2] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇张开</nobr>| [-0.5] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  角上扬</nobr>| [-0.25] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(にやり)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 下颚打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇张开</nobr>| [0.15] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 角上扬</nobr>| [0.35] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(にこ)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  下颚打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇张开</nobr>| [0.15] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  角上扬</nobr>| [0.35] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(にこ)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 下颚打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇张开</nobr>| [0.1] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 角上扬</nobr>| [0.2] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(にこ2)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  下颚打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇张开</nobr>| [0.1] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  角上扬</nobr>| [0.2] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(にこ2)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 下颚打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇打开</nobr>| [0.2] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇张开</nobr>| [0.15] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 角上扬</nobr>| [0.3] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(にこ3)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  下颚打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇打开</nobr>| [0.2] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇张开</nobr>| [0.15] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  角上扬</nobr>| [0.3] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(にこ3)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 下颚打开</nobr>| [0.2] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇打开</nobr>| [0.2] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇张开</nobr>| [0.2] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 角上扬</nobr>| [0.3] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(∧)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  下颚打开</nobr>| [0.2] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇打开</nobr>| [0.2] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇张开</nobr>| [0.2] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  角上扬</nobr>| [0.3] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(∧)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 下颚打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇打开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 嘴唇张开</nobr>| [0] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 角上扬</nobr>| [-0.35] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  下颚打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇打开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  嘴唇张开</nobr>| [0] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  角上扬</nobr>| [-0.35] (-1 ~ 1) | 
 |<nobr> <b>眉毛</b></nobr>|| 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>眉毛中性</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>眉毛中性</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 内部</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 中间</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 外部</nobr>| [0] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 未使用</nobr>| [0] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>眉毛自定义</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  内部</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  中间</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  外部</nobr>| [0] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  未使用</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>眉毛自定义</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 内部</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 中间</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 外部</nobr>| [0] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 未使用</nobr>| [0] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(にこり)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  内部</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  中间</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  外部</nobr>| [0] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  未使用</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(にこり)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 内部</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 中间</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 外部</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 未使用</nobr>| [0] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(上)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  内部</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  中间</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  外部</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  未使用</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(上)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 内部</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 中间</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 外部</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 未使用</nobr>| [0] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(下)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  内部</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  中间</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  外部</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  未使用</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(下)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 内部</nobr>| [-0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 中间</nobr>| [-0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 外部</nobr>| [-0.5] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 未使用</nobr>| [0] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(困る)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  内部</nobr>| [-0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  中间</nobr>| [-0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  外部</nobr>| [-0.5] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  未使用</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(困る)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 内部</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 中间</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 外部</nobr>| [0] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 未使用</nobr>| [0] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(怒り)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  内部</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  中间</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  外部</nobr>| [0] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  未使用</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(怒り)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 内部</nobr>| [-0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 中间</nobr>| [-0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 外部</nobr>| [0] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 未使用</nobr>| [0] (-1 ~ 1) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(怒る)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  内部</nobr>| [-0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  中间</nobr>| [-0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  外部</nobr>| [0] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  未使用</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(怒る)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 内部</nobr>| [-0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 中间</nobr>| [-0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 外部</nobr>| [0] (-1 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 未使用</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  内部</nobr>| [-0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  中间</nobr>| [-0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  外部</nobr>| [0] (-1 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  未使用</nobr>| [0] (-1 ~ 1) | 
 |<nobr> <b>眼睑</b></nobr>|| 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>眼睑中性</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>眼睑中性</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左上</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左下</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右上</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右下</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 上方旋转</nobr>| [35] (-90 ~ 90) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 下方旋转</nobr>| [30] (-90 ~ 90) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>眼睑自定义</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左上</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左下</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右上</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右下</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  上方旋转</nobr>| [35] (-90 ~ 90) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  下方旋转</nobr>| [30] (-90 ~ 90) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>眼睑自定义</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左上</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左下</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右上</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右下</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 上方旋转</nobr>| [35] (-90 ~ 90) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 下方旋转</nobr>| [30] (-90 ~ 90) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(まばたき)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左上</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左下</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右上</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右下</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  上方旋转</nobr>| [35] (-90 ~ 90) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  下方旋转</nobr>| [30] (-90 ~ 90) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(まばたき)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左上</nobr>| [1] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左下</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右上</nobr>| [1] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右下</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 上方旋转</nobr>| [35] (-90 ~ 90) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 下方旋转</nobr>| [30] (-90 ~ 90) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(じと目)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左上</nobr>| [1] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左下</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右上</nobr>| [1] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右下</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  上方旋转</nobr>| [35] (-90 ~ 90) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  下方旋转</nobr>| [30] (-90 ~ 90) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(じと目)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左上</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左下</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右上</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右下</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 上方旋转</nobr>| [35] (-90 ~ 90) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 下方旋转</nobr>| [30] (-90 ~ 90) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(ウインク)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左上</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左下</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右上</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右下</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  上方旋转</nobr>| [35] (-90 ~ 90) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  下方旋转</nobr>| [30] (-90 ~ 90) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(ウインク)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左上</nobr>| [1] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左下</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右上</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右下</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 上方旋转</nobr>| [35] (-90 ~ 90) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 下方旋转</nobr>| [30] (-90 ~ 90) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(ウインク右)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左上</nobr>| [1] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左下</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右上</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右下</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  上方旋转</nobr>| [35] (-90 ~ 90) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  下方旋转</nobr>| [30] (-90 ~ 90) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(ウインク右)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左上</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左下</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右上</nobr>| [1] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右下</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 上方旋转</nobr>| [35] (-90 ~ 90) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 下方旋转</nobr>| [30] (-90 ~ 90) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(笑い)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左上</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左下</nobr>| [0] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右上</nobr>| [1] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右下</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  上方旋转</nobr>| [35] (-90 ~ 90) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  下方旋转</nobr>| [30] (-90 ~ 90) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(笑い)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左上</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左下</nobr>| [1] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右上</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右下</nobr>| [1] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 上方旋转</nobr>| [35] (-90 ~ 90) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 下方旋转</nobr>| [30] (-90 ~ 90) | 
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>(目細める)</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) (Weight)</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 覆盖</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左上</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左下</nobr>| [1] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右上</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右下</nobr>| [1] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  上方旋转</nobr>| [35] (-90 ~ 90) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  下方旋转</nobr>| [30] (-90 ~ 90) | 
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>(目細める)</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  (Weight)</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp; <b>姿势</b></nobr>|| 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左上</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 左下</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右上</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 右下</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 上方旋转</nobr>| [35] (-90 ~ 90) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 下方旋转</nobr>| [30] (-90 ~ 90) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左上</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  左下</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右上</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  右下</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  上方旋转</nobr>| [35] (-90 ~ 90) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  下方旋转</nobr>| [30] (-90 ~ 90) | 

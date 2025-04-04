@@ -15,11 +15,11 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr> <b>位置</b></nobr>|| 
-|<nobr>![slider icon](/images/icon/ic_slider.png) (X)</nobr>| [0] ((Unlimited)) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) (Y)</nobr>| [0] ((Unlimited)) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) (Z)</nobr>| [0] ((Unlimited)) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  (X)</nobr>| [0] ((Unlimited)) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  (Y)</nobr>| [0] ((Unlimited)) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  (Z)</nobr>| [0] ((Unlimited)) | 
 |<nobr> <b>旋转</b></nobr>|| 
-|<nobr>![slider icon](/images/icon/ic_slider.png) (X)</nobr>| [0] ((Unlimited)) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) (Y)</nobr>| [0] ((Unlimited)) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) (Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 缩放</nobr>| [1] (0.2 ~ 2) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  (X)</nobr>| [0] ((Unlimited)) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  (Y)</nobr>| [0] ((Unlimited)) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  (Z)</nobr>| [0] ((Unlimited)) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  缩放</nobr>| [1] (0.2 ~ 2) | 

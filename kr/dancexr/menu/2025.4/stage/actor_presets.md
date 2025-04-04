@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>![refresh icon](/images/icon/ic_refresh.png) 모두 리셋</nobr>|| 
-|<nobr>![file icon](/images/icon/ic_file.png) 저장된 다시 로드</nobr>|| 
-|<nobr>![save icon](/images/icon/ic_save.png) 액터 프리셋 저장</nobr>|| 
-|<nobr>![globe icon](/images/icon/ic_globe.png) 전역 저장</nobr>|| 
+|<nobr> ![refresh icon](/images/icon/ic_refresh.png)  모두 리셋</nobr>|| 
+|<nobr> ![file icon](/images/icon/ic_file.png)  저장된 다시 로드</nobr>|| 
+|<nobr> ![save icon](/images/icon/ic_save.png)  액터 프리셋 저장</nobr>|| 
+|<nobr> ![globe icon](/images/icon/ic_globe.png)  전역 저장</nobr>|| 

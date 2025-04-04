@@ -14,20 +14,20 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>![chevron icon](/images/icon/ic_chevron.png) 聊天语言</nobr>| **自动** | 自动, 英语, 中文, 日语, 韩语, 越南语, 泰语, 法语, 德语, 西班牙语,  |
-|<nobr>![chevron icon](/images/icon/ic_chevron.png) 模板</nobr>| **(default)** | (default),  |
-|<nobr>![check_on icon](/images/icon/ic_check_on.png) 生成故事</nobr>| [ON] | 
-|<nobr>![chevron icon](/images/icon/ic_chevron.png) 故事类型</nobr>| **奇幻** | 随机, 科幻, 奇幻, 悬疑, 惊悚, 浪漫, 动作, 恐怖, 冒险, 喜剧, 情色,  |
+|<nobr> ![chevron icon](/images/icon/ic_chevron.png)  聊天语言</nobr>| **自动** | 自动, 英语, 中文, 日语, 韩语, 越南语, 泰语, 法语, 德语, 西班牙语,  |
+|<nobr> ![chevron icon](/images/icon/ic_chevron.png)  模板</nobr>| **(default)** | (default),  |
+|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  生成故事</nobr>| [ON] | 
+|<nobr> ![chevron icon](/images/icon/ic_chevron.png)  故事类型</nobr>| **奇幻** | 随机, 科幻, 奇幻, 悬疑, 惊悚, 浪漫, 动作, 恐怖, 冒险, 喜剧, 情色,  |
 |<nobr> 重新生成故事</nobr>|| 
-|<nobr>![check_on icon](/images/icon/ic_check_on.png) 总结旧消息</nobr>| [ON] | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 最大消息数量</nobr>| [10] (10 ~ 25) | 超过此限制的旧消息将会被总结。
-|<nobr>![slider icon](/images/icon/ic_slider.png) 最大提示长度</nobr>| [11] (10 ~ 17) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 最大生成令牌数</nobr>| [250] (50 ~ 1000) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 温度</nobr>| [0.75] (0 ~ 1) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 存在惩罚</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 频率惩罚</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>![check_off icon](/images/icon/ic_check_off.png) 为玩家生成</nobr>| [OFF] | 
-|<nobr>![check_off icon](/images/icon/ic_check_off.png) 自动生成下一个</nobr>| [OFF] | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 自动生成延迟</nobr>| [15] (1 ~ 20) | 
-|<nobr>![check_on icon](/images/icon/ic_check_on.png) 使用字幕</nobr>| [ON] | 
-|<nobr>![check_off icon](/images/icon/ic_check_off.png) 描述服装</nobr>| [OFF] | 
+|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  总结旧消息</nobr>| [ON] | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  最大消息数量</nobr>| [10] (10 ~ 25) | 超过此限制的旧消息将会被总结。
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  最大提示长度</nobr>| [11] (10 ~ 17) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  最大生成令牌数</nobr>| [250] (50 ~ 1000) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  温度</nobr>| [0.75] (0 ~ 1) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  存在惩罚</nobr>| [0.5] (0 ~ 1) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  频率惩罚</nobr>| [0.5] (0 ~ 1) | 
+|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  为玩家生成</nobr>| [OFF] | 
+|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  自动生成下一个</nobr>| [OFF] | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  自动生成延迟</nobr>| [15] (1 ~ 20) | 
+|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  使用字幕</nobr>| [ON] | 
+|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  描述服装</nobr>| [OFF] | 

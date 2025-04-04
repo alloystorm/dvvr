@@ -14,11 +14,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>![check_on icon](/images/icon/ic_check_on.png) 启用</nobr>| [ON] | 
+|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  启用</nobr>| [ON] | 
 |<nobr> 选择骨骼</nobr>|| 
-|<nobr>![check_on icon](/images/icon/ic_check_on.png) 重力</nobr>| [ON] | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 质量</nobr>| [0.1] (0 ~ 10) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 阻尼</nobr>| [0] (0 ~ 1) | 
-|<nobr>![toggle_on icon](/images/icon/ic_toggle_on.png) 碰撞体</nobr>| 球体 | 无, 球体, 胶囊, 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 碰撞体半径</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 碰撞体长度</nobr>| [0.3] (0 ~ 2) | 
+|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  重力</nobr>| [ON] | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  质量</nobr>| [0.1] (0 ~ 10) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  阻尼</nobr>| [0] (0 ~ 1) | 
+|<nobr> ![toggle_on icon](/images/icon/ic_toggle_on.png)  碰撞体</nobr>| 球体 | 无, 球体, 胶囊, 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  碰撞体半径</nobr>| [0.1] (0 ~ 1) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  碰撞体长度</nobr>| [0.3] (0 ~ 2) | 

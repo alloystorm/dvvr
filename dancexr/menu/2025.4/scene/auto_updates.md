@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>![slider icon](/images/icon/ic_slider.png) Hue</nobr>| [0] (0 ~ 1) | 
-|<nobr>![filter icon](/images/icon/ic_filter.png) Filtering</nobr>|| 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  Hue</nobr>| [0] (0 ~ 1) | 
+|<nobr> ![filter icon](/images/icon/ic_filter.png)  Filtering</nobr>|| 

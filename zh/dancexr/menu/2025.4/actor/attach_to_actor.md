@@ -14,17 +14,17 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>![check_off icon](/images/icon/ic_check_off.png) 启用</nobr>| [OFF] | 
+|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  启用</nobr>| [OFF] | 
 |<nobr> 选择源骨骼</nobr>|| 选择要附加的骨骼
-|<nobr>![chevron icon](/images/icon/ic_chevron.png) 选择角色</nobr>|  |  |
+|<nobr> ![chevron icon](/images/icon/ic_chevron.png)  选择角色</nobr>|  |  |
 |<nobr> 选择目标骨骼</nobr>|| 选择要附加到的目标骨骼
-|<nobr>![check_off icon](/images/icon/ic_check_off.png) (Ignore Rotation)</nobr>| [OFF] | 忽略附加骨骼的旋转
+|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  (Ignore Rotation)</nobr>| [OFF] | 忽略附加骨骼的旋转
 |<nobr> <b>偏移</b></nobr>|| 
-|<nobr>![slider icon](/images/icon/ic_slider.png) (X)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) (Y)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) (Z)</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  (X)</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  (Y)</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  (Z)</nobr>| [0] (-1 ~ 1) | 
 |<nobr> <b>旋转</b></nobr>|| 
-|<nobr>![slider icon](/images/icon/ic_slider.png) (X)</nobr>| [0] (-180 ~ 180) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) (Y)</nobr>| [0] (-180 ~ 180) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) (Z)</nobr>| [0] (-180 ~ 180) | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 缩放</nobr>| [0] (-4 ~ 4) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  (X)</nobr>| [0] (-180 ~ 180) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  (Y)</nobr>| [0] (-180 ~ 180) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  (Z)</nobr>| [0] (-180 ~ 180) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  缩放</nobr>| [0] (-4 ~ 4) | 

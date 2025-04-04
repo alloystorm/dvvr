@@ -14,39 +14,39 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>![slider icon](/images/icon/ic_slider.png) 지면 오프셋</nobr>| [0] (-0.2 ~ 0.2) | (Adjusts the vertical offset of the ground level.)
-|<nobr>![check_off icon](/images/icon/ic_check_off.png) 바닥에 발</nobr>| [OFF] | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 발바닥 높이</nobr>| [0.03] (-0.1 ~ 0.1) | (The desired distance from the ground to the toe bone.)
-|<nobr>![slider icon](/images/icon/ic_slider.png) 들기</nobr>| [1] (0 ~ 1) | (Controls the amount of body lift when solving ground contact.)
-|<nobr>![slider icon](/images/icon/ic_slider.png) 접촉 변형 발가락</nobr>| [0.5] (0 ~ 1) | (Determines the degree of toe bending when the toe is below the ground.)
-|<nobr>![slider icon](/images/icon/ic_slider.png) 접촉 회전</nobr>| [0.2] (0.1 ~ 0.3) | (Defines the rotational inertia for contact adjustments.)
-|<nobr>![check_off icon](/images/icon/ic_check_off.png) 가상의 신발</nobr>| [OFF] | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 내부</nobr>| [0.04] (0 ~ 0.1) | (Sets the inward offset for virtual shoe visualization.)
-|<nobr>![slider icon](/images/icon/ic_slider.png) 외부</nobr>| [0.06] (0 ~ 0.1) | (Sets the outward offset for virtual shoe visualization.)
-|<nobr>![slider icon](/images/icon/ic_slider.png) 앞면</nobr>| [0.075] (0 ~ 0.1) | (Sets the front offset for virtual shoe visualization.)
-|<nobr>![slider icon](/images/icon/ic_slider.png) 뒷면</nobr>| [0.05] (0 ~ 0.1) | (Sets the back offset for virtual shoe visualization.)
-|<nobr>![slider icon](/images/icon/ic_slider.png) 신발 거리</nobr>| [0.02] (0 ~ 0.1) | (Defines the distance between the virtual shoe and the foot.)
-|<nobr>![slider icon](/images/icon/ic_slider.png) 굽 꼭대기</nobr>| [0] (-0.1 ~ 0.1) | (Adjusts the height of the virtual shoe's heel top.)
-|<nobr>![chevron icon](/images/icon/ic_chevron.png) 모드</nobr>| **와이어프레임** | 와이어프레임, 불투명, 크롬, 단단한 유리, 얇은 유리, <br/>(Selects the visualization mode for virtual shoes.) |
-|<nobr>![slider icon](/images/icon/ic_slider.png) 부드러움</nobr>| [1] (0 ~ 1) | (Controls the smoothness of the virtual shoe material.)
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>색상</b></nobr>| | Sets the color of the virtual shoe material.
-|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 색상 모드</nobr>| (RGB) | (RGB), (HSV), 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 색조</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 채도</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 밝기</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 빨간색</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 초록색</nobr>| [1] (0 ~ 1) | 
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 파란색</nobr>| [1] (0 ~ 1) | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  지면 오프셋</nobr>| [0] (-0.2 ~ 0.2) | (Adjusts the vertical offset of the ground level.)
+|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  바닥에 발</nobr>| [OFF] | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  발바닥 높이</nobr>| [0.03] (-0.1 ~ 0.1) | (The desired distance from the ground to the toe bone.)
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  들기</nobr>| [1] (0 ~ 1) | (Controls the amount of body lift when solving ground contact.)
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  접촉 변형 발가락</nobr>| [0.5] (0 ~ 1) | (Determines the degree of toe bending when the toe is below the ground.)
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  접촉 회전</nobr>| [0.2] (0.1 ~ 0.3) | (Defines the rotational inertia for contact adjustments.)
+|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  가상의 신발</nobr>| [OFF] | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  내부</nobr>| [0.04] (0 ~ 0.1) | (Sets the inward offset for virtual shoe visualization.)
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  외부</nobr>| [0.06] (0 ~ 0.1) | (Sets the outward offset for virtual shoe visualization.)
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  앞면</nobr>| [0.075] (0 ~ 0.1) | (Sets the front offset for virtual shoe visualization.)
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  뒷면</nobr>| [0.05] (0 ~ 0.1) | (Sets the back offset for virtual shoe visualization.)
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  신발 거리</nobr>| [0.02] (0 ~ 0.1) | (Defines the distance between the virtual shoe and the foot.)
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  굽 꼭대기</nobr>| [0] (-0.1 ~ 0.1) | (Adjusts the height of the virtual shoe's heel top.)
+|<nobr> ![chevron icon](/images/icon/ic_chevron.png)  모드</nobr>| **와이어프레임** | 와이어프레임, 불투명, 크롬, 단단한 유리, 얇은 유리, <br/>(Selects the visualization mode for virtual shoes.) |
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  부드러움</nobr>| [1] (0 ~ 1) | (Controls the smoothness of the virtual shoe material.)
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>색상</b></nobr>| | Sets the color of the virtual shoe material.
+|<nobr>├&nbsp; ![toggle_on icon](/images/icon/ic_toggle_on.png)  색상 모드</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  색조</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  채도</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  밝기</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  빨간색</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  초록색</nobr>| [1] (0 ~ 1) | 
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  파란색</nobr>| [1] (0 ~ 1) | 
 |<nobr> <b>굽</b></nobr>|| 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 하이힐</nobr>| [0] (0 ~ 1) | (Adjusts the height of the high heel pose.)
-|<nobr>![check_off icon](/images/icon/ic_check_off.png) 제한 각도</nobr>| [OFF] | (Limits the maximum angle for tiptoe rotation.)
-|<nobr>![slider icon](/images/icon/ic_slider.png) 하이힐 발가락 굽힘</nobr>| [0.35] (0 ~ 1) | (Controls the amount of toe bending when tiptoeing.)
-|<nobr>![slider icon](/images/icon/ic_slider.png) 하이힐 블렌드</nobr>| [0] (0 ~ 1) | (Blends the high heel pose with animation to avoid extreme poses.)
-|<nobr>![check_off icon](/images/icon/ic_check_off.png) (Reduce Sliding)</nobr>| [OFF] | 
-|<nobr>![slider icon](/images/icon/ic_slider.png) 차이 임계값</nobr>| [0] (0 ~ 0.2) | (Defines the distance threshold for applying friction to reduce sliding.)
-|<nobr>![slider icon](/images/icon/ic_slider.png) 감쇠</nobr>| [0.75] (0 ~ 1) | (Controls the damping factor for friction applied to reduce sliding.)
-|<nobr>![tune icon](/images/icon/ic_tune.png) <b>발 각도</b></nobr>| | 
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) X 축 회전</nobr>| [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
-|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) Y 축 회전</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
-|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) Z 축 회전</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
-|<nobr>![list icon](/images/icon/ic_list.png) 프리셋</nobr>| **끄기** | 끄기, 바닥에, 하이힐, 최대 굽,  |
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  하이힐</nobr>| [0] (0 ~ 1) | (Adjusts the height of the high heel pose.)
+|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  제한 각도</nobr>| [OFF] | (Limits the maximum angle for tiptoe rotation.)
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  하이힐 발가락 굽힘</nobr>| [0.35] (0 ~ 1) | (Controls the amount of toe bending when tiptoeing.)
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  하이힐 블렌드</nobr>| [0] (0 ~ 1) | (Blends the high heel pose with animation to avoid extreme poses.)
+|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  (Reduce Sliding)</nobr>| [OFF] | 
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  차이 임계값</nobr>| [0] (0 ~ 0.2) | (Defines the distance threshold for applying friction to reduce sliding.)
+|<nobr> ![slider icon](/images/icon/ic_slider.png)  감쇠</nobr>| [0.75] (0 ~ 1) | (Controls the damping factor for friction applied to reduce sliding.)
+|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>발 각도</b></nobr>| | 
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  X 축 회전</nobr>| [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
+|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  Y 축 회전</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
+|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  Z 축 회전</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
+|<nobr> ![list icon](/images/icon/ic_list.png)  프리셋</nobr>| **끄기** | 끄기, 바닥에, 하이힐, 최대 굽,  |
