@@ -5,7 +5,7 @@ import os
 folder_path = "images/icon"
 
 def create_table_icon(up=False, down=False, left=False, right=False, 
-                      size=(16, 16), line_width=2, padding=2, filename="table_icon.png"):
+                      size=(16, 16), line_width=2, padding=0, filename="table_icon.png"):
     """
     Generates a table line icon with the specified connections and saves it as a PNG.
     
@@ -22,7 +22,7 @@ def create_table_icon(up=False, down=False, left=False, right=False,
     draw = ImageDraw.Draw(img)
 
     # Calculate center points
-    cx, cy = size[0] // 2, size[1] // 2
+    cx, cy = size[0] // 2 - line_width // 2, size[1] // 2 - line_width // 2
     half_width = line_width // 2
     fillcolor = (127, 127, 127, 255)  # Red color for lines
 
