@@ -10,7 +10,7 @@ sidebar:
 
 [Procedural](../menu#Procedural) > [Freefly Cam]
 
-
+Provides a free-fly camera mode where the user has full control over camera movement and rotation. The camera can move forward, backward, up, down, and rotate or tilt based on user input. Additional options include orbit movement and vertical movement restriction.
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

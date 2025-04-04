@@ -10,7 +10,7 @@ sidebar:
 
 [システム](../menu#システム) > アプリケーション設定
 
-
+アプリケーション設定
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

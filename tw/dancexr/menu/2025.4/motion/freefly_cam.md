@@ -10,7 +10,7 @@ sidebar:
 
 [程序化](../menu#程序化) > [自由飛行攝影機]
 
-
+(Provides a free-fly camera mode where the user has full control over camera movement and rotation. The camera can move forward, backward, up, down, and rotate or tilt based on user input. Additional options include orbit movement and vertical movement restriction.)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

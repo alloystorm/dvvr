@@ -10,7 +10,7 @@ sidebar:
 
 [システム](../menu#システム) > グラフィックス
 
-
+(Render quality settings.)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

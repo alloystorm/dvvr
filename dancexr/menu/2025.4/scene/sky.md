@@ -10,7 +10,7 @@ sidebar:
 
 [Environment](../menu#Environment) > Sky
 
-
+SkySetting manages the sky rendering, including sky maps, procedural skies, ambient lighting, and wind effects.
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

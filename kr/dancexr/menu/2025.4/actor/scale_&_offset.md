@@ -10,7 +10,7 @@ sidebar:
 
 [설정](../menu#설정) > 비율 및 오프셋
 
-
+(Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments.)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

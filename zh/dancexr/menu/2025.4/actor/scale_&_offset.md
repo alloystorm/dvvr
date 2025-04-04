@@ -10,7 +10,7 @@ sidebar:
 
 [设置](../menu#设置) > 缩放与偏移
 
-
+(Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments.)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

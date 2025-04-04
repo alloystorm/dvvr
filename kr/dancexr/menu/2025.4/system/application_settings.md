@@ -10,7 +10,7 @@ sidebar:
 
 [시스템](../menu#시스템) > 응용 프로그램 설정
 
-
+응용 프로그램 설정
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

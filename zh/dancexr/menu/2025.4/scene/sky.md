@@ -10,7 +10,7 @@ sidebar:
 
 [环境](../menu#环境) > 天空
 
-
+(SkySetting manages the sky rendering, including sky maps, procedural skies, ambient lighting, and wind effects.)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

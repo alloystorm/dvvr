@@ -10,7 +10,7 @@ sidebar:
 
 [Environment](../menu#Environment) > Lighting
 
-
+Configure the lighting in the scene.
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

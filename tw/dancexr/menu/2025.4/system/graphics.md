@@ -10,7 +10,7 @@ sidebar:
 
 [系統](../menu#系統) > 圖形
 
-
+(Render quality settings.)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

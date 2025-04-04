@@ -10,7 +10,7 @@ sidebar:
 
 [系統](../menu#系統) > 應用設置
 
-
+應用設置
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

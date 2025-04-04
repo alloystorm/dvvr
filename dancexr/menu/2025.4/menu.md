@@ -9,67 +9,36 @@ sidebar:
 
 [Eng](/dancexr/menu/2025.4/menu) | [繁中](/tw/dancexr/menu/2025.4/menu) | [日本語](/jp/dancexr/menu/2025.4/menu) | [한국어](/kr/dancexr/menu/2025.4/menu) | [简中](/zh/dancexr/menu/2025.4/menu)
 
-### **System**
-
-| Setting | Description |
-| :--- | :--- |
+| Settings | Description |
+| --- | --- |
+| **System** |  |
 | [Remote Access](system/remote_access) |  | 
 | [Content Library](system/library) |  | 
 | [Controller Input](system/input_settings) |  | 
 | [Display & UI](system/screen) |  | 
-| [Graphics](system/graphics) |  | 
+| [Graphics](system/graphics) | Render quality settings. | 
 | [Physics](system/physics) |  | 
-| [Application Settings](system/application_settings) |  | 
+| [Application Settings](system/application_settings) | Application Settings | 
 | [Exit](system/exit) |  | 
-| | |
-
-
-### **Environment**
-
-| Setting | Description |
-| :--- | :--- |
-| [Sky](scene/sky) |  | 
+| **Environment** |  |
+| [Sky](scene/sky) | SkySetting manages the sky rendering, including sky maps, procedural skies, ambient lighting, and wind effects. | 
 | [Ground](scene/ground) |  | 
 | [Particle Effect](scene/particles) |  | 
-| [Lighting](scene/lighting) |  | 
+| [Lighting](scene/lighting) | Configure the lighting in the scene. | 
 | [Camera](scene/cameras) |  | 
 | [Animated Values](scene/auto_updates) |  | 
 | [System Presets](scene/system_presets) | Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library. | 
-| | |
-
-
-### **Scene**
-
-| Setting | Description |
-| :--- | :--- |
+| **Scene** |  |
 | [Options](stage/scene) |  | 
-| | |
-
-
-### **Audio / Motion**
-
-| Setting | Description |
-| :--- | :--- |
+| **Audio / Motion** |  |
 | [Procedural](motion/procedural) |  | 
 | [Playback Options](motion/motion_loader) |  | 
 | [Video Player](motion/video_player) |  | 
-| | |
-
-
-### **Actors**
-
-| Setting | Description |
-| :--- | :--- |
+| **Actors** |  |
 | [Formation](actors/formation) |  | 
 | [Global Actor Control](actors/global_actor_control) |  | 
 | [Loader Options](actors/loader_options) |  | 
-| | |
-
-
-### **Chat Settings**
-
-| Setting | Description |
-| :--- | :--- |
+| **Chat Settings** |  |
 | [Enable](chat/enabled) |  | 
 | [AI Service](chat/ai_service) |  | 
 | [Chat Settings](chat/chat_settings) |  | 
@@ -80,31 +49,19 @@ sidebar:
 | [Load History](chat/load_history) |  | 
 | [Save History](chat/save_history) |  | 
 | [Clear History](chat/clear_history) |  | 
-| | |
-
-
-### **Actor**
-
-| Setting | Description |
-| :--- | :--- |
+| **Actor** |  |
 | [Motion Settings](actor/actor_motion) |  | 
 | [Accessory](actor/accessory) |  | 
 | [Attach To Actor](actor/attach_to_actor) |  | 
 | [Auto Reset](actor/auto_reset) |  | 
 | [Body Colliders](actor/body_colliders) |  | 
-| [Scale & Offset](actor/scale_&_offset) |  | 
+| [Scale & Offset](actor/scale_&_offset) | Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments. | 
 | [Materials](actor/materials) |  | 
 | [Settings](actor/all_settings) |  | 
 | [Pro](actor/pro_tools) |  | 
 | [Physics](actor/physics_settings) |  | 
 | [Presets](actor/actor_presets) |  | 
-| | |
-
-
-### **Prop**
-
-| Setting | Description |
-| :--- | :--- |
+| **Prop** |  |
 | [Auto Reset](prop/auto_reset) |  | 
 | [Body Colliders](prop/body_colliders) |  | 
 | [Dangling Physics](prop/cloth_physics) |  | 
@@ -113,13 +70,7 @@ sidebar:
 | [Settings](prop/settings) |  | 
 | [Physics](prop/model_physics) |  | 
 | [Presets](prop/actor_presets) |  | 
-| | |
-
-
-### **Stage**
-
-| Setting | Description |
-| :--- | :--- |
+| **Stage** |  |
 | [Auto Reset](stage/auto_reset) |  | 
 | [Body Colliders](stage/body_colliders) |  | 
 | [Dangling Physics](stage/cloth_physics) |  | 
@@ -128,7 +79,4 @@ sidebar:
 | [Offset](stage/offset) |  | 
 | [Physics](stage/model_physics) |  | 
 | [Presets](stage/actor_presets) |  | 
-| | |
-
-
 

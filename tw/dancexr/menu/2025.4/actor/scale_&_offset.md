@@ -10,7 +10,7 @@ sidebar:
 
 [設定](../menu#設定) > 比例與偏移
 
-
+(Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments.)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

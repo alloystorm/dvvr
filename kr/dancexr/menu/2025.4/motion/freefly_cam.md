@@ -10,7 +10,7 @@ sidebar:
 
 [프로시저](../menu#프로시저) > [프리플라이 카메라]
 
-
+(Provides a free-fly camera mode where the user has full control over camera movement and rotation. The camera can move forward, backward, up, down, and rotate or tilt based on user input. Additional options include orbit movement and vertical movement restriction.)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

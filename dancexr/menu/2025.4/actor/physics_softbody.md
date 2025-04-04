@@ -10,7 +10,7 @@ sidebar:
 
 [Physics](../menu#Physics) > Softbody Physics
 
-
+Drive additional control bones using particle dynamics.
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

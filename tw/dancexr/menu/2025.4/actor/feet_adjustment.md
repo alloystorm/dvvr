@@ -10,7 +10,7 @@ sidebar:
 
 [專業版](../menu#專業版) > 腳部調整
 
-
+(Adjusts the feet's position and rotation to match the ground level, simulating realistic foot contact with the floor. Supports features like high heels, toe bending, and virtual shoe visualization.)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

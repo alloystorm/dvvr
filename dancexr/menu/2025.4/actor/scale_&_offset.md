@@ -10,7 +10,7 @@ sidebar:
 
 [Settings](../menu#Settings) > Scale & Offset
 
-
+Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments.
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

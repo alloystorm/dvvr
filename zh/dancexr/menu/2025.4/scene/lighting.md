@@ -10,7 +10,7 @@ sidebar:
 
 [环境](../menu#环境) > 照明
 
-
+(Configure the lighting in the scene.)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

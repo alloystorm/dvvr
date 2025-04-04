@@ -9,67 +9,36 @@ sidebar:
 
 [Eng](/dancexr/menu/2025.4/menu) | [繁中](/tw/dancexr/menu/2025.4/menu) | [日本語](/jp/dancexr/menu/2025.4/menu) | [한국어](/kr/dancexr/menu/2025.4/menu) | [简中](/zh/dancexr/menu/2025.4/menu)
 
-### **システム**
-
-| Setting | Description |
-| :--- | :--- |
+| Settings | Description |
+| --- | --- |
+| **システム** |  |
 | [リモートアクセス](system/remote_access) |  | 
 | [コンテンツライブラリ](system/library) |  | 
 | [コントローラー入力](system/input_settings) |  | 
 | [表示＆UI](system/screen) |  | 
-| [グラフィックス](system/graphics) |  | 
+| [グラフィックス](system/graphics) | (Render quality settings.) | 
 | [物理](system/physics) |  | 
-| [アプリケーション設定](system/application_settings) |  | 
+| [アプリケーション設定](system/application_settings) | アプリケーション設定 | 
 | [終了](system/exit) |  | 
-| | |
-
-
-### **環境**
-
-| Setting | Description |
-| :--- | :--- |
-| [空](scene/sky) |  | 
+| **環境** |  |
+| [空](scene/sky) | (SkySetting manages the sky rendering, including sky maps, procedural skies, ambient lighting, and wind effects.) | 
 | [地面](scene/ground) |  | 
 | [パーティクルエフェクト](scene/particles) |  | 
-| [ライティング](scene/lighting) |  | 
+| [ライティング](scene/lighting) | (Configure the lighting in the scene.) | 
 | [カメラ](scene/cameras) |  | 
 | [アニメーション値](scene/auto_updates) |  | 
 | [システムプリセット](scene/system_presets) | (Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.) | 
-| | |
-
-
-### **シーン**
-
-| Setting | Description |
-| :--- | :--- |
+| **シーン** |  |
 | [オプション](stage/scene) |  | 
-| | |
-
-
-### **オーディオ / モーション**
-
-| Setting | Description |
-| :--- | :--- |
+| **オーディオ / モーション** |  |
 | [プロシージャル](motion/procedural) |  | 
 | [再生オプション](motion/motion_loader) |  | 
 | [ビデオプレーヤー](motion/video_player) |  | 
-| | |
-
-
-### **アクター**
-
-| Setting | Description |
-| :--- | :--- |
+| **アクター** |  |
 | [フォーメーション](actors/formation) |  | 
 | [グローバルアクターコントロール](actors/global_actor_control) |  | 
 | [ローダーオプション](actors/loader_options) |  | 
-| | |
-
-
-### **チャット設定**
-
-| Setting | Description |
-| :--- | :--- |
+| **チャット設定** |  |
 | [有効にする](chat/enabled) |  | 
 | [AIサービス](chat/ai_service) |  | 
 | [チャット設定](chat/chat_settings) |  | 
@@ -80,31 +49,19 @@ sidebar:
 | [履歴を読み込む](chat/load_history) |  | 
 | [履歴を保存する](chat/save_history) |  | 
 | [履歴をクリアする](chat/clear_history) |  | 
-| | |
-
-
-### **アクター**
-
-| Setting | Description |
-| :--- | :--- |
+| **アクター** |  |
 | [モーション設定](actor/actor_motion) |  | 
 | [アクセサリー](actor/accessory) |  | 
 | [(Attach To Actor)](actor/attach_to_actor) |  | 
 | [自動リセット](actor/auto_reset) |  | 
 | [ボディコライダー](actor/body_colliders) |  | 
-| [スケールとオフセット](actor/scale_&_offset) |  | 
+| [スケールとオフセット](actor/scale_&_offset) | (Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments.) | 
 | [マテリアル](actor/materials) |  | 
 | [設定](actor/all_settings) |  | 
 | [プロ版](actor/pro_tools) |  | 
 | [物理](actor/physics_settings) |  | 
 | [プリセット](actor/actor_presets) |  | 
-| | |
-
-
-### **(Prop)**
-
-| Setting | Description |
-| :--- | :--- |
+| **(Prop)** |  |
 | [自動リセット](prop/auto_reset) |  | 
 | [ボディコライダー](prop/body_colliders) |  | 
 | [ぶら下がり物理](prop/cloth_physics) |  | 
@@ -113,13 +70,7 @@ sidebar:
 | [設定](prop/settings) |  | 
 | [物理](prop/model_physics) |  | 
 | [プリセット](prop/actor_presets) |  | 
-| | |
-
-
-### **ステージ**
-
-| Setting | Description |
-| :--- | :--- |
+| **ステージ** |  |
 | [自動リセット](stage/auto_reset) |  | 
 | [ボディコライダー](stage/body_colliders) |  | 
 | [ぶら下がり物理](stage/cloth_physics) |  | 
@@ -128,7 +79,4 @@ sidebar:
 | [オフセット](stage/offset) |  | 
 | [物理](stage/model_physics) |  | 
 | [プリセット](stage/actor_presets) |  | 
-| | |
-
-
 
