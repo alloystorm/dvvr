@@ -16,7 +16,7 @@ for filename in os.listdir(folder_path):
         r, g, b, a = img.split()
         
         # Invert RGB channels
-        r, g, b = r, g, ImageOps.invert(b)
+        r, g, b = r, ImageOps.invert(g), ImageOps.invert(b)
         
         # Merge back with original alpha
         inverted_img = Image.merge("RGBA", (r, g, b, a))
