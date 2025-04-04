@@ -24,7 +24,7 @@ def create_table_icon(up=False, down=False, left=False, right=False,
     # Calculate center points
     cx, cy = size[0] // 2, size[1] // 2
     half_width = line_width // 2
-    fillcolor = (255, 0, 0, 255)  # Red color for lines
+    fillcolor = (127, 127, 127, 255)  # Red color for lines
 
     # Define start and end positions for each direction
     if up:
