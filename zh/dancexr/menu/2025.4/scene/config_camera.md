@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  高度偏移</nobr>| [0] (-5 ~ 5) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  视场缩放</nobr>| [1] (0.25 ~ 2) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  肖像模式缩放</nobr>| [1.2] (1 ~ 2) | 
-|<nobr> ![toggle_on icon](/images/icon/ic_toggle_on.png)  旋转过滤器</nobr>| 完全旋转 | 无旋转, 仅方向, 完全旋转, 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  近裁剪</nobr>| [0.01] (0 ~ 0.5) | 
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  运动变化时重置</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 高度偏移</nobr>| [0] (-5 ~ 5) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 视场缩放</nobr>| [1] (0.25 ~ 2) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 肖像模式缩放</nobr>| [1.2] (1 ~ 2) | 
+|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 旋转过滤器</nobr>| 完全旋转 | 无旋转, 仅方向, 完全旋转, 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 近裁剪</nobr>| [0.01] (0 ~ 0.5) | 
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 运动变化时重置</nobr>| [ON] | 
 |<nobr> 重置偏移</nobr>|| 

@@ -14,6 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  활성화</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 활성화</nobr>| [OFF] | 
 |<nobr> 포트 번호</nobr>|| 
 |<nobr> 비밀번호</nobr>|| 

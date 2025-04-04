@@ -21,15 +21,15 @@ sidebar:
 |<nobr> 圓形</nobr>|| 
 |<nobr> 零</nobr>|| 
 |<nobr> 扇形</nobr>|| 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  X 距離</nobr>| [1] (-10 ~ 10) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Y 距離</nobr>| [1] (-2 ~ 2) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  旋轉</nobr>| [0] (-180 ~ 180) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  朝向</nobr>| [0] (-180 ~ 180) | 
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  使用觀眾隊形</nobr>| [ON] | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  觀眾距離</nobr>| [2] (0.25 ~ 5) | 
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  旋轉觀眾</nobr>| [ON] | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  偏移X</nobr>| [0] (-5 ~ 5) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  偏移 Y</nobr>| [0] (-5 ~ 5) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> X 距離</nobr>| [1] (-10 ~ 10) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Y 距離</nobr>| [1] (-2 ~ 2) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 旋轉</nobr>| [0] (-180 ~ 180) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 朝向</nobr>| [0] (-180 ~ 180) | 
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 使用觀眾隊形</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 觀眾距離</nobr>| [2] (0.25 ~ 5) | 
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 旋轉觀眾</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 偏移X</nobr>| [0] (-5 ~ 5) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 偏移 Y</nobr>| [0] (-5 ~ 5) | 
 |<nobr> 重置演員</nobr>|| 
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  隨機道具位置</nobr>| [ON] | 
-|<nobr> ![list icon](/images/icon/ic_list.png)  預設</nobr>| **預設 (重置)** | 預設 (重置),  |
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 隨機道具位置</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置),  |

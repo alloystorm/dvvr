@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![refresh icon](/images/icon/ic_refresh.png)  刷新內容</nobr>|| 
-|<nobr> ![up icon](/images/icon/ic_up.png)  遷移設定</nobr>|| 
-|<nobr> ![delete icon](/images/icon/ic_delete.png)  刪除重複項</nobr>|| 
-|<nobr> ![replace icon](/images/icon/ic_replace.png)  切換庫</nobr>|| 
-|<nobr> ![folder_open icon](/images/icon/ic_folder_open.png)  在資源管理器中顯示</nobr>|| 
+|<nobr><img src="/images/icon/ic_refresh.png" alt="refresh icon"/> 刷新內容</nobr>|| 
+|<nobr><img src="/images/icon/ic_up.png" alt="up icon"/> 遷移設定</nobr>|| 
+|<nobr><img src="/images/icon/ic_delete.png" alt="delete icon"/> 刪除重複項</nobr>|| 
+|<nobr><img src="/images/icon/ic_replace.png" alt="replace icon"/> 切換庫</nobr>|| 
+|<nobr><img src="/images/icon/ic_folder_open.png" alt="folder open icon"/> 在資源管理器中顯示</nobr>|| 
 |<nobr> <b>Google 雲端硬碟</b></nobr>|| 
-|<nobr> ![linked icon](/images/icon/ic_linked.png)  連結 Google 雲端硬碟</nobr>|| 
+|<nobr><img src="/images/icon/ic_linked.png" alt="linked icon"/> 連結 Google 雲端硬碟</nobr>|| 

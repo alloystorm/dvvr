@@ -14,5 +14,5 @@ Save system settings as presets for you to load and apply in the future. Stored 
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![refresh icon](/images/icon/ic_refresh.png)  Reset All</nobr>|| 
-|<nobr> ![file icon](/images/icon/ic_file.png)  Reload Saved</nobr>|| 
+|<nobr><img src="/images/icon/ic_refresh.png" alt="refresh icon"/> Reset All</nobr>|| 
+|<nobr><img src="/images/icon/ic_file.png" alt="file icon"/> Reload Saved</nobr>|| 

@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![refresh icon](/images/icon/ic_refresh.png)  重置所有</nobr>|| 
-|<nobr> ![file icon](/images/icon/ic_file.png)  重新加载保存</nobr>|| 
-|<nobr> ![save icon](/images/icon/ic_save.png)  保存演员预设</nobr>|| 
-|<nobr> ![globe icon](/images/icon/ic_globe.png)  保存全局</nobr>|| 
+|<nobr><img src="/images/icon/ic_refresh.png" alt="refresh icon"/> 重置所有</nobr>|| 
+|<nobr><img src="/images/icon/ic_file.png" alt="file icon"/> 重新加载保存</nobr>|| 
+|<nobr><img src="/images/icon/ic_save.png" alt="save icon"/> 保存演员预设</nobr>|| 
+|<nobr><img src="/images/icon/ic_globe.png" alt="globe icon"/> 保存全局</nobr>|| 

@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  高さオフセット</nobr>| [0] (-5 ~ 5) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  視野角スケール</nobr>| [1] (0.25 ~ 2) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  ポートレートモードズーム</nobr>| [1.2] (1 ~ 2) | 
-|<nobr> ![toggle_on icon](/images/icon/ic_toggle_on.png)  回転フィルター</nobr>| フル回転 | 回転なし, 方向のみ, フル回転, 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  近クリップ</nobr>| [0.01] (0 ~ 0.5) | 
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  動きが変わったときにリセット</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 高さオフセット</nobr>| [0] (-5 ~ 5) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 視野角スケール</nobr>| [1] (0.25 ~ 2) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> ポートレートモードズーム</nobr>| [1.2] (1 ~ 2) | 
+|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 回転フィルター</nobr>| フル回転 | 回転なし, 方向のみ, フル回転, 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 近クリップ</nobr>| [0.01] (0 ~ 0.5) | 
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 動きが変わったときにリセット</nobr>| [ON] | 
 |<nobr> オフセットのリセット</nobr>|| 

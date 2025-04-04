@@ -14,18 +14,18 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  스케일</nobr>| [0] (-2 ~ 2) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  오프셋 X</nobr>| [0] ((Unlimited)) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Y 오프셋</nobr>| [0] ((Unlimited)) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  오프셋 Z</nobr>| [0] ((Unlimited)) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  회전 X</nobr>| [0] (-180 ~ 180) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  회전 Y</nobr>| [0] (-180 ~ 180) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  회전 Z</nobr>| [0] (-180 ~ 180) | 
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  물리</nobr>| [OFF] | 
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  정지</nobr>| [OFF] | 
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  중력</nobr>| [ON] | 
-|<nobr> ![toggle_on icon](/images/icon/ic_toggle_on.png)  형상</nobr>| 상자 | 구, 캡슐, 상자, 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  질량</nobr>| [1] (0 ~ 10) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  드래그</nobr>| [0] (0 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  마찰</nobr>| [0.5] (0 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  튀어 오름</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 스케일</nobr>| [0] (-2 ~ 2) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 오프셋 X</nobr>| [0] ((Unlimited)) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Y 오프셋</nobr>| [0] ((Unlimited)) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 오프셋 Z</nobr>| [0] ((Unlimited)) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전 X</nobr>| [0] (-180 ~ 180) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전 Y</nobr>| [0] (-180 ~ 180) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전 Z</nobr>| [0] (-180 ~ 180) | 
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 물리</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 정지</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 중력</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 형상</nobr>| 상자 | 구, 캡슐, 상자, 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 질량</nobr>| [1] (0 ~ 10) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 드래그</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 마찰</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 튀어 오름</nobr>| [0.5] (0 ~ 1) | 

@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  演員比例</nobr>| [1] (0.15 ~ 5) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  動作比例</nobr>| [1] (0.5 ~ 1.5) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 演員比例</nobr>| [1] (0.15 ~ 5) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 動作比例</nobr>| [1] (0.5 ~ 1.5) | 

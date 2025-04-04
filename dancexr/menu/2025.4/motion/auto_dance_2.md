@@ -14,20 +14,20 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![motion icon](/images/icon/ic_motion.png)  Assign To All</nobr>|| 
-|<nobr> ![motion icon](/images/icon/ic_motion.png)  Assign To Selected</nobr>|| 
-|<nobr> ![motion icon](/images/icon/ic_motion.png)  Assign To All as 2nd</nobr>|| 
-|<nobr> ![motion icon](/images/icon/ic_motion.png)  Assign To Selected as 2nd</nobr>|| 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Extent</nobr>| [0.5] (0 ~ 1) | 
-|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>Speed</b></nobr>| | 
-|<nobr>├&nbsp; ![toggle_on icon](/images/icon/ic_toggle_on.png)  Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
-|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  Moves Per Group</nobr>| [8] (4 ~ 32) | 
-|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  Phase</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  Curve</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  Variable Speed</nobr>| [OFF] | 
-|<nobr>├&nbsp; ![toggle_on icon](/images/icon/ic_toggle_on.png)  Mode</nobr>| Gradual | Gradual, Random, Volume, 
-|<nobr>├&nbsp; ![toggle_on icon](/images/icon/ic_toggle_on.png)  Min Speed</nobr>| 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
-|<nobr>└&nbsp; ![toggle_on icon](/images/icon/ic_toggle_on.png)  Max Speed</nobr>| 3/2 | 1, 3/2, 2, 3, 4, 
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  Audio Sensitivity</nobr>| [2] (0.5 ~ 5) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Audio Threshold</nobr>| [0.1] (0 ~ 0.5) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Body Twist</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All</nobr>|| 
+|<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected</nobr>|| 
+|<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd</nobr>|| 
+|<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd</nobr>|| 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Extent</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Speed</b></nobr>| | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
+|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Moves Per Group</nobr>| [8] (4 ~ 32) | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Phase</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Curve</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_check_off.png" alt="check off icon"/> Variable Speed</nobr>| [OFF] | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Mode</nobr>| Gradual | Gradual, Random, Volume, 
+|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Min Speed</nobr>| 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
+|<nobr>└&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Max Speed</nobr>| 3/2 | 1, 3/2, 2, 3, 4, 
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> Audio Sensitivity</nobr>| [2] (0.5 ~ 5) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Audio Threshold</nobr>| [0.1] (0 ~ 0.5) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Body Twist</nobr>| [0] (0 ~ 1) | 

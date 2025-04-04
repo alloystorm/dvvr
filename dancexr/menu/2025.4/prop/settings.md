@@ -14,18 +14,18 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Scale</nobr>| [0] (-2 ~ 2) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Offset X</nobr>| [0] (Unlimited) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Offset Y</nobr>| [0] (Unlimited) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Offset Z</nobr>| [0] (Unlimited) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Rotation X</nobr>| [0] (-180 ~ 180) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Rotation Y</nobr>| [0] (-180 ~ 180) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Rotation Z</nobr>| [0] (-180 ~ 180) | 
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  Physics</nobr>| [OFF] | 
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  Stationary</nobr>| [OFF] | 
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  Gravity</nobr>| [ON] | 
-|<nobr> ![toggle_on icon](/images/icon/ic_toggle_on.png)  Shape</nobr>| Box | Sphere, Capsule, Box, 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Mass</nobr>| [1] (0 ~ 10) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Drag</nobr>| [0] (0 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Friction</nobr>| [0.5] (0 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Bounciness</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Scale</nobr>| [0] (-2 ~ 2) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Offset X</nobr>| [0] (Unlimited) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Offset Y</nobr>| [0] (Unlimited) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Offset Z</nobr>| [0] (Unlimited) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotation X</nobr>| [0] (-180 ~ 180) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotation Y</nobr>| [0] (-180 ~ 180) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotation Z</nobr>| [0] (-180 ~ 180) | 
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Physics</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Stationary</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> Gravity</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Shape</nobr>| Box | Sphere, Capsule, Box, 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Mass</nobr>| [1] (0 ~ 10) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Drag</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Friction</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Bounciness</nobr>| [0.5] (0 ~ 1) | 

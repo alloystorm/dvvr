@@ -14,26 +14,26 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![motion icon](/images/icon/ic_motion.png)  分配给所有</nobr>|| 
-|<nobr> ![motion icon](/images/icon/ic_motion.png)  分配给所选</nobr>|| 
-|<nobr> ![motion icon](/images/icon/ic_motion.png)  作为第二个分配给所有</nobr>|| 
-|<nobr> ![motion icon](/images/icon/ic_motion.png)  作为第二个分配给所选</nobr>|| 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  角度</nobr>| [0] (-90 ~ 90) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  范围</nobr>| [0.65] (0 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  动作偏移</nobr>| [0] (-1 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  摆动角度</nobr>| [30] (0 ~ 45) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  下方</nobr>| [0.35] (0 ~ 0.8) | 
-|<nobr> ![tune icon](/images/icon/ic_tune.png)  <b>速度</b></nobr>| | 
-|<nobr>├&nbsp; ![toggle_on icon](/images/icon/ic_toggle_on.png)  每拍动作数</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
-|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  每组动作数</nobr>| [8] (4 ~ 32) | 
-|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  相位</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  曲线</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  可变速度</nobr>| [OFF] | 
-|<nobr>├&nbsp; ![toggle_on icon](/images/icon/ic_toggle_on.png)  模式</nobr>| (Gradual) | (Gradual), 随机, 音量, 
-|<nobr>├&nbsp; ![toggle_on icon](/images/icon/ic_toggle_on.png)  最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
-|<nobr>└&nbsp; ![toggle_on icon](/images/icon/ic_toggle_on.png)  最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  同步</nobr>| [-0.25] (-1 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  音频灵敏度</nobr>| [1] (-2 ~ 4) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  身体扭转</nobr>| [0] (-1 ~ 1) | 
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  覆盖</nobr>| [OFF] | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  覆盖运动</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 分配给所有</nobr>|| 
+|<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 分配给所选</nobr>|| 
+|<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 作为第二个分配给所有</nobr>|| 
+|<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 作为第二个分配给所选</nobr>|| 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 角度</nobr>| [0] (-90 ~ 90) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 范围</nobr>| [0.65] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 动作偏移</nobr>| [0] (-1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 摆动角度</nobr>| [30] (0 ~ 45) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 下方</nobr>| [0.35] (0 ~ 0.8) | 
+|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>速度</b></nobr>| | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 每拍动作数</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
+|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 每组动作数</nobr>| [8] (4 ~ 32) | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 相位</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> 曲线</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可变速度</nobr>| [OFF] | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 模式</nobr>| (Gradual) | (Gradual), 随机, 音量, 
+|<nobr>├&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
+|<nobr>└&nbsp;<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 同步</nobr>| [-0.25] (-1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 音频灵敏度</nobr>| [1] (-2 ~ 4) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 身体扭转</nobr>| [0] (-1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 覆盖</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 覆盖运动</nobr>| [0] (0 ~ 1) | 

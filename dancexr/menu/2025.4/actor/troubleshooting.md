@@ -14,19 +14,19 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  Apply Body Rotation To Center</nobr>| [OFF] | Apply rotation of hip and torso to the center bone
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  Twist Correction</nobr>| [OFF] | Reduce twisting of arms & legs at joints
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Upper Arm Twist</nobr>| [0] (0 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Lower Arm Twist</nobr>| [0] (0 ~ 1) | 
-|<nobr> ![toggle_on icon](/images/icon/ic_toggle_on.png)  Lower Arm Mode</nobr>| From Hand | From Upper Arm, From Hand, 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Leg Twist</nobr>| [0] (0 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Clear Arm Twist</nobr>| [0] (0 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Elbow Axis</nobr>| [0] (-180 ~ 180) | Rotation axis of the elbow joints
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  Ignore Diffuse Color</nobr>| [OFF] | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Hand Scale</nobr>| [1] (0 ~ 1) | Set scale of the hands
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  BVH Thumb Motion</nobr>| [0.5] (0 ~ 1) | Reduce thumb motion for BVH motions
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Limit Neck Rotation</nobr>| [0] (0 ~ 1) | Reduce rotation of neck bone
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Limit Head Rotation</nobr>| [0] (0 ~ 1) | Reduce rotation of head bone
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  Reset Transition</nobr>| [OFF] | When resetting physics, perform a transition from standard pose to the animated pose to allow physics components to settle properly.
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Leg Pose During Reset</nobr>| [30] (0 ~ 45) | 
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  Skip Kinematic Updates</nobr>| [OFF] | Not updating kinematic bones that are not animated.
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Apply Body Rotation To Center</nobr>| [OFF] | Apply rotation of hip and torso to the center bone
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Twist Correction</nobr>| [OFF] | Reduce twisting of arms & legs at joints
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Upper Arm Twist</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Lower Arm Twist</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Lower Arm Mode</nobr>| From Hand | From Upper Arm, From Hand, 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Leg Twist</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Clear Arm Twist</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Elbow Axis</nobr>| [0] (-180 ~ 180) | Rotation axis of the elbow joints
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Ignore Diffuse Color</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Hand Scale</nobr>| [1] (0 ~ 1) | Set scale of the hands
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> BVH Thumb Motion</nobr>| [0.5] (0 ~ 1) | Reduce thumb motion for BVH motions
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Limit Neck Rotation</nobr>| [0] (0 ~ 1) | Reduce rotation of neck bone
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Limit Head Rotation</nobr>| [0] (0 ~ 1) | Reduce rotation of head bone
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Reset Transition</nobr>| [OFF] | When resetting physics, perform a transition from standard pose to the animated pose to allow physics components to settle properly.
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Leg Pose During Reset</nobr>| [30] (0 ~ 45) | 
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Skip Kinematic Updates</nobr>| [OFF] | Not updating kinematic bones that are not animated.

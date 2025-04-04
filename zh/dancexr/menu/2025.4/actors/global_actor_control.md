@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  角色缩放</nobr>| [1] (0.15 ~ 5) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  动作比例</nobr>| [1] (0.5 ~ 1.5) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 角色缩放</nobr>| [1] (0.15 ~ 5) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 动作比例</nobr>| [1] (0.5 ~ 1.5) | 

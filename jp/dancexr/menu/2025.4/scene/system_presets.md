@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![refresh icon](/images/icon/ic_refresh.png)  すべてリセット</nobr>|| 
-|<nobr> ![file icon](/images/icon/ic_file.png)  保存したものを再読み込み</nobr>|| 
+|<nobr><img src="/images/icon/ic_refresh.png" alt="refresh icon"/> すべてリセット</nobr>|| 
+|<nobr><img src="/images/icon/ic_file.png" alt="file icon"/> 保存したものを再読み込み</nobr>|| 

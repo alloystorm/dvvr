@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![refresh icon](/images/icon/ic_refresh.png)  コンテンツを更新</nobr>|| 
-|<nobr> ![up icon](/images/icon/ic_up.png)  設定を移行</nobr>|| 
-|<nobr> ![delete icon](/images/icon/ic_delete.png)  重複を削除</nobr>|| 
-|<nobr> ![replace icon](/images/icon/ic_replace.png)  ライブラリを切り替え</nobr>|| 
-|<nobr> ![folder_open icon](/images/icon/ic_folder_open.png)  エクスプローラーで表示</nobr>|| 
+|<nobr><img src="/images/icon/ic_refresh.png" alt="refresh icon"/> コンテンツを更新</nobr>|| 
+|<nobr><img src="/images/icon/ic_up.png" alt="up icon"/> 設定を移行</nobr>|| 
+|<nobr><img src="/images/icon/ic_delete.png" alt="delete icon"/> 重複を削除</nobr>|| 
+|<nobr><img src="/images/icon/ic_replace.png" alt="replace icon"/> ライブラリを切り替え</nobr>|| 
+|<nobr><img src="/images/icon/ic_folder_open.png" alt="folder open icon"/> エクスプローラーで表示</nobr>|| 
 |<nobr> <b>Google ドライブ</b></nobr>|| 
-|<nobr> ![linked icon](/images/icon/ic_linked.png)  Google ドライブのリンク</nobr>|| 
+|<nobr><img src="/images/icon/ic_linked.png" alt="linked icon"/> Google ドライブのリンク</nobr>|| 

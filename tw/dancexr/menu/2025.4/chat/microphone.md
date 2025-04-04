@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![chevron icon](/images/icon/ic_chevron.png)  模式</nobr>| **手動** | 手動, 自動,  |
-|<nobr> ![chevron icon](/images/icon/ic_chevron.png)  麥克風選擇</nobr>| **([Default])** | ([Default]), (Headset Microphone (Oculus Virtual Audio Device)), (Microphone (Pico Streaming Virtual Audio)), (Microphone Array (Pico Streaming Speaker)), (Microphone (Virtual Desktop Audio)),  |
+|<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 模式</nobr>| **手動** | 手動, 自動,  |
+|<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 麥克風選擇</nobr>| **([Default])** | ([Default]), (Headset Microphone (Oculus Virtual Audio Device)), (Microphone (Pico Streaming Virtual Audio)), (Microphone Array (Pico Streaming Speaker)), (Microphone (Virtual Desktop Audio)),  |

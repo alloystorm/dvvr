@@ -14,16 +14,16 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![motion icon](/images/icon/ic_motion.png)  Assign To All</nobr>|| 
-|<nobr> ![motion icon](/images/icon/ic_motion.png)  Assign To Selected</nobr>|| 
-|<nobr> ![motion icon](/images/icon/ic_motion.png)  Assign To All as 2nd</nobr>|| 
-|<nobr> ![motion icon](/images/icon/ic_motion.png)  Assign To Selected as 2nd</nobr>|| 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Spin</nobr>| [0] (-1 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Offset</nobr>| [0] (0 ~ 2) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Leg</nobr>| [0] (-35 ~ 115) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Knee</nobr>| [0] (-11 ~ 155) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Arm</nobr>| [0] (-40 ~ 90) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Elbow</nobr>| [0] (-20 ~ 135) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Pelvis</nobr>| [0] (-25 ~ 25) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Abdomen</nobr>| [0] (-20 ~ 36) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Chest</nobr>| [0] (-25 ~ 36) | 
+|<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All</nobr>|| 
+|<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected</nobr>|| 
+|<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd</nobr>|| 
+|<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd</nobr>|| 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Spin</nobr>| [0] (-1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Offset</nobr>| [0] (0 ~ 2) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Leg</nobr>| [0] (-35 ~ 115) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Knee</nobr>| [0] (-11 ~ 155) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Arm</nobr>| [0] (-40 ~ 90) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Elbow</nobr>| [0] (-20 ~ 135) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Pelvis</nobr>| [0] (-25 ~ 25) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Abdomen</nobr>| [0] (-20 ~ 36) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Chest</nobr>| [0] (-25 ~ 36) | 

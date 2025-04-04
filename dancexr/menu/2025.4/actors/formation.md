@@ -21,15 +21,15 @@ sidebar:
 |<nobr> Circle</nobr>|| 
 |<nobr> Zero</nobr>|| 
 |<nobr> Fan Shape</nobr>|| 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  X Dist</nobr>| [1] (-10 ~ 10) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Y Dist</nobr>| [1] (-2 ~ 2) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Rotation</nobr>| [0] (-180 ~ 180) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Orientation</nobr>| [0] (-180 ~ 180) | 
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  Use Spectator Formation</nobr>| [ON] | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Spectator Dist</nobr>| [2] (0.25 ~ 5) | 
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  Rotate Spectators</nobr>| [ON] | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Offset X</nobr>| [0] (-5 ~ 5) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Offset Y</nobr>| [0] (-5 ~ 5) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> X Dist</nobr>| [1] (-10 ~ 10) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Y Dist</nobr>| [1] (-2 ~ 2) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotation</nobr>| [0] (-180 ~ 180) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Orientation</nobr>| [0] (-180 ~ 180) | 
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> Use Spectator Formation</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Spectator Dist</nobr>| [2] (0.25 ~ 5) | 
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> Rotate Spectators</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Offset X</nobr>| [0] (-5 ~ 5) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Offset Y</nobr>| [0] (-5 ~ 5) | 
 |<nobr> Reset Actors</nobr>|| 
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  Random Props Position</nobr>| [ON] | 
-|<nobr> ![list icon](/images/icon/ic_list.png)  Presets</nobr>| **Default (Reset)** | Default (Reset),  |
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> Random Props Position</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Default (Reset)** | Default (Reset),  |

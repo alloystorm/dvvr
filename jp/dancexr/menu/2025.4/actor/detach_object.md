@@ -14,11 +14,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  有効にする</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 有効にする</nobr>| [ON] | 
 |<nobr> ボーンを選択</nobr>|| 
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  重力</nobr>| [ON] | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  質量</nobr>| [0.1] (0 ~ 10) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  ダンプ</nobr>| [0] (0 ~ 1) | 
-|<nobr> ![toggle_on icon](/images/icon/ic_toggle_on.png)  コライダー</nobr>| 球体 | なし, 球体, カプセル, 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  コライダー半径</nobr>| [0.1] (0 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  コライダーの長さ</nobr>| [0.3] (0 ~ 2) | 
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 重力</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 質量</nobr>| [0.1] (0 ~ 10) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> ダンプ</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> コライダー</nobr>| 球体 | なし, 球体, カプセル, 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> コライダー半径</nobr>| [0.1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> コライダーの長さ</nobr>| [0.3] (0 ~ 2) | 

@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  물리 활성화</nobr>| [ON] | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  중력</nobr>| [9.81] (-10 ~ 10) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  시간 스케일</nobr>| [1] (0.1 ~ 2) | 물리 시뮬레이션에 사용되는 시간 변경.
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  충돌 비활성화</nobr>| [OFF] | 
-|<nobr> ![toggle_on icon](/images/icon/ic_toggle_on.png)  초당 단계</nobr>| (180) | (Flexible), (30), (45), (60), (90), (120), (180), (240), (300), (450), (600), (900), (1200), <br/>물리 시뮬레이션 비율 설정. 높을수록 부드러운 시뮬레이션이지만 CPU 비용이 높아집니다.
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 물리 활성화</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 중력</nobr>| [9.81] (-10 ~ 10) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 시간 스케일</nobr>| [1] (0.1 ~ 2) | 물리 시뮬레이션에 사용되는 시간 변경.
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 충돌 비활성화</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 초당 단계</nobr>| (180) | (Flexible), (30), (45), (60), (90), (120), (180), (240), (300), (450), (600), (900), (1200), <br/>물리 시뮬레이션 비율 설정. 높을수록 부드러운 시뮬레이션이지만 CPU 비용이 높아집니다.

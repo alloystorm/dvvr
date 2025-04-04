@@ -14,32 +14,32 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  Particles</nobr>| [OFF] | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Spawn Rate</nobr>| [1] (0 ~ 2) | Density of particles
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Life</nobr>| [1] (0 ~ 10) | How long does each particle last
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Size</nobr>| [0.005] (0 ~ 0.2) | Size of the particles
-|<nobr> ![chevron icon](/images/icon/ic_chevron.png)  Texture</nobr>| **[None]** | [None], [Dust], [Petal], [Leaf],  |
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Glow</nobr>| [0] (0 ~ 10) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Metallic</nobr>| [0] (0 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Smoothness</nobr>| [0.5] (0 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Thickness</nobr>| [0] (0 ~ 1) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Gravity</nobr>| [9.8] (-10 ~ 10) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Velocity</nobr>| [8] (0 ~ 10) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Turbulence</nobr>| [0.5] (0 ~ 2) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Drag</nobr>| [1] (0 ~ 2) | 
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Bounce</nobr>| [0.1] (0 ~ 1) | How much does the particle bounce back when colliding with ground or objects
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Spin</nobr>| [1] (0 ~ 5) | 
-|<nobr> ![check_on icon](/images/icon/ic_check_on.png)  Collision</nobr>| [ON] | Enable collision with objects
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  Spawn From Top</nobr>| [OFF] | Particles spawn from the top or within the spawn area
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Height</nobr>| [4] (1 ~ 8) | Height of the spawn area
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Stay On Ground</nobr>| [0.5] (0 ~ 1) | How long does particle stay after falling on to the ground. Set to 0 and they will disappear immediately
-|<nobr> ![slider icon](/images/icon/ic_slider.png)  Rain Sound Effect</nobr>| [0.5] (0 ~ 1) | 
-|<nobr> ![check_off icon](/images/icon/ic_check_off.png)  <b>Rain Shader</b></nobr>| | 
-|<nobr>├&nbsp; ![check_off icon](/images/icon/ic_check_off.png)  Enable</nobr>| [OFF] | 
-|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  Intensity</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  Droplet Duration</nobr>| [5] (0 ~ 20) | 
-|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  Droplet Size</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  Droplet Density</nobr>| [1] (-2 ~ 3) | 
-|<nobr>├&nbsp; ![slider icon](/images/icon/ic_slider.png)  Bump</nobr>| [0.35] (0 ~ 1) | 
-|<nobr>└&nbsp; ![slider icon](/images/icon/ic_slider.png)  Wetness</nobr>| [0.5] (0 ~ 2) | 
-|<nobr> ![list icon](/images/icon/ic_list.png)  Presets</nobr>| **Off** | Off, Dust, Rain, Snow, Petal, Leaf, Glitter,  |
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Particles</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Spawn Rate</nobr>| [1] (0 ~ 2) | Density of particles
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Life</nobr>| [1] (0 ~ 10) | How long does each particle last
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Size</nobr>| [0.005] (0 ~ 0.2) | Size of the particles
+|<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Texture</nobr>| **[None]** | [None], [Dust], [Petal], [Leaf],  |
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow</nobr>| [0] (0 ~ 10) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Smoothness</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Thickness</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Gravity</nobr>| [9.8] (-10 ~ 10) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Velocity</nobr>| [8] (0 ~ 10) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Turbulence</nobr>| [0.5] (0 ~ 2) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Drag</nobr>| [1] (0 ~ 2) | 
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Bounce</nobr>| [0.1] (0 ~ 1) | How much does the particle bounce back when colliding with ground or objects
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Spin</nobr>| [1] (0 ~ 5) | 
+|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> Collision</nobr>| [ON] | Enable collision with objects
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Spawn From Top</nobr>| [OFF] | Particles spawn from the top or within the spawn area
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Height</nobr>| [4] (1 ~ 8) | Height of the spawn area
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Stay On Ground</nobr>| [0.5] (0 ~ 1) | How long does particle stay after falling on to the ground. Set to 0 and they will disappear immediately
+|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Rain Sound Effect</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>Rain Shader</b></nobr>| | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_check_off.png" alt="check off icon"/> Enable</nobr>| [OFF] | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Intensity</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Droplet Duration</nobr>| [5] (0 ~ 20) | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Droplet Size</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Droplet Density</nobr>| [1] (-2 ~ 3) | 
+|<nobr>├&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump</nobr>| [0.35] (0 ~ 1) | 
+|<nobr>└&nbsp;<img src="/images/icon/ic_slider.png" alt="slider icon"/> Wetness</nobr>| [0.5] (0 ~ 2) | 
+|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Off** | Off, Dust, Rain, Snow, Petal, Leaf, Glitter,  |
