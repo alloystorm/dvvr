@@ -14,23 +14,23 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>すべてに割り当て</nobr>|| 
-|<nobr>選択したものに割り当て</nobr>|| 
-|<nobr>2番目としてすべてに割り当て</nobr>|| 
-|<nobr>2番目として選択したものに割り当て</nobr>|| 
-|<nobr>範囲</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><b>スピード</b></nobr>| | 
-|<nobr>├&nbsp;ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
-|<nobr>├&nbsp;グループあたりの動き</nobr>| [8] (4 ~ 32) | 
-|<nobr>├&nbsp;フェーズ</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;カーブ</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;可変速度</nobr>| [OFF] | 
-|<nobr>├&nbsp;モード</nobr>| (Gradual) | (Gradual), ランダム, ボリューム, 
-|<nobr>├&nbsp;最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
-|<nobr>└&nbsp;最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
-|<nobr>スムーズ</nobr>| [0] (0 ~ 1) | 
-|<nobr>スイング</nobr>| [15] (0 ~ 45) | 
-|<nobr>ひねり</nobr>| [15] (0 ~ 45) | 
-|<nobr>胴体の曲げ</nobr>| [10] (0 ~ 30) | 
-|<nobr>胴体のスイング</nobr>| [0.2] (-1 ~ 1) | 
-|<nobr>胴体のひねり</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr>![motion icon](/images/icon/ic_motion.png) すべてに割り当て</nobr>|| 
+|<nobr>![motion icon](/images/icon/ic_motion.png) 選択したものに割り当て</nobr>|| 
+|<nobr>![motion icon](/images/icon/ic_motion.png) 2番目としてすべてに割り当て</nobr>|| 
+|<nobr>![motion icon](/images/icon/ic_motion.png) 2番目として選択したものに割り当て</nobr>|| 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 範囲</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>スピード</b></nobr>| | 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) グループあたりの動き</nobr>| [8] (4 ~ 32) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) フェーズ</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) カーブ</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 可変速度</nobr>| [OFF] | 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) モード</nobr>| (Gradual) | (Gradual), ランダム, ボリューム, 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
+|<nobr>└&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
+|<nobr>![slider icon](/images/icon/ic_slider.png) スムーズ</nobr>| [0] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) スイング</nobr>| [15] (0 ~ 45) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) ひねり</nobr>| [15] (0 ~ 45) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 胴体の曲げ</nobr>| [10] (0 ~ 30) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 胴体のスイング</nobr>| [0.2] (-1 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 胴体のひねり</nobr>| [0.5] (-1 ~ 1) | 

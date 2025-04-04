@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>啟用物理</nobr>| [ON] | 
-|<nobr>重力</nobr>| [9.81] (-10 ~ 10) | 
-|<nobr>時間比例</nobr>| [1] (0.1 ~ 2) | 更改用於物理模擬的時間。
-|<nobr>禁用碰撞</nobr>| [OFF] | 
-|<nobr>每秒步數</nobr>| (180) | (Flexible), (30), (45), (60), (90), (120), (180), (240), (300), (450), (600), (900), (1200), <br/>設置物理模擬速率。較高 = 更平滑的模擬，但 CPU 費用更高。
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) 啟用物理</nobr>| [ON] | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 重力</nobr>| [9.81] (-10 ~ 10) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 時間比例</nobr>| [1] (0.1 ~ 2) | 更改用於物理模擬的時間。
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) 禁用碰撞</nobr>| [OFF] | 
+|<nobr>![toggle_on icon](/images/icon/ic_toggle_on.png) 每秒步數</nobr>| (180) | (Flexible), (30), (45), (60), (90), (120), (180), (240), (300), (450), (600), (900), (1200), <br/>設置物理模擬速率。較高 = 更平滑的模擬，但 CPU 費用更高。

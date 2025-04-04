@@ -14,4 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>Threshold</nobr>| [30] (0 ~ 50) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Threshold</nobr>| [30] (0 ~ 50) | 

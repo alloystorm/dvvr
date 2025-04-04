@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>刷新内容</nobr>|| 
-|<nobr>迁移设置</nobr>|| 
-|<nobr>删除重复项</nobr>|| 
-|<nobr>切换库</nobr>|| 
-|<nobr>在资源管理器中显示</nobr>|| 
-|<nobr><b>谷歌云端硬盘</b></nobr>|| 
-|<nobr>链接谷歌云端硬盘</nobr>|| 
+|<nobr>![refresh icon](/images/icon/ic_refresh.png) 刷新内容</nobr>|| 
+|<nobr>![up icon](/images/icon/ic_up.png) 迁移设置</nobr>|| 
+|<nobr>![delete icon](/images/icon/ic_delete.png) 删除重复项</nobr>|| 
+|<nobr>![replace icon](/images/icon/ic_replace.png) 切换库</nobr>|| 
+|<nobr>![folder_open icon](/images/icon/ic_folder_open.png) 在资源管理器中显示</nobr>|| 
+|<nobr> <b>谷歌云端硬盘</b></nobr>|| 
+|<nobr>![linked icon](/images/icon/ic_linked.png) 链接谷歌云端硬盘</nobr>|| 

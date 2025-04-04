@@ -14,19 +14,19 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>将身体旋转应用于中心</nobr>| [OFF] | 将臀部和躯干的旋转应用于中心骨骼
-|<nobr>扭转校正</nobr>| [OFF] | 减少关节处手臂和腿部的扭转
-|<nobr>上臂扭转</nobr>| [0] (0 ~ 1) | 
-|<nobr>下臂扭转</nobr>| [0] (0 ~ 1) | 
-|<nobr>下臂模式</nobr>| 从手开始 | 从上臂开始, 从手开始, 
-|<nobr>腿部扭转</nobr>| [0] (0 ~ 1) | 
-|<nobr>清除手臂扭转</nobr>| [0] (0 ~ 1) | 
-|<nobr>肘部轴心</nobr>| [0] (-180 ~ 180) | 肘部关节的旋转轴
-|<nobr>忽略漫反射颜色</nobr>| [OFF] | 
-|<nobr>手部缩放</nobr>| [1] (0 ~ 1) | 设置手部的缩放
-|<nobr>BVH大拇指运动</nobr>| [0.5] (0 ~ 1) | 减少BVH运动中的大拇指运动
-|<nobr>限制颈部旋转</nobr>| [0] (0 ~ 1) | 减少颈骨的旋转
-|<nobr>限制头部旋转</nobr>| [0] (0 ~ 1) | 减少头骨的旋转
-|<nobr>重置过渡</nobr>| [OFF] | 在重置物理时，从标准姿势过渡到动画姿势，以允许物理组件正确稳定。
-|<nobr>重置期间的腿部姿势</nobr>| [30] (0 ~ 45) | 
-|<nobr>跳过运动学更新</nobr>| [OFF] | 不更新未动画的运动学骨骼。
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) 将身体旋转应用于中心</nobr>| [OFF] | 将臀部和躯干的旋转应用于中心骨骼
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) 扭转校正</nobr>| [OFF] | 减少关节处手臂和腿部的扭转
+|<nobr>![slider icon](/images/icon/ic_slider.png) 上臂扭转</nobr>| [0] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 下臂扭转</nobr>| [0] (0 ~ 1) | 
+|<nobr>![toggle_on icon](/images/icon/ic_toggle_on.png) 下臂模式</nobr>| 从手开始 | 从上臂开始, 从手开始, 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 腿部扭转</nobr>| [0] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 清除手臂扭转</nobr>| [0] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 肘部轴心</nobr>| [0] (-180 ~ 180) | 肘部关节的旋转轴
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) 忽略漫反射颜色</nobr>| [OFF] | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 手部缩放</nobr>| [1] (0 ~ 1) | 设置手部的缩放
+|<nobr>![slider icon](/images/icon/ic_slider.png) BVH大拇指运动</nobr>| [0.5] (0 ~ 1) | 减少BVH运动中的大拇指运动
+|<nobr>![slider icon](/images/icon/ic_slider.png) 限制颈部旋转</nobr>| [0] (0 ~ 1) | 减少颈骨的旋转
+|<nobr>![slider icon](/images/icon/ic_slider.png) 限制头部旋转</nobr>| [0] (0 ~ 1) | 减少头骨的旋转
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) 重置过渡</nobr>| [OFF] | 在重置物理时，从标准姿势过渡到动画姿势，以允许物理组件正确稳定。
+|<nobr>![slider icon](/images/icon/ic_slider.png) 重置期间的腿部姿势</nobr>| [30] (0 ~ 45) | 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) 跳过运动学更新</nobr>| [OFF] | 不更新未动画的运动学骨骼。

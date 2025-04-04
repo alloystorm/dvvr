@@ -14,18 +14,18 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>リップル</nobr>| [OFF] | 
-|<nobr>強度</nobr>| [1] (0 ~ 2) | 
-|<nobr>体</nobr>| [1] (0.1 ~ 2) | 
-|<nobr>手</nobr>| [0.5] (0.1 ~ 2) | 
-|<nobr>足</nobr>| [0.5] (0.1 ~ 2) | 
-|<nobr><b>水滴</b></nobr>|| 
-|<nobr>汗の滴</nobr>| [0] (0 ~ 1) | 
-|<nobr>水滴の光</nobr>| [5] (0 ~ 20) | 
-|<nobr>水滴の重力</nobr>| [3] (0 ~ 10) | 
-|<nobr>ドラッグ</nobr>| [2.5] (0 ~ 10) | 
-|<nobr>金属的</nobr>| [0.25] (0 ~ 1) | 
-|<nobr>アルファ</nobr>| [0.25] (0 ~ 1) | 
-|<nobr>サイズ</nobr>| [0.003] (0 ~ 0.01) | 
-|<nobr>持続時間</nobr>| [5] (0 ~ 10) | 
-|<nobr>汗の衝突</nobr>| [OFF] | 
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) リップル</nobr>| [OFF] | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 強度</nobr>| [1] (0 ~ 2) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 体</nobr>| [1] (0.1 ~ 2) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 手</nobr>| [0.5] (0.1 ~ 2) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 足</nobr>| [0.5] (0.1 ~ 2) | 
+|<nobr> <b>水滴</b></nobr>|| 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 汗の滴</nobr>| [0] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 水滴の光</nobr>| [5] (0 ~ 20) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 水滴の重力</nobr>| [3] (0 ~ 10) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) ドラッグ</nobr>| [2.5] (0 ~ 10) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 金属的</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) アルファ</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) サイズ</nobr>| [0.003] (0 ~ 0.01) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 持続時間</nobr>| [5] (0 ~ 10) | 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) 汗の衝突</nobr>| [OFF] | 

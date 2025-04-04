@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>Reset All</nobr>|| 
-|<nobr>Reload Saved</nobr>|| 
-|<nobr>Save Actor Preset</nobr>|| 
-|<nobr>Save Global</nobr>|| 
+|<nobr>![refresh icon](/images/icon/ic_refresh.png) Reset All</nobr>|| 
+|<nobr>![file icon](/images/icon/ic_file.png) Reload Saved</nobr>|| 
+|<nobr>![save icon](/images/icon/ic_save.png) Save Actor Preset</nobr>|| 
+|<nobr>![globe icon](/images/icon/ic_globe.png) Save Global</nobr>|| 

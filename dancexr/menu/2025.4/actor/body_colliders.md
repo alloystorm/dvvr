@@ -14,24 +14,24 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>Enable</nobr>| [ON] | 
-|<nobr>Size</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>Head Radius</nobr>| [1] (0 ~ 2) | 
-|<nobr>Arm Radius</nobr>| [1] (0 ~ 2) | 
-|<nobr>Forearms</nobr>| [1] (0 ~ 2) | 
-|<nobr>Chest Width</nobr>| [1] (0 ~ 2) | 
-|<nobr>Waist Width</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>Hips Width</nobr>| [0] (-1 ~ 1) | 
-|<nobr>Butts Radius</nobr>| [1] (0 ~ 2) | 
-|<nobr><b>Butts Position</b></nobr>|| 
-|<nobr>X</nobr>| [0] (-0.1 ~ 0.1) | 
-|<nobr>Y</nobr>| [0] (-0.1 ~ 0.1) | 
-|<nobr>Z</nobr>| [0] (-0.1 ~ 0.1) | 
-|<nobr>Belly Radius</nobr>| [1] (0 ~ 2) | 
-|<nobr>Belly Position</nobr>| [0] (-1 ~ 1) | 
-|<nobr>Leg Radius</nobr>| [1] (0 ~ 2) | 
-|<nobr>Thigh Fwd/Back</nobr>| [0] (-1 ~ 1) | 
-|<nobr>Thigh Start Position</nobr>| [0] (0 ~ 1) | 
-|<nobr>Hand</nobr>| [0] (0 ~ 1) | 
-|<nobr>Visualize</nobr>| [OFF] | 
-|<nobr>Presets</nobr>| **Default (Reset)** | Default (Reset), amy, misaki,  |
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) Enable</nobr>| [ON] | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Size</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Head Radius</nobr>| [1] (0 ~ 2) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Arm Radius</nobr>| [1] (0 ~ 2) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Forearms</nobr>| [1] (0 ~ 2) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Chest Width</nobr>| [1] (0 ~ 2) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Waist Width</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Hips Width</nobr>| [0] (-1 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Butts Radius</nobr>| [1] (0 ~ 2) | 
+|<nobr> <b>Butts Position</b></nobr>|| 
+|<nobr>![slider icon](/images/icon/ic_slider.png) X</nobr>| [0] (-0.1 ~ 0.1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Y</nobr>| [0] (-0.1 ~ 0.1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Z</nobr>| [0] (-0.1 ~ 0.1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Belly Radius</nobr>| [1] (0 ~ 2) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Belly Position</nobr>| [0] (-1 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Leg Radius</nobr>| [1] (0 ~ 2) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Thigh Fwd/Back</nobr>| [0] (-1 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Thigh Start Position</nobr>| [0] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Hand</nobr>| [0] (0 ~ 1) | 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) Visualize</nobr>| [OFF] | 
+|<nobr>![list icon](/images/icon/ic_list.png) Presets</nobr>| **Default (Reset)** | Default (Reset), amy, misaki,  |

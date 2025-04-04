@@ -14,6 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>啟用</nobr>| [OFF] | 
-|<nobr>埠號</nobr>|| 
-|<nobr>密碼</nobr>|| 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) 啟用</nobr>| [OFF] | 
+|<nobr> 埠號</nobr>|| 
+|<nobr> 密碼</nobr>|| 

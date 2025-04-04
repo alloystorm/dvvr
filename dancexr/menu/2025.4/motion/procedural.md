@@ -14,36 +14,36 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><b>Actor Motion</b></nobr>|| 
-|<nobr>[Idle]</nobr>|| 
-|<nobr>├&nbsp;Assign To All</nobr>|| 
-|<nobr>├&nbsp;Assign To Selected</nobr>|| 
-|<nobr>├&nbsp;Assign To All as 2nd</nobr>|| 
-|<nobr>└&nbsp;Assign To Selected as 2nd</nobr>|| 
+|<nobr> <b>Actor Motion</b></nobr>|| 
+|<nobr>![auto_round icon](/images/icon/ic_auto_round.png) [Idle]</nobr>|| 
+|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To All</nobr>|| 
+|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To Selected</nobr>|| 
+|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To All as 2nd</nobr>|| 
+|<nobr>└&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To Selected as 2nd</nobr>|| 
 | [[Catwalk]](catwalk) |
 | [[Biped]](biped) |
 | [[Motion Builder]](motion_builder) |
 | [[Zero]](zero) |
-|<nobr>[Player Control]</nobr>|| 
-|<nobr>├&nbsp;Assign To All</nobr>|| 
-|<nobr>├&nbsp;Assign To Selected</nobr>|| 
-|<nobr>├&nbsp;Assign To All as 2nd</nobr>|| 
-|<nobr>└&nbsp;Assign To Selected as 2nd</nobr>|| 
+|<nobr>![auto_round icon](/images/icon/ic_auto_round.png) [Player Control]</nobr>|| 
+|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To All</nobr>|| 
+|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To Selected</nobr>|| 
+|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To All as 2nd</nobr>|| 
+|<nobr>└&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To Selected as 2nd</nobr>|| 
 | [[Auto Dance 1]](auto_dance_1) |
 | [[Auto Dance 2]](auto_dance_2) |
-|<nobr>[Auto Dance 3]</nobr>|| 
-|<nobr>├&nbsp;Assign To All</nobr>|| 
-|<nobr>├&nbsp;Assign To Selected</nobr>|| 
-|<nobr>├&nbsp;Assign To All as 2nd</nobr>|| 
-|<nobr>└&nbsp;Assign To Selected as 2nd</nobr>|| 
+|<nobr>![auto_round icon](/images/icon/ic_auto_round.png) [Auto Dance 3]</nobr>|| 
+|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To All</nobr>|| 
+|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To Selected</nobr>|| 
+|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To All as 2nd</nobr>|| 
+|<nobr>└&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To Selected as 2nd</nobr>|| 
 | [[Cowgirl Sex]](cowgirl_sex) |
 | [[Sex From Behind]](sex_from_behind) |
-|<nobr>[Sex Motion 3]</nobr>|| 
-|<nobr>├&nbsp;Assign To All</nobr>|| 
-|<nobr>├&nbsp;Assign To Selected</nobr>|| 
-|<nobr>├&nbsp;Assign To All as 2nd</nobr>|| 
-|<nobr>└&nbsp;Assign To Selected as 2nd</nobr>|| 
-|<nobr><b>Camera Motion</b></nobr>|| 
+|<nobr>![auto_round icon](/images/icon/ic_auto_round.png) [Sex Motion 3]</nobr>|| 
+|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To All</nobr>|| 
+|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To Selected</nobr>|| 
+|<nobr>├&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To All as 2nd</nobr>|| 
+|<nobr>└&nbsp;![motion icon](/images/icon/ic_motion.png) Assign To Selected as 2nd</nobr>|| 
+|<nobr> <b>Camera Motion</b></nobr>|| 
 | [[Freefly Cam]](freefly_cam) |
 | [[Orbit Cam]](orbit_cam) |
 | [[Auto Cam]](auto_cam) |

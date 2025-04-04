@@ -14,116 +14,116 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>抗鋸齒</nobr>| **延遲 SMAA** | 不使用抗鋸齒, 延遲 SMAA, 延遲 TAA,  |
-|<nobr><b>光線追蹤</b></nobr>| | 
-|<nobr>├&nbsp;啟用</nobr>| [ON] | 
-|<nobr>├&nbsp;反射</nobr>| [ON] | 
-|<nobr>├&nbsp;環境光遮蔽</nobr>| [ON] | 
-|<nobr>├&nbsp;全局光照</nobr>| [ON] | 
-|<nobr>├&nbsp;陰影</nobr>| [ON] | 
-|<nobr>├&nbsp;接觸陰影</nobr>| [OFF] | 
-|<nobr>├&nbsp;光線長度</nobr>| [50] (0 ~ 100) | 
-|<nobr>├&nbsp;去噪</nobr>| [ON] | 
-|<nobr>└&nbsp;去噪半徑</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>超取樣</nobr>| **關閉** | 關閉, DLSS 性能, DLSS 平衡, DLSS 品質, DLSS 超性能, FSR 50%, FSR 66%, FSR 75%, FSR 100%,  |
-|<nobr><b>反射</b></nobr>| | 
-|<nobr>├&nbsp;啟用</nobr>| [ON] | 
-|<nobr>├&nbsp;模式</nobr>| 螢幕空間 | 螢幕空間, 探針, 
-|<nobr>├&nbsp;品質</nobr>| 高 | 低, 中, 高, 
-|<nobr>├&nbsp;演算法</nobr>| 近似值 | 近似值, PBR累積, <br/>螢幕空間反射的演算法。
-|<nobr>├&nbsp;邊緣淡出距離</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>├&nbsp;物件厚度</nobr>| [0.01] (0 ~ 0.1) | 
-|<nobr>├&nbsp;回退至天空</nobr>| [ON] | 當光線追蹤沒有命中時回退至天空顏色。
-|<nobr>└&nbsp;天空反射</nobr>| [ON] | 
-|<nobr><b>霧</b></nobr>| | 
-|<nobr>├&nbsp;啟用</nobr>| [ON] | 
-|<nobr>├&nbsp;體積霧</nobr>| [ON] | 
-|<nobr>├&nbsp;基礎高度</nobr>| [0] (0 ~ 10) | 
-|<nobr>├&nbsp;最大高度</nobr>| [25] (10 ~ 100) | 
-|<nobr>└&nbsp;最大距離</nobr>| [5000] (0 ~ 10000) | 
-|<nobr><b>環境光遮蔽</b></nobr>| | 
-|<nobr>├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>├&nbsp;品質</nobr>| 高 | 低, 中, 高, 
-|<nobr>└&nbsp;強度</nobr>| [1] (0 ~ 1) | 
-|<nobr><b>全局光照</b></nobr>| | 
-|<nobr>├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>├&nbsp;品質</nobr>| 低 | 低, 中, 高, 
-|<nobr>└&nbsp;回退至天空</nobr>| [ON] | 
-|<nobr><b>景深</b></nobr>| | 
-|<nobr>├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>├&nbsp;品質</nobr>| 中 | 低, 中, 高, 
-|<nobr>├&nbsp;強度</nobr>| [0.25] (0 ~ 1) | 
-|<nobr>└&nbsp;偏移</nobr>| [0.1] (-1 ~ 1) | 
-|<nobr><b>動態模糊</b></nobr>| | 
-|<nobr>├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>├&nbsp;品質</nobr>| 中 | 低, 中, 高, 
-|<nobr>└&nbsp;強度</nobr>| [0.25] (0 ~ 1) | 
-|<nobr><b>泛光</b></nobr>| | 
-|<nobr>├&nbsp;啟用</nobr>| [ON] | 
-|<nobr>├&nbsp;品質</nobr>| 高 | 低, 中, 高, 
-|<nobr>└&nbsp;強度</nobr>| [0.25] (0 ~ 1) | 
-|<nobr><b>鏡頭光暈</b></nobr>| | 
-|<nobr>├&nbsp;啟用</nobr>| [ON] | 
-|<nobr>├&nbsp;在 VR 中禁用</nobr>| [ON] | 此效果不建議用於 VR
-|<nobr>├&nbsp;強度</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>├&nbsp;<b>顏色</b></nobr>| | 
-|<nobr>│&nbsp;├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
-|<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;亮度</nobr>| [1] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;紅色</nobr>| [1] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;綠色</nobr>| [1] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;藍色</nobr>| [1] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;使用舞台顏色</nobr>| [OFF] | 使用舞台環的顏色
-|<nobr>│&nbsp;├&nbsp;色溫</nobr>| [6500] (3000 ~ 8000) | 
-|<nobr>│&nbsp;└&nbsp;預設</nobr>| **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
-|<nobr>├&nbsp;光暈</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;條紋</nobr>| [0.2] (0 ~ 1) | 
-|<nobr>├&nbsp;長度</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>└&nbsp;色差</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><b>顏色調整</b></nobr>| | 
-|<nobr>├&nbsp;啟用</nobr>| [ON] | 
-|<nobr>├&nbsp;後期曝光</nobr>| [0] (-12 ~ 12) | 
-|<nobr>├&nbsp;對比度</nobr>| [1] (-100 ~ 100) | 
-|<nobr>├&nbsp;色相偏移</nobr>| [0] (-180 ~ 180) | 
-|<nobr>├&nbsp;飽和度</nobr>| [1] (-100 ~ 100) | 
-|<nobr>└&nbsp;<b>顏色濾鏡</b></nobr>| | 
-|<nobr>&nbsp;&nbsp;├&nbsp;顏色模式</nobr>| (HSV) | (RGB), (HSV), 
-|<nobr>&nbsp;&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;亮度</nobr>| [1] (0 ~ 1) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;紅色</nobr>| [1] (0 ~ 1) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;綠色</nobr>| [1] (0 ~ 1) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;藍色</nobr>| [1] (0 ~ 1) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;發光</nobr>| [1] (0 ~ 20) | 
-|<nobr>&nbsp;&nbsp;└&nbsp;預設</nobr>| **白色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
-|<nobr><b>顏色曲線</b></nobr>| | 
-|<nobr>├&nbsp;啟用</nobr>| [ON] | 
-|<nobr>├&nbsp;起始漸變</nobr>| [1] (0 ~ 4) | 
-|<nobr>├&nbsp;起始位置</nobr>| [0] (0 ~ 0.5) | 
-|<nobr>├&nbsp;起始值</nobr>| [0] (0 ~ 0.5) | 
-|<nobr>├&nbsp;結束漸變</nobr>| [1] (0 ~ 4) | 
-|<nobr>├&nbsp;結束位置</nobr>| [1] (0.5 ~ 1) | 
-|<nobr>└&nbsp;結束值</nobr>| [1] (0.5 ~ 1) | 
-|<nobr><b>白平衡</b></nobr>| | 
-|<nobr>├&nbsp;啟用</nobr>| [ON] | 
-|<nobr>├&nbsp;溫度</nobr>| [0] (-100 ~ 100) | 
-|<nobr>└&nbsp;色調</nobr>| [0] (-100 ~ 100) | 
-|<nobr><b>特殊渲染</b></nobr>| | 
-|<nobr>├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>├&nbsp;模式</nobr>| 深度輸出 | 深度輸出, 法線輸出, 
-|<nobr>├&nbsp;深度範圍</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;深度比例</nobr>| [0.25] (0 ~ 1) | 
-|<nobr>├&nbsp;法線比例</nobr>| [1] (0 ~ 1) | 
-|<nobr>└&nbsp;法線混合</nobr>| [0] (0 ~ 1) | 
-|<nobr>色調映射</nobr>| 自訂 | 無, 中性, ACES, 自訂, 
-|<nobr>演員卡通陰影</nobr>| [OFF] | 對所有角色使用卡通陰影。
-|<nobr>階段卡通陰影</nobr>| [OFF] | 對舞台和道具使用卡通陰影。
-|<nobr><b>選項</b></nobr>| | 
-|<nobr>├&nbsp;透明預處理</nobr>| [ON] | 啟用透明預處理。這將使被遮擋的透明材質不可見。
-|<nobr>├&nbsp;螢幕空間陰影</nobr>| [ON] | 
-|<nobr>├&nbsp;接觸陰影</nobr>| [OFF] | 小細節的陰影。
-|<nobr>├&nbsp;凹凸貼圖陰影</nobr>| [0.5] (0 ~ 1) | 為凹凸貼圖和細節貼圖啟用陰影。
-|<nobr>├&nbsp;停止 NaN</nobr>| [ON] | (Prevent black screen when error happens during post processing. )
-|<nobr>└&nbsp;計算厚度</nobr>| [ON] | 計算可用於皮膚效果的厚度。
-|<nobr>預設</nobr>| **高** | 性能, 中, 高, 室內全局光照, 室外全局光照, 卡通效果,  |
+|<nobr>![chevron icon](/images/icon/ic_chevron.png) 抗鋸齒</nobr>| **延遲 SMAA** | 不使用抗鋸齒, 延遲 SMAA, 延遲 TAA,  |
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) <b>光線追蹤</b></nobr>| | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 啟用</nobr>| [ON] | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 反射</nobr>| [ON] | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 環境光遮蔽</nobr>| [ON] | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 全局光照</nobr>| [ON] | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 陰影</nobr>| [ON] | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 接觸陰影</nobr>| [OFF] | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 光線長度</nobr>| [50] (0 ~ 100) | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 去噪</nobr>| [ON] | 
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 去噪半徑</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>![chevron icon](/images/icon/ic_chevron.png) 超取樣</nobr>| **關閉** | 關閉, DLSS 性能, DLSS 平衡, DLSS 品質, DLSS 超性能, FSR 50%, FSR 66%, FSR 75%, FSR 100%,  |
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) <b>反射</b></nobr>| | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 啟用</nobr>| [ON] | 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 模式</nobr>| 螢幕空間 | 螢幕空間, 探針, 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 品質</nobr>| 高 | 低, 中, 高, 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 演算法</nobr>| 近似值 | 近似值, PBR累積, <br/>螢幕空間反射的演算法。
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 邊緣淡出距離</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 物件厚度</nobr>| [0.01] (0 ~ 0.1) | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 回退至天空</nobr>| [ON] | 當光線追蹤沒有命中時回退至天空顏色。
+|<nobr>└&nbsp;![check_on icon](/images/icon/ic_check_on.png) 天空反射</nobr>| [ON] | 
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) <b>霧</b></nobr>| | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 啟用</nobr>| [ON] | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 體積霧</nobr>| [ON] | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 基礎高度</nobr>| [0] (0 ~ 10) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 最大高度</nobr>| [25] (10 ~ 100) | 
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 最大距離</nobr>| [5000] (0 ~ 10000) | 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) <b>環境光遮蔽</b></nobr>| | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 啟用</nobr>| [OFF] | 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 品質</nobr>| 高 | 低, 中, 高, 
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 強度</nobr>| [1] (0 ~ 1) | 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) <b>全局光照</b></nobr>| | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 啟用</nobr>| [OFF] | 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 品質</nobr>| 低 | 低, 中, 高, 
+|<nobr>└&nbsp;![check_on icon](/images/icon/ic_check_on.png) 回退至天空</nobr>| [ON] | 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) <b>景深</b></nobr>| | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 啟用</nobr>| [OFF] | 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 品質</nobr>| 中 | 低, 中, 高, 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 強度</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 偏移</nobr>| [0.1] (-1 ~ 1) | 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) <b>動態模糊</b></nobr>| | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 啟用</nobr>| [OFF] | 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 品質</nobr>| 中 | 低, 中, 高, 
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 強度</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) <b>泛光</b></nobr>| | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 啟用</nobr>| [ON] | 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 品質</nobr>| 高 | 低, 中, 高, 
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 強度</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) <b>鏡頭光暈</b></nobr>| | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 啟用</nobr>| [ON] | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 在 VR 中禁用</nobr>| [ON] | 此效果不建議用於 VR
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 強度</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>├&nbsp;![tune icon](/images/icon/ic_tune.png) <b>顏色</b></nobr>| | 
+|<nobr>│&nbsp;├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr>│&nbsp;├&nbsp;![slider icon](/images/icon/ic_slider.png) 色相</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;![slider icon](/images/icon/ic_slider.png) 飽和度</nobr>| [0] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;![slider icon](/images/icon/ic_slider.png) 亮度</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;![slider icon](/images/icon/ic_slider.png) 紅色</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;![slider icon](/images/icon/ic_slider.png) 綠色</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;![slider icon](/images/icon/ic_slider.png) 藍色</nobr>| [1] (0 ~ 1) | 
+|<nobr>│&nbsp;├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 使用舞台顏色</nobr>| [OFF] | 使用舞台環的顏色
+|<nobr>│&nbsp;├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 色溫</nobr>| [6500] (3000 ~ 8000) | 
+|<nobr>│&nbsp;└&nbsp;![list icon](/images/icon/ic_list.png) 預設</nobr>| **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 光暈</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 條紋</nobr>| [0.2] (0 ~ 1) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 長度</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 色差</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) <b>顏色調整</b></nobr>| | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 啟用</nobr>| [ON] | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 後期曝光</nobr>| [0] (-12 ~ 12) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 對比度</nobr>| [1] (-100 ~ 100) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 色相偏移</nobr>| [0] (-180 ~ 180) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 飽和度</nobr>| [1] (-100 ~ 100) | 
+|<nobr>└&nbsp;![tune icon](/images/icon/ic_tune.png) <b>顏色濾鏡</b></nobr>| | 
+|<nobr>&nbsp;&nbsp;├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 顏色模式</nobr>| (HSV) | (RGB), (HSV), 
+|<nobr>&nbsp;&nbsp;├&nbsp;![slider icon](/images/icon/ic_slider.png) 色相</nobr>| [0] (0 ~ 1) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;![slider icon](/images/icon/ic_slider.png) 飽和度</nobr>| [0] (0 ~ 1) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;![slider icon](/images/icon/ic_slider.png) 亮度</nobr>| [1] (0 ~ 1) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;![slider icon](/images/icon/ic_slider.png) 紅色</nobr>| [1] (0 ~ 1) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;![slider icon](/images/icon/ic_slider.png) 綠色</nobr>| [1] (0 ~ 1) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;![slider icon](/images/icon/ic_slider.png) 藍色</nobr>| [1] (0 ~ 1) | 
+|<nobr>&nbsp;&nbsp;├&nbsp;![slider icon](/images/icon/ic_slider.png) 發光</nobr>| [1] (0 ~ 20) | 
+|<nobr>&nbsp;&nbsp;└&nbsp;![list icon](/images/icon/ic_list.png) 預設</nobr>| **白色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) <b>顏色曲線</b></nobr>| | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 啟用</nobr>| [ON] | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 起始漸變</nobr>| [1] (0 ~ 4) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 起始位置</nobr>| [0] (0 ~ 0.5) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 起始值</nobr>| [0] (0 ~ 0.5) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 結束漸變</nobr>| [1] (0 ~ 4) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 結束位置</nobr>| [1] (0.5 ~ 1) | 
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 結束值</nobr>| [1] (0.5 ~ 1) | 
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) <b>白平衡</b></nobr>| | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 啟用</nobr>| [ON] | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 溫度</nobr>| [0] (-100 ~ 100) | 
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 色調</nobr>| [0] (-100 ~ 100) | 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) <b>特殊渲染</b></nobr>| | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 啟用</nobr>| [OFF] | 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 模式</nobr>| 深度輸出 | 深度輸出, 法線輸出, 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 深度範圍</nobr>| [1] (0 ~ 1) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 深度比例</nobr>| [0.25] (0 ~ 1) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 法線比例</nobr>| [1] (0 ~ 1) | 
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) 法線混合</nobr>| [0] (0 ~ 1) | 
+|<nobr>![toggle_on icon](/images/icon/ic_toggle_on.png) 色調映射</nobr>| 自訂 | 無, 中性, ACES, 自訂, 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) 演員卡通陰影</nobr>| [OFF] | 對所有角色使用卡通陰影。
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) 階段卡通陰影</nobr>| [OFF] | 對舞台和道具使用卡通陰影。
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>選項</b></nobr>| | 
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 透明預處理</nobr>| [ON] | 啟用透明預處理。這將使被遮擋的透明材質不可見。
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 螢幕空間陰影</nobr>| [ON] | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 接觸陰影</nobr>| [OFF] | 小細節的陰影。
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 凹凸貼圖陰影</nobr>| [0.5] (0 ~ 1) | 為凹凸貼圖和細節貼圖啟用陰影。
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) 停止 NaN</nobr>| [ON] | (Prevent black screen when error happens during post processing. )
+|<nobr>└&nbsp;![check_on icon](/images/icon/ic_check_on.png) 計算厚度</nobr>| [ON] | 計算可用於皮膚效果的厚度。
+|<nobr>![list icon](/images/icon/ic_list.png) 預設</nobr>| **高** | 性能, 中, 高, 室內全局光照, 室外全局光照, 卡通效果,  |

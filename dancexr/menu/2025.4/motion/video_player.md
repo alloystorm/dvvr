@@ -14,17 +14,17 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>Loop</nobr>| [OFF] | 
-|<nobr>Mute</nobr>| [OFF] | 
-|<nobr>Time Offset</nobr>| [0] (Unlimited) | 
-|<nobr>Aspect Ratio</nobr>| **16:9** | 1:1, 4:3, 14:9, 16:10, 16:9, 1.85:1, 2:1, 2.35:1, 2.39:1, 2.4:1,  |
-|<nobr>Offset</nobr>| [0] (Unlimited) | 
-|<nobr>BPM</nobr>| [120] (1 ~ 240) | Beats per minute
-|<nobr>Beat Offset</nobr>| [0] (0 ~ 1) | 
-|<nobr>Beats Per Phrase</nobr>| [8] (4 ~ 64) | 
-|<nobr>Phrase Begin</nobr>| [0] (0 ~ 32) | 
-|<nobr>Tap Beats</nobr>|| Set BPM by tapping while the music is playing
-|<nobr>Projector Scene Example</nobr>|| 
-|<nobr>LED Screen Example</nobr>|| 
-|<nobr>Load Video</nobr>|| 
-|<nobr>└&nbsp;[None]</nobr>|| 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) Loop</nobr>| [OFF] | 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) Mute</nobr>| [OFF] | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Time Offset</nobr>| [0] (Unlimited) | 
+|<nobr>![chevron icon](/images/icon/ic_chevron.png) Aspect Ratio</nobr>| **16:9** | 1:1, 4:3, 14:9, 16:10, 16:9, 1.85:1, 2:1, 2.35:1, 2.39:1, 2.4:1,  |
+|<nobr>![slider icon](/images/icon/ic_slider.png) Offset</nobr>| [0] (Unlimited) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) BPM</nobr>| [120] (1 ~ 240) | Beats per minute
+|<nobr>![slider icon](/images/icon/ic_slider.png) Beat Offset</nobr>| [0] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Beats Per Phrase</nobr>| [8] (4 ~ 64) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Phrase Begin</nobr>| [0] (0 ~ 32) | 
+|<nobr> Tap Beats</nobr>|| Set BPM by tapping while the music is playing
+|<nobr> Projector Scene Example</nobr>|| 
+|<nobr> LED Screen Example</nobr>|| 
+|<nobr>![video icon](/images/icon/ic_video.png) Load Video</nobr>|| 
+|<nobr>└&nbsp;![close icon](/images/icon/ic_close.png) [None]</nobr>|| 

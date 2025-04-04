@@ -14,14 +14,14 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>メインに割り当て</nobr>|| 
-|<nobr>アクターを選択</nobr>|  |  |
-|<nobr>視野角</nobr>| [45] (30 ~ 100) | 
-|<nobr>近接クリップ距離</nobr>| [0.15] (0 ~ 0.3) | 
-|<nobr>アクターの移動を制御</nobr>| [ON] | 
-|<nobr>VR内の手を制御</nobr>| [ON] | 
-|<nobr>ロールを解除</nobr>| [1] (0 ~ 1) | 
-|<nobr>スタビライザー</nobr>| [5] (0 ~ 20) | 
-|<nobr>ダンピング</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>自動復帰を無効化</nobr>| [OFF] | 
-|<nobr>中心に戻す</nobr>|| 
+|<nobr>![videocam icon](/images/icon/ic_videocam.png) メインに割り当て</nobr>|| 
+|<nobr>![chevron icon](/images/icon/ic_chevron.png) アクターを選択</nobr>|  |  |
+|<nobr>![slider icon](/images/icon/ic_slider.png) 視野角</nobr>| [45] (30 ~ 100) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 近接クリップ距離</nobr>| [0.15] (0 ~ 0.3) | 
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) アクターの移動を制御</nobr>| [ON] | 
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) VR内の手を制御</nobr>| [ON] | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) ロールを解除</nobr>| [1] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) スタビライザー</nobr>| [5] (0 ~ 20) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) ダンピング</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) 自動復帰を無効化</nobr>| [OFF] | 
+|<nobr> 中心に戻す</nobr>|| 

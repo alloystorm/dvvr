@@ -14,9 +14,9 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>啟用</nobr>| [OFF] | 
-|<nobr>強度</nobr>| [1] (0 ~ 2) | 
-|<nobr>速度</nobr>| [0] (-2 ~ 2) | 
-|<nobr>運動模式</nobr>| [1] (-1 ~ 1) | 選擇水平、垂直或兩者（設置為0）運動
-|<nobr>時間模式</nobr>| (Pulse) | (Constant), (Pulse), (Gradual), 
-|<nobr>(Abs Mode)</nobr>| [OFF] | 在中立位置彈回
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) 啟用</nobr>| [OFF] | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 強度</nobr>| [1] (0 ~ 2) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 速度</nobr>| [0] (-2 ~ 2) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 運動模式</nobr>| [1] (-1 ~ 1) | 選擇水平、垂直或兩者（設置為0）運動
+|<nobr>![toggle_on icon](/images/icon/ic_toggle_on.png) 時間模式</nobr>| (Pulse) | (Constant), (Pulse), (Gradual), 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) (Abs Mode)</nobr>| [OFF] | 在中立位置彈回

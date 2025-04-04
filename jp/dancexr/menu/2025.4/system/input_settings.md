@@ -14,113 +14,113 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><b>オプション</b></nobr>| | 
-|<nobr>├&nbsp;トラックパッドモード</nobr>| [OFF] | 関連するボタンが押されている時のみ出力軸値を出力
-|<nobr>├&nbsp;セカンダリー軸を使用</nobr>| [OFF] | 使用可能な場合はVRコントローラーからセカンダリー軸入力を読み取る。例：WMRコントローラーは両方のスティックとタッチパッドを持つ
-|<nobr>├&nbsp;ゲームパッドを使用</nobr>| [OFF] | VRモードでゲームパッド入力を有効にする
-|<nobr>├&nbsp;グリップ入力を使用</nobr>| [ON] | オフにするとグリップボタンを完全に無視
-|<nobr>├&nbsp;グリップ閾値</nobr>| [0.5] (0 ~ 1) | グリップボタン入力をトリガーするための閾値。Valve Indexのような非常に敏感なコントローラーに便利
-|<nobr>└&nbsp;プリセット</nobr>| **(Thumbstick)** | (Thumbstick), (Trackpad), (Trackpad + Thumbstick),  |
-|<nobr><b>左サムスティック X</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **左 / 右に移動** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **左 / 右に回転** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>├&nbsp;反転</nobr>| [OFF] | 
-|<nobr>├&nbsp;キーボードオルタナティブ +</nobr>| **(D)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>├&nbsp;キーボードオルタナティブ -</nobr>| **A** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>└&nbsp;スムージング</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><b>左サムスティック Y</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **前方 / 後方に移動** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **上 / 下に移動** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>├&nbsp;反転</nobr>| [OFF] | 
-|<nobr>├&nbsp;キーボードオルタナティブ +</nobr>| **(W)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>├&nbsp;キーボードオルタナティブ -</nobr>| **(S)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>└&nbsp;スムージング</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><b>右サムスティック X</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **左 / 右に回転** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **左 / 右に移動** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>├&nbsp;反転</nobr>| [OFF] | 
-|<nobr>├&nbsp;キーボードオルタナティブ +</nobr>| **右** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>├&nbsp;キーボードオルタナティブ -</nobr>| **左** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>└&nbsp;スムージング</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><b>右サムスティック Y</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **上 / 下に移動** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **前方 / 後方に移動** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>├&nbsp;反転</nobr>| [OFF] | 
-|<nobr>├&nbsp;キーボードオルタナティブ +</nobr>| **上** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>├&nbsp;キーボードオルタナティブ -</nobr>| **下** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>└&nbsp;スムージング</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><b>左トリガー</b></nobr>| | 
-|<nobr>├&nbsp;プライム軸アクション</nobr>| **カスタム軸 1** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;プライムボタンアクション</nobr>| **なし** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>├&nbsp;デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>├&nbsp;ボタンしきい値</nobr>| [0.75] (0 ~ 1) | 
-|<nobr>├&nbsp;キーボードオルタナティブ +</nobr>| **(Tab)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>└&nbsp;スムージング</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><b>右トリガー</b></nobr>| | 
-|<nobr>├&nbsp;プライム軸アクション</nobr>| **カスタム軸 2** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;プライムボタンアクション</nobr>| **なし** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>├&nbsp;デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>├&nbsp;ボタンしきい値</nobr>| [0.75] (0 ~ 1) | 
-|<nobr>├&nbsp;キーボードオルタナティブ +</nobr>| **(Space)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>└&nbsp;スムージング</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><b>十字キー X</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **UI X** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **タイムラインをシーク** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>├&nbsp;反転</nobr>| [OFF] | 
-|<nobr>├&nbsp;キーボードオルタナティブ +</nobr>| **(L)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>├&nbsp;キーボードオルタナティブ -</nobr>| **(J)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>└&nbsp;スムージング</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><b>十字キー Y</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **UI Y** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **フレームをシーク** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
-|<nobr>├&nbsp;デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>├&nbsp;反転</nobr>| [OFF] | 
-|<nobr>├&nbsp;キーボードオルタナティブ +</nobr>| **I** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>├&nbsp;キーボードオルタナティブ -</nobr>| **(K)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>└&nbsp;スムージング</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><b>ボタン X / 左 1</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **アクターを中央に** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **物理をリセット** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>└&nbsp;(Key)</nobr>| **(1)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr><b>ボタン Y / 左 2</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **次のアクター** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **アクターをシャッフル** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>└&nbsp;(Key)</nobr>| **(2)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr><b>ボタン A / 右 1</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **次の動作** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **前の動作** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>└&nbsp;(Key)</nobr>| **(3)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr><b>ボタン B / 右 2</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **再生 / 一時停止** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **スローモーション** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>└&nbsp;(Key)</nobr>| **(4)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr><b>左ショルダー</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **セカンダリーアクション** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **なし** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>└&nbsp;(Key)</nobr>| **(L Shift)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr><b>右ショルダー</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **セカンダリーアクション** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **なし** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>└&nbsp;(Key)</nobr>| **(R Shift)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr><b>左サムスティッククリック</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **物理をリセット** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **UIを中央に** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>└&nbsp;(Key)</nobr>| **(L Ctrl)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr><b>右サムスティッククリック</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **UIを切り替え** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **UIを中央に** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>└&nbsp;(Key)</nobr>| **(R Ctrl)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr><b>選択</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **UIを切り替え** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **UIバック** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>└&nbsp;(Key)</nobr>| **(Esc)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr><b>スタート</b></nobr>| | 
-|<nobr>├&nbsp;プライムアクション</nobr>| **マイクを切り替え** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>├&nbsp;セカンダリアクション</nobr>| **マイクを切り替え** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
-|<nobr>└&nbsp;(Key)</nobr>| **(Return)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr>プリセット</nobr>| **デフォルト（リセット）** | デフォルト（リセット）,  |
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>オプション</b></nobr>| | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) トラックパッドモード</nobr>| [OFF] | 関連するボタンが押されている時のみ出力軸値を出力
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) セカンダリー軸を使用</nobr>| [OFF] | 使用可能な場合はVRコントローラーからセカンダリー軸入力を読み取る。例：WMRコントローラーは両方のスティックとタッチパッドを持つ
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) ゲームパッドを使用</nobr>| [OFF] | VRモードでゲームパッド入力を有効にする
+|<nobr>├&nbsp;![check_on icon](/images/icon/ic_check_on.png) グリップ入力を使用</nobr>| [ON] | オフにするとグリップボタンを完全に無視
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) グリップ閾値</nobr>| [0.5] (0 ~ 1) | グリップボタン入力をトリガーするための閾値。Valve Indexのような非常に敏感なコントローラーに便利
+|<nobr>└&nbsp;![list icon](/images/icon/ic_list.png) プリセット</nobr>| **(Thumbstick)** | (Thumbstick), (Trackpad), (Trackpad + Thumbstick),  |
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>左サムスティック X</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **左 / 右に移動** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **左 / 右に回転** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 反転</nobr>| [OFF] | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ +</nobr>| **(D)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ -</nobr>| **A** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) スムージング</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>左サムスティック Y</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **前方 / 後方に移動** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **上 / 下に移動** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 反転</nobr>| [OFF] | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ +</nobr>| **(W)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ -</nobr>| **(S)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) スムージング</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>右サムスティック X</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **左 / 右に回転** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **左 / 右に移動** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 反転</nobr>| [OFF] | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ +</nobr>| **右** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ -</nobr>| **左** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) スムージング</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>右サムスティック Y</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **上 / 下に移動** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **前方 / 後方に移動** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 反転</nobr>| [OFF] | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ +</nobr>| **上** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ -</nobr>| **下** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) スムージング</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>左トリガー</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライム軸アクション</nobr>| **カスタム軸 1** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムボタンアクション</nobr>| **なし** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) ボタンしきい値</nobr>| [0.75] (0 ~ 1) | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ +</nobr>| **(Tab)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) スムージング</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>右トリガー</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライム軸アクション</nobr>| **カスタム軸 2** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムボタンアクション</nobr>| **なし** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) ボタンしきい値</nobr>| [0.75] (0 ~ 1) | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ +</nobr>| **(Space)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) スムージング</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>十字キー X</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **UI X** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **タイムラインをシーク** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 反転</nobr>| [OFF] | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ +</nobr>| **(L)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ -</nobr>| **(J)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) スムージング</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>十字キー Y</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **UI Y** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **フレームをシーク** | なし, 左 / 右に移動, 前方 / 後方に移動, 上 / 下に移動, 左 / 右に回転, UI X, UI Y, カスタム軸 1, カスタム軸 2, 視点を傾ける, UIスクロール, タイムラインをシーク, フレームをシーク,  |
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) デッドゾーン</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 反転</nobr>| [OFF] | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ +</nobr>| **I** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) キーボードオルタナティブ -</nobr>| **(K)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>└&nbsp;![slider icon](/images/icon/ic_slider.png) スムージング</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>ボタン X / 左 1</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **アクターを中央に** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **物理をリセット** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>└&nbsp;![chevron icon](/images/icon/ic_chevron.png) (Key)</nobr>| **(1)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>ボタン Y / 左 2</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **次のアクター** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **アクターをシャッフル** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>└&nbsp;![chevron icon](/images/icon/ic_chevron.png) (Key)</nobr>| **(2)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>ボタン A / 右 1</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **次の動作** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **前の動作** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>└&nbsp;![chevron icon](/images/icon/ic_chevron.png) (Key)</nobr>| **(3)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>ボタン B / 右 2</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **再生 / 一時停止** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **スローモーション** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>└&nbsp;![chevron icon](/images/icon/ic_chevron.png) (Key)</nobr>| **(4)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>左ショルダー</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **セカンダリーアクション** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **なし** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>└&nbsp;![chevron icon](/images/icon/ic_chevron.png) (Key)</nobr>| **(L Shift)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>右ショルダー</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **セカンダリーアクション** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **なし** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>└&nbsp;![chevron icon](/images/icon/ic_chevron.png) (Key)</nobr>| **(R Shift)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>左サムスティッククリック</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **物理をリセット** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **UIを中央に** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>└&nbsp;![chevron icon](/images/icon/ic_chevron.png) (Key)</nobr>| **(L Ctrl)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>右サムスティッククリック</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **UIを切り替え** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **UIを中央に** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>└&nbsp;![chevron icon](/images/icon/ic_chevron.png) (Key)</nobr>| **(R Ctrl)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>選択</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **UIを切り替え** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **UIバック** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>└&nbsp;![chevron icon](/images/icon/ic_chevron.png) (Key)</nobr>| **(Esc)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>スタート</b></nobr>| | 
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) プライムアクション</nobr>| **マイクを切り替え** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>├&nbsp;![chevron icon](/images/icon/ic_chevron.png) セカンダリアクション</nobr>| **マイクを切り替え** | なし, UIを切り替え, 再生 / 一時停止, UIバック, 物理をリセット, アクターを中央に, 次のアクター, 前のアクター, 次の動作, 前の動作, カメラを切り替え, スローモーション, アクターをシャッフル, 動作をシャッフル, 次のステージ, 前のステージ, ステージをシャッフル, UIアクション, UIオルタナティブ, セカンダリーアクション, UIを中央に, マイクを切り替え,  |
+|<nobr>└&nbsp;![chevron icon](/images/icon/ic_chevron.png) (Key)</nobr>| **(Return)** | なし, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 削除, (Home), (End), (PageUp), (PageDown), 上, 下, 左, 右, A, (B), (C), (D), E, (F), (G), (H), I, (J), (K), (L), (M), (N), O, (P), (Q), (R), (S), (T), U, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
+|<nobr>![list icon](/images/icon/ic_list.png) プリセット</nobr>| **デフォルト（リセット）** | デフォルト（リセット）,  |

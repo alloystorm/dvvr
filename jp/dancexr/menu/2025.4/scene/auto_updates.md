@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>色相</nobr>| [0] (0 ~ 1) | 
-|<nobr>フィルタリング</nobr>|| 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 色相</nobr>| [0] (0 ~ 1) | 
+|<nobr>![filter icon](/images/icon/ic_filter.png) フィルタリング</nobr>|| 

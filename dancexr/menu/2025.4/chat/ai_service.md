@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>Select Service</nobr>| **OpenAI (ChatGPT)** | OpenAI (ChatGPT), Local WebUI, Remote WebUI, Ollama,  |
-|<nobr>OpenAI API Key</nobr>|| 
-|<nobr>GPT Model</nobr>| **gpt-3.5-turbo** | gpt-3.5-turbo, gpt-4, gpt-4-turbo, gpt-4o,  |
-|<nobr>Local WebUI URL</nobr>|| 
-|<nobr>Remote WebUI URL</nobr>|| 
-|<nobr>Ollama URL</nobr>|| 
-|<nobr>Ollama Model</nobr>|| 
+|<nobr>![chevron icon](/images/icon/ic_chevron.png) Select Service</nobr>| **OpenAI (ChatGPT)** | OpenAI (ChatGPT), Local WebUI, Remote WebUI, Ollama,  |
+|<nobr> OpenAI API Key</nobr>|| 
+|<nobr>![chevron icon](/images/icon/ic_chevron.png) GPT Model</nobr>| **gpt-3.5-turbo** | gpt-3.5-turbo, gpt-4, gpt-4-turbo, gpt-4o,  |
+|<nobr> Local WebUI URL</nobr>|| 
+|<nobr> Remote WebUI URL</nobr>|| 
+|<nobr> Ollama URL</nobr>|| 
+|<nobr> Ollama Model</nobr>|| 

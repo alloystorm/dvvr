@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>选择服务</nobr>| **OpenAI (ChatGPT)** | OpenAI (ChatGPT), 本地 WebUI, 远程 WebUI, (Ollama),  |
-|<nobr>OpenAI API 密钥</nobr>|| 
-|<nobr>GPT 模型</nobr>| **(gpt-3.5-turbo)** | (gpt-3.5-turbo), (gpt-4), (gpt-4-turbo), (gpt-4o),  |
-|<nobr>本地 WebUI URL</nobr>|| 
-|<nobr>远程 WebUI URL</nobr>|| 
-|<nobr>Ollama URL</nobr>|| 
-|<nobr>Ollama 模型</nobr>|| 
+|<nobr>![chevron icon](/images/icon/ic_chevron.png) 选择服务</nobr>| **OpenAI (ChatGPT)** | OpenAI (ChatGPT), 本地 WebUI, 远程 WebUI, (Ollama),  |
+|<nobr> OpenAI API 密钥</nobr>|| 
+|<nobr>![chevron icon](/images/icon/ic_chevron.png) GPT 模型</nobr>| **(gpt-3.5-turbo)** | (gpt-3.5-turbo), (gpt-4), (gpt-4-turbo), (gpt-4o),  |
+|<nobr> 本地 WebUI URL</nobr>|| 
+|<nobr> 远程 WebUI URL</nobr>|| 
+|<nobr> Ollama URL</nobr>|| 
+|<nobr> Ollama 模型</nobr>|| 

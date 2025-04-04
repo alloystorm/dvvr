@@ -14,17 +14,17 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>Enable</nobr>| [OFF] | 
-|<nobr>Select Source Bones</nobr>|| Select bone to attach
-|<nobr>Select Actor</nobr>|  |  |
-|<nobr>Select Target Bones</nobr>|| Select target bone to attach to
-|<nobr>Ignore Rotation</nobr>| [OFF] | Ignore rotation of attach bone
-|<nobr><b>Offset</b></nobr>|| 
-|<nobr>X</nobr>| [0] (-1 ~ 1) | 
-|<nobr>Y</nobr>| [0] (-1 ~ 1) | 
-|<nobr>Z</nobr>| [0] (-1 ~ 1) | 
-|<nobr><b>Rotation</b></nobr>|| 
-|<nobr>X</nobr>| [0] (-180 ~ 180) | 
-|<nobr>Y</nobr>| [0] (-180 ~ 180) | 
-|<nobr>Z</nobr>| [0] (-180 ~ 180) | 
-|<nobr>Scale</nobr>| [0] (-4 ~ 4) | 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) Enable</nobr>| [OFF] | 
+|<nobr> Select Source Bones</nobr>|| Select bone to attach
+|<nobr>![chevron icon](/images/icon/ic_chevron.png) Select Actor</nobr>|  |  |
+|<nobr> Select Target Bones</nobr>|| Select target bone to attach to
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) Ignore Rotation</nobr>| [OFF] | Ignore rotation of attach bone
+|<nobr> <b>Offset</b></nobr>|| 
+|<nobr>![slider icon](/images/icon/ic_slider.png) X</nobr>| [0] (-1 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Y</nobr>| [0] (-1 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Z</nobr>| [0] (-1 ~ 1) | 
+|<nobr> <b>Rotation</b></nobr>|| 
+|<nobr>![slider icon](/images/icon/ic_slider.png) X</nobr>| [0] (-180 ~ 180) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Y</nobr>| [0] (-180 ~ 180) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Z</nobr>| [0] (-180 ~ 180) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Scale</nobr>| [0] (-4 ~ 4) | 

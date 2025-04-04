@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>서비스 선택</nobr>| **OpenAI (ChatGPT)** | OpenAI (ChatGPT), 로컬 웹 UI, 원격 웹 UI, (Ollama),  |
-|<nobr>OpenAI API 키</nobr>|| 
-|<nobr>GPT 모델</nobr>| **(gpt-3.5-turbo)** | (gpt-3.5-turbo), (gpt-4), (gpt-4-turbo), (gpt-4o),  |
-|<nobr>로컬 웹 UI URL</nobr>|| 
-|<nobr>원격 웹 UI URL</nobr>|| 
-|<nobr>Ollama URL</nobr>|| 
-|<nobr>Ollama 모델</nobr>|| 
+|<nobr>![chevron icon](/images/icon/ic_chevron.png) 서비스 선택</nobr>| **OpenAI (ChatGPT)** | OpenAI (ChatGPT), 로컬 웹 UI, 원격 웹 UI, (Ollama),  |
+|<nobr> OpenAI API 키</nobr>|| 
+|<nobr>![chevron icon](/images/icon/ic_chevron.png) GPT 모델</nobr>| **(gpt-3.5-turbo)** | (gpt-3.5-turbo), (gpt-4), (gpt-4-turbo), (gpt-4o),  |
+|<nobr> 로컬 웹 UI URL</nobr>|| 
+|<nobr> 원격 웹 UI URL</nobr>|| 
+|<nobr> Ollama URL</nobr>|| 
+|<nobr> Ollama 모델</nobr>|| 

@@ -14,26 +14,26 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>모두에 할당</nobr>|| 
-|<nobr>선택한 것에 할당</nobr>|| 
-|<nobr>모두를 2번째로 할당</nobr>|| 
-|<nobr>선택한 것을 2번째로 할당</nobr>|| 
-|<nobr>각도</nobr>| [0] (-90 ~ 90) | 
-|<nobr>범위</nobr>| [0.65] (0 ~ 1) | 
-|<nobr>모션 이동</nobr>| [0] (-1 ~ 1) | 
-|<nobr>스윙 각도</nobr>| [30] (0 ~ 45) | 
-|<nobr>하단</nobr>| [0.35] (0 ~ 0.8) | 
-|<nobr><b>속도</b></nobr>| | 
-|<nobr>├&nbsp;비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
-|<nobr>├&nbsp;그룹당 움직임</nobr>| [8] (4 ~ 32) | 
-|<nobr>├&nbsp;주기</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;곡선</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;변동 속도</nobr>| [OFF] | 
-|<nobr>├&nbsp;모드</nobr>| (Gradual) | (Gradual), 무작위, 볼륨, 
-|<nobr>├&nbsp;최소 속도</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
-|<nobr>└&nbsp;최대 속도</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
-|<nobr>동기화</nobr>| [-0.25] (-1 ~ 1) | 
-|<nobr>오디오 민감도</nobr>| [1] (-2 ~ 4) | 
-|<nobr>몸 비틀기</nobr>| [0] (-1 ~ 1) | 
-|<nobr>오버라이드</nobr>| [OFF] | 
-|<nobr>모션 오버라이드</nobr>| [0] (0 ~ 1) | 
+|<nobr>![motion icon](/images/icon/ic_motion.png) 모두에 할당</nobr>|| 
+|<nobr>![motion icon](/images/icon/ic_motion.png) 선택한 것에 할당</nobr>|| 
+|<nobr>![motion icon](/images/icon/ic_motion.png) 모두를 2번째로 할당</nobr>|| 
+|<nobr>![motion icon](/images/icon/ic_motion.png) 선택한 것을 2번째로 할당</nobr>|| 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 각도</nobr>| [0] (-90 ~ 90) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 범위</nobr>| [0.65] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 모션 이동</nobr>| [0] (-1 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 스윙 각도</nobr>| [30] (0 ~ 45) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 하단</nobr>| [0.35] (0 ~ 0.8) | 
+|<nobr>![tune icon](/images/icon/ic_tune.png) <b>속도</b></nobr>| | 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 그룹당 움직임</nobr>| [8] (4 ~ 32) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 주기</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;![slider icon](/images/icon/ic_slider.png) 곡선</nobr>| [0] (0 ~ 1) | 
+|<nobr>├&nbsp;![check_off icon](/images/icon/ic_check_off.png) 변동 속도</nobr>| [OFF] | 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 모드</nobr>| (Gradual) | (Gradual), 무작위, 볼륨, 
+|<nobr>├&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 최소 속도</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
+|<nobr>└&nbsp;![toggle_on icon](/images/icon/ic_toggle_on.png) 최대 속도</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 동기화</nobr>| [-0.25] (-1 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 오디오 민감도</nobr>| [1] (-2 ~ 4) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 몸 비틀기</nobr>| [0] (-1 ~ 1) | 
+|<nobr>![check_off icon](/images/icon/ic_check_off.png) 오버라이드</nobr>| [OFF] | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) 모션 오버라이드</nobr>| [0] (0 ~ 1) | 

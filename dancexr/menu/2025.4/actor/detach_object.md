@@ -14,11 +14,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>Enable</nobr>| [ON] | 
-|<nobr>Select Bones</nobr>|| 
-|<nobr>Gravity</nobr>| [ON] | 
-|<nobr>Mass</nobr>| [0.1] (0 ~ 10) | 
-|<nobr>Damp</nobr>| [0] (0 ~ 1) | 
-|<nobr>Collider</nobr>| Sphere | None, Sphere, Capsule, 
-|<nobr>Collider Radius</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>Collider Length</nobr>| [0.3] (0 ~ 2) | 
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) Enable</nobr>| [ON] | 
+|<nobr> Select Bones</nobr>|| 
+|<nobr>![check_on icon](/images/icon/ic_check_on.png) Gravity</nobr>| [ON] | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Mass</nobr>| [0.1] (0 ~ 10) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Damp</nobr>| [0] (0 ~ 1) | 
+|<nobr>![toggle_on icon](/images/icon/ic_toggle_on.png) Collider</nobr>| Sphere | None, Sphere, Capsule, 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Collider Radius</nobr>| [0.1] (0 ~ 1) | 
+|<nobr>![slider icon](/images/icon/ic_slider.png) Collider Length</nobr>| [0.3] (0 ~ 2) | 
