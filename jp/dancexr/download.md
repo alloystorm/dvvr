@@ -71,4 +71,4 @@ iPhone、iPad用のiOS版はApp Storeで入手できます:
 
 ### 中国本土のユーザー向け
 
-[中国大陸の購入オプション](purchase_prc.md)
+[中国大陸の購入オプション](purchase_prc)

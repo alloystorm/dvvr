@@ -71,4 +71,4 @@ iPhone, iPad용 iOS 버전은 App Store에서 사용할 수 있습니다:
 
 ### 중국 본토 사용자를 위한 안내
 
-[中国大陆购买选项](purchase_prc.md)
+[中国大陆购买选项](purchase_prc)

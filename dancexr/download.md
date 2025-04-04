@@ -72,4 +72,4 @@ The iOS version for iPhone and iPad is available on the App Store:
 
 ### For users in mainland China
 
-[中国大陆购买选项](purchase_prc.md)
+[中国大陆购买选项](purchase_prc)

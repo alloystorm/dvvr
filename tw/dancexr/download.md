@@ -71,4 +71,4 @@ iPhone、iPad 的 iOS 版本可在 App Store 上找到：
 
 ### 對於中國大陸用戶
 
-[中国大陆购买选项](purchase_prc.md)
+[中国大陆购买选项](purchase_prc)
