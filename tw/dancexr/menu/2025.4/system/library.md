@@ -19,5 +19,5 @@ sidebar:
 |<nobr>刪除重複項</nobr>|| 
 |<nobr>切換庫</nobr>|| 
 |<nobr>在資源管理器中顯示</nobr>|| 
-|<nobr>Google 雲端硬碟</nobr>|| 
+|<nobr><b>Google 雲端硬碟</b></nobr>|| 
 |<nobr>連結 Google 雲端硬碟</nobr>|| 

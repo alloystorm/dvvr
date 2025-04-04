@@ -14,35 +14,35 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>**桿**</nobr>| | 
+|<nobr><b>桿</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;模型</nobr>| **[柱子]** | [柱子],  |
-|<nobr>├&nbsp;**錨點偏移**</nobr>| | Set the anchor position for the attachment to attach to
-|<nobr>│&nbsp;├&nbsp;位置</nobr>|| 
+|<nobr>├&nbsp;<b>錨點偏移</b></nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>│&nbsp;├&nbsp;<b>位置</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;旋轉</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>├&nbsp;大小及對齊</nobr>|| 
+|<nobr>├&nbsp;<b>大小及對齊</b></nobr>|| 
 |<nobr>├&nbsp;物件半徑</nobr>| [0.02] (0.01 ~ 0.05) | 
 |<nobr>├&nbsp;物件長度</nobr>| [3] (0 ~ 5) | 
 |<nobr>├&nbsp;縮放</nobr>| [0] (-5 ~ 5) | 
 |<nobr>├&nbsp;朝向</nobr>| (Y Up) | (Y Up), (Y Down), (X Up), (X Down), (Z Up), (Z Down), 
-|<nobr>├&nbsp;偏移</nobr>|| 
+|<nobr>├&nbsp;<b>偏移</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr>├&nbsp;旋轉</nobr>|| 
+|<nobr>├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;吉他模式</nobr>| [OFF] | 
-|<nobr>├&nbsp;**運動**</nobr>| | Apply up / down motion to the attachment model
+|<nobr>├&nbsp;<b>運動</b></nobr>| | Apply up / down motion to the attachment model
 |<nobr>│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**速度**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>速度</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;相位</nobr>| [0] (0 ~ 1) | 
@@ -54,7 +54,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
 |<nobr>├&nbsp;動畫</nobr>| **無** | 無, <br/>選擇已加載的運動供附加模型使用 |
-|<nobr>├&nbsp;**表面**</nobr>| | 
+|<nobr>├&nbsp;<b>表面</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;光澤</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;金屬質感</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;凸起</nobr>| [0.2] (0 ~ 1) | 
@@ -62,7 +62,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;環境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;剪裁</nobr>| [0] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;**顏色**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>顏色</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
@@ -73,7 +73,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合模式</nobr>| **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **白色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
-|<nobr>│&nbsp;├&nbsp;**卡通著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>卡通著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;輪廓</nobr>| [0.5] (0 ~ 1) | 
@@ -86,7 +86,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;柔和陰影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
-|<nobr>│&nbsp;├&nbsp;**特殊著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>特殊著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;模式</nobr>| **關閉** | 關閉, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;厚度</nobr>| [1] (0 ~ 1) | 
@@ -96,35 +96,35 @@ sidebar:
 |<nobr>├&nbsp;拉手</nobr>| [0.1] (0 ~ 0.5) | 當手接近附加物時向附加物拉手
 |<nobr>├&nbsp;抓取姿勢</nobr>| [OFF] | 當手在附加物上時，自動改變手部姿勢為抓取
 |<nobr>└&nbsp;手部運動</nobr>| [0] (-1 ~ 1) | 相對於附加物運動移動手部
-|<nobr>**左手**</nobr>| | 
+|<nobr><b>左手</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;模型</nobr>| **[柱子]** | [柱子],  |
-|<nobr>├&nbsp;**錨點偏移**</nobr>| | Set the anchor position for the attachment to attach to
-|<nobr>│&nbsp;├&nbsp;位置</nobr>|| 
+|<nobr>├&nbsp;<b>錨點偏移</b></nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>│&nbsp;├&nbsp;<b>位置</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;旋轉</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>├&nbsp;大小及對齊</nobr>|| 
+|<nobr>├&nbsp;<b>大小及對齊</b></nobr>|| 
 |<nobr>├&nbsp;物件半徑</nobr>| [0.02] (0.01 ~ 0.05) | 
 |<nobr>├&nbsp;物件長度</nobr>| [0.2] (0 ~ 5) | 
 |<nobr>├&nbsp;縮放</nobr>| [0] (-5 ~ 5) | 
 |<nobr>├&nbsp;朝向</nobr>| (Y Up) | (Y Up), (Y Down), (X Up), (X Down), (Z Up), (Z Down), 
-|<nobr>├&nbsp;偏移</nobr>|| 
+|<nobr>├&nbsp;<b>偏移</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr>├&nbsp;旋轉</nobr>|| 
+|<nobr>├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;吉他模式</nobr>| [OFF] | 
-|<nobr>├&nbsp;**運動**</nobr>| | Apply up / down motion to the attachment model
+|<nobr>├&nbsp;<b>運動</b></nobr>| | Apply up / down motion to the attachment model
 |<nobr>│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**速度**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>速度</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;相位</nobr>| [0] (0 ~ 1) | 
@@ -136,7 +136,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
 |<nobr>├&nbsp;動畫</nobr>| **無** | 無, <br/>選擇已加載的運動供附加模型使用 |
-|<nobr>├&nbsp;**表面**</nobr>| | 
+|<nobr>├&nbsp;<b>表面</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;光澤</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;金屬質感</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;凸起</nobr>| [0.2] (0 ~ 1) | 
@@ -144,7 +144,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;環境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;剪裁</nobr>| [0] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;**顏色**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>顏色</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
@@ -155,7 +155,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合模式</nobr>| **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **白色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
-|<nobr>│&nbsp;├&nbsp;**卡通著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>卡通著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;輪廓</nobr>| [0.5] (0 ~ 1) | 
@@ -168,7 +168,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;柔和陰影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
-|<nobr>│&nbsp;├&nbsp;**特殊著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>特殊著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;模式</nobr>| **關閉** | 關閉, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;厚度</nobr>| [1] (0 ~ 1) | 
@@ -179,35 +179,35 @@ sidebar:
 |<nobr>├&nbsp;抓取姿勢</nobr>| [ON] | 當手在附加物上時，自動改變手部姿勢為抓取
 |<nobr>└&nbsp;手部運動</nobr>| [0] (-1 ~ 1) | 相對於附加物運動移動手部
 |<nobr>對稱手</nobr>| [OFF] | 
-|<nobr>**右手**</nobr>| | 
+|<nobr><b>右手</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;模型</nobr>| **[柱子]** | [柱子],  |
-|<nobr>├&nbsp;**錨點偏移**</nobr>| | Set the anchor position for the attachment to attach to
-|<nobr>│&nbsp;├&nbsp;位置</nobr>|| 
+|<nobr>├&nbsp;<b>錨點偏移</b></nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>│&nbsp;├&nbsp;<b>位置</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;旋轉</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>├&nbsp;大小及對齊</nobr>|| 
+|<nobr>├&nbsp;<b>大小及對齊</b></nobr>|| 
 |<nobr>├&nbsp;物件半徑</nobr>| [0.02] (0.01 ~ 0.05) | 
 |<nobr>├&nbsp;物件長度</nobr>| [0.2] (0 ~ 5) | 
 |<nobr>├&nbsp;縮放</nobr>| [0] (-5 ~ 5) | 
 |<nobr>├&nbsp;朝向</nobr>| (Y Up) | (Y Up), (Y Down), (X Up), (X Down), (Z Up), (Z Down), 
-|<nobr>├&nbsp;偏移</nobr>|| 
+|<nobr>├&nbsp;<b>偏移</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr>├&nbsp;旋轉</nobr>|| 
+|<nobr>├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;吉他模式</nobr>| [OFF] | 
-|<nobr>├&nbsp;**運動**</nobr>| | Apply up / down motion to the attachment model
+|<nobr>├&nbsp;<b>運動</b></nobr>| | Apply up / down motion to the attachment model
 |<nobr>│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**速度**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>速度</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;相位</nobr>| [0] (0 ~ 1) | 
@@ -219,7 +219,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
 |<nobr>├&nbsp;動畫</nobr>| **無** | 無, <br/>選擇已加載的運動供附加模型使用 |
-|<nobr>├&nbsp;**表面**</nobr>| | 
+|<nobr>├&nbsp;<b>表面</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;光澤</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;金屬質感</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;凸起</nobr>| [0.2] (0 ~ 1) | 
@@ -227,7 +227,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;環境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;剪裁</nobr>| [0] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;**顏色**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>顏色</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
@@ -238,7 +238,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合模式</nobr>| **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **白色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
-|<nobr>│&nbsp;├&nbsp;**卡通著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>卡通著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;輪廓</nobr>| [0.5] (0 ~ 1) | 
@@ -251,7 +251,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;柔和陰影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
-|<nobr>│&nbsp;├&nbsp;**特殊著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>特殊著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;模式</nobr>| **關閉** | 關閉, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;厚度</nobr>| [1] (0 ~ 1) | 
@@ -261,35 +261,35 @@ sidebar:
 |<nobr>├&nbsp;拉手</nobr>| [0.1] (0 ~ 0.5) | 當手接近附加物時向附加物拉手
 |<nobr>├&nbsp;抓取姿勢</nobr>| [ON] | 當手在附加物上時，自動改變手部姿勢為抓取
 |<nobr>└&nbsp;手部運動</nobr>| [0] (-1 ~ 1) | 相對於附加物運動移動手部
-|<nobr>**胸部**</nobr>| | 
+|<nobr><b>胸部</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;模型</nobr>| **[柱子]** | [柱子],  |
-|<nobr>├&nbsp;**錨點偏移**</nobr>| | Set the anchor position for the attachment to attach to
-|<nobr>│&nbsp;├&nbsp;位置</nobr>|| 
+|<nobr>├&nbsp;<b>錨點偏移</b></nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>│&nbsp;├&nbsp;<b>位置</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;旋轉</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>├&nbsp;大小及對齊</nobr>|| 
+|<nobr>├&nbsp;<b>大小及對齊</b></nobr>|| 
 |<nobr>├&nbsp;物件半徑</nobr>| [0.02] (0.01 ~ 0.05) | 
 |<nobr>├&nbsp;物件長度</nobr>| [0.2] (0 ~ 5) | 
 |<nobr>├&nbsp;縮放</nobr>| [0] (-5 ~ 5) | 
 |<nobr>├&nbsp;朝向</nobr>| (Y Up) | (Y Up), (Y Down), (X Up), (X Down), (Z Up), (Z Down), 
-|<nobr>├&nbsp;偏移</nobr>|| 
+|<nobr>├&nbsp;<b>偏移</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr>├&nbsp;旋轉</nobr>|| 
+|<nobr>├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;吉他模式</nobr>| [OFF] | 
-|<nobr>├&nbsp;**運動**</nobr>| | Apply up / down motion to the attachment model
+|<nobr>├&nbsp;<b>運動</b></nobr>| | Apply up / down motion to the attachment model
 |<nobr>│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**速度**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>速度</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;相位</nobr>| [0] (0 ~ 1) | 
@@ -301,7 +301,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
 |<nobr>├&nbsp;動畫</nobr>| **無** | 無, <br/>選擇已加載的運動供附加模型使用 |
-|<nobr>├&nbsp;**表面**</nobr>| | 
+|<nobr>├&nbsp;<b>表面</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;光澤</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;金屬質感</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;凸起</nobr>| [0.2] (0 ~ 1) | 
@@ -309,7 +309,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;環境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;剪裁</nobr>| [0] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;**顏色**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>顏色</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
@@ -320,7 +320,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合模式</nobr>| **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **白色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
-|<nobr>│&nbsp;├&nbsp;**卡通著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>卡通著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;輪廓</nobr>| [0.5] (0 ~ 1) | 
@@ -333,7 +333,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;柔和陰影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
-|<nobr>│&nbsp;├&nbsp;**特殊著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>特殊著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;模式</nobr>| **關閉** | 關閉, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;厚度</nobr>| [1] (0 ~ 1) | 
@@ -343,35 +343,35 @@ sidebar:
 |<nobr>├&nbsp;拉手</nobr>| [0.1] (0 ~ 0.5) | 當手接近附加物時向附加物拉手
 |<nobr>├&nbsp;抓取姿勢</nobr>| [ON] | 當手在附加物上時，自動改變手部姿勢為抓取
 |<nobr>└&nbsp;手部運動</nobr>| [0] (-1 ~ 1) | 相對於附加物運動移動手部
-|<nobr>**頭部**</nobr>| | 
+|<nobr><b>頭部</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;模型</nobr>| **[柱子]** | [柱子],  |
-|<nobr>├&nbsp;**錨點偏移**</nobr>| | Set the anchor position for the attachment to attach to
-|<nobr>│&nbsp;├&nbsp;位置</nobr>|| 
+|<nobr>├&nbsp;<b>錨點偏移</b></nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>│&nbsp;├&nbsp;<b>位置</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;旋轉</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>├&nbsp;大小及對齊</nobr>|| 
+|<nobr>├&nbsp;<b>大小及對齊</b></nobr>|| 
 |<nobr>├&nbsp;物件半徑</nobr>| [0.02] (0.01 ~ 0.05) | 
 |<nobr>├&nbsp;物件長度</nobr>| [0.2] (0 ~ 5) | 
 |<nobr>├&nbsp;縮放</nobr>| [0] (-5 ~ 5) | 
 |<nobr>├&nbsp;朝向</nobr>| (Y Up) | (Y Up), (Y Down), (X Up), (X Down), (Z Up), (Z Down), 
-|<nobr>├&nbsp;偏移</nobr>|| 
+|<nobr>├&nbsp;<b>偏移</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr>├&nbsp;旋轉</nobr>|| 
+|<nobr>├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;吉他模式</nobr>| [OFF] | 
-|<nobr>├&nbsp;**運動**</nobr>| | Apply up / down motion to the attachment model
+|<nobr>├&nbsp;<b>運動</b></nobr>| | Apply up / down motion to the attachment model
 |<nobr>│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**速度**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>速度</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;相位</nobr>| [0] (0 ~ 1) | 
@@ -383,7 +383,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
 |<nobr>├&nbsp;動畫</nobr>| **無** | 無, <br/>選擇已加載的運動供附加模型使用 |
-|<nobr>├&nbsp;**表面**</nobr>| | 
+|<nobr>├&nbsp;<b>表面</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;光澤</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;金屬質感</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;凸起</nobr>| [0.2] (0 ~ 1) | 
@@ -391,7 +391,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;環境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;剪裁</nobr>| [0] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;**顏色**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>顏色</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
@@ -402,7 +402,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合模式</nobr>| **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **白色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
-|<nobr>│&nbsp;├&nbsp;**卡通著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>卡通著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;輪廓</nobr>| [0.5] (0 ~ 1) | 
@@ -415,7 +415,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;柔和陰影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
-|<nobr>│&nbsp;├&nbsp;**特殊著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>特殊著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;模式</nobr>| **關閉** | 關閉, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;厚度</nobr>| [1] (0 ~ 1) | 
@@ -425,35 +425,35 @@ sidebar:
 |<nobr>├&nbsp;拉手</nobr>| [0.1] (0 ~ 0.5) | 當手接近附加物時向附加物拉手
 |<nobr>├&nbsp;抓取姿勢</nobr>| [ON] | 當手在附加物上時，自動改變手部姿勢為抓取
 |<nobr>└&nbsp;手部運動</nobr>| [0] (-1 ~ 1) | 相對於附加物運動移動手部
-|<nobr>**左腳**</nobr>| | 
+|<nobr><b>左腳</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;模型</nobr>| **[柱子]** | [柱子],  |
-|<nobr>├&nbsp;**錨點偏移**</nobr>| | Set the anchor position for the attachment to attach to
-|<nobr>│&nbsp;├&nbsp;位置</nobr>|| 
+|<nobr>├&nbsp;<b>錨點偏移</b></nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>│&nbsp;├&nbsp;<b>位置</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;旋轉</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>├&nbsp;大小及對齊</nobr>|| 
+|<nobr>├&nbsp;<b>大小及對齊</b></nobr>|| 
 |<nobr>├&nbsp;物件半徑</nobr>| [0.02] (0.01 ~ 0.05) | 
 |<nobr>├&nbsp;物件長度</nobr>| [0.2] (0 ~ 5) | 
 |<nobr>├&nbsp;縮放</nobr>| [0] (-5 ~ 5) | 
 |<nobr>├&nbsp;朝向</nobr>| (Y Up) | (Y Up), (Y Down), (X Up), (X Down), (Z Up), (Z Down), 
-|<nobr>├&nbsp;偏移</nobr>|| 
+|<nobr>├&nbsp;<b>偏移</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr>├&nbsp;旋轉</nobr>|| 
+|<nobr>├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;吉他模式</nobr>| [OFF] | 
-|<nobr>├&nbsp;**運動**</nobr>| | Apply up / down motion to the attachment model
+|<nobr>├&nbsp;<b>運動</b></nobr>| | Apply up / down motion to the attachment model
 |<nobr>│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**速度**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>速度</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;相位</nobr>| [0] (0 ~ 1) | 
@@ -465,7 +465,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
 |<nobr>├&nbsp;動畫</nobr>| **無** | 無, <br/>選擇已加載的運動供附加模型使用 |
-|<nobr>├&nbsp;**表面**</nobr>| | 
+|<nobr>├&nbsp;<b>表面</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;光澤</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;金屬質感</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;凸起</nobr>| [0.2] (0 ~ 1) | 
@@ -473,7 +473,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;環境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;剪裁</nobr>| [0] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;**顏色**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>顏色</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
@@ -484,7 +484,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合模式</nobr>| **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **白色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
-|<nobr>│&nbsp;├&nbsp;**卡通著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>卡通著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;輪廓</nobr>| [0.5] (0 ~ 1) | 
@@ -497,7 +497,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;柔和陰影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
-|<nobr>│&nbsp;├&nbsp;**特殊著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>特殊著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;模式</nobr>| **關閉** | 關閉, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;厚度</nobr>| [1] (0 ~ 1) | 
@@ -508,35 +508,35 @@ sidebar:
 |<nobr>├&nbsp;抓取姿勢</nobr>| [ON] | 當手在附加物上時，自動改變手部姿勢為抓取
 |<nobr>└&nbsp;手部運動</nobr>| [0] (-1 ~ 1) | 相對於附加物運動移動手部
 |<nobr>對稱腳</nobr>| [OFF] | 
-|<nobr>**右腳**</nobr>| | 
+|<nobr><b>右腳</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;模型</nobr>| **[柱子]** | [柱子],  |
-|<nobr>├&nbsp;**錨點偏移**</nobr>| | Set the anchor position for the attachment to attach to
-|<nobr>│&nbsp;├&nbsp;位置</nobr>|| 
+|<nobr>├&nbsp;<b>錨點偏移</b></nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>│&nbsp;├&nbsp;<b>位置</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;旋轉</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>├&nbsp;大小及對齊</nobr>|| 
+|<nobr>├&nbsp;<b>大小及對齊</b></nobr>|| 
 |<nobr>├&nbsp;物件半徑</nobr>| [0.02] (0.01 ~ 0.05) | 
 |<nobr>├&nbsp;物件長度</nobr>| [0.2] (0 ~ 5) | 
 |<nobr>├&nbsp;縮放</nobr>| [0] (-5 ~ 5) | 
 |<nobr>├&nbsp;朝向</nobr>| (Y Up) | (Y Up), (Y Down), (X Up), (X Down), (Z Up), (Z Down), 
-|<nobr>├&nbsp;偏移</nobr>|| 
+|<nobr>├&nbsp;<b>偏移</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr>├&nbsp;旋轉</nobr>|| 
+|<nobr>├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;吉他模式</nobr>| [OFF] | 
-|<nobr>├&nbsp;**運動**</nobr>| | Apply up / down motion to the attachment model
+|<nobr>├&nbsp;<b>運動</b></nobr>| | Apply up / down motion to the attachment model
 |<nobr>│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**速度**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>速度</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;相位</nobr>| [0] (0 ~ 1) | 
@@ -548,7 +548,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
 |<nobr>├&nbsp;動畫</nobr>| **無** | 無, <br/>選擇已加載的運動供附加模型使用 |
-|<nobr>├&nbsp;**表面**</nobr>| | 
+|<nobr>├&nbsp;<b>表面</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;光澤</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;金屬質感</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;凸起</nobr>| [0.2] (0 ~ 1) | 
@@ -556,7 +556,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;環境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;剪裁</nobr>| [0] (0 ~ 1) | 
-|<nobr>│&nbsp;├&nbsp;**顏色**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>顏色</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
@@ -567,7 +567,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合模式</nobr>| **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **白色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
-|<nobr>│&nbsp;├&nbsp;**卡通著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>卡通著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;輪廓</nobr>| [0.5] (0 ~ 1) | 
@@ -580,7 +580,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;陰影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;柔和陰影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
-|<nobr>│&nbsp;├&nbsp;**特殊著色器**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>特殊著色器</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;模式</nobr>| **關閉** | 關閉, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |
 |<nobr>│&nbsp;│&nbsp;├&nbsp;折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;厚度</nobr>| [1] (0 ~ 1) | 

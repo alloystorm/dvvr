@@ -29,13 +29,13 @@ sidebar:
 |<nobr>重叠</nobr>| [0.25] (0 ~ 2) | 
 |<nobr>曲线</nobr>| [0.35] (0 ~ 1) | 
 |<nobr>双手对称</nobr>| [ON] | 
-|<nobr>**左手**</nobr>| | 
+|<nobr><b>左手</b></nobr>| | 
 |<nobr>├&nbsp;手势</nobr>| **(Grab)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 点, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>├&nbsp;**手的位置**</nobr>| | 
+|<nobr>├&nbsp;<b>手的位置</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>├&nbsp;**手部旋转**</nobr>| | 
+|<nobr>├&nbsp;<b>手部旋转</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
@@ -49,9 +49,9 @@ sidebar:
 |<nobr>├&nbsp;混合范围</nobr>| [0.75] (0 ~ 2) | 
 |<nobr>├&nbsp;对称偏移</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;使用附件位置</nobr>| [ON] | 
-|<nobr>├&nbsp;**运动**</nobr>| | 
+|<nobr>├&nbsp;<b>运动</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**速度**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>速度</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每拍动作数</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每组动作数</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;相位</nobr>| [0] (0 ~ 1) | 
@@ -62,7 +62,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;└&nbsp;最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;距离</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
-|<nobr>├&nbsp;**自定义姿势**</nobr>| | 
+|<nobr>├&nbsp;<b>自定义姿势</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;打开</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;拇指轴</nobr>| [90] (-360 ~ 360) | 
@@ -79,13 +79,13 @@ sidebar:
 |<nobr>├&nbsp;抓取位置</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr>├&nbsp;(Grab Axis)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;预设</nobr>| **臀部** | (Rest), 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr>**右手**</nobr>| | 
+|<nobr><b>右手</b></nobr>| | 
 |<nobr>├&nbsp;手势</nobr>| **(Grab)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 点, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>├&nbsp;**手的位置**</nobr>| | 
+|<nobr>├&nbsp;<b>手的位置</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>├&nbsp;**手部旋转**</nobr>| | 
+|<nobr>├&nbsp;<b>手部旋转</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
@@ -99,9 +99,9 @@ sidebar:
 |<nobr>├&nbsp;混合范围</nobr>| [0.75] (0 ~ 2) | 
 |<nobr>├&nbsp;对称偏移</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;使用附件位置</nobr>| [ON] | 
-|<nobr>├&nbsp;**运动**</nobr>| | 
+|<nobr>├&nbsp;<b>运动</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**速度**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>速度</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每拍动作数</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每组动作数</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;相位</nobr>| [0] (0 ~ 1) | 
@@ -112,7 +112,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;└&nbsp;最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;距离</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
-|<nobr>├&nbsp;**自定义姿势**</nobr>| | 
+|<nobr>├&nbsp;<b>自定义姿势</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;打开</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;拇指轴</nobr>| [90] (-360 ~ 360) | 
@@ -129,6 +129,6 @@ sidebar:
 |<nobr>├&nbsp;抓取位置</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr>├&nbsp;(Grab Axis)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;预设</nobr>| **臀部** | (Rest), 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr>**圆周行走**</nobr>| | 
+|<nobr><b>圆周行走</b></nobr>| | 
 |<nobr>├&nbsp;圆周行走</nobr>| [OFF] | 
 |<nobr>└&nbsp;半径</nobr>| [2] (0 ~ 5) | 

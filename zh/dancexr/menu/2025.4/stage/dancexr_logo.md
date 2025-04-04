@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr>启用</nobr>| [ON] | 
-|<nobr>**Logo表面1**</nobr>| | 
+|<nobr><b>Logo表面1</b></nobr>| | 
 |<nobr>├&nbsp;光泽</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├&nbsp;金属质感</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;凹凸</nobr>| [0.2] (0 ~ 1) | 
@@ -23,7 +23,7 @@ sidebar:
 |<nobr>├&nbsp;环境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;剪切</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**颜色**</nobr>| | 
+|<nobr>├&nbsp;<b>颜色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;饱和度</nobr>| [0] (0 ~ 1) | 
@@ -34,7 +34,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;混合模式</nobr>| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
-|<nobr>├&nbsp;**卡通着色器**</nobr>| | 
+|<nobr>├&nbsp;<b>卡通着色器</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;着色</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;轮廓</nobr>| [0.5] (0 ~ 1) | 
@@ -47,12 +47,12 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;阴影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;柔和阴影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
-|<nobr>├&nbsp;**特效着色器**</nobr>| | 
+|<nobr>├&nbsp;<b>特效着色器</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;模式</nobr>| **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;厚度</nobr>| [1] (0 ~ 1) | 
 |<nobr>└&nbsp;预设</nobr>| **白色光泽** | 白色光泽, 红色光泽, 铬, 黑色光泽, 金色, 实心玻璃, 薄玻璃,  |
-|<nobr>**Logo表面2**</nobr>| | 
+|<nobr><b>Logo表面2</b></nobr>| | 
 |<nobr>├&nbsp;光泽</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├&nbsp;金属质感</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;凹凸</nobr>| [0.2] (0 ~ 1) | 
@@ -60,7 +60,7 @@ sidebar:
 |<nobr>├&nbsp;环境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;剪切</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**颜色**</nobr>| | 
+|<nobr>├&nbsp;<b>颜色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;饱和度</nobr>| [0] (0 ~ 1) | 
@@ -71,7 +71,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;混合模式</nobr>| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **红色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
-|<nobr>├&nbsp;**卡通着色器**</nobr>| | 
+|<nobr>├&nbsp;<b>卡通着色器</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;着色</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;轮廓</nobr>| [0.5] (0 ~ 1) | 
@@ -84,13 +84,13 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;阴影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;柔和阴影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
-|<nobr>├&nbsp;**特效着色器**</nobr>| | 
+|<nobr>├&nbsp;<b>特效着色器</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;模式</nobr>| **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;厚度</nobr>| [1] (0 ~ 1) | 
 |<nobr>└&nbsp;预设</nobr>| **红色光泽** | 白色光泽, 红色光泽, 铬, 黑色光泽, 金色, 实心玻璃, 薄玻璃,  |
 |<nobr>钻石</nobr>| [ON] | 
-|<nobr>**钻石表面**</nobr>| | 
+|<nobr><b>钻石表面</b></nobr>| | 
 |<nobr>├&nbsp;光泽</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├&nbsp;金属质感</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;凹凸</nobr>| [0.2] (0 ~ 1) | 
@@ -98,7 +98,7 @@ sidebar:
 |<nobr>├&nbsp;环境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;剪切</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**颜色**</nobr>| | 
+|<nobr>├&nbsp;<b>颜色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;饱和度</nobr>| [0] (0 ~ 1) | 
@@ -109,7 +109,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;混合模式</nobr>| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
-|<nobr>├&nbsp;**卡通着色器**</nobr>| | 
+|<nobr>├&nbsp;<b>卡通着色器</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;着色</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;轮廓</nobr>| [0.5] (0 ~ 1) | 
@@ -122,7 +122,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;阴影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;柔和阴影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
-|<nobr>├&nbsp;**特效着色器**</nobr>| | 
+|<nobr>├&nbsp;<b>特效着色器</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;模式</nobr>| **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;厚度</nobr>| [1] (0 ~ 1) | 

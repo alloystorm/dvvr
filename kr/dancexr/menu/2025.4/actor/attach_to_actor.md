@@ -19,11 +19,11 @@ sidebar:
 |<nobr>배우 선택</nobr>|  |  |
 |<nobr>대상 본 선택</nobr>|| 부착할 대상 본 선택
 |<nobr>(Ignore Rotation)</nobr>| [OFF] | 부착 본의 회전 무시
-|<nobr>오프셋</nobr>|| 
+|<nobr><b>오프셋</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>회전</nobr>|| 
+|<nobr><b>회전</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>(Z)</nobr>| [0] (-180 ~ 180) | 

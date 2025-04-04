@@ -14,11 +14,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>Position</nobr>|| 
+|<nobr><b>Position</b></nobr>|| 
 |<nobr>X</nobr>| [0] (Unlimited) | 
 |<nobr>Y</nobr>| [0] (Unlimited) | 
 |<nobr>Z</nobr>| [0] (Unlimited) | 
-|<nobr>Rotation</nobr>|| 
+|<nobr><b>Rotation</b></nobr>|| 
 |<nobr>X</nobr>| [0] (Unlimited) | 
 |<nobr>Y</nobr>| [0] (Unlimited) | 
 |<nobr>Z</nobr>| [0] (Unlimited) | 

@@ -96,7 +96,7 @@ sidebar:
 | [재료](actor/materials) |  | 
 | [설정](actor/all_settings) |  | 
 | [프로](actor/pro_tools) |  | 
-| [물리](actor/model_physics) |  | 
+| [물리](actor/physics_settings) |  | 
 | [프리셋](actor/actor_presets) |  | 
 | | |
 

@@ -18,14 +18,14 @@ sidebar:
 |<nobr>Force Refresh Materials</nobr>| [OFF] | 
 |<nobr>Retain Options</nobr>| [OFF] | Automatically applies the settings from the outgoing actor to the incoming actor when replacing actors.
 |<nobr>Compress Textures</nobr>| [OFF] | Compress textures to reduce VRAM use
-|<nobr>Transition Effect</nobr>|| 
+|<nobr><b>Transition Effect</b></nobr>|| 
 |<nobr>Presets</nobr>| **Default (Reset)** | Default (Reset),  |
 |<nobr>Direction</nobr>| Down | Down, Up, <br/>The direction of the animation.
 |<nobr>V Shape</nobr>| [1] (0 ~ 5) | Controls the angle of the edge, 0 is flat.
 |<nobr>Transition Mode</nobr>| Cells | Cells, Mosaic, Noise, 
 |<nobr>Scale</nobr>| [0] (-3 ~ 3) | Scale of the pattern.
 |<nobr>Width</nobr>| [0.1] (0 ~ 1) | The size of the transition area.
-|<nobr>**Color**</nobr>| | 
+|<nobr><b>Color</b></nobr>| | 
 |<nobr>├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>├&nbsp;Hue</nobr>| [0.1666667] (0 ~ 1) | 
 |<nobr>├&nbsp;Satuation</nobr>| [1] (0 ~ 1) | 

@@ -29,13 +29,13 @@ sidebar:
 |<nobr>オーバーラップ</nobr>| [0.25] (0 ~ 2) | 
 |<nobr>カーブ</nobr>| [0.35] (0 ~ 1) | 
 |<nobr>手の対称</nobr>| [ON] | 
-|<nobr>**左手**</nobr>| | 
+|<nobr><b>左手</b></nobr>| | 
 |<nobr>├&nbsp;ジェスチャー</nobr>| **(Grab)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>├&nbsp;**手の位置**</nobr>| | 
+|<nobr>├&nbsp;<b>手の位置</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>├&nbsp;**手の回転**</nobr>| | 
+|<nobr>├&nbsp;<b>手の回転</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
@@ -49,9 +49,9 @@ sidebar:
 |<nobr>├&nbsp;ブレンド範囲</nobr>| [0.75] (0 ~ 2) | 
 |<nobr>├&nbsp;対称オフセット</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;アクセサリーポジションを使用</nobr>| [ON] | 
-|<nobr>├&nbsp;**モーション**</nobr>| | 
+|<nobr>├&nbsp;<b>モーション</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**スピード**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>スピード</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;グループあたりの動き</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;フェーズ</nobr>| [0] (0 ~ 1) | 
@@ -62,7 +62,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;└&nbsp;最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
-|<nobr>├&nbsp;**カスタムポーズ**</nobr>| | 
+|<nobr>├&nbsp;<b>カスタムポーズ</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;開く</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;親指軸</nobr>| [90] (-360 ~ 360) | 
@@ -79,13 +79,13 @@ sidebar:
 |<nobr>├&nbsp;つかむ位置</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr>├&nbsp;(Grab Axis)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;プリセット</nobr>| **ヒップ** | (Rest), 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr>**右手**</nobr>| | 
+|<nobr><b>右手</b></nobr>| | 
 |<nobr>├&nbsp;ジェスチャー</nobr>| **(Grab)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>├&nbsp;**手の位置**</nobr>| | 
+|<nobr>├&nbsp;<b>手の位置</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>├&nbsp;**手の回転**</nobr>| | 
+|<nobr>├&nbsp;<b>手の回転</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
@@ -99,9 +99,9 @@ sidebar:
 |<nobr>├&nbsp;ブレンド範囲</nobr>| [0.75] (0 ~ 2) | 
 |<nobr>├&nbsp;対称オフセット</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;アクセサリーポジションを使用</nobr>| [ON] | 
-|<nobr>├&nbsp;**モーション**</nobr>| | 
+|<nobr>├&nbsp;<b>モーション</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**スピード**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>スピード</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;グループあたりの動き</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;フェーズ</nobr>| [0] (0 ~ 1) | 
@@ -112,7 +112,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;└&nbsp;最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
-|<nobr>├&nbsp;**カスタムポーズ**</nobr>| | 
+|<nobr>├&nbsp;<b>カスタムポーズ</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;開く</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;親指軸</nobr>| [90] (-360 ~ 360) | 
@@ -129,6 +129,6 @@ sidebar:
 |<nobr>├&nbsp;つかむ位置</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr>├&nbsp;(Grab Axis)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;プリセット</nobr>| **ヒップ** | (Rest), 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr>**円を描いて歩く**</nobr>| | 
+|<nobr><b>円を描いて歩く</b></nobr>| | 
 |<nobr>├&nbsp;円を描いて歩く</nobr>| [OFF] | 
 |<nobr>└&nbsp;半径</nobr>| [2] (0 ~ 5) | 

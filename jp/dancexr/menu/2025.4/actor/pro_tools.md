@@ -25,4 +25,3 @@ sidebar:
 | [セックスオーバーレイ](sex_overlay) |
 | [ディルド](dildo) |
 | [ライトボール](light_ball) |
-| [ボーン構造をエクスポート](export_bone_structure) |

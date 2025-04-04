@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>**日光**</nobr>| | Settings for the sunlight. Keep in mind that sunlight is very bright and will require a higher exposure value.
+|<nobr><b>日光</b></nobr>| | Settings for the sunlight. Keep in mind that sunlight is very bright and will require a higher exposure value.
 |<nobr>├&nbsp;有効にする</nobr>| [ON] | 
 |<nobr>├&nbsp;黄道角</nobr>| [0] (-90 ~ 90) | 地平線と太陽が移動する面の間の角度。
 |<nobr>├&nbsp;オリエンテーション</nobr>| [0] (-180 ~ 180) | 
@@ -24,7 +24,7 @@ sidebar:
 |<nobr>├&nbsp;スポット半径</nobr>| [0.1] (0 ~ 1) | これは手続き型の空での太陽ディスクのサイズや影の柔らかさに影響を与えます。
 |<nobr>├&nbsp;ボリュメトリック倍率</nobr>| [1] (0 ~ 16) | 
 |<nobr>├&nbsp;星</nobr>| [1] (0 ~ 8) | 手続き型の空を使用しているときの夜間の星の強度を設定します。
-|<nobr>├&nbsp;**ウィンドウ**</nobr>| | 
+|<nobr>├&nbsp;<b>ウィンドウ</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;幅</nobr>| [8] (0 ~ 16) | クッキーマップが有効なときのウィンドウの幅。
 |<nobr>│&nbsp;├&nbsp;高さ</nobr>| [2] (0 ~ 16) | クッキーマップが有効なときのウィンドウの高さ。
@@ -35,7 +35,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;サークル</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;間隔</nobr>| [0.05] (0 ~ 0.5) | 
 |<nobr>│&nbsp;└&nbsp;グロー</nobr>| [0.25] (0 ~ 1) | 
-|<nobr>├&nbsp;**シャドウ**</nobr>| | Shadow settings.
+|<nobr>├&nbsp;<b>シャドウ</b></nobr>| | Shadow settings.
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;モード</nobr>| グローバル設定を使用 | グローバル設定を使用, シャドウマップ, スクリーンスペース, レイトレーシング（利用可能な場合）, 
 |<nobr>│&nbsp;├&nbsp;接触シャドウ</nobr>| [OFF] | 細かいディテールのためにシャドウを有効にする。
@@ -44,11 +44,11 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;ノイズ除去半径</nobr>| [8] (1 ~ 32) | 
 |<nobr>│&nbsp;└&nbsp;シャドウディマー</nobr>| [1] (0 ~ 1) | シャドウの強度を減少させる。
 |<nobr>└&nbsp;レンズフレア</nobr>| [ON] | レンズフレアを有効にする
-|<nobr>**追加 1**</nobr>| | Configure light group 1
+|<nobr><b>追加 1</b></nobr>| | Configure light group 1
 |<nobr>├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>├&nbsp;ボリュメトリック倍率</nobr>| [1] (0 ~ 16) | 
 |<nobr>├&nbsp;タイプ</nobr>| **スポットライト** | スポットライト, ポイントライト, エリアライト, ピラミッド, ボックス,  |
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -79,14 +79,14 @@ sidebar:
 |<nobr>├&nbsp;アクターの位置を使用</nobr>| [OFF] | ライトを配置する際にアクターの位置と向きを使用。
 |<nobr>├&nbsp;ターゲットの高さ</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;レンズフレア</nobr>| [OFF] | 
-|<nobr>├&nbsp;**リピート**</nobr>| | 
+|<nobr>├&nbsp;<b>リピート</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;数</nobr>| [1] (1 ~ 8) | 配列内のライトの数。
 |<nobr>│&nbsp;├&nbsp;フォーメーション</nobr>| グリッド | サークル, グリッド, <br/>グリッドまたは円形配置を使用。
 |<nobr>│&nbsp;├&nbsp;距離 / 半径</nobr>| [7] (0 ~ 20) | グリッドモードでのライト間の距離。
 |<nobr>│&nbsp;├&nbsp;範囲</nobr>| [360] (0 ~ 360) | 円形モードでのライトの角度。
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **オフ** | オフ, (3x3 Grid), (2x Fan), (4x Fan), (4x Circle), (8x Circle),  |
-|<nobr>├&nbsp;**シャドウ**</nobr>| | 
+|<nobr>├&nbsp;<b>シャドウ</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;モード</nobr>| グローバル設定を使用 | グローバル設定を使用, シャドウマップ, スクリーンスペース, レイトレーシング（利用可能な場合）, 
 |<nobr>│&nbsp;├&nbsp;接触シャドウ</nobr>| [OFF] | 細かいディテールのためにシャドウを有効にする。
@@ -95,11 +95,11 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;ノイズ除去半径</nobr>| [8] (1 ~ 32) | 
 |<nobr>│&nbsp;└&nbsp;シャドウディマー</nobr>| [1] (0 ~ 1) | シャドウの強度を減少させる。
 |<nobr>└&nbsp;プリセット</nobr>| **スポットライト** | スポットライト, ポイントライト, エリアライト, ピラミッドプロジェクター近, ピラミッドプロジェクター遠, ボックスプロジェクター近, ボックスプロジェクター遠, スポットライトアレイ, サスペンドスポットライト, (Preset 1),  |
-|<nobr>**追加 2**</nobr>| | Configure light group 2
+|<nobr><b>追加 2</b></nobr>| | Configure light group 2
 |<nobr>├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>├&nbsp;ボリュメトリック倍率</nobr>| [1] (0 ~ 16) | 
 |<nobr>├&nbsp;タイプ</nobr>| **スポットライト** | スポットライト, ポイントライト, エリアライト, ピラミッド, ボックス,  |
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -130,14 +130,14 @@ sidebar:
 |<nobr>├&nbsp;アクターの位置を使用</nobr>| [ON] | ライトを配置する際にアクターの位置と向きを使用。
 |<nobr>├&nbsp;ターゲットの高さ</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;レンズフレア</nobr>| [OFF] | 
-|<nobr>├&nbsp;**リピート**</nobr>| | 
+|<nobr>├&nbsp;<b>リピート</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;数</nobr>| [1] (1 ~ 8) | 配列内のライトの数。
 |<nobr>│&nbsp;├&nbsp;フォーメーション</nobr>| グリッド | サークル, グリッド, <br/>グリッドまたは円形配置を使用。
 |<nobr>│&nbsp;├&nbsp;距離 / 半径</nobr>| [7] (0 ~ 20) | グリッドモードでのライト間の距離。
 |<nobr>│&nbsp;├&nbsp;範囲</nobr>| [360] (0 ~ 360) | 円形モードでのライトの角度。
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **オフ** | オフ, (3x3 Grid), (2x Fan), (4x Fan), (4x Circle), (8x Circle),  |
-|<nobr>├&nbsp;**シャドウ**</nobr>| | 
+|<nobr>├&nbsp;<b>シャドウ</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;モード</nobr>| グローバル設定を使用 | グローバル設定を使用, シャドウマップ, スクリーンスペース, レイトレーシング（利用可能な場合）, 
 |<nobr>│&nbsp;├&nbsp;接触シャドウ</nobr>| [OFF] | 細かいディテールのためにシャドウを有効にする。
@@ -146,11 +146,11 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;ノイズ除去半径</nobr>| [8] (1 ~ 32) | 
 |<nobr>│&nbsp;└&nbsp;シャドウディマー</nobr>| [1] (0 ~ 1) | シャドウの強度を減少させる。
 |<nobr>└&nbsp;プリセット</nobr>| **スポットライト** | スポットライト, ポイントライト, エリアライト, ピラミッドプロジェクター近, ピラミッドプロジェクター遠, ボックスプロジェクター近, ボックスプロジェクター遠, スポットライトアレイ, サスペンドスポットライト, (Preset 1),  |
-|<nobr>**追加 3**</nobr>| | Configure light group 3
+|<nobr><b>追加 3</b></nobr>| | Configure light group 3
 |<nobr>├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>├&nbsp;ボリュメトリック倍率</nobr>| [1] (0 ~ 16) | 
 |<nobr>├&nbsp;タイプ</nobr>| **スポットライト** | スポットライト, ポイントライト, エリアライト, ピラミッド, ボックス,  |
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -181,14 +181,14 @@ sidebar:
 |<nobr>├&nbsp;アクターの位置を使用</nobr>| [ON] | ライトを配置する際にアクターの位置と向きを使用。
 |<nobr>├&nbsp;ターゲットの高さ</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;レンズフレア</nobr>| [OFF] | 
-|<nobr>├&nbsp;**リピート**</nobr>| | 
+|<nobr>├&nbsp;<b>リピート</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;数</nobr>| [1] (1 ~ 8) | 配列内のライトの数。
 |<nobr>│&nbsp;├&nbsp;フォーメーション</nobr>| グリッド | サークル, グリッド, <br/>グリッドまたは円形配置を使用。
 |<nobr>│&nbsp;├&nbsp;距離 / 半径</nobr>| [7] (0 ~ 20) | グリッドモードでのライト間の距離。
 |<nobr>│&nbsp;├&nbsp;範囲</nobr>| [360] (0 ~ 360) | 円形モードでのライトの角度。
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **オフ** | オフ, (3x3 Grid), (2x Fan), (4x Fan), (4x Circle), (8x Circle),  |
-|<nobr>├&nbsp;**シャドウ**</nobr>| | 
+|<nobr>├&nbsp;<b>シャドウ</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;モード</nobr>| グローバル設定を使用 | グローバル設定を使用, シャドウマップ, スクリーンスペース, レイトレーシング（利用可能な場合）, 
 |<nobr>│&nbsp;├&nbsp;接触シャドウ</nobr>| [OFF] | 細かいディテールのためにシャドウを有効にする。
@@ -199,7 +199,7 @@ sidebar:
 |<nobr>└&nbsp;プリセット</nobr>| **スポットライト** | スポットライト, ポイントライト, エリアライト, ピラミッドプロジェクター近, ピラミッドプロジェクター遠, ボックスプロジェクター近, ボックスプロジェクター遠, スポットライトアレイ, サスペンドスポットライト, (Preset 1),  |
 |<nobr>全体の強度</nobr>| [1] (0 ~ 2) | すべてのライトの全体強度。
 |<nobr>空の環境光</nobr>| [1] (0 ~ 14) | 空からの環境光の強度。
-|<nobr>**自動露出**</nobr>| | Auto exposure settings.
+|<nobr><b>自動露出</b></nobr>| | Auto exposure settings.
 |<nobr>├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>├&nbsp;測定モード</nobr>| 平均 | 平均, スポット, 中心加重, <br/>測定モードを選択します。
 |<nobr>├&nbsp;補償</nobr>| (0.00) | (-3.00), (-2.75), (-2.50), (-2.25), (-2.00), (-1.75), (-1.50), (-1.25), (-1.00), (-0.75), (-0.50), (-0.25), (0.00), (0.25), (0.50), (0.75), (1.00), (1.25), (1.50), (1.75), (2.00), (2.25), (2.50), (2.75), (3.00), 
@@ -208,7 +208,7 @@ sidebar:
 |<nobr>霧</nobr>| [0] (0 ~ 1) | 霧レベル
 |<nobr>ライト制限</nobr>| [8] (0 ~ 16) | シーンで利用可能な最大ライト数を設定します。
 |<nobr>シャドウ制限</nobr>| [4] (0 ~ 16) | シャドウを持つことができる最大ライト数を設定します。
-|<nobr>**アロケーション**</nobr>| | 
+|<nobr><b>アロケーション</b></nobr>| | 
 |<nobr>├&nbsp;自動割り当て</nobr>| 距離による | 距離による, インデックスによる（固定）, 
 |<nobr>├&nbsp;リフレッシュ間隔</nobr>| [8] (1 ~ 32) | ライトを再割り当てする頻度。ビートで。
 |<nobr>└&nbsp;手動リフレッシュ</nobr>|| ライトを強制的に再割り当て。

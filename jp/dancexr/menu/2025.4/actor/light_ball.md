@@ -17,10 +17,10 @@ sidebar:
 |<nobr>有効にする</nobr>| [OFF] | 
 |<nobr>形状</nobr>| ボール | ボール, ダイヤモンド, クリスタル, 
 |<nobr>サイズ</nobr>| [1] (0.1 ~ 10) | 
-|<nobr>**スタイル**</nobr>| | 
+|<nobr><b>スタイル</b></nobr>| | 
 |<nobr>├&nbsp;ステージカラーを使用</nobr>| [OFF] | 
 |<nobr>├&nbsp;ビートに合わせて点滅</nobr>| [OFF] | 
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -38,7 +38,7 @@ sidebar:
 |<nobr>├&nbsp;シャドウをキャスト</nobr>| [OFF] | 
 |<nobr>├&nbsp;トレイル</nobr>| [0] (0 ~ 2) | 
 |<nobr>└&nbsp;プリセット</nobr>| **グロー** | グロー, 反射, クリスタル,  |
-|<nobr>**物理**</nobr>| | 
+|<nobr><b>物理</b></nobr>| | 
 |<nobr>├&nbsp;重力</nobr>| [OFF] | 
 |<nobr>├&nbsp;衝突</nobr>| [ON] | 
 |<nobr>├&nbsp;質量</nobr>| [0.1] (0 ~ 10) | 

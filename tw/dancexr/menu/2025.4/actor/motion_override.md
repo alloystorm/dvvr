@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr>啟用</nobr>| [OFF] | 
-|<nobr>**身體**</nobr>| | 
+|<nobr><b>身體</b></nobr>| | 
 |<nobr>├&nbsp;位置</nobr>| 自由 | 自由, 鎖定水平, 鎖定垂直, 鎖定位置, 
 |<nobr>├&nbsp;旋轉</nobr>| 自由 | 自由, 鎖定旋轉, 
 |<nobr>├&nbsp;阻尼</nobr>| [0.5] (0 ~ 1) | 
@@ -30,9 +30,9 @@ sidebar:
 |<nobr>├&nbsp;檢測範圍</nobr>| [2] (0 ~ 10) | 
 |<nobr>├&nbsp;最小距離</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>└&nbsp;最大距離</nobr>| [1] (0.5 ~ 2) | 
-|<nobr>**搖擺動作**</nobr>| | 
+|<nobr><b>搖擺動作</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [ON] | 
-|<nobr>├&nbsp;**速度**</nobr>| | 
+|<nobr>├&nbsp;<b>速度</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;├&nbsp;相位</nobr>| [0] (0 ~ 1) | 
@@ -48,17 +48,17 @@ sidebar:
 |<nobr>├&nbsp;深度最大</nobr>| [0.15] (0 ~ 0.3) | 
 |<nobr>├&nbsp;深度額外</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr>└&nbsp;腳部動作</nobr>| [0] (-1 ~ 1) | 
-|<nobr>**頭部姿勢**</nobr>| | 
+|<nobr><b>頭部姿勢</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;X 旋轉</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;Y 旋轉</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;Z 旋轉</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**腿部姿勢**</nobr>| | 
+|<nobr><b>腿部姿勢</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [ON] | 
 |<nobr>├&nbsp;相對於地面</nobr>| [ON] | 
 |<nobr>├&nbsp;最大扭轉</nobr>| [60] (0 ~ 90) | 
 |<nobr>├&nbsp;對稱</nobr>| [ON] | 
-|<nobr>├&nbsp;**左**</nobr>| | 
+|<nobr>├&nbsp;<b>左</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;打開</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;├&nbsp;腳 X</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;腳 Y</nobr>| [0] ((Unlimited)) | 
@@ -67,7 +67,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;腳旋轉 Y</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;腳旋轉 Z</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;腳趾</nobr>| [0] (-180 ~ 180) | 
-|<nobr>├&nbsp;**右**</nobr>| | 
+|<nobr>├&nbsp;<b>右</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;打開</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;├&nbsp;腳 X</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;腳 Y</nobr>| [0] ((Unlimited)) | 
@@ -78,14 +78,14 @@ sidebar:
 |<nobr>│&nbsp;└&nbsp;腳趾</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;預設</nobr>| **(Ride)** | (Sit), (Ride), (Kneel), (Stand),  |
 |<nobr>手部對稱</nobr>| [ON] | 
-|<nobr>**左手**</nobr>| | 
+|<nobr><b>左手</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;手勢</nobr>| **(Fist)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 點, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>├&nbsp;**手部位置**</nobr>| | 
+|<nobr>├&nbsp;<b>手部位置</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>├&nbsp;**手掌旋轉**</nobr>| | 
+|<nobr>├&nbsp;<b>手掌旋轉</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
@@ -99,9 +99,9 @@ sidebar:
 |<nobr>├&nbsp;混合範圍</nobr>| [0.75] (0 ~ 2) | 
 |<nobr>├&nbsp;對稱偏移</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;使用配件位置</nobr>| [ON] | 
-|<nobr>├&nbsp;**運動**</nobr>| | 
+|<nobr>├&nbsp;<b>運動</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**速度**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>速度</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;相位</nobr>| [0] (0 ~ 1) | 
@@ -112,7 +112,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;└&nbsp;最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
-|<nobr>├&nbsp;**自定義姿勢**</nobr>| | 
+|<nobr>├&nbsp;<b>自定義姿勢</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;打開</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;拇指軸</nobr>| [90] (-360 ~ 360) | 
@@ -129,14 +129,14 @@ sidebar:
 |<nobr>├&nbsp;抓取位置</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr>├&nbsp;(Grab Axis)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;預設</nobr>| **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr>**右手**</nobr>| | 
+|<nobr><b>右手</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;手勢</nobr>| **(Fist)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 點, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>├&nbsp;**手部位置**</nobr>| | 
+|<nobr>├&nbsp;<b>手部位置</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>├&nbsp;**手掌旋轉**</nobr>| | 
+|<nobr>├&nbsp;<b>手掌旋轉</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
@@ -150,9 +150,9 @@ sidebar:
 |<nobr>├&nbsp;混合範圍</nobr>| [0.75] (0 ~ 2) | 
 |<nobr>├&nbsp;對稱偏移</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;使用配件位置</nobr>| [ON] | 
-|<nobr>├&nbsp;**運動**</nobr>| | 
+|<nobr>├&nbsp;<b>運動</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**速度**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>速度</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;相位</nobr>| [0] (0 ~ 1) | 
@@ -163,7 +163,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;└&nbsp;最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
-|<nobr>├&nbsp;**自定義姿勢**</nobr>| | 
+|<nobr>├&nbsp;<b>自定義姿勢</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;打開</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;拇指軸</nobr>| [90] (-360 ~ 360) | 
@@ -180,17 +180,17 @@ sidebar:
 |<nobr>├&nbsp;抓取位置</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr>├&nbsp;(Grab Axis)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;預設</nobr>| **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr>**騎乘模型**</nobr>| | 
+|<nobr><b>騎乘模型</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [ON] | 
 |<nobr>├&nbsp;模型</nobr>| **([Hoverbike])** | ([Hoverbike]), ([Rocking Horse]),  |
 |<nobr>├&nbsp;加速度</nobr>| [10] (0 ~ 20) | 
 |<nobr>├&nbsp;拖曳</nobr>| [0.05] (0 ~ 1) | 
 |<nobr>├&nbsp;轉彎時傾斜</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>├&nbsp;位置</nobr>|| 
+|<nobr>├&nbsp;<b>位置</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;旋轉</nobr>|| 
+|<nobr>├&nbsp;<b>旋轉</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 

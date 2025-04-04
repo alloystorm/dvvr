@@ -17,10 +17,10 @@ sidebar:
 |<nobr>啟用</nobr>| [OFF] | 
 |<nobr>形狀</nobr>| 球 | 球, 鑽石, 水晶, 
 |<nobr>大小</nobr>| [1] (0.1 ~ 10) | 
-|<nobr>**風格**</nobr>| | 
+|<nobr><b>風格</b></nobr>| | 
 |<nobr>├&nbsp;使用舞台顏色</nobr>| [OFF] | 
 |<nobr>├&nbsp;與節拍閃爍</nobr>| [OFF] | 
-|<nobr>├&nbsp;**顏色**</nobr>| | 
+|<nobr>├&nbsp;<b>顏色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
@@ -38,7 +38,7 @@ sidebar:
 |<nobr>├&nbsp;投擲陰影</nobr>| [OFF] | 
 |<nobr>├&nbsp;軌跡</nobr>| [0] (0 ~ 2) | 
 |<nobr>└&nbsp;預設</nobr>| **發光** | 發光, 反射, 水晶,  |
-|<nobr>**物理**</nobr>| | 
+|<nobr><b>物理</b></nobr>| | 
 |<nobr>├&nbsp;重力</nobr>| [OFF] | 
 |<nobr>├&nbsp;碰撞</nobr>| [ON] | 
 |<nobr>├&nbsp;質量</nobr>| [0.1] (0 ~ 10) | 

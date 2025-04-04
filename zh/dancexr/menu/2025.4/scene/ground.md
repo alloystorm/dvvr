@@ -18,9 +18,9 @@ sidebar:
 |<nobr>地面</nobr>| [OFF] | 
 |<nobr>半径</nobr>| [200] (2 ~ 100) | 地面网格的大小
 |<nobr>如果有舞台则隐藏</nobr>| [ON] | 当有舞台模型时隐藏地面
-|<nobr>**表面**</nobr>| | 
+|<nobr><b>表面</b></nobr>| | 
 |<nobr>├&nbsp;纹理</nobr>| **[瓷砖]** | [天空贴图], [木材1], [木材2], [瓷砖], [混凝土], [视频],  |
-|<nobr>├&nbsp;**镶嵌**</nobr>| | 
+|<nobr>├&nbsp;<b>镶嵌</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;镶嵌 X</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;镶嵌 Y</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;包裹模式</nobr>| 重复 | 重复, 镜像 U, 镜像 V, 镜像两者, 
@@ -36,7 +36,7 @@ sidebar:
 |<nobr>├&nbsp;环境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;剪切</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**颜色**</nobr>| | 
+|<nobr>├&nbsp;<b>颜色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;饱和度</nobr>| [0] (0 ~ 1) | 
@@ -47,7 +47,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;混合模式</nobr>| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **黑色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
-|<nobr>├&nbsp;**卡通着色器**</nobr>| | 
+|<nobr>├&nbsp;<b>卡通着色器</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;着色</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;轮廓</nobr>| [0.5] (0 ~ 1) | 
@@ -60,12 +60,12 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;阴影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;柔和阴影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
-|<nobr>├&nbsp;**特效着色器**</nobr>| | 
+|<nobr>├&nbsp;<b>特效着色器</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;模式</nobr>| **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;厚度</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;观察者高度</nobr>| [1.5] (0.5 ~ 3) | 投影到地面时使用的观察者高度
-|<nobr>├&nbsp;**LED 模式**</nobr>| | 
+|<nobr>├&nbsp;<b>LED 模式</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;密度</nobr>| [7] (4 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;大小</nobr>| [0.8] (0 ~ 1) | 
@@ -74,8 +74,8 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;边缘</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;减少摩尔纹</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>└&nbsp;预设</nobr>| **黑色光泽** | 天空贴图, 木材, 混凝土, 蓝色瓷砖, 投影仪屏幕, 自发光屏幕, LED 屏幕, 黑色光泽, 发光, 玻璃,  |
-|<nobr>**仅影子**</nobr>| | 
-|<nobr>├&nbsp;阴影颜色</nobr>|| 
+|<nobr><b>仅影子</b></nobr>| | 
+|<nobr>├&nbsp;<b>阴影颜色</b></nobr>|| 
 |<nobr>├&nbsp;预设</nobr>| **黑色** | 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange), (Preset 1),  |
 |<nobr>├&nbsp;颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
@@ -89,7 +89,7 @@ sidebar:
 |<nobr>预设</nobr>| **关闭** | 关闭, 跑道, 水池, 房间, 背景板, 投影仪屏幕, LED 屏幕,  |
 |<nobr>提升</nobr>| [0.5] (-2 ~ 2) | 上下提升舞台
 |<nobr>(Front / Back Offset)</nobr>| [0] (-10 ~ 10) | 
-|<nobr>**形状**</nobr>| | 
+|<nobr><b>形状</b></nobr>| | 
 |<nobr>├&nbsp;中心宽度</nobr>| [8] (0 ~ 10) | 中心区域的宽度
 |<nobr>├&nbsp;中心深度</nobr>| [5] (0 ~ 9) | 中心区域的深度
 |<nobr>├&nbsp;后高</nobr>| [0] (0 ~ 9) | 背景板的高度
@@ -100,9 +100,9 @@ sidebar:
 |<nobr>├&nbsp;墙厚</nobr>| [0.1] (0 ~ 1) | 边缘的大小
 |<nobr>├&nbsp;窗户</nobr>| [0] (0 ~ 1) | 
 |<nobr>└&nbsp;漂浮</nobr>| [OFF] | 
-|<nobr>**表面**</nobr>| | 
+|<nobr><b>表面</b></nobr>| | 
 |<nobr>├&nbsp;纹理</nobr>| **[木材1]** | [空白], [木材1], [木材2], [瓷砖], [混凝土], [视频],  |
-|<nobr>├&nbsp;**镶嵌**</nobr>| | 
+|<nobr>├&nbsp;<b>镶嵌</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;镶嵌 X</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;镶嵌 Y</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;包裹模式</nobr>| 重复 | 重复, 镜像 U, 镜像 V, 镜像两者, 
@@ -118,7 +118,7 @@ sidebar:
 |<nobr>├&nbsp;环境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;剪切</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**颜色**</nobr>| | 
+|<nobr>├&nbsp;<b>颜色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;饱和度</nobr>| [0] (0 ~ 1) | 
@@ -129,7 +129,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;混合模式</nobr>| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
-|<nobr>├&nbsp;**卡通着色器**</nobr>| | 
+|<nobr>├&nbsp;<b>卡通着色器</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;着色</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;轮廓</nobr>| [0.5] (0 ~ 1) | 
@@ -142,11 +142,11 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;阴影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;柔和阴影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
-|<nobr>├&nbsp;**特效着色器**</nobr>| | 
+|<nobr>├&nbsp;<b>特效着色器</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;模式</nobr>| **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;厚度</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;**LED 模式**</nobr>| | 
+|<nobr>├&nbsp;<b>LED 模式</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;密度</nobr>| [7] (4 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;大小</nobr>| [0.8] (0 ~ 1) | 
@@ -155,9 +155,9 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;边缘</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;减少摩尔纹</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>└&nbsp;预设</nobr>| **木材** | 空白, 木材, 混凝土, 蓝色瓷砖, 投影仪屏幕, 自发光屏幕, LED 屏幕, 黑色光泽, 发光, 玻璃,  |
-|<nobr>**后表面**</nobr>| | 
+|<nobr><b>后表面</b></nobr>| | 
 |<nobr>├&nbsp;纹理</nobr>| **[空白]** | [空白], [木材1], [木材2], [瓷砖], [混凝土], [视频],  |
-|<nobr>├&nbsp;**镶嵌**</nobr>| | 
+|<nobr>├&nbsp;<b>镶嵌</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;镶嵌 X</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;镶嵌 Y</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;包裹模式</nobr>| 重复 | 重复, 镜像 U, 镜像 V, 镜像两者, 
@@ -173,7 +173,7 @@ sidebar:
 |<nobr>├&nbsp;环境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;剪切</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**颜色**</nobr>| | 
+|<nobr>├&nbsp;<b>颜色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;饱和度</nobr>| [0] (0 ~ 1) | 
@@ -184,7 +184,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;混合模式</nobr>| **原始模型** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
-|<nobr>├&nbsp;**卡通着色器**</nobr>| | 
+|<nobr>├&nbsp;<b>卡通着色器</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;着色</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;轮廓</nobr>| [0.5] (0 ~ 1) | 
@@ -197,11 +197,11 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;阴影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;柔和阴影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
-|<nobr>├&nbsp;**特效着色器**</nobr>| | 
+|<nobr>├&nbsp;<b>特效着色器</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;模式</nobr>| **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;厚度</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;**LED 模式**</nobr>| | 
+|<nobr>├&nbsp;<b>LED 模式</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;密度</nobr>| [7] (4 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;大小</nobr>| [0.8] (0 ~ 1) | 

@@ -19,5 +19,3 @@ sidebar:
 | [Lifelike Motions](lifelike_motions) |
 | [Troubleshooting](troubleshooting) |
 | [Water Interaction](water_interaction) |
-| [Visualize Bones](visualize_bones) |
-| [Motion Passes](motion_passes) |

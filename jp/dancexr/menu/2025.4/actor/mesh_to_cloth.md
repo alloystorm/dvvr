@@ -16,7 +16,7 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr>一つに結合</nobr>| [OFF] | 
 |<nobr>徐々に有効化</nobr>| [2] (0 ~ 5) | 
-|<nobr>**粒子特性**</nobr>| | 
+|<nobr><b>粒子特性</b></nobr>| | 
 |<nobr>├&nbsp;粒子半径</nobr>| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
 |<nobr>├&nbsp;粘着性</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;重力</nobr>| [9.8] (-9.8 ~ 9.8) | 
@@ -25,12 +25,12 @@ sidebar:
 |<nobr>├&nbsp;空気の抗力</nobr>| [0] (0 ~ 2) | 空気抵抗
 |<nobr>├&nbsp;水中の抗力</nobr>| [1] (0 ~ 2) | 水中抵抗
 |<nobr>├&nbsp;浮力</nobr>| [-0.1] (-1 ~ 1) | 
-|<nobr>├&nbsp;**風**</nobr>| | 
+|<nobr>├&nbsp;<b>風</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;風の影響</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;乱流スケール</nobr>| [0] (-2 ~ 2) | 
 |<nobr>│&nbsp;├&nbsp;乱流強度</nobr>| [1] (0 ~ 2) | 
 |<nobr>│&nbsp;└&nbsp;乱流時間スケール</nobr>| [0] (-4 ~ 4) | 
-|<nobr>├&nbsp;**衝突する**</nobr>| | 
+|<nobr>├&nbsp;<b>衝突する</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;頭</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;体</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;胸部</nobr>| [ON] | 
@@ -52,7 +52,7 @@ sidebar:
 |<nobr>├&nbsp;引き裂きを有効にする</nobr>| [OFF] | 
 |<nobr>├&nbsp;引き裂き閾値</nobr>| [2] (1 ~ 10) | 
 |<nobr>└&nbsp;引き裂き速度の制限</nobr>| [0] (0 ~ 25) | 引き裂き後のクールダウン間隔（フレーム単位）
-|<nobr>**シミュレーション設定**</nobr>| | 
+|<nobr><b>シミュレーション設定</b></nobr>| | 
 |<nobr>├&nbsp;グローバルを使用</nobr>| [ON] | Pro / Cloth Simulationの下にあるグローバル設定を見つける
 |<nobr>├&nbsp;ドラッグを有効にする</nobr>| [ON] | 
 |<nobr>├&nbsp;スケールをリセット</nobr>| [1] (1 ~ 5) | フィッティングを助けるためにリセット中に布のスケールを大きくする

@@ -31,7 +31,7 @@ sidebar:
 |<nobr>크기</nobr>| [1] (0 ~ 2) | 
 |<nobr>shift</nobr>| [0] (-1 ~ 1) | 
 |<nobr>타겟 중심</nobr>| [0] (-1 ~ 1) | 
-|<nobr>오프셋</nobr>|| 
+|<nobr><b>오프셋</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>(Z)</nobr>| [0] (-2 ~ 2) | 

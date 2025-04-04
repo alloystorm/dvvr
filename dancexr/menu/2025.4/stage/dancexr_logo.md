@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr>Enable</nobr>| [ON] | 
-|<nobr>**Logo Surface 1**</nobr>| | 
+|<nobr><b>Logo Surface 1</b></nobr>| | 
 |<nobr>├&nbsp;Gloss</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├&nbsp;Metallic</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;Bump</nobr>| [0.2] (0 ~ 1) | 
@@ -23,7 +23,7 @@ sidebar:
 |<nobr>├&nbsp;Ambient</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Alpha</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Clip</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**Color**</nobr>| | 
+|<nobr>├&nbsp;<b>Color</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>│&nbsp;├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
@@ -34,7 +34,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;Blend Mode</nobr>| **Blend** | Original, Multiply, Blend, Color Shift,  |
 |<nobr>│&nbsp;├&nbsp;Blend</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;Presets</nobr>| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-|<nobr>├&nbsp;**Toon Shader**</nobr>| | 
+|<nobr>├&nbsp;<b>Toon Shader</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Enable</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;Shading</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Outline</nobr>| [0.5] (0 ~ 1) | 
@@ -47,12 +47,12 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;Shadow</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Soft Shadow</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;Presets</nobr>| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-|<nobr>├&nbsp;**Special Shader**</nobr>| | 
+|<nobr>├&nbsp;<b>Special Shader</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Mode</nobr>| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 |<nobr>│&nbsp;├&nbsp;Refraction</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;Thickness</nobr>| [1] (0 ~ 1) | 
 |<nobr>└&nbsp;Presets</nobr>| **White Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
-|<nobr>**Logo Surface 2**</nobr>| | 
+|<nobr><b>Logo Surface 2</b></nobr>| | 
 |<nobr>├&nbsp;Gloss</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├&nbsp;Metallic</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;Bump</nobr>| [0.2] (0 ~ 1) | 
@@ -60,7 +60,7 @@ sidebar:
 |<nobr>├&nbsp;Ambient</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Alpha</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Clip</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**Color**</nobr>| | 
+|<nobr>├&nbsp;<b>Color</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>│&nbsp;├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
@@ -71,7 +71,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;Blend Mode</nobr>| **Blend** | Original, Multiply, Blend, Color Shift,  |
 |<nobr>│&nbsp;├&nbsp;Blend</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;Presets</nobr>| **Red** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-|<nobr>├&nbsp;**Toon Shader**</nobr>| | 
+|<nobr>├&nbsp;<b>Toon Shader</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Enable</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;Shading</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Outline</nobr>| [0.5] (0 ~ 1) | 
@@ -84,13 +84,13 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;Shadow</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Soft Shadow</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;Presets</nobr>| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-|<nobr>├&nbsp;**Special Shader**</nobr>| | 
+|<nobr>├&nbsp;<b>Special Shader</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Mode</nobr>| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 |<nobr>│&nbsp;├&nbsp;Refraction</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;Thickness</nobr>| [1] (0 ~ 1) | 
 |<nobr>└&nbsp;Presets</nobr>| **Red Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
 |<nobr>Diamond</nobr>| [ON] | 
-|<nobr>**Diamond Surface**</nobr>| | 
+|<nobr><b>Diamond Surface</b></nobr>| | 
 |<nobr>├&nbsp;Gloss</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├&nbsp;Metallic</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Bump</nobr>| [0.2] (0 ~ 1) | 
@@ -98,7 +98,7 @@ sidebar:
 |<nobr>├&nbsp;Ambient</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Alpha</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Clip</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**Color**</nobr>| | 
+|<nobr>├&nbsp;<b>Color</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>│&nbsp;├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
@@ -109,7 +109,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;Blend Mode</nobr>| **Blend** | Original, Multiply, Blend, Color Shift,  |
 |<nobr>│&nbsp;├&nbsp;Blend</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;Presets</nobr>| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-|<nobr>├&nbsp;**Toon Shader**</nobr>| | 
+|<nobr>├&nbsp;<b>Toon Shader</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Enable</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;Shading</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Outline</nobr>| [0.5] (0 ~ 1) | 
@@ -122,7 +122,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;Shadow</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Soft Shadow</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;Presets</nobr>| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-|<nobr>├&nbsp;**Special Shader**</nobr>| | 
+|<nobr>├&nbsp;<b>Special Shader</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Mode</nobr>| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 |<nobr>│&nbsp;├&nbsp;Refraction</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;Thickness</nobr>| [1] (0 ~ 1) | 

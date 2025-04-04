@@ -17,7 +17,7 @@ sidebar:
 |<nobr>Enable</nobr>| [ON] | 
 |<nobr>Select Bones</nobr>|| Select bones
 |<nobr>Skip First X Bones</nobr>| [0] (0 ~ 5) | Do not create physics connection for the first x number of levels
-|<nobr>**Particle Dynamics**</nobr>| | 
+|<nobr><b>Particle Dynamics</b></nobr>| | 
 |<nobr>├&nbsp;Enable</nobr>| [ON] | 
 |<nobr>├&nbsp;Swing Compliance</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>├&nbsp;Twist Compliance</nobr>| [0.75] (0 ~ 1) | 
@@ -34,12 +34,12 @@ sidebar:
 |<nobr>├&nbsp;Drag (Air)</nobr>| [0] (0 ~ 2) | Air resistancy
 |<nobr>├&nbsp;Drag (Underwater)</nobr>| [1] (0 ~ 2) | Underwater resistancy
 |<nobr>├&nbsp;Buoyancy</nobr>| [-0.1] (-1 ~ 1) | 
-|<nobr>├&nbsp;**Wind**</nobr>| | 
+|<nobr>├&nbsp;<b>Wind</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Wind Influence</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Turbulence Scale</nobr>| [0] (-2 ~ 2) | 
 |<nobr>│&nbsp;├&nbsp;Turbulence Intensity</nobr>| [1] (0 ~ 2) | 
 |<nobr>│&nbsp;└&nbsp;Turbulence Time Scale</nobr>| [0] (-4 ~ 4) | 
-|<nobr>├&nbsp;**Collide With**</nobr>| | 
+|<nobr>├&nbsp;<b>Collide With</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Head</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;Body</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;Boobs</nobr>| [ON] | 
@@ -49,7 +49,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;Legs</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;Feet</nobr>| [ON] | 
 |<nobr>│&nbsp;└&nbsp;Player</nobr>| [ON] | 
-|<nobr>└&nbsp;**Simulation Settings**</nobr>| | 
+|<nobr>└&nbsp;<b>Simulation Settings</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;Use Global</nobr>| [ON] | Find the global settings under Pro / Cloth Simulation
 |<nobr>&nbsp;&nbsp;├&nbsp;Enable Dragging</nobr>| [ON] | 
 |<nobr>&nbsp;&nbsp;├&nbsp;Simulate</nobr>| [ON] | 

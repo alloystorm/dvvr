@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr>[프리플라이 카메라]</nobr>|| 
-|<nobr>└&nbsp;**[프리플라이 카메라]**</nobr>| | 
+|<nobr>└&nbsp;<b>[프리플라이 카메라]</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;타겟 선택</nobr>| **자동** | 자동, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;트래킹 모드</nobr>| **센터** | 센터, 머리, 가슴,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;타겟 부드럽게 만들기</nobr>| [0.5] (0 ~ 2) | 
@@ -32,7 +32,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;궤도 이동 사용</nobr>| [OFF] | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
 |<nobr>&nbsp;&nbsp;└&nbsp;프리셋</nobr>| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
 |<nobr>[오르빗 카메라]</nobr>|| 
-|<nobr>└&nbsp;**[오르빗 카메라]**</nobr>| | 
+|<nobr>└&nbsp;<b>[오르빗 카메라]</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;타겟 선택</nobr>| **자동** | 자동, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;트래킹 모드</nobr>| **센터** | 센터, 머리, 가슴,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;타겟 부드럽게 만들기</nobr>| [0.5] (0 ~ 2) | 
@@ -57,7 +57,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;속도</nobr>| [10] (0 ~ 90) | 
 |<nobr>&nbsp;&nbsp;└&nbsp;프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (Preset 1),  |
 |<nobr>[오토 캠]</nobr>|| 
-|<nobr>└&nbsp;**[오토 캠]**</nobr>| | 
+|<nobr>└&nbsp;<b>[오토 캠]</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;타겟 선택</nobr>| **자동** | 자동, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;트래킹 모드</nobr>| **센터** | 센터, 머리, 가슴,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;타겟 부드럽게 만들기</nobr>| [0.5] (0 ~ 2) | 
@@ -71,22 +71,22 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;검은색으로 페이드</nobr>| [0] (0 ~ 0.25) | (Duration of the fade-to-black effect during transitions.)
 |<nobr>&nbsp;&nbsp;├&nbsp;F2B 확률</nobr>| [0.5] (0 ~ 1) | (Probability of triggering the fade-to-black effect.)
 |<nobr>&nbsp;&nbsp;├&nbsp;오디오 민감도</nobr>| [1] (0 ~ 4) | (Sensitivity of the camera motion to audio levels.)
-|<nobr>&nbsp;&nbsp;├&nbsp;대상 선택</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>대상 선택</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;머리</nobr>| [1] (0 ~ 1) | (Probability of targeting the actor's head.)
 |<nobr>&nbsp;&nbsp;├&nbsp;가슴</nobr>| [1] (0 ~ 1) | (Probability of targeting the actor's chest.)
 |<nobr>&nbsp;&nbsp;├&nbsp;센터</nobr>| [1] (0 ~ 1) | (Probability of targeting the actor's center.)
 |<nobr>&nbsp;&nbsp;├&nbsp;다리</nobr>| [0.5] (0 ~ 1) | (Probability of targeting the actor's legs.)
 |<nobr>&nbsp;&nbsp;├&nbsp;발</nobr>| [0] (0 ~ 1) | (Probability of targeting the actor's feet.)
-|<nobr>&nbsp;&nbsp;├&nbsp;거리 선택</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>거리 선택</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;클로즈 업</nobr>| [1] (0 ~ 1) | (Probability of a close-up camera distance.)
 |<nobr>&nbsp;&nbsp;├&nbsp;줌 인</nobr>| [0.25] (0 ~ 1) | (Probability of zooming in.)
 |<nobr>&nbsp;&nbsp;├&nbsp;줌 아웃</nobr>| [0.25] (0 ~ 1) | (Probability of zooming out.)
 |<nobr>&nbsp;&nbsp;├&nbsp;중간</nobr>| [0.25] (0 ~ 1) | (Probability of a middle-range camera distance.)
 |<nobr>&nbsp;&nbsp;├&nbsp;멀리</nobr>| [0.25] (0 ~ 1) | (Probability of a far camera distance.)
-|<nobr>&nbsp;&nbsp;├&nbsp;경로 선택</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>경로 선택</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;높은 각도</nobr>| [20] (0 ~ 30) | (Maximum upward angle for the camera.)
 |<nobr>&nbsp;&nbsp;├&nbsp;낮은 각도</nobr>| [-20] (-30 ~ 0) | (Maximum downward angle for the camera.)
-|<nobr>&nbsp;&nbsp;├&nbsp;방향</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>방향</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;앞 중앙</nobr>| [1] (0 ~ 1) | (Probability of orienting the camera to the front center of the actor.)
 |<nobr>&nbsp;&nbsp;├&nbsp;앞 45도</nobr>| [0] (0 ~ 1) | (Probability of orienting the camera to a 45-degree angle in front of the actor.)
 |<nobr>&nbsp;&nbsp;├&nbsp;측면 90도</nobr>| [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
@@ -94,7 +94,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;뒤 180도</nobr>| [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
 |<nobr>&nbsp;&nbsp;└&nbsp;프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (Preset 1),  |
 |<nobr>[롱 테이크]</nobr>|| 
-|<nobr>└&nbsp;**[롱 테이크]**</nobr>| | 
+|<nobr>└&nbsp;<b>[롱 테이크]</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;타겟 선택</nobr>| **자동** | 자동, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;트래킹 모드</nobr>| **센터** | 센터, 머리, 가슴,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;타겟 부드럽게 만들기</nobr>| [0.5] (0 ~ 2) | 
@@ -110,7 +110,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;가까이 있을 때 초점 올리기</nobr>| [OFF] | 거리 감소 시 초점 위치 위로 이동
 |<nobr>&nbsp;&nbsp;└&nbsp;프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr>[1인칭]</nobr>|| 
-|<nobr>└&nbsp;**[1인칭]**</nobr>| | 
+|<nobr>└&nbsp;<b>[1인칭]</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;배우 선택</nobr>|  |  |
 |<nobr>&nbsp;&nbsp;├&nbsp;시야</nobr>| [45] (30 ~ 100) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;근접 클립 거리</nobr>| [0.15] (0 ~ 0.3) | 
@@ -122,7 +122,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;자동 복귀 비활성화</nobr>| [OFF] | 
 |<nobr>&nbsp;&nbsp;└&nbsp;재중심화</nobr>|| 
 |<nobr>[고정 카메라]</nobr>|| 
-|<nobr>└&nbsp;**[고정 카메라]**</nobr>| | 
+|<nobr>└&nbsp;<b>[고정 카메라]</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;타겟 선택</nobr>| **자동** | 자동, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;트래킹 모드</nobr>| **센터** | 센터, 머리, 가슴,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;타겟 부드럽게 만들기</nobr>| [0.5] (0 ~ 2) | 
@@ -139,10 +139,10 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;크기</nobr>| [1] (0 ~ 2) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;shift</nobr>| [0] (-1 ~ 1) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;타겟 중심</nobr>| [0] (-1 ~ 1) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;오프셋</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>오프셋</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;(Z)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>&nbsp;&nbsp;└&nbsp;프리셋</nobr>| **멀리** | 근접, 멀리,  |
-|<nobr>설정</nobr>|| 
+|<nobr><b>설정</b></nobr>|| 
 | [카메라 설정](config_camera) |

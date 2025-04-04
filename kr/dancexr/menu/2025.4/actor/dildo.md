@@ -16,32 +16,32 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr>딜도</nobr>| [OFF] | 
 |<nobr>모델</nobr>| **[기둥]** | [기둥],  |
-|<nobr>**앵커 오프셋**</nobr>| | Set the anchor position for the attachment to attach to
-|<nobr>├&nbsp;위치</nobr>|| 
+|<nobr><b>앵커 오프셋</b></nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>├&nbsp;<b>위치</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;회전</nobr>|| 
+|<nobr>├&nbsp;<b>회전</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>크기 및 정렬</nobr>|| 
+|<nobr><b>크기 및 정렬</b></nobr>|| 
 |<nobr>객체 반경</nobr>| [0.02] (0.01 ~ 0.05) | 
 |<nobr>객체 길이</nobr>| [0.2] (0 ~ 5) | 
 |<nobr>스케일</nobr>| [0] (-5 ~ 5) | 
 |<nobr>방향</nobr>| (Y Up) | (Y Up), (Y Down), (X Up), (X Down), (Z Up), (Z Down), 
-|<nobr>오프셋</nobr>|| 
+|<nobr><b>오프셋</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>(Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr>회전</nobr>|| 
+|<nobr><b>회전</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>(Z)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>기타 모드</nobr>| [OFF] | 
-|<nobr>**모션**</nobr>| | Apply up / down motion to the attachment model
+|<nobr><b>모션</b></nobr>| | Apply up / down motion to the attachment model
 |<nobr>├&nbsp;활성화</nobr>| [OFF] | 
-|<nobr>├&nbsp;**속도**</nobr>| | 
+|<nobr>├&nbsp;<b>속도</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;그룹당 움직임</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;├&nbsp;주기</nobr>| [0] (0 ~ 1) | 
@@ -53,7 +53,7 @@ sidebar:
 |<nobr>├&nbsp;거리</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>└&nbsp;각도</nobr>| [0] (-60 ~ 60) | 
 |<nobr>애니메이션</nobr>| **없음** | 없음, <br/>부착 모델에 사용할 로드된 모션 선택 |
-|<nobr>**표면**</nobr>| | 
+|<nobr><b>표면</b></nobr>| | 
 |<nobr>├&nbsp;광택</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├&nbsp;금속성</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;범프</nobr>| [0.2] (0 ~ 1) | 
@@ -61,7 +61,7 @@ sidebar:
 |<nobr>├&nbsp;앰비언트</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;알파</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;클립</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**색상**</nobr>| | 
+|<nobr>├&nbsp;<b>색상</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;채도</nobr>| [0] (0 ~ 1) | 
@@ -72,7 +72,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;혼합 모드</nobr>| **혼합** | 원본, (Multiply), 혼합, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;혼합</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;프리셋</nobr>| **흰색** | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |
-|<nobr>├&nbsp;**툰 셰이더**</nobr>| | 
+|<nobr>├&nbsp;<b>툰 셰이더</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;활성화</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;쉐이딩</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;윤곽선</nobr>| [0.5] (0 ~ 1) | 
@@ -85,7 +85,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;그림자</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;부드러운 그림자</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;프리셋</nobr>| **선명한** | 선명한, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |
-|<nobr>├&nbsp;**특수 셰이더**</nobr>| | 
+|<nobr>├&nbsp;<b>특수 셰이더</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;모드</nobr>| **끄기** | 끄기, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;굴절</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;두께</nobr>| [1] (0 ~ 1) | 

@@ -23,7 +23,7 @@ sidebar:
 |<nobr>Direction</nobr>| [0] (-180 ~ 180) | 
 |<nobr>Height</nobr>| [0] (0 ~ 8) | 
 |<nobr>Angle</nobr>| [45] (0 ~ 90) | 
-|<nobr>**Color**</nobr>| | 
+|<nobr><b>Color</b></nobr>| | 
 |<nobr>├&nbsp;Color Mode</nobr>| HSV | RGB, HSV, 
 |<nobr>├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;Satuation</nobr>| [1] (0 ~ 1) | 
@@ -36,17 +36,17 @@ sidebar:
 |<nobr>├&nbsp;Edge Level</nobr>| [2] (0 ~ 5) | 
 |<nobr>├&nbsp;Hit Level</nobr>| [2] (0 ~ 5) | 
 |<nobr>└&nbsp;Presets</nobr>| **Animated Hue** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
-|<nobr>**Motion**</nobr>| | 
+|<nobr><b>Motion</b></nobr>| | 
 |<nobr>├&nbsp;Moves Per Group</nobr>| [1] (1 ~ 32) | 
 |<nobr>├&nbsp;Speed</nobr>| [0] (-3 ~ 3) | 
 |<nobr>├&nbsp;Transition</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Extent</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;**Damping**</nobr>| | 
+|<nobr>├&nbsp;<b>Damping</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Orientation</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Horizontal</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;Vertical</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>├&nbsp;Mode</nobr>| **Random** | Random, Random Preset, Manual,  |
-|<nobr>├&nbsp;**Motion X**</nobr>| | 
+|<nobr>├&nbsp;<b>Motion X</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Override</nobr>| [0] (-1 ~ 1) | Override generated movement with this value
 |<nobr>│&nbsp;├&nbsp;Speed Multiplier</nobr>| [-1] (-3 ~ 3) | 
 |<nobr>│&nbsp;├&nbsp;Phase</nobr>| [0.25] (0 ~ 1) | Starting position in the cycle
@@ -54,7 +54,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;Direction</nobr>| [1] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Scale</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;Center</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;**Motion Z**</nobr>| | 
+|<nobr>├&nbsp;<b>Motion Z</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Override</nobr>| [0] (-1 ~ 1) | Override generated movement with this value
 |<nobr>│&nbsp;├&nbsp;Speed Multiplier</nobr>| [-1] (-3 ~ 3) | 
 |<nobr>│&nbsp;├&nbsp;Phase</nobr>| [0.25] (0 ~ 1) | Starting position in the cycle

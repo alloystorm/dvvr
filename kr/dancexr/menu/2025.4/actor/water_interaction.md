@@ -19,7 +19,7 @@ sidebar:
 |<nobr>몸체</nobr>| [1] (0.1 ~ 2) | 
 |<nobr>손</nobr>| [0.5] (0.1 ~ 2) | 
 |<nobr>발</nobr>| [0.5] (0.1 ~ 2) | 
-|<nobr>물방울</nobr>|| 
+|<nobr><b>물방울</b></nobr>|| 
 |<nobr>땀방울</nobr>| [0] (0 ~ 1) | 
 |<nobr>물방울 광채</nobr>| [5] (0 ~ 20) | 
 |<nobr>물방울 중력</nobr>| [3] (0 ~ 10) | 

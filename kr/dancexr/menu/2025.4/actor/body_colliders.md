@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/actor/body_colliders) | [繁中](/tw/dancexr/menu/2025.4/actor/body_colliders) | [日本語](/jp/dancexr/menu/2025.4/actor/body_colliders) | [한국어](/kr/dancexr/menu/2025.4/actor/body_colliders) | [简中](/zh/dancexr/menu/2025.4/actor/body_colliders)
 
-[액터](../menu#액터) > 신체 콜라이더
+[물리](../menu#물리) > 신체 콜라이더
 
 
 
@@ -23,7 +23,7 @@ sidebar:
 |<nobr>허리 너비</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>엉덩이 너비</nobr>| [0] (-1 ~ 1) | 
 |<nobr>엉덩이 반경</nobr>| [1] (0 ~ 2) | 
-|<nobr>엉덩이 위치</nobr>|| 
+|<nobr><b>엉덩이 위치</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr>(Y)</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr>(Z)</nobr>| [0] (-0.1 ~ 0.1) | 

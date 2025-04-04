@@ -17,7 +17,7 @@ sidebar:
 |<nobr>有効にする</nobr>| [ON] | 
 |<nobr>ボーンを選択</nobr>|| ボーンを選択
 |<nobr>最初のXボーンをスキップ</nobr>| [0] (0 ~ 5) | 最初のXレベルには物理接続を作成しない
-|<nobr>**パーティクルダイナミクス**</nobr>| | 
+|<nobr><b>パーティクルダイナミクス</b></nobr>| | 
 |<nobr>├&nbsp;有効にする</nobr>| [ON] | 
 |<nobr>├&nbsp;スイングコンプライアンス</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>├&nbsp;ツイストコンプライアンス</nobr>| [0.75] (0 ~ 1) | 
@@ -34,12 +34,12 @@ sidebar:
 |<nobr>├&nbsp;空気の抗力</nobr>| [0] (0 ~ 2) | 空気抵抗
 |<nobr>├&nbsp;水中の抗力</nobr>| [1] (0 ~ 2) | 水中抵抗
 |<nobr>├&nbsp;浮力</nobr>| [-0.1] (-1 ~ 1) | 
-|<nobr>├&nbsp;**風**</nobr>| | 
+|<nobr>├&nbsp;<b>風</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;風の影響</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;乱流スケール</nobr>| [0] (-2 ~ 2) | 
 |<nobr>│&nbsp;├&nbsp;乱流強度</nobr>| [1] (0 ~ 2) | 
 |<nobr>│&nbsp;└&nbsp;乱流時間スケール</nobr>| [0] (-4 ~ 4) | 
-|<nobr>├&nbsp;**衝突する**</nobr>| | 
+|<nobr>├&nbsp;<b>衝突する</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;頭</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;体</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;胸部</nobr>| [ON] | 
@@ -49,7 +49,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;脚</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;足</nobr>| [ON] | 
 |<nobr>│&nbsp;└&nbsp;プレイヤー</nobr>| [ON] | 
-|<nobr>└&nbsp;**シミュレーション設定**</nobr>| | 
+|<nobr>└&nbsp;<b>シミュレーション設定</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;グローバルを使用</nobr>| [ON] | Pro / Cloth Simulationの下にあるグローバル設定を見つける
 |<nobr>&nbsp;&nbsp;├&nbsp;ドラッグを有効にする</nobr>| [ON] | 
 |<nobr>&nbsp;&nbsp;├&nbsp;シミュレート</nobr>| [ON] | 

@@ -19,7 +19,7 @@ sidebar:
 |<nobr>Assign To All as 2nd</nobr>|| 
 |<nobr>Assign To Selected as 2nd</nobr>|| 
 |<nobr>Extent</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>**Speed**</nobr>| | 
+|<nobr><b>Speed</b></nobr>| | 
 |<nobr>├&nbsp;Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 |<nobr>├&nbsp;Moves Per Group</nobr>| [8] (4 ~ 32) | 
 |<nobr>├&nbsp;Phase</nobr>| [0] (0 ~ 1) | 

@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>**阳光**</nobr>| | Settings for the sunlight. Keep in mind that sunlight is very bright and will require a higher exposure value.
+|<nobr><b>阳光</b></nobr>| | Settings for the sunlight. Keep in mind that sunlight is very bright and will require a higher exposure value.
 |<nobr>├&nbsp;启用</nobr>| [ON] | 
 |<nobr>├&nbsp;黄道角</nobr>| [0] (-90 ~ 90) | 地平线与太阳运动平面之间的角度。
 |<nobr>├&nbsp;方向</nobr>| [0] (-180 ~ 180) | 
@@ -24,7 +24,7 @@ sidebar:
 |<nobr>├&nbsp;聚光半径</nobr>| [0.1] (0 ~ 1) | 这影响程序化天空中太阳光盘的大小和阴影的柔和度。
 |<nobr>├&nbsp;体积乘数</nobr>| [1] (0 ~ 16) | 
 |<nobr>├&nbsp;星星</nobr>| [1] (0 ~ 8) | 在夜间使用程序化天空时，设置星星的强度。
-|<nobr>├&nbsp;**窗户**</nobr>| | 
+|<nobr>├&nbsp;<b>窗户</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;宽度</nobr>| [8] (0 ~ 16) | 启用Cookie贴图时窗口的宽度。
 |<nobr>│&nbsp;├&nbsp;高度</nobr>| [2] (0 ~ 16) | 启用Cookie贴图时窗口的高度。
@@ -35,7 +35,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;圆形</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;间距</nobr>| [0.05] (0 ~ 0.5) | 
 |<nobr>│&nbsp;└&nbsp;发光</nobr>| [0.25] (0 ~ 1) | 
-|<nobr>├&nbsp;**阴影**</nobr>| | Shadow settings.
+|<nobr>├&nbsp;<b>阴影</b></nobr>| | Shadow settings.
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;模式</nobr>| 使用全局设置 | 使用全局设置, 阴影图, 屏幕空间, 光线追踪（如可用）, 
 |<nobr>│&nbsp;├&nbsp;接触阴影</nobr>| [OFF] | 为小细节启用阴影。
@@ -44,11 +44,11 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;去噪半径</nobr>| [8] (1 ~ 32) | 
 |<nobr>│&nbsp;└&nbsp;阴影调节</nobr>| [1] (0 ~ 1) | 减少阴影的强度。
 |<nobr>└&nbsp;镜头光晕</nobr>| [ON] | 启用镜头光晕
-|<nobr>**附加 1**</nobr>| | Configure light group 1
+|<nobr><b>附加 1</b></nobr>| | Configure light group 1
 |<nobr>├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>├&nbsp;体积乘数</nobr>| [1] (0 ~ 16) | 
 |<nobr>├&nbsp;类型</nobr>| **聚光灯** | 聚光灯, 点光源, 区域灯, 金字塔, 箱子,  |
-|<nobr>├&nbsp;**颜色**</nobr>| | 
+|<nobr>├&nbsp;<b>颜色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;饱和度</nobr>| [0] (0 ~ 1) | 
@@ -79,14 +79,14 @@ sidebar:
 |<nobr>├&nbsp;使用演员位置</nobr>| [OFF] | 在定位灯光时使用演员的位置和朝向。
 |<nobr>├&nbsp;目标高度</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;镜头光晕</nobr>| [OFF] | 
-|<nobr>├&nbsp;**重复**</nobr>| | 
+|<nobr>├&nbsp;<b>重复</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;数量</nobr>| [1] (1 ~ 8) | 阵列中的灯光数量。
 |<nobr>│&nbsp;├&nbsp;编队</nobr>| 网格 | 圆形, 网格, <br/>使用网格或圆形排列。
 |<nobr>│&nbsp;├&nbsp;距离 / 半径</nobr>| [7] (0 ~ 20) | 网格模式下灯光之间的距离。
 |<nobr>│&nbsp;├&nbsp;范围</nobr>| [360] (0 ~ 360) | 圆形模式下灯光的角度。
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **关闭** | 关闭, (3x3 Grid), (2x Fan), (4x Fan), (4x Circle), (8x Circle),  |
-|<nobr>├&nbsp;**阴影**</nobr>| | 
+|<nobr>├&nbsp;<b>阴影</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;模式</nobr>| 使用全局设置 | 使用全局设置, 阴影图, 屏幕空间, 光线追踪（如可用）, 
 |<nobr>│&nbsp;├&nbsp;接触阴影</nobr>| [OFF] | 为小细节启用阴影。
@@ -95,11 +95,11 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;去噪半径</nobr>| [8] (1 ~ 32) | 
 |<nobr>│&nbsp;└&nbsp;阴影调节</nobr>| [1] (0 ~ 1) | 减少阴影的强度。
 |<nobr>└&nbsp;预设</nobr>| **聚光灯** | 聚光灯, 点光源, 区域光源, 金字塔投影仪近, 金字塔投影仪远, 箱形投影仪近, 箱形投影仪远, 聚光灯阵列, 悬挂聚光灯, (Preset 1),  |
-|<nobr>**附加 2**</nobr>| | Configure light group 2
+|<nobr><b>附加 2</b></nobr>| | Configure light group 2
 |<nobr>├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>├&nbsp;体积乘数</nobr>| [1] (0 ~ 16) | 
 |<nobr>├&nbsp;类型</nobr>| **聚光灯** | 聚光灯, 点光源, 区域灯, 金字塔, 箱子,  |
-|<nobr>├&nbsp;**颜色**</nobr>| | 
+|<nobr>├&nbsp;<b>颜色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;饱和度</nobr>| [0] (0 ~ 1) | 
@@ -130,14 +130,14 @@ sidebar:
 |<nobr>├&nbsp;使用演员位置</nobr>| [ON] | 在定位灯光时使用演员的位置和朝向。
 |<nobr>├&nbsp;目标高度</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;镜头光晕</nobr>| [OFF] | 
-|<nobr>├&nbsp;**重复**</nobr>| | 
+|<nobr>├&nbsp;<b>重复</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;数量</nobr>| [1] (1 ~ 8) | 阵列中的灯光数量。
 |<nobr>│&nbsp;├&nbsp;编队</nobr>| 网格 | 圆形, 网格, <br/>使用网格或圆形排列。
 |<nobr>│&nbsp;├&nbsp;距离 / 半径</nobr>| [7] (0 ~ 20) | 网格模式下灯光之间的距离。
 |<nobr>│&nbsp;├&nbsp;范围</nobr>| [360] (0 ~ 360) | 圆形模式下灯光的角度。
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **关闭** | 关闭, (3x3 Grid), (2x Fan), (4x Fan), (4x Circle), (8x Circle),  |
-|<nobr>├&nbsp;**阴影**</nobr>| | 
+|<nobr>├&nbsp;<b>阴影</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;模式</nobr>| 使用全局设置 | 使用全局设置, 阴影图, 屏幕空间, 光线追踪（如可用）, 
 |<nobr>│&nbsp;├&nbsp;接触阴影</nobr>| [OFF] | 为小细节启用阴影。
@@ -146,11 +146,11 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;去噪半径</nobr>| [8] (1 ~ 32) | 
 |<nobr>│&nbsp;└&nbsp;阴影调节</nobr>| [1] (0 ~ 1) | 减少阴影的强度。
 |<nobr>└&nbsp;预设</nobr>| **聚光灯** | 聚光灯, 点光源, 区域光源, 金字塔投影仪近, 金字塔投影仪远, 箱形投影仪近, 箱形投影仪远, 聚光灯阵列, 悬挂聚光灯, (Preset 1),  |
-|<nobr>**附加 3**</nobr>| | Configure light group 3
+|<nobr><b>附加 3</b></nobr>| | Configure light group 3
 |<nobr>├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>├&nbsp;体积乘数</nobr>| [1] (0 ~ 16) | 
 |<nobr>├&nbsp;类型</nobr>| **聚光灯** | 聚光灯, 点光源, 区域灯, 金字塔, 箱子,  |
-|<nobr>├&nbsp;**颜色**</nobr>| | 
+|<nobr>├&nbsp;<b>颜色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;饱和度</nobr>| [0] (0 ~ 1) | 
@@ -181,14 +181,14 @@ sidebar:
 |<nobr>├&nbsp;使用演员位置</nobr>| [ON] | 在定位灯光时使用演员的位置和朝向。
 |<nobr>├&nbsp;目标高度</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;镜头光晕</nobr>| [OFF] | 
-|<nobr>├&nbsp;**重复**</nobr>| | 
+|<nobr>├&nbsp;<b>重复</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;数量</nobr>| [1] (1 ~ 8) | 阵列中的灯光数量。
 |<nobr>│&nbsp;├&nbsp;编队</nobr>| 网格 | 圆形, 网格, <br/>使用网格或圆形排列。
 |<nobr>│&nbsp;├&nbsp;距离 / 半径</nobr>| [7] (0 ~ 20) | 网格模式下灯光之间的距离。
 |<nobr>│&nbsp;├&nbsp;范围</nobr>| [360] (0 ~ 360) | 圆形模式下灯光的角度。
 |<nobr>│&nbsp;└&nbsp;预设</nobr>| **关闭** | 关闭, (3x3 Grid), (2x Fan), (4x Fan), (4x Circle), (8x Circle),  |
-|<nobr>├&nbsp;**阴影**</nobr>| | 
+|<nobr>├&nbsp;<b>阴影</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;启用</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;模式</nobr>| 使用全局设置 | 使用全局设置, 阴影图, 屏幕空间, 光线追踪（如可用）, 
 |<nobr>│&nbsp;├&nbsp;接触阴影</nobr>| [OFF] | 为小细节启用阴影。
@@ -199,7 +199,7 @@ sidebar:
 |<nobr>└&nbsp;预设</nobr>| **聚光灯** | 聚光灯, 点光源, 区域光源, 金字塔投影仪近, 金字塔投影仪远, 箱形投影仪近, 箱形投影仪远, 聚光灯阵列, 悬挂聚光灯, (Preset 1),  |
 |<nobr>整体强度</nobr>| [1] (0 ~ 2) | 所有灯光的整体强度。
 |<nobr>天空环境光</nobr>| [1] (0 ~ 14) | 来自天空的环境光强度。
-|<nobr>**自动曝光**</nobr>| | Auto exposure settings.
+|<nobr><b>自动曝光</b></nobr>| | Auto exposure settings.
 |<nobr>├&nbsp;启用</nobr>| [OFF] | 
 |<nobr>├&nbsp;测光模式</nobr>| 平均 | 平均, 点测光, 中心加权, <br/>选择测光模式。
 |<nobr>├&nbsp;补偿</nobr>| (0.00) | (-3.00), (-2.75), (-2.50), (-2.25), (-2.00), (-1.75), (-1.50), (-1.25), (-1.00), (-0.75), (-0.50), (-0.25), (0.00), (0.25), (0.50), (0.75), (1.00), (1.25), (1.50), (1.75), (2.00), (2.25), (2.50), (2.75), (3.00), 
@@ -208,7 +208,7 @@ sidebar:
 |<nobr>雾</nobr>| [0] (0 ~ 1) | 雾水平
 |<nobr>光线限制</nobr>| [8] (0 ~ 16) | 设置场景中可用的最大灯光数量。
 |<nobr>阴影限制</nobr>| [4] (0 ~ 16) | 设置可以投射阴影的最大灯光数量。
-|<nobr>**分配**</nobr>| | 
+|<nobr><b>分配</b></nobr>| | 
 |<nobr>├&nbsp;自动分配</nobr>| 按距离 | 按距离, 按索引（固定）, 
 |<nobr>├&nbsp;刷新间隔</nobr>| [8] (1 ~ 32) | 重新分配灯光的频率。以节拍为单位。
 |<nobr>└&nbsp;手动刷新</nobr>|| 强制重新分配灯光。

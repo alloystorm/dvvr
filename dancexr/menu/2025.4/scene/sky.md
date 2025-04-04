@@ -22,19 +22,19 @@ sidebar:
 |<nobr>Wind</nobr>| [1] (0 ~ 4) | Global wind speed affecting cloth simulation, particle dynamics, and clouds.
 |<nobr>Wind Direction</nobr>| [0] (0 ~ 360) | Sets the global wind direction in degrees.
 |<nobr>Wind Field</nobr>| [OFF] | 
-|<nobr>**Position**</nobr>| | Sets the position of the wind field.
+|<nobr><b>Position</b></nobr>| | Sets the position of the wind field.
 |<nobr>├&nbsp;X</nobr>| [0] (Unlimited) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (Unlimited) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (Unlimited) | 
-|<nobr>**Rotation**</nobr>| | Sets the rotation of the wind field.
+|<nobr><b>Rotation</b></nobr>| | Sets the rotation of the wind field.
 |<nobr>├&nbsp;X</nobr>| [0] (Unlimited) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (Unlimited) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (Unlimited) | 
 |<nobr>Distance</nobr>| [5] (0 ~ 10) | Sets the distance of the wind field.
 |<nobr>Radius</nobr>| [1] (0 ~ 2) | Sets the radius of the wind field.
 |<nobr>Speed</nobr>| [1] (0 ~ 4) | Sets the speed of the wind field.
-|<nobr>Sky Ambient</nobr>|| 
-|<nobr>**Sky Color**</nobr>| | 
+|<nobr><b>Sky Ambient</b></nobr>|| 
+|<nobr><b>Sky Color</b></nobr>| | 
 |<nobr>├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
@@ -45,7 +45,7 @@ sidebar:
 |<nobr>├&nbsp;Use Stage Color</nobr>| [OFF] | Use the color from the stage ring
 |<nobr>├&nbsp;Color Temp</nobr>| [6500] (3000 ~ 8000) | 
 |<nobr>└&nbsp;Presets</nobr>| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
-|<nobr>**Middle Color**</nobr>| | 
+|<nobr><b>Middle Color</b></nobr>| | 
 |<nobr>├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
@@ -56,7 +56,7 @@ sidebar:
 |<nobr>├&nbsp;Use Stage Color</nobr>| [OFF] | Use the color from the stage ring
 |<nobr>├&nbsp;Color Temp</nobr>| [6500] (3000 ~ 8000) | 
 |<nobr>└&nbsp;Presets</nobr>| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
-|<nobr>**Ground Color**</nobr>| | 
+|<nobr><b>Ground Color</b></nobr>| | 
 |<nobr>├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
@@ -67,7 +67,7 @@ sidebar:
 |<nobr>├&nbsp;Use Stage Color</nobr>| [OFF] | Use the color from the stage ring
 |<nobr>├&nbsp;Color Temp</nobr>| [6500] (3000 ~ 8000) | 
 |<nobr>└&nbsp;Presets</nobr>| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
-|<nobr>**Cloud**</nobr>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
+|<nobr><b>Cloud</b></nobr>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
 |<nobr>├&nbsp;Enable</nobr>| [ON] | Enables or disables volumetric clouds.
 |<nobr>├&nbsp;Shape Scale</nobr>| [1] (-1 ~ 2) | Controls the scale of the cloud shapes.
 |<nobr>├&nbsp;Shape Factor</nobr>| [0.8] (0 ~ 1) | Adjusts the shape factor of the clouds.

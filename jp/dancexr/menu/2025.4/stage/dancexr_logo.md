@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr>有効にする</nobr>| [ON] | 
-|<nobr>**ロゴサーフェス1**</nobr>| | 
+|<nobr><b>ロゴサーフェス1</b></nobr>| | 
 |<nobr>├&nbsp;グロス</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├&nbsp;金属的</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;バンプ</nobr>| [0.2] (0 ~ 1) | 
@@ -23,7 +23,7 @@ sidebar:
 |<nobr>├&nbsp;アンビエント</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;アルファ</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;クリップ</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -34,7 +34,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;ブレンドモード</nobr>| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;ブレンド</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **白** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
-|<nobr>├&nbsp;**トゥーンシェーダー**</nobr>| | 
+|<nobr>├&nbsp;<b>トゥーンシェーダー</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;シェーディング</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;アウトライン</nobr>| [0.5] (0 ~ 1) | 
@@ -47,12 +47,12 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;シャドウ</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;ソフトシャドウ</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
-|<nobr>├&nbsp;**特別シェーダー**</nobr>| | 
+|<nobr>├&nbsp;<b>特別シェーダー</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;モード</nobr>| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;屈折</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;厚さ</nobr>| [1] (0 ~ 1) | 
 |<nobr>└&nbsp;プリセット</nobr>| **ホワイトグロス** | ホワイトグロス, レッドグロス, クローム, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |
-|<nobr>**ロゴサーフェス2**</nobr>| | 
+|<nobr><b>ロゴサーフェス2</b></nobr>| | 
 |<nobr>├&nbsp;グロス</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├&nbsp;金属的</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;バンプ</nobr>| [0.2] (0 ~ 1) | 
@@ -60,7 +60,7 @@ sidebar:
 |<nobr>├&nbsp;アンビエント</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;アルファ</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;クリップ</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -71,7 +71,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;ブレンドモード</nobr>| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;ブレンド</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **赤** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
-|<nobr>├&nbsp;**トゥーンシェーダー**</nobr>| | 
+|<nobr>├&nbsp;<b>トゥーンシェーダー</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;シェーディング</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;アウトライン</nobr>| [0.5] (0 ~ 1) | 
@@ -84,13 +84,13 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;シャドウ</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;ソフトシャドウ</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
-|<nobr>├&nbsp;**特別シェーダー**</nobr>| | 
+|<nobr>├&nbsp;<b>特別シェーダー</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;モード</nobr>| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;屈折</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;厚さ</nobr>| [1] (0 ~ 1) | 
 |<nobr>└&nbsp;プリセット</nobr>| **レッドグロス** | ホワイトグロス, レッドグロス, クローム, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |
 |<nobr>ダイヤモンド</nobr>| [ON] | 
-|<nobr>**ダイヤモンドサーフェス**</nobr>| | 
+|<nobr><b>ダイヤモンドサーフェス</b></nobr>| | 
 |<nobr>├&nbsp;グロス</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├&nbsp;金属的</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;バンプ</nobr>| [0.2] (0 ~ 1) | 
@@ -98,7 +98,7 @@ sidebar:
 |<nobr>├&nbsp;アンビエント</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;アルファ</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;クリップ</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -109,7 +109,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;ブレンドモード</nobr>| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;ブレンド</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **白** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
-|<nobr>├&nbsp;**トゥーンシェーダー**</nobr>| | 
+|<nobr>├&nbsp;<b>トゥーンシェーダー</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;シェーディング</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;アウトライン</nobr>| [0.5] (0 ~ 1) | 
@@ -122,7 +122,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;シャドウ</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;ソフトシャドウ</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
-|<nobr>├&nbsp;**特別シェーダー**</nobr>| | 
+|<nobr>├&nbsp;<b>特別シェーダー</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;モード</nobr>| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;屈折</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;厚さ</nobr>| [1] (0 ~ 1) | 

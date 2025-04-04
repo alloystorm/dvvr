@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>フォーメーション</nobr>|| 
+|<nobr><b>フォーメーション</b></nobr>|| 
 |<nobr>Vシェイプ</nobr>|| 
 |<nobr>ライン</nobr>|| 
 |<nobr>Aシェイプ</nobr>|| 

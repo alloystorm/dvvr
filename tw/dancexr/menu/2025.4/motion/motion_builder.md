@@ -18,7 +18,7 @@ sidebar:
 |<nobr>指派給選定</nobr>|| 
 |<nobr>指派給所有作為第二</nobr>|| 
 |<nobr>指派給選定作為第二</nobr>|| 
-|<nobr>**(Body Motion)**</nobr>| | 
+|<nobr><b>(Body Motion)</b></nobr>| | 
 |<nobr>├&nbsp;同步</nobr>| [0.5] (0 ~ 2) | 
 |<nobr>├&nbsp;延遲</nobr>| [-0.25] (-0.5 ~ 0.5) | 
 |<nobr>├&nbsp;比例</nobr>| [0.5] (0 ~ 1) | 
@@ -32,7 +32,7 @@ sidebar:
 |<nobr>├&nbsp;(Orient)</nobr>| [0] (-45 ~ 45) | 
 |<nobr>└&nbsp;預設</nobr>| **預設 (重置)** | 預設 (重置),  |
 |<nobr>範圍</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>**速度**</nobr>| | 
+|<nobr><b>速度</b></nobr>| | 
 |<nobr>├&nbsp;每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>├&nbsp;每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr>├&nbsp;相位</nobr>| [0] (0 ~ 1) | 
@@ -41,13 +41,13 @@ sidebar:
 |<nobr>├&nbsp;模式</nobr>| (Gradual) | (Gradual), 隨機, 音量, 
 |<nobr>├&nbsp;最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
 |<nobr>└&nbsp;最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
-|<nobr>**腿部**</nobr>| | 
+|<nobr><b>腿部</b></nobr>| | 
 |<nobr>├&nbsp;(Dist)</nobr>| [0.1] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Level)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Stride)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Forward)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>└&nbsp;打開</nobr>| [0] (-1 ~ 1) | 
-|<nobr>**(Transit Between Presets)**</nobr>| | 
+|<nobr><b>(Transit Between Presets)</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;(Transit Between Presets: 0 / 1)</nobr>|| 
 |<nobr>│&nbsp;└&nbsp;預設 (重置)</nobr>| [OFF] | 

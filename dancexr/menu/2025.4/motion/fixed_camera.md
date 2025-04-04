@@ -31,7 +31,7 @@ sidebar:
 |<nobr>Size</nobr>| [1] (0 ~ 2) | 
 |<nobr>Shift</nobr>| [0] (-1 ~ 1) | 
 |<nobr>Target Center</nobr>| [0] (-1 ~ 1) | 
-|<nobr>Offset</nobr>|| 
+|<nobr><b>Offset</b></nobr>|| 
 |<nobr>X</nobr>| [0] (-2 ~ 2) | 
 |<nobr>Y</nobr>| [0] (-2 ~ 2) | 
 |<nobr>Z</nobr>| [0] (-2 ~ 2) | 

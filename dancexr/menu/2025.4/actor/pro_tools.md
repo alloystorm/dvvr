@@ -25,4 +25,3 @@ sidebar:
 | [Sex Overlay](sex_overlay) |
 | [Dildo](dildo) |
 | [Light Ball](light_ball) |
-| [Export Bone Structure](export_bone_structure) |

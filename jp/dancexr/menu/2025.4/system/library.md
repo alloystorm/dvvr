@@ -19,5 +19,5 @@ sidebar:
 |<nobr>重複を削除</nobr>|| 
 |<nobr>ライブラリを切り替え</nobr>|| 
 |<nobr>エクスプローラーで表示</nobr>|| 
-|<nobr>Google ドライブ</nobr>|| 
+|<nobr><b>Google ドライブ</b></nobr>|| 
 |<nobr>Google ドライブのリンク</nobr>|| 

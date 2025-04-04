@@ -23,7 +23,7 @@ sidebar:
 |<nobr>方向</nobr>| [0] (-180 ~ 180) | 
 |<nobr>高さ</nobr>| [0] (0 ~ 8) | 
 |<nobr>角度</nobr>| [45] (0 ~ 90) | 
-|<nobr>**色**</nobr>| | 
+|<nobr><b>色</b></nobr>| | 
 |<nobr>├&nbsp;カラーモード</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr>├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;彩度</nobr>| [1] (0 ~ 1) | 
@@ -36,17 +36,17 @@ sidebar:
 |<nobr>├&nbsp;エッジレベル</nobr>| [2] (0 ~ 5) | 
 |<nobr>├&nbsp;ヒットレベル</nobr>| [2] (0 ~ 5) | 
 |<nobr>└&nbsp;プリセット</nobr>| **アニメーション色相** | 白, 赤, 緑, 青, アニメーション色相, 音楽による光,  |
-|<nobr>**モーション**</nobr>| | 
+|<nobr><b>モーション</b></nobr>| | 
 |<nobr>├&nbsp;グループあたりの動き</nobr>| [1] (1 ~ 32) | 
 |<nobr>├&nbsp;スピード</nobr>| [0] (-3 ~ 3) | 
 |<nobr>├&nbsp;トランジション</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;範囲</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;**ダンピング**</nobr>| | 
+|<nobr>├&nbsp;<b>ダンピング</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;オリエンテーション</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;水平</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;垂直</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>├&nbsp;モード</nobr>| **ランダム** | ランダム, ランダムプリセット, 手動,  |
-|<nobr>├&nbsp;**モーション X**</nobr>| | 
+|<nobr>├&nbsp;<b>モーション X</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;オーバーライド</nobr>| [0] (-1 ~ 1) | この値で生成された動きをオーバーライド
 |<nobr>│&nbsp;├&nbsp;スピード倍率</nobr>| [-1] (-3 ~ 3) | 
 |<nobr>│&nbsp;├&nbsp;フェーズ</nobr>| [0.25] (0 ~ 1) | サイクル内の開始位置
@@ -54,7 +54,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;方向</nobr>| [1] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;スケール</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;センター</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;**モーション Z**</nobr>| | 
+|<nobr>├&nbsp;<b>モーション Z</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;オーバーライド</nobr>| [0] (-1 ~ 1) | この値で生成された動きをオーバーライド
 |<nobr>│&nbsp;├&nbsp;スピード倍率</nobr>| [-1] (-3 ~ 3) | 
 |<nobr>│&nbsp;├&nbsp;フェーズ</nobr>| [0.25] (0 ~ 1) | サイクル内の開始位置

@@ -23,7 +23,7 @@ sidebar:
 |<nobr>Motion Shift</nobr>| [0] (-1 ~ 1) | 
 |<nobr>Swing Angle</nobr>| [30] (0 ~ 45) | 
 |<nobr>Lower</nobr>| [0.35] (0 ~ 0.8) | 
-|<nobr>**Speed**</nobr>| | 
+|<nobr><b>Speed</b></nobr>| | 
 |<nobr>├&nbsp;Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 |<nobr>├&nbsp;Moves Per Group</nobr>| [8] (4 ~ 32) | 
 |<nobr>├&nbsp;Phase</nobr>| [0] (0 ~ 1) | 

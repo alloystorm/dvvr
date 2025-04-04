@@ -23,7 +23,7 @@ sidebar:
 |<nobr>(Arm IK Left)</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>(Arm IK Right)</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>覆盖运动</nobr>| [0] (0 ~ 1) | 
-|<nobr>**速度**</nobr>| | 
+|<nobr><b>速度</b></nobr>| | 
 |<nobr>├&nbsp;每拍动作数</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>├&nbsp;每组动作数</nobr>| [8] (4 ~ 32) | 
 |<nobr>├&nbsp;相位</nobr>| [0] (0 ~ 1) | 

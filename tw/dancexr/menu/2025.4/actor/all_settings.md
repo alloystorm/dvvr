@@ -19,5 +19,3 @@ sidebar:
 | [自然動態](lifelike_motions) |
 | [故障排除](troubleshooting) |
 | [水的互動](water_interaction) |
-| [可視化骨骼](visualize_bones) |
-| [運動通過](motion_passes) |

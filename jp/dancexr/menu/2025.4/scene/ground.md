@@ -18,9 +18,9 @@ sidebar:
 |<nobr>地面</nobr>| [OFF] | 
 |<nobr>半径</nobr>| [200] (2 ~ 100) | 地面メッシュのサイズ
 |<nobr>ステージが存在する場合に非表示</nobr>| [ON] | ステージモデルがある場合、地面を非表示にする
-|<nobr>**表面**</nobr>| | 
+|<nobr><b>表面</b></nobr>| | 
 |<nobr>├&nbsp;テクスチャ</nobr>| **[タイル]** | [スカイマップ], [ウッド1], [ウッド2], [タイル], [コンクリート], [ビデオ],  |
-|<nobr>├&nbsp;**タイル**</nobr>| | 
+|<nobr>├&nbsp;<b>タイル</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;タイルX</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;タイルY</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;ラップモード</nobr>| リピート | リピート, ミラーU, ミラーV, ミラー両方, 
@@ -36,7 +36,7 @@ sidebar:
 |<nobr>├&nbsp;アンビエント</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;アルファ</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;クリップ</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -47,7 +47,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;ブレンドモード</nobr>| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;ブレンド</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **黒** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
-|<nobr>├&nbsp;**トゥーンシェーダー**</nobr>| | 
+|<nobr>├&nbsp;<b>トゥーンシェーダー</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;シェーディング</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;アウトライン</nobr>| [0.5] (0 ~ 1) | 
@@ -60,12 +60,12 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;シャドウ</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;ソフトシャドウ</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
-|<nobr>├&nbsp;**特別シェーダー**</nobr>| | 
+|<nobr>├&nbsp;<b>特別シェーダー</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;モード</nobr>| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;屈折</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;厚さ</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;ビューアの高さ</nobr>| [1.5] (0.5 ~ 3) | 地面にテクスチャを投影する際に使用されるビューアの高さ
-|<nobr>├&nbsp;**LEDモード**</nobr>| | 
+|<nobr>├&nbsp;<b>LEDモード</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;密度</nobr>| [7] (4 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;サイズ</nobr>| [0.8] (0 ~ 1) | 
@@ -74,8 +74,8 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;エッジ</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;モアレを軽減</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>└&nbsp;プリセット</nobr>| **ブラックグロス** | スカイマップ, 木材, コンクリート, 青いタイル, プロジェクタースクリーン, エミッシブスクリーン, LEDスクリーン, ブラックグロス, グロー, ガラス,  |
-|<nobr>**影のみ**</nobr>| | 
-|<nobr>├&nbsp;影の色</nobr>|| 
+|<nobr><b>影のみ</b></nobr>| | 
+|<nobr>├&nbsp;<b>影の色</b></nobr>|| 
 |<nobr>├&nbsp;プリセット</nobr>| **黒** | 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange), (Preset 1),  |
 |<nobr>├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
@@ -89,7 +89,7 @@ sidebar:
 |<nobr>プリセット</nobr>| **オフ** | オフ, 滑走路, プール, 部屋, 背景ボード, プロジェクタースクリーン, LEDスクリーン,  |
 |<nobr>リフト</nobr>| [0.5] (-2 ~ 2) | ステージを上げる / 下げる
 |<nobr>(Front / Back Offset)</nobr>| [0] (-10 ~ 10) | 
-|<nobr>**形状**</nobr>| | 
+|<nobr><b>形状</b></nobr>| | 
 |<nobr>├&nbsp;中央幅</nobr>| [8] (0 ~ 10) | 中央エリアの幅
 |<nobr>├&nbsp;中央深さ</nobr>| [5] (0 ~ 9) | 中央エリアの深さ
 |<nobr>├&nbsp;後方の高さ</nobr>| [0] (0 ~ 9) | 背景ボードの高さ
@@ -100,9 +100,9 @@ sidebar:
 |<nobr>├&nbsp;壁の厚さ</nobr>| [0.1] (0 ~ 1) | 端のサイズ
 |<nobr>├&nbsp;ウィンドウ</nobr>| [0] (0 ~ 1) | 
 |<nobr>└&nbsp;浮遊</nobr>| [OFF] | 
-|<nobr>**表面**</nobr>| | 
+|<nobr><b>表面</b></nobr>| | 
 |<nobr>├&nbsp;テクスチャ</nobr>| **[ウッド1]** | [ブランク], [ウッド1], [ウッド2], [タイル], [コンクリート], [ビデオ],  |
-|<nobr>├&nbsp;**タイル**</nobr>| | 
+|<nobr>├&nbsp;<b>タイル</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;タイルX</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;タイルY</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;ラップモード</nobr>| リピート | リピート, ミラーU, ミラーV, ミラー両方, 
@@ -118,7 +118,7 @@ sidebar:
 |<nobr>├&nbsp;アンビエント</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;アルファ</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;クリップ</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -129,7 +129,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;ブレンドモード</nobr>| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;ブレンド</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **白** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
-|<nobr>├&nbsp;**トゥーンシェーダー**</nobr>| | 
+|<nobr>├&nbsp;<b>トゥーンシェーダー</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;シェーディング</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;アウトライン</nobr>| [0.5] (0 ~ 1) | 
@@ -142,11 +142,11 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;シャドウ</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;ソフトシャドウ</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
-|<nobr>├&nbsp;**特別シェーダー**</nobr>| | 
+|<nobr>├&nbsp;<b>特別シェーダー</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;モード</nobr>| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;屈折</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;厚さ</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;**LEDモード**</nobr>| | 
+|<nobr>├&nbsp;<b>LEDモード</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;密度</nobr>| [7] (4 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;サイズ</nobr>| [0.8] (0 ~ 1) | 
@@ -155,9 +155,9 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;エッジ</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;モアレを軽減</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>└&nbsp;プリセット</nobr>| **木材** | 空白, 木材, コンクリート, 青いタイル, プロジェクタースクリーン, エミッシブスクリーン, LEDスクリーン, ブラックグロス, グロー, ガラス,  |
-|<nobr>**後面**</nobr>| | 
+|<nobr><b>後面</b></nobr>| | 
 |<nobr>├&nbsp;テクスチャ</nobr>| **[ブランク]** | [ブランク], [ウッド1], [ウッド2], [タイル], [コンクリート], [ビデオ],  |
-|<nobr>├&nbsp;**タイル**</nobr>| | 
+|<nobr>├&nbsp;<b>タイル</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;タイルX</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;タイルY</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;ラップモード</nobr>| リピート | リピート, ミラーU, ミラーV, ミラー両方, 
@@ -173,7 +173,7 @@ sidebar:
 |<nobr>├&nbsp;アンビエント</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;アルファ</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;クリップ</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -184,7 +184,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;ブレンドモード</nobr>| **オリジナル** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;ブレンド</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **白** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
-|<nobr>├&nbsp;**トゥーンシェーダー**</nobr>| | 
+|<nobr>├&nbsp;<b>トゥーンシェーダー</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;シェーディング</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;アウトライン</nobr>| [0.5] (0 ~ 1) | 
@@ -197,11 +197,11 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;シャドウ</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;ソフトシャドウ</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;プリセット</nobr>| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
-|<nobr>├&nbsp;**特別シェーダー**</nobr>| | 
+|<nobr>├&nbsp;<b>特別シェーダー</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;モード</nobr>| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;屈折</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;厚さ</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;**LEDモード**</nobr>| | 
+|<nobr>├&nbsp;<b>LEDモード</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;密度</nobr>| [7] (4 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;サイズ</nobr>| [0.8] (0 ~ 1) | 

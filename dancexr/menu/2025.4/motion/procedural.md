@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>Actor Motion</nobr>|| 
+|<nobr><b>Actor Motion</b></nobr>|| 
 |<nobr>[Idle]</nobr>|| 
 |<nobr>├&nbsp;Assign To All</nobr>|| 
 |<nobr>├&nbsp;Assign To Selected</nobr>|| 
@@ -43,7 +43,7 @@ sidebar:
 |<nobr>├&nbsp;Assign To Selected</nobr>|| 
 |<nobr>├&nbsp;Assign To All as 2nd</nobr>|| 
 |<nobr>└&nbsp;Assign To Selected as 2nd</nobr>|| 
-|<nobr>Camera Motion</nobr>|| 
+|<nobr><b>Camera Motion</b></nobr>|| 
 | [[Freefly Cam]](freefly_cam) |
 | [[Orbit Cam]](orbit_cam) |
 | [[Auto Cam]](auto_cam) |

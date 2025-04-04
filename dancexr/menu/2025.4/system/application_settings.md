@@ -19,47 +19,47 @@ sidebar:
 |<nobr>Recover Tags From Save</nobr>| [OFF] | Attempts to recover tags from saved settings in case your content cache is rebuilt or broken
 |<nobr>Flip DDS Compressed</nobr>| [ON] | Flip compressed DDS texture
 |<nobr>Flip DDS Uncompressed</nobr>| [OFF] | Flip uncomrpessed DDS texture
-|<nobr>**VR Hands**</nobr>| | 
+|<nobr><b>VR Hands</b></nobr>| | 
 |<nobr>├&nbsp;Hand Visible</nobr>| [ON] | 
 |<nobr>├&nbsp;Cast Shadow</nobr>| [OFF] | 
 |<nobr>├&nbsp;Time And FPS</nobr>| [ON] | 
-|<nobr>├&nbsp;**Hand Orientation**</nobr>| | 
-|<nobr>│&nbsp;├&nbsp;Offset</nobr>|| 
+|<nobr>├&nbsp;<b>Hand Orientation</b></nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>Offset</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;X</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr>│&nbsp;├&nbsp;Y</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr>│&nbsp;├&nbsp;Z</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr>│&nbsp;├&nbsp;Rotation</nobr>| [45] (-90 ~ 90) | 
 |<nobr>│&nbsp;└&nbsp;Update Pointer</nobr>|| 
 |<nobr>├&nbsp;Left Hand Pose</nobr>| **Auto** | Auto, Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
-|<nobr>├&nbsp;**Left Hand Accessory**</nobr>| | 
+|<nobr>├&nbsp;<b>Left Hand Accessory</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Enable</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;Model</nobr>| **[Pole]** | [Pole],  |
-|<nobr>│&nbsp;├&nbsp;**Anchor Offset**</nobr>| | Set the anchor position for the attachment to attach to
-|<nobr>│&nbsp;│&nbsp;├&nbsp;Position</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>Anchor Offset</b></nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>│&nbsp;│&nbsp;├&nbsp;<b>Position</b></nobr>|| 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;X</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;Y</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;Z</nobr>| [0] (-1 ~ 1) | 
-|<nobr>│&nbsp;│&nbsp;├&nbsp;Rotation</nobr>|| 
+|<nobr>│&nbsp;│&nbsp;├&nbsp;<b>Rotation</b></nobr>|| 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;X</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;Y</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;Z</nobr>| [0] (-90 ~ 90) | 
-|<nobr>│&nbsp;├&nbsp;Size & Alignment</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>Size & Alignment</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;Object Radius</nobr>| [0.02] (0.01 ~ 0.05) | 
 |<nobr>│&nbsp;├&nbsp;Object Length</nobr>| [0.2] (0 ~ 5) | 
 |<nobr>│&nbsp;├&nbsp;Scale</nobr>| [0] (-5 ~ 5) | 
 |<nobr>│&nbsp;├&nbsp;Orientation</nobr>| Y Up | Y Up, Y Down, X Up, X Down, Z Up, Z Down, 
-|<nobr>│&nbsp;├&nbsp;Offset</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>Offset</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;X</nobr>| [0] (-2 ~ 2) | 
 |<nobr>│&nbsp;├&nbsp;Y</nobr>| [0] (-2 ~ 2) | 
 |<nobr>│&nbsp;├&nbsp;Z</nobr>| [0] (-2 ~ 2) | 
-|<nobr>│&nbsp;├&nbsp;Rotation</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>Rotation</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;X</nobr>| [0] (-180 ~ 180) | 
 |<nobr>│&nbsp;├&nbsp;Y</nobr>| [0] (-180 ~ 180) | 
 |<nobr>│&nbsp;├&nbsp;Z</nobr>| [0] (-180 ~ 180) | 
 |<nobr>│&nbsp;├&nbsp;Guitar Mode</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**Motion**</nobr>| | Apply up / down motion to the attachment model
+|<nobr>│&nbsp;├&nbsp;<b>Motion</b></nobr>| | Apply up / down motion to the attachment model
 |<nobr>│&nbsp;│&nbsp;├&nbsp;Enable</nobr>| [OFF] | 
-|<nobr>│&nbsp;│&nbsp;├&nbsp;**Speed**</nobr>| | 
+|<nobr>│&nbsp;│&nbsp;├&nbsp;<b>Speed</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Moves Per Group</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Phase</nobr>| [0] (0 ~ 1) | 
@@ -71,7 +71,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;Distance</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;Angle</nobr>| [0] (-60 ~ 60) | 
 |<nobr>│&nbsp;├&nbsp;Animation</nobr>| **None** | None, <br/>Select loaded motion to use for the attachment model |
-|<nobr>│&nbsp;├&nbsp;**Surface**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>Surface</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;Gloss</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;Metallic</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;Bump</nobr>| [0.2] (0 ~ 1) | 
@@ -79,7 +79,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;Ambient</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;Alpha</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;Clip</nobr>| [0] (0 ~ 1) | 
-|<nobr>│&nbsp;│&nbsp;├&nbsp;**Color**</nobr>| | 
+|<nobr>│&nbsp;│&nbsp;├&nbsp;<b>Color</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
@@ -90,7 +90,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Blend Mode</nobr>| **Blend** | Original, Multiply, Blend, Color Shift,  |
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Blend</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;└&nbsp;Presets</nobr>| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-|<nobr>│&nbsp;│&nbsp;├&nbsp;**Toon Shader**</nobr>| | 
+|<nobr>│&nbsp;│&nbsp;├&nbsp;<b>Toon Shader</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Enable</nobr>| [OFF] | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Shading</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Outline</nobr>| [0.5] (0 ~ 1) | 
@@ -103,7 +103,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Shadow</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Soft Shadow</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;└&nbsp;Presets</nobr>| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-|<nobr>│&nbsp;│&nbsp;├&nbsp;**Special Shader**</nobr>| | 
+|<nobr>│&nbsp;│&nbsp;├&nbsp;<b>Special Shader</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Mode</nobr>| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;Refraction</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;└&nbsp;Thickness</nobr>| [1] (0 ~ 1) | 
@@ -114,35 +114,35 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;Grab Pose</nobr>| [ON] | Automatically change hand pose to grab when they are on the attachment
 |<nobr>│&nbsp;└&nbsp;Hand Motion</nobr>| [0] (-1 ~ 1) | Move hands relative to the attachment motion
 |<nobr>├&nbsp;Right Hand Pose</nobr>| **Auto** | Auto, Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
-|<nobr>└&nbsp;**Right Hand Accessory**</nobr>| | 
+|<nobr>└&nbsp;<b>Right Hand Accessory</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;Enable</nobr>| [OFF] | 
 |<nobr>&nbsp;&nbsp;├&nbsp;Model</nobr>| **[Pole]** | [Pole],  |
-|<nobr>&nbsp;&nbsp;├&nbsp;**Anchor Offset**</nobr>| | Set the anchor position for the attachment to attach to
-|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;Position</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>Anchor Offset</b></nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;<b>Position</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;X</nobr>| [0] (-1 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;Y</nobr>| [0] (-1 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;Z</nobr>| [0] (-1 ~ 1) | 
-|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;Rotation</nobr>|| 
+|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;<b>Rotation</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;X</nobr>| [0] (-90 ~ 90) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;Y</nobr>| [0] (-90 ~ 90) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;└&nbsp;Z</nobr>| [0] (-90 ~ 90) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;Size & Alignment</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>Size & Alignment</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;Object Radius</nobr>| [0.02] (0.01 ~ 0.05) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;Object Length</nobr>| [0.2] (0 ~ 5) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;Scale</nobr>| [0] (-5 ~ 5) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;Orientation</nobr>| Y Up | Y Up, Y Down, X Up, X Down, Z Up, Z Down, 
-|<nobr>&nbsp;&nbsp;├&nbsp;Offset</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>Offset</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;X</nobr>| [0] (-2 ~ 2) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;Y</nobr>| [0] (-2 ~ 2) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;Z</nobr>| [0] (-2 ~ 2) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;Rotation</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>Rotation</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;X</nobr>| [0] (-180 ~ 180) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;Y</nobr>| [0] (-180 ~ 180) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;Z</nobr>| [0] (-180 ~ 180) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;Guitar Mode</nobr>| [OFF] | 
-|<nobr>&nbsp;&nbsp;├&nbsp;**Motion**</nobr>| | Apply up / down motion to the attachment model
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>Motion</b></nobr>| | Apply up / down motion to the attachment model
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;Enable</nobr>| [OFF] | 
-|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;**Speed**</nobr>| | 
+|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;<b>Speed</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Moves Per Group</nobr>| [8] (4 ~ 32) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Phase</nobr>| [0] (0 ~ 1) | 
@@ -154,7 +154,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;Distance</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;└&nbsp;Angle</nobr>| [0] (-60 ~ 60) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;Animation</nobr>| **None** | None, <br/>Select loaded motion to use for the attachment model |
-|<nobr>&nbsp;&nbsp;├&nbsp;**Surface**</nobr>| | 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>Surface</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;Gloss</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;Metallic</nobr>| [1] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;Bump</nobr>| [0.2] (0 ~ 1) | 
@@ -162,7 +162,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;Ambient</nobr>| [1] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;Alpha</nobr>| [1] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;Clip</nobr>| [0] (0 ~ 1) | 
-|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;**Color**</nobr>| | 
+|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;<b>Color</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
@@ -173,7 +173,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Blend Mode</nobr>| **Blend** | Original, Multiply, Blend, Color Shift,  |
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Blend</nobr>| [1] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;└&nbsp;Presets</nobr>| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;**Toon Shader**</nobr>| | 
+|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;<b>Toon Shader</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Enable</nobr>| [OFF] | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Shading</nobr>| [1] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Outline</nobr>| [0.5] (0 ~ 1) | 
@@ -186,7 +186,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Shadow</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Soft Shadow</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;└&nbsp;Presets</nobr>| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;**Special Shader**</nobr>| | 
+|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;<b>Special Shader</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Mode</nobr>| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;Refraction</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;└&nbsp;Thickness</nobr>| [1] (0 ~ 1) | 

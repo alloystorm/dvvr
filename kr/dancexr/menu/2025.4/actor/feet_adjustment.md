@@ -29,7 +29,7 @@ sidebar:
 |<nobr>굽 꼭대기</nobr>| [0] (-0.1 ~ 0.1) | (Adjusts the height of the virtual shoe's heel top.)
 |<nobr>모드</nobr>| **와이어프레임** | 와이어프레임, 불투명, 크롬, 단단한 유리, 얇은 유리, <br/>(Selects the visualization mode for virtual shoes.) |
 |<nobr>부드러움</nobr>| [1] (0 ~ 1) | (Controls the smoothness of the virtual shoe material.)
-|<nobr>**색상**</nobr>| | Sets the color of the virtual shoe material.
+|<nobr><b>색상</b></nobr>| | Sets the color of the virtual shoe material.
 |<nobr>├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;채도</nobr>| [0] (0 ~ 1) | 
@@ -37,7 +37,7 @@ sidebar:
 |<nobr>├&nbsp;빨간색</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;초록색</nobr>| [1] (0 ~ 1) | 
 |<nobr>└&nbsp;파란색</nobr>| [1] (0 ~ 1) | 
-|<nobr>굽</nobr>|| 
+|<nobr><b>굽</b></nobr>|| 
 |<nobr>하이힐</nobr>| [0] (0 ~ 1) | (Adjusts the height of the high heel pose.)
 |<nobr>제한 각도</nobr>| [OFF] | (Limits the maximum angle for tiptoe rotation.)
 |<nobr>하이힐 발가락 굽힘</nobr>| [0.35] (0 ~ 1) | (Controls the amount of toe bending when tiptoeing.)
@@ -45,7 +45,7 @@ sidebar:
 |<nobr>(Reduce Sliding)</nobr>| [OFF] | 
 |<nobr>차이 임계값</nobr>| [0] (0 ~ 0.2) | (Defines the distance threshold for applying friction to reduce sliding.)
 |<nobr>감쇠</nobr>| [0.75] (0 ~ 1) | (Controls the damping factor for friction applied to reduce sliding.)
-|<nobr>**발 각도**</nobr>| | 
+|<nobr><b>발 각도</b></nobr>| | 
 |<nobr>├&nbsp;X 축 회전</nobr>| [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
 |<nobr>├&nbsp;Y 축 회전</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
 |<nobr>└&nbsp;Z 축 회전</nobr>| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)

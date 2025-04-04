@@ -28,22 +28,22 @@ sidebar:
 |<nobr>Fade To Black</nobr>| [0] (0 ~ 0.25) | Duration of the fade-to-black effect during transitions.
 |<nobr>F2B Probability</nobr>| [0.5] (0 ~ 1) | Probability of triggering the fade-to-black effect.
 |<nobr>Audio Sensitivity</nobr>| [1] (0 ~ 4) | Sensitivity of the camera motion to audio levels.
-|<nobr>Target Selection</nobr>|| 
+|<nobr><b>Target Selection</b></nobr>|| 
 |<nobr>Head</nobr>| [1] (0 ~ 1) | Probability of targeting the actor's head.
 |<nobr>Chest</nobr>| [1] (0 ~ 1) | Probability of targeting the actor's chest.
 |<nobr>Center</nobr>| [1] (0 ~ 1) | Probability of targeting the actor's center.
 |<nobr>Legs</nobr>| [0.5] (0 ~ 1) | Probability of targeting the actor's legs.
 |<nobr>Feet</nobr>| [0] (0 ~ 1) | Probability of targeting the actor's feet.
-|<nobr>Distance Selection</nobr>|| 
+|<nobr><b>Distance Selection</b></nobr>|| 
 |<nobr>Close Up</nobr>| [1] (0 ~ 1) | Probability of a close-up camera distance.
 |<nobr>Zoom In</nobr>| [0.25] (0 ~ 1) | Probability of zooming in.
 |<nobr>Zoom Out</nobr>| [0.25] (0 ~ 1) | Probability of zooming out.
 |<nobr>Middle</nobr>| [0.25] (0 ~ 1) | Probability of a middle-range camera distance.
 |<nobr>Far</nobr>| [0.25] (0 ~ 1) | Probability of a far camera distance.
-|<nobr>Path Selection</nobr>|| 
+|<nobr><b>Path Selection</b></nobr>|| 
 |<nobr>High Angle</nobr>| [20] (0 ~ 30) | Maximum upward angle for the camera.
 |<nobr>Low Angle</nobr>| [-20] (-30 ~ 0) | Maximum downward angle for the camera.
-|<nobr>Orientation</nobr>|| 
+|<nobr><b>Orientation</b></nobr>|| 
 |<nobr>Front Center</nobr>| [1] (0 ~ 1) | Probability of orienting the camera to the front center of the actor.
 |<nobr>Front 45</nobr>| [0] (0 ~ 1) | Probability of orienting the camera to a 45-degree angle in front of the actor.
 |<nobr>Side 90</nobr>| [0.25] (0 ~ 1) | Probability of orienting the camera to the actor's side at a 90-degree angle.

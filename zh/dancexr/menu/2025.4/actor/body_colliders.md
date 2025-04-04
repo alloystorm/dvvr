@@ -8,7 +8,7 @@ sidebar:
 ---
 [Eng](/dancexr/menu/2025.4/actor/body_colliders) | [繁中](/tw/dancexr/menu/2025.4/actor/body_colliders) | [日本語](/jp/dancexr/menu/2025.4/actor/body_colliders) | [한국어](/kr/dancexr/menu/2025.4/actor/body_colliders) | [简中](/zh/dancexr/menu/2025.4/actor/body_colliders)
 
-[演员](../menu#演员) > 身体碰撞器
+[物理](../menu#物理) > 身体碰撞器
 
 
 
@@ -23,7 +23,7 @@ sidebar:
 |<nobr>腰宽</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>髋宽</nobr>| [0] (-1 ~ 1) | 
 |<nobr>臀部半径</nobr>| [1] (0 ~ 2) | 
-|<nobr>臀部位置</nobr>|| 
+|<nobr><b>臀部位置</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr>(Y)</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr>(Z)</nobr>| [0] (-0.1 ~ 0.1) | 

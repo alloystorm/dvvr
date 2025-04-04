@@ -23,7 +23,7 @@ sidebar:
 |<nobr>Arm IK Left</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>Arm IK Right</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>Override Motion</nobr>| [0] (0 ~ 1) | 
-|<nobr>**Speed**</nobr>| | 
+|<nobr><b>Speed</b></nobr>| | 
 |<nobr>├&nbsp;Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 |<nobr>├&nbsp;Moves Per Group</nobr>| [8] (4 ~ 32) | 
 |<nobr>├&nbsp;Phase</nobr>| [0] (0 ~ 1) | 

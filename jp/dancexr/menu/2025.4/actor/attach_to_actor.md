@@ -19,11 +19,11 @@ sidebar:
 |<nobr>アクターを選択</nobr>|  |  |
 |<nobr>ターゲットボーンを選択</nobr>|| アタッチするターゲットボーンを選択
 |<nobr>(Ignore Rotation)</nobr>| [OFF] | アタッチボーンの回転を無視する
-|<nobr>オフセット</nobr>|| 
+|<nobr><b>オフセット</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>回転</nobr>|| 
+|<nobr><b>回転</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>(Z)</nobr>| [0] (-180 ~ 180) | 

@@ -22,19 +22,19 @@ sidebar:
 |<nobr>風</nobr>| [1] (0 ~ 4) | (Global wind speed affecting cloth simulation, particle dynamics, and clouds.)
 |<nobr>風向</nobr>| [0] (0 ~ 360) | (Sets the global wind direction in degrees.)
 |<nobr>風場</nobr>| [OFF] | 
-|<nobr>**位置**</nobr>| | Sets the position of the wind field.
+|<nobr><b>位置</b></nobr>| | Sets the position of the wind field.
 |<nobr>├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>**旋轉**</nobr>| | Sets the rotation of the wind field.
+|<nobr><b>旋轉</b></nobr>| | Sets the rotation of the wind field.
 |<nobr>├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
 |<nobr>距離</nobr>| [5] (0 ~ 10) | (Sets the distance of the wind field.)
 |<nobr>半徑</nobr>| [1] (0 ~ 2) | (Sets the radius of the wind field.)
 |<nobr>速度</nobr>| [1] (0 ~ 4) | (Sets the speed of the wind field.)
-|<nobr>天空環境光</nobr>|| 
-|<nobr>**天空顏色**</nobr>| | 
+|<nobr><b>天空環境光</b></nobr>|| 
+|<nobr><b>天空顏色</b></nobr>| | 
 |<nobr>├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
@@ -45,7 +45,7 @@ sidebar:
 |<nobr>├&nbsp;使用舞台顏色</nobr>| [OFF] | 使用舞台環的顏色
 |<nobr>├&nbsp;色溫</nobr>| [6500] (3000 ~ 8000) | 
 |<nobr>└&nbsp;預設</nobr>| **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
-|<nobr>**中間顏色**</nobr>| | 
+|<nobr><b>中間顏色</b></nobr>| | 
 |<nobr>├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
@@ -56,7 +56,7 @@ sidebar:
 |<nobr>├&nbsp;使用舞台顏色</nobr>| [OFF] | 使用舞台環的顏色
 |<nobr>├&nbsp;色溫</nobr>| [6500] (3000 ~ 8000) | 
 |<nobr>└&nbsp;預設</nobr>| **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
-|<nobr>**地面顏色**</nobr>| | 
+|<nobr><b>地面顏色</b></nobr>| | 
 |<nobr>├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
@@ -67,7 +67,7 @@ sidebar:
 |<nobr>├&nbsp;使用舞台顏色</nobr>| [OFF] | 使用舞台環的顏色
 |<nobr>├&nbsp;色溫</nobr>| [6500] (3000 ~ 8000) | 
 |<nobr>└&nbsp;預設</nobr>| **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
-|<nobr>**雲**</nobr>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
+|<nobr><b>雲</b></nobr>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
 |<nobr>├&nbsp;啟用</nobr>| [ON] | (Enables or disables volumetric clouds.)
 |<nobr>├&nbsp;形狀縮放</nobr>| [1] (-1 ~ 2) | (Controls the scale of the cloud shapes.)
 |<nobr>├&nbsp;形狀因子</nobr>| [0.8] (0 ~ 1) | (Adjusts the shape factor of the clouds.)

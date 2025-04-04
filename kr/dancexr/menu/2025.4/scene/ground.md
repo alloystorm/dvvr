@@ -18,9 +18,9 @@ sidebar:
 |<nobr>바닥</nobr>| [OFF] | 
 |<nobr>반경</nobr>| [200] (2 ~ 100) | 바닥 메쉬의 크기
 |<nobr>스테이지가 존재할 경우 숨기기</nobr>| [ON] | 스테이지 모델이 있을 때 바닥 숨기기
-|<nobr>**표면**</nobr>| | 
+|<nobr><b>표면</b></nobr>| | 
 |<nobr>├&nbsp;텍스처</nobr>| **[타일]** | [하늘 맵], [우드1], [우드2], [타일], [콘크리트], [비디오],  |
-|<nobr>├&nbsp;**타일링**</nobr>| | 
+|<nobr>├&nbsp;<b>타일링</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;타일링 X</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;타일링 Y</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;랩 모드</nobr>| 반복 | 반복, 거울 U, 거울 V, 거울 모두, 
@@ -36,7 +36,7 @@ sidebar:
 |<nobr>├&nbsp;앰비언트</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;알파</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;클립</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**색상**</nobr>| | 
+|<nobr>├&nbsp;<b>색상</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;채도</nobr>| [0] (0 ~ 1) | 
@@ -47,7 +47,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;혼합 모드</nobr>| **혼합** | 원본, (Multiply), 혼합, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;혼합</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;프리셋</nobr>| **검은색** | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |
-|<nobr>├&nbsp;**툰 셰이더**</nobr>| | 
+|<nobr>├&nbsp;<b>툰 셰이더</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;활성화</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;쉐이딩</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;윤곽선</nobr>| [0.5] (0 ~ 1) | 
@@ -60,12 +60,12 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;그림자</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;부드러운 그림자</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;프리셋</nobr>| **선명한** | 선명한, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |
-|<nobr>├&nbsp;**특수 셰이더**</nobr>| | 
+|<nobr>├&nbsp;<b>특수 셰이더</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;모드</nobr>| **끄기** | 끄기, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;굴절</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;두께</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;뷰어 높이</nobr>| [1.5] (0.5 ~ 3) | 지면에 텍스처를 투사할 때 사용되는 뷰어 높이
-|<nobr>├&nbsp;**LED 모드**</nobr>| | 
+|<nobr>├&nbsp;<b>LED 모드</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;활성화</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;밀도</nobr>| [7] (4 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;크기</nobr>| [0.8] (0 ~ 1) | 
@@ -74,8 +74,8 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;엣지</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;모아레 감소</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>└&nbsp;프리셋</nobr>| **검은색 광택** | 하늘 맵, 나무, 콘크리트, 블루 타일, 프로젝터 화면, 발광 화면, LED 화면, 검은색 광택, 발광, 유리,  |
-|<nobr>**그림자 전용**</nobr>| | 
-|<nobr>├&nbsp;그림자 색상</nobr>|| 
+|<nobr><b>그림자 전용</b></nobr>| | 
+|<nobr>├&nbsp;<b>그림자 색상</b></nobr>|| 
 |<nobr>├&nbsp;프리셋</nobr>| **검은색** | 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange), (Preset 1),  |
 |<nobr>├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
@@ -89,7 +89,7 @@ sidebar:
 |<nobr>프리셋</nobr>| **끄기** | 끄기, 활주로, 풀, 방, 배경 판, 프로젝터 화면, LED 화면,  |
 |<nobr>들기</nobr>| [0.5] (-2 ~ 2) | 스테이지를 위/아래로 들어 올리기
 |<nobr>(Front / Back Offset)</nobr>| [0] (-10 ~ 10) | 
-|<nobr>**형상**</nobr>| | 
+|<nobr><b>형상</b></nobr>| | 
 |<nobr>├&nbsp;센터 너비</nobr>| [8] (0 ~ 10) | 중앙 영역의 너비
 |<nobr>├&nbsp;센터 깊이</nobr>| [5] (0 ~ 9) | 중앙 영역의 깊이
 |<nobr>├&nbsp;뒤 높이</nobr>| [0] (0 ~ 9) | 배경 판의 높이
@@ -100,9 +100,9 @@ sidebar:
 |<nobr>├&nbsp;벽 두께</nobr>| [0.1] (0 ~ 1) | 가장자리의 크기
 |<nobr>├&nbsp;창</nobr>| [0] (0 ~ 1) | 
 |<nobr>└&nbsp;떠 있는</nobr>| [OFF] | 
-|<nobr>**표면**</nobr>| | 
+|<nobr><b>표면</b></nobr>| | 
 |<nobr>├&nbsp;텍스처</nobr>| **[우드1]** | [빈], [우드1], [우드2], [타일], [콘크리트], [비디오],  |
-|<nobr>├&nbsp;**타일링**</nobr>| | 
+|<nobr>├&nbsp;<b>타일링</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;타일링 X</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;타일링 Y</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;랩 모드</nobr>| 반복 | 반복, 거울 U, 거울 V, 거울 모두, 
@@ -118,7 +118,7 @@ sidebar:
 |<nobr>├&nbsp;앰비언트</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;알파</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;클립</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**색상**</nobr>| | 
+|<nobr>├&nbsp;<b>색상</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;채도</nobr>| [0] (0 ~ 1) | 
@@ -129,7 +129,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;혼합 모드</nobr>| **혼합** | 원본, (Multiply), 혼합, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;혼합</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;프리셋</nobr>| **흰색** | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |
-|<nobr>├&nbsp;**툰 셰이더**</nobr>| | 
+|<nobr>├&nbsp;<b>툰 셰이더</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;활성화</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;쉐이딩</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;윤곽선</nobr>| [0.5] (0 ~ 1) | 
@@ -142,11 +142,11 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;그림자</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;부드러운 그림자</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;프리셋</nobr>| **선명한** | 선명한, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |
-|<nobr>├&nbsp;**특수 셰이더**</nobr>| | 
+|<nobr>├&nbsp;<b>특수 셰이더</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;모드</nobr>| **끄기** | 끄기, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;굴절</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;두께</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;**LED 모드**</nobr>| | 
+|<nobr>├&nbsp;<b>LED 모드</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;활성화</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;밀도</nobr>| [7] (4 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;크기</nobr>| [0.8] (0 ~ 1) | 
@@ -155,9 +155,9 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;엣지</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;모아레 감소</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>└&nbsp;프리셋</nobr>| **나무** | 빈칸, 나무, 콘크리트, 블루 타일, 프로젝터 화면, 발광 화면, LED 화면, 검은색 광택, 발광, 유리,  |
-|<nobr>**뒤쪽 표면**</nobr>| | 
+|<nobr><b>뒤쪽 표면</b></nobr>| | 
 |<nobr>├&nbsp;텍스처</nobr>| **[빈]** | [빈], [우드1], [우드2], [타일], [콘크리트], [비디오],  |
-|<nobr>├&nbsp;**타일링**</nobr>| | 
+|<nobr>├&nbsp;<b>타일링</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;타일링 X</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;타일링 Y</nobr>| [1] (0.1 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;랩 모드</nobr>| 반복 | 반복, 거울 U, 거울 V, 거울 모두, 
@@ -173,7 +173,7 @@ sidebar:
 |<nobr>├&nbsp;앰비언트</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;알파</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;클립</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**색상**</nobr>| | 
+|<nobr>├&nbsp;<b>색상</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;채도</nobr>| [0] (0 ~ 1) | 
@@ -184,7 +184,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;혼합 모드</nobr>| **원본** | 원본, (Multiply), 혼합, (Color Shift),  |
 |<nobr>│&nbsp;├&nbsp;혼합</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;프리셋</nobr>| **흰색** | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |
-|<nobr>├&nbsp;**툰 셰이더**</nobr>| | 
+|<nobr>├&nbsp;<b>툰 셰이더</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;활성화</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;쉐이딩</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;윤곽선</nobr>| [0.5] (0 ~ 1) | 
@@ -197,11 +197,11 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;그림자</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;부드러운 그림자</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;└&nbsp;프리셋</nobr>| **선명한** | 선명한, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |
-|<nobr>├&nbsp;**특수 셰이더**</nobr>| | 
+|<nobr>├&nbsp;<b>특수 셰이더</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;모드</nobr>| **끄기** | 끄기, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |
 |<nobr>│&nbsp;├&nbsp;굴절</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;└&nbsp;두께</nobr>| [1] (0 ~ 1) | 
-|<nobr>├&nbsp;**LED 모드**</nobr>| | 
+|<nobr>├&nbsp;<b>LED 모드</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;활성화</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;밀도</nobr>| [7] (4 ~ 10) | 
 |<nobr>│&nbsp;├&nbsp;크기</nobr>| [0.8] (0 ~ 1) | 

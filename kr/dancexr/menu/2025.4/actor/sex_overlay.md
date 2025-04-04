@@ -23,7 +23,7 @@ sidebar:
 |<nobr>(Arm IK Left)</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>(Arm IK Right)</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>모션 오버라이드</nobr>| [0] (0 ~ 1) | 
-|<nobr>**속도**</nobr>| | 
+|<nobr><b>속도</b></nobr>| | 
 |<nobr>├&nbsp;비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>├&nbsp;그룹당 움직임</nobr>| [8] (4 ~ 32) | 
 |<nobr>├&nbsp;주기</nobr>| [0] (0 ~ 1) | 

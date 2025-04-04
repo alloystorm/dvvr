@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr>활성화</nobr>| [OFF] | 
-|<nobr>**몸체**</nobr>| | 
+|<nobr><b>몸체</b></nobr>| | 
 |<nobr>├&nbsp;위치</nobr>| 자유 | 자유, 수평 고정, 수직 고정, 위치 고정, 
 |<nobr>├&nbsp;회전</nobr>| 자유 | 자유, 회전 고정, 
 |<nobr>├&nbsp;감쇠</nobr>| [0.5] (0 ~ 1) | 
@@ -30,9 +30,9 @@ sidebar:
 |<nobr>├&nbsp;탐지 범위</nobr>| [2] (0 ~ 10) | 
 |<nobr>├&nbsp;최소 거리</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>└&nbsp;최대 거리</nobr>| [1] (0.5 ~ 2) | 
-|<nobr>**흔드는 모션**</nobr>| | 
+|<nobr><b>흔드는 모션</b></nobr>| | 
 |<nobr>├&nbsp;활성화</nobr>| [ON] | 
-|<nobr>├&nbsp;**속도**</nobr>| | 
+|<nobr>├&nbsp;<b>속도</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;그룹당 움직임</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;├&nbsp;주기</nobr>| [0] (0 ~ 1) | 
@@ -48,17 +48,17 @@ sidebar:
 |<nobr>├&nbsp;최대 깊이</nobr>| [0.15] (0 ~ 0.3) | 
 |<nobr>├&nbsp;깊이 추가</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr>└&nbsp;발 모션</nobr>| [0] (-1 ~ 1) | 
-|<nobr>**헤드 포즈**</nobr>| | 
+|<nobr><b>헤드 포즈</b></nobr>| | 
 |<nobr>├&nbsp;활성화</nobr>| [OFF] | 
 |<nobr>├&nbsp;X 회전</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;Y 회전</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;Z 회전</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**다리 포즈**</nobr>| | 
+|<nobr><b>다리 포즈</b></nobr>| | 
 |<nobr>├&nbsp;활성화</nobr>| [ON] | 
 |<nobr>├&nbsp;바닥에 대한 상대적 위치</nobr>| [ON] | 
 |<nobr>├&nbsp;최대 비틀림</nobr>| [60] (0 ~ 90) | 
 |<nobr>├&nbsp;대칭적</nobr>| [ON] | 
-|<nobr>├&nbsp;**왼쪽**</nobr>| | 
+|<nobr>├&nbsp;<b>왼쪽</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;열기</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;├&nbsp;발 X</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;발 Y</nobr>| [0] ((Unlimited)) | 
@@ -67,7 +67,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;발 회전 Y</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;발 회전 Z</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;발가락</nobr>| [0] (-180 ~ 180) | 
-|<nobr>├&nbsp;**오른쪽**</nobr>| | 
+|<nobr>├&nbsp;<b>오른쪽</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;열기</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;├&nbsp;발 X</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;발 Y</nobr>| [0] ((Unlimited)) | 
@@ -78,14 +78,14 @@ sidebar:
 |<nobr>│&nbsp;└&nbsp;발가락</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;프리셋</nobr>| **(Ride)** | (Sit), (Ride), (Kneel), (Stand),  |
 |<nobr>손 대칭</nobr>| [ON] | 
-|<nobr>**왼손**</nobr>| | 
+|<nobr><b>왼손</b></nobr>| | 
 |<nobr>├&nbsp;활성화</nobr>| [OFF] | 
 |<nobr>├&nbsp;제스처</nobr>| **(Fist)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>├&nbsp;**손 위치**</nobr>| | 
+|<nobr>├&nbsp;<b>손 위치</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>├&nbsp;**손 회전**</nobr>| | 
+|<nobr>├&nbsp;<b>손 회전</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
@@ -99,9 +99,9 @@ sidebar:
 |<nobr>├&nbsp;혼합 범위</nobr>| [0.75] (0 ~ 2) | 
 |<nobr>├&nbsp;대칭 오프셋</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;액세서리 위치 사용</nobr>| [ON] | 
-|<nobr>├&nbsp;**모션**</nobr>| | 
+|<nobr>├&nbsp;<b>모션</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;활성화</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**속도**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>속도</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;그룹당 움직임</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;주기</nobr>| [0] (0 ~ 1) | 
@@ -112,7 +112,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;└&nbsp;최대 속도</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;거리</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;각도</nobr>| [0] (-60 ~ 60) | 
-|<nobr>├&nbsp;**사용자 정의 포즈**</nobr>| | 
+|<nobr>├&nbsp;<b>사용자 정의 포즈</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;활성화</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;열기</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;엄지 축</nobr>| [90] (-360 ~ 360) | 
@@ -129,14 +129,14 @@ sidebar:
 |<nobr>├&nbsp;잡기 위치</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr>├&nbsp;(Grab Axis)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;프리셋</nobr>| **(Rest)** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr>**오른손**</nobr>| | 
+|<nobr><b>오른손</b></nobr>| | 
 |<nobr>├&nbsp;활성화</nobr>| [OFF] | 
 |<nobr>├&nbsp;제스처</nobr>| **(Fist)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>├&nbsp;**손 위치**</nobr>| | 
+|<nobr>├&nbsp;<b>손 위치</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>├&nbsp;**손 회전**</nobr>| | 
+|<nobr>├&nbsp;<b>손 회전</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
@@ -150,9 +150,9 @@ sidebar:
 |<nobr>├&nbsp;혼합 범위</nobr>| [0.75] (0 ~ 2) | 
 |<nobr>├&nbsp;대칭 오프셋</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;액세서리 위치 사용</nobr>| [ON] | 
-|<nobr>├&nbsp;**모션**</nobr>| | 
+|<nobr>├&nbsp;<b>모션</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;활성화</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**속도**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>속도</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;그룹당 움직임</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;주기</nobr>| [0] (0 ~ 1) | 
@@ -163,7 +163,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;└&nbsp;최대 속도</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;거리</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;각도</nobr>| [0] (-60 ~ 60) | 
-|<nobr>├&nbsp;**사용자 정의 포즈**</nobr>| | 
+|<nobr>├&nbsp;<b>사용자 정의 포즈</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;활성화</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;열기</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;엄지 축</nobr>| [90] (-360 ~ 360) | 
@@ -180,17 +180,17 @@ sidebar:
 |<nobr>├&nbsp;잡기 위치</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr>├&nbsp;(Grab Axis)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;프리셋</nobr>| **(Rest)** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr>**탑승 모델**</nobr>| | 
+|<nobr><b>탑승 모델</b></nobr>| | 
 |<nobr>├&nbsp;활성화</nobr>| [ON] | 
 |<nobr>├&nbsp;모델</nobr>| **([Hoverbike])** | ([Hoverbike]), ([Rocking Horse]),  |
 |<nobr>├&nbsp;가속</nobr>| [10] (0 ~ 20) | 
 |<nobr>├&nbsp;드래그</nobr>| [0.05] (0 ~ 1) | 
 |<nobr>├&nbsp;회전 시 기울기</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>├&nbsp;위치</nobr>|| 
+|<nobr>├&nbsp;<b>위치</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;회전</nobr>|| 
+|<nobr>├&nbsp;<b>회전</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 

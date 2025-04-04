@@ -21,53 +21,53 @@ sidebar:
 |<nobr>時間偏移秒數</nobr>| [0] (-5 ~ 5) | 應用動作時對演員施加的時間偏移秒數。
 |<nobr>觀眾</nobr>| [OFF] | 將演員設置為旁觀者。
 |<nobr>腿部角度</nobr>| [0] (-15 ~ 15) | 
-|<nobr>姿勢調整</nobr>|| 
-|<nobr>**中心位置**</nobr>| | 
+|<nobr><b>姿勢調整</b></nobr>|| 
+|<nobr><b>中心位置</b></nobr>| | 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr>**中心旋轉**</nobr>| | 
+|<nobr><b>中心旋轉</b></nobr>| | 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] (-180 ~ 180) | 
-|<nobr>**肩膀旋轉**</nobr>| | 
+|<nobr><b>肩膀旋轉</b></nobr>| | 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**手臂旋轉**</nobr>| | 
+|<nobr><b>手臂旋轉</b></nobr>| | 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**前臂旋轉**</nobr>| | 
+|<nobr><b>前臂旋轉</b></nobr>| | 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**手掌旋轉**</nobr>| | 
+|<nobr><b>手掌旋轉</b></nobr>| | 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**腿部旋轉**</nobr>| | 
+|<nobr><b>腿部旋轉</b></nobr>| | 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**腳部旋轉**</nobr>| | 
+|<nobr><b>腳部旋轉</b></nobr>| | 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**拇指旋轉 1**</nobr>| | 
+|<nobr><b>拇指旋轉 1</b></nobr>| | 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**拇指旋轉 2**</nobr>| | 
+|<nobr><b>拇指旋轉 2</b></nobr>| | 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**小指**</nobr>| | 
+|<nobr><b>小指</b></nobr>| | 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>(Ring Finger)</nobr>| [0.75] (0 ~ 1) | 
-|<nobr>**食指**</nobr>| | 
+|<nobr><b>食指</b></nobr>| | 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 

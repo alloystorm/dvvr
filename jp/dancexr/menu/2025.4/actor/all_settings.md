@@ -19,5 +19,3 @@ sidebar:
 | [リアルな動き](lifelike_motions) |
 | [トラブルシューティング](troubleshooting) |
 | [水の相互作用](water_interaction) |
-| [ボーンの可視化](visualize_bones) |
-| [モーションパス](motion_passes) |

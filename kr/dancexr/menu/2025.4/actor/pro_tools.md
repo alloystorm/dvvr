@@ -25,4 +25,3 @@ sidebar:
 | [성별 오버레이](sex_overlay) |
 | [딜도](dildo) |
 | [빛 공](light_ball) |
-| [본 구조 내보내기](export_bone_structure) |

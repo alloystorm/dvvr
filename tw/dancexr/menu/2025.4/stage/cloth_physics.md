@@ -17,7 +17,7 @@ sidebar:
 |<nobr>啟用</nobr>| [ON] | 
 |<nobr>選擇骨骼</nobr>|| 選擇骨骼
 |<nobr>跳過前 X 根骨骼</nobr>| [0] (0 ~ 5) | 對前 x 級不創建物理連接
-|<nobr>**粒子動力學**</nobr>| | 
+|<nobr><b>粒子動力學</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [ON] | 
 |<nobr>├&nbsp;擺動柔性</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>├&nbsp;扭轉柔性</nobr>| [0.75] (0 ~ 1) | 
@@ -34,12 +34,12 @@ sidebar:
 |<nobr>├&nbsp;空氣阻力</nobr>| [0] (0 ~ 2) | 空氣阻抗
 |<nobr>├&nbsp;水下阻力</nobr>| [1] (0 ~ 2) | 水下阻抗
 |<nobr>├&nbsp;浮力</nobr>| [-0.1] (-1 ~ 1) | 
-|<nobr>├&nbsp;**風**</nobr>| | 
+|<nobr>├&nbsp;<b>風</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;風的影響</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;湍流比例</nobr>| [0] (-2 ~ 2) | 
 |<nobr>│&nbsp;├&nbsp;湍流強度</nobr>| [1] (0 ~ 2) | 
 |<nobr>│&nbsp;└&nbsp;湍流時間比例</nobr>| [0] (-4 ~ 4) | 
-|<nobr>├&nbsp;**碰撞物**</nobr>| | 
+|<nobr>├&nbsp;<b>碰撞物</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;頭部</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;身體</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;胸部</nobr>| [ON] | 
@@ -49,7 +49,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;腿部</nobr>| [ON] | 
 |<nobr>│&nbsp;├&nbsp;腳</nobr>| [ON] | 
 |<nobr>│&nbsp;└&nbsp;玩家</nobr>| [ON] | 
-|<nobr>└&nbsp;**模擬設置**</nobr>| | 
+|<nobr>└&nbsp;<b>模擬設置</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;使用全局</nobr>| [ON] | 在專業版/布料模擬下查找全局設置
 |<nobr>&nbsp;&nbsp;├&nbsp;啟用拖動</nobr>| [ON] | 
 |<nobr>&nbsp;&nbsp;├&nbsp;模擬</nobr>| [ON] | 

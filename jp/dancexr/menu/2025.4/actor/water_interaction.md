@@ -19,7 +19,7 @@ sidebar:
 |<nobr>体</nobr>| [1] (0.1 ~ 2) | 
 |<nobr>手</nobr>| [0.5] (0.1 ~ 2) | 
 |<nobr>足</nobr>| [0.5] (0.1 ~ 2) | 
-|<nobr>水滴</nobr>|| 
+|<nobr><b>水滴</b></nobr>|| 
 |<nobr>汗の滴</nobr>| [0] (0 ~ 1) | 
 |<nobr>水滴の光</nobr>| [5] (0 ~ 20) | 
 |<nobr>水滴の重力</nobr>| [3] (0 ~ 10) | 

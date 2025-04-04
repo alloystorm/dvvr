@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>演员动作</nobr>|| 
+|<nobr><b>演员动作</b></nobr>|| 
 |<nobr>[待机]</nobr>|| 
 |<nobr>├&nbsp;分配给所有</nobr>|| 
 |<nobr>├&nbsp;分配给所选</nobr>|| 
@@ -43,7 +43,7 @@ sidebar:
 |<nobr>├&nbsp;分配给所选</nobr>|| 
 |<nobr>├&nbsp;作为第二个分配给所有</nobr>|| 
 |<nobr>└&nbsp;作为第二个分配给所选</nobr>|| 
-|<nobr>摄影机动作</nobr>|| 
+|<nobr><b>摄影机动作</b></nobr>|| 
 | [[自由飞行相机]](freefly_cam) |
 | [[轨道摄像机]](orbit_cam) |
 | [[自动摄像机]](auto_cam) |

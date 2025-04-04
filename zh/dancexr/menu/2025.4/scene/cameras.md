@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr>[自由飞行相机]</nobr>|| 
-|<nobr>└&nbsp;**[自由飞行相机]**</nobr>| | 
+|<nobr>└&nbsp;<b>[自由飞行相机]</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;目标选择</nobr>| **自动** | 自动, 已选择, 组, 旋转, 旋转 + 组, 舞台中心,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;跟踪模式</nobr>| **中心** | 中心, 头部, 胸部,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;目标平滑</nobr>| [0.5] (0 ~ 2) | 
@@ -32,7 +32,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;使用轨道移动</nobr>| [OFF] | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
 |<nobr>&nbsp;&nbsp;└&nbsp;预设</nobr>| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
 |<nobr>[轨道摄像机]</nobr>|| 
-|<nobr>└&nbsp;**[轨道摄像机]**</nobr>| | 
+|<nobr>└&nbsp;<b>[轨道摄像机]</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;目标选择</nobr>| **自动** | 自动, 已选择, 组, 旋转, 旋转 + 组, 舞台中心,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;跟踪模式</nobr>| **中心** | 中心, 头部, 胸部,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;目标平滑</nobr>| [0.5] (0 ~ 2) | 
@@ -57,7 +57,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;速度</nobr>| [10] (0 ~ 90) | 
 |<nobr>&nbsp;&nbsp;└&nbsp;预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1),  |
 |<nobr>[自动摄像机]</nobr>|| 
-|<nobr>└&nbsp;**[自动摄像机]**</nobr>| | 
+|<nobr>└&nbsp;<b>[自动摄像机]</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;目标选择</nobr>| **自动** | 自动, 已选择, 组, 旋转, 旋转 + 组, 舞台中心,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;跟踪模式</nobr>| **中心** | 中心, 头部, 胸部,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;目标平滑</nobr>| [0.5] (0 ~ 2) | 
@@ -71,22 +71,22 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;淡入黑色</nobr>| [0] (0 ~ 0.25) | (Duration of the fade-to-black effect during transitions.)
 |<nobr>&nbsp;&nbsp;├&nbsp;淡入概率</nobr>| [0.5] (0 ~ 1) | (Probability of triggering the fade-to-black effect.)
 |<nobr>&nbsp;&nbsp;├&nbsp;音频灵敏度</nobr>| [1] (0 ~ 4) | (Sensitivity of the camera motion to audio levels.)
-|<nobr>&nbsp;&nbsp;├&nbsp;目标选择</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>目标选择</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;头部</nobr>| [1] (0 ~ 1) | (Probability of targeting the actor's head.)
 |<nobr>&nbsp;&nbsp;├&nbsp;胸部</nobr>| [1] (0 ~ 1) | (Probability of targeting the actor's chest.)
 |<nobr>&nbsp;&nbsp;├&nbsp;中心</nobr>| [1] (0 ~ 1) | (Probability of targeting the actor's center.)
 |<nobr>&nbsp;&nbsp;├&nbsp;腿</nobr>| [0.5] (0 ~ 1) | (Probability of targeting the actor's legs.)
 |<nobr>&nbsp;&nbsp;├&nbsp;脚</nobr>| [0] (0 ~ 1) | (Probability of targeting the actor's feet.)
-|<nobr>&nbsp;&nbsp;├&nbsp;距离选择</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>距离选择</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;特写</nobr>| [1] (0 ~ 1) | (Probability of a close-up camera distance.)
 |<nobr>&nbsp;&nbsp;├&nbsp;放大</nobr>| [0.25] (0 ~ 1) | (Probability of zooming in.)
 |<nobr>&nbsp;&nbsp;├&nbsp;缩小</nobr>| [0.25] (0 ~ 1) | (Probability of zooming out.)
 |<nobr>&nbsp;&nbsp;├&nbsp;中间</nobr>| [0.25] (0 ~ 1) | (Probability of a middle-range camera distance.)
 |<nobr>&nbsp;&nbsp;├&nbsp;远</nobr>| [0.25] (0 ~ 1) | (Probability of a far camera distance.)
-|<nobr>&nbsp;&nbsp;├&nbsp;路径选择</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>路径选择</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;高角度</nobr>| [20] (0 ~ 30) | (Maximum upward angle for the camera.)
 |<nobr>&nbsp;&nbsp;├&nbsp;低角度</nobr>| [-20] (-30 ~ 0) | (Maximum downward angle for the camera.)
-|<nobr>&nbsp;&nbsp;├&nbsp;方向</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>方向</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;前中央</nobr>| [1] (0 ~ 1) | (Probability of orienting the camera to the front center of the actor.)
 |<nobr>&nbsp;&nbsp;├&nbsp;前45度</nobr>| [0] (0 ~ 1) | (Probability of orienting the camera to a 45-degree angle in front of the actor.)
 |<nobr>&nbsp;&nbsp;├&nbsp;侧面90度</nobr>| [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
@@ -94,7 +94,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;后180度</nobr>| [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
 |<nobr>&nbsp;&nbsp;└&nbsp;预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1),  |
 |<nobr>[长镜头]</nobr>|| 
-|<nobr>└&nbsp;**[长镜头]**</nobr>| | 
+|<nobr>└&nbsp;<b>[长镜头]</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;目标选择</nobr>| **自动** | 自动, 已选择, 组, 旋转, 旋转 + 组, 舞台中心,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;跟踪模式</nobr>| **中心** | 中心, 头部, 胸部,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;目标平滑</nobr>| [0.5] (0 ~ 2) | 
@@ -110,7 +110,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;靠近时提高焦点</nobr>| [OFF] | 距离变小时向上移动焦点位置
 |<nobr>&nbsp;&nbsp;└&nbsp;预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr>[第一人称]</nobr>|| 
-|<nobr>└&nbsp;**[第一人称]**</nobr>| | 
+|<nobr>└&nbsp;<b>[第一人称]</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;选择角色</nobr>|  |  |
 |<nobr>&nbsp;&nbsp;├&nbsp;视野</nobr>| [45] (30 ~ 100) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;近裁剪距离</nobr>| [0.15] (0 ~ 0.3) | 
@@ -122,7 +122,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;禁用自动返回</nobr>| [OFF] | 
 |<nobr>&nbsp;&nbsp;└&nbsp;重新居中</nobr>|| 
 |<nobr>[固定摄影机]</nobr>|| 
-|<nobr>└&nbsp;**[固定摄影机]**</nobr>| | 
+|<nobr>└&nbsp;<b>[固定摄影机]</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;目标选择</nobr>| **自动** | 自动, 已选择, 组, 旋转, 旋转 + 组, 舞台中心,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;跟踪模式</nobr>| **中心** | 中心, 头部, 胸部,  |
 |<nobr>&nbsp;&nbsp;├&nbsp;目标平滑</nobr>| [0.5] (0 ~ 2) | 
@@ -139,10 +139,10 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;大小</nobr>| [1] (0 ~ 2) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;偏移</nobr>| [0] (-1 ~ 1) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;目标中心</nobr>| [0] (-1 ~ 1) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;偏移</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>偏移</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;(Z)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>&nbsp;&nbsp;└&nbsp;预设</nobr>| **远** | 近, 远,  |
-|<nobr>配置</nobr>|| 
+|<nobr><b>配置</b></nobr>|| 
 | [配置摄影机](config_camera) |

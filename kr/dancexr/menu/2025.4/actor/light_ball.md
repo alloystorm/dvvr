@@ -17,10 +17,10 @@ sidebar:
 |<nobr>활성화</nobr>| [OFF] | 
 |<nobr>형상</nobr>| 공 | 공, 다이아몬드, 크리스탈, 
 |<nobr>크기</nobr>| [1] (0.1 ~ 10) | 
-|<nobr>**스타일**</nobr>| | 
+|<nobr><b>스타일</b></nobr>| | 
 |<nobr>├&nbsp;무대 색상 사용</nobr>| [OFF] | 
 |<nobr>├&nbsp;비트에 맞춰 깜빡임</nobr>| [OFF] | 
-|<nobr>├&nbsp;**색상**</nobr>| | 
+|<nobr>├&nbsp;<b>색상</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;채도</nobr>| [0] (0 ~ 1) | 
@@ -38,7 +38,7 @@ sidebar:
 |<nobr>├&nbsp;그림자 생성</nobr>| [OFF] | 
 |<nobr>├&nbsp;트레일</nobr>| [0] (0 ~ 2) | 
 |<nobr>└&nbsp;프리셋</nobr>| **발광** | 발광, 반사형, 크리스탈,  |
-|<nobr>**물리**</nobr>| | 
+|<nobr><b>물리</b></nobr>| | 
 |<nobr>├&nbsp;중력</nobr>| [OFF] | 
 |<nobr>├&nbsp;충돌</nobr>| [ON] | 
 |<nobr>├&nbsp;질량</nobr>| [0.1] (0 ~ 10) | 

@@ -18,7 +18,7 @@ sidebar:
 |<nobr>選択したものに割り当て</nobr>|| 
 |<nobr>2番目としてすべてに割り当て</nobr>|| 
 |<nobr>2番目として選択したものに割り当て</nobr>|| 
-|<nobr>**(Body Motion)**</nobr>| | 
+|<nobr><b>(Body Motion)</b></nobr>| | 
 |<nobr>├&nbsp;同期</nobr>| [0.5] (0 ~ 2) | 
 |<nobr>├&nbsp;ディレイ</nobr>| [-0.25] (-0.5 ~ 0.5) | 
 |<nobr>├&nbsp;比率</nobr>| [0.5] (0 ~ 1) | 
@@ -32,7 +32,7 @@ sidebar:
 |<nobr>├&nbsp;(Orient)</nobr>| [0] (-45 ~ 45) | 
 |<nobr>└&nbsp;プリセット</nobr>| **デフォルト（リセット）** | デフォルト（リセット）,  |
 |<nobr>範囲</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>**スピード**</nobr>| | 
+|<nobr><b>スピード</b></nobr>| | 
 |<nobr>├&nbsp;ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>├&nbsp;グループあたりの動き</nobr>| [8] (4 ~ 32) | 
 |<nobr>├&nbsp;フェーズ</nobr>| [0] (0 ~ 1) | 
@@ -41,13 +41,13 @@ sidebar:
 |<nobr>├&nbsp;モード</nobr>| (Gradual) | (Gradual), ランダム, ボリューム, 
 |<nobr>├&nbsp;最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
 |<nobr>└&nbsp;最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
-|<nobr>**脚**</nobr>| | 
+|<nobr><b>脚</b></nobr>| | 
 |<nobr>├&nbsp;(Dist)</nobr>| [0.1] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Level)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Stride)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Forward)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>└&nbsp;開く</nobr>| [0] (-1 ~ 1) | 
-|<nobr>**(Transit Between Presets)**</nobr>| | 
+|<nobr><b>(Transit Between Presets)</b></nobr>| | 
 |<nobr>├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>├&nbsp;(Transit Between Presets: 0 / 1)</nobr>|| 
 |<nobr>│&nbsp;└&nbsp;デフォルト（リセット）</nobr>| [OFF] | 

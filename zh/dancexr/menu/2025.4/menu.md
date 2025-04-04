@@ -96,7 +96,7 @@ sidebar:
 | [材质](actor/materials) |  | 
 | [设置](actor/all_settings) |  | 
 | [专业版](actor/pro_tools) |  | 
-| [物理](actor/model_physics) |  | 
+| [物理](actor/physics_settings) |  | 
 | [预设](actor/actor_presets) |  | 
 | | |
 

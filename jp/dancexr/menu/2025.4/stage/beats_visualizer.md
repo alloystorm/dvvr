@@ -20,7 +20,7 @@ sidebar:
 |<nobr>半径</nobr>| [1.2] (0.2 ~ 5) | 
 |<nobr>マーカーサイズ</nobr>| [0.02] (0 ~ 1) | 
 |<nobr>ライン幅</nobr>| [0.01] (0 ~ 1) | 
-|<nobr>**ラインカラー**</nobr>| | 
+|<nobr><b>ラインカラー</b></nobr>| | 
 |<nobr>├&nbsp;カラーモード</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr>├&nbsp;色相</nobr>| [0.3333333] (0 ~ 1) | 
 |<nobr>├&nbsp;彩度</nobr>| [1] (0 ~ 1) | 
@@ -30,7 +30,7 @@ sidebar:
 |<nobr>├&nbsp;青</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;グロー</nobr>| [1] (0 ~ 20) | 
 |<nobr>└&nbsp;プリセット</nobr>| **緑** | 白, 赤, 緑, 青, アニメーション色相, 音楽による光,  |
-|<nobr>**マーカーカラー**</nobr>| | 
+|<nobr><b>マーカーカラー</b></nobr>| | 
 |<nobr>├&nbsp;カラーモード</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr>├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 

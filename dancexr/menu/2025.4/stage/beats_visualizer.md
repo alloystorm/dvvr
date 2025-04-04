@@ -20,7 +20,7 @@ sidebar:
 |<nobr>Radius</nobr>| [1.2] (0.2 ~ 5) | 
 |<nobr>Marker Size</nobr>| [0.02] (0 ~ 1) | 
 |<nobr>Line Width</nobr>| [0.01] (0 ~ 1) | 
-|<nobr>**Line Color**</nobr>| | 
+|<nobr><b>Line Color</b></nobr>| | 
 |<nobr>├&nbsp;Color Mode</nobr>| HSV | RGB, HSV, 
 |<nobr>├&nbsp;Hue</nobr>| [0.3333333] (0 ~ 1) | 
 |<nobr>├&nbsp;Satuation</nobr>| [1] (0 ~ 1) | 
@@ -30,7 +30,7 @@ sidebar:
 |<nobr>├&nbsp;Blue</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;Glow</nobr>| [1] (0 ~ 20) | 
 |<nobr>└&nbsp;Presets</nobr>| **Green** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
-|<nobr>**Marker Color**</nobr>| | 
+|<nobr><b>Marker Color</b></nobr>| | 
 |<nobr>├&nbsp;Color Mode</nobr>| HSV | RGB, HSV, 
 |<nobr>├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 

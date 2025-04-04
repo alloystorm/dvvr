@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr>抗鋸齒</nobr>| **延遲 SMAA** | 不使用抗鋸齒, 延遲 SMAA, 延遲 TAA,  |
-|<nobr>**光線追蹤**</nobr>| | 
+|<nobr><b>光線追蹤</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [ON] | 
 |<nobr>├&nbsp;反射</nobr>| [ON] | 
 |<nobr>├&nbsp;環境光遮蔽</nobr>| [ON] | 
@@ -26,7 +26,7 @@ sidebar:
 |<nobr>├&nbsp;去噪</nobr>| [ON] | 
 |<nobr>└&nbsp;去噪半徑</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>超取樣</nobr>| **關閉** | 關閉, DLSS 性能, DLSS 平衡, DLSS 品質, DLSS 超性能, FSR 50%, FSR 66%, FSR 75%, FSR 100%,  |
-|<nobr>**反射**</nobr>| | 
+|<nobr><b>反射</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [ON] | 
 |<nobr>├&nbsp;模式</nobr>| 螢幕空間 | 螢幕空間, 探針, 
 |<nobr>├&nbsp;品質</nobr>| 高 | 低, 中, 高, 
@@ -35,38 +35,38 @@ sidebar:
 |<nobr>├&nbsp;物件厚度</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr>├&nbsp;回退至天空</nobr>| [ON] | 當光線追蹤沒有命中時回退至天空顏色。
 |<nobr>└&nbsp;天空反射</nobr>| [ON] | 
-|<nobr>**霧**</nobr>| | 
+|<nobr><b>霧</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [ON] | 
 |<nobr>├&nbsp;體積霧</nobr>| [ON] | 
 |<nobr>├&nbsp;基礎高度</nobr>| [0] (0 ~ 10) | 
 |<nobr>├&nbsp;最大高度</nobr>| [25] (10 ~ 100) | 
 |<nobr>└&nbsp;最大距離</nobr>| [5000] (0 ~ 10000) | 
-|<nobr>**環境光遮蔽**</nobr>| | 
+|<nobr><b>環境光遮蔽</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;品質</nobr>| 高 | 低, 中, 高, 
 |<nobr>└&nbsp;強度</nobr>| [1] (0 ~ 1) | 
-|<nobr>**全局光照**</nobr>| | 
+|<nobr><b>全局光照</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;品質</nobr>| 低 | 低, 中, 高, 
 |<nobr>└&nbsp;回退至天空</nobr>| [ON] | 
-|<nobr>**景深**</nobr>| | 
+|<nobr><b>景深</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;品質</nobr>| 中 | 低, 中, 高, 
 |<nobr>├&nbsp;強度</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>└&nbsp;偏移</nobr>| [0.1] (-1 ~ 1) | 
-|<nobr>**動態模糊**</nobr>| | 
+|<nobr><b>動態模糊</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;品質</nobr>| 中 | 低, 中, 高, 
 |<nobr>└&nbsp;強度</nobr>| [0.25] (0 ~ 1) | 
-|<nobr>**泛光**</nobr>| | 
+|<nobr><b>泛光</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [ON] | 
 |<nobr>├&nbsp;品質</nobr>| 高 | 低, 中, 高, 
 |<nobr>└&nbsp;強度</nobr>| [0.25] (0 ~ 1) | 
-|<nobr>**鏡頭光暈**</nobr>| | 
+|<nobr><b>鏡頭光暈</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [ON] | 
 |<nobr>├&nbsp;在 VR 中禁用</nobr>| [ON] | 此效果不建議用於 VR
 |<nobr>├&nbsp;強度</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>├&nbsp;**顏色**</nobr>| | 
+|<nobr>├&nbsp;<b>顏色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
@@ -81,13 +81,13 @@ sidebar:
 |<nobr>├&nbsp;條紋</nobr>| [0.2] (0 ~ 1) | 
 |<nobr>├&nbsp;長度</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>└&nbsp;色差</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>**顏色調整**</nobr>| | 
+|<nobr><b>顏色調整</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [ON] | 
 |<nobr>├&nbsp;後期曝光</nobr>| [0] (-12 ~ 12) | 
 |<nobr>├&nbsp;對比度</nobr>| [1] (-100 ~ 100) | 
 |<nobr>├&nbsp;色相偏移</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;飽和度</nobr>| [1] (-100 ~ 100) | 
-|<nobr>└&nbsp;**顏色濾鏡**</nobr>| | 
+|<nobr>└&nbsp;<b>顏色濾鏡</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;顏色模式</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr>&nbsp;&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;飽和度</nobr>| [0] (0 ~ 1) | 
@@ -97,7 +97,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;├&nbsp;藍色</nobr>| [1] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;發光</nobr>| [1] (0 ~ 20) | 
 |<nobr>&nbsp;&nbsp;└&nbsp;預設</nobr>| **白色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
-|<nobr>**顏色曲線**</nobr>| | 
+|<nobr><b>顏色曲線</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [ON] | 
 |<nobr>├&nbsp;起始漸變</nobr>| [1] (0 ~ 4) | 
 |<nobr>├&nbsp;起始位置</nobr>| [0] (0 ~ 0.5) | 
@@ -105,11 +105,11 @@ sidebar:
 |<nobr>├&nbsp;結束漸變</nobr>| [1] (0 ~ 4) | 
 |<nobr>├&nbsp;結束位置</nobr>| [1] (0.5 ~ 1) | 
 |<nobr>└&nbsp;結束值</nobr>| [1] (0.5 ~ 1) | 
-|<nobr>**白平衡**</nobr>| | 
+|<nobr><b>白平衡</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [ON] | 
 |<nobr>├&nbsp;溫度</nobr>| [0] (-100 ~ 100) | 
 |<nobr>└&nbsp;色調</nobr>| [0] (-100 ~ 100) | 
-|<nobr>**特殊渲染**</nobr>| | 
+|<nobr><b>特殊渲染</b></nobr>| | 
 |<nobr>├&nbsp;啟用</nobr>| [OFF] | 
 |<nobr>├&nbsp;模式</nobr>| 深度輸出 | 深度輸出, 法線輸出, 
 |<nobr>├&nbsp;深度範圍</nobr>| [1] (0 ~ 1) | 
@@ -119,7 +119,7 @@ sidebar:
 |<nobr>色調映射</nobr>| 自訂 | 無, 中性, ACES, 自訂, 
 |<nobr>演員卡通陰影</nobr>| [OFF] | 對所有角色使用卡通陰影。
 |<nobr>階段卡通陰影</nobr>| [OFF] | 對舞台和道具使用卡通陰影。
-|<nobr>**選項**</nobr>| | 
+|<nobr><b>選項</b></nobr>| | 
 |<nobr>├&nbsp;透明預處理</nobr>| [ON] | 啟用透明預處理。這將使被遮擋的透明材質不可見。
 |<nobr>├&nbsp;螢幕空間陰影</nobr>| [ON] | 
 |<nobr>├&nbsp;接觸陰影</nobr>| [OFF] | 小細節的陰影。

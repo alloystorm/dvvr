@@ -20,7 +20,7 @@ sidebar:
 |<nobr>반경</nobr>| [1.2] (0.2 ~ 5) | 
 |<nobr>마커 크기</nobr>| [0.02] (0 ~ 1) | 
 |<nobr>선 너비</nobr>| [0.01] (0 ~ 1) | 
-|<nobr>**선 색상**</nobr>| | 
+|<nobr><b>선 색상</b></nobr>| | 
 |<nobr>├&nbsp;색상 모드</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr>├&nbsp;색조</nobr>| [0.3333333] (0 ~ 1) | 
 |<nobr>├&nbsp;채도</nobr>| [1] (0 ~ 1) | 
@@ -30,7 +30,7 @@ sidebar:
 |<nobr>├&nbsp;파란색</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;발광</nobr>| [1] (0 ~ 20) | 
 |<nobr>└&nbsp;프리셋</nobr>| **초록색** | 흰색, 빨간색, 초록색, 파란색, 애니메이션 색조, 음악과 함께 빛남,  |
-|<nobr>**마커 색상**</nobr>| | 
+|<nobr><b>마커 색상</b></nobr>| | 
 |<nobr>├&nbsp;색상 모드</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr>├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;채도</nobr>| [0] (0 ~ 1) | 

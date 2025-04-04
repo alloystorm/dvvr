@@ -20,7 +20,7 @@ sidebar:
 |<nobr>半径</nobr>| [1.2] (0.2 ~ 5) | 
 |<nobr>标记大小</nobr>| [0.02] (0 ~ 1) | 
 |<nobr>线宽</nobr>| [0.01] (0 ~ 1) | 
-|<nobr>**线条颜色**</nobr>| | 
+|<nobr><b>线条颜色</b></nobr>| | 
 |<nobr>├&nbsp;颜色模式</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr>├&nbsp;色相</nobr>| [0.3333333] (0 ~ 1) | 
 |<nobr>├&nbsp;饱和度</nobr>| [1] (0 ~ 1) | 
@@ -30,7 +30,7 @@ sidebar:
 |<nobr>├&nbsp;蓝色</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;发光</nobr>| [1] (0 ~ 20) | 
 |<nobr>└&nbsp;预设</nobr>| **绿色** | 白色, 红色, 绿色, 蓝色, 动画色相, 伴音乐的辉光,  |
-|<nobr>**标记颜色**</nobr>| | 
+|<nobr><b>标记颜色</b></nobr>| | 
 |<nobr>├&nbsp;颜色模式</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr>├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;饱和度</nobr>| [0] (0 ~ 1) | 

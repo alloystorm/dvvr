@@ -19,5 +19,5 @@ sidebar:
 |<nobr>중복 제거</nobr>|| 
 |<nobr>라이브러리 전환</nobr>|| 
 |<nobr>탐색기에서 보기</nobr>|| 
-|<nobr>구글 드라이브</nobr>|| 
+|<nobr><b>구글 드라이브</b></nobr>|| 
 |<nobr>구글 드라이브 링크</nobr>|| 

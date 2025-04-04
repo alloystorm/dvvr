@@ -21,53 +21,53 @@ sidebar:
 |<nobr>Time Offset Seconds</nobr>| [0] (-5 ~ 5) | The time offset added to the actor when applying motion in seconds.
 |<nobr>Spectator</nobr>| [OFF] | Set the actor as a spectator.
 |<nobr>Leg Angle</nobr>| [0] (-15 ~ 15) | 
-|<nobr>Pose Adjustment</nobr>|| 
-|<nobr>**Center Position**</nobr>| | 
+|<nobr><b>Pose Adjustment</b></nobr>|| 
+|<nobr><b>Center Position</b></nobr>| | 
 |<nobr>├&nbsp;X</nobr>| [0] (-2 ~ 2) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (-2 ~ 2) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (-2 ~ 2) | 
-|<nobr>**Center Rotation**</nobr>| | 
+|<nobr><b>Center Rotation</b></nobr>| | 
 |<nobr>├&nbsp;X</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (-180 ~ 180) | 
-|<nobr>**Shoulder Rotation**</nobr>| | 
+|<nobr><b>Shoulder Rotation</b></nobr>| | 
 |<nobr>├&nbsp;X</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**Arm Rotation**</nobr>| | 
+|<nobr><b>Arm Rotation</b></nobr>| | 
 |<nobr>├&nbsp;X</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**Forearm Rotation**</nobr>| | 
+|<nobr><b>Forearm Rotation</b></nobr>| | 
 |<nobr>├&nbsp;X</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**Hand Rotation**</nobr>| | 
+|<nobr><b>Hand Rotation</b></nobr>| | 
 |<nobr>├&nbsp;X</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**Leg Rotation**</nobr>| | 
+|<nobr><b>Leg Rotation</b></nobr>| | 
 |<nobr>├&nbsp;X</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**Foot Rotation**</nobr>| | 
+|<nobr><b>Foot Rotation</b></nobr>| | 
 |<nobr>├&nbsp;X</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**Thumb Rotation 1**</nobr>| | 
+|<nobr><b>Thumb Rotation 1</b></nobr>| | 
 |<nobr>├&nbsp;X</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**Thumb Rotation 2**</nobr>| | 
+|<nobr><b>Thumb Rotation 2</b></nobr>| | 
 |<nobr>├&nbsp;X</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**Pinky Finger**</nobr>| | 
+|<nobr><b>Pinky Finger</b></nobr>| | 
 |<nobr>├&nbsp;X</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (-90 ~ 90) | 
 |<nobr>Ring Finger</nobr>| [0.75] (0 ~ 1) | 
-|<nobr>**Index Finger**</nobr>| | 
+|<nobr><b>Index Finger</b></nobr>| | 
 |<nobr>├&nbsp;X</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;Y</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;Z</nobr>| [0] (-90 ~ 90) | 

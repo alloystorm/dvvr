@@ -19,5 +19,3 @@ sidebar:
 | [逼真的动作](lifelike_motions) |
 | [故障排除](troubleshooting) |
 | [水的互动](water_interaction) |
-| [可视化骨骼](visualize_bones) |
-| [运动传递](motion_passes) |

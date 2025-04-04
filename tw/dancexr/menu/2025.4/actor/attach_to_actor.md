@@ -19,11 +19,11 @@ sidebar:
 |<nobr>選擇演員</nobr>|  |  |
 |<nobr>選擇目標骨骼</nobr>|| 選擇要附加的目標骨骼
 |<nobr>(Ignore Rotation)</nobr>| [OFF] | 忽略附加骨骼的旋轉
-|<nobr>偏移</nobr>|| 
+|<nobr><b>偏移</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>旋轉</nobr>|| 
+|<nobr><b>旋轉</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>(Z)</nobr>| [0] (-180 ~ 180) | 

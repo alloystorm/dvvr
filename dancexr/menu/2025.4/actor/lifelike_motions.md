@@ -21,7 +21,7 @@ sidebar:
 |<nobr>Look At Body</nobr>| [0.5] (0 ~ 1) | Priority of certain body parts as gaze target
 |<nobr>Eye Contact Angle</nobr>| [80] (0 ~ 180) | Angle of visual range, only objects within this angle can be gaze target
 |<nobr>Eye Contact Head Turn</nobr>| [0.7] (0 ~ 1) | Ratio of head turn when looking at target
-|<nobr>Cartoon Eyes</nobr>| [ON] | Reduce eye rotation, useful for models with big cartoon eyes
+|<nobr>Cartoon Eyes</nobr>| [OFF] | Reduce eye rotation, useful for models with big cartoon eyes
 |<nobr>Cartoon Eyes Limit</nobr>| [0.4] (0 ~ 1) | How much rotation reduction in cartoon eyes mode
 |<nobr>Smile Mouth</nobr>| [1] (0 ~ 1) | 
 |<nobr>Smile Eyebrow</nobr>| [0.5] (0 ~ 1) | 

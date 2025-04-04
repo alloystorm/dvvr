@@ -17,10 +17,10 @@ sidebar:
 |<nobr>Enable</nobr>| [OFF] | 
 |<nobr>Shape</nobr>| Ball | Ball, Diamond, Crystal, 
 |<nobr>Size</nobr>| [1] (0.1 ~ 10) | 
-|<nobr>**Style**</nobr>| | 
+|<nobr><b>Style</b></nobr>| | 
 |<nobr>├&nbsp;Use Stage Color</nobr>| [OFF] | 
 |<nobr>├&nbsp;Flashing With Beats</nobr>| [OFF] | 
-|<nobr>├&nbsp;**Color**</nobr>| | 
+|<nobr>├&nbsp;<b>Color</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>│&nbsp;├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
@@ -38,7 +38,7 @@ sidebar:
 |<nobr>├&nbsp;Cast Shadow</nobr>| [OFF] | 
 |<nobr>├&nbsp;Trail</nobr>| [0] (0 ~ 2) | 
 |<nobr>└&nbsp;Presets</nobr>| **Glow** | Glow, Reflective, Crystal,  |
-|<nobr>**Physics**</nobr>| | 
+|<nobr><b>Physics</b></nobr>| | 
 |<nobr>├&nbsp;Gravity</nobr>| [OFF] | 
 |<nobr>├&nbsp;Collision</nobr>| [ON] | 
 |<nobr>├&nbsp;Mass</nobr>| [0.1] (0 ~ 10) | 

@@ -22,19 +22,19 @@ sidebar:
 |<nobr>風</nobr>| [1] (0 ~ 4) | (Global wind speed affecting cloth simulation, particle dynamics, and clouds.)
 |<nobr>風向き</nobr>| [0] (0 ~ 360) | (Sets the global wind direction in degrees.)
 |<nobr>風フィールド</nobr>| [OFF] | 
-|<nobr>**位置**</nobr>| | Sets the position of the wind field.
+|<nobr><b>位置</b></nobr>| | Sets the position of the wind field.
 |<nobr>├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>**回転**</nobr>| | Sets the rotation of the wind field.
+|<nobr><b>回転</b></nobr>| | Sets the rotation of the wind field.
 |<nobr>├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
 |<nobr>距離</nobr>| [5] (0 ~ 10) | (Sets the distance of the wind field.)
 |<nobr>半径</nobr>| [1] (0 ~ 2) | (Sets the radius of the wind field.)
 |<nobr>スピード</nobr>| [1] (0 ~ 4) | (Sets the speed of the wind field.)
-|<nobr>空の環境光</nobr>|| 
-|<nobr>**スカイカラー**</nobr>| | 
+|<nobr><b>空の環境光</b></nobr>|| 
+|<nobr><b>スカイカラー</b></nobr>| | 
 |<nobr>├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -45,7 +45,7 @@ sidebar:
 |<nobr>├&nbsp;ステージカラーを使用</nobr>| [OFF] | ステージリングからの色を使用
 |<nobr>├&nbsp;色温度</nobr>| [6500] (3000 ~ 8000) | 
 |<nobr>└&nbsp;プリセット</nobr>| **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
-|<nobr>**ミドルカラー**</nobr>| | 
+|<nobr><b>ミドルカラー</b></nobr>| | 
 |<nobr>├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -56,7 +56,7 @@ sidebar:
 |<nobr>├&nbsp;ステージカラーを使用</nobr>| [OFF] | ステージリングからの色を使用
 |<nobr>├&nbsp;色温度</nobr>| [6500] (3000 ~ 8000) | 
 |<nobr>└&nbsp;プリセット</nobr>| **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
-|<nobr>**グラウンドカラー**</nobr>| | 
+|<nobr><b>グラウンドカラー</b></nobr>| | 
 |<nobr>├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -67,7 +67,7 @@ sidebar:
 |<nobr>├&nbsp;ステージカラーを使用</nobr>| [OFF] | ステージリングからの色を使用
 |<nobr>├&nbsp;色温度</nobr>| [6500] (3000 ~ 8000) | 
 |<nobr>└&nbsp;プリセット</nobr>| **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
-|<nobr>**雲**</nobr>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
+|<nobr><b>雲</b></nobr>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
 |<nobr>├&nbsp;有効にする</nobr>| [ON] | (Enables or disables volumetric clouds.)
 |<nobr>├&nbsp;形状スケール</nobr>| [1] (-1 ~ 2) | (Controls the scale of the cloud shapes.)
 |<nobr>├&nbsp;形状係数</nobr>| [0.8] (0 ~ 1) | (Adjusts the shape factor of the clouds.)

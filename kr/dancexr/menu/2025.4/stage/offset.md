@@ -14,11 +14,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr>위치</nobr>|| 
+|<nobr><b>위치</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>회전</nobr>|| 
+|<nobr><b>회전</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>(Z)</nobr>| [0] ((Unlimited)) | 

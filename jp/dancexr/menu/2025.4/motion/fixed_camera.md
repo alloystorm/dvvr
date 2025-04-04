@@ -31,7 +31,7 @@ sidebar:
 |<nobr>サイズ</nobr>| [1] (0 ~ 2) | 
 |<nobr>シフト</nobr>| [0] (-1 ~ 1) | 
 |<nobr>ターゲットセンター</nobr>| [0] (-1 ~ 1) | 
-|<nobr>オフセット</nobr>|| 
+|<nobr><b>オフセット</b></nobr>|| 
 |<nobr>(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>(Z)</nobr>| [0] (-2 ~ 2) | 

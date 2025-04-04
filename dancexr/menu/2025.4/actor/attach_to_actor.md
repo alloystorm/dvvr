@@ -19,11 +19,11 @@ sidebar:
 |<nobr>Select Actor</nobr>|  |  |
 |<nobr>Select Target Bones</nobr>|| Select target bone to attach to
 |<nobr>Ignore Rotation</nobr>| [OFF] | Ignore rotation of attach bone
-|<nobr>Offset</nobr>|| 
+|<nobr><b>Offset</b></nobr>|| 
 |<nobr>X</nobr>| [0] (-1 ~ 1) | 
 |<nobr>Y</nobr>| [0] (-1 ~ 1) | 
 |<nobr>Z</nobr>| [0] (-1 ~ 1) | 
-|<nobr>Rotation</nobr>|| 
+|<nobr><b>Rotation</b></nobr>|| 
 |<nobr>X</nobr>| [0] (-180 ~ 180) | 
 |<nobr>Y</nobr>| [0] (-180 ~ 180) | 
 |<nobr>Z</nobr>| [0] (-180 ~ 180) | 

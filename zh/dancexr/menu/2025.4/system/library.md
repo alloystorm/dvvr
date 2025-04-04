@@ -19,5 +19,5 @@ sidebar:
 |<nobr>删除重复项</nobr>|| 
 |<nobr>切换库</nobr>|| 
 |<nobr>在资源管理器中显示</nobr>|| 
-|<nobr>谷歌云端硬盘</nobr>|| 
+|<nobr><b>谷歌云端硬盘</b></nobr>|| 
 |<nobr>链接谷歌云端硬盘</nobr>|| 

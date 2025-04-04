@@ -19,5 +19,3 @@ sidebar:
 | [실제와 같은 움직임](lifelike_motions) |
 | [문제 해결](troubleshooting) |
 | [물 상호작용](water_interaction) |
-| [뼈 시각화](visualize_bones) |
-| [모션 패스](motion_passes) |

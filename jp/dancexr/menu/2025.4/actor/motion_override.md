@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr>有効にする</nobr>| [OFF] | 
-|<nobr>**体**</nobr>| | 
+|<nobr><b>体</b></nobr>| | 
 |<nobr>├&nbsp;位置</nobr>| 自由 | 自由, 横固定, 縦固定, 位置固定, 
 |<nobr>├&nbsp;回転</nobr>| 自由 | 自由, 回転固定, 
 |<nobr>├&nbsp;ダンピング</nobr>| [0.5] (0 ~ 1) | 
@@ -30,9 +30,9 @@ sidebar:
 |<nobr>├&nbsp;検出範囲</nobr>| [2] (0 ~ 10) | 
 |<nobr>├&nbsp;最小距離</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>└&nbsp;最大距離</nobr>| [1] (0.5 ~ 2) | 
-|<nobr>**ロッキングモーション**</nobr>| | 
+|<nobr><b>ロッキングモーション</b></nobr>| | 
 |<nobr>├&nbsp;有効にする</nobr>| [ON] | 
-|<nobr>├&nbsp;**スピード**</nobr>| | 
+|<nobr>├&nbsp;<b>スピード</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;グループあたりの動き</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;├&nbsp;フェーズ</nobr>| [0] (0 ~ 1) | 
@@ -48,17 +48,17 @@ sidebar:
 |<nobr>├&nbsp;深さの最大</nobr>| [0.15] (0 ~ 0.3) | 
 |<nobr>├&nbsp;深さの追加</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr>└&nbsp;足のモーション</nobr>| [0] (-1 ~ 1) | 
-|<nobr>**ヘッドポーズ**</nobr>| | 
+|<nobr><b>ヘッドポーズ</b></nobr>| | 
 |<nobr>├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>├&nbsp;回転 X</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;回転 Y</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└&nbsp;回転 Z</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**脚のポーズ**</nobr>| | 
+|<nobr><b>脚のポーズ</b></nobr>| | 
 |<nobr>├&nbsp;有効にする</nobr>| [ON] | 
 |<nobr>├&nbsp;床に対して相対的</nobr>| [ON] | 
 |<nobr>├&nbsp;最大ツイスト</nobr>| [60] (0 ~ 90) | 
 |<nobr>├&nbsp;対称</nobr>| [ON] | 
-|<nobr>├&nbsp;**左**</nobr>| | 
+|<nobr>├&nbsp;<b>左</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;開く</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;├&nbsp;足のX</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;足のY</nobr>| [0] ((Unlimited)) | 
@@ -67,7 +67,7 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;足の回転Y</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;足の回転Z</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;つま先</nobr>| [0] (-180 ~ 180) | 
-|<nobr>├&nbsp;**右**</nobr>| | 
+|<nobr>├&nbsp;<b>右</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;開く</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;├&nbsp;足のX</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;足のY</nobr>| [0] ((Unlimited)) | 
@@ -78,14 +78,14 @@ sidebar:
 |<nobr>│&nbsp;└&nbsp;つま先</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;プリセット</nobr>| **(Ride)** | (Sit), (Ride), (Kneel), (Stand),  |
 |<nobr>手の対称</nobr>| [ON] | 
-|<nobr>**左手**</nobr>| | 
+|<nobr><b>左手</b></nobr>| | 
 |<nobr>├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>├&nbsp;ジェスチャー</nobr>| **(Fist)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>├&nbsp;**手の位置**</nobr>| | 
+|<nobr>├&nbsp;<b>手の位置</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>├&nbsp;**手の回転**</nobr>| | 
+|<nobr>├&nbsp;<b>手の回転</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
@@ -99,9 +99,9 @@ sidebar:
 |<nobr>├&nbsp;ブレンド範囲</nobr>| [0.75] (0 ~ 2) | 
 |<nobr>├&nbsp;対称オフセット</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;アクセサリーポジションを使用</nobr>| [ON] | 
-|<nobr>├&nbsp;**モーション**</nobr>| | 
+|<nobr>├&nbsp;<b>モーション</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**スピード**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>スピード</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;グループあたりの動き</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;フェーズ</nobr>| [0] (0 ~ 1) | 
@@ -112,7 +112,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;└&nbsp;最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
-|<nobr>├&nbsp;**カスタムポーズ**</nobr>| | 
+|<nobr>├&nbsp;<b>カスタムポーズ</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;開く</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;親指軸</nobr>| [90] (-360 ~ 360) | 
@@ -129,14 +129,14 @@ sidebar:
 |<nobr>├&nbsp;つかむ位置</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr>├&nbsp;(Grab Axis)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;プリセット</nobr>| **(Rest)** | (Rest), 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr>**右手**</nobr>| | 
+|<nobr><b>右手</b></nobr>| | 
 |<nobr>├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>├&nbsp;ジェスチャー</nobr>| **(Fist)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>├&nbsp;**手の位置**</nobr>| | 
+|<nobr>├&nbsp;<b>手の位置</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>├&nbsp;**手の回転**</nobr>| | 
+|<nobr>├&nbsp;<b>手の回転</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│&nbsp;└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
@@ -150,9 +150,9 @@ sidebar:
 |<nobr>├&nbsp;ブレンド範囲</nobr>| [0.75] (0 ~ 2) | 
 |<nobr>├&nbsp;対称オフセット</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;アクセサリーポジションを使用</nobr>| [ON] | 
-|<nobr>├&nbsp;**モーション**</nobr>| | 
+|<nobr>├&nbsp;<b>モーション</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**スピード**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>スピード</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;グループあたりの動き</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;フェーズ</nobr>| [0] (0 ~ 1) | 
@@ -163,7 +163,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;└&nbsp;最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
-|<nobr>├&nbsp;**カスタムポーズ**</nobr>| | 
+|<nobr>├&nbsp;<b>カスタムポーズ</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;開く</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;親指軸</nobr>| [90] (-360 ~ 360) | 
@@ -180,17 +180,17 @@ sidebar:
 |<nobr>├&nbsp;つかむ位置</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr>├&nbsp;(Grab Axis)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└&nbsp;プリセット</nobr>| **(Rest)** | (Rest), 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr>**ライドモデル**</nobr>| | 
+|<nobr><b>ライドモデル</b></nobr>| | 
 |<nobr>├&nbsp;有効にする</nobr>| [ON] | 
 |<nobr>├&nbsp;モデル</nobr>| **([Hoverbike])** | ([Hoverbike]), ([Rocking Horse]),  |
 |<nobr>├&nbsp;加速度</nobr>| [10] (0 ~ 20) | 
 |<nobr>├&nbsp;ドラッグ</nobr>| [0.05] (0 ~ 1) | 
 |<nobr>├&nbsp;曲がるときの傾き</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>├&nbsp;位置</nobr>|| 
+|<nobr>├&nbsp;<b>位置</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├&nbsp;回転</nobr>|| 
+|<nobr>├&nbsp;<b>回転</b></nobr>|| 
 |<nobr>├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 

@@ -16,14 +16,14 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr>활성화</nobr>| [OFF] | 
 |<nobr>모드</nobr>| 컬러 페인트 | 컬러 페인트, 의상, 의상 페인트, 
-|<nobr>**바디 페인트**</nobr>| | 
+|<nobr><b>바디 페인트</b></nobr>| | 
 |<nobr>├&nbsp;페인트 면</nobr>| 둘 다 | 둘 다, 앞면, 뒷면, 
 |<nobr>├&nbsp;텍스처</nobr>| **[없음]** | [없음], [타투],  |
 |<nobr>├&nbsp;브러시 크기</nobr>| [0.2] (0 ~ 1) | 
 |<nobr>├&nbsp;브러시 회전</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;브러시 종류</nobr>| 베이스 | 베이스, 패턴, 엣지, 지우기, 
 |<nobr>├&nbsp;지우기</nobr>| [OFF] | 
-|<nobr>├&nbsp;**색상**</nobr>| | 
+|<nobr>├&nbsp;<b>색상</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;채도</nobr>| [0] (0 ~ 1) | 
@@ -37,7 +37,7 @@ sidebar:
 |<nobr>├&nbsp;캔버스 지우기</nobr>|| 
 |<nobr>├&nbsp;그림 저장</nobr>|| 
 |<nobr>└&nbsp;그림 불러오기</nobr>| **[없음]** | [없음],  |
-|<nobr>**형태 및 패턴**</nobr>| | 
+|<nobr><b>형태 및 패턴</b></nobr>| | 
 |<nobr>├&nbsp;상단 높이1</nobr>| [3] (0 ~ 3) | 중앙 첫 번째 선의 높이
 |<nobr>├&nbsp;상단 각도1</nobr>| [0] (-180 ~ 180) | 첫 번째 선의 각도
 |<nobr>├&nbsp;상단 높이2</nobr>| [3] (0 ~ 3) | 중앙 두 번째 선의 높이
@@ -58,7 +58,7 @@ sidebar:
 |<nobr>├&nbsp;내부 범프</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>├&nbsp;내부 거리</nobr>| [0.005] (0 ~ 0.1) | 
 |<nobr>└&nbsp;프리셋</nobr>| **(Fullbody)** | (Fullbody), V 형태, 스타킹, (Fishnet Fullbody), (Fishnet V Shape), (Fishnet Stockings), (Maze 1), (Maze 2), (Curve 1), (Curve 2),  |
-|<nobr>**(Hexagon Map)**</nobr>| | 
+|<nobr><b>(Hexagon Map)</b></nobr>| | 
 |<nobr>├&nbsp;활성화</nobr>| [OFF] | 
 |<nobr>├&nbsp;밀도</nobr>| [4] (0 ~ 8) | 
 |<nobr>├&nbsp;크기</nobr>| [1] (0 ~ 1) | 
@@ -69,7 +69,7 @@ sidebar:
 |<nobr>├&nbsp;UV 투영</nobr>| [ON] | 
 |<nobr>├&nbsp;투영 반경</nobr>| [0.2] (0 ~ 1) | 
 |<nobr>└&nbsp;회전</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**서페이스 베이스**</nobr>| | 
+|<nobr><b>서페이스 베이스</b></nobr>| | 
 |<nobr>├&nbsp;광택</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>├&nbsp;금속성</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;범프</nobr>| [0.2] (0 ~ 1) | 
@@ -77,7 +77,7 @@ sidebar:
 |<nobr>├&nbsp;앰비언트</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;알파</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;클립</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**색상**</nobr>| | 
+|<nobr>├&nbsp;<b>색상</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;채도</nobr>| [0] (0 ~ 1) | 
@@ -94,7 +94,7 @@ sidebar:
 |<nobr>├&nbsp;세부 밀도</nobr>| [1] (0 ~ 2) | 
 |<nobr>├&nbsp;용해 활성화</nobr>| [ON] | 
 |<nobr>└&nbsp;프리셋</nobr>| **얇은 스타킹** | 얇은 스타킹, 두꺼운 스타킹, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본, (Preset 1), (Preset 2), (预设1),  |
-|<nobr>**서페이스 패턴**</nobr>| | 
+|<nobr><b>서페이스 패턴</b></nobr>| | 
 |<nobr>├&nbsp;광택</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├&nbsp;금속성</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;범프</nobr>| [0] (0 ~ 1) | 
@@ -102,7 +102,7 @@ sidebar:
 |<nobr>├&nbsp;앰비언트</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;알파</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;클립</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**색상**</nobr>| | 
+|<nobr>├&nbsp;<b>색상</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;채도</nobr>| [0] (0 ~ 1) | 
@@ -119,7 +119,7 @@ sidebar:
 |<nobr>├&nbsp;세부 밀도</nobr>| [1] (0 ~ 2) | 
 |<nobr>├&nbsp;용해 활성화</nobr>| [ON] | 
 |<nobr>└&nbsp;프리셋</nobr>| **라텍스** | 얇은 스타킹, 두꺼운 스타킹, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본, (Preset 1), (Preset 2), (预设1),  |
-|<nobr>**서페이스 테두리**</nobr>| | 
+|<nobr><b>서페이스 테두리</b></nobr>| | 
 |<nobr>├&nbsp;광택</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>├&nbsp;금속성</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;범프</nobr>| [0.2] (0 ~ 1) | 
@@ -127,7 +127,7 @@ sidebar:
 |<nobr>├&nbsp;앰비언트</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;알파</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;클립</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**색상**</nobr>| | 
+|<nobr>├&nbsp;<b>색상</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;채도</nobr>| [0] (0 ~ 1) | 
@@ -145,7 +145,7 @@ sidebar:
 |<nobr>├&nbsp;용해 활성화</nobr>| [ON] | 
 |<nobr>└&nbsp;프리셋</nobr>| **얇은 스타킹** | 얇은 스타킹, 두꺼운 스타킹, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본, (Preset 1), (Preset 2), (预设1),  |
 |<nobr>용해</nobr>| [0] (0 ~ 1) | 
-|<nobr>**용해 맵**</nobr>| | 
+|<nobr><b>용해 맵</b></nobr>| | 
 |<nobr>├&nbsp;패턴 L1</nobr>| [13] (0 ~ 90) | 용해 맵 생성 시 레벨 1 패턴 변경
 |<nobr>├&nbsp;밀도 L1</nobr>| [3.5] (1 ~ 10) | 레벨 1 패턴의 밀도
 |<nobr>├&nbsp;패턴 L2</nobr>| [31] (0 ~ 90) | 용해 맵 생성 시 레벨 2 패턴 변경
@@ -169,7 +169,7 @@ sidebar:
 |<nobr>├&nbsp;투명</nobr>| [OFF] | 
 |<nobr>├&nbsp;커스텀 1</nobr>| [OFF] | 
 |<nobr>├&nbsp;커스텀 2</nobr>| [OFF] | 
-|<nobr>├&nbsp;수동 선택</nobr>|| 
+|<nobr>├&nbsp;<b>수동 선택</b></nobr>|| 
 |<nobr>├&nbsp;</nobr>| [OFF] | 
 |<nobr>└&nbsp;필터링</nobr>|| 
 |<nobr>프리셋</nobr>| **바디 페인트** | 바디 페인트, 풀바디 라텍스, V자 모양 어망, 스타킹, 스타킹 어망, 바디수트 1, 바디수트 2, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |

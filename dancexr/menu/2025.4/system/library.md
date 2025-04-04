@@ -19,5 +19,5 @@ sidebar:
 |<nobr>Remove Duplicates</nobr>|| 
 |<nobr>Switch Library</nobr>|| 
 |<nobr>Show In Explorer</nobr>|| 
-|<nobr>Google Drive</nobr>|| 
+|<nobr><b>Google Drive</b></nobr>|| 
 |<nobr>Link Google Drive</nobr>|| 

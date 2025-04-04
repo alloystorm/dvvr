@@ -16,14 +16,14 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr>有効にする</nobr>| [OFF] | 
 |<nobr>モード</nobr>| カラーペイント | カラーペイント, アウトフィット, アウトフィットペイント, 
-|<nobr>**ボディペイント**</nobr>| | 
+|<nobr><b>ボディペイント</b></nobr>| | 
 |<nobr>├&nbsp;ペイントサイド</nobr>| 両方 | 両方, 前面, 背面, 
 |<nobr>├&nbsp;テクスチャ</nobr>| **[なし]** | [なし], [タトゥー],  |
 |<nobr>├&nbsp;ブラシサイズ</nobr>| [0.2] (0 ~ 1) | 
 |<nobr>├&nbsp;ブラシ回転</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;ブラスタイプ</nobr>| ベース | ベース, パターン, エッジ, 消去, 
 |<nobr>├&nbsp;消去</nobr>| [OFF] | 
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -37,7 +37,7 @@ sidebar:
 |<nobr>├&nbsp;キャンバスをクリア</nobr>|| 
 |<nobr>├&nbsp;描画を保存</nobr>|| 
 |<nobr>└&nbsp;描画をロード</nobr>| **[なし]** | [なし],  |
-|<nobr>**形状とパターン**</nobr>| | 
+|<nobr><b>形状とパターン</b></nobr>| | 
 |<nobr>├&nbsp;トップ高さ1</nobr>| [3] (0 ~ 3) | 中央の最初のラインの高さ
 |<nobr>├&nbsp;トップ角度1</nobr>| [0] (-180 ~ 180) | 最初のラインの角度
 |<nobr>├&nbsp;トップ高さ2</nobr>| [3] (0 ~ 3) | 中央の二番目のラインの高さ
@@ -58,7 +58,7 @@ sidebar:
 |<nobr>├&nbsp;内部バンプ</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>├&nbsp;内部距離</nobr>| [0.005] (0 ~ 0.1) | 
 |<nobr>└&nbsp;プリセット</nobr>| **(Fullbody)** | (Fullbody), Vシェイプ, ストッキング, (Fishnet Fullbody), (Fishnet V Shape), (Fishnet Stockings), (Maze 1), (Maze 2), (Curve 1), (Curve 2),  |
-|<nobr>**(Hexagon Map)**</nobr>| | 
+|<nobr><b>(Hexagon Map)</b></nobr>| | 
 |<nobr>├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>├&nbsp;密度</nobr>| [4] (0 ~ 8) | 
 |<nobr>├&nbsp;サイズ</nobr>| [1] (0 ~ 1) | 
@@ -69,7 +69,7 @@ sidebar:
 |<nobr>├&nbsp;UVプロジェクション</nobr>| [ON] | 
 |<nobr>├&nbsp;プロジェクション半径</nobr>| [0.2] (0 ~ 1) | 
 |<nobr>└&nbsp;回転</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**サーフェスベース**</nobr>| | 
+|<nobr><b>サーフェスベース</b></nobr>| | 
 |<nobr>├&nbsp;グロス</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>├&nbsp;金属的</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;バンプ</nobr>| [0.2] (0 ~ 1) | 
@@ -77,7 +77,7 @@ sidebar:
 |<nobr>├&nbsp;アンビエント</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;アルファ</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;クリップ</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -94,7 +94,7 @@ sidebar:
 |<nobr>├&nbsp;詳細密度</nobr>| [1] (0 ~ 2) | 
 |<nobr>├&nbsp;ディゾルブを有効化</nobr>| [ON] | 
 |<nobr>└&nbsp;プリセット</nobr>| **ストッキング薄** | ストッキング薄, ストッキング厚, ホワイトストッキング, ラテックス, クリアラテックス, シルバー, ゴールド, グロウホワイト, オリジナル, (Preset 1), (Preset 2), (预设1),  |
-|<nobr>**サーフェスパターン**</nobr>| | 
+|<nobr><b>サーフェスパターン</b></nobr>| | 
 |<nobr>├&nbsp;グロス</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├&nbsp;金属的</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;バンプ</nobr>| [0] (0 ~ 1) | 
@@ -102,7 +102,7 @@ sidebar:
 |<nobr>├&nbsp;アンビエント</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;アルファ</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;クリップ</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -119,7 +119,7 @@ sidebar:
 |<nobr>├&nbsp;詳細密度</nobr>| [1] (0 ~ 2) | 
 |<nobr>├&nbsp;ディゾルブを有効化</nobr>| [ON] | 
 |<nobr>└&nbsp;プリセット</nobr>| **ラテックス** | ストッキング薄, ストッキング厚, ホワイトストッキング, ラテックス, クリアラテックス, シルバー, ゴールド, グロウホワイト, オリジナル, (Preset 1), (Preset 2), (预设1),  |
-|<nobr>**サーフェスボーダー**</nobr>| | 
+|<nobr><b>サーフェスボーダー</b></nobr>| | 
 |<nobr>├&nbsp;グロス</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>├&nbsp;金属的</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;バンプ</nobr>| [0.2] (0 ~ 1) | 
@@ -127,7 +127,7 @@ sidebar:
 |<nobr>├&nbsp;アンビエント</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;アルファ</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;クリップ</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**色**</nobr>| | 
+|<nobr>├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -145,7 +145,7 @@ sidebar:
 |<nobr>├&nbsp;ディゾルブを有効化</nobr>| [ON] | 
 |<nobr>└&nbsp;プリセット</nobr>| **ストッキング薄** | ストッキング薄, ストッキング厚, ホワイトストッキング, ラテックス, クリアラテックス, シルバー, ゴールド, グロウホワイト, オリジナル, (Preset 1), (Preset 2), (预设1),  |
 |<nobr>ディゾルブ</nobr>| [0] (0 ~ 1) | 
-|<nobr>**ディゾルブマップ**</nobr>| | 
+|<nobr><b>ディゾルブマップ</b></nobr>| | 
 |<nobr>├&nbsp;パターンL1</nobr>| [13] (0 ~ 90) | ディゾルブマップ生成時のレベル1パターンを変更
 |<nobr>├&nbsp;密度L1</nobr>| [3.5] (1 ~ 10) | レベル1パターンの密度
 |<nobr>├&nbsp;パターンL2</nobr>| [31] (0 ~ 90) | ディゾルブマップ生成時のレベル2パターンを変更
@@ -169,7 +169,7 @@ sidebar:
 |<nobr>├&nbsp;トランスペアレント</nobr>| [OFF] | 
 |<nobr>├&nbsp;カスタム 1</nobr>| [OFF] | 
 |<nobr>├&nbsp;カスタム 2</nobr>| [OFF] | 
-|<nobr>├&nbsp;手動選択</nobr>|| 
+|<nobr>├&nbsp;<b>手動選択</b></nobr>|| 
 |<nobr>├&nbsp;</nobr>| [OFF] | 
 |<nobr>└&nbsp;フィルタリング</nobr>|| 
 |<nobr>プリセット</nobr>| **ボディペイント** | ボディペイント, フルボディラテックス, V字型フィッシュネット, ストッキング, ストッキングフィッシュネット, ボディスーツ1, ボディスーツ2, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |

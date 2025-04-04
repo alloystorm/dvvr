@@ -19,47 +19,47 @@ sidebar:
 |<nobr>セーブからタグを復元</nobr>| [OFF] | コンテンツキャッシュが再構築または破損した場合に、保存された設定からタグを復元しようとします
 |<nobr>圧縮DDSの反転</nobr>| [ON] | 圧縮DDSテクスチャを反転
 |<nobr>非圧縮DDSの反転</nobr>| [OFF] | 非圧縮DDSテクスチャを反転
-|<nobr>**VR ハンズ**</nobr>| | 
+|<nobr><b>VR ハンズ</b></nobr>| | 
 |<nobr>├&nbsp;手の表示</nobr>| [ON] | 
 |<nobr>├&nbsp;シャドウをキャスト</nobr>| [OFF] | 
 |<nobr>├&nbsp;(Time And FPS)</nobr>| [ON] | 
-|<nobr>├&nbsp;**手の向き**</nobr>| | 
-|<nobr>│&nbsp;├&nbsp;オフセット</nobr>|| 
+|<nobr>├&nbsp;<b>手の向き</b></nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>オフセット</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr>│&nbsp;├&nbsp;(Z)</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr>│&nbsp;├&nbsp;回転</nobr>| [45] (-90 ~ 90) | 
 |<nobr>│&nbsp;└&nbsp;ポインターを更新</nobr>|| 
 |<nobr>├&nbsp;左手のポーズ</nobr>| **自動** | 自動, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>├&nbsp;**左手アクセサリー**</nobr>| | 
+|<nobr>├&nbsp;<b>左手アクセサリー</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;├&nbsp;モデル</nobr>| **[ポール]** | [ポール],  |
-|<nobr>│&nbsp;├&nbsp;**アンカーオフセット**</nobr>| | Set the anchor position for the attachment to attach to
-|<nobr>│&nbsp;│&nbsp;├&nbsp;位置</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>アンカーオフセット</b></nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>│&nbsp;│&nbsp;├&nbsp;<b>位置</b></nobr>|| 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>│&nbsp;│&nbsp;├&nbsp;回転</nobr>|| 
+|<nobr>│&nbsp;│&nbsp;├&nbsp;<b>回転</b></nobr>|| 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>│&nbsp;├&nbsp;サイズとアライメント</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>サイズとアライメント</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;オブジェクト半径</nobr>| [0.02] (0.01 ~ 0.05) | 
 |<nobr>│&nbsp;├&nbsp;オブジェクト長</nobr>| [0.2] (0 ~ 5) | 
 |<nobr>│&nbsp;├&nbsp;スケール</nobr>| [0] (-5 ~ 5) | 
 |<nobr>│&nbsp;├&nbsp;オリエンテーション</nobr>| (Y Up) | (Y Up), (Y Down), (X Up), (X Down), (Z Up), (Z Down), 
-|<nobr>│&nbsp;├&nbsp;オフセット</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>オフセット</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>│&nbsp;├&nbsp;(Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr>│&nbsp;├&nbsp;回転</nobr>|| 
+|<nobr>│&nbsp;├&nbsp;<b>回転</b></nobr>|| 
 |<nobr>│&nbsp;├&nbsp;(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>│&nbsp;├&nbsp;(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>│&nbsp;├&nbsp;(Z)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>│&nbsp;├&nbsp;ギターモード</nobr>| [OFF] | 
-|<nobr>│&nbsp;├&nbsp;**モーション**</nobr>| | Apply up / down motion to the attachment model
+|<nobr>│&nbsp;├&nbsp;<b>モーション</b></nobr>| | Apply up / down motion to the attachment model
 |<nobr>│&nbsp;│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
-|<nobr>│&nbsp;│&nbsp;├&nbsp;**スピード**</nobr>| | 
+|<nobr>│&nbsp;│&nbsp;├&nbsp;<b>スピード</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;グループあたりの動き</nobr>| [8] (4 ~ 32) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;フェーズ</nobr>| [0] (0 ~ 1) | 
@@ -71,7 +71,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│&nbsp;│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
 |<nobr>│&nbsp;├&nbsp;アニメーション</nobr>| **なし** | なし, <br/>取り付けモデルに使用するローディングモーションを選択 |
-|<nobr>│&nbsp;├&nbsp;**表面**</nobr>| | 
+|<nobr>│&nbsp;├&nbsp;<b>表面</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;グロス</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;金属的</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;バンプ</nobr>| [0.2] (0 ~ 1) | 
@@ -79,7 +79,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;├&nbsp;アンビエント</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;アルファ</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;├&nbsp;クリップ</nobr>| [0] (0 ~ 1) | 
-|<nobr>│&nbsp;│&nbsp;├&nbsp;**色**</nobr>| | 
+|<nobr>│&nbsp;│&nbsp;├&nbsp;<b>色</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -90,7 +90,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;ブレンドモード</nobr>| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;ブレンド</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;└&nbsp;プリセット</nobr>| **白** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
-|<nobr>│&nbsp;│&nbsp;├&nbsp;**トゥーンシェーダー**</nobr>| | 
+|<nobr>│&nbsp;│&nbsp;├&nbsp;<b>トゥーンシェーダー</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;シェーディング</nobr>| [1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;アウトライン</nobr>| [0.5] (0 ~ 1) | 
@@ -103,7 +103,7 @@ sidebar:
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;シャドウ</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;ソフトシャドウ</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;└&nbsp;プリセット</nobr>| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
-|<nobr>│&nbsp;│&nbsp;├&nbsp;**特別シェーダー**</nobr>| | 
+|<nobr>│&nbsp;│&nbsp;├&nbsp;<b>特別シェーダー</b></nobr>| | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;モード</nobr>| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
 |<nobr>│&nbsp;│&nbsp;│&nbsp;├&nbsp;屈折</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>│&nbsp;│&nbsp;│&nbsp;└&nbsp;厚さ</nobr>| [1] (0 ~ 1) | 
@@ -114,35 +114,35 @@ sidebar:
 |<nobr>│&nbsp;├&nbsp;グラブポーズ</nobr>| [ON] | 取り付けにいるときに手のポーズを自動的にグラブに変更
 |<nobr>│&nbsp;└&nbsp;手の動き</nobr>| [0] (-1 ~ 1) | 取り付けモーションに対して手を移動
 |<nobr>├&nbsp;右手のポーズ</nobr>| **自動** | 自動, (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>└&nbsp;**右手アクセサリー**</nobr>| | 
+|<nobr>└&nbsp;<b>右手アクセサリー</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>&nbsp;&nbsp;├&nbsp;モデル</nobr>| **[ポール]** | [ポール],  |
-|<nobr>&nbsp;&nbsp;├&nbsp;**アンカーオフセット**</nobr>| | Set the anchor position for the attachment to attach to
-|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;位置</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>アンカーオフセット</b></nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;<b>位置</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;(X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;(Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;(Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;回転</nobr>|| 
+|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;<b>回転</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;(X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;(Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;└&nbsp;(Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;サイズとアライメント</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>サイズとアライメント</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;オブジェクト半径</nobr>| [0.02] (0.01 ~ 0.05) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;オブジェクト長</nobr>| [0.2] (0 ~ 5) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;スケール</nobr>| [0] (-5 ~ 5) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;オリエンテーション</nobr>| (Y Up) | (Y Up), (Y Down), (X Up), (X Down), (Z Up), (Z Down), 
-|<nobr>&nbsp;&nbsp;├&nbsp;オフセット</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>オフセット</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;(X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;(Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;(Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr>&nbsp;&nbsp;├&nbsp;回転</nobr>|| 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>回転</b></nobr>|| 
 |<nobr>&nbsp;&nbsp;├&nbsp;(X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;(Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;(Z)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;ギターモード</nobr>| [OFF] | 
-|<nobr>&nbsp;&nbsp;├&nbsp;**モーション**</nobr>| | Apply up / down motion to the attachment model
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>モーション</b></nobr>| | Apply up / down motion to the attachment model
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
-|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;**スピード**</nobr>| | 
+|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;<b>スピード</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;グループあたりの動き</nobr>| [8] (4 ~ 32) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;フェーズ</nobr>| [0] (0 ~ 1) | 
@@ -154,7 +154,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;└&nbsp;角度</nobr>| [0] (-60 ~ 60) | 
 |<nobr>&nbsp;&nbsp;├&nbsp;アニメーション</nobr>| **なし** | なし, <br/>取り付けモデルに使用するローディングモーションを選択 |
-|<nobr>&nbsp;&nbsp;├&nbsp;**表面**</nobr>| | 
+|<nobr>&nbsp;&nbsp;├&nbsp;<b>表面</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;グロス</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;金属的</nobr>| [1] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;バンプ</nobr>| [0.2] (0 ~ 1) | 
@@ -162,7 +162,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;アンビエント</nobr>| [1] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;アルファ</nobr>| [1] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;クリップ</nobr>| [0] (0 ~ 1) | 
-|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;**色**</nobr>| | 
+|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;<b>色</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;カラーモード</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;彩度</nobr>| [0] (0 ~ 1) | 
@@ -173,7 +173,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;ブレンドモード</nobr>| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;ブレンド</nobr>| [1] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;└&nbsp;プリセット</nobr>| **白** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
-|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;**トゥーンシェーダー**</nobr>| | 
+|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;<b>トゥーンシェーダー</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;有効にする</nobr>| [OFF] | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;シェーディング</nobr>| [1] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;アウトライン</nobr>| [0.5] (0 ~ 1) | 
@@ -186,7 +186,7 @@ sidebar:
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;シャドウ</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;ソフトシャドウ</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;└&nbsp;プリセット</nobr>| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
-|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;**特別シェーダー**</nobr>| | 
+|<nobr>&nbsp;&nbsp;│&nbsp;├&nbsp;<b>特別シェーダー</b></nobr>| | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;モード</nobr>| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;├&nbsp;屈折</nobr>| [0.5] (1 ~ 3) | 
 |<nobr>&nbsp;&nbsp;│&nbsp;│&nbsp;└&nbsp;厚さ</nobr>| [1] (0 ~ 1) | 

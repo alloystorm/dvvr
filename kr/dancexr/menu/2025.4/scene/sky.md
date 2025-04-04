@@ -22,19 +22,19 @@ sidebar:
 |<nobr>바람</nobr>| [1] (0 ~ 4) | (Global wind speed affecting cloth simulation, particle dynamics, and clouds.)
 |<nobr>바람 방향</nobr>| [0] (0 ~ 360) | (Sets the global wind direction in degrees.)
 |<nobr>바람 필드</nobr>| [OFF] | 
-|<nobr>**위치**</nobr>| | Sets the position of the wind field.
+|<nobr><b>위치</b></nobr>| | Sets the position of the wind field.
 |<nobr>├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>**회전**</nobr>| | Sets the rotation of the wind field.
+|<nobr><b>회전</b></nobr>| | Sets the rotation of the wind field.
 |<nobr>├&nbsp;(X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>├&nbsp;(Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>└&nbsp;(Z)</nobr>| [0] ((Unlimited)) | 
 |<nobr>거리</nobr>| [5] (0 ~ 10) | (Sets the distance of the wind field.)
 |<nobr>반경</nobr>| [1] (0 ~ 2) | (Sets the radius of the wind field.)
 |<nobr>속도</nobr>| [1] (0 ~ 4) | (Sets the speed of the wind field.)
-|<nobr>하늘 주변</nobr>|| 
-|<nobr>**하늘 색상**</nobr>| | 
+|<nobr><b>하늘 주변</b></nobr>|| 
+|<nobr><b>하늘 색상</b></nobr>| | 
 |<nobr>├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;채도</nobr>| [0] (0 ~ 1) | 
@@ -45,7 +45,7 @@ sidebar:
 |<nobr>├&nbsp;무대 색상 사용</nobr>| [OFF] | 무대 링에서 색상 사용
 |<nobr>├&nbsp;색온도</nobr>| [6500] (3000 ~ 8000) | 
 |<nobr>└&nbsp;프리셋</nobr>| **흰색** | 흰색, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |
-|<nobr>**중간 색상**</nobr>| | 
+|<nobr><b>중간 색상</b></nobr>| | 
 |<nobr>├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;채도</nobr>| [0] (0 ~ 1) | 
@@ -56,7 +56,7 @@ sidebar:
 |<nobr>├&nbsp;무대 색상 사용</nobr>| [OFF] | 무대 링에서 색상 사용
 |<nobr>├&nbsp;색온도</nobr>| [6500] (3000 ~ 8000) | 
 |<nobr>└&nbsp;프리셋</nobr>| **흰색** | 흰색, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |
-|<nobr>**지면 색상**</nobr>| | 
+|<nobr><b>지면 색상</b></nobr>| | 
 |<nobr>├&nbsp;색상 모드</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├&nbsp;색조</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;채도</nobr>| [0] (0 ~ 1) | 
@@ -67,7 +67,7 @@ sidebar:
 |<nobr>├&nbsp;무대 색상 사용</nobr>| [OFF] | 무대 링에서 색상 사용
 |<nobr>├&nbsp;색온도</nobr>| [6500] (3000 ~ 8000) | 
 |<nobr>└&nbsp;프리셋</nobr>| **흰색** | 흰색, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |
-|<nobr>**구름**</nobr>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
+|<nobr><b>구름</b></nobr>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
 |<nobr>├&nbsp;활성화</nobr>| [ON] | (Enables or disables volumetric clouds.)
 |<nobr>├&nbsp;형상 스케일</nobr>| [1] (-1 ~ 2) | (Controls the scale of the cloud shapes.)
 |<nobr>├&nbsp;형상 계수</nobr>| [0.8] (0 ~ 1) | (Adjusts the shape factor of the clouds.)

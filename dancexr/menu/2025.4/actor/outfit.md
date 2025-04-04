@@ -16,14 +16,14 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr>Enable</nobr>| [OFF] | 
 |<nobr>Mode</nobr>| Color Paint | Color Paint, Outfit, Outfit Paint, 
-|<nobr>**Body Paint**</nobr>| | 
+|<nobr><b>Body Paint</b></nobr>| | 
 |<nobr>├&nbsp;Paint Side</nobr>| Both | Both, Front, Back, 
 |<nobr>├&nbsp;Texture</nobr>| **[None]** | [None], [Tattoo],  |
 |<nobr>├&nbsp;Brush Size</nobr>| [0.2] (0 ~ 1) | 
 |<nobr>├&nbsp;Brush Rotation</nobr>| [0] (-180 ~ 180) | 
 |<nobr>├&nbsp;Brush Type</nobr>| Base | Base, Pattern, Edge, Erase, 
 |<nobr>├&nbsp;Erase</nobr>| [OFF] | 
-|<nobr>├&nbsp;**Color**</nobr>| | 
+|<nobr>├&nbsp;<b>Color</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>│&nbsp;├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
@@ -37,7 +37,7 @@ sidebar:
 |<nobr>├&nbsp;Clear Canvas</nobr>|| 
 |<nobr>├&nbsp;Save Drawing</nobr>|| 
 |<nobr>└&nbsp;Load Drawing</nobr>| **[None]** | [None],  |
-|<nobr>**Shape & Pattern**</nobr>| | 
+|<nobr><b>Shape & Pattern</b></nobr>| | 
 |<nobr>├&nbsp;Top Height1</nobr>| [3] (0 ~ 3) | Height of the first line at center
 |<nobr>├&nbsp;Top Angle1</nobr>| [0] (-180 ~ 180) | Angle of the first line
 |<nobr>├&nbsp;Top Height2</nobr>| [3] (0 ~ 3) | Height of the second line at center
@@ -58,7 +58,7 @@ sidebar:
 |<nobr>├&nbsp;Inside Bump</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>├&nbsp;Inside Distance</nobr>| [0.005] (0 ~ 0.1) | 
 |<nobr>└&nbsp;Presets</nobr>| **Fullbody** | Fullbody, V Shape, Stockings, Fishnet Fullbody, Fishnet V Shape, Fishnet Stockings, Maze 1, Maze 2, Curve 1, Curve 2,  |
-|<nobr>**Hexagon Map**</nobr>| | 
+|<nobr><b>Hexagon Map</b></nobr>| | 
 |<nobr>├&nbsp;Enable</nobr>| [OFF] | 
 |<nobr>├&nbsp;Density</nobr>| [4] (0 ~ 8) | 
 |<nobr>├&nbsp;Size</nobr>| [1] (0 ~ 1) | 
@@ -69,7 +69,7 @@ sidebar:
 |<nobr>├&nbsp;UV Projection</nobr>| [ON] | 
 |<nobr>├&nbsp;Projection Radius</nobr>| [0.2] (0 ~ 1) | 
 |<nobr>└&nbsp;Rotation</nobr>| [0] (-90 ~ 90) | 
-|<nobr>**Surface Base**</nobr>| | 
+|<nobr><b>Surface Base</b></nobr>| | 
 |<nobr>├&nbsp;Gloss</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>├&nbsp;Metallic</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;Bump</nobr>| [0.2] (0 ~ 1) | 
@@ -77,7 +77,7 @@ sidebar:
 |<nobr>├&nbsp;Ambient</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Alpha</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Clip</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**Color**</nobr>| | 
+|<nobr>├&nbsp;<b>Color</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>│&nbsp;├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
@@ -94,7 +94,7 @@ sidebar:
 |<nobr>├&nbsp;Detail Density</nobr>| [1] (0 ~ 2) | 
 |<nobr>├&nbsp;Enable Dissolve</nobr>| [ON] | 
 |<nobr>└&nbsp;Presets</nobr>| **Stocking Thin** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
-|<nobr>**Surface Pattern**</nobr>| | 
+|<nobr><b>Surface Pattern</b></nobr>| | 
 |<nobr>├&nbsp;Gloss</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├&nbsp;Metallic</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;Bump</nobr>| [0] (0 ~ 1) | 
@@ -102,7 +102,7 @@ sidebar:
 |<nobr>├&nbsp;Ambient</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Alpha</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Clip</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**Color**</nobr>| | 
+|<nobr>├&nbsp;<b>Color</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>│&nbsp;├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
@@ -119,7 +119,7 @@ sidebar:
 |<nobr>├&nbsp;Detail Density</nobr>| [1] (0 ~ 2) | 
 |<nobr>├&nbsp;Enable Dissolve</nobr>| [ON] | 
 |<nobr>└&nbsp;Presets</nobr>| **Latex** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
-|<nobr>**Surface Border**</nobr>| | 
+|<nobr><b>Surface Border</b></nobr>| | 
 |<nobr>├&nbsp;Gloss</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>├&nbsp;Metallic</nobr>| [0] (0 ~ 1) | 
 |<nobr>├&nbsp;Bump</nobr>| [0.2] (0 ~ 1) | 
@@ -127,7 +127,7 @@ sidebar:
 |<nobr>├&nbsp;Ambient</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Alpha</nobr>| [1] (0 ~ 1) | 
 |<nobr>├&nbsp;Clip</nobr>| [0] (0 ~ 1) | 
-|<nobr>├&nbsp;**Color**</nobr>| | 
+|<nobr>├&nbsp;<b>Color</b></nobr>| | 
 |<nobr>│&nbsp;├&nbsp;Color Mode</nobr>| RGB | RGB, HSV, 
 |<nobr>│&nbsp;├&nbsp;Hue</nobr>| [0] (0 ~ 1) | 
 |<nobr>│&nbsp;├&nbsp;Satuation</nobr>| [0] (0 ~ 1) | 
@@ -145,7 +145,7 @@ sidebar:
 |<nobr>├&nbsp;Enable Dissolve</nobr>| [ON] | 
 |<nobr>└&nbsp;Presets</nobr>| **Stocking Thin** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
 |<nobr>Dissolve</nobr>| [0] (0 ~ 1) | 
-|<nobr>**Dissolve Map**</nobr>| | 
+|<nobr><b>Dissolve Map</b></nobr>| | 
 |<nobr>├&nbsp;Pattern L1</nobr>| [13] (0 ~ 90) | Change the level 1 pattern when generating the dissolve map
 |<nobr>├&nbsp;Density L1</nobr>| [3.5] (1 ~ 10) | Density of level 1 pattern
 |<nobr>├&nbsp;Pattern L2</nobr>| [31] (0 ~ 90) | Change the level 2 pattern when generating the dissolve map
@@ -169,7 +169,7 @@ sidebar:
 |<nobr>├&nbsp;Transparent</nobr>| [OFF] | 
 |<nobr>├&nbsp;Custom 1</nobr>| [OFF] | 
 |<nobr>├&nbsp;Custom 2</nobr>| [OFF] | 
-|<nobr>├&nbsp;Manual Select</nobr>|| 
+|<nobr>├&nbsp;<b>Manual Select</b></nobr>|| 
 |<nobr>├&nbsp;</nobr>| [OFF] | 
 |<nobr>└&nbsp;Filtering</nobr>|| 
 |<nobr>Presets</nobr>| **Body Paint** | Body Paint, Fullbody Latex, V Shape Fishnet, Stockings, Stockings Fishnet, Bodysuit 1, Bodysuit 2, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5,  |
