@@ -12,6 +12,8 @@ sidebar:
 
 
 
+[Feature Page](/dancexr/features/outfit.md)
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> Enable</nobr>| [OFF] | 

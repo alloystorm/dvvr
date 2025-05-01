@@ -10,7 +10,9 @@ sidebar:
 
 [환경](../menu#환경) > 하늘
 
-(SkySetting manages the sky rendering, including sky maps, procedural skies, ambient lighting, and wind effects.)
+
+
+[(Feature Page)](/dancexr/features/sky.md)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

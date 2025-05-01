@@ -10,7 +10,9 @@ sidebar:
 
 [Environment](../menu#Environment) > Lighting
 
-Configure the lighting in the scene.
+
+
+[Feature Page](/dancexr/features/lighting.md)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

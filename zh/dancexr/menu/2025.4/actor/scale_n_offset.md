@@ -6,11 +6,13 @@ toc: false
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/menu/2025.4/actor/scale_&_offset) | [繁中](/tw/dancexr/menu/2025.4/actor/scale_&_offset) | [日本語](/jp/dancexr/menu/2025.4/actor/scale_&_offset) | [한국어](/kr/dancexr/menu/2025.4/actor/scale_&_offset) | [简中](/zh/dancexr/menu/2025.4/actor/scale_&_offset)
+[Eng](/dancexr/menu/2025.4/actor/scale_n_offset) | [繁中](/tw/dancexr/menu/2025.4/actor/scale_n_offset) | [日本語](/jp/dancexr/menu/2025.4/actor/scale_n_offset) | [한국어](/kr/dancexr/menu/2025.4/actor/scale_n_offset) | [简中](/zh/dancexr/menu/2025.4/actor/scale_n_offset)
 
 [设置](../menu#设置) > 缩放与偏移
 
-(Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments.)
+
+
+[(Feature Page)](/dancexr/features/scale_n_offset.md)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

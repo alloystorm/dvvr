@@ -12,6 +12,8 @@ sidebar:
 
 
 
+[(Feature Page)](/dancexr/features/attach_to_actor.md)
+
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 启用</nobr>| [OFF] | 

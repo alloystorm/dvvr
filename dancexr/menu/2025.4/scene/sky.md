@@ -10,7 +10,9 @@ sidebar:
 
 [Environment](../menu#Environment) > Sky
 
-SkySetting manages the sky rendering, including sky maps, procedural skies, ambient lighting, and wind effects.
+
+
+[Feature Page](/dancexr/features/sky.md)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

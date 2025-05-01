@@ -10,7 +10,9 @@ sidebar:
 
 [Procedural](../menu#Procedural) > [Auto Cam]
 
-Automatic camera motion system that dynamically adjusts based on music beats, actor orientation, and configurable parameters for distance, target selection, and motion paths.
+
+
+[Feature Page](/dancexr/features/auto_cam.md)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

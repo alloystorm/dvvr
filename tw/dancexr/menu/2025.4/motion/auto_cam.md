@@ -10,7 +10,9 @@ sidebar:
 
 [程序化](../menu#程序化) > [自動攝影機]
 
-(Automatic camera motion system that dynamically adjusts based on music beats, actor orientation, and configurable parameters for distance, target selection, and motion paths.)
+
+
+[(Feature Page)](/dancexr/features/auto_cam.md)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

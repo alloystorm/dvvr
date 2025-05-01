@@ -10,7 +10,9 @@ sidebar:
 
 [Physics](../menu#Physics) > Softbody Physics
 
-Drive additional control bones using particle dynamics.
+
+
+[Feature Page](/dancexr/features/physics_softbody.md)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

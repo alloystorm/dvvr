@@ -10,7 +10,9 @@ sidebar:
 
 [System](../menu#System) > Application Settings
 
-Application Settings
+
+
+[Feature Page](/dancexr/features/application_settings.md)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

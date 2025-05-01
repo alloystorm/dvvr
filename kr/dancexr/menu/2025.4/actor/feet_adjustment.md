@@ -10,7 +10,9 @@ sidebar:
 
 [프로](../menu#프로) > 발 조정
 
-(Adjusts the feet's position and rotation to match the ground level, simulating realistic foot contact with the floor. Supports features like high heels, toe bending, and virtual shoe visualization.)
+
+
+[(Feature Page)](/dancexr/features/feet_adjustment.md)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

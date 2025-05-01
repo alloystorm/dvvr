@@ -16,15 +16,15 @@ sidebar:
 | [Content Library](system/library) |  | 
 | [Controller Input](system/input_settings) |  | 
 | [Display & UI](system/screen) |  | 
-| [Graphics](system/graphics) | Render quality settings. | 
+| [Graphics](system/graphics) |  | 
 | [Physics](system/physics) |  | 
-| [Application Settings](system/application_settings) | Application Settings | 
+| [Application Settings](system/application_settings) |  | 
 | [Exit](system/exit) |  | 
 | **Environment** |  |
-| [Sky](scene/sky) | SkySetting manages the sky rendering, including sky maps, procedural skies, ambient lighting, and wind effects. | 
+| [Sky](scene/sky) |  | 
 | [Ground](scene/ground) |  | 
 | [Particle Effect](scene/particles) |  | 
-| [Lighting](scene/lighting) | Configure the lighting in the scene. | 
+| [Lighting](scene/lighting) |  | 
 | [Camera](scene/cameras) |  | 
 | [Animated Values](scene/auto_updates) |  | 
 | [System Presets](scene/system_presets) | Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library. | 
@@ -55,7 +55,7 @@ sidebar:
 | [Attach To Actor](actor/attach_to_actor) |  | 
 | [Auto Reset](actor/auto_reset) |  | 
 | [Body Colliders](actor/body_colliders) |  | 
-| [Scale & Offset](actor/scale_&_offset) | Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments. | 
+| [Scale & Offset](actor/scale_n_offset) |  | 
 | [Materials](actor/materials) |  | 
 | [Settings](actor/all_settings) |  | 
 | [Pro](actor/pro_tools) |  | 

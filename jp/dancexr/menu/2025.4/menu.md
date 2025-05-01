@@ -16,15 +16,15 @@ sidebar:
 | [コンテンツライブラリ](system/library) |  | 
 | [コントローラー入力](system/input_settings) |  | 
 | [表示＆UI](system/screen) |  | 
-| [グラフィックス](system/graphics) | (Render quality settings.) | 
+| [グラフィックス](system/graphics) |  | 
 | [物理](system/physics) |  | 
-| [アプリケーション設定](system/application_settings) | アプリケーション設定 | 
+| [アプリケーション設定](system/application_settings) |  | 
 | [終了](system/exit) |  | 
 | **環境** |  |
-| [空](scene/sky) | (SkySetting manages the sky rendering, including sky maps, procedural skies, ambient lighting, and wind effects.) | 
+| [空](scene/sky) |  | 
 | [地面](scene/ground) |  | 
 | [パーティクルエフェクト](scene/particles) |  | 
-| [ライティング](scene/lighting) | (Configure the lighting in the scene.) | 
+| [ライティング](scene/lighting) |  | 
 | [カメラ](scene/cameras) |  | 
 | [アニメーション値](scene/auto_updates) |  | 
 | [システムプリセット](scene/system_presets) | (Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.) | 
@@ -55,7 +55,7 @@ sidebar:
 | [(Attach To Actor)](actor/attach_to_actor) |  | 
 | [自動リセット](actor/auto_reset) |  | 
 | [ボディコライダー](actor/body_colliders) |  | 
-| [スケールとオフセット](actor/scale_&_offset) | (Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments.) | 
+| [スケールとオフセット](actor/scale_n_offset) |  | 
 | [マテリアル](actor/materials) |  | 
 | [設定](actor/all_settings) |  | 
 | [プロ版](actor/pro_tools) |  | 

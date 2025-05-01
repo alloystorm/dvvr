@@ -10,7 +10,9 @@ sidebar:
 
 [システム](../menu#システム) > グラフィックス
 
-(Render quality settings.)
+
+
+[(Feature Page)](/dancexr/features/graphics.md)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

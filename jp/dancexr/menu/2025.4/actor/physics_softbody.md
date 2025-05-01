@@ -10,7 +10,9 @@ sidebar:
 
 [物理](../menu#物理) > ソフトボディフィジックス
 
-(Drive additional control bones using particle dynamics.)
+
+
+[(Feature Page)](/dancexr/features/physics_softbody.md)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

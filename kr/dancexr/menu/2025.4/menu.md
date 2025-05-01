@@ -16,15 +16,15 @@ sidebar:
 | [콘텐츠 라이브러리](system/library) |  | 
 | [컨트롤러 입력](system/input_settings) |  | 
 | [디스플레이 및 UI](system/screen) |  | 
-| [그래픽](system/graphics) | (Render quality settings.) | 
+| [그래픽](system/graphics) |  | 
 | [물리](system/physics) |  | 
-| [응용 프로그램 설정](system/application_settings) | 응용 프로그램 설정 | 
+| [응용 프로그램 설정](system/application_settings) |  | 
 | [종료](system/exit) |  | 
 | **환경** |  |
-| [하늘](scene/sky) | (SkySetting manages the sky rendering, including sky maps, procedural skies, ambient lighting, and wind effects.) | 
+| [하늘](scene/sky) |  | 
 | [바닥](scene/ground) |  | 
 | [파티클 이펙트](scene/particles) |  | 
-| [조명](scene/lighting) | (Configure the lighting in the scene.) | 
+| [조명](scene/lighting) |  | 
 | [카메라](scene/cameras) |  | 
 | [애니메이션 값](scene/auto_updates) |  | 
 | [시스템 프리셋](scene/system_presets) | (Save system settings as presets for you to load and apply in the future. Stored in the presets folder of your content library.) | 
@@ -55,7 +55,7 @@ sidebar:
 | [(Attach To Actor)](actor/attach_to_actor) |  | 
 | [자동 재설정](actor/auto_reset) |  | 
 | [신체 콜라이더](actor/body_colliders) |  | 
-| [비율 및 오프셋](actor/scale_&_offset) | (Allows configuration of the model's scale, ground offset, rotation, and positional offsets. Includes snapping options for precise adjustments.) | 
+| [비율 및 오프셋](actor/scale_n_offset) |  | 
 | [재료](actor/materials) |  | 
 | [설정](actor/all_settings) |  | 
 | [프로](actor/pro_tools) |  | 
