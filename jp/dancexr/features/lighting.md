@@ -2,23 +2,16 @@
 locale: ja-JP
 layout: single
 title: ライティング
-toc: true
+toc: false
 sidebar:
   nav: "docs-jp"
 ---
-[Eng](/dancexr/features/lighting) | [繁中](/tw/dancexr/features/lighting) | [日本語](/jp/dancexr/features/lighting) | [한국어](/kr/dancexr/features/lighting) | [简中](/zh/dancexr/features/lighting)
+[Eng](/dancexr/features/lighting.md) | [繁中](/tw/dancexr/features/lighting.md) | [日本語](/jp/dancexr/features/lighting.md) | [한국어](/kr/dancexr/features/lighting.md) | [简中](/zh/dancexr/features/lighting.md)
 
-DanceXRはリアルタイムのライティングを使用し、ライティングをカスタマイズするための洗練された設定があります。
+シーンの照明を設定します。
 
-太陽光とその他の3つのライトタイプのグループを個別に設定できます。各ライトグループには複数のライトを持たせることができ、色、強度、影、レンズフレア、アニメーションの設定を個別に行うことができます。
+## 設定
 
-## 太陽光
-太陽光の位置と角度は、方向と時間を指定することで制御できます。また、太陽光の色と強度も設定できます。
+設定の詳細な説明については、以下のページをご覧ください：
 
-太陽光には、窓の形状とサイズを指定し、光を透過させるウィンドウオプションがあります。
-
-## ライトグループ
-HDとRTのバリアントでは、スポットライト、ポイントライト、エリアライト、ピラミッドおよびボックスライトの投影モードのライトタイプから選択できます。各ライトタイプには、色、強度、影、レンズフレア、アニメーションの設定が異なります。
-
-## ライトアニメーション
-ライトを俳優に追従させるか、静止させるか、常に俳優の後ろに配置してシルエット効果を得るかを選択できます。
+[ライティング v2025.4](/dancexr/menu/2025.4/scene/lighting)
