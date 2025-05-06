@@ -12,7 +12,7 @@ sidebar:
 
 
 
-[(Feature Page)](/dancexr/features/physics_softbody.md)
+[(Feature Page)](/dancexr/features/physics_softbody)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
