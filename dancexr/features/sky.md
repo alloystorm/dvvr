@@ -6,7 +6,7 @@ toc: false
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/features/sky.md) | [繁中](/tw/dancexr/features/sky.md) | [日本語](/jp/dancexr/features/sky.md) | [한국어](/kr/dancexr/features/sky.md) | [简中](/zh/dancexr/features/sky.md)
+[Eng](/dancexr/features/sky) | [繁中](/tw/dancexr/features/sky) | [日本語](/jp/dancexr/features/sky) | [한국어](/kr/dancexr/features/sky) | [简中](/zh/dancexr/features/sky)
 
 SkySetting manages the sky rendering, including sky maps, procedural skies, ambient lighting, and wind effects.
 

@@ -12,7 +12,7 @@ sidebar:
 
 
 
-[Feature Page](/dancexr/features/outfit.md)
+[Feature Page](/dancexr/features/outfit)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

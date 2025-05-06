@@ -12,7 +12,7 @@ sidebar:
 
 
 
-[Feature Page](/dancexr/features/attach_to_actor.md)
+[Feature Page](/dancexr/features/attach_to_actor)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

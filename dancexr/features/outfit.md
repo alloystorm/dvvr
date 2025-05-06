@@ -6,7 +6,7 @@ toc: false
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/features/outfit.md) | [繁中](/tw/dancexr/features/outfit.md) | [日本語](/jp/dancexr/features/outfit.md) | [한국어](/kr/dancexr/features/outfit.md) | [简中](/zh/dancexr/features/outfit.md)
+[Eng](/dancexr/features/outfit) | [繁中](/tw/dancexr/features/outfit) | [日本語](/jp/dancexr/features/outfit) | [한국어](/kr/dancexr/features/outfit) | [简中](/zh/dancexr/features/outfit)
 
 
 ## Overview

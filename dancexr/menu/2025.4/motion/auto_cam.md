@@ -12,7 +12,7 @@ sidebar:
 
 
 
-[Feature Page](/dancexr/features/auto_cam.md)
+[Feature Page](/dancexr/features/auto_cam)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

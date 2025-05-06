@@ -6,7 +6,7 @@ toc: false
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/features/attach_to_actor.md) | [繁中](/tw/dancexr/features/attach_to_actor.md) | [日本語](/jp/dancexr/features/attach_to_actor.md) | [한국어](/kr/dancexr/features/attach_to_actor.md) | [简中](/zh/dancexr/features/attach_to_actor.md)
+[Eng](/dancexr/features/attach_to_actor) | [繁中](/tw/dancexr/features/attach_to_actor) | [日本語](/jp/dancexr/features/attach_to_actor) | [한국어](/kr/dancexr/features/attach_to_actor) | [简中](/zh/dancexr/features/attach_to_actor)
 
 
 ## Overview

@@ -6,7 +6,7 @@ toc: false
 sidebar:
   nav: "docs"
 ---
-[Eng](/dancexr/features/physics_softbody.md) | [繁中](/tw/dancexr/features/physics_softbody.md) | [日本語](/jp/dancexr/features/physics_softbody.md) | [한국어](/kr/dancexr/features/physics_softbody.md) | [简中](/zh/dancexr/features/physics_softbody.md)
+[Eng](/dancexr/features/physics_softbody) | [繁中](/tw/dancexr/features/physics_softbody) | [日本語](/jp/dancexr/features/physics_softbody) | [한국어](/kr/dancexr/features/physics_softbody) | [简中](/zh/dancexr/features/physics_softbody)
 
 Drive additional control bones using particle dynamics.
 
