@@ -14,12 +14,12 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> <b>Position</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> X</nobr>| [0] (Unlimited) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Y</nobr>| [0] (Unlimited) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Z</nobr>| [0] (Unlimited) | 
-|<nobr> <b>Rotation</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> X</nobr>| [0] (Unlimited) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Y</nobr>| [0] (Unlimited) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Z</nobr>| [0] (Unlimited) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Scale</nobr>| [1] (0.2 ~ 2) | 
+|  <b>Position</b></nobr>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> X</nobr>| [0] (Unlimited) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y</nobr>| [0] (Unlimited) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Z</nobr>| [0] (Unlimited) | 
+|  <b>Rotation</b></nobr>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> X</nobr>| [0] (Unlimited) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y</nobr>| [0] (Unlimited) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Z</nobr>| [0] (Unlimited) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Scale</nobr>| [1] (0.2 ~ 2) | 

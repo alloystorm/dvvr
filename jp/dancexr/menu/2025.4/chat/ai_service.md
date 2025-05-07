@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> サービスを選択</nobr>| **OpenAI (ChatGPT)** | OpenAI (ChatGPT), ローカルWebUI, リモートWebUI, (Ollama),  |
-|<nobr> OpenAI APIキー</nobr>|| 
-|<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> GPTモデル</nobr>| **(gpt-3.5-turbo)** | (gpt-3.5-turbo), (gpt-4), (gpt-4-turbo), (gpt-4o),  |
-|<nobr> ローカルWebUI URL</nobr>|| 
-|<nobr> リモートWebUI URL</nobr>|| 
-|<nobr> Ollama URL</nobr>|| 
-|<nobr> Ollamaモデル</nobr>|| 
+| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> サービスを選択</nobr>| **OpenAI (ChatGPT)** | OpenAI (ChatGPT), ローカルWebUI, リモートWebUI, (Ollama),  |
+|  OpenAI APIキー</nobr>|| 
+| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> GPTモデル</nobr>| **(gpt-3.5-turbo)** | (gpt-3.5-turbo), (gpt-4), (gpt-4-turbo), (gpt-4o),  |
+|  ローカルWebUI URL</nobr>|| 
+|  リモートWebUI URL</nobr>|| 
+|  Ollama URL</nobr>|| 
+|  Ollamaモデル</nobr>|| 

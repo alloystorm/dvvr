@@ -29,7 +29,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 綠色</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 藍色</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 發光</nobr>| [1] (0 ~ 20) | 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **綠色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
+|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **綠色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>標記顏色</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 顏色模式</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
@@ -39,7 +39,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 綠色</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 藍色</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 發光</nobr>| [1] (0 ~ 20) | 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **白色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
+|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **白色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 節拍循環</nobr>| [8] (2 ~ 16) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 一般光暈</nobr>| [1] (0 ~ 8) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 閃光光暈</nobr>| [2] (0 ~ 8) | 

@@ -33,7 +33,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 紅色</nobr>| [0.9] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 綠色</nobr>| [0.9] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 藍色</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Yellow)** | 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange), (Preset 1),  |
+|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Yellow)** | 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange), (Preset 1),  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 發光</nobr>| [1] (0 ~ 10) | 燒灼效果的亮度。
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合</nobr>| [1] (0 ~ 1) | (Blend between the original color and the burn color. )
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 持續時間</nobr>| [2] (0 ~ 5) | 動畫的持續時間。

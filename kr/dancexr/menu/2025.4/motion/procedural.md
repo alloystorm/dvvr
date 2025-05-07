@@ -16,33 +16,33 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr> <b>배우 모션</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [idle]</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두에 할당</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것에 할당</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두를 2번째로 할당</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것을 2번째로 할당</nobr>|| 
+|<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두에 할당</nobr>|| 
+|<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것에 할당</nobr>|| 
+|<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두를 2번째로 할당</nobr>|| 
+|<nobr>└─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것을 2번째로 할당</nobr>|| 
 | [[캣워크]](catwalk) |
 | [([Biped])](biped) |
 | [([Motion Builder])](motion_builder) |
 | [[제로]](zero) |
 |<nobr><img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [플레이어 제어]</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두에 할당</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것에 할당</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두를 2번째로 할당</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것을 2번째로 할당</nobr>|| 
+|<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두에 할당</nobr>|| 
+|<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것에 할당</nobr>|| 
+|<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두를 2번째로 할당</nobr>|| 
+|<nobr>└─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것을 2번째로 할당</nobr>|| 
 | [[오토 댄스 1]](auto_dance_1) |
 | [[오토 댄스 2]](auto_dance_2) |
 |<nobr><img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [오토 댄스 3]</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두에 할당</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것에 할당</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두를 2번째로 할당</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것을 2번째로 할당</nobr>|| 
+|<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두에 할당</nobr>|| 
+|<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것에 할당</nobr>|| 
+|<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두를 2번째로 할당</nobr>|| 
+|<nobr>└─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것을 2번째로 할당</nobr>|| 
 | [[카우걸 섹스]](cowgirl_sex) |
 | [[뒤에서 섹스]](sex_from_behind) |
 |<nobr><img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [성 모션 3]</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두에 할당</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것에 할당</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두를 2번째로 할당</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것을 2번째로 할당</nobr>|| 
+|<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두에 할당</nobr>|| 
+|<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것에 할당</nobr>|| 
+|<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두를 2번째로 할당</nobr>|| 
+|<nobr>└─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것을 2번째로 할당</nobr>|| 
 |<nobr> <b>카메라 모션</b></nobr>|| 
 | [[프리플라이 카메라]](freefly_cam) |
 | [[오르빗 카메라]](orbit_cam) |

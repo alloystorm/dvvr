@@ -35,11 +35,11 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 保持在地面上</nobr>| [0.5] (0 ~ 1) | 粒子落到地面后停留多久。设置为0将立即消失
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 雨声效果</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>雨水着色器</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 启用</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 强度</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴持续时间</nobr>| [5] (0 ~ 20) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 液滴大小</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴密度</nobr>| [1] (-2 ~ 3) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 凹凸</nobr>| [0.35] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 湿度</nobr>| [0.5] (0 ~ 2) | 
+|<nobr>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 启用</nobr>| [OFF] | 
+|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 强度</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴持续时间</nobr>| [5] (0 ~ 20) | 
+|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 液滴大小</nobr>| [1] (0 ~ 1) | 
+|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴密度</nobr>| [1] (-2 ~ 3) | 
+|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 凹凸</nobr>| [0.35] (0 ~ 1) | 
+|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 湿度</nobr>| [0.5] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **关闭** | 关闭, 灰尘, 雨, 雪, 花瓣, 叶子, 闪光,  |

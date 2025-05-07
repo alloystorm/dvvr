@@ -27,4 +27,4 @@ sidebar:
 |<nobr> 投影仪场景示例</nobr>|| 
 |<nobr> LED屏幕示例</nobr>|| 
 |<nobr><img src="/images/icon/ic_video.png" alt="video icon"/> 加载视频</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_close.png" alt="close icon"/> [无]</nobr>|| 
+|<nobr>└─<img src="/images/icon/ic_close.png" alt="close icon"/> [无]</nobr>|| 

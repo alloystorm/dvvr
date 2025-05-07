@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_refresh.png" alt="refresh icon"/> 모두 리셋</nobr>|| 
-|<nobr><img src="/images/icon/ic_file.png" alt="file icon"/> 저장된 다시 로드</nobr>|| 
+| <img src="/images/icon/ic_refresh.png" alt="refresh icon"/> 모두 리셋</nobr>|| 
+| <img src="/images/icon/ic_file.png" alt="file icon"/> 저장된 다시 로드</nobr>|| 

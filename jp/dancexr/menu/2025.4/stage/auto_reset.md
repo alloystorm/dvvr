@@ -14,4 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> しきい値</nobr>| [30] (0 ~ 50) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> しきい値</nobr>| [30] (0 ~ 50) | 

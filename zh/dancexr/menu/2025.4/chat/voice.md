@@ -28,4 +28,4 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 性别</nobr>| 未知 | 未知, 男, 女, 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 评分</nobr>| [0] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 预览</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_l.png"/> 保存更改</nobr>|| 
+|<nobr>└─ 保存更改</nobr>|| 

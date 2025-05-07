@@ -27,4 +27,4 @@ sidebar:
 |<nobr> 投影機場景範例</nobr>|| 
 |<nobr> LED螢幕範例</nobr>|| 
 |<nobr><img src="/images/icon/ic_video.png" alt="video icon"/> 載入影片</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_close.png" alt="close icon"/> [無]</nobr>|| 
+|<nobr>└─<img src="/images/icon/ic_close.png" alt="close icon"/> [無]</nobr>|| 

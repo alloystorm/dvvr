@@ -14,32 +14,32 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> Enable</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Data</nobr>| Beats | Beats, Raw Beats, Raw Onset, 
-|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Location</nobr>| Stage | Camera, Stage, Actor, 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Radius</nobr>| [1.2] (0.2 ~ 5) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Marker Size</nobr>| [0.02] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Line Width</nobr>| [0.01] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Line Color</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Color Mode</nobr>| HSV | RGB, HSV, 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue</nobr>| [0.3333333] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Red</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Green</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow</nobr>| [1] (0 ~ 20) | 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Green** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Marker Color</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Color Mode</nobr>| HSV | RGB, HSV, 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Red</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Green</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow</nobr>| [1] (0 ~ 20) | 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Beat Cycle</nobr>| [8] (2 ~ 16) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Normal Glow</nobr>| [1] (0 ~ 8) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> Flash Glow</nobr>| [2] (0 ~ 8) | 
+| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Enable</nobr>| [ON] | 
+| <img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Data</nobr>| Beats | Beats, Raw Beats, Raw Onset, 
+| <img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Location</nobr>| Stage | Camera, Stage, Actor, 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Radius</nobr>| [1.2] (0.2 ~ 5) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Marker Size</nobr>| [0.02] (0 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Line Width</nobr>| [0.01] (0 ~ 1) | 
+| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Line Color</b></nobr>| | 
+| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Color Mode</nobr>| HSV | RGB, HSV, 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue</nobr>| [0.3333333] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation</nobr>| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness</nobr>| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red</nobr>| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green</nobr>| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue</nobr>| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow</nobr>| [1] (0 ~ 20) | 
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Green** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Marker Color</b></nobr>| | 
+| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Color Mode</nobr>| HSV | RGB, HSV, 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue</nobr>| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation</nobr>| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness</nobr>| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red</nobr>| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green</nobr>| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue</nobr>| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow</nobr>| [1] (0 ~ 20) | 
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Beat Cycle</nobr>| [8] (2 ~ 16) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Normal Glow</nobr>| [1] (0 ~ 8) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Flash Glow</nobr>| [2] (0 ~ 8) | 

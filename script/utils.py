@@ -3,6 +3,14 @@ import json
 import os
 import re
 
+# ┌───────┬────────┬───────────┐
+# │ Header│ Header │ Header    │
+# ├───────┼────────┼───────────┤
+# │ Cell  │ Cell   │ Cell      │
+# ├───────┼────────┼───────────┤
+# │ Cell  │ Cell   │ Cell      │
+# └───────┴────────┴───────────┘
+
 # Function to read API key from a JSON file
 def get_api_key_from_file(file_path):
     with open(file_path, 'r') as file:

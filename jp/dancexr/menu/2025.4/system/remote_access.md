@@ -14,6 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 有効にする</nobr>| [OFF] | 
-|<nobr> ポート番号</nobr>|| 
-|<nobr> パスワード</nobr>|| 
+| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> 有効にする</nobr>| [OFF] | 
+|  ポート番号</nobr>|| 
+|  パスワード</nobr>|| 

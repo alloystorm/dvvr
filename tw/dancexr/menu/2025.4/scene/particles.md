@@ -41,5 +41,5 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴大小</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴密度</nobr>| [1] (-2 ~ 3) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 凸起</nobr>| [0.35] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 濕度</nobr>| [0.5] (0 ~ 2) | 
+|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 濕度</nobr>| [0.5] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **關閉** | 關閉, 灰塵, 雨, 雪, 花瓣, 葉子, 閃爍,  |

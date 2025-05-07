@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_refresh.png" alt="refresh icon"/> Refresh Content</nobr>|| 
-|<nobr><img src="/images/icon/ic_up.png" alt="up icon"/> Migrate Settings</nobr>|| 
-|<nobr><img src="/images/icon/ic_delete.png" alt="delete icon"/> Remove Duplicates</nobr>|| 
-|<nobr><img src="/images/icon/ic_replace.png" alt="replace icon"/> Switch Library</nobr>|| 
-|<nobr><img src="/images/icon/ic_folder_open.png" alt="folder open icon"/> Show In Explorer</nobr>|| 
-|<nobr> <b>Google Drive</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_linked.png" alt="linked icon"/> Link Google Drive</nobr>|| 
+| <img src="/images/icon/ic_refresh.png" alt="refresh icon"/> Refresh Content</nobr>|| 
+| <img src="/images/icon/ic_up.png" alt="up icon"/> Migrate Settings</nobr>|| 
+| <img src="/images/icon/ic_delete.png" alt="delete icon"/> Remove Duplicates</nobr>|| 
+| <img src="/images/icon/ic_replace.png" alt="replace icon"/> Switch Library</nobr>|| 
+| <img src="/images/icon/ic_folder_open.png" alt="folder open icon"/> Show In Explorer</nobr>|| 
+|  <b>Google Drive</b></nobr>|| 
+| <img src="/images/icon/ic_linked.png" alt="linked icon"/> Link Google Drive</nobr>|| 

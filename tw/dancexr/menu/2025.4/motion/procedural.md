@@ -19,7 +19,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給所有</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給所有作為第二</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定作為第二</nobr>|| 
+|<nobr>└─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定作為第二</nobr>|| 
 | [[走秀]](catwalk) |
 | [([Biped])](biped) |
 | [([Motion Builder])](motion_builder) |
@@ -28,21 +28,21 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給所有</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給所有作為第二</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定作為第二</nobr>|| 
+|<nobr>└─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定作為第二</nobr>|| 
 | [[自動舞蹈 1]](auto_dance_1) |
 | [[自動舞蹈 2]](auto_dance_2) |
 |<nobr><img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [自動舞蹈 3]</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給所有</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給所有作為第二</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定作為第二</nobr>|| 
+|<nobr>└─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定作為第二</nobr>|| 
 | [[騎士性愛]](cowgirl_sex) |
 | [[從後方性愛]](sex_from_behind) |
 |<nobr><img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [性愛動作 3]</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給所有</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給所有作為第二</nobr>|| 
-|<nobr><img src="/images/icon/ic_line_l.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定作為第二</nobr>|| 
+|<nobr>└─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定作為第二</nobr>|| 
 |<nobr> <b>攝影機動作</b></nobr>|| 
 | [[自由飛行攝影機]](freefly_cam) |
 | [[軌道攝影機]](orbit_cam) |

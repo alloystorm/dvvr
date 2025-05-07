@@ -16,17 +16,17 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 有効にする</nobr>| [OFF] | 
-|<nobr> ソースボーンを選択</nobr>|| アタッチするボーンを選択
-|<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> アクターを選択</nobr>|  |  |
-|<nobr> ターゲットボーンを選択</nobr>|| アタッチするターゲットボーンを選択
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> (Ignore Rotation)</nobr>| [OFF] | アタッチボーンの回転を無視する
-|<nobr> <b>オフセット</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr> <b>回転</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-180 ~ 180) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-180 ~ 180) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-180 ~ 180) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール</nobr>| [0] (-4 ~ 4) | 
+| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> 有効にする</nobr>| [OFF] | 
+|  ソースボーンを選択</nobr>|| アタッチするボーンを選択
+| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> アクターを選択</nobr>|  |  |
+|  ターゲットボーンを選択</nobr>|| アタッチするターゲットボーンを選択
+| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> (Ignore Rotation)</nobr>| [OFF] | アタッチボーンの回転を無視する
+|  <b>オフセット</b></nobr>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-1 ~ 1) | 
+|  <b>回転</b></nobr>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール</nobr>| [0] (-4 ~ 4) | 
