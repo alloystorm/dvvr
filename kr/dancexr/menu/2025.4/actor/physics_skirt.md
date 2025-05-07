@@ -57,15 +57,15 @@ sidebar:
 | │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
 | │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
 | └─ ⚙️ <b>충돌하기</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 머리| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 몸체| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 가슴| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 엉덩이| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 손| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 다리| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 발| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어| [ON] | 
+|  ├─ ☑ 머리| [ON] | 
+|  ├─ ☑ 몸체| [ON] | 
+|  ├─ ☑ 가슴| [ON] | 
+|  ├─ ☑ 엉덩이| [ON] | 
+|  ├─ ☑ (Arms)| [ON] | 
+|  ├─ ☑ 손| [ON] | 
+|  ├─ ☑ 다리| [ON] | 
+|  ├─ ☑ 발| [ON] | 
+|  └─ ☑ 플레이어| [ON] | 
 |  ⚙️ <b>물리 속성</b>| | Physics properties like mass, drag and friction
 | ├─ ⊖ 질량| [0.1] (0 ~ 1) | 
 | ├─ ⊖ 드래그| [0] (0 ~ 10) | 
@@ -125,15 +125,15 @@ sidebar:
 | │ │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>충돌하기</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 머리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 몸체| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 가슴| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 엉덩이| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 손| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 다리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 발| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어| [ON] | 
+| │  ├─ ☑ 머리| [ON] | 
+| │  ├─ ☑ 몸체| [ON] | 
+| │  ├─ ☑ 가슴| [ON] | 
+| │  ├─ ☑ 엉덩이| [ON] | 
+| │  ├─ ☑ (Arms)| [ON] | 
+| │  ├─ ☑ 손| [ON] | 
+| │  ├─ ☑ 다리| [ON] | 
+| │  ├─ ☑ 발| [ON] | 
+| │  └─ ☑ 플레이어| [ON] | 
 | ├─ ⚙️ <b>물리 속성</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ 질량| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ 드래그| [0] (0 ~ 10) | 
@@ -193,15 +193,15 @@ sidebar:
 | │ │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>충돌하기</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 머리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 몸체| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 가슴| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 엉덩이| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 손| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 다리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 발| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어| [ON] | 
+| │  ├─ ☑ 머리| [ON] | 
+| │  ├─ ☑ 몸체| [ON] | 
+| │  ├─ ☑ 가슴| [ON] | 
+| │  ├─ ☑ 엉덩이| [ON] | 
+| │  ├─ ☑ (Arms)| [ON] | 
+| │  ├─ ☑ 손| [ON] | 
+| │  ├─ ☑ 다리| [ON] | 
+| │  ├─ ☑ 발| [ON] | 
+| │  └─ ☑ 플레이어| [ON] | 
 | ├─ ⚙️ <b>물리 속성</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ 질량| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ 드래그| [0] (0 ~ 10) | 
@@ -261,15 +261,15 @@ sidebar:
 | │ │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>충돌하기</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 머리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 몸체| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 가슴| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 엉덩이| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 손| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 다리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 발| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어| [ON] | 
+| │  ├─ ☑ 머리| [ON] | 
+| │  ├─ ☑ 몸체| [ON] | 
+| │  ├─ ☑ 가슴| [ON] | 
+| │  ├─ ☑ 엉덩이| [ON] | 
+| │  ├─ ☑ (Arms)| [ON] | 
+| │  ├─ ☑ 손| [ON] | 
+| │  ├─ ☑ 다리| [ON] | 
+| │  ├─ ☑ 발| [ON] | 
+| │  └─ ☑ 플레이어| [ON] | 
 | ├─ ⚙️ <b>물리 속성</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ 질량| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ 드래그| [0] (0 ~ 10) | 
@@ -329,15 +329,15 @@ sidebar:
 | │ │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>충돌하기</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 머리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 몸체| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 가슴| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 엉덩이| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 손| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 다리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 발| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어| [ON] | 
+| │  ├─ ☑ 머리| [ON] | 
+| │  ├─ ☑ 몸체| [ON] | 
+| │  ├─ ☑ 가슴| [ON] | 
+| │  ├─ ☑ 엉덩이| [ON] | 
+| │  ├─ ☑ (Arms)| [ON] | 
+| │  ├─ ☑ 손| [ON] | 
+| │  ├─ ☑ 다리| [ON] | 
+| │  ├─ ☑ 발| [ON] | 
+| │  └─ ☑ 플레이어| [ON] | 
 | ├─ ⚙️ <b>물리 속성</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ 질량| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ 드래그| [0] (0 ~ 10) | 
@@ -397,15 +397,15 @@ sidebar:
 | │ │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>충돌하기</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 머리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 몸체| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 가슴| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 엉덩이| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 손| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 다리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 발| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어| [ON] | 
+| │  ├─ ☑ 머리| [ON] | 
+| │  ├─ ☑ 몸체| [ON] | 
+| │  ├─ ☑ 가슴| [ON] | 
+| │  ├─ ☑ 엉덩이| [ON] | 
+| │  ├─ ☑ (Arms)| [ON] | 
+| │  ├─ ☑ 손| [ON] | 
+| │  ├─ ☑ 다리| [ON] | 
+| │  ├─ ☑ 발| [ON] | 
+| │  └─ ☑ 플레이어| [ON] | 
 | ├─ ⚙️ <b>물리 속성</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ 질량| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ 드래그| [0] (0 ~ 10) | 
@@ -465,15 +465,15 @@ sidebar:
 | │ │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>충돌하기</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 머리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 몸체| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 가슴| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 엉덩이| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 손| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 다리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 발| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어| [ON] | 
+| │  ├─ ☑ 머리| [ON] | 
+| │  ├─ ☑ 몸체| [ON] | 
+| │  ├─ ☑ 가슴| [ON] | 
+| │  ├─ ☑ 엉덩이| [ON] | 
+| │  ├─ ☑ (Arms)| [ON] | 
+| │  ├─ ☑ 손| [ON] | 
+| │  ├─ ☑ 다리| [ON] | 
+| │  ├─ ☑ 발| [ON] | 
+| │  └─ ☑ 플레이어| [ON] | 
 | ├─ ⚙️ <b>물리 속성</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ 질량| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ 드래그| [0] (0 ~ 10) | 
@@ -533,15 +533,15 @@ sidebar:
 | │ │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>충돌하기</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 머리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 몸체| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 가슴| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 엉덩이| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 손| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 다리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 발| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어| [ON] | 
+| │  ├─ ☑ 머리| [ON] | 
+| │  ├─ ☑ 몸체| [ON] | 
+| │  ├─ ☑ 가슴| [ON] | 
+| │  ├─ ☑ 엉덩이| [ON] | 
+| │  ├─ ☑ (Arms)| [ON] | 
+| │  ├─ ☑ 손| [ON] | 
+| │  ├─ ☑ 다리| [ON] | 
+| │  ├─ ☑ 발| [ON] | 
+| │  └─ ☑ 플레이어| [ON] | 
 | ├─ ⚙️ <b>물리 속성</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ 질량| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ 드래그| [0] (0 ~ 10) | 

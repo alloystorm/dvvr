@@ -50,19 +50,19 @@ sidebar:
 | │ │ └─ ⊖ (Z)| [0] (-1 ~ 1) | 
 | │ ├─ ⊖ ボトムレイヤー| [0] (0 ~ 10) | 
 | │ └─ ⚙️ <b>ボトムアンカー</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ アンカー選択| [1] (0 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ 選択オフセット| [0.5] (0 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > アンカーボーン| **ウエスト** | ウエスト, トルソ, ヒップ, 頭, 太もも, 脛, 上腕, 下腕, 手, 胸部,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ □ スワップサイド| [OFF] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > ロックモード| **なし** | なし, ロック, ロック高さ, スティッキー,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ <b>アンカーポジション</b>|| 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (X)| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (Y)| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (Z)| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ <b>アンカー回転</b>|| 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (X)| [0] (-1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (Y)| [0] (-1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ⊖ (Z)| [0] (-1 ~ 1) | 
+| │  ├─ ⊖ アンカー選択| [1] (0 ~ 1) | 
+| │  ├─ ⊖ 選択オフセット| [0.5] (0 ~ 1) | 
+| │  ├─ > アンカーボーン| **ウエスト** | ウエスト, トルソ, ヒップ, 頭, 太もも, 脛, 上腕, 下腕, 手, 胸部,  |
+| │  ├─ □ スワップサイド| [OFF] | 
+| │  ├─ > ロックモード| **なし** | なし, ロック, ロック高さ, スティッキー,  |
+| │  ├─ <b>アンカーポジション</b>|| 
+| │  ├─ ⊖ (X)| [0] (-0.5 ~ 0.5) | 
+| │  ├─ ⊖ (Y)| [0] (-0.5 ~ 0.5) | 
+| │  ├─ ⊖ (Z)| [0] (-0.5 ~ 0.5) | 
+| │  ├─ <b>アンカー回転</b>|| 
+| │  ├─ ⊖ (X)| [0] (-1 ~ 1) | 
+| │  ├─ ⊖ (Y)| [0] (-1 ~ 1) | 
+| │  └─ ⊖ (Z)| [0] (-1 ~ 1) | 
 | ├─ ⚙️ <b>粒子特性</b>| | 
 | │ ├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
 | │ ├─ ⊖ 粘着性| [0] (0 ~ 1) | 
@@ -146,25 +146,25 @@ sidebar:
 | │ └─ ⊖ 厚さ| [1] (0 ~ 1) | 
 | ├─ > テクスチャ| **[ソリッドカラー]** | [ソリッドカラー], [ウッド1], [ウッド2], [タイル], [コンクリート], [ビデオ],  |
 | └─ ☑ <b>ディテールマップ</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 有効にする| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ □ <b>(Hexagon Map)</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 有効にする| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 密度| [2] (0 ~ 8) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ サイズ| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ バンプ| [0.5] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ ノイズ| [0.2] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ (Use Circle)| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ ソフトエッジ| [0.1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ > マップ選択| **ファブリック 3** | カーボンファイバー, レザー, ファブリック 1, ファブリック 2, ファブリック 3, ウール 1, ウール 2, メタルサテン, メタルブラシ, 髪,  |
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ディテールマップの回転| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ディテールマップのスケール| [6] (0 ~ 8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ディテールマップのバンプ| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ AOに影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ スムーズさに影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 金属に影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ カラーブレンドに影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 異方性| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>└─ ⊖ MIPマップバイアス| [0] (-5 ~ 5) | ディテールテクスチャのシャープネスを調整
+|  ├─ ☑ 有効にする| [ON] | 
+|  ├─ □ <b>(Hexagon Map)</b>| | 
+|  │ ├─ □ 有効にする| [OFF] | 
+|  │ ├─ ⊖ 密度| [2] (0 ~ 8) | 
+|  │ ├─ ⊖ サイズ| [1] (0 ~ 1) | 
+|  │ ├─ ⊖ バンプ| [0.5] (-1 ~ 1) | 
+|  │ ├─ ⊖ ノイズ| [0.2] (0 ~ 1) | 
+|  │ ├─ □ (Use Circle)| [OFF] | 
+|  │ └─ ⊖ ソフトエッジ| [0.1] (0 ~ 1) | 
+|  ├─ > マップ選択| **ファブリック 3** | カーボンファイバー, レザー, ファブリック 1, ファブリック 2, ファブリック 3, ウール 1, ウール 2, メタルサテン, メタルブラシ, 髪,  |
+|  ├─ ⊖ ディテールマップの回転| [0] (-180 ~ 180) | 
+|  ├─ ⊖ ディテールマップのスケール| [6] (0 ~ 8) | 
+|  ├─ ⊖ ディテールマップのバンプ| [0.5] (0 ~ 1) | 
+|  ├─ ⊖ AOに影響| [0] (0 ~ 1) | 
+|  ├─ ⊖ スムーズさに影響| [0] (0 ~ 1) | 
+|  ├─ ⊖ 金属に影響| [0] (0 ~ 1) | 
+|  ├─ ⊖ カラーブレンドに影響| [0] (0 ~ 1) | 
+|  ├─ ⊖ 異方性| [0] (-1 ~ 1) | 
+|  └─ ⊖ MIPマップバイアス| [0] (-5 ~ 5) | ディテールテクスチャのシャープネスを調整
 |  □ <b>布 2</b>| | 
 | ├─ □ 有効にする| [OFF] | 
 | ├─ メッシュ再構築|| ここでのほとんどのパラメータは、効果を得るためにメッシュを再構築する必要があります。
@@ -199,19 +199,19 @@ sidebar:
 | │ │ └─ ⊖ (Z)| [0] (-1 ~ 1) | 
 | │ ├─ ⊖ ボトムレイヤー| [0] (0 ~ 10) | 
 | │ └─ ⚙️ <b>ボトムアンカー</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ アンカー選択| [1] (0 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ 選択オフセット| [0.5] (0 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > アンカーボーン| **ウエスト** | ウエスト, トルソ, ヒップ, 頭, 太もも, 脛, 上腕, 下腕, 手, 胸部,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ □ スワップサイド| [OFF] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > ロックモード| **なし** | なし, ロック, ロック高さ, スティッキー,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ <b>アンカーポジション</b>|| 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (X)| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (Y)| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (Z)| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ <b>アンカー回転</b>|| 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (X)| [0] (-1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (Y)| [0] (-1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ⊖ (Z)| [0] (-1 ~ 1) | 
+| │  ├─ ⊖ アンカー選択| [1] (0 ~ 1) | 
+| │  ├─ ⊖ 選択オフセット| [0.5] (0 ~ 1) | 
+| │  ├─ > アンカーボーン| **ウエスト** | ウエスト, トルソ, ヒップ, 頭, 太もも, 脛, 上腕, 下腕, 手, 胸部,  |
+| │  ├─ □ スワップサイド| [OFF] | 
+| │  ├─ > ロックモード| **なし** | なし, ロック, ロック高さ, スティッキー,  |
+| │  ├─ <b>アンカーポジション</b>|| 
+| │  ├─ ⊖ (X)| [0] (-0.5 ~ 0.5) | 
+| │  ├─ ⊖ (Y)| [0] (-0.5 ~ 0.5) | 
+| │  ├─ ⊖ (Z)| [0] (-0.5 ~ 0.5) | 
+| │  ├─ <b>アンカー回転</b>|| 
+| │  ├─ ⊖ (X)| [0] (-1 ~ 1) | 
+| │  ├─ ⊖ (Y)| [0] (-1 ~ 1) | 
+| │  └─ ⊖ (Z)| [0] (-1 ~ 1) | 
 | ├─ ⚙️ <b>粒子特性</b>| | 
 | │ ├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
 | │ ├─ ⊖ 粘着性| [0] (0 ~ 1) | 
@@ -295,25 +295,25 @@ sidebar:
 | │ └─ ⊖ 厚さ| [1] (0 ~ 1) | 
 | ├─ > テクスチャ| **[ソリッドカラー]** | [ソリッドカラー], [ウッド1], [ウッド2], [タイル], [コンクリート], [ビデオ],  |
 | └─ ☑ <b>ディテールマップ</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 有効にする| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ □ <b>(Hexagon Map)</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 有効にする| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 密度| [2] (0 ~ 8) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ サイズ| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ バンプ| [0.5] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ ノイズ| [0.2] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ (Use Circle)| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ ソフトエッジ| [0.1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ > マップ選択| **ファブリック 3** | カーボンファイバー, レザー, ファブリック 1, ファブリック 2, ファブリック 3, ウール 1, ウール 2, メタルサテン, メタルブラシ, 髪,  |
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ディテールマップの回転| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ディテールマップのスケール| [6] (0 ~ 8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ディテールマップのバンプ| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ AOに影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ スムーズさに影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 金属に影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ カラーブレンドに影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 異方性| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>└─ ⊖ MIPマップバイアス| [0] (-5 ~ 5) | ディテールテクスチャのシャープネスを調整
+|  ├─ ☑ 有効にする| [ON] | 
+|  ├─ □ <b>(Hexagon Map)</b>| | 
+|  │ ├─ □ 有効にする| [OFF] | 
+|  │ ├─ ⊖ 密度| [2] (0 ~ 8) | 
+|  │ ├─ ⊖ サイズ| [1] (0 ~ 1) | 
+|  │ ├─ ⊖ バンプ| [0.5] (-1 ~ 1) | 
+|  │ ├─ ⊖ ノイズ| [0.2] (0 ~ 1) | 
+|  │ ├─ □ (Use Circle)| [OFF] | 
+|  │ └─ ⊖ ソフトエッジ| [0.1] (0 ~ 1) | 
+|  ├─ > マップ選択| **ファブリック 3** | カーボンファイバー, レザー, ファブリック 1, ファブリック 2, ファブリック 3, ウール 1, ウール 2, メタルサテン, メタルブラシ, 髪,  |
+|  ├─ ⊖ ディテールマップの回転| [0] (-180 ~ 180) | 
+|  ├─ ⊖ ディテールマップのスケール| [6] (0 ~ 8) | 
+|  ├─ ⊖ ディテールマップのバンプ| [0.5] (0 ~ 1) | 
+|  ├─ ⊖ AOに影響| [0] (0 ~ 1) | 
+|  ├─ ⊖ スムーズさに影響| [0] (0 ~ 1) | 
+|  ├─ ⊖ 金属に影響| [0] (0 ~ 1) | 
+|  ├─ ⊖ カラーブレンドに影響| [0] (0 ~ 1) | 
+|  ├─ ⊖ 異方性| [0] (-1 ~ 1) | 
+|  └─ ⊖ MIPマップバイアス| [0] (-5 ~ 5) | ディテールテクスチャのシャープネスを調整
 |  □ 結合| [OFF] | 布 1 と 2 を単一のシミュレーションとして結合します。これにより、2つの間での衝突が可能になりますが、速度は遅くなります。
 |  □ <b>流体（実験的）</b>| | 
 | ├─ □ 有効にする| [OFF] | 
@@ -375,15 +375,15 @@ sidebar:
 | │ │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>衝突する</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 頭| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 体| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 胸部| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 臀部| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 手| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 脚| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 足| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ □ プレイヤー| [OFF] | 
+| │  ├─ ☑ 頭| [ON] | 
+| │  ├─ ☑ 体| [ON] | 
+| │  ├─ ☑ 胸部| [ON] | 
+| │  ├─ ☑ 臀部| [ON] | 
+| │  ├─ ☑ (Arms)| [ON] | 
+| │  ├─ ☑ 手| [ON] | 
+| │  ├─ ☑ 脚| [ON] | 
+| │  ├─ ☑ 足| [ON] | 
+| │  └─ □ プレイヤー| [OFF] | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **デフォルト（リセット）** | デフォルト（リセット）,  |
 |  ☑ <b>ジオメトリコライダー</b>| | 
 | ├─ ☑ 有効にする| [ON] | 

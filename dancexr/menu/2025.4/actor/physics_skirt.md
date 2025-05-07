@@ -57,15 +57,15 @@ sidebar:
 | │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | └─ ⚙️ <b>Collide With</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+|  ├─ ☑ Head| [ON] | 
+|  ├─ ☑ Body| [ON] | 
+|  ├─ ☑ Boobs| [ON] | 
+|  ├─ ☑ Butts| [ON] | 
+|  ├─ ☑ Arms| [ON] | 
+|  ├─ ☑ Hands| [ON] | 
+|  ├─ ☑ Legs| [ON] | 
+|  ├─ ☑ Feet| [ON] | 
+|  └─ ☑ Player| [ON] | 
 |  ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -125,15 +125,15 @@ sidebar:
 | │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>Collide With</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │  ├─ ☑ Head| [ON] | 
+| │  ├─ ☑ Body| [ON] | 
+| │  ├─ ☑ Boobs| [ON] | 
+| │  ├─ ☑ Butts| [ON] | 
+| │  ├─ ☑ Arms| [ON] | 
+| │  ├─ ☑ Hands| [ON] | 
+| │  ├─ ☑ Legs| [ON] | 
+| │  ├─ ☑ Feet| [ON] | 
+| │  └─ ☑ Player| [ON] | 
 | ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -193,15 +193,15 @@ sidebar:
 | │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>Collide With</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │  ├─ ☑ Head| [ON] | 
+| │  ├─ ☑ Body| [ON] | 
+| │  ├─ ☑ Boobs| [ON] | 
+| │  ├─ ☑ Butts| [ON] | 
+| │  ├─ ☑ Arms| [ON] | 
+| │  ├─ ☑ Hands| [ON] | 
+| │  ├─ ☑ Legs| [ON] | 
+| │  ├─ ☑ Feet| [ON] | 
+| │  └─ ☑ Player| [ON] | 
 | ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -261,15 +261,15 @@ sidebar:
 | │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>Collide With</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │  ├─ ☑ Head| [ON] | 
+| │  ├─ ☑ Body| [ON] | 
+| │  ├─ ☑ Boobs| [ON] | 
+| │  ├─ ☑ Butts| [ON] | 
+| │  ├─ ☑ Arms| [ON] | 
+| │  ├─ ☑ Hands| [ON] | 
+| │  ├─ ☑ Legs| [ON] | 
+| │  ├─ ☑ Feet| [ON] | 
+| │  └─ ☑ Player| [ON] | 
 | ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -329,15 +329,15 @@ sidebar:
 | │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>Collide With</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │  ├─ ☑ Head| [ON] | 
+| │  ├─ ☑ Body| [ON] | 
+| │  ├─ ☑ Boobs| [ON] | 
+| │  ├─ ☑ Butts| [ON] | 
+| │  ├─ ☑ Arms| [ON] | 
+| │  ├─ ☑ Hands| [ON] | 
+| │  ├─ ☑ Legs| [ON] | 
+| │  ├─ ☑ Feet| [ON] | 
+| │  └─ ☑ Player| [ON] | 
 | ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -397,15 +397,15 @@ sidebar:
 | │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>Collide With</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │  ├─ ☑ Head| [ON] | 
+| │  ├─ ☑ Body| [ON] | 
+| │  ├─ ☑ Boobs| [ON] | 
+| │  ├─ ☑ Butts| [ON] | 
+| │  ├─ ☑ Arms| [ON] | 
+| │  ├─ ☑ Hands| [ON] | 
+| │  ├─ ☑ Legs| [ON] | 
+| │  ├─ ☑ Feet| [ON] | 
+| │  └─ ☑ Player| [ON] | 
 | ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -465,15 +465,15 @@ sidebar:
 | │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>Collide With</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │  ├─ ☑ Head| [ON] | 
+| │  ├─ ☑ Body| [ON] | 
+| │  ├─ ☑ Boobs| [ON] | 
+| │  ├─ ☑ Butts| [ON] | 
+| │  ├─ ☑ Arms| [ON] | 
+| │  ├─ ☑ Hands| [ON] | 
+| │  ├─ ☑ Legs| [ON] | 
+| │  ├─ ☑ Feet| [ON] | 
+| │  └─ ☑ Player| [ON] | 
 | ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -533,15 +533,15 @@ sidebar:
 | │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>Collide With</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │  ├─ ☑ Head| [ON] | 
+| │  ├─ ☑ Body| [ON] | 
+| │  ├─ ☑ Boobs| [ON] | 
+| │  ├─ ☑ Butts| [ON] | 
+| │  ├─ ☑ Arms| [ON] | 
+| │  ├─ ☑ Hands| [ON] | 
+| │  ├─ ☑ Legs| [ON] | 
+| │  ├─ ☑ Feet| [ON] | 
+| │  └─ ☑ Player| [ON] | 
 | ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ Drag| [0] (0 ~ 10) | 

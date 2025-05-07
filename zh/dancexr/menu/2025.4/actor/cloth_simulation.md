@@ -50,19 +50,19 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ (Z)</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 底层</nobr>| [0] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>底部锚点</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 锚点选择</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 选择偏移</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ > 锚点骨骼</nobr>| **腰部** | 腰部, 躯干, 臀部, 头部, 大腿, 小腿, 上臂, 前臂, 手, 胸部,  |
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ □ 交换侧面</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ > 锁定模式</nobr>| **无** | 无, 锁定, 锁定高度, 黏性,  |
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ <b>锚点位置</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ (X)</nobr>| [0] (-0.5 ~ 0.5) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ (Y)</nobr>| [0] (-0.5 ~ 0.5) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ (Z)</nobr>| [0] (-0.5 ~ 0.5) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ <b>锚点旋转</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ (X)</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ (Y)</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ ⊖ (Z)</nobr>| [0] (-1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 锚点选择</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 选择偏移</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ > 锚点骨骼</nobr>| **腰部** | 腰部, 躯干, 臀部, 头部, 大腿, 小腿, 上臂, 前臂, 手, 胸部,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ □ 交换侧面</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ > 锁定模式</nobr>| **无** | 无, 锁定, 锁定高度, 黏性,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ <b>锚点位置</b></nobr>|| 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ (X)</nobr>| [0] (-0.5 ~ 0.5) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ (Y)</nobr>| [0] (-0.5 ~ 0.5) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ (Z)</nobr>| [0] (-0.5 ~ 0.5) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ <b>锚点旋转</b></nobr>|| 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ (X)</nobr>| [0] (-1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ (Y)</nobr>| [0] (-1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> └─ ⊖ (Z)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├─ ⚙️ <b>粒子属性</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 粒子半径</nobr>| [5] (1 ~ 20) | 粒子大小（以毫米为单位）
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 粘性</nobr>| [0] (0 ~ 1) | 
@@ -146,25 +146,25 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 厚度</nobr>| [1] (0 ~ 1) | 
 |<nobr>├─ > 纹理</nobr>| **[纯色]** | [纯色], [木材1], [木材2], [瓷砖], [混凝土], [视频],  |
 |<nobr>└─ ☑ <b>细节贴图</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ☑ 启用</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ □ <b>(Hexagon Map)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 密度</nobr>| [2] (0 ~ 8) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 大小</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 凹凸</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 噪声</nobr>| [0.2] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>├─ □ (Use Circle)</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 柔和边缘</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ > 选择贴图</nobr>| **面料 3** | 碳纤维, 皮革, 面料 1, 面料 2, 面料 3, 羊毛 1, 羊毛 2, 金属缎面, 金属拉丝, 头发,  |
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 细节贴图旋转</nobr>| [0] (-180 ~ 180) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 细节贴图缩放</nobr>| [6] (0 ~ 8) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 细节贴图的凹凸</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 影响环境光遮蔽</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 影响光滑度</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 影响金属感</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 影响颜色混合</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 各向异性</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>└─ ⊖ MIP贴图偏差</nobr>| [0] (-5 ~ 5) | 调整细节纹理的锐度。
+|<nobr> ├─ ☑ 启用</nobr>| [ON] | 
+|<nobr> ├─ □ <b>(Hexagon Map)</b></nobr>| | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>├─ ⊖ 密度</nobr>| [2] (0 ~ 8) | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>├─ ⊖ 大小</nobr>| [1] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>├─ ⊖ 凹凸</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>├─ ⊖ 噪声</nobr>| [0.2] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>├─ □ (Use Circle)</nobr>| [OFF] | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>└─ ⊖ 柔和边缘</nobr>| [0.1] (0 ~ 1) | 
+|<nobr> ├─ > 选择贴图</nobr>| **面料 3** | 碳纤维, 皮革, 面料 1, 面料 2, 面料 3, 羊毛 1, 羊毛 2, 金属缎面, 金属拉丝, 头发,  |
+|<nobr> ├─ ⊖ 细节贴图旋转</nobr>| [0] (-180 ~ 180) | 
+|<nobr> ├─ ⊖ 细节贴图缩放</nobr>| [6] (0 ~ 8) | 
+|<nobr> ├─ ⊖ 细节贴图的凹凸</nobr>| [0.5] (0 ~ 1) | 
+|<nobr> ├─ ⊖ 影响环境光遮蔽</nobr>| [0] (0 ~ 1) | 
+|<nobr> ├─ ⊖ 影响光滑度</nobr>| [0] (0 ~ 1) | 
+|<nobr> ├─ ⊖ 影响金属感</nobr>| [0] (0 ~ 1) | 
+|<nobr> ├─ ⊖ 影响颜色混合</nobr>| [0] (0 ~ 1) | 
+|<nobr> ├─ ⊖ 各向异性</nobr>| [0] (-1 ~ 1) | 
+|<nobr> └─ ⊖ MIP贴图偏差</nobr>| [0] (-5 ~ 5) | 调整细节纹理的锐度。
 |<nobr> □ <b>布料 2</b></nobr>| | 
 |<nobr>├─ □ 启用</nobr>| [OFF] | 
 |<nobr>├─ 重建网格</nobr>|| 大多数参数需要重建网格才能生效。
@@ -199,19 +199,19 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ (Z)</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 底层</nobr>| [0] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>底部锚点</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 锚点选择</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 选择偏移</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ > 锚点骨骼</nobr>| **腰部** | 腰部, 躯干, 臀部, 头部, 大腿, 小腿, 上臂, 前臂, 手, 胸部,  |
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ □ 交换侧面</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ > 锁定模式</nobr>| **无** | 无, 锁定, 锁定高度, 黏性,  |
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ <b>锚点位置</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ (X)</nobr>| [0] (-0.5 ~ 0.5) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ (Y)</nobr>| [0] (-0.5 ~ 0.5) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ (Z)</nobr>| [0] (-0.5 ~ 0.5) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ <b>锚点旋转</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ (X)</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ (Y)</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ ⊖ (Z)</nobr>| [0] (-1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 锚点选择</nobr>| [1] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 选择偏移</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ > 锚点骨骼</nobr>| **腰部** | 腰部, 躯干, 臀部, 头部, 大腿, 小腿, 上臂, 前臂, 手, 胸部,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ □ 交换侧面</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ > 锁定模式</nobr>| **无** | 无, 锁定, 锁定高度, 黏性,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ <b>锚点位置</b></nobr>|| 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ (X)</nobr>| [0] (-0.5 ~ 0.5) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ (Y)</nobr>| [0] (-0.5 ~ 0.5) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ (Z)</nobr>| [0] (-0.5 ~ 0.5) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ <b>锚点旋转</b></nobr>|| 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ (X)</nobr>| [0] (-1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ (Y)</nobr>| [0] (-1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> └─ ⊖ (Z)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├─ ⚙️ <b>粒子属性</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 粒子半径</nobr>| [5] (1 ~ 20) | 粒子大小（以毫米为单位）
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 粘性</nobr>| [0] (0 ~ 1) | 
@@ -295,25 +295,25 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 厚度</nobr>| [1] (0 ~ 1) | 
 |<nobr>├─ > 纹理</nobr>| **[纯色]** | [纯色], [木材1], [木材2], [瓷砖], [混凝土], [视频],  |
 |<nobr>└─ ☑ <b>细节贴图</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ☑ 启用</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ □ <b>(Hexagon Map)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 密度</nobr>| [2] (0 ~ 8) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 大小</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 凹凸</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 噪声</nobr>| [0.2] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>├─ □ (Use Circle)</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 柔和边缘</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ > 选择贴图</nobr>| **面料 3** | 碳纤维, 皮革, 面料 1, 面料 2, 面料 3, 羊毛 1, 羊毛 2, 金属缎面, 金属拉丝, 头发,  |
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 细节贴图旋转</nobr>| [0] (-180 ~ 180) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 细节贴图缩放</nobr>| [6] (0 ~ 8) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 细节贴图的凹凸</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 影响环境光遮蔽</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 影响光滑度</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 影响金属感</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 影响颜色混合</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 各向异性</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>└─ ⊖ MIP贴图偏差</nobr>| [0] (-5 ~ 5) | 调整细节纹理的锐度。
+|<nobr> ├─ ☑ 启用</nobr>| [ON] | 
+|<nobr> ├─ □ <b>(Hexagon Map)</b></nobr>| | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>├─ ⊖ 密度</nobr>| [2] (0 ~ 8) | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>├─ ⊖ 大小</nobr>| [1] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>├─ ⊖ 凹凸</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>├─ ⊖ 噪声</nobr>| [0.2] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>├─ □ (Use Circle)</nobr>| [OFF] | 
+|<nobr> <img src="/images/icon/ic_line_v.png"/>└─ ⊖ 柔和边缘</nobr>| [0.1] (0 ~ 1) | 
+|<nobr> ├─ > 选择贴图</nobr>| **面料 3** | 碳纤维, 皮革, 面料 1, 面料 2, 面料 3, 羊毛 1, 羊毛 2, 金属缎面, 金属拉丝, 头发,  |
+|<nobr> ├─ ⊖ 细节贴图旋转</nobr>| [0] (-180 ~ 180) | 
+|<nobr> ├─ ⊖ 细节贴图缩放</nobr>| [6] (0 ~ 8) | 
+|<nobr> ├─ ⊖ 细节贴图的凹凸</nobr>| [0.5] (0 ~ 1) | 
+|<nobr> ├─ ⊖ 影响环境光遮蔽</nobr>| [0] (0 ~ 1) | 
+|<nobr> ├─ ⊖ 影响光滑度</nobr>| [0] (0 ~ 1) | 
+|<nobr> ├─ ⊖ 影响金属感</nobr>| [0] (0 ~ 1) | 
+|<nobr> ├─ ⊖ 影响颜色混合</nobr>| [0] (0 ~ 1) | 
+|<nobr> ├─ ⊖ 各向异性</nobr>| [0] (-1 ~ 1) | 
+|<nobr> └─ ⊖ MIP贴图偏差</nobr>| [0] (-5 ~ 5) | 调整细节纹理的锐度。
 |<nobr> □ 合并</nobr>| [OFF] | 将布料 1 和 2 合并为一个单一的仿真，这将允许两者之间的碰撞，但会变得较慢。
 |<nobr> □ <b>流体（实验性）</b></nobr>| | 
 |<nobr>├─ □ 启用</nobr>| [OFF] | 
@@ -375,15 +375,15 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流强度</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 湍流时间比例</nobr>| [0] (-4 ~ 4) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>碰撞与</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 头部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 身体</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 胸部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 臀部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 手</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 腿</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 脚</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ □ 玩家</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 头部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 身体</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 胸部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 臀部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ (Arms)</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 手</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 腿</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 脚</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> └─ □ 玩家</nobr>| [OFF] | 
 |<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）,  |
 |<nobr> ☑ <b>几何体碰撞器</b></nobr>| | 
 |<nobr>├─ ☑ 启用</nobr>| [ON] | 

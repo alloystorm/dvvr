@@ -50,17 +50,17 @@ sidebar:
 |<nobr>│ ├─ ☑ 발</nobr>| [ON] | 
 |<nobr>│ └─ ☑ 플레이어</nobr>| [ON] | 
 |<nobr>└─ ⚙️ <b>시뮬레이션 설정</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ☑ 전역 사용</nobr>| [ON] | Pro / Cloth Simulation 아래에서 전역 설정 찾기
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ☑ 드래그 활성화</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ☑ 시뮬레이트</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ > 시뮬레이션 FPS</nobr>| **동적** | 동적, 고정 30, 고정 60, 고정 90, 고정 100, 고정 120, 고정 160, 고정 175, 고정 240,  |
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 시간 스케일</nobr>| [0.65] (0.1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 서브스텝</nobr>| [4] (1 ~ 20) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 반복</nobr>| [1] (0 ~ 10) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 짝수 서브스텝 역전</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 대체 그룹 크기</nobr>| [0] (0 ~ 20) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─ ⊖ 테이블 크기</nobr>| [6] (1 ~ 20) | 
-|<nobr><img src="/images/icon/ic_space.png"/>└─ □ 2단계 해결</nobr>| [OFF] | 
+|<nobr> ├─ ☑ 전역 사용</nobr>| [ON] | Pro / Cloth Simulation 아래에서 전역 설정 찾기
+|<nobr> ├─ ☑ 드래그 활성화</nobr>| [ON] | 
+|<nobr> ├─ ☑ 시뮬레이트</nobr>| [ON] | 
+|<nobr> ├─ > 시뮬레이션 FPS</nobr>| **동적** | 동적, 고정 30, 고정 60, 고정 90, 고정 100, 고정 120, 고정 160, 고정 175, 고정 240,  |
+|<nobr> ├─ ⊖ 시간 스케일</nobr>| [0.65] (0.1 ~ 1) | 
+|<nobr> ├─ ⊖ 서브스텝</nobr>| [4] (1 ~ 20) | 
+|<nobr> ├─ ⊖ 반복</nobr>| [1] (0 ~ 10) | 
+|<nobr> ├─ □ 짝수 서브스텝 역전</nobr>| [OFF] | 
+|<nobr> ├─ ⊖ 대체 그룹 크기</nobr>| [0] (0 ~ 20) | 
+|<nobr> ├─ ⊖ 테이블 크기</nobr>| [6] (1 ~ 20) | 
+|<nobr> └─ □ 2단계 해결</nobr>| [OFF] | 
 |<nobr> ⊖ 스프링</nobr>| [0.5] (0 ~ 5) | 
 |<nobr> ⊖ 감쇠</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr> ⊖ 감소 비율</nobr>| [0.25] (0 ~ 1) | 각 레벨에서 강성 감소

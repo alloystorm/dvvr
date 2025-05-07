@@ -50,17 +50,17 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 脚</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ☑ 玩家</nobr>| [ON] | 
 |<nobr>└─ ⚙️ <b>模拟设置</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 使用全局</nobr>| [ON] | 在 Pro / 布料模拟下找到全局设置
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 启用拖动</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 模拟</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> > 模拟每秒帧数</nobr>| **动态** | 动态, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 时间比例</nobr>| [0.65] (0.1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 子步</nobr>| [4] (1 ~ 20) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 迭代</nobr>| [1] (0 ~ 10) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> □ 反向偶数子步</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 备用组大小</nobr>| [0] (0 ~ 20) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 表格大小</nobr>| [6] (1 ~ 20) | 
-|<nobr><img src="/images/icon/ic_space.png"/>└─ □ 两步求解</nobr>| [OFF] | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ☑ 使用全局</nobr>| [ON] | 在 Pro / 布料模拟下找到全局设置
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ☑ 启用拖动</nobr>| [ON] | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ☑ 模拟</nobr>| [ON] | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> > 模拟每秒帧数</nobr>| **动态** | 动态, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 时间比例</nobr>| [0.65] (0.1 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 子步</nobr>| [4] (1 ~ 20) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 迭代</nobr>| [1] (0 ~ 10) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> □ 反向偶数子步</nobr>| [OFF] | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 备用组大小</nobr>| [0] (0 ~ 20) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 表格大小</nobr>| [6] (1 ~ 20) | 
+|<nobr> └─ □ 两步求解</nobr>| [OFF] | 
 |<nobr> ⊖ 弹簧</nobr>| [0.5] (0 ~ 5) | 
 |<nobr> ⊖ 阻尼</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr> ⊖ 减少比例</nobr>| [0.25] (0 ~ 1) | 每个层级减少刚度

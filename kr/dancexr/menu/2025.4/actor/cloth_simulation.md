@@ -50,19 +50,19 @@ sidebar:
 | │ │ └─ ⊖ (Z)| [0] (-1 ~ 1) | 
 | │ ├─ ⊖ 하단 레이어| [0] (0 ~ 10) | 
 | │ └─ ⚙️ <b>하단 앵커</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ 앵커 선택| [1] (0 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ 선택 오프셋| [0.5] (0 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > 앵커 본| **허리** | 허리, 몸통, 엉덩이, 머리, 허벅지, 정강이, 위팔, 아래팔, 손, 가슴,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ □ 측면 바꾸기| [OFF] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > 잠금 모드| **없음** | 없음, 잠금, 잠금 높이, 끈적임,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ <b>앵커 위치</b>|| 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (X)| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (Y)| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (Z)| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ <b>앵커 회전</b>|| 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (X)| [0] (-1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (Y)| [0] (-1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ⊖ (Z)| [0] (-1 ~ 1) | 
+| │  ├─ ⊖ 앵커 선택| [1] (0 ~ 1) | 
+| │  ├─ ⊖ 선택 오프셋| [0.5] (0 ~ 1) | 
+| │  ├─ > 앵커 본| **허리** | 허리, 몸통, 엉덩이, 머리, 허벅지, 정강이, 위팔, 아래팔, 손, 가슴,  |
+| │  ├─ □ 측면 바꾸기| [OFF] | 
+| │  ├─ > 잠금 모드| **없음** | 없음, 잠금, 잠금 높이, 끈적임,  |
+| │  ├─ <b>앵커 위치</b>|| 
+| │  ├─ ⊖ (X)| [0] (-0.5 ~ 0.5) | 
+| │  ├─ ⊖ (Y)| [0] (-0.5 ~ 0.5) | 
+| │  ├─ ⊖ (Z)| [0] (-0.5 ~ 0.5) | 
+| │  ├─ <b>앵커 회전</b>|| 
+| │  ├─ ⊖ (X)| [0] (-1 ~ 1) | 
+| │  ├─ ⊖ (Y)| [0] (-1 ~ 1) | 
+| │  └─ ⊖ (Z)| [0] (-1 ~ 1) | 
 | ├─ ⚙️ <b>입자 속성</b>| | 
 | │ ├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
 | │ ├─ ⊖ 끈적임| [0] (0 ~ 1) | 
@@ -146,25 +146,25 @@ sidebar:
 | │ └─ ⊖ 두께| [1] (0 ~ 1) | 
 | ├─ > 텍스처| **[솔리드 컬러]** | [솔리드 컬러], [우드1], [우드2], [타일], [콘크리트], [비디오],  |
 | └─ ☑ <b>디테일 맵</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 활성화| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ □ <b>(Hexagon Map)</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 활성화| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 밀도| [2] (0 ~ 8) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 크기| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 범프| [0.5] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 노이즈| [0.2] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ (Use Circle)| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 부드러운 모서리| [0.1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ > 맵 선택| **패브릭 3** | 탄소 섬유, 가죽, 패브릭 1, 패브릭 2, 패브릭 3, 양모 1, 양모 2, 금속 새틴, 금속 브러쉬드, 머리카락,  |
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 디테일 맵 회전| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 디테일 맵 크기| [6] (0 ~ 8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 디테일 맵 범프| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ AO에 영향을 미침| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부드러움에 영향을 미침| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 금속성에 영향을 미침| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 컬러 혼합에 영향을 미침| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 비등방성| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>└─ ⊖ MIP 맵 바이어스| [0] (-5 ~ 5) | 디테일 텍스처의 선명도 조정.
+|  ├─ ☑ 활성화| [ON] | 
+|  ├─ □ <b>(Hexagon Map)</b>| | 
+|  │ ├─ □ 활성화| [OFF] | 
+|  │ ├─ ⊖ 밀도| [2] (0 ~ 8) | 
+|  │ ├─ ⊖ 크기| [1] (0 ~ 1) | 
+|  │ ├─ ⊖ 범프| [0.5] (-1 ~ 1) | 
+|  │ ├─ ⊖ 노이즈| [0.2] (0 ~ 1) | 
+|  │ ├─ □ (Use Circle)| [OFF] | 
+|  │ └─ ⊖ 부드러운 모서리| [0.1] (0 ~ 1) | 
+|  ├─ > 맵 선택| **패브릭 3** | 탄소 섬유, 가죽, 패브릭 1, 패브릭 2, 패브릭 3, 양모 1, 양모 2, 금속 새틴, 금속 브러쉬드, 머리카락,  |
+|  ├─ ⊖ 디테일 맵 회전| [0] (-180 ~ 180) | 
+|  ├─ ⊖ 디테일 맵 크기| [6] (0 ~ 8) | 
+|  ├─ ⊖ 디테일 맵 범프| [0.5] (0 ~ 1) | 
+|  ├─ ⊖ AO에 영향을 미침| [0] (0 ~ 1) | 
+|  ├─ ⊖ 부드러움에 영향을 미침| [0] (0 ~ 1) | 
+|  ├─ ⊖ 금속성에 영향을 미침| [0] (0 ~ 1) | 
+|  ├─ ⊖ 컬러 혼합에 영향을 미침| [0] (0 ~ 1) | 
+|  ├─ ⊖ 비등방성| [0] (-1 ~ 1) | 
+|  └─ ⊖ MIP 맵 바이어스| [0] (-5 ~ 5) | 디테일 텍스처의 선명도 조정.
 |  □ <b>옷 2</b>| | 
 | ├─ □ 활성화| [OFF] | 
 | ├─ 메시 재구성|| 여기 대부분의 매개변수는 효과를 내기 위해 메시를 재구성해야 합니다.
@@ -199,19 +199,19 @@ sidebar:
 | │ │ └─ ⊖ (Z)| [0] (-1 ~ 1) | 
 | │ ├─ ⊖ 하단 레이어| [0] (0 ~ 10) | 
 | │ └─ ⚙️ <b>하단 앵커</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ 앵커 선택| [1] (0 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ 선택 오프셋| [0.5] (0 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > 앵커 본| **허리** | 허리, 몸통, 엉덩이, 머리, 허벅지, 정강이, 위팔, 아래팔, 손, 가슴,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ □ 측면 바꾸기| [OFF] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > 잠금 모드| **없음** | 없음, 잠금, 잠금 높이, 끈적임,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ <b>앵커 위치</b>|| 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (X)| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (Y)| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (Z)| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ <b>앵커 회전</b>|| 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (X)| [0] (-1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ (Y)| [0] (-1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ⊖ (Z)| [0] (-1 ~ 1) | 
+| │  ├─ ⊖ 앵커 선택| [1] (0 ~ 1) | 
+| │  ├─ ⊖ 선택 오프셋| [0.5] (0 ~ 1) | 
+| │  ├─ > 앵커 본| **허리** | 허리, 몸통, 엉덩이, 머리, 허벅지, 정강이, 위팔, 아래팔, 손, 가슴,  |
+| │  ├─ □ 측면 바꾸기| [OFF] | 
+| │  ├─ > 잠금 모드| **없음** | 없음, 잠금, 잠금 높이, 끈적임,  |
+| │  ├─ <b>앵커 위치</b>|| 
+| │  ├─ ⊖ (X)| [0] (-0.5 ~ 0.5) | 
+| │  ├─ ⊖ (Y)| [0] (-0.5 ~ 0.5) | 
+| │  ├─ ⊖ (Z)| [0] (-0.5 ~ 0.5) | 
+| │  ├─ <b>앵커 회전</b>|| 
+| │  ├─ ⊖ (X)| [0] (-1 ~ 1) | 
+| │  ├─ ⊖ (Y)| [0] (-1 ~ 1) | 
+| │  └─ ⊖ (Z)| [0] (-1 ~ 1) | 
 | ├─ ⚙️ <b>입자 속성</b>| | 
 | │ ├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
 | │ ├─ ⊖ 끈적임| [0] (0 ~ 1) | 
@@ -295,25 +295,25 @@ sidebar:
 | │ └─ ⊖ 두께| [1] (0 ~ 1) | 
 | ├─ > 텍스처| **[솔리드 컬러]** | [솔리드 컬러], [우드1], [우드2], [타일], [콘크리트], [비디오],  |
 | └─ ☑ <b>디테일 맵</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 활성화| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ □ <b>(Hexagon Map)</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 활성화| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 밀도| [2] (0 ~ 8) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 크기| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 범프| [0.5] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 노이즈| [0.2] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ (Use Circle)| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 부드러운 모서리| [0.1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ > 맵 선택| **패브릭 3** | 탄소 섬유, 가죽, 패브릭 1, 패브릭 2, 패브릭 3, 양모 1, 양모 2, 금속 새틴, 금속 브러쉬드, 머리카락,  |
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 디테일 맵 회전| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 디테일 맵 크기| [6] (0 ~ 8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 디테일 맵 범프| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ AO에 영향을 미침| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부드러움에 영향을 미침| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 금속성에 영향을 미침| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 컬러 혼합에 영향을 미침| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 비등방성| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>└─ ⊖ MIP 맵 바이어스| [0] (-5 ~ 5) | 디테일 텍스처의 선명도 조정.
+|  ├─ ☑ 활성화| [ON] | 
+|  ├─ □ <b>(Hexagon Map)</b>| | 
+|  │ ├─ □ 활성화| [OFF] | 
+|  │ ├─ ⊖ 밀도| [2] (0 ~ 8) | 
+|  │ ├─ ⊖ 크기| [1] (0 ~ 1) | 
+|  │ ├─ ⊖ 범프| [0.5] (-1 ~ 1) | 
+|  │ ├─ ⊖ 노이즈| [0.2] (0 ~ 1) | 
+|  │ ├─ □ (Use Circle)| [OFF] | 
+|  │ └─ ⊖ 부드러운 모서리| [0.1] (0 ~ 1) | 
+|  ├─ > 맵 선택| **패브릭 3** | 탄소 섬유, 가죽, 패브릭 1, 패브릭 2, 패브릭 3, 양모 1, 양모 2, 금속 새틴, 금속 브러쉬드, 머리카락,  |
+|  ├─ ⊖ 디테일 맵 회전| [0] (-180 ~ 180) | 
+|  ├─ ⊖ 디테일 맵 크기| [6] (0 ~ 8) | 
+|  ├─ ⊖ 디테일 맵 범프| [0.5] (0 ~ 1) | 
+|  ├─ ⊖ AO에 영향을 미침| [0] (0 ~ 1) | 
+|  ├─ ⊖ 부드러움에 영향을 미침| [0] (0 ~ 1) | 
+|  ├─ ⊖ 금속성에 영향을 미침| [0] (0 ~ 1) | 
+|  ├─ ⊖ 컬러 혼합에 영향을 미침| [0] (0 ~ 1) | 
+|  ├─ ⊖ 비등방성| [0] (-1 ~ 1) | 
+|  └─ ⊖ MIP 맵 바이어스| [0] (-5 ~ 5) | 디테일 텍스처의 선명도 조정.
 |  □ 결합| [OFF] | 옷 1과 2를 단일 시뮬레이션으로 결합합니다. 이는 두 객체 간의 충돌을 가능하게 하지만 속도가 느려집니다.
 |  □ <b>유체 (실험적)</b>| | 
 | ├─ □ 활성화| [OFF] | 
@@ -375,15 +375,15 @@ sidebar:
 | │ │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>충돌하기</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 머리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 몸체| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 가슴| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 엉덩이| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 손| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 다리| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 발| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ □ 플레이어| [OFF] | 
+| │  ├─ ☑ 머리| [ON] | 
+| │  ├─ ☑ 몸체| [ON] | 
+| │  ├─ ☑ 가슴| [ON] | 
+| │  ├─ ☑ 엉덩이| [ON] | 
+| │  ├─ ☑ (Arms)| [ON] | 
+| │  ├─ ☑ 손| [ON] | 
+| │  ├─ ☑ 다리| [ON] | 
+| │  ├─ ☑ 발| [ON] | 
+| │  └─ □ 플레이어| [OFF] | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **기본값 (초기화)** | 기본값 (초기화),  |
 |  ☑ <b>지오메트리 콜라이더</b>| | 
 | ├─ ☑ 활성화| [ON] | 

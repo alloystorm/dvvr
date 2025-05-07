@@ -233,15 +233,15 @@ sidebar:
 |<nobr>│ │ ├─ ⊖ 난류 강도</nobr>| [1] (0 ~ 2) | 
 |<nobr>│ │ └─ ⊖ 난류 시간 스케일</nobr>| [0] (-4 ~ 4) | 
 |<nobr>│ └─ ⚙️ <b>충돌하기</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>├─ ☑ 머리</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>├─ ☑ 몸체</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>├─ ☑ 가슴</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>├─ ☑ 엉덩이</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>├─ ☑ 손</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>├─ ☑ 다리</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>├─ ☑ 발</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어</nobr>| [ON] | 
+|<nobr>│  ├─ ☑ 머리</nobr>| [ON] | 
+|<nobr>│  ├─ ☑ 몸체</nobr>| [ON] | 
+|<nobr>│  ├─ ☑ 가슴</nobr>| [ON] | 
+|<nobr>│  ├─ ☑ 엉덩이</nobr>| [ON] | 
+|<nobr>│  ├─ ☑ (Arms)</nobr>| [ON] | 
+|<nobr>│  ├─ ☑ 손</nobr>| [ON] | 
+|<nobr>│  ├─ ☑ 다리</nobr>| [ON] | 
+|<nobr>│  ├─ ☑ 발</nobr>| [ON] | 
+|<nobr>│  └─ ☑ 플레이어</nobr>| [ON] | 
 |<nobr>├─ ⚙️ <b>물리 속성</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr>│ ├─ ⊖ 질량</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ ├─ ⊖ 드래그</nobr>| [0] (0 ~ 10) | 
@@ -301,15 +301,15 @@ sidebar:
 |<nobr>│ │ │ ├─ ⊖ 난류 강도</nobr>| [1] (0 ~ 2) | 
 |<nobr>│ │ │ └─ ⊖ 난류 시간 스케일</nobr>| [0] (-4 ~ 4) | 
 |<nobr>│ │ └─ ⚙️ <b>충돌하기</b></nobr>| | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 머리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 몸체</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 가슴</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 엉덩이</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 손</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 다리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 발</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 머리</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 몸체</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 가슴</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 엉덩이</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ (Arms)</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 손</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 다리</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 발</nobr>| [ON] | 
+|<nobr>│ │  └─ ☑ 플레이어</nobr>| [ON] | 
 |<nobr>│ ├─ ⚙️ <b>물리 속성</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr>│ │ ├─ ⊖ 질량</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ │ ├─ ⊖ 드래그</nobr>| [0] (0 ~ 10) | 
@@ -369,15 +369,15 @@ sidebar:
 |<nobr>│ │ │ ├─ ⊖ 난류 강도</nobr>| [1] (0 ~ 2) | 
 |<nobr>│ │ │ └─ ⊖ 난류 시간 스케일</nobr>| [0] (-4 ~ 4) | 
 |<nobr>│ │ └─ ⚙️ <b>충돌하기</b></nobr>| | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 머리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 몸체</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 가슴</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 엉덩이</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 손</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 다리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 발</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 머리</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 몸체</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 가슴</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 엉덩이</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ (Arms)</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 손</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 다리</nobr>| [ON] | 
+|<nobr>│ │  ├─ ☑ 발</nobr>| [ON] | 
+|<nobr>│ │  └─ ☑ 플레이어</nobr>| [ON] | 
 |<nobr>│ ├─ ⚙️ <b>물리 속성</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr>│ │ ├─ ⊖ 질량</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ │ ├─ ⊖ 드래그</nobr>| [0] (0 ~ 10) | 
@@ -437,15 +437,15 @@ sidebar:
 |<nobr>│ │ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 난류 강도</nobr>| [1] (0 ~ 2) | 
 |<nobr>│ │ │ └─ ⊖ 난류 시간 스케일</nobr>| [0] (-4 ~ 4) | 
 |<nobr>│ │ └─ ⚙️ <b>충돌하기</b></nobr>| | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 머리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 몸체</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 가슴</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 엉덩이</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ (Arms)</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 손</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 다리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 발</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 머리</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 몸체</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 가슴</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 엉덩이</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ (Arms)</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 손</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 다리</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 발</nobr>| [ON] | 
+|<nobr>│ │  └─ ☑ 플레이어</nobr>| [ON] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⚙️ <b>물리 속성</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 질량</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 드래그</nobr>| [0] (0 ~ 10) | 
@@ -505,15 +505,15 @@ sidebar:
 |<nobr>│ │ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 난류 강도</nobr>| [1] (0 ~ 2) | 
 |<nobr>│ │ │ └─ ⊖ 난류 시간 스케일</nobr>| [0] (-4 ~ 4) | 
 |<nobr>│ │ └─ ⚙️ <b>충돌하기</b></nobr>| | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 머리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 몸체</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 가슴</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 엉덩이</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ (Arms)</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 손</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 다리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 발</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 머리</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 몸체</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 가슴</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 엉덩이</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ (Arms)</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 손</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 다리</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 발</nobr>| [ON] | 
+|<nobr>│ │  └─ ☑ 플레이어</nobr>| [ON] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⚙️ <b>물리 속성</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 질량</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 드래그</nobr>| [0] (0 ~ 10) | 
@@ -573,15 +573,15 @@ sidebar:
 |<nobr>│ │ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 난류 강도</nobr>| [1] (0 ~ 2) | 
 |<nobr>│ │ │ └─ ⊖ 난류 시간 스케일</nobr>| [0] (-4 ~ 4) | 
 |<nobr>│ │ └─ ⚙️ <b>충돌하기</b></nobr>| | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 머리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 몸체</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 가슴</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 엉덩이</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ (Arms)</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 손</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 다리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 발</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 머리</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 몸체</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 가슴</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 엉덩이</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ (Arms)</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 손</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 다리</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 발</nobr>| [ON] | 
+|<nobr>│ │  └─ ☑ 플레이어</nobr>| [ON] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⚙️ <b>물리 속성</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 질량</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 드래그</nobr>| [0] (0 ~ 10) | 
@@ -641,15 +641,15 @@ sidebar:
 |<nobr>│ │ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 난류 강도</nobr>| [1] (0 ~ 2) | 
 |<nobr>│ │ │ └─ ⊖ 난류 시간 스케일</nobr>| [0] (-4 ~ 4) | 
 |<nobr>│ │ └─ ⚙️ <b>충돌하기</b></nobr>| | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 머리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 몸체</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 가슴</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 엉덩이</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ (Arms)</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 손</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 다리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 발</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 머리</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 몸체</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 가슴</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 엉덩이</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ (Arms)</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 손</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 다리</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 발</nobr>| [ON] | 
+|<nobr>│ │  └─ ☑ 플레이어</nobr>| [ON] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⚙️ <b>물리 속성</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 질량</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 드래그</nobr>| [0] (0 ~ 10) | 
@@ -709,15 +709,15 @@ sidebar:
 |<nobr>│ │ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 난류 강도</nobr>| [1] (0 ~ 2) | 
 |<nobr>│ │ │ └─ ⊖ 난류 시간 스케일</nobr>| [0] (-4 ~ 4) | 
 |<nobr>│ │ └─ ⚙️ <b>충돌하기</b></nobr>| | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 머리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 몸체</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 가슴</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 엉덩이</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ (Arms)</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 손</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 다리</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 발</nobr>| [ON] | 
-|<nobr>│ │ <img src="/images/icon/ic_space.png"/>└─ ☑ 플레이어</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 머리</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 몸체</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 가슴</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 엉덩이</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ (Arms)</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 손</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 다리</nobr>| [ON] | 
+|<nobr>│ │  <img src="/images/icon/ic_line_t.png"/> ☑ 발</nobr>| [ON] | 
+|<nobr>│ │  └─ ☑ 플레이어</nobr>| [ON] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⚙️ <b>물리 속성</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 질량</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 드래그</nobr>| [0] (0 ~ 10) | 
@@ -785,17 +785,17 @@ sidebar:
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ☑ 발</nobr>| [ON] | 
 |<nobr>│ │ └─ ☑ 플레이어</nobr>| [ON] | 
 |<nobr>│ └─ ⚙️ <b>시뮬레이션 설정</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 전역 사용</nobr>| [ON] | Pro / Cloth Simulation 아래에서 전역 설정 찾기
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 드래그 활성화</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 시뮬레이트</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> > 시뮬레이션 FPS</nobr>| **동적** | 동적, 고정 30, 고정 60, 고정 90, 고정 100, 고정 120, 고정 160, 고정 175, 고정 240,  |
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 시간 스케일</nobr>| [0.65] (0.1 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 서브스텝</nobr>| [4] (1 ~ 20) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 반복</nobr>| [1] (0 ~ 10) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> □ 짝수 서브스텝 역전</nobr>| [OFF] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 대체 그룹 크기</nobr>| [0] (0 ~ 20) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 테이블 크기</nobr>| [6] (1 ~ 20) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>└─ □ 2단계 해결</nobr>| [OFF] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 전역 사용</nobr>| [ON] | Pro / Cloth Simulation 아래에서 전역 설정 찾기
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 드래그 활성화</nobr>| [ON] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 시뮬레이트</nobr>| [ON] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> > 시뮬레이션 FPS</nobr>| **동적** | 동적, 고정 30, 고정 60, 고정 90, 고정 100, 고정 120, 고정 160, 고정 175, 고정 240,  |
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 시간 스케일</nobr>| [0.65] (0.1 ~ 1) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 서브스텝</nobr>| [4] (1 ~ 20) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 반복</nobr>| [1] (0 ~ 10) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> □ 짝수 서브스텝 역전</nobr>| [OFF] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 대체 그룹 크기</nobr>| [0] (0 ~ 20) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 테이블 크기</nobr>| [6] (1 ~ 20) | 
+|<nobr>│  └─ □ 2단계 해결</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 스프링</nobr>| [1.25] (0 ~ 5) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 감쇠</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 감소 비율</nobr>| [0.25] (0 ~ 1) | 각 레벨에서 강성 감소
@@ -844,17 +844,17 @@ sidebar:
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ☑ 발</nobr>| [ON] | 
 |<nobr>│ │ └─ ☑ 플레이어</nobr>| [ON] | 
 |<nobr>│ └─ ⚙️ <b>시뮬레이션 설정</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 전역 사용</nobr>| [ON] | Pro / Cloth Simulation 아래에서 전역 설정 찾기
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 드래그 활성화</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 시뮬레이트</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> > 시뮬레이션 FPS</nobr>| **동적** | 동적, 고정 30, 고정 60, 고정 90, 고정 100, 고정 120, 고정 160, 고정 175, 고정 240,  |
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 시간 스케일</nobr>| [0.65] (0.1 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 서브스텝</nobr>| [4] (1 ~ 20) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 반복</nobr>| [1] (0 ~ 10) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> □ 짝수 서브스텝 역전</nobr>| [OFF] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 대체 그룹 크기</nobr>| [0] (0 ~ 20) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 테이블 크기</nobr>| [6] (1 ~ 20) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>└─ □ 2단계 해결</nobr>| [OFF] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 전역 사용</nobr>| [ON] | Pro / Cloth Simulation 아래에서 전역 설정 찾기
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 드래그 활성화</nobr>| [ON] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 시뮬레이트</nobr>| [ON] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> > 시뮬레이션 FPS</nobr>| **동적** | 동적, 고정 30, 고정 60, 고정 90, 고정 100, 고정 120, 고정 160, 고정 175, 고정 240,  |
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 시간 스케일</nobr>| [0.65] (0.1 ~ 1) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 서브스텝</nobr>| [4] (1 ~ 20) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 반복</nobr>| [1] (0 ~ 10) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> □ 짝수 서브스텝 역전</nobr>| [OFF] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 대체 그룹 크기</nobr>| [0] (0 ~ 20) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 테이블 크기</nobr>| [6] (1 ~ 20) | 
+|<nobr>│  └─ □ 2단계 해결</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 스프링</nobr>| [0.5] (0 ~ 5) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 감쇠</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 감소 비율</nobr>| [0.25] (0 ~ 1) | 각 레벨에서 강성 감소

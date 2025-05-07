@@ -90,15 +90,15 @@ sidebar:
 | ├─ ⊖ 色相偏移| [0] (-180 ~ 180) | 
 | ├─ ⊖ 飽和度| [1] (-100 ~ 100) | 
 | └─ ⚙️ <b>顏色濾鏡</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 顏色模式| (HSV) | (RGB), (HSV), 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 色相| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 飽和度| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 亮度| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 紅色| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 綠色| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 藍色| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 發光| [1] (0 ~ 20) | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設| **白色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
+|  ├─ ☑ 顏色模式| (HSV) | (RGB), (HSV), 
+|  ├─ ⊖ 色相| [0] (0 ~ 1) | 
+|  ├─ ⊖ 飽和度| [0] (0 ~ 1) | 
+|  ├─ ⊖ 亮度| [1] (0 ~ 1) | 
+|  ├─ ⊖ 紅色| [1] (0 ~ 1) | 
+|  ├─ ⊖ 綠色| [1] (0 ~ 1) | 
+|  ├─ ⊖ 藍色| [1] (0 ~ 1) | 
+|  ├─ ⊖ 發光| [1] (0 ~ 20) | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設| **白色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
 |  ☑ <b>顏色曲線</b>| | 
 | ├─ ☑ 啟用| [ON] | 
 | ├─ ⊖ 起始漸變| [1] (0 ~ 4) | 

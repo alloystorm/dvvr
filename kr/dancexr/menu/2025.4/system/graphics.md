@@ -90,15 +90,15 @@ sidebar:
 | ├─ ⊖ 색조 변형| [0] (-180 ~ 180) | 
 | ├─ ⊖ 채도| [1] (-100 ~ 100) | 
 | └─ ⚙️ <b>색상 필터</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 색상 모드| (HSV) | (RGB), (HSV), 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 색조| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 채도| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 밝기| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 빨간색| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 초록색| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 파란색| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 발광| [1] (0 ~ 20) | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **흰색** | 흰색, 빨간색, 초록색, 파란색, 애니메이션 색조, 음악과 함께 빛남,  |
+|  ├─ ☑ 색상 모드| (HSV) | (RGB), (HSV), 
+|  ├─ ⊖ 색조| [0] (0 ~ 1) | 
+|  ├─ ⊖ 채도| [0] (0 ~ 1) | 
+|  ├─ ⊖ 밝기| [1] (0 ~ 1) | 
+|  ├─ ⊖ 빨간색| [1] (0 ~ 1) | 
+|  ├─ ⊖ 초록색| [1] (0 ~ 1) | 
+|  ├─ ⊖ 파란색| [1] (0 ~ 1) | 
+|  ├─ ⊖ 발광| [1] (0 ~ 20) | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **흰색** | 흰색, 빨간색, 초록색, 파란색, 애니메이션 색조, 음악과 함께 빛남,  |
 |  ☑ <b>색상 곡선</b>| | 
 | ├─ ☑ 활성화| [ON] | 
 | ├─ ⊖ 시작 그라디언트| [1] (0 ~ 4) | 

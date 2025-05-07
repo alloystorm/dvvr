@@ -85,43 +85,43 @@ sidebar:
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
 | └─ ⚙️ <b>Particle Dynamics</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>Joints</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Depth| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Include Center| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Damping| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ Visualize| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Inertia| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Friction| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Wind</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Collide With</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Head| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Body| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Boobs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Butts| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Arms| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Hands| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Legs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Feet| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ Player| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  ├─ <b>Joints</b>|| 
+|  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
+|  ├─ ☑ Include Center| [ON] | 
+|  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
+|  ├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ Damping| [15] (0 ~ 40) | 
+|  ├─ □ Visualize| [OFF] | 
+|  ├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
+|  ├─ ⊖ Inertia| [2] (1 ~ 5) | 
+|  ├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
+|  ├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
+|  ├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ Friction| [1] (0 ~ 2) | 
+|  ├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
+|  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
+|  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
+|  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>Wind</b>| | 
+|  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
+|  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>Collide With</b>| | 
+|  │ ├─ ☑ Head| [ON] | 
+|  │ ├─ □ Body| [OFF] | 
+|  │ ├─ □ Boobs| [OFF] | 
+|  │ ├─ □ Butts| [OFF] | 
+|  │ ├─ ☑ Arms| [ON] | 
+|  │ ├─ ☑ Hands| [ON] | 
+|  │ ├─ □ Legs| [OFF] | 
+|  │ ├─ ☑ Feet| [ON] | 
+|  │ └─ ☑ Player| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ <b>Group 3</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
@@ -132,43 +132,43 @@ sidebar:
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
 | └─ ⚙️ <b>Particle Dynamics</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>Joints</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Depth| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Include Center| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Damping| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ Visualize| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Inertia| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Friction| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Wind</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Collide With</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Head| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Body| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Boobs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Butts| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Arms| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Hands| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Legs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Feet| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ Player| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  ├─ <b>Joints</b>|| 
+|  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
+|  ├─ ☑ Include Center| [ON] | 
+|  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
+|  ├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ Damping| [15] (0 ~ 40) | 
+|  ├─ □ Visualize| [OFF] | 
+|  ├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
+|  ├─ ⊖ Inertia| [2] (1 ~ 5) | 
+|  ├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
+|  ├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
+|  ├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ Friction| [1] (0 ~ 2) | 
+|  ├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
+|  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
+|  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
+|  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>Wind</b>| | 
+|  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
+|  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>Collide With</b>| | 
+|  │ ├─ ☑ Head| [ON] | 
+|  │ ├─ □ Body| [OFF] | 
+|  │ ├─ □ Boobs| [OFF] | 
+|  │ ├─ □ Butts| [OFF] | 
+|  │ ├─ ☑ Arms| [ON] | 
+|  │ ├─ ☑ Hands| [ON] | 
+|  │ ├─ □ Legs| [OFF] | 
+|  │ ├─ ☑ Feet| [ON] | 
+|  │ └─ ☑ Player| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ <b>Group 4</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
@@ -179,43 +179,43 @@ sidebar:
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
 | └─ ⚙️ <b>Particle Dynamics</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>Joints</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Depth| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Include Center| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Damping| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ Visualize| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Inertia| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Friction| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Wind</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Collide With</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Head| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Body| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Boobs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Butts| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Arms| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Hands| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Legs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Feet| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ Player| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  ├─ <b>Joints</b>|| 
+|  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
+|  ├─ ☑ Include Center| [ON] | 
+|  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
+|  ├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ Damping| [15] (0 ~ 40) | 
+|  ├─ □ Visualize| [OFF] | 
+|  ├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
+|  ├─ ⊖ Inertia| [2] (1 ~ 5) | 
+|  ├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
+|  ├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
+|  ├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ Friction| [1] (0 ~ 2) | 
+|  ├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
+|  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
+|  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
+|  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>Wind</b>| | 
+|  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
+|  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>Collide With</b>| | 
+|  │ ├─ ☑ Head| [ON] | 
+|  │ ├─ □ Body| [OFF] | 
+|  │ ├─ □ Boobs| [OFF] | 
+|  │ ├─ □ Butts| [OFF] | 
+|  │ ├─ ☑ Arms| [ON] | 
+|  │ ├─ ☑ Hands| [ON] | 
+|  │ ├─ □ Legs| [OFF] | 
+|  │ ├─ ☑ Feet| [ON] | 
+|  │ └─ ☑ Player| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ <b>Group 5</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
@@ -226,43 +226,43 @@ sidebar:
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
 | └─ ⚙️ <b>Particle Dynamics</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>Joints</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Depth| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Include Center| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Damping| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ Visualize| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Inertia| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Friction| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Wind</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Collide With</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Head| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Body| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Boobs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Butts| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Arms| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Hands| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Legs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Feet| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ Player| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  ├─ <b>Joints</b>|| 
+|  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
+|  ├─ ☑ Include Center| [ON] | 
+|  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
+|  ├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ Damping| [15] (0 ~ 40) | 
+|  ├─ □ Visualize| [OFF] | 
+|  ├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
+|  ├─ ⊖ Inertia| [2] (1 ~ 5) | 
+|  ├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
+|  ├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
+|  ├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ Friction| [1] (0 ~ 2) | 
+|  ├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
+|  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
+|  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
+|  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>Wind</b>| | 
+|  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
+|  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>Collide With</b>| | 
+|  │ ├─ ☑ Head| [ON] | 
+|  │ ├─ □ Body| [OFF] | 
+|  │ ├─ □ Boobs| [OFF] | 
+|  │ ├─ □ Butts| [OFF] | 
+|  │ ├─ ☑ Arms| [ON] | 
+|  │ ├─ ☑ Hands| [ON] | 
+|  │ ├─ □ Legs| [OFF] | 
+|  │ ├─ ☑ Feet| [ON] | 
+|  │ └─ ☑ Player| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ <b>Group 6</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
@@ -273,43 +273,43 @@ sidebar:
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
 | └─ ⚙️ <b>Particle Dynamics</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>Joints</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Depth| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Include Center| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Damping| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ Visualize| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Inertia| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Friction| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Wind</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Collide With</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Head| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Body| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Boobs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Butts| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Arms| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Hands| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Legs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Feet| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ Player| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  ├─ <b>Joints</b>|| 
+|  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
+|  ├─ ☑ Include Center| [ON] | 
+|  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
+|  ├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ Damping| [15] (0 ~ 40) | 
+|  ├─ □ Visualize| [OFF] | 
+|  ├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
+|  ├─ ⊖ Inertia| [2] (1 ~ 5) | 
+|  ├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
+|  ├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
+|  ├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ Friction| [1] (0 ~ 2) | 
+|  ├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
+|  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
+|  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
+|  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>Wind</b>| | 
+|  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
+|  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>Collide With</b>| | 
+|  │ ├─ ☑ Head| [ON] | 
+|  │ ├─ □ Body| [OFF] | 
+|  │ ├─ □ Boobs| [OFF] | 
+|  │ ├─ □ Butts| [OFF] | 
+|  │ ├─ ☑ Arms| [ON] | 
+|  │ ├─ ☑ Hands| [ON] | 
+|  │ ├─ □ Legs| [OFF] | 
+|  │ ├─ ☑ Feet| [ON] | 
+|  │ └─ ☑ Player| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ <b>Group 7</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
@@ -320,43 +320,43 @@ sidebar:
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
 | └─ ⚙️ <b>Particle Dynamics</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>Joints</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Depth| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Include Center| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Damping| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ Visualize| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Inertia| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Friction| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Wind</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Collide With</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Head| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Body| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Boobs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Butts| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Arms| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Hands| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Legs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Feet| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ Player| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  ├─ <b>Joints</b>|| 
+|  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
+|  ├─ ☑ Include Center| [ON] | 
+|  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
+|  ├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ Damping| [15] (0 ~ 40) | 
+|  ├─ □ Visualize| [OFF] | 
+|  ├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
+|  ├─ ⊖ Inertia| [2] (1 ~ 5) | 
+|  ├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
+|  ├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
+|  ├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ Friction| [1] (0 ~ 2) | 
+|  ├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
+|  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
+|  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
+|  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>Wind</b>| | 
+|  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
+|  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>Collide With</b>| | 
+|  │ ├─ ☑ Head| [ON] | 
+|  │ ├─ □ Body| [OFF] | 
+|  │ ├─ □ Boobs| [OFF] | 
+|  │ ├─ □ Butts| [OFF] | 
+|  │ ├─ ☑ Arms| [ON] | 
+|  │ ├─ ☑ Hands| [ON] | 
+|  │ ├─ □ Legs| [OFF] | 
+|  │ ├─ ☑ Feet| [ON] | 
+|  │ └─ ☑ Player| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ <b>Group 8</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
@@ -367,41 +367,41 @@ sidebar:
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
 | └─ ⚙️ <b>Particle Dynamics</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>Joints</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Depth| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Include Center| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Damping| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ Visualize| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Inertia| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Friction| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Wind</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Collide With</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Head| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Body| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Boobs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Butts| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Arms| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Hands| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Legs| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ Feet| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ Player| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  ├─ <b>Joints</b>|| 
+|  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
+|  ├─ ☑ Include Center| [ON] | 
+|  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
+|  ├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ Damping| [15] (0 ~ 40) | 
+|  ├─ □ Visualize| [OFF] | 
+|  ├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
+|  ├─ ⊖ Inertia| [2] (1 ~ 5) | 
+|  ├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
+|  ├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
+|  ├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ Friction| [1] (0 ~ 2) | 
+|  ├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
+|  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
+|  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
+|  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>Wind</b>| | 
+|  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
+|  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>Collide With</b>| | 
+|  │ ├─ ☑ Head| [ON] | 
+|  │ ├─ □ Body| [OFF] | 
+|  │ ├─ □ Boobs| [OFF] | 
+|  │ ├─ □ Butts| [OFF] | 
+|  │ ├─ ☑ Arms| [ON] | 
+|  │ ├─ ☑ Hands| [ON] | 
+|  │ ├─ □ Legs| [OFF] | 
+|  │ ├─ ☑ Feet| [ON] | 
+|  │ └─ ☑ Player| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 | <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset),  |

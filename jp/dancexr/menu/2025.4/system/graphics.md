@@ -90,15 +90,15 @@ sidebar:
 | ├─ ⊖ 色相シフト| [0] (-180 ~ 180) | 
 | ├─ ⊖ 彩度| [1] (-100 ~ 100) | 
 | └─ ⚙️ <b>カラーフィルター</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ カラーモード| (HSV) | (RGB), (HSV), 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 色相| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 彩度| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 明度| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 赤| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 緑| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 青| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ グロー| [1] (0 ~ 20) | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **白** | 白, 赤, 緑, 青, アニメーション色相, 音楽による光,  |
+|  ├─ ☑ カラーモード| (HSV) | (RGB), (HSV), 
+|  ├─ ⊖ 色相| [0] (0 ~ 1) | 
+|  ├─ ⊖ 彩度| [0] (0 ~ 1) | 
+|  ├─ ⊖ 明度| [1] (0 ~ 1) | 
+|  ├─ ⊖ 赤| [1] (0 ~ 1) | 
+|  ├─ ⊖ 緑| [1] (0 ~ 1) | 
+|  ├─ ⊖ 青| [1] (0 ~ 1) | 
+|  ├─ ⊖ グロー| [1] (0 ~ 20) | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **白** | 白, 赤, 緑, 青, アニメーション色相, 音楽による光,  |
 |  ☑ <b>カラー曲線</b>| | 
 | ├─ ☑ 有効にする| [ON] | 
 | ├─ ⊖ スタートグラデーション| [1] (0 ~ 4) | 

@@ -90,15 +90,15 @@ sidebar:
 | ├─ ⊖ Hue Shift| [0] (-180 ~ 180) | 
 | ├─ ⊖ Saturation| [1] (-100 ~ 100) | 
 | └─ ⚙️ <b>Color Filter</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Color Mode| HSV | RGB, HSV, 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Hue| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Satuation| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Brightness| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Red| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Green| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Blue| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Glow| [1] (0 ~ 20) | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+|  ├─ ☑ Color Mode| HSV | RGB, HSV, 
+|  ├─ ⊖ Hue| [0] (0 ~ 1) | 
+|  ├─ ⊖ Satuation| [0] (0 ~ 1) | 
+|  ├─ ⊖ Brightness| [1] (0 ~ 1) | 
+|  ├─ ⊖ Red| [1] (0 ~ 1) | 
+|  ├─ ⊖ Green| [1] (0 ~ 1) | 
+|  ├─ ⊖ Blue| [1] (0 ~ 1) | 
+|  ├─ ⊖ Glow| [1] (0 ~ 20) | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
 |  ☑ <b>Color Curve</b>| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ⊖ Start Gradient| [1] (0 ~ 4) | 

@@ -233,15 +233,15 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流强度</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 湍流时间比例</nobr>| [0] (-4 ~ 4) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>碰撞与</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 头部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 身体</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 胸部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 臀部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 手</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 腿</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 脚</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ ☑ 玩家</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 头部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 身体</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 胸部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 臀部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ (Arms)</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 手</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 腿</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 脚</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> └─ ☑ 玩家</nobr>| [ON] | 
 |<nobr>├─ ⚙️ <b>物理属性</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 质量</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 拖拽</nobr>| [0] (0 ~ 10) | 
@@ -301,15 +301,15 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流强度</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 湍流时间比例</nobr>| [0] (-4 ~ 4) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>碰撞与</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 头部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 身体</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 胸部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 臀部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 手</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 腿</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 脚</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ ☑ 玩家</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 头部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 身体</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 胸部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 臀部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ (Arms)</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 手</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 腿</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 脚</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> └─ ☑ 玩家</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⚙️ <b>物理属性</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 质量</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 拖拽</nobr>| [0] (0 ~ 10) | 
@@ -369,15 +369,15 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流强度</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 湍流时间比例</nobr>| [0] (-4 ~ 4) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>碰撞与</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 头部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 身体</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 胸部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 臀部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 手</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 腿</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 脚</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ ☑ 玩家</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 头部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 身体</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 胸部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 臀部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ (Arms)</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 手</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 腿</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 脚</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> └─ ☑ 玩家</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⚙️ <b>物理属性</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 质量</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 拖拽</nobr>| [0] (0 ~ 10) | 
@@ -437,15 +437,15 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流强度</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 湍流时间比例</nobr>| [0] (-4 ~ 4) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>碰撞与</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 头部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 身体</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 胸部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 臀部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 手</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 腿</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 脚</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ ☑ 玩家</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 头部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 身体</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 胸部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 臀部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ (Arms)</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 手</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 腿</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 脚</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> └─ ☑ 玩家</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⚙️ <b>物理属性</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 质量</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 拖拽</nobr>| [0] (0 ~ 10) | 
@@ -505,15 +505,15 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流强度</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 湍流时间比例</nobr>| [0] (-4 ~ 4) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>碰撞与</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 头部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 身体</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 胸部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 臀部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 手</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 腿</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 脚</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ ☑ 玩家</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 头部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 身体</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 胸部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 臀部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ (Arms)</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 手</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 腿</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 脚</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> └─ ☑ 玩家</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⚙️ <b>物理属性</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 质量</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 拖拽</nobr>| [0] (0 ~ 10) | 
@@ -573,15 +573,15 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流强度</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 湍流时间比例</nobr>| [0] (-4 ~ 4) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>碰撞与</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 头部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 身体</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 胸部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 臀部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 手</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 腿</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 脚</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ ☑ 玩家</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 头部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 身体</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 胸部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 臀部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ (Arms)</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 手</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 腿</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 脚</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> └─ ☑ 玩家</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⚙️ <b>物理属性</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 质量</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 拖拽</nobr>| [0] (0 ~ 10) | 
@@ -641,15 +641,15 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流强度</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 湍流时间比例</nobr>| [0] (-4 ~ 4) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>碰撞与</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 头部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 身体</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 胸部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 臀部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 手</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 腿</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 脚</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ ☑ 玩家</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 头部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 身体</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 胸部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 臀部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ (Arms)</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 手</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 腿</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 脚</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> └─ ☑ 玩家</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⚙️ <b>物理属性</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 质量</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 拖拽</nobr>| [0] (0 ~ 10) | 
@@ -709,15 +709,15 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流强度</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 湍流时间比例</nobr>| [0] (-4 ~ 4) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>碰撞与</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 头部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 身体</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 胸部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 臀部</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 手</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 腿</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 脚</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ ☑ 玩家</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 头部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 身体</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 胸部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 臀部</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ (Arms)</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 手</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 腿</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 脚</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> └─ ☑ 玩家</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⚙️ <b>物理属性</b></nobr>| | Physics properties like mass, drag and friction
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 质量</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 拖拽</nobr>| [0] (0 ~ 10) | 
@@ -785,17 +785,17 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ☑ 脚</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ☑ 玩家</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>模拟设置</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 使用全局</nobr>| [ON] | 在 Pro / 布料模拟下找到全局设置
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 启用拖动</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 模拟</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ > 模拟每秒帧数</nobr>| **动态** | 动态, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 时间比例</nobr>| [0.65] (0.1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 子步</nobr>| [4] (1 ~ 20) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 迭代</nobr>| [1] (0 ~ 10) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ □ 反向偶数子步</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 备用组大小</nobr>| [0] (0 ~ 20) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 表格大小</nobr>| [6] (1 ~ 20) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ □ 两步求解</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 使用全局</nobr>| [ON] | 在 Pro / 布料模拟下找到全局设置
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 启用拖动</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 模拟</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ > 模拟每秒帧数</nobr>| **动态** | 动态, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 时间比例</nobr>| [0.65] (0.1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 子步</nobr>| [4] (1 ~ 20) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 迭代</nobr>| [1] (0 ~ 10) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ □ 反向偶数子步</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 备用组大小</nobr>| [0] (0 ~ 20) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 表格大小</nobr>| [6] (1 ~ 20) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> └─ □ 两步求解</nobr>| [OFF] | 
 |<nobr>├─ ⊖ 弹簧</nobr>| [1.25] (0 ~ 5) | 
 |<nobr>├─ ⊖ 阻尼</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr>├─ ⊖ 减少比例</nobr>| [0.25] (0 ~ 1) | 每个层级减少刚度
@@ -844,17 +844,17 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ☑ 脚</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ☑ 玩家</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>模拟设置</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 使用全局</nobr>| [ON] | 在 Pro / 布料模拟下找到全局设置
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 启用拖动</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 模拟</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ > 模拟每秒帧数</nobr>| **动态** | 动态, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 时间比例</nobr>| [0.65] (0.1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 子步</nobr>| [4] (1 ~ 20) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 迭代</nobr>| [1] (0 ~ 10) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ □ 反向偶数子步</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 备用组大小</nobr>| [0] (0 ~ 20) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 表格大小</nobr>| [6] (1 ~ 20) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ □ 两步求解</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 使用全局</nobr>| [ON] | 在 Pro / 布料模拟下找到全局设置
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 启用拖动</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 模拟</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ > 模拟每秒帧数</nobr>| **动态** | 动态, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 时间比例</nobr>| [0.65] (0.1 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 子步</nobr>| [4] (1 ~ 20) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 迭代</nobr>| [1] (0 ~ 10) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ □ 反向偶数子步</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 备用组大小</nobr>| [0] (0 ~ 20) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 表格大小</nobr>| [6] (1 ~ 20) | 
+|<nobr><img src="/images/icon/ic_line_v.png"/> └─ □ 两步求解</nobr>| [OFF] | 
 |<nobr>├─ ⊖ 弹簧</nobr>| [0.5] (0 ~ 5) | 
 |<nobr>├─ ⊖ 阻尼</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr>├─ ⊖ 减少比例</nobr>| [0.25] (0 ~ 1) | 每个层级减少刚度

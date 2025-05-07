@@ -50,19 +50,19 @@ sidebar:
 |<nobr>│ │ └─ ⊖ (Z)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 下層</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ └─ ⚙️ <b>下錨點</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 錨點選擇</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 選擇偏移</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> > 錨點骨骼</nobr>| **腰部** | 腰部, 軀幹, 臀部, 頭部, 大腿, 小腿, 上臂, 下臂, 手, 胸部,  |
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> □ 交換側面</nobr>| [OFF] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> > 鎖定模式</nobr>| **無** | 無, 鎖定, 鎖定高度, 粘性,  |
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> <b>錨點位置</b></nobr>|| 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-0.5 ~ 0.5) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-0.5 ~ 0.5) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ (Z)</nobr>| [0] (-0.5 ~ 0.5) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> <b>錨點旋轉</b></nobr>|| 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>└─ ⊖ (Z)</nobr>| [0] (-1 ~ 1) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 錨點選擇</nobr>| [1] (0 ~ 1) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 選擇偏移</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> > 錨點骨骼</nobr>| **腰部** | 腰部, 軀幹, 臀部, 頭部, 大腿, 小腿, 上臂, 下臂, 手, 胸部,  |
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> □ 交換側面</nobr>| [OFF] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> > 鎖定模式</nobr>| **無** | 無, 鎖定, 鎖定高度, 粘性,  |
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> <b>錨點位置</b></nobr>|| 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-0.5 ~ 0.5) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-0.5 ~ 0.5) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ (Z)</nobr>| [0] (-0.5 ~ 0.5) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> <b>錨點旋轉</b></nobr>|| 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-1 ~ 1) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-1 ~ 1) | 
+|<nobr>│  └─ ⊖ (Z)</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>粒子屬性</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 粒子半徑</nobr>| [5] (1 ~ 20) | 粒子大小（毫米）
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 黏性</nobr>| [0] (0 ~ 1) | 
@@ -146,25 +146,25 @@ sidebar:
 |<nobr>│ └─ ⊖ 厚度</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> > 紋理</nobr>| **[實心顏色]** | [實心顏色], [木材1], [木材2], [瓷磚], [混凝土], [視頻],  |
 |<nobr>└─ ☑ <b>細節圖</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 啟用</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> □ <b>(Hexagon Map)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 密度</nobr>| [2] (0 ~ 8) | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 大小</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 凸起</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 噪聲</nobr>| [0.2] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> □ (Use Circle)</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ └─ ⊖ 柔邊</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> > 選擇地圖</nobr>| **布料 3** | 碳纖維, 皮革, 布料 1, 布料 2, 布料 3, 羊毛 1, 羊毛 2, 金屬亮面, 金屬拉絲, 頭髮,  |
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 細節圖旋轉</nobr>| [0] (-180 ~ 180) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 細節圖比例</nobr>| [6] (0 ~ 8) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 細節圖凹凸</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 影響環境光遮蔽</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 影響光滑度</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 影響金屬感</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 影響顏色混合</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 各向異性</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>└─ ⊖ MIP貼圖偏差</nobr>| [0] (-5 ~ 5) | 調整細節材質的清晰度。
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ☑ 啟用</nobr>| [ON] | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> □ <b>(Hexagon Map)</b></nobr>| | 
+|<nobr> │ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
+|<nobr> │ <img src="/images/icon/ic_line_t.png"/> ⊖ 密度</nobr>| [2] (0 ~ 8) | 
+|<nobr> │ <img src="/images/icon/ic_line_t.png"/> ⊖ 大小</nobr>| [1] (0 ~ 1) | 
+|<nobr> │ <img src="/images/icon/ic_line_t.png"/> ⊖ 凸起</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr> │ <img src="/images/icon/ic_line_t.png"/> ⊖ 噪聲</nobr>| [0.2] (0 ~ 1) | 
+|<nobr> │ <img src="/images/icon/ic_line_t.png"/> □ (Use Circle)</nobr>| [OFF] | 
+|<nobr> │ └─ ⊖ 柔邊</nobr>| [0.1] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> > 選擇地圖</nobr>| **布料 3** | 碳纖維, 皮革, 布料 1, 布料 2, 布料 3, 羊毛 1, 羊毛 2, 金屬亮面, 金屬拉絲, 頭髮,  |
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 細節圖旋轉</nobr>| [0] (-180 ~ 180) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 細節圖比例</nobr>| [6] (0 ~ 8) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 細節圖凹凸</nobr>| [0.5] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 影響環境光遮蔽</nobr>| [0] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 影響光滑度</nobr>| [0] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 影響金屬感</nobr>| [0] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 影響顏色混合</nobr>| [0] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 各向異性</nobr>| [0] (-1 ~ 1) | 
+|<nobr> └─ ⊖ MIP貼圖偏差</nobr>| [0] (-5 ~ 5) | 調整細節材質的清晰度。
 |<nobr> □ <b>布料 2</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 重建網格</nobr>|| 此處的大多數參數需要重建網格才能生效。
@@ -199,19 +199,19 @@ sidebar:
 |<nobr>│ │ └─ ⊖ (Z)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 下層</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ └─ ⚙️ <b>下錨點</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 錨點選擇</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 選擇偏移</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> > 錨點骨骼</nobr>| **腰部** | 腰部, 軀幹, 臀部, 頭部, 大腿, 小腿, 上臂, 下臂, 手, 胸部,  |
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> □ 交換側面</nobr>| [OFF] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> > 鎖定模式</nobr>| **無** | 無, 鎖定, 鎖定高度, 粘性,  |
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> <b>錨點位置</b></nobr>|| 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-0.5 ~ 0.5) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-0.5 ~ 0.5) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ (Z)</nobr>| [0] (-0.5 ~ 0.5) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> <b>錨點旋轉</b></nobr>|| 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>└─ ⊖ (Z)</nobr>| [0] (-1 ~ 1) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 錨點選擇</nobr>| [1] (0 ~ 1) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ 選擇偏移</nobr>| [0.5] (0 ~ 1) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> > 錨點骨骼</nobr>| **腰部** | 腰部, 軀幹, 臀部, 頭部, 大腿, 小腿, 上臂, 下臂, 手, 胸部,  |
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> □ 交換側面</nobr>| [OFF] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> > 鎖定模式</nobr>| **無** | 無, 鎖定, 鎖定高度, 粘性,  |
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> <b>錨點位置</b></nobr>|| 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-0.5 ~ 0.5) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-0.5 ~ 0.5) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ (Z)</nobr>| [0] (-0.5 ~ 0.5) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> <b>錨點旋轉</b></nobr>|| 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-1 ~ 1) | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-1 ~ 1) | 
+|<nobr>│  └─ ⊖ (Z)</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>粒子屬性</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 粒子半徑</nobr>| [5] (1 ~ 20) | 粒子大小（毫米）
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 黏性</nobr>| [0] (0 ~ 1) | 
@@ -295,25 +295,25 @@ sidebar:
 |<nobr>│ └─ ⊖ 厚度</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> > 紋理</nobr>| **[實心顏色]** | [實心顏色], [木材1], [木材2], [瓷磚], [混凝土], [視頻],  |
 |<nobr>└─ ☑ <b>細節圖</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 啟用</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> □ <b>(Hexagon Map)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 密度</nobr>| [2] (0 ~ 8) | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 大小</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 凸起</nobr>| [0.5] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 噪聲</nobr>| [0.2] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> □ (Use Circle)</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ └─ ⊖ 柔邊</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> > 選擇地圖</nobr>| **布料 3** | 碳纖維, 皮革, 布料 1, 布料 2, 布料 3, 羊毛 1, 羊毛 2, 金屬亮面, 金屬拉絲, 頭髮,  |
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 細節圖旋轉</nobr>| [0] (-180 ~ 180) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 細節圖比例</nobr>| [6] (0 ~ 8) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 細節圖凹凸</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 影響環境光遮蔽</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 影響光滑度</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 影響金屬感</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 影響顏色混合</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 各向異性</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>└─ ⊖ MIP貼圖偏差</nobr>| [0] (-5 ~ 5) | 調整細節材質的清晰度。
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ☑ 啟用</nobr>| [ON] | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> □ <b>(Hexagon Map)</b></nobr>| | 
+|<nobr> │ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
+|<nobr> │ <img src="/images/icon/ic_line_t.png"/> ⊖ 密度</nobr>| [2] (0 ~ 8) | 
+|<nobr> │ <img src="/images/icon/ic_line_t.png"/> ⊖ 大小</nobr>| [1] (0 ~ 1) | 
+|<nobr> │ <img src="/images/icon/ic_line_t.png"/> ⊖ 凸起</nobr>| [0.5] (-1 ~ 1) | 
+|<nobr> │ <img src="/images/icon/ic_line_t.png"/> ⊖ 噪聲</nobr>| [0.2] (0 ~ 1) | 
+|<nobr> │ <img src="/images/icon/ic_line_t.png"/> □ (Use Circle)</nobr>| [OFF] | 
+|<nobr> │ └─ ⊖ 柔邊</nobr>| [0.1] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> > 選擇地圖</nobr>| **布料 3** | 碳纖維, 皮革, 布料 1, 布料 2, 布料 3, 羊毛 1, 羊毛 2, 金屬亮面, 金屬拉絲, 頭髮,  |
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 細節圖旋轉</nobr>| [0] (-180 ~ 180) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 細節圖比例</nobr>| [6] (0 ~ 8) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 細節圖凹凸</nobr>| [0.5] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 影響環境光遮蔽</nobr>| [0] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 影響光滑度</nobr>| [0] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 影響金屬感</nobr>| [0] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 影響顏色混合</nobr>| [0] (0 ~ 1) | 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 各向異性</nobr>| [0] (-1 ~ 1) | 
+|<nobr> └─ ⊖ MIP貼圖偏差</nobr>| [0] (-5 ~ 5) | 調整細節材質的清晰度。
 |<nobr> □ 合併</nobr>| [OFF] | 將布料 1 和 2 合併為單一模擬，這允許兩者之間的碰撞，但會變慢。
 |<nobr> □ <b>流體（實驗性）</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
@@ -375,15 +375,15 @@ sidebar:
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 湍流強度</nobr>| [1] (0 ~ 2) | 
 |<nobr>│ │ └─ ⊖ 湍流時間比例</nobr>| [0] (-4 ~ 4) | 
 |<nobr>│ └─ ⚙️ <b>碰撞物</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 頭部</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 身體</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 胸部</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 臀部</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ (Arms)</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 手</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 腿部</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 腳</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>└─ □ 玩家</nobr>| [OFF] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 頭部</nobr>| [ON] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 身體</nobr>| [ON] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 胸部</nobr>| [ON] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 臀部</nobr>| [ON] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ (Arms)</nobr>| [ON] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 手</nobr>| [ON] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 腿部</nobr>| [ON] | 
+|<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 腳</nobr>| [ON] | 
+|<nobr>│  └─ □ 玩家</nobr>| [OFF] | 
 |<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
 |<nobr> ☑ <b>幾何碰撞器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 啟用</nobr>| [ON] | 

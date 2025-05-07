@@ -50,19 +50,19 @@ sidebar:
 | │ │ └─ ⊖ Z| [0] (-1 ~ 1) | 
 | │ ├─ ⊖ Bottom Layers| [0] (0 ~ 10) | 
 | │ └─ ⚙️ <b>Bottom Anchor</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Anchor Selection| [1] (0 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Selection Offset| [0.5] (0 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > Anchor Bone| **Waist** | Waist, Torso, Hip, Head, Thighs, Shins, Upper Arms, Lower Arms, Hands, Boobs,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ □ Swap Side| [OFF] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > Lock Mode| **None** | None, Lock, Lock Height, Sticky,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ <b>Anchor Positoin</b>|| 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ X| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Y| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Z| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ <b>Anchor Rotation</b>|| 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ X| [0] (-1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Y| [0] (-1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ⊖ Z| [0] (-1 ~ 1) | 
+| │  ├─ ⊖ Anchor Selection| [1] (0 ~ 1) | 
+| │  ├─ ⊖ Selection Offset| [0.5] (0 ~ 1) | 
+| │  ├─ > Anchor Bone| **Waist** | Waist, Torso, Hip, Head, Thighs, Shins, Upper Arms, Lower Arms, Hands, Boobs,  |
+| │  ├─ □ Swap Side| [OFF] | 
+| │  ├─ > Lock Mode| **None** | None, Lock, Lock Height, Sticky,  |
+| │  ├─ <b>Anchor Positoin</b>|| 
+| │  ├─ ⊖ X| [0] (-0.5 ~ 0.5) | 
+| │  ├─ ⊖ Y| [0] (-0.5 ~ 0.5) | 
+| │  ├─ ⊖ Z| [0] (-0.5 ~ 0.5) | 
+| │  ├─ <b>Anchor Rotation</b>|| 
+| │  ├─ ⊖ X| [0] (-1 ~ 1) | 
+| │  ├─ ⊖ Y| [0] (-1 ~ 1) | 
+| │  └─ ⊖ Z| [0] (-1 ~ 1) | 
 | ├─ ⚙️ <b>Particle Properties</b>| | 
 | │ ├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
 | │ ├─ ⊖ Stickiness| [0] (0 ~ 1) | 
@@ -146,25 +146,25 @@ sidebar:
 | │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
 | ├─ > Texture| **[Solid Color]** | [Solid Color], [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |
 | └─ ☑ <b>Detail Map</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Enable| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ □ <b>Hexagon Map</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Enable| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Density| [2] (0 ~ 8) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Size| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Bump| [0.5] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Noise| [0.2] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Use Circle| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ Soft Edge| [0.1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ > Select Map| **Fabric 3** | Carbon Fiber, Leather, Fabric 1, Fabric 2, Fabric 3, Wool 1, Wool 2, Metal Satin, Metal Brushed, Hair,  |
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Detail Map Rotation| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Detail Map Scale| [6] (0 ~ 8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Detail Map Bump| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Affect AO| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Affect Smoothness| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Affect Metallic| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Affect Color Blend| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Anisotropy| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>└─ ⊖ MIP Map Bias| [0] (-5 ~ 5) | Adjust sharpness of detail texture.
+|  ├─ ☑ Enable| [ON] | 
+|  ├─ □ <b>Hexagon Map</b>| | 
+|  │ ├─ □ Enable| [OFF] | 
+|  │ ├─ ⊖ Density| [2] (0 ~ 8) | 
+|  │ ├─ ⊖ Size| [1] (0 ~ 1) | 
+|  │ ├─ ⊖ Bump| [0.5] (-1 ~ 1) | 
+|  │ ├─ ⊖ Noise| [0.2] (0 ~ 1) | 
+|  │ ├─ □ Use Circle| [OFF] | 
+|  │ └─ ⊖ Soft Edge| [0.1] (0 ~ 1) | 
+|  ├─ > Select Map| **Fabric 3** | Carbon Fiber, Leather, Fabric 1, Fabric 2, Fabric 3, Wool 1, Wool 2, Metal Satin, Metal Brushed, Hair,  |
+|  ├─ ⊖ Detail Map Rotation| [0] (-180 ~ 180) | 
+|  ├─ ⊖ Detail Map Scale| [6] (0 ~ 8) | 
+|  ├─ ⊖ Detail Map Bump| [0.5] (0 ~ 1) | 
+|  ├─ ⊖ Affect AO| [0] (0 ~ 1) | 
+|  ├─ ⊖ Affect Smoothness| [0] (0 ~ 1) | 
+|  ├─ ⊖ Affect Metallic| [0] (0 ~ 1) | 
+|  ├─ ⊖ Affect Color Blend| [0] (0 ~ 1) | 
+|  ├─ ⊖ Anisotropy| [0] (-1 ~ 1) | 
+|  └─ ⊖ MIP Map Bias| [0] (-5 ~ 5) | Adjust sharpness of detail texture.
 |  □ <b>Cloth 2</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Rebuild Mesh|| Most parameters here requires rebuilding the mesh to take effect.
@@ -199,19 +199,19 @@ sidebar:
 | │ │ └─ ⊖ Z| [0] (-1 ~ 1) | 
 | │ ├─ ⊖ Bottom Layers| [0] (0 ~ 10) | 
 | │ └─ ⚙️ <b>Bottom Anchor</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Anchor Selection| [1] (0 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Selection Offset| [0.5] (0 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > Anchor Bone| **Waist** | Waist, Torso, Hip, Head, Thighs, Shins, Upper Arms, Lower Arms, Hands, Boobs,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ □ Swap Side| [OFF] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > Lock Mode| **None** | None, Lock, Lock Height, Sticky,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ <b>Anchor Positoin</b>|| 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ X| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Y| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Z| [0] (-0.5 ~ 0.5) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ <b>Anchor Rotation</b>|| 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ X| [0] (-1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Y| [0] (-1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ⊖ Z| [0] (-1 ~ 1) | 
+| │  ├─ ⊖ Anchor Selection| [1] (0 ~ 1) | 
+| │  ├─ ⊖ Selection Offset| [0.5] (0 ~ 1) | 
+| │  ├─ > Anchor Bone| **Waist** | Waist, Torso, Hip, Head, Thighs, Shins, Upper Arms, Lower Arms, Hands, Boobs,  |
+| │  ├─ □ Swap Side| [OFF] | 
+| │  ├─ > Lock Mode| **None** | None, Lock, Lock Height, Sticky,  |
+| │  ├─ <b>Anchor Positoin</b>|| 
+| │  ├─ ⊖ X| [0] (-0.5 ~ 0.5) | 
+| │  ├─ ⊖ Y| [0] (-0.5 ~ 0.5) | 
+| │  ├─ ⊖ Z| [0] (-0.5 ~ 0.5) | 
+| │  ├─ <b>Anchor Rotation</b>|| 
+| │  ├─ ⊖ X| [0] (-1 ~ 1) | 
+| │  ├─ ⊖ Y| [0] (-1 ~ 1) | 
+| │  └─ ⊖ Z| [0] (-1 ~ 1) | 
 | ├─ ⚙️ <b>Particle Properties</b>| | 
 | │ ├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
 | │ ├─ ⊖ Stickiness| [0] (0 ~ 1) | 
@@ -295,25 +295,25 @@ sidebar:
 | │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
 | ├─ > Texture| **[Solid Color]** | [Solid Color], [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |
 | └─ ☑ <b>Detail Map</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ Enable| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ □ <b>Hexagon Map</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Enable| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Density| [2] (0 ~ 8) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Size| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Bump| [0.5] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Noise| [0.2] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ Use Circle| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ Soft Edge| [0.1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ > Select Map| **Fabric 3** | Carbon Fiber, Leather, Fabric 1, Fabric 2, Fabric 3, Wool 1, Wool 2, Metal Satin, Metal Brushed, Hair,  |
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Detail Map Rotation| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Detail Map Scale| [6] (0 ~ 8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Detail Map Bump| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Affect AO| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Affect Smoothness| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Affect Metallic| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Affect Color Blend| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ Anisotropy| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>└─ ⊖ MIP Map Bias| [0] (-5 ~ 5) | Adjust sharpness of detail texture.
+|  ├─ ☑ Enable| [ON] | 
+|  ├─ □ <b>Hexagon Map</b>| | 
+|  │ ├─ □ Enable| [OFF] | 
+|  │ ├─ ⊖ Density| [2] (0 ~ 8) | 
+|  │ ├─ ⊖ Size| [1] (0 ~ 1) | 
+|  │ ├─ ⊖ Bump| [0.5] (-1 ~ 1) | 
+|  │ ├─ ⊖ Noise| [0.2] (0 ~ 1) | 
+|  │ ├─ □ Use Circle| [OFF] | 
+|  │ └─ ⊖ Soft Edge| [0.1] (0 ~ 1) | 
+|  ├─ > Select Map| **Fabric 3** | Carbon Fiber, Leather, Fabric 1, Fabric 2, Fabric 3, Wool 1, Wool 2, Metal Satin, Metal Brushed, Hair,  |
+|  ├─ ⊖ Detail Map Rotation| [0] (-180 ~ 180) | 
+|  ├─ ⊖ Detail Map Scale| [6] (0 ~ 8) | 
+|  ├─ ⊖ Detail Map Bump| [0.5] (0 ~ 1) | 
+|  ├─ ⊖ Affect AO| [0] (0 ~ 1) | 
+|  ├─ ⊖ Affect Smoothness| [0] (0 ~ 1) | 
+|  ├─ ⊖ Affect Metallic| [0] (0 ~ 1) | 
+|  ├─ ⊖ Affect Color Blend| [0] (0 ~ 1) | 
+|  ├─ ⊖ Anisotropy| [0] (-1 ~ 1) | 
+|  └─ ⊖ MIP Map Bias| [0] (-5 ~ 5) | Adjust sharpness of detail texture.
 |  □ Combine| [OFF] | Combine Cloth 1 and 2 as a single simulation, this allows collision between the 2 but will be slower.
 |  □ <b>Fluid (Experimental)</b>| | 
 | ├─ □ Enable| [OFF] | 
@@ -375,15 +375,15 @@ sidebar:
 | │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>Collide With</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ □ Player| [OFF] | 
+| │  ├─ ☑ Head| [ON] | 
+| │  ├─ ☑ Body| [ON] | 
+| │  ├─ ☑ Boobs| [ON] | 
+| │  ├─ ☑ Butts| [ON] | 
+| │  ├─ ☑ Arms| [ON] | 
+| │  ├─ ☑ Hands| [ON] | 
+| │  ├─ ☑ Legs| [ON] | 
+| │  ├─ ☑ Feet| [ON] | 
+| │  └─ □ Player| [OFF] | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset),  |
 |  ☑ <b>Geometry Collider</b>| | 
 | ├─ ☑ Enable| [ON] | 

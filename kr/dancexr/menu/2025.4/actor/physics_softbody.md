@@ -85,43 +85,43 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ 기본 그룹 설정 사용| [ON] | 
 | └─ ⚙️ <b>입자 동역학</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>조인트</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 센터 포함| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 감쇠| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 시각화| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 관성| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 마찰| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>바람</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>충돌하기</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 머리| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 몸체| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 가슴| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 엉덩이| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 손| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 다리| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 발| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ 플레이어| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
+|  ├─ <b>조인트</b>|| 
+|  ├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 센터 포함| [ON] | 
+|  ├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
+|  ├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ 감쇠| [15] (0 ~ 40) | 
+|  ├─ □ 시각화| [OFF] | 
+|  ├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
+|  ├─ ⊖ 관성| [2] (1 ~ 5) | 
+|  ├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
+|  ├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
+|  ├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 마찰| [1] (0 ~ 2) | 
+|  ├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
+|  ├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
+|  ├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>바람</b>| | 
+|  │ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>충돌하기</b>| | 
+|  │ ├─ ☑ 머리| [ON] | 
+|  │ ├─ □ 몸체| [OFF] | 
+|  │ ├─ □ 가슴| [OFF] | 
+|  │ ├─ □ 엉덩이| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 손| [ON] | 
+|  │ ├─ □ 다리| [OFF] | 
+|  │ ├─ ☑ 발| [ON] | 
+|  │ └─ ☑ 플레이어| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
 |  □ <b>(Group 3)</b>| | 
 | ├─ □ 활성화| [OFF] | 
 | ├─ 뼈 선택|| 본 선택
@@ -132,43 +132,43 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ 기본 그룹 설정 사용| [ON] | 
 | └─ ⚙️ <b>입자 동역학</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>조인트</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 센터 포함| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 감쇠| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 시각화| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 관성| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 마찰| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>바람</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>충돌하기</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 머리| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 몸체| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 가슴| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 엉덩이| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 손| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 다리| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 발| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ 플레이어| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
+|  ├─ <b>조인트</b>|| 
+|  ├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 센터 포함| [ON] | 
+|  ├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
+|  ├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ 감쇠| [15] (0 ~ 40) | 
+|  ├─ □ 시각화| [OFF] | 
+|  ├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
+|  ├─ ⊖ 관성| [2] (1 ~ 5) | 
+|  ├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
+|  ├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
+|  ├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 마찰| [1] (0 ~ 2) | 
+|  ├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
+|  ├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
+|  ├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>바람</b>| | 
+|  │ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>충돌하기</b>| | 
+|  │ ├─ ☑ 머리| [ON] | 
+|  │ ├─ □ 몸체| [OFF] | 
+|  │ ├─ □ 가슴| [OFF] | 
+|  │ ├─ □ 엉덩이| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 손| [ON] | 
+|  │ ├─ □ 다리| [OFF] | 
+|  │ ├─ ☑ 발| [ON] | 
+|  │ └─ ☑ 플레이어| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
 |  □ <b>(Group 4)</b>| | 
 | ├─ □ 활성화| [OFF] | 
 | ├─ 뼈 선택|| 본 선택
@@ -179,43 +179,43 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ 기본 그룹 설정 사용| [ON] | 
 | └─ ⚙️ <b>입자 동역학</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>조인트</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 센터 포함| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 감쇠| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 시각화| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 관성| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 마찰| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>바람</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>충돌하기</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 머리| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 몸체| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 가슴| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 엉덩이| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 손| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 다리| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 발| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ 플레이어| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
+|  ├─ <b>조인트</b>|| 
+|  ├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 센터 포함| [ON] | 
+|  ├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
+|  ├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ 감쇠| [15] (0 ~ 40) | 
+|  ├─ □ 시각화| [OFF] | 
+|  ├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
+|  ├─ ⊖ 관성| [2] (1 ~ 5) | 
+|  ├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
+|  ├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
+|  ├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 마찰| [1] (0 ~ 2) | 
+|  ├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
+|  ├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
+|  ├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>바람</b>| | 
+|  │ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>충돌하기</b>| | 
+|  │ ├─ ☑ 머리| [ON] | 
+|  │ ├─ □ 몸체| [OFF] | 
+|  │ ├─ □ 가슴| [OFF] | 
+|  │ ├─ □ 엉덩이| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 손| [ON] | 
+|  │ ├─ □ 다리| [OFF] | 
+|  │ ├─ ☑ 발| [ON] | 
+|  │ └─ ☑ 플레이어| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
 |  □ <b>(Group 5)</b>| | 
 | ├─ □ 활성화| [OFF] | 
 | ├─ 뼈 선택|| 본 선택
@@ -226,43 +226,43 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ 기본 그룹 설정 사용| [ON] | 
 | └─ ⚙️ <b>입자 동역학</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>조인트</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 센터 포함| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 감쇠| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 시각화| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 관성| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 마찰| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>바람</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>충돌하기</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 머리| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 몸체| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 가슴| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 엉덩이| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 손| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 다리| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 발| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ 플레이어| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
+|  ├─ <b>조인트</b>|| 
+|  ├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 센터 포함| [ON] | 
+|  ├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
+|  ├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ 감쇠| [15] (0 ~ 40) | 
+|  ├─ □ 시각화| [OFF] | 
+|  ├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
+|  ├─ ⊖ 관성| [2] (1 ~ 5) | 
+|  ├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
+|  ├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
+|  ├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 마찰| [1] (0 ~ 2) | 
+|  ├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
+|  ├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
+|  ├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>바람</b>| | 
+|  │ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>충돌하기</b>| | 
+|  │ ├─ ☑ 머리| [ON] | 
+|  │ ├─ □ 몸체| [OFF] | 
+|  │ ├─ □ 가슴| [OFF] | 
+|  │ ├─ □ 엉덩이| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 손| [ON] | 
+|  │ ├─ □ 다리| [OFF] | 
+|  │ ├─ ☑ 발| [ON] | 
+|  │ └─ ☑ 플레이어| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
 |  □ <b>(Group 6)</b>| | 
 | ├─ □ 활성화| [OFF] | 
 | ├─ 뼈 선택|| 본 선택
@@ -273,43 +273,43 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ 기본 그룹 설정 사용| [ON] | 
 | └─ ⚙️ <b>입자 동역학</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>조인트</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 센터 포함| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 감쇠| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 시각화| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 관성| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 마찰| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>바람</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>충돌하기</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 머리| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 몸체| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 가슴| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 엉덩이| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 손| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 다리| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 발| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ 플레이어| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
+|  ├─ <b>조인트</b>|| 
+|  ├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 센터 포함| [ON] | 
+|  ├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
+|  ├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ 감쇠| [15] (0 ~ 40) | 
+|  ├─ □ 시각화| [OFF] | 
+|  ├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
+|  ├─ ⊖ 관성| [2] (1 ~ 5) | 
+|  ├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
+|  ├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
+|  ├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 마찰| [1] (0 ~ 2) | 
+|  ├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
+|  ├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
+|  ├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>바람</b>| | 
+|  │ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>충돌하기</b>| | 
+|  │ ├─ ☑ 머리| [ON] | 
+|  │ ├─ □ 몸체| [OFF] | 
+|  │ ├─ □ 가슴| [OFF] | 
+|  │ ├─ □ 엉덩이| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 손| [ON] | 
+|  │ ├─ □ 다리| [OFF] | 
+|  │ ├─ ☑ 발| [ON] | 
+|  │ └─ ☑ 플레이어| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
 |  □ <b>(Group 7)</b>| | 
 | ├─ □ 활성화| [OFF] | 
 | ├─ 뼈 선택|| 본 선택
@@ -320,43 +320,43 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ 기본 그룹 설정 사용| [ON] | 
 | └─ ⚙️ <b>입자 동역학</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>조인트</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 센터 포함| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 감쇠| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 시각화| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 관성| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 마찰| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>바람</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>충돌하기</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 머리| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 몸체| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 가슴| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 엉덩이| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 손| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 다리| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 발| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ 플레이어| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
+|  ├─ <b>조인트</b>|| 
+|  ├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 센터 포함| [ON] | 
+|  ├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
+|  ├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ 감쇠| [15] (0 ~ 40) | 
+|  ├─ □ 시각화| [OFF] | 
+|  ├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
+|  ├─ ⊖ 관성| [2] (1 ~ 5) | 
+|  ├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
+|  ├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
+|  ├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 마찰| [1] (0 ~ 2) | 
+|  ├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
+|  ├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
+|  ├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>바람</b>| | 
+|  │ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>충돌하기</b>| | 
+|  │ ├─ ☑ 머리| [ON] | 
+|  │ ├─ □ 몸체| [OFF] | 
+|  │ ├─ □ 가슴| [OFF] | 
+|  │ ├─ □ 엉덩이| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 손| [ON] | 
+|  │ ├─ □ 다리| [OFF] | 
+|  │ ├─ ☑ 발| [ON] | 
+|  │ └─ ☑ 플레이어| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
 |  □ <b>(Group 8)</b>| | 
 | ├─ □ 활성화| [OFF] | 
 | ├─ 뼈 선택|| 본 선택
@@ -367,41 +367,41 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ 기본 그룹 설정 사용| [ON] | 
 | └─ ⚙️ <b>입자 동역학</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>조인트</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 센터 포함| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 감쇠| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 시각화| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 관성| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 마찰| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>바람</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>충돌하기</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 머리| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 몸체| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 가슴| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 엉덩이| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 손| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 다리| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 발| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ 플레이어| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
+|  ├─ <b>조인트</b>|| 
+|  ├─ ⊖ 깊이| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 센터 포함| [ON] | 
+|  ├─ ☑ 부피 제약| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 내부 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 표면 제약| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 회전 제약| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ 엣지 잠금| [0.85] (0.5 ~ 1) | 엣지에 입자 잠금.
+|  ├─ ⊖ 센터 잠금| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ 감쇠| [15] (0 ~ 40) | 
+|  ├─ □ 시각화| [OFF] | 
+|  ├─ ⊖ 최대 각속도| [2] (0 ~ 4) | 
+|  ├─ ⊖ 관성| [2] (1 ~ 5) | 
+|  ├─ ⊖ 부드럽게 만들기| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
+|  ├─ ⊖ 입자 반경| [5] (1 ~ 20) | 밀리미터 단위의 입자 크기
+|  ├─ ⊖ 중력| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 마찰| [1] (0 ~ 2) | 
+|  ├─ ⊖ 지면 마찰| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 항력 (공기)| [0] (0 ~ 2) | 공기 저항
+|  ├─ ⊖ 항력 (수중)| [1] (0 ~ 2) | 수중 저항
+|  ├─ ⊖ 부력| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>바람</b>| | 
+|  │ ├─ ⊖ 바람 영향| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 난류 스케일| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 난류 강도| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 난류 시간 스케일| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>충돌하기</b>| | 
+|  │ ├─ ☑ 머리| [ON] | 
+|  │ ├─ □ 몸체| [OFF] | 
+|  │ ├─ □ 가슴| [OFF] | 
+|  │ ├─ □ 엉덩이| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 손| [ON] | 
+|  │ ├─ □ 다리| [OFF] | 
+|  │ ├─ ☑ 발| [ON] | 
+|  │ └─ ☑ 플레이어| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
 | <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **기본값 (초기화)** | 기본값 (초기화),  |

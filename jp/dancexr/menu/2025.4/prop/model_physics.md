@@ -233,15 +233,15 @@ sidebar:
 | │ │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>衝突する</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 頭| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 体| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 胸部| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 臀部| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 手| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 脚| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ 足| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ プレイヤー| [ON] | 
+| │  ├─ ☑ 頭| [ON] | 
+| │  ├─ ☑ 体| [ON] | 
+| │  ├─ ☑ 胸部| [ON] | 
+| │  ├─ ☑ 臀部| [ON] | 
+| │  ├─ ☑ (Arms)| [ON] | 
+| │  ├─ ☑ 手| [ON] | 
+| │  ├─ ☑ 脚| [ON] | 
+| │  ├─ ☑ 足| [ON] | 
+| │  └─ ☑ プレイヤー| [ON] | 
 | ├─ ⚙️ <b>物理プロパティ</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ 質量| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ ドラッグ| [0] (0 ~ 10) | 
@@ -301,15 +301,15 @@ sidebar:
 | │ │ │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
 | │ │ │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
 | │ │ └─ ⚙️ <b>衝突する</b>| | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 頭| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 体| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 胸部| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 臀部| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 手| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 脚| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 足| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>└─ ☑ プレイヤー| [ON] | 
+| │ │  ├─ ☑ 頭| [ON] | 
+| │ │  ├─ ☑ 体| [ON] | 
+| │ │  ├─ ☑ 胸部| [ON] | 
+| │ │  ├─ ☑ 臀部| [ON] | 
+| │ │  ├─ ☑ (Arms)| [ON] | 
+| │ │  ├─ ☑ 手| [ON] | 
+| │ │  ├─ ☑ 脚| [ON] | 
+| │ │  ├─ ☑ 足| [ON] | 
+| │ │  └─ ☑ プレイヤー| [ON] | 
 | │ ├─ ⚙️ <b>物理プロパティ</b>| | Physics properties like mass, drag and friction
 | │ │ ├─ ⊖ 質量| [0.1] (0 ~ 1) | 
 | │ │ ├─ ⊖ ドラッグ| [0] (0 ~ 10) | 
@@ -369,15 +369,15 @@ sidebar:
 | │ │ │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
 | │ │ │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
 | │ │ └─ ⚙️ <b>衝突する</b>| | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 頭| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 体| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 胸部| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 臀部| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 手| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 脚| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 足| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>└─ ☑ プレイヤー| [ON] | 
+| │ │  ├─ ☑ 頭| [ON] | 
+| │ │  ├─ ☑ 体| [ON] | 
+| │ │  ├─ ☑ 胸部| [ON] | 
+| │ │  ├─ ☑ 臀部| [ON] | 
+| │ │  ├─ ☑ (Arms)| [ON] | 
+| │ │  ├─ ☑ 手| [ON] | 
+| │ │  ├─ ☑ 脚| [ON] | 
+| │ │  ├─ ☑ 足| [ON] | 
+| │ │  └─ ☑ プレイヤー| [ON] | 
 | │ ├─ ⚙️ <b>物理プロパティ</b>| | Physics properties like mass, drag and friction
 | │ │ ├─ ⊖ 質量| [0.1] (0 ~ 1) | 
 | │ │ ├─ ⊖ ドラッグ| [0] (0 ~ 10) | 
@@ -437,15 +437,15 @@ sidebar:
 | │ │ │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
 | │ │ │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
 | │ │ └─ ⚙️ <b>衝突する</b>| | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 頭| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 体| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 胸部| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 臀部| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 手| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 脚| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 足| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>└─ ☑ プレイヤー| [ON] | 
+| │ │  ├─ ☑ 頭| [ON] | 
+| │ │  ├─ ☑ 体| [ON] | 
+| │ │  ├─ ☑ 胸部| [ON] | 
+| │ │  ├─ ☑ 臀部| [ON] | 
+| │ │  ├─ ☑ (Arms)| [ON] | 
+| │ │  ├─ ☑ 手| [ON] | 
+| │ │  ├─ ☑ 脚| [ON] | 
+| │ │  ├─ ☑ 足| [ON] | 
+| │ │  └─ ☑ プレイヤー| [ON] | 
 | │ ├─ ⚙️ <b>物理プロパティ</b>| | Physics properties like mass, drag and friction
 | │ │ ├─ ⊖ 質量| [0.1] (0 ~ 1) | 
 | │ │ ├─ ⊖ ドラッグ| [0] (0 ~ 10) | 
@@ -505,15 +505,15 @@ sidebar:
 | │ │ │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
 | │ │ │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
 | │ │ └─ ⚙️ <b>衝突する</b>| | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 頭| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 体| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 胸部| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 臀部| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 手| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 脚| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 足| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>└─ ☑ プレイヤー| [ON] | 
+| │ │  ├─ ☑ 頭| [ON] | 
+| │ │  ├─ ☑ 体| [ON] | 
+| │ │  ├─ ☑ 胸部| [ON] | 
+| │ │  ├─ ☑ 臀部| [ON] | 
+| │ │  ├─ ☑ (Arms)| [ON] | 
+| │ │  ├─ ☑ 手| [ON] | 
+| │ │  ├─ ☑ 脚| [ON] | 
+| │ │  ├─ ☑ 足| [ON] | 
+| │ │  └─ ☑ プレイヤー| [ON] | 
 | │ ├─ ⚙️ <b>物理プロパティ</b>| | Physics properties like mass, drag and friction
 | │ │ ├─ ⊖ 質量| [0.1] (0 ~ 1) | 
 | │ │ ├─ ⊖ ドラッグ| [0] (0 ~ 10) | 
@@ -573,15 +573,15 @@ sidebar:
 | │ │ │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
 | │ │ │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
 | │ │ └─ ⚙️ <b>衝突する</b>| | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 頭| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 体| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 胸部| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 臀部| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 手| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 脚| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ 足| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>└─ ☑ プレイヤー| [ON] | 
+| │ │  ├─ ☑ 頭| [ON] | 
+| │ │  ├─ ☑ 体| [ON] | 
+| │ │  ├─ ☑ 胸部| [ON] | 
+| │ │  ├─ ☑ 臀部| [ON] | 
+| │ │  ├─ ☑ (Arms)| [ON] | 
+| │ │  ├─ ☑ 手| [ON] | 
+| │ │  ├─ ☑ 脚| [ON] | 
+| │ │  ├─ ☑ 足| [ON] | 
+| │ │  └─ ☑ プレイヤー| [ON] | 
 | │ ├─ ⚙️ <b>物理プロパティ</b>| | Physics properties like mass, drag and friction
 | │ │ ├─ ⊖ 質量| [0.1] (0 ~ 1) | 
 | │ │ ├─ ⊖ ドラッグ| [0] (0 ~ 10) | 
@@ -641,15 +641,15 @@ sidebar:
 | │ │ │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
 | │ │ │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
 | <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>衝突する</b>| | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 頭| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 体| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 胸部| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 臀部| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 手| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 脚| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 足| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ ☑ プレイヤー| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 頭| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 体| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 胸部| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 臀部| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ (Arms)| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 手| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 脚| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 足| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> └─ ☑ プレイヤー| [ON] | 
 | <img src="/images/icon/ic_line_v.png"/>├─ ⚙️ <b>物理プロパティ</b>| | Physics properties like mass, drag and friction
 | <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 質量| [0.1] (0 ~ 1) | 
 | <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ ドラッグ| [0] (0 ~ 10) | 
@@ -709,15 +709,15 @@ sidebar:
 | <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
 | <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
 | <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>衝突する</b>| | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 頭| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 体| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 胸部| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 臀部| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 手| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 脚| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ 足| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ ☑ プレイヤー| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 頭| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 体| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 胸部| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 臀部| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ (Arms)| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 手| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 脚| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 足| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/> └─ ☑ プレイヤー| [ON] | 
 | <img src="/images/icon/ic_line_v.png"/>├─ ⚙️ <b>物理プロパティ</b>| | Physics properties like mass, drag and friction
 | <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 質量| [0.1] (0 ~ 1) | 
 | <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ⊖ ドラッグ| [0] (0 ~ 10) | 
@@ -785,17 +785,17 @@ sidebar:
 | <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ☑ 足| [ON] | 
 | <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ☑ プレイヤー| [ON] | 
 | <img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>シミュレーション設定</b>| | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ グローバルを使用| [ON] | Pro / Cloth Simulationの下にあるグローバル設定を見つける
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ ドラッグを有効にする| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ シミュレート| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ > シミュレーションFPS| **ダイナミック** | ダイナミック, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 時間スケール| [0.65] (0.1 ~ 1) | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ サブステップ| [4] (1 ~ 20) | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ イテレーション| [1] (0 ~ 10) | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ □ 偶数サブステップを逆転| [OFF] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 代替グループサイズ| [0] (0 ~ 20) | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ テーブルサイズ| [6] (1 ~ 20) | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ □ 二段階解法| [OFF] | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ ☑ グローバルを使用| [ON] | Pro / Cloth Simulationの下にあるグローバル設定を見つける
+| <img src="/images/icon/ic_line_v.png"/> ├─ ☑ ドラッグを有効にする| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ ☑ シミュレート| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ > シミュレーションFPS| **ダイナミック** | ダイナミック, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
+| <img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 時間スケール| [0.65] (0.1 ~ 1) | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ ⊖ サブステップ| [4] (1 ~ 20) | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ ⊖ イテレーション| [1] (0 ~ 10) | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ □ 偶数サブステップを逆転| [OFF] | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 代替グループサイズ| [0] (0 ~ 20) | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ ⊖ テーブルサイズ| [6] (1 ~ 20) | 
+| <img src="/images/icon/ic_line_v.png"/> └─ □ 二段階解法| [OFF] | 
 | ├─ ⊖ スプリング| [1.25] (0 ~ 5) | 
 | ├─ ⊖ ダンプ| [0.01] (0 ~ 0.1) | 
 | ├─ ⊖ 減少比率| [0.25] (0 ~ 1) | 各レベルでの硬さの減少
@@ -844,17 +844,17 @@ sidebar:
 | <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>├─ ☑ 足| [ON] | 
 | <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ☑ プレイヤー| [ON] | 
 | <img src="/images/icon/ic_line_v.png"/>└─ ⚙️ <b>シミュレーション設定</b>| | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ グローバルを使用| [ON] | Pro / Cloth Simulationの下にあるグローバル設定を見つける
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ ドラッグを有効にする| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ☑ シミュレート| [ON] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ > シミュレーションFPS| **ダイナミック** | ダイナミック, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 時間スケール| [0.65] (0.1 ~ 1) | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ サブステップ| [4] (1 ~ 20) | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ イテレーション| [1] (0 ~ 10) | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ □ 偶数サブステップを逆転| [OFF] | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ 代替グループサイズ| [0] (0 ~ 20) | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>├─ ⊖ テーブルサイズ| [6] (1 ~ 20) | 
-| <img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_space.png"/>└─ □ 二段階解法| [OFF] | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ ☑ グローバルを使用| [ON] | Pro / Cloth Simulationの下にあるグローバル設定を見つける
+| <img src="/images/icon/ic_line_v.png"/> ├─ ☑ ドラッグを有効にする| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ ☑ シミュレート| [ON] | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ > シミュレーションFPS| **ダイナミック** | ダイナミック, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
+| <img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 時間スケール| [0.65] (0.1 ~ 1) | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ ⊖ サブステップ| [4] (1 ~ 20) | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ ⊖ イテレーション| [1] (0 ~ 10) | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ □ 偶数サブステップを逆転| [OFF] | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ ⊖ 代替グループサイズ| [0] (0 ~ 20) | 
+| <img src="/images/icon/ic_line_v.png"/> ├─ ⊖ テーブルサイズ| [6] (1 ~ 20) | 
+| <img src="/images/icon/ic_line_v.png"/> └─ □ 二段階解法| [OFF] | 
 | ├─ ⊖ スプリング| [0.5] (0 ~ 5) | 
 | ├─ ⊖ ダンプ| [0.01] (0 ~ 0.1) | 
 | ├─ ⊖ 減少比率| [0.25] (0 ~ 1) | 各レベルでの硬さの減少

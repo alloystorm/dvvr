@@ -233,15 +233,15 @@ sidebar:
 | │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ └─ ⚙️ <b>Collide With</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │  ├─ ☑ Head| [ON] | 
+| │  ├─ ☑ Body| [ON] | 
+| │  ├─ ☑ Boobs| [ON] | 
+| │  ├─ ☑ Butts| [ON] | 
+| │  ├─ ☑ Arms| [ON] | 
+| │  ├─ ☑ Hands| [ON] | 
+| │  ├─ ☑ Legs| [ON] | 
+| │  ├─ ☑ Feet| [ON] | 
+| │  └─ ☑ Player| [ON] | 
 | ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -301,15 +301,15 @@ sidebar:
 | │ │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ │ └─ ⚙️ <b>Collide With</b>| | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │ │  ├─ ☑ Head| [ON] | 
+| │ │  ├─ ☑ Body| [ON] | 
+| │ │  ├─ ☑ Boobs| [ON] | 
+| │ │  ├─ ☑ Butts| [ON] | 
+| │ │  ├─ ☑ Arms| [ON] | 
+| │ │  ├─ ☑ Hands| [ON] | 
+| │ │  ├─ ☑ Legs| [ON] | 
+| │ │  ├─ ☑ Feet| [ON] | 
+| │ │  └─ ☑ Player| [ON] | 
 | │ ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -369,15 +369,15 @@ sidebar:
 | │ │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ │ └─ ⚙️ <b>Collide With</b>| | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │ │  ├─ ☑ Head| [ON] | 
+| │ │  ├─ ☑ Body| [ON] | 
+| │ │  ├─ ☑ Boobs| [ON] | 
+| │ │  ├─ ☑ Butts| [ON] | 
+| │ │  ├─ ☑ Arms| [ON] | 
+| │ │  ├─ ☑ Hands| [ON] | 
+| │ │  ├─ ☑ Legs| [ON] | 
+| │ │  ├─ ☑ Feet| [ON] | 
+| │ │  └─ ☑ Player| [ON] | 
 | │ ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -437,15 +437,15 @@ sidebar:
 | │ │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ │ └─ ⚙️ <b>Collide With</b>| | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │ │  ├─ ☑ Head| [ON] | 
+| │ │  ├─ ☑ Body| [ON] | 
+| │ │  ├─ ☑ Boobs| [ON] | 
+| │ │  ├─ ☑ Butts| [ON] | 
+| │ │  ├─ ☑ Arms| [ON] | 
+| │ │  ├─ ☑ Hands| [ON] | 
+| │ │  ├─ ☑ Legs| [ON] | 
+| │ │  ├─ ☑ Feet| [ON] | 
+| │ │  └─ ☑ Player| [ON] | 
 | │ ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -505,15 +505,15 @@ sidebar:
 | │ │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ │ └─ ⚙️ <b>Collide With</b>| | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │ │  ├─ ☑ Head| [ON] | 
+| │ │  ├─ ☑ Body| [ON] | 
+| │ │  ├─ ☑ Boobs| [ON] | 
+| │ │  ├─ ☑ Butts| [ON] | 
+| │ │  ├─ ☑ Arms| [ON] | 
+| │ │  ├─ ☑ Hands| [ON] | 
+| │ │  ├─ ☑ Legs| [ON] | 
+| │ │  ├─ ☑ Feet| [ON] | 
+| │ │  └─ ☑ Player| [ON] | 
 | │ ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -573,15 +573,15 @@ sidebar:
 | │ │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ │ └─ ⚙️ <b>Collide With</b>| | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │ │  ├─ ☑ Head| [ON] | 
+| │ │  ├─ ☑ Body| [ON] | 
+| │ │  ├─ ☑ Boobs| [ON] | 
+| │ │  ├─ ☑ Butts| [ON] | 
+| │ │  ├─ ☑ Arms| [ON] | 
+| │ │  ├─ ☑ Hands| [ON] | 
+| │ │  ├─ ☑ Legs| [ON] | 
+| │ │  ├─ ☑ Feet| [ON] | 
+| │ │  └─ ☑ Player| [ON] | 
 | │ ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -641,15 +641,15 @@ sidebar:
 | │ │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ │ └─ ⚙️ <b>Collide With</b>| | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │ │  ├─ ☑ Head| [ON] | 
+| │ │  ├─ ☑ Body| [ON] | 
+| │ │  ├─ ☑ Boobs| [ON] | 
+| │ │  ├─ ☑ Butts| [ON] | 
+| │ │  ├─ ☑ Arms| [ON] | 
+| │ │  ├─ ☑ Hands| [ON] | 
+| │ │  ├─ ☑ Legs| [ON] | 
+| │ │  ├─ ☑ Feet| [ON] | 
+| │ │  └─ ☑ Player| [ON] | 
 | │ ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -709,15 +709,15 @@ sidebar:
 | │ │ │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ │ │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
 | │ │ └─ ⚙️ <b>Collide With</b>| | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Head| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Body| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Boobs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Butts| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Arms| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Hands| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Legs| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>├─ ☑ Feet| [ON] | 
-| │ │ <img src="/images/icon/ic_space.png"/>└─ ☑ Player| [ON] | 
+| │ │  ├─ ☑ Head| [ON] | 
+| │ │  ├─ ☑ Body| [ON] | 
+| │ │  ├─ ☑ Boobs| [ON] | 
+| │ │  ├─ ☑ Butts| [ON] | 
+| │ │  ├─ ☑ Arms| [ON] | 
+| │ │  ├─ ☑ Hands| [ON] | 
+| │ │  ├─ ☑ Legs| [ON] | 
+| │ │  ├─ ☑ Feet| [ON] | 
+| │ │  └─ ☑ Player| [ON] | 
 | │ ├─ ⚙️ <b>Physics Properties</b>| | Physics properties like mass, drag and friction
 | │ │ ├─ ⊖ Mass| [0.1] (0 ~ 1) | 
 | │ │ ├─ ⊖ Drag| [0] (0 ~ 10) | 
@@ -785,17 +785,17 @@ sidebar:
 | │ │ ├─ ☑ Feet| [ON] | 
 | │ │ └─ ☑ Player| [ON] | 
 | │ └─ ⚙️ <b>Simulation Settings</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Use Global| [ON] | Find the global settings under Pro / Cloth Simulation
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Enable Dragging| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Simulate| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > Simulation FPS| **Dynamic** | Dynamic, Fixed 30, Fixed 60, Fixed 90, Fixed 100, Fixed 120, Fixed 160, Fixed 175, Fixed 240,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Time Scale| [0.65] (0.1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Substeps| [4] (1 ~ 20) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Iterations| [1] (0 ~ 10) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ □ Reverse Even Substeps| [OFF] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Alternate Group Size| [0] (0 ~ 20) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Table Size| [6] (1 ~ 20) | 
-| │ <img src="/images/icon/ic_space.png"/>└─ □ Two Step Solving| [OFF] | 
+| │  ├─ ☑ Use Global| [ON] | Find the global settings under Pro / Cloth Simulation
+| │  ├─ ☑ Enable Dragging| [ON] | 
+| │  ├─ ☑ Simulate| [ON] | 
+| │  ├─ > Simulation FPS| **Dynamic** | Dynamic, Fixed 30, Fixed 60, Fixed 90, Fixed 100, Fixed 120, Fixed 160, Fixed 175, Fixed 240,  |
+| │  ├─ ⊖ Time Scale| [0.65] (0.1 ~ 1) | 
+| │  ├─ ⊖ Substeps| [4] (1 ~ 20) | 
+| │  ├─ ⊖ Iterations| [1] (0 ~ 10) | 
+| │  ├─ □ Reverse Even Substeps| [OFF] | 
+| │  ├─ ⊖ Alternate Group Size| [0] (0 ~ 20) | 
+| │  ├─ ⊖ Table Size| [6] (1 ~ 20) | 
+| │  └─ □ Two Step Solving| [OFF] | 
 | ├─ ⊖ Spring| [1.25] (0 ~ 5) | 
 | ├─ ⊖ Damp| [0.01] (0 ~ 0.1) | 
 | ├─ ⊖ Reduction Ratio| [0.25] (0 ~ 1) | Reducing stiffness at each level
@@ -844,17 +844,17 @@ sidebar:
 | │ │ ├─ ☑ Feet| [ON] | 
 | │ │ └─ ☑ Player| [ON] | 
 | │ └─ ⚙️ <b>Simulation Settings</b>| | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Use Global| [ON] | Find the global settings under Pro / Cloth Simulation
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Enable Dragging| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ☑ Simulate| [ON] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ > Simulation FPS| **Dynamic** | Dynamic, Fixed 30, Fixed 60, Fixed 90, Fixed 100, Fixed 120, Fixed 160, Fixed 175, Fixed 240,  |
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Time Scale| [0.65] (0.1 ~ 1) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Substeps| [4] (1 ~ 20) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Iterations| [1] (0 ~ 10) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ □ Reverse Even Substeps| [OFF] | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Alternate Group Size| [0] (0 ~ 20) | 
-| │ <img src="/images/icon/ic_space.png"/>├─ ⊖ Table Size| [6] (1 ~ 20) | 
-| │ <img src="/images/icon/ic_space.png"/>└─ □ Two Step Solving| [OFF] | 
+| │  ├─ ☑ Use Global| [ON] | Find the global settings under Pro / Cloth Simulation
+| │  ├─ ☑ Enable Dragging| [ON] | 
+| │  ├─ ☑ Simulate| [ON] | 
+| │  ├─ > Simulation FPS| **Dynamic** | Dynamic, Fixed 30, Fixed 60, Fixed 90, Fixed 100, Fixed 120, Fixed 160, Fixed 175, Fixed 240,  |
+| │  ├─ ⊖ Time Scale| [0.65] (0.1 ~ 1) | 
+| │  ├─ ⊖ Substeps| [4] (1 ~ 20) | 
+| │  ├─ ⊖ Iterations| [1] (0 ~ 10) | 
+| │  ├─ □ Reverse Even Substeps| [OFF] | 
+| │  ├─ ⊖ Alternate Group Size| [0] (0 ~ 20) | 
+| │  ├─ ⊖ Table Size| [6] (1 ~ 20) | 
+| │  └─ □ Two Step Solving| [OFF] | 
 | ├─ ⊖ Spring| [0.5] (0 ~ 5) | 
 | ├─ ⊖ Damp| [0.01] (0 ~ 0.1) | 
 | ├─ ⊖ Reduction Ratio| [0.25] (0 ~ 1) | Reducing stiffness at each level

@@ -85,43 +85,43 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ プライマリーグループ設定を使用| [ON] | 
 | └─ ⚙️ <b>パーティクルダイナミクス</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>ジョイント</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 深度| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 中心を含める| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ダンピング| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 可視化| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 慣性| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 摩擦| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>風</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>衝突する</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 頭| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 体| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 胸部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 臀部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 手| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 脚| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 足| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ プレイヤー| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
+|  ├─ <b>ジョイント</b>|| 
+|  ├─ ⊖ 深度| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 中心を含める| [ON] | 
+|  ├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
+|  ├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ ダンピング| [15] (0 ~ 40) | 
+|  ├─ □ 可視化| [OFF] | 
+|  ├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
+|  ├─ ⊖ 慣性| [2] (1 ~ 5) | 
+|  ├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
+|  ├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
+|  ├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 摩擦| [1] (0 ~ 2) | 
+|  ├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
+|  ├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
+|  ├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>風</b>| | 
+|  │ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>衝突する</b>| | 
+|  │ ├─ ☑ 頭| [ON] | 
+|  │ ├─ □ 体| [OFF] | 
+|  │ ├─ □ 胸部| [OFF] | 
+|  │ ├─ □ 臀部| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 手| [ON] | 
+|  │ ├─ □ 脚| [OFF] | 
+|  │ ├─ ☑ 足| [ON] | 
+|  │ └─ ☑ プレイヤー| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
 |  □ <b>(Group 3)</b>| | 
 | ├─ □ 有効にする| [OFF] | 
 | ├─ ボーンを選択|| ボーンを選択
@@ -132,43 +132,43 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ プライマリーグループ設定を使用| [ON] | 
 | └─ ⚙️ <b>パーティクルダイナミクス</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>ジョイント</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 深度| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 中心を含める| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ダンピング| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 可視化| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 慣性| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 摩擦| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>風</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>衝突する</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 頭| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 体| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 胸部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 臀部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 手| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 脚| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 足| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ プレイヤー| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
+|  ├─ <b>ジョイント</b>|| 
+|  ├─ ⊖ 深度| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 中心を含める| [ON] | 
+|  ├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
+|  ├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ ダンピング| [15] (0 ~ 40) | 
+|  ├─ □ 可視化| [OFF] | 
+|  ├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
+|  ├─ ⊖ 慣性| [2] (1 ~ 5) | 
+|  ├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
+|  ├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
+|  ├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 摩擦| [1] (0 ~ 2) | 
+|  ├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
+|  ├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
+|  ├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>風</b>| | 
+|  │ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>衝突する</b>| | 
+|  │ ├─ ☑ 頭| [ON] | 
+|  │ ├─ □ 体| [OFF] | 
+|  │ ├─ □ 胸部| [OFF] | 
+|  │ ├─ □ 臀部| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 手| [ON] | 
+|  │ ├─ □ 脚| [OFF] | 
+|  │ ├─ ☑ 足| [ON] | 
+|  │ └─ ☑ プレイヤー| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
 |  □ <b>(Group 4)</b>| | 
 | ├─ □ 有効にする| [OFF] | 
 | ├─ ボーンを選択|| ボーンを選択
@@ -179,43 +179,43 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ プライマリーグループ設定を使用| [ON] | 
 | └─ ⚙️ <b>パーティクルダイナミクス</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>ジョイント</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 深度| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 中心を含める| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ダンピング| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 可視化| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 慣性| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 摩擦| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>風</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>衝突する</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 頭| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 体| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 胸部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 臀部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 手| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 脚| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 足| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ プレイヤー| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
+|  ├─ <b>ジョイント</b>|| 
+|  ├─ ⊖ 深度| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 中心を含める| [ON] | 
+|  ├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
+|  ├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ ダンピング| [15] (0 ~ 40) | 
+|  ├─ □ 可視化| [OFF] | 
+|  ├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
+|  ├─ ⊖ 慣性| [2] (1 ~ 5) | 
+|  ├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
+|  ├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
+|  ├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 摩擦| [1] (0 ~ 2) | 
+|  ├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
+|  ├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
+|  ├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>風</b>| | 
+|  │ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>衝突する</b>| | 
+|  │ ├─ ☑ 頭| [ON] | 
+|  │ ├─ □ 体| [OFF] | 
+|  │ ├─ □ 胸部| [OFF] | 
+|  │ ├─ □ 臀部| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 手| [ON] | 
+|  │ ├─ □ 脚| [OFF] | 
+|  │ ├─ ☑ 足| [ON] | 
+|  │ └─ ☑ プレイヤー| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
 |  □ <b>(Group 5)</b>| | 
 | ├─ □ 有効にする| [OFF] | 
 | ├─ ボーンを選択|| ボーンを選択
@@ -226,43 +226,43 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ プライマリーグループ設定を使用| [ON] | 
 | └─ ⚙️ <b>パーティクルダイナミクス</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>ジョイント</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 深度| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 中心を含める| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ダンピング| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 可視化| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 慣性| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 摩擦| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>風</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>衝突する</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 頭| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 体| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 胸部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 臀部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 手| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 脚| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 足| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ プレイヤー| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
+|  ├─ <b>ジョイント</b>|| 
+|  ├─ ⊖ 深度| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 中心を含める| [ON] | 
+|  ├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
+|  ├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ ダンピング| [15] (0 ~ 40) | 
+|  ├─ □ 可視化| [OFF] | 
+|  ├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
+|  ├─ ⊖ 慣性| [2] (1 ~ 5) | 
+|  ├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
+|  ├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
+|  ├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 摩擦| [1] (0 ~ 2) | 
+|  ├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
+|  ├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
+|  ├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>風</b>| | 
+|  │ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>衝突する</b>| | 
+|  │ ├─ ☑ 頭| [ON] | 
+|  │ ├─ □ 体| [OFF] | 
+|  │ ├─ □ 胸部| [OFF] | 
+|  │ ├─ □ 臀部| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 手| [ON] | 
+|  │ ├─ □ 脚| [OFF] | 
+|  │ ├─ ☑ 足| [ON] | 
+|  │ └─ ☑ プレイヤー| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
 |  □ <b>(Group 6)</b>| | 
 | ├─ □ 有効にする| [OFF] | 
 | ├─ ボーンを選択|| ボーンを選択
@@ -273,43 +273,43 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ プライマリーグループ設定を使用| [ON] | 
 | └─ ⚙️ <b>パーティクルダイナミクス</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>ジョイント</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 深度| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 中心を含める| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ダンピング| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 可視化| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 慣性| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 摩擦| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>風</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>衝突する</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 頭| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 体| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 胸部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 臀部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 手| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 脚| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 足| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ プレイヤー| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
+|  ├─ <b>ジョイント</b>|| 
+|  ├─ ⊖ 深度| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 中心を含める| [ON] | 
+|  ├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
+|  ├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ ダンピング| [15] (0 ~ 40) | 
+|  ├─ □ 可視化| [OFF] | 
+|  ├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
+|  ├─ ⊖ 慣性| [2] (1 ~ 5) | 
+|  ├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
+|  ├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
+|  ├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 摩擦| [1] (0 ~ 2) | 
+|  ├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
+|  ├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
+|  ├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>風</b>| | 
+|  │ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>衝突する</b>| | 
+|  │ ├─ ☑ 頭| [ON] | 
+|  │ ├─ □ 体| [OFF] | 
+|  │ ├─ □ 胸部| [OFF] | 
+|  │ ├─ □ 臀部| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 手| [ON] | 
+|  │ ├─ □ 脚| [OFF] | 
+|  │ ├─ ☑ 足| [ON] | 
+|  │ └─ ☑ プレイヤー| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
 |  □ <b>(Group 7)</b>| | 
 | ├─ □ 有効にする| [OFF] | 
 | ├─ ボーンを選択|| ボーンを選択
@@ -320,43 +320,43 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ プライマリーグループ設定を使用| [ON] | 
 | └─ ⚙️ <b>パーティクルダイナミクス</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>ジョイント</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 深度| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 中心を含める| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ダンピング| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 可視化| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 慣性| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 摩擦| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>風</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>衝突する</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 頭| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 体| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 胸部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 臀部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 手| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 脚| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 足| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ プレイヤー| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
+|  ├─ <b>ジョイント</b>|| 
+|  ├─ ⊖ 深度| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 中心を含める| [ON] | 
+|  ├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
+|  ├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ ダンピング| [15] (0 ~ 40) | 
+|  ├─ □ 可視化| [OFF] | 
+|  ├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
+|  ├─ ⊖ 慣性| [2] (1 ~ 5) | 
+|  ├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
+|  ├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
+|  ├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 摩擦| [1] (0 ~ 2) | 
+|  ├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
+|  ├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
+|  ├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>風</b>| | 
+|  │ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>衝突する</b>| | 
+|  │ ├─ ☑ 頭| [ON] | 
+|  │ ├─ □ 体| [OFF] | 
+|  │ ├─ □ 胸部| [OFF] | 
+|  │ ├─ □ 臀部| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 手| [ON] | 
+|  │ ├─ □ 脚| [OFF] | 
+|  │ ├─ ☑ 足| [ON] | 
+|  │ └─ ☑ プレイヤー| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
 |  □ <b>(Group 8)</b>| | 
 | ├─ □ 有効にする| [OFF] | 
 | ├─ ボーンを選択|| ボーンを選択
@@ -367,41 +367,41 @@ sidebar:
 | │ └─ ⊖ (Z)| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ プライマリーグループ設定を使用| [ON] | 
 | └─ ⚙️ <b>パーティクルダイナミクス</b>| | 
-| <img src="/images/icon/ic_space.png"/>├─ <b>ジョイント</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 深度| [0.4] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 中心を含める| [ON] | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ダンピング| [15] (0 ~ 40) | 
-| <img src="/images/icon/ic_space.png"/>├─ □ 可視化| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 慣性| [2] (1 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 摩擦| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
-| <img src="/images/icon/ic_space.png"/>├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>風</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
-| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>衝突する</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 頭| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 体| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 胸部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 臀部| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ (Arms)| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 手| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ □ 脚| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─ ☑ 足| [ON] | 
-| <img src="/images/icon/ic_space.png"/>│ └─ ☑ プレイヤー| [ON] | 
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
+|  ├─ <b>ジョイント</b>|| 
+|  ├─ ⊖ 深度| [0.4] (0 ~ 1) | 
+|  ├─ ☑ 中心を含める| [ON] | 
+|  ├─ ☑ 体積制約| [0.85] (0.5 ~ 1) | 
+|  ├─ ⊖ 内部制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ⊖ 表面制約| [0.75] (0.5 ~ 1) | 
+|  ├─ ⊖ 回転制約| [0.65] (0.5 ~ 1) | 
+|  ├─ ☑ エッジロック| [0.85] (0.5 ~ 1) | エッジ上の粒子をロックする。
+|  ├─ ⊖ 中心ロック| [1] (0.5 ~ 1) | 
+|  ├─ ⊖ ダンピング| [15] (0 ~ 40) | 
+|  ├─ □ 可視化| [OFF] | 
+|  ├─ ⊖ 最大角速度| [2] (0 ~ 4) | 
+|  ├─ ⊖ 慣性| [2] (1 ~ 5) | 
+|  ├─ ⊖ ソフト化| [0] (0 ~ 1) | パーティクル制約をソフト化する。
+|  ├─ ⊖ 粒子半径| [5] (1 ~ 20) | 粒子のサイズ（ミリメートル）
+|  ├─ ⊖ 重力| [9.8] (-9.8 ~ 9.8) | 
+|  ├─ ⊖ 摩擦| [1] (0 ~ 2) | 
+|  ├─ ⊖ 地面摩擦| [1] (-2 ~ 2) | 
+|  ├─ ⊖ 空気の抗力| [0] (0 ~ 2) | 空気抵抗
+|  ├─ ⊖ 水中の抗力| [1] (0 ~ 2) | 水中抵抗
+|  ├─ ⊖ 浮力| [-0.1] (-1 ~ 1) | 
+|  ├─ ⚙️ <b>風</b>| | 
+|  │ ├─ ⊖ 風の影響| [0] (0 ~ 1) | 
+|  │ ├─ ⊖ 乱流スケール| [0] (-2 ~ 2) | 
+|  │ ├─ ⊖ 乱流強度| [1] (0 ~ 2) | 
+|  │ └─ ⊖ 乱流時間スケール| [0] (-4 ~ 4) | 
+|  ├─ ⚙️ <b>衝突する</b>| | 
+|  │ ├─ ☑ 頭| [ON] | 
+|  │ ├─ □ 体| [OFF] | 
+|  │ ├─ □ 胸部| [OFF] | 
+|  │ ├─ □ 臀部| [OFF] | 
+|  │ ├─ ☑ (Arms)| [ON] | 
+|  │ ├─ ☑ 手| [ON] | 
+|  │ ├─ □ 脚| [OFF] | 
+|  │ ├─ ☑ 足| [ON] | 
+|  │ └─ ☑ プレイヤー| [ON] | 
+|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **胸部** | 胸部, 臀部, 脚, (tina), (预设1), (预设2),  |
 | <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **デフォルト（リセット）** | デフォルト（リセット）,  |
