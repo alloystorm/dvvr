@@ -19,7 +19,7 @@ sidebar:
 | <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd|| 
 | <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd|| 
 |  ⊖ Extent| [0.5] (0 ~ 1) | 
-|  ⚙️ <b>Speed</b>| | 
+|  ⚙️ **Speed**| | 
 | ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | ├─ ⊖ Moves Per Group| [8] (4 ~ 32) | 
 | ├─ ⊖ Phase| [0] (0 ~ 1) | 

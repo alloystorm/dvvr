@@ -14,13 +14,13 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|  <b>Prime Motion</b>|| 
+|  **Prime Motion**|| 
 |  > Playback Mode| **List Once** | List Once, Single, Loop List, Loop Single, Shuffle,  |
 |  □ Auto-Load Actors| [OFF] | Automatically load actors to match the number of motion tracks and assign different motion for each actor
 |  □ Auto-Assign Camera| [OFF] | Automatically assign camera motion if available
-|  <b>Remix Motion</b>|| 
+|  **Remix Motion**|| 
 |  > Remix Mode| **Synchronized** | Continue Next, Synchronized, Loop, Shuffle Next,  |
-|  <b>Time</b>|| 
+|  **Time**|| 
 |  ☑ Timeline Fine Adjust| [ON] | Long press on the timeline to fine adjust playback time.
 |  ⊖ Speed| [1] (0.5 ~ 2) | Change speed of audio. This also affects motion and physics speed
 |  ☑ Pitch Shift| [ON] | Adjust audio to match the original pitch after changing speed
@@ -32,7 +32,7 @@ sidebar:
 |  ⊖ Beats Per Phrase| [8] (4 ~ 64) | 
 |  ⊖ Phrase Begin| [0] (0 ~ 32) | 
 |  Tap Beats|| Set BPM by tapping while the music is playing
-|  <b>Amplitude Detection</b>|| 
+|  **Amplitude Detection**|| 
 |  ⊖ Smooth| [0.25] (0 ~ 1) | Smooth output of loudness value
 |  ⊖ Fade In Out| [0] (0 ~ 0.2) | 
 |  ⊖ Band Selection| [0] (0 ~ 1) | Select the range of bands to calculate loudness level

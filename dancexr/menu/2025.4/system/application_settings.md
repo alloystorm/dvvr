@@ -21,47 +21,47 @@ sidebar:
 |  □ Recover Tags From Save| [OFF] | Attempts to recover tags from saved settings in case your content cache is rebuilt or broken
 |  ☑ Flip DDS Compressed| [ON] | Flip compressed DDS texture
 |  □ Flip DDS Uncompressed| [OFF] | Flip uncomrpessed DDS texture
-| <img src="/images/icon/ic_hand.png" alt="hand icon"/> <b>VR Hands</b>| | 
+| <img src="/images/icon/ic_hand.png" alt="hand icon"/> **VR Hands**| | 
 | ├─ ☑ Hand Visible| [ON] | 
 | ├─ □ Cast Shadow| [OFF] | 
 | ├─ ☑ Time And FPS| [ON] | 
-| ├─ ⚙️ <b>Hand Orientation</b>| | 
-| │ ├─ <b>Offset</b>|| 
+| ├─ ⚙️ **Hand Orientation**| | 
+| │ ├─ **Offset**|| 
 | │ ├─ ⊖ X| [0] (-0.1 ~ 0.1) | 
 | │ ├─ ⊖ Y| [0] (-0.1 ~ 0.1) | 
 | │ ├─ ⊖ Z| [0] (-0.1 ~ 0.1) | 
 | │ ├─ ⊖ Rotation| [45] (-90 ~ 90) | 
 | │ └─ Update Pointer|| 
 | ├─ > Left Hand Pose| **Auto** | Auto, Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
-| ├─ □ <b>Left Hand Accessory</b>| | 
+| ├─ □ **Left Hand Accessory**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ > Model| **[Pole]** | [Pole],  |
-| │ ├─ ⚙️ <b>Anchor Offset</b>| | Set the anchor position for the attachment to attach to
-| │ │ ├─ <b>Position</b>|| 
+| │ ├─ ⚙️ **Anchor Offset**| | Set the anchor position for the attachment to attach to
+| │ │ ├─ **Position**|| 
 | │ │ ├─ ⊖ X| [0] (-1 ~ 1) | 
 | │ │ ├─ ⊖ Y| [0] (-1 ~ 1) | 
 | │ │ ├─ ⊖ Z| [0] (-1 ~ 1) | 
-| │ │ ├─ <b>Rotation</b>|| 
+| │ │ ├─ **Rotation**|| 
 | │ │ ├─ ⊖ X| [0] (-90 ~ 90) | 
 | │ │ ├─ ⊖ Y| [0] (-90 ~ 90) | 
 | │ │ └─ ⊖ Z| [0] (-90 ~ 90) | 
-| │ ├─ <b>Size & Alignment</b>|| 
+| │ ├─ **Size & Alignment**|| 
 | │ ├─ ⊖ Object Radius| [0.02] (0.01 ~ 0.05) | 
 | │ ├─ ⊖ Object Length| [0.2] (0 ~ 5) | 
 | │ ├─ ⊖ Scale| [0] (-5 ~ 5) | 
 | │ ├─ ☑ Orientation| Y Up | Y Up, Y Down, X Up, X Down, Z Up, Z Down, 
-| │ ├─ <b>Offset</b>|| 
+| │ ├─ **Offset**|| 
 | │ ├─ ⊖ X| [0] (-2 ~ 2) | 
 | │ ├─ ⊖ Y| [0] (-2 ~ 2) | 
 | │ ├─ ⊖ Z| [0] (-2 ~ 2) | 
-| │ ├─ <b>Rotation</b>|| 
+| │ ├─ **Rotation**|| 
 | │ ├─ ⊖ X| [0] (-180 ~ 180) | 
 | │ ├─ ⊖ Y| [0] (-180 ~ 180) | 
 | │ ├─ ⊖ Z| [0] (-180 ~ 180) | 
 | │ ├─ □ Guitar Mode| [OFF] | 
-| │ ├─ □ <b>Motion</b>| | Apply up / down motion to the attachment model
+| │ ├─ □ **Motion**| | Apply up / down motion to the attachment model
 | │ │ ├─ □ Enable| [OFF] | 
-| │ │ ├─ ⚙️ <b>Speed</b>| | 
+| │ │ ├─ ⚙️ **Speed**| | 
 | │ │ │ ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ │ ├─ ⊖ Moves Per Group| [8] (4 ~ 32) | 
 | │ │ │ ├─ ⊖ Phase| [0] (0 ~ 1) | 
@@ -73,7 +73,7 @@ sidebar:
 | │ │ ├─ ⊖ Distance| [0.1] (0 ~ 0.3) | 
 | │ │ └─ ⊖ Angle| [0] (-60 ~ 60) | 
 | │ ├─ > Animation| **None** | None, <br/>Select loaded motion to use for the attachment model |
-| │ ├─<img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Surface</b>| | 
+| │ ├─<img src="/images/icon/ic_texture.png" alt="texture icon"/> **Surface**| | 
 | │ │ ├─ ⊖ Gloss| [0.9] (0 ~ 1) | 
 | │ │ ├─ ⊖ Metallic| [1] (0 ~ 1) | 
 | │ │ ├─ ⊖ Bump| [0.2] (0 ~ 1) | 
@@ -81,7 +81,7 @@ sidebar:
 | │ │ ├─ ⊖ Ambient| [1] (0 ~ 1) | 
 | │ │ ├─ ⊖ Alpha| [1] (0 ~ 1) | 
 | │ │ ├─ ⊖ Clip| [0] (0 ~ 1) | 
-| │ │ ├─ ⚙️ <b>Color</b>| | 
+| │ │ ├─ ⚙️ **Color**| | 
 | │ │ │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ │ │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ │ │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -92,7 +92,7 @@ sidebar:
 | │ │ │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ │ │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
 | │ │ │ └─ ≡ Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| │ │ ├─ □ <b>Toon Shader</b>| | 
+| │ │ ├─ □ **Toon Shader**| | 
 | │ │ │ ├─ □ Enable| [OFF] | 
 | │ │ │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
 | │ │ │ ├─ ⊖ Outline| [0.5] (0 ~ 1) | 
@@ -105,7 +105,7 @@ sidebar:
 | │ │ │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ │ │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
 | │ │ │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| │ │ ├─ ⚙️ <b>Special Shader</b>| | 
+| │ │ ├─ ⚙️ **Special Shader**| | 
 | │ │ │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ │ │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
 | │ │ │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
@@ -116,35 +116,35 @@ sidebar:
 | │ ├─ ☑ Grab Pose| [ON] | Automatically change hand pose to grab when they are on the attachment
 | │ └─ ⊖ Hand Motion| [0] (-1 ~ 1) | Move hands relative to the attachment motion
 | ├─ > Right Hand Pose| **Auto** | Auto, Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
-| └─ □ <b>Right Hand Accessory</b>| | 
+| └─ □ **Right Hand Accessory**| | 
 |  ├─ □ Enable| [OFF] | 
 |  ├─ > Model| **[Pole]** | [Pole],  |
-|  ├─ ⚙️ <b>Anchor Offset</b>| | Set the anchor position for the attachment to attach to
-|  │ ├─ <b>Position</b>|| 
+|  ├─ ⚙️ **Anchor Offset**| | Set the anchor position for the attachment to attach to
+|  │ ├─ **Position**|| 
 |  │ ├─ ⊖ X| [0] (-1 ~ 1) | 
 |  │ ├─ ⊖ Y| [0] (-1 ~ 1) | 
 |  │ ├─ ⊖ Z| [0] (-1 ~ 1) | 
-|  │ ├─ <b>Rotation</b>|| 
+|  │ ├─ **Rotation**|| 
 |  │ ├─ ⊖ X| [0] (-90 ~ 90) | 
 |  │ ├─ ⊖ Y| [0] (-90 ~ 90) | 
 |  │ └─ ⊖ Z| [0] (-90 ~ 90) | 
-|  ├─ <b>Size & Alignment</b>|| 
+|  ├─ **Size & Alignment**|| 
 |  ├─ ⊖ Object Radius| [0.02] (0.01 ~ 0.05) | 
 |  ├─ ⊖ Object Length| [0.2] (0 ~ 5) | 
 |  ├─ ⊖ Scale| [0] (-5 ~ 5) | 
 |  ├─ ☑ Orientation| Y Up | Y Up, Y Down, X Up, X Down, Z Up, Z Down, 
-|  ├─ <b>Offset</b>|| 
+|  ├─ **Offset**|| 
 |  ├─ ⊖ X| [0] (-2 ~ 2) | 
 |  ├─ ⊖ Y| [0] (-2 ~ 2) | 
 |  ├─ ⊖ Z| [0] (-2 ~ 2) | 
-|  ├─ <b>Rotation</b>|| 
+|  ├─ **Rotation**|| 
 |  ├─ ⊖ X| [0] (-180 ~ 180) | 
 |  ├─ ⊖ Y| [0] (-180 ~ 180) | 
 |  ├─ ⊖ Z| [0] (-180 ~ 180) | 
 |  ├─ □ Guitar Mode| [OFF] | 
-|  ├─ □ <b>Motion</b>| | Apply up / down motion to the attachment model
+|  ├─ □ **Motion**| | Apply up / down motion to the attachment model
 |  │ ├─ □ Enable| [OFF] | 
-|  │ ├─ ⚙️ <b>Speed</b>| | 
+|  │ ├─ ⚙️ **Speed**| | 
 |  │ │ ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 |  │ │ ├─ ⊖ Moves Per Group| [8] (4 ~ 32) | 
 |  │ │ ├─ ⊖ Phase| [0] (0 ~ 1) | 
@@ -156,7 +156,7 @@ sidebar:
 |  │ ├─ ⊖ Distance| [0.1] (0 ~ 0.3) | 
 |  │ └─ ⊖ Angle| [0] (-60 ~ 60) | 
 |  ├─ > Animation| **None** | None, <br/>Select loaded motion to use for the attachment model |
-|  ├─<img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Surface</b>| | 
+|  ├─<img src="/images/icon/ic_texture.png" alt="texture icon"/> **Surface**| | 
 |  │ ├─ ⊖ Gloss| [0.9] (0 ~ 1) | 
 |  │ ├─ ⊖ Metallic| [1] (0 ~ 1) | 
 |  │ ├─ ⊖ Bump| [0.2] (0 ~ 1) | 
@@ -164,7 +164,7 @@ sidebar:
 |  │ ├─ ⊖ Ambient| [1] (0 ~ 1) | 
 |  │ ├─ ⊖ Alpha| [1] (0 ~ 1) | 
 |  │ ├─ ⊖ Clip| [0] (0 ~ 1) | 
-|  │ ├─ ⚙️ <b>Color</b>| | 
+|  │ ├─ ⚙️ **Color**| | 
 |  │ │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 |  │ │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 |  │ │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -175,7 +175,7 @@ sidebar:
 |  │ │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 |  │ │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
 |  │ │ └─ ≡ Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-|  │ ├─ □ <b>Toon Shader</b>| | 
+|  │ ├─ □ **Toon Shader**| | 
 |  │ │ ├─ □ Enable| [OFF] | 
 |  │ │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
 |  │ │ ├─ ⊖ Outline| [0.5] (0 ~ 1) | 
@@ -188,7 +188,7 @@ sidebar:
 |  │ │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 |  │ │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
 |  │ │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-|  │ ├─ ⚙️ <b>Special Shader</b>| | 
+|  │ ├─ ⚙️ **Special Shader**| | 
 |  │ │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 |  │ │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
 |  │ │ └─ ⊖ Thickness| [1] (0 ~ 1) | 

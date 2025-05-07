@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | <img src="/images/icon/ic_radio_on.png" alt="radio on icon"/> [Freefly Cam]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[Freefly Cam]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[Freefly Cam]**| | 
 |  ├─ > Target Select| **Auto** | Auto, Selected, Group, Rotate, Rotate + Group, Stage Center,  |
 |  ├─ > Tracking Mode| **Center** | Center, Head, Chest,  |
 |  ├─ ⊖ Target Smoothing| [0.5] (0 ~ 2) | 
@@ -32,7 +32,7 @@ sidebar:
 |  ├─ □ Use Orbit Move| [OFF] | Enable or disable orbit movement, allowing the camera to rotate around a central point.
 |  └─ ≡ Presets| **Freefly** | Freefly, Lock On Actor, Lock + Zoom Fullbody, Lock + Zoom Upper Body,  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [Orbit Cam]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[Orbit Cam]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[Orbit Cam]**| | 
 |  ├─ > Target Select| **Auto** | Auto, Selected, Group, Rotate, Rotate + Group, Stage Center,  |
 |  ├─ > Tracking Mode| **Center** | Center, Head, Chest,  |
 |  ├─ ⊖ Target Smoothing| [0.5] (0 ~ 2) | 
@@ -57,7 +57,7 @@ sidebar:
 |  ├─ ⊖ Speed| [10] (0 ~ 90) | 
 |  └─ ≡ Presets| **Default (Reset)** | Default (Reset), Preset 1,  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [Auto Cam]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[Auto Cam]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[Auto Cam]**| | 
 |  ├─ > Target Select| **Auto** | Auto, Selected, Group, Rotate, Rotate + Group, Stage Center,  |
 |  ├─ > Tracking Mode| **Center** | Center, Head, Chest,  |
 |  ├─ ⊖ Target Smoothing| [0.5] (0 ~ 2) | 
@@ -71,22 +71,22 @@ sidebar:
 |  ├─ ⊖ Fade To Black| [0] (0 ~ 0.25) | Duration of the fade-to-black effect during transitions.
 |  ├─ ⊖ F2B Probability| [0.5] (0 ~ 1) | Probability of triggering the fade-to-black effect.
 |  ├─ □ Audio Sensitivity| [1] (0 ~ 4) | Sensitivity of the camera motion to audio levels.
-|  ├─ <b>Target Selection</b>|| 
+|  ├─ **Target Selection**|| 
 |  ├─ ⊖ Head| [1] (0 ~ 1) | Probability of targeting the actor's head.
 |  ├─ ⊖ Chest| [1] (0 ~ 1) | Probability of targeting the actor's chest.
 |  ├─ ⊖ Center| [1] (0 ~ 1) | Probability of targeting the actor's center.
 |  ├─ ⊖ Legs| [0.5] (0 ~ 1) | Probability of targeting the actor's legs.
 |  ├─ ⊖ Feet| [0] (0 ~ 1) | Probability of targeting the actor's feet.
-|  ├─ <b>Distance Selection</b>|| 
+|  ├─ **Distance Selection**|| 
 |  ├─ ⊖ Close Up| [1] (0 ~ 1) | Probability of a close-up camera distance.
 |  ├─ ⊖ Zoom In| [0.25] (0 ~ 1) | Probability of zooming in.
 |  ├─ ⊖ Zoom Out| [0.25] (0 ~ 1) | Probability of zooming out.
 |  ├─ ⊖ Middle| [0.25] (0 ~ 1) | Probability of a middle-range camera distance.
 |  ├─ ⊖ Far| [0.25] (0 ~ 1) | Probability of a far camera distance.
-|  ├─ <b>Path Selection</b>|| 
+|  ├─ **Path Selection**|| 
 |  ├─ ⊖ High Angle| [20] (0 ~ 30) | Maximum upward angle for the camera.
 |  ├─ ⊖ Low Angle| [-20] (-30 ~ 0) | Maximum downward angle for the camera.
-|  ├─ <b>Orientation</b>|| 
+|  ├─ **Orientation**|| 
 |  ├─ ⊖ Front Center| [1] (0 ~ 1) | Probability of orienting the camera to the front center of the actor.
 |  ├─ ⊖ Front 45| [0] (0 ~ 1) | Probability of orienting the camera to a 45-degree angle in front of the actor.
 |  ├─ ⊖ Side 90| [0.25] (0 ~ 1) | Probability of orienting the camera to the actor's side at a 90-degree angle.
@@ -94,7 +94,7 @@ sidebar:
 |  ├─ ⊖ Back 180| [0.25] (0 ~ 1) | Probability of orienting the camera directly behind the actor.
 |  └─ ≡ Presets| **Default (Reset)** | Default (Reset), Preset 1,  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [Long Take]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[Long Take]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[Long Take]**| | 
 |  ├─ > Target Select| **Auto** | Auto, Selected, Group, Rotate, Rotate + Group, Stage Center,  |
 |  ├─ > Tracking Mode| **Center** | Center, Head, Chest,  |
 |  ├─ ⊖ Target Smoothing| [0.5] (0 ~ 2) | 
@@ -110,7 +110,7 @@ sidebar:
 |  ├─ □ Raise Focus When Close| [OFF] | Move focus position up when distance gets smaller
 |  └─ ≡ Presets| **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3,  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [First Person]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[First Person]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[First Person]**| | 
 |  ├─ > Select Actor|  |  |
 |  ├─ ⊖ Field of View| [45] (30 ~ 100) | 
 |  ├─ ⊖ Near Clip Dist| [0.15] (0 ~ 0.3) | 
@@ -122,7 +122,7 @@ sidebar:
 |  ├─ □ Disable Auto Return| [OFF] | 
 |  └─ Re-Center|| 
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [Fixed Camera]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[Fixed Camera]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[Fixed Camera]**| | 
 |  ├─ > Target Select| **Auto** | Auto, Selected, Group, Rotate, Rotate + Group, Stage Center,  |
 |  ├─ > Tracking Mode| **Center** | Center, Head, Chest,  |
 |  ├─ ⊖ Target Smoothing| [0.5] (0 ~ 2) | 
@@ -139,10 +139,10 @@ sidebar:
 |  ├─ ⊖ Size| [1] (0 ~ 2) | 
 |  ├─ ⊖ Shift| [0] (-1 ~ 1) | 
 |  ├─ ⊖ Target Center| [0] (-1 ~ 1) | 
-|  ├─ <b>Offset</b>|| 
+|  ├─ **Offset**|| 
 |  ├─ ⊖ X| [0] (-2 ~ 2) | 
 |  ├─ ⊖ Y| [0] (-2 ~ 2) | 
 |  ├─ ⊖ Z| [0] (-2 ~ 2) | 
 |  └─ ≡ Presets| **Far** | Near, Far,  |
-|  <b>Config</b>|| 
+|  **Config**|| 
 | [Config Camera](config_camera) |

@@ -19,5 +19,5 @@ sidebar:
 | <img src="/images/icon/ic_delete.png" alt="delete icon"/> Remove Duplicates|| 
 | <img src="/images/icon/ic_replace.png" alt="replace icon"/> Switch Library|| 
 | <img src="/images/icon/ic_folder_open.png" alt="folder open icon"/> Show In Explorer|| 
-|  <b>Google Drive</b>|| 
+|  **Google Drive**|| 
 | <img src="/images/icon/ic_linked.png" alt="linked icon"/> Link Google Drive|| 

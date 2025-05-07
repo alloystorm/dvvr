@@ -16,7 +16,7 @@ sidebar:
 | :--- | --- | :--- |
 |  □ Combine As One| [OFF] | 
 |  ☑ Gradual Enable| [2] (0 ~ 5) | 
-|  ⚙️ <b>Particle Properties</b>| | 
+|  ⚙️ **Particle Properties**| | 
 | ├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
 | ├─ ⊖ Stickiness| [0] (0 ~ 1) | 
 | ├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
@@ -25,12 +25,12 @@ sidebar:
 | ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
 | ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
 | ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-| ├─ ⚙️ <b>Wind</b>| | 
+| ├─ ⚙️ **Wind**| | 
 | │ ├─ ⊖ Wind Influence| [0.25] (0 ~ 1) | 
 | │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
 | │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-| ├─ ⚙️ <b>Collide With</b>| | 
+| ├─ ⚙️ **Collide With**| | 
 | │ ├─ ☑ Head| [ON] | 
 | │ ├─ ☑ Body| [ON] | 
 | │ ├─ ☑ Boobs| [ON] | 
@@ -52,7 +52,7 @@ sidebar:
 | ├─ □ Enable Tearing| [OFF] | 
 | ├─ ⊖ Tear Threshold| [2] (1 ~ 10) | 
 | └─ ⊖ Limit Tearing Speed| [0] (0 ~ 25) | Cool down interval after tearing, in frames
-|  ⚙️ <b>Simulation Settings</b>| | 
+|  ⚙️ **Simulation Settings**| | 
 | ├─ ☑ Use Global| [ON] | Find the global settings under Pro / Cloth Simulation
 | ├─ ☑ Enable Dragging| [ON] | 
 | ├─ ⊖ Reset Scale| [1] (1 ~ 5) | Transit from a larger scale for the cloth during reset to help with fitting.

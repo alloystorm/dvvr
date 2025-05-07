@@ -31,7 +31,7 @@ sidebar:
 |  ⊖ Heel Top| [0] (-0.1 ~ 0.1) | Adjusts the height of the virtual shoe's heel top.
 |  > Mode| **Wireframe** | Wireframe, Opaque, Chrome, Solid Glass, Thin Glass, <br/>Selects the visualization mode for virtual shoes. |
 |  ⊖ Smoothness| [1] (0 ~ 1) | Controls the smoothness of the virtual shoe material.
-|  ⚙️ <b>Color</b>| | Sets the color of the virtual shoe material.
+|  ⚙️ **Color**| | Sets the color of the virtual shoe material.
 | ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -39,7 +39,7 @@ sidebar:
 | ├─ ⊖ Red| [1] (0 ~ 1) | 
 | ├─ ⊖ Green| [1] (0 ~ 1) | 
 | └─ ⊖ Blue| [1] (0 ~ 1) | 
-|  <b>Heels</b>|| 
+|  **Heels**|| 
 |  ⊖ High Heels| [0] (0 ~ 1) | Adjusts the height of the high heel pose.
 |  □ Limit Angle| [OFF] | Limits the maximum angle for tiptoe rotation.
 |  ⊖ High Heel Toe Bend| [0.35] (0 ~ 1) | Controls the amount of toe bending when tiptoeing.
@@ -47,7 +47,7 @@ sidebar:
 |  □ Reduce Sliding| [OFF] | 
 |  ⊖ Dist Threshold| [0] (0 ~ 0.2) | Defines the distance threshold for applying friction to reduce sliding.
 |  ⊖ Damping| [0.75] (0 ~ 1) | Controls the damping factor for friction applied to reduce sliding.
-|  ⚙️ <b>Foot Angle</b>| | 
+|  ⚙️ **Foot Angle**| | 
 | ├─ ⊖ Rotate X| [0] (-90 ~ 90) | Adjusts the rotation of the foot around the X-axis.
 | ├─ ⊖ Rotate Y| [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Y-axis.
 | └─ ⊖ Rotate Z| [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Z-axis.

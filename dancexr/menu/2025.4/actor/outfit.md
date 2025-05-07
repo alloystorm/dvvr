@@ -18,14 +18,14 @@ sidebar:
 | :--- | --- | :--- |
 |  □ Enable| [OFF] | 
 | ☑ Mode| Color Paint | Color Paint, Outfit, Outfit Paint, 
-| <img src="/images/icon/ic_palette.png" alt="palette icon"/> <b>Body Paint</b>| | 
+| <img src="/images/icon/ic_palette.png" alt="palette icon"/> **Body Paint**| | 
 | ├─ ☑ Paint Side| Both | Both, Front, Back, 
 | ├─ > Texture| **[None]** | [None], [Tattoo],  |
 | ├─ ⊖ Brush Size| [0.2] (0 ~ 1) | 
 | ├─ ⊖ Brush Rotation| [0] (-180 ~ 180) | 
 | ├─ ☑ Brush Type| Base | Base, Pattern, Edge, Erase, 
 | ├─ □ Erase| [OFF] | 
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -39,7 +39,7 @@ sidebar:
 | ├─ Clear Canvas|| 
 | ├─ Save Drawing|| 
 | └─ > Load Drawing| **[None]** | [None],  |
-| <img src="/images/icon/ic_hex.png" alt="hex icon"/> <b>Shape & Pattern</b>| | 
+| <img src="/images/icon/ic_hex.png" alt="hex icon"/> **Shape & Pattern**| | 
 | ├─ ⊖ Top Height1| [3] (0 ~ 3) | Height of the first line at center
 | ├─ ⊖ Top Angle1| [0] (-180 ~ 180) | Angle of the first line
 | ├─ ⊖ Top Height2| [3] (0 ~ 3) | Height of the second line at center
@@ -60,7 +60,7 @@ sidebar:
 | ├─ ⊖ Inside Bump| [0.5] (0 ~ 1) | 
 | ├─ ⊖ Inside Distance| [0.005] (0 ~ 0.1) | 
 | └─ ≡ Presets| **Fullbody** | Fullbody, V Shape, Stockings, Fishnet Fullbody, Fishnet V Shape, Fishnet Stockings, Maze 1, Maze 2, Curve 1, Curve 2,  |
-|  □ <b>Hexagon Map</b>| | 
+|  □ **Hexagon Map**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ ⊖ Density| [4] (0 ~ 8) | 
 | ├─ ⊖ Size| [1] (0 ~ 1) | 
@@ -71,7 +71,7 @@ sidebar:
 | ├─ ☑ UV Projection| [ON] | 
 | ├─ ⊖ Projection Radius| [0.2] (0 ~ 1) | 
 | └─ ⊖ Rotation| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Surface Base</b>| | 
+| <img src="/images/icon/ic_texture.png" alt="texture icon"/> **Surface Base**| | 
 | ├─ ⊖ Gloss| [0.5] (0 ~ 1) | 
 | ├─ ⊖ Metallic| [0] (0 ~ 1) | 
 | ├─ ⊖ Bump| [0.2] (0 ~ 1) | 
@@ -79,7 +79,7 @@ sidebar:
 | ├─ ⊖ Ambient| [1] (0 ~ 1) | 
 | ├─ ⊖ Alpha| [1] (0 ~ 1) | 
 | ├─ ⊖ Clip| [0] (0 ~ 1) | 
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -96,7 +96,7 @@ sidebar:
 | ├─ ⊖ Detail Density| [1] (0 ~ 2) | 
 | ├─ ☑ Enable Dissolve| [ON] | 
 | └─ ≡ Presets| **Stocking Thin** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
-| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Surface Pattern</b>| | 
+| <img src="/images/icon/ic_texture.png" alt="texture icon"/> **Surface Pattern**| | 
 | ├─ ⊖ Gloss| [0.9] (0 ~ 1) | 
 | ├─ ⊖ Metallic| [0] (0 ~ 1) | 
 | ├─ ⊖ Bump| [0] (0 ~ 1) | 
@@ -104,7 +104,7 @@ sidebar:
 | ├─ ⊖ Ambient| [1] (0 ~ 1) | 
 | ├─ ⊖ Alpha| [1] (0 ~ 1) | 
 | ├─ ⊖ Clip| [0] (0 ~ 1) | 
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -121,7 +121,7 @@ sidebar:
 | ├─ ⊖ Detail Density| [1] (0 ~ 2) | 
 | ├─ ☑ Enable Dissolve| [ON] | 
 | └─ ≡ Presets| **Latex** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
-| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Surface Border</b>| | 
+| <img src="/images/icon/ic_texture.png" alt="texture icon"/> **Surface Border**| | 
 | ├─ ⊖ Gloss| [0.5] (0 ~ 1) | 
 | ├─ ⊖ Metallic| [0] (0 ~ 1) | 
 | ├─ ⊖ Bump| [0.2] (0 ~ 1) | 
@@ -129,7 +129,7 @@ sidebar:
 | ├─ ⊖ Ambient| [1] (0 ~ 1) | 
 | ├─ ⊖ Alpha| [1] (0 ~ 1) | 
 | ├─ ⊖ Clip| [0] (0 ~ 1) | 
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -147,7 +147,7 @@ sidebar:
 | ├─ ☑ Enable Dissolve| [ON] | 
 | └─ ≡ Presets| **Stocking Thin** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
 |  ⊖ Dissolve| [0] (0 ~ 1) | 
-|  ⚙️ <b>Dissolve Map</b>| | 
+|  ⚙️ **Dissolve Map**| | 
 | ├─ ⊖ Pattern L1| [13] (0 ~ 90) | Change the level 1 pattern when generating the dissolve map
 | ├─ ⊖ Density L1| [3.5] (1 ~ 10) | Density of level 1 pattern
 | ├─ ⊖ Pattern L2| [31] (0 ~ 90) | Change the level 2 pattern when generating the dissolve map
@@ -171,7 +171,7 @@ sidebar:
 | ├─ □ Transparent| [OFF] | 
 | ├─ □ Custom 1| [OFF] | 
 | ├─ □ Custom 2| [OFF] | 
-| ├─ <b>Manual Select</b>|| 
+| ├─ **Manual Select**|| 
 | ├─ □ | [OFF] | 
 | └─<img src="/images/icon/ic_filter.png" alt="filter icon"/> Filtering|| 
 |  ≡ Presets| **Body Paint** | Body Paint, Fullbody Latex, V Shape Fishnet, Stockings, Stockings Fishnet, Bodysuit 1, Bodysuit 2, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5,  |

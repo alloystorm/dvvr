@@ -23,7 +23,7 @@ sidebar:
 |<nobr> ⊖ 方向</nobr>| [0] (-180 ~ 180) | 
 |<nobr> ⊖ 高度</nobr>| [0] (0 ~ 8) | 
 |<nobr> ⊖ 角度</nobr>| [45] (0 ~ 90) | 
-|<nobr> ⚙️ <b>颜色</b></nobr>| | 
+|<nobr> ⚙️ **颜色**</nobr>| | 
 |<nobr>├─ ☑ 颜色模式</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr>├─ ⊖ 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>├─ ⊖ 饱和度</nobr>| [1] (0 ~ 1) | 
@@ -36,17 +36,17 @@ sidebar:
 |<nobr>├─ ⊖ 边缘级别</nobr>| [2] (0 ~ 5) | 
 |<nobr>├─ ⊖ 击中级别</nobr>| [2] (0 ~ 5) | 
 |<nobr>└─ ≡ 预设</nobr>| **动画色相** | 白色, 红色, 绿色, 蓝色, 动画色相, 伴音乐的辉光,  |
-|<nobr> ⚙️ <b>运动</b></nobr>| | 
+|<nobr> ⚙️ **运动**</nobr>| | 
 |<nobr>├─ ⊖ 每组动作数</nobr>| [1] (1 ~ 32) | 
 |<nobr>├─ ⊖ 速度</nobr>| [0] (-3 ~ 3) | 
 |<nobr>├─ ⊖ 过渡</nobr>| [1] (0 ~ 1) | 
 |<nobr>├─ ⊖ 范围</nobr>| [1] (0 ~ 1) | 
-|<nobr>├─ ⚙️ <b>阻尼</b></nobr>| | 
+|<nobr>├─ ⚙️ **阻尼**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 方向</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 水平</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 垂直</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>├─ > 模式</nobr>| **随机** | 随机, 随机预设, 手动,  |
-|<nobr>├─ ⚙️ <b>运动 X</b></nobr>| | 
+|<nobr>├─ ⚙️ **运动 X**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 覆盖</nobr>| [0] (-1 ~ 1) | 用此值覆盖生成的运动
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 速度倍增器</nobr>| [-1] (-3 ~ 3) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 相位</nobr>| [0.25] (0 ~ 1) | 循环中的起始位置
@@ -54,7 +54,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 方向</nobr>| [1] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 缩放</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 中心</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├─ ⚙️ <b>运动 Z</b></nobr>| | 
+|<nobr>├─ ⚙️ **运动 Z**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 覆盖</nobr>| [0] (-1 ~ 1) | 用此值覆盖生成的运动
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 速度倍增器</nobr>| [-1] (-3 ~ 3) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 相位</nobr>| [0.25] (0 ~ 1) | 循环中的起始位置

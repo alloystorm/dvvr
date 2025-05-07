@@ -14,11 +14,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|  <b>위치</b>|| 
+|  **위치**|| 
 |  ⊖ (X)| [0] ((Unlimited)) | 
 |  ⊖ (Y)| [0] ((Unlimited)) | 
 |  ⊖ (Z)| [0] ((Unlimited)) | 
-|  <b>회전</b>|| 
+|  **회전**|| 
 |  ⊖ (X)| [0] ((Unlimited)) | 
 |  ⊖ (Y)| [0] ((Unlimited)) | 
 |  ⊖ (Z)| [0] ((Unlimited)) | 

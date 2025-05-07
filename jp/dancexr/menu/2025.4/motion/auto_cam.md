@@ -30,22 +30,22 @@ sidebar:
 |  ⊖ フェード・トゥ・ブラック| [0] (0 ~ 0.25) | (Duration of the fade-to-black effect during transitions.)
 |  ⊖ F2B 確率| [0.5] (0 ~ 1) | (Probability of triggering the fade-to-black effect.)
 |  □ オーディオ感度| [1] (0 ~ 4) | (Sensitivity of the camera motion to audio levels.)
-|  <b>ターゲット選択</b>|| 
+|  **ターゲット選択**|| 
 |  ⊖ 頭| [1] (0 ~ 1) | (Probability of targeting the actor's head.)
 |  ⊖ 胸| [1] (0 ~ 1) | (Probability of targeting the actor's chest.)
 |  ⊖ センター| [1] (0 ~ 1) | (Probability of targeting the actor's center.)
 |  ⊖ 脚| [0.5] (0 ~ 1) | (Probability of targeting the actor's legs.)
 |  ⊖ 足| [0] (0 ~ 1) | (Probability of targeting the actor's feet.)
-|  <b>距離選択</b>|| 
+|  **距離選択**|| 
 |  ⊖ クローズアップ| [1] (0 ~ 1) | (Probability of a close-up camera distance.)
 |  ⊖ ズームイン| [0.25] (0 ~ 1) | (Probability of zooming in.)
 |  ⊖ ズームアウト| [0.25] (0 ~ 1) | (Probability of zooming out.)
 |  ⊖ 中間| [0.25] (0 ~ 1) | (Probability of a middle-range camera distance.)
 |  ⊖ 遠方| [0.25] (0 ~ 1) | (Probability of a far camera distance.)
-|  <b>パス選択</b>|| 
+|  **パス選択**|| 
 |  ⊖ 高角度| [20] (0 ~ 30) | (Maximum upward angle for the camera.)
 |  ⊖ 低角度| [-20] (-30 ~ 0) | (Maximum downward angle for the camera.)
-|  <b>オリエンテーション</b>|| 
+|  **オリエンテーション**|| 
 |  ⊖ 前方中央| [1] (0 ~ 1) | (Probability of orienting the camera to the front center of the actor.)
 |  ⊖ 前方 45| [0] (0 ~ 1) | (Probability of orienting the camera to a 45-degree angle in front of the actor.)
 |  ⊖ 横 90| [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)

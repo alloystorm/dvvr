@@ -23,7 +23,7 @@ sidebar:
 |<nobr> ⊖ (Arm IK Left)</nobr>| [0.25] (0 ~ 1) | 
 |<nobr> ⊖ (Arm IK Right)</nobr>| [0.25] (0 ~ 1) | 
 |<nobr> □ 覆蓋運動</nobr>| [0] (0 ~ 1) | 
-|<nobr> ⚙️ <b>速度</b></nobr>| | 
+|<nobr> ⚙️ **速度**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 相位</nobr>| [0] (0 ~ 1) | 

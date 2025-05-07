@@ -17,7 +17,7 @@ sidebar:
 |<nobr> ☑ 활성화</nobr>| [ON] | 
 |<nobr> 뼈 선택</nobr>|| 본 선택
 |<nobr> ⊖ 첫 X 본 건너뛰기</nobr>| [0] (0 ~ 5) | 첫 X 개 레벨에 대해 물리 연결을 생성하지 않음
-|<nobr> ☑ <b>입자 동역학</b></nobr>| | 
+|<nobr> ☑ **입자 동역학**</nobr>| | 
 |<nobr>├─ ☑ 활성화</nobr>| [ON] | 
 |<nobr>├─ ⊖ 스윙 순응도</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>├─ ⊖ 트위스트 순응도</nobr>| [0.75] (0 ~ 1) | 
@@ -34,12 +34,12 @@ sidebar:
 |<nobr>├─ ⊖ 항력 (공기)</nobr>| [0] (0 ~ 2) | 공기 저항
 |<nobr>├─ ⊖ 항력 (수중)</nobr>| [1] (0 ~ 2) | 수중 저항
 |<nobr>├─ ⊖ 부력</nobr>| [-0.1] (-1 ~ 1) | 
-|<nobr>├─ ⚙️ <b>바람</b></nobr>| | 
+|<nobr>├─ ⚙️ **바람**</nobr>| | 
 |<nobr>│ ├─ ⊖ 바람 영향</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>│ ├─ ⊖ 난류 스케일</nobr>| [0] (-2 ~ 2) | 
 |<nobr>│ ├─ ⊖ 난류 강도</nobr>| [1] (0 ~ 2) | 
 |<nobr>│ └─ ⊖ 난류 시간 스케일</nobr>| [0] (-4 ~ 4) | 
-|<nobr>├─ ⚙️ <b>충돌하기</b></nobr>| | 
+|<nobr>├─ ⚙️ **충돌하기**</nobr>| | 
 |<nobr>│ ├─ ☑ 머리</nobr>| [ON] | 
 |<nobr>│ ├─ ☑ 몸체</nobr>| [ON] | 
 |<nobr>│ ├─ ☑ 가슴</nobr>| [ON] | 
@@ -49,7 +49,7 @@ sidebar:
 |<nobr>│ ├─ ☑ 다리</nobr>| [ON] | 
 |<nobr>│ ├─ ☑ 발</nobr>| [ON] | 
 |<nobr>│ └─ ☑ 플레이어</nobr>| [ON] | 
-|<nobr>└─ ⚙️ <b>시뮬레이션 설정</b></nobr>| | 
+|<nobr>└─ ⚙️ **시뮬레이션 설정**</nobr>| | 
 |<nobr> ├─ ☑ 전역 사용</nobr>| [ON] | Pro / Cloth Simulation 아래에서 전역 설정 찾기
 |<nobr> ├─ ☑ 드래그 활성화</nobr>| [ON] | 
 |<nobr> ├─ ☑ 시뮬레이트</nobr>| [ON] | 

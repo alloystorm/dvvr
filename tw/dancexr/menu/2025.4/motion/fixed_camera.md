@@ -31,7 +31,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 大小</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 移位</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 目標中心</nobr>| [0] (-1 ~ 1) | 
-|<nobr> <b>偏移</b></nobr>|| 
+|<nobr> **偏移**</nobr>|| 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-2 ~ 2) | 

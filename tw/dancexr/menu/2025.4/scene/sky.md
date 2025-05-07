@@ -24,19 +24,19 @@ sidebar:
 |  ⊖ 風| [1] (0 ~ 4) | (Global wind speed affecting cloth simulation, particle dynamics, and clouds.)
 |  ⊖ 風向| [0] (0 ~ 360) | (Sets the global wind direction in degrees.)
 |  □ 風場| [OFF] | 
-|  ⚙️ <b>位置</b>| | Sets the position of the wind field.
+|  ⚙️ **位置**| | Sets the position of the wind field.
 | ├─ ⊖ (X)| [0] ((Unlimited)) | 
 | ├─ ⊖ (Y)| [0] ((Unlimited)) | 
 | └─ ⊖ (Z)| [0] ((Unlimited)) | 
-|  ⚙️ <b>旋轉</b>| | Sets the rotation of the wind field.
+|  ⚙️ **旋轉**| | Sets the rotation of the wind field.
 | ├─ ⊖ (X)| [0] ((Unlimited)) | 
 | ├─ ⊖ (Y)| [0] ((Unlimited)) | 
 | └─ ⊖ (Z)| [0] ((Unlimited)) | 
 |  ⊖ 距離| [5] (0 ~ 10) | (Sets the distance of the wind field.)
 |  ⊖ 半徑| [1] (0 ~ 2) | (Sets the radius of the wind field.)
 |  ⊖ 速度| [1] (0 ~ 4) | (Sets the speed of the wind field.)
-|  <b>天空環境光</b>|| 
-|  ⚙️ <b>天空顏色</b>| | 
+|  **天空環境光**|| 
+|  ⚙️ **天空顏色**| | 
 | ├─ ☑ 顏色模式| (RGB) | (RGB), (HSV), 
 | ├─ ⊖ 色相| [0] (0 ~ 1) | 
 | ├─ ⊖ 飽和度| [0] (0 ~ 1) | 
@@ -47,7 +47,7 @@ sidebar:
 | ├─ □ 使用舞台顏色| [OFF] | 使用舞台環的顏色
 | ├─ ☑ 色溫| [6500] (3000 ~ 8000) | 
 | └─ ≡ 預設| **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
-|  ⚙️ <b>中間顏色</b>| | 
+|  ⚙️ **中間顏色**| | 
 | ├─ ☑ 顏色模式| (RGB) | (RGB), (HSV), 
 | ├─ ⊖ 色相| [0] (0 ~ 1) | 
 | ├─ ⊖ 飽和度| [0] (0 ~ 1) | 
@@ -58,7 +58,7 @@ sidebar:
 | ├─ □ 使用舞台顏色| [OFF] | 使用舞台環的顏色
 | ├─ ☑ 色溫| [6500] (3000 ~ 8000) | 
 | └─ ≡ 預設| **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
-|  ⚙️ <b>地面顏色</b>| | 
+|  ⚙️ **地面顏色**| | 
 | ├─ ☑ 顏色模式| (RGB) | (RGB), (HSV), 
 | ├─ ⊖ 色相| [0] (0 ~ 1) | 
 | ├─ ⊖ 飽和度| [0] (0 ~ 1) | 
@@ -69,7 +69,7 @@ sidebar:
 | ├─ □ 使用舞台顏色| [OFF] | 使用舞台環的顏色
 | ├─ ☑ 色溫| [6500] (3000 ~ 8000) | 
 | └─ ≡ 預設| **白色** | 白色, 日落, 紅色, (Yellow), 藍色, 綠色,  |
-|  ☑ <b>雲</b>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
+|  ☑ **雲**| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
 | ├─ ☑ 啟用| [ON] | (Enables or disables volumetric clouds.)
 | ├─ ⊖ 形狀縮放| [1] (-1 ~ 2) | (Controls the scale of the cloud shapes.)
 | ├─ ⊖ 形狀因子| [0.8] (0 ~ 1) | (Adjusts the shape factor of the clouds.)

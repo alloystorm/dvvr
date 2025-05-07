@@ -21,7 +21,7 @@ sidebar:
 |  ⊖ Mass| [0.1] (0 ~ 1) | 
 |  ⊖ Drag| [0.1] (0 ~ 10) | 
 |  ⊖ Counter Gravity| [10] (0 ~ 45) | 
-|  ⚙️ <b>Rotation Limit</b>| | 
+|  ⚙️ **Rotation Limit**| | 
 | ├─ ⊖ Up Limit| [100] (0 ~ 120) | 
 | ├─ ⊖ Down Limit| [15] (0 ~ 45) | 
 | ├─ ⊖ Left / Right Limit| [15] (0 ~ 45) | 
@@ -29,29 +29,29 @@ sidebar:
 | ├─ ⊖ Damping| [1] (0 ~ 1) | 
 | ├─ ⊖ Contact Distance| [0.5] (0 ~ 1) | 
 | └─ ⊖ Bounce| [0.2] (0 ~ 1) | 
-|  ⚙️ <b>Anchor</b>| | 
+|  ⚙️ **Anchor**| | 
 | ├─ ⊖ X| [-0.03] (-0.2 ~ 0.2) | 
 | ├─ ⊖ Y| [0.03] (-0.2 ~ 0.2) | 
 | └─ ⊖ Z| [0.08] (-0.2 ~ 0.2) | 
-|  ⚙️ <b>Center</b>| | 
+|  ⚙️ **Center**| | 
 | ├─ ⊖ X| [0.02] (-0.2 ~ 0.2) | 
 | ├─ ⊖ Y| [-0.05] (-0.2 ~ 0.2) | 
 | └─ ⊖ Z| [0.025] (-0.2 ~ 0.2) | 
-|  ⚙️ <b>Collision</b>| | 
+|  ⚙️ **Collision**| | 
 | ├─ □ Collide With Arms| [OFF] | 
 | ├─ ⊖ Collider Radius| [0.07] (0 ~ 0.1) | 
 | ├─ ⊖ Collider Length| [0.65] (0 ~ 1) | 
 | ├─ ⊖ Collider Curve| [2] (-2 ~ 2) | Works with cloth simulation.
 | ├─ □ Visualize| [OFF] | 
 | ├─ ☑ Enable Nipple| [ON] | Works with cloth simulation.
-| ├─ ⚙️ <b>Nipple Position</b>| | 
+| ├─ ⚙️ **Nipple Position**| | 
 | │ ├─ ⊖ X| [-0.18] (-1 ~ 1) | 
 | │ ├─ ⊖ Y| [0.09] (-1 ~ 1) | 
 | │ └─ ⊖ Z| [0.2] (0 ~ 1) | 
 | └─ ⊖ Nipple Size| [0.1] (0 ~ 1) | 
-|  ☑ <b>Softbody</b>| | 
+|  ☑ **Softbody**| | 
 | ├─ ☑ Enable| [ON] | 
-| ├─ <b>Joints</b>|| 
+| ├─ **Joints**|| 
 | ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
 | ├─ ☑ Include Center| [ON] | 
 | ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
@@ -72,12 +72,12 @@ sidebar:
 | ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
 | ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
 | ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-| ├─ ⚙️ <b>Wind</b>| | 
+| ├─ ⚙️ **Wind**| | 
 | │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
 | │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-| ├─ ⚙️ <b>Collide With</b>| | 
+| ├─ ⚙️ **Collide With**| | 
 | │ ├─ ☑ Head| [ON] | 
 | │ ├─ □ Body| [OFF] | 
 | │ ├─ □ Boobs| [OFF] | 
@@ -87,7 +87,7 @@ sidebar:
 | │ ├─ □ Legs| [OFF] | 
 | │ ├─ ☑ Feet| [ON] | 
 | │ └─ ☑ Player| [ON] | 
-| ├─ ⚙️ <b>Simulation Settings</b>| | 
+| ├─ ⚙️ **Simulation Settings**| | 
 | │ ├─ ☑ Use Global| [ON] | Find the global settings under Pro / Cloth Simulation
 | │ ├─ ☑ Enable Dragging| [ON] | 
 | │ ├─ ☑ Simulate| [ON] | 

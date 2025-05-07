@@ -23,7 +23,7 @@ sidebar:
 |<nobr> ⊖ 动作偏移</nobr>| [0] (-1 ~ 1) | 
 |<nobr> ⊖ 摆动角度</nobr>| [30] (0 ~ 45) | 
 |<nobr> ⊖ 下方</nobr>| [0.35] (0 ~ 0.8) | 
-|<nobr> ⚙️ <b>速度</b></nobr>| | 
+|<nobr> ⚙️ **速度**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 每拍动作数</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 每组动作数</nobr>| [8] (4 ~ 32) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 相位</nobr>| [0] (0 ~ 1) | 

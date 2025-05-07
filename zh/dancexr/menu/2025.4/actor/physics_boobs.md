@@ -21,7 +21,7 @@ sidebar:
 |<nobr> ⊖ 质量</nobr>| [0.1] (0 ~ 1) | 
 |<nobr> ⊖ 拖拽</nobr>| [0.1] (0 ~ 10) | 
 |<nobr> ⊖ 反重力</nobr>| [10] (0 ~ 45) | 
-|<nobr> ⚙️ <b>旋转限制</b></nobr>| | 
+|<nobr> ⚙️ **旋转限制**</nobr>| | 
 |<nobr>├─ ⊖ 上限</nobr>| [100] (0 ~ 120) | 
 |<nobr>├─ ⊖ 下限</nobr>| [15] (0 ~ 45) | 
 |<nobr>├─ ⊖ 左右限制</nobr>| [15] (0 ~ 45) | 
@@ -29,29 +29,29 @@ sidebar:
 |<nobr>├─ ⊖ 阻尼</nobr>| [1] (0 ~ 1) | 
 |<nobr>├─ ⊖ 接触距离</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>└─ ⊖ 弹跳</nobr>| [0.2] (0 ~ 1) | 
-|<nobr> ⚙️ <b>锚点</b></nobr>| | 
+|<nobr> ⚙️ **锚点**</nobr>| | 
 |<nobr>├─ ⊖ (X)</nobr>| [-0.03] (-0.2 ~ 0.2) | 
 |<nobr>├─ ⊖ (Y)</nobr>| [0.03] (-0.2 ~ 0.2) | 
 |<nobr>└─ ⊖ (Z)</nobr>| [0.08] (-0.2 ~ 0.2) | 
-|<nobr> ⚙️ <b>中心</b></nobr>| | 
+|<nobr> ⚙️ **中心**</nobr>| | 
 |<nobr>├─ ⊖ (X)</nobr>| [0.02] (-0.2 ~ 0.2) | 
 |<nobr>├─ ⊖ (Y)</nobr>| [-0.05] (-0.2 ~ 0.2) | 
 |<nobr>└─ ⊖ (Z)</nobr>| [0.025] (-0.2 ~ 0.2) | 
-|<nobr> ⚙️ <b>碰撞</b></nobr>| | 
+|<nobr> ⚙️ **碰撞**</nobr>| | 
 |<nobr>├─ □ 与手臂碰撞</nobr>| [OFF] | 
 |<nobr>├─ ⊖ 碰撞体半径</nobr>| [0.07] (0 ~ 0.1) | 
 |<nobr>├─ ⊖ 碰撞体长度</nobr>| [0.65] (0 ~ 1) | 
 |<nobr>├─ ⊖ 碰撞体曲线</nobr>| [2] (-2 ~ 2) | 与布料模拟兼容。
 |<nobr>├─ □ 可视化</nobr>| [OFF] | 
 |<nobr>├─ ☑ 启用乳头</nobr>| [ON] | 与布料模拟兼容。
-|<nobr>├─ ⚙️ <b>乳头位置</b></nobr>| | 
+|<nobr>├─ ⚙️ **乳头位置**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ (X)</nobr>| [-0.18] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ (Y)</nobr>| [0.09] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ (Z)</nobr>| [0.2] (0 ~ 1) | 
 |<nobr>└─ ⊖ 乳头大小</nobr>| [0.1] (0 ~ 1) | 
-|<nobr> ☑ <b>(Softbody)</b></nobr>| | 
+|<nobr> ☑ **(Softbody)**</nobr>| | 
 |<nobr>├─ ☑ 启用</nobr>| [ON] | 
-|<nobr>├─ <b>关节</b></nobr>|| 
+|<nobr>├─ **关节**</nobr>|| 
 |<nobr>├─ ⊖ 深度</nobr>| [0.4] (0 ~ 1) | 
 |<nobr>├─ ☑ 包含中心</nobr>| [ON] | 
 |<nobr>├─ ☑ 体积约束</nobr>| [0.85] (0.5 ~ 1) | 
@@ -72,12 +72,12 @@ sidebar:
 |<nobr>├─ ⊖ 拖拽（空气）</nobr>| [0] (0 ~ 2) | 空气阻力
 |<nobr>├─ ⊖ 拖拽（水下）</nobr>| [1] (0 ~ 2) | 水下阻力
 |<nobr>├─ ⊖ 浮力</nobr>| [-0.1] (-1 ~ 1) | 
-|<nobr>├─ ⚙️ <b>风</b></nobr>| | 
+|<nobr>├─ ⚙️ **风**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 风的影响</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流比例</nobr>| [0] (-2 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流强度</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 湍流时间比例</nobr>| [0] (-4 ~ 4) | 
-|<nobr>├─ ⚙️ <b>碰撞与</b></nobr>| | 
+|<nobr>├─ ⚙️ **碰撞与**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 头部</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 身体</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 胸部</nobr>| [OFF] | 
@@ -87,7 +87,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 腿</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 脚</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ☑ 玩家</nobr>| [ON] | 
-|<nobr>├─ ⚙️ <b>模拟设置</b></nobr>| | 
+|<nobr>├─ ⚙️ **模拟设置**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 使用全局</nobr>| [ON] | 在 Pro / 布料模拟下找到全局设置
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 启用拖动</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 模拟</nobr>| [ON] | 

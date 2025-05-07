@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> <b>演员动作</b></nobr>|| 
+|<nobr> **演员动作**</nobr>|| 
 |<nobr><img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [待机]</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 分配给所有</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 分配给所选</nobr>|| 
@@ -43,7 +43,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 分配给所选</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 作为第二个分配给所有</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 作为第二个分配给所选</nobr>|| 
-|<nobr> <b>摄影机动作</b></nobr>|| 
+|<nobr> **摄影机动作**</nobr>|| 
 | [[自由飞行相机]](freefly_cam) |
 | [[轨道摄像机]](orbit_cam) |
 | [[自动摄像机]](auto_cam) |

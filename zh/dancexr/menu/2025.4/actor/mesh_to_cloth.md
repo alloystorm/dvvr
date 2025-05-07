@@ -16,7 +16,7 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr> □ 合并为一个</nobr>| [OFF] | 
 |<nobr> ☑ 逐渐启用</nobr>| [2] (0 ~ 5) | 
-|<nobr> ⚙️ <b>粒子属性</b></nobr>| | 
+|<nobr> ⚙️ **粒子属性**</nobr>| | 
 |<nobr>├─ ⊖ 粒子半径</nobr>| [5] (1 ~ 20) | 粒子大小（以毫米为单位）
 |<nobr>├─ ⊖ 粘性</nobr>| [0] (0 ~ 1) | 
 |<nobr>├─ ⊖ 重力</nobr>| [9.8] (-9.8 ~ 9.8) | 
@@ -25,12 +25,12 @@ sidebar:
 |<nobr>├─ ⊖ 拖拽（空气）</nobr>| [0] (0 ~ 2) | 空气阻力
 |<nobr>├─ ⊖ 拖拽（水下）</nobr>| [1] (0 ~ 2) | 水下阻力
 |<nobr>├─ ⊖ 浮力</nobr>| [-0.1] (-1 ~ 1) | 
-|<nobr>├─ ⚙️ <b>风</b></nobr>| | 
+|<nobr>├─ ⚙️ **风**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 风的影响</nobr>| [0.25] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流比例</nobr>| [0] (-2 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流强度</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 湍流时间比例</nobr>| [0] (-4 ~ 4) | 
-|<nobr>├─ ⚙️ <b>碰撞与</b></nobr>| | 
+|<nobr>├─ ⚙️ **碰撞与**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 头部</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 身体</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 胸部</nobr>| [ON] | 
@@ -52,7 +52,7 @@ sidebar:
 |<nobr>├─ □ 启用撕裂</nobr>| [OFF] | 
 |<nobr>├─ ⊖ 撕裂阈值</nobr>| [2] (1 ~ 10) | 
 |<nobr>└─ ⊖ 限制撕裂速度</nobr>| [0] (0 ~ 25) | 撕裂后的冷却间隔（以帧为单位）
-|<nobr> ⚙️ <b>模拟设置</b></nobr>| | 
+|<nobr> ⚙️ **模拟设置**</nobr>| | 
 |<nobr>├─ ☑ 使用全局</nobr>| [ON] | 在 Pro / 布料模拟下找到全局设置
 |<nobr>├─ ☑ 启用拖动</nobr>| [ON] | 
 |<nobr>├─ ⊖ 重置比例</nobr>| [1] (1 ~ 5) | 在重置时从更大比例过渡到布料以帮助拟合。

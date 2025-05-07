@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> <b>编队</b></nobr>|| 
+|<nobr> **编队**</nobr>|| 
 |<nobr> V 形</nobr>|| 
 |<nobr> 直线</nobr>|| 
 |<nobr> A 形</nobr>|| 

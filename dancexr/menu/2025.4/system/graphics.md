@@ -17,7 +17,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |  > Anti-Aliasing| **Deferred SMAA** | No AA, Deferred SMAA, Deferred TAA,  |
-|  ☑ <b>Raytracing</b>| | 
+|  ☑ **Raytracing**| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ☑ Reflection| [ON] | 
 | ├─ ☑ Ambient Occlusion| [ON] | 
@@ -28,7 +28,7 @@ sidebar:
 | ├─ ☑ Denoise| [ON] | 
 | └─ ⊖ Denoise Radius| [0.1] (0 ~ 1) | 
 |  > Super Sampling| **Off** | Off, DLSS Performance, DLSS Balance, DLSS Quality, DLSS Ultra Performance, FSR 50%, FSR 66%, FSR 75%, FSR 100%,  |
-|  ☑ <b>Reflection</b>| | 
+|  ☑ **Reflection**| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ☑ Mode| Screen Space | Screen Space, Probe, 
 | ├─ ☑ Quality| High | Low, Medium, High, 
@@ -37,38 +37,38 @@ sidebar:
 | ├─ ⊖ Object Thickness| [0.01] (0 ~ 0.1) | 
 | ├─ ☑ Fallback To Sky| [ON] | Fallback to sky color when raytracing has no hit.
 | └─ ☑ Sky Reflection| [ON] | 
-|  ☑ <b>Fog</b>| | 
+|  ☑ **Fog**| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ☑ Volumetric Fog| [ON] | 
 | ├─ ⊖ Base Height| [0] (0 ~ 10) | 
 | ├─ ⊖ Max Height| [25] (10 ~ 100) | 
 | └─ ⊖ Max Distance| [5000] (0 ~ 10000) | 
-|  □ <b>Ambient Occlusion</b>| | 
+|  □ **Ambient Occlusion**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ ☑ Quality| High | Low, Medium, High, 
 | └─ ⊖ Intensity| [1] (0 ~ 1) | 
-|  □ <b>Global Illumination</b>| | 
+|  □ **Global Illumination**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ ☑ Quality| Low | Low, Medium, High, 
 | └─ ☑ Fallback To Sky| [ON] | 
-|  □ <b>Depth Of Field</b>| | 
+|  □ **Depth Of Field**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ ☑ Quality| Medium | Low, Medium, High, 
 | ├─ ⊖ Intensity| [0.25] (0 ~ 1) | 
 | └─ ⊖ Offset| [0.1] (-1 ~ 1) | 
-|  □ <b>Motion Blur</b>| | 
+|  □ **Motion Blur**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ ☑ Quality| Medium | Low, Medium, High, 
 | └─ ⊖ Intensity| [0.25] (0 ~ 1) | 
-|  ☑ <b>Bloom</b>| | 
+|  ☑ **Bloom**| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ☑ Quality| High | Low, Medium, High, 
 | └─ ⊖ Intensity| [0.25] (0 ~ 1) | 
-|  ☑ <b>Lens Flare</b>| | 
+|  ☑ **Lens Flare**| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ☑ Disable in VR| [ON] | This effect is not recommended for VR
 | ├─ ⊖ Intensity| [0.1] (0 ~ 1) | 
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -83,13 +83,13 @@ sidebar:
 | ├─ ⊖ Streaks| [0.2] (0 ~ 1) | 
 | ├─ ⊖ Length| [0.5] (0 ~ 1) | 
 | └─ ⊖ Chromatic Abberation| [0.5] (0 ~ 1) | 
-|  ☑ <b>Color Adjustment</b>| | 
+|  ☑ **Color Adjustment**| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ⊖ Post Exposure| [0] (-12 ~ 12) | 
 | ├─ ⊖ Contrast| [1] (-100 ~ 100) | 
 | ├─ ⊖ Hue Shift| [0] (-180 ~ 180) | 
 | ├─ ⊖ Saturation| [1] (-100 ~ 100) | 
-| └─ ⚙️ <b>Color Filter</b>| | 
+| └─ ⚙️ **Color Filter**| | 
 |  ├─ ☑ Color Mode| HSV | RGB, HSV, 
 |  ├─ ⊖ Hue| [0] (0 ~ 1) | 
 |  ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -99,7 +99,7 @@ sidebar:
 |  ├─ ⊖ Blue| [1] (0 ~ 1) | 
 |  ├─ ⊖ Glow| [1] (0 ~ 20) | 
 |  └─ ≡ Presets| **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
-|  ☑ <b>Color Curve</b>| | 
+|  ☑ **Color Curve**| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ⊖ Start Gradient| [1] (0 ~ 4) | 
 | ├─ ⊖ Start Position| [0] (0 ~ 0.5) | 
@@ -107,11 +107,11 @@ sidebar:
 | ├─ ⊖ End Gradient| [1] (0 ~ 4) | 
 | ├─ ⊖ End Position| [1] (0.5 ~ 1) | 
 | └─ ⊖ End Value| [1] (0.5 ~ 1) | 
-|  ☑ <b>White Balance</b>| | 
+|  ☑ **White Balance**| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ⊖ Temperature| [0] (-100 ~ 100) | 
 | └─ ⊖ Tint| [0] (-100 ~ 100) | 
-|  □ <b>Special Render</b>| | 
+|  □ **Special Render**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ ☑ Mode| Depth Output | Depth Output, Normal Output, 
 | ├─ ⊖ Depth Range| [1] (0 ~ 1) | 
@@ -121,7 +121,7 @@ sidebar:
 | ☑ Tonemapping| Custom | None, Neutral, ACES, Custom, 
 |  □ Actors Toon Shading| [OFF] | Use toon shading for all actors.
 |  □ Stages Toon Shading| [OFF] | Use toon shading for stages and props.
-|  ⚙️ <b>Options</b>| | 
+|  ⚙️ **Options**| | 
 | ├─ ☑ Transparent Prepass| [ON] | Enable transparent prepass. This will make obscured transparent materials invisible.
 | ├─ ☑ Screen Space Shadows| [ON] | 
 | ├─ □ Contact Shadow| [OFF] | Shadow for small details.

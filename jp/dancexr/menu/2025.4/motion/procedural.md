@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|  <b>アクターモーション</b>|| 
+|  **アクターモーション**|| 
 | <img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [アイドル]|| 
 | ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> すべてに割り当て|| 
 | ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 選択したものに割り当て|| 
@@ -43,7 +43,7 @@ sidebar:
 | ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 選択したものに割り当て|| 
 | ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 2番目としてすべてに割り当て|| 
 | └─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 2番目として選択したものに割り当て|| 
-|  <b>カメラモーション</b>|| 
+|  **カメラモーション**|| 
 | [[フリーフライカメラ]](freefly_cam) |
 | [[オービットカム]](orbit_cam) |
 | [[オートカム]](auto_cam) |

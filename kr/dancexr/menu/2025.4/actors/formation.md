@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|  <b>편성</b>|| 
+|  **편성**|| 
 |  V 형태|| 
 |  선|| 
 |  A 형태|| 

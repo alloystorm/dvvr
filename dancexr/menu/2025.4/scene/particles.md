@@ -34,7 +34,7 @@ sidebar:
 |  ⊖ Height| [4] (1 ~ 8) | Height of the spawn area
 |  ⊖ Stay On Ground| [0.5] (0 ~ 1) | How long does particle stay after falling on to the ground. Set to 0 and they will disappear immediately
 |  ⊖ Rain Sound Effect| [0.5] (0 ~ 1) | 
-|  □ <b>Rain Shader</b>| | 
+|  □ **Rain Shader**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ ⊖ Intensity| [0.5] (0 ~ 1) | 
 | ├─ ⊖ Droplet Duration| [5] (0 ~ 20) | 

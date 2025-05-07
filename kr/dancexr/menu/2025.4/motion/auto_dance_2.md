@@ -19,7 +19,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두를 2번째로 할당</nobr>|| 
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것을 2번째로 할당</nobr>|| 
 |<nobr> ⊖ 범위</nobr>| [0.5] (0 ~ 1) | 
-|<nobr> ⚙️ <b>속도</b></nobr>| | 
+|<nobr> ⚙️ **속도**</nobr>| | 
 |<nobr>├─ ☑ 비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>├─ ⊖ 그룹당 움직임</nobr>| [8] (4 ~ 32) | 
 |<nobr>├─ ⊖ 주기</nobr>| [0] (0 ~ 1) | 

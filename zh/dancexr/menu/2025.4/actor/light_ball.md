@@ -17,10 +17,10 @@ sidebar:
 |<nobr> □ 启用</nobr>| [OFF] | 
 |<nobr>☑ 形状</nobr>| 球 | 球, 钻石, 水晶, 
 |<nobr> ⊖ 大小</nobr>| [1] (0.1 ~ 10) | 
-|<nobr> ⚙️ <b>风格</b></nobr>| | 
+|<nobr> ⚙️ **风格**</nobr>| | 
 |<nobr>├─ □ 使用舞台颜色</nobr>| [OFF] | 
 |<nobr>├─ □ 随节奏闪烁</nobr>| [OFF] | 
-|<nobr>├─ ⚙️ <b>颜色</b></nobr>| | 
+|<nobr>├─ ⚙️ **颜色**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 饱和度</nobr>| [0] (0 ~ 1) | 
@@ -38,7 +38,7 @@ sidebar:
 |<nobr>├─ □ 投射阴影</nobr>| [OFF] | 
 |<nobr>├─ ⊖ 拖尾</nobr>| [0] (0 ~ 2) | 
 |<nobr>└─ ≡ 预设</nobr>| **发光** | 发光, 反射, 水晶,  |
-|<nobr> ⚙️ <b>物理</b></nobr>| | 
+|<nobr> ⚙️ **物理**</nobr>| | 
 |<nobr>├─ □ 重力</nobr>| [OFF] | 
 |<nobr>├─ ☑ 碰撞</nobr>| [ON] | 
 |<nobr>├─ ⊖ 质量</nobr>| [0.1] (0 ~ 10) | 

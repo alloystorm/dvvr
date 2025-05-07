@@ -17,7 +17,7 @@ sidebar:
 |  ☑ Enable| [ON] | 
 |  Select Bones|| Select bones
 |  ⊖ Skip First X Bones| [0] (0 ~ 5) | Do not create physics connection for the first x number of levels
-|  ☑ <b>Particle Dynamics</b>| | 
+|  ☑ **Particle Dynamics**| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ⊖ Swing Compliance| [0.25] (0 ~ 1) | 
 | ├─ ⊖ Twist Compliance| [0.75] (0 ~ 1) | 
@@ -34,12 +34,12 @@ sidebar:
 | ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
 | ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
 | ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-| ├─ ⚙️ <b>Wind</b>| | 
+| ├─ ⚙️ **Wind**| | 
 | │ ├─ ⊖ Wind Influence| [0.25] (0 ~ 1) | 
 | │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
 | │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-| ├─ ⚙️ <b>Collide With</b>| | 
+| ├─ ⚙️ **Collide With**| | 
 | │ ├─ ☑ Head| [ON] | 
 | │ ├─ ☑ Body| [ON] | 
 | │ ├─ ☑ Boobs| [ON] | 
@@ -49,7 +49,7 @@ sidebar:
 | │ ├─ ☑ Legs| [ON] | 
 | │ ├─ ☑ Feet| [ON] | 
 | │ └─ ☑ Player| [ON] | 
-| └─ ⚙️ <b>Simulation Settings</b>| | 
+| └─ ⚙️ **Simulation Settings**| | 
 |  ├─ ☑ Use Global| [ON] | Find the global settings under Pro / Cloth Simulation
 |  ├─ ☑ Enable Dragging| [ON] | 
 |  ├─ ☑ Simulate| [ON] | 

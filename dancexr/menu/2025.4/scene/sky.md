@@ -24,19 +24,19 @@ sidebar:
 |  ⊖ Wind| [1] (0 ~ 4) | Global wind speed affecting cloth simulation, particle dynamics, and clouds.
 |  ⊖ Wind Direction| [0] (0 ~ 360) | Sets the global wind direction in degrees.
 |  □ Wind Field| [OFF] | 
-|  ⚙️ <b>Position</b>| | Sets the position of the wind field.
+|  ⚙️ **Position**| | Sets the position of the wind field.
 | ├─ ⊖ X| [0] (Unlimited) | 
 | ├─ ⊖ Y| [0] (Unlimited) | 
 | └─ ⊖ Z| [0] (Unlimited) | 
-|  ⚙️ <b>Rotation</b>| | Sets the rotation of the wind field.
+|  ⚙️ **Rotation**| | Sets the rotation of the wind field.
 | ├─ ⊖ X| [0] (Unlimited) | 
 | ├─ ⊖ Y| [0] (Unlimited) | 
 | └─ ⊖ Z| [0] (Unlimited) | 
 |  ⊖ Distance| [5] (0 ~ 10) | Sets the distance of the wind field.
 |  ⊖ Radius| [1] (0 ~ 2) | Sets the radius of the wind field.
 |  ⊖ Speed| [1] (0 ~ 4) | Sets the speed of the wind field.
-|  <b>Sky Ambient</b>|| 
-|  ⚙️ <b>Sky Color</b>| | 
+|  **Sky Ambient**|| 
+|  ⚙️ **Sky Color**| | 
 | ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -47,7 +47,7 @@ sidebar:
 | ├─ □ Use Stage Color| [OFF] | Use the color from the stage ring
 | ├─ ☑ Color Temp| [6500] (3000 ~ 8000) | 
 | └─ ≡ Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
-|  ⚙️ <b>Middle Color</b>| | 
+|  ⚙️ **Middle Color**| | 
 | ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -58,7 +58,7 @@ sidebar:
 | ├─ □ Use Stage Color| [OFF] | Use the color from the stage ring
 | ├─ ☑ Color Temp| [6500] (3000 ~ 8000) | 
 | └─ ≡ Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
-|  ⚙️ <b>Ground Color</b>| | 
+|  ⚙️ **Ground Color**| | 
 | ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -69,7 +69,7 @@ sidebar:
 | ├─ □ Use Stage Color| [OFF] | Use the color from the stage ring
 | ├─ ☑ Color Temp| [6500] (3000 ~ 8000) | 
 | └─ ≡ Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
-|  ☑ <b>Cloud</b>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
+|  ☑ **Cloud**| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
 | ├─ ☑ Enable| [ON] | Enables or disables volumetric clouds.
 | ├─ ⊖ Shape Scale| [1] (-1 ~ 2) | Controls the scale of the cloud shapes.
 | ├─ ⊖ Shape Factor| [0.8] (0 ~ 1) | Adjusts the shape factor of the clouds.

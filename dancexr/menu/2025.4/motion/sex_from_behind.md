@@ -24,12 +24,12 @@ sidebar:
 |  ⊖ Body Twist| [0] (-1 ~ 1) | 
 |  ⊖ Angle| [0] (-1 ~ 1) | 
 |  ⊖ Compression| [0.5] (0 ~ 1) | 
-|  <b>Alignment</b>|| 
+|  **Alignment**|| 
 |  ⊖ X| [0] (-0.2 ~ 0.2) | 
 |  ⊖ Y| [0.05] (-0.5 ~ 0.5) | 
 |  ⊖ Z| [0.15] (-0.2 ~ 0.2) | 
 |  ⊖ Lower| [0.1] (0 ~ 0.8) | 
-|  ⚙️ <b>Speed</b>| | 
+|  ⚙️ **Speed**| | 
 | ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | ├─ ⊖ Moves Per Group| [8] (4 ~ 32) | 
 | ├─ ⊖ Phase| [0] (0 ~ 1) | 

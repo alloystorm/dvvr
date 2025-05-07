@@ -23,7 +23,7 @@ sidebar:
 |  ⊖ Direction| [0] (-180 ~ 180) | 
 |  ⊖ Height| [0] (0 ~ 8) | 
 |  ⊖ Angle| [45] (0 ~ 90) | 
-|  ⚙️ <b>Color</b>| | 
+|  ⚙️ **Color**| | 
 | ├─ ☑ Color Mode| HSV | RGB, HSV, 
 | ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | ├─ ⊖ Satuation| [1] (0 ~ 1) | 
@@ -36,17 +36,17 @@ sidebar:
 | ├─ ⊖ Edge Level| [2] (0 ~ 5) | 
 | ├─ ⊖ Hit Level| [2] (0 ~ 5) | 
 | └─ ≡ Presets| **Animated Hue** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
-|  ⚙️ <b>Motion</b>| | 
+|  ⚙️ **Motion**| | 
 | ├─ ⊖ Moves Per Group| [1] (1 ~ 32) | 
 | ├─ ⊖ Speed| [0] (-3 ~ 3) | 
 | ├─ ⊖ Transition| [1] (0 ~ 1) | 
 | ├─ ⊖ Extent| [1] (0 ~ 1) | 
-| ├─ ⚙️ <b>Damping</b>| | 
+| ├─ ⚙️ **Damping**| | 
 | │ ├─ ⊖ Orientation| [0.5] (0 ~ 1) | 
 | │ ├─ ⊖ Horizontal| [0.5] (0 ~ 1) | 
 | │ └─ ⊖ Vertical| [0.1] (0 ~ 1) | 
 | ├─ > Mode| **Random** | Random, Random Preset, Manual,  |
-| ├─ ⚙️ <b>Motion X</b>| | 
+| ├─ ⚙️ **Motion X**| | 
 | │ ├─ □ Override| [0] (-1 ~ 1) | Override generated movement with this value
 | │ ├─ ⊖ Speed Multiplier| [-1] (-3 ~ 3) | 
 | │ ├─ ⊖ Phase| [0.25] (0 ~ 1) | Starting position in the cycle
@@ -54,7 +54,7 @@ sidebar:
 | │ ├─ ⊖ Direction| [1] (-1 ~ 1) | 
 | │ ├─ ⊖ Scale| [1] (0 ~ 1) | 
 | │ └─ ⊖ Center| [0] (-1 ~ 1) | 
-| ├─ ⚙️ <b>Motion Z</b>| | 
+| ├─ ⚙️ **Motion Z**| | 
 | │ ├─ □ Override| [0] (-1 ~ 1) | Override generated movement with this value
 | │ ├─ ⊖ Speed Multiplier| [-1] (-3 ~ 3) | 
 | │ ├─ ⊖ Phase| [0.25] (0 ~ 1) | Starting position in the cycle

@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> <b>隊形</b></nobr>|| 
+|<nobr> **隊形**</nobr>|| 
 |<nobr> V 形狀</nobr>|| 
 |<nobr> 線</nobr>|| 
 |<nobr> A 形狀</nobr>|| 

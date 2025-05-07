@@ -14,11 +14,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> <b>位置</b></nobr>|| 
+|<nobr> **位置**</nobr>|| 
 |<nobr> ⊖ (X)</nobr>| [0] ((Unlimited)) | 
 |<nobr> ⊖ (Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr> ⊖ (Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr> <b>旋轉</b></nobr>|| 
+|<nobr> **旋轉**</nobr>|| 
 |<nobr> ⊖ (X)</nobr>| [0] ((Unlimited)) | 
 |<nobr> ⊖ (Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr> ⊖ (Z)</nobr>| [0] ((Unlimited)) | 

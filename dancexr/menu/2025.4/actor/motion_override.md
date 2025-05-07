@@ -17,7 +17,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |  □ Enable| [OFF] | 
-|  ⚙️ <b>Body</b>| | 
+|  ⚙️ **Body**| | 
 | ├─ ☑ Position| Free | Free, Lock Horizontal, Lock Vertical, Lock Position, 
 | ├─ ☑ Rotation| Free | Free, Lock Rotation, 
 | ├─ ⊖ Damping| [0.5] (0 ~ 1) | 
@@ -32,9 +32,9 @@ sidebar:
 | ├─ ⊖ Detect Range| [2] (0 ~ 10) | 
 | ├─ ⊖ Min Distance| [0.5] (0 ~ 1) | 
 | └─ ⊖ Max Distance| [1] (0.5 ~ 2) | 
-|  ☑ <b>Rocking Motion</b>| | 
+|  ☑ **Rocking Motion**| | 
 | ├─ ☑ Enable| [ON] | 
-| ├─ ⚙️ <b>Speed</b>| | 
+| ├─ ⚙️ **Speed**| | 
 | │ ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ ├─ ⊖ Moves Per Group| [8] (4 ~ 32) | 
 | │ ├─ ⊖ Phase| [0] (0 ~ 1) | 
@@ -50,17 +50,17 @@ sidebar:
 | ├─ ⊖ Depth Max| [0.15] (0 ~ 0.3) | 
 | ├─ ⊖ Depth Extra| [0] (-0.1 ~ 0.1) | 
 | └─ ⊖ Feet Motion| [0] (-1 ~ 1) | 
-|  □ <b>Head Pose</b>| | 
+|  □ **Head Pose**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ ⊖ Rotatoin X| [0] (-90 ~ 90) | 
 | ├─ ⊖ Rotatoin Y| [0] (-90 ~ 90) | 
 | └─ ⊖ Rotatoin Z| [0] (-90 ~ 90) | 
-|  ☑ <b>Leg Pose</b>| | 
+|  ☑ **Leg Pose**| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ☑ Relative To Floor| [ON] | 
 | ├─ ⊖ Max Twist| [60] (0 ~ 90) | 
 | ├─ ☑ Symmetrical| [ON] | 
-| ├─ ⚙️ <b>Left</b>| | 
+| ├─ ⚙️ **Left**| | 
 | │ ├─ ⊖ Open| [0] (-90 ~ 90) | 
 | │ ├─ ⊖ Foot X| [0] (Unlimited) | 
 | │ ├─ ⊖ Foot Y| [0] (Unlimited) | 
@@ -69,7 +69,7 @@ sidebar:
 | │ ├─ ⊖ Foot Rotate Y| [0] (Unlimited) | 
 | │ ├─ ⊖ Foot Rotate Z| [0] (Unlimited) | 
 | │ └─ ⊖ Toe| [0] (-180 ~ 180) | 
-| ├─ ⚙️ <b>Right</b>| | 
+| ├─ ⚙️ **Right**| | 
 | │ ├─ ⊖ Open| [0] (-90 ~ 90) | 
 | │ ├─ ⊖ Foot X| [0] (Unlimited) | 
 | │ ├─ ⊖ Foot Y| [0] (Unlimited) | 
@@ -80,14 +80,14 @@ sidebar:
 | │ └─ ⊖ Toe| [0] (-180 ~ 180) | 
 | └─ ≡ Presets| **Ride** | Sit, Ride, Kneel, Stand,  |
 |  ☑ Hands Symmetrical| [ON] | 
-|  □ <b>Left Hand</b>| | 
+|  □ **Left Hand**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ > Gesture| **Fist** | Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
-| ├─ ⚙️ <b>Hand Position</b>| | 
+| ├─ ⚙️ **Hand Position**| | 
 | │ ├─ ⊖ X| [0] (Unlimited) | 
 | │ ├─ ⊖ Y| [0] (Unlimited) | 
 | │ └─ ⊖ Z| [0] (Unlimited) | 
-| ├─ ⚙️ <b>Hand Rotation</b>| | 
+| ├─ ⚙️ **Hand Rotation**| | 
 | │ ├─ ⊖ X| [0] (Unlimited) | 
 | │ ├─ ⊖ Y| [0] (Unlimited) | 
 | │ └─ ⊖ Z| [0] (Unlimited) | 
@@ -101,9 +101,9 @@ sidebar:
 | ├─ ⊖ Blend Range| [0.75] (0 ~ 2) | 
 | ├─ ⊖ Symmetrical Offset| [0] (-1 ~ 1) | 
 | ├─ ☑ Use Accessory Position| [ON] | 
-| ├─ □ <b>Motion</b>| | 
+| ├─ □ **Motion**| | 
 | │ ├─ □ Enable| [OFF] | 
-| │ ├─ ⚙️ <b>Speed</b>| | 
+| │ ├─ ⚙️ **Speed**| | 
 | │ │ ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├─ ⊖ Moves Per Group| [8] (4 ~ 32) | 
 | │ │ ├─ ⊖ Phase| [0] (0 ~ 1) | 
@@ -114,7 +114,7 @@ sidebar:
 | │ │ └─ ☑ Max Speed| 3/2 | 1, 3/2, 2, 3, 4, 
 | │ ├─ ⊖ Distance| [0.1] (0 ~ 0.3) | 
 | │ └─ ⊖ Angle| [0] (-60 ~ 60) | 
-| ├─ □ <b>Custom Pose</b>| | 
+| ├─ □ **Custom Pose**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Open| [0] (-1 ~ 1) | 
 | │ ├─ ⊖ Thumb Axis| [90] (-360 ~ 360) | 
@@ -131,14 +131,14 @@ sidebar:
 | ├─ ⊖ Grab Position| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ Grab Axis| [0] (-180 ~ 180) | 
 | └─ ≡ Presets| **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
-|  □ <b>Right Hand</b>| | 
+|  □ **Right Hand**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ > Gesture| **Fist** | Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
-| ├─ ⚙️ <b>Hand Position</b>| | 
+| ├─ ⚙️ **Hand Position**| | 
 | │ ├─ ⊖ X| [0] (Unlimited) | 
 | │ ├─ ⊖ Y| [0] (Unlimited) | 
 | │ └─ ⊖ Z| [0] (Unlimited) | 
-| ├─ ⚙️ <b>Hand Rotation</b>| | 
+| ├─ ⚙️ **Hand Rotation**| | 
 | │ ├─ ⊖ X| [0] (Unlimited) | 
 | │ ├─ ⊖ Y| [0] (Unlimited) | 
 | │ └─ ⊖ Z| [0] (Unlimited) | 
@@ -152,9 +152,9 @@ sidebar:
 | ├─ ⊖ Blend Range| [0.75] (0 ~ 2) | 
 | ├─ ⊖ Symmetrical Offset| [0] (-1 ~ 1) | 
 | ├─ ☑ Use Accessory Position| [ON] | 
-| ├─ □ <b>Motion</b>| | 
+| ├─ □ **Motion**| | 
 | │ ├─ □ Enable| [OFF] | 
-| │ ├─ ⚙️ <b>Speed</b>| | 
+| │ ├─ ⚙️ **Speed**| | 
 | │ │ ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├─ ⊖ Moves Per Group| [8] (4 ~ 32) | 
 | │ │ ├─ ⊖ Phase| [0] (0 ~ 1) | 
@@ -165,7 +165,7 @@ sidebar:
 | │ │ └─ ☑ Max Speed| 3/2 | 1, 3/2, 2, 3, 4, 
 | │ ├─ ⊖ Distance| [0.1] (0 ~ 0.3) | 
 | │ └─ ⊖ Angle| [0] (-60 ~ 60) | 
-| ├─ □ <b>Custom Pose</b>| | 
+| ├─ □ **Custom Pose**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Open| [0] (-1 ~ 1) | 
 | │ ├─ ⊖ Thumb Axis| [90] (-360 ~ 360) | 
@@ -182,17 +182,17 @@ sidebar:
 | ├─ ⊖ Grab Position| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ Grab Axis| [0] (-180 ~ 180) | 
 | └─ ≡ Presets| **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
-|  ☑ <b>Ride Model</b>| | 
+|  ☑ **Ride Model**| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ > Model| **[Hoverbike]** | [Hoverbike], [Rocking Horse],  |
 | ├─ ⊖ Acceleration| [10] (0 ~ 20) | 
 | ├─ ⊖ Drag| [0.05] (0 ~ 1) | 
 | ├─ ⊖ Tilt When Turning| [0.5] (0 ~ 1) | 
-| ├─ <b>Position</b>|| 
+| ├─ **Position**|| 
 | ├─ ⊖ X| [0] (-1 ~ 1) | 
 | ├─ ⊖ Y| [0] (-1 ~ 1) | 
 | ├─ ⊖ Z| [0] (-1 ~ 1) | 
-| ├─ <b>Rotation</b>|| 
+| ├─ **Rotation**|| 
 | ├─ ⊖ X| [0] (-90 ~ 90) | 
 | ├─ ⊖ Y| [0] (-90 ~ 90) | 
 | ├─ ⊖ Z| [0] (-90 ~ 90) | 

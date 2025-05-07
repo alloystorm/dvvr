@@ -16,7 +16,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|  ☑ <b>Sunlight</b>| | Settings for the sunlight. Keep in mind that sunlight is very bright and will require a higher exposure value.
+|  ☑ **Sunlight**| | Settings for the sunlight. Keep in mind that sunlight is very bright and will require a higher exposure value.
 | ├─ ☑ Enable| [ON] | 
 | ├─ ⊖ Ecliptic Angle| [0] (-90 ~ 90) | The angle between the horizon and the plane the sun moves within.
 | ├─ ⊖ Orientation| [0] (-180 ~ 180) | 
@@ -26,7 +26,7 @@ sidebar:
 | ├─ ⊖ Spot Radius| [0.1] (0 ~ 1) | This affects the size of the sun disc in procedural sky and the softness of the shadow.
 | ├─ ⊖ Volumetric Multiplier| [1] (0 ~ 16) | 
 | ├─ ⊖ Stars| [1] (0 ~ 8) | Set intensity of stars in night time when using procedural sky.
-| ├─ □ <b>Window</b>| | 
+| ├─ □ **Window**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Width| [8] (0 ~ 16) | The width of the window when cookie map is enabled.
 | │ ├─ ⊖ Height| [2] (0 ~ 16) | The height of the window when cookie map is enabled.
@@ -37,7 +37,7 @@ sidebar:
 | │ ├─ □ Circle| [OFF] | 
 | │ ├─ ⊖ Spacing| [0.05] (0 ~ 0.5) | 
 | │ └─ ⊖ Glow| [0.25] (0 ~ 1) | 
-| ├─ ☑ <b>Shadow</b>| | Shadow settings.
+| ├─ ☑ **Shadow**| | Shadow settings.
 | │ ├─ ☑ Enable| [ON] | 
 | │ ├─ ☑ Mode| Use Global Setting | Use Global Setting, Shadow Map, Screen Space, Raytracing (If Available), 
 | │ ├─ □ Contact Shadow| [OFF] | Enable shadows for small details.
@@ -46,11 +46,11 @@ sidebar:
 | │ ├─ ⊖ Denoise Radius| [8] (1 ~ 32) | 
 | │ └─ ⊖ Shadow Dimmer| [1] (0 ~ 1) | Reduce intensity of the shadow.
 | └─ ☑ Lens Flare| [ON] | Enable lens flare
-|  □ <b>Additional 1</b>| | Configure light group 1
+|  □ **Additional 1**| | Configure light group 1
 | ├─ □ Enable| [OFF] | 
 | ├─ ⊖ Volumetric Multiplier| [1] (0 ~ 16) | 
 | ├─ > Type| **Spotlight** | Spotlight, Point light, Area light, Pyramid, Box,  |
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -81,14 +81,14 @@ sidebar:
 | ├─ □ Use Actor Position| [OFF] | Use actor's position and orientation when positioning the lights.
 | ├─ ⊖ Target Height| [0] (-2 ~ 2) | 
 | ├─ □ Lens Flare| [OFF] | 
-| ├─ □ <b>Repeat</b>| | 
+| ├─ □ **Repeat**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Number| [1] (1 ~ 8) | How many lights in the array.
 | │ ├─ ☑ Formation| Grid | Circle, Grid, <br/>Use grid or circle formation.
 | │ ├─ ⊖ Dist / Radius| [7] (0 ~ 20) | Distance between the lights in grid mode.
 | │ ├─ ⊖ Range| [360] (0 ~ 360) | The angle of the lights in circle mode.
 | │ └─ ≡ Presets| **Off** | Off, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |
-| ├─ ☑ <b>Shadow</b>| | 
+| ├─ ☑ **Shadow**| | 
 | │ ├─ ☑ Enable| [ON] | 
 | │ ├─ ☑ Mode| Use Global Setting | Use Global Setting, Shadow Map, Screen Space, Raytracing (If Available), 
 | │ ├─ □ Contact Shadow| [OFF] | Enable shadows for small details.
@@ -97,11 +97,11 @@ sidebar:
 | │ ├─ ⊖ Denoise Radius| [8] (1 ~ 32) | 
 | │ └─ ⊖ Shadow Dimmer| [1] (0 ~ 1) | Reduce intensity of the shadow.
 | └─ ≡ Presets| **Spotlight** | Spotlight, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |
-|  □ <b>Additional 2</b>| | Configure light group 2
+|  □ **Additional 2**| | Configure light group 2
 | ├─ □ Enable| [OFF] | 
 | ├─ ⊖ Volumetric Multiplier| [1] (0 ~ 16) | 
 | ├─ > Type| **Spotlight** | Spotlight, Point light, Area light, Pyramid, Box,  |
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -132,14 +132,14 @@ sidebar:
 | ├─ ☑ Use Actor Position| [ON] | Use actor's position and orientation when positioning the lights.
 | ├─ ⊖ Target Height| [0] (-2 ~ 2) | 
 | ├─ □ Lens Flare| [OFF] | 
-| ├─ □ <b>Repeat</b>| | 
+| ├─ □ **Repeat**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Number| [1] (1 ~ 8) | How many lights in the array.
 | │ ├─ ☑ Formation| Grid | Circle, Grid, <br/>Use grid or circle formation.
 | │ ├─ ⊖ Dist / Radius| [7] (0 ~ 20) | Distance between the lights in grid mode.
 | │ ├─ ⊖ Range| [360] (0 ~ 360) | The angle of the lights in circle mode.
 | │ └─ ≡ Presets| **Off** | Off, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |
-| ├─ ☑ <b>Shadow</b>| | 
+| ├─ ☑ **Shadow**| | 
 | │ ├─ ☑ Enable| [ON] | 
 | │ ├─ ☑ Mode| Use Global Setting | Use Global Setting, Shadow Map, Screen Space, Raytracing (If Available), 
 | │ ├─ □ Contact Shadow| [OFF] | Enable shadows for small details.
@@ -148,11 +148,11 @@ sidebar:
 | │ ├─ ⊖ Denoise Radius| [8] (1 ~ 32) | 
 | │ └─ ⊖ Shadow Dimmer| [1] (0 ~ 1) | Reduce intensity of the shadow.
 | └─ ≡ Presets| **Spotlight** | Spotlight, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |
-|  □ <b>Additional 3</b>| | Configure light group 3
+|  □ **Additional 3**| | Configure light group 3
 | ├─ □ Enable| [OFF] | 
 | ├─ ⊖ Volumetric Multiplier| [1] (0 ~ 16) | 
 | ├─ > Type| **Spotlight** | Spotlight, Point light, Area light, Pyramid, Box,  |
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -183,14 +183,14 @@ sidebar:
 | ├─ ☑ Use Actor Position| [ON] | Use actor's position and orientation when positioning the lights.
 | ├─ ⊖ Target Height| [0] (-2 ~ 2) | 
 | ├─ □ Lens Flare| [OFF] | 
-| ├─ □ <b>Repeat</b>| | 
+| ├─ □ **Repeat**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Number| [1] (1 ~ 8) | How many lights in the array.
 | │ ├─ ☑ Formation| Grid | Circle, Grid, <br/>Use grid or circle formation.
 | │ ├─ ⊖ Dist / Radius| [7] (0 ~ 20) | Distance between the lights in grid mode.
 | │ ├─ ⊖ Range| [360] (0 ~ 360) | The angle of the lights in circle mode.
 | │ └─ ≡ Presets| **Off** | Off, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |
-| ├─ ☑ <b>Shadow</b>| | 
+| ├─ ☑ **Shadow**| | 
 | │ ├─ ☑ Enable| [ON] | 
 | │ ├─ ☑ Mode| Use Global Setting | Use Global Setting, Shadow Map, Screen Space, Raytracing (If Available), 
 | │ ├─ □ Contact Shadow| [OFF] | Enable shadows for small details.
@@ -201,7 +201,7 @@ sidebar:
 | └─ ≡ Presets| **Spotlight** | Spotlight, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |
 |  ⊖ Overall Intensity| [1] (0 ~ 2) | Overall intensity of all the lights.
 |  ⊖ Sky Ambient| [1] (0 ~ 14) | Intensity of ambient lighting from sky.
-|  □ <b>Auto Exposure</b>| | Auto exposure settings.
+|  □ **Auto Exposure**| | Auto exposure settings.
 | ├─ □ Enable| [OFF] | 
 | ├─ ☑ Metering Mode| Average | Average, Spot, Center Weighted, <br/>Choose metering mode.
 | ├─ ☑ Compensation| 0.00 | -3.00, -2.75, -2.50, -2.25, -2.00, -1.75, -1.50, -1.25, -1.00, -0.75, -0.50, -0.25, 0.00, 0.25, 0.50, 0.75, 1.00, 1.25, 1.50, 1.75, 2.00, 2.25, 2.50, 2.75, 3.00, 
@@ -210,7 +210,7 @@ sidebar:
 |  ⊖ Fog| [0] (0 ~ 1) | Fog level
 |  ⊖ Light Limit| [8] (0 ~ 16) | Set max number of lights available in the scene.
 |  ⊖ Shadow Limit| [4] (0 ~ 16) | Set max number of lights that can have shadows.
-|  ⚙️ <b>Allocation</b>| | 
+|  ⚙️ **Allocation**| | 
 | ├─ ☑ Auto Allocate| By Distance | By Distance, By Index (Fixed), 
 | ├─ ⊖ Refresh Interval| [8] (1 ~ 32) | How often does it reassign lights. In beats.
 | └─ Manual Refresh|| Force reassign lights.

@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |  ☑ Enable| [ON] | 
-| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Logo Surface 1</b>| | 
+| <img src="/images/icon/ic_texture.png" alt="texture icon"/> **Logo Surface 1**| | 
 | ├─ ⊖ Gloss| [0.9] (0 ~ 1) | 
 | ├─ ⊖ Metallic| [0] (0 ~ 1) | 
 | ├─ ⊖ Bump| [0.2] (0 ~ 1) | 
@@ -23,7 +23,7 @@ sidebar:
 | ├─ ⊖ Ambient| [1] (0 ~ 1) | 
 | ├─ ⊖ Alpha| [1] (0 ~ 1) | 
 | ├─ ⊖ Clip| [0] (0 ~ 1) | 
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -34,7 +34,7 @@ sidebar:
 | │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
 | │ └─ ≡ Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├─ □ <b>Toon Shader</b>| | 
+| ├─ □ **Toon Shader**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
 | │ ├─ ⊖ Outline| [0.5] (0 ~ 1) | 
@@ -47,12 +47,12 @@ sidebar:
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
 | │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| ├─ ⚙️ <b>Special Shader</b>| | 
+| ├─ ⚙️ **Special Shader**| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
 | │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
 | └─ ≡ Presets| **White Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
-| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Logo Surface 2</b>| | 
+| <img src="/images/icon/ic_texture.png" alt="texture icon"/> **Logo Surface 2**| | 
 | ├─ ⊖ Gloss| [0.9] (0 ~ 1) | 
 | ├─ ⊖ Metallic| [0] (0 ~ 1) | 
 | ├─ ⊖ Bump| [0.2] (0 ~ 1) | 
@@ -60,7 +60,7 @@ sidebar:
 | ├─ ⊖ Ambient| [1] (0 ~ 1) | 
 | ├─ ⊖ Alpha| [1] (0 ~ 1) | 
 | ├─ ⊖ Clip| [0] (0 ~ 1) | 
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -71,7 +71,7 @@ sidebar:
 | │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
 | │ └─ ≡ Presets| **Red** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├─ □ <b>Toon Shader</b>| | 
+| ├─ □ **Toon Shader**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
 | │ ├─ ⊖ Outline| [0.5] (0 ~ 1) | 
@@ -84,13 +84,13 @@ sidebar:
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
 | │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| ├─ ⚙️ <b>Special Shader</b>| | 
+| ├─ ⚙️ **Special Shader**| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
 | │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
 | └─ ≡ Presets| **Red Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
 |  ☑ Diamond| [ON] | 
-| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Diamond Surface</b>| | 
+| <img src="/images/icon/ic_texture.png" alt="texture icon"/> **Diamond Surface**| | 
 | ├─ ⊖ Gloss| [0.9] (0 ~ 1) | 
 | ├─ ⊖ Metallic| [1] (0 ~ 1) | 
 | ├─ ⊖ Bump| [0.2] (0 ~ 1) | 
@@ -98,7 +98,7 @@ sidebar:
 | ├─ ⊖ Ambient| [1] (0 ~ 1) | 
 | ├─ ⊖ Alpha| [1] (0 ~ 1) | 
 | ├─ ⊖ Clip| [0] (0 ~ 1) | 
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -109,7 +109,7 @@ sidebar:
 | │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
 | │ └─ ≡ Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├─ □ <b>Toon Shader</b>| | 
+| ├─ □ **Toon Shader**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
 | │ ├─ ⊖ Outline| [0.5] (0 ~ 1) | 
@@ -122,7 +122,7 @@ sidebar:
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
 | │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| ├─ ⚙️ <b>Special Shader</b>| | 
+| ├─ ⚙️ **Special Shader**| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
 | │ └─ ⊖ Thickness| [1] (0 ~ 1) | 

@@ -18,244 +18,244 @@ sidebar:
 |  ⊖ Eyelid Extent| [0.65] (0 ~ 1) | 
 |  ⊖ Mouth Extent| [0.65] (0 ~ 1) | 
 |  ⊖ Eyebrow Extent| [1] (0 ~ 1) | 
-|  <b>Mouth</b>|| 
+|  **Mouth**|| 
 |  □ Use Lip Sync| [OFF] | 
-|  ⚙️ <b>Mouth Neutral</b>| | 
+|  ⚙️ **Mouth Neutral**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Wide| [0] (-1 ~ 1) | 
 | └─ ⊖ Corners Up| [0] (-1 ~ 1) | 
-|  ⚙️ <b>Mouth Custom</b>| | 
+|  ⚙️ **Mouth Custom**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Wide| [0] (-1 ~ 1) | 
 | └─ ⊖ Corners Up| [0] (-1 ~ 1) | 
-|  ⚙️ <b>あ</b>| | 
+|  ⚙️ **あ**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Jaw Open| [0.4] (-1 ~ 1) | 
 | ├─ ⊖ Lips Open| [0.1] (-1 ~ 1) | 
 | ├─ ⊖ Lips Wide| [-0.1] (-1 ~ 1) | 
 | └─ ⊖ Corners Up| [0] (-1 ~ 1) | 
-|  ⚙️ <b>い</b>| | 
+|  ⚙️ **い**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Open| [0.25] (-1 ~ 1) | 
 | ├─ ⊖ Lips Wide| [0.15] (-1 ~ 1) | 
 | └─ ⊖ Corners Up| [0.25] (-1 ~ 1) | 
-|  ⚙️ <b>う</b>| | 
+|  ⚙️ **う**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Jaw Open| [0.1] (-1 ~ 1) | 
 | ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Wide| [-0.5] (-1 ~ 1) | 
 | └─ ⊖ Corners Up| [-0.25] (-1 ~ 1) | 
-|  ⚙️ <b>え</b>| | 
+|  ⚙️ **え**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Jaw Open| [0.15] (-1 ~ 1) | 
 | ├─ ⊖ Lips Open| [0.3] (-1 ~ 1) | 
 | ├─ ⊖ Lips Wide| [0] (-1 ~ 1) | 
 | └─ ⊖ Corners Up| [-0.15] (-1 ~ 1) | 
-|  ⚙️ <b>お</b>| | 
+|  ⚙️ **お**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Jaw Open| [0.2] (-1 ~ 1) | 
 | ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Wide| [-0.5] (-1 ~ 1) | 
 | └─ ⊖ Corners Up| [-0.25] (-1 ~ 1) | 
-|  ⚙️ <b>にやり</b>| | 
+|  ⚙️ **にやり**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Wide| [0.15] (-1 ~ 1) | 
 | └─ ⊖ Corners Up| [0.35] (-1 ~ 1) | 
-|  ⚙️ <b>にこ</b>| | 
+|  ⚙️ **にこ**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Wide| [0.1] (-1 ~ 1) | 
 | └─ ⊖ Corners Up| [0.2] (-1 ~ 1) | 
-|  ⚙️ <b>にこ2</b>| | 
+|  ⚙️ **にこ2**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Open| [0.2] (-1 ~ 1) | 
 | ├─ ⊖ Lips Wide| [0.15] (-1 ~ 1) | 
 | └─ ⊖ Corners Up| [0.3] (-1 ~ 1) | 
-|  ⚙️ <b>にこ3</b>| | 
+|  ⚙️ **にこ3**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Jaw Open| [0.2] (-1 ~ 1) | 
 | ├─ ⊖ Lips Open| [0.2] (-1 ~ 1) | 
 | ├─ ⊖ Lips Wide| [0.2] (-1 ~ 1) | 
 | └─ ⊖ Corners Up| [0.3] (-1 ~ 1) | 
-|  ⚙️ <b>∧</b>| | 
+|  ⚙️ **∧**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
 | ├─ ⊖ Lips Wide| [0] (-1 ~ 1) | 
 | └─ ⊖ Corners Up| [-0.35] (-1 ~ 1) | 
-|  <b>Eyebrows</b>|| 
-|  ⚙️ <b>Eyebrows Neutral</b>| | 
+|  **Eyebrows**|| 
+|  ⚙️ **Eyebrows Neutral**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Inner| [0] (-1 ~ 1) | 
 | ├─ ⊖ Middle| [0] (-1 ~ 1) | 
 | ├─ ⊖ Outer| [0] (-1 ~ 1) | 
 | └─ ⊖ Unused| [0] (-1 ~ 1) | 
-|  ⚙️ <b>Eyebrows Custom</b>| | 
+|  ⚙️ **Eyebrows Custom**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Inner| [0] (-1 ~ 1) | 
 | ├─ ⊖ Middle| [0] (-1 ~ 1) | 
 | ├─ ⊖ Outer| [0] (-1 ~ 1) | 
 | └─ ⊖ Unused| [0] (-1 ~ 1) | 
-|  ⚙️ <b>にこり</b>| | 
+|  ⚙️ **にこり**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Inner| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Middle| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Outer| [0.5] (-1 ~ 1) | 
 | └─ ⊖ Unused| [0] (-1 ~ 1) | 
-|  ⚙️ <b>上</b>| | 
+|  ⚙️ **上**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Inner| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Middle| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Outer| [0.5] (-1 ~ 1) | 
 | └─ ⊖ Unused| [0] (-1 ~ 1) | 
-|  ⚙️ <b>下</b>| | 
+|  ⚙️ **下**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Inner| [-0.5] (-1 ~ 1) | 
 | ├─ ⊖ Middle| [-0.5] (-1 ~ 1) | 
 | ├─ ⊖ Outer| [-0.5] (-1 ~ 1) | 
 | └─ ⊖ Unused| [0] (-1 ~ 1) | 
-|  ⚙️ <b>困る</b>| | 
+|  ⚙️ **困る**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Inner| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Middle| [0] (-1 ~ 1) | 
 | ├─ ⊖ Outer| [0] (-1 ~ 1) | 
 | └─ ⊖ Unused| [0] (-1 ~ 1) | 
-|  ⚙️ <b>怒り</b>| | 
+|  ⚙️ **怒り**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Inner| [-0.5] (-1 ~ 1) | 
 | ├─ ⊖ Middle| [-0.5] (-1 ~ 1) | 
 | ├─ ⊖ Outer| [0] (-1 ~ 1) | 
 | └─ ⊖ Unused| [0] (-1 ~ 1) | 
-|  ⚙️ <b>怒る</b>| | 
+|  ⚙️ **怒る**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Inner| [-0.5] (-1 ~ 1) | 
 | ├─ ⊖ Middle| [-0.5] (-1 ~ 1) | 
 | ├─ ⊖ Outer| [0] (-1 ~ 1) | 
 | └─ ⊖ Unused| [0] (-1 ~ 1) | 
-|  <b>Eyelids</b>|| 
-|  ⚙️ <b>Eyelids Neutral</b>| | 
+|  **Eyelids**|| 
+|  ⚙️ **Eyelids Neutral**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Left Upper| [0] (-1 ~ 1) | 
 | ├─ ⊖ Left Lower| [0] (-1 ~ 1) | 
 | ├─ ⊖ Right Upper| [0] (-1 ~ 1) | 
 | ├─ ⊖ Right Lower| [0] (-1 ~ 1) | 
 | ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
 | └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
-|  ⚙️ <b>Eyelids Custom</b>| | 
+|  ⚙️ **Eyelids Custom**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Left Upper| [0] (-1 ~ 1) | 
 | ├─ ⊖ Left Lower| [0] (-1 ~ 1) | 
 | ├─ ⊖ Right Upper| [0] (-1 ~ 1) | 
 | ├─ ⊖ Right Lower| [0] (-1 ~ 1) | 
 | ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
 | └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
-|  ⚙️ <b>まばたき</b>| | 
+|  ⚙️ **まばたき**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Left Upper| [1] (-1 ~ 1) | 
 | ├─ ⊖ Left Lower| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Right Upper| [1] (-1 ~ 1) | 
 | ├─ ⊖ Right Lower| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
 | └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
-|  ⚙️ <b>じと目</b>| | 
+|  ⚙️ **じと目**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Left Upper| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Left Lower| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Right Upper| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Right Lower| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
 | └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
-|  ⚙️ <b>ウインク</b>| | 
+|  ⚙️ **ウインク**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Left Upper| [1] (-1 ~ 1) | 
 | ├─ ⊖ Left Lower| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Right Upper| [0] (-1 ~ 1) | 
 | ├─ ⊖ Right Lower| [0] (-1 ~ 1) | 
 | ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
 | └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
-|  ⚙️ <b>ウインク右</b>| | 
+|  ⚙️ **ウインク右**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Left Upper| [0] (-1 ~ 1) | 
 | ├─ ⊖ Left Lower| [0] (-1 ~ 1) | 
 | ├─ ⊖ Right Upper| [1] (-1 ~ 1) | 
 | ├─ ⊖ Right Lower| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
 | └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
-|  ⚙️ <b>笑い</b>| | 
+|  ⚙️ **笑い**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Left Upper| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Left Lower| [1] (-1 ~ 1) | 
 | ├─ ⊖ Right Upper| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Right Lower| [1] (-1 ~ 1) | 
 | ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
 | └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
-|  ⚙️ <b>目細める</b>| | 
+|  ⚙️ **目細める**| | 
 | ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
-| ├─ <b>Pose</b>|| 
+| ├─ **Pose**|| 
 | ├─ ⊖ Left Upper| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Left Lower| [0.5] (-1 ~ 1) | 
 | ├─ ⊖ Right Upper| [0.5] (-1 ~ 1) | 

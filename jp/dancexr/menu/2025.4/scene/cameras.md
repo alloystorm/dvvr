@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | <img src="/images/icon/ic_radio_on.png" alt="radio on icon"/> [フリーフライカメラ]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[フリーフライカメラ]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[フリーフライカメラ]**| | 
 |  ├─ > ターゲット選択| **自動** | 自動, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |
 |  ├─ > トラッキングモード| **センター** | センター, 頭, 胸,  |
 |  ├─ ⊖ ターゲットスムージング| [0.5] (0 ~ 2) | 
@@ -32,7 +32,7 @@ sidebar:
 |  ├─ □ オービット移動を使用| [OFF] | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
 |  └─ ≡ プリセット| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [オービットカム]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[オービットカム]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[オービットカム]**| | 
 |  ├─ > ターゲット選択| **自動** | 自動, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |
 |  ├─ > トラッキングモード| **センター** | センター, 頭, 胸,  |
 |  ├─ ⊖ ターゲットスムージング| [0.5] (0 ~ 2) | 
@@ -57,7 +57,7 @@ sidebar:
 |  ├─ ⊖ スピード| [10] (0 ~ 90) | 
 |  └─ ≡ プリセット| **デフォルト（リセット）** | デフォルト（リセット）, (Preset 1),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [オートカム]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[オートカム]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[オートカム]**| | 
 |  ├─ > ターゲット選択| **自動** | 自動, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |
 |  ├─ > トラッキングモード| **センター** | センター, 頭, 胸,  |
 |  ├─ ⊖ ターゲットスムージング| [0.5] (0 ~ 2) | 
@@ -71,22 +71,22 @@ sidebar:
 |  ├─ ⊖ フェード・トゥ・ブラック| [0] (0 ~ 0.25) | (Duration of the fade-to-black effect during transitions.)
 |  ├─ ⊖ F2B 確率| [0.5] (0 ~ 1) | (Probability of triggering the fade-to-black effect.)
 |  ├─ □ オーディオ感度| [1] (0 ~ 4) | (Sensitivity of the camera motion to audio levels.)
-|  ├─ <b>ターゲット選択</b>|| 
+|  ├─ **ターゲット選択**|| 
 |  ├─ ⊖ 頭| [1] (0 ~ 1) | (Probability of targeting the actor's head.)
 |  ├─ ⊖ 胸| [1] (0 ~ 1) | (Probability of targeting the actor's chest.)
 |  ├─ ⊖ センター| [1] (0 ~ 1) | (Probability of targeting the actor's center.)
 |  ├─ ⊖ 脚| [0.5] (0 ~ 1) | (Probability of targeting the actor's legs.)
 |  ├─ ⊖ 足| [0] (0 ~ 1) | (Probability of targeting the actor's feet.)
-|  ├─ <b>距離選択</b>|| 
+|  ├─ **距離選択**|| 
 |  ├─ ⊖ クローズアップ| [1] (0 ~ 1) | (Probability of a close-up camera distance.)
 |  ├─ ⊖ ズームイン| [0.25] (0 ~ 1) | (Probability of zooming in.)
 |  ├─ ⊖ ズームアウト| [0.25] (0 ~ 1) | (Probability of zooming out.)
 |  ├─ ⊖ 中間| [0.25] (0 ~ 1) | (Probability of a middle-range camera distance.)
 |  ├─ ⊖ 遠方| [0.25] (0 ~ 1) | (Probability of a far camera distance.)
-|  ├─ <b>パス選択</b>|| 
+|  ├─ **パス選択**|| 
 |  ├─ ⊖ 高角度| [20] (0 ~ 30) | (Maximum upward angle for the camera.)
 |  ├─ ⊖ 低角度| [-20] (-30 ~ 0) | (Maximum downward angle for the camera.)
-|  ├─ <b>オリエンテーション</b>|| 
+|  ├─ **オリエンテーション**|| 
 |  ├─ ⊖ 前方中央| [1] (0 ~ 1) | (Probability of orienting the camera to the front center of the actor.)
 |  ├─ ⊖ 前方 45| [0] (0 ~ 1) | (Probability of orienting the camera to a 45-degree angle in front of the actor.)
 |  ├─ ⊖ 横 90| [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
@@ -94,7 +94,7 @@ sidebar:
 |  ├─ ⊖ 後方 180| [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
 |  └─ ≡ プリセット| **デフォルト（リセット）** | デフォルト（リセット）, (Preset 1),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [長回し]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[長回し]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[長回し]**| | 
 |  ├─ > ターゲット選択| **自動** | 自動, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |
 |  ├─ > トラッキングモード| **センター** | センター, 頭, 胸,  |
 |  ├─ ⊖ ターゲットスムージング| [0.5] (0 ~ 2) | 
@@ -110,7 +110,7 @@ sidebar:
 |  ├─ □ 近くに来たときにフォーカスを上げる| [OFF] | 距離が小さくなるときにフォーカス位置を上に移動する
 |  └─ ≡ プリセット| **デフォルト（リセット）** | デフォルト（リセット）, (Preset 1), (Preset 2), (Preset 3),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [第一人称]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[第一人称]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[第一人称]**| | 
 |  ├─ > アクターを選択|  |  |
 |  ├─ ⊖ 視野角| [45] (30 ~ 100) | 
 |  ├─ ⊖ 近接クリップ距離| [0.15] (0 ~ 0.3) | 
@@ -122,7 +122,7 @@ sidebar:
 |  ├─ □ 自動復帰を無効化| [OFF] | 
 |  └─ 中心に戻す|| 
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [固定カメラ]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[固定カメラ]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[固定カメラ]**| | 
 |  ├─ > ターゲット選択| **自動** | 自動, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |
 |  ├─ > トラッキングモード| **センター** | センター, 頭, 胸,  |
 |  ├─ ⊖ ターゲットスムージング| [0.5] (0 ~ 2) | 
@@ -139,10 +139,10 @@ sidebar:
 |  ├─ ⊖ サイズ| [1] (0 ~ 2) | 
 |  ├─ ⊖ シフト| [0] (-1 ~ 1) | 
 |  ├─ ⊖ ターゲットセンター| [0] (-1 ~ 1) | 
-|  ├─ <b>オフセット</b>|| 
+|  ├─ **オフセット**|| 
 |  ├─ ⊖ (X)| [0] (-2 ~ 2) | 
 |  ├─ ⊖ (Y)| [0] (-2 ~ 2) | 
 |  ├─ ⊖ (Z)| [0] (-2 ~ 2) | 
 |  └─ ≡ プリセット| **遠方** | 近く, 遠方,  |
-|  <b>設定</b>|| 
+|  **設定**|| 
 | [カメラ設定](config_camera) |

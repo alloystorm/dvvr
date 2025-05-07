@@ -19,5 +19,5 @@ sidebar:
 |<nobr><img src="/images/icon/ic_delete.png" alt="delete icon"/> 删除重复项</nobr>|| 
 |<nobr><img src="/images/icon/ic_replace.png" alt="replace icon"/> 切换库</nobr>|| 
 |<nobr><img src="/images/icon/ic_folder_open.png" alt="folder open icon"/> 在资源管理器中显示</nobr>|| 
-|<nobr> <b>谷歌云端硬盘</b></nobr>|| 
+|<nobr> **谷歌云端硬盘**</nobr>|| 
 |<nobr><img src="/images/icon/ic_linked.png" alt="linked icon"/> 链接谷歌云端硬盘</nobr>|| 

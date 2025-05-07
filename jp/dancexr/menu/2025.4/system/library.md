@@ -19,5 +19,5 @@ sidebar:
 | <img src="/images/icon/ic_delete.png" alt="delete icon"/> 重複を削除|| 
 | <img src="/images/icon/ic_replace.png" alt="replace icon"/> ライブラリを切り替え|| 
 | <img src="/images/icon/ic_folder_open.png" alt="folder open icon"/> エクスプローラーで表示|| 
-|  <b>Google ドライブ</b>|| 
+|  **Google ドライブ**|| 
 | <img src="/images/icon/ic_linked.png" alt="linked icon"/> Google ドライブのリンク|| 

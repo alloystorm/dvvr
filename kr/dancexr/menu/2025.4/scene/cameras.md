@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | <img src="/images/icon/ic_radio_on.png" alt="radio on icon"/> [프리플라이 카메라]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[프리플라이 카메라]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[프리플라이 카메라]**| | 
 |  ├─ > 타겟 선택| **자동** | 자동, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |
 |  ├─ > 트래킹 모드| **센터** | 센터, 머리, 가슴,  |
 |  ├─ ⊖ 타겟 부드럽게 만들기| [0.5] (0 ~ 2) | 
@@ -32,7 +32,7 @@ sidebar:
 |  ├─ □ 궤도 이동 사용| [OFF] | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
 |  └─ ≡ 프리셋| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [오르빗 카메라]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[오르빗 카메라]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[오르빗 카메라]**| | 
 |  ├─ > 타겟 선택| **자동** | 자동, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |
 |  ├─ > 트래킹 모드| **센터** | 센터, 머리, 가슴,  |
 |  ├─ ⊖ 타겟 부드럽게 만들기| [0.5] (0 ~ 2) | 
@@ -57,7 +57,7 @@ sidebar:
 |  ├─ ⊖ 속도| [10] (0 ~ 90) | 
 |  └─ ≡ 프리셋| **기본값 (초기화)** | 기본값 (초기화), (Preset 1),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [오토 캠]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[오토 캠]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[오토 캠]**| | 
 |  ├─ > 타겟 선택| **자동** | 자동, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |
 |  ├─ > 트래킹 모드| **센터** | 센터, 머리, 가슴,  |
 |  ├─ ⊖ 타겟 부드럽게 만들기| [0.5] (0 ~ 2) | 
@@ -71,22 +71,22 @@ sidebar:
 |  ├─ ⊖ 검은색으로 페이드| [0] (0 ~ 0.25) | (Duration of the fade-to-black effect during transitions.)
 |  ├─ ⊖ F2B 확률| [0.5] (0 ~ 1) | (Probability of triggering the fade-to-black effect.)
 |  ├─ □ 오디오 민감도| [1] (0 ~ 4) | (Sensitivity of the camera motion to audio levels.)
-|  ├─ <b>대상 선택</b>|| 
+|  ├─ **대상 선택**|| 
 |  ├─ ⊖ 머리| [1] (0 ~ 1) | (Probability of targeting the actor's head.)
 |  ├─ ⊖ 가슴| [1] (0 ~ 1) | (Probability of targeting the actor's chest.)
 |  ├─ ⊖ 센터| [1] (0 ~ 1) | (Probability of targeting the actor's center.)
 |  ├─ ⊖ 다리| [0.5] (0 ~ 1) | (Probability of targeting the actor's legs.)
 |  ├─ ⊖ 발| [0] (0 ~ 1) | (Probability of targeting the actor's feet.)
-|  ├─ <b>거리 선택</b>|| 
+|  ├─ **거리 선택**|| 
 |  ├─ ⊖ 클로즈 업| [1] (0 ~ 1) | (Probability of a close-up camera distance.)
 |  ├─ ⊖ 줌 인| [0.25] (0 ~ 1) | (Probability of zooming in.)
 |  ├─ ⊖ 줌 아웃| [0.25] (0 ~ 1) | (Probability of zooming out.)
 |  ├─ ⊖ 중간| [0.25] (0 ~ 1) | (Probability of a middle-range camera distance.)
 |  ├─ ⊖ 멀리| [0.25] (0 ~ 1) | (Probability of a far camera distance.)
-|  ├─ <b>경로 선택</b>|| 
+|  ├─ **경로 선택**|| 
 |  ├─ ⊖ 높은 각도| [20] (0 ~ 30) | (Maximum upward angle for the camera.)
 |  ├─ ⊖ 낮은 각도| [-20] (-30 ~ 0) | (Maximum downward angle for the camera.)
-|  ├─ <b>방향</b>|| 
+|  ├─ **방향**|| 
 |  ├─ ⊖ 앞 중앙| [1] (0 ~ 1) | (Probability of orienting the camera to the front center of the actor.)
 |  ├─ ⊖ 앞 45도| [0] (0 ~ 1) | (Probability of orienting the camera to a 45-degree angle in front of the actor.)
 |  ├─ ⊖ 측면 90도| [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
@@ -94,7 +94,7 @@ sidebar:
 |  ├─ ⊖ 뒤 180도| [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
 |  └─ ≡ 프리셋| **기본값 (초기화)** | 기본값 (초기화), (Preset 1),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [롱 테이크]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[롱 테이크]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[롱 테이크]**| | 
 |  ├─ > 타겟 선택| **자동** | 자동, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |
 |  ├─ > 트래킹 모드| **센터** | 센터, 머리, 가슴,  |
 |  ├─ ⊖ 타겟 부드럽게 만들기| [0.5] (0 ~ 2) | 
@@ -110,7 +110,7 @@ sidebar:
 |  ├─ □ 가까이 있을 때 초점 올리기| [OFF] | 거리 감소 시 초점 위치 위로 이동
 |  └─ ≡ 프리셋| **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2), (Preset 3),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [1인칭]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[1인칭]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[1인칭]**| | 
 |  ├─ > 배우 선택|  |  |
 |  ├─ ⊖ 시야| [45] (30 ~ 100) | 
 |  ├─ ⊖ 근접 클립 거리| [0.15] (0 ~ 0.3) | 
@@ -122,7 +122,7 @@ sidebar:
 |  ├─ □ 자동 복귀 비활성화| [OFF] | 
 |  └─ 재중심화|| 
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [고정 카메라]|| 
-| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[고정 카메라]</b>| | 
+| └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[고정 카메라]**| | 
 |  ├─ > 타겟 선택| **자동** | 자동, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |
 |  ├─ > 트래킹 모드| **센터** | 센터, 머리, 가슴,  |
 |  ├─ ⊖ 타겟 부드럽게 만들기| [0.5] (0 ~ 2) | 
@@ -139,10 +139,10 @@ sidebar:
 |  ├─ ⊖ 크기| [1] (0 ~ 2) | 
 |  ├─ ⊖ shift| [0] (-1 ~ 1) | 
 |  ├─ ⊖ 타겟 중심| [0] (-1 ~ 1) | 
-|  ├─ <b>오프셋</b>|| 
+|  ├─ **오프셋**|| 
 |  ├─ ⊖ (X)| [0] (-2 ~ 2) | 
 |  ├─ ⊖ (Y)| [0] (-2 ~ 2) | 
 |  ├─ ⊖ (Z)| [0] (-2 ~ 2) | 
 |  └─ ≡ 프리셋| **멀리** | 근접, 멀리,  |
-|  <b>설정</b>|| 
+|  **설정**|| 
 | [카메라 설정](config_camera) |

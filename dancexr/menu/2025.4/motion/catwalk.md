@@ -29,13 +29,13 @@ sidebar:
 |  ⊖ Overlap| [0.25] (0 ~ 2) | 
 |  ⊖ Curve| [0.35] (0 ~ 1) | 
 |  ☑ Hands Symmetrical| [ON] | 
-|  ⚙️ <b>Left Hand</b>| | 
+|  ⚙️ **Left Hand**| | 
 | ├─ > Gesture| **Grab** | Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
-| ├─ ⚙️ <b>Hand Position</b>| | 
+| ├─ ⚙️ **Hand Position**| | 
 | │ ├─ ⊖ X| [0] (Unlimited) | 
 | │ ├─ ⊖ Y| [0] (Unlimited) | 
 | │ └─ ⊖ Z| [0] (Unlimited) | 
-| ├─ ⚙️ <b>Hand Rotation</b>| | 
+| ├─ ⚙️ **Hand Rotation**| | 
 | │ ├─ ⊖ X| [0] (Unlimited) | 
 | │ ├─ ⊖ Y| [0] (Unlimited) | 
 | │ └─ ⊖ Z| [0] (Unlimited) | 
@@ -49,9 +49,9 @@ sidebar:
 | ├─ ⊖ Blend Range| [0.75] (0 ~ 2) | 
 | ├─ ⊖ Symmetrical Offset| [0] (-1 ~ 1) | 
 | ├─ ☑ Use Accessory Position| [ON] | 
-| ├─ □ <b>Motion</b>| | 
+| ├─ □ **Motion**| | 
 | │ ├─ □ Enable| [OFF] | 
-| │ ├─ ⚙️ <b>Speed</b>| | 
+| │ ├─ ⚙️ **Speed**| | 
 | │ │ ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├─ ⊖ Moves Per Group| [8] (4 ~ 32) | 
 | │ │ ├─ ⊖ Phase| [0] (0 ~ 1) | 
@@ -62,7 +62,7 @@ sidebar:
 | │ │ └─ ☑ Max Speed| 3/2 | 1, 3/2, 2, 3, 4, 
 | │ ├─ ⊖ Distance| [0.1] (0 ~ 0.3) | 
 | │ └─ ⊖ Angle| [0] (-60 ~ 60) | 
-| ├─ □ <b>Custom Pose</b>| | 
+| ├─ □ **Custom Pose**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Open| [0] (-1 ~ 1) | 
 | │ ├─ ⊖ Thumb Axis| [90] (-360 ~ 360) | 
@@ -79,13 +79,13 @@ sidebar:
 | ├─ ⊖ Grab Position| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ Grab Axis| [0] (-180 ~ 180) | 
 | └─ ≡ Presets| **Hip** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
-|  ⚙️ <b>Right Hand</b>| | 
+|  ⚙️ **Right Hand**| | 
 | ├─ > Gesture| **Grab** | Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
-| ├─ ⚙️ <b>Hand Position</b>| | 
+| ├─ ⚙️ **Hand Position**| | 
 | │ ├─ ⊖ X| [0] (Unlimited) | 
 | │ ├─ ⊖ Y| [0] (Unlimited) | 
 | │ └─ ⊖ Z| [0] (Unlimited) | 
-| ├─ ⚙️ <b>Hand Rotation</b>| | 
+| ├─ ⚙️ **Hand Rotation**| | 
 | │ ├─ ⊖ X| [0] (Unlimited) | 
 | │ ├─ ⊖ Y| [0] (Unlimited) | 
 | │ └─ ⊖ Z| [0] (Unlimited) | 
@@ -99,9 +99,9 @@ sidebar:
 | ├─ ⊖ Blend Range| [0.75] (0 ~ 2) | 
 | ├─ ⊖ Symmetrical Offset| [0] (-1 ~ 1) | 
 | ├─ ☑ Use Accessory Position| [ON] | 
-| ├─ □ <b>Motion</b>| | 
+| ├─ □ **Motion**| | 
 | │ ├─ □ Enable| [OFF] | 
-| │ ├─ ⚙️ <b>Speed</b>| | 
+| │ ├─ ⚙️ **Speed**| | 
 | │ │ ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
 | │ │ ├─ ⊖ Moves Per Group| [8] (4 ~ 32) | 
 | │ │ ├─ ⊖ Phase| [0] (0 ~ 1) | 
@@ -112,7 +112,7 @@ sidebar:
 | │ │ └─ ☑ Max Speed| 3/2 | 1, 3/2, 2, 3, 4, 
 | │ ├─ ⊖ Distance| [0.1] (0 ~ 0.3) | 
 | │ └─ ⊖ Angle| [0] (-60 ~ 60) | 
-| ├─ □ <b>Custom Pose</b>| | 
+| ├─ □ **Custom Pose**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Open| [0] (-1 ~ 1) | 
 | │ ├─ ⊖ Thumb Axis| [90] (-360 ~ 360) | 
@@ -129,6 +129,6 @@ sidebar:
 | ├─ ⊖ Grab Position| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ Grab Axis| [0] (-180 ~ 180) | 
 | └─ ≡ Presets| **Hip** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
-|  ⚙️ <b>Walk in Circle</b>| | 
+|  ⚙️ **Walk in Circle**| | 
 | ├─ □ Walk in Circle| [OFF] | 
 | └─ ⊖ Radius| [2] (0 ~ 5) | 

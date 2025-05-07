@@ -24,12 +24,12 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 身體扭轉</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 角度</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 壓縮</nobr>| [0.5] (0 ~ 1) | 
-|<nobr> <b>對齊</b></nobr>|| 
+|<nobr> **對齊**</nobr>|| 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-0.2 ~ 0.2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0.05] (-0.5 ~ 0.5) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0.15] (-0.2 ~ 0.2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 下半部</nobr>| [0.1] (0 ~ 0.8) | 
-|<nobr> ⚙️ <b>速度</b></nobr>| | 
+|<nobr> ⚙️ **速度**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 相位</nobr>| [0] (0 ~ 1) | 

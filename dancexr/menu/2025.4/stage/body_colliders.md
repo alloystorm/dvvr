@@ -23,7 +23,7 @@ sidebar:
 |  ⊖ Waist Width| [0.5] (0 ~ 1) | 
 |  ⊖ Hips Width| [0] (-1 ~ 1) | 
 |  ⊖ Butts Radius| [1] (0 ~ 2) | 
-|  <b>Butts Position</b>|| 
+|  **Butts Position**|| 
 |  ⊖ X| [0] (-0.1 ~ 0.1) | 
 |  ⊖ Y| [0] (-0.1 ~ 0.1) | 
 |  ⊖ Z| [0] (-0.1 ~ 0.1) | 

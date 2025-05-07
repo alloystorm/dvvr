@@ -15,7 +15,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr><img src="/images/icon/ic_radio_on.png" alt="radio on icon"/> [自由飛行攝影機]</nobr>|| 
-|<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[自由飛行攝影機]</b></nobr>| | 
+|<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[自由飛行攝影機]**</nobr>| | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 目標選擇</nobr>| **自動** | 自動, 已選擇, 群組, 旋轉, 旋轉 + 群組, 舞台中心,  |
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 追踪模式</nobr>| **中心** | 中心, 頭部, 胸部,  |
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 目標平滑</nobr>| [0.5] (0 ~ 2) | 
@@ -32,7 +32,7 @@ sidebar:
 |<nobr> <img src="/images/icon/ic_line_t.png"/> □ 使用軌道移動</nobr>| [OFF] | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
 |<nobr> └─ ≡ 預設</nobr>| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [軌道攝影機]</nobr>|| 
-|<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[軌道攝影機]</b></nobr>| | 
+|<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[軌道攝影機]**</nobr>| | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 目標選擇</nobr>| **自動** | 自動, 已選擇, 群組, 旋轉, 旋轉 + 群組, 舞台中心,  |
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 追踪模式</nobr>| **中心** | 中心, 頭部, 胸部,  |
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 目標平滑</nobr>| [0.5] (0 ~ 2) | 
@@ -57,7 +57,7 @@ sidebar:
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 速度</nobr>| [10] (0 ~ 90) | 
 |<nobr> └─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [自動攝影機]</nobr>|| 
-|<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[自動攝影機]</b></nobr>| | 
+|<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[自動攝影機]**</nobr>| | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 目標選擇</nobr>| **自動** | 自動, 已選擇, 群組, 旋轉, 旋轉 + 群組, 舞台中心,  |
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 追踪模式</nobr>| **中心** | 中心, 頭部, 胸部,  |
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 目標平滑</nobr>| [0.5] (0 ~ 2) | 
@@ -71,22 +71,22 @@ sidebar:
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 淡入黑色</nobr>| [0] (0 ~ 0.25) | (Duration of the fade-to-black effect during transitions.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ F2B 機率</nobr>| [0.5] (0 ~ 1) | (Probability of triggering the fade-to-black effect.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> □ 音頻靈敏度</nobr>| [1] (0 ~ 4) | (Sensitivity of the camera motion to audio levels.)
-|<nobr> <img src="/images/icon/ic_line_t.png"/> <b>目標選擇</b></nobr>|| 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> **目標選擇**</nobr>|| 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 頭部</nobr>| [1] (0 ~ 1) | (Probability of targeting the actor's head.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 胸部</nobr>| [1] (0 ~ 1) | (Probability of targeting the actor's chest.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 中心</nobr>| [1] (0 ~ 1) | (Probability of targeting the actor's center.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 腿部</nobr>| [0.5] (0 ~ 1) | (Probability of targeting the actor's legs.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 腳</nobr>| [0] (0 ~ 1) | (Probability of targeting the actor's feet.)
-|<nobr> <img src="/images/icon/ic_line_t.png"/> <b>距離選擇</b></nobr>|| 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> **距離選擇**</nobr>|| 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 特寫</nobr>| [1] (0 ~ 1) | (Probability of a close-up camera distance.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 放大</nobr>| [0.25] (0 ~ 1) | (Probability of zooming in.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 縮小</nobr>| [0.25] (0 ~ 1) | (Probability of zooming out.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 中間</nobr>| [0.25] (0 ~ 1) | (Probability of a middle-range camera distance.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 遠</nobr>| [0.25] (0 ~ 1) | (Probability of a far camera distance.)
-|<nobr> <img src="/images/icon/ic_line_t.png"/> <b>路徑選擇</b></nobr>|| 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> **路徑選擇**</nobr>|| 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 高角度</nobr>| [20] (0 ~ 30) | (Maximum upward angle for the camera.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 低角度</nobr>| [-20] (-30 ~ 0) | (Maximum downward angle for the camera.)
-|<nobr> <img src="/images/icon/ic_line_t.png"/> <b>朝向</b></nobr>|| 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> **朝向**</nobr>|| 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 正中央</nobr>| [1] (0 ~ 1) | (Probability of orienting the camera to the front center of the actor.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 前方 45</nobr>| [0] (0 ~ 1) | (Probability of orienting the camera to a 45-degree angle in front of the actor.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 側面 90</nobr>| [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
@@ -94,7 +94,7 @@ sidebar:
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 背面 180</nobr>| [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
 |<nobr> └─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [長鏡頭]</nobr>|| 
-|<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[長鏡頭]</b></nobr>| | 
+|<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[長鏡頭]**</nobr>| | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 目標選擇</nobr>| **自動** | 自動, 已選擇, 群組, 旋轉, 旋轉 + 群組, 舞台中心,  |
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 追踪模式</nobr>| **中心** | 中心, 頭部, 胸部,  |
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 目標平滑</nobr>| [0.5] (0 ~ 2) | 
@@ -110,7 +110,7 @@ sidebar:
 |<nobr> <img src="/images/icon/ic_line_t.png"/> □ 靠近時抬高焦點</nobr>| [OFF] | 當距離變小時，上移焦點位置
 |<nobr> └─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [第一人稱]</nobr>|| 
-|<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[第一人稱]</b></nobr>| | 
+|<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[第一人稱]**</nobr>| | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 選擇演員</nobr>|  |  |
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 視場</nobr>| [45] (30 ~ 100) | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 近裁剪距離</nobr>| [0.15] (0 ~ 0.3) | 
@@ -122,7 +122,7 @@ sidebar:
 |<nobr> <img src="/images/icon/ic_line_t.png"/> □ 停用自動回歸</nobr>| [OFF] | 
 |<nobr> └─ 重新居中</nobr>|| 
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [固定鏡頭]</nobr>|| 
-|<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[固定鏡頭]</b></nobr>| | 
+|<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> **[固定鏡頭]**</nobr>| | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 目標選擇</nobr>| **自動** | 自動, 已選擇, 群組, 旋轉, 旋轉 + 群組, 舞台中心,  |
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 追踪模式</nobr>| **中心** | 中心, 頭部, 胸部,  |
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 目標平滑</nobr>| [0.5] (0 ~ 2) | 
@@ -139,10 +139,10 @@ sidebar:
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 大小</nobr>| [1] (0 ~ 2) | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 移位</nobr>| [0] (-1 ~ 1) | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 目標中心</nobr>| [0] (-1 ~ 1) | 
-|<nobr> <img src="/images/icon/ic_line_t.png"/> <b>偏移</b></nobr>|| 
+|<nobr> <img src="/images/icon/ic_line_t.png"/> **偏移**</nobr>|| 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ (Z)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> └─ ≡ 預設</nobr>| **遠** | 近距離, 遠,  |
-|<nobr> <b>配置</b></nobr>|| 
+|<nobr> **配置**</nobr>|| 
 | [配置攝影機](config_camera) |

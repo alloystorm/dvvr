@@ -19,7 +19,7 @@ sidebar:
 |  ⊖ Body| [1] (0.1 ~ 2) | 
 |  ⊖ Hands| [0.5] (0.1 ~ 2) | 
 |  ⊖ Feet| [0.5] (0.1 ~ 2) | 
-|  <b>Water Drop</b>|| 
+|  **Water Drop**|| 
 |  ⊖ Sweat Drops| [0] (0 ~ 1) | 
 |  ⊖ Water Drop Glow| [5] (0 ~ 20) | 
 |  ⊖ Water Drop Gravity| [3] (0 ~ 10) | 

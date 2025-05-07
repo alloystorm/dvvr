@@ -30,22 +30,22 @@ sidebar:
 |  ⊖ 검은색으로 페이드| [0] (0 ~ 0.25) | (Duration of the fade-to-black effect during transitions.)
 |  ⊖ F2B 확률| [0.5] (0 ~ 1) | (Probability of triggering the fade-to-black effect.)
 |  □ 오디오 민감도| [1] (0 ~ 4) | (Sensitivity of the camera motion to audio levels.)
-|  <b>대상 선택</b>|| 
+|  **대상 선택**|| 
 |  ⊖ 머리| [1] (0 ~ 1) | (Probability of targeting the actor's head.)
 |  ⊖ 가슴| [1] (0 ~ 1) | (Probability of targeting the actor's chest.)
 |  ⊖ 센터| [1] (0 ~ 1) | (Probability of targeting the actor's center.)
 |  ⊖ 다리| [0.5] (0 ~ 1) | (Probability of targeting the actor's legs.)
 |  ⊖ 발| [0] (0 ~ 1) | (Probability of targeting the actor's feet.)
-|  <b>거리 선택</b>|| 
+|  **거리 선택**|| 
 |  ⊖ 클로즈 업| [1] (0 ~ 1) | (Probability of a close-up camera distance.)
 |  ⊖ 줌 인| [0.25] (0 ~ 1) | (Probability of zooming in.)
 |  ⊖ 줌 아웃| [0.25] (0 ~ 1) | (Probability of zooming out.)
 |  ⊖ 중간| [0.25] (0 ~ 1) | (Probability of a middle-range camera distance.)
 |  ⊖ 멀리| [0.25] (0 ~ 1) | (Probability of a far camera distance.)
-|  <b>경로 선택</b>|| 
+|  **경로 선택**|| 
 |  ⊖ 높은 각도| [20] (0 ~ 30) | (Maximum upward angle for the camera.)
 |  ⊖ 낮은 각도| [-20] (-30 ~ 0) | (Maximum downward angle for the camera.)
-|  <b>방향</b>|| 
+|  **방향**|| 
 |  ⊖ 앞 중앙| [1] (0 ~ 1) | (Probability of orienting the camera to the front center of the actor.)
 |  ⊖ 앞 45도| [0] (0 ~ 1) | (Probability of orienting the camera to a 45-degree angle in front of the actor.)
 |  ⊖ 측면 90도| [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)

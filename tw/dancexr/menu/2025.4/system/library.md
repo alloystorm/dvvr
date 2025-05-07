@@ -19,5 +19,5 @@ sidebar:
 |<nobr><img src="/images/icon/ic_delete.png" alt="delete icon"/> 刪除重複項</nobr>|| 
 |<nobr><img src="/images/icon/ic_replace.png" alt="replace icon"/> 切換庫</nobr>|| 
 |<nobr><img src="/images/icon/ic_folder_open.png" alt="folder open icon"/> 在資源管理器中顯示</nobr>|| 
-|<nobr> <b>Google 雲端硬碟</b></nobr>|| 
+|<nobr> **Google 雲端硬碟**</nobr>|| 
 |<nobr><img src="/images/icon/ic_linked.png" alt="linked icon"/> 連結 Google 雲端硬碟</nobr>|| 

@@ -21,53 +21,53 @@ sidebar:
 |  ⊖ Time Offset Seconds| [0] (-5 ~ 5) | The time offset added to the actor when applying motion in seconds.
 |  □ Spectator| [OFF] | Set the actor as a spectator.
 |  ⊖ Leg Angle| [0] (-15 ~ 15) | 
-|  <b>Pose Adjustment</b>|| 
-|  ⚙️ <b>Center Position</b>| | 
+|  **Pose Adjustment**|| 
+|  ⚙️ **Center Position**| | 
 | ├─ ⊖ X| [0] (-2 ~ 2) | 
 | ├─ ⊖ Y| [0] (-2 ~ 2) | 
 | └─ ⊖ Z| [0] (-2 ~ 2) | 
-|  ⚙️ <b>Center Rotation</b>| | 
+|  ⚙️ **Center Rotation**| | 
 | ├─ ⊖ X| [0] (-180 ~ 180) | 
 | ├─ ⊖ Y| [0] (-180 ~ 180) | 
 | └─ ⊖ Z| [0] (-180 ~ 180) | 
-|  ⚙️ <b>Shoulder Rotation</b>| | 
+|  ⚙️ **Shoulder Rotation**| | 
 | ├─ ⊖ X| [0] (-90 ~ 90) | 
 | ├─ ⊖ Y| [0] (-90 ~ 90) | 
 | └─ ⊖ Z| [0] (-90 ~ 90) | 
-|  ⚙️ <b>Arm Rotation</b>| | 
+|  ⚙️ **Arm Rotation**| | 
 | ├─ ⊖ X| [0] (-90 ~ 90) | 
 | ├─ ⊖ Y| [0] (-90 ~ 90) | 
 | └─ ⊖ Z| [0] (-90 ~ 90) | 
-|  ⚙️ <b>Forearm Rotation</b>| | 
+|  ⚙️ **Forearm Rotation**| | 
 | ├─ ⊖ X| [0] (-90 ~ 90) | 
 | ├─ ⊖ Y| [0] (-90 ~ 90) | 
 | └─ ⊖ Z| [0] (-90 ~ 90) | 
-|  ⚙️ <b>Hand Rotation</b>| | 
+|  ⚙️ **Hand Rotation**| | 
 | ├─ ⊖ X| [0] (-90 ~ 90) | 
 | ├─ ⊖ Y| [0] (-90 ~ 90) | 
 | └─ ⊖ Z| [0] (-90 ~ 90) | 
-|  ⚙️ <b>Leg Rotation</b>| | 
+|  ⚙️ **Leg Rotation**| | 
 | ├─ ⊖ X| [0] (-90 ~ 90) | 
 | ├─ ⊖ Y| [0] (-90 ~ 90) | 
 | └─ ⊖ Z| [0] (-90 ~ 90) | 
-|  ⚙️ <b>Foot Rotation</b>| | 
+|  ⚙️ **Foot Rotation**| | 
 | ├─ ⊖ X| [0] (-90 ~ 90) | 
 | ├─ ⊖ Y| [0] (-90 ~ 90) | 
 | └─ ⊖ Z| [0] (-90 ~ 90) | 
-|  ⚙️ <b>Thumb Rotation 1</b>| | 
+|  ⚙️ **Thumb Rotation 1**| | 
 | ├─ ⊖ X| [0] (-90 ~ 90) | 
 | ├─ ⊖ Y| [0] (-90 ~ 90) | 
 | └─ ⊖ Z| [0] (-90 ~ 90) | 
-|  ⚙️ <b>Thumb Rotation 2</b>| | 
+|  ⚙️ **Thumb Rotation 2**| | 
 | ├─ ⊖ X| [0] (-90 ~ 90) | 
 | ├─ ⊖ Y| [0] (-90 ~ 90) | 
 | └─ ⊖ Z| [0] (-90 ~ 90) | 
-|  ⚙️ <b>Pinky Finger</b>| | 
+|  ⚙️ **Pinky Finger**| | 
 | ├─ ⊖ X| [0] (-90 ~ 90) | 
 | ├─ ⊖ Y| [0] (-90 ~ 90) | 
 | └─ ⊖ Z| [0] (-90 ~ 90) | 
 |  ⊖ Ring Finger| [0.75] (0 ~ 1) | 
-|  ⚙️ <b>Index Finger</b>| | 
+|  ⚙️ **Index Finger**| | 
 | ├─ ⊖ X| [0] (-90 ~ 90) | 
 | ├─ ⊖ Y| [0] (-90 ~ 90) | 
 | └─ ⊖ Z| [0] (-90 ~ 90) | 

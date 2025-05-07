@@ -17,7 +17,7 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |  ☑ Enable| [ON] | 
-|  ⚙️ <b>Simulation Settings</b>| | 
+|  ⚙️ **Simulation Settings**| | 
 | ├─ ☑ Use Global| [ON] | Find the global settings under Pro / Cloth Simulation
 | ├─ ☑ Enable Dragging| [ON] | 
 | ├─ ☑ Simulate| [ON] | 
@@ -29,15 +29,15 @@ sidebar:
 | ├─ ⊖ Alternate Group Size| [0] (0 ~ 20) | 
 | ├─ ⊖ Table Size| [6] (1 ~ 20) | 
 | └─ □ Two Step Solving| [OFF] | 
-|  <b>Primary Group</b>|| 
+|  **Primary Group**|| 
 |  Select Bones|| Select bones
 |  □ Anchor Along Axis| [OFF] | 
-|  ⚙️ <b>Anchor Offset</b>| | 
+|  ⚙️ **Anchor Offset**| | 
 | ├─ ⊖ X| [0] (-0.2 ~ 0.2) | 
 | ├─ ⊖ Y| [0] (-0.2 ~ 0.2) | 
 | └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
-|  ⚙️ <b>Particle Dynamics</b>| | 
-| ├─ <b>Joints</b>|| 
+|  ⚙️ **Particle Dynamics**| | 
+| ├─ **Joints**|| 
 | ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
 | ├─ ☑ Include Center| [ON] | 
 | ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
@@ -58,12 +58,12 @@ sidebar:
 | ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
 | ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
 | ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-| ├─ ⚙️ <b>Wind</b>| | 
+| ├─ ⚙️ **Wind**| | 
 | │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
 | │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 | │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-| ├─ ⚙️ <b>Collide With</b>| | 
+| ├─ ⚙️ **Collide With**| | 
 | │ ├─ ☑ Head| [ON] | 
 | │ ├─ □ Body| [OFF] | 
 | │ ├─ □ Boobs| [OFF] | 
@@ -75,17 +75,17 @@ sidebar:
 | │ └─ ☑ Player| [ON] | 
 | └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  ⊖ Additional Groups| [0] (0 ~ 7) | 
-|  □ <b>Group 2</b>| | 
+|  □ **Group 2**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
 | ├─ □ Anchor Along Axis| [OFF] | 
-| ├─ ⚙️ <b>Anchor Offset</b>| | 
+| ├─ ⚙️ **Anchor Offset**| | 
 | │ ├─ ⊖ X| [0] (-0.2 ~ 0.2) | 
 | │ ├─ ⊖ Y| [0] (-0.2 ~ 0.2) | 
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
-| └─ ⚙️ <b>Particle Dynamics</b>| | 
-|  ├─ <b>Joints</b>|| 
+| └─ ⚙️ **Particle Dynamics**| | 
+|  ├─ **Joints**|| 
 |  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
 |  ├─ ☑ Include Center| [ON] | 
 |  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
@@ -106,12 +106,12 @@ sidebar:
 |  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
 |  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
 |  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-|  ├─ ⚙️ <b>Wind</b>| | 
+|  ├─ ⚙️ **Wind**| | 
 |  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
 |  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
 |  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 |  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-|  ├─ ⚙️ <b>Collide With</b>| | 
+|  ├─ ⚙️ **Collide With**| | 
 |  │ ├─ ☑ Head| [ON] | 
 |  │ ├─ □ Body| [OFF] | 
 |  │ ├─ □ Boobs| [OFF] | 
@@ -122,17 +122,17 @@ sidebar:
 |  │ ├─ ☑ Feet| [ON] | 
 |  │ └─ ☑ Player| [ON] | 
 |  └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
-|  □ <b>Group 3</b>| | 
+|  □ **Group 3**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
 | ├─ □ Anchor Along Axis| [OFF] | 
-| ├─ ⚙️ <b>Anchor Offset</b>| | 
+| ├─ ⚙️ **Anchor Offset**| | 
 | │ ├─ ⊖ X| [0] (-0.2 ~ 0.2) | 
 | │ ├─ ⊖ Y| [0] (-0.2 ~ 0.2) | 
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
-| └─ ⚙️ <b>Particle Dynamics</b>| | 
-|  ├─ <b>Joints</b>|| 
+| └─ ⚙️ **Particle Dynamics**| | 
+|  ├─ **Joints**|| 
 |  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
 |  ├─ ☑ Include Center| [ON] | 
 |  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
@@ -153,12 +153,12 @@ sidebar:
 |  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
 |  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
 |  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-|  ├─ ⚙️ <b>Wind</b>| | 
+|  ├─ ⚙️ **Wind**| | 
 |  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
 |  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
 |  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 |  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-|  ├─ ⚙️ <b>Collide With</b>| | 
+|  ├─ ⚙️ **Collide With**| | 
 |  │ ├─ ☑ Head| [ON] | 
 |  │ ├─ □ Body| [OFF] | 
 |  │ ├─ □ Boobs| [OFF] | 
@@ -169,17 +169,17 @@ sidebar:
 |  │ ├─ ☑ Feet| [ON] | 
 |  │ └─ ☑ Player| [ON] | 
 |  └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
-|  □ <b>Group 4</b>| | 
+|  □ **Group 4**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
 | ├─ □ Anchor Along Axis| [OFF] | 
-| ├─ ⚙️ <b>Anchor Offset</b>| | 
+| ├─ ⚙️ **Anchor Offset**| | 
 | │ ├─ ⊖ X| [0] (-0.2 ~ 0.2) | 
 | │ ├─ ⊖ Y| [0] (-0.2 ~ 0.2) | 
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
-| └─ ⚙️ <b>Particle Dynamics</b>| | 
-|  ├─ <b>Joints</b>|| 
+| └─ ⚙️ **Particle Dynamics**| | 
+|  ├─ **Joints**|| 
 |  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
 |  ├─ ☑ Include Center| [ON] | 
 |  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
@@ -200,12 +200,12 @@ sidebar:
 |  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
 |  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
 |  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-|  ├─ ⚙️ <b>Wind</b>| | 
+|  ├─ ⚙️ **Wind**| | 
 |  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
 |  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
 |  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 |  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-|  ├─ ⚙️ <b>Collide With</b>| | 
+|  ├─ ⚙️ **Collide With**| | 
 |  │ ├─ ☑ Head| [ON] | 
 |  │ ├─ □ Body| [OFF] | 
 |  │ ├─ □ Boobs| [OFF] | 
@@ -216,17 +216,17 @@ sidebar:
 |  │ ├─ ☑ Feet| [ON] | 
 |  │ └─ ☑ Player| [ON] | 
 |  └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
-|  □ <b>Group 5</b>| | 
+|  □ **Group 5**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
 | ├─ □ Anchor Along Axis| [OFF] | 
-| ├─ ⚙️ <b>Anchor Offset</b>| | 
+| ├─ ⚙️ **Anchor Offset**| | 
 | │ ├─ ⊖ X| [0] (-0.2 ~ 0.2) | 
 | │ ├─ ⊖ Y| [0] (-0.2 ~ 0.2) | 
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
-| └─ ⚙️ <b>Particle Dynamics</b>| | 
-|  ├─ <b>Joints</b>|| 
+| └─ ⚙️ **Particle Dynamics**| | 
+|  ├─ **Joints**|| 
 |  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
 |  ├─ ☑ Include Center| [ON] | 
 |  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
@@ -247,12 +247,12 @@ sidebar:
 |  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
 |  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
 |  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-|  ├─ ⚙️ <b>Wind</b>| | 
+|  ├─ ⚙️ **Wind**| | 
 |  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
 |  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
 |  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 |  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-|  ├─ ⚙️ <b>Collide With</b>| | 
+|  ├─ ⚙️ **Collide With**| | 
 |  │ ├─ ☑ Head| [ON] | 
 |  │ ├─ □ Body| [OFF] | 
 |  │ ├─ □ Boobs| [OFF] | 
@@ -263,17 +263,17 @@ sidebar:
 |  │ ├─ ☑ Feet| [ON] | 
 |  │ └─ ☑ Player| [ON] | 
 |  └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
-|  □ <b>Group 6</b>| | 
+|  □ **Group 6**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
 | ├─ □ Anchor Along Axis| [OFF] | 
-| ├─ ⚙️ <b>Anchor Offset</b>| | 
+| ├─ ⚙️ **Anchor Offset**| | 
 | │ ├─ ⊖ X| [0] (-0.2 ~ 0.2) | 
 | │ ├─ ⊖ Y| [0] (-0.2 ~ 0.2) | 
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
-| └─ ⚙️ <b>Particle Dynamics</b>| | 
-|  ├─ <b>Joints</b>|| 
+| └─ ⚙️ **Particle Dynamics**| | 
+|  ├─ **Joints**|| 
 |  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
 |  ├─ ☑ Include Center| [ON] | 
 |  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
@@ -294,12 +294,12 @@ sidebar:
 |  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
 |  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
 |  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-|  ├─ ⚙️ <b>Wind</b>| | 
+|  ├─ ⚙️ **Wind**| | 
 |  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
 |  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
 |  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 |  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-|  ├─ ⚙️ <b>Collide With</b>| | 
+|  ├─ ⚙️ **Collide With**| | 
 |  │ ├─ ☑ Head| [ON] | 
 |  │ ├─ □ Body| [OFF] | 
 |  │ ├─ □ Boobs| [OFF] | 
@@ -310,17 +310,17 @@ sidebar:
 |  │ ├─ ☑ Feet| [ON] | 
 |  │ └─ ☑ Player| [ON] | 
 |  └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
-|  □ <b>Group 7</b>| | 
+|  □ **Group 7**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
 | ├─ □ Anchor Along Axis| [OFF] | 
-| ├─ ⚙️ <b>Anchor Offset</b>| | 
+| ├─ ⚙️ **Anchor Offset**| | 
 | │ ├─ ⊖ X| [0] (-0.2 ~ 0.2) | 
 | │ ├─ ⊖ Y| [0] (-0.2 ~ 0.2) | 
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
-| └─ ⚙️ <b>Particle Dynamics</b>| | 
-|  ├─ <b>Joints</b>|| 
+| └─ ⚙️ **Particle Dynamics**| | 
+|  ├─ **Joints**|| 
 |  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
 |  ├─ ☑ Include Center| [ON] | 
 |  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
@@ -341,12 +341,12 @@ sidebar:
 |  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
 |  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
 |  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-|  ├─ ⚙️ <b>Wind</b>| | 
+|  ├─ ⚙️ **Wind**| | 
 |  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
 |  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
 |  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 |  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-|  ├─ ⚙️ <b>Collide With</b>| | 
+|  ├─ ⚙️ **Collide With**| | 
 |  │ ├─ ☑ Head| [ON] | 
 |  │ ├─ □ Body| [OFF] | 
 |  │ ├─ □ Boobs| [OFF] | 
@@ -357,17 +357,17 @@ sidebar:
 |  │ ├─ ☑ Feet| [ON] | 
 |  │ └─ ☑ Player| [ON] | 
 |  └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
-|  □ <b>Group 8</b>| | 
+|  □ **Group 8**| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
 | ├─ □ Anchor Along Axis| [OFF] | 
-| ├─ ⚙️ <b>Anchor Offset</b>| | 
+| ├─ ⚙️ **Anchor Offset**| | 
 | │ ├─ ⊖ X| [0] (-0.2 ~ 0.2) | 
 | │ ├─ ⊖ Y| [0] (-0.2 ~ 0.2) | 
 | │ └─ ⊖ Z| [0] (-0.2 ~ 0.2) | 
 | ├─ ☑ Use Primary Group Settings| [ON] | 
-| └─ ⚙️ <b>Particle Dynamics</b>| | 
-|  ├─ <b>Joints</b>|| 
+| └─ ⚙️ **Particle Dynamics**| | 
+|  ├─ **Joints**|| 
 |  ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
 |  ├─ ☑ Include Center| [ON] | 
 |  ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
@@ -388,12 +388,12 @@ sidebar:
 |  ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
 |  ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
 |  ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
-|  ├─ ⚙️ <b>Wind</b>| | 
+|  ├─ ⚙️ **Wind**| | 
 |  │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
 |  │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
 |  │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
 |  │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
-|  ├─ ⚙️ <b>Collide With</b>| | 
+|  ├─ ⚙️ **Collide With**| | 
 |  │ ├─ ☑ Head| [ON] | 
 |  │ ├─ □ Body| [OFF] | 
 |  │ ├─ □ Boobs| [OFF] | 

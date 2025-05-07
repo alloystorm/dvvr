@@ -31,7 +31,7 @@ sidebar:
 |<nobr> ⊖ 大小</nobr>| [1] (0 ~ 2) | 
 |<nobr> ⊖ 偏移</nobr>| [0] (-1 ~ 1) | 
 |<nobr> ⊖ 目标中心</nobr>| [0] (-1 ~ 1) | 
-|<nobr> <b>偏移</b></nobr>|| 
+|<nobr> **偏移**</nobr>|| 
 |<nobr> ⊖ (X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> ⊖ (Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> ⊖ (Z)</nobr>| [0] (-2 ~ 2) | 

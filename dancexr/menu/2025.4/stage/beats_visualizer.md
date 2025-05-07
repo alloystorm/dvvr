@@ -20,7 +20,7 @@ sidebar:
 |  ⊖ Radius| [1.2] (0.2 ~ 5) | 
 |  ⊖ Marker Size| [0.02] (0 ~ 1) | 
 |  ⊖ Line Width| [0.01] (0 ~ 1) | 
-|  ⚙️ <b>Line Color</b>| | 
+|  ⚙️ **Line Color**| | 
 | ├─ ☑ Color Mode| HSV | RGB, HSV, 
 | ├─ ⊖ Hue| [0.3333333] (0 ~ 1) | 
 | ├─ ⊖ Satuation| [1] (0 ~ 1) | 
@@ -30,7 +30,7 @@ sidebar:
 | ├─ ⊖ Blue| [0] (0 ~ 1) | 
 | ├─ ⊖ Glow| [1] (0 ~ 20) | 
 | └─ ≡ Presets| **Green** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
-|  ⚙️ <b>Marker Color</b>| | 
+|  ⚙️ **Marker Color**| | 
 | ├─ ☑ Color Mode| HSV | RGB, HSV, 
 | ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | ├─ ⊖ Satuation| [0] (0 ~ 1) | 

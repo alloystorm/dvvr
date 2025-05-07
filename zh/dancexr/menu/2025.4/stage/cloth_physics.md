@@ -17,7 +17,7 @@ sidebar:
 |<nobr> ☑ 启用</nobr>| [ON] | 
 |<nobr> 选择骨骼</nobr>|| 选择骨骼
 |<nobr> ⊖ 跳过前 X 个骨骼</nobr>| [0] (0 ~ 5) | 前 X 个层级不创建物理连接
-|<nobr> ☑ <b>粒子动力学</b></nobr>| | 
+|<nobr> ☑ **粒子动力学**</nobr>| | 
 |<nobr>├─ ☑ 启用</nobr>| [ON] | 
 |<nobr>├─ ⊖ 摆动柔顺性</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>├─ ⊖ 扭转柔顺性</nobr>| [0.75] (0 ~ 1) | 
@@ -34,12 +34,12 @@ sidebar:
 |<nobr>├─ ⊖ 拖拽（空气）</nobr>| [0] (0 ~ 2) | 空气阻力
 |<nobr>├─ ⊖ 拖拽（水下）</nobr>| [1] (0 ~ 2) | 水下阻力
 |<nobr>├─ ⊖ 浮力</nobr>| [-0.1] (-1 ~ 1) | 
-|<nobr>├─ ⚙️ <b>风</b></nobr>| | 
+|<nobr>├─ ⚙️ **风**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 风的影响</nobr>| [0.25] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流比例</nobr>| [0] (-2 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 湍流强度</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 湍流时间比例</nobr>| [0] (-4 ~ 4) | 
-|<nobr>├─ ⚙️ <b>碰撞与</b></nobr>| | 
+|<nobr>├─ ⚙️ **碰撞与**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 头部</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 身体</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 胸部</nobr>| [ON] | 
@@ -49,7 +49,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 腿</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 脚</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ☑ 玩家</nobr>| [ON] | 
-|<nobr>└─ ⚙️ <b>模拟设置</b></nobr>| | 
+|<nobr>└─ ⚙️ **模拟设置**</nobr>| | 
 |<nobr> ├─ ☑ 使用全局</nobr>| [ON] | 在 Pro / 布料模拟下找到全局设置
 |<nobr> ├─ ☑ 启用拖动</nobr>| [ON] | 
 |<nobr> ├─ ☑ 模拟</nobr>| [ON] | 

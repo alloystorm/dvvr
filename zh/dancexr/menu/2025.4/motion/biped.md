@@ -19,7 +19,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 作为第二个分配给所有</nobr>|| 
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 作为第二个分配给所选</nobr>|| 
 |<nobr> ⊖ 范围</nobr>| [0.5] (0 ~ 1) | 
-|<nobr> ⚙️ <b>速度</b></nobr>| | 
+|<nobr> ⚙️ **速度**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 每拍动作数</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 每组动作数</nobr>| [8] (4 ~ 32) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 相位</nobr>| [0] (0 ~ 1) | 

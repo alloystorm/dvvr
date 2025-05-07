@@ -19,5 +19,5 @@ sidebar:
 | <img src="/images/icon/ic_delete.png" alt="delete icon"/> 중복 제거|| 
 | <img src="/images/icon/ic_replace.png" alt="replace icon"/> 라이브러리 전환|| 
 | <img src="/images/icon/ic_folder_open.png" alt="folder open icon"/> 탐색기에서 보기|| 
-|  <b>구글 드라이브</b>|| 
+|  **구글 드라이브**|| 
 | <img src="/images/icon/ic_linked.png" alt="linked icon"/> 구글 드라이브 링크|| 

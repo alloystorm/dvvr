@@ -20,7 +20,7 @@ sidebar:
 |<nobr> ⊖ 半徑</nobr>| [1.2] (0.2 ~ 5) | 
 |<nobr> ⊖ 標記大小</nobr>| [0.02] (0 ~ 1) | 
 |<nobr> ⊖ 線條寬度</nobr>| [0.01] (0 ~ 1) | 
-|<nobr> ⚙️ <b>線條顏色</b></nobr>| | 
+|<nobr> ⚙️ **線條顏色**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 顏色模式</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 色相</nobr>| [0.3333333] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 飽和度</nobr>| [1] (0 ~ 1) | 
@@ -30,7 +30,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 藍色</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 發光</nobr>| [1] (0 ~ 20) | 
 |<nobr>└─ ≡ 預設</nobr>| **綠色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
-|<nobr> ⚙️ <b>標記顏色</b></nobr>| | 
+|<nobr> ⚙️ **標記顏色**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 顏色模式</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 飽和度</nobr>| [0] (0 ~ 1) | 

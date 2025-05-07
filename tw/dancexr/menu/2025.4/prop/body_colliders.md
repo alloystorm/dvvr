@@ -23,7 +23,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 腰部寬度</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 臀部寬度</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 臀部半徑</nobr>| [1] (0 ~ 2) | 
-|<nobr> <b>臀部位置</b></nobr>|| 
+|<nobr> **臀部位置**</nobr>|| 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-0.1 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-0.1 ~ 0.1) | 

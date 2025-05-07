@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> <b>배우 모션</b></nobr>|| 
+|<nobr> **배우 모션**</nobr>|| 
 |<nobr><img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [idle]</nobr>|| 
 |<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두에 할당</nobr>|| 
 |<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것에 할당</nobr>|| 
@@ -43,7 +43,7 @@ sidebar:
 |<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것에 할당</nobr>|| 
 |<nobr>├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두를 2번째로 할당</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것을 2번째로 할당</nobr>|| 
-|<nobr> <b>카메라 모션</b></nobr>|| 
+|<nobr> **카메라 모션**</nobr>|| 
 | [[프리플라이 카메라]](freefly_cam) |
 | [[오르빗 카메라]](orbit_cam) |
 | [[오토 캠]](auto_cam) |

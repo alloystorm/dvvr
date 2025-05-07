@@ -34,7 +34,7 @@ sidebar:
 |<nobr> ⊖ 高度</nobr>| [4] (1 ~ 8) | 生成區域的高度
 |<nobr> ⊖ 停留在地面</nobr>| [0.5] (0 ~ 1) | 粒子落到地面後保持的時間。設置為0則會立即消失
 |<nobr> ⊖ 雨聲效果</nobr>| [0.5] (0 ~ 1) | 
-|<nobr> □ <b>雨水材質</b></nobr>| | 
+|<nobr> □ **雨水材質**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 強度</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 水滴持續時間</nobr>| [5] (0 ~ 20) | 

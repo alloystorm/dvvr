@@ -18,9 +18,9 @@ sidebar:
 |  ☑ Ground| [OFF] | 
 |  ⊖ Radius| [200] (2 ~ 100) | Size of the ground mesh.
 |  ☑ Hide If Stage Present| [ON] | Hide ground when there are stage models.
-|  ⚙️ <b>Surface</b>| | 
+|  ⚙️ **Surface**| | 
 | ├─ > Texture| **[Tiles]** | [Sky Map], [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |
-| ├─ ⚙️ <b>Tiling</b>| | 
+| ├─ ⚙️ **Tiling**| | 
 | │ ├─ ⊖ Tiling X| [1] (0.1 ~ 10) | 
 | │ ├─ ⊖ Tiling Y| [1] (0.1 ~ 10) | 
 | │ ├─ ☑ Wrap Mode| Repeat | Repeat, Mirror U, Mirror V, Mirror Both, 
@@ -36,7 +36,7 @@ sidebar:
 | ├─ ⊖ Ambient| [1] (0 ~ 1) | 
 | ├─ ⊖ Alpha| [1] (0 ~ 1) | 
 | ├─ ⊖ Clip| [0] (0 ~ 1) | 
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -47,7 +47,7 @@ sidebar:
 | │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
 | │ └─ ≡ Presets| **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├─ □ <b>Toon Shader</b>| | 
+| ├─ □ **Toon Shader**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
 | │ ├─ ⊖ Outline| [0.5] (0 ~ 1) | 
@@ -60,12 +60,12 @@ sidebar:
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
 | │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| ├─ ⚙️ <b>Special Shader</b>| | 
+| ├─ ⚙️ **Special Shader**| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
 | │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
 | ├─ ⊖ Viewer Height| [1.5] (0.5 ~ 3) | Viewer height used when projecting the the texture on to the ground
-| ├─ □ <b>LED Mode</b>| | 
+| ├─ □ **LED Mode**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Density| [7] (4 ~ 10) | 
 | │ ├─ ⊖ Size| [0.8] (0 ~ 1) | 
@@ -74,8 +74,8 @@ sidebar:
 | │ ├─ ⊖ Edge| [0.5] (0 ~ 1) | 
 | │ └─ ⊖ Reduce Moire| [0.1] (0 ~ 1) | 
 | └─ ≡ Presets| **Black Gloss** | Sky Map, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
-|  □ <b>Shadow Only</b>| | 
-| ├─ <b>Shadow Color</b>|| 
+|  □ **Shadow Only**| | 
+| ├─ **Shadow Color**|| 
 | ├─ ≡ Presets| **Black** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
 | ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | ├─ ⊖ Hue| [0] (0 ~ 1) | 
@@ -89,7 +89,7 @@ sidebar:
 |  ≡ Presets| **Off** | Off, Runway, Pool, Room, Background Board, Projector Screen, LED Screen,  |
 |  ⊖ Lift| [0.5] (-2 ~ 2) | Lift the stage up / down.
 |  ⊖ Front / Back Offset| [0] (-10 ~ 10) | 
-|  ⚙️ <b>Shape</b>| | 
+|  ⚙️ **Shape**| | 
 | ├─ ⊖ Center Width| [8] (0 ~ 10) | Width of the center area.
 | ├─ ⊖ Center Depth| [5] (0 ~ 9) | Depth of the center area.
 | ├─ ⊖ Back Height| [0] (0 ~ 9) | Height of the background board.
@@ -100,9 +100,9 @@ sidebar:
 | ├─ ⊖ Wall Thickness| [0.1] (0 ~ 1) | Size of the edge.
 | ├─ ⊖ Window| [0] (0 ~ 1) | 
 | └─ □ Floating| [OFF] | 
-|  ⚙️ <b>Surface</b>| | 
+|  ⚙️ **Surface**| | 
 | ├─ > Texture| **[Wood1]** | [Blank], [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |
-| ├─ ⚙️ <b>Tiling</b>| | 
+| ├─ ⚙️ **Tiling**| | 
 | │ ├─ ⊖ Tiling X| [1] (0.1 ~ 10) | 
 | │ ├─ ⊖ Tiling Y| [1] (0.1 ~ 10) | 
 | │ ├─ ☑ Wrap Mode| Repeat | Repeat, Mirror U, Mirror V, Mirror Both, 
@@ -118,7 +118,7 @@ sidebar:
 | ├─ ⊖ Ambient| [1] (0 ~ 1) | 
 | ├─ ⊖ Alpha| [1] (0 ~ 1) | 
 | ├─ ⊖ Clip| [0] (0 ~ 1) | 
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -129,7 +129,7 @@ sidebar:
 | │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
 | │ └─ ≡ Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├─ □ <b>Toon Shader</b>| | 
+| ├─ □ **Toon Shader**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
 | │ ├─ ⊖ Outline| [0.5] (0 ~ 1) | 
@@ -142,11 +142,11 @@ sidebar:
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
 | │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| ├─ ⚙️ <b>Special Shader</b>| | 
+| ├─ ⚙️ **Special Shader**| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
 | │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
-| ├─ □ <b>LED Mode</b>| | 
+| ├─ □ **LED Mode**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Density| [7] (4 ~ 10) | 
 | │ ├─ ⊖ Size| [0.8] (0 ~ 1) | 
@@ -155,9 +155,9 @@ sidebar:
 | │ ├─ ⊖ Edge| [0.5] (0 ~ 1) | 
 | │ └─ ⊖ Reduce Moire| [0.1] (0 ~ 1) | 
 | └─ ≡ Presets| **Wood** | Blank, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
-|  ⚙️ <b>Back Surface</b>| | 
+|  ⚙️ **Back Surface**| | 
 | ├─ > Texture| **[Blank]** | [Blank], [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |
-| ├─ ⚙️ <b>Tiling</b>| | 
+| ├─ ⚙️ **Tiling**| | 
 | │ ├─ ⊖ Tiling X| [1] (0.1 ~ 10) | 
 | │ ├─ ⊖ Tiling Y| [1] (0.1 ~ 10) | 
 | │ ├─ ☑ Wrap Mode| Repeat | Repeat, Mirror U, Mirror V, Mirror Both, 
@@ -173,7 +173,7 @@ sidebar:
 | ├─ ⊖ Ambient| [1] (0 ~ 1) | 
 | ├─ ⊖ Alpha| [1] (0 ~ 1) | 
 | ├─ ⊖ Clip| [0] (0 ~ 1) | 
-| ├─ ⚙️ <b>Color</b>| | 
+| ├─ ⚙️ **Color**| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -184,7 +184,7 @@ sidebar:
 | │ ├─ > Blend Mode| **Original** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
 | │ └─ ≡ Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├─ □ <b>Toon Shader</b>| | 
+| ├─ □ **Toon Shader**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
 | │ ├─ ⊖ Outline| [0.5] (0 ~ 1) | 
@@ -197,11 +197,11 @@ sidebar:
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
 | │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| ├─ ⚙️ <b>Special Shader</b>| | 
+| ├─ ⚙️ **Special Shader**| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
 | │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
-| ├─ □ <b>LED Mode</b>| | 
+| ├─ □ **LED Mode**| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Density| [7] (4 ~ 10) | 
 | │ ├─ ⊖ Size| [0.8] (0 ~ 1) | 

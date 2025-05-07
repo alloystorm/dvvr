@@ -17,10 +17,10 @@ sidebar:
 |<nobr> □ 啟用</nobr>| [OFF] | 
 |<nobr>☑ 形狀</nobr>| 球 | 球, 鑽石, 水晶, 
 |<nobr> ⊖ 大小</nobr>| [1] (0.1 ~ 10) | 
-|<nobr> ⚙️ <b>風格</b></nobr>| | 
+|<nobr> ⚙️ **風格**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 使用舞台顏色</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 與節拍閃爍</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>顏色</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ **顏色**</nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/>☑ 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 飽和度</nobr>| [0] (0 ~ 1) | 
@@ -38,7 +38,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 投擲陰影</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 軌跡</nobr>| [0] (0 ~ 2) | 
 |<nobr>└─ ≡ 預設</nobr>| **發光** | 發光, 反射, 水晶,  |
-|<nobr> ⚙️ <b>物理</b></nobr>| | 
+|<nobr> ⚙️ **物理**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 重力</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 碰撞</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 質量</nobr>| [0.1] (0 ~ 10) | 

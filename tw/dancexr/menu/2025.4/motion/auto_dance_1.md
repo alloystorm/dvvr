@@ -24,13 +24,13 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 曲線</nobr>| [1] (1 ~ 10) | 
 |<nobr>☑ 每拍運動</nobr>| (1) | (1), (1.5), (2), (3), 
 |<nobr> ☑ 手部對稱</nobr>| [ON] | 
-|<nobr> ⚙️ <b>左手</b></nobr>| | 
+|<nobr> ⚙️ **左手**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> > 手勢</nobr>| **(Palm Fingers Together)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 點, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>手部位置</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ **手部位置**</nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>手掌旋轉</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ **手掌旋轉**</nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] ((Unlimited)) | 
@@ -44,9 +44,9 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合範圍</nobr>| [0.75] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 對稱偏移</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 使用配件位置</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>運動</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ **運動**</nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⚙️ <b>速度</b></nobr>| | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⚙️ **速度**</nobr>| | 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/>☑ 每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 相位</nobr>| [0] (0 ~ 1) | 
@@ -57,7 +57,7 @@ sidebar:
 |<nobr>│ │ └─ ☑ 最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 角度</nobr>| [0] (-60 ~ 60) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>自定義姿勢</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ **自定義姿勢**</nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 打開</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 拇指軸</nobr>| [90] (-360 ~ 360) | 
@@ -74,13 +74,13 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取位置</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Grab Axis)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└─ ≡ 預設</nobr>| **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr> ⚙️ <b>右手</b></nobr>| | 
+|<nobr> ⚙️ **右手**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> > 手勢</nobr>| **(Palm Fingers Together)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 點, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>手部位置</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ **手部位置**</nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>手掌旋轉</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ **手掌旋轉**</nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] ((Unlimited)) | 
@@ -94,9 +94,9 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合範圍</nobr>| [0.75] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 對稱偏移</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 使用配件位置</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>運動</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ **運動**</nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⚙️ <b>速度</b></nobr>| | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⚙️ **速度**</nobr>| | 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/>☑ 每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 相位</nobr>| [0] (0 ~ 1) | 
@@ -107,7 +107,7 @@ sidebar:
 |<nobr>│ │ └─ ☑ 最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 距離</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 角度</nobr>| [0] (-60 ~ 60) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>自定義姿勢</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ **自定義姿勢**</nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 打開</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 拇指軸</nobr>| [90] (-360 ~ 360) | 

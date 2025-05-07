@@ -24,13 +24,13 @@ sidebar:
 |<nobr> ⊖ 곡선</nobr>| [1] (1 ~ 10) | 
 |<nobr>☑ 비트당 모션</nobr>| (1) | (1), (1.5), (2), (3), 
 |<nobr> ☑ 손 대칭</nobr>| [ON] | 
-|<nobr> ⚙️ <b>왼손</b></nobr>| | 
+|<nobr> ⚙️ **왼손**</nobr>| | 
 |<nobr>├─ > 제스처</nobr>| **(Palm Fingers Together)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>├─ ⚙️ <b>손 위치</b></nobr>| | 
+|<nobr>├─ ⚙️ **손 위치**</nobr>| | 
 |<nobr>│ ├─ ⊖ (X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ ├─ ⊖ (Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ └─ ⊖ (Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>├─ ⚙️ <b>손 회전</b></nobr>| | 
+|<nobr>├─ ⚙️ **손 회전**</nobr>| | 
 |<nobr>│ ├─ ⊖ (X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ ├─ ⊖ (Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ └─ ⊖ (Z)</nobr>| [0] ((Unlimited)) | 
@@ -44,9 +44,9 @@ sidebar:
 |<nobr>├─ ⊖ 혼합 범위</nobr>| [0.75] (0 ~ 2) | 
 |<nobr>├─ ⊖ 대칭 오프셋</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├─ ☑ 액세서리 위치 사용</nobr>| [ON] | 
-|<nobr>├─ □ <b>모션</b></nobr>| | 
+|<nobr>├─ □ **모션**</nobr>| | 
 |<nobr>│ ├─ □ 활성화</nobr>| [OFF] | 
-|<nobr>│ ├─ ⚙️ <b>속도</b></nobr>| | 
+|<nobr>│ ├─ ⚙️ **속도**</nobr>| | 
 |<nobr>│ │ ├─ ☑ 비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│ │ ├─ ⊖ 그룹당 움직임</nobr>| [8] (4 ~ 32) | 
 |<nobr>│ │ ├─ ⊖ 주기</nobr>| [0] (0 ~ 1) | 
@@ -57,7 +57,7 @@ sidebar:
 |<nobr>│ │ └─ ☑ 최대 속도</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│ ├─ ⊖ 거리</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│ └─ ⊖ 각도</nobr>| [0] (-60 ~ 60) | 
-|<nobr>├─ □ <b>사용자 정의 포즈</b></nobr>| | 
+|<nobr>├─ □ **사용자 정의 포즈**</nobr>| | 
 |<nobr>│ ├─ □ 활성화</nobr>| [OFF] | 
 |<nobr>│ ├─ ⊖ 열기</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│ ├─ ⊖ 엄지 축</nobr>| [90] (-360 ~ 360) | 
@@ -74,13 +74,13 @@ sidebar:
 |<nobr>├─ ⊖ 잡기 위치</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr>├─ ⊖ (Grab Axis)</nobr>| [0] (-180 ~ 180) | 
 |<nobr>└─ ≡ 프리셋</nobr>| **(Rest)** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr> ⚙️ <b>오른손</b></nobr>| | 
+|<nobr> ⚙️ **오른손**</nobr>| | 
 |<nobr>├─ > 제스처</nobr>| **(Palm Fingers Together)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |
-|<nobr>├─ ⚙️ <b>손 위치</b></nobr>| | 
+|<nobr>├─ ⚙️ **손 위치**</nobr>| | 
 |<nobr>│ ├─ ⊖ (X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ ├─ ⊖ (Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ └─ ⊖ (Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr>├─ ⚙️ <b>손 회전</b></nobr>| | 
+|<nobr>├─ ⚙️ **손 회전**</nobr>| | 
 |<nobr>│ ├─ ⊖ (X)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ ├─ ⊖ (Y)</nobr>| [0] ((Unlimited)) | 
 |<nobr>│ └─ ⊖ (Z)</nobr>| [0] ((Unlimited)) | 
@@ -94,9 +94,9 @@ sidebar:
 |<nobr>├─ ⊖ 혼합 범위</nobr>| [0.75] (0 ~ 2) | 
 |<nobr>├─ ⊖ 대칭 오프셋</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├─ ☑ 액세서리 위치 사용</nobr>| [ON] | 
-|<nobr>├─ □ <b>모션</b></nobr>| | 
+|<nobr>├─ □ **모션**</nobr>| | 
 |<nobr>│ ├─ □ 활성화</nobr>| [OFF] | 
-|<nobr>│ ├─ ⚙️ <b>속도</b></nobr>| | 
+|<nobr>│ ├─ ⚙️ **속도**</nobr>| | 
 |<nobr>│ │ ├─ ☑ 비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>│ │ ├─ ⊖ 그룹당 움직임</nobr>| [8] (4 ~ 32) | 
 |<nobr>│ │ ├─ ⊖ 주기</nobr>| [0] (0 ~ 1) | 
@@ -107,7 +107,7 @@ sidebar:
 |<nobr>│ │ └─ ☑ 최대 속도</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr>│ ├─ ⊖ 거리</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>│ └─ ⊖ 각도</nobr>| [0] (-60 ~ 60) | 
-|<nobr>├─ □ <b>사용자 정의 포즈</b></nobr>| | 
+|<nobr>├─ □ **사용자 정의 포즈**</nobr>| | 
 |<nobr>│ ├─ □ 활성화</nobr>| [OFF] | 
 |<nobr>│ ├─ ⊖ 열기</nobr>| [0] (-1 ~ 1) | 
 |<nobr>│ ├─ ⊖ 엄지 축</nobr>| [90] (-360 ~ 360) | 

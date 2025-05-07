@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr> <b>演員動作</b></nobr>|| 
+|<nobr> **演員動作**</nobr>|| 
 |<nobr><img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [靜止]</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給所有</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定</nobr>|| 
@@ -43,7 +43,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給所有作為第二</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定作為第二</nobr>|| 
-|<nobr> <b>攝影機動作</b></nobr>|| 
+|<nobr> **攝影機動作**</nobr>|| 
 | [[自由飛行攝影機]](freefly_cam) |
 | [[軌道攝影機]](orbit_cam) |
 | [[自動攝影機]](auto_cam) |

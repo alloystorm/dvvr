@@ -24,19 +24,19 @@ sidebar:
 |  ⊖ 바람| [1] (0 ~ 4) | (Global wind speed affecting cloth simulation, particle dynamics, and clouds.)
 |  ⊖ 바람 방향| [0] (0 ~ 360) | (Sets the global wind direction in degrees.)
 |  □ 바람 필드| [OFF] | 
-|  ⚙️ <b>위치</b>| | Sets the position of the wind field.
+|  ⚙️ **위치**| | Sets the position of the wind field.
 | ├─ ⊖ (X)| [0] ((Unlimited)) | 
 | ├─ ⊖ (Y)| [0] ((Unlimited)) | 
 | └─ ⊖ (Z)| [0] ((Unlimited)) | 
-|  ⚙️ <b>회전</b>| | Sets the rotation of the wind field.
+|  ⚙️ **회전**| | Sets the rotation of the wind field.
 | ├─ ⊖ (X)| [0] ((Unlimited)) | 
 | ├─ ⊖ (Y)| [0] ((Unlimited)) | 
 | └─ ⊖ (Z)| [0] ((Unlimited)) | 
 |  ⊖ 거리| [5] (0 ~ 10) | (Sets the distance of the wind field.)
 |  ⊖ 반경| [1] (0 ~ 2) | (Sets the radius of the wind field.)
 |  ⊖ 속도| [1] (0 ~ 4) | (Sets the speed of the wind field.)
-|  <b>하늘 주변</b>|| 
-|  ⚙️ <b>하늘 색상</b>| | 
+|  **하늘 주변**|| 
+|  ⚙️ **하늘 색상**| | 
 | ├─ ☑ 색상 모드| (RGB) | (RGB), (HSV), 
 | ├─ ⊖ 색조| [0] (0 ~ 1) | 
 | ├─ ⊖ 채도| [0] (0 ~ 1) | 
@@ -47,7 +47,7 @@ sidebar:
 | ├─ □ 무대 색상 사용| [OFF] | 무대 링에서 색상 사용
 | ├─ ☑ 색온도| [6500] (3000 ~ 8000) | 
 | └─ ≡ 프리셋| **흰색** | 흰색, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |
-|  ⚙️ <b>중간 색상</b>| | 
+|  ⚙️ **중간 색상**| | 
 | ├─ ☑ 색상 모드| (RGB) | (RGB), (HSV), 
 | ├─ ⊖ 색조| [0] (0 ~ 1) | 
 | ├─ ⊖ 채도| [0] (0 ~ 1) | 
@@ -58,7 +58,7 @@ sidebar:
 | ├─ □ 무대 색상 사용| [OFF] | 무대 링에서 색상 사용
 | ├─ ☑ 색온도| [6500] (3000 ~ 8000) | 
 | └─ ≡ 프리셋| **흰색** | 흰색, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |
-|  ⚙️ <b>지면 색상</b>| | 
+|  ⚙️ **지면 색상**| | 
 | ├─ ☑ 색상 모드| (RGB) | (RGB), (HSV), 
 | ├─ ⊖ 색조| [0] (0 ~ 1) | 
 | ├─ ⊖ 채도| [0] (0 ~ 1) | 
@@ -69,7 +69,7 @@ sidebar:
 | ├─ □ 무대 색상 사용| [OFF] | 무대 링에서 색상 사용
 | ├─ ☑ 색온도| [6500] (3000 ~ 8000) | 
 | └─ ≡ 프리셋| **흰색** | 흰색, 일몰, 빨간색, (Yellow), 파란색, 초록색,  |
-|  ☑ <b>구름</b>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
+|  ☑ **구름**| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
 | ├─ ☑ 활성화| [ON] | (Enables or disables volumetric clouds.)
 | ├─ ⊖ 형상 스케일| [1] (-1 ~ 2) | (Controls the scale of the cloud shapes.)
 | ├─ ⊖ 형상 계수| [0.8] (0 ~ 1) | (Adjusts the shape factor of the clouds.)

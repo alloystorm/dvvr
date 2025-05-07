@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|  <b>Actor Motion</b>|| 
+|  **Actor Motion**|| 
 | <img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [Idle]|| 
 | ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All|| 
 | ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected|| 
@@ -43,7 +43,7 @@ sidebar:
 | ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected|| 
 | ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd|| 
 | └─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd|| 
-|  <b>Camera Motion</b>|| 
+|  **Camera Motion**|| 
 | [[Freefly Cam]](freefly_cam) |
 | [[Orbit Cam]](orbit_cam) |
 | [[Auto Cam]](auto_cam) |

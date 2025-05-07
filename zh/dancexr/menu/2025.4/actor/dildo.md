@@ -16,32 +16,32 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr> □ 假阳具</nobr>| [OFF] | 
 |<nobr> > 模型</nobr>| **[柱子]** | [柱子],  |
-|<nobr> ⚙️ <b>锚点偏移</b></nobr>| | Set the anchor position for the attachment to attach to
-|<nobr>├─ <b>位置</b></nobr>|| 
+|<nobr> ⚙️ **锚点偏移**</nobr>| | Set the anchor position for the attachment to attach to
+|<nobr>├─ **位置**</nobr>|| 
 |<nobr>├─ ⊖ (X)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├─ ⊖ (Y)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├─ ⊖ (Z)</nobr>| [0] (-1 ~ 1) | 
-|<nobr>├─ <b>旋转</b></nobr>|| 
+|<nobr>├─ **旋转**</nobr>|| 
 |<nobr>├─ ⊖ (X)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>├─ ⊖ (Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└─ ⊖ (Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr> <b>大小与对齐</b></nobr>|| 
+|<nobr> **大小与对齐**</nobr>|| 
 |<nobr> ⊖ 物体半径</nobr>| [0.02] (0.01 ~ 0.05) | 
 |<nobr> ⊖ 物体长度</nobr>| [0.2] (0 ~ 5) | 
 |<nobr> ⊖ 缩放</nobr>| [0] (-5 ~ 5) | 
 |<nobr>☑ 方向</nobr>| (Y Up) | (Y Up), (Y Down), (X Up), (X Down), (Z Up), (Z Down), 
-|<nobr> <b>偏移</b></nobr>|| 
+|<nobr> **偏移**</nobr>|| 
 |<nobr> ⊖ (X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> ⊖ (Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> ⊖ (Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr> <b>旋转</b></nobr>|| 
+|<nobr> **旋转**</nobr>|| 
 |<nobr> ⊖ (X)</nobr>| [0] (-180 ~ 180) | 
 |<nobr> ⊖ (Y)</nobr>| [0] (-180 ~ 180) | 
 |<nobr> ⊖ (Z)</nobr>| [0] (-180 ~ 180) | 
 |<nobr> □ 吉他模式</nobr>| [OFF] | 
-|<nobr> □ <b>运动</b></nobr>| | Apply up / down motion to the attachment model
+|<nobr> □ **运动**</nobr>| | Apply up / down motion to the attachment model
 |<nobr>├─ □ 启用</nobr>| [OFF] | 
-|<nobr>├─ ⚙️ <b>速度</b></nobr>| | 
+|<nobr>├─ ⚙️ **速度**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 每拍动作数</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 每组动作数</nobr>| [8] (4 ~ 32) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 相位</nobr>| [0] (0 ~ 1) | 
@@ -53,7 +53,7 @@ sidebar:
 |<nobr>├─ ⊖ 距离</nobr>| [0.1] (0 ~ 0.3) | 
 |<nobr>└─ ⊖ 角度</nobr>| [0] (-60 ~ 60) | 
 |<nobr> > 动画</nobr>| **无** | 无, <br/>选择加载的运动以用于附加物模型 |
-|<nobr><img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>表面</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_texture.png" alt="texture icon"/> **表面**</nobr>| | 
 |<nobr>├─ ⊖ 光泽</nobr>| [0.9] (0 ~ 1) | 
 |<nobr>├─ ⊖ 金属质感</nobr>| [1] (0 ~ 1) | 
 |<nobr>├─ ⊖ 凹凸</nobr>| [0.2] (0 ~ 1) | 
@@ -61,7 +61,7 @@ sidebar:
 |<nobr>├─ ⊖ 环境光</nobr>| [1] (0 ~ 1) | 
 |<nobr>├─ ⊖ 透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>├─ ⊖ 剪切</nobr>| [0] (0 ~ 1) | 
-|<nobr>├─ ⚙️ <b>颜色</b></nobr>| | 
+|<nobr>├─ ⚙️ **颜色**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 饱和度</nobr>| [0] (0 ~ 1) | 
@@ -72,7 +72,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 混合模式</nobr>| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 混合</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
-|<nobr>├─ □ <b>卡通着色器</b></nobr>| | 
+|<nobr>├─ □ **卡通着色器**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 着色</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 轮廓</nobr>| [0.5] (0 ~ 1) | 
@@ -85,7 +85,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 阴影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 柔和阴影</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
-|<nobr>├─ ⚙️ <b>特效着色器</b></nobr>| | 
+|<nobr>├─ ⚙️ **特效着色器**</nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 模式</nobr>| **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 厚度</nobr>| [1] (0 ~ 1) | 
