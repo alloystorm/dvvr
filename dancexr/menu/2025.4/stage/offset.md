@@ -15,11 +15,11 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |  <b>Position</b>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (Unlimited) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (Unlimited) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (Unlimited) | 
+|  ⊖ X| [0] (Unlimited) | 
+|  ⊖ Y| [0] (Unlimited) | 
+|  ⊖ Z| [0] (Unlimited) | 
 |  <b>Rotation</b>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (Unlimited) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (Unlimited) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (Unlimited) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Scale| [1] (0.2 ~ 2) | 
+|  ⊖ X| [0] (Unlimited) | 
+|  ⊖ Y| [0] (Unlimited) | 
+|  ⊖ Z| [0] (Unlimited) | 
+|  ⊖ Scale| [1] (0.2 ~ 2) | 

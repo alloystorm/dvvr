@@ -14,24 +14,24 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 활성화| [ON] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 크기| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 머리 반경| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 팔 반경| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 팔뚝| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 가슴 너비| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 허리 너비| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 엉덩이 너비| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 엉덩이 반경| [1] (0 ~ 2) | 
+|  ☑ 활성화| [ON] | 
+|  ⊖ 크기| [0.5] (0 ~ 1) | 
+|  ⊖ 머리 반경| [1] (0 ~ 2) | 
+|  ⊖ 팔 반경| [1] (0 ~ 2) | 
+|  ⊖ 팔뚝| [1] (0 ~ 2) | 
+|  ⊖ 가슴 너비| [1] (0 ~ 2) | 
+|  ⊖ 허리 너비| [0.5] (0 ~ 1) | 
+|  ⊖ 엉덩이 너비| [0] (-1 ~ 1) | 
+|  ⊖ 엉덩이 반경| [1] (0 ~ 2) | 
 |  <b>엉덩이 위치</b>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)| [0] (-0.1 ~ 0.1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)| [0] (-0.1 ~ 0.1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)| [0] (-0.1 ~ 0.1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 배 반경| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 배 위치| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 다리 반경| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 허벅지 앞으로/뒤로| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 허벅지 시작 위치| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 손| [0] (0 ~ 1) | 
+|  ⊖ (X)| [0] (-0.1 ~ 0.1) | 
+|  ⊖ (Y)| [0] (-0.1 ~ 0.1) | 
+|  ⊖ (Z)| [0] (-0.1 ~ 0.1) | 
+|  ⊖ 배 반경| [1] (0 ~ 2) | 
+|  ⊖ 배 위치| [0] (-1 ~ 1) | 
+|  ⊖ 다리 반경| [1] (0 ~ 2) | 
+|  ⊖ 허벅지 앞으로/뒤로| [0] (-1 ~ 1) | 
+|  ⊖ 허벅지 시작 위치| [0] (0 ~ 1) | 
+|  ⊖ 손| [0] (0 ~ 1) | 
 |  □ 시각화| [OFF] | 
 | <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **기본값 (초기화)** | 기본값 (초기화), (amy), (misaki),  |

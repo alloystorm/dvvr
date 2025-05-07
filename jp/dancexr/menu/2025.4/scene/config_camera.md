@@ -14,10 +14,10 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 高さオフセット| [0] (-5 ~ 5) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 視野角スケール| [1] (0.25 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ポートレートモードズーム| [1.2] (1 ~ 2) | 
+|  ⊖ 高さオフセット| [0] (-5 ~ 5) | 
+|  ⊖ 視野角スケール| [1] (0.25 ~ 2) | 
+|  ⊖ ポートレートモードズーム| [1.2] (1 ~ 2) | 
 | ☑ 回転フィルター| フル回転 | 回転なし, 方向のみ, フル回転, 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 近クリップ| [0.01] (0 ~ 0.5) | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 動きが変わったときにリセット| [ON] | 
+|  ⊖ 近クリップ| [0.01] (0 ~ 0.5) | 
+|  ☑ 動きが変わったときにリセット| [ON] | 
 |  オフセットのリセット|| 

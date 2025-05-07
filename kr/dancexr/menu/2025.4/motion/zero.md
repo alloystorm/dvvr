@@ -18,12 +18,12 @@ sidebar:
 | <img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것에 할당</nobr>|| 
 | <img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두를 2번째로 할당</nobr>|| 
 | <img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것을 2번째로 할당</nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전</nobr>| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 오프셋</nobr>| [0] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 다리</nobr>| [0] (-35 ~ 115) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 무릎</nobr>| [0] (-11 ~ 155) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 팔</nobr>| [0] (-40 ~ 90) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 팔꿈치</nobr>| [0] (-20 ~ 135) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 골반</nobr>| [0] (-25 ~ 25) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 복부</nobr>| [0] (-20 ~ 36) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 가슴</nobr>| [0] (-25 ~ 36) | 
+|  ⊖ 회전</nobr>| [0] (-1 ~ 1) | 
+|  ⊖ 오프셋</nobr>| [0] (0 ~ 2) | 
+|  ⊖ 다리</nobr>| [0] (-35 ~ 115) | 
+|  ⊖ 무릎</nobr>| [0] (-11 ~ 155) | 
+|  ⊖ 팔</nobr>| [0] (-40 ~ 90) | 
+|  ⊖ 팔꿈치</nobr>| [0] (-20 ~ 135) | 
+|  ⊖ 골반</nobr>| [0] (-25 ~ 25) | 
+|  ⊖ 복부</nobr>| [0] (-20 ~ 36) | 
+|  ⊖ 가슴</nobr>| [0] (-25 ~ 36) | 

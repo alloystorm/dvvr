@@ -17,186 +17,186 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |  □ Load Previous Scene| [OFF] | Automatically load the last scene on start
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Block desktop window in VR| [ON] | Blocks desktop window in VR mode
+|  ☑ Block desktop window in VR| [ON] | Blocks desktop window in VR mode
 |  □ Recover Tags From Save| [OFF] | Attempts to recover tags from saved settings in case your content cache is rebuilt or broken
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Flip DDS Compressed| [ON] | Flip compressed DDS texture
+|  ☑ Flip DDS Compressed| [ON] | Flip compressed DDS texture
 |  □ Flip DDS Uncompressed| [OFF] | Flip uncomrpessed DDS texture
 | <img src="/images/icon/ic_hand.png" alt="hand icon"/> <b>VR Hands</b>| | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Hand Visible| [ON] | 
+| ├─ ☑ Hand Visible| [ON] | 
 | ├─ □ Cast Shadow| [OFF] | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Time And FPS| [ON] | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Hand Orientation</b>| | 
+| ├─ ☑ Time And FPS| [ON] | 
+| ├─ ⚙️ <b>Hand Orientation</b>| | 
 | │ ├─ <b>Offset</b>|| 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-0.1 ~ 0.1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-0.1 ~ 0.1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-0.1 ~ 0.1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotation| [45] (-90 ~ 90) | 
+| │ ├─ ⊖ X| [0] (-0.1 ~ 0.1) | 
+| │ ├─ ⊖ Y| [0] (-0.1 ~ 0.1) | 
+| │ ├─ ⊖ Z| [0] (-0.1 ~ 0.1) | 
+| │ ├─ ⊖ Rotation| [45] (-90 ~ 90) | 
 | │ └─ Update Pointer|| 
-| ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Left Hand Pose| **Auto** | Auto, Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
+| ├─ > Left Hand Pose| **Auto** | Auto, Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
 | ├─ □ <b>Left Hand Accessory</b>| | 
 | │ ├─ □ Enable| [OFF] | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Model| **[Pole]** | [Pole],  |
-| │ ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Anchor Offset</b>| | Set the anchor position for the attachment to attach to
+| │ ├─ > Model| **[Pole]** | [Pole],  |
+| │ ├─ ⚙️ <b>Anchor Offset</b>| | Set the anchor position for the attachment to attach to
 | │ │ ├─ <b>Position</b>|| 
-| │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-1 ~ 1) | 
-| │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-1 ~ 1) | 
-| │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-1 ~ 1) | 
+| │ │ ├─ ⊖ X| [0] (-1 ~ 1) | 
+| │ │ ├─ ⊖ Y| [0] (-1 ~ 1) | 
+| │ │ ├─ ⊖ Z| [0] (-1 ~ 1) | 
 | │ │ ├─ <b>Rotation</b>|| 
-| │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-90 ~ 90) | 
-| │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-90 ~ 90) | 
-| │ │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-90 ~ 90) | 
+| │ │ ├─ ⊖ X| [0] (-90 ~ 90) | 
+| │ │ ├─ ⊖ Y| [0] (-90 ~ 90) | 
+| │ │ └─ ⊖ Z| [0] (-90 ~ 90) | 
 | │ ├─ <b>Size & Alignment</b>|| 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Object Radius| [0.02] (0.01 ~ 0.05) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Object Length| [0.2] (0 ~ 5) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Scale| [0] (-5 ~ 5) | 
+| │ ├─ ⊖ Object Radius| [0.02] (0.01 ~ 0.05) | 
+| │ ├─ ⊖ Object Length| [0.2] (0 ~ 5) | 
+| │ ├─ ⊖ Scale| [0] (-5 ~ 5) | 
 | │ ├─ ☑ Orientation| Y Up | Y Up, Y Down, X Up, X Down, Z Up, Z Down, 
 | │ ├─ <b>Offset</b>|| 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-2 ~ 2) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-2 ~ 2) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-2 ~ 2) | 
+| │ ├─ ⊖ X| [0] (-2 ~ 2) | 
+| │ ├─ ⊖ Y| [0] (-2 ~ 2) | 
+| │ ├─ ⊖ Z| [0] (-2 ~ 2) | 
 | │ ├─ <b>Rotation</b>|| 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-180 ~ 180) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-180 ~ 180) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-180 ~ 180) | 
+| │ ├─ ⊖ X| [0] (-180 ~ 180) | 
+| │ ├─ ⊖ Y| [0] (-180 ~ 180) | 
+| │ ├─ ⊖ Z| [0] (-180 ~ 180) | 
 | │ ├─ □ Guitar Mode| [OFF] | 
 | │ ├─ □ <b>Motion</b>| | Apply up / down motion to the attachment model
 | │ │ ├─ □ Enable| [OFF] | 
-| │ │ ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Speed</b>| | 
+| │ │ ├─ ⚙️ <b>Speed</b>| | 
 | │ │ │ ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Moves Per Group| [8] (4 ~ 32) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Phase| [0] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Curve| [0] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Moves Per Group| [8] (4 ~ 32) | 
+| │ │ │ ├─ ⊖ Phase| [0] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Curve| [0] (0 ~ 1) | 
 | │ │ │ ├─ □ Variable Speed| [OFF] | 
 | │ │ │ ├─ ☑ Mode| Gradual | Gradual, Random, Volume, 
 | │ │ │ ├─ ☑ Min Speed| 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
 | │ │ │ └─ ☑ Max Speed| 3/2 | 1, 3/2, 2, 3, 4, 
-| │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Distance| [0.1] (0 ~ 0.3) | 
-| │ │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Angle| [0] (-60 ~ 60) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Animation| **None** | None, <br/>Select loaded motion to use for the attachment model |
+| │ │ ├─ ⊖ Distance| [0.1] (0 ~ 0.3) | 
+| │ │ └─ ⊖ Angle| [0] (-60 ~ 60) | 
+| │ ├─ > Animation| **None** | None, <br/>Select loaded motion to use for the attachment model |
 | │ ├─<img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Surface</b>| | 
-| │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Gloss| [0.9] (0 ~ 1) | 
-| │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic| [1] (0 ~ 1) | 
-| │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump| [0.2] (0 ~ 1) | 
-| │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow| [0] (0 ~ 10) | 
-| │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient| [1] (0 ~ 1) | 
-| │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha| [1] (0 ~ 1) | 
-| │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Clip| [0] (0 ~ 1) | 
-| │ │ ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b>| | 
+| │ │ ├─ ⊖ Gloss| [0.9] (0 ~ 1) | 
+| │ │ ├─ ⊖ Metallic| [1] (0 ~ 1) | 
+| │ │ ├─ ⊖ Bump| [0.2] (0 ~ 1) | 
+| │ │ ├─ ⊖ Glow| [0] (0 ~ 10) | 
+| │ │ ├─ ⊖ Ambient| [1] (0 ~ 1) | 
+| │ │ ├─ ⊖ Alpha| [1] (0 ~ 1) | 
+| │ │ ├─ ⊖ Clip| [0] (0 ~ 1) | 
+| │ │ ├─ ⚙️ <b>Color</b>| | 
 | │ │ │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue| [0] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation| [0] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness| [1] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red| [1] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green| [1] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue| [1] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend| [1] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Brightness| [1] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Red| [1] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Green| [1] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
+| │ │ │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
+| │ │ │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
 | │ │ │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | │ │ ├─ □ <b>Toon Shader</b>| | 
 | │ │ │ ├─ □ Enable| [OFF] | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shading| [1] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outline| [0.5] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Specular| [0.25] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Specular| [0.1] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Highlight Area| [0.25] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Highlight| [0.1] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient| [0.75] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow Area| [0.65] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow| [0.75] (0 ~ 1) | 
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Shadow| [0.1] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Outline| [0.5] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Specular| [0.25] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Soft Specular| [0.1] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Highlight Area| [0.25] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Soft Highlight| [0.1] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Ambient| [0.75] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Shadow Area| [0.65] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
+| │ │ │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
 | │ │ │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| │ │ ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Special Shader</b>| | 
-| │ │ │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
-| │ │ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Refraction| [0.5] (1 ~ 3) | 
-| │ │ │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Thickness| [1] (0 ~ 1) | 
+| │ │ ├─ ⚙️ <b>Special Shader</b>| | 
+| │ │ │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
+| │ │ │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
+| │ │ │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
 | │ │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> XRay| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Pull Hands| [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
-| │ ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Grab Pose| [ON] | Automatically change hand pose to grab when they are on the attachment
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hand Motion| [0] (-1 ~ 1) | Move hands relative to the attachment motion
-| ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Right Hand Pose| **Auto** | Auto, Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
+| │ ├─ ⊖ XRay| [0] (0 ~ 1) | 
+| │ ├─ ⊖ Alpha| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Pull Hands| [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
+| │ ├─ ☑ Grab Pose| [ON] | Automatically change hand pose to grab when they are on the attachment
+| │ └─ ⊖ Hand Motion| [0] (-1 ~ 1) | Move hands relative to the attachment motion
+| ├─ > Right Hand Pose| **Auto** | Auto, Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
 | └─ □ <b>Right Hand Accessory</b>| | 
 | <img src="/images/icon/ic_space.png"/>├─ □ Enable| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Model| **[Pole]** | [Pole],  |
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Anchor Offset</b>| | Set the anchor position for the attachment to attach to
+| <img src="/images/icon/ic_space.png"/>├─ > Model| **[Pole]** | [Pole],  |
+| <img src="/images/icon/ic_space.png"/>├─ ⚙️ <b>Anchor Offset</b>| | Set the anchor position for the attachment to attach to
 | <img src="/images/icon/ic_space.png"/>│ ├─ <b>Position</b>|| 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ X| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Y| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Z| [0] (-1 ~ 1) | 
 | <img src="/images/icon/ic_space.png"/>│ ├─ <b>Rotation</b>|| 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_space.png"/>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-90 ~ 90) | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ X| [0] (-90 ~ 90) | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Y| [0] (-90 ~ 90) | 
+| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ Z| [0] (-90 ~ 90) | 
 | <img src="/images/icon/ic_space.png"/>├─ <b>Size & Alignment</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Object Radius| [0.02] (0.01 ~ 0.05) | 
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Object Length| [0.2] (0 ~ 5) | 
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Scale| [0] (-5 ~ 5) | 
+| <img src="/images/icon/ic_space.png"/>├─ ⊖ Object Radius| [0.02] (0.01 ~ 0.05) | 
+| <img src="/images/icon/ic_space.png"/>├─ ⊖ Object Length| [0.2] (0 ~ 5) | 
+| <img src="/images/icon/ic_space.png"/>├─ ⊖ Scale| [0] (-5 ~ 5) | 
 | <img src="/images/icon/ic_space.png"/>├─ ☑ Orientation| Y Up | Y Up, Y Down, X Up, X Down, Z Up, Z Down, 
 | <img src="/images/icon/ic_space.png"/>├─ <b>Offset</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-2 ~ 2) | 
+| <img src="/images/icon/ic_space.png"/>├─ ⊖ X| [0] (-2 ~ 2) | 
+| <img src="/images/icon/ic_space.png"/>├─ ⊖ Y| [0] (-2 ~ 2) | 
+| <img src="/images/icon/ic_space.png"/>├─ ⊖ Z| [0] (-2 ~ 2) | 
 | <img src="/images/icon/ic_space.png"/>├─ <b>Rotation</b>|| 
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_space.png"/>├─ ⊖ X| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_space.png"/>├─ ⊖ Y| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_space.png"/>├─ ⊖ Z| [0] (-180 ~ 180) | 
 | <img src="/images/icon/ic_space.png"/>├─ □ Guitar Mode| [OFF] | 
 | <img src="/images/icon/ic_space.png"/>├─ □ <b>Motion</b>| | Apply up / down motion to the attachment model
 | <img src="/images/icon/ic_space.png"/>│ ├─ □ Enable| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Speed</b>| | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⚙️ <b>Speed</b>| | 
 | <img src="/images/icon/ic_space.png"/>│ │ ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Moves Per Group| [8] (4 ~ 32) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Phase| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Curve| [0] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Moves Per Group| [8] (4 ~ 32) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Phase| [0] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Curve| [0] (0 ~ 1) | 
 | <img src="/images/icon/ic_space.png"/>│ │ ├─ □ Variable Speed| [OFF] | 
 | <img src="/images/icon/ic_space.png"/>│ │ ├─ ☑ Mode| Gradual | Gradual, Random, Volume, 
 | <img src="/images/icon/ic_space.png"/>│ │ ├─ ☑ Min Speed| 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
 | <img src="/images/icon/ic_space.png"/>│ │ └─ ☑ Max Speed| 3/2 | 1, 3/2, 2, 3, 4, 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Distance| [0.1] (0 ~ 0.3) | 
-| <img src="/images/icon/ic_space.png"/>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Angle| [0] (-60 ~ 60) | 
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Animation| **None** | None, <br/>Select loaded motion to use for the attachment model |
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Distance| [0.1] (0 ~ 0.3) | 
+| <img src="/images/icon/ic_space.png"/>│ └─ ⊖ Angle| [0] (-60 ~ 60) | 
+| <img src="/images/icon/ic_space.png"/>├─ > Animation| **None** | None, <br/>Select loaded motion to use for the attachment model |
 | <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Surface</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Gloss| [0.9] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump| [0.2] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow| [0] (0 ~ 10) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Clip| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b>| | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Gloss| [0.9] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Metallic| [1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Bump| [0.2] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Glow| [0] (0 ~ 10) | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Ambient| [1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Alpha| [1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⊖ Clip| [0] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⚙️ <b>Color</b>| | 
 | <img src="/images/icon/ic_space.png"/>│ │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend| [1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Brightness| [1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Red| [1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Green| [1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
 | <img src="/images/icon/ic_space.png"/>│ │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | <img src="/images/icon/ic_space.png"/>│ ├─ □ <b>Toon Shader</b>| | 
 | <img src="/images/icon/ic_space.png"/>│ │ ├─ □ Enable| [OFF] | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shading| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outline| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Specular| [0.25] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Specular| [0.1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Highlight Area| [0.25] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Highlight| [0.1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient| [0.75] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow Area| [0.65] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow| [0.75] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Shadow| [0.1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Outline| [0.5] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Specular| [0.25] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Soft Specular| [0.1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Highlight Area| [0.25] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Soft Highlight| [0.1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Ambient| [0.75] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Shadow Area| [0.65] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
 | <img src="/images/icon/ic_space.png"/>│ │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| <img src="/images/icon/ic_space.png"/>│ ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Special Shader</b>| | 
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
-| <img src="/images/icon/ic_space.png"/>│ │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Refraction| [0.5] (1 ~ 3) | 
-| <img src="/images/icon/ic_space.png"/>│ │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Thickness| [1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>│ ├─ ⚙️ <b>Special Shader</b>| | 
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
+| <img src="/images/icon/ic_space.png"/>│ │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
+| <img src="/images/icon/ic_space.png"/>│ │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
 | <img src="/images/icon/ic_space.png"/>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> XRay| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Pull Hands| [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
-| <img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Grab Pose| [ON] | Automatically change hand pose to grab when they are on the attachment
-| <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hand Motion| [0] (-1 ~ 1) | Move hands relative to the attachment motion
-| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Gizmo 3rd Axis| **Rotation** | Rotation, Depth,  |
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Use Translated Names| [ON] | 
+| <img src="/images/icon/ic_space.png"/>├─ ⊖ XRay| [0] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>├─ ⊖ Alpha| [1] (0 ~ 1) | 
+| <img src="/images/icon/ic_space.png"/>├─ ⊖ Pull Hands| [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough
+| <img src="/images/icon/ic_space.png"/>├─ ☑ Grab Pose| [ON] | Automatically change hand pose to grab when they are on the attachment
+| <img src="/images/icon/ic_space.png"/>└─ ⊖ Hand Motion| [0] (-1 ~ 1) | Move hands relative to the attachment motion
+|  > Gizmo 3rd Axis| **Rotation** | Rotation, Depth,  |
+|  ☑ Use Translated Names| [ON] | 

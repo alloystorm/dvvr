@@ -15,11 +15,11 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr> <b>位置</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] ((Unlimited)) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] ((Unlimited)) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] ((Unlimited)) | 
+|<nobr> ⊖ (X)</nobr>| [0] ((Unlimited)) | 
+|<nobr> ⊖ (Y)</nobr>| [0] ((Unlimited)) | 
+|<nobr> ⊖ (Z)</nobr>| [0] ((Unlimited)) | 
 |<nobr> <b>旋转</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] ((Unlimited)) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] ((Unlimited)) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] ((Unlimited)) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 缩放</nobr>| [1] (0.2 ~ 2) | 
+|<nobr> ⊖ (X)</nobr>| [0] ((Unlimited)) | 
+|<nobr> ⊖ (Y)</nobr>| [0] ((Unlimited)) | 
+|<nobr> ⊖ (Z)</nobr>| [0] ((Unlimited)) | 
+|<nobr> ⊖ 缩放</nobr>| [1] (0.2 ~ 2) | 

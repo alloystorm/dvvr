@@ -21,15 +21,15 @@ sidebar:
 |  サークル|| 
 |  ゼロ|| 
 |  ファンシェイプ|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> X距離| [1] (-10 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y距離| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 回転| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> オリエンテーション| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 観客フォーメーション使用| [ON] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 観客距離| [2] (0.25 ~ 5) | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 観客回転| [ON] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> オフセットX| [0] (-5 ~ 5) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> オフセットY| [0] (-5 ~ 5) | 
+|  ⊖ X距離| [1] (-10 ~ 10) | 
+|  ⊖ Y距離| [1] (-2 ~ 2) | 
+|  ⊖ 回転| [0] (-180 ~ 180) | 
+|  ⊖ オリエンテーション| [0] (-180 ~ 180) | 
+|  ☑ 観客フォーメーション使用| [ON] | 
+|  ⊖ 観客距離| [2] (0.25 ~ 5) | 
+|  ☑ 観客回転| [ON] | 
+|  ⊖ オフセットX| [0] (-5 ~ 5) | 
+|  ⊖ オフセットY| [0] (-5 ~ 5) | 
 |  アクターリセット|| 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> ランダム小道具位置| [ON] | 
+|  ☑ ランダム小道具位置| [ON] | 
 | <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **デフォルト（リセット）** | デフォルト（リセット）,  |

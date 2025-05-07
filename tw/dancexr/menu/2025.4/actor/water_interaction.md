@@ -14,18 +14,18 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 波紋</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 強度</nobr>| [1] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 身體</nobr>| [1] (0.1 ~ 2) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 手</nobr>| [0.5] (0.1 ~ 2) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 腳</nobr>| [0.5] (0.1 ~ 2) | 
+|<nobr> ☑ 波紋</nobr>| [OFF] | 
+|<nobr> ⊖ 強度</nobr>| [1] (0 ~ 2) | 
+|<nobr> ⊖ 身體</nobr>| [1] (0.1 ~ 2) | 
+|<nobr> ⊖ 手</nobr>| [0.5] (0.1 ~ 2) | 
+|<nobr> ⊖ 腳</nobr>| [0.5] (0.1 ~ 2) | 
 |<nobr> <b>水滴</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 汗水滴</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴發光</nobr>| [5] (0 ~ 20) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴重力</nobr>| [3] (0 ~ 10) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 拖曳</nobr>| [2.5] (0 ~ 10) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 金屬質感</nobr>| [0.25] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 透明度</nobr>| [0.25] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 大小</nobr>| [0.003] (0 ~ 0.01) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 持續時間</nobr>| [5] (0 ~ 10) | 
+|<nobr> ⊖ 汗水滴</nobr>| [0] (0 ~ 1) | 
+|<nobr> ⊖ 水滴發光</nobr>| [5] (0 ~ 20) | 
+|<nobr> ⊖ 水滴重力</nobr>| [3] (0 ~ 10) | 
+|<nobr> ⊖ 拖曳</nobr>| [2.5] (0 ~ 10) | 
+|<nobr> ⊖ 金屬質感</nobr>| [0.25] (0 ~ 1) | 
+|<nobr> ⊖ 透明度</nobr>| [0.25] (0 ~ 1) | 
+|<nobr> ⊖ 大小</nobr>| [0.003] (0 ~ 0.01) | 
+|<nobr> ⊖ 持續時間</nobr>| [5] (0 ~ 10) | 
 |<nobr> □ 汗水碰撞</nobr>| [OFF] | 

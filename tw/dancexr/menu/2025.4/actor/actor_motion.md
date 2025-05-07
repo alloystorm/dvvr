@@ -14,62 +14,62 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 動作比例</nobr>| [1] (0.2 ~ 2) | 縮放位置偏移。
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 垂直位置比例</nobr>| [1] (0 ~ 1) | 減少中心骨骼的垂直運動。
+|<nobr> ⊖ 動作比例</nobr>| [1] (0.2 ~ 2) | 縮放位置偏移。
+|<nobr> ⊖ 垂直位置比例</nobr>| [1] (0 ~ 1) | 減少中心骨骼的垂直運動。
 |<nobr> □ 鏡像（僅限 VMD）</nobr>| [OFF] | 左右動作鏡像。
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 時間偏移百分比</nobr>| [0] (0 ~ 100) | 應用動作時對演員施加的時間偏移百分比。
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 時間偏移秒數</nobr>| [0] (-5 ~ 5) | 應用動作時對演員施加的時間偏移秒數。
+|<nobr> ⊖ 時間偏移百分比</nobr>| [0] (0 ~ 100) | 應用動作時對演員施加的時間偏移百分比。
+|<nobr> ⊖ 時間偏移秒數</nobr>| [0] (-5 ~ 5) | 應用動作時對演員施加的時間偏移秒數。
 |<nobr> □ 觀眾</nobr>| [OFF] | 將演員設置為旁觀者。
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 腿部角度</nobr>| [0] (-15 ~ 15) | 
+|<nobr> ⊖ 腿部角度</nobr>| [0] (-15 ~ 15) | 
 |<nobr> <b>姿勢調整</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>中心位置</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-2 ~ 2) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-2 ~ 2) | 
-|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>中心旋轉</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-180 ~ 180) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-180 ~ 180) | 
-|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-180 ~ 180) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>肩膀旋轉</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>手臂旋轉</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>前臂旋轉</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>手掌旋轉</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>腿部旋轉</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>腳部旋轉</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>拇指旋轉 1</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>拇指旋轉 2</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>小指</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Ring Finger)</nobr>| [0.75] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>食指</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-90 ~ 90) | 
-|<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Middle Finger)</nobr>| [0.5] (0 ~ 1) | 
+|<nobr> ⚙️ <b>中心位置</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-2 ~ 2) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-2 ~ 2) | 
+|<nobr>└─ ⊖ (Z)</nobr>| [0] (-2 ~ 2) | 
+|<nobr> ⚙️ <b>中心旋轉</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-180 ~ 180) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-180 ~ 180) | 
+|<nobr>└─ ⊖ (Z)</nobr>| [0] (-180 ~ 180) | 
+|<nobr> ⚙️ <b>肩膀旋轉</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-90 ~ 90) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-90 ~ 90) | 
+|<nobr>└─ ⊖ (Z)</nobr>| [0] (-90 ~ 90) | 
+|<nobr> ⚙️ <b>手臂旋轉</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-90 ~ 90) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-90 ~ 90) | 
+|<nobr>└─ ⊖ (Z)</nobr>| [0] (-90 ~ 90) | 
+|<nobr> ⚙️ <b>前臂旋轉</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-90 ~ 90) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-90 ~ 90) | 
+|<nobr>└─ ⊖ (Z)</nobr>| [0] (-90 ~ 90) | 
+|<nobr> ⚙️ <b>手掌旋轉</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-90 ~ 90) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-90 ~ 90) | 
+|<nobr>└─ ⊖ (Z)</nobr>| [0] (-90 ~ 90) | 
+|<nobr> ⚙️ <b>腿部旋轉</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-90 ~ 90) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-90 ~ 90) | 
+|<nobr>└─ ⊖ (Z)</nobr>| [0] (-90 ~ 90) | 
+|<nobr> ⚙️ <b>腳部旋轉</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-90 ~ 90) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-90 ~ 90) | 
+|<nobr>└─ ⊖ (Z)</nobr>| [0] (-90 ~ 90) | 
+|<nobr> ⚙️ <b>拇指旋轉 1</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-90 ~ 90) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-90 ~ 90) | 
+|<nobr>└─ ⊖ (Z)</nobr>| [0] (-90 ~ 90) | 
+|<nobr> ⚙️ <b>拇指旋轉 2</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-90 ~ 90) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-90 ~ 90) | 
+|<nobr>└─ ⊖ (Z)</nobr>| [0] (-90 ~ 90) | 
+|<nobr> ⚙️ <b>小指</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-90 ~ 90) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-90 ~ 90) | 
+|<nobr>└─ ⊖ (Z)</nobr>| [0] (-90 ~ 90) | 
+|<nobr> ⊖ (Ring Finger)</nobr>| [0.75] (0 ~ 1) | 
+|<nobr> ⚙️ <b>食指</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-90 ~ 90) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-90 ~ 90) | 
+|<nobr>└─ ⊖ (Z)</nobr>| [0] (-90 ~ 90) | 
+|<nobr> ⊖ (Middle Finger)</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (2b),  |

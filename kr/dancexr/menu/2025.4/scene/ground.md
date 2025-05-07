@@ -14,210 +14,210 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 바닥 높이| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 바닥| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 반경| [200] (2 ~ 100) | 바닥 메쉬의 크기
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 스테이지가 존재할 경우 숨기기| [ON] | 스테이지 모델이 있을 때 바닥 숨기기
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>표면</b>| | 
-| ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 텍스처| **[타일]** | [하늘 맵], [우드1], [우드2], [타일], [콘크리트], [비디오],  |
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>타일링</b>| | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 타일링 X| [1] (0.1 ~ 10) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 타일링 Y| [1] (0.1 ~ 10) | 
+|  ⊖ 바닥 높이| [0] (-2 ~ 2) | 
+|  ☑ 바닥| [OFF] | 
+|  ⊖ 반경| [200] (2 ~ 100) | 바닥 메쉬의 크기
+|  ☑ 스테이지가 존재할 경우 숨기기| [ON] | 스테이지 모델이 있을 때 바닥 숨기기
+|  ⚙️ <b>표면</b>| | 
+| ├─ > 텍스처| **[타일]** | [하늘 맵], [우드1], [우드2], [타일], [콘크리트], [비디오],  |
+| ├─ ⚙️ <b>타일링</b>| | 
+| │ ├─ ⊖ 타일링 X| [1] (0.1 ~ 10) | 
+| │ ├─ ⊖ 타일링 Y| [1] (0.1 ~ 10) | 
 | │ ├─ ☑ 랩 모드| 반복 | 반복, 거울 U, 거울 V, 거울 모두, 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 오프셋 X| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y 오프셋| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전| [0] (0 ~ 360) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 변형| [0.5] (0 ~ 1) | 
+| │ ├─ ⊖ 오프셋 X| [0] (0 ~ 1) | 
+| │ ├─ ⊖ Y 오프셋| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 회전| [0] (0 ~ 360) | 
+| │ ├─ ⊖ 변형| [0.5] (0 ~ 1) | 
 | │ └─ □ 텍스처 맞춤| [OFF] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 광택| [0.95] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 금속성| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 범프| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 발광| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 앰비언트| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 알파| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 클립| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>색상</b>| | 
+| ├─ ⊖ 광택| [0.95] (0 ~ 1) | 
+| ├─ ⊖ 금속성| [0] (0 ~ 1) | 
+| ├─ ⊖ 범프| [0.2] (0 ~ 1) | 
+| ├─ ⊖ 발광| [0] (0 ~ 10) | 
+| ├─ ⊖ 앰비언트| [1] (0 ~ 1) | 
+| ├─ ⊖ 알파| [1] (0 ~ 1) | 
+| ├─ ⊖ 클립| [0] (0 ~ 1) | 
+| ├─ ⚙️ <b>색상</b>| | 
 | │ ├─ ☑ 색상 모드| (RGB) | (RGB), (HSV), 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 채도| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 밝기| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 빨간색| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 초록색| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 파란색| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 혼합 모드| **혼합** | 원본, (Multiply), 혼합, (Color Shift),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 혼합| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 색조| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 채도| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 밝기| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 빨간색| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 초록색| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 파란색| [1] (0 ~ 1) | 
+| │ ├─ > 혼합 모드| **혼합** | 원본, (Multiply), 혼합, (Color Shift),  |
+| │ ├─ ⊖ 혼합| [1] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **검은색** | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |
 | ├─ □ <b>툰 셰이더</b>| | 
 | │ ├─ □ 활성화| [OFF] | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 쉐이딩| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 윤곽선| [0.5] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 스페큘러| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 소프트 스페큘러| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 하이라이트 영역| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 부드러운 하이라이트| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 앰비언트| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 그림자 영역| [0.65] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 그림자| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 부드러운 그림자| [0.1] (0 ~ 1) | 
+| │ ├─ ⊖ 쉐이딩| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 윤곽선| [0.5] (0 ~ 1) | 
+| │ ├─ ⊖ 스페큘러| [0.25] (0 ~ 1) | 
+| │ ├─ ⊖ 소프트 스페큘러| [0.1] (0 ~ 1) | 
+| │ ├─ ⊖ 하이라이트 영역| [0.25] (0 ~ 1) | 
+| │ ├─ ⊖ 부드러운 하이라이트| [0.1] (0 ~ 1) | 
+| │ ├─ ⊖ 앰비언트| [0.75] (0 ~ 1) | 
+| │ ├─ ⊖ 그림자 영역| [0.65] (0 ~ 1) | 
+| │ ├─ ⊖ 그림자| [0.75] (0 ~ 1) | 
+| │ ├─ ⊖ 부드러운 그림자| [0.1] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **선명한** | 선명한, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>특수 셰이더</b>| | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 모드| **끄기** | 끄기, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 굴절| [0.5] (1 ~ 3) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 두께| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 뷰어 높이| [1.5] (0.5 ~ 3) | 지면에 텍스처를 투사할 때 사용되는 뷰어 높이
+| ├─ ⚙️ <b>특수 셰이더</b>| | 
+| │ ├─ > 모드| **끄기** | 끄기, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |
+| │ ├─ ⊖ 굴절| [0.5] (1 ~ 3) | 
+| │ └─ ⊖ 두께| [1] (0 ~ 1) | 
+| ├─ ⊖ 뷰어 높이| [1.5] (0.5 ~ 3) | 지면에 텍스처를 투사할 때 사용되는 뷰어 높이
 | ├─ □ <b>LED 모드</b>| | 
 | │ ├─ □ 활성화| [OFF] | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 밀도| [7] (4 ~ 10) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 크기| [0.8] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 부드러운 모서리| [0.3] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 시야각| [1] (0 ~ 8) | 각도에서 볼 때 밝기를 줄입니다. 0 = 완벽
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 엣지| [0.5] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 모아레 감소| [0.1] (0 ~ 1) | 
+| │ ├─ ⊖ 밀도| [7] (4 ~ 10) | 
+| │ ├─ ⊖ 크기| [0.8] (0 ~ 1) | 
+| │ ├─ ⊖ 부드러운 모서리| [0.3] (0 ~ 1) | 
+| │ ├─ ⊖ 시야각| [1] (0 ~ 8) | 각도에서 볼 때 밝기를 줄입니다. 0 = 완벽
+| │ ├─ ⊖ 엣지| [0.5] (0 ~ 1) | 
+| │ └─ ⊖ 모아레 감소| [0.1] (0 ~ 1) | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **검은색 광택** | 하늘 맵, 나무, 콘크리트, 블루 타일, 프로젝터 화면, 발광 화면, LED 화면, 검은색 광택, 발광, 유리,  |
 |  □ <b>그림자 전용</b>| | 
 | ├─ <b>그림자 색상</b>|| 
 | ├─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **검은색** | 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange), (Preset 1),  |
 | ├─ ☑ 색상 모드| (RGB) | (RGB), (HSV), 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 채도| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 밝기| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 빨간색| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 초록색| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 파란색| [0] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 투명도| [0.5] (0 ~ 1) | 
+| ├─ ⊖ 색조| [0] (0 ~ 1) | 
+| ├─ ⊖ 채도| [0] (0 ~ 1) | 
+| ├─ ⊖ 밝기| [0] (0 ~ 1) | 
+| ├─ ⊖ 빨간색| [0] (0 ~ 1) | 
+| ├─ ⊖ 초록색| [0] (0 ~ 1) | 
+| ├─ ⊖ 파란색| [0] (0 ~ 1) | 
+| └─ ⊖ 투명도| [0.5] (0 ~ 1) | 
 |  □ 스테이지 / 풀| [OFF] | 
 | <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **끄기** | 끄기, 활주로, 풀, 방, 배경 판, 프로젝터 화면, LED 화면,  |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 들기| [0.5] (-2 ~ 2) | 스테이지를 위/아래로 들어 올리기
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Front / Back Offset)| [0] (-10 ~ 10) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>형상</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 센터 너비| [8] (0 ~ 10) | 중앙 영역의 너비
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 센터 깊이| [5] (0 ~ 9) | 중앙 영역의 깊이
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 뒤 높이| [0] (0 ~ 9) | 배경 판의 높이
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 측면 확장| [0] (0 ~ 5) | 좌우 확장
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 앞쪽 확장| [0] (0 ~ 10) | 앞쪽 확장
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 뒤쪽 확장| [0] (0 ~ 10) | 뒤쪽 확장
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 벽 높이| [0.05] (0 ~ 5) | 지면 위 가장자리의 높이
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 벽 두께| [0.1] (0 ~ 1) | 가장자리의 크기
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 창| [0] (0 ~ 1) | 
+|  ⊖ 들기| [0.5] (-2 ~ 2) | 스테이지를 위/아래로 들어 올리기
+|  ⊖ (Front / Back Offset)| [0] (-10 ~ 10) | 
+|  ⚙️ <b>형상</b>| | 
+| ├─ ⊖ 센터 너비| [8] (0 ~ 10) | 중앙 영역의 너비
+| ├─ ⊖ 센터 깊이| [5] (0 ~ 9) | 중앙 영역의 깊이
+| ├─ ⊖ 뒤 높이| [0] (0 ~ 9) | 배경 판의 높이
+| ├─ ⊖ 측면 확장| [0] (0 ~ 5) | 좌우 확장
+| ├─ ⊖ 앞쪽 확장| [0] (0 ~ 10) | 앞쪽 확장
+| ├─ ⊖ 뒤쪽 확장| [0] (0 ~ 10) | 뒤쪽 확장
+| ├─ ⊖ 벽 높이| [0.05] (0 ~ 5) | 지면 위 가장자리의 높이
+| ├─ ⊖ 벽 두께| [0.1] (0 ~ 1) | 가장자리의 크기
+| ├─ ⊖ 창| [0] (0 ~ 1) | 
 | └─ □ 떠 있는| [OFF] | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>표면</b>| | 
-| ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 텍스처| **[우드1]** | [빈], [우드1], [우드2], [타일], [콘크리트], [비디오],  |
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>타일링</b>| | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 타일링 X| [1] (0.1 ~ 10) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 타일링 Y| [1] (0.1 ~ 10) | 
+|  ⚙️ <b>표면</b>| | 
+| ├─ > 텍스처| **[우드1]** | [빈], [우드1], [우드2], [타일], [콘크리트], [비디오],  |
+| ├─ ⚙️ <b>타일링</b>| | 
+| │ ├─ ⊖ 타일링 X| [1] (0.1 ~ 10) | 
+| │ ├─ ⊖ 타일링 Y| [1] (0.1 ~ 10) | 
 | │ ├─ ☑ 랩 모드| 반복 | 반복, 거울 U, 거울 V, 거울 모두, 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 오프셋 X| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y 오프셋| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전| [0] (0 ~ 360) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 변형| [0.5] (0 ~ 1) | 
+| │ ├─ ⊖ 오프셋 X| [0] (0 ~ 1) | 
+| │ ├─ ⊖ Y 오프셋| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 회전| [0] (0 ~ 360) | 
+| │ ├─ ⊖ 변형| [0.5] (0 ~ 1) | 
 | │ └─ □ 텍스처 맞춤| [OFF] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 광택| [0.95] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 금속성| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 범프| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 발광| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 앰비언트| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 알파| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 클립| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>색상</b>| | 
+| ├─ ⊖ 광택| [0.95] (0 ~ 1) | 
+| ├─ ⊖ 금속성| [0] (0 ~ 1) | 
+| ├─ ⊖ 범프| [0.2] (0 ~ 1) | 
+| ├─ ⊖ 발광| [0] (0 ~ 10) | 
+| ├─ ⊖ 앰비언트| [1] (0 ~ 1) | 
+| ├─ ⊖ 알파| [1] (0 ~ 1) | 
+| ├─ ⊖ 클립| [0] (0 ~ 1) | 
+| ├─ ⚙️ <b>색상</b>| | 
 | │ ├─ ☑ 색상 모드| (RGB) | (RGB), (HSV), 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 채도| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 밝기| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 빨간색| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 초록색| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 파란색| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 혼합 모드| **혼합** | 원본, (Multiply), 혼합, (Color Shift),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 혼합| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 색조| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 채도| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 밝기| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 빨간색| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 초록색| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 파란색| [1] (0 ~ 1) | 
+| │ ├─ > 혼합 모드| **혼합** | 원본, (Multiply), 혼합, (Color Shift),  |
+| │ ├─ ⊖ 혼합| [1] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **흰색** | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |
 | ├─ □ <b>툰 셰이더</b>| | 
 | │ ├─ □ 활성화| [OFF] | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 쉐이딩| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 윤곽선| [0.5] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 스페큘러| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 소프트 스페큘러| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 하이라이트 영역| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 부드러운 하이라이트| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 앰비언트| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 그림자 영역| [0.65] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 그림자| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 부드러운 그림자| [0.1] (0 ~ 1) | 
+| │ ├─ ⊖ 쉐이딩| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 윤곽선| [0.5] (0 ~ 1) | 
+| │ ├─ ⊖ 스페큘러| [0.25] (0 ~ 1) | 
+| │ ├─ ⊖ 소프트 스페큘러| [0.1] (0 ~ 1) | 
+| │ ├─ ⊖ 하이라이트 영역| [0.25] (0 ~ 1) | 
+| │ ├─ ⊖ 부드러운 하이라이트| [0.1] (0 ~ 1) | 
+| │ ├─ ⊖ 앰비언트| [0.75] (0 ~ 1) | 
+| │ ├─ ⊖ 그림자 영역| [0.65] (0 ~ 1) | 
+| │ ├─ ⊖ 그림자| [0.75] (0 ~ 1) | 
+| │ ├─ ⊖ 부드러운 그림자| [0.1] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **선명한** | 선명한, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>특수 셰이더</b>| | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 모드| **끄기** | 끄기, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 굴절| [0.5] (1 ~ 3) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 두께| [1] (0 ~ 1) | 
+| ├─ ⚙️ <b>특수 셰이더</b>| | 
+| │ ├─ > 모드| **끄기** | 끄기, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |
+| │ ├─ ⊖ 굴절| [0.5] (1 ~ 3) | 
+| │ └─ ⊖ 두께| [1] (0 ~ 1) | 
 | ├─ □ <b>LED 모드</b>| | 
 | │ ├─ □ 활성화| [OFF] | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 밀도| [7] (4 ~ 10) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 크기| [0.8] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 부드러운 모서리| [0.3] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 시야각| [1] (0 ~ 8) | 각도에서 볼 때 밝기를 줄입니다. 0 = 완벽
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 엣지| [0.5] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 모아레 감소| [0.1] (0 ~ 1) | 
+| │ ├─ ⊖ 밀도| [7] (4 ~ 10) | 
+| │ ├─ ⊖ 크기| [0.8] (0 ~ 1) | 
+| │ ├─ ⊖ 부드러운 모서리| [0.3] (0 ~ 1) | 
+| │ ├─ ⊖ 시야각| [1] (0 ~ 8) | 각도에서 볼 때 밝기를 줄입니다. 0 = 완벽
+| │ ├─ ⊖ 엣지| [0.5] (0 ~ 1) | 
+| │ └─ ⊖ 모아레 감소| [0.1] (0 ~ 1) | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **나무** | 빈칸, 나무, 콘크리트, 블루 타일, 프로젝터 화면, 발광 화면, LED 화면, 검은색 광택, 발광, 유리,  |
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>뒤쪽 표면</b>| | 
-| ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 텍스처| **[빈]** | [빈], [우드1], [우드2], [타일], [콘크리트], [비디오],  |
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>타일링</b>| | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 타일링 X| [1] (0.1 ~ 10) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 타일링 Y| [1] (0.1 ~ 10) | 
+|  ⚙️ <b>뒤쪽 표면</b>| | 
+| ├─ > 텍스처| **[빈]** | [빈], [우드1], [우드2], [타일], [콘크리트], [비디오],  |
+| ├─ ⚙️ <b>타일링</b>| | 
+| │ ├─ ⊖ 타일링 X| [1] (0.1 ~ 10) | 
+| │ ├─ ⊖ 타일링 Y| [1] (0.1 ~ 10) | 
 | │ ├─ ☑ 랩 모드| 반복 | 반복, 거울 U, 거울 V, 거울 모두, 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 오프셋 X| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y 오프셋| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전| [0] (0 ~ 360) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 변형| [0.5] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 텍스처 맞춤| [ON] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 광택| [0.95] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 금속성| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 범프| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 발광| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 앰비언트| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 알파| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 클립| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>색상</b>| | 
+| │ ├─ ⊖ 오프셋 X| [0] (0 ~ 1) | 
+| │ ├─ ⊖ Y 오프셋| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 회전| [0] (0 ~ 360) | 
+| │ ├─ ⊖ 변형| [0.5] (0 ~ 1) | 
+| │ └─ ☑ 텍스처 맞춤| [ON] | 
+| ├─ ⊖ 광택| [0.95] (0 ~ 1) | 
+| ├─ ⊖ 금속성| [0] (0 ~ 1) | 
+| ├─ ⊖ 범프| [0.2] (0 ~ 1) | 
+| ├─ ⊖ 발광| [0] (0 ~ 10) | 
+| ├─ ⊖ 앰비언트| [1] (0 ~ 1) | 
+| ├─ ⊖ 알파| [1] (0 ~ 1) | 
+| ├─ ⊖ 클립| [0] (0 ~ 1) | 
+| ├─ ⚙️ <b>색상</b>| | 
 | │ ├─ ☑ 색상 모드| (RGB) | (RGB), (HSV), 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 채도| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 밝기| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 빨간색| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 초록색| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 파란색| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 혼합 모드| **원본** | 원본, (Multiply), 혼합, (Color Shift),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 혼합| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 색조| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 채도| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 밝기| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 빨간색| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 초록색| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 파란색| [1] (0 ~ 1) | 
+| │ ├─ > 혼합 모드| **원본** | 원본, (Multiply), 혼합, (Color Shift),  |
+| │ ├─ ⊖ 혼합| [1] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **흰색** | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |
 | ├─ □ <b>툰 셰이더</b>| | 
 | │ ├─ □ 활성화| [OFF] | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 쉐이딩| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 윤곽선| [0.5] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 스페큘러| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 소프트 스페큘러| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 하이라이트 영역| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 부드러운 하이라이트| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 앰비언트| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 그림자 영역| [0.65] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 그림자| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 부드러운 그림자| [0.1] (0 ~ 1) | 
+| │ ├─ ⊖ 쉐이딩| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 윤곽선| [0.5] (0 ~ 1) | 
+| │ ├─ ⊖ 스페큘러| [0.25] (0 ~ 1) | 
+| │ ├─ ⊖ 소프트 스페큘러| [0.1] (0 ~ 1) | 
+| │ ├─ ⊖ 하이라이트 영역| [0.25] (0 ~ 1) | 
+| │ ├─ ⊖ 부드러운 하이라이트| [0.1] (0 ~ 1) | 
+| │ ├─ ⊖ 앰비언트| [0.75] (0 ~ 1) | 
+| │ ├─ ⊖ 그림자 영역| [0.65] (0 ~ 1) | 
+| │ ├─ ⊖ 그림자| [0.75] (0 ~ 1) | 
+| │ ├─ ⊖ 부드러운 그림자| [0.1] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **선명한** | 선명한, 부드러운, 밝은, 플랫 + 스페큘러, 플랫,  |
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>특수 셰이더</b>| | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 모드| **끄기** | 끄기, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 굴절| [0.5] (1 ~ 3) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 두께| [1] (0 ~ 1) | 
+| ├─ ⚙️ <b>특수 셰이더</b>| | 
+| │ ├─ > 모드| **끄기** | 끄기, 두꺼운 굴절, 얇은 굴절, 윤곽선, 조명 없음, (Experiment),  |
+| │ ├─ ⊖ 굴절| [0.5] (1 ~ 3) | 
+| │ └─ ⊖ 두께| [1] (0 ~ 1) | 
 | ├─ □ <b>LED 모드</b>| | 
 | │ ├─ □ 활성화| [OFF] | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 밀도| [7] (4 ~ 10) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 크기| [0.8] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 부드러운 모서리| [0.3] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 시야각| [1] (0 ~ 8) | 각도에서 볼 때 밝기를 줄입니다. 0 = 완벽
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 엣지| [0.5] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 모아레 감소| [0.1] (0 ~ 1) | 
+| │ ├─ ⊖ 밀도| [7] (4 ~ 10) | 
+| │ ├─ ⊖ 크기| [0.8] (0 ~ 1) | 
+| │ ├─ ⊖ 부드러운 모서리| [0.3] (0 ~ 1) | 
+| │ ├─ ⊖ 시야각| [1] (0 ~ 8) | 각도에서 볼 때 밝기를 줄입니다. 0 = 완벽
+| │ ├─ ⊖ 엣지| [0.5] (0 ~ 1) | 
+| │ └─ ⊖ 모아레 감소| [0.1] (0 ~ 1) | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **빈칸** | 빈칸, 나무, 콘크리트, 블루 타일, 프로젝터 화면, 발광 화면, LED 화면, 검은색 광택, 발광, 유리,  |
 |  □ 물 시스템| [OFF] | 
 | <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **끄기** | 끄기, 풀, (Still Water), 바다,  |
 | ☑ 유형| 풀 | 풀, 강, 바다, 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 높이| [-0.1] (-2 ~ 2) | 수위의 높이
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 물결| [3] (0 ~ 10) | 작은 파도의 세기
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 큰 파도| [30] (0 ~ 100) | 큰 파도의 세기
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 굴절 최대 거리| [0.35] (0 ~ 3.5) | 물속 굴절 깊이를 조정하는 최대 거리(미터). 값이 높을수록 왜곡량이 증가합니다.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 흡수 거리| [5] (1 ~ 10) | 위에서 물속에서 볼 수 있는 최대 거리
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 빛의 굴절| [0.5] (0 ~ 1) | 빛의 굴절 효과
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 흡수 배수기| [2] (0 ~ 5) | 아래에서 볼 때 흡수 거리에 적용되는 곱셈
+|  ⊖ 높이| [-0.1] (-2 ~ 2) | 수위의 높이
+|  ⊖ 물결| [3] (0 ~ 10) | 작은 파도의 세기
+|  ⊖ 큰 파도| [30] (0 ~ 100) | 큰 파도의 세기
+|  ⊖ 굴절 최대 거리| [0.35] (0 ~ 3.5) | 물속 굴절 깊이를 조정하는 최대 거리(미터). 값이 높을수록 왜곡량이 증가합니다.
+|  ⊖ 흡수 거리| [5] (1 ~ 10) | 위에서 물속에서 볼 수 있는 최대 거리
+|  ⊖ 빛의 굴절| [0.5] (0 ~ 1) | 빛의 굴절 효과
+|  ⊖ 흡수 배수기| [2] (0 ~ 5) | 아래에서 볼 때 흡수 거리에 적용되는 곱셈
 | <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **검은색 광택** | 하늘 맵, 검은색 광택, 무대, 풀, 바다, 배경 판, 프로젝터 화면, 발광 화면, (Preset 1),  |

@@ -14,11 +14,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用</nobr>| [ON] | 
+|<nobr> ☑ 啟用</nobr>| [ON] | 
 |<nobr> 選擇骨骼</nobr>|| 選擇骨骼
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 跳過前 X 根骨骼</nobr>| [0] (0 ~ 5) | 對前 x 級不創建物理連接
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> <b>粒子動力學</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用</nobr>| [ON] | 
+|<nobr> ☑ <b>粒子動力學</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 啟用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 擺動柔性</nobr>| [0.25] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 扭轉柔性</nobr>| [0.75] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 粒子錨點</nobr>| [0.5] (0 ~ 1) | 
@@ -34,26 +34,26 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 空氣阻力</nobr>| [0] (0 ~ 2) | 空氣阻抗
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水下阻力</nobr>| [1] (0 ~ 2) | 水下阻抗
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 浮力</nobr>| [-0.1] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>風</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>風</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 風的影響</nobr>| [0.25] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 湍流比例</nobr>| [0] (-2 ~ 2) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 湍流強度</nobr>| [1] (0 ~ 2) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 湍流時間比例</nobr>| [0] (-4 ~ 4) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>碰撞物</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 頭部</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 身體</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 胸部</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 臀部</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> (Arms)</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 手</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 腿部</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 腳</nobr>| [ON] | 
-|<nobr>│ └─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 玩家</nobr>| [ON] | 
-|<nobr>└─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>模擬設置</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 使用全局</nobr>| [ON] | 在專業版/布料模擬下查找全局設置
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用拖動</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 模擬</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 模擬幀率</nobr>| **動態** | 動態, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>碰撞物</b></nobr>| | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> ☑ 頭部</nobr>| [ON] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> ☑ 身體</nobr>| [ON] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> ☑ 胸部</nobr>| [ON] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> ☑ 臀部</nobr>| [ON] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> ☑ (Arms)</nobr>| [ON] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> ☑ 手</nobr>| [ON] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> ☑ 腿部</nobr>| [ON] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> ☑ 腳</nobr>| [ON] | 
+|<nobr>│ └─ ☑ 玩家</nobr>| [ON] | 
+|<nobr>└─ ⚙️ <b>模擬設置</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 使用全局</nobr>| [ON] | 在專業版/布料模擬下查找全局設置
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 啟用拖動</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> ☑ 模擬</nobr>| [ON] | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> > 模擬幀率</nobr>| **動態** | 動態, 固定30, 固定60, 固定90, 固定100, 固定120, 固定160, 固定175, 固定240,  |
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 時間比例</nobr>| [0.65] (0.1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 子步驟</nobr>| [4] (1 ~ 20) | 
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 迭代次數</nobr>| [1] (0 ~ 10) | 

@@ -15,19 +15,19 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr> □ 啟用</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 強度</nobr>| [1] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 彎曲</nobr>| [0.2] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 角度</nobr>| [45] (0 ~ 90) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 隨機</nobr>| [15] (0 ~ 45) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 延遲</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Arm IK Left)</nobr>| [0.25] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Arm IK Right)</nobr>| [0.25] (0 ~ 1) | 
+|<nobr> ⊖ 強度</nobr>| [1] (0 ~ 2) | 
+|<nobr> ⊖ 彎曲</nobr>| [0.2] (0 ~ 1) | 
+|<nobr> ⊖ 角度</nobr>| [45] (0 ~ 90) | 
+|<nobr> ⊖ 隨機</nobr>| [15] (0 ~ 45) | 
+|<nobr> ⊖ 延遲</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ⊖ (Arm IK Left)</nobr>| [0.25] (0 ~ 1) | 
+|<nobr> ⊖ (Arm IK Right)</nobr>| [0.25] (0 ~ 1) | 
 |<nobr> □ 覆蓋運動</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>速度</b></nobr>| | 
+|<nobr> ⚙️ <b>速度</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 每組動作數</nobr>| [8] (4 ~ 32) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 相位</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 曲線</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 每組動作數</nobr>| [8] (4 ~ 32) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 相位</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 曲線</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 變量速度</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 模式</nobr>| (Gradual) | (Gradual), 隨機, 音量, 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 

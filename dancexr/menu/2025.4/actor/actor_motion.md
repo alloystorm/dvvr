@@ -14,62 +14,62 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Motion Scale| [1] (0.2 ~ 2) | Scale the position offset.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Vertical Pos Scale| [1] (0 ~ 1) | Reduce vertical movement for center bone.
+|  ⊖ Motion Scale| [1] (0.2 ~ 2) | Scale the position offset.
+|  ⊖ Vertical Pos Scale| [1] (0 ~ 1) | Reduce vertical movement for center bone.
 |  □ Mirror (VMD Only)| [OFF] | Mirror left and right motion.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Time Offset Percent| [0] (0 ~ 100) | The time offset added to the actor when applying motion in percentage.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Time Offset Seconds| [0] (-5 ~ 5) | The time offset added to the actor when applying motion in seconds.
+|  ⊖ Time Offset Percent| [0] (0 ~ 100) | The time offset added to the actor when applying motion in percentage.
+|  ⊖ Time Offset Seconds| [0] (-5 ~ 5) | The time offset added to the actor when applying motion in seconds.
 |  □ Spectator| [OFF] | Set the actor as a spectator.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Leg Angle| [0] (-15 ~ 15) | 
+|  ⊖ Leg Angle| [0] (-15 ~ 15) | 
 |  <b>Pose Adjustment</b>|| 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Center Position</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-2 ~ 2) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-2 ~ 2) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Center Rotation</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-180 ~ 180) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Shoulder Rotation</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-90 ~ 90) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Arm Rotation</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-90 ~ 90) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Forearm Rotation</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-90 ~ 90) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Hand Rotation</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-90 ~ 90) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Leg Rotation</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-90 ~ 90) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Foot Rotation</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-90 ~ 90) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Thumb Rotation 1</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-90 ~ 90) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Thumb Rotation 2</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-90 ~ 90) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Pinky Finger</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-90 ~ 90) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Ring Finger| [0.75] (0 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Index Finger</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-90 ~ 90) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Middle Finger| [0.5] (0 ~ 1) | 
+|  ⚙️ <b>Center Position</b>| | 
+| ├─ ⊖ X| [0] (-2 ~ 2) | 
+| ├─ ⊖ Y| [0] (-2 ~ 2) | 
+| └─ ⊖ Z| [0] (-2 ~ 2) | 
+|  ⚙️ <b>Center Rotation</b>| | 
+| ├─ ⊖ X| [0] (-180 ~ 180) | 
+| ├─ ⊖ Y| [0] (-180 ~ 180) | 
+| └─ ⊖ Z| [0] (-180 ~ 180) | 
+|  ⚙️ <b>Shoulder Rotation</b>| | 
+| ├─ ⊖ X| [0] (-90 ~ 90) | 
+| ├─ ⊖ Y| [0] (-90 ~ 90) | 
+| └─ ⊖ Z| [0] (-90 ~ 90) | 
+|  ⚙️ <b>Arm Rotation</b>| | 
+| ├─ ⊖ X| [0] (-90 ~ 90) | 
+| ├─ ⊖ Y| [0] (-90 ~ 90) | 
+| └─ ⊖ Z| [0] (-90 ~ 90) | 
+|  ⚙️ <b>Forearm Rotation</b>| | 
+| ├─ ⊖ X| [0] (-90 ~ 90) | 
+| ├─ ⊖ Y| [0] (-90 ~ 90) | 
+| └─ ⊖ Z| [0] (-90 ~ 90) | 
+|  ⚙️ <b>Hand Rotation</b>| | 
+| ├─ ⊖ X| [0] (-90 ~ 90) | 
+| ├─ ⊖ Y| [0] (-90 ~ 90) | 
+| └─ ⊖ Z| [0] (-90 ~ 90) | 
+|  ⚙️ <b>Leg Rotation</b>| | 
+| ├─ ⊖ X| [0] (-90 ~ 90) | 
+| ├─ ⊖ Y| [0] (-90 ~ 90) | 
+| └─ ⊖ Z| [0] (-90 ~ 90) | 
+|  ⚙️ <b>Foot Rotation</b>| | 
+| ├─ ⊖ X| [0] (-90 ~ 90) | 
+| ├─ ⊖ Y| [0] (-90 ~ 90) | 
+| └─ ⊖ Z| [0] (-90 ~ 90) | 
+|  ⚙️ <b>Thumb Rotation 1</b>| | 
+| ├─ ⊖ X| [0] (-90 ~ 90) | 
+| ├─ ⊖ Y| [0] (-90 ~ 90) | 
+| └─ ⊖ Z| [0] (-90 ~ 90) | 
+|  ⚙️ <b>Thumb Rotation 2</b>| | 
+| ├─ ⊖ X| [0] (-90 ~ 90) | 
+| ├─ ⊖ Y| [0] (-90 ~ 90) | 
+| └─ ⊖ Z| [0] (-90 ~ 90) | 
+|  ⚙️ <b>Pinky Finger</b>| | 
+| ├─ ⊖ X| [0] (-90 ~ 90) | 
+| ├─ ⊖ Y| [0] (-90 ~ 90) | 
+| └─ ⊖ Z| [0] (-90 ~ 90) | 
+|  ⊖ Ring Finger| [0.75] (0 ~ 1) | 
+|  ⚙️ <b>Index Finger</b>| | 
+| ├─ ⊖ X| [0] (-90 ~ 90) | 
+| ├─ ⊖ Y| [0] (-90 ~ 90) | 
+| └─ ⊖ Z| [0] (-90 ~ 90) | 
+|  ⊖ Middle Finger| [0.5] (0 ~ 1) | 
 | <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), 2b,  |

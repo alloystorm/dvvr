@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 액터 스케일| [1] (0.15 ~ 5) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 모션 배율| [1] (0.5 ~ 1.5) | 
+|  ⊖ 액터 스케일| [1] (0.15 ~ 5) | 
+|  ⊖ 모션 배율| [1] (0.5 ~ 1.5) | 

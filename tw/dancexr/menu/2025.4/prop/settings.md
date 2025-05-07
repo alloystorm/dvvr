@@ -23,7 +23,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 旋轉 Z</nobr>| [0] (-180 ~ 180) | 
 |<nobr> □ 物理</nobr>| [OFF] | 
 |<nobr> □ 靜止</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 重力</nobr>| [ON] | 
+|<nobr> ☑ 重力</nobr>| [ON] | 
 |<nobr>☑ 形狀</nobr>| 盒子 | 球體, 膠囊, 盒子, 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 質量</nobr>| [1] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 拖曳</nobr>| [0] (0 ~ 1) | 

@@ -15,11 +15,11 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr><img src="/images/icon/ic_videocam.png" alt="videocam icon"/> 指派給主體</nobr>|| 
-|<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 選擇演員</nobr>|  |  |
+|<nobr> > 選擇演員</nobr>|  |  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 視場</nobr>| [45] (30 ~ 100) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 近裁剪距離</nobr>| [0.15] (0 ~ 0.3) | 
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 控制角色移動</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 在虛擬實境中控制手部</nobr>| [ON] | 
+|<nobr> ☑ 控制角色移動</nobr>| [ON] | 
+|<nobr> ☑ 在虛擬實境中控制手部</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 移除滾轉</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 穩定器</nobr>| [5] (0 ~ 20) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 阻尼</nobr>| [0.1] (0 ~ 1) | 

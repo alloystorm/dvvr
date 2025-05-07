@@ -15,31 +15,31 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |  □ 파티클| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 스폰 비율| [1] (0 ~ 2) | 파티클 밀도
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 생명| [1] (0 ~ 10) | 각 파티클의 지속 시간
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 크기| [0.005] (0 ~ 0.2) | 파티클의 크기
-| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 텍스처| **[없음]** | [없음], [먼지], [꽃잎], [잎],  |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 발광| [0] (0 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 금속성| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 부드러움| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 두께| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 중력| [9.8] (-10 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 속도| [8] (0 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 난기류| [0.5] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 드래그| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 바운스| [0.1] (0 ~ 1) | 지면 또는 물체와 충돌할 때 파티클이 튕겨져 나오는 정도
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전| [1] (0 ~ 5) | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 충돌| [ON] | 물체와의 충돌 허용
+|  ⊖ 스폰 비율| [1] (0 ~ 2) | 파티클 밀도
+|  ⊖ 생명| [1] (0 ~ 10) | 각 파티클의 지속 시간
+|  ⊖ 크기| [0.005] (0 ~ 0.2) | 파티클의 크기
+|  > 텍스처| **[없음]** | [없음], [먼지], [꽃잎], [잎],  |
+|  ⊖ 발광| [0] (0 ~ 10) | 
+|  ⊖ 금속성| [0] (0 ~ 1) | 
+|  ⊖ 부드러움| [0.5] (0 ~ 1) | 
+|  ⊖ 두께| [0] (0 ~ 1) | 
+|  ⊖ 중력| [9.8] (-10 ~ 10) | 
+|  ⊖ 속도| [8] (0 ~ 10) | 
+|  ⊖ 난기류| [0.5] (0 ~ 2) | 
+|  ⊖ 드래그| [1] (0 ~ 2) | 
+|  ⊖ 바운스| [0.1] (0 ~ 1) | 지면 또는 물체와 충돌할 때 파티클이 튕겨져 나오는 정도
+|  ⊖ 회전| [1] (0 ~ 5) | 
+|  ☑ 충돌| [ON] | 물체와의 충돌 허용
 |  □ 위에서 생성| [OFF] | 파티클이 위 또는 생성 영역 내에서 생성됨
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 높이| [4] (1 ~ 8) | 생성 영역의 높이
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 지면에 머물기| [0.5] (0 ~ 1) | 파티클이 지면에 떨어진 후 머무는 시간. 0으로 설정하면 즉시 사라집니다.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 비 소리 효과| [0.5] (0 ~ 1) | 
+|  ⊖ 높이| [4] (1 ~ 8) | 생성 영역의 높이
+|  ⊖ 지면에 머물기| [0.5] (0 ~ 1) | 파티클이 지면에 떨어진 후 머무는 시간. 0으로 설정하면 즉시 사라집니다.
+|  ⊖ 비 소리 효과| [0.5] (0 ~ 1) | 
 |  □ <b>비 오는 셰이더</b>| | 
 | ├─ □ 활성화| [OFF] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 강도| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 물방울 지속 시간| [5] (0 ~ 20) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 물방울 크기| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 물방울 밀도| [1] (-2 ~ 3) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 범프| [0.35] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 습기| [0.5] (0 ~ 2) | 
+| ├─ ⊖ 강도| [0.5] (0 ~ 1) | 
+| ├─ ⊖ 물방울 지속 시간| [5] (0 ~ 20) | 
+| ├─ ⊖ 물방울 크기| [1] (0 ~ 1) | 
+| ├─ ⊖ 물방울 밀도| [1] (-2 ~ 3) | 
+| ├─ ⊖ 범프| [0.35] (0 ~ 1) | 
+| └─ ⊖ 습기| [0.5] (0 ~ 2) | 
 | <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **끄기** | 끄기, 먼지, 비, 눈, 꽃잎, 잎, 반짝임,  |

@@ -15,26 +15,26 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 | <img src="/images/icon/ic_videocam.png" alt="videocam icon"/> メインに割り当て|| 
-| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> ターゲット選択| **自動** | 自動, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |
-| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> トラッキングモード| **センター** | センター, 頭, 胸,  |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ターゲットスムージング| [0.5] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 予測| [1] (0 ~ 2) | スムージングによる遅延を減少させるため、ターゲットの位置を予測
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> FOV| [30] (5 ~ 120) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ビートサイクル| [8] (1 ~ 16) | 
+|  > ターゲット選択| **自動** | 自動, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |
+|  > トラッキングモード| **センター** | センター, 頭, 胸,  |
+|  ⊖ ターゲットスムージング| [0.5] (0 ~ 2) | 
+|  ⊖ 予測| [1] (0 ~ 2) | スムージングによる遅延を減少させるため、ターゲットの位置を予測
+|  ⊖ FOV| [30] (5 ~ 120) | 
+|  ⊖ ビートサイクル| [8] (1 ~ 16) | 
 |  □ コントローラー入力を使用| [OFF] | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 床下を防ぐ| [ON] | 
+|  ☑ 床下を防ぐ| [ON] | 
 |  □ 速度を維持する| [OFF] | 入力がないときに回転を維持
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大速度| [15] (0 ~ 30) | 最大回転速度
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 最小速度| [0] (0 ~ 30) | 最小回転速度
+|  ⊖ 最大速度| [15] (0 ~ 30) | 最大回転速度
+|  ⊖ 最小速度| [0] (0 ~ 30) | 最小回転速度
 |  □ 自動モード| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 最小距離| [1] (0 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大距離| [3] (1 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 距離サイクル| [12] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 最小ピッチ| [-15] (-45 ~ 0) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大ピッチ| [15] (0 ~ 45) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ピッチサイクル| [32] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 最小高さ| [0] (-1 ~ 0) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大高さ| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 高さサイクル| [32] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> スピード| [10] (0 ~ 90) | 
+|  ⊖ 最小距離| [1] (0 ~ 10) | 
+|  ⊖ 最大距離| [3] (1 ~ 10) | 
+|  ⊖ 距離サイクル| [12] ((Unlimited)) | 
+|  ⊖ 最小ピッチ| [-15] (-45 ~ 0) | 
+|  ⊖ 最大ピッチ| [15] (0 ~ 45) | 
+|  ⊖ ピッチサイクル| [32] ((Unlimited)) | 
+|  ⊖ 最小高さ| [0] (-1 ~ 0) | 
+|  ⊖ 最大高さ| [0.5] (0 ~ 1) | 
+|  ⊖ 高さサイクル| [32] ((Unlimited)) | 
+|  ⊖ スピード| [10] (0 ~ 90) | 
 | <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **デフォルト（リセット）** | デフォルト（リセット）, (Preset 1),  |

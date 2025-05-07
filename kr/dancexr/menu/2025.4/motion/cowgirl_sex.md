@@ -18,22 +18,22 @@ sidebar:
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것에 할당</nobr>|| 
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 모두를 2번째로 할당</nobr>|| 
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 선택한 것을 2번째로 할당</nobr>|| 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 각도</nobr>| [0] (-90 ~ 90) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 범위</nobr>| [0.65] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 모션 이동</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 스윙 각도</nobr>| [30] (0 ~ 45) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 하단</nobr>| [0.35] (0 ~ 0.8) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>속도</b></nobr>| | 
+|<nobr> ⊖ 각도</nobr>| [0] (-90 ~ 90) | 
+|<nobr> ⊖ 범위</nobr>| [0.65] (0 ~ 1) | 
+|<nobr> ⊖ 모션 이동</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ⊖ 스윙 각도</nobr>| [30] (0 ~ 45) | 
+|<nobr> ⊖ 하단</nobr>| [0.35] (0 ~ 0.8) | 
+|<nobr> ⚙️ <b>속도</b></nobr>| | 
 |<nobr>├─ ☑ 비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 그룹당 움직임</nobr>| [8] (4 ~ 32) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 주기</nobr>| [0] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 곡선</nobr>| [0] (0 ~ 1) | 
+|<nobr>├─ ⊖ 그룹당 움직임</nobr>| [8] (4 ~ 32) | 
+|<nobr>├─ ⊖ 주기</nobr>| [0] (0 ~ 1) | 
+|<nobr>├─ ⊖ 곡선</nobr>| [0] (0 ~ 1) | 
 |<nobr>├─ □ 변동 속도</nobr>| [OFF] | 
 |<nobr>├─ ☑ 모드</nobr>| (Gradual) | (Gradual), 무작위, 볼륨, 
 |<nobr>├─ ☑ 최소 속도</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
 |<nobr>└─ ☑ 최대 속도</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 동기화</nobr>| [-0.25] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 오디오 민감도</nobr>| [1] (-2 ~ 4) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 몸 비틀기</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ⊖ 동기화</nobr>| [-0.25] (-1 ~ 1) | 
+|<nobr> ⊖ 오디오 민감도</nobr>| [1] (-2 ~ 4) | 
+|<nobr> ⊖ 몸 비틀기</nobr>| [0] (-1 ~ 1) | 
 |<nobr> □ 오버라이드</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 모션 오버라이드</nobr>| [0] (0 ~ 1) | 
+|<nobr> ⊖ 모션 오버라이드</nobr>| [0] (0 ~ 1) | 

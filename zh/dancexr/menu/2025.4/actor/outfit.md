@@ -20,150 +20,150 @@ sidebar:
 | ☑ 模式| 颜色绘制 | 颜色绘制, 服装, 服装绘制, 
 | <img src="/images/icon/ic_palette.png" alt="palette icon"/> <b>身体画</b>| | 
 | ├─ ☑ 绘画侧面| 两者 | 两者, 前面, 背面, 
-| ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 纹理| **[无]** | [无], [纹身],  |
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 刷子大小| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 刷子旋转| [0] (-180 ~ 180) | 
+| ├─ > 纹理| **[无]** | [无], [纹身],  |
+| ├─ ⊖ 刷子大小| [0.2] (0 ~ 1) | 
+| ├─ ⊖ 刷子旋转| [0] (-180 ~ 180) | 
 | ├─ ☑ 刷子类型| 基础 | 基础, 图案, 边缘, 橡皮, 
 | ├─ □ 橡皮| [OFF] | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>颜色</b>| | 
+| ├─ ⚙️ <b>颜色</b>| | 
 | │ ├─ ☑ 颜色模式| (RGB) | (RGB), (HSV), 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 饱和度| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 红色| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 绿色| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 蓝色| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 色相| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 饱和度| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 亮度| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 红色| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 绿色| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 蓝色| [1] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **白色** | 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange), (Preset 1),  |
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 发光| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 保留颜色| [0] (0 ~ 1) | 
+| ├─ ⊖ 发光| [0] (0 ~ 10) | 
+| ├─ ⊖ 保留颜色| [0] (0 ~ 1) | 
 | ├─ 清除画布|| 
 | ├─ 保存绘图|| 
-| └─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 加载绘图| **[无]** | [无],  |
+| └─ > 加载绘图| **[无]** | [无],  |
 | <img src="/images/icon/ic_hex.png" alt="hex icon"/> <b>形状和图案</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 上部高度1| [3] (0 ~ 3) | 中心第一条线的高度
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 上部角度1| [0] (-180 ~ 180) | 第一条线的角度
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 上部高度2| [3] (0 ~ 3) | 中心第二条线的高度
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 上部角度2| [0] (-180 ~ 180) | 第二条线的角度
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 上部边缘| [0.05] (0 ~ 0.2) | 第一条和第二条线的边缘宽度
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 袜子高度| [1.45] (0 ~ 3) | 中心袜子线的高度
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 袜子角度| [0] (-180 ~ 180) | 袜子线的角度
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 袜子边缘| [0.05] (0 ~ 0.2) | 袜子线的边缘宽度
+| ├─ ⊖ 上部高度1| [3] (0 ~ 3) | 中心第一条线的高度
+| ├─ ⊖ 上部角度1| [0] (-180 ~ 180) | 第一条线的角度
+| ├─ ⊖ 上部高度2| [3] (0 ~ 3) | 中心第二条线的高度
+| ├─ ⊖ 上部角度2| [0] (-180 ~ 180) | 第二条线的角度
+| ├─ ⊖ 上部边缘| [0.05] (0 ~ 0.2) | 第一条和第二条线的边缘宽度
+| ├─ ⊖ 袜子高度| [1.45] (0 ~ 3) | 中心袜子线的高度
+| ├─ ⊖ 袜子角度| [0] (-180 ~ 180) | 袜子线的角度
+| ├─ ⊖ 袜子边缘| [0.05] (0 ~ 0.2) | 袜子线的边缘宽度
 | ├─ ☑ 图案类型| 无 | 无, 网格, 迷宫, 迷宫曲线, 平行, 
 | ├─ □ 图案对称| [OFF] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 图案密度| [5] (1 ~ 50) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 图案旋转| [0] (0 ~ 180) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 图案种子| [10] (10 ~ 50) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 内边距大小| [0.1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 外边距大小| [0.8] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 外部凸起| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 外部距离| [0.01] (0 ~ 0.025) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 内部凸起| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 内部距离| [0.005] (0 ~ 0.1) | 
+| ├─ ⊖ 图案密度| [5] (1 ~ 50) | 
+| ├─ ⊖ 图案旋转| [0] (0 ~ 180) | 
+| ├─ ⊖ 图案种子| [10] (10 ~ 50) | 
+| ├─ ⊖ 内边距大小| [0.1] (0 ~ 1) | 
+| ├─ ⊖ 外边距大小| [0.8] (0 ~ 1) | 
+| ├─ ⊖ 外部凸起| [0.5] (0 ~ 1) | 
+| ├─ ⊖ 外部距离| [0.01] (0 ~ 0.025) | 
+| ├─ ⊖ 内部凸起| [0.5] (0 ~ 1) | 
+| ├─ ⊖ 内部距离| [0.005] (0 ~ 0.1) | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **(Fullbody)** | (Fullbody), V 形, 丝袜, (Fishnet Fullbody), (Fishnet V Shape), (Fishnet Stockings), (Maze 1), (Maze 2), (Curve 1), (Curve 2),  |
 |  □ <b>(Hexagon Map)</b>| | 
 | ├─ □ 启用| [OFF] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 密度| [4] (0 ~ 8) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 大小| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 凹凸| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 噪声| [0.2] (0 ~ 1) | 
+| ├─ ⊖ 密度| [4] (0 ~ 8) | 
+| ├─ ⊖ 大小| [1] (0 ~ 1) | 
+| ├─ ⊖ 凹凸| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ 噪声| [0.2] (0 ~ 1) | 
 | ├─ □ (Use Circle)| [OFF] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 柔和边缘| [0.1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> UV投影| [ON] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 投影半径| [0.2] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 旋转| [0] (-90 ~ 90) | 
+| ├─ ⊖ 柔和边缘| [0.1] (0 ~ 1) | 
+| ├─ ☑ UV投影| [ON] | 
+| ├─ ⊖ 投影半径| [0.2] (0 ~ 1) | 
+| └─ ⊖ 旋转| [0] (-90 ~ 90) | 
 | <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>基础表面</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 光泽| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 金属质感| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 凹凸| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 发光| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 环境光| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 透明度| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 剪切| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>颜色</b>| | 
+| ├─ ⊖ 光泽| [0.5] (0 ~ 1) | 
+| ├─ ⊖ 金属质感| [0] (0 ~ 1) | 
+| ├─ ⊖ 凹凸| [0.2] (0 ~ 1) | 
+| ├─ ⊖ 发光| [0] (0 ~ 10) | 
+| ├─ ⊖ 环境光| [1] (0 ~ 1) | 
+| ├─ ⊖ 透明度| [1] (0 ~ 1) | 
+| ├─ ⊖ 剪切| [0] (0 ~ 1) | 
+| ├─ ⚙️ <b>颜色</b>| | 
 | │ ├─ ☑ 颜色模式| (RGB) | (RGB), (HSV), 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 饱和度| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 红色| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 绿色| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 蓝色| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 混合模式| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合| [0.9] (0 ~ 1) | 
+| │ ├─ ⊖ 色相| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 饱和度| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 亮度| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 红色| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 绿色| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 蓝色| [1] (0 ~ 1) | 
+| │ ├─ > 混合模式| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
+| │ ├─ ⊖ 混合| [0.9] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **黑色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 各向异性| [-0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 丝袜效果| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 丝袜渐变| [2] (-3 ~ 3) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 细节密度| [1] (0 ~ 2) | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 启用溶解| [ON] | 
+| ├─ ⊖ 各向异性| [-0.5] (-1 ~ 1) | 
+| ├─ ⊖ 丝袜效果| [0.5] (0 ~ 1) | 
+| ├─ ⊖ 丝袜渐变| [2] (-3 ~ 3) | 
+| ├─ ⊖ 细节密度| [1] (0 ~ 2) | 
+| ├─ ☑ 启用溶解| [ON] | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **薄丝袜** | 薄丝袜, 厚丝袜, 白色丝袜, 乳胶, 透明乳胶, 银色, 金色, 发光白色, 原始模型, (Preset 1), (Preset 2), (预设1),  |
 | <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>表面图案</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 光泽| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 金属质感| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 凹凸| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 发光| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 环境光| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 透明度| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 剪切| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>颜色</b>| | 
+| ├─ ⊖ 光泽| [0.9] (0 ~ 1) | 
+| ├─ ⊖ 金属质感| [0] (0 ~ 1) | 
+| ├─ ⊖ 凹凸| [0] (0 ~ 1) | 
+| ├─ ⊖ 发光| [0] (0 ~ 10) | 
+| ├─ ⊖ 环境光| [1] (0 ~ 1) | 
+| ├─ ⊖ 透明度| [1] (0 ~ 1) | 
+| ├─ ⊖ 剪切| [0] (0 ~ 1) | 
+| ├─ ⚙️ <b>颜色</b>| | 
 | │ ├─ ☑ 颜色模式| (RGB) | (RGB), (HSV), 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 饱和度| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 红色| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 绿色| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 蓝色| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 混合模式| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合| [0.8] (0 ~ 1) | 
+| │ ├─ ⊖ 色相| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 饱和度| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 亮度| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 红色| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 绿色| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 蓝色| [1] (0 ~ 1) | 
+| │ ├─ > 混合模式| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
+| │ ├─ ⊖ 混合| [0.8] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **黑色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 各向异性| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 丝袜效果| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 丝袜渐变| [1] (-3 ~ 3) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 细节密度| [1] (0 ~ 2) | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 启用溶解| [ON] | 
+| ├─ ⊖ 各向异性| [0] (-1 ~ 1) | 
+| ├─ ⊖ 丝袜效果| [1] (0 ~ 1) | 
+| ├─ ⊖ 丝袜渐变| [1] (-3 ~ 3) | 
+| ├─ ⊖ 细节密度| [1] (0 ~ 2) | 
+| ├─ ☑ 启用溶解| [ON] | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **乳胶** | 薄丝袜, 厚丝袜, 白色丝袜, 乳胶, 透明乳胶, 银色, 金色, 发光白色, 原始模型, (Preset 1), (Preset 2), (预设1),  |
 | <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>表面边框</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 光泽| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 金属质感| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 凹凸| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 发光| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 环境光| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 透明度| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 剪切| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>颜色</b>| | 
+| ├─ ⊖ 光泽| [0.5] (0 ~ 1) | 
+| ├─ ⊖ 金属质感| [0] (0 ~ 1) | 
+| ├─ ⊖ 凹凸| [0.2] (0 ~ 1) | 
+| ├─ ⊖ 发光| [0] (0 ~ 10) | 
+| ├─ ⊖ 环境光| [1] (0 ~ 1) | 
+| ├─ ⊖ 透明度| [1] (0 ~ 1) | 
+| ├─ ⊖ 剪切| [0] (0 ~ 1) | 
+| ├─ ⚙️ <b>颜色</b>| | 
 | │ ├─ ☑ 颜色模式| (RGB) | (RGB), (HSV), 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 饱和度| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 红色| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 绿色| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 蓝色| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 混合模式| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合| [0.9] (0 ~ 1) | 
+| │ ├─ ⊖ 色相| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 饱和度| [0] (0 ~ 1) | 
+| │ ├─ ⊖ 亮度| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 红色| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 绿色| [1] (0 ~ 1) | 
+| │ ├─ ⊖ 蓝色| [1] (0 ~ 1) | 
+| │ ├─ > 混合模式| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
+| │ ├─ ⊖ 混合| [0.9] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **黑色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 各向异性| [-0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 丝袜效果| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 丝袜渐变| [2] (-3 ~ 3) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 细节密度| [1] (0 ~ 2) | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 启用溶解| [ON] | 
+| ├─ ⊖ 各向异性| [-0.5] (-1 ~ 1) | 
+| ├─ ⊖ 丝袜效果| [0.5] (0 ~ 1) | 
+| ├─ ⊖ 丝袜渐变| [2] (-3 ~ 3) | 
+| ├─ ⊖ 细节密度| [1] (0 ~ 2) | 
+| ├─ ☑ 启用溶解| [ON] | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **薄丝袜** | 薄丝袜, 厚丝袜, 白色丝袜, 乳胶, 透明乳胶, 银色, 金色, 发光白色, 原始模型, (Preset 1), (Preset 2), (预设1),  |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 溶解| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>溶解贴图</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 图案 L1| [13] (0 ~ 90) | 生成溶解贴图时更改级别 1 的图案
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 密度 L1| [3.5] (1 ~ 10) | 级别 1 图案的密度
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 图案 L2| [31] (0 ~ 90) | 生成溶解贴图时更改级别 2 的图案
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 密度 L2| [50] (10 ~ 100) | 级别 2 图案的密度
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 放大比例| [1] (0 ~ 2) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 曲线| [1] (0 ~ 2) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 边缘大小| [0.05] (0 ~ 0.2) | 正区边缘的宽度
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 边缘凹凸| [-1] (-1 ~ 1) | 边缘区域的凹凸效果
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 反向边缘大小| [0.05] (0 ~ 0.2) | 负区边缘的宽度
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 反向边缘凹凸| [-1] (-1 ~ 1) | 边缘区域的凹凸效果
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X轴偏移| [0] (-1 ~ 1) | X方向偏移溶解贴图
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y轴偏移| [0] (-1 ~ 1) | Y方向偏移溶解贴图
+|  ⊖ 溶解| [0] (0 ~ 1) | 
+|  ⚙️ <b>溶解贴图</b>| | 
+| ├─ ⊖ 图案 L1| [13] (0 ~ 90) | 生成溶解贴图时更改级别 1 的图案
+| ├─ ⊖ 密度 L1| [3.5] (1 ~ 10) | 级别 1 图案的密度
+| ├─ ⊖ 图案 L2| [31] (0 ~ 90) | 生成溶解贴图时更改级别 2 的图案
+| ├─ ⊖ 密度 L2| [50] (10 ~ 100) | 级别 2 图案的密度
+| ├─ ⊖ 放大比例| [1] (0 ~ 2) | 
+| ├─ ⊖ 曲线| [1] (0 ~ 2) | 
+| ├─ ⊖ 边缘大小| [0.05] (0 ~ 0.2) | 正区边缘的宽度
+| ├─ ⊖ 边缘凹凸| [-1] (-1 ~ 1) | 边缘区域的凹凸效果
+| ├─ ⊖ 反向边缘大小| [0.05] (0 ~ 0.2) | 负区边缘的宽度
+| ├─ ⊖ 反向边缘凹凸| [-1] (-1 ~ 1) | 边缘区域的凹凸效果
+| ├─ ⊖ X轴偏移| [0] (-1 ~ 1) | X方向偏移溶解贴图
+| ├─ ⊖ Y轴偏移| [0] (-1 ~ 1) | Y方向偏移溶解贴图
 | └─ □ 剪裁| [OFF] | 使溶解区域不可见
 |  □ 手动选择| [OFF] | 
 | <img src="/images/icon/ic_edit.png" alt="edit icon"/> (Select Material: 0 / 1)|| 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 皮肤| [ON] | 
+| ├─ ☑ 皮肤| [ON] | 
 | ├─ □ 头发| [OFF] | 
 | ├─ □ 眼睛| [OFF] | 
 | ├─ □ 嘴唇| [OFF] | 

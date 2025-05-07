@@ -20,150 +20,150 @@ sidebar:
 | ☑ Mode| Color Paint | Color Paint, Outfit, Outfit Paint, 
 | <img src="/images/icon/ic_palette.png" alt="palette icon"/> <b>Body Paint</b>| | 
 | ├─ ☑ Paint Side| Both | Both, Front, Back, 
-| ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Texture| **[None]** | [None], [Tattoo],  |
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brush Size| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brush Rotation| [0] (-180 ~ 180) | 
+| ├─ > Texture| **[None]** | [None], [Tattoo],  |
+| ├─ ⊖ Brush Size| [0.2] (0 ~ 1) | 
+| ├─ ⊖ Brush Rotation| [0] (-180 ~ 180) | 
 | ├─ ☑ Brush Type| Base | Base, Pattern, Edge, Erase, 
 | ├─ □ Erase| [OFF] | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b>| | 
+| ├─ ⚙️ <b>Color</b>| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
+| │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
+| │ ├─ ⊖ Brightness| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Red| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Green| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Preserve Color| [0] (0 ~ 1) | 
+| ├─ ⊖ Glow| [0] (0 ~ 10) | 
+| ├─ ⊖ Preserve Color| [0] (0 ~ 1) | 
 | ├─ Clear Canvas|| 
 | ├─ Save Drawing|| 
-| └─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Load Drawing| **[None]** | [None],  |
+| └─ > Load Drawing| **[None]** | [None],  |
 | <img src="/images/icon/ic_hex.png" alt="hex icon"/> <b>Shape & Pattern</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Top Height1| [3] (0 ~ 3) | Height of the first line at center
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Top Angle1| [0] (-180 ~ 180) | Angle of the first line
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Top Height2| [3] (0 ~ 3) | Height of the second line at center
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Top Angle2| [0] (-180 ~ 180) | Angle of the second line
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Top Edge| [0.05] (0 ~ 0.2) | Edge width for the first and second lines
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Stocking Height| [1.45] (0 ~ 3) | Height of the stocking line at center
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Stocking Angle| [0] (-180 ~ 180) | Angle of the stocking line
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Stocking Edge| [0.05] (0 ~ 0.2) | Edge width for the stocking line
+| ├─ ⊖ Top Height1| [3] (0 ~ 3) | Height of the first line at center
+| ├─ ⊖ Top Angle1| [0] (-180 ~ 180) | Angle of the first line
+| ├─ ⊖ Top Height2| [3] (0 ~ 3) | Height of the second line at center
+| ├─ ⊖ Top Angle2| [0] (-180 ~ 180) | Angle of the second line
+| ├─ ⊖ Top Edge| [0.05] (0 ~ 0.2) | Edge width for the first and second lines
+| ├─ ⊖ Stocking Height| [1.45] (0 ~ 3) | Height of the stocking line at center
+| ├─ ⊖ Stocking Angle| [0] (-180 ~ 180) | Angle of the stocking line
+| ├─ ⊖ Stocking Edge| [0.05] (0 ~ 0.2) | Edge width for the stocking line
 | ├─ ☑ Pattern Type| None | None, Grid, Maze, Maze Curve, Parallel, 
 | ├─ □ Pattern Symmetric| [OFF] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Pattern Density| [5] (1 ~ 50) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Pattern Rotation| [0] (0 ~ 180) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Pattern Seed| [10] (10 ~ 50) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Border Size In| [0.1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Border Size Out| [0.8] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outside Bump| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outside Distance| [0.01] (0 ~ 0.025) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Inside Bump| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Inside Distance| [0.005] (0 ~ 0.1) | 
+| ├─ ⊖ Pattern Density| [5] (1 ~ 50) | 
+| ├─ ⊖ Pattern Rotation| [0] (0 ~ 180) | 
+| ├─ ⊖ Pattern Seed| [10] (10 ~ 50) | 
+| ├─ ⊖ Border Size In| [0.1] (0 ~ 1) | 
+| ├─ ⊖ Border Size Out| [0.8] (0 ~ 1) | 
+| ├─ ⊖ Outside Bump| [0.5] (0 ~ 1) | 
+| ├─ ⊖ Outside Distance| [0.01] (0 ~ 0.025) | 
+| ├─ ⊖ Inside Bump| [0.5] (0 ~ 1) | 
+| ├─ ⊖ Inside Distance| [0.005] (0 ~ 0.1) | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Fullbody** | Fullbody, V Shape, Stockings, Fishnet Fullbody, Fishnet V Shape, Fishnet Stockings, Maze 1, Maze 2, Curve 1, Curve 2,  |
 |  □ <b>Hexagon Map</b>| | 
 | ├─ □ Enable| [OFF] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Density| [4] (0 ~ 8) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Size| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Noise| [0.2] (0 ~ 1) | 
+| ├─ ⊖ Density| [4] (0 ~ 8) | 
+| ├─ ⊖ Size| [1] (0 ~ 1) | 
+| ├─ ⊖ Bump| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Noise| [0.2] (0 ~ 1) | 
 | ├─ □ Use Circle| [OFF] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Edge| [0.1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> UV Projection| [ON] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Projection Radius| [0.2] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotation| [0] (-90 ~ 90) | 
+| ├─ ⊖ Soft Edge| [0.1] (0 ~ 1) | 
+| ├─ ☑ UV Projection| [ON] | 
+| ├─ ⊖ Projection Radius| [0.2] (0 ~ 1) | 
+| └─ ⊖ Rotation| [0] (-90 ~ 90) | 
 | <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Surface Base</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Gloss| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Clip| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b>| | 
+| ├─ ⊖ Gloss| [0.5] (0 ~ 1) | 
+| ├─ ⊖ Metallic| [0] (0 ~ 1) | 
+| ├─ ⊖ Bump| [0.2] (0 ~ 1) | 
+| ├─ ⊖ Glow| [0] (0 ~ 10) | 
+| ├─ ⊖ Ambient| [1] (0 ~ 1) | 
+| ├─ ⊖ Alpha| [1] (0 ~ 1) | 
+| ├─ ⊖ Clip| [0] (0 ~ 1) | 
+| ├─ ⚙️ <b>Color</b>| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend| [0.9] (0 ~ 1) | 
+| │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
+| │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
+| │ ├─ ⊖ Brightness| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Red| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Green| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
+| │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
+| │ ├─ ⊖ Blend| [0.9] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Anisotropy| [-0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Stocking Effect| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Stocking Gradient| [2] (-3 ~ 3) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Detail Density| [1] (0 ~ 2) | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Enable Dissolve| [ON] | 
+| ├─ ⊖ Anisotropy| [-0.5] (-1 ~ 1) | 
+| ├─ ⊖ Stocking Effect| [0.5] (0 ~ 1) | 
+| ├─ ⊖ Stocking Gradient| [2] (-3 ~ 3) | 
+| ├─ ⊖ Detail Density| [1] (0 ~ 2) | 
+| ├─ ☑ Enable Dissolve| [ON] | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Stocking Thin** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
 | <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Surface Pattern</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Gloss| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Clip| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b>| | 
+| ├─ ⊖ Gloss| [0.9] (0 ~ 1) | 
+| ├─ ⊖ Metallic| [0] (0 ~ 1) | 
+| ├─ ⊖ Bump| [0] (0 ~ 1) | 
+| ├─ ⊖ Glow| [0] (0 ~ 10) | 
+| ├─ ⊖ Ambient| [1] (0 ~ 1) | 
+| ├─ ⊖ Alpha| [1] (0 ~ 1) | 
+| ├─ ⊖ Clip| [0] (0 ~ 1) | 
+| ├─ ⚙️ <b>Color</b>| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend| [0.8] (0 ~ 1) | 
+| │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
+| │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
+| │ ├─ ⊖ Brightness| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Red| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Green| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
+| │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
+| │ ├─ ⊖ Blend| [0.8] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Anisotropy| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Stocking Effect| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Stocking Gradient| [1] (-3 ~ 3) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Detail Density| [1] (0 ~ 2) | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Enable Dissolve| [ON] | 
+| ├─ ⊖ Anisotropy| [0] (-1 ~ 1) | 
+| ├─ ⊖ Stocking Effect| [1] (0 ~ 1) | 
+| ├─ ⊖ Stocking Gradient| [1] (-3 ~ 3) | 
+| ├─ ⊖ Detail Density| [1] (0 ~ 2) | 
+| ├─ ☑ Enable Dissolve| [ON] | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Latex** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
 | <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Surface Border</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Gloss| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Clip| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b>| | 
+| ├─ ⊖ Gloss| [0.5] (0 ~ 1) | 
+| ├─ ⊖ Metallic| [0] (0 ~ 1) | 
+| ├─ ⊖ Bump| [0.2] (0 ~ 1) | 
+| ├─ ⊖ Glow| [0] (0 ~ 10) | 
+| ├─ ⊖ Ambient| [1] (0 ~ 1) | 
+| ├─ ⊖ Alpha| [1] (0 ~ 1) | 
+| ├─ ⊖ Clip| [0] (0 ~ 1) | 
+| ├─ ⚙️ <b>Color</b>| | 
 | │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend| [0.9] (0 ~ 1) | 
+| │ ├─ ⊖ Hue| [0] (0 ~ 1) | 
+| │ ├─ ⊖ Satuation| [0] (0 ~ 1) | 
+| │ ├─ ⊖ Brightness| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Red| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Green| [1] (0 ~ 1) | 
+| │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
+| │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
+| │ ├─ ⊖ Blend| [0.9] (0 ~ 1) | 
 | │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Anisotropy| [-0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Stocking Effect| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Stocking Gradient| [2] (-3 ~ 3) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Detail Density| [1] (0 ~ 2) | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Enable Dissolve| [ON] | 
+| ├─ ⊖ Anisotropy| [-0.5] (-1 ~ 1) | 
+| ├─ ⊖ Stocking Effect| [0.5] (0 ~ 1) | 
+| ├─ ⊖ Stocking Gradient| [2] (-3 ~ 3) | 
+| ├─ ⊖ Detail Density| [1] (0 ~ 2) | 
+| ├─ ☑ Enable Dissolve| [ON] | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Stocking Thin** | Stocking Thin, Stocking Thick, White Stocking, Latex, Clear Latex, Silver, Gold, Glow White, Original, Preset 1, Preset 2, 预设1,  |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Dissolve| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Dissolve Map</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Pattern L1| [13] (0 ~ 90) | Change the level 1 pattern when generating the dissolve map
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Density L1| [3.5] (1 ~ 10) | Density of level 1 pattern
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Pattern L2| [31] (0 ~ 90) | Change the level 2 pattern when generating the dissolve map
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Density L2| [50] (10 ~ 100) | Density of level 2 pattern
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Magnify Scale| [1] (0 ~ 2) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Curve| [1] (0 ~ 2) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Edge Size| [0.05] (0 ~ 0.2) | Width of the edge in the positive area
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Edge Bump| [-1] (-1 ~ 1) | Bump effect of the edge area
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Inverse Edge Size| [0.05] (0 ~ 0.2) | Width of the edge in the negative area
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Inverse Edge Bump| [-1] (-1 ~ 1) | Bump effect of the edge area
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Offset X| [0] (-1 ~ 1) | Offset the dissolve map in X direction
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Offset Y| [0] (-1 ~ 1) | Offset the dissolve map in Y direction
+|  ⊖ Dissolve| [0] (0 ~ 1) | 
+|  ⚙️ <b>Dissolve Map</b>| | 
+| ├─ ⊖ Pattern L1| [13] (0 ~ 90) | Change the level 1 pattern when generating the dissolve map
+| ├─ ⊖ Density L1| [3.5] (1 ~ 10) | Density of level 1 pattern
+| ├─ ⊖ Pattern L2| [31] (0 ~ 90) | Change the level 2 pattern when generating the dissolve map
+| ├─ ⊖ Density L2| [50] (10 ~ 100) | Density of level 2 pattern
+| ├─ ⊖ Magnify Scale| [1] (0 ~ 2) | 
+| ├─ ⊖ Curve| [1] (0 ~ 2) | 
+| ├─ ⊖ Edge Size| [0.05] (0 ~ 0.2) | Width of the edge in the positive area
+| ├─ ⊖ Edge Bump| [-1] (-1 ~ 1) | Bump effect of the edge area
+| ├─ ⊖ Inverse Edge Size| [0.05] (0 ~ 0.2) | Width of the edge in the negative area
+| ├─ ⊖ Inverse Edge Bump| [-1] (-1 ~ 1) | Bump effect of the edge area
+| ├─ ⊖ Offset X| [0] (-1 ~ 1) | Offset the dissolve map in X direction
+| ├─ ⊖ Offset Y| [0] (-1 ~ 1) | Offset the dissolve map in Y direction
 | └─ □ Cutout| [OFF] | Make the dissolved area invisible
 |  □ Manual Selection| [OFF] | 
 | <img src="/images/icon/ic_edit.png" alt="edit icon"/> Select Material: 0 / 1|| 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Skin| [ON] | 
+| ├─ ☑ Skin| [ON] | 
 | ├─ □ Hair| [OFF] | 
 | ├─ □ Eyes| [OFF] | 
 | ├─ □ Lips| [OFF] | 

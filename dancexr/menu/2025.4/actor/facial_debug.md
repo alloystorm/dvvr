@@ -15,250 +15,250 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |  □ Disable| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Eyelid Extent| [0.65] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Mouth Extent| [0.65] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Eyebrow Extent| [1] (0 ~ 1) | 
+|  ⊖ Eyelid Extent| [0.65] (0 ~ 1) | 
+|  ⊖ Mouth Extent| [0.65] (0 ~ 1) | 
+|  ⊖ Eyebrow Extent| [1] (0 ~ 1) | 
 |  <b>Mouth</b>|| 
 |  □ Use Lip Sync| [OFF] | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Mouth Neutral</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+|  ⚙️ <b>Mouth Neutral</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Jaw Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Wide| [0] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Corners Up| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Mouth Custom</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Wide| [0] (-1 ~ 1) | 
+| └─ ⊖ Corners Up| [0] (-1 ~ 1) | 
+|  ⚙️ <b>Mouth Custom</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Jaw Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Wide| [0] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Corners Up| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>あ</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Wide| [0] (-1 ~ 1) | 
+| └─ ⊖ Corners Up| [0] (-1 ~ 1) | 
+|  ⚙️ <b>あ</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Jaw Open| [0.4] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Open| [0.1] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Wide| [-0.1] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Corners Up| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>い</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Jaw Open| [0.4] (-1 ~ 1) | 
+| ├─ ⊖ Lips Open| [0.1] (-1 ~ 1) | 
+| ├─ ⊖ Lips Wide| [-0.1] (-1 ~ 1) | 
+| └─ ⊖ Corners Up| [0] (-1 ~ 1) | 
+|  ⚙️ <b>い</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Jaw Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Open| [0.25] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Wide| [0.15] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Corners Up| [0.25] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>う</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Open| [0.25] (-1 ~ 1) | 
+| ├─ ⊖ Lips Wide| [0.15] (-1 ~ 1) | 
+| └─ ⊖ Corners Up| [0.25] (-1 ~ 1) | 
+|  ⚙️ <b>う</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Jaw Open| [0.1] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Wide| [-0.5] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Corners Up| [-0.25] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>え</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Jaw Open| [0.1] (-1 ~ 1) | 
+| ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Wide| [-0.5] (-1 ~ 1) | 
+| └─ ⊖ Corners Up| [-0.25] (-1 ~ 1) | 
+|  ⚙️ <b>え</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Jaw Open| [0.15] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Open| [0.3] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Wide| [0] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Corners Up| [-0.15] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>お</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Jaw Open| [0.15] (-1 ~ 1) | 
+| ├─ ⊖ Lips Open| [0.3] (-1 ~ 1) | 
+| ├─ ⊖ Lips Wide| [0] (-1 ~ 1) | 
+| └─ ⊖ Corners Up| [-0.15] (-1 ~ 1) | 
+|  ⚙️ <b>お</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Jaw Open| [0.2] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Wide| [-0.5] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Corners Up| [-0.25] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>にやり</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Jaw Open| [0.2] (-1 ~ 1) | 
+| ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Wide| [-0.5] (-1 ~ 1) | 
+| └─ ⊖ Corners Up| [-0.25] (-1 ~ 1) | 
+|  ⚙️ <b>にやり</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Jaw Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Wide| [0.15] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Corners Up| [0.35] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>にこ</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Wide| [0.15] (-1 ~ 1) | 
+| └─ ⊖ Corners Up| [0.35] (-1 ~ 1) | 
+|  ⚙️ <b>にこ</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Jaw Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Wide| [0.1] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Corners Up| [0.2] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>にこ2</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Wide| [0.1] (-1 ~ 1) | 
+| └─ ⊖ Corners Up| [0.2] (-1 ~ 1) | 
+|  ⚙️ <b>にこ2</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Jaw Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Open| [0.2] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Wide| [0.15] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Corners Up| [0.3] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>にこ3</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Open| [0.2] (-1 ~ 1) | 
+| ├─ ⊖ Lips Wide| [0.15] (-1 ~ 1) | 
+| └─ ⊖ Corners Up| [0.3] (-1 ~ 1) | 
+|  ⚙️ <b>にこ3</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Jaw Open| [0.2] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Open| [0.2] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Wide| [0.2] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Corners Up| [0.3] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>∧</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Jaw Open| [0.2] (-1 ~ 1) | 
+| ├─ ⊖ Lips Open| [0.2] (-1 ~ 1) | 
+| ├─ ⊖ Lips Wide| [0.2] (-1 ~ 1) | 
+| └─ ⊖ Corners Up| [0.3] (-1 ~ 1) | 
+|  ⚙️ <b>∧</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Jaw Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Open| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lips Wide| [0] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Corners Up| [-0.35] (-1 ~ 1) | 
+| ├─ ⊖ Jaw Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Open| [0] (-1 ~ 1) | 
+| ├─ ⊖ Lips Wide| [0] (-1 ~ 1) | 
+| └─ ⊖ Corners Up| [-0.35] (-1 ~ 1) | 
 |  <b>Eyebrows</b>|| 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Eyebrows Neutral</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+|  ⚙️ <b>Eyebrows Neutral</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Inner| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Middle| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outer| [0] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Unused| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Eyebrows Custom</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Inner| [0] (-1 ~ 1) | 
+| ├─ ⊖ Middle| [0] (-1 ~ 1) | 
+| ├─ ⊖ Outer| [0] (-1 ~ 1) | 
+| └─ ⊖ Unused| [0] (-1 ~ 1) | 
+|  ⚙️ <b>Eyebrows Custom</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Inner| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Middle| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outer| [0] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Unused| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>にこり</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Inner| [0] (-1 ~ 1) | 
+| ├─ ⊖ Middle| [0] (-1 ~ 1) | 
+| ├─ ⊖ Outer| [0] (-1 ~ 1) | 
+| └─ ⊖ Unused| [0] (-1 ~ 1) | 
+|  ⚙️ <b>にこり</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Inner| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Middle| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outer| [0.5] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Unused| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>上</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Inner| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Middle| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Outer| [0.5] (-1 ~ 1) | 
+| └─ ⊖ Unused| [0] (-1 ~ 1) | 
+|  ⚙️ <b>上</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Inner| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Middle| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outer| [0.5] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Unused| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>下</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Inner| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Middle| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Outer| [0.5] (-1 ~ 1) | 
+| └─ ⊖ Unused| [0] (-1 ~ 1) | 
+|  ⚙️ <b>下</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Inner| [-0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Middle| [-0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outer| [-0.5] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Unused| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>困る</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Inner| [-0.5] (-1 ~ 1) | 
+| ├─ ⊖ Middle| [-0.5] (-1 ~ 1) | 
+| ├─ ⊖ Outer| [-0.5] (-1 ~ 1) | 
+| └─ ⊖ Unused| [0] (-1 ~ 1) | 
+|  ⚙️ <b>困る</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Inner| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Middle| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outer| [0] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Unused| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>怒り</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Inner| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Middle| [0] (-1 ~ 1) | 
+| ├─ ⊖ Outer| [0] (-1 ~ 1) | 
+| └─ ⊖ Unused| [0] (-1 ~ 1) | 
+|  ⚙️ <b>怒り</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Inner| [-0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Middle| [-0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outer| [0] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Unused| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>怒る</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Inner| [-0.5] (-1 ~ 1) | 
+| ├─ ⊖ Middle| [-0.5] (-1 ~ 1) | 
+| ├─ ⊖ Outer| [0] (-1 ~ 1) | 
+| └─ ⊖ Unused| [0] (-1 ~ 1) | 
+|  ⚙️ <b>怒る</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Inner| [-0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Middle| [-0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outer| [0] (-1 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Unused| [0] (-1 ~ 1) | 
+| ├─ ⊖ Inner| [-0.5] (-1 ~ 1) | 
+| ├─ ⊖ Middle| [-0.5] (-1 ~ 1) | 
+| ├─ ⊖ Outer| [0] (-1 ~ 1) | 
+| └─ ⊖ Unused| [0] (-1 ~ 1) | 
 |  <b>Eyelids</b>|| 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Eyelids Neutral</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+|  ⚙️ <b>Eyelids Neutral</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Upper| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Lower| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Upper| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Lower| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Upper Rotation| [35] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lower Rotation| [30] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Eyelids Custom</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Left Upper| [0] (-1 ~ 1) | 
+| ├─ ⊖ Left Lower| [0] (-1 ~ 1) | 
+| ├─ ⊖ Right Upper| [0] (-1 ~ 1) | 
+| ├─ ⊖ Right Lower| [0] (-1 ~ 1) | 
+| ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
+| └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
+|  ⚙️ <b>Eyelids Custom</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Upper| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Lower| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Upper| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Lower| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Upper Rotation| [35] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lower Rotation| [30] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>まばたき</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Left Upper| [0] (-1 ~ 1) | 
+| ├─ ⊖ Left Lower| [0] (-1 ~ 1) | 
+| ├─ ⊖ Right Upper| [0] (-1 ~ 1) | 
+| ├─ ⊖ Right Lower| [0] (-1 ~ 1) | 
+| ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
+| └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
+|  ⚙️ <b>まばたき</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Upper| [1] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Lower| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Upper| [1] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Lower| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Upper Rotation| [35] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lower Rotation| [30] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>じと目</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Left Upper| [1] (-1 ~ 1) | 
+| ├─ ⊖ Left Lower| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Right Upper| [1] (-1 ~ 1) | 
+| ├─ ⊖ Right Lower| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
+| └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
+|  ⚙️ <b>じと目</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Upper| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Lower| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Upper| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Lower| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Upper Rotation| [35] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lower Rotation| [30] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>ウインク</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Left Upper| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Left Lower| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Right Upper| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Right Lower| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
+| └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
+|  ⚙️ <b>ウインク</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Upper| [1] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Lower| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Upper| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Lower| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Upper Rotation| [35] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lower Rotation| [30] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>ウインク右</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Left Upper| [1] (-1 ~ 1) | 
+| ├─ ⊖ Left Lower| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Right Upper| [0] (-1 ~ 1) | 
+| ├─ ⊖ Right Lower| [0] (-1 ~ 1) | 
+| ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
+| └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
+|  ⚙️ <b>ウインク右</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Upper| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Lower| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Upper| [1] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Lower| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Upper Rotation| [35] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lower Rotation| [30] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>笑い</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Left Upper| [0] (-1 ~ 1) | 
+| ├─ ⊖ Left Lower| [0] (-1 ~ 1) | 
+| ├─ ⊖ Right Upper| [1] (-1 ~ 1) | 
+| ├─ ⊖ Right Lower| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
+| └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
+|  ⚙️ <b>笑い</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Upper| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Lower| [1] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Upper| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Lower| [1] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Upper Rotation| [35] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lower Rotation| [30] (-90 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>目細める</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Weight| [0] (0 ~ 1) | 
+| ├─ ⊖ Left Upper| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Left Lower| [1] (-1 ~ 1) | 
+| ├─ ⊖ Right Upper| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Right Lower| [1] (-1 ~ 1) | 
+| ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
+| └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 
+|  ⚙️ <b>目細める</b>| | 
+| ├─ ⊖ Weight| [0] (0 ~ 1) | 
 | ├─ □ Override| [0] (0 ~ 1) | 
 | ├─ <b>Pose</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Upper| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left Lower| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Upper| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Right Lower| [0.5] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Upper Rotation| [35] (-90 ~ 90) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Lower Rotation| [30] (-90 ~ 90) | 
+| ├─ ⊖ Left Upper| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Left Lower| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Right Upper| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Right Lower| [0.5] (-1 ~ 1) | 
+| ├─ ⊖ Upper Rotation| [35] (-90 ~ 90) | 
+| └─ ⊖ Lower Rotation| [30] (-90 ~ 90) | 

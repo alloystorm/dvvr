@@ -15,8 +15,8 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr><img src="/images/icon/ic_videocam.png" alt="videocam icon"/> 指派給主體</nobr>|| 
-|<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 目標選擇</nobr>| **自動** | 自動, 已選擇, 群組, 旋轉, 旋轉 + 群組, 舞台中心,  |
-|<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 追踪模式</nobr>| **中心** | 中心, 頭部, 胸部,  |
+|<nobr> > 目標選擇</nobr>| **自動** | 自動, 已選擇, 群組, 旋轉, 旋轉 + 群組, 舞台中心,  |
+|<nobr> > 追踪模式</nobr>| **中心** | 中心, 頭部, 胸部,  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 目標平滑</nobr>| [0.5] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 預測</nobr>| [1] (0 ~ 2) | 預測目標位置以減少因平滑造成的延遲
 |<nobr> □ 鎖定目標</nobr>| [OFF] | 自動聚焦於目標

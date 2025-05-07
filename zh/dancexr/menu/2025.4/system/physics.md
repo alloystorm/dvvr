@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 启用物理</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 重力</nobr>| [9.81] (-10 ~ 10) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 时间比例</nobr>| [1] (0.1 ~ 2) | 改变用于物理仿真的时间。
+|<nobr> ☑ 启用物理</nobr>| [ON] | 
+|<nobr> ⊖ 重力</nobr>| [9.81] (-10 ~ 10) | 
+|<nobr> ⊖ 时间比例</nobr>| [1] (0.1 ~ 2) | 改变用于物理仿真的时间。
 |<nobr> □ 禁用碰撞</nobr>| [OFF] | 
 |<nobr>☑ 每秒步骤</nobr>| (180) | (Flexible), (30), (45), (60), (90), (120), (180), (240), (300), (450), (600), (900), (1200), <br/>设置物理仿真速率。更高 = 更平滑的仿真，但会增加CPU成本。

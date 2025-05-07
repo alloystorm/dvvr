@@ -18,16 +18,16 @@ sidebar:
 | <img src="/images/icon/ic_motion.png" alt="motion icon"/> 選択したものに割り当て|| 
 | <img src="/images/icon/ic_motion.png" alt="motion icon"/> 2番目としてすべてに割り当て|| 
 | <img src="/images/icon/ic_motion.png" alt="motion icon"/> 2番目として選択したものに割り当て|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 範囲| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>スピード</b>| | 
+|  ⊖ 範囲| [0.5] (0 ~ 1) | 
+|  ⚙️ <b>スピード</b>| | 
 | ├─ ☑ ビートあたりの動き| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グループあたりの動き| [8] (4 ~ 32) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> フェーズ| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> カーブ| [0] (0 ~ 1) | 
+| ├─ ⊖ グループあたりの動き| [8] (4 ~ 32) | 
+| ├─ ⊖ フェーズ| [0] (0 ~ 1) | 
+| ├─ ⊖ カーブ| [0] (0 ~ 1) | 
 | ├─ □ 可変速度| [OFF] | 
 | ├─ ☑ モード| (Gradual) | (Gradual), ランダム, ボリューム, 
 | ├─ ☑ 最小速度| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
 | └─ ☑ 最大速度| (3/2) | (1), (3/2), (2), (3), (4), 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> オーディオ感度| [2] (0.5 ~ 5) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> オーディオしきい値| [0.1] (0 ~ 0.5) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 体のツイスト| [0] (0 ~ 1) | 
+|  ☑ オーディオ感度| [2] (0.5 ~ 5) | 
+|  ⊖ オーディオしきい値| [0.1] (0 ~ 0.5) | 
+|  ⊖ 体のツイスト| [0] (0 ~ 1) | 

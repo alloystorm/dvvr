@@ -14,4 +14,4 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 임계값</nobr>| [30] (0 ~ 50) | 
+|<nobr> ⊖ 임계값</nobr>| [30] (0 ~ 50) | 

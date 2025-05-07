@@ -16,13 +16,13 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr> □ 루프</nobr>| [OFF] | 
 |<nobr> □ 음소거</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 시간 오프셋</nobr>| [0] ((Unlimited)) | 
-|<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 종횡비</nobr>| **(16:9)** | (1:1), (4:3), (14:9), (16:10), (16:9), (1.85:1), (2:1), (2.35:1), (2.39:1), (2.4:1),  |
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 오프셋</nobr>| [0] ((Unlimited)) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 비트당 분</nobr>| [120] (1 ~ 240) | 비트당 분
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 비트 오프셋</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 구절당 비트</nobr>| [8] (4 ~ 64) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 구절 시작</nobr>| [0] (0 ~ 32) | 
+|<nobr> ⊖ 시간 오프셋</nobr>| [0] ((Unlimited)) | 
+|<nobr> > 종횡비</nobr>| **(16:9)** | (1:1), (4:3), (14:9), (16:10), (16:9), (1.85:1), (2:1), (2.35:1), (2.39:1), (2.4:1),  |
+|<nobr> ⊖ 오프셋</nobr>| [0] ((Unlimited)) | 
+|<nobr> ⊖ 비트당 분</nobr>| [120] (1 ~ 240) | 비트당 분
+|<nobr> ⊖ 비트 오프셋</nobr>| [0] (0 ~ 1) | 
+|<nobr> ⊖ 구절당 비트</nobr>| [8] (4 ~ 64) | 
+|<nobr> ⊖ 구절 시작</nobr>| [0] (0 ~ 32) | 
 |<nobr> 탭 비트</nobr>|| 음악이 재생되는 동안 탭하여 BPM 설정
 |<nobr> 프로젝터 씬 예시</nobr>|| 
 |<nobr> LED 스크린 예시</nobr>|| 

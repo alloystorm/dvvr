@@ -14,9 +14,9 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用</nobr>| [ON] | 
+|<nobr> ☑ 啟用</nobr>| [ON] | 
 |<nobr> 選擇骨骼</nobr>|| 
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 重力</nobr>| [ON] | 
+|<nobr> ☑ 重力</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 質量</nobr>| [0.1] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減震</nobr>| [0] (0 ~ 1) | 
 |<nobr>☑ 碰撞體</nobr>| 球體 | 無, 球體, 膠囊, 

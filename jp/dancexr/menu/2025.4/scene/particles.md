@@ -15,31 +15,31 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |  □ パーティクル| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> スポーンレート| [1] (0 ~ 2) | パーティクルの密度
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 寿命| [1] (0 ~ 10) | 各パーティクルの持続時間
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> サイズ| [0.005] (0 ~ 0.2) | パーティクルのサイズ
-| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> テクスチャ| **[なし]** | [なし], [ダスト], [花びら], [葉],  |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー| [0] (0 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 金属的| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 滑らかさ| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 厚さ| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 重力| [9.8] (-10 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 速度| [8] (0 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 乱流| [0.5] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ドラッグ| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> バウンス| [0.1] (0 ~ 1) | 地面や物体に衝突した際の跳ね返り
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 回転| [1] (0 ~ 5) | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 衝突| [ON] | 物体との衝突を有効にする
+|  ⊖ スポーンレート| [1] (0 ~ 2) | パーティクルの密度
+|  ⊖ 寿命| [1] (0 ~ 10) | 各パーティクルの持続時間
+|  ⊖ サイズ| [0.005] (0 ~ 0.2) | パーティクルのサイズ
+|  > テクスチャ| **[なし]** | [なし], [ダスト], [花びら], [葉],  |
+|  ⊖ グロー| [0] (0 ~ 10) | 
+|  ⊖ 金属的| [0] (0 ~ 1) | 
+|  ⊖ 滑らかさ| [0.5] (0 ~ 1) | 
+|  ⊖ 厚さ| [0] (0 ~ 1) | 
+|  ⊖ 重力| [9.8] (-10 ~ 10) | 
+|  ⊖ 速度| [8] (0 ~ 10) | 
+|  ⊖ 乱流| [0.5] (0 ~ 2) | 
+|  ⊖ ドラッグ| [1] (0 ~ 2) | 
+|  ⊖ バウンス| [0.1] (0 ~ 1) | 地面や物体に衝突した際の跳ね返り
+|  ⊖ 回転| [1] (0 ~ 5) | 
+|  ☑ 衝突| [ON] | 物体との衝突を有効にする
 |  □ 上から生成| [OFF] | パーティクルは上からまたは生成エリア内で生成
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 高さ| [4] (1 ~ 8) | 生成エリアの高さ
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 地面に留まる| [0.5] (0 ~ 1) | 地面に落ちた後のパーティクルの持続時間。0に設定すると即座に消えます
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 雨の効果音| [0.5] (0 ~ 1) | 
+|  ⊖ 高さ| [4] (1 ~ 8) | 生成エリアの高さ
+|  ⊖ 地面に留まる| [0.5] (0 ~ 1) | 地面に落ちた後のパーティクルの持続時間。0に設定すると即座に消えます
+|  ⊖ 雨の効果音| [0.5] (0 ~ 1) | 
 |  □ <b>雨シェーダー</b>| | 
 | ├─ □ 有効にする| [OFF] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 強度| [0.5] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴の持続時間| [5] (0 ~ 20) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴サイズ| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴密度| [1] (-2 ~ 3) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> バンプ| [0.35] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 湿度| [0.5] (0 ~ 2) | 
+| ├─ ⊖ 強度| [0.5] (0 ~ 1) | 
+| ├─ ⊖ 水滴の持続時間| [5] (0 ~ 20) | 
+| ├─ ⊖ 水滴サイズ| [1] (0 ~ 1) | 
+| ├─ ⊖ 水滴密度| [1] (-2 ~ 3) | 
+| ├─ ⊖ バンプ| [0.35] (0 ~ 1) | 
+| └─ ⊖ 湿度| [0.5] (0 ~ 2) | 
 | <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **オフ** | オフ, ほこり, 雨, 雪, 花びら, 葉, きらめき,  |

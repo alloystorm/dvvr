@@ -18,12 +18,12 @@ sidebar:
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 分配给所选</nobr>|| 
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 作为第二个分配给所有</nobr>|| 
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 作为第二个分配给所选</nobr>|| 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 旋转</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 偏移</nobr>| [0] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 腿</nobr>| [0] (-35 ~ 115) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 膝盖</nobr>| [0] (-11 ~ 155) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 手臂</nobr>| [0] (-40 ~ 90) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 肘部</nobr>| [0] (-20 ~ 135) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 骨盆</nobr>| [0] (-25 ~ 25) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 腹部</nobr>| [0] (-20 ~ 36) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 胸部</nobr>| [0] (-25 ~ 36) | 
+|<nobr> ⊖ 旋转</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ⊖ 偏移</nobr>| [0] (0 ~ 2) | 
+|<nobr> ⊖ 腿</nobr>| [0] (-35 ~ 115) | 
+|<nobr> ⊖ 膝盖</nobr>| [0] (-11 ~ 155) | 
+|<nobr> ⊖ 手臂</nobr>| [0] (-40 ~ 90) | 
+|<nobr> ⊖ 肘部</nobr>| [0] (-20 ~ 135) | 
+|<nobr> ⊖ 骨盆</nobr>| [0] (-25 ~ 25) | 
+|<nobr> ⊖ 腹部</nobr>| [0] (-20 ~ 36) | 
+|<nobr> ⊖ 胸部</nobr>| [0] (-25 ~ 36) | 

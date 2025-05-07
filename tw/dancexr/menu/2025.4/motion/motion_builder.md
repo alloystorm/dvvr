@@ -18,7 +18,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定</nobr>|| 
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給所有作為第二</nobr>|| 
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 指派給選定作為第二</nobr>|| 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>(Body Motion)</b></nobr>| | 
+|<nobr> ⚙️ <b>(Body Motion)</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 同步</nobr>| [0.5] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 延遲</nobr>| [-0.25] (-0.5 ~ 0.5) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 比例</nobr>| [0.5] (0 ~ 1) | 
@@ -32,7 +32,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Orient)</nobr>| [0] (-45 ~ 45) | 
 |<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 範圍</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>速度</b></nobr>| | 
+|<nobr> ⚙️ <b>速度</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 相位</nobr>| [0] (0 ~ 1) | 
@@ -41,7 +41,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 模式</nobr>| (Gradual) | (Gradual), 隨機, 音量, 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
 |<nobr>└─ ☑ 最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>腿部</b></nobr>| | 
+|<nobr> ⚙️ <b>腿部</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Dist)</nobr>| [0.1] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Level)</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Stride)</nobr>| [0] (-1 ~ 1) | 

@@ -15,8 +15,8 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |  □ Enable| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Intensity| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Speed| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Motion Pattern| [1] (-1 ~ 1) | Choose horizontal, vertial or both (set to 0) motion
+|  ⊖ Intensity| [1] (0 ~ 2) | 
+|  ⊖ Speed| [0] (-2 ~ 2) | 
+|  ⊖ Motion Pattern| [1] (-1 ~ 1) | Choose horizontal, vertial or both (set to 0) motion
 | ☑ Time Pattern| Pulse | Constant, Pulse, Gradual, 
 |  □ Abs Mode| [OFF] | Bounce back at neutral position

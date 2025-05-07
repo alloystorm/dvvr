@@ -18,16 +18,16 @@ sidebar:
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 分配给所选</nobr>|| 
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 作为第二个分配给所有</nobr>|| 
 |<nobr><img src="/images/icon/ic_motion.png" alt="motion icon"/> 作为第二个分配给所选</nobr>|| 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 范围</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>速度</b></nobr>| | 
+|<nobr> ⊖ 范围</nobr>| [0.5] (0 ~ 1) | 
+|<nobr> ⚙️ <b>速度</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 每拍动作数</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 每组动作数</nobr>| [8] (4 ~ 32) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 相位</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 曲线</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 每组动作数</nobr>| [8] (4 ~ 32) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 相位</nobr>| [0] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 曲线</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 可变速度</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 模式</nobr>| (Gradual) | (Gradual), 随机, 音量, 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
 |<nobr>└─ ☑ 最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 音频灵敏度</nobr>| [2] (0.5 ~ 5) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 音频阈值</nobr>| [0.1] (0 ~ 0.5) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 身体扭转</nobr>| [0] (0 ~ 1) | 
+|<nobr> ☑ 音频灵敏度</nobr>| [2] (0.5 ~ 5) | 
+|<nobr> ⊖ 音频阈值</nobr>| [0.1] (0 ~ 0.5) | 
+|<nobr> ⊖ 身体扭转</nobr>| [0] (0 ~ 1) | 

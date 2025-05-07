@@ -15,8 +15,8 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |  □ 활성화| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 강도| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 속도| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 모션 패턴| [1] (-1 ~ 1) | 수평, 수직 또는 둘 다(0으로 설정된) 모션 선택
+|  ⊖ 강도| [1] (0 ~ 2) | 
+|  ⊖ 속도| [0] (-2 ~ 2) | 
+|  ⊖ 모션 패턴| [1] (-1 ~ 1) | 수평, 수직 또는 둘 다(0으로 설정된) 모션 선택
 | ☑ 시간 패턴| (Pulse) | (Constant), (Pulse), (Gradual), 
 |  □ (Abs Mode)| [OFF] | 중립 위치에서 반동

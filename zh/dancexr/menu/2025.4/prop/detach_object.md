@@ -14,11 +14,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 启用</nobr>| [ON] | 
+|<nobr> ☑ 启用</nobr>| [ON] | 
 |<nobr> 选择骨骼</nobr>|| 
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 重力</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 质量</nobr>| [0.1] (0 ~ 10) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 阻尼</nobr>| [0] (0 ~ 1) | 
+|<nobr> ☑ 重力</nobr>| [ON] | 
+|<nobr> ⊖ 质量</nobr>| [0.1] (0 ~ 10) | 
+|<nobr> ⊖ 阻尼</nobr>| [0] (0 ~ 1) | 
 |<nobr>☑ 碰撞体</nobr>| 球体 | 无, 球体, 胶囊, 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞体半径</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞体长度</nobr>| [0.3] (0 ~ 2) | 
+|<nobr> ⊖ 碰撞体半径</nobr>| [0.1] (0 ~ 1) | 
+|<nobr> ⊖ 碰撞体长度</nobr>| [0.3] (0 ~ 2) | 

@@ -14,90 +14,90 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Enable| [ON] | 
+|  ☑ Enable| [ON] | 
 |  Select Bones|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Spring Force| [1.5] (0 ~ 5) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Damping| [0.1] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Mass| [0.1] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Drag| [0.1] (0 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Counter Gravity| [10] (0 ~ 45) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Rotation Limit</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Up Limit| [100] (0 ~ 120) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Down Limit| [15] (0 ~ 45) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Left / Right Limit| [15] (0 ~ 45) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Spring Force| [1.25] (0 ~ 10) | Spring force when exceeding limit
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Damping| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Contact Distance| [0.5] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bounce| [0.2] (0 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Anchor</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [-0.03] (-0.2 ~ 0.2) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0.03] (-0.2 ~ 0.2) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0.08] (-0.2 ~ 0.2) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Center</b>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0.02] (-0.2 ~ 0.2) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [-0.05] (-0.2 ~ 0.2) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0.025] (-0.2 ~ 0.2) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Collision</b>| | 
+|  ⊖ Spring Force| [1.5] (0 ~ 5) | 
+|  ⊖ Damping| [0.1] (0 ~ 1) | 
+|  ⊖ Mass| [0.1] (0 ~ 1) | 
+|  ⊖ Drag| [0.1] (0 ~ 10) | 
+|  ⊖ Counter Gravity| [10] (0 ~ 45) | 
+|  ⚙️ <b>Rotation Limit</b>| | 
+| ├─ ⊖ Up Limit| [100] (0 ~ 120) | 
+| ├─ ⊖ Down Limit| [15] (0 ~ 45) | 
+| ├─ ⊖ Left / Right Limit| [15] (0 ~ 45) | 
+| ├─ ⊖ Spring Force| [1.25] (0 ~ 10) | Spring force when exceeding limit
+| ├─ ⊖ Damping| [1] (0 ~ 1) | 
+| ├─ ⊖ Contact Distance| [0.5] (0 ~ 1) | 
+| └─ ⊖ Bounce| [0.2] (0 ~ 1) | 
+|  ⚙️ <b>Anchor</b>| | 
+| ├─ ⊖ X| [-0.03] (-0.2 ~ 0.2) | 
+| ├─ ⊖ Y| [0.03] (-0.2 ~ 0.2) | 
+| └─ ⊖ Z| [0.08] (-0.2 ~ 0.2) | 
+|  ⚙️ <b>Center</b>| | 
+| ├─ ⊖ X| [0.02] (-0.2 ~ 0.2) | 
+| ├─ ⊖ Y| [-0.05] (-0.2 ~ 0.2) | 
+| └─ ⊖ Z| [0.025] (-0.2 ~ 0.2) | 
+|  ⚙️ <b>Collision</b>| | 
 | ├─ □ Collide With Arms| [OFF] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Collider Radius| [0.07] (0 ~ 0.1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Collider Length| [0.65] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Collider Curve| [2] (-2 ~ 2) | Works with cloth simulation.
+| ├─ ⊖ Collider Radius| [0.07] (0 ~ 0.1) | 
+| ├─ ⊖ Collider Length| [0.65] (0 ~ 1) | 
+| ├─ ⊖ Collider Curve| [2] (-2 ~ 2) | Works with cloth simulation.
 | ├─ □ Visualize| [OFF] | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Enable Nipple| [ON] | Works with cloth simulation.
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Nipple Position</b>| | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [-0.18] (-1 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0.09] (-1 ~ 1) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0.2] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Nipple Size| [0.1] (0 ~ 1) | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> <b>Softbody</b>| | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Enable| [ON] | 
+| ├─ ☑ Enable Nipple| [ON] | Works with cloth simulation.
+| ├─ ⚙️ <b>Nipple Position</b>| | 
+| │ ├─ ⊖ X| [-0.18] (-1 ~ 1) | 
+| │ ├─ ⊖ Y| [0.09] (-1 ~ 1) | 
+| │ └─ ⊖ Z| [0.2] (0 ~ 1) | 
+| └─ ⊖ Nipple Size| [0.1] (0 ~ 1) | 
+|  ☑ <b>Softbody</b>| | 
+| ├─ ☑ Enable| [ON] | 
 | ├─ <b>Joints</b>|| 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Depth| [0.4] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Include Center| [ON] | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Volume Constraint| [0.85] (0.5 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Internal Constraint| [0.65] (0.5 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Surface Constraint| [0.75] (0.5 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotation Constraint| [0.65] (0.5 ~ 1) | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Center Lock| [1] (0.5 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Damping| [15] (0 ~ 40) | 
+| ├─ ⊖ Depth| [0.4] (0 ~ 1) | 
+| ├─ ☑ Include Center| [ON] | 
+| ├─ ☑ Volume Constraint| [0.85] (0.5 ~ 1) | 
+| ├─ ⊖ Internal Constraint| [0.65] (0.5 ~ 1) | 
+| ├─ ⊖ Surface Constraint| [0.75] (0.5 ~ 1) | 
+| ├─ ⊖ Rotation Constraint| [0.65] (0.5 ~ 1) | 
+| ├─ ☑ Edge Lock| [0.85] (0.5 ~ 1) | Lock particles on the edge.
+| ├─ ⊖ Center Lock| [1] (0.5 ~ 1) | 
+| ├─ ⊖ Damping| [15] (0 ~ 40) | 
 | ├─ □ Visualize| [OFF] | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Max Angular Velocity| [2] (0 ~ 4) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Inertia| [2] (1 ~ 5) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soften| [0] (0 ~ 1) | Soften the particle constraints.
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Gravity| [9.8] (-9.8 ~ 9.8) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Friction| [1] (0 ~ 2) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ground Friction| [1] (-2 ~ 2) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Drag (Air)| [0] (0 ~ 2) | Air resistancy
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Buoyancy| [-0.1] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Wind</b>| | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Wind Influence| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Turbulence Scale| [0] (-2 ~ 2) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Turbulence Intensity| [1] (0 ~ 2) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Turbulence Time Scale| [0] (-4 ~ 4) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Collide With</b>| | 
-| │ ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Head| [ON] | 
+| ├─ ⊖ Max Angular Velocity| [2] (0 ~ 4) | 
+| ├─ ⊖ Inertia| [2] (1 ~ 5) | 
+| ├─ ⊖ Soften| [0] (0 ~ 1) | Soften the particle constraints.
+| ├─ ⊖ Particle Radius| [5] (1 ~ 20) | Size of particle in millimeters
+| ├─ ⊖ Gravity| [9.8] (-9.8 ~ 9.8) | 
+| ├─ ⊖ Friction| [1] (0 ~ 2) | 
+| ├─ ⊖ Ground Friction| [1] (-2 ~ 2) | 
+| ├─ ⊖ Drag (Air)| [0] (0 ~ 2) | Air resistancy
+| ├─ ⊖ Drag (Underwater)| [1] (0 ~ 2) | Underwater resistancy
+| ├─ ⊖ Buoyancy| [-0.1] (-1 ~ 1) | 
+| ├─ ⚙️ <b>Wind</b>| | 
+| │ ├─ ⊖ Wind Influence| [0] (0 ~ 1) | 
+| │ ├─ ⊖ Turbulence Scale| [0] (-2 ~ 2) | 
+| │ ├─ ⊖ Turbulence Intensity| [1] (0 ~ 2) | 
+| │ └─ ⊖ Turbulence Time Scale| [0] (-4 ~ 4) | 
+| ├─ ⚙️ <b>Collide With</b>| | 
+| │ ├─ ☑ Head| [ON] | 
 | │ ├─ □ Body| [OFF] | 
 | │ ├─ □ Boobs| [OFF] | 
 | │ ├─ □ Butts| [OFF] | 
-| │ ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Arms| [ON] | 
-| │ ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Hands| [ON] | 
+| │ ├─ ☑ Arms| [ON] | 
+| │ ├─ ☑ Hands| [ON] | 
 | │ ├─ □ Legs| [OFF] | 
-| │ ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Feet| [ON] | 
-| │ └─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Player| [ON] | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Simulation Settings</b>| | 
-| │ ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Use Global| [ON] | Find the global settings under Pro / Cloth Simulation
-| │ ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Enable Dragging| [ON] | 
-| │ ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> Simulate| [ON] | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Simulation FPS| **Dynamic** | Dynamic, Fixed 30, Fixed 60, Fixed 90, Fixed 100, Fixed 120, Fixed 160, Fixed 175, Fixed 240,  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Time Scale| [0.65] (0.1 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Substeps| [4] (1 ~ 20) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Iterations| [1] (0 ~ 10) | 
+| │ ├─ ☑ Feet| [ON] | 
+| │ └─ ☑ Player| [ON] | 
+| ├─ ⚙️ <b>Simulation Settings</b>| | 
+| │ ├─ ☑ Use Global| [ON] | Find the global settings under Pro / Cloth Simulation
+| │ ├─ ☑ Enable Dragging| [ON] | 
+| │ ├─ ☑ Simulate| [ON] | 
+| │ ├─ > Simulation FPS| **Dynamic** | Dynamic, Fixed 30, Fixed 60, Fixed 90, Fixed 100, Fixed 120, Fixed 160, Fixed 175, Fixed 240,  |
+| │ ├─ ⊖ Time Scale| [0.65] (0.1 ~ 1) | 
+| │ ├─ ⊖ Substeps| [4] (1 ~ 20) | 
+| │ ├─ ⊖ Iterations| [1] (0 ~ 10) | 
 | │ ├─ □ Reverse Even Substeps| [OFF] | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alternate Group Size| [0] (0 ~ 20) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Table Size| [6] (1 ~ 20) | 
+| │ ├─ ⊖ Alternate Group Size| [0] (0 ~ 20) | 
+| │ ├─ ⊖ Table Size| [6] (1 ~ 20) | 
 | │ └─ □ Two Step Solving| [OFF] | 
 | └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ Softbody Only| [OFF] | Disable physics joint and use softbody particles only.

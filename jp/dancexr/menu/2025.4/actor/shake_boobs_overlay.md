@@ -15,8 +15,8 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |  □ 有効にする| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 強度| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> スピード| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> モーションパターン| [1] (-1 ~ 1) | 水平、垂直、または両方の動きを選択（0に設定）
+|  ⊖ 強度| [1] (0 ~ 2) | 
+|  ⊖ スピード| [0] (-2 ~ 2) | 
+|  ⊖ モーションパターン| [1] (-1 ~ 1) | 水平、垂直、または両方の動きを選択（0に設定）
 | ☑ 時間パターン| (Pulse) | (Constant), (Pulse), (Gradual), 
 |  □ (Abs Mode)| [OFF] | 中立位置でバウンスバック

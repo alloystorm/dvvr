@@ -14,24 +14,24 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 大小</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 頭部半徑</nobr>| [1] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 手臂半徑</nobr>| [1] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 前臂</nobr>| [1] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 胸部寬度</nobr>| [1] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 腰部寬度</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 臀部寬度</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 臀部半徑</nobr>| [1] (0 ~ 2) | 
+|<nobr> ☑ 啟用</nobr>| [ON] | 
+|<nobr> ⊖ 大小</nobr>| [0.5] (0 ~ 1) | 
+|<nobr> ⊖ 頭部半徑</nobr>| [1] (0 ~ 2) | 
+|<nobr> ⊖ 手臂半徑</nobr>| [1] (0 ~ 2) | 
+|<nobr> ⊖ 前臂</nobr>| [1] (0 ~ 2) | 
+|<nobr> ⊖ 胸部寬度</nobr>| [1] (0 ~ 2) | 
+|<nobr> ⊖ 腰部寬度</nobr>| [0.5] (0 ~ 1) | 
+|<nobr> ⊖ 臀部寬度</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ⊖ 臀部半徑</nobr>| [1] (0 ~ 2) | 
 |<nobr> <b>臀部位置</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-0.1 ~ 0.1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-0.1 ~ 0.1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-0.1 ~ 0.1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 腹部半徑</nobr>| [1] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 腹部位置</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 腿部半徑</nobr>| [1] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 大腿前/後</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 大腿起始位置</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 手</nobr>| [0] (0 ~ 1) | 
+|<nobr> ⊖ (X)</nobr>| [0] (-0.1 ~ 0.1) | 
+|<nobr> ⊖ (Y)</nobr>| [0] (-0.1 ~ 0.1) | 
+|<nobr> ⊖ (Z)</nobr>| [0] (-0.1 ~ 0.1) | 
+|<nobr> ⊖ 腹部半徑</nobr>| [1] (0 ~ 2) | 
+|<nobr> ⊖ 腹部位置</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ⊖ 腿部半徑</nobr>| [1] (0 ~ 2) | 
+|<nobr> ⊖ 大腿前/後</nobr>| [0] (-1 ~ 1) | 
+|<nobr> ⊖ 大腿起始位置</nobr>| [0] (0 ~ 1) | 
+|<nobr> ⊖ 手</nobr>| [0] (0 ~ 1) | 
 |<nobr> □ 可視化</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (amy), (misaki),  |

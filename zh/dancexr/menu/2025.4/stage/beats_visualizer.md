@@ -14,32 +14,32 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 启用</nobr>| [ON] | 
+|<nobr> ☑ 启用</nobr>| [ON] | 
 |<nobr>☑ 数据</nobr>| 节拍 | 节拍, 原始节拍, 原始起始, 
 |<nobr>☑ 位置</nobr>| 舞台 | 摄像机, 舞台, 演员, 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 半径</nobr>| [1.2] (0.2 ~ 5) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 标记大小</nobr>| [0.02] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 线宽</nobr>| [0.01] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>线条颜色</b></nobr>| | 
+|<nobr> ⊖ 半径</nobr>| [1.2] (0.2 ~ 5) | 
+|<nobr> ⊖ 标记大小</nobr>| [0.02] (0 ~ 1) | 
+|<nobr> ⊖ 线宽</nobr>| [0.01] (0 ~ 1) | 
+|<nobr> ⚙️ <b>线条颜色</b></nobr>| | 
 |<nobr>├─ ☑ 颜色模式</nobr>| (HSV) | (RGB), (HSV), 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0.3333333] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 饱和度</nobr>| [1] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 红色</nobr>| [0] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 绿色</nobr>| [1] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 蓝色</nobr>| [0] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 发光</nobr>| [1] (0 ~ 20) | 
+|<nobr>├─ ⊖ 色相</nobr>| [0.3333333] (0 ~ 1) | 
+|<nobr>├─ ⊖ 饱和度</nobr>| [1] (0 ~ 1) | 
+|<nobr>├─ ⊖ 亮度</nobr>| [1] (0 ~ 1) | 
+|<nobr>├─ ⊖ 红色</nobr>| [0] (0 ~ 1) | 
+|<nobr>├─ ⊖ 绿色</nobr>| [1] (0 ~ 1) | 
+|<nobr>├─ ⊖ 蓝色</nobr>| [0] (0 ~ 1) | 
+|<nobr>├─ ⊖ 发光</nobr>| [1] (0 ~ 20) | 
 |<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **绿色** | 白色, 红色, 绿色, 蓝色, 动画色相, 伴音乐的辉光,  |
-|<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>标记颜色</b></nobr>| | 
+|<nobr> ⚙️ <b>标记颜色</b></nobr>| | 
 |<nobr>├─ ☑ 颜色模式</nobr>| (HSV) | (RGB), (HSV), 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 饱和度</nobr>| [0] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 红色</nobr>| [1] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 绿色</nobr>| [1] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 蓝色</nobr>| [1] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 发光</nobr>| [1] (0 ~ 20) | 
+|<nobr>├─ ⊖ 色相</nobr>| [0] (0 ~ 1) | 
+|<nobr>├─ ⊖ 饱和度</nobr>| [0] (0 ~ 1) | 
+|<nobr>├─ ⊖ 亮度</nobr>| [1] (0 ~ 1) | 
+|<nobr>├─ ⊖ 红色</nobr>| [1] (0 ~ 1) | 
+|<nobr>├─ ⊖ 绿色</nobr>| [1] (0 ~ 1) | 
+|<nobr>├─ ⊖ 蓝色</nobr>| [1] (0 ~ 1) | 
+|<nobr>├─ ⊖ 发光</nobr>| [1] (0 ~ 20) | 
 |<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **白色** | 白色, 红色, 绿色, 蓝色, 动画色相, 伴音乐的辉光,  |
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 节拍循环</nobr>| [8] (2 ~ 16) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 正常发光</nobr>| [1] (0 ~ 8) | 
-|<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 闪烁发光</nobr>| [2] (0 ~ 8) | 
+|<nobr> ⊖ 节拍循环</nobr>| [8] (2 ~ 16) | 
+|<nobr> ⊖ 正常发光</nobr>| [1] (0 ~ 8) | 
+|<nobr> ⊖ 闪烁发光</nobr>| [2] (0 ~ 8) | 

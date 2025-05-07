@@ -14,18 +14,18 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> オフセットX| [0] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> オフセットY| [0] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> オフセットZ| [0] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 回転 X| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 回転 Y| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 回転 Z| [0] (-180 ~ 180) | 
+|  ⊖ スケール| [0] (-2 ~ 2) | 
+|  ⊖ オフセットX| [0] ((Unlimited)) | 
+|  ⊖ オフセットY| [0] ((Unlimited)) | 
+|  ⊖ オフセットZ| [0] ((Unlimited)) | 
+|  ⊖ 回転 X| [0] (-180 ~ 180) | 
+|  ⊖ 回転 Y| [0] (-180 ~ 180) | 
+|  ⊖ 回転 Z| [0] (-180 ~ 180) | 
 |  □ 物理| [OFF] | 
 |  □ 静止| [OFF] | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 重力| [ON] | 
+|  ☑ 重力| [ON] | 
 | ☑ 形状| ボックス | 球体, カプセル, ボックス, 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 質量| [1] (0 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ドラッグ| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 摩擦| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> バウンス性| [0.5] (0 ~ 1) | 
+|  ⊖ 質量| [1] (0 ~ 10) | 
+|  ⊖ ドラッグ| [0] (0 ~ 1) | 
+|  ⊖ 摩擦| [0.5] (0 ~ 1) | 
+|  ⊖ バウンス性| [0.5] (0 ~ 1) | 

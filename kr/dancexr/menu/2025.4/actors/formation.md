@@ -21,15 +21,15 @@ sidebar:
 |  원|| 
 |  제로|| 
 |  팬 형태|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> X 거리| [1] (-10 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y 거리| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 방향| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 관객 편성 사용| [ON] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 관객 거리| [2] (0.25 ~ 5) | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 관객 회전| [ON] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 오프셋 X| [0] (-5 ~ 5) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y 오프셋| [0] (-5 ~ 5) | 
+|  ⊖ X 거리| [1] (-10 ~ 10) | 
+|  ⊖ Y 거리| [1] (-2 ~ 2) | 
+|  ⊖ 회전| [0] (-180 ~ 180) | 
+|  ⊖ 방향| [0] (-180 ~ 180) | 
+|  ☑ 관객 편성 사용| [ON] | 
+|  ⊖ 관객 거리| [2] (0.25 ~ 5) | 
+|  ☑ 관객 회전| [ON] | 
+|  ⊖ 오프셋 X| [0] (-5 ~ 5) | 
+|  ⊖ Y 오프셋| [0] (-5 ~ 5) | 
 |  배우 재설정|| 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 랜덤 소품 위치| [ON] | 
+|  ☑ 랜덤 소품 위치| [ON] | 
 | <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **기본값 (초기화)** | 기본값 (초기화),  |

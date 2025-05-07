@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用</nobr>| [ON] | 
+|<nobr> ☑ 啟用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 大小</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 頭部半徑</nobr>| [1] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 手臂半徑</nobr>| [1] (0 ~ 2) | 

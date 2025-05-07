@@ -16,11 +16,11 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> モデルスケール| [0] (-3 ~ 3) | (Adjust the overall scale of the model. Values are exponential for finer control.)
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 地面オフセット| [0] (-2 ~ 2) | (Set the vertical offset of the model relative to the ground.)
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 均一な高さ| [ON] | (Enable to scale the model to an average human height.)
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 回転| [0] (-180 ~ 180) | (Set the rotation of the model in degrees.)
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> オフセットX| [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the X-axis.)
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> オフセットZ| [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the Z-axis.)
+|  ⊖ モデルスケール| [0] (-3 ~ 3) | (Adjust the overall scale of the model. Values are exponential for finer control.)
+|  ⊖ 地面オフセット| [0] (-2 ~ 2) | (Set the vertical offset of the model relative to the ground.)
+|  ☑ 均一な高さ| [ON] | (Enable to scale the model to an average human height.)
+|  ⊖ 回転| [0] (-180 ~ 180) | (Set the rotation of the model in degrees.)
+|  ⊖ オフセットX| [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the X-axis.)
+|  ⊖ オフセットZ| [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the Z-axis.)
 | ☑ スナッピング| (0) | (0), (0.1), (0.2), (0.5), (1), (2), <br/>(Set the snapping increment for drag adjustments. Smaller values allow finer control.)
 | <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **均一な実寸大** | 均一な実寸大, ミニチュア, 巨人, オリジナル,  |

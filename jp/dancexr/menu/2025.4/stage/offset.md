@@ -15,11 +15,11 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |  <b>位置</b>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)| [0] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)| [0] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)| [0] ((Unlimited)) | 
+|  ⊖ (X)| [0] ((Unlimited)) | 
+|  ⊖ (Y)| [0] ((Unlimited)) | 
+|  ⊖ (Z)| [0] ((Unlimited)) | 
 |  <b>回転</b>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)| [0] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)| [0] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)| [0] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール| [1] (0.2 ~ 2) | 
+|  ⊖ (X)| [0] ((Unlimited)) | 
+|  ⊖ (Y)| [0] ((Unlimited)) | 
+|  ⊖ (Z)| [0] ((Unlimited)) | 
+|  ⊖ スケール| [1] (0.2 ~ 2) | 

@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> アクターのスケール| [1] (0.15 ~ 5) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> モーションスケール| [1] (0.5 ~ 1.5) | 
+|  ⊖ アクターのスケール| [1] (0.15 ~ 5) | 
+|  ⊖ モーションスケール| [1] (0.5 ~ 1.5) | 

@@ -18,15 +18,15 @@ sidebar:
 | :--- | --- | :--- |
 |  □ 有効にする| [OFF] | 
 |  ソースボーンを選択|| アタッチするボーンを選択
-| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> アクターを選択|  |  |
+|  > アクターを選択|  |  |
 |  ターゲットボーンを選択|| アタッチするターゲットボーンを選択
 |  □ (Ignore Rotation)| [OFF] | アタッチボーンの回転を無視する
 |  <b>オフセット</b>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)| [0] (-1 ~ 1) | 
+|  ⊖ (X)| [0] (-1 ~ 1) | 
+|  ⊖ (Y)| [0] (-1 ~ 1) | 
+|  ⊖ (Z)| [0] (-1 ~ 1) | 
 |  <b>回転</b>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール| [0] (-4 ~ 4) | 
+|  ⊖ (X)| [0] (-180 ~ 180) | 
+|  ⊖ (Y)| [0] (-180 ~ 180) | 
+|  ⊖ (Z)| [0] (-180 ~ 180) | 
+|  ⊖ スケール| [0] (-4 ~ 4) | 
