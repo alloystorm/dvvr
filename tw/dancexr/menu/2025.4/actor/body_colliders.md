@@ -34,4 +34,4 @@ sidebar:
 |<nobr> ⊖ 大腿起始位置</nobr>| [0] (0 ~ 1) | 
 |<nobr> ⊖ 手</nobr>| [0] (0 ~ 1) | 
 |<nobr> □ 可視化</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (amy), (misaki),  |
+|<nobr> ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (amy), (misaki),  |

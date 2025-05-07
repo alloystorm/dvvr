@@ -42,4 +42,4 @@ sidebar:
 | ├─ ⊖ Droplet Density| [1] (-2 ~ 3) | 
 | ├─ ⊖ Bump| [0.35] (0 ~ 1) | 
 | └─ ⊖ Wetness| [0.5] (0 ~ 2) | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Off** | Off, Dust, Rain, Snow, Petal, Leaf, Glitter,  |
+|  ≡ Presets| **Off** | Off, Dust, Rain, Snow, Petal, Leaf, Glitter,  |

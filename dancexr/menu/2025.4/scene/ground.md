@@ -46,7 +46,7 @@ sidebar:
 | │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └─ ≡ Presets| **Black** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├─ □ <b>Toon Shader</b>| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
@@ -59,7 +59,7 @@ sidebar:
 | │ ├─ ⊖ Shadow Area| [0.65] (0 ~ 1) | 
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├─ ⚙️ <b>Special Shader</b>| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
@@ -73,10 +73,10 @@ sidebar:
 | │ ├─ ⊖ Viewing Angle| [1] (0 ~ 8) | Reduce brightness when viewed from an angle. 0 = perfect
 | │ ├─ ⊖ Edge| [0.5] (0 ~ 1) | 
 | │ └─ ⊖ Reduce Moire| [0.1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Black Gloss** | Sky Map, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
+| └─ ≡ Presets| **Black Gloss** | Sky Map, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
 |  □ <b>Shadow Only</b>| | 
 | ├─ <b>Shadow Color</b>|| 
-| ├─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Black** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
+| ├─ ≡ Presets| **Black** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
 | ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | ├─ ⊖ Hue| [0] (0 ~ 1) | 
 | ├─ ⊖ Satuation| [0] (0 ~ 1) | 
@@ -86,7 +86,7 @@ sidebar:
 | ├─ ⊖ Blue| [0] (0 ~ 1) | 
 | └─ ⊖ Transparency| [0.5] (0 ~ 1) | 
 |  □ Stage / Pool| [OFF] | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Off** | Off, Runway, Pool, Room, Background Board, Projector Screen, LED Screen,  |
+|  ≡ Presets| **Off** | Off, Runway, Pool, Room, Background Board, Projector Screen, LED Screen,  |
 |  ⊖ Lift| [0.5] (-2 ~ 2) | Lift the stage up / down.
 |  ⊖ Front / Back Offset| [0] (-10 ~ 10) | 
 |  ⚙️ <b>Shape</b>| | 
@@ -128,7 +128,7 @@ sidebar:
 | │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └─ ≡ Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├─ □ <b>Toon Shader</b>| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
@@ -141,7 +141,7 @@ sidebar:
 | │ ├─ ⊖ Shadow Area| [0.65] (0 ~ 1) | 
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├─ ⚙️ <b>Special Shader</b>| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
@@ -154,7 +154,7 @@ sidebar:
 | │ ├─ ⊖ Viewing Angle| [1] (0 ~ 8) | Reduce brightness when viewed from an angle. 0 = perfect
 | │ ├─ ⊖ Edge| [0.5] (0 ~ 1) | 
 | │ └─ ⊖ Reduce Moire| [0.1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Wood** | Blank, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
+| └─ ≡ Presets| **Wood** | Blank, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
 |  ⚙️ <b>Back Surface</b>| | 
 | ├─ > Texture| **[Blank]** | [Blank], [Wood1], [Wood2], [Tiles], [Concrete], [Video],  |
 | ├─ ⚙️ <b>Tiling</b>| | 
@@ -183,7 +183,7 @@ sidebar:
 | │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ ├─ > Blend Mode| **Original** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └─ ≡ Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├─ □ <b>Toon Shader</b>| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
@@ -196,7 +196,7 @@ sidebar:
 | │ ├─ ⊖ Shadow Area| [0.65] (0 ~ 1) | 
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├─ ⚙️ <b>Special Shader</b>| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
@@ -209,9 +209,9 @@ sidebar:
 | │ ├─ ⊖ Viewing Angle| [1] (0 ~ 8) | Reduce brightness when viewed from an angle. 0 = perfect
 | │ ├─ ⊖ Edge| [0.5] (0 ~ 1) | 
 | │ └─ ⊖ Reduce Moire| [0.1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Blank** | Blank, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
+| └─ ≡ Presets| **Blank** | Blank, Wood, Concrete, Blue Tiles, Projector Screen, Emissive Screen, LED Screen, Black Gloss, Glow, Glass,  |
 |  □ Water System| [OFF] | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Off** | Off, Pool, Still Water, Ocean,  |
+|  ≡ Presets| **Off** | Off, Pool, Still Water, Ocean,  |
 | ☑ Type| Pool | Pool, River, Ocean, 
 |  ⊖ Height| [-0.1] (-2 ~ 2) | Height of water level.
 |  ⊖ Ripples| [3] (0 ~ 10) | Intensity of small wave
@@ -220,4 +220,4 @@ sidebar:
 |  ⊖ Absorption Distance| [5] (1 ~ 10) | Max distance you can see in the water from above.
 |  ⊖ Caustics| [0.5] (0 ~ 1) | Caustics effect
 |  ⊖ Absorption Multiplier| [2] (0 ~ 5) | Multiplication applied to the Absorption Distance when viewing from below.
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Black Gloss** | Sky Map, Black Gloss, Stage, Pool, Ocean, Background Board, Projector Screen, Emissive Screen, Preset 1,  |
+|  ≡ Presets| **Black Gloss** | Sky Map, Black Gloss, Stage, Pool, Ocean, Background Board, Projector Screen, Emissive Screen, Preset 1,  |

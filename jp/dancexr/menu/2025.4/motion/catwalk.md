@@ -78,7 +78,7 @@ sidebar:
 | ├─ ⊖ つかむ距離| [0.015] (-0.1 ~ 0.1) | 
 | ├─ ⊖ つかむ位置| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ (Grab Axis)| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **ヒップ** | (Rest), 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| └─ ≡ プリセット| **ヒップ** | (Rest), 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |  ⚙️ <b>右手</b>| | 
 | ├─ > ジェスチャー| **(Grab)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |
 | ├─ ⚙️ <b>手の位置</b>| | 
@@ -128,7 +128,7 @@ sidebar:
 | ├─ ⊖ つかむ距離| [0.015] (-0.1 ~ 0.1) | 
 | ├─ ⊖ つかむ位置| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ (Grab Axis)| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **ヒップ** | (Rest), 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| └─ ≡ プリセット| **ヒップ** | (Rest), 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |  ⚙️ <b>円を描いて歩く</b>| | 
 | ├─ □ 円を描いて歩く| [OFF] | 
 | └─ ⊖ 半径| [2] (0 ~ 5) | 

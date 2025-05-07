@@ -46,7 +46,7 @@ sidebar:
 | ├─ ⊖ 青| [1] (0 ~ 1) | 
 | ├─ □ ステージカラーを使用| [OFF] | ステージリングからの色を使用
 | ├─ ☑ 色温度| [6500] (3000 ~ 8000) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
+| └─ ≡ プリセット| **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
 |  ⚙️ <b>ミドルカラー</b>| | 
 | ├─ ☑ カラーモード| (RGB) | (RGB), (HSV), 
 | ├─ ⊖ 色相| [0] (0 ~ 1) | 
@@ -57,7 +57,7 @@ sidebar:
 | ├─ ⊖ 青| [1] (0 ~ 1) | 
 | ├─ □ ステージカラーを使用| [OFF] | ステージリングからの色を使用
 | ├─ ☑ 色温度| [6500] (3000 ~ 8000) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
+| └─ ≡ プリセット| **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
 |  ⚙️ <b>グラウンドカラー</b>| | 
 | ├─ ☑ カラーモード| (RGB) | (RGB), (HSV), 
 | ├─ ⊖ 色相| [0] (0 ~ 1) | 
@@ -68,7 +68,7 @@ sidebar:
 | ├─ ⊖ 青| [1] (0 ~ 1) | 
 | ├─ □ ステージカラーを使用| [OFF] | ステージリングからの色を使用
 | ├─ ☑ 色温度| [6500] (3000 ~ 8000) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
+| └─ ≡ プリセット| **白** | 白, 夕焼け, 赤, (Yellow), 青, 緑,  |
 |  ☑ <b>雲</b>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
 | ├─ ☑ 有効にする| [ON] | (Enables or disables volumetric clouds.)
 | ├─ ⊖ 形状スケール| [1] (-1 ~ 2) | (Controls the scale of the cloud shapes.)
@@ -78,4 +78,4 @@ sidebar:
 | ├─ ⊖ 密度| [0.2] (0 ~ 1) | (Sets the density multiplier for the clouds.)
 | ├─ □ シャドウ| [OFF] | (Enables or disables cloud shadows.)
 | └─ ⊖ 風の倍率| [3] (0 ~ 4) | (Sets the wind multiplier for cloud movement.)
-| <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **薄い雲** | スカイマップ, プロシージャル, 屋内, 薄い雲, 曇り,  |
+|  ≡ プリセット| **薄い雲** | スカイマップ, プロシージャル, 屋内, 薄い雲, 曇り,  |

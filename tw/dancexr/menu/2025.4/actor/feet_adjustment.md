@@ -51,4 +51,4 @@ sidebar:
 | ├─ ⊖ 旋轉 X| [0] (-90 ~ 90) | (Adjusts the rotation of the foot around the X-axis.)
 | ├─ ⊖ 旋轉 Y| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Y-axis.)
 | └─ ⊖ 旋轉 Z| [0] (-45 ~ 45) | (Adjusts the rotation of the foot around the Z-axis.)
-| <img src="/images/icon/ic_list.png" alt="list icon"/> 預設| **關閉** | 關閉, 接觸地面, 高跟鞋, 最大高跟鞋,  |
+|  ≡ 預設| **關閉** | 關閉, 接觸地面, 高跟鞋, 最大高跟鞋,  |

@@ -35,4 +35,4 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **遠** | 近距離, 遠,  |
+|<nobr> ≡ 預設</nobr>| **遠** | 近距離, 遠,  |

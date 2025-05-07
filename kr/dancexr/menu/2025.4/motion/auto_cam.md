@@ -51,4 +51,4 @@ sidebar:
 |  ⊖ 측면 90도| [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
 |  ⊖ 뒤 135도| [0] (0 ~ 1) | (Probability of orienting the camera to a 135-degree angle behind the actor.)
 |  ⊖ 뒤 180도| [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
-| <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **기본값 (초기화)** | 기본값 (초기화), (Preset 1),  |
+|  ≡ 프리셋| **기본값 (초기화)** | 기본값 (초기화), (Preset 1),  |

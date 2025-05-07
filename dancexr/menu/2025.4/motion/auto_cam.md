@@ -51,4 +51,4 @@ sidebar:
 |  ⊖ Side 90| [0.25] (0 ~ 1) | Probability of orienting the camera to the actor's side at a 90-degree angle.
 |  ⊖ Back 135| [0] (0 ~ 1) | Probability of orienting the camera to a 135-degree angle behind the actor.
 |  ⊖ Back 180| [0.25] (0 ~ 1) | Probability of orienting the camera directly behind the actor.
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), Preset 1,  |
+|  ≡ Presets| **Default (Reset)** | Default (Reset), Preset 1,  |

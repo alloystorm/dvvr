@@ -51,4 +51,4 @@ sidebar:
 |  ⊖ 横 90| [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
 |  ⊖ 後方 135| [0] (0 ~ 1) | (Probability of orienting the camera to a 135-degree angle behind the actor.)
 |  ⊖ 後方 180| [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
-| <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **デフォルト（リセット）** | デフォルト（リセット）, (Preset 1),  |
+|  ≡ プリセット| **デフォルト（リセット）** | デフォルト（リセット）, (Preset 1),  |

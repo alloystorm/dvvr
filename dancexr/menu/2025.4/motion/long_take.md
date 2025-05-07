@@ -28,4 +28,4 @@ sidebar:
 |  ☑ Prevent Below Floor| [ON] | 
 |  ☑ Use Actor Orientation| [ON] | 
 |  □ Raise Focus When Close| [OFF] | Move focus position up when distance gets smaller
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3,  |
+|  ≡ Presets| **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3,  |

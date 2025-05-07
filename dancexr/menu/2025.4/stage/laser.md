@@ -35,7 +35,7 @@ sidebar:
 | ├─ ⊖ Base Level| [-1] (-3 ~ 3) | 
 | ├─ ⊖ Edge Level| [2] (0 ~ 5) | 
 | ├─ ⊖ Hit Level| [2] (0 ~ 5) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Animated Hue** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+| └─ ≡ Presets| **Animated Hue** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
 |  ⚙️ <b>Motion</b>| | 
 | ├─ ⊖ Moves Per Group| [1] (1 ~ 32) | 
 | ├─ ⊖ Speed| [0] (-3 ~ 3) | 
@@ -64,5 +64,5 @@ sidebar:
 | │ └─ ⊖ Center| [0] (-1 ~ 1) | 
 | ├─ ☑ Use Audio| [2] (0 ~ 4) | 
 | ├─ ⊖ Seed| [1234] (Unlimited) | Controls randomized pattern sequence
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset),  |
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Off** | Off, Line, Half Circle, Point, Glow w/ Music, Preset 1,  |
+| └─ ≡ Presets| **Default (Reset)** | Default (Reset),  |
+|  ≡ Presets| **Off** | Off, Line, Half Circle, Point, Glow w/ Music, Preset 1,  |

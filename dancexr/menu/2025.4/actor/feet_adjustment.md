@@ -51,4 +51,4 @@ sidebar:
 | ├─ ⊖ Rotate X| [0] (-90 ~ 90) | Adjusts the rotation of the foot around the X-axis.
 | ├─ ⊖ Rotate Y| [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Y-axis.
 | └─ ⊖ Rotate Z| [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Z-axis.
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Off** | Off, On Floor, High Heels, Max Heels,  |
+|  ≡ Presets| **Off** | Off, On Floor, High Heels, Max Heels,  |

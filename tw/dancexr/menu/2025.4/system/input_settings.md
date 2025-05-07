@@ -20,7 +20,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 使用遊戲手把</nobr>| [OFF] | 在 VR 模式中啟用遊戲手把輸入
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 使用握把輸入</nobr>| [ON] | 關閉時完全忽略握把按鈕
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 握把閾值</nobr>| [0.5] (0 ~ 1) | 觸發握把按鈕輸入的閾值，對於像 Valve Index 這樣的非常敏感控制器非常有用
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Thumbstick)** | (Thumbstick), (Trackpad), (Trackpad + Thumbstick),  |
+|<nobr>└─ ≡ 預設</nobr>| **(Thumbstick)** | (Thumbstick), (Trackpad), (Trackpad + Thumbstick),  |
 |<nobr> ⚙️ <b>左拇指 X</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> > 主要動作</nobr>| **向左 / 向右移動** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> > 第二動作</nobr>| **向左 / 向右旋轉** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
@@ -123,4 +123,4 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> > 主要動作</nobr>| **切換麥克風** | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> > 第二動作</nobr>| **切換麥克風** | 無, 切換 UI, 播放 / 暫停, 返回 UI, 重設物理, 中心演員, 下一個演員, 上一個演員, 下一個動作, 上一個動作, 切換攝影機, 慢動作, 隨機演員, 隨機動作, 下一個場景, 上一個場景, 隨機場景, UI 操作, UI 替代, 次要操作, 中心 UI, 切換麥克風,  |
 |<nobr>└─ > (Key)</nobr>| **(Return)** | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
+|<nobr> ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置),  |

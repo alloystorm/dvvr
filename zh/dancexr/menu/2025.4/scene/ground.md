@@ -46,7 +46,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 蓝色</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 混合模式</nobr>| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 混合</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **黑色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **黑色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
 |<nobr>├─ □ <b>卡通着色器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 着色</nobr>| [1] (0 ~ 1) | 
@@ -59,7 +59,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 阴影区域</nobr>| [0.65] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 阴影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 柔和阴影</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
 |<nobr>├─ ⚙️ <b>特效着色器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 模式</nobr>| **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 折射</nobr>| [0.5] (1 ~ 3) | 
@@ -73,10 +73,10 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 视角</nobr>| [1] (0 ~ 8) | 从一个角度观看时减少亮度。0 = 完美
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 边缘</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 减少摩尔纹</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **黑色光泽** | 天空贴图, 木材, 混凝土, 蓝色瓷砖, 投影仪屏幕, 自发光屏幕, LED 屏幕, 黑色光泽, 发光, 玻璃,  |
+|<nobr>└─ ≡ 预设</nobr>| **黑色光泽** | 天空贴图, 木材, 混凝土, 蓝色瓷砖, 投影仪屏幕, 自发光屏幕, LED 屏幕, 黑色光泽, 发光, 玻璃,  |
 |<nobr> □ <b>仅影子</b></nobr>| | 
 |<nobr>├─ <b>阴影颜色</b></nobr>|| 
-|<nobr>├─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **黑色** | 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange), (Preset 1),  |
+|<nobr>├─ ≡ 预设</nobr>| **黑色** | 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange), (Preset 1),  |
 |<nobr>├─ ☑ 颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>├─ ⊖ 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>├─ ⊖ 饱和度</nobr>| [0] (0 ~ 1) | 
@@ -86,7 +86,7 @@ sidebar:
 |<nobr>├─ ⊖ 蓝色</nobr>| [0] (0 ~ 1) | 
 |<nobr>└─ ⊖ 透明度</nobr>| [0.5] (0 ~ 1) | 
 |<nobr> □ 舞台 / 池塘</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **关闭** | 关闭, 跑道, 水池, 房间, 背景板, 投影仪屏幕, LED 屏幕,  |
+|<nobr> ≡ 预设</nobr>| **关闭** | 关闭, 跑道, 水池, 房间, 背景板, 投影仪屏幕, LED 屏幕,  |
 |<nobr> ⊖ 提升</nobr>| [0.5] (-2 ~ 2) | 上下提升舞台
 |<nobr> ⊖ (Front / Back Offset)</nobr>| [0] (-10 ~ 10) | 
 |<nobr> ⚙️ <b>形状</b></nobr>| | 
@@ -128,7 +128,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 蓝色</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 混合模式</nobr>| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 混合</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
 |<nobr>├─ □ <b>卡通着色器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 着色</nobr>| [1] (0 ~ 1) | 
@@ -141,7 +141,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 阴影区域</nobr>| [0.65] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 阴影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 柔和阴影</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
 |<nobr>├─ ⚙️ <b>特效着色器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 模式</nobr>| **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 折射</nobr>| [0.5] (1 ~ 3) | 
@@ -154,7 +154,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 视角</nobr>| [1] (0 ~ 8) | 从一个角度观看时减少亮度。0 = 完美
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 边缘</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 减少摩尔纹</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **木材** | 空白, 木材, 混凝土, 蓝色瓷砖, 投影仪屏幕, 自发光屏幕, LED 屏幕, 黑色光泽, 发光, 玻璃,  |
+|<nobr>└─ ≡ 预设</nobr>| **木材** | 空白, 木材, 混凝土, 蓝色瓷砖, 投影仪屏幕, 自发光屏幕, LED 屏幕, 黑色光泽, 发光, 玻璃,  |
 |<nobr> ⚙️ <b>后表面</b></nobr>| | 
 |<nobr>├─ > 纹理</nobr>| **[空白]** | [空白], [木材1], [木材2], [瓷砖], [混凝土], [视频],  |
 |<nobr>├─ ⚙️ <b>镶嵌</b></nobr>| | 
@@ -183,7 +183,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 蓝色</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 混合模式</nobr>| **原始模型** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 混合</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
 |<nobr>├─ □ <b>卡通着色器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 着色</nobr>| [1] (0 ~ 1) | 
@@ -196,7 +196,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 阴影区域</nobr>| [0.65] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 阴影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 柔和阴影</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
 |<nobr>├─ ⚙️ <b>特效着色器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 模式</nobr>| **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 折射</nobr>| [0.5] (1 ~ 3) | 
@@ -209,9 +209,9 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 视角</nobr>| [1] (0 ~ 8) | 从一个角度观看时减少亮度。0 = 完美
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 边缘</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 减少摩尔纹</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **空白** | 空白, 木材, 混凝土, 蓝色瓷砖, 投影仪屏幕, 自发光屏幕, LED 屏幕, 黑色光泽, 发光, 玻璃,  |
+|<nobr>└─ ≡ 预设</nobr>| **空白** | 空白, 木材, 混凝土, 蓝色瓷砖, 投影仪屏幕, 自发光屏幕, LED 屏幕, 黑色光泽, 发光, 玻璃,  |
 |<nobr> □ 水系统</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **关闭** | 关闭, 水池, (Still Water), 海洋,  |
+|<nobr> ≡ 预设</nobr>| **关闭** | 关闭, 水池, (Still Water), 海洋,  |
 |<nobr>☑ 类型</nobr>| 水池 | 水池, 河流, 海洋, 
 |<nobr> ⊖ 高度</nobr>| [-0.1] (-2 ~ 2) | 水位高度
 |<nobr> ⊖ 涟漪</nobr>| [3] (0 ~ 10) | 小波浪强度
@@ -220,4 +220,4 @@ sidebar:
 |<nobr> ⊖ 吸收距离</nobr>| [5] (1 ~ 10) | 从上方可以看到的水中的最大距离。
 |<nobr> ⊖ 光晕</nobr>| [0.5] (0 ~ 1) | 光晕效果
 |<nobr> ⊖ 吸收倍增器</nobr>| [2] (0 ~ 5) | 从下方查看时应用于吸收距离的倍增。
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **黑色光泽** | 天空贴图, 黑色光泽, 舞台, 水池, 海洋, 背景板, 投影仪屏幕, 自发光屏幕, (Preset 1),  |
+|<nobr> ≡ 预设</nobr>| **黑色光泽** | 天空贴图, 黑色光泽, 舞台, 水池, 海洋, 背景板, 投影仪屏幕, 自发光屏幕, (Preset 1),  |

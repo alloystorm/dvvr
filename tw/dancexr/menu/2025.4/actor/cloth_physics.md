@@ -71,4 +71,4 @@ sidebar:
 |<nobr> ⊖ 碰撞體半徑</nobr>| [0.01] (0 ~ 0.05) | 解決碰撞時使用的粒子大小。
 |<nobr> ⊖ 碰撞體長度</nobr>| [0.9] (0 ~ 1) | 
 |<nobr> ⊖ 錨點位置</nobr>| [0] (0 ~ 1) | 創建關節時選擇錨點位置。0 = 錨點在父骨骼，1 = 錨點在子骨骼
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2),  |
+|<nobr> ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2),  |

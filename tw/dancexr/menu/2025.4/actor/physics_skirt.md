@@ -571,4 +571,4 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞體長度</nobr>| [0.8] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>│ └─ ⊖ (First Collider Length)</nobr>| [0.5] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>└─ ☑ 使用主要組設置</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (hurrah), (nyotengu cheongsam), (nyo birthday), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5), (Preset 6), (预设1),  |
+|<nobr> ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (hurrah), (nyotengu cheongsam), (nyo birthday), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5), (Preset 6), (预设1),  |

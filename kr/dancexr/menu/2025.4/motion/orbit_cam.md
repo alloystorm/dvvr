@@ -37,4 +37,4 @@ sidebar:
 |<nobr> ⊖ 최대 높이</nobr>| [0.5] (0 ~ 1) | 
 |<nobr> ⊖ 높이 주기</nobr>| [32] ((Unlimited)) | 
 |<nobr> ⊖ 속도</nobr>| [10] (0 ~ 90) | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (Preset 1),  |
+|<nobr> ≡ 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (Preset 1),  |

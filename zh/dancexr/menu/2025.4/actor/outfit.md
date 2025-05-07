@@ -33,7 +33,7 @@ sidebar:
 | │ ├─ ⊖ 红色| [1] (0 ~ 1) | 
 | │ ├─ ⊖ 绿色| [1] (0 ~ 1) | 
 | │ ├─ ⊖ 蓝色| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **白色** | 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange), (Preset 1),  |
+| │ └─ ≡ 预设| **白色** | 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange), (Preset 1),  |
 | ├─ ⊖ 发光| [0] (0 ~ 10) | 
 | ├─ ⊖ 保留颜色| [0] (0 ~ 1) | 
 | ├─ 清除画布|| 
@@ -59,7 +59,7 @@ sidebar:
 | ├─ ⊖ 外部距离| [0.01] (0 ~ 0.025) | 
 | ├─ ⊖ 内部凸起| [0.5] (0 ~ 1) | 
 | ├─ ⊖ 内部距离| [0.005] (0 ~ 0.1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **(Fullbody)** | (Fullbody), V 形, 丝袜, (Fishnet Fullbody), (Fishnet V Shape), (Fishnet Stockings), (Maze 1), (Maze 2), (Curve 1), (Curve 2),  |
+| └─ ≡ 预设| **(Fullbody)** | (Fullbody), V 形, 丝袜, (Fishnet Fullbody), (Fishnet V Shape), (Fishnet Stockings), (Maze 1), (Maze 2), (Curve 1), (Curve 2),  |
 |  □ <b>(Hexagon Map)</b>| | 
 | ├─ □ 启用| [OFF] | 
 | ├─ ⊖ 密度| [4] (0 ~ 8) | 
@@ -89,13 +89,13 @@ sidebar:
 | │ ├─ ⊖ 蓝色| [1] (0 ~ 1) | 
 | │ ├─ > 混合模式| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 | │ ├─ ⊖ 混合| [0.9] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **黑色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
+| │ └─ ≡ 预设| **黑色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
 | ├─ ⊖ 各向异性| [-0.5] (-1 ~ 1) | 
 | ├─ ⊖ 丝袜效果| [0.5] (0 ~ 1) | 
 | ├─ ⊖ 丝袜渐变| [2] (-3 ~ 3) | 
 | ├─ ⊖ 细节密度| [1] (0 ~ 2) | 
 | ├─ ☑ 启用溶解| [ON] | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **薄丝袜** | 薄丝袜, 厚丝袜, 白色丝袜, 乳胶, 透明乳胶, 银色, 金色, 发光白色, 原始模型, (Preset 1), (Preset 2), (预设1),  |
+| └─ ≡ 预设| **薄丝袜** | 薄丝袜, 厚丝袜, 白色丝袜, 乳胶, 透明乳胶, 银色, 金色, 发光白色, 原始模型, (Preset 1), (Preset 2), (预设1),  |
 | <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>表面图案</b>| | 
 | ├─ ⊖ 光泽| [0.9] (0 ~ 1) | 
 | ├─ ⊖ 金属质感| [0] (0 ~ 1) | 
@@ -114,13 +114,13 @@ sidebar:
 | │ ├─ ⊖ 蓝色| [1] (0 ~ 1) | 
 | │ ├─ > 混合模式| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 | │ ├─ ⊖ 混合| [0.8] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **黑色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
+| │ └─ ≡ 预设| **黑色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
 | ├─ ⊖ 各向异性| [0] (-1 ~ 1) | 
 | ├─ ⊖ 丝袜效果| [1] (0 ~ 1) | 
 | ├─ ⊖ 丝袜渐变| [1] (-3 ~ 3) | 
 | ├─ ⊖ 细节密度| [1] (0 ~ 2) | 
 | ├─ ☑ 启用溶解| [ON] | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **乳胶** | 薄丝袜, 厚丝袜, 白色丝袜, 乳胶, 透明乳胶, 银色, 金色, 发光白色, 原始模型, (Preset 1), (Preset 2), (预设1),  |
+| └─ ≡ 预设| **乳胶** | 薄丝袜, 厚丝袜, 白色丝袜, 乳胶, 透明乳胶, 银色, 金色, 发光白色, 原始模型, (Preset 1), (Preset 2), (预设1),  |
 | <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>表面边框</b>| | 
 | ├─ ⊖ 光泽| [0.5] (0 ~ 1) | 
 | ├─ ⊖ 金属质感| [0] (0 ~ 1) | 
@@ -139,13 +139,13 @@ sidebar:
 | │ ├─ ⊖ 蓝色| [1] (0 ~ 1) | 
 | │ ├─ > 混合模式| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 | │ ├─ ⊖ 混合| [0.9] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **黑色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
+| │ └─ ≡ 预设| **黑色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
 | ├─ ⊖ 各向异性| [-0.5] (-1 ~ 1) | 
 | ├─ ⊖ 丝袜效果| [0.5] (0 ~ 1) | 
 | ├─ ⊖ 丝袜渐变| [2] (-3 ~ 3) | 
 | ├─ ⊖ 细节密度| [1] (0 ~ 2) | 
 | ├─ ☑ 启用溶解| [ON] | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **薄丝袜** | 薄丝袜, 厚丝袜, 白色丝袜, 乳胶, 透明乳胶, 银色, 金色, 发光白色, 原始模型, (Preset 1), (Preset 2), (预设1),  |
+| └─ ≡ 预设| **薄丝袜** | 薄丝袜, 厚丝袜, 白色丝袜, 乳胶, 透明乳胶, 银色, 金色, 发光白色, 原始模型, (Preset 1), (Preset 2), (预设1),  |
 |  ⊖ 溶解| [0] (0 ~ 1) | 
 |  ⚙️ <b>溶解贴图</b>| | 
 | ├─ ⊖ 图案 L1| [13] (0 ~ 90) | 生成溶解贴图时更改级别 1 的图案
@@ -174,4 +174,4 @@ sidebar:
 | ├─ <b>手动选择</b>|| 
 | ├─ □ | [OFF] | 
 | └─<img src="/images/icon/ic_filter.png" alt="filter icon"/> 过滤|| 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **身体画** | 身体画, 全身乳胶, V形鱼网, 丝袜, 丝袜鱼网, 紧身衣 1, 紧身衣 2, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |
+|  ≡ 预设| **身体画** | 身体画, 全身乳胶, V形鱼网, 丝袜, 丝袜鱼网, 紧身衣 1, 紧身衣 2, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |

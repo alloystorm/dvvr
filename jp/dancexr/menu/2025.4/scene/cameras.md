@@ -30,7 +30,7 @@ sidebar:
 |  ├─ ⊖ FOV| [30] (5 ~ 120) | 
 |  ├─ ⊖ ビートサイクル| [8] (1 ~ 16) | 
 |  ├─ □ オービット移動を使用| [OFF] | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
+|  └─ ≡ プリセット| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [オービットカム]|| 
 | └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[オービットカム]</b>| | 
 |  ├─ > ターゲット選択| **自動** | 自動, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |
@@ -55,7 +55,7 @@ sidebar:
 |  ├─ ⊖ 最大高さ| [0.5] (0 ~ 1) | 
 |  ├─ ⊖ 高さサイクル| [32] ((Unlimited)) | 
 |  ├─ ⊖ スピード| [10] (0 ~ 90) | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **デフォルト（リセット）** | デフォルト（リセット）, (Preset 1),  |
+|  └─ ≡ プリセット| **デフォルト（リセット）** | デフォルト（リセット）, (Preset 1),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [オートカム]|| 
 | └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[オートカム]</b>| | 
 |  ├─ > ターゲット選択| **自動** | 自動, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |
@@ -92,7 +92,7 @@ sidebar:
 |  ├─ ⊖ 横 90| [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
 |  ├─ ⊖ 後方 135| [0] (0 ~ 1) | (Probability of orienting the camera to a 135-degree angle behind the actor.)
 |  ├─ ⊖ 後方 180| [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **デフォルト（リセット）** | デフォルト（リセット）, (Preset 1),  |
+|  └─ ≡ プリセット| **デフォルト（リセット）** | デフォルト（リセット）, (Preset 1),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [長回し]|| 
 | └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[長回し]</b>| | 
 |  ├─ > ターゲット選択| **自動** | 自動, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |
@@ -108,7 +108,7 @@ sidebar:
 |  ├─ ☑ 床下を防ぐ| [ON] | 
 |  ├─ ☑ アクターの向きを使用| [ON] | 
 |  ├─ □ 近くに来たときにフォーカスを上げる| [OFF] | 距離が小さくなるときにフォーカス位置を上に移動する
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **デフォルト（リセット）** | デフォルト（リセット）, (Preset 1), (Preset 2), (Preset 3),  |
+|  └─ ≡ プリセット| **デフォルト（リセット）** | デフォルト（リセット）, (Preset 1), (Preset 2), (Preset 3),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [第一人称]|| 
 | └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[第一人称]</b>| | 
 |  ├─ > アクターを選択|  |  |
@@ -143,6 +143,6 @@ sidebar:
 |  ├─ ⊖ (X)| [0] (-2 ~ 2) | 
 |  ├─ ⊖ (Y)| [0] (-2 ~ 2) | 
 |  ├─ ⊖ (Z)| [0] (-2 ~ 2) | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **遠方** | 近く, 遠方,  |
+|  └─ ≡ プリセット| **遠方** | 近く, 遠方,  |
 |  <b>設定</b>|| 
 | [カメラ設定](config_camera) |

@@ -23,4 +23,4 @@ sidebar:
 |  ⊖ 偏移X| [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the X-axis.)
 |  ⊖ 偏移Z| [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the Z-axis.)
 | ☑ 對齊| (0) | (0), (0.1), (0.2), (0.5), (1), (2), <br/>(Set the snapping increment for drag adjustments. Smaller values allow finer control.)
-| <img src="/images/icon/ic_list.png" alt="list icon"/> 預設| **均勻實際大小** | 均勻實際大小, 縮影, 巨型, 原版,  |
+|  ≡ 預設| **均勻實際大小** | 均勻實際大小, 縮影, 巨型, 原版,  |

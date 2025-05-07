@@ -99,6 +99,6 @@ sidebar:
 | │ ├─ ⊖ Alternate Group Size| [0] (0 ~ 20) | 
 | │ ├─ ⊖ Table Size| [6] (1 ~ 20) | 
 | │ └─ □ Two Step Solving| [OFF] | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+| └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ Softbody Only| [OFF] | Disable physics joint and use softbody particles only.
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3, tina, 预设1, 预设2,  |
+|  ≡ Presets| **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3, tina, 预设1, 预设2,  |

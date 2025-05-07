@@ -35,7 +35,7 @@ sidebar:
 |<nobr>├─ ⊖ 基础级别</nobr>| [-1] (-3 ~ 3) | 
 |<nobr>├─ ⊖ 边缘级别</nobr>| [2] (0 ~ 5) | 
 |<nobr>├─ ⊖ 击中级别</nobr>| [2] (0 ~ 5) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **动画色相** | 白色, 红色, 绿色, 蓝色, 动画色相, 伴音乐的辉光,  |
+|<nobr>└─ ≡ 预设</nobr>| **动画色相** | 白色, 红色, 绿色, 蓝色, 动画色相, 伴音乐的辉光,  |
 |<nobr> ⚙️ <b>运动</b></nobr>| | 
 |<nobr>├─ ⊖ 每组动作数</nobr>| [1] (1 ~ 32) | 
 |<nobr>├─ ⊖ 速度</nobr>| [0] (-3 ~ 3) | 
@@ -64,5 +64,5 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 中心</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├─ ☑ 使用音频</nobr>| [2] (0 ~ 4) | 
 |<nobr>├─ ⊖ 种子</nobr>| [1234] ((Unlimited)) | 控制随机化的模式序列
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）,  |
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **关闭** | 关闭, 直线, 半圆, 点, 伴音乐的辉光, (Preset 1),  |
+|<nobr>└─ ≡ 预设</nobr>| **默认（重置）** | 默认（重置）,  |
+|<nobr> ≡ 预设</nobr>| **关闭** | 关闭, 直线, 半圆, 点, 伴音乐的辉光, (Preset 1),  |

@@ -71,7 +71,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 蓝色</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 混合模式</nobr>| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 混合</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
 |<nobr>├─ □ <b>卡通着色器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 着色</nobr>| [1] (0 ~ 1) | 
@@ -84,12 +84,12 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 阴影区域</nobr>| [0.65] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 阴影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 柔和阴影</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
 |<nobr>├─ ⚙️ <b>特效着色器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 模式</nobr>| **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 折射</nobr>| [0.5] (1 ~ 3) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 厚度</nobr>| [1] (0 ~ 1) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **铬** | 白色光泽, 红色光泽, 铬, 黑色光泽, 金色, 实心玻璃, 薄玻璃,  |
+|<nobr>└─ ≡ 预设</nobr>| **铬** | 白色光泽, 红色光泽, 铬, 黑色光泽, 金色, 实心玻璃, 薄玻璃,  |
 |<nobr> ⊖ X射线</nobr>| [0.25] (0 ~ 1) | 
 |<nobr> ⊖ 透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr> ⊖ 拉手</nobr>| [0.1] (0 ~ 0.5) | 当手靠近附加物时拉向附加物

@@ -46,7 +46,7 @@ sidebar:
 | ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | ├─ □ Use Stage Color| [OFF] | Use the color from the stage ring
 | ├─ ☑ Color Temp| [6500] (3000 ~ 8000) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
+| └─ ≡ Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
 |  ⚙️ <b>Middle Color</b>| | 
 | ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | ├─ ⊖ Hue| [0] (0 ~ 1) | 
@@ -57,7 +57,7 @@ sidebar:
 | ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | ├─ □ Use Stage Color| [OFF] | Use the color from the stage ring
 | ├─ ☑ Color Temp| [6500] (3000 ~ 8000) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
+| └─ ≡ Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
 |  ⚙️ <b>Ground Color</b>| | 
 | ├─ ☑ Color Mode| RGB | RGB, HSV, 
 | ├─ ⊖ Hue| [0] (0 ~ 1) | 
@@ -68,7 +68,7 @@ sidebar:
 | ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | ├─ □ Use Stage Color| [OFF] | Use the color from the stage ring
 | ├─ ☑ Color Temp| [6500] (3000 ~ 8000) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
+| └─ ≡ Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
 |  ☑ <b>Cloud</b>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
 | ├─ ☑ Enable| [ON] | Enables or disables volumetric clouds.
 | ├─ ⊖ Shape Scale| [1] (-1 ~ 2) | Controls the scale of the cloud shapes.
@@ -78,4 +78,4 @@ sidebar:
 | ├─ ⊖ Density| [0.2] (0 ~ 1) | Sets the density multiplier for the clouds.
 | ├─ □ Shadow| [OFF] | Enables or disables cloud shadows.
 | └─ ⊖ Wind Multiplier| [3] (0 ~ 4) | Sets the wind multiplier for cloud movement.
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Thin Cloud** | Skymap, Procedural, Indoor, Thin Cloud, Cloudy,  |
+|  ≡ Presets| **Thin Cloud** | Skymap, Procedural, Indoor, Thin Cloud, Cloudy,  |

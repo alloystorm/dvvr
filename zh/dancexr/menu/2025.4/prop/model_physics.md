@@ -99,7 +99,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 大腿起始位置</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 手</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 可视化</nobr>| [OFF] | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (amy), (misaki),  |
+|<nobr>└─ ≡ 预设</nobr>| **默认（重置）** | 默认（重置）, (amy), (misaki),  |
 |<nobr> ☑ <b>胸部物理</b><sup>[PRO]</sup></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 启用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 选择骨骼</nobr>|| 
@@ -186,9 +186,9 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 备用组大小</nobr>| [0] (0 ~ 20) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 表格大小</nobr>| [6] (1 ~ 20) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ □ 两步求解</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **胸部** | 胸部, 臀部, 腿, (tina), (预设1), (预设2),  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **胸部** | 胸部, 臀部, 腿, (tina), (预设1), (预设2),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 仅限软体</nobr>| [OFF] | 禁用物理连接，只使用软体粒子。
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2), (Preset 3), (tina), (预设1), (预设2),  |
+|<nobr>└─ ≡ 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2), (Preset 3), (tina), (预设1), (预设2),  |
 |<nobr> ☑ <b>裙子物理</b><sup>[PRO]</sup></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 启用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 使用粒子动态</nobr>| [ON] | 
@@ -747,7 +747,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞体长度</nobr>| [0.8] (0 ~ 1) | 减少第一级骨骼的碰撞体长度，以避免与身体碰撞体的干扰。
 |<nobr><img src="/images/icon/ic_line_v.png"/><img src="/images/icon/ic_line_v.png"/>└─ ⊖ (First Collider Length)</nobr>| [0.5] (0 ~ 1) | 减少第一级骨骼的碰撞体长度，以避免与身体碰撞体的干扰。
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ☑ 使用主组设置</nobr>| [ON] | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (hurrah), (nyotengu cheongsam), (nyo birthday), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5), (Preset 6), (预设1),  |
+|<nobr>└─ ≡ 预设</nobr>| **默认（重置）** | 默认（重置）, (hurrah), (nyotengu cheongsam), (nyo birthday), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5), (Preset 6), (预设1),  |
 |<nobr> ☑ <b>头发物理</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 启用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 选择骨骼</nobr>|| 选择骨骼
@@ -806,7 +806,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞体半径</nobr>| [0.005] (0 ~ 0.05) | 解决碰撞时使用的粒子大小
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞体长度</nobr>| [0.9] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 锚点位置</nobr>| [0] (0 ~ 1) | 创建关节时选择锚点位置。0 = 锚点位于父骨骼，1 = 锚点位于子骨骼
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (momiji bob), (Preset 1),  |
+|<nobr>└─ ≡ 预设</nobr>| **默认（重置）** | 默认（重置）, (momiji bob), (Preset 1),  |
 |<nobr> ☑ <b>悬挂物理</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 启用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 选择骨骼</nobr>|| 选择骨骼
@@ -865,7 +865,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞体半径</nobr>| [0.01] (0 ~ 0.05) | 解决碰撞时使用的粒子大小
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞体长度</nobr>| [0.9] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 锚点位置</nobr>| [0] (0 ~ 1) | 创建关节时选择锚点位置。0 = 锚点位于父骨骼，1 = 锚点位于子骨骼
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2),  |
+|<nobr>└─ ≡ 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2),  |
 |<nobr> ☑ <b>分离对象</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 启用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 选择骨骼</nobr>|| 
@@ -875,4 +875,4 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 碰撞体</nobr>| 球体 | 无, 球体, 胶囊, 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞体半径</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>└─ ⊖ 碰撞体长度</nobr>| [0.3] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）,  |
+|<nobr> ≡ 预设</nobr>| **默认（重置）** | 默认（重置）,  |

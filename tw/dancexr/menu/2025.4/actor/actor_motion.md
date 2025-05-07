@@ -72,4 +72,4 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-90 ~ 90) | 
 |<nobr>└─ ⊖ (Z)</nobr>| [0] (-90 ~ 90) | 
 |<nobr> ⊖ (Middle Finger)</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (2b),  |
+|<nobr> ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (2b),  |

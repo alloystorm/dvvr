@@ -29,7 +29,7 @@ sidebar:
 |<nobr>├─ ⊖ 绿色</nobr>| [1] (0 ~ 1) | 
 |<nobr>├─ ⊖ 蓝色</nobr>| [0] (0 ~ 1) | 
 |<nobr>├─ ⊖ 发光</nobr>| [1] (0 ~ 20) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **绿色** | 白色, 红色, 绿色, 蓝色, 动画色相, 伴音乐的辉光,  |
+|<nobr>└─ ≡ 预设</nobr>| **绿色** | 白色, 红色, 绿色, 蓝色, 动画色相, 伴音乐的辉光,  |
 |<nobr> ⚙️ <b>标记颜色</b></nobr>| | 
 |<nobr>├─ ☑ 颜色模式</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr>├─ ⊖ 色相</nobr>| [0] (0 ~ 1) | 
@@ -39,7 +39,7 @@ sidebar:
 |<nobr>├─ ⊖ 绿色</nobr>| [1] (0 ~ 1) | 
 |<nobr>├─ ⊖ 蓝色</nobr>| [1] (0 ~ 1) | 
 |<nobr>├─ ⊖ 发光</nobr>| [1] (0 ~ 20) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **白色** | 白色, 红色, 绿色, 蓝色, 动画色相, 伴音乐的辉光,  |
+|<nobr>└─ ≡ 预设</nobr>| **白色** | 白色, 红色, 绿色, 蓝色, 动画色相, 伴音乐的辉光,  |
 |<nobr> ⊖ 节拍循环</nobr>| [8] (2 ~ 16) | 
 |<nobr> ⊖ 正常发光</nobr>| [1] (0 ~ 8) | 
 |<nobr> ⊖ 闪烁发光</nobr>| [2] (0 ~ 8) | 

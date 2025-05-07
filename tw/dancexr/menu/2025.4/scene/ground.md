@@ -46,7 +46,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 藍色</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> > 混合模式</nobr>| **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 混合</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **黑色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
+|<nobr>│ └─ ≡ 預設</nobr>| **黑色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>卡通著色器</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影</nobr>| [1] (0 ~ 1) | 
@@ -59,7 +59,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影區域</nobr>| [0.65] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 柔和陰影</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
+|<nobr>│ └─ ≡ 預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>特殊著色器</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> > 模式</nobr>| **關閉** | 關閉, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 折射</nobr>| [0.5] (1 ~ 3) | 
@@ -73,10 +73,10 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 視角</nobr>| [1] (0 ~ 8) | 從角度觀看時減少亮度。0 = 完美
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 邊緣</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ └─ ⊖ 減少摩爾紋</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **黑色光澤** | 天空地圖, 木材, 混凝土, 藍色瓷磚, 投影幕, 自發光幕, LED 螢幕, 黑色光澤, 發光, 玻璃,  |
+|<nobr>└─ ≡ 預設</nobr>| **黑色光澤** | 天空地圖, 木材, 混凝土, 藍色瓷磚, 投影幕, 自發光幕, LED 螢幕, 黑色光澤, 發光, 玻璃,  |
 |<nobr> □ <b>僅影子</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> <b>陰影顏色</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **黑色** | 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange), (Preset 1),  |
+|<nobr><img src="/images/icon/ic_line_t.png"/> ≡ 預設</nobr>| **黑色** | 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange), (Preset 1),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 飽和度</nobr>| [0] (0 ~ 1) | 
@@ -86,7 +86,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 藍色</nobr>| [0] (0 ~ 1) | 
 |<nobr>└─ ⊖ 透明度</nobr>| [0.5] (0 ~ 1) | 
 |<nobr> □ 舞台/泳池</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **關閉** | 關閉, 跑道, 泳池, 房間, 背景板, 投影幕, LED 螢幕,  |
+|<nobr> ≡ 預設</nobr>| **關閉** | 關閉, 跑道, 泳池, 房間, 背景板, 投影幕, LED 螢幕,  |
 |<nobr> ⊖ 抬高</nobr>| [0.5] (-2 ~ 2) | 抬高或降低舞台。
 |<nobr> ⊖ (Front / Back Offset)</nobr>| [0] (-10 ~ 10) | 
 |<nobr> ⚙️ <b>形狀</b></nobr>| | 
@@ -128,7 +128,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 藍色</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> > 混合模式</nobr>| **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 混合</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **白色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
+|<nobr>│ └─ ≡ 預設</nobr>| **白色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>卡通著色器</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影</nobr>| [1] (0 ~ 1) | 
@@ -141,7 +141,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影區域</nobr>| [0.65] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 柔和陰影</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
+|<nobr>│ └─ ≡ 預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>特殊著色器</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> > 模式</nobr>| **關閉** | 關閉, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 折射</nobr>| [0.5] (1 ~ 3) | 
@@ -154,7 +154,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 視角</nobr>| [1] (0 ~ 8) | 從角度觀看時減少亮度。0 = 完美
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 邊緣</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ └─ ⊖ 減少摩爾紋</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **木材** | 空白, 木材, 混凝土, 藍色瓷磚, 投影幕, 自發光幕, LED 螢幕, 黑色光澤, 發光, 玻璃,  |
+|<nobr>└─ ≡ 預設</nobr>| **木材** | 空白, 木材, 混凝土, 藍色瓷磚, 投影幕, 自發光幕, LED 螢幕, 黑色光澤, 發光, 玻璃,  |
 |<nobr> ⚙️ <b>後面表面</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> > 紋理</nobr>| **[空白]** | [空白], [木材1], [木材2], [瓷磚], [混凝土], [視頻],  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>平鋪</b></nobr>| | 
@@ -183,7 +183,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 藍色</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> > 混合模式</nobr>| **原版** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 混合</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **白色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
+|<nobr>│ └─ ≡ 預設</nobr>| **白色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>卡通著色器</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影</nobr>| [1] (0 ~ 1) | 
@@ -196,7 +196,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影區域</nobr>| [0.65] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 柔和陰影</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
+|<nobr>│ └─ ≡ 預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>特殊著色器</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> > 模式</nobr>| **關閉** | 關閉, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 折射</nobr>| [0.5] (1 ~ 3) | 
@@ -209,9 +209,9 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 視角</nobr>| [1] (0 ~ 8) | 從角度觀看時減少亮度。0 = 完美
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 邊緣</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ └─ ⊖ 減少摩爾紋</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **空白** | 空白, 木材, 混凝土, 藍色瓷磚, 投影幕, 自發光幕, LED 螢幕, 黑色光澤, 發光, 玻璃,  |
+|<nobr>└─ ≡ 預設</nobr>| **空白** | 空白, 木材, 混凝土, 藍色瓷磚, 投影幕, 自發光幕, LED 螢幕, 黑色光澤, 發光, 玻璃,  |
 |<nobr> □ 水系統</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **關閉** | 關閉, 泳池, (Still Water), 海洋,  |
+|<nobr> ≡ 預設</nobr>| **關閉** | 關閉, 泳池, (Still Water), 海洋,  |
 |<nobr>☑ 類型</nobr>| 泳池 | 泳池, 河流, 海洋, 
 |<nobr> ⊖ 高度</nobr>| [-0.1] (-2 ~ 2) | 水位高度
 |<nobr> ⊖ 漣漪</nobr>| [3] (0 ~ 10) | 小浪的強度
@@ -220,4 +220,4 @@ sidebar:
 |<nobr> ⊖ 吸收距離</nobr>| [5] (1 ~ 10) | 從上方可以在水中看到的最大距離。
 |<nobr> ⊖ 光影效果</nobr>| [0.5] (0 ~ 1) | 光影效果
 |<nobr> ⊖ 吸收乘數</nobr>| [2] (0 ~ 5) | 在從下方觀看時應用於吸收距離的乘數。
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **黑色光澤** | 天空地圖, 黑色光澤, 舞台, 泳池, 海洋, 背景板, 投影幕, 自發光幕, (Preset 1),  |
+|<nobr> ≡ 預設</nobr>| **黑色光澤** | 天空地圖, 黑色光澤, 舞台, 泳池, 海洋, 背景板, 投影幕, 自發光幕, (Preset 1),  |

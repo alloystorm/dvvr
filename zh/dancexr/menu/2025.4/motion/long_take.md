@@ -28,4 +28,4 @@ sidebar:
 |<nobr> ☑ 防止低于地面</nobr>| [ON] | 
 |<nobr> ☑ 使用角色朝向</nobr>| [ON] | 
 |<nobr> □ 靠近时提高焦点</nobr>| [OFF] | 距离变小时向上移动焦点位置
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr> ≡ 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2), (Preset 3),  |

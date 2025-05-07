@@ -28,4 +28,4 @@ sidebar:
 |<nobr> ☑ 바닥 아래 방지</nobr>| [ON] | 
 |<nobr> ☑ 배우 방향 사용</nobr>| [ON] | 
 |<nobr> □ 가까이 있을 때 초점 올리기</nobr>| [OFF] | 거리 감소 시 초점 위치 위로 이동
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr> ≡ 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2), (Preset 3),  |

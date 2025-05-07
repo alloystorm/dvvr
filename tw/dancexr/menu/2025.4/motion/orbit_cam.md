@@ -37,4 +37,4 @@ sidebar:
 |<nobr> ⊖ 最大高度</nobr>| [0.5] (0 ~ 1) | 
 |<nobr> ⊖ 高度循環</nobr>| [32] ((Unlimited)) | 
 |<nobr> ⊖ 速度</nobr>| [10] (0 ~ 90) | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1),  |
+|<nobr> ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1),  |

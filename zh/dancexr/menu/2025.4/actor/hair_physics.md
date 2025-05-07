@@ -71,4 +71,4 @@ sidebar:
 |<nobr> ⊖ 碰撞体半径</nobr>| [0.005] (0 ~ 0.05) | 解决碰撞时使用的粒子大小
 |<nobr> ⊖ 碰撞体长度</nobr>| [0.9] (0 ~ 1) | 
 |<nobr> ⊖ 锚点位置</nobr>| [0] (0 ~ 1) | 创建关节时选择锚点位置。0 = 锚点位于父骨骼，1 = 锚点位于子骨骼
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (momiji bob), (Preset 1),  |
+|<nobr> ≡ 预设</nobr>| **默认（重置）** | 默认（重置）, (momiji bob), (Preset 1),  |

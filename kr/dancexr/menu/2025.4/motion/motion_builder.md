@@ -30,7 +30,7 @@ sidebar:
 |<nobr>├─ ⊖ (Range X)</nobr>| [30] (0 ~ 45) | 
 |<nobr>├─ ⊖ (Range Y)</nobr>| [30] (0 ~ 45) | 
 |<nobr>├─ ⊖ (Orient)</nobr>| [0] (-45 ~ 45) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화),  |
+|<nobr>└─ ≡ 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화),  |
 |<nobr> ⊖ 범위</nobr>| [0.5] (0 ~ 1) | 
 |<nobr> ⚙️ <b>속도</b></nobr>| | 
 |<nobr>├─ ☑ 비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 

@@ -42,4 +42,4 @@ sidebar:
 |<nobr>├─ ⊖ 水滴密度</nobr>| [1] (-2 ~ 3) | 
 |<nobr>├─ ⊖ 凹凸</nobr>| [0.35] (0 ~ 1) | 
 |<nobr>└─ ⊖ 湿度</nobr>| [0.5] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **关闭** | 关闭, 灰尘, 雨, 雪, 花瓣, 叶子, 闪光,  |
+|<nobr> ≡ 预设</nobr>| **关闭** | 关闭, 灰尘, 雨, 雪, 花瓣, 叶子, 闪光,  |

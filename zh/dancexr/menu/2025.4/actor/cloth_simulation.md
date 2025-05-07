@@ -99,10 +99,10 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 启用撕裂</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 撕裂阈值</nobr>| [2] (1 ~ 10) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 限制撕裂速度</nobr>| [0] (0 ~ 25) | 撕裂后的冷却间隔（以帧为单位）
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **(Top)** | 裙子, (Top), (Tight Skirt), (String Skirt), (Hula Skirt),  |
+|<nobr>└─ ≡ 预设</nobr>| **(Top)** | 裙子, (Top), (Tight Skirt), (String Skirt), (Hula Skirt),  |
 |<nobr> ⚙️ <b>C1 材质</b></nobr>| | 
 |<nobr>├─<img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>表面</b></nobr>|| 
-|<nobr>├─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **灰色哑光** | 原始模型, 灰色哑光, 半透明, 发光, 银色, 实心玻璃, 薄玻璃, 轮廓, (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr>├─ ≡ 预设</nobr>| **灰色哑光** | 原始模型, 灰色哑光, 半透明, 发光, 银色, 实心玻璃, 薄玻璃, 轮廓, (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr>├─ □ 玻璃模式</nobr>| [OFF] | 
 |<nobr>├─ □ 透明度作为光泽</nobr>| [OFF] | 
 |<nobr>├─ ☑ 双面</nobr>| [ON] | 
@@ -126,7 +126,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 蓝色</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 混合模式</nobr>| **(Multiply)** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 混合</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **(Gray)** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **(Gray)** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
 |<nobr>├─ □ <b>卡通着色器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 着色</nobr>| [1] (0 ~ 1) | 
@@ -139,7 +139,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 阴影区域</nobr>| [0.65] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 阴影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 柔和阴影</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
 |<nobr>├─ ⚙️ <b>特效着色器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 模式</nobr>| **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 折射</nobr>| [0.5] (1 ~ 3) | 
@@ -248,10 +248,10 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 启用撕裂</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 撕裂阈值</nobr>| [2] (1 ~ 10) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ 限制撕裂速度</nobr>| [0] (0 ~ 25) | 撕裂后的冷却间隔（以帧为单位）
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **裙子** | 裙子, (Top), (Tight Skirt), (String Skirt), (Hula Skirt),  |
+|<nobr>└─ ≡ 预设</nobr>| **裙子** | 裙子, (Top), (Tight Skirt), (String Skirt), (Hula Skirt),  |
 |<nobr> ⚙️ <b>C2 材质</b></nobr>| | 
 |<nobr>├─<img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>表面</b></nobr>|| 
-|<nobr>├─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **灰色哑光** | 原始模型, 灰色哑光, 半透明, 发光, 银色, 实心玻璃, 薄玻璃, 轮廓, (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr>├─ ≡ 预设</nobr>| **灰色哑光** | 原始模型, 灰色哑光, 半透明, 发光, 银色, 实心玻璃, 薄玻璃, 轮廓, (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr>├─ □ 玻璃模式</nobr>| [OFF] | 
 |<nobr>├─ □ 透明度作为光泽</nobr>| [OFF] | 
 |<nobr>├─ ☑ 双面</nobr>| [ON] | 
@@ -275,7 +275,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 蓝色</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 混合模式</nobr>| **(Multiply)** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 混合</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **(Gray)** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **(Gray)** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
 |<nobr>├─ □ <b>卡通着色器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 着色</nobr>| [1] (0 ~ 1) | 
@@ -288,7 +288,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 阴影区域</nobr>| [0.65] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 阴影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 柔和阴影</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **锐利** | 锐利, 柔和, 明亮, 平面 + 高光, 平面,  |
 |<nobr>├─ ⚙️ <b>特效着色器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ > 模式</nobr>| **关闭** | 关闭, 厚折射, 薄折射, 轮廓, 未点亮, (Experiment),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 折射</nobr>| [0.5] (1 ~ 3) | 
@@ -335,7 +335,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 最大生存时间</nobr>| [10] (5 ~ 15) | 粒子在经过此时间后消失并重新生成。
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 地面上的生存时间</nobr>| [0.1] (0 ~ 1) | 触及地面后的生存时间。
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 平滑</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **喷雾器** | 淋浴, 喷泉, 喷雾器, 手持式,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **喷雾器** | 淋浴, 喷泉, 喷雾器, 手持式,  |
 |<nobr>├─ ⚙️ <b>流体</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 凝聚</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 粘度</nobr>| [0] (0 ~ 1) | 
@@ -344,7 +344,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 凝聚范围</nobr>| [20] (1 ~ 50) | 凝聚效果的最大距离
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 目标距离</nobr>| [10] (1 ~ 20) | 在关闭凝聚时粒子之间的最小距离（以毫米计）。
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 高度</nobr>| [0.25] (0 ~ 0.5) | 根据其大小提升粒子
-|<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **水** | 水, 粘稠, 沙子,  |
+|<nobr><img src="/images/icon/ic_line_v.png"/>└─ ≡ 预设</nobr>| **水** | 水, 粘稠, 沙子,  |
 |<nobr>├─ ⚙️ <b>渲染</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 渲染粒子</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 渲染液滴</nobr>| [OFF] | 
@@ -384,7 +384,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 腿</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/> ├─ ☑ 脚</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/> └─ □ 玩家</nobr>| [OFF] | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）,  |
+|<nobr>└─ ≡ 预设</nobr>| **默认（重置）** | 默认（重置）,  |
 |<nobr> ☑ <b>几何体碰撞器</b></nobr>| | 
 |<nobr>├─ ☑ 启用</nobr>| [ON] | 
 |<nobr>├─ □ 可见</nobr>| [OFF] | 
@@ -650,7 +650,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ (X)</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ (Y)</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ ⊖ (Z)</nobr>| [1] (0 ~ 1) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |
+|<nobr>└─ ≡ 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |
 |<nobr> ☑ <b>网格碰撞体</b></nobr>| | 
 |<nobr>├─ ☑ 启用</nobr>| [ON] | 
 |<nobr>├─ ☑ 禁用几何碰撞体</nobr>| [ON] | 
@@ -671,4 +671,4 @@ sidebar:
 |<nobr>├─ ⊖ 备用组大小</nobr>| [0] (0 ~ 20) | 
 |<nobr>├─ ⊖ 表格大小</nobr>| [6] (1 ~ 20) | 
 |<nobr>└─ □ 两步求解</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）,  |
+|<nobr> ≡ 预设</nobr>| **默认（重置）** | 默认（重置）,  |

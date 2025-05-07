@@ -99,6 +99,6 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 备用组大小</nobr>| [0] (0 ~ 20) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─ ⊖ 表格大小</nobr>| [6] (1 ~ 20) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─ □ 两步求解</nobr>| [OFF] | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **胸部** | 胸部, 臀部, 腿, (tina), (预设1), (预设2),  |
+|<nobr>└─ ≡ 预设</nobr>| **胸部** | 胸部, 臀部, 腿, (tina), (预设1), (预设2),  |
 |<nobr> □ 仅限软体</nobr>| [OFF] | 禁用物理连接，只使用软体粒子。
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2), (Preset 3), (tina), (预设1), (预设2),  |
+|<nobr> ≡ 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2), (Preset 3), (tina), (预设1), (预设2),  |

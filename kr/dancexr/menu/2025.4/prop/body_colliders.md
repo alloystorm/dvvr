@@ -34,4 +34,4 @@ sidebar:
 |<nobr> ⊖ 허벅지 시작 위치</nobr>| [0] (0 ~ 1) | 
 |<nobr> ⊖ 손</nobr>| [0] (0 ~ 1) | 
 |<nobr> □ 시각화</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (amy), (misaki),  |
+|<nobr> ≡ 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (amy), (misaki),  |

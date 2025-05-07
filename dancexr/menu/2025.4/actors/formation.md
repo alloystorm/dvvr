@@ -32,4 +32,4 @@ sidebar:
 |  ⊖ Offset Y| [0] (-5 ~ 5) | 
 |  Reset Actors|| 
 |  ☑ Random Props Position| [ON] | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset),  |
+|  ≡ Presets| **Default (Reset)** | Default (Reset),  |

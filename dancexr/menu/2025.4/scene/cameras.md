@@ -30,7 +30,7 @@ sidebar:
 |  ├─ ⊖ FOV| [30] (5 ~ 120) | 
 |  ├─ ⊖ Beat Cycle| [8] (1 ~ 16) | 
 |  ├─ □ Use Orbit Move| [OFF] | Enable or disable orbit movement, allowing the camera to rotate around a central point.
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Freefly** | Freefly, Lock On Actor, Lock + Zoom Fullbody, Lock + Zoom Upper Body,  |
+|  └─ ≡ Presets| **Freefly** | Freefly, Lock On Actor, Lock + Zoom Fullbody, Lock + Zoom Upper Body,  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [Orbit Cam]|| 
 | └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[Orbit Cam]</b>| | 
 |  ├─ > Target Select| **Auto** | Auto, Selected, Group, Rotate, Rotate + Group, Stage Center,  |
@@ -55,7 +55,7 @@ sidebar:
 |  ├─ ⊖ Height Max| [0.5] (0 ~ 1) | 
 |  ├─ ⊖ Height Cycle| [32] (Unlimited) | 
 |  ├─ ⊖ Speed| [10] (0 ~ 90) | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), Preset 1,  |
+|  └─ ≡ Presets| **Default (Reset)** | Default (Reset), Preset 1,  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [Auto Cam]|| 
 | └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[Auto Cam]</b>| | 
 |  ├─ > Target Select| **Auto** | Auto, Selected, Group, Rotate, Rotate + Group, Stage Center,  |
@@ -92,7 +92,7 @@ sidebar:
 |  ├─ ⊖ Side 90| [0.25] (0 ~ 1) | Probability of orienting the camera to the actor's side at a 90-degree angle.
 |  ├─ ⊖ Back 135| [0] (0 ~ 1) | Probability of orienting the camera to a 135-degree angle behind the actor.
 |  ├─ ⊖ Back 180| [0.25] (0 ~ 1) | Probability of orienting the camera directly behind the actor.
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), Preset 1,  |
+|  └─ ≡ Presets| **Default (Reset)** | Default (Reset), Preset 1,  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [Long Take]|| 
 | └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[Long Take]</b>| | 
 |  ├─ > Target Select| **Auto** | Auto, Selected, Group, Rotate, Rotate + Group, Stage Center,  |
@@ -108,7 +108,7 @@ sidebar:
 |  ├─ ☑ Prevent Below Floor| [ON] | 
 |  ├─ ☑ Use Actor Orientation| [ON] | 
 |  ├─ □ Raise Focus When Close| [OFF] | Move focus position up when distance gets smaller
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3,  |
+|  └─ ≡ Presets| **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3,  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [First Person]|| 
 | └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[First Person]</b>| | 
 |  ├─ > Select Actor|  |  |
@@ -143,6 +143,6 @@ sidebar:
 |  ├─ ⊖ X| [0] (-2 ~ 2) | 
 |  ├─ ⊖ Y| [0] (-2 ~ 2) | 
 |  ├─ ⊖ Z| [0] (-2 ~ 2) | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Far** | Near, Far,  |
+|  └─ ≡ Presets| **Far** | Near, Far,  |
 |  <b>Config</b>|| 
 | [Config Camera](config_camera) |

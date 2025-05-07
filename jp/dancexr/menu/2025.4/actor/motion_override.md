@@ -78,7 +78,7 @@ sidebar:
 | │ ├─ ⊖ 足の回転Y| [0] ((Unlimited)) | 
 | │ ├─ ⊖ 足の回転Z| [0] ((Unlimited)) | 
 | │ └─ ⊖ つま先| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **(Ride)** | (Sit), (Ride), (Kneel), (Stand),  |
+| └─ ≡ プリセット| **(Ride)** | (Sit), (Ride), (Kneel), (Stand),  |
 |  ☑ 手の対称| [ON] | 
 |  □ <b>左手</b>| | 
 | ├─ □ 有効にする| [OFF] | 
@@ -130,7 +130,7 @@ sidebar:
 | ├─ ⊖ つかむ距離| [0.015] (-0.1 ~ 0.1) | 
 | ├─ ⊖ つかむ位置| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ (Grab Axis)| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **(Rest)** | (Rest), 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| └─ ≡ プリセット| **(Rest)** | (Rest), 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |  □ <b>右手</b>| | 
 | ├─ □ 有効にする| [OFF] | 
 | ├─ > ジェスチャー| **(Fist)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), ポイント, (Middle Finger), (Thumb Up), (Grab),  |
@@ -181,7 +181,7 @@ sidebar:
 | ├─ ⊖ つかむ距離| [0.015] (-0.1 ~ 0.1) | 
 | ├─ ⊖ つかむ位置| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ (Grab Axis)| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **(Rest)** | (Rest), 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| └─ ≡ プリセット| **(Rest)** | (Rest), 背面, 前面, ヒップ, 頭, ポール, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |  ☑ <b>ライドモデル</b>| | 
 | ├─ ☑ 有効にする| [ON] | 
 | ├─ > モデル| **([Hoverbike])** | ([Hoverbike]), ([Rocking Horse]),  |
@@ -198,4 +198,4 @@ sidebar:
 | ├─ ⊖ (Z)| [0] (-90 ~ 90) | 
 | ├─ ⊖ スケール| [0] (-5 ~ 5) | 
 | └─ ☑ パーティクルエフェクト| [ON] | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **自由** | 自由, ロッキングモーション, ホバーバイク, ロッキングホース, ポールモーション, ポールブレンド,  |
+|  ≡ プリセット| **自由** | 自由, ロッキングモーション, ホバーバイク, ロッキングホース, ポールモーション, ポールブレンド,  |

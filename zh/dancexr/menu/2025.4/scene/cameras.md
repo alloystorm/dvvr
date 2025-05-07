@@ -30,7 +30,7 @@ sidebar:
 |<nobr> ├─ ⊖ 视场</nobr>| [30] (5 ~ 120) | 
 |<nobr> ├─ ⊖ 节拍循环</nobr>| [8] (1 ~ 16) | 
 |<nobr> ├─ □ 使用轨道移动</nobr>| [OFF] | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
-|<nobr> └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
+|<nobr> └─ ≡ 预设</nobr>| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [轨道摄像机]</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[轨道摄像机]</b></nobr>| | 
 |<nobr> ├─ > 目标选择</nobr>| **自动** | 自动, 已选择, 组, 旋转, 旋转 + 组, 舞台中心,  |
@@ -55,7 +55,7 @@ sidebar:
 |<nobr> ├─ ⊖ 最大高度</nobr>| [0.5] (0 ~ 1) | 
 |<nobr> ├─ ⊖ 高度循环</nobr>| [32] ((Unlimited)) | 
 |<nobr> ├─ ⊖ 速度</nobr>| [10] (0 ~ 90) | 
-|<nobr> └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1),  |
+|<nobr> └─ ≡ 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [自动摄像机]</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[自动摄像机]</b></nobr>| | 
 |<nobr> ├─ > 目标选择</nobr>| **自动** | 自动, 已选择, 组, 旋转, 旋转 + 组, 舞台中心,  |
@@ -92,7 +92,7 @@ sidebar:
 |<nobr> ├─ ⊖ 侧面90度</nobr>| [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
 |<nobr> ├─ ⊖ 后135度</nobr>| [0] (0 ~ 1) | (Probability of orienting the camera to a 135-degree angle behind the actor.)
 |<nobr> ├─ ⊖ 后180度</nobr>| [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
-|<nobr> └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1),  |
+|<nobr> └─ ≡ 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [长镜头]</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[长镜头]</b></nobr>| | 
 |<nobr> ├─ > 目标选择</nobr>| **自动** | 自动, 已选择, 组, 旋转, 旋转 + 组, 舞台中心,  |
@@ -108,7 +108,7 @@ sidebar:
 |<nobr> ├─ ☑ 防止低于地面</nobr>| [ON] | 
 |<nobr> ├─ ☑ 使用角色朝向</nobr>| [ON] | 
 |<nobr> ├─ □ 靠近时提高焦点</nobr>| [OFF] | 距离变小时向上移动焦点位置
-|<nobr> └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr> └─ ≡ 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [第一人称]</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[第一人称]</b></nobr>| | 
 |<nobr> ├─ > 选择角色</nobr>|  |  |
@@ -143,6 +143,6 @@ sidebar:
 |<nobr> ├─ ⊖ (X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> ├─ ⊖ (Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> ├─ ⊖ (Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr> └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **远** | 近, 远,  |
+|<nobr> └─ ≡ 预设</nobr>| **远** | 近, 远,  |
 |<nobr> <b>配置</b></nobr>|| 
 | [配置摄影机](config_camera) |

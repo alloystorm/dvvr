@@ -99,7 +99,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 大腿起始位置</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 手</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (amy), (misaki),  |
+|<nobr>└─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (amy), (misaki),  |
 |<nobr> ☑ <b>胸部物理</b><sup>[PRO]</sup></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 啟用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 選擇骨骼</nobr>|| 
@@ -186,9 +186,9 @@ sidebar:
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 替代組大小</nobr>| [0] (0 ~ 20) | 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 數據表大小</nobr>| [6] (1 ~ 20) | 
 |<nobr>│ │ └─ □ 兩步求解</nobr>| [OFF] | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **胸部** | 胸部, 臀部, 腿部, (tina), (预设1), (预设2),  |
+|<nobr>│ └─ ≡ 預設</nobr>| **胸部** | 胸部, 臀部, 腿部, (tina), (预设1), (预设2),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 僅限軟體體</nobr>| [OFF] | 禁用物理連接，僅使用軟體體粒子。
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2), (Preset 3), (tina), (预设1), (预设2),  |
+|<nobr>└─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2), (Preset 3), (tina), (预设1), (预设2),  |
 |<nobr> ☑ <b>裙擺物理</b><sup>[PRO]</sup></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 啟用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 使用粒子動力學</nobr>| [ON] | 
@@ -747,7 +747,7 @@ sidebar:
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞體長度</nobr>| [0.8] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>│ │ └─ ⊖ (First Collider Length)</nobr>| [0.5] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>│ └─ ☑ 使用主要組設置</nobr>| [ON] | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (hurrah), (nyotengu cheongsam), (nyo birthday), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5), (Preset 6), (预设1),  |
+|<nobr>└─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (hurrah), (nyotengu cheongsam), (nyo birthday), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5), (Preset 6), (预设1),  |
 |<nobr> ☑ <b>頭髮物理</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 啟用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 選擇骨骼</nobr>|| 選擇骨骼
@@ -806,7 +806,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞體半徑</nobr>| [0.005] (0 ~ 0.05) | 解決碰撞時使用的粒子大小。
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞體長度</nobr>| [0.9] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 錨點位置</nobr>| [0] (0 ~ 1) | 創建關節時選擇錨點位置。0 = 錨點在父骨骼，1 = 錨點在子骨骼
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (momiji bob), (Preset 1),  |
+|<nobr>└─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (momiji bob), (Preset 1),  |
 |<nobr> ☑ <b>垂懸物理</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 啟用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 選擇骨骼</nobr>|| 選擇骨骼
@@ -865,7 +865,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞體半徑</nobr>| [0.01] (0 ~ 0.05) | 解決碰撞時使用的粒子大小。
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞體長度</nobr>| [0.9] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 錨點位置</nobr>| [0] (0 ~ 1) | 創建關節時選擇錨點位置。0 = 錨點在父骨骼，1 = 錨點在子骨骼
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2),  |
+|<nobr>└─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2),  |
 |<nobr> ☑ <b>分離物體</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 啟用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 選擇骨骼</nobr>|| 
@@ -875,4 +875,4 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 碰撞體</nobr>| 球體 | 無, 球體, 膠囊, 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞體半徑</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>└─ ⊖ 碰撞體長度</nobr>| [0.3] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
+|<nobr> ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置),  |

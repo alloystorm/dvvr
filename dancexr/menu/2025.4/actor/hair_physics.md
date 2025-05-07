@@ -71,4 +71,4 @@ sidebar:
 |  ⊖ Collider Radius| [0.005] (0 ~ 0.05) | Size of the particle used when solving collision.
 |  ⊖ Collider Length| [0.9] (0 ~ 1) | 
 |  ⊖ Anchor Position| [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), momiji bob, Preset 1,  |
+|  ≡ Presets| **Default (Reset)** | Default (Reset), momiji bob, Preset 1,  |

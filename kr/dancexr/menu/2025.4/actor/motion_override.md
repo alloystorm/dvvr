@@ -78,7 +78,7 @@ sidebar:
 | │ ├─ ⊖ 발 회전 Y| [0] ((Unlimited)) | 
 | │ ├─ ⊖ 발 회전 Z| [0] ((Unlimited)) | 
 | │ └─ ⊖ 발가락| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **(Ride)** | (Sit), (Ride), (Kneel), (Stand),  |
+| └─ ≡ 프리셋| **(Ride)** | (Sit), (Ride), (Kneel), (Stand),  |
 |  ☑ 손 대칭| [ON] | 
 |  □ <b>왼손</b>| | 
 | ├─ □ 활성화| [OFF] | 
@@ -130,7 +130,7 @@ sidebar:
 | ├─ ⊖ 잡기 거리| [0.015] (-0.1 ~ 0.1) | 
 | ├─ ⊖ 잡기 위치| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ (Grab Axis)| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **(Rest)** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| └─ ≡ 프리셋| **(Rest)** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |  □ <b>오른손</b>| | 
 | ├─ □ 활성화| [OFF] | 
 | ├─ > 제스처| **(Fist)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |
@@ -181,7 +181,7 @@ sidebar:
 | ├─ ⊖ 잡기 거리| [0.015] (-0.1 ~ 0.1) | 
 | ├─ ⊖ 잡기 위치| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ (Grab Axis)| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **(Rest)** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| └─ ≡ 프리셋| **(Rest)** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |  ☑ <b>탑승 모델</b>| | 
 | ├─ ☑ 활성화| [ON] | 
 | ├─ > 모델| **([Hoverbike])** | ([Hoverbike]), ([Rocking Horse]),  |
@@ -198,4 +198,4 @@ sidebar:
 | ├─ ⊖ (Z)| [0] (-90 ~ 90) | 
 | ├─ ⊖ 스케일| [0] (-5 ~ 5) | 
 | └─ ☑ 파티클 이펙트| [ON] | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **자유** | 자유, 흔드는 모션, 호버바이크, 흔들말, 폴 모션, 폴 블렌드,  |
+|  ≡ 프리셋| **자유** | 자유, 흔드는 모션, 호버바이크, 흔들말, 폴 모션, 폴 블렌드,  |

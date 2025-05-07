@@ -23,4 +23,4 @@ sidebar:
 |  ⊖ 오프셋 X| [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the X-axis.)
 |  ⊖ 오프셋 Z| [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the Z-axis.)
 | ☑ 스냅핑| (0) | (0), (0.1), (0.2), (0.5), (1), (2), <br/>(Set the snapping increment for drag adjustments. Smaller values allow finer control.)
-| <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **균일 실물 크기** | 균일 실물 크기, 미니어처, 거대, 원본,  |
+|  ≡ 프리셋| **균일 실물 크기** | 균일 실물 크기, 미니어처, 거대, 원본,  |

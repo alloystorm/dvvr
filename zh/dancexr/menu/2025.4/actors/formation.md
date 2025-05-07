@@ -32,4 +32,4 @@ sidebar:
 |<nobr> ⊖ Y轴偏移</nobr>| [0] (-5 ~ 5) | 
 |<nobr> 重置角色</nobr>|| 
 |<nobr> ☑ 随机道具位置</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）,  |
+|<nobr> ≡ 预设</nobr>| **默认（重置）** | 默认（重置）,  |

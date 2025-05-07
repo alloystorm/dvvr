@@ -78,7 +78,7 @@ sidebar:
 | │ ├─ ⊖ 腳旋轉 Y| [0] ((Unlimited)) | 
 | │ ├─ ⊖ 腳旋轉 Z| [0] ((Unlimited)) | 
 | │ └─ ⊖ 腳趾| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設| **(Ride)** | (Sit), (Ride), (Kneel), (Stand),  |
+| └─ ≡ 預設| **(Ride)** | (Sit), (Ride), (Kneel), (Stand),  |
 |  ☑ 手部對稱| [ON] | 
 |  □ <b>左手</b>| | 
 | ├─ □ 啟用| [OFF] | 
@@ -130,7 +130,7 @@ sidebar:
 | ├─ ⊖ 抓取距離| [0.015] (-0.1 ~ 0.1) | 
 | ├─ ⊖ 抓取位置| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ (Grab Axis)| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設| **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| └─ ≡ 預設| **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |  □ <b>右手</b>| | 
 | ├─ □ 啟用| [OFF] | 
 | ├─ > 手勢| **(Fist)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 點, (Middle Finger), (Thumb Up), (Grab),  |
@@ -181,7 +181,7 @@ sidebar:
 | ├─ ⊖ 抓取距離| [0.015] (-0.1 ~ 0.1) | 
 | ├─ ⊖ 抓取位置| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ (Grab Axis)| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設| **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+| └─ ≡ 預設| **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |  ☑ <b>騎乘模型</b>| | 
 | ├─ ☑ 啟用| [ON] | 
 | ├─ > 模型| **([Hoverbike])** | ([Hoverbike]), ([Rocking Horse]),  |
@@ -198,4 +198,4 @@ sidebar:
 | ├─ ⊖ (Z)| [0] (-90 ~ 90) | 
 | ├─ ⊖ 縮放| [0] (-5 ~ 5) | 
 | └─ ☑ 粒子效果| [ON] | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> 預設| **自由** | 自由, 搖擺動作, 懸浮摩托車, 搖擺馬, 桿子動作, 桿子混合,  |
+|  ≡ 預設| **自由** | 自由, 搖擺動作, 懸浮摩托車, 搖擺馬, 桿子動作, 桿子混合,  |

@@ -46,7 +46,7 @@ sidebar:
 | ├─ ⊖ 蓝色| [1] (0 ~ 1) | 
 | ├─ □ 使用舞台颜色| [OFF] | 使用舞台环的颜色
 | ├─ ☑ 色温| [6500] (3000 ~ 8000) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **白色** | 白色, 日落, 红色, (Yellow), 蓝色, 绿色,  |
+| └─ ≡ 预设| **白色** | 白色, 日落, 红色, (Yellow), 蓝色, 绿色,  |
 |  ⚙️ <b>中间颜色</b>| | 
 | ├─ ☑ 颜色模式| (RGB) | (RGB), (HSV), 
 | ├─ ⊖ 色相| [0] (0 ~ 1) | 
@@ -57,7 +57,7 @@ sidebar:
 | ├─ ⊖ 蓝色| [1] (0 ~ 1) | 
 | ├─ □ 使用舞台颜色| [OFF] | 使用舞台环的颜色
 | ├─ ☑ 色温| [6500] (3000 ~ 8000) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **白色** | 白色, 日落, 红色, (Yellow), 蓝色, 绿色,  |
+| └─ ≡ 预设| **白色** | 白色, 日落, 红色, (Yellow), 蓝色, 绿色,  |
 |  ⚙️ <b>地面颜色</b>| | 
 | ├─ ☑ 颜色模式| (RGB) | (RGB), (HSV), 
 | ├─ ⊖ 色相| [0] (0 ~ 1) | 
@@ -68,7 +68,7 @@ sidebar:
 | ├─ ⊖ 蓝色| [1] (0 ~ 1) | 
 | ├─ □ 使用舞台颜色| [OFF] | 使用舞台环的颜色
 | ├─ ☑ 色温| [6500] (3000 ~ 8000) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **白色** | 白色, 日落, 红色, (Yellow), 蓝色, 绿色,  |
+| └─ ≡ 预设| **白色** | 白色, 日落, 红色, (Yellow), 蓝色, 绿色,  |
 |  ☑ <b>云</b>| | Configures volumetric clouds, including shape, erosion, density, and wind effects.
 | ├─ ☑ 启用| [ON] | (Enables or disables volumetric clouds.)
 | ├─ ⊖ 形状比例| [1] (-1 ~ 2) | (Controls the scale of the cloud shapes.)
@@ -78,4 +78,4 @@ sidebar:
 | ├─ ⊖ 密度| [0.2] (0 ~ 1) | (Sets the density multiplier for the clouds.)
 | ├─ □ 阴影| [OFF] | (Enables or disables cloud shadows.)
 | └─ ⊖ 风的倍增器| [3] (0 ~ 4) | (Sets the wind multiplier for cloud movement.)
-| <img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **薄云** | 天空贴图, 程序化, 室内, 薄云, 阴云,  |
+|  ≡ 预设| **薄云** | 天空贴图, 程序化, 室内, 薄云, 阴云,  |

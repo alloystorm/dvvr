@@ -23,4 +23,4 @@ sidebar:
 |  ⊖ Offset X| [0] (-5 ~ 5) | Adjust the horizontal offset of the model along the X-axis.
 |  ⊖ Offset Z| [0] (-5 ~ 5) | Adjust the horizontal offset of the model along the Z-axis.
 | ☑ Snapping| 0 | 0, 0.1, 0.2, 0.5, 1, 2, <br/>Set the snapping increment for drag adjustments. Smaller values allow finer control.
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Uniform Life Size** | Uniform Life Size, Miniature, Giant, Original,  |
+|  ≡ Presets| **Uniform Life Size** | Uniform Life Size, Miniature, Giant, Original,  |

@@ -73,7 +73,7 @@ sidebar:
 | │ ├─ □ Legs| [OFF] | 
 | │ ├─ ☑ Feet| [ON] | 
 | │ └─ ☑ Player| [ON] | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+| └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  ⊖ Additional Groups| [0] (0 ~ 7) | 
 |  □ <b>Group 2</b>| | 
 | ├─ □ Enable| [OFF] | 
@@ -121,7 +121,7 @@ sidebar:
 |  │ ├─ □ Legs| [OFF] | 
 |  │ ├─ ☑ Feet| [ON] | 
 |  │ └─ ☑ Player| [ON] | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ <b>Group 3</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
@@ -168,7 +168,7 @@ sidebar:
 |  │ ├─ □ Legs| [OFF] | 
 |  │ ├─ ☑ Feet| [ON] | 
 |  │ └─ ☑ Player| [ON] | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ <b>Group 4</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
@@ -215,7 +215,7 @@ sidebar:
 |  │ ├─ □ Legs| [OFF] | 
 |  │ ├─ ☑ Feet| [ON] | 
 |  │ └─ ☑ Player| [ON] | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ <b>Group 5</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
@@ -262,7 +262,7 @@ sidebar:
 |  │ ├─ □ Legs| [OFF] | 
 |  │ ├─ ☑ Feet| [ON] | 
 |  │ └─ ☑ Player| [ON] | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ <b>Group 6</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
@@ -309,7 +309,7 @@ sidebar:
 |  │ ├─ □ Legs| [OFF] | 
 |  │ ├─ ☑ Feet| [ON] | 
 |  │ └─ ☑ Player| [ON] | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ <b>Group 7</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
@@ -356,7 +356,7 @@ sidebar:
 |  │ ├─ □ Legs| [OFF] | 
 |  │ ├─ ☑ Feet| [ON] | 
 |  │ └─ ☑ Player| [ON] | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 |  □ <b>Group 8</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ Select Bones|| Select bones
@@ -403,5 +403,5 @@ sidebar:
 |  │ ├─ □ Legs| [OFF] | 
 |  │ ├─ ☑ Feet| [ON] | 
 |  │ └─ ☑ Player| [ON] | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset),  |
+|  └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+|  ≡ Presets| **Default (Reset)** | Default (Reset),  |

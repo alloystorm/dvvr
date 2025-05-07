@@ -99,7 +99,7 @@ sidebar:
 |<nobr>├─ ⊖ 허벅지 시작 위치</nobr>| [0] (0 ~ 1) | 
 |<nobr>├─ ⊖ 손</nobr>| [0] (0 ~ 1) | 
 |<nobr>├─ □ 시각화</nobr>| [OFF] | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (amy), (misaki),  |
+|<nobr>└─ ≡ 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (amy), (misaki),  |
 |<nobr> ☑ <b>가슴 물리</b><sup>[PRO]</sup></nobr>| | 
 |<nobr>├─ ☑ 활성화</nobr>| [ON] | 
 |<nobr>├─ 뼈 선택</nobr>|| 
@@ -186,9 +186,9 @@ sidebar:
 |<nobr>│ │ ├─ ⊖ 대체 그룹 크기</nobr>| [0] (0 ~ 20) | 
 |<nobr>│ │ ├─ ⊖ 테이블 크기</nobr>| [6] (1 ~ 20) | 
 |<nobr>│ │ └─ □ 2단계 해결</nobr>| [OFF] | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
+|<nobr>│ └─ ≡ 프리셋</nobr>| **가슴** | 가슴, 엉덩이, 다리, (tina), (预设1), (预设2),  |
 |<nobr>├─ □ 소프트바디 전용</nobr>| [OFF] | 물리 조인트를 비활성화하고 소프트바디 입자만 사용합니다.
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2), (Preset 3), (tina), (预设1), (预设2),  |
+|<nobr>└─ ≡ 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2), (Preset 3), (tina), (预设1), (预设2),  |
 |<nobr> ☑ <b>스커트 물리</b><sup>[PRO]</sup></nobr>| | 
 |<nobr>├─ ☑ 활성화</nobr>| [ON] | 
 |<nobr>├─ ☑ 입자 역학 사용</nobr>| [ON] | 
@@ -747,7 +747,7 @@ sidebar:
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/> ⊖ 콜라이더 길이</nobr>| [0.8] (0 ~ 1) | 몸체 충돌체의 간섭을 피하기 위해 첫 번째 레벨의 충돌체 길이를 줄입니다.
 |<nobr>│ │ └─ ⊖ (First Collider Length)</nobr>| [0.5] (0 ~ 1) | 몸체 충돌체의 간섭을 피하기 위해 첫 번째 레벨의 충돌체 길이를 줄입니다.
 |<nobr>│ └─ ☑ 기본 그룹 설정 사용</nobr>| [ON] | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (hurrah), (nyotengu cheongsam), (nyo birthday), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5), (Preset 6), (预设1),  |
+|<nobr>└─ ≡ 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (hurrah), (nyotengu cheongsam), (nyo birthday), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5), (Preset 6), (预设1),  |
 |<nobr> ☑ <b>헤어 물리</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 활성화</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 뼈 선택</nobr>|| 본 선택
@@ -806,7 +806,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 콜라이더 반지름</nobr>| [0.005] (0 ~ 0.05) | 충돌 해결 시 사용되는 입자의 크기
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 콜라이더 길이</nobr>| [0.9] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 앵커 위치</nobr>| [0] (0 ~ 1) | 조인트 생성 시 앵커 위치 선택. 0 = 부모 본에 앵커, 1 = 자식 본에 앵커
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (momiji bob), (Preset 1),  |
+|<nobr>└─ ≡ 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (momiji bob), (Preset 1),  |
 |<nobr> ☑ <b>드리블 물리</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 활성화</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 뼈 선택</nobr>|| 본 선택
@@ -865,7 +865,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 콜라이더 반지름</nobr>| [0.01] (0 ~ 0.05) | 충돌 해결 시 사용되는 입자의 크기
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 콜라이더 길이</nobr>| [0.9] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 앵커 위치</nobr>| [0] (0 ~ 1) | 조인트 생성 시 앵커 위치 선택. 0 = 부모 본에 앵커, 1 = 자식 본에 앵커
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2),  |
+|<nobr>└─ ≡ 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2),  |
 |<nobr> ☑ <b>객체 분리</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 활성화</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 뼈 선택</nobr>|| 
@@ -875,4 +875,4 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 충돌체</nobr>| 구 | 없음, 구, 캡슐, 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 콜라이더 반지름</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>└─ ⊖ 콜라이더 길이</nobr>| [0.3] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화),  |
+|<nobr> ≡ 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화),  |

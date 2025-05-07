@@ -60,7 +60,7 @@ sidebar:
 | │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ ├─ □ Use Stage Color| [OFF] | Use the color from the stage ring
 | │ ├─ ☑ Color Temp| [6500] (3000 ~ 8000) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
+| │ └─ ≡ Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
 | ├─ ⊖ Intensity| [25] (0 ~ 100) | 
 | ├─ > Cookie| **[None]** | [None], [Window], [Blinds], [Spot], [Tube], [Video],  |
 | ├─ ⊖ Emitter Radius| [0.05] (0 ~ 1) | Size of the light source.
@@ -87,7 +87,7 @@ sidebar:
 | │ ├─ ☑ Formation| Grid | Circle, Grid, <br/>Use grid or circle formation.
 | │ ├─ ⊖ Dist / Radius| [7] (0 ~ 20) | Distance between the lights in grid mode.
 | │ ├─ ⊖ Range| [360] (0 ~ 360) | The angle of the lights in circle mode.
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Off** | Off, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |
+| │ └─ ≡ Presets| **Off** | Off, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |
 | ├─ ☑ <b>Shadow</b>| | 
 | │ ├─ ☑ Enable| [ON] | 
 | │ ├─ ☑ Mode| Use Global Setting | Use Global Setting, Shadow Map, Screen Space, Raytracing (If Available), 
@@ -96,7 +96,7 @@ sidebar:
 | │ ├─ □ Denoise| [OFF] | Enable denoising when using raytracing shadows.
 | │ ├─ ⊖ Denoise Radius| [8] (1 ~ 32) | 
 | │ └─ ⊖ Shadow Dimmer| [1] (0 ~ 1) | Reduce intensity of the shadow.
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Spotlight** | Spotlight, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |
+| └─ ≡ Presets| **Spotlight** | Spotlight, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |
 |  □ <b>Additional 2</b>| | Configure light group 2
 | ├─ □ Enable| [OFF] | 
 | ├─ ⊖ Volumetric Multiplier| [1] (0 ~ 16) | 
@@ -111,7 +111,7 @@ sidebar:
 | │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ ├─ □ Use Stage Color| [OFF] | Use the color from the stage ring
 | │ ├─ ☑ Color Temp| [6500] (3000 ~ 8000) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
+| │ └─ ≡ Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
 | ├─ ⊖ Intensity| [25] (0 ~ 100) | 
 | ├─ > Cookie| **[None]** | [None], [Window], [Blinds], [Spot], [Tube], [Video],  |
 | ├─ ⊖ Emitter Radius| [0.05] (0 ~ 1) | Size of the light source.
@@ -138,7 +138,7 @@ sidebar:
 | │ ├─ ☑ Formation| Grid | Circle, Grid, <br/>Use grid or circle formation.
 | │ ├─ ⊖ Dist / Radius| [7] (0 ~ 20) | Distance between the lights in grid mode.
 | │ ├─ ⊖ Range| [360] (0 ~ 360) | The angle of the lights in circle mode.
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Off** | Off, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |
+| │ └─ ≡ Presets| **Off** | Off, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |
 | ├─ ☑ <b>Shadow</b>| | 
 | │ ├─ ☑ Enable| [ON] | 
 | │ ├─ ☑ Mode| Use Global Setting | Use Global Setting, Shadow Map, Screen Space, Raytracing (If Available), 
@@ -147,7 +147,7 @@ sidebar:
 | │ ├─ □ Denoise| [OFF] | Enable denoising when using raytracing shadows.
 | │ ├─ ⊖ Denoise Radius| [8] (1 ~ 32) | 
 | │ └─ ⊖ Shadow Dimmer| [1] (0 ~ 1) | Reduce intensity of the shadow.
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Spotlight** | Spotlight, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |
+| └─ ≡ Presets| **Spotlight** | Spotlight, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |
 |  □ <b>Additional 3</b>| | Configure light group 3
 | ├─ □ Enable| [OFF] | 
 | ├─ ⊖ Volumetric Multiplier| [1] (0 ~ 16) | 
@@ -162,7 +162,7 @@ sidebar:
 | │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ ├─ □ Use Stage Color| [OFF] | Use the color from the stage ring
 | │ ├─ ☑ Color Temp| [6500] (3000 ~ 8000) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
+| │ └─ ≡ Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
 | ├─ ⊖ Intensity| [25] (0 ~ 100) | 
 | ├─ > Cookie| **[None]** | [None], [Window], [Blinds], [Spot], [Tube], [Video],  |
 | ├─ ⊖ Emitter Radius| [0.05] (0 ~ 1) | Size of the light source.
@@ -189,7 +189,7 @@ sidebar:
 | │ ├─ ☑ Formation| Grid | Circle, Grid, <br/>Use grid or circle formation.
 | │ ├─ ⊖ Dist / Radius| [7] (0 ~ 20) | Distance between the lights in grid mode.
 | │ ├─ ⊖ Range| [360] (0 ~ 360) | The angle of the lights in circle mode.
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Off** | Off, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |
+| │ └─ ≡ Presets| **Off** | Off, 3x3 Grid, 2x Fan, 4x Fan, 4x Circle, 8x Circle,  |
 | ├─ ☑ <b>Shadow</b>| | 
 | │ ├─ ☑ Enable| [ON] | 
 | │ ├─ ☑ Mode| Use Global Setting | Use Global Setting, Shadow Map, Screen Space, Raytracing (If Available), 
@@ -198,7 +198,7 @@ sidebar:
 | │ ├─ □ Denoise| [OFF] | Enable denoising when using raytracing shadows.
 | │ ├─ ⊖ Denoise Radius| [8] (1 ~ 32) | 
 | │ └─ ⊖ Shadow Dimmer| [1] (0 ~ 1) | Reduce intensity of the shadow.
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Spotlight** | Spotlight, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |
+| └─ ≡ Presets| **Spotlight** | Spotlight, Point Light, Area Light, Pyramid Projector Near, Pyramid Projector Far, Box Projector Near, Box Projector Far, Spotlight Array, Spotlight Suspended, Preset 1,  |
 |  ⊖ Overall Intensity| [1] (0 ~ 2) | Overall intensity of all the lights.
 |  ⊖ Sky Ambient| [1] (0 ~ 14) | Intensity of ambient lighting from sky.
 |  □ <b>Auto Exposure</b>| | Auto exposure settings.
@@ -214,4 +214,4 @@ sidebar:
 | ├─ ☑ Auto Allocate| By Distance | By Distance, By Index (Fixed), 
 | ├─ ⊖ Refresh Interval| [8] (1 ~ 32) | How often does it reassign lights. In beats.
 | └─ Manual Refresh|| Force reassign lights.
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Daylight** | Sunset, Daylight, Window, Stage, Silhouette, Projector, Area light, Point Light Array, Preset 1, Preset 2, Preset 3,  |
+|  ≡ Presets| **Daylight** | Sunset, Daylight, Window, Stage, Silhouette, Projector, Area light, Point Light Array, Preset 1, Preset 2, Preset 3,  |

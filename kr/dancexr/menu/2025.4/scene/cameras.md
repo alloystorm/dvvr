@@ -30,7 +30,7 @@ sidebar:
 |  ├─ ⊖ FOV| [30] (5 ~ 120) | 
 |  ├─ ⊖ 비트 사이클| [8] (1 ~ 16) | 
 |  ├─ □ 궤도 이동 사용| [OFF] | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
+|  └─ ≡ 프리셋| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [오르빗 카메라]|| 
 | └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[오르빗 카메라]</b>| | 
 |  ├─ > 타겟 선택| **자동** | 자동, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |
@@ -55,7 +55,7 @@ sidebar:
 |  ├─ ⊖ 최대 높이| [0.5] (0 ~ 1) | 
 |  ├─ ⊖ 높이 주기| [32] ((Unlimited)) | 
 |  ├─ ⊖ 속도| [10] (0 ~ 90) | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **기본값 (초기화)** | 기본값 (초기화), (Preset 1),  |
+|  └─ ≡ 프리셋| **기본값 (초기화)** | 기본값 (초기화), (Preset 1),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [오토 캠]|| 
 | └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[오토 캠]</b>| | 
 |  ├─ > 타겟 선택| **자동** | 자동, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |
@@ -92,7 +92,7 @@ sidebar:
 |  ├─ ⊖ 측면 90도| [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
 |  ├─ ⊖ 뒤 135도| [0] (0 ~ 1) | (Probability of orienting the camera to a 135-degree angle behind the actor.)
 |  ├─ ⊖ 뒤 180도| [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **기본값 (초기화)** | 기본값 (초기화), (Preset 1),  |
+|  └─ ≡ 프리셋| **기본값 (초기화)** | 기본값 (초기화), (Preset 1),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [롱 테이크]|| 
 | └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[롱 테이크]</b>| | 
 |  ├─ > 타겟 선택| **자동** | 자동, 선택됨, 그룹, 회전, 회전 + 그룹, 무대 중앙,  |
@@ -108,7 +108,7 @@ sidebar:
 |  ├─ ☑ 바닥 아래 방지| [ON] | 
 |  ├─ ☑ 배우 방향 사용| [ON] | 
 |  ├─ □ 가까이 있을 때 초점 올리기| [OFF] | 거리 감소 시 초점 위치 위로 이동
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2), (Preset 3),  |
+|  └─ ≡ 프리셋| **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2), (Preset 3),  |
 | <img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [1인칭]|| 
 | └─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[1인칭]</b>| | 
 |  ├─ > 배우 선택|  |  |
@@ -143,6 +143,6 @@ sidebar:
 |  ├─ ⊖ (X)| [0] (-2 ~ 2) | 
 |  ├─ ⊖ (Y)| [0] (-2 ~ 2) | 
 |  ├─ ⊖ (Z)| [0] (-2 ~ 2) | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **멀리** | 근접, 멀리,  |
+|  └─ ≡ 프리셋| **멀리** | 근접, 멀리,  |
 |  <b>설정</b>|| 
 | [카메라 설정](config_camera) |

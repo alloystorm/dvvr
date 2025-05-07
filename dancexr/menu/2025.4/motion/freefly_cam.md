@@ -31,4 +31,4 @@ sidebar:
 |  ⊖ FOV| [30] (5 ~ 120) | 
 |  ⊖ Beat Cycle| [8] (1 ~ 16) | 
 |  □ Use Orbit Move| [OFF] | Enable or disable orbit movement, allowing the camera to rotate around a central point.
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Freefly** | Freefly, Lock On Actor, Lock + Zoom Fullbody, Lock + Zoom Upper Body,  |
+|  ≡ Presets| **Freefly** | Freefly, Lock On Actor, Lock + Zoom Fullbody, Lock + Zoom Upper Body,  |

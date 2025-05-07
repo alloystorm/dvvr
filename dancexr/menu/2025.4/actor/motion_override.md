@@ -78,7 +78,7 @@ sidebar:
 | │ ├─ ⊖ Foot Rotate Y| [0] (Unlimited) | 
 | │ ├─ ⊖ Foot Rotate Z| [0] (Unlimited) | 
 | │ └─ ⊖ Toe| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Ride** | Sit, Ride, Kneel, Stand,  |
+| └─ ≡ Presets| **Ride** | Sit, Ride, Kneel, Stand,  |
 |  ☑ Hands Symmetrical| [ON] | 
 |  □ <b>Left Hand</b>| | 
 | ├─ □ Enable| [OFF] | 
@@ -130,7 +130,7 @@ sidebar:
 | ├─ ⊖ Grab Distance| [0.015] (-0.1 ~ 0.1) | 
 | ├─ ⊖ Grab Position| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ Grab Axis| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
+| └─ ≡ Presets| **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
 |  □ <b>Right Hand</b>| | 
 | ├─ □ Enable| [OFF] | 
 | ├─ > Gesture| **Fist** | Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
@@ -181,7 +181,7 @@ sidebar:
 | ├─ ⊖ Grab Distance| [0.015] (-0.1 ~ 0.1) | 
 | ├─ ⊖ Grab Position| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ Grab Axis| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
+| └─ ≡ Presets| **Rest** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
 |  ☑ <b>Ride Model</b>| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ > Model| **[Hoverbike]** | [Hoverbike], [Rocking Horse],  |
@@ -198,4 +198,4 @@ sidebar:
 | ├─ ⊖ Z| [0] (-90 ~ 90) | 
 | ├─ ⊖ Scale| [0] (-5 ~ 5) | 
 | └─ ☑ Particle Effect| [ON] | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Free** | Free, Rocking Motion, Hoverbike, Rocking Horse, Pole Motion, Pole Blend,  |
+|  ≡ Presets| **Free** | Free, Rocking Motion, Hoverbike, Rocking Horse, Pole Motion, Pole Blend,  |

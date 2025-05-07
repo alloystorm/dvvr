@@ -19,7 +19,7 @@ sidebar:
 |<nobr> □ 保留選項</nobr>| [OFF] | 在替換演員時，自動將外部演員的設置應用於進入的演員。
 |<nobr> □ 壓縮紋理</nobr>| [OFF] | 壓縮紋理以減少 VRAM 使用
 |<nobr> <b>過渡效果</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
+|<nobr> ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
 |<nobr>☑ 方向</nobr>| 向下 | 向下, 向上, <br/>動畫的方向。
 |<nobr> ⊖ V 形狀</nobr>| [1] (0 ~ 5) | 控制邊緣的角度，0 是平坦的。
 |<nobr>☑ 過渡模式</nobr>| 單元格 | 單元格, 馬賽克, 噪聲, 
@@ -33,7 +33,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 紅色</nobr>| [0.9] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 綠色</nobr>| [0.9] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 藍色</nobr>| [0] (0 ~ 1) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Yellow)** | 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange), (Preset 1),  |
+|<nobr>└─ ≡ 預設</nobr>| **(Yellow)** | 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange), (Preset 1),  |
 |<nobr> ⊖ 發光</nobr>| [1] (0 ~ 10) | 燒灼效果的亮度。
 |<nobr> ⊖ 混合</nobr>| [1] (0 ~ 1) | (Blend between the original color and the burn color. )
 |<nobr> ⊖ 持續時間</nobr>| [2] (0 ~ 5) | 動畫的持續時間。

@@ -42,4 +42,4 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 水滴密度</nobr>| [1] (-2 ~ 3) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 凸起</nobr>| [0.35] (0 ~ 1) | 
 |<nobr>└─ ⊖ 濕度</nobr>| [0.5] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **關閉** | 關閉, 灰塵, 雨, 雪, 花瓣, 葉子, 閃爍,  |
+|<nobr> ≡ 預設</nobr>| **關閉** | 關閉, 灰塵, 雨, 雪, 花瓣, 葉子, 閃爍,  |

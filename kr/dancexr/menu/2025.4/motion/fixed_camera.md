@@ -35,4 +35,4 @@ sidebar:
 |<nobr> ⊖ (X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> ⊖ (Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> ⊖ (Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **멀리** | 근접, 멀리,  |
+|<nobr> ≡ 프리셋</nobr>| **멀리** | 근접, 멀리,  |

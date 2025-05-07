@@ -23,4 +23,4 @@ sidebar:
 |  ⊖ X轴偏移| [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the X-axis.)
 |  ⊖ Z轴偏移| [0] (-5 ~ 5) | (Adjust the horizontal offset of the model along the Z-axis.)
 | ☑ 对齐| (0) | (0), (0.1), (0.2), (0.5), (1), (2), <br/>(Set the snapping increment for drag adjustments. Smaller values allow finer control.)
-| <img src="/images/icon/ic_list.png" alt="list icon"/> 预设| **统一真实尺寸** | 统一真实尺寸, 微型模型, 巨型模型, 原始模型,  |
+|  ≡ 预设| **统一真实尺寸** | 统一真实尺寸, 微型模型, 巨型模型, 原始模型,  |

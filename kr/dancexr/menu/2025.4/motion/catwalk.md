@@ -78,7 +78,7 @@ sidebar:
 |<nobr>├─ ⊖ 잡기 거리</nobr>| [0.015] (-0.1 ~ 0.1) | 
 |<nobr>├─ ⊖ 잡기 위치</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr>├─ ⊖ (Grab Axis)</nobr>| [0] (-180 ~ 180) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **엉덩이** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr>└─ ≡ 프리셋</nobr>| **엉덩이** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr> ⚙️ <b>오른손</b></nobr>| | 
 |<nobr>├─ > 제스처</nobr>| **(Grab)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 점, (Middle Finger), (Thumb Up), (Grab),  |
 |<nobr>├─ ⚙️ <b>손 위치</b></nobr>| | 
@@ -128,7 +128,7 @@ sidebar:
 |<nobr>├─ ⊖ 잡기 거리</nobr>| [0.015] (-0.1 ~ 0.1) | 
 |<nobr>├─ ⊖ 잡기 위치</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr>├─ ⊖ (Grab Axis)</nobr>| [0] (-180 ~ 180) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **엉덩이** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr>└─ ≡ 프리셋</nobr>| **엉덩이** | (Rest), 뒷면, 앞면, 엉덩이, 머리, 폴, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr> ⚙️ <b>원형 이동</b></nobr>| | 
 |<nobr>├─ □ 원형 이동</nobr>| [OFF] | 
 |<nobr>└─ ⊖ 반경</nobr>| [2] (0 ~ 5) | 

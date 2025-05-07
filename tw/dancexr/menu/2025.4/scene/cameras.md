@@ -30,7 +30,7 @@ sidebar:
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 視場</nobr>| [30] (5 ~ 120) | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 節拍循環</nobr>| [8] (1 ~ 16) | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> □ 使用軌道移動</nobr>| [OFF] | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
-|<nobr> └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
+|<nobr> └─ ≡ 預設</nobr>| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [軌道攝影機]</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[軌道攝影機]</b></nobr>| | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 目標選擇</nobr>| **自動** | 自動, 已選擇, 群組, 旋轉, 旋轉 + 群組, 舞台中心,  |
@@ -55,7 +55,7 @@ sidebar:
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 最大高度</nobr>| [0.5] (0 ~ 1) | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 高度循環</nobr>| [32] ((Unlimited)) | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 速度</nobr>| [10] (0 ~ 90) | 
-|<nobr> └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1),  |
+|<nobr> └─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [自動攝影機]</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[自動攝影機]</b></nobr>| | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 目標選擇</nobr>| **自動** | 自動, 已選擇, 群組, 旋轉, 旋轉 + 群組, 舞台中心,  |
@@ -92,7 +92,7 @@ sidebar:
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 側面 90</nobr>| [0.25] (0 ~ 1) | (Probability of orienting the camera to the actor's side at a 90-degree angle.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 背面 135</nobr>| [0] (0 ~ 1) | (Probability of orienting the camera to a 135-degree angle behind the actor.)
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ 背面 180</nobr>| [0.25] (0 ~ 1) | (Probability of orienting the camera directly behind the actor.)
-|<nobr> └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1),  |
+|<nobr> └─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [長鏡頭]</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[長鏡頭]</b></nobr>| | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 目標選擇</nobr>| **自動** | 自動, 已選擇, 群組, 旋轉, 旋轉 + 群組, 舞台中心,  |
@@ -108,7 +108,7 @@ sidebar:
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ☑ 防止低於地面</nobr>| [ON] | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ☑ 使用演員方向</nobr>| [ON] | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> □ 靠近時抬高焦點</nobr>| [OFF] | 當距離變小時，上移焦點位置
-|<nobr> └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr> └─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [第一人稱]</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[第一人稱]</b></nobr>| | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> > 選擇演員</nobr>|  |  |
@@ -143,6 +143,6 @@ sidebar:
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> <img src="/images/icon/ic_line_t.png"/> ⊖ (Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr> └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **遠** | 近距離, 遠,  |
+|<nobr> └─ ≡ 預設</nobr>| **遠** | 近距離, 遠,  |
 |<nobr> <b>配置</b></nobr>|| 
 | [配置攝影機](config_camera) |

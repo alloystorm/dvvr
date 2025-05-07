@@ -78,7 +78,7 @@ sidebar:
 | ├─ ⊖ Grab Distance| [0.015] (-0.1 ~ 0.1) | 
 | ├─ ⊖ Grab Position| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ Grab Axis| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Hip** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
+| └─ ≡ Presets| **Hip** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
 |  ⚙️ <b>Right Hand</b>| | 
 | ├─ > Gesture| **Grab** | Palm Fingers Apart, Palm Fingers Together, Fist, Victory, Okay, Hold, Vulcan, Horn, Point, Middle Finger, Thumb Up, Grab,  |
 | ├─ ⚙️ <b>Hand Position</b>| | 
@@ -128,7 +128,7 @@ sidebar:
 | ├─ ⊖ Grab Distance| [0.015] (-0.1 ~ 0.1) | 
 | ├─ ⊖ Grab Position| [-0.05] (-0.1 ~ 0.1) | 
 | ├─ ⊖ Grab Axis| [0] (-180 ~ 180) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Hip** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
+| └─ ≡ Presets| **Hip** | Rest, Back, Front, Hip, Head, Pole, Grab Boobs, Hand Job, chest, Preset 1, Preset 2, Preset 3,  |
 |  ⚙️ <b>Walk in Circle</b>| | 
 | ├─ □ Walk in Circle| [OFF] | 
 | └─ ⊖ Radius| [2] (0 ~ 5) | 

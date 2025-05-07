@@ -28,4 +28,4 @@ sidebar:
 |<nobr> ☑ 防止低於地面</nobr>| [ON] | 
 |<nobr> ☑ 使用演員方向</nobr>| [ON] | 
 |<nobr> □ 靠近時抬高焦點</nobr>| [OFF] | 當距離變小時，上移焦點位置
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr> ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2), (Preset 3),  |

@@ -71,7 +71,7 @@ sidebar:
 | │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └─ ≡ Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├─ □ <b>Toon Shader</b>| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
@@ -84,12 +84,12 @@ sidebar:
 | │ ├─ ⊖ Shadow Area| [0.65] (0 ~ 1) | 
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├─ ⚙️ <b>Special Shader</b>| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
 | │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| └─ ≡ Presets| **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
 |  ⊖ XRay| [0.25] (0 ~ 1) | 
 |  ⊖ Alpha| [1] (0 ~ 1) | 
 |  ⊖ Pull Hands| [0.1] (0 ~ 0.5) | Pulling hands towards the attachment when they are close enough

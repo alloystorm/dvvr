@@ -78,7 +78,7 @@ sidebar:
 | │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ ├─ □ Use Stage Color| [OFF] | Use the color from the stage ring
 | │ ├─ ☑ Color Temp| [6500] (3000 ~ 8000) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
+| │ └─ ≡ Presets| **White** | White, Sunset, Red, Yellow, Blue, Green,  |
 | ├─ ⊖ Flares| [1] (0 ~ 1) | 
 | ├─ ⊖ Streaks| [0.2] (0 ~ 1) | 
 | ├─ ⊖ Length| [0.5] (0 ~ 1) | 
@@ -98,7 +98,7 @@ sidebar:
 |  ├─ ⊖ Green| [1] (0 ~ 1) | 
 |  ├─ ⊖ Blue| [1] (0 ~ 1) | 
 |  ├─ ⊖ Glow| [1] (0 ~ 20) | 
-|  └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+|  └─ ≡ Presets| **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
 |  ☑ <b>Color Curve</b>| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ⊖ Start Gradient| [1] (0 ~ 4) | 
@@ -128,4 +128,4 @@ sidebar:
 | ├─ ⊖ Bump Map Shadow| [0.5] (0 ~ 1) | Enable shadows for bump map and detail map.
 | ├─ ☑ Stop NaN| [ON] | Prevent black screen when error happens during post processing. 
 | └─ ☑ Compute Thickness| [ON] | Calculate thickness that can be used in skin effect.
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **High** | Performance, Medium, High, Indoor GI, Outdoor GI, Toon Effect,  |
+|  ≡ Presets| **High** | Performance, Medium, High, Indoor GI, Outdoor GI, Toon Effect,  |

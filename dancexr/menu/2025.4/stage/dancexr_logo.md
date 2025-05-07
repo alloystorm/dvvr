@@ -33,7 +33,7 @@ sidebar:
 | │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └─ ≡ Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├─ □ <b>Toon Shader</b>| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
@@ -46,12 +46,12 @@ sidebar:
 | │ ├─ ⊖ Shadow Area| [0.65] (0 ~ 1) | 
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├─ ⚙️ <b>Special Shader</b>| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
 | │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| └─ ≡ Presets| **White Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
 | <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Logo Surface 2</b>| | 
 | ├─ ⊖ Gloss| [0.9] (0 ~ 1) | 
 | ├─ ⊖ Metallic| [0] (0 ~ 1) | 
@@ -70,7 +70,7 @@ sidebar:
 | │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Red** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └─ ≡ Presets| **Red** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├─ □ <b>Toon Shader</b>| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
@@ -83,12 +83,12 @@ sidebar:
 | │ ├─ ⊖ Shadow Area| [0.65] (0 ~ 1) | 
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├─ ⚙️ <b>Special Shader</b>| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
 | │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Red Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| └─ ≡ Presets| **Red Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
 |  ☑ Diamond| [ON] | 
 | <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Diamond Surface</b>| | 
 | ├─ ⊖ Gloss| [0.9] (0 ~ 1) | 
@@ -108,7 +108,7 @@ sidebar:
 | │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └─ ≡ Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├─ □ <b>Toon Shader</b>| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
@@ -121,12 +121,12 @@ sidebar:
 | │ ├─ ⊖ Shadow Area| [0.65] (0 ~ 1) | 
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├─ ⚙️ <b>Special Shader</b>| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
 | │ └─ ⊖ Thickness| [1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| └─ ≡ Presets| **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
 |  ⊖ Distance| [4.5] (1 ~ 8) | 
 |  ⊖ Position| [0] (-180 ~ 180) | 
 |  ⊖ Scale| [1] (0.2 ~ 2) | 

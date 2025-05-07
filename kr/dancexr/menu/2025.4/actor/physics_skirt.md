@@ -571,4 +571,4 @@ sidebar:
 | │ ├─ ⊖ 콜라이더 길이| [0.8] (0 ~ 1) | 몸체 충돌체의 간섭을 피하기 위해 첫 번째 레벨의 충돌체 길이를 줄입니다.
 | │ └─ ⊖ (First Collider Length)| [0.5] (0 ~ 1) | 몸체 충돌체의 간섭을 피하기 위해 첫 번째 레벨의 충돌체 길이를 줄입니다.
 | └─ ☑ 기본 그룹 설정 사용| [ON] | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **기본값 (초기화)** | 기본값 (초기화), (hurrah), (nyotengu cheongsam), (nyo birthday), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5), (Preset 6), (预设1),  |
+|  ≡ 프리셋| **기본값 (초기화)** | 기본값 (초기화), (hurrah), (nyotengu cheongsam), (nyo birthday), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5), (Preset 6), (预设1),  |

@@ -37,4 +37,4 @@ sidebar:
 |  ⊖ Height Max| [0.5] (0 ~ 1) | 
 |  ⊖ Height Cycle| [32] (Unlimited) | 
 |  ⊖ Speed| [10] (0 ~ 90) | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), Preset 1,  |
+|  ≡ Presets| **Default (Reset)** | Default (Reset), Preset 1,  |

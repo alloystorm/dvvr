@@ -99,10 +99,10 @@ sidebar:
 | │ ├─ □ Enable Tearing| [OFF] | 
 | │ ├─ ⊖ Tear Threshold| [2] (1 ~ 10) | 
 | │ └─ ⊖ Limit Tearing Speed| [0] (0 ~ 25) | Cool down interval after tearing, in frames
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Top** | Skirt, Top, Tight Skirt, String Skirt, Hula Skirt,  |
+| └─ ≡ Presets| **Top** | Skirt, Top, Tight Skirt, String Skirt, Hula Skirt,  |
 |  ⚙️ <b>C1 Material</b>| | 
 | ├─<img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Surface</b>|| 
-| ├─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Matt Gray** | Original, Matt Gray, Translucent, Glow, Silver, Solid Glass, Thin Glass, Outline, Preset 1, Preset 2, Preset 3,  |
+| ├─ ≡ Presets| **Matt Gray** | Original, Matt Gray, Translucent, Glow, Silver, Solid Glass, Thin Glass, Outline, Preset 1, Preset 2, Preset 3,  |
 | ├─ □ Glass Mode| [OFF] | 
 | ├─ □ Alpha As Gloss| [OFF] | 
 | ├─ □ Double Side| [OFF] | 
@@ -126,7 +126,7 @@ sidebar:
 | │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ ├─ > Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Gray** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └─ ≡ Presets| **Gray** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├─ □ <b>Toon Shader</b>| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
@@ -139,7 +139,7 @@ sidebar:
 | │ ├─ ⊖ Shadow Area| [0.65] (0 ~ 1) | 
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├─ ⚙️ <b>Special Shader</b>| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
@@ -248,10 +248,10 @@ sidebar:
 | │ ├─ □ Enable Tearing| [OFF] | 
 | │ ├─ ⊖ Tear Threshold| [2] (1 ~ 10) | 
 | │ └─ ⊖ Limit Tearing Speed| [0] (0 ~ 25) | Cool down interval after tearing, in frames
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Skirt** | Skirt, Top, Tight Skirt, String Skirt, Hula Skirt,  |
+| └─ ≡ Presets| **Skirt** | Skirt, Top, Tight Skirt, String Skirt, Hula Skirt,  |
 |  ⚙️ <b>C2 Material</b>| | 
 | ├─<img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Surface</b>|| 
-| ├─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Matt Gray** | Original, Matt Gray, Translucent, Glow, Silver, Solid Glass, Thin Glass, Outline, Preset 1, Preset 2, Preset 3,  |
+| ├─ ≡ Presets| **Matt Gray** | Original, Matt Gray, Translucent, Glow, Silver, Solid Glass, Thin Glass, Outline, Preset 1, Preset 2, Preset 3,  |
 | ├─ □ Glass Mode| [OFF] | 
 | ├─ □ Alpha As Gloss| [OFF] | 
 | ├─ ☑ Double Side| [ON] | 
@@ -275,7 +275,7 @@ sidebar:
 | │ ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | │ ├─ > Blend Mode| **Multiply** | Original, Multiply, Blend, Color Shift,  |
 | │ ├─ ⊖ Blend| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Gray** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| │ └─ ≡ Presets| **Gray** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
 | ├─ □ <b>Toon Shader</b>| | 
 | │ ├─ □ Enable| [OFF] | 
 | │ ├─ ⊖ Shading| [1] (0 ~ 1) | 
@@ -288,7 +288,7 @@ sidebar:
 | │ ├─ ⊖ Shadow Area| [0.65] (0 ~ 1) | 
 | │ ├─ ⊖ Shadow| [0.75] (0 ~ 1) | 
 | │ ├─ ⊖ Soft Shadow| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| │ └─ ≡ Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
 | ├─ ⚙️ <b>Special Shader</b>| | 
 | │ ├─ > Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
 | │ ├─ ⊖ Refraction| [0.5] (1 ~ 3) | 
@@ -335,7 +335,7 @@ sidebar:
 | │ ├─ ⊖ Max TTL| [10] (5 ~ 15) | Particles disappear and respawn after this amount of time.
 | │ ├─ ⊖ TTL on Floor| [0.1] (0 ~ 1) | Time to live after hitting floor.
 | │ ├─ ⊖ Smoothing| [0.5] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sprinkler** | Shower, Fountain, Sprinkler, Handheld,  |
+| │ └─ ≡ Presets| **Sprinkler** | Shower, Fountain, Sprinkler, Handheld,  |
 | ├─ ⚙️ <b>Fluid</b>| | 
 | │ ├─ ⊖ Cohesion| [0.5] (0 ~ 1) | 
 | │ ├─ ⊖ Viscosity| [0] (0 ~ 1) | 
@@ -344,7 +344,7 @@ sidebar:
 | │ ├─ ⊖ Cohesion Range| [20] (1 ~ 50) | Max distance for cohesion effect
 | │ ├─ ⊖ Target Distance| [10] (1 ~ 20) | Minimum distance between particles in MM when cohesion is off.
 | │ ├─ ⊖ Elevation| [0.25] (0 ~ 0.5) | Elevate particle in proportion of its size
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Water** | Water, Viscous, Sand,  |
+| │ └─ ≡ Presets| **Water** | Water, Viscous, Sand,  |
 | ├─ ⚙️ <b>Render</b>| | 
 | │ ├─ ☑ Render Particle| [ON] | 
 | │ ├─ □ Render Droplet| [OFF] | 
@@ -384,7 +384,7 @@ sidebar:
 | │  ├─ ☑ Legs| [ON] | 
 | │  ├─ ☑ Feet| [ON] | 
 | │  └─ □ Player| [OFF] | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset),  |
+| └─ ≡ Presets| **Default (Reset)** | Default (Reset),  |
 |  ☑ <b>Geometry Collider</b>| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ □ Visible| [OFF] | 
@@ -650,7 +650,7 @@ sidebar:
 | │ ├─ ⊖ X| [1] (0 ~ 1) | 
 | │ ├─ ⊖ Y| [1] (0 ~ 1) | 
 | │ └─ ⊖ Z| [1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3, Preset 4, Preset 5,  |
+| └─ ≡ Presets| **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3, Preset 4, Preset 5,  |
 |  ☑ <b>Mesh Collider</b>| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ☑ Disable Geometry Colliders| [ON] | 
@@ -671,4 +671,4 @@ sidebar:
 | ├─ ⊖ Alternate Group Size| [0] (0 ~ 20) | 
 | ├─ ⊖ Table Size| [6] (1 ~ 20) | 
 | └─ □ Two Step Solving| [OFF] | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset),  |
+|  ≡ Presets| **Default (Reset)** | Default (Reset),  |

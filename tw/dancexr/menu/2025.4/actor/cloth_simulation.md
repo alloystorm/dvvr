@@ -99,10 +99,10 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用撕裂</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 撕裂閾值</nobr>| [2] (1 ~ 10) | 
 |<nobr>│ └─ ⊖ 限制撕裂速度</nobr>| [0] (0 ~ 25) | 撕裂後的冷卻間隔，單位：幀
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Top)** | 裙子, (Top), (Tight Skirt), (String Skirt), (Hula Skirt),  |
+|<nobr>└─ ≡ 預設</nobr>| **(Top)** | 裙子, (Top), (Tight Skirt), (String Skirt), (Hula Skirt),  |
 |<nobr> ⚙️ <b>C1 材質</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>表面</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **啞光灰** | 原版, 啞光灰, 半透明, 發光, 銀色, 實心玻璃, 薄玻璃, 輪廓, (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr><img src="/images/icon/ic_line_t.png"/> ≡ 預設</nobr>| **啞光灰** | 原版, 啞光灰, 半透明, 發光, 銀色, 實心玻璃, 薄玻璃, 輪廓, (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 玻璃模式</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 光澤作為透明度</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 雙面</nobr>| [ON] | 
@@ -126,7 +126,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 藍色</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> > 混合模式</nobr>| **(Multiply)** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 混合</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Gray)** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
+|<nobr>│ └─ ≡ 預設</nobr>| **(Gray)** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>卡通著色器</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影</nobr>| [1] (0 ~ 1) | 
@@ -139,7 +139,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影區域</nobr>| [0.65] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 柔和陰影</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
+|<nobr>│ └─ ≡ 預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>特殊著色器</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> > 模式</nobr>| **關閉** | 關閉, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 折射</nobr>| [0.5] (1 ~ 3) | 
@@ -248,10 +248,10 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用撕裂</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 撕裂閾值</nobr>| [2] (1 ~ 10) | 
 |<nobr>│ └─ ⊖ 限制撕裂速度</nobr>| [0] (0 ~ 25) | 撕裂後的冷卻間隔，單位：幀
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **裙子** | 裙子, (Top), (Tight Skirt), (String Skirt), (Hula Skirt),  |
+|<nobr>└─ ≡ 預設</nobr>| **裙子** | 裙子, (Top), (Tight Skirt), (String Skirt), (Hula Skirt),  |
 |<nobr> ⚙️ <b>C2 材質</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>表面</b></nobr>|| 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **啞光灰** | 原版, 啞光灰, 半透明, 發光, 銀色, 實心玻璃, 薄玻璃, 輪廓, (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr><img src="/images/icon/ic_line_t.png"/> ≡ 預設</nobr>| **啞光灰** | 原版, 啞光灰, 半透明, 發光, 銀色, 實心玻璃, 薄玻璃, 輪廓, (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 玻璃模式</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 光澤作為透明度</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 雙面</nobr>| [ON] | 
@@ -275,7 +275,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 藍色</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> > 混合模式</nobr>| **(Multiply)** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 混合</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Gray)** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
+|<nobr>│ └─ ≡ 預設</nobr>| **(Gray)** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>卡通著色器</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影</nobr>| [1] (0 ~ 1) | 
@@ -288,7 +288,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影區域</nobr>| [0.65] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 陰影</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 柔和陰影</nobr>| [0.1] (0 ~ 1) | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
+|<nobr>│ └─ ≡ 預設</nobr>| **銳利** | 銳利, 柔和, 明亮, 平面 + 光澤, 平面,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>特殊著色器</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> > 模式</nobr>| **關閉** | 關閉, 厚折射, 薄折射, 輪廓, 未點亮, (Experiment),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 折射</nobr>| [0.5] (1 ~ 3) | 
@@ -335,7 +335,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 最大壽命</nobr>| [10] (5 ~ 15) | 粒子在這段時間後消失並重新生成。
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 地面壽命</nobr>| [0.1] (0 ~ 1) | 撞擊地面後的生存時間。
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 平滑度</nobr>| [0.5] (0 ~ 1) | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **噴霧器** | 淋浴, 噴泉, 噴霧器, 手持式,  |
+|<nobr>│ └─ ≡ 預設</nobr>| **噴霧器** | 淋浴, 噴泉, 噴霧器, 手持式,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>流體</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 凝聚力</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 粘度</nobr>| [0] (0 ~ 1) | 
@@ -344,7 +344,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 凝聚範圍</nobr>| [20] (1 ~ 50) | 凝聚效果的最大距離
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 目標距離</nobr>| [10] (1 ~ 20) | 當凝聚關閉時，粒子之間的最小距離（以毫米計算）。
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 高度</nobr>| [0.25] (0 ~ 0.5) | 根據粒子的大小提升粒子
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **水** | 水, 粘性, 沙子,  |
+|<nobr>│ └─ ≡ 預設</nobr>| **水** | 水, 粘性, 沙子,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>渲染</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ☑ 渲染粒子</nobr>| [ON] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 渲染水滴</nobr>| [OFF] | 
@@ -384,7 +384,7 @@ sidebar:
 |<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 腿部</nobr>| [ON] | 
 |<nobr>│  <img src="/images/icon/ic_line_t.png"/> ☑ 腳</nobr>| [ON] | 
 |<nobr>│  └─ □ 玩家</nobr>| [OFF] | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
+|<nobr>└─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
 |<nobr> ☑ <b>幾何碰撞器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 啟用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 可見</nobr>| [OFF] | 
@@ -650,7 +650,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ (X)</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ (Y)</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ └─ ⊖ (Z)</nobr>| [1] (0 ~ 1) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |
+|<nobr>└─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |
 |<nobr> ☑ <b>網格碰撞體</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 啟用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 禁用幾何碰撞體</nobr>| [ON] | 
@@ -671,4 +671,4 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 替代組大小</nobr>| [0] (0 ~ 20) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 數據表大小</nobr>| [6] (1 ~ 20) | 
 |<nobr>└─ □ 兩步求解</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
+|<nobr> ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置),  |

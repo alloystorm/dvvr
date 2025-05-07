@@ -35,4 +35,4 @@ sidebar:
 |<nobr> ⊖ (X)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> ⊖ (Y)</nobr>| [0] (-2 ~ 2) | 
 |<nobr> ⊖ (Z)</nobr>| [0] (-2 ~ 2) | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **远** | 近, 远,  |
+|<nobr> ≡ 预设</nobr>| **远** | 近, 远,  |

@@ -33,7 +33,7 @@ sidebar:
 | │ ├─ ⊖ 빨간색| [1] (0 ~ 1) | 
 | │ ├─ ⊖ 초록색| [1] (0 ~ 1) | 
 | │ ├─ ⊖ 파란색| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **흰색** | 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange), (Preset 1),  |
+| │ └─ ≡ 프리셋| **흰색** | 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange), (Preset 1),  |
 | ├─ ⊖ 발광| [0] (0 ~ 10) | 
 | ├─ ⊖ 색상 보존| [0] (0 ~ 1) | 
 | ├─ 캔버스 지우기|| 
@@ -59,7 +59,7 @@ sidebar:
 | ├─ ⊖ 외부 거리| [0.01] (0 ~ 0.025) | 
 | ├─ ⊖ 내부 범프| [0.5] (0 ~ 1) | 
 | ├─ ⊖ 내부 거리| [0.005] (0 ~ 0.1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **(Fullbody)** | (Fullbody), V 형태, 스타킹, (Fishnet Fullbody), (Fishnet V Shape), (Fishnet Stockings), (Maze 1), (Maze 2), (Curve 1), (Curve 2),  |
+| └─ ≡ 프리셋| **(Fullbody)** | (Fullbody), V 형태, 스타킹, (Fishnet Fullbody), (Fishnet V Shape), (Fishnet Stockings), (Maze 1), (Maze 2), (Curve 1), (Curve 2),  |
 |  □ <b>(Hexagon Map)</b>| | 
 | ├─ □ 활성화| [OFF] | 
 | ├─ ⊖ 밀도| [4] (0 ~ 8) | 
@@ -89,13 +89,13 @@ sidebar:
 | │ ├─ ⊖ 파란색| [1] (0 ~ 1) | 
 | │ ├─ > 혼합 모드| **혼합** | 원본, (Multiply), 혼합, (Color Shift),  |
 | │ ├─ ⊖ 혼합| [0.9] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **검은색** | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |
+| │ └─ ≡ 프리셋| **검은색** | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |
 | ├─ ⊖ 비등방성| [-0.5] (-1 ~ 1) | 
 | ├─ ⊖ 스타킹 효과| [0.5] (0 ~ 1) | 
 | ├─ ⊖ 스타킹 그라데이션| [2] (-3 ~ 3) | 
 | ├─ ⊖ 세부 밀도| [1] (0 ~ 2) | 
 | ├─ ☑ 용해 활성화| [ON] | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **얇은 스타킹** | 얇은 스타킹, 두꺼운 스타킹, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본, (Preset 1), (Preset 2), (预设1),  |
+| └─ ≡ 프리셋| **얇은 스타킹** | 얇은 스타킹, 두꺼운 스타킹, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본, (Preset 1), (Preset 2), (预设1),  |
 | <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>서페이스 패턴</b>| | 
 | ├─ ⊖ 광택| [0.9] (0 ~ 1) | 
 | ├─ ⊖ 금속성| [0] (0 ~ 1) | 
@@ -114,13 +114,13 @@ sidebar:
 | │ ├─ ⊖ 파란색| [1] (0 ~ 1) | 
 | │ ├─ > 혼합 모드| **혼합** | 원본, (Multiply), 혼합, (Color Shift),  |
 | │ ├─ ⊖ 혼합| [0.8] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **검은색** | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |
+| │ └─ ≡ 프리셋| **검은색** | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |
 | ├─ ⊖ 비등방성| [0] (-1 ~ 1) | 
 | ├─ ⊖ 스타킹 효과| [1] (0 ~ 1) | 
 | ├─ ⊖ 스타킹 그라데이션| [1] (-3 ~ 3) | 
 | ├─ ⊖ 세부 밀도| [1] (0 ~ 2) | 
 | ├─ ☑ 용해 활성화| [ON] | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **라텍스** | 얇은 스타킹, 두꺼운 스타킹, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본, (Preset 1), (Preset 2), (预设1),  |
+| └─ ≡ 프리셋| **라텍스** | 얇은 스타킹, 두꺼운 스타킹, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본, (Preset 1), (Preset 2), (预设1),  |
 | <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>서페이스 테두리</b>| | 
 | ├─ ⊖ 광택| [0.5] (0 ~ 1) | 
 | ├─ ⊖ 금속성| [0] (0 ~ 1) | 
@@ -139,13 +139,13 @@ sidebar:
 | │ ├─ ⊖ 파란색| [1] (0 ~ 1) | 
 | │ ├─ > 혼합 모드| **혼합** | 원본, (Multiply), 혼합, (Color Shift),  |
 | │ ├─ ⊖ 혼합| [0.9] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **검은색** | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |
+| │ └─ ≡ 프리셋| **검은색** | 원본, 흰색, 검은색, 빨간색, (Yellow), (Dark Gray), 파란색, 피부, (Gray), (Orange),  |
 | ├─ ⊖ 비등방성| [-0.5] (-1 ~ 1) | 
 | ├─ ⊖ 스타킹 효과| [0.5] (0 ~ 1) | 
 | ├─ ⊖ 스타킹 그라데이션| [2] (-3 ~ 3) | 
 | ├─ ⊖ 세부 밀도| [1] (0 ~ 2) | 
 | ├─ ☑ 용해 활성화| [ON] | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **얇은 스타킹** | 얇은 스타킹, 두꺼운 스타킹, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본, (Preset 1), (Preset 2), (预设1),  |
+| └─ ≡ 프리셋| **얇은 스타킹** | 얇은 스타킹, 두꺼운 스타킹, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 원본, (Preset 1), (Preset 2), (预设1),  |
 |  ⊖ 용해| [0] (0 ~ 1) | 
 |  ⚙️ <b>용해 맵</b>| | 
 | ├─ ⊖ 패턴 L1| [13] (0 ~ 90) | 용해 맵 생성 시 레벨 1 패턴 변경
@@ -174,4 +174,4 @@ sidebar:
 | ├─ <b>수동 선택</b>|| 
 | ├─ □ | [OFF] | 
 | └─<img src="/images/icon/ic_filter.png" alt="filter icon"/> 필터링|| 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **바디 페인트** | 바디 페인트, 풀바디 라텍스, V자 모양 어망, 스타킹, 스타킹 어망, 바디수트 1, 바디수트 2, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |
+|  ≡ 프리셋| **바디 페인트** | 바디 페인트, 풀바디 라텍스, V자 모양 어망, 스타킹, 스타킹 어망, 바디수트 1, 바디수트 2, (Preset 1), (Preset 2), (Preset 3), (Preset 4), (Preset 5),  |

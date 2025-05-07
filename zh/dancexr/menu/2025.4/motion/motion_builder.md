@@ -30,7 +30,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Range X)</nobr>| [30] (0 ~ 45) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Range Y)</nobr>| [30] (0 ~ 45) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Orient)</nobr>| [0] (-45 ~ 45) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）,  |
+|<nobr>└─ ≡ 预设</nobr>| **默认（重置）** | 默认（重置）,  |
 |<nobr> ⊖ 范围</nobr>| [0.5] (0 ~ 1) | 
 |<nobr> ⚙️ <b>速度</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/>☑ 每拍动作数</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 

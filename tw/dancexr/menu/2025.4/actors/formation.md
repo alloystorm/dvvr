@@ -32,4 +32,4 @@ sidebar:
 |<nobr> ⊖ 偏移 Y</nobr>| [0] (-5 ~ 5) | 
 |<nobr> 重置演員</nobr>|| 
 |<nobr> ☑ 隨機道具位置</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
+|<nobr> ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置),  |

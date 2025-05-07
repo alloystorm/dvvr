@@ -34,4 +34,4 @@ sidebar:
 |  ⊖ Thigh Start Position| [0] (0 ~ 1) | 
 |  ⊖ Hand| [0] (0 ~ 1) | 
 |  □ Visualize| [OFF] | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), amy, misaki,  |
+|  ≡ Presets| **Default (Reset)** | Default (Reset), amy, misaki,  |

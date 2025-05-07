@@ -30,7 +30,7 @@ sidebar:
 | ├─ ⊖ Range X| [30] (0 ~ 45) | 
 | ├─ ⊖ Range Y| [30] (0 ~ 45) | 
 | ├─ ⊖ Orient| [0] (-45 ~ 45) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset),  |
+| └─ ≡ Presets| **Default (Reset)** | Default (Reset),  |
 |  ⊖ Extent| [0.5] (0 ~ 1) | 
 |  ⚙️ <b>Speed</b>| | 
 | ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 

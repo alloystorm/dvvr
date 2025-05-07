@@ -99,7 +99,7 @@ sidebar:
 | ├─ ⊖ Thigh Start Position| [0] (0 ~ 1) | 
 | ├─ ⊖ Hand| [0] (0 ~ 1) | 
 | ├─ □ Visualize| [OFF] | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), amy, misaki,  |
+| └─ ≡ Presets| **Default (Reset)** | Default (Reset), amy, misaki,  |
 |  ☑ <b>Boobs Physics</b><sup>[PRO]</sup>| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ Select Bones|| 
@@ -186,9 +186,9 @@ sidebar:
 | │ │ ├─ ⊖ Alternate Group Size| [0] (0 ~ 20) | 
 | │ │ ├─ ⊖ Table Size| [6] (1 ~ 20) | 
 | │ │ └─ □ Two Step Solving| [OFF] | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
+| │ └─ ≡ Presets| **Boobs** | Boobs, Butts, Legs, tina, 预设1, 预设2,  |
 | ├─ □ Softbody Only| [OFF] | Disable physics joint and use softbody particles only.
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3, tina, 预设1, 预设2,  |
+| └─ ≡ Presets| **Default (Reset)** | Default (Reset), Preset 1, Preset 2, Preset 3, tina, 预设1, 预设2,  |
 |  ☑ <b>Skirt Physics</b><sup>[PRO]</sup>| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ ☑ Use Particle Dynamics| [ON] | 
@@ -747,7 +747,7 @@ sidebar:
 | │ │ ├─ ⊖ Collider Length| [0.8] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 | │ │ └─ ⊖ First Collider Length| [0.5] (0 ~ 1) | Reducing lenght of collider for the first level of bones to avoid interference from body colliders.
 | │ └─ ☑ Use Primary Group Settings| [ON] | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), hurrah, nyotengu cheongsam, nyo birthday, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5, Preset 6, 预设1,  |
+| └─ ≡ Presets| **Default (Reset)** | Default (Reset), hurrah, nyotengu cheongsam, nyo birthday, Preset 1, Preset 2, Preset 3, Preset 4, Preset 5, Preset 6, 预设1,  |
 |  ☑ <b>Hair Physics</b>| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ Select Bones|| Select bones
@@ -806,7 +806,7 @@ sidebar:
 | ├─ ⊖ Collider Radius| [0.005] (0 ~ 0.05) | Size of the particle used when solving collision.
 | ├─ ⊖ Collider Length| [0.9] (0 ~ 1) | 
 | ├─ ⊖ Anchor Position| [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), momiji bob, Preset 1,  |
+| └─ ≡ Presets| **Default (Reset)** | Default (Reset), momiji bob, Preset 1,  |
 |  ☑ <b>Dangling Physics</b>| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ Select Bones|| Select bones
@@ -865,7 +865,7 @@ sidebar:
 | ├─ ⊖ Collider Radius| [0.01] (0 ~ 0.05) | Size of the particle used when solving collision.
 | ├─ ⊖ Collider Length| [0.9] (0 ~ 1) | 
 | ├─ ⊖ Anchor Position| [0] (0 ~ 1) | Choose anchor position when creating joints. 0 = anchor at the parent bone, 1 = anchor at the child bone
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), Preset 1, Preset 2,  |
+| └─ ≡ Presets| **Default (Reset)** | Default (Reset), Preset 1, Preset 2,  |
 |  ☑ <b>Detach Object</b>| | 
 | ├─ ☑ Enable| [ON] | 
 | ├─ Select Bones|| 
@@ -875,4 +875,4 @@ sidebar:
 | ├─ ☑ Collider| Sphere | None, Sphere, Capsule, 
 | ├─ ⊖ Collider Radius| [0.1] (0 ~ 1) | 
 | └─ ⊖ Collider Length| [0.3] (0 ~ 2) | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset),  |
+|  ≡ Presets| **Default (Reset)** | Default (Reset),  |

@@ -73,7 +73,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取距離</nobr>| [0.015] (-0.1 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取位置</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Grab Axis)</nobr>| [0] (-180 ~ 180) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr>└─ ≡ 預設</nobr>| **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr> ⚙️ <b>右手</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> > 手勢</nobr>| **(Palm Fingers Together)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 點, (Middle Finger), (Thumb Up), (Grab),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>手部位置</b></nobr>| | 
@@ -123,6 +123,6 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取距離</nobr>| [0.015] (-0.1 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取位置</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Grab Axis)</nobr>| [0] (-180 ~ 180) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr>└─ ≡ 預設</nobr>| **(Rest)** | (Rest), 背面, 正面, 臀部, 頭部, 桿, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr> ☑ 使用音量作為</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 上半身運動</nobr>| [0.5] (0 ~ 1) | 

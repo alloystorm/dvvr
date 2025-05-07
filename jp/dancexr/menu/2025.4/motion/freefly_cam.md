@@ -31,4 +31,4 @@ sidebar:
 |  ⊖ FOV| [30] (5 ~ 120) | 
 |  ⊖ ビートサイクル| [8] (1 ~ 16) | 
 |  □ オービット移動を使用| [OFF] | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
-| <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
+|  ≡ プリセット| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |

@@ -72,4 +72,4 @@ sidebar:
 | ├─ ⊖ Y| [0] (-90 ~ 90) | 
 | └─ ⊖ Z| [0] (-90 ~ 90) | 
 |  ⊖ Middle Finger| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset), 2b,  |
+|  ≡ Presets| **Default (Reset)** | Default (Reset), 2b,  |

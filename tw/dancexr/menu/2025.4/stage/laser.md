@@ -35,7 +35,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 基準水平</nobr>| [-1] (-3 ~ 3) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 邊緣水平</nobr>| [2] (0 ~ 5) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 碰撞水平</nobr>| [2] (0 ~ 5) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **動畫色相** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
+|<nobr>└─ ≡ 預設</nobr>| **動畫色相** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
 |<nobr> ⚙️ <b>運動</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 每組動作數</nobr>| [1] (1 ~ 32) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 速度</nobr>| [0] (-3 ~ 3) | 
@@ -64,5 +64,5 @@ sidebar:
 |<nobr>│ └─ ⊖ 中心</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 使用音頻</nobr>| [2] (0 ~ 4) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 種子</nobr>| [1234] ((Unlimited)) | 控制隨機化的模式序列
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
-|<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **關閉** | 關閉, 線, 半圓, 點, 隨音樂發光, (Preset 1),  |
+|<nobr>└─ ≡ 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
+|<nobr> ≡ 預設</nobr>| **關閉** | 關閉, 線, 半圓, 點, 隨音樂發光, (Preset 1),  |

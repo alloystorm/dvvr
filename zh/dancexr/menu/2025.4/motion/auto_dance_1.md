@@ -73,7 +73,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 抓取距离</nobr>| [0.015] (-0.1 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 抓取位置</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Grab Axis)</nobr>| [0] (-180 ~ 180) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **(Rest)** | (Rest), 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr>└─ ≡ 预设</nobr>| **(Rest)** | (Rest), 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr> ⚙️ <b>右手</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> > 手势</nobr>| **(Palm Fingers Together)** | (Palm Fingers Apart), (Palm Fingers Together), (Fist), (Victory), (Okay), (Hold), (Vulcan), (Horn), 点, (Middle Finger), (Thumb Up), (Grab),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⚙️ <b>手的位置</b></nobr>| | 
@@ -123,6 +123,6 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 抓取距离</nobr>| [0.015] (-0.1 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 抓取位置</nobr>| [-0.05] (-0.1 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ (Grab Axis)</nobr>| [0] (-180 ~ 180) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **(Rest)** | (Rest), 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
+|<nobr>└─ ≡ 预设</nobr>| **(Rest)** | (Rest), 背面, 前面, 臀部, 头部, 杆, (Grab Boobs), (Hand Job), (chest), (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr> ☑ 使用响度进行</nobr>| [ON] | 
 |<nobr> ⊖ 上半身动作</nobr>| [0.5] (0 ~ 1) | 

@@ -35,4 +35,4 @@ sidebar:
 |  ⊖ X| [0] (-2 ~ 2) | 
 |  ⊖ Y| [0] (-2 ~ 2) | 
 |  ⊖ Z| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Far** | Near, Far,  |
+|  ≡ Presets| **Far** | Near, Far,  |

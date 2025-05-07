@@ -19,7 +19,7 @@ sidebar:
 |  □ Retain Options| [OFF] | Automatically applies the settings from the outgoing actor to the incoming actor when replacing actors.
 |  □ Compress Textures| [OFF] | Compress textures to reduce VRAM use
 |  <b>Transition Effect</b>|| 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset),  |
+|  ≡ Presets| **Default (Reset)** | Default (Reset),  |
 | ☑ Direction| Down | Down, Up, <br/>The direction of the animation.
 |  ⊖ V Shape| [1] (0 ~ 5) | Controls the angle of the edge, 0 is flat.
 | ☑ Transition Mode| Cells | Cells, Mosaic, Noise, 
@@ -33,7 +33,7 @@ sidebar:
 | ├─ ⊖ Red| [0.9] (0 ~ 1) | 
 | ├─ ⊖ Green| [0.9] (0 ~ 1) | 
 | ├─ ⊖ Blue| [0] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Yellow** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
+| └─ ≡ Presets| **Yellow** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
 |  ⊖ Glow| [1] (0 ~ 10) | Brightness of the burn effect.
 |  ⊖ Blend| [1] (0 ~ 1) | Blend between the original color and the burn color. 
 |  ⊖ Duration| [2] (0 ~ 5) | The duration of the animation.

@@ -29,7 +29,7 @@ sidebar:
 | ├─ ⊖ Green| [1] (0 ~ 1) | 
 | ├─ ⊖ Blue| [0] (0 ~ 1) | 
 | ├─ ⊖ Glow| [1] (0 ~ 20) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Green** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+| └─ ≡ Presets| **Green** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
 |  ⚙️ <b>Marker Color</b>| | 
 | ├─ ☑ Color Mode| HSV | RGB, HSV, 
 | ├─ ⊖ Hue| [0] (0 ~ 1) | 
@@ -39,7 +39,7 @@ sidebar:
 | ├─ ⊖ Green| [1] (0 ~ 1) | 
 | ├─ ⊖ Blue| [1] (0 ~ 1) | 
 | ├─ ⊖ Glow| [1] (0 ~ 20) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
+| └─ ≡ Presets| **White** | White, Red, Green, Blue, Animated Hue, Glow w/ Music,  |
 |  ⊖ Beat Cycle| [8] (2 ~ 16) | 
 |  ⊖ Normal Glow| [1] (0 ~ 8) | 
 |  ⊖ Flash Glow| [2] (0 ~ 8) | 

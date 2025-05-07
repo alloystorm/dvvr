@@ -29,7 +29,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 綠色</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 藍色</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/> ⊖ 發光</nobr>| [1] (0 ~ 20) | 
-|<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **白色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
+|<nobr>│ └─ ≡ 預設</nobr>| **白色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 光澤</nobr>| [0.95] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 強度</nobr>| [10] (0 ~ 100) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 發光</nobr>| [0] (0 ~ 10) | 
@@ -37,7 +37,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 折射</nobr>| [0.5] (-2 ~ 2) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 投擲陰影</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 軌跡</nobr>| [0] (0 ~ 2) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **發光** | 發光, 反射, 水晶,  |
+|<nobr>└─ ≡ 預設</nobr>| **發光** | 發光, 反射, 水晶,  |
 |<nobr> ⚙️ <b>物理</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> □ 重力</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ☑ 碰撞</nobr>| [ON] | 
@@ -47,7 +47,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 阻尼</nobr>| [0.1] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 最小速度</nobr>| [0] (0 ~ 5) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> ⊖ 最大速度</nobr>| [15] (2 ~ 15) | 
-|<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **彈簧** | 彈簧, (Hanging), 浮動,  |
+|<nobr>└─ ≡ 預設</nobr>| **彈簧** | 彈簧, (Hanging), 浮動,  |
 |<nobr> ☑ 手</nobr>| [ON] | 
 |<nobr> □ 臀部</nobr>| [OFF] | 
 |<nobr> □ 軀幹</nobr>| [OFF] | 
