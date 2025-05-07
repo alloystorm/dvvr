@@ -71,7 +71,7 @@ ffmpeg -r 30 -i movie_%04d.jpg -i sound.wav movie.mp4
 
 對於 **3D SBS** 影片，您需要添加其他參數以設定正確的元數據：
 <pre>
-ffmpeg -r 30 -i movie_%03d.jpg <b>-vcodec libx264 -x264opts "frame-packing=3"</b> movie.mp4
+ffmpeg -r 30 -i movie_%03d.jpg -vcodec libx264 -x264opts "frame-packing=3" movie.mp4
 </pre>
 
 對於 **VR180** 影片，您需要使用另一個工具來設定正確的標籤，以便在像是 YouTube 這樣的平台上正確識別影片。Google 的 "VR180 Creator" 是這個步驟的推薦工具。

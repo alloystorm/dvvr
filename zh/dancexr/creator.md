@@ -71,7 +71,7 @@ ffmpeg -r 30 -i movie_%04d.jpg -i sound.wav movie.mp4
 
 对于**3D SBS**（左右分屏）视频，您需要添加额外的参数来设置正确的元数据：
 <pre>
-ffmpeg -r 30 -i movie_%03d.jpg <b>-vcodec libx264 -x264opts "frame-packing=3"</b> movie.mp4
+ffmpeg -r 30 -i movie_%03d.jpg -vcodec libx264 -x264opts "frame-packing=3" movie.mp4
 </pre>
 
 对于**VR180**视频，您需要使用另一个工具来设置正确的标签，以便在像YouTube这样的平台上正确识别视频。Google的"VR180 Creator"是此步骤的推荐工具。
