@@ -12,7 +12,7 @@ sidebar:
 
 
 
-[(Feature Page)](/dancexr/features/freefly_cam)
+[(Feature Page)](/kr/dancexr/features/freefly_cam)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

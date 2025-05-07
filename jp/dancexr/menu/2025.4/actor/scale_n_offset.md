@@ -12,7 +12,7 @@ sidebar:
 
 
 
-[(Feature Page)](/dancexr/features/scale_n_offset)
+[(Feature Page)](/jp/dancexr/features/scale_n_offset)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

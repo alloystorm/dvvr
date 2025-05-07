@@ -12,7 +12,7 @@ sidebar:
 
 
 
-[(Feature Page)](/dancexr/features/feet_adjustment)
+[(Feature Page)](/kr/dancexr/features/feet_adjustment)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

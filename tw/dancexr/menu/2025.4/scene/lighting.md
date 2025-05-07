@@ -12,7 +12,7 @@ sidebar:
 
 
 
-[(Feature Page)](/dancexr/features/lighting)
+[(Feature Page)](/tw/dancexr/features/lighting)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

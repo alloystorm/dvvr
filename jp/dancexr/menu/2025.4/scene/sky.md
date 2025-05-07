@@ -12,7 +12,7 @@ sidebar:
 
 
 
-[(Feature Page)](/dancexr/features/sky)
+[(Feature Page)](/jp/dancexr/features/sky)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

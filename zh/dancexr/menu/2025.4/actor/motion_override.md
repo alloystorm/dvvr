@@ -12,7 +12,7 @@ sidebar:
 
 
 
-[(Feature Page)](/dancexr/features/motion_override)
+[(Feature Page)](/zh/dancexr/features/motion_override)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

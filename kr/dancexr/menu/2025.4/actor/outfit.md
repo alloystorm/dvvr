@@ -12,7 +12,7 @@ sidebar:
 
 
 
-[(Feature Page)](/dancexr/features/outfit)
+[(Feature Page)](/kr/dancexr/features/outfit)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |

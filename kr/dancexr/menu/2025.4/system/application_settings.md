@@ -12,7 +12,7 @@ sidebar:
 
 
 
-[(Feature Page)](/dancexr/features/application_settings)
+[(Feature Page)](/kr/dancexr/features/application_settings)
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
