@@ -14,22 +14,22 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|  <b>편성</b></nobr>|| 
-|  V 형태</nobr>|| 
-|  선</nobr>|| 
-|  A 형태</nobr>|| 
-|  원</nobr>|| 
-|  제로</nobr>|| 
-|  팬 형태</nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> X 거리</nobr>| [1] (-10 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y 거리</nobr>| [1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전</nobr>| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 방향</nobr>| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 관객 편성 사용</nobr>| [ON] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 관객 거리</nobr>| [2] (0.25 ~ 5) | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 관객 회전</nobr>| [ON] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 오프셋 X</nobr>| [0] (-5 ~ 5) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y 오프셋</nobr>| [0] (-5 ~ 5) | 
-|  배우 재설정</nobr>|| 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 랜덤 소품 위치</nobr>| [ON] | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화),  |
+|  <b>편성</b>|| 
+|  V 형태|| 
+|  선|| 
+|  A 형태|| 
+|  원|| 
+|  제로|| 
+|  팬 형태|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> X 거리| [1] (-10 ~ 10) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y 거리| [1] (-2 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 방향| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 관객 편성 사용| [ON] | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 관객 거리| [2] (0.25 ~ 5) | 
+| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 관객 회전| [ON] | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 오프셋 X| [0] (-5 ~ 5) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y 오프셋| [0] (-5 ~ 5) | 
+|  배우 재설정|| 
+| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 랜덤 소품 위치| [ON] | 
+| <img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋| **기본값 (초기화)** | 기본값 (초기화),  |

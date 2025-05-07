@@ -14,5 +14,5 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조</nobr>| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_filter.png" alt="filter icon"/> 필터링</nobr>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 색조| [0] (0 ~ 1) | 
+| <img src="/images/icon/ic_filter.png" alt="filter icon"/> 필터링|| 

@@ -14,18 +14,18 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Ripple</nobr>| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Intensity</nobr>| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Body</nobr>| [1] (0.1 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Hands</nobr>| [0.5] (0.1 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Feet</nobr>| [0.5] (0.1 ~ 2) | 
-|  <b>Water Drop</b></nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Sweat Drops</nobr>| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Water Drop Glow</nobr>| [5] (0 ~ 20) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Water Drop Gravity</nobr>| [3] (0 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Drag</nobr>| [2.5] (0 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic</nobr>| [0.25] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha</nobr>| [0.25] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Size</nobr>| [0.003] (0 ~ 0.01) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Duration</nobr>| [5] (0 ~ 10) | 
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Sweat Collision</nobr>| [OFF] | 
+| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Ripple| [OFF] | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Intensity| [1] (0 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Body| [1] (0.1 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Hands| [0.5] (0.1 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Feet| [0.5] (0.1 ~ 2) | 
+|  <b>Water Drop</b>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Sweat Drops| [0] (0 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Water Drop Glow| [5] (0 ~ 20) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Water Drop Gravity| [3] (0 ~ 10) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Drag| [2.5] (0 ~ 10) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic| [0.25] (0 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha| [0.25] (0 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Size| [0.003] (0 ~ 0.01) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Duration| [5] (0 ~ 10) | 
+|  □ Sweat Collision| [OFF] | 

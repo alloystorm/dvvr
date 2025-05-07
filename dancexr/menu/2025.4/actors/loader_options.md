@@ -14,29 +14,29 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Cache Size</nobr>| [10] (0 ~ 20) | How many actor models to keep in cache
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Force Refresh Materials</nobr>| [OFF] | 
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Retain Options</nobr>| [OFF] | Automatically applies the settings from the outgoing actor to the incoming actor when replacing actors.
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Compress Textures</nobr>| [OFF] | Compress textures to reduce VRAM use
-|  <b>Transition Effect</b></nobr>|| 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Default (Reset)** | Default (Reset),  |
-| <img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Direction</nobr>| Down | Down, Up, <br/>The direction of the animation.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> V Shape</nobr>| [1] (0 ~ 5) | Controls the angle of the edge, 0 is flat.
-| <img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Transition Mode</nobr>| Cells | Cells, Mosaic, Noise, 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Scale</nobr>| [0] (-3 ~ 3) | Scale of the pattern.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Width</nobr>| [0.1] (0 ~ 1) | The size of the transition area.
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b></nobr>| | 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Color Mode</nobr>| RGB | RGB, HSV, 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue</nobr>| [0.1666667] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness</nobr>| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red</nobr>| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green</nobr>| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue</nobr>| [0] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Yellow** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow</nobr>| [1] (0 ~ 10) | Brightness of the burn effect.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend</nobr>| [1] (0 ~ 1) | Blend between the original color and the burn color. 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Duration</nobr>| [2] (0 ~ 5) | The duration of the animation.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Particle Effect</nobr>| [2] (0 ~ 10) | Controls the amount of particles.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Particle Duration</nobr>| [2.5] (0 ~ 5) | Controls the lifetime of the particles.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Auto Actor Change</nobr>| [0] (0 ~ 1) | Automatically switch between actors in the cache based on the value
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Cache Size| [10] (0 ~ 20) | How many actor models to keep in cache
+|  □ Force Refresh Materials| [OFF] | 
+|  □ Retain Options| [OFF] | Automatically applies the settings from the outgoing actor to the incoming actor when replacing actors.
+|  □ Compress Textures| [OFF] | Compress textures to reduce VRAM use
+|  <b>Transition Effect</b>|| 
+| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Default (Reset)** | Default (Reset),  |
+| ☑ Direction| Down | Down, Up, <br/>The direction of the animation.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> V Shape| [1] (0 ~ 5) | Controls the angle of the edge, 0 is flat.
+| ☑ Transition Mode| Cells | Cells, Mosaic, Noise, 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Scale| [0] (-3 ~ 3) | Scale of the pattern.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Width| [0.1] (0 ~ 1) | The size of the transition area.
+| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b>| | 
+| ├─ ☑ Color Mode| RGB | RGB, HSV, 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue| [0.1666667] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness| [0.9] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red| [0.9] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green| [0.9] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue| [0] (0 ~ 1) | 
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Yellow** | White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange, Preset 1,  |
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow| [1] (0 ~ 10) | Brightness of the burn effect.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend| [1] (0 ~ 1) | Blend between the original color and the burn color. 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Duration| [2] (0 ~ 5) | The duration of the animation.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Particle Effect| [2] (0 ~ 10) | Controls the amount of particles.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Particle Duration| [2.5] (0 ~ 5) | Controls the lifetime of the particles.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Auto Actor Change| [0] (0 ~ 1) | Automatically switch between actors in the cache based on the value

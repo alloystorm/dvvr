@@ -16,8 +16,8 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr> <b>主运动</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 播放模式</nobr>| **仅列出一次** | 仅列出一次, 单一, 循环列表, 循环单一, 随机播放,  |
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 自动加载演员</nobr>| [OFF] | 自动加载演员以匹配运动轨迹的数量，并为每个演员分配不同的运动
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 自动分配摄影机</nobr>| [OFF] | 如果可用，自动分配摄影机运动
+|<nobr> □ 自动加载演员</nobr>| [OFF] | 自动加载演员以匹配运动轨迹的数量，并为每个演员分配不同的运动
+|<nobr> □ 自动分配摄影机</nobr>| [OFF] | 如果可用，自动分配摄影机运动
 |<nobr> <b>混音运动</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 混音模式</nobr>| **同步** | 继续下一个, 同步, 循环, 随机下一个,  |
 |<nobr> <b>时间</b></nobr>|| 
@@ -37,9 +37,9 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Fade In Out)</nobr>| [0] (0 ~ 0.2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 频带选择</nobr>| [0] (0 ~ 1) | 选择计算响度水平的频带范围
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 缩放</nobr>| [0.25] (0.025 ~ 1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 使用唇同步</nobr>| [OFF] | 
+|<nobr> □ 使用唇同步</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 唇同步平滑</nobr>| [0.05] (0 ~ 0.1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 空间化</nobr>| [OFF] | 使用空间音频
+|<nobr> □ 空间化</nobr>| [OFF] | 使用空间音频
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 空间混合</nobr>| [0] (0 ~ 1) | 混合空间音频的3D效果
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 跟随演员</nobr>| [OFF] | 
+|<nobr> □ 跟随演员</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 选择角色</nobr>|  |  |

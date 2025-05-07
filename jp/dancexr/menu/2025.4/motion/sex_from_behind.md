@@ -14,28 +14,28 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> すべてに割り当て</nobr>|| 
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> 選択したものに割り当て</nobr>|| 
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> 2番目としてすべてに割り当て</nobr>|| 
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> 2番目として選択したものに割り当て</nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> オーディオ感度</nobr>| [1] (-2 ~ 4) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 距離</nobr>| [0.1] (0 ~ 0.2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 接触</nobr>| [-0.5] (-1 ~ 0) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 体のツイスト</nobr>| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 角度</nobr>| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 圧縮</nobr>| [0.5] (0 ~ 1) | 
-|  <b>アライメント</b></nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-0.2 ~ 0.2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0.05] (-0.5 ~ 0.5) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0.15] (-0.2 ~ 0.2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 下部</nobr>| [0.1] (0 ~ 0.8) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>スピード</b></nobr>| | 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> ビートあたりの動き</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グループあたりの動き</nobr>| [8] (4 ~ 32) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> フェーズ</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> カーブ</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可変速度</nobr>| [OFF] | 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> モード</nobr>| (Gradual) | (Gradual), ランダム, ボリューム, 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
-| └─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> モーションのオーバーライド</nobr>| [0] (-2 ~ 2) | 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> すべてに割り当て|| 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> 選択したものに割り当て|| 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> 2番目としてすべてに割り当て|| 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> 2番目として選択したものに割り当て|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> オーディオ感度| [1] (-2 ~ 4) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 距離| [0.1] (0 ~ 0.2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 接触| [-0.5] (-1 ~ 0) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 体のツイスト| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 角度| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 圧縮| [0.5] (0 ~ 1) | 
+|  <b>アライメント</b>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)| [0] (-0.2 ~ 0.2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)| [0.05] (-0.5 ~ 0.5) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)| [0.15] (-0.2 ~ 0.2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 下部| [0.1] (0 ~ 0.8) | 
+| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>スピード</b>| | 
+| ├─ ☑ ビートあたりの動き| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グループあたりの動き| [8] (4 ~ 32) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> フェーズ| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> カーブ| [0] (0 ~ 1) | 
+| ├─ □ 可変速度| [OFF] | 
+| ├─ ☑ モード| (Gradual) | (Gradual), ランダム, ボリューム, 
+| ├─ ☑ 最小速度| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
+| └─ ☑ 最大速度| (3/2) | (1), (3/2), (2), (3), (4), 
+|  □ モーションのオーバーライド| [0] (-2 ~ 2) | 

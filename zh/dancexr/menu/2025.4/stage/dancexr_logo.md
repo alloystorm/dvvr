@@ -24,7 +24,7 @@ sidebar:
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 剪切</nobr>| [0] (0 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>颜色</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 颜色模式</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 饱和度</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
@@ -34,8 +34,8 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 混合模式</nobr>| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
-|<nobr>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>卡通着色器</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 启用</nobr>| [OFF] | 
+|<nobr>├─ □ <b>卡通着色器</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 着色</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 轮廓</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 高光</nobr>| [0.25] (0 ~ 1) | 
@@ -61,7 +61,7 @@ sidebar:
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 剪切</nobr>| [0] (0 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>颜色</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 颜色模式</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 饱和度</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
@@ -71,8 +71,8 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 混合模式</nobr>| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **红色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
-|<nobr>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>卡通着色器</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 启用</nobr>| [OFF] | 
+|<nobr>├─ □ <b>卡通着色器</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 着色</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 轮廓</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 高光</nobr>| [0.25] (0 ~ 1) | 
@@ -99,7 +99,7 @@ sidebar:
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 剪切</nobr>| [0] (0 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>颜色</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 颜色模式</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr><img src="/images/icon/ic_line_v.png"/>├─ ☑ 颜色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 饱和度</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
@@ -109,8 +109,8 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 混合模式</nobr>| **混合** | 原始模型, (Multiply), 混合, (Color Shift),  |
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **白色** | 原始模型, 白色, 黑色, 红色, (Yellow), (Dark Gray), 蓝色, 皮肤, (Gray), (Orange),  |
-|<nobr>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>卡通着色器</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 启用</nobr>| [OFF] | 
+|<nobr>├─ □ <b>卡通着色器</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_v.png"/>├─ □ 启用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 着色</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 轮廓</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_v.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 高光</nobr>| [0.25] (0 ~ 1) | 

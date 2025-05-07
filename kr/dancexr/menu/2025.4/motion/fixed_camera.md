@@ -19,9 +19,9 @@ sidebar:
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 트래킹 모드</nobr>| **센터** | 센터, 머리, 가슴,  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 타겟 부드럽게 만들기</nobr>| [0.5] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 예측</nobr>| [1] (0 ~ 2) | 부드러움으로 인한 지연을 줄이기 위해 타겟의 위치를 예측
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 타겟 잠금</nobr>| [OFF] | 타겟에 자동으로 초점 맞추기
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 카메라 흔들림</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 회전 고정</nobr>| [OFF] | 카메라가 타겟의 회전을 따라감
+|<nobr> □ 타겟 잠금</nobr>| [OFF] | 타겟에 자동으로 초점 맞추기
+|<nobr> □ 카메라 흔들림</nobr>| [0.5] (0 ~ 1) | 
+|<nobr> □ 회전 고정</nobr>| [OFF] | 카메라가 타겟의 회전을 따라감
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 자동 줌</nobr>| [0] (0 ~ 1) | 타겟 크기를 유지하기 위해 자동으로 줌 인 및 아웃
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 줌 속도</nobr>| [0.5] (0 ~ 1) | 타겟 FOV로 줌하는 데 걸리는 시간
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 타겟의 FOV 높이</nobr>| [1] (0.2 ~ 2) | 자동 줌 사용 시 타겟의 수직 높이

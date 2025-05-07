@@ -15,13 +15,13 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 數據</nobr>| 節拍 | 節拍, 原始節拍, 原始開始, 
-|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 位置</nobr>| 舞台 | 攝影機, 舞台, 演員, 
+|<nobr>☑ 數據</nobr>| 節拍 | 節拍, 原始節拍, 原始開始, 
+|<nobr>☑ 位置</nobr>| 舞台 | 攝影機, 舞台, 演員, 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 半徑</nobr>| [1.2] (0.2 ~ 5) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 標記大小</nobr>| [0.02] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 線條寬度</nobr>| [0.01] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>線條顏色</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 顏色模式</nobr>| (HSV) | (RGB), (HSV), 
+|<nobr><img src="/images/icon/ic_line_t.png"/>☑ 顏色模式</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0.3333333] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 飽和度</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
@@ -31,7 +31,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 發光</nobr>| [1] (0 ~ 20) | 
 |<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **綠色** | 白色, 紅色, 綠色, 藍色, 動畫色相, 隨音樂發光,  |
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>標記顏色</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 顏色模式</nobr>| (HSV) | (RGB), (HSV), 
+|<nobr><img src="/images/icon/ic_line_t.png"/>☑ 顏色模式</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 飽和度</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 

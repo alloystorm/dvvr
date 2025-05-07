@@ -21,10 +21,10 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전 X</nobr>| [0] (-180 ~ 180) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전 Y</nobr>| [0] (-180 ~ 180) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 회전 Z</nobr>| [0] (-180 ~ 180) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 물리</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 정지</nobr>| [OFF] | 
+|<nobr> □ 물리</nobr>| [OFF] | 
+|<nobr> □ 정지</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 중력</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 형상</nobr>| 상자 | 구, 캡슐, 상자, 
+|<nobr>☑ 형상</nobr>| 상자 | 구, 캡슐, 상자, 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 질량</nobr>| [1] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 드래그</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 마찰</nobr>| [0.5] (0 ~ 1) | 

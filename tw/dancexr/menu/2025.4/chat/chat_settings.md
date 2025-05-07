@@ -26,8 +26,8 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 溫度</nobr>| [0.75] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 存在懲罰</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 頻率懲罰</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 為玩家生成</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 自動生成下一個</nobr>| [OFF] | 
+|<nobr> □ 為玩家生成</nobr>| [OFF] | 
+|<nobr> □ 自動生成下一個</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 自動生成延遲</nobr>| [15] (1 ~ 20) | 
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 使用字幕</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 描述服裝</nobr>| [OFF] | 
+|<nobr> □ 描述服裝</nobr>| [OFF] | 

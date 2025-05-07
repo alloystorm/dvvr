@@ -24,10 +24,10 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 時間比例</nobr>| [0.65] (0.1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 子步驟</nobr>| [4] (1 ~ 20) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 迭代次數</nobr>| [1] (0 ~ 10) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 反向偶數子步驟</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 反向偶數子步驟</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 替代組大小</nobr>| [0] (0 ~ 20) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 數據表大小</nobr>| [6] (1 ~ 20) | 
-|<nobr>└─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 兩步求解</nobr>| [OFF] | 
+|<nobr>└─ □ 兩步求解</nobr>| [OFF] | 
 |<nobr> <b>主要組</b></nobr>|| 
 |<nobr> 選擇骨骼</nobr>|| 
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 排序</nobr>| **最短路徑** | 最短路徑, 圓形, 線性, 不排序, <br/>設置在建立橫向連接時使用的排序方法。 |
@@ -40,7 +40,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少比率</nobr>| [0] (0 ~ 1) | 在每個層級減少質量
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向柔性</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向錨點</nobr>| [0] (0 ~ 0.5) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大角速度</nobr>| [2] (0 ~ 4) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 慣性</nobr>| [2] (1 ~ 5) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 軟化</nobr>| [0] (0 ~ 1) | 軟化粒子約束。
@@ -73,30 +73,30 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 質量分佈</nobr>| [0] (-1 ~ 1) | 在每個層級減少質量
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 摩擦</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 求解迭代次數</nobr>| [20] (1 ~ 150) | 解決碰撞時的迭代次數
-|<nobr>└─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
+|<nobr>└─ ☑ 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>父子關節</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 擺動驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 扭轉驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.01] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 錨點位置</nobr>| [0] (0 ~ 1) | 創建關節時選擇錨點位置。0 = 錨點在父骨骼，1 = 錨點在子骨骼
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>橫向關節</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 線性驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 角驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Y</nobr>| [OFF] | 
-|<nobr>└─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Z</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 鎖定 Y</nobr>| [OFF] | 
+|<nobr>└─ □ 鎖定 Z</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>碰撞體</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體半徑</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 碰撞體類型</nobr>| **盒子** | 盒子, 膠囊, 球體,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體長度</nobr>| [0.8] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (First Collider Length)</nobr>| [0.5] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 附加組</nobr>| [0] (0 ~ 7) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>(Group 2)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr> □ <b>(Group 2)</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 選擇骨骼</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 排序</nobr>| **最短路徑** | 最短路徑, 圓形, 線性, 不排序, <br/>設置在建立橫向連接時使用的排序方法。 |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 閉環</nobr>| [ON] | 每一層閉環的骨骼
@@ -108,7 +108,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少比率</nobr>| [0] (0 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向柔性</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向錨點</nobr>| [0] (0 ~ 0.5) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大角速度</nobr>| [2] (0 ~ 4) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 慣性</nobr>| [2] (1 ~ 5) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 軟化</nobr>| [0] (0 ~ 1) | 軟化粒子約束。
@@ -141,30 +141,30 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 質量分佈</nobr>| [0] (-1 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 摩擦</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 求解迭代次數</nobr>| [20] (1 ~ 150) | 解決碰撞時的迭代次數
-|<nobr>│ └─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
+|<nobr>│ └─ ☑ 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>父子關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 擺動驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 扭轉驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.01] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 錨點位置</nobr>| [0] (0 ~ 1) | 創建關節時選擇錨點位置。0 = 錨點在父骨骼，1 = 錨點在子骨骼
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>橫向關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 線性驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 角驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Y</nobr>| [OFF] | 
-|<nobr>│ └─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Z</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 鎖定 Y</nobr>| [OFF] | 
+|<nobr>│ └─ □ 鎖定 Z</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>碰撞體</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體半徑</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 碰撞體類型</nobr>| **盒子** | 盒子, 膠囊, 球體,  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體長度</nobr>| [0.8] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (First Collider Length)</nobr>| [0.5] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>└─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 使用主要組設置</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>(Group 3)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr> □ <b>(Group 3)</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 選擇骨骼</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 排序</nobr>| **最短路徑** | 最短路徑, 圓形, 線性, 不排序, <br/>設置在建立橫向連接時使用的排序方法。 |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 閉環</nobr>| [ON] | 每一層閉環的骨骼
@@ -176,7 +176,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少比率</nobr>| [0] (0 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向柔性</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向錨點</nobr>| [0] (0 ~ 0.5) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大角速度</nobr>| [2] (0 ~ 4) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 慣性</nobr>| [2] (1 ~ 5) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 軟化</nobr>| [0] (0 ~ 1) | 軟化粒子約束。
@@ -209,30 +209,30 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 質量分佈</nobr>| [0] (-1 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 摩擦</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 求解迭代次數</nobr>| [20] (1 ~ 150) | 解決碰撞時的迭代次數
-|<nobr>│ └─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
+|<nobr>│ └─ ☑ 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>父子關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 擺動驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 扭轉驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.01] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 錨點位置</nobr>| [0] (0 ~ 1) | 創建關節時選擇錨點位置。0 = 錨點在父骨骼，1 = 錨點在子骨骼
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>橫向關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 線性驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 角驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Y</nobr>| [OFF] | 
-|<nobr>│ └─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Z</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 鎖定 Y</nobr>| [OFF] | 
+|<nobr>│ └─ □ 鎖定 Z</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>碰撞體</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體半徑</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 碰撞體類型</nobr>| **盒子** | 盒子, 膠囊, 球體,  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體長度</nobr>| [0.8] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (First Collider Length)</nobr>| [0.5] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>└─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 使用主要組設置</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>(Group 4)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr> □ <b>(Group 4)</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 選擇骨骼</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 排序</nobr>| **最短路徑** | 最短路徑, 圓形, 線性, 不排序, <br/>設置在建立橫向連接時使用的排序方法。 |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 閉環</nobr>| [ON] | 每一層閉環的骨骼
@@ -244,7 +244,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少比率</nobr>| [0] (0 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向柔性</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向錨點</nobr>| [0] (0 ~ 0.5) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大角速度</nobr>| [2] (0 ~ 4) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 慣性</nobr>| [2] (1 ~ 5) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 軟化</nobr>| [0] (0 ~ 1) | 軟化粒子約束。
@@ -277,30 +277,30 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 質量分佈</nobr>| [0] (-1 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 摩擦</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 求解迭代次數</nobr>| [20] (1 ~ 150) | 解決碰撞時的迭代次數
-|<nobr>│ └─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
+|<nobr>│ └─ ☑ 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>父子關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 擺動驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 扭轉驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.01] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 錨點位置</nobr>| [0] (0 ~ 1) | 創建關節時選擇錨點位置。0 = 錨點在父骨骼，1 = 錨點在子骨骼
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>橫向關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 線性驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 角驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Y</nobr>| [OFF] | 
-|<nobr>│ └─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Z</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 鎖定 Y</nobr>| [OFF] | 
+|<nobr>│ └─ □ 鎖定 Z</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>碰撞體</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體半徑</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 碰撞體類型</nobr>| **盒子** | 盒子, 膠囊, 球體,  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體長度</nobr>| [0.8] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (First Collider Length)</nobr>| [0.5] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>└─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 使用主要組設置</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>(Group 5)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr> □ <b>(Group 5)</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 選擇骨骼</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 排序</nobr>| **最短路徑** | 最短路徑, 圓形, 線性, 不排序, <br/>設置在建立橫向連接時使用的排序方法。 |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 閉環</nobr>| [ON] | 每一層閉環的骨骼
@@ -312,7 +312,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少比率</nobr>| [0] (0 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向柔性</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向錨點</nobr>| [0] (0 ~ 0.5) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大角速度</nobr>| [2] (0 ~ 4) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 慣性</nobr>| [2] (1 ~ 5) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 軟化</nobr>| [0] (0 ~ 1) | 軟化粒子約束。
@@ -345,30 +345,30 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 質量分佈</nobr>| [0] (-1 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 摩擦</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 求解迭代次數</nobr>| [20] (1 ~ 150) | 解決碰撞時的迭代次數
-|<nobr>│ └─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
+|<nobr>│ └─ ☑ 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>父子關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 擺動驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 扭轉驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.01] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 錨點位置</nobr>| [0] (0 ~ 1) | 創建關節時選擇錨點位置。0 = 錨點在父骨骼，1 = 錨點在子骨骼
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>橫向關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 線性驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 角驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Y</nobr>| [OFF] | 
-|<nobr>│ └─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Z</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 鎖定 Y</nobr>| [OFF] | 
+|<nobr>│ └─ □ 鎖定 Z</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>碰撞體</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體半徑</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 碰撞體類型</nobr>| **盒子** | 盒子, 膠囊, 球體,  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體長度</nobr>| [0.8] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (First Collider Length)</nobr>| [0.5] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>└─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 使用主要組設置</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>(Group 6)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr> □ <b>(Group 6)</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 選擇骨骼</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 排序</nobr>| **最短路徑** | 最短路徑, 圓形, 線性, 不排序, <br/>設置在建立橫向連接時使用的排序方法。 |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 閉環</nobr>| [ON] | 每一層閉環的骨骼
@@ -380,7 +380,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少比率</nobr>| [0] (0 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向柔性</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向錨點</nobr>| [0] (0 ~ 0.5) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大角速度</nobr>| [2] (0 ~ 4) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 慣性</nobr>| [2] (1 ~ 5) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 軟化</nobr>| [0] (0 ~ 1) | 軟化粒子約束。
@@ -413,30 +413,30 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 質量分佈</nobr>| [0] (-1 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 摩擦</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 求解迭代次數</nobr>| [20] (1 ~ 150) | 解決碰撞時的迭代次數
-|<nobr>│ └─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
+|<nobr>│ └─ ☑ 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>父子關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 擺動驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 扭轉驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.01] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 錨點位置</nobr>| [0] (0 ~ 1) | 創建關節時選擇錨點位置。0 = 錨點在父骨骼，1 = 錨點在子骨骼
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>橫向關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 線性驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 角驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Y</nobr>| [OFF] | 
-|<nobr>│ └─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Z</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 鎖定 Y</nobr>| [OFF] | 
+|<nobr>│ └─ □ 鎖定 Z</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>碰撞體</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體半徑</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 碰撞體類型</nobr>| **盒子** | 盒子, 膠囊, 球體,  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體長度</nobr>| [0.8] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (First Collider Length)</nobr>| [0.5] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>└─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 使用主要組設置</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>(Group 7)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr> □ <b>(Group 7)</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 選擇骨骼</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 排序</nobr>| **最短路徑** | 最短路徑, 圓形, 線性, 不排序, <br/>設置在建立橫向連接時使用的排序方法。 |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 閉環</nobr>| [ON] | 每一層閉環的骨骼
@@ -448,7 +448,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少比率</nobr>| [0] (0 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向柔性</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向錨點</nobr>| [0] (0 ~ 0.5) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大角速度</nobr>| [2] (0 ~ 4) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 慣性</nobr>| [2] (1 ~ 5) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 軟化</nobr>| [0] (0 ~ 1) | 軟化粒子約束。
@@ -481,30 +481,30 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 質量分佈</nobr>| [0] (-1 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 摩擦</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 求解迭代次數</nobr>| [20] (1 ~ 150) | 解決碰撞時的迭代次數
-|<nobr>│ └─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
+|<nobr>│ └─ ☑ 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>父子關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 擺動驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 扭轉驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.01] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 錨點位置</nobr>| [0] (0 ~ 1) | 創建關節時選擇錨點位置。0 = 錨點在父骨骼，1 = 錨點在子骨骼
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>橫向關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 線性驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 角驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Y</nobr>| [OFF] | 
-|<nobr>│ └─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Z</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 鎖定 Y</nobr>| [OFF] | 
+|<nobr>│ └─ □ 鎖定 Z</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>碰撞體</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體半徑</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 碰撞體類型</nobr>| **盒子** | 盒子, 膠囊, 球體,  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體長度</nobr>| [0.8] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (First Collider Length)</nobr>| [0.5] (0 ~ 1) | 減少第一層骨骼的碰撞體長度以避免與身體碰撞體的幹擾。
 |<nobr>└─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 使用主要組設置</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>(Group 8)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr> □ <b>(Group 8)</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 選擇骨骼</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 排序</nobr>| **最短路徑** | 最短路徑, 圓形, 線性, 不排序, <br/>設置在建立橫向連接時使用的排序方法。 |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 閉環</nobr>| [ON] | 每一層閉環的骨骼
@@ -516,7 +516,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少比率</nobr>| [0] (0 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向柔性</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 橫向錨點</nobr>| [0] (0 ~ 0.5) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大角速度</nobr>| [2] (0 ~ 4) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 慣性</nobr>| [2] (1 ~ 5) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 軟化</nobr>| [0] (0 ~ 1) | 軟化粒子約束。
@@ -549,22 +549,22 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 質量分佈</nobr>| [0] (-1 ~ 1) | 在每個層級減少質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 摩擦</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 求解迭代次數</nobr>| [20] (1 ~ 150) | 解決碰撞時的迭代次數
-|<nobr>│ └─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
+|<nobr>│ └─ ☑ 質心</nobr>| 零 | 自動, 零, <br/>將質心設置為零或根據每個碰撞體的位置和大小自動設置
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>父子關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 擺動驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 扭轉驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.01] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 錨點位置</nobr>| [0] (0 ~ 1) | 創建關節時選擇錨點位置。0 = 錨點在父骨骼，1 = 錨點在子骨骼
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>橫向關節</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 線性驅動</nobr>| [5] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 角驅動</nobr>| [0] (0 ~ 10) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 驅動阻尼</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減少率</nobr>| [1] (0 ~ 1) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Y</nobr>| [OFF] | 
-|<nobr>│ └─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鎖定 Z</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 鎖定 Y</nobr>| [OFF] | 
+|<nobr>│ └─ □ 鎖定 Z</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>碰撞體</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體半徑</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 碰撞體類型</nobr>| **盒子** | 盒子, 膠囊, 球體,  |

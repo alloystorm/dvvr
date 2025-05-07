@@ -27,5 +27,5 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 곡선</nobr>| [0] (-1 ~ 1) | 모션 변경 시 사용되는 이지 커브
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 바닥 아래 방지</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 배우 방향 사용</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 가까이 있을 때 초점 올리기</nobr>| [OFF] | 거리 감소 시 초점 위치 위로 이동
+|<nobr> □ 가까이 있을 때 초점 올리기</nobr>| [OFF] | 거리 감소 시 초점 위치 위로 이동
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화), (Preset 1), (Preset 2), (Preset 3),  |

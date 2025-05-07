@@ -14,26 +14,26 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All</nobr>|| 
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected</nobr>|| 
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd</nobr>|| 
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd</nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Angle</nobr>| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Extent</nobr>| [0.65] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Motion Shift</nobr>| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Swing Angle</nobr>| [30] (0 ~ 45) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Lower</nobr>| [0.35] (0 ~ 0.8) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Speed</b></nobr>| | 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Moves Per Group</nobr>| [8] (4 ~ 32) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Phase</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Curve</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> Variable Speed</nobr>| [OFF] | 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Mode</nobr>| Gradual | Gradual, Random, Volume, 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Min Speed</nobr>| 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
-| └─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Max Speed</nobr>| 3/2 | 1, 3/2, 2, 3, 4, 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Sync</nobr>| [-0.25] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Audio Sensitivity</nobr>| [1] (-2 ~ 4) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Body Twist</nobr>| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Override</nobr>| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Override Motion</nobr>| [0] (0 ~ 1) | 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All|| 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected|| 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd|| 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Angle| [0] (-90 ~ 90) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Extent| [0.65] (0 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Motion Shift| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Swing Angle| [30] (0 ~ 45) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Lower| [0.35] (0 ~ 0.8) | 
+| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Speed</b>| | 
+| ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Moves Per Group| [8] (4 ~ 32) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Phase| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Curve| [0] (0 ~ 1) | 
+| ├─ □ Variable Speed| [OFF] | 
+| ├─ ☑ Mode| Gradual | Gradual, Random, Volume, 
+| ├─ ☑ Min Speed| 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
+| └─ ☑ Max Speed| 3/2 | 1, 3/2, 2, 3, 4, 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Sync| [-0.25] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Audio Sensitivity| [1] (-2 ~ 4) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Body Twist| [0] (-1 ~ 1) | 
+|  □ Override| [OFF] | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Override Motion| [0] (0 ~ 1) | 

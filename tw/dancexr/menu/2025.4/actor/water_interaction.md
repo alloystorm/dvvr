@@ -28,4 +28,4 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 透明度</nobr>| [0.25] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 大小</nobr>| [0.003] (0 ~ 0.01) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 持續時間</nobr>| [5] (0 ~ 10) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 汗水碰撞</nobr>| [OFF] | 
+|<nobr> □ 汗水碰撞</nobr>| [OFF] | 

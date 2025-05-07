@@ -14,14 +14,14 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_videocam.png" alt="videocam icon"/> Assign To Main</nobr>|| 
-| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Select Actor</nobr>|  |  |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Field of View</nobr>| [45] (30 ~ 100) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Near Clip Dist</nobr>| [0.15] (0 ~ 0.3) | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Control Actor Movement</nobr>| [ON] | 
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Control Hands in VR</nobr>| [ON] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Remove Roll</nobr>| [1] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Stablizer</nobr>| [5] (0 ~ 20) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Damping</nobr>| [0.1] (0 ~ 1) | 
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Disable Auto Return</nobr>| [OFF] | 
-|  Re-Center</nobr>|| 
+| <img src="/images/icon/ic_videocam.png" alt="videocam icon"/> Assign To Main|| 
+| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Select Actor|  |  |
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Field of View| [45] (30 ~ 100) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Near Clip Dist| [0.15] (0 ~ 0.3) | 
+| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Control Actor Movement| [ON] | 
+| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Control Hands in VR| [ON] | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Remove Roll| [1] (0 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Stablizer| [5] (0 ~ 20) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Damping| [0.1] (0 ~ 1) | 
+|  □ Disable Auto Return| [OFF] | 
+|  Re-Center|| 

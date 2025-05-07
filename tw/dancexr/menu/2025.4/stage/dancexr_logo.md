@@ -24,7 +24,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 剪裁</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>顏色</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/>☑ 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 飽和度</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
@@ -34,8 +34,8 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 混合模式</nobr>| **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **白色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>卡通著色器</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>卡通著色器</b></nobr>| | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 陰影</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 輪廓</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 光澤</nobr>| [0.25] (0 ~ 1) | 
@@ -61,7 +61,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 剪裁</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>顏色</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/>☑ 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 飽和度</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
@@ -71,8 +71,8 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 混合模式</nobr>| **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **紅色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>卡通著色器</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>卡通著色器</b></nobr>| | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 陰影</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 輪廓</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 光澤</nobr>| [0.25] (0 ~ 1) | 
@@ -99,7 +99,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 剪裁</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>顏色</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/>☑ 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 飽和度</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
@@ -109,8 +109,8 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 混合模式</nobr>| **混合** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **白色** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>卡通著色器</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>卡通著色器</b></nobr>| | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 陰影</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 輪廓</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 光澤</nobr>| [0.25] (0 ~ 1) | 

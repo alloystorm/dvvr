@@ -33,5 +33,5 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 大腿前/后</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 大腿起始位置</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 手</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可视化</nobr>| [OFF] | 
+|<nobr> □ 可视化</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (amy), (misaki),  |

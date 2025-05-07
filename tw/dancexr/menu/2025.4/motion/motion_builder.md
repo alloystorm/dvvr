@@ -33,22 +33,22 @@ sidebar:
 |<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 範圍</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>速度</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
+|<nobr><img src="/images/icon/ic_line_t.png"/>☑ 每拍動作數</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 每組動作數</nobr>| [8] (4 ~ 32) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 相位</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 曲線</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 變量速度</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 模式</nobr>| (Gradual) | (Gradual), 隨機, 音量, 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
-|<nobr>└─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 變量速度</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/>☑ 模式</nobr>| (Gradual) | (Gradual), 隨機, 音量, 
+|<nobr><img src="/images/icon/ic_line_t.png"/>☑ 最小速度</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
+|<nobr>└─ ☑ 最大速度</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>腿部</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Dist)</nobr>| [0.1] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Level)</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Stride)</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Forward)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 打開</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>(Transit Between Presets)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr> □ <b>(Transit Between Presets)</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> (Transit Between Presets: 0 / 1)</nobr>|| 
-|<nobr>│ └─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 預設 (重置)</nobr>| [OFF] | 
-|<nobr>└─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 隨機</nobr>| [OFF] | 
+|<nobr>│ └─ □ 預設 (重置)</nobr>| [OFF] | 
+|<nobr>└─ □ 隨機</nobr>| [OFF] | 

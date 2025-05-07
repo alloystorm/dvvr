@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 루프</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 음소거</nobr>| [OFF] | 
+|<nobr> □ 루프</nobr>| [OFF] | 
+|<nobr> □ 음소거</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 시간 오프셋</nobr>| [0] ((Unlimited)) | 
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 종횡비</nobr>| **(16:9)** | (1:1), (4:3), (14:9), (16:10), (16:9), (1.85:1), (2:1), (2.35:1), (2.39:1), (2.4:1),  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 오프셋</nobr>| [0] ((Unlimited)) | 

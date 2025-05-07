@@ -14,9 +14,9 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Enable</nobr>| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Intensity</nobr>| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Speed</nobr>| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Motion Pattern</nobr>| [1] (-1 ~ 1) | Choose horizontal, vertial or both (set to 0) motion
-| <img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Time Pattern</nobr>| Pulse | Constant, Pulse, Gradual, 
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Abs Mode</nobr>| [OFF] | Bounce back at neutral position
+|  □ Enable| [OFF] | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Intensity| [1] (0 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Speed| [0] (-2 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Motion Pattern| [1] (-1 ~ 1) | Choose horizontal, vertial or both (set to 0) motion
+| ☑ Time Pattern| Pulse | Constant, Pulse, Gradual, 
+|  □ Abs Mode| [OFF] | Bounce back at neutral position

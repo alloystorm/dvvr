@@ -16,8 +16,8 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr> <b>프라임 모션</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 재생 모드</nobr>| **한 번 리스트** | 한 번 리스트, 싱글, 루프 리스트, 루프 싱글, 셔플,  |
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 배우 자동 로드</nobr>| [OFF] | 모션 트랙 수에 맞추어 배우를 자동으로 로드하고 각 배우마다 다른 모션을 할당합니다.
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 카메라 자동 할당</nobr>| [OFF] | 사용 가능한 경우 카메라 모션을 자동으로 할당합니다.
+|<nobr> □ 배우 자동 로드</nobr>| [OFF] | 모션 트랙 수에 맞추어 배우를 자동으로 로드하고 각 배우마다 다른 모션을 할당합니다.
+|<nobr> □ 카메라 자동 할당</nobr>| [OFF] | 사용 가능한 경우 카메라 모션을 자동으로 할당합니다.
 |<nobr> <b>리믹스 모션</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 리믹스 모드</nobr>| **동기화됨** | 다음 계속, 동기화됨, 루프, 셔플 다음,  |
 |<nobr> <b>시간</b></nobr>|| 
@@ -37,9 +37,9 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Fade In Out)</nobr>| [0] (0 ~ 0.2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 밴드 선택</nobr>| [0] (0 ~ 1) | 음량 레벨을 계산할 밴드 범위를 선택합니다.
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 스케일</nobr>| [0.25] (0.025 ~ 1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 입 모양 동기 사용</nobr>| [OFF] | 
+|<nobr> □ 입 모양 동기 사용</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 립 싱크 스무딩</nobr>| [0.05] (0 ~ 0.1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 공간화</nobr>| [OFF] | 공간 오디오 사용
+|<nobr> □ 공간화</nobr>| [OFF] | 공간 오디오 사용
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 공간 블렌드</nobr>| [0] (0 ~ 1) | 공간 오디오의 3D 효과 혼합
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 팔로우 액터</nobr>| [OFF] | 
+|<nobr> □ 팔로우 액터</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 배우 선택</nobr>|  |  |

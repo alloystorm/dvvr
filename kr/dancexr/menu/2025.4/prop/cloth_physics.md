@@ -23,7 +23,7 @@ sidebar:
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 트위스트 순응도</nobr>| [0.75] (0 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 입자 앵커</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 감소 비율</nobr>| [0] (0 ~ 1) | 각 레벨에서 질량 감소
-|<nobr>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 시각화</nobr>| [OFF] | 
+|<nobr>├─ □ 시각화</nobr>| [OFF] | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 최대 각속도</nobr>| [2] (0 ~ 4) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 관성</nobr>| [2] (1 ~ 5) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 부드럽게 만들기</nobr>| [0] (0 ~ 1) | 입자 제약을 부드럽게 만듭니다.
@@ -57,10 +57,10 @@ sidebar:
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 시간 스케일</nobr>| [0.65] (0.1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 서브스텝</nobr>| [4] (1 ~ 20) | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 반복</nobr>| [1] (0 ~ 10) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 짝수 서브스텝 역전</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 짝수 서브스텝 역전</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 대체 그룹 크기</nobr>| [0] (0 ~ 20) | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 테이블 크기</nobr>| [6] (1 ~ 20) | 
-|<nobr><img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 2단계 해결</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_space.png"/>└─ □ 2단계 해결</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 스프링</nobr>| [0.5] (0 ~ 5) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 감쇠</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 감소 비율</nobr>| [0.25] (0 ~ 1) | 각 레벨에서 강성 감소

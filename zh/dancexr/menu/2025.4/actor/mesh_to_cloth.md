@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 合并为一个</nobr>| [OFF] | 
+|<nobr> □ 合并为一个</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 逐渐启用</nobr>| [2] (0 ~ 5) | 
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>粒子属性</b></nobr>| | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 粒子半径</nobr>| [5] (1 ~ 20) | 粒子大小（以毫米为单位）
@@ -43,13 +43,13 @@ sidebar:
 |<nobr>├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 启用弯曲约束</nobr>| [ON] | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 弯曲顺应性</nobr>| [0] (0 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 缩放</nobr>| [1] (0 ~ 2) | 
-|<nobr>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 自我碰撞</nobr>| [OFF] | 
+|<nobr>├─ □ 自我碰撞</nobr>| [OFF] | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓地质量</nobr>| [2] (0 ~ 4) | 抓地粒子的质量
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓地摩擦</nobr>| [2] (-2 ~ 4) | 抓地粒子的摩擦
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓地粘性</nobr>| [0.25] (0 ~ 1) | 抓地粒子的粘性
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓地拖拽</nobr>| [0] (-2 ~ 2) | 抓地粒子的空气阻力
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓地比例</nobr>| [1] (0 ~ 2) | 
-|<nobr>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 启用撕裂</nobr>| [OFF] | 
+|<nobr>├─ □ 启用撕裂</nobr>| [OFF] | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 撕裂阈值</nobr>| [2] (1 ~ 10) | 
 |<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 限制撕裂速度</nobr>| [0] (0 ~ 25) | 撕裂后的冷却间隔（以帧为单位）
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>模拟设置</b></nobr>| | 
@@ -61,7 +61,7 @@ sidebar:
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 时间比例</nobr>| [0.65] (0.1 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 子步</nobr>| [4] (1 ~ 20) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 迭代</nobr>| [1] (0 ~ 10) | 
-|<nobr>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 反向偶数子步</nobr>| [OFF] | 
+|<nobr>├─ □ 反向偶数子步</nobr>| [OFF] | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 备用组大小</nobr>| [0] (0 ~ 20) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 表格大小</nobr>| [6] (1 ~ 20) | 
-|<nobr>└─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 两步求解</nobr>| [OFF] | 
+|<nobr>└─ □ 两步求解</nobr>| [OFF] | 

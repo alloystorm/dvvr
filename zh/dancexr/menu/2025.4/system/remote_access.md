@@ -14,6 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 启用</nobr>| [OFF] | 
+|<nobr> □ 启用</nobr>| [OFF] | 
 |<nobr> 端口号</nobr>|| 
 |<nobr> 密码</nobr>|| 

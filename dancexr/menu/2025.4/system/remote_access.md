@@ -14,6 +14,6 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Enable</nobr>| [OFF] | 
-|  Port Number</nobr>|| 
-|  Password</nobr>|| 
+|  □ Enable| [OFF] | 
+|  Port Number|| 
+|  Password|| 

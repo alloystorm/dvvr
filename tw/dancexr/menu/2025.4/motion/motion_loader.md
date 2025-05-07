@@ -16,8 +16,8 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr> <b>主運動</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 播放模式</nobr>| **列表一次** | 列表一次, 單曲, 循環列表, 循環單曲, 隨機播放,  |
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 自動加載演員</nobr>| [OFF] | 自動加載演員以匹配運動軌道的數量，並為每位演員分配不同的運動
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 自動分配攝影機</nobr>| [OFF] | 如果可用，自動分配攝影機運動
+|<nobr> □ 自動加載演員</nobr>| [OFF] | 自動加載演員以匹配運動軌道的數量，並為每位演員分配不同的運動
+|<nobr> □ 自動分配攝影機</nobr>| [OFF] | 如果可用，自動分配攝影機運動
 |<nobr> <b>重混運動</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 重混模式</nobr>| **同步** | 繼續下一步, 同步, 循環播放, 隨機播放下一步,  |
 |<nobr> <b>時間</b></nobr>|| 
@@ -37,9 +37,9 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> (Fade In Out)</nobr>| [0] (0 ~ 0.2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 頻帶選擇</nobr>| [0] (0 ~ 1) | 選擇計算音量級別的頻帶範圍
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 縮放</nobr>| [0.25] (0.025 ~ 1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 使用口型同步</nobr>| [OFF] | 
+|<nobr> □ 使用口型同步</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 嘴型同步平滑</nobr>| [0.05] (0 ~ 0.1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 空間化</nobr>| [OFF] | 使用空間音頻
+|<nobr> □ 空間化</nobr>| [OFF] | 使用空間音頻
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 空間混合</nobr>| [0] (0 ~ 1) | 混合空間音頻的3D效果
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 跟隨演員</nobr>| [OFF] | 
+|<nobr> □ 跟隨演員</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 選擇演員</nobr>|  |  |

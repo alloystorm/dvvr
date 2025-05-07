@@ -23,7 +23,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 扭转柔顺性</nobr>| [0.75] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 粒子锚点</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 减少比例</nobr>| [0] (0 ~ 1) | 在每个层级上减少质量
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可视化</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 可视化</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大角速度</nobr>| [2] (0 ~ 4) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 惯性</nobr>| [2] (1 ~ 5) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 软化</nobr>| [0] (0 ~ 1) | 软化粒子约束。
@@ -57,10 +57,10 @@ sidebar:
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 时间比例</nobr>| [0.65] (0.1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 子步</nobr>| [4] (1 ~ 20) | 
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 迭代</nobr>| [1] (0 ~ 10) | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 反向偶数子步</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> □ 反向偶数子步</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 备用组大小</nobr>| [0] (0 ~ 20) | 
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 表格大小</nobr>| [6] (1 ~ 20) | 
-|<nobr><img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 两步求解</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_space.png"/>└─ □ 两步求解</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 弹簧</nobr>| [0.5] (0 ~ 5) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 阻尼</nobr>| [0.01] (0 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 减少比例</nobr>| [0.25] (0 ~ 1) | 每个层级减少刚度

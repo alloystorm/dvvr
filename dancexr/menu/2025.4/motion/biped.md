@@ -14,23 +14,23 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All</nobr>|| 
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected</nobr>|| 
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd</nobr>|| 
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd</nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Extent</nobr>| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Speed</b></nobr>| | 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Moves Per Beat</nobr>| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Moves Per Group</nobr>| [8] (4 ~ 32) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Phase</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Curve</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> Variable Speed</nobr>| [OFF] | 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Mode</nobr>| Gradual | Gradual, Random, Volume, 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Min Speed</nobr>| 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
-| └─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Max Speed</nobr>| 3/2 | 1, 3/2, 2, 3, 4, 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Smooth</nobr>| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Swing</nobr>| [15] (0 ~ 45) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Twist</nobr>| [15] (0 ~ 45) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Torso Bend</nobr>| [10] (0 ~ 30) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Torso Swing</nobr>| [0.2] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Torso Twist</nobr>| [0.5] (-1 ~ 1) | 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All|| 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected|| 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd|| 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Extent| [0.5] (0 ~ 1) | 
+| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Speed</b>| | 
+| ├─ ☑ Moves Per Beat| 1 | 1/4, 1/3, 1/2, 2/3, 1, 4/3, 3/2, 2, 3, 4, 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Moves Per Group| [8] (4 ~ 32) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Phase| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Curve| [0] (0 ~ 1) | 
+| ├─ □ Variable Speed| [OFF] | 
+| ├─ ☑ Mode| Gradual | Gradual, Random, Volume, 
+| ├─ ☑ Min Speed| 1/2 | 1/4, 1/3, 1/2, 2/3, 1, 
+| └─ ☑ Max Speed| 3/2 | 1, 3/2, 2, 3, 4, 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Smooth| [0] (0 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Swing| [15] (0 ~ 45) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Twist| [15] (0 ~ 45) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Torso Bend| [10] (0 ~ 30) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Torso Swing| [0.2] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Torso Twist| [0.5] (-1 ~ 1) | 

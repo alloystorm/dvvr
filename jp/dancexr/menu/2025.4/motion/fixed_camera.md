@@ -14,25 +14,25 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_videocam.png" alt="videocam icon"/> メインに割り当て</nobr>|| 
-| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> ターゲット選択</nobr>| **自動** | 自動, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |
-| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> トラッキングモード</nobr>| **センター** | センター, 頭, 胸,  |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ターゲットスムージング</nobr>| [0.5] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 予測</nobr>| [1] (0 ~ 2) | スムージングによる遅延を減少させるため、ターゲットの位置を予測
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> ターゲットにロックオン</nobr>| [OFF] | 自動的にターゲットに焦点を合わせる
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> カメラの揺れ</nobr>| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> 回転固定</nobr>| [OFF] | カメラがターゲットの回転に従う
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 自動ズーム</nobr>| [0] (0 ~ 1) | ターゲットサイズを見える範囲に保つために自動でズームイン・アウト
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ズーム速度</nobr>| [0.5] (0 ~ 1) | ターゲットFOVにズームするのにかかる時間
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ターゲット時のFOVの高さ</nobr>| [1] (0.2 ~ 2) | 自動ズーム時のターゲットの縦の高さ
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 縦オフセット</nobr>| [0] (-1 ~ 1) | 縦にオフセット
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> FOV</nobr>| [10] (5 ~ 120) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ビートサイクル</nobr>| [8] (1 ~ 16) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> サイズ</nobr>| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> シフト</nobr>| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ターゲットセンター</nobr>| [0] (-1 ~ 1) | 
-|  <b>オフセット</b></nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-2 ~ 2) | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **遠方** | 近く, 遠方,  |
+| <img src="/images/icon/ic_videocam.png" alt="videocam icon"/> メインに割り当て|| 
+| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> ターゲット選択| **自動** | 自動, 選択されました, グループ, 回転, 回転 + グループ, ステージセンター,  |
+| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> トラッキングモード| **センター** | センター, 頭, 胸,  |
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ターゲットスムージング| [0.5] (0 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 予測| [1] (0 ~ 2) | スムージングによる遅延を減少させるため、ターゲットの位置を予測
+|  □ ターゲットにロックオン| [OFF] | 自動的にターゲットに焦点を合わせる
+|  □ カメラの揺れ| [0.5] (0 ~ 1) | 
+|  □ 回転固定| [OFF] | カメラがターゲットの回転に従う
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 自動ズーム| [0] (0 ~ 1) | ターゲットサイズを見える範囲に保つために自動でズームイン・アウト
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ズーム速度| [0.5] (0 ~ 1) | ターゲットFOVにズームするのにかかる時間
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ターゲット時のFOVの高さ| [1] (0.2 ~ 2) | 自動ズーム時のターゲットの縦の高さ
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 縦オフセット| [0] (-1 ~ 1) | 縦にオフセット
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> FOV| [10] (5 ~ 120) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ビートサイクル| [8] (1 ~ 16) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> サイズ| [1] (0 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> シフト| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ターゲットセンター| [0] (-1 ~ 1) | 
+|  <b>オフセット</b>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)| [0] (-2 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)| [0] (-2 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)| [0] (-2 ~ 2) | 
+| <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **遠方** | 近く, 遠方,  |

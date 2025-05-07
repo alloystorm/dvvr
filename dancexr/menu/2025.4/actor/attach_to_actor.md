@@ -16,17 +16,17 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Enable</nobr>| [OFF] | 
-|  Select Source Bones</nobr>|| Select bone to attach
-| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Select Actor</nobr>|  |  |
-|  Select Target Bones</nobr>|| Select target bone to attach to
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Ignore Rotation</nobr>| [OFF] | Ignore rotation of attach bone
-|  <b>Offset</b></nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> X</nobr>| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y</nobr>| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Z</nobr>| [0] (-1 ~ 1) | 
-|  <b>Rotation</b></nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> X</nobr>| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y</nobr>| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Z</nobr>| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Scale</nobr>| [0] (-4 ~ 4) | 
+|  □ Enable| [OFF] | 
+|  Select Source Bones|| Select bone to attach
+| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Select Actor|  |  |
+|  Select Target Bones|| Select target bone to attach to
+|  □ Ignore Rotation| [OFF] | Ignore rotation of attach bone
+|  <b>Offset</b>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-1 ~ 1) | 
+|  <b>Rotation</b>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> X| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Y| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Z| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Scale| [0] (-4 ~ 4) | 

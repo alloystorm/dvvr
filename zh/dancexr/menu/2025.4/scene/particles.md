@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 粒子</nobr>| [OFF] | 
+|<nobr> □ 粒子</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 生成率</nobr>| [1] (0 ~ 2) | 粒子密度
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 生命</nobr>| [1] (0 ~ 10) | 每个粒子的持续时间
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 大小</nobr>| [0.005] (0 ~ 0.2) | 粒子的大小
@@ -30,12 +30,12 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 弹跳</nobr>| [0.1] (0 ~ 1) | 粒子与地面或物体碰撞时反弹的高度
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 旋转</nobr>| [1] (0 ~ 5) | 
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 碰撞</nobr>| [ON] | 启用与物体的碰撞
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 从顶部生成</nobr>| [OFF] | 粒子从顶部或生成区域内生成
+|<nobr> □ 从顶部生成</nobr>| [OFF] | 粒子从顶部或生成区域内生成
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 高度</nobr>| [4] (1 ~ 8) | 生成区域的高度
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 保持在地面上</nobr>| [0.5] (0 ~ 1) | 粒子落到地面后停留多久。设置为0将立即消失
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 雨声效果</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>雨水着色器</b></nobr>| | 
-|<nobr>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 启用</nobr>| [OFF] | 
+|<nobr> □ <b>雨水着色器</b></nobr>| | 
+|<nobr>├─ □ 启用</nobr>| [OFF] | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 强度</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴持续时间</nobr>| [5] (0 ~ 20) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 液滴大小</nobr>| [1] (0 ~ 1) | 

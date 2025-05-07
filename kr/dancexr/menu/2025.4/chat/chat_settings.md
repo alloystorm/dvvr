@@ -26,8 +26,8 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 온도</nobr>| [0.75] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 존재 패널티</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 빈도 패널티</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 플레이어용 생성</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 자동 다음 생성</nobr>| [OFF] | 
+|<nobr> □ 플레이어용 생성</nobr>| [OFF] | 
+|<nobr> □ 자동 다음 생성</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 자동 생성 지연</nobr>| [15] (1 ~ 20) | 
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 자막 사용</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 복장 설명</nobr>| [OFF] | 
+|<nobr> □ 복장 설명</nobr>| [OFF] | 

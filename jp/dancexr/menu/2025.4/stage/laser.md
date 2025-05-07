@@ -14,55 +14,55 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> 有効にする</nobr>| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 数</nobr>| [16] (1 ~ 32) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 幅</nobr>| [8] (0 ~ 50) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 湾曲</nobr>| [-1] (-2 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 回転</nobr>| [0] (-90 ~ 90) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 距離</nobr>| [0] (-10 ~ 10) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 方向</nobr>| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 高さ</nobr>| [0] (0 ~ 8) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 角度</nobr>| [45] (0 ~ 90) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>色</b></nobr>| | 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> カラーモード</nobr>| (HSV) | (RGB), (HSV), 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー</nobr>| [1] (0 ~ 20) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ベースレベル</nobr>| [-1] (-3 ~ 3) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> エッジレベル</nobr>| [2] (0 ~ 5) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ヒットレベル</nobr>| [2] (0 ~ 5) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **アニメーション色相** | 白, 赤, 緑, 青, アニメーション色相, 音楽による光,  |
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>モーション</b></nobr>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グループあたりの動き</nobr>| [1] (1 ~ 32) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スピード</nobr>| [0] (-3 ~ 3) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> トランジション</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 範囲</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>ダンピング</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> オリエンテーション</nobr>| [0.5] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水平</nobr>| [0.5] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 垂直</nobr>| [0.1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> モード</nobr>| **ランダム** | ランダム, ランダムプリセット, 手動,  |
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>モーション X</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> オーバーライド</nobr>| [0] (-1 ~ 1) | この値で生成された動きをオーバーライド
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スピード倍率</nobr>| [-1] (-3 ~ 3) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> フェーズ</nobr>| [0.25] (0 ~ 1) | サイクル内の開始位置
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> カーブ</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 方向</nobr>| [1] (-1 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール</nobr>| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> センター</nobr>| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>モーション Z</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> オーバーライド</nobr>| [0] (-1 ~ 1) | この値で生成された動きをオーバーライド
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スピード倍率</nobr>| [-1] (-3 ~ 3) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> フェーズ</nobr>| [0.25] (0 ~ 1) | サイクル内の開始位置
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> カーブ</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 方向</nobr>| [1] (-1 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール</nobr>| [0] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> センター</nobr>| [0] (-1 ~ 1) | 
-| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> オーディオ使用</nobr>| [2] (0 ~ 4) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シード</nobr>| [1234] ((Unlimited)) | ランダム化されたパターンシーケンスの制御
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **デフォルト（リセット）** | デフォルト（リセット）,  |
-| <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **オフ** | オフ, ライン, 半円, ポイント, 音楽による光, (Preset 1),  |
+|  □ 有効にする| [OFF] | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 数| [16] (1 ~ 32) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 幅| [8] (0 ~ 50) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 湾曲| [-1] (-2 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 回転| [0] (-90 ~ 90) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 距離| [0] (-10 ~ 10) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 方向| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 高さ| [0] (0 ~ 8) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 角度| [45] (0 ~ 90) | 
+| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>色</b>| | 
+| ├─ ☑ カラーモード| (HSV) | (RGB), (HSV), 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー| [1] (0 ~ 20) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ベースレベル| [-1] (-3 ~ 3) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> エッジレベル| [2] (0 ~ 5) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ヒットレベル| [2] (0 ~ 5) | 
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **アニメーション色相** | 白, 赤, 緑, 青, アニメーション色相, 音楽による光,  |
+| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>モーション</b>| | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グループあたりの動き| [1] (1 ~ 32) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スピード| [0] (-3 ~ 3) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> トランジション| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 範囲| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>ダンピング</b>| | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> オリエンテーション| [0.5] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 水平| [0.5] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 垂直| [0.1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> モード| **ランダム** | ランダム, ランダムプリセット, 手動,  |
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>モーション X</b>| | 
+| │ ├─ □ オーバーライド| [0] (-1 ~ 1) | この値で生成された動きをオーバーライド
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スピード倍率| [-1] (-3 ~ 3) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> フェーズ| [0.25] (0 ~ 1) | サイクル内の開始位置
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> カーブ| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 方向| [1] (-1 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール| [1] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> センター| [0] (-1 ~ 1) | 
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>モーション Z</b>| | 
+| │ ├─ □ オーバーライド| [0] (-1 ~ 1) | この値で生成された動きをオーバーライド
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スピード倍率| [-1] (-3 ~ 3) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> フェーズ| [0.25] (0 ~ 1) | サイクル内の開始位置
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> カーブ| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 方向| [1] (-1 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール| [0] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> センター| [0] (-1 ~ 1) | 
+| ├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> オーディオ使用| [2] (0 ~ 4) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シード| [1234] ((Unlimited)) | ランダム化されたパターンシーケンスの制御
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **デフォルト（リセット）** | デフォルト（リセット）,  |
+| <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **オフ** | オフ, ライン, 半円, ポイント, 音楽による光, (Preset 1),  |

@@ -19,6 +19,6 @@ sidebar:
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 중력</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 질량</nobr>| [0.1] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 감쇠</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 충돌체</nobr>| 구 | 없음, 구, 캡슐, 
+|<nobr>☑ 충돌체</nobr>| 구 | 없음, 구, 캡슐, 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 콜라이더 반지름</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 콜라이더 길이</nobr>| [0.3] (0 ~ 2) | 

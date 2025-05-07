@@ -14,12 +14,12 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|  <b>位置</b></nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] ((Unlimited)) | 
-|  <b>回転</b></nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] ((Unlimited)) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール</nobr>| [1] (0.2 ~ 2) | 
+|  <b>位置</b>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)| [0] ((Unlimited)) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)| [0] ((Unlimited)) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)| [0] ((Unlimited)) | 
+|  <b>回転</b>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)| [0] ((Unlimited)) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)| [0] ((Unlimited)) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)| [0] ((Unlimited)) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール| [1] (0.2 ~ 2) | 

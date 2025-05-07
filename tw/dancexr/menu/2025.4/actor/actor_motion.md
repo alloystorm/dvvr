@@ -16,10 +16,10 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 動作比例</nobr>| [1] (0.2 ~ 2) | 縮放位置偏移。
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 垂直位置比例</nobr>| [1] (0 ~ 1) | 減少中心骨骼的垂直運動。
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 鏡像（僅限 VMD）</nobr>| [OFF] | 左右動作鏡像。
+|<nobr> □ 鏡像（僅限 VMD）</nobr>| [OFF] | 左右動作鏡像。
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 時間偏移百分比</nobr>| [0] (0 ~ 100) | 應用動作時對演員施加的時間偏移百分比。
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 時間偏移秒數</nobr>| [0] (-5 ~ 5) | 應用動作時對演員施加的時間偏移秒數。
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 觀眾</nobr>| [OFF] | 將演員設置為旁觀者。
+|<nobr> □ 觀眾</nobr>| [OFF] | 將演員設置為旁觀者。
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 腿部角度</nobr>| [0] (-15 ~ 15) | 
 |<nobr> <b>姿勢調整</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>中心位置</b></nobr>| | 

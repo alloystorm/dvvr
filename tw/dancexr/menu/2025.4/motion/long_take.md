@@ -27,5 +27,5 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 曲線</nobr>| [0] (-1 ~ 1) | 變更運動時使用的緩和曲線
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 防止低於地面</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 使用演員方向</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 靠近時抬高焦點</nobr>| [OFF] | 當距離變小時，上移焦點位置
+|<nobr> □ 靠近時抬高焦點</nobr>| [OFF] | 當距離變小時，上移焦點位置
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置), (Preset 1), (Preset 2), (Preset 3),  |

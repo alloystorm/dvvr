@@ -33,22 +33,22 @@ sidebar:
 |<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 프리셋</nobr>| **기본값 (초기화)** | 기본값 (초기화),  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 범위</nobr>| [0.5] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>속도</b></nobr>| | 
-|<nobr>├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
+|<nobr>├─ ☑ 비트당 움직임</nobr>| (1) | (1/4), (1/3), (1/2), (2/3), (1), (4/3), (3/2), (2), (3), (4), 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 그룹당 움직임</nobr>| [8] (4 ~ 32) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 주기</nobr>| [0] (0 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 곡선</nobr>| [0] (0 ~ 1) | 
-|<nobr>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 변동 속도</nobr>| [OFF] | 
-|<nobr>├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 모드</nobr>| (Gradual) | (Gradual), 무작위, 볼륨, 
-|<nobr>├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 최소 속도</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
-|<nobr>└─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 최대 속도</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
+|<nobr>├─ □ 변동 속도</nobr>| [OFF] | 
+|<nobr>├─ ☑ 모드</nobr>| (Gradual) | (Gradual), 무작위, 볼륨, 
+|<nobr>├─ ☑ 최소 속도</nobr>| (1/2) | (1/4), (1/3), (1/2), (2/3), (1), 
+|<nobr>└─ ☑ 최대 속도</nobr>| (3/2) | (1), (3/2), (2), (3), (4), 
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>다리</b></nobr>| | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Dist)</nobr>| [0.1] (-1 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Level)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Stride)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> (Forward)</nobr>| [0] (-1 ~ 1) | 
 |<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 열기</nobr>| [0] (-1 ~ 1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>(Transit Between Presets)</b></nobr>| | 
-|<nobr>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 활성화</nobr>| [OFF] | 
+|<nobr> □ <b>(Transit Between Presets)</b></nobr>| | 
+|<nobr>├─ □ 활성화</nobr>| [OFF] | 
 |<nobr>├─ (Transit Between Presets: 0 / 1)</nobr>|| 
-|<nobr>│ └─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 기본값 (초기화)</nobr>| [OFF] | 
-|<nobr>└─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 무작위</nobr>| [OFF] | 
+|<nobr>│ └─ □ 기본값 (초기화)</nobr>| [OFF] | 
+|<nobr>└─ □ 무작위</nobr>| [OFF] | 

@@ -15,9 +15,9 @@ sidebar:
 | Setting | Value | Description |
 | :--- | --- | :--- |
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>選項</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 觸控板模式</nobr>| [OFF] | 只有在相關按鈕被按下時才輸出軸值
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 使用輔助軸</nobr>| [OFF] | 如果可用，從 VR 控制器讀取輔助軸輸入，例如 WMR 控制器有拇指桿和觸控板
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 使用遊戲手把</nobr>| [OFF] | 在 VR 模式中啟用遊戲手把輸入
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 觸控板模式</nobr>| [OFF] | 只有在相關按鈕被按下時才輸出軸值
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 使用輔助軸</nobr>| [OFF] | 如果可用，從 VR 控制器讀取輔助軸輸入，例如 WMR 控制器有拇指桿和觸控板
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 使用遊戲手把</nobr>| [OFF] | 在 VR 模式中啟用遊戲手把輸入
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 使用握把輸入</nobr>| [ON] | 關閉時完全忽略握把按鈕
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 握把閾值</nobr>| [0.5] (0 ~ 1) | 觸發握把按鈕輸入的閾值，對於像 Valve Index 這樣的非常敏感控制器非常有用
 |<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Thumbstick)** | (Thumbstick), (Trackpad), (Trackpad + Thumbstick),  |
@@ -25,7 +25,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 主要動作</nobr>| **向左 / 向右移動** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 第二動作</nobr>| **向左 / 向右旋轉** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 死區</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 反轉</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 反轉</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鍵盤替代 +</nobr>| **(D)** | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鍵盤替代 -</nobr>| **A** | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
 |<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 平滑度</nobr>| [0.1] (0 ~ 1) | 
@@ -33,7 +33,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 主要動作</nobr>| **向前 / 向後移動** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 第二動作</nobr>| **向上 / 向下移動** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 死區</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 反轉</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 反轉</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鍵盤替代 +</nobr>| **(W)** | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鍵盤替代 -</nobr>| **(S)** | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
 |<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 平滑度</nobr>| [0.1] (0 ~ 1) | 
@@ -41,7 +41,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 主要動作</nobr>| **向左 / 向右旋轉** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 第二動作</nobr>| **向左 / 向右移動** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 死區</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 反轉</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 反轉</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鍵盤替代 +</nobr>| **右** | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鍵盤替代 -</nobr>| **左** | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
 |<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 平滑度</nobr>| [0.1] (0 ~ 1) | 
@@ -49,7 +49,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 主要動作</nobr>| **向上 / 向下移動** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 第二動作</nobr>| **向前 / 向後移動** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 死區</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 反轉</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 反轉</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鍵盤替代 +</nobr>| **向上** | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鍵盤替代 -</nobr>| **向下** | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
 |<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 平滑度</nobr>| [0.1] (0 ~ 1) | 
@@ -71,7 +71,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 主要動作</nobr>| **UI X** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 第二動作</nobr>| **尋找時間線** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 死區</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 反轉</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 反轉</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鍵盤替代 +</nobr>| **(L)** | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鍵盤替代 -</nobr>| **(J)** | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
 |<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 平滑度</nobr>| [0.1] (0 ~ 1) | 
@@ -79,7 +79,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 主要動作</nobr>| **UI Y** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 第二動作</nobr>| **尋找幀** | 無, 向左 / 向右移動, 向前 / 向後移動, 向上 / 向下移動, 向左 / 向右旋轉, UI X, UI Y, 自定義軸 1, 自定義軸 2, 傾斜視圖, UI 滾動, 尋找時間線, 尋找幀,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 死區</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 反轉</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 反轉</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鍵盤替代 +</nobr>| **我** | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鍵盤替代 -</nobr>| **(K)** | 無, (Esc), (Backspace), (Tab), (Space), (Return), (L Ctrl), (R Ctrl), (L Shift), (R Shift), (L Alt), (R Alt), (Insert), 刪除, (Home), (End), (PageUp), (PageDown), 向上, 向下, 左, 右, A, (B), (C), (D), 他, (F), (G), (H), 我, (J), (K), (L), (M), (N), 她, (P), (Q), (R), (S), (T), 你, (V), (W), (X), (Y), (Z), (1), (2), (3), (4), (5), (6), (7), (8), (9), (0),  |
 |<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 平滑度</nobr>| [0.1] (0 ~ 1) | 

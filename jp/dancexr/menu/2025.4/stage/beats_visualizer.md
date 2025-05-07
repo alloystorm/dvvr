@@ -14,32 +14,32 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 有効にする</nobr>| [ON] | 
-| <img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> データ</nobr>| ビート | ビート, 生ビート, 生オンセット, 
-| <img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> ロケーション</nobr>| ステージ | カメラ, ステージ, アクター, 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 半径</nobr>| [1.2] (0.2 ~ 5) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> マーカーサイズ</nobr>| [0.02] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ライン幅</nobr>| [0.01] (0 ~ 1) | 
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>ラインカラー</b></nobr>| | 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> カラーモード</nobr>| (HSV) | (RGB), (HSV), 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0.3333333] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー</nobr>| [1] (0 ~ 20) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **緑** | 白, 赤, 緑, 青, アニメーション色相, 音楽による光,  |
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>マーカーカラー</b></nobr>| | 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> カラーモード</nobr>| (HSV) | (RGB), (HSV), 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー</nobr>| [1] (0 ~ 20) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **白** | 白, 赤, 緑, 青, アニメーション色相, 音楽による光,  |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ビートサイクル</nobr>| [8] (2 ~ 16) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ノーマルグロー</nobr>| [1] (0 ~ 8) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> フラッシュグロー</nobr>| [2] (0 ~ 8) | 
+| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 有効にする| [ON] | 
+| ☑ データ| ビート | ビート, 生ビート, 生オンセット, 
+| ☑ ロケーション| ステージ | カメラ, ステージ, アクター, 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 半径| [1.2] (0.2 ~ 5) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> マーカーサイズ| [0.02] (0 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ライン幅| [0.01] (0 ~ 1) | 
+| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>ラインカラー</b>| | 
+| ├─ ☑ カラーモード| (HSV) | (RGB), (HSV), 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相| [0.3333333] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー| [1] (0 ~ 20) | 
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **緑** | 白, 赤, 緑, 青, アニメーション色相, 音楽による光,  |
+| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>マーカーカラー</b>| | 
+| ├─ ☑ カラーモード| (HSV) | (RGB), (HSV), 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー| [1] (0 ~ 20) | 
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **白** | 白, 赤, 緑, 青, アニメーション色相, 音楽による光,  |
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ビートサイクル| [8] (2 ~ 16) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ノーマルグロー| [1] (0 ~ 8) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> フラッシュグロー| [2] (0 ~ 8) | 

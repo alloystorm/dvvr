@@ -19,6 +19,6 @@ sidebar:
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 重力</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 質量</nobr>| [0.1] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 減震</nobr>| [0] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 碰撞體</nobr>| 球體 | 無, 球體, 膠囊, 
+|<nobr>☑ 碰撞體</nobr>| 球體 | 無, 球體, 膠囊, 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體半徑</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 碰撞體長度</nobr>| [0.3] (0 ~ 2) | 

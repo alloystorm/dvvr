@@ -14,119 +14,119 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 有効にする</nobr>| [ON] | 
-| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>ロゴサーフェス1</b></nobr>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロス</nobr>| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 金属的</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> バンプ</nobr>| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー</nobr>| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アンビエント</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アルファ</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> クリップ</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>色</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> カラーモード</nobr>| (RGB) | (RGB), (HSV), 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度</nobr>| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> ブレンドモード</nobr>| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ブレンド</nobr>| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **白** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
-| ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>トゥーンシェーダー</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 有効にする</nobr>| [OFF] | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シェーディング</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アウトライン</nobr>| [0.5] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スペキュラー</nobr>| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトスペキュラー</nobr>| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ハイライトエリア</nobr>| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトハイライト</nobr>| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アンビエント</nobr>| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シャドウエリア</nobr>| [0.65] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シャドウ</nobr>| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトシャドウ</nobr>| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>特別シェーダー</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> モード</nobr>| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 屈折</nobr>| [0.5] (1 ~ 3) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 厚さ</nobr>| [1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **ホワイトグロス** | ホワイトグロス, レッドグロス, クローム, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |
-| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>ロゴサーフェス2</b></nobr>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロス</nobr>| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 金属的</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> バンプ</nobr>| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー</nobr>| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アンビエント</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アルファ</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> クリップ</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>色</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> カラーモード</nobr>| (RGB) | (RGB), (HSV), 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度</nobr>| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> ブレンドモード</nobr>| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ブレンド</nobr>| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **赤** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
-| ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>トゥーンシェーダー</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 有効にする</nobr>| [OFF] | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シェーディング</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アウトライン</nobr>| [0.5] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スペキュラー</nobr>| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトスペキュラー</nobr>| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ハイライトエリア</nobr>| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトハイライト</nobr>| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アンビエント</nobr>| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シャドウエリア</nobr>| [0.65] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シャドウ</nobr>| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトシャドウ</nobr>| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>特別シェーダー</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> モード</nobr>| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 屈折</nobr>| [0.5] (1 ~ 3) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 厚さ</nobr>| [1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **レッドグロス** | ホワイトグロス, レッドグロス, クローム, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> ダイヤモンド</nobr>| [ON] | 
-| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>ダイヤモンドサーフェス</b></nobr>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロス</nobr>| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 金属的</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> バンプ</nobr>| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー</nobr>| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アンビエント</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アルファ</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> クリップ</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>色</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> カラーモード</nobr>| (RGB) | (RGB), (HSV), 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度</nobr>| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> ブレンドモード</nobr>| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ブレンド</nobr>| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **白** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
-| ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>トゥーンシェーダー</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 有効にする</nobr>| [OFF] | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シェーディング</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アウトライン</nobr>| [0.5] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スペキュラー</nobr>| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトスペキュラー</nobr>| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ハイライトエリア</nobr>| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトハイライト</nobr>| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アンビエント</nobr>| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シャドウエリア</nobr>| [0.65] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シャドウ</nobr>| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトシャドウ</nobr>| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>特別シェーダー</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> モード</nobr>| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 屈折</nobr>| [0.5] (1 ~ 3) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 厚さ</nobr>| [1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **クローム** | ホワイトグロス, レッドグロス, クローム, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 距離</nobr>| [4.5] (1 ~ 8) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 位置</nobr>| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール</nobr>| [1] (0.2 ~ 2) | 
+| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 有効にする| [ON] | 
+| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>ロゴサーフェス1</b>| | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロス| [0.9] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 金属的| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> バンプ| [0.2] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー| [0] (0 ~ 10) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アンビエント| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アルファ| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> クリップ| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>色</b>| | 
+| │ ├─ ☑ カラーモード| (RGB) | (RGB), (HSV), 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相| [0] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度| [0] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> ブレンドモード| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ブレンド| [1] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **白** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
+| ├─ □ <b>トゥーンシェーダー</b>| | 
+| │ ├─ □ 有効にする| [OFF] | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シェーディング| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アウトライン| [0.5] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スペキュラー| [0.25] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトスペキュラー| [0.1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ハイライトエリア| [0.25] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトハイライト| [0.1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アンビエント| [0.75] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シャドウエリア| [0.65] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シャドウ| [0.75] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトシャドウ| [0.1] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>特別シェーダー</b>| | 
+| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> モード| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 屈折| [0.5] (1 ~ 3) | 
+| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 厚さ| [1] (0 ~ 1) | 
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **ホワイトグロス** | ホワイトグロス, レッドグロス, クローム, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |
+| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>ロゴサーフェス2</b>| | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロス| [0.9] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 金属的| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> バンプ| [0.2] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー| [0] (0 ~ 10) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アンビエント| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アルファ| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> クリップ| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>色</b>| | 
+| │ ├─ ☑ カラーモード| (RGB) | (RGB), (HSV), 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相| [0] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度| [0] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> ブレンドモード| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ブレンド| [1] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **赤** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
+| ├─ □ <b>トゥーンシェーダー</b>| | 
+| │ ├─ □ 有効にする| [OFF] | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シェーディング| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アウトライン| [0.5] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スペキュラー| [0.25] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトスペキュラー| [0.1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ハイライトエリア| [0.25] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトハイライト| [0.1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アンビエント| [0.75] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シャドウエリア| [0.65] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シャドウ| [0.75] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトシャドウ| [0.1] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>特別シェーダー</b>| | 
+| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> モード| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 屈折| [0.5] (1 ~ 3) | 
+| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 厚さ| [1] (0 ~ 1) | 
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **レッドグロス** | ホワイトグロス, レッドグロス, クローム, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |
+| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> ダイヤモンド| [ON] | 
+| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>ダイヤモンドサーフェス</b>| | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロス| [0.9] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 金属的| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> バンプ| [0.2] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー| [0] (0 ~ 10) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アンビエント| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アルファ| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> クリップ| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>色</b>| | 
+| │ ├─ ☑ カラーモード| (RGB) | (RGB), (HSV), 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相| [0] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度| [0] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> ブレンドモード| **ブレンド** | オリジナル, (Multiply), ブレンド, (Color Shift),  |
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ブレンド| [1] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **白** | オリジナル, 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange),  |
+| ├─ □ <b>トゥーンシェーダー</b>| | 
+| │ ├─ □ 有効にする| [OFF] | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シェーディング| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アウトライン| [0.5] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> スペキュラー| [0.25] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトスペキュラー| [0.1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ハイライトエリア| [0.25] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトハイライト| [0.1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> アンビエント| [0.75] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シャドウエリア| [0.65] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> シャドウ| [0.75] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> ソフトシャドウ| [0.1] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **シャープ** | シャープ, ソフト, 明るい, フラット + スペキュラー, フラット,  |
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>特別シェーダー</b>| | 
+| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> モード| **オフ** | オフ, 屈折厚, 屈折薄, アウトライン, 未点灯, (Experiment),  |
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 屈折| [0.5] (1 ~ 3) | 
+| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 厚さ| [1] (0 ~ 1) | 
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **クローム** | ホワイトグロス, レッドグロス, クローム, ブラックグロス, ゴールド, ソリッドグラス, 薄いガラス,  |
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 距離| [4.5] (1 ~ 8) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 位置| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール| [1] (0.2 ~ 2) | 

@@ -20,16 +20,16 @@ sidebar:
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 跟踪模式</nobr>| **中心** | 中心, 头部, 胸部,  |
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 目标平滑</nobr>| [0.5] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 预测</nobr>| [1] (0 ~ 2) | 预测目标的位置以减少平滑造成的延迟
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 锁定目标</nobr>| [OFF] | 自动聚焦目标
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 相机抖动</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 锁定旋转</nobr>| [OFF] | 相机跟随目标的旋转
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 锁定目标</nobr>| [OFF] | 自动聚焦目标
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 相机抖动</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 锁定旋转</nobr>| [OFF] | 相机跟随目标的旋转
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 自动缩放</nobr>| [0] (0 ~ 1) | 自动缩放以保持目标在视野中的大小
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 缩放速度</nobr>| [0.5] (0 ~ 1) | 缩放到目标视场所需的时间
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 目标处的视场高度</nobr>| [1] (0.2 ~ 2) | 使用自动缩放时目标的垂直高度
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 垂直偏移</nobr>| [0] (-1 ~ 1) | 垂直偏移
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 视场</nobr>| [30] (5 ~ 120) | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 节拍循环</nobr>| [8] (1 ~ 16) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 使用轨道移动</nobr>| [OFF] | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 使用轨道移动</nobr>| [OFF] | (Enable or disable orbit movement, allowing the camera to rotate around a central point.)
 |<nobr><img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **(Freefly)** | (Freefly), (Lock On Actor), (Lock + Zoom Fullbody), (Lock + Zoom Upper Body),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [轨道摄像机]</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[轨道摄像机]</b></nobr>| | 
@@ -39,12 +39,12 @@ sidebar:
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 预测</nobr>| [1] (0 ~ 2) | 预测目标的位置以减少平滑造成的延迟
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 视场</nobr>| [30] (5 ~ 120) | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 节拍循环</nobr>| [8] (1 ~ 16) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 使用控制器输入</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 使用控制器输入</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 防止低于地面</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 保持速度</nobr>| [OFF] | 在没有输入时保持旋转
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 保持速度</nobr>| [OFF] | 在没有输入时保持旋转
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大速度</nobr>| [15] (0 ~ 30) | 最大旋转速度
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 最小速度</nobr>| [0] (0 ~ 30) | 最小旋转速度
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 自动模式</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 自动模式</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 最小距离</nobr>| [1] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大距离</nobr>| [3] (1 ~ 10) | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 距离循环</nobr>| [12] ((Unlimited)) | 
@@ -70,7 +70,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 种子</nobr>| [1234] ((Unlimited)) | (Seed value for generating random camera motions.)
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 淡入黑色</nobr>| [0] (0 ~ 0.25) | (Duration of the fade-to-black effect during transitions.)
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 淡入概率</nobr>| [0.5] (0 ~ 1) | (Probability of triggering the fade-to-black effect.)
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 音频灵敏度</nobr>| [1] (0 ~ 4) | (Sensitivity of the camera motion to audio levels.)
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 音频灵敏度</nobr>| [1] (0 ~ 4) | (Sensitivity of the camera motion to audio levels.)
 |<nobr><img src="/images/icon/ic_space.png"/>├─ <b>目标选择</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 头部</nobr>| [1] (0 ~ 1) | (Probability of targeting the actor's head.)
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 胸部</nobr>| [1] (0 ~ 1) | (Probability of targeting the actor's chest.)
@@ -107,7 +107,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 曲线</nobr>| [0] (-1 ~ 1) | 更改运动时使用的缓动曲线
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 防止低于地面</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> 使用角色朝向</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 靠近时提高焦点</nobr>| [OFF] | 距离变小时向上移动焦点位置
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 靠近时提高焦点</nobr>| [OFF] | 距离变小时向上移动焦点位置
 |<nobr><img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 预设</nobr>| **默认（重置）** | 默认（重置）, (Preset 1), (Preset 2), (Preset 3),  |
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [第一人称]</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[第一人称]</b></nobr>| | 
@@ -119,7 +119,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 移除滚转</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 稳定器</nobr>| [5] (0 ~ 20) | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 阻尼</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 禁用自动返回</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 禁用自动返回</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_space.png"/>└─ 重新居中</nobr>|| 
 |<nobr><img src="/images/icon/ic_radio_off.png" alt="radio off icon"/> [固定摄影机]</nobr>|| 
 |<nobr>└─<img src="/images/icon/ic_setting.png" alt="setting icon"/> <b>[固定摄影机]</b></nobr>| | 
@@ -127,9 +127,9 @@ sidebar:
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 跟踪模式</nobr>| **中心** | 中心, 头部, 胸部,  |
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 目标平滑</nobr>| [0.5] (0 ~ 2) | 
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 预测</nobr>| [1] (0 ~ 2) | 预测目标的位置以减少平滑造成的延迟
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 锁定目标</nobr>| [OFF] | 自动聚焦目标
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 相机抖动</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 锁定旋转</nobr>| [OFF] | 相机跟随目标的旋转
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 锁定目标</nobr>| [OFF] | 自动聚焦目标
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 相机抖动</nobr>| [0.5] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_space.png"/>├─ □ 锁定旋转</nobr>| [OFF] | 相机跟随目标的旋转
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 自动缩放</nobr>| [0] (0 ~ 1) | 自动缩放以保持目标在视野中的大小
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 缩放速度</nobr>| [0.5] (0 ~ 1) | 缩放到目标视场所需的时间
 |<nobr><img src="/images/icon/ic_space.png"/>├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 目标处的视场高度</nobr>| [1] (0.2 ~ 2) | 使用自动缩放时目标的垂直高度

@@ -14,24 +14,24 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 有効にする</nobr>| [ON] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> サイズ</nobr>| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 頭部半径</nobr>| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 腕の半径</nobr>| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 前腕</nobr>| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 胸の幅</nobr>| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ウエストの幅</nobr>| [0.5] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ヒップの幅</nobr>| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> お尻の半径</nobr>| [1] (0 ~ 2) | 
-|  <b>お尻の位置</b></nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-0.1 ~ 0.1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)</nobr>| [0] (-0.1 ~ 0.1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)</nobr>| [0] (-0.1 ~ 0.1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> お腹の半径</nobr>| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> お腹の位置</nobr>| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 脚の半径</nobr>| [1] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 太ももの前後</nobr>| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 太ももの開始位置</nobr>| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 手</nobr>| [0] (0 ~ 1) | 
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **デフォルト（リセット）** | デフォルト（リセット）, (amy), (misaki),  |
+| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> 有効にする| [ON] | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> サイズ| [0.5] (0 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 頭部半径| [1] (0 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 腕の半径| [1] (0 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 前腕| [1] (0 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 胸の幅| [1] (0 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ウエストの幅| [0.5] (0 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ヒップの幅| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> お尻の半径| [1] (0 ~ 2) | 
+|  <b>お尻の位置</b>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)| [0] (-0.1 ~ 0.1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Y)| [0] (-0.1 ~ 0.1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> (Z)| [0] (-0.1 ~ 0.1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> お腹の半径| [1] (0 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> お腹の位置| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 脚の半径| [1] (0 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 太ももの前後| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 太ももの開始位置| [0] (0 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 手| [0] (0 ~ 1) | 
+|  □ 可視化| [OFF] | 
+| <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **デフォルト（リセット）** | デフォルト（リセット）, (amy), (misaki),  |

@@ -21,10 +21,10 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 旋转 X</nobr>| [0] (-180 ~ 180) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 旋转 Y</nobr>| [0] (-180 ~ 180) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 旋转 Z</nobr>| [0] (-180 ~ 180) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 物理</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 静止</nobr>| [OFF] | 
+|<nobr> □ 物理</nobr>| [OFF] | 
+|<nobr> □ 静止</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 重力</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 形状</nobr>| 箱子 | 球体, 胶囊, 箱子, 
+|<nobr>☑ 形状</nobr>| 箱子 | 球体, 胶囊, 箱子, 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 质量</nobr>| [1] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 拖拽</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 摩擦力</nobr>| [0.5] (0 ~ 1) | 

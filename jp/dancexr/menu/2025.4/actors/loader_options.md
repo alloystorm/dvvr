@@ -14,29 +14,29 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> キャッシュサイズ</nobr>| [10] (0 ~ 20) | キャッシュに保持するアクターモデルの数
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> マテリアルを強制的に再読み込み</nobr>| [OFF] | 
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> オプションを保持</nobr>| [OFF] | アクターを置き換える際に、出て行くアクターの設定を自動的に新しいアクターに適用します。
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> テクスチャを圧縮</nobr>| [OFF] | VRAM使用量を減らすためにテクスチャを圧縮
-|  <b>トランジションエフェクト</b></nobr>|| 
-| <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **デフォルト（リセット）** | デフォルト（リセット）,  |
-| <img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 方向</nobr>| 下 | 下, 上, <br/>アニメーションの方向。
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Vシェイプ</nobr>| [1] (0 ~ 5) | エッジの角度を制御し、0はフラットです。
-| <img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> トランジションモード</nobr>| セル | セル, モザイク, ノイズ, 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール</nobr>| [0] (-3 ~ 3) | パターンのスケール。
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 幅</nobr>| [0.1] (0 ~ 1) | トランジションエリアのサイズ。
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>色</b></nobr>| | 
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> カラーモード</nobr>| (RGB) | (RGB), (HSV), 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0.1666667] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度</nobr>| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤</nobr>| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑</nobr>| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青</nobr>| [0] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット</nobr>| **(Yellow)** | 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange), (Preset 1),  |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー</nobr>| [1] (0 ~ 10) | バーナー効果の明るさ。
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ブレンド</nobr>| [1] (0 ~ 1) | (Blend between the original color and the burn color. )
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 持続時間</nobr>| [2] (0 ~ 5) | アニメーションの持続時間。
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> パーティクルエフェクト</nobr>| [2] (0 ~ 10) | パーティクルの量を制御します。
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> パーティクルの持続時間</nobr>| [2.5] (0 ~ 5) | パーティクルの寿命を制御します。
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 自動アクター変更</nobr>| [0] (0 ~ 1) | 値に基づいてキャッシュ内のアクター間を自動的に切り替え
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> キャッシュサイズ| [10] (0 ~ 20) | キャッシュに保持するアクターモデルの数
+|  □ マテリアルを強制的に再読み込み| [OFF] | 
+|  □ オプションを保持| [OFF] | アクターを置き換える際に、出て行くアクターの設定を自動的に新しいアクターに適用します。
+|  □ テクスチャを圧縮| [OFF] | VRAM使用量を減らすためにテクスチャを圧縮
+|  <b>トランジションエフェクト</b>|| 
+| <img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **デフォルト（リセット）** | デフォルト（リセット）,  |
+| ☑ 方向| 下 | 下, 上, <br/>アニメーションの方向。
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Vシェイプ| [1] (0 ~ 5) | エッジの角度を制御し、0はフラットです。
+| ☑ トランジションモード| セル | セル, モザイク, ノイズ, 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> スケール| [0] (-3 ~ 3) | パターンのスケール。
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 幅| [0.1] (0 ~ 1) | トランジションエリアのサイズ。
+| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>色</b>| | 
+| ├─ ☑ カラーモード| (RGB) | (RGB), (HSV), 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相| [0.1666667] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 彩度| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 明度| [0.9] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 赤| [0.9] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 緑| [0.9] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 青| [0] (0 ~ 1) | 
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> プリセット| **(Yellow)** | 白, 黒, 赤, (Yellow), (Dark Gray), 青, 肌, (Gray), (Orange), (Preset 1),  |
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> グロー| [1] (0 ~ 10) | バーナー効果の明るさ。
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> ブレンド| [1] (0 ~ 1) | (Blend between the original color and the burn color. )
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 持続時間| [2] (0 ~ 5) | アニメーションの持続時間。
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> パーティクルエフェクト| [2] (0 ~ 10) | パーティクルの量を制御します。
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> パーティクルの持続時間| [2.5] (0 ~ 5) | パーティクルの寿命を制御します。
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 自動アクター変更| [0] (0 ~ 1) | 値に基づいてキャッシュ内のアクター間を自動的に切り替え

@@ -14,16 +14,16 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> すべてに割り当て</nobr>|| 
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> 選択したものに割り当て</nobr>|| 
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> 2番目としてすべてに割り当て</nobr>|| 
-| <img src="/images/icon/ic_motion.png" alt="motion icon"/> 2番目として選択したものに割り当て</nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 回転</nobr>| [0] (-1 ~ 1) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> オフセット</nobr>| [0] (0 ~ 2) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 足</nobr>| [0] (-35 ~ 115) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 膝</nobr>| [0] (-11 ~ 155) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 腕</nobr>| [0] (-40 ~ 90) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 肘</nobr>| [0] (-20 ~ 135) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 骨盤</nobr>| [0] (-25 ~ 25) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 腹部</nobr>| [0] (-20 ~ 36) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 胸</nobr>| [0] (-25 ~ 36) | 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> すべてに割り当て|| 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> 選択したものに割り当て|| 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> 2番目としてすべてに割り当て|| 
+| <img src="/images/icon/ic_motion.png" alt="motion icon"/> 2番目として選択したものに割り当て|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 回転| [0] (-1 ~ 1) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> オフセット| [0] (0 ~ 2) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 足| [0] (-35 ~ 115) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 膝| [0] (-11 ~ 155) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 腕| [0] (-40 ~ 90) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 肘| [0] (-20 ~ 135) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 骨盤| [0] (-25 ~ 25) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 腹部| [0] (-20 ~ 36) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> 胸| [0] (-25 ~ 36) | 

@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 合併為一</nobr>| [OFF] | 
+|<nobr> □ 合併為一</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 逐漸啟用</nobr>| [2] (0 ~ 5) | 
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>粒子屬性</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 粒子半徑</nobr>| [5] (1 ~ 20) | 粒子大小（毫米）
@@ -43,13 +43,13 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用彎曲約束</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 彎曲順應性</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 縮放</nobr>| [1] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 自我碰撞</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 自我碰撞</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取質量</nobr>| [2] (0 ~ 4) | 抓取粒子的質量
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取摩擦</nobr>| [2] (-2 ~ 4) | 抓取粒子的摩擦
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取黏性</nobr>| [0.25] (0 ~ 1) | 抓取粒子的黏性
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取阻力</nobr>| [0] (-2 ~ 2) | 抓取粒子的空氣阻抗
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取比例</nobr>| [1] (0 ~ 2) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用撕裂</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用撕裂</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 撕裂閾值</nobr>| [2] (1 ~ 10) | 
 |<nobr>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 限制撕裂速度</nobr>| [0] (0 ~ 25) | 撕裂後的冷卻間隔，單位：幀
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>模擬設置</b></nobr>| | 
@@ -61,7 +61,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 時間比例</nobr>| [0.65] (0.1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 子步驟</nobr>| [4] (1 ~ 20) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 迭代次數</nobr>| [1] (0 ~ 10) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 反向偶數子步驟</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 反向偶數子步驟</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 替代組大小</nobr>| [0] (0 ~ 20) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 數據表大小</nobr>| [6] (1 ~ 20) | 
-|<nobr>└─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 兩步求解</nobr>| [OFF] | 
+|<nobr>└─ □ 兩步求解</nobr>| [OFF] | 

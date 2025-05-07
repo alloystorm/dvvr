@@ -16,39 +16,39 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Ground Offset</nobr>| [0] (-0.2 ~ 0.2) | Adjusts the vertical offset of the ground level.
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Feet On Floor</nobr>| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Sole Height</nobr>| [0.03] (-0.1 ~ 0.1) | The desired distance from the ground to the toe bone.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Lift</nobr>| [1] (0 ~ 1) | Controls the amount of body lift when solving ground contact.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Contact Bend Toe</nobr>| [0.5] (0 ~ 1) | Determines the degree of toe bending when the toe is below the ground.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Contact Rotation</nobr>| [0.2] (0.1 ~ 0.3) | Defines the rotational inertia for contact adjustments.
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Virtual Shoes</nobr>| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Inner</nobr>| [0.04] (0 ~ 0.1) | Sets the inward offset for virtual shoe visualization.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Outer</nobr>| [0.06] (0 ~ 0.1) | Sets the outward offset for virtual shoe visualization.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Front</nobr>| [0.075] (0 ~ 0.1) | Sets the front offset for virtual shoe visualization.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Back</nobr>| [0.05] (0 ~ 0.1) | Sets the back offset for virtual shoe visualization.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Shoe Distance</nobr>| [0.02] (0 ~ 0.1) | Defines the distance between the virtual shoe and the foot.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Heel Top</nobr>| [0] (-0.1 ~ 0.1) | Adjusts the height of the virtual shoe's heel top.
-| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Mode</nobr>| **Wireframe** | Wireframe, Opaque, Chrome, Solid Glass, Thin Glass, <br/>Selects the visualization mode for virtual shoes. |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Smoothness</nobr>| [1] (0 ~ 1) | Controls the smoothness of the virtual shoe material.
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b></nobr>| | Sets the color of the virtual shoe material.
-| ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Color Mode</nobr>| RGB | RGB, HSV, 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green</nobr>| [1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue</nobr>| [1] (0 ~ 1) | 
-|  <b>Heels</b></nobr>|| 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> High Heels</nobr>| [0] (0 ~ 1) | Adjusts the height of the high heel pose.
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Limit Angle</nobr>| [OFF] | Limits the maximum angle for tiptoe rotation.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> High Heel Toe Bend</nobr>| [0.35] (0 ~ 1) | Controls the amount of toe bending when tiptoeing.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> High Heel Blend</nobr>| [0] (0 ~ 1) | Blends the high heel pose with animation to avoid extreme poses.
-| <img src="/images/icon/ic_check_off.png" alt="check off icon"/> Reduce Sliding</nobr>| [OFF] | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Dist Threshold</nobr>| [0] (0 ~ 0.2) | Defines the distance threshold for applying friction to reduce sliding.
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Damping</nobr>| [0.75] (0 ~ 1) | Controls the damping factor for friction applied to reduce sliding.
-| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Foot Angle</b></nobr>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotate X</nobr>| [0] (-90 ~ 90) | Adjusts the rotation of the foot around the X-axis.
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotate Y</nobr>| [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Y-axis.
-| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotate Z</nobr>| [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Z-axis.
-| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Off** | Off, On Floor, High Heels, Max Heels,  |
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Ground Offset| [0] (-0.2 ~ 0.2) | Adjusts the vertical offset of the ground level.
+|  □ Feet On Floor| [OFF] | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Sole Height| [0.03] (-0.1 ~ 0.1) | The desired distance from the ground to the toe bone.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Lift| [1] (0 ~ 1) | Controls the amount of body lift when solving ground contact.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Contact Bend Toe| [0.5] (0 ~ 1) | Determines the degree of toe bending when the toe is below the ground.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Contact Rotation| [0.2] (0.1 ~ 0.3) | Defines the rotational inertia for contact adjustments.
+|  □ Virtual Shoes| [OFF] | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Inner| [0.04] (0 ~ 0.1) | Sets the inward offset for virtual shoe visualization.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Outer| [0.06] (0 ~ 0.1) | Sets the outward offset for virtual shoe visualization.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Front| [0.075] (0 ~ 0.1) | Sets the front offset for virtual shoe visualization.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Back| [0.05] (0 ~ 0.1) | Sets the back offset for virtual shoe visualization.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Shoe Distance| [0.02] (0 ~ 0.1) | Defines the distance between the virtual shoe and the foot.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Heel Top| [0] (-0.1 ~ 0.1) | Adjusts the height of the virtual shoe's heel top.
+| <img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Mode| **Wireframe** | Wireframe, Opaque, Chrome, Solid Glass, Thin Glass, <br/>Selects the visualization mode for virtual shoes. |
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Smoothness| [1] (0 ~ 1) | Controls the smoothness of the virtual shoe material.
+| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b>| | Sets the color of the virtual shoe material.
+| ├─ ☑ Color Mode| RGB | RGB, HSV, 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green| [1] (0 ~ 1) | 
+| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue| [1] (0 ~ 1) | 
+|  <b>Heels</b>|| 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> High Heels| [0] (0 ~ 1) | Adjusts the height of the high heel pose.
+|  □ Limit Angle| [OFF] | Limits the maximum angle for tiptoe rotation.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> High Heel Toe Bend| [0.35] (0 ~ 1) | Controls the amount of toe bending when tiptoeing.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> High Heel Blend| [0] (0 ~ 1) | Blends the high heel pose with animation to avoid extreme poses.
+|  □ Reduce Sliding| [OFF] | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Dist Threshold| [0] (0 ~ 0.2) | Defines the distance threshold for applying friction to reduce sliding.
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Damping| [0.75] (0 ~ 1) | Controls the damping factor for friction applied to reduce sliding.
+| <img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Foot Angle</b>| | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotate X| [0] (-90 ~ 90) | Adjusts the rotation of the foot around the X-axis.
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotate Y| [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Y-axis.
+| └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Rotate Z| [0] (-45 ~ 45) | Adjusts the rotation of the foot around the Z-axis.
+| <img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Off** | Off, On Floor, High Heels, Max Heels,  |

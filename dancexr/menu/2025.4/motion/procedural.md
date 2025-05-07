@@ -14,36 +14,36 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|  <b>Actor Motion</b></nobr>|| 
-| <img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [Idle]</nobr>|| 
-| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All</nobr>|| 
-| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected</nobr>|| 
-| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd</nobr>|| 
-| └─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd</nobr>|| 
+|  <b>Actor Motion</b>|| 
+| <img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [Idle]|| 
+| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All|| 
+| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected|| 
+| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd|| 
+| └─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd|| 
 | [[Catwalk]](catwalk) |
 | [[Biped]](biped) |
 | [[Motion Builder]](motion_builder) |
 | [[Zero]](zero) |
-| <img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [Player Control]</nobr>|| 
-| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All</nobr>|| 
-| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected</nobr>|| 
-| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd</nobr>|| 
-| └─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd</nobr>|| 
+| <img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [Player Control]|| 
+| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All|| 
+| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected|| 
+| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd|| 
+| └─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd|| 
 | [[Auto Dance 1]](auto_dance_1) |
 | [[Auto Dance 2]](auto_dance_2) |
-| <img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [Auto Dance 3]</nobr>|| 
-| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All</nobr>|| 
-| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected</nobr>|| 
-| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd</nobr>|| 
-| └─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd</nobr>|| 
+| <img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [Auto Dance 3]|| 
+| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All|| 
+| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected|| 
+| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd|| 
+| └─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd|| 
 | [[Cowgirl Sex]](cowgirl_sex) |
 | [[Sex From Behind]](sex_from_behind) |
-| <img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [Sex Motion 3]</nobr>|| 
-| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All</nobr>|| 
-| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected</nobr>|| 
-| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd</nobr>|| 
-| └─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd</nobr>|| 
-|  <b>Camera Motion</b></nobr>|| 
+| <img src="/images/icon/ic_auto_round.png" alt="auto round icon"/> [Sex Motion 3]|| 
+| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All|| 
+| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected|| 
+| ├─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To All as 2nd|| 
+| └─<img src="/images/icon/ic_motion.png" alt="motion icon"/> Assign To Selected as 2nd|| 
+|  <b>Camera Motion</b>|| 
 | [[Freefly Cam]](freefly_cam) |
 | [[Orbit Cam]](orbit_cam) |
 | [[Auto Cam]](auto_cam) |

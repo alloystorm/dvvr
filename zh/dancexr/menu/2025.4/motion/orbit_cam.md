@@ -21,12 +21,12 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 预测</nobr>| [1] (0 ~ 2) | 预测目标的位置以减少平滑造成的延迟
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 视场</nobr>| [30] (5 ~ 120) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 节拍循环</nobr>| [8] (1 ~ 16) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 使用控制器输入</nobr>| [OFF] | 
+|<nobr> □ 使用控制器输入</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 防止低于地面</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 保持速度</nobr>| [OFF] | 在没有输入时保持旋转
+|<nobr> □ 保持速度</nobr>| [OFF] | 在没有输入时保持旋转
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大速度</nobr>| [15] (0 ~ 30) | 最大旋转速度
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最小速度</nobr>| [0] (0 ~ 30) | 最小旋转速度
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 自动模式</nobr>| [OFF] | 
+|<nobr> □ 自动模式</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最小距离</nobr>| [1] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大距离</nobr>| [3] (1 ~ 10) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 距离循环</nobr>| [12] ((Unlimited)) | 

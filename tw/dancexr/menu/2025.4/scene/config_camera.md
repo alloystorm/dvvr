@@ -17,7 +17,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 高度偏移</nobr>| [0] (-5 ~ 5) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 視野範圍比例</nobr>| [1] (0.25 ~ 2) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 肖像模式縮放</nobr>| [1.2] (1 ~ 2) | 
-|<nobr><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 旋轉濾鏡</nobr>| 完全旋轉 | 不旋轉, 僅方向, 完全旋轉, 
+|<nobr>☑ 旋轉濾鏡</nobr>| 完全旋轉 | 不旋轉, 僅方向, 完全旋轉, 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 近裁剪</nobr>| [0.01] (0 ~ 0.5) | 
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 運動變化時重置</nobr>| [ON] | 
 |<nobr> 重置偏移</nobr>|| 

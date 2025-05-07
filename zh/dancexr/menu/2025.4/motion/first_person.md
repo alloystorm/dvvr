@@ -23,5 +23,5 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 移除滚转</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 稳定器</nobr>| [5] (0 ~ 20) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 阻尼</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 禁用自动返回</nobr>| [OFF] | 
+|<nobr> □ 禁用自动返回</nobr>| [OFF] | 
 |<nobr> 重新居中</nobr>|| 

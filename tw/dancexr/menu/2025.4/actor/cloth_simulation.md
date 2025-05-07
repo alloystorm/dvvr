@@ -16,8 +16,8 @@ sidebar:
 | :--- | --- | :--- |
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用</nobr>| [ON] | 
 |<nobr> 重置</nobr>|| 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>布料 1</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr> □ <b>布料 1</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 重建網格</nobr>|| 此處的大多數參數需要重建網格才能生效。
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 拓撲</nobr>| **水平佈局** | 自適應六邊形, 自適應矩形, 水平佈局, 水平繩索, 垂直佈局, 垂直繩索,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 繩索連接</nobr>| [4] (1 ~ 10) | 
@@ -53,7 +53,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 錨點選擇</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 選擇偏移</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 錨點骨骼</nobr>| **腰部** | 腰部, 軀幹, 臀部, 頭部, 大腿, 小腿, 上臂, 下臂, 手, 胸部,  |
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 交換側面</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> □ 交換側面</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鎖定模式</nobr>| **無** | 無, 鎖定, 鎖定高度, 粘性,  |
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> <b>錨點位置</b></nobr>|| 
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-0.5 ~ 0.5) | 
@@ -90,25 +90,25 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用彎曲約束</nobr>| [ON] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 彎曲順應性</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 縮放</nobr>| [1] (0 ~ 2) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 自我碰撞</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 自我碰撞</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取質量</nobr>| [2] (0 ~ 4) | 抓取粒子的質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取摩擦</nobr>| [2] (-2 ~ 4) | 抓取粒子的摩擦
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取黏性</nobr>| [0.25] (0 ~ 1) | 抓取粒子的黏性
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取阻力</nobr>| [0] (-2 ~ 2) | 抓取粒子的空氣阻抗
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取比例</nobr>| [1] (0 ~ 2) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用撕裂</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用撕裂</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 撕裂閾值</nobr>| [2] (1 ~ 10) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 限制撕裂速度</nobr>| [0] (0 ~ 25) | 撕裂後的冷卻間隔，單位：幀
 |<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Top)** | 裙子, (Top), (Tight Skirt), (String Skirt), (Hula Skirt),  |
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>C1 材質</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>表面</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **啞光灰** | 原版, 啞光灰, 半透明, 發光, 銀色, 實心玻璃, 薄玻璃, 輪廓, (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 玻璃模式</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 光澤作為透明度</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 玻璃模式</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 光澤作為透明度</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 雙面</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 暗邊</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 投擲陰影</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 深度預處理</nobr>| [0.8] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 深度預處理</nobr>| [0.8] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 光澤</nobr>| [0.3] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 金屬質感</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 凸起</nobr>| [0.2] (0 ~ 1) | 
@@ -117,7 +117,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 剪裁</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>顏色</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/>☑ 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 飽和度</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
@@ -127,8 +127,8 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 混合模式</nobr>| **(Multiply)** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Gray)** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>卡通著色器</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>卡通著色器</b></nobr>| | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 陰影</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 輪廓</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 光澤</nobr>| [0.25] (0 ~ 1) | 
@@ -147,13 +147,13 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 紋理</nobr>| **[實心顏色]** | [實心顏色], [木材1], [木材2], [瓷磚], [混凝土], [視頻],  |
 |<nobr>└─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> <b>細節圖</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>(Hexagon Map)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> □ <b>(Hexagon Map)</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 密度</nobr>| [2] (0 ~ 8) | 
 |<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 大小</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 凸起</nobr>| [0.5] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 噪聲</nobr>| [0.2] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> (Use Circle)</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> □ (Use Circle)</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_space.png"/>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 柔邊</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 選擇地圖</nobr>| **布料 3** | 碳纖維, 皮革, 布料 1, 布料 2, 布料 3, 羊毛 1, 羊毛 2, 金屬亮面, 金屬拉絲, 頭髮,  |
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 細節圖旋轉</nobr>| [0] (-180 ~ 180) | 
@@ -165,8 +165,8 @@ sidebar:
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 影響顏色混合</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 各向異性</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> MIP貼圖偏差</nobr>| [0] (-5 ~ 5) | 調整細節材質的清晰度。
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>布料 2</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr> □ <b>布料 2</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 重建網格</nobr>|| 此處的大多數參數需要重建網格才能生效。
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 拓撲</nobr>| **水平佈局** | 自適應六邊形, 自適應矩形, 水平佈局, 水平繩索, 垂直佈局, 垂直繩索,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 繩索連接</nobr>| [4] (1 ~ 10) | 
@@ -202,7 +202,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 錨點選擇</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 選擇偏移</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 錨點骨骼</nobr>| **腰部** | 腰部, 軀幹, 臀部, 頭部, 大腿, 小腿, 上臂, 下臂, 手, 胸部,  |
-|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 交換側面</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> □ 交換側面</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 鎖定模式</nobr>| **無** | 無, 鎖定, 鎖定高度, 粘性,  |
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> <b>錨點位置</b></nobr>|| 
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] (-0.5 ~ 0.5) | 
@@ -239,25 +239,25 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用彎曲約束</nobr>| [ON] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 彎曲順應性</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 縮放</nobr>| [1] (0 ~ 2) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 自我碰撞</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 自我碰撞</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取質量</nobr>| [2] (0 ~ 4) | 抓取粒子的質量
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取摩擦</nobr>| [2] (-2 ~ 4) | 抓取粒子的摩擦
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取黏性</nobr>| [0.25] (0 ~ 1) | 抓取粒子的黏性
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取阻力</nobr>| [0] (-2 ~ 2) | 抓取粒子的空氣阻抗
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 抓取比例</nobr>| [1] (0 ~ 2) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用撕裂</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用撕裂</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 撕裂閾值</nobr>| [2] (1 ~ 10) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 限制撕裂速度</nobr>| [0] (0 ~ 25) | 撕裂後的冷卻間隔，單位：幀
 |<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **裙子** | 裙子, (Top), (Tight Skirt), (String Skirt), (Hula Skirt),  |
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>C2 材質</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>表面</b></nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **啞光灰** | 原版, 啞光灰, 半透明, 發光, 銀色, 實心玻璃, 薄玻璃, 輪廓, (Preset 1), (Preset 2), (Preset 3),  |
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 玻璃模式</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 光澤作為透明度</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 玻璃模式</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 光澤作為透明度</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 雙面</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 暗邊</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 投擲陰影</nobr>| [0.5] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 深度預處理</nobr>| [0.8] (0 ~ 1) | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 深度預處理</nobr>| [0.8] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 光澤</nobr>| [0.3] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 金屬質感</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 凸起</nobr>| [0.2] (0 ~ 1) | 
@@ -266,7 +266,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 透明度</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 剪裁</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>顏色</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/>☑ 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 飽和度</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
@@ -276,8 +276,8 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 混合模式</nobr>| **(Multiply)** | 原版, (Multiply), 混合, (Color Shift),  |
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 混合</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **(Gray)** | 原版, 白色, 黑色, 紅色, (Yellow), (Dark Gray), 藍色, 皮膚, (Gray), (Orange),  |
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>卡通著色器</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ <b>卡通著色器</b></nobr>| | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 陰影</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 輪廓</nobr>| [0.5] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 光澤</nobr>| [0.25] (0 ~ 1) | 
@@ -296,13 +296,13 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 紋理</nobr>| **[實心顏色]** | [實心顏色], [木材1], [木材2], [瓷磚], [混凝土], [視頻],  |
 |<nobr>└─<img src="/images/icon/ic_check_on.png" alt="check on icon"/> <b>細節圖</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>(Hexagon Map)</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/> □ <b>(Hexagon Map)</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 密度</nobr>| [2] (0 ~ 8) | 
 |<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 大小</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 凸起</nobr>| [0.5] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 噪聲</nobr>| [0.2] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> (Use Circle)</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_space.png"/>│ <img src="/images/icon/ic_line_t.png"/> □ (Use Circle)</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_space.png"/>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 柔邊</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 選擇地圖</nobr>| **布料 3** | 碳纖維, 皮革, 布料 1, 布料 2, 布料 3, 羊毛 1, 羊毛 2, 金屬亮面, 金屬拉絲, 頭髮,  |
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 細節圖旋轉</nobr>| [0] (-180 ~ 180) | 
@@ -314,9 +314,9 @@ sidebar:
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 影響顏色混合</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 各向異性</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_slider.png" alt="slider icon"/> MIP貼圖偏差</nobr>| [0] (-5 ~ 5) | 調整細節材質的清晰度。
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 合併</nobr>| [OFF] | 將布料 1 和 2 合併為單一模擬，這允許兩者之間的碰撞，但會變慢。
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>流體（實驗性）</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr> □ 合併</nobr>| [OFF] | 將布料 1 和 2 合併為單一模擬，這允許兩者之間的碰撞，但會變慢。
+|<nobr> □ <b>流體（實驗性）</b></nobr>| | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>生成</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>位置</b></nobr>| | 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> (X)</nobr>| [0] ((Unlimited)) | 
@@ -330,7 +330,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 擴散</nobr>| [0.1] (0 ~ 1) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 生成速率</nobr>| [20] (0 ~ 20) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 速度</nobr>| [5] (0 ~ 10) | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 滑鼠 / 手控制</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 滑鼠 / 手控制</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 自動瞄準</nobr>| [ON] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 最大壽命</nobr>| [10] (5 ~ 15) | 粒子在這段時間後消失並重新生成。
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 地面壽命</nobr>| [0.1] (0 ~ 1) | 撞擊地面後的生存時間。
@@ -347,11 +347,11 @@ sidebar:
 |<nobr>│ └─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **水** | 水, 粘性, 沙子,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>渲染</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 渲染粒子</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 渲染水滴</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 渲染水滴</nobr>| [OFF] | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 水滴大小</nobr>| [2] (0 ~ 50) | 水滴大小（以毫米計算）
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 按密度縮放</nobr>| [0] (0 ~ 5) | 根據流體的密度縮放水滴大小
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>顏色</b></nobr>| | 
-|<nobr>│ │ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
+|<nobr>│ │ <img src="/images/icon/ic_line_t.png"/>☑ 顏色模式</nobr>| (RGB) | (RGB), (HSV), 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 飽和度</nobr>| [0] (0 ~ 1) | 
 |<nobr>│ │ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
@@ -383,11 +383,11 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 手</nobr>| [ON] | 
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 腿部</nobr>| [ON] | 
 |<nobr>│ <img src="/images/icon/ic_space.png"/><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 腳</nobr>| [ON] | 
-|<nobr>│ <img src="/images/icon/ic_space.png"/>└─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 玩家</nobr>| [OFF] | 
+|<nobr>│ <img src="/images/icon/ic_space.png"/>└─ □ 玩家</nobr>| [OFF] | 
 |<nobr>└─<img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置),  |
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> <b>幾何碰撞器</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可見</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 可見</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/> 匯出形狀</nobr>|| 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> <b>頭部</b></nobr>| | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用</nobr>| [ON] | 
@@ -654,7 +654,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> <b>網格碰撞體</b></nobr>| | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 啟用</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 禁用幾何碰撞體</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 可視化</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 可視化</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 深度</nobr>| [0.025] (0 ~ 0.1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> (Skip Edge)</nobr>| [ON] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_on.png" alt="check on icon"/> (Skip Point)</nobr>| [ON] | 
@@ -667,8 +667,8 @@ sidebar:
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 時間比例</nobr>| [0.65] (0.1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 子步驟</nobr>| [4] (1 ~ 20) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 迭代次數</nobr>| [1] (0 ~ 10) | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 反向偶數子步驟</nobr>| [OFF] | 
+|<nobr><img src="/images/icon/ic_line_t.png"/> □ 反向偶數子步驟</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 替代組大小</nobr>| [0] (0 ~ 20) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 數據表大小</nobr>| [6] (1 ~ 20) | 
-|<nobr>└─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> 兩步求解</nobr>| [OFF] | 
+|<nobr>└─ □ 兩步求解</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_list.png" alt="list icon"/> 預設</nobr>| **預設 (重置)** | 預設 (重置),  |

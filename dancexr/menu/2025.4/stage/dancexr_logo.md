@@ -14,119 +14,119 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Enable</nobr>| [ON] | 
-| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Logo Surface 1</b></nobr>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Gloss</nobr>| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump</nobr>| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow</nobr>| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Clip</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Color Mode</nobr>| RGB | RGB, HSV, 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue</nobr>| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation</nobr>| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Blend Mode</nobr>| **Blend** | Original, Multiply, Blend, Color Shift,  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend</nobr>| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>Toon Shader</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> Enable</nobr>| [OFF] | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shading</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outline</nobr>| [0.5] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Specular</nobr>| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Specular</nobr>| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Highlight Area</nobr>| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Highlight</nobr>| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient</nobr>| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow Area</nobr>| [0.65] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow</nobr>| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Shadow</nobr>| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Special Shader</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Mode</nobr>| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Refraction</nobr>| [0.5] (1 ~ 3) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Thickness</nobr>| [1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **White Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
-| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Logo Surface 2</b></nobr>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Gloss</nobr>| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump</nobr>| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow</nobr>| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Clip</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Color Mode</nobr>| RGB | RGB, HSV, 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue</nobr>| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation</nobr>| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Blend Mode</nobr>| **Blend** | Original, Multiply, Blend, Color Shift,  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend</nobr>| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Red** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>Toon Shader</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> Enable</nobr>| [OFF] | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shading</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outline</nobr>| [0.5] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Specular</nobr>| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Specular</nobr>| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Highlight Area</nobr>| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Highlight</nobr>| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient</nobr>| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow Area</nobr>| [0.65] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow</nobr>| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Shadow</nobr>| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Special Shader</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Mode</nobr>| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Refraction</nobr>| [0.5] (1 ~ 3) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Thickness</nobr>| [1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Red Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
-| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Diamond</nobr>| [ON] | 
-| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Diamond Surface</b></nobr>| | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Gloss</nobr>| [0.9] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump</nobr>| [0.2] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow</nobr>| [0] (0 ~ 10) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha</nobr>| [1] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Clip</nobr>| [0] (0 ~ 1) | 
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> Color Mode</nobr>| RGB | RGB, HSV, 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue</nobr>| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation</nobr>| [0] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Blend Mode</nobr>| **Blend** | Original, Multiply, Blend, Color Shift,  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend</nobr>| [1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
-| ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> <b>Toon Shader</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_check_off.png" alt="check off icon"/> Enable</nobr>| [OFF] | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shading</nobr>| [1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outline</nobr>| [0.5] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Specular</nobr>| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Specular</nobr>| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Highlight Area</nobr>| [0.25] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Highlight</nobr>| [0.1] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient</nobr>| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow Area</nobr>| [0.65] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow</nobr>| [0.75] (0 ~ 1) | 
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Shadow</nobr>| [0.1] (0 ~ 1) | 
-| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
-| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Special Shader</b></nobr>| | 
-| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Mode</nobr>| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
-| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Refraction</nobr>| [0.5] (1 ~ 3) | 
-| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Thickness</nobr>| [1] (0 ~ 1) | 
-| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets</nobr>| **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Distance</nobr>| [4.5] (1 ~ 8) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Position</nobr>| [0] (-180 ~ 180) | 
-| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Scale</nobr>| [1] (0.2 ~ 2) | 
+| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Enable| [ON] | 
+| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Logo Surface 1</b>| | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Gloss| [0.9] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump| [0.2] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow| [0] (0 ~ 10) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Clip| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b>| | 
+| │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue| [0] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation| [0] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend| [1] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| ├─ □ <b>Toon Shader</b>| | 
+| │ ├─ □ Enable| [OFF] | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shading| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outline| [0.5] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Specular| [0.25] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Specular| [0.1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Highlight Area| [0.25] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Highlight| [0.1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient| [0.75] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow Area| [0.65] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow| [0.75] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Shadow| [0.1] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Special Shader</b>| | 
+| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Refraction| [0.5] (1 ~ 3) | 
+| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Thickness| [1] (0 ~ 1) | 
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Logo Surface 2</b>| | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Gloss| [0.9] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump| [0.2] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow| [0] (0 ~ 10) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Clip| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b>| | 
+| │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue| [0] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation| [0] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend| [1] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Red** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| ├─ □ <b>Toon Shader</b>| | 
+| │ ├─ □ Enable| [OFF] | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shading| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outline| [0.5] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Specular| [0.25] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Specular| [0.1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Highlight Area| [0.25] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Highlight| [0.1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient| [0.75] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow Area| [0.65] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow| [0.75] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Shadow| [0.1] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Special Shader</b>| | 
+| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Refraction| [0.5] (1 ~ 3) | 
+| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Thickness| [1] (0 ~ 1) | 
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Red Gloss** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| <img src="/images/icon/ic_check_on.png" alt="check on icon"/> Diamond| [ON] | 
+| <img src="/images/icon/ic_texture.png" alt="texture icon"/> <b>Diamond Surface</b>| | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Gloss| [0.9] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Metallic| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Bump| [0.2] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Glow| [0] (0 ~ 10) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Alpha| [1] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Clip| [0] (0 ~ 1) | 
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Color</b>| | 
+| │ ├─ ☑ Color Mode| RGB | RGB, HSV, 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Hue| [0] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Satuation| [0] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Brightness| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Red| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Green| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blue| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Blend Mode| **Blend** | Original, Multiply, Blend, Color Shift,  |
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Blend| [1] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **White** | Original, White, Black, Red, Yellow, Dark Gray, Blue, Skin, Gray, Orange,  |
+| ├─ □ <b>Toon Shader</b>| | 
+| │ ├─ □ Enable| [OFF] | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shading| [1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Outline| [0.5] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Specular| [0.25] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Specular| [0.1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Highlight Area| [0.25] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Highlight| [0.1] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Ambient| [0.75] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow Area| [0.65] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Shadow| [0.75] (0 ~ 1) | 
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Soft Shadow| [0.1] (0 ~ 1) | 
+| │ └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Sharp** | Sharp, Soft, Bright, Flat + Specular, Flat,  |
+| ├─<img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>Special Shader</b>| | 
+| │ ├─<img src="/images/icon/ic_chevron.png" alt="chevron icon"/> Mode| **Off** | Off, Refraction Thick, Refraction Thin, Outline, Unlit, Experiment,  |
+| │ ├─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Refraction| [0.5] (1 ~ 3) | 
+| │ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> Thickness| [1] (0 ~ 1) | 
+| └─<img src="/images/icon/ic_list.png" alt="list icon"/> Presets| **Chrome** | White Gloss, Red Gloss, Chrome, Black Gloss, Gold, Solid Glass, Thin Glass,  |
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Distance| [4.5] (1 ~ 8) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Position| [0] (-180 ~ 180) | 
+| <img src="/images/icon/ic_slider.png" alt="slider icon"/> Scale| [1] (0.2 ~ 2) | 

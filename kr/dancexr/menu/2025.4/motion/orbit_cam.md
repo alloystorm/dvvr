@@ -21,12 +21,12 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 예측</nobr>| [1] (0 ~ 2) | 부드러움으로 인한 지연을 줄이기 위해 타겟의 위치를 예측
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> FOV</nobr>| [30] (5 ~ 120) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 비트 사이클</nobr>| [8] (1 ~ 16) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 컨트롤러 입력 사용</nobr>| [OFF] | 
+|<nobr> □ 컨트롤러 입력 사용</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_check_on.png" alt="check on icon"/> 바닥 아래 방지</nobr>| [ON] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 속도 유지</nobr>| [OFF] | 입력이 없을 때 회전 유지
+|<nobr> □ 속도 유지</nobr>| [OFF] | 입력이 없을 때 회전 유지
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 최대 속도</nobr>| [15] (0 ~ 30) | 최대 회전 속도
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 최소 속도</nobr>| [0] (0 ~ 30) | 최소 회전 속도
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 자동 모드</nobr>| [OFF] | 
+|<nobr> □ 자동 모드</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 최소 거리</nobr>| [1] (0 ~ 10) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 최대 거리</nobr>| [3] (1 ~ 10) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 거리 주기</nobr>| [12] ((Unlimited)) | 

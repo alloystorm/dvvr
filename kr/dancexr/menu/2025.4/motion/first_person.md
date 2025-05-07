@@ -23,5 +23,5 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 롤 제거</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 스태빌라이저</nobr>| [5] (0 ~ 20) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 감쇠</nobr>| [0.1] (0 ~ 1) | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 자동 복귀 비활성화</nobr>| [OFF] | 
+|<nobr> □ 자동 복귀 비활성화</nobr>| [OFF] | 
 |<nobr> 재중심화</nobr>|| 

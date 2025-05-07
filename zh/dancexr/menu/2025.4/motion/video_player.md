@@ -14,8 +14,8 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 循环</nobr>| [OFF] | 
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 静音</nobr>| [OFF] | 
+|<nobr> □ 循环</nobr>| [OFF] | 
+|<nobr> □ 静音</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 时间偏移</nobr>| [0] ((Unlimited)) | 
 |<nobr><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 宽高比</nobr>| **(16:9)** | (1:1), (4:3), (14:9), (16:10), (16:9), (1.85:1), (2:1), (2.35:1), (2.39:1), (2.4:1),  |
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 偏移</nobr>| [0] ((Unlimited)) | 

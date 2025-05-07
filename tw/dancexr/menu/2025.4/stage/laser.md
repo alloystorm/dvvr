@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 啟用</nobr>| [OFF] | 
+|<nobr> □ 啟用</nobr>| [OFF] | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 數量</nobr>| [16] (1 ~ 32) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 寬度</nobr>| [8] (0 ~ 50) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 曲率</nobr>| [-1] (-2 ~ 2) | 
@@ -24,7 +24,7 @@ sidebar:
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 高度</nobr>| [0] (0 ~ 8) | 
 |<nobr><img src="/images/icon/ic_slider.png" alt="slider icon"/> 角度</nobr>| [45] (0 ~ 90) | 
 |<nobr><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>顏色</b></nobr>| | 
-|<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_toggle_on.png" alt="toggle on icon"/> 顏色模式</nobr>| (HSV) | (RGB), (HSV), 
+|<nobr><img src="/images/icon/ic_line_t.png"/>☑ 顏色模式</nobr>| (HSV) | (RGB), (HSV), 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 色相</nobr>| [0] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 飽和度</nobr>| [1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 亮度</nobr>| [1] (0 ~ 1) | 
@@ -47,7 +47,7 @@ sidebar:
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 垂直</nobr>| [0.1] (0 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_chevron.png" alt="chevron icon"/> 模式</nobr>| **隨機** | 隨機, 隨機預設, 手動,  |
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>運動 X</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 覆蓋</nobr>| [0] (-1 ~ 1) | 使用此值覆蓋生成的動作
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 覆蓋</nobr>| [0] (-1 ~ 1) | 使用此值覆蓋生成的動作
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 速度倍增器</nobr>| [-1] (-3 ~ 3) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 相位</nobr>| [0.25] (0 ~ 1) | 循環中的起始位置
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 曲線</nobr>| [1] (0 ~ 1) | 
@@ -55,7 +55,7 @@ sidebar:
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 縮放</nobr>| [1] (0 ~ 1) | 
 |<nobr>│ └─<img src="/images/icon/ic_slider.png" alt="slider icon"/> 中心</nobr>| [0] (-1 ~ 1) | 
 |<nobr><img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_tune.png" alt="tune icon"/> <b>運動 Z</b></nobr>| | 
-|<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_check_off.png" alt="check off icon"/> 覆蓋</nobr>| [0] (-1 ~ 1) | 使用此值覆蓋生成的動作
+|<nobr>│ <img src="/images/icon/ic_line_t.png"/> □ 覆蓋</nobr>| [0] (-1 ~ 1) | 使用此值覆蓋生成的動作
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 速度倍增器</nobr>| [-1] (-3 ~ 3) | 
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 相位</nobr>| [0.25] (0 ~ 1) | 循環中的起始位置
 |<nobr>│ <img src="/images/icon/ic_line_t.png"/><img src="/images/icon/ic_slider.png" alt="slider icon"/> 曲線</nobr>| [1] (0 ~ 1) | 
