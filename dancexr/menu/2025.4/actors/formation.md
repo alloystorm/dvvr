@@ -14,7 +14,7 @@ sidebar:
 
 | Setting | Value | Description |
 | :--- | --- | :--- |
-|  **Formation**|| 
+|  <b>Formation</b>|| 
 |  V Shape|| 
 |  Line|| 
 |  A Shape|| 

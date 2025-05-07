@@ -18,31 +18,31 @@ A typical PMX bone strucutre that works well with DanceXR.
 
 <pre>
   └全ての親 (master) (Master)
-    ├**センター () (Center)***
+    ├<b>センター () (Center)*</b>
     │ └グルーブ (groove) (Groove)
     │   ├腰 (waist) (Waist)
     │   │ └下半身 () (HipMaster)
-    │   │   ├**左足 () (LeftLeg)***
-    │   │   │ └**左ひざ () (LeftKnee)***
-    │   │   │   └**左足首 () (LeftAnkle)***
+    │   │   ├<b>左足 () (LeftLeg)*</b>
+    │   │   │ └<b>左ひざ () (LeftKnee)*</b>
+    │   │   │   └<b>左足首 () (LeftAnkle)*</b>
     │   │   │     └左つま先 () (LeftToe)
-    │   │   └**右足 () (RightLeg)***
-    │   │     └**右ひざ () (RightKnee)***
-    │   │       └**右足首 () (RightAnkle)***
+    │   │   └<b>右足 () (RightLeg)*</b>
+    │   │     └<b>右ひざ () (RightKnee)*</b>
+    │   │       └<b>右足首 () (RightAnkle)*</b>
     │   │         └右つま先 () (RightToe)
-    │   └**上半身 () (Torso)***
+    │   └<b>上半身 () (Torso)*</b>
     │     └上半身2 (upper body2) (Torso2)
     │       ├右胸 () (RightBreast)
     │       │ └右胸先 () (RightBreastTip)
     │       ├左胸 () (LeftBreast)
     │       │ └左胸先 () (LeftBreastTip)
     │       ├右肩P (shoulderP_R) (RightShoulderP)
-    │       │ └**右肩 () (RightShoulder)***
+    │       │ └<b>右肩 () (RightShoulder)*</b>
     │       │   └右肩C () (RightShoulderC)
-    │       │     └**右腕 () (RightArm)***
+    │       │     └<b>右腕 () (RightArm)*</b>
     │       │       ├右腕捩 (arm twist_R) (RightArmTwist)
-    │       │       │ └**右ひじ () (RightElbow)***
-    │       │       │   └**右手首 () (RightWrist)***
+    │       │       │ └<b>右ひじ () (RightElbow)*</b>
+    │       │       │   └<b>右手首 () (RightWrist)*</b>
     │       │       │     ├右手先 () (RightHandTip)
     │       │       │     ├右小指１ () (RightPinky1)
     │       │       │     │ └右小指２ () (RightPinky2)
@@ -64,12 +64,12 @@ A typical PMX bone strucutre that works well with DanceXR.
     │       │       │       └右親指２ () (RightThumb2)
     │       │       │         └右親指先 () (RightThumbTip)
     │       ├左肩P (shoulderP_L) (LeftShoulderP)
-    │       │ └**左肩 () (LeftShoulder)***
+    │       │ └<b>左肩 () (LeftShoulder)*</b>
     │       │   └左肩C () (LeftShoulderC)
-    │       │     └**左腕 () (LeftArm)***
+    │       │     └<b>左腕 () (LeftArm)*</b>
     │       │       ├左腕捩 (arm twist_L) (LeftArmTwist)
-    │       │       │ └**左ひじ () (LeftElbow)***
-    │       │       │   └**左手首 () (LeftWrist)***
+    │       │       │ └<b>左ひじ () (LeftElbow)*</b>
+    │       │       │   └<b>左手首 () (LeftWrist)*</b>
     │       │       │     ├左手先 () (LeftHandTip)
     │       │       │     ├左小指１ () (LeftPinky1)
     │       │       │     │ └左小指２ () (LeftPinky2)
@@ -91,7 +91,7 @@ A typical PMX bone strucutre that works well with DanceXR.
     │       │       │       └左親指２ () (LeftThumb2)
     │       │       │         └左親指先 () (LeftThumbTip)
     │       └首 () (Neck)
-    │         └**頭 () (Head)***
+    │         └<b>頭 () (Head)*</b>
     │           ├両目 () (Eyes)
     │           ├右目 () (RightEye)
     │           │ └右目戻 () (RightEye戻)
@@ -104,7 +104,7 @@ A typical PMX bone strucutre that works well with DanceXR.
     └右足ＩＫ () (RightLegIK)
       └右つま先ＩＫ () (RightToeIK)
 </pre>
-*** indicates required bones**
+<b>* indicates required bones</b>
 
 Most PMX models should work fine unless they are missing the requried bones. DanceXR will automatically create the remaining bones that it needs such as IK bones.
 
@@ -115,33 +115,33 @@ A sample bone structure of XPS (XNALara) models:
     ├unused (unused)
       ├unused.001 (unused.001)
       ├unused.002 (unused.002)
-      └**root hips (Center)***
+      └<b>root hips (Center)*</b>
         └ (Groove)
           ├ (Waist)
           │ └pelvis (HipMaster)
-          │   ├**leg left thigh (LeftLeg)***
-          │   │ └**leg left knee (LeftKnee)***
-          │   │   └**leg left ankle (LeftAnkle)***
+          │   ├<b>leg left thigh (LeftLeg)*</b>
+          │   │ └<b>leg left knee (LeftKnee)*</b>
+          │   │   └<b>leg left ankle (LeftAnkle)*</b>
           │   │     └leg left toes (LeftToe)
-          │   └**leg right thigh (RightLeg)***
-          │     └**leg right knee (RightKnee)***
-          │       └**leg right ankle (RightAnkle)***
+          │   └<b>leg right thigh (RightLeg)*</b>
+          │     └<b>leg right knee (RightKnee)*</b>
+          │       └<b>leg right ankle (RightAnkle)*</b>
           │         └leg right toes (RightToe)
-          └**spine lower (Torso)***
+          └<b>spine lower (Torso)*</b>
             └spine middle (Torso1)
               └spine upper (Torso2)
                 ├head neck lower (Neck)
-                │ └**head neck upper (Head)***
+                │ └<b>head neck upper (Head)*</b>
                 │   ├head eyelid left upper (LeftEyelidUpper)
                 │   ├head eyeball right (RightEye)
                 │   ├head eyeball left (LeftEye)
                 │   ├head eyelid left lower (LeftEyelidLower)
                 │   ├head eyelid right lower (RightEyelidLower)
                 │   ├head eyelid right upper (RightEyelidUpper)
-                ├**arm left shoulder 1 (LeftShoulder)***
-                │ └**arm left shoulder 2 (LeftArm)***
-                │   ├**arm left elbow (LeftElbow)***
-                │   │ ├**arm left wrist (LeftWrist)***
+                ├<b>arm left shoulder 1 (LeftShoulder)*</b>
+                │ └<b>arm left shoulder 2 (LeftArm)*</b>
+                │   ├<b>arm left elbow (LeftElbow)*</b>
+                │   │ ├<b>arm left wrist (LeftWrist)*</b>
                 │   │ │ ├arm left finger 1a (LeftThumb1)
                 │   │ │ │ └arm left finger 1b (LeftThumb2)
                 │   │ │ │   └arm left finger 1c (LeftThumbTip)
@@ -162,10 +162,10 @@ A sample bone structure of XPS (XNALara) models:
                 │   │ └arm left wrist tw (arm left wrist tw)
                 │   └arm left shoulder tw (arm left shoulder tw)
                 ├breasts (breasts)
-                └**arm right shoulder 1 (RightShoulder)***
-                  └**arm right shoulder 2 (RightArm)***
-                    └**arm right elbow (RightElbow)***
-                      └**arm right wrist (RightWrist)***
+                └<b>arm right shoulder 1 (RightShoulder)*</b>
+                  └<b>arm right shoulder 2 (RightArm)*</b>
+                    └<b>arm right elbow (RightElbow)*</b>
+                      └<b>arm right wrist (RightWrist)*</b>
                         ├arm right finger 1a (RightThumb1)
                         │ └arm right finger 1b (RightThumb2)
                         │   └arm right finger 1c (RightThumbTip)
@@ -182,6 +182,6 @@ A sample bone structure of XPS (XNALara) models:
                           └arm right finger 5b (RightPinky2)
                             └arm right finger 5c (RightPinky3)
 </pre>
-*** indicates required bones**
+<b>* indicates required bones</b>
 
 Checkout the [Bone Mapper](bone_mapper) page for more information on how to map bones for XPS models.

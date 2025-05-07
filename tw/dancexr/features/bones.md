@@ -16,31 +16,31 @@ sidebar:
 
 <pre>
   └全ての親 (master) (Master)
-    ├**センター () (Center)***
+    ├<b>センター () (Center)*</b>
     │ └グルーブ (groove) (Groove)
     │   ├腰 (waist) (Waist)
     │   │ └下半身 () (HipMaster)
-    │   │   ├**左足 () (LeftLeg)***
-    │   │   │ └**左ひざ () (LeftKnee)***
-    │   │   │   └**左足首 () (LeftAnkle)***
+    │   │   ├<b>左足 () (LeftLeg)*</b>
+    │   │   │ └<b>左ひざ () (LeftKnee)*</b>
+    │   │   │   └<b>左足首 () (LeftAnkle)*</b>
     │   │   │     └左つま先 () (LeftToe)
-    │   │   └**右足 () (RightLeg)***
-    │   │     └**右ひざ () (RightKnee)***
-    │   │       └**右足首 () (RightAnkle)***
+    │   │   └<b>右足 () (RightLeg)*</b>
+    │   │     └<b>右ひざ () (RightKnee)*</b>
+    │   │       └<b>右足首 () (RightAnkle)*</b>
     │   │         └右つま先 () (RightToe)
-    │   └**上半身 () (Torso)***
+    │   └<b>上半身 () (Torso)*</b>
     │     └上半身2 (upper body2) (Torso2)
     │       ├右胸 () (RightBreast)
     │       │ └右胸先 () (RightBreastTip)
     │       ├左胸 () (LeftBreast)
     │       │ └左胸先 () (LeftBreastTip)
     │       ├右肩P (shoulderP_R) (RightShoulderP)
-    │       │ └**右肩 () (RightShoulder)***
+    │       │ └<b>右肩 () (RightShoulder)*</b>
     │       │   └右肩C () (RightShoulderC)
-    │       │     └**右腕 () (RightArm)***
+    │       │     └<b>右腕 () (RightArm)*</b>
     │       │       ├右腕捩 (arm twist_R) (RightArmTwist)
-    │       │       │ └**右ひじ () (RightElbow)***
-    │       │       │   └**右手首 () (RightWrist)***
+    │       │       │ └<b>右ひじ () (RightElbow)*</b>
+    │       │       │   └<b>右手首 () (RightWrist)*</b>
     │       │       │     ├右手先 () (RightHandTip)
     │       │       │     ├右小指１ () (RightPinky1)
     │       │       │     │ └右小指２ () (RightPinky2)
@@ -62,12 +62,12 @@ sidebar:
     │       │       │       └右親指２ () (RightThumb2)
     │       │       │         └右親指先 () (RightThumbTip)
     │       ├左肩P (shoulderP_L) (LeftShoulderP)
-    │       │ └**左肩 () (LeftShoulder)***
+    │       │ └<b>左肩 () (LeftShoulder)*</b>
     │       │   └左肩C () (LeftShoulderC)
-    │       │     └**左腕 () (LeftArm)***
+    │       │     └<b>左腕 () (LeftArm)*</b>
     │       │       ├左腕捩 (arm twist_L) (LeftArmTwist)
-    │       │       │ └**左ひじ () (LeftElbow)***
-    │       │       │   └**左手首 () (LeftWrist)***
+    │       │       │ └<b>左ひじ () (LeftElbow)*</b>
+    │       │       │   └<b>左手首 () (LeftWrist)*</b>
     │       │       │     ├左手先 () (LeftHandTip)
     │       │       │     ├左小指１ () (LeftPinky1)
     │       │       │     │ └左小指２ () (LeftPinky2)
@@ -89,7 +89,7 @@ sidebar:
     │       │       │       └左親指２ () (LeftThumb2)
     │       │       │         └左親指先 () (LeftThumbTip)
     │       └首 () (Neck)
-    │         └**頭 () (Head)***
+    │         └<b>頭 () (Head)*</b>
     │           ├両目 () (Eyes)
     │           ├右目 () (RightEye)
     │           │ └右目戻 () (RightEye戻)
@@ -102,7 +102,7 @@ sidebar:
     └右足ＩＫ () (RightLegIK)
       └右つま先ＩＫ () (RightToeIK)
 </pre>
-*** 表示必要的骨骼**
+<b>* 表示必要的骨骼</b>
 
 大多數 PMX 模型應該可以正常運作，除非它們缺少必要的骨骼。DanceXR 將自動創建所需的其他骨骼，例如 IK 骨骼。
 ## ## XPS 骨骼結構
@@ -112,33 +112,33 @@ XPS（XNALara）模型的骨骼結構示例：
     ├未使用（unused）
       ├未使用.001（unused.001）
       ├未使用.002（unused.002）
-      └**根部髖部（Center）***
+      └<b>根部髖部（Center）*</b>
         └（凹槽）
           ├（腰部）
           │ └骨盆（HipMaster）
-          │   ├**左腿大腿（LeftLeg）***
-          │   │ └**左腿膝蓋（LeftKnee）***
-          │   │   └**左腿腳踝（LeftAnkle）***
+          │   ├<b>左腿大腿（LeftLeg）*</b>
+          │   │ └<b>左腿膝蓋（LeftKnee）*</b>
+          │   │   └<b>左腿腳踝（LeftAnkle）*</b>
           │   │     └左腳趾（LeftToe）
-          │   └**右腿大腿（RightLeg）***
-          │     └**右腿膝蓋（RightKnee）***
-          │       └**右腿腳踝（RightAnkle）***
+          │   └<b>右腿大腿（RightLeg）*</b>
+          │     └<b>右腿膝蓋（RightKnee）*</b>
+          │       └<b>右腿腳踝（RightAnkle）*</b>
           │         └右腳趾（RightToe）
-          └**下脊椎（Torso）***
+          └<b>下脊椎（Torso）*</b>
             └中脊椎（Torso1）
               └上脊椎（Torso2）
                 ├下頸部（Neck）
-                │ └**上頸部（Head）***
+                │ └<b>上頸部（Head）*</b>
                 │   ├左眼瞼上部（LeftEyelidUpper）
                 │   ├右眼球（RightEye）
                 │   ├左眼球（LeftEye）
                 │   ├左眼瞼下部（LeftEyelidLower）
                 │   ├右眼瞼下部（RightEyelidLower）
                 │   ├右眼瞼上部（RightEyelidUpper）
-                ├**左肩膀1（LeftShoulder）***
-                │ └**左肩膀2（LeftArm）***
-                │   ├**左手肘（LeftElbow）***
-                │   │ ├**左手腕（LeftWrist）***
+                ├<b>左肩膀1（LeftShoulder）*</b>
+                │ └<b>左肩膀2（LeftArm）*</b>
+                │   ├<b>左手肘（LeftElbow）*</b>
+                │   │ ├<b>左手腕（LeftWrist）*</b>
                 │   │ │ ├左手指1a（LeftThumb1）
                 │   │ │ │ └左手指1b（LeftThumb2）
                 │   │ │ │   └左手指1c（LeftThumbTip）
@@ -159,10 +159,10 @@ XPS（XNALara）模型的骨骼結構示例：
                 │   │ └左手腕tw（左手腕tw）
                 │   └左肩膀tw（左肩膀tw）
                 ├乳房（breasts）
-                └**右肩膀1（RightShoulder）***
-                  └**右肩膀2（RightArm）***
-                    └**右手肘（RightElbow）***
-                      └**右手腕（RightWrist）***
+                └<b>右肩膀1（RightShoulder）*</b>
+                  └<b>右肩膀2（RightArm）*</b>
+                    └<b>右手肘（RightElbow）*</b>
+                      └<b>右手腕（RightWrist）*</b>
                         ├右手指1a（RightThumb1）
                         │ └右手指1b（RightThumb2）
                         │   └右手指1c（RightThumbTip）
@@ -179,6 +179,6 @@ XPS（XNALara）模型的骨骼結構示例：
                           └右手指5b（RightPinky2）
                             └右手指5c（RightPinky3）
 </pre>
-*** 表示必需的骨骼**
+<b>* 表示必需的骨骼</b>
 
 請查看[骨骼映射器](bone_mapper)頁面，了解有關如何為XPS模型映射骨骼的更多信息。

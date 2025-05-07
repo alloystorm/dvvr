@@ -72,7 +72,7 @@ ffmpeg -r 30 -i movie_%04d.jpg -i sound.wav movie.mp4
 
 **3D SBS** 비디오의 경우 올바른 메타데이터를 설정하기 위해 추가적인 매개변수를 추가해야 합니다:
 <pre>
-ffmpeg -r 30 -i movie_%03d.jpg -vcodec libx264 -x264opts "frame-packing=3" movie.mp4
+ffmpeg -r 30 -i movie_%03d.jpg <b>-vcodec libx264 -x264opts "frame-packing=3"</b> movie.mp4
 </pre>
 
 **VR180** 비디오의 경우 비디오가 Youtube와 같은 플랫폼에서 올바르게 인식될 수 있도록 올바른 태그를 설정하기 위해 다른 도구가 필요합니다. Google의 "VR180 Creator"가 이 단계에 권장되는 도구입니다.

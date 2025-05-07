@@ -71,7 +71,7 @@ ffmpeg -r 30 -i movie_%04d.jpg -i sound.wav movie.mp4
 
 **3D SBS**ビデオの場合、正しいメタデータを設定するために追加のパラメータを追加する必要があります：
 <pre>
-ffmpeg -r 30 -i movie_%03d.jpg -vcodec libx264 -x264opts "frame-packing=3" movie.mp4
+ffmpeg -r 30 -i movie_%03d.jpg <b>-vcodec libx264 -x264opts "frame-packing=3"</b> movie.mp4
 </pre>
 
 **VR180**ビデオの場合、ビデオがYouTubeなどのプラットフォームで正しく認識されるように正しいタグを設定するために別のツールが必要です。Googleの「VR180 Creator」がこのステップにおいて推奨されています。
