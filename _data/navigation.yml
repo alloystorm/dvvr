@@ -90,7 +90,7 @@ docs:
       - title: Feature List
         url: /dancexr/features
       - title: Settings Manual
-        url: /dancexr/menu/2025.4/menu
+        url: /dancexr/menu/2025.5/menu
   - title: Releases
     url: /dancexr/releases/
     children:
@@ -192,7 +192,7 @@ docs-zh:
       - title: 功能列表
         url: /zh/dancexr/features
       - title: 设置手册
-        url: /zh/dancexr/menu/2025.4/menu
+        url: /zh/dancexr/menu/2025.5/menu
   - title: 发布
     url: /zh/dancexr/releases/
     children:
@@ -293,7 +293,7 @@ docs-tw:
       - title: 功能列表
         url: /tw/dancexr/features
       - title: 設置手冊
-        url: /tw/dancexr/menu/2025.4/menu
+        url: /tw/dancexr/menu/2025.5/menu
   - title: 發布
     url: /tw/dancexr/releases/
     children:
@@ -394,7 +394,7 @@ docs-jp:
       - title: 機能リスト
         url: /jp/dancexr/features
       - title: 設定マニュアル
-        url: /jp/dancexr/menu/2025.4/menu
+        url: /jp/dancexr/menu/2025.5/menu
   - title: リリース
     url: /jp/dancexr/releases/
     children:
@@ -495,7 +495,7 @@ docs-kr:
       - title: 기능 목록
         url: /kr/dancexr/features
       - title: 설정 매뉴얼
-        url: /kr/dancexr/menu/2025.4/menu
+        url: /kr/dancexr/menu/2025.5/menu
 
   - title: 출시
     url: /kr/dancexr/releases/
