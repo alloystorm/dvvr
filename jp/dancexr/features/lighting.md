@@ -6,9 +6,9 @@ toc: false
 sidebar:
   nav: "docs-jp"
 ---
-[Eng](/dancexr/features/lighting.md) | [繁中](/tw/dancexr/features/lighting.md) | [日本語](/jp/dancexr/features/lighting.md) | [한국어](/kr/dancexr/features/lighting.md) | [简中](/zh/dancexr/features/lighting.md)
+[Eng](/dancexr/features/lighting) | [繁中](/tw/dancexr/features/lighting) | [日本語](/jp/dancexr/features/lighting) | [한국어](/kr/dancexr/features/lighting) | [简中](/zh/dancexr/features/lighting)
 
-シーンの照明を設定します。
+シーンのライティングを設定してください。
 
 ## 設定
 

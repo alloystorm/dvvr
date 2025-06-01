@@ -6,7 +6,7 @@ toc: false
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/application_settings.md) | [繁中](/tw/dancexr/features/application_settings.md) | [日本語](/jp/dancexr/features/application_settings.md) | [한국어](/kr/dancexr/features/application_settings.md) | [简中](/zh/dancexr/features/application_settings.md)
+[Eng](/dancexr/features/application_settings) | [繁中](/tw/dancexr/features/application_settings) | [日本語](/jp/dancexr/features/application_settings) | [한국어](/kr/dancexr/features/application_settings) | [简中](/zh/dancexr/features/application_settings)
 
 應用程式設定
 

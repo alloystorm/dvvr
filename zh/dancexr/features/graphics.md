@@ -6,7 +6,7 @@ toc: false
 sidebar:
   nav: "docs-zh"
 ---
-[Eng](/dancexr/features/graphics.md) | [繁中](/tw/dancexr/features/graphics.md) | [日本語](/jp/dancexr/features/graphics.md) | [한국어](/kr/dancexr/features/graphics.md) | [简中](/zh/dancexr/features/graphics.md)
+[Eng](/dancexr/features/graphics) | [繁中](/tw/dancexr/features/graphics) | [日本語](/jp/dancexr/features/graphics) | [한국어](/kr/dancexr/features/graphics) | [简中](/zh/dancexr/features/graphics)
 
 渲染质量设置。
 

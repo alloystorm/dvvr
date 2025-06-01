@@ -6,12 +6,12 @@ toc: false
 sidebar:
   nav: "docs-jp"
 ---
-[Eng](/dancexr/features/graphics.md) | [繁中](/tw/dancexr/features/graphics.md) | [日本語](/jp/dancexr/features/graphics.md) | [한국어](/kr/dancexr/features/graphics.md) | [简中](/zh/dancexr/features/graphics.md)
+[Eng](/dancexr/features/graphics) | [繁中](/tw/dancexr/features/graphics) | [日本語](/jp/dancexr/features/graphics) | [한국어](/kr/dancexr/features/graphics) | [简中](/zh/dancexr/features/graphics)
 
-レンダークオリティ設定。
+レンダリング品質設定。
 
-## 設定
+## 構成
 
-設定の詳細な説明については、以下のページをご覧ください：
+構成の詳細な説明については、以下のページをご覧ください：
 
 [グラフィックス v2025.4](/dancexr/menu/2025.4/system/graphics)

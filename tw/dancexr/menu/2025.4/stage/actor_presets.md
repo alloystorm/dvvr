@@ -1,20 +1,20 @@
 ---
-locale: zh-rTW
+locale: zh-TW
 layout: single
-title: 預設
+title: 預設值
 toc: false
 sidebar:
-  nav: "docs-zh"
+  nav: "docs-tw"
 ---
 [Eng](/dancexr/menu/2025.4/stage/actor_presets) | [繁中](/tw/dancexr/menu/2025.4/stage/actor_presets) | [日本語](/jp/dancexr/menu/2025.4/stage/actor_presets) | [한국어](/kr/dancexr/menu/2025.4/stage/actor_presets) | [简中](/zh/dancexr/menu/2025.4/stage/actor_presets)
 
-[舞台](../menu#舞台) > 預設
+[舞台](../menu#Stage) > 預設
 
 
 
-| Setting | Value | Description |
+| 設定 | 值 | 描述 |
 | :--- | --- | :--- |
-|<nobr><img src="/images/icon/ic_refresh.png" alt="refresh icon"/> 重設所有</nobr>|| 
-|<nobr><img src="/images/icon/ic_file.png" alt="file icon"/> 重新載入已儲存</nobr>|| 
-|<nobr><img src="/images/icon/ic_save.png" alt="save icon"/> 儲存角色預設</nobr>|| 
-|<nobr><img src="/images/icon/ic_globe.png" alt="globe icon"/> 儲存全局</nobr>|| 
+| <img src="/images/icon/ic_refresh.png" alt="重新整理圖示"/> 重置全部|| 
+| <img src="/images/icon/ic_file.png" alt="檔案圖示"/> 重新載入已儲存|| 
+| <img src="/images/icon/ic_save.png" alt="儲存圖示"/> 儲存角色預設|| 
+| <img src="/images/icon/ic_globe.png" alt="地球圖示"/> 儲存全域||
