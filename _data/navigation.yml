@@ -1,6 +1,8 @@
 releases:
   - title: 2025
     children:
+    - title: Release 2025.6
+      url: /dancexr/releases/2025.6
     - title: Release 2025.5
       url: /dancexr/releases/2025.5
     - title: Release 2025.4
@@ -94,15 +96,17 @@ docs:
   - title: Releases
     url: /dancexr/releases/
     children:
-    - title: "2025.5 (Early Access)"
+    - title: "2025.6 (Early Access)"
+      url: /dancexr/releases/2025.6
+    - title: "2025.5"
       url: /dancexr/releases/2025.5
-    - title: "2025.4"
-      url: /dancexr/releases/2025.4
 
 
 releases-zh:
   - title: 2025
     children:
+    - title: 发布 2025.6
+      url: /dancexr/releases/2025.6
     - title: 发布 2025.5
       url: /dancexr/releases/2025.5
     - title: 发布 2025.4
@@ -196,7 +200,9 @@ docs-zh:
   - title: 发布
     url: /zh/dancexr/releases/
     children:
-    - title: "2025.5 (提前访问)"
+    - title: "2025.6 (提前访问)"
+      url: /zh/dancexr/releases/2025.6
+    - title: "2025.5"
       url: /zh/dancexr/releases/2025.5
     - title: "2025.4"
       url: /zh/dancexr/releases/2025.4
@@ -204,6 +210,8 @@ docs-zh:
 releases-tw:
   - title: 2025
     children:
+    - title: 發布 2025.6
+      url: /dancexr/releases/2025.6
     - title: 發布 2025.5
       url: /dancexr/releases/2025.5
     - title: 發布 2025.4
@@ -297,7 +305,9 @@ docs-tw:
   - title: 發布
     url: /tw/dancexr/releases/
     children:
-    - title: "2025.5 (早期訪問)"
+    - title: "2025.6 (早期訪問)"
+      url: /tw/dancexr/releases/2025.6
+    - title: "2025.5"
       url: /tw/dancexr/releases/2025.5
     - title: "2025.4"
       url: /tw/dancexr/releases/2025.4
@@ -305,6 +315,8 @@ docs-tw:
 releases-jp:
   - title: 2025
     children:
+    - title: リリース 2025.6
+      url: /dancexr/releases/2025.6
     - title: リリース 2025.5
       url: /dancexr/releases/2025.5
     - title: リリース 2025.4
@@ -398,7 +410,9 @@ docs-jp:
   - title: リリース
     url: /jp/dancexr/releases/
     children:
-    - title: "2025.5 (アーリーアクセス)"
+    - title: "2025.6 (アーリーアクセス)"
+      url: /jp/dancexr/releases/2025.6
+    - title: "2025.5"
       url: /jp/dancexr/releases/2025.5
     - title: "2025.4"
       url: /jp/dancexr/releases/2025.4
@@ -406,6 +420,8 @@ docs-jp:
 releases-kr:
   - title: 2025
     children:
+    - title: 출시 2025.6
+      url: /dancexr/releases/2025.6
     - title: 출시 2025.5
       url: /dancexr/releases/2025.5
     - title: 출시 2025.4
@@ -496,11 +512,12 @@ docs-kr:
         url: /kr/dancexr/features
       - title: 설정 매뉴얼
         url: /kr/dancexr/menu/2025.5/menu
-
   - title: 출시
     url: /kr/dancexr/releases/
     children:
-    - title: "2025.5 (얼리 액세스)"
+    - title: "2025.6 (얼리 액세스)"
+      url: /kr/dancexr/releases/2025.6
+    - title: "2025.5"
       url: /kr/dancexr/releases/2025.5
     - title: "2025.4"
       url: /kr/dancexr/releases/2025.4
