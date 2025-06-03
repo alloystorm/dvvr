@@ -94,7 +94,7 @@ For each language, I need:
    - Title (max 80 characters)
    - Subtitle (max 120 characters)
    - Summary (max 180 characters)
-   - Body (concise description including this link at the end: {base_url})
+   - Body (description with this link at the end: {base_url})
 
 2. Google Play announcement:
    - A concise summary focused on main features and improvements
@@ -123,9 +123,11 @@ For each language, I need:
 def generate_steam_notes(version, content=None):
     """Generate XML files for Steam announcements."""
     
+    itchio_body = f'DanceXR {version}\n\n'
+
     # Use the pre-generated content from Ollama
     for lang_code, lang_content in content['steam'].items():
-        file_path = f'notes/{version}/{version}_{lang_code}.xml'
+        file_path = f'notes/{version}/steam_{lang_code}.xml'
         xml_content = f'''<?xml version="1.0" encoding="UTF-8" ?>
 <content>
     <string id="title">{lang_content['title']}</string>
@@ -133,9 +135,12 @@ def generate_steam_notes(version, content=None):
     <string id="summary">{lang_content['summary']}</string>
     <string id="body">{lang_content['body']}</string>
 </content>'''
-        
+        itchio_body += f"{lang_content['body']}\n\n"
         write_file(file_path, xml_content)
         print(f"Generated {file_path}")
+    # Write the Itch.io body content
+    itchio_file_path = f'notes/{version}/itchio.txt'
+    write_file(itchio_file_path, itchio_body.strip())
 
 def generate_google_notes(version, content=None):
     """Generate text file for Google Play release notes."""
