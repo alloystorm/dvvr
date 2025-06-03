@@ -5,7 +5,6 @@ import json
 import requests
 from typing import Dict, Optional
 from pydantic import BaseModel, Field
-from script.utils import translate
 
 # Define Pydantic models for structured data
 class SteamContent(BaseModel):
@@ -15,11 +14,11 @@ class SteamContent(BaseModel):
     body: str
 
 class SteamLanguages(BaseModel):
-    en: SteamContent
-    zh_CN: SteamContent = Field(..., alias="zh-CN")
-    zh_TW: SteamContent = Field(..., alias="zh-TW")
-    ja_JP: SteamContent = Field(..., alias="ja-JP")
-    ko_KR: SteamContent = Field(..., alias="ko-KR")
+    english: SteamContent
+    schinese: SteamContent
+    tchinese: SteamContent
+    japanese: SteamContent
+    korean: SteamContent
 
 class GooglePlayContent(BaseModel):
     en_US: str = Field(..., alias="en-US")
@@ -126,7 +125,7 @@ def generate_steam_notes(version, content=None):
     
     # Use the pre-generated content from Ollama
     for lang_code, lang_content in content['steam'].items():
-        file_path = f'notes/{version}/{lang_code}.xml'
+        file_path = f'notes/{version}/{version}_{lang_code}.xml'
         xml_content = f'''<?xml version="1.0" encoding="UTF-8" ?>
 <content>
     <string id="title">{lang_content['title']}</string>
@@ -171,8 +170,6 @@ def main():
     # if use_ollama:
     content = generate_all_content_with_ollama(version, base_url, release_notes_content)
     
-    print(content)
-
     # Generate Steam notes
     generate_steam_notes(version, content)
     
