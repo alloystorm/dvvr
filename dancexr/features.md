@@ -15,6 +15,7 @@ sidebar:
 | :--- | --- |---: |
 | ***Character, Stages, And Props Models*** 
 | *Content Management*
+| [Discovery App](features/discovery) | [2025.6](releases/2025.6.md)
 | [Organizing Model Files Best Practices](preparecontent#3d-models)
 | [Tagging and Search](features/tagging) 
 | [Model Cache & Loader Options](features/loader_options) 
