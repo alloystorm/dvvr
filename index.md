@@ -12,7 +12,7 @@ header:
     - label: Download
       url: /dancexr/download
     - label: Latest Release
-      url: /dancexr/releases/2024.12
+      url: /dancexr/releases/2025.8
 ---
 
 [Eng](/dancexr) | [繁中](/tw/dancexr) | [日本語](/jp/dancexr) | [한국어](/kr/dancexr) | [简中](/zh/dancexr)
