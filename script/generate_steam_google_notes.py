@@ -101,7 +101,7 @@ For each language, I need:
 """
     
     print("Calling Ollama to generate all content...")
-    response = call_ollama(prompt)
+    response = call_ollama(prompt, "phi4")
     
     if response:
         try:
