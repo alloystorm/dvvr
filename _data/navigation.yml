@@ -1,6 +1,8 @@
 releases:
   - title: 2025
     children:
+    - title: Release 2025.12
+      url: /dancexr/releases/2025.12
     - title: Release 2025.11
       url: /dancexr/releases/2025.11
     - title: Release 2025.10
@@ -106,37 +108,39 @@ docs:
   - title: Releases
     url: /dancexr/releases/
     children:
-    - title: "2025.11 (Early Access)"
+    - title: "2025.12 (Early Access)"
+      url: /dancexr/releases/2025.12
+    - title: "2025.11"
       url: /dancexr/releases/2025.11
-    - title: "2025.10"
-      url: /dancexr/releases/2025.10
 
 
 releases-zh:
   - title: 2025
     children:
+    - title: 发布 2025.12
+      url: /zh/dancexr/releases/2025.12
     - title: 发布 2025.11
-      url: /dancexr/releases/2025.11
+      url: /zh/dancexr/releases/2025.11
     - title: 发布 2025.10
-      url: /dancexr/releases/2025.10
+      url: /zh/dancexr/releases/2025.10
     - title: 发布 2025.9
-      url: /dancexr/releases/2025.9
+      url: /zh/dancexr/releases/2025.9
     - title: 发布 2025.8
-      url: /dancexr/releases/2025.8
+      url: /zh/dancexr/releases/2025.8
     - title: 发布 2025.7
-      url: /dancexr/releases/2025.7
+      url: /zh/dancexr/releases/2025.7
     - title: 发布 2025.6
-      url: /dancexr/releases/2025.6
+      url: /zh/dancexr/releases/2025.6
     - title: 发布 2025.5
-      url: /dancexr/releases/2025.5
+      url: /zh/dancexr/releases/2025.5
     - title: 发布 2025.4
-      url: /dancexr/releases/2025.4
+      url: /zh/dancexr/releases/2025.4
     - title: 发布 2025.3
-      url: /dancexr/releases/2025.3
+      url: /zh/dancexr/releases/2025.3
     - title: 发布 2025.2
-      url: /dancexr/releases/2025.2
+      url: /zh/dancexr/releases/2025.2
     - title: 发布 2025.1
-      url: /dancexr/releases/2025.1
+      url: /zh/dancexr/releases/2025.1
   - title: 2024
     children:
     - title: 发布 2024.12
@@ -220,36 +224,38 @@ docs-zh:
   - title: 发布
     url: /zh/dancexr/releases/
     children:
-    - title: "2025.11 (提前访问)"
+    - title: "2025.12 (提前访问)"
+      url: /zh/dancexr/releases/2025.12
+    - title: "2025.11"
       url: /zh/dancexr/releases/2025.11
-    - title: "2025.10"
-      url: /zh/dancexr/releases/2025.10
 
 releases-tw:
   - title: 2025
     children:
+    - title: 發布 2025.12
+      url: /tw/dancexr/releases/2025.12
     - title: 發布 2025.11
-      url: /dancexr/releases/2025.11
+      url: /tw/dancexr/releases/2025.11
     - title: 發布 2025.10
-      url: /dancexr/releases/2025.10
+      url: /tw/dancexr/releases/2025.10
     - title: 發布 2025.9
-      url: /dancexr/releases/2025.9
+      url: /tw/dancexr/releases/2025.9
     - title: 發布 2025.8
-      url: /dancexr/releases/2025.8
+      url: /tw/dancexr/releases/2025.8
     - title: 發布 2025.7
-      url: /dancexr/releases/2025.7
+      url: /tw/dancexr/releases/2025.7
     - title: 發布 2025.6
-      url: /dancexr/releases/2025.6
+      url: /tw/dancexr/releases/2025.6
     - title: 發布 2025.5
-      url: /dancexr/releases/2025.5
+      url: /tw/dancexr/releases/2025.5
     - title: 發布 2025.4
-      url: /dancexr/releases/2025.4
+      url: /tw/dancexr/releases/2025.4
     - title: 發布 2025.3
-      url: /dancexr/releases/2025.3
+      url: /tw/dancexr/releases/2025.3
     - title: 發布 2025.2
-      url: /dancexr/releases/2025.2
+      url: /tw/dancexr/releases/2025.2
     - title: 發布 2025.1
-      url: /dancexr/releases/2025.1
+      url: /tw/dancexr/releases/2025.1
   - title: 2024
     children:
     - title: 發布 2024.12
@@ -333,36 +339,38 @@ docs-tw:
   - title: 發布
     url: /tw/dancexr/releases/
     children:
-    - title: "2025.11 (早期訪問)"
+    - title: "2025.12 (早期訪問)"
+      url: /tw/dancexr/releases/2025.12
+    - title: "2025.11"
       url: /tw/dancexr/releases/2025.11
-    - title: "2025.10"
-      url: /tw/dancexr/releases/2025.10
 
 releases-jp:
   - title: 2025
     children:
+    - title: リリース 2025.12
+      url: /jp/dancexr/releases/2025.12
     - title: リリース 2025.11
-      url: /dancexr/releases/2025.11
+      url: /jp/dancexr/releases/2025.11
     - title: リリース 2025.10
-      url: /dancexr/releases/2025.10
+      url: /jp/dancexr/releases/2025.10
     - title: リリース 2025.9
-      url: /dancexr/releases/2025.9
+      url: /jp/dancexr/releases/2025.9
     - title: リリース 2025.8
-      url: /dancexr/releases/2025.8
+      url: /jp/dancexr/releases/2025.8
     - title: リリース 2025.7
-      url: /dancexr/releases/2025.7
+      url: /jp/dancexr/releases/2025.7
     - title: リリース 2025.6
-      url: /dancexr/releases/2025.6
+      url: /jp/dancexr/releases/2025.6
     - title: リリース 2025.5
-      url: /dancexr/releases/2025.5
+      url: /jp/dancexr/releases/2025.5
     - title: リリース 2025.4
-      url: /dancexr/releases/2025.4
+      url: /jp/dancexr/releases/2025.4
     - title: リリース 2025.3
-      url: /dancexr/releases/2025.3
+      url: /jp/dancexr/releases/2025.3
     - title: リリース 2025.2
-      url: /dancexr/releases/2025.2
+      url: /jp/dancexr/releases/2025.2
     - title: リリース 2025.1
-      url: /dancexr/releases/2025.1
+      url: /jp/dancexr/releases/2025.1
   - title: 2024
     children:
     - title: リリース 2024.12
@@ -446,14 +454,16 @@ docs-jp:
   - title: リリース
     url: /jp/dancexr/releases/
     children:
-    - title: "2025.11 (アーリーアクセス)"
+    - title: "2025.12 (アーリーアクセス)"
+      url: /jp/dancexr/releases/2025.12
+    - title: "2025.11"
       url: /jp/dancexr/releases/2025.11
-    - title: "2025.10"
-      url: /jp/dancexr/releases/2025.10
 
 releases-kr:
   - title: 2025
     children:
+    - title: 출시 2025.12
+      url: /kr/dancexr/releases/2025.12
     - title: 출시 2025.11
       url: /kr/dancexr/releases/2025.11
     - title: 출시 2025.10
@@ -559,8 +569,8 @@ docs-kr:
   - title: 출시
     url: /kr/dancexr/releases/
     children:
-    - title: "2025.11 (얼리 액세스)"
+    - title: "2025.12 (얼리 액세스)"
+      url: /kr/dancexr/releases/2025.12
+    - title: "2025.11"
       url: /kr/dancexr/releases/2025.11
-    - title: "2025.10"
-      url: /kr/dancexr/releases/2025.10
 
