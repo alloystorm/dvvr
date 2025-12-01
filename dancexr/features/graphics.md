@@ -16,3 +16,7 @@ For detailed explaination of the configurations, please visit the following page
 
 [Graphics v2025.4](/dancexr/menu/2025.4/system/graphics)
 
+### Render Quality Improvements (v2025.10)
+Improved shader for better skin effect and removed excessive sky reflection on skin & hair objects for LW & Android versions.
+Improved handling of detail & mask textures for better visual quality.
+

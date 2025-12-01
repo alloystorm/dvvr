@@ -27,3 +27,4 @@ The softbody mode in [boobs physics](xps_boobs.md) uses the same mechanism.
 * Apply To Other Groups: Use the same settings for other groups of bones.
 * Additional Groups: Set the number of additional groups that you need.
 * Group N: Configure additional groups.
+* Suspension Setup (v2025.11): Allow softbody physics to use suspension setup for better control.

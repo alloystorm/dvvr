@@ -16,3 +16,7 @@ For detailed explaination of the configurations, please visit the following page
 
 [Application Settings v2025.4](/dancexr/menu/2025.4/system/application_settings)
 
+### VR on Startup (v2025.10)
+The application no longer initiate VR on startup, but you can still configure it to do so in the settings.
+You can now switch in and out of VR mode during your session without restarting the application.
+

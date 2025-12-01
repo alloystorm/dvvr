@@ -20,6 +20,12 @@ In addition, on PC and Android you can use mouse or touch screen to pan the came
 
 In VR, you also have laser pointers to operate menu and drag & drop objects.
 
+### VR Mouse Control (v2025.10)
+Mouse can be used to control pointer in VR mode. Together with keyboard support it's perfect for sitting experience in front of a desk.
+
+### Pointer Handle (v2025.10)
+New "Pointer Handle" which is a long flexible rod driven by physics that you can hold in your hand to interact with actors in VR mode. This is NSFW so not available in the Pure version. You can also load any external model that has a chain of bones to use as the pointer handle.
+
 ## Second Action
 By default, grip button on VR controllers and shoulder buttons on gamepads are asssigned to "Second Action", which means when you hold this button while pressing another control, it will trigger a secondary action for that control, instead of the primary action. 
 

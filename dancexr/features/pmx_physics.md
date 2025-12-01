@@ -18,6 +18,11 @@ sidebar:
 * Options: Configures rigidbody parameters like mass, drag, and center of mass.
 * Auto Reset Threshold: If the velocity of the bone exceeds the threshold value, it will be reset to its original position. This can prevent the explosion of the physics simulation.
 
+### Improvements (v2025.11)
+* Optimized joint setup for more accurate physics interactions.
+* Handles situation when anchor positions are not set, improving stability for certain models.
+* Improved collision group handling to prevent unwanted interactions between model parts.
+
 ## Groups
 
 Joints and colliders are automatically grouped based on how they are connected together.

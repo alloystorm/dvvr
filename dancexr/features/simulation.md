@@ -31,6 +31,11 @@ The particle dynamics system replaces traditional physics for hair, clothing, an
   - Turbulence forces for individual groups
   - Wind fields for localized effects like fans or tunnels
 
+- **Improved Simulation (v2025.11)**:
+  - Better line simulation
+  - Vertical layout cloth that supports split strips
+  - Enhanced cloth material properties with audio visualization support and transparency
+
 ---
 
 ### Cloth Simulation
@@ -42,6 +47,10 @@ The cloth simulation system supports XPS and PMX models with features like unbre
   - Anchoring to body parts
   - Interaction settings for dragging and tearing
   - Self-collision and physics properties
+  - **Physics Improvements (v2025.10)**:
+    - New shear and bend constraints for skirt physics
+    - Improved stability of collision and friction solving
+    - Support for complex colliders like holes
 
 - **Performance Tips**:
   - Use a fixed frame rate for optimal simulation

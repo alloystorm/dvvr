@@ -34,3 +34,8 @@ These settings are only available in VR mode.
 * UI Always On Top: Ensure the UI is always rendered on top even when it is obscured by other objects. This is on by default.
 * UI Auto Return: When this is on, the UI will gradually move back to your field of view when it is out of view. 
 * UI Distance: Controls how far away the UI is from your head.
+
+## Foveated Rendering (v2025.12)
+* Added support for OpenXR foveated rendering.
+* Works on supported PC VR headsets.
+* Works on Quest Standalone in both AR and VR modes.

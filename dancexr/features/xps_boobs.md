@@ -28,3 +28,4 @@ Select bones and create physics components for boobs physics.
 * Counter Gravity: Lift the neutral position of the boobs by the selected degrees to counter the effect of gravity pulling them down.
 * Visualize: Visualize the created colliders.
 * Softbody: If the selected bone has many child bones, enabling this option will create a mesh of joints for the child bones to allow them to move individually.
+* Suspension Configuration (v2025.11): New suspension configuration for clearer physics setup for boobs physics.
