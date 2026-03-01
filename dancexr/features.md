@@ -26,7 +26,7 @@ sidebar:
 | [Actor Menu, Tools, and Interaction](features/actor_tools)
 | [Attach To Actor](features/attach-to-actor.md) | [2025.2](releases/2025.2) | PRO
 | [Dressing System (Material Morphs and XPS Optionals)](features/optionals) || PRO
-| [Alternative Textures](features/alternative_textures)
+| [Alternative Textures](features/alternative_textures) | [2026.1](releases/2026.1)
 | [Facial Control](features/facial_control)
 | [Blink, Breath, and Eye Contact](features/eyecontact)
 | [Feet Adjustments](features/feet_adjustments)
@@ -38,7 +38,7 @@ sidebar:
 | [Global Material Settings](features/material_global.md)
 | [Toon Shading](features/toon_shading.md)
 | Material Categories
-| - [Skin Materials](features/material_skin.md)
+| - [Skin Materials](features/material_skin.md) | [2026.1](releases/2026.1)
 | - [Hair Materials](features/material_hair.md)
 | - [Eyes Materials](features/material_eyes.md)
 | - [Lips Materials](features/material_lips.md)
@@ -152,7 +152,7 @@ sidebar:
 | [Ray tracing Effects](features/raytracing.md) | PC[^1]
 | [Multi-Language Support](features/languages.md)
 | [Input Settings](features/controls)
-| [Physics Config](features/system_physics)
+| [Physics Config](features/system_physics) | [2026.1](releases/2026.1)
 | [Auto Update](features/autoupdate) || PRO
 | [System Presets](features/system_presets.md) | [2024.1](releases/2024.1.md)
 |

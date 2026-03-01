@@ -13,6 +13,11 @@ sidebar:
 
 These are configurations for system-wide physics simulation. You can enable or disable physics simulation, adjust gravity, time scale, and other settings.
 
+### Recent Engine Updates
+* **Collision Optimization**: Refactored simulation jobs to optimize collision handling order.
+* **Joint Stability**: Improved twist angle calculation and impulse calculation in joints.
+* **Inertia**: Simplified inertia tensor calculations for better performance and stability.
+
 ## Settings
 
 - Enabled: Turn physics simulation on and off

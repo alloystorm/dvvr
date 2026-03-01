@@ -29,3 +29,8 @@ The system automatically puts materials that are named with certain keywords int
 * Detail Map Bump: Intensity of the normal map of the detail texture.
 * Detail Map Smooth: Smoothness of the detail texture.
 * Detail Map AO: Ambient occlusion of the detail texture.
+* Detail Mask: Controls for detail masks, including flip options and gloss property adjustments.
+* Override Mask: Override mask settings in the Skin Shader.
+* Occlusion: Default occlusion effect is set to 0 for skin materials to prevent darkening issues.
+* Wetness Effect: Turn on wet mode when a wet texture is available for an enhanced wet appearance.
+* Bump Effects: Adjust the bump effect of the wetness texture for more realism.
