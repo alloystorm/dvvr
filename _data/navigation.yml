@@ -1,4 +1,10 @@
 releases:
+  - title: 2026
+    children:
+    - title: Release 2026.2
+      url: /dancexr/releases/2026.2
+    - title: Release 2026.1
+      url: /dancexr/releases/2026.1
   - title: 2025
     children:
     - title: Release 2025.12
@@ -108,13 +114,19 @@ docs:
   - title: Releases
     url: /dancexr/releases/
     children:
-    - title: "2025.12 (Early Access)"
-      url: /dancexr/releases/2025.12
-    - title: "2025.11"
-      url: /dancexr/releases/2025.11
+    - title: "2026.2 (Early Access)"
+      url: /dancexr/releases/2026.2
+    - title: "2026.1"
+      url: /dancexr/releases/2026.1
 
 
 releases-zh:
+  - title: 2026
+    children:
+    - title: 发布 2026.2
+      url: /zh/dancexr/releases/2026.2
+    - title: 发布 2026.1
+      url: /zh/dancexr/releases/2026.1
   - title: 2025
     children:
     - title: 发布 2025.12
@@ -224,12 +236,18 @@ docs-zh:
   - title: 发布
     url: /zh/dancexr/releases/
     children:
-    - title: "2025.12 (提前访问)"
-      url: /zh/dancexr/releases/2025.12
-    - title: "2025.11"
-      url: /zh/dancexr/releases/2025.11
+    - title: "2026.2 (提前访问)"
+      url: /zh/dancexr/releases/2026.2
+    - title: "2026.1"
+      url: /zh/dancexr/releases/2026.1
 
 releases-tw:
+  - title: 2026
+    children:
+    - title: 發布 2026.2
+      url: /tw/dancexr/releases/2026.2
+    - title: 發布 2026.1
+      url: /tw/dancexr/releases/2026.1
   - title: 2025
     children:
     - title: 發布 2025.12
@@ -339,12 +357,18 @@ docs-tw:
   - title: 發布
     url: /tw/dancexr/releases/
     children:
-    - title: "2025.12 (早期訪問)"
-      url: /tw/dancexr/releases/2025.12
-    - title: "2025.11"
-      url: /tw/dancexr/releases/2025.11
+    - title: "2026.2 (提前訪問)"
+      url: /tw/dancexr/releases/2026.2
+    - title: "2026.1"
+      url: /tw/dancexr/releases/2026.1
 
 releases-jp:
+  - title: 2026
+    children:
+    - title: リリース 2026.2
+      url: /jp/dancexr/releases/2026.2
+    - title: リリース 2026.1
+      url: /jp/dancexr/releases/2026.1
   - title: 2025
     children:
     - title: リリース 2025.12
@@ -454,12 +478,18 @@ docs-jp:
   - title: リリース
     url: /jp/dancexr/releases/
     children:
-    - title: "2025.12 (アーリーアクセス)"
-      url: /jp/dancexr/releases/2025.12
-    - title: "2025.11"
-      url: /jp/dancexr/releases/2025.11
+    - title: "2026.2 (アーリーアクセス)"
+      url: /jp/dancexr/releases/2026.2
+    - title: "2026.1"
+      url: /jp/dancexr/releases/2026.1
 
 releases-kr:
+  - title: 2026
+    children:
+    - title: 출시 2026.2
+      url: /kr/dancexr/releases/2026.2
+    - title: 출시 2026.1
+      url: /kr/dancexr/releases/2026.1
   - title: 2025
     children:
     - title: 출시 2025.12
@@ -569,8 +599,8 @@ docs-kr:
   - title: 출시
     url: /kr/dancexr/releases/
     children:
-    - title: "2025.12 (얼리 액세스)"
-      url: /kr/dancexr/releases/2025.12
-    - title: "2025.11"
-      url: /kr/dancexr/releases/2025.11
+    - title: "2026.2 (얼리 액세스)"
+      url: /kr/dancexr/releases/2026.2
+    - title: "2026.1"
+      url: /kr/dancexr/releases/2026.1
 

@@ -1,7 +1,7 @@
 import subprocess
 import os
 import re
-from utils import translate
+from utils import translate_local
 from utils import correct_page
 from utils import extract_section
 
@@ -100,7 +100,7 @@ def translate_page(english_content, target_files):
             translated_chunks = []
             for chunk in chunks:
                 print(f"Translating chunk {index}/{len(chunks)} lang: {lang}...")
-                translated_chunks.append(translate(chunk, lang))
+                translated_chunks.append(translate_local(chunk, lang))
             # Combine the translated chunks and save the result
             translated_content = "\n## ".join(translated_chunks)
             if (links):
@@ -121,7 +121,7 @@ def translate_page(english_content, target_files):
                 if title_line:
                     line = title_line.group()
                     title = line.replace("title:", "").strip()
-                    translated_title = translate(title, lang)
+                    translated_title = translate_local(title, lang)
                     # print("[title]" + line + " " + title + " " + translated_title)
                     fm = fm.replace(title, translated_title)
                     # print(f"[{fm}]")

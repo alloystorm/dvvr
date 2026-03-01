@@ -194,6 +194,35 @@ def translate(text, target_language):
     translated_text = response.json()['choices'][0]['message']['content'].strip()
     return translated_text
 
+def translate_local(text, target_language, model="phi4"):
+    url = "http://localhost:11434/api/chat"
+    headers = {
+        "Content-Type": "application/json"
+    }
+
+    with open("script/translate_page_prompt.txt", 'r', encoding='utf-8') as f:
+        system_message = f.read()
+
+    original = ', '.join([f"{key}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
+    translated = ', '.join([f"{value[target_language]}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
+    system_message = system_message.format(
+        target_language=lang_names[target_language], 
+        original=original,
+        translation=translated
+    )
+
+    data = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": system_message},
+            {"role": "user", "content": text}
+        ],
+        "stream": False
+    }
+    response = requests.post(url, json=data, headers=headers)
+    translated_text = response.json()['message']['content'].strip()
+    return translated_text
+
 def correct(text):
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
