@@ -18,7 +18,7 @@ sidebar:
 | [Discovery App](features/discovery) | [2025.6](releases/2025.6.md)
 | [Organizing Model Files Best Practices](preparecontent#3d-models)
 | [Tagging and Search](features/tagging) 
-| [Model Cache & Loader Options](features/loader_options) 
+| [Model Cache & Loader Options](features/loader_options) | [2026.3](releases/2026.3)
 | [Playlists](features/actor_playlist)
 | [Formation](features/formation)
 |
@@ -38,7 +38,7 @@ sidebar:
 | [Global Material Settings](features/material_global.md)
 | [Toon Shading](features/toon_shading.md)
 | Material Categories
-| - [Skin Materials](features/material_skin.md) | [2026.1](releases/2026.1)
+| - [Skin Materials](features/material_skin.md) | [2026.2](releases/2026.2)
 | - [Hair Materials](features/material_hair.md)
 | - [Eyes Materials](features/material_eyes.md)
 | - [Lips Materials](features/material_lips.md)
@@ -47,7 +47,7 @@ sidebar:
 | - [Custom 1 Materials](features/material_custom1.md)
 | - [Custom 2 Materials](features/material_custom1.md)
 | [Texture Enhancement](features/texture_enhancement.md) || PRO
-| [Sweat Effect](features/sweat_effect.md) || NSFW
+| [Sweat Effect](features/sweat_effect.md) | [2026.2](releases/2026.2) | NSFW
 | [Material List](features/material_settings.md#material-list) || PRO
 |
 | *Pro Features*
@@ -85,7 +85,7 @@ sidebar:
 | *Audio & Video*
 | [Video Playback](features/video_playback) | [2024.4](releases/2024.4.md) | PRO
 | [Audio Playback Options](features/audio_options)
-| [Music Timing](features/music_timing)
+| [Music Timing](features/music_timing) | [2026.2](releases/2026.2)
 |
 | *Managing Motions*
 | [Playback options](features/playback_options)
@@ -96,8 +96,8 @@ sidebar:
 | [Keyframe Animation](features/keyframe_animation.md) | [2025.3](releases/2025.3.md) | PRO
 |
 | *VMD & BVH Motions*
-| [Dance Set](features/dance_set)
-| [Motion Settings](features/motion_settings)
+| [Dance Set](features/dance_set) | [2026.3](releases/2026.3)
+| [Motion Settings](features/motion_settings) | [2026.2](releases/2026.2)
 |
 | *Procedural Motions*
 | [Idle Motion](features/idle_motion.md)
@@ -148,7 +148,7 @@ sidebar:
 | [Google Drive Integration](features/googledrive)
 | [Content Library for Android and Quest](content_android_quest)
 | [Display & UI](features/display_settings)
-| [Graphic Settings](features/graphics)
+| [Graphic Settings](features/graphics) | [2026.2](releases/2026.2)
 | [Ray tracing Effects](features/raytracing.md) | PC[^1]
 | [Multi-Language Support](features/languages.md)
 | [Input Settings](features/controls)

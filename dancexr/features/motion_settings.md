@@ -45,3 +45,8 @@ Loop Blend: When this is greater than 0, the animation will be blend between sta
 Play From Start Then Loop: When this is on, the animation will play from 0 to end and then loop from start. When this is off, the animation will loop from start to end. (start and end here are the values you set for Loop Start and Loop End)
 
 Speed: The playback speed. By default all the motions are assumed to be 30fps. If your motion is 60fps, set this speed to 2.
+
+## Motion smoothing (v2026.2)
+DanceXR 2026.2 introduces an advanced physics-based motion smoothing algorithm that enhances fluidity while simulating realistic acceleration and damping effects to recreate natural motion dynamics.
+
+Smoothing is enabled by default for all motions. You can disable it entirely or fine-tune the smoothing parameters for individual joints to match your preferences. Compared to the previous algorithm, this version also reduces latency for a more responsive feel.

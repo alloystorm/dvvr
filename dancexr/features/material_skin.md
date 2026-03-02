@@ -34,3 +34,6 @@ The system automatically puts materials that are named with certain keywords int
 * Occlusion: Default occlusion effect is set to 0 for skin materials to prevent darkening issues.
 * Wetness Effect: Turn on wet mode when a wet texture is available for an enhanced wet appearance.
 * Bump Effects: Adjust the bump effect of the wetness texture for more realism.
+
+## Shader improvements (v2026.2)
+DanceXR 2026.2 updates the skin shader to provide a more realistic skin texture appearance, improving how lighting and detail interact with skin materials across all supported platforms.

@@ -24,3 +24,8 @@ Dance Set have individual [settings for each motion](/dancexr/features/motion_se
 
 ## [Remix](/dancexr/features/remix)
 Remix in DanceXR means using motion data from one dance set with the audio from another dance set. With this feature, you can adapt motions for different audio. And it will automatically adjust speed to match the motion and music.
+
+## VMD2PNG (v2026.3)
+[VMD2PNG](https://github.com/alloystorm/vmd2png) is an open-source tool that encodes VMD motion data into a PNG image file, offering a smaller file size, easy sharing, and a visual representation of the motion data.
+
+DanceXR 2026.3 supports loading motion from VMD2PNG files. You can load them by dragging and dropping the PNG file into the application window, or by placing the PNG files in your content library alongside other motion files.

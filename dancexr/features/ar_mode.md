@@ -18,3 +18,10 @@ On the Quest, there are 2 separate versions, DanceXR Mix is the AR version and t
 ## VR Options
 * Occulusion: This option will make the virtual objects appear behind real objects in the scene. This is useful when you want to have a virtual object appear behind a real object in the scene. Please note that the occulusion is not perfect and may not work well in all situations.
 * Shadow Only: This option allows virtual objects to drop shadows on real objects in the scene. This often gets blocked by the Occulusion so you might want to disable Occulusion when you want to see the shadows.
+
+## VR ease of use (v2026.3)
+DanceXR 2026.3 makes switching between VR and desktop mode more convenient:
+
+* The app now initializes VR on startup and automatically falls back to desktop mode when no headset is detected, maximizing compatibility across VR platforms.
+* A new **Exit VR** button lets you return to desktop mode without putting on the headset.
+* Entering VR from desktop requires only a single click on the **VR** item in the scene menu.

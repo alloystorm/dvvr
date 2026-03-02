@@ -23,3 +23,6 @@ What you need to do is to play the music, and then tap on the button every time 
 Previously we have a command line tool bundled with the application to parse each music file in the library and generate the timing information, that method still works but is a little hard to use and only supports WAV format and not able to read from ZIP. Video for the old method:   
 
 {% include video id="chI-3GQS08Q" provider="youtube" %}
+
+## Audio timing improvements (v2026.2)
+DanceXR 2026.2 includes improved audio timing synchronization that further reduces audio/motion desynchronization and eliminates occasional stuttering caused by frame-rate fluctuations. In v2026.3, an additional fix addresses oscillation that could be introduced by audio time smoothing when there are large fluctuations in frame rate.
