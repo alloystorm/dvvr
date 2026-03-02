@@ -14,7 +14,7 @@ header:
     - label: 下載
       url: /zh/dancexr/download
     - label: 最新版本
-      url: /zh/dancexr/releases/2024.11
+      url: /zh/dancexr/releases/2026.3
 ---
 
 [Eng](/dancexr) | [繁中](/tw/dancexr) | [日本語](/jp/dancexr) | [한국어](/kr/dancexr) | [简中](/zh/dancexr)
