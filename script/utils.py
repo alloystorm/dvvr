@@ -22,6 +22,12 @@ api_key_path = os.path.expanduser("~/.openai/auth.json")
 api_key = get_api_key_from_file(api_key_path)
 # print(api_key)
 
+try:
+    with open("script/glossary.json", "r", encoding="utf-8") as f:
+        glossary_data = json.load(f)
+except FileNotFoundError:
+    glossary_data = {}
+
 translation = {
     'alpha': {
         'zh': '透明度',
@@ -176,10 +182,16 @@ def translate(text, target_language):
 
     original = ', '.join([f"{key}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
     translated = ', '.join([f"{value[target_language]}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
+    
+    # Filter the glossary to only include terms present in the current text
+    relevant_glossary = {k: v for k, v in glossary_data.items() if k.lower() in text.lower()}
+    glossary_text = "\n".join([f"- {k}: {v}" for k, v in relevant_glossary.items()]) if relevant_glossary else "None"
+
     system_message = system_message.format(
         target_language=lang_names[target_language], 
         original=original,
-        translation=translated
+        translation=translated,
+        glossary=glossary_text
     )
 
     data = {
@@ -192,6 +204,13 @@ def translate(text, target_language):
     }
     response = requests.post(url, json=data, headers=headers)
     translated_text = response.json()['choices'][0]['message']['content'].strip()
+    
+    # Strip <think> or <thinking> traces
+    thinking_match = re.search(r'<(thinking|think)>(.*?)</\1>', translated_text, flags=re.DOTALL)
+    if thinking_match:
+        print(f"Thinking trace generated ({len(thinking_match.group(2))} chars)")
+        translated_text = re.sub(r'<(thinking|think)>.*?</\1>', '', translated_text, flags=re.DOTALL).strip()
+        
     return translated_text
 
 def translate_local(text, target_language, model="qwen3"):
@@ -205,10 +224,16 @@ def translate_local(text, target_language, model="qwen3"):
 
     original = ', '.join([f"{key}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
     translated = ', '.join([f"{value[target_language]}" for i, (key, value) in enumerate(translation.items()) if target_language in value])
+    
+    # Filter the glossary to only include terms present in the current text
+    relevant_glossary = {k: v for k, v in glossary_data.items() if k.lower() in text.lower()}
+    glossary_text = "\n".join([f"- {k}: {v}" for k, v in relevant_glossary.items()]) if relevant_glossary else "None"
+
     system_message = system_message.format(
         target_language=lang_names[target_language], 
         original=original,
-        translation=translated
+        translation=translated,
+        glossary=glossary_text
     )
 
     data = {
@@ -222,6 +247,13 @@ def translate_local(text, target_language, model="qwen3"):
     response = requests.post(url, json=data, headers=headers)
     print(response)
     translated_text = response.json()['message']['content'].strip()
+    
+    # Strip <think> or <thinking> traces
+    thinking_match = re.search(r'<(thinking|think)>(.*?)</\1>', translated_text, flags=re.DOTALL)
+    if thinking_match:
+        print(f"Thinking trace generated ({len(thinking_match.group(2))} chars)")
+        translated_text = re.sub(r'<(thinking|think)>.*?</\1>', '', translated_text, flags=re.DOTALL).strip()
+        
     return translated_text
 
 def correct(text):
