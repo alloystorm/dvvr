@@ -194,7 +194,7 @@ def translate(text, target_language):
     translated_text = response.json()['choices'][0]['message']['content'].strip()
     return translated_text
 
-def translate_local(text, target_language, model="phi4"):
+def translate_local(text, target_language, model="qwen3"):
     url = "http://localhost:11434/api/chat"
     headers = {
         "Content-Type": "application/json"
@@ -220,6 +220,7 @@ def translate_local(text, target_language, model="phi4"):
         "stream": False
     }
     response = requests.post(url, json=data, headers=headers)
+    print(response)
     translated_text = response.json()['message']['content'].strip()
     return translated_text
 
