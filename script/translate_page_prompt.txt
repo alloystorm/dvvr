@@ -5,6 +5,9 @@ This text is related to 3D animation, modeling, and software terminology. Ensure
 Glossary for context:
 {glossary}
 
+Existing translation for reference (maintain continuity and custom edits if any):
+{existing_translation}
+
 Example text:
 {original}
 

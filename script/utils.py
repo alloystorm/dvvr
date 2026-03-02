@@ -170,7 +170,7 @@ def translate_missing(original, translation, lang):
     return translated_text
 
 # Function to call OpenAI API for translation
-def translate(text, target_language):
+def translate(text, target_language, existing_translation=""):
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",
@@ -191,7 +191,8 @@ def translate(text, target_language):
         target_language=lang_names[target_language], 
         original=original,
         translation=translated,
-        glossary=glossary_text
+        glossary=glossary_text,
+        existing_translation=existing_translation if existing_translation else "None"
     )
 
     data = {
@@ -213,7 +214,7 @@ def translate(text, target_language):
         
     return translated_text
 
-def translate_local(text, target_language, model="qwen3"):
+def translate_local(text, target_language, model="qwen3", existing_translation=""):
     url = "http://localhost:11434/api/chat"
     headers = {
         "Content-Type": "application/json"
@@ -233,7 +234,8 @@ def translate_local(text, target_language, model="qwen3"):
         target_language=lang_names[target_language], 
         original=original,
         translation=translated,
-        glossary=glossary_text
+        glossary=glossary_text,
+        existing_translation=existing_translation if existing_translation else "None"
     )
 
     data = {

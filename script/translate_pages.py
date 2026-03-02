@@ -97,10 +97,34 @@ def translate_page(english_content, target_files):
     try:
         index = 0
         for lang, dst_file_path in target_files:
+            existing_translation = ""
+            if dst_file_path and os.path.exists(dst_file_path):
+                with open(dst_file_path, 'r', encoding='utf-8') as f:
+                    existing_translation = f.read()
+
             translated_chunks = []
+            index = 0
             for chunk in chunks:
+                index += 1
                 print(f"Translating chunk {index}/{len(chunks)} lang: {lang}...")
-                translated_chunks.append(translate_local(chunk, lang))
+                
+                max_retries = 3
+                translated_chunk = ""
+                for attempt in range(max_retries):
+                    translated_chunk = translate_local(chunk, lang, existing_translation=existing_translation)
+                    
+                    # Validation
+                    orig_sections = len(re.findall(r'^#+\s', chunk, flags=re.MULTILINE))
+                    trans_sections = len(re.findall(r'^#+\s', translated_chunk, flags=re.MULTILINE))
+                    orig_bullets = len(re.findall(r'^[\s]*([-*]|\d+\.)\s', chunk, flags=re.MULTILINE))
+                    trans_bullets = len(re.findall(r'^[\s]*([-*]|\d+\.)\s', translated_chunk, flags=re.MULTILINE))
+                    
+                    if orig_sections == trans_sections and orig_bullets == trans_bullets:
+                        break
+                    else:
+                        print(f"Validation failed (Attempt {attempt+1}/{max_retries}). Sections: {orig_sections} vs {trans_sections}, Bullets: {orig_bullets} vs {trans_bullets}. Retrying...")
+                
+                translated_chunks.append(translated_chunk)
             # Combine the translated chunks and save the result
             translated_content = "\n## ".join(translated_chunks)
             if (links):
