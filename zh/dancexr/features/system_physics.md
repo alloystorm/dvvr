@@ -1,16 +1,21 @@
 ---
 locale: zh-CN
 layout: single
-title: 系统物理
+title: 物理系统
 toc: true
 sidebar:
   nav: "docs-zh"
 ---
 [Eng](/dancexr/features/system_physics) | [繁中](/tw/dancexr/features/system_physics) | [日本語](/jp/dancexr/features/system_physics) | [한국어](/kr/dancexr/features/system_physics) | [简中](/zh/dancexr/features/system_physics)
 
-## 系统范围的物理设置
+## 系统范围物理设置
 
 这些是系统范围物理模拟的配置。您可以启用或禁用物理模拟，调整重力、时间比例和其他设置。
+
+### 最新引擎更新
+* **碰撞优化**：重构模拟任务以优化碰撞处理顺序。
+* **关节稳定性**：改进关节的扭转角度计算和冲量计算。
+* **惯性**：简化惯性张量计算以提高性能和稳定性。
 
 ## 设置
 
