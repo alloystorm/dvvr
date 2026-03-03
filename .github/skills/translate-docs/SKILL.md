@@ -14,6 +14,10 @@ Source English pages live under `dancexr/`. Localized counterparts mirror that s
 | Traditional Chinese | `tw/dancexr/` | `zh-TW` | `-tw` |
 | Korean | `kr/dancexr/` | `ko-KR` | `-kr` |
 
+Use the provided tool to find the pages that needs to be translated or updated, then create localized pages or update existing translation. 
+
+Do not use the translation scripts under /script/ for the actual translation since they are out-dated and worse in quality.
+
 ---
 
 ## Step 1: Identify pages to translate
