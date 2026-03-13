@@ -6,7 +6,7 @@ google_analytics: UA-147265380-2
 include:
   - app-ads.txt
 logo: /images/icon.png
-minimal_mistakes_skin: "dark"
+# minimal_mistakes_skin: "dark"
 breadcrumbs: false
 url: https://vrstormlab.com/
 
