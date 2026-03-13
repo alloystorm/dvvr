@@ -14,21 +14,19 @@ Source English pages live under `dancexr/`. Localized counterparts mirror that s
 | Traditional Chinese | `tw/dancexr/` | `zh-TW` | `-tw` |
 | Korean | `kr/dancexr/` | `ko-KR` | `-kr` |
 
+Use the provided tool to find the pages that needs to be translated or updated, then create localized pages or update existing translation. 
+
+Do not use the translation scripts under /script/ for the actual translation since they are out-dated and worse in quality.
+
 ---
 
 ## Step 1: Identify pages to translate
 
-For each `.md` file found by walking the `dancexr/` source tree:
+Run `python script/find_untranslated_pages.py --json` in the terminal to get a list of pages that need translation. 
+The tool automatically checks if the localized files are missing or if the English source file has a more recent `git commit` history than the localized file.
+It will output a JSON array of objects specifying the `file` path and a list of `languages` it needs to be translated into.
 
-1. For every language prefix (`jp`, `zh`, `tw`, `kr`), derive the destination path by replacing the `dancexr/` root with `<lang>/dancexr/`.
-2. **Missing page**: if the destination file does not exist, it must be translated.
-3. **Outdated page**: if both files exist, use the same logic as `is_file_newer_than_translation` in `script/translate_pages.py`:
-   - Run `git log -1 --pretty=format:%ci -- <file>` for both the source and the destination.
-   - If the source has a more recent commit date than the destination, the translation is outdated and must be updated.
-   - If the source has no commit history, skip it.
-   - If the destination has no commit history, treat it as needing translation.
-
-Only proceed to the following steps for files that are missing or outdated.
+Only proceed to the following steps for the files and languages identified by this script.
 
 ---
 

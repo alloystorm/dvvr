@@ -16,7 +16,7 @@ sidebar:
 | [디스커버리 앱](features/discovery) | [2025.6](releases/2025.6.md) |
 | [모델 파일 구성 모범 사례](preparecontent#3d-models) |
 | [태깅 및 검색](features/tagging) |
-| [모델 캐시 및 로더 옵션](features/loader_options) |
+| [모델 캐시 및 로더 옵션](features/loader_options) | [2026.3](releases/2026.3) |
 | [재생 목록](features/actor_playlist) |
 | [형성](features/formation) |
 |
@@ -24,7 +24,7 @@ sidebar:
 | [배우 메뉴, 도구 및 상호작용](features/actor_tools) |
 | [배우에 붙이기](features/attach-to-actor.md) | [2025.2](releases/2025.2) | PRO |
 | [복장 시스템 (재질 모프 및 XPS 선택 사항)](features/optionals) || PRO |
-| [대체 텍스처](features/alternative_textures) |
+| [대체 텍스처](features/alternative_textures) | [2026.1](releases/2026.1) |
 | [얼굴 제어](features/facial_control) |
 | [눈 깜빡임, 호흡 및 눈 맞춤](features/eyecontact) |
 | [발 조정](features/feet_adjustments) |
@@ -36,7 +36,7 @@ sidebar:
 | [전역 재료 설정](features/material_global.md) |
 | [툰 셰이딩](features/toon_shading.md) |
 | 재료 카테고리 |
-| - [피부 재료](features/material_skin.md) |
+| - [피부 재료](features/material_skin.md) | [2026.2](releases/2026.2) |
 | - [머리카락 재료](features/material_hair.md) |
 | - [눈 재료](features/material_eyes.md) |
 | - [입술 재료](features/material_lips.md) |
@@ -45,7 +45,7 @@ sidebar:
 | - [사용자 정의 1 재료](features/material_custom1.md) |
 | - [사용자 정의 2 재료](features/material_custom1.md) |
 | [텍스처 향상](features/texture_enhancement.md) || PRO |
-| [땀 효과](features/sweat_effect.md) || NSFW |
+| [땀 효과](features/sweat_effect.md) | [2026.2](releases/2026.2) | NSFW |
 | [재료 목록](features/material_settings.md#material-list) || PRO |
 |
 | *PRO 기능* |
@@ -71,7 +71,7 @@ sidebar:
 | - [가슴 물리학](features/xps_boobs.md) || PRO |
 | - [머리카락 물리학](features/xps_hair.md) |
 | - [의복 물리학](features/xps_cloth.md) |
-| - [치마 물리학](features/xps_skirt.md) |
+| - [치마 물리학](features/xps_skirt.md) | [2026.1](releases/2026.1) |
 | - [소프트 바디 물리학](features/xps_softbody.md) || PRO |
 | - [객체 분리](features/xps_detach.md) |
 | [사용자 정의 상속 모션](features/custom_inherit.md) |
@@ -83,7 +83,7 @@ sidebar:
 | *오디오 및 비디오* |
 | [비디오 재생](features/video_playback) | [2024.4](releases/2024.4.md) | PRO |
 | [오디오 재생 옵션](features/audio_options) |
-| [음악 타이밍](features/music_timing) |
+| [음악 타이밍](features/music_timing) | [2026.2](releases/2026.2) |
 |
 | *모션 관리* |
 | [재생 옵션](features/playback_options) |
@@ -94,8 +94,8 @@ sidebar:
 | [키프레임 애니메이션](features/keyframe_animation.md) | [2025.3](releases/2025.3.md) | PRO |
 |
 | *VMD 및 BVH 모션* |
-| [댄스 세트](features/dance_set) |
-| [모션 설정](features/motion_settings) |
+| [댄스 세트](features/dance_set) | [2026.3](releases/2026.3) |
+| [모션 설정](features/motion_settings) | [2026.2](releases/2026.2) |
 |
 | *프로시저 모션* |
 | [대기 모션](features/idle_motion.md) |
@@ -146,11 +146,11 @@ sidebar:
 | [구글 드라이브 통합](features/googledrive) |
 | [안드로이드 및 퀘스트용 콘텐츠 라이브러리](content_android_quest) |
 | [디스플레이 및 UI](features/display_settings) |
-| [그래픽 설정](features/graphics) |
+| [그래픽 설정](features/graphics) | [2026.2](releases/2026.2) |
 | [레이 트레이싱 효과](features/raytracing.md) | PC[^1] |
 | [다국어 지원](features/languages.md) |
 | [입력 설정](features/controls) |
-| [물리 구성](features/system_physics) |
+| [물리 구성](features/system_physics) | [2026.1](releases/2026.1) |
 | [자동 업데이트](features/autoupdate) || PRO |
 | [시스템 프리셋](features/system_presets.md) | [2024.1](releases/2024.1.md) |
 |
