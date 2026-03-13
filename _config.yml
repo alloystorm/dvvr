@@ -3,8 +3,10 @@ remote_theme: "alloystorm/minimal-mistakes"
 title: VR Storm Lab
 description: Animate any character, anywhere. 
 google_analytics: UA-147265380-2
-include: app-ads.txt
+include:
+  - app-ads.txt
 logo: /images/icon.png
+minimal_mistakes_skin: "dark"
 breadcrumbs: false
 url: https://vrstormlab.com/
 

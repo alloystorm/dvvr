@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DanceXR: Animate any character model effortlessly, anywhere. The definitive tool for MMD and XPS character animation with full VR support.">
+  <meta property="og:title" content="DanceXR — Animate any character, anywhere.">
+  <meta property="og:description" content="The ultimate character model viewer for MMD, XPS and beyond. PC, Mac, VR, Android, iOS.">
+  <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_b5e70220ed6de77016f43e38d9c196324dfb65a9.1920x1080.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>DanceXR — Animate any character, anywhere.</title>
+  <link rel="icon" href="/images/icon.png">
+  <link rel="stylesheet" href="/assets/css/redesign.css">
+  <style>
+    /* Fade-in animation for sections */
+    [data-fade] {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+    }
+    [data-fade].visible {
+      opacity: 1;
+      transform: none;
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3717TSDBXS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3717TSDBXS');
+  </script>
+</head>
+<body class="home-page">
+
+  <!-- ===================================================
+       NAVIGATION
+       =================================================== -->
+  <nav class="site-nav" id="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" aria-label="DanceXR home">
+        <img src="/images/icon.png" alt="" width="28" height="28">
+        <span>DanceXR</span>
+      </a>
+      <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="/dancexr">Overview</a></li>
+        <li><a href="/dancexr/features">Features</a></li>
+        <li><a href="/dancexr/releases/2026.3">What's New</a></li>
+        <li><a href="/dancexr/download" class="nav-cta">Download</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===================================================
+       HERO
+       =================================================== -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-slide slide-1" style="background-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_b5e70220ed6de77016f43e38d9c196324dfb65a9.1920x1080.jpg')"></div>
+      <div class="hero-slide slide-2" style="background-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_defee5a0a16216577fb5626e173be12a0f6d5f9f.1920x1080.jpg')"></div>
+      <div class="hero-slide slide-3" style="background-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_bf8ea5e96094dda7f8b3777ea93ac7cd699b7922.1920x1080.jpg')"></div>
+      <div class="hero-slide slide-4" style="background-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_2e540f8c1b38f0bb7187d0d5adf74f903ec930d5.1920x1080.jpg')"></div>
+      <div class="hero-slide slide-5" style="background-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_b9e2e83e23a1a17655b037288c1dfe8b4d21b006.1920x1080.jpg')"></div>
+      <div class="hero-slide slide-6" style="background-image:url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_0093eb7b57d00491e898de22a44125fdec7bf91b.1920x1080.jpg')"></div>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">DanceXR</p>
+      <h1 class="hero-title">Animate any character,<br>anywhere.</h1>
+      <p class="hero-sub">The ultimate character model viewer for MMD, XPS and beyond.<br>Immersive VR. PC, Mac, Android, iOS.</p>
+      <div class="hero-actions">
+        <a href="/dancexr/download" class="btn btn-primary">Try for Free</a>
+        <a href="https://store.steampowered.com/app/1905510/DanceXR/" class="btn btn-secondary" target="_blank" rel="noopener">Buy on Steam</a>
+      </div>
+    </div>
+    <a href="#overview" class="hero-scroll-hint" aria-label="Scroll to overview">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- ===================================================
+       PLATFORM STRIP
+       =================================================== -->
+  <section class="platform-strip" id="overview" aria-label="Available platforms">
+    <div class="container">
+      <p class="strip-label">Available on</p>
+      <div class="platform-list" role="list">
+        <span class="platform-item">Windows</span>
+        <span class="platform-divider" aria-hidden="true">·</span>
+        <span class="platform-item">macOS</span>
+        <span class="platform-divider" aria-hidden="true">·</span>
+        <span class="platform-item">Meta Quest (VR)</span>
+        <span class="platform-divider" aria-hidden="true">·</span>
+        <span class="platform-item">Android</span>
+        <span class="platform-divider" aria-hidden="true">·</span>
+        <span class="platform-item">iOS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       FEATURE 1 — Any model, any motion
+       =================================================== -->
+  <section class="section" aria-labelledby="f1-title">
+    <div class="section-inner" data-fade>
+      <div class="section-text">
+        <p class="section-label">Universal compatibility</p>
+        <h2 class="section-title" id="f1-title">Bring any character to life.</h2>
+        <p class="section-body">
+          DanceXR loads virtually any MMD (PMX) or XNALara/XPS model and plays VMD or BVH
+          motion files — without manual bone adjustments. The built-in pose converter handles
+          T-pose and A-pose models automatically, fixing common rig issues on the fly.
+        </p>
+        <div class="feature-pills">
+          <span class="pill">PMX / MMD</span>
+          <span class="pill">XNALara / XPS</span>
+          <span class="pill">VMD</span>
+          <span class="pill">BVH</span>
+          <span class="pill">Auto pose conversion</span>
+        </div>
+        <a href="/dancexr/features" class="btn btn-ghost">Browse all features</a>
+      </div>
+      <div class="feature-image">
+        <img
+          src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_defee5a0a16216577fb5626e173be12a0f6d5f9f.1920x1080.jpg"
+          alt="DanceXR character model in action"
+          loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       FEATURE 2 — VR immersion
+       =================================================== -->
+  <section class="section section-light" aria-labelledby="f2-title">
+    <div class="section-inner reverse" data-fade>
+      <div class="section-text">
+        <p class="section-label">Immersive VR</p>
+        <h2 class="section-title" id="f2-title">Step into your world.</h2>
+        <p class="section-body">
+          DanceXR is built for VR from the ground up. Explore your favourite characters
+          in full immersive 3D on Meta Quest or PC VR headsets — walk around them, look
+          them in the eye, and experience every detail at real scale.
+        </p>
+        <div class="stat-row">
+          <div class="stat-item">
+            <div class="stat-value">PC VR</div>
+            <div class="stat-label">SteamVR compatible</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">Quest</div>
+            <div class="stat-label">Standalone & Link</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">VR 180°</div>
+            <div class="stat-label">Creator video export</div>
+          </div>
+        </div>
+        <a href="/dancexr" class="btn btn-ghost" style="margin-top:16px">Learn more</a>
+      </div>
+      <div class="feature-image">
+        <img
+          src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_bf8ea5e96094dda7f8b3777ea93ac7cd699b7922.1920x1080.jpg"
+          alt="DanceXR VR experience"
+          loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       FEATURE 3 — Stage & Environment
+       =================================================== -->
+  <section class="section" aria-labelledby="f3-title">
+    <div class="section-inner" data-fade>
+      <div class="section-text">
+        <p class="section-label">World building</p>
+        <h2 class="section-title" id="f3-title">Your stage. Your rules.</h2>
+        <p class="section-body">
+          Load stage models, set the mood with dynamic lighting, weather effects, and
+          real-time ray tracing. Fine-tune every detail — from cloth physics and shader
+          parameters to procedural motion overlays — for the perfect scene.
+        </p>
+        <div class="feature-pills">
+          <span class="pill">Ray tracing (RT build)</span>
+          <span class="pill">Weather effects</span>
+          <span class="pill">Cloth physics</span>
+          <span class="pill">Procedural motion</span>
+          <span class="pill">Custom lighting</span>
+        </div>
+        <a href="/dancexr/features" class="btn btn-ghost">Explore features</a>
+      </div>
+      <div class="feature-image">
+        <img
+          src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_2e540f8c1b38f0bb7187d0d5adf74f903ec930d5.1920x1080.jpg"
+          alt="DanceXR stage and environment"
+          loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       SCREENSHOT GALLERY
+       =================================================== -->
+  <section class="gallery-section" aria-labelledby="gallery-title">
+    <div class="gallery-header" data-fade>
+      <p class="section-label">Gallery</p>
+      <h2 class="section-title" id="gallery-title">See it in action.</h2>
+    </div>
+    <div class="gallery-grid" data-fade>
+      <div class="gallery-item">
+        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_b9e2e83e23a1a17655b037288c1dfe8b4d21b006.1920x1080.jpg"
+             alt="DanceXR screenshot 5" loading="lazy">
+      </div>
+      <div class="gallery-item">
+        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_0093eb7b57d00491e898de22a44125fdec7bf91b.1920x1080.jpg"
+             alt="DanceXR screenshot 6" loading="lazy">
+      </div>
+      <div class="gallery-item">
+        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_b5e70220ed6de77016f43e38d9c196324dfb65a9.1920x1080.jpg"
+             alt="DanceXR screenshot 1" loading="lazy">
+      </div>
+      <div class="gallery-item">
+        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_defee5a0a16216577fb5626e173be12a0f6d5f9f.1920x1080.jpg"
+             alt="DanceXR screenshot 2" loading="lazy">
+      </div>
+      <div class="gallery-item">
+        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_bf8ea5e96094dda7f8b3777ea93ac7cd699b7922.1920x1080.jpg"
+             alt="DanceXR screenshot 3" loading="lazy">
+      </div>
+      <div class="gallery-item">
+        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1905510/ss_2e540f8c1b38f0bb7187d0d5adf74f903ec930d5.1920x1080.jpg"
+             alt="DanceXR screenshot 4" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       MONTHLY RELEASES
+       =================================================== -->
+  <section class="releases-section" aria-labelledby="releases-title">
+    <div class="releases-inner" data-fade>
+      <div>
+        <div class="release-badge">Monthly updates</div>
+        <h2 class="section-title" id="releases-title">Always growing.</h2>
+        <p class="section-body">
+          New features, improvements, and platform updates ship every month —
+          with Patreon supporters getting early access before the public release
+          arrives on Steam and other stores.
+        </p>
+        <a href="/dancexr/releases/2026.3" class="btn btn-ghost">See what's new in 2026.3</a>
+      </div>
+      <div class="release-card">
+        <p class="release-version">Latest — 2026.3</p>
+        <h3 class="release-headline">March 2026 Release</h3>
+        <div class="release-items">
+          <div class="release-item">Model cache &amp; loader options</div>
+          <div class="release-item">Skin material improvements</div>
+          <div class="release-item">Performance optimizations</div>
+          <div class="release-item">Bug fixes &amp; stability</div>
+        </div>
+        <a href="/dancexr/releases/2026.3" class="btn btn-ghost">Full release notes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================
+       EDITIONS
+       =================================================== -->
+  <section class="editions-section" aria-labelledby="editions-title">
+    <div class="editions-header" data-fade>
+      <p class="section-label">Editions</p>
+      <h2 class="section-title" id="editions-title">Choose your experience.</h2>
+      <p class="section-body" style="max-width:480px;margin:0 auto;">
+        Every edition runs the same core engine. Upgrade anytime to unlock more.
+      </p>
+    </div>
+    <div class="editions-grid" data-fade>
+
+      <!-- Free -->
+      <div class="edition-card">
+        <p class="edition-tier">Free</p>
+        <h3 class="edition-name">Free</h3>
+        <p class="edition-price">Always free</p>
+        <div class="edition-divider"></div>
+        <ul class="edition-features">
+          <li>PMX &amp; XPS model support</li>
+          <li>VMD &amp; BVH motion playback</li>
+          <li>Auto pose conversion</li>
+          <li>Stage &amp; environment loading</li>
+          <li>Lifelike blink, breath &amp; eye contact</li>
+          <li class="locked">Single actor only</li>
+          <li class="locked">No XPS physics</li>
+          <li class="locked">No adult features</li>
+        </ul>
+        <a href="/dancexr/download" class="edition-cta">Download Free</a>
+      </div>
+
+      <!-- Pure -->
+      <div class="edition-card">
+        <p class="edition-tier">Paid</p>
+        <h3 class="edition-name">Pure</h3>
+        <p class="edition-price">Available on Steam</p>
+        <div class="edition-divider"></div>
+        <ul class="edition-features">
+          <li>Everything in Free</li>
+          <li>Multiple actors on stage</li>
+          <li>XPS physics</li>
+          <li>Procedural dance motions</li>
+          <li>Formation system</li>
+          <li>RT / HD / LW build choice</li>
+          <li class="locked">No adult features</li>
+        </ul>
+        <a href="https://store.steampowered.com/app/2193970/DanceXR_Pure/" class="edition-cta" target="_blank" rel="noopener">Get on Steam</a>
+      </div>
+
+      <!-- Pro — featured -->
+      <div class="edition-card featured">
+        <p class="edition-tier">Most popular</p>
+        <h3 class="edition-name">Pro</h3>
+        <p class="edition-price">Steam · Itch.io · Patreon</p>
+        <div class="edition-divider"></div>
+        <ul class="edition-features">
+          <li>Everything in Pure</li>
+          <li>Adult / age-restricted features</li>
+          <li>Outfit &amp; body paint</li>
+          <li>Motion override</li>
+          <li>Accessory system</li>
+          <li>Texture enhancement</li>
+          <li>Rag doll physics</li>
+        </ul>
+        <a href="https://store.steampowered.com/app/1905510/DanceXR/" class="edition-cta" target="_blank" rel="noopener">Get on Steam</a>
+      </div>
+
+      <!-- Creator -->
+      <div class="edition-card">
+        <p class="edition-tier">Creator</p>
+        <h3 class="edition-name">Creator</h3>
+        <p class="edition-price">Patreon exclusive</p>
+        <div class="edition-divider"></div>
+        <ul class="edition-features">
+          <li>Everything in Pro</li>
+          <li>Offline render (4K 60fps)</li>
+          <li>VR 180° video export</li>
+          <li>Frame-rate-independent recording</li>
+          <li>Patreon early access builds</li>
+        </ul>
+        <a href="https://www.patreon.com/dvvr" class="edition-cta" target="_blank" rel="noopener">Join on Patreon</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================================================
+       DOWNLOAD CTA
+       =================================================== -->
+  <section class="download-section" aria-labelledby="download-title">
+    <div data-fade>
+      <p class="section-label">Get DanceXR</p>
+      <h2 class="section-title" id="download-title">Available everywhere.</h2>
+      <p class="section-body">Download the free version or purchase the full experience on your preferred platform.</p>
+    </div>
+    <div class="download-platforms" data-fade>
+
+      <a href="https://store.steampowered.com/app/1905510/DanceXR/" class="dl-card" target="_blank" rel="noopener" aria-label="DanceXR on Steam">
+        <span class="dl-icon">🎮</span>
+        <span class="dl-label">Steam</span>
+        <span class="dl-sublabel">Windows PC · Pro &amp; Pure</span>
+      </a>
+
+      <a href="https://stormlab.itch.io/dancexr" class="dl-card" target="_blank" rel="noopener" aria-label="DanceXR on Itch.io">
+        <span class="dl-icon">🕹️</span>
+        <span class="dl-label">Itch.io</span>
+        <span class="dl-sublabel">PC · Mac · Quest · Android</span>
+      </a>
+
+      <a href="https://stormlab.itch.io/dancexr-quest" class="dl-card" target="_blank" rel="noopener" aria-label="DanceXR for Meta Quest">
+        <span class="dl-icon">🥽</span>
+        <span class="dl-label">Meta Quest</span>
+        <span class="dl-sublabel">Standalone VR</span>
+      </a>
+
+      <a href="https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr" class="dl-card" target="_blank" rel="noopener" aria-label="DanceXR on Google Play">
+        <span class="dl-icon">📱</span>
+        <span class="dl-label">Google Play</span>
+        <span class="dl-sublabel">Android</span>
+      </a>
+
+      <a href="https://apps.apple.com/au/app/dancexr/id6475269158" class="dl-card" target="_blank" rel="noopener" aria-label="DanceXR on App Store">
+        <span class="dl-icon">🍎</span>
+        <span class="dl-label">App Store</span>
+        <span class="dl-sublabel">iPhone &amp; iPad</span>
+      </a>
+
+      <a href="https://www.patreon.com/dvvr" class="dl-card" target="_blank" rel="noopener" aria-label="DanceXR on Patreon">
+        <span class="dl-icon">🎨</span>
+        <span class="dl-label">Patreon</span>
+        <span class="dl-sublabel">Early access · Creator tier</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ===================================================
+       FOOTER
+       =================================================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="/images/icon.png" alt="DanceXR" width="24" height="24" style="border-radius:5px">
+          <span>VR Storm Lab</span>
+        </div>
+        <nav class="footer-social" aria-label="Social links">
+          <a href="https://www.patreon.com/dvvr" target="_blank" rel="noopener">Patreon</a>
+          <a href="https://discord.gg/xN2MaM7C5q" target="_blank" rel="noopener">Discord</a>
+          <a href="https://www.reddit.com/r/dancexr" target="_blank" rel="noopener">Reddit</a>
+          <a href="https://www.youtube.com/@dancexr" target="_blank" rel="noopener">YouTube</a>
+          <a href="https://space.bilibili.com/167383940" target="_blank" rel="noopener">BiliBili</a>
+          <a href="https://store.steampowered.com/app/1905510/DanceXR/" target="_blank" rel="noopener">Steam</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© {{ 'now' | date: "%Y" }} VR Storm Lab. All rights reserved.</p>
+        <nav class="footer-links" aria-label="Footer links">
+          <a href="/dancexr">Overview</a>
+          <a href="/dancexr/features">Features</a>
+          <a href="/dancexr/releases/2026.3">Releases</a>
+          <a href="/dancexr/download">Download</a>
+          <a href="https://discord.gg/xN2MaM7C5q" target="_blank" rel="noopener">Support</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/home.js"></script>
+</body>
+</html>

@@ -1,9 +1,7 @@
 ---
 locale: ja-JP
 layout: single
-title: XPS Physics
-
-XPS物理
+title: XPS物理
 toc: true
 sidebar:
   nav: "docs-jp"

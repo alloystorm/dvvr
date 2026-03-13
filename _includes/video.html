@@ -1,0 +1,39 @@
+{% comment %}
+  Video include — supports YouTube and Bilibili embeds.
+  Usage:
+    {% include video id="VIDEO_ID" provider="youtube" %}
+    {% include video id="BV_ID"    provider="bilibili" %}
+    {% include video list="PLAYLIST_ID" provider="youtube" %}
+{% endcomment %}
+
+{% assign video_id   = include.id %}
+{% assign video_list = include.list %}
+{% assign provider   = include.provider | default: "youtube" %}
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;margin:1.5em 0;">
+{% if provider == "bilibili" %}
+  <iframe
+    src="https://player.bilibili.com/player.html?bvid={{ video_id }}&autoplay=0"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allowfullscreen
+    loading="lazy"
+    title="Bilibili video {{ video_id }}">
+  </iframe>
+{% elsif video_list %}
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/videoseries?list={{ video_list }}"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allowfullscreen
+    loading="lazy"
+    title="YouTube playlist {{ video_list }}">
+  </iframe>
+{% else %}
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/{{ video_id }}"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allowfullscreen
+    loading="lazy"
+    title="YouTube video {{ video_id }}">
+  </iframe>
+{% endif %}
+</div>

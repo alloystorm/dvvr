@@ -3,8 +3,6 @@ locale: zh-TW
 layout: single
 toc: true
 title: 布娃娃
-
-Please let me know if you need any further translations.
 sidebar:
   nav: "docs-tw"
 ---

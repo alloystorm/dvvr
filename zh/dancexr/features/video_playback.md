@@ -2,8 +2,6 @@
 locale: zh-CN
 layout: single
 title: 视频播放
-
-Please let me know if you need any further translations.
 toc: true
 sidebar:
   nav: "docs-zh"

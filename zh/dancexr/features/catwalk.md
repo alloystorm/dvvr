@@ -2,9 +2,7 @@
 locale: zh-CN
 layout: single
 toc: true
-title: Catwalk Motion
-
-猫步运动
+title: 猫步运动
 sidebar:
   nav: "docs-zh"
 ---

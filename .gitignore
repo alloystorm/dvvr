@@ -2,3 +2,7 @@ __pycache__
 images/source/
 notes
 .vscode
+_site/
+Gemfile
+Gemfile.lock
+_config.dev.yml

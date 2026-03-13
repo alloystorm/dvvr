@@ -3,8 +3,6 @@ locale: ko-KR
 layout: single
 toc: true
 title: Ragdoll
-
-알파
 sidebar:
   nav: "docs-kr"
 ---
