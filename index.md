@@ -38,6 +38,6 @@ Encode motion data into portable 16-bit PNG or NPY files, preview 3D motions wit
 
 **Cross-platform acoustic piano app for web, desktop, and mobile.**
 
-A playable piano with high-quality acoustic grand piano soundfonts, built with TypeScript and deployable as a web app, native desktop app (Tauri), or mobile app (iOS and Android via Capacitor).
+A playable piano with high-quality acoustic grand piano soundfonts. Runs directly in any modern browser — no installation required.
 
-[Learn more](/shiftpiano){: .btn .btn--primary} [GitHub](https://github.com/alloystorm/shiftpiano){: .btn target="_blank" rel="noopener"}
+[Try it now](https://alloystorm.github.io/shiftpiano/){: .btn .btn--primary target="_blank" rel="noopener"} [Learn more](/shiftpiano){: .btn} [GitHub](https://github.com/alloystorm/shiftpiano){: .btn target="_blank" rel="noopener"}
