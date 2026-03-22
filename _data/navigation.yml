@@ -93,9 +93,9 @@ releases:
     url: /dancexr/features
 
 docs:
-  - title: Help
+  - title: Get Started
     children:
-      - title: "Overview"
+      - title: "Home"
         url: /dancexr
       - title: "Download"
         url: /dancexr/download
@@ -103,16 +103,20 @@ docs:
         url: /dancexr/preparecontent
       - title: Variants & Availability
         url: /dancexr/versions
-      - title: FAQ
-        url: /dancexr/faq
-      - title: Troubleshooting
-        url: /dancexr/troubleshooting
-  - title: Features & Settings
+  - title: Features
     children:
       - title: Feature List
         url: /dancexr/features
       - title: Settings Manual
         url: /dancexr/menu/2025.5/menu
+      - title: Creator Edition
+        url: /dancexr/creator
+  - title: Help
+    children:
+      - title: FAQ
+        url: /dancexr/faq
+      - title: Troubleshooting
+        url: /dancexr/troubleshooting
   - title: Releases
     url: /dancexr/releases/
     children:
@@ -217,26 +221,30 @@ releases-zh:
     url: /zh/dancexr/features
 
 docs-zh:
-  - title: 帮助
+  - title: 入门
     children:
-      - title: "概述"
+      - title: "主页"
         url: /zh/dancexr
       - title: "下载"
         url: /zh/dancexr/download
       - title: "内容库"
         url: /zh/dancexr/preparecontent
-      - title: 变体和可用性
+      - title: 版本与可用性
         url: /zh/dancexr/versions
-      - title: 常见问题
-        url: /zh/dancexr/faq
-      - title: 故障排除
-        url: /zh/dancexr/troubleshooting
-  - title: 功能与设置
+  - title: 功能
     children:
       - title: 功能列表
         url: /zh/dancexr/features
       - title: 设置手册
         url: /zh/dancexr/menu/2025.5/menu
+      - title: 创作者版
+        url: /zh/dancexr/creator
+  - title: 帮助
+    children:
+      - title: 常见问题
+        url: /zh/dancexr/faq
+      - title: 故障排除
+        url: /zh/dancexr/troubleshooting
   - title: 发布
     url: /zh/dancexr/releases/
     children:
@@ -340,26 +348,30 @@ releases-tw:
     url: /tw/dancexr/features
 
 docs-tw:
-  - title: 幫助
+  - title: 入門
     children:
-      - title: "概述"
+      - title: "主頁"
         url: /tw/dancexr
       - title: "下載"
         url: /tw/dancexr/download
       - title: "內容庫"
         url: /tw/dancexr/preparecontent
-      - title: 變體與可用性
+      - title: 版本與可用性
         url: /tw/dancexr/versions
-      - title: 常見問題
-        url: /tw/dancexr/faq
-      - title: 故障排除
-        url: /tw/dancexr/troubleshooting
-  - title: 功能与设置
+  - title: 功能
     children:
       - title: 功能列表
         url: /tw/dancexr/features
       - title: 設置手冊
         url: /tw/dancexr/menu/2025.5/menu
+      - title: 創作者版
+        url: /tw/dancexr/creator
+  - title: 幫助
+    children:
+      - title: 常見問題
+        url: /tw/dancexr/faq
+      - title: 故障排除
+        url: /tw/dancexr/troubleshooting
   - title: 發布
     url: /tw/dancexr/releases/
     children:
@@ -463,9 +475,9 @@ releases-jp:
     url: /jp/dancexr/features
 
 docs-jp:
-  - title: ヘルプ
+  - title: はじめに
     children:
-      - title: "概要"
+      - title: "ホーム"
         url: /jp/dancexr
       - title: "ダウンロード"
         url: /jp/dancexr/download
@@ -473,16 +485,20 @@ docs-jp:
         url: /jp/dancexr/preparecontent
       - title: バリアントと利用可能性
         url: /jp/dancexr/versions
-      - title: FAQ
-        url: /jp/dancexr/faq
-      - title: トラブルシューティング
-        url: /jp/dancexr/troubleshooting
-  - title: 機能と設定
+  - title: 機能
     children:
       - title: 機能リスト
         url: /jp/dancexr/features
       - title: 設定マニュアル
         url: /jp/dancexr/menu/2025.5/menu
+      - title: クリエイターエディション
+        url: /jp/dancexr/creator
+  - title: ヘルプ
+    children:
+      - title: FAQ
+        url: /jp/dancexr/faq
+      - title: トラブルシューティング
+        url: /jp/dancexr/troubleshooting
   - title: リリース
     url: /jp/dancexr/releases/
     children:
@@ -586,26 +602,30 @@ releases-kr:
     url: /kr/dancexr/features
 
 docs-kr:
-  - title: 도움말
+  - title: 시작하기
     children:
-      - title: "개요"
+      - title: "홈"
         url: /kr/dancexr
       - title: "다운로드"
         url: /kr/dancexr/download
       - title: "콘텐츠 라이브러리"
         url: /kr/dancexr/preparecontent
-      - title: 변형 및 이용 가능성
+      - title: 버전 및 이용 가능성
         url: /kr/dancexr/versions
-      - title: FAQ
-        url: /kr/dancexr/faq
-      - title: 문제 해결
-        url: /kr/dancexr/troubleshooting
-  - title: 기능 및 설정
+  - title: 기능
     children:
       - title: 기능 목록
         url: /kr/dancexr/features
       - title: 설정 매뉴얼
         url: /kr/dancexr/menu/2025.5/menu
+      - title: 크리에이터 에디션
+        url: /kr/dancexr/creator
+  - title: 도움말
+    children:
+      - title: FAQ
+        url: /kr/dancexr/faq
+      - title: 문제 해결
+        url: /kr/dancexr/troubleshooting
   - title: 출시
     url: /kr/dancexr/releases/
     children:

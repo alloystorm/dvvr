@@ -1,63 +1,164 @@
 ---
 layout: single
-title: DanceXR, animate any model, anywhere!
-toc: true
+title: DanceXR — Animate Any Model, Anywhere
+toc: false
 locale: en-US
 sidebar:
   nav: "docs"
 ---
 [Eng](/dancexr/index) | [繁中](/tw/dancexr/index) | [日本語](/jp/dancexr/index) | [한국어](/kr/dancexr/index) | [简中](/zh/dancexr/index)
 
-## Introduction
+**DanceXR** is a character model viewer and motion player for PMX/MMD and XNALara/XPS models — available on PC, Mac, Android, and Quest VR. Load your models, play dance motions, and build stunning scenes with no manual bone tweaking required.
 
-DanceXR is a versatile character model viewer and motion player that supports a range of model and motion formats, including PMX (MMD) & XNALara/XPS models, as well as VMD/BVH motion formats. The most significant benefit of using DanceXR is its ability to play almost any motion on any model without requiring manual tweaking or bone adjustments.
+[Download Free](/dancexr/download){: .btn .btn--primary} [Buy on Steam](/dancexr/download){: .btn} [Patreon](/dancexr/download){: .btn}
 
-One of the unique features of DanceXR is the ability to configure models and motions to support different standard poses. Whether the motion was created for T-pose or A-pose models, DanceXR ensures that it can be played perfectly on any model of your choice. It also fixes common bone structure issues on the fly to ensure maximum compatibility.
+---
 
-In addition to character models and motions, DanceXR also supports loading stage models and props such as mirrors and interactable primitive objects. Users can adjust the environment, including weather effects and lighting configurations, to suit their preferences. Moreover, DanceXR offers sophisticated graphics settings that can be adjusted to optimize performance and visual quality.
+## Just Load and Play
 
-DanceXR also offers built-in features that enhance the realism of character models. Models will breathe, blink their eyes, and even make eye contact with you like a real person. Additionally, users can utilize procedural motions and make various adjustments to fine-tune and change the look of their models. With new features added every month, DanceXR offers an exciting and constantly evolving experience.
+Most tools require you to manually fix bones, adjust poses, and tweak settings for every model-motion combination. DanceXR handles it automatically.
 
-## Different editions and variants
+- **Universal motion compatibility** — VMD and BVH motions play correctly on any model, whether built for T-pose or A-pose
+- **On-the-fly bone fixes** — common bone structure issues are corrected automatically
+- **PMX and XPS both fully supported** — physics, materials, and pose support for both formats
 
-DanceXR offers four editions with different features: Free, Pure, Pro, and Creator.
+{% include video id="kOrp7rESrXQ" provider="youtube" %}
 
-The Free edition includes all the basic features such as standard pose conversion, stage and environment settings, and lifelike motions. However, it has the limitation of only allowing one actor on the stage at a time.
+---
 
-The Pure edition offers pro features that are not available in the Free version, such as XPS physics and procedural dance motions.
+## Alive by Default
 
-The Pro edition contains everything in Pure, plus age-restricted features.
+Characters in DanceXR don't just stand still. Without any setup, they breathe, blink, and make eye contact. Load a model and it already feels present.
 
-The [Creator edition](creator.md) includes offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K video smoothly at 60fps even when your monitor is 1080p and your computer is not able to maintain that framerate. It also has the ability to generate VR 180 videos.
+{% include video id="zP966sQ6h0g" provider="youtube" %}
 
-For each edition, you can choose between RT, HD, or LW builds. RT enables ray tracing, HD focuses on graphic quality, and LW is optimized for frame rate.
+- Actors look at you when you enter their line of sight, and at each other when multiple characters share the stage
+- Procedural breathing layered on top of any motion — always active, regardless of what they're doing
+- **Auto Dance** — generates choreography in real time from music beats and volume
+- Catwalk, idle motions, and motion sequences keep scenes dynamic without manual setup
 
-Not all platforms support all of these variants, though. PC has all, while Mac currently only has HD, and Android is LW only.
+{% include video id="ORscgEC-N90" provider="youtube" %}
 
-The Pure and Pro are sold on Steam, while Pro is also available on Itch.io and Patreon. The Creator edition is currently only offered on Patreon for the creator tier.
+---
 
-## Release schedule
+## Physics That Move
 
-Our development team follows a monthly release cycle, where we aim to release updates every month.
+DanceXR includes a full simulation stack running in real time — hair, cloth, soft body, and skirts all respond to motion.
 
-These updates are initially made available to our Patreon supporters at the beginning of the month, followed by a release on the Steam beta branch around the 15th. Finally, the updates are rolled out to the Steam main branch and the rest of the platforms before the end of the month. The free version will also be published around the same time.
+{% include video id="-IZTzHUpROs" provider="youtube" %}
 
-[Please find the download link and purchase options on this page.](download.md)
-## ## Preparing Content
+- **Hair, skirt, and cloth physics** — configure per-model for XPS; automatically applied for PMX
+- **Soft body simulation** — natural, stable movement with greatly improved responsiveness
+- **Cloth simulation** — real-time parallel-threaded cloth with tearing, dragging, and mesh-to-cloth conversion
+- **Particle dynamics** — secondary motion that reacts to animation
 
-DanceXR does not include pre-loaded models and dance motions. To use the app, the user must create a content library folder and organize various types of resources into separate subfolders for DanceXR to access when needed.
+{% include video id="QRCphRAS0Tw" provider="youtube" %}
 
-On a PC, DanceXR will attempt to locate content in parent folders upon initial launch. If no content is found, the app will generate a folder with subfolders for different resource types. The user can then open the created folder from the system menu and transfer their content into the appropriate subfolder.
+---
 
-However, on Quest and Android devices, the location of the content folder cannot be changed. To add content, Quest users must connect their device to a PC, while Android users are provided with a content manager to perform basic file management tasks within the content folder.
+## Dress Your Scene
 
-If you require assistance setting up your content folder, a [video tutorial is available here](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3) and [more information can be found on this page](preparecontent.md).
+Control every aspect of character appearance and environment — from outfit changes to full weather systems.
 
+### Dressing System
 
-## Documentation
+Switch outfits, toggle accessories, and animate clothing transitions synchronized to music.
 
-To learn more about the features and functionalities, select a topic from the "table of contents" on the left or top of this page.
+{% include video id="MN-JIDmAR3Q" provider="youtube" %}
 
+### Atmosphere & Environment
 
-## Terms & Conditions
-By using this program, the user agrees that they take full responsibility for the content that they use with the program and that all the content used meets all the legal and copyright requirements. The developer of DanceXR does not take any responsibility for the content created or downloaded by the user.
+{% include video id="SLNw5XZflZ8" provider="youtube" %}
+
+- **Particle effects** — snow, glitter, rain, falling leaves with full physics control
+- **Procedural sky** — dynamic day/night transitions, stars, volumetric clouds affected by wind
+- **Stage models, props, mirrors, lasers, and a full water system**
+
+{% include video id="D745FYNcx4c" provider="youtube" %}
+
+---
+
+## Cinematic Camera Tools
+
+Multiple camera modes to capture exactly the shot you want.
+
+{% include video id="csv6_H5_Q7k" provider="youtube" %}
+
+- **Auto Camera** — smart view framing that keeps all actors in frame automatically
+- **Freefly, Orbit, First Person, Fixed (Concert Mode), One-shot**
+- Camera motions from VMD files with full interpolation curve support
+
+{% include video id="Gq_eRoZIrO4" provider="youtube" %}
+
+---
+
+## Stunning Visuals on Every Platform
+
+Choose the build that fits your hardware:
+
+| Build | Focus |
+|-------|-------|
+| **RT** | Ray tracing — reflections, global illumination, ambient occlusion, contact shadows |
+| **HD** | High visual quality, balanced performance |
+| **LW** | Optimized frame rate — great for mobile and Quest |
+
+---
+
+## Talk to Your Characters
+
+With AI-powered voice chat, your characters respond to you in real time.
+
+- Connect to **OpenAI**, a local LLM (LM Studio, Ollama, Ooba), or a remote GPU service
+- **Built-in TTS** with 900+ voices — each character can have their own
+- **Automatic lipsync** — faces animate as they speak
+- **Voice recognition** — talk to them, not just type
+
+---
+
+## Record at Any Resolution
+
+The **Creator Edition** decouples recording from your screen and frame rate.
+
+{% include video id="Xeh9l8K8nqo" provider="youtube" %}
+
+- Render 4K video at 60 fps — even on a 1080p monitor that can't sustain that rate live
+- Output **2D, stereoscopic 3D SBS, VR 180, and VR 360** video
+- Offline frame-by-frame rendering — every frame is perfect
+
+{% include video id="V6zpyW1hDog" provider="youtube" %}
+
+---
+
+## Available Everywhere
+
+| Platform | Builds |
+|----------|--------|
+| Windows PC | RT, HD, LW |
+| Mac | HD |
+| Android | LW |
+| Meta Quest 2 / 3 / Pro | LW + AR mode |
+
+AR mode on Quest and supported mobile devices lets characters appear in your real environment.
+
+---
+
+## Choose Your Edition
+
+| Edition | What's included |
+|---------|----------------|
+| **Free** | All core features — one actor on stage |
+| **Pure** | XPS physics, procedural dance, multi-actor |
+| **Pro** | Everything in Pure, plus adult content |
+| **Creator** | Everything in Pro, plus offline rendering and VR video |
+
+Pure and Pro are on **Steam** and **Itch.io**. Creator is available through **Patreon**. New features ship every month — Patreon gets early access, Steam follows mid-month.
+
+[Download / Purchase →](/dancexr/download){: .btn .btn--primary .btn--large}
+
+---
+
+## Active Development
+
+New features ship every month. Recent additions include AI voice chat, keyframe animation, music timing sync, cloth simulation with tearing, soft body physics, alternative texture layers, and skin material improvements.
+
+[See all release notes →](/dancexr/releases)
