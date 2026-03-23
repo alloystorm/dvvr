@@ -310,6 +310,12 @@
 .section {
   padding: 120px 24px;
 }
+.section-continue-down {
+  padding-bottom: 40px;
+}
+.section-continue-up {
+  padding-top: 40px;
+}
 .section-light { background: var(--bg-surface); }
 .section-inner {
   max-width: 1200px;

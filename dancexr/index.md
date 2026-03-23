@@ -182,31 +182,43 @@ Characters in DanceXR don't just stand still. Without any setup, they breathe, b
 </section>
 
 <!-- ── Physics That Move ─────────────────────────────────── -->
-<section class="section">
+<section class="section section-continue-down">
 <div class="section-inner">
 <div class="section-copy" markdown="1">
-
-{:.section-label}
-Simulation
 
 ## Physics That Move
 
 DanceXR includes a full simulation stack running in real time — hair, cloth, soft body, and skirts all respond to motion.
 
-- **Hair, skirt, and cloth physics** — configure per-model for XPS; automatically applied for PMX
-- **Soft body simulation** — natural, stable movement with greatly improved responsiveness
-- **Cloth simulation** — real-time parallel-threaded cloth with tearing, dragging, and mesh-to-cloth conversion
-- **Particle dynamics** — secondary motion that reacts to animation
+{:.section-label}
+Physics
+
+- **Fully Support PMX Model Physics** — Physics componenets from PMX models are automatically applied, and can be customized per-model with a powerful physics editor
+- **Hair, skirt, and boobs physics** — Easy configuration for XPS models to achieve natural physics simulation in a few clicks
 
 </div>
 <div>{% include slideshow.html slides=page.slideshows.physics %}</div>
 </div>
-<div class="section-video">{% include slideshow.html slides=page.slideshows.simulation %}</div>
+</section>
+<!-- ── Physics That Move Continue ─────────────────────────────────── -->
+<section class="section section-continue-up">
+
+<div class="section-inner reverse">
+<div class="section-copy" markdown="1">
+{:.section-label}
+Simulation
+
+- **Cloth simulation** — real-time parallel-threaded cloth with tearing, dragging, and mesh-to-cloth conversion
+- **XPBD particle dynamics** — Custom built advanced particle based simulation that runs parallel to achieve best efficiency.
+- **Soft body simulation** — Further enhancing XPS physics tools with XPBD
+</div>
+<div>{% include slideshow.html slides=page.slideshows.simulation %}</div>
+</div>
 </section>
 
-<!-- ── Dress Your Scene ──────────────────────────────────── -->
+<!-- ── Dress Your Character ──────────────────────────────────── -->
 <section class="section section-light">
-<div class="section-inner reverse">
+<div class="section-inner">
 <div class="section-copy" markdown="1">
 
 {:.section-label}
@@ -224,25 +236,38 @@ Switch outfits, toggle accessories, and animate clothing transitions synchronize
 </section>
 
 <!-- ── Atmosphere & Environment ───────────────────────────── -->
-<section class="section">
-<div class="section-inner">
+<section class="section section-continue-down">
+<div class="section-inner reverse">
 <div class="section-copy" markdown="1">
 
 ## Atmosphere & Environment
 
+{:.section-label}
+Atmosphere
 - **Particle effects** — snow, glitter, rain, falling leaves with full physics control
 - **Procedural sky** — dynamic day/night transitions, stars, volumetric clouds affected by wind
-- **Stage models, props, mirrors, lasers, and a full water system**
 
 </div>
 <div>{% include slideshow.html slides=page.slideshows.atmosphere %}</div>
 </div>
-<div class="section-video">{% include slideshow.html slides=page.slideshows.environment %}</div>
+</section>
+
+<section class="section section-continue-up">
+<div class="section-inner">
+<div class="section-copy" markdown="1">
+{:.section-label}
+Environment
+- **HDR Environment Map** — Use high dynamic range spherical environment maps for realistic lighting and background
+- **Real-time water system** — reflections, refractions, ripples, and underwater physics
+- **Stage models, props, mirrors, lasers, and a full water system**
+</div>
+<div>{% include slideshow.html slides=page.slideshows.environment %}</div>
+</div>
 </section>
 
 <!-- ── Cinematic Camera Tools ────────────────────────────── -->
-<section class="section">
-<div class="section-inner">
+<section class="section section-light">
+<div class="section-inner reverse">
 <div class="section-copy" markdown="1">
 
 {:.section-label}
@@ -262,8 +287,8 @@ Multiple camera modes to capture exactly the shot you want.
 </section>
 
 <!-- ── Stunning Visuals ───────────────────────────────────── -->
-<section class="section section-light">
-<div class="section-inner reverse">
+<section class="section">
+<div class="section-inner">
 <div class="section-copy" markdown="1">
 
 {:.section-label}
@@ -285,7 +310,7 @@ Choose the build that fits your hardware:
 </section>
 
 <!-- ── Talk to Your Characters ───────────────────────────── -->
-<section class="section">
+<section class="section section-light">
 <div class="section-wide" markdown="1">
 
 {:.section-label}
@@ -304,7 +329,7 @@ With AI-powered voice chat, your characters respond to you in real time.
 </section>
 
 <!-- ── Record at Any Resolution ──────────────────────────── -->
-<section class="section section-light">
+<section class="section">
 <div class="section-wide" markdown="1">
 
 {:.section-label}
@@ -322,7 +347,7 @@ The **Creator Edition** decouples recording from your screen and frame rate.
 </section>
 
 <!-- ── Available Everywhere ──────────────────────────────── -->
-<section class="section">
+<section class="section section-light">
 <div class="section-wide" markdown="1">
 
 {:.section-label}
@@ -343,7 +368,7 @@ AR mode on Quest and supported mobile devices lets characters appear in your rea
 </section>
 
 <!-- ── Choose Your Edition ───────────────────────────────── -->
-<section class="section section-light" id="editions">
+<section class="section" id="editions">
 <div class="section-wide" markdown="1">
 
 {:.section-label}
@@ -366,7 +391,7 @@ Pure and Pro are on **Steam** and **Itch.io**. Creator is available through **Pa
 </section>
 
 <!-- ── Active Development ─────────────────────────────────── -->
-<section class="section">
+<section class="section section-light">
 <div class="section-wide" markdown="1">
 
 {:.section-label}
