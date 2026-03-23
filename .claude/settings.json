@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:raw.githubusercontent.com)",
-      "WebFetch(domain:alloystorm.github.io)"
+      "WebFetch(domain:alloystorm.github.io)",
+      "Bash(python -:*)"
     ]
   }
 }
