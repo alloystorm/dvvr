@@ -914,6 +914,38 @@
   font-weight: 500;
 }
 
+/* ── Slideshow ───────────────────────────────────────────── */
+.slideshow {
+  position: relative;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: var(--r);
+  box-shadow: 0 32px 80px rgba(0,0,0,0.6);
+  background: var(--bg-surface-2);
+}
+.slideshow-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.9s ease;
+}
+.slideshow-slide.active { opacity: 1; }
+
+/* Placeholder state — shown when no images are provided yet */
+.slideshow--empty::after {
+  content: "Images coming soon";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: var(--text-dim);
+  letter-spacing: 0.03em;
+}
+
 /* Spacer between multiple section-inner blocks in one section */
 .section .section-inner + .section-inner {
   margin-top: 80px;

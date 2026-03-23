@@ -19,6 +19,23 @@ hero_ctas:
   - label: Patreon
     url: https://www.patreon.com/dvvr
     style: secondary
+
+# ── Slideshow image lists ─────────────────────────────────────
+# Add image paths (relative to site root) once assets are ready.
+# Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.
+slideshows:
+  load_play: []          # Just Load and Play
+  alive: []              # Alive by Default — main clip
+  alive_2: []            # Alive by Default — second clip
+  physics: []            # Physics That Move — main clip
+  physics_2: []          # Physics That Move — second clip
+  dressing: []           # Dress Your Scene — dressing system
+  atmosphere: []         # Dress Your Scene — atmosphere first clip
+  atmosphere_2: []       # Dress Your Scene — atmosphere second clip
+  camera: []             # Cinematic Camera Tools — main clip
+  camera_2: []           # Cinematic Camera Tools — second clip
+  recording: []          # Record at Any Resolution — main clip
+  recording_2: []        # Record at Any Resolution — second clip
 ---
 
 <!-- ── Just Load and Play ────────────────────────────────── -->
@@ -38,7 +55,7 @@ Most tools require you to manually fix bones, adjust poses, and tweak settings f
 - **PMX and XPS both fully supported** — physics, materials, and pose support for both formats
 
 </div>
-<div>{% include video id="kOrp7rESrXQ" provider="youtube" %}</div>
+<div>{% include slideshow.html slides=page.slideshows.load_play %}</div>
 </div>
 </section>
 
@@ -60,9 +77,9 @@ Characters in DanceXR don't just stand still. Without any setup, they breathe, b
 - Catwalk, idle motions, and motion sequences keep scenes dynamic without manual setup
 
 </div>
-<div>{% include video id="zP966sQ6h0g" provider="youtube" %}</div>
+<div>{% include slideshow.html slides=page.slideshows.alive %}</div>
 </div>
-<div class="section-video">{% include video id="ORscgEC-N90" provider="youtube" %}</div>
+<div class="section-video">{% include slideshow.html slides=page.slideshows.alive_2 %}</div>
 </section>
 
 <!-- ── Physics That Move ─────────────────────────────────── -->
@@ -83,9 +100,9 @@ DanceXR includes a full simulation stack running in real time — hair, cloth, s
 - **Particle dynamics** — secondary motion that reacts to animation
 
 </div>
-<div>{% include video id="-IZTzHUpROs" provider="youtube" %}</div>
+<div>{% include slideshow.html slides=page.slideshows.physics %}</div>
 </div>
-<div class="section-video">{% include video id="QRCphRAS0Tw" provider="youtube" %}</div>
+<div class="section-video">{% include slideshow.html slides=page.slideshows.physics_2 %}</div>
 </section>
 
 <!-- ── Dress Your Scene ──────────────────────────────────── -->
@@ -105,7 +122,7 @@ Control every aspect of character appearance and environment — from outfit cha
 Switch outfits, toggle accessories, and animate clothing transitions synchronized to music.
 
 </div>
-<div>{% include video id="MN-JIDmAR3Q" provider="youtube" %}</div>
+<div>{% include slideshow.html slides=page.slideshows.dressing %}</div>
 </div>
 
 <div class="section-inner">
@@ -119,8 +136,8 @@ Switch outfits, toggle accessories, and animate clothing transitions synchronize
 
 </div>
 <div>
-{% include video id="SLNw5XZflZ8" provider="youtube" %}
-{% include video id="D745FYNcx4c" provider="youtube" %}
+{% include slideshow.html slides=page.slideshows.atmosphere %}
+{% include slideshow.html slides=page.slideshows.atmosphere_2 %}
 </div>
 </div>
 </section>
@@ -142,9 +159,9 @@ Multiple camera modes to capture exactly the shot you want.
 - Camera motions from VMD files with full interpolation curve support
 
 </div>
-<div>{% include video id="csv6_H5_Q7k" provider="youtube" %}</div>
+<div>{% include slideshow.html slides=page.slideshows.camera %}</div>
 </div>
-<div class="section-video">{% include video id="Gq_eRoZIrO4" provider="youtube" %}</div>
+<div class="section-video">{% include slideshow.html slides=page.slideshows.camera_2 %}</div>
 </section>
 
 <!-- ── Stunning Visuals ───────────────────────────────────── -->
@@ -203,9 +220,9 @@ The **Creator Edition** decouples recording from your screen and frame rate.
 - Offline frame-by-frame rendering — every frame is perfect
 
 </div>
-<div>{% include video id="Xeh9l8K8nqo" provider="youtube" %}</div>
+<div>{% include slideshow.html slides=page.slideshows.recording %}</div>
 </div>
-<div class="section-video">{% include video id="V6zpyW1hDog" provider="youtube" %}</div>
+<div class="section-video">{% include slideshow.html slides=page.slideshows.recording_2 %}</div>
 </section>
 
 <!-- ── Available Everywhere ──────────────────────────────── -->

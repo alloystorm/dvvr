@@ -1,0 +1,17 @@
+{% comment %}
+  Slideshow include — CSS crossfade between images.
+  Usage:
+    {% include slideshow.html slides=page.slideshows.my_key %}
+  Where page.slideshows.my_key is a YAML list of image paths.
+  Empty or missing list renders a placeholder box.
+{% endcomment %}
+
+{% assign slides = include.slides %}
+{% assign count = slides | size %}
+
+<div class="slideshow{% if count == 0 %} slideshow--empty{% endif %}" data-slideshow>
+  {% for img in slides %}
+  <div class="slideshow-slide{% if forloop.first %} active{% endif %}"
+       style="background-image:url('{{ img }}')"></div>
+  {% endfor %}
+</div>

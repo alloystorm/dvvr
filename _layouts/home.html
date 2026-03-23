@@ -95,6 +95,7 @@
 
 <script>
 (function () {
+  // Nav scroll + mobile menu
   var nav   = document.getElementById('site-nav');
   var btn   = document.getElementById('nav-menu-btn');
   var links = document.getElementById('nav-links');
@@ -109,6 +110,18 @@
       links.classList.toggle('open');
     });
   }
+
+  // Slideshow crossfade — 4 s per slide
+  document.querySelectorAll('[data-slideshow]').forEach(function (sw) {
+    var slides = sw.querySelectorAll('.slideshow-slide');
+    if (slides.length < 2) return;
+    var current = 0;
+    setInterval(function () {
+      slides[current].classList.remove('active');
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('active');
+    }, 4000);
+  });
 })();
 </script>
 
