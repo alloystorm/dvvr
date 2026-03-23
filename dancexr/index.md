@@ -30,7 +30,6 @@ slideshows:
     - '/images/slideshows/load_play/Abosolute%20Loveliness%21%21%20DOA%20Koharu%20in%20Cheongsam%20%E7%BB%9D%E7%BE%8E%E6%97%97%E8%A2%8D%E5%B0%8F%E6%98%A5%20%5BHkicoxya1Xg%5D.webp'
     - '/images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp'
     - '/images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp'
-    - '/images/slideshows/load_play/K%E2%A7%B8DA%20New%20Song%EF%BC%9F%20%5B3lsJHeMevjY%5D.webp'
     - '/images/slideshows/load_play/Requiem%20-%20Hoverbike%20Motion%20%5Bo_KZBdONwSs%5D.webp'
     - '/images/slideshows/load_play/Stellar%20Blade%20Raven%20Sea%20Breeze%20Dance%20%5Bo6mocERvFNk%5D.webp'
     - '/images/slideshows/load_play/%5BDanceXR%5D%20Kimagure%20Mercy%20-%20Honoka%20%5Bg1-OfMxxZ5s%5D.webp'
@@ -40,7 +39,6 @@ slideshows:
     - '/images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp'
     - '/images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp'
     - '/images/slideshows/motion/Don%27t%20miss%20out%21%20DanceXR%20is%20currently%2030%25%20off%20on%20Steam%20and%20Itch.io%21%20%5BMfpTKkOkXP8%5D.webp'
-    - '/images/slideshows/motion/Fan%20Motion%20%5BaTp2n4acJIw%5D.webp'
     - '/images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp'
     - '/images/slideshows/motion/Pole%20Dance%20Test%20%5B4TB8aFRJENI%5D.webp'
     - '/images/slideshows/motion/Spin%20%5BK__liB93anI%5D.webp'
@@ -61,7 +59,6 @@ slideshows:
     - '/images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp'
     - '/images/slideshows/physics/Convert%20Model%20Mesh%20To%20Cloth%20Simulation%20-%20DanceXR%202024.9%20%5BFdMSBaPMUHI%5D.webp'
     - '/images/slideshows/physics/DanceXR%201.4.6%20New%20PMX%20Physics%20Settings%20%5BlimT_kMRp8s%5D.webp'
-    - '/images/slideshows/physics/Forget%20Jiggle%20Physics%2C%20Here%20Comes%20The%20Jiggle%20King%21%20%5BsL2yeZkYOXM%5D.webp'
     - '/images/slideshows/physics/How%20Do%20You%20Rate%20This%20Hair%20Dynamics%EF%BC%9F%20%5BLkVbfxGz4tw%5D.webp'
     - '/images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp'
     - '/images/slideshows/physics/Tentacle%20monster%20takes%20stage%20%5BBKCy9-pkt4o%5D.webp'
@@ -76,14 +73,10 @@ slideshows:
     - '/images/slideshows/simulation/Particle%20Dynamics%20VS%20Physics%20Engine%20Comparison%20%5B8wOB11Afz7k%5D.webp'
     - '/images/slideshows/simulation/Wearing%20a%20spiderweb%20%5BooZ3Kq8D6ZQ%5D.webp'
   dressing:
-    - '/images/slideshows/dressing/2B%20Dancing%20With%20Her%20Virtuous%20Contract%20%5BuE3O_BVDsvQ%5D.webp'
-    - '/images/slideshows/dressing/Accessory%20preview%20%5B0BFrdqO9cuI%5D.webp'
     - '/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp'
-    - '/images/slideshows/dressing/DVVR%200.8.1%20Demo%20-%20Teo%20%E3%83%86%E3%82%AA%20%5Bo8JrdZR_UbA%5D.webp'
     - '/images/slideshows/dressing/HIBIKASE%20-%20DOAXVV%20Mikasa%20Dissolving%20Outfit%20%5BZZwW0PoJ1vE%5D.webp'
     - '/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp'
     - '/images/slideshows/dressing/Just%20Legs%20%5B2J69v2_7HBs%5D.webp'
-    - '/images/slideshows/dressing/Koharu%27s%20Transforming%20Dress%20Dance%20Show%20%5BatIdSd2TIrA%5D.webp'
     - '/images/slideshows/dressing/Marie%20Rose%20Morphing%20Ballet%20Outfit%20-%20Satisfaction%20%5BRgNi-DdEfL0%5D.webp'
     - '/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp'
     - '/images/slideshows/dressing/Oh%20no%21%20The%20dress%20is%20shrinking%21%20%5B1Gj_unoOenE%5D.webp'
@@ -98,7 +91,6 @@ slideshows:
     - '/images/slideshows/atmosphere/Play%20With%20Fire%20%5BA2mpVwDuUS8%5D.webp'
     - '/images/slideshows/atmosphere/Tamaki%20Ghost%20Rule%20%5BsSHACvSGz1k%5D.webp'
   environment:
-    - '/images/slideshows/environment/DOA%20All%20Stars%20Bunny%20Clock%20Outfit%20Dance%21%20%5B45BsoIwof6A%5D.webp'
     - '/images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp'
     - '/images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp'
     - '/images/slideshows/environment/Drop%20Pop%20Candy%20-%20Koharu%20Amy%20Misaki%20and%20Fiona%20%5BL9ab6bYmYPA%5D.webp'
@@ -120,8 +112,6 @@ slideshows:
     - '/images/slideshows/environment/YUKINO%E2%A7%B8BADDEST%E2%A7%B8PROJECTION%20%5ByMFmLZwTJug%5D.webp'
     - '/images/slideshows/environment/%E3%82%B6%E3%83%A0%E3%82%B6%20-%20New%20Laser%20System%20Demo%20%28Warning%EF%BC%9A%20Flashing%20Lights%29%20%5BrOQow-MBkVU%5D.webp'
   camera:
-    - '/images/slideshows/camera/Conqueror%20-%20Animated%20Camera%20%5BI19n582EWqY%5D.webp'
-    - '/images/slideshows/camera/Conqueror%20-%20Fixed%20Camera%20%5BZ0NBmRh3JU4%5D.webp'
     - '/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp'
     - '/images/slideshows/camera/First%20Person%2039%20Music%20%5BY5T3JkedkQs%5D.webp'
     - '/images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp'
@@ -130,12 +120,12 @@ slideshows:
   render:
     - '/images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp'
     - '/images/slideshows/render/Eye%20Strain%20Exercise%20%5BhIawD7f59yc%5D.webp'
-    - '/images/slideshows/render/Satisfaction%20-%20Shizuku%20Hyouka%20Suigetsu%20%5BIxApl31Mwn0%5D.webp'
     - '/images/slideshows/render/Thousand%20Lanterns%20-%20Fan%20Dance%20-%20Watercolor%20Painting%20%5BCLghP5ixcHQ%5D.webp'
     - '/images/slideshows/render/Toon%20Shading%20Works%20Well%20With%20More%20Realistic%20Models%20Too%20%5BIV50xh6mQ_U%5D.webp'
     - '/images/slideshows/render/VRGirl%20Sea%20Breeze%20dance%20%5BvPnmTRJqj8Q%5D.webp'
-    - '/images/slideshows/render/%5BMMD%5D%20DVVR%20Test%20Build%20-%20Hibikase%20%5BOhvpxcZgo0Q%5D.webp'
-    - '/images/slideshows/render/%5BSneak%20Peek%5D%20New%20Graphics%20Menu%20%26%20Toon%20Shader%20%5B5yerg14Is6E%5D.webp'
+    - '/images/slideshows/render/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp'
+    - '/images/slideshows/render/Marie%20Rose%20Dance%20Of%20Light%20%5BdpD_ggUerEY%5D.webp'
+    - '/images/slideshows/render/Nyotengu%20Lingerie%20-%20Cute%20Melody%20%5BzhWsbyph9wo%5D.webp'
 ---
 
 <!-- ── Just Load and Play ────────────────────────────────── -->
