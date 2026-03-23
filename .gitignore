@@ -7,3 +7,4 @@ Gemfile
 Gemfile.lock
 _config.dev.yml
 settings.local.json
+thumbnails
