@@ -111,16 +111,20 @@
     });
   }
 
-  // Slideshow crossfade — 4 s per slide
+  // Time-based slideshow — 4 s per slide, random start offset per slideshow
   document.querySelectorAll('[data-slideshow]').forEach(function (sw) {
-    var slides = sw.querySelectorAll('.slideshow-slide');
+    var slides  = sw.querySelectorAll('.slideshow-slide');
     if (slides.length < 2) return;
     var current = 0;
-    setInterval(function () {
+    function advance() {
       slides[current].classList.remove('active');
       current = (current + 1) % slides.length;
       slides[current].classList.add('active');
-    }, 4000);
+    }
+    setTimeout(function () {
+      advance();
+      setInterval(advance, 4000);
+    }, Math.random() * 4000);
   });
 })();
 </script>
