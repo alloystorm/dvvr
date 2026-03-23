@@ -3,8 +3,8 @@ layout: home
 title: VR Storm Lab — Projects
 toc: false
 hero_compact: true
-hero_eyebrow: VR Storm Lab
-hero_title: Tools for Creators
+hero_eyebrow: We Make Cool Stuff
+hero_title: VR Storm Lab
 hero_sub: >
   Animation, music, and generative AI tools
   for creators and enthusiasts.
@@ -15,6 +15,15 @@ hero_ctas:
   - label: GitHub
     url: https://github.com/alloystorm
     style: secondary
+slideshows:
+  dancexr:
+    - '/images/slideshows/dancexr/logo-black.jpg'
+  comfystudio:
+    - '/images/slideshows/comfystudio/comfystudio.jpg'
+  vmd2png:
+    - '/images/slideshows/vmd2png/conqueror.jpg'
+  shiftpiano:
+    - '/images/slideshows/shiftpiano/shiftpiano.png'
 ---
 
 <!-- ── DanceXR ──────────────────────────────────────────── -->
@@ -34,6 +43,7 @@ Animate any character, anywhere — on PC, Mac, Android, and Meta Quest VR. Play
 [Learn more](/dancexr){: .btn .btn-primary} [Download](/dancexr/download){: .btn .btn-secondary}
 
 </div>
+<div>{% include slideshow.html slides=page.slideshows.dancexr %}</div>
 </div>
 </section>
 
@@ -54,6 +64,7 @@ Connects to a running ComfyUI instance and organizes your generation work into p
 [Learn more](/comfystudio){: .btn .btn-primary} [GitHub](https://github.com/alloystorm/comfystudio){: .btn .btn-secondary}
 
 </div>
+<div>{% include slideshow.html slides=page.slideshows.comfystudio %}</div>
 </div>
 </section>
 
@@ -74,6 +85,7 @@ Encode motion data into portable 16-bit PNG or NPY files, preview 3D motions wit
 [Learn more](/vmd2png){: .btn .btn-primary} [GitHub](https://github.com/alloystorm/vmd2png){: .btn .btn-secondary}
 
 </div>
+<div>{% include slideshow.html slides=page.slideshows.vmd2png %}</div>
 </div>
 </section>
 
@@ -94,5 +106,6 @@ A playable piano with high-quality acoustic grand piano soundfonts. Runs directl
 [Try it now](https://alloystorm.github.io/shiftpiano/){: .btn .btn-primary} [Learn more](/shiftpiano){: .btn .btn-secondary} [GitHub](https://github.com/alloystorm/shiftpiano){: .btn .btn-secondary}
 
 </div>
+<div>{% include slideshow.html slides=page.slideshows.shiftpiano %}</div>
 </div>
 </section>
