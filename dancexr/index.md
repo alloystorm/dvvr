@@ -24,18 +24,23 @@ hero_ctas:
 # Add image paths (relative to site root) once assets are ready.
 # Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.
 slideshows:
-  load_play: []          # Just Load and Play
+  load_play: [ 
+    "/images/slideshows/load_play/%5BDanceXR%5D Kimagure Mercy - Honoka %5Bg1-OfMxxZ5s%5D.webp", 
+    "/images/slideshows/load_play/%5BDanceXR%5D New mirror feature %5B0FwY2viXcM0%5D.webp",
+    "/images/slideshows/load_play/2B Will Make Your Blood Boil With This Song! Weight Of The World (Heavy Metal Version) %5BRwiLkO4LCkQ%5D.webp",
+    "/images/slideshows/load_play/Abosolute Loveliness!! DOA Koharu in Cheongsam 绝美旗袍小春 %5BHkicoxya1Xg%5D.webp",
+  ]          # Just Load and Play
   alive: []              # Alive by Default — main clip
-  alive_2: []            # Alive by Default — second clip
+  load_play: []         # Load and Play
+  motion: []            # Motion Support — motion compatibility and procedural dance
   physics: []            # Physics That Move — main clip
-  physics_2: []          # Physics That Move — second clip
+  simulation: []          # Physics That Move — simulation features
   dressing: []           # Dress Your Scene — dressing system
   atmosphere: []         # Dress Your Scene — atmosphere first clip
-  atmosphere_2: []       # Dress Your Scene — atmosphere second clip
+  environment: []       # Dress Your Scene — atmosphere second clip
   camera: []             # Cinematic Camera Tools — main clip
-  camera_2: []           # Cinematic Camera Tools — second clip
-  recording: []          # Record at Any Resolution — main clip
-  recording_2: []        # Record at Any Resolution — second clip
+  render: []           # Stunning Visuals — main clip
+  character: []          # Character Customization — main clip
 ---
 
 <!-- ── Just Load and Play ────────────────────────────────── -->
@@ -137,7 +142,7 @@ Switch outfits, toggle accessories, and animate clothing transitions synchronize
 </div>
 <div>
 {% include slideshow.html slides=page.slideshows.atmosphere %}
-{% include slideshow.html slides=page.slideshows.atmosphere_2 %}
+{% include slideshow.html slides=page.slideshows.environment %}
 </div>
 </div>
 </section>
