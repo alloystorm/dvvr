@@ -3,6 +3,7 @@ layout: home
 title: DanceXR — Animate Any Model, Anywhere
 toc: false
 locale: en-US
+lang_path: /dancexr/index
 hero_eyebrow: VR Character Model Viewer
 hero_title: Animate Any Model, Anywhere
 hero_sub: >

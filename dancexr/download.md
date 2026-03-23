@@ -1,75 +1,116 @@
 ---
+layout: home
+title: Download DanceXR
+toc: false
 locale: en-US
-layout: single
-title: Download
-toc: true
-sidebar:
-  nav: "docs"
+lang_path: /dancexr/download
+hero_eyebrow: DanceXR
+hero_title: Download & Purchase
+hero_sub: >
+  Start free, upgrade when you're ready.
+  Available on every major platform.
+hero_image: /images/header_wide.png
+hero_ctas:
+  - label: Free Download
+    url: https://github.com/alloystorm/dvvr/releases/tag/2024.2
+    style: primary
+  - label: Buy on Steam
+    url: https://store.steampowered.com/app/1905510/DanceXR/
+    style: secondary
+  - label: Patreon
+    url: https://www.patreon.com/dvvr
+    style: secondary
 ---
-[Eng](/dancexr/download) | [繁中](/tw/dancexr/download) | [日本語](/jp/dancexr/download) | [한국어](/kr/dancexr/download) | [简中](/zh/dancexr/download)
 
+<!-- ── Free ───────────────────────────────────────────────── -->
+<section class="section">
+<div class="section-wide" markdown="1">
 
-## Free Version Download
+{:.section-label}
+Free
 
-[DanceXR 2024.2 HD](https://github.com/alloystorm/dvvr/releases/tag/2024.2){: .dlbtn .patreon}
+## Start for Free
 
-The free version includes all basic functionalities such as standard pose conversion, stage and environment settings, and lifelike motions. However, only one actor can be on the stage at a time, and advanced features in the paid version are not available.
+The free version includes all core features — load any model, play any motion, and explore the full environment system. One actor on stage at a time; advanced features in the paid versions are locked.
 
-Check the [full feature list](features.md), items marked with a `PRO`, `NSFW`, or `CREATOR` are not available in the free version.
+[Download Free (PC)](https://github.com/alloystorm/dvvr/releases/tag/2024.2){: .btn .btn-primary}
 
-## Purchase Options
-To gain access to the latest release and unlock advanced features, you have the following options:
+Check the [full feature list](/dancexr/features) — items marked **PRO**, **NSFW**, or **CREATOR** are not available in the free version.
 
-### Become a supporter on Patreon
+</div>
+</section>
 
-[DanceXR on Patreon](https://www.patreon.com/dvvr){: .dlbtn .patreon}
+<!-- ── Pure & Pro ─────────────────────────────────────────── -->
+<section class="section section-light">
+<div class="section-wide" markdown="1">
 
-Every month, we publish the latest version on our Patreon page. The free version build will also be made available on Patreon one month after its initial release.
+{:.section-label}
+Paid
 
-By becoming a supporter on Patreon, you will have exclusive access to the latest updates and the chance to provide feedback before the release is available on other platforms.
+## Pure & Pro
 
-Also, the creator edition is only available on the Patreon platform for the creator tier supporters.
+Unlock multi-actor scenes, XPS physics, procedural dance, and more. **Pure** removes adult content restrictions from the free version. **Pro** adds adult-only features on top of everything in Pure.
 
-### Purchase PC version from Steam & Itch.io
+| Platform | Pure | Pro |
+|----------|------|-----|
+| **Steam** | [DanceXR Pure](https://store.steampowered.com/app/2193970/DanceXR_Pure/) | [DanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/) |
+| **Itch.io** | — | [DanceXR](https://stormlab.itch.io/dancexr) |
+| **Android — Google Play** | [DanceXR Portable](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr) | — |
+| **Android — Itch.io** | — | [DanceXR Android](https://stormlab.itch.io/dancexr-android) |
+| **iOS — App Store** | [DanceXR](https://apps.apple.com/au/app/dancexr/id6475269158) | — |
+| **Meta Quest — Itch.io** | [DanceXR Quest](https://stormlab.itch.io/dancexr-quest) | — |
 
-If you prefer a one-off purchase, you can also find it on Steam and Itch.io.
+Google Play users can join the [public beta](https://play.google.com/apps/testing/com.vrstormlab.dancexr) for early access to the next update.
 
-[Steam: DanceXR Pro](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
+</div>
+</section>
 
-[Itch.io: DanceXR Pro](https://stormlab.itch.io/dancexr){: .dlbtn .itchio}
+<!-- ── Creator ─────────────────────────────────────────────── -->
+<section class="section">
+<div class="section-inner reverse">
+<div class="section-copy" markdown="1">
 
-If you can't find DanceXR on Steam, it could be that it is blocked in your country, you can try the Pure edition instead.
+{:.section-label}
+Creator Edition
 
-[Steam: DanceXR Pure](https://store.steampowered.com/app/2193970/DanceXR_Pure/){: .dlbtn .steam}
+## Record at Any Resolution
 
-The difference between the Pro and Pure versions is that the Pro has some adult-only features, so it is age-restricted on Steam. Also, the ray-traced version is a paid DLC on Steam. The Pure version has all adult features removed, but it includes the ray-traced version.
+The Creator Edition decouples recording from your screen and frame rate. Render 4K video at 60 fps on a 1080p monitor, output stereoscopic 3D SBS, VR 180, and VR 360 video, and use offline frame-by-frame rendering for perfect results every time.
 
-### Purchase Quest standalone version on Itch.io
+Available exclusively through Patreon.
 
-The standalone build for Oculus Quest can be found here:
+[Join on Patreon](https://www.patreon.com/dvvr){: .btn .btn-primary}
 
-[DanceXR Quest](https://stormlab.itch.io/dancexr-quest){: .dlbtn .itchio}
+</div>
+</div>
+</section>
 
-### Purchase Android version on Google Play & Itch.io
+<!-- ── Patreon ─────────────────────────────────────────────── -->
+<section class="section section-light">
+<div class="section-wide" markdown="1">
 
-The Android Pro version is available on itch.io, and the Pure version is available on Google Play:
+{:.section-label}
+Early Access
 
-[DanceXR Android Pro](https://stormlab.itch.io/dancexr-android){: .dlbtn .itchio}
+## Stay Ahead with Patreon
 
-[DanceXR Portable](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr){: .dlbtn .itchio}
+New features ship every month. Patreon supporters get access at the start of the month — before Steam and all other platforms. The Creator Edition is also available exclusively to Patreon creator-tier supporters.
 
-For Google Play users, you can now join our public beta test to get early access to the next update. Simply visit the link below:
+[DanceXR on Patreon](https://www.patreon.com/dvvr){: .btn .btn-primary}
 
-https://play.google.com/apps/testing/com.vrstormlab.dancexr
+</div>
+</section>
 
-If you want to revert to the production version, you can choose "Leave the Program" from the same page, and then you'll be able to install the old version from Google Play.
+<!-- ── China ───────────────────────────────────────────────── -->
+<section class="section">
+<div class="section-wide" markdown="1">
 
-### Purchase iOS version on App Store
+{:.section-label}
+大陆用户
 
-The iOS version for iPhone and iPad is available on the App Store:
+## 中国大陆购买选项
 
-[DanceXR iOS](https://apps.apple.com/au/app/dancexr/id6475269158){: .dlbtn .itchio}
+[查看详情](/dancexr/purchase_prc){: .btn .btn-primary}
 
-### For users in mainland China
-
-[中国大陆购买选项](purchase_prc)
+</div>
+</section>
