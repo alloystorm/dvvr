@@ -2,6 +2,7 @@
 layout: home
 title: VR Storm Lab — Projects
 toc: false
+hero_compact: true
 hero_eyebrow: VR Storm Lab
 hero_title: Tools for Creators
 hero_sub: >
@@ -17,7 +18,7 @@ hero_ctas:
 ---
 
 <!-- ── DanceXR ──────────────────────────────────────────── -->
-<section class="section">
+<section class="section section-light">
 <div class="section-inner">
 <div class="section-copy" markdown="1">
 
@@ -37,7 +38,7 @@ Animate any character, anywhere — on PC, Mac, Android, and Meta Quest VR. Play
 </section>
 
 <!-- ── ComfyStudio ────────────────────────────────────────── -->
-<section class="section section-light">
+<section class="section">
 <div class="section-inner reverse">
 <div class="section-copy" markdown="1">
 
@@ -57,7 +58,7 @@ Connects to a running ComfyUI instance and organizes your generation work into p
 </section>
 
 <!-- ── vmd2png ────────────────────────────────────────────── -->
-<section class="section">
+<section class="section section-light">
 <div class="section-inner">
 <div class="section-copy" markdown="1">
 
@@ -77,7 +78,7 @@ Encode motion data into portable 16-bit PNG or NPY files, preview 3D motions wit
 </section>
 
 <!-- ── ShiftPiano ──────────────────────────────────────────── -->
-<section class="section section-light">
+<section class="section">
 <div class="section-inner reverse">
 <div class="section-copy" markdown="1">
 

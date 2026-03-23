@@ -226,6 +226,20 @@
   50%       { transform: translateX(-50%) translateY(6px); }
 }
 
+/* ── Compact hero variant ────────────────────────────────── */
+.hero--compact {
+  height: auto;
+  min-height: unset;
+  padding: 140px 24px 72px;
+}
+.hero--compact .hero-title {
+  font-size: clamp(32px, 5vw, 56px);
+}
+.hero--compact .hero-sub {
+  font-size: clamp(15px, 2vw, 18px);
+  margin-bottom: 32px;
+}
+
 /* ── Buttons ─────────────────────────────────────────────── */
 .btn {
   display: inline-flex;

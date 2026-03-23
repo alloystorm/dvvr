@@ -12,26 +12,8 @@
 </head>
 <body class="home-page">
 
-<!-- ── Navigation ──────────────────────────────────────────── -->
-<nav class="site-nav" id="site-nav">
-  <div class="nav-inner">
-    <a class="nav-logo" href="/">
-      <img src="/images/icon.png" width="28" height="28" alt="">
-      DanceXR
-    </a>
-    <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
-    <ul class="nav-links" id="nav-links">
-      <li><a href="/dancexr/features">Features</a></li>
-      <li><a href="/dancexr/releases">Releases</a></li>
-      <li><a href="/dancexr/download" class="nav-cta">Download</a></li>
-    </ul>
-  </div>
-</nav>
-
 <!-- ── Hero ────────────────────────────────────────────────── -->
-<section class="hero">
+<section class="hero{% if page.hero_compact %} hero--compact{% endif %}">
   <div class="hero-bg">
     {% if page.hero_image %}
     <div class="hero-slide" style="background-image:url('{{ page.hero_image }}');opacity:1;"></div>
@@ -50,11 +32,11 @@
     </div>
     {% endif %}
   </div>
-  <a href="#content" class="hero-scroll-hint" aria-label="Scroll to content">
+  {% unless page.hero_compact %}<a href="#content" class="hero-scroll-hint" aria-label="Scroll to content">{% endunless %}
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <polyline points="6 9 12 15 18 9"/>
     </svg>
-  </a>
+  {% unless page.hero_compact %}</a>{% endunless %}
 </section>
 
 <!-- ── Language bar (only shown when page.locale is set) ────── -->

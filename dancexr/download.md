@@ -4,6 +4,7 @@ title: Download DanceXR
 toc: false
 locale: en-US
 lang_path: /dancexr/download
+hero_compact: true
 hero_eyebrow: DanceXR
 hero_title: Download & Purchase
 hero_sub: >
