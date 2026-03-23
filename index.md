@@ -19,7 +19,7 @@ slideshows:
   dancexr:
     - '/images/slideshows/dancexr/logo-black.jpg'
   comfystudio:
-    - '/images/slideshows/comfystudio/comfystudio.jpg'
+    - '/images/slideshows/comfystudio/comfystudio.jpeg'
   vmd2png:
     - '/images/slideshows/vmd2png/conqueror.jpg'
   shiftpiano:
