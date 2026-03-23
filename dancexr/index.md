@@ -354,12 +354,12 @@ Platforms
 
 ## Available Everywhere
 
-| Platform | Builds |
-|----------|--------|
-| Windows PC | RT, HD, LW |
-| Mac | HD |
-| Android | LW |
-| Meta Quest 2 / 3 / Pro | LW + AR mode |
+| Platform | Builds | Available On |
+|----------|--------|--------------|
+| Windows PC | RT, HD, LW | Patreon, Steam, Itch.io |
+| Mac | HD | Steam |
+| Android | LW | Google Play, Itch.io |
+| Meta Quest 2 / 3 / Pro | LW + AR mode | Itch.io (sideload) |
 
 AR mode on Quest and supported mobile devices lets characters appear in your real environment.
 
