@@ -1,63 +1,405 @@
 ---
-layout: single
-title: 댄스XR, 어디든 무대가 되고, 모델은 자유롭게 애니메이션!
-toc: true
+layout: home
+title: DanceXR — 어떤 모델이든, 어디서나 애니메이션
+toc: false
 locale: ko-KR
-sidebar:
-  nav: "docs-kr"
+lang_path: /dancexr/index
+hero_compact: true
+hero_eyebrow: VR 캐릭터 모델 뷰어
+hero_title: DanceXR - 어떤 모델이든, 어디서나 애니메이션
+hero_sub: >
+  PMX/MMD 또는 XNALara/XPS 모델을 로드하고 재생을 누르면, PC, Mac, Android 또는 Quest VR에서 캐릭터가 살아 움직이는 것을 볼 수 있습니다.
+hero_image: /images/header_wide.png
+hero_ctas:
+  - label: 무료 다운로드
+    url: /dancexr/download
+    style: primary
+  - label: Steam 구매
+    url: https://store.steampowered.com/search/?developer=VR%20Storm%20Lab
+    style: secondary
+  - label: Patreon
+    url: https://www.patreon.com/dvvr
+    style: secondary
+nav_links:
+  - label: DanceXR
+    url: /kr/dancexr
+  - label: 기능
+    url: /kr/dancexr/features
+  - label: 출시
+    url: /kr/dancexr/releases
+  - label: 다운로드
+    url: /kr/dancexr/download
+
+# ── Slideshow image lists ─────────────────────────────────────
+# Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.
+slideshows:
+  load_play:
+    - '/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp'
+    - '/images/slideshows/load_play/Abosolute%20Loveliness%21%21%20DOA%20Koharu%20in%20Cheongsam%20%E7%BB%9D%E7%BE%8E%E6%97%97%E8%A2%8D%E5%B0%8F%E6%98%A5%20%5BHkicoxya1Xg%5D.webp'
+    - '/images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp'
+    - '/images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp'
+    - '/images/slideshows/load_play/Requiem%20-%20Hoverbike%20Motion%20%5Bo_KZBdONwSs%5D.webp'
+    - '/images/slideshows/load_play/Stellar%20Blade%20Raven%20Sea%20Breeze%20Dance%20%5Bo6mocERvFNk%5D.webp'
+    - '/images/slideshows/load_play/%5BDanceXR%5D%20Kimagure%20Mercy%20-%20Honoka%20%5Bg1-OfMxxZ5s%5D.webp'
+    - '/images/slideshows/load_play/%5BDanceXR%5D%20New%20mirror%20feature%20%5B0FwY2viXcM0%5D.webp'
+  motion:
+    - '/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp'
+    - '/images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp'
+    - '/images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp'
+    - '/images/slideshows/motion/Don%27t%20miss%20out%21%20DanceXR%20is%20currently%2030%25%20off%20on%20Steam%20and%20Itch.io%21%20%5BMfpTKkOkXP8%5D.webp'
+    - '/images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp'
+    - '/images/slideshows/motion/Pole%20Dance%20Test%20%5B4TB8aFRJENI%5D.webp'
+    - '/images/slideshows/motion/Spin%20%5BK__liB93anI%5D.webp'
+    - '/images/slideshows/motion/This%20entire%20video%20is%20automatic%20transition%20between%20a%20few%20static%20poses%21%20%5BhwUahuvWBoQ%5D.webp'
+    - '/images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp'
+  alive:
+    - '/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp'
+    - '/images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp'
+    - '/images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp'
+    - '/images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp'
+    - '/images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp'
+  character:
+    - '/images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp'
+    - '/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp'
+    - '/images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp'
+    - '/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp'
+  physics:
+    - '/images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp'
+    - '/images/slideshows/physics/Convert%20Model%20Mesh%20To%20Cloth%20Simulation%20-%20DanceXR%202024.9%20%5BFdMSBaPMUHI%5D.webp'
+    - '/images/slideshows/physics/DanceXR%201.4.6%20New%20PMX%20Physics%20Settings%20%5BlimT_kMRp8s%5D.webp'
+    - '/images/slideshows/physics/How%20Do%20You%20Rate%20This%20Hair%20Dynamics%EF%BC%9F%20%5BLkVbfxGz4tw%5D.webp'
+    - '/images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp'
+    - '/images/slideshows/physics/Tentacle%20monster%20takes%20stage%20%5BBKCy9-pkt4o%5D.webp'
+    - '/images/slideshows/physics/%E6%B0%97%E3%81%BE%E3%81%90%E3%82%8C%E3%83%A1%E3%83%AB%E3%82%B7%E3%82%A3%20%28Kimagure%20Mercy%29%20feat.%20%E4%B8%8D%E7%9F%A5%E7%81%AB%E8%88%9E%20Jiggle%20Physics%21%20%5BhKD9qXPpJww%5D.webp'
+  simulation:
+    - '/images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp'
+    - '/images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp'
+    - '/images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp'
+    - '/images/slideshows/simulation/Fluid%20Dynamics%20Details%20%28Experimental%29%20%5BKY3-2YMWxwc%5D.webp'
+    - '/images/slideshows/simulation/Monica%20Runway%20Walk%20%5BCloth%20Simulation%5D%20%5BbqfVUz2A_-Q%5D.webp'
+    - '/images/slideshows/simulation/Nyotengo%20Looks%20Absolutely%20Stunning%20No%20Matter%20What%20She%20Wears%20%5BRxj702Ktp8s%5D.webp'
+    - '/images/slideshows/simulation/Particle%20Dynamics%20VS%20Physics%20Engine%20Comparison%20%5B8wOB11Afz7k%5D.webp'
+    - '/images/slideshows/simulation/Wearing%20a%20spiderweb%20%5BooZ3Kq8D6ZQ%5D.webp'
+  dressing:
+    - '/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp'
+    - '/images/slideshows/dressing/HIBIKASE%20-%20DOAXVV%20Mikasa%20Dissolving%20Outfit%20%5BZZwW0PoJ1vE%5D.webp'
+    - '/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp'
+    - '/images/slideshows/dressing/Just%20Legs%20%5B2J69v2_7HBs%5D.webp'
+    - '/images/slideshows/dressing/Marie%20Rose%20Morphing%20Ballet%20Outfit%20-%20Satisfaction%20%5BRgNi-DdEfL0%5D.webp'
+    - '/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp'
+    - '/images/slideshows/dressing/Oh%20no%21%20The%20dress%20is%20shrinking%21%20%5B1Gj_unoOenE%5D.webp'
+    - '/images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp'
+    - '/images/slideshows/dressing/%5BDanceXR%202024.3%5D%20Improved%20Stocking%20Effect%20%5BewUUxxGbAm8%5D.webp'
+  atmosphere:
+    - '/images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp'
+    - '/images/slideshows/atmosphere/Global%20Illumination%20Test%20%5BYt9RJqellnw%5D.webp'
+    - '/images/slideshows/atmosphere/Higher%20%5BTDGnCk1wU98%5D.webp'
+    - '/images/slideshows/atmosphere/Marie%20Rose%20-%20Romeo%20and%20Cinderella%20%5BmDb-9zzIddY%5D.webp'
+    - '/images/slideshows/atmosphere/Momiji%20is%20the%20conqueror%20of%20your%20dream%20%5BRahFWFBxxpc%5D.webp'
+    - '/images/slideshows/atmosphere/Play%20With%20Fire%20%5BA2mpVwDuUS8%5D.webp'
+    - '/images/slideshows/atmosphere/Tamaki%20Ghost%20Rule%20%5BsSHACvSGz1k%5D.webp'
+  environment:
+    - '/images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp'
+    - '/images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp'
+    - '/images/slideshows/environment/Drop%20Pop%20Candy%20-%20Koharu%20Amy%20Misaki%20and%20Fiona%20%5BL9ab6bYmYPA%5D.webp'
+    - '/images/slideshows/environment/First%20Descendant%20Bunny%20-%20Rabbit%20Hole%20%5By76mBxD_zac%5D.webp'
+    - '/images/slideshows/environment/How%20is%20the%20shadow%20on%20the%20wall%20even%20possible%EF%BC%9F%20%5B85lKm5S3Oa8%5D.webp'
+    - '/images/slideshows/environment/I%20AM%20GOOD%20%5BztrBHdNYJZ4%5D.webp'
+    - '/images/slideshows/environment/Koharu%20CH4NGE%20%5Bg6uprsD2ccI%5D.webp'
+    - '/images/slideshows/environment/Koharu%20%5Bd_HzMGyBl8E%5D.webp'
+    - '/images/slideshows/environment/Leifang%20-%20As%20You%20Like%20It%20-%20Group%20Dance%20%5BZgmCbzNs7EU%5D.webp'
+    - '/images/slideshows/environment/Leifang%20Circus%20Show%20%5Bg0pe5q9DrMo%5D.webp'
+    - '/images/slideshows/environment/Mai%20Shiranui%20-%20Senbonzakura%20%5B5Bl__4sqUIk%5D.webp'
+    - '/images/slideshows/environment/Mai%20Shiranui%27s%20Raining%20Day%20%5BXbt9o_ThuZ0%5D.webp'
+    - '/images/slideshows/environment/Nyotengu%20Lingerie%20-%20Cute%20Melody%20%5BzhWsbyph9wo%5D.webp'
+    - '/images/slideshows/environment/Real-time%20ripple%20effect%2C%20have%20we%20surpassed%20most%20AAA%20games%20out%20there%EF%BC%9F%20%5B1GU6y36OwjE%5D.webp'
+    - '/images/slideshows/environment/Satisfaction%20%5BosVbdy0u-us%5D.webp'
+    - '/images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp'
+    - '/images/slideshows/environment/Tamaki%20Conqueror%20%5Bp1eXYVuigoU%5D.webp'
+    - '/images/slideshows/environment/Test%20%5Bdg4mjalDsf4%5D.webp'
+    - '/images/slideshows/environment/YUKINO%E2%A7%B8BADDEST%E2%A7%B8PROJECTION%20%5ByMFmLZwTJug%5D.webp'
+    - '/images/slideshows/environment/%E3%82%B6%E3%83%A0%E3%82%B6%20-%20New%20Laser%20System%20Demo%20%28Warning%EF%BC%9A%20Flashing%20Lights%29%20%5BrOQow-MBkVU%5D.webp'
+  camera:
+    - '/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp'
+    - '/images/slideshows/camera/First%20Person%2039%20Music%20%5BY5T3JkedkQs%5D.webp'
+    - '/images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp'
+    - '/images/slideshows/camera/Testing%20First%20Person%20Camera%20%5BMotion%20Sick%20Warning%21%5D%20%5BgDGd4LwOZuA%5D.webp'
+    - '/images/slideshows/camera/What%20does%20it%20feel%20like%20to%20watch%20a%20concert%20while%20standing%20in%20the%20middle%20of%20the%20stage%EF%BC%9F%20%5Beq7XxG_6YLg%5D.webp'
+  render:
+    - '/images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp'
+    - '/images/slideshows/render/Eye%20Strain%20Exercise%20%5BhIawD7f59yc%5D.webp'
+    - '/images/slideshows/render/Thousand%20Lanterns%20-%20Fan%20Dance%20-%20Watercolor%20Painting%20%5BCLghP5ixcHQ%5D.webp'
+    - '/images/slideshows/render/Toon%20Shading%20Works%20Well%20With%20More%20Realistic%20Models%20Too%20%5BIV50xh6mQ_U%5D.webp'
+    - '/images/slideshows/render/VRGirl%20Sea%20Breeze%20dance%20%5BvPnmTRJqj8Q%5D.webp'
+    - '/images/slideshows/render/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp'
+    - '/images/slideshows/render/Marie%20Rose%20Dance%20Of%20Light%20%5BdpD_ggUerEY%5D.webp'
+    - '/images/slideshows/render/Nyotengu%20Lingerie%20-%20Cute%20Melody%20%5BzhWsbyph9wo%5D.webp'
 ---
-[Eng](/dancexr/index) | [繁中](/tw/dancexr/index) | [日本語](/jp/dancexr/index) | [한국어](/kr/dancexr/index) | [简中](/zh/dancexr/index)
 
-## 소개
+<!-- ── 그냥 로드하고 재생하세요 ────────────────────────────────── -->
+<section class="section">
+<div class="section-inner">
+<div class="section-copy" markdown="1">
 
-DanceXR은 PMX (MMD) 및 XNALara/XPS 모델과 VMD/BVH 모션 형식을 포함한 다양한 모델 및 모션 형식을 지원하는 다목적 캐릭터 모델 뷰어 및 모션 플레이어입니다. DanceXR을 사용하는 가장 큰 이점은 수동 조정이나 본 조정이 필요하지 않고 거의 모든 모델에서 거의 모든 모션을 재생할 수 있는 능력입니다.
+{:.section-label}
+모델 지원
 
-DanceXR의 독특한 기능 중 하나는 모델 및 모션을 다양한 표준 포즈를 지원하도록 구성할 수 있는 능력입니다. T-포즈 또는 A-포즈 모델용으로 만들어진 모션인지에 관계없이 DanceXR은 사용자가 선택한 모델에서 완벽하게 재생될 수 있도록 보장합니다. 또한 최대 호환성을 보장하기 위해 공통 본 구조 문제를 실시간으로 수정합니다.
+## 그냥 로드하고 재생하세요
 
-캐릭터 모델 및 모션 외에도 DanceXR은 무대 모델 및 거울 및 상호 작용 가능한 기본 객체와 같은 소품을 로드하는 것을 지원합니다. 사용자는 환경을 조정하여 날씨 효과 및 조명 구성을 선호에 맞게 조절할 수 있습니다. 또한 DanceXR은 성능 및 시각적 품질을 최적화하기 위해 조정할 수 있는 정교한 그래픽 설정을 제공합니다.
+대부분의 도구는 모든 모델-모션 조합에 대해 귀하가 수동으로 뼈대를 수정하고, 포즈를 조정하고, 설정을 미세 조정해야 합니다. DanceXR은 이를 자동으로 처리합니다.
 
-DanceXR은 또한 캐릭터 모델의 현실감을 향상시키는 내장 기능을 제공합니다. 모델은 숨을 쉬고 눈을 깜빡이며 실제 사람처럼 눈을 마주치게 됩니다. 또한 사용자는 프로시저 모션을 활용하고 모델의 모양을 세밀하게 조정하고 변경할 수 있습니다. 매달 새로운 기능이 추가되며, DanceXR은 흥미진진하고 지속적으로 발전하는 경험을 제공합니다.
+- **범용 모션 호환성** — VMD 및 BVH 모션은 T-포즈 또는 A-포즈용으로 제작되었든 모든 모델에서 올바르게 재생됩니다.
+- **실시간 뼈대 수정** — 일반적인 뼈대 구조 문제가 자동으로 수정됩니다.
+- **PMX 및 XPS 완벽 지원** — 두 형식 모두 물리, 재질 및 포즈 지원
 
-## 다양한 에디션 및 변형
+</div>
+<div>{% include slideshow.html slides=page.slideshows.load_play %}</div>
+</div>
+</section>
 
-DanceXR은 Free, Pure, Pro 및 Creator와 같은 다양한 기능을 제공하는 네 가지 에디션을 제공합니다.
+<!-- ── 기본적으로 살아 움직임 ──────────────────────────────────── -->
+<section class="section section-light">
+<div class="section-inner reverse">
+<div class="section-copy" markdown="1">
 
-Free 에디션에는 표준 포즈 변환, 무대 및 환경 설정, 사실적인 모션과 같은 모든 기본 기능이 포함되어 있지만, 한 번에 한 명의 배우만 무대에 허용하는 제한이 있습니다.
+{:.section-label}
+실물 같은 캐릭터
 
-Pure 에디션에는 Free 버전에서 사용할 수 없는 XPS 물리 및 프로시저 댄스 모션과 같은 프로 기능이 제공됩니다.
+## 기본적으로 살아 움직임
 
-Pro 에디션에는 Pure에 모든 것과 연령 제한 기능이 포함되어 있습니다.
+DanceXR의 캐릭터는 그냥 서 있지 않습니다. 아무런 설정 없이 숨을 쉬고, 눈을 깜빡이고, 눈을 맞춥니다. 모델을 로드하면 이미 존재하는 것처럼 느껴집니다.
 
-[Creator 에디션](creator.md)에는 실시간 렌더링 기능이 포함되어 있어 실제 프레임 속도와 화면 해상도에 대해 걱정하지 않고 비디오를 녹화할 수 있습니다. 예를 들어, 모니터가 1080p이고 컴퓨터가 해당 프레임 속도를 유지할 수 없을 때에도 4K 비디오를 매끄럽게 60fps로 녹화할 수 있습니다. 또한 VR 180 비디오를 생성할 수 있습니다.
+- 당신이 시야에 들어오면 배우들이 당신을 쳐다보고, 여러 캐릭터가 무대에 있으면 서로를 쳐다봅니다.
+- 모든 모션 위에 겹쳐지는 절차적 호흡 — 뭘 하든 항상 활성화
+- **자동 댄스** — 음악 비트와 볼륨에서 실시간으로 안무 생성
+- 캣워크, 대기 모션 및 모션 시퀀스로 수동 설정 없이 сцен를 역동적으로 유지
 
-각 에디션에는 RT, HD 또는 LW 빌드 중에서 선택할 수 있습니다. RT는 광선 추적을 가능하게 하고, HD는 그래픽 품질에 중점을 두며, LW는 프레임 속도를 최적화합니다.
+</div>
+<div>{% include slideshow.html slides=page.slideshows.alive %}</div>
+</div>
+</section>
 
-그러나 모든 플랫폼이 이러한 변형을 지원하는 것은 아닙니다. PC는 모두 지원하지만, Mac은 현재 HD만 지원하고, Android는 LW만 지원합니다.
+<!-- ── 움직이는 물리 ─────────────────────────────────── -->
+<section class="section section-continue-down">
+<div class="section-inner">
+<div class="section-copy" markdown="1">
 
-Pure 및 Pro는 Steam에서 판매되며, Pro는 Itch.io 및 Patreon에서도 사용할 수 있습니다. Creator 에디션은 현재 크리에이터 티어를 위해 Patreon에서만 제공됩니다.
+## 움직이는 물리
 
-## 출시 일정
+DanceXR에는 실시간으로 실행되는 전체 시뮬레이션 스택이 포함되어 있어 머리카락, 옷, 부드러운 몸체 및 치마가 모션에 반응합니다.
 
-저희 개발팀은 매월 업데이트를 출시하는 월간 출시 주기를 따릅니다.
+{:.section-label}
+물리
 
-이러한 업데이트는 매월 초에 우리의 Patreon 후원자에게 먼저 제공되며, 15일경 Steam 베타 브랜치에서 출시되고, 마지막으로 달마지막 전에 Steam 메인 브랜치 및 기타 플랫폼에 롤아웃됩니다. 무료 버전도 동일한 시기에 출시될 것입니다.
+- **PMX 모델 물리 완벽 지원** — PMX 모델의 물리 구성 요소가 자동으로 적용되며, 강력한 물리 편집기를 통해 모델별로 사용자 지정할 수 있습니다.
+- **머리카락, 치마, 가슴 물리** — XPS 모델을 위한 쉬운 구성으로 몇 번의 클릭만으로 자연스러운 물리 시뮬레이션 구현
 
-[이 페이지에서 다운로드 링크와 구매 옵션을 찾아보세요.](download.md)
-## ## 콘텐츠 준비
+</div>
+<div>{% include slideshow.html slides=page.slideshows.physics %}</div>
+</div>
+</section>
+<!-- ── 움직이는 물리 Continue ─────────────────────────────────── -->
+<section class="section section-continue-up">
 
-DanceXR에는 미리로드된 모델과 댄스 모션은 포함되어 있지 않습니다. 앱을 사용하려면 사용자는 콘텐츠 라이브러리 폴더를 만들고 필요할 때 DanceXR이 액세스할 수 있도록 다양한 유형의 리소스를 별도의 하위 폴더로 구성해야 합니다.
+<div class="section-inner reverse">
+<div class="section-copy" markdown="1">
+{:.section-label}
+Simulation
 
-PC에서 DanceXR은 초기 실행 시 부모 폴더에서 콘텐츠를 찾으려고 시도할 것입니다. 콘텐츠를 찾을 수 없는 경우, 앱은 다른 리소스 유형을 위한 하위 폴더가 있는 폴더를 생성합니다. 그런 다음 사용자는 시스템 메뉴에서 생성된 폴더를 열고 콘텐츠를 적절한 하위 폴더로 이동할 수 있습니다.
+- **Cloth simulation** — real-time parallel-threaded cloth with tearing, dragging, and mesh-to-cloth conversion
+- **XPBD particle dynamics** — Custom built advanced particle based simulation that runs parallel to achieve best efficiency.
+- **Soft body simulation** — Further enhancing XPS physics tools with XPBD
+</div>
+<div>{% include slideshow.html slides=page.slideshows.simulation %}</div>
+</div>
+</section>
 
-그러나 퀘스트 및 안드로이드 기기의 경우, 콘텐츠 폴더의 위치를 변경할 수 없습니다. 콘텐츠를 추가하려면 퀘스트 사용자는 기기를 PC에 연결해야 하고, 안드로이드 사용자는 콘텐츠 폴더 내에서 기본 파일 관리 작업을 수행하기 위한 콘텐츠 관리자가 제공됩니다.
+<!-- ── Dress Your Character ──────────────────────────────────── -->
+<section class="section section-light">
+<div class="section-inner">
+<div class="section-copy" markdown="1">
 
-콘텐츠 폴더 설정에 도움이 필요한 경우, [여기에서 비디오 튜토리얼을 확인할 수 있습니다](https://www.youtube.com/watch?v=kjzxGEd8SqM&list=PLiOnKm2t3bhLV3HcABEs0xjqgrYcmDQcr&index=3) 그리고 [이 페이지에서 더 많은 정보를 찾을 수 있습니다](preparecontent.md).
+{:.section-label}
+Appearance
 
+## Dress Your Characters
 
-## 문서
+Control every aspect of character appearance — from outfit changes to fully custom outfits.
 
-기능 및 기능에 대해 더 알아보려면 왼쪽이나 위쪽의 "목차"에서 주제를 선택하십시오.
+Switch outfits, toggle accessories, and animate clothing transitions synchronized to music.
 
+</div>
+<div>{% include slideshow.html slides=page.slideshows.dressing %}</div>
+</div>
+</section>
 
-## 약관
-본 프로그램을 사용함으로써 사용자는 프로그램과 함께 사용하는 콘텐츠에 대한 모든 책임을 전가하며, 사용된 모든 콘텐츠가 모든 법적 및 저작권 요구 사항을 충족한다는 데 동의합니다. DanceXR의 개발자는 사용자가 생성하거나 다운로드한 콘텐츠에 대한 어떠한 책임도 지지 않습니다.
+<!-- ── Atmosphere & Environment ───────────────────────────── -->
+<section class="section section-continue-down">
+<div class="section-inner reverse">
+<div class="section-copy" markdown="1">
+
+## Atmosphere & Environment
+
+{:.section-label}
+Atmosphere
+- **Particle effects** — snow, glitter, rain, falling leaves with full physics control
+- **Procedural sky** — dynamic day/night transitions, stars, volumetric clouds affected by wind
+
+</div>
+<div>{% include slideshow.html slides=page.slideshows.atmosphere %}</div>
+</div>
+</section>
+
+<section class="section section-continue-up">
+<div class="section-inner">
+<div class="section-copy" markdown="1">
+{:.section-label}
+Environment
+- **HDR Environment Map** — Use high dynamic range spherical environment maps for realistic lighting and background
+- **Real-time water system** — reflections, refractions, ripples, and underwater physics
+- **Stage models, props, mirrors, lasers, and a full water system**
+</div>
+<div>{% include slideshow.html slides=page.slideshows.environment %}</div>
+</div>
+</section>
+
+<!-- ── Cinematic Camera Tools ────────────────────────────── -->
+<section class="section section-light">
+<div class="section-inner reverse">
+<div class="section-copy" markdown="1">
+
+{:.section-label}
+Cinematography
+
+## Cinematic Camera Tools
+
+Multiple camera modes to capture exactly the shot you want.
+
+- **Auto Camera** — smart view framing that keeps all actors in frame automatically
+- **Freefly, Orbit, First Person, Fixed (Concert Mode), One-shot**
+- Camera motions from VMD files with full interpolation curve support
+
+</div>
+<div>{% include slideshow.html slides=page.slideshows.camera %}</div>
+</div>
+</section>
+
+<!-- ── Stunning Visuals ───────────────────────────────────── -->
+<section class="section">
+<div class="section-inner">
+<div class="section-copy" markdown="1">
+
+{:.section-label}
+Graphics
+
+## Stunning Visuals on Every Platform
+
+Choose the build that fits your hardware:
+
+| Build | Focus |
+|-------|-------|
+| **RT** | Ray tracing — reflections, global illumination, ambient occlusion, contact shadows |
+| **HD** | High visual quality, balanced performance |
+| **LW** | Optimized frame rate — great for mobile and Quest |
+
+</div>
+<div>{% include slideshow.html slides=page.slideshows.render %}</div>
+</div>
+</section>
+
+<!-- ── Talk to Your Characters ───────────────────────────── -->
+<section class="section section-light">
+<div class="section-wide" markdown="1">
+
+{:.section-label}
+AI Features
+
+## Talk to Your Characters
+
+With AI-powered voice chat, your characters respond to you in real time.
+
+- Connect to **OpenAI**, a local LLM (LM Studio, Ollama, Ooba), or a remote GPU service
+- **Built-in TTS** with 900+ voices — each character can have their own
+- **Automatic lipsync** — faces animate as they speak
+- **Voice recognition** — talk to them, not just type
+
+</div>
+</section>
+
+<!-- ── Record at Any Resolution ──────────────────────────── -->
+<section class="section">
+<div class="section-wide" markdown="1">
+
+{:.section-label}
+Creator Edition
+
+## Record at Any Resolution
+
+The **Creator Edition** decouples recording from your screen and frame rate.
+
+- Render 4K video at 60 fps — even on a 1080p monitor that can't sustain that rate live
+- Output **2D, stereoscopic 3D SBS, VR 180, and VR 360** video
+- Offline frame-by-frame rendering — every frame is perfect
+
+</div>
+</section>
+
+<!-- ── Available Everywhere ──────────────────────────────── -->
+<section class="section section-light">
+<div class="section-wide" markdown="1">
+
+{:.section-label}
+Platforms
+
+## Available Everywhere
+
+| Platform | Builds | Available On |
+|----------|--------|--------------|
+| Windows PC | RT, HD, LW | Patreon, Steam, Itch.io |
+| Mac | HD | Steam |
+| Android | LW | Google Play, Itch.io |
+| Meta Quest 2 / 3 / Pro | LW + AR mode | Itch.io (sideload) |
+
+AR mode on Quest and supported mobile devices lets characters appear in your real environment.
+
+</div>
+</section>
+
+<!-- ── Choose Your Edition ───────────────────────────────── -->
+<section class="section" id="editions">
+<div class="section-wide" markdown="1">
+
+{:.section-label}
+Pricing
+
+## Choose Your Edition
+
+| Edition | What's included |
+|---------|----------------|
+| **Free** | All core features — one actor on stage |
+| **Pure** | XPS physics, procedural dance, multi-actor |
+| **Pro** | Everything in Pure, plus adult content |
+| **Creator** | Everything in Pro, plus offline rendering and VR video |
+
+Pure and Pro are on **Steam** and **Itch.io**. Creator is available through **Patreon**. New features ship every month — Patreon gets early access, Steam follows mid-month.
+
+[Download / Purchase →](/kr/dancexr/download){: .btn .btn-primary}
+
+</div>
+</section>
+
+<!-- ── Active Development ─────────────────────────────────── -->
+<section class="section section-light">
+<div class="section-wide" markdown="1">
+
+{:.section-label}
+Updates
+
+## Active Development
+
+New features ship every month. Recent additions include AI voice chat, keyframe animation, music timing sync, cloth simulation with tearing, soft body physics, alternative texture layers, and skin material improvements.
+
+[See all release notes →](/kr/dancexr/releases){: .btn-ghost}
+
+</div>
+</section>
