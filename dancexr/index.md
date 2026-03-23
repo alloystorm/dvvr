@@ -155,7 +155,6 @@ Most tools require you to manually fix bones, adjust poses, and tweak settings f
 </div>
 <div>{% include slideshow.html slides=page.slideshows.load_play %}</div>
 </div>
-<div class="section-video">{% include slideshow.html slides=page.slideshows.motion %}</div>
 </section>
 
 <!-- ── Alive by Default ──────────────────────────────────── -->
@@ -304,8 +303,7 @@ With AI-powered voice chat, your characters respond to you in real time.
 
 <!-- ── Record at Any Resolution ──────────────────────────── -->
 <section class="section section-light">
-<div class="section-inner reverse">
-<div class="section-copy" markdown="1">
+<div class="section-wide" markdown="1">
 
 {:.section-label}
 Creator Edition
@@ -318,7 +316,6 @@ The **Creator Edition** decouples recording from your screen and frame rate.
 - Output **2D, stereoscopic 3D SBS, VR 180, and VR 360** video
 - Offline frame-by-frame rendering — every frame is perfect
 
-</div>
 </div>
 </section>
 
