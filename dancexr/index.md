@@ -21,6 +21,15 @@ hero_ctas:
   - label: Patreon
     url: https://www.patreon.com/dvvr
     style: secondary
+nav_links:
+  - label: DanceXR
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 
 # ── Slideshow image lists ─────────────────────────────────────
 # Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.

@@ -10,8 +10,8 @@
   --bg-surface-2: #2d2d2f;
   --text:         #f5f5f7;
   --text-dim:     #86868b;
-  --accent:       #9d4c00;
-  --accent-h:     #b16100;
+  --accent:       #0071e3;
+  --accent-h:     #0085ff;
   --border:       rgba(255,255,255,0.12);
   --nav-h:        52px;
   --r:            18px;
@@ -848,8 +848,8 @@
   font-size: 13px;
   top: 1px;
 }
-.section-copy a { color: var(--accent); }
-.section-copy a:hover { color: var(--accent-h); }
+.section-copy a:not(.btn) { color: var(--accent); }
+.section-copy a:not(.btn):hover { color: var(--accent-h); }
 
 /* Full-width centered content (no media column) */
 .section-wide {

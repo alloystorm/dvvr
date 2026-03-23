@@ -52,3 +52,13 @@ footer:
     - label: "BiliBili"
       icon: "fas fa-play-circle"
       url: "https://space.bilibili.com/167383940" 
+
+# Default nav links for the home layout (overridable per-page via nav_links front matter)
+default_nav_links:
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
+    cta: true
