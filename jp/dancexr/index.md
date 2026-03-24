@@ -309,9 +309,10 @@ Switch outfits, toggle accessories, and animate clothing transitions synchronize
 </div>
 </section>
 
-<!-- ── Talk to Your Characters ───────────────────────────── -->
+<!-- ── AI Features + Creator Edition (paired) ────────────── -->
 <section class="section section-light">
-<div class="section-wide" markdown="1">
+<div class="section-inner">
+<div class="section-copy" markdown="1">
 
 {:.section-label}
 AI機能
@@ -326,11 +327,7 @@ AIパワードのボイスチャットにより、キャラクターがリアル
 - **音声認識** — 入力するだけでなく、話しかけます
 
 </div>
-</section>
-
-<!-- ── Record at Any Resolution ──────────────────────────── -->
-<section class="section">
-<div class="section-wide" markdown="1">
+<div class="section-copy" markdown="1">
 
 {:.section-label}
 クリエイターエディション
@@ -343,65 +340,99 @@ AIパワードのボイスチャットにより、キャラクターがリアル
 - **2D、ステレオ３D SBS、VR 180、VR 360** 動画を出力
 - オフラインによるフレーム単位のレンダリング — すべてのフレームが完璧です
 
+[Patreonで利用可能 →](/jp/dancexr/download){: .btn-ghost}
+
 </div>
-</section>
-
-<!-- ── Available Everywhere ──────────────────────────────── -->
-<section class="section section-light">
-<div class="section-wide" markdown="1">
-
-{:.section-label}
-プラットフォーム
-
-## どこでも利用可能
-
-| プラットフォーム | ビルド | 利用可能場所 |
-|----------|--------|--------------|
-| Windows PC | RT, HD, LW | Patreon, Steam, Itch.io |
-| Mac | HD | Steam |
-| Android | LW | Google Play, Itch.io |
-| Meta Quest 2 / 3 / Pro | LW + ARモード | Itch.io (サイドロード) |
-
-QuestおよびサポートされているモバイルデバイスのARモードを使用すると、キャラクターを現実の環境に表示できます。
-
 </div>
 </section>
 
 <!-- ── Choose Your Edition ───────────────────────────────── -->
 <section class="section" id="editions">
-<div class="section-wide" markdown="1">
+<div class="editions-header" markdown="1">
 
 {:.section-label}
 価格設定
 
 ## エディションの選択
 
-| エディション | 含まれるもの |
-|---------|----------------|
-| **Free** | すべてのコア機能 — ステージ上に1人のアクター |
-| **Pure** | XPS物理、プロシージャルダンス、ミューチアクター |
-| **Pro** | Pureのすべて、さらに大人向けコンテンツ |
-| **Creator** | Proのすべて、さらにオフラインレンダリングとVRビデオ |
+</div>
+<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
-PureとProは**Steam**と**Itch.io**にあります。Creatorは**Patreon**を通じて利用できます。新機能は毎月リリースされます — Patreonは早期アクセスを取得し、Steamは月半ばに続きます。
+  <div class="edition-card">
+    <p class="edition-tier">無料</p>
+    <p class="edition-name">Free</p>
+    <p class="edition-price">無料 — PC限定</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>任意のPMX / XPSモデルを読み込む</li>
+      <li>任意のVMD / BVHモーションを再生</li>
+      <li>完全な環境システム</li>
+      <li class="locked">ステージ上のアクターは1人のみ</li>
+      <li class="locked">高度な機能はロック</li>
+    </ul>
+    <a href="/jp/dancexr/download" class="edition-cta">無料でダウンロード</a>
+  </div>
 
-[Download / Purchase →](/jp/dancexr/download){: .btn .btn-primary}
+  <div class="edition-card featured">
+    <p class="edition-tier">有料</p>
+    <p class="edition-name">Pure / Pro</p>
+    <p class="edition-price">Steam &amp; Itch.ioにて$24.99から</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>Freeのすべての機能</li>
+      <li>マルチアクターシーン</li>
+      <li>XPS物理 &amp; プロシージャルダンス</li>
+      <li>すべての高度な機能</li>
+      <li>Proはアダルトコンテンツをサポート</li>
+    </ul>
+    <a href="/jp/dancexr/download" class="edition-cta">今すぐ購入</a>
+  </div>
 
+  <div class="edition-card">
+    <p class="edition-tier">Patreon</p>
+    <p class="edition-name">Creator</p>
+    <p class="edition-price">Patreon経由 — 早期アクセス込み</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>Proのすべての機能</li>
+      <li>オフラインフレーム単位レンダリング</li>
+      <li>4K、VR 180 &amp; VR 360動画</li>
+      <li>新機能を1ヶ月早くアクセス</li>
+    </ul>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta">Patreonに参加</a>
+  </div>
+
+</div>
+<div class="editions-header" markdown="1">
+  DanceXRはAndroid、iOS、Quest VRでもご利用いただけます — 同じコア機能がお使いのデバイスに最適化されています。詳しくは[ダウンロードページ](/jp/dancexr/download)をご確認ください。
 </div>
 </section>
 
 <!-- ── Active Development ─────────────────────────────────── -->
 <section class="section section-light">
-<div class="section-wide" markdown="1">
+<div class="releases-inner">
+<div markdown="1">
 
 {:.section-label}
 アップデート
 
-## 活発な開発
+## 毎月新機能
 
-新機能は毎月リリースされます。最近の追加機能には、AIボイスチャット、キーフレームアニメーション、音楽のタイミング同期、破れを伴う布シミュレーション、ソフトボディ物理、代替テクスチャレイヤー、およびスキンマテリアルの改善が含まれます。
+毎月新しい機能と改善がリリースされます。Patreonのサポーターはいち早くアクセス可能 — SteamやほかのプラットフォームはN月中旬に続きます。
 
-[See all release notes →](/jp/dancexr/releases){: .btn-ghost}
+[すべてのリリースノートを見る →](/jp/dancexr/releases){: .btn-ghost}
 
+</div>
+<div class="release-card">
+  <p class="release-version">最新 — 2026.3</p>
+  <p class="release-headline">2026年3月</p>
+  <div class="release-items">
+    <div class="release-item">ドラッグ&amp;ドロップファイル読み込み</div>
+    <div class="release-item">シェーダー最適化 — フレームレート向上</div>
+    <div class="release-item">VR使いやすさの改善</div>
+    <div class="release-item">VMD2PNGオープンソースツール</div>
+  </div>
+  <a href="/jp/dancexr/releases/2026.3" class="btn-ghost">完全なリリースノート</a>
+</div>
 </div>
 </section>

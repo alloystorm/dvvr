@@ -309,9 +309,10 @@ Switch outfits, toggle accessories, and animate clothing transitions synchronize
 </div>
 </section>
 
-<!-- ── Talk to Your Characters ───────────────────────────── -->
+<!-- ── AI Features + Creator Edition (paired) ────────────── -->
 <section class="section section-light">
-<div class="section-wide" markdown="1">
+<div class="section-inner">
+<div class="section-copy" markdown="1">
 
 {:.section-label}
 AI 기능
@@ -326,11 +327,7 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
 - **음성 인식** — 타이핑뿐만 아니라 말을 걸 수 있습니다.
 
 </div>
-</section>
-
-<!-- ── Record at Any Resolution ──────────────────────────── -->
-<section class="section">
-<div class="section-wide" markdown="1">
+<div class="section-copy" markdown="1">
 
 {:.section-label}
 크리에이터 에디션
@@ -343,65 +340,99 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
 - **2D, 입체 3D SBS, VR 180, VR 360** 비디오 출력
 - 오프라인 프레임 단위 렌더링 — 모든 프레임이 완벽합니다
 
+[Patreon에서 이용 가능 →](/kr/dancexr/download){: .btn-ghost}
+
 </div>
-</section>
-
-<!-- ── Available Everywhere ──────────────────────────────── -->
-<section class="section section-light">
-<div class="section-wide" markdown="1">
-
-{:.section-label}
-플랫폼
-
-## 어디서나 이용 가능
-
-| 플랫폼 | 빌드 | 이용 가능 위치 |
-|----------|--------|--------------|
-| Windows PC | RT, HD, LW | Patreon, Steam, Itch.io |
-| Mac | HD | Steam |
-| Android | LW | Google Play, Itch.io |
-| Meta Quest 2 / 3 / Pro | LW + AR 모드 | Itch.io (사이드로드) |
-
-Quest 및 지원되는 모바일 장치의 AR 모드를 사용하면 캐릭터가 실제 환경에 나타날 수 있습니다.
-
 </div>
 </section>
 
 <!-- ── Choose Your Edition ───────────────────────────────── -->
 <section class="section" id="editions">
-<div class="section-wide" markdown="1">
+<div class="editions-header" markdown="1">
 
 {:.section-label}
 가격 설정
 
 ## 에디션 선택
 
-| 에디션 | 포함된 내용 |
-|---------|----------------|
-| **Free** | 모든 핵심 기능 — 무대 위에 1명의 액터 |
-| **Pure** | XPS 물리, 절차적 댄스, 다중 액터 |
-| **Pro** | Pure의 모든 항목, 더하기 성인용 콘텐츠 |
-| **Creator** | Pro의 모든 항목, 더하기 오프라인 렌더링 및 VR 비디오 |
+</div>
+<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
-Pure와 Pro는 **Steam**과 **Itch.io**에 있습니다. Creator는 **Patreon**을 통해 이용할 수 있습니다. 새로운 기능은 매달 출시됩니다 — Patreon에서 미리 이용해 볼 수 있으며, Steam은 이달 중반에 출시됩니다.
+  <div class="edition-card">
+    <p class="edition-tier">무료</p>
+    <p class="edition-name">Free</p>
+    <p class="edition-price">무료 — PC 전용</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>모든 PMX / XPS 모델 불러오기</li>
+      <li>모든 VMD / BVH 모션 재생</li>
+      <li>전체 환경 시스템</li>
+      <li class="locked">무대 위 액터 한 명</li>
+      <li class="locked">고급 기능 잠금</li>
+    </ul>
+    <a href="/kr/dancexr/download" class="edition-cta">무료 다운로드</a>
+  </div>
 
-[Download / Purchase →](/kr/dancexr/download){: .btn .btn-primary}
+  <div class="edition-card featured">
+    <p class="edition-tier">유료</p>
+    <p class="edition-name">Pure / Pro</p>
+    <p class="edition-price">Steam &amp; Itch.io에서 $24.99부터</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>Free의 모든 기능 포함</li>
+      <li>다중 액터 장면</li>
+      <li>XPS 물리 &amp; 절차적 댄스</li>
+      <li>모든 고급 기능</li>
+      <li>Pro는 성인 콘텐츠 지원</li>
+    </ul>
+    <a href="/kr/dancexr/download" class="edition-cta">지금 구매</a>
+  </div>
 
+  <div class="edition-card">
+    <p class="edition-tier">Patreon</p>
+    <p class="edition-name">Creator</p>
+    <p class="edition-price">Patreon 경유 — 얼리 액세스 포함</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>Pro의 모든 기능 포함</li>
+      <li>오프라인 프레임 단위 렌더링</li>
+      <li>4K, VR 180 &amp; VR 360 비디오</li>
+      <li>새 기능 한 달 먼저 이용</li>
+    </ul>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta">Patreon 가입</a>
+  </div>
+
+</div>
+<div class="editions-header" markdown="1">
+  DanceXR은 Android, iOS, Quest VR에서도 이용할 수 있습니다 — 동일한 핵심 기능이 디바이스에 맞게 최적화되어 있습니다. 자세한 내용은 [다운로드 페이지](/kr/dancexr/download)를 확인하세요.
 </div>
 </section>
 
 <!-- ── Active Development ─────────────────────────────────── -->
 <section class="section section-light">
-<div class="section-wide" markdown="1">
+<div class="releases-inner">
+<div markdown="1">
 
 {:.section-label}
 업데이트
 
-## 활발한 개발
+## 매달 새로운 기능
 
-새로운 기능이 매달 출시됩니다. 최근 추가 사항에는 AI 음성 채팅, 키프레임 애니메이션, 음악 타이밍 동기화, 찢어짐이 있는 천 시뮬레이션, 소프트 바디 물리, 대체 텍스처 레이어 및 피부 재질 속성 개선이 포함됩니다.
+매달 새로운 기능과 개선 사항이 출시됩니다. Patreon 후원자는 먼저 이용할 수 있으며 — Steam 및 기타 플랫폼은 이달 중반에 출시됩니다.
 
-[See all release notes →](/kr/dancexr/releases){: .btn-ghost}
+[모든 릴리스 노트 보기 →](/kr/dancexr/releases){: .btn-ghost}
 
+</div>
+<div class="release-card">
+  <p class="release-version">최신 — 2026.3</p>
+  <p class="release-headline">2026년 3월</p>
+  <div class="release-items">
+    <div class="release-item">드래그 앤 드롭 파일 로딩</div>
+    <div class="release-item">셰이더 최적화 — 프레임 속도 향상</div>
+    <div class="release-item">VR 사용 편의성 개선</div>
+    <div class="release-item">VMD2PNG 오픈소스 도구</div>
+  </div>
+  <a href="/kr/dancexr/releases/2026.3" class="btn-ghost">전체 릴리스 노트</a>
+</div>
 </div>
 </section>

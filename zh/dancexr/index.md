@@ -309,9 +309,10 @@ Switch outfits, toggle accessories, and animate clothing transitions synchronize
 </div>
 </section>
 
-<!-- ── Talk to Your Characters ───────────────────────────── -->
+<!-- ── AI Features + Creator Edition (paired) ────────────── -->
 <section class="section section-light">
-<div class="section-wide" markdown="1">
+<div class="section-inner">
+<div class="section-copy" markdown="1">
 
 {:.section-label}
 AI 功能
@@ -326,11 +327,7 @@ AI 功能
 - **语音识别** — 直接和他们说话，而不仅仅是打字
 
 </div>
-</section>
-
-<!-- ── Record at Any Resolution ──────────────────────────── -->
-<section class="section">
-<div class="section-wide" markdown="1">
+<div class="section-copy" markdown="1">
 
 {:.section-label}
 创作者版
@@ -343,65 +340,99 @@ AI 功能
 - 输出 **2D、立体 3D SBS、VR 180 和 VR 360** 视频
 - 离线逐帧渲染 —— 确保每一帧都完美无瑕
 
+[可在 Patreon 上获取 →](/zh/dancexr/download){: .btn-ghost}
+
 </div>
-</section>
-
-<!-- ── Available Everywhere ──────────────────────────────── -->
-<section class="section section-light">
-<div class="section-wide" markdown="1">
-
-{:.section-label}
-平台
-
-## 随处可用
-
-| 平台 | 版本 | 可用平台 |
-|----------|--------|--------------|
-| Windows PC | RT, HD, LW | Patreon, Steam, Itch.io |
-| Mac | HD | Steam |
-| Android | LW | Google Play, Itch.io |
-| Meta Quest 2 / 3 / Pro | LW + AR 模式 | Itch.io (侧载) |
-
-Quest 和支持的移动设备上的 AR 模式可让角色出现在您的真实环境中。
-
 </div>
 </section>
 
 <!-- ── Choose Your Edition ───────────────────────────────── -->
 <section class="section" id="editions">
-<div class="section-wide" markdown="1">
+<div class="editions-header" markdown="1">
 
 {:.section-label}
 定价
 
 ## 挑选您的版本
 
-| 版本 | 包含内容 |
-|---------|----------------|
-| **Free** | 所有核心功能 —— 舞台上一名演员 |
-| **Pure** | XPS 物理、程序化编舞、多名演员 |
-| **Pro** | Pure 版本中的所有内容，另加上成人内容 |
-| **Creator** | Pro 版本中的所有内容，另加上离线渲染和 VR 视频 |
+</div>
+<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
-Pure 和 Pro 可以在 **Steam** 和 **Itch.io** 获取。Creator 版本可通过 **Patreon** 获取。每月推出新功能 —— Patreon 订阅者可获得抢先体验，Steam 则在月中跟进。
+  <div class="edition-card">
+    <p class="edition-tier">免费</p>
+    <p class="edition-name">Free</p>
+    <p class="edition-price">免费 — 仅限 PC</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>加载任意 PMX / XPS 模型</li>
+      <li>播放任意 VMD / BVH 动作</li>
+      <li>完整环境系统</li>
+      <li class="locked">舞台上只有一名演员</li>
+      <li class="locked">高级功能已锁定</li>
+    </ul>
+    <a href="/zh/dancexr/download" class="edition-cta">免费下载</a>
+  </div>
 
-[Download / Purchase →](/zh/dancexr/download){: .btn .btn-primary}
+  <div class="edition-card featured">
+    <p class="edition-tier">付费</p>
+    <p class="edition-name">Pure / Pro</p>
+    <p class="edition-price">Steam &amp; Itch.io 起价 $24.99</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>包含 Free 的一切</li>
+      <li>多演员场景</li>
+      <li>XPS 物理 &amp; 程序化编舞</li>
+      <li>所有高级功能</li>
+      <li>Pro 版支持成人内容</li>
+    </ul>
+    <a href="/zh/dancexr/download" class="edition-cta">立即购买</a>
+  </div>
 
+  <div class="edition-card">
+    <p class="edition-tier">Patreon</p>
+    <p class="edition-name">Creator</p>
+    <p class="edition-price">通过 Patreon 获取 — 含抢先体验</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>包含 Pro 的一切</li>
+      <li>离线逐帧渲染</li>
+      <li>4K、VR 180 &amp; VR 360 视频</li>
+      <li>提前一个月获取新功能</li>
+    </ul>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta">加入 Patreon</a>
+  </div>
+
+</div>
+<div class="editions-header" markdown="1">
+  DanceXR 同样支持 Android、iOS 和 Quest VR —— 相同的核心功能，针对您的设备进行了优化。详情请查看[下载页面](/zh/dancexr/download)。
 </div>
 </section>
 
 <!-- ── Active Development ─────────────────────────────────── -->
 <section class="section section-light">
-<div class="section-wide" markdown="1">
+<div class="releases-inner">
+<div markdown="1">
 
 {:.section-label}
 更新
 
-## 持续活跃开发中
+## 每月更新
 
-每个月都有新功能上线。最近的更新包括 AI 语音聊天、关键帧动画、音乐节拍同步、带有撕裂的布料模拟、软体物理系统、替换纹理层以及皮肤材质改进。
+每个月都有新功能和改进上线。Patreon 订阅者可抢先体验 —— Steam 和其他平台则在月中跟进。
 
-[See all release notes →](/zh/dancexr/releases){: .btn-ghost}
+[查看所有版本说明 →](/zh/dancexr/releases){: .btn-ghost}
 
+</div>
+<div class="release-card">
+  <p class="release-version">最新 — 2026.3</p>
+  <p class="release-headline">2026年3月</p>
+  <div class="release-items">
+    <div class="release-item">拖放文件加载</div>
+    <div class="release-item">着色器优化 — 提升帧率</div>
+    <div class="release-item">改进 VR 易用性</div>
+    <div class="release-item">VMD2PNG 开源工具</div>
+  </div>
+  <a href="/zh/dancexr/releases/2026.3" class="btn-ghost">完整版本说明</a>
+</div>
 </div>
 </section>
