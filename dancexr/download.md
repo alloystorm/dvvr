@@ -5,19 +5,14 @@ toc: false
 locale: en-US
 lang_path: /dancexr/download
 nav_links:
+  - label: Intro
+    url: /dancexr
   - label: Features
     url: /dancexr/features
-  - label: Physics
-    url: /dancexr/features/physics
-  - label: Cinematics
-    url: /dancexr/features/cinematic_camera
-  - label: AI
-    url: /dancexr/features/ai_features
-  - label: Pricing
-    url: /dancexr/#editions
+  - label: Releases
+    url: /dancexr/releases
   - label: Download
     url: /dancexr/download
-    cta: true
 ---
 
 <!-- ── Patreon ─────────────────────────────────────────────── -->
