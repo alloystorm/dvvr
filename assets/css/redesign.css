@@ -56,13 +56,7 @@ body * {
   font-family: var(--font) !important;
 }
 
-/* Minimal-mistakes masthead */
-.masthead {
-  background: rgba(0.2,0.2,0.2,0.72) !important;
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-  border-bottom: 1px solid var(--border) !important;
-}
+/* Minimal-mistakes masthead base — detailed overrides in GLOBAL DOCS section below */
 .masthead__inner-wrap,
 .greedy-nav { background: transparent !important; }
 .greedy-nav a,
@@ -1154,19 +1148,119 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Tighten up the masthead on docs pages */
-.masthead {
-  background: rgba(29,29,31,0.95) !important;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+/* Floating pill nav — matches custom site-nav */
+body:not(.home-page) .masthead {
+  position: fixed !important;
+  top: 16px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: calc(100% - 48px) !important;
+  max-width: 900px !important;
+  height: var(--nav-h) !important;
+  background: rgba(0,0,0,0.72) !important;
+  backdrop-filter: saturate(180%) blur(20px) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 14px !important;
+  z-index: 1000 !important;
+  transition: background 0.3s, border-color 0.3s;
 }
-.masthead__inner-wrap {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
+body:not(.home-page) .masthead__inner-wrap {
+  height: var(--nav-h) !important;
+  padding: 0 20px !important;
+  max-width: 100% !important;
 }
-.site-title, .masthead__menu-item a {
+body:not(.home-page) .greedy-nav {
+  display: flex !important;
+  align-items: center !important;
+  height: 100% !important;
+}
+body:not(.home-page) .site-title {
+  font-size: 17px !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.01em !important;
+  padding: 0 !important;
+  line-height: 1 !important;
   font-family: var(--font) !important;
+}
+body:not(.home-page) .greedy-nav .visible-links {
+  margin-left: auto !important;
+}
+body:not(.home-page) .greedy-nav .visible-links a {
+  font-size: 13px !important;
+  padding: 6px 14px !important;
+  font-family: var(--font) !important;
+}
+body:not(.home-page) .greedy-nav .visible-links a::before {
+  display: none !important;
+}
+body:not(.home-page) .masthead__menu-item a,
+body:not(.home-page) .greedy-nav__toggle {
+  font-family: var(--font) !important;
+}
+
+/* Push content below fixed pill nav */
+body:not(.home-page) .initial-content {
+  padding-top: calc(var(--nav-h) + 48px) !important;
+}
+
+/* Constrain and centre the main layout */
+body:not(.home-page) #main {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  padding-bottom: 80px !important;
+}
+
+/* Sidebar as card */
+body:not(.home-page) .sidebar {
+  background: var(--bg-surface) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--r) !important;
+  padding: 20px !important;
+}
+body:not(.home-page) .sidebar.sticky {
+  top: calc(var(--nav-h) + 32px) !important;
+}
+
+/* Article / archive as card */
+body:not(.home-page) article.page,
+body:not(.home-page) .archive {
+  background: var(--bg-surface) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--r) !important;
+}
+body:not(.home-page) .page__inner-wrap {
+  padding: 40px 48px !important;
+}
+body:not(.home-page) .page__content,
+body:not(.home-page) .page__meta {
+  background: transparent !important;
+}
+
+/* Footer — match site-footer */
+body:not(.home-page) .page__footer {
+  background: var(--bg) !important;
+  border-top: 1px solid var(--border) !important;
+  padding: 40px 24px !important;
+}
+body:not(.home-page) .page__footer footer {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+body:not(.home-page) .page__footer-follow,
+body:not(.home-page) .page__footer-copyright {
+  font-size: 13px !important;
+  color: var(--text-dim) !important;
+  font-family: var(--font) !important;
+}
+body:not(.home-page) .page__footer a {
+  color: var(--text-dim) !important;
+  text-decoration: none !important;
+}
+body:not(.home-page) .page__footer a:hover {
+  color: var(--text) !important;
 }
 
 /* Sidebar nav polish */
