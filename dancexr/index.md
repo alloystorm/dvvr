@@ -4,13 +4,13 @@ title: DanceXR — Animate Any Model, Anywhere
 toc: false
 locale: en-US
 lang_path: /dancexr/index
-hero_compact: true
+hero_compact: false
 hero_eyebrow: VR Character Model Viewer
 hero_title: DanceXR - Animate Any Model, Anywhere
 hero_sub: >
   Load any PMX/MMD or XNALara/XPS model, hit play, and watch your characters
   come to life — on PC, Mac, Android, or Quest VR.
-hero_image: /images/header_wide.png
+hero_image: /images/hero.png
 nav_links:
   - label: Intro
     url: /dancexr
