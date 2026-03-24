@@ -310,9 +310,10 @@ Choose the build that fits your hardware:
 </div>
 </section>
 
-<!-- ── Talk to Your Characters ───────────────────────────── -->
+<!-- ── AI Features + Creator Edition (paired) ────────────── -->
 <section class="section section-light">
-<div class="section-wide" markdown="1">
+<div class="section-inner">
+<div class="section-copy" markdown="1">
 
 {:.section-label}
 AI Features
@@ -327,11 +328,7 @@ With AI-powered voice chat, your characters respond to you in real time.
 - **Voice recognition** — talk to them, not just type
 
 </div>
-</section>
-
-<!-- ── Record at Any Resolution ──────────────────────────── -->
-<section class="section">
-<div class="section-wide" markdown="1">
+<div class="section-copy" markdown="1">
 
 {:.section-label}
 Creator Edition
@@ -344,11 +341,14 @@ The **Creator Edition** decouples recording from your screen and frame rate.
 - Output **2D, stereoscopic 3D SBS, VR 180, and VR 360** video
 - Offline frame-by-frame rendering — every frame is perfect
 
+[Available on Patreon →](/dancexr/download){: .btn-ghost}
+
+</div>
 </div>
 </section>
 
 <!-- ── Available Everywhere ──────────────────────────────── -->
-<section class="section section-light">
+<section class="section">
 <div class="section-wide" markdown="1">
 
 {:.section-label}
@@ -356,54 +356,107 @@ Platforms
 
 ## Available Everywhere
 
-| Platform | Builds | Available On |
-|----------|--------|--------------|
-| Windows PC | RT, HD, LW | Patreon, Steam, Itch.io |
-| Mac | HD | Steam |
-| iOS | LW | App Store |
-| Android | LW | Google Play, Itch.io |
-| Meta Quest 2 / 3 / Pro | LW + AR mode | Itch.io (sideload) |
-
-AR mode on Quest and supported mobile devices lets characters appear in your real environment.
-
+</div>
+<div class="platform-strip" style="border-bottom: none; padding-top: 8px;">
+<div class="platform-list">
+  <span class="platform-item">Windows</span>
+  <span class="platform-divider">·</span>
+  <span class="platform-item">Mac</span>
+  <span class="platform-divider">·</span>
+  <span class="platform-item">iOS</span>
+  <span class="platform-divider">·</span>
+  <span class="platform-item">Android</span>
+  <span class="platform-divider">·</span>
+  <span class="platform-item">Meta Quest 2 / 3 / Pro</span>
+</div>
+<p class="strip-label" style="margin-top: 12px; margin-bottom: 0;">AR mode on Quest and supported mobile devices</p>
 </div>
 </section>
 
 <!-- ── Choose Your Edition ───────────────────────────────── -->
-<section class="section" id="editions">
-<div class="section-wide" markdown="1">
+<section class="section section-light" id="editions">
+<div class="editions-header" markdown="1">
 
 {:.section-label}
 Pricing
 
 ## Choose Your Edition
 
-| Edition | What's included |
-|---------|----------------|
-| **Free** | All core features — one actor on stage |
-| **Pure** | XPS physics, procedural dance, multi-actor |
-| **Pro** | Everything in Pure, plus adult content |
-| **Creator** | Everything in Pro, plus offline rendering and VR video |
+</div>
+<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
-Pure and Pro are on **Steam** and **Itch.io**. Creator is available through **Patreon**. New features ship every month — Patreon gets early access, Steam follows mid-month.
+  <div class="edition-card">
+    <p class="edition-tier">Free</p>
+    <p class="edition-name">Free</p>
+    <p class="edition-price">No cost — PC only</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>Load any PMX / XPS model</li>
+      <li>Play any VMD / BVH motion</li>
+      <li>Full environment system</li>
+      <li class="locked">Single actor on stage</li>
+      <li class="locked">Advanced features locked</li>
+    </ul>
+    <a href="/dancexr/download" class="edition-cta">Download Free</a>
+  </div>
 
-[Download / Purchase →](/dancexr/download){: .btn .btn-primary}
+  <div class="edition-card featured">
+    <p class="edition-tier">Paid</p>
+    <p class="edition-name">Pure / Pro</p>
+    <p class="edition-price">From $24.99 — Steam &amp; Itch.io</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>Everything in Free</li>
+      <li>Multi-actor scenes</li>
+      <li>XPS physics &amp; procedural dance</li>
+      <li>All advanced features</li>
+      <li>Pro adds adult content support</li>
+    </ul>
+    <a href="/dancexr/download" class="edition-cta">Buy Now</a>
+  </div>
+
+  <div class="edition-card">
+    <p class="edition-tier">Patreon</p>
+    <p class="edition-name">Creator</p>
+    <p class="edition-price">Via Patreon — includes early access</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>Everything in Pro</li>
+      <li>Offline frame-by-frame rendering</li>
+      <li>4K, VR 180 &amp; VR 360 video</li>
+      <li>New features one month early</li>
+    </ul>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta">Join on Patreon</a>
+  </div>
 
 </div>
 </section>
 
 <!-- ── Active Development ─────────────────────────────────── -->
-<section class="section section-light">
-<div class="section-wide" markdown="1">
+<section class="section">
+<div class="releases-inner">
+<div markdown="1">
 
 {:.section-label}
 Updates
 
-## Active Development
+## New Every Month
 
-New features ship every month. Recent additions include AI voice chat, keyframe animation, music timing sync, cloth simulation with tearing, soft body physics, alternative texture layers, and skin material improvements.
+New features and improvements ship every month. Patreon supporters get early access — Steam and other platforms follow mid-month.
 
 [See all release notes →](/dancexr/releases){: .btn-ghost}
 
+</div>
+<div class="release-card">
+  <p class="release-version">Latest — 2026.3</p>
+  <p class="release-headline">March 2026</p>
+  <div class="release-items">
+    <div class="release-item">Drag &amp; drop file loading</div>
+    <div class="release-item">Shader optimisation — improved frame rate</div>
+    <div class="release-item">VR ease-of-use improvements</div>
+    <div class="release-item">VMD2PNG open source tool</div>
+  </div>
+  <a href="/dancexr/releases/2026.3" class="btn-ghost">Full release notes</a>
+</div>
 </div>
 </section>
