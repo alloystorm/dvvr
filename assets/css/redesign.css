@@ -589,6 +589,17 @@ pre code { background: none !important; }
   max-width: 600px;
   margin: 0 auto 64px;
 }
+.editions-header--flush {
+  margin-bottom: 0;
+}
+.section-note {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-dim);
+  max-width: 1200px;
+  margin: 28px auto 0;
+  padding: 0 24px;
+}
 .editions-grid {
   max-width: 1200px;
   margin: 0 auto;
@@ -669,6 +680,7 @@ pre code { background: none !important; }
   display: block;
   text-align: center;
   padding: 12px;
+  margin-top: 24px;
   border-radius: 10px;
   font-size: 15px;
   font-weight: 500;

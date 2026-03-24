@@ -24,20 +24,15 @@ nav_links:
 <section class="section">
 <div class="editions-header" markdown="1">
 
-{:.section-label}
-Patreon
+## Support us on Patreon
 
-## Support on Patreon
-
-Get early access to new releases every month — before Steam and all other platforms.
-
-[DanceXR on Patreon](https://www.patreon.com/dvvr){: .btn .btn-primary}
+Get early access to every monthly release before Steam and all other platforms.
 
 </div>
 <div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
   <div class="edition-card">
-    <p class="edition-tier">Patron</p>
+    <p class="edition-tier">Patreon</p>
     <p class="edition-name">Patron</p>
     <p class="edition-price">$7 / month</p>
     <div class="edition-divider"></div>
@@ -51,7 +46,7 @@ Get early access to new releases every month — before Steam and all other plat
   </div>
 
   <div class="edition-card featured">
-    <p class="edition-tier">Pro</p>
+    <p class="edition-tier">Patreon</p>
     <p class="edition-name">Pro</p>
     <p class="edition-price">$10 / month</p>
     <div class="edition-divider"></div>
@@ -64,7 +59,7 @@ Get early access to new releases every month — before Steam and all other plat
   </div>
 
   <div class="edition-card">
-    <p class="edition-tier">Creator</p>
+    <p class="edition-tier">Patreon</p>
     <p class="edition-name">Creator</p>
     <p class="edition-price">$15 / month</p>
     <div class="edition-divider"></div>
@@ -83,9 +78,6 @@ Get early access to new releases every month — before Steam and all other plat
 <!-- ── PC ─────────────────────────────────────────────────── -->
 <section class="section section-light">
 <div class="editions-header" markdown="1">
-
-{:.section-label}
-PC
 
 ## Buy for PC
 
@@ -108,9 +100,9 @@ PC
   </div>
 
   <div class="edition-card featured">
-    <p class="edition-tier">Paid</p>
+    <p class="edition-tier">Steam</p>
     <p class="edition-name">Pure</p>
-    <p class="edition-price">$24.99 — Steam</p>
+    <p class="edition-price">$24.99</p>
     <div class="edition-divider"></div>
     <ul class="edition-features">
       <li>Everything in Free</li>
@@ -123,7 +115,7 @@ PC
   </div>
 
   <div class="edition-card">
-    <p class="edition-tier">Paid</p>
+    <p class="edition-tier">Steam &amp; Itch.io</p>
     <p class="edition-name">Pro</p>
     <p class="edition-price">$24.99 + $9.99 RT DLC</p>
     <div class="edition-divider"></div>
@@ -137,35 +129,30 @@ PC
   </div>
 
 </div>
-<div class="editions-header" markdown="1">
-  中国大陆用户请查看 [购买选项](/dancexr/purchase_prc)。
-</div>
+<p class="section-note" markdown="1">中国大陆用户请查看 [购买选项](/dancexr/purchase_prc)。</p>
 </section>
 
 <!-- ── Mobile & VR ────────────────────────────────────────── -->
 <section class="section">
 <div class="editions-header" markdown="1">
 
-{:.section-label}
-Mobile & VR
-
-## Mobile &amp; VR
+## Mobile & VR
 
 </div>
 <div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
   <div class="edition-card">
     <p class="edition-tier">Android</p>
-    <p class="edition-name">Google Play</p>
+    <p class="edition-name">Google Play & Itch.io</p>
     <p class="edition-price">DanceXR Portable</p>
     <div class="edition-divider"></div>
     <ul class="edition-features">
       <li>Full Pro feature set</li>
       <li>Optimised for Android devices</li>
-      <li>Pro version also on <a href="https://stormlab.itch.io/dancexr-android">Itch.io</a></li>
-      <li>Public <a href="https://play.google.com/apps/testing/com.vrstormlab.dancexr">beta channel</a> for early access</li>
+      <li>Join the <a href="https://play.google.com/apps/testing/com.vrstormlab.dancexr">public beta</a> for early access</li>
     </ul>
     <a href="https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr" class="edition-cta">Get on Google Play</a>
+    <a href="https://stormlab.itch.io/dancexr-android" class="edition-cta edition-cta--ghost">Buy on Itch.io</a>
   </div>
 
   <div class="edition-card">
@@ -176,37 +163,23 @@ Mobile & VR
     <ul class="edition-features">
       <li>Full Pro feature set</li>
       <li>Optimised for iPhone and iPad</li>
+      <li>Same monthly update cycle as PC</li>
     </ul>
     <a href="https://apps.apple.com/au/app/dancexr/id6475269158" class="edition-cta">Get on App Store</a>
   </div>
 
   <div class="edition-card">
-    <p class="edition-tier">Meta Quest</p>
+    <p class="edition-tier">VR</p>
     <p class="edition-name">Meta Quest</p>
     <p class="edition-price">via Itch.io</p>
     <div class="edition-divider"></div>
     <ul class="edition-features">
-      <li>Full VR experience</li>
-      <li>Optimised for Quest hardware</li>
+      <li>Full VR experience on Quest hardware</li>
+      <li>Standalone — no PC required</li>
+      <li>Same feature set as PC Pro</li>
     </ul>
     <a href="https://stormlab.itch.io/dancexr-quest" class="edition-cta">Get on Itch.io</a>
   </div>
-
-</div>
-</section>
-
-<!-- ── Free ───────────────────────────────────────────────── -->
-<section class="section section-light">
-<div class="editions-header" markdown="1">
-
-{:.section-label}
-Free
-
-## Try It for Free
-
-The free version runs on PC and includes all core features — load any model, play any motion, explore the full environment system. One actor on stage at a time; features marked **PRO**, **NSFW**, or **CREATOR** in the [feature list](/dancexr/features) are locked.
-
-[Download Free — PC](https://github.com/alloystorm/dvvr/releases/tag/2025.12){: .btn .btn-secondary}
 
 </div>
 </section>
