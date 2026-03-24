@@ -58,7 +58,7 @@ body * {
 
 /* Minimal-mistakes masthead */
 .masthead {
-  background: rgba(0,0,0,0.72) !important;
+  background: rgba(0.2,0.2,0.2,0.72) !important;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
   border-bottom: 1px solid var(--border) !important;

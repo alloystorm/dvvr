@@ -22,8 +22,15 @@ import urllib.parse
 from pathlib import Path
 
 REPO_ROOT   = Path(__file__).parent.parent
-INDEX_MD    = REPO_ROOT / "dancexr" / "index.md"
 SLIDES_ROOT = REPO_ROOT / "images" / "slideshows"
+
+INDEX_FILES = [
+    REPO_ROOT / "dancexr" / "index.md",
+    REPO_ROOT / "jp" / "dancexr" / "index.md",
+    REPO_ROOT / "zh" / "dancexr" / "index.md",
+    REPO_ROOT / "tw" / "dancexr" / "index.md",
+    REPO_ROOT / "kr" / "dancexr" / "index.md",
+]
 
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 
@@ -98,23 +105,44 @@ def build_slideshows_block(sections: dict[str, list[str]]) -> list[str]:
     return lines
 
 
-def main():
-    parser = argparse.ArgumentParser(description="Sync slideshow paths in dancexr/index.md")
-    parser.add_argument("--dry-run", action="store_true", help="Print diff without writing")
-    args = parser.parse_args()
-
-    text = INDEX_MD.read_text(encoding="utf-8")
+def process_index(index_md: Path, updated_sections: dict[str, list[str]], dry_run: bool) -> None:
+    text = index_md.read_text(encoding="utf-8")
     lines = text.splitlines()
 
-    # Strip existing comment lines just before slideshows: (they're rebuilt)
-    sw_start, sw_end, old_sections = parse_slideshows_block(text)
+    sw_start, sw_end, _ = parse_slideshows_block(text)
 
     # Walk back from sw_start to remove preceding comment lines
     block_start = sw_start
     while block_start > 0 and lines[block_start - 1].startswith("#"):
         block_start -= 1
 
-    updated_sections: dict[str, list[str]] = {}
+    new_block_lines = build_slideshows_block(updated_sections)
+    new_lines = lines[:block_start] + new_block_lines + lines[sw_end:]
+    new_text = "\n".join(new_lines) + "\n"
+
+    if dry_run:
+        print(f"\n--- {index_md.relative_to(REPO_ROOT)} ---")
+        print("\n".join(new_block_lines))
+        return
+
+    if new_text == text:
+        print(f"Already up to date: {index_md.relative_to(REPO_ROOT)}")
+        return
+
+    index_md.write_text(new_text, encoding="utf-8")
+    print(f"Updated {index_md.relative_to(REPO_ROOT)}")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Sync slideshow paths in all dancexr index pages")
+    parser.add_argument("--dry-run", action="store_true", help="Print diff without writing")
+    args = parser.parse_args()
+
+    # Derive updated sections from the primary (English) index
+    primary = INDEX_FILES[0]
+    text = primary.read_text(encoding="utf-8")
+    _, _, old_sections = parse_slideshows_block(text)
+
     unknown_folders: list[str] = []
 
     # Check for folders on disk with no matching front matter key
@@ -125,11 +153,10 @@ def main():
                 unknown_folders.append(folder.name)
 
     # For each existing section: keep present files in order, append new ones
+    updated_sections: dict[str, list[str]] = {}
     for section, old_paths in old_sections.items():
         disk_paths = set(folder_paths(section))
-        # Preserve existing order, drop removed files
         kept = [p for p in old_paths if p in disk_paths]
-        # Append new files not previously listed
         new = [p for p in sorted(disk_paths) if p not in set(old_paths)]
         updated_sections[section] = kept + new
 
@@ -145,21 +172,8 @@ def main():
     if unknown_folders:
         print(f"Unknown folders (not in front matter, skipped): {', '.join(unknown_folders)}")
 
-    new_block_lines = build_slideshows_block(updated_sections)
-    new_lines = lines[:block_start] + new_block_lines + lines[sw_end:]
-    new_text = "\n".join(new_lines) + "\n"
-
-    if args.dry_run:
-        print("\n--- new slideshows block ---")
-        print("\n".join(new_block_lines))
-        return
-
-    if new_text == text:
-        print("Already up to date, no changes written.")
-        return
-
-    INDEX_MD.write_text(new_text, encoding="utf-8")
-    print(f"Updated {INDEX_MD.relative_to(REPO_ROOT)}")
+    for index_md in INDEX_FILES:
+        process_index(index_md, updated_sections, args.dry_run)
 
 
 if __name__ == "__main__":
