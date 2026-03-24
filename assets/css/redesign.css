@@ -36,7 +36,7 @@
 }
 .home-page a:not(.btn) { color: inherit; text-decoration: none; }
 .home-page img { display: block; max-width: 100%; }
-.home-page ul { list-style: none; margin: 0; padding: 0; }
+.home-page ul:not(.nav-links) { list-style: none; margin: 0; padding: 0; }
 
 .container {
   max-width: 1200px;
@@ -180,9 +180,7 @@ pre code { background: none !important; }
   display: flex;
   align-items: center;
   gap: 0;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-left: auto;
   list-style: none;
 }
 .nav-links li a {
@@ -208,7 +206,6 @@ pre code { background: none !important; }
 .nav-links .nav-cta:hover { background: var(--accent-h); color: #fff; }
 /* Standalone CTA button anchored to the right (desktop only) */
 .nav-cta-btn {
-  margin-left: auto;
   flex-shrink: 0;
   padding: 7px 16px;
   background: var(--accent);
