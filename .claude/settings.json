@@ -6,7 +6,11 @@
       "Bash(python -:*)",
       "WebFetch(domain:127.0.0.1)",
       "WebFetch(domain:192.168.68.70)",
-      "WebFetch(domain:snaggy-corrine-rampantly.ngrok-free.dev)"
+      "WebFetch(domain:snaggy-corrine-rampantly.ngrok-free.dev)",
+      "Bash(for f:*)",
+      "Bash(do)",
+      "Bash(sed -i 's|\\(features/outfit_body_paint\\\\.md\\)|\\(features/outfit_body_paint\\)|g;:*)",
+      "Bash(done)"
     ]
   }
 }

@@ -35,18 +35,18 @@ DanceXR在内容库中的不同子文件夹中搜索各种类型的内容。
 * props：可以用于舞台道具（如家具）的3D模型。
 * texture
   * cookie：光掩模的纹理
-  * drawing：[身体彩绘功能](features/outfit_body_paint.md)的保存图像
+  * drawing：[身体彩绘功能](features/outfit_body_paint)的保存图像
   * ground：地面纹理
-  * mask：可应用于模型的[细节和法线贴图](features/custom_detail_map.md)
-  * particle：[粒子效果](features/particles.md)的纹理
-  * sky：[全景天空贴图](features/skymap.md)，建议使用HDR格式
+  * mask：可应用于模型的[细节和法线贴图](features/custom_detail_map)
+  * particle：[粒子效果](features/particles)的纹理
+  * sky：[全景天空贴图](features/skymap)，建议使用HDR格式
 * settings：所有保存的设置。这些文件不应由用户修改，但如果您愿意，可以复制并备份。
-* scenes：[保存的场景](features/save_scene.md)文件。
-* bundles：[保存的场景以及所有必要资源](features/scene_bundle.md)包含在一个zip包中。
+* scenes：[保存的场景](features/save_scene)文件。
+* bundles：[保存的场景以及所有必要资源](features/scene_bundle)包含在一个zip包中。
 * export：使用3D快照功能时，导出的模型文件可以在此找到。
 * presets：保存的预设文件。只要您使用相同版本的DanceXR，就可以与朋友分享这些文件。
-* videos：可用于[投影和动态纹理映射](features/video_playback.md)的视频。仅支持MP4格式。
-* chat：用于[AI聊天系统](ai_chat.md)的文件。
+* videos：可用于[投影和动态纹理映射](features/video_playback)的视频。仅支持MP4格式。
+* chat：用于[AI聊天系统](ai_chat)的文件。
   * characters：角色缩略图和模板。这些是自动生成的，但您可以进行修改。
   * templates：提示模板，您可以进行修改并创建新的。
   * history：保存的聊天记录
@@ -73,7 +73,7 @@ DanceXR在内容库中的不同子文件夹中搜索各种类型的内容。
 
 建议将一个模型的所有文件放在一个zip包中，以获得更小的文件大小和更容易的管理。
 
-一些模型具有[替代纹理](features/alternative_textures.md)。DanceXR可以搜索文件夹或zip包，找到与模型使用的纹理类似的纹理文件，并自动将其包含在菜单中供您选择。为使其正常工作，您需要确保替代纹理与主纹理具有相同的文件名。例如，如果基本贴图命名为base.png，当DanceXR在不同子文件夹中找到另一个base.png时，它将自动将其添加为替代纹理。如果您的模型在zip包中，DanceXR将在整个zip包中搜索替代纹理。如果您的模型在子文件夹中，它将从网格文件所在的位置搜索所有子文件夹。请记住这一点，因为如果您将替代纹理放在网格文件夹之外，它们将无法被识别。
+一些模型具有[替代纹理](features/alternative_textures)。DanceXR可以搜索文件夹或zip包，找到与模型使用的纹理类似的纹理文件，并自动将其包含在菜单中供您选择。为使其正常工作，您需要确保替代纹理与主纹理具有相同的文件名。例如，如果基本贴图命名为base.png，当DanceXR在不同子文件夹中找到另一个base.png时，它将自动将其添加为替代纹理。如果您的模型在zip包中，DanceXR将在整个zip包中搜索替代纹理。如果您的模型在子文件夹中，它将从网格文件所在的位置搜索所有子文件夹。请记住这一点，因为如果您将替代纹理放在网格文件夹之外，它们将无法被识别。
 
 ![演员文件夹示例](/images/content_actors.PNG)
 

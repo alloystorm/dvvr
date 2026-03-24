@@ -35,18 +35,18 @@ DanceXR在內容庫中的不同子文件夾中搜索各種類型的內容。
 * 道具：可以用於舞台道具（如家具）的3D模型。
 * 紋理
   * cookie：用於光罩的紋理
-  * drawing：用於[身體彩繪功能](features/outfit_body_paint.md)的保存圖像
+  * drawing：用於[身體彩繪功能](features/outfit_body_paint)的保存圖像
   * ground：地面紋理
-  * mask：可以應用於模型的[細節和法線貼圖](features/custom_detail_map.md)
-  * particle：用於[粒子效果](features/particles.md)的紋理
-  * sky：[全景天空地圖](features/skymap.md)，建議使用HDR格式
+  * mask：可以應用於模型的[細節和法線貼圖](features/custom_detail_map)
+  * particle：用於[粒子效果](features/particles)的紋理
+  * sky：[全景天空地圖](features/skymap)，建議使用HDR格式
 * 設置：所有保存的設置。這些文件不應由用戶修改，但如果您喜歡，可以進行備份。
-* 場景：[保存的場景](features/save_scene.md)文件。
-* 包：[保存的場景以及所有必要資源](features/scene_bundle.md)包含在壓縮包中。
+* 場景：[保存的場景](features/save_scene)文件。
+* 包：[保存的場景以及所有必要資源](features/scene_bundle)包含在壓縮包中。
 * 導出：使用3D快照功能時可以在此處找到導出的模型文件。
 * 預設：保存的預設文件。只要您使用相同版本的DanceXR，就可以與朋友分享這些文件。
-* 視頻：可用於[投影和動態紋理映射](features/video_playback.md)的視頻。僅支持MP4格式。
-* 聊天：用於[AI聊天系統](ai_chat.md)的文件。
+* 視頻：可用於[投影和動態紋理映射](features/video_playback)的視頻。僅支持MP4格式。
+* 聊天：用於[AI聊天系統](ai_chat)的文件。
   * 字符：角色縮略圖和模板。這些是自動生成的，但您可以進行修改。
   * 模板：提示模板，您可以進行修改並創建新模板。
   * 歷史：保存的聊天記錄
@@ -73,7 +73,7 @@ DanceXR在內容庫中的不同子文件夾中搜索各種類型的內容。
 
 建議將一個模型的所有文件放在一個壓縮包中，以獲得更小的文件大小和更輕鬆的管理。
 
-一些模型具有[替代紋理](features/alternative_textures.md)。DanceXR可以搜索文件夾或壓縮包，找到與模型使用的紋理類似的紋理文件，並自動將它們包含在菜單中供您選擇。為了使這個功能正常工作，您需要確保替代紋理與主紋理具有相同的文件名。例如，如果基本貼圖命名為base.png，當DanceXR在不同子文件夾中找到另一個base.png時，它將自動將其添加為替代紋理。如果您的模型在壓縮包中，DanceXR將搜索整個壓縮包以尋找替代紋理。如果您的模型在子文件夾中，它將從網格文件所在的所有子文件夾中搜索。請記住這一點，因為如果您將替代紋理放在網格文件文件夾之外，它們將無法被識別。
+一些模型具有[替代紋理](features/alternative_textures)。DanceXR可以搜索文件夾或壓縮包，找到與模型使用的紋理類似的紋理文件，並自動將它們包含在菜單中供您選擇。為了使這個功能正常工作，您需要確保替代紋理與主紋理具有相同的文件名。例如，如果基本貼圖命名為base.png，當DanceXR在不同子文件夾中找到另一個base.png時，它將自動將其添加為替代紋理。如果您的模型在壓縮包中，DanceXR將搜索整個壓縮包以尋找替代紋理。如果您的模型在子文件夾中，它將從網格文件所在的所有子文件夾中搜索。請記住這一點，因為如果您將替代紋理放在網格文件文件夾之外，它們將無法被識別。
 
 ![演員文件夾示例](/images/content_actors.PNG)
 
@@ -101,7 +101,7 @@ DanceXR在內容庫中的不同子文件夾中搜索各種類型的內容。
 
 ## Google Drive集成
 
-DanceXR可以從Google Drive[下載文件](features/googledrive.md)。只要共享的驅動器文件夾沒有任何限制。只需輸入您共享文件夾的URL，DanceXR就能夠掃描驅動器文件夾並下載本地不存在的文件。
+DanceXR可以從Google Drive[下載文件](features/googledrive)。只要共享的驅動器文件夾沒有任何限制。只需輸入您共享文件夾的URL，DanceXR就能夠掃描驅動器文件夾並下載本地不存在的文件。
 
 ## 為Android和Oculus Quest準備內容
 
