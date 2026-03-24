@@ -1,11 +1,11 @@
 ---
-locale: en-US
+locale: zh-TW
 layout: studio-home
-title: Releases
-permalink: /dancexr/releases
-toc: false
+title: 發布版本
+permalink: /tw/dancexr/releases/
+toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-tw"
 ---
 <section class="section">
 <div class="section-inner">

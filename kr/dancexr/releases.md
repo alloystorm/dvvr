@@ -1,11 +1,11 @@
 ---
-locale: en-US
+locale: ko-KR
 layout: studio-home
-title: Releases
-permalink: /dancexr/releases
-toc: false
+title: 출시
+permalink: /kr/dancexr/releases/
+toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-kr"
 ---
 <section class="section">
 <div class="section-inner">

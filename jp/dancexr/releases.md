@@ -1,11 +1,11 @@
 ---
-locale: en-US
+locale: ja-JP
 layout: studio-home
-title: Releases
-permalink: /dancexr/releases
-toc: false
+title: リリース
+permalink: /jp/dancexr/releases/
+toc: true
 sidebar:
-  nav: "docs"
+  nav: "docs-jp"
 ---
 <section class="section">
 <div class="section-inner">
