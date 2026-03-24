@@ -24,8 +24,9 @@
     </button>
     {% assign nav_items = page.nav_links | default: site.default_nav_links %}
     <ul class="nav-links" id="nav-links">
-      {% for item in nav_items %}<li><a href="{{ item.url }}"{% if item.cta %} class="nav-cta"{% endif %}>{{ item.label }}</a></li>{% endfor %}
+      {% for item in nav_items %}<li{% if item.cta %} class="nav-cta-item"{% endif %}><a href="{{ item.url }}"{% if item.cta %} class="nav-cta"{% endif %}>{{ item.label }}</a></li>{% endfor %}
     </ul>
+    {% for item in nav_items %}{% if item.cta %}<a href="{{ item.url }}" class="nav-cta-btn">{{ item.label }}</a>{% endif %}{% endfor %}
   </div>
 </nav>
 
