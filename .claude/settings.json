@@ -3,7 +3,10 @@
     "allow": [
       "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:alloystorm.github.io)",
-      "Bash(python -:*)"
+      "Bash(python -:*)",
+      "WebFetch(domain:127.0.0.1)",
+      "WebFetch(domain:192.168.68.70)",
+      "WebFetch(domain:snaggy-corrine-rampantly.ngrok-free.dev)"
     ]
   }
 }
