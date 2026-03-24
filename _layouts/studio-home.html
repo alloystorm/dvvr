@@ -32,12 +32,17 @@
 
 <!-- ── Language bar ─────────────────────────────────────────── -->
 {% if page.locale %}{% assign lp = page.path | default: "/" %}
+{% assign lp = lp | replace: '.md', '' %}
+{% assign lp = lp | replace: 'tw/', '' %}
+{% assign lp = lp | replace: 'jp/', '' %}
+{% assign lp = lp | replace: 'kr/', '' %}
+{% assign lp = lp | replace: 'zh/', '' %}
 <div class="lang-bar lang-bar-no-hero">
-  <a href="/{{ lp | replace: '.md', '' }}"      {% if page.locale == 'en-US' %}class="active"{% endif %}>Eng</a>
-  <a href="/tw/{{ lp | replace: '.md', '' }}"   {% if page.locale == 'zh-TW' %}class="active"{% endif %}>繁中</a>
-  <a href="/jp/{{ lp | replace: '.md', '' }}"   {% if page.locale == 'ja-JP' %}class="active"{% endif %}>日本語</a>
-  <a href="/kr/{{ lp | replace: '.md', '' }}"   {% if page.locale == 'ko-KR' %}class="active"{% endif %}>한국어</a>
-  <a href="/zh/{{ lp | replace: '.md', '' }}"   {% if page.locale == 'zh-CN' %}class="active"{% endif %}>简中</a>
+  <a href="/{{ lp }}"      {% if page.locale == 'en-US' %}class="active"{% endif %}>Eng</a>
+  <a href="/tw/{{ lp }}"   {% if page.locale == 'zh-TW' %}class="active"{% endif %}>繁中</a>
+  <a href="/jp/{{ lp }}"   {% if page.locale == 'ja-JP' %}class="active"{% endif %}>日本語</a>
+  <a href="/kr/{{ lp }}"   {% if page.locale == 'ko-KR' %}class="active"{% endif %}>한국어</a>
+  <a href="/zh/{{ lp }}"   {% if page.locale == 'zh-CN' %}class="active"{% endif %}>简中</a>
 </div>{% endif %}
 
 <!-- ── Page content ────────────────────────────────────────── -->
