@@ -22,7 +22,7 @@ hero_ctas:
     url: https://www.patreon.com/dvvr
     style: secondary
 nav_links:
-  - label: DanceXR
+  - label: Intro
     url: /dancexr
   - label: Features
     url: /dancexr/features

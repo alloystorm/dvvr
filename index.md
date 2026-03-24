@@ -6,12 +6,6 @@ nav_links:
   - label: DanceXR
     url: /dancexr
     cta: true
-  - label: ComfyStudio
-    url: /comfystudio
-  - label: vmd2png
-    url: /vmd2png
-  - label: ShiftPiano
-    url: /shiftpiano
 slideshows:
   dancexr:
     - '/images/slideshows/dancexr/logo-black.jpg'
