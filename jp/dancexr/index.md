@@ -9,7 +9,7 @@ hero_eyebrow: VRキャラクターモデルビューアー
 hero_title: DanceXR - どんなモデルでも、どこでもアニメーション
 hero_sub: >
   PMX/MMDやXNALara/XPSモデルをロードして再生を押すだけで、PC、Mac、Android、Quest VRでキャラクターに命が吹き込まれるのを見てください。
-hero_image: /images/header_wide.png
+hero_image: /images/hero.png
 nav_links:
   - label: DanceXR
     url: /jp/dancexr

@@ -9,7 +9,7 @@ hero_eyebrow: VR 角色模型查看器
 hero_title: DanceXR - 随时随地为任何角色制作动画
 hero_sub: >
   载入任何 PMX/MMD 或 XNALara/XPS 模型，点击播放，即可在 PC、Mac、Android 或 Quest VR 上观看栩栩如生的人物。
-hero_image: /images/header_wide.png
+hero_image: /images/hero.png
 nav_links:
   - label: DanceXR
     url: /zh/dancexr

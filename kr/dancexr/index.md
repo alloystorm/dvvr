@@ -9,7 +9,7 @@ hero_eyebrow: VR 캐릭터 모델 뷰어
 hero_title: DanceXR - 어떤 모델이든, 어디서나 애니메이션
 hero_sub: >
   PMX/MMD 또는 XNALara/XPS 모델을 로드하고 재생을 누르면, PC, Mac, Android 또는 Quest VR에서 캐릭터가 살아 움직이는 것을 볼 수 있습니다.
-hero_image: /images/header_wide.png
+hero_image: /images/hero.png
 nav_links:
   - label: DanceXR
     url: /kr/dancexr

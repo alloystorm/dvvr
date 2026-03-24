@@ -10,7 +10,7 @@ hero_title: Download & Purchase
 hero_sub: >
   Start free, upgrade when you're ready.
   Available on every major platform.
-hero_image: /images/header_wide.png
+hero_image: /images/hero.png
 hero_ctas:
   - label: Free Download
     url: https://github.com/alloystorm/dvvr/releases/tag/2025.12
