@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <title>{{ page.title | default: site.title }}</title>
+  {% include head/custom.html %}
+  {% if site.analytics.provider == "google-gtag" %}
+  {% include analytics-providers/google-gtag.html %}
+  {% endif %}
+</head>
+<body class="home-page studio-home">
+
+<!-- ── Navigation ──────────────────────────────────────────── -->
+<nav class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">
+      <img src="/images/icon.png" width="28" height="28" alt="">
+      VR Storm Lab
+    </a>
+    <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    {% assign nav_items = page.nav_links | default: site.default_nav_links %}
+    <ul class="nav-links" id="nav-links">
+      {% for item in nav_items %}<li><a href="{{ item.url }}"{% if item.cta %} class="nav-cta"{% endif %}>{{ item.label }}</a></li>{% endfor %}
+    </ul>
+  </div>
+</nav>
+
+<!-- ── Page content ────────────────────────────────────────── -->
+<main id="content">
+  {{ content }}
+</main>
+
+<!-- ── Footer ──────────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="/images/icon.png" width="22" height="22" alt="">
+        <span>{{ site.title }}</span>
+      </div>
+      {% if site.footer.links %}
+      <nav class="footer-social">
+        {% for link in site.footer.links %}
+        <a href="{{ link.url }}" rel="noopener noreferrer">{{ link.label }}</a>
+        {% endfor %}
+      </nav>
+      {% endif %}
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copyright">© {{ site.time | date: "%Y" }} VR Storm Lab</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var nav   = document.getElementById('site-nav');
+  var btn   = document.getElementById('nav-menu-btn');
+  var links = document.getElementById('nav-links');
+
+  window.addEventListener('scroll', function () {
+    nav.classList.toggle('scrolled', window.scrollY > 20);
+  }, { passive: true });
+
+  if (btn) {
+    btn.addEventListener('click', function () {
+      btn.classList.toggle('open');
+      links.classList.toggle('open');
+    });
+    links.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        btn.classList.remove('open');
+        links.classList.remove('open');
+      });
+    });
+  }
+
+  document.querySelectorAll('[data-slideshow]').forEach(function (sw) {
+    var slides  = sw.querySelectorAll('.slideshow-slide');
+    if (slides.length < 2) return;
+    var current = 0;
+    function advance() {
+      slides[current].classList.remove('active');
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('active');
+    }
+    setTimeout(function () {
+      advance();
+      setInterval(advance, 4000);
+    }, Math.random() * 4000);
+  });
+})();
+</script>
+
+</body>
+</html>

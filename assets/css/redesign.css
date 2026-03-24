@@ -1125,3 +1125,85 @@ body {
 .dlbtn.steam   { background: #1b2838; color: #c6d4df; border: 1px solid #2a475e; }
 .dlbtn.patreon { background: #ff424d; color: #fff; }
 .dlbtn.itchio  { background: #fa5c5c; color: #fff; }
+
+/* =========================================================
+   STUDIO HOME LAYOUT
+   ========================================================= */
+
+/* Offset fixed nav — first section handles its own top padding */
+.studio-home main { padding-top: 0; }
+
+/* ── Featured section (DanceXR) ──────────────────────────── */
+.section-featured {
+  padding: calc(var(--nav-h) + 80px) 24px 120px;
+}
+.section-featured .section-copy h2 {
+  font-size: clamp(36px, 5vw, 64px);
+}
+
+/* ── Tools grid ──────────────────────────────────────────── */
+.tools-section {
+  padding: 100px 24px;
+}
+.tools-header {
+  max-width: 1200px;
+  margin: 0 auto 48px;
+}
+.tools-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.tool-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.2s, transform 0.25s var(--ease);
+}
+.tool-card:hover {
+  border-color: rgba(255,255,255,0.22);
+  transform: translateY(-3px);
+}
+.tool-card p.tool-label {
+  font-size: 12px !important;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-dim) !important;
+  margin: 0 0 8px !important;
+}
+.tool-card h3 {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+  line-height: 1.15 !important;
+  margin: 0 0 12px !important;
+  color: var(--text) !important;
+}
+.tool-card p:not(.tool-label) {
+  font-size: 15px !important;
+  color: var(--text-dim) !important;
+  line-height: 1.6 !important;
+  margin: 0 0 24px !important;
+  flex: 1;
+}
+.tool-card .btn {
+  font-size: 14px;
+  padding: 0;
+  margin-right: 16px;
+}
+.tool-card .btn-ghost { color: var(--accent); }
+.tool-card .btn-ghost:hover { color: var(--accent-h); transform: none; }
+
+@media (max-width: 900px) {
+  .tools-grid { grid-template-columns: 1fr; gap: 16px; }
+}
+@media (max-width: 640px) {
+  .section-featured { padding: calc(var(--nav-h) + 48px) 24px 80px; }
+  .tools-section { padding: 64px 24px; }
+}
