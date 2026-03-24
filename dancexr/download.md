@@ -1,26 +1,9 @@
 ---
-layout: home
+layout: studio-home
 title: Download DanceXR
 toc: false
 locale: en-US
 lang_path: /dancexr/download
-hero_compact: true
-hero_eyebrow: DanceXR
-hero_title: Download & Purchase
-hero_sub: >
-  Start free, upgrade when you're ready.
-  Available on every major platform.
-hero_image: /images/hero.png
-hero_ctas:
-  - label: Free Download
-    url: https://github.com/alloystorm/dvvr/releases/tag/2025.12
-    style: primary
-  - label: Buy on Steam
-    url: https://store.steampowered.com/app/1905510/DanceXR/
-    style: secondary
-  - label: Patreon
-    url: https://www.patreon.com/dvvr
-    style: secondary
 ---
 
 <!-- ── Free ───────────────────────────────────────────────── -->
