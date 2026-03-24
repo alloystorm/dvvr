@@ -347,34 +347,8 @@ The **Creator Edition** decouples recording from your screen and frame rate.
 </div>
 </section>
 
-<!-- ── Available Everywhere ──────────────────────────────── -->
-<section class="section">
-<div class="section-wide" markdown="1">
-
-{:.section-label}
-Platforms
-
-## Available Everywhere
-
-</div>
-<div class="platform-strip" style="border-bottom: none; padding-top: 8px;">
-<div class="platform-list">
-  <span class="platform-item">Windows</span>
-  <span class="platform-divider">·</span>
-  <span class="platform-item">Mac</span>
-  <span class="platform-divider">·</span>
-  <span class="platform-item">iOS</span>
-  <span class="platform-divider">·</span>
-  <span class="platform-item">Android</span>
-  <span class="platform-divider">·</span>
-  <span class="platform-item">Meta Quest 2 / 3 / Pro</span>
-</div>
-<p class="strip-label" style="margin-top: 12px; margin-bottom: 0;">AR mode on Quest and supported mobile devices</p>
-</div>
-</section>
-
 <!-- ── Choose Your Edition ───────────────────────────────── -->
-<section class="section section-light" id="editions">
+<section class="section" id="editions">
 <div class="editions-header" markdown="1">
 
 {:.section-label}
@@ -433,7 +407,7 @@ Pricing
 </section>
 
 <!-- ── Active Development ─────────────────────────────────── -->
-<section class="section">
+<section class="section section-light">
 <div class="releases-inner">
 <div markdown="1">
 
