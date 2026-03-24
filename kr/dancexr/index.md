@@ -66,7 +66,6 @@ slideshows:
     - '/images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp'
     - '/images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp'
     - '/images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp'
-    - '/images/slideshows/simulation/Fluid%20Dynamics%20Details%20%28Experimental%29%20%5BKY3-2YMWxwc%5D.webp'
     - '/images/slideshows/simulation/Nyotengo%20Looks%20Absolutely%20Stunning%20No%20Matter%20What%20She%20Wears%20%5BRxj702Ktp8s%5D.webp'
     - '/images/slideshows/simulation/Wearing%20a%20spiderweb%20%5BooZ3Kq8D6ZQ%5D.webp'
     - '/images/slideshows/simulation/06eed2bc6da2e836106475cf427f338502fcf88c.jpg'
@@ -119,13 +118,14 @@ slideshows:
     - '/images/slideshows/camera/What%20does%20it%20feel%20like%20to%20watch%20a%20concert%20while%20standing%20in%20the%20middle%20of%20the%20stage%EF%BC%9F%20%5Beq7XxG_6YLg%5D.webp'
   render:
     - '/images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp'
-    - '/images/slideshows/render/Eye%20Strain%20Exercise%20%5BhIawD7f59yc%5D.webp'
     - '/images/slideshows/render/VRGirl%20Sea%20Breeze%20dance%20%5BvPnmTRJqj8Q%5D.webp'
     - '/images/slideshows/render/Marie%20Rose%20Dance%20Of%20Light%20%5BdpD_ggUerEY%5D.webp'
     - '/images/slideshows/render/Nyotengu%20Lingerie%20-%20Cute%20Melody%20%5BzhWsbyph9wo%5D.webp'
     - '/images/slideshows/render/0d9799a9845fe985a572d26823d10b6feffd7732.jpg'
     - '/images/slideshows/render/14b024471bc0d21580d976ea28e2fc5f74f1f623.jpg'
     - '/images/slideshows/render/5d8a86d5b6a2deee1624e8154cab6cf05e936772.jpg'
+    - '/images/slideshows/render/19bace16703958615d515d438078694de3916e1a.jpg'
+    - '/images/slideshows/render/62147fd6d38ee0ad0601b9afc89f8e747a20788a.jpg'
 ---
 
 <!-- ── 그냥 로드하고 재생하세요 ────────────────────────────────── -->
