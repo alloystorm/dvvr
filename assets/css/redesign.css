@@ -367,9 +367,10 @@ pre code { background: none !important; }
 }
 .btn:hover { transform: scale(1.02); }
 .btn-primary {
-  background: var(--accent);
+  background: rgba(10,10,20,0.45);
   color: #fff;
   box-shadow: 0 4px 24px rgba(0,113,227,0.4);
+  border: 1.5px solid rgba(160,100,255,0.65);
 }
 .btn-primary:hover { background: var(--accent-h); color: #fff; }
 .btn-secondary {
