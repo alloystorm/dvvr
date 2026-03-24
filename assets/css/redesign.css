@@ -447,6 +447,7 @@ pre code { background: none !important; }
 /* ── Section base ────────────────────────────────────────── */
 .section {
   padding: 120px 24px;
+  background: var(--bg-surface-2);
 }
 .section-continue-down {
   padding-bottom: 40px;
