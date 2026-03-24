@@ -893,7 +893,11 @@ pre code { background: none !important; }
   padding: 12px 24px;
   background: rgba(255,255,255,0.03);
   border-bottom: 1px solid var(--border);
+  border-top: 1px solid var(--border);
   font-size: 13px;
+}
+.lang-bar-no-hero {
+  margin-top: 80px;
 }
 .lang-bar a {
   color: var(--text-dim);

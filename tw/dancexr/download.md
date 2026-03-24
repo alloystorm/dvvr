@@ -1,74 +1,193 @@
 ---
+layout: studio-home
+title: 下載 — DanceXR
+toc: false
 locale: zh-TW
-layout: single
-title: 下載
-toc: true
-sidebar:
-  nav: "docs-tw"
+lang_path: /dancexr/download
+nav_links:
+  - label: 介紹
+    url: /tw/dancexr
+  - label: 功能
+    url: /tw/dancexr/features
+  - label: 發佈
+    url: /tw/dancexr/releases
+  - label: 下載
+    url: /tw/dancexr/download
 ---
-[Eng](/dancexr/download) | [繁中](/tw/dancexr/download) | [日本語](/jp/dancexr/download) | [한국어](/kr/dancexr/download) | [简中](/zh/dancexr/download)
 
-## 免費版本下載
+<!-- ── Patreon ─────────────────────────────────────────────── -->
+<section class="section">
+<div class="editions-header" markdown="1">
 
-[DanceXR 2024.2 HD](https://github.com/alloystorm/dvvr/releases/tag/2025.12){: .dlbtn .patreon} 
+## 在 Patreon 上支持我們
 
-免費版本包括所有基本功能，如標準姿勢轉換、舞台和環境設置以及逼真的動作。但是，一次只能有一位演員在舞台上，並且付費版本中的高級功能不可用。
+比 Steam 和所有其他平台提前獲得每月更新。
 
-查看[完整功能列表](features.md)，標有`PRO`、`NSFW`或`CREATOR`的項目在免費版本中不可用。
+</div>
+<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
-## 購買選項
-要獲得最新版本並解鎖高級功能，您有以下選擇：
+  <div class="edition-card">
+    <p class="edition-tier">Patreon</p>
+    <p class="edition-name">Patron</p>
+    <p class="edition-price">$7 / 月</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>提前獲取每月版本</li>
+      <li>HD 版本 — 高畫質</li>
+      <li>LW 版本 — 效能優化</li>
+      <li>Pro 版本</li>
+    </ul>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta">加入 Patreon</a>
+  </div>
 
-### 在 Patreon 上成為支持者
+  <div class="edition-card featured">
+    <p class="edition-tier">Patreon</p>
+    <p class="edition-name">Pro</p>
+    <p class="edition-price">$10 / 月</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>包含 Patron 的一切</li>
+      <li>RT 版本 — 光線追蹤</li>
+      <li>Pro 版本</li>
+    </ul>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta">加入 Patreon</a>
+  </div>
 
-[DanceXR on Patreon](https://www.patreon.com/dvvr){: .dlbtn .patreon} 
+  <div class="edition-card">
+    <p class="edition-tier">Patreon</p>
+    <p class="edition-name">Creator</p>
+    <p class="edition-price">$15 / 月</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>包含 Pro 的一切</li>
+      <li>創作者版 — 離線渲染</li>
+      <li>4K、VR 180 &amp; VR 360 影片輸出</li>
+      <li>逐幀渲染，任意解析度</li>
+    </ul>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta">加入 Patreon</a>
+  </div>
 
-每個月，我們在我們的 Patreon 頁面上發布最新版本。免費版本將在初始發布後一個月後也在 Patreon 上提供。
+</div>
+</section>
 
-通過在 Patreon 上成為支持者，您將獲得獨家訪問最新更新的機會，在發布到其他平台之前提供反饋。
+<!-- ── PC ─────────────────────────────────────────────────── -->
+<section class="section section-light">
+<div class="editions-header" markdown="1">
 
-同時，創作者版本僅在 Patreon 平台上提供給創作者等級的支持者。
+## 購買 PC 版本
 
-### 從 Steam 和 Itch.io 購買 PC 版本
+</div>
+<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
-如果您更喜歡一次性購買，您也可以在 Steam 和 Itch.io 上找到它。
+  <div class="edition-card">
+    <p class="edition-tier">免費</p>
+    <p class="edition-name">免費版</p>
+    <p class="edition-price">免費</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>載入任意 PMX / XPS 模型</li>
+      <li>播放任意 VMD / BVH 動作</li>
+      <li>完整環境系統</li>
+      <li class="locked">僅單角色</li>
+      <li class="locked">進階功能已鎖定</li>
+    </ul>
+    <a href="https://github.com/alloystorm/dvvr/releases/tag/2025.12" class="edition-cta">免費下載</a>
+  </div>
 
-[Steam: DanceXR 專業版](https://store.steampowered.com/app/1905510/DanceXR/){: .dlbtn .steam}
+  <div class="edition-card featured">
+    <p class="edition-tier">Steam</p>
+    <p class="edition-name">Pure</p>
+    <p class="edition-price">$24.99</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>包含免費版的一切</li>
+      <li>多角色場景</li>
+      <li>XPS 物理 &amp; 程序舞蹈</li>
+      <li>全部進階功能</li>
+      <li>包含光線追蹤</li>
+    </ul>
+    <a href="https://store.steampowered.com/app/2193970/DanceXR_Pure/" class="edition-cta">在 Steam 上購買</a>
+  </div>
 
-[Itch.io: DanceXR 專業版](https://stormlab.itch.io/dancexr){: .dlbtn .itchio}
+  <div class="edition-card">
+    <p class="edition-tier">Steam &amp; Itch.io</p>
+    <p class="edition-name">Pro</p>
+    <p class="edition-price">$24.99 + $9.99 RT DLC</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>包含 Pure 的一切</li>
+      <li>成人內容支援</li>
+      <li>光線追蹤作為 DLC（$9.99）</li>
+    </ul>
+    <a href="https://store.steampowered.com/app/1905510/DanceXR/" class="edition-cta">在 Steam 上購買</a>
+    <a href="https://stormlab.itch.io/dancexr" class="edition-cta edition-cta--ghost">在 Itch.io 上購買</a>
+  </div>
 
-如果您在 Steam 上找不到 DanceXR，可能是因為它在您的國家被封鎖，您可以嘗試使用純淨版。
+</div>
+<p class="section-note" markdown="1">中国大陆用户请查看 [购买选项](/dancexr/purchase_prc)。</p>
+</section>
 
-[Steam: DanceXR 純淨版](https://store.steampowered.com/app/2193970/DanceXR_Pure/){: .dlbtn .steam}
+<!-- ── Mobile & VR ────────────────────────────────────────── -->
+<section class="section">
+<div class="editions-header" markdown="1">
 
-專業版和純淨版之間的區別在於專業版具有一些僅限成年人的功能，因此在 Steam 上受到年齡限制，同時光線追踪版本在 Steam 上是一個付費 DLC。純淨版已刪除所有成年功能，但包括光線追踪版本。
+## 行動裝置 & VR
 
-### 在 Itch.io 上購買 Quest 獨立版本
+</div>
+<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
-Oculus Quest 的獨立版本可以在這裡找到：
+  <div class="edition-card">
+    <p class="edition-tier">Android</p>
+    <p class="edition-name">Google Play &amp; Itch.io</p>
+    <p class="edition-price">DanceXR Portable</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>完整 Pro 功能集</li>
+      <li>針對 Android 裝置優化</li>
+      <li>加入<a href="https://play.google.com/apps/testing/com.vrstormlab.dancexr">公開測試版</a>提前體驗</li>
+    </ul>
+    <a href="https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr" class="edition-cta">在 Google Play 取得</a>
+    <a href="https://stormlab.itch.io/dancexr-android" class="edition-cta edition-cta--ghost">在 Itch.io 購買</a>
+  </div>
 
-[DanceXR Quest](https://stormlab.itch.io/dancexr-quest){: .dlbtn .itchio}
+  <div class="edition-card">
+    <p class="edition-tier">iOS</p>
+    <p class="edition-name">App Store</p>
+    <p class="edition-price">DanceXR</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>完整 Pro 功能集</li>
+      <li>針對 iPhone 和 iPad 優化</li>
+      <li>與 PC 相同的月度更新週期</li>
+    </ul>
+    <a href="https://apps.apple.com/au/app/dancexr/id6475269158" class="edition-cta">在 App Store 取得</a>
+  </div>
 
-### 在 Google Play 和 Itch.io 上購買 Android 版本
+  <div class="edition-card">
+    <p class="edition-tier">VR</p>
+    <p class="edition-name">Meta Quest</p>
+    <p class="edition-price">via Itch.io</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>Quest 硬體上的完整 VR 體驗</li>
+      <li>獨立運行 — 無需 PC</li>
+      <li>與 PC Pro 版功能相同</li>
+    </ul>
+    <a href="https://stormlab.itch.io/dancexr-quest" class="edition-cta">在 Itch.io 取得</a>
+  </div>
 
-Android 專業版在 itch.io 上提供，純淨版在 Google Play 上提供：
+</div>
+</section>
 
-[DanceXR Android 專業版](https://stormlab.itch.io/dancexr-android){: .dlbtn .itchio}
+<!-- ── Free ───────────────────────────────────────────────── -->
+<section class="section section-light">
+<div class="editions-header editions-header--flush" markdown="1">
 
-[DanceXR Portable](https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr){: .dlbtn .itchio}
+## 免費體驗
 
-對於 Google Play 用戶，您現在可以參加我們的公共測試以提前獲得下一次更新。只需訪問下面的鏈接：
+免費版適用於 PC，包含所有核心功能 — 載入任意模型、播放動作、探索完整環境系統。一次只能有一個角色；[功能列表](/tw/dancexr/features)中標有 **PRO**、**NSFW** 或 **CREATOR** 的功能不可用。
 
-https://play.google.com/apps/testing/com.vrstormlab.dancexr
+[免費下載 — PC](https://github.com/alloystorm/dvvr/releases/tag/2025.12){: .btn .btn-secondary}
 
-如果您想恢復到生產版本，您可以從同一頁面選擇“退出該程序”，然後您將能夠從 Google Play 安裝舊版本。
-
-### 在 App Store 上購買 iOS 版本
-
-iPhone、iPad 的 iOS 版本可在 App Store 上找到：
-
-[DanceXR iOS](https://apps.apple.com/au/app/dancexr/id6475269158){: .dlbtn .itchio}
-
-### 對於中國大陸用戶
-
-[中国大陆购买选项](purchase_prc)
+</div>
+</section>

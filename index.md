@@ -5,7 +5,6 @@ toc: false
 nav_links:
   - label: DanceXR
     url: /dancexr
-    cta: true
 slideshows:
   dancexr:
     - '/images/slideshows/dancexr/logo-black.jpg'

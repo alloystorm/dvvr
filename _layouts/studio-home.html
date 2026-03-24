@@ -29,6 +29,16 @@
   </div>
 </nav>
 
+<!-- ── Language bar ─────────────────────────────────────────── -->
+{% if page.locale %}{% assign lp = page.lang_path | default: "/" %}
+<div class="lang-bar lang-bar-no-hero">
+  <a href="{{ lp }}"      {% if page.locale == 'en-US' %}class="active"{% endif %}>Eng</a>
+  <a href="/tw{{ lp }}"   {% if page.locale == 'zh-TW' %}class="active"{% endif %}>繁中</a>
+  <a href="/jp{{ lp }}"   {% if page.locale == 'ja-JP' %}class="active"{% endif %}>日本語</a>
+  <a href="/kr{{ lp }}"   {% if page.locale == 'ko-KR' %}class="active"{% endif %}>한국어</a>
+  <a href="/zh{{ lp }}"   {% if page.locale == 'zh-CN' %}class="active"{% endif %}>简中</a>
+</div>{% endif %}
+
 <!-- ── Page content ────────────────────────────────────────── -->
 <main id="content">
   {{ content }}
