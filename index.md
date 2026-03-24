@@ -46,7 +46,7 @@ Character Animation
 
 ## DanceXR
 
-Character model viewer and motion player for PMX/MMD and XNALara/XPS models.
+Character model viewer and motion player for anime and game character models (PMX / XPS format).
 
 Animate any character, anywhere — on PC, Mac, Android, and Meta Quest VR. Plays VMD/BVH motions on any model with no manual bone tweaking. Includes full physics simulation, AI voice chat, cinematic cameras, and a Creator Edition for offline VR video rendering.
 
@@ -54,6 +54,16 @@ Animate any character, anywhere — on PC, Mac, Android, and Meta Quest VR. Play
 
 </div>
 <div>{% include slideshow.html slides=page.slideshows.dancexr %}</div>
+</div>
+</section>
+
+<!-- ── More from VR Storm Lab ──────────────────────────────── -->
+<section class="section section-divider">
+<div class="section-wide" markdown="1">
+
+{:.section-label}
+More from VR Storm Lab
+
 </div>
 </section>
 

@@ -50,7 +50,13 @@ Paid
 
 ## Pure & Pro
 
-Unlock multi-actor scenes, XPS physics, procedural dance, and more. **Pure** removes adult content restrictions from the free version. **Pro** adds adult-only features on top of everything in Pure.
+Both editions unlock all advanced features — multi-actor scenes, XPS physics, procedural dance, and more. The only difference is adult content support.
+
+|  | **Pure** | **Pro** |
+|--|----------|---------|
+| **Price (Steam)** | $24.99 | $24.99 + $9.99 Raytracing DLC |
+| **Adult features** | — | ✓ |
+| **Raytracing** | Included | Sold separately ($9.99 DLC) |
 
 | Platform | Pure | Pro |
 |----------|------|-----|
