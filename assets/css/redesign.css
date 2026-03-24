@@ -683,6 +683,13 @@ pre code { background: none !important; }
   color: #fff;
 }
 .edition-card.featured .edition-cta:hover { background: var(--accent-h); }
+.edition-cta + .edition-cta { margin-top: 8px; }
+.edition-cta--ghost {
+  background: none;
+  border-color: rgba(255,255,255,0.1);
+  color: var(--text-dim);
+}
+.edition-cta--ghost:hover { background: rgba(255,255,255,0.06); color: var(--text); }
 
 /* ── Download section ────────────────────────────────────── */
 .download-section {
