@@ -5,20 +5,26 @@ toc: false
 locale: ja-JP
 lang_path: /dancexr/index
 hero_compact: true
-hero_eyebrow: VRキャラクターモデルビューアー
-hero_title: DanceXR - どんなモデルでも、どこでもアニメーション
-hero_sub: >
-  PMX/MMDやXNALara/XPSモデルをロードして再生を押すだけで、PC、Mac、Android、Quest VRでキャラクターに命が吹き込まれるのを見てください。
+hero_title: 究極のマルチプラットフォーム キャラクタービューアー
 hero_image: /images/hero.png
+hero_ctas:
+  - label: 今すぐダウンロード
+    url: /jp/dancexr/download
+    style: neon
 nav_links:
-  - label: DanceXR
-    url: /jp/dancexr
   - label: 機能
     url: /jp/dancexr/features
-  - label: リリース
-    url: /jp/dancexr/releases
+  - label: 物理
+    url: /jp/dancexr/features/physics
+  - label: シネマ
+    url: /jp/dancexr/features/cinematic_camera
+  - label: AI
+    url: /jp/dancexr/features/ai_features
+  - label: 価格
+    url: /jp/dancexr/#editions
   - label: ダウンロード
     url: /jp/dancexr/download
+    cta: true
 
 # ── Slideshow image lists ─────────────────────────────────────
 # Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.

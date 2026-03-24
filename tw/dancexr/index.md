@@ -5,20 +5,26 @@ toc: false
 locale: zh-TW
 lang_path: /dancexr/index
 hero_compact: true
-hero_eyebrow: VR 角色模型查看器
-hero_title: DanceXR - 隨時隨地為任何角色製作動畫
-hero_sub: >
-  載入任何 PMX/MMD 或 XNALara/XPS 模型，點擊播放，便可在 PC、Mac、Android 或 Quest VR 上欣賞栩栩如生的人物。
+hero_title: 終極多平台角色查看器
 hero_image: /images/hero.png
+hero_ctas:
+  - label: 立即下載
+    url: /tw/dancexr/download
+    style: neon
 nav_links:
-  - label: DanceXR
-    url: /tw/dancexr
   - label: 功能
     url: /tw/dancexr/features
-  - label: 發佈
-    url: /tw/dancexr/releases
+  - label: 物理
+    url: /tw/dancexr/features/physics
+  - label: 影像
+    url: /tw/dancexr/features/cinematic_camera
+  - label: AI
+    url: /tw/dancexr/features/ai_features
+  - label: 定價
+    url: /tw/dancexr/#editions
   - label: 下載
     url: /tw/dancexr/download
+    cta: true
 
 # ── Slideshow image lists ─────────────────────────────────────
 # Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.

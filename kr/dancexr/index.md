@@ -5,20 +5,26 @@ toc: false
 locale: ko-KR
 lang_path: /dancexr/index
 hero_compact: true
-hero_eyebrow: VR 캐릭터 모델 뷰어
-hero_title: DanceXR - 어떤 모델이든, 어디서나 애니메이션
-hero_sub: >
-  PMX/MMD 또는 XNALara/XPS 모델을 로드하고 재생을 누르면, PC, Mac, Android 또는 Quest VR에서 캐릭터가 살아 움직이는 것을 볼 수 있습니다.
+hero_title: 궁극의 멀티플랫폼 캐릭터 뷰어
 hero_image: /images/hero.png
+hero_ctas:
+  - label: 지금 다운로드
+    url: /kr/dancexr/download
+    style: neon
 nav_links:
-  - label: DanceXR
-    url: /kr/dancexr
   - label: 기능
     url: /kr/dancexr/features
-  - label: 출시
-    url: /kr/dancexr/releases
+  - label: 물리
+    url: /kr/dancexr/features/physics
+  - label: 시네마
+    url: /kr/dancexr/features/cinematic_camera
+  - label: AI
+    url: /kr/dancexr/features/ai_features
+  - label: 가격
+    url: /kr/dancexr/#editions
   - label: 다운로드
     url: /kr/dancexr/download
+    cta: true
 
 # ── Slideshow image lists ─────────────────────────────────────
 # Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.
