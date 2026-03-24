@@ -11,16 +11,6 @@ hero_sub: >
   Load any PMX/MMD or XNALara/XPS model, hit play, and watch your characters
   come to life — on PC, Mac, Android, or Quest VR.
 hero_image: /images/header_wide.png
-hero_ctas:
-  - label: Download Free
-    url: /dancexr/download
-    style: primary
-  - label: Buy on Steam
-    url: https://store.steampowered.com/search/?developer=VR%20Storm%20Lab
-    style: secondary
-  - label: Patreon
-    url: https://www.patreon.com/dvvr
-    style: secondary
 nav_links:
   - label: Intro
     url: /dancexr

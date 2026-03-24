@@ -10,16 +10,6 @@ hero_title: DanceXR - 隨時隨地為任何角色製作動畫
 hero_sub: >
   載入任何 PMX/MMD 或 XNALara/XPS 模型，點擊播放，便可在 PC、Mac、Android 或 Quest VR 上欣賞栩栩如生的人物。
 hero_image: /images/header_wide.png
-hero_ctas:
-  - label: 免費下載
-    url: /dancexr/download
-    style: primary
-  - label: 在 Steam 購買
-    url: https://store.steampowered.com/search/?developer=VR%20Storm%20Lab
-    style: secondary
-  - label: Patreon
-    url: https://www.patreon.com/dvvr
-    style: secondary
 nav_links:
   - label: DanceXR
     url: /tw/dancexr

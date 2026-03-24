@@ -25,7 +25,7 @@ Animate any character, anywhere — on PC, Mac, Android, and Meta Quest VR.
 
 Load anime and game character models (PMX / XPS format) and play VMD/BVH motions with no manual bone tweaking. Includes full physics simulation, AI voice chat, cinematic cameras, and a Creator Edition for offline VR video rendering.
 
-[Learn more](/dancexr){: .btn .btn-primary} [Download](/dancexr/download){: .btn .btn-secondary}
+[Learn more](/dancexr){: .btn .btn-primary}
 
 </div>
 <div>{% include slideshow.html slides=page.slideshows.dancexr %}</div>

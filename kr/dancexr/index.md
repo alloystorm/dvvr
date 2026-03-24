@@ -10,16 +10,6 @@ hero_title: DanceXR - 어떤 모델이든, 어디서나 애니메이션
 hero_sub: >
   PMX/MMD 또는 XNALara/XPS 모델을 로드하고 재생을 누르면, PC, Mac, Android 또는 Quest VR에서 캐릭터가 살아 움직이는 것을 볼 수 있습니다.
 hero_image: /images/header_wide.png
-hero_ctas:
-  - label: 무료 다운로드
-    url: /dancexr/download
-    style: primary
-  - label: Steam 구매
-    url: https://store.steampowered.com/search/?developer=VR%20Storm%20Lab
-    style: secondary
-  - label: Patreon
-    url: https://www.patreon.com/dvvr
-    style: secondary
 nav_links:
   - label: DanceXR
     url: /kr/dancexr
