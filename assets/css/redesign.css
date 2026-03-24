@@ -282,8 +282,8 @@ pre code { background: none !important; }
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(0,0,0,0.45) 0%,
-    rgba(0,0,0,0.45) 80%,
+    rgba(0,0,0,0.55) 0%,
+    rgba(0,0,0,0.65) 80%,
     rgba(0,0,0,0.80) 100%
   );
 }
