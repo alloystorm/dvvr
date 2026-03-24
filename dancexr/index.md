@@ -404,6 +404,9 @@ Pricing
   </div>
 
 </div>
+<div class="editions-header" markdown="1">
+  DanceXR is also available on Android, iOS and Quest VR — the same core features, optimised for your device. Check out the download page for details.
+</div>
 </section>
 
 <!-- ── Active Development ─────────────────────────────────── -->
