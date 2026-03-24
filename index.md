@@ -8,6 +8,9 @@ nav_links:
 slideshows:
   dancexr:
     - '/images/slideshows/dancexr/logo-black.jpg'
+nav_home:
+  label: VR Storm Lab
+  url: /
 ---
 
 <!-- ── DanceXR — featured ───────────────────────────────── -->

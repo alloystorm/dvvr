@@ -62,3 +62,6 @@ default_nav_links:
   - label: Download
     url: /dancexr/download
     cta: true
+default_nav_home:
+  label: DanceXR
+  url: /dancexr

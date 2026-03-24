@@ -13,10 +13,11 @@
 <body class="home-page studio-home">
 
 <!-- ── Navigation ──────────────────────────────────────────── -->
+{% assign nav_home = page.nav_home | default: site.default_nav_home %}
 <nav class="site-nav" id="site-nav">
   <div class="nav-inner">
-    <a class="nav-logo" href="/">
-      VR Storm Lab
+    <a class="nav-logo" href="{{ nav_home.url }}">
+      {{ nav_home.label }}
     </a>
     <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Toggle menu">
       <span></span><span></span><span></span>
@@ -30,13 +31,13 @@
 </nav>
 
 <!-- ── Language bar ─────────────────────────────────────────── -->
-{% if page.locale %}{% assign lp = page.lang_path | default: "/" %}
+{% if page.locale %}{% assign lp = page.path | default: "/" %}
 <div class="lang-bar lang-bar-no-hero">
-  <a href="{{ lp }}"      {% if page.locale == 'en-US' %}class="active"{% endif %}>Eng</a>
-  <a href="/tw{{ lp }}"   {% if page.locale == 'zh-TW' %}class="active"{% endif %}>繁中</a>
-  <a href="/jp{{ lp }}"   {% if page.locale == 'ja-JP' %}class="active"{% endif %}>日本語</a>
-  <a href="/kr{{ lp }}"   {% if page.locale == 'ko-KR' %}class="active"{% endif %}>한국어</a>
-  <a href="/zh{{ lp }}"   {% if page.locale == 'zh-CN' %}class="active"{% endif %}>简中</a>
+  <a href="/{{ lp | replace: '.md', '' }}"      {% if page.locale == 'en-US' %}class="active"{% endif %}>Eng</a>
+  <a href="/tw/{{ lp | replace: '.md', '' }}"   {% if page.locale == 'zh-TW' %}class="active"{% endif %}>繁中</a>
+  <a href="/jp/{{ lp | replace: '.md', '' }}"   {% if page.locale == 'ja-JP' %}class="active"{% endif %}>日本語</a>
+  <a href="/kr/{{ lp | replace: '.md', '' }}"   {% if page.locale == 'ko-KR' %}class="active"{% endif %}>한국어</a>
+  <a href="/zh/{{ lp | replace: '.md', '' }}"   {% if page.locale == 'zh-CN' %}class="active"{% endif %}>简中</a>
 </div>{% endif %}
 
 <!-- ── Page content ────────────────────────────────────────── -->
