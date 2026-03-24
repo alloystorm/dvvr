@@ -10,7 +10,7 @@ sidebar:
 
 ## 免費版本下載
 
-[DanceXR 2024.2 HD](https://github.com/alloystorm/dvvr/releases/tag/2024.2){: .dlbtn .patreon} 
+[DanceXR 2024.2 HD](https://github.com/alloystorm/dvvr/releases/tag/2025.12){: .dlbtn .patreon} 
 
 免費版本包括所有基本功能，如標準姿勢轉換、舞台和環境設置以及逼真的動作。但是，一次只能有一位演員在舞台上，並且付費版本中的高級功能不可用。
 

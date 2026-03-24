@@ -10,7 +10,7 @@ sidebar:
 
 ## 무료 버전 다운로드
 
-[DanceXR 2024.2 HD](https://github.com/alloystorm/dvvr/releases/tag/2024.2){: .dlbtn .patreon} 
+[DanceXR 2024.2 HD](https://github.com/alloystorm/dvvr/releases/tag/2025.12){: .dlbtn .patreon} 
 
 무료 버전에는 표준 포즈 변환, 무대 및 환경 설정, 사실적인 동작 등 기본 기능이 모두 포함되어 있습니다. 그러나 한 번에 한 명의 배우만 무대에 올라갈 수 있으며, 유료 버전의 고급 기능은 사용할 수 없습니다.
 

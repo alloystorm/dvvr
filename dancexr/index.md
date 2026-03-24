@@ -360,6 +360,7 @@ Platforms
 |----------|--------|--------------|
 | Windows PC | RT, HD, LW | Patreon, Steam, Itch.io |
 | Mac | HD | Steam |
+| iOS | LW | App Store |
 | Android | LW | Google Play, Itch.io |
 | Meta Quest 2 / 3 / Pro | LW + AR mode | Itch.io (sideload) |
 

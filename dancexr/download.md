@@ -13,7 +13,7 @@ hero_sub: >
 hero_image: /images/header_wide.png
 hero_ctas:
   - label: Free Download
-    url: https://github.com/alloystorm/dvvr/releases/tag/2024.2
+    url: https://github.com/alloystorm/dvvr/releases/tag/2025.12
     style: primary
   - label: Buy on Steam
     url: https://store.steampowered.com/app/1905510/DanceXR/
@@ -34,7 +34,7 @@ Free
 
 The free version includes all core features — load any model, play any motion, and explore the full environment system. One actor on stage at a time; advanced features in the paid versions are locked.
 
-[Download Free (PC)](https://github.com/alloystorm/dvvr/releases/tag/2024.2){: .btn .btn-primary}
+[Download Free (PC)](https://github.com/alloystorm/dvvr/releases/tag/2025.12){: .btn .btn-primary}
 
 Check the [full feature list](/dancexr/features) — items marked **PRO**, **NSFW**, or **CREATOR** are not available in the free version.
 

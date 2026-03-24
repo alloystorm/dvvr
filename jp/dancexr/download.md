@@ -10,7 +10,7 @@ sidebar:
 
 ## 無料版ダウンロード
 
-[DanceXR 2024.2 HD](https://github.com/alloystorm/dvvr/releases/tag/2024.2){: .dlbtn .patreon} 
+[DanceXR 2024.2 HD](https://github.com/alloystorm/dvvr/releases/tag/2025.12){: .dlbtn .patreon} 
 
 無料版には、標準ポーズ変換、ステージと環境設定、リアルなモーションなどの基本機能がすべて含まれています。ただし、1人の俳優しかステージに出られず、有料版の高度な機能は利用できません。
 
