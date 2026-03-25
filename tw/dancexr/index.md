@@ -12,19 +12,14 @@ hero_ctas:
     url: /tw/dancexr/download
     style: neon
 nav_links:
+  - label: 首頁
+    url: /tw/dancexr/index
   - label: 功能
     url: /tw/dancexr/features
-  - label: 物理
-    url: /tw/dancexr/features/physics
-  - label: 影像
-    url: /tw/dancexr/features/cinematic_camera
-  - label: AI
-    url: /tw/dancexr/features/ai_features
-  - label: 定價
-    url: /tw/dancexr/#editions
+  - label: 版本
+    url: /tw/dancexr/releases
   - label: 下載
     url: /tw/dancexr/download
-    cta: true
 
 # ── Slideshow image lists ─────────────────────────────────────
 # Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.
