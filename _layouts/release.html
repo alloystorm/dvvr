@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="{{ page.locale | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <title>{{ page.title | default: site.title }}</title>
+  {% include head/custom.html %}
+  {% if site.analytics.provider == "google-gtag" %}
+  {% include analytics-providers/google-gtag.html %}
+  {% endif %}
+</head>
+<body class="home-page release-page">
+
+<!-- ── Navigation ──────────────────────────────────────────── -->
+<nav class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/dancexr/">
+      DanceXR
+    </a>
+    <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    {% assign nav_items = page.nav_links | default: site.default_nav_links %}
+    <ul class="nav-links" id="nav-links">
+      {% for item in nav_items %}<li{% if item.cta %} class="nav-cta-item"{% endif %}><a href="{{ item.url }}"{% if item.cta %} class="nav-cta"{% endif %}>{{ item.label }}</a></li>{% endfor %}
+    </ul>
+    {% for item in nav_items %}{% if item.cta %}<a href="{{ item.url }}" class="nav-cta-btn">{{ item.label }}</a>{% endif %}{% endfor %}
+  </div>
+</nav>
+
+<!-- ── Language bar ─────────────────────────────────────────── -->
+{% if page.locale %}{% assign lp = page.path | default: "" %}
+{% assign lp = lp | replace: '.md', '' %}
+{% assign lp = lp | replace: 'tw/', '' %}
+{% assign lp = lp | replace: 'jp/', '' %}
+{% assign lp = lp | replace: 'kr/', '' %}
+{% assign lp = lp | replace: 'zh/', '' %}
+<div class="release-lang-bar">
+  <a href="/{{ lp }}"      {% if page.locale == 'en-US' %}class="active"{% endif %}>Eng</a>
+  <a href="/tw/{{ lp }}"   {% if page.locale == 'zh-TW' %}class="active"{% endif %}>繁中</a>
+  <a href="/jp/{{ lp }}"   {% if page.locale == 'ja-JP' %}class="active"{% endif %}>日本語</a>
+  <a href="/kr/{{ lp }}"   {% if page.locale == 'ko-KR' %}class="active"{% endif %}>한국어</a>
+  <a href="/zh/{{ lp }}"   {% if page.locale == 'zh-CN' %}class="active"{% endif %}>简中</a>
+</div>{% endif %}
+
+<!-- ── Main ────────────────────────────────────────────────── -->
+<main class="release-main" id="content">
+  <div class="release-layout">
+
+    <!-- TOC sidebar -->
+    <aside class="release-toc" id="release-toc" aria-label="Table of contents">
+      <p class="release-toc__title">On this page</p>
+      <nav id="toc-nav"></nav>
+    </aside>
+
+    <!-- Content -->
+    <article class="release-content">
+      {{ content }}
+    </article>
+
+  </div>
+</main>
+
+<!-- ── Footer ──────────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="/images/icon.png" width="22" height="22" alt="">
+        <span>{{ site.title }}</span>
+      </div>
+      {% if site.footer.links %}
+      <nav class="footer-social">
+        {% for link in site.footer.links %}
+        <a href="{{ link.url }}" rel="noopener noreferrer">{{ link.label }}</a>
+        {% endfor %}
+      </nav>
+      {% endif %}
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copyright">© {{ site.time | date: "%Y" }} VR Storm Lab</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Nav scroll behaviour (shared with home)
+  const nav = document.getElementById('site-nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 20);
+  }, { passive: true });
+
+  // Hamburger toggle
+  const btn = document.getElementById('nav-menu-btn');
+  const links = document.getElementById('nav-links');
+  btn.addEventListener('click', () => {
+    btn.classList.toggle('open');
+    links.classList.toggle('open');
+  });
+
+  // Build TOC from h2/h3 headings inside the article
+  (function () {
+    const article = document.querySelector('.release-content');
+    const tocNav  = document.getElementById('toc-nav');
+    if (!article || !tocNav) return;
+
+    const headings = article.querySelectorAll('h2, h3');
+    if (!headings.length) return;
+
+    const ul = document.createElement('ul');
+    ul.className = 'toc-list';
+
+    headings.forEach(h => {
+      // Ensure each heading has an id
+      if (!h.id) {
+        h.id = h.textContent.trim()
+          .toLowerCase()
+          .replace(/[^\w\s-]/g, '')
+          .replace(/\s+/g, '-');
+      }
+      const li = document.createElement('li');
+      li.className = h.tagName === 'H3' ? 'toc-item toc-item--sub' : 'toc-item';
+      const a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.textContent = h.textContent;
+      a.className = 'toc-link';
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
+
+    tocNav.appendChild(ul);
+
+    // Highlight active section on scroll
+    const tocLinks = ul.querySelectorAll('.toc-link');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        const id = entry.target.id;
+        const link = ul.querySelector(`.toc-link[href="#${id}"]`);
+        if (link) link.classList.toggle('active', entry.isIntersecting);
+      });
+    }, { rootMargin: '-10% 0px -80% 0px' });
+
+    headings.forEach(h => observer.observe(h));
+  })();
+</script>
+</body>
+</html>
