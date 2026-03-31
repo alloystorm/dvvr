@@ -415,15 +415,15 @@ AIパワードのボイスチャットにより、キャラクターがリアル
 
 </div>
 <div class="release-card">
-  <p class="release-version">最新 — 2026.3</p>
-  <p class="release-headline">2026年3月</p>
+  <p class="release-version">最新 — 2026.4</p>
+  <p class="release-headline">2026年4月</p>
   <div class="release-items">
-    <div class="release-item">ドラッグ&amp;ドロップファイル読み込み</div>
-    <div class="release-item">シェーダー最適化 — フレームレート向上</div>
-    <div class="release-item">VR使いやすさの改善</div>
-    <div class="release-item">VMD2PNGオープンソースツール</div>
+    <div class="release-item">XPBDリジッドボディ物理システム</div>
+    <div class="release-item">ラグドール&amp;ソフトボディシミュレーション</div>
+    <div class="release-item">全身IK &amp; 二足歩行の改善</div>
+    <div class="release-item">並列BVH衝突 — パフォーマンス向上</div>
   </div>
-  <a href="/jp/dancexr/releases/2026.3" class="btn-ghost">完全なリリースノート</a>
+  <a href="/jp/dancexr/releases/2026.4" class="btn-ghost">完全なリリースノート</a>
 </div>
 </div>
 </section>

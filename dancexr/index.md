@@ -415,15 +415,15 @@ New features and improvements ship every month. Patreon supporters get early acc
 
 </div>
 <div class="release-card">
-  <p class="release-version">Latest — 2026.3</p>
-  <p class="release-headline">March 2026</p>
+  <p class="release-version">Latest — 2026.4</p>
+  <p class="release-headline">April 2026</p>
   <div class="release-items">
-    <div class="release-item">Drag &amp; drop file loading</div>
-    <div class="release-item">Shader optimisation — improved frame rate</div>
-    <div class="release-item">VR ease-of-use improvements</div>
-    <div class="release-item">VMD2PNG open source tool</div>
+    <div class="release-item">XPBD rigid body physics system</div>
+    <div class="release-item">Ragdoll &amp; soft body simulation</div>
+    <div class="release-item">Full-body IK &amp; biped movement improvements</div>
+    <div class="release-item">Parallel BVH collision — improved performance</div>
   </div>
-  <a href="/dancexr/releases/2026.3" class="btn-ghost">Full release notes</a>
+  <a href="/dancexr/releases/2026.4" class="btn-ghost">Full release notes</a>
 </div>
 </div>
 </section>

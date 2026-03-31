@@ -415,15 +415,15 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
 
 </div>
 <div class="release-card">
-  <p class="release-version">최신 — 2026.3</p>
-  <p class="release-headline">2026년 3월</p>
+  <p class="release-version">최신 — 2026.4</p>
+  <p class="release-headline">2026년 4월</p>
   <div class="release-items">
-    <div class="release-item">드래그 앤 드롭 파일 로딩</div>
-    <div class="release-item">셰이더 최적화 — 프레임 속도 향상</div>
-    <div class="release-item">VR 사용 편의성 개선</div>
-    <div class="release-item">VMD2PNG 오픈소스 도구</div>
+    <div class="release-item">XPBD 리지드바디 물리 시스템</div>
+    <div class="release-item">래그돌 &amp; 소프트바디 시뮬레이션</div>
+    <div class="release-item">전신 IK &amp; 이족 보행 개선</div>
+    <div class="release-item">병렬 BVH 충돌 — 성능 향상</div>
   </div>
-  <a href="/kr/dancexr/releases/2026.3" class="btn-ghost">전체 릴리스 노트</a>
+  <a href="/kr/dancexr/releases/2026.4" class="btn-ghost">전체 릴리스 노트</a>
 </div>
 </div>
 </section>
