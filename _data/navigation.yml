@@ -1,6 +1,8 @@
 releases:
   - title: 2026
     children:
+    - title: Release 2026.4
+      url: /dancexr/releases/2026.4
     - title: Release 2026.3
       url: /dancexr/releases/2026.3
     - title: Release 2026.2
@@ -120,7 +122,9 @@ docs:
   - title: Releases
     url: /dancexr/releases/
     children:
-    - title: "2026.3 (Early Access)"
+    - title: "2026.4"
+      url: /dancexr/releases/2026.4
+    - title: "2026.3"
       url: /dancexr/releases/2026.3
     - title: "2026.2"
       url: /dancexr/releases/2026.2
@@ -129,6 +133,8 @@ docs:
 releases-zh:
   - title: 2026
     children:
+    - title: 发布 2026.4
+      url: /zh/dancexr/releases/2026.4
     - title: 发布 2026.3
       url: /zh/dancexr/releases/2026.3
     - title: 发布 2026.2
@@ -256,6 +262,8 @@ docs-zh:
 releases-tw:
   - title: 2026
     children:
+    - title: 發布 2026.4
+      url: /tw/dancexr/releases/2026.4
     - title: 發布 2026.3
       url: /tw/dancexr/releases/2026.3
     - title: 發布 2026.2
@@ -383,6 +391,8 @@ docs-tw:
 releases-jp:
   - title: 2026
     children:
+    - title: リリース 2026.4
+      url: /jp/dancexr/releases/2026.4
     - title: リリース 2026.3
       url: /jp/dancexr/releases/2026.3
     - title: リリース 2026.2
@@ -510,6 +520,8 @@ docs-jp:
 releases-kr:
   - title: 2026
     children:
+    - title: 출시 2026.4
+      url: /kr/dancexr/releases/2026.4
     - title: 출시 2026.3
       url: /kr/dancexr/releases/2026.3
     - title: 출시 2026.2
