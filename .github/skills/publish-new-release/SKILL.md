@@ -1,17 +1,18 @@
 ---
 name: publish-new-release
-description: Publishes a new DanceXR release to the documentation website. Creates English release notes from a CHANGELOG, generates all four localized versions, updates navigation for all locales, and updates the homepage release card. Use this when asked to "publish release [version]" or "create release notes for [version]".
+description: Publishes a new DanceXR release to the documentation website. Creates English release notes from a CHANGELOG, generates all four localized versions, updates navigation for all locales, updates the homepage release card, and prepares platform-specific release notes for Steam, Google Play, and itch.io. Use this when asked to "publish release [version]" or "create release notes for [version]".
 ---
 
 ## Overview
 
-A full release publication touches six areas:
+A full release publication touches seven areas:
 
 1. Draft the English release notes from the CHANGELOG
 2. Create four localized release note pages (JP, ZH, TW, KR)
 3. Add the new release to `_data/navigation.yml` for all five nav sections
 4. Update the homepage release card in all five `index.md` files
 5. Use `layout: release` (not `layout: single`) for all release note pages
+6. Prepare platform-specific release notes under `notes/[version]/`
 
 The inputs you need before starting:
 - The **version string** (e.g., `2026.4`)
@@ -152,3 +153,79 @@ The English card has no locale prefix in the URL (`/dancexr/releases/[version]`)
 - **Never add `toc: true` or a `sidebar:` block** — these are not used by `layout: release`.
 - **Never create release note pages for other locales as `layout: single`** even if existing older pages use it — those are legacy.
 - Always update all six navigation sections and all five homepage index files in the same session as creating the release notes.
+
+---
+
+## Step 5: Prepare platform-specific release notes
+
+Create a `notes/[version]/` directory and generate all 7 files in it. Study `notes/2026.3/` as the reference for format and tone.
+
+### 5a — Google Play (`google.txt`)
+
+Android audience only. **Omit any feature that is Windows/VR/PC/DX12-exclusive** (e.g. desktop VR mode, DX12, Steam-specific functionality). Focus on physics, character, and general simulation features that also run on Android.
+
+Format: one short paragraph per language (≈500 characters), wrapped in language tags. All five languages in one file in this order:
+
+```
+<en-US>
+…
+</en-US>
+
+<zh-CN>
+…
+</zh-CN>
+
+<zh-TW>
+…
+</zh-TW>
+
+<ja-JP>
+…
+</ja-JP>
+
+<ko-KR>
+…
+</ko-KR>
+```
+
+Each paragraph ends with a localized link to the full release notes URL:
+`https://vrstormlab.com/[locale-prefix]dancexr/releases/[version]`
+(no prefix for English: `https://vrstormlab.com/dancexr/releases/[version]`)
+
+### 5b — itch.io (`itchio.txt`)
+
+No language-specific pages on itch.io — brief, all languages in one plain-text file. One short paragraph per language, separated by `---`. Each paragraph starts with `DanceXR [version]` as a heading and ends with a localized link to the full release notes. Keep each paragraph to 3–5 sentences maximum.
+
+### 5c — Steam (5 separate XML files)
+
+One XML file per language, named:
+- `steam_english.xml`
+- `steam_japanese.xml`
+- `steam_schinese.xml`
+- `steam_tchinese.xml`
+- `steam_korean.xml`
+
+Each file follows this exact XML structure:
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<content>
+    <string id="title">[Localised title]</string>
+    <string id="subtitle">[Localised subtitle — key features, ≤120 chars]</string>
+    <string id="summary">[Localised summary — 1-2 sentences, ≤300 chars]</string>
+    <string id="body">[Localised body — 3-5 paragraphs of prose]
+
+For full details, visit: [link text](https://vrstormlab.com/[locale]dancexr/releases/[version])</string>
+</content>
+```
+
+Steam notes cover the full PC + VR feature set. The body should be engaging prose (not a bullet list), written as a product announcement. Escape `&` as `&amp;` in XML attributes and content.
+
+Per-language title formats:
+| File | Title format |
+|---|---|
+| `steam_english.xml` | `DanceXR Version [version] Released` |
+| `steam_japanese.xml` | `DanceXR バージョン [version] をリリース` |
+| `steam_schinese.xml` | `DanceXR 版本 [version] 发布` |
+| `steam_tchinese.xml` | `DanceXR 版本 [version] 發布` |
+| `steam_korean.xml` | `DanceXR 버전 [version] 출시` |
