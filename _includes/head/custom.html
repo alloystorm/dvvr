@@ -11,4 +11,64 @@
 <!-- DanceXR redesign stylesheet -->
 <link rel="stylesheet" href="/assets/css/redesign.css">
 
+<!-- Language detection & redirect (DanceXR pages only) -->
+<script>
+(function () {
+  var KEY = 'dvvr-lang';
+  var PREFIXES = ['jp', 'tw', 'zh', 'kr'];
+
+  // Strip known locale prefix → base path
+  function basePath(p) {
+    return p.replace(/^\/(jp|tw|zh|kr)\//, '/');
+  }
+
+  // Extract locale prefix from current path ('jp'|'tw'|'zh'|'kr'|'')
+  function currentPrefix(p) {
+    var m = p.match(/^\/(jp|tw|zh|kr)\//);
+    return m ? m[1] : '';
+  }
+
+  // Map browser language tag → our locale prefix
+  function detect() {
+    var langs = Array.from(navigator.languages || [navigator.language || '']);
+    for (var i = 0; i < langs.length; i++) {
+      var l = (langs[i] || '').toLowerCase();
+      if (l.startsWith('ja'))                              return 'jp';
+      if (l === 'zh-tw' || l === 'zh-hk' || l.indexOf('-hant') >= 0) return 'tw';
+      if (l.startsWith('zh'))                              return 'zh';
+      if (l.startsWith('ko'))                              return 'kr';
+    }
+    return 'en';
+  }
+
+  // Build redirect URL for a given prefix
+  function redirectUrl(prefix, base) {
+    return prefix && prefix !== 'en' ? '/' + prefix + base : base;
+  }
+
+  var path = window.location.pathname;
+
+  // Only act on /dancexr/ pages (and their localized mirrors)
+  var isDanceXR = path.indexOf('/dancexr/') !== -1 || path === '/dancexr';
+  if (!isDanceXR) return;
+
+  var cur   = currentPrefix(path);
+  var saved = localStorage.getItem(KEY);
+
+  if (saved === null) {
+    // First ever visit: detect, save, and redirect if needed
+    var desired = detect();
+    localStorage.setItem(KEY, desired);
+    var desiredPrefix = (desired === 'en') ? '' : desired;
+    if (desiredPrefix !== cur) {
+      window.location.replace(redirectUrl(desiredPrefix, basePath(path)));
+    }
+  } else {
+    // Returning visitor: honour wherever they navigated to
+    // (clicking the lang bar or typing a URL updates the preference naturally)
+    localStorage.setItem(KEY, cur || 'en');
+  }
+})();
+</script>
+
 <!-- end custom head snippets -->
