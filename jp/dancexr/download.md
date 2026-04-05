@@ -37,7 +37,7 @@ nav_links:
       <li>LWビルド — パフォーマンス最適化</li>
       <li>Proビルド</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta">Patreonで参加する</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'patreon', 'event_label': 'Patron $7' });">Patreonで参加する</a>
   </div>
 
   <div class="edition-card featured">
@@ -50,7 +50,7 @@ nav_links:
       <li>RTビルド — レイトレーシング</li>
       <li>Proビルド</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta">Patreonで参加する</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'patreon', 'event_label': 'Pro $10' });">Patreonで参加する</a>
   </div>
 
   <div class="edition-card">
@@ -64,7 +64,7 @@ nav_links:
       <li>4K、VR 180 &amp; VR 360 動画出力</li>
       <li>フレーム単位のレンダリング（任意解像度）</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta">Patreonで参加する</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'patreon', 'event_label': 'Creator $15' });">Patreonで参加する</a>
   </div>
 
 </div>
@@ -91,7 +91,7 @@ nav_links:
       <li class="locked">1人の俳優のみ</li>
       <li class="locked">高度な機能はロック</li>
     </ul>
-    <a href="https://github.com/alloystorm/dvvr/releases/tag/2025.12" class="edition-cta">無料ダウンロード</a>
+    <a href="https://github.com/alloystorm/dvvr/releases/tag/2025.12" class="edition-cta" onclick="gtag(\'event\', \'download\', { \'event_category\': \'pc\', \'event_label\': \'Download Free\' });">無料ダウンロード</a>
   </div>
 
   <div class="edition-card featured">
@@ -106,7 +106,7 @@ nav_links:
       <li>全高度機能</li>
       <li>レイトレーシング含む</li>
     </ul>
-    <a href="https://store.steampowered.com/app/2193970/DanceXR_Pure/" class="edition-cta">Steamで購入</a>
+    <a href="https://store.steampowered.com/app/2193970/DanceXR_Pure/" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'steam\', \'event_label\': \'Pure $24.99\' });">Steamで購入</a>
   </div>
 
   <div class="edition-card">
@@ -119,8 +119,8 @@ nav_links:
       <li>アダルトコンテンツ対応</li>
       <li>レイトレーシングはDLC（$9.99）</li>
     </ul>
-    <a href="https://store.steampowered.com/app/1905510/DanceXR/" class="edition-cta">Steamで購入</a>
-    <a href="https://stormlab.itch.io/dancexr" class="edition-cta edition-cta--ghost">Itch.ioで購入</a>
+    <a href="https://store.steampowered.com/app/1905510/DanceXR/" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'steam\', \'event_label\': \'Pro $24.99\' });">Steamで購入</a>
+    <a href="https://stormlab.itch.io/dancexr" class="edition-cta edition-cta--ghost" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'itchio\', \'event_label\': \'Pro PC Itch.io\' });">Itch.ioで購入</a>
   </div>
 
 </div>
@@ -146,8 +146,8 @@ nav_links:
       <li>Androidデバイス向け最適化</li>
       <li><a href="https://play.google.com/apps/testing/com.vrstormlab.dancexr">公開ベータ</a>で早期アクセス</li>
     </ul>
-    <a href="https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr" class="edition-cta">Google Playで入手</a>
-    <a href="https://stormlab.itch.io/dancexr-android" class="edition-cta edition-cta--ghost">Itch.ioで購入</a>
+    <a href="https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'google_play\', \'event_label\': \'Android Google Play\' });">Google Playで入手</a>
+    <a href="https://stormlab.itch.io/dancexr-android" class="edition-cta edition-cta--ghost" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'itchio\', \'event_label\': \'Android Itch.io\' });">Itch.ioで購入</a>
   </div>
 
   <div class="edition-card">
@@ -160,7 +160,7 @@ nav_links:
       <li>iPhone・iPad向け最適化</li>
       <li>PCと同じ月次更新サイクル</li>
     </ul>
-    <a href="https://apps.apple.com/au/app/dancexr/id6475269158" class="edition-cta">App Storeで入手</a>
+    <a href="https://apps.apple.com/au/app/dancexr/id6475269158" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'app_store\', \'event_label\': \'iOS App Store\' });">App Storeで入手</a>
   </div>
 
   <div class="edition-card">
@@ -173,7 +173,7 @@ nav_links:
       <li>スタンドアロン — PC不要</li>
       <li>PC Pro版と同じ機能セット</li>
     </ul>
-    <a href="https://stormlab.itch.io/dancexr-quest" class="edition-cta">Itch.ioで入手</a>
+    <a href="https://stormlab.itch.io/dancexr-quest" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'itchio\', \'event_label\': \'Quest Itch.io\' });">Itch.ioで入手</a>
   </div>
 
 </div>

@@ -390,7 +390,7 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
       <li>4K, VR 180 &amp; VR 360 비디오</li>
       <li>새 기능 한 달 먼저 이용</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta">Patreon 가입</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'engagement\', \'event_label\': \'Join on Patreon\' });">Patreon 가입</a>
   </div>
 
 </div>

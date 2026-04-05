@@ -37,7 +37,7 @@ Get early access to every monthly release before Steam and all other platforms.
       <li>LW build — optimised for performance</li>
       <li>Pro builds</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta">Join on Patreon</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'patreon', 'event_label': 'Patron $7' });">Join on Patreon</a>
   </div>
 
   <div class="edition-card featured">
@@ -50,7 +50,7 @@ Get early access to every monthly release before Steam and all other platforms.
       <li>RT build — ray tracing</li>
       <li>Pro builds</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta">Join on Patreon</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'patreon', 'event_label': 'Pro $10' });">Join on Patreon</a>
   </div>
 
   <div class="edition-card">
@@ -64,7 +64,7 @@ Get early access to every monthly release before Steam and all other platforms.
       <li>4K, VR 180 &amp; VR 360 video output</li>
       <li>Frame-by-frame rendering at any resolution</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta">Join on Patreon</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'patreon', 'event_label': 'Creator $15' });">Join on Patreon</a>
   </div>
 
 </div>
@@ -91,7 +91,7 @@ Get early access to every monthly release before Steam and all other platforms.
       <li class="locked">Single actor on stage</li>
       <li class="locked">Advanced features locked</li>
     </ul>
-    <a href="https://github.com/alloystorm/dvvr/releases/tag/2025.12" class="edition-cta">Download Free</a>
+    <a href="https://github.com/alloystorm/dvvr/releases/tag/2025.12" class="edition-cta" onclick="gtag('event', 'download', { 'event_category': 'pc', 'event_label': 'Download Free' });">Download Free</a>
   </div>
 
   <div class="edition-card featured">
@@ -106,7 +106,7 @@ Get early access to every monthly release before Steam and all other platforms.
       <li>All advanced features</li>
       <li>Raytracing included</li>
     </ul>
-    <a href="https://store.steampowered.com/app/2193970/DanceXR_Pure/" class="edition-cta">Buy on Steam</a>
+    <a href="https://store.steampowered.com/app/2193970/DanceXR_Pure/" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'steam', 'event_label': 'Pure $24.99' });">Buy on Steam</a>
   </div>
 
   <div class="edition-card">
@@ -119,8 +119,8 @@ Get early access to every monthly release before Steam and all other platforms.
       <li>Adult content support</li>
       <li>Raytracing sold as DLC ($9.99)</li>
     </ul>
-    <a href="https://store.steampowered.com/app/1905510/DanceXR/" class="edition-cta">Buy on Steam</a>
-    <a href="https://stormlab.itch.io/dancexr" class="edition-cta edition-cta--ghost">Buy on Itch.io</a>
+    <a href="https://store.steampowered.com/app/1905510/DanceXR/" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'steam', 'event_label': 'Pro $24.99' });">Buy on Steam</a>
+    <a href="https://stormlab.itch.io/dancexr" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'purchase', { 'event_category': 'itchio', 'event_label': 'Pro PC Itch.io' });">Buy on Itch.io</a>
   </div>
 
 </div>
@@ -146,8 +146,8 @@ Get early access to every monthly release before Steam and all other platforms.
       <li>Optimised for Android devices</li>
       <li>Join the <a href="https://play.google.com/apps/testing/com.vrstormlab.dancexr">public beta</a> for early access</li>
     </ul>
-    <a href="https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr" class="edition-cta">Get on Google Play</a>
-    <a href="https://stormlab.itch.io/dancexr-android" class="edition-cta edition-cta--ghost">Buy on Itch.io</a>
+    <a href="https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'google_play', 'event_label': 'Android Google Play' });">Get on Google Play</a>
+    <a href="https://stormlab.itch.io/dancexr-android" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'purchase', { 'event_category': 'itchio', 'event_label': 'Android Itch.io' });">Buy on Itch.io</a>
   </div>
 
   <div class="edition-card">
@@ -160,7 +160,7 @@ Get early access to every monthly release before Steam and all other platforms.
       <li>Optimised for iPhone and iPad</li>
       <li>Same monthly update cycle as PC</li>
     </ul>
-    <a href="https://apps.apple.com/au/app/dancexr/id6475269158" class="edition-cta">Get on App Store</a>
+    <a href="https://apps.apple.com/au/app/dancexr/id6475269158" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'app_store', 'event_label': 'iOS App Store' });">Get on App Store</a>
   </div>
 
   <div class="edition-card">
@@ -173,7 +173,7 @@ Get early access to every monthly release before Steam and all other platforms.
       <li>Standalone — no PC required</li>
       <li>Same feature set as PC Pro</li>
     </ul>
-    <a href="https://stormlab.itch.io/dancexr-quest" class="edition-cta">Get on Itch.io</a>
+    <a href="https://stormlab.itch.io/dancexr-quest" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'itchio', 'event_label': 'Quest Itch.io' });">Get on Itch.io</a>
   </div>
 
 </div>

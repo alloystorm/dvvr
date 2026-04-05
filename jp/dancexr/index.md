@@ -390,7 +390,7 @@ AIパワードのボイスチャットにより、キャラクターがリアル
       <li>4K、VR 180 &amp; VR 360動画</li>
       <li>新機能を1ヶ月早くアクセス</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta">Patreonに参加</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'engagement\', \'event_label\': \'Join on Patreon\' });">Patreonに参加</a>
   </div>
 
 </div>

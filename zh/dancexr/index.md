@@ -390,7 +390,7 @@ AI 功能
       <li>4K、VR 180 &amp; VR 360 视频</li>
       <li>提前一个月获取新功能</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta">加入 Patreon</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'engagement\', \'event_label\': \'Join on Patreon\' });">加入 Patreon</a>
   </div>
 
 </div>

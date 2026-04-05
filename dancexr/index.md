@@ -390,7 +390,7 @@ Pricing
       <li>4K, VR 180 &amp; VR 360 video</li>
       <li>New features one month early</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta">Join on Patreon</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'engagement', 'event_label': 'Join on Patreon' });">Join on Patreon</a>
   </div>
 
 </div>

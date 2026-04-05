@@ -37,7 +37,7 @@ nav_links:
       <li>LW 版本 — 性能优化</li>
       <li>Pro 版本</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta">加入 Patreon</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'patreon', 'event_label': 'Patron $7' });">加入 Patreon</a>
   </div>
 
   <div class="edition-card featured">
@@ -50,7 +50,7 @@ nav_links:
       <li>RT 版本 — 光线追踪</li>
       <li>Pro 版本</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta">加入 Patreon</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'patreon', 'event_label': 'Pro $10' });">加入 Patreon</a>
   </div>
 
   <div class="edition-card">
@@ -64,7 +64,7 @@ nav_links:
       <li>4K、VR 180 &amp; VR 360 视频输出</li>
       <li>逐帧渲染，任意分辨率</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta">加入 Patreon</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'patreon', 'event_label': 'Creator $15' });">加入 Patreon</a>
   </div>
 
 </div>
@@ -91,7 +91,7 @@ nav_links:
       <li class="locked">仅单角色</li>
       <li class="locked">高级功能已锁定</li>
     </ul>
-    <a href="https://github.com/alloystorm/dvvr/releases/tag/2025.12" class="edition-cta">免费下载</a>
+    <a href="https://github.com/alloystorm/dvvr/releases/tag/2025.12" class="edition-cta" onclick="gtag(\'event\', \'download\', { \'event_category\': \'pc\', \'event_label\': \'Download Free\' });">免费下载</a>
   </div>
 
   <div class="edition-card featured">
@@ -106,7 +106,7 @@ nav_links:
       <li>全部高级功能</li>
       <li>包含光线追踪</li>
     </ul>
-    <a href="https://store.steampowered.com/app/2193970/DanceXR_Pure/" class="edition-cta">在 Steam 上购买</a>
+    <a href="https://store.steampowered.com/app/2193970/DanceXR_Pure/" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'steam\', \'event_label\': \'Pure $24.99\' });">在 Steam 上购买</a>
   </div>
 
   <div class="edition-card">
@@ -119,8 +119,8 @@ nav_links:
       <li>成人内容支持</li>
       <li>光线追踪作为 DLC（$9.99）</li>
     </ul>
-    <a href="https://store.steampowered.com/app/1905510/DanceXR/" class="edition-cta">在 Steam 上购买</a>
-    <a href="https://stormlab.itch.io/dancexr" class="edition-cta edition-cta--ghost">在 Itch.io 上购买</a>
+    <a href="https://store.steampowered.com/app/1905510/DanceXR/" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'steam\', \'event_label\': \'Pro $24.99\' });">在 Steam 上购买</a>
+    <a href="https://stormlab.itch.io/dancexr" class="edition-cta edition-cta--ghost" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'itchio\', \'event_label\': \'Pro PC Itch.io\' });">在 Itch.io 上购买</a>
   </div>
 
 </div>
@@ -146,8 +146,8 @@ nav_links:
       <li>针对 Android 设备优化</li>
       <li>加入<a href="https://play.google.com/apps/testing/com.vrstormlab.dancexr">公测</a>提前体验</li>
     </ul>
-    <a href="https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr" class="edition-cta">在 Google Play 获取</a>
-    <a href="https://stormlab.itch.io/dancexr-android" class="edition-cta edition-cta--ghost">在 Itch.io 购买</a>
+    <a href="https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'google_play\', \'event_label\': \'Android Google Play\' });">在 Google Play 获取</a>
+    <a href="https://stormlab.itch.io/dancexr-android" class="edition-cta edition-cta--ghost" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'itchio\', \'event_label\': \'Android Itch.io\' });">在 Itch.io 购买</a>
   </div>
 
   <div class="edition-card">
@@ -160,7 +160,7 @@ nav_links:
       <li>针对 iPhone 和 iPad 优化</li>
       <li>与 PC 相同的月度更新周期</li>
     </ul>
-    <a href="https://apps.apple.com/au/app/dancexr/id6475269158" class="edition-cta">在 App Store 获取</a>
+    <a href="https://apps.apple.com/au/app/dancexr/id6475269158" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'app_store\', \'event_label\': \'iOS App Store\' });">在 App Store 获取</a>
   </div>
 
   <div class="edition-card">
@@ -173,7 +173,7 @@ nav_links:
       <li>独立运行 — 无需 PC</li>
       <li>与 PC Pro 版功能相同</li>
     </ul>
-    <a href="https://stormlab.itch.io/dancexr-quest" class="edition-cta">在 Itch.io 获取</a>
+    <a href="https://stormlab.itch.io/dancexr-quest" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'itchio\', \'event_label\': \'Quest Itch.io\' });">在 Itch.io 获取</a>
   </div>
 
 </div>
