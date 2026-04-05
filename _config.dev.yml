@@ -1,0 +1,11 @@
+# Local development overrides — merged on top of _config.yml by preview.sh
+url: "http://localhost:4000"
+remote_theme: "alloystorm/minimal-mistakes"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
