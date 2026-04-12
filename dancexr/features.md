@@ -1,14 +1,28 @@
 ---
 locale: en-US
-layout: single
+layout: home
 title: Feature List
-toc: true
+toc: false
 permalink: /dancexr/features
-sidebar:
-  nav: "docs"
+hero_compact: true
+hero_title: The Ultimate Multi-Platform Character Viewer
+hero_image: /images/hero.png
+hero_ctas:
+  - label: DOWNLOAD NOW
+    url: /dancexr/download
+    style: neon
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 
-[Eng](/dancexr/features) | [繁中](/tw/dancexr/features) | [日本語](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [简中](/zh/dancexr/features)
+<section class="section" markdown="1">
 
 ## Model Support
 
@@ -63,7 +77,7 @@ sidebar:
 ### Simulation
 
 <div class="feature-grid">
-<a href="/dancexr/features/physics" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">Physics Overview</span></div></a>
+<a href="/dancexr/features/physics" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">Physics Overview</span></div></a>
 <a href="/dancexr/features/simulation" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">Simulation</span></div></a>
 <a href="/dancexr/features/cloth_simulation" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">Cloth Simulation</span><span class="feature-tile-badge feature-tile-badge--pro">2024.8 · PRO</span></div></a>
 <a href="/dancexr/features/cloth_simulation#mesh_to_cloth" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">Mesh To Cloth</span><span class="feature-tile-badge feature-tile-badge--pro">2024.9 · PRO</span></div></a>
@@ -235,3 +249,5 @@ sidebar:
 <a href="/dancexr/features/system_presets" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">System Presets</span><span class="feature-tile-badge feature-tile-badge--new">2024.1</span></div></a>
 <a href="/dancexr/features/application_settings" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">Application Settings</span></div></a>
 </div>
+
+</section>
