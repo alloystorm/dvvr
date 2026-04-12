@@ -1,6 +1,6 @@
 ---
 locale: en-US
-layout: home
+layout: studio-home
 title: Feature List
 toc: false
 permalink: /dancexr/features
