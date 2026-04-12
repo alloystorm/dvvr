@@ -7,163 +7,231 @@ permalink: /jp/dancexr/features
 sidebar:
   nav: "docs-jp"
 ---
+
 [Eng](/dancexr/features) | [繁中](/tw/dancexr/features) | [日本語](/jp/dancexr/features) | [한국어](/kr/dancexr/features) | [简中](/zh/dancexr/features)
 
-| 機能 |  |  |
-| :--- | --- |---: |
-| ***キャラクター、ステージ、プロップモデル*** 
-| *コンテンツ管理*
-| [Discovery アプリ](features/discovery) | [2025.6](releases/2025.6.md)
-| [モデルファイルの整理のベストプラクティス](preparecontent#3d-models)
-| [タグ付けと検索](features/tagging) 
-| [モデルキャッシュ & ローダーオプション](features/loader_options) | [2026.3](releases/2026.3)
-| [プレイリスト](features/actor_playlist)
-| [フォーメーション](features/formation)
-|
-| *キャラクターモデル設定*
-| [アクターメニュー、ツール、インタラクション](features/actor_tools)
-| [アクターにアタッチ](features/attach-to-actor.md) | [2025.2](releases/2025.2) | PRO
-| [着せ替えシステム (マテリアルモーフと XPS オプション)](features/optionals) || PRO
-| [代替テクスチャ](features/alternative_textures) | [2026.1](releases/2026.1)
-| [表情制御](features/facial_control)
-| [まばたき、呼吸、アイコンタクト](features/eyecontact)
-| [足の調整](features/feet_adjustments)
-| [トラブルシューティングオプション](features/troubleshooting_options)
-| [水とのインタラクション](features/water_interaction.md)
-| [アクタープリセット](features/actor_presets.md) | [2024.1](releases/2024.1.md)
-|
-| *マテリアル設定*
-| [グローバルマテリアル設定](features/material_global.md)
-| [トゥーンシェーディング](features/toon_shading.md)
-| マテリアルカテゴリ
-| - [肌マテリアル](features/material_skin.md) | [2026.2](releases/2026.2)
-| - [髪マテリアル](features/material_hair.md)
-| - [瞳マテリアル](features/material_eyes.md)
-| - [唇マテリアル](features/material_lips.md)
-| - [不透明マテリアル](features/material_opaque.md)
-| - [透明マテリアル](features/material_transparent.md)
-| - [カスタム 1 マテリアル](features/material_custom1.md)
-| - [カスタム 2 マテリアル](features/material_custom1.md)
-| [テクスチャ強化](features/texture_enhancement.md) || PRO
-| [汗エフェクト](features/sweat_effect.md) | [2026.2](releases/2026.2) | NSFW
-| [マテリアルリスト](features/material_settings.md#material-list) || PRO
-|
-| *プロ機能*
-| [衣装 & ボディペイント](features/outfit_body_paint) | [2024.3](releases/2024.3.md) | PRO
-| [モーションオーバーライド](features/motion_override) || PRO |
-| [アクセサリー](features/accessory.md) || PRO |
-| [ラグドール](features/ragdoll.md) || PRO |
-| [ライトボール](features/lightball.md) || PRO |
-| [胸揺れ](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
-| [セックスオーバーレイ](features/boob_shake_sex_overlay){: .nsfw} || NSFW |
-| [ディルド](features/dildo){: .nsfw} || NSFW |
-|
-| *[シミュレーション](features/simulation.md)*
-| [布シミュレーション](features/cloth_simulation.md) | [2024.8](releases/2024.8.md) | PRO
-| [メッシュから布へのシミュレーション](features/cloth_simulation.md#mesh_to_cloth) | [2024.9](releases/2024.9.md) | PRO
-| [パーティクルダイナミクス](features/particle_dynamics.md) | [2024.9](releases/2024.9.md) | PRO
-| [ソフトボディシミュレーション](features/particle_dynamics.md#softbody) | [2024.11](releases/2024.9.md) | PRO
-|
-| *モデル形式固有的*
-| [XPS ボーンマッパー](features/bone_mapper.md)
-| [XPS 物理](features/xps_physics) || PRO |
-| - [ボディーコライダー](features/xps_body_colliders.md)
-| - [胸の物理](features/xps_boobs.md) || PRO
-| - [髪の物理](features/xps_hair.md)
-| - [服の物理](features/xps_cloth.md)
-| - [スカートの物理](features/xps_skirt.md)
-| - [ソフトボディの物理](features/xps_softbody.md) || PRO
-| - [オブジェクトの切り離し](features/xps_detach.md)
-| [カスタム継承モーション](features/custom_inherit.md)
-| [PMX 物理](features/pmx_physics)
-| PMX ブレンドシェイプモーフ || PRO
-|
-| ***モーション & メディアコンテンツ*** |
-| [モーションファイルの整理のベストプラクティス](preparecontent#motion-files)
-| *オーディオ & ビデオ*
-| [ビデオ再生](features/video_playback) | [2024.4](releases/2024.4.md) | PRO
-| [オーディオ再生オプション](features/audio_options)
-| [ミュージックタイミング](features/music_timing) | [2026.2](releases/2026.2)
-|
-| *モーション管理*
-| [再生オプション](features/playback_options)
-| [モーションの割り当て](features/assign_motion)
-| [セカンダリモーション](features/secondary_motion)
-| [リミックス](features/remix)
-| [アクターモーション設定](features/actor_motion_settings)
-| [キーフレームアニメーション](features/keyframe_animation.md) | [2025.3](releases/2025.3.md) | PRO
-|
-| *VMD & BVH モーション*
-| [ダンスセット](features/dance_set) | [2026.3](releases/2026.3)
-| [モーション設定](features/motion_settings) | [2026.2](releases/2026.2)
-|
-| *プロシージャルモーション*
-| [待機モーション](features/idle_motion.md)
-| [キャットウォーク](features/catwalk.md)
-| [オートダンス](features/autodance) || PRO |
-| [オートダンス 2](features/autodance2) || PRO |
-| [オートダンス 3](features/autodance3.md) || PRO |
-| [カウガールセックス](features/scg_motion){: .nsfw} || NSFW |
-| [バックからのセックス](features/sfb_motion){: .nsfw} || NSFW |
-| [セックスモーション 3](features/sm3_motion){: .nsfw} || NSFW |
-|
-| *カメラモーション*
-| [フリーフライカメラ](features/camera)
-| [オービットカメラ](features/camera)
-| [オートカメラ](features/camera)
-| [ワンショットカメラ](features/camera)
-| [一人称カメラ](features/camera)
-| [固定カメラ (コンサートモード)](features/camera)
-| [カメラモーション & 設定](features/camera)
-|
-| ***環境*** |
-| [空と雲](features/skymap)
-| [ライティング](features/lighting)
-| [パーティクルシステム](features/particles) | Android 以外すべて[^4] | PRO
-| [AR モード](features/ar_mode) | モバイル[^2] & Quest[^3] | PRO | 
-| [ステージ](features/stages)
-| [プロップ](features/props)
-| [ビーツリング](features/beats_ring.md)
-| [ステージレーザー](features/laser.md) | [2024.3](releases/2024.3.md) | PRO
-| [シーンの保存 & 読み込み](features/save_scene.md)
-| [シーンバンドル](features/scene_bundle.md) | [2024.1](releases/2024.1.md) | PRO |
-|
-| ***シーン & ステージ***
-| *ステージ*
-| [地面 & ステージ](features/ground)
-| [水システム](features/water_system.md) | PC[^1]
-| [プロシージャルルームステージ](features/room_stage)
-| [ステージモデル & 設定](features/stages)
-|
-| *プロップ*
-| [プリミティブ形状](features/primitive_shapes)
-| [スクリーン](features/screen.md)
-| [ミラー](features/mirror.md)
-| [プロップモデル & 設定](features/props.md)
-|
-| ***システム*** |
-| [コンテンツライブラリ](preparecontent)
-| [Google ドライブ統合](features/googledrive)
-| [Android および Quest 用コンテンツライブラリ](content_android_quest)
-| [ディスプレイ & UI](features/display_settings)
-| [グラフィック設定](features/graphics) | [2026.2](releases/2026.2)
-| [レイトレーシング効果](features/raytracing.md) | PC[^1]
-| [多言語サポート](features/languages.md)
-| [入力設定](features/controls)
-| [物理設定](features/system_physics) | [2026.1](releases/2026.1)
-| [自動アップデート](features/autoupdate) || PRO
-| [システムプリセット](features/system_presets.md) | [2024.1](releases/2024.1.md)
-|
-| [**オフラインレンダー & 録画**](creator.md) | PC[^1] | CREATOR | 
-|
-| [**AI ボイスチャット**](ai_chat) || PRO |
-|  |  |  |
+## モデルサポート
 
+### コンテンツ管理
 
-[^1]: Windows PCのHDまたはRTバージョンでのみ利用可能
+<div class="feature-grid">
+<a href="/jp/dancexr/features/discovery" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">Discovery アプリ</span><span class="feature-tile-badge feature-tile-badge--new">2025.6</span></div></a>
+<a href="/jp/dancexr/preparecontent#3d-models" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">モデルファイルの整理</span></div></a>
+<a href="/jp/dancexr/features/tagging" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">タグ付けと検索</span></div></a>
+<a href="/jp/dancexr/features/loader_options" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">モデルキャッシュ &amp; ローダーオプション</span><span class="feature-tile-badge feature-tile-badge--new">2026.3</span></div></a>
+<a href="/jp/dancexr/features/actor_playlist" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">プレイリスト</span></div></a>
+<a href="/jp/dancexr/features/formation" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">フォーメーション</span></div></a>
+<a href="/jp/dancexr/features/zip_format" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ZIP フォーマット</span></div></a>
+</div>
 
-[^2]: サポートされているiPhone、iPad、Androidデバイスで利用可能（すべてのデバイスがARをサポートしているわけではありません）
+### モデル形式
 
-[^3]: Quest 2、3、または Pro で利用可能
+<div class="feature-grid">
+<a href="/jp/dancexr/features/bone_mapper" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">XPS ボーンマッパー</span></div></a>
+<a href="/jp/dancexr/features/pmx_physics" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">PMX 物理</span></div></a>
+<div class="feature-tile feature-tile--disabled"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">PMX ブレンドシェイプモーフ</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></div>
+<a href="/jp/dancexr/features/custom_inherit" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">カスタム継承モーション</span></div></a>
+<a href="/jp/dancexr/features/bones" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ボーン構造リファレンス</span></div></a>
+</div>
 
-[^4]: ARモードとの競合のため、Androidでは一時的に無効になっています
+### キャラクターツール
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/actor_tools" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">アクターメニュー、ツール &amp; インタラクション</span></div></a>
+<a href="/jp/dancexr/features/attach_to_actor" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">アクターにアタッチ</span><span class="feature-tile-badge feature-tile-badge--pro">2025.2 · PRO</span></div></a>
+<a href="/jp/dancexr/features/feet_adjustments" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">足の調整</span></div></a>
+<a href="/jp/dancexr/features/scale_n_offset" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">スケール &amp; オフセット</span></div></a>
+<a href="/jp/dancexr/features/troubleshooting_options" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">トラブルシューティングオプション</span></div></a>
+<a href="/jp/dancexr/features/actor_presets" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">アクタープリセット</span><span class="feature-tile-badge feature-tile-badge--new">2024.1</span></div></a>
+</div>
+
+## リアルなキャラクター
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/eyecontact" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">まばたき、呼吸 &amp; アイコンタクト</span></div></a>
+<a href="/jp/dancexr/features/idle_motion" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">待機モーション</span></div></a>
+<a href="/jp/dancexr/features/catwalk" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">キャットウォーク</span></div></a>
+<a href="/jp/dancexr/features/autodance" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">オートダンス</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/autodance2" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">オートダンス 2</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/autodance3" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">オートダンス 3</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/secondary_motion" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">セカンダリモーション</span></div></a>
+<a href="/jp/dancexr/features/actor_motion_settings" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">アクターモーション設定</span></div></a>
+</div>
+
+## 物理シミュレーション
+
+### シミュレーション
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/physics" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">物理概要</span></div></a>
+<a href="/jp/dancexr/features/simulation" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">シミュレーション</span></div></a>
+<a href="/jp/dancexr/features/cloth_simulation" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">布シミュレーション</span><span class="feature-tile-badge feature-tile-badge--pro">2024.8 · PRO</span></div></a>
+<a href="/jp/dancexr/features/cloth_simulation#mesh_to_cloth" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">メッシュから布へ</span><span class="feature-tile-badge feature-tile-badge--pro">2024.9 · PRO</span></div></a>
+<a href="/jp/dancexr/features/particle_dynamics" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">パーティクルダイナミクス</span><span class="feature-tile-badge feature-tile-badge--pro">2024.9 · PRO</span></div></a>
+<a href="/jp/dancexr/features/particle_dynamics#softbody" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ソフトボディシミュレーション</span><span class="feature-tile-badge feature-tile-badge--pro">2024.11 · PRO</span></div></a>
+<a href="/jp/dancexr/features/physics_softbody" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ソフトボディ物理</span></div></a>
+</div>
+
+### XPS 物理
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/xps_physics" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">XPS 物理</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/xps_body_colliders" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ボディーコライダー</span></div></a>
+<a href="/jp/dancexr/features/xps_hair" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">髪の物理</span></div></a>
+<a href="/jp/dancexr/features/xps_cloth" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">服の物理</span></div></a>
+<a href="/jp/dancexr/features/xps_skirt" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">スカートの物理</span></div></a>
+<a href="/jp/dancexr/features/xps_boobs" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">胸の物理</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/xps_softbody" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ソフトボディの物理</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/xps_detach" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">オブジェクトの切り離し</span></div></a>
+</div>
+
+## 外観
+
+### 着せ替え
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/optionals" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">着せ替えシステム</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/alternative_textures" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">代替テクスチャ</span><span class="feature-tile-badge feature-tile-badge--new">2026.1</span></div></a>
+<a href="/jp/dancexr/features/outfit_body_paint" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">衣装 &amp; ボディペイント</span><span class="feature-tile-badge feature-tile-badge--pro">2024.3 · PRO</span></div></a>
+<a href="/jp/dancexr/features/accessory" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">アクセサリー</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/facial_control" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">表情制御</span></div></a>
+<a href="/jp/dancexr/features/water_interaction" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">水とのインタラクション</span></div></a>
+</div>
+
+### マテリアル
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/material_global" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">グローバルマテリアル設定</span></div></a>
+<a href="/jp/dancexr/features/toon_shading" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">トゥーンシェーディング</span></div></a>
+<a href="/jp/dancexr/features/material_skin" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">肌マテリアル</span><span class="feature-tile-badge feature-tile-badge--new">2026.2</span></div></a>
+<a href="/jp/dancexr/features/material_hair" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">髪マテリアル</span></div></a>
+<a href="/jp/dancexr/features/material_eyes" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">瞳マテリアル</span></div></a>
+<a href="/jp/dancexr/features/material_lips" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">唇マテリアル</span></div></a>
+<a href="/jp/dancexr/features/material_opaque" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">不透明マテリアル</span></div></a>
+<a href="/jp/dancexr/features/material_transparent" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">透明マテリアル</span></div></a>
+<a href="/jp/dancexr/features/material_custom1" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">カスタム 1 &amp; 2 マテリアル</span></div></a>
+<a href="/jp/dancexr/features/material_settings" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">マテリアル設定</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/texture_enhancement" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">テクスチャ強化</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/sweat_effect" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">汗エフェクト</span><span class="feature-tile-badge feature-tile-badge--nsfw">2026.2 · NSFW</span></div></a>
+<a href="/jp/dancexr/features/custom_detail_map" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">カスタムディテールマップ</span></div></a>
+<a href="/jp/dancexr/features/generate_normal_map" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ノーマルマップ生成</span></div></a>
+<a href="/jp/dancexr/features/hexagon_detail" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">六角形パターンディテール</span></div></a>
+<a href="/jp/dancexr/features/specular_map" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">スペキュラー / マスクマップ</span></div></a>
+<a href="/jp/dancexr/features/transparency" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">透明度設定</span></div></a>
+</div>
+
+### アダルト
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/boob_shake_sex_overlay" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">胸揺れ</span><span class="feature-tile-badge feature-tile-badge--nsfw">NSFW</span></div></a>
+<a href="/jp/dancexr/features/boob_shake_sex_overlay" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">セックスオーバーレイ</span><span class="feature-tile-badge feature-tile-badge--nsfw">NSFW</span></div></a>
+<a href="/jp/dancexr/features/dildo" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ディルド</span><span class="feature-tile-badge feature-tile-badge--nsfw">NSFW</span></div></a>
+<a href="/jp/dancexr/features/scg_motion" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">カウガールセックス</span><span class="feature-tile-badge feature-tile-badge--nsfw">NSFW</span></div></a>
+<a href="/jp/dancexr/features/sfb_motion" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">バックからのセックス</span><span class="feature-tile-badge feature-tile-badge--nsfw">NSFW</span></div></a>
+<a href="/jp/dancexr/features/sm3_motion" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">セックスモーション 3</span><span class="feature-tile-badge feature-tile-badge--nsfw">NSFW</span></div></a>
+<a href="/jp/dancexr/features/ragdoll" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ラグドール</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/lightball" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ライトボール</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+</div>
+
+## 雰囲気 & 環境
+
+### 空 & ライティング
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/skymap" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">空と雲</span></div></a>
+<a href="/jp/dancexr/features/sky" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">スカイ設定</span></div></a>
+<a href="/jp/dancexr/features/lighting" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ライティング</span></div></a>
+<a href="/jp/dancexr/features/raytracing" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">レイトレーシング効果</span><span class="feature-tile-badge">PC</span></div></a>
+</div>
+
+### 環境
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/particles" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">パーティクルシステム</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/water_system" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">水システム</span><span class="feature-tile-badge">PC</span></div></a>
+<a href="/jp/dancexr/features/ar_mode" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">AR モード</span><span class="feature-tile-badge feature-tile-badge--pro">Mobile &amp; Quest · PRO</span></div></a>
+</div>
+
+### ステージ & プロップ
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/ground" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">地面 &amp; ステージ</span></div></a>
+<a href="/jp/dancexr/features/room_stage" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">プロシージャルルームステージ</span></div></a>
+<a href="/jp/dancexr/features/stages" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ステージモデル &amp; 設定</span></div></a>
+<a href="/jp/dancexr/features/props" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">プロップモデル &amp; 設定</span></div></a>
+<a href="/jp/dancexr/features/primitive_shapes" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">プリミティブ形状</span></div></a>
+<a href="/jp/dancexr/features/screen" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">スクリーン</span></div></a>
+<a href="/jp/dancexr/features/mirror" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ミラー</span></div></a>
+<a href="/jp/dancexr/features/laser" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ステージレーザー</span><span class="feature-tile-badge feature-tile-badge--pro">2024.3 · PRO</span></div></a>
+<a href="/jp/dancexr/features/beats_ring" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ビーツリング</span></div></a>
+</div>
+
+### シーン
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/save_scene" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">シーンの保存 &amp; 読み込み</span></div></a>
+<a href="/jp/dancexr/features/scene_bundle" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">シーンバンドル</span><span class="feature-tile-badge feature-tile-badge--pro">2024.1 · PRO</span></div></a>
+</div>
+
+## シネマカメラ
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/camera" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">カメラ概要</span></div></a>
+<a href="/jp/dancexr/features/freefly_cam" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">フリーフライカメラ</span></div></a>
+<a href="/jp/dancexr/features/auto_cam" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">オートカメラ</span></div></a>
+<a href="/jp/dancexr/features/camera" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">オービットカメラ</span></div></a>
+<a href="/jp/dancexr/features/camera" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ワンショットカメラ</span></div></a>
+<a href="/jp/dancexr/features/camera" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">一人称カメラ</span></div></a>
+<a href="/jp/dancexr/features/camera" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">固定カメラ（コンサートモード）</span></div></a>
+</div>
+
+## モーション & メディア
+
+### オーディオ & ビデオ
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/audio_options" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">オーディオ再生オプション</span></div></a>
+<a href="/jp/dancexr/features/video_playback" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ビデオ再生</span><span class="feature-tile-badge feature-tile-badge--pro">2024.4 · PRO</span></div></a>
+<a href="/jp/dancexr/features/music_timing" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ミュージックタイミング</span><span class="feature-tile-badge feature-tile-badge--new">2026.2</span></div></a>
+</div>
+
+### モーション
+
+<div class="feature-grid">
+<a href="/jp/dancexr/features/dance_set" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ダンスセット</span><span class="feature-tile-badge feature-tile-badge--new">2026.3</span></div></a>
+<a href="/jp/dancexr/features/motion_settings" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">モーション設定</span><span class="feature-tile-badge feature-tile-badge--new">2026.2</span></div></a>
+<a href="/jp/dancexr/features/playback_options" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">再生オプション</span></div></a>
+<a href="/jp/dancexr/features/assign_motion" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">モーションの割り当て</span></div></a>
+<a href="/jp/dancexr/features/remix" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">リミックス</span></div></a>
+<a href="/jp/dancexr/features/motion_override" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">モーションオーバーライド</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/keyframe_animation" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">キーフレームアニメーション</span><span class="feature-tile-badge feature-tile-badge--pro">2025.3 · PRO</span></div></a>
+<a href="/jp/dancexr/preparecontent#motion-files" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">モーションファイルの整理</span></div></a>
+</div>
+
+## AI 機能
+
+<div class="feature-grid">
+<a href="/jp/dancexr/ai_chat" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">AI ボイスチャット</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+</div>
+
+## クリエーター
+
+<div class="feature-grid">
+<a href="/jp/dancexr/creator" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">オフラインレンダー &amp; 録画</span><span class="feature-tile-badge">PC · CREATOR</span></div></a>
+</div>
+
+## システム & プラットフォーム
+
+<div class="feature-grid">
+<a href="/jp/dancexr/preparecontent" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">コンテンツライブラリ</span></div></a>
+<a href="/jp/dancexr/features/googledrive" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">Google ドライブ統合</span></div></a>
+<a href="/jp/dancexr/content_android_quest" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">Android および Quest 用コンテンツライブラリ</span></div></a>
+<a href="/jp/dancexr/features/display_settings" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">ディスプレイ &amp; UI</span></div></a>
+<a href="/jp/dancexr/features/graphics" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">グラフィック設定</span><span class="feature-tile-badge feature-tile-badge--new">2026.2</span></div></a>
+<a href="/jp/dancexr/features/languages" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">多言語サポート</span></div></a>
+<a href="/jp/dancexr/features/controls" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">入力設定</span></div></a>
+<a href="/jp/dancexr/features/system_physics" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">物理設定</span><span class="feature-tile-badge feature-tile-badge--new">2026.1</span></div></a>
+<a href="/jp/dancexr/features/autoupdate" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">自動アップデート</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
+<a href="/jp/dancexr/features/system_presets" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">システムプリセット</span><span class="feature-tile-badge feature-tile-badge--new">2024.1</span></div></a>
+<a href="/jp/dancexr/features/application_settings" class="feature-tile"><div class="feature-tile-img"></div><div class="feature-tile-body"><span class="feature-tile-name">アプリケーション設定</span></div></a>
+</div>
