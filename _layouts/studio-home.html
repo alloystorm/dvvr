@@ -47,7 +47,30 @@
 
 <!-- ── Page content ────────────────────────────────────────── -->
 <main id="content">
+{% if page.feature_sections %}
+{% for section in page.feature_sections %}
+<section class="section{% if section.light %} section-light{% endif %}">
+<div class="features-container">
+<h2>{{ section.title | escape }}</h2>
+{% if section.subsections %}
+{% for sub in section.subsections %}
+{% if sub.title %}<h3>{{ sub.title | escape }}</h3>{% endif %}
+<div class="feature-grid">
+{% for tile in sub.tiles %}{% include feature-tile.html tile=tile %}{% endfor %}
+</div>
+{% endfor %}
+{% endif %}
+{% if section.tiles %}
+<div class="feature-grid">
+{% for tile in section.tiles %}{% include feature-tile.html tile=tile %}{% endfor %}
+</div>
+{% endif %}
+</div>
+</section>
+{% endfor %}
+{% else %}
   {{ content }}
+{% endif %}
 </main>
 
 <!-- ── Footer ──────────────────────────────────────────────── -->
