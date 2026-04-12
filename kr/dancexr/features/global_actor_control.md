@@ -1,0 +1,17 @@
+---
+locale: ko-KR
+layout: single
+title: 전역 액터 컨트롤
+toc: true
+sidebar:
+  nav: "docs-kr"
+---
+[Eng](/dancexr/features/global_actor_control) | [繁中](/tw/dancexr/features/global_actor_control) | [日本語](/jp/dancexr/features/global_actor_control) | [한국어](/kr/dancexr/features/global_actor_control) | [简中](/zh/dancexr/features/global_actor_control)
+
+## 개요
+전역 액터 컨트롤은 로드된 모든 액터에 균일하게 적용되는 씬 전체 스케일 설정을 제공합니다.
+
+## 설정
+
+* **액터 스케일** (0.15–5.0): 씬의 모든 액터 크기를 전역적으로 조절합니다. 기본값은 1입니다. 개별적으로 조정하지 않고 모든 액터를 균일하게 크게 또는 작게 만드는 데 사용합니다.
+* **모션 스케일** (0.5–1.5): 모든 액터의 모션 위치 오프셋을 전역적으로 조절합니다. 이 값을 조정하면 크기는 유지하면서 재생 중 액터의 이동 거리를 변경할 수 있습니다.
