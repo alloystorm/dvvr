@@ -1651,6 +1651,35 @@ body:not(.home-page) .page__footer a:hover {
   }
 }
 
+/* ── Features page section layout ────────────────────────── */
+.features-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.features-container h2 {
+  font-size: clamp(22px, 2.8vw, 32px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin: 0 0 28px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.features-container h3 {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 36px 0 14px;
+}
+
+.features-container h2 + h3 {
+  margin-top: 0;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .release-layout {
