@@ -20,276 +20,515 @@ nav_links:
     url: /jp/dancexr/releases
   - label: Download
     url: /dancexr/download
+feature_sections:
+  - title: モデルサポート
+    subsections:
+      - title: コンテンツ管理
+        tiles:
+          - title: Discovery アプリ
+            link: /jp/dancexr/features/discovery
+            image: "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
+            badge: 2025.6
+            badge_type: new
+          - title: モデルファイルの整理
+            link: /jp/dancexr/preparecontent#3d-models
+            image: "/images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp"
+          - title: タグ付けと検索
+            link: /jp/dancexr/features/tagging
+            image: "/images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp"
+          - title: "モデルキャッシュ & ローダーオプション"
+            link: /jp/dancexr/features/loader_options
+            image: "/images/slideshows/load_play/Stellar%20Blade%20Raven%20Sea%20Breeze%20Dance%20%5Bo6mocERvFNk%5D.webp"
+            badge: 2026.3
+            badge_type: new
+          - title: プレイリスト
+            link: /jp/dancexr/features/actor_playlist
+            image: "/images/slideshows/load_play/%5BDanceXR%5D%20Kimagure%20Mercy%20-%20Honoka%20%5Bg1-OfMxxZ5s%5D.webp"
+          - title: フォーメーション
+            link: /jp/dancexr/features/formation
+            image: "/images/slideshows/load_play/%5BDanceXR%5D%20New%20mirror%20feature%20%5B0FwY2viXcM0%5D.webp"
+          - title: ZIP フォーマット
+            link: /jp/dancexr/features/zip_format
+            image: /images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg
+      - title: モデル形式
+        tiles:
+          - title: XPS ボーンマッパー
+            link: /jp/dancexr/features/bone_mapper
+            image: "/images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp"
+          - title: PMX 物理
+            link: /jp/dancexr/features/pmx_physics
+            image: "/images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp"
+          - title: PMX ブレンドシェイプモーフ
+            image: "/images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp"
+            badge: PRO
+            badge_type: pro
+          - title: カスタム継承モーション
+            link: /jp/dancexr/features/custom_inherit
+            image: "/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp"
+          - title: ボーン構造リファレンス
+            link: /jp/dancexr/features/bones
+            image: "/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp"
+      - title: キャラクターツール
+        tiles:
+          - title: "アクターメニュー、ツール & インタラクション"
+            link: /jp/dancexr/features/actor_tools
+            image: "/images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp"
+          - title: アクターにアタッチ
+            link: /jp/dancexr/features/attach_to_actor
+            image: "/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp"
+            badge: 2025.2 · PRO
+            badge_type: pro
+          - title: 足の調整
+            link: /jp/dancexr/features/feet_adjustments
+            image: "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+          - title: "スケール & オフセット"
+            link: /jp/dancexr/features/scale_n_offset
+            image: "/images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp"
+          - title: トラブルシューティングオプション
+            link: /jp/dancexr/features/troubleshooting_options
+            image: "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
+          - title: アクタープリセット
+            link: /jp/dancexr/features/actor_presets
+            image: "/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp"
+            badge: 2024.1
+            badge_type: new
+  - title: リアルなキャラクター
+    light: true
+    tiles:
+      - title: "まばたき、呼吸 & アイコンタクト"
+        link: /jp/dancexr/features/eyecontact
+        image: "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+      - title: 待機モーション
+        link: /jp/dancexr/features/idle_motion
+        image: "/images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp"
+      - title: キャットウォーク
+        link: /jp/dancexr/features/catwalk
+        image: "/images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp"
+      - title: オートダンス
+        link: /jp/dancexr/features/autodance
+        image: "/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp"
+        badge: PRO
+        badge_type: pro
+      - title: オートダンス 2
+        link: /jp/dancexr/features/autodance2
+        image: "/images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp"
+        badge: PRO
+        badge_type: pro
+      - title: オートダンス 3
+        link: /jp/dancexr/features/autodance3
+        image: "/images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp"
+        badge: PRO
+        badge_type: pro
+      - title: セカンダリモーション
+        link: /jp/dancexr/features/secondary_motion
+        image: "/images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp"
+      - title: アクターモーション設定
+        link: /jp/dancexr/features/actor_motion_settings
+        image: "/images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp"
+  - title: 物理シミュレーション
+    subsections:
+      - title: シミュレーション
+        tiles:
+          - title: 物理概要
+            link: /jp/dancexr/features/physics
+            image: "/images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp"
+          - title: シミュレーション
+            link: /jp/dancexr/features/simulation
+            image: "/images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp"
+          - title: 布シミュレーション
+            link: /jp/dancexr/features/cloth_simulation
+            image: "/images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp"
+            badge: 2024.8 · PRO
+            badge_type: pro
+          - title: メッシュから布へ
+            link: /jp/dancexr/features/cloth_simulation#mesh_to_cloth
+            image: "/images/slideshows/physics/Convert%20Model%20Mesh%20To%20Cloth%20Simulation%20-%20DanceXR%202024.9%20%5BFdMSBaPMUHI%5D.webp"
+            badge: 2024.9 · PRO
+            badge_type: pro
+          - title: パーティクルダイナミクス
+            link: /jp/dancexr/features/particle_dynamics
+            image: "/images/slideshows/simulation/Wearing%20a%20spiderweb%20%5BooZ3Kq8D6ZQ%5D.webp"
+            badge: 2024.9 · PRO
+            badge_type: pro
+          - title: ソフトボディシミュレーション
+            link: /jp/dancexr/features/particle_dynamics#softbody
+            image: "/images/slideshows/simulation/Nyotengo%20Looks%20Absolutely%20Stunning%20No%20Matter%20What%20She%20Wears%20%5BRxj702Ktp8s%5D.webp"
+            badge: 2024.11 · PRO
+            badge_type: pro
+          - title: ソフトボディ物理
+            link: /jp/dancexr/features/physics_softbody
+            image: "/images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp"
+      - title: XPS 物理
+        tiles:
+          - title: XPS 物理
+            link: /jp/dancexr/features/xps_physics
+            image: "/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp"
+            badge: PRO
+            badge_type: pro
+          - title: ボディーコライダー
+            link: /jp/dancexr/features/xps_body_colliders
+            image: "/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp"
+          - title: 髪の物理
+            link: /jp/dancexr/features/xps_hair
+            image: "/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp"
+          - title: 服の物理
+            link: /jp/dancexr/features/xps_cloth
+            image: "/images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp"
+          - title: スカートの物理
+            link: /jp/dancexr/features/xps_skirt
+            image: "/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp"
+          - title: 胸の物理
+            link: /jp/dancexr/features/xps_boobs
+            image: "/images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp"
+            badge: PRO
+            badge_type: pro
+          - title: ソフトボディの物理
+            link: /jp/dancexr/features/xps_softbody
+            image: "/images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp"
+            badge: PRO
+            badge_type: pro
+          - title: オブジェクトの切り離し
+            link: /jp/dancexr/features/xps_detach
+            image: "/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp"
+  - title: 外観
+    light: true
+    subsections:
+      - title: 着せ替え
+        tiles:
+          - title: 着せ替えシステム
+            link: /jp/dancexr/features/optionals
+            image: "/images/slideshows/dressing/HIBIKASE%20-%20DOAXVV%20Mikasa%20Dissolving%20Outfit%20%5BZZwW0PoJ1vE%5D.webp"
+            badge: PRO
+            badge_type: pro
+          - title: 代替テクスチャ
+            link: /jp/dancexr/features/alternative_textures
+            image: "/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp"
+            badge: 2026.1
+            badge_type: new
+          - title: "衣装 & ボディペイント"
+            link: /jp/dancexr/features/outfit_body_paint
+            image: "/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp"
+            badge: 2024.3 · PRO
+            badge_type: pro
+          - title: アクセサリー
+            link: /jp/dancexr/features/accessory
+            image: "/images/slideshows/dressing/Marie%20Rose%20Morphing%20Ballet%20Outfit%20-%20Satisfaction%20%5BRgNi-DdEfL0%5D.webp"
+            badge: PRO
+            badge_type: pro
+          - title: 表情制御
+            link: /jp/dancexr/features/facial_control
+            image: "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+          - title: 水とのインタラクション
+            link: /jp/dancexr/features/water_interaction
+            image: "/images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp"
+      - title: マテリアル
+        tiles:
+          - title: グローバルマテリアル設定
+            link: /jp/dancexr/features/material_global
+            image: "/images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp"
+          - title: トゥーンシェーディング
+            link: /jp/dancexr/features/toon_shading
+            image: "/images/slideshows/dressing/%5BDanceXR%202024.3%5D%20Improved%20Stocking%20Effect%20%5BewUUxxGbAm8%5D.webp"
+          - title: 肌マテリアル
+            link: /jp/dancexr/features/material_skin
+            image: "/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp"
+            badge: 2026.2
+            badge_type: new
+          - title: 髪マテリアル
+            link: /jp/dancexr/features/material_hair
+            image: "/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp"
+          - title: 瞳マテリアル
+            link: /jp/dancexr/features/material_eyes
+            image: "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+          - title: 唇マテリアル
+            link: /jp/dancexr/features/material_lips
+            image: "/images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp"
+          - title: 不透明マテリアル
+            link: /jp/dancexr/features/material_opaque
+            image: "/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp"
+          - title: 透明マテリアル
+            link: /jp/dancexr/features/material_transparent
+            image: "/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp"
+          - title: "カスタム 1 & 2 マテリアル"
+            link: /jp/dancexr/features/material_custom1
+            image: "/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp"
+          - title: マテリアル設定
+            link: /jp/dancexr/features/material_settings
+            image: "/images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp"
+            badge: PRO
+            badge_type: pro
+          - title: テクスチャ強化
+            link: /jp/dancexr/features/texture_enhancement
+            image: "/images/slideshows/dressing/%5BDanceXR%202024.3%5D%20Improved%20Stocking%20Effect%20%5BewUUxxGbAm8%5D.webp"
+            badge: PRO
+            badge_type: pro
+          - title: 汗エフェクト
+            link: /jp/dancexr/features/sweat_effect
+            image: "/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp"
+            badge: 2026.2 · NSFW
+            badge_type: nsfw
+          - title: カスタムディテールマップ
+            link: /jp/dancexr/features/custom_detail_map
+            image: "/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp"
+          - title: ノーマルマップ生成
+            link: /jp/dancexr/features/generate_normal_map
+            image: "/images/slideshows/dressing/HIBIKASE%20-%20DOAXVV%20Mikasa%20Dissolving%20Outfit%20%5BZZwW0PoJ1vE%5D.webp"
+          - title: 六角形パターンディテール
+            link: /jp/dancexr/features/hexagon_detail
+            image: "/images/slideshows/dressing/Marie%20Rose%20Morphing%20Ballet%20Outfit%20-%20Satisfaction%20%5BRgNi-DdEfL0%5D.webp"
+          - title: スペキュラー / マスクマップ
+            link: /jp/dancexr/features/specular_map
+            image: "/images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp"
+          - title: 透明度設定
+            link: /jp/dancexr/features/transparency
+            image: "/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp"
+      - title: アダルト
+        tiles:
+          - title: 胸揺れ
+            link: /jp/dancexr/features/boob_shake_sex_overlay
+            image: "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+            badge: NSFW
+            badge_type: nsfw
+          - title: セックスオーバーレイ
+            link: /jp/dancexr/features/boob_shake_sex_overlay
+            image: "/images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp"
+            badge: NSFW
+            badge_type: nsfw
+          - title: ディルド
+            link: /jp/dancexr/features/dildo
+            image: "/images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp"
+            badge: NSFW
+            badge_type: nsfw
+          - title: カウガールセックス
+            link: /jp/dancexr/features/scg_motion
+            image: "/images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp"
+            badge: NSFW
+            badge_type: nsfw
+          - title: バックからのセックス
+            link: /jp/dancexr/features/sfb_motion
+            image: "/images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp"
+            badge: NSFW
+            badge_type: nsfw
+          - title: セックスモーション 3
+            link: /jp/dancexr/features/sm3_motion
+            image: "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+            badge: NSFW
+            badge_type: nsfw
+          - title: ラグドール
+            link: /jp/dancexr/features/ragdoll
+            image: "/images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp"
+            badge: PRO
+            badge_type: pro
+          - title: ライトボール
+            link: /jp/dancexr/features/lightball
+            image: "/images/slideshows/atmosphere/Higher%20%5BTDGnCk1wU98%5D.webp"
+            badge: PRO
+            badge_type: pro
+  - title: "雰囲気 & 環境"
+    subsections:
+      - title: "空 & ライティング"
+        tiles:
+          - title: 空と雲
+            link: /jp/dancexr/features/skymap
+            image: "/images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp"
+          - title: スカイ設定
+            link: /jp/dancexr/features/sky
+            image: "/images/slideshows/atmosphere/Momiji%20is%20the%20conqueror%20of%20your%20dream%20%5BRahFWFBxxpc%5D.webp"
+          - title: ライティング
+            link: /jp/dancexr/features/lighting
+            image: "/images/slideshows/atmosphere/Global%20Illumination%20Test%20%5BYt9RJqellnw%5D.webp"
+          - title: レイトレーシング効果
+            link: /jp/dancexr/features/raytracing
+            image: "/images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp"
+            badge: PC
+      - title: 環境
+        tiles:
+          - title: パーティクルシステム
+            link: /jp/dancexr/features/particles
+            image: "/images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp"
+            badge: PRO
+            badge_type: pro
+          - title: 水システム
+            link: /jp/dancexr/features/water_system
+            image: "/images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp"
+            badge: PC
+          - title: AR モード
+            link: /jp/dancexr/features/ar_mode
+            image: "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
+            badge: "Mobile &amp; Quest · PRO"
+            badge_type: pro
+      - title: "ステージ & プロップ"
+        tiles:
+          - title: "地面 & ステージ"
+            link: /jp/dancexr/features/ground
+            image: "/images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp"
+          - title: プロシージャルルームステージ
+            link: /jp/dancexr/features/room_stage
+            image: "/images/slideshows/environment/How%20is%20the%20shadow%20on%20the%20wall%20even%20possible%EF%BC%9F%20%5B85lKm5S3Oa8%5D.webp"
+          - title: "ステージモデル & 設定"
+            link: /jp/dancexr/features/stages
+            image: "/images/slideshows/environment/Leifang%20Circus%20Show%20%5Bg0pe5q9DrMo%5D.webp"
+          - title: "プロップモデル & 設定"
+            link: /jp/dancexr/features/props
+            image: "/images/slideshows/environment/Drop%20Pop%20Candy%20-%20Koharu%20Amy%20Misaki%20and%20Fiona%20%5BL9ab6bYmYPA%5D.webp"
+          - title: プリミティブ形状
+            link: /jp/dancexr/features/primitive_shapes
+            image: "/images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp"
+          - title: スクリーン
+            link: /jp/dancexr/features/screen
+            image: "/images/slideshows/environment/YUKINO%E2%A7%B8BADDEST%E2%A7%B8PROJECTION%20%5ByMFmLZwTJug%5D.webp"
+          - title: ミラー
+            link: /jp/dancexr/features/mirror
+            image: "/images/slideshows/load_play/%5BDanceXR%5D%20New%20mirror%20feature%20%5B0FwY2viXcM0%5D.webp"
+          - title: ステージレーザー
+            link: /jp/dancexr/features/laser
+            image: "/images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp"
+            badge: 2024.3 · PRO
+            badge_type: pro
+          - title: ビーツリング
+            link: /jp/dancexr/features/beats_ring
+            image: "/images/slideshows/environment/I%20AM%20GOOD%20%5BztrBHdNYJZ4%5D.webp"
+      - title: シーン
+        tiles:
+          - title: "シーンの保存 & 読み込み"
+            link: /jp/dancexr/features/save_scene
+            image: "/images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp"
+          - title: シーンバンドル
+            link: /jp/dancexr/features/scene_bundle
+            image: "/images/slideshows/environment/Leifang%20-%20As%20You%20Like%20It%20-%20Group%20Dance%20%5BZgmCbzNs7EU%5D.webp"
+            badge: 2024.1 · PRO
+            badge_type: pro
+  - title: シネマカメラ
+    light: true
+    tiles:
+      - title: カメラ概要
+        link: /jp/dancexr/features/camera
+        image: "/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp"
+      - title: フリーフライカメラ
+        link: /jp/dancexr/features/freefly_cam
+        image: "/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp"
+      - title: オートカメラ
+        link: /jp/dancexr/features/auto_cam
+        image: "/images/slideshows/camera/What%20does%20it%20feel%20like%20to%20watch%20a%20concert%20while%20standing%20in%20the%20middle%20of%20the%20stage%EF%BC%9F%20%5Beq7XxG_6YLg%5D.webp"
+      - title: オービットカメラ
+        link: /jp/dancexr/features/camera
+        image: "/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp"
+      - title: ワンショットカメラ
+        link: /jp/dancexr/features/camera
+        image: "/images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp"
+      - title: 一人称カメラ
+        link: /jp/dancexr/features/camera
+        image: "/images/slideshows/camera/First%20Person%2039%20Music%20%5BY5T3JkedkQs%5D.webp"
+      - title: 固定カメラ（コンサートモード）
+        link: /jp/dancexr/features/camera
+        image: "/images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp"
+  - title: "モーション & メディア"
+    subsections:
+      - title: "オーディオ & ビデオ"
+        tiles:
+          - title: オーディオ再生オプション
+            link: /jp/dancexr/features/audio_options
+            image: "/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp"
+          - title: ビデオ再生
+            link: /jp/dancexr/features/video_playback
+            image: "/images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp"
+            badge: 2024.4 · PRO
+            badge_type: pro
+          - title: ミュージックタイミング
+            link: /jp/dancexr/features/music_timing
+            image: "/images/slideshows/motion/Don%27t%20miss%20out%21%20DanceXR%20is%20currently%2030%25%20off%20on%20Steam%20and%20Itch.io%21%20%5BMfpTKkOkXP8%5D.webp"
+            badge: 2026.2
+            badge_type: new
+      - title: モーション
+        tiles:
+          - title: ダンスセット
+            link: /jp/dancexr/features/dance_set
+            image: "/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp"
+            badge: 2026.3
+            badge_type: new
+          - title: モーション設定
+            link: /jp/dancexr/features/motion_settings
+            image: "/images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp"
+            badge: 2026.2
+            badge_type: new
+          - title: 再生オプション
+            link: /jp/dancexr/features/playback_options
+            image: "/images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp"
+          - title: モーションの割り当て
+            link: /jp/dancexr/features/assign_motion
+            image: "/images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp"
+          - title: リミックス
+            link: /jp/dancexr/features/remix
+            image: "/images/slideshows/motion/Spin%20%5BK__liB93anI%5D.webp"
+          - title: モーションオーバーライド
+            link: /jp/dancexr/features/motion_override
+            image: "/images/slideshows/motion/Pole%20Dance%20Test%20%5B4TB8aFRJENI%5D.webp"
+            badge: PRO
+            badge_type: pro
+          - title: キーフレームアニメーション
+            link: /jp/dancexr/features/keyframe_animation
+            image: "/images/slideshows/motion/This%20entire%20video%20is%20automatic%20transition%20between%20a%20few%20static%20poses%21%20%5BhwUahuvWBoQ%5D.webp"
+            badge: 2025.3 · PRO
+            badge_type: pro
+          - title: モーションファイルの整理
+            link: /jp/dancexr/preparecontent#motion-files
+            image: "/images/slideshows/load_play/%5BDanceXR%5D%20Kimagure%20Mercy%20-%20Honoka%20%5Bg1-OfMxxZ5s%5D.webp"
+  - title: AI 機能
+    light: true
+    tiles:
+      - title: AI ボイスチャット
+        link: /jp/dancexr/ai_chat
+        image: "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+        badge: PRO
+        badge_type: pro
+  - title: クリエーター
+    tiles:
+      - title: "オフラインレンダー & 録画"
+        link: /jp/dancexr/creator
+        image: "/images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp"
+        badge: PC · CREATOR
+  - title: "システム & プラットフォーム"
+    light: true
+    tiles:
+      - title: コンテンツライブラリ
+        link: /jp/dancexr/preparecontent
+        image: "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
+      - title: Google ドライブ統合
+        link: /jp/dancexr/features/googledrive
+        image: "/images/slideshows/load_play/Stellar%20Blade%20Raven%20Sea%20Breeze%20Dance%20%5Bo6mocERvFNk%5D.webp"
+      - title: Android および Quest 用コンテンツライブラリ
+        link: /jp/dancexr/content_android_quest
+        image: "/images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp"
+      - title: "ディスプレイ & UI"
+        link: /jp/dancexr/features/display_settings
+        image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
+      - title: グラフィック設定
+        link: /jp/dancexr/features/graphics
+        image: "/images/slideshows/render/VRGirl%20Sea%20Breeze%20dance%20%5BvPnmTRJqj8Q%5D.webp"
+        badge: 2026.2
+        badge_type: new
+      - title: 多言語サポート
+        link: /jp/dancexr/features/languages
+        image: "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
+      - title: 入力設定
+        link: /jp/dancexr/features/controls
+        image: "/images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp"
+      - title: 物理設定
+        link: /jp/dancexr/features/system_physics
+        image: /images/slideshows/physics/6b29c53917daff568a9ee75cfa0d62b6b4cadf79.jpg
+        badge: 2026.1
+        badge_type: new
+      - title: 自動アップデート
+        link: /jp/dancexr/features/autoupdate
+        image: /images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg
+        badge: PRO
+        badge_type: pro
+      - title: システムプリセット
+        link: /jp/dancexr/features/system_presets
+        image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
+        badge: 2024.1
+        badge_type: new
+      - title: アプリケーション設定
+        link: /jp/dancexr/features/application_settings
+        image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
 ---
-
-<section class="section">
-<div class="features-container">
-
-<h2>モデルサポート</h2>
-
-<h3>コンテンツ管理</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/discovery" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">Discovery アプリ</span><span class="feature-tile-badge feature-tile-badge--new">2025.6</span></div></a>
-<a href="/jp/dancexr/preparecontent#3d-models" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">モデルファイルの整理</span></div></a>
-<a href="/jp/dancexr/features/tagging" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">タグ付けと検索</span></div></a>
-<a href="/jp/dancexr/features/loader_options" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/Stellar%20Blade%20Raven%20Sea%20Breeze%20Dance%20%5Bo6mocERvFNk%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">モデルキャッシュ &amp; ローダーオプション</span><span class="feature-tile-badge feature-tile-badge--new">2026.3</span></div></a>
-<a href="/jp/dancexr/features/actor_playlist" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/%5BDanceXR%5D%20Kimagure%20Mercy%20-%20Honoka%20%5Bg1-OfMxxZ5s%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">プレイリスト</span></div></a>
-<a href="/jp/dancexr/features/formation" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/%5BDanceXR%5D%20New%20mirror%20feature%20%5B0FwY2viXcM0%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">フォーメーション</span></div></a>
-<a href="/jp/dancexr/features/zip_format" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg');"></div><div class="feature-tile-body"><span class="feature-tile-name">ZIP フォーマット</span></div></a>
-</div>
-
-<h3>モデル形式</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/bone_mapper" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">XPS ボーンマッパー</span></div></a>
-<a href="/jp/dancexr/features/pmx_physics" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">PMX 物理</span></div></a>
-<div class="feature-tile feature-tile--disabled"><div class="feature-tile-img" style="background-image: url('/images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">PMX ブレンドシェイプモーフ</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></div>
-<a href="/jp/dancexr/features/custom_inherit" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">カスタム継承モーション</span></div></a>
-<a href="/jp/dancexr/features/bones" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ボーン構造リファレンス</span></div></a>
-</div>
-
-<h3>キャラクターツール</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/actor_tools" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">アクターメニュー、ツール &amp; インタラクション</span></div></a>
-<a href="/jp/dancexr/features/attach_to_actor" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">アクターにアタッチ</span><span class="feature-tile-badge feature-tile-badge--pro">2025.2 · PRO</span></div></a>
-<a href="/jp/dancexr/features/feet_adjustments" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">足の調整</span></div></a>
-<a href="/jp/dancexr/features/scale_n_offset" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">スケール &amp; オフセット</span></div></a>
-<a href="/jp/dancexr/features/troubleshooting_options" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">トラブルシューティングオプション</span></div></a>
-<a href="/jp/dancexr/features/actor_presets" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">アクタープリセット</span><span class="feature-tile-badge feature-tile-badge--new">2024.1</span></div></a>
-</div>
-
-</div>
-</section>
-
-<section class="section section-light">
-<div class="features-container">
-
-<h2>リアルなキャラクター</h2>
-
-<div class="feature-grid">
-<a href="/jp/dancexr/features/eyecontact" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">まばたき、呼吸 &amp; アイコンタクト</span></div></a>
-<a href="/jp/dancexr/features/idle_motion" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">待機モーション</span></div></a>
-<a href="/jp/dancexr/features/catwalk" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">キャットウォーク</span></div></a>
-<a href="/jp/dancexr/features/autodance" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">オートダンス</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/autodance2" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">オートダンス 2</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/autodance3" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">オートダンス 3</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/secondary_motion" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">セカンダリモーション</span></div></a>
-<a href="/jp/dancexr/features/actor_motion_settings" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">アクターモーション設定</span></div></a>
-</div>
-
-</div>
-</section>
-
-<section class="section">
-<div class="features-container">
-
-<h2>物理シミュレーション</h2>
-
-<h3>シミュレーション</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/physics" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">物理概要</span></div></a>
-<a href="/jp/dancexr/features/simulation" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">シミュレーション</span></div></a>
-<a href="/jp/dancexr/features/cloth_simulation" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">布シミュレーション</span><span class="feature-tile-badge feature-tile-badge--pro">2024.8 · PRO</span></div></a>
-<a href="/jp/dancexr/features/cloth_simulation#mesh_to_cloth" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/physics/Convert%20Model%20Mesh%20To%20Cloth%20Simulation%20-%20DanceXR%202024.9%20%5BFdMSBaPMUHI%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">メッシュから布へ</span><span class="feature-tile-badge feature-tile-badge--pro">2024.9 · PRO</span></div></a>
-<a href="/jp/dancexr/features/particle_dynamics" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/simulation/Wearing%20a%20spiderweb%20%5BooZ3Kq8D6ZQ%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">パーティクルダイナミクス</span><span class="feature-tile-badge feature-tile-badge--pro">2024.9 · PRO</span></div></a>
-<a href="/jp/dancexr/features/particle_dynamics#softbody" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/simulation/Nyotengo%20Looks%20Absolutely%20Stunning%20No%20Matter%20What%20She%20Wears%20%5BRxj702Ktp8s%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ソフトボディシミュレーション</span><span class="feature-tile-badge feature-tile-badge--pro">2024.11 · PRO</span></div></a>
-<a href="/jp/dancexr/features/physics_softbody" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ソフトボディ物理</span></div></a>
-</div>
-
-<h3>XPS 物理</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/xps_physics" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">XPS 物理</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/xps_body_colliders" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ボディーコライダー</span></div></a>
-<a href="/jp/dancexr/features/xps_hair" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">髪の物理</span></div></a>
-<a href="/jp/dancexr/features/xps_cloth" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">服の物理</span></div></a>
-<a href="/jp/dancexr/features/xps_skirt" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">スカートの物理</span></div></a>
-<a href="/jp/dancexr/features/xps_boobs" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">胸の物理</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/xps_softbody" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ソフトボディの物理</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/xps_detach" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">オブジェクトの切り離し</span></div></a>
-</div>
-
-</div>
-</section>
-
-<section class="section section-light">
-<div class="features-container">
-
-<h2>外観</h2>
-
-<h3>着せ替え</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/optionals" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/HIBIKASE%20-%20DOAXVV%20Mikasa%20Dissolving%20Outfit%20%5BZZwW0PoJ1vE%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">着せ替えシステム</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/alternative_textures" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">代替テクスチャ</span><span class="feature-tile-badge feature-tile-badge--new">2026.1</span></div></a>
-<a href="/jp/dancexr/features/outfit_body_paint" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">衣装 &amp; ボディペイント</span><span class="feature-tile-badge feature-tile-badge--pro">2024.3 · PRO</span></div></a>
-<a href="/jp/dancexr/features/accessory" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Marie%20Rose%20Morphing%20Ballet%20Outfit%20-%20Satisfaction%20%5BRgNi-DdEfL0%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">アクセサリー</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/facial_control" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">表情制御</span></div></a>
-<a href="/jp/dancexr/features/water_interaction" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">水とのインタラクション</span></div></a>
-</div>
-
-<h3>マテリアル</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/material_global" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">グローバルマテリアル設定</span></div></a>
-<a href="/jp/dancexr/features/toon_shading" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/%5BDanceXR%202024.3%5D%20Improved%20Stocking%20Effect%20%5BewUUxxGbAm8%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">トゥーンシェーディング</span></div></a>
-<a href="/jp/dancexr/features/material_skin" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">肌マテリアル</span><span class="feature-tile-badge feature-tile-badge--new">2026.2</span></div></a>
-<a href="/jp/dancexr/features/material_hair" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">髪マテリアル</span></div></a>
-<a href="/jp/dancexr/features/material_eyes" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">瞳マテリアル</span></div></a>
-<a href="/jp/dancexr/features/material_lips" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">唇マテリアル</span></div></a>
-<a href="/jp/dancexr/features/material_opaque" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">不透明マテリアル</span></div></a>
-<a href="/jp/dancexr/features/material_transparent" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">透明マテリアル</span></div></a>
-<a href="/jp/dancexr/features/material_custom1" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">カスタム 1 &amp; 2 マテリアル</span></div></a>
-<a href="/jp/dancexr/features/material_settings" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">マテリアル設定</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/texture_enhancement" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/%5BDanceXR%202024.3%5D%20Improved%20Stocking%20Effect%20%5BewUUxxGbAm8%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">テクスチャ強化</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/sweat_effect" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">汗エフェクト</span><span class="feature-tile-badge feature-tile-badge--nsfw">2026.2 · NSFW</span></div></a>
-<a href="/jp/dancexr/features/custom_detail_map" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">カスタムディテールマップ</span></div></a>
-<a href="/jp/dancexr/features/generate_normal_map" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/HIBIKASE%20-%20DOAXVV%20Mikasa%20Dissolving%20Outfit%20%5BZZwW0PoJ1vE%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ノーマルマップ生成</span></div></a>
-<a href="/jp/dancexr/features/hexagon_detail" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Marie%20Rose%20Morphing%20Ballet%20Outfit%20-%20Satisfaction%20%5BRgNi-DdEfL0%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">六角形パターンディテール</span></div></a>
-<a href="/jp/dancexr/features/specular_map" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">スペキュラー / マスクマップ</span></div></a>
-<a href="/jp/dancexr/features/transparency" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">透明度設定</span></div></a>
-</div>
-
-<h3>アダルト</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/boob_shake_sex_overlay" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">胸揺れ</span><span class="feature-tile-badge feature-tile-badge--nsfw">NSFW</span></div></a>
-<a href="/jp/dancexr/features/boob_shake_sex_overlay" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">セックスオーバーレイ</span><span class="feature-tile-badge feature-tile-badge--nsfw">NSFW</span></div></a>
-<a href="/jp/dancexr/features/dildo" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ディルド</span><span class="feature-tile-badge feature-tile-badge--nsfw">NSFW</span></div></a>
-<a href="/jp/dancexr/features/scg_motion" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">カウガールセックス</span><span class="feature-tile-badge feature-tile-badge--nsfw">NSFW</span></div></a>
-<a href="/jp/dancexr/features/sfb_motion" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">バックからのセックス</span><span class="feature-tile-badge feature-tile-badge--nsfw">NSFW</span></div></a>
-<a href="/jp/dancexr/features/sm3_motion" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">セックスモーション 3</span><span class="feature-tile-badge feature-tile-badge--nsfw">NSFW</span></div></a>
-<a href="/jp/dancexr/features/ragdoll" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ラグドール</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/lightball" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/atmosphere/Higher%20%5BTDGnCk1wU98%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ライトボール</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-</div>
-
-</div>
-</section>
-
-<section class="section">
-<div class="features-container">
-
-<h2>雰囲気 &amp; 環境</h2>
-
-<h3>空 &amp; ライティング</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/skymap" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">空と雲</span></div></a>
-<a href="/jp/dancexr/features/sky" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/atmosphere/Momiji%20is%20the%20conqueror%20of%20your%20dream%20%5BRahFWFBxxpc%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">スカイ設定</span></div></a>
-<a href="/jp/dancexr/features/lighting" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/atmosphere/Global%20Illumination%20Test%20%5BYt9RJqellnw%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ライティング</span></div></a>
-<a href="/jp/dancexr/features/raytracing" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">レイトレーシング効果</span><span class="feature-tile-badge">PC</span></div></a>
-</div>
-
-<h3>環境</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/particles" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">パーティクルシステム</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/water_system" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">水システム</span><span class="feature-tile-badge">PC</span></div></a>
-<a href="/jp/dancexr/features/ar_mode" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">AR モード</span><span class="feature-tile-badge feature-tile-badge--pro">Mobile &amp; Quest · PRO</span></div></a>
-</div>
-
-<h3>ステージ &amp; プロップ</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/ground" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">地面 &amp; ステージ</span></div></a>
-<a href="/jp/dancexr/features/room_stage" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/environment/How%20is%20the%20shadow%20on%20the%20wall%20even%20possible%EF%BC%9F%20%5B85lKm5S3Oa8%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">プロシージャルルームステージ</span></div></a>
-<a href="/jp/dancexr/features/stages" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/environment/Leifang%20Circus%20Show%20%5Bg0pe5q9DrMo%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ステージモデル &amp; 設定</span></div></a>
-<a href="/jp/dancexr/features/props" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/environment/Drop%20Pop%20Candy%20-%20Koharu%20Amy%20Misaki%20and%20Fiona%20%5BL9ab6bYmYPA%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">プロップモデル &amp; 設定</span></div></a>
-<a href="/jp/dancexr/features/primitive_shapes" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">プリミティブ形状</span></div></a>
-<a href="/jp/dancexr/features/screen" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/environment/YUKINO%E2%A7%B8BADDEST%E2%A7%B8PROJECTION%20%5ByMFmLZwTJug%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">スクリーン</span></div></a>
-<a href="/jp/dancexr/features/mirror" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/%5BDanceXR%5D%20New%20mirror%20feature%20%5B0FwY2viXcM0%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ミラー</span></div></a>
-<a href="/jp/dancexr/features/laser" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ステージレーザー</span><span class="feature-tile-badge feature-tile-badge--pro">2024.3 · PRO</span></div></a>
-<a href="/jp/dancexr/features/beats_ring" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/environment/I%20AM%20GOOD%20%5BztrBHdNYJZ4%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ビーツリング</span></div></a>
-</div>
-
-<h3>シーン</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/save_scene" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">シーンの保存 &amp; 読み込み</span></div></a>
-<a href="/jp/dancexr/features/scene_bundle" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/environment/Leifang%20-%20As%20You%20Like%20It%20-%20Group%20Dance%20%5BZgmCbzNs7EU%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">シーンバンドル</span><span class="feature-tile-badge feature-tile-badge--pro">2024.1 · PRO</span></div></a>
-</div>
-
-</div>
-</section>
-
-<section class="section section-light">
-<div class="features-container">
-
-<h2>シネマカメラ</h2>
-
-<div class="feature-grid">
-<a href="/jp/dancexr/features/camera" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">カメラ概要</span></div></a>
-<a href="/jp/dancexr/features/freefly_cam" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">フリーフライカメラ</span></div></a>
-<a href="/jp/dancexr/features/auto_cam" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/camera/What%20does%20it%20feel%20like%20to%20watch%20a%20concert%20while%20standing%20in%20the%20middle%20of%20the%20stage%EF%BC%9F%20%5Beq7XxG_6YLg%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">オートカメラ</span></div></a>
-<a href="/jp/dancexr/features/camera" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">オービットカメラ</span></div></a>
-<a href="/jp/dancexr/features/camera" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ワンショットカメラ</span></div></a>
-<a href="/jp/dancexr/features/camera" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/camera/First%20Person%2039%20Music%20%5BY5T3JkedkQs%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">一人称カメラ</span></div></a>
-<a href="/jp/dancexr/features/camera" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">固定カメラ（コンサートモード）</span></div></a>
-</div>
-
-</div>
-</section>
-
-<section class="section">
-<div class="features-container">
-
-<h2>モーション &amp; メディア</h2>
-
-<h3>オーディオ &amp; ビデオ</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/audio_options" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">オーディオ再生オプション</span></div></a>
-<a href="/jp/dancexr/features/video_playback" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ビデオ再生</span><span class="feature-tile-badge feature-tile-badge--pro">2024.4 · PRO</span></div></a>
-<a href="/jp/dancexr/features/music_timing" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/Don%27t%20miss%20out%21%20DanceXR%20is%20currently%2030%25%20off%20on%20Steam%20and%20Itch.io%21%20%5BMfpTKkOkXP8%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ミュージックタイミング</span><span class="feature-tile-badge feature-tile-badge--new">2026.2</span></div></a>
-</div>
-
-<h3>モーション</h3>
-<div class="feature-grid">
-<a href="/jp/dancexr/features/dance_set" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">ダンスセット</span><span class="feature-tile-badge feature-tile-badge--new">2026.3</span></div></a>
-<a href="/jp/dancexr/features/motion_settings" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">モーション設定</span><span class="feature-tile-badge feature-tile-badge--new">2026.2</span></div></a>
-<a href="/jp/dancexr/features/playback_options" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">再生オプション</span></div></a>
-<a href="/jp/dancexr/features/assign_motion" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">モーションの割り当て</span></div></a>
-<a href="/jp/dancexr/features/remix" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/Spin%20%5BK__liB93anI%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">リミックス</span></div></a>
-<a href="/jp/dancexr/features/motion_override" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/Pole%20Dance%20Test%20%5B4TB8aFRJENI%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">モーションオーバーライド</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/keyframe_animation" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/motion/This%20entire%20video%20is%20automatic%20transition%20between%20a%20few%20static%20poses%21%20%5BhwUahuvWBoQ%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">キーフレームアニメーション</span><span class="feature-tile-badge feature-tile-badge--pro">2025.3 · PRO</span></div></a>
-<a href="/jp/dancexr/preparecontent#motion-files" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/%5BDanceXR%5D%20Kimagure%20Mercy%20-%20Honoka%20%5Bg1-OfMxxZ5s%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">モーションファイルの整理</span></div></a>
-</div>
-
-</div>
-</section>
-
-<section class="section section-light">
-<div class="features-container">
-
-<h2>AI 機能</h2>
-
-<div class="feature-grid">
-<a href="/jp/dancexr/ai_chat" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">AI ボイスチャット</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-</div>
-
-</div>
-</section>
-
-<section class="section">
-<div class="features-container">
-
-<h2>クリエーター</h2>
-
-<div class="feature-grid">
-<a href="/jp/dancexr/creator" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">オフラインレンダー &amp; 録画</span><span class="feature-tile-badge">PC · CREATOR</span></div></a>
-</div>
-
-</div>
-</section>
-
-<section class="section section-light">
-<div class="features-container">
-
-<h2>システム &amp; プラットフォーム</h2>
-
-<div class="feature-grid">
-<a href="/jp/dancexr/preparecontent" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">コンテンツライブラリ</span></div></a>
-<a href="/jp/dancexr/features/googledrive" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/Stellar%20Blade%20Raven%20Sea%20Breeze%20Dance%20%5Bo6mocERvFNk%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">Google ドライブ統合</span></div></a>
-<a href="/jp/dancexr/content_android_quest" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">Android および Quest 用コンテンツライブラリ</span></div></a>
-<a href="/jp/dancexr/features/display_settings" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg');"></div><div class="feature-tile-body"><span class="feature-tile-name">ディスプレイ &amp; UI</span></div></a>
-<a href="/jp/dancexr/features/graphics" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/render/VRGirl%20Sea%20Breeze%20dance%20%5BvPnmTRJqj8Q%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">グラフィック設定</span><span class="feature-tile-badge feature-tile-badge--new">2026.2</span></div></a>
-<a href="/jp/dancexr/features/languages" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">多言語サポート</span></div></a>
-<a href="/jp/dancexr/features/controls" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp');"></div><div class="feature-tile-body"><span class="feature-tile-name">入力設定</span></div></a>
-<a href="/jp/dancexr/features/system_physics" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/physics/6b29c53917daff568a9ee75cfa0d62b6b4cadf79.jpg');"></div><div class="feature-tile-body"><span class="feature-tile-name">物理設定</span><span class="feature-tile-badge feature-tile-badge--new">2026.1</span></div></a>
-<a href="/jp/dancexr/features/autoupdate" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg');"></div><div class="feature-tile-body"><span class="feature-tile-name">自動アップデート</span><span class="feature-tile-badge feature-tile-badge--pro">PRO</span></div></a>
-<a href="/jp/dancexr/features/system_presets" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg');"></div><div class="feature-tile-body"><span class="feature-tile-name">システムプリセット</span><span class="feature-tile-badge feature-tile-badge--new">2024.1</span></div></a>
-<a href="/jp/dancexr/features/application_settings" class="feature-tile"><div class="feature-tile-img" style="background-image: url('/images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg');"></div><div class="feature-tile-body"><span class="feature-tile-name">アプリケーション設定</span></div></a>
-</div>
-
-</div>
-</section>
