@@ -7,6 +7,10 @@ permalink: /dancexr/features
 hero_compact: true
 hero_title: Features
 hero_image: /images/hero.png
+hero_ctas:
+  - label: DOWNLOAD NOW
+    url: /dancexr/download
+    style: neon
 nav_links:
   - label: Intro
     url: /dancexr

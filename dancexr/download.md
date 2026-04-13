@@ -1,9 +1,12 @@
 ---
-layout: studio-home
+layout: home
 title: Download DanceXR
 toc: false
 locale: en-US
 lang_path: /dancexr/download
+hero_compact: true
+hero_title: Download DanceXR
+hero_image: /images/hero.png
 nav_links:
   - label: Intro
     url: /dancexr
