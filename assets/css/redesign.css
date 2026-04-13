@@ -465,6 +465,11 @@ pre code { background: none !important; }
   gap: 80px;
   align-items: center;
 }
+
+/* FAQ-specific override: align FAQ content to the top of each column */
+.faq-section .section-inner {
+  align-items: start;
+}
 .section-inner.reverse { direction: rtl; }
 .section-inner.reverse > * { direction: ltr; }
 .section-label {

@@ -59,7 +59,7 @@ Log files are at `C:\Users\[username]\AppData\LocalLow\VR Storm Lab\DanceXR HD` 
 </section>
 
 <!-- ── FAQ ────────────────────────────────────────────────── -->
-<section class="section section-light">
+<section class="section section-light faq-section">
 <div class="editions-header" markdown="1">
 
 {:.section-label}
@@ -68,43 +68,56 @@ FAQ
 ## Frequently Asked Questions
 
 </div>
-<div class="section-inner" markdown="1">
+<div class="section-inner">
 
-**Only sky is displayed — no UI or camera controls**
+<div class="section-body" markdown="1">
+### **Only sky is displayed — no UI or camera controls**
 
 This usually indicates a startup error. Try the following steps in order:
 - Remove `license.txt` and relaunch
 - Remove (and back up) `config.json` — this resets all settings and resolves broken config issues
 - Remove (and back up) `cache.json` from your content library
-
-**Crashes on every launch — reverting to an older version doesn't help**
+</div>
+<div class="section-body" markdown="1">
+### **Crashes on every launch — reverting to an older version doesn't help**
 
 This is usually caused by the VR runtime, not DanceXR itself.
 - If you have multiple VR runtimes installed, switch to a different one
 - For SteamVR: disable startup overlaps and add-ons you don't need; try uninstalling and reinstalling SteamVR
 
-**Asked to activate again**
+</div>
+<div class="section-body" markdown="1">
+### **Asked to activate again**
 
 Your device ID may have changed due to an OS update or hardware change. Simply perform the activation steps again. Contact us if you need help.
 
-**Unable to launch VR**
+</div>
+<div class="section-body" markdown="1">
+### **Unable to launch VR**
 
 DanceXR uses OpenXR. If you have multiple VR devices installed, one runtime must be set as active:
 - **Oculus** — open the Oculus app → Settings → Beta → OpenXR Runtime → "Set Oculus as active"
 - **SteamVR** — open SteamVR → top-left menu → Settings → Developer → "Set SteamVR as OpenXR Runtime"
 - **Windows Mixed Reality** — install "Windows Mixed Reality OpenXR Developer Tools" from the Microsoft Store and set WMR as active runtime
 
-**Model loads but everything is white**
+</div>
+<div class="section-body" markdown="1">
+### **Model loads but everything is white**
 
 Filenames with non-ASCII characters or extra spaces can prevent texture files from being found. If the model is in a ZIP, set the encoding by adding it to the ZIP filename — [see ZIP format details](/dancexr/features/zip_format). Use PMXEditor to verify that texture references match actual filenames.
 
-**I can see through hair materials**
+</div>
+<div class="section-body" markdown="1">
+### **I can see through hair materials**
 
 Transparency depth prepass is on by default, which solves sorting issues but only renders the topmost transparent layer. Try turning it off to render all layers — this may introduce inside-out sorting artifacts depending on your model. There is no perfect solution; test both settings and use whichever looks better.
 
-**Sky sphere from stage models looks strange — holes or pixelation**
+</div>
+<div class="section-body" markdown="1">
+### **Sky sphere from stage models looks strange — holes or pixelation**
 
 Also caused by transparency depth prepass when multiple sky spheres overlap. Fix by turning off transparent prepass, or find the background sky sphere and change its material from transparent to opaque.
 
+</div>
 </div>
 </section>
