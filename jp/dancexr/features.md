@@ -1,16 +1,12 @@
 ---
 locale: ja-JP
-layout: studio-home
+layout: home
 title: 機能一覧
 toc: false
 permalink: /jp/dancexr/features
 hero_compact: true
-hero_title: The Ultimate Multi-Platform Character Viewer
+hero_title: 機能一覧
 hero_image: /images/hero.png
-hero_ctas:
-  - label: DOWNLOAD NOW
-    url: /dancexr/download
-    style: neon
 nav_links:
   - label: Intro
     url: /jp/dancexr

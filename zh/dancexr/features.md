@@ -1,16 +1,12 @@
 ---
 locale: zh-CN
-layout: studio-home
+layout: home
 title: 功能列表
 toc: false
 permalink: /zh/dancexr/features
 hero_compact: true
-hero_title: The Ultimate Multi-Platform Character Viewer
+hero_title: 功能列表
 hero_image: /images/hero.png
-hero_ctas:
-  - label: DOWNLOAD NOW
-    url: /dancexr/download
-    style: neon
 nav_links:
   - label: Intro
     url: /zh/dancexr
