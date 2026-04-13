@@ -12,8 +12,6 @@ hero_ctas:
     url: /dancexr/download
     style: neon
 nav_links:
-  - label: Intro
-    url: /dancexr
   - label: Features
     url: /dancexr/features
   - label: Releases

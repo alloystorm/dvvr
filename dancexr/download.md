@@ -8,8 +8,6 @@ hero_compact: true
 hero_title: Download DanceXR
 hero_image: /images/hero.png
 nav_links:
-  - label: Intro
-    url: /dancexr
   - label: Features
     url: /dancexr/features
   - label: Releases
