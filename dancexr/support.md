@@ -1,28 +1,110 @@
 ---
-locale: en-US
-layout: single
+layout: home
 title: Support
-toc: true
-sidebar:
-  nav: "docs"
+toc: false
+locale: en-US
+lang_path: /dancexr/support
+hero_compact: true
+hero_title: Support
+hero_image: /images/hero.png
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
+  - label: Support
+    url: /dancexr/support
 ---
-[Eng](/dancexr/support) | [繁中](/tw/dancexr/support) | [日本語](/jp/dancexr/support) | [한국어](/kr/dancexr/support) | [简中](/zh/dancexr/support)
 
+<!-- ── Get Help ────────────────────────────────────────────── -->
+<section class="section">
+<div class="section-inner">
+<div class="section-copy" markdown="1">
 
-## General Help
-Please browse our documentation to learn about the features and solutions for common problems
-[Features](features)
-[Troubleshooting](troubleshooting)
+{:.section-label}
+Resources
 
-Also we encourage you to join our discord server to find fellow users and see what the community is up to. Often times you can find answers there faster.
-[Discord Invite](https://discord.gg/xN2MaM7C5q)
+## Get Help
 
+Browse the documentation to learn about features and find solutions for common problems.
 
-## Bug Report
-It is recommended to report bugs on our [GitHub issue tracker](https://github.com/alloystorm/dvvr/issues), so that it can be well documented and the entire process be tracked in the system. 
+- [Feature documentation](/dancexr/features) — full list of features with guides
+- [Discord community](https://discord.gg/xN2MaM7C5q) — find fellow users, get answers fast
+- [GitHub issue tracker](https://github.com/alloystorm/dvvr/issues) — bug reports and tracked requests
 
-You can also report directly to us via email. Please send your enquiry to vrstormlab@gmail.com
+For direct enquiries and business contact, email **vrstormlab@gmail.com**
 
+</div>
+<div class="section-copy" markdown="1">
 
-## Direct Enquiry & Business Contact
-Email to vrstormlab@gmail.com
+{:.section-label}
+Bug Reports
+
+## Reporting a Bug
+
+File a bug on the [GitHub issue tracker](https://github.com/alloystorm/dvvr/issues) so it can be properly tracked. Attach screenshots and example models when possible.
+
+You can also email **vrstormlab@gmail.com** directly. We read messages on other platforms but cannot guarantee a response through those channels.
+
+**Finding your log files (PC)**
+
+Log files are at `C:\Users\[username]\AppData\LocalLow\VR Storm Lab\DanceXR HD` — the last folder name matches your build (`DanceXR HD`, `DanceXR LW`, or `DanceXR RT`). Some folders may be hidden; [enable hidden files in Explorer](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2) if you can't find them. Attach `Player.log` and `Player-prev.log` with your report.
+
+</div>
+</div>
+</section>
+
+<!-- ── FAQ ────────────────────────────────────────────────── -->
+<section class="section section-light">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+FAQ
+
+## Frequently Asked Questions
+
+</div>
+<div class="section-inner" markdown="1">
+
+**Only sky is displayed — no UI or camera controls**
+
+This usually indicates a startup error. Try the following steps in order:
+- Remove `license.txt` and relaunch
+- Remove (and back up) `config.json` — this resets all settings and resolves broken config issues
+- Remove (and back up) `cache.json` from your content library
+
+**Crashes on every launch — reverting to an older version doesn't help**
+
+This is usually caused by the VR runtime, not DanceXR itself.
+- If you have multiple VR runtimes installed, switch to a different one
+- For SteamVR: disable startup overlaps and add-ons you don't need; try uninstalling and reinstalling SteamVR
+
+**Asked to activate again**
+
+Your device ID may have changed due to an OS update or hardware change. Simply perform the activation steps again. Contact us if you need help.
+
+**Unable to launch VR**
+
+DanceXR uses OpenXR. If you have multiple VR devices installed, one runtime must be set as active:
+- **Oculus** — open the Oculus app → Settings → Beta → OpenXR Runtime → "Set Oculus as active"
+- **SteamVR** — open SteamVR → top-left menu → Settings → Developer → "Set SteamVR as OpenXR Runtime"
+- **Windows Mixed Reality** — install "Windows Mixed Reality OpenXR Developer Tools" from the Microsoft Store and set WMR as active runtime
+
+**Model loads but everything is white**
+
+Filenames with non-ASCII characters or extra spaces can prevent texture files from being found. If the model is in a ZIP, set the encoding by adding it to the ZIP filename — [see ZIP format details](/dancexr/features/zip_format). Use PMXEditor to verify that texture references match actual filenames.
+
+**I can see through hair materials**
+
+Transparency depth prepass is on by default, which solves sorting issues but only renders the topmost transparent layer. Try turning it off to render all layers — this may introduce inside-out sorting artifacts depending on your model. There is no perfect solution; test both settings and use whichever looks better.
+
+**Sky sphere from stage models looks strange — holes or pixelation**
+
+Also caused by transparency depth prepass when multiple sky spheres overlap. Fix by turning off transparent prepass, or find the background sky sphere and change its material from transparent to opaque.
+
+</div>
+</section>
