@@ -7,6 +7,10 @@ permalink: /kr/dancexr/features
 hero_compact: true
 hero_title: 기능 목록
 hero_image: /images/hero.png
+hero_ctas:
+  - label: 지금 다운로드
+    url: /kr/dancexr/download
+    style: neon
 nav_links:
   - label: Intro
     url: /kr/dancexr

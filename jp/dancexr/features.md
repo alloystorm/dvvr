@@ -7,6 +7,10 @@ permalink: /jp/dancexr/features
 hero_compact: true
 hero_title: 機能一覧
 hero_image: /images/hero.png
+hero_ctas:
+  - label: 今すぐダウンロード
+    url: /jp/dancexr/download
+    style: neon
 nav_links:
   - label: Intro
     url: /jp/dancexr

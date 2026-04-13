@@ -7,6 +7,10 @@ permalink: /zh/dancexr/features
 hero_compact: true
 hero_title: 功能列表
 hero_image: /images/hero.png
+hero_ctas:
+  - label: 立即下载
+    url: /zh/dancexr/download
+    style: neon
 nav_links:
   - label: Intro
     url: /zh/dancexr
