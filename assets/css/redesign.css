@@ -918,6 +918,9 @@ pre code { background: none !important; }
   .editions-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1102,6 +1105,65 @@ pre code { background: none !important; }
   color: var(--text);
   font-weight: 500;
 }
+
+/* ── FAQ grid ────────────────────────────────────────────── */
+.faq-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 0 24px;
+}
+.faq-item {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 28px 28px 24px;
+  transition: border-color 0.2s;
+}
+.faq-item:hover {
+  border-color: rgba(255,255,255,0.18);
+}
+.faq-item h3 {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  margin: 0 0 12px;
+  color: var(--text);
+}
+.faq-item p {
+  font-size: 14px;
+  color: var(--text-dim);
+  line-height: 1.65;
+  margin: 0 0 10px;
+}
+.faq-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.faq-item ul li {
+  padding-left: 18px;
+  position: relative;
+  font-size: 14px;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+.faq-item ul li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 12px;
+  top: 1px;
+}
+.faq-item a { color: var(--accent); }
+.faq-item a:hover { color: var(--accent-h); }
 
 /* ── Slideshow ───────────────────────────────────────────── */
 .slideshow {
