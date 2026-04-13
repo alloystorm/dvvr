@@ -1,9 +1,13 @@
 ---
-layout: studio-home
+layout: home
 title: 다운로드 — DanceXR
 toc: false
 locale: ko-KR
 lang_path: /dancexr/download
+permalink: /kr/dancexr/download
+hero_compact: true
+hero_title: 다운로드 — DanceXR
+hero_image: /images/hero.png
 nav_links:
   - label: 소개
     url: /kr/dancexr

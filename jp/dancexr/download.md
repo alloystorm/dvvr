@@ -1,9 +1,13 @@
 ---
-layout: studio-home
+layout: home
 title: ダウンロード — DanceXR
 toc: false
 locale: ja-JP
 lang_path: /dancexr/download
+permalink: /jp/dancexr/download
+hero_compact: true
+hero_title: ダウンロード — DanceXR
+hero_image: /images/hero.png
 nav_links:
   - label: はじめに
     url: /jp/dancexr

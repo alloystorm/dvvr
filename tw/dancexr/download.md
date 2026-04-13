@@ -1,9 +1,13 @@
 ---
-layout: studio-home
+layout: home
 title: 下載 — DanceXR
 toc: false
 locale: zh-TW
 lang_path: /dancexr/download
+permalink: /tw/dancexr/download
+hero_compact: true
+hero_title: 下載 — DanceXR
+hero_image: /images/hero.png
 nav_links:
   - label: 介紹
     url: /tw/dancexr
