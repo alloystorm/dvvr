@@ -14,6 +14,8 @@ nav_links:
     url: /dancexr/releases
   - label: Download
     url: /dancexr/download
+  - label: Support
+    url: /dancexr/support
 ---
 
 <!-- ── Patreon ─────────────────────────────────────────────── -->
