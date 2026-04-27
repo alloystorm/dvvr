@@ -94,7 +94,7 @@ Get early access to every monthly release before Steam and all other platforms.
       <li class="locked">Single actor on stage</li>
       <li class="locked">Advanced features locked</li>
     </ul>
-    <a href="https://github.com/alloystorm/dvvr/releases/tag/2025.12" class="edition-cta" onclick="gtag('event', 'download', { 'event_category': 'pc', 'event_label': 'Download Free' });">Download Free</a>
+    <a href="https://github.com/alloystorm/dvvr/releases/download/2026.4/DanceXR.HD.Free_WIN64.7z" class="edition-cta" onclick="gtag('event', 'download', { 'event_category': 'pc', 'event_label': 'Download Free' });">Download Free</a>
   </div>
 
   <div class="edition-card featured">

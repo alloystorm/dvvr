@@ -95,7 +95,7 @@ nav_links:
       <li class="locked">仅单角色</li>
       <li class="locked">高级功能已锁定</li>
     </ul>
-    <a href="https://github.com/alloystorm/dvvr/releases/tag/2025.12" class="edition-cta" onclick="gtag(\'event\', \'download\', { \'event_category\': \'pc\', \'event_label\': \'Download Free\' });">免费下载</a>
+    <a href="https://github.com/alloystorm/dvvr/releases/download/2026.4/DanceXR.HD.Free_WIN64.7z" class="edition-cta" onclick="gtag(\'event\', \'download\', { \'event_category\': \'pc\', \'event_label\': \'Download Free\' });">免费下载</a>
   </div>
 
   <div class="edition-card featured">
@@ -191,7 +191,7 @@ nav_links:
 
 免费版适用于 PC，包含所有核心功能 — 加载任意模型、播放动作、探索完整环境系统。一次只能有一个角色；[功能列表](/zh/dancexr/features)中标有 **PRO**、**NSFW** 或 **CREATOR** 的功能不可用。
 
-[免费下载 — PC](https://github.com/alloystorm/dvvr/releases/tag/2025.12){: .btn .btn-secondary}
+[免费下载 — PC](https://github.com/alloystorm/dvvr/releases/download/2026.4/DanceXR.HD.Free_WIN64.7z){: .btn .btn-secondary}
 
 </div>
 </section>

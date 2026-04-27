@@ -95,7 +95,7 @@ nav_links:
       <li class="locked">1人の俳優のみ</li>
       <li class="locked">高度な機能はロック</li>
     </ul>
-    <a href="https://github.com/alloystorm/dvvr/releases/tag/2025.12" class="edition-cta" onclick="gtag(\'event\', \'download\', { \'event_category\': \'pc\', \'event_label\': \'Download Free\' });">無料ダウンロード</a>
+    <a href="https://github.com/alloystorm/dvvr/releases/download/2026.4/DanceXR.HD.Free_WIN64.7z" class="edition-cta" onclick="gtag(\'event\', \'download\', { \'event_category\': \'pc\', \'event_label\': \'Download Free\' });">無料ダウンロード</a>
   </div>
 
   <div class="edition-card featured">
@@ -191,7 +191,7 @@ nav_links:
 
 無料版はPC向けで、全ての基本機能を含みます — どんなモデルでも読み込み、モーションを再生し、全環境システムを利用できます。一度に1人の俳優のみ。[機能一覧](/jp/dancexr/features)で **PRO**、**NSFW**、**CREATOR** とマークされた機能は利用できません。
 
-[無料ダウンロード — PC](https://github.com/alloystorm/dvvr/releases/tag/2025.12){: .btn .btn-secondary}
+[無料ダウンロード — PC](https://github.com/alloystorm/dvvr/releases/download/2026.4/DanceXR.HD.Free_WIN64.7z){: .btn .btn-secondary}
 
 </div>
 </section>
