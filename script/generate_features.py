@@ -251,10 +251,10 @@ def serialize_tile(tile_dict, indent=10):
 def build_sections_yaml(sections_data, locale=None, locale_prefix=""):
     """Build the feature_sections YAML block as a string."""
     lines = ["feature_sections:"]
-    for section in sections_data:
+    for idx, section in enumerate(sections_data):
         sec_title = yaml_str(resolve_section_title(section, locale))
         lines.append(f"  - title: {sec_title}")
-        if section.get("light"):
+        if idx % 2 == 0:
             lines.append(f"    light: true")
         if "subsections" in section:
             lines.append(f"    subsections:")

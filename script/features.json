@@ -8,7 +8,6 @@
         "tw": "配套應用程式",
         "kr": "컴패니언 앱"
       },
-      "light": true,
       "tiles": [
         {
           "path": "features/discovery",
@@ -32,7 +31,6 @@
         "tw": "模型支援",
         "kr": "모델 지원"
       },
-      "light": false,
       "subsections": [
         {
           "title": "Content & Loading",
@@ -174,7 +172,6 @@
         "tw": "逼真角色",
         "kr": "생동감 있는 캐릭터"
       },
-      "light": true,
       "tiles": [
         {
           "path": "features/eyecontact",
@@ -224,7 +221,6 @@
         "tw": "物理模擬",
         "kr": "물리 시뮬레이션"
       },
-      "light": false,
       "subsections": [
         {
           "title": "Simulation",
@@ -360,7 +356,6 @@
         "tw": "外觀",
         "kr": "외관"
       },
-      "light": true,
       "subsections": [
         {
           "title": "Dressing",
@@ -502,7 +497,6 @@
         "tw": "氛圍與環境",
         "kr": "분위기 & 환경"
       },
-      "light": false,
       "subsections": [
         {
           "title": "Sky & Lighting",
@@ -647,7 +641,6 @@
         "tw": "電影攝影機",
         "kr": "시네마 카메라"
       },
-      "light": true,
       "tiles": [
         {
           "path": "features/camera",
@@ -722,7 +715,6 @@
         "tw": "動作與媒體",
         "kr": "모션 & 미디어"
       },
-      "light": false,
       "subsections": [
         {
           "title": "Audio & Video",
@@ -820,7 +812,6 @@
         "tw": "成人",
         "kr": "성인"
       },
-      "light": true,
       "tiles": [
         {
           "path": "features/boob_shake_sex_overlay",
@@ -882,7 +873,6 @@
         "tw": "AI 功能",
         "kr": "AI 기능"
       },
-      "light": false,
       "tiles": [
         {
           "path": "features/ai_chat",
@@ -900,7 +890,6 @@
         "tw": "創作者",
         "kr": "크리에이터"
       },
-      "light": true,
       "tiles": [
         {
           "path": "creator",
@@ -924,7 +913,6 @@
         "tw": "系統與平台",
         "kr": "시스템 & 플랫폼"
       },
-      "light": false,
       "tiles": [
         {
           "path": "preparecontent",
