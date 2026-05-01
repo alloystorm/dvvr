@@ -20,6 +20,8 @@ nav_links:
 feature_sections:
   - title: "2026"
     tiles:
+      - title: "출시 2026.5"
+        link: "/kr/dancexr/releases/2026.5"
       - title: "출시 2026.4"
         link: "/kr/dancexr/releases/2026.4"
       - title: "출시 2026.3"

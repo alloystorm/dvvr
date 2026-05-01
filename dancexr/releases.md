@@ -27,6 +27,8 @@ nav_links:
 feature_sections:
   - title: "2026"
     tiles:
+      - title: "Release 2026.5"
+        link: "/dancexr/releases/2026.5"
       - title: "Release 2026.4"
         link: "/dancexr/releases/2026.4"
       - title: "Release 2026.3"

@@ -20,6 +20,8 @@ nav_links:
 feature_sections:
   - title: "2026"
     tiles:
+      - title: "發布 2026.5"
+        link: "/tw/dancexr/releases/2026.5"
       - title: "發布 2026.4"
         link: "/tw/dancexr/releases/2026.4"
       - title: "發布 2026.3"
