@@ -415,15 +415,15 @@ AI 功能
 
 </div>
 <div class="release-card">
-  <p class="release-version">最新 — 2026.4</p>
-  <p class="release-headline">2026年4月</p>
+  <p class="release-version">最新 — 2026.5</p>
+  <p class="release-headline">2026年5月</p>
   <div class="release-items">
-    <div class="release-item">XPBD刚体物理系统</div>
-    <div class="release-item">布娃娃&amp;软体模拟</div>
-    <div class="release-item">全身IK &amp; 双足运动改进</div>
-    <div class="release-item">并行BVH碰撞 — 性能提升</div>
+    <div class="release-item">持续多轮AI角色扮演</div>
+    <div class="release-item">OperatorXR 工作流整合</div>
+    <div class="release-item">更灵敏的双人动作</div>
+    <div class="release-item">姿势与视线控制改进</div>
   </div>
-  <a href="/zh/dancexr/releases/2026.4" class="btn-ghost">完整版本说明</a>
+  <a href="/zh/dancexr/releases/2026.5" class="btn-ghost">完整版本说明</a>
 </div>
 </div>
 </section>

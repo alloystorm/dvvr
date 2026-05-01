@@ -415,15 +415,15 @@ New features and improvements ship every month. Patreon supporters get early acc
 
 </div>
 <div class="release-card">
-  <p class="release-version">Latest — 2026.4</p>
-  <p class="release-headline">April 2026</p>
+  <p class="release-version">Latest — 2026.5</p>
+  <p class="release-headline">May 2026</p>
   <div class="release-items">
-    <div class="release-item">XPBD rigid body physics system</div>
-    <div class="release-item">Ragdoll &amp; soft body simulation</div>
-    <div class="release-item">Full-body IK &amp; biped movement improvements</div>
-    <div class="release-item">Parallel BVH collision — improved performance</div>
+    <div class="release-item">Persistent AI roleplay sessions</div>
+    <div class="release-item">OperatorXR workflow integration</div>
+    <div class="release-item">More responsive paired motion</div>
+    <div class="release-item">Better pose and eye control</div>
   </div>
-  <a href="/dancexr/releases/2026.4" class="btn-ghost">Full release notes</a>
+  <a href="/dancexr/releases/2026.5" class="btn-ghost">Full release notes</a>
 </div>
 </div>
 </section>
