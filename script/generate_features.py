@@ -373,6 +373,37 @@ def generate_locale(sections_data, locale_key):
 # Optional: inject media into feature page front matters
 # ---------------------------------------------------------------------------
 
+def generate_outline(sections_data, out_path=None):
+    """
+    Write a concise indented list of sections and tiles (title + path).
+    Each section/subsection is one line; each tile is one indented line.
+    Output goes to `out_path` if given, otherwise stdout.
+    """
+    lines = []
+    for section in sections_data:
+        lines.append(f"[{section['title']}]")
+        if "subsections" in section:
+            for sub in section["subsections"]:
+                lines.append(f"  [{sub['title']}]")
+                for tile in sub["tiles"]:
+                    title = resolve_title(tile)
+                    path = tile.get("path", "")
+                    lines.append(f"    - {title}  {path}")
+        else:
+            for tile in section["tiles"]:
+                title = resolve_title(tile)
+                path = tile.get("path", "")
+                lines.append(f"  - {title}  {path}")
+
+    text = "\n".join(lines) + "\n"
+    if out_path:
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write(text)
+        print(f"Written: {os.path.relpath(out_path, BASE)}")
+    else:
+        print(text, end="")
+
+
 def inject_media(sections_data):
     """
     For every tile that has `image` or `video`, inject those values into the
@@ -431,12 +462,25 @@ def main():
         default=None,
         help="Generate only this locale (default: all)",
     )
+    parser.add_argument(
+        "--outline",
+        nargs="?",
+        const="-",
+        metavar="FILE",
+        help="Print a concise indented outline (title + path). "
+             "Optionally write to FILE; omit FILE to print to stdout.",
+    )
     args = parser.parse_args()
 
     json_path = os.path.join(BASE, "script", "features.json")
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     sections = data["sections"]
+
+    if args.outline is not None:
+        out = None if args.outline == "-" else os.path.join(BASE, args.outline)
+        generate_outline(sections, out)
+        return
 
     locales_to_gen = list(LOCALES.keys())
     gen_en = True

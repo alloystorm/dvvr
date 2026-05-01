@@ -1,0 +1,147 @@
+[Companion Apps]
+  - Discovery App  features/discovery
+  - DanceXR Operator  features/operator
+[Model Support]
+  [Content & Loading]
+    - Organizing Model Files  preparecontent
+    - Tagging  features/tagging
+    - Actor Options  features/loader_options
+    - Actor Playlist  features/actor_playlist
+    - Formation  features/formation
+    - ZIP format  features/zip_format
+  [Model Formats]
+    - XPS Bone Mapper  features/bone_mapper
+    - PMX Physics  features/pmx_physics
+    - PMX Blendshape Morphs  
+    - Custom Inherit Motion  features/custom_inherit
+    - Example Bone Structure  features/bones
+  [Actor Tools]
+    - Actor Menu & Tools  features/actor_tools
+    - Attach To Actor  features/attach_to_actor
+    - Feet Adjustments  features/feet_adjustments
+    - Scale & Offset  features/scale_n_offset
+    - Troubleshooting Options  features/troubleshooting_options
+    - Actor Presets  features/actor_presets
+[Life-like Characters]
+  - Blink, Breathing and Eye Contact  features/eyecontact
+  - Idle Motion  features/idle_motion
+  - Catwalk Motion  features/catwalk
+  - Auto Dance  features/autodance
+  - Auto Dance 2  features/autodance2
+  - Auto Dance 3  features/autodance3
+  - Secondary Motion  features/secondary_motion
+  - Actor Motion Settings  features/actor_motion_settings
+[Physics]
+  [Simulation]
+    - Physics  features/physics
+    - Simulation  features/simulation
+    - Cloth Simulation  features/cloth_simulation
+    - Mesh To Cloth  features/cloth_simulation
+    - Particle Dynamics  features/particle_dynamics
+    - Soft Body Simulation  features/particle_dynamics
+    - Softbody Physics  features/physics_softbody
+    - Ragdoll  features/ragdoll
+  [XPS Physics]
+    - XPS Physics  features/xps_physics
+    - Body Colliders  features/xps_body_colliders
+    - Hair Physics  features/xps_hair
+    - Clothes Physics  features/xps_cloth
+    - Skirt Physics  features/xps_skirt
+    - Body Colliders  features/xps_boobs
+    - Softbody Physics  features/xps_softbody
+    - Detech Objects  features/xps_detach
+    - Light Ball  features/lightball
+[Appearance]
+  [Dressing]
+    - Dressing System (Material Morph and XPS Optional Items)  features/optionals
+    - Alternative Textures  features/alternative_textures
+    - Outfit Body Paint  features/outfit_body_paint
+    - Accessory  features/accessory
+    - Facial Control  features/facial_control
+    - Water Interaction  features/water_interaction
+  [Materials]
+    - Global Material Settings  features/material_global
+    - Toon Shading  features/toon_shading
+    - Skin Materials  features/material_skin
+    - Hair Materials  features/material_hair
+    - Eye Materials  features/material_eyes
+    - Lips Materials  features/material_lips
+    - Opaque Materials  features/material_opaque
+    - Transparent Materials  features/material_transparent
+    - Custom Materials  features/material_custom1
+    - Material Settings  features/material_settings
+    - Texture Enhancement  features/texture_enhancement
+    - Sweat Effect  features/sweat_effect
+    - Custom Detail Map  features/custom_detail_map
+    - Generate Normal Map  features/generate_normal_map
+    - Hexagon Pattern Detail Map  features/hexagon_detail
+    - Specular / Mask Map  features/specular_map
+    - Transparent Materials  features/transparency
+[Atmosphere & Environment]
+  [Sky & Lighting]
+    - Sky & Cloud  features/skymap
+    - Sky  features/sky
+    - Lighting  features/lighting
+    - Raytracing Effects  features/raytracing
+  [Environment]
+    - Particle System  features/particles
+    - Water System  features/water_system
+    - AR Mode  features/ar_mode
+  [Stage & Props]
+    - Ground  features/ground
+    - Room Stage  features/room_stage
+    - Stages  features/stages
+    - Props  features/props
+    - Primitive Shapes  features/primitive_shapes
+    - Screen  features/screen
+    - Mirror  features/mirror
+    - Laser System  features/laser
+    - Beats Ring  features/beats_ring
+  [Scene]
+    - Save Scene  features/save_scene
+    - Scene Bundle  features/scene_bundle
+[Cinematic Camera]
+  - Camera Overview  features/camera
+  - [Freefly Cam]  features/freefly_cam
+  - [Auto Cam]  features/auto_cam
+  - Orbit Camera  features/camera
+  - One-shot Camera  features/camera
+  - First Person Camera  features/camera
+  - Fixed Camera (Concert Mode)  features/camera
+[Motion & Media]
+  [Audio & Video]
+    - Audio Options  features/audio_options
+    - Video Playback  features/video_playback
+    - Music Timing  features/music_timing
+  [Motions]
+    - Dance Set  features/dance_set
+    - Motion Settings  features/motion_settings
+    - Playback Options  features/playback_options
+    - Assigning Motion  features/assign_motion
+    - Remix Motion  features/remix
+    - Motion Override  features/motion_override
+    - Keyframe Animation  features/keyframe_animation
+    - Organizing Motion Files  preparecontent
+[Adult Lane]
+  - Boob Shake  features/boob_shake_sex_overlay
+  - Sex Overlay  features/boob_shake_sex_overlay
+  - Dildo  features/dildo
+  - Cowgirl Sex Motion  features/scg_motion
+  - Sex Motion 2  features/sfb_motion
+  - ./motion/proc/sm3  features/sex_motion_3
+[AI Features]
+  - AI Powered Voice Chat  features/ai_chat
+[Creator]
+  - Offline Render & Recording  creator
+[System & Platform]
+  - Content Library  preparecontent
+  - Google Drive Integration  features/googledrive
+  - Content Library for Android & Quest  content_android_quest
+  - Display Settings  features/display_settings
+  - Graphics  features/graphics
+  - Languages  features/languages
+  - Controls  features/controls
+  - System Physics  features/system_physics
+  - Auto Update  features/autoupdate
+  - System Presets  features/system_presets
+  - application_settings  features/application_settings
