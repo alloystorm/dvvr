@@ -89,7 +89,7 @@ feature_sections:
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
           - title: 얼굴 제어
             link: /kr/dancexr/features/facial_control
-            image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
+            image: /images/slideshows/physics/921e8f56935161e0e14e15d1dd0addb866f2b735.jpg
       - title: 캐릭터 도구
         tiles:
           - title: 배우 메뉴 및 도구
@@ -102,7 +102,7 @@ feature_sections:
             badge_type: pro
           - title: 발 조정
             link: /kr/dancexr/features/feet_adjustments
-            image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
+            image: /images/slideshows/dressing/90fbb9ac6e412cb83d0fcf3c743bfcd776473261.jpg
           - title: 스케일 및 오프셋
             link: /kr/dancexr/features/scale_n_offset
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
