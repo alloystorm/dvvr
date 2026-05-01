@@ -50,9 +50,3 @@ sidebar:
 
 ## 视频教程
 - [身体涂装教程](https://www.youtube.com/watch?v=chHk9--cUYE)
-
-## 配置
-
-有关配置的详细说明，请访问以下页面：
-
-[服装与身体涂装 v2025.4](/dancexr/menu/2025.4/actor/outfit)

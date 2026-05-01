@@ -111,8 +111,6 @@ docs:
     children:
       - title: Feature List
         url: /dancexr/features
-      - title: Settings Manual
-        url: /dancexr/menu/2025.5/menu
       - title: Creator Edition
         url: /dancexr/creator
   - title: Help
@@ -245,8 +243,6 @@ docs-zh:
     children:
       - title: 功能列表
         url: /zh/dancexr/features
-      - title: 设置手册
-        url: /zh/dancexr/menu/2025.5/menu
       - title: 创作者版
         url: /zh/dancexr/creator
   - title: 帮助
@@ -378,8 +374,6 @@ docs-tw:
     children:
       - title: 功能列表
         url: /tw/dancexr/features
-      - title: 設置手冊
-        url: /tw/dancexr/menu/2025.5/menu
       - title: 創作者版
         url: /tw/dancexr/creator
   - title: 幫助
@@ -511,8 +505,6 @@ docs-jp:
     children:
       - title: 機能リスト
         url: /jp/dancexr/features
-      - title: 設定マニュアル
-        url: /jp/dancexr/menu/2025.5/menu
       - title: クリエイターエディション
         url: /jp/dancexr/creator
   - title: ヘルプ
@@ -644,8 +636,6 @@ docs-kr:
     children:
       - title: 기능 목록
         url: /kr/dancexr/features
-      - title: 설정 매뉴얼
-        url: /kr/dancexr/menu/2025.5/menu
       - title: 크리에이터 에디션
         url: /kr/dancexr/creator
   - title: 도움말

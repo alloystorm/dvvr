@@ -22,10 +22,3 @@ The Attach To Actor module allows you to dynamically attach bones from one actor
 - Attaching props or accessories to characters.
 - Creating complex animations with moving accessories.
 
-
-## Configurations
-
-For detailed explaination of the configurations, please visit the following page:
-
-[Attach To Actor v2025.4](/dancexr/menu/2025.4/actor/attach_to_actor)
-
