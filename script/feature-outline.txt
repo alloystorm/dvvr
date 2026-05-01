@@ -9,7 +9,7 @@
     - Actor Playlist  features/actor_playlist  (27L)
     - Formation  features/formation  (33L)
     - ZIP format  features/zip_format  (37L)
-  [Model Formats]
+  [Model Formats] => Format Specifics
     - XPS Bone Mapper  features/bone_mapper  (39L)
     - PMX Physics  features/pmx_physics  (73L)
     - PMX Blendshape Morphs  
@@ -17,19 +17,19 @@
     - Example Bone Structure  features/bones  (193L)
   [Actor Tools]
     - Actor Menu & Tools  features/actor_tools  (95L)
-    - Attach To Actor  features/attach_to_actor  (30L)
+    - Attach To Actor  features/attach_to_actor  (30L) 
     - Feet Adjustments  features/feet_adjustments  (35L)
     - Scale & Offset  features/scale_n_offset  (18L)
     - Troubleshooting Options  features/troubleshooting_options  (31L)
     - Actor Presets  features/actor_presets
 [Life-like Characters]
   - Blink, Breathing and Eye Contact  features/eyecontact  (40L)
-  - Idle Motion  features/idle_motion  (22L)
-  - Catwalk Motion  features/catwalk  (18L)
-  - Auto Dance  features/autodance  (20L)
-  - Auto Dance 2  features/autodance2  (20L)
-  - Auto Dance 3  features/autodance3  (27L)
-  - Secondary Motion  features/secondary_motion  (28L)
+  - Idle Motion  features/idle_motion  (22L) => procedural motion?
+  - Catwalk Motion  features/catwalk  (18L) => procedural motion?
+  - Auto Dance  features/autodance  (20L) => procedural motion?
+  - Auto Dance 2  features/autodance2  (20L) => procedural motion?
+  - Auto Dance 3  features/autodance3  (27L) => procedural motion?
+  - Secondary Motion  features/secondary_motion  (28L) => procedural motion?
   - Actor Motion Settings  features/actor_motion_settings  (19L)
 [Physics]
   [Simulation]
@@ -57,17 +57,17 @@
     - Alternative Textures  features/alternative_textures  (31L)
     - Outfit Body Paint  features/outfit_body_paint  (52L)
     - Accessory  features/accessory  (21L)
-    - Facial Control  features/facial_control  (33L)
-    - Water Interaction  features/water_interaction  (19L)
+    - Facial Control  features/facial_control  (33L) => for XPS model only, move to Format specific tools
+    - Water Interaction  features/water_interaction  (19L) => closer to physics & water system, not belong here. 
   [Materials]
     - Global Material Settings  features/material_global  (32L)
-    - Toon Shading  features/toon_shading  (27L)
     - Skin Materials  features/material_skin  (45L)
     - Hair Materials  features/material_hair  (26L)
     - Eye Materials  features/material_eyes  (20L)
     - Lips Materials  features/material_lips  (18L)
     - Opaque Materials  features/material_opaque  (33L)
     - Transparent Materials  features/material_transparent  (33L)
+    - Toon Shading  features/toon_shading  (27L)
     - Custom Materials  features/material_custom1  (28L)
     - Material Settings  features/material_settings  (76L)
     - Texture Enhancement  features/texture_enhancement  (40L)
@@ -82,11 +82,11 @@
     - Sky & Cloud  features/skymap  (43L)
     - Sky  features/sky  (221L)
     - Lighting  features/lighting  (931L)
-    - Raytracing Effects  features/raytracing  (26L)
+    - Raytracing Effects  features/raytracing  (26L) => render quality, not about sky & lighting
   [Environment]
     - Particle System  features/particles  (24L)
     - Water System  features/water_system  (33L)
-    - AR Mode  features/ar_mode  (33L)
+    - AR Mode  features/ar_mode  (33L) => Add a VR / AR section?
   [Stage & Props]
     - Ground  features/ground  (1052L)
     - Room Stage  features/room_stage  (24L)
@@ -108,7 +108,7 @@
   - One-shot Camera  features/camera  (51L)
   - First Person Camera  features/camera  (51L)
   - Fixed Camera (Concert Mode)  features/camera  (51L)
-[Motion & Media]
+[Motion & Media] => add procedural motion section
   [Audio & Video]
     - Audio Options  features/audio_options  (19L)
     - Video Playback  features/video_playback  (44L)
@@ -133,7 +133,7 @@
   - AI Powered Voice Chat  features/ai_chat  (221L)
 [Creator]
   - Offline Render & Recording  creator  (104L)
-[System & Platform]
+[System & Platform] => separate into system and graphics subsections
   - Content Library  preparecontent  (134L)
   - Google Drive Integration  features/googledrive  (24L)
   - Content Library for Android & Quest  content_android_quest  (59L)
