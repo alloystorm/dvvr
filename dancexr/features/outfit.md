@@ -13,6 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
+# Outfit & Bodypaint
 
 Outfit applies a procedural fabric/paint layer over the character's
 skin material — used to add stockings, bodysuits, latex, hexagon
@@ -247,7 +248,9 @@ vanish hole-by-hole rather than fade out.
 them (via auto-update) to make the dissolve front sweep in a
 direction rather than appear uniformly.
 
-# Configurations
+
+
+## Configurations
 
 <table>
 <thead><tr><th>Setting</th><th>Type</th><th>Range / Values</th><th>Default</th><th>Condition</th><th>Description</th></tr></thead>

@@ -13,6 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
+# Actor Options
 
 Settings that control how actor models are loaded and replaced.
 
@@ -90,7 +91,9 @@ how long they live. If particle duration exceeds the
 transition duration, the transition is stretched to match so
 particles do not get cut off mid-air.
 
-# Configurations
+
+
+## Configurations
 
 <table>
 <thead><tr><th>Setting</th><th>Type</th><th>Range / Values</th><th>Default</th><th>Condition</th><th>Description</th></tr></thead>

@@ -13,6 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
+# ./motion/proc/sm3
 
 Procedural paired sex motion for a female and male actor. The
 female side generates the sway, thrust timing, contact frame,
@@ -278,7 +279,9 @@ character-specific stance. Because many motion systems build on
 this pose, small leg edits can have a large downstream effect on
 balance and contact.
 
-# Configurations
+
+
+## Configurations
 
 <table>
 <thead><tr><th>Setting</th><th>Type</th><th>Range / Values</th><th>Default</th><th>Condition</th><th>Description</th></tr></thead>

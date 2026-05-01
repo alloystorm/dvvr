@@ -13,6 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
+# Sky
 
 Controls everything overhead — the sky background that fills the
 horizon, the ambient light it casts on the scene, and the global
@@ -96,7 +97,9 @@ realism on outdoor stages. **Wind Multiplier** scales the
 global wind for clouds only, so they can drift faster or
 slower than the rest of the scene.
 
-# Configurations
+
+
+## Configurations
 
 <table>
 <thead><tr><th>Setting</th><th>Type</th><th>Range / Values</th><th>Default</th><th>Condition</th><th>Description</th></tr></thead>

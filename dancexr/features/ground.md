@@ -13,6 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
+# Ground
 
 Controls the floor and surrounding stage that the scene sits on —
 ground surface, procedural stage and pool geometry, and (on HDRP)
@@ -167,7 +168,9 @@ clamps under-water refraction depth — higher values
 exaggerate distortion. **Caustics** sets the brightness of
 the projected caustic patterns on submerged geometry.
 
-# Configurations
+
+
+## Configurations
 
 <table>
 <thead><tr><th>Setting</th><th>Type</th><th>Range / Values</th><th>Default</th><th>Condition</th><th>Description</th></tr></thead>
