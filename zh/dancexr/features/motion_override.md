@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/motion_override) | [繁中](/tw/dancexr/features/motion_override) | [日本語](/jp/dancexr/features/motion_override) | [한국어](/kr/dancexr/features/motion_override) | [简中](/zh/dancexr/features/motion_override)
+
 
 ## 概述
 运动覆盖功能提供了高级工具，以定制和增强演员的动作。它与演员的绑定系统无缝集成，使得对身体、头部、手部和腿部动作的精确控制成为可能。此功能非常适合创建动态和同步的动画。

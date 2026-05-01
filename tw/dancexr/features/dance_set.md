@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/dance_set) | [繁中](/tw/dancexr/features/dance_set) | [日本語](/jp/dancexr/features/dance_set) | [한국어](/kr/dancexr/features/dance_set) | [简中](/zh/dancexr/features/dance_set)
+
 
 ## 總覽
 舞蹈集是一組音訊動作與攝影機動作（若有提供的話）。

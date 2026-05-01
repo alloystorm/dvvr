@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/simulation) | [繁中](/tw/dancexr/features/simulation) | [日本語](/jp/dancexr/features/simulation) | [한국어](/kr/dancexr/features/simulation) | [简中](/zh/dancexr/features/simulation)
+
 
 ## 模擬概述
 

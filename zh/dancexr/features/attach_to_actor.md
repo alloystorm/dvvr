@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/attach_to_actor) | [繁中](/tw/dancexr/features/attach_to_actor) | [日本語](/jp/dancexr/features/attach_to_actor) | [한국어](/kr/dancexr/features/attach_to_actor) | [简中](/zh/dancexr/features/attach_to_actor)
+
 
 ## 概述
 "附加到角色"模块允许您动态地将一个角色的骨骼附加到另一个角色，从而实现角色之间复杂的动画和交互。

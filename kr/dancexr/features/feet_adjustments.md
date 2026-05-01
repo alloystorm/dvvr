@@ -13,7 +13,7 @@ nav_links:
     url: /kr/dancexr/download
 ---
 
-[Eng](/dancexr/features/feet_adjustments) | [繁中](/tw/dancexr/features/feet_adjustments) | [日本語](/jp/dancexr/features/feet_adjustments) | [한국어](/kr/dancexr/features/feet_adjustments) | [简中](/zh/dancexr/features/feet_adjustments)
+
 
 ## 개요
 발 조정은 모델의 발 위치를 조정할 수 있게 해줍니다. 모델에게 올바른 발 위치를 제공하지 않을 때 유용합니다.

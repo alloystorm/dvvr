@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/material_skin) | [繁中](/tw/dancexr/features/material_skin) | [日本語](/jp/dancexr/features/material_skin) | [한국어](/kr/dancexr/features/material_skin) | [简中](/zh/dancexr/features/material_skin)
+
 
 ## 皮肤材质
 控制被归类为皮肤材质的材质属性。

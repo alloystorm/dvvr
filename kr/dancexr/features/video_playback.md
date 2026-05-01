@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/video_playback) | [繁中](/tw/dancexr/features/video_playback) | [日本語](/jp/dancexr/features/video_playback) | [한국어](/kr/dancexr/features/video_playback) | [简中](/zh/dancexr/features/video_playback)
+
 
 비디오 재생을 통해 비디오를 재생하고 이미지를 빛의 원천으로 투사하거나 씬 내 벽이나 소품 표면에 텍스처로 사용할 수 있습니다. 현재 MP4 형식만 지원됩니다. (폴더에 WEBM 파일이 있으면 인식하지만 vp8 인코딩만 지원됨을 염두에 두세요. WEBM 파일을로드하려고 시도했지만 아무 일도 일어나지 않으면 해당 파일의 인코딩이 지원되지 않는 것입니다.)
 

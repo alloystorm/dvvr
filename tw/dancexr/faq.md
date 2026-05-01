@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/faq) | [繁中](/tw/dancexr/faq) | [日本語](/jp/dancexr/faq) | [한국어](/kr/dancexr/faq) | [简中](/zh/dancexr/faq)
+
 
 
 ## 只顯示天空，無法使用UI或相機控制

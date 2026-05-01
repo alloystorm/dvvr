@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/sky_settings) | [繁中](/tw/dancexr/features/sky_settings) | [日本語](/jp/dancexr/features/sky_settings) | [한국어](/kr/dancexr/features/sky_settings) | [简中](/zh/dancexr/features/sky_settings)
+
 
 ## 概要
 スカイ設定は、シーンのスカイバックドロップ、アンビエントライティング、風、ボリュメトリッククラウドの外観を制御します。

@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/feet_adjustment) | [繁中](/tw/dancexr/features/feet_adjustment) | [日本語](/jp/dancexr/features/feet_adjustment) | [한국어](/kr/dancexr/features/feet_adjustment) | [简中](/zh/dancexr/features/feet_adjustment)
+
 
 調整雙足的位置和旋轉以匹配地面水平，模擬現實中的腳與地板接觸。支持高跟鞋、腳趾彎曲和虛擬鞋子可視化等功能。
 

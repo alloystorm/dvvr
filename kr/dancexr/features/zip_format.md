@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/zip_format) | [繁中](/tw/dancexr/features/zip_format) | [日本語](/jp/dancexr/features/zip_format) | [한국어](/kr/dancexr/features/zip_format) | [简中](/zh/dancexr/features/zip_format)
+
 
 
 ## ZIP 형식

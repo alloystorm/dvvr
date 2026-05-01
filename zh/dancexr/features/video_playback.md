@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/video_playback) | [繁中](/tw/dancexr/features/video_playback) | [日本語](/jp/dancexr/features/video_playback) | [한국어](/kr/dancexr/features/video_playback) | [简中](/zh/dancexr/features/video_playback)
+
 
 视频播放允许您播放视频，并将图像投影到灯光源上，或将其用作场景中墙壁或道具表面的纹理。目前，仅支持MP4格式。（它还会识别文件夹中的WEBM文件，但请记住，仅支持vp8编码。如果尝试加载webm文件但没有任何反应，那意味着该文件的编码不受支持。）
 

@@ -13,7 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
-[Eng](/dancexr/features/ai_chat) | [繁中](/tw/dancexr/features/ai_chat) | [日本語](/jp/dancexr/features/ai_chat) | [한국어](/kr/dancexr/features/ai_chat) | [简中](/zh/dancexr/features/ai_chat)
+
 
 ## AI Powered Voice Chat
 

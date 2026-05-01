@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/vr_settings) | [繁中](/tw/dancexr/features/vr_settings) | [日本語](/jp/dancexr/features/vr_settings) | [한국어](/kr/dancexr/features/vr_settings) | [简中](/zh/dancexr/features/vr_settings)
+
 
 ## 概覽
 VR 設定包含手部控制器、介面行為、指標校準和效能選項的 VR 專用配置。這些設定僅在 VR 模式下執行時相關。

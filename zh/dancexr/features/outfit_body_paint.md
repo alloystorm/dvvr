@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/outfit_body_paint) | [繁中](/tw/dancexr/features/outfit_body_paint) | [日本語](/jp/dancexr/features/outfit_body_paint) | [한국어](/kr/dancexr/features/outfit_body_paint) | [简中](/zh/dancexr/features/outfit_body_paint)
+
 
 ## 服装和身体彩绘概述
 此功能允许您通过在身体和服装上绘画来改变演员的外观。您还可以使用它来创建自定义服装图案。

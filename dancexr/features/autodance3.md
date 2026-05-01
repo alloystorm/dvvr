@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/autodance3) | [繁中](/tw/dancexr/features/autodance3) | [日本語](/jp/dancexr/features/autodance3) | [한국어](/kr/dancexr/features/autodance3) | [简中](/zh/dancexr/features/autodance3)
+
 
 
 ## Auto Dance 3

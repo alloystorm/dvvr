@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/pmx_physics) | [繁中](/tw/dancexr/features/pmx_physics) | [日本語](/jp/dancexr/features/pmx_physics) | [한국어](/kr/dancexr/features/pmx_physics) | [简中](/zh/dancexr/features/pmx_physics)
+
 
 
 ## PMX Model physics settings

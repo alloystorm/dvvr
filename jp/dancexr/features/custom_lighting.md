@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/custom_lighting) | [繁中](/tw/dancexr/features/custom_lighting) | [日本語](/jp/dancexr/features/custom_lighting) | [한국어](/kr/dancexr/features/custom_lighting) | [简中](/zh/dancexr/features/custom_lighting)
+
 
 ## 概要
 カスタムライティングでは、メインのディレクショナルライト（太陽または月）、最大3つの追加ライトグループ、フォグ、グローバルシーン輝度、ライト割り当てコントロールなど、シーンのライティングを設定できます。

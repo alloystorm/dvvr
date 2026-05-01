@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/content_android_quest) | [繁中](/tw/dancexr/content_android_quest) | [日本語](/jp/dancexr/content_android_quest) | [한국어](/kr/dancexr/content_android_quest) | [简中](/zh/dancexr/content_android_quest)
+
 
 ## 안드로이드 및 Oculus Quest용 콘텐츠 준비
 

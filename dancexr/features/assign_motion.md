@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/assign_motion) | [繁中](/tw/dancexr/features/assign_motion) | [日本語](/jp/dancexr/features/assign_motion) | [한국어](/kr/dancexr/features/assign_motion) | [简中](/zh/dancexr/features/assign_motion)
+
 
 
 ## From Motion Menu

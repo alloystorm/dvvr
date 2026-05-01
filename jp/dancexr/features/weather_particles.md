@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/weather_particles) | [繁中](/tw/dancexr/features/weather_particles) | [日本語](/jp/dancexr/features/weather_particles) | [한국어](/kr/dancexr/features/weather_particles) | [简中](/zh/dancexr/features/weather_particles)
+
 
 ## 概要
 ウェザーパーティクルは、雨、雪、落ち葉などの環境条件をシミュレートするための大気パーティクルエフェクトをシーンに追加します。組み込みプリセット：**オフ**、**ダスト**、**レイン**、**スノー**、**ペタル**、**リーフ**、**グリッター**。

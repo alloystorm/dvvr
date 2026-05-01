@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/faq) | [繁中](/tw/dancexr/faq) | [日本語](/jp/dancexr/faq) | [한국어](/kr/dancexr/faq) | [简中](/zh/dancexr/faq)
+
 
 
 ## Only sky is displayed, no UI or camera control available

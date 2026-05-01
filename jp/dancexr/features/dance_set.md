@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/dance_set) | [繁中](/tw/dancexr/features/dance_set) | [日本語](/jp/dancexr/features/dance_set) | [한국어](/kr/dancexr/features/dance_set) | [简中](/zh/dancexr/features/dance_set)
+
 
 ## 概要
 ダンスセットは、音声アクターのモーションとカメラのモーション（利用可能な場合）のコレクションです。

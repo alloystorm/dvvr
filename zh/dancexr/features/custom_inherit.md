@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/custom_inherit) | [繁中](/tw/dancexr/features/custom_inherit) | [日本語](/jp/dancexr/features/custom_inherit) | [한국어](/kr/dancexr/features/custom_inherit) | [简中](/zh/dancexr/features/custom_inherit)
+
 
 ## 自定义继承动作
 

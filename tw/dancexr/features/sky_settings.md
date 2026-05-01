@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/sky_settings) | [繁中](/tw/dancexr/features/sky_settings) | [日本語](/jp/dancexr/features/sky_settings) | [한국어](/kr/dancexr/features/sky_settings) | [简中](/zh/dancexr/features/sky_settings)
+
 
 ## 概覽
 天空設定控制場景中天空背景、環境光照、風和體積雲的外觀。

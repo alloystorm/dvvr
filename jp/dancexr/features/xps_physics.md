@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/xps_physics) | [繁中](/tw/dancexr/features/xps_physics) | [日本語](/jp/dancexr/features/xps_physics) | [한국어](/kr/dancexr/features/xps_physics) | [简中](/zh/dancexr/features/xps_physics)
+
 
 ## XPSモデル固有の設定
 XPSモデルには物理定義が付属していないため、プログラムはどこに物理コンポーネントを追加すべきかわかりません。このため、XPSモデルごとにいくつかの物理設定が追加され、XPSモデル上で物理コンポーネントを構成できるようになっています。

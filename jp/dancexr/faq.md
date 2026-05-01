@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/faq) | [繁中](/tw/dancexr/faq) | [日本語](/jp/dancexr/faq) | [한국어](/kr/dancexr/faq) | [简中](/zh/dancexr/faq)
+
 
 
 ## 空のスカイのみ表示され、UIやカメラの制御ができません

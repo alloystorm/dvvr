@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/outfit) | [繁中](/tw/dancexr/features/outfit) | [日本語](/jp/dancexr/features/outfit) | [한국어](/kr/dancexr/features/outfit) | [简中](/zh/dancexr/features/outfit)
+
 
 
 ## Overview

@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/remix) | [繁中](/tw/dancexr/features/remix) | [日本語](/jp/dancexr/features/remix) | [한국어](/kr/dancexr/features/remix) | [简中](/zh/dancexr/features/remix)
+
 
 
 ## Overview

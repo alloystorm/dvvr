@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/keyframe_animation) | [繁中](/tw/dancexr/features/keyframe_animation) | [日本語](/jp/dancexr/features/keyframe_animation) | [한국어](/kr/dancexr/features/keyframe_animation) | [简中](/zh/dancexr/features/keyframe_animation)
+
 
 # 關鍵幀動畫
 

@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/sky_settings) | [繁中](/tw/dancexr/features/sky_settings) | [日本語](/jp/dancexr/features/sky_settings) | [한국어](/kr/dancexr/features/sky_settings) | [简中](/zh/dancexr/features/sky_settings)
+
 
 ## Overview
 Sky settings control the appearance of the sky backdrop, ambient lighting, wind, and volumetric clouds in the scene.

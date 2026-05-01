@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/custom_lighting) | [繁中](/tw/dancexr/features/custom_lighting) | [日本語](/jp/dancexr/features/custom_lighting) | [한국어](/kr/dancexr/features/custom_lighting) | [简中](/zh/dancexr/features/custom_lighting)
+
 
 ## 개요
 커스텀 조명은 주 방향 조명(태양 또는 달), 최대 세 개의 추가 조명 그룹, 안개, 전역 씬 밝기, 조명 할당 제어 등 씬의 조명을 구성할 수 있습니다.

@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/cloth_simulation) | [繁中](/tw/dancexr/features/cloth_simulation) | [日本語](/jp/dancexr/features/cloth_simulation) | [한국어](/kr/dancexr/features/cloth_simulation) | [简中](/zh/dancexr/features/cloth_simulation)
+
 
 # クロスシミュレーション
 クロスシミュレーションは、粒子の動きとそれらの間の拘束をシミュレートすることによって、リアルな衣服や布の効果を作成します。バージョン2024.8から、キャラクターのための衣服を作成し、それらが動いてモーションと相互作用するのを見ることができます。

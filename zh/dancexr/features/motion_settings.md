@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/motion_settings) | [繁中](/tw/dancexr/features/motion_settings) | [日本語](/jp/dancexr/features/motion_settings) | [한국어](/kr/dancexr/features/motion_settings) | [简中](/zh/dancexr/features/motion_settings)
+
 
 ## 概述
 运动设置允许您选择动作是T形还是A形，调整运动速度并更改循环选项。

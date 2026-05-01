@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/attach_to_actor) | [繁中](/tw/dancexr/features/attach_to_actor) | [日本語](/jp/dancexr/features/attach_to_actor) | [한국어](/kr/dancexr/features/attach_to_actor) | [简中](/zh/dancexr/features/attach_to_actor)
+
 
 ## 概要
 Attach To Actorモジュールは、1つのアクターから別のアクターにボーンを動的にアタッチすることを可能にし、キャラクター間の複雑なアニメーションやインタラクションを実現します。

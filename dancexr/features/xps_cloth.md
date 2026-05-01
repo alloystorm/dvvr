@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/xps_cloth) | [繁中](/tw/dancexr/features/xps_cloth) | [日本語](/jp/dancexr/features/xps_cloth) | [한국어](/kr/dancexr/features/xps_cloth) | [简中](/zh/dancexr/features/xps_cloth)
+
 
 
 ### Clothing Physics

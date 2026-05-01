@@ -13,7 +13,7 @@ nav_links:
     url: /kr/dancexr/download
 ---
 
-[Eng](/dancexr/features/sex_motion_3) | [繁中](/tw/dancexr/features/sex_motion_3) | [日本語](/jp/dancexr/features/sex_motion_3) | [한국어](/kr/dancexr/features/sex_motion_3) | [简中](/zh/dancexr/features/sex_motion_3)
+
 
 여성과 남성 역할을 위한 절차형 페어 섹스 모션 시스템입니다. 여성 쪽이 흔들림, 박자, 접촉 기준 프레임, 흥분 상태를 생성하고, 남성 쪽은 그 접촉 프레임에 바인딩되어 두 개의 독립된 애니메이션처럼 따로 떠다니지 않고 한 쌍으로 단단히 맞물린 상태를 유지합니다.
 

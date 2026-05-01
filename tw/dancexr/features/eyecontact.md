@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/eyecontact) | [繁中](/tw/dancexr/features/eyecontact) | [日本語](/jp/dancexr/features/eyecontact) | [한국어](/kr/dancexr/features/eyecontact) | [简中](/zh/dancexr/features/eyecontact)
+
 
 
 ## 眼神交流

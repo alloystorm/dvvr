@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/weather_particles) | [繁中](/tw/dancexr/features/weather_particles) | [日本語](/jp/dancexr/features/weather_particles) | [한국어](/kr/dancexr/features/weather_particles) | [简中](/zh/dancexr/features/weather_particles)
+
 
 ## 개요
 날씨 파티클은 비, 눈, 낙엽 등의 환경 조건을 시뮬레이션하는 대기 파티클 효과를 씬에 추가합니다. 내장 프리셋: **끄기**, **먼지**, **비**, **눈**, **꽃잎**, **낙엽**, **반짝이**.

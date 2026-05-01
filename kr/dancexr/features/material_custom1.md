@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/material_custom1) | [繁中](/tw/dancexr/features/material_custom1) | [日本語](/jp/dancexr/features/material_custom1) | [한국어](/kr/dancexr/features/material_custom1) | [简中](/zh/dancexr/features/material_custom1)
+
 
 ## 사용자 정의 재질
 기본적으로 이 기능은 꺼져 있으며 할당된 재질이 없습니다.

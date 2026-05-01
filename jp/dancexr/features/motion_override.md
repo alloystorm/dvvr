@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/motion_override) | [繁中](/tw/dancexr/features/motion_override) | [日本語](/jp/dancexr/features/motion_override) | [한국어](/kr/dancexr/features/motion_override) | [简中](/zh/dancexr/features/motion_override)
+
 
 ## 概要
 モーションオーバーライド機能は、アクターの動きをカスタマイズし強化するための高度なツールを提供します。アクターのリギングシステムとシームレスに統合されており、体、頭、手、脚の動きを正確に制御できます。この機能は、動的で同期したアニメーションを作成するのに最適です。

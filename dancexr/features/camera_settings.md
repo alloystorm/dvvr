@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/camera_settings) | [繁中](/tw/dancexr/features/camera_settings) | [日本語](/jp/dancexr/features/camera_settings) | [한국어](/kr/dancexr/features/camera_settings) | [简中](/zh/dancexr/features/camera_settings)
+
 
 ## Overview
 Camera settings control the behavior and position of the camera rig, including height, field of view, and how motion data affects the camera.

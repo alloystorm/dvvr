@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/texture_enhancement) | [繁中](/tw/dancexr/features/texture_enhancement) | [日本語](/jp/dancexr/features/texture_enhancement) | [한국어](/kr/dancexr/features/texture_enhancement) | [简中](/zh/dancexr/features/texture_enhancement)
+
 
 ## 纹理增强
 您可以通过利用特定效果的高光贴图来增强此类别中材质的纹理，从基础贴图或高光贴图生成法线贴图，以及使用自定义细节贴图来改善材质的细节。

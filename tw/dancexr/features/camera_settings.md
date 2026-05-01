@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/camera_settings) | [繁中](/tw/dancexr/features/camera_settings) | [日本語](/jp/dancexr/features/camera_settings) | [한국어](/kr/dancexr/features/camera_settings) | [简中](/zh/dancexr/features/camera_settings)
+
 
 ## 概覽
 相機設定控制相機架的行為和位置，包括高度、視野角以及動作數據如何影響相機。

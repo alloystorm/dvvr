@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/sky) | [繁中](/tw/dancexr/features/sky) | [日本語](/jp/dancexr/features/sky) | [한국어](/kr/dancexr/features/sky) | [简中](/zh/dancexr/features/sky)
+
 
 SkySetting은 하늘 렌더링을 관리하며, 하늘 맵, 프로시저 하늘, 앰비언트 라이팅, 그리고 바람 효과를 포함합니다.
 

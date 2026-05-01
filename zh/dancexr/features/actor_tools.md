@@ -13,7 +13,7 @@ nav_links:
     url: /zh/dancexr/download
 ---
 
-[Eng](/dancexr/features/actor_tools) | [繁中](/tw/dancexr/features/actor_tools) | [日本語](/jp/dancexr/features/actor_tools) | [한국어](/kr/dancexr/features/actor_tools) | [简中](/zh/dancexr/features/actor_tools)
+
 
 ## 鼠标和指针交互
 以下是您可以使用鼠标和VR指针进行的操作。

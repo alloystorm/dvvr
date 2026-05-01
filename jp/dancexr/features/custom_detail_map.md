@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/custom_detail_map) | [繁中](/tw/dancexr/features/custom_detail_map) | [日本語](/jp/dancexr/features/custom_detail_map) | [한국어](/kr/dancexr/features/custom_detail_map) | [简中](/zh/dancexr/features/custom_detail_map)
+
 
 ## カスタムディテールマップ
 カスタムディテールマップを使用すると、マテリアルにカスタムディテールマップを追加できます。このマップは、ベースマップに存在しないマテリアルの詳細を追加するために使用できます。

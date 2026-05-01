@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/googledrive) | [繁中](/tw/dancexr/features/googledrive) | [日本語](/jp/dancexr/features/googledrive) | [한국어](/kr/dancexr/features/googledrive) | [简中](/zh/dancexr/features/googledrive)
+
 
 
 ## Google Drive 통합

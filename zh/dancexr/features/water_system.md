@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/water_system) | [繁中](/tw/dancexr/features/water_system) | [日本語](/jp/dancexr/features/water_system) | [한국어](/kr/dancexr/features/water_system) | [简中](/zh/dancexr/features/water_system)
+
 
 ## 舞台几何和水系统
 {% include video id="K3WSqEj7K-4" provider="youtube" %}

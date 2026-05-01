@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/sky) | [繁中](/tw/dancexr/features/sky) | [日本語](/jp/dancexr/features/sky) | [한국어](/kr/dancexr/features/sky) | [简中](/zh/dancexr/features/sky)
+
 
 スカイ設定は、スカイマップ、プロシージャルスカイ、アンビエントライティング、風の効果を含む空のレンダリングを管理します。
 

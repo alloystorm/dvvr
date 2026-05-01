@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/material_hair) | [繁中](/tw/dancexr/features/material_hair) | [日本語](/jp/dancexr/features/material_hair) | [한국어](/kr/dancexr/features/material_hair) | [简中](/zh/dancexr/features/material_hair)
+
 
 ## 髮質材料
 控制被歸類為髮質材料的材料的屬性。

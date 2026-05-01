@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/transparency) | [繁中](/tw/dancexr/features/transparency) | [日本語](/jp/dancexr/features/transparency) | [한국어](/kr/dancexr/features/transparency) | [简中](/zh/dancexr/features/transparency)
+
 
 
 ## 투명 재료

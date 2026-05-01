@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/hexagon_detail) | [繁中](/tw/dancexr/features/hexagon_detail) | [日本語](/jp/dancexr/features/hexagon_detail) | [한국어](/kr/dancexr/features/hexagon_detail) | [简中](/zh/dancexr/features/hexagon_detail)
+
 
 ## 육각형 패턴 디테일 맵
 이것은 즉석에서 생성되는 프로시저 디테일 맵입니다. 디테일 맵을 지원하는 재료 카테고리와 의상 효과에 사용할 수 있습니다.

@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/physics) | [繁中](/tw/dancexr/features/physics) | [日本語](/jp/dancexr/features/physics) | [한국어](/kr/dancexr/features/physics) | [简中](/zh/dancexr/features/physics)
+
 ## ## 물리학 조정
 
 ### 시스템 전체 물리학 설정

@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/music_timing) | [繁中](/tw/dancexr/features/music_timing) | [日本語](/jp/dancexr/features/music_timing) | [한국어](/kr/dancexr/features/music_timing) | [简中](/zh/dancexr/features/music_timing)
+
 
 ## 개요  
 모든 프로시저 동작에 있어 음악 타이밍 정보는 매우 중요합니다. 이는 동작을 음악과 일치시키기 위해 사용됩니다. 이 정보가 없으면 BPM(분당 비트 수)은 기본값인 120으로 설정되어 음악과 동기화되지 않을 것입니다.  

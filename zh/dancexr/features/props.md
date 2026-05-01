@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/props) | [繁中](/tw/dancexr/features/props) | [日本語](/jp/dancexr/features/props) | [한국어](/kr/dancexr/features/props) | [简中](/zh/dancexr/features/props)
+
 
 
 ## 新的道具功能

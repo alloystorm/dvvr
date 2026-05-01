@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/global_actor_control) | [繁中](/tw/dancexr/features/global_actor_control) | [日本語](/jp/dancexr/features/global_actor_control) | [한국어](/kr/dancexr/features/global_actor_control) | [简中](/zh/dancexr/features/global_actor_control)
+
 
 ## Overview
 Global Actor Control provides scene-wide scaling settings that apply uniformly to all loaded actors.

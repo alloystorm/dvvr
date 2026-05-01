@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/operator) | [繁中](/tw/dancexr/features/operator) | [日本語](/jp/dancexr/features/operator) | [한국어](/kr/dancexr/features/operator) | [简中](/zh/dancexr/features/operator)
+
 
 # DanceXR Operator
 DanceXR Operator は DanceXR 専用の AI バックエンドであり、高度な音声合成、大規模言語モデル (LLM) チャット、ダイナミックなロールプレイ機能をゲームに提供します。

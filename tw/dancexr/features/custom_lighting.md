@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/custom_lighting) | [繁中](/tw/dancexr/features/custom_lighting) | [日本語](/jp/dancexr/features/custom_lighting) | [한국어](/kr/dancexr/features/custom_lighting) | [简中](/zh/dancexr/features/custom_lighting)
+
 
 ## 概覽
 自訂光照可設定場景的光照，包括主方向光（太陽或月亮）、最多三個額外光照組、霧效、全域場景亮度以及光照分配控制。

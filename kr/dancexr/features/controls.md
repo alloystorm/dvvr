@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/controls) | [繁中](/tw/dancexr/features/controls) | [日本語](/jp/dancexr/features/controls) | [한국어](/kr/dancexr/features/controls) | [简中](/zh/dancexr/features/controls)
+
 
 ## 개요
 DanceXR의 입력 맵핑은 인기 있는 VR 컨트롤러 및 게임패드를 기반으로 합니다.

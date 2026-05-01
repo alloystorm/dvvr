@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/camera_settings) | [繁中](/tw/dancexr/features/camera_settings) | [日本語](/jp/dancexr/features/camera_settings) | [한국어](/kr/dancexr/features/camera_settings) | [简中](/zh/dancexr/features/camera_settings)
+
 
 ## 概述
 相机设置控制相机装置的行为和位置，包括高度、视野角以及动作数据如何影响相机。

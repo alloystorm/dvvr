@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/vr_settings) | [繁中](/tw/dancexr/features/vr_settings) | [日本語](/jp/dancexr/features/vr_settings) | [한국어](/kr/dancexr/features/vr_settings) | [简中](/zh/dancexr/features/vr_settings)
+
 
 ## 개요
 VR 설정에는 핸드 컨트롤러, UI 동작, 포인터 보정, 성능 옵션을 위한 VR 전용 구성이 포함되어 있습니다. 이 설정은 VR 모드에서 실행할 때만 관련이 있습니다.

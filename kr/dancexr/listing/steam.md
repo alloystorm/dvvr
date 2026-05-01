@@ -1,4 +1,4 @@
-[Eng](/dancexr/listing/steam) | [繁中](/tw/dancexr/listing/steam) | [日本語](/jp/dancexr/listing/steam) | [한국어](/kr/dancexr/listing/steam) | [简中](/zh/dancexr/listing/steam)
+
 
 어디든 무대가 되고, 모델은 자유롭게 애니메이션
 

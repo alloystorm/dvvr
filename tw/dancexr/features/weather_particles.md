@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/weather_particles) | [繁中](/tw/dancexr/features/weather_particles) | [日本語](/jp/dancexr/features/weather_particles) | [한국어](/kr/dancexr/features/weather_particles) | [简中](/zh/dancexr/features/weather_particles)
+
 
 ## 概覽
 天氣粒子為場景添加大氣粒子效果，模擬雨、雪或落葉等環境條件。內建預設包括：**關閉**、**塵土**、**雨**、**雪**、**花瓣**、**落葉**、**閃光**。

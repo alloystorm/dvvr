@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/particles) | [繁中](/tw/dancexr/features/particles) | [日本語](/jp/dancexr/features/particles) | [한국어](/kr/dancexr/features/particles) | [简中](/zh/dancexr/features/particles)
+
 
 
 ## Overview

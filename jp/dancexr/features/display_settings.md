@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/display_settings) | [繁中](/tw/dancexr/features/display_settings) | [日本語](/jp/dancexr/features/display_settings) | [한국어](/kr/dancexr/features/display_settings) | [简中](/zh/dancexr/features/display_settings)
+
 
 ## 概要
 ディスプレイ設定では、UI、画面解像度、フレームレートに関する設定を変更できます。

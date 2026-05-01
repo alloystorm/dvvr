@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/discovery) | [繁中](/tw/dancexr/features/discovery) | [日本語](/jp/dancexr/features/discovery) | [한국어](/kr/dancexr/features/discovery) | [简中](/zh/dancexr/features/discovery)
+
 
 ## DanceXR 探索应用
 轻松扩展您的 DanceXR 库，享受无缝的资源管理

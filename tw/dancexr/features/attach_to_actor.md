@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/attach_to_actor) | [繁中](/tw/dancexr/features/attach_to_actor) | [日本語](/jp/dancexr/features/attach_to_actor) | [한국어](/kr/dancexr/features/attach_to_actor) | [简中](/zh/dancexr/features/attach_to_actor)
+
 
 ## 概述
 附加至演員模組允許您動態地將一個演員的骨骼附加到另一個演員上，使角色之間能夠進行複雜的動畫和互動。

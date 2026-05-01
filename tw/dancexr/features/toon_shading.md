@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/toon_shading) | [繁中](/tw/dancexr/features/toon_shading) | [日本語](/jp/dancexr/features/toon_shading) | [한국어](/kr/dancexr/features/toon_shading) | [简中](/zh/dancexr/features/toon_shading)
+
 
 ## 卡通著色
 

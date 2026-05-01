@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/display_settings) | [繁中](/tw/dancexr/features/display_settings) | [日本語](/jp/dancexr/features/display_settings) | [한국어](/kr/dancexr/features/display_settings) | [简中](/zh/dancexr/features/display_settings)
+
 
 ## 概覽
 顯示設定允許更改與介面、螢幕解析度和幀率相關的配置。

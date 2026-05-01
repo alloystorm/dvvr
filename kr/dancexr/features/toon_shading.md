@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/toon_shading) | [繁中](/tw/dancexr/features/toon_shading) | [日本語](/jp/dancexr/features/toon_shading) | [한국어](/kr/dancexr/features/toon_shading) | [简中](/zh/dancexr/features/toon_shading)
+
 
 ## 만화식 그림자
 

@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/physics) | [繁中](/tw/dancexr/features/physics) | [日本語](/jp/dancexr/features/physics) | [한국어](/kr/dancexr/features/physics) | [简中](/zh/dancexr/features/physics)
+
 ## ## 物理の微調整
 
 ### システム全体の物理設定

@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/skymap) | [繁中](/tw/dancexr/features/skymap) | [日本語](/jp/dancexr/features/skymap) | [한국어](/kr/dancexr/features/skymap) | [简中](/zh/dancexr/features/skymap)
+
 
 ## 하늘 모드
 하늘을 렌더링할 때 스카이 맵, 순수한 색 또는 프로시저 모드를 선택할 수 있습니다.

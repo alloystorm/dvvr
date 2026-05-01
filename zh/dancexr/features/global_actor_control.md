@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/global_actor_control) | [繁中](/tw/dancexr/features/global_actor_control) | [日本語](/jp/dancexr/features/global_actor_control) | [한국어](/kr/dancexr/features/global_actor_control) | [简中](/zh/dancexr/features/global_actor_control)
+
 
 ## 概述
 全局角色控制提供场景范围的缩放设置，统一应用于所有已加载的角色。

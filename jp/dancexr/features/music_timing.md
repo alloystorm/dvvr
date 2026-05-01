@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/music_timing) | [繁中](/tw/dancexr/features/music_timing) | [日本語](/jp/dancexr/features/music_timing) | [한국어](/kr/dancexr/features/music_timing) | [简中](/zh/dancexr/features/music_timing)
+
 
 ## 概要
 音楽のタイミング情報は、すべてのプロシージャルモーションにとって非常に重要です。なぜなら、それはモーションを音楽に合わせるために使用されるからです。それがなければ、BPM（ビート毎分）はデフォルトで120になり、音楽と同期しません。

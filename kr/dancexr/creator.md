@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/creator) | [繁中](/tw/dancexr/creator) | [日本語](/jp/dancexr/creator) | [한국어](/kr/dancexr/creator) | [简中](/zh/dancexr/creator)
+
 
 
 # 크리에이터 에디션

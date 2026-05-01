@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/attach_to_actor) | [繁中](/tw/dancexr/features/attach_to_actor) | [日本語](/jp/dancexr/features/attach_to_actor) | [한국어](/kr/dancexr/features/attach_to_actor) | [简中](/zh/dancexr/features/attach_to_actor)
+
 
 ## 개요
 Attach To Actor 모듈은 하나의 액터에서 다른 액터로 본을 동적으로 연결할 수 있게 하여, 캐릭터 간의 복잡한 애니메이션과 상호작용을 가능하게 합니다.

@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/display_settings) | [繁中](/tw/dancexr/features/display_settings) | [日本語](/jp/dancexr/features/display_settings) | [한국어](/kr/dancexr/features/display_settings) | [简中](/zh/dancexr/features/display_settings)
+
 
 ## 개요
 디스플레이 설정을 통해 UI, 화면 해상도 및 프레임 속도에 관한 구성을 변경할 수 있습니다.

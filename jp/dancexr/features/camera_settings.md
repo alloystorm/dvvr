@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/camera_settings) | [繁中](/tw/dancexr/features/camera_settings) | [日本語](/jp/dancexr/features/camera_settings) | [한국어](/kr/dancexr/features/camera_settings) | [简中](/zh/dancexr/features/camera_settings)
+
 
 ## 概要
 カメラ設定は、高さ、視野角、モーションデータのカメラへの影響など、カメラリグの動作と位置を制御します。

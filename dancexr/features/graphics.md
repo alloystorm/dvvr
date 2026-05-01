@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/graphics) | [繁中](/tw/dancexr/features/graphics) | [日本語](/jp/dancexr/features/graphics) | [한국어](/kr/dancexr/features/graphics) | [简中](/zh/dancexr/features/graphics)
+
 
 ## Overview
 The Graphics settings control the visual quality of the scene. These settings affect rendering performance, so balancing quality and performance to suit your hardware is recommended.

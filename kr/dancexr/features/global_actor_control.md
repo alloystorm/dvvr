@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/global_actor_control) | [繁中](/tw/dancexr/features/global_actor_control) | [日本語](/jp/dancexr/features/global_actor_control) | [한국어](/kr/dancexr/features/global_actor_control) | [简中](/zh/dancexr/features/global_actor_control)
+
 
 ## 개요
 전역 액터 컨트롤은 로드된 모든 액터에 균일하게 적용되는 씬 전체 스케일 설정을 제공합니다.

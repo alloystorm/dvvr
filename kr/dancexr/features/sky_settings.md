@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/sky_settings) | [繁中](/tw/dancexr/features/sky_settings) | [日本語](/jp/dancexr/features/sky_settings) | [한국어](/kr/dancexr/features/sky_settings) | [简中](/zh/dancexr/features/sky_settings)
+
 
 ## 개요
 하늘 설정은 씬의 하늘 배경, 주변 조명, 바람, 그리고 체적 구름의 외관을 제어합니다.

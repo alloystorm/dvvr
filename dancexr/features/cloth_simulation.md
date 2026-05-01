@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/cloth_simulation) | [繁中](/tw/dancexr/features/cloth_simulation) | [日本語](/jp/dancexr/features/cloth_simulation) | [한국어](/kr/dancexr/features/cloth_simulation) | [简中](/zh/dancexr/features/cloth_simulation)
+
 
 # Cloth Simulation
 Cloth simulation creates realistic clothing and fabric effects by simulating the movements of particles and constraints between them. From version 2024.8 you can create clothings for your character and watch them move and interact with the motion.

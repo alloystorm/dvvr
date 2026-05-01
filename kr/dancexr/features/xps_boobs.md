@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/xps_boobs) | [繁中](/tw/dancexr/features/xps_boobs) | [日本語](/jp/dancexr/features/xps_boobs) | [한국어](/kr/dancexr/features/xps_boobs) | [简中](/zh/dancexr/features/xps_boobs)
+
 
 ## 가슴 물리
 

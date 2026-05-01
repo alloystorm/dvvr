@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/physics_softbody) | [繁中](/tw/dancexr/features/physics_softbody) | [日本語](/jp/dancexr/features/physics_softbody) | [한국어](/kr/dancexr/features/physics_softbody) | [简中](/zh/dancexr/features/physics_softbody)
+
 
 입자 역학을 이용하여 추가 제어 본을 구동합니다.
 

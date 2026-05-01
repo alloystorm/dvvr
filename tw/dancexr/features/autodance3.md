@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/autodance3) | [繁中](/tw/dancexr/features/autodance3) | [日本語](/jp/dancexr/features/autodance3) | [한국어](/kr/dancexr/features/autodance3) | [简中](/zh/dancexr/features/autodance3)
+
 
 ## 自動舞蹈 3
 這是一個類似於[SM3](sm3_motion.md)的程序運動，但沒有不適宜瀏覽的部分。

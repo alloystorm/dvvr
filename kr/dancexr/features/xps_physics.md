@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/xps_physics) | [繁中](/tw/dancexr/features/xps_physics) | [日本語](/jp/dancexr/features/xps_physics) | [한국어](/kr/dancexr/features/xps_physics) | [简中](/zh/dancexr/features/xps_physics)
+
 
 ## XPS 모델 특정 설정
 XPS 모델에는 물리학 정의가 포함되어 있지 않기 때문에 프로그램은 어디에 물리학 구성 요소를 추가해야 하는지 모릅니다. 이를 해결하기 위해 각 XPS 모델에 여러 물리학 설정이 추가되어 있어 물리학 구성 요소를 구성할 수 있습니다.

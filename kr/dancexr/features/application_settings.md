@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/application_settings) | [繁中](/tw/dancexr/features/application_settings) | [日本語](/jp/dancexr/features/application_settings) | [한국어](/kr/dancexr/features/application_settings) | [简中](/zh/dancexr/features/application_settings)
+
 
 응용 프로그램 설정
 

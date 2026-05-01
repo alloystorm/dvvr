@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/vr_settings) | [繁中](/tw/dancexr/features/vr_settings) | [日本語](/jp/dancexr/features/vr_settings) | [한국어](/kr/dancexr/features/vr_settings) | [简中](/zh/dancexr/features/vr_settings)
+
 
 ## Overview
 VR settings contain VR-specific configuration for hand controllers, UI behavior, pointer calibration, and performance options. These settings are only relevant when running in VR mode.

@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/loader_options) | [繁中](/tw/dancexr/features/loader_options) | [日本語](/jp/dancexr/features/loader_options) | [한국어](/kr/dancexr/features/loader_options) | [简中](/zh/dancexr/features/loader_options)
+
 
 
 ## 개요

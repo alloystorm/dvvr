@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/scene_bundle) | [繁中](/tw/dancexr/features/scene_bundle) | [日本語](/jp/dancexr/features/scene_bundle) | [한국어](/kr/dancexr/features/scene_bundle) | [简中](/zh/dancexr/features/scene_bundle)
+
 
 
 ## Scene Bundle

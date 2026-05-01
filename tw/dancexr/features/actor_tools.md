@@ -13,7 +13,7 @@ nav_links:
     url: /tw/dancexr/download
 ---
 
-[Eng](/dancexr/features/actor_tools) | [繁中](/tw/dancexr/features/actor_tools) | [日本語](/jp/dancexr/features/actor_tools) | [한국어](/kr/dancexr/features/actor_tools) | [简中](/zh/dancexr/features/actor_tools)
+
 
 ## 滑鼠和指標互動
 以下是您可以使用滑鼠和VR指標進行的操作。

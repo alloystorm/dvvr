@@ -32,7 +32,7 @@ sidebar:
   nav: "docs"
 ---
 
-[Eng](/dancexr/<path>) | [繁中](/tw/dancexr/<path>) | [日本語](/jp/dancexr/<path>) | [한국어](/kr/dancexr/<path>) | [简中](/zh/dancexr/<path>)
+
 
 Body content here...
 ```

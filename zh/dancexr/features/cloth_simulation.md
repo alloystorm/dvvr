@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/cloth_simulation) | [繁中](/tw/dancexr/features/cloth_simulation) | [日本語](/jp/dancexr/features/cloth_simulation) | [한국어](/kr/dancexr/features/cloth_simulation) | [简中](/zh/dancexr/features/cloth_simulation)
+
 
 # 服装模拟
 服装模拟通过模拟粒子之间的运动和约束来创建逼真的服装和布料效果。从版本2024.8开始，您可以为您的角色创建服装，并观察它们随着动作的移动和互动。

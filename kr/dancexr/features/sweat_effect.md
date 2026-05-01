@@ -12,4 +12,4 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/sweat_effect) | [繁中](/tw/dancexr/features/sweat_effect) | [日本語](/jp/dancexr/features/sweat_effect) | [한국어](/kr/dancexr/features/sweat_effect) | [简中](/zh/dancexr/features/sweat_effect)
+

@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/video_playback) | [繁中](/tw/dancexr/features/video_playback) | [日本語](/jp/dancexr/features/video_playback) | [한국어](/kr/dancexr/features/video_playback) | [简中](/zh/dancexr/features/video_playback)
+
 
 
 Video playback allows you to play a video and have the image projected from a light source or used as a texture on wall or prop surfaces in your scene. Currently, only MP4 format is supported. (It will also recognise WEBM files in the folder but keep in mind that only vp8 encoding is supported. If you try to load a webm file but nothing happens, that means the encoding of that file is not supported.)

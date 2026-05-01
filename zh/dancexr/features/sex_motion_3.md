@@ -13,7 +13,7 @@ nav_links:
     url: /zh/dancexr/download
 ---
 
-[Eng](/dancexr/features/sex_motion_3) | [繁中](/tw/dancexr/features/sex_motion_3) | [日本語](/jp/dancexr/features/sex_motion_3) | [한국어](/kr/dancexr/features/sex_motion_3) | [简中](/zh/dancexr/features/sex_motion_3)
+
 
 这是一个面向女性与男性双角色的程序化成对性动作系统。女性侧负责生成摇摆、抽插节奏、接触参考框架与兴奋状态，男性侧则绑定到这个接触框架上，从而避免两段独立动画彼此漂移，让整个配对保持锁定。
 

@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/xps_softbody) | [繁中](/tw/dancexr/features/xps_softbody) | [日本語](/jp/dancexr/features/xps_softbody) | [한국어](/kr/dancexr/features/xps_softbody) | [简中](/zh/dancexr/features/xps_softbody)
+
 
 ## 软体物理
 

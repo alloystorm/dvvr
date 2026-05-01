@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/vr_settings) | [繁中](/tw/dancexr/features/vr_settings) | [日本語](/jp/dancexr/features/vr_settings) | [한국어](/kr/dancexr/features/vr_settings) | [简中](/zh/dancexr/features/vr_settings)
+
 
 ## 概要
 VR設定には、ハンドコントローラー、UIの動作、ポインター校正、およびパフォーマンスオプションのVR固有の設定が含まれています。これらの設定はVRモードで実行する場合にのみ関連します。

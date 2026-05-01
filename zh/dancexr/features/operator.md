@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/operator) | [繁中](/tw/dancexr/features/operator) | [日本語](/jp/dancexr/features/operator) | [한국어](/kr/dancexr/features/operator) | [简中](/zh/dancexr/features/operator)
+
 
 # DanceXR Operator
 DanceXR Operator 是 DanceXR 的专用 AI 后端，为游戏提供高级语音合成、大语言模型 (LLM) 聊天以及动态角色扮演功能。

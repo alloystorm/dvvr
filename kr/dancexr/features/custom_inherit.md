@@ -12,6 +12,6 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/custom_inherit) | [繁中](/tw/dancexr/features/custom_inherit) | [日本語](/jp/dancexr/features/custom_inherit) | [한국어](/kr/dancexr/features/custom_inherit) | [简中](/zh/dancexr/features/custom_inherit)
+
 
 ## 사용자 정의 상속 모션

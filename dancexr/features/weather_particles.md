@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/weather_particles) | [繁中](/tw/dancexr/features/weather_particles) | [日本語](/jp/dancexr/features/weather_particles) | [한국어](/kr/dancexr/features/weather_particles) | [简中](/zh/dancexr/features/weather_particles)
+
 
 ## Overview
 Weather particles add atmospheric particle effects to the scene to simulate environmental conditions such as rain, snow, or falling leaves. Built-in presets are available: **Off**, **Dust**, **Rain**, **Snow**, **Petal**, **Leaf**, **Glitter**.

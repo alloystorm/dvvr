@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/material_settings) | [繁中](/tw/dancexr/features/material_settings) | [日本語](/jp/dancexr/features/material_settings) | [한국어](/kr/dancexr/features/material_settings) | [简中](/zh/dancexr/features/material_settings)
+
 
 ## 재료가 어떻게 구성되는지<a id="material-category"></a>
 

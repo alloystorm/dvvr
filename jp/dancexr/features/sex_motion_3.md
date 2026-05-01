@@ -13,7 +13,7 @@ nav_links:
     url: /jp/dancexr/download
 ---
 
-[Eng](/dancexr/features/sex_motion_3) | [繁中](/tw/dancexr/features/sex_motion_3) | [日本語](/jp/dancexr/features/sex_motion_3) | [한국어](/kr/dancexr/features/sex_motion_3) | [简中](/zh/dancexr/features/sex_motion_3)
+
 
 女性役と男性役の 2 人を対象にしたプロシージャルなペア用セックスモーションです。女性側が揺れ、突きのタイミング、接触フレーム、興奮状態を生成し、男性側はその接触フレームに追従することで、独立した 2 つのアニメーションのようにずれず、ペア全体を密着したまま維持します。
 

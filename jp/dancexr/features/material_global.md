@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/material_global) | [繁中](/tw/dancexr/features/material_global) | [日本語](/jp/dancexr/features/material_global) | [한국어](/kr/dancexr/features/material_global) | [简中](/zh/dancexr/features/material_global)
+
 
 ## Global Material Settings
 アクターモデルのすべてのマテリアルの特定のプロパティを変更します。

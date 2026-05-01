@@ -13,7 +13,7 @@ nav_links:
     url: /tw/dancexr/download
 ---
 
-[Eng](/dancexr/features/feet_adjustments) | [繁中](/tw/dancexr/features/feet_adjustments) | [日本語](/jp/dancexr/features/feet_adjustments) | [한국어](/kr/dancexr/features/feet_adjustments) | [简中](/zh/dancexr/features/feet_adjustments)
+
 
 ## 概述
 腳部調整功能可以調整模型的腳部位置。當腳部位置不正確時，這一功能非常有用。

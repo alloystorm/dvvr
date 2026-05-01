@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/xps_body_colliders) | [繁中](/tw/dancexr/features/xps_body_colliders) | [日本語](/jp/dancexr/features/xps_body_colliders) | [한국어](/kr/dancexr/features/xps_body_colliders) | [简中](/zh/dancexr/features/xps_body_colliders)
+
 
 
 ### Bone Colliders 

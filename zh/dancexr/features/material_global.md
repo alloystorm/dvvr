@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/material_global) | [繁中](/tw/dancexr/features/material_global) | [日本語](/jp/dancexr/features/material_global) | [한국어](/kr/dancexr/features/material_global) | [简中](/zh/dancexr/features/material_global)
+
 
 ## 全局材质设置
 更改演员模型所有材质的某些属性。

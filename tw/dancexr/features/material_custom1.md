@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/material_custom1) | [繁中](/tw/dancexr/features/material_custom1) | [日本語](/jp/dancexr/features/material_custom1) | [한국어](/kr/dancexr/features/material_custom1) | [简中](/zh/dancexr/features/material_custom1)
+
 
 ## 自定義材質
 默認情況下，此選項為關閉狀態，並未分配任何材質。

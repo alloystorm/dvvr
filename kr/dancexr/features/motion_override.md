@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/motion_override) | [繁中](/tw/dancexr/features/motion_override) | [日本語](/jp/dancexr/features/motion_override) | [한국어](/kr/dancexr/features/motion_override) | [简中](/zh/dancexr/features/motion_override)
+
 
 ## 개요
 모션 오버라이드 기능은 배우의 모션을 사용자 정의하고 향상시키기 위한 고급 도구를 제공합니다. 이는 배우의 리깅 시스템과 원활하게 통합되어 신체, 머리, 손 및 다리 움직임에 대한 정밀 제어를 가능하게 합니다. 이 기능은 동적이고 동기화된 애니메이션을 만드는 데 이상적입니다.

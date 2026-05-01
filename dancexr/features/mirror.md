@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/mirror) | [繁中](/tw/dancexr/features/mirror) | [日本語](/jp/dancexr/features/mirror) | [한국어](/kr/dancexr/features/mirror) | [简中](/zh/dancexr/features/mirror)
+
 
 
 ## Mirror

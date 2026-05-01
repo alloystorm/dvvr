@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/motion_settings) | [繁中](/tw/dancexr/features/motion_settings) | [日本語](/jp/dancexr/features/motion_settings) | [한국어](/kr/dancexr/features/motion_settings) | [简中](/zh/dancexr/features/motion_settings)
+
 
 ## 概要
 モーション設定では、モーションがTポーズまたはAポーズであるか、モーションの速度を調整し、ループオプションを変更することができます。

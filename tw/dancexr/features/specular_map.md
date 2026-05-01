@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/specular_map) | [繁中](/tw/dancexr/features/specular_map) | [日本語](/jp/dancexr/features/specular_map) | [한국어](/kr/dancexr/features/specular_map) | [简中](/zh/dancexr/features/specular_map)
+
 
 ## 鏡面反射 / 遮罩圖
 

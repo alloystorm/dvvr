@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/outfit_body_paint) | [繁中](/tw/dancexr/features/outfit_body_paint) | [日本語](/jp/dancexr/features/outfit_body_paint) | [한국어](/kr/dancexr/features/outfit_body_paint) | [简中](/zh/dancexr/features/outfit_body_paint)
+
 
 ## 의상 및 바디 페인트 개요
 이 기능을 사용하면 배우의 외모를 변경할 수 있으며, 몸과 의상에 그림을 그릴 수 있습니다. 또한 사용자 정의 의상 패턴을 만들 수도 있습니다.

@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/custom_lighting) | [繁中](/tw/dancexr/features/custom_lighting) | [日本語](/jp/dancexr/features/custom_lighting) | [한국어](/kr/dancexr/features/custom_lighting) | [简中](/zh/dancexr/features/custom_lighting)
+
 
 ## Overview
 Custom lighting lets you configure the scene's lighting including the main directional light (sun or moon), up to three additional light groups, fog, global scene brightness, and light allocation controls.

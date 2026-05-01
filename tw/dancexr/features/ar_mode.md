@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/ar_mode) | [繁中](/tw/dancexr/features/ar_mode) | [日本語](/jp/dancexr/features/ar_mode) | [한국어](/kr/dancexr/features/ar_mode) | [简中](/zh/dancexr/features/ar_mode)
+
 
 locale: zh-TW
 layout: single
@@ -21,7 +21,7 @@ toc: true
 sidebar:
   nav: "docs-tw"
 ---
-[Eng](/dancexr/features/ar_mode) | [繁中](/tw/dancexr/features/ar_mode) | [日本語](/jp/dancexr/features/ar_mode) | [한국어](/kr/dancexr/features/ar_mode) | [简中](/zh/dancexr/features/ar_mode)
+
 
 AR模式支援iOS、Android和Quest上的設備。並非所有設備都支援AR，因此如果您在菜單中看不到AR選項，這意味著您的設備不支援AR。
 

@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/global_actor_control) | [繁中](/tw/dancexr/features/global_actor_control) | [日本語](/jp/dancexr/features/global_actor_control) | [한국어](/kr/dancexr/features/global_actor_control) | [简中](/zh/dancexr/features/global_actor_control)
+
 
 ## 概要
 グローバルアクターコントロールは、読み込まれたすべてのアクターに均一に適用されるシーン全体のスケーリング設定を提供します。

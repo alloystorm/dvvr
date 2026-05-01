@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/particle_dynamics) | [繁中](/tw/dancexr/features/particle_dynamics) | [日本語](/jp/dancexr/features/particle_dynamics) | [한국어](/kr/dancexr/features/particle_dynamics) | [简中](/zh/dancexr/features/particle_dynamics)
+
 
 ### 粒子动力学
 

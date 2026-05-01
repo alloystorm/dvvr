@@ -13,7 +13,7 @@ nav_links:
     url: /tw/dancexr/download
 ---
 
-[Eng](/dancexr/features/troubleshooting_options) | [繁中](/tw/dancexr/features/troubleshooting_options) | [日本語](/jp/dancexr/features/troubleshooting_options) | [한국어](/kr/dancexr/features/troubleshooting_options) | [简中](/zh/dancexr/features/troubleshooting_options)
+
 
 ## 概述
 這些選項旨在處理一些常見的模型問題。

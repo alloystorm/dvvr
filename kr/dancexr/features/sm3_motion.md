@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/sm3_motion) | [繁中](/tw/dancexr/features/sm3_motion) | [日本語](/jp/dancexr/features/sm3_motion) | [한국어](/kr/dancexr/features/sm3_motion) | [简中](/zh/dancexr/features/sm3_motion)
+
 
 
 ## 개요

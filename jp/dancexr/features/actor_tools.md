@@ -13,7 +13,7 @@ nav_links:
     url: /jp/dancexr/download
 ---
 
-[Eng](/dancexr/features/actor_tools) | [繁中](/tw/dancexr/features/actor_tools) | [日本語](/jp/dancexr/features/actor_tools) | [한국어](/kr/dancexr/features/actor_tools) | [简中](/zh/dancexr/features/actor_tools)
+
 
 ## マウスとポインターの操作
 マウスとVRポインターで行える操作です。

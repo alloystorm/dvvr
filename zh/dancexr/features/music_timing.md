@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/music_timing) | [繁中](/tw/dancexr/features/music_timing) | [日本語](/jp/dancexr/features/music_timing) | [한국어](/kr/dancexr/features/music_timing) | [简中](/zh/dancexr/features/music_timing)
+
 
 ## 概述
 音乐节拍信息对于所有程序化动作都非常重要，因为它用于将动作与音乐匹配。如果没有它，BPM（每分钟节拍数）默认为120，与音乐不会同步。

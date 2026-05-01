@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/discovery) | [繁中](/tw/dancexr/features/discovery) | [日本語](/jp/dancexr/features/discovery) | [한국어](/kr/dancexr/features/discovery) | [简中](/zh/dancexr/features/discovery)
+
 
 ## DanceXRディスカバリーアプリ
 シームレスなアセット管理であなたのDanceXRライブラリを簡単に拡張

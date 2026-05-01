@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/video_playback) | [繁中](/tw/dancexr/features/video_playback) | [日本語](/jp/dancexr/features/video_playback) | [한국어](/kr/dancexr/features/video_playback) | [简中](/zh/dancexr/features/video_playback)
+
 
 ビデオ再生機能を使用すると、ビデオを再生し、その映像を光源から投影したり、シーン内の壁やプロップの表面にテクスチャとして使用したりすることができます。現在、MP4形式のみがサポートされています。（フォルダ内のWEBMファイルも認識されますが、vp8エンコーディングのみがサポートされていることに注意してください。WEBMファイルを読み込んでも何も起こらない場合は、そのファイルのエンコーディングがサポートされていないことを意味します。）
 

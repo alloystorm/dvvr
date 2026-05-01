@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/features/outfit) | [繁中](/tw/dancexr/features/outfit) | [日本語](/jp/dancexr/features/outfit) | [한국어](/kr/dancexr/features/outfit) | [简中](/zh/dancexr/features/outfit)
+
 
 ## 概述
 服装效果提供了创意方式来定制角色外观。它允许应用各种服装风格和身体涂装效果，让艺术家为他们的角色创造独特的外观。

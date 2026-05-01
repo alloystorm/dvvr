@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/water_system) | [繁中](/tw/dancexr/features/water_system) | [日本語](/jp/dancexr/features/water_system) | [한국어](/kr/dancexr/features/water_system) | [简中](/zh/dancexr/features/water_system)
+
 
 ## 무대 지오메트리 및 수계 시스템
 {% include video id="K3WSqEj7K-4" provider="youtube" %}

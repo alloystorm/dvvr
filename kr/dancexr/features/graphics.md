@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/graphics) | [繁中](/tw/dancexr/features/graphics) | [日本語](/jp/dancexr/features/graphics) | [한국어](/kr/dancexr/features/graphics) | [简中](/zh/dancexr/features/graphics)
+
 
 ## 개요
 그래픽 설정은 씬의 시각적 품질을 제어합니다. 이 설정은 렌더링 성능에 영향을 미치므로 하드웨어에 맞게 품질과 성능의 균형을 조정하는 것이 좋습니다.

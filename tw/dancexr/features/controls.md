@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/controls) | [繁中](/tw/dancexr/features/controls) | [日本語](/jp/dancexr/features/controls) | [한국어](/kr/dancexr/features/controls) | [简中](/zh/dancexr/features/controls)
+
 
 ## 概述
 DanceXR 的輸入映射基於流行的 VR 控制器和遊戲手柄。

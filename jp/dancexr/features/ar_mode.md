@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/ar_mode) | [繁中](/tw/dancexr/features/ar_mode) | [日本語](/jp/dancexr/features/ar_mode) | [한국어](/kr/dancexr/features/ar_mode) | [简中](/zh/dancexr/features/ar_mode)
+
 
 ARモードは、iOS、Android、Questのサポートされているデバイスで利用可能です。すべてのデバイスがARに対応しているわけではないため、メニューにARオプションが表示されない場合は、お使いのデバイスがARに対応していないことを意味します。
 

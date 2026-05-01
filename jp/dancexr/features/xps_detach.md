@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/xps_detach) | [繁中](/tw/dancexr/features/xps_detach) | [日本語](/jp/dancexr/features/xps_detach) | [한국어](/kr/dancexr/features/xps_detach) | [简中](/zh/dancexr/features/xps_detach)
+
 
 オブジェクトの切り離し
 

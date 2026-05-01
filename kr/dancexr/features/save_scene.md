@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/save_scene) | [繁中](/tw/dancexr/features/save_scene) | [日本語](/jp/dancexr/features/save_scene) | [한국어](/kr/dancexr/features/save_scene) | [简中](/zh/dancexr/features/save_scene)
+
 
 ## 씬 저장
 배우, 모션, 무대 및 설정을 포함한 씬 설정을 씬 파일에 저장하여 나중에 검색할 수 있습니다.

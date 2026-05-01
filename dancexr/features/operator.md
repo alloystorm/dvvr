@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/operator) | [繁中](/tw/dancexr/features/operator) | [日本語](/jp/dancexr/features/operator) | [한국어](/kr/dancexr/features/operator) | [简中](/zh/dancexr/features/operator)
+
 
 # DanceXR Operator
 DanceXR Operator is the dedicated AI backend for DanceXR, providing advanced voice synthesis, large language model (LLM) chat, and dynamic roleplay features for the game.

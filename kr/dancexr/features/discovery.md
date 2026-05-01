@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/discovery) | [繁中](/tw/dancexr/features/discovery) | [日本語](/jp/dancexr/features/discovery) | [한국어](/kr/dancexr/features/discovery) | [简中](/zh/dancexr/features/discovery)
+
 
 ## 댄스XR 디스커버리 앱
 원활한 에셋 관리를 통해 댄스XR 라이브러리를 쉽게 확장하세요

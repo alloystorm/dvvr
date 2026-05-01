@@ -12,7 +12,7 @@ nav_links:
   - label: 下载
     url: /zh/dancexr/download
 ---
-[Eng](/dancexr/creator) | [繁中](/tw/dancexr/creator) | [日本語](/jp/dancexr/creator) | [한국어](/kr/dancexr/creator) | [简中](/zh/dancexr/creator)
+
 
 
 # 创作者版

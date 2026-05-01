@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/scale_n_offset) | [繁中](/tw/dancexr/features/scale_n_offset) | [日本語](/jp/dancexr/features/scale_n_offset) | [한국어](/kr/dancexr/features/scale_n_offset) | [简中](/zh/dancexr/features/scale_n_offset)
+
 
 모델의 스케일, 지면 오프셋, 회전 및 위치 오프셋 구성을 허용합니다. 정확한 조정을 위한 스냅 옵션이 포함되어 있습니다.
 

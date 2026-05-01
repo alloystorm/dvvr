@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/outfit) | [繁中](/tw/dancexr/features/outfit) | [日本語](/jp/dancexr/features/outfit) | [한국어](/kr/dancexr/features/outfit) | [简中](/zh/dancexr/features/outfit)
+
 
 ## 개요
 의상 효과는 캐릭터 외형을 맞춤화할 수 있는 창의적인 방법을 제공합니다. 다양한 의상 스타일과 바디페인트 효과를 적용할 수 있어 아티스트들이 캐릭터에 독특한 모습을 만들 수 있습니다.

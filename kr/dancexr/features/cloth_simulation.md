@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/cloth_simulation) | [繁中](/tw/dancexr/features/cloth_simulation) | [日本語](/jp/dancexr/features/cloth_simulation) | [한국어](/kr/dancexr/features/cloth_simulation) | [简中](/zh/dancexr/features/cloth_simulation)
+
 
 # 옷 시뮬레이션
 입자의 움직임과 그들 사이의 제약을 시뮬레이션하여 현실적인 의류와 원단 효과를 만들어냅니다. 2024.8 버전부터 캐릭터용 의류를 만들어 움직임과 상호작용을 관찰할 수 있습니다.

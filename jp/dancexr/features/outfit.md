@@ -12,7 +12,7 @@ nav_links:
   - label: ダウンロード
     url: /jp/dancexr/download
 ---
-[Eng](/dancexr/features/outfit) | [繁中](/tw/dancexr/features/outfit) | [日本語](/jp/dancexr/features/outfit) | [한국어](/kr/dancexr/features/outfit) | [简中](/zh/dancexr/features/outfit)
+
 
 ## 概要
 アウトフィットエフェクトは、キャラクターの外観をカスタマイズするための創造的な方法を提供します。さまざまなアウトフィットスタイルやボディペイント効果を適用することができ、アーティストはキャラクターにユニークなルックを作成できます。

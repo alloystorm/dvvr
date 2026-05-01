@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/xps_hair) | [繁中](/tw/dancexr/features/xps_hair) | [日本語](/jp/dancexr/features/xps_hair) | [한국어](/kr/dancexr/features/xps_hair) | [简中](/zh/dancexr/features/xps_hair)
+
 
 
 ## Hair Physics

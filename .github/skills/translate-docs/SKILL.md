@@ -69,7 +69,7 @@ Do not alter any other front matter keys or values.
 The language links block must follow this exact format and appear immediately after the closing `---` of the front matter, separated by a blank line:
 
 ```
-[Eng](/dancexr/<path>) | [繁中](/tw/dancexr/<path>) | [日本語](/jp/dancexr/<path>) | [한국어](/kr/dancexr/<path>) | [简中](/zh/dancexr/<path>)
+
 ```
 
 - The links in this block are identical in every language version of the page.

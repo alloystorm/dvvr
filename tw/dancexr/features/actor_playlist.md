@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/actor_playlist) | [繁中](/tw/dancexr/features/actor_playlist) | [日本語](/jp/dancexr/features/actor_playlist) | [한국어](/kr/dancexr/features/actor_playlist) | [简中](/zh/dancexr/features/actor_playlist)
+
 
 
 ## 演員播放清單

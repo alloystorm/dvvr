@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/texture_enhancement) | [繁中](/tw/dancexr/features/texture_enhancement) | [日本語](/jp/dancexr/features/texture_enhancement) | [한국어](/kr/dancexr/features/texture_enhancement) | [简中](/zh/dancexr/features/texture_enhancement)
+
 
 ## 질감 향상
 특정 효과를 위해 반사 맵을 활용하여 이 범주의 소재의 질감을 향상시킬 수 있으며, 베이스 맵이나 반사 맵에서 노멀 맵을 생성하고 사용자 정의 디테일 맵을 사용하여 소재의 세부 사항을 개선할 수 있습니다.

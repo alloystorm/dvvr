@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/xps_physics) | [繁中](/tw/dancexr/features/xps_physics) | [日本語](/jp/dancexr/features/xps_physics) | [한국어](/kr/dancexr/features/xps_physics) | [简中](/zh/dancexr/features/xps_physics)
+
 
 ## XPS模型特定設置
 XPS模型不附帶物理定義，因此程序不知道在哪裡添加物理組件。為了應對這一情況，為每個XPS模型添加了幾個物理設置，供您配置XPS模型上的物理組件。

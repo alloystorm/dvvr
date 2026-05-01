@@ -12,7 +12,7 @@ nav_links:
   - label: 다운로드
     url: /kr/dancexr/download
 ---
-[Eng](/dancexr/features/languages) | [繁中](/tw/dancexr/features/languages) | [日本語](/jp/dancexr/features/languages) | [한국어](/kr/dancexr/features/languages) | [简中](/zh/dancexr/features/languages)
+
 
 ## 언어
 우리는 영어, 일본어, 한국어, 간체 중국어, 번체 중국어를 지원합니다.

@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/music_timing) | [繁中](/tw/dancexr/features/music_timing) | [日本語](/jp/dancexr/features/music_timing) | [한국어](/kr/dancexr/features/music_timing) | [简中](/zh/dancexr/features/music_timing)
+
 
 ## 總覽
 音樂節奏資訊對於所有程序化動作來說都非常重要，因為它用於將動作與音樂匹配。若沒有它，BPM（每分鐘節拍數）將預設為120，且不會與音樂同步。

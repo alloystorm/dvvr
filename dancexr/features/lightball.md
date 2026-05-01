@@ -12,7 +12,7 @@ nav_links:
   - label: Download
     url: /dancexr/download
 ---
-[Eng](/dancexr/features/lightball) | [繁中](/tw/dancexr/features/lightball) | [日本語](/jp/dancexr/features/lightball) | [한국어](/kr/dancexr/features/lightball) | [简中](/zh/dancexr/features/lightball)
+
 
 
 ## Light Ball

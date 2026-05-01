@@ -12,7 +12,7 @@ nav_links:
   - label: 下載
     url: /tw/dancexr/download
 ---
-[Eng](/dancexr/features/lighting) | [繁中](/tw/dancexr/features/lighting) | [日本語](/jp/dancexr/features/lighting) | [한국어](/kr/dancexr/features/lighting) | [简中](/zh/dancexr/features/lighting)
+
 
 在場景中配置燈光。
 
