@@ -74,7 +74,7 @@ docs:
       - title: "AR 모드"
         url: /dancexr/features/ar_mode
       - title: "AI 챗봇"
-        url: /dancexr/ai_chat
+        url: /dancexr/features/ai_chat
   - title: 출시
     url: /dancexr/releases/
     children:

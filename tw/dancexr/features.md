@@ -485,7 +485,7 @@ feature_sections:
     light: true
     tiles:
       - title: AI 語音聊天
-        link: /tw/dancexr/ai_chat
+        link: /tw/dancexr/features/ai_chat
         image: "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
         badge: PRO
         badge_type: pro

@@ -6,7 +6,7 @@ toc: true
 sidebar:
   nav: "docs-kr"
 ---
-[Eng](/dancexr/ai_chat) | [繁中](/tw/dancexr/ai_chat) | [日本語](/jp/dancexr/ai_chat) | [한국어](/kr/dancexr/ai_chat) | [简中](/zh/dancexr/ai_chat)
+[Eng](/dancexr/features/ai_chat) | [繁中](/tw/dancexr/features/ai_chat) | [日本語](/jp/dancexr/features/ai_chat) | [한국어](/kr/dancexr/features/ai_chat) | [简中](/zh/dancexr/features/ai_chat)
 
 ## AI 기반 음성 채팅
 

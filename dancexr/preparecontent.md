@@ -47,7 +47,7 @@ DanceXR searches for various types of content in distinct subfolders located wit
 * export: Exported model files can be found here when you use the 3D snapshot feature.
 * presets: Saved preset files. You can share these files with your friends as long as you are using the same version of DanceXR.
 * videos: Videos that can be used for [projection and dynamic texture map](features/video_playback). Supports MP4 format only.
-* chat: Files used for the [AI chat system](ai_chat).
+* chat: Files used for the [AI chat system](features/ai_chat).
   * characters: Character thumbnails and templates. These are automatically generated, but you can make modifications.
   * templates: Prompt templates, you can make modifications and create new ones.
   * history: Saved chat history

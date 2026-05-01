@@ -490,7 +490,7 @@ feature_sections:
     light: false
     tiles:
       - title: "AI Voice Chat"
-        link: "/dancexr/ai_chat"
+        link: "/dancexr/features/ai_chat"
         image: "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
         badge: "PRO"
         badge_type: "pro"

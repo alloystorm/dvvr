@@ -46,7 +46,7 @@ DanceXR在内容库中的不同子文件夹中搜索各种类型的内容。
 * export：使用3D快照功能时，导出的模型文件可以在此找到。
 * presets：保存的预设文件。只要您使用相同版本的DanceXR，就可以与朋友分享这些文件。
 * videos：可用于[投影和动态纹理映射](features/video_playback)的视频。仅支持MP4格式。
-* chat：用于[AI聊天系统](ai_chat)的文件。
+* chat：用于[AI聊天系统](features/ai_chat)的文件。
   * characters：角色缩略图和模板。这些是自动生成的，但您可以进行修改。
   * templates：提示模板，您可以进行修改并创建新的。
   * history：保存的聊天记录
