@@ -21,15 +21,23 @@ nav_links:
   - label: Download
     url: /dancexr/download
 feature_sections:
+  - title: 컴패니언 앱
+    light: true
+    tiles:
+      - title: 디스커버리 앱
+        link: /kr/dancexr/features/discovery
+        image: "/images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp"
+        badge: 2025.6 | 에셋 수집을 더 쉽게
+        badge_type: new
+      - title: DanceXR Operator
+        link: /kr/dancexr/features/operator
+        image: "/images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp"
+        badge: 2026.5 | 전용 AI 백엔드
+        badge_type: new
   - title: 모델 지원
     subsections:
       - title: 콘텐츠 관리
         tiles:
-          - title: 디스커버리 앱
-            link: /kr/dancexr/features/discovery
-            image: "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
-            badge: 2025.6
-            badge_type: new
           - title: 모델 파일 구성
             link: /kr/dancexr/preparecontent#3d-models
             image: "/images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp"

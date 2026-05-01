@@ -63,7 +63,7 @@ You can also run LLMs locally if your computer is powerful enough. For example, 
 
 These options are still useful if you want a custom manual setup, but they are now alternatives to Operator rather than the primary recommended path.
 
-Keep in mind that the AI space is developing really fast and new tools and models are coming out all the time. The recommendations here are based on what we know at the time of writing and might be out of date when you are reading it. Feel free to explore your own options. DanceXR should work with any LLM tool that supports OpenAI API spec.
+Keep in mind that the AI space is developing really fast and new tools and models are coming out all the time. The recommendations here are based on what we know at the time of writing and might be out of date when you are reading it. Feel free to explore your own options. DanceXR should work with local LLM tools that expose a compatible chat API.
 
 **Pros:**
 * Privacy, nothing is sent out, everything happens locally.

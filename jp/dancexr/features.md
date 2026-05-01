@@ -21,15 +21,23 @@ nav_links:
   - label: Download
     url: /dancexr/download
 feature_sections:
+  - title: コンパニオンアプリ
+    light: true
+    tiles:
+      - title: Discovery アプリ
+        link: /jp/dancexr/features/discovery
+        image: "/images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp"
+        badge: 2025.6 | アセット取得をもっと簡単に
+        badge_type: new
+      - title: DanceXR Operator
+        link: /jp/dancexr/features/operator
+        image: "/images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp"
+        badge: 2026.5 | 専用AIバックエンド
+        badge_type: new
   - title: モデルサポート
     subsections:
       - title: コンテンツ管理
         tiles:
-          - title: Discovery アプリ
-            link: /jp/dancexr/features/discovery
-            image: "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
-            badge: 2025.6
-            badge_type: new
           - title: モデルファイルの整理
             link: /jp/dancexr/preparecontent#3d-models
             image: "/images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp"

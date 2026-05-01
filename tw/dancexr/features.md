@@ -21,15 +21,23 @@ nav_links:
   - label: Download
     url: /dancexr/download
 feature_sections:
+  - title: 配套應用程式
+    light: true
+    tiles:
+      - title: Discovery 應用程式
+        link: /tw/dancexr/features/discovery
+        image: "/images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp"
+        badge: 2025.6 | 素材取得更輕鬆
+        badge_type: new
+      - title: DanceXR Operator
+        link: /tw/dancexr/features/operator
+        image: "/images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp"
+        badge: 2026.5 | 專用 AI 後端
+        badge_type: new
   - title: 模型支援
     subsections:
       - title: 內容管理
         tiles:
-          - title: Discovery 應用程式
-            link: /tw/dancexr/features/discovery
-            image: "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
-            badge: 2025.6
-            badge_type: new
           - title: 整理模型檔案
             link: /tw/dancexr/preparecontent#3d-models
             image: "/images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp"
