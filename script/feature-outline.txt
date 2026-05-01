@@ -25,28 +25,6 @@
     - Scale & Offset  features/scale_n_offset  (18L)
     - Troubleshooting Options  features/troubleshooting_options  (31L)
     - Actor Presets  features/actor_presets
-[Character Behavior]  <- trimmed from "Life-like Characters" after procedural motion moved out
-  - Blink, Breathing and Eye Contact  features/eyecontact  (40L)
-  - Actor Motion Settings  features/actor_motion_settings  (19L)
-[Physics]
-  [Simulation]
-    - Physics  features/physics  (108L)
-    - Simulation  features/simulation  (99L)
-    - Cloth Simulation  features/cloth_simulation  (87L)
-    - Mesh To Cloth  features/cloth_simulation  (87L)
-    - Particle Dynamics  features/particle_dynamics  (82L)
-    - Soft Body Simulation  features/particle_dynamics  (82L)
-    - Softbody Physics  features/physics_softbody  (18L)
-    - Ragdoll  features/ragdoll  (19L)
-  [XPS Physics]
-    - XPS Physics  features/xps_physics  (43L)
-    - Body Colliders  features/xps_body_colliders  (19L)
-    - Hair Physics  features/xps_hair  (36L)
-    - Clothes Physics  features/xps_cloth  (19L)
-    - Skirt Physics  features/xps_skirt  (35L)
-    - Body Colliders  features/xps_boobs  (37L)
-    - Softbody Physics  features/xps_softbody  (36L)
-    - Detach Objects  features/xps_detach  (20L)
 [Appearance]
   [Dressing]
     - Dressing System (Material Morph and XPS Optional Items)  features/optionals  (41L)
@@ -66,6 +44,49 @@
     - Hexagon Pattern Detail Map  features/hexagon_detail  (35L)
     - Specular / Mask Map  features/specular_map  (24L)
     - Transparency  features/transparency  (58L)
+[Physics]
+  [Simulation]
+    - Physics  features/physics  (108L)
+    - Simulation  features/simulation  (99L)
+    - Cloth Simulation  features/cloth_simulation  (87L)
+    - Mesh To Cloth  features/cloth_simulation  (87L)
+    - Particle Dynamics  features/particle_dynamics  (82L)
+    - Soft Body Simulation  features/particle_dynamics  (82L)
+    - Softbody Physics  features/physics_softbody  (18L)
+    - Ragdoll  features/ragdoll  (19L)
+  [XPS Physics]
+    - XPS Physics  features/xps_physics  (43L)
+    - Body Colliders  features/xps_body_colliders  (19L)
+    - Hair Physics  features/xps_hair  (36L)
+    - Clothes Physics  features/xps_cloth  (19L)
+    - Skirt Physics  features/xps_skirt  (35L)
+    - Body Colliders  features/xps_boobs  (37L)
+    - Softbody Physics  features/xps_softbody  (36L)
+    - Detach Objects  features/xps_detach  (20L)
+[Motion & Media]
+  [Procedural Motion]  <- moved from "Life-like Characters"
+    - Idle Motion  features/idle_motion  (22L)
+    - Catwalk Motion  features/catwalk  (18L)
+    - Auto Dance  features/autodance  (20L)
+    - Auto Dance 2  features/autodance2  (20L)
+    - Auto Dance 3  features/autodance3  (27L)
+    - Secondary Motion  features/secondary_motion  (28L)
+  [Character Behavior]  <- trimmed from "Life-like Characters" after procedural motion moved out
+    - Blink, Breathing and Eye Contact  features/eyecontact  (40L)
+    - Actor Motion Settings  features/actor_motion_settings  (19L)
+  [Audio & Video]
+    - Audio Options  features/audio_options  (19L)
+    - Video Playback  features/video_playback  (44L)
+    - Music Timing  features/music_timing  (34L)
+  [Motions]
+    - Dance Set  features/dance_set  (37L)
+    - Motion Settings  features/motion_settings  (58L)
+    - Playback Options  features/playback_options  (19L)
+    - Assigning Motion  features/assign_motion  (48L)
+    - Remix Motion  features/remix  (33L)
+    - Motion Override  features/motion_override  (47L)
+    - Keyframe Animation  features/keyframe_animation  (68L)
+    - Organizing Motion Files  preparecontent  (134L)
 [Atmosphere & Environment]
   [Sky & Lighting]
     - Sky & Cloud  features/skymap  (43L)
@@ -99,34 +120,6 @@
   - One-shot Camera  features/camera  (51L)
   - First Person Camera  features/camera  (51L)
   - Fixed Camera (Concert Mode)  features/camera  (51L)
-[Motion & Media]
-  [Procedural Motion]  <- moved from "Life-like Characters"
-    - Idle Motion  features/idle_motion  (22L)
-    - Catwalk Motion  features/catwalk  (18L)
-    - Auto Dance  features/autodance  (20L)
-    - Auto Dance 2  features/autodance2  (20L)
-    - Auto Dance 3  features/autodance3  (27L)
-    - Secondary Motion  features/secondary_motion  (28L)
-  [Audio & Video]
-    - Audio Options  features/audio_options  (19L)
-    - Video Playback  features/video_playback  (44L)
-    - Music Timing  features/music_timing  (34L)
-  [Motions]
-    - Dance Set  features/dance_set  (37L)
-    - Motion Settings  features/motion_settings  (58L)
-    - Playback Options  features/playback_options  (19L)
-    - Assigning Motion  features/assign_motion  (48L)
-    - Remix Motion  features/remix  (33L)
-    - Motion Override  features/motion_override  (47L)
-    - Keyframe Animation  features/keyframe_animation  (68L)
-    - Organizing Motion Files  preparecontent  (134L)
-[Adult Lane]
-  - Boob Shake  features/boob_shake_sex_overlay  (25L)
-  - Sex Overlay  features/boob_shake_sex_overlay  (25L)
-  - Dildo  features/dildo  (17L)
-  - Cowgirl Sex Motion  features/scg_motion  (17L)
-  - Sex Motion 2  features/sfb_motion  (16L)
-  - Sex Motion 3  features/sex_motion_3  (1171L)
 [System & Platform]
   [System]
     - Content Library  preparecontent  (134L)
@@ -141,3 +134,10 @@
   [Graphics & Display]  <- split from flat System & Platform list
     - Display Settings  features/display_settings  (64L)
     - Graphics  features/graphics  (410L)
+[Adult Lane]
+  - Boob Shake  features/boob_shake_sex_overlay  (25L)
+  - Sex Overlay  features/boob_shake_sex_overlay  (25L)
+  - Dildo  features/dildo  (17L)
+  - Cowgirl Sex Motion  features/scg_motion  (17L)
+  - Sex Motion 2  features/sfb_motion  (16L)
+  - Sex Motion 3  features/sex_motion_3  (1171L)
