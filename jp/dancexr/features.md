@@ -12,14 +12,14 @@ hero_ctas:
     url: /jp/dancexr/download
     style: neon
 nav_links:
-  - label: Intro
+  - label: イントロ
     url: /jp/dancexr
-  - label: Features
+  - label: 機能
     url: /jp/dancexr/features
-  - label: Releases
+  - label: リリース
     url: /jp/dancexr/releases
-  - label: Download
-    url: /dancexr/download
+  - label: ダウンロード
+    url: /jp/dancexr/download
 feature_sections:
   - title: コンパニオンアプリ
     light: true

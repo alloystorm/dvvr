@@ -12,14 +12,14 @@ hero_ctas:
     url: /zh/dancexr/download
     style: neon
 nav_links:
-  - label: Intro
+  - label: 简介
     url: /zh/dancexr
-  - label: Features
+  - label: 功能
     url: /zh/dancexr/features
-  - label: Releases
+  - label: 发布
     url: /zh/dancexr/releases
-  - label: Download
-    url: /dancexr/download
+  - label: 下载
+    url: /zh/dancexr/download
 feature_sections:
   - title: 配套应用
     light: true

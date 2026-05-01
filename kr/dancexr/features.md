@@ -12,14 +12,14 @@ hero_ctas:
     url: /kr/dancexr/download
     style: neon
 nav_links:
-  - label: Intro
+  - label: 소개
     url: /kr/dancexr
-  - label: Features
+  - label: 기능
     url: /kr/dancexr/features
-  - label: Releases
+  - label: 출시
     url: /kr/dancexr/releases
-  - label: Download
-    url: /dancexr/download
+  - label: 다운로드
+    url: /kr/dancexr/download
 feature_sections:
   - title: 컴패니언 앱
     light: true
