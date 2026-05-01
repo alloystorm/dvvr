@@ -1,147 +1,147 @@
 [Companion Apps]
-  - Discovery App  features/discovery
-  - DanceXR Operator  features/operator
+  - Discovery App  features/discovery  (37L)
+  - DanceXR Operator  features/operator  (69L)
 [Model Support]
   [Content & Loading]
-    - Organizing Model Files  preparecontent
-    - Tagging  features/tagging
-    - Actor Options  features/loader_options
-    - Actor Playlist  features/actor_playlist
-    - Formation  features/formation
-    - ZIP format  features/zip_format
+    - Organizing Model Files  preparecontent  (134L)
+    - Tagging  features/tagging  (40L)
+    - Actor Options  features/loader_options  (180L)
+    - Actor Playlist  features/actor_playlist  (27L)
+    - Formation  features/formation  (33L)
+    - ZIP format  features/zip_format  (37L)
   [Model Formats]
-    - XPS Bone Mapper  features/bone_mapper
-    - PMX Physics  features/pmx_physics
+    - XPS Bone Mapper  features/bone_mapper  (39L)
+    - PMX Physics  features/pmx_physics  (73L)
     - PMX Blendshape Morphs  
-    - Custom Inherit Motion  features/custom_inherit
-    - Example Bone Structure  features/bones
+    - Custom Inherit Motion  features/custom_inherit  (18L)
+    - Example Bone Structure  features/bones  (193L)
   [Actor Tools]
-    - Actor Menu & Tools  features/actor_tools
-    - Attach To Actor  features/attach_to_actor
-    - Feet Adjustments  features/feet_adjustments
-    - Scale & Offset  features/scale_n_offset
-    - Troubleshooting Options  features/troubleshooting_options
+    - Actor Menu & Tools  features/actor_tools  (95L)
+    - Attach To Actor  features/attach_to_actor  (30L)
+    - Feet Adjustments  features/feet_adjustments  (35L)
+    - Scale & Offset  features/scale_n_offset  (18L)
+    - Troubleshooting Options  features/troubleshooting_options  (31L)
     - Actor Presets  features/actor_presets
 [Life-like Characters]
-  - Blink, Breathing and Eye Contact  features/eyecontact
-  - Idle Motion  features/idle_motion
-  - Catwalk Motion  features/catwalk
-  - Auto Dance  features/autodance
-  - Auto Dance 2  features/autodance2
-  - Auto Dance 3  features/autodance3
-  - Secondary Motion  features/secondary_motion
-  - Actor Motion Settings  features/actor_motion_settings
+  - Blink, Breathing and Eye Contact  features/eyecontact  (40L)
+  - Idle Motion  features/idle_motion  (22L)
+  - Catwalk Motion  features/catwalk  (18L)
+  - Auto Dance  features/autodance  (20L)
+  - Auto Dance 2  features/autodance2  (20L)
+  - Auto Dance 3  features/autodance3  (27L)
+  - Secondary Motion  features/secondary_motion  (28L)
+  - Actor Motion Settings  features/actor_motion_settings  (19L)
 [Physics]
   [Simulation]
-    - Physics  features/physics
-    - Simulation  features/simulation
-    - Cloth Simulation  features/cloth_simulation
-    - Mesh To Cloth  features/cloth_simulation
-    - Particle Dynamics  features/particle_dynamics
-    - Soft Body Simulation  features/particle_dynamics
-    - Softbody Physics  features/physics_softbody
-    - Ragdoll  features/ragdoll
+    - Physics  features/physics  (108L)
+    - Simulation  features/simulation  (99L)
+    - Cloth Simulation  features/cloth_simulation  (87L)
+    - Mesh To Cloth  features/cloth_simulation  (87L)
+    - Particle Dynamics  features/particle_dynamics  (82L)
+    - Soft Body Simulation  features/particle_dynamics  (82L)
+    - Softbody Physics  features/physics_softbody  (18L)
+    - Ragdoll  features/ragdoll  (19L)
   [XPS Physics]
-    - XPS Physics  features/xps_physics
-    - Body Colliders  features/xps_body_colliders
-    - Hair Physics  features/xps_hair
-    - Clothes Physics  features/xps_cloth
-    - Skirt Physics  features/xps_skirt
-    - Body Colliders  features/xps_boobs
-    - Softbody Physics  features/xps_softbody
-    - Detech Objects  features/xps_detach
-    - Light Ball  features/lightball
+    - XPS Physics  features/xps_physics  (43L)
+    - Body Colliders  features/xps_body_colliders  (19L)
+    - Hair Physics  features/xps_hair  (36L)
+    - Clothes Physics  features/xps_cloth  (19L)
+    - Skirt Physics  features/xps_skirt  (35L)
+    - Body Colliders  features/xps_boobs  (37L)
+    - Softbody Physics  features/xps_softbody  (36L)
+    - Detech Objects  features/xps_detach  (20L)
+    - Light Ball  features/lightball  (19L)
 [Appearance]
   [Dressing]
-    - Dressing System (Material Morph and XPS Optional Items)  features/optionals
-    - Alternative Textures  features/alternative_textures
-    - Outfit Body Paint  features/outfit_body_paint
-    - Accessory  features/accessory
-    - Facial Control  features/facial_control
-    - Water Interaction  features/water_interaction
+    - Dressing System (Material Morph and XPS Optional Items)  features/optionals  (41L)
+    - Alternative Textures  features/alternative_textures  (31L)
+    - Outfit Body Paint  features/outfit_body_paint  (52L)
+    - Accessory  features/accessory  (21L)
+    - Facial Control  features/facial_control  (33L)
+    - Water Interaction  features/water_interaction  (19L)
   [Materials]
-    - Global Material Settings  features/material_global
-    - Toon Shading  features/toon_shading
-    - Skin Materials  features/material_skin
-    - Hair Materials  features/material_hair
-    - Eye Materials  features/material_eyes
-    - Lips Materials  features/material_lips
-    - Opaque Materials  features/material_opaque
-    - Transparent Materials  features/material_transparent
-    - Custom Materials  features/material_custom1
-    - Material Settings  features/material_settings
-    - Texture Enhancement  features/texture_enhancement
-    - Sweat Effect  features/sweat_effect
-    - Custom Detail Map  features/custom_detail_map
-    - Generate Normal Map  features/generate_normal_map
-    - Hexagon Pattern Detail Map  features/hexagon_detail
-    - Specular / Mask Map  features/specular_map
-    - Transparent Materials  features/transparency
+    - Global Material Settings  features/material_global  (32L)
+    - Toon Shading  features/toon_shading  (27L)
+    - Skin Materials  features/material_skin  (45L)
+    - Hair Materials  features/material_hair  (26L)
+    - Eye Materials  features/material_eyes  (20L)
+    - Lips Materials  features/material_lips  (18L)
+    - Opaque Materials  features/material_opaque  (33L)
+    - Transparent Materials  features/material_transparent  (33L)
+    - Custom Materials  features/material_custom1  (28L)
+    - Material Settings  features/material_settings  (76L)
+    - Texture Enhancement  features/texture_enhancement  (40L)
+    - Sweat Effect  features/sweat_effect  (24L)
+    - Custom Detail Map  features/custom_detail_map  (23L)
+    - Generate Normal Map  features/generate_normal_map  (19L)
+    - Hexagon Pattern Detail Map  features/hexagon_detail  (35L)
+    - Specular / Mask Map  features/specular_map  (24L)
+    - Transparent Materials  features/transparency  (58L)
 [Atmosphere & Environment]
   [Sky & Lighting]
-    - Sky & Cloud  features/skymap
-    - Sky  features/sky
-    - Lighting  features/lighting
-    - Raytracing Effects  features/raytracing
+    - Sky & Cloud  features/skymap  (43L)
+    - Sky  features/sky  (221L)
+    - Lighting  features/lighting  (931L)
+    - Raytracing Effects  features/raytracing  (26L)
   [Environment]
-    - Particle System  features/particles
-    - Water System  features/water_system
-    - AR Mode  features/ar_mode
+    - Particle System  features/particles  (24L)
+    - Water System  features/water_system  (33L)
+    - AR Mode  features/ar_mode  (33L)
   [Stage & Props]
-    - Ground  features/ground
-    - Room Stage  features/room_stage
-    - Stages  features/stages
-    - Props  features/props
-    - Primitive Shapes  features/primitive_shapes
-    - Screen  features/screen
-    - Mirror  features/mirror
-    - Laser System  features/laser
+    - Ground  features/ground  (1052L)
+    - Room Stage  features/room_stage  (24L)
+    - Stages  features/stages  (17L)
+    - Props  features/props  (24L)
+    - Primitive Shapes  features/primitive_shapes  (22L)
+    - Screen  features/screen  (19L)
+    - Mirror  features/mirror  (19L)
+    - Laser System  features/laser  (23L)
     - Beats Ring  features/beats_ring
   [Scene]
-    - Save Scene  features/save_scene
-    - Scene Bundle  features/scene_bundle
+    - Save Scene  features/save_scene  (25L)
+    - Scene Bundle  features/scene_bundle  (19L)
 [Cinematic Camera]
-  - Camera Overview  features/camera
-  - [Freefly Cam]  features/freefly_cam
-  - [Auto Cam]  features/auto_cam
-  - Orbit Camera  features/camera
-  - One-shot Camera  features/camera
-  - First Person Camera  features/camera
-  - Fixed Camera (Concert Mode)  features/camera
+  - Camera Overview  features/camera  (51L)
+  - [Freefly Cam]  features/freefly_cam  (18L)
+  - [Auto Cam]  features/auto_cam  (17L)
+  - Orbit Camera  features/camera  (51L)
+  - One-shot Camera  features/camera  (51L)
+  - First Person Camera  features/camera  (51L)
+  - Fixed Camera (Concert Mode)  features/camera  (51L)
 [Motion & Media]
   [Audio & Video]
-    - Audio Options  features/audio_options
-    - Video Playback  features/video_playback
-    - Music Timing  features/music_timing
+    - Audio Options  features/audio_options  (19L)
+    - Video Playback  features/video_playback  (44L)
+    - Music Timing  features/music_timing  (34L)
   [Motions]
-    - Dance Set  features/dance_set
-    - Motion Settings  features/motion_settings
-    - Playback Options  features/playback_options
-    - Assigning Motion  features/assign_motion
-    - Remix Motion  features/remix
-    - Motion Override  features/motion_override
-    - Keyframe Animation  features/keyframe_animation
-    - Organizing Motion Files  preparecontent
+    - Dance Set  features/dance_set  (37L)
+    - Motion Settings  features/motion_settings  (58L)
+    - Playback Options  features/playback_options  (19L)
+    - Assigning Motion  features/assign_motion  (48L)
+    - Remix Motion  features/remix  (33L)
+    - Motion Override  features/motion_override  (47L)
+    - Keyframe Animation  features/keyframe_animation  (68L)
+    - Organizing Motion Files  preparecontent  (134L)
 [Adult Lane]
-  - Boob Shake  features/boob_shake_sex_overlay
-  - Sex Overlay  features/boob_shake_sex_overlay
-  - Dildo  features/dildo
-  - Cowgirl Sex Motion  features/scg_motion
-  - Sex Motion 2  features/sfb_motion
-  - ./motion/proc/sm3  features/sex_motion_3
+  - Boob Shake  features/boob_shake_sex_overlay  (25L)
+  - Sex Overlay  features/boob_shake_sex_overlay  (25L)
+  - Dildo  features/dildo  (17L)
+  - Cowgirl Sex Motion  features/scg_motion  (17L)
+  - Sex Motion 2  features/sfb_motion  (16L)
+  - ./motion/proc/sm3  features/sex_motion_3  (1171L)
 [AI Features]
-  - AI Powered Voice Chat  features/ai_chat
+  - AI Powered Voice Chat  features/ai_chat  (221L)
 [Creator]
-  - Offline Render & Recording  creator
+  - Offline Render & Recording  creator  (104L)
 [System & Platform]
-  - Content Library  preparecontent
-  - Google Drive Integration  features/googledrive
-  - Content Library for Android & Quest  content_android_quest
-  - Display Settings  features/display_settings
-  - Graphics  features/graphics
-  - Languages  features/languages
-  - Controls  features/controls
-  - System Physics  features/system_physics
-  - Auto Update  features/autoupdate
+  - Content Library  preparecontent  (134L)
+  - Google Drive Integration  features/googledrive  (24L)
+  - Content Library for Android & Quest  content_android_quest  (59L)
+  - Display Settings  features/display_settings  (64L)
+  - Graphics  features/graphics  (410L)
+  - Languages  features/languages  (21L)
+  - Controls  features/controls  (71L)
+  - System Physics  features/system_physics  (49L)
+  - Auto Update  features/autoupdate  (62L)
   - System Presets  features/system_presets
-  - application_settings  features/application_settings
+  - application_settings  features/application_settings  (20L)

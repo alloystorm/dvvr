@@ -373,9 +373,20 @@ def generate_locale(sections_data, locale_key):
 # Optional: inject media into feature page front matters
 # ---------------------------------------------------------------------------
 
+def count_page_lines(path):
+    """Return the number of lines in the EN markdown page for `path`, or None if missing."""
+    if not path:
+        return None
+    fp = page_filepath(path)
+    if not os.path.isfile(fp):
+        return None
+    with open(fp, "r", encoding="utf-8") as f:
+        return sum(1 for _ in f)
+
+
 def generate_outline(sections_data, out_path=None):
     """
-    Write a concise indented list of sections and tiles (title + path).
+    Write a concise indented list of sections and tiles (title + path + line count).
     Each section/subsection is one line; each tile is one indented line.
     Output goes to `out_path` if given, otherwise stdout.
     """
@@ -388,12 +399,16 @@ def generate_outline(sections_data, out_path=None):
                 for tile in sub["tiles"]:
                     title = resolve_title(tile)
                     path = tile.get("path", "")
-                    lines.append(f"    - {title}  {path}")
+                    n = count_page_lines(path)
+                    suffix = f"  ({n}L)" if n is not None else ""
+                    lines.append(f"    - {title}  {path}{suffix}")
         else:
             for tile in section["tiles"]:
                 title = resolve_title(tile)
                 path = tile.get("path", "")
-                lines.append(f"  - {title}  {path}")
+                n = count_page_lines(path)
+                suffix = f"  ({n}L)" if n is not None else ""
+                lines.append(f"  - {title}  {path}{suffix}")
 
     text = "\n".join(lines) + "\n"
     if out_path:
