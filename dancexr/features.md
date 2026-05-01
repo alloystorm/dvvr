@@ -31,17 +31,17 @@ feature_sections:
         badge_type: new
       - title: DanceXR Operator
         link: /dancexr/features/operator
-        image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
+        image: /images/slideshows/dancexr/logo-black.jpg
         badge: "2026.5 | Dedicated AI Backend"
         badge_type: new
       - title: AI Powered Voice Chat
         link: /dancexr/features/ai_chat
-        image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
+        image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
         badge: PRO
         badge_type: pro
       - title: "Offline Render & Recording"
         link: /dancexr/creator
-        image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
+        image: /images/slideshows/render/14b024471bc0d21580d976ea28e2fc5f74f1f623.jpg
         badge: PC · CREATOR
   - title: Model Support
     subsections:
