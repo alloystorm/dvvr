@@ -33,17 +33,17 @@ feature_sections:
         badge_type: new
       - title: DanceXR Operator
         link: /kr/dancexr/features/operator
-        image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
+        image: /images/slideshows/dancexr/logo-black.jpg
         badge: "2026.5 | Dedicated AI Backend"
         badge_type: new
       - title: AI 기반 음성 채팅
         link: /kr/dancexr/features/ai_chat
-        image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
+        image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
         badge: PRO
         badge_type: pro
       - title: "오프라인 렌더 & 녹화"
         link: /kr/dancexr/creator
-        image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
+        image: /images/slideshows/render/14b024471bc0d21580d976ea28e2fc5f74f1f623.jpg
         badge: PC · CREATOR
   - title: 모델 지원
     subsections:
@@ -514,32 +514,32 @@ feature_sections:
     tiles:
       - title: 가슴 흔들림
         link: /kr/dancexr/features/boob_shake_sex_overlay
-        image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
+        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: 성관계 오버레이
         link: /kr/dancexr/features/boob_shake_sex_overlay
-        image: /images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp
+        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: 딜도
         link: /kr/dancexr/features/dildo
-        image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
+        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: 카우걸 섹스 모션
         link: /kr/dancexr/features/scg_motion
-        image: /images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp
+        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: 섹스 모션 2
         link: /kr/dancexr/features/sfb_motion
-        image: /images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp
+        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: Sex Motion 3
         link: /kr/dancexr/features/sex_motion_3
-        image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
+        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
 ---
