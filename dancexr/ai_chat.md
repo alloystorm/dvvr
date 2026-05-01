@@ -11,45 +11,57 @@ sidebar:
 
 ## AI Powered Voice Chat
 
+DanceXR now supports a more complete local AI chat workflow through DanceXR Operator, the dedicated local AI backend introduced in the 2026.5 release. Operator runs as a local server alongside the game and provides the foundation for AI conversation, roleplay, and character voice features without requiring any external online service.
+
+If you want the most up-to-date AI chat experience in DanceXR, Operator is now the recommended setup.
+
 ### Key features
-* Options to use OpenAI, local or remote Text Generation WebUI as AI service
-* Built-in TTS engine to convert AI generated messages to voice
-* Built-in lipsync that automatically animate characters' facial while they talk
-* Built-in voice recognition to convert your voice to text tand send to AI
-* Included over 900 English voices to choose from, each character can have their own unique voice
+* Recommended support for DanceXR Operator as the dedicated local AI backend
+* AI chat that can use scene context, memory, and multi-turn history for longer roleplay sessions
+* TTS support to convert AI generated messages to voice
+* Built-in lipsync that automatically animates characters' faces while they talk
+* Built-in voice recognition to convert your voice to text and send it to AI
+* Support for multiple voices and languages, so each character can have a distinct speaking style
 
 ### Limitations 
-* Voice engine is Windows only. On other platform you can still use voice recognition to talk but responses will be text only.
+* Some voice features still depend on platform and backend configuration. On platforms where voice output is unavailable, AI responses can still be shown as text.
 
 
 ## AI Services
-There are various options to use as AI service to give your character intelligence. We'll discuss pros and cons for each option below.
+DanceXR now focuses on local AI chat backends. The recommended option is DanceXR Operator, but other manual local backends are still available if you prefer them.
 
-### OpenAI (ChatGPT)
-This is the most intelligent option at the moment. 
+### DanceXR Operator
+DanceXR Operator is the dedicated local AI backend for DanceXR. It runs as a local server alongside the game, bundling voice synthesis and large language model chat behind a unified API so DanceXR can provide AI conversation, roleplay, and character voice features through one local service.
+
+Operator is what powers the new AI chat stack introduced in the 2026.5 release. It is designed to run on your own gaming PC, manage the model and voice pipeline locally, and provide a more reliable foundation for longer, scene-aware character interaction.
 
 **Pros:**
-* Smart
-* Fast
-* Cost effective (comparing to other remote options)
+* Designed specifically for DanceXR
+* Runs locally on your own hardware
+* Supports AI chat, roleplay, and character voice through one backend
+* Better suited for scene-aware, persistent multi-turn interaction
 
 **Cons:**
-* Censored
+* Requires a local install next to your DanceXR folder
+* Performance still depends on your hardware and selected models
 
 **Setup:**
-To use OpenAI service with DanceXR, you need an OpenAI API key.
-* Register and login your OpenAI account. 
-* Click on your profile icon on the top right corner of the page. 
-* Select "View API Keys" to open the API page.
-* Click "Create New Secret Key" and copy the key when it shows up. Keep in mind that the key is **only shown here once**, you can't retrieve the full key later so don't lose it. 
-* Open DanceXR and click on the Config icon from the Chat menu. 
-* Go to AI Service and paste your key in the "OpenAI API Key" box. 
-* Then select "OpenAI (ChatGPT)" in the "AI Service" dropdown and you should be good to go.
-* In the chat settings you can choose the model that you want to use. 
+* Install Operator next to your DanceXR folder. See the [DanceXR Operator](/dancexr/features/operator) feature page for installation details.
+* Enable AI Chat in DanceXR and select Operator as the backend when available.
+* Once installed in the recommended folder structure, Operator can start automatically with DanceXR and expose its web interface locally for model and TTS management.
 
+### AI chat improvements in 2026.5
+The latest AI chat stack includes several workflow improvements that apply most directly when using Operator:
+
+* **Environment awareness**: Characters can use scene facts such as time, lighting, and stage context more consistently.
+* **Memory and persistence**: Multi-turn history, intent tracking, session persistence, and memory compression help conversations carry forward more naturally.
+* **Better interaction flow**: Prompt handling, speaker turns, startup behavior, and status reporting were refined for longer sessions.
+* **Improved TTS behavior**: Voice quality, language support, and fallback behavior have all been improved.
 
 ### Running LLM Locally (LM Studio, OobaBooga, Ollama)
 You can also run LLMs locally if your computer is powerful enough. For example, the latest Llama3 8b should be more than enough for role-playing. We have tested OobaBooga, LM Studio, and Ollama, and they work well with DanceXR.
+
+These options are still useful if you want a custom manual setup, but they are now alternatives to Operator rather than the primary recommended path.
 
 Keep in mind that the AI space is developing really fast and new tools and models are coming out all the time. The recommendations here are based on what we know at the time of writing and might be out of date when you are reading it. Feel free to explore your own options. DanceXR should work with any LLM tool that supports OpenAI API spec.
 
@@ -91,26 +103,6 @@ Configurations in DanceXR:
 * Type in the server URL and port number. For example "http://127.0.0.1:1234"(LM Studio) or "http://127.0.0.1:5000"(OobaBooga). 
 
 
-### Use Remote Service like Runpod to run WebUI
-There are services that allow you to rent a GPU and run AI models. Runpod is one of them. They have a template for WebUI and it's easier to setup than running locally. 
-
-**Pros:** 
-* Fast and easy
-* Freedom to choose any model that you want to run. Even those that are impossible to run on your local GPU. 
-
-**Cons:**
-* A bit more expensive than OpenAI
-* Requires downloading the model everytime you run it. But it should only take a few minutes.
-
-**Setup:**
-* Choose a GPU from "Community Cloud" and click on "Deploy". A 3080ti should be more than enough to run a 13b model. That costs 26 cents per hour.
-* Select "RunPod TheBloke LLMs" from the template dropdown.
-* Once it's running, click on connect and it will give you links to the WebUI and the API, copy the URL for the API and paste it in "Remote WebUI URL" box in DanceXR.
-* Click on the WebUI link and then go to the model tab to download a model.
-* We recommend using one of these 2 models: https://huggingface.co/TheBloke/Luna-AI-Llama2-Uncensored-GPTQ (7b, easier to run) https://huggingface.co/TheBloke/Nous-Hermes-Llama2-GPTQ (13b, smarter)
-* Refresh the model list and load it. 
-
-
 ### Improved Prompting for Local Models
 DanceXR now includes improved prompting techniques to enhance conversation quality, especially when using smaller local models. This ensures better responses and more engaging interactions.
 
@@ -128,7 +120,7 @@ In DanceXR, go to Chat Settings -> Templates to select the template you created.
 ### Characters
 The characters are derived from the name of the actor model. For example "Koharu Bouquet Cattleya Hair B Side Ponytail", "Koharu" will be interpreted as the character name, the rest "Bouquet Cattleya Hair B Side Ponytail" will be used as description for her outfit. 
 
-The language model might have some knowledge on the character if they are well known, so it sometimes knows who they are and how they behave, especially when you use OpenAI. 
+The language model might have some knowledge on the character if they are well known, so it sometimes knows who they are and how they behave depending on the model you are using.
 
 In the character settings you can enter description and personality for the character, and that will greatly affect how they behave in chat. For example you can change a proud and arrogant character to be obedient by just describing them as "Obedient and eager to please".
 
@@ -147,6 +139,8 @@ Then place the json in "chat/personas" folder and they will appear in the Person
 The chat history is sent to the AI every time you generate new content, in order to maintain a context. If you want to switch to a different scenario or topic, clear the history first so that the AI won't be affected by the previous chat context. You can also use this to manipulate the environment and drive the chat. Like if you describe something happened in your message, the AI will continue on that context.
 
 Please note that once the prompt limit is reached, the oldest messages will be ignored and not included in the context. So the AI might forget things that are too far back in the history.
+
+With the newer Operator-based workflow, DanceXR can also make better use of multi-turn history, session persistence, and memory compression, which helps longer roleplay sessions stay coherent even as the conversation grows.
 
 In the chat interface you can click on the icon next to the chat message to manipulate chat history. Options include:
 
@@ -197,7 +191,7 @@ The AI model can generate different language messages. But the voice model can't
 
 New setting introduced in 1.5.1 update allows selection of a chat language, on top of the default "auto" mode. The auto mode will behave exactly like before, it tries to determine language from the text content itself. But if you choose one of the language in the chat language settings, it will be used for both chat message and voice.
 
-Keep in mind that the prompt message has a higher imfluence to the GPT models in deciding what language to use when generating responses. If you choose a language other than English, it's best to also update the prompt template with native text to the language you are choosing. 
+Keep in mind that the prompt message has a strong influence on language models when deciding what language to use for responses. If you choose a language other than English, it's best to also update the prompt template with native text in the language you are choosing. 
 
 
 ## Speech To Text
