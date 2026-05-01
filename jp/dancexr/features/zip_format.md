@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
+layout: release
 title: ZIP形式
-toc: true
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/zip_format) | [繁中](/tw/dancexr/features/zip_format) | [日本語](/jp/dancexr/features/zip_format) | [한국어](/kr/dancexr/features/zip_format) | [简中](/zh/dancexr/features/zip_format)
 

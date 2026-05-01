@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
+layout: release
 title: ダンスセット
-toc: true
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/dance_set) | [繁中](/tw/dancexr/features/dance_set) | [日本語](/jp/dancexr/features/dance_set) | [한국어](/kr/dancexr/features/dance_set) | [简中](/zh/dancexr/features/dance_set)
 

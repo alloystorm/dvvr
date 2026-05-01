@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
+layout: release
 title: Global Actor Control
-toc: true
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/global_actor_control) | [繁中](/tw/dancexr/features/global_actor_control) | [日本語](/jp/dancexr/features/global_actor_control) | [한국어](/kr/dancexr/features/global_actor_control) | [简中](/zh/dancexr/features/global_actor_control)
 

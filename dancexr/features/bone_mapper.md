@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
+layout: release
 title: XPS Bone Mapper
-toc: true
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/bone_mapper) | [繁中](/tw/dancexr/features/bone_mapper) | [日本語](/jp/dancexr/features/bone_mapper) | [한국어](/kr/dancexr/features/bone_mapper) | [简中](/zh/dancexr/features/bone_mapper)
 

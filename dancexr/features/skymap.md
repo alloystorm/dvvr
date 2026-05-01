@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
+layout: release
 title: Sky & Cloud
-toc: true
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/skymap) | [繁中](/tw/dancexr/features/skymap) | [日本語](/jp/dancexr/features/skymap) | [한국어](/kr/dancexr/features/skymap) | [简中](/zh/dancexr/features/skymap)
 

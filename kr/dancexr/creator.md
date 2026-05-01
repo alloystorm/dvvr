@@ -1,10 +1,16 @@
 ---
-locale: ko-KR
-layout: single
+layout: release
 title: 크리에이터 에디션
-toc: true
-sidebar:
-  nav: "docs-kr"
+locale: ko-KR
+nav_links:
+  - label: 소개
+    url: /kr/dancexr
+  - label: 기능
+    url: /kr/dancexr/features
+  - label: 출시
+    url: /kr/dancexr/releases
+  - label: 다운로드
+    url: /kr/dancexr/download
 ---
 [Eng](/dancexr/creator) | [繁中](/tw/dancexr/creator) | [日本語](/jp/dancexr/creator) | [한국어](/kr/dancexr/creator) | [简中](/zh/dancexr/creator)
 

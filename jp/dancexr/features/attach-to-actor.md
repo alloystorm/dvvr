@@ -1,10 +1,16 @@
 ---
-layout: single
+layout: release
 title: アクターにアタッチ
-toc: true
 locale: ja-JP
-sidebar:
-  nav: "features-jp"
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 # アクターにアタッチ
 

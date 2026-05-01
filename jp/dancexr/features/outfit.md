@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
+layout: release
 title: アウトフィット & ボディペイント
-toc: false
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/outfit) | [繁中](/tw/dancexr/features/outfit) | [日本語](/jp/dancexr/features/outfit) | [한국어](/kr/dancexr/features/outfit) | [简中](/zh/dancexr/features/outfit)
 
@@ -51,8 +57,3 @@ sidebar:
 ## 動画チュートリアル
 - [ボディペイントチュートリアル](https://www.youtube.com/watch?v=chHk9--cUYE)
 
-## 設定
-
-設定の詳細な説明については、以下のページをご覧ください：
-
-[アウトフィット & ボディペイント v2025.4](/dancexr/menu/2025.4/actor/outfit)

@@ -1,10 +1,16 @@
 ---
-locale: zh-TW
-layout: single
+layout: release
 title: Google Drive 整合
-toc: true
-sidebar:
-  nav: "docs-tw"
+locale: zh-TW
+nav_links:
+  - label: 簡介
+    url: /tw/dancexr
+  - label: 功能
+    url: /tw/dancexr/features
+  - label: 發布
+    url: /tw/dancexr/releases
+  - label: 下載
+    url: /tw/dancexr/download
 ---
 [Eng](/dancexr/features/googledrive) | [繁中](/tw/dancexr/features/googledrive) | [日本語](/jp/dancexr/features/googledrive) | [한국어](/kr/dancexr/features/googledrive) | [简中](/zh/dancexr/features/googledrive)
 

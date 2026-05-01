@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
+layout: release
 title: 空と雲
-toc: true
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/skymap) | [繁中](/tw/dancexr/features/skymap) | [日本語](/jp/dancexr/features/skymap) | [한국어](/kr/dancexr/features/skymap) | [简中](/zh/dancexr/features/skymap)
 

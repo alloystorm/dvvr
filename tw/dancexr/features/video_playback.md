@@ -1,10 +1,16 @@
 ---
-locale: zh-TW
-layout: single
+layout: release
 title: 視頻播放
-toc: true
-sidebar:
-  nav: "docs-tw"
+locale: zh-TW
+nav_links:
+  - label: 簡介
+    url: /tw/dancexr
+  - label: 功能
+    url: /tw/dancexr/features
+  - label: 發布
+    url: /tw/dancexr/releases
+  - label: 下載
+    url: /tw/dancexr/download
 ---
 [Eng](/dancexr/features/video_playback) | [繁中](/tw/dancexr/features/video_playback) | [日本語](/jp/dancexr/features/video_playback) | [한국어](/kr/dancexr/features/video_playback) | [简中](/zh/dancexr/features/video_playback)
 

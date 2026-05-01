@@ -1,10 +1,16 @@
 ---
-locale: zh-CN
-layout: single
+layout: release
 title: Google Drive 集成
-toc: true
-sidebar:
-  nav: "docs-zh"
+locale: zh-CN
+nav_links:
+  - label: 简介
+    url: /zh/dancexr
+  - label: 功能
+    url: /zh/dancexr/features
+  - label: 发布
+    url: /zh/dancexr/releases
+  - label: 下载
+    url: /zh/dancexr/download
 ---
 [Eng](/dancexr/features/googledrive) | [繁中](/tw/dancexr/features/googledrive) | [日本語](/jp/dancexr/features/googledrive) | [한국어](/kr/dancexr/features/googledrive) | [简中](/zh/dancexr/features/googledrive)
 

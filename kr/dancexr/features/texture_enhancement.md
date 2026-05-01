@@ -1,10 +1,16 @@
 ---
-locale: ko-KR
-layout: single
+layout: release
 title: 텍스처 향상
-toc: true
-sidebar:
-  nav: "docs-kr"
+locale: ko-KR
+nav_links:
+  - label: 소개
+    url: /kr/dancexr
+  - label: 기능
+    url: /kr/dancexr/features
+  - label: 출시
+    url: /kr/dancexr/releases
+  - label: 다운로드
+    url: /kr/dancexr/download
 ---
 [Eng](/dancexr/features/texture_enhancement) | [繁中](/tw/dancexr/features/texture_enhancement) | [日本語](/jp/dancexr/features/texture_enhancement) | [한국어](/kr/dancexr/features/texture_enhancement) | [简中](/zh/dancexr/features/texture_enhancement)
 

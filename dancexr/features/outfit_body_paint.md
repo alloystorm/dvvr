@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
+layout: release
 title: Outfit Body Paint
-toc: true
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/outfit_body_paint) | [繁中](/tw/dancexr/features/outfit_body_paint) | [日本語](/jp/dancexr/features/outfit_body_paint) | [한국어](/kr/dancexr/features/outfit_body_paint) | [简中](/zh/dancexr/features/outfit_body_paint)
 

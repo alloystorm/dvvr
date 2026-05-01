@@ -1,10 +1,16 @@
 ---
-locale: zh-TW
-layout: single
+layout: release
 title: Cowgirl 性愛動作
-toc: true
-sidebar:
-  nav: "docs-tw"
+locale: zh-TW
+nav_links:
+  - label: 簡介
+    url: /tw/dancexr
+  - label: 功能
+    url: /tw/dancexr/features
+  - label: 發布
+    url: /tw/dancexr/releases
+  - label: 下載
+    url: /tw/dancexr/download
 ---
 [Eng](/dancexr/features/scg_motion) | [繁中](/tw/dancexr/features/scg_motion) | [日本語](/jp/dancexr/features/scg_motion) | [한국어](/kr/dancexr/features/scg_motion) | [简中](/zh/dancexr/features/scg_motion)
 

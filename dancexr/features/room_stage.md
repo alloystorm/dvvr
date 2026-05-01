@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
+layout: release
 title: Room Stage
-toc: true
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/room_stage) | [繁中](/tw/dancexr/features/room_stage) | [日本語](/jp/dancexr/features/room_stage) | [한국어](/kr/dancexr/features/room_stage) | [简中](/zh/dancexr/features/room_stage)
 

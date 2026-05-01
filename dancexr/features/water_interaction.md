@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
-toc: true
+layout: release
 title: Water Interaction
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/water_interaction) | [繁中](/tw/dancexr/features/water_interaction) | [日本語](/jp/dancexr/features/water_interaction) | [한국어](/kr/dancexr/features/water_interaction) | [简中](/zh/dancexr/features/water_interaction)
 

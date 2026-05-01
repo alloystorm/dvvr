@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
-toc: true
+layout: release
 title: 水の相互作用
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/water_interaction) | [繁中](/tw/dancexr/features/water_interaction) | [日本語](/jp/dancexr/features/water_interaction) | [한국어](/kr/dancexr/features/water_interaction) | [简中](/zh/dancexr/features/water_interaction)
 

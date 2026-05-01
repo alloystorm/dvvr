@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
+layout: release
 title: ドレッシングシステム（マテリアルモーフとXPSオプションアイテム）
-toc: true
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/optionals) | [繁中](/tw/dancexr/features/optionals) | [日本語](/jp/dancexr/features/optionals) | [한국어](/kr/dancexr/features/optionals) | [简中](/zh/dancexr/features/optionals)
 

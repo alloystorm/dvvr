@@ -1,10 +1,16 @@
 ---
-locale: en-rUS
-layout: single
+layout: release
 title: Application Settings
-toc: false
-sidebar:
-  nav: "docs"
+locale: en-rUS
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/application_settings) | [繁中](/tw/dancexr/features/application_settings) | [日本語](/jp/dancexr/features/application_settings) | [한국어](/kr/dancexr/features/application_settings) | [简中](/zh/dancexr/features/application_settings)
 

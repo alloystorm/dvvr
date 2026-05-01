@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
+layout: release
 title: Simulation
-toc: true
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/simulation) | [繁中](/tw/dancexr/features/simulation) | [日本語](/jp/dancexr/features/simulation) | [한국어](/kr/dancexr/features/simulation) | [简中](/zh/dancexr/features/simulation)
 

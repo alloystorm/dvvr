@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
-toc: true
+layout: release
 title: Specular / Mask Map
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/specular_map) | [繁中](/tw/dancexr/features/specular_map) | [日本語](/jp/dancexr/features/specular_map) | [한국어](/kr/dancexr/features/specular_map) | [简中](/zh/dancexr/features/specular_map)
 

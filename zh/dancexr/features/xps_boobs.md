@@ -1,10 +1,16 @@
 ---
-locale: zh-CN
-layout: single
+layout: release
 title: 身体碰撞体
-toc: true
-sidebar:
-  nav: "docs-zh"
+locale: zh-CN
+nav_links:
+  - label: 简介
+    url: /zh/dancexr
+  - label: 功能
+    url: /zh/dancexr/features
+  - label: 发布
+    url: /zh/dancexr/releases
+  - label: 下载
+    url: /zh/dancexr/download
 ---
 [Eng](/dancexr/features/xps_boobs) | [繁中](/tw/dancexr/features/xps_boobs) | [日本語](/jp/dancexr/features/xps_boobs) | [한국어](/kr/dancexr/features/xps_boobs) | [简中](/zh/dancexr/features/xps_boobs)
 

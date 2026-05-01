@@ -1,10 +1,16 @@
 ---
-locale: ko-KR
-layout: single
+layout: release
 title: 비디오 재생
-toc: true
-sidebar:
-  nav: "docs-kr"
+locale: ko-KR
+nav_links:
+  - label: 소개
+    url: /kr/dancexr
+  - label: 기능
+    url: /kr/dancexr/features
+  - label: 출시
+    url: /kr/dancexr/releases
+  - label: 다운로드
+    url: /kr/dancexr/download
 ---
 [Eng](/dancexr/features/video_playback) | [繁中](/tw/dancexr/features/video_playback) | [日本語](/jp/dancexr/features/video_playback) | [한국어](/kr/dancexr/features/video_playback) | [简中](/zh/dancexr/features/video_playback)
 

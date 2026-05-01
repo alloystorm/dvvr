@@ -1,10 +1,16 @@
 ---
-locale: zh-TW
-layout: single
+layout: release
 title: 胸部搖晃和性交疊
-toc: true
-sidebar:
-  nav: "docs-tw"
+locale: zh-TW
+nav_links:
+  - label: 簡介
+    url: /tw/dancexr
+  - label: 功能
+    url: /tw/dancexr/features
+  - label: 發布
+    url: /tw/dancexr/releases
+  - label: 下載
+    url: /tw/dancexr/download
 ---
 [Eng](/dancexr/features/boob_shake_sex_overlay) | [繁中](/tw/dancexr/features/boob_shake_sex_overlay) | [日本語](/jp/dancexr/features/boob_shake_sex_overlay) | [한국어](/kr/dancexr/features/boob_shake_sex_overlay) | [简中](/zh/dancexr/features/boob_shake_sex_overlay)
 

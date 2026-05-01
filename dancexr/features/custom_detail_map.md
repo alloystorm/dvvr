@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
-toc: true
+layout: release
 title: Custom Detail Map
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/custom_detail_map) | [繁中](/tw/dancexr/features/custom_detail_map) | [日本語](/jp/dancexr/features/custom_detail_map) | [한국어](/kr/dancexr/features/custom_detail_map) | [简中](/zh/dancexr/features/custom_detail_map)
 

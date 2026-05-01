@@ -1,10 +1,16 @@
 ---
-locale: ko-KR
-layout: single
+layout: release
 title: 카메라 설정
-toc: true
-sidebar:
-  nav: "docs-kr"
+locale: ko-KR
+nav_links:
+  - label: 소개
+    url: /kr/dancexr
+  - label: 기능
+    url: /kr/dancexr/features
+  - label: 출시
+    url: /kr/dancexr/releases
+  - label: 다운로드
+    url: /kr/dancexr/download
 ---
 [Eng](/dancexr/features/camera_settings) | [繁中](/tw/dancexr/features/camera_settings) | [日本語](/jp/dancexr/features/camera_settings) | [한국어](/kr/dancexr/features/camera_settings) | [简中](/zh/dancexr/features/camera_settings)
 

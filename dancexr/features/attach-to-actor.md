@@ -1,10 +1,16 @@
 ---
-layout: single
+layout: release
 title: Attach To Actor
-toc: true
 locale: en-US
-sidebar:
-  nav: "features"
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 
 # Attach To Actor

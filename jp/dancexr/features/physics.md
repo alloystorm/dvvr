@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
+layout: release
 title: 物理
-toc: true
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/physics) | [繁中](/tw/dancexr/features/physics) | [日本語](/jp/dancexr/features/physics) | [한국어](/kr/dancexr/features/physics) | [简中](/zh/dancexr/features/physics)
 ## ## 物理の微調整

@@ -1,10 +1,16 @@
 ---
-locale: en-rUS
-layout: single
+layout: release
 title: Outfit & Bodypaint
-toc: false
-sidebar:
-  nav: "docs"
+locale: en-rUS
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/outfit) | [繁中](/tw/dancexr/features/outfit) | [日本語](/jp/dancexr/features/outfit) | [한국어](/kr/dancexr/features/outfit) | [简中](/zh/dancexr/features/outfit)
 
@@ -52,10 +58,4 @@ The Outfit effect provides creative ways to customize character appearances. It 
 ## Video Tutorials
 - [Body Paint Tutorial](https://www.youtube.com/watch?v=chHk9--cUYE)
 
-
-## Configurations
-
-For detailed explaination of the configurations, please visit the following page:
-
-[Outfit & Bodypaint v2025.4](/dancexr/menu/2025.4/actor/outfit)
 

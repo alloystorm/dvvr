@@ -1,10 +1,16 @@
 ---
-locale: zh-CN
-layout: single
+layout: release
 title: 道具
-toc: true
-sidebar:
-  nav: "docs-zh"
+locale: zh-CN
+nav_links:
+  - label: 简介
+    url: /zh/dancexr
+  - label: 功能
+    url: /zh/dancexr/features
+  - label: 发布
+    url: /zh/dancexr/releases
+  - label: 下载
+    url: /zh/dancexr/download
 ---
 [Eng](/dancexr/features/props) | [繁中](/tw/dancexr/features/props) | [日本語](/jp/dancexr/features/props) | [한국어](/kr/dancexr/features/props) | [简中](/zh/dancexr/features/props)
 

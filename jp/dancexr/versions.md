@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
+layout: release
 title: バリアントと入手可能性
-toc: true
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 
 [Eng](/dancexr/versions) | [繁中](/tw/dancexr/versions) | [日本語](/jp/dancexr/versions) | [한국어](/kr/dancexr/versions) | [简中](/zh/dancexr/versions)

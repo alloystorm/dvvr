@@ -1,10 +1,16 @@
 ---
-locale: ko-KR
-layout: single
+layout: release
 title: DanceXR Operator
-toc: true
-sidebar:
-  nav: "docs-kr"
+locale: ko-KR
+nav_links:
+  - label: 소개
+    url: /kr/dancexr
+  - label: 기능
+    url: /kr/dancexr/features
+  - label: 출시
+    url: /kr/dancexr/releases
+  - label: 다운로드
+    url: /kr/dancexr/download
 ---
 [Eng](/dancexr/features/operator) | [繁中](/tw/dancexr/features/operator) | [日本語](/jp/dancexr/features/operator) | [한국어](/kr/dancexr/features/operator) | [简中](/zh/dancexr/features/operator)
 

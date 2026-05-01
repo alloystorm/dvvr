@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
-toc: true
+layout: release
 title: 唇の素材
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/material_lips) | [繁中](/tw/dancexr/features/material_lips) | [日本語](/jp/dancexr/features/material_lips) | [한국어](/kr/dancexr/features/material_lips) | [简中](/zh/dancexr/features/material_lips)
 

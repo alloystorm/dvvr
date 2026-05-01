@@ -1,17 +1,18 @@
 ---
-locale: ko-KR
-layout: single
+layout: release
 title: 조명
-toc: false
-sidebar:
-  nav: "docs-kr"
+locale: ko-KR
+nav_links:
+  - label: 소개
+    url: /kr/dancexr
+  - label: 기능
+    url: /kr/dancexr/features
+  - label: 출시
+    url: /kr/dancexr/releases
+  - label: 다운로드
+    url: /kr/dancexr/download
 ---
 [Eng](/dancexr/features/lighting) | [繁中](/tw/dancexr/features/lighting) | [日本語](/jp/dancexr/features/lighting) | [한국어](/kr/dancexr/features/lighting) | [简中](/zh/dancexr/features/lighting)
 
 장면의 조명을 설정하십시오.
 
-## 설정
-
-설정에 대한 자세한 설명은 다음 페이지를 방문하십시오:
-
-[조명 v2025.4](/dancexr/menu/2025.4/scene/lighting)

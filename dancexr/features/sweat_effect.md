@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
+layout: release
 title: Sweat Effect
-toc: true
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/sweat_effect) | [繁中](/tw/dancexr/features/sweat_effect) | [日本語](/jp/dancexr/features/sweat_effect) | [한국어](/kr/dancexr/features/sweat_effect) | [简中](/zh/dancexr/features/sweat_effect)
 

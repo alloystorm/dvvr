@@ -1,10 +1,16 @@
 ---
-locale: en-rUS
-layout: single
+layout: release
 title: Motion Override
-toc: false
-sidebar:
-  nav: "docs"
+locale: en-rUS
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/motion_override) | [繁中](/tw/dancexr/features/motion_override) | [日本語](/jp/dancexr/features/motion_override) | [한국어](/kr/dancexr/features/motion_override) | [简中](/zh/dancexr/features/motion_override)
 
@@ -38,10 +44,4 @@ The Motion Override feature provides advanced tools to customize and enhance the
     - Use the rocking motion simulation to add depth and realism to the animation.
     - Optionally, add particle effects to enhance the visual impact of the motion.
 
-
-## Configurations
-
-For detailed explaination of the configurations, please visit the following page:
-
-[Motion Override v2025.4](/dancexr/menu/2025.4/actor/motion_override)
 

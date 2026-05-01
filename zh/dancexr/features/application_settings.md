@@ -1,20 +1,21 @@
 ---
-locale: zh-CN
-layout: single
+layout: release
 title: 应用设置
-toc: false
-sidebar:
-  nav: "docs-zh"
+locale: zh-CN
+nav_links:
+  - label: 简介
+    url: /zh/dancexr
+  - label: 功能
+    url: /zh/dancexr/features
+  - label: 发布
+    url: /zh/dancexr/releases
+  - label: 下载
+    url: /zh/dancexr/download
 ---
 [Eng](/dancexr/features/application_settings) | [繁中](/tw/dancexr/features/application_settings) | [日本語](/jp/dancexr/features/application_settings) | [한국어](/kr/dancexr/features/application_settings) | [简中](/zh/dancexr/features/application_settings)
 
 应用设置
 
-## 配置
-
-有关配置的详细说明，请访问以下页面：
-
-[应用设置 v2025.4](/dancexr/menu/2025.4/system/application_settings)
 
 ### 启动时的 VR (v2025.10)
 应用程序不再在启动时自动启动 VR，但您仍然可以在设置中配置它。

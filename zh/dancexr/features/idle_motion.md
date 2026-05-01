@@ -1,10 +1,16 @@
 ---
-locale: zh-CN
-layout: single
-toc: true
+layout: release
 title: 闲置动作
-sidebar:
-  nav: "docs-zh"
+locale: zh-CN
+nav_links:
+  - label: 简介
+    url: /zh/dancexr
+  - label: 功能
+    url: /zh/dancexr/features
+  - label: 发布
+    url: /zh/dancexr/releases
+  - label: 下载
+    url: /zh/dancexr/download
 ---
 [Eng](/dancexr/features/idle_motion) | [繁中](/tw/dancexr/features/idle_motion) | [日本語](/jp/dancexr/features/idle_motion) | [한국어](/kr/dancexr/features/idle_motion) | [简中](/zh/dancexr/features/idle_motion)
 

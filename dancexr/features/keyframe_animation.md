@@ -1,10 +1,16 @@
 ---
-layout: single
+layout: release
 title: Keyframe Animation
-toc: true
 locale: en-US
-sidebar:
-  nav: "docs"
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 
 [Eng](/dancexr/features/keyframe_animation) | [繁中](/tw/dancexr/features/keyframe_animation) | [日本語](/jp/dancexr/features/keyframe_animation) | [한국어](/kr/dancexr/features/keyframe_animation) | [简中](/zh/dancexr/features/keyframe_animation)

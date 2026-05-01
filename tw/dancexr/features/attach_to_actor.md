@@ -1,10 +1,16 @@
 ---
-locale: zh-TW
-layout: single
+layout: release
 title: 附加至演員
-toc: false
-sidebar:
-  nav: "docs-tw"
+locale: zh-TW
+nav_links:
+  - label: 簡介
+    url: /tw/dancexr
+  - label: 功能
+    url: /tw/dancexr/features
+  - label: 發布
+    url: /tw/dancexr/releases
+  - label: 下載
+    url: /tw/dancexr/download
 ---
 [Eng](/dancexr/features/attach_to_actor) | [繁中](/tw/dancexr/features/attach_to_actor) | [日本語](/jp/dancexr/features/attach_to_actor) | [한국어](/kr/dancexr/features/attach_to_actor) | [简中](/zh/dancexr/features/attach_to_actor)
 
@@ -21,8 +27,3 @@ sidebar:
 - 將道具或配飾附加到角色上。
 - 創建具有移動配飾的複雜動畫。
 
-## 設定
-
-有關設定的詳細說明，請訪問以下頁面：
-
-[附加至演員 v2025.4](/dancexr/menu/2025.4/actor/attach_to_actor)

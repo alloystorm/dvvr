@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
-toc: true
+layout: release
 title: Generate Normal Map
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/generate_normal_map) | [繁中](/tw/dancexr/features/generate_normal_map) | [日本語](/jp/dancexr/features/generate_normal_map) | [한국어](/kr/dancexr/features/generate_normal_map) | [简中](/zh/dancexr/features/generate_normal_map)
 

@@ -1,10 +1,16 @@
 ---
-layout: single
+layout: release
 title: キーフレームアニメーション
-toc: true
 locale: ja-JP
-sidebar:
-  nav: "docs-jp"
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/keyframe_animation) | [繁中](/tw/dancexr/features/keyframe_animation) | [日本語](/jp/dancexr/features/keyframe_animation) | [한국어](/kr/dancexr/features/keyframe_animation) | [简中](/zh/dancexr/features/keyframe_animation)
 

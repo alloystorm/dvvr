@@ -1,10 +1,16 @@
 ---
-layout: single
+layout: release
 title: 키프레임 애니메이션
-toc: true
 locale: ko-KR
-sidebar:
-  nav: "docs-kr"
+nav_links:
+  - label: 소개
+    url: /kr/dancexr
+  - label: 기능
+    url: /kr/dancexr/features
+  - label: 출시
+    url: /kr/dancexr/releases
+  - label: 다운로드
+    url: /kr/dancexr/download
 ---
 [Eng](/dancexr/features/keyframe_animation) | [繁中](/tw/dancexr/features/keyframe_animation) | [日本語](/jp/dancexr/features/keyframe_animation) | [한국어](/kr/dancexr/features/keyframe_animation) | [简中](/zh/dancexr/features/keyframe_animation)
 

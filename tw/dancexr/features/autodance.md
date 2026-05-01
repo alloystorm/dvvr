@@ -1,10 +1,16 @@
 ---
-locale: zh-TW
-layout: single
+layout: release
 title: 自動跳舞
-toc: true
-sidebar:
-  nav: "docs-tw"
+locale: zh-TW
+nav_links:
+  - label: 簡介
+    url: /tw/dancexr
+  - label: 功能
+    url: /tw/dancexr/features
+  - label: 發布
+    url: /tw/dancexr/releases
+  - label: 下載
+    url: /tw/dancexr/download
 ---
 [Eng](/dancexr/features/autodance) | [繁中](/tw/dancexr/features/autodance) | [日本語](/jp/dancexr/features/autodance) | [한국어](/kr/dancexr/features/autodance) | [简中](/zh/dancexr/features/autodance)
 

@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
+layout: release
 title: AI駆動音声チャット
-toc: true
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/ai_chat) | [繁中](/tw/dancexr/features/ai_chat) | [日本語](/jp/dancexr/features/ai_chat) | [한국어](/kr/dancexr/features/ai_chat) | [简中](/zh/dancexr/features/ai_chat)
 

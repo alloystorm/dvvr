@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
-toc: true
+layout: release
 title: 言語
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/languages) | [繁中](/tw/dancexr/features/languages) | [日本語](/jp/dancexr/features/languages) | [한국어](/kr/dancexr/features/languages) | [简中](/zh/dancexr/features/languages)
 

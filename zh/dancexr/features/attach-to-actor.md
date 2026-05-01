@@ -1,10 +1,16 @@
 ---
-layout: single
+layout: release
 title: 附加到演员
-toc: true
 locale: zh-CN
-sidebar:
-  nav: "features-zh"
+nav_links:
+  - label: 简介
+    url: /zh/dancexr
+  - label: 功能
+    url: /zh/dancexr/features
+  - label: 发布
+    url: /zh/dancexr/releases
+  - label: 下载
+    url: /zh/dancexr/download
 ---
 # 附加到角色
 

@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
+layout: release
 title: ブーブスシェイク＆セックスオーバーレイ
-toc: true
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/boob_shake_sex_overlay) | [繁中](/tw/dancexr/features/boob_shake_sex_overlay) | [日本語](/jp/dancexr/features/boob_shake_sex_overlay) | [한국어](/kr/dancexr/features/boob_shake_sex_overlay) | [简中](/zh/dancexr/features/boob_shake_sex_overlay)
 

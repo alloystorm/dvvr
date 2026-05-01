@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
+layout: release
 title: Tagging
-toc: true
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/tagging) | [繁中](/tw/dancexr/features/tagging) | [日本語](/jp/dancexr/features/tagging) | [한국어](/kr/dancexr/features/tagging) | [简中](/zh/dancexr/features/tagging)
 

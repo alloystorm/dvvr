@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
-toc: true
+layout: release
 title: ライトボール
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/lightball) | [繁中](/tw/dancexr/features/lightball) | [日本語](/jp/dancexr/features/lightball) | [한국어](/kr/dancexr/features/lightball) | [简中](/zh/dancexr/features/lightball)
 

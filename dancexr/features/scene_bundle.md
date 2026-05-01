@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
-toc: true
+layout: release
 title: Scene Bundle
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/scene_bundle) | [繁中](/tw/dancexr/features/scene_bundle) | [日本語](/jp/dancexr/features/scene_bundle) | [한국어](/kr/dancexr/features/scene_bundle) | [简中](/zh/dancexr/features/scene_bundle)
 

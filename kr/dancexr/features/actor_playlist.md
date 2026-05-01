@@ -1,10 +1,16 @@
 ---
-locale: ko-KR
-layout: single
+layout: release
 title: 배우 재생목록
-toc: true
-sidebar:
-  nav: "docs-kr"
+locale: ko-KR
+nav_links:
+  - label: 소개
+    url: /kr/dancexr
+  - label: 기능
+    url: /kr/dancexr/features
+  - label: 출시
+    url: /kr/dancexr/releases
+  - label: 다운로드
+    url: /kr/dancexr/download
 ---
 [Eng](/dancexr/features/actor_playlist) | [繁中](/tw/dancexr/features/actor_playlist) | [日本語](/jp/dancexr/features/actor_playlist) | [한국어](/kr/dancexr/features/actor_playlist) | [简中](/zh/dancexr/features/actor_playlist)
 

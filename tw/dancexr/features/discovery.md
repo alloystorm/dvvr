@@ -1,10 +1,16 @@
 ---
-locale: zh-TW
-layout: single
+layout: release
 title: 探索應用程式
-toc: true
-sidebar:
-  nav: "docs-tw"
+locale: zh-TW
+nav_links:
+  - label: 簡介
+    url: /tw/dancexr
+  - label: 功能
+    url: /tw/dancexr/features
+  - label: 發布
+    url: /tw/dancexr/releases
+  - label: 下載
+    url: /tw/dancexr/download
 ---
 [Eng](/dancexr/features/discovery) | [繁中](/tw/dancexr/features/discovery) | [日本語](/jp/dancexr/features/discovery) | [한국어](/kr/dancexr/features/discovery) | [简中](/zh/dancexr/features/discovery)
 

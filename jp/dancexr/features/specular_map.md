@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
-toc: true
+layout: release
 title: スペキュラー / マスクマップ
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/specular_map) | [繁中](/tw/dancexr/features/specular_map) | [日本語](/jp/dancexr/features/specular_map) | [한국어](/kr/dancexr/features/specular_map) | [简中](/zh/dancexr/features/specular_map)
 

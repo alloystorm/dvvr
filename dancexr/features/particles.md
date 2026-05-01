@@ -1,10 +1,16 @@
 ---
-locale: en-US
-layout: single
+layout: release
 title: Particle System
-toc: true
-sidebar:
-  nav: "docs"
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
 ---
 [Eng](/dancexr/features/particles) | [繁中](/tw/dancexr/features/particles) | [日本語](/jp/dancexr/features/particles) | [한국어](/kr/dancexr/features/particles) | [简中](/zh/dancexr/features/particles)
 

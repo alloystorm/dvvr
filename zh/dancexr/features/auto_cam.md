@@ -1,10 +1,16 @@
 ---
-locale: zh-CN
-layout: single
+layout: release
 title: [自动摄像机]
-toc: false
-sidebar:
-  nav: "docs-zh"
+locale: zh-CN
+nav_links:
+  - label: 简介
+    url: /zh/dancexr
+  - label: 功能
+    url: /zh/dancexr/features
+  - label: 发布
+    url: /zh/dancexr/releases
+  - label: 下载
+    url: /zh/dancexr/download
 ---
 [Eng](/dancexr/features/auto_cam) | [繁中](/tw/dancexr/features/auto_cam) | [日本語](/jp/dancexr/features/auto_cam) | [한국어](/kr/dancexr/features/auto_cam) | [简中](/zh/dancexr/features/auto_cam)
 

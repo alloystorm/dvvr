@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
-toc: true
+layout: release
 title: パーティクルダイナミクス
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/particle_dynamics) | [繁中](/tw/dancexr/features/particle_dynamics) | [日本語](/jp/dancexr/features/particle_dynamics) | [한국어](/kr/dancexr/features/particle_dynamics) | [简中](/zh/dancexr/features/particle_dynamics)
 

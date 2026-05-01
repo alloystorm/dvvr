@@ -1,10 +1,16 @@
 ---
-locale: ko-KR
-layout: single
+layout: release
 title: 의상 & 바디 페인트
-toc: false
-sidebar:
-  nav: "docs-kr"
+locale: ko-KR
+nav_links:
+  - label: 소개
+    url: /kr/dancexr
+  - label: 기능
+    url: /kr/dancexr/features
+  - label: 출시
+    url: /kr/dancexr/releases
+  - label: 다운로드
+    url: /kr/dancexr/download
 ---
 [Eng](/dancexr/features/outfit) | [繁中](/tw/dancexr/features/outfit) | [日本語](/jp/dancexr/features/outfit) | [한국어](/kr/dancexr/features/outfit) | [简中](/zh/dancexr/features/outfit)
 
@@ -51,8 +57,3 @@ sidebar:
 ## 비디오 튜토리얼
 - [바디 페인트 튜토리얼](https://www.youtube.com/watch?v=chHk9--cUYE)
 
-## 설정
-
-설정에 대한 자세한 설명은 다음 페이지를 방문해 주세요:
-
-[의상 및 바디페인트 v2025.4](/dancexr/menu/2025.4/actor/outfit)

@@ -1,10 +1,16 @@
 ---
-layout: single
+layout: release
 title: 附加到演員
-toc: true
 locale: zh-TW
-sidebar:
-  nav: "features-tw"
+nav_links:
+  - label: 簡介
+    url: /tw/dancexr
+  - label: 功能
+    url: /tw/dancexr/features
+  - label: 發布
+    url: /tw/dancexr/releases
+  - label: 下載
+    url: /tw/dancexr/download
 ---
 # 附加到演員
 

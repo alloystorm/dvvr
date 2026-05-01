@@ -1,10 +1,16 @@
 ---
-locale: ja-JP
-layout: single
+layout: release
 title: モーションオーバーライド
-toc: false
-sidebar:
-  nav: "docs-jp"
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
 ---
 [Eng](/dancexr/features/motion_override) | [繁中](/tw/dancexr/features/motion_override) | [日本語](/jp/dancexr/features/motion_override) | [한국어](/kr/dancexr/features/motion_override) | [简中](/zh/dancexr/features/motion_override)
 
@@ -37,8 +43,3 @@ sidebar:
     - ロッキングモーションシミュレーションを使用してアニメーションに深さとリアリズムを追加します。
     - オプションで、動作の視覚的インパクトを強化するためにパーティクルエフェクトを追加します。
 
-## 設定
-
-設定の詳細な説明については、以下のページをご覧ください：
-
-[Motion Override v2025.4](/dancexr/menu/2025.4/actor/motion_override)

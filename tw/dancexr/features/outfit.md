@@ -1,10 +1,16 @@
 ---
-locale: zh-TW
-layout: single
+layout: release
 title: 服裝與身體彩繪
-toc: false
-sidebar:
-  nav: "docs-tw"
+locale: zh-TW
+nav_links:
+  - label: 簡介
+    url: /tw/dancexr
+  - label: 功能
+    url: /tw/dancexr/features
+  - label: 發布
+    url: /tw/dancexr/releases
+  - label: 下載
+    url: /tw/dancexr/download
 ---
 [Eng](/dancexr/features/outfit) | [繁中](/tw/dancexr/features/outfit) | [日本語](/jp/dancexr/features/outfit) | [한국어](/kr/dancexr/features/outfit) | [简中](/zh/dancexr/features/outfit)
 
@@ -51,8 +57,3 @@ sidebar:
 ## 視頻教程
 - [身體彩繪教程](https://www.youtube.com/watch?v=chHk9--cUYE)
 
-## 配置
-
-有關配置的詳細說明，請訪問以下頁面：
-
-[服裝與身體彩繪 v2025.4](/dancexr/menu/2025.4/actor/outfit)
