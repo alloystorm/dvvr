@@ -1,0 +1,998 @@
+{
+  "sections": [
+    {
+      "title": "Companion Apps",
+      "title_locales": {
+        "jp": "コンパニオンアプリ",
+        "zh": "配套应用",
+        "tw": "配套應用程式",
+        "kr": "컴패니언 앱"
+      },
+      "light": true,
+      "tiles": [
+        {
+          "path": "features/discovery",
+          "badge": "2025.6 | Asset Acquisition Made Effortless",
+          "badge_type": "new",
+          "image": "/images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp"
+        },
+        {
+          "path": "features/operator",
+          "badge": "2026.5 | Dedicated AI Backend",
+          "badge_type": "new",
+          "image": "/images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp"
+        }
+      ]
+    },
+    {
+      "title": "Model Support",
+      "title_locales": {
+        "jp": "モデルサポート",
+        "zh": "模型支持",
+        "tw": "模型支援",
+        "kr": "모델 지원"
+      },
+      "light": false,
+      "subsections": [
+        {
+          "title": "Content & Loading",
+          "title_locales": {
+            "jp": "コンテンツ管理",
+            "zh": "内容管理",
+            "tw": "內容管理",
+            "kr": "콘텐츠 관리"
+          },
+          "tiles": [
+            {
+              "path": "preparecontent",
+              "link_suffix": "#3d-models",
+              "title": "Organizing Model Files",
+              "title_locales": {
+                "jp": "モデルファイルの整理",
+                "zh": "组织模型文件",
+                "tw": "整理模型檔案",
+                "kr": "모델 파일 구성"
+              },
+              "image": "/images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp"
+            },
+            {
+              "path": "features/tagging",
+              "image": "/images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp"
+            },
+            {
+              "path": "features/loader_options",
+              "badge": "2026.3",
+              "badge_type": "new",
+              "image": "/images/slideshows/load_play/Stellar%20Blade%20Raven%20Sea%20Breeze%20Dance%20%5Bo6mocERvFNk%5D.webp"
+            },
+            {
+              "path": "features/actor_playlist",
+              "image": "/images/slideshows/load_play/%5BDanceXR%5D%20Kimagure%20Mercy%20-%20Honoka%20%5Bg1-OfMxxZ5s%5D.webp"
+            },
+            {
+              "path": "features/formation",
+              "image": "/images/slideshows/load_play/%5BDanceXR%5D%20New%20mirror%20feature%20%5B0FwY2viXcM0%5D.webp"
+            },
+            {
+              "path": "features/zip_format",
+              "image": "/images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Model Formats",
+          "title_locales": {
+            "jp": "モデル形式",
+            "zh": "模型格式",
+            "tw": "模型格式",
+            "kr": "모델 형식"
+          },
+          "tiles": [
+            {
+              "path": "features/bone_mapper",
+              "image": "/images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp"
+            },
+            {
+              "path": "features/pmx_physics",
+              "image": "/images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp"
+            },
+            {
+              "title": "PMX Blendshape Morphs",
+              "title_locales": {
+                "jp": "PMX ブレンドシェイプモーフ",
+                "zh": "PMX 变形目标",
+                "tw": "PMX 混合變形",
+                "kr": "PMX 블렌드셰이프 모프"
+              },
+              "badge": "PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp"
+            },
+            {
+              "path": "features/custom_inherit",
+              "image": "/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp"
+            },
+            {
+              "path": "features/bones",
+              "image": "/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp"
+            }
+          ]
+        },
+        {
+          "title": "Actor Tools",
+          "title_locales": {
+            "jp": "キャラクターツール",
+            "zh": "角色工具",
+            "tw": "角色工具",
+            "kr": "캐릭터 도구"
+          },
+          "tiles": [
+            {
+              "path": "features/actor_tools",
+              "image": "/images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp"
+            },
+            {
+              "path": "features/attach_to_actor",
+              "badge": "2025.2 · PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp"
+            },
+            {
+              "path": "features/feet_adjustments",
+              "image": "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+            },
+            {
+              "path": "features/scale_n_offset",
+              "image": "/images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp"
+            },
+            {
+              "path": "features/troubleshooting_options",
+              "image": "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
+            },
+            {
+              "title": "Actor Presets",
+              "title_locales": {
+                "jp": "アクタープリセット",
+                "zh": "演员预设",
+                "tw": "角色預設",
+                "kr": "배우 프리셋"
+              },
+              "path": "features/actor_presets",
+              "badge": "2024.1",
+              "badge_type": "new",
+              "image": "/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Life-like Characters",
+      "title_locales": {
+        "jp": "リアルなキャラクター",
+        "zh": "逼真角色",
+        "tw": "逼真角色",
+        "kr": "생동감 있는 캐릭터"
+      },
+      "light": true,
+      "tiles": [
+        {
+          "path": "features/eyecontact",
+          "image": "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+        },
+        {
+          "path": "features/idle_motion",
+          "image": "/images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp"
+        },
+        {
+          "path": "features/catwalk",
+          "image": "/images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp"
+        },
+        {
+          "path": "features/autodance",
+          "badge": "PRO",
+          "badge_type": "pro",
+          "image": "/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp"
+        },
+        {
+          "path": "features/autodance2",
+          "badge": "PRO",
+          "badge_type": "pro",
+          "image": "/images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp"
+        },
+        {
+          "path": "features/autodance3",
+          "badge": "PRO",
+          "badge_type": "pro",
+          "image": "/images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp"
+        },
+        {
+          "path": "features/secondary_motion",
+          "image": "/images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp"
+        },
+        {
+          "path": "features/actor_motion_settings",
+          "image": "/images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp"
+        }
+      ]
+    },
+    {
+      "title": "Physics",
+      "title_locales": {
+        "jp": "物理シミュレーション",
+        "zh": "物理模拟",
+        "tw": "物理模擬",
+        "kr": "물리 시뮬레이션"
+      },
+      "light": false,
+      "subsections": [
+        {
+          "title": "Simulation",
+          "title_locales": {
+            "jp": "シミュレーション",
+            "zh": "模拟",
+            "tw": "模擬",
+            "kr": "시뮬레이션"
+          },
+          "tiles": [
+            {
+              "path": "features/physics",
+              "image": "/images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp"
+            },
+            {
+              "path": "features/simulation",
+              "image": "/images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp"
+            },
+            {
+              "path": "features/cloth_simulation",
+              "badge": "2024.8 · PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp"
+            },
+            {
+              "path": "features/cloth_simulation",
+              "link_suffix": "#mesh_to_cloth",
+              "title": "Mesh To Cloth",
+              "title_locales": {
+                "jp": "メッシュから布へ",
+                "zh": "网格转布料",
+                "tw": "網格轉布料",
+                "kr": "메시에서 천으로"
+              },
+              "badge": "2024.9 · PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/physics/Convert%20Model%20Mesh%20To%20Cloth%20Simulation%20-%20DanceXR%202024.9%20%5BFdMSBaPMUHI%5D.webp"
+            },
+            {
+              "path": "features/particle_dynamics",
+              "badge": "2024.9 · PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/simulation/Wearing%20a%20spiderweb%20%5BooZ3Kq8D6ZQ%5D.webp"
+            },
+            {
+              "path": "features/particle_dynamics",
+              "link_suffix": "#softbody",
+              "title": "Soft Body Simulation",
+              "title_locales": {
+                "jp": "ソフトボディシミュレーション",
+                "zh": "软体模拟",
+                "tw": "軟體模擬",
+                "kr": "소프트 바디 시뮬레이션"
+              },
+              "badge": "2024.11 · PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/simulation/Nyotengo%20Looks%20Absolutely%20Stunning%20No%20Matter%20What%20She%20Wears%20%5BRxj702Ktp8s%5D.webp"
+            },
+            {
+              "path": "features/physics_softbody",
+              "image": "/images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp"
+            },
+            {
+              "path": "features/ragdoll",
+              "badge": "PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp"
+            }
+          ]
+        },
+        {
+          "title": "XPS Physics",
+          "title_locales": {
+            "jp": "XPS 物理",
+            "zh": "XPS 物理",
+            "tw": "XPS 物理",
+            "kr": "XPS 물리학"
+          },
+          "tiles": [
+            {
+              "path": "features/xps_physics",
+              "badge": "PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp"
+            },
+            {
+              "path": "features/xps_body_colliders",
+              "image": "/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp"
+            },
+            {
+              "path": "features/xps_hair",
+              "image": "/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp"
+            },
+            {
+              "path": "features/xps_cloth",
+              "image": "/images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp"
+            },
+            {
+              "path": "features/xps_skirt",
+              "image": "/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp"
+            },
+            {
+              "path": "features/xps_boobs",
+              "badge": "PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp"
+            },
+            {
+              "path": "features/xps_softbody",
+              "badge": "PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp"
+            },
+            {
+              "path": "features/xps_detach",
+              "image": "/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp"
+            },
+            {
+              "path": "features/lightball",
+              "badge": "PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/atmosphere/Higher%20%5BTDGnCk1wU98%5D.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Appearance",
+      "title_locales": {
+        "jp": "外観",
+        "zh": "外观",
+        "tw": "外觀",
+        "kr": "외관"
+      },
+      "light": true,
+      "subsections": [
+        {
+          "title": "Dressing",
+          "title_locales": {
+            "jp": "着せ替え",
+            "zh": "换装",
+            "tw": "換裝",
+            "kr": "의상"
+          },
+          "tiles": [
+            {
+              "path": "features/optionals",
+              "badge": "PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/dressing/HIBIKASE%20-%20DOAXVV%20Mikasa%20Dissolving%20Outfit%20%5BZZwW0PoJ1vE%5D.webp"
+            },
+            {
+              "path": "features/alternative_textures",
+              "badge": "2026.1",
+              "badge_type": "new",
+              "image": "/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp"
+            },
+            {
+              "path": "features/outfit_body_paint",
+              "badge": "2024.3 · PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp"
+            },
+            {
+              "path": "features/accessory",
+              "badge": "PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/dressing/Marie%20Rose%20Morphing%20Ballet%20Outfit%20-%20Satisfaction%20%5BRgNi-DdEfL0%5D.webp"
+            },
+            {
+              "path": "features/facial_control",
+              "image": "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+            },
+            {
+              "path": "features/water_interaction",
+              "image": "/images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp"
+            }
+          ]
+        },
+        {
+          "title": "Materials",
+          "title_locales": {
+            "jp": "マテリアル",
+            "zh": "材质",
+            "tw": "材質",
+            "kr": "재료"
+          },
+          "tiles": [
+            {
+              "path": "features/material_global",
+              "image": "/images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp"
+            },
+            {
+              "path": "features/toon_shading",
+              "image": "/images/slideshows/dressing/%5BDanceXR%202024.3%5D%20Improved%20Stocking%20Effect%20%5BewUUxxGbAm8%5D.webp"
+            },
+            {
+              "path": "features/material_skin",
+              "badge": "2026.2",
+              "badge_type": "new",
+              "image": "/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp"
+            },
+            {
+              "path": "features/material_hair",
+              "image": "/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp"
+            },
+            {
+              "path": "features/material_eyes",
+              "image": "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+            },
+            {
+              "path": "features/material_lips",
+              "image": "/images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp"
+            },
+            {
+              "path": "features/material_opaque",
+              "image": "/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp"
+            },
+            {
+              "path": "features/material_transparent",
+              "image": "/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp"
+            },
+            {
+              "path": "features/material_custom1",
+              "image": "/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp"
+            },
+            {
+              "path": "features/material_settings",
+              "badge": "PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp"
+            },
+            {
+              "path": "features/texture_enhancement",
+              "badge": "PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/dressing/%5BDanceXR%202024.3%5D%20Improved%20Stocking%20Effect%20%5BewUUxxGbAm8%5D.webp"
+            },
+            {
+              "path": "features/sweat_effect",
+              "badge": "2026.2 · NSFW",
+              "badge_type": "nsfw",
+              "image": "/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp"
+            },
+            {
+              "path": "features/custom_detail_map",
+              "image": "/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp"
+            },
+            {
+              "path": "features/generate_normal_map",
+              "image": "/images/slideshows/dressing/HIBIKASE%20-%20DOAXVV%20Mikasa%20Dissolving%20Outfit%20%5BZZwW0PoJ1vE%5D.webp"
+            },
+            {
+              "path": "features/hexagon_detail",
+              "image": "/images/slideshows/dressing/Marie%20Rose%20Morphing%20Ballet%20Outfit%20-%20Satisfaction%20%5BRgNi-DdEfL0%5D.webp"
+            },
+            {
+              "path": "features/specular_map",
+              "image": "/images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp"
+            },
+            {
+              "path": "features/transparency",
+              "image": "/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Atmosphere & Environment",
+      "title_locales": {
+        "jp": "雰囲気 & 環境",
+        "zh": "氛围与环境",
+        "tw": "氛圍與環境",
+        "kr": "분위기 & 환경"
+      },
+      "light": false,
+      "subsections": [
+        {
+          "title": "Sky & Lighting",
+          "title_locales": {
+            "jp": "空 & ライティング",
+            "zh": "天空与光照",
+            "tw": "天空與光照",
+            "kr": "하늘 & 조명"
+          },
+          "tiles": [
+            {
+              "path": "features/skymap",
+              "image": "/images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp"
+            },
+            {
+              "path": "features/sky",
+              "image": "/images/slideshows/atmosphere/Momiji%20is%20the%20conqueror%20of%20your%20dream%20%5BRahFWFBxxpc%5D.webp"
+            },
+            {
+              "path": "features/lighting",
+              "image": "/images/slideshows/atmosphere/Global%20Illumination%20Test%20%5BYt9RJqellnw%5D.webp"
+            },
+            {
+              "path": "features/raytracing",
+              "badge": "PC",
+              "image": "/images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp"
+            }
+          ]
+        },
+        {
+          "title": "Environment",
+          "title_locales": {
+            "jp": "環境",
+            "zh": "环境",
+            "tw": "環境",
+            "kr": "환경"
+          },
+          "tiles": [
+            {
+              "path": "features/particles",
+              "badge": "PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp"
+            },
+            {
+              "path": "features/water_system",
+              "badge": "PC",
+              "image": "/images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp"
+            },
+            {
+              "path": "features/ar_mode",
+              "badge": "Mobile & Quest · PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
+            }
+          ]
+        },
+        {
+          "title": "Stage & Props",
+          "title_locales": {
+            "jp": "ステージ & プロップ",
+            "zh": "舞台与道具",
+            "tw": "舞台與道具",
+            "kr": "무대 & 소품"
+          },
+          "tiles": [
+            {
+              "path": "features/ground",
+              "image": "/images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp"
+            },
+            {
+              "path": "features/room_stage",
+              "image": "/images/slideshows/environment/How%20is%20the%20shadow%20on%20the%20wall%20even%20possible%EF%BC%9F%20%5B85lKm5S3Oa8%5D.webp"
+            },
+            {
+              "path": "features/stages",
+              "image": "/images/slideshows/environment/Leifang%20Circus%20Show%20%5Bg0pe5q9DrMo%5D.webp"
+            },
+            {
+              "path": "features/props",
+              "image": "/images/slideshows/environment/Drop%20Pop%20Candy%20-%20Koharu%20Amy%20Misaki%20and%20Fiona%20%5BL9ab6bYmYPA%5D.webp"
+            },
+            {
+              "path": "features/primitive_shapes",
+              "image": "/images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp"
+            },
+            {
+              "path": "features/screen",
+              "image": "/images/slideshows/environment/YUKINO%E2%A7%B8BADDEST%E2%A7%B8PROJECTION%20%5ByMFmLZwTJug%5D.webp"
+            },
+            {
+              "path": "features/mirror",
+              "image": "/images/slideshows/load_play/%5BDanceXR%5D%20New%20mirror%20feature%20%5B0FwY2viXcM0%5D.webp"
+            },
+            {
+              "path": "features/laser",
+              "badge": "2024.3 · PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp"
+            },
+            {
+              "title": "Beats Ring",
+              "title_locales": {
+                "jp": "ビーツリング",
+                "zh": "节拍环",
+                "tw": "節拍環",
+                "kr": "비트 링"
+              },
+              "path": "features/beats_ring",
+              "image": "/images/slideshows/environment/I%20AM%20GOOD%20%5BztrBHdNYJZ4%5D.webp"
+            }
+          ]
+        },
+        {
+          "title": "Scene",
+          "title_locales": {
+            "jp": "シーン",
+            "zh": "场景",
+            "tw": "場景",
+            "kr": "장면"
+          },
+          "tiles": [
+            {
+              "path": "features/save_scene",
+              "image": "/images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp"
+            },
+            {
+              "path": "features/scene_bundle",
+              "badge": "2024.1 · PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/environment/Leifang%20-%20As%20You%20Like%20It%20-%20Group%20Dance%20%5BZgmCbzNs7EU%5D.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cinematic Camera",
+      "title_locales": {
+        "jp": "シネマカメラ",
+        "zh": "电影摄影机",
+        "tw": "電影攝影機",
+        "kr": "시네마 카메라"
+      },
+      "light": true,
+      "tiles": [
+        {
+          "path": "features/camera",
+          "title": "Camera Overview",
+          "title_locales": {
+            "jp": "カメラ概要",
+            "zh": "摄影机概述",
+            "tw": "攝影機概述",
+            "kr": "카메라 개요"
+          },
+          "image": "/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp"
+        },
+        {
+          "path": "features/freefly_cam",
+          "image": "/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp"
+        },
+        {
+          "path": "features/auto_cam",
+          "image": "/images/slideshows/camera/What%20does%20it%20feel%20like%20to%20watch%20a%20concert%20while%20standing%20in%20the%20middle%20of%20the%20stage%EF%BC%9F%20%5Beq7XxG_6YLg%5D.webp"
+        },
+        {
+          "path": "features/camera",
+          "title": "Orbit Camera",
+          "title_locales": {
+            "jp": "オービットカメラ",
+            "zh": "环轨摄影机",
+            "tw": "軌道攝影機",
+            "kr": "궤도 카메라"
+          },
+          "image": "/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp"
+        },
+        {
+          "path": "features/camera",
+          "title": "One-shot Camera",
+          "title_locales": {
+            "jp": "ワンショットカメラ",
+            "zh": "单镜头摄影机",
+            "tw": "單鏡頭攝影機",
+            "kr": "원샷 카메라"
+          },
+          "image": "/images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp"
+        },
+        {
+          "path": "features/camera",
+          "title": "First Person Camera",
+          "title_locales": {
+            "jp": "一人称カメラ",
+            "zh": "第一人称摄影机",
+            "tw": "第一人稱攝影機",
+            "kr": "일인칭 카메라"
+          },
+          "image": "/images/slideshows/camera/First%20Person%2039%20Music%20%5BY5T3JkedkQs%5D.webp"
+        },
+        {
+          "path": "features/camera",
+          "title": "Fixed Camera (Concert Mode)",
+          "title_locales": {
+            "jp": "固定カメラ（コンサートモード）",
+            "zh": "固定摄影机（演唱会模式）",
+            "tw": "固定攝影機（演唱會模式）",
+            "kr": "고정 카메라（콘서트 모드）"
+          },
+          "image": "/images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp"
+        }
+      ]
+    },
+    {
+      "title": "Motion & Media",
+      "title_locales": {
+        "jp": "モーション & メディア",
+        "zh": "动作与媒体",
+        "tw": "動作與媒體",
+        "kr": "모션 & 미디어"
+      },
+      "light": false,
+      "subsections": [
+        {
+          "title": "Audio & Video",
+          "title_locales": {
+            "jp": "オーディオ & ビデオ",
+            "zh": "音频与视频",
+            "tw": "音訊與視訊",
+            "kr": "오디오 & 비디오"
+          },
+          "tiles": [
+            {
+              "path": "features/audio_options",
+              "image": "/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp"
+            },
+            {
+              "path": "features/video_playback",
+              "badge": "2024.4 · PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp"
+            },
+            {
+              "path": "features/music_timing",
+              "badge": "2026.2",
+              "badge_type": "new",
+              "image": "/images/slideshows/motion/Don%27t%20miss%20out%21%20DanceXR%20is%20currently%2030%25%20off%20on%20Steam%20and%20Itch.io%21%20%5BMfpTKkOkXP8%5D.webp"
+            }
+          ]
+        },
+        {
+          "title": "Motions",
+          "title_locales": {
+            "jp": "モーション",
+            "zh": "动作",
+            "tw": "動作",
+            "kr": "모션"
+          },
+          "tiles": [
+            {
+              "path": "features/dance_set",
+              "badge": "2026.3",
+              "badge_type": "new",
+              "image": "/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp"
+            },
+            {
+              "path": "features/motion_settings",
+              "badge": "2026.2",
+              "badge_type": "new",
+              "image": "/images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp"
+            },
+            {
+              "path": "features/playback_options",
+              "image": "/images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp"
+            },
+            {
+              "path": "features/assign_motion",
+              "image": "/images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp"
+            },
+            {
+              "path": "features/remix",
+              "image": "/images/slideshows/motion/Spin%20%5BK__liB93anI%5D.webp"
+            },
+            {
+              "path": "features/motion_override",
+              "badge": "PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/motion/Pole%20Dance%20Test%20%5B4TB8aFRJENI%5D.webp"
+            },
+            {
+              "path": "features/keyframe_animation",
+              "badge": "2025.3 · PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/motion/This%20entire%20video%20is%20automatic%20transition%20between%20a%20few%20static%20poses%21%20%5BhwUahuvWBoQ%5D.webp"
+            },
+            {
+              "path": "preparecontent",
+              "link_suffix": "#motion-files",
+              "title": "Organizing Motion Files",
+              "title_locales": {
+                "jp": "モーションファイルの整理",
+                "zh": "组织动作文件",
+                "tw": "整理動作檔案",
+                "kr": "모션 파일 구성"
+              },
+              "image": "/images/slideshows/load_play/%5BDanceXR%5D%20Kimagure%20Mercy%20-%20Honoka%20%5Bg1-OfMxxZ5s%5D.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Adult Lane",
+      "title_locales": {
+        "jp": "アダルト",
+        "zh": "成人",
+        "tw": "成人",
+        "kr": "성인"
+      },
+      "light": true,
+      "tiles": [
+        {
+          "path": "features/boob_shake_sex_overlay",
+          "title": "Boob Shake",
+          "title_locales": {
+            "jp": "胸揺れ",
+            "zh": "胸部摇晃",
+            "tw": "胸部搖晃",
+            "kr": "가슴 흔들림"
+          },
+          "badge": "NSFW",
+          "badge_type": "nsfw",
+          "image": "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+        },
+        {
+          "path": "features/boob_shake_sex_overlay",
+          "title": "Sex Overlay",
+          "title_locales": {
+            "jp": "セックスオーバーレイ",
+            "zh": "性行为覆盖",
+            "tw": "性行為疊加圖層",
+            "kr": "성관계 오버레이"
+          },
+          "badge": "NSFW",
+          "badge_type": "nsfw",
+          "image": "/images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp"
+        },
+        {
+          "path": "features/dildo",
+          "badge": "NSFW",
+          "badge_type": "nsfw",
+          "image": "/images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp"
+        },
+        {
+          "path": "features/scg_motion",
+          "badge": "NSFW",
+          "badge_type": "nsfw",
+          "image": "/images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp"
+        },
+        {
+          "path": "features/sfb_motion",
+          "badge": "NSFW",
+          "badge_type": "nsfw",
+          "image": "/images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp"
+        },
+        {
+          "path": "features/sex_motion_3",
+          "badge": "NSFW",
+          "badge_type": "nsfw",
+          "image": "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+        }
+      ]
+    },
+    {
+      "title": "AI Features",
+      "title_locales": {
+        "jp": "AI 機能",
+        "zh": "AI 功能",
+        "tw": "AI 功能",
+        "kr": "AI 기능"
+      },
+      "light": false,
+      "tiles": [
+        {
+          "path": "features/ai_chat",
+          "badge": "PRO",
+          "badge_type": "pro",
+          "image": "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+        }
+      ]
+    },
+    {
+      "title": "Creator",
+      "title_locales": {
+        "jp": "クリエーター",
+        "zh": "创作者",
+        "tw": "創作者",
+        "kr": "크리에이터"
+      },
+      "light": true,
+      "tiles": [
+        {
+          "path": "creator",
+          "title": "Offline Render & Recording",
+          "title_locales": {
+            "jp": "オフラインレンダー & 録画",
+            "zh": "离线渲染与录制",
+            "tw": "離線渲染與錄製",
+            "kr": "오프라인 렌더 & 녹화"
+          },
+          "badge": "PC · CREATOR",
+          "image": "/images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp"
+        }
+      ]
+    },
+    {
+      "title": "System & Platform",
+      "title_locales": {
+        "jp": "システム & プラットフォーム",
+        "zh": "系统与平台",
+        "tw": "系統與平台",
+        "kr": "시스템 & 플랫폼"
+      },
+      "light": false,
+      "tiles": [
+        {
+          "path": "preparecontent",
+          "image": "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
+        },
+        {
+          "path": "features/googledrive",
+          "image": "/images/slideshows/load_play/Stellar%20Blade%20Raven%20Sea%20Breeze%20Dance%20%5Bo6mocERvFNk%5D.webp"
+        },
+        {
+          "path": "content_android_quest",
+          "title": "Content Library for Android & Quest",
+          "title_locales": {
+            "jp": "Android および Quest 用コンテンツライブラリ",
+            "zh": "Android 与 Quest 内容库",
+            "tw": "Android 與 Quest 內容庫",
+            "kr": "안드로이드 및 퀘스트용 콘텐츠 라이브러리"
+          },
+          "image": "/images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp"
+        },
+        {
+          "path": "features/display_settings",
+          "image": "/images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg"
+        },
+        {
+          "path": "features/graphics",
+          "badge": "2026.2",
+          "badge_type": "new",
+          "image": "/images/slideshows/render/VRGirl%20Sea%20Breeze%20dance%20%5BvPnmTRJqj8Q%5D.webp"
+        },
+        {
+          "path": "features/languages",
+          "image": "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
+        },
+        {
+          "path": "features/controls",
+          "image": "/images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp"
+        },
+        {
+          "path": "features/system_physics",
+          "badge": "2026.1",
+          "badge_type": "new",
+          "image": "/images/slideshows/physics/6b29c53917daff568a9ee75cfa0d62b6b4cadf79.jpg"
+        },
+        {
+          "path": "features/autoupdate",
+          "badge": "PRO",
+          "badge_type": "pro",
+          "image": "/images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg"
+        },
+        {
+          "title": "System Presets",
+          "title_locales": {
+            "jp": "システムプリセット",
+            "zh": "系统预设",
+            "tw": "系統預設",
+            "kr": "시스템 프리셋"
+          },
+          "path": "features/system_presets",
+          "badge": "2024.1",
+          "badge_type": "new",
+          "image": "/images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg"
+        },
+        {
+          "path": "features/application_settings",
+          "image": "/images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg"
+        }
+      ]
+    }
+  ]
+}
