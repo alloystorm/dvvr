@@ -514,32 +514,26 @@ feature_sections:
     tiles:
       - title: 가슴 흔들림
         link: /kr/dancexr/features/boob_shake_sex_overlay
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: 성관계 오버레이
         link: /kr/dancexr/features/boob_shake_sex_overlay
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: 딜도
         link: /kr/dancexr/features/dildo
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: 카우걸 섹스 모션
         link: /kr/dancexr/features/scg_motion
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: 섹스 모션 2
         link: /kr/dancexr/features/sfb_motion
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: Sex Motion 3
         link: /kr/dancexr/features/sex_motion_3
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
 ---

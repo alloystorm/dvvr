@@ -512,32 +512,26 @@ feature_sections:
     tiles:
       - title: Boob Shake
         link: /dancexr/features/boob_shake_sex_overlay
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: Sex Overlay
         link: /dancexr/features/boob_shake_sex_overlay
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: Dildo
         link: /dancexr/features/dildo
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: Cowgirl Sex Motion
         link: /dancexr/features/scg_motion
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: Sex Motion 2
         link: /dancexr/features/sfb_motion
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: Sex Motion 3
         link: /dancexr/features/sex_motion_3
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
 ---

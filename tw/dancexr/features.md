@@ -514,32 +514,26 @@ feature_sections:
     tiles:
       - title: 胸部搖晃
         link: /tw/dancexr/features/boob_shake_sex_overlay
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: 性行為疊加圖層
         link: /tw/dancexr/features/boob_shake_sex_overlay
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: 仿真陽具
         link: /tw/dancexr/features/dildo
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: Cowgirl 性愛動作
         link: /tw/dancexr/features/scg_motion
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: 性愛運動2
         link: /tw/dancexr/features/sfb_motion
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
       - title: Sex Motion 3
         link: /tw/dancexr/features/sex_motion_3
-        image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
 ---
