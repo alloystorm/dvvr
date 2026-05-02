@@ -8,17 +8,19 @@ hero_compact: true
 hero_title: 출시
 hero_image: /images/hero.png
 nav_links:
-  - label: 홈
+  - label: 소개
     url: /kr/dancexr
   - label: 기능
     url: /kr/dancexr/features
-  - label: 출시
+  - label: 릴리스
     url: /kr/dancexr/releases
   - label: 다운로드
     url: /kr/dancexr/download
-
+  - label: 지원
+    url: /kr/dancexr/support
 feature_sections:
   - title: "2026"
+    light: true
     tiles:
       - title: "출시 2026.5"
         link: "/kr/dancexr/releases/2026.5"
@@ -57,6 +59,7 @@ feature_sections:
       - title: "출시 2025.1"
         link: "/kr/dancexr/releases/2025.1"
   - title: "2024"
+    light: true
     tiles:
       - title: "출시 2024.12"
         link: "/kr/dancexr/releases/2024.12"
@@ -108,7 +111,6 @@ feature_sections:
         link: "/kr/dancexr/releases/1.4.1"
       - title: "출시 1.4.0"
         link: "/kr/dancexr/releases/1.4.0"
-
 about:
   - title: 출시 정보
     url: /kr/dancexr/releases

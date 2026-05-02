@@ -8,7 +8,7 @@ hero_compact: true
 hero_title: リリース
 hero_image: /images/hero.png
 nav_links:
-  - label: ホーム
+  - label: イントロ
     url: /jp/dancexr
   - label: 機能
     url: /jp/dancexr/features
@@ -16,9 +16,11 @@ nav_links:
     url: /jp/dancexr/releases
   - label: ダウンロード
     url: /jp/dancexr/download
-
+  - label: サポート
+    url: /jp/dancexr/support
 feature_sections:
   - title: "2026"
+    light: true
     tiles:
       - title: "リリース 2026.5"
         link: "/jp/dancexr/releases/2026.5"
@@ -57,6 +59,7 @@ feature_sections:
       - title: "リリース 2025.1"
         link: "/jp/dancexr/releases/2025.1"
   - title: "2024"
+    light: true
     tiles:
       - title: "リリース 2024.12"
         link: "/jp/dancexr/releases/2024.12"
@@ -108,7 +111,6 @@ feature_sections:
         link: "/jp/dancexr/releases/1.4.1"
       - title: "リリース 1.4.0"
         link: "/jp/dancexr/releases/1.4.0"
-
 about:
   - title: リリースについて
     url: /jp/dancexr/releases

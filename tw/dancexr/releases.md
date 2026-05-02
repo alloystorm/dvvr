@@ -8,7 +8,7 @@ hero_compact: true
 hero_title: 發布版本
 hero_image: /images/hero.png
 nav_links:
-  - label: 主頁
+  - label: 介紹
     url: /tw/dancexr
   - label: 功能
     url: /tw/dancexr/features
@@ -16,9 +16,11 @@ nav_links:
     url: /tw/dancexr/releases
   - label: 下載
     url: /tw/dancexr/download
-
+  - label: 支援
+    url: /tw/dancexr/support
 feature_sections:
   - title: "2026"
+    light: true
     tiles:
       - title: "發布 2026.5"
         link: "/tw/dancexr/releases/2026.5"
@@ -57,6 +59,7 @@ feature_sections:
       - title: "發布 2025.1"
         link: "/tw/dancexr/releases/2025.1"
   - title: "2024"
+    light: true
     tiles:
       - title: "發布 2024.12"
         link: "/tw/dancexr/releases/2024.12"
@@ -108,7 +111,6 @@ feature_sections:
         link: "/tw/dancexr/releases/1.4.1"
       - title: "發布 1.4.0"
         link: "/tw/dancexr/releases/1.4.0"
-
 about:
   - title: 關於發布
     url: /tw/dancexr/releases

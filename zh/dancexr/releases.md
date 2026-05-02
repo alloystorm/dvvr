@@ -1,14 +1,14 @@
 ---
 locale: zh-CN
 layout: home
-title: 發行
+title: 发行
 toc: false
 permalink: /zh/dancexr/releases
 hero_compact: true
-hero_title: 發行
+hero_title: 发行
 hero_image: /images/hero.png
 nav_links:
-  - label: 入门
+  - label: 介绍
     url: /zh/dancexr
   - label: 功能
     url: /zh/dancexr/features
@@ -16,9 +16,11 @@ nav_links:
     url: /zh/dancexr/releases
   - label: 下载
     url: /zh/dancexr/download
-
+  - label: 支持
+    url: /zh/dancexr/support
 feature_sections:
   - title: "2026"
+    light: true
     tiles:
       - title: "发布 2026.5"
         link: "/zh/dancexr/releases/2026.5"
@@ -57,6 +59,7 @@ feature_sections:
       - title: "发布 2025.1"
         link: "/zh/dancexr/releases/2025.1"
   - title: "2024"
+    light: true
     tiles:
       - title: "发布 2024.12"
         link: "/zh/dancexr/releases/2024.12"
@@ -108,7 +111,6 @@ feature_sections:
         link: "/zh/dancexr/releases/1.4.1"
       - title: "发布 1.4.0"
         link: "/zh/dancexr/releases/1.4.0"
-
 about:
   - title: 关于发布
     url: /zh/dancexr/releases

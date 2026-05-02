@@ -39,7 +39,14 @@ LOCALES = {
                {"label": "リリース",       "url": "/jp/dancexr/releases"},
                {"label": "ダウンロード",   "url": "/jp/dancexr/download"},
                {"label": "サポート",       "url": "/jp/dancexr/support"},
-           ]},
+           ],
+           "releases_title": "リリース",
+           "releases_hero_title": "リリース",
+           "releases_tile_prefix": "リリース",
+           "releases_latest_label": "最新リリース",
+           "releases_about_title": "リリースについて",
+           "releases_permalink": "/jp/dancexr/releases",
+           },
     "zh": {"code": "zh-CN",  "title": "功能列表",   "permalink": "/zh/dancexr/features",
            "prefix": "/zh",
            "hero_title": "功能列表",
@@ -51,7 +58,14 @@ LOCALES = {
                {"label": "发布",     "url": "/zh/dancexr/releases"},
                {"label": "下载",     "url": "/zh/dancexr/download"},
                {"label": "支持",     "url": "/zh/dancexr/support"},
-           ]},
+           ],
+           "releases_title": "发行",
+           "releases_hero_title": "发行",
+           "releases_tile_prefix": "发布",
+           "releases_latest_label": "最新发布",
+           "releases_about_title": "关于发布",
+           "releases_permalink": "/zh/dancexr/releases",
+           },
     "tw": {"code": "zh-TW",  "title": "功能清單",   "permalink": "/tw/dancexr/features",
            "prefix": "/tw",
            "hero_title": "功能清單",
@@ -63,7 +77,14 @@ LOCALES = {
                {"label": "發布",     "url": "/tw/dancexr/releases"},
                {"label": "下載",     "url": "/tw/dancexr/download"},
                {"label": "支援",     "url": "/tw/dancexr/support"},
-           ]},
+           ],
+           "releases_title": "發布版本",
+           "releases_hero_title": "發布版本",
+           "releases_tile_prefix": "發布",
+           "releases_latest_label": "最新發布",
+           "releases_about_title": "關於發布",
+           "releases_permalink": "/tw/dancexr/releases",
+           },
     "kr": {"code": "ko-KR",  "title": "기능 목록",  "permalink": "/kr/dancexr/features",
            "prefix": "/kr",
            "hero_title": "기능 목록",
@@ -75,7 +96,14 @@ LOCALES = {
                {"label": "릴리스",   "url": "/kr/dancexr/releases"},
                {"label": "다운로드", "url": "/kr/dancexr/download"},
                {"label": "지원",     "url": "/kr/dancexr/support"},
-           ]},
+           ],
+           "releases_title": "출시",
+           "releases_hero_title": "출시",
+           "releases_tile_prefix": "출시",
+           "releases_latest_label": "최신 출시",
+           "releases_about_title": "출시 정보",
+           "releases_permalink": "/kr/dancexr/releases",
+           },
 }
 
 EN_NAV_LINKS = [
@@ -461,6 +489,191 @@ def inject_media(sections_data):
 
 
 # ---------------------------------------------------------------------------
+# Releases list generation
+# ---------------------------------------------------------------------------
+
+def version_sort_key(ver):
+    """Return a sort key tuple for a release version string (e.g. '2026.5', '1.5.1')."""
+    parts = ver.split(".")
+    try:
+        return tuple(int(p) for p in parts)
+    except ValueError:
+        return (0,)
+
+
+def version_year_group(ver):
+    """Return the year group label for a version string."""
+    major = int(ver.split(".")[0])
+    if major >= 2024:
+        return str(major)
+    # Legacy versioning (1.x.x) all belong to 2023
+    return "2023"
+
+
+def collect_releases():
+    """
+    Scan dancexr/releases/ for .md files and return:
+      - releases_by_year: OrderedDict {year_str: [version, ...]} newest-first
+      - latest_version: str
+    """
+    releases_dir = os.path.join(BASE, "dancexr", "releases")
+    versions = []
+    for fname in os.listdir(releases_dir):
+        if fname.endswith(".md"):
+            versions.append(fname[:-3])  # strip .md
+
+    # Sort newest first
+    versions.sort(key=version_sort_key, reverse=True)
+
+    # Group by year
+    from collections import OrderedDict
+    releases_by_year = OrderedDict()
+    for ver in versions:
+        yr = version_year_group(ver)
+        releases_by_year.setdefault(yr, []).append(ver)
+
+    latest = versions[0] if versions else None
+    return releases_by_year, latest
+
+
+def extract_release_subtitle(version):
+    """
+    Return the first notable heading from the release file (excluding the title/version line).
+    Returns empty string if nothing found.
+    """
+    fp = os.path.join(BASE, "dancexr", "releases", version + ".md")
+    if not os.path.isfile(fp):
+        return ""
+    with open(fp, "r", encoding="utf-8") as f:
+        content = f.read()
+    for line in content.splitlines():
+        m = re.match(r"^#{1,4}\s+(.*)", line)
+        if m:
+            heading = m.group(1).strip()
+            # Skip headings that are just the release title or version number
+            if version in heading or re.match(r"^[Rr]elease\s+\d", heading):
+                continue
+            return heading
+    return ""
+
+
+def build_releases_sections_yaml(releases_by_year, locale_prefix="", tile_prefix="Release"):
+    """Build the feature_sections YAML block for a releases page."""
+    lines = ["feature_sections:"]
+    for idx, (year, versions) in enumerate(releases_by_year.items()):
+        lines.append(f'  - title: "{year}"')
+        if idx % 2 == 0:
+            lines.append(f"    light: true")
+        lines.append(f"    tiles:")
+        for ver in versions:
+            title = f"{tile_prefix} {ver}"
+            link = f"{locale_prefix}/dancexr/releases/{ver}"
+            lines.append(f'      - title: "{title}"')
+            lines.append(f'        link: "{link}"')
+    return "\n".join(lines)
+
+
+EN_RELEASES_TEMPLATE = """\
+---
+locale: en-US
+layout: home
+title: Releases
+toc: false
+permalink: /dancexr/releases
+hero_compact: true
+hero_title: Latest Release - {latest_version}
+hero_sub: {hero_sub}
+hero_image: /images/hero.png
+hero_ctas:
+  - label: Full Release Notes
+    url: /dancexr/releases/{latest_version}
+    style: neon
+  - label: DOWNLOAD NOW
+    url: /dancexr/download
+    style: neon
+nav_links:
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
+  - label: Support
+    url: /dancexr/support
+{sections}
+about:
+  - title: About Releases
+    url: /dancexr/releases
+
+---
+"""
+
+LOCALE_RELEASES_TEMPLATE = """\
+---
+locale: {locale_code}
+layout: home
+title: {title}
+toc: false
+permalink: {permalink}
+hero_compact: true
+hero_title: {hero_title}
+hero_image: /images/hero.png
+nav_links:
+{nav_links}
+{sections}
+about:
+  - title: {about_title}
+    url: {permalink}
+
+---
+
+<section class="section">
+<div class="section-inner">
+<div class="edition-card" markdown="1">
+
+{{% include nav_list nav="releases" %}}
+
+</div>
+</div>
+</section>"""
+
+
+def generate_releases_en(releases_by_year, latest_version):
+    hero_sub = extract_release_subtitle(latest_version) if latest_version else ""
+    sections_yaml = build_releases_sections_yaml(releases_by_year, locale_prefix="", tile_prefix="Release")
+    content = EN_RELEASES_TEMPLATE.format(
+        latest_version=latest_version,
+        hero_sub=hero_sub,
+        sections=sections_yaml,
+    )
+    out_path = os.path.join(BASE, "dancexr", "releases.md")
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(content)
+    print(f"Written: {os.path.relpath(out_path, BASE)}")
+
+
+def generate_releases_locale(releases_by_year, locale_key):
+    info = LOCALES[locale_key]
+    prefix = info["prefix"]
+    tile_prefix = info["releases_tile_prefix"]
+    sections_yaml = build_releases_sections_yaml(releases_by_year, locale_prefix=prefix, tile_prefix=tile_prefix)
+    nav_yaml = build_nav_links_yaml(info["nav_links"])
+    content = LOCALE_RELEASES_TEMPLATE.format(
+        locale_code=info["code"],
+        title=info["releases_title"],
+        permalink=info["releases_permalink"],
+        hero_title=info["releases_hero_title"],
+        about_title=info["releases_about_title"],
+        nav_links=nav_yaml,
+        sections=sections_yaml,
+    )
+    out_path = os.path.join(BASE, locale_key, "dancexr", "releases.md")
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(content)
+    print(f"Written: {os.path.relpath(out_path, BASE)}")
+
+
+# ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
 
@@ -485,35 +698,75 @@ def main():
         help="Print a concise indented outline (title + path). "
              "Optionally write to FILE; omit FILE to print to stdout.",
     )
+    parser.add_argument(
+        "--releases",
+        action="store_true",
+        help="Generate releases.md (EN + all locales) from dancexr/releases/ directory",
+    )
+    parser.add_argument(
+        "--features-only",
+        action="store_true",
+        help="Generate only features pages (skip releases generation)",
+    )
     args = parser.parse_args()
 
-    json_path = os.path.join(BASE, "script", "features.json")
-    with open(json_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    sections = data["sections"]
+    # -----------------------------------------------------------------------
+    # Releases generation
+    # -----------------------------------------------------------------------
+    gen_releases = args.releases or (not args.features_only and not args.outline)
+    gen_features = not args.releases or args.features_only or (not args.releases and not args.features_only)
+    # Default: generate both unless a specific flag limits scope
+    if not args.releases and not args.features_only:
+        gen_features = True
+        gen_releases = False  # keep backward-compatible default: features only unless --releases given
 
-    if args.outline is not None:
-        out = None if args.outline == "-" else os.path.join(BASE, args.outline)
-        generate_outline(sections, out)
-        return
+    if args.releases:
+        releases_by_year, latest = collect_releases()
+        locales_to_gen = list(LOCALES.keys())
+        gen_en = True
+        if args.locale:
+            if args.locale == "en":
+                locales_to_gen = []
+                gen_en = True
+            else:
+                locales_to_gen = [args.locale]
+                gen_en = False
+        if gen_en:
+            generate_releases_en(releases_by_year, latest)
+        for locale_key in locales_to_gen:
+            generate_releases_locale(releases_by_year, locale_key)
 
-    locales_to_gen = list(LOCALES.keys())
-    gen_en = True
-    if args.locale:
-        if args.locale == "en":
-            locales_to_gen = []
-            gen_en = True
-        else:
-            locales_to_gen = [args.locale]
-            gen_en = False
+    # -----------------------------------------------------------------------
+    # Features generation
+    # -----------------------------------------------------------------------
+    if not args.releases or args.features_only:
+        json_path = os.path.join(BASE, "script", "features.json")
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        sections = data["sections"]
 
-    if gen_en:
-        generate_en(sections)
-    for locale_key in locales_to_gen:
-        generate_locale(sections, locale_key)
+        if args.outline is not None:
+            out = None if args.outline == "-" else os.path.join(BASE, args.outline)
+            generate_outline(sections, out)
+            return
 
-    if args.inject_media:
-        inject_media(sections)
+        locales_to_gen = list(LOCALES.keys())
+        gen_en = True
+        if args.locale:
+            if args.locale == "en":
+                locales_to_gen = []
+                gen_en = True
+            else:
+                locales_to_gen = [args.locale]
+                gen_en = False
+
+        if gen_en:
+            generate_en(sections)
+        for locale_key in locales_to_gen:
+            generate_locale(sections, locale_key)
+
+        if args.inject_media:
+            inject_media(sections)
 
 
 if __name__ == "__main__":

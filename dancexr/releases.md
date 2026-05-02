@@ -5,12 +5,12 @@ title: Releases
 toc: false
 permalink: /dancexr/releases
 hero_compact: true
-hero_title: Latest Release - 2026.4
-hero_sub: XPBD rigid body physics system
+hero_title: Latest Release - 2026.5
+hero_sub: Introducing DanceXR Operator
 hero_image: /images/hero.png
 hero_ctas:
   - label: Full Release Notes
-    url: /dancexr/releases/2026.4
+    url: /dancexr/releases/2026.5
     style: neon
   - label: DOWNLOAD NOW
     url: /dancexr/download
@@ -26,6 +26,7 @@ nav_links:
     url: /dancexr/support
 feature_sections:
   - title: "2026"
+    light: true
     tiles:
       - title: "Release 2026.5"
         link: "/dancexr/releases/2026.5"
@@ -64,6 +65,7 @@ feature_sections:
       - title: "Release 2025.1"
         link: "/dancexr/releases/2025.1"
   - title: "2024"
+    light: true
     tiles:
       - title: "Release 2024.12"
         link: "/dancexr/releases/2024.12"
@@ -115,7 +117,6 @@ feature_sections:
         link: "/dancexr/releases/1.4.1"
       - title: "Release 1.4.0"
         link: "/dancexr/releases/1.4.0"
-
 about:
   - title: About Releases
     url: /dancexr/releases
