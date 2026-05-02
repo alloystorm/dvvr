@@ -49,7 +49,7 @@ feature_sections:
         tiles:
           - title: Organizing Model Files
             link: "/dancexr/preparecontent#3d-models"
-            image: /images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp
+            image: /images/content_actors.PNG
           - title: Tagging
             link: /dancexr/features/tagging
             image: /images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp
@@ -236,6 +236,11 @@ feature_sections:
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
             badge: PRO
             badge_type: pro
+          - title: Light Ball
+            link: /dancexr/features/lightball
+            image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
+            badge: PRO
+            badge_type: pro
       - title: XPS Physics
         tiles:
           - title: XPS Physics
@@ -399,29 +404,24 @@ feature_sections:
             image: /images/slideshows/environment/Leifang%20Circus%20Show%20%5Bg0pe5q9DrMo%5D.webp
           - title: Props
             link: /dancexr/features/props
-            image: /images/slideshows/environment/Drop%20Pop%20Candy%20-%20Koharu%20Amy%20Misaki%20and%20Fiona%20%5BL9ab6bYmYPA%5D.webp
+            image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
           - title: Primitive Shapes
             link: /dancexr/features/primitive_shapes
-            image: /images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp
+            image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
           - title: Screen
             link: /dancexr/features/screen
-            image: /images/slideshows/environment/YUKINO%E2%A7%B8BADDEST%E2%A7%B8PROJECTION%20%5ByMFmLZwTJug%5D.webp
+            image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
           - title: Mirror
             link: /dancexr/features/mirror
-            image: /images/slideshows/load_play/%5BDanceXR%5D%20New%20mirror%20feature%20%5B0FwY2viXcM0%5D.webp
+            image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
           - title: Laser System
             link: /dancexr/features/laser
-            image: /images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp
+            image: /images/slideshows/environment/35e7dbc7eff97344e4b4ebb5e68a0f3a74d085eb.jpg
             badge: 2024.3 · PRO
             badge_type: pro
           - title: Beats Ring
             link: /dancexr/features/beats_ring
-            image: /images/slideshows/environment/I%20AM%20GOOD%20%5BztrBHdNYJZ4%5D.webp
-          - title: Light Ball
-            link: /dancexr/features/lightball
-            image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
-            badge: PRO
-            badge_type: pro
+            image: /images/slideshows/tools/DanceXR%201.4.5%20New%20AutoUpdate%20Options%20for%20Audio%20Visualization%20%5BA00DhbCOgu0%5D.webp
       - title: "Scene & Rendering"
         tiles:
           - title: Save Scene
