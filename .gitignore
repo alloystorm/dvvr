@@ -5,3 +5,4 @@ notes
 _site/
 settings.local.json
 thumbnails
+.DS_Store
