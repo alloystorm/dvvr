@@ -360,18 +360,18 @@ feature_sections:
         tiles:
           - title: "Sky & Cloud"
             link: /dancexr/features/skymap
-            image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
+            image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
           - title: Sky
             link: /dancexr/features/sky
-            image: /images/slideshows/atmosphere/Momiji%20is%20the%20conqueror%20of%20your%20dream%20%5BRahFWFBxxpc%5D.webp
+            image: /images/slideshows/environment/How%20is%20the%20shadow%20on%20the%20wall%20even%20possible%EF%BC%9F%20%5B85lKm5S3Oa8%5D.webp
           - title: Lighting
             link: /dancexr/features/lighting
-            image: /images/slideshows/atmosphere/Global%20Illumination%20Test%20%5BYt9RJqellnw%5D.webp
+            image: /images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp
       - title: "Environment & Effects"
         tiles:
           - title: Particle System
             link: /dancexr/features/particles
-            image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
+            image: /images/slideshows/environment/9173d0f946d256d4c711cbe876fe30ad139d1a7d.jpg
             badge: PRO
             badge_type: pro
           - title: Water System
@@ -419,7 +419,7 @@ feature_sections:
             image: /images/slideshows/environment/I%20AM%20GOOD%20%5BztrBHdNYJZ4%5D.webp
           - title: Light Ball
             link: /dancexr/features/lightball
-            image: /images/slideshows/atmosphere/Higher%20%5BTDGnCk1wU98%5D.webp
+            image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
             badge: PRO
             badge_type: pro
       - title: "Scene & Rendering"
@@ -535,7 +535,7 @@ feature_sections:
         image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
         badge_type: nsfw
-      - title: ./motion/proc/sm3
+      - title: Sex Motion 3
         link: /dancexr/features/sex_motion_3
         image: /images/slideshows/dancexr/logo-black.jpg
         badge: NSFW
