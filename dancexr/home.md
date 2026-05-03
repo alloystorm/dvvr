@@ -1,3 +1,18 @@
+---
+layout: release
+title: Home
+locale: en-US
+nav_links:
+  - label: Intro
+    url: /dancexr
+  - label: Features
+    url: /dancexr/features
+  - label: Releases
+    url: /dancexr/releases
+  - label: Download
+    url: /dancexr/download
+---
+
 # Animate Any Model, Anywhere
 
 **DanceXR** is a powerful character model viewer and motion player for PMX/MMD and XNALara/XPS models — available on PC, Mac, Android, and Quest VR. Load your favorite models, play dance motions, and create stunning scenes with no manual bone tweaking required.
