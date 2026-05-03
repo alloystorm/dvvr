@@ -160,7 +160,7 @@ nav_links:
 <tr><td><strong>브러시 회전</strong></td><td>실수(Float)</td><td>-180 – 180</td><td>0</td><td></td><td></td></tr>
 <tr><td><strong>브러시 유형</strong></td><td>정수(Integer)</td><td>0 – 3</td><td>0</td><td></td><td></td></tr>
 <tr><td><strong>지우기</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>끄기</td><td></td><td></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>색상</strong></summary>
 <table><tbody>
 <thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
@@ -182,7 +182,7 @@ nav_links:
 <tr><td><strong>그림 불러오기</strong></td><td>옵션(Options)</td><td>[없음]</td><td>[없음]</td><td></td><td></td></tr>
 </tbody></table>
 </details></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>형태 및 패턴</strong></summary>
 <table><tbody>
 <thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
@@ -209,7 +209,7 @@ nav_links:
 <tr><td><strong>안쪽 거리</strong></td><td>실수(Float)</td><td>0 – 0.1</td><td>0.005</td><td></td><td></td></tr>
 </tbody></table>
 </details></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>육각형 맵</strong></summary>
 <table><tbody>
 <thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
@@ -227,7 +227,7 @@ nav_links:
 <tr><td><strong>회전</strong></td><td>실수(Float)</td><td>-90 – 90</td><td>0</td><td></td><td></td></tr>
 </tbody></table>
 </details></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>서피스 베이스</strong></summary>
 <table><tbody>
 <thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
@@ -241,7 +241,7 @@ nav_links:
 <tr><td><strong>알파 감소</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
 <tr><td><strong>알파 곡선</strong></td><td>실수(Float)</td><td>-2 – 2</td><td>0</td><td></td><td></td></tr>
 <tr><td><strong>클립</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>색상</strong></summary>
 <table><tbody>
 <thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
@@ -266,7 +266,7 @@ nav_links:
 <tr><td><strong>용해 활성화</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>켜기</td><td></td><td></td></tr>
 </tbody></table>
 </details></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>서피스 패턴</strong></summary>
 <table><tbody>
 <thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
@@ -280,7 +280,7 @@ nav_links:
 <tr><td><strong>알파 감소</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
 <tr><td><strong>알파 곡선</strong></td><td>실수(Float)</td><td>-2 – 2</td><td>0</td><td></td><td></td></tr>
 <tr><td><strong>클립</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>색상</strong></summary>
 <table><tbody>
 <thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
@@ -305,7 +305,7 @@ nav_links:
 <tr><td><strong>용해 활성화</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>켜기</td><td></td><td></td></tr>
 </tbody></table>
 </details></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>서피스 보더</strong></summary>
 <table><tbody>
 <thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
@@ -319,7 +319,7 @@ nav_links:
 <tr><td><strong>알파 감소</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
 <tr><td><strong>알파 곡선</strong></td><td>실수(Float)</td><td>-2 – 2</td><td>0</td><td></td><td></td></tr>
 <tr><td><strong>클립</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>색상</strong></summary>
 <table><tbody>
 <thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
@@ -344,7 +344,11 @@ nav_links:
 <tr><td><strong>용해 활성화</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>켜기</td><td></td><td></td></tr>
 </tbody></table>
 </details></td></tr>
-<tr><td><strong>용해</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr colspan="6"><details>
+<summary><strong>용해</strong></summary>
+<table><tbody>
+<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
+<tr><td><strong>용해 맵</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
 <tr colspan="6"><details>
 <summary><strong>용해 맵</strong></summary>
 <table><tbody>

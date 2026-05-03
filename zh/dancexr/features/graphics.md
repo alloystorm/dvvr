@@ -20,7 +20,7 @@ nav_links:
 
 ## 预设
 
-六个预设涵盖了常见范围：*性能*禁用反射和大多数屏幕空间效果；*中等*添加雾和屏幕空间阴影；*高*启用屏幕空间反射；*室内全局照明*和*室外全局照明*在有或没有天空贡献的情况下激活全局照明；*抖动 + TAA* 将时间反锯齿与抖动透明度配对，以获得清晰的外观。
+六个预设涵盖了常见的范围：*性能*禁用反射和大多数屏幕空间效果；*中等*添加雾和屏幕空间阴影；*高*启用屏幕空间反射；*室内全局照明*和*室外全局照明*在有或没有天空贡献的情况下激活全局照明；*抖动 + TAA* 将时间反锯齿与抖动透明度配对，以获得清晰的外观。
 
 
 ## 抗锯齿和超采样
@@ -33,7 +33,7 @@ nav_links:
 屏幕空间反射或平面反射探针。使用 *屏幕空间* 模式处理通用表面；切换到 *探针* 模式用于平坦地板或镜子。质量、边缘衰减距离和回退行为可在子节中调整。
 
 
-## 遮挡和全局照明
+## 环境光遮挡和全局照明
 
 **环境光遮挡**在缝隙中添加接触阴影，以增加扎实的深度感。**全局照明**添加间接反弹光——对于室外场景，启用 *回退到天空*，这样朝离光源的表面仍能接收到天空的颜色。
 
@@ -68,7 +68,7 @@ nav_links:
 
 配置屏幕空间反射或平面反射探针。
 
-*屏幕空间* 模式会对深度缓冲区进行光线步进，以找到反射表面——它可用于任何几何体，但不能反射摄影机视野外的物体。切换到 *探针* 模式用于地板或镜子等平坦表面，它使用始终完整的平面捕获，但性能开销更大。
+*屏幕空间* 模式对深度缓冲区进行光线步进，以找到反射表面——它可用于任何几何体，但不能反射摄影机视野外的物体。切换到 *探针* 模式用于地板或镜子等平坦表面，它使用始终完整的平面捕获，但性能开销更大。
 
 
 ### 算法
@@ -104,8 +104,6 @@ nav_links:
 
 
 **抖动** 添加有序噪声，分解平滑渐变中的频带效应。**半色调** 覆盖点阵模式；增加 **半色调大小** 和 **强度** 以获得复古印刷美学。
-
-
 ## 配置
 
 <table>
@@ -120,7 +118,7 @@ nav_links:
 <table><tbody>
 <thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
 <tr><td><strong >启用</strong ></td ><td >切换</td><td >打开 / 关闭</td><td >关闭</td><td></td><td></td></tr>
-<tr><td>预设</td><td></td><td></td><td></td><td></td><td>
+<tr><td>预设</td><td></td><td></td><td></td><td>
 </td></tr>
 <tr><td><strong >模式</strong ></td ><td >整数</td><td >0 – 1</td><td >0</td><td></td><td></td></tr>
 <tr><td><strong >质量</strong ></td ><td >整数</td><td >0 – 2</td><td >2</td><td></td><td></td></tr>
@@ -136,7 +134,7 @@ nav_links:
 <table><tbody>
 <thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
 <tr><td><strong >启用</strong ></td ><td >切换</td><td >打开 / 关闭</td><td >打开</td><td></td><td></td></tr>
-<tr><td>预设</td><td></td><td></td><td></td><td></td><td>
+<tr><td>预设</td><td></td><td></td><td></td><td>
 </td></tr>
 <tr><td><strong >体积雾</strong ></td ><td >切换</td><td >打开 / 关闭</td><td >打开</td><td></td><td></td></tr>
 <tr><td><strong >基础高度</strong ></td ><td >浮点</td><td >0 – 10</td><td >0</td><td></td><td></td></tr>
@@ -149,7 +147,7 @@ nav_links:
 <table><tbody>
 <thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
 <tr><td><strong >启用</strong ></td ><td >切换</td><td >打开 / 关闭</td><td >关闭</td><td></td><td></td></tr>
-<tr><td>预设</td><td></td><td></td><td></td><td></td><td>
+<tr><td>预设</td><td></td><td></td><td></td><td>
 </td></tr>
 <tr><td><strong >质量</strong ></td ><td >整数</td><td >0 – 2</td><td >2</td><td></td><td></td></tr>
 <tr><td><strong >强度</strong ></td ><td >浮点</td><td >0 – 1</td><td >1</td><td></td><td></td></tr>
@@ -160,7 +158,7 @@ nav_links:
 <table><tbody>
 <thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
 <tr><td><strong >启用</strong ></td ><td >切换</td><td >打开 / 关闭</td><td >关闭</td><td></td><td></td></tr>
-<tr><td>预设</td><td></td><td></td><td></td><td></td><td>
+<tr><td>预设</td><td></td><td></td><td></td><td>
 </td></tr>
 <tr><td><strong >质量</strong ></td ><td >整数</td><td >0 – 2</td><td >0</td><td></td><td></td></tr>
 <tr><td><strong >回退到天空</strong ></td ><td >切换</td><td >打开 / 关闭</td><td >关闭</td><td></td><td></td></tr>
@@ -171,7 +169,7 @@ nav_links:
 <table><tbody>
 <thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
 <tr><td><strong >启用</strong ></td ><td >切换</td><td >打开 / 关闭</td><td >关闭</td><td></td><td></td></tr>
-<tr><td>预设</td><td></td><td></td><td></td><td></td><td>
+<tr><td>预设</td><td></td><td></td><td></td><td>
 </td></tr>
 <tr><td><strong >质量</strong ></td ><td >整数</td><td >0 – 2</td><td >1</td><td></td><td></td></tr>
 <tr><td><strong >强度</strong ></td ><td >浮点</td><td >0 – 1</td><td >0.25</td><td></td><td></td></tr>
@@ -183,7 +181,7 @@ nav_links:
 <table><tbody>
 <thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
 <tr><td><strong >启用</strong ></td ><td >切换</td><td >打开 / 关闭</td><td >关闭</td><td></td><td></td></tr>
-<tr><td>预设</td><td></td><td></td><td></td><td></td><td>
+<tr><td>预设</td><td></td><td></td><td></td><td>
 </td></tr>
 <tr><td><strong >质量</strong ></td ><td >整数</td><td >0 – 2</td><td >1</td><td></td><td></td></tr>
 <tr><td><strong >强度</strong ></td ><td >浮点</td><td >0 – 1</td><td >0.25</td><td></td><td></td></tr>
@@ -194,7 +192,7 @@ nav_links:
 <table><tbody>
 <thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
 <tr><td><strong >启用</strong ></td ><td >切换</td><td >打开 / 关闭</td><td >打开</td><td></td><td></td></tr>
-<tr><td>预设</td><td></td><td></td><td></td><td></td><td>
+<tr><td>预设</td><td></td><td></td><td></td><td>
 </td></tr>
 <tr><td><strong >质量</strong ></td ><td >整数</td><td >0 – 2</td><td >2</td><td></td><td></td></tr>
 <tr><td><strong >强度</strong ></td ><td >浮点</td><td >0 – 1</td><td >0.25</td><td></td><td></td></tr>
@@ -205,7 +203,7 @@ nav_links:
 <table><tbody>
 <thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
 <tr><td><strong >启用</strong ></td ><td >切换</td><td >打开 / 关闭</td><td >打开</td><td></td><td></td></tr>
-<tr><td>预设</td><td></td><td></td><td></td><td></td><td>
+<tr><td>预设</td><td></td><td></td><td></td><td>
 </td></tr>
 <tr><td><strong >在 VR 中禁用</strong ></td ><td >切换</td><td >打开 / 关闭</td><td >打开</td><td></td><td>此效果不推荐用于 VR</td></tr>
 <tr><td><strong >强度</strong ></td ><td >浮点</td><td >0 – 1</td><td >0.1</td><td></td><td></td></tr>
@@ -213,7 +211,7 @@ nav_links:
 <summary><strong >颜色</strong ></summary>
 <table><tbody>
 <thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
-<tr><td>预设</td><td></td><td></td><td></td><td></td><td>
+<tr><td>预设</td><td></td><td></td><td></td><td>
 <b >白色</b>、日落、红色、黄色、蓝色、绿色、</td></tr>
 <tr><td><strong >颜色模式</strong ></td ><td >整数</td><td >0 – 1</td><td >0</td><td></td><td></td></tr>
 <tr><td><strong >色相</strong ></td ><td >浮点</td><td >0 – 1</td><td >0</td><td></td><td></td></tr>
@@ -232,7 +230,7 @@ nav_links:
 <tr><td><strong >色差</strong ></td ><td >浮点</td><td >0 – 1</td><td >0.5</td><td></td><td></td></tr>
 </tbody></table>
 </details></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong >颜色调整</strong ></summary>
 <table><tbody>
 <thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
@@ -276,7 +274,7 @@ nav_links:
 <table><tbody>
 <thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
 <tr><td><strong >启用</strong ></td ><td >切换</td><td >打开 / 关闭</td><td >关闭</td><td></td><td></td></tr>
-<tr><td>预设</td><td></td><td></td><td></td><td></td><td>
+<tr><td>预设</td><td></td><td></td><td></td><td>
 轮廓、黑白、<b >色调分级</b>、半色调、</td></tr>
 <tr><td><strong >轮廓厚度</strong ></td ><td >浮点</td><td >0 – 1</td><td >0.1</td><td></td><td></td></tr>
 <tr><td><strong >轮廓强度</strong ></td ><td >浮点</td><td >0 – 1</td><td >1</td><td></td><td></td></tr>

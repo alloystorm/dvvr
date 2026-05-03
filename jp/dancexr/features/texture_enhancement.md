@@ -1,6 +1,6 @@
 ---
 layout: release
-title: テクスチャの強化
+title: テクスチャの向上
 locale: ja-JP
 nav_links:
   - label: イントロ
@@ -13,12 +13,13 @@ nav_links:
     url: /jp/dancexr/download
 ---
 
+{% include video id="uk7QGK3rOQk" provider="youtube" %}
 
 ## テクスチャの強化
-このカテゴリーのマテリアルのテクスチャを強化することができます。特定の効果にはスペキュラーマップを利用し、ベースマップやスペキュラーマップからノーマルマップを生成し、カスタムディテールマップを使用してマテリアルの詳細を向上させることができます。
+特定の効果のためにスペキュラーマップを利用したり、ベースマップまたはスペキュラーマップからノーマルマップを生成したり、カスタムディテールマップを使用してマテリアルの詳細を改善したりすることで、このカテゴリーのマテリアルのテクスチャを強化できます。
 
-### スペキュラー/マスクマップのコントロール
-[スペキュラー/マスクマップの使用](specular_map.md)
+### スペキュラー / マスクマップのコントロール
+[スペキュラー / マスクマップの使用](specular_map.md)
 
 ### ノーマルマップの生成
 * [ノーマルマップの生成](normal_map.md)
@@ -28,4 +29,10 @@ nav_links:
 
 ### グラデーションコントロール
 
-グラデーションパスに沿ってマテリアルのプロパティを変更できます。
+グラデーションパスに沿ってマテリアルプロパティを変更できます。
+
+{% include video id="Yi2W_cwufNk" provider="youtube" %}
+
+{% include video id="d8GP3G0wF3M" provider="youtube" %}
+
+{% include video id="atIdSd2TIrA" provider="youtube" %}

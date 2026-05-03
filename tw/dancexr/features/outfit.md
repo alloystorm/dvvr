@@ -20,27 +20,27 @@ nav_links:
 
 ## 模式
 
-**模式**決定了這個層的行為方式。《彩繪》將角色變成一個你可以直接用游標繪畫的畫布——選擇畫筆顏色並自由繪畫。《服裝》會隱藏繪畫工具，而是從程序化的形狀/圖案設定來驅動這個層，因此你可以根據參數生成乾淨的絲襪或連體服。《服裝彩繪》結合了兩者：程序化形狀定義了服裝區域，而你可以在其上進行繪畫。面板中的可見性規則會在設定模式後自動折疊不相關的子區塊。
+**模式**決定了這個層的行為方式。《身體彩繪》將角色變成一個你可以直接用游標繪畫的畫布——選擇畫筆顏色並自由繪畫。《服裝》會隱藏繪畫工具，而是從程序化的形狀/圖案設定來驅動這個層，因此你可以根據參數生成乾淨的絲襪或連體服。《服裝彩繪》結合了兩者：程序化形狀定義了服裝區域，而你可以在其上進行繪畫。面板中的可見性規則會在設定模式後自動折疊不相關的子區塊。
 
 
 ## 預設
 
-七個內建預設涵蓋了常見的情況——身體彩繪、全身乳膠、V形網狀、兩種絲襪變體和兩種連體服。它們只需點擊一下就能設定模式、形狀和三個表面預設；將它們視為需要調整的起點，而不是最終效果。
+七個內建預設涵蓋了常見的情況——身體彩繪、全身乳膠、V 形網狀、兩種絲襪變體和兩種連體服。它們只需點擊一下就能設定模式、形狀和三個表面預設；將它們視為需要調整的起點，而不是最終效果。
 
 
 ## 身體彩繪
 
-參閱《身體彩繪》子區塊。畫筆大小、旋轉、顏色、圖章材質，以及現場儲存/載入繪圖功能均在此處。僅在《彩繪》和《服裝彩繪》模式下可見。
+參閱《身體彩繪》子區塊。畫筆大小、旋轉、顏色、圖章材質，以及現場儲存/載入繪圖功能均在此處。僅在《身體彩繪》和《服裝彩繪》模式下可見。
 
 
 ## 形狀與圖案
 
-參閱《形狀》子區塊。控制服裝的程序化幾何體——包含絲襪高度、頂部線條、網狀/迷宮/曲線圖案以及邊緣處的突起效果。在純《彩繪》模式下隱藏，因為沒有程序化服裝可以進行塑形。
+參閱《形狀》子區塊。控制服裝的程序化幾何體——包含絲襪高度、頂部線條、網狀/迷宮/曲線圖案以及邊緣處的突起效果。在純《身體彩繪》模式下隱藏，因為沒有程序化服裝可以進行塑形。
 
 
 ## 表面
 
-三個表面層疊加在服裝上：**表面底層**是主要的布料（乳膠、絲襪、金色等），**表面圖案**驅動線/迷宮圖案填充，而**表面邊框**控制形狀邊緣周圍的飾邊。每個都是一個完整的表面區塊（金屬、光澤、顏色、各向異性、溶解、特殊著色器），因此你可以混合例如啞光絲襪與發光邊框。在《彩繪》模式下隱藏。
+三個表面層疊加在服裝上：**表面底層**是主要的布料（乳膠、絲襪、金色等），**表面圖案**驅動線/迷宮圖案填充，而**表面邊框**控制形狀邊緣周圍的飾邊。每個都是一個完整的表面區塊（金屬、光澤、顏色、各向異性、溶解、特殊著色器），因此你可以混合例如啞光絲襪與發光邊框。在《身體彩繪》模式下隱藏。
 
 
 ## 六邊形細節
@@ -50,7 +50,7 @@ nav_links:
 
 ## 溶解
 
-**溶解**是控制服裝沿著溶解圖淡出的大致比例（0 – 1）——使用自動更新來驅動，可同步於音樂或其他數據的撕裂/熔化過渡效果。*溶解圖*子區塊用於配置圖本身：圖案頻率、邊緣寬度以及切口兩側的突起度，X/Y 偏移量和硬切口開關。在純《彩繪》模式下隱藏。
+**溶解**是控制服裝沿著溶解圖淡出的大致比例（0 – 1）——使用自動更新來驅動，可同步於音樂或其他數據的撕裂/熔化過渡效果。*溶解圖*子區塊用於配置圖本身：圖案頻率、邊緣寬度以及切口兩側的突起度，X/Y 偏移量和硬切口開關。在純《身體彩繪》模式下隱藏。
 
 # 子組件
 
@@ -61,12 +61,12 @@ nav_links:
 
 ### 畫筆
 
-**畫筆大小**和**畫筆旋轉**設定筆觸形狀；旋轉僅在選擇圖章材質時才適用。**圖章**選擇可選的圖章——設定後，每次點擊會打上一個單一的貼花，而不是繪製連續筆觸，這對於紋身或標誌圖案是正確的選擇。**畫筆類型**在《服裝彩繪》模式下選擇你繪畫的通道（底層/圖案/邊緣/清除）；在《彩繪》模式下，通道是隱含的，因此此選項被隱藏。
+**畫筆大小**和**畫筆旋轉**設定筆觸形狀；旋轉僅在選擇圖章材質時才適用。**圖章**選擇可選的圖章——設定後，每次點擊會打上一個單一的貼花，而不是繪製連續筆觸，這對於紋身或標誌圖案是正確的選擇。**畫筆類型**在《服裝彩繪》模式下選擇你繪畫的通道（底層/圖案/邊緣/清除）；在《身體彩繪》模式下，通道是隱含的，因此此選項被隱藏。
 
 
 ### 顏色、發光與保留
 
-**顏色**是《彩繪》模式下的畫筆顏色。**發光**會將繪製顏色強度乘上（超過 1 的強度會變成發光）。**保留顏色**調整發光增強，使其能夠增強亮度，但不會沖淡顏色的色調——當您想要飽和的霓虹效果而不是褪色的明亮效果時非常有用。**清除**將畫筆切換為清除而不是繪畫。
+**顏色**是《身體彩繪》模式下的畫筆顏色。**發光**會將繪製顏色強度乘上（超過 1 的強度會變成發光）。**保留顏色**調整發光增強，使其能夠增強亮度，但不會沖淡顏色的色調——當您想要飽和的霓虹效果而不是褪色的明亮效果時非常有用。**清除**將畫筆切換為清除而不是繪畫。
 
 
 ### 繪畫側
@@ -159,7 +159,7 @@ nav_links:
 <tr><td><strong>畫筆旋轉</strong></td><td>浮點數</td><td>-180 – 180</td><td>0</td><td></td><td></td></tr>
 <tr><td><strong>畫筆類型</strong></td><td>整數</td><td>0 – 3</td><td>0</td><td></td><td></td></tr>
 <tr><td><strong>清除</strong></td><td>切換</td><td>開 / 關</td><td>關</td><td></td><td></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>顏色</strong></summary>
 <table><tbody>
 <thead><tr><th>設定</th><th>類型</th><th>範圍 / 值</th><th>預設值</th><th>條件</th><th>描述</th></tr></thead>
@@ -181,7 +181,7 @@ nav_links:
 <tr><td><strong>載入繪圖</strong></td><td>選項</td><td>[無]</td><td>[無]</td><td></td><td></td></tr>
 </tbody></table>
 </details></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>形狀與圖案</strong></summary>
 <table><tbody>
 <thead><tr><th>設定</th><th>類型</th><th>範圍 / 值</th><th>預設值</th><th>條件</th><th>描述</th></tr></thead>
@@ -208,7 +208,7 @@ nav_links:
 <tr><td><strong>內側距離</strong></td><td>浮點數</td><td>0 – 0.1</td><td>0.005</td><td></td><td></td></tr>
 </tbody></table>
 </details></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>六邊形圖</strong></summary>
 <table><tbody>
 <thead><tr><th>設定</th><th>類型</th><th>範圍 / 值</th><th>預設值</th><th>條件</th><th>描述</th></tr></thead>
@@ -226,7 +226,7 @@ nav_links:
 <tr><td><strong>旋轉</strong></td><td>浮點數</td><td>-90 – 90</td><td>0</td><td></td><td></td></tr>
 </tbody></table>
 </details></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>表面底層</strong></summary>
 <table><tbody>
 <thead><tr><th>設定</th><th>類型</th><th>範圍 / 值</th><th>預設值</th><th>條件</th><th>描述</th></tr></thead>
@@ -240,7 +240,7 @@ nav_links:
 <tr><td><strong>透明度降低</strong></td><td>浮點數</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
 <tr><td><strong>透明度曲線</strong></td><td>浮點數</td><td>-2 – 2</td><td>0</td><td></td><td></td></tr>
 <tr><td><strong>剪裁</strong></td><td>浮點數</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>顏色</strong></summary>
 <table><tbody>
 <thead><tr><th>設定</th><th>類型</th><th>範圍 / 值</th><th>預設值</th><th>條件</th><th>描述</th></tr></thead>
@@ -265,7 +265,7 @@ nav_links:
 <tr><td><strong>啟用溶解</strong></td><td>切換</td><td>開 / 關</td><td>開</td><td></td><td></td></tr>
 </tbody></table>
 </details></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>表面圖案</strong></summary>
 <table><tbody>
 <thead><tr><th>設定</th><th>類型</th><th>範圍 / 值</th><th>預設值</th><th>條件</th><th>描述</th></tr></thead>
@@ -279,7 +279,7 @@ nav_links:
 <tr><td><strong>透明度降低</strong></td><td>浮點數</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
 <tr><td><strong>透明度曲線</strong></td><td>浮點數</td><td>-2 – 2</td><td>0</td><td></td><td></td></tr>
 <tr><td><strong>剪裁</strong></td><td>浮點數</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>顏色</strong></summary>
 <table><tbody>
 <thead><tr><th>設定</th><th>類型</th><th>範圍 / 值</th><th>預設值</th><th>條件</th><th>描述</th></tr></thead>
@@ -304,7 +304,7 @@ nav_links:
 <tr><td><strong>啟用溶解</strong></td><td>切換</td><td>開 / 關</td><td>開</td><td></td><td></td></tr>
 </tbody></table>
 </details></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>表面邊框</strong></summary>
 <table><tbody>
 <thead><tr><th>設定</th><th>類型</th><th>範圍 / 值</th><th>預設值</th><th>條件</th><th>描述</th></tr></thead>
@@ -318,7 +318,7 @@ nav_links:
 <tr><td><strong>透明度降低</strong></td><td>浮點數</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
 <tr><td><strong>透明度曲線</strong></td><td>浮點數</td><td>-2 – 2</td><td>0</td><td></td><td></td></tr>
 <tr><td><strong>剪裁</strong></td><td>浮點數</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td colspan="6"><details>
+<tr colspan="6"><details>
 <summary><strong>顏色</strong></summary>
 <table><tbody>
 <thead><tr><th>設定</th><th>類型</th><th>範圍 / 值</th><th>預設值</th><th>條件</th><th>描述</th></tr></thead>
@@ -343,7 +343,15 @@ nav_links:
 <tr><td><strong>啟用溶解</strong></td><td>切換</td><td>開 / 關</td><td>開</td><td></td><td></td></tr>
 </tbody></table>
 </details></td></tr>
-<tr><td><strong>溶解</strong></td><td>浮點數</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr colspan="6"><details>
+<summary><strong>溶解</strong></summary>
+<table><tbody>
+<thead><tr><th>設定</th><th>類型</th><th>範圍 / 值</th><th>預設值</th><th>條件</th><th>描述</th></tr></thead>
+<tr><td>預設值</td><td></td><td></td><td></td><td></td><td>
+</td></tr>
+<tr><td><strong>溶解圖</strong></td><td>浮點數</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+</tbody></table>
+</details></td></tr>
 <tr colspan="6"><details>
 <summary><strong>溶解圖</strong></summary>
 <table><tbody>

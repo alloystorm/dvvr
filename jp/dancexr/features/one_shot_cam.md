@@ -1,6 +1,6 @@
 ---
 layout: release
-title: ワンショットカメラ (One-Shot Cam)
+title: 長回し
 locale: ja-JP
 nav_links:
   - label: イントロ
@@ -13,7 +13,7 @@ nav_links:
     url: /jp/dancexr/download
 ---
 
-# ワンショットカメラ (One-Shot Cam)
+# [長回し]
 
 アクターを追跡しながら、ビートごとにランダムに動く長回しカメラです。
 
@@ -38,26 +38,3 @@ nav_links:
 **Raise Focus When Close**（近接時のフォーカス上昇）を有効にすると、カメラが近づくにつれてフォーカスポイントが自動的に上に移動し、クローズアップショットでアクターの頭部がフレーム内に収まるようにします。
 
 **Prevent Below Floor**（床下移動防止）は、カメラが地面の平面の下に移動するのを防ぎます。
-
-## Configurations
-
-<table>
-<thead><tr><th>設定</th><th>タイプ</th><th>範囲 / 値</th><th>デフォルト</th><th>条件</th><th>説明</th></tr></thead>
-<tbody>
-<tr><td>プリセット</td><td></td><td></td><td></td><td></td><td>
-デフォルト（リセット）、</td></tr>
-<tr><td><strong>ターゲット選択</strong></td><td>オプション</td><td>自動、選択、グループ、回転、回転 + グループ、ステージ中央</td><td>自動</td><td></td><td></td></tr>
-<tr><td><strong>追跡モード</strong></td><td>オプション</td><td>中央、頭部、胸部</td><td>中央</td><td></td><td></td></tr>
-<tr><td><strong>ターゲット平滑化</strong></td><td>Float</td><td>0 – 2</td><td>0.5</td><td></td><td></td></tr>
-<tr><td><strong>予測</strong></td><td>Float</td><td>0 – 2</td><td>1</td><td></td><td>平滑化による遅延を減らすためにターゲットの位置を予測します。</td></tr>
-<tr><td><strong>視野角</strong></td><td>Float</td><td>5 – 120</td><td>30</td><td></td><td></td></tr>
-<tr><td><strong>ビートサイクル</strong></td><td>Integer</td><td>1 – 16</td><td>8</td><td></td><td></td></tr>
-<tr><td><strong>回転範囲</strong></td><td>Float</td><td>0 – 180</td><td>60</td><td></td><td>水平な回転範囲です。</td></tr>
-<tr><td><strong>距離</strong></td><td>範囲</td><td>0.2 – 5</td><td></td><td></td><td></td></tr>
-<tr><td><strong>ピッチ角度</strong></td><td>範囲</td><td>-90 – 90</td><td></td><td></td><td></td></tr>
-<tr><td><strong>カーブ</strong></td><td>Float</td><td>-1 – 1</td><td>0</td><td></td><td>モーションを変更する際に使用されるイージングカーブです。</td></tr>
-<tr><td><strong>床下移動防止</strong></td><td>トグル</td><td>オン / オフ</td><td>オン</td><td></td><td></td></tr>
-<tr><td><strong>アクターの向きの使用</strong></td><td>トグル</td><td>オン / オフ</td><td>オン</td><td></td><td></td></tr>
-<tr><td><strong>近接時のフォーカス上昇</strong></td><td>トグル</td><td>オン / オフ</td><td>オフ</td><td></td><td>距離が短くなるにつれてフォーカス位置を上に移動させます。</td></tr>
-</tbody>
-</table**>

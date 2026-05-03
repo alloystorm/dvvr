@@ -1,6 +1,6 @@
 ---
 layout: release
-title: 长镜头摄影机
+title: [长镜头]
 locale: zh-CN
 nav_links:
   - label: 简介
@@ -13,7 +13,7 @@ nav_links:
     url: /zh/dancexr/download
 ---
 
-# 长镜头摄影机
+# [长镜头]
 
 长镜头摄影机，在跟随表演者移动的同时，每个节拍都会随机移动。
 
@@ -38,26 +38,3 @@ nav_links:
 启用 **接近时提升焦点** 可在摄影机靠近时自动向上移动焦点，保证在近景镜头中表演者的头部始终在画面内。
 
 **防止低于地面** 可阻止摄影机移动到地面平面以下。
-
-## 配置
-
-<table>
-<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认值</th><th>条件</th><th>描述</th></tr></thead>
-<tbody>
-<tr><td>预设</td><td></td><td></td><td></td><td></td><td>
-默认（重置），</td></tr>
-<tr><td>**目标选择**</td><td>选项</td><td>自动、选择、组、旋转、旋转 + 组、舞台中心</td><td>自动</td><td></td><td></td></tr>
-<tr><td>**跟踪模式**</td><td>选项</td><td>中心、头部、胸部</td><td>中心</td><td></td><td></td></tr>
-<tr><td>**目标平滑度**</td><td>浮点数</td><td>0 – 2</td><td>0.5</td><td></td><td></td></tr>
-<tr><td>**预测**</td><td>浮点数</td><td>0 – 2</td><td>1</td><td></td><td>预测目标的位置以减少由平滑度引起的延迟</td></tr>
-<tr><td>**FOV**</td><td>浮点数</td><td>5 – 120</td><td>30</td><td></td><td></td></tr>
-<tr><td>**节拍循环**</td><td>整数</td><td>1 – 16</td><td>8</td><td></td><td></td></tr>
-<tr><td>**旋转范围**</td><td>浮点数</td><td>0 – 180</td><td>60</td><td></td><td>水平旋转范围。</td></tr>
-<tr><td>**距离**</td><td>范围</td><td>0.2 – 5</td><td></td><td></td><td></td></tr>
-<tr><td>**俯仰角**</td><td>范围</td><td>-90 – 90</td><td></td><td></td><td></td></tr>
-<tr><td>**曲线**</td><td>浮点数</td><td>-1 – 1</td><td>0</td><td></td><td>改变运动时使用的缓动曲线</td></tr>
-<tr><td>**防止低于地面**</td><td>切换开关</td><td>开 / 关</td><td>开</td><td></td><td></td></tr>
-<tr><td>**使用表演者朝向**</td><td>切换开关</td><td>开 / 关</td><td>开</td><td></td><td></td></tr>
-<tr><td>**接近时提升焦点**</td><td>切换开关</td><td>开 / 关</td><td>关</td><td></td><td>当距离变小时，将焦点位置向上移动</td></tr>
-</tbody>
-</table

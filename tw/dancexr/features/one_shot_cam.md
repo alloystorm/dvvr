@@ -1,6 +1,6 @@
 ---
 layout: release
-title: 長鏡頭攝影機
+title: [長鏡頭]
 locale: zh-TW
 nav_links:
   - label: 簡介
@@ -13,7 +13,7 @@ nav_links:
     url: /tw/dancexr/download
 ---
 
-# 長鏡頭攝影機
+# [長鏡頭]
 
 長鏡頭攝影機，每個節拍會隨機移動，同時跟隨演員。
 
@@ -38,25 +38,3 @@ nav_links:
 啟用 **近處提升焦點 (Raise Focus When Close)** 可以自動隨著攝影機越來越近，將焦點點向上移動，從而確保特寫鏡頭中演員的頭部保持在畫面內。
 
 **防止低於地面 (Prevent Below Floor)** 會阻止攝影機移動到地平面下方。
-
-## 配置
-
-<table class="table">
-<thead><tr><th>設定</th><th>類型</th><th>範圍 / 值</th><th>預設</th><th>條件</th><th>描述</th></tr></thead>
-<tbody>
-<tr><td>預設 (Preset)</td><td></td><td></td><td></td><td></td><td>預設 (重置)，</td></tr>
-<tr><td><strong class="text-primary">目標選擇 (Target Select)</strong></td><td>選項 (Options)</td><td>自動 (Auto), 選定 (Selected), 群組 (Group), 旋轉 (Rotate), 旋轉 + 群組 (Rotate + Group), 場景中心 (Stage Center)</td><td>自動 (Auto)</td><td></td><td></td></tr>
-<tr><td><strong class="text-primary">追蹤模式 (Tracking Mode)</strong></td><td>選項 (Options)</td><td>中心 (Center), 頭部 (Head), 胸部 (Chest)</td><td>中心 (Center)</td><td></td><td></td></tr>
-<tr><td><strong class="text-primary">目標平滑度 (Target Smoothing)</strong></td><td>浮點數 (Float)</td><td>0 – 2</td><td>0.5</td><td></td><td></td></tr>
-<tr><td><strong class="text-primary">預測 (Prediction)</strong></td><td>浮點數 (Float)</td><td>0 – 2</td><td>1</td><td></td><td>用來預測目標位置，以減少因平滑度造成的延遲</td></tr>
-<tr><td><strong class="text-primary">視野角 (FOV)</strong></td><td>浮點數 (Float)</td><td>5 – 120</td><td>30</td><td></td><td></td></tr>
-<tr><td><strong class="text-primary">節拍週期 (Beat Cycle)</strong></td><td>整數 (Integer)</td><td>1 – 16</td><td>8</td><td></td><td></td></tr>
-<tr><td><strong class="text-primary">旋轉範圍 (Rotate Range)</strong></td><td>浮點數 (Float)</td><td>0 – 180</td><td>60</td><td></td><td>水平旋轉範圍。</td></tr>
-<tr><td><strong class="text-primary">距離 (Distance)</strong></td><td>範圍 (Range)</td><td>0.2 – 5</td><td></td><td></td><td></td></tr>
-<tr><td><strong class="text-primary">俯仰角 (Pitch Angle)</strong></td><td>範圍 (Range)</td><td>-90 – 90</td><td></td><td></td><td></td></tr>
-<tr><td><strong class="text-primary">曲線 (Curve)</strong></td><td>浮點數 (Float)</td><td>-1 – 1</td><td>0</td><td></td><td>改變運動時使用的減速曲線。</td></tr>
-<tr><td><strong class="text-primary">防止低於地面 (Prevent Below Floor)</strong></td><td>開關 (Toggle)</td><td>開啟 (on) / 關閉 (off)</td><td>開啟 (on)</td><td></td><td></td></tr>
-<tr><td><strong class="text-primary">使用演員朝向 (Use Actor Orientation)</strong></td><td>開關 (Toggle)</td><td>開啟 (on) / 關閉 (off)</td><td>開啟 (on)</td><td></td><td></td></tr>
-<tr><td><strong class="text-primary">近處提升焦點 (Raise Focus When Close)</strong></td><td>開關 (Toggle)</td><td>開啟 (on) / 關閉 (off)</td><td>關閉 (off)</td><td></td><td>當距離變小時，提高焦點位置</td></tr>
-</tbody>
-</table>
