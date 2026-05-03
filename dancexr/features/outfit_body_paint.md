@@ -40,7 +40,7 @@ Outfit can be used to create stocking, latex, plastic and metallic effects. It a
 
 Try out presets to see what it can do and then dive into the details to create your own.
 
-You can also integrate the [hexagon detail map](hexagon_detail.md) to improve the texture of the generated outfit effect.
+You can also integrate the [hexagon detail map](hexagon_detail) to improve the texture of the generated outfit effect.
 
 ## Body Paint
 {% include video id="chHk9--cUYE" provider="youtube" %}

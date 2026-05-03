@@ -22,4 +22,4 @@ Once saved, they can be loaded back into the scene at any time by selecting the 
 
 Please note that the scene file reference models & motions with their file paths. If you move the models or motions to a different location, the saved scene file will not be able to find the asset it requires.
 
-We also have a feature called ["Scene Bundle"](scene_bundle.md) that also constains all the models and motion assets used in the scene. So you can share a scene with others without worrying about also missing assets.
+We also have a feature called ["Scene Bundle"](scene_bundle) that also constains all the models and motion assets used in the scene. So you can share a scene with others without worrying about also missing assets.

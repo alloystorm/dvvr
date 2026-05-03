@@ -19,13 +19,13 @@ nav_links:
 XPS models don't come with physics definitions, so the program does not know where to add physics components. To deal with this, several physics settings are added to each XPS model for you to configure physics components on an XPS model.
 
 This includes:
-* [Body Colliders](xps_body_colliders.md)
-* [Boobs Physics](xps_boobs.md)
-* [Hair Physics](xps_hair.md)
-* [Clothes Physics](xps_cloth.md)
-* [Skirt Physics](xps_skirt.md)
-* [Softbody Physics](xps_softbody.md)
-* [Detect Object](xps_detect.md)
+* [Body Colliders](xps_body_colliders)
+* [Boobs Physics](xps_boobs)
+* [Hair Physics](xps_hair)
+* [Clothes Physics](xps_cloth)
+* [Skirt Physics](xps_skirt)
+* [Softbody Physics](xps_softbody)
+* [Detect Object](xps_detect)
 
 ### Demo
 {% include video id="-IZTzHUpROs" provider="youtube" %}

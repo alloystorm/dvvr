@@ -22,4 +22,4 @@ nav_links:
 ## 分類
 系統會自動將以特定關鍵字命名的材料放入髮質類別。然而，這有時可能是錯誤的，因此您可以手動將材料分配到這個類別中。
 
-[材料如何被分類](material_settings.md#material-category)
+[材料如何被分類](material_settings#material-category)

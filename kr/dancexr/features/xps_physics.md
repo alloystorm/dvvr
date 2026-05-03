@@ -18,13 +18,13 @@ nav_links:
 XPS 모델에는 물리학 정의가 포함되어 있지 않기 때문에 프로그램은 어디에 물리학 구성 요소를 추가해야 하는지 모릅니다. 이를 해결하기 위해 각 XPS 모델에 여러 물리학 설정이 추가되어 있어 물리학 구성 요소를 구성할 수 있습니다.
 
 이에는 다음이 포함됩니다:
-* [몸통 충돌체](xps_body_colliders.md)
-* [가슴 물리학](xps_boobs.md)
-* [머리 물리학](xps_hair.md)
-* [의상 물리학](xps_cloth.md)
-* [치마 물리학](xps_skirt.md)
-* [소프트바디 물리학](xps_softbody.md)
-* [감지 객체](xps_detect.md)
+* [몸통 충돌체](xps_body_colliders)
+* [가슴 물리학](xps_boobs)
+* [머리 물리학](xps_hair)
+* [의상 물리학](xps_cloth)
+* [치마 물리학](xps_skirt)
+* [소프트바디 물리학](xps_softbody)
+* [감지 객체](xps_detect)
 
 ### 데모
 {% include video id="-IZTzHUpROs" provider="youtube" %}

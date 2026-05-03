@@ -22,6 +22,6 @@ nav_links:
 ## 紋理增強
 您可以通過利用特定效果的高光貼圖來增強此類別中材質的紋理，從基本貼圖或高光貼圖生成法線貼圖，並使用自定義細節貼圖來改善材質的細節。
 
-* [使用高光/遮罩貼圖](specular_map.md)
-* [生成法線貼圖](normal_map.md)
-* [使用自定義細節貼圖](custom_detail_map.md)
+* [使用高光/遮罩貼圖](specular_map)
+* [生成法線貼圖](normal_map)
+* [使用自定義細節貼圖](custom_detail_map)

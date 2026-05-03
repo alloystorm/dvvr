@@ -21,7 +21,7 @@ Softbody physics creates an interconnected mesh of joints between a group of bon
 
 This works best for buttocks and thigh physics.
 
-The softbody mode in [boobs physics](xps_boobs.md) uses the same mechanism.
+The softbody mode in [boobs physics](xps_boobs) uses the same mechanism.
 
 ## Settings
 

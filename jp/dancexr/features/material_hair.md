@@ -22,4 +22,4 @@ nav_links:
 ## カテゴリ化
 システムは、特定のキーワードで名前が付けられたマテリアルを自動的にヘアカテゴリに配置します。ただし、これが間違っている場合があるため、マテリアルを手動でこのカテゴリに割り当てることもできます。
 
-[マテリアルのカテゴリ化方法](material_settings.md#material-category)
+[マテリアルのカテゴリ化方法](material_settings#material-category)

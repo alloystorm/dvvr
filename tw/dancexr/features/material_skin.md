@@ -24,7 +24,7 @@ nav_links:
 ## 分類
 系統會自動將以特定關鍵字命名的材質歸類至皮膚類別。然而有時可能會有錯誤，因此您可以手動將材質分配至此類別。
 
-[材質如何分類](material_settings.md#material-category)
+[材質如何分類](material_settings#material-category)
 
 ## 設定
 * 厚度：皮膚的厚度。此設定控制光線在皮膚內部的散射程度。

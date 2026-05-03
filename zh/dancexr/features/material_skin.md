@@ -24,7 +24,7 @@ nav_links:
 ## 分类
 系统会自动将包含特定关键词的材质归入皮肤类别。但有时可能出现错误，因此您可以手动将材质分配到该类别中。
 
-[材质如何分类](material_settings.md#material-category)
+[材质如何分类](material_settings#material-category)
 
 ## 设置
 * 厚度：皮肤的厚度。控制光线在皮肤内部的散射程度。

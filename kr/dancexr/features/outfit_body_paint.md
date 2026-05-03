@@ -39,7 +39,7 @@ nav_links:
 
 기본 설정을 시도하여 무엇을 할 수 있는지 확인한 다음 세부 사항에 들어가서 자신만의 것을 만들어보세요.
 
-또한 생성된 의상 효과의 질감을 향상시키기 위해 [육각형 디테일 맵](hexagon_detail.md)을 통합할 수도 있습니다.
+또한 생성된 의상 효과의 질감을 향상시키기 위해 [육각형 디테일 맵](hexagon_detail)을 통합할 수도 있습니다.
 
 ## 바디 페인트
 {% include video id="chHk9--cUYE" provider="youtube" %}

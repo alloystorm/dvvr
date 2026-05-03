@@ -69,7 +69,7 @@ The following are links to the detailed documentation for each of the settings.
 * Motin Assign & Settings
 * Recently Modified Settings
 * [Dressing System (Material Morphs and XPS Optionals)](optionals)
-* [Bone Mapper (XPS Only)](bone_mapper.md)
+* [Bone Mapper (XPS Only)](bone_mapper)
 * [Alternative Textures](alternative_textures)
 * Materials
     * Skin

@@ -16,7 +16,7 @@ nav_links:
 
 
 ## Auto Dance 3
-This is a procedural motion that's similar to [SM3](sm3_motion.md) but without the NSFW part.
+This is a procedural motion that's similar to [SM3](sm3_motion) but without the NSFW part.
 
 It has the same level of customization as SM3 and can be fine tuned greatly to suit your needs.
 

@@ -18,13 +18,13 @@ nav_links:
 XPSモデルには物理定義が付属していないため、プログラムはどこに物理コンポーネントを追加すべきかわかりません。このため、XPSモデルごとにいくつかの物理設定が追加され、XPSモデル上で物理コンポーネントを構成できるようになっています。
 
 これには以下が含まれます：
-* [ボディコライダー](xps_body_colliders.md)
-* [おっぱいの物理](xps_boobs.md)
-* [髪の物理](xps_hair.md)
-* [服の物理](xps_cloth.md)
-* [スカートの物理](xps_skirt.md)
-* [ソフトボディの物理](xps_softbody.md)
-* [オブジェクトの検出](xps_detect.md)
+* [ボディコライダー](xps_body_colliders)
+* [おっぱいの物理](xps_boobs)
+* [髪の物理](xps_hair)
+* [服の物理](xps_cloth)
+* [スカートの物理](xps_skirt)
+* [ソフトボディの物理](xps_softbody)
+* [オブジェクトの検出](xps_detect)
 
 ### デモ
 {% include video id="-IZTzHUpROs" provider="youtube" %}

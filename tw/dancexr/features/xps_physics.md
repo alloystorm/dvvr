@@ -18,13 +18,13 @@ nav_links:
 XPS模型不附帶物理定義，因此程序不知道在哪裡添加物理組件。為了應對這一情況，為每個XPS模型添加了幾個物理設置，供您配置XPS模型上的物理組件。
 
 這包括：
-* [身體碰撞器](xps_body_colliders.md)
-* [胸部物理](xps_boobs.md)
-* [頭髮物理](xps_hair.md)
-* [衣服物理](xps_cloth.md)
-* [裙子物理](xps_skirt.md)
-* [軟體物理](xps_softbody.md)
-* [檢測物體](xps_detect.md)
+* [身體碰撞器](xps_body_colliders)
+* [胸部物理](xps_boobs)
+* [頭髮物理](xps_hair)
+* [衣服物理](xps_cloth)
+* [裙子物理](xps_skirt)
+* [軟體物理](xps_softbody)
+* [檢測物體](xps_detect)
 
 ### 演示
 {% include video id="-IZTzHUpROs" provider="youtube" %}

@@ -22,4 +22,4 @@ nav_links:
 ## 分类
 系统会自动将以特定关键词命名的材质放入头发类别。然而，有时候这可能是错误的，所以您可以手动将材质分配到这个类别中。
 
-[材质如何分类](material_settings.md#material-category)
+[材质如何分类](material_settings#material-category)

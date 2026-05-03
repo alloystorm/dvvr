@@ -39,7 +39,7 @@ nav_links:
 
 尝试预设以查看其功能，然后深入细节以创建您自己的效果。
 
-您还可以集成[六边形细节地图](hexagon_detail.md)来改善生成的服装效果的纹理。
+您还可以集成[六边形细节地图](hexagon_detail)来改善生成的服装效果的纹理。
 
 ## 身体彩绘
 {% include video id="chHk9--cUYE" provider="youtube" %}

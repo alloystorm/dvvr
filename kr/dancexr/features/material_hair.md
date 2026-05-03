@@ -22,4 +22,4 @@ nav_links:
 ## 분류
 시스템은 특정 키워드로 명명된 소재를 자동으로 헤어 카테고리로 분류합니다. 그러나 때로는 잘못될 수 있으므로 소재를 수동으로 이 카테고리에 할당할 수 있습니다.
 
-[소재가 어떻게 분류되는지](material_settings.md#material-category)
+[소재가 어떻게 분류되는지](material_settings#material-category)

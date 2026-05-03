@@ -28,5 +28,5 @@ Changes certain properties for all materials of the actor model.
 * Transparency Sorting: Set sorting method for transparent materials.
 * Rain Angle: Adjust angle of the rain drops when rain effect is enabled.
 * Rain Use World Position: Use world position to calculate rain. Good for static objects.
-* [Specular / Mask Map](specular_map.md): Set specular / mask map for all materials.
+* [Specular / Mask Map](specular_map): Set specular / mask map for all materials.
 * Special Shading Mode: Set special shading mode for all materials.

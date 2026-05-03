@@ -70,7 +70,7 @@ Gizmo立方體是虛擬立方體，您可以使用它來移動和擺姿勢演員
 * 動作分配和設定
 * 最近修改的設定
 * [服裝系統（材質變形和XPS可選項）](optionals)
-* [骨骼映射器（僅限XPS）](bone_mapper.md)
+* [骨骼映射器（僅限XPS）](bone_mapper)
 * [替代材質](alternative_textures)
 * 材質
     * 皮膚

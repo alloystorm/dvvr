@@ -25,7 +25,7 @@ Subsurface scaterring conflicts with metallic effect so if you use metallic effe
 ## Categorization
 The system automatically puts materials that are named with certain keywords into the skin category. However this can sometimes be wrong, so you can manually assign materials to this category.
 
-[How materials are categorized](material_settings.md#material-category)
+[How materials are categorized](material_settings#material-category)
 
 ## Settings
 * Thickness: Thickness of the skin. This controls how much light is scattered inside the skin.
