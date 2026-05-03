@@ -26,12 +26,11 @@ echo "→ Starting Jekyll on http://localhost:$PORT"
 echo "  (Press Ctrl+C to stop)"
 echo ""
 
+# Added --verbose to track which file causes the crash
 bundle exec jekyll serve \
   --port "$PORT" \
   --livereload \
   --open-url \
-  --config "_config.yml,_config.dev.yml" 2>/dev/null \
-  || bundle exec jekyll serve \
-       --port "$PORT" \
-       --open-url \
-       --config "_config.yml,_config.dev.yml"
+  --trace \
+  --verbose \
+  --config "_config.yml,_config.dev.yml"
