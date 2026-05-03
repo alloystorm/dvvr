@@ -25,9 +25,9 @@ nav_links:
 通常，舞蹈集的檔名會與其音訊檔相同。當您在內容選單載入舞蹈集時，音訊與所有動作也會一併載入。
 
 ## 舞蹈集設定
-舞蹈集每個動作有獨立的[動作設定](/dancexr/features/motion_settings)，並有共同的[時間與節拍](/dancexr/music_timing)設定用於所有動作。
+舞蹈集每個動作有獨立的[動作設定](motion_settings)，並有共同的[時間與節拍](music_timing)設定用於所有動作。
 
-## [混音](/dancexr/features/remix)
+## [混音](remix)
 在DanceXR中，混音指的是使用一個舞蹈集的動作資料與另一個舞蹈集的音訊進行配合。透過此功能，您可以為不同音訊調整動作。它也會自動調整速度以配合動作與音樂。
 
 ## VMD2PNG (v2026.3)

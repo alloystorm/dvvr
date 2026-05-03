@@ -25,9 +25,9 @@ nav_links:
 通常舞蹈集的文件名与其音频文件相同。当您从内容菜单加载舞蹈集时，音频和所有动作也将被加载。
 
 ## 舞蹈集设置
-舞蹈集具有每个动作的单独[设置](/dancexr/features/motion_settings)，以及所有动作的共同[时间和节拍](/dancexs/features/music_timing)设置。
+舞蹈集具有每个动作的单独[设置](motion_settings)，以及所有动作的共同[时间和节拍](music_timing)设置。
 
-## [混音](/dancexr/features/remix)
+## [混音](remix)
 在DanceXR中，混音指的是使用一个舞蹈集的动作数据与另一个舞蹈集的音频进行配合。通过这个功能，您可以将动作适应不同的音频。它还会自动调整速度以匹配动作和音乐。
 
 ## VMD2PNG (v2026.3)
