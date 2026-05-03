@@ -1,5 +1,6 @@
 import subprocess
 import os
+import re
 import argparse
 import json
 
@@ -11,27 +12,48 @@ def get_latest_commit_info(file_path):
         return result.stdout.strip()
     return ""
 
-def is_file_newer_than_translation(file_path, prefix):
-    """Check if the given file is newer than its translated counterpart."""
+def get_content_line_count(file_path):
+    """Count non-empty content lines, excluding front matter and language links."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        # Strip front matter
+        content = re.sub(r'^---.*?---\s*', '', content, flags=re.DOTALL)
+        # Strip language links line (line with multiple locale links)
+        content = re.sub(r'^\[.+\]\(.+\)(\s*\|\s*\[.+\]\(.+\))+\s*$', '', content, flags=re.MULTILINE)
+        return sum(1 for line in content.splitlines() if line.strip())
+    except Exception:
+        return 0
+
+def check_translation_status(file_path, prefix):
+    """Return (needs_translation, reason) for a source file and target language prefix."""
     dst_path = f"{prefix}/dancexr"
     dst_file_path = os.path.join(dst_path, os.path.relpath(file_path, "dancexr"))
 
     if not os.path.exists(dst_file_path):
-        # If the translated version doesn't exist, it needs translation
-        return True
-    
+        return True, "missing"
+
     commit_date_original = get_latest_commit_info(file_path)
     commit_date_translated = get_latest_commit_info(dst_file_path)
 
     # If the original file has no commit history, skip it
     if not commit_date_original:
-        return False
+        return False, ""
 
-    # If the translated version has no commit history, the original is "newer"
+    # If the translated version has no commit history, treat as outdated
     if not commit_date_translated:
-        return True
+        return True, "no_history"
 
-    return commit_date_original > commit_date_translated
+    if commit_date_original > commit_date_translated:
+        return True, "outdated"
+
+    # Line count comparison: flag if translation has <75% of source content lines
+    src_lines = get_content_line_count(file_path)
+    dst_lines = get_content_line_count(dst_file_path)
+    if src_lines > 5 and dst_lines < src_lines * 0.75:
+        return True, f"line_count ({src_lines} src vs {dst_lines} dst)"
+
+    return False, ""
 
 def find_untranslated_pages():
     src_path = 'dancexr'
@@ -46,17 +68,21 @@ def find_untranslated_pages():
 
             file_path = os.path.join(subdir, file)
             langs_needed = []
-            
+            reasons = {}
+
             for lang in target_languages:
-                if is_file_newer_than_translation(file_path, lang):
+                needed, reason = check_translation_status(file_path, lang)
+                if needed:
                     langs_needed.append(lang)
-            
+                    reasons[lang] = reason
+
             if langs_needed:
                 untranslated.append({
                     "file": file_path,
-                    "languages": langs_needed
+                    "languages": langs_needed,
+                    "reasons": reasons
                 })
-    
+
     return untranslated
 
 if __name__ == "__main__":
@@ -65,7 +91,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     results = find_untranslated_pages()
-    
+
     if args.json:
         print(json.dumps(results, indent=2))
     else:
@@ -73,4 +99,7 @@ if __name__ == "__main__":
             print("No pages need translation.")
         else:
             for item in results:
-                print(f"{item['file']} -> {', '.join(item['languages'])}")
+                reasons_str = ", ".join(
+                    f"{lang}:{item['reasons'].get(lang, '?')}" for lang in item['languages']
+                )
+                print(f"{item['file']} -> {', '.join(item['languages'])}  [{reasons_str}]")
