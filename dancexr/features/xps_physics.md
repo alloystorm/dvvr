@@ -25,7 +25,7 @@ This includes:
 * [Clothes Physics](xps_cloth)
 * [Skirt Physics](xps_skirt)
 * [Softbody Physics](xps_softbody)
-* [Detect Object](xps_detect)
+* [Detect Object](xps_detach)
 
 ### Demo
 {% include video id="-IZTzHUpROs" provider="youtube" %}

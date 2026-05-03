@@ -78,7 +78,7 @@ The following are links to the detailed documentation for each of the settings.
     * [Material Settings](material_settings)
 * Settings
     * [PMX Physics (PMX Only)](pmx_physics)
-    * [Feet Adjustments](feet_adjustments)
+    * [Feet Adjustments](feet_adjustment)
     * [Facial Control](facial_control)
     * [Blink, Breath and Eye Contact](eyecontact)
     * [Troubleshooting Options](troubleshooting_options)

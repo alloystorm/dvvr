@@ -79,7 +79,7 @@ Gizmo立方体是虚拟立方体，您可以使用它来移动和调整演员的
     * [材质设置](material_settings)
 * 设置
     * [PMX物理（仅限PMX）](pmx_physics)
-    * [脚部调整](feet_adjustments)
+    * [脚部调整](feet_adjustment)
     * [面部控制](facial_control)
     * [眨眼、呼吸、眼神接触](eyecontact)
     * [故障排除选项](troubleshooting_options)

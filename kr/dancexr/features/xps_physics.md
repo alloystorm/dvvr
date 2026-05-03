@@ -24,7 +24,7 @@ XPS 모델에는 물리학 정의가 포함되어 있지 않기 때문에 프로
 * [의상 물리학](xps_cloth)
 * [치마 물리학](xps_skirt)
 * [소프트바디 물리학](xps_softbody)
-* [감지 객체](xps_detect)
+* [감지 객체](xps_detach)
 
 ### 데모
 {% include video id="-IZTzHUpROs" provider="youtube" %}

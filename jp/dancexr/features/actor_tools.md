@@ -79,7 +79,7 @@ VRモードでは、サムスティックを上下に動かしてアクターを
     * [マテリアル設定](material_settings)
 * 設定
     * [PMX物理（PMXのみ）](pmx_physics)
-    * [足の調整](feet_adjustments)
+    * [足の調整](feet_adjustment)
     * [表情制御](facial_control)
     * [まばたき、呼吸、アイコンタクト](eyecontact)
     * [トラブルシューティングオプション](troubleshooting_options)
