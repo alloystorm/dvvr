@@ -177,7 +177,6 @@
                 "tw": "角色預設",
                 "kr": "배우 프리셋"
               },
-              "path": "features/actor_presets",
               "badge": "2024.1",
               "badge_type": "new",
               "image": "/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp"
@@ -726,7 +725,6 @@
                 "tw": "節拍環",
                 "kr": "비트 링"
               },
-              "path": "features/beats_ring",
               "image": "/images/slideshows/tools/DanceXR%201.4.5%20New%20AutoUpdate%20Options%20for%20Audio%20Visualization%20%5BA00DhbCOgu0%5D.webp"
             }
           ]
@@ -898,7 +896,6 @@
                 "tw": "系統預設",
                 "kr": "시스템 프리셋"
               },
-              "path": "features/system_presets",
               "badge": "2024.1",
               "badge_type": "new",
               "image": "/images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg"

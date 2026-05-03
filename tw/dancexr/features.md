@@ -110,7 +110,6 @@ feature_sections:
             link: /tw/dancexr/features/troubleshooting_options
             image: /images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp
           - title: 角色預設
-            link: /tw/dancexr/features/actor_presets
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
             badge: 2024.1
             badge_type: new
@@ -390,7 +389,7 @@ feature_sections:
             image: /images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp
             badge: "Mobile & Quest · PRO"
             badge_type: pro
-          - title: 水互動
+          - title: 水體互動
             link: /tw/dancexr/features/water_interaction
             image: /images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp
       - title: 舞台與道具
@@ -422,7 +421,6 @@ feature_sections:
             badge: 2024.3 · PRO
             badge_type: pro
           - title: 節拍環
-            link: /tw/dancexr/features/beats_ring
             image: /images/slideshows/tools/DanceXR%201.4.5%20New%20AutoUpdate%20Options%20for%20Audio%20Visualization%20%5BA00DhbCOgu0%5D.webp
       - title: 場景與渲染
         tiles:
@@ -492,7 +490,6 @@ feature_sections:
             badge: PRO
             badge_type: pro
           - title: 系統預設
-            link: /tw/dancexr/features/system_presets
             image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
             badge: 2024.1
             badge_type: new
