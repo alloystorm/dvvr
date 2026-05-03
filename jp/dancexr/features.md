@@ -55,7 +55,7 @@ feature_sections:
           - title: タグ付け
             link: /jp/dancexr/features/tagging
             image: /images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp
-          - title: オプションの読み込み
+          - title: アクタのオプション
             link: /jp/dancexr/features/loader_options
             image: /images/slideshows/load_play/Stellar%20Blade%20Raven%20Sea%20Breeze%20Dance%20%5Bo6mocERvFNk%5D.webp
             badge: 2026.3
@@ -74,7 +74,7 @@ feature_sections:
           - title: XPSボーンマッパー
             link: /jp/dancexr/features/bone_mapper
             image: /images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp
-          - title: PMX物理
+          - title: 物理
             link: /jp/dancexr/features/pmx_physics
             image: /images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp
           - title: PMX ブレンドシェイプモーフ
@@ -87,7 +87,7 @@ feature_sections:
           - title: 例の骨構造
             link: /jp/dancexr/features/bones
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
-          - title: 顔の制御
+          - title: フェイスコントロール
             link: /jp/dancexr/features/facial_control
             image: /images/slideshows/physics/921e8f56935161e0e14e15d1dd0addb866f2b735.jpg
       - title: キャラクターツール
@@ -101,10 +101,10 @@ feature_sections:
             badge: 2025.2 · PRO
             badge_type: pro
           - title: 足の調整
-            link: /jp/dancexr/features/feet_adjustments
+            link: /jp/dancexr/features/feet_adjustment
             image: /images/slideshows/dressing/90fbb9ac6e412cb83d0fcf3c743bfcd776473261.jpg
-          - title: "スケール & オフセット"
-            link: /jp/dancexr/features/scale_n_offset
+          - title: スケールとオフセット
+            link: /jp/dancexr/features/scale_offset
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
           - title: トラブルシューティングオプション
             link: /jp/dancexr/features/troubleshooting_options
@@ -167,7 +167,7 @@ feature_sections:
           - title: 透明な素材
             link: /jp/dancexr/features/material_transparent
             image: /images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp
-          - title: カスタムマテリアル
+          - title: "## カスタムマテリアル"
             link: /jp/dancexr/features/material_custom1
             image: /images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp
           - title: マテリアル設定
@@ -175,12 +175,12 @@ feature_sections:
             image: /images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp
             badge: PRO
             badge_type: pro
-          - title: テクスチャの強化
+          - title: テクスチャの向上
             link: /jp/dancexr/features/texture_enhancement
             image: /images/slideshows/dressing/%5BDanceXR%202024.3%5D%20Improved%20Stocking%20Effect%20%5BewUUxxGbAm8%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 汗の効果
+          - title: 汗のエフェクト
             link: /jp/dancexr/features/sweat_effect
             image: /images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp
             badge: 2026.2 · NSFW
@@ -239,7 +239,7 @@ feature_sections:
             badge: PRO
             badge_type: pro
           - title: ライトボール
-            link: /jp/dancexr/features/lightball
+            link: /jp/dancexr/features/light_ball
             image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
             badge: PRO
             badge_type: pro
@@ -272,7 +272,7 @@ feature_sections:
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
             badge: PRO
             badge_type: pro
-          - title: オブジェクトを検出
+          - title: Detechオブジェクト
             link: /jp/dancexr/features/xps_detach
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
   - title: "モーション & メディア"
@@ -371,7 +371,7 @@ feature_sections:
           - title: 空
             link: /jp/dancexr/features/sky
             image: /images/slideshows/environment/How%20is%20the%20shadow%20on%20the%20wall%20even%20possible%EF%BC%9F%20%5B85lKm5S3Oa8%5D.webp
-          - title: ライティング
+          - title: 照明 (またはライティング)
             link: /jp/dancexr/features/lighting
             image: /images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp
       - title: "環境 & エフェクト"
@@ -395,7 +395,7 @@ feature_sections:
             image: /images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp
       - title: "ステージ & プロップ"
         tiles:
-          - title: グラウンド
+          - title: 地面
             link: /jp/dancexr/features/ground
             image: /images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp
           - title: 部屋のステージ
@@ -444,10 +444,10 @@ feature_sections:
       - title: カメラ概要
         link: /jp/dancexr/features/camera
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
-      - title: "[フリーフライカム]"
+      - title: "[Freefly Cam]"
         link: /jp/dancexr/features/freefly_cam
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
-      - title: "[オートカメラ]"
+      - title: "[自動カメラ]"
         link: /jp/dancexr/features/auto_cam
         image: /images/slideshows/camera/What%20does%20it%20feel%20like%20to%20watch%20a%20concert%20while%20standing%20in%20the%20middle%20of%20the%20stage%EF%BC%9F%20%5Beq7XxG_6YLg%5D.webp
       - title: オービットカメラ
@@ -532,7 +532,7 @@ feature_sections:
         link: /jp/dancexr/features/sfb_motion
         badge: NSFW
         badge_type: nsfw
-      - title: Sex Motion 3
+      - title: ./motion/proc/sm3
         link: /jp/dancexr/features/sex_motion_3
         badge: NSFW
         badge_type: nsfw

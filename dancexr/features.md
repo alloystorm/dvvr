@@ -72,7 +72,7 @@ feature_sections:
           - title: XPS Bone Mapper
             link: /dancexr/features/bone_mapper
             image: /images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp
-          - title: PMX Physics
+          - title: Physics
             link: /dancexr/features/pmx_physics
             image: /images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp
           - title: PMX Blendshape Morphs
@@ -98,11 +98,11 @@ feature_sections:
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
             badge: 2025.2 · PRO
             badge_type: pro
-          - title: Feet Adjustments
-            link: /dancexr/features/feet_adjustments
+          - title: Feet Adjustment
+            link: /dancexr/features/feet_adjustment
             image: /images/slideshows/dressing/90fbb9ac6e412cb83d0fcf3c743bfcd776473261.jpg
           - title: "Scale & Offset"
-            link: /dancexr/features/scale_n_offset
+            link: /dancexr/features/scale_offset
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
           - title: Troubleshooting Options
             link: /dancexr/features/troubleshooting_options
@@ -237,7 +237,7 @@ feature_sections:
             badge: PRO
             badge_type: pro
           - title: Light Ball
-            link: /dancexr/features/lightball
+            link: /dancexr/features/light_ball
             image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
             badge: PRO
             badge_type: pro
@@ -442,10 +442,10 @@ feature_sections:
       - title: Camera Overview
         link: /dancexr/features/camera
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
-      - title: ./motion/proc/free_cam
+      - title: "[Freefly Cam]"
         link: /dancexr/features/freefly_cam
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
-      - title: ./motion/proc/auto_cam
+      - title: "[Auto Cam]"
         link: /dancexr/features/auto_cam
         image: /images/slideshows/camera/What%20does%20it%20feel%20like%20to%20watch%20a%20concert%20while%20standing%20in%20the%20middle%20of%20the%20stage%EF%BC%9F%20%5Beq7XxG_6YLg%5D.webp
       - title: Orbit Camera
@@ -494,7 +494,7 @@ feature_sections:
             image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
             badge: 2024.1
             badge_type: new
-          - title: application_settings
+          - title: Application Settings
             link: /dancexr/features/application_settings
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
       - title: "Graphics & Display"
@@ -530,7 +530,7 @@ feature_sections:
         link: /dancexr/features/sfb_motion
         badge: NSFW
         badge_type: nsfw
-      - title: Sex Motion 3
+      - title: "[Sex Motion 3]"
         link: /dancexr/features/sex_motion_3
         badge: NSFW
         badge_type: nsfw

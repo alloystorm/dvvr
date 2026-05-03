@@ -1,0 +1,21 @@
+---
+layout: release
+title: 胸部抖动覆盖层
+locale: zh-CN
+nav_links:
+  - label: 简介
+    url: /zh/dancexr
+  - label: 功能
+    url: /zh/dancexr/features
+  - label: 发布
+    url: /zh/dancexr/releases
+  - label: 下载
+    url: /zh/dancexr/download
+---
+
+# 晃胸叠加效果
+
+增加由音乐节拍驱动的节奏性胸部晃动动作。
+**强度**设置振幅；**速度**缩放节拍频率（2的幂次方）。**动作模式**在仅水平 (−1)、仅垂直 (1) 或组合 (0) 的晃动方向之间混合。
+
+**时间模式**选择节奏：*恒定*在每个节拍晃动；*脉冲*在每隔一个节拍间交替开/关；*渐变*遵循预设的 16 拍模式，该模式在乐句中逐步增强强度。**抗弛模式**在中立位置弹回，以产生更夸张的效果。

@@ -55,7 +55,7 @@ feature_sections:
           - title: 태깅
             link: /kr/dancexr/features/tagging
             image: /images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp
-          - title: 로드 옵션
+          - title: Actor Options
             link: /kr/dancexr/features/loader_options
             image: /images/slideshows/load_play/Stellar%20Blade%20Raven%20Sea%20Breeze%20Dance%20%5Bo6mocERvFNk%5D.webp
             badge: 2026.3
@@ -74,7 +74,7 @@ feature_sections:
           - title: XPS 본 매핑
             link: /kr/dancexr/features/bone_mapper
             image: /images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp
-          - title: PMX 물리학
+          - title: 물리
             link: /kr/dancexr/features/pmx_physics
             image: /images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp
           - title: PMX 블렌드셰이프 모프
@@ -87,7 +87,7 @@ feature_sections:
           - title: 예시 뼈 구조
             link: /kr/dancexr/features/bones
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
-          - title: 얼굴 제어
+          - title: 표정 제어
             link: /kr/dancexr/features/facial_control
             image: /images/slideshows/physics/921e8f56935161e0e14e15d1dd0addb866f2b735.jpg
       - title: 캐릭터 도구
@@ -95,16 +95,16 @@ feature_sections:
           - title: 배우 메뉴 및 도구
             link: /kr/dancexr/features/actor_tools
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
-          - title: 액터에 첨부하기
+          - title: 액터에 부착
             link: /kr/dancexr/features/attach_to_actor
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
             badge: 2025.2 · PRO
             badge_type: pro
           - title: 발 조정
-            link: /kr/dancexr/features/feet_adjustments
+            link: /kr/dancexr/features/feet_adjustment
             image: /images/slideshows/dressing/90fbb9ac6e412cb83d0fcf3c743bfcd776473261.jpg
-          - title: 스케일 및 오프셋
-            link: /kr/dancexr/features/scale_n_offset
+          - title: "Scale & Offset"
+            link: /kr/dancexr/features/scale_offset
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
           - title: 문제 해결 옵션
             link: /kr/dancexr/features/troubleshooting_options
@@ -233,13 +233,13 @@ feature_sections:
           - title: 소프트바디 물리학
             link: /kr/dancexr/features/physics_softbody
             image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
-          - title: Ragdoll
+          - title: 라그돌
             link: /kr/dancexr/features/ragdoll
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 빛 공
-            link: /kr/dancexr/features/lightball
+          - title: 라이트 볼
+            link: /kr/dancexr/features/light_ball
             image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
             badge: PRO
             badge_type: pro
@@ -272,7 +272,7 @@ feature_sections:
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 감지된 물체
+          - title: 객체 탐지
             link: /kr/dancexr/features/xps_detach
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
   - title: "모션 & 미디어"
@@ -334,7 +334,7 @@ feature_sections:
             image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
             badge: 2026.3
             badge_type: new
-          - title: 모션 설정
+          - title: Motion Settings
             link: /kr/dancexr/features/motion_settings
             image: /images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp
             badge: 2026.2
@@ -348,7 +348,7 @@ feature_sections:
           - title: 리믹스 모션
             link: /kr/dancexr/features/remix
             image: /images/slideshows/motion/Spin%20%5BK__liB93anI%5D.webp
-          - title: 모션 오버라이드
+          - title: 동작 오버라이드
             link: /kr/dancexr/features/motion_override
             image: /images/slideshows/motion/Pole%20Dance%20Test%20%5B4TB8aFRJENI%5D.webp
             badge: PRO
@@ -395,7 +395,7 @@ feature_sections:
             image: /images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp
       - title: "무대 & 소품"
         tiles:
-          - title: 지면
+          - title: 바닥
             link: /kr/dancexr/features/ground
             image: /images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp
           - title: 룸 무대
@@ -444,7 +444,7 @@ feature_sections:
       - title: 카메라 개요
         link: /kr/dancexr/features/camera
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
-      - title: "[프리플라이 카메라]"
+      - title: "[Freefly Cam]"
         link: /kr/dancexr/features/freefly_cam
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
       - title: "[자동 카메라]"
@@ -504,7 +504,7 @@ feature_sections:
           - title: 디스플레이 설정
             link: /kr/dancexr/features/display_settings
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
-          - title: 그래픽 설정
+          - title: 그래픽스
             link: /kr/dancexr/features/graphics
             image: /images/slideshows/render/VRGirl%20Sea%20Breeze%20dance%20%5BvPnmTRJqj8Q%5D.webp
             badge: 2026.2
@@ -532,7 +532,7 @@ feature_sections:
         link: /kr/dancexr/features/sfb_motion
         badge: NSFW
         badge_type: nsfw
-      - title: Sex Motion 3
+      - title: ./motion/proc/sm3
         link: /kr/dancexr/features/sex_motion_3
         badge: NSFW
         badge_type: nsfw

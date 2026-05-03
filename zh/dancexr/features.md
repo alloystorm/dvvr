@@ -55,7 +55,7 @@ feature_sections:
           - title: 标签
             link: /zh/dancexr/features/tagging
             image: /images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp
-          - title: 加载选项
+          - title: 演员选项
             link: /zh/dancexr/features/loader_options
             image: /images/slideshows/load_play/Stellar%20Blade%20Raven%20Sea%20Breeze%20Dance%20%5Bo6mocERvFNk%5D.webp
             badge: 2026.3
@@ -74,7 +74,7 @@ feature_sections:
           - title: XPS骨骼映射器
             link: /zh/dancexr/features/bone_mapper
             image: /images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp
-          - title: PMX物理
+          - title: 物理
             link: /zh/dancexr/features/pmx_physics
             image: /images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp
           - title: PMX 变形目标
@@ -101,10 +101,10 @@ feature_sections:
             badge: 2025.2 · PRO
             badge_type: pro
           - title: 脚部调整
-            link: /zh/dancexr/features/feet_adjustments
+            link: /zh/dancexr/features/feet_adjustment
             image: /images/slideshows/dressing/90fbb9ac6e412cb83d0fcf3c743bfcd776473261.jpg
           - title: 缩放与偏移
-            link: /zh/dancexr/features/scale_n_offset
+            link: /zh/dancexr/features/scale_offset
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
           - title: 故障排除选项
             link: /zh/dancexr/features/troubleshooting_options
@@ -134,7 +134,7 @@ feature_sections:
             image: /images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp
             badge: 2024.3 · PRO
             badge_type: pro
-          - title: 配饰
+          - title: 配件
             link: /zh/dancexr/features/accessory
             image: /images/slideshows/dressing/Marie%20Rose%20Morphing%20Ballet%20Outfit%20-%20Satisfaction%20%5BRgNi-DdEfL0%5D.webp
             badge: PRO
@@ -204,7 +204,7 @@ feature_sections:
     subsections:
       - title: 模拟
         tiles:
-          - title: 物理
+          - title: 物理学
             link: /zh/dancexr/features/physics
             image: /images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp
           - title: 仿真
@@ -233,13 +233,13 @@ feature_sections:
           - title: 柔体物理
             link: /zh/dancexr/features/physics_softbody
             image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
-          - title: 布娃娃
+          - title: 布偶人
             link: /zh/dancexr/features/ragdoll
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 轻球
-            link: /zh/dancexr/features/lightball
+          - title: 光球
+            link: /zh/dancexr/features/light_ball
             image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
             badge: PRO
             badge_type: pro
@@ -272,7 +272,7 @@ feature_sections:
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 检测对象
+          - title: 对象检测
             link: /zh/dancexr/features/xps_detach
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
   - title: 动作与媒体
@@ -334,7 +334,7 @@ feature_sections:
             image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
             badge: 2026.3
             badge_type: new
-          - title: 运动设置
+          - title: 动作设置
             link: /zh/dancexr/features/motion_settings
             image: /images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp
             badge: 2026.2
@@ -444,10 +444,10 @@ feature_sections:
       - title: 摄影机概述
         link: /zh/dancexr/features/camera
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
-      - title: "[自由飞行摄像机]"
+      - title: "[自由飞相机]"
         link: /zh/dancexr/features/freefly_cam
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
-      - title: "[自动摄像机]"
+      - title: "[自动摄影机]"
         link: /zh/dancexr/features/auto_cam
         image: /images/slideshows/camera/What%20does%20it%20feel%20like%20to%20watch%20a%20concert%20while%20standing%20in%20the%20middle%20of%20the%20stage%EF%BC%9F%20%5Beq7XxG_6YLg%5D.webp
       - title: 环轨摄影机
@@ -496,7 +496,7 @@ feature_sections:
             image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
             badge: 2024.1
             badge_type: new
-          - title: 应用设置
+          - title: 应用程序设置
             link: /zh/dancexr/features/application_settings
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
       - title: 图形与显示
@@ -504,7 +504,7 @@ feature_sections:
           - title: 显示设置
             link: /zh/dancexr/features/display_settings
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
-          - title: 图形设置
+          - title: 图形
             link: /zh/dancexr/features/graphics
             image: /images/slideshows/render/VRGirl%20Sea%20Breeze%20dance%20%5BvPnmTRJqj8Q%5D.webp
             badge: 2026.2
@@ -532,7 +532,7 @@ feature_sections:
         link: /zh/dancexr/features/sfb_motion
         badge: NSFW
         badge_type: nsfw
-      - title: Sex Motion 3
+      - title: ./motion/proc/sm3
         link: /zh/dancexr/features/sex_motion_3
         badge: NSFW
         badge_type: nsfw

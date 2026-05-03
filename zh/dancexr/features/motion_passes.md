@@ -1,0 +1,20 @@
+---
+layout: release
+title: 运动通道/运动传递
+locale: zh-CN
+nav_links:
+  - label: 简介
+    url: /zh/dancexr
+  - label: 功能
+    url: /zh/dancexr/features
+  - label: 发布
+    url: /zh/dancexr/releases
+  - label: 下载
+    url: /zh/dancexr/download
+---
+
+# 运动传递
+
+这是一个仅用于调试的面板，允许您选择性地禁用动画角色动画流程中的每个**舞台**。每个开关对应于每帧更新循环中的一个传递：**重置骨骼**、**动画**、**偏移**、**虚拟骨骼**、**形变后更新**、**继承骨骼**、**后变换**和**最终更新**。
+
+禁用传递有助于隔离动画错误或测试单个流程阶段，但在正常使用中关闭它们将产生故障或冻结的姿势。
