@@ -13,46 +13,373 @@ nav_links:
     url: /zh/dancexr/download
 ---
 
+# 服装与身体彩绘
 
-## 概述
-服装效果提供了创意方式来定制角色外观。它允许应用各种服装风格和身体涂装效果，让艺术家为他们的角色创造独特的外观。
+服装功能会在角色皮肤材质上应用一层程序化的布料/绘画层——用于添加长袜、紧身衣、乳胶、六边形细节、自由绘制的身体彩绘，以及溶解过渡效果，且不会触动底层网格或纹理。
 
-## 关键特性
-- 使用光标在角色身体上自由涂抹，动态应用颜色和图案。
-- 载入外部图片作为图案，以创建更复杂的设计。
-- 存储和加载自定义绘画。
-- 使用不同的表面材料创建布料和长袜效果。
-- 程序生成的图案，如六边形和线条。
-- 包含每个表面不同部分的详细配置。
-- 溶解效果用于动态过渡和效果。
 
-## 使用案例
-- 使用各种服装风格和身体涂装选项定制角色外观。
-- 在运行时应用动态材料变化和效果。
-- 创建撕裂或溶解服装的特效。
+## 模式
 
-## 示例用法和教程
+**模式**决定了该层的行为方式。*色彩涂装（Color Paint）*将角色变成一个可供您使用光标直接绘画的画布——选择一个画笔颜色，自由作画。*服装（Outfit）*隐藏了绘画工具，而是从程序化形状/图案设置驱动该层，因此您可以从参数生成干净的长袜或紧身衣。*服装涂装（Outfit Paint）*结合了两者：程序化形状定义了服装区域，您可以在其上进行绘画。面板中的可见性规则在设置了模式后会自动折叠不相关的子部分。
 
-### 身体涂装
-- 启用身体涂装模式
-- 选择画笔大小和颜色
-- 使用鼠标或VR指针在角色的身体上涂画
-- 从菜单加载图案并应用到角色的身体上
-- 保存和加载自定义绘画
 
-### 为角色添加长袜
-- 选择长袜预设
-- 调整形状配置以适应角色的腿部
-    - 更改长袜的高度
-    - 更改长袜顶部的角度
-- 调整表面材料设置以创建逼真的布料效果
-- 可选择施加溶解效果以实现动态过渡
+## 预设
 
-### 程序生成图案
-- 选择其中一种紧身衣预设
-- 调整形状配置以创建不同的图案
-- 调整表面材料设置以创建逼真的布料效果
-- 可选择施加溶解效果以让紧身衣实现动态过渡
+七个内置预设涵盖了常见情况——身体彩绘、全身乳胶、V形渔网、两种长袜变体和两种紧身衣。它们一键设置模式、形状和三个表面预设；请将它们视为可微调的起点，而非最终外观。
 
-## 视频教程
-- [身体涂装教程](https://www.youtube.com/watch?v=chHk9--cUYE)
+
+## 身体涂装
+
+请参阅*身体涂装*子部分。画笔大小、旋转、颜色、图章纹理以及实时保存/加载绘画功能都在此可见。仅在色彩涂装和服装涂装模式下可见。
+
+
+## 形状与图案
+
+请参阅*形状*子部分。控制着服装的程序化几何形状——包括长袜高度、顶部线条、渔网/迷宫/曲线线条图案以及边缘的凹凸效果。在纯色彩涂装模式下隐藏，因为没有可供造型的程序化服装。
+
+
+## 表面材质
+
+三个表面层堆叠在服装上：**表面基础（Surface Base）**是主要的布料（乳胶、长袜、金色等），**表面图案（Surface Pattern）**驱动线条/迷宫图案填充，**表面边缘（Surface Border）**控制形状边缘的饰边。每个都是一个完整的表面块（金属、光泽、颜色、各向异性、溶解、特殊着色器），因此您可以混合使用例如哑光长袜和发光饰边。在色彩涂装模式下隐藏。
+
+
+## 六边形细节
+
+请参阅*六边形贴图*子部分。在表面上添加程序化的六边形/圆形微图案，用于渔网式细节或科幻面板。当您需要光滑布料时，可以切换关闭此功能。
+
+
+## 溶解
+
+**溶解（Dissolve）**是主衰减量（0 – 1），沿溶解贴图使服装逐渐消失——使用自动更新驱动它，以同步音乐或其他数据的撕裂/熔化过渡。*溶解贴图（Dissolve Map）*子部分配置了贴图本身：图案频率、边缘宽度和切口两侧的凹凸变化，以及X/Y偏移和硬性切口开关。在纯色彩涂装模式下隐藏。
+
+# 子组件
+
+## 身体涂装
+
+在角色身体上进行自由绘画。将光标（或VR指针）拖过模型，直接在服装画布上涂上颜色或图案笔触。画布会保留帧间状态，因此您可以随时间积累绘画，将其保存为纹理，并在稍后重新加载。
+
+
+### 画笔
+
+
+**画笔大小（Brush Size）**和**画笔旋转（Brush Rotation）**设置笔触形状；旋转仅在选择图章纹理时才重要。**纹理（Texture）**选择可选图章——设置后，每次点击都会贴一个单个贴花，而不是绘制连续笔触，这对于纹身或标志是正确的选择。**画笔类型（Brush Type）**在*服装涂装*模式下选择您正在绘画的通道（基础/图案/边缘/擦除）；在*色彩涂装*模式下，通道是隐式的，因此此处隐藏。
+
+
+### 颜色、发光与保留
+
+
+**颜色（Color）**是色彩涂装模式下的画笔颜色。**发光（Glow）**乘以绘制颜色的强度（高于1则变为自发光）。**保留颜色（Preserve Color）**调整发光增强，使其放大亮度而不会冲淡颜色的色相——当您想要饱和的霓虹外观而不是漂白明亮外观时很有用。**擦除（Erase）**将画笔切换为清除而不是绘制。
+
+
+### 绘画侧面
+
+
+将笔触限制在身体的*正面*、*背面*或*两面*。当您只想在胸部或只想在背部绘制设计，而无需仔细避开另一侧时，请选择侧面。
+
+
+### 画布操作
+
+
+**清除画布（Clear Canvas）**擦除绘画。**保存绘画（Save Drawing）**将当前的画布写入磁盘，同时保存HDR和PNG格式，以保留完整的色彩/发光范围。**加载绘画（Load Drawing）**选择先前保存的绘画（或库中的任何绘画纹理）作为画布内容。
+
+## 形状
+
+服装层的程序化几何体——定义了服装覆盖身体的区域以及填充的图案。所有内容都在着色器中计算，因此更改是实时的，且不依赖纹理作者。
+
+
+### 长袜与顶部线条
+
+
+服装由最多三条对角线切割界定：一条长袜线（腿部覆盖的底部）和两条顶部线条（躯干上的V领式切割）。每条线都有一个**高度（Height）**（其在中心交叉的位置）和一个**角度（Angle）**（相对于水平线的倾斜）。结合三者可以绘制长袜、V形紧身衣、渔网吊带等。**长袜边缘（Stocking Edge）**和**顶部边缘（Top Edge）**将切割柔化成渐变——小值产生硬边，大值使服装渐变过渡到皮肤。
+
+
+### 线条图案
+
+
+**线条图案类型（Line Pattern Type）**选择填充方式：*无（None）*使区域为实心，*网格（Grid）*平铺渔网，*迷宫（Maze）*和*迷宫曲线（Maze Curve）*生成非重复的迷宫线条，*平行（Parallel）*绘制条纹。**线条图案密度（Line Pattern Density）**设置线条间距，**线条图案旋转（Line Pattern Rotation）**旋转整个图案，**线条图案对称（Line Pattern Symmetric）**使其跨越身体中心对称，确保左右匹配。**线条图案种子（Line Pattern Seed）**在不改变密度的前提下重排随机迷宫。**边框尺寸内/外（Border Size In/Out）**控制线条在其中心两侧的厚度——使用不对称性来暗示缝线或滚边。
+
+
+### 凹凸
+
+
+**内部/外部凹凸（Inside / Outside Bump）**抬高或降低接近线条边缘的表面，**内部/外部距离（Inside / Outside Distance）**控制凹凸的扩散距离。轻微的正凹凸读取为抬高的缝线；负凹凸读取为按压的接缝。
+
+## 六边形贴图
+
+在表面上叠加程序化的六边形（或圆形）微图案，用于渔网、科幻面板或铆钉外观。当您需要光滑布料时，切换关闭此功能。
+
+
+### 密度与形状
+
+
+**密度（Density）**设置了多少个六边形可以适应表面（会吸附到2的幂次上，以实现整洁的平铺）。**大小（Size）**缩放每个六边形在其单元格内的尺寸——小值会在六边形之间留下间隙，大值则将它们紧密排列。**使用圆形（Use Circle）**将六边形形状切换为圆形，适用于波点或铆钉外观。**软边缘（Soft Edge）**控制每个单元格边缘的衰减；接近零的值提供清晰的边界，更大的值则使图案模糊到周围的表面。
+
+
+### 凹凸与噪波
+
+
+**凹凸（Bump）**抬高或降低每个单元格相对于表面的高度（负值会压入内部）。**噪波（Noise）**随机化每个单元格的高度，使图案不会呈现为完美的网格。
+
+
+### UV投影
+
+
+对于服装，单元格可以遵循模型的UV布局，或者从围绕身体的虚拟圆柱体上投影。**UV投影（UV Projection）**启用了圆柱形模式——当拉伸或扭曲的UV破坏了图案时，应开启此功能。**投影半径（Projection Radius）**缩放圆柱体，**旋转（Rotation）**倾斜它，使六边形网格呈对角线而非直线排列。
+
+
+## 溶解贴图
+
+生成驱动父级*溶解（Dissolve）*滑块的噪波贴图。该贴图由两个分层图案和一个边缘轮廓构建，因此根据这些设置，相同的溶解量可以显示为开裂、燃烧、熔化或干净的切割。
+
+
+### 层 1 和 层 2
+
+
+两个独立的噪波层结合在一起破坏溶解的前端。**图案 L1 / L2（Pattern L1 / L2）**选择一种噪波变体（不同的值会产生明显不同的形状）。**密度 L1 / L2（Density L1 / L2）**控制每个层的精细度——L1通常是广阔的形状，L2是小尺度的细节。**放大尺度（Magnify Scale）**放大了两个层，**曲线（Curve）**锐化或柔化溶解渐变。
+
+
+### 边缘
+
+
+服装溶解时，会在切口两侧留下一个过渡带。**边缘大小（Edge Size）**和**边缘凹凸（Edge Bump）**塑造了仍可见侧的带；**反向边缘大小/凹凸（Inverse Edge Size / Bump）**塑造了已溶解侧的带。负凹凸凹陷表面（适用于开裂/烧伤外观）；正凹凸抬高表面。**切口（Cutout）**完全丢弃了已溶解的像素，而不是衰减其透明度——当您希望服装不是渐隐而是逐个孔洞消失时，选择此项。
+
+
+### 偏移
+
+
+**X / Y 偏移（Offset X / Y）**将溶解贴图沿身体移动。通过自动更新对其进行动画处理，使溶解前端扫过一个方向，而不是均匀地出现。
+
+
+## 配置表
+
+<table>
+<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
+<tbody>
+<tr><td>预设</td><td></td><td></td><td></td><td></td><td>
+<b>身体涂装</b>, 全身乳胶, V形渔网, 长袜, 长袜渔网, 紧身衣 1, 紧身衣 2, </td></tr>
+<tr><td><strong>模式</strong></td><td>整数</td><td>0 – 2</td><td>0</td><td></td><td></td></tr>
+<tr><td colspan="6"><details>
+<summary><strong>身体涂装</strong></summary>
+<table><tbody>
+<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
+<tr><td>预设</td><td></td><td></td><td></td><td>
+</td></tr>
+<tr><td><strong>绘画侧面</strong></td><td>整数</td><td>0 – 2</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>纹理</strong></td><td>选项</td><td>[无], [纹身]</td><td>[无]</td><td></td><td></td></tr>
+<tr><td><strong>画笔大小</strong></td><td>浮点数</td><td>0 – 1</td><td>0.2</td><td></td><td></td></tr>
+<tr><td><strong>画笔旋转</strong></td><td>浮点数</td><td>-180 – 180</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>画笔类型</strong></td><td>整数</td><td>0 – 3</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>擦除</strong></td><td>开关</td><td>开 / 关</td><td>关</td><td></td><td></td></tr>
+<tr><td colspan="6"><details>
+<summary><strong>颜色</strong></summary>
+<table><tbody>
+<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
+<tr><td>预设</td><td></td><td></td><td></td><td>
+白色, 黑色, 红色, <b>黄色</b>, 灰色, 蓝色, 皮肤, 肉色, 橙色, </td></tr>
+<tr><td><strong>颜色模式</strong></td><td>整数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>色相</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>饱和度</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>亮度</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>红色</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>绿色</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>蓝色</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+</tbody></table>
+</details></td></tr>
+<tr><td><strong>发光</strong></td><td>浮点数</td><td>0 – 10</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>保留颜色</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>清除画布</strong></td><td>动作</td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong>保存绘画</strong></td><td>动作</td><td></td><td></td><td></td><td></td></tr>
+<tr><td><strong>加载绘画</strong></td><td>选项</td><td>[无]</td><td>[无]</td><td></td><td></td></tr>
+</tbody></table>
+</details></td></tr>
+<tr><td colspan="6"><details>
+<summary><strong>形状与图案</strong></summary>
+<table><tbody>
+<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
+<tr><td>预设</td><td></td><td></td><td></td><td>
+<b>全身</b>, V形, 长袜, 渔网全身, 渔网V形, 渔网长袜, 迷宫 1, 迷宫 2, 曲线 1, 曲线 2, </td></tr>
+<tr><td><strong>顶部高度1</strong></td><td>浮点数</td><td>0 – 3</td><td>3</td><td></td><td>第一条线在中心的高度</td></tr>
+<tr><td><strong>顶部角度1</strong></td><td>浮点数</td><td>-180 – 180</td><td>0</td><td></td><td>第一条线的角度</td></tr>
+<tr><td><strong>顶部高度2</strong></td><td>浮点数</td><td>0 – 3</td><td>3</td><td></td><td>第二条线在中心的高度</td></tr>
+<tr><td><strong>顶部角度2</strong></td><td>浮点数</td><td>-180 – 180</td><td>0</td><td></td><td>第二条线的角度</td></tr>
+<tr><td><strong>顶部边缘</strong></td><td>浮点数</td><td>0 – 0.2</td><td>0.05</td><td></td><td>第一条和第二条线的边缘宽度</td></tr>
+<tr><td><strong>长袜高度</strong></td><td>浮点数</td><td>0 – 3</td><td>1.45</td><td></td><td>长袜线在中心的高度</td></tr>
+<tr><td><strong>长袜角度</strong></td><td>浮点数</td><td>-180 – 180</td><td>0</td><td></td><td>长袜线的角度</td></tr>
+<tr><td><strong>长袜边缘</strong></td><td>浮点数</td><td>0 – 0.2</td><td>0.05</td><td></td><td>长袜线的边缘宽度</td></tr>
+<tr><td><strong>图案类型</strong></td><td>整数</td><td>0 – 4</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>图案对称</strong></td><td>开关</td><td>开 / 关</td><td>关</td><td></td><td></td></tr>
+<tr><td><strong>图案密度</strong></td><td>浮点数</td><td>1 – 50</td><td>5</td><td></td><td></td></tr>
+<tr><td><strong>图案旋转</strong></td><td>浮点数</td><td>0 – 180</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>图案种子</strong></td><td>浮点数</td><td>10 – 50</td><td>10</td><td></td><td></td></tr>
+<tr><td><strong>边框尺寸内</strong></td><td>浮点数</td><td>0 – 1</td><td>0.1</td><td></td><td></td></tr>
+<tr><td><strong>边框尺寸外</strong></td><td>浮点数</td><td>0 – 1</td><td>0.8</td><td></td><td></td></tr>
+<tr><td><strong>外部凹凸</strong></td><td>浮点数</td><td>0 – 1</td><td>0.5</td><td></td><td></td></tr>
+<tr><td><strong>外部距离</strong></td><td>浮点数</td><td>0 – 0.025</td><td>0.01</td><td></td><td></td></tr>
+<tr><td><strong>内部凹凸</strong></td><td>浮点数</td><td>0 – 1</td><td>0.5</td><td></td><td></td></tr>
+<tr><td><strong>内部距离</strong></td><td>浮点数</td><td>0 – 0.1</td><td>0.005</td><td></td><td></td></tr>
+</tbody></table>
+</details></td></tr>
+<tr><td colspan="6"><details>
+<summary><strong>六边形贴图</strong></summary>
+<table><tbody>
+<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
+<tr><td><strong>启用</strong></td><td>开关</td><td>开 / 关</td><td>关</td><td></td><td></td></tr>
+<tr><td>预设</td><td></td><td></td><td></td><td>
+</td></tr>
+<tr><td><strong>密度</strong></td><td>浮点数</td><td>0 – 8</td><td>4</td><td></td><td></td></tr>
+<tr><td><strong>大小</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>凹凸</strong></td><td>浮点数</td><td>-1 – 1</td><td>0.5</td><td></td><td></td></tr>
+<tr><td><strong>噪波</strong></td><td>浮点数</td><td>0 – 1</td><td>0.2</td><td></td><td></td></tr>
+<tr><td><strong>使用圆形</strong></td><td>开关</td><td>开 / 关</td><td>关</td><td></td><td></td></tr>
+<tr><td><strong>软边缘</strong></td><td>浮点数</td><td>0 – 1</td><td>0.1</td><td></td><td></td></tr>
+<tr><td><strong>UV投影</strong></td><td>开关</td><td>开 / 关</td><td>开</td><td></td><td></td></tr>
+<tr><td><strong>投影半径</strong></td><td>浮点数</td><td>0 – 1</td><td>0.2</td><td></td><td></td></tr>
+<tr><td><strong>旋转</strong></td><td>浮点数</td><td>-90 – 90</td><td>0</td><td></td><td></td></tr>
+</tbody></table>
+</details></td></tr>
+<tr><td colspan="6"><details>
+<summary><strong>表面基础</strong></summary>
+<table><tbody>
+<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
+<tr><td>预设</td><td></td><td></td><td></td><td>
+<b>长袜薄</b>, 长袜厚, 白色长袜, 乳胶, 透明乳胶, 银色, 金色, 发光白色, 原始, </td></tr>
+<tr><td><strong>光泽</strong></td><td>浮点数</td><td>0 – 1</td><td>0.5</td><td></td><td></td></tr>
+<tr><td><strong>金属</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>凹凸</strong></td><td>浮点数</td><td>0 – 1</td><td>0.2</td><td></td><td></td></tr>
+<tr><td><strong>发光</strong></td><td>浮点数</td><td>0 – 10</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>环境</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>透明度降低</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>透明度曲线</strong></td><td>浮点数</td><td>-2 – 2</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>剪裁</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td colspan="6"><details>
+<summary><strong>颜色</strong></summary>
+<table><tbody>
+<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
+<tr><td>预设</td><td></td><td></td><td></td><td>
+Original, <b>白色</b>, 黑色, 红色, 黄色, 深灰色, 蓝色, 皮肤, 肉色, 橙色, </td></tr>
+<tr><td><strong>颜色模式</strong></td><td>整数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>色相</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>饱和度</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>亮度</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>红色</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>绿色</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>蓝色</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>混合模式</strong></td><td>选项</td><td>原始, 乘积, 混合, 颜色偏移</td><td>混合</td><td></td><td></td></tr>
+<tr><td><strong>混合</strong></td><td>浮点数</td><td>0 – 1</td><td>0.9</td><td></td><td></td></tr>
+<tr><td><strong>透明度</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+</tbody></table>
+</details></td></tr>
+<tr><td><strong>各向异性</strong></td><td>浮点数</td><td>-1 – 1</td><td>-0.5</td><td></td><td></td></tr>
+<tr><td><strong>长袜效果</strong></td><td>浮点数</td><td>0 – 1</td><td>0.5</td><td></td><td></td></tr>
+<tr><td><strong>长袜渐变</strong></td><td>浮点数</td><td>-3 – 3</td><td>2</td><td></td><td></td></tr>
+<tr><td><strong>细节密度</strong></td><td>浮点数</td><td>0 – 2</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>启用溶解</strong></td><td>开关</td><td>开 / 关</td><td>开</td><td></td><td></td></tr>
+</tbody></table>
+</details></td></tr>
+<tr><td colspan="6"><details>
+<summary><strong>表面图案</strong></summary>
+<table><tbody>
+<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
+<tr><td>预设</td><td></td><td></td><td></td><td>
+<b>长袜薄</b>, 长袜厚, 白色长袜, 乳胶, 透明乳胶, 银色, 金色, 发光白色, 原始, </td></tr>
+<tr><td><strong>光泽</strong></td><td>浮点数</td><td>0 – 1</td><td>0.9</td><td></td><td></td></tr>
+<tr><td><strong>金属</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>凹凸</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>发光</strong></td><td>浮点数</td><td>0 – 10</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>环境</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>透明度降低</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>透明度曲线</strong></td><td>浮点数</td><td>-2 – 2</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>剪裁</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td colspan="6"><details>
+<summary><strong>颜色</strong></summary>
+<table><tbody>
+<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
+<tr><td>预设</td><td></td><td></td><td></td><td>
+Original, <b>白色</b>, 黑色, 红色, 黄色, 深灰色, 蓝色, 皮肤, 肉色, 橙色, </td></tr>
+<tr><td><strong>颜色模式</strong></td><td>整数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>色相</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>饱和度</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>亮度</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>红色</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>绿色</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>蓝色</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>混合模式</strong></td><td>选项</td><td>原始, 乘积, 混合, 颜色偏移</td><td>混合</td><td></td><td></td></tr>
+<tr><td><strong>混合</strong></td><td>浮点数</td><td>0 – 1</td><td>0.8</td><td></td><td></td></tr>
+<tr><td><strong>透明度</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+</tbody></table>
+</details></td></tr>
+<tr><td><strong>各向异性</strong></td><td>浮点数</td><td>-1 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>长袜效果</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>长袜渐变</strong></td><td>浮点数</td><td>-3 – 3</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>细节密度</strong></td><td>浮点数</td><td>0 – 2</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>启用溶解</strong></td><td>开关</td><td>开 / 关</td><td>开</td><td></td><td></td></tr>
+</tbody></table>
+</details></td></tr>
+<tr><td colspan="6"><details>
+<summary><strong>表面边缘</strong></summary>
+<table><tbody>
+<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
+<tr><td>预设</td><td></td><td></td><td></td><td>
+<b>长袜薄</b>, 长袜厚, 白色长袜, 乳胶, 透明乳胶, 银色, 金色, 发光白色, 原始, </td></tr>
+<tr><td><strong>光泽</strong></td><td>浮点数</td><td>0 – 1</td><td>0.5</td><td></td><td></td></tr>
+<tr><td><strong>金属</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>凹凸</strong></td><td>浮点数</td><td>0 – 1</td><td>0.2</td><td></td><td></td></tr>
+<tr><td><strong>发光</strong></td><td>浮点数</td><td>0 – 10</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>环境</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>透明度降低</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>透明度曲线</strong></td><td>浮点数</td><td>-2 – 2</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>剪裁</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td colspan="6"><details>
+<summary><strong>颜色</strong></summary>
+<table><tbody>
+<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
+<tr><td>预设</td><td></td><td></td><td></td><td>
+Original, <b>白色</b>, 黑色, 红色, 黄色, 深灰色, 蓝色, 皮肤, 肉色, 橙色, </td></tr>
+<tr><td><strong>颜色模式</strong></td><td>整数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>色相</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>饱和度</strong></td><td>浮点数</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
+<tr><td><strong>亮度</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>红色</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>绿色</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>蓝色</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>混合模式</strong></td><td>选项</td><td>原始, 乘积, 混合, 颜色偏移</td><td>混合</td><td></td><td></td></tr>
+<tr><td><strong>混合</strong></td><td>浮点数</td><td>0 – 1</td><td>0.9</td><td></td><td></td></tr>
+<tr><td><strong>透明度</strong></td><td>浮点数</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
+</tbody></table>
+</details></td></tr>
+<tr><td><strong>各向异性</strong></td><td>浮点数</td><td>-1 – 1</td><td>-0.5</td><td></td><td></td></tr>
+<tr><td><strong>长袜效果</strong></td><td>浮点数</td><td>0 – 1</td><td>0.5</td><td></td><td></td></tr>
+<tr><td><strong>长袜渐变</strong></td><td>浮点数</td><td>-3 – 3</td><td>2</td><td></td><td></td></tr>
+<tr><td><strong>细节密度</strong></td><td>浮点数</td><td>0 – 2</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>启用溶解</strong></td><td>开关</td><td>开 / 关</td><td>开</td><td></td><td></td></tr>
+</tbody></table>
+</details></td></tr>
+<tr><td colspan="6"><details>
+<summary><strong>溶解</strong></summary>
+<table><tbody>
+<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
+<tr><td colspan="6"><details>
+<summary><strong>溶解贴图</strong></summary>
+<table><tbody>
+<thead><tr><th>设置</th><th>类型</th><th>范围 / 值</th><th>默认</th><th>条件</th><th>描述</th></tr></thead>
+<tr><td>预设</td><td></td><td></td><td></td><td>
+</td></tr>
+<tr><td><strong>图案 L1</strong></td><td>浮点数</td><td>0 – 90</td><td>13</td><td></td><td>更改溶解贴图时使用的第 1 层图案</td></tr>
+<tr><td><strong>密度 L1</strong></td><td>浮点数</td><td>1 – 10</td><td>3.5</td><td></td><td>第 1 层图案的密度</td></tr>
+<tr><td><strong>图案 L2</strong></td><td>浮点数</td><td>0 – 90</td><td>31</td><td></td><td>更改溶解贴图时使用的第 2 层图案</td></tr>
+<tr><td><strong>密度 L2</strong></td><td>浮点数</td><td>10 – 100</td><td>50</td><td></td><td>第 2 层图案的密度</td></tr>
+<tr><td><strong>放大尺度</strong></td><td>浮点数</td><td>0 – 2</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>曲线</strong></td><td>浮点数</td><td>0 – 2</td><td>1</td><td></td><td></td></tr>
+<tr><td><strong>边缘大小</strong></td><td>浮点数</td><td>0 – 0.2</td><td>0.05</td><td></td><td>正区域的边缘宽度</td></tr>
+<tr><td><strong>边缘凹凸</strong></td><td>浮点数</td><td>-1 – 1</td><td>-1</td><td></td><td>边缘区域的凹凸效果</td></tr>
+<tr><td><strong>反向边缘大小</strong></td><td>浮点数</td><td>0 – 0.2</td><td>0.05</td><td></td><td>负区域的边缘宽度</td></tr>
+<tr><td><strong>反向边缘凹凸</strong></td><td>浮点数</td><td>-1 – 1</td><td>-1</td><td></td><td>边缘区域的凹凸效果</td></tr>
+<tr><td><strong>X 偏移</strong></td><td>浮点数</td><td>-1 – 1</td><td>0</td><td></td><td>沿 X 方向偏移溶解贴图</td></tr>
+<tr><td><strong>Y 偏移</strong></td><td>浮点数</td><td>-1 – 1</td><td>0</td><td></td><td>沿 Y 方向偏移溶解贴图</td></tr>
+<tr><td><strong>切口</strong></td><td>开关</td><td>开 / 关</td><td>关</td><td></td><td>使溶解区域不可见</td></tr>
+</tbody></table>
+</details></td></tr>
+<tr><td><strong>手动选择</strong></td><td>开关</td><td>开 / 关</td><td>关</td><td></td><td></td></tr>
+<tr><td><strong>选择材质</strong></td><td>选择器</td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
