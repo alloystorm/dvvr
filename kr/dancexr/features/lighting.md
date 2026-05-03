@@ -13,39 +13,199 @@ nav_links:
     url: /kr/dancexr/download
 ---
 
-## 💡 Key Concepts Summary
+# 조명
 
-This document covers advanced lighting and camera settings, focusing on controlling the overall look of the scene, ranging from basic environmental lighting to complex lens effects.
+장면의 모든 조명(방향성 태양광, 최대 세 개의 독립적인 조명 그룹, 전역 밝기 제어)을 제어합니다.
 
----
+내장 프리셋은 한 번의 탭으로 전체 작동하는 모습을 구현하며, 모든 매개변수는 이후 자유롭게 조정할 수 있습니다.
 
-### ☀️ Environment & Color Control
 
-*   **Sun:** Controls the main light source, affecting the scene's overall brightness and shadow direction.
-*   **Sky:** Defines the ambient background light and color gradient.
-*   **Volumetric Fog:** Adds atmospheric haze, enhancing depth and mood.
-*   **Color Temperature:** Allows fine-tuning of the overall warmth or coolness of the scene's light.
+## 프리셋
 
-### 📸 Camera & Lens Effects
+내장 프리셋(*일몰*, *주광*, *창문*, *무대*, *프로젝터* 등)은 단 한 번의 탭으로 완벽한 조명 설정을 확립합니다. 가장 유사한 프리셋을 적용한 후 개별 그룹을 조정하세요.
 
-*   **Depth of Field (DOF):** Simulates real-world camera lens blurring.
-    *   **Focus Distance:** Determines what plane in the scene is sharpest.
-    *   **F-Stop (Aperture):** Controls the *amount* of blur (low F-Stop = more blur).
-    *   **Aperture Limit:** Sets the minimum blur.
-*   **Chromatic Aberration:** Simulates lens imperfection, causing color fringing (often used for an antique or stylized look).
-*   **Lens Distortion:** Mimics real lenses that warp the edges of the image (e.g., fish-eye or barrel distortion).
 
-### ⚙️ Post-Processing Effects (The "Looks")
+## 전체 강도 및 하늘 주변광
 
-*   **Bloom:** Creates a soft, glowing halo around bright areas, simulating over-exposed light sources.
-*   **Vignette:** Darkens the corners of the frame, directing the viewer's focus to the center.
-*   **Film Grain:** Adds randomized noise to mimic the texture of physical film.
+**전체 강도**는 모든 조명 그룹과 태양광을 함께 조정하며, 하나의 슬라이더로 전체 장면 밝기를 높이거나 낮출 수 있게 합니다. **하늘 주변광**은 간접 하늘광을 제어하며, 이를 높이면 그림자 영역이 밝아지고 거친 대비가 줄어들어 특히 야외 장면에서 효과적입니다.
 
----
 
-### 📝 Key Takeaways for Artists:
+## 태양광
 
-1.  **DOF is crucial for focus:** Use it to guide the viewer's eye.
-2.  **Bloom adds magic:** Use it sparingly to enhance glowing elements.
-3.  **Don't overuse the effects:** Over-applying these effects can make the scene look artificial.
-4.  **Balance the light:** Ensure the sun and ambient light work together to create believable shadows and highlights.
+**천체(Celestial)** 하위 섹션은 방향성 태양광(HDRP의 경우 달)을 제어합니다. 시간, 방향, 황도 경사는 태양이 하늘의 어느 위치에 있는지, 그리고 그로 인해 발생하는 그림자 방향을 결정합니다.
+
+
+## 추가 조명 그룹
+
+**추가 1**, **2**, 및 **3**은 독립적이며 완전히 구성 가능한 조명 그룹이며, 일반적으로 키(key), 채움(fill), 그리고 림(rim) 조명으로 사용됩니다. 각 그룹은 스포트라이트, 포인트 라이트, 영역 라이트 또는 프로젝터일 수 있으며, 액터를 동적으로 추적할 수 있습니다.
+
+
+## 안개
+
+카메라와 장면 사이에 깊이 있는 헤이즈를 추가합니다. 낮은 값은 미묘한 대기적 신호(cue)를 제공하며, 높은 값은 분위기를 극적으로 변화시킬 수 있습니다. 안개는 드라마틱한 빔 효과를 위해 볼륨 조명 콘과 상호 작용합니다.
+
+
+## 조명 및 그림자 제한
+
+**조명 제한**은 동시에 렌더링되는 활성 조명의 수를 제한합니다. **그림자 제한**은 그림자를 드리우는 하위 집합을 제한합니다. 그림자는 리소스를 많이 사용하므로, 성능이 더 허용한다면 그렇지 않더라도 이 값을 낮게 유지하십시오 (1~4).
+
+
+## 할당(Allocation)
+
+조명 그룹이 *액터 추적(Follow Actor)* 또는 *거리 유지(Maintain Distance)* 역학을 사용할 때, **할당**은 여러 댄서에게 조명이 어떻게 분배되는지 제어합니다. *거리별(By Distance)*은 자연스러운 모습을 위해 전체 이동을 최소화하고; *인덱스별 (고정)(By Index (Fixed))*은 조명을 특정 액터 슬롯에 고정합니다. **새로고침 간격(Refresh Interval)**은 재할당 사이에 지나가는 비트 수를 설정합니다.
+
+# 하위 구성 요소
+
+## 태양광
+
+방향성 태양광(그리고 HDRP의 경우 달과 밤하늘)을 제어합니다. 태양의 위치는 시간, 방향, 황도 경사에 의해 정의되며, 그림자 방향과 하늘 색상에 대한 완벽한 창의적 제어 기능을 제공합니다.
+
+
+### 태양 위치
+
+
+**시간(Time Of Day)**은 태양을 시간(0~24)에 따라 궤적을 이동시킵니다.
+
+**방향(Orientation)**은 태양이 뜨는 나침반 방향을 설정합니다.
+
+**황도 경사각(Ecliptic Angle)**은 공전면을 기울입니다. 이는 정밀한 태양 추적 없이 특정 장소나 계절과 일치시키는 데 유용합니다.
+
+
+### 강도 및 색상
+
+
+**태양광 강도**와 **색상 온도**는 방향성 조명의 원시 밝기와 따뜻함을 제어합니다. 태양광은 매우 강력하므로, 이것이 활성화된 장면은 번아웃을 피하기 위해 일반적으로 더 높은 노출이나 낮은 전체 강도를 필요로 합니다.
+
+
+### 달 및 밤하늘 (HDRP)
+
+HDRP에서는 동일한 하위 섹션이 달의 위치, 위상 및 지구의 빛, 그리고 별과 오로라의 밝기를 제어합니다. 밤 장면을 위해서는 태양광을 비활성화하고 달빛 강도를 높이십시오.
+
+
+### 창문 효과
+
+**창문(Window)** 하위 섹션은 창문 유리를 통해 흐르는 빛을 시뮬레이션하는 직사각형 그림자 격자를 투사합니다. 가상의 방 내부 공간에 맞게 너비, 높이, 행, 열을 조정하세요. *스카이 라이트(Sky Light)* 옵션은 그림자를 보완하기 위해 같은 방향에서 부드러운 채움광을 추가합니다.
+
+## 추가 1
+
+장면 또는 액터에 상대적으로 위치한 하나 이상의 조명으로 구성 가능한 그룹입니다. 조명 설정에는 세 개의 그룹이 있으며, 일반적으로 키, 채움, 림 조명으로 사용되지만, 각각은 이 하위 섹션을 통해 동일하게 구성됩니다.
+
+
+### 유형 및 쿠키
+
+**유형(Type)**은 조명 모양을 선택합니다: 스포트라이트, 포인트, 영역, 피라미드, 또는 상자 프로젝터. **쿠키(Cookie)**는 빔을 통과하는 패턴을 투사합니다 (창문, 블라인드, 스팟, 튜브, 비디오). **방출기 반경(Emitter Radius)**을 설정하여 콘 또는 쿠키 가장자리를 부드럽게 하고, **가시성(Visible)**을 설정하여 렌더링에서 조명 자체의 밝기를 제어합니다.
+
+
+### 위치 및 방향
+
+**거리(Distance)**와 **높이(Height)**는 조명을 목표물에 상대적으로 배치합니다. **각도(Angle)**는 그것을 아래로 기울이고, **방향(Orientation)**은 수직축을 중심으로 회전시킵니다. 스포트라이트 유형의 경우, **크기 X / Y(Size X / Y)**는 빔의 단면을 넓히고; **콘 길이(Cone Length)**는 볼륨 산란 깊이를 제어합니다.
+
+
+### 동적 제어(Dynamics)
+
+**동적 제어**는 조명이 고정되는지(*정지(Stationary)*), 할당된 액터를 공전하는지(*액터 추적(Follow Actor)* / *액터 뒤(Behind Actor)*), 또는 설정된 반경에서 따라가는지(*거리 유지(Maintain Distance)*)를 결정합니다. **액터 위치 사용(Use Actor Position)**을 활성화하면 액터가 바라보는 방향을 기준으로 조명을 배치할 수 있습니다. 액터 할당은 상위 조명 패널의 할당 설정에서 처리됩니다.
+
+
+### 반복(Array)
+
+**반복(Repeat)** 하위 섹션은 조명을 배열로 곱합니다. 무대 빔 링에는 *원형(Circle)* 구성을, 천장 리그에는 *격자(Grid)* 구성을 선택하십시오. *4x 팬* 또는 *8x 원형*과 같은 프리셋은 한 단계로 배열을 설정합니다.
+
+
+### 현수(Suspension)
+
+**현수**를 활성화하면 조명을 가상 리깅 지점에서 매달아 느린 진자 운동을 할 수 있습니다. **분할(Segments)**은 케이블 관절 수를, **현수 거리(Suspension Distance)**는 드롭 길이를, **스윙 속도(Swing Speed)**는 진자 곡선을 얼마나 적극적으로 유지하는지를 설정합니다.
+
+
+### 그림자
+
+각 그룹은 독립적인 그림자 제어를 가집니다. 모드를 기본값으로 두면 전역 장면 품질을 상속받고, 이를 재정의하면 이 그룹에 광선 추적 또는 화면 공간 그림자를 강제합니다. **그림자 디머(Shadow Dimmer)**는 그림자를 완전히 비활성화하지 않으면서 부드럽게 만듭니다.
+
+
+## 추가 2
+
+장면 또는 액터에 상대적으로 위치한 하나 이상의 조명으로 구성 가능한 그룹입니다. 조명 설정에는 세 개의 그룹이 있으며, 일반적으로 키, 채움, 림 조명으로 사용되지만, 각각은 이 하위 섹션을 통해 동일하게 구성됩니다.
+
+
+### 유형 및 쿠키
+
+**유형(Type)**은 조명 모양을 선택합니다: 스포트라이트, 포인트, 영역, 피라미드, 또는 상자 프로젝터. **쿠키(Cookie)**는 빔을 통과하는 패턴을 투사합니다 (창문, 블라인드, 스팟, 튜브, 비디오). **방출기 반경(Emitter Radius)**을 설정하여 콘 또는 쿠키 가장자리를 부드럽게 하고, **가시성(Visible)**을 설정하여 렌더링에서 조명 자체의 밝기를 제어합니다.
+
+
+### 위치 및 방향
+
+**거리(Distance)**와 **높이(Height)**는 조명을 목표물에 상대적으로 배치합니다. **각도(Angle)**는 그것을 아래로 기울이고, **방향(Orientation)**은 수직축을 중심으로 회전시킵니다. 스포트라이트 유형의 경우, **크기 X / Y(Size X / Y)**는 빔의 단면을 넓히고; **콘 길이(Cone Length)**는 볼륨 산란 깊이를 제어합니다.
+
+
+### 동적 제어(Dynamics)
+
+**동적 제어**는 조명이 고정되는지(*정지(Stationary)*), 할당된 액터를 공전하는지(*액터 추적(Follow Actor)* / *액터 뒤(Behind Actor)*), 또는 설정된 반경에서 따라가는지(*거리 유지(Maintain Distance)*)를 결정합니다. **액터 위치 사용(Use Actor Position)**을 활성화하면 액터가 바라보는 방향을 기준으로 조명을 배치할 수 있습니다. 액터 할당은 상위 조명 패널의 할당 설정에서 처리됩니다.
+
+
+### 반복(Array)
+
+**반복(Repeat)** 하위 섹션은 조명을 배열로 곱합니다. 무대 빔 링에는 *원형(Circle)* 구성을, 천장 리그에는 *격자(Grid)* 구성을 선택하십시오. *4x 팬* 또는 *8x 원형*과 같은 프리셋은 한 단계로 배열을 설정합니다.
+
+
+### 현수(Suspension)
+
+**현수**를 활성화하면 조명을 가상 리깅 지점에서 매달아 느린 진자 운동을 할 수 있습니다. **분할(Segments)**은 케이블 관절 수를, **현수 거리(Suspension Distance)**는 드롭 길이를, **스윙 속도(Swing Speed)**는 진자 곡선을 얼마나 적극적으로 유지하는지를 설정합니다.
+
+
+### 그림자
+
+각 그룹은 독립적인 그림자 제어를 가집니다. 모드를 기본값으로 두면 전역 장면 품질을 상속받고, 이를 재정의하면 이 그룹에 광선 추적 또는 화면 공간 그림자를 강제합니다. **그림자 디머(Shadow Dimmer)**는 그림자를 완전히 비활성화하지 않으면서 부드럽게 만듭니다.
+
+
+## 추가 3
+
+장면 또는 액터에 상대적으로 위치한 하나 이상의 조명으로 구성 가능한 그룹입니다. 조명 설정에는 세 개의 그룹이 있으며, 일반적으로 키, 채움, 림 조명으로 사용되지만, 각각은 이 하위 섹션을 통해 동일하게 구성됩니다.
+
+
+### 유형 및 쿠키
+
+**유형(Type)**은 조명 모양을 선택합니다: 스포트라이트, 포인트, 영역, 피라미드, 또는 상자 프로젝터. **쿠키(Cookie)**는 빔을 통과하는 패턴을 투사합니다 (창문, 블라인드, 스팟, 튜브, 비디오). **방출기 반경(Emitter Radius)**을 설정하여 콘 또는 쿠키 가장자리를 부드럽게 하고, **가시성(Visible)**을 설정하여 렌더링에서 조명 자체의 밝기를 제어합니다.
+
+
+### 위치 및 방향
+
+**거리(Distance)**와 **높이(Height)**는 조명을 목표물에 상대적으로 배치합니다. **각도(Angle)**는 그것을 아래로 기울이고, **방향(Orientation)**은 수직축을 중심으로 회전시킵니다. 스포트라이트 유형의 경우, **크기 X / Y(Size X / Y)**는 빔의 단면을 넓히고; **콘 길이(Cone Length)**는 볼륨 산란 깊이를 제어합니다.
+
+
+### 동적 제어(Dynamics)
+
+**동적 제어**는 조명이 고정되는지(*정지(Stationary)*), 할당된 액터를 공전하는지(*액터 추적(Follow Actor)* / *액터 뒤(Behind Actor)*), 또는 설정된 반경에서 따라가는지(*거리 유지(Maintain Distance)*)를 결정합니다. **액터 위치 사용(Use Actor Position)**을 활성화하면 액터가 바라보는 방향을 기준으로 조명을 배치할 수 있습니다. 액터 할당은 상위 조명 패널의 할당 설정에서 처리됩니다.
+
+
+### 반복(Array)
+
+**반복(Repeat)** 하위 섹션은 조명을 배열로 곱합니다. 무대 빔 링에는 *원형(Circle)* 구성을, 천장 리그에는 *격자(Grid)* 구성을 선택하십시오. *4x 팬* 또는 *8x 원형*과 같은 프리셋은 한 단계로 배열을 설정합니다.
+
+
+### 현수(Suspension)
+
+**현수**를 활성화하면 조명을 가상 리깅 지점에서 매달아 느린 진자 운동을 할 수 있습니다. **분할(Segments)**은 케이블 관절 수를, **현수 거리(Suspension Distance)**는 드롭 길이를, **스윙 속도(Swing Speed)**는 진자 곡선을 얼마나 적극적으로 유지하는지를 설정합니다.
+
+
+### 그림자
+
+각 그룹은 독립적인 그림자 제어를 가집니다. 모드를 기본값으로 두면 전역 장면 품질을 상속받고, 이를 재정의하면 이 그룹에 광선 추적 또는 화면 공간 그림자를 강제합니다. **그림자 디머(Shadow Dimmer)**는 그림자를 완전히 비활성화하지 않으면서 부드럽게 만듭니다.
+
+
+## 자동 노출(Auto Exposure)
+
+HDRP의 자동 노출 설정으로, 카메라가 장면 밝기 변화에 어떻게 적응하는지 제어합니다. 비활성화되면 카메라는 전역 디밍 슬라이더로 구동되는 고정 노출을 사용하며, 활성화되면 장면 휘도(luminance)를 기반으로 지속적으로 조정합니다.
+
+
+### 계측 모드(Metering Mode)
+
+밝기를 측정하는 프레임의 어느 부분이 샘플링되는지 결정합니다. *평균(Average)*은 전체 프레임을 균일하게 읽고; *스팟(Spot)*은 중앙만 읽으며; *중앙 가중치(Center Weighted)*는 주변부를 포함하면서 중앙을 강조합니다. 밝은 배경이 피사체가 너무 어둡게 보이게 할 수 있는 경우 *스팟* 또는 *중앙 가중치*를 사용하십시오.
+
+
+### 보정 및 범위(Compensation & Range)
+
+**보정(Compensation)**은 목표 노출을 EV 단위로 올리거나 내립니다. **범위(Range)**는 허용되는 최소 및 최대 노출 값을 클램프하여, 카메라가 검은 장면에서 너무 어두워지거나 번아웃된 환경에서 너무 밝아지는 것을 방지합니다.
+
+
+### 적응(Adaptation)
+
+조명 조건이 변화할 때 노출이 얼마나 빠르게 변하는지 제어합니다. *정상(Normal)*은 점진적이고 영화 같은 반응을 제공하며; *빠름(Fast)*은 갑작스러운 변화에 빠르게 반응하고; *즉시(Instant)*는 지연 없이 새로운 노출에 즉시 맞춰집니다.

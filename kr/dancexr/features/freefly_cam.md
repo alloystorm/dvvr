@@ -31,4 +31,4 @@ nav_links:
 
 ## Presets
 
-사전 설정된 네 가지 프리셋이 일반적인 구성을 포괄합니다: *Freefly* (완전 수동 제어), *Lock On Actor* (확대/축소 없이 추적), *Lock + Zoom Fullbody*, 그리고 *Lock + Zoom Upper Body* (몸통에 대한 더 타이트한 프레이밍).
+네 가지 내장 프리셋이 일반적인 구성을 포괄합니다: *Freefly* (완전 수동 제어), *Lock On Actor* (확대/축소 없는 추적), *Lock + Zoom Fullbody*, 그리고 *Lock + Zoom Upper Body* (몸통에 대한 더 타이트한 프레이밍).

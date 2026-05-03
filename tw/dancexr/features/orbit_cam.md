@@ -1,6 +1,6 @@
 ---
 layout: release
-title: [環繞攝影機]
+title: [繞軸攝影機]
 locale: zh-TW
 nav_links:
   - label: 簡介

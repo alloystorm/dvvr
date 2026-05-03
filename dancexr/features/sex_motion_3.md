@@ -1,6 +1,6 @@
 ---
 layout: release
-title: "./motion/proc/sm3"
+title: "[Sex Motion 3]"
 locale: en-rUS
 nav_links:
   - label: Intro
@@ -13,7 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
-# ./motion/proc/sm3
+# [Sex Motion 3]
 
 Procedural paired sex motion for a female and male actor. The
 female side generates the sway, thrust timing, contact frame,

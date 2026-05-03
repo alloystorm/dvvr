@@ -12,16 +12,14 @@ def get_latest_commit_info(file_path):
         return result.stdout.strip()
     return ""
 
-def get_content_line_count(file_path):
-    """Count non-empty content lines, excluding front matter and language links."""
+def get_header_count(file_path):
+    """Count Markdown headers (# ## ### etc.), excluding front matter."""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
         # Strip front matter
         content = re.sub(r'^---.*?---\s*', '', content, flags=re.DOTALL)
-        # Strip language links line (line with multiple locale links)
-        content = re.sub(r'^\[.+\]\(.+\)(\s*\|\s*\[.+\]\(.+\))+\s*$', '', content, flags=re.MULTILINE)
-        return sum(1 for line in content.splitlines() if line.strip())
+        return sum(1 for line in content.splitlines() if re.match(r'^#{1,6}\s', line))
     except Exception:
         return 0
 
@@ -47,11 +45,11 @@ def check_translation_status(file_path, prefix):
     if commit_date_original > commit_date_translated:
         return True, "outdated"
 
-    # Line count comparison: flag if translation has <75% of source content lines
-    src_lines = get_content_line_count(file_path)
-    dst_lines = get_content_line_count(dst_file_path)
-    if src_lines > 5 and dst_lines < src_lines * 0.75:
-        return True, f"line_count ({src_lines} src vs {dst_lines} dst)"
+    # Header count comparison: flag if translation has fewer headers than source
+    src_headers = get_header_count(file_path)
+    dst_headers = get_header_count(dst_file_path)
+    if src_headers > 0 and dst_headers < src_headers:
+        return True, f"header_count ({src_headers} src vs {dst_headers} dst)"
 
     return False, ""
 

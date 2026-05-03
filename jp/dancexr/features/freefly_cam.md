@@ -1,6 +1,6 @@
 ---
 layout: release
-title: [フリーフライカメラ]
+title: [Freefly Cam]
 locale: ja-JP
 nav_links:
   - label: イントロ

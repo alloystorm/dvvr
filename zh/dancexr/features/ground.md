@@ -13,76 +13,70 @@ nav_links:
     url: /zh/dancexr/download
 ---
 
-Here is a summary and breakdown of the provided technical documentation, organized for clarity:
+# 地面
 
-## Overview
+控制场景所在的地板和周围的舞台——包括地面表面、程序化舞台和泳池几何体，以及（在HDRP上）水体系统。一组预设**场景包**将这些子功能打包成一键式外观，例如*木材*、*舞台*、*泳池*、*海洋*和*音频可视化*。
 
-This documentation describes the functionality of several interactive, modular elements: **the main surface/ground plane**, **the stage/riser area**, and **a system for environment/liquid elements**. The system uses various controls to define the appearance and interaction of these parts.
+## 地面高度
 
----
+舞台中心的垂直偏移量，单位为米。使用此功能将地板对齐到追踪的表演区域或拍摄场景，以确保舞者不会陷进地面或漂浮在地面上方。其他锚点（如灯光、附着在舞台上的摄影机）也会跟随此偏移量。
 
-## I. Key Components & Controls
+## 地面设置
 
-### 1. Main Surface / Ground Plane (The Floor)
-This component is the foundational surface.
+定义地板本身的一个子分组——包括其表面材质、半径和舞台感知的可见性。有关详细信息，请参阅下方的*地面*分组。
 
-* **Function:** Defines the general ground material.
-* **Controls:** None explicitly mentioned, but its appearance is fundamental to the scene.
+## 舞台几何体
 
-### 2. Stage / Riser Area
-This element elevates or defines a separate performance space.
+程序化舞台、跑道、墙壁和环绕地面的内池区。有关详细信息，请参阅下方的*舞台/泳池*分组。舞台几何体与地面圆盘组合使用——两者可以同时可见。
 
-* **Function:** Adds elevation to the stage.
-* **Controls:** Controls height and material of the stage.
+## 水体（HDRP）
 
-### 3. Water / Liquid Elements
-This system manages water bodies or other liquid interactions.
+仅限HDRP的水体表面，锚定在舞台中心，用于海洋和泳池预设。有关详细信息，请参阅下方的*水体系统*分组。每当舞台几何体更改时都会重新应用，确保水体能跟随泳池内区。在 URP 上不可用——此时水体着色器全局参数将被清除。
 
-* **Function:** Controls the look and interaction of water.
-* **Controls:** Controls the visibility and interaction of water.
+## 预设
 
----
+预设列表将子功能组合成命名外观。选择一个预设即可一步式地开启或关闭地面、选择地板表面，并选择舞台几何体和水体变体。预设是快速切换普通地板、跑道舞台、泳池、海洋、音频可视化地板、投影屏幕或 LED 箱的最佳方式。
 
-## II. Core Interaction Logic
+# 子组件
 
-The system utilizes several mechanisms to control transitions and physical properties, including:
+## 地面
 
-* **Transition/Blending:** Controls how materials blend between the main surface and the stage.
-* **Elevation:** Determines the vertical position of the stage relative to the ground.
-* **Containment/Interaction:** Defines how water interacts with the structural elements.
+场景放置的平坦地面圆盘。关闭此功能会完全隐藏地面（当舞台道具或 AR *透明度*接管时非常有用）。**半径**设置圆盘的大小——对于户外外观，需要足够大以填满可见的地平线；对于更紧凑的室内场景，则尺寸较小。**如果舞台存在则隐藏**会在加载了具有 *舞台* 目的的舞者时自动抑制地面，以防止物理舞台模型堆叠在程序化圆盘上。**表面**子分组选择地板材质——纹理地砖、天顶投影穹顶或纯色——并与其父级的预设**场景包**列表共享。
 
----
+## 舞台 / 泳池
 
-## III. Detailed Control Breakdown (Assumed Parameters)
+从跑道板和可选的外部墙壁、内池区和后墙构建的程序化舞台——用于跑道、泳池、房间、投影屏幕和 LED 箱。内置预设涵盖了常见的形状；下方的字段允许您对其进行调整。
 
-The structure of the documentation suggests controls for materials, colors, and visibility for these components.
+### 位置
 
-### A. Materials & Appearance
-*(Not explicitly detailed, but implied for all components)*
+**抬升**将舞台抬离地面或将其沉入地下；负的抬升值会在地面圆盘上挖出孔，以便内池区能够蓄水。**前后偏移**沿 Z 轴前后移动整个舞台，对于与追踪的表演区域对齐非常有用。
 
-* **Global Control:** Ability to select or adjust materials across the entire scene.
+### 几何体
 
-### B. Water Interaction
-*(Suggests parameters for realism and look)*
+**几何体**子分组控制板的尺寸。**中心宽度** / **中心深度** 定义主要的矩形；**侧面** / **前面** / **背面延伸**则在其外增加跑道部分。**墙壁高度**和**墙壁厚度**控制环绕的边缘——将墙壁高度设置为 0 可实现与地面平齐的平台。**背面高度**提升舞台后方垂直的板材，用于背景板和投影屏幕。**浮动**将板材从地面几何体上分离，使其能够在水面上放置而不会发生 Z 轴交战。
 
-* **Water Visibility:** Ability to show or hide the water.
-* **Water Material:** Controls the appearance of the liquid.
-* **Water Interaction:** Defines how the water behaves (e.g., splashing, depth, reflections).
+### 表面
 
-### C. Technical Parameters
-* **<Unassigned>:** (A place-holder for advanced physical properties, such as physics simulation parameters.)
-* **<Unassigned>:** (Another place-holder for advanced physical properties.)
+三个独立的地面表面——*顶部*、*侧面*和*背景*——每个都有自己独特的纹理、铺设和颜色。这使得舞台顶部、环绕边缘和背板可以呈现为不同的材质（例如，木制顶部配金属侧面）。
 
----
+### 定制孔洞
 
-## IV. Summary Table
+默认情况下，挖出的孔洞会遵循舞台的轮廓。切换**自定义孔洞**可以明确使用 **左** / **右** / **前面** / **背面** / **顶部** / **底部** 的值覆盖边界——这对于非矩形切割或将孔洞与导入的场景对齐非常方便。
 
-| Feature | Description | Key Function |
-| :--- | :--- | :--- |
-| **Ground Plane** | The base surface material. | Establishes the environment base. |
-| **Stage/Riser** | Elevated platform area. | Defines performance space boundaries. |
-| **Water/Liquid** | Dynamic liquid simulation. | Handles water physics and appearance. |
-| **Transitions** | Blending between the two surfaces. | Ensures smooth material changes. |
-| **Technical Logic** | Unspecified advanced controls. | Allows fine-tuning of physics/materials. |
+## 水体系统
 
-**In essence, this is a complex rigging/asset description for a stage setup, allowing artists to define materials, height, and water interaction for a performance environment.**
+锚定在舞台中心的 HDRP 水体表面。仅限专业版。用于坐落在舞台内池区的泳池、静湖和无限海洋。预设将常见的外观打包在一起。
+
+### 类型和高度
+
+**类型**选择水体几何体。*泳池*的尺寸会匹配舞台的跑道尺寸，当舞台挖有内池区时，这是最佳选择。*河流*是一个覆盖地面圆盘的有限四边形。*海洋*是无限的——用于填满地平线，不受舞台限制。
+
+**高度**是相对于舞台中心的水平面。负值会将水体放置在地板下方（匹配由负的舞台 *抬升* 挖出的池区）。
+
+### 波浪
+
+**涟漪**驱动小型风浪——对于平静的水面，请将其保持较低。**大浪**驱动定义海洋外观的广阔涌浪；将其设置为 0 可获得像玻璃一样平静的表面。**波浪范围**控制水体效果向上到达接触水面的材质的高度。
+
+### 光学属性
+
+**吸收距离**是从上方看到水体能透视的深度；如果水体浑浊，请将其降低；如果水体清澈，请提高。**吸收倍率**在从水下观察时，会按比例缩放该距离。**折射最大距离**限制了水下的折射深度——更高的值会夸大扭曲。**焦散**设置了投射到水下几何体上的焦散图案的亮度。

@@ -15,11 +15,11 @@ nav_links:
 
 # ./motion/proc/sm3
 
-为男女角色的程序化成对性动作系统。女性侧负责生成摇摆、抽插节奏、接触框架和兴奋状态；男性侧绑定到该接触框架上，从而避免两人独立动画相互漂移，使整个配对保持锁定状态。
+用于男女角色的程序化成对性动作系统。女性侧负责生成摇摆、抽插节奏、接触框架和兴奋状态；男性侧绑定到该接触框架上，从而避免两人独立动画相互漂移，使整个配对保持锁定状态。
 
 ## Sway and Thrust
 
-**Sway Motion** 用于塑造叠加在循环之上的上半身摇摆风格，而 **Sex Motion** 则控制着抽插节奏、移动距离和速度反馈。可将前者理解为视觉风格，将后者理解为驱动其下方的机械层。摇摆幅度越大，能更好地表现出重量感，但如果其相对于抽插周期过大，配对看起来就会松散而不是物理连接的。
+**Sway Motion** 用于塑造叠加在循环之上的上半身摇摆风格，而 **Sex Motion** 则控制着抽插节奏、移动距离和速度反馈。可将前者理解为视觉风格，将后者理解为机械驱动层。摇摆幅度越大，能更好地表现出重量感，但如果其相对于抽插周期过大，配对看起来就会松散而不是物理连接的。
 
 ## Contact and Reaction
 
@@ -31,7 +31,8 @@ nav_links:
 
 **Orgasm** 模块增加了第二层，可以加速动作、混合姿势，并驱动抖动和面部强度。在 *Physical* 模式下，峰值由抽插刺激触发，因此 **Orgasm Sensitivity**、**Music Compensation** 和 **Arousal Curve** 控制着积累发生的速度。在 *Determined* 模式下，周期则根据节拍数计算，当您需要可预测的音乐措辞时，这种模式更好。
 
-一旦触发，**Shaking Intensity**、**Shaking Speed**、**Shaking Damping** 和 **Shaking Frequency** 定义了峰值的感受。**Variety** 增加了每场高潮的漂移，使得抖动不那么重复，而 **Ejaculation Chance** 决定了姿势是内收崩溃还是解决到射精分支。使用 **Test** 进行调试，这样您就可以在没有实时刺激的情况下看到完整的循环。
+一旦触发，**Shaking Intensity**、**Shaking Speed**、**Shaking Damping** 和 **Shaking Frequency** 定义了峰值的感受。**Variety** 增加了每场高潮的漂移，使得抖动不那么重复，而 **Ejaculation Chance** 决定了姿势是内收崩溃还是解决到射精分支。
+使用 **Test** 进行调试，这样您就可以在没有实时刺激的情况下看到完整的循环。
 
 ## Role Pose Alignment
 

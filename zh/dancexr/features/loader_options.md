@@ -1,6 +1,6 @@
 ---
 layout: release
-title: 角色选项
+title: 演员选项
 locale: zh-CN
 nav_links:
   - label: 简介

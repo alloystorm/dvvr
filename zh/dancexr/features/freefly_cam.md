@@ -1,6 +1,6 @@
 ---
 layout: release
-title: [Freefly Cam]
+title: [自由飞相机]
 locale: zh-CN
 nav_links:
   - label: 简介

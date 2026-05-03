@@ -1,6 +1,6 @@
 ---
 layout: release
-title: [环绕相机]
+title: [环绕摄影机]
 locale: zh-CN
 nav_links:
   - label: 简介

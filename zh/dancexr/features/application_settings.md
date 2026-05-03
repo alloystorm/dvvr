@@ -13,7 +13,7 @@ nav_links:
     url: /zh/dancexr/download
 ---
 
-## 应用设置
+# 应用设置
 
 全局应用程序设置，用于控制启动行为和内容处理。
 
