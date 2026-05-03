@@ -1,6 +1,6 @@
 ---
 layout: release
-title: One-Shot Cam
+title: "./motion/proc/oneshot_cam"
 locale: en-rUS
 nav_links:
   - label: Intro
@@ -13,7 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
-# One-Shot Cam
+# ./motion/proc/oneshot_cam
 
 Long-take camera that moves randomly each beat while following the actor.
 
@@ -50,29 +50,4 @@ for close-up shots.
 
 **Prevent Below Floor** stops the camera from moving beneath the ground
 plane.
-
-
-
-## Configurations
-
-<table>
-<thead><tr><th>Setting</th><th>Type</th><th>Range / Values</th><th>Default</th><th>Condition</th><th>Description</th></tr></thead>
-<tbody>
-<tr><td>Preset</td><td></td><td></td><td></td><td></td><td>
-Default (Reset), </td></tr>
-<tr><td><strong>Target Select</strong></td><td>Options</td><td>Auto, Selected, Group, Rotate, Rotate + Group, Stage Center</td><td>Auto</td><td></td><td></td></tr>
-<tr><td><strong>Tracking Mode</strong></td><td>Options</td><td>Center, Head, Chest</td><td>Center</td><td></td><td></td></tr>
-<tr><td><strong>Target Smoothing</strong></td><td>Float</td><td>0 – 2</td><td>0.5</td><td></td><td></td></tr>
-<tr><td><strong>Prediction</strong></td><td>Float</td><td>0 – 2</td><td>1</td><td></td><td>Predict position of the target to reduce lag caused by smoothing</td></tr>
-<tr><td><strong>FOV</strong></td><td>Float</td><td>5 – 120</td><td>30</td><td></td><td></td></tr>
-<tr><td><strong>Beat Cycle</strong></td><td>Integer</td><td>1 – 16</td><td>8</td><td></td><td></td></tr>
-<tr><td><strong>Rotate Range</strong></td><td>Float</td><td>0 – 180</td><td>60</td><td></td><td>Horizontal rotation range.</td></tr>
-<tr><td><strong>Distance</strong></td><td>Range</td><td>0.2 – 5</td><td></td><td></td><td></td></tr>
-<tr><td><strong>Pitch Angle</strong></td><td>Range</td><td>-90 – 90</td><td></td><td></td><td></td></tr>
-<tr><td><strong>Curve</strong></td><td>Float</td><td>-1 – 1</td><td>0</td><td></td><td>The ease curve used when changing motion</td></tr>
-<tr><td><strong>Prevent Below Floor</strong></td><td>Toggle</td><td>on / off</td><td>on</td><td></td><td></td></tr>
-<tr><td><strong>Use Actor Orientation</strong></td><td>Toggle</td><td>on / off</td><td>on</td><td></td><td></td></tr>
-<tr><td><strong>Raise Focus When Close</strong></td><td>Toggle</td><td>on / off</td><td>off</td><td></td><td>Move focus position up when distance gets smaller</td></tr>
-</tbody>
-</table>
 
