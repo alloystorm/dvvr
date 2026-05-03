@@ -21,7 +21,7 @@ nav_links:
 [使用高光/遮罩貼圖](specular_map)
 
 ### 生成法線貼圖
-* [生成法線貼圖](normal_map)
+* [生成法線貼圖](generate_normal_map)
 
 ### 自定義細節貼圖
 * [使用自定義細節貼圖](custom_detail_map)

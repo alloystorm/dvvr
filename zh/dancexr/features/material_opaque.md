@@ -28,4 +28,5 @@ nav_links:
 您可以通过利用特定效果的高光图，从基础图或高光图生成法线图，以及使用自定义细节贴图来改善这个类别的材质的纹理。
 
 * [使用高光/遮罩图](specular_map)
+* [生成法线图](generate_normal_map)
 * [使用自定义细节贴图](custom_detail_map)

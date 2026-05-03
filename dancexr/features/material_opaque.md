@@ -29,4 +29,5 @@ The system automatically determine if a material is opaque or transparent based 
 You can enhance the textures of the materials in this category by utilizing the the specular map for certain effects, generating normal map from the base map or the specular map, and using a custom detail maps to improve the details of the materials.
 
 * [Using specular / mask map](specular_map)
+* [Generating normal map](generate_normal_map)
 * [Using custom detail maps](custom_detail_map)

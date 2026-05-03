@@ -22,7 +22,7 @@ nav_links:
 [スペキュラー / マスクマップの使用](specular_map)
 
 ### ノーマルマップの生成
-* [ノーマルマップの生成](normal_map)
+* [ノーマルマップの生成](generate_normal_map)
 
 ### カスタムディテールマップ
 * [カスタムディテールマップの使用](custom_detail_map)

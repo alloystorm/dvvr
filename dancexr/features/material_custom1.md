@@ -24,5 +24,5 @@ If you want to apply uniform settings to a group of materials, you can assign th
 You can enhance the textures of the materials in this category by utilizing the specular map for certain effects, generating a normal map from the base map or the specular map, and using custom detail maps to improve the details of the materials.
 
 * [Using specular / mask map](specular_map)
-* [Generating normal map](normal_map)
+* [Generating normal map](generate_normal_map)
 * [Using custom detail maps](custom_detail_map)

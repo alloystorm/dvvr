@@ -6,3 +6,4 @@ _site/
 settings.local.json
 thumbnails
 .DS_Store
+deadlinks.txt

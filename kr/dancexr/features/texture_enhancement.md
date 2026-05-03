@@ -22,7 +22,7 @@ nav_links:
 [반사 / 마스크 맵 사용](specular_map)
 
 ### 노멀 맵 생성
-* [노멀 맵 생성](normal_map)
+* [노멀 맵 생성](generate_normal_map)
 
 ### 사용자 정의 디테일 맵
 * [사용자 정의 디테일 맵 사용](custom_detail_map)

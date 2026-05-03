@@ -21,7 +21,7 @@ nav_links:
 [使用高光/蒙版贴图](specular_map)
 
 ### 生成法线贴图
-* [生成法线贴图](normal_map)
+* [生成法线贴图](generate_normal_map)
 
 ### 自定义细节贴图
 * [使用自定义细节贴图](custom_detail_map)
