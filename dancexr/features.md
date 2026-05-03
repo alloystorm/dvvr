@@ -442,23 +442,23 @@ feature_sections:
       - title: Camera Overview
         link: /dancexr/features/camera
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
-      - title: "[Freefly Cam]"
+      - title: ./motion/proc/free_cam
         link: /dancexr/features/freefly_cam
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
-      - title: "[Auto Cam]"
+      - title: ./motion/proc/auto_cam
         link: /dancexr/features/auto_cam
         image: /images/slideshows/camera/What%20does%20it%20feel%20like%20to%20watch%20a%20concert%20while%20standing%20in%20the%20middle%20of%20the%20stage%EF%BC%9F%20%5Beq7XxG_6YLg%5D.webp
       - title: Orbit Camera
-        link: /dancexr/features/camera
+        link: /dancexr/features/orbit_cam
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
       - title: One-shot Camera
-        link: /dancexr/features/camera
+        link: /dancexr/features/one_shot_cam
         image: /images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp
       - title: First Person Camera
         link: /dancexr/features/camera
         image: /images/slideshows/camera/First%20Person%2039%20Music%20%5BY5T3JkedkQs%5D.webp
       - title: Fixed Camera (Concert Mode)
-        link: /dancexr/features/camera
+        link: /dancexr/features/concert_cam
         image: /images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp
   - title: "System & Platform"
     subsections:

@@ -451,16 +451,16 @@ feature_sections:
         link: /tw/dancexr/features/auto_cam
         image: /images/slideshows/camera/What%20does%20it%20feel%20like%20to%20watch%20a%20concert%20while%20standing%20in%20the%20middle%20of%20the%20stage%EF%BC%9F%20%5Beq7XxG_6YLg%5D.webp
       - title: 軌道攝影機
-        link: /tw/dancexr/features/camera
+        link: /tw/dancexr/features/orbit_cam
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
       - title: 單鏡頭攝影機
-        link: /tw/dancexr/features/camera
+        link: /tw/dancexr/features/one_shot_cam
         image: /images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp
       - title: 第一人稱攝影機
         link: /tw/dancexr/features/camera
         image: /images/slideshows/camera/First%20Person%2039%20Music%20%5BY5T3JkedkQs%5D.webp
       - title: 固定攝影機（演唱會模式）
-        link: /tw/dancexr/features/camera
+        link: /tw/dancexr/features/concert_cam
         image: /images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp
   - title: 系統與平台
     subsections:
