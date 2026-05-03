@@ -1,7 +1,7 @@
 ---
 layout: release
-title: Motion Settings
-locale: en-US
+title: "Motion Settings"
+locale: en-rUS
 nav_links:
   - label: Intro
     url: /dancexr
@@ -13,46 +13,72 @@ nav_links:
     url: /dancexr/download
 ---
 
+# Motion Settings
+
+Controls how motion data (VMD, BVH, etc.) is applied to an actor
+model, including scaling, timing offsets, IK handling, and pose
+corrections.
 
 
-## Overview
-Motion settings allow you to choose whether the motion is T pose or A pose, adjust motion speed and change looping options. 
+## Motion Parameters
 
-## Selection
-This is a list of bones and morphs this motion uses. You can use the toggles to control whether that bone or morph needs to be skipped or not. This is useful when you want to use a motion but don't want to use all the bones or morphs it uses.
+**Motion Scale** multiplies all positional movement from the motion
+file — useful when animations are exaggerated or too subtle for the
+model's proportions. **Vertical Pos Scale** independently scales the
+center bone's up/down movement to reduce bouncing or hopping.
 
-## T or A pose
-Motions are designed to work with models that has a specific standard pose. Traditionally this cannot be cross matched, but with DanceXR you can use any motion on any model regardless of the standard pose. All you need to do is to select the correct standard pose here in the motion settings, and the motion will be adjusted to work with the models.
+**Mirror** flips left and right motion data, primarily for VMD files
+authored for opposite-side dominance. **Time Offset Percent** and
+**Time Offset Seconds** shift when in the animation timeline the
+actor starts playing — useful for syncing multiple actors or
+compensating for motion lead-in.
 
-## IK Controls
-DanceXR determines whether the motion use IK automatically. So most of the time you can leave them as auto but if there's any issue with IK system, you can change the settings here to get the to work correctly.
+**Leg Angle** adds a small rotation bias to leg bones, adjusting
+stance width or toe-out angle across the entire animation.
 
-## Imperfection
-This is a feature that allows you to add imperfection to the motion. It will add random offsets to the motion to make it look more natural. You can adjust the amount of imperfection here.
 
-## Apply Hip Motion To Torso
-Some motion don't animate torso bones, but certain models require torso bones to be animated to look correct. This option allows you to apply hip motion to torso bones.
+## IK Settings
 
-## Center Offset
-This is workaround for certain motions that requires a particular bone configurations. The center bone of a model can be at the location of the hip or on the ground, or anywhere in between. If a motion is designed for a model with a different center bone location, you can use this option to adjust the motion to work with the model.
+**Inherit Bones** respects the inherit-parent constraints defined in
+the PMX file (e.g. hand bones following arm bones). **Motion Leg IK**
+applies a generic two-bone leg IK pass during motion processing,
+allowing foot planting to work even on models without dedicated IK
+bones. **Model IK** uses the IK link chains defined in the PMX itself.
+When Model IK conflicts with Motion IK, try disabling one or the other.
 
-## Disable Curve
-This controls whether to use curve for animation. If the motion is not setup correctly, disabling curve might have better result. Also disabling it can improve performance if you have many animations running at the same time.
 
-## Loop Controls
-Loop Count: How many time it loops. Use 0 for infinite.
+## Spectator
 
-Loop Start: The ratio of starting time vs full duration
+Marks the actor as a spectator — they are excluded from formation
+patterns and lighting assignments, useful for audience members or
+background characters.
 
-Loop End: The ratio of end time vs full duration.
 
-Loop Blend: When this is greater than 0, the animation will be blend between starting and end to create smooth transition between loops.
+## Pose Adjustment
 
-Play From Start Then Loop: When this is on, the animation will play from 0 to end and then loop from start. When this is off, the animation will loop from start to end. (start and end here are the values you set for Loop Start and Loop End)
+Rotates the default T-pose bone angles before any motion is applied.
+See the nested panel for per-bone-group rotation controls — this is
+the primary way to fix models whose imported rest pose doesn't match
+the animation's assumptions.
 
-Speed: The playback speed. By default all the motions are assumed to be 30fps. If your motion is 60fps, set this speed to 2.
 
-## Motion smoothing (v2026.2)
-DanceXR 2026.2 introduces an advanced physics-based motion smoothing algorithm that enhances fluidity while simulating realistic acceleration and damping effects to recreate natural motion dynamics.
+## Visualization
 
-Smoothing is enabled by default for all motions. You can disable it entirely or fine-tune the smoothing parameters for individual joints to match your preferences. Compared to the previous algorithm, this version also reduces latency for a more responsive feel.
+**Show Virtual Bones**, **Visualize Bones**, and **Visualize IK
+Targets** render debug gizmos for the skeleton hierarchy and IK
+target positions (PMX models only).
+
+# Sub-Components
+
+## sd_pose
+
+Adjusts the default (zero-pose) rotation for every major bone group
+on the actor. Values rotate the bone away from its imported T-pose
+so you can fix models that stand with arms too wide, legs too close,
+or fingers splayed incorrectly.
+
+Each setting is a 3-axis rotation (X/Y/Z) in degrees. Left-side
+bones are mirrored to the right side automatically. **Ring Finger**
+and **Middle Finger** are scalar multipliers relative to Pinky and
+Index respectively, keeping finger curls proportional.
+

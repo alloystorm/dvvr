@@ -1,7 +1,7 @@
 ---
 layout: release
-title: Facial Control
-locale: en-US
+title: "Facial Control"
+locale: en-rUS
 nav_links:
   - label: Intro
     url: /dancexr
@@ -13,21 +13,15 @@ nav_links:
     url: /dancexr/download
 ---
 
+# Facial Control
 
+Provides direct sliders for facial expressions on XPS/FBX models.
+Mouth shapes (A, I, U, E, O, Grinning, Smile 1-3, Frown), eyebrow
+poses (Smile, Upper, Lower, Worry, Angry 1-2), and eyelid poses
+(Blink, Jito, Wink, Laugh, Narrow) each get their own slider.
 
-## Overview
-Facial control allows you to preview facial morphs and fine tune the XPS facial settings for your model. 
+**Use Lip Sync** drives mouth shapes from the currently playing
+audio. For XPS models, **Disable** turns off all facial animation,
+and the **Extent** sliders scale eyelid, mouth, and eyebrow
+movement independently to fix over- or under-animated faces.
 
-## PMX Models
-For PMX models you can preview the facial morphs. Tick "Override" and then change the value for the facial morphs you want to preview. The preview will update in real time.
-
-## XPS Models
-For XPS models you can adjust neutral positions for facial morphs, fine tune each morph to your liking, and preview the morphs in real time.
-
-### Neutral Position
-You can adjust the neutral position for mouth, eyebrow and eyelids. This is useful when the neutral position is not set correctly for your model.
-
-Each of these have different control points you can adjust. Take your time to adjust them to your liking.
-
-### Fine Tune
-Similar to the neutral position adjustments, you can also fine tune each morph with the same set of control points. 

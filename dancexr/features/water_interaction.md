@@ -1,7 +1,7 @@
 ---
 layout: release
-title: Water Interaction
-locale: en-US
+title: "Water Interaction"
+locale: en-rUS
 nav_links:
   - label: Intro
     url: /dancexr
@@ -13,7 +13,12 @@ nav_links:
     url: /dancexr/download
 ---
 
+# Water Interaction
 
+Controls ripple effects generated when the actor contacts a water
+surface. HDRP only — no effect in other render pipelines.
 
-## Water Interaction
-There are settings to adjusting effects related to water. Including sweat effect, water droplets, and ripple effect when the character is in the pool.
+**Intensity** scales all ripple amplitudes globally. **Body**,
+**Hands**, and **Feet** set per-body-part amplitude multipliers so
+you can emphasize foot splashes or subtle hand trails independently.
+

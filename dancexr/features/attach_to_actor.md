@@ -1,6 +1,6 @@
 ---
 layout: release
-title: Attach To Actor
+title: "Attach To Actor"
 locale: en-rUS
 nav_links:
   - label: Intro
@@ -13,18 +13,16 @@ nav_links:
     url: /dancexr/download
 ---
 
+# Attach To Actor
 
+Attaches a source bone from this actor to a target bone on
+another actor, enabling cross-character interactions.
 
-## Overview
-The Attach To Actor module allows you to dynamically attach bones from one actor to another, enabling complex animations and interactions between characters.
-
-## Key Features
-- Select source and target bones for attachment.
-- Configure offset, rotation, and scale for precise positioning.
-- Option to ignore rotation during attachment.
-- Allow the attached model to be animated by loaded motion.
-
-## Use Cases
-- Attaching props or accessories to characters.
-- Creating complex animations with moving accessories.
+**Select Source Bones** picks the bone to attach from this
+actor. **Actor Select** chooses the target actor. **Select
+Target Bones** picks the destination bone on the target
+actor. **Ignore Rotation** preserves the source bone's
+original orientation. **Offset** and **Rotation** fine-tune
+the attachment position. **Scale** adjusts size with power-
+of-2 scaling.
 

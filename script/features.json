@@ -158,11 +158,11 @@
               "image": "/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp"
             },
             {
-              "path": "features/feet_adjustments",
+              "path": "features/feet_adjustment",
               "image": "/images/slideshows/dressing/90fbb9ac6e412cb83d0fcf3c743bfcd776473261.jpg"
             },
             {
-              "path": "features/scale_n_offset",
+              "path": "features/scale_offset",
               "image": "/images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp"
             },
             {
@@ -396,7 +396,7 @@
               "image": "/images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp"
             },
             {
-              "path": "features/lightball",
+              "path": "features/light_ball",
               "badge": "PRO",
               "badge_type": "pro",
               "image": "/images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp"
