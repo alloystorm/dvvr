@@ -1,6 +1,6 @@
 ---
 layout: release
-title: ./motion/proc/concert_cam
+title: 固定摄影机（演唱会模式）
 locale: zh-CN
 nav_links:
   - label: 简介
@@ -13,7 +13,7 @@ nav_links:
     url: /zh/dancexr/download
 ---
 
-# ./motion/proc/concert_cam
+# 固定摄影机（演唱会模式）
 
 定位在固定位置的摄影机，始终对准关注的目标角色。
 

@@ -1,6 +1,6 @@
 ---
 layout: release
-title: `./motion/proc/concert_cam`
+title: 고정 카메라 (콘서트 모드)
 locale: ko-KR
 nav_links:
   - label: 소개
@@ -13,7 +13,7 @@ nav_links:
     url: /kr/dancexr/download
 ---
 
-# ./motion/proc/concert_cam
+# 고정 카메라 (콘서트 모드)
 
 지정된 위치에 고정된 카메라로, 항상 초점 맞춘 대상 배우를 바라봅니다.
 

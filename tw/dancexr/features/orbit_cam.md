@@ -1,6 +1,6 @@
 ---
 layout: release
-title: ./motion/proc/orbit_cam
+title: 環繞式攝影機
 locale: zh-TW
 nav_links:
   - label: 簡介
@@ -13,7 +13,7 @@ nav_links:
     url: /tw/dancexr/download
 ---
 
-# ./motion/proc/orbit_cam
+# 環繞式攝影機
 
 手動和自動環繞攝影機，會在聚焦的演員周圍旋轉。
 

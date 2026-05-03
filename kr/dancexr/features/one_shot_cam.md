@@ -1,6 +1,6 @@
 ---
 layout: release
-title: `./motion/proc/oneshot_cam`
+title: 원샷 카메라 (One-Shot Cam)
 locale: ko-KR
 nav_links:
   - label: 소개
@@ -13,7 +13,7 @@ nav_links:
     url: /kr/dancexr/download
 ---
 
-# ./motion/proc/oneshot_cam
+# 원샷 카메라 (One-Shot Cam)
 
 배우를 따라가면서 매 비트에 무작위로 움직이는 롱 테이크 카메라.
 

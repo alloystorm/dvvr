@@ -1,6 +1,6 @@
 ---
 layout: release
-title: ./motion/proc/orbit_cam
+title: オービットカメラ
 locale: ja-JP
 nav_links:
   - label: イントロ
@@ -13,7 +13,7 @@ nav_links:
     url: /jp/dancexr/download
 ---
 
-# ./motion/proc/orbit_cam
+# オービットカメラ
 
 焦点となるアクターの周りを回転するマニュアルおよび自動軌道カメラ。
 

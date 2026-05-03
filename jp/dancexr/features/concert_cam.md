@@ -1,6 +1,6 @@
 ---
 layout: release
-title: ./motion/proc/concert_cam
+title: 固定カメラ（コンサートモード）
 locale: ja-JP
 nav_links:
   - label: イントロ
@@ -13,7 +13,7 @@ nav_links:
     url: /jp/dancexr/download
 ---
 
-# ./motion/proc/concert_cam
+# 固定カメラ（コンサートモード）
 
 設定された位置に配置され、常にフォーカスされたアクターを見る固定カメラです。
 

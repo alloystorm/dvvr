@@ -1,6 +1,6 @@
 ---
 layout: release
-title: "./motion/proc/orbit_cam"
+title: Orbit Camera
 locale: en-rUS
 nav_links:
   - label: Intro
@@ -13,7 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
-# ./motion/proc/orbit_cam
+# Orbit Camera
 
 Manual and automatic orbit camera that rotates around the focused actor.
 

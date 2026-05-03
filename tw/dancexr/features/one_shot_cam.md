@@ -1,6 +1,6 @@
 ---
 layout: release
-title: ./motion/proc/oneshot_cam
+title: 長鏡頭攝影機
 locale: zh-TW
 nav_links:
   - label: 簡介
@@ -13,17 +13,17 @@ nav_links:
     url: /tw/dancexr/download
 ---
 
-# ./motion/proc/oneshot_cam
+# 長鏡頭攝影機
 
 長鏡頭攝影機，每個節拍會隨機移動，同時跟隨演員。
 
-## Movement
+## 運動
 
 **旋轉範圍 (Rotate Range)** 限制了攝影機環繞演員左或右移動的最大角度。範圍越廣，拍攝畫面越飄逸；範圍越窄，攝影機看起來就越正對前方。
 
 **曲線 (Curve)** 值控制了攝影機在每個節拍移動到新的隨機位置時的減速過渡 (easing)。負值開始緩慢並加快；正值開始快速並減慢；*0* 提供線性運動。
 
-## Distance & Pitch
+## 距離與俯仰角
 
 設定了攝影機距離和垂直角度的範圍。每個節拍，攝影機都會從這些限制內選擇一個隨機位置。
 
@@ -31,7 +31,7 @@ nav_links:
 
 **俯仰角 (Pitch Angle)** 設定垂直傾斜的角度範圍。負值會看向演員下方；正值會看向上方。
 
-## Orientation
+## 方向朝向
 
 啟用 **使用演員朝向 (Use Actor Orientation)** 可以讓攝影機與演員的朝向對齊，這樣攝影機就會相對保持在演員看向的方向。
 
@@ -39,7 +39,7 @@ nav_links:
 
 **防止低於地面 (Prevent Below Floor)** 會阻止攝影機移動到地平面下方。
 
-## Configurations
+## 配置
 
 <table class="table">
 <thead><tr><th>設定</th><th>類型</th><th>範圍 / 值</th><th>預設</th><th>條件</th><th>描述</th></tr></thead>

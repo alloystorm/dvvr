@@ -1,6 +1,6 @@
 ---
 layout: release
-title: ./motion/proc/concert_cam
+title: 固定攝影機（演唱會模式）
 locale: zh-TW
 nav_links:
   - label: 簡介
@@ -13,7 +13,7 @@ nav_links:
     url: /tw/dancexr/download
 ---
 
-# ./motion/proc/concert_cam
+# 固定攝影機（演唱會模式）
 
 固定攝影機，定位在既定位置，始終朝向聚焦的表演者。
 

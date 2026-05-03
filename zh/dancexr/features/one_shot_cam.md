@@ -1,6 +1,6 @@
 ---
 layout: release
-title: ./motion/proc/oneshot_cam
+title: 长镜头摄影机
 locale: zh-CN
 nav_links:
   - label: 简介
@@ -13,7 +13,7 @@ nav_links:
     url: /zh/dancexr/download
 ---
 
-# ./motion/proc/oneshot_cam
+# 长镜头摄影机
 
 长镜头摄影机，在跟随表演者移动的同时，每个节拍都会随机移动。
 

@@ -1,6 +1,6 @@
 ---
 layout: release
-title: ./motion/proc/orbit_cam
+title: 오빗 카메라 (Orbit Camera)
 locale: ko-KR
 nav_links:
   - label: 소개
@@ -13,7 +13,7 @@ nav_links:
     url: /kr/dancexr/download
 ---
 
-# ./motion/proc/orbit_cam
+# 오빗 카메라 (Orbit Camera)
 
 초점을 맞춘 배우 주변을 회전하는 수동 및 자동 오빗 카메라입니다.
 

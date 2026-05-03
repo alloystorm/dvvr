@@ -1,6 +1,6 @@
 ---
 layout: release
-title: "./motion/proc/oneshot_cam"
+title: One-Shot Cam
 locale: en-rUS
 nav_links:
   - label: Intro
@@ -13,7 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
-# ./motion/proc/oneshot_cam
+# One-Shot Cam
 
 Long-take camera that moves randomly each beat while following the actor.
 

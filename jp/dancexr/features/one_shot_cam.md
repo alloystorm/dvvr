@@ -1,6 +1,6 @@
 ---
 layout: release
-title: ./motion/proc/oneshot_cam
+title: ワンショットカメラ (One-Shot Cam)
 locale: ja-JP
 nav_links:
   - label: イントロ
@@ -13,7 +13,7 @@ nav_links:
     url: /jp/dancexr/download
 ---
 
-# ./motion/proc/oneshot_cam
+# ワンショットカメラ (One-Shot Cam)
 
 アクターを追跡しながら、ビートごとにランダムに動く長回しカメラです。
 

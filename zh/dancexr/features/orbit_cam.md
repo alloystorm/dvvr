@@ -1,6 +1,6 @@
 ---
 layout: release
-title: `./motion/proc/orbit_cam`
+title: 环绕式摄影机
 locale: zh-CN
 nav_links:
   - label: 简介
@@ -13,7 +13,7 @@ nav_links:
     url: /zh/dancexr/download
 ---
 
-# ./motion/proc/orbit_cam
+# 环绕式摄影机
 
 围绕焦点角色的手动和自动环绕式摄影机。
 
