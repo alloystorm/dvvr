@@ -1,6 +1,6 @@
 ---
 layout: release
-title: "./motion/proc/concert_cam"
+title: "[Fixed Camera]"
 locale: en-rUS
 nav_links:
   - label: Intro
@@ -13,7 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
-# ./motion/proc/concert_cam
+# [Fixed Camera]
 
 Fixed camera positioned at a set location, always looking at the focused actor.
 

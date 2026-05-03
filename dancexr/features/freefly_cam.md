@@ -1,6 +1,6 @@
 ---
 layout: release
-title: "./motion/proc/free_cam"
+title: "[Freefly Cam]"
 locale: en-rUS
 nav_links:
   - label: Intro
@@ -13,7 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
-# ./motion/proc/free_cam
+# [Freefly Cam]
 
 A fully manual camera mode where you control position and
 rotation directly. Move freely through the scene, orbit around

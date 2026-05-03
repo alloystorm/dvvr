@@ -1,6 +1,6 @@
 ---
 layout: release
-title: "./motion/proc/auto_cam"
+title: "[Auto Cam]"
 locale: en-rUS
 nav_links:
   - label: Intro
@@ -13,7 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
-# ./motion/proc/auto_cam
+# [Auto Cam]
 
 Automatic camera system that generates cinematic camera movements synced to music beats and actor actions.
 

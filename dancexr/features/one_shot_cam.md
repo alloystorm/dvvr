@@ -1,6 +1,6 @@
 ---
 layout: release
-title: "./motion/proc/oneshot_cam"
+title: "[Long Take]"
 locale: en-rUS
 nav_links:
   - label: Intro
@@ -13,7 +13,7 @@ nav_links:
     url: /dancexr/download
 ---
 
-# ./motion/proc/oneshot_cam
+# [Long Take]
 
 Long-take camera that moves randomly each beat while following the actor.
 
