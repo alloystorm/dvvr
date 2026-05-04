@@ -205,6 +205,19 @@
     const detailEmpty   = document.getElementById('feature-detail-empty');
     const detailContent = document.getElementById('feature-detail-content');
 
+    // Map Jekyll locale → JSON labels/descriptions key
+    const LOCALE_KEY = { 'ja-JP': 'ja', 'zh-TW': 'zh-TW', 'ko-KR': 'ko', 'zh-CN': 'zh-CN' };
+    const localeKey  = LOCALE_KEY['{{ page.locale }}'] || null;
+
+    function localLabel(node) {
+      if (localeKey && node.labels && node.labels[localeKey]) return node.labels[localeKey];
+      return node.label || node.name;
+    }
+    function localDesc(node) {
+      if (localeKey && node.descriptions && node.descriptions[localeKey]) return node.descriptions[localeKey];
+      return node.description || null;
+    }
+
     function esc(str) {
       return String(str ?? '')
         .replace(/&/g, '&amp;')
@@ -269,9 +282,10 @@
       let childrenHtml = '';
       if (node.values && node.values.length) {
         const childRows = node.values.map(c => {
-          const firstLine = c.description ? renderMd(c.description.split(/\r?\n/)[0]) : '';
+          const desc = localDesc(c);
+          const firstLine = desc ? renderMd(desc.split(/\r?\n/)[0]) : '';
           return `<tr>
-            <td class="detail-child-name">${esc(c.label || c.name)}</td>
+            <td class="detail-child-name">${esc(localLabel(c))}</td>
             <td><span class="detail-badge ${typeBadgeClass(c.type)}">${typeLabel(c.type)}</span></td>
             <td class="detail-child-desc">${firstLine}</td>
           </tr>`;
@@ -286,13 +300,14 @@
           </div>`;
       }
 
+      const desc = localDesc(node);
       detailContent.innerHTML = `
         <div class="detail-header">
-          <h2 class="detail-name">${esc(node.label || node.name)}</h2>
+          <h2 class="detail-name">${esc(localLabel(node))}</h2>
           ${typeBadge}
         </div>
         ${labelChips ? `<div class="detail-labels">${labelChips}</div>` : ''}
-        ${node.description ? `<div class="detail-description">${renderMd(node.description)}</div>` : ''}
+        ${desc ? `<div class="detail-description">${renderMd(desc)}</div>` : ''}
         ${propsHtml}
         ${childrenHtml}
       `;
@@ -321,7 +336,7 @@
 
       const label = document.createElement('span');
       label.className = 'tree-label';
-      label.textContent = node.label || node.name;
+      label.textContent = localLabel(node);
       row.appendChild(label);
 
       if (node.type && node.type !== 'group') {
