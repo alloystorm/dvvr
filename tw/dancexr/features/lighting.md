@@ -1,8 +1,6 @@
 ---
 layout: release
 title: 照明
-(or)
-光照
 locale: zh-TW
 nav_links:
   - label: 簡介
