@@ -88,7 +88,8 @@ VRモードでは、サムスティックを上下に動かしてアクターを
     * アクセサリー
     * ラグドール
     * [モーションオーバーライド](motion_override)
-    * [おっぱいの揺れとセックスオーバーレイ](boob_shake_sex_overlay){: .nsfw}
+    * [Boob Shake Overlay](shake_boobs_overlay){: .nsfw}
+    * [Sex Overlay](smo_config){: .nsfw}
     * [ディルド](dildo){: .nsfw}
     * ライトボール
     * [XPS物理（XPSのみ）](xps_physics)

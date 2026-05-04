@@ -34,6 +34,8 @@ feature_sections:
         image: /images/slideshows/dancexr/logo-black.jpg
         badge: "2026.5 | Dedicated AI Backend"
         badge_type: new
+      - title: VR Settings
+        link: /dancexr/features/vr_settings
       - title: AI Powered Voice Chat
         link: /dancexr/features/ai_chat
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
@@ -380,8 +382,8 @@ feature_sections:
             image: /images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp
       - title: "Environment & Effects"
         tiles:
-          - title: Particle System
-            link: /dancexr/features/particles
+          - title: Weather Particles
+            link: /dancexr/features/weather_particles
             image: /images/slideshows/environment/9173d0f946d256d4c711cbe876fe30ad139d1a7d.jpg
             badge: PRO
             badge_type: pro

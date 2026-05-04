@@ -88,7 +88,8 @@ Gizmo立方体是虚拟立方体，您可以使用它来移动和调整演员的
     * 饰品
     * 布娃娃
     * [动作覆盖](motion_override)
-    * [胸部晃动和性爱覆盖](boob_shake_sex_overlay){: .nsfw}
+    * [Boob Shake Overlay](shake_boobs_overlay){: .nsfw}
+    * [Sex Overlay](smo_config){: .nsfw}
     * [假阳具](dildo){: .nsfw}
     * 光球
     * [XPS物理（仅限XPS）](xps_physics)

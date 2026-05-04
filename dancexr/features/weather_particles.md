@@ -15,6 +15,8 @@ nav_links:
 
 
 ## Overview
+{% include video id="SLNw5XZflZ8" provider="youtube" %}
+
 Weather particles add atmospheric particle effects to the scene to simulate environmental conditions such as rain, snow, or falling leaves. Built-in presets are available: **Off**, **Dust**, **Rain**, **Snow**, **Petal**, **Leaf**, **Glitter**.
 
 ## Particle settings

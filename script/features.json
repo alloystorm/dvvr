@@ -22,6 +22,9 @@
           "image": "/images/slideshows/dancexr/logo-black.jpg"
         },
         {
+          "path": "features/vr_settings"
+        },
+        {
           "path": "features/ai_chat",
           "badge": "PRO",
           "badge_type": "pro",
@@ -662,7 +665,7 @@
           },
           "tiles": [
             {
-              "path": "features/particles",
+              "path": "features/weather_particles",
               "badge": "PRO",
               "badge_type": "pro",
               "image": "/images/slideshows/environment/9173d0f946d256d4c711cbe876fe30ad139d1a7d.jpg"

@@ -87,7 +87,8 @@ The following are links to the detailed documentation for each of the settings.
     * Accessory
     * Ragdoll
     * [Motion Override](motion_override)
-    * [Boob Shake & Sex Overlay](boob_shake_sex_overlay){: .nsfw}
+    * [Boob Shake Overlay](shake_boobs_overlay){: .nsfw}
+    * [Sex Overlay](smo_config){: .nsfw}
     * [Dildo](dildo){: .nsfw}
     * Light Ball
     * [XPS Physics (XPS Only)](xps_physics)
