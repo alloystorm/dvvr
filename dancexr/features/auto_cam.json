@@ -9,6 +9,12 @@
     "zh-CN": "[自动相机]"
   },
   "description": "Automatic camera system that generates cinematic camera movements synced to music beats and actor actions.\r\n\r\n## Distance\r\n\r\n**Distance Near** and **Distance Far** define the range the camera can be from its target.\r\nNarrower ranges keep the camera at a consistent distance, while wider ranges add more\r\nvariety between shots. The actual distance is also influenced by the *Distance Selection*\r\nprobabilities below.\r\n\r\n## Target Selection\r\n\r\nControls which body part the camera focuses on. Each value is a relative probability —\r\nhigher numbers make that target more likely to be chosen. **Head** and **Chest** work\r\nwell for close-ups, while **Center** and **Legs** suit wider shots. Set a value to *0*\r\nto exclude that target entirely.\r\n\r\n## Distance Selection\r\n\r\nProbabilities for how far the camera positions itself. **Close Up** fills the frame\r\nwith the actor, **Zoom In** and **Zoom Out** transition between distances during a shot,\r\n**Middle** gives a balanced view, and **Far** captures the full scene. Only the\r\nrelative ratios matter — the final distance is clamped by the *Distance* range above.\r\n\r\n## Path & Angles\r\n\r\n**High Angle** and **Low Angle** limit how far the camera can tilt up or down. Lower\r\nvalues keep the camera more level for a neutral look; wider ranges introduce dramatic\r\noverhead or worm's-eye perspectives.\r\n\r\n## Orientation\r\n\r\nDetermines which side of the actor the camera frames. **Front Center** faces the actor\r\ndirectly, **Front 45** and **Side 90** show the actor in profile, and **Back 180**\r\nshoots from behind. Mix these to keep the camera movement visually interesting.\r\n\r\n## Effects\r\n\r\n**Fade To Black** sets how long the screen fades to black during shot transitions,\r\nand **F2B Probability** controls how often this happens. Use these to add cinematic\r\ncuts between shots.\r\n\r\n**Audio Sensitivity** makes camera motion respond to music volume when enabled.\r\nHigher values speed up camera movements during loud passages.\r\n\r\n## Random Seed\r\n\r\nThe **Seed** value controls the random number generator for camera motion. Change it\r\nto get a different camera sequence while keeping all other settings the same, or set\r\nit to *-1* for a new random seed each time.",
+  "descriptions": {
+    "ja": "(Automatic camera system that generates cinematic camera movements synced to music beats and actor actions.\r\n\r\n## Distance\r\n\r\n**Distance Near** and **Distance Far** define the range the camera can be from its target.\r\nNarrower ranges keep the camera at a consistent distance, while wider ranges add more\r\nvariety between shots. The actual distance is also influenced by the *Distance Selection*\r\nprobabilities below.\r\n\r\n## Target Selection\r\n\r\nControls which body part the camera focuses on. Each value is a relative probability —\r\nhigher numbers make that target more likely to be chosen. **Head** and **Chest** work\r\nwell for close-ups, while **Center** and **Legs** suit wider shots. Set a value to *0*\r\nto exclude that target entirely.\r\n\r\n## Distance Selection\r\n\r\nProbabilities for how far the camera positions itself. **Close Up** fills the frame\r\nwith the actor, **Zoom In** and **Zoom Out** transition between distances during a shot,\r\n**Middle** gives a balanced view, and **Far** captures the full scene. Only the\r\nrelative ratios matter — the final distance is clamped by the *Distance* range above.\r\n\r\n## Path & Angles\r\n\r\n**High Angle** and **Low Angle** limit how far the camera can tilt up or down. Lower\r\nvalues keep the camera more level for a neutral look; wider ranges introduce dramatic\r\noverhead or worm's-eye perspectives.\r\n\r\n## Orientation\r\n\r\nDetermines which side of the actor the camera frames. **Front Center** faces the actor\r\ndirectly, **Front 45** and **Side 90** show the actor in profile, and **Back 180**\r\nshoots from behind. Mix these to keep the camera movement visually interesting.\r\n\r\n## Effects\r\n\r\n**Fade To Black** sets how long the screen fades to black during shot transitions,\r\nand **F2B Probability** controls how often this happens. Use these to add cinematic\r\ncuts between shots.\r\n\r\n**Audio Sensitivity** makes camera motion respond to music volume when enabled.\r\nHigher values speed up camera movements during loud passages.\r\n\r\n## Random Seed\r\n\r\nThe **Seed** value controls the random number generator for camera motion. Change it\r\nto get a different camera sequence while keeping all other settings the same, or set\r\nit to *-1* for a new random seed each time.)",
+    "zh-TW": "(Automatic camera system that generates cinematic camera movements synced to music beats and actor actions.\r\n\r\n## Distance\r\n\r\n**Distance Near** and **Distance Far** define the range the camera can be from its target.\r\nNarrower ranges keep the camera at a consistent distance, while wider ranges add more\r\nvariety between shots. The actual distance is also influenced by the *Distance Selection*\r\nprobabilities below.\r\n\r\n## Target Selection\r\n\r\nControls which body part the camera focuses on. Each value is a relative probability —\r\nhigher numbers make that target more likely to be chosen. **Head** and **Chest** work\r\nwell for close-ups, while **Center** and **Legs** suit wider shots. Set a value to *0*\r\nto exclude that target entirely.\r\n\r\n## Distance Selection\r\n\r\nProbabilities for how far the camera positions itself. **Close Up** fills the frame\r\nwith the actor, **Zoom In** and **Zoom Out** transition between distances during a shot,\r\n**Middle** gives a balanced view, and **Far** captures the full scene. Only the\r\nrelative ratios matter — the final distance is clamped by the *Distance* range above.\r\n\r\n## Path & Angles\r\n\r\n**High Angle** and **Low Angle** limit how far the camera can tilt up or down. Lower\r\nvalues keep the camera more level for a neutral look; wider ranges introduce dramatic\r\noverhead or worm's-eye perspectives.\r\n\r\n## Orientation\r\n\r\nDetermines which side of the actor the camera frames. **Front Center** faces the actor\r\ndirectly, **Front 45** and **Side 90** show the actor in profile, and **Back 180**\r\nshoots from behind. Mix these to keep the camera movement visually interesting.\r\n\r\n## Effects\r\n\r\n**Fade To Black** sets how long the screen fades to black during shot transitions,\r\nand **F2B Probability** controls how often this happens. Use these to add cinematic\r\ncuts between shots.\r\n\r\n**Audio Sensitivity** makes camera motion respond to music volume when enabled.\r\nHigher values speed up camera movements during loud passages.\r\n\r\n## Random Seed\r\n\r\nThe **Seed** value controls the random number generator for camera motion. Change it\r\nto get a different camera sequence while keeping all other settings the same, or set\r\nit to *-1* for a new random seed each time.)",
+    "ko": "(Automatic camera system that generates cinematic camera movements synced to music beats and actor actions.\r\n\r\n## Distance\r\n\r\n**Distance Near** and **Distance Far** define the range the camera can be from its target.\r\nNarrower ranges keep the camera at a consistent distance, while wider ranges add more\r\nvariety between shots. The actual distance is also influenced by the *Distance Selection*\r\nprobabilities below.\r\n\r\n## Target Selection\r\n\r\nControls which body part the camera focuses on. Each value is a relative probability —\r\nhigher numbers make that target more likely to be chosen. **Head** and **Chest** work\r\nwell for close-ups, while **Center** and **Legs** suit wider shots. Set a value to *0*\r\nto exclude that target entirely.\r\n\r\n## Distance Selection\r\n\r\nProbabilities for how far the camera positions itself. **Close Up** fills the frame\r\nwith the actor, **Zoom In** and **Zoom Out** transition between distances during a shot,\r\n**Middle** gives a balanced view, and **Far** captures the full scene. Only the\r\nrelative ratios matter — the final distance is clamped by the *Distance* range above.\r\n\r\n## Path & Angles\r\n\r\n**High Angle** and **Low Angle** limit how far the camera can tilt up or down. Lower\r\nvalues keep the camera more level for a neutral look; wider ranges introduce dramatic\r\noverhead or worm's-eye perspectives.\r\n\r\n## Orientation\r\n\r\nDetermines which side of the actor the camera frames. **Front Center** faces the actor\r\ndirectly, **Front 45** and **Side 90** show the actor in profile, and **Back 180**\r\nshoots from behind. Mix these to keep the camera movement visually interesting.\r\n\r\n## Effects\r\n\r\n**Fade To Black** sets how long the screen fades to black during shot transitions,\r\nand **F2B Probability** controls how often this happens. Use these to add cinematic\r\ncuts between shots.\r\n\r\n**Audio Sensitivity** makes camera motion respond to music volume when enabled.\r\nHigher values speed up camera movements during loud passages.\r\n\r\n## Random Seed\r\n\r\nThe **Seed** value controls the random number generator for camera motion. Change it\r\nto get a different camera sequence while keeping all other settings the same, or set\r\nit to *-1* for a new random seed each time.)",
+    "zh-CN": "(Automatic camera system that generates cinematic camera movements synced to music beats and actor actions.\r\n\r\n## Distance\r\n\r\n**Distance Near** and **Distance Far** define the range the camera can be from its target.\r\nNarrower ranges keep the camera at a consistent distance, while wider ranges add more\r\nvariety between shots. The actual distance is also influenced by the *Distance Selection*\r\nprobabilities below.\r\n\r\n## Target Selection\r\n\r\nControls which body part the camera focuses on. Each value is a relative probability —\r\nhigher numbers make that target more likely to be chosen. **Head** and **Chest** work\r\nwell for close-ups, while **Center** and **Legs** suit wider shots. Set a value to *0*\r\nto exclude that target entirely.\r\n\r\n## Distance Selection\r\n\r\nProbabilities for how far the camera positions itself. **Close Up** fills the frame\r\nwith the actor, **Zoom In** and **Zoom Out** transition between distances during a shot,\r\n**Middle** gives a balanced view, and **Far** captures the full scene. Only the\r\nrelative ratios matter — the final distance is clamped by the *Distance* range above.\r\n\r\n## Path & Angles\r\n\r\n**High Angle** and **Low Angle** limit how far the camera can tilt up or down. Lower\r\nvalues keep the camera more level for a neutral look; wider ranges introduce dramatic\r\noverhead or worm's-eye perspectives.\r\n\r\n## Orientation\r\n\r\nDetermines which side of the actor the camera frames. **Front Center** faces the actor\r\ndirectly, **Front 45** and **Side 90** show the actor in profile, and **Back 180**\r\nshoots from behind. Mix these to keep the camera movement visually interesting.\r\n\r\n## Effects\r\n\r\n**Fade To Black** sets how long the screen fades to black during shot transitions,\r\nand **F2B Probability** controls how often this happens. Use these to add cinematic\r\ncuts between shots.\r\n\r\n**Audio Sensitivity** makes camera motion respond to music volume when enabled.\r\nHigher values speed up camera movements during loud passages.\r\n\r\n## Random Seed\r\n\r\nThe **Seed** value controls the random number generator for camera motion. Change it\r\nto get a different camera sequence while keeping all other settings the same, or set\r\nit to *-1* for a new random seed each time.)"
+  },
   "values": [
     {
       "name": "Target Select",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 5,
       "options": ["Auto", "Selected", "Group", "Rotate", "Rotate + Group", "Stage Center"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Tracking Mode",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 2,
       "options": ["Center", "Head", "Chest"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Target Smoothing",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 2,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Prediction",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 2,
       "options": null,
-      "description": "Predict position of the target to reduce lag caused by smoothing"
+      "description": "Predict position of the target to reduce lag caused by smoothing",
+      "descriptions": {
+        "ja": "平滑化による遅延を減らすためのターゲットの予測位置",
+        "zh-TW": "預測目標位置以減少平滑度造成的延遲",
+        "ko": "스무딩으로 인한 지연을 줄이기 위해 대상의 위치를 예측합니다",
+        "zh-CN": "预测目标位置以减少平滑处理引起的延迟"
+      }
     },
     {
       "name": "FOV",
@@ -88,7 +118,13 @@
       "min": 5,
       "max": 120,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Beat Cycle",
@@ -104,7 +140,13 @@
       "min": 1,
       "max": 16,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Distance Near",
@@ -120,7 +162,13 @@
       "min": 0.5,
       "max": 3,
       "options": null,
-      "description": "Minimum distance of the camera from the target."
+      "description": "Minimum distance of the camera from the target.",
+      "descriptions": {
+        "ja": "ターゲットからカメラの最小距離。",
+        "zh-TW": "相機到目標的最小距離。",
+        "ko": "목표물로부터 카메라의 최소 거리.",
+        "zh-CN": "相机与目标之间的最小距离。"
+      }
     },
     {
       "name": "Distance Far",
@@ -136,7 +184,13 @@
       "min": 0.5,
       "max": 3,
       "options": null,
-      "description": "Maximum distance of the camera from the target."
+      "description": "Maximum distance of the camera from the target.",
+      "descriptions": {
+        "ja": "ターゲットからカメラの最大距離。",
+        "zh-TW": "相機到目標的最大距離。",
+        "ko": "목표물로부터 카메라의 최대 거리.",
+        "zh-CN": "相机与目标之间的最大距离。"
+      }
     },
     {
       "name": "Use Actor Orientation",
@@ -152,7 +206,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Enable or disable alignment of the camera to the actor's orientation."
+      "description": "Enable or disable alignment of the camera to the actor's orientation.",
+      "descriptions": {
+        "ja": "カメラのアライメントをアクターの向きに合わせるか無効にする。",
+        "zh-TW": "是否開啟或關閉相機與角色朝向的對齊。",
+        "ko": "배우의 방향에 카메라 정렬을 활성화 또는 비활성화.",
+        "zh-CN": "启用或禁用相机与演员方向对齐。"
+      }
     },
     {
       "name": "Seed",
@@ -168,7 +228,13 @@
       "min": null,
       "max": null,
       "options": null,
-      "description": "Seed value for generating random camera motions."
+      "description": "Seed value for generating random camera motions.",
+      "descriptions": {
+        "ja": "ランダムなカメラモーション生成のためのシード値。",
+        "zh-TW": "生成隨機相機運動的種子值。",
+        "ko": "무작위 카메라 모션 생성을 위한 시드 값.",
+        "zh-CN": "生成随机相机运动的种子值。"
+      }
     },
     {
       "name": "Fade To Black",
@@ -184,7 +250,13 @@
       "min": 0,
       "max": 0.25,
       "options": null,
-      "description": "Duration of the fade-to-black effect during transitions."
+      "description": "Duration of the fade-to-black effect during transitions.",
+      "descriptions": {
+        "ja": "トランジション中のブラックアウト効果の持続時間。",
+        "zh-TW": "過渡過程中使用淡出至黑色效果的持續時間。",
+        "ko": "전환 중 암전 효과 지속 시간.",
+        "zh-CN": "过渡期间淡出至黑屏效果持续时间。"
+      }
     },
     {
       "name": "F2B Probability",
@@ -200,7 +272,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Probability of triggering the fade-to-black effect."
+      "description": "Probability of triggering the fade-to-black effect.",
+      "descriptions": {
+        "ja": "ブラックアウト効果が作動する確率。",
+        "zh-TW": "觸發淡出至黑色效果的機率。",
+        "ko": "암전 효과가 발생할 확률.",
+        "zh-CN": "触发淡出至黑屏效果的概率。"
+      }
     },
     {
       "name": "Audio Sensitivity",
@@ -216,7 +294,13 @@
       "min": 0,
       "max": 4,
       "options": null,
-      "description": "Sensitivity of the camera motion to audio levels."
+      "description": "Sensitivity of the camera motion to audio levels.",
+      "descriptions": {
+        "ja": "オーディオレベルに対するカメラモーションの感度。",
+        "zh-TW": "相機運動對音訊水準的敏感度。",
+        "ko": "오디오 레벨에 따른 카메라 모션 민감도.",
+        "zh-CN": "相机运动对音频水平的敏感度。"
+      }
     },
     {
       "name": "Target Selection",
@@ -233,6 +317,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Head",
@@ -248,7 +338,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of targeting the actor's head."
+          "description": "Probability of targeting the actor's head.",
+          "descriptions": {
+            "ja": "アクターの頭をターゲットにする確率。",
+            "zh-TW": "鎖定角色頭部的機率。",
+            "ko": "배우의 머리를 목표로 할 확률.",
+            "zh-CN": "针对演员头部的目标概率。"
+          }
         },
         {
           "name": "Chest",
@@ -264,7 +360,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of targeting the actor's chest."
+          "description": "Probability of targeting the actor's chest.",
+          "descriptions": {
+            "ja": "アクターの胸をターゲットにする確率。",
+            "zh-TW": "鎖定角色胸部的機率。",
+            "ko": "배우의 가슴을 목표로 할 확률.",
+            "zh-CN": "针对演员胸部的目标概率。"
+          }
         },
         {
           "name": "Center",
@@ -280,7 +382,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of targeting the actor's center."
+          "description": "Probability of targeting the actor's center.",
+          "descriptions": {
+            "ja": "アクターの中心をターゲットにする確率。",
+            "zh-TW": "鎖定角色中心的機率。",
+            "ko": "배우의 중앙을 목표로 할 확률.",
+            "zh-CN": "针对演员中心的目标概率。"
+          }
         },
         {
           "name": "Legs",
@@ -296,7 +404,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of targeting the actor's legs."
+          "description": "Probability of targeting the actor's legs.",
+          "descriptions": {
+            "ja": "アクターの脚をターゲットにする確率。",
+            "zh-TW": "鎖定角色腿部的機率。",
+            "ko": "배우의 다리를 목표로 할 확률.",
+            "zh-CN": "针对演员腿部的目标概率。"
+          }
         },
         {
           "name": "Feet",
@@ -312,7 +426,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of targeting the actor's feet."
+          "description": "Probability of targeting the actor's feet.",
+          "descriptions": {
+            "ja": "アクターの足元をターゲットにする確率。",
+            "zh-TW": "鎖定角色腳部的機率。",
+            "ko": "배우의 발을 목표로 할 확률.",
+            "zh-CN": "针对演员脚部的目标概率。"
+          }
         }
       ]
     },
@@ -331,6 +451,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Close Up",
@@ -346,7 +472,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of a close-up camera distance."
+          "description": "Probability of a close-up camera distance.",
+          "descriptions": {
+            "ja": "クローズアップ距離の確率。",
+            "zh-TW": "特寫鏡頭距離的機率。",
+            "ko": "클로즈업 카메라 거리 확률.",
+            "zh-CN": "特写相机距离的概率。"
+          }
         },
         {
           "name": "Zoom In",
@@ -362,7 +494,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of zooming in."
+          "description": "Probability of zooming in.",
+          "descriptions": {
+            "ja": "ズームインする確率。",
+            "zh-TW": "拉近鏡頭的機率。",
+            "ko": "줌 인 확률.",
+            "zh-CN": "放大概率。"
+          }
         },
         {
           "name": "Zoom Out",
@@ -378,7 +516,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of zooming out."
+          "description": "Probability of zooming out.",
+          "descriptions": {
+            "ja": "ズームアウトする確率。",
+            "zh-TW": "拉遠鏡頭的機率。",
+            "ko": "줌 아웃 확률.",
+            "zh-CN": "缩小概率。"
+          }
         },
         {
           "name": "Middle",
@@ -394,7 +538,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of a middle-range camera distance."
+          "description": "Probability of a middle-range camera distance.",
+          "descriptions": {
+            "ja": "中距離カメラの確率。",
+            "zh-TW": "中景鏡頭距離的機率。",
+            "ko": "중간 거리 카메라 거리 확률.",
+            "zh-CN": "中距离相机距离的概率。"
+          }
         },
         {
           "name": "Far",
@@ -410,7 +560,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of a far camera distance."
+          "description": "Probability of a far camera distance.",
+          "descriptions": {
+            "ja": "遠距離カメラの確率。",
+            "zh-TW": "遠景鏡頭距離的機率。",
+            "ko": "원거리 카메라 거리 확률.",
+            "zh-CN": "远距离相机距离的概率。"
+          }
         }
       ]
     },
@@ -429,6 +585,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "High Angle",
@@ -444,7 +606,13 @@
           "min": 0,
           "max": 30,
           "options": null,
-          "description": "Maximum upward angle for the camera."
+          "description": "Maximum upward angle for the camera.",
+          "descriptions": {
+            "ja": "カメラの最大上向き角度。",
+            "zh-TW": "相機的最大仰角。",
+            "ko": "카메라의 최대 상향 각도.",
+            "zh-CN": "相机允许的最大仰角。"
+          }
         },
         {
           "name": "Low Angle",
@@ -460,7 +628,13 @@
           "min": -30,
           "max": 0,
           "options": null,
-          "description": "Maximum downward angle for the camera."
+          "description": "Maximum downward angle for the camera.",
+          "descriptions": {
+            "ja": "カメラの最大下向き角度。",
+            "zh-TW": "相機的最大俯角。",
+            "ko": "카메라의 최대 하향 각도.",
+            "zh-CN": "相机允许的最大俯角。"
+          }
         }
       ]
     },
@@ -479,6 +653,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Front Center",
@@ -494,7 +674,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of orienting the camera to the front center of the actor."
+          "description": "Probability of orienting the camera to the front center of the actor.",
+          "descriptions": {
+            "ja": "カメラをアクターの正面中央に向ける確率。",
+            "zh-TW": "將相機朝向角色正前方中央的機率。",
+            "ko": "카메라를 배우의 전방 중앙으로 방향지을 확률.",
+            "zh-CN": "将相机朝向演员正前中心的概率。"
+          }
         },
         {
           "name": "Front 45",
@@ -510,7 +696,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of orienting the camera to a 45-degree angle in front of the actor."
+          "description": "Probability of orienting the camera to a 45-degree angle in front of the actor.",
+          "descriptions": {
+            "ja": "カメラをアクターの正面の45度角度に向ける確率。",
+            "zh-TW": "將相機朝向角色前方 45 度角的機率。",
+            "ko": "카메라를 배우 전방 45도 각도로 방향지을 확률.",
+            "zh-CN": "将相机朝向演员前方45度角度的概率。"
+          }
         },
         {
           "name": "Side 90",
@@ -526,7 +718,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of orienting the camera to the actor's side at a 90-degree angle."
+          "description": "Probability of orienting the camera to the actor's side at a 90-degree angle.",
+          "descriptions": {
+            "ja": "カメラをアクターの側面（90度角度）に向ける確率。",
+            "zh-TW": "將相機朝向角色側方 90 度角的機率。",
+            "ko": "카메라를 배우의 측면 90도 각도로 방향지을 확률.",
+            "zh-CN": "将相机朝向演员侧面90度角度的概率。"
+          }
         },
         {
           "name": "Back 135",
@@ -542,7 +740,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of orienting the camera to a 135-degree angle behind the actor."
+          "description": "Probability of orienting the camera to a 135-degree angle behind the actor.",
+          "descriptions": {
+            "ja": "カメラをアクターの後方135度角度に向ける確率。",
+            "zh-TW": "將相機朝向角色後方 135 度角的機率。",
+            "ko": "카메라를 배우 후방 135도 각도로 방향지을 확률.",
+            "zh-CN": "将相机朝向演员后方135度角度的概率。"
+          }
         },
         {
           "name": "Back 180",
@@ -558,7 +762,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Probability of orienting the camera directly behind the actor."
+          "description": "Probability of orienting the camera directly behind the actor.",
+          "descriptions": {
+            "ja": "カメラをアクターの真後ろに向ける確率。",
+            "zh-TW": "將相機直接朝向角色後方的機率。",
+            "ko": "카메라를 배우 바로 뒤로 방향지을 확률.",
+            "zh-CN": "将相机直接朝向演员后方的概率。"
+          }
         }
       ]
     }

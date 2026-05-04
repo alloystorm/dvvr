@@ -9,6 +9,12 @@
     "zh-CN": "[固定相机]"
   },
   "description": "Fixed camera positioned at a set location, always looking at the focused actor.\r\n\r\n## Framing\r\n\r\n**Size** controls how large the target actor appears in the camera view.\r\nLower values zoom in for a tighter frame; higher values show more of the\r\nsurrounding scene.\r\n\r\n**Target Center** shifts the focal point up or down on the actor's body.\r\nNegative values focus lower (legs/feet); positive values focus higher\r\n(chest/head).\r\n\r\n## Position\r\n\r\n**Offset** moves the camera's fixed position in 3D space. Use this to\r\nplace the camera exactly where you want it relative to the scene origin.\r\n\r\n**Shift** tilts the camera up or down while keeping its fixed position.\r\nThis changes the angle of view without moving the camera location.\r\n\r\n## Field of View\r\n\r\n**FOV** controls how wide the camera lens is. Lower values act like a\r\ntelephoto lens (narrow view, zoomed in); higher values act like a wide-angle\r\nlens (broader view, more perspective distortion).",
+  "descriptions": {
+    "ja": "(Fixed camera positioned at a set location, always looking at the focused actor.\r\n\r\n## Framing\r\n\r\n**Size** controls how large the target actor appears in the camera view.\r\nLower values zoom in for a tighter frame; higher values show more of the\r\nsurrounding scene.\r\n\r\n**Target Center** shifts the focal point up or down on the actor's body.\r\nNegative values focus lower (legs/feet); positive values focus higher\r\n(chest/head).\r\n\r\n## Position\r\n\r\n**Offset** moves the camera's fixed position in 3D space. Use this to\r\nplace the camera exactly where you want it relative to the scene origin.\r\n\r\n**Shift** tilts the camera up or down while keeping its fixed position.\r\nThis changes the angle of view without moving the camera location.\r\n\r\n## Field of View\r\n\r\n**FOV** controls how wide the camera lens is. Lower values act like a\r\ntelephoto lens (narrow view, zoomed in); higher values act like a wide-angle\r\nlens (broader view, more perspective distortion).)",
+    "zh-TW": "(Fixed camera positioned at a set location, always looking at the focused actor.\r\n\r\n## Framing\r\n\r\n**Size** controls how large the target actor appears in the camera view.\r\nLower values zoom in for a tighter frame; higher values show more of the\r\nsurrounding scene.\r\n\r\n**Target Center** shifts the focal point up or down on the actor's body.\r\nNegative values focus lower (legs/feet); positive values focus higher\r\n(chest/head).\r\n\r\n## Position\r\n\r\n**Offset** moves the camera's fixed position in 3D space. Use this to\r\nplace the camera exactly where you want it relative to the scene origin.\r\n\r\n**Shift** tilts the camera up or down while keeping its fixed position.\r\nThis changes the angle of view without moving the camera location.\r\n\r\n## Field of View\r\n\r\n**FOV** controls how wide the camera lens is. Lower values act like a\r\ntelephoto lens (narrow view, zoomed in); higher values act like a wide-angle\r\nlens (broader view, more perspective distortion).)",
+    "ko": "(Fixed camera positioned at a set location, always looking at the focused actor.\r\n\r\n## Framing\r\n\r\n**Size** controls how large the target actor appears in the camera view.\r\nLower values zoom in for a tighter frame; higher values show more of the\r\nsurrounding scene.\r\n\r\n**Target Center** shifts the focal point up or down on the actor's body.\r\nNegative values focus lower (legs/feet); positive values focus higher\r\n(chest/head).\r\n\r\n## Position\r\n\r\n**Offset** moves the camera's fixed position in 3D space. Use this to\r\nplace the camera exactly where you want it relative to the scene origin.\r\n\r\n**Shift** tilts the camera up or down while keeping its fixed position.\r\nThis changes the angle of view without moving the camera location.\r\n\r\n## Field of View\r\n\r\n**FOV** controls how wide the camera lens is. Lower values act like a\r\ntelephoto lens (narrow view, zoomed in); higher values act like a wide-angle\r\nlens (broader view, more perspective distortion).)",
+    "zh-CN": "(Fixed camera positioned at a set location, always looking at the focused actor.\r\n\r\n## Framing\r\n\r\n**Size** controls how large the target actor appears in the camera view.\r\nLower values zoom in for a tighter frame; higher values show more of the\r\nsurrounding scene.\r\n\r\n**Target Center** shifts the focal point up or down on the actor's body.\r\nNegative values focus lower (legs/feet); positive values focus higher\r\n(chest/head).\r\n\r\n## Position\r\n\r\n**Offset** moves the camera's fixed position in 3D space. Use this to\r\nplace the camera exactly where you want it relative to the scene origin.\r\n\r\n**Shift** tilts the camera up or down while keeping its fixed position.\r\nThis changes the angle of view without moving the camera location.\r\n\r\n## Field of View\r\n\r\n**FOV** controls how wide the camera lens is. Lower values act like a\r\ntelephoto lens (narrow view, zoomed in); higher values act like a wide-angle\r\nlens (broader view, more perspective distortion).)"
+  },
   "values": [
     {
       "name": "Target Select",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 5,
       "options": ["Auto", "Selected", "Group", "Rotate", "Rotate + Group", "Stage Center"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Tracking Mode",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 2,
       "options": ["Center", "Head", "Chest"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Target Smoothing",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 2,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Prediction",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 2,
       "options": null,
-      "description": "Predict position of the target to reduce lag caused by smoothing"
+      "description": "Predict position of the target to reduce lag caused by smoothing",
+      "descriptions": {
+        "ja": "平滑化による遅延を減らすためのターゲットの予測位置",
+        "zh-TW": "預測目標位置以減少平滑度造成的延遲",
+        "ko": "스무딩으로 인한 지연을 줄이기 위해 대상의 위치를 예측합니다",
+        "zh-CN": "预测目标位置以减少平滑处理引起的延迟"
+      }
     },
     {
       "name": "Lock On Target",
@@ -88,7 +118,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Automatically focus on target"
+      "description": "Automatically focus on target",
+      "descriptions": {
+        "ja": "ターゲットに自動でフォーカス",
+        "zh-TW": "自動聚焦目標",
+        "ko": "대상에 자동으로 초점 맞추기",
+        "zh-CN": "自动对焦到目标"
+      }
     },
     {
       "name": "Camera Shake",
@@ -104,7 +140,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Lock Rotation",
@@ -120,7 +162,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Camera follows the rotation of the target"
+      "description": "Camera follows the rotation of the target",
+      "descriptions": {
+        "ja": "カメラがターゲットの回転を追従",
+        "zh-TW": "相機跟隨目標旋轉",
+        "ko": "카메라가 대상의 회전을 따릅니다",
+        "zh-CN": "摄像机跟随目标旋转"
+      }
     },
     {
       "name": "Auto Zoom",
@@ -136,7 +184,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Automatically zoom in and out to maintain the target size in view"
+      "description": "Automatically zoom in and out to maintain the target size in view",
+      "descriptions": {
+        "ja": "ターゲットのサイズがビュー内で維持されるように自動でズームイン/アウト",
+        "zh-TW": "自動放大和縮小以維持視野中的目標大小",
+        "ko": "대상 크기를 보기 좋게 유지하기 위해 자동으로 확대/축소합니다",
+        "zh-CN": "自动缩放，保持目标在视野中的大小"
+      }
     },
     {
       "name": "Zoom Speed",
@@ -152,7 +206,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Time it takes to zoom to target FOV"
+      "description": "Time it takes to zoom to target FOV",
+      "descriptions": {
+        "ja": "ターゲットFOVにズームするのにかかる時間",
+        "zh-TW": "變焦到目標視野所需時間",
+        "ko": "대상 FOV까지 확대/축소되는 시간",
+        "zh-CN": "变焦到目标视场角所需时间"
+      }
     },
     {
       "name": "FOV Height At Target",
@@ -168,7 +228,13 @@
       "min": 0.2,
       "max": 2,
       "options": null,
-      "description": "Vertical height for the target when using auto zoom"
+      "description": "Vertical height for the target when using auto zoom",
+      "descriptions": {
+        "ja": "自動ズームを使用する場合のターゲットの垂直高さ",
+        "zh-TW": "使用自動變焦時目標的垂直高度",
+        "ko": "자동 확대/축소 사용 시 대상의 수직 높이",
+        "zh-CN": "使用自动变焦时的目标垂直高度"
+      }
     },
     {
       "name": "Vertical Offset",
@@ -184,7 +250,13 @@
       "min": -1,
       "max": 1,
       "options": null,
-      "description": "Offset vertically"
+      "description": "Offset vertically",
+      "descriptions": {
+        "ja": "垂直方向にオフセット",
+        "zh-TW": "垂直偏移",
+        "ko": "수직으로 오프셋",
+        "zh-CN": "垂直偏移"
+      }
     },
     {
       "name": "FOV",
@@ -200,7 +272,13 @@
       "min": 5,
       "max": 120,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Beat Cycle",
@@ -216,7 +294,13 @@
       "min": 1,
       "max": 16,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Size",
@@ -232,7 +316,13 @@
       "min": 0,
       "max": 2,
       "options": null,
-      "description": "Size of the target actor in the camera view."
+      "description": "Size of the target actor in the camera view.",
+      "descriptions": {
+        "ja": "カメラビューにおけるターゲットアクターのサイズ。",
+        "zh-TW": "視野中目標角色的尺寸。",
+        "ko": "카메라 뷰에서 대상 배우의 크기.",
+        "zh-CN": "目标表演者在相机视图中的尺寸。"
+      }
     },
     {
       "name": "Shift",
@@ -248,7 +338,13 @@
       "min": -1,
       "max": 1,
       "options": null,
-      "description": "Shift the camera position up or down."
+      "description": "Shift the camera position up or down.",
+      "descriptions": {
+        "ja": "カメラ位置を上下にシフトする。",
+        "zh-TW": "上下偏移攝影機位置。",
+        "ko": "카메라 위치를 상하로 이동시키기.",
+        "zh-CN": "向上或向下移位相机位置。"
+      }
     },
     {
       "name": "Target Center",
@@ -264,7 +360,13 @@
       "min": -1,
       "max": 1,
       "options": null,
-      "description": "Center position of the focal point on the target actor."
+      "description": "Center position of the focal point on the target actor.",
+      "descriptions": {
+        "ja": "ターゲットアクター上の焦点の位置の中心。",
+        "zh-TW": "焦點點在目標角色上的中心位置。",
+        "ko": "대상 배우의 초점 지점 중심 위치.",
+        "zh-CN": "焦点在目标表演者上的中心位置。"
+      }
     },
     {
       "name": "Offset",
@@ -281,6 +383,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "X",
@@ -296,7 +404,13 @@
           "min": -2,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Y",
@@ -312,7 +426,13 @@
           "min": -2,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Z",
@@ -328,7 +448,13 @@
           "min": -2,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     }

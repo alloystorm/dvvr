@@ -9,6 +9,12 @@
     "zh-CN": "光球"
   },
   "description": "Spawns physics-driven glowing orbs attached to actor bones.\r\n**Shape** selects Ball, Diamond, or Crystal mesh. **Size**\r\nscales the orbs. Toggle attachment points: **Hands**,\r\n**Hip**, and **Torso**.\r\n\r\nThe **Style** panel controls appearance with presets\r\n(Glow, Reflective, Crystal), color, gloss, glow, metallic,\r\nintensity, refraction, shadow, and trail. Use **Stage\r\nColor** to sync with scene lighting or **Flashing With\r\nBeats** for audio-reactive pulsing.\r\n\r\nThe **Physics** panel configures spring joint behavior with\r\npresets (Spring, Hanging, Floating), gravity, collision,\r\nmass, distance, spring force, damping, and speed limits.",
+  "descriptions": {
+    "ja": "(Spawns physics-driven glowing orbs attached to actor bones.\r\n**Shape** selects Ball, Diamond, or Crystal mesh. **Size**\r\nscales the orbs. Toggle attachment points: **Hands**,\r\n**Hip**, and **Torso**.\r\n\r\nThe **Style** panel controls appearance with presets\r\n(Glow, Reflective, Crystal), color, gloss, glow, metallic,\r\nintensity, refraction, shadow, and trail. Use **Stage\r\nColor** to sync with scene lighting or **Flashing With\r\nBeats** for audio-reactive pulsing.\r\n\r\nThe **Physics** panel configures spring joint behavior with\r\npresets (Spring, Hanging, Floating), gravity, collision,\r\nmass, distance, spring force, damping, and speed limits.)",
+    "zh-TW": "(Spawns physics-driven glowing orbs attached to actor bones.\r\n**Shape** selects Ball, Diamond, or Crystal mesh. **Size**\r\nscales the orbs. Toggle attachment points: **Hands**,\r\n**Hip**, and **Torso**.\r\n\r\nThe **Style** panel controls appearance with presets\r\n(Glow, Reflective, Crystal), color, gloss, glow, metallic,\r\nintensity, refraction, shadow, and trail. Use **Stage\r\nColor** to sync with scene lighting or **Flashing With\r\nBeats** for audio-reactive pulsing.\r\n\r\nThe **Physics** panel configures spring joint behavior with\r\npresets (Spring, Hanging, Floating), gravity, collision,\r\nmass, distance, spring force, damping, and speed limits.)",
+    "ko": "(Spawns physics-driven glowing orbs attached to actor bones.\r\n**Shape** selects Ball, Diamond, or Crystal mesh. **Size**\r\nscales the orbs. Toggle attachment points: **Hands**,\r\n**Hip**, and **Torso**.\r\n\r\nThe **Style** panel controls appearance with presets\r\n(Glow, Reflective, Crystal), color, gloss, glow, metallic,\r\nintensity, refraction, shadow, and trail. Use **Stage\r\nColor** to sync with scene lighting or **Flashing With\r\nBeats** for audio-reactive pulsing.\r\n\r\nThe **Physics** panel configures spring joint behavior with\r\npresets (Spring, Hanging, Floating), gravity, collision,\r\nmass, distance, spring force, damping, and speed limits.)",
+    "zh-CN": "(Spawns physics-driven glowing orbs attached to actor bones.\r\n**Shape** selects Ball, Diamond, or Crystal mesh. **Size**\r\nscales the orbs. Toggle attachment points: **Hands**,\r\n**Hip**, and **Torso**.\r\n\r\nThe **Style** panel controls appearance with presets\r\n(Glow, Reflective, Crystal), color, gloss, glow, metallic,\r\nintensity, refraction, shadow, and trail. Use **Stage\r\nColor** to sync with scene lighting or **Flashing With\r\nBeats** for audio-reactive pulsing.\r\n\r\nThe **Physics** panel configures spring joint behavior with\r\npresets (Spring, Hanging, Floating), gravity, collision,\r\nmass, distance, spring force, damping, and speed limits.)"
+  },
   "values": [
     {
       "name": "Shape",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 2,
       "options": ["Ball", "Diamond", "Crystal"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Size",
@@ -40,7 +52,13 @@
       "min": 0.1,
       "max": 10,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Style",
@@ -57,6 +75,12 @@
       "max": 1,
       "options": null,
       "description": "Nested config for light ball appearance. Presets: **Glow**\r\n(emissive), **Reflective** (metallic), **Crystal**\r\n(refractive). **Use Stage Color** syncs with scene\r\nlighting. **Flashing With Beats** pulses intensity to\r\naudio. Controls **Color**, **Gloss**, **Glow**, **Radius**,\r\n**Metallic**, **Intensity**, **Refraction**, **Cast\r\nShadow**, and **Trail** length.",
+      "descriptions": {
+        "ja": "(Nested config for light ball appearance. Presets: **Glow**\r\n(emissive), **Reflective** (metallic), **Crystal**\r\n(refractive). **Use Stage Color** syncs with scene\r\nlighting. **Flashing With Beats** pulses intensity to\r\naudio. Controls **Color**, **Gloss**, **Glow**, **Radius**,\r\n**Metallic**, **Intensity**, **Refraction**, **Cast\r\nShadow**, and **Trail** length.)",
+        "zh-TW": "(Nested config for light ball appearance. Presets: **Glow**\r\n(emissive), **Reflective** (metallic), **Crystal**\r\n(refractive). **Use Stage Color** syncs with scene\r\nlighting. **Flashing With Beats** pulses intensity to\r\naudio. Controls **Color**, **Gloss**, **Glow**, **Radius**,\r\n**Metallic**, **Intensity**, **Refraction**, **Cast\r\nShadow**, and **Trail** length.)",
+        "ko": "(Nested config for light ball appearance. Presets: **Glow**\r\n(emissive), **Reflective** (metallic), **Crystal**\r\n(refractive). **Use Stage Color** syncs with scene\r\nlighting. **Flashing With Beats** pulses intensity to\r\naudio. Controls **Color**, **Gloss**, **Glow**, **Radius**,\r\n**Metallic**, **Intensity**, **Refraction**, **Cast\r\nShadow**, and **Trail** length.)",
+        "zh-CN": "(Nested config for light ball appearance. Presets: **Glow**\r\n(emissive), **Reflective** (metallic), **Crystal**\r\n(refractive). **Use Stage Color** syncs with scene\r\nlighting. **Flashing With Beats** pulses intensity to\r\naudio. Controls **Color**, **Gloss**, **Glow**, **Radius**,\r\n**Metallic**, **Intensity**, **Refraction**, **Cast\r\nShadow**, and **Trail** length.)"
+      },
       "values": [
         {
           "name": "Use Stage Color",
@@ -72,7 +96,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Flashing With Beats",
@@ -88,7 +118,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Color",
@@ -105,6 +141,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "Color Mode",
@@ -120,7 +162,13 @@
               "min": 0,
               "max": 1,
               "options": ["RGB", "HSV"],
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Hue",
@@ -136,7 +184,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Satuation",
@@ -152,7 +206,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Brightness",
@@ -168,7 +228,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Red",
@@ -184,7 +250,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Green",
@@ -200,7 +272,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Blue",
@@ -216,7 +294,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Glow",
@@ -232,7 +316,13 @@
               "min": 0,
               "max": 5,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -250,7 +340,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Intensity",
@@ -266,7 +362,13 @@
           "min": 0,
           "max": 100,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Glow",
@@ -282,7 +384,13 @@
           "min": 0,
           "max": 10,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Radius",
@@ -298,7 +406,13 @@
           "min": 0,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Metallic",
@@ -314,7 +428,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Refraction",
@@ -330,7 +450,13 @@
           "min": -2,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Cast Shadow",
@@ -346,7 +472,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Trail",
@@ -362,7 +494,13 @@
           "min": 0,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -381,6 +519,12 @@
       "max": 1,
       "options": null,
       "description": "Nested config for light ball physics behavior. Presets:\r\n**Spring** (no gravity/collision), **Hanging** (gravity +\r\ncollision), **Floating** (no gravity/collision). **Gravity**\r\nenables downward force. **Collision** enables physics\r\ncollisions. **Mass**, **Distance**, **Spring Force**, and\r\n**Damping** configure the spring joint. **Min/Max Speed**\r\nclamp velocity.",
+      "descriptions": {
+        "ja": "(Nested config for light ball physics behavior. Presets:\r\n**Spring** (no gravity/collision), **Hanging** (gravity +\r\ncollision), **Floating** (no gravity/collision). **Gravity**\r\nenables downward force. **Collision** enables physics\r\ncollisions. **Mass**, **Distance**, **Spring Force**, and\r\n**Damping** configure the spring joint. **Min/Max Speed**\r\nclamp velocity.)",
+        "zh-TW": "(Nested config for light ball physics behavior. Presets:\r\n**Spring** (no gravity/collision), **Hanging** (gravity +\r\ncollision), **Floating** (no gravity/collision). **Gravity**\r\nenables downward force. **Collision** enables physics\r\ncollisions. **Mass**, **Distance**, **Spring Force**, and\r\n**Damping** configure the spring joint. **Min/Max Speed**\r\nclamp velocity.)",
+        "ko": "(Nested config for light ball physics behavior. Presets:\r\n**Spring** (no gravity/collision), **Hanging** (gravity +\r\ncollision), **Floating** (no gravity/collision). **Gravity**\r\nenables downward force. **Collision** enables physics\r\ncollisions. **Mass**, **Distance**, **Spring Force**, and\r\n**Damping** configure the spring joint. **Min/Max Speed**\r\nclamp velocity.)",
+        "zh-CN": "(Nested config for light ball physics behavior. Presets:\r\n**Spring** (no gravity/collision), **Hanging** (gravity +\r\ncollision), **Floating** (no gravity/collision). **Gravity**\r\nenables downward force. **Collision** enables physics\r\ncollisions. **Mass**, **Distance**, **Spring Force**, and\r\n**Damping** configure the spring joint. **Min/Max Speed**\r\nclamp velocity.)"
+      },
       "values": [
         {
           "name": "Gravity",
@@ -396,7 +540,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Collision",
@@ -412,7 +562,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Mass",
@@ -428,7 +584,13 @@
           "min": 0,
           "max": 10,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Distance",
@@ -444,7 +606,13 @@
           "min": 0,
           "max": 0.5,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Spring Force",
@@ -460,7 +628,13 @@
           "min": 0,
           "max": 1000,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Damping",
@@ -476,7 +650,13 @@
           "min": 0,
           "max": 10,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Min Speed",
@@ -492,7 +672,13 @@
           "min": 0,
           "max": 5,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Max Speed",
@@ -508,7 +694,13 @@
           "min": 2,
           "max": 15,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -526,7 +718,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Hip",
@@ -542,7 +740,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Torso",
@@ -558,7 +762,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     }
   ]
 }

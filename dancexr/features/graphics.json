@@ -9,6 +9,12 @@
     "zh-CN": "图形"
   },
   "description": "Controls all rendering quality settings for the HDRP (HD and RT)\r\nversions of DanceXR. Choose a preset to get a balanced starting\r\npoint, then tune individual features to hit your performance and\r\nvisual targets.\r\n\r\n\r\n## Presets\r\n\r\nSix presets cover the common range: *Performance* disables\r\nreflections and most screen-space effects; *Medium* adds fog and\r\nscreen-space shadows; *High* enables screen-space reflections;\r\n*Indoor GI* and *Outdoor GI* activate global illumination without\r\nor with sky contribution; *Dither + TAA* pairs temporal\r\nanti-aliasing with dithered transparency for a clean look.\r\n\r\n\r\n## Anti-Aliasing & Super Sampling\r\n\r\n**Anti-Aliasing** selects the per-camera technique — no AA,\r\nSMAA (deferred), or TAA. **Super Sampling** unlocks DLSS or FSR\r\nupscaling when supported, which can boost frame rate at the cost\r\nof a small sharpness trade-off.\r\n\r\n\r\n## Reflection\r\n\r\nScreen-space reflections or a planar reflection probe. Use\r\n*Screen Space* mode for general surfaces; switch to *Probe* for\r\nflat floors or mirrors. Quality, edge fade distance, and fallback\r\nbehaviour are tunable in the sub-section.\r\n\r\n\r\n## Ambient Occlusion & Global Illumination\r\n\r\n**Ambient Occlusion** adds contact shadows in crevices for\r\ngrounded depth. **Global Illumination** adds indirect bounce\r\nlight — enable *Fallback To Sky* for outdoor scenes so surfaces\r\nfacing away from lights still receive sky colour.\r\n\r\n\r\n## Post-Process Effects\r\n\r\n**Depth Of Field** blurs out-of-focus objects around the tracked\r\nactor. **Motion Blur** adds velocity-based blur on fast movement.\r\n**Bloom** makes bright highlights glow. **Lens Flare** adds\r\nscreen-space scattering around bright light sources — disable in\r\nVR to avoid discomfort.\r\n\r\n\r\n## Fog\r\n\r\nEnable volumetric fog and set its height band and maximum render\r\ndistance. Fog density itself is driven by the **Fog** slider in\r\nthe Lighting panel.\r\n\r\n\r\n## Color Adjustment\r\n\r\nTonemapping, exposure, contrast, hue shift, saturation, a color\r\nfilter, a two-point tone curve, and white balance all live here.\r\nThe **Color Curve** maps input luminance to output luminance;\r\nuseful for stylised looks or protecting highlights.\r\n\r\n\r\n## Options\r\n\r\nMiscellaneous rendering flags: **Transparent Prepass** hides\r\nobjects seen through transparent surfaces; **Toon Shading**\r\nswitches actors or stages to a flat cel look; **Dithering\r\nTransparency** forces stippled blending for all transparent\r\nmaterials; **Bump Map Shadow** adds micro-shadow from normal\r\nmaps; **Compute Thickness** enables subsurface skin effects.\r\n\r\n\r\n## Posterization\r\n\r\nA custom-pass effect that adds outlines, posterized\r\nillumination, or a halftone screen over the final frame — useful\r\nfor anime or comic-strip aesthetics.",
+  "descriptions": {
+    "ja": "(Controls all rendering quality settings for the HDRP (HD and RT)\r\nversions of DanceXR. Choose a preset to get a balanced starting\r\npoint, then tune individual features to hit your performance and\r\nvisual targets.\r\n\r\n\r\n## Presets\r\n\r\nSix presets cover the common range: *Performance* disables\r\nreflections and most screen-space effects; *Medium* adds fog and\r\nscreen-space shadows; *High* enables screen-space reflections;\r\n*Indoor GI* and *Outdoor GI* activate global illumination without\r\nor with sky contribution; *Dither + TAA* pairs temporal\r\nanti-aliasing with dithered transparency for a clean look.\r\n\r\n\r\n## Anti-Aliasing & Super Sampling\r\n\r\n**Anti-Aliasing** selects the per-camera technique — no AA,\r\nSMAA (deferred), or TAA. **Super Sampling** unlocks DLSS or FSR\r\nupscaling when supported, which can boost frame rate at the cost\r\nof a small sharpness trade-off.\r\n\r\n\r\n## Reflection\r\n\r\nScreen-space reflections or a planar reflection probe. Use\r\n*Screen Space* mode for general surfaces; switch to *Probe* for\r\nflat floors or mirrors. Quality, edge fade distance, and fallback\r\nbehaviour are tunable in the sub-section.\r\n\r\n\r\n## Ambient Occlusion & Global Illumination\r\n\r\n**Ambient Occlusion** adds contact shadows in crevices for\r\ngrounded depth. **Global Illumination** adds indirect bounce\r\nlight — enable *Fallback To Sky* for outdoor scenes so surfaces\r\nfacing away from lights still receive sky colour.\r\n\r\n\r\n## Post-Process Effects\r\n\r\n**Depth Of Field** blurs out-of-focus objects around the tracked\r\nactor. **Motion Blur** adds velocity-based blur on fast movement.\r\n**Bloom** makes bright highlights glow. **Lens Flare** adds\r\nscreen-space scattering around bright light sources — disable in\r\nVR to avoid discomfort.\r\n\r\n\r\n## Fog\r\n\r\nEnable volumetric fog and set its height band and maximum render\r\ndistance. Fog density itself is driven by the **Fog** slider in\r\nthe Lighting panel.\r\n\r\n\r\n## Color Adjustment\r\n\r\nTonemapping, exposure, contrast, hue shift, saturation, a color\r\nfilter, a two-point tone curve, and white balance all live here.\r\nThe **Color Curve** maps input luminance to output luminance;\r\nuseful for stylised looks or protecting highlights.\r\n\r\n\r\n## Options\r\n\r\nMiscellaneous rendering flags: **Transparent Prepass** hides\r\nobjects seen through transparent surfaces; **Toon Shading**\r\nswitches actors or stages to a flat cel look; **Dithering\r\nTransparency** forces stippled blending for all transparent\r\nmaterials; **Bump Map Shadow** adds micro-shadow from normal\r\nmaps; **Compute Thickness** enables subsurface skin effects.\r\n\r\n\r\n## Posterization\r\n\r\nA custom-pass effect that adds outlines, posterized\r\nillumination, or a halftone screen over the final frame — useful\r\nfor anime or comic-strip aesthetics.)",
+    "zh-TW": "(Controls all rendering quality settings for the HDRP (HD and RT)\r\nversions of DanceXR. Choose a preset to get a balanced starting\r\npoint, then tune individual features to hit your performance and\r\nvisual targets.\r\n\r\n\r\n## Presets\r\n\r\nSix presets cover the common range: *Performance* disables\r\nreflections and most screen-space effects; *Medium* adds fog and\r\nscreen-space shadows; *High* enables screen-space reflections;\r\n*Indoor GI* and *Outdoor GI* activate global illumination without\r\nor with sky contribution; *Dither + TAA* pairs temporal\r\nanti-aliasing with dithered transparency for a clean look.\r\n\r\n\r\n## Anti-Aliasing & Super Sampling\r\n\r\n**Anti-Aliasing** selects the per-camera technique — no AA,\r\nSMAA (deferred), or TAA. **Super Sampling** unlocks DLSS or FSR\r\nupscaling when supported, which can boost frame rate at the cost\r\nof a small sharpness trade-off.\r\n\r\n\r\n## Reflection\r\n\r\nScreen-space reflections or a planar reflection probe. Use\r\n*Screen Space* mode for general surfaces; switch to *Probe* for\r\nflat floors or mirrors. Quality, edge fade distance, and fallback\r\nbehaviour are tunable in the sub-section.\r\n\r\n\r\n## Ambient Occlusion & Global Illumination\r\n\r\n**Ambient Occlusion** adds contact shadows in crevices for\r\ngrounded depth. **Global Illumination** adds indirect bounce\r\nlight — enable *Fallback To Sky* for outdoor scenes so surfaces\r\nfacing away from lights still receive sky colour.\r\n\r\n\r\n## Post-Process Effects\r\n\r\n**Depth Of Field** blurs out-of-focus objects around the tracked\r\nactor. **Motion Blur** adds velocity-based blur on fast movement.\r\n**Bloom** makes bright highlights glow. **Lens Flare** adds\r\nscreen-space scattering around bright light sources — disable in\r\nVR to avoid discomfort.\r\n\r\n\r\n## Fog\r\n\r\nEnable volumetric fog and set its height band and maximum render\r\ndistance. Fog density itself is driven by the **Fog** slider in\r\nthe Lighting panel.\r\n\r\n\r\n## Color Adjustment\r\n\r\nTonemapping, exposure, contrast, hue shift, saturation, a color\r\nfilter, a two-point tone curve, and white balance all live here.\r\nThe **Color Curve** maps input luminance to output luminance;\r\nuseful for stylised looks or protecting highlights.\r\n\r\n\r\n## Options\r\n\r\nMiscellaneous rendering flags: **Transparent Prepass** hides\r\nobjects seen through transparent surfaces; **Toon Shading**\r\nswitches actors or stages to a flat cel look; **Dithering\r\nTransparency** forces stippled blending for all transparent\r\nmaterials; **Bump Map Shadow** adds micro-shadow from normal\r\nmaps; **Compute Thickness** enables subsurface skin effects.\r\n\r\n\r\n## Posterization\r\n\r\nA custom-pass effect that adds outlines, posterized\r\nillumination, or a halftone screen over the final frame — useful\r\nfor anime or comic-strip aesthetics.)",
+    "ko": "(Controls all rendering quality settings for the HDRP (HD and RT)\r\nversions of DanceXR. Choose a preset to get a balanced starting\r\npoint, then tune individual features to hit your performance and\r\nvisual targets.\r\n\r\n\r\n## Presets\r\n\r\nSix presets cover the common range: *Performance* disables\r\nreflections and most screen-space effects; *Medium* adds fog and\r\nscreen-space shadows; *High* enables screen-space reflections;\r\n*Indoor GI* and *Outdoor GI* activate global illumination without\r\nor with sky contribution; *Dither + TAA* pairs temporal\r\nanti-aliasing with dithered transparency for a clean look.\r\n\r\n\r\n## Anti-Aliasing & Super Sampling\r\n\r\n**Anti-Aliasing** selects the per-camera technique — no AA,\r\nSMAA (deferred), or TAA. **Super Sampling** unlocks DLSS or FSR\r\nupscaling when supported, which can boost frame rate at the cost\r\nof a small sharpness trade-off.\r\n\r\n\r\n## Reflection\r\n\r\nScreen-space reflections or a planar reflection probe. Use\r\n*Screen Space* mode for general surfaces; switch to *Probe* for\r\nflat floors or mirrors. Quality, edge fade distance, and fallback\r\nbehaviour are tunable in the sub-section.\r\n\r\n\r\n## Ambient Occlusion & Global Illumination\r\n\r\n**Ambient Occlusion** adds contact shadows in crevices for\r\ngrounded depth. **Global Illumination** adds indirect bounce\r\nlight — enable *Fallback To Sky* for outdoor scenes so surfaces\r\nfacing away from lights still receive sky colour.\r\n\r\n\r\n## Post-Process Effects\r\n\r\n**Depth Of Field** blurs out-of-focus objects around the tracked\r\nactor. **Motion Blur** adds velocity-based blur on fast movement.\r\n**Bloom** makes bright highlights glow. **Lens Flare** adds\r\nscreen-space scattering around bright light sources — disable in\r\nVR to avoid discomfort.\r\n\r\n\r\n## Fog\r\n\r\nEnable volumetric fog and set its height band and maximum render\r\ndistance. Fog density itself is driven by the **Fog** slider in\r\nthe Lighting panel.\r\n\r\n\r\n## Color Adjustment\r\n\r\nTonemapping, exposure, contrast, hue shift, saturation, a color\r\nfilter, a two-point tone curve, and white balance all live here.\r\nThe **Color Curve** maps input luminance to output luminance;\r\nuseful for stylised looks or protecting highlights.\r\n\r\n\r\n## Options\r\n\r\nMiscellaneous rendering flags: **Transparent Prepass** hides\r\nobjects seen through transparent surfaces; **Toon Shading**\r\nswitches actors or stages to a flat cel look; **Dithering\r\nTransparency** forces stippled blending for all transparent\r\nmaterials; **Bump Map Shadow** adds micro-shadow from normal\r\nmaps; **Compute Thickness** enables subsurface skin effects.\r\n\r\n\r\n## Posterization\r\n\r\nA custom-pass effect that adds outlines, posterized\r\nillumination, or a halftone screen over the final frame — useful\r\nfor anime or comic-strip aesthetics.)",
+    "zh-CN": "(Controls all rendering quality settings for the HDRP (HD and RT)\r\nversions of DanceXR. Choose a preset to get a balanced starting\r\npoint, then tune individual features to hit your performance and\r\nvisual targets.\r\n\r\n\r\n## Presets\r\n\r\nSix presets cover the common range: *Performance* disables\r\nreflections and most screen-space effects; *Medium* adds fog and\r\nscreen-space shadows; *High* enables screen-space reflections;\r\n*Indoor GI* and *Outdoor GI* activate global illumination without\r\nor with sky contribution; *Dither + TAA* pairs temporal\r\nanti-aliasing with dithered transparency for a clean look.\r\n\r\n\r\n## Anti-Aliasing & Super Sampling\r\n\r\n**Anti-Aliasing** selects the per-camera technique — no AA,\r\nSMAA (deferred), or TAA. **Super Sampling** unlocks DLSS or FSR\r\nupscaling when supported, which can boost frame rate at the cost\r\nof a small sharpness trade-off.\r\n\r\n\r\n## Reflection\r\n\r\nScreen-space reflections or a planar reflection probe. Use\r\n*Screen Space* mode for general surfaces; switch to *Probe* for\r\nflat floors or mirrors. Quality, edge fade distance, and fallback\r\nbehaviour are tunable in the sub-section.\r\n\r\n\r\n## Ambient Occlusion & Global Illumination\r\n\r\n**Ambient Occlusion** adds contact shadows in crevices for\r\ngrounded depth. **Global Illumination** adds indirect bounce\r\nlight — enable *Fallback To Sky* for outdoor scenes so surfaces\r\nfacing away from lights still receive sky colour.\r\n\r\n\r\n## Post-Process Effects\r\n\r\n**Depth Of Field** blurs out-of-focus objects around the tracked\r\nactor. **Motion Blur** adds velocity-based blur on fast movement.\r\n**Bloom** makes bright highlights glow. **Lens Flare** adds\r\nscreen-space scattering around bright light sources — disable in\r\nVR to avoid discomfort.\r\n\r\n\r\n## Fog\r\n\r\nEnable volumetric fog and set its height band and maximum render\r\ndistance. Fog density itself is driven by the **Fog** slider in\r\nthe Lighting panel.\r\n\r\n\r\n## Color Adjustment\r\n\r\nTonemapping, exposure, contrast, hue shift, saturation, a color\r\nfilter, a two-point tone curve, and white balance all live here.\r\nThe **Color Curve** maps input luminance to output luminance;\r\nuseful for stylised looks or protecting highlights.\r\n\r\n\r\n## Options\r\n\r\nMiscellaneous rendering flags: **Transparent Prepass** hides\r\nobjects seen through transparent surfaces; **Toon Shading**\r\nswitches actors or stages to a flat cel look; **Dithering\r\nTransparency** forces stippled blending for all transparent\r\nmaterials; **Bump Map Shadow** adds micro-shadow from normal\r\nmaps; **Compute Thickness** enables subsurface skin effects.\r\n\r\n\r\n## Posterization\r\n\r\nA custom-pass effect that adds outlines, posterized\r\nillumination, or a halftone screen over the final frame — useful\r\nfor anime or comic-strip aesthetics.)"
+  },
   "values": [
     {
       "name": "Anti-Aliasing",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 2,
       "options": ["No AA", "Deferred SMAA", "Deferred TAA"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Super Sampling",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 8,
       "options": ["Off", "DLSS Performance", "DLSS Balance", "DLSS Quality", "DLSS Ultra Performance", "FSR 50%", "FSR 66%", "FSR 75%", "FSR 100%"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Reflection",
@@ -57,6 +75,12 @@
       "max": 1,
       "options": null,
       "description": "Configures screen-space reflections or a planar reflection probe.\r\n*Screen Space* mode ray-marches the depth buffer to find\r\nreflected surfaces — it works on any geometry but cannot reflect\r\nobjects outside the camera view. Switch to *Probe* mode for flat\r\nsurfaces such as floors or mirrors, which uses a planar capture\r\nthat is always complete but costs more performance.\r\n\r\n\r\n## Algorithm\r\n\r\nIn *Screen Space* mode, *Approximation* is faster and suits most\r\nsurfaces; *PBR Accumulation* is more physically accurate for\r\nrough materials but requires TAA to converge cleanly.\r\n**Edge Fade Dist** fades reflections near screen borders to hide\r\nartefacts; **Object Thickness** controls how deep the march\r\nassumes surfaces to be.\r\n\r\n\r\n## Sky Reflection & Fallback\r\n\r\n**Sky Reflection** allows the camera sky to contribute to\r\nreflections on upward-facing surfaces. **Fallback To Sky** fills\r\nin reflection probe coverage for areas the screen-space pass\r\nmisses, at the cost of a slight accuracy trade-off.",
+      "descriptions": {
+        "ja": "(Configures screen-space reflections or a planar reflection probe.\r\n*Screen Space* mode ray-marches the depth buffer to find\r\nreflected surfaces — it works on any geometry but cannot reflect\r\nobjects outside the camera view. Switch to *Probe* mode for flat\r\nsurfaces such as floors or mirrors, which uses a planar capture\r\nthat is always complete but costs more performance.\r\n\r\n\r\n## Algorithm\r\n\r\nIn *Screen Space* mode, *Approximation* is faster and suits most\r\nsurfaces; *PBR Accumulation* is more physically accurate for\r\nrough materials but requires TAA to converge cleanly.\r\n**Edge Fade Dist** fades reflections near screen borders to hide\r\nartefacts; **Object Thickness** controls how deep the march\r\nassumes surfaces to be.\r\n\r\n\r\n## Sky Reflection & Fallback\r\n\r\n**Sky Reflection** allows the camera sky to contribute to\r\nreflections on upward-facing surfaces. **Fallback To Sky** fills\r\nin reflection probe coverage for areas the screen-space pass\r\nmisses, at the cost of a slight accuracy trade-off.)",
+        "zh-TW": "(Configures screen-space reflections or a planar reflection probe.\r\n*Screen Space* mode ray-marches the depth buffer to find\r\nreflected surfaces — it works on any geometry but cannot reflect\r\nobjects outside the camera view. Switch to *Probe* mode for flat\r\nsurfaces such as floors or mirrors, which uses a planar capture\r\nthat is always complete but costs more performance.\r\n\r\n\r\n## Algorithm\r\n\r\nIn *Screen Space* mode, *Approximation* is faster and suits most\r\nsurfaces; *PBR Accumulation* is more physically accurate for\r\nrough materials but requires TAA to converge cleanly.\r\n**Edge Fade Dist** fades reflections near screen borders to hide\r\nartefacts; **Object Thickness** controls how deep the march\r\nassumes surfaces to be.\r\n\r\n\r\n## Sky Reflection & Fallback\r\n\r\n**Sky Reflection** allows the camera sky to contribute to\r\nreflections on upward-facing surfaces. **Fallback To Sky** fills\r\nin reflection probe coverage for areas the screen-space pass\r\nmisses, at the cost of a slight accuracy trade-off.)",
+        "ko": "(Configures screen-space reflections or a planar reflection probe.\r\n*Screen Space* mode ray-marches the depth buffer to find\r\nreflected surfaces — it works on any geometry but cannot reflect\r\nobjects outside the camera view. Switch to *Probe* mode for flat\r\nsurfaces such as floors or mirrors, which uses a planar capture\r\nthat is always complete but costs more performance.\r\n\r\n\r\n## Algorithm\r\n\r\nIn *Screen Space* mode, *Approximation* is faster and suits most\r\nsurfaces; *PBR Accumulation* is more physically accurate for\r\nrough materials but requires TAA to converge cleanly.\r\n**Edge Fade Dist** fades reflections near screen borders to hide\r\nartefacts; **Object Thickness** controls how deep the march\r\nassumes surfaces to be.\r\n\r\n\r\n## Sky Reflection & Fallback\r\n\r\n**Sky Reflection** allows the camera sky to contribute to\r\nreflections on upward-facing surfaces. **Fallback To Sky** fills\r\nin reflection probe coverage for areas the screen-space pass\r\nmisses, at the cost of a slight accuracy trade-off.)",
+        "zh-CN": "(Configures screen-space reflections or a planar reflection probe.\r\n*Screen Space* mode ray-marches the depth buffer to find\r\nreflected surfaces — it works on any geometry but cannot reflect\r\nobjects outside the camera view. Switch to *Probe* mode for flat\r\nsurfaces such as floors or mirrors, which uses a planar capture\r\nthat is always complete but costs more performance.\r\n\r\n\r\n## Algorithm\r\n\r\nIn *Screen Space* mode, *Approximation* is faster and suits most\r\nsurfaces; *PBR Accumulation* is more physically accurate for\r\nrough materials but requires TAA to converge cleanly.\r\n**Edge Fade Dist** fades reflections near screen borders to hide\r\nartefacts; **Object Thickness** controls how deep the march\r\nassumes surfaces to be.\r\n\r\n\r\n## Sky Reflection & Fallback\r\n\r\n**Sky Reflection** allows the camera sky to contribute to\r\nreflections on upward-facing surfaces. **Fallback To Sky** fills\r\nin reflection probe coverage for areas the screen-space pass\r\nmisses, at the cost of a slight accuracy trade-off.)"
+      },
       "values": [
         {
           "name": "Mode",
@@ -72,7 +96,13 @@
           "min": 0,
           "max": 1,
           "options": ["Screen Space", "Probe"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Quality",
@@ -88,7 +118,13 @@
           "min": 0,
           "max": 2,
           "options": ["Low", "Medium", "High"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Algorithm",
@@ -104,7 +140,13 @@
           "min": 0,
           "max": 1,
           "options": ["Approximation", "PBRAccumulation"],
-          "description": "Algorithm for screen space reflection."
+          "description": "Algorithm for screen space reflection.",
+          "descriptions": {
+            "ja": "スクリーン空間反射のアルゴリズム。",
+            "zh-TW": "用於螢幕空間反射的演算法。",
+            "ko": "화면 공간 반사 알고리즘.",
+            "zh-CN": "屏幕空间反射的算法。"
+          }
         },
         {
           "name": "Edge Fade Dist",
@@ -120,7 +162,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Object Thickness",
@@ -136,7 +184,13 @@
           "min": 0,
           "max": 0.1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Fallback To Sky",
@@ -152,7 +206,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Fallback to sky color when raytracing has no hit."
+          "description": "Fallback to sky color when raytracing has no hit.",
+          "descriptions": {
+            "ja": "レイマーチングでヒットがない場合の空色へのフォールバック。",
+            "zh-TW": "當光線追蹤沒有命中時，回退到天空顏色。",
+            "ko": "레이트레이싱에서 히트가 없을 때 하늘색으로 폴백.",
+            "zh-CN": "光线追踪没有命中时，默认使用天空颜色。"
+          }
         },
         {
           "name": "Sky Reflection",
@@ -168,7 +228,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -187,6 +253,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Volumetric Fog",
@@ -202,7 +274,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Base Height",
@@ -218,7 +296,13 @@
           "min": 0,
           "max": 10,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Max Height",
@@ -234,7 +318,13 @@
           "min": 10,
           "max": 100,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Max Distance",
@@ -250,7 +340,13 @@
           "min": 0,
           "max": 10000,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -269,6 +365,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Quality",
@@ -284,7 +386,13 @@
           "min": 0,
           "max": 2,
           "options": ["Low", "Medium", "High"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Intensity",
@@ -300,7 +408,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -319,6 +433,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Quality",
@@ -334,7 +454,13 @@
           "min": 0,
           "max": 2,
           "options": ["Low", "Medium", "High"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Fallback To Sky",
@@ -350,7 +476,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -369,6 +501,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Quality",
@@ -384,7 +522,13 @@
           "min": 0,
           "max": 2,
           "options": ["Low", "Medium", "High"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Intensity",
@@ -400,7 +544,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Offset",
@@ -416,7 +566,13 @@
           "min": -1,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -435,6 +591,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Quality",
@@ -450,7 +612,13 @@
           "min": 0,
           "max": 2,
           "options": ["Low", "Medium", "High"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Intensity",
@@ -466,7 +634,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -485,6 +659,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Quality",
@@ -500,7 +680,13 @@
           "min": 0,
           "max": 2,
           "options": ["Low", "Medium", "High"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Intensity",
@@ -516,7 +702,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -535,6 +727,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Disable in VR",
@@ -550,7 +748,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "This effect is not recommended for VR"
+          "description": "This effect is not recommended for VR",
+          "descriptions": {
+            "ja": "このエフェクトはVRには推奨されません",
+            "zh-TW": "不建議在 VR 中使用此效果",
+            "ko": "이 효과는 VR에 권장되지 않습니다",
+            "zh-CN": "此效果不推荐用于VR"
+          }
         },
         {
           "name": "Intensity",
@@ -566,7 +770,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Color",
@@ -583,6 +793,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "Color Mode",
@@ -598,7 +814,13 @@
               "min": 0,
               "max": 1,
               "options": ["RGB", "HSV"],
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Hue",
@@ -614,7 +836,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Satuation",
@@ -630,7 +858,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Brightness",
@@ -646,7 +880,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Red",
@@ -662,7 +902,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Green",
@@ -678,7 +924,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Blue",
@@ -694,7 +946,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Use Stage Color",
@@ -710,7 +968,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": "Use the color from the stage ring"
+              "description": "Use the color from the stage ring",
+              "descriptions": {
+                "ja": "ステージリングの色を使用",
+                "zh-TW": "使用舞台環的顏色",
+                "ko": "무대 링의 색상 사용",
+                "zh-CN": "使用舞台环颜色"
+              }
             },
             {
               "name": "Color Temp",
@@ -726,7 +990,13 @@
               "min": 3000,
               "max": 8000,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -744,7 +1014,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Streaks",
@@ -760,7 +1036,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Length",
@@ -776,7 +1058,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Chromatic Abberation",
@@ -792,7 +1080,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -811,6 +1105,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Tonemapping",
@@ -826,7 +1126,13 @@
           "min": 0,
           "max": 3,
           "options": ["None", "Neutral", "ACES", "Custom"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Adjustment",
@@ -842,7 +1148,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Enable color adjustment."
+          "description": "Enable color adjustment.",
+          "descriptions": {
+            "ja": "色調整を有効にします。",
+            "zh-TW": "啟用顏色調整。",
+            "ko": "색상 조정을 활성화합니다.",
+            "zh-CN": "启用色彩调整。"
+          }
         },
         {
           "name": "Post Exposure",
@@ -858,7 +1170,13 @@
           "min": -12,
           "max": 12,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Contrast",
@@ -874,7 +1192,13 @@
           "min": -100,
           "max": 100,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Hue Shift",
@@ -890,7 +1214,13 @@
           "min": -180,
           "max": 180,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Saturation",
@@ -906,7 +1236,13 @@
           "min": -100,
           "max": 100,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Color Filter",
@@ -923,6 +1259,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "Color Mode",
@@ -938,7 +1280,13 @@
               "min": 0,
               "max": 1,
               "options": ["RGB", "HSV"],
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Hue",
@@ -954,7 +1302,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Satuation",
@@ -970,7 +1324,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Brightness",
@@ -986,7 +1346,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Red",
@@ -1002,7 +1368,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Green",
@@ -1018,7 +1390,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Blue",
@@ -1034,7 +1412,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -1052,7 +1436,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Start Gradient",
@@ -1068,7 +1458,13 @@
           "min": 0,
           "max": 4,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Start Position",
@@ -1084,7 +1480,13 @@
           "min": 0,
           "max": 0.5,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Start Value",
@@ -1100,7 +1502,13 @@
           "min": 0,
           "max": 0.5,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "End Gradient",
@@ -1116,7 +1524,13 @@
           "min": 0,
           "max": 4,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "End Position",
@@ -1132,7 +1546,13 @@
           "min": 0.5,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "End Value",
@@ -1148,7 +1568,13 @@
           "min": 0.5,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "White Balance",
@@ -1164,7 +1590,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Enable white balance."
+          "description": "Enable white balance.",
+          "descriptions": {
+            "ja": "ホワイトバランスを有効にします。",
+            "zh-TW": "啟用白平衡。",
+            "ko": "화이트 밸런스를 활성화합니다.",
+            "zh-CN": "启用白平衡。"
+          }
         },
         {
           "name": "Temperature",
@@ -1180,7 +1612,13 @@
           "min": -100,
           "max": 100,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Tint",
@@ -1196,7 +1634,13 @@
           "min": -100,
           "max": 100,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -1215,6 +1659,12 @@
       "max": 1,
       "options": null,
       "description": "A full-screen custom pass that applies stylised effects over the\r\nfinal rendered image. Four built-in presets give a quick starting\r\npoint: *Outline*, *Black & White*, *Posterize*, and *Halftone*.\r\n\r\n\r\n## Outline\r\n\r\nTraces edges based on depth and normal discontinuities. Control\r\n**Outline Thickness** and **Outline Intensity** to dial in the\r\nweight. Works well combined with toon shading in the Options\r\npanel for a cel-animated look.\r\n\r\n\r\n## Quantize Illumination & Color\r\n\r\n**Quantize Illumination** reduces the number of luminance steps\r\nin the image; lower values (e.g. 4–8) produce a bold posterized\r\nlook. **Quantize Color** does the same for color channels\r\nindependently. Set both to 0 to disable quantization entirely\r\nand use only the other effects.\r\n\r\n\r\n## Dithering & Halftone\r\n\r\n**Dithering** adds ordered noise that breaks up banding in\r\nsmooth gradients. **Halftone** overlays a dot-screen pattern;\r\nincrease **Halftone Size** and **Strength** for a vintage\r\nprint aesthetic.",
+      "descriptions": {
+        "ja": "(A full-screen custom pass that applies stylised effects over the\r\nfinal rendered image. Four built-in presets give a quick starting\r\npoint: *Outline*, *Black & White*, *Posterize*, and *Halftone*.\r\n\r\n\r\n## Outline\r\n\r\nTraces edges based on depth and normal discontinuities. Control\r\n**Outline Thickness** and **Outline Intensity** to dial in the\r\nweight. Works well combined with toon shading in the Options\r\npanel for a cel-animated look.\r\n\r\n\r\n## Quantize Illumination & Color\r\n\r\n**Quantize Illumination** reduces the number of luminance steps\r\nin the image; lower values (e.g. 4–8) produce a bold posterized\r\nlook. **Quantize Color** does the same for color channels\r\nindependently. Set both to 0 to disable quantization entirely\r\nand use only the other effects.\r\n\r\n\r\n## Dithering & Halftone\r\n\r\n**Dithering** adds ordered noise that breaks up banding in\r\nsmooth gradients. **Halftone** overlays a dot-screen pattern;\r\nincrease **Halftone Size** and **Strength** for a vintage\r\nprint aesthetic.)",
+        "zh-TW": "(A full-screen custom pass that applies stylised effects over the\r\nfinal rendered image. Four built-in presets give a quick starting\r\npoint: *Outline*, *Black & White*, *Posterize*, and *Halftone*.\r\n\r\n\r\n## Outline\r\n\r\nTraces edges based on depth and normal discontinuities. Control\r\n**Outline Thickness** and **Outline Intensity** to dial in the\r\nweight. Works well combined with toon shading in the Options\r\npanel for a cel-animated look.\r\n\r\n\r\n## Quantize Illumination & Color\r\n\r\n**Quantize Illumination** reduces the number of luminance steps\r\nin the image; lower values (e.g. 4–8) produce a bold posterized\r\nlook. **Quantize Color** does the same for color channels\r\nindependently. Set both to 0 to disable quantization entirely\r\nand use only the other effects.\r\n\r\n\r\n## Dithering & Halftone\r\n\r\n**Dithering** adds ordered noise that breaks up banding in\r\nsmooth gradients. **Halftone** overlays a dot-screen pattern;\r\nincrease **Halftone Size** and **Strength** for a vintage\r\nprint aesthetic.)",
+        "ko": "(A full-screen custom pass that applies stylised effects over the\r\nfinal rendered image. Four built-in presets give a quick starting\r\npoint: *Outline*, *Black & White*, *Posterize*, and *Halftone*.\r\n\r\n\r\n## Outline\r\n\r\nTraces edges based on depth and normal discontinuities. Control\r\n**Outline Thickness** and **Outline Intensity** to dial in the\r\nweight. Works well combined with toon shading in the Options\r\npanel for a cel-animated look.\r\n\r\n\r\n## Quantize Illumination & Color\r\n\r\n**Quantize Illumination** reduces the number of luminance steps\r\nin the image; lower values (e.g. 4–8) produce a bold posterized\r\nlook. **Quantize Color** does the same for color channels\r\nindependently. Set both to 0 to disable quantization entirely\r\nand use only the other effects.\r\n\r\n\r\n## Dithering & Halftone\r\n\r\n**Dithering** adds ordered noise that breaks up banding in\r\nsmooth gradients. **Halftone** overlays a dot-screen pattern;\r\nincrease **Halftone Size** and **Strength** for a vintage\r\nprint aesthetic.)",
+        "zh-CN": "(A full-screen custom pass that applies stylised effects over the\r\nfinal rendered image. Four built-in presets give a quick starting\r\npoint: *Outline*, *Black & White*, *Posterize*, and *Halftone*.\r\n\r\n\r\n## Outline\r\n\r\nTraces edges based on depth and normal discontinuities. Control\r\n**Outline Thickness** and **Outline Intensity** to dial in the\r\nweight. Works well combined with toon shading in the Options\r\npanel for a cel-animated look.\r\n\r\n\r\n## Quantize Illumination & Color\r\n\r\n**Quantize Illumination** reduces the number of luminance steps\r\nin the image; lower values (e.g. 4–8) produce a bold posterized\r\nlook. **Quantize Color** does the same for color channels\r\nindependently. Set both to 0 to disable quantization entirely\r\nand use only the other effects.\r\n\r\n\r\n## Dithering & Halftone\r\n\r\n**Dithering** adds ordered noise that breaks up banding in\r\nsmooth gradients. **Halftone** overlays a dot-screen pattern;\r\nincrease **Halftone Size** and **Strength** for a vintage\r\nprint aesthetic.)"
+      },
       "values": [
         {
           "name": "Outline Thickness",
@@ -1230,7 +1680,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Outline Intensity",
@@ -1246,7 +1702,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Quantize Illumination",
@@ -1262,7 +1724,13 @@
           "min": 0,
           "max": 16,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Quantize Color",
@@ -1278,7 +1746,13 @@
           "min": 0,
           "max": 64,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Dithering",
@@ -1294,7 +1768,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Halftone Size",
@@ -1310,7 +1790,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Halftone size"
+          "description": "Halftone size",
+          "descriptions": {
+            "ja": "ハーフトーンサイズ",
+            "zh-TW": "半色調大小",
+            "ko": "하프톤 크기",
+            "zh-CN": "半色调大小"
+          }
         },
         {
           "name": "Halftone Strength",
@@ -1326,7 +1812,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Halftone strength"
+          "description": "Halftone strength",
+          "descriptions": {
+            "ja": "ハーフトーン強度",
+            "zh-TW": "半色調強度",
+            "ko": "하프톤 강도",
+            "zh-CN": "半色调强度"
+          }
         }
       ]
     },
@@ -1345,6 +1837,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Transparent Prepass",
@@ -1360,7 +1858,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Enable transparent prepass. This will make obscured transparent materials invisible."
+          "description": "Enable transparent prepass. This will make obscured transparent materials invisible.",
+          "descriptions": {
+            "ja": "透明度事前パスを有効にします。これにより、遮られた透明な素材が見えなくなります。",
+            "zh-TW": "啟用透明預渲染。這會使被遮擋的透明材質不可見。",
+            "ko": "투명 사전 패스를 활성화합니다. 이로 인해 가려진 투명 재료가 보이지 않게 됩니다.",
+            "zh-CN": "启用透明预处理。这将使被遮挡的透明材料不可见。"
+          }
         },
         {
           "name": "Screen Space Shadows",
@@ -1376,7 +1880,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Contact Shadow",
@@ -1392,7 +1902,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Shadow for small details."
+          "description": "Shadow for small details.",
+          "descriptions": {
+            "ja": "細部への影を追加します。",
+            "zh-TW": "為小細節添加陰影。",
+            "ko": "작은 디테일에 대한 그림자.",
+            "zh-CN": "用于小细节的阴影。"
+          }
         },
         {
           "name": "Bump Map Shadow",
@@ -1408,7 +1924,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Enable shadows for bump map and detail map."
+          "description": "Enable shadows for bump map and detail map.",
+          "descriptions": {
+            "ja": "バンプマップおよびディテールマップの影を有効にします。",
+            "zh-TW": "啟用凹凸貼圖和細節貼圖的陰影。",
+            "ko": "범프 맵 및 디테일 맵에 대한 그림자 활성화.",
+            "zh-CN": "启用法线贴图和细节贴图的阴影。"
+          }
         },
         {
           "name": "Stop NaN",
@@ -1424,7 +1946,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Prevent black screen when error happens during post processing. "
+          "description": "Prevent black screen when error happens during post processing. ",
+          "descriptions": {
+            "ja": "(Prevent black screen when error happens during post processing. )",
+            "zh-TW": "(Prevent black screen when error happens during post processing. )",
+            "ko": "(Prevent black screen when error happens during post processing. )",
+            "zh-CN": "(Prevent black screen when error happens during post processing. )"
+          }
         },
         {
           "name": "Compute Thickness",
@@ -1440,7 +1968,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Calculate thickness that can be used in skin effect."
+          "description": "Calculate thickness that can be used in skin effect.",
+          "descriptions": {
+            "ja": "スキンエフェクトに使用できる厚さを計算します。",
+            "zh-TW": "計算用於皮膚效果的厚度。",
+            "ko": "피부 효과에 사용될 수 있는 두께를 계산합니다.",
+            "zh-CN": "计算可用于皮肤效果的厚度。"
+          }
         },
         {
           "name": "Actor Model Toon Shading",
@@ -1456,7 +1990,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Use toon shading for all actors."
+          "description": "Use toon shading for all actors.",
+          "descriptions": {
+            "ja": "すべてのアクターにトゥーンシェーディングを使用します。",
+            "zh-TW": "對所有角色使用卡通陰影。",
+            "ko": "모든 액터에 카툰 음영 처리 사용.",
+            "zh-CN": "为所有角色使用卡通着色。"
+          }
         },
         {
           "name": "Stage Model Toon Shading",
@@ -1472,7 +2012,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Use toon shading for stages and props."
+          "description": "Use toon shading for stages and props.",
+          "descriptions": {
+            "ja": "ステージと小道具にトゥーンシェーディングを使用します。",
+            "zh-TW": "對舞台和道具使用卡通陰影。",
+            "ko": "스테이지 및 소품에 카툰 음영 처리 사용.",
+            "zh-CN": "为场景和道具使用卡通着色。"
+          }
         },
         {
           "name": "Dithering Transparency",
@@ -1488,7 +2034,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     }

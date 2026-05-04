@@ -9,6 +9,12 @@
     "zh-CN": "动作覆盖"
   },
   "description": "Advanced tools to customize and enhance actor motion.\r\nIntegrates with the rigging system for precise control over\r\nbody, head, hand, and leg movements.\r\n\r\n**Presets** include Free, Rocking Motion, Hoverbike, Rocking\r\nHorse, Pole Motion, and Pole Blend. The **Body** panel\r\ncontrols **Position** and **Rotation** locks, **Damping**,\r\n**Lean**, **Bend**, **Height**, and **Forward/Back** offset.\r\n**Rocking Motion** simulates rhythmic movement with\r\nadjustable **Angle**, **Up/Down**, **Front/Back**, **Depth\r\nChange**, and **Feet Motion** parameters.\r\n\r\nThe **Ride Model** panel spawns props like a hoverbike or\r\nsaddle with **Acceleration**, **Drag**, **Tilt When\r\nTurning**, **Position**, **Rotation**, **Scale**, and\r\n**Particle Effect** controls. **Head Pose** adds rotation\r\noffsets to the neck and head. **Legs Pose** adjusts foot\r\nplacement dynamically. **Hand Poses** (left and right)\r\nsupport presets and symmetric toggling.\r\n\r\nUse cases include limiting dance motion range, creating\r\nrocking horse animations, and converting dance into vehicle-\r\nlike motion with ride models and particle trails.",
+  "descriptions": {
+    "ja": "(Advanced tools to customize and enhance actor motion.\r\nIntegrates with the rigging system for precise control over\r\nbody, head, hand, and leg movements.\r\n\r\n**Presets** include Free, Rocking Motion, Hoverbike, Rocking\r\nHorse, Pole Motion, and Pole Blend. The **Body** panel\r\ncontrols **Position** and **Rotation** locks, **Damping**,\r\n**Lean**, **Bend**, **Height**, and **Forward/Back** offset.\r\n**Rocking Motion** simulates rhythmic movement with\r\nadjustable **Angle**, **Up/Down**, **Front/Back**, **Depth\r\nChange**, and **Feet Motion** parameters.\r\n\r\nThe **Ride Model** panel spawns props like a hoverbike or\r\nsaddle with **Acceleration**, **Drag**, **Tilt When\r\nTurning**, **Position**, **Rotation**, **Scale**, and\r\n**Particle Effect** controls. **Head Pose** adds rotation\r\noffsets to the neck and head. **Legs Pose** adjusts foot\r\nplacement dynamically. **Hand Poses** (left and right)\r\nsupport presets and symmetric toggling.\r\n\r\nUse cases include limiting dance motion range, creating\r\nrocking horse animations, and converting dance into vehicle-\r\nlike motion with ride models and particle trails.)",
+    "zh-TW": "(Advanced tools to customize and enhance actor motion.\r\nIntegrates with the rigging system for precise control over\r\nbody, head, hand, and leg movements.\r\n\r\n**Presets** include Free, Rocking Motion, Hoverbike, Rocking\r\nHorse, Pole Motion, and Pole Blend. The **Body** panel\r\ncontrols **Position** and **Rotation** locks, **Damping**,\r\n**Lean**, **Bend**, **Height**, and **Forward/Back** offset.\r\n**Rocking Motion** simulates rhythmic movement with\r\nadjustable **Angle**, **Up/Down**, **Front/Back**, **Depth\r\nChange**, and **Feet Motion** parameters.\r\n\r\nThe **Ride Model** panel spawns props like a hoverbike or\r\nsaddle with **Acceleration**, **Drag**, **Tilt When\r\nTurning**, **Position**, **Rotation**, **Scale**, and\r\n**Particle Effect** controls. **Head Pose** adds rotation\r\noffsets to the neck and head. **Legs Pose** adjusts foot\r\nplacement dynamically. **Hand Poses** (left and right)\r\nsupport presets and symmetric toggling.\r\n\r\nUse cases include limiting dance motion range, creating\r\nrocking horse animations, and converting dance into vehicle-\r\nlike motion with ride models and particle trails.)",
+    "ko": "(Advanced tools to customize and enhance actor motion.\r\nIntegrates with the rigging system for precise control over\r\nbody, head, hand, and leg movements.\r\n\r\n**Presets** include Free, Rocking Motion, Hoverbike, Rocking\r\nHorse, Pole Motion, and Pole Blend. The **Body** panel\r\ncontrols **Position** and **Rotation** locks, **Damping**,\r\n**Lean**, **Bend**, **Height**, and **Forward/Back** offset.\r\n**Rocking Motion** simulates rhythmic movement with\r\nadjustable **Angle**, **Up/Down**, **Front/Back**, **Depth\r\nChange**, and **Feet Motion** parameters.\r\n\r\nThe **Ride Model** panel spawns props like a hoverbike or\r\nsaddle with **Acceleration**, **Drag**, **Tilt When\r\nTurning**, **Position**, **Rotation**, **Scale**, and\r\n**Particle Effect** controls. **Head Pose** adds rotation\r\noffsets to the neck and head. **Legs Pose** adjusts foot\r\nplacement dynamically. **Hand Poses** (left and right)\r\nsupport presets and symmetric toggling.\r\n\r\nUse cases include limiting dance motion range, creating\r\nrocking horse animations, and converting dance into vehicle-\r\nlike motion with ride models and particle trails.)",
+    "zh-CN": "(Advanced tools to customize and enhance actor motion.\r\nIntegrates with the rigging system for precise control over\r\nbody, head, hand, and leg movements.\r\n\r\n**Presets** include Free, Rocking Motion, Hoverbike, Rocking\r\nHorse, Pole Motion, and Pole Blend. The **Body** panel\r\ncontrols **Position** and **Rotation** locks, **Damping**,\r\n**Lean**, **Bend**, **Height**, and **Forward/Back** offset.\r\n**Rocking Motion** simulates rhythmic movement with\r\nadjustable **Angle**, **Up/Down**, **Front/Back**, **Depth\r\nChange**, and **Feet Motion** parameters.\r\n\r\nThe **Ride Model** panel spawns props like a hoverbike or\r\nsaddle with **Acceleration**, **Drag**, **Tilt When\r\nTurning**, **Position**, **Rotation**, **Scale**, and\r\n**Particle Effect** controls. **Head Pose** adds rotation\r\noffsets to the neck and head. **Legs Pose** adjusts foot\r\nplacement dynamically. **Hand Poses** (left and right)\r\nsupport presets and symmetric toggling.\r\n\r\nUse cases include limiting dance motion range, creating\r\nrocking horse animations, and converting dance into vehicle-\r\nlike motion with ride models and particle trails.)"
+  },
   "values": [
     {
       "name": "Body",
@@ -25,6 +31,12 @@
       "max": 1,
       "options": null,
       "description": "Nested config for body pose adjustments. **Position** and\r\n**Rotation** switches lock specific axes. **Damping**\r\nsmoothes position tracking. **Lean**, **Bend**, **Twist**,\r\nand **Head** rotate the torso and neck. **Height** and\r\n**Forward/Back** translate the body. **Distance** mode\r\nmaintains proximity to a **Target Actor** within a\r\n**Detect Range**, enforcing **Min** and **Max Distance**\r\nbounds.",
+      "descriptions": {
+        "ja": "(Nested config for body pose adjustments. **Position** and\r\n**Rotation** switches lock specific axes. **Damping**\r\nsmoothes position tracking. **Lean**, **Bend**, **Twist**,\r\nand **Head** rotate the torso and neck. **Height** and\r\n**Forward/Back** translate the body. **Distance** mode\r\nmaintains proximity to a **Target Actor** within a\r\n**Detect Range**, enforcing **Min** and **Max Distance**\r\nbounds.)",
+        "zh-TW": "(Nested config for body pose adjustments. **Position** and\r\n**Rotation** switches lock specific axes. **Damping**\r\nsmoothes position tracking. **Lean**, **Bend**, **Twist**,\r\nand **Head** rotate the torso and neck. **Height** and\r\n**Forward/Back** translate the body. **Distance** mode\r\nmaintains proximity to a **Target Actor** within a\r\n**Detect Range**, enforcing **Min** and **Max Distance**\r\nbounds.)",
+        "ko": "(Nested config for body pose adjustments. **Position** and\r\n**Rotation** switches lock specific axes. **Damping**\r\nsmoothes position tracking. **Lean**, **Bend**, **Twist**,\r\nand **Head** rotate the torso and neck. **Height** and\r\n**Forward/Back** translate the body. **Distance** mode\r\nmaintains proximity to a **Target Actor** within a\r\n**Detect Range**, enforcing **Min** and **Max Distance**\r\nbounds.)",
+        "zh-CN": "(Nested config for body pose adjustments. **Position** and\r\n**Rotation** switches lock specific axes. **Damping**\r\nsmoothes position tracking. **Lean**, **Bend**, **Twist**,\r\nand **Head** rotate the torso and neck. **Height** and\r\n**Forward/Back** translate the body. **Distance** mode\r\nmaintains proximity to a **Target Actor** within a\r\n**Detect Range**, enforcing **Min** and **Max Distance**\r\nbounds.)"
+      },
       "values": [
         {
           "name": "Position",
@@ -40,7 +52,13 @@
           "min": 0,
           "max": 3,
           "options": ["Free", "Lock Horizontal", "Lock Vertical", "Lock Position"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Rotation",
@@ -56,7 +74,13 @@
           "min": 0,
           "max": 1,
           "options": ["Free", "Lock Rotation"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Damping",
@@ -72,7 +96,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Lean",
@@ -88,7 +118,13 @@
           "min": -45,
           "max": 90,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Bend",
@@ -104,7 +140,13 @@
           "min": -150,
           "max": 150,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Twist",
@@ -120,7 +162,13 @@
           "min": -90,
           "max": 90,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Head",
@@ -136,7 +184,13 @@
           "min": -90,
           "max": 90,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Height",
@@ -152,7 +206,13 @@
           "min": -1,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Forward / Back",
@@ -168,7 +228,13 @@
           "min": -1,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Distance",
@@ -184,7 +250,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Target Actor",
@@ -200,7 +272,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Detect Range",
@@ -216,7 +294,13 @@
           "min": 0,
           "max": 10,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Min Distance",
@@ -232,7 +316,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Max Distance",
@@ -248,7 +338,13 @@
           "min": 0.5,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -267,6 +363,12 @@
       "max": 1,
       "options": null,
       "description": "Nested config for rhythmic rocking motion simulation.\r\n**Rocking Angle** sets the arc, **Up/Down** and **Front/\r\nBack** control translation amplitude. **Depth Change** and\r\n**Depth Max** govern proximity oscillation. **Feet Motion**\r\nblends foot movement with the rocking cycle. Includes a\r\n**Motion Speed** sub-config for timing control.",
+      "descriptions": {
+        "ja": "(Nested config for rhythmic rocking motion simulation.\r\n**Rocking Angle** sets the arc, **Up/Down** and **Front/\r\nBack** control translation amplitude. **Depth Change** and\r\n**Depth Max** govern proximity oscillation. **Feet Motion**\r\nblends foot movement with the rocking cycle. Includes a\r\n**Motion Speed** sub-config for timing control.)",
+        "zh-TW": "(Nested config for rhythmic rocking motion simulation.\r\n**Rocking Angle** sets the arc, **Up/Down** and **Front/\r\nBack** control translation amplitude. **Depth Change** and\r\n**Depth Max** govern proximity oscillation. **Feet Motion**\r\nblends foot movement with the rocking cycle. Includes a\r\n**Motion Speed** sub-config for timing control.)",
+        "ko": "(Nested config for rhythmic rocking motion simulation.\r\n**Rocking Angle** sets the arc, **Up/Down** and **Front/\r\nBack** control translation amplitude. **Depth Change** and\r\n**Depth Max** govern proximity oscillation. **Feet Motion**\r\nblends foot movement with the rocking cycle. Includes a\r\n**Motion Speed** sub-config for timing control.)",
+        "zh-CN": "(Nested config for rhythmic rocking motion simulation.\r\n**Rocking Angle** sets the arc, **Up/Down** and **Front/\r\nBack** control translation amplitude. **Depth Change** and\r\n**Depth Max** govern proximity oscillation. **Feet Motion**\r\nblends foot movement with the rocking cycle. Includes a\r\n**Motion Speed** sub-config for timing control.)"
+      },
       "values": [
         {
           "name": "Speed",
@@ -283,6 +385,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "Moves Per Beat",
@@ -298,7 +406,13 @@
               "min": 0,
               "max": 9,
               "options": ["1/4", "1/3", "1/2", "2/3", "1", "4/3", "3/2", "2", "3", "4"],
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Moves Per Group",
@@ -314,7 +428,13 @@
               "min": 4,
               "max": 32,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Phase",
@@ -330,7 +450,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Curve",
@@ -346,7 +472,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Variable Speed",
@@ -362,7 +494,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Mode",
@@ -378,7 +516,13 @@
               "min": 0,
               "max": 2,
               "options": ["Gradual", "Random", "Volume"],
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Min Speed",
@@ -394,7 +538,13 @@
               "min": 0,
               "max": 4,
               "options": ["1/4", "1/3", "1/2", "2/3", "1"],
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Max Speed",
@@ -410,7 +560,13 @@
               "min": 0,
               "max": 4,
               "options": ["1", "3/2", "2", "3", "4"],
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -428,7 +584,13 @@
           "min": 0,
           "max": 60,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Up / Down",
@@ -444,7 +606,13 @@
           "min": 0,
           "max": 0.3,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Front / Back",
@@ -460,7 +628,13 @@
           "min": 0,
           "max": 0.3,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Depth Change",
@@ -476,7 +650,13 @@
           "min": 0,
           "max": 0.3,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Depth Max",
@@ -492,7 +672,13 @@
           "min": 0,
           "max": 0.3,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Depth Extra",
@@ -508,7 +694,13 @@
           "min": -0.1,
           "max": 0.1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Feet Motion",
@@ -524,7 +716,13 @@
           "min": -1,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -543,6 +741,12 @@
       "max": 1,
       "options": null,
       "description": "Nested config for head pose rotation offsets applied to the\r\nneck and head bones. Controls **Rotation X**, **Y**, and\r\n**Z** angles.",
+      "descriptions": {
+        "ja": "(Nested config for head pose rotation offsets applied to the\r\nneck and head bones. Controls **Rotation X**, **Y**, and\r\n**Z** angles.)",
+        "zh-TW": "(Nested config for head pose rotation offsets applied to the\r\nneck and head bones. Controls **Rotation X**, **Y**, and\r\n**Z** angles.)",
+        "ko": "(Nested config for head pose rotation offsets applied to the\r\nneck and head bones. Controls **Rotation X**, **Y**, and\r\n**Z** angles.)",
+        "zh-CN": "(Nested config for head pose rotation offsets applied to the\r\nneck and head bones. Controls **Rotation X**, **Y**, and\r\n**Z** angles.)"
+      },
       "values": [
         {
           "name": "Rotatoin X",
@@ -558,7 +762,13 @@
           "min": -90,
           "max": 90,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Rotatoin Y",
@@ -574,7 +784,13 @@
           "min": -90,
           "max": 90,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Rotatoin Z",
@@ -590,7 +806,13 @@
           "min": -90,
           "max": 90,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -609,6 +831,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Relative To Floor",
@@ -624,7 +852,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Max Twist",
@@ -640,7 +874,13 @@
           "min": 0,
           "max": 90,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Symmetrical",
@@ -656,7 +896,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Left",
@@ -673,6 +919,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "Open",
@@ -688,7 +940,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot X",
@@ -704,7 +962,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot Y",
@@ -720,7 +984,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot Z",
@@ -736,7 +1006,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot Rotate X",
@@ -752,7 +1028,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot Rotate Y",
@@ -768,7 +1050,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot Rotate Z",
@@ -784,7 +1072,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Toe",
@@ -800,7 +1094,13 @@
               "min": -180,
               "max": 180,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot IK",
@@ -816,7 +1116,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -835,6 +1141,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "Open",
@@ -850,7 +1162,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot X",
@@ -866,7 +1184,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot Y",
@@ -882,7 +1206,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot Z",
@@ -898,7 +1228,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot Rotate X",
@@ -914,7 +1250,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot Rotate Y",
@@ -930,7 +1272,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot Rotate Z",
@@ -946,7 +1294,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Toe",
@@ -962,7 +1316,13 @@
               "min": -180,
               "max": 180,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Foot IK",
@@ -978,7 +1338,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         }
@@ -998,7 +1364,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Left Hand",
@@ -1015,6 +1387,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Gesture",
@@ -1030,7 +1408,13 @@
           "min": 0,
           "max": 11,
           "options": ["Palm Fingers Apart", "Palm Fingers Together", "Fist", "Victory", "Okay", "Hold", "Vulcan", "Horn", "Point", "Middle Finger", "Thumb Up", "Grab"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Hand Position",
@@ -1047,6 +1431,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -1062,7 +1452,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -1078,7 +1474,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -1094,7 +1496,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -1113,6 +1521,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -1128,7 +1542,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -1144,7 +1564,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -1160,7 +1586,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -1178,7 +1610,13 @@
           "min": 0,
           "max": 3,
           "options": ["Relative to Reference Bone", "Relative to Self", "Absolute Rotation", "No Rotation"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Elbow Orientation",
@@ -1194,7 +1632,13 @@
           "min": -180,
           "max": 180,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Mirror Left/Right",
@@ -1210,7 +1654,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Reference Actor",
@@ -1226,7 +1676,13 @@
           "min": 0,
           "max": 1,
           "options": ["Self", "Partner", "Closest"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Reference Bone",
@@ -1242,7 +1698,13 @@
           "min": 0,
           "max": 15,
           "options": ["None", "Hip", "Chest", "Head", "Center", "Pole", "Upperarm", "Forearm", "Hand", "Leg", "Knee", "Foot", "Belly", "Boobs", "Pussy", "Dick"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Side Selection",
@@ -1258,7 +1720,13 @@
           "min": 0,
           "max": 2,
           "options": ["Auto", "Left", "Right"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "IK Mode",
@@ -1274,7 +1742,13 @@
           "min": 0,
           "max": 4,
           "options": ["Auto", "Normal", "Cylinder", "Sphere", "Align"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Blend Hand Motion",
@@ -1290,7 +1764,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Blend Range",
@@ -1306,7 +1786,13 @@
           "min": 0,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Symmetrical Offset",
@@ -1322,7 +1808,13 @@
           "min": -1,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Use Accessory Position",
@@ -1338,7 +1830,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Motion",
@@ -1355,6 +1853,12 @@
           "max": 1,
           "options": null,
           "description": "Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.",
+          "descriptions": {
+            "ja": "(Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.)",
+            "zh-TW": "(Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.)",
+            "ko": "(Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.)",
+            "zh-CN": "(Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.)"
+          },
           "values": [
             {
               "name": "Speed",
@@ -1371,6 +1875,12 @@
               "max": 1,
               "options": null,
               "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
               "values": [
                 {
                   "name": "Moves Per Beat",
@@ -1386,7 +1896,13 @@
                   "min": 0,
                   "max": 9,
                   "options": ["1/4", "1/3", "1/2", "2/3", "1", "4/3", "3/2", "2", "3", "4"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Moves Per Group",
@@ -1402,7 +1918,13 @@
                   "min": 4,
                   "max": 32,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Phase",
@@ -1418,7 +1940,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Curve",
@@ -1434,7 +1962,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Variable Speed",
@@ -1450,7 +1984,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Mode",
@@ -1466,7 +2006,13 @@
                   "min": 0,
                   "max": 2,
                   "options": ["Gradual", "Random", "Volume"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Min Speed",
@@ -1482,7 +2028,13 @@
                   "min": 0,
                   "max": 4,
                   "options": ["1/4", "1/3", "1/2", "2/3", "1"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Max Speed",
@@ -1498,7 +2050,13 @@
                   "min": 0,
                   "max": 4,
                   "options": ["1", "3/2", "2", "3", "4"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 }
               ]
             },
@@ -1516,7 +2074,13 @@
               "min": 0,
               "max": 0.3,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Angle",
@@ -1532,7 +2096,13 @@
               "min": -60,
               "max": 60,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -1551,6 +2121,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "Open",
@@ -1566,7 +2142,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Thumb Fold",
@@ -1582,7 +2164,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Thumb Bend",
@@ -1598,7 +2186,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Index Bend",
@@ -1614,7 +2208,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Middle Bend",
@@ -1630,7 +2230,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Ring Bend",
@@ -1646,7 +2252,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Pinky Bend",
@@ -1662,7 +2274,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Propagate",
@@ -1678,7 +2296,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Blend",
@@ -1694,7 +2318,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -1712,7 +2342,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Grab Distance",
@@ -1728,7 +2364,13 @@
           "min": -0.1,
           "max": 0.1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Grab Position",
@@ -1744,7 +2386,13 @@
           "min": -0.1,
           "max": 0.1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Grab Axis",
@@ -1760,7 +2408,13 @@
           "min": -180,
           "max": 180,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -1779,6 +2433,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Gesture",
@@ -1794,7 +2454,13 @@
           "min": 0,
           "max": 11,
           "options": ["Palm Fingers Apart", "Palm Fingers Together", "Fist", "Victory", "Okay", "Hold", "Vulcan", "Horn", "Point", "Middle Finger", "Thumb Up", "Grab"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Hand Position",
@@ -1811,6 +2477,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -1826,7 +2498,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -1842,7 +2520,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -1858,7 +2542,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -1877,6 +2567,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -1892,7 +2588,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -1908,7 +2610,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -1924,7 +2632,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -1942,7 +2656,13 @@
           "min": 0,
           "max": 3,
           "options": ["Relative to Reference Bone", "Relative to Self", "Absolute Rotation", "No Rotation"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Elbow Orientation",
@@ -1958,7 +2678,13 @@
           "min": -180,
           "max": 180,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Mirror Left/Right",
@@ -1974,7 +2700,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Reference Actor",
@@ -1990,7 +2722,13 @@
           "min": 0,
           "max": 1,
           "options": ["Self", "Partner", "Closest"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Reference Bone",
@@ -2006,7 +2744,13 @@
           "min": 0,
           "max": 15,
           "options": ["None", "Hip", "Chest", "Head", "Center", "Pole", "Upperarm", "Forearm", "Hand", "Leg", "Knee", "Foot", "Belly", "Boobs", "Pussy", "Dick"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Side Selection",
@@ -2022,7 +2766,13 @@
           "min": 0,
           "max": 2,
           "options": ["Auto", "Left", "Right"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "IK Mode",
@@ -2038,7 +2788,13 @@
           "min": 0,
           "max": 4,
           "options": ["Auto", "Normal", "Cylinder", "Sphere", "Align"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Blend Hand Motion",
@@ -2054,7 +2810,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Blend Range",
@@ -2070,7 +2832,13 @@
           "min": 0,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Symmetrical Offset",
@@ -2086,7 +2854,13 @@
           "min": -1,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Use Accessory Position",
@@ -2102,7 +2876,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Motion",
@@ -2119,6 +2899,12 @@
           "max": 1,
           "options": null,
           "description": "Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.",
+          "descriptions": {
+            "ja": "(Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.)",
+            "zh-TW": "(Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.)",
+            "ko": "(Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.)",
+            "zh-CN": "(Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.)"
+          },
           "values": [
             {
               "name": "Speed",
@@ -2135,6 +2921,12 @@
               "max": 1,
               "options": null,
               "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
               "values": [
                 {
                   "name": "Moves Per Beat",
@@ -2150,7 +2942,13 @@
                   "min": 0,
                   "max": 9,
                   "options": ["1/4", "1/3", "1/2", "2/3", "1", "4/3", "3/2", "2", "3", "4"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Moves Per Group",
@@ -2166,7 +2964,13 @@
                   "min": 4,
                   "max": 32,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Phase",
@@ -2182,7 +2986,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Curve",
@@ -2198,7 +3008,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Variable Speed",
@@ -2214,7 +3030,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Mode",
@@ -2230,7 +3052,13 @@
                   "min": 0,
                   "max": 2,
                   "options": ["Gradual", "Random", "Volume"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Min Speed",
@@ -2246,7 +3074,13 @@
                   "min": 0,
                   "max": 4,
                   "options": ["1/4", "1/3", "1/2", "2/3", "1"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Max Speed",
@@ -2262,7 +3096,13 @@
                   "min": 0,
                   "max": 4,
                   "options": ["1", "3/2", "2", "3", "4"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 }
               ]
             },
@@ -2280,7 +3120,13 @@
               "min": 0,
               "max": 0.3,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Angle",
@@ -2296,7 +3142,13 @@
               "min": -60,
               "max": 60,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -2315,6 +3167,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "Open",
@@ -2330,7 +3188,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Thumb Fold",
@@ -2346,7 +3210,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Thumb Bend",
@@ -2362,7 +3232,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Index Bend",
@@ -2378,7 +3254,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Middle Bend",
@@ -2394,7 +3276,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Ring Bend",
@@ -2410,7 +3298,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Pinky Bend",
@@ -2426,7 +3320,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Propagate",
@@ -2442,7 +3342,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Blend",
@@ -2458,7 +3364,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -2476,7 +3388,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Grab Distance",
@@ -2492,7 +3410,13 @@
           "min": -0.1,
           "max": 0.1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Grab Position",
@@ -2508,7 +3432,13 @@
           "min": -0.1,
           "max": 0.1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Grab Axis",
@@ -2524,7 +3454,13 @@
           "min": -180,
           "max": 180,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -2543,6 +3479,12 @@
       "max": 1,
       "options": null,
       "description": "Nested config for rideable prop models (hoverbike, saddle).\r\n**Model** selects the prop type. **Acceleration** and\r\n**Drag** control forward motion physics. **Tilt When\r\nTurning** adds leaning during directional changes.\r\n**Position**, **Rotation**, and **Scale** adjust the prop\r\nattachment. **Particle Effect** enables exhaust spark VFX.\r\nComputes velocity-based motion with drag and tilt filtering.",
+      "descriptions": {
+        "ja": "(Nested config for rideable prop models (hoverbike, saddle).\r\n**Model** selects the prop type. **Acceleration** and\r\n**Drag** control forward motion physics. **Tilt When\r\nTurning** adds leaning during directional changes.\r\n**Position**, **Rotation**, and **Scale** adjust the prop\r\nattachment. **Particle Effect** enables exhaust spark VFX.\r\nComputes velocity-based motion with drag and tilt filtering.)",
+        "zh-TW": "(Nested config for rideable prop models (hoverbike, saddle).\r\n**Model** selects the prop type. **Acceleration** and\r\n**Drag** control forward motion physics. **Tilt When\r\nTurning** adds leaning during directional changes.\r\n**Position**, **Rotation**, and **Scale** adjust the prop\r\nattachment. **Particle Effect** enables exhaust spark VFX.\r\nComputes velocity-based motion with drag and tilt filtering.)",
+        "ko": "(Nested config for rideable prop models (hoverbike, saddle).\r\n**Model** selects the prop type. **Acceleration** and\r\n**Drag** control forward motion physics. **Tilt When\r\nTurning** adds leaning during directional changes.\r\n**Position**, **Rotation**, and **Scale** adjust the prop\r\nattachment. **Particle Effect** enables exhaust spark VFX.\r\nComputes velocity-based motion with drag and tilt filtering.)",
+        "zh-CN": "(Nested config for rideable prop models (hoverbike, saddle).\r\n**Model** selects the prop type. **Acceleration** and\r\n**Drag** control forward motion physics. **Tilt When\r\nTurning** adds leaning during directional changes.\r\n**Position**, **Rotation**, and **Scale** adjust the prop\r\nattachment. **Particle Effect** enables exhaust spark VFX.\r\nComputes velocity-based motion with drag and tilt filtering.)"
+      },
       "values": [
         {
           "name": "Model",
@@ -2558,7 +3500,13 @@
           "min": 0,
           "max": 1,
           "options": ["[Hoverbike]", "[Rocking Horse]"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Acceleration",
@@ -2574,7 +3522,13 @@
           "min": 0,
           "max": 20,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Drag",
@@ -2590,7 +3544,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Tilt When Turning",
@@ -2606,7 +3566,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Position",
@@ -2623,6 +3589,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -2638,7 +3610,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -2654,7 +3632,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -2670,7 +3654,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -2689,6 +3679,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -2704,7 +3700,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -2720,7 +3722,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -2736,7 +3744,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -2754,7 +3768,13 @@
           "min": -5,
           "max": 5,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Particle Effect",
@@ -2770,7 +3790,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     }

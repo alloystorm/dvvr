@@ -9,6 +9,12 @@
     "zh-CN": "晃胸叠加"
   },
   "description": "Adds rhythmic breast shake motion driven by the music beat.\r\n**Intensity** sets the amplitude; **Speed** scales the beat\r\nfrequency (power-of-2). **Motion Pattern** blends between\r\nhorizontal-only (−1), vertical-only (1), or combined (0)\r\nshake direction.\r\n\r\n**Time Pattern** selects the rhythm: *Constant* shakes every\r\nbeat; *Pulse* alternates on/off every other beat; *Gradual*\r\nfollows a predefined 16-beat pattern that builds intensity\r\nover phrases. **Abs Mode** bounces back at the neutral\r\nposition for a more exaggerated effect.",
+  "descriptions": {
+    "ja": "(Adds rhythmic breast shake motion driven by the music beat.\r\n**Intensity** sets the amplitude; **Speed** scales the beat\r\nfrequency (power-of-2). **Motion Pattern** blends between\r\nhorizontal-only (−1), vertical-only (1), or combined (0)\r\nshake direction.\r\n\r\n**Time Pattern** selects the rhythm: *Constant* shakes every\r\nbeat; *Pulse* alternates on/off every other beat; *Gradual*\r\nfollows a predefined 16-beat pattern that builds intensity\r\nover phrases. **Abs Mode** bounces back at the neutral\r\nposition for a more exaggerated effect.)",
+    "zh-TW": "(Adds rhythmic breast shake motion driven by the music beat.\r\n**Intensity** sets the amplitude; **Speed** scales the beat\r\nfrequency (power-of-2). **Motion Pattern** blends between\r\nhorizontal-only (−1), vertical-only (1), or combined (0)\r\nshake direction.\r\n\r\n**Time Pattern** selects the rhythm: *Constant* shakes every\r\nbeat; *Pulse* alternates on/off every other beat; *Gradual*\r\nfollows a predefined 16-beat pattern that builds intensity\r\nover phrases. **Abs Mode** bounces back at the neutral\r\nposition for a more exaggerated effect.)",
+    "ko": "(Adds rhythmic breast shake motion driven by the music beat.\r\n**Intensity** sets the amplitude; **Speed** scales the beat\r\nfrequency (power-of-2). **Motion Pattern** blends between\r\nhorizontal-only (−1), vertical-only (1), or combined (0)\r\nshake direction.\r\n\r\n**Time Pattern** selects the rhythm: *Constant* shakes every\r\nbeat; *Pulse* alternates on/off every other beat; *Gradual*\r\nfollows a predefined 16-beat pattern that builds intensity\r\nover phrases. **Abs Mode** bounces back at the neutral\r\nposition for a more exaggerated effect.)",
+    "zh-CN": "(Adds rhythmic breast shake motion driven by the music beat.\r\n**Intensity** sets the amplitude; **Speed** scales the beat\r\nfrequency (power-of-2). **Motion Pattern** blends between\r\nhorizontal-only (−1), vertical-only (1), or combined (0)\r\nshake direction.\r\n\r\n**Time Pattern** selects the rhythm: *Constant* shakes every\r\nbeat; *Pulse* alternates on/off every other beat; *Gradual*\r\nfollows a predefined 16-beat pattern that builds intensity\r\nover phrases. **Abs Mode** bounces back at the neutral\r\nposition for a more exaggerated effect.)"
+  },
   "values": [
     {
       "name": "Intensity",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 4,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Speed",
@@ -40,7 +52,13 @@
       "min": -2,
       "max": 2,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Motion Pattern",
@@ -56,7 +74,13 @@
       "min": -1,
       "max": 1,
       "options": null,
-      "description": "Choose horizontal, vertial or both (set to 0) motion"
+      "description": "Choose horizontal, vertial or both (set to 0) motion",
+      "descriptions": {
+        "ja": "水平、垂直、または両方を選択 (0に設定)",
+        "zh-TW": "選擇水平、垂直或兩者皆有（設為 0）的動作",
+        "ko": "수평, 수직 또는 둘 다 선택 (0으로 설정) 움직임",
+        "zh-CN": "选择水平、垂直或两者（设置为0）的运动"
+      }
     },
     {
       "name": "Time Pattern",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 2,
       "options": ["Constant", "Pulse", "Gradual"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Abs Mode",
@@ -88,7 +118,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Bounce back at neutral position"
+      "description": "Bounce back at neutral position",
+      "descriptions": {
+        "ja": "中立位置で跳ね返る",
+        "zh-TW": "在中性位置反彈",
+        "ko": "중립 위치로 복원",
+        "zh-CN": "在中性位置回弹"
+      }
     }
   ]
 }

@@ -9,6 +9,12 @@
     "zh-CN": "应用程序设置"
   },
   "description": "Global application settings for startup behavior and content handling.\r\n\r\n## Startup\r\n\r\n**Auto Load** controls what happens when the application starts.\r\n*None* starts with an empty stage, *Last Actor* loads the most recently\r\nused actor model, and *Last Scene* restores the last saved scene.\r\n\r\n## Texture Loading\r\n\r\n**Flip DDS Compressed** and **Flip DDS Uncompressed** control whether\r\nDDS textures are vertically flipped on load. Enable these if textures\r\nappear upside-down — which setting you need depends on the texture\r\ncompression format.\r\n\r\n## UI Behavior\r\n\r\n**Gizmo 3rd Axis** changes what the mouse wheel does when using the\r\ntransform gizmo. *Rotation* spins the object along the selected axis,\r\nwhile *Depth* moves the object closer or farther.\r\n\r\n**Use Translated Names** displays content names in the localized\r\nlanguage when available, rather than the original filenames.\r\n\r\n**Recover Tags From Save** attempts to restore tag data from saved\r\nsettings if the content cache is rebuilt or corrupted.",
+  "descriptions": {
+    "ja": "(Global application settings for startup behavior and content handling.\r\n\r\n## Startup\r\n\r\n**Auto Load** controls what happens when the application starts.\r\n*None* starts with an empty stage, *Last Actor* loads the most recently\r\nused actor model, and *Last Scene* restores the last saved scene.\r\n\r\n## Texture Loading\r\n\r\n**Flip DDS Compressed** and **Flip DDS Uncompressed** control whether\r\nDDS textures are vertically flipped on load. Enable these if textures\r\nappear upside-down — which setting you need depends on the texture\r\ncompression format.\r\n\r\n## UI Behavior\r\n\r\n**Gizmo 3rd Axis** changes what the mouse wheel does when using the\r\ntransform gizmo. *Rotation* spins the object along the selected axis,\r\nwhile *Depth* moves the object closer or farther.\r\n\r\n**Use Translated Names** displays content names in the localized\r\nlanguage when available, rather than the original filenames.\r\n\r\n**Recover Tags From Save** attempts to restore tag data from saved\r\nsettings if the content cache is rebuilt or corrupted.)",
+    "zh-TW": "(Global application settings for startup behavior and content handling.\r\n\r\n## Startup\r\n\r\n**Auto Load** controls what happens when the application starts.\r\n*None* starts with an empty stage, *Last Actor* loads the most recently\r\nused actor model, and *Last Scene* restores the last saved scene.\r\n\r\n## Texture Loading\r\n\r\n**Flip DDS Compressed** and **Flip DDS Uncompressed** control whether\r\nDDS textures are vertically flipped on load. Enable these if textures\r\nappear upside-down — which setting you need depends on the texture\r\ncompression format.\r\n\r\n## UI Behavior\r\n\r\n**Gizmo 3rd Axis** changes what the mouse wheel does when using the\r\ntransform gizmo. *Rotation* spins the object along the selected axis,\r\nwhile *Depth* moves the object closer or farther.\r\n\r\n**Use Translated Names** displays content names in the localized\r\nlanguage when available, rather than the original filenames.\r\n\r\n**Recover Tags From Save** attempts to restore tag data from saved\r\nsettings if the content cache is rebuilt or corrupted.)",
+    "ko": "(Global application settings for startup behavior and content handling.\r\n\r\n## Startup\r\n\r\n**Auto Load** controls what happens when the application starts.\r\n*None* starts with an empty stage, *Last Actor* loads the most recently\r\nused actor model, and *Last Scene* restores the last saved scene.\r\n\r\n## Texture Loading\r\n\r\n**Flip DDS Compressed** and **Flip DDS Uncompressed** control whether\r\nDDS textures are vertically flipped on load. Enable these if textures\r\nappear upside-down — which setting you need depends on the texture\r\ncompression format.\r\n\r\n## UI Behavior\r\n\r\n**Gizmo 3rd Axis** changes what the mouse wheel does when using the\r\ntransform gizmo. *Rotation* spins the object along the selected axis,\r\nwhile *Depth* moves the object closer or farther.\r\n\r\n**Use Translated Names** displays content names in the localized\r\nlanguage when available, rather than the original filenames.\r\n\r\n**Recover Tags From Save** attempts to restore tag data from saved\r\nsettings if the content cache is rebuilt or corrupted.)",
+    "zh-CN": "(Global application settings for startup behavior and content handling.\r\n\r\n## Startup\r\n\r\n**Auto Load** controls what happens when the application starts.\r\n*None* starts with an empty stage, *Last Actor* loads the most recently\r\nused actor model, and *Last Scene* restores the last saved scene.\r\n\r\n## Texture Loading\r\n\r\n**Flip DDS Compressed** and **Flip DDS Uncompressed** control whether\r\nDDS textures are vertically flipped on load. Enable these if textures\r\nappear upside-down — which setting you need depends on the texture\r\ncompression format.\r\n\r\n## UI Behavior\r\n\r\n**Gizmo 3rd Axis** changes what the mouse wheel does when using the\r\ntransform gizmo. *Rotation* spins the object along the selected axis,\r\nwhile *Depth* moves the object closer or farther.\r\n\r\n**Use Translated Names** displays content names in the localized\r\nlanguage when available, rather than the original filenames.\r\n\r\n**Recover Tags From Save** attempts to restore tag data from saved\r\nsettings if the content cache is rebuilt or corrupted.)"
+  },
   "values": [
     {
       "name": "Auto Load",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 2,
       "options": ["None", "Last Actor", "Last Scene"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Recover Tags From Save",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Attempts to recover tags from saved settings in case your content cache is rebuilt or broken"
+      "description": "Attempts to recover tags from saved settings in case your content cache is rebuilt or broken",
+      "descriptions": {
+        "ja": "コンテンツキャッシュが再構築されたり破損した場合、保存された設定からタグを復元を試みます。",
+        "zh-TW": "嘗試從儲存的設定中恢復標籤，以防您的內容緩存重建或損壞。",
+        "ko": "콘텐츠 캐시가 재구축되거나 손상되는 경우 저장된 설정에서 태그를 복구하려고 시도합니다.",
+        "zh-CN": "如果您的内容缓存重建或损坏，将尝试从保存的设置中恢复标签。"
+      }
     },
     {
       "name": "Flip DDS Compressed",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Flip compressed DDS texture"
+      "description": "Flip compressed DDS texture",
+      "descriptions": {
+        "ja": "圧縮DDSテクスチャ反転",
+        "zh-TW": "壓縮DDS紋理翻轉",
+        "ko": "압축 DDS 텍스처 플립",
+        "zh-CN": "翻转压缩 DDS 纹理"
+      }
     },
     {
       "name": "Flip DDS Uncompressed",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Flip uncomrpessed DDS texture"
+      "description": "Flip uncomrpessed DDS texture",
+      "descriptions": {
+        "ja": "非圧縮DDSテクスチャ反転",
+        "zh-TW": "未壓縮DDS紋理翻轉",
+        "ko": "비압축 DDS 텍스처 플립",
+        "zh-CN": "翻转未压缩 DDS 纹理"
+      }
     },
     {
       "name": "Gizmo 3rd Axis",
@@ -88,7 +118,13 @@
       "min": 0,
       "max": 1,
       "options": ["Rotation", "Depth"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Use Translated Names",
@@ -104,7 +140,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     }
   ]
 }

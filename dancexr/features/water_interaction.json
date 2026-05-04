@@ -9,6 +9,12 @@
     "zh-CN": "水体交互"
   },
   "description": "Controls ripple effects generated when the actor contacts a water\r\nsurface. HDRP only — no effect in other render pipelines.\r\n\r\n**Intensity** scales all ripple amplitudes globally. **Body**,\r\n**Hands**, and **Feet** set per-body-part amplitude multipliers so\r\nyou can emphasize foot splashes or subtle hand trails independently.",
+  "descriptions": {
+    "ja": "(Controls ripple effects generated when the actor contacts a water\r\nsurface. HDRP only — no effect in other render pipelines.\r\n\r\n**Intensity** scales all ripple amplitudes globally. **Body**,\r\n**Hands**, and **Feet** set per-body-part amplitude multipliers so\r\nyou can emphasize foot splashes or subtle hand trails independently.)",
+    "zh-TW": "(Controls ripple effects generated when the actor contacts a water\r\nsurface. HDRP only — no effect in other render pipelines.\r\n\r\n**Intensity** scales all ripple amplitudes globally. **Body**,\r\n**Hands**, and **Feet** set per-body-part amplitude multipliers so\r\nyou can emphasize foot splashes or subtle hand trails independently.)",
+    "ko": "(Controls ripple effects generated when the actor contacts a water\r\nsurface. HDRP only — no effect in other render pipelines.\r\n\r\n**Intensity** scales all ripple amplitudes globally. **Body**,\r\n**Hands**, and **Feet** set per-body-part amplitude multipliers so\r\nyou can emphasize foot splashes or subtle hand trails independently.)",
+    "zh-CN": "(Controls ripple effects generated when the actor contacts a water\r\nsurface. HDRP only — no effect in other render pipelines.\r\n\r\n**Intensity** scales all ripple amplitudes globally. **Body**,\r\n**Hands**, and **Feet** set per-body-part amplitude multipliers so\r\nyou can emphasize foot splashes or subtle hand trails independently.)"
+  },
   "values": [
     {
       "name": "Ripple",
@@ -25,6 +31,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Intensity",
@@ -40,7 +52,13 @@
           "min": 0,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Body",
@@ -56,7 +74,13 @@
           "min": 0.1,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Hands",
@@ -72,7 +96,13 @@
           "min": 0.1,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Feet",
@@ -88,7 +118,13 @@
           "min": 0.1,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     }

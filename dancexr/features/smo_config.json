@@ -9,6 +9,12 @@
     "zh-CN": "性覆盖与假阳具"
   },
   "description": "Controls adult motion overlay and attachment props for an actor model.\r\nThis is a Pro-only feature and requires compatible skeletons.\r\n\r\n\r\n## Pose\r\n\r\n**Vertical Shift** raises or lowers the actor's root position — useful\r\nfor adjusting height relative to a partner or object. **Angle** sets\r\nthe forward/backward tilt of the motion axis, while **Random** adds\r\ndirectional variance that fluctuates over time for organic feel.\r\n\r\n**Arm IK Left** and **Arm IK Right** blend inverse-kinematics arm\r\ncorrection so hands follow the body motion instead of floating in place.\r\nValues above zero enable proportional IK influence.\r\n\r\n\r\n## Motion\r\n\r\nThe motion subsystem drives rhythmic root offsets synced to the music\r\nbeat. Settings are managed by the nested Organic Motion panel, which\r\ncontrols amplitude, frequency, and timing patterns.\r\n\r\n\r\n## Attachment\r\n\r\nThe **Dildo** section configures a bone-attached prop with its own\r\nmodel, surface material, and XRay cutaway. It can also drive hand\r\ngrab poses and leg IK when active.",
+  "descriptions": {
+    "ja": "(Controls adult motion overlay and attachment props for an actor model.\r\nThis is a Pro-only feature and requires compatible skeletons.\r\n\r\n\r\n## Pose\r\n\r\n**Vertical Shift** raises or lowers the actor's root position — useful\r\nfor adjusting height relative to a partner or object. **Angle** sets\r\nthe forward/backward tilt of the motion axis, while **Random** adds\r\ndirectional variance that fluctuates over time for organic feel.\r\n\r\n**Arm IK Left** and **Arm IK Right** blend inverse-kinematics arm\r\ncorrection so hands follow the body motion instead of floating in place.\r\nValues above zero enable proportional IK influence.\r\n\r\n\r\n## Motion\r\n\r\nThe motion subsystem drives rhythmic root offsets synced to the music\r\nbeat. Settings are managed by the nested Organic Motion panel, which\r\ncontrols amplitude, frequency, and timing patterns.\r\n\r\n\r\n## Attachment\r\n\r\nThe **Dildo** section configures a bone-attached prop with its own\r\nmodel, surface material, and XRay cutaway. It can also drive hand\r\ngrab poses and leg IK when active.)",
+    "zh-TW": "(Controls adult motion overlay and attachment props for an actor model.\r\nThis is a Pro-only feature and requires compatible skeletons.\r\n\r\n\r\n## Pose\r\n\r\n**Vertical Shift** raises or lowers the actor's root position — useful\r\nfor adjusting height relative to a partner or object. **Angle** sets\r\nthe forward/backward tilt of the motion axis, while **Random** adds\r\ndirectional variance that fluctuates over time for organic feel.\r\n\r\n**Arm IK Left** and **Arm IK Right** blend inverse-kinematics arm\r\ncorrection so hands follow the body motion instead of floating in place.\r\nValues above zero enable proportional IK influence.\r\n\r\n\r\n## Motion\r\n\r\nThe motion subsystem drives rhythmic root offsets synced to the music\r\nbeat. Settings are managed by the nested Organic Motion panel, which\r\ncontrols amplitude, frequency, and timing patterns.\r\n\r\n\r\n## Attachment\r\n\r\nThe **Dildo** section configures a bone-attached prop with its own\r\nmodel, surface material, and XRay cutaway. It can also drive hand\r\ngrab poses and leg IK when active.)",
+    "ko": "(Controls adult motion overlay and attachment props for an actor model.\r\nThis is a Pro-only feature and requires compatible skeletons.\r\n\r\n\r\n## Pose\r\n\r\n**Vertical Shift** raises or lowers the actor's root position — useful\r\nfor adjusting height relative to a partner or object. **Angle** sets\r\nthe forward/backward tilt of the motion axis, while **Random** adds\r\ndirectional variance that fluctuates over time for organic feel.\r\n\r\n**Arm IK Left** and **Arm IK Right** blend inverse-kinematics arm\r\ncorrection so hands follow the body motion instead of floating in place.\r\nValues above zero enable proportional IK influence.\r\n\r\n\r\n## Motion\r\n\r\nThe motion subsystem drives rhythmic root offsets synced to the music\r\nbeat. Settings are managed by the nested Organic Motion panel, which\r\ncontrols amplitude, frequency, and timing patterns.\r\n\r\n\r\n## Attachment\r\n\r\nThe **Dildo** section configures a bone-attached prop with its own\r\nmodel, surface material, and XRay cutaway. It can also drive hand\r\ngrab poses and leg IK when active.)",
+    "zh-CN": "(Controls adult motion overlay and attachment props for an actor model.\r\nThis is a Pro-only feature and requires compatible skeletons.\r\n\r\n\r\n## Pose\r\n\r\n**Vertical Shift** raises or lowers the actor's root position — useful\r\nfor adjusting height relative to a partner or object. **Angle** sets\r\nthe forward/backward tilt of the motion axis, while **Random** adds\r\ndirectional variance that fluctuates over time for organic feel.\r\n\r\n**Arm IK Left** and **Arm IK Right** blend inverse-kinematics arm\r\ncorrection so hands follow the body motion instead of floating in place.\r\nValues above zero enable proportional IK influence.\r\n\r\n\r\n## Motion\r\n\r\nThe motion subsystem drives rhythmic root offsets synced to the music\r\nbeat. Settings are managed by the nested Organic Motion panel, which\r\ncontrols amplitude, frequency, and timing patterns.\r\n\r\n\r\n## Attachment\r\n\r\nThe **Dildo** section configures a bone-attached prop with its own\r\nmodel, surface material, and XRay cutaway. It can also drive hand\r\ngrab poses and leg IK when active.)"
+  },
   "values": [
     {
       "name": "Vertical Shift",
@@ -24,7 +30,13 @@
       "min": -1,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Angle",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 90,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Random",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 45,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Arm IK Left",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Arm IK Right",
@@ -88,7 +118,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Motion",
@@ -105,6 +141,12 @@
       "max": 1,
       "options": null,
       "description": "Reusable spring-driven thrust controller. A shaped driver curve\r\npushes one mass, a second mass trails behind it, and the gap\r\nbetween them becomes the regulated travel used by paired motion\r\nsystems. This makes the cycle feel elastic rather than like a\r\nraw sine wave.\r\n\r\n\r\n## Tempo and Travel\r\n\r\n**Extent** sets the maximum travel distance. **Auto Intensity**\r\ncan scale that travel from the current music level, while\r\n**Auto BPM** and **Speed** control how quickly the cycle runs.\r\nUse manual speed when you want consistent pacing; enable the\r\naudio-driven controls when the motion should breathe with the\r\nsoundtrack instead.\r\n\r\n\r\n## Driver Shape\r\n\r\n**Top Duration**, **Bottom Duration**, and **Slope Balance**\r\nshape the idealized cycle before the springs respond to it. A\r\nlonger top creates a held extension, a longer bottom creates a\r\nmore obvious reset, and slope balance shifts time between the\r\ndrive and return strokes. This is where you define whether the\r\nmotion feels punchy, even, or teasing.\r\n\r\n\r\n## Spring Response\r\n\r\n**Collision Distance** sets the resting separation between the\r\ntwo spring masses. **Spring A**, **Damping A**, **Spring B**,\r\n**Damping B**, and **Rest Spring** determine how tightly each\r\nmass follows the driver and how much overshoot or softness is\r\nleft in the result. Stiffer values feel more mechanical; softer\r\nvalues feel heavier but can get mushy if the cycle is fast.\r\n\r\n\r\n## Visualization\r\n\r\n**Visualize Curve** draws the target and spring responses in the\r\nscene so you can tune the shape without guessing from the body\r\nmotion alone. It is a setup aid, not something you would keep on\r\nduring normal use.",
+      "descriptions": {
+        "ja": "(Reusable spring-driven thrust controller. A shaped driver curve\r\npushes one mass, a second mass trails behind it, and the gap\r\nbetween them becomes the regulated travel used by paired motion\r\nsystems. This makes the cycle feel elastic rather than like a\r\nraw sine wave.\r\n\r\n\r\n## Tempo and Travel\r\n\r\n**Extent** sets the maximum travel distance. **Auto Intensity**\r\ncan scale that travel from the current music level, while\r\n**Auto BPM** and **Speed** control how quickly the cycle runs.\r\nUse manual speed when you want consistent pacing; enable the\r\naudio-driven controls when the motion should breathe with the\r\nsoundtrack instead.\r\n\r\n\r\n## Driver Shape\r\n\r\n**Top Duration**, **Bottom Duration**, and **Slope Balance**\r\nshape the idealized cycle before the springs respond to it. A\r\nlonger top creates a held extension, a longer bottom creates a\r\nmore obvious reset, and slope balance shifts time between the\r\ndrive and return strokes. This is where you define whether the\r\nmotion feels punchy, even, or teasing.\r\n\r\n\r\n## Spring Response\r\n\r\n**Collision Distance** sets the resting separation between the\r\ntwo spring masses. **Spring A**, **Damping A**, **Spring B**,\r\n**Damping B**, and **Rest Spring** determine how tightly each\r\nmass follows the driver and how much overshoot or softness is\r\nleft in the result. Stiffer values feel more mechanical; softer\r\nvalues feel heavier but can get mushy if the cycle is fast.\r\n\r\n\r\n## Visualization\r\n\r\n**Visualize Curve** draws the target and spring responses in the\r\nscene so you can tune the shape without guessing from the body\r\nmotion alone. It is a setup aid, not something you would keep on\r\nduring normal use.)",
+        "zh-TW": "(Reusable spring-driven thrust controller. A shaped driver curve\r\npushes one mass, a second mass trails behind it, and the gap\r\nbetween them becomes the regulated travel used by paired motion\r\nsystems. This makes the cycle feel elastic rather than like a\r\nraw sine wave.\r\n\r\n\r\n## Tempo and Travel\r\n\r\n**Extent** sets the maximum travel distance. **Auto Intensity**\r\ncan scale that travel from the current music level, while\r\n**Auto BPM** and **Speed** control how quickly the cycle runs.\r\nUse manual speed when you want consistent pacing; enable the\r\naudio-driven controls when the motion should breathe with the\r\nsoundtrack instead.\r\n\r\n\r\n## Driver Shape\r\n\r\n**Top Duration**, **Bottom Duration**, and **Slope Balance**\r\nshape the idealized cycle before the springs respond to it. A\r\nlonger top creates a held extension, a longer bottom creates a\r\nmore obvious reset, and slope balance shifts time between the\r\ndrive and return strokes. This is where you define whether the\r\nmotion feels punchy, even, or teasing.\r\n\r\n\r\n## Spring Response\r\n\r\n**Collision Distance** sets the resting separation between the\r\ntwo spring masses. **Spring A**, **Damping A**, **Spring B**,\r\n**Damping B**, and **Rest Spring** determine how tightly each\r\nmass follows the driver and how much overshoot or softness is\r\nleft in the result. Stiffer values feel more mechanical; softer\r\nvalues feel heavier but can get mushy if the cycle is fast.\r\n\r\n\r\n## Visualization\r\n\r\n**Visualize Curve** draws the target and spring responses in the\r\nscene so you can tune the shape without guessing from the body\r\nmotion alone. It is a setup aid, not something you would keep on\r\nduring normal use.)",
+        "ko": "(Reusable spring-driven thrust controller. A shaped driver curve\r\npushes one mass, a second mass trails behind it, and the gap\r\nbetween them becomes the regulated travel used by paired motion\r\nsystems. This makes the cycle feel elastic rather than like a\r\nraw sine wave.\r\n\r\n\r\n## Tempo and Travel\r\n\r\n**Extent** sets the maximum travel distance. **Auto Intensity**\r\ncan scale that travel from the current music level, while\r\n**Auto BPM** and **Speed** control how quickly the cycle runs.\r\nUse manual speed when you want consistent pacing; enable the\r\naudio-driven controls when the motion should breathe with the\r\nsoundtrack instead.\r\n\r\n\r\n## Driver Shape\r\n\r\n**Top Duration**, **Bottom Duration**, and **Slope Balance**\r\nshape the idealized cycle before the springs respond to it. A\r\nlonger top creates a held extension, a longer bottom creates a\r\nmore obvious reset, and slope balance shifts time between the\r\ndrive and return strokes. This is where you define whether the\r\nmotion feels punchy, even, or teasing.\r\n\r\n\r\n## Spring Response\r\n\r\n**Collision Distance** sets the resting separation between the\r\ntwo spring masses. **Spring A**, **Damping A**, **Spring B**,\r\n**Damping B**, and **Rest Spring** determine how tightly each\r\nmass follows the driver and how much overshoot or softness is\r\nleft in the result. Stiffer values feel more mechanical; softer\r\nvalues feel heavier but can get mushy if the cycle is fast.\r\n\r\n\r\n## Visualization\r\n\r\n**Visualize Curve** draws the target and spring responses in the\r\nscene so you can tune the shape without guessing from the body\r\nmotion alone. It is a setup aid, not something you would keep on\r\nduring normal use.)",
+        "zh-CN": "(Reusable spring-driven thrust controller. A shaped driver curve\r\npushes one mass, a second mass trails behind it, and the gap\r\nbetween them becomes the regulated travel used by paired motion\r\nsystems. This makes the cycle feel elastic rather than like a\r\nraw sine wave.\r\n\r\n\r\n## Tempo and Travel\r\n\r\n**Extent** sets the maximum travel distance. **Auto Intensity**\r\ncan scale that travel from the current music level, while\r\n**Auto BPM** and **Speed** control how quickly the cycle runs.\r\nUse manual speed when you want consistent pacing; enable the\r\naudio-driven controls when the motion should breathe with the\r\nsoundtrack instead.\r\n\r\n\r\n## Driver Shape\r\n\r\n**Top Duration**, **Bottom Duration**, and **Slope Balance**\r\nshape the idealized cycle before the springs respond to it. A\r\nlonger top creates a held extension, a longer bottom creates a\r\nmore obvious reset, and slope balance shifts time between the\r\ndrive and return strokes. This is where you define whether the\r\nmotion feels punchy, even, or teasing.\r\n\r\n\r\n## Spring Response\r\n\r\n**Collision Distance** sets the resting separation between the\r\ntwo spring masses. **Spring A**, **Damping A**, **Spring B**,\r\n**Damping B**, and **Rest Spring** determine how tightly each\r\nmass follows the driver and how much overshoot or softness is\r\nleft in the result. Stiffer values feel more mechanical; softer\r\nvalues feel heavier but can get mushy if the cycle is fast.\r\n\r\n\r\n## Visualization\r\n\r\n**Visualize Curve** draws the target and spring responses in the\r\nscene so you can tune the shape without guessing from the body\r\nmotion alone. It is a setup aid, not something you would keep on\r\nduring normal use.)"
+      },
       "values": [
         {
           "name": "Extent",
@@ -120,7 +162,13 @@
           "min": 0,
           "max": 0.5,
           "options": null,
-          "description": "Travel distance"
+          "description": "Travel distance",
+          "descriptions": {
+            "ja": "移動距離",
+            "zh-TW": "移動距離",
+            "ko": "이동 거리",
+            "zh-CN": "行走距离"
+          }
         },
         {
           "name": "Auto Intensity",
@@ -136,7 +184,13 @@
           "min": -2,
           "max": 4,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Auto BPM",
@@ -152,7 +206,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Speed",
@@ -168,7 +228,13 @@
           "min": -2,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Top Duration",
@@ -184,7 +250,13 @@
           "min": 0,
           "max": 0.5,
           "options": null,
-          "description": "Duration of the top flat section"
+          "description": "Duration of the top flat section",
+          "descriptions": {
+            "ja": "トップ平坦部分の期間",
+            "zh-TW": "頂部平坦部分的持續時間",
+            "ko": "상단 평지 구간 지속 시간",
+            "zh-CN": "顶部平坦部分的持续时间"
+          }
         },
         {
           "name": "Bottom Duration",
@@ -200,7 +272,13 @@
           "min": 0,
           "max": 0.5,
           "options": null,
-          "description": "Duration of the bottom flat section"
+          "description": "Duration of the bottom flat section",
+          "descriptions": {
+            "ja": "ボトム平坦部分の期間",
+            "zh-TW": "底部平坦部分的持續時間",
+            "ko": "하단 평지 구간 지속 시간",
+            "zh-CN": "底部平坦部分的持续时间"
+          }
         },
         {
           "name": "Slope Balance",
@@ -216,7 +294,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Ratio between upward and downward slope durations"
+          "description": "Ratio between upward and downward slope durations",
+          "descriptions": {
+            "ja": "上り坂と下り坂の期間の比率",
+            "zh-TW": "上坡和下坡持續時間的比率",
+            "ko": "상승 경사와 하강 경사 지속 시간 비율",
+            "zh-CN": "上坡和下坡持续时间的比例"
+          }
         },
         {
           "name": "Collision Distance",
@@ -232,7 +316,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Spring A",
@@ -248,7 +338,13 @@
           "min": 8,
           "max": 12,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Damping A",
@@ -264,7 +360,13 @@
           "min": 0,
           "max": 100,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Spring B",
@@ -280,7 +382,13 @@
           "min": 8,
           "max": 12,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Damping B",
@@ -296,7 +404,13 @@
           "min": 0,
           "max": 100,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Rest Spring",
@@ -312,7 +426,13 @@
           "min": 5,
           "max": 9,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Visualize Curve",
@@ -328,7 +448,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Visualize the motion curve in the scene view"
+          "description": "Visualize the motion curve in the scene view",
+          "descriptions": {
+            "ja": "シーンビューでモーションカーブを可視化",
+            "zh-TW": "在場景視圖中可視化運動曲線",
+            "ko": "씬 뷰에서 모션 곡선 시각화",
+            "zh-CN": "在场景视图中可视化运动曲线"
+          }
         }
       ]
     },
@@ -347,6 +473,12 @@
       "max": 1,
       "options": null,
       "description": "Configures a prop (model or procedural geometry) attached to a\r\nspecific bone on the actor. Supports pole objects, hand-held items,\r\nand anatomy props with motion, XRay cross-section, and surface shading.\r\n\r\n**Model** selects the loaded accessory or uses the default procedural\r\ngeometry. Anchor offset, accessory config, and surface settings are\r\navailable in nested sub-panels.\r\n\r\n**Motion** applies up/down oscillation to the attachment. **Pull Hands**\r\n(pole mode) draws nearby hands toward the pole surface; **Grab Pose**\r\nauto-adjusts hand grip; **Hand Motion** offsets hands relative to the\r\nattachment's movement.\r\n\r\n**XRay** renders a translucent cutaway through the prop. **Intensity**\r\ncontrols visibility, while **Radius**, **Height**, **Offset**, and\r\n**Color** define the cylinder shape and tint. **Alpha** adjusts\r\noverall material transparency.",
+      "descriptions": {
+        "ja": "(Configures a prop (model or procedural geometry) attached to a\r\nspecific bone on the actor. Supports pole objects, hand-held items,\r\nand anatomy props with motion, XRay cross-section, and surface shading.\r\n\r\n**Model** selects the loaded accessory or uses the default procedural\r\ngeometry. Anchor offset, accessory config, and surface settings are\r\navailable in nested sub-panels.\r\n\r\n**Motion** applies up/down oscillation to the attachment. **Pull Hands**\r\n(pole mode) draws nearby hands toward the pole surface; **Grab Pose**\r\nauto-adjusts hand grip; **Hand Motion** offsets hands relative to the\r\nattachment's movement.\r\n\r\n**XRay** renders a translucent cutaway through the prop. **Intensity**\r\ncontrols visibility, while **Radius**, **Height**, **Offset**, and\r\n**Color** define the cylinder shape and tint. **Alpha** adjusts\r\noverall material transparency.)",
+        "zh-TW": "(Configures a prop (model or procedural geometry) attached to a\r\nspecific bone on the actor. Supports pole objects, hand-held items,\r\nand anatomy props with motion, XRay cross-section, and surface shading.\r\n\r\n**Model** selects the loaded accessory or uses the default procedural\r\ngeometry. Anchor offset, accessory config, and surface settings are\r\navailable in nested sub-panels.\r\n\r\n**Motion** applies up/down oscillation to the attachment. **Pull Hands**\r\n(pole mode) draws nearby hands toward the pole surface; **Grab Pose**\r\nauto-adjusts hand grip; **Hand Motion** offsets hands relative to the\r\nattachment's movement.\r\n\r\n**XRay** renders a translucent cutaway through the prop. **Intensity**\r\ncontrols visibility, while **Radius**, **Height**, **Offset**, and\r\n**Color** define the cylinder shape and tint. **Alpha** adjusts\r\noverall material transparency.)",
+        "ko": "(Configures a prop (model or procedural geometry) attached to a\r\nspecific bone on the actor. Supports pole objects, hand-held items,\r\nand anatomy props with motion, XRay cross-section, and surface shading.\r\n\r\n**Model** selects the loaded accessory or uses the default procedural\r\ngeometry. Anchor offset, accessory config, and surface settings are\r\navailable in nested sub-panels.\r\n\r\n**Motion** applies up/down oscillation to the attachment. **Pull Hands**\r\n(pole mode) draws nearby hands toward the pole surface; **Grab Pose**\r\nauto-adjusts hand grip; **Hand Motion** offsets hands relative to the\r\nattachment's movement.\r\n\r\n**XRay** renders a translucent cutaway through the prop. **Intensity**\r\ncontrols visibility, while **Radius**, **Height**, **Offset**, and\r\n**Color** define the cylinder shape and tint. **Alpha** adjusts\r\noverall material transparency.)",
+        "zh-CN": "(Configures a prop (model or procedural geometry) attached to a\r\nspecific bone on the actor. Supports pole objects, hand-held items,\r\nand anatomy props with motion, XRay cross-section, and surface shading.\r\n\r\n**Model** selects the loaded accessory or uses the default procedural\r\ngeometry. Anchor offset, accessory config, and surface settings are\r\navailable in nested sub-panels.\r\n\r\n**Motion** applies up/down oscillation to the attachment. **Pull Hands**\r\n(pole mode) draws nearby hands toward the pole surface; **Grab Pose**\r\nauto-adjusts hand grip; **Hand Motion** offsets hands relative to the\r\nattachment's movement.\r\n\r\n**XRay** renders a translucent cutaway through the prop. **Intensity**\r\ncontrols visibility, while **Radius**, **Height**, **Offset**, and\r\n**Color** define the cylinder shape and tint. **Alpha** adjusts\r\noverall material transparency.)"
+      },
       "values": [
         {
           "name": "Model",
@@ -362,7 +494,13 @@
           "min": 0,
           "max": 1,
           "options": ["[Pole]"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Anchor Offset",
@@ -379,6 +517,12 @@
           "max": 1,
           "options": null,
           "description": "Set the anchor position for the attachment to attach to",
+          "descriptions": {
+            "ja": "アタッチメントを接続するアンカー位置を設定",
+            "zh-TW": "設定附件要附加的錨點位置",
+            "ko": "부착할 부착물에 대한 앵커 위치 설정",
+            "zh-CN": "设置附件附加的锚点位置"
+          },
           "values": [
             {
               "name": "Position",
@@ -395,6 +539,12 @@
               "max": 1,
               "options": null,
               "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
               "values": [
                 {
                   "name": "X",
@@ -410,7 +560,13 @@
                   "min": -1,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Y",
@@ -426,7 +582,13 @@
                   "min": -1,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Z",
@@ -442,7 +604,13 @@
                   "min": -1,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 }
               ]
             },
@@ -461,6 +629,12 @@
               "max": 1,
               "options": null,
               "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
               "values": [
                 {
                   "name": "X",
@@ -476,7 +650,13 @@
                   "min": -90,
                   "max": 90,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Y",
@@ -492,7 +672,13 @@
                   "min": -90,
                   "max": 90,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Z",
@@ -508,7 +694,13 @@
                   "min": -90,
                   "max": 90,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 }
               ]
             }
@@ -529,6 +721,12 @@
           "max": 1,
           "options": null,
           "description": "Controls the physical dimensions and spatial alignment of an\r\nattachment prop. **Object Radius** and **Object Length** define the\r\nsize of procedural geometry (e.g. poles). **Scale** is a logarithmic\r\nmultiplier for loaded models.\r\n\r\n**Orientation** picks the default facing axis (Y/X/Z Up/Down).\r\n**Offset** and **Rotation** apply local-space adjustments after\r\norientation. **Guitar Mode** rotates the prop to track hand position\r\nas if strumming.",
+          "descriptions": {
+            "ja": "(Controls the physical dimensions and spatial alignment of an\r\nattachment prop. **Object Radius** and **Object Length** define the\r\nsize of procedural geometry (e.g. poles). **Scale** is a logarithmic\r\nmultiplier for loaded models.\r\n\r\n**Orientation** picks the default facing axis (Y/X/Z Up/Down).\r\n**Offset** and **Rotation** apply local-space adjustments after\r\norientation. **Guitar Mode** rotates the prop to track hand position\r\nas if strumming.)",
+            "zh-TW": "(Controls the physical dimensions and spatial alignment of an\r\nattachment prop. **Object Radius** and **Object Length** define the\r\nsize of procedural geometry (e.g. poles). **Scale** is a logarithmic\r\nmultiplier for loaded models.\r\n\r\n**Orientation** picks the default facing axis (Y/X/Z Up/Down).\r\n**Offset** and **Rotation** apply local-space adjustments after\r\norientation. **Guitar Mode** rotates the prop to track hand position\r\nas if strumming.)",
+            "ko": "(Controls the physical dimensions and spatial alignment of an\r\nattachment prop. **Object Radius** and **Object Length** define the\r\nsize of procedural geometry (e.g. poles). **Scale** is a logarithmic\r\nmultiplier for loaded models.\r\n\r\n**Orientation** picks the default facing axis (Y/X/Z Up/Down).\r\n**Offset** and **Rotation** apply local-space adjustments after\r\norientation. **Guitar Mode** rotates the prop to track hand position\r\nas if strumming.)",
+            "zh-CN": "(Controls the physical dimensions and spatial alignment of an\r\nattachment prop. **Object Radius** and **Object Length** define the\r\nsize of procedural geometry (e.g. poles). **Scale** is a logarithmic\r\nmultiplier for loaded models.\r\n\r\n**Orientation** picks the default facing axis (Y/X/Z Up/Down).\r\n**Offset** and **Rotation** apply local-space adjustments after\r\norientation. **Guitar Mode** rotates the prop to track hand position\r\nas if strumming.)"
+          },
           "values": [
             {
               "name": "Object Radius",
@@ -544,7 +742,13 @@
               "min": 0.01,
               "max": 0.05,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Object Length",
@@ -560,7 +764,13 @@
               "min": 0,
               "max": 5,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Scale",
@@ -576,7 +786,13 @@
               "min": -5,
               "max": 5,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Orientation",
@@ -592,7 +808,13 @@
               "min": 0,
               "max": 5,
               "options": ["Y Up", "Y Down", "X Up", "X Down", "Z Up", "Z Down"],
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Offset",
@@ -609,6 +831,12 @@
               "max": 1,
               "options": null,
               "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
               "values": [
                 {
                   "name": "X",
@@ -624,7 +852,13 @@
                   "min": -2,
                   "max": 2,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Y",
@@ -640,7 +874,13 @@
                   "min": -2,
                   "max": 2,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Z",
@@ -656,7 +896,13 @@
                   "min": -2,
                   "max": 2,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 }
               ]
             },
@@ -675,6 +921,12 @@
               "max": 1,
               "options": null,
               "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
               "values": [
                 {
                   "name": "X",
@@ -690,7 +942,13 @@
                   "min": -180,
                   "max": 180,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Y",
@@ -706,7 +964,13 @@
                   "min": -180,
                   "max": 180,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Z",
@@ -722,7 +986,13 @@
                   "min": -180,
                   "max": 180,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 }
               ]
             },
@@ -740,7 +1010,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -759,6 +1035,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "Gloss",
@@ -774,7 +1056,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Metallic",
@@ -790,7 +1078,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Bump Strength",
@@ -806,7 +1100,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Glow",
@@ -822,7 +1122,13 @@
               "min": 0,
               "max": 10,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Ambient",
@@ -838,7 +1144,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Alpha Reduction",
@@ -854,7 +1166,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Alpha Curve",
@@ -870,7 +1188,13 @@
               "min": -2,
               "max": 2,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Clip",
@@ -886,7 +1210,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Color",
@@ -903,6 +1233,12 @@
               "max": 1,
               "options": null,
               "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
               "values": [
                 {
                   "name": "Color Mode",
@@ -918,7 +1254,13 @@
                   "min": 0,
                   "max": 1,
                   "options": ["RGB", "HSV"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Hue",
@@ -934,7 +1276,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Satuation",
@@ -950,7 +1298,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Brightness",
@@ -966,7 +1320,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Red",
@@ -982,7 +1342,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Green",
@@ -998,7 +1364,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Blue",
@@ -1014,7 +1386,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Blend Mode",
@@ -1030,7 +1408,13 @@
                   "min": 0,
                   "max": 3,
                   "options": ["Original", "Multiply", "Blend", "Color Shift"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Blend",
@@ -1046,7 +1430,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Alpha",
@@ -1062,7 +1452,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 }
               ]
             },
@@ -1081,6 +1477,12 @@
               "max": 1,
               "options": null,
               "description": "Overrides the actor's material with a global toon shader.\r\n\r\nEnable the toggle to replace all materials with a unified toon\r\nstyle. Adjust **Shading** and **Shadow** for the light/dark\r\nbalance, **Outline** for edge thickness, and **Ambient** for\r\nthe fill light level.\r\n\r\n**Highlight Area** and **Soft Highlight** control how sharp\r\nthe bright areas are. **Shadow Area** and **Soft Shadow**\r\ndo the same for dark areas.\r\n\r\n**Specular** and **Soft Specular** add shiny reflections\r\nto lit surfaces.\r\n\r\n**Receive Shadow** (non-HDRP only) lets the material\r\nreceive shadows from other objects.",
+              "descriptions": {
+                "ja": "(Overrides the actor's material with a global toon shader.\r\n\r\nEnable the toggle to replace all materials with a unified toon\r\nstyle. Adjust **Shading** and **Shadow** for the light/dark\r\nbalance, **Outline** for edge thickness, and **Ambient** for\r\nthe fill light level.\r\n\r\n**Highlight Area** and **Soft Highlight** control how sharp\r\nthe bright areas are. **Shadow Area** and **Soft Shadow**\r\ndo the same for dark areas.\r\n\r\n**Specular** and **Soft Specular** add shiny reflections\r\nto lit surfaces.\r\n\r\n**Receive Shadow** (non-HDRP only) lets the material\r\nreceive shadows from other objects.)",
+                "zh-TW": "(Overrides the actor's material with a global toon shader.\r\n\r\nEnable the toggle to replace all materials with a unified toon\r\nstyle. Adjust **Shading** and **Shadow** for the light/dark\r\nbalance, **Outline** for edge thickness, and **Ambient** for\r\nthe fill light level.\r\n\r\n**Highlight Area** and **Soft Highlight** control how sharp\r\nthe bright areas are. **Shadow Area** and **Soft Shadow**\r\ndo the same for dark areas.\r\n\r\n**Specular** and **Soft Specular** add shiny reflections\r\nto lit surfaces.\r\n\r\n**Receive Shadow** (non-HDRP only) lets the material\r\nreceive shadows from other objects.)",
+                "ko": "(Overrides the actor's material with a global toon shader.\r\n\r\nEnable the toggle to replace all materials with a unified toon\r\nstyle. Adjust **Shading** and **Shadow** for the light/dark\r\nbalance, **Outline** for edge thickness, and **Ambient** for\r\nthe fill light level.\r\n\r\n**Highlight Area** and **Soft Highlight** control how sharp\r\nthe bright areas are. **Shadow Area** and **Soft Shadow**\r\ndo the same for dark areas.\r\n\r\n**Specular** and **Soft Specular** add shiny reflections\r\nto lit surfaces.\r\n\r\n**Receive Shadow** (non-HDRP only) lets the material\r\nreceive shadows from other objects.)",
+                "zh-CN": "(Overrides the actor's material with a global toon shader.\r\n\r\nEnable the toggle to replace all materials with a unified toon\r\nstyle. Adjust **Shading** and **Shadow** for the light/dark\r\nbalance, **Outline** for edge thickness, and **Ambient** for\r\nthe fill light level.\r\n\r\n**Highlight Area** and **Soft Highlight** control how sharp\r\nthe bright areas are. **Shadow Area** and **Soft Shadow**\r\ndo the same for dark areas.\r\n\r\n**Specular** and **Soft Specular** add shiny reflections\r\nto lit surfaces.\r\n\r\n**Receive Shadow** (non-HDRP only) lets the material\r\nreceive shadows from other objects.)"
+              },
               "values": [
                 {
                   "name": "Shading",
@@ -1096,7 +1498,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Outline",
@@ -1112,7 +1520,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Specular",
@@ -1128,7 +1542,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Soft Specular",
@@ -1144,7 +1564,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Highlight Area",
@@ -1160,7 +1586,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Soft Highlight",
@@ -1176,7 +1608,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Ambient",
@@ -1192,7 +1630,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Shadow Area",
@@ -1208,7 +1652,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Shadow",
@@ -1224,7 +1674,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Soft Shadow",
@@ -1240,7 +1696,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 }
               ]
             },
@@ -1259,6 +1721,12 @@
               "max": 1,
               "options": null,
               "description": "Overrides the shader type for all materials on the actor.\r\n\r\n**Mode** selects the shader: *Off* uses the default shader;\r\n*Refraction Thick/Thin* simulates glass with refractive\r\ntransparency; *Outline* renders only the outline edges;\r\n*Unlit* disables all lighting; *Experiment* is a\r\nplaceholder for custom shader effects.\r\n\r\n**Refraction** controls the index of refraction for glass\r\nmodes — higher values bend light more.\r\n\r\n**Thickness** adjusts the perceived depth of thin glass\r\nrefraction.",
+              "descriptions": {
+                "ja": "(Overrides the shader type for all materials on the actor.\r\n\r\n**Mode** selects the shader: *Off* uses the default shader;\r\n*Refraction Thick/Thin* simulates glass with refractive\r\ntransparency; *Outline* renders only the outline edges;\r\n*Unlit* disables all lighting; *Experiment* is a\r\nplaceholder for custom shader effects.\r\n\r\n**Refraction** controls the index of refraction for glass\r\nmodes — higher values bend light more.\r\n\r\n**Thickness** adjusts the perceived depth of thin glass\r\nrefraction.)",
+                "zh-TW": "(Overrides the shader type for all materials on the actor.\r\n\r\n**Mode** selects the shader: *Off* uses the default shader;\r\n*Refraction Thick/Thin* simulates glass with refractive\r\ntransparency; *Outline* renders only the outline edges;\r\n*Unlit* disables all lighting; *Experiment* is a\r\nplaceholder for custom shader effects.\r\n\r\n**Refraction** controls the index of refraction for glass\r\nmodes — higher values bend light more.\r\n\r\n**Thickness** adjusts the perceived depth of thin glass\r\nrefraction.)",
+                "ko": "(Overrides the shader type for all materials on the actor.\r\n\r\n**Mode** selects the shader: *Off* uses the default shader;\r\n*Refraction Thick/Thin* simulates glass with refractive\r\ntransparency; *Outline* renders only the outline edges;\r\n*Unlit* disables all lighting; *Experiment* is a\r\nplaceholder for custom shader effects.\r\n\r\n**Refraction** controls the index of refraction for glass\r\nmodes — higher values bend light more.\r\n\r\n**Thickness** adjusts the perceived depth of thin glass\r\nrefraction.)",
+                "zh-CN": "(Overrides the shader type for all materials on the actor.\r\n\r\n**Mode** selects the shader: *Off* uses the default shader;\r\n*Refraction Thick/Thin* simulates glass with refractive\r\ntransparency; *Outline* renders only the outline edges;\r\n*Unlit* disables all lighting; *Experiment* is a\r\nplaceholder for custom shader effects.\r\n\r\n**Refraction** controls the index of refraction for glass\r\nmodes — higher values bend light more.\r\n\r\n**Thickness** adjusts the perceived depth of thin glass\r\nrefraction.)"
+              },
               "values": [
                 {
                   "name": "Mode",
@@ -1274,7 +1742,13 @@
                   "min": 0,
                   "max": 5,
                   "options": ["Off", "Refraction Thick", "Refraction Thin", "Outline", "Unlit", "Experiment"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Refraction",
@@ -1290,7 +1764,13 @@
                   "min": 1,
                   "max": 3,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Thickness",
@@ -1306,7 +1786,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 }
               ]
             }
@@ -1327,6 +1813,12 @@
           "max": 1,
           "options": null,
           "description": "Apply up / down motion to the attachment model",
+          "descriptions": {
+            "ja": "アタッチメントモデルに上下の動きを適用",
+            "zh-TW": "將上下運動應用到附件模型",
+            "ko": "부착 모델에 상하 움직임 적용",
+            "zh-CN": "对附件模型应用上下运动"
+          },
           "values": [
             {
               "name": "Speed",
@@ -1343,6 +1835,12 @@
               "max": 1,
               "options": null,
               "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
               "values": [
                 {
                   "name": "Moves Per Beat",
@@ -1358,7 +1856,13 @@
                   "min": 0,
                   "max": 9,
                   "options": ["1/4", "1/3", "1/2", "2/3", "1", "4/3", "3/2", "2", "3", "4"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Moves Per Group",
@@ -1374,7 +1878,13 @@
                   "min": 4,
                   "max": 32,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Phase",
@@ -1390,7 +1900,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Curve",
@@ -1406,7 +1922,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Variable Speed",
@@ -1422,7 +1944,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Mode",
@@ -1438,7 +1966,13 @@
                   "min": 0,
                   "max": 2,
                   "options": ["Gradual", "Random", "Volume"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Min Speed",
@@ -1454,7 +1988,13 @@
                   "min": 0,
                   "max": 4,
                   "options": ["1/4", "1/3", "1/2", "2/3", "1"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Max Speed",
@@ -1470,7 +2010,13 @@
                   "min": 0,
                   "max": 4,
                   "options": ["1", "3/2", "2", "3", "4"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 }
               ]
             },
@@ -1488,7 +2034,13 @@
               "min": 0,
               "max": 0.3,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Angle",
@@ -1504,7 +2056,13 @@
               "min": -60,
               "max": 60,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Pull Hands",
@@ -1520,7 +2078,13 @@
               "min": 0,
               "max": 0.5,
               "options": null,
-              "description": "Pulling hands towards the attachment when they are close enough"
+              "description": "Pulling hands towards the attachment when they are close enough",
+              "descriptions": {
+                "ja": "手が十分に近くにある場合にアタッチメントに向かって引っ張る",
+                "zh-TW": "當手部足夠靠近時，將手部拉向附件",
+                "ko": "손이 충분히 가까워지면 부착물 쪽으로 손 끌어당기기",
+                "zh-CN": "当手部足够接近附件时，将手部拉向附件"
+              }
             },
             {
               "name": "Grab Pose",
@@ -1536,7 +2100,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": "Automatically change hand pose to grab when they are on the attachment"
+              "description": "Automatically change hand pose to grab when they are on the attachment",
+              "descriptions": {
+                "ja": "手がアタッチメント上にあるときに自動的にグリップポーズに変更する",
+                "zh-TW": "當手部位於附件上時，自動更改手部姿態為抓握",
+                "ko": "손이 부착물에 위치할 때 자동으로 잡기 포즈로 변경",
+                "zh-CN": "当手部位于附件上时，自动将手部姿势更改为抓取"
+              }
             },
             {
               "name": "Hand Motion",
@@ -1552,7 +2122,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": "Move hands relative to the attachment motion"
+              "description": "Move hands relative to the attachment motion",
+              "descriptions": {
+                "ja": "アタッチメントの動きに相対して手を動かす",
+                "zh-TW": "相對於附件運動移動手部",
+                "ko": "부착물 모션을 기준으로 손 움직임",
+                "zh-CN": "相对于附件运动移动手部"
+              }
             }
           ]
         },
@@ -1571,6 +2147,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "Intensity",
@@ -1586,7 +2168,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Radius",
@@ -1602,7 +2190,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Height",
@@ -1618,7 +2212,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Color",
@@ -1635,6 +2235,12 @@
               "max": 1,
               "options": null,
               "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
               "values": [
                 {
                   "name": "Color Mode",
@@ -1650,7 +2256,13 @@
                   "min": 0,
                   "max": 1,
                   "options": ["RGB", "HSV"],
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Hue",
@@ -1666,7 +2278,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Satuation",
@@ -1682,7 +2300,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Brightness",
@@ -1698,7 +2322,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Red",
@@ -1714,7 +2344,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Green",
@@ -1730,7 +2366,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Blue",
@@ -1746,7 +2388,13 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 },
                 {
                   "name": "Glow",
@@ -1762,7 +2410,13 @@
                   "min": 0,
                   "max": 5,
                   "options": null,
-                  "description": null
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
                 }
               ]
             },
@@ -1780,7 +2434,13 @@
               "min": -1,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Alpha",
@@ -1796,7 +2456,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         }

@@ -9,6 +9,12 @@
     "zh-CN": "尺寸与偏移"
   },
   "description": "Adjusts the actor's overall size, position, and rotation in\r\nthe scene.\r\n\r\n**Model Scale** uses a power-of-2 exponential scale so small\r\nchanges produce fine adjustments. **Uniform Height** scales\r\nall actors to a consistent average human height regardless of\r\ntheir original model proportions — disable this when you want\r\nto preserve the model's intended size. **Ground Offset** moves\r\nthe actor up or down relative to the floor.\r\n\r\n**Rotation** turns the actor around the Y axis. **Offset X**\r\nand **Offset Z** shift position horizontally. **Snapping**\r\nsets the increment size when dragging the actor in the scene —\r\nzero disables snapping entirely.\r\n\r\nPresets include *Uniform Life Size*, *Miniature*, *Giant*,\r\nand *Original*.",
+  "descriptions": {
+    "ja": "(Adjusts the actor's overall size, position, and rotation in\r\nthe scene.\r\n\r\n**Model Scale** uses a power-of-2 exponential scale so small\r\nchanges produce fine adjustments. **Uniform Height** scales\r\nall actors to a consistent average human height regardless of\r\ntheir original model proportions — disable this when you want\r\nto preserve the model's intended size. **Ground Offset** moves\r\nthe actor up or down relative to the floor.\r\n\r\n**Rotation** turns the actor around the Y axis. **Offset X**\r\nand **Offset Z** shift position horizontally. **Snapping**\r\nsets the increment size when dragging the actor in the scene —\r\nzero disables snapping entirely.\r\n\r\nPresets include *Uniform Life Size*, *Miniature*, *Giant*,\r\nand *Original*.)",
+    "zh-TW": "(Adjusts the actor's overall size, position, and rotation in\r\nthe scene.\r\n\r\n**Model Scale** uses a power-of-2 exponential scale so small\r\nchanges produce fine adjustments. **Uniform Height** scales\r\nall actors to a consistent average human height regardless of\r\ntheir original model proportions — disable this when you want\r\nto preserve the model's intended size. **Ground Offset** moves\r\nthe actor up or down relative to the floor.\r\n\r\n**Rotation** turns the actor around the Y axis. **Offset X**\r\nand **Offset Z** shift position horizontally. **Snapping**\r\nsets the increment size when dragging the actor in the scene —\r\nzero disables snapping entirely.\r\n\r\nPresets include *Uniform Life Size*, *Miniature*, *Giant*,\r\nand *Original*.)",
+    "ko": "(Adjusts the actor's overall size, position, and rotation in\r\nthe scene.\r\n\r\n**Model Scale** uses a power-of-2 exponential scale so small\r\nchanges produce fine adjustments. **Uniform Height** scales\r\nall actors to a consistent average human height regardless of\r\ntheir original model proportions — disable this when you want\r\nto preserve the model's intended size. **Ground Offset** moves\r\nthe actor up or down relative to the floor.\r\n\r\n**Rotation** turns the actor around the Y axis. **Offset X**\r\nand **Offset Z** shift position horizontally. **Snapping**\r\nsets the increment size when dragging the actor in the scene —\r\nzero disables snapping entirely.\r\n\r\nPresets include *Uniform Life Size*, *Miniature*, *Giant*,\r\nand *Original*.)",
+    "zh-CN": "(Adjusts the actor's overall size, position, and rotation in\r\nthe scene.\r\n\r\n**Model Scale** uses a power-of-2 exponential scale so small\r\nchanges produce fine adjustments. **Uniform Height** scales\r\nall actors to a consistent average human height regardless of\r\ntheir original model proportions — disable this when you want\r\nto preserve the model's intended size. **Ground Offset** moves\r\nthe actor up or down relative to the floor.\r\n\r\n**Rotation** turns the actor around the Y axis. **Offset X**\r\nand **Offset Z** shift position horizontally. **Snapping**\r\nsets the increment size when dragging the actor in the scene —\r\nzero disables snapping entirely.\r\n\r\nPresets include *Uniform Life Size*, *Miniature*, *Giant*,\r\nand *Original*.)"
+  },
   "values": [
     {
       "name": "Model Scale",
@@ -24,7 +30,13 @@
       "min": -3,
       "max": 3,
       "options": null,
-      "description": "Adjust the overall scale of the model. Values are exponential for finer control."
+      "description": "Adjust the overall scale of the model. Values are exponential for finer control.",
+      "descriptions": {
+        "ja": "モデル全体のスケールを調整します。より細かい制御のために値は指数関数的になります。",
+        "zh-TW": "調整模型的整體尺寸。數值採用指數方式以實現更精細的控制。",
+        "ko": "모델의 전체 스케일을 조정합니다. 더 세밀한 제어를 위해 값은 지수형입니다.",
+        "zh-CN": "调整模型的整体尺寸。值是指数级的，以便进行更精细的控制。"
+      }
     },
     {
       "name": "Ground Offset",
@@ -40,7 +52,13 @@
       "min": -2,
       "max": 2,
       "options": null,
-      "description": "Set the vertical offset of the model relative to the ground."
+      "description": "Set the vertical offset of the model relative to the ground.",
+      "descriptions": {
+        "ja": "地面を基準としたモデルの垂直オフセットを設定します。",
+        "zh-TW": "設定模型相對於地面的垂直偏移。",
+        "ko": "지면에 대한 모델의 수직 오프셋을 설정합니다.",
+        "zh-CN": "设置模型相对于地面的垂直偏移。"
+      }
     },
     {
       "name": "Uniform Height",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Enable to scale the model to an average human height."
+      "description": "Enable to scale the model to an average human height.",
+      "descriptions": {
+        "ja": "モデルを平均的な人間の高さにスケーリングするには有効にします。",
+        "zh-TW": "啟用以平均人類高度縮放模型。",
+        "ko": "모델을 평균 인간 높이에 맞춰 스케일 조정 활성화.",
+        "zh-CN": "启用以平均人类高度缩放模型。"
+      }
     },
     {
       "name": "Rotation",
@@ -72,7 +96,13 @@
       "min": -180,
       "max": 180,
       "options": null,
-      "description": "Set the rotation of the model in degrees."
+      "description": "Set the rotation of the model in degrees.",
+      "descriptions": {
+        "ja": "モデルの回転を度数で設定します。",
+        "zh-TW": "設定模型的旋轉角度（度）。",
+        "ko": "모델의 회전을 도(degree) 단위로 설정합니다.",
+        "zh-CN": "设置模型旋转角度（度）。"
+      }
     },
     {
       "name": "Offset X",
@@ -88,7 +118,13 @@
       "min": -5,
       "max": 5,
       "options": null,
-      "description": "Adjust the horizontal offset of the model along the X-axis."
+      "description": "Adjust the horizontal offset of the model along the X-axis.",
+      "descriptions": {
+        "ja": "X軸に沿ったモデルの水平オフセットを調整します。",
+        "zh-TW": "沿 X 軸調整模型的水平偏移。",
+        "ko": "X축을 따라 모델의 수평 오프셋을 조정합니다.",
+        "zh-CN": "调整模型沿X轴的水平偏移。"
+      }
     },
     {
       "name": "Offset Z",
@@ -104,7 +140,13 @@
       "min": -5,
       "max": 5,
       "options": null,
-      "description": "Adjust the horizontal offset of the model along the Z-axis."
+      "description": "Adjust the horizontal offset of the model along the Z-axis.",
+      "descriptions": {
+        "ja": "Z軸に沿ったモデルの水平オフセットを調整します。",
+        "zh-TW": "沿 Z 軸調整模型的水平偏移。",
+        "ko": "Z축을 따라 모델의 수평 오프셋을 조정합니다.",
+        "zh-CN": "调整模型沿Z轴的水平偏移。"
+      }
     },
     {
       "name": "Snapping",
@@ -120,7 +162,13 @@
       "min": 0,
       "max": 5,
       "options": ["0", "0.1", "0.2", "0.5", "1", "2"],
-      "description": "Set the snapping increment for drag adjustments. Smaller values allow finer control."
+      "description": "Set the snapping increment for drag adjustments. Smaller values allow finer control.",
+      "descriptions": {
+        "ja": "ドラッグ調整のスナップ増加値を設定します。値が小さいほど、より細かい制御が可能になります。",
+        "zh-TW": "設定用於拖曳調整的吸附增量。較小的值可以實現更精細的控制。",
+        "ko": "드래그 조정을 위한 스냅핑 간격을 설정합니다. 값이 작을수록 더 세밀한 제어가 가능합니다.",
+        "zh-CN": "设置拖拽调整的吸附增量。较小的值允许更精细的控制。"
+      }
     }
   ]
 }

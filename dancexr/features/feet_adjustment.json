@@ -9,6 +9,12 @@
     "zh-CN": "足部调整"
   },
   "description": "Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical reference. The **Feet\r\nOn Floor** panel controls **Strength** (pull to ground),\r\n**Sole Height** (toe-to-ground distance), **Body Lift** (COM\r\ncorrection), **Contact Bend Toe** (toe flexion), **Contact\r\nRotation** (rotational inertia), **Jump Detection** (airborne\r\nsuppression), and **Jump Height** threshold.\r\n\r\nThe **Virtual Shoes** panel visualizes foot contact with\r\n**Inner**, **Outer**, **Front**, **Back** offsets, **Shoe\r\nDistance**, **Heel Top** height, **Mode** (Wireframe, Opaque,\r\nChrome, Solid Glass, Thin Glass), **Smoothness**, and\r\n**Color**.\r\n\r\nThe **Heels** panel simulates high heel poses with **High\r\nHeel** height, **Limit Angle**, **High Heel Toe Bend**, and\r\n**High Heel Blend** for animation mixing.\r\n\r\n**Reduce Sliding** applies friction with **Dist Threshold**\r\nand **Damping** controls. **Foot Angle** adds manual\r\n**Rotate X**, **Y**, and **Z** offsets.",
+  "descriptions": {
+    "ja": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical reference. The **Feet\r\nOn Floor** panel controls **Strength** (pull to ground),\r\n**Sole Height** (toe-to-ground distance), **Body Lift** (COM\r\ncorrection), **Contact Bend Toe** (toe flexion), **Contact\r\nRotation** (rotational inertia), **Jump Detection** (airborne\r\nsuppression), and **Jump Height** threshold.\r\n\r\nThe **Virtual Shoes** panel visualizes foot contact with\r\n**Inner**, **Outer**, **Front**, **Back** offsets, **Shoe\r\nDistance**, **Heel Top** height, **Mode** (Wireframe, Opaque,\r\nChrome, Solid Glass, Thin Glass), **Smoothness**, and\r\n**Color**.\r\n\r\nThe **Heels** panel simulates high heel poses with **High\r\nHeel** height, **Limit Angle**, **High Heel Toe Bend**, and\r\n**High Heel Blend** for animation mixing.\r\n\r\n**Reduce Sliding** applies friction with **Dist Threshold**\r\nand **Damping** controls. **Foot Angle** adds manual\r\n**Rotate X**, **Y**, and **Z** offsets.)",
+    "zh-TW": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical reference. The **Feet\r\nOn Floor** panel controls **Strength** (pull to ground),\r\n**Sole Height** (toe-to-ground distance), **Body Lift** (COM\r\ncorrection), **Contact Bend Toe** (toe flexion), **Contact\r\nRotation** (rotational inertia), **Jump Detection** (airborne\r\nsuppression), and **Jump Height** threshold.\r\n\r\nThe **Virtual Shoes** panel visualizes foot contact with\r\n**Inner**, **Outer**, **Front**, **Back** offsets, **Shoe\r\nDistance**, **Heel Top** height, **Mode** (Wireframe, Opaque,\r\nChrome, Solid Glass, Thin Glass), **Smoothness**, and\r\n**Color**.\r\n\r\nThe **Heels** panel simulates high heel poses with **High\r\nHeel** height, **Limit Angle**, **High Heel Toe Bend**, and\r\n**High Heel Blend** for animation mixing.\r\n\r\n**Reduce Sliding** applies friction with **Dist Threshold**\r\nand **Damping** controls. **Foot Angle** adds manual\r\n**Rotate X**, **Y**, and **Z** offsets.)",
+    "ko": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical reference. The **Feet\r\nOn Floor** panel controls **Strength** (pull to ground),\r\n**Sole Height** (toe-to-ground distance), **Body Lift** (COM\r\ncorrection), **Contact Bend Toe** (toe flexion), **Contact\r\nRotation** (rotational inertia), **Jump Detection** (airborne\r\nsuppression), and **Jump Height** threshold.\r\n\r\nThe **Virtual Shoes** panel visualizes foot contact with\r\n**Inner**, **Outer**, **Front**, **Back** offsets, **Shoe\r\nDistance**, **Heel Top** height, **Mode** (Wireframe, Opaque,\r\nChrome, Solid Glass, Thin Glass), **Smoothness**, and\r\n**Color**.\r\n\r\nThe **Heels** panel simulates high heel poses with **High\r\nHeel** height, **Limit Angle**, **High Heel Toe Bend**, and\r\n**High Heel Blend** for animation mixing.\r\n\r\n**Reduce Sliding** applies friction with **Dist Threshold**\r\nand **Damping** controls. **Foot Angle** adds manual\r\n**Rotate X**, **Y**, and **Z** offsets.)",
+    "zh-CN": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical reference. The **Feet\r\nOn Floor** panel controls **Strength** (pull to ground),\r\n**Sole Height** (toe-to-ground distance), **Body Lift** (COM\r\ncorrection), **Contact Bend Toe** (toe flexion), **Contact\r\nRotation** (rotational inertia), **Jump Detection** (airborne\r\nsuppression), and **Jump Height** threshold.\r\n\r\nThe **Virtual Shoes** panel visualizes foot contact with\r\n**Inner**, **Outer**, **Front**, **Back** offsets, **Shoe\r\nDistance**, **Heel Top** height, **Mode** (Wireframe, Opaque,\r\nChrome, Solid Glass, Thin Glass), **Smoothness**, and\r\n**Color**.\r\n\r\nThe **Heels** panel simulates high heel poses with **High\r\nHeel** height, **Limit Angle**, **High Heel Toe Bend**, and\r\n**High Heel Blend** for animation mixing.\r\n\r\n**Reduce Sliding** applies friction with **Dist Threshold**\r\nand **Damping** controls. **Foot Angle** adds manual\r\n**Rotate X**, **Y**, and **Z** offsets.)"
+  },
   "values": [
     {
       "name": "Ground Offset",
@@ -24,7 +30,13 @@
       "min": -0.2,
       "max": 0.2,
       "options": null,
-      "description": "Adjusts the vertical offset of the ground level."
+      "description": "Adjusts the vertical offset of the ground level.",
+      "descriptions": {
+        "ja": "地面レベルの垂直オフセットを調整します。",
+        "zh-TW": "調整地面層的垂直偏移。",
+        "ko": "지면 레벨의 수직 오프셋을 조정합니다.",
+        "zh-CN": "调整地面水平的垂直偏移量。"
+      }
     },
     {
       "name": "Feet On Floor",
@@ -41,6 +53,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Strength",
@@ -56,7 +74,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Controls how strongly feet are pulled to the ground. 0 = disabled."
+          "description": "Controls how strongly feet are pulled to the ground. 0 = disabled.",
+          "descriptions": {
+            "ja": "足が地面にどれだけ強く引き寄せられるかを制御します。0 = 無効。",
+            "zh-TW": "控制足部被拉向地面的強度。0 = 停用。",
+            "ko": "발이 지면에 얼마나 강하게 당겨지는지 제어합니다. 0 = 비활성화.",
+            "zh-CN": "控制足部被拉向地面的强度。 0 = 关闭。"
+          }
         },
         {
           "name": "Sole Height",
@@ -72,7 +96,13 @@
           "min": -0.1,
           "max": 0.1,
           "options": null,
-          "description": "The desired distance from the ground to the toe bone."
+          "description": "The desired distance from the ground to the toe bone.",
+          "descriptions": {
+            "ja": "地面から指の骨への希望距離。",
+            "zh-TW": "從地面到趾骨期望的距離。",
+            "ko": "발가락과 지면 사이의 원하는 거리입니다.",
+            "zh-CN": "期望的从地面到脚趾骨的距离。"
+          }
         },
         {
           "name": "Body Lift",
@@ -88,7 +118,13 @@
           "min": -0.2,
           "max": 0.2,
           "options": null,
-          "description": "Controls the amount of body lift when solving ground contact."
+          "description": "Controls the amount of body lift when solving ground contact.",
+          "descriptions": {
+            "ja": "地面との接触を解決する際の身体の浮き上がり量を制御します。",
+            "zh-TW": "控制在解決地面接觸時的身體抬升量。",
+            "ko": "지면 접촉을 해결할 때 몸체 리프트 양을 제어합니다.",
+            "zh-CN": "控制解决地面接触时身体抬升的程度。"
+          }
         },
         {
           "name": "Contact Bend Toe",
@@ -104,7 +140,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Determines the degree of toe bending when the toe is below the ground."
+          "description": "Determines the degree of toe bending when the toe is below the ground.",
+          "descriptions": {
+            "ja": "指が地面より下にあるときのつま先の曲がり具合を決定します。",
+            "zh-TW": "決定趾部在低於地面時彎曲的程度。",
+            "ko": "발가락이 지면 아래에 있을 때 발가락 굽힘 정도를 결정합니다.",
+            "zh-CN": "确定脚趾在低于地面的时的弯曲程度。"
+          }
         },
         {
           "name": "Contact Rotation",
@@ -120,7 +162,13 @@
           "min": 0.1,
           "max": 0.3,
           "options": null,
-          "description": "Defines the rotational inertia for contact adjustments."
+          "description": "Defines the rotational inertia for contact adjustments.",
+          "descriptions": {
+            "ja": "接地調整のための回転慣性を定義します。",
+            "zh-TW": "定義接觸調整的旋轉慣性。",
+            "ko": "접촉 조정을 위한 회전 관성도를 정의합니다.",
+            "zh-CN": "定义用于接触调整的旋转惯性。"
+          }
         },
         {
           "name": "Jump Detection",
@@ -136,7 +184,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Suppresses ground correction when both feet are airborne."
+          "description": "Suppresses ground correction when both feet are airborne.",
+          "descriptions": {
+            "ja": "両足が空中にあるときの地面補正を抑制します。",
+            "zh-TW": "當雙腳離地時，抑制地面校正。",
+            "ko": "두 발 모두 공중에 떠 있을 때 지면 보정을 억제합니다.",
+            "zh-CN": "当双足均在空中时，抑制地面校正。"
+          }
         },
         {
           "name": "Jump Height",
@@ -152,7 +206,13 @@
           "min": 0,
           "max": 0.2,
           "options": null,
-          "description": "Minimum height above ground for both feet to be considered a jump."
+          "description": "Minimum height above ground for both feet to be considered a jump.",
+          "descriptions": {
+            "ja": "両足がジャンプと見なされるための地面からの最小高さ。",
+            "zh-TW": "雙腳被視為跳躍所需的最低離地高度。",
+            "ko": "두 발 모두 점프로 간주되기 위한 최소 지면 위 높이입니다.",
+            "zh-CN": "双脚被视为跳跃所需的最小高度。"
+          }
         }
       ]
     },
@@ -171,6 +231,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Inner",
@@ -186,7 +252,13 @@
           "min": 0,
           "max": 0.1,
           "options": null,
-          "description": "Sets the inward offset for virtual shoe visualization."
+          "description": "Sets the inward offset for virtual shoe visualization.",
+          "descriptions": {
+            "ja": "バーチャルシューズ視覚化の内側オフセットを設定します。",
+            "zh-TW": "設定虛擬鞋子視覺化的內側偏移。",
+            "ko": "가상 신발 시각화를 위한 안쪽 오프셋을 설정합니다.",
+            "zh-CN": "设置虚拟鞋可视化内的偏移量。"
+          }
         },
         {
           "name": "Outer",
@@ -202,7 +274,13 @@
           "min": 0,
           "max": 0.1,
           "options": null,
-          "description": "Sets the outward offset for virtual shoe visualization."
+          "description": "Sets the outward offset for virtual shoe visualization.",
+          "descriptions": {
+            "ja": "バーチャルシューズ視覚化の外側オフセットを設定します。",
+            "zh-TW": "設定虛擬鞋子視覺化的外側偏移。",
+            "ko": "가상 신발 시각화를 위한 바깥쪽 오프셋을 설정합니다.",
+            "zh-CN": "设置虚拟鞋可视化外的偏移量。"
+          }
         },
         {
           "name": "Front",
@@ -218,7 +296,13 @@
           "min": 0,
           "max": 0.1,
           "options": null,
-          "description": "Sets the front offset for virtual shoe visualization."
+          "description": "Sets the front offset for virtual shoe visualization.",
+          "descriptions": {
+            "ja": "バーチャルシューズ視覚化の前方オフセットを設定します。",
+            "zh-TW": "設定虛擬鞋子視覺化的前側偏移。",
+            "ko": "가상 신발 시각화를 위한 앞쪽 오프셋을 설정합니다.",
+            "zh-CN": "设置虚拟鞋可视化前方的偏移量。"
+          }
         },
         {
           "name": "Back",
@@ -234,7 +318,13 @@
           "min": 0,
           "max": 0.1,
           "options": null,
-          "description": "Sets the back offset for virtual shoe visualization."
+          "description": "Sets the back offset for virtual shoe visualization.",
+          "descriptions": {
+            "ja": "バーチャルシューズ視覚化の後方オフセットを設定します。",
+            "zh-TW": "設定虛擬鞋子視覺化的後側偏移。",
+            "ko": "가상 신발 시각화를 위한 뒤쪽 오프셋을 설정합니다.",
+            "zh-CN": "设置虚拟鞋可视化后方的偏移量。"
+          }
         },
         {
           "name": "Shoe Distance",
@@ -250,7 +340,13 @@
           "min": 0,
           "max": 0.1,
           "options": null,
-          "description": "Defines the distance between the virtual shoe and the foot."
+          "description": "Defines the distance between the virtual shoe and the foot.",
+          "descriptions": {
+            "ja": "バーチャルシューズと足の間の距離を定義します。",
+            "zh-TW": "定義虛擬鞋子與腳之間的距離。",
+            "ko": "가상 신발과 발 사이의 거리를 정의합니다.",
+            "zh-CN": "定义虚拟鞋和脚之间的距离。"
+          }
         },
         {
           "name": "Heel Top",
@@ -266,7 +362,13 @@
           "min": -0.1,
           "max": 0.1,
           "options": null,
-          "description": "Adjusts the height of the virtual shoe's heel top."
+          "description": "Adjusts the height of the virtual shoe's heel top.",
+          "descriptions": {
+            "ja": "バーチャルシューズのかかと上部の高さを調整します。",
+            "zh-TW": "調整虛擬鞋跟頂的高度。",
+            "ko": "가상 신발 뒤꿈치 상단 높이를 조정합니다.",
+            "zh-CN": "调整虚拟鞋鞋跟顶部的高度。"
+          }
         },
         {
           "name": "Mode",
@@ -282,7 +384,13 @@
           "min": 0,
           "max": 4,
           "options": ["Wireframe", "Opaque", "Chrome", "Solid Glass", "Thin Glass"],
-          "description": "Selects the visualization mode for virtual shoes."
+          "description": "Selects the visualization mode for virtual shoes.",
+          "descriptions": {
+            "ja": "バーチャルシューズの視覚化モードを選択します。",
+            "zh-TW": "選擇虛擬鞋子的視覺化模式。",
+            "ko": "가상 신발의 시각화 모드를 선택합니다.",
+            "zh-CN": "选择虚拟鞋的可视化模式。"
+          }
         },
         {
           "name": "Smoothness",
@@ -298,7 +406,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Controls the smoothness of the virtual shoe material."
+          "description": "Controls the smoothness of the virtual shoe material.",
+          "descriptions": {
+            "ja": "バーチャルシューズ素材の滑らかさを制御します。",
+            "zh-TW": "控制虛擬鞋子材質的平滑度。",
+            "ko": "가상 신발 재질의 부드러움을 제어합니다.",
+            "zh-CN": "控制虚拟鞋材料的平滑度。"
+          }
         },
         {
           "name": "Color",
@@ -315,6 +429,12 @@
           "max": 1,
           "options": null,
           "description": "Sets the color of the virtual shoe material.",
+          "descriptions": {
+            "ja": "バーチャルシューズ素材の色を設定します。",
+            "zh-TW": "設定虛擬鞋子材質的顏色。",
+            "ko": "가상 신발 재질의 색상을 설정합니다.",
+            "zh-CN": "设置虚拟鞋材料的颜色。"
+          },
           "values": [
             {
               "name": "Color Mode",
@@ -330,7 +450,13 @@
               "min": 0,
               "max": 1,
               "options": ["RGB", "HSV"],
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Hue",
@@ -346,7 +472,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Satuation",
@@ -362,7 +494,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Brightness",
@@ -378,7 +516,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Red",
@@ -394,7 +538,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Green",
@@ -410,7 +560,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Blue",
@@ -426,7 +582,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         }
@@ -447,6 +609,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "High Heels",
@@ -462,7 +630,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Adjusts the height of the high heel pose."
+          "description": "Adjusts the height of the high heel pose.",
+          "descriptions": {
+            "ja": "ハイヒールポーズの高さを調整します。",
+            "zh-TW": "調整高跟鞋姿勢的高度。",
+            "ko": "하이힐 포즈의 높이를 조정합니다.",
+            "zh-CN": "调整高跟姿势的高度。"
+          }
         },
         {
           "name": "Limit Angle",
@@ -478,7 +652,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Limits the maximum angle for tiptoe rotation."
+          "description": "Limits the maximum angle for tiptoe rotation.",
+          "descriptions": {
+            "ja": "つま先回転の最大角度を制限します。",
+            "zh-TW": "限制踮腳旋轉的最大角度。",
+            "ko": "발끝 회전을 위한 최대 각도를 제한합니다.",
+            "zh-CN": "限制脚尖旋转的最大角度。"
+          }
         },
         {
           "name": "High Heel Toe Bend",
@@ -494,7 +674,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Controls the amount of toe bending when tiptoeing."
+          "description": "Controls the amount of toe bending when tiptoeing.",
+          "descriptions": {
+            "ja": "つま先で歩行するとき（つま先歩行時）のつま先の曲がり具合を制御します。",
+            "zh-TW": "控制踮腳時彎趾的程度。",
+            "ko": "발끝으로 걸을 때 발가락 굽힘 양을 제어합니다.",
+            "zh-CN": "控制踮脚时脚趾弯曲的程度。"
+          }
         },
         {
           "name": "High Heel Blend",
@@ -510,7 +696,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Blends the high heel pose with animation to avoid extreme poses."
+          "description": "Blends the high heel pose with animation to avoid extreme poses.",
+          "descriptions": {
+            "ja": "極端なポーズを避けるため、ハイヒールポーズをアニメーションとブレンドします。",
+            "zh-TW": "將高跟鞋姿勢與動畫進行混合，以避免極端姿勢。",
+            "ko": "극단적인 포즈를 피하기 위해 하이힐 포즈를 애니메이션과 블렌딩합니다.",
+            "zh-CN": "将高跟姿势与动画混合，以避免极端姿势。"
+          }
         }
       ]
     },
@@ -529,6 +721,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Dist Threshold",
@@ -544,7 +742,13 @@
           "min": 0,
           "max": 0.2,
           "options": null,
-          "description": "Defines the distance threshold for applying friction to reduce sliding."
+          "description": "Defines the distance threshold for applying friction to reduce sliding.",
+          "descriptions": {
+            "ja": "滑り止めを適用するための距離閾値を定義します。",
+            "zh-TW": "定義應用摩擦力以減少滑動的距離閾值。",
+            "ko": "미끄러짐을 줄이기 위해 마찰을 적용할 거리 임계값을 정의합니다.",
+            "zh-CN": "定义施加摩擦以减少滑动的距离阈值。"
+          }
         },
         {
           "name": "Damping",
@@ -560,7 +764,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Controls the damping factor for friction applied to reduce sliding."
+          "description": "Controls the damping factor for friction applied to reduce sliding.",
+          "descriptions": {
+            "ja": "滑り止めに適用される減衰係数を制御します。",
+            "zh-TW": "控制用於減少滑動的摩擦力的阻尼係數。",
+            "ko": "미끄러짐을 줄이기 위해 적용되는 마찰의 감쇠 계수를 제어합니다.",
+            "zh-CN": "控制用于减少滑动的摩擦的阻尼系数。"
+          }
         }
       ]
     },
@@ -579,6 +789,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Rotate X",
@@ -594,7 +810,13 @@
           "min": -90,
           "max": 90,
           "options": null,
-          "description": "Adjusts the rotation of the foot around the X-axis."
+          "description": "Adjusts the rotation of the foot around the X-axis.",
+          "descriptions": {
+            "ja": "足のX軸周りの回転を調整します。",
+            "zh-TW": "調整足部繞X軸的旋轉。",
+            "ko": "X축을 기준으로 발의 회전을 조정합니다.",
+            "zh-CN": "调整足部绕X轴的旋转。"
+          }
         },
         {
           "name": "Rotate Y",
@@ -610,7 +832,13 @@
           "min": -45,
           "max": 45,
           "options": null,
-          "description": "Adjusts the rotation of the foot around the Y-axis."
+          "description": "Adjusts the rotation of the foot around the Y-axis.",
+          "descriptions": {
+            "ja": "足のY軸周りの回転を調整します。",
+            "zh-TW": "調整足部繞Y軸的旋轉。",
+            "ko": "Y축을 기준으로 발의 회전을 조정합니다.",
+            "zh-CN": "调整足部绕Y轴的旋转。"
+          }
         },
         {
           "name": "Rotate Z",
@@ -626,7 +854,13 @@
           "min": -45,
           "max": 45,
           "options": null,
-          "description": "Adjusts the rotation of the foot around the Z-axis."
+          "description": "Adjusts the rotation of the foot around the Z-axis.",
+          "descriptions": {
+            "ja": "足のZ軸周りの回転を調整します。",
+            "zh-TW": "調整足部繞Z軸的旋轉。",
+            "ko": "Z축을 기준으로 발의 회전을 조정합니다.",
+            "zh-CN": "调整足部绕Z轴的旋转。"
+          }
         }
       ]
     }

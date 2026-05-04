@@ -9,6 +9,12 @@
     "zh-CN": "物理"
   },
   "description": "Configures physics for PMX models that include built-in\r\nrigidbody and joint definitions (hair, skirts, accessories).\r\n\r\n**Physics Mode** selects the engine: *Auto* uses the system\r\ndefault; *PhysX* runs Unity's joint-based physics; *XPBD*\r\nuses a particle-based simulation; *Off* disables PMX physics\r\nentirely and exposes the XPS physics tools (Hair Physics,\r\nCloth Physics, etc.) as replacements.\r\n\r\n**Visualize Bodies** and **Visualize Joints** render the\r\nphysics shapes and joint constraints as wireframe gizmos.\r\nThe nested **Particle Props** panel defines global XPBD\r\nsettings like gravity, stiffness, and damping.\r\n\r\n**Linear Motion** and **Angular Motion** tune the PhysX\r\njoint drive response — how aggressively bodies follow their\r\nanimated targets. **Options** exposes advanced PhysX\r\nparameters like solver iterations and substep count.\r\n**Auto Reset Threshold** snaps bones back to their animated\r\nposition when velocity exceeds the limit, preventing physics\r\nfrom spinning out of control.\r\n\r\nEach **Group** section corresponds to a physics joint group\r\ndefined in the PMX file, with per-group enable/disable,\r\ngravity, and collision settings.\r\n\r\nThe **XPS Tools** section provides quick links to the\r\nalternative physics systems available when PMX physics is\r\nturned off.",
+  "descriptions": {
+    "ja": "(Configures physics for PMX models that include built-in\r\nrigidbody and joint definitions (hair, skirts, accessories).\r\n\r\n**Physics Mode** selects the engine: *Auto* uses the system\r\ndefault; *PhysX* runs Unity's joint-based physics; *XPBD*\r\nuses a particle-based simulation; *Off* disables PMX physics\r\nentirely and exposes the XPS physics tools (Hair Physics,\r\nCloth Physics, etc.) as replacements.\r\n\r\n**Visualize Bodies** and **Visualize Joints** render the\r\nphysics shapes and joint constraints as wireframe gizmos.\r\nThe nested **Particle Props** panel defines global XPBD\r\nsettings like gravity, stiffness, and damping.\r\n\r\n**Linear Motion** and **Angular Motion** tune the PhysX\r\njoint drive response — how aggressively bodies follow their\r\nanimated targets. **Options** exposes advanced PhysX\r\nparameters like solver iterations and substep count.\r\n**Auto Reset Threshold** snaps bones back to their animated\r\nposition when velocity exceeds the limit, preventing physics\r\nfrom spinning out of control.\r\n\r\nEach **Group** section corresponds to a physics joint group\r\ndefined in the PMX file, with per-group enable/disable,\r\ngravity, and collision settings.\r\n\r\nThe **XPS Tools** section provides quick links to the\r\nalternative physics systems available when PMX physics is\r\nturned off.)",
+    "zh-TW": "(Configures physics for PMX models that include built-in\r\nrigidbody and joint definitions (hair, skirts, accessories).\r\n\r\n**Physics Mode** selects the engine: *Auto* uses the system\r\ndefault; *PhysX* runs Unity's joint-based physics; *XPBD*\r\nuses a particle-based simulation; *Off* disables PMX physics\r\nentirely and exposes the XPS physics tools (Hair Physics,\r\nCloth Physics, etc.) as replacements.\r\n\r\n**Visualize Bodies** and **Visualize Joints** render the\r\nphysics shapes and joint constraints as wireframe gizmos.\r\nThe nested **Particle Props** panel defines global XPBD\r\nsettings like gravity, stiffness, and damping.\r\n\r\n**Linear Motion** and **Angular Motion** tune the PhysX\r\njoint drive response — how aggressively bodies follow their\r\nanimated targets. **Options** exposes advanced PhysX\r\nparameters like solver iterations and substep count.\r\n**Auto Reset Threshold** snaps bones back to their animated\r\nposition when velocity exceeds the limit, preventing physics\r\nfrom spinning out of control.\r\n\r\nEach **Group** section corresponds to a physics joint group\r\ndefined in the PMX file, with per-group enable/disable,\r\ngravity, and collision settings.\r\n\r\nThe **XPS Tools** section provides quick links to the\r\nalternative physics systems available when PMX physics is\r\nturned off.)",
+    "ko": "(Configures physics for PMX models that include built-in\r\nrigidbody and joint definitions (hair, skirts, accessories).\r\n\r\n**Physics Mode** selects the engine: *Auto* uses the system\r\ndefault; *PhysX* runs Unity's joint-based physics; *XPBD*\r\nuses a particle-based simulation; *Off* disables PMX physics\r\nentirely and exposes the XPS physics tools (Hair Physics,\r\nCloth Physics, etc.) as replacements.\r\n\r\n**Visualize Bodies** and **Visualize Joints** render the\r\nphysics shapes and joint constraints as wireframe gizmos.\r\nThe nested **Particle Props** panel defines global XPBD\r\nsettings like gravity, stiffness, and damping.\r\n\r\n**Linear Motion** and **Angular Motion** tune the PhysX\r\njoint drive response — how aggressively bodies follow their\r\nanimated targets. **Options** exposes advanced PhysX\r\nparameters like solver iterations and substep count.\r\n**Auto Reset Threshold** snaps bones back to their animated\r\nposition when velocity exceeds the limit, preventing physics\r\nfrom spinning out of control.\r\n\r\nEach **Group** section corresponds to a physics joint group\r\ndefined in the PMX file, with per-group enable/disable,\r\ngravity, and collision settings.\r\n\r\nThe **XPS Tools** section provides quick links to the\r\nalternative physics systems available when PMX physics is\r\nturned off.)",
+    "zh-CN": "(Configures physics for PMX models that include built-in\r\nrigidbody and joint definitions (hair, skirts, accessories).\r\n\r\n**Physics Mode** selects the engine: *Auto* uses the system\r\ndefault; *PhysX* runs Unity's joint-based physics; *XPBD*\r\nuses a particle-based simulation; *Off* disables PMX physics\r\nentirely and exposes the XPS physics tools (Hair Physics,\r\nCloth Physics, etc.) as replacements.\r\n\r\n**Visualize Bodies** and **Visualize Joints** render the\r\nphysics shapes and joint constraints as wireframe gizmos.\r\nThe nested **Particle Props** panel defines global XPBD\r\nsettings like gravity, stiffness, and damping.\r\n\r\n**Linear Motion** and **Angular Motion** tune the PhysX\r\njoint drive response — how aggressively bodies follow their\r\nanimated targets. **Options** exposes advanced PhysX\r\nparameters like solver iterations and substep count.\r\n**Auto Reset Threshold** snaps bones back to their animated\r\nposition when velocity exceeds the limit, preventing physics\r\nfrom spinning out of control.\r\n\r\nEach **Group** section corresponds to a physics joint group\r\ndefined in the PMX file, with per-group enable/disable,\r\ngravity, and collision settings.\r\n\r\nThe **XPS Tools** section provides quick links to the\r\nalternative physics systems available when PMX physics is\r\nturned off.)"
+  },
   "values": [
     {
       "name": "Physics Mode",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 3,
       "options": ["Auto", "PhysX", "XPBD", "Off"],
-      "description": "XPBD uses particle-based simulation, Manual Setup disables bodies and joints in PMX definition so you can set up your own using the XPS tools."
+      "description": "XPBD uses particle-based simulation, Manual Setup disables bodies and joints in PMX definition so you can set up your own using the XPS tools.",
+      "descriptions": {
+        "ja": "XPBDはパーティクルベースのシミュレーションを使用します。マニュアルセットアップでは、PMX定義内のボディとジョイントが無効になるため、XPSツールを使用して独自のものを設定できます。",
+        "zh-TW": "XPBD 使用基於粒子的模擬，手動設定會停用 PMX 定義中的身體和關節，因此您可以使用 XPS 工具設置自己的配置。",
+        "ko": "XPBD는 입자 기반 시뮬레이션을 사용하며, 수동 설정은 PMX 정의에서 바디와 관절을 비활성화하므로 XPS 도구를 사용하여 자체적으로 설정할 수 있습니다.",
+        "zh-CN": "XPBD使用粒子模拟，手动设置会禁用PMX定义中的身体和关节，因此您可以使用XPS工具设置自己的。"
+      }
     },
     {
       "name": "Visualize Bodies",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Show XPBD physics bodies and joints as wireframe shapes"
+      "description": "Show XPBD physics bodies and joints as wireframe shapes",
+      "descriptions": {
+        "ja": "XPBDの物理ボディとジョイントをワイヤーフレーム形状として表示する",
+        "zh-TW": "以線框形狀顯示 XPBD 物理身體和關節",
+        "ko": "XPBD 물리 바디와 관절을 와이어프레임 형태로 표시",
+        "zh-CN": "将XPBD物理身体和关节显示为线框形状"
+      }
     },
     {
       "name": "Visualize Joints",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Show joint limits and drive targets for PMX physics"
+      "description": "Show joint limits and drive targets for PMX physics",
+      "descriptions": {
+        "ja": "PMXの物理のためのジョイント制限とドライブターゲットを表示する",
+        "zh-TW": "顯示 PMX 物理的關節限制和驅動目標",
+        "ko": "PMX 물리용 관절 제한 및 구동 목표 표시",
+        "zh-CN": "显示PMX物理的关节限制和驱动目标"
+      }
     },
     {
       "name": "Particle Properties",
@@ -73,6 +97,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Particle Radius",
@@ -88,7 +118,13 @@
           "min": 1,
           "max": 20,
           "options": null,
-          "description": "Size of particle in millimeters"
+          "description": "Size of particle in millimeters",
+          "descriptions": {
+            "ja": "パーティクルのサイズ（ミリメートル）",
+            "zh-TW": "粒子尺寸（毫米）",
+            "ko": "입자 크기 (밀리미터)",
+            "zh-CN": "粒子尺寸（毫米）"
+          }
         },
         {
           "name": "Gravity",
@@ -104,7 +140,13 @@
           "min": -9.8,
           "max": 9.8,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Friction",
@@ -120,7 +162,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Drag (Air)",
@@ -136,7 +184,13 @@
           "min": 0,
           "max": 2,
           "options": null,
-          "description": "Air resistancy"
+          "description": "Air resistancy",
+          "descriptions": {
+            "ja": "空気抵抗",
+            "zh-TW": "空氣阻力",
+            "ko": "공기 저항",
+            "zh-CN": "空气阻力"
+          }
         },
         {
           "name": "Drag (Underwater)",
@@ -152,7 +206,13 @@
           "min": 0,
           "max": 2,
           "options": null,
-          "description": "Underwater resistancy"
+          "description": "Underwater resistancy",
+          "descriptions": {
+            "ja": "水中抵抗",
+            "zh-TW": "水下阻力",
+            "ko": "수중 저항",
+            "zh-CN": "水下阻力"
+          }
         },
         {
           "name": "Buoyancy",
@@ -168,7 +228,13 @@
           "min": -1,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Wind",
@@ -185,6 +251,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "Wind Influence",
@@ -200,7 +272,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Turbulence Scale",
@@ -216,7 +294,13 @@
               "min": -2,
               "max": 2,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Turbulence Intensity",
@@ -232,7 +316,13 @@
               "min": 0,
               "max": 2,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Turbulence Time Scale",
@@ -248,7 +338,13 @@
               "min": -4,
               "max": 4,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -266,7 +362,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Friction for anchored layers"
+          "description": "Friction for anchored layers",
+          "descriptions": {
+            "ja": "アンカーされたレイヤーの摩擦",
+            "zh-TW": "固定層的摩擦力",
+            "ko": "앵커된 레이어 마찰",
+            "zh-CN": "固定层摩擦力"
+          }
         },
         {
           "name": "Angular Spring",
@@ -282,7 +384,13 @@
           "min": 0,
           "max": 5,
           "options": null,
-          "description": "Default angular spring stiffness for joints without rotation springs. Higher values pull joints back toward rest pose more strongly. 0 = disabled."
+          "description": "Default angular spring stiffness for joints without rotation springs. Higher values pull joints back toward rest pose more strongly. 0 = disabled.",
+          "descriptions": {
+            "ja": "回転スプリングがないジョイントのデフォルトの角度スプリングの剛性。値が大きいほど、ジョイントは安静ポーズに戻ろうと強く引きます。0=無効。",
+            "zh-TW": "缺乏旋轉彈簧的關節的預設角向彈簧剛度。數值越高，關節恢復到靜止姿勢的力量越大。0 = 停用。",
+            "ko": "회전 스프링이 없는 관절의 기본 각도 스프링 강성. 값이 높을수록 관절을 휴식 자세로 더 강하게 끌어당깁니다. 0 = 비활성화.",
+            "zh-CN": "没有旋转弹簧的关节的默认角形弹簧刚度。较高值会更强烈地将关节拉回静止姿势。0 = 禁用。"
+          }
         },
         {
           "name": "Collide With",
@@ -299,6 +407,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "Head",
@@ -314,7 +428,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Body",
@@ -330,7 +450,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Boobs",
@@ -346,7 +472,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Butts",
@@ -362,7 +494,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Arms",
@@ -378,7 +516,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Hands",
@@ -394,7 +538,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Legs",
@@ -410,7 +560,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Feet",
@@ -426,7 +582,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Holes",
@@ -442,7 +604,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Player",
@@ -458,7 +626,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Cloth Layer 1",
@@ -474,7 +648,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Cloth Layer 2",
@@ -490,7 +670,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Hair",
@@ -506,7 +692,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Soft Boobs",
@@ -522,7 +714,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Soft Butts",
@@ -538,7 +736,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -556,7 +760,13 @@
           "min": 0,
           "max": 2,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Rest Distance Check",
@@ -572,7 +782,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Use rest distance for self collision between rigid bodies in the same block. Helps when rigid body shapes are not configured perfectly."
+          "description": "Use rest distance for self collision between rigid bodies in the same block. Helps when rigid body shapes are not configured perfectly.",
+          "descriptions": {
+            "ja": "同じブロック内の剛体間の自己衝突に静止距離を使用する。剛体の形状が完璧に設定されていない場合に役立つ。",
+            "zh-TW": "在同一區塊內，針對剛體之間的自我碰撞使用靜止距離。當剛體形狀配置不完美時，這會有幫助。",
+            "ko": "같은 블록 내 강체 간의 자가 충돌에 휴식 거리를 사용합니다. 강체 모양이 완벽하게 설정되지 않았을 때 도움이 됩니다.",
+            "zh-CN": "对同一块体内的刚体自碰撞使用静止距离。当刚体形状未配置完美时很有帮助。"
+          }
         }
       ]
     },
@@ -591,6 +807,12 @@
       "max": 1,
       "options": null,
       "description": "Settings for linear motion",
+      "descriptions": {
+        "ja": "線形運動の設定",
+        "zh-TW": "線性運動設置",
+        "ko": "선형 운동 설정",
+        "zh-CN": "线性运动设置"
+      },
       "values": [
         {
           "name": "Firmness",
@@ -606,7 +828,13 @@
           "min": -1,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Main Drive Force",
@@ -622,7 +850,13 @@
           "min": 0,
           "max": 8,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Second Drive Force",
@@ -638,7 +872,13 @@
           "min": 0,
           "max": 8,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Target Position",
@@ -654,7 +894,13 @@
           "min": 0,
           "max": 3,
           "options": ["Zero", "Center", "Min", "Max"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Lock When Possible",
@@ -670,7 +916,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Acceleration Mode",
@@ -686,7 +938,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Damping",
@@ -702,7 +960,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Drag",
@@ -718,7 +982,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Ignore Limit",
@@ -734,7 +1004,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Further reducing constraints by ignoring joint limits"
+          "description": "Further reducing constraints by ignoring joint limits",
+          "descriptions": {
+            "ja": "ジョイント制限を無視することで制約をさらに減らす",
+            "zh-TW": "忽略關節限制以進一步減少約束力",
+            "ko": "조인트 제한을 무시하여 제약 조건을 추가로 줄임",
+            "zh-CN": "通过忽略关节限制进一步减少约束"
+          }
         }
       ]
     },
@@ -753,6 +1029,12 @@
       "max": 1,
       "options": null,
       "description": "Settings for angular motion",
+      "descriptions": {
+        "ja": "角運動の設定",
+        "zh-TW": "角運動設置",
+        "ko": "각운동 설정",
+        "zh-CN": "角运动设置"
+      },
       "values": [
         {
           "name": "Firmness",
@@ -768,7 +1050,13 @@
           "min": -1,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Main Drive Force",
@@ -784,7 +1072,13 @@
           "min": 0,
           "max": 8,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Second Drive Force",
@@ -800,7 +1094,13 @@
           "min": 0,
           "max": 8,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Target Position",
@@ -816,7 +1116,13 @@
           "min": 0,
           "max": 3,
           "options": ["Zero", "Center", "Min", "Max"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Lock When Possible",
@@ -832,7 +1138,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Acceleration Mode",
@@ -848,7 +1160,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Damping",
@@ -864,7 +1182,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Drag",
@@ -880,7 +1204,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Ignore Limit",
@@ -896,7 +1226,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Further reducing constraints by ignoring joint limits"
+          "description": "Further reducing constraints by ignoring joint limits",
+          "descriptions": {
+            "ja": "ジョイント制限を無視することで制約をさらに減らす",
+            "zh-TW": "忽略關節限制以進一步減少約束力",
+            "ko": "조인트 제한을 무시하여 제약 조건을 추가로 줄임",
+            "zh-CN": "通过忽略关节限制进一步减少约束"
+          }
         }
       ]
     },
@@ -915,6 +1251,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Min Drag",
@@ -930,7 +1272,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "The min drag value in auto mode"
+          "description": "The min drag value in auto mode",
+          "descriptions": {
+            "ja": "自動モードでの最小ドラッグ値",
+            "zh-TW": "自動模式下的最小阻力值",
+            "ko": "자동 모드에서 최소 항력 값",
+            "zh-CN": "自动模式下的最小阻力值"
+          }
         },
         {
           "name": "Drag Scale",
@@ -946,7 +1294,13 @@
           "min": 0,
           "max": 5,
           "options": null,
-          "description": "The scale applied to drag values in auto mode"
+          "description": "The scale applied to drag values in auto mode",
+          "descriptions": {
+            "ja": "自動モードのドラッグ値に適用されるスケール",
+            "zh-TW": "自動模式下應用於阻力值的縮放比例",
+            "ko": "자동 모드에서 항력 값에 적용되는 스케일",
+            "zh-CN": "自动模式下应用于阻力值的大小"
+          }
         },
         {
           "name": "Min Mass",
@@ -962,7 +1316,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "The min mass value in auto mode"
+          "description": "The min mass value in auto mode",
+          "descriptions": {
+            "ja": "自動モードでの最小質量値",
+            "zh-TW": "自動模式下的最小質量值",
+            "ko": "자동 모드에서 최소 질량 값",
+            "zh-CN": "自动模式下的最小质量值"
+          }
         },
         {
           "name": "Mass Scale",
@@ -978,7 +1338,13 @@
           "min": 0,
           "max": 10,
           "options": null,
-          "description": "The scale applied to mass values in auto mode"
+          "description": "The scale applied to mass values in auto mode",
+          "descriptions": {
+            "ja": "自動モードの質量値に適用されるスケール",
+            "zh-TW": "自動模式下應用於質量值的縮放比例",
+            "ko": "자동 모드에서 질량 값에 적용되는 스케일",
+            "zh-CN": "自动模式下应用于质量值的大小"
+          }
         },
         {
           "name": "Center Of Mass",
@@ -994,7 +1360,13 @@
           "min": 0,
           "max": 1,
           "options": ["Auto", "Zero"],
-          "description": "Set center of mass at zero or automatically based on position and size of each collider"
+          "description": "Set center of mass at zero or automatically based on position and size of each collider",
+          "descriptions": {
+            "ja": "ゼロ、または各コライダーの位置とサイズに基づいて自動的に重心を設定する",
+            "zh-TW": "將質心設定為零，或根據每個碰撞器的位置和大小自動設定",
+            "ko": "무게 중심을 0으로 설정하거나 각 콜라이더의 위치와 크기에 따라 자동으로 설정",
+            "zh-CN": "将质心设置为零，或根据每个碰撞体的位置和大小自动设置"
+          }
         },
         {
           "name": "Projection Dist",
@@ -1010,7 +1382,13 @@
           "min": 0,
           "max": 0.1,
           "options": null,
-          "description": "Force reset the joint when distance between objects relative to neutral exceed this value"
+          "description": "Force reset the joint when distance between objects relative to neutral exceed this value",
+          "descriptions": {
+            "ja": "オブジェクト間の距離がニュートラルからの偏差をこの値を超えた場合にジョイントを強制リセットする",
+            "zh-TW": "當物體之間相對於中性狀態的距離超過此值時，強制重置關節",
+            "ko": "객체 간의 거리가 중립 대비 이 값을 초과할 때 조인트를 강제로 초기화",
+            "zh-CN": "当物体间的距离相对于中性值超过此值时，强制重置关节"
+          }
         },
         {
           "name": "Projection Angle",
@@ -1026,7 +1404,13 @@
           "min": 0,
           "max": 60,
           "options": null,
-          "description": "Force reset the joint when angle between the objects relative to neutral exceed this value"
+          "description": "Force reset the joint when angle between the objects relative to neutral exceed this value",
+          "descriptions": {
+            "ja": "オブジェクト間の角度がニュートラルからの偏差をこの値を超えた場合にジョイントを強制リセットする",
+            "zh-TW": "當物體之間相對於中性狀態的角度超過此值時，強制重置關節",
+            "ko": "객체 간의 각도가 중립 대비 이 값을 초과할 때 조인트를 강제로 초기화",
+            "zh-CN": "当物体间的角度相对于中性值超过此值时，强制重置关节"
+          }
         }
       ]
     },
@@ -1044,7 +1428,13 @@
       "min": 0,
       "max": 100,
       "options": null,
-      "description": "Automatically reset the bone and its children when the velocity exceed this value"
+      "description": "Automatically reset the bone and its children when the velocity exceed this value",
+      "descriptions": {
+        "ja": "速度がこの値を超えたときに、骨と子骨を自動的にリセットする",
+        "zh-TW": "當速度超過此值時，自動重置骨骼及其子骨骼",
+        "ko": "속도가 이 값을 초과하면 본과 그 자식들을 자동으로 초기화합니다.",
+        "zh-CN": "当速度超过此值时，自动重置骨骼及其子骨骼"
+      }
     },
     {
       "name": "Auto Reset",
@@ -1060,7 +1450,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Body Colliders",
@@ -1076,7 +1472,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Physics Boobs",
@@ -1092,7 +1494,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Physics Skirt",
@@ -1108,7 +1516,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Hair Physics",
@@ -1124,7 +1538,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Cloth Physics",
@@ -1140,7 +1560,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Detach Object",
@@ -1156,7 +1582,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     }
   ]
 }

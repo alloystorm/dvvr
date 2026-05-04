@@ -9,6 +9,12 @@
     "zh-CN": "面部控制"
   },
   "description": "Provides direct sliders for facial expressions on XPS/FBX models.\r\nMouth shapes (A, I, U, E, O, Grinning, Smile 1-3, Frown), eyebrow\r\nposes (Smile, Upper, Lower, Worry, Angry 1-2), and eyelid poses\r\n(Blink, Jito, Wink, Laugh, Narrow) each get their own slider.\r\n\r\n**Use Lip Sync** drives mouth shapes from the currently playing\r\naudio. For XPS models, **Disable** turns off all facial animation,\r\nand the **Extent** sliders scale eyelid, mouth, and eyebrow\r\nmovement independently to fix over- or under-animated faces.",
+  "descriptions": {
+    "ja": "(Provides direct sliders for facial expressions on XPS/FBX models.\r\nMouth shapes (A, I, U, E, O, Grinning, Smile 1-3, Frown), eyebrow\r\nposes (Smile, Upper, Lower, Worry, Angry 1-2), and eyelid poses\r\n(Blink, Jito, Wink, Laugh, Narrow) each get their own slider.\r\n\r\n**Use Lip Sync** drives mouth shapes from the currently playing\r\naudio. For XPS models, **Disable** turns off all facial animation,\r\nand the **Extent** sliders scale eyelid, mouth, and eyebrow\r\nmovement independently to fix over- or under-animated faces.)",
+    "zh-TW": "(Provides direct sliders for facial expressions on XPS/FBX models.\r\nMouth shapes (A, I, U, E, O, Grinning, Smile 1-3, Frown), eyebrow\r\nposes (Smile, Upper, Lower, Worry, Angry 1-2), and eyelid poses\r\n(Blink, Jito, Wink, Laugh, Narrow) each get their own slider.\r\n\r\n**Use Lip Sync** drives mouth shapes from the currently playing\r\naudio. For XPS models, **Disable** turns off all facial animation,\r\nand the **Extent** sliders scale eyelid, mouth, and eyebrow\r\nmovement independently to fix over- or under-animated faces.)",
+    "ko": "(Provides direct sliders for facial expressions on XPS/FBX models.\r\nMouth shapes (A, I, U, E, O, Grinning, Smile 1-3, Frown), eyebrow\r\nposes (Smile, Upper, Lower, Worry, Angry 1-2), and eyelid poses\r\n(Blink, Jito, Wink, Laugh, Narrow) each get their own slider.\r\n\r\n**Use Lip Sync** drives mouth shapes from the currently playing\r\naudio. For XPS models, **Disable** turns off all facial animation,\r\nand the **Extent** sliders scale eyelid, mouth, and eyebrow\r\nmovement independently to fix over- or under-animated faces.)",
+    "zh-CN": "(Provides direct sliders for facial expressions on XPS/FBX models.\r\nMouth shapes (A, I, U, E, O, Grinning, Smile 1-3, Frown), eyebrow\r\nposes (Smile, Upper, Lower, Worry, Angry 1-2), and eyelid poses\r\n(Blink, Jito, Wink, Laugh, Narrow) each get their own slider.\r\n\r\n**Use Lip Sync** drives mouth shapes from the currently playing\r\naudio. For XPS models, **Disable** turns off all facial animation,\r\nand the **Extent** sliders scale eyelid, mouth, and eyebrow\r\nmovement independently to fix over- or under-animated faces.)"
+  },
   "values": [
     {
       "name": "Use Lip Sync",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Mouth Neutral",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Mouth Custom",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "あ",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "い",
@@ -88,7 +118,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "う",
@@ -104,7 +140,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "え",
@@ -120,7 +162,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "お",
@@ -136,7 +184,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "にやり",
@@ -152,7 +206,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "にこ",
@@ -168,7 +228,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "にこ2",
@@ -184,7 +250,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "にこ3",
@@ -200,7 +272,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "∧",
@@ -216,7 +294,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Eyebrows Neutral",
@@ -232,7 +316,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Eyebrows Custom",
@@ -248,7 +338,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "にこり",
@@ -264,7 +360,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "上",
@@ -280,7 +382,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "下",
@@ -296,7 +404,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "困る",
@@ -312,7 +426,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "怒り",
@@ -328,7 +448,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "怒る",
@@ -344,7 +470,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Eyelids Neutral",
@@ -360,7 +492,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Eyelids Custom",
@@ -376,7 +514,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "まばたき",
@@ -392,7 +536,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "じと目",
@@ -408,7 +558,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "ウインク",
@@ -424,7 +580,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "ウインク右",
@@ -440,7 +602,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "笑い",
@@ -456,7 +624,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "目細める",
@@ -472,7 +646,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     }
   ]
 }

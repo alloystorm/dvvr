@@ -9,6 +9,12 @@
     "zh-CN": "附加到角色"
   },
   "description": "Attaches a source bone from this actor to a target bone on\r\nanother actor, enabling cross-character interactions.\r\n\r\n**Select Source Bones** picks the bone to attach from this\r\nactor. **Actor Select** chooses the target actor. **Select\r\nTarget Bones** picks the destination bone on the target\r\nactor. **Ignore Rotation** preserves the source bone's\r\noriginal orientation. **Offset** and **Rotation** fine-tune\r\nthe attachment position. **Scale** adjusts size with power-\r\nof-2 scaling.",
+  "descriptions": {
+    "ja": "(Attaches a source bone from this actor to a target bone on\r\nanother actor, enabling cross-character interactions.\r\n\r\n**Select Source Bones** picks the bone to attach from this\r\nactor. **Actor Select** chooses the target actor. **Select\r\nTarget Bones** picks the destination bone on the target\r\nactor. **Ignore Rotation** preserves the source bone's\r\noriginal orientation. **Offset** and **Rotation** fine-tune\r\nthe attachment position. **Scale** adjusts size with power-\r\nof-2 scaling.)",
+    "zh-TW": "(Attaches a source bone from this actor to a target bone on\r\nanother actor, enabling cross-character interactions.\r\n\r\n**Select Source Bones** picks the bone to attach from this\r\nactor. **Actor Select** chooses the target actor. **Select\r\nTarget Bones** picks the destination bone on the target\r\nactor. **Ignore Rotation** preserves the source bone's\r\noriginal orientation. **Offset** and **Rotation** fine-tune\r\nthe attachment position. **Scale** adjusts size with power-\r\nof-2 scaling.)",
+    "ko": "(Attaches a source bone from this actor to a target bone on\r\nanother actor, enabling cross-character interactions.\r\n\r\n**Select Source Bones** picks the bone to attach from this\r\nactor. **Actor Select** chooses the target actor. **Select\r\nTarget Bones** picks the destination bone on the target\r\nactor. **Ignore Rotation** preserves the source bone's\r\noriginal orientation. **Offset** and **Rotation** fine-tune\r\nthe attachment position. **Scale** adjusts size with power-\r\nof-2 scaling.)",
+    "zh-CN": "(Attaches a source bone from this actor to a target bone on\r\nanother actor, enabling cross-character interactions.\r\n\r\n**Select Source Bones** picks the bone to attach from this\r\nactor. **Actor Select** chooses the target actor. **Select\r\nTarget Bones** picks the destination bone on the target\r\nactor. **Ignore Rotation** preserves the source bone's\r\noriginal orientation. **Offset** and **Rotation** fine-tune\r\nthe attachment position. **Scale** adjusts size with power-\r\nof-2 scaling.)"
+  },
   "values": [
     {
       "name": "Select Source Bones",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Select bone to attach"
+      "description": "Select bone to attach",
+      "descriptions": {
+        "ja": "アタッチするボーンの選択",
+        "zh-TW": "選擇要附加的骨骼",
+        "ko": "부착할 본 선택",
+        "zh-CN": "选择要附加的骨骼"
+      }
     },
     {
       "name": "Select Actor",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Select Target Bones",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Select target bone to attach to"
+      "description": "Select target bone to attach to",
+      "descriptions": {
+        "ja": "アタッチするターゲットボーンの選択",
+        "zh-TW": "選擇目標骨骼（用於附加）",
+        "ko": "부착할 대상 본 선택",
+        "zh-CN": "选择要附加的目标骨骼"
+      }
     },
     {
       "name": "Ignore Rotation",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Ignore rotation of attach bone"
+      "description": "Ignore rotation of attach bone",
+      "descriptions": {
+        "ja": "アタッチボーンの回転を無視",
+        "zh-TW": "忽略附件骨骼的旋轉",
+        "ko": "부착 본의 회전 무시",
+        "zh-CN": "忽略附件骨骼的旋转"
+      }
     },
     {
       "name": "Offset",
@@ -89,6 +119,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "X",
@@ -104,7 +140,13 @@
           "min": -1,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Y",
@@ -120,7 +162,13 @@
           "min": -1,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Z",
@@ -136,7 +184,13 @@
           "min": -1,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -155,6 +209,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "X",
@@ -170,7 +230,13 @@
           "min": -180,
           "max": 180,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Y",
@@ -186,7 +252,13 @@
           "min": -180,
           "max": 180,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Z",
@@ -202,7 +274,13 @@
           "min": -180,
           "max": 180,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -220,7 +298,13 @@
       "min": -4,
       "max": 4,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     }
   ]
 }

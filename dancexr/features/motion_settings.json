@@ -9,6 +9,12 @@
     "zh-CN": "动作设置"
   },
   "description": "Controls how motion data (VMD, BVH, etc.) is applied to an actor\r\nmodel, including scaling, timing offsets, IK handling, and pose\r\ncorrections.\r\n\r\n\r\n## Motion Parameters\r\n\r\n**Motion Scale** multiplies all positional movement from the motion\r\nfile — useful when animations are exaggerated or too subtle for the\r\nmodel's proportions. **Vertical Pos Scale** independently scales the\r\ncenter bone's up/down movement to reduce bouncing or hopping.\r\n\r\n**Mirror** flips left and right motion data, primarily for VMD files\r\nauthored for opposite-side dominance. **Time Offset Percent** and\r\n**Time Offset Seconds** shift when in the animation timeline the\r\nactor starts playing — useful for syncing multiple actors or\r\ncompensating for motion lead-in.\r\n\r\n**Leg Angle** adds a small rotation bias to leg bones, adjusting\r\nstance width or toe-out angle across the entire animation.\r\n\r\n\r\n## IK Settings\r\n\r\n**Inherit Bones** respects the inherit-parent constraints defined in\r\nthe PMX file (e.g. hand bones following arm bones). **Motion Leg IK**\r\napplies a generic two-bone leg IK pass during motion processing,\r\nallowing foot planting to work even on models without dedicated IK\r\nbones. **Model IK** uses the IK link chains defined in the PMX itself.\r\nWhen Model IK conflicts with Motion IK, try disabling one or the other.\r\n\r\n\r\n## Spectator\r\n\r\nMarks the actor as a spectator — they are excluded from formation\r\npatterns and lighting assignments, useful for audience members or\r\nbackground characters.\r\n\r\n\r\n## Pose Adjustment\r\n\r\nRotates the default T-pose bone angles before any motion is applied.\r\nSee the nested panel for per-bone-group rotation controls — this is\r\nthe primary way to fix models whose imported rest pose doesn't match\r\nthe animation's assumptions.\r\n\r\n\r\n## Visualization\r\n\r\n**Show Virtual Bones**, **Visualize Bones**, and **Visualize IK\r\nTargets** render debug gizmos for the skeleton hierarchy and IK\r\ntarget positions (PMX models only).",
+  "descriptions": {
+    "ja": "(Controls how motion data (VMD, BVH, etc.) is applied to an actor\r\nmodel, including scaling, timing offsets, IK handling, and pose\r\ncorrections.\r\n\r\n\r\n## Motion Parameters\r\n\r\n**Motion Scale** multiplies all positional movement from the motion\r\nfile — useful when animations are exaggerated or too subtle for the\r\nmodel's proportions. **Vertical Pos Scale** independently scales the\r\ncenter bone's up/down movement to reduce bouncing or hopping.\r\n\r\n**Mirror** flips left and right motion data, primarily for VMD files\r\nauthored for opposite-side dominance. **Time Offset Percent** and\r\n**Time Offset Seconds** shift when in the animation timeline the\r\nactor starts playing — useful for syncing multiple actors or\r\ncompensating for motion lead-in.\r\n\r\n**Leg Angle** adds a small rotation bias to leg bones, adjusting\r\nstance width or toe-out angle across the entire animation.\r\n\r\n\r\n## IK Settings\r\n\r\n**Inherit Bones** respects the inherit-parent constraints defined in\r\nthe PMX file (e.g. hand bones following arm bones). **Motion Leg IK**\r\napplies a generic two-bone leg IK pass during motion processing,\r\nallowing foot planting to work even on models without dedicated IK\r\nbones. **Model IK** uses the IK link chains defined in the PMX itself.\r\nWhen Model IK conflicts with Motion IK, try disabling one or the other.\r\n\r\n\r\n## Spectator\r\n\r\nMarks the actor as a spectator — they are excluded from formation\r\npatterns and lighting assignments, useful for audience members or\r\nbackground characters.\r\n\r\n\r\n## Pose Adjustment\r\n\r\nRotates the default T-pose bone angles before any motion is applied.\r\nSee the nested panel for per-bone-group rotation controls — this is\r\nthe primary way to fix models whose imported rest pose doesn't match\r\nthe animation's assumptions.\r\n\r\n\r\n## Visualization\r\n\r\n**Show Virtual Bones**, **Visualize Bones**, and **Visualize IK\r\nTargets** render debug gizmos for the skeleton hierarchy and IK\r\ntarget positions (PMX models only).)",
+    "zh-TW": "(Controls how motion data (VMD, BVH, etc.) is applied to an actor\r\nmodel, including scaling, timing offsets, IK handling, and pose\r\ncorrections.\r\n\r\n\r\n## Motion Parameters\r\n\r\n**Motion Scale** multiplies all positional movement from the motion\r\nfile — useful when animations are exaggerated or too subtle for the\r\nmodel's proportions. **Vertical Pos Scale** independently scales the\r\ncenter bone's up/down movement to reduce bouncing or hopping.\r\n\r\n**Mirror** flips left and right motion data, primarily for VMD files\r\nauthored for opposite-side dominance. **Time Offset Percent** and\r\n**Time Offset Seconds** shift when in the animation timeline the\r\nactor starts playing — useful for syncing multiple actors or\r\ncompensating for motion lead-in.\r\n\r\n**Leg Angle** adds a small rotation bias to leg bones, adjusting\r\nstance width or toe-out angle across the entire animation.\r\n\r\n\r\n## IK Settings\r\n\r\n**Inherit Bones** respects the inherit-parent constraints defined in\r\nthe PMX file (e.g. hand bones following arm bones). **Motion Leg IK**\r\napplies a generic two-bone leg IK pass during motion processing,\r\nallowing foot planting to work even on models without dedicated IK\r\nbones. **Model IK** uses the IK link chains defined in the PMX itself.\r\nWhen Model IK conflicts with Motion IK, try disabling one or the other.\r\n\r\n\r\n## Spectator\r\n\r\nMarks the actor as a spectator — they are excluded from formation\r\npatterns and lighting assignments, useful for audience members or\r\nbackground characters.\r\n\r\n\r\n## Pose Adjustment\r\n\r\nRotates the default T-pose bone angles before any motion is applied.\r\nSee the nested panel for per-bone-group rotation controls — this is\r\nthe primary way to fix models whose imported rest pose doesn't match\r\nthe animation's assumptions.\r\n\r\n\r\n## Visualization\r\n\r\n**Show Virtual Bones**, **Visualize Bones**, and **Visualize IK\r\nTargets** render debug gizmos for the skeleton hierarchy and IK\r\ntarget positions (PMX models only).)",
+    "ko": "(Controls how motion data (VMD, BVH, etc.) is applied to an actor\r\nmodel, including scaling, timing offsets, IK handling, and pose\r\ncorrections.\r\n\r\n\r\n## Motion Parameters\r\n\r\n**Motion Scale** multiplies all positional movement from the motion\r\nfile — useful when animations are exaggerated or too subtle for the\r\nmodel's proportions. **Vertical Pos Scale** independently scales the\r\ncenter bone's up/down movement to reduce bouncing or hopping.\r\n\r\n**Mirror** flips left and right motion data, primarily for VMD files\r\nauthored for opposite-side dominance. **Time Offset Percent** and\r\n**Time Offset Seconds** shift when in the animation timeline the\r\nactor starts playing — useful for syncing multiple actors or\r\ncompensating for motion lead-in.\r\n\r\n**Leg Angle** adds a small rotation bias to leg bones, adjusting\r\nstance width or toe-out angle across the entire animation.\r\n\r\n\r\n## IK Settings\r\n\r\n**Inherit Bones** respects the inherit-parent constraints defined in\r\nthe PMX file (e.g. hand bones following arm bones). **Motion Leg IK**\r\napplies a generic two-bone leg IK pass during motion processing,\r\nallowing foot planting to work even on models without dedicated IK\r\nbones. **Model IK** uses the IK link chains defined in the PMX itself.\r\nWhen Model IK conflicts with Motion IK, try disabling one or the other.\r\n\r\n\r\n## Spectator\r\n\r\nMarks the actor as a spectator — they are excluded from formation\r\npatterns and lighting assignments, useful for audience members or\r\nbackground characters.\r\n\r\n\r\n## Pose Adjustment\r\n\r\nRotates the default T-pose bone angles before any motion is applied.\r\nSee the nested panel for per-bone-group rotation controls — this is\r\nthe primary way to fix models whose imported rest pose doesn't match\r\nthe animation's assumptions.\r\n\r\n\r\n## Visualization\r\n\r\n**Show Virtual Bones**, **Visualize Bones**, and **Visualize IK\r\nTargets** render debug gizmos for the skeleton hierarchy and IK\r\ntarget positions (PMX models only).)",
+    "zh-CN": "(Controls how motion data (VMD, BVH, etc.) is applied to an actor\r\nmodel, including scaling, timing offsets, IK handling, and pose\r\ncorrections.\r\n\r\n\r\n## Motion Parameters\r\n\r\n**Motion Scale** multiplies all positional movement from the motion\r\nfile — useful when animations are exaggerated or too subtle for the\r\nmodel's proportions. **Vertical Pos Scale** independently scales the\r\ncenter bone's up/down movement to reduce bouncing or hopping.\r\n\r\n**Mirror** flips left and right motion data, primarily for VMD files\r\nauthored for opposite-side dominance. **Time Offset Percent** and\r\n**Time Offset Seconds** shift when in the animation timeline the\r\nactor starts playing — useful for syncing multiple actors or\r\ncompensating for motion lead-in.\r\n\r\n**Leg Angle** adds a small rotation bias to leg bones, adjusting\r\nstance width or toe-out angle across the entire animation.\r\n\r\n\r\n## IK Settings\r\n\r\n**Inherit Bones** respects the inherit-parent constraints defined in\r\nthe PMX file (e.g. hand bones following arm bones). **Motion Leg IK**\r\napplies a generic two-bone leg IK pass during motion processing,\r\nallowing foot planting to work even on models without dedicated IK\r\nbones. **Model IK** uses the IK link chains defined in the PMX itself.\r\nWhen Model IK conflicts with Motion IK, try disabling one or the other.\r\n\r\n\r\n## Spectator\r\n\r\nMarks the actor as a spectator — they are excluded from formation\r\npatterns and lighting assignments, useful for audience members or\r\nbackground characters.\r\n\r\n\r\n## Pose Adjustment\r\n\r\nRotates the default T-pose bone angles before any motion is applied.\r\nSee the nested panel for per-bone-group rotation controls — this is\r\nthe primary way to fix models whose imported rest pose doesn't match\r\nthe animation's assumptions.\r\n\r\n\r\n## Visualization\r\n\r\n**Show Virtual Bones**, **Visualize Bones**, and **Visualize IK\r\nTargets** render debug gizmos for the skeleton hierarchy and IK\r\ntarget positions (PMX models only).)"
+  },
   "values": [
     {
       "name": "Motion Scale",
@@ -24,7 +30,13 @@
       "min": 0.2,
       "max": 2,
       "options": null,
-      "description": "Scale the position offset."
+      "description": "Scale the position offset.",
+      "descriptions": {
+        "ja": "位置オフセットを調整します。",
+        "zh-TW": "縮小位置偏移。",
+        "ko": "위치 오프셋 스케일 조정.",
+        "zh-CN": "缩放位置偏移。"
+      }
     },
     {
       "name": "Vertical Pos Scale",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Reduce vertical movement for center bone."
+      "description": "Reduce vertical movement for center bone.",
+      "descriptions": {
+        "ja": "中心ボーンの垂直移動を減少させます。",
+        "zh-TW": "減小中心骨骼的垂直移動。",
+        "ko": "중앙 본의 수직 움직임 감소.",
+        "zh-CN": "减少中心骨骼的垂直运动。"
+      }
     },
     {
       "name": "Mirror (VMD Only)",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Mirror left and right motion."
+      "description": "Mirror left and right motion.",
+      "descriptions": {
+        "ja": "左右の動きをミラーリングします。",
+        "zh-TW": "鏡像左右動作。",
+        "ko": "좌우 모션 미러링.",
+        "zh-CN": "镜像左右运动。"
+      }
     },
     {
       "name": "Inherit Bones",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Use Inherit Bones defined in PMX."
+      "description": "Use Inherit Bones defined in PMX.",
+      "descriptions": {
+        "ja": "PMXで定義された継承ボーンを使用します。",
+        "zh-TW": "使用 PMX 定義的繼承骨骼。",
+        "ko": "PMX에 정의된 상속 본 사용.",
+        "zh-CN": "使用PMX定义的继承骨骼。"
+      }
     },
     {
       "name": "Motion Leg IK",
@@ -88,7 +118,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Apply common leg IK within motion processing, allow IK motion to work with models without IK bones."
+      "description": "Apply common leg IK within motion processing, allow IK motion to work with models without IK bones.",
+      "descriptions": {
+        "ja": "モーション処理内で一般的な脚IKを適用し、IKボーンのないモデルでもIK動作を可能にします。",
+        "zh-TW": "在動作處理中應用通用腿部 IK，允許沒有 IK 骨骼的模型也使用 IK 動作。",
+        "ko": "모션 처리 내에서 공통 다리 IK를 적용하여, IK 본이 없는 모델도 IK 모션이 작동하도록 허용.",
+        "zh-CN": "在动作处理中应用通用的腿部IK，允许IK动作在没有IK骨骼的模型上工作。"
+      }
     },
     {
       "name": "Model IK",
@@ -104,7 +140,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Use IK links defined in PMX. In some cases disabling \"Motion IK\" is needed for this to work properly."
+      "description": "Use IK links defined in PMX. In some cases disabling \"Motion IK\" is needed for this to work properly.",
+      "descriptions": {
+        "ja": "(Use IK links defined in PMX. In some cases disabling \"Motion IK\" is needed for this to work properly.)",
+        "zh-TW": "(Use IK links defined in PMX. In some cases disabling \"Motion IK\" is needed for this to work properly.)",
+        "ko": "(Use IK links defined in PMX. In some cases disabling \"Motion IK\" is needed for this to work properly.)",
+        "zh-CN": "(Use IK links defined in PMX. In some cases disabling \"Motion IK\" is needed for this to work properly.)"
+      }
     },
     {
       "name": "Time Offset Percent",
@@ -120,7 +162,13 @@
       "min": 0,
       "max": 100,
       "options": null,
-      "description": "The time offset added to the actor when applying motion in percentage."
+      "description": "The time offset added to the actor when applying motion in percentage.",
+      "descriptions": {
+        "ja": "パーセンテージでモーションを適用した際に、アクターに追加される時間オフセット。",
+        "zh-TW": "以百分比應用動作時增加的動作時間偏移。",
+        "ko": "백분율로 모션을 적용할 때 액터에 추가되는 시간 오프셋.",
+        "zh-CN": "以百分比应用动作时添加到角色身上的时间偏移。"
+      }
     },
     {
       "name": "Time Offset Seconds",
@@ -136,7 +184,13 @@
       "min": -5,
       "max": 5,
       "options": null,
-      "description": "The time offset added to the actor when applying motion in seconds."
+      "description": "The time offset added to the actor when applying motion in seconds.",
+      "descriptions": {
+        "ja": "秒でモーションを適用した際に、アクターに追加される時間オフセット。",
+        "zh-TW": "以秒數應用動作時增加的動作時間偏移。",
+        "ko": "초 단위로 모션을 적용할 때 액터에 추가되는 시간 오프셋.",
+        "zh-CN": "以秒应用动作时添加到角色身上的时间偏移。"
+      }
     },
     {
       "name": "Spectator",
@@ -152,7 +206,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Set the actor as a spectator."
+      "description": "Set the actor as a spectator.",
+      "descriptions": {
+        "ja": "アクターを観客に設定します。",
+        "zh-TW": "將角色設定為觀賞者。",
+        "ko": "액터를 관전자로 설정합니다.",
+        "zh-CN": "将角色设置为旁观者。"
+      }
     },
     {
       "name": "Leg Angle",
@@ -168,7 +228,13 @@
       "min": -15,
       "max": 15,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "sd_pose",
@@ -185,6 +251,12 @@
       "max": 1,
       "options": null,
       "description": "Adjust zero pose in normal mode.",
+      "descriptions": {
+        "ja": "ノーマルモードでゼロポーズを調整します。",
+        "zh-TW": "調整正常模式下的零姿勢。",
+        "ko": "일반 모드에서 기본 포즈 조정.",
+        "zh-CN": "在正常模式下调整零姿势。"
+      },
       "values": [
         {
           "name": "Center Position",
@@ -201,6 +273,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -216,7 +294,13 @@
               "min": -2,
               "max": 2,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -232,7 +316,13 @@
               "min": -2,
               "max": 2,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -248,7 +338,13 @@
               "min": -2,
               "max": 2,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -267,6 +363,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -282,7 +384,13 @@
               "min": -180,
               "max": 180,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -298,7 +406,13 @@
               "min": -180,
               "max": 180,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -314,7 +428,13 @@
               "min": -180,
               "max": 180,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -333,6 +453,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -348,7 +474,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -364,7 +496,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -380,7 +518,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -399,6 +543,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -414,7 +564,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -430,7 +586,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -446,7 +608,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -465,6 +633,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -480,7 +654,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -496,7 +676,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -512,7 +698,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -531,6 +723,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -546,7 +744,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -562,7 +766,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -578,7 +788,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -597,6 +813,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -612,7 +834,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -628,7 +856,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -644,7 +878,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -663,6 +903,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -678,7 +924,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -694,7 +946,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -710,7 +968,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -729,6 +993,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -744,7 +1014,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -760,7 +1036,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -776,7 +1058,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -795,6 +1083,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -810,7 +1104,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -826,7 +1126,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -842,7 +1148,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -861,6 +1173,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -876,7 +1194,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -892,7 +1216,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -908,7 +1238,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -926,7 +1262,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Index Finger",
@@ -943,6 +1285,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "X",
@@ -958,7 +1306,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -974,7 +1328,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -990,7 +1350,13 @@
               "min": -90,
               "max": 90,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -1008,7 +1374,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -1026,7 +1398,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Visualize Bones",
@@ -1042,7 +1420,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Visualize IK Targets",
@@ -1058,7 +1442,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     }
   ]
 }

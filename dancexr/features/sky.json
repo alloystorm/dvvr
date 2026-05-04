@@ -9,6 +9,12 @@
     "zh-CN": "天空"
   },
   "description": "Controls everything overhead — the sky background that fills the\r\nhorizon, the ambient light it casts on the scene, and the global\r\nwind that drives clouds, cloth, and particle systems. Presets\r\nbundle these into named looks like *Skymap*, *Procedural*,\r\n*Indoor*, *Thin Cloud*, and *Cloudy*.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks one of three sky renderers and the rest of the\r\npanel reshapes to match. *Color* paints a flat gradient sky\r\nfrom the **Sky Color** / **Middle Color** / **Ground Color**\r\nvalues and is the cheapest option. *Sky Map* wraps a 360°\r\npanorama (built-in or imported) around the scene — use this\r\nfor outdoor or stylized backgrounds. *Procedural* renders a\r\nphysically-based sky and (on HDRP) is the only mode that\r\nsupports volumetric clouds.\r\n\r\n\r\n## Sky Map and Orientation\r\n\r\nWhen mode is *Sky Map*, **Sky Map** chooses the panorama from\r\nthe built-in set plus anything imported into the content\r\nlibrary. Loading large skymaps is asynchronous so the UI stays\r\nresponsive. **Orientation** rotates the sky in degrees around\r\nthe vertical axis — this also rotates the projection used for\r\nthe ground sky-dome material, so adjusting it shifts ground\r\nreflections too.\r\n\r\n\r\n## Background and Ambient\r\n\r\n**Background** (HDRP) scales how bright the sky looks on\r\nscreen. **Sky Ambient** controls how much that sky bleeds\r\ninto the rest of the scene as ambient lighting — lower it\r\nif a bright skymap is washing out actor shading. On URP the\r\nsame role is played by **Sky Exposure** and **Intensity**,\r\nwhere Sky Exposure also feeds reflection probe brightness.\r\n\r\n\r\n## Sky Colors\r\n\r\nIn *Color* mode, **Sky Color**, **Middle Color**, and\r\n**Ground Color** define the top, horizon, and bottom of a\r\nthree-band gradient. They also drive trilight ambient\r\nlighting (and on HDRP, the fog albedo), so changing them\r\ntints what the scene picks up from the sky in addition to\r\nthe visible background.\r\n\r\n\r\n## Wind\r\n\r\n**Wind** sets a global wind speed that drives cloth\r\nsimulation, particle dynamics, and (on HDRP) volumetric\r\ncloud movement. **Wind Direction** sets its compass heading.\r\nKeep this modest — high wind speeds make hair and skirts\r\nvisibly thrash.\r\n\r\n\r\n## Wind Field\r\n\r\nA localized wind volume on top of the global wind, useful\r\nfor staged effects like a fan blowing on one actor. Toggle\r\nit on, then position and orient the cylindrical field with\r\n**Position** / **Rotation** (an interactive gizmo appears\r\nwhile the menu is open). **Distance** is the cylinder's\r\nlength, **Radius** its width, and **Speed** its strength.\r\nAffects cloth and particles inside the volume only.\r\n\r\n\r\n## Clouds (HDRP)\r\n\r\nVolumetric clouds, available only in *Procedural* mode. The\r\n**Toggle** turns them on. **Shape Scale** and **Shape\r\nFactor** control the large-scale silhouette; **Erosion\r\nScale** and **Erosion Factor** add the wispy edge detail;\r\n**Density** controls overall coverage. **Shadow** projects\r\ncloud shadows onto the scene — costly but adds a lot of\r\nrealism on outdoor stages. **Wind Multiplier** scales the\r\nglobal wind for clouds only, so they can drift faster or\r\nslower than the rest of the scene.",
+  "descriptions": {
+    "ja": "(Controls everything overhead — the sky background that fills the\r\nhorizon, the ambient light it casts on the scene, and the global\r\nwind that drives clouds, cloth, and particle systems. Presets\r\nbundle these into named looks like *Skymap*, *Procedural*,\r\n*Indoor*, *Thin Cloud*, and *Cloudy*.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks one of three sky renderers and the rest of the\r\npanel reshapes to match. *Color* paints a flat gradient sky\r\nfrom the **Sky Color** / **Middle Color** / **Ground Color**\r\nvalues and is the cheapest option. *Sky Map* wraps a 360°\r\npanorama (built-in or imported) around the scene — use this\r\nfor outdoor or stylized backgrounds. *Procedural* renders a\r\nphysically-based sky and (on HDRP) is the only mode that\r\nsupports volumetric clouds.\r\n\r\n\r\n## Sky Map and Orientation\r\n\r\nWhen mode is *Sky Map*, **Sky Map** chooses the panorama from\r\nthe built-in set plus anything imported into the content\r\nlibrary. Loading large skymaps is asynchronous so the UI stays\r\nresponsive. **Orientation** rotates the sky in degrees around\r\nthe vertical axis — this also rotates the projection used for\r\nthe ground sky-dome material, so adjusting it shifts ground\r\nreflections too.\r\n\r\n\r\n## Background and Ambient\r\n\r\n**Background** (HDRP) scales how bright the sky looks on\r\nscreen. **Sky Ambient** controls how much that sky bleeds\r\ninto the rest of the scene as ambient lighting — lower it\r\nif a bright skymap is washing out actor shading. On URP the\r\nsame role is played by **Sky Exposure** and **Intensity**,\r\nwhere Sky Exposure also feeds reflection probe brightness.\r\n\r\n\r\n## Sky Colors\r\n\r\nIn *Color* mode, **Sky Color**, **Middle Color**, and\r\n**Ground Color** define the top, horizon, and bottom of a\r\nthree-band gradient. They also drive trilight ambient\r\nlighting (and on HDRP, the fog albedo), so changing them\r\ntints what the scene picks up from the sky in addition to\r\nthe visible background.\r\n\r\n\r\n## Wind\r\n\r\n**Wind** sets a global wind speed that drives cloth\r\nsimulation, particle dynamics, and (on HDRP) volumetric\r\ncloud movement. **Wind Direction** sets its compass heading.\r\nKeep this modest — high wind speeds make hair and skirts\r\nvisibly thrash.\r\n\r\n\r\n## Wind Field\r\n\r\nA localized wind volume on top of the global wind, useful\r\nfor staged effects like a fan blowing on one actor. Toggle\r\nit on, then position and orient the cylindrical field with\r\n**Position** / **Rotation** (an interactive gizmo appears\r\nwhile the menu is open). **Distance** is the cylinder's\r\nlength, **Radius** its width, and **Speed** its strength.\r\nAffects cloth and particles inside the volume only.\r\n\r\n\r\n## Clouds (HDRP)\r\n\r\nVolumetric clouds, available only in *Procedural* mode. The\r\n**Toggle** turns them on. **Shape Scale** and **Shape\r\nFactor** control the large-scale silhouette; **Erosion\r\nScale** and **Erosion Factor** add the wispy edge detail;\r\n**Density** controls overall coverage. **Shadow** projects\r\ncloud shadows onto the scene — costly but adds a lot of\r\nrealism on outdoor stages. **Wind Multiplier** scales the\r\nglobal wind for clouds only, so they can drift faster or\r\nslower than the rest of the scene.)",
+    "zh-TW": "(Controls everything overhead — the sky background that fills the\r\nhorizon, the ambient light it casts on the scene, and the global\r\nwind that drives clouds, cloth, and particle systems. Presets\r\nbundle these into named looks like *Skymap*, *Procedural*,\r\n*Indoor*, *Thin Cloud*, and *Cloudy*.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks one of three sky renderers and the rest of the\r\npanel reshapes to match. *Color* paints a flat gradient sky\r\nfrom the **Sky Color** / **Middle Color** / **Ground Color**\r\nvalues and is the cheapest option. *Sky Map* wraps a 360°\r\npanorama (built-in or imported) around the scene — use this\r\nfor outdoor or stylized backgrounds. *Procedural* renders a\r\nphysically-based sky and (on HDRP) is the only mode that\r\nsupports volumetric clouds.\r\n\r\n\r\n## Sky Map and Orientation\r\n\r\nWhen mode is *Sky Map*, **Sky Map** chooses the panorama from\r\nthe built-in set plus anything imported into the content\r\nlibrary. Loading large skymaps is asynchronous so the UI stays\r\nresponsive. **Orientation** rotates the sky in degrees around\r\nthe vertical axis — this also rotates the projection used for\r\nthe ground sky-dome material, so adjusting it shifts ground\r\nreflections too.\r\n\r\n\r\n## Background and Ambient\r\n\r\n**Background** (HDRP) scales how bright the sky looks on\r\nscreen. **Sky Ambient** controls how much that sky bleeds\r\ninto the rest of the scene as ambient lighting — lower it\r\nif a bright skymap is washing out actor shading. On URP the\r\nsame role is played by **Sky Exposure** and **Intensity**,\r\nwhere Sky Exposure also feeds reflection probe brightness.\r\n\r\n\r\n## Sky Colors\r\n\r\nIn *Color* mode, **Sky Color**, **Middle Color**, and\r\n**Ground Color** define the top, horizon, and bottom of a\r\nthree-band gradient. They also drive trilight ambient\r\nlighting (and on HDRP, the fog albedo), so changing them\r\ntints what the scene picks up from the sky in addition to\r\nthe visible background.\r\n\r\n\r\n## Wind\r\n\r\n**Wind** sets a global wind speed that drives cloth\r\nsimulation, particle dynamics, and (on HDRP) volumetric\r\ncloud movement. **Wind Direction** sets its compass heading.\r\nKeep this modest — high wind speeds make hair and skirts\r\nvisibly thrash.\r\n\r\n\r\n## Wind Field\r\n\r\nA localized wind volume on top of the global wind, useful\r\nfor staged effects like a fan blowing on one actor. Toggle\r\nit on, then position and orient the cylindrical field with\r\n**Position** / **Rotation** (an interactive gizmo appears\r\nwhile the menu is open). **Distance** is the cylinder's\r\nlength, **Radius** its width, and **Speed** its strength.\r\nAffects cloth and particles inside the volume only.\r\n\r\n\r\n## Clouds (HDRP)\r\n\r\nVolumetric clouds, available only in *Procedural* mode. The\r\n**Toggle** turns them on. **Shape Scale** and **Shape\r\nFactor** control the large-scale silhouette; **Erosion\r\nScale** and **Erosion Factor** add the wispy edge detail;\r\n**Density** controls overall coverage. **Shadow** projects\r\ncloud shadows onto the scene — costly but adds a lot of\r\nrealism on outdoor stages. **Wind Multiplier** scales the\r\nglobal wind for clouds only, so they can drift faster or\r\nslower than the rest of the scene.)",
+    "ko": "(Controls everything overhead — the sky background that fills the\r\nhorizon, the ambient light it casts on the scene, and the global\r\nwind that drives clouds, cloth, and particle systems. Presets\r\nbundle these into named looks like *Skymap*, *Procedural*,\r\n*Indoor*, *Thin Cloud*, and *Cloudy*.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks one of three sky renderers and the rest of the\r\npanel reshapes to match. *Color* paints a flat gradient sky\r\nfrom the **Sky Color** / **Middle Color** / **Ground Color**\r\nvalues and is the cheapest option. *Sky Map* wraps a 360°\r\npanorama (built-in or imported) around the scene — use this\r\nfor outdoor or stylized backgrounds. *Procedural* renders a\r\nphysically-based sky and (on HDRP) is the only mode that\r\nsupports volumetric clouds.\r\n\r\n\r\n## Sky Map and Orientation\r\n\r\nWhen mode is *Sky Map*, **Sky Map** chooses the panorama from\r\nthe built-in set plus anything imported into the content\r\nlibrary. Loading large skymaps is asynchronous so the UI stays\r\nresponsive. **Orientation** rotates the sky in degrees around\r\nthe vertical axis — this also rotates the projection used for\r\nthe ground sky-dome material, so adjusting it shifts ground\r\nreflections too.\r\n\r\n\r\n## Background and Ambient\r\n\r\n**Background** (HDRP) scales how bright the sky looks on\r\nscreen. **Sky Ambient** controls how much that sky bleeds\r\ninto the rest of the scene as ambient lighting — lower it\r\nif a bright skymap is washing out actor shading. On URP the\r\nsame role is played by **Sky Exposure** and **Intensity**,\r\nwhere Sky Exposure also feeds reflection probe brightness.\r\n\r\n\r\n## Sky Colors\r\n\r\nIn *Color* mode, **Sky Color**, **Middle Color**, and\r\n**Ground Color** define the top, horizon, and bottom of a\r\nthree-band gradient. They also drive trilight ambient\r\nlighting (and on HDRP, the fog albedo), so changing them\r\ntints what the scene picks up from the sky in addition to\r\nthe visible background.\r\n\r\n\r\n## Wind\r\n\r\n**Wind** sets a global wind speed that drives cloth\r\nsimulation, particle dynamics, and (on HDRP) volumetric\r\ncloud movement. **Wind Direction** sets its compass heading.\r\nKeep this modest — high wind speeds make hair and skirts\r\nvisibly thrash.\r\n\r\n\r\n## Wind Field\r\n\r\nA localized wind volume on top of the global wind, useful\r\nfor staged effects like a fan blowing on one actor. Toggle\r\nit on, then position and orient the cylindrical field with\r\n**Position** / **Rotation** (an interactive gizmo appears\r\nwhile the menu is open). **Distance** is the cylinder's\r\nlength, **Radius** its width, and **Speed** its strength.\r\nAffects cloth and particles inside the volume only.\r\n\r\n\r\n## Clouds (HDRP)\r\n\r\nVolumetric clouds, available only in *Procedural* mode. The\r\n**Toggle** turns them on. **Shape Scale** and **Shape\r\nFactor** control the large-scale silhouette; **Erosion\r\nScale** and **Erosion Factor** add the wispy edge detail;\r\n**Density** controls overall coverage. **Shadow** projects\r\ncloud shadows onto the scene — costly but adds a lot of\r\nrealism on outdoor stages. **Wind Multiplier** scales the\r\nglobal wind for clouds only, so they can drift faster or\r\nslower than the rest of the scene.)",
+    "zh-CN": "(Controls everything overhead — the sky background that fills the\r\nhorizon, the ambient light it casts on the scene, and the global\r\nwind that drives clouds, cloth, and particle systems. Presets\r\nbundle these into named looks like *Skymap*, *Procedural*,\r\n*Indoor*, *Thin Cloud*, and *Cloudy*.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks one of three sky renderers and the rest of the\r\npanel reshapes to match. *Color* paints a flat gradient sky\r\nfrom the **Sky Color** / **Middle Color** / **Ground Color**\r\nvalues and is the cheapest option. *Sky Map* wraps a 360°\r\npanorama (built-in or imported) around the scene — use this\r\nfor outdoor or stylized backgrounds. *Procedural* renders a\r\nphysically-based sky and (on HDRP) is the only mode that\r\nsupports volumetric clouds.\r\n\r\n\r\n## Sky Map and Orientation\r\n\r\nWhen mode is *Sky Map*, **Sky Map** chooses the panorama from\r\nthe built-in set plus anything imported into the content\r\nlibrary. Loading large skymaps is asynchronous so the UI stays\r\nresponsive. **Orientation** rotates the sky in degrees around\r\nthe vertical axis — this also rotates the projection used for\r\nthe ground sky-dome material, so adjusting it shifts ground\r\nreflections too.\r\n\r\n\r\n## Background and Ambient\r\n\r\n**Background** (HDRP) scales how bright the sky looks on\r\nscreen. **Sky Ambient** controls how much that sky bleeds\r\ninto the rest of the scene as ambient lighting — lower it\r\nif a bright skymap is washing out actor shading. On URP the\r\nsame role is played by **Sky Exposure** and **Intensity**,\r\nwhere Sky Exposure also feeds reflection probe brightness.\r\n\r\n\r\n## Sky Colors\r\n\r\nIn *Color* mode, **Sky Color**, **Middle Color**, and\r\n**Ground Color** define the top, horizon, and bottom of a\r\nthree-band gradient. They also drive trilight ambient\r\nlighting (and on HDRP, the fog albedo), so changing them\r\ntints what the scene picks up from the sky in addition to\r\nthe visible background.\r\n\r\n\r\n## Wind\r\n\r\n**Wind** sets a global wind speed that drives cloth\r\nsimulation, particle dynamics, and (on HDRP) volumetric\r\ncloud movement. **Wind Direction** sets its compass heading.\r\nKeep this modest — high wind speeds make hair and skirts\r\nvisibly thrash.\r\n\r\n\r\n## Wind Field\r\n\r\nA localized wind volume on top of the global wind, useful\r\nfor staged effects like a fan blowing on one actor. Toggle\r\nit on, then position and orient the cylindrical field with\r\n**Position** / **Rotation** (an interactive gizmo appears\r\nwhile the menu is open). **Distance** is the cylinder's\r\nlength, **Radius** its width, and **Speed** its strength.\r\nAffects cloth and particles inside the volume only.\r\n\r\n\r\n## Clouds (HDRP)\r\n\r\nVolumetric clouds, available only in *Procedural* mode. The\r\n**Toggle** turns them on. **Shape Scale** and **Shape\r\nFactor** control the large-scale silhouette; **Erosion\r\nScale** and **Erosion Factor** add the wispy edge detail;\r\n**Density** controls overall coverage. **Shadow** projects\r\ncloud shadows onto the scene — costly but adds a lot of\r\nrealism on outdoor stages. **Wind Multiplier** scales the\r\nglobal wind for clouds only, so they can drift faster or\r\nslower than the rest of the scene.)"
+  },
   "values": [
     {
       "name": "Mode",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 2,
       "options": ["Color", "Sky Map", "Procedural"],
-      "description": "Selects the sky rendering mode: Color, Sky Map, or Procedural."
+      "description": "Selects the sky rendering mode: Color, Sky Map, or Procedural.",
+      "descriptions": {
+        "ja": "空のレンダリングモードを選択します：色、スカイマップ、またはプロシージャル。",
+        "zh-TW": "選擇天空渲染模式：顏色、天空貼圖或程序化。",
+        "ko": "스카이 렌더링 모드를 선택합니다: 색상, 스카이 맵 또는 프로시저.",
+        "zh-CN": "选择天空渲染模式：颜色、天空贴图或程序化。"
+      }
     },
     {
       "name": "Background",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Controls the brightness of the sky when it is rendered."
+      "description": "Controls the brightness of the sky when it is rendered.",
+      "descriptions": {
+        "ja": "レンダリングされたとき、空の明るさを制御します。",
+        "zh-TW": "控制渲染時天空的亮度。",
+        "ko": "하늘이 렌더링될 때의 밝기를 제어합니다.",
+        "zh-CN": "控制天空的亮度。"
+      }
     },
     {
       "name": "Sky Ambient",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Controls how much the sky affects ambient lighting."
+      "description": "Controls how much the sky affects ambient lighting.",
+      "descriptions": {
+        "ja": "空が環境光にどの程度影響するかを制御します。",
+        "zh-TW": "控制天空影響環境光的程度。",
+        "ko": "하늘이 앰비언트 조명에 영향을 미치는 정도를 제어합니다.",
+        "zh-CN": "控制天空对环境光的影响程度。"
+      }
     },
     {
       "name": "Lighting",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Sky Map",
@@ -88,7 +118,13 @@
       "min": 0,
       "max": 1000,
       "options": ["[Cloud]", "[Fantasy]", "[Day]", "[Studio]"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Orientation",
@@ -104,7 +140,13 @@
       "min": 0,
       "max": 360,
       "options": null,
-      "description": "Sets the rotation of the sky in degrees."
+      "description": "Sets the rotation of the sky in degrees.",
+      "descriptions": {
+        "ja": "空の回転を度数で設定します。",
+        "zh-TW": "以度為單位設定天空的旋轉角度。",
+        "ko": "하늘의 회전을 각도로 설정합니다.",
+        "zh-CN": "设置天空的旋转角度。"
+      }
     },
     {
       "name": "Wind",
@@ -120,7 +162,13 @@
       "min": 0,
       "max": 4,
       "options": null,
-      "description": "Global wind speed affecting cloth simulation, particle dynamics, and clouds."
+      "description": "Global wind speed affecting cloth simulation, particle dynamics, and clouds.",
+      "descriptions": {
+        "ja": "布シミュレーション、パーティクルのダイナミクス、および雲に影響を与えるグローバルな風速。",
+        "zh-TW": "影響布料模擬、粒子動態和雲的全局風速。",
+        "ko": "천체 시뮬레이션, 입자 역학 및 구름에 영향을 미치는 전역 바람 속도.",
+        "zh-CN": "影响布料模拟、粒子动态和云朵的全局风速。"
+      }
     },
     {
       "name": "Wind Direction",
@@ -136,7 +184,13 @@
       "min": 0,
       "max": 360,
       "options": null,
-      "description": "Sets the global wind direction in degrees."
+      "description": "Sets the global wind direction in degrees.",
+      "descriptions": {
+        "ja": "グローバルな風の方向を度数で設定します。",
+        "zh-TW": "以度為單位設定全局風向。",
+        "ko": "전역 바람 방향을 각도로 설정합니다.",
+        "zh-CN": "设置全局风向（度）。"
+      }
     },
     {
       "name": "Wind Field",
@@ -153,6 +207,12 @@
       "max": 1,
       "options": null,
       "description": "Configures the wind field, including position, rotation, radius, and speed.",
+      "descriptions": {
+        "ja": "(Configures the wind field, including position, rotation, radius, and speed.)",
+        "zh-TW": "(Configures the wind field, including position, rotation, radius, and speed.)",
+        "ko": "(Configures the wind field, including position, rotation, radius, and speed.)",
+        "zh-CN": "(Configures the wind field, including position, rotation, radius, and speed.)"
+      },
       "values": [
         {
           "name": "Position",
@@ -169,6 +229,12 @@
           "max": 1,
           "options": null,
           "description": "Sets the position of the wind field.",
+          "descriptions": {
+            "ja": "風の場の位置を設定します。",
+            "zh-TW": "設定風場的位置。",
+            "ko": "바람장의 위치를 설정합니다.",
+            "zh-CN": "设置风场的位置。"
+          },
           "values": [
             {
               "name": "X",
@@ -184,7 +250,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -200,7 +272,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -216,7 +294,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -235,6 +319,12 @@
           "max": 1,
           "options": null,
           "description": "Sets the rotation of the wind field.",
+          "descriptions": {
+            "ja": "風の場の回転を設定します。",
+            "zh-TW": "設定風場的旋轉角度。",
+            "ko": "바람장의 회전을 설정합니다.",
+            "zh-CN": "设置风场的旋转。"
+          },
           "values": [
             {
               "name": "X",
@@ -250,7 +340,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Y",
@@ -266,7 +362,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Z",
@@ -282,7 +384,13 @@
               "min": null,
               "max": null,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -300,7 +408,13 @@
           "min": 0,
           "max": 10,
           "options": null,
-          "description": "Sets the distance of the wind field."
+          "description": "Sets the distance of the wind field.",
+          "descriptions": {
+            "ja": "風の場の距離を設定します。",
+            "zh-TW": "設定風場的距離。",
+            "ko": "바람장의 거리를 설정합니다.",
+            "zh-CN": "设置风场的距离。"
+          }
         },
         {
           "name": "Radius",
@@ -316,7 +430,13 @@
           "min": 0,
           "max": 2,
           "options": null,
-          "description": "Sets the radius of the wind field."
+          "description": "Sets the radius of the wind field.",
+          "descriptions": {
+            "ja": "風の場の半径を設定します。",
+            "zh-TW": "設定風場的半徑。",
+            "ko": "바람장의 반지름을 설정합니다.",
+            "zh-CN": "设置风场的半径。"
+          }
         },
         {
           "name": "Speed",
@@ -332,7 +452,13 @@
           "min": 0,
           "max": 4,
           "options": null,
-          "description": "Sets the speed of the wind field."
+          "description": "Sets the speed of the wind field.",
+          "descriptions": {
+            "ja": "風の場の速度を設定します。",
+            "zh-TW": "設定風場的速度。",
+            "ko": "바람장의 속도를 설정합니다.",
+            "zh-CN": "设置风场的速度。"
+          }
         }
       ]
     },
@@ -351,6 +477,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Color Mode",
@@ -366,7 +498,13 @@
           "min": 0,
           "max": 1,
           "options": ["RGB", "HSV"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Hue",
@@ -382,7 +520,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Satuation",
@@ -398,7 +542,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Brightness",
@@ -414,7 +564,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Red",
@@ -430,7 +586,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Green",
@@ -446,7 +608,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Blue",
@@ -462,7 +630,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Use Stage Color",
@@ -478,7 +652,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Use the color from the stage ring"
+          "description": "Use the color from the stage ring",
+          "descriptions": {
+            "ja": "ステージリングの色を使用",
+            "zh-TW": "使用舞台環的顏色",
+            "ko": "무대 링의 색상 사용",
+            "zh-CN": "使用舞台环颜色"
+          }
         },
         {
           "name": "Color Temp",
@@ -494,7 +674,13 @@
           "min": 3000,
           "max": 8000,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -513,6 +699,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Color Mode",
@@ -528,7 +720,13 @@
           "min": 0,
           "max": 1,
           "options": ["RGB", "HSV"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Hue",
@@ -544,7 +742,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Satuation",
@@ -560,7 +764,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Brightness",
@@ -576,7 +786,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Red",
@@ -592,7 +808,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Green",
@@ -608,7 +830,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Blue",
@@ -624,7 +852,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Use Stage Color",
@@ -640,7 +874,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Use the color from the stage ring"
+          "description": "Use the color from the stage ring",
+          "descriptions": {
+            "ja": "ステージリングの色を使用",
+            "zh-TW": "使用舞台環的顏色",
+            "ko": "무대 링의 색상 사용",
+            "zh-CN": "使用舞台环颜色"
+          }
         },
         {
           "name": "Color Temp",
@@ -656,7 +896,13 @@
           "min": 3000,
           "max": 8000,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -675,6 +921,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Color Mode",
@@ -690,7 +942,13 @@
           "min": 0,
           "max": 1,
           "options": ["RGB", "HSV"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Hue",
@@ -706,7 +964,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Satuation",
@@ -722,7 +986,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Brightness",
@@ -738,7 +1008,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Red",
@@ -754,7 +1030,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Green",
@@ -770,7 +1052,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Blue",
@@ -786,7 +1074,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Use Stage Color",
@@ -802,7 +1096,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Use the color from the stage ring"
+          "description": "Use the color from the stage ring",
+          "descriptions": {
+            "ja": "ステージリングの色を使用",
+            "zh-TW": "使用舞台環的顏色",
+            "ko": "무대 링의 색상 사용",
+            "zh-CN": "使用舞台环颜色"
+          }
         },
         {
           "name": "Color Temp",
@@ -818,7 +1118,13 @@
           "min": 3000,
           "max": 8000,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -837,6 +1143,12 @@
       "max": 1,
       "options": null,
       "description": "Configures volumetric clouds, including shape, erosion, density, and wind effects.",
+      "descriptions": {
+        "ja": "(Configures volumetric clouds, including shape, erosion, density, and wind effects.)",
+        "zh-TW": "(Configures volumetric clouds, including shape, erosion, density, and wind effects.)",
+        "ko": "(Configures volumetric clouds, including shape, erosion, density, and wind effects.)",
+        "zh-CN": "(Configures volumetric clouds, including shape, erosion, density, and wind effects.)"
+      },
       "values": [
         {
           "name": "Shape Scale",
@@ -852,7 +1164,13 @@
           "min": -1,
           "max": 2,
           "options": null,
-          "description": "Controls the scale of the cloud shapes."
+          "description": "Controls the scale of the cloud shapes.",
+          "descriptions": {
+            "ja": "雲の形状のスケールを制御します。",
+            "zh-TW": "控制雲朵的形狀縮放。",
+            "ko": "구름 형태의 스케일을 제어합니다.",
+            "zh-CN": "控制云形状的缩放。"
+          }
         },
         {
           "name": "Shape Factor",
@@ -868,7 +1186,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Adjusts the shape factor of the clouds."
+          "description": "Adjusts the shape factor of the clouds.",
+          "descriptions": {
+            "ja": "雲のシェイプファクターを調整します。",
+            "zh-TW": "調整雲朵的形狀係數。",
+            "ko": "구름의 형태 계수를 조정합니다.",
+            "zh-CN": "调整云的形状因子。"
+          }
         },
         {
           "name": "Erosion Scale",
@@ -884,7 +1208,13 @@
           "min": 0,
           "max": 5,
           "options": null,
-          "description": "Controls the scale of cloud erosion."
+          "description": "Controls the scale of cloud erosion.",
+          "descriptions": {
+            "ja": "雲のエロージョンのスケールを制御します。",
+            "zh-TW": "控制雲朵風化程度的縮放。",
+            "ko": "구름 침식의 스케일을 제어합니다.",
+            "zh-CN": "控制云侵蚀的缩放。"
+          }
         },
         {
           "name": "Erosion Factor",
@@ -900,7 +1230,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Adjusts the erosion factor of the clouds."
+          "description": "Adjusts the erosion factor of the clouds.",
+          "descriptions": {
+            "ja": "雲のエロージョンファクターを調整します。",
+            "zh-TW": "調整雲朵的風化係數。",
+            "ko": "구름의 침식 계수를 조정합니다.",
+            "zh-CN": "调整云的侵蚀因子。"
+          }
         },
         {
           "name": "Density",
@@ -916,7 +1252,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Sets the density multiplier for the clouds."
+          "description": "Sets the density multiplier for the clouds.",
+          "descriptions": {
+            "ja": "雲の密度倍率を設定します。",
+            "zh-TW": "設定雲朵的密度乘數。",
+            "ko": "구름의 밀도 배율을 설정합니다.",
+            "zh-CN": "设置云的密度乘数。"
+          }
         },
         {
           "name": "Shadow",
@@ -932,7 +1274,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Enables or disables cloud shadows."
+          "description": "Enables or disables cloud shadows.",
+          "descriptions": {
+            "ja": "雲の影を有効化または無効化します。",
+            "zh-TW": "啟用或禁用雲朵陰影。",
+            "ko": "구름 그림자를 활성화하거나 비활성화합니다.",
+            "zh-CN": "启用或禁用云阴影。"
+          }
         },
         {
           "name": "Wind Multiplier",
@@ -948,7 +1296,13 @@
           "min": 0,
           "max": 4,
           "options": null,
-          "description": "Sets the wind multiplier for cloud movement."
+          "description": "Sets the wind multiplier for cloud movement.",
+          "descriptions": {
+            "ja": "雲の動きのための風の乗数を設定します。",
+            "zh-TW": "設定雲移動的風力乘數。",
+            "ko": "구름 움직임을 위한 바람 증폭률을 설정합니다.",
+            "zh-CN": "设置云移动的风力乘数。"
+          }
         }
       ]
     }

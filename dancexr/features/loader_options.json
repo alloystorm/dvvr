@@ -9,6 +9,12 @@
     "zh-CN": "角色选项"
   },
   "description": "Settings that control how actor models are loaded and replaced.\r\n\r\n\r\n## Caching\r\n\r\nModels are kept in an in-memory cache after first load so switching\r\nbetween actors is near-instant. **Cache Size** sets how many models\r\nare held at once — increase it if you switch frequently, lower it\r\nto reduce RAM use.\r\n\r\n\r\n## Texture Compression\r\n\r\nEnabling *Compress Textures* converts textures to a GPU-compressed\r\nformat on load. This reduces VRAM significantly for complex models\r\nbut may introduce minor quality loss on some materials.\r\n\r\n\r\n## Transition\r\n\r\nControls transition effects when adding, removing or replacing actor\r\nmodels. \r\n\r\n\r\n## Auto Actor Change\r\n\r\nWhen multiple models are in cache, the value of *Auto Actor Change* \r\nwill automatically switch between them at runtime. \r\n\r\nWith the auto update enabled for this value you can achieve automatic \r\nactor switching from music progress or any other data source you choose.",
+  "descriptions": {
+    "ja": "(Settings that control how actor models are loaded and replaced.\r\n\r\n\r\n## Caching\r\n\r\nModels are kept in an in-memory cache after first load so switching\r\nbetween actors is near-instant. **Cache Size** sets how many models\r\nare held at once — increase it if you switch frequently, lower it\r\nto reduce RAM use.\r\n\r\n\r\n## Texture Compression\r\n\r\nEnabling *Compress Textures* converts textures to a GPU-compressed\r\nformat on load. This reduces VRAM significantly for complex models\r\nbut may introduce minor quality loss on some materials.\r\n\r\n\r\n## Transition\r\n\r\nControls transition effects when adding, removing or replacing actor\r\nmodels. \r\n\r\n\r\n## Auto Actor Change\r\n\r\nWhen multiple models are in cache, the value of *Auto Actor Change* \r\nwill automatically switch between them at runtime. \r\n\r\nWith the auto update enabled for this value you can achieve automatic \r\nactor switching from music progress or any other data source you choose.)",
+    "zh-TW": "(Settings that control how actor models are loaded and replaced.\r\n\r\n\r\n## Caching\r\n\r\nModels are kept in an in-memory cache after first load so switching\r\nbetween actors is near-instant. **Cache Size** sets how many models\r\nare held at once — increase it if you switch frequently, lower it\r\nto reduce RAM use.\r\n\r\n\r\n## Texture Compression\r\n\r\nEnabling *Compress Textures* converts textures to a GPU-compressed\r\nformat on load. This reduces VRAM significantly for complex models\r\nbut may introduce minor quality loss on some materials.\r\n\r\n\r\n## Transition\r\n\r\nControls transition effects when adding, removing or replacing actor\r\nmodels. \r\n\r\n\r\n## Auto Actor Change\r\n\r\nWhen multiple models are in cache, the value of *Auto Actor Change* \r\nwill automatically switch between them at runtime. \r\n\r\nWith the auto update enabled for this value you can achieve automatic \r\nactor switching from music progress or any other data source you choose.)",
+    "ko": "(Settings that control how actor models are loaded and replaced.\r\n\r\n\r\n## Caching\r\n\r\nModels are kept in an in-memory cache after first load so switching\r\nbetween actors is near-instant. **Cache Size** sets how many models\r\nare held at once — increase it if you switch frequently, lower it\r\nto reduce RAM use.\r\n\r\n\r\n## Texture Compression\r\n\r\nEnabling *Compress Textures* converts textures to a GPU-compressed\r\nformat on load. This reduces VRAM significantly for complex models\r\nbut may introduce minor quality loss on some materials.\r\n\r\n\r\n## Transition\r\n\r\nControls transition effects when adding, removing or replacing actor\r\nmodels. \r\n\r\n\r\n## Auto Actor Change\r\n\r\nWhen multiple models are in cache, the value of *Auto Actor Change* \r\nwill automatically switch between them at runtime. \r\n\r\nWith the auto update enabled for this value you can achieve automatic \r\nactor switching from music progress or any other data source you choose.)",
+    "zh-CN": "(Settings that control how actor models are loaded and replaced.\r\n\r\n\r\n## Caching\r\n\r\nModels are kept in an in-memory cache after first load so switching\r\nbetween actors is near-instant. **Cache Size** sets how many models\r\nare held at once — increase it if you switch frequently, lower it\r\nto reduce RAM use.\r\n\r\n\r\n## Texture Compression\r\n\r\nEnabling *Compress Textures* converts textures to a GPU-compressed\r\nformat on load. This reduces VRAM significantly for complex models\r\nbut may introduce minor quality loss on some materials.\r\n\r\n\r\n## Transition\r\n\r\nControls transition effects when adding, removing or replacing actor\r\nmodels. \r\n\r\n\r\n## Auto Actor Change\r\n\r\nWhen multiple models are in cache, the value of *Auto Actor Change* \r\nwill automatically switch between them at runtime. \r\n\r\nWith the auto update enabled for this value you can achieve automatic \r\nactor switching from music progress or any other data source you choose.)"
+  },
   "values": [
     {
       "name": "Cache Size",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 20,
       "options": null,
-      "description": "How many actor models to keep in cache"
+      "description": "How many actor models to keep in cache",
+      "descriptions": {
+        "ja": "キャッシュに保持するアクターモデルの数",
+        "zh-TW": "緩存中要保留多少個角色模型",
+        "ko": "캐시에 유지할 액터 모델 수",
+        "zh-CN": "保留在缓存中的角色模型数量"
+      }
     },
     {
       "name": "Retain Options",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Automatically applies the settings from the outgoing actor to the incoming actor when replacing actors."
+      "description": "Automatically applies the settings from the outgoing actor to the incoming actor when replacing actors.",
+      "descriptions": {
+        "ja": "アクターを置き換える際、前のアクターの設定を自動的に次のアクターに適用します。",
+        "zh-TW": "在替換角色時，自動將發送角色（Outgoing actor）的設定應用到接收角色（Incoming actor）。",
+        "ko": "액터를 교체할 때 나가는 액터의 설정을 들어오는 액터에 자동으로 적용합니다.",
+        "zh-CN": "在替换角色时，自动将离开角色的设置应用于进入的角色。"
+      }
     },
     {
       "name": "Compress Textures",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Compress textures to reduce VRAM use"
+      "description": "Compress textures to reduce VRAM use",
+      "descriptions": {
+        "ja": "VRAM使用量を削減するためにテクスチャを圧縮",
+        "zh-TW": "壓縮紋理以減少VRAM使用量",
+        "ko": "VRAM 사용량을 줄이기 위해 텍스처 압축",
+        "zh-CN": "压缩纹理以减少 VRAM 使用量"
+      }
     },
     {
       "name": "Transition Effect",
@@ -73,6 +97,12 @@
       "max": 1,
       "options": null,
       "description": "Reusable transition effect applied when actors or other optional\r\nmeshes are added, removed, or replaced. The effect dissolves the\r\nmesh along a moving edge with optional particles, color, and\r\nglow — a single configuration drives both the shader-side burn\r\nand the VFX spawn.\r\n\r\n\r\n## Edge Shape\r\n\r\n**Direction** picks whether the edge sweeps *Up* or *Down* the\r\nmesh. **V Shape** bends the edge from a flat horizontal line\r\n(0) into an angled V — useful for less mechanical-looking\r\ndissolves. **Transition Mode** selects the pattern that breaks\r\nup the edge: *Cells* for a chunky cellular look, *Mosaic* for\r\nsquare tiling, *Noise* for a soft organic dissolve. **Scale**\r\nresizes that pattern (logarithmic) and **Width** widens the\r\nband the dissolve spans, from a sharp line to a diffuse fade.\r\n\r\n\r\n## Color and Glow\r\n\r\n**Color** is the burn color drawn at the leading edge of the\r\ndissolve. **Glow** boosts that edge to an emissive intensity\r\nso it reads as a hot burn rather than a tint. **Blend**\r\ncontrols how much that burn color overrides the mesh's own\r\ncolor in the transition band — drop it to keep the original\r\nmaterial visible through the effect.\r\n\r\n\r\n## Duration and Particles\r\n\r\n**Transition Duration** is an on/off float — toggle it on to\r\nuse a custom duration, off to fall back to the system default.\r\nOn Quest builds the transition is force-disabled regardless.\r\n**Particle Effect** sets the spawn rate (logarithmic — 0\r\ndisables particles entirely) and **Particle Duration** sets\r\nhow long they live. If particle duration exceeds the\r\ntransition duration, the transition is stretched to match so\r\nparticles do not get cut off mid-air.",
+      "descriptions": {
+        "ja": "(Reusable transition effect applied when actors or other optional\r\nmeshes are added, removed, or replaced. The effect dissolves the\r\nmesh along a moving edge with optional particles, color, and\r\nglow — a single configuration drives both the shader-side burn\r\nand the VFX spawn.\r\n\r\n\r\n## Edge Shape\r\n\r\n**Direction** picks whether the edge sweeps *Up* or *Down* the\r\nmesh. **V Shape** bends the edge from a flat horizontal line\r\n(0) into an angled V — useful for less mechanical-looking\r\ndissolves. **Transition Mode** selects the pattern that breaks\r\nup the edge: *Cells* for a chunky cellular look, *Mosaic* for\r\nsquare tiling, *Noise* for a soft organic dissolve. **Scale**\r\nresizes that pattern (logarithmic) and **Width** widens the\r\nband the dissolve spans, from a sharp line to a diffuse fade.\r\n\r\n\r\n## Color and Glow\r\n\r\n**Color** is the burn color drawn at the leading edge of the\r\ndissolve. **Glow** boosts that edge to an emissive intensity\r\nso it reads as a hot burn rather than a tint. **Blend**\r\ncontrols how much that burn color overrides the mesh's own\r\ncolor in the transition band — drop it to keep the original\r\nmaterial visible through the effect.\r\n\r\n\r\n## Duration and Particles\r\n\r\n**Transition Duration** is an on/off float — toggle it on to\r\nuse a custom duration, off to fall back to the system default.\r\nOn Quest builds the transition is force-disabled regardless.\r\n**Particle Effect** sets the spawn rate (logarithmic — 0\r\ndisables particles entirely) and **Particle Duration** sets\r\nhow long they live. If particle duration exceeds the\r\ntransition duration, the transition is stretched to match so\r\nparticles do not get cut off mid-air.)",
+        "zh-TW": "(Reusable transition effect applied when actors or other optional\r\nmeshes are added, removed, or replaced. The effect dissolves the\r\nmesh along a moving edge with optional particles, color, and\r\nglow — a single configuration drives both the shader-side burn\r\nand the VFX spawn.\r\n\r\n\r\n## Edge Shape\r\n\r\n**Direction** picks whether the edge sweeps *Up* or *Down* the\r\nmesh. **V Shape** bends the edge from a flat horizontal line\r\n(0) into an angled V — useful for less mechanical-looking\r\ndissolves. **Transition Mode** selects the pattern that breaks\r\nup the edge: *Cells* for a chunky cellular look, *Mosaic* for\r\nsquare tiling, *Noise* for a soft organic dissolve. **Scale**\r\nresizes that pattern (logarithmic) and **Width** widens the\r\nband the dissolve spans, from a sharp line to a diffuse fade.\r\n\r\n\r\n## Color and Glow\r\n\r\n**Color** is the burn color drawn at the leading edge of the\r\ndissolve. **Glow** boosts that edge to an emissive intensity\r\nso it reads as a hot burn rather than a tint. **Blend**\r\ncontrols how much that burn color overrides the mesh's own\r\ncolor in the transition band — drop it to keep the original\r\nmaterial visible through the effect.\r\n\r\n\r\n## Duration and Particles\r\n\r\n**Transition Duration** is an on/off float — toggle it on to\r\nuse a custom duration, off to fall back to the system default.\r\nOn Quest builds the transition is force-disabled regardless.\r\n**Particle Effect** sets the spawn rate (logarithmic — 0\r\ndisables particles entirely) and **Particle Duration** sets\r\nhow long they live. If particle duration exceeds the\r\ntransition duration, the transition is stretched to match so\r\nparticles do not get cut off mid-air.)",
+        "ko": "(Reusable transition effect applied when actors or other optional\r\nmeshes are added, removed, or replaced. The effect dissolves the\r\nmesh along a moving edge with optional particles, color, and\r\nglow — a single configuration drives both the shader-side burn\r\nand the VFX spawn.\r\n\r\n\r\n## Edge Shape\r\n\r\n**Direction** picks whether the edge sweeps *Up* or *Down* the\r\nmesh. **V Shape** bends the edge from a flat horizontal line\r\n(0) into an angled V — useful for less mechanical-looking\r\ndissolves. **Transition Mode** selects the pattern that breaks\r\nup the edge: *Cells* for a chunky cellular look, *Mosaic* for\r\nsquare tiling, *Noise* for a soft organic dissolve. **Scale**\r\nresizes that pattern (logarithmic) and **Width** widens the\r\nband the dissolve spans, from a sharp line to a diffuse fade.\r\n\r\n\r\n## Color and Glow\r\n\r\n**Color** is the burn color drawn at the leading edge of the\r\ndissolve. **Glow** boosts that edge to an emissive intensity\r\nso it reads as a hot burn rather than a tint. **Blend**\r\ncontrols how much that burn color overrides the mesh's own\r\ncolor in the transition band — drop it to keep the original\r\nmaterial visible through the effect.\r\n\r\n\r\n## Duration and Particles\r\n\r\n**Transition Duration** is an on/off float — toggle it on to\r\nuse a custom duration, off to fall back to the system default.\r\nOn Quest builds the transition is force-disabled regardless.\r\n**Particle Effect** sets the spawn rate (logarithmic — 0\r\ndisables particles entirely) and **Particle Duration** sets\r\nhow long they live. If particle duration exceeds the\r\ntransition duration, the transition is stretched to match so\r\nparticles do not get cut off mid-air.)",
+        "zh-CN": "(Reusable transition effect applied when actors or other optional\r\nmeshes are added, removed, or replaced. The effect dissolves the\r\nmesh along a moving edge with optional particles, color, and\r\nglow — a single configuration drives both the shader-side burn\r\nand the VFX spawn.\r\n\r\n\r\n## Edge Shape\r\n\r\n**Direction** picks whether the edge sweeps *Up* or *Down* the\r\nmesh. **V Shape** bends the edge from a flat horizontal line\r\n(0) into an angled V — useful for less mechanical-looking\r\ndissolves. **Transition Mode** selects the pattern that breaks\r\nup the edge: *Cells* for a chunky cellular look, *Mosaic* for\r\nsquare tiling, *Noise* for a soft organic dissolve. **Scale**\r\nresizes that pattern (logarithmic) and **Width** widens the\r\nband the dissolve spans, from a sharp line to a diffuse fade.\r\n\r\n\r\n## Color and Glow\r\n\r\n**Color** is the burn color drawn at the leading edge of the\r\ndissolve. **Glow** boosts that edge to an emissive intensity\r\nso it reads as a hot burn rather than a tint. **Blend**\r\ncontrols how much that burn color overrides the mesh's own\r\ncolor in the transition band — drop it to keep the original\r\nmaterial visible through the effect.\r\n\r\n\r\n## Duration and Particles\r\n\r\n**Transition Duration** is an on/off float — toggle it on to\r\nuse a custom duration, off to fall back to the system default.\r\nOn Quest builds the transition is force-disabled regardless.\r\n**Particle Effect** sets the spawn rate (logarithmic — 0\r\ndisables particles entirely) and **Particle Duration** sets\r\nhow long they live. If particle duration exceeds the\r\ntransition duration, the transition is stretched to match so\r\nparticles do not get cut off mid-air.)"
+      },
       "values": [
         {
           "name": "Direction",
@@ -88,7 +118,13 @@
           "min": 0,
           "max": 1,
           "options": ["Down", "Up"],
-          "description": "The direction of the animation."
+          "description": "The direction of the animation.",
+          "descriptions": {
+            "ja": "アニメーションの方向。",
+            "zh-TW": "動畫的方向。",
+            "ko": "애니메이션 방향.",
+            "zh-CN": "动画的方向。"
+          }
         },
         {
           "name": "V Shape",
@@ -104,7 +140,13 @@
           "min": 0,
           "max": 5,
           "options": null,
-          "description": "Controls the angle of the edge, 0 is flat."
+          "description": "Controls the angle of the edge, 0 is flat.",
+          "descriptions": {
+            "ja": "エッジの角度を制御します。0は平らです。",
+            "zh-TW": "控制邊緣的角度，0 為平坦。",
+            "ko": "가장자리의 각도를 제어하며, 0은 평평합니다.",
+            "zh-CN": "控制边缘角度，0 为平直。"
+          }
         },
         {
           "name": "Transition Mode",
@@ -120,7 +162,13 @@
           "min": 0,
           "max": 2,
           "options": ["Cells", "Mosaic", "Noise"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Scale",
@@ -136,7 +184,13 @@
           "min": -3,
           "max": 3,
           "options": null,
-          "description": "Scale of the pattern."
+          "description": "Scale of the pattern.",
+          "descriptions": {
+            "ja": "パターンのスケール。",
+            "zh-TW": "圖案的比例。",
+            "ko": "패턴 크기.",
+            "zh-CN": "图案缩放。"
+          }
         },
         {
           "name": "Width",
@@ -152,7 +206,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "The size of the transition area."
+          "description": "The size of the transition area.",
+          "descriptions": {
+            "ja": "トランジション領域のサイズ。",
+            "zh-TW": "過渡區域的大小。",
+            "ko": "전환 영역의 크기.",
+            "zh-CN": "过渡区域的大小。"
+          }
         },
         {
           "name": "Color",
@@ -169,6 +229,12 @@
           "max": 1,
           "options": null,
           "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
           "values": [
             {
               "name": "Color Mode",
@@ -184,7 +250,13 @@
               "min": 0,
               "max": 1,
               "options": ["RGB", "HSV"],
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Hue",
@@ -200,7 +272,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Satuation",
@@ -216,7 +294,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Brightness",
@@ -232,7 +316,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Red",
@@ -248,7 +338,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Green",
@@ -264,7 +360,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             },
             {
               "name": "Blue",
@@ -280,7 +382,13 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
             }
           ]
         },
@@ -298,7 +406,13 @@
           "min": 0,
           "max": 10,
           "options": null,
-          "description": "Brightness of the burn effect."
+          "description": "Brightness of the burn effect.",
+          "descriptions": {
+            "ja": "バーンエフェクトの明るさ。",
+            "zh-TW": "灼傷效果的亮度。",
+            "ko": "번 효과의 밝기.",
+            "zh-CN": "烧灼效果的亮度。"
+          }
         },
         {
           "name": "Blend",
@@ -314,7 +428,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Blend between the original color and the burn color. "
+          "description": "Blend between the original color and the burn color. ",
+          "descriptions": {
+            "ja": "(Blend between the original color and the burn color. )",
+            "zh-TW": "(Blend between the original color and the burn color. )",
+            "ko": "(Blend between the original color and the burn color. )",
+            "zh-CN": "(Blend between the original color and the burn color. )"
+          }
         },
         {
           "name": "Transition Duration",
@@ -330,7 +450,13 @@
           "min": 0,
           "max": 5,
           "options": null,
-          "description": "The duration of the animation."
+          "description": "The duration of the animation.",
+          "descriptions": {
+            "ja": "アニメーションの持続時間。",
+            "zh-TW": "動畫的持續時間。",
+            "ko": "애니메이션 지속 시간.",
+            "zh-CN": "动画持续时间。"
+          }
         },
         {
           "name": "Particle Effect",
@@ -346,7 +472,13 @@
           "min": 0,
           "max": 10,
           "options": null,
-          "description": "Controls the amount of particles."
+          "description": "Controls the amount of particles.",
+          "descriptions": {
+            "ja": "パーティクルの量を制御します。",
+            "zh-TW": "控制粒子數量。",
+            "ko": "파티클 양을 제어합니다.",
+            "zh-CN": "控制粒子数量。"
+          }
         },
         {
           "name": "Particle Duration",
@@ -362,7 +494,13 @@
           "min": 0,
           "max": 5,
           "options": null,
-          "description": "Controls the lifetime of the particles."
+          "description": "Controls the lifetime of the particles.",
+          "descriptions": {
+            "ja": "パーティクルの寿命を制御します。",
+            "zh-TW": "控制粒子生命週期。",
+            "ko": "파티클의 수명을 제어합니다.",
+            "zh-CN": "控制粒子生命周期。"
+          }
         }
       ]
     },
@@ -380,7 +518,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Automatically switch between actors in the cache based on the value"
+      "description": "Automatically switch between actors in the cache based on the value",
+      "descriptions": {
+        "ja": "値に基づいてキャッシュ内のアクターを自動的に切り替え",
+        "zh-TW": "根據數值自動在緩存中的角色之間切換",
+        "ko": "값을 기반으로 캐시 내 액터 간에 자동으로 전환합니다.",
+        "zh-CN": "根据值自动在缓存中的角色间切换。"
+      }
     }
   ]
 }

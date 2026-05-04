@@ -9,6 +9,12 @@
     "zh-CN": "[长镜头]"
   },
   "description": "Long-take camera that moves randomly each beat while following the actor.\r\n\r\n## Movement\r\n\r\n**Rotate Range** limits how far left or right the camera can orbit around\r\nthe actor. Wider ranges create sweeping shots; narrower ranges keep the\r\ncamera more front-facing.\r\n\r\nThe **Curve** value controls the easing when the camera moves to a new\r\nrandom position each beat. Negative values start slow and speed up;\r\npositive values start fast and slow down; *0* gives linear motion.\r\n\r\n## Distance & Pitch\r\n\r\nSets the range for camera distance and vertical angle. The camera picks\r\na random position within these limits each beat.\r\n\r\n**Distance** controls how far the camera is from the target — lower values\r\nfor close-ups, higher for wider shots.\r\n\r\n**Pitch Angle** sets the vertical tilt range. Negative values look down\r\nat the actor; positive values look up.\r\n\r\n## Orientation\r\n\r\nEnable **Use Actor Orientation** to align the camera with the actor's\r\nfacing direction, so the camera stays relative to where the actor is\r\nlooking.\r\n\r\nEnable **Raise Focus When Close** to automatically move the focus point\r\nupward as the camera gets nearer, keeping the actor's head in frame\r\nfor close-up shots.\r\n\r\n**Prevent Below Floor** stops the camera from moving beneath the ground\r\nplane.",
+  "descriptions": {
+    "ja": "(Long-take camera that moves randomly each beat while following the actor.\r\n\r\n## Movement\r\n\r\n**Rotate Range** limits how far left or right the camera can orbit around\r\nthe actor. Wider ranges create sweeping shots; narrower ranges keep the\r\ncamera more front-facing.\r\n\r\nThe **Curve** value controls the easing when the camera moves to a new\r\nrandom position each beat. Negative values start slow and speed up;\r\npositive values start fast and slow down; *0* gives linear motion.\r\n\r\n## Distance & Pitch\r\n\r\nSets the range for camera distance and vertical angle. The camera picks\r\na random position within these limits each beat.\r\n\r\n**Distance** controls how far the camera is from the target — lower values\r\nfor close-ups, higher for wider shots.\r\n\r\n**Pitch Angle** sets the vertical tilt range. Negative values look down\r\nat the actor; positive values look up.\r\n\r\n## Orientation\r\n\r\nEnable **Use Actor Orientation** to align the camera with the actor's\r\nfacing direction, so the camera stays relative to where the actor is\r\nlooking.\r\n\r\nEnable **Raise Focus When Close** to automatically move the focus point\r\nupward as the camera gets nearer, keeping the actor's head in frame\r\nfor close-up shots.\r\n\r\n**Prevent Below Floor** stops the camera from moving beneath the ground\r\nplane.)",
+    "zh-TW": "(Long-take camera that moves randomly each beat while following the actor.\r\n\r\n## Movement\r\n\r\n**Rotate Range** limits how far left or right the camera can orbit around\r\nthe actor. Wider ranges create sweeping shots; narrower ranges keep the\r\ncamera more front-facing.\r\n\r\nThe **Curve** value controls the easing when the camera moves to a new\r\nrandom position each beat. Negative values start slow and speed up;\r\npositive values start fast and slow down; *0* gives linear motion.\r\n\r\n## Distance & Pitch\r\n\r\nSets the range for camera distance and vertical angle. The camera picks\r\na random position within these limits each beat.\r\n\r\n**Distance** controls how far the camera is from the target — lower values\r\nfor close-ups, higher for wider shots.\r\n\r\n**Pitch Angle** sets the vertical tilt range. Negative values look down\r\nat the actor; positive values look up.\r\n\r\n## Orientation\r\n\r\nEnable **Use Actor Orientation** to align the camera with the actor's\r\nfacing direction, so the camera stays relative to where the actor is\r\nlooking.\r\n\r\nEnable **Raise Focus When Close** to automatically move the focus point\r\nupward as the camera gets nearer, keeping the actor's head in frame\r\nfor close-up shots.\r\n\r\n**Prevent Below Floor** stops the camera from moving beneath the ground\r\nplane.)",
+    "ko": "(Long-take camera that moves randomly each beat while following the actor.\r\n\r\n## Movement\r\n\r\n**Rotate Range** limits how far left or right the camera can orbit around\r\nthe actor. Wider ranges create sweeping shots; narrower ranges keep the\r\ncamera more front-facing.\r\n\r\nThe **Curve** value controls the easing when the camera moves to a new\r\nrandom position each beat. Negative values start slow and speed up;\r\npositive values start fast and slow down; *0* gives linear motion.\r\n\r\n## Distance & Pitch\r\n\r\nSets the range for camera distance and vertical angle. The camera picks\r\na random position within these limits each beat.\r\n\r\n**Distance** controls how far the camera is from the target — lower values\r\nfor close-ups, higher for wider shots.\r\n\r\n**Pitch Angle** sets the vertical tilt range. Negative values look down\r\nat the actor; positive values look up.\r\n\r\n## Orientation\r\n\r\nEnable **Use Actor Orientation** to align the camera with the actor's\r\nfacing direction, so the camera stays relative to where the actor is\r\nlooking.\r\n\r\nEnable **Raise Focus When Close** to automatically move the focus point\r\nupward as the camera gets nearer, keeping the actor's head in frame\r\nfor close-up shots.\r\n\r\n**Prevent Below Floor** stops the camera from moving beneath the ground\r\nplane.)",
+    "zh-CN": "(Long-take camera that moves randomly each beat while following the actor.\r\n\r\n## Movement\r\n\r\n**Rotate Range** limits how far left or right the camera can orbit around\r\nthe actor. Wider ranges create sweeping shots; narrower ranges keep the\r\ncamera more front-facing.\r\n\r\nThe **Curve** value controls the easing when the camera moves to a new\r\nrandom position each beat. Negative values start slow and speed up;\r\npositive values start fast and slow down; *0* gives linear motion.\r\n\r\n## Distance & Pitch\r\n\r\nSets the range for camera distance and vertical angle. The camera picks\r\na random position within these limits each beat.\r\n\r\n**Distance** controls how far the camera is from the target — lower values\r\nfor close-ups, higher for wider shots.\r\n\r\n**Pitch Angle** sets the vertical tilt range. Negative values look down\r\nat the actor; positive values look up.\r\n\r\n## Orientation\r\n\r\nEnable **Use Actor Orientation** to align the camera with the actor's\r\nfacing direction, so the camera stays relative to where the actor is\r\nlooking.\r\n\r\nEnable **Raise Focus When Close** to automatically move the focus point\r\nupward as the camera gets nearer, keeping the actor's head in frame\r\nfor close-up shots.\r\n\r\n**Prevent Below Floor** stops the camera from moving beneath the ground\r\nplane.)"
+  },
   "values": [
     {
       "name": "Target Select",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 5,
       "options": ["Auto", "Selected", "Group", "Rotate", "Rotate + Group", "Stage Center"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Tracking Mode",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 2,
       "options": ["Center", "Head", "Chest"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Target Smoothing",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 2,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Prediction",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 2,
       "options": null,
-      "description": "Predict position of the target to reduce lag caused by smoothing"
+      "description": "Predict position of the target to reduce lag caused by smoothing",
+      "descriptions": {
+        "ja": "平滑化による遅延を減らすためのターゲットの予測位置",
+        "zh-TW": "預測目標位置以減少平滑度造成的延遲",
+        "ko": "스무딩으로 인한 지연을 줄이기 위해 대상의 위치를 예측합니다",
+        "zh-CN": "预测目标位置以减少平滑处理引起的延迟"
+      }
     },
     {
       "name": "FOV",
@@ -88,7 +118,13 @@
       "min": 5,
       "max": 120,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Beat Cycle",
@@ -104,7 +140,13 @@
       "min": 1,
       "max": 16,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Rotate Range",
@@ -120,7 +162,13 @@
       "min": 0,
       "max": 180,
       "options": null,
-      "description": "Horizontal rotation range."
+      "description": "Horizontal rotation range.",
+      "descriptions": {
+        "ja": "水平回転範囲。",
+        "zh-TW": "水平旋轉範圍。",
+        "ko": "수평 회전 범위.",
+        "zh-CN": "水平旋转范围。"
+      }
     },
     {
       "name": "Distance",
@@ -136,7 +184,13 @@
       "min": 0.2,
       "max": 5,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Pitch Angle",
@@ -152,7 +206,13 @@
       "min": -90,
       "max": 90,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Curve",
@@ -168,7 +228,13 @@
       "min": -1,
       "max": 1,
       "options": null,
-      "description": "The ease curve used when changing motion"
+      "description": "The ease curve used when changing motion",
+      "descriptions": {
+        "ja": "モーション変更時に使用されるイーズカーブ",
+        "zh-TW": "變更運動時使用的平滑曲線",
+        "ko": "모션 변경 시 사용되는 이징 곡선",
+        "zh-CN": "更改运动时使用的缓动曲线。"
+      }
     },
     {
       "name": "Prevent Below Floor",
@@ -184,7 +250,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Use Actor Orientation",
@@ -200,7 +272,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Raise Focus When Close",
@@ -216,7 +294,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Move focus position up when distance gets smaller"
+      "description": "Move focus position up when distance gets smaller",
+      "descriptions": {
+        "ja": "距離が小さくなるにつれて、フォーカス位置が上がります。",
+        "zh-TW": "當距離變小時，向上移動焦點位置",
+        "ko": "거리가 줄어들 때 포커스 위치 위로 이동",
+        "zh-CN": "距离变小时，向上移动焦点位置。"
+      }
     }
   ]
 }

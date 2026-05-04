@@ -9,6 +9,12 @@
     "zh-CN": "栩栩如生的动作"
   },
   "description": "Adds idle behaviors that make the actor feel alive when no\r\nanimation is playing: breathing, blinking, micro-movements,\r\nand eye contact.\r\n\r\n\r\n## Eye Contact\r\n\r\nWhen enabled, the actor looks at cameras, other actors, or\r\nbody parts within a configurable visual angle. **Look At\r\nCamera**, **Look At Peers**, and **Look At Body** set the\r\nrelative priority of each target type. **Eye Contact Head\r\nTurn** controls how much of the gaze is done by rotating the\r\nhead versus just the eyes (real humans turn their head about\r\n70% of the way).\r\n\r\n**Cartoon Eyes** reduces eye rotation amplitude for models\r\nwith oversized anime eyes so they don't roll out of the\r\nsockets; **Cartoon Eyes Limit** sets the reduction amount.\r\n**Stare Mode** locks onto the closest target instead of\r\nshifting gaze naturally. **Smile Mouth** and **Smile\r\nEyebrow** add subtle expression while making eye contact.\r\n\r\n\r\n## Shape Morph Eye Control\r\n\r\nAn alternative to bone-based eye rotation that uses blend\r\nshapes (morphs) instead. Enable the toggle and assign\r\nmorphs for each gaze direction (Left Eye Left, Left Eye\r\nRight, etc.). **Left Right Range** and **Up Down Range**\r\nset the blend shape activation angles.\r\n\r\n\r\n## Breathing\r\n\r\nSimulates chest expansion during breathing by subtly\r\nrotating the torso and neck bones. **Breath Rate** controls\r\nthe speed of the cycle.\r\n\r\n\r\n## Micro Move\r\n\r\nAdds tiny random rotations to the head and torso to prevent\r\nthe actor from looking completely frozen. **Extent** scales\r\nthe amplitude; **Cycle** sets the oscillation period.\r\n\r\n\r\n## Blink\r\n\r\nRandom blinking at 2–10 second intervals. **Blink Duration**\r\ncontrols how long each blink takes.",
+  "descriptions": {
+    "ja": "(Adds idle behaviors that make the actor feel alive when no\r\nanimation is playing: breathing, blinking, micro-movements,\r\nand eye contact.\r\n\r\n\r\n## Eye Contact\r\n\r\nWhen enabled, the actor looks at cameras, other actors, or\r\nbody parts within a configurable visual angle. **Look At\r\nCamera**, **Look At Peers**, and **Look At Body** set the\r\nrelative priority of each target type. **Eye Contact Head\r\nTurn** controls how much of the gaze is done by rotating the\r\nhead versus just the eyes (real humans turn their head about\r\n70% of the way).\r\n\r\n**Cartoon Eyes** reduces eye rotation amplitude for models\r\nwith oversized anime eyes so they don't roll out of the\r\nsockets; **Cartoon Eyes Limit** sets the reduction amount.\r\n**Stare Mode** locks onto the closest target instead of\r\nshifting gaze naturally. **Smile Mouth** and **Smile\r\nEyebrow** add subtle expression while making eye contact.\r\n\r\n\r\n## Shape Morph Eye Control\r\n\r\nAn alternative to bone-based eye rotation that uses blend\r\nshapes (morphs) instead. Enable the toggle and assign\r\nmorphs for each gaze direction (Left Eye Left, Left Eye\r\nRight, etc.). **Left Right Range** and **Up Down Range**\r\nset the blend shape activation angles.\r\n\r\n\r\n## Breathing\r\n\r\nSimulates chest expansion during breathing by subtly\r\nrotating the torso and neck bones. **Breath Rate** controls\r\nthe speed of the cycle.\r\n\r\n\r\n## Micro Move\r\n\r\nAdds tiny random rotations to the head and torso to prevent\r\nthe actor from looking completely frozen. **Extent** scales\r\nthe amplitude; **Cycle** sets the oscillation period.\r\n\r\n\r\n## Blink\r\n\r\nRandom blinking at 2–10 second intervals. **Blink Duration**\r\ncontrols how long each blink takes.)",
+    "zh-TW": "(Adds idle behaviors that make the actor feel alive when no\r\nanimation is playing: breathing, blinking, micro-movements,\r\nand eye contact.\r\n\r\n\r\n## Eye Contact\r\n\r\nWhen enabled, the actor looks at cameras, other actors, or\r\nbody parts within a configurable visual angle. **Look At\r\nCamera**, **Look At Peers**, and **Look At Body** set the\r\nrelative priority of each target type. **Eye Contact Head\r\nTurn** controls how much of the gaze is done by rotating the\r\nhead versus just the eyes (real humans turn their head about\r\n70% of the way).\r\n\r\n**Cartoon Eyes** reduces eye rotation amplitude for models\r\nwith oversized anime eyes so they don't roll out of the\r\nsockets; **Cartoon Eyes Limit** sets the reduction amount.\r\n**Stare Mode** locks onto the closest target instead of\r\nshifting gaze naturally. **Smile Mouth** and **Smile\r\nEyebrow** add subtle expression while making eye contact.\r\n\r\n\r\n## Shape Morph Eye Control\r\n\r\nAn alternative to bone-based eye rotation that uses blend\r\nshapes (morphs) instead. Enable the toggle and assign\r\nmorphs for each gaze direction (Left Eye Left, Left Eye\r\nRight, etc.). **Left Right Range** and **Up Down Range**\r\nset the blend shape activation angles.\r\n\r\n\r\n## Breathing\r\n\r\nSimulates chest expansion during breathing by subtly\r\nrotating the torso and neck bones. **Breath Rate** controls\r\nthe speed of the cycle.\r\n\r\n\r\n## Micro Move\r\n\r\nAdds tiny random rotations to the head and torso to prevent\r\nthe actor from looking completely frozen. **Extent** scales\r\nthe amplitude; **Cycle** sets the oscillation period.\r\n\r\n\r\n## Blink\r\n\r\nRandom blinking at 2–10 second intervals. **Blink Duration**\r\ncontrols how long each blink takes.)",
+    "ko": "(Adds idle behaviors that make the actor feel alive when no\r\nanimation is playing: breathing, blinking, micro-movements,\r\nand eye contact.\r\n\r\n\r\n## Eye Contact\r\n\r\nWhen enabled, the actor looks at cameras, other actors, or\r\nbody parts within a configurable visual angle. **Look At\r\nCamera**, **Look At Peers**, and **Look At Body** set the\r\nrelative priority of each target type. **Eye Contact Head\r\nTurn** controls how much of the gaze is done by rotating the\r\nhead versus just the eyes (real humans turn their head about\r\n70% of the way).\r\n\r\n**Cartoon Eyes** reduces eye rotation amplitude for models\r\nwith oversized anime eyes so they don't roll out of the\r\nsockets; **Cartoon Eyes Limit** sets the reduction amount.\r\n**Stare Mode** locks onto the closest target instead of\r\nshifting gaze naturally. **Smile Mouth** and **Smile\r\nEyebrow** add subtle expression while making eye contact.\r\n\r\n\r\n## Shape Morph Eye Control\r\n\r\nAn alternative to bone-based eye rotation that uses blend\r\nshapes (morphs) instead. Enable the toggle and assign\r\nmorphs for each gaze direction (Left Eye Left, Left Eye\r\nRight, etc.). **Left Right Range** and **Up Down Range**\r\nset the blend shape activation angles.\r\n\r\n\r\n## Breathing\r\n\r\nSimulates chest expansion during breathing by subtly\r\nrotating the torso and neck bones. **Breath Rate** controls\r\nthe speed of the cycle.\r\n\r\n\r\n## Micro Move\r\n\r\nAdds tiny random rotations to the head and torso to prevent\r\nthe actor from looking completely frozen. **Extent** scales\r\nthe amplitude; **Cycle** sets the oscillation period.\r\n\r\n\r\n## Blink\r\n\r\nRandom blinking at 2–10 second intervals. **Blink Duration**\r\ncontrols how long each blink takes.)",
+    "zh-CN": "(Adds idle behaviors that make the actor feel alive when no\r\nanimation is playing: breathing, blinking, micro-movements,\r\nand eye contact.\r\n\r\n\r\n## Eye Contact\r\n\r\nWhen enabled, the actor looks at cameras, other actors, or\r\nbody parts within a configurable visual angle. **Look At\r\nCamera**, **Look At Peers**, and **Look At Body** set the\r\nrelative priority of each target type. **Eye Contact Head\r\nTurn** controls how much of the gaze is done by rotating the\r\nhead versus just the eyes (real humans turn their head about\r\n70% of the way).\r\n\r\n**Cartoon Eyes** reduces eye rotation amplitude for models\r\nwith oversized anime eyes so they don't roll out of the\r\nsockets; **Cartoon Eyes Limit** sets the reduction amount.\r\n**Stare Mode** locks onto the closest target instead of\r\nshifting gaze naturally. **Smile Mouth** and **Smile\r\nEyebrow** add subtle expression while making eye contact.\r\n\r\n\r\n## Shape Morph Eye Control\r\n\r\nAn alternative to bone-based eye rotation that uses blend\r\nshapes (morphs) instead. Enable the toggle and assign\r\nmorphs for each gaze direction (Left Eye Left, Left Eye\r\nRight, etc.). **Left Right Range** and **Up Down Range**\r\nset the blend shape activation angles.\r\n\r\n\r\n## Breathing\r\n\r\nSimulates chest expansion during breathing by subtly\r\nrotating the torso and neck bones. **Breath Rate** controls\r\nthe speed of the cycle.\r\n\r\n\r\n## Micro Move\r\n\r\nAdds tiny random rotations to the head and torso to prevent\r\nthe actor from looking completely frozen. **Extent** scales\r\nthe amplitude; **Cycle** sets the oscillation period.\r\n\r\n\r\n## Blink\r\n\r\nRandom blinking at 2–10 second intervals. **Blink Duration**\r\ncontrols how long each blink takes.)"
+  },
   "values": [
     {
       "name": "Eye Contact",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Enable eye contact, look at and turn head towards camera or other models when they are in visual range"
+      "description": "Enable eye contact, look at and turn head towards camera or other models when they are in visual range",
+      "descriptions": {
+        "ja": "視線範囲内のカメラまたは他のモデルにアイコンタクトし、頭を向けさせることを有効にする",
+        "zh-TW": "在可視範圍內，開啟眼神交流、注視並朝向攝影機或其他模型轉動頭部",
+        "ko": "시야 범위 내의 카메라나 다른 모델을 바라보고 고개를 돌려 눈맞춤을 활성화",
+        "zh-CN": "在视觉范围内，启用眼神交流，看向并转头朝向相机或其他模型"
+      }
     },
     {
       "name": "Stare Mode",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Constantly looking at the closest target in range."
+      "description": "Constantly looking at the closest target in range.",
+      "descriptions": {
+        "ja": "範囲内の最も近いターゲットを常に凝視する。",
+        "zh-TW": "始終注視範圍內最近的目標。",
+        "ko": "범위 내에서 가장 가까운 대상을 지속적으로 응시합니다.",
+        "zh-CN": "持续看向范围内最近的目标"
+      }
     },
     {
       "name": "Look At Camera",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Priority of cameras as gaze target"
+      "description": "Priority of cameras as gaze target",
+      "descriptions": {
+        "ja": "視線ターゲットとしてのカメラの優先度",
+        "zh-TW": "攝影機作為注視目標的優先級",
+        "ko": "시선 대상으로서 카메라의 우선순위",
+        "zh-CN": "相机作为注视目标的优先级"
+      }
     },
     {
       "name": "Look At Peers",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Priority of other models as gaze target"
+      "description": "Priority of other models as gaze target",
+      "descriptions": {
+        "ja": "視線ターゲットとしての他のモデルの優先度",
+        "zh-TW": "其他模型作為注視目標的優先級",
+        "ko": "시선 대상으로서 다른 모델의 우선순위",
+        "zh-CN": "其他模型作为注视目标的优先级"
+      }
     },
     {
       "name": "Look At Body",
@@ -88,7 +118,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Priority of certain body parts as gaze target"
+      "description": "Priority of certain body parts as gaze target",
+      "descriptions": {
+        "ja": "視線ターゲットとしての特定の体の部位の優先度",
+        "zh-TW": "身體特定部位作為注視目標的優先級",
+        "ko": "시선 대상으로서 특정 신체 부위의 우선순위",
+        "zh-CN": "特定身体部位作为注视目标的优先级"
+      }
     },
     {
       "name": "Eye Contact Angle",
@@ -104,7 +140,13 @@
       "min": 0,
       "max": 180,
       "options": null,
-      "description": "Angle of visual range, only objects within this angle can be gaze target"
+      "description": "Angle of visual range, only objects within this angle can be gaze target",
+      "descriptions": {
+        "ja": "視界の角度。この角度内にあるオブジェクトのみが視線ターゲットとなり得る。",
+        "zh-TW": "可視範圍的角度，只有此角度內的物體才能成為注視目標",
+        "ko": "시야 범위 각도. 이 각도 내에 있는 객체만 응시 대상이 될 수 있습니다.",
+        "zh-CN": "视觉范围角度，只有在此角度内的对象才能成为注视目标"
+      }
     },
     {
       "name": "Eye Contact Head Turn",
@@ -120,7 +162,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Ratio of head turn when looking at target"
+      "description": "Ratio of head turn when looking at target",
+      "descriptions": {
+        "ja": "ターゲットを見る際の頭の向きの比率",
+        "zh-TW": "注視目標時頭部轉動的比率",
+        "ko": "대상 응시 시 머리 회전 비율",
+        "zh-CN": "查看目标时的头部转动比例"
+      }
     },
     {
       "name": "Cartoon Eyes",
@@ -136,7 +184,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Reduce eye rotation, useful for models with big cartoon eyes"
+      "description": "Reduce eye rotation, useful for models with big cartoon eyes",
+      "descriptions": {
+        "ja": "目を回転させるのを減らす。大きなカートゥーン目を持つモデルに有用。",
+        "zh-TW": "減少眼部旋轉，對於有大卡通眼睛的模型很有用",
+        "ko": "눈 회전 감소. 큰 만화 눈 모델에 유용합니다.",
+        "zh-CN": "减少眼部旋转，适用于具有大卡通眼睛的模型"
+      }
     },
     {
       "name": "Cartoon Eyes Limit",
@@ -152,7 +206,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "How much rotation reduction in cartoon eyes mode"
+      "description": "How much rotation reduction in cartoon eyes mode",
+      "descriptions": {
+        "ja": "カートゥーン目モードでの回転の減少量",
+        "zh-TW": "卡通眼睛模式下的旋轉減少程度",
+        "ko": "만화 눈 모드에서 회전 감소 정도",
+        "zh-CN": "卡通眼睛模式下的旋转减少量"
+      }
     },
     {
       "name": "Smile Mouth",
@@ -168,7 +228,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Smile Eyebrow",
@@ -184,7 +250,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Blink",
@@ -200,7 +272,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Automatically blink eyes at random interval"
+      "description": "Automatically blink eyes at random interval",
+      "descriptions": {
+        "ja": "ランダムな間隔で自動的にまばたきを行う",
+        "zh-TW": "在隨機間隔自動眨眼",
+        "ko": "무작위 간격으로 자동으로 눈 깜빡임",
+        "zh-CN": "随机间隔自动眨眼"
+      }
     },
     {
       "name": "Blink Duration",
@@ -216,7 +294,13 @@
       "min": 0.05,
       "max": 0.95,
       "options": null,
-      "description": "Duration of each blink"
+      "description": "Duration of each blink",
+      "descriptions": {
+        "ja": "1回あたりのまばたきの持続時間",
+        "zh-TW": "每次眨眼持續時間",
+        "ko": "각 깜빡임의 지속 시간",
+        "zh-CN": "每次眨眼持续时间"
+      }
     },
     {
       "name": "Shape Morph Eye Control",
@@ -233,6 +317,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Left Eye Left",
@@ -248,7 +338,13 @@
           "min": 0,
           "max": 0,
           "options": ["None"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Left Eye Right",
@@ -264,7 +360,13 @@
           "min": 0,
           "max": 0,
           "options": ["None"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Left Eye Up",
@@ -280,7 +382,13 @@
           "min": 0,
           "max": 0,
           "options": ["None"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Left Eye Down",
@@ -296,7 +404,13 @@
           "min": 0,
           "max": 0,
           "options": ["None"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Right Eye Left",
@@ -312,7 +426,13 @@
           "min": 0,
           "max": 0,
           "options": ["None"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Right Eye Right",
@@ -328,7 +448,13 @@
           "min": 0,
           "max": 0,
           "options": ["None"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Right Eye Up",
@@ -344,7 +470,13 @@
           "min": 0,
           "max": 0,
           "options": ["None"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Right Eye Down",
@@ -360,7 +492,13 @@
           "min": 0,
           "max": 0,
           "options": ["None"],
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Left Right Range",
@@ -376,7 +514,13 @@
           "min": 15,
           "max": 60,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Up Down Range",
@@ -392,7 +536,13 @@
           "min": 15,
           "max": 45,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -410,7 +560,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Breathing motion"
+      "description": "Breathing motion",
+      "descriptions": {
+        "ja": "呼吸モーション",
+        "zh-TW": "呼吸動畫",
+        "ko": "호흡 동작",
+        "zh-CN": "呼吸运动"
+      }
     },
     {
       "name": "Breath Rate",
@@ -426,7 +582,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Micro Move",
@@ -442,7 +604,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Add micro movements"
+      "description": "Add micro movements",
+      "descriptions": {
+        "ja": "マイクロムーブメントの追加",
+        "zh-TW": "添加微動",
+        "ko": "미세 움직임 추가",
+        "zh-CN": "添加微动"
+      }
     },
     {
       "name": "Micro Move Extent",
@@ -458,7 +626,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Micro Move Cycle",
@@ -474,7 +648,13 @@
       "min": 1,
       "max": 10,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     }
   ]
 }

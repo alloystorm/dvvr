@@ -9,6 +9,12 @@
     "zh-CN": "[自由飞翔相机]"
   },
   "description": "A fully manual camera mode where you control position and\r\nrotation directly. Move freely through the scene, orbit around\r\na point, or lock on to an actor for tracking.\r\n\r\n\r\n## Movement\r\n\r\n**Movement Damping** smooths camera position changes — lower\r\nvalues make the camera more responsive, higher values add\r\ninertia for cinematic ease-in/out.\r\n\r\n**Use Orbit Move** switches from free-flight to orbit mode,\r\nwhere the camera rotates around a point 1.5 m in front of it\r\ninstead of translating freely. Useful for circling a subject.\r\n\r\n**Restrict Vertical Move** (VR platforms only) prevents\r\nunintentional height changes by snapping small vertical offsets\r\nback to ground level.\r\n\r\n\r\n## Lock On Target\r\n\r\nWhen **Lock On Target** is enabled the camera automatically\r\ntracks the selected actor. **Tracking Mode** chooses which\r\nbody part to follow (center, head, or chest). **Target\r\nSmoothing** and **Prediction** reduce lag and jitter in the\r\nfollow. **Auto Zoom** adjusts the field of view to keep the\r\ntarget at a consistent screen size, with **FOV Height At\r\nTarget** controlling the desired apparent height. **Camera\r\nShake** adds subtle handheld-style motion scaled by tracking\r\nlag. **Lock Rotation** makes the camera also follow the\r\ntarget's orientation.\r\n\r\n\r\n## Presets\r\n\r\nFour built-in presets cover common setups: *Freefly* (full\r\nmanual control), *Lock On Actor* (track without zoom), *Lock +\r\nZoom Fullbody*, and *Lock + Zoom Upper Body* (tighter framing\r\non the torso).",
+  "descriptions": {
+    "ja": "(A fully manual camera mode where you control position and\r\nrotation directly. Move freely through the scene, orbit around\r\na point, or lock on to an actor for tracking.\r\n\r\n\r\n## Movement\r\n\r\n**Movement Damping** smooths camera position changes — lower\r\nvalues make the camera more responsive, higher values add\r\ninertia for cinematic ease-in/out.\r\n\r\n**Use Orbit Move** switches from free-flight to orbit mode,\r\nwhere the camera rotates around a point 1.5 m in front of it\r\ninstead of translating freely. Useful for circling a subject.\r\n\r\n**Restrict Vertical Move** (VR platforms only) prevents\r\nunintentional height changes by snapping small vertical offsets\r\nback to ground level.\r\n\r\n\r\n## Lock On Target\r\n\r\nWhen **Lock On Target** is enabled the camera automatically\r\ntracks the selected actor. **Tracking Mode** chooses which\r\nbody part to follow (center, head, or chest). **Target\r\nSmoothing** and **Prediction** reduce lag and jitter in the\r\nfollow. **Auto Zoom** adjusts the field of view to keep the\r\ntarget at a consistent screen size, with **FOV Height At\r\nTarget** controlling the desired apparent height. **Camera\r\nShake** adds subtle handheld-style motion scaled by tracking\r\nlag. **Lock Rotation** makes the camera also follow the\r\ntarget's orientation.\r\n\r\n\r\n## Presets\r\n\r\nFour built-in presets cover common setups: *Freefly* (full\r\nmanual control), *Lock On Actor* (track without zoom), *Lock +\r\nZoom Fullbody*, and *Lock + Zoom Upper Body* (tighter framing\r\non the torso).)",
+    "zh-TW": "(A fully manual camera mode where you control position and\r\nrotation directly. Move freely through the scene, orbit around\r\na point, or lock on to an actor for tracking.\r\n\r\n\r\n## Movement\r\n\r\n**Movement Damping** smooths camera position changes — lower\r\nvalues make the camera more responsive, higher values add\r\ninertia for cinematic ease-in/out.\r\n\r\n**Use Orbit Move** switches from free-flight to orbit mode,\r\nwhere the camera rotates around a point 1.5 m in front of it\r\ninstead of translating freely. Useful for circling a subject.\r\n\r\n**Restrict Vertical Move** (VR platforms only) prevents\r\nunintentional height changes by snapping small vertical offsets\r\nback to ground level.\r\n\r\n\r\n## Lock On Target\r\n\r\nWhen **Lock On Target** is enabled the camera automatically\r\ntracks the selected actor. **Tracking Mode** chooses which\r\nbody part to follow (center, head, or chest). **Target\r\nSmoothing** and **Prediction** reduce lag and jitter in the\r\nfollow. **Auto Zoom** adjusts the field of view to keep the\r\ntarget at a consistent screen size, with **FOV Height At\r\nTarget** controlling the desired apparent height. **Camera\r\nShake** adds subtle handheld-style motion scaled by tracking\r\nlag. **Lock Rotation** makes the camera also follow the\r\ntarget's orientation.\r\n\r\n\r\n## Presets\r\n\r\nFour built-in presets cover common setups: *Freefly* (full\r\nmanual control), *Lock On Actor* (track without zoom), *Lock +\r\nZoom Fullbody*, and *Lock + Zoom Upper Body* (tighter framing\r\non the torso).)",
+    "ko": "(A fully manual camera mode where you control position and\r\nrotation directly. Move freely through the scene, orbit around\r\na point, or lock on to an actor for tracking.\r\n\r\n\r\n## Movement\r\n\r\n**Movement Damping** smooths camera position changes — lower\r\nvalues make the camera more responsive, higher values add\r\ninertia for cinematic ease-in/out.\r\n\r\n**Use Orbit Move** switches from free-flight to orbit mode,\r\nwhere the camera rotates around a point 1.5 m in front of it\r\ninstead of translating freely. Useful for circling a subject.\r\n\r\n**Restrict Vertical Move** (VR platforms only) prevents\r\nunintentional height changes by snapping small vertical offsets\r\nback to ground level.\r\n\r\n\r\n## Lock On Target\r\n\r\nWhen **Lock On Target** is enabled the camera automatically\r\ntracks the selected actor. **Tracking Mode** chooses which\r\nbody part to follow (center, head, or chest). **Target\r\nSmoothing** and **Prediction** reduce lag and jitter in the\r\nfollow. **Auto Zoom** adjusts the field of view to keep the\r\ntarget at a consistent screen size, with **FOV Height At\r\nTarget** controlling the desired apparent height. **Camera\r\nShake** adds subtle handheld-style motion scaled by tracking\r\nlag. **Lock Rotation** makes the camera also follow the\r\ntarget's orientation.\r\n\r\n\r\n## Presets\r\n\r\nFour built-in presets cover common setups: *Freefly* (full\r\nmanual control), *Lock On Actor* (track without zoom), *Lock +\r\nZoom Fullbody*, and *Lock + Zoom Upper Body* (tighter framing\r\non the torso).)",
+    "zh-CN": "(A fully manual camera mode where you control position and\r\nrotation directly. Move freely through the scene, orbit around\r\na point, or lock on to an actor for tracking.\r\n\r\n\r\n## Movement\r\n\r\n**Movement Damping** smooths camera position changes — lower\r\nvalues make the camera more responsive, higher values add\r\ninertia for cinematic ease-in/out.\r\n\r\n**Use Orbit Move** switches from free-flight to orbit mode,\r\nwhere the camera rotates around a point 1.5 m in front of it\r\ninstead of translating freely. Useful for circling a subject.\r\n\r\n**Restrict Vertical Move** (VR platforms only) prevents\r\nunintentional height changes by snapping small vertical offsets\r\nback to ground level.\r\n\r\n\r\n## Lock On Target\r\n\r\nWhen **Lock On Target** is enabled the camera automatically\r\ntracks the selected actor. **Tracking Mode** chooses which\r\nbody part to follow (center, head, or chest). **Target\r\nSmoothing** and **Prediction** reduce lag and jitter in the\r\nfollow. **Auto Zoom** adjusts the field of view to keep the\r\ntarget at a consistent screen size, with **FOV Height At\r\nTarget** controlling the desired apparent height. **Camera\r\nShake** adds subtle handheld-style motion scaled by tracking\r\nlag. **Lock Rotation** makes the camera also follow the\r\ntarget's orientation.\r\n\r\n\r\n## Presets\r\n\r\nFour built-in presets cover common setups: *Freefly* (full\r\nmanual control), *Lock On Actor* (track without zoom), *Lock +\r\nZoom Fullbody*, and *Lock + Zoom Upper Body* (tighter framing\r\non the torso).)"
+  },
   "values": [
     {
       "name": "Target Select",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 5,
       "options": ["Auto", "Selected", "Group", "Rotate", "Rotate + Group", "Stage Center"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Tracking Mode",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 2,
       "options": ["Center", "Head", "Chest"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Target Smoothing",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 2,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Prediction",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 2,
       "options": null,
-      "description": "Predict position of the target to reduce lag caused by smoothing"
+      "description": "Predict position of the target to reduce lag caused by smoothing",
+      "descriptions": {
+        "ja": "平滑化による遅延を減らすためのターゲットの予測位置",
+        "zh-TW": "預測目標位置以減少平滑度造成的延遲",
+        "ko": "스무딩으로 인한 지연을 줄이기 위해 대상의 위치를 예측합니다",
+        "zh-CN": "预测目标位置以减少平滑处理引起的延迟"
+      }
     },
     {
       "name": "Lock On Target",
@@ -88,7 +118,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Automatically focus on target"
+      "description": "Automatically focus on target",
+      "descriptions": {
+        "ja": "ターゲットに自動でフォーカス",
+        "zh-TW": "自動聚焦目標",
+        "ko": "대상에 자동으로 초점 맞추기",
+        "zh-CN": "自动对焦到目标"
+      }
     },
     {
       "name": "Camera Shake",
@@ -104,7 +140,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Lock Rotation",
@@ -120,7 +162,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Camera follows the rotation of the target"
+      "description": "Camera follows the rotation of the target",
+      "descriptions": {
+        "ja": "カメラがターゲットの回転を追従",
+        "zh-TW": "相機跟隨目標旋轉",
+        "ko": "카메라가 대상의 회전을 따릅니다",
+        "zh-CN": "摄像机跟随目标旋转"
+      }
     },
     {
       "name": "Auto Zoom",
@@ -136,7 +184,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Automatically zoom in and out to maintain the target size in view"
+      "description": "Automatically zoom in and out to maintain the target size in view",
+      "descriptions": {
+        "ja": "ターゲットのサイズがビュー内で維持されるように自動でズームイン/アウト",
+        "zh-TW": "自動放大和縮小以維持視野中的目標大小",
+        "ko": "대상 크기를 보기 좋게 유지하기 위해 자동으로 확대/축소합니다",
+        "zh-CN": "自动缩放，保持目标在视野中的大小"
+      }
     },
     {
       "name": "Zoom Speed",
@@ -152,7 +206,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Time it takes to zoom to target FOV"
+      "description": "Time it takes to zoom to target FOV",
+      "descriptions": {
+        "ja": "ターゲットFOVにズームするのにかかる時間",
+        "zh-TW": "變焦到目標視野所需時間",
+        "ko": "대상 FOV까지 확대/축소되는 시간",
+        "zh-CN": "变焦到目标视场角所需时间"
+      }
     },
     {
       "name": "FOV Height At Target",
@@ -168,7 +228,13 @@
       "min": 0.2,
       "max": 2,
       "options": null,
-      "description": "Vertical height for the target when using auto zoom"
+      "description": "Vertical height for the target when using auto zoom",
+      "descriptions": {
+        "ja": "自動ズームを使用する場合のターゲットの垂直高さ",
+        "zh-TW": "使用自動變焦時目標的垂直高度",
+        "ko": "자동 확대/축소 사용 시 대상의 수직 높이",
+        "zh-CN": "使用自动变焦时的目标垂直高度"
+      }
     },
     {
       "name": "Vertical Offset",
@@ -184,7 +250,13 @@
       "min": -1,
       "max": 1,
       "options": null,
-      "description": "Offset vertically"
+      "description": "Offset vertically",
+      "descriptions": {
+        "ja": "垂直方向にオフセット",
+        "zh-TW": "垂直偏移",
+        "ko": "수직으로 오프셋",
+        "zh-CN": "垂直偏移"
+      }
     },
     {
       "name": "FOV",
@@ -200,7 +272,13 @@
       "min": 5,
       "max": 120,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Beat Cycle",
@@ -216,7 +294,13 @@
       "min": 1,
       "max": 16,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Movement Damping",
@@ -232,7 +316,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Use Orbit Move",
@@ -248,7 +338,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Enable or disable orbit movement, allowing the camera to rotate around a central point."
+      "description": "Enable or disable orbit movement, allowing the camera to rotate around a central point.",
+      "descriptions": {
+        "ja": "オービット移動の有効/無効を切り替える。カメラが中心点を周回するように回転します。",
+        "zh-TW": "啟用或禁用軌道移動，允許攝影機圍繞中心點旋轉。",
+        "ko": "오빗 이동을 활성화 또는 비활성화하여 카메라가 중심점을 중심으로 회전할 수 있게 합니다.",
+        "zh-CN": "启用或禁用轨道运动，允许相机围绕中心点旋转。"
+      }
     }
   ]
 }

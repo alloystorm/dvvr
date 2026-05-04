@@ -9,6 +9,12 @@
     "zh-CN": "[环绕相机]"
   },
   "description": "Manual and automatic orbit camera that rotates around the focused actor.\r\n\r\n## Manual Control\r\n\r\nWhen not in auto mode, drag to orbit the camera around the actor.\r\n**Use Controller Input** enables gamepad/VR controller support for orbiting.\r\n**Prevent Below Floor** stops the camera from moving beneath the ground plane.\r\n\r\n**Retain Velocity** keeps the camera spinning after you release input, gradually\r\nslowing down. **Min Speed** and **Max Speed** clamp the retained rotation speed —\r\nraise *Max Speed* for long cinematic spins, or lower it for tighter control.\r\n\r\n## Auto Mode\r\n\r\nWhen enabled, the camera orbits automatically with configurable distance, pitch,\r\nand height that cycle using sine waves.\r\n\r\n**Distance Min** and **Distance Max** set the near/far range the camera moves\r\nthrough each cycle. **Distance Cycle** is the period in seconds for a full\r\nback-and-forth cycle.\r\n\r\n**Pitch Min** and **Pitch Max** control the vertical angle range, and\r\n**Pitch Cycle** sets how fast the camera tilts up and down.\r\n\r\n**Height Min** and **Height Max** adjust the vertical offset of the camera target,\r\nwith **Height Cycle** controlling the oscillation period.\r\n\r\n**Speed** sets how fast the camera orbits horizontally when auto mode is active.\r\nIncrease it for fast sweeping shots, or lower it for slow, deliberate circles.",
+  "descriptions": {
+    "ja": "(Manual and automatic orbit camera that rotates around the focused actor.\r\n\r\n## Manual Control\r\n\r\nWhen not in auto mode, drag to orbit the camera around the actor.\r\n**Use Controller Input** enables gamepad/VR controller support for orbiting.\r\n**Prevent Below Floor** stops the camera from moving beneath the ground plane.\r\n\r\n**Retain Velocity** keeps the camera spinning after you release input, gradually\r\nslowing down. **Min Speed** and **Max Speed** clamp the retained rotation speed —\r\nraise *Max Speed* for long cinematic spins, or lower it for tighter control.\r\n\r\n## Auto Mode\r\n\r\nWhen enabled, the camera orbits automatically with configurable distance, pitch,\r\nand height that cycle using sine waves.\r\n\r\n**Distance Min** and **Distance Max** set the near/far range the camera moves\r\nthrough each cycle. **Distance Cycle** is the period in seconds for a full\r\nback-and-forth cycle.\r\n\r\n**Pitch Min** and **Pitch Max** control the vertical angle range, and\r\n**Pitch Cycle** sets how fast the camera tilts up and down.\r\n\r\n**Height Min** and **Height Max** adjust the vertical offset of the camera target,\r\nwith **Height Cycle** controlling the oscillation period.\r\n\r\n**Speed** sets how fast the camera orbits horizontally when auto mode is active.\r\nIncrease it for fast sweeping shots, or lower it for slow, deliberate circles.)",
+    "zh-TW": "(Manual and automatic orbit camera that rotates around the focused actor.\r\n\r\n## Manual Control\r\n\r\nWhen not in auto mode, drag to orbit the camera around the actor.\r\n**Use Controller Input** enables gamepad/VR controller support for orbiting.\r\n**Prevent Below Floor** stops the camera from moving beneath the ground plane.\r\n\r\n**Retain Velocity** keeps the camera spinning after you release input, gradually\r\nslowing down. **Min Speed** and **Max Speed** clamp the retained rotation speed —\r\nraise *Max Speed* for long cinematic spins, or lower it for tighter control.\r\n\r\n## Auto Mode\r\n\r\nWhen enabled, the camera orbits automatically with configurable distance, pitch,\r\nand height that cycle using sine waves.\r\n\r\n**Distance Min** and **Distance Max** set the near/far range the camera moves\r\nthrough each cycle. **Distance Cycle** is the period in seconds for a full\r\nback-and-forth cycle.\r\n\r\n**Pitch Min** and **Pitch Max** control the vertical angle range, and\r\n**Pitch Cycle** sets how fast the camera tilts up and down.\r\n\r\n**Height Min** and **Height Max** adjust the vertical offset of the camera target,\r\nwith **Height Cycle** controlling the oscillation period.\r\n\r\n**Speed** sets how fast the camera orbits horizontally when auto mode is active.\r\nIncrease it for fast sweeping shots, or lower it for slow, deliberate circles.)",
+    "ko": "(Manual and automatic orbit camera that rotates around the focused actor.\r\n\r\n## Manual Control\r\n\r\nWhen not in auto mode, drag to orbit the camera around the actor.\r\n**Use Controller Input** enables gamepad/VR controller support for orbiting.\r\n**Prevent Below Floor** stops the camera from moving beneath the ground plane.\r\n\r\n**Retain Velocity** keeps the camera spinning after you release input, gradually\r\nslowing down. **Min Speed** and **Max Speed** clamp the retained rotation speed —\r\nraise *Max Speed* for long cinematic spins, or lower it for tighter control.\r\n\r\n## Auto Mode\r\n\r\nWhen enabled, the camera orbits automatically with configurable distance, pitch,\r\nand height that cycle using sine waves.\r\n\r\n**Distance Min** and **Distance Max** set the near/far range the camera moves\r\nthrough each cycle. **Distance Cycle** is the period in seconds for a full\r\nback-and-forth cycle.\r\n\r\n**Pitch Min** and **Pitch Max** control the vertical angle range, and\r\n**Pitch Cycle** sets how fast the camera tilts up and down.\r\n\r\n**Height Min** and **Height Max** adjust the vertical offset of the camera target,\r\nwith **Height Cycle** controlling the oscillation period.\r\n\r\n**Speed** sets how fast the camera orbits horizontally when auto mode is active.\r\nIncrease it for fast sweeping shots, or lower it for slow, deliberate circles.)",
+    "zh-CN": "(Manual and automatic orbit camera that rotates around the focused actor.\r\n\r\n## Manual Control\r\n\r\nWhen not in auto mode, drag to orbit the camera around the actor.\r\n**Use Controller Input** enables gamepad/VR controller support for orbiting.\r\n**Prevent Below Floor** stops the camera from moving beneath the ground plane.\r\n\r\n**Retain Velocity** keeps the camera spinning after you release input, gradually\r\nslowing down. **Min Speed** and **Max Speed** clamp the retained rotation speed —\r\nraise *Max Speed* for long cinematic spins, or lower it for tighter control.\r\n\r\n## Auto Mode\r\n\r\nWhen enabled, the camera orbits automatically with configurable distance, pitch,\r\nand height that cycle using sine waves.\r\n\r\n**Distance Min** and **Distance Max** set the near/far range the camera moves\r\nthrough each cycle. **Distance Cycle** is the period in seconds for a full\r\nback-and-forth cycle.\r\n\r\n**Pitch Min** and **Pitch Max** control the vertical angle range, and\r\n**Pitch Cycle** sets how fast the camera tilts up and down.\r\n\r\n**Height Min** and **Height Max** adjust the vertical offset of the camera target,\r\nwith **Height Cycle** controlling the oscillation period.\r\n\r\n**Speed** sets how fast the camera orbits horizontally when auto mode is active.\r\nIncrease it for fast sweeping shots, or lower it for slow, deliberate circles.)"
+  },
   "values": [
     {
       "name": "Target Select",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 5,
       "options": ["Auto", "Selected", "Group", "Rotate", "Rotate + Group", "Stage Center"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Tracking Mode",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 2,
       "options": ["Center", "Head", "Chest"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Target Smoothing",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 2,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Prediction",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 2,
       "options": null,
-      "description": "Predict position of the target to reduce lag caused by smoothing"
+      "description": "Predict position of the target to reduce lag caused by smoothing",
+      "descriptions": {
+        "ja": "平滑化による遅延を減らすためのターゲットの予測位置",
+        "zh-TW": "預測目標位置以減少平滑度造成的延遲",
+        "ko": "스무딩으로 인한 지연을 줄이기 위해 대상의 위치를 예측합니다",
+        "zh-CN": "预测目标位置以减少平滑处理引起的延迟"
+      }
     },
     {
       "name": "FOV",
@@ -88,7 +118,13 @@
       "min": 5,
       "max": 120,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Beat Cycle",
@@ -104,7 +140,13 @@
       "min": 1,
       "max": 16,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Use Controller Input",
@@ -120,7 +162,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Prevent Below Floor",
@@ -136,7 +184,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Retain Velocity",
@@ -152,7 +206,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Maintain the rotation when there is no input"
+      "description": "Maintain the rotation when there is no input",
+      "descriptions": {
+        "ja": "入力がない場合も回転を維持",
+        "zh-TW": "在沒有輸入時保持旋轉",
+        "ko": "입력이 없을 때 회전 유지",
+        "zh-CN": "无输入时保持旋转"
+      }
     },
     {
       "name": "Max Speed",
@@ -168,7 +228,13 @@
       "min": 0,
       "max": 30,
       "options": null,
-      "description": "Maximum rotation speed"
+      "description": "Maximum rotation speed",
+      "descriptions": {
+        "ja": "最大回転速度",
+        "zh-TW": "最大旋轉速度",
+        "ko": "최대 회전 속도",
+        "zh-CN": "最大旋转速度"
+      }
     },
     {
       "name": "Min Speed",
@@ -184,7 +250,13 @@
       "min": 0,
       "max": 30,
       "options": null,
-      "description": "Minimum rotation speed"
+      "description": "Minimum rotation speed",
+      "descriptions": {
+        "ja": "最小回転速度",
+        "zh-TW": "最小旋轉速度",
+        "ko": "최소 회전 속도",
+        "zh-CN": "最小旋转速度"
+      }
     },
     {
       "name": "Auto Mode",
@@ -201,6 +273,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Distance Min",
@@ -216,7 +294,13 @@
           "min": 0,
           "max": 10,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Distance Max",
@@ -232,7 +316,13 @@
           "min": 1,
           "max": 10,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Distance Cycle",
@@ -248,7 +338,13 @@
           "min": null,
           "max": null,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Pitch Min",
@@ -264,7 +360,13 @@
           "min": -45,
           "max": 0,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Pitch Max",
@@ -280,7 +382,13 @@
           "min": 0,
           "max": 45,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Pitch Cycle",
@@ -296,7 +404,13 @@
           "min": null,
           "max": null,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Height Min",
@@ -312,7 +426,13 @@
           "min": -1,
           "max": 0,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Height Max",
@@ -328,7 +448,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Height Cycle",
@@ -344,7 +470,13 @@
           "min": null,
           "max": null,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Speed",
@@ -360,7 +492,13 @@
           "min": 0,
           "max": 90,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     }

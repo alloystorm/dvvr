@@ -9,6 +9,12 @@
     "zh-CN": "物理模型"
   },
   "description": "Replaces the actor's animated skeleton with a particle-based\r\nragdoll physics simulation. The body goes limp and reacts to\r\ngravity and external forces.\r\n\r\n**Spring Force** and **Damping** (both logarithmic) control\r\nhow aggressively the ragdoll tries to return to its animated\r\npose — low values make it floppy, high values keep it closer\r\nto the animation. **Gravity** toggles gravitational pull on\r\nthe ragdoll.\r\n\r\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\r\nHand** pin specific body parts to their animated positions so\r\nthey don't flop — useful for keeping feet planted while the\r\nrest of the body goes limp.\r\n\r\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\r\nto 1 (fully rigid). Adjust individual body parts like legs,\r\nknees, arms, shoulders, torso, neck, and head to create\r\nlocalized stiffness — e.g. keep the torso firm while letting\r\nlimbs dangle.",
+  "descriptions": {
+    "ja": "(Replaces the actor's animated skeleton with a particle-based\r\nragdoll physics simulation. The body goes limp and reacts to\r\ngravity and external forces.\r\n\r\n**Spring Force** and **Damping** (both logarithmic) control\r\nhow aggressively the ragdoll tries to return to its animated\r\npose — low values make it floppy, high values keep it closer\r\nto the animation. **Gravity** toggles gravitational pull on\r\nthe ragdoll.\r\n\r\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\r\nHand** pin specific body parts to their animated positions so\r\nthey don't flop — useful for keeping feet planted while the\r\nrest of the body goes limp.\r\n\r\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\r\nto 1 (fully rigid). Adjust individual body parts like legs,\r\nknees, arms, shoulders, torso, neck, and head to create\r\nlocalized stiffness — e.g. keep the torso firm while letting\r\nlimbs dangle.)",
+    "zh-TW": "(Replaces the actor's animated skeleton with a particle-based\r\nragdoll physics simulation. The body goes limp and reacts to\r\ngravity and external forces.\r\n\r\n**Spring Force** and **Damping** (both logarithmic) control\r\nhow aggressively the ragdoll tries to return to its animated\r\npose — low values make it floppy, high values keep it closer\r\nto the animation. **Gravity** toggles gravitational pull on\r\nthe ragdoll.\r\n\r\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\r\nHand** pin specific body parts to their animated positions so\r\nthey don't flop — useful for keeping feet planted while the\r\nrest of the body goes limp.\r\n\r\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\r\nto 1 (fully rigid). Adjust individual body parts like legs,\r\nknees, arms, shoulders, torso, neck, and head to create\r\nlocalized stiffness — e.g. keep the torso firm while letting\r\nlimbs dangle.)",
+    "ko": "(Replaces the actor's animated skeleton with a particle-based\r\nragdoll physics simulation. The body goes limp and reacts to\r\ngravity and external forces.\r\n\r\n**Spring Force** and **Damping** (both logarithmic) control\r\nhow aggressively the ragdoll tries to return to its animated\r\npose — low values make it floppy, high values keep it closer\r\nto the animation. **Gravity** toggles gravitational pull on\r\nthe ragdoll.\r\n\r\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\r\nHand** pin specific body parts to their animated positions so\r\nthey don't flop — useful for keeping feet planted while the\r\nrest of the body goes limp.\r\n\r\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\r\nto 1 (fully rigid). Adjust individual body parts like legs,\r\nknees, arms, shoulders, torso, neck, and head to create\r\nlocalized stiffness — e.g. keep the torso firm while letting\r\nlimbs dangle.)",
+    "zh-CN": "(Replaces the actor's animated skeleton with a particle-based\r\nragdoll physics simulation. The body goes limp and reacts to\r\ngravity and external forces.\r\n\r\n**Spring Force** and **Damping** (both logarithmic) control\r\nhow aggressively the ragdoll tries to return to its animated\r\npose — low values make it floppy, high values keep it closer\r\nto the animation. **Gravity** toggles gravitational pull on\r\nthe ragdoll.\r\n\r\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\r\nHand** pin specific body parts to their animated positions so\r\nthey don't flop — useful for keeping feet planted while the\r\nrest of the body goes limp.\r\n\r\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\r\nto 1 (fully rigid). Adjust individual body parts like legs,\r\nknees, arms, shoulders, torso, neck, and head to create\r\nlocalized stiffness — e.g. keep the torso firm while letting\r\nlimbs dangle.)"
+  },
   "values": [
     {
       "name": "Spring Force",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 10,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Damping",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 10,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Gravity",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Lock Left Foot",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Lock Right Foot",
@@ -88,7 +118,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Lock Head",
@@ -104,7 +140,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Lock Left Hand",
@@ -120,7 +162,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Lock Right Hand",
@@ -136,7 +184,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Sex",
@@ -153,6 +207,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "dildo",
@@ -168,7 +228,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     },
@@ -187,6 +253,12 @@
       "max": 1,
       "options": null,
       "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
       "values": [
         {
           "name": "Leg",
@@ -202,7 +274,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Knee",
@@ -218,7 +296,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Foot",
@@ -234,7 +318,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Shoulder",
@@ -250,7 +340,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Arm",
@@ -266,7 +362,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Elbow",
@@ -282,7 +384,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Hand",
@@ -298,7 +406,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Waist",
@@ -314,7 +428,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Center",
@@ -330,7 +450,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Torso",
@@ -346,7 +472,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Neck",
@@ -362,7 +494,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         },
         {
           "name": "Head",
@@ -378,7 +516,13 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": null
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
         }
       ]
     }

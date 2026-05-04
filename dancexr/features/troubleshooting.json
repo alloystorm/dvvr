@@ -9,6 +9,12 @@
     "zh-CN": "故障排除"
   },
   "description": "Fixes common animation and rigging issues. **Apply Body\r\nRotation To Center** transfers hip and torso rotation to the\r\ncenter bone. **Twist Correction** reduces joint twisting in\r\narms and legs, with separate **Upper Arm**, **Lower Arm**,\r\nand **Leg Twist** sliders. **Elbow Axis** adjusts the elbow\r\njoint rotation axis. **Hand Scale** resizes the hands. **BVH\r\nThumb Motion** reduces thumb movement for BVH animations.\r\n**Limit Neck/Head Rotation** constrains upper body rotation.\r\n**Reset Transition** performs a smooth physics reset from\r\nstandard pose. **Skip Kinematic Updates** disables updates\r\nfor unanimated kinematic bones.",
+  "descriptions": {
+    "ja": "(Fixes common animation and rigging issues. **Apply Body\r\nRotation To Center** transfers hip and torso rotation to the\r\ncenter bone. **Twist Correction** reduces joint twisting in\r\narms and legs, with separate **Upper Arm**, **Lower Arm**,\r\nand **Leg Twist** sliders. **Elbow Axis** adjusts the elbow\r\njoint rotation axis. **Hand Scale** resizes the hands. **BVH\r\nThumb Motion** reduces thumb movement for BVH animations.\r\n**Limit Neck/Head Rotation** constrains upper body rotation.\r\n**Reset Transition** performs a smooth physics reset from\r\nstandard pose. **Skip Kinematic Updates** disables updates\r\nfor unanimated kinematic bones.)",
+    "zh-TW": "(Fixes common animation and rigging issues. **Apply Body\r\nRotation To Center** transfers hip and torso rotation to the\r\ncenter bone. **Twist Correction** reduces joint twisting in\r\narms and legs, with separate **Upper Arm**, **Lower Arm**,\r\nand **Leg Twist** sliders. **Elbow Axis** adjusts the elbow\r\njoint rotation axis. **Hand Scale** resizes the hands. **BVH\r\nThumb Motion** reduces thumb movement for BVH animations.\r\n**Limit Neck/Head Rotation** constrains upper body rotation.\r\n**Reset Transition** performs a smooth physics reset from\r\nstandard pose. **Skip Kinematic Updates** disables updates\r\nfor unanimated kinematic bones.)",
+    "ko": "(Fixes common animation and rigging issues. **Apply Body\r\nRotation To Center** transfers hip and torso rotation to the\r\ncenter bone. **Twist Correction** reduces joint twisting in\r\narms and legs, with separate **Upper Arm**, **Lower Arm**,\r\nand **Leg Twist** sliders. **Elbow Axis** adjusts the elbow\r\njoint rotation axis. **Hand Scale** resizes the hands. **BVH\r\nThumb Motion** reduces thumb movement for BVH animations.\r\n**Limit Neck/Head Rotation** constrains upper body rotation.\r\n**Reset Transition** performs a smooth physics reset from\r\nstandard pose. **Skip Kinematic Updates** disables updates\r\nfor unanimated kinematic bones.)",
+    "zh-CN": "(Fixes common animation and rigging issues. **Apply Body\r\nRotation To Center** transfers hip and torso rotation to the\r\ncenter bone. **Twist Correction** reduces joint twisting in\r\narms and legs, with separate **Upper Arm**, **Lower Arm**,\r\nand **Leg Twist** sliders. **Elbow Axis** adjusts the elbow\r\njoint rotation axis. **Hand Scale** resizes the hands. **BVH\r\nThumb Motion** reduces thumb movement for BVH animations.\r\n**Limit Neck/Head Rotation** constrains upper body rotation.\r\n**Reset Transition** performs a smooth physics reset from\r\nstandard pose. **Skip Kinematic Updates** disables updates\r\nfor unanimated kinematic bones.)"
+  },
   "values": [
     {
       "name": "Apply Body Rotation To Center",
@@ -24,7 +30,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Apply rotation of hip and torso to the center bone"
+      "description": "Apply rotation of hip and torso to the center bone",
+      "descriptions": {
+        "ja": "股関節と胴体の回転を中央のボーンに適用",
+        "zh-TW": "將臀部和軀幹的旋轉應用到中心骨骼",
+        "ko": "엉덩이 및 몸통 회전을 중심 본에 적용",
+        "zh-CN": "将臀部和躯干的旋转应用于中心骨骼"
+      }
     },
     {
       "name": "Twist Correction",
@@ -40,7 +52,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Reduce twisting of arms & legs at joints"
+      "description": "Reduce twisting of arms & legs at joints",
+      "descriptions": {
+        "ja": "関節における腕と脚のねじれを軽減",
+        "zh-TW": "減少關節處手臂和腿部的扭曲",
+        "ko": "관절의 팔과 다리 비틀림 감소",
+        "zh-CN": "减少关节处手臂和腿部的扭曲"
+      }
     },
     {
       "name": "Upper Arm Twist",
@@ -56,7 +74,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Lower Arm Twist",
@@ -72,7 +96,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Lower Arm Mode",
@@ -88,7 +118,13 @@
       "min": 0,
       "max": 1,
       "options": ["From Upper Arm", "From Hand"],
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Leg Twist",
@@ -104,7 +140,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Clear Arm Twist",
@@ -120,7 +162,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Elbow Axis",
@@ -136,7 +184,13 @@
       "min": -180,
       "max": 180,
       "options": null,
-      "description": "Rotation axis of the elbow joints"
+      "description": "Rotation axis of the elbow joints",
+      "descriptions": {
+        "ja": "肘関節の回転軸",
+        "zh-TW": "肘關節的旋轉軸",
+        "ko": "팔꿈치 관절의 회전 축",
+        "zh-CN": "手肘关节的旋转轴心"
+      }
     },
     {
       "name": "Ignore Diffuse Color",
@@ -152,7 +206,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Hand Scale",
@@ -168,7 +228,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Set scale of the hands"
+      "description": "Set scale of the hands",
+      "descriptions": {
+        "ja": "手のスケールを設定",
+        "zh-TW": "設定手部縮放",
+        "ko": "손 크기 설정",
+        "zh-CN": "设置手部缩放"
+      }
     },
     {
       "name": "BVH Thumb Motion",
@@ -184,7 +250,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Reduce thumb motion for BVH motions"
+      "description": "Reduce thumb motion for BVH motions",
+      "descriptions": {
+        "ja": "BVHモーションの親指の動きを軽減",
+        "zh-TW": "減少 BVH 動作的拇指動作",
+        "ko": "BVH 동작에 대한 엄지 손가락 움직임 감소",
+        "zh-CN": "减少 BVH 动作中的拇指运动"
+      }
     },
     {
       "name": "Limit Neck Rotation",
@@ -200,7 +272,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Reduce rotation of neck bone"
+      "description": "Reduce rotation of neck bone",
+      "descriptions": {
+        "ja": "首のボーンの回転を軽減",
+        "zh-TW": "減少頸骨的旋轉",
+        "ko": "목 본의 회전 감소",
+        "zh-CN": "减少颈部骨骼的旋转"
+      }
     },
     {
       "name": "Limit Head Rotation",
@@ -216,7 +294,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Reduce rotation of head bone"
+      "description": "Reduce rotation of head bone",
+      "descriptions": {
+        "ja": "頭のボーンの回転を軽減",
+        "zh-TW": "減少頭骨的旋轉",
+        "ko": "머리 본의 회전 감소",
+        "zh-CN": "减少头部骨骼的旋转"
+      }
     },
     {
       "name": "Reset Transition",
@@ -232,7 +316,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "When resetting physics, perform a transition from standard pose to the animated pose to allow physics components to settle properly."
+      "description": "When resetting physics, perform a transition from standard pose to the animated pose to allow physics components to settle properly.",
+      "descriptions": {
+        "ja": "物理をリセットする場合、物理コンポーネントが適切に落ち着くように、標準ポーズからアニメーションポーズへのトランジションを実行してください。",
+        "zh-TW": "重置物理時，執行從標準姿勢到動畫姿勢的過渡，以讓物理組件正常穩定。",
+        "ko": "물리 초기화 시, 물리 컴포넌트가 제대로 안정화될 수 있도록 표준 포즈에서 애니메이션 포즈로 전환을 수행하십시오.",
+        "zh-CN": "重置物理时，进行从标准姿势到动画姿势的过渡，以使物理组件能够正确稳定。"
+      }
     },
     {
       "name": "Leg Pose During Reset",
@@ -248,7 +338,13 @@
       "min": 0,
       "max": 45,
       "options": null,
-      "description": null
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     },
     {
       "name": "Skip Kinematic Updates",
@@ -264,7 +360,13 @@
       "min": 0,
       "max": 1,
       "options": null,
-      "description": "Not updating kinematic bones that are not animated."
+      "description": "Not updating kinematic bones that are not animated.",
+      "descriptions": {
+        "ja": "アニメーションされていないキネマティックボーンは更新されていません。",
+        "zh-TW": "不更新未進行動畫的運動學骨骼。",
+        "ko": "애니메이션되지 않은 키네마틱 본을 업데이트하지 않음.",
+        "zh-CN": "不更新未进行动画的运动学骨骼。"
+      }
     }
   ]
 }
