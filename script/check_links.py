@@ -24,6 +24,7 @@ SKIP_EXACT = frozenset({
 def canonical_path(path: str) -> str:
     """Normalise a URL path: strip index.html, .html extension, trailing slash."""
     path = re.sub(r"/index\.html$", "/", path)
+    path = path.replace("\\", "/")
     if path != "/" and path.endswith("/"):
         path = path.rstrip("/")
     if path.endswith(".html"):
@@ -58,9 +59,11 @@ def main() -> None:
     visited[start] = None
     queue.append((start, base_url + "/", None))
 
+    print(f"Checking links starting from {queue[0]} ...")
+
     while queue:
         path, fetch_url, ref = queue.popleft()
-
+        print(f"Checking {fetch_url} ...", end="\r")
         if should_skip(path):
             visited[path] = 200
             continue
@@ -76,6 +79,7 @@ def main() -> None:
                 ct = resp.headers.get("Content-Type", "")
                 body = resp.read().decode("utf-8", errors="ignore")
             visited[path] = status
+            print(f"Checked {path} → {status}    ")
         except HTTPError as e:
             visited[path] = e.code
             continue
