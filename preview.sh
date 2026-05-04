@@ -39,7 +39,6 @@ if [ "$SKIP_CHECK" = false ]; then
   echo "→ Starting Jekyll server..."
   bundle exec jekyll serve \
     --port "$PORT" \
-    --livereload \
     --open-url \
     --config "_config.yml,_config.dev.yml" &
   JEKYLL_PID=$!
@@ -80,7 +79,6 @@ else
   echo ""
   bundle exec jekyll serve \
     --port "$PORT" \
-    --livereload \
     --open-url \
     --config "_config.yml,_config.dev.yml"
 fi
