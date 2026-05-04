@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 应用程序设置
 locale: zh-CN
 nav_links:

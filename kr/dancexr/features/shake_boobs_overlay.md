@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 셰이크 브루즈 오버레이
 locale: ko-KR
 nav_links:

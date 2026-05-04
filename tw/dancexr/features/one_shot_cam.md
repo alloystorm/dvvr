@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: [長鏡頭]
 locale: zh-TW
 nav_links:

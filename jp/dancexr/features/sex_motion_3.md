@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: ./motion/proc/sm3
 locale: ja-JP
 nav_links:

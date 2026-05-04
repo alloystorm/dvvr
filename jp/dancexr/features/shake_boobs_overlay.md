@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 胸揺れオーバーレイ
 locale: ja-JP
 nav_links:

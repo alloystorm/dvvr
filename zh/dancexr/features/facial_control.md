@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 面部控制
 locale: zh-CN
 nav_links:

@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 运动通道/运动传递
 locale: zh-CN
 nav_links:

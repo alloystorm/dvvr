@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 逼真動作
 locale: zh-TW
 nav_links:

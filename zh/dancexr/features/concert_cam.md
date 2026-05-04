@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: [固定摄影机]
 locale: zh-CN
 nav_links:

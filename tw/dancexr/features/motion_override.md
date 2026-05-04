@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 動作覆蓋
 locale: zh-TW
 nav_links:

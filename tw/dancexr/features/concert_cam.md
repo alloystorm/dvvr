@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 固定攝影機
 locale: zh-TW
 nav_links:

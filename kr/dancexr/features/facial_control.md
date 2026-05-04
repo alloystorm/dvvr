@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 표정 제어
 locale: ko-KR
 nav_links:

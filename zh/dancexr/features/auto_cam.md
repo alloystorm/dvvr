@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: [自动摄影机]
 locale: zh-CN
 nav_links:

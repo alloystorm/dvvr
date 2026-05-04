@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 照明 (またはライティング)
 locale: ja-JP
 nav_links:

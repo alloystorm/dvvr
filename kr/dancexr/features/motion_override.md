@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 동작 오버라이드
 locale: ko-KR
 nav_links:

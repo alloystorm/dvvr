@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: [自動カメラ]
 locale: ja-JP
 nav_links:

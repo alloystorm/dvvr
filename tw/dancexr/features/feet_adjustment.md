@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 腳部調整
 locale: zh-TW
 nav_links:

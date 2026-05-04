@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 섹스 오버레이 & 딜도
 locale: ko-KR
 nav_links:

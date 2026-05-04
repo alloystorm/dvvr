@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 服裝與身體彩繪
 locale: zh-TW
 nav_links:

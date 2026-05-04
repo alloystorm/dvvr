@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: モーションパス
 locale: ja-JP
 nav_links:

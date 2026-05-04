@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: [固定カメラ]
 locale: ja-JP
 nav_links:

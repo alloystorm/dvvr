@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: アクタのオプション
 locale: ja-JP
 nav_links:

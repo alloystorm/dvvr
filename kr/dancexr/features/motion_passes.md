@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: Motion Passes
 locale: ko-KR
 nav_links:

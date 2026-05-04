@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 爛娃娃 (Ragdoll)
 locale: zh-TW
 nav_links:

@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 衣装とボディペイント
 locale: ja-JP
 nav_links:

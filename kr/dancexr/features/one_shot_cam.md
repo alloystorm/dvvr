@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: [롱 테이크]
 locale: ko-KR
 nav_links:

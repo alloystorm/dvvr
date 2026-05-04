@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: Motion Settings
 locale: ko-KR
 nav_links:

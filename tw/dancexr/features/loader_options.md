@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 角色選項
 locale: zh-TW
 nav_links:

@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 性覆盖层与阴茎玩具
 locale: zh-CN
 nav_links:

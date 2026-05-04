@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: Scale & Offset
 locale: ko-KR
 nav_links:

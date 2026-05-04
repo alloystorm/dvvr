@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 胸部抖动覆盖层
 locale: zh-CN
 nav_links:

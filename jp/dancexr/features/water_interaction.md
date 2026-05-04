@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 水との相互作用
 locale: ja-JP
 nav_links:

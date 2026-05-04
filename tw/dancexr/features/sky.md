@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 天空
 locale: zh-TW
 nav_links:

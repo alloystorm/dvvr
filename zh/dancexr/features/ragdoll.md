@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 布偶人
 locale: zh-CN
 nav_links:

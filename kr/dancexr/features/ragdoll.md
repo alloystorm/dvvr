@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 라그돌
 locale: ko-KR
 nav_links:

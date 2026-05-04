@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 動作流程
 locale: zh-TW
 nav_links:

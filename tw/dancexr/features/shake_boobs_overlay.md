@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 胸部晃動疊層
 locale: zh-TW
 nav_links:

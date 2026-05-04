@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: [自由飞相机]
 locale: zh-CN
 nav_links:

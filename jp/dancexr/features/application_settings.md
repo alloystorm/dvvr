@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: アプリケーション設定
 locale: ja-JP
 nav_links:

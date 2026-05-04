@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: [長回し]
 locale: ja-JP
 nav_links:

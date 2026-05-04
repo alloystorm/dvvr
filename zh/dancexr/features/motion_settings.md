@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 动作设置
 locale: zh-CN
 nav_links:

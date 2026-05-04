@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 水体交互
 locale: zh-CN
 nav_links:

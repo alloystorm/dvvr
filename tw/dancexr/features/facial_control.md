@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 臉部控制
 locale: zh-TW
 nav_links:

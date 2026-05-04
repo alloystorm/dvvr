@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 액터에 부착
 locale: ko-KR
 nav_links:

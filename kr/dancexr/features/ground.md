@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 바닥
 locale: ko-KR
 nav_links:

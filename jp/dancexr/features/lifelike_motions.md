@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: よりリアルなモーション
 locale: ja-JP
 nav_links:

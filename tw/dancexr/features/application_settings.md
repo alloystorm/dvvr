@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 應用程式設定
 locale: zh-TW
 nav_links:

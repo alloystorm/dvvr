@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: ./motion/proc/sm3
 locale: zh-CN
 nav_links:

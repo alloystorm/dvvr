@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 사실적인 움직임
 locale: ko-KR
 nav_links:

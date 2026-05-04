@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 라이트 볼
 locale: ko-KR
 nav_links:

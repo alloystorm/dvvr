@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 附加至角色
 locale: zh-TW
 nav_links:

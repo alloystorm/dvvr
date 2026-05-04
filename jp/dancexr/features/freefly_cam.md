@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: [Freefly Cam]
 locale: ja-JP
 nav_links:

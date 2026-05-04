@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: Actor Options
 locale: ko-KR
 nav_links:

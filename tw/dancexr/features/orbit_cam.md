@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: [繞軸攝影機]
 locale: zh-TW
 nav_links:

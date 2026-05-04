@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 圖形
 locale: zh-TW
 nav_links:

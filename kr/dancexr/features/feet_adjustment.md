@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 발 조정
 locale: ko-KR
 nav_links:

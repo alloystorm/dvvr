@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 액세서리
 locale: ko-KR
 nav_links:

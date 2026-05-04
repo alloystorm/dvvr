@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 空
 locale: ja-JP
 nav_links:

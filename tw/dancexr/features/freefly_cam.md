@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: [Freefly Cam]
 locale: zh-TW
 nav_links:

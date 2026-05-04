@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 의상 및 바디페인트
 locale: ko-KR
 nav_links:

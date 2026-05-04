@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: [자동 카메라]
 locale: ko-KR
 nav_links:

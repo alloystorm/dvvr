@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: Sex Overlay 與 假陰莖
 locale: zh-TW
 nav_links:

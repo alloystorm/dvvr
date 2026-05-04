@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 足の調整
 locale: ja-JP
 nav_links:

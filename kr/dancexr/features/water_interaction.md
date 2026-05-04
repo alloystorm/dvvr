@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: ## 물 상호작용
 locale: ko-KR
 nav_links:

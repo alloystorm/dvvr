@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 自動攝影機
 locale: zh-TW
 nav_links:

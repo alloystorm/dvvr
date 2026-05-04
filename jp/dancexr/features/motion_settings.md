@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: モーション設定
 locale: ja-JP
 nav_links:

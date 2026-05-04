@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 그래픽스
 locale: ko-KR
 nav_links:

@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 逼真的动作
 locale: zh-CN
 nav_links:

@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 애플리케이션 설정
 locale: ko-KR
 nav_links:

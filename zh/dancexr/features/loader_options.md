@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 演员选项
 locale: zh-CN
 nav_links:

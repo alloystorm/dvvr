@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 缩放与偏移
 locale: zh-CN
 nav_links:

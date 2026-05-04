@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 性愛運動3
 locale: zh-TW
 nav_links:
