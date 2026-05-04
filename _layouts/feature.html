@@ -29,70 +29,67 @@
   </div>
 </nav>
 
-<!-- ── Language bar ─────────────────────────────────────────── -->
+<!-- ── Language bar + mode toggle ─────────────────────────── -->
 {% if page.locale %}{% assign lp = page.path | default: "" %}
 {% assign lp = lp | replace: '.md', '' %}
 {% assign lp = lp | replace: 'tw/', '' %}
 {% assign lp = lp | replace: 'jp/', '' %}
 {% assign lp = lp | replace: 'kr/', '' %}
 {% assign lp = lp | replace: 'zh/', '' %}
-<div class="release-lang-bar">
-  <a href="/{{ lp }}"      {% if page.locale == 'en-US' %}class="active"{% endif %}>Eng</a>
-  <a href="/tw/{{ lp }}"   {% if page.locale == 'zh-TW' %}class="active"{% endif %}>繁中</a>
-  <a href="/jp/{{ lp }}"   {% if page.locale == 'ja-JP' %}class="active"{% endif %}>日本語</a>
-  <a href="/kr/{{ lp }}"   {% if page.locale == 'ko-KR' %}class="active"{% endif %}>한국어</a>
-  <a href="/zh/{{ lp }}"   {% if page.locale == 'zh-CN' %}class="active"{% endif %}>简中</a>
+<div class="feature-topbar">
+  <div class="feature-topbar__langs">
+    <a href="/{{ lp }}"      {% if page.locale == 'en-US' %}class="active"{% endif %}>Eng</a>
+    <a href="/tw/{{ lp }}"   {% if page.locale == 'zh-TW' %}class="active"{% endif %}>繁中</a>
+    <a href="/jp/{{ lp }}"   {% if page.locale == 'ja-JP' %}class="active"{% endif %}>日本語</a>
+    <a href="/kr/{{ lp }}"   {% if page.locale == 'ko-KR' %}class="active"{% endif %}>한국어</a>
+    <a href="/zh/{{ lp }}"   {% if page.locale == 'zh-CN' %}class="active"{% endif %}>简中</a>
+  </div>
+  <div class="feature-view-toggle" role="tablist" aria-label="View mode">
+    <button class="feature-tab active" id="tab-manual" role="tab" aria-selected="true" aria-controls="panel-manual">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4h12M2 8h8M2 12h10"/></svg>
+      Manual
+    </button>
+    <button class="feature-tab" id="tab-config" role="tab" aria-selected="false" aria-controls="panel-config">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="8" r="2"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.22 3.22l1.41 1.41M11.37 11.37l1.41 1.41M3.22 12.78l1.41-1.41M11.37 4.63l1.41-1.41"/></svg>
+      Config Reference
+    </button>
+  </div>
 </div>{% endif %}
 
 <!-- ── Main ────────────────────────────────────────────────── -->
 {% assign json_url = page.path | replace: '.md', '.json' | prepend: '/' %}
 <main class="release-main feature-main" id="content">
-  <div class="release-layout feature-layout">
+  <div class="release-layout">
 
-    <!-- ── TOC sidebar ─────────────────────────────────── -->
-    <aside class="release-toc feature-toc" id="feature-toc" aria-label="Table of contents">
-      <p class="release-toc__title">On this page</p>
-      <nav id="toc-nav"></nav>
-    </aside>
+    <!-- ── Left sidebar: TOC (manual) or config tree ───── -->
+    <div class="feature-sidebar">
+      <aside class="release-toc" id="sidebar-toc" aria-label="Table of contents">
+        <p class="release-toc__title">On this page</p>
+        <nav id="toc-nav"></nav>
+      </aside>
+      <aside class="feature-tree" id="sidebar-tree" aria-label="Config tree" hidden>
+        <p class="feature-tree__title">Config values</p>
+        <div class="feature-tree__body" id="feature-tree-body">
+          <p class="feature-tree__loading">Loading…</p>
+        </div>
+      </aside>
+    </div>
 
     <!-- ── Right content area ──────────────────────────── -->
     <div class="feature-content-area">
 
-      <!-- View toggle -->
-      <div class="feature-view-toggle" role="tablist" aria-label="View mode">
-        <button class="feature-tab active" id="tab-manual" role="tab" aria-selected="true" aria-controls="panel-manual">
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4h12M2 8h8M2 12h10"/></svg>
-          Manual
-        </button>
-        <button class="feature-tab" id="tab-config" role="tab" aria-selected="false" aria-controls="panel-config">
-          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="8" r="2"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.22 3.22l1.41 1.41M11.37 11.37l1.41 1.41M3.22 12.78l1.41-1.41M11.37 4.63l1.41-1.41"/></svg>
-          Config Reference
-        </button>
-      </div>
-
       <!-- Panel: Manual (markdown article) -->
-      <article class="release-content feature-panel" id="panel-manual" role="tabpanel" aria-labelledby="tab-manual">
+      <article class="release-content" id="panel-manual" role="tabpanel" aria-labelledby="tab-manual">
         {{ content }}
       </article>
 
-      <!-- Panel: Config reference (tree + detail) -->
-      <div class="feature-panel feature-panel--config" id="panel-config" role="tabpanel" aria-labelledby="tab-config" hidden>
-
-        <aside class="feature-tree" id="feature-tree" aria-label="Config tree">
-          <p class="feature-tree__title">Config values</p>
-          <div class="feature-tree__body" id="feature-tree-body">
-            <p class="feature-tree__loading">Loading…</p>
-          </div>
-        </aside>
-
-        <div class="feature-detail" id="feature-detail">
-          <div class="feature-detail__empty" id="feature-detail-empty">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg>
-            <p>Select an item from the tree to view its details.</p>
-          </div>
-          <div class="feature-detail__content" id="feature-detail-content" hidden></div>
+      <!-- Panel: Config detail -->
+      <div class="feature-detail" id="panel-config" role="tabpanel" aria-labelledby="tab-config" hidden>
+        <div class="feature-detail__empty" id="feature-detail-empty">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg>
+          <p>Select an item from the tree to view its details.</p>
         </div>
-
+        <div class="feature-detail__content" id="feature-detail-content" hidden></div>
       </div>
 
     </div><!-- /.feature-content-area -->
@@ -181,17 +178,18 @@
     const tabConfig   = document.getElementById('tab-config');
     const panelManual = document.getElementById('panel-manual');
     const panelConfig = document.getElementById('panel-config');
-    const toc         = document.getElementById('feature-toc');
+    const sidebarToc  = document.getElementById('sidebar-toc');
+    const sidebarTree = document.getElementById('sidebar-tree');
 
     function activate(isConfig) {
       tabManual.classList.toggle('active', !isConfig);
       tabConfig.classList.toggle('active',  isConfig);
       tabManual.setAttribute('aria-selected', String(!isConfig));
       tabConfig.setAttribute('aria-selected', String(isConfig));
-      panelManual.hidden =  isConfig;
-      panelConfig.hidden = !isConfig;
-      // Collapse the TOC in config mode — config has its own tree
-      toc.classList.toggle('feature-toc--hidden', isConfig);
+      panelManual.hidden  =  isConfig;
+      panelConfig.hidden  = !isConfig;
+      sidebarToc.hidden   =  isConfig;
+      sidebarTree.hidden  = !isConfig;
     }
 
     tabManual.addEventListener('click', () => activate(false));

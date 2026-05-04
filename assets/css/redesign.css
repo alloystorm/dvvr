@@ -1765,50 +1765,57 @@ body:not(.home-page) .page__footer a:hover {
 
 /* =========================================================
    FEATURE PAGE LAYOUT
-   Extends the release layout: TOC sidebar left, tabbed
-   content area right (Manual ↔ Config Reference).
+   Toggle in topbar alongside lang bar; sidebar swaps
+   between TOC (manual) and config tree (config mode).
    ========================================================= */
 
-.feature-main {
-  /* reuses .release-main padding */
-}
-
-/* The release-layout grid already gives us TOC (220px) + content.
-   In config mode the TOC slides away so the config panel gets full width. */
-.feature-layout {
-  /* same as .release-layout but content column is a flex column */
-  align-items: start;
-}
-
-/* TOC hides when config tab is active */
-.feature-toc--hidden {
-  visibility: hidden;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.2s;
-}
-.feature-toc {
-  transition: opacity 0.2s;
-}
-
-/* ── Content area (right column) ─────────────────────────── */
-.feature-content-area {
-  min-width: 0;
+/* ── Topbar: lang bar + mode toggle ─────────────────────── */
+.feature-topbar {
+  position: fixed;
+  top: calc(var(--nav-h) + 24px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 900;
   display: flex;
-  flex-direction: column;
-  gap: 0;
+  align-items: center;
+  gap: 8px;
 }
 
-/* ── View toggle ─────────────────────────────────────────── */
+.feature-topbar__langs {
+  display: flex;
+  gap: 4px;
+  background: rgba(29,29,31,0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 8px;
+}
+.feature-topbar__langs a {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-dim);
+  padding: 4px 10px;
+  border-radius: 14px;
+  transition: color 0.2s, background 0.2s;
+  text-decoration: none;
+}
+.feature-topbar__langs a:hover { color: var(--text); }
+.feature-topbar__langs a.active {
+  color: var(--text);
+  background: rgba(255,255,255,0.1);
+}
+
+/* ── View toggle (inside topbar) ─────────────────────────── */
 .feature-view-toggle {
   display: flex;
   gap: 4px;
-  margin-bottom: 16px;
-  background: var(--bg-surface-2);
+  background: rgba(29,29,31,0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--border);
   border-radius: 10px;
-  padding: 4px;
-  width: fit-content;
+  padding: 3px;
 }
 
 .feature-tab {
@@ -1835,20 +1842,15 @@ body:not(.home-page) .page__footer a:hover {
 }
 .feature-tab svg { flex-shrink: 0; }
 
-/* ── Panels ──────────────────────────────────────────────── */
-/* Manual panel reuses .release-content styles (already set) */
-.feature-panel {
-  /* nothing extra needed for manual; config panel overrides below */
+/* ── Sidebar wrapper (left grid column) ─────────────────── */
+.feature-sidebar {
+  min-width: 0;
 }
 
-/* Config panel: side-by-side tree + detail */
-.feature-panel--config {
-  display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: 16px;
-  align-items: start;
+/* ── Content area (right grid column) ───────────────────── */
+.feature-content-area {
+  min-width: 0;
 }
-.feature-panel--config[hidden] { display: none; }
 
 /* ── Tree sidebar ────────────────────────────────────────── */
 .feature-tree {
@@ -2158,9 +2160,7 @@ body:not(.home-page) .page__footer a:hover {
 
 /* ── Responsive ──────────────────────────────────────────── */
 @media (max-width: 900px) {
-  .feature-panel--config {
-    grid-template-columns: 1fr;
-  }
+  .feature-topbar { flex-wrap: wrap; justify-content: center; }
   .feature-tree {
     position: static;
     max-height: 320px;
