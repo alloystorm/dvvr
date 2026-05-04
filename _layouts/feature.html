@@ -36,6 +36,22 @@
 {% assign lp = lp | replace: 'jp/', '' %}
 {% assign lp = lp | replace: 'kr/', '' %}
 {% assign lp = lp | replace: 'zh/', '' %}
+{% if page.locale == 'ja-JP' %}
+  {% assign label_manual = 'マニュアル' %}
+  {% assign label_config = '設定リファレンス' %}
+{% elsif page.locale == 'zh-TW' %}
+  {% assign label_manual = '使用手冊' %}
+  {% assign label_config = '配置參考' %}
+{% elsif page.locale == 'zh-CN' %}
+  {% assign label_manual = '使用手册' %}
+  {% assign label_config = '配置参考' %}
+{% elsif page.locale == 'ko-KR' %}
+  {% assign label_manual = '매뉴얼' %}
+  {% assign label_config = '설정 참조' %}
+{% else %}
+  {% assign label_manual = 'Manual' %}
+  {% assign label_config = 'Config Reference' %}
+{% endif %}
 <div class="feature-topbar">
   <div class="feature-topbar__langs">
     <a href="/{{ lp }}"      {% if page.locale == 'en-US' %}class="active"{% endif %}>Eng</a>
@@ -47,11 +63,11 @@
   <div class="feature-view-toggle" role="tablist" aria-label="View mode">
     <button class="feature-tab active" id="tab-manual" role="tab" aria-selected="true" aria-controls="panel-manual">
       <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4h12M2 8h8M2 12h10"/></svg>
-      Manual
+      {{ label_manual }}
     </button>
     <button class="feature-tab" id="tab-config" role="tab" aria-selected="false" aria-controls="panel-config">
       <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="8" r="2"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.22 3.22l1.41 1.41M11.37 11.37l1.41 1.41M3.22 12.78l1.41-1.41M11.37 4.63l1.41-1.41"/></svg>
-      Config Reference
+      {{ label_config }}
     </button>
   </div>
 </div>{% endif %}
