@@ -1,7 +1,7 @@
 ---
 layout: release
 title: "Facial Control"
-locale: en-rUS
+locale: en-US
 nav_links:
   - label: Intro
     url: /dancexr

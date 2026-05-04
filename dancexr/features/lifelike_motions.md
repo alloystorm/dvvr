@@ -1,7 +1,7 @@
 ---
 layout: release
 title: "Lifelike Motions"
-locale: en-rUS
+locale: en-US
 nav_links:
   - label: Intro
     url: /dancexr

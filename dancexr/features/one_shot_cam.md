@@ -1,7 +1,7 @@
 ---
 layout: release
 title: "[Long Take]"
-locale: en-rUS
+locale: en-US
 nav_links:
   - label: Intro
     url: /dancexr
