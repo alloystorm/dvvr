@@ -12,8 +12,6 @@ hero_ctas:
     url: /zh/dancexr/download
     style: neon
 nav_links:
-  - label: 介绍
-    url: /zh/dancexr
   - label: 功能
     url: /zh/dancexr/features
   - label: 发布

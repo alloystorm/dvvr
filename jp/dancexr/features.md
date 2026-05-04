@@ -12,8 +12,6 @@ hero_ctas:
     url: /jp/dancexr/download
     style: neon
 nav_links:
-  - label: イントロ
-    url: /jp/dancexr
   - label: 機能
     url: /jp/dancexr/features
   - label: リリース

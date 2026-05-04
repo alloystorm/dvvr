@@ -34,7 +34,6 @@ LOCALES = {
            "hero_cta_label": "今すぐダウンロード",
            "hero_cta_url": "/jp/dancexr/download",
            "nav_links": [
-               {"label": "イントロ",       "url": "/jp/dancexr"},
                {"label": "機能",           "url": "/jp/dancexr/features"},
                {"label": "リリース",       "url": "/jp/dancexr/releases"},
                {"label": "ダウンロード",   "url": "/jp/dancexr/download"},
@@ -53,7 +52,6 @@ LOCALES = {
            "hero_cta_label": "立即下载",
            "hero_cta_url": "/zh/dancexr/download",
            "nav_links": [
-               {"label": "介绍",     "url": "/zh/dancexr"},
                {"label": "功能",     "url": "/zh/dancexr/features"},
                {"label": "发布",     "url": "/zh/dancexr/releases"},
                {"label": "下载",     "url": "/zh/dancexr/download"},
@@ -72,7 +70,6 @@ LOCALES = {
            "hero_cta_label": "立即下載",
            "hero_cta_url": "/tw/dancexr/download",
            "nav_links": [
-               {"label": "介紹",     "url": "/tw/dancexr"},
                {"label": "功能",     "url": "/tw/dancexr/features"},
                {"label": "發布",     "url": "/tw/dancexr/releases"},
                {"label": "下載",     "url": "/tw/dancexr/download"},
@@ -91,7 +88,6 @@ LOCALES = {
            "hero_cta_label": "지금 다운로드",
            "hero_cta_url": "/kr/dancexr/download",
            "nav_links": [
-               {"label": "소개",     "url": "/kr/dancexr"},
                {"label": "기능",     "url": "/kr/dancexr/features"},
                {"label": "릴리스",   "url": "/kr/dancexr/releases"},
                {"label": "다운로드", "url": "/kr/dancexr/download"},

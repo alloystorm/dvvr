@@ -12,8 +12,6 @@ hero_ctas:
     url: /kr/dancexr/download
     style: neon
 nav_links:
-  - label: 소개
-    url: /kr/dancexr
   - label: 기능
     url: /kr/dancexr/features
   - label: 릴리스
