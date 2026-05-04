@@ -57,7 +57,7 @@
 </div>{% endif %}
 
 <!-- ── Main ────────────────────────────────────────────────── -->
-{% assign json_url = page.path | replace: '.md', '.json' | prepend: '/' %}
+{% assign json_url = lp | append: '.json' | prepend: '/' %}
 <main class="release-main feature-main" id="content">
   <div class="release-layout">
 

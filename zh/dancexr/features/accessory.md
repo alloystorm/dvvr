@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: 配件
 locale: zh-CN
 nav_links:
