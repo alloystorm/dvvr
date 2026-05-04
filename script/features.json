@@ -152,6 +152,9 @@
               "image": "/images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp"
             },
             {
+              "path": "features/global_actor_control"              
+            },
+            {
               "path": "features/attach_to_actor",
               "badge": "2025.2 · PRO",
               "badge_type": "pro",
@@ -168,6 +171,9 @@
             {
               "path": "features/troubleshooting_options",
               "image": "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
+            },
+            {
+              "path": "features/motion_passes"
             },
             {
               "title": "Actor Presets",
@@ -216,7 +222,7 @@
               "image": "/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp"
             },
             {
-              "path": "features/outfit_body_paint",
+              "path": "features/outfit",
               "badge": "2024.3 · PRO",
               "badge_type": "pro",
               "image": "/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp"
@@ -517,6 +523,10 @@
               "image": "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
             },
             {
+              "path": "features/lifelike_motions",
+              "image": "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
+            },
+            {
               "path": "features/actor_motion_settings",
               "image": "/images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp"
             }
@@ -767,13 +777,13 @@
       },
       "tiles": [
         {
-          "path": "features/camera",
-          "title": "Camera Overview",
+          "path": "features/camera_settings",
+          "title": "Camera Settings",
           "title_locales": {
-            "jp": "カメラ概要",
-            "zh": "摄影机概述",
-            "tw": "攝影機概述",
-            "kr": "카메라 개요"
+            "jp": "カメラ設定",
+            "zh": "摄影机设置",
+            "tw": "攝影機設定",
+            "kr": "카메라 설정"
           },
           "image": "/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp"
         },
@@ -939,7 +949,7 @@
       },
       "tiles": [
         {
-          "path": "features/boob_shake_sex_overlay",
+          "path": "features/shake_boobs_overlay",
           "title": "Boob Shake",
           "title_locales": {
             "jp": "胸揺れ",
@@ -951,7 +961,7 @@
           "badge_type": "nsfw"
         },
         {
-          "path": "features/boob_shake_sex_overlay",
+          "path": "features/smo_config",
           "title": "Sex Overlay",
           "title_locales": {
             "jp": "セックスオーバーレイ",

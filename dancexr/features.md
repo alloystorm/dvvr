@@ -93,6 +93,8 @@ feature_sections:
           - title: "Actor Menu & Tools"
             link: /dancexr/features/actor_tools
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
+          - title: Global Actor Control
+            link: /dancexr/features/global_actor_control
           - title: Attach To Actor
             link: /dancexr/features/attach_to_actor
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
@@ -107,6 +109,8 @@ feature_sections:
           - title: Troubleshooting Options
             link: /dancexr/features/troubleshooting_options
             image: /images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp
+          - title: Motion Passes
+            link: /dancexr/features/motion_passes
           - title: Actor Presets
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
             badge: 2024.1
@@ -126,8 +130,8 @@ feature_sections:
             image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
             badge: 2026.1
             badge_type: new
-          - title: Outfit Body Paint
-            link: /dancexr/features/outfit_body_paint
+          - title: "Outfit & Bodypaint"
+            link: /dancexr/features/outfit
             image: /images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp
             badge: 2024.3 · PRO
             badge_type: pro
@@ -306,6 +310,9 @@ feature_sections:
           - title: Blink, Breathing and Eye Contact
             link: /dancexr/features/eyecontact
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
+          - title: Lifelike Motions
+            link: /dancexr/features/lifelike_motions
+            image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
           - title: Actor Motion Settings
             link: /dancexr/features/actor_motion_settings
             image: /images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp
@@ -437,8 +444,8 @@ feature_sections:
   - title: Cinematic Camera
     light: true
     tiles:
-      - title: Camera Overview
-        link: /dancexr/features/camera
+      - title: Camera Settings
+        link: /dancexr/features/camera_settings
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
       - title: "[Freefly Cam]"
         link: /dancexr/features/freefly_cam
@@ -508,11 +515,11 @@ feature_sections:
     light: true
     tiles:
       - title: Boob Shake
-        link: /dancexr/features/boob_shake_sex_overlay
+        link: /dancexr/features/shake_boobs_overlay
         badge: NSFW
         badge_type: nsfw
       - title: Sex Overlay
-        link: /dancexr/features/boob_shake_sex_overlay
+        link: /dancexr/features/smo_config
         badge: NSFW
         badge_type: nsfw
       - title: Dildo

@@ -45,6 +45,8 @@ rather than final looks.
 
 ## Body Paint
 
+{% include video id="chHk9--cUYE" provider="youtube" %}
+
 See the *Body Paint* sub-section. Brush size, rotation, color,
 stamp texture, and save/load drawing live there. Visible only
 in Color Paint and Outfit Paint modes.

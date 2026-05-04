@@ -30,6 +30,8 @@ nav_links:
 
 ## 身体彩绘
 
+{% include video id="chHk9--cUYE" provider="youtube" %}
+
 请参阅*身体彩绘*子部分。画笔大小、旋转、颜色、图章纹理以及实时保存/加载绘画功能都在此可见。仅在色彩涂装和服装涂装模式下可见。
 
 

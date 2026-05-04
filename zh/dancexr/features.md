@@ -95,6 +95,8 @@ feature_sections:
           - title: 演员菜单和工具
             link: /zh/dancexr/features/actor_tools
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
+          - title: 全局角色控制
+            link: /zh/dancexr/features/global_actor_control
           - title: 附加到角色
             link: /zh/dancexr/features/attach_to_actor
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
@@ -109,6 +111,8 @@ feature_sections:
           - title: 故障排除选项
             link: /zh/dancexr/features/troubleshooting_options
             image: /images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp
+          - title: 运动通道/运动传递
+            link: /zh/dancexr/features/motion_passes
           - title: 演员预设
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
             badge: 2024.1
@@ -128,8 +132,8 @@ feature_sections:
             image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
             badge: 2026.1
             badge_type: new
-          - title: 服装身体油漆
-            link: /zh/dancexr/features/outfit_body_paint
+          - title: 服装与身体彩绘
+            link: /zh/dancexr/features/outfit
             image: /images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp
             badge: 2024.3 · PRO
             badge_type: pro
@@ -308,6 +312,9 @@ feature_sections:
           - title: 眨眼、呼吸和眼神交流
             link: /zh/dancexr/features/eyecontact
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
+          - title: 逼真的动作
+            link: /zh/dancexr/features/lifelike_motions
+            image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
           - title: 演员动作设置
             link: /zh/dancexr/features/actor_motion_settings
             image: /images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp
@@ -439,8 +446,8 @@ feature_sections:
   - title: 电影摄影机
     light: true
     tiles:
-      - title: 摄影机概述
-        link: /zh/dancexr/features/camera
+      - title: 摄影机设置
+        link: /zh/dancexr/features/camera_settings
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
       - title: "[自由飞相机]"
         link: /zh/dancexr/features/freefly_cam
@@ -510,11 +517,11 @@ feature_sections:
     light: true
     tiles:
       - title: 胸部摇晃
-        link: /zh/dancexr/features/boob_shake_sex_overlay
+        link: /zh/dancexr/features/shake_boobs_overlay
         badge: NSFW
         badge_type: nsfw
       - title: 性行为覆盖
-        link: /zh/dancexr/features/boob_shake_sex_overlay
+        link: /zh/dancexr/features/smo_config
         badge: NSFW
         badge_type: nsfw
       - title: 假阳具
