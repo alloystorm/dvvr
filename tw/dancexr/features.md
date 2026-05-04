@@ -529,7 +529,7 @@ feature_sections:
         link: /tw/dancexr/features/sfb_motion
         badge: NSFW
         badge_type: nsfw
-      - title: `./motion/proc/sm3`
+      - title: 性愛運動3
         link: /tw/dancexr/features/sex_motion_3
         badge: NSFW
         badge_type: nsfw

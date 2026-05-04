@@ -1,7 +1,6 @@
 ---
 layout: release
 title: 照明 (またはライティング)
-(If this is a major heading, it should ideally be formatted as one, but since the input lacks formatting, I will provide the clearest translation.)<channel|>照明
 locale: ja-JP
 nav_links:
   - label: イントロ

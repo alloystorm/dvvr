@@ -1,6 +1,6 @@
 ---
 layout: release
-title: `./motion/proc/sm3`
+title: 性愛運動3
 locale: zh-TW
 nav_links:
   - label: 簡介
@@ -13,7 +13,7 @@ nav_links:
     url: /tw/dancexr/download
 ---
 
-# ./motion/proc/sm3
+# 性愛運動3
 
 適用於男性和女性角色成對的程序化成對性動作。女性側負責生成搖擺、抽插節奏、接觸框架和興奮狀態；男性側則綁定到此接觸框架上，確保雙方保持鎖定，而不是像兩個獨立動畫一樣漂移。
 
