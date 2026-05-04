@@ -30,37 +30,26 @@ The **Physics** panel configures spring joint behavior with
 presets (Spring, Hanging, Floating), gravity, collision,
 mass, distance, spring force, damping, and speed limits.
 
+
 # Sub-Components
 
 ## Style
 
 Nested config for light ball appearance. Presets: **Glow**
-
 (emissive), **Reflective** (metallic), **Crystal**
-
 (refractive). **Use Stage Color** syncs with scene
-
 lighting. **Flashing With Beats** pulses intensity to
-
 audio. Controls **Color**, **Gloss**, **Glow**, **Radius**,
-
 **Metallic**, **Intensity**, **Refraction**, **Cast
-
 Shadow**, and **Trail** length.
 
 ## Physics
 
 Nested config for light ball physics behavior. Presets:
-
 **Spring** (no gravity/collision), **Hanging** (gravity +
-
 collision), **Floating** (no gravity/collision). **Gravity**
-
 enables downward force. **Collision** enables physics
-
 collisions. **Mass**, **Distance**, **Spring Force**, and
-
 **Damping** configure the spring joint. **Min/Max Speed**
-
 clamp velocity.
 

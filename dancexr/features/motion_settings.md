@@ -68,25 +68,18 @@ the animation's assumptions.
 Targets** render debug gizmos for the skeleton hierarchy and IK
 target positions (PMX models only).
 
+
 # Sub-Components
 
 ## sd_pose
 
 Adjusts the default (zero-pose) rotation for every major bone group
-
 on the actor. Values rotate the bone away from its imported T-pose
-
 so you can fix models that stand with arms too wide, legs too close,
-
 or fingers splayed incorrectly.
 
-
-
 Each setting is a 3-axis rotation (X/Y/Z) in degrees. Left-side
-
 bones are mirrored to the right side automatically. **Ring Finger**
-
 and **Middle Finger** are scalar multipliers relative to Pinky and
-
 Index respectively, keeping finger curls proportional.
 

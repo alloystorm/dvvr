@@ -80,7 +80,6 @@ slots. **Refresh Interval** sets how many beats pass between
 reallocations.
 
 
-
 # Sub-Components
 
 ## Sunlight
@@ -182,8 +181,8 @@ default to inherit the global scene quality, or override it to
 force raytraced or screen-space shadows on this group.
 **Shadow Dimmer** softens the shadow without fully disabling it.
 
-
 ## Additional 2
+
 A configurable group of one or more lights, positioned relative
 to the scene or an actor. Three groups are available in the
 Lighting settings, typically used as key, fill, and rim lights,
@@ -301,7 +300,6 @@ Each group has independent shadow controls. Leave mode at the
 default to inherit the global scene quality, or override it to
 force raytraced or screen-space shadows on this group.
 **Shadow Dimmer** softens the shadow without fully disabling it.
-
 
 ## Auto Exposure
 
