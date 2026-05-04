@@ -1,0 +1,336 @@
+{
+  "name": "./motion/proc/concert_cam",
+  "docPath": "features/concert_cam",
+  "label": "[Fixed Camera]",
+  "labels": {
+    "ja": "[固定カメラ]",
+    "zh-TW": "[固定攝影機]",
+    "ko": "[고정 카메라]",
+    "zh-CN": "[固定相机]"
+  },
+  "description": "Fixed camera positioned at a set location, always looking at the focused actor.\r\n\r\n## Framing\r\n\r\n**Size** controls how large the target actor appears in the camera view.\r\nLower values zoom in for a tighter frame; higher values show more of the\r\nsurrounding scene.\r\n\r\n**Target Center** shifts the focal point up or down on the actor's body.\r\nNegative values focus lower (legs/feet); positive values focus higher\r\n(chest/head).\r\n\r\n## Position\r\n\r\n**Offset** moves the camera's fixed position in 3D space. Use this to\r\nplace the camera exactly where you want it relative to the scene origin.\r\n\r\n**Shift** tilts the camera up or down while keeping its fixed position.\r\nThis changes the angle of view without moving the camera location.\r\n\r\n## Field of View\r\n\r\n**FOV** controls how wide the camera lens is. Lower values act like a\r\ntelephoto lens (narrow view, zoomed in); higher values act like a wide-angle\r\nlens (broader view, more perspective distortion).",
+  "values": [
+    {
+      "name": "Target Select",
+      "type": "options",
+      "label": "Target Select",
+      "labels": {
+        "ja": "ターゲット選択",
+        "zh-TW": "目標選擇",
+        "ko": "대상 선택",
+        "zh-CN": "目标选择"
+      },
+      "default": "Auto",
+      "min": 0,
+      "max": 5,
+      "options": ["Auto", "Selected", "Group", "Rotate", "Rotate + Group", "Stage Center"],
+      "description": null
+    },
+    {
+      "name": "Tracking Mode",
+      "type": "options",
+      "label": "Tracking Mode",
+      "labels": {
+        "ja": "トラッキングモード",
+        "zh-TW": "跟蹤模式",
+        "ko": "추적 모드",
+        "zh-CN": "跟踪模式"
+      },
+      "default": "Center",
+      "min": 0,
+      "max": 2,
+      "options": ["Center", "Head", "Chest"],
+      "description": null
+    },
+    {
+      "name": "Target Smoothing",
+      "type": "float",
+      "label": "Target Smoothing",
+      "labels": {
+        "ja": "ターゲット平滑化",
+        "zh-TW": "目標平滑度",
+        "ko": "대상 스무딩",
+        "zh-CN": "目标平滑处理"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Prediction",
+      "type": "float",
+      "label": "Prediction",
+      "labels": {
+        "ja": "予測",
+        "zh-TW": "預測",
+        "ko": "예측",
+        "zh-CN": "预测"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": "Predict position of the target to reduce lag caused by smoothing"
+    },
+    {
+      "name": "Lock On Target",
+      "type": "bool",
+      "label": "Lock On Target",
+      "labels": {
+        "ja": "ターゲットにロックオン",
+        "zh-TW": "鎖定目標",
+        "ko": "대상 고정",
+        "zh-CN": "锁定目标"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Automatically focus on target"
+    },
+    {
+      "name": "Camera Shake",
+      "type": "float",
+      "label": "Camera Shake",
+      "labels": {
+        "ja": "カメラシェイク",
+        "zh-TW": "相機晃動",
+        "ko": "카메라 흔들림",
+        "zh-CN": "镜头摇晃"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Lock Rotation",
+      "type": "bool",
+      "label": "Lock Rotation",
+      "labels": {
+        "ja": "回転固定",
+        "zh-TW": "鎖定旋轉",
+        "ko": "회전 잠금",
+        "zh-CN": "锁定旋转"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Camera follows the rotation of the target"
+    },
+    {
+      "name": "Auto Zoom",
+      "type": "float",
+      "label": "Auto Zoom",
+      "labels": {
+        "ja": "自動ズーム",
+        "zh-TW": "自動變焦",
+        "ko": "자동 확대/축소",
+        "zh-CN": "自动变焦"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Automatically zoom in and out to maintain the target size in view"
+    },
+    {
+      "name": "Zoom Speed",
+      "type": "float",
+      "label": "Zoom Speed",
+      "labels": {
+        "ja": "ズーム速度",
+        "zh-TW": "變焦速度",
+        "ko": "확대/축소 속도",
+        "zh-CN": "变焦速度"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Time it takes to zoom to target FOV"
+    },
+    {
+      "name": "FOV Height At Target",
+      "type": "float",
+      "label": "FOV Height At Target",
+      "labels": {
+        "ja": "ターゲットにおけるFOV高さ",
+        "zh-TW": "目標處視野高度",
+        "ko": "대상 위치에서의 FOV 높이",
+        "zh-CN": "目标处的视场高度"
+      },
+      "default": 1,
+      "min": 0.2,
+      "max": 2,
+      "options": null,
+      "description": "Vertical height for the target when using auto zoom"
+    },
+    {
+      "name": "Vertical Offset",
+      "type": "float",
+      "label": "Vertical Offset",
+      "labels": {
+        "ja": "垂直オフセット",
+        "zh-TW": "垂直偏移",
+        "ko": "수직 오프셋",
+        "zh-CN": "垂直偏移"
+      },
+      "default": 0,
+      "min": -1,
+      "max": 1,
+      "options": null,
+      "description": "Offset vertically"
+    },
+    {
+      "name": "FOV",
+      "type": "float",
+      "label": "FOV",
+      "labels": {
+        "ja": "FOV",
+        "zh-TW": "視野",
+        "ko": "FOV",
+        "zh-CN": "视场角"
+      },
+      "default": 10,
+      "min": 5,
+      "max": 120,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Beat Cycle",
+      "type": "int",
+      "label": "Beat Cycle",
+      "labels": {
+        "ja": "ビートサイクル",
+        "zh-TW": "節拍循環",
+        "ko": "비트 사이클",
+        "zh-CN": "节拍周期"
+      },
+      "default": 8,
+      "min": 1,
+      "max": 16,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Size",
+      "type": "float",
+      "label": "Size",
+      "labels": {
+        "ja": "サイズ",
+        "zh-TW": "尺寸",
+        "ko": "크기",
+        "zh-CN": "大小"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": "Size of the target actor in the camera view."
+    },
+    {
+      "name": "Shift",
+      "type": "float",
+      "label": "Shift",
+      "labels": {
+        "ja": "シフト",
+        "zh-TW": "偏移",
+        "ko": "이동",
+        "zh-CN": "移位"
+      },
+      "default": 0,
+      "min": -1,
+      "max": 1,
+      "options": null,
+      "description": "Shift the camera position up or down."
+    },
+    {
+      "name": "Target Center",
+      "type": "float",
+      "label": "Target Center",
+      "labels": {
+        "ja": "ターゲット中心",
+        "zh-TW": "焦點中心",
+        "ko": "대상 중심",
+        "zh-CN": "目标中心"
+      },
+      "default": 0,
+      "min": -1,
+      "max": 1,
+      "options": null,
+      "description": "Center position of the focal point on the target actor."
+    },
+    {
+      "name": "Offset",
+      "type": "group",
+      "label": "Offset",
+      "labels": {
+        "ja": "オフセット",
+        "zh-TW": "偏移",
+        "ko": "오프셋",
+        "zh-CN": "偏移量"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "X",
+          "type": "float",
+          "label": "X",
+          "labels": {
+            "ja": "(X)",
+            "zh-TW": "(X)",
+            "ko": "(X)",
+            "zh-CN": "(X)"
+          },
+          "default": 0,
+          "min": -2,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Y",
+          "type": "float",
+          "label": "Y",
+          "labels": {
+            "ja": "(Y)",
+            "zh-TW": "(Y)",
+            "ko": "(Y)",
+            "zh-CN": "(Y)"
+          },
+          "default": 0,
+          "min": -2,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Z",
+          "type": "float",
+          "label": "Z",
+          "labels": {
+            "ja": "(Z)",
+            "zh-TW": "(Z)",
+            "ko": "(Z)",
+            "zh-CN": "(Z)"
+          },
+          "default": 0,
+          "min": -2,
+          "max": 2,
+          "options": null,
+          "description": null
+        }
+      ]
+    }
+  ]
+}

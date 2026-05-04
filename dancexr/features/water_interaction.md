@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Water Interaction"
 locale: en-US
 nav_links:

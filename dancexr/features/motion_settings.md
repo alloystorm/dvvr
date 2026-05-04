@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Motion Settings"
 locale: en-US
 nav_links:

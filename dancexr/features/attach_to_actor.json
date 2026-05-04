@@ -1,0 +1,226 @@
+{
+  "name": "Attach To Actor",
+  "docPath": "features/attach_to_actor",
+  "label": "Attach To Actor",
+  "labels": {
+    "ja": "アクターにアタッチ",
+    "zh-TW": "附加到角色",
+    "ko": "액터에 부착",
+    "zh-CN": "附加到角色"
+  },
+  "description": "Attaches a source bone from this actor to a target bone on\r\nanother actor, enabling cross-character interactions.\r\n\r\n**Select Source Bones** picks the bone to attach from this\r\nactor. **Actor Select** chooses the target actor. **Select\r\nTarget Bones** picks the destination bone on the target\r\nactor. **Ignore Rotation** preserves the source bone's\r\noriginal orientation. **Offset** and **Rotation** fine-tune\r\nthe attachment position. **Scale** adjusts size with power-\r\nof-2 scaling.",
+  "values": [
+    {
+      "name": "Select Source Bones",
+      "type": "value",
+      "label": "Select Source Bones",
+      "labels": {
+        "ja": "ソースボーンの選択",
+        "zh-TW": "選擇來源骨骼",
+        "ko": "소스 본 선택",
+        "zh-CN": "选择源骨骼"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Select bone to attach"
+    },
+    {
+      "name": "Select Actor",
+      "type": "options",
+      "label": "Select Actor",
+      "labels": {
+        "ja": "アクター選択",
+        "zh-TW": "選擇角色",
+        "ko": "액터 선택",
+        "zh-CN": "选择角色"
+      },
+      "default": "0",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Select Target Bones",
+      "type": "value",
+      "label": "Select Target Bones",
+      "labels": {
+        "ja": "ターゲットボーンの選択",
+        "zh-TW": "選擇目標骨骼",
+        "ko": "대상 본 선택",
+        "zh-CN": "选择目标骨骼"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Select target bone to attach to"
+    },
+    {
+      "name": "Ignore Rotation",
+      "type": "bool",
+      "label": "Ignore Rotation",
+      "labels": {
+        "ja": "(Ignore Rotation)",
+        "zh-TW": "(Ignore Rotation)",
+        "ko": "(Ignore Rotation)",
+        "zh-CN": "(Ignore Rotation)"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Ignore rotation of attach bone"
+    },
+    {
+      "name": "Offset",
+      "type": "group",
+      "label": "Offset",
+      "labels": {
+        "ja": "オフセット",
+        "zh-TW": "偏移",
+        "ko": "오프셋",
+        "zh-CN": "偏移量"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "X",
+          "type": "float",
+          "label": "X",
+          "labels": {
+            "ja": "(X)",
+            "zh-TW": "(X)",
+            "ko": "(X)",
+            "zh-CN": "(X)"
+          },
+          "default": 0,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Y",
+          "type": "float",
+          "label": "Y",
+          "labels": {
+            "ja": "(Y)",
+            "zh-TW": "(Y)",
+            "ko": "(Y)",
+            "zh-CN": "(Y)"
+          },
+          "default": 0,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Z",
+          "type": "float",
+          "label": "Z",
+          "labels": {
+            "ja": "(Z)",
+            "zh-TW": "(Z)",
+            "ko": "(Z)",
+            "zh-CN": "(Z)"
+          },
+          "default": 0,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Rotation",
+      "type": "group",
+      "label": "Rotation",
+      "labels": {
+        "ja": "回転",
+        "zh-TW": "旋轉",
+        "ko": "회전",
+        "zh-CN": "旋转"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "X",
+          "type": "float",
+          "label": "X",
+          "labels": {
+            "ja": "(X)",
+            "zh-TW": "(X)",
+            "ko": "(X)",
+            "zh-CN": "(X)"
+          },
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Y",
+          "type": "float",
+          "label": "Y",
+          "labels": {
+            "ja": "(Y)",
+            "zh-TW": "(Y)",
+            "ko": "(Y)",
+            "zh-CN": "(Y)"
+          },
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Z",
+          "type": "float",
+          "label": "Z",
+          "labels": {
+            "ja": "(Z)",
+            "zh-TW": "(Z)",
+            "ko": "(Z)",
+            "zh-CN": "(Z)"
+          },
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Scale",
+      "type": "float",
+      "label": "Scale",
+      "labels": {
+        "ja": "スケール",
+        "zh-TW": "縮放",
+        "ko": "스케일",
+        "zh-CN": "缩放"
+      },
+      "default": 0,
+      "min": -4,
+      "max": 4,
+      "options": null,
+      "description": null
+    }
+  ]
+}

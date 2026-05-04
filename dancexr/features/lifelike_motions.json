@@ -1,0 +1,480 @@
+{
+  "name": "Lifelike Motions",
+  "docPath": "features/lifelike_motions",
+  "label": "Lifelike Motions",
+  "labels": {
+    "ja": "生き生きとした動き",
+    "zh-TW": "栩栩如生的動作",
+    "ko": "생동감 있는 움직임",
+    "zh-CN": "栩栩如生的动作"
+  },
+  "description": "Adds idle behaviors that make the actor feel alive when no\r\nanimation is playing: breathing, blinking, micro-movements,\r\nand eye contact.\r\n\r\n\r\n## Eye Contact\r\n\r\nWhen enabled, the actor looks at cameras, other actors, or\r\nbody parts within a configurable visual angle. **Look At\r\nCamera**, **Look At Peers**, and **Look At Body** set the\r\nrelative priority of each target type. **Eye Contact Head\r\nTurn** controls how much of the gaze is done by rotating the\r\nhead versus just the eyes (real humans turn their head about\r\n70% of the way).\r\n\r\n**Cartoon Eyes** reduces eye rotation amplitude for models\r\nwith oversized anime eyes so they don't roll out of the\r\nsockets; **Cartoon Eyes Limit** sets the reduction amount.\r\n**Stare Mode** locks onto the closest target instead of\r\nshifting gaze naturally. **Smile Mouth** and **Smile\r\nEyebrow** add subtle expression while making eye contact.\r\n\r\n\r\n## Shape Morph Eye Control\r\n\r\nAn alternative to bone-based eye rotation that uses blend\r\nshapes (morphs) instead. Enable the toggle and assign\r\nmorphs for each gaze direction (Left Eye Left, Left Eye\r\nRight, etc.). **Left Right Range** and **Up Down Range**\r\nset the blend shape activation angles.\r\n\r\n\r\n## Breathing\r\n\r\nSimulates chest expansion during breathing by subtly\r\nrotating the torso and neck bones. **Breath Rate** controls\r\nthe speed of the cycle.\r\n\r\n\r\n## Micro Move\r\n\r\nAdds tiny random rotations to the head and torso to prevent\r\nthe actor from looking completely frozen. **Extent** scales\r\nthe amplitude; **Cycle** sets the oscillation period.\r\n\r\n\r\n## Blink\r\n\r\nRandom blinking at 2–10 second intervals. **Blink Duration**\r\ncontrols how long each blink takes.",
+  "values": [
+    {
+      "name": "Eye Contact",
+      "type": "bool",
+      "label": "Eye Contact",
+      "labels": {
+        "ja": "アイコンタクト",
+        "zh-TW": "眼神交流",
+        "ko": "눈맞춤",
+        "zh-CN": "眼神交流"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Enable eye contact, look at and turn head towards camera or other models when they are in visual range"
+    },
+    {
+      "name": "Stare Mode",
+      "type": "bool",
+      "label": "Stare Mode",
+      "labels": {
+        "ja": "凝視モード",
+        "zh-TW": "直視模式",
+        "ko": "응시 모드",
+        "zh-CN": "凝视模式"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Constantly looking at the closest target in range."
+    },
+    {
+      "name": "Look At Camera",
+      "type": "float",
+      "label": "Look At Camera",
+      "labels": {
+        "ja": "カメラを見る",
+        "zh-TW": "注視攝影機",
+        "ko": "카메라 응시",
+        "zh-CN": "看向相机"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Priority of cameras as gaze target"
+    },
+    {
+      "name": "Look At Peers",
+      "type": "float",
+      "label": "Look At Peers",
+      "labels": {
+        "ja": "他のキャラクターを見る",
+        "zh-TW": "注視同伴",
+        "ko": "동료 응시",
+        "zh-CN": "看向同伴"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Priority of other models as gaze target"
+    },
+    {
+      "name": "Look At Body",
+      "type": "float",
+      "label": "Look At Body",
+      "labels": {
+        "ja": "体を見る",
+        "zh-TW": "注視身體",
+        "ko": "신체 응시",
+        "zh-CN": "看向身体"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Priority of certain body parts as gaze target"
+    },
+    {
+      "name": "Eye Contact Angle",
+      "type": "float",
+      "label": "Eye Contact Angle",
+      "labels": {
+        "ja": "アイコンタクト角度",
+        "zh-TW": "眼神交流角度",
+        "ko": "눈맞춤 각도",
+        "zh-CN": "眼神交流角度"
+      },
+      "default": 80,
+      "min": 0,
+      "max": 180,
+      "options": null,
+      "description": "Angle of visual range, only objects within this angle can be gaze target"
+    },
+    {
+      "name": "Eye Contact Head Turn",
+      "type": "float",
+      "label": "Eye Contact Head Turn",
+      "labels": {
+        "ja": "アイコンタクト時の頭の向き",
+        "zh-TW": "眼神交流和頭部轉動",
+        "ko": "눈맞춤 시 머리 회전",
+        "zh-CN": "眼神交流头部转向"
+      },
+      "default": 0.7,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Ratio of head turn when looking at target"
+    },
+    {
+      "name": "Cartoon Eyes",
+      "type": "bool",
+      "label": "Cartoon Eyes",
+      "labels": {
+        "ja": "カートゥーン目",
+        "zh-TW": "卡通眼睛",
+        "ko": "만화 눈",
+        "zh-CN": "卡通眼睛"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Reduce eye rotation, useful for models with big cartoon eyes"
+    },
+    {
+      "name": "Cartoon Eyes Limit",
+      "type": "float",
+      "label": "Cartoon Eyes Limit",
+      "labels": {
+        "ja": "カートゥーン目の制限",
+        "zh-TW": "卡通眼睛限制",
+        "ko": "만화 눈 제한",
+        "zh-CN": "卡通眼睛限制"
+      },
+      "default": 0.4,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "How much rotation reduction in cartoon eyes mode"
+    },
+    {
+      "name": "Smile Mouth",
+      "type": "float",
+      "label": "Smile Mouth",
+      "labels": {
+        "ja": "笑う口元",
+        "zh-TW": "微笑嘴型",
+        "ko": "웃는 입",
+        "zh-CN": "微笑嘴部"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Smile Eyebrow",
+      "type": "float",
+      "label": "Smile Eyebrow",
+      "labels": {
+        "ja": "笑う眉毛",
+        "zh-TW": "微笑眉毛",
+        "ko": "웃는 눈썹",
+        "zh-CN": "微笑眉毛"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Blink",
+      "type": "bool",
+      "label": "Blink",
+      "labels": {
+        "ja": "まばたき",
+        "zh-TW": "眨眼",
+        "ko": "깜빡임",
+        "zh-CN": "眨眼"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Automatically blink eyes at random interval"
+    },
+    {
+      "name": "Blink Duration",
+      "type": "float",
+      "label": "Blink Duration",
+      "labels": {
+        "ja": "まばたきの持続時間",
+        "zh-TW": "眨眼持續時間",
+        "ko": "깜빡임 지속 시간",
+        "zh-CN": "眨眼持续时间"
+      },
+      "default": 0.5,
+      "min": 0.05,
+      "max": 0.95,
+      "options": null,
+      "description": "Duration of each blink"
+    },
+    {
+      "name": "Shape Morph Eye Control",
+      "type": "group",
+      "label": "Shape Morph Eye Control",
+      "labels": {
+        "ja": "シェイプモーフィングによる目の制御",
+        "zh-TW": "形狀變形眼部控制",
+        "ko": "형태 변형 눈 제어",
+        "zh-CN": "形状变形眼睛控制"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Left Eye Left",
+          "type": "options",
+          "label": "Left Eye Left",
+          "labels": {
+            "ja": "(Left Eye Left)",
+            "zh-TW": "(Left Eye Left)",
+            "ko": "(Left Eye Left)",
+            "zh-CN": "(Left Eye Left)"
+          },
+          "default": "None",
+          "min": 0,
+          "max": 0,
+          "options": ["None"],
+          "description": null
+        },
+        {
+          "name": "Left Eye Right",
+          "type": "options",
+          "label": "Left Eye Right",
+          "labels": {
+            "ja": "(Left Eye Right)",
+            "zh-TW": "(Left Eye Right)",
+            "ko": "(Left Eye Right)",
+            "zh-CN": "(Left Eye Right)"
+          },
+          "default": "None",
+          "min": 0,
+          "max": 0,
+          "options": ["None"],
+          "description": null
+        },
+        {
+          "name": "Left Eye Up",
+          "type": "options",
+          "label": "Left Eye Up",
+          "labels": {
+            "ja": "(Left Eye Up)",
+            "zh-TW": "(Left Eye Up)",
+            "ko": "(Left Eye Up)",
+            "zh-CN": "(Left Eye Up)"
+          },
+          "default": "None",
+          "min": 0,
+          "max": 0,
+          "options": ["None"],
+          "description": null
+        },
+        {
+          "name": "Left Eye Down",
+          "type": "options",
+          "label": "Left Eye Down",
+          "labels": {
+            "ja": "(Left Eye Down)",
+            "zh-TW": "(Left Eye Down)",
+            "ko": "(Left Eye Down)",
+            "zh-CN": "(Left Eye Down)"
+          },
+          "default": "None",
+          "min": 0,
+          "max": 0,
+          "options": ["None"],
+          "description": null
+        },
+        {
+          "name": "Right Eye Left",
+          "type": "options",
+          "label": "Right Eye Left",
+          "labels": {
+            "ja": "(Right Eye Left)",
+            "zh-TW": "(Right Eye Left)",
+            "ko": "(Right Eye Left)",
+            "zh-CN": "(Right Eye Left)"
+          },
+          "default": "None",
+          "min": 0,
+          "max": 0,
+          "options": ["None"],
+          "description": null
+        },
+        {
+          "name": "Right Eye Right",
+          "type": "options",
+          "label": "Right Eye Right",
+          "labels": {
+            "ja": "(Right Eye Right)",
+            "zh-TW": "(Right Eye Right)",
+            "ko": "(Right Eye Right)",
+            "zh-CN": "(Right Eye Right)"
+          },
+          "default": "None",
+          "min": 0,
+          "max": 0,
+          "options": ["None"],
+          "description": null
+        },
+        {
+          "name": "Right Eye Up",
+          "type": "options",
+          "label": "Right Eye Up",
+          "labels": {
+            "ja": "(Right Eye Up)",
+            "zh-TW": "(Right Eye Up)",
+            "ko": "(Right Eye Up)",
+            "zh-CN": "(Right Eye Up)"
+          },
+          "default": "None",
+          "min": 0,
+          "max": 0,
+          "options": ["None"],
+          "description": null
+        },
+        {
+          "name": "Right Eye Down",
+          "type": "options",
+          "label": "Right Eye Down",
+          "labels": {
+            "ja": "(Right Eye Down)",
+            "zh-TW": "(Right Eye Down)",
+            "ko": "(Right Eye Down)",
+            "zh-CN": "(Right Eye Down)"
+          },
+          "default": "None",
+          "min": 0,
+          "max": 0,
+          "options": ["None"],
+          "description": null
+        },
+        {
+          "name": "Left Right Range",
+          "type": "float",
+          "label": "Left Right Range",
+          "labels": {
+            "ja": "(Left Right Range)",
+            "zh-TW": "(Left Right Range)",
+            "ko": "(Left Right Range)",
+            "zh-CN": "(Left Right Range)"
+          },
+          "default": 45,
+          "min": 15,
+          "max": 60,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Up Down Range",
+          "type": "float",
+          "label": "Up Down Range",
+          "labels": {
+            "ja": "(Up Down Range)",
+            "zh-TW": "(Up Down Range)",
+            "ko": "(Up Down Range)",
+            "zh-CN": "(Up Down Range)"
+          },
+          "default": 30,
+          "min": 15,
+          "max": 45,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Breathing",
+      "type": "bool",
+      "label": "Breathing",
+      "labels": {
+        "ja": "呼吸",
+        "zh-TW": "呼吸",
+        "ko": "호흡",
+        "zh-CN": "呼吸"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Breathing motion"
+    },
+    {
+      "name": "Breath Rate",
+      "type": "float",
+      "label": "Breath Rate",
+      "labels": {
+        "ja": "呼吸頻度",
+        "zh-TW": "呼吸頻率",
+        "ko": "호흡 속도",
+        "zh-CN": "呼吸频率"
+      },
+      "default": 0.3,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Micro Move",
+      "type": "bool",
+      "label": "Micro Move",
+      "labels": {
+        "ja": "マイクロムーブメント",
+        "zh-TW": "微動",
+        "ko": "미세 움직임",
+        "zh-CN": "微动"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Add micro movements"
+    },
+    {
+      "name": "Micro Move Extent",
+      "type": "float",
+      "label": "Micro Move Extent",
+      "labels": {
+        "ja": "マイクロムーブメント範囲",
+        "zh-TW": "微動範圍",
+        "ko": "미세 움직임 범위",
+        "zh-CN": "微动幅度"
+      },
+      "default": 0.25,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Micro Move Cycle",
+      "type": "float",
+      "label": "Micro Move Cycle",
+      "labels": {
+        "ja": "マイクロムーブメントサイクル",
+        "zh-TW": "微動週期",
+        "ko": "미세 움직임 주기",
+        "zh-CN": "微动循环"
+      },
+      "default": 3,
+      "min": 1,
+      "max": 10,
+      "options": null,
+      "description": null
+    }
+  ]
+}

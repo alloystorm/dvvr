@@ -1,0 +1,386 @@
+{
+  "name": "Actor Options",
+  "docPath": "features/loader_options",
+  "label": "Actor Options",
+  "labels": {
+    "ja": "アクターオプション",
+    "zh-TW": "角色選項",
+    "ko": "액터 옵션",
+    "zh-CN": "角色选项"
+  },
+  "description": "Settings that control how actor models are loaded and replaced.\r\n\r\n\r\n## Caching\r\n\r\nModels are kept in an in-memory cache after first load so switching\r\nbetween actors is near-instant. **Cache Size** sets how many models\r\nare held at once — increase it if you switch frequently, lower it\r\nto reduce RAM use.\r\n\r\n\r\n## Texture Compression\r\n\r\nEnabling *Compress Textures* converts textures to a GPU-compressed\r\nformat on load. This reduces VRAM significantly for complex models\r\nbut may introduce minor quality loss on some materials.\r\n\r\n\r\n## Transition\r\n\r\nControls transition effects when adding, removing or replacing actor\r\nmodels. \r\n\r\n\r\n## Auto Actor Change\r\n\r\nWhen multiple models are in cache, the value of *Auto Actor Change* \r\nwill automatically switch between them at runtime. \r\n\r\nWith the auto update enabled for this value you can achieve automatic \r\nactor switching from music progress or any other data source you choose.",
+  "values": [
+    {
+      "name": "Cache Size",
+      "type": "int",
+      "label": "Cache Size",
+      "labels": {
+        "ja": "キャッシュサイズ",
+        "zh-TW": "緩存大小",
+        "ko": "캐시 크기",
+        "zh-CN": "缓存大小"
+      },
+      "default": 10,
+      "min": 0,
+      "max": 20,
+      "options": null,
+      "description": "How many actor models to keep in cache"
+    },
+    {
+      "name": "Retain Options",
+      "type": "bool",
+      "label": "Retain Options",
+      "labels": {
+        "ja": "維持オプション",
+        "zh-TW": "保留選項",
+        "ko": "유지 옵션",
+        "zh-CN": "保留选项"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Automatically applies the settings from the outgoing actor to the incoming actor when replacing actors."
+    },
+    {
+      "name": "Compress Textures",
+      "type": "bool",
+      "label": "Compress Textures",
+      "labels": {
+        "ja": "テクスチャを圧縮",
+        "zh-TW": "壓縮紋理",
+        "ko": "텍스처 압축",
+        "zh-CN": "压缩纹理"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Compress textures to reduce VRAM use"
+    },
+    {
+      "name": "Transition Effect",
+      "type": "group",
+      "label": "Transition Effect",
+      "labels": {
+        "ja": "トランジションエフェクト",
+        "zh-TW": "過渡效果",
+        "ko": "전환 효과",
+        "zh-CN": "过渡效果"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Reusable transition effect applied when actors or other optional\r\nmeshes are added, removed, or replaced. The effect dissolves the\r\nmesh along a moving edge with optional particles, color, and\r\nglow — a single configuration drives both the shader-side burn\r\nand the VFX spawn.\r\n\r\n\r\n## Edge Shape\r\n\r\n**Direction** picks whether the edge sweeps *Up* or *Down* the\r\nmesh. **V Shape** bends the edge from a flat horizontal line\r\n(0) into an angled V — useful for less mechanical-looking\r\ndissolves. **Transition Mode** selects the pattern that breaks\r\nup the edge: *Cells* for a chunky cellular look, *Mosaic* for\r\nsquare tiling, *Noise* for a soft organic dissolve. **Scale**\r\nresizes that pattern (logarithmic) and **Width** widens the\r\nband the dissolve spans, from a sharp line to a diffuse fade.\r\n\r\n\r\n## Color and Glow\r\n\r\n**Color** is the burn color drawn at the leading edge of the\r\ndissolve. **Glow** boosts that edge to an emissive intensity\r\nso it reads as a hot burn rather than a tint. **Blend**\r\ncontrols how much that burn color overrides the mesh's own\r\ncolor in the transition band — drop it to keep the original\r\nmaterial visible through the effect.\r\n\r\n\r\n## Duration and Particles\r\n\r\n**Transition Duration** is an on/off float — toggle it on to\r\nuse a custom duration, off to fall back to the system default.\r\nOn Quest builds the transition is force-disabled regardless.\r\n**Particle Effect** sets the spawn rate (logarithmic — 0\r\ndisables particles entirely) and **Particle Duration** sets\r\nhow long they live. If particle duration exceeds the\r\ntransition duration, the transition is stretched to match so\r\nparticles do not get cut off mid-air.",
+      "values": [
+        {
+          "name": "Direction",
+          "type": "int",
+          "label": "Direction",
+          "labels": {
+            "ja": "方向",
+            "zh-TW": "方向",
+            "ko": "방향",
+            "zh-CN": "方向"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": ["Down", "Up"],
+          "description": "The direction of the animation."
+        },
+        {
+          "name": "V Shape",
+          "type": "float",
+          "label": "V Shape",
+          "labels": {
+            "ja": "V字形",
+            "zh-TW": "V 形",
+            "ko": "V 모양",
+            "zh-CN": "V形"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 5,
+          "options": null,
+          "description": "Controls the angle of the edge, 0 is flat."
+        },
+        {
+          "name": "Transition Mode",
+          "type": "int",
+          "label": "Transition Mode",
+          "labels": {
+            "ja": "トランジションモード",
+            "zh-TW": "過渡模式",
+            "ko": "전환 모드",
+            "zh-CN": "过渡模式"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 2,
+          "options": ["Cells", "Mosaic", "Noise"],
+          "description": null
+        },
+        {
+          "name": "Scale",
+          "type": "float",
+          "label": "Scale",
+          "labels": {
+            "ja": "スケール",
+            "zh-TW": "縮放",
+            "ko": "스케일",
+            "zh-CN": "缩放"
+          },
+          "default": 0,
+          "min": -3,
+          "max": 3,
+          "options": null,
+          "description": "Scale of the pattern."
+        },
+        {
+          "name": "Width",
+          "type": "float",
+          "label": "Width",
+          "labels": {
+            "ja": "幅",
+            "zh-TW": "寬度",
+            "ko": "너비",
+            "zh-CN": "宽度"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "The size of the transition area."
+        },
+        {
+          "name": "Color",
+          "type": "group",
+          "label": "Color",
+          "labels": {
+            "ja": "色",
+            "zh-TW": "顏色",
+            "ko": "색상",
+            "zh-CN": "颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0.1667,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 0.9,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 0.9,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 0.9,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Glow",
+          "type": "float",
+          "label": "Glow",
+          "labels": {
+            "ja": "グロー",
+            "zh-TW": "發光",
+            "ko": "발광",
+            "zh-CN": "发光"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": "Brightness of the burn effect."
+        },
+        {
+          "name": "Blend",
+          "type": "float",
+          "label": "Blend",
+          "labels": {
+            "ja": "ブレンド",
+            "zh-TW": "混合",
+            "ko": "블렌드",
+            "zh-CN": "混合"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Blend between the original color and the burn color. "
+        },
+        {
+          "name": "Transition Duration",
+          "type": "float",
+          "label": "Transition Duration",
+          "labels": {
+            "ja": "トランジション時間",
+            "zh-TW": "過渡持續時間",
+            "ko": "전환 지속 시간",
+            "zh-CN": "过渡时长"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 5,
+          "options": null,
+          "description": "The duration of the animation."
+        },
+        {
+          "name": "Particle Effect",
+          "type": "float",
+          "label": "Particle Effect",
+          "labels": {
+            "ja": "パーティクルエフェクト",
+            "zh-TW": "粒子效果",
+            "ko": "파티클 효과",
+            "zh-CN": "粒子效果"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": "Controls the amount of particles."
+        },
+        {
+          "name": "Particle Duration",
+          "type": "float",
+          "label": "Particle Duration",
+          "labels": {
+            "ja": "パーティクル持続時間",
+            "zh-TW": "粒子持續時間",
+            "ko": "파티클 지속 시간",
+            "zh-CN": "粒子持续时间"
+          },
+          "default": 2.5,
+          "min": 0,
+          "max": 5,
+          "options": null,
+          "description": "Controls the lifetime of the particles."
+        }
+      ]
+    },
+    {
+      "name": "Auto Actor Change",
+      "type": "float",
+      "label": "Auto Actor Change",
+      "labels": {
+        "ja": "自動アクター変更",
+        "zh-TW": "自動角色變更",
+        "ko": "자동 액터 변경",
+        "zh-CN": "自动切换角色"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Automatically switch between actors in the cache based on the value"
+    }
+  ]
+}

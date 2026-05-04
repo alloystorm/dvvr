@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Sex Overlay & Dildo"
 locale: en-US
 nav_links:

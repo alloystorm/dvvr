@@ -1,0 +1,1496 @@
+{
+  "name": "Graphics",
+  "docPath": "features/graphics",
+  "label": "Graphics",
+  "labels": {
+    "ja": "グラフィックス",
+    "zh-TW": "圖形",
+    "ko": "그래픽",
+    "zh-CN": "图形"
+  },
+  "description": "Controls all rendering quality settings for the HDRP (HD and RT)\r\nversions of DanceXR. Choose a preset to get a balanced starting\r\npoint, then tune individual features to hit your performance and\r\nvisual targets.\r\n\r\n\r\n## Presets\r\n\r\nSix presets cover the common range: *Performance* disables\r\nreflections and most screen-space effects; *Medium* adds fog and\r\nscreen-space shadows; *High* enables screen-space reflections;\r\n*Indoor GI* and *Outdoor GI* activate global illumination without\r\nor with sky contribution; *Dither + TAA* pairs temporal\r\nanti-aliasing with dithered transparency for a clean look.\r\n\r\n\r\n## Anti-Aliasing & Super Sampling\r\n\r\n**Anti-Aliasing** selects the per-camera technique — no AA,\r\nSMAA (deferred), or TAA. **Super Sampling** unlocks DLSS or FSR\r\nupscaling when supported, which can boost frame rate at the cost\r\nof a small sharpness trade-off.\r\n\r\n\r\n## Reflection\r\n\r\nScreen-space reflections or a planar reflection probe. Use\r\n*Screen Space* mode for general surfaces; switch to *Probe* for\r\nflat floors or mirrors. Quality, edge fade distance, and fallback\r\nbehaviour are tunable in the sub-section.\r\n\r\n\r\n## Ambient Occlusion & Global Illumination\r\n\r\n**Ambient Occlusion** adds contact shadows in crevices for\r\ngrounded depth. **Global Illumination** adds indirect bounce\r\nlight — enable *Fallback To Sky* for outdoor scenes so surfaces\r\nfacing away from lights still receive sky colour.\r\n\r\n\r\n## Post-Process Effects\r\n\r\n**Depth Of Field** blurs out-of-focus objects around the tracked\r\nactor. **Motion Blur** adds velocity-based blur on fast movement.\r\n**Bloom** makes bright highlights glow. **Lens Flare** adds\r\nscreen-space scattering around bright light sources — disable in\r\nVR to avoid discomfort.\r\n\r\n\r\n## Fog\r\n\r\nEnable volumetric fog and set its height band and maximum render\r\ndistance. Fog density itself is driven by the **Fog** slider in\r\nthe Lighting panel.\r\n\r\n\r\n## Color Adjustment\r\n\r\nTonemapping, exposure, contrast, hue shift, saturation, a color\r\nfilter, a two-point tone curve, and white balance all live here.\r\nThe **Color Curve** maps input luminance to output luminance;\r\nuseful for stylised looks or protecting highlights.\r\n\r\n\r\n## Options\r\n\r\nMiscellaneous rendering flags: **Transparent Prepass** hides\r\nobjects seen through transparent surfaces; **Toon Shading**\r\nswitches actors or stages to a flat cel look; **Dithering\r\nTransparency** forces stippled blending for all transparent\r\nmaterials; **Bump Map Shadow** adds micro-shadow from normal\r\nmaps; **Compute Thickness** enables subsurface skin effects.\r\n\r\n\r\n## Posterization\r\n\r\nA custom-pass effect that adds outlines, posterized\r\nillumination, or a halftone screen over the final frame — useful\r\nfor anime or comic-strip aesthetics.",
+  "values": [
+    {
+      "name": "Anti-Aliasing",
+      "type": "options",
+      "label": "Anti-Aliasing",
+      "labels": {
+        "ja": "アンチエイリアシング",
+        "zh-TW": "抗鋸齒",
+        "ko": "안티 에일리어싱",
+        "zh-CN": "抗锯齿"
+      },
+      "default": "Deferred SMAA",
+      "min": 0,
+      "max": 2,
+      "options": ["No AA", "Deferred SMAA", "Deferred TAA"],
+      "description": null
+    },
+    {
+      "name": "Super Sampling",
+      "type": "options",
+      "label": "Super Sampling",
+      "labels": {
+        "ja": "スーパーサンプリング",
+        "zh-TW": "超採樣",
+        "ko": "슈퍼 샘플링",
+        "zh-CN": "超级采样"
+      },
+      "default": "Off",
+      "min": 0,
+      "max": 8,
+      "options": ["Off", "DLSS Performance", "DLSS Balance", "DLSS Quality", "DLSS Ultra Performance", "FSR 50%", "FSR 66%", "FSR 75%", "FSR 100%"],
+      "description": null
+    },
+    {
+      "name": "Reflection",
+      "type": "group",
+      "label": "Reflection",
+      "labels": {
+        "ja": "反射",
+        "zh-TW": "反射",
+        "ko": "반사",
+        "zh-CN": "反射"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Configures screen-space reflections or a planar reflection probe.\r\n*Screen Space* mode ray-marches the depth buffer to find\r\nreflected surfaces — it works on any geometry but cannot reflect\r\nobjects outside the camera view. Switch to *Probe* mode for flat\r\nsurfaces such as floors or mirrors, which uses a planar capture\r\nthat is always complete but costs more performance.\r\n\r\n\r\n## Algorithm\r\n\r\nIn *Screen Space* mode, *Approximation* is faster and suits most\r\nsurfaces; *PBR Accumulation* is more physically accurate for\r\nrough materials but requires TAA to converge cleanly.\r\n**Edge Fade Dist** fades reflections near screen borders to hide\r\nartefacts; **Object Thickness** controls how deep the march\r\nassumes surfaces to be.\r\n\r\n\r\n## Sky Reflection & Fallback\r\n\r\n**Sky Reflection** allows the camera sky to contribute to\r\nreflections on upward-facing surfaces. **Fallback To Sky** fills\r\nin reflection probe coverage for areas the screen-space pass\r\nmisses, at the cost of a slight accuracy trade-off.",
+      "values": [
+        {
+          "name": "Mode",
+          "type": "int",
+          "label": "Mode",
+          "labels": {
+            "ja": "モード",
+            "zh-TW": "模式",
+            "ko": "모드",
+            "zh-CN": "模式"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": ["Screen Space", "Probe"],
+          "description": null
+        },
+        {
+          "name": "Quality",
+          "type": "int",
+          "label": "Quality",
+          "labels": {
+            "ja": "品質",
+            "zh-TW": "品質",
+            "ko": "품질",
+            "zh-CN": "质量"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 2,
+          "options": ["Low", "Medium", "High"],
+          "description": null
+        },
+        {
+          "name": "Algorithm",
+          "type": "int",
+          "label": "Algorithm",
+          "labels": {
+            "ja": "アルゴリズム",
+            "zh-TW": "演算法",
+            "ko": "알고리즘",
+            "zh-CN": "算法"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": ["Approximation", "PBRAccumulation"],
+          "description": "Algorithm for screen space reflection."
+        },
+        {
+          "name": "Edge Fade Dist",
+          "type": "float",
+          "label": "Edge Fade Dist",
+          "labels": {
+            "ja": "エッジフェード距離",
+            "zh-TW": "邊緣淡出距離",
+            "ko": "가장자리 페이드 거리",
+            "zh-CN": "边缘衰减距离"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Object Thickness",
+          "type": "float",
+          "label": "Object Thickness",
+          "labels": {
+            "ja": "オブジェクトの厚さ",
+            "zh-TW": "物體厚度",
+            "ko": "오브젝트 두께",
+            "zh-CN": "物体厚度"
+          },
+          "default": 0.01,
+          "min": 0,
+          "max": 0.1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Fallback To Sky",
+          "type": "bool",
+          "label": "Fallback To Sky",
+          "labels": {
+            "ja": "空へのフォールバック",
+            "zh-TW": "回退至天空",
+            "ko": "하늘로 폴백",
+            "zh-CN": "默认天空"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Fallback to sky color when raytracing has no hit."
+        },
+        {
+          "name": "Sky Reflection",
+          "type": "bool",
+          "label": "Sky Reflection",
+          "labels": {
+            "ja": "空の反射",
+            "zh-TW": "天空反射",
+            "ko": "하늘 반사",
+            "zh-CN": "天空反射"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Fog",
+      "type": "group",
+      "label": "Fog",
+      "labels": {
+        "ja": "霧",
+        "zh-TW": "霧",
+        "ko": "안개",
+        "zh-CN": "雾"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Volumetric Fog",
+          "type": "bool",
+          "label": "Volumetric Fog",
+          "labels": {
+            "ja": "ボリューム霧",
+            "zh-TW": "體積霧",
+            "ko": "볼류메트릭 포그",
+            "zh-CN": "体积雾"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Base Height",
+          "type": "float",
+          "label": "Base Height",
+          "labels": {
+            "ja": "ベース高さ",
+            "zh-TW": "基礎高度",
+            "ko": "기본 높이",
+            "zh-CN": "基底高度"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Max Height",
+          "type": "float",
+          "label": "Max Height",
+          "labels": {
+            "ja": "最大高さ",
+            "zh-TW": "最大高度",
+            "ko": "최대 높이",
+            "zh-CN": "最大高度"
+          },
+          "default": 25,
+          "min": 10,
+          "max": 100,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Max Distance",
+          "type": "float",
+          "label": "Max Distance",
+          "labels": {
+            "ja": "最大距離",
+            "zh-TW": "最大距離",
+            "ko": "최대 거리",
+            "zh-CN": "最大距离"
+          },
+          "default": 5000,
+          "min": 0,
+          "max": 10000,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Ambient Occlusion",
+      "type": "group",
+      "label": "Ambient Occlusion",
+      "labels": {
+        "ja": "環境遮蔽",
+        "zh-TW": "環境遮蔽",
+        "ko": "주변 폐색",
+        "zh-CN": "环境光遮蔽"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Quality",
+          "type": "int",
+          "label": "Quality",
+          "labels": {
+            "ja": "品質",
+            "zh-TW": "品質",
+            "ko": "품질",
+            "zh-CN": "质量"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 2,
+          "options": ["Low", "Medium", "High"],
+          "description": null
+        },
+        {
+          "name": "Intensity",
+          "type": "float",
+          "label": "Intensity",
+          "labels": {
+            "ja": "強度",
+            "zh-TW": "強度",
+            "ko": "강도",
+            "zh-CN": "强度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Global Illumination",
+      "type": "group",
+      "label": "Global Illumination",
+      "labels": {
+        "ja": "グローバルイルミネーション",
+        "zh-TW": "全域照明",
+        "ko": "글로벌 일루미네이션",
+        "zh-CN": "全局照明"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Quality",
+          "type": "int",
+          "label": "Quality",
+          "labels": {
+            "ja": "品質",
+            "zh-TW": "品質",
+            "ko": "품질",
+            "zh-CN": "质量"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 2,
+          "options": ["Low", "Medium", "High"],
+          "description": null
+        },
+        {
+          "name": "Fallback To Sky",
+          "type": "bool",
+          "label": "Fallback To Sky",
+          "labels": {
+            "ja": "空へのフォールバック",
+            "zh-TW": "回退至天空",
+            "ko": "하늘로 폴백",
+            "zh-CN": "默认天空"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Depth Of Field",
+      "type": "group",
+      "label": "Depth Of Field",
+      "labels": {
+        "ja": "被写界深度",
+        "zh-TW": "景深",
+        "ko": "피사계 심도",
+        "zh-CN": "景深"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Quality",
+          "type": "int",
+          "label": "Quality",
+          "labels": {
+            "ja": "品質",
+            "zh-TW": "品質",
+            "ko": "품질",
+            "zh-CN": "质量"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": ["Low", "Medium", "High"],
+          "description": null
+        },
+        {
+          "name": "Intensity",
+          "type": "float",
+          "label": "Intensity",
+          "labels": {
+            "ja": "強度",
+            "zh-TW": "強度",
+            "ko": "강도",
+            "zh-CN": "强度"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Offset",
+          "type": "float",
+          "label": "Offset",
+          "labels": {
+            "ja": "オフセット",
+            "zh-TW": "偏移",
+            "ko": "오프셋",
+            "zh-CN": "偏移量"
+          },
+          "default": 0.1,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Motion Blur",
+      "type": "group",
+      "label": "Motion Blur",
+      "labels": {
+        "ja": "モーションブラー",
+        "zh-TW": "運動模糊",
+        "ko": "모션 블러",
+        "zh-CN": "运动模糊"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Quality",
+          "type": "int",
+          "label": "Quality",
+          "labels": {
+            "ja": "品質",
+            "zh-TW": "品質",
+            "ko": "품질",
+            "zh-CN": "质量"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": ["Low", "Medium", "High"],
+          "description": null
+        },
+        {
+          "name": "Intensity",
+          "type": "float",
+          "label": "Intensity",
+          "labels": {
+            "ja": "強度",
+            "zh-TW": "強度",
+            "ko": "강도",
+            "zh-CN": "强度"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Bloom",
+      "type": "group",
+      "label": "Bloom",
+      "labels": {
+        "ja": "ブルーム",
+        "zh-TW": "光暈",
+        "ko": "블룸",
+        "zh-CN": "辉光"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Quality",
+          "type": "int",
+          "label": "Quality",
+          "labels": {
+            "ja": "品質",
+            "zh-TW": "品質",
+            "ko": "품질",
+            "zh-CN": "质量"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 2,
+          "options": ["Low", "Medium", "High"],
+          "description": null
+        },
+        {
+          "name": "Intensity",
+          "type": "float",
+          "label": "Intensity",
+          "labels": {
+            "ja": "強度",
+            "zh-TW": "強度",
+            "ko": "강도",
+            "zh-CN": "强度"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Lens Flare",
+      "type": "group",
+      "label": "Lens Flare",
+      "labels": {
+        "ja": "レンズフレア",
+        "zh-TW": "鏡頭耀斑",
+        "ko": "렌즈 플레어",
+        "zh-CN": "镜头光晕"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Disable in VR",
+          "type": "bool",
+          "label": "Disable in VR",
+          "labels": {
+            "ja": "VRでの無効化",
+            "zh-TW": "禁用於 VR",
+            "ko": "VR에서 사용 안 함",
+            "zh-CN": "VR禁用"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "This effect is not recommended for VR"
+        },
+        {
+          "name": "Intensity",
+          "type": "float",
+          "label": "Intensity",
+          "labels": {
+            "ja": "強度",
+            "zh-TW": "強度",
+            "ko": "강도",
+            "zh-CN": "强度"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Color",
+          "type": "group",
+          "label": "Color",
+          "labels": {
+            "ja": "色",
+            "zh-TW": "顏色",
+            "ko": "색상",
+            "zh-CN": "颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Use Stage Color",
+              "type": "bool",
+              "label": "Use Stage Color",
+              "labels": {
+                "ja": "ステージの色を使用",
+                "zh-TW": "使用舞台顏色",
+                "ko": "무대 색상 사용",
+                "zh-CN": "使用舞台颜色"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Use the color from the stage ring"
+            },
+            {
+              "name": "Color Temp",
+              "type": "float",
+              "label": "Color Temp",
+              "labels": {
+                "ja": "色温度",
+                "zh-TW": "色溫",
+                "ko": "색 온도",
+                "zh-CN": "色温"
+              },
+              "default": 6500,
+              "min": 3000,
+              "max": 8000,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Flares",
+          "type": "float",
+          "label": "Flares",
+          "labels": {
+            "ja": "フレア",
+            "zh-TW": "光暈",
+            "ko": "플레어",
+            "zh-CN": "闪光"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Streaks",
+          "type": "float",
+          "label": "Streaks",
+          "labels": {
+            "ja": "ストリーク",
+            "zh-TW": "條紋",
+            "ko": "줄무늬",
+            "zh-CN": "光轨"
+          },
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Length",
+          "type": "float",
+          "label": "Length",
+          "labels": {
+            "ja": "長さ",
+            "zh-TW": "長度",
+            "ko": "길이",
+            "zh-CN": "长度"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Chromatic Abberation",
+          "type": "float",
+          "label": "Chromatic Abberation",
+          "labels": {
+            "ja": "色収差",
+            "zh-TW": "色差",
+            "ko": "색수차",
+            "zh-CN": "色差"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Color Adjustment",
+      "type": "group",
+      "label": "Color Adjustment",
+      "labels": {
+        "ja": "色調整",
+        "zh-TW": "顏色調整",
+        "ko": "색상 보정",
+        "zh-CN": "颜色调整"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Tonemapping",
+          "type": "int",
+          "label": "Tonemapping",
+          "labels": {
+            "ja": "トーンマッピング",
+            "zh-TW": "色調映射",
+            "ko": "톤 매핑",
+            "zh-CN": "色调映射"
+          },
+          "default": 3,
+          "min": 0,
+          "max": 3,
+          "options": ["None", "Neutral", "ACES", "Custom"],
+          "description": null
+        },
+        {
+          "name": "Adjustment",
+          "type": "bool",
+          "label": "Adjustment",
+          "labels": {
+            "ja": "調整",
+            "zh-TW": "調整",
+            "ko": "조정",
+            "zh-CN": "调整"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Enable color adjustment."
+        },
+        {
+          "name": "Post Exposure",
+          "type": "int",
+          "label": "Post Exposure",
+          "labels": {
+            "ja": "ポスト露出",
+            "zh-TW": "後期曝光",
+            "ko": "노출 후처리",
+            "zh-CN": "后期曝光"
+          },
+          "default": 0,
+          "min": -12,
+          "max": 12,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Contrast",
+          "type": "float",
+          "label": "Contrast",
+          "labels": {
+            "ja": "コントラスト",
+            "zh-TW": "對比度",
+            "ko": "대비",
+            "zh-CN": "对比度"
+          },
+          "default": 1,
+          "min": -100,
+          "max": 100,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Hue Shift",
+          "type": "float",
+          "label": "Hue Shift",
+          "labels": {
+            "ja": "色相シフト",
+            "zh-TW": "色相偏移",
+            "ko": "색상 변화",
+            "zh-CN": "色相偏移"
+          },
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Saturation",
+          "type": "float",
+          "label": "Saturation",
+          "labels": {
+            "ja": "彩度",
+            "zh-TW": "飽和度",
+            "ko": "채도",
+            "zh-CN": "饱和度"
+          },
+          "default": 1,
+          "min": -100,
+          "max": 100,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Color Filter",
+          "type": "group",
+          "label": "Color Filter",
+          "labels": {
+            "ja": "カラーフィルター",
+            "zh-TW": "色濾鏡",
+            "ko": "색상 필터",
+            "zh-CN": "颜色滤镜"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Color Curve",
+          "type": "bool",
+          "label": "Color Curve",
+          "labels": {
+            "ja": "カラーカーブ",
+            "zh-TW": "顏色曲線",
+            "ko": "색상 곡선",
+            "zh-CN": "颜色曲线"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Start Gradient",
+          "type": "float",
+          "label": "Start Gradient",
+          "labels": {
+            "ja": "開始グラデーション",
+            "zh-TW": "起始漸層",
+            "ko": "시작 그라디언트",
+            "zh-CN": "起始渐变"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 4,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Start Position",
+          "type": "float",
+          "label": "Start Position",
+          "labels": {
+            "ja": "開始位置",
+            "zh-TW": "起始位置",
+            "ko": "시작 위치",
+            "zh-CN": "起始位置"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 0.5,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Start Value",
+          "type": "float",
+          "label": "Start Value",
+          "labels": {
+            "ja": "開始値",
+            "zh-TW": "起始值",
+            "ko": "시작 값",
+            "zh-CN": "起始值"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 0.5,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "End Gradient",
+          "type": "float",
+          "label": "End Gradient",
+          "labels": {
+            "ja": "終了グラデーション",
+            "zh-TW": "結束漸層",
+            "ko": "끝 그라디언트",
+            "zh-CN": "结束渐变"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 4,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "End Position",
+          "type": "float",
+          "label": "End Position",
+          "labels": {
+            "ja": "終了位置",
+            "zh-TW": "結束位置",
+            "ko": "끝 위치",
+            "zh-CN": "结束位置"
+          },
+          "default": 1,
+          "min": 0.5,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "End Value",
+          "type": "float",
+          "label": "End Value",
+          "labels": {
+            "ja": "終了値",
+            "zh-TW": "結束值",
+            "ko": "끝 값",
+            "zh-CN": "结束值"
+          },
+          "default": 1,
+          "min": 0.5,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "White Balance",
+          "type": "bool",
+          "label": "White Balance",
+          "labels": {
+            "ja": "ホワイトバランス",
+            "zh-TW": "白平衡",
+            "ko": "화이트 밸런스",
+            "zh-CN": "白平衡"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Enable white balance."
+        },
+        {
+          "name": "Temperature",
+          "type": "float",
+          "label": "Temperature",
+          "labels": {
+            "ja": "温度",
+            "zh-TW": "溫度",
+            "ko": "온도",
+            "zh-CN": "温度"
+          },
+          "default": 0,
+          "min": -100,
+          "max": 100,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Tint",
+          "type": "float",
+          "label": "Tint",
+          "labels": {
+            "ja": "色味",
+            "zh-TW": "色調",
+            "ko": "색조",
+            "zh-CN": "色调"
+          },
+          "default": 0,
+          "min": -100,
+          "max": 100,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Posterization",
+      "type": "group",
+      "label": "Posterization",
+      "labels": {
+        "ja": "ポスタライゼーション",
+        "zh-TW": "色階化",
+        "ko": "포스터라이징",
+        "zh-CN": "色深处理"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "A full-screen custom pass that applies stylised effects over the\r\nfinal rendered image. Four built-in presets give a quick starting\r\npoint: *Outline*, *Black & White*, *Posterize*, and *Halftone*.\r\n\r\n\r\n## Outline\r\n\r\nTraces edges based on depth and normal discontinuities. Control\r\n**Outline Thickness** and **Outline Intensity** to dial in the\r\nweight. Works well combined with toon shading in the Options\r\npanel for a cel-animated look.\r\n\r\n\r\n## Quantize Illumination & Color\r\n\r\n**Quantize Illumination** reduces the number of luminance steps\r\nin the image; lower values (e.g. 4–8) produce a bold posterized\r\nlook. **Quantize Color** does the same for color channels\r\nindependently. Set both to 0 to disable quantization entirely\r\nand use only the other effects.\r\n\r\n\r\n## Dithering & Halftone\r\n\r\n**Dithering** adds ordered noise that breaks up banding in\r\nsmooth gradients. **Halftone** overlays a dot-screen pattern;\r\nincrease **Halftone Size** and **Strength** for a vintage\r\nprint aesthetic.",
+      "values": [
+        {
+          "name": "Outline Thickness",
+          "type": "float",
+          "label": "Outline Thickness",
+          "labels": {
+            "ja": "アウトライン太さ",
+            "zh-TW": "輪廓厚度",
+            "ko": "윤곽선 두께",
+            "zh-CN": "轮廓线粗细"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Outline Intensity",
+          "type": "float",
+          "label": "Outline Intensity",
+          "labels": {
+            "ja": "アウトライン強度",
+            "zh-TW": "輪廓強度",
+            "ko": "윤곽선 강도",
+            "zh-CN": "轮廓线强度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Quantize Illumination",
+          "type": "int",
+          "label": "Quantize Illumination",
+          "labels": {
+            "ja": "照明量子化",
+            "zh-TW": "量化照明",
+            "ko": "밝기 양자화",
+            "zh-CN": "量化光照"
+          },
+          "default": 8,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Quantize Color",
+          "type": "int",
+          "label": "Quantize Color",
+          "labels": {
+            "ja": "色量子化",
+            "zh-TW": "量化顏色",
+            "ko": "색상 양자화",
+            "zh-CN": "量化颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 64,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Dithering",
+          "type": "float",
+          "label": "Dithering",
+          "labels": {
+            "ja": "ディザリング",
+            "zh-TW": "抖動",
+            "ko": "디더링",
+            "zh-CN": "抖动"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Halftone Size",
+          "type": "float",
+          "label": "Halftone Size",
+          "labels": {
+            "ja": "ハーフトーンサイズ",
+            "zh-TW": "半色調大小",
+            "ko": "하프톤 크기",
+            "zh-CN": "半色调大小"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Halftone size"
+        },
+        {
+          "name": "Halftone Strength",
+          "type": "float",
+          "label": "Halftone Strength",
+          "labels": {
+            "ja": "ハーフトーン強度",
+            "zh-TW": "半色調強度",
+            "ko": "하프톤 강도",
+            "zh-CN": "半色调强度"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Halftone strength"
+        }
+      ]
+    },
+    {
+      "name": "Options",
+      "type": "group",
+      "label": "Options",
+      "labels": {
+        "ja": "オプション",
+        "zh-TW": "選項",
+        "ko": "옵션",
+        "zh-CN": "选项"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Transparent Prepass",
+          "type": "bool",
+          "label": "Transparent Prepass",
+          "labels": {
+            "ja": "透明度事前パス",
+            "zh-TW": "透明預渲染",
+            "ko": "투명 사전 패스",
+            "zh-CN": "透明度预处理"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Enable transparent prepass. This will make obscured transparent materials invisible."
+        },
+        {
+          "name": "Screen Space Shadows",
+          "type": "bool",
+          "label": "Screen Space Shadows",
+          "labels": {
+            "ja": "スクリーン空間影",
+            "zh-TW": "螢幕空間陰影",
+            "ko": "화면 공간 그림자",
+            "zh-CN": "屏幕空间阴影"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Contact Shadow",
+          "type": "bool",
+          "label": "Contact Shadow",
+          "labels": {
+            "ja": "コンタクトシャドウ",
+            "zh-TW": "接觸陰影",
+            "ko": "접촉 그림자",
+            "zh-CN": "接触阴影"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Shadow for small details."
+        },
+        {
+          "name": "Bump Map Shadow",
+          "type": "float",
+          "label": "Bump Map Shadow",
+          "labels": {
+            "ja": "バンプマップ影",
+            "zh-TW": "凹凸貼圖陰影",
+            "ko": "범프 맵 그림자",
+            "zh-CN": "法线贴图阴影"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Enable shadows for bump map and detail map."
+        },
+        {
+          "name": "Stop NaN",
+          "type": "bool",
+          "label": "Stop NaN",
+          "labels": {
+            "ja": "NaN停止",
+            "zh-TW": "停止 NaN",
+            "ko": "NaN 중지",
+            "zh-CN": "防止NaN"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Prevent black screen when error happens during post processing. "
+        },
+        {
+          "name": "Compute Thickness",
+          "type": "bool",
+          "label": "Compute Thickness",
+          "labels": {
+            "ja": "厚さの計算",
+            "zh-TW": "計算厚度",
+            "ko": "두께 계산",
+            "zh-CN": "计算厚度"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Calculate thickness that can be used in skin effect."
+        },
+        {
+          "name": "Actor Model Toon Shading",
+          "type": "bool",
+          "label": "Actor Model Toon Shading",
+          "labels": {
+            "ja": "アクターモデルトゥーンシェーディング",
+            "zh-TW": "角色模型卡通陰影",
+            "ko": "액터 모델 카툰 음영 처리",
+            "zh-CN": "角色模型卡通着色"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Use toon shading for all actors."
+        },
+        {
+          "name": "Stage Model Toon Shading",
+          "type": "bool",
+          "label": "Stage Model Toon Shading",
+          "labels": {
+            "ja": "ステージモデルトゥーンシェーディング",
+            "zh-TW": "舞台模型卡通陰影",
+            "ko": "스테이지 모델 카툰 음영 처리",
+            "zh-CN": "场景模型卡通着色"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Use toon shading for stages and props."
+        },
+        {
+          "name": "Dithering Transparency",
+          "type": "bool",
+          "label": "Dithering Transparency",
+          "labels": {
+            "ja": "ディザリング透過度",
+            "zh-TW": "抖動透明度",
+            "ko": "디더링 투명도",
+            "zh-CN": "抖动透明度"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    }
+  ]
+}

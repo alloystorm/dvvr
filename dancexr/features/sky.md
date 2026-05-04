@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Sky"
 locale: en-US
 nav_links:

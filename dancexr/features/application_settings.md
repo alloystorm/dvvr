@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Application Settings"
 locale: en-US
 nav_links:

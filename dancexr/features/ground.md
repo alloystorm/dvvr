@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Ground"
 locale: en-US
 nav_links:

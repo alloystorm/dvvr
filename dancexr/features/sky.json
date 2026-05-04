@@ -1,0 +1,956 @@
+{
+  "name": "Sky",
+  "docPath": "features/sky",
+  "label": "Sky",
+  "labels": {
+    "ja": "空",
+    "zh-TW": "天空",
+    "ko": "하늘",
+    "zh-CN": "天空"
+  },
+  "description": "Controls everything overhead — the sky background that fills the\r\nhorizon, the ambient light it casts on the scene, and the global\r\nwind that drives clouds, cloth, and particle systems. Presets\r\nbundle these into named looks like *Skymap*, *Procedural*,\r\n*Indoor*, *Thin Cloud*, and *Cloudy*.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks one of three sky renderers and the rest of the\r\npanel reshapes to match. *Color* paints a flat gradient sky\r\nfrom the **Sky Color** / **Middle Color** / **Ground Color**\r\nvalues and is the cheapest option. *Sky Map* wraps a 360°\r\npanorama (built-in or imported) around the scene — use this\r\nfor outdoor or stylized backgrounds. *Procedural* renders a\r\nphysically-based sky and (on HDRP) is the only mode that\r\nsupports volumetric clouds.\r\n\r\n\r\n## Sky Map and Orientation\r\n\r\nWhen mode is *Sky Map*, **Sky Map** chooses the panorama from\r\nthe built-in set plus anything imported into the content\r\nlibrary. Loading large skymaps is asynchronous so the UI stays\r\nresponsive. **Orientation** rotates the sky in degrees around\r\nthe vertical axis — this also rotates the projection used for\r\nthe ground sky-dome material, so adjusting it shifts ground\r\nreflections too.\r\n\r\n\r\n## Background and Ambient\r\n\r\n**Background** (HDRP) scales how bright the sky looks on\r\nscreen. **Sky Ambient** controls how much that sky bleeds\r\ninto the rest of the scene as ambient lighting — lower it\r\nif a bright skymap is washing out actor shading. On URP the\r\nsame role is played by **Sky Exposure** and **Intensity**,\r\nwhere Sky Exposure also feeds reflection probe brightness.\r\n\r\n\r\n## Sky Colors\r\n\r\nIn *Color* mode, **Sky Color**, **Middle Color**, and\r\n**Ground Color** define the top, horizon, and bottom of a\r\nthree-band gradient. They also drive trilight ambient\r\nlighting (and on HDRP, the fog albedo), so changing them\r\ntints what the scene picks up from the sky in addition to\r\nthe visible background.\r\n\r\n\r\n## Wind\r\n\r\n**Wind** sets a global wind speed that drives cloth\r\nsimulation, particle dynamics, and (on HDRP) volumetric\r\ncloud movement. **Wind Direction** sets its compass heading.\r\nKeep this modest — high wind speeds make hair and skirts\r\nvisibly thrash.\r\n\r\n\r\n## Wind Field\r\n\r\nA localized wind volume on top of the global wind, useful\r\nfor staged effects like a fan blowing on one actor. Toggle\r\nit on, then position and orient the cylindrical field with\r\n**Position** / **Rotation** (an interactive gizmo appears\r\nwhile the menu is open). **Distance** is the cylinder's\r\nlength, **Radius** its width, and **Speed** its strength.\r\nAffects cloth and particles inside the volume only.\r\n\r\n\r\n## Clouds (HDRP)\r\n\r\nVolumetric clouds, available only in *Procedural* mode. The\r\n**Toggle** turns them on. **Shape Scale** and **Shape\r\nFactor** control the large-scale silhouette; **Erosion\r\nScale** and **Erosion Factor** add the wispy edge detail;\r\n**Density** controls overall coverage. **Shadow** projects\r\ncloud shadows onto the scene — costly but adds a lot of\r\nrealism on outdoor stages. **Wind Multiplier** scales the\r\nglobal wind for clouds only, so they can drift faster or\r\nslower than the rest of the scene.",
+  "values": [
+    {
+      "name": "Mode",
+      "type": "int",
+      "label": "Mode",
+      "labels": {
+        "ja": "モード",
+        "zh-TW": "模式",
+        "ko": "모드",
+        "zh-CN": "模式"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": ["Color", "Sky Map", "Procedural"],
+      "description": "Selects the sky rendering mode: Color, Sky Map, or Procedural."
+    },
+    {
+      "name": "Background",
+      "type": "float",
+      "label": "Background",
+      "labels": {
+        "ja": "背景",
+        "zh-TW": "背景",
+        "ko": "배경",
+        "zh-CN": "背景"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Controls the brightness of the sky when it is rendered."
+    },
+    {
+      "name": "Sky Ambient",
+      "type": "float",
+      "label": "Sky Ambient",
+      "labels": {
+        "ja": "スカイアンビエント",
+        "zh-TW": "天空環境光",
+        "ko": "스카이 앰비언트",
+        "zh-CN": "天空环境光"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Controls how much the sky affects ambient lighting."
+    },
+    {
+      "name": "Lighting",
+      "type": "value",
+      "label": "Celestial",
+      "labels": {
+        "ja": "天体",
+        "zh-TW": "天體",
+        "ko": "천체",
+        "zh-CN": "天体"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Sky Map",
+      "type": "options",
+      "label": "Sky Map",
+      "labels": {
+        "ja": "スカイマップ",
+        "zh-TW": "天空貼圖",
+        "ko": "스카이 맵",
+        "zh-CN": "天空贴图"
+      },
+      "default": "[Fantasy]",
+      "min": 0,
+      "max": 1000,
+      "options": ["[Cloud]", "[Fantasy]", "[Day]", "[Studio]"],
+      "description": null
+    },
+    {
+      "name": "Orientation",
+      "type": "float",
+      "label": "Orientation",
+      "labels": {
+        "ja": "向き",
+        "zh-TW": "朝向",
+        "ko": "오리엔테이션",
+        "zh-CN": "朝向"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 360,
+      "options": null,
+      "description": "Sets the rotation of the sky in degrees."
+    },
+    {
+      "name": "Wind",
+      "type": "float",
+      "label": "Wind",
+      "labels": {
+        "ja": "風",
+        "zh-TW": "風",
+        "ko": "바람",
+        "zh-CN": "风力"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 4,
+      "options": null,
+      "description": "Global wind speed affecting cloth simulation, particle dynamics, and clouds."
+    },
+    {
+      "name": "Wind Direction",
+      "type": "float",
+      "label": "Wind Direction",
+      "labels": {
+        "ja": "風の方向",
+        "zh-TW": "風向",
+        "ko": "바람 방향",
+        "zh-CN": "风向"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 360,
+      "options": null,
+      "description": "Sets the global wind direction in degrees."
+    },
+    {
+      "name": "Wind Field",
+      "type": "group",
+      "label": "Wind Field",
+      "labels": {
+        "ja": "風の場",
+        "zh-TW": "風場",
+        "ko": "바람장",
+        "zh-CN": "风场"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Configures the wind field, including position, rotation, radius, and speed.",
+      "values": [
+        {
+          "name": "Position",
+          "type": "group",
+          "label": "Position",
+          "labels": {
+            "ja": "位置",
+            "zh-TW": "位置",
+            "ko": "위치",
+            "zh-CN": "位置"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Sets the position of the wind field.",
+          "values": [
+            {
+              "name": "X",
+              "type": "float",
+              "label": "X",
+              "labels": {
+                "ja": "(X)",
+                "zh-TW": "(X)",
+                "ko": "(X)",
+                "zh-CN": "(X)"
+              },
+              "default": 0,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Y",
+              "type": "float",
+              "label": "Y",
+              "labels": {
+                "ja": "(Y)",
+                "zh-TW": "(Y)",
+                "ko": "(Y)",
+                "zh-CN": "(Y)"
+              },
+              "default": 0,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Z",
+              "type": "float",
+              "label": "Z",
+              "labels": {
+                "ja": "(Z)",
+                "zh-TW": "(Z)",
+                "ko": "(Z)",
+                "zh-CN": "(Z)"
+              },
+              "default": 0,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Rotation",
+          "type": "group",
+          "label": "Rotation",
+          "labels": {
+            "ja": "回転",
+            "zh-TW": "旋轉",
+            "ko": "회전",
+            "zh-CN": "旋转"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Sets the rotation of the wind field.",
+          "values": [
+            {
+              "name": "X",
+              "type": "float",
+              "label": "X",
+              "labels": {
+                "ja": "(X)",
+                "zh-TW": "(X)",
+                "ko": "(X)",
+                "zh-CN": "(X)"
+              },
+              "default": 0,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Y",
+              "type": "float",
+              "label": "Y",
+              "labels": {
+                "ja": "(Y)",
+                "zh-TW": "(Y)",
+                "ko": "(Y)",
+                "zh-CN": "(Y)"
+              },
+              "default": 0,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Z",
+              "type": "float",
+              "label": "Z",
+              "labels": {
+                "ja": "(Z)",
+                "zh-TW": "(Z)",
+                "ko": "(Z)",
+                "zh-CN": "(Z)"
+              },
+              "default": 0,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Distance",
+          "type": "float",
+          "label": "Distance",
+          "labels": {
+            "ja": "距離",
+            "zh-TW": "距離",
+            "ko": "거리",
+            "zh-CN": "距离"
+          },
+          "default": 5,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": "Sets the distance of the wind field."
+        },
+        {
+          "name": "Radius",
+          "type": "float",
+          "label": "Radius",
+          "labels": {
+            "ja": "半径",
+            "zh-TW": "半徑",
+            "ko": "반지름",
+            "zh-CN": "半径"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": "Sets the radius of the wind field."
+        },
+        {
+          "name": "Speed",
+          "type": "float",
+          "label": "Speed",
+          "labels": {
+            "ja": "速度",
+            "zh-TW": "速度",
+            "ko": "속도",
+            "zh-CN": "速度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 4,
+          "options": null,
+          "description": "Sets the speed of the wind field."
+        }
+      ]
+    },
+    {
+      "name": "Sky Color",
+      "type": "group",
+      "label": "Sky Color",
+      "labels": {
+        "ja": "空の色",
+        "zh-TW": "天空顏色",
+        "ko": "하늘색",
+        "zh-CN": "天空颜色"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Color Mode",
+          "type": "int",
+          "label": "Color Mode",
+          "labels": {
+            "ja": "色モード",
+            "zh-TW": "色彩模式",
+            "ko": "색상 모드",
+            "zh-CN": "颜色模式"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": ["RGB", "HSV"],
+          "description": null
+        },
+        {
+          "name": "Hue",
+          "type": "float",
+          "label": "Hue",
+          "labels": {
+            "ja": "色相",
+            "zh-TW": "色相",
+            "ko": "색상",
+            "zh-CN": "色相"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Satuation",
+          "type": "float",
+          "label": "Satuation",
+          "labels": {
+            "ja": "彩度",
+            "zh-TW": "飽和度",
+            "ko": "채도",
+            "zh-CN": "饱和度"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Brightness",
+          "type": "float",
+          "label": "Brightness",
+          "labels": {
+            "ja": "明度",
+            "zh-TW": "亮度",
+            "ko": "밝기",
+            "zh-CN": "亮度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Red",
+          "type": "float",
+          "label": "Red",
+          "labels": {
+            "ja": "赤",
+            "zh-TW": "紅色",
+            "ko": "빨간색",
+            "zh-CN": "红色"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Green",
+          "type": "float",
+          "label": "Green",
+          "labels": {
+            "ja": "緑",
+            "zh-TW": "綠色",
+            "ko": "녹색",
+            "zh-CN": "绿色"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Blue",
+          "type": "float",
+          "label": "Blue",
+          "labels": {
+            "ja": "青",
+            "zh-TW": "藍色",
+            "ko": "파란색",
+            "zh-CN": "蓝色"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Use Stage Color",
+          "type": "bool",
+          "label": "Use Stage Color",
+          "labels": {
+            "ja": "ステージの色を使用",
+            "zh-TW": "使用舞台顏色",
+            "ko": "무대 색상 사용",
+            "zh-CN": "使用舞台颜色"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Use the color from the stage ring"
+        },
+        {
+          "name": "Color Temp",
+          "type": "float",
+          "label": "Color Temp",
+          "labels": {
+            "ja": "色温度",
+            "zh-TW": "色溫",
+            "ko": "색 온도",
+            "zh-CN": "色温"
+          },
+          "default": 6500,
+          "min": 3000,
+          "max": 8000,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Middle Color",
+      "type": "group",
+      "label": "Middle Color",
+      "labels": {
+        "ja": "中間色",
+        "zh-TW": "中間顏色",
+        "ko": "중간색",
+        "zh-CN": "中间颜色"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Color Mode",
+          "type": "int",
+          "label": "Color Mode",
+          "labels": {
+            "ja": "色モード",
+            "zh-TW": "色彩模式",
+            "ko": "색상 모드",
+            "zh-CN": "颜色模式"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": ["RGB", "HSV"],
+          "description": null
+        },
+        {
+          "name": "Hue",
+          "type": "float",
+          "label": "Hue",
+          "labels": {
+            "ja": "色相",
+            "zh-TW": "色相",
+            "ko": "색상",
+            "zh-CN": "色相"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Satuation",
+          "type": "float",
+          "label": "Satuation",
+          "labels": {
+            "ja": "彩度",
+            "zh-TW": "飽和度",
+            "ko": "채도",
+            "zh-CN": "饱和度"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Brightness",
+          "type": "float",
+          "label": "Brightness",
+          "labels": {
+            "ja": "明度",
+            "zh-TW": "亮度",
+            "ko": "밝기",
+            "zh-CN": "亮度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Red",
+          "type": "float",
+          "label": "Red",
+          "labels": {
+            "ja": "赤",
+            "zh-TW": "紅色",
+            "ko": "빨간색",
+            "zh-CN": "红色"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Green",
+          "type": "float",
+          "label": "Green",
+          "labels": {
+            "ja": "緑",
+            "zh-TW": "綠色",
+            "ko": "녹색",
+            "zh-CN": "绿色"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Blue",
+          "type": "float",
+          "label": "Blue",
+          "labels": {
+            "ja": "青",
+            "zh-TW": "藍色",
+            "ko": "파란색",
+            "zh-CN": "蓝色"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Use Stage Color",
+          "type": "bool",
+          "label": "Use Stage Color",
+          "labels": {
+            "ja": "ステージの色を使用",
+            "zh-TW": "使用舞台顏色",
+            "ko": "무대 색상 사용",
+            "zh-CN": "使用舞台颜色"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Use the color from the stage ring"
+        },
+        {
+          "name": "Color Temp",
+          "type": "float",
+          "label": "Color Temp",
+          "labels": {
+            "ja": "色温度",
+            "zh-TW": "色溫",
+            "ko": "색 온도",
+            "zh-CN": "色温"
+          },
+          "default": 6500,
+          "min": 3000,
+          "max": 8000,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Ground Color",
+      "type": "group",
+      "label": "Ground Color",
+      "labels": {
+        "ja": "地面の色",
+        "zh-TW": "地面顏色",
+        "ko": "바닥색",
+        "zh-CN": "地面颜色"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Color Mode",
+          "type": "int",
+          "label": "Color Mode",
+          "labels": {
+            "ja": "色モード",
+            "zh-TW": "色彩模式",
+            "ko": "색상 모드",
+            "zh-CN": "颜色模式"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": ["RGB", "HSV"],
+          "description": null
+        },
+        {
+          "name": "Hue",
+          "type": "float",
+          "label": "Hue",
+          "labels": {
+            "ja": "色相",
+            "zh-TW": "色相",
+            "ko": "색상",
+            "zh-CN": "色相"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Satuation",
+          "type": "float",
+          "label": "Satuation",
+          "labels": {
+            "ja": "彩度",
+            "zh-TW": "飽和度",
+            "ko": "채도",
+            "zh-CN": "饱和度"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Brightness",
+          "type": "float",
+          "label": "Brightness",
+          "labels": {
+            "ja": "明度",
+            "zh-TW": "亮度",
+            "ko": "밝기",
+            "zh-CN": "亮度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Red",
+          "type": "float",
+          "label": "Red",
+          "labels": {
+            "ja": "赤",
+            "zh-TW": "紅色",
+            "ko": "빨간색",
+            "zh-CN": "红色"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Green",
+          "type": "float",
+          "label": "Green",
+          "labels": {
+            "ja": "緑",
+            "zh-TW": "綠色",
+            "ko": "녹색",
+            "zh-CN": "绿色"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Blue",
+          "type": "float",
+          "label": "Blue",
+          "labels": {
+            "ja": "青",
+            "zh-TW": "藍色",
+            "ko": "파란색",
+            "zh-CN": "蓝色"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Use Stage Color",
+          "type": "bool",
+          "label": "Use Stage Color",
+          "labels": {
+            "ja": "ステージの色を使用",
+            "zh-TW": "使用舞台顏色",
+            "ko": "무대 색상 사용",
+            "zh-CN": "使用舞台颜色"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Use the color from the stage ring"
+        },
+        {
+          "name": "Color Temp",
+          "type": "float",
+          "label": "Color Temp",
+          "labels": {
+            "ja": "色温度",
+            "zh-TW": "色溫",
+            "ko": "색 온도",
+            "zh-CN": "色温"
+          },
+          "default": 6500,
+          "min": 3000,
+          "max": 8000,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Cloud",
+      "type": "group",
+      "label": "Cloud",
+      "labels": {
+        "ja": "雲",
+        "zh-TW": "雲",
+        "ko": "구름",
+        "zh-CN": "云"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Configures volumetric clouds, including shape, erosion, density, and wind effects.",
+      "values": [
+        {
+          "name": "Shape Scale",
+          "type": "float",
+          "label": "Shape Scale",
+          "labels": {
+            "ja": "形状スケール",
+            "zh-TW": "形狀縮放",
+            "ko": "형태 스케일",
+            "zh-CN": "形状缩放"
+          },
+          "default": 1,
+          "min": -1,
+          "max": 2,
+          "options": null,
+          "description": "Controls the scale of the cloud shapes."
+        },
+        {
+          "name": "Shape Factor",
+          "type": "float",
+          "label": "Shape Factor",
+          "labels": {
+            "ja": "形状ファクター",
+            "zh-TW": "形狀係數",
+            "ko": "형태 계수",
+            "zh-CN": "形状因子"
+          },
+          "default": 0.8,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Adjusts the shape factor of the clouds."
+        },
+        {
+          "name": "Erosion Scale",
+          "type": "float",
+          "label": "Erosion Scale",
+          "labels": {
+            "ja": "エロージョンスケール",
+            "zh-TW": "風化縮放",
+            "ko": "침식 스케일",
+            "zh-CN": "侵蚀缩放"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 5,
+          "options": null,
+          "description": "Controls the scale of cloud erosion."
+        },
+        {
+          "name": "Erosion Factor",
+          "type": "float",
+          "label": "Erosion Factor",
+          "labels": {
+            "ja": "エロージョンファクター",
+            "zh-TW": "風化係數",
+            "ko": "침식 계수",
+            "zh-CN": "侵蚀因子"
+          },
+          "default": 0.8,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Adjusts the erosion factor of the clouds."
+        },
+        {
+          "name": "Density",
+          "type": "float",
+          "label": "Density",
+          "labels": {
+            "ja": "密度",
+            "zh-TW": "密度",
+            "ko": "밀도",
+            "zh-CN": "密度"
+          },
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Sets the density multiplier for the clouds."
+        },
+        {
+          "name": "Shadow",
+          "type": "bool",
+          "label": "Shadow",
+          "labels": {
+            "ja": "シャドウ",
+            "zh-TW": "陰影",
+            "ko": "그림자",
+            "zh-CN": "阴影"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Enables or disables cloud shadows."
+        },
+        {
+          "name": "Wind Multiplier",
+          "type": "float",
+          "label": "Wind Multiplier",
+          "labels": {
+            "ja": "風の乗数",
+            "zh-TW": "風力乘數",
+            "ko": "바람 증폭률",
+            "zh-CN": "风力乘数"
+          },
+          "default": 3,
+          "min": 0,
+          "max": 4,
+          "options": null,
+          "description": "Sets the wind multiplier for cloud movement."
+        }
+      ]
+    }
+  ]
+}

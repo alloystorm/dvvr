@@ -1,0 +1,142 @@
+{
+  "name": "Motion Passes",
+  "docPath": "features/motion_passes",
+  "label": "Motion Passes",
+  "labels": {
+    "ja": "モーションパス",
+    "zh-TW": "動作通道",
+    "ko": "모션 패스",
+    "zh-CN": "动作通道"
+  },
+  "description": "Debug-only panel that lets you selectively disable each stage of\r\nthe actor animation pipeline. Each toggle corresponds to a pass in\r\nthe per-frame update loop: **Reset Bones**, **Animation**, **Offset**,\r\n**Virtual Bones**, **Morph Post Update**, **Inherit Bones**,\r\n**Post Transform**, and **Final Update**.\r\n\r\nDisabling passes is useful for isolating animation bugs or testing\r\nindividual pipeline stages, but leaving them off in normal use will\r\nproduce broken or frozen poses.",
+  "values": [
+    {
+      "name": "Reset Bones",
+      "type": "bool",
+      "label": "Reset Bones",
+      "labels": {
+        "ja": "ボーンのリセット",
+        "zh-TW": "重置骨骼",
+        "ko": "본 초기화",
+        "zh-CN": "重置骨骼"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Animation",
+      "type": "bool",
+      "label": "Animation",
+      "labels": {
+        "ja": "アニメーション",
+        "zh-TW": "動畫",
+        "ko": "애니메이션",
+        "zh-CN": "动画"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Offset",
+      "type": "bool",
+      "label": "Offset",
+      "labels": {
+        "ja": "オフセット",
+        "zh-TW": "偏移",
+        "ko": "오프셋",
+        "zh-CN": "偏移量"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Virtual Bones",
+      "type": "bool",
+      "label": "Virtual Bones",
+      "labels": {
+        "ja": "仮想ボーン",
+        "zh-TW": "虛擬骨骼",
+        "ko": "가상 본",
+        "zh-CN": "虚拟骨骼"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Morph Post Update",
+      "type": "bool",
+      "label": "Morph Post Update",
+      "labels": {
+        "ja": "モーフ後更新",
+        "zh-TW": "形態後更新",
+        "ko": "모프 포스트 업데이트",
+        "zh-CN": "形变后更新"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Inherit Bones",
+      "type": "bool",
+      "label": "Inherit Bones",
+      "labels": {
+        "ja": "ボーンの継承",
+        "zh-TW": "繼承骨骼",
+        "ko": "본 상속",
+        "zh-CN": "继承骨骼"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Post Transform",
+      "type": "bool",
+      "label": "Post Transform",
+      "labels": {
+        "ja": "ポストトランスフォーム",
+        "zh-TW": "後轉換",
+        "ko": "포스트 트랜스폼",
+        "zh-CN": "后期变换"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Final Update",
+      "type": "bool",
+      "label": "Final Update",
+      "labels": {
+        "ja": "最終更新",
+        "zh-TW": "最終更新",
+        "ko": "최종 업데이트",
+        "zh-CN": "最终更新"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    }
+  ]
+}

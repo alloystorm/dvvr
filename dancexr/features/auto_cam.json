@@ -1,0 +1,566 @@
+{
+  "name": "./motion/proc/auto_cam",
+  "docPath": "features/auto_cam",
+  "label": "[Auto Cam]",
+  "labels": {
+    "ja": "[オートカメラ]",
+    "zh-TW": "[自動鏡頭]",
+    "ko": "[자동 카메라]",
+    "zh-CN": "[自动相机]"
+  },
+  "description": "Automatic camera system that generates cinematic camera movements synced to music beats and actor actions.\r\n\r\n## Distance\r\n\r\n**Distance Near** and **Distance Far** define the range the camera can be from its target.\r\nNarrower ranges keep the camera at a consistent distance, while wider ranges add more\r\nvariety between shots. The actual distance is also influenced by the *Distance Selection*\r\nprobabilities below.\r\n\r\n## Target Selection\r\n\r\nControls which body part the camera focuses on. Each value is a relative probability —\r\nhigher numbers make that target more likely to be chosen. **Head** and **Chest** work\r\nwell for close-ups, while **Center** and **Legs** suit wider shots. Set a value to *0*\r\nto exclude that target entirely.\r\n\r\n## Distance Selection\r\n\r\nProbabilities for how far the camera positions itself. **Close Up** fills the frame\r\nwith the actor, **Zoom In** and **Zoom Out** transition between distances during a shot,\r\n**Middle** gives a balanced view, and **Far** captures the full scene. Only the\r\nrelative ratios matter — the final distance is clamped by the *Distance* range above.\r\n\r\n## Path & Angles\r\n\r\n**High Angle** and **Low Angle** limit how far the camera can tilt up or down. Lower\r\nvalues keep the camera more level for a neutral look; wider ranges introduce dramatic\r\noverhead or worm's-eye perspectives.\r\n\r\n## Orientation\r\n\r\nDetermines which side of the actor the camera frames. **Front Center** faces the actor\r\ndirectly, **Front 45** and **Side 90** show the actor in profile, and **Back 180**\r\nshoots from behind. Mix these to keep the camera movement visually interesting.\r\n\r\n## Effects\r\n\r\n**Fade To Black** sets how long the screen fades to black during shot transitions,\r\nand **F2B Probability** controls how often this happens. Use these to add cinematic\r\ncuts between shots.\r\n\r\n**Audio Sensitivity** makes camera motion respond to music volume when enabled.\r\nHigher values speed up camera movements during loud passages.\r\n\r\n## Random Seed\r\n\r\nThe **Seed** value controls the random number generator for camera motion. Change it\r\nto get a different camera sequence while keeping all other settings the same, or set\r\nit to *-1* for a new random seed each time.",
+  "values": [
+    {
+      "name": "Target Select",
+      "type": "options",
+      "label": "Target Select",
+      "labels": {
+        "ja": "ターゲット選択",
+        "zh-TW": "目標選擇",
+        "ko": "대상 선택",
+        "zh-CN": "目标选择"
+      },
+      "default": "Auto",
+      "min": 0,
+      "max": 5,
+      "options": ["Auto", "Selected", "Group", "Rotate", "Rotate + Group", "Stage Center"],
+      "description": null
+    },
+    {
+      "name": "Tracking Mode",
+      "type": "options",
+      "label": "Tracking Mode",
+      "labels": {
+        "ja": "トラッキングモード",
+        "zh-TW": "跟蹤模式",
+        "ko": "추적 모드",
+        "zh-CN": "跟踪模式"
+      },
+      "default": "Center",
+      "min": 0,
+      "max": 2,
+      "options": ["Center", "Head", "Chest"],
+      "description": null
+    },
+    {
+      "name": "Target Smoothing",
+      "type": "float",
+      "label": "Target Smoothing",
+      "labels": {
+        "ja": "ターゲット平滑化",
+        "zh-TW": "目標平滑度",
+        "ko": "대상 스무딩",
+        "zh-CN": "目标平滑处理"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Prediction",
+      "type": "float",
+      "label": "Prediction",
+      "labels": {
+        "ja": "予測",
+        "zh-TW": "預測",
+        "ko": "예측",
+        "zh-CN": "预测"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": "Predict position of the target to reduce lag caused by smoothing"
+    },
+    {
+      "name": "FOV",
+      "type": "float",
+      "label": "FOV",
+      "labels": {
+        "ja": "FOV",
+        "zh-TW": "視野",
+        "ko": "FOV",
+        "zh-CN": "视场角"
+      },
+      "default": 30,
+      "min": 5,
+      "max": 120,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Beat Cycle",
+      "type": "int",
+      "label": "Beat Cycle",
+      "labels": {
+        "ja": "ビートサイクル",
+        "zh-TW": "節拍循環",
+        "ko": "비트 사이클",
+        "zh-CN": "节拍周期"
+      },
+      "default": 8,
+      "min": 1,
+      "max": 16,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Distance Near",
+      "type": "float",
+      "label": "Distance Near",
+      "labels": {
+        "ja": "近距離",
+        "zh-TW": "近距離",
+        "ko": "가까운 거리",
+        "zh-CN": "近距离"
+      },
+      "default": 1.5,
+      "min": 0.5,
+      "max": 3,
+      "options": null,
+      "description": "Minimum distance of the camera from the target."
+    },
+    {
+      "name": "Distance Far",
+      "type": "float",
+      "label": "Distance Far",
+      "labels": {
+        "ja": "遠距離",
+        "zh-TW": "遠距離",
+        "ko": "먼 거리",
+        "zh-CN": "远距离"
+      },
+      "default": 2.5,
+      "min": 0.5,
+      "max": 3,
+      "options": null,
+      "description": "Maximum distance of the camera from the target."
+    },
+    {
+      "name": "Use Actor Orientation",
+      "type": "bool",
+      "label": "Use Actor Orientation",
+      "labels": {
+        "ja": "アクターの向きを使用",
+        "zh-TW": "使用角色朝向",
+        "ko": "배우 방향 사용",
+        "zh-CN": "使用演员方向"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Enable or disable alignment of the camera to the actor's orientation."
+    },
+    {
+      "name": "Seed",
+      "type": "float",
+      "label": "Seed",
+      "labels": {
+        "ja": "シード",
+        "zh-TW": "種子值",
+        "ko": "시드",
+        "zh-CN": "随机种子"
+      },
+      "default": 1234,
+      "min": null,
+      "max": null,
+      "options": null,
+      "description": "Seed value for generating random camera motions."
+    },
+    {
+      "name": "Fade To Black",
+      "type": "float",
+      "label": "Fade To Black",
+      "labels": {
+        "ja": "ブラックアウト",
+        "zh-TW": "淡出至黑色",
+        "ko": "암전",
+        "zh-CN": "淡出至黑屏"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 0.25,
+      "options": null,
+      "description": "Duration of the fade-to-black effect during transitions."
+    },
+    {
+      "name": "F2B Probability",
+      "type": "float",
+      "label": "F2B Probability",
+      "labels": {
+        "ja": "ブラックアウト確率",
+        "zh-TW": "淡出至黑機率",
+        "ko": "F2B 확률",
+        "zh-CN": "黑屏概率"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Probability of triggering the fade-to-black effect."
+    },
+    {
+      "name": "Audio Sensitivity",
+      "type": "float",
+      "label": "Audio Sensitivity",
+      "labels": {
+        "ja": "音声感度",
+        "zh-TW": "音訊敏感度",
+        "ko": "오디오 민감도",
+        "zh-CN": "音频敏感度"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 4,
+      "options": null,
+      "description": "Sensitivity of the camera motion to audio levels."
+    },
+    {
+      "name": "Target Selection",
+      "type": "group",
+      "label": "Target Selection",
+      "labels": {
+        "ja": "ターゲットの選択",
+        "zh-TW": "目標選擇",
+        "ko": "목표 선택",
+        "zh-CN": "目标选择"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Head",
+          "type": "float",
+          "label": "Head",
+          "labels": {
+            "ja": "頭",
+            "zh-TW": "頭部",
+            "ko": "머리",
+            "zh-CN": "头部"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of targeting the actor's head."
+        },
+        {
+          "name": "Chest",
+          "type": "float",
+          "label": "Chest",
+          "labels": {
+            "ja": "胸",
+            "zh-TW": "胸部",
+            "ko": "가슴",
+            "zh-CN": "胸部"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of targeting the actor's chest."
+        },
+        {
+          "name": "Center",
+          "type": "float",
+          "label": "Center",
+          "labels": {
+            "ja": "中央",
+            "zh-TW": "中心",
+            "ko": "중앙",
+            "zh-CN": "中心"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of targeting the actor's center."
+        },
+        {
+          "name": "Legs",
+          "type": "float",
+          "label": "Legs",
+          "labels": {
+            "ja": "脚",
+            "zh-TW": "腿部",
+            "ko": "다리",
+            "zh-CN": "腿部"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of targeting the actor's legs."
+        },
+        {
+          "name": "Feet",
+          "type": "float",
+          "label": "Feet",
+          "labels": {
+            "ja": "足",
+            "zh-TW": "足部",
+            "ko": "발",
+            "zh-CN": "脚部"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of targeting the actor's feet."
+        }
+      ]
+    },
+    {
+      "name": "Distance Selection",
+      "type": "group",
+      "label": "Distance Selection",
+      "labels": {
+        "ja": "距離の選択",
+        "zh-TW": "距離選擇",
+        "ko": "거리 선택",
+        "zh-CN": "距离选择"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Close Up",
+          "type": "float",
+          "label": "Close Up",
+          "labels": {
+            "ja": "クローズアップ",
+            "zh-TW": "特寫",
+            "ko": "클로즈업",
+            "zh-CN": "特写"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of a close-up camera distance."
+        },
+        {
+          "name": "Zoom In",
+          "type": "float",
+          "label": "Zoom In",
+          "labels": {
+            "ja": "ズームイン",
+            "zh-TW": "拉近",
+            "ko": "줌 인",
+            "zh-CN": "放大"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of zooming in."
+        },
+        {
+          "name": "Zoom Out",
+          "type": "float",
+          "label": "Zoom Out",
+          "labels": {
+            "ja": "ズームアウト",
+            "zh-TW": "拉遠",
+            "ko": "줌 아웃",
+            "zh-CN": "缩小"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of zooming out."
+        },
+        {
+          "name": "Middle",
+          "type": "float",
+          "label": "Middle",
+          "labels": {
+            "ja": "中央",
+            "zh-TW": "中央",
+            "ko": "중간",
+            "zh-CN": "中部"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of a middle-range camera distance."
+        },
+        {
+          "name": "Far",
+          "type": "float",
+          "label": "Far",
+          "labels": {
+            "ja": "遠方",
+            "zh-TW": "遠景",
+            "ko": "원거리",
+            "zh-CN": "远景"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of a far camera distance."
+        }
+      ]
+    },
+    {
+      "name": "Path Selection",
+      "type": "group",
+      "label": "Path Selection",
+      "labels": {
+        "ja": "パスの選択",
+        "zh-TW": "路徑選擇",
+        "ko": "경로 선택",
+        "zh-CN": "路径选择"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "High Angle",
+          "type": "float",
+          "label": "High Angle",
+          "labels": {
+            "ja": "ハイアングル",
+            "zh-TW": "高角度",
+            "ko": "하이 앵글",
+            "zh-CN": "高角度"
+          },
+          "default": 20,
+          "min": 0,
+          "max": 30,
+          "options": null,
+          "description": "Maximum upward angle for the camera."
+        },
+        {
+          "name": "Low Angle",
+          "type": "float",
+          "label": "Low Angle",
+          "labels": {
+            "ja": "ローアングル",
+            "zh-TW": "低角度",
+            "ko": "로우 앵글",
+            "zh-CN": "低角度"
+          },
+          "default": -20,
+          "min": -30,
+          "max": 0,
+          "options": null,
+          "description": "Maximum downward angle for the camera."
+        }
+      ]
+    },
+    {
+      "name": "Orientation",
+      "type": "group",
+      "label": "Orientation",
+      "labels": {
+        "ja": "向き",
+        "zh-TW": "朝向",
+        "ko": "오리엔테이션",
+        "zh-CN": "朝向"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Front Center",
+          "type": "float",
+          "label": "Front Center",
+          "labels": {
+            "ja": "正面中央",
+            "zh-TW": "正前方中央",
+            "ko": "전방 중앙",
+            "zh-CN": "正前方中心"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of orienting the camera to the front center of the actor."
+        },
+        {
+          "name": "Front 45",
+          "type": "float",
+          "label": "Front 45",
+          "labels": {
+            "ja": "正面45度",
+            "zh-TW": "前方 45 度",
+            "ko": "전방 45도",
+            "zh-CN": "前45度"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of orienting the camera to a 45-degree angle in front of the actor."
+        },
+        {
+          "name": "Side 90",
+          "type": "float",
+          "label": "Side 90",
+          "labels": {
+            "ja": "横90度",
+            "zh-TW": "側方 90 度",
+            "ko": "측면 90도",
+            "zh-CN": "侧90度"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of orienting the camera to the actor's side at a 90-degree angle."
+        },
+        {
+          "name": "Back 135",
+          "type": "float",
+          "label": "Back 135",
+          "labels": {
+            "ja": "後方135度",
+            "zh-TW": "後方 135 度",
+            "ko": "후방 135도",
+            "zh-CN": "后135度"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of orienting the camera to a 135-degree angle behind the actor."
+        },
+        {
+          "name": "Back 180",
+          "type": "float",
+          "label": "Back 180",
+          "labels": {
+            "ja": "後方180度",
+            "zh-TW": "後方 180 度",
+            "ko": "후방 180도",
+            "zh-CN": "后180度"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Probability of orienting the camera directly behind the actor."
+        }
+      ]
+    }
+  ]
+}

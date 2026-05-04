@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Outfit & Bodypaint"
 locale: en-US
 nav_links:

@@ -1,0 +1,270 @@
+{
+  "name": "Troubleshooting",
+  "docPath": "features/troubleshooting",
+  "label": "Troubleshooting",
+  "labels": {
+    "ja": "トラブルシューティング",
+    "zh-TW": "故障排除",
+    "ko": "문제 해결",
+    "zh-CN": "故障排除"
+  },
+  "description": "Fixes common animation and rigging issues. **Apply Body\r\nRotation To Center** transfers hip and torso rotation to the\r\ncenter bone. **Twist Correction** reduces joint twisting in\r\narms and legs, with separate **Upper Arm**, **Lower Arm**,\r\nand **Leg Twist** sliders. **Elbow Axis** adjusts the elbow\r\njoint rotation axis. **Hand Scale** resizes the hands. **BVH\r\nThumb Motion** reduces thumb movement for BVH animations.\r\n**Limit Neck/Head Rotation** constrains upper body rotation.\r\n**Reset Transition** performs a smooth physics reset from\r\nstandard pose. **Skip Kinematic Updates** disables updates\r\nfor unanimated kinematic bones.",
+  "values": [
+    {
+      "name": "Apply Body Rotation To Center",
+      "type": "bool",
+      "label": "Apply Body Rotation To Center",
+      "labels": {
+        "ja": "ボディの回転を中央に適用",
+        "zh-TW": "將身體旋轉應用到中心點",
+        "ko": "몸통 회전을 중심으로 적용",
+        "zh-CN": "将身体旋转应用到中心骨骼"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Apply rotation of hip and torso to the center bone"
+    },
+    {
+      "name": "Twist Correction",
+      "type": "bool",
+      "label": "Twist Correction",
+      "labels": {
+        "ja": "ねじれの補正",
+        "zh-TW": "扭曲校正",
+        "ko": "비틀림 수정",
+        "zh-CN": "扭曲校正"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Reduce twisting of arms & legs at joints"
+    },
+    {
+      "name": "Upper Arm Twist",
+      "type": "float",
+      "label": "Upper Arm Twist",
+      "labels": {
+        "ja": "上腕のねじれ",
+        "zh-TW": "上臂扭曲",
+        "ko": "위팔 비틀림",
+        "zh-CN": "上臂扭曲"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Lower Arm Twist",
+      "type": "float",
+      "label": "Lower Arm Twist",
+      "labels": {
+        "ja": "前腕のねじれ",
+        "zh-TW": "下臂扭曲",
+        "ko": "아래팔 비틀림",
+        "zh-CN": "下臂扭曲"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Lower Arm Mode",
+      "type": "int",
+      "label": "Lower Arm Mode",
+      "labels": {
+        "ja": "前腕モード",
+        "zh-TW": "下臂模式",
+        "ko": "아래팔 모드",
+        "zh-CN": "下臂模式"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "options": ["From Upper Arm", "From Hand"],
+      "description": null
+    },
+    {
+      "name": "Leg Twist",
+      "type": "float",
+      "label": "Leg Twist",
+      "labels": {
+        "ja": "脚のねじれ",
+        "zh-TW": "腿部扭曲",
+        "ko": "다리 비틀림",
+        "zh-CN": "腿部扭曲"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Clear Arm Twist",
+      "type": "float",
+      "label": "Clear Arm Twist",
+      "labels": {
+        "ja": "腕のねじれをクリア",
+        "zh-TW": "清除手臂扭曲",
+        "ko": "팔 비틀림 초기화",
+        "zh-CN": "清除手臂扭曲"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Elbow Axis",
+      "type": "float",
+      "label": "Elbow Axis",
+      "labels": {
+        "ja": "肘の軸",
+        "zh-TW": "肘關節軸",
+        "ko": "팔꿈치 축",
+        "zh-CN": "手肘轴心"
+      },
+      "default": 0,
+      "min": -180,
+      "max": 180,
+      "options": null,
+      "description": "Rotation axis of the elbow joints"
+    },
+    {
+      "name": "Ignore Diffuse Color",
+      "type": "bool",
+      "label": "Ignore Diffuse Color",
+      "labels": {
+        "ja": "拡散色を無視",
+        "zh-TW": "忽略漫反射顏色",
+        "ko": "확산색 무시",
+        "zh-CN": "忽略漫反射颜色"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Hand Scale",
+      "type": "float",
+      "label": "Hand Scale",
+      "labels": {
+        "ja": "手のスケール",
+        "zh-TW": "手部縮放",
+        "ko": "손 크기",
+        "zh-CN": "手部缩放"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Set scale of the hands"
+    },
+    {
+      "name": "BVH Thumb Motion",
+      "type": "float",
+      "label": "BVH Thumb Motion",
+      "labels": {
+        "ja": "BVH親指の動き",
+        "zh-TW": "BVH 拇指動作",
+        "ko": "BVH 엄지 손가락 움직임",
+        "zh-CN": "BVH 拇指运动"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Reduce thumb motion for BVH motions"
+    },
+    {
+      "name": "Limit Neck Rotation",
+      "type": "float",
+      "label": "Limit Neck Rotation",
+      "labels": {
+        "ja": "首の回転制限",
+        "zh-TW": "限制頸部旋轉",
+        "ko": "목 회전 제한",
+        "zh-CN": "限制颈部旋转"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Reduce rotation of neck bone"
+    },
+    {
+      "name": "Limit Head Rotation",
+      "type": "float",
+      "label": "Limit Head Rotation",
+      "labels": {
+        "ja": "頭の回転制限",
+        "zh-TW": "限制頭部旋轉",
+        "ko": "머리 회전 제한",
+        "zh-CN": "限制头部旋转"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Reduce rotation of head bone"
+    },
+    {
+      "name": "Reset Transition",
+      "type": "bool",
+      "label": "Reset Transition",
+      "labels": {
+        "ja": "トランジションのリセット",
+        "zh-TW": "重置轉換",
+        "ko": "전환 초기화",
+        "zh-CN": "重置过渡"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "When resetting physics, perform a transition from standard pose to the animated pose to allow physics components to settle properly."
+    },
+    {
+      "name": "Leg Pose During Reset",
+      "type": "float",
+      "label": "Leg Pose During Reset",
+      "labels": {
+        "ja": "リセット中の脚のポーズ",
+        "zh-TW": "重置期間的腿部姿勢",
+        "ko": "리셋 중 다리 포즈",
+        "zh-CN": "重置过程中的腿部姿势"
+      },
+      "default": 30,
+      "min": 0,
+      "max": 45,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Skip Kinematic Updates",
+      "type": "bool",
+      "label": "Skip Kinematic Updates",
+      "labels": {
+        "ja": "キネマティックな更新をスキップ",
+        "zh-TW": "跳過運動學更新",
+        "ko": "키네마틱 업데이트 건너뛰기",
+        "zh-CN": "跳过运动学更新"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Not updating kinematic bones that are not animated."
+    }
+  ]
+}

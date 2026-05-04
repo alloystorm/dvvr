@@ -1,0 +1,110 @@
+{
+  "name": "Application Settings",
+  "docPath": "features/application_settings",
+  "label": "Application Settings",
+  "labels": {
+    "ja": "アプリケーション設定",
+    "zh-TW": "應用程式設定",
+    "ko": "애플리케이션 설정",
+    "zh-CN": "应用程序设置"
+  },
+  "description": "Global application settings for startup behavior and content handling.\r\n\r\n## Startup\r\n\r\n**Auto Load** controls what happens when the application starts.\r\n*None* starts with an empty stage, *Last Actor* loads the most recently\r\nused actor model, and *Last Scene* restores the last saved scene.\r\n\r\n## Texture Loading\r\n\r\n**Flip DDS Compressed** and **Flip DDS Uncompressed** control whether\r\nDDS textures are vertically flipped on load. Enable these if textures\r\nappear upside-down — which setting you need depends on the texture\r\ncompression format.\r\n\r\n## UI Behavior\r\n\r\n**Gizmo 3rd Axis** changes what the mouse wheel does when using the\r\ntransform gizmo. *Rotation* spins the object along the selected axis,\r\nwhile *Depth* moves the object closer or farther.\r\n\r\n**Use Translated Names** displays content names in the localized\r\nlanguage when available, rather than the original filenames.\r\n\r\n**Recover Tags From Save** attempts to restore tag data from saved\r\nsettings if the content cache is rebuilt or corrupted.",
+  "values": [
+    {
+      "name": "Auto Load",
+      "type": "options",
+      "label": "Auto Load",
+      "labels": {
+        "ja": "自動ロード",
+        "zh-TW": "自動載入",
+        "ko": "자동 로드",
+        "zh-CN": "自动加载"
+      },
+      "default": "Last Actor",
+      "min": 0,
+      "max": 2,
+      "options": ["None", "Last Actor", "Last Scene"],
+      "description": null
+    },
+    {
+      "name": "Recover Tags From Save",
+      "type": "bool",
+      "label": "Recover Tags From Save",
+      "labels": {
+        "ja": "保存からのタグ復元",
+        "zh-TW": "從儲存恢復標籤",
+        "ko": "저장된 데이터에서 태그 복구",
+        "zh-CN": "从保存文件中恢复标签"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Attempts to recover tags from saved settings in case your content cache is rebuilt or broken"
+    },
+    {
+      "name": "Flip DDS Compressed",
+      "type": "bool",
+      "label": "Flip DDS Compressed",
+      "labels": {
+        "ja": "DDS圧縮反転",
+        "zh-TW": "DDS壓縮翻轉",
+        "ko": "DDS 압축 플립",
+        "zh-CN": "翻转 DDS 压缩"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Flip compressed DDS texture"
+    },
+    {
+      "name": "Flip DDS Uncompressed",
+      "type": "bool",
+      "label": "Flip DDS Uncompressed",
+      "labels": {
+        "ja": "DDS非圧縮反転",
+        "zh-TW": "DDS未壓縮翻轉",
+        "ko": "DDS 비압축 플립",
+        "zh-CN": "翻转 DDS 未压缩"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Flip uncomrpessed DDS texture"
+    },
+    {
+      "name": "Gizmo 3rd Axis",
+      "type": "options",
+      "label": "Gizmo 3rd Axis",
+      "labels": {
+        "ja": "ギズモ第3軸",
+        "zh-TW": "輔助工具第三軸",
+        "ko": "기즈모 3차축",
+        "zh-CN": "辅助工具第三轴"
+      },
+      "default": "Rotation",
+      "min": 0,
+      "max": 1,
+      "options": ["Rotation", "Depth"],
+      "description": null
+    },
+    {
+      "name": "Use Translated Names",
+      "type": "bool",
+      "label": "Use Translated Names",
+      "labels": {
+        "ja": "ローカライズされた名前に使用",
+        "zh-TW": "使用翻譯名稱",
+        "ko": "번역된 이름 사용",
+        "zh-CN": "使用翻译名称"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    }
+  ]
+}

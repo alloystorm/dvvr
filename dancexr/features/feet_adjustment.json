@@ -1,0 +1,634 @@
+{
+  "name": "Feet Adjustment",
+  "docPath": "features/feet_adjustment",
+  "label": "Feet Adjustment",
+  "labels": {
+    "ja": "足の調整",
+    "zh-TW": "足部調整",
+    "ko": "발 조정",
+    "zh-CN": "足部调整"
+  },
+  "description": "Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical reference. The **Feet\r\nOn Floor** panel controls **Strength** (pull to ground),\r\n**Sole Height** (toe-to-ground distance), **Body Lift** (COM\r\ncorrection), **Contact Bend Toe** (toe flexion), **Contact\r\nRotation** (rotational inertia), **Jump Detection** (airborne\r\nsuppression), and **Jump Height** threshold.\r\n\r\nThe **Virtual Shoes** panel visualizes foot contact with\r\n**Inner**, **Outer**, **Front**, **Back** offsets, **Shoe\r\nDistance**, **Heel Top** height, **Mode** (Wireframe, Opaque,\r\nChrome, Solid Glass, Thin Glass), **Smoothness**, and\r\n**Color**.\r\n\r\nThe **Heels** panel simulates high heel poses with **High\r\nHeel** height, **Limit Angle**, **High Heel Toe Bend**, and\r\n**High Heel Blend** for animation mixing.\r\n\r\n**Reduce Sliding** applies friction with **Dist Threshold**\r\nand **Damping** controls. **Foot Angle** adds manual\r\n**Rotate X**, **Y**, and **Z** offsets.",
+  "values": [
+    {
+      "name": "Ground Offset",
+      "type": "float",
+      "label": "Ground Offset",
+      "labels": {
+        "ja": "地面オフセット",
+        "zh-TW": "地面偏移",
+        "ko": "지면 오프셋",
+        "zh-CN": "地面偏移"
+      },
+      "default": 0,
+      "min": -0.2,
+      "max": 0.2,
+      "options": null,
+      "description": "Adjusts the vertical offset of the ground level."
+    },
+    {
+      "name": "Feet On Floor",
+      "type": "group",
+      "label": "Feet On Floor",
+      "labels": {
+        "ja": "足の床接地",
+        "zh-TW": "足部接觸地面",
+        "ko": "바닥 착지",
+        "zh-CN": "足部在地面"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Strength",
+          "type": "float",
+          "label": "Strength",
+          "labels": {
+            "ja": "強さ",
+            "zh-TW": "強度",
+            "ko": "강도",
+            "zh-CN": "强度"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Controls how strongly feet are pulled to the ground. 0 = disabled."
+        },
+        {
+          "name": "Sole Height",
+          "type": "float",
+          "label": "Sole Height",
+          "labels": {
+            "ja": "靴底の高さ",
+            "zh-TW": "底板高度",
+            "ko": "발바닥 높이",
+            "zh-CN": "鞋底高度"
+          },
+          "default": 0.03,
+          "min": -0.1,
+          "max": 0.1,
+          "options": null,
+          "description": "The desired distance from the ground to the toe bone."
+        },
+        {
+          "name": "Body Lift",
+          "type": "float",
+          "label": "Body Lift",
+          "labels": {
+            "ja": "体の浮き上がり",
+            "zh-TW": "身體抬升",
+            "ko": "몸체 리프트",
+            "zh-CN": "身体抬升"
+          },
+          "default": 0,
+          "min": -0.2,
+          "max": 0.2,
+          "options": null,
+          "description": "Controls the amount of body lift when solving ground contact."
+        },
+        {
+          "name": "Contact Bend Toe",
+          "type": "float",
+          "label": "Contact Bend Toe",
+          "labels": {
+            "ja": "接地時つま先曲がり",
+            "zh-TW": "接觸彎趾",
+            "ko": "접촉 굽힘 발가락",
+            "zh-CN": "接触弯曲脚趾"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Determines the degree of toe bending when the toe is below the ground."
+        },
+        {
+          "name": "Contact Rotation",
+          "type": "float",
+          "label": "Contact Rotation",
+          "labels": {
+            "ja": "接地回転",
+            "zh-TW": "接觸旋轉",
+            "ko": "접촉 회전",
+            "zh-CN": "接触旋转"
+          },
+          "default": 0.2,
+          "min": 0.1,
+          "max": 0.3,
+          "options": null,
+          "description": "Defines the rotational inertia for contact adjustments."
+        },
+        {
+          "name": "Jump Detection",
+          "type": "bool",
+          "label": "Jump Detection",
+          "labels": {
+            "ja": "ジャンプ検出",
+            "zh-TW": "跳躍偵測",
+            "ko": "점프 감지",
+            "zh-CN": "跳跃检测"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Suppresses ground correction when both feet are airborne."
+        },
+        {
+          "name": "Jump Height",
+          "type": "float",
+          "label": "Jump Height",
+          "labels": {
+            "ja": "ジャンプの高さ",
+            "zh-TW": "跳躍高度",
+            "ko": "점프 높이",
+            "zh-CN": "跳跃高度"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 0.2,
+          "options": null,
+          "description": "Minimum height above ground for both feet to be considered a jump."
+        }
+      ]
+    },
+    {
+      "name": "Virtual Shoes",
+      "type": "group",
+      "label": "Virtual Shoes",
+      "labels": {
+        "ja": "バーチャルシューズ",
+        "zh-TW": "虛擬鞋子",
+        "ko": "가상 신발",
+        "zh-CN": "虚拟鞋"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Inner",
+          "type": "float",
+          "label": "Inner",
+          "labels": {
+            "ja": "内側",
+            "zh-TW": "內側",
+            "ko": "안쪽",
+            "zh-CN": "内侧"
+          },
+          "default": 0.04,
+          "min": 0,
+          "max": 0.1,
+          "options": null,
+          "description": "Sets the inward offset for virtual shoe visualization."
+        },
+        {
+          "name": "Outer",
+          "type": "float",
+          "label": "Outer",
+          "labels": {
+            "ja": "外側",
+            "zh-TW": "外側",
+            "ko": "바깥쪽",
+            "zh-CN": "外侧"
+          },
+          "default": 0.06,
+          "min": 0,
+          "max": 0.1,
+          "options": null,
+          "description": "Sets the outward offset for virtual shoe visualization."
+        },
+        {
+          "name": "Front",
+          "type": "float",
+          "label": "Front",
+          "labels": {
+            "ja": "前面",
+            "zh-TW": "正面",
+            "ko": "앞면",
+            "zh-CN": "正面"
+          },
+          "default": 0.075,
+          "min": 0,
+          "max": 0.1,
+          "options": null,
+          "description": "Sets the front offset for virtual shoe visualization."
+        },
+        {
+          "name": "Back",
+          "type": "float",
+          "label": "Back",
+          "labels": {
+            "ja": "背面",
+            "zh-TW": "背面",
+            "ko": "뒷면",
+            "zh-CN": "背面"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 0.1,
+          "options": null,
+          "description": "Sets the back offset for virtual shoe visualization."
+        },
+        {
+          "name": "Shoe Distance",
+          "type": "float",
+          "label": "Shoe Distance",
+          "labels": {
+            "ja": "靴の距離",
+            "zh-TW": "鞋子距離",
+            "ko": "신발 거리",
+            "zh-CN": "鞋距"
+          },
+          "default": 0.02,
+          "min": 0,
+          "max": 0.1,
+          "options": null,
+          "description": "Defines the distance between the virtual shoe and the foot."
+        },
+        {
+          "name": "Heel Top",
+          "type": "float",
+          "label": "Heel Top",
+          "labels": {
+            "ja": "かかと上部",
+            "zh-TW": "鞋跟頂部",
+            "ko": "뒤꿈치 상단",
+            "zh-CN": "鞋跟顶部"
+          },
+          "default": 0,
+          "min": -0.1,
+          "max": 0.1,
+          "options": null,
+          "description": "Adjusts the height of the virtual shoe's heel top."
+        },
+        {
+          "name": "Mode",
+          "type": "options",
+          "label": "Mode",
+          "labels": {
+            "ja": "モード",
+            "zh-TW": "模式",
+            "ko": "모드",
+            "zh-CN": "模式"
+          },
+          "default": "Wireframe",
+          "min": 0,
+          "max": 4,
+          "options": ["Wireframe", "Opaque", "Chrome", "Solid Glass", "Thin Glass"],
+          "description": "Selects the visualization mode for virtual shoes."
+        },
+        {
+          "name": "Smoothness",
+          "type": "float",
+          "label": "Smoothness",
+          "labels": {
+            "ja": "滑らかさ",
+            "zh-TW": "平滑度",
+            "ko": "부드러움",
+            "zh-CN": "平滑度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Controls the smoothness of the virtual shoe material."
+        },
+        {
+          "name": "Color",
+          "type": "group",
+          "label": "Color",
+          "labels": {
+            "ja": "色",
+            "zh-TW": "顏色",
+            "ko": "색상",
+            "zh-CN": "颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Sets the color of the virtual shoe material.",
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heels",
+      "type": "group",
+      "label": "Heels",
+      "labels": {
+        "ja": "かかと",
+        "zh-TW": "鞋跟",
+        "ko": "힐",
+        "zh-CN": "鞋跟"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "High Heels",
+          "type": "float",
+          "label": "High Heels",
+          "labels": {
+            "ja": "ハイヒール",
+            "zh-TW": "高跟鞋",
+            "ko": "하이힐",
+            "zh-CN": "高跟鞋"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Adjusts the height of the high heel pose."
+        },
+        {
+          "name": "Limit Angle",
+          "type": "bool",
+          "label": "Limit Angle",
+          "labels": {
+            "ja": "制限角度",
+            "zh-TW": "限制角度",
+            "ko": "제한 각도",
+            "zh-CN": "限制角度"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Limits the maximum angle for tiptoe rotation."
+        },
+        {
+          "name": "High Heel Toe Bend",
+          "type": "float",
+          "label": "High Heel Toe Bend",
+          "labels": {
+            "ja": "ハイヒールでのつま先曲がり",
+            "zh-TW": "高跟鞋彎趾",
+            "ko": "하이힐 발가락 굽힘",
+            "zh-CN": "高跟鞋脚趾弯曲"
+          },
+          "default": 0.35,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Controls the amount of toe bending when tiptoeing."
+        },
+        {
+          "name": "High Heel Blend",
+          "type": "float",
+          "label": "High Heel Blend",
+          "labels": {
+            "ja": "ハイヒールブレンド",
+            "zh-TW": "高跟鞋混合",
+            "ko": "하이힐 블렌딩",
+            "zh-CN": "高跟鞋混合"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Blends the high heel pose with animation to avoid extreme poses."
+        }
+      ]
+    },
+    {
+      "name": "Reduce Sliding",
+      "type": "group",
+      "label": "Reduce Sliding",
+      "labels": {
+        "ja": "(Reduce Sliding)",
+        "zh-TW": "(Reduce Sliding)",
+        "ko": "(Reduce Sliding)",
+        "zh-CN": "(Reduce Sliding)"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Dist Threshold",
+          "type": "float",
+          "label": "Dist Threshold",
+          "labels": {
+            "ja": "距離閾値",
+            "zh-TW": "距離閾值",
+            "ko": "거리 임계값",
+            "zh-CN": "距离阈值"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 0.2,
+          "options": null,
+          "description": "Defines the distance threshold for applying friction to reduce sliding."
+        },
+        {
+          "name": "Damping",
+          "type": "float",
+          "label": "Damping",
+          "labels": {
+            "ja": "ダンピング",
+            "zh-TW": "阻尼",
+            "ko": "감쇠",
+            "zh-CN": "阻尼"
+          },
+          "default": 0.75,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Controls the damping factor for friction applied to reduce sliding."
+        }
+      ]
+    },
+    {
+      "name": "Foot Angle",
+      "type": "group",
+      "label": "Foot Angle",
+      "labels": {
+        "ja": "足の角度",
+        "zh-TW": "足部角度",
+        "ko": "발 각도",
+        "zh-CN": "足部角度"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Rotate X",
+          "type": "float",
+          "label": "Rotate X",
+          "labels": {
+            "ja": "X軸回転",
+            "zh-TW": "X軸旋轉",
+            "ko": "X축 회전",
+            "zh-CN": "X轴旋转"
+          },
+          "default": 0,
+          "min": -90,
+          "max": 90,
+          "options": null,
+          "description": "Adjusts the rotation of the foot around the X-axis."
+        },
+        {
+          "name": "Rotate Y",
+          "type": "float",
+          "label": "Rotate Y",
+          "labels": {
+            "ja": "Y軸回転",
+            "zh-TW": "Y軸旋轉",
+            "ko": "Y축 회전",
+            "zh-CN": "Y轴旋转"
+          },
+          "default": 0,
+          "min": -45,
+          "max": 45,
+          "options": null,
+          "description": "Adjusts the rotation of the foot around the Y-axis."
+        },
+        {
+          "name": "Rotate Z",
+          "type": "float",
+          "label": "Rotate Z",
+          "labels": {
+            "ja": "Z軸回転",
+            "zh-TW": "Z軸旋轉",
+            "ko": "Z축 회전",
+            "zh-CN": "Z轴旋转"
+          },
+          "default": 0,
+          "min": -45,
+          "max": 45,
+          "options": null,
+          "description": "Adjusts the rotation of the foot around the Z-axis."
+        }
+      ]
+    }
+  ]
+}

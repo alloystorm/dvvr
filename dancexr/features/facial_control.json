@@ -1,0 +1,478 @@
+{
+  "name": "Facial Debug",
+  "docPath": "features/facial_control",
+  "label": "Facial Control",
+  "labels": {
+    "ja": "フェイシャルコントロール",
+    "zh-TW": "面部控制",
+    "ko": "얼굴 제어",
+    "zh-CN": "面部控制"
+  },
+  "description": "Provides direct sliders for facial expressions on XPS/FBX models.\r\nMouth shapes (A, I, U, E, O, Grinning, Smile 1-3, Frown), eyebrow\r\nposes (Smile, Upper, Lower, Worry, Angry 1-2), and eyelid poses\r\n(Blink, Jito, Wink, Laugh, Narrow) each get their own slider.\r\n\r\n**Use Lip Sync** drives mouth shapes from the currently playing\r\naudio. For XPS models, **Disable** turns off all facial animation,\r\nand the **Extent** sliders scale eyelid, mouth, and eyebrow\r\nmovement independently to fix over- or under-animated faces.",
+  "values": [
+    {
+      "name": "Use Lip Sync",
+      "type": "bool",
+      "label": "Use Lip Sync",
+      "labels": {
+        "ja": "リップシンク使用",
+        "zh-TW": "使用口型同步",
+        "ko": "립 싱크 사용",
+        "zh-CN": "使用口型同步"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Mouth Neutral",
+      "type": "value",
+      "label": "Mouth Neutral",
+      "labels": {
+        "ja": "口（ニュートラル）",
+        "zh-TW": "嘴巴中性",
+        "ko": "입술 중립",
+        "zh-CN": "嘴巴 中性"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Mouth Custom",
+      "type": "value",
+      "label": "Mouth Custom",
+      "labels": {
+        "ja": "口（カスタム）",
+        "zh-TW": "嘴巴自定義",
+        "ko": "입술 커스텀",
+        "zh-CN": "嘴巴 定制"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "あ",
+      "type": "value",
+      "label": "A",
+      "labels": {
+        "ja": "A",
+        "zh-TW": "A",
+        "ko": "A",
+        "zh-CN": "A"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "い",
+      "type": "value",
+      "label": "I",
+      "labels": {
+        "ja": "I",
+        "zh-TW": "I",
+        "ko": "I",
+        "zh-CN": "I"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "う",
+      "type": "value",
+      "label": "U",
+      "labels": {
+        "ja": "U",
+        "zh-TW": "U",
+        "ko": "U",
+        "zh-CN": "U"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "え",
+      "type": "value",
+      "label": "E",
+      "labels": {
+        "ja": "E",
+        "zh-TW": "E",
+        "ko": "E",
+        "zh-CN": "E"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "お",
+      "type": "value",
+      "label": "O",
+      "labels": {
+        "ja": "O",
+        "zh-TW": "O",
+        "ko": "O",
+        "zh-CN": "O"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "にやり",
+      "type": "value",
+      "label": "Grinning",
+      "labels": {
+        "ja": "ニヤリと笑う",
+        "zh-TW": "咧嘴笑",
+        "ko": "방긋 웃음",
+        "zh-CN": "咧嘴笑"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "にこ",
+      "type": "value",
+      "label": "Smile1",
+      "labels": {
+        "ja": "笑顔1",
+        "zh-TW": "微笑1",
+        "ko": "미소1",
+        "zh-CN": "微笑1"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "にこ2",
+      "type": "value",
+      "label": "Smile2",
+      "labels": {
+        "ja": "笑顔2",
+        "zh-TW": "微笑2",
+        "ko": "미소2",
+        "zh-CN": "微笑2"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "にこ3",
+      "type": "value",
+      "label": "Smile3",
+      "labels": {
+        "ja": "笑顔3",
+        "zh-TW": "微笑3",
+        "ko": "미소3",
+        "zh-CN": "微笑3"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "∧",
+      "type": "value",
+      "label": "Frown",
+      "labels": {
+        "ja": "しかめっ面",
+        "zh-TW": "皺眉",
+        "ko": "찡그림",
+        "zh-CN": "皱眉"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Eyebrows Neutral",
+      "type": "value",
+      "label": "Eyebrows Neutral",
+      "labels": {
+        "ja": "眉毛（ニュートラル）",
+        "zh-TW": "眉毛中性",
+        "ko": "눈썹 중립",
+        "zh-CN": "眉毛 中性"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Eyebrows Custom",
+      "type": "value",
+      "label": "Eyebrows Custom",
+      "labels": {
+        "ja": "眉毛（カスタム）",
+        "zh-TW": "眉毛自定義",
+        "ko": "눈썹 커스텀",
+        "zh-CN": "眉毛 定制"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "にこり",
+      "type": "value",
+      "label": "Smile",
+      "labels": {
+        "ja": "笑顔",
+        "zh-TW": "微笑",
+        "ko": "미소",
+        "zh-CN": "微笑"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "上",
+      "type": "value",
+      "label": "Upper",
+      "labels": {
+        "ja": "上部",
+        "zh-TW": "上部",
+        "ko": "위쪽",
+        "zh-CN": "上部"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "下",
+      "type": "value",
+      "label": "Lower",
+      "labels": {
+        "ja": "下部",
+        "zh-TW": "下部",
+        "ko": "아래쪽",
+        "zh-CN": "下部"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "困る",
+      "type": "value",
+      "label": "Worry",
+      "labels": {
+        "ja": "心配",
+        "zh-TW": "憂心",
+        "ko": "걱정",
+        "zh-CN": "担忧"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "怒り",
+      "type": "value",
+      "label": "Angry1",
+      "labels": {
+        "ja": "怒り1",
+        "zh-TW": "生氣1",
+        "ko": "분노1",
+        "zh-CN": "生气1"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "怒る",
+      "type": "value",
+      "label": "Angry2",
+      "labels": {
+        "ja": "怒り2",
+        "zh-TW": "生氣2",
+        "ko": "분노2",
+        "zh-CN": "生气2"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Eyelids Neutral",
+      "type": "value",
+      "label": "Eyelids Neutral",
+      "labels": {
+        "ja": "まぶた（ニュートラル）",
+        "zh-TW": "眼皮中性",
+        "ko": "눈꺼풀 중립",
+        "zh-CN": "眼睑 中性"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Eyelids Custom",
+      "type": "value",
+      "label": "Eyelids Custom",
+      "labels": {
+        "ja": "まぶた（カスタム）",
+        "zh-TW": "眼皮自定義",
+        "ko": "눈꺼풀 커스텀",
+        "zh-CN": "眼睑 定制"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "まばたき",
+      "type": "value",
+      "label": "Blink",
+      "labels": {
+        "ja": "まばたき",
+        "zh-TW": "眨眼",
+        "ko": "깜빡임",
+        "zh-CN": "眨眼"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "じと目",
+      "type": "value",
+      "label": "Jito",
+      "labels": {
+        "ja": "じっと",
+        "zh-TW": "專注",
+        "ko": "지토",
+        "zh-CN": "Jito"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "ウインク",
+      "type": "value",
+      "label": "Wink",
+      "labels": {
+        "ja": "ウインク",
+        "zh-TW": "眨眼",
+        "ko": "윙크",
+        "zh-CN": "眨眼"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "ウインク右",
+      "type": "value",
+      "label": "Wink Right",
+      "labels": {
+        "ja": "右目ウインク",
+        "zh-TW": "右眨眼",
+        "ko": "오른쪽 윙크",
+        "zh-CN": "右眨眼"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "笑い",
+      "type": "value",
+      "label": "Laugh",
+      "labels": {
+        "ja": "笑う",
+        "zh-TW": "大笑",
+        "ko": "웃음",
+        "zh-CN": "大笑"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "目細める",
+      "type": "value",
+      "label": "Narrow Eyes",
+      "labels": {
+        "ja": "細目",
+        "zh-TW": "眯眼",
+        "ko": "눈 가늘게 뜨기",
+        "zh-CN": "眯眼"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    }
+  ]
+}

@@ -1,0 +1,2292 @@
+{
+  "name": "Outfit",
+  "docPath": "features/outfit",
+  "label": "Outfit & Bodypaint",
+  "labels": {
+    "ja": "衣装＆ボディペイント",
+    "zh-TW": "服裝與身體彩繪",
+    "ko": "의상 & 바디페인트",
+    "zh-CN": "服装与身体彩绘"
+  },
+  "description": "Outfit applies a procedural fabric/paint layer over the character's\r\nskin material — used to add stockings, bodysuits, latex, hexagon\r\ndetail, freehand body paint, and dissolve transitions without\r\ntouching the underlying mesh or textures.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks how the layer behaves. *Color Paint* turns the\r\ncharacter into a canvas you draw on directly with the cursor —\r\npick a brush color and paint freely. *Outfit* hides the painting\r\ntools and instead drives the layer from the procedural\r\nshape/pattern settings, so you get clean stockings or bodysuits\r\ngenerated from parameters. *Outfit Paint* combines both: the\r\nprocedural shape defines the outfit area, and you paint on top\r\nof it. The visibility rules in the panel collapse the unrelated\r\nsub-sections automatically once the mode is set.\r\n\r\n\r\n## Presets\r\n\r\nSeven built-in presets cover the common cases — Body Paint,\r\nFullbody Latex, V-Shape Fishnet, two stocking variants, and two\r\nbodysuits. They seed the mode, shape, and the three surface\r\npresets in one click; treat them as starting points to tweak\r\nrather than final looks.\r\n\r\n\r\n## Body Paint\r\n\r\nSee the *Body Paint* sub-section. Brush size, rotation, color,\r\nstamp texture, and save/load drawing live there. Visible only\r\nin Color Paint and Outfit Paint modes.\r\n\r\n\r\n## Shape & Pattern\r\n\r\nSee the *Shape* sub-section. Controls the procedural geometry of\r\nthe outfit — stocking heights, top lines, fishnet/maze/curve\r\nline patterns, and bump effects along borders. Hidden in pure\r\nColor Paint mode since there is no procedural outfit to shape.\r\n\r\n\r\n## Surfaces\r\n\r\nThree surface layers stack on the outfit: **Surface Base** is\r\nthe main fabric (latex, stocking, gold, etc.), **Surface\r\nPattern** drives the line/maze pattern fill, and **Surface\r\nBorder** controls the trim around shape edges. Each is a full\r\nsurface block (metallic, gloss, color, anisotropy, dissolve,\r\nspecial shaders) so you can mix e.g. matte stockings with a\r\nglowing border. Hidden in Color Paint mode.\r\n\r\n\r\n## Hexagon Detail\r\n\r\nSee the *Hexagon Map* sub-section. Adds a procedural hex /\r\ncircle micro-pattern on top of the surface for fishnet-style\r\ndetail or sci-fi panels. Toggle off when you want a smooth\r\nfabric.\r\n\r\n\r\n## Dissolve\r\n\r\n**Dissolve** is the master amount (0 – 1) that fades the outfit\r\naway along the dissolve map — drive it with auto-update for\r\ntearing/melting transitions synced to music or other data.\r\nThe *Dissolve Map* sub-section configures the map itself:\r\npattern frequency, edge width and bump on both sides of the\r\ncutoff, X/Y offsets, and a hard cutout toggle. Hidden in pure\r\nColor Paint mode.",
+  "values": [
+    {
+      "name": "Mode",
+      "type": "int",
+      "label": "Mode",
+      "labels": {
+        "ja": "モード",
+        "zh-TW": "模式",
+        "ko": "모드",
+        "zh-CN": "模式"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 2,
+      "options": ["Color Paint", "Outfit", "Outfit Paint"],
+      "description": null
+    },
+    {
+      "name": "Body Paint",
+      "type": "group",
+      "label": "Body Paint",
+      "labels": {
+        "ja": "ボディペイント",
+        "zh-TW": "身體彩繪",
+        "ko": "바디 페인트",
+        "zh-CN": "身体上色"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Freehand painting on the character's body. Drag the cursor (or\r\nVR pointer) across the model to apply color or pattern strokes\r\ndirectly onto the outfit canvas. The canvas persists across\r\nframes so you can build up a drawing over time, save it as a\r\ntexture, and reload it later.\r\n\r\n\r\n## Brush\r\n\r\n**Brush Size** and **Brush Rotation** set the stroke shape;\r\nrotation only matters when a stamp texture is selected.\r\n**Texture** picks an optional stamp — when set, each click\r\nstamps a single decal instead of drawing a continuous stroke,\r\nwhich is the right choice for tattoos or logos. **Brush Type**\r\nselects which channel you're painting (Base / Pattern / Edge /\r\nErase) when in *Outfit Paint* mode; in *Color Paint* mode the\r\nchannel is implicit and this is hidden.\r\n\r\n\r\n## Color, Glow & Preserve\r\n\r\n**Color** is the brush color in Color Paint mode. **Glow**\r\nmultiplies the painted color's intensity (above 1 it becomes\r\nemissive). **Preserve Color** biases the glow boost so it\r\namplifies brightness without washing out the color's hue —\r\nuseful when you want a saturated neon look rather than a\r\nbleached bright one. **Erase** flips the brush to clear instead\r\nof paint.\r\n\r\n\r\n## Paint Side\r\n\r\nRestricts strokes to *Front*, *Back*, or *Both* sides of the\r\nbody. Pick a side when you want a design only on the chest or\r\nonly on the back without having to carefully avoid the other.\r\n\r\n\r\n## Canvas Actions\r\n\r\n**Clear Canvas** wipes the drawing. **Save Drawing** writes the\r\ncurrent canvas to disk as both an HDR and PNG so the full\r\ncolour/glow range survives a round-trip. **Load Drawing** picks\r\na previously saved drawing (or any drawing texture in the\r\nlibrary) as the canvas contents.",
+      "values": [
+        {
+          "name": "Paint Side",
+          "type": "int",
+          "label": "Paint Side",
+          "labels": {
+            "ja": "ペイント側",
+            "zh-TW": "繪畫側",
+            "ko": "페인트 측면",
+            "zh-CN": "上色侧面"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 2,
+          "options": ["Both", "Front", "Back"],
+          "description": null
+        },
+        {
+          "name": "Texture",
+          "type": "options",
+          "label": "Texture",
+          "labels": {
+            "ja": "テクスチャ",
+            "zh-TW": "紋理",
+            "ko": "텍스처",
+            "zh-CN": "纹理"
+          },
+          "default": "[None]",
+          "min": 0,
+          "max": 1,
+          "options": ["[None]", "[Tattoo]"],
+          "description": null
+        },
+        {
+          "name": "Brush Size",
+          "type": "float",
+          "label": "Brush Size",
+          "labels": {
+            "ja": "ブラシサイズ",
+            "zh-TW": "筆刷大小",
+            "ko": "브러시 크기",
+            "zh-CN": "画笔尺寸"
+          },
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Brush Rotation",
+          "type": "float",
+          "label": "Brush Rotation",
+          "labels": {
+            "ja": "ブラシの回転",
+            "zh-TW": "筆刷旋轉",
+            "ko": "브러시 회전",
+            "zh-CN": "画笔旋转"
+          },
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Brush Type",
+          "type": "int",
+          "label": "Brush Type",
+          "labels": {
+            "ja": "ブラシタイプ",
+            "zh-TW": "筆刷類型",
+            "ko": "브러시 유형",
+            "zh-CN": "画笔类型"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 3,
+          "options": ["Base", "Pattern", "Edge", "Erase"],
+          "description": null
+        },
+        {
+          "name": "Erase",
+          "type": "bool",
+          "label": "Erase",
+          "labels": {
+            "ja": "消しゴム",
+            "zh-TW": "橡皮擦",
+            "ko": "지우기",
+            "zh-CN": "擦除"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Color",
+          "type": "group",
+          "label": "Color",
+          "labels": {
+            "ja": "色",
+            "zh-TW": "顏色",
+            "ko": "색상",
+            "zh-CN": "颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Glow",
+          "type": "float",
+          "label": "Glow",
+          "labels": {
+            "ja": "グロー",
+            "zh-TW": "發光",
+            "ko": "발광",
+            "zh-CN": "发光"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Preserve Color",
+          "type": "float",
+          "label": "Preserve Color",
+          "labels": {
+            "ja": "色を保持",
+            "zh-TW": "保留顏色",
+            "ko": "색상 유지",
+            "zh-CN": "保留颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Load Drawing",
+          "type": "options",
+          "label": "Load Drawing",
+          "labels": {
+            "ja": "描画の読み込み",
+            "zh-TW": "載入繪圖",
+            "ko": "그림 불러오기",
+            "zh-CN": "加载绘制内容"
+          },
+          "default": "[None]",
+          "min": 0,
+          "max": 0,
+          "options": ["[None]"],
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Shape",
+      "type": "group",
+      "label": "Shape & Pattern",
+      "labels": {
+        "ja": "形状とパターン",
+        "zh-TW": "形狀與圖案",
+        "ko": "모양 및 패턴",
+        "zh-CN": "形状与图案"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Procedural geometry for the outfit layer — defines where the\r\noutfit covers the body and what pattern fills it. Everything is\r\ncomputed in shader, so changes are live and free of texture\r\nauthoring.\r\n\r\n\r\n## Stocking & Top Lines\r\n\r\nOutfits are bounded by up to three diagonal cuts: one stocking\r\nline (the bottom of the leg cover) and two top lines (V-neck\r\nstyle cuts on the torso). Each line has a **Height** (where it\r\ncrosses the centre) and an **Angle** (tilt away from\r\nhorizontal). Combine the three to draw stockings, V-shape\r\nbodysuits, fishnet halters, etc. **Stocking Edge** and\r\n**Top Edge** soften the cut into a gradient — small values give\r\na hard hem, larger values fade the outfit into skin.\r\n\r\n\r\n## Line Pattern\r\n\r\n**Line Pattern Type** picks the fill: *None* leaves the area\r\nsolid, *Grid* tiles a fishnet, *Maze* and *Maze Curve* generate\r\nnon-repeating maze lines, *Parallel* draws stripes.\r\n**Line Pattern Density** sets the line spacing,\r\n**Line Pattern Rotation** rotates the whole pattern,\r\n**Line Pattern Symmetric** mirrors it across the body's centre\r\nso left and right match. **Line Pattern Seed** reshuffles the\r\nrandom maze without changing density. **Border Size In/Out**\r\ncontrol how thick the line is on each side of its centre — use\r\nthe asymmetry to suggest stitching or piping.\r\n\r\n\r\n## Bump\r\n\r\n**Inside / Outside Bump** raises or lowers the surface near the\r\nline edges, with **Inside / Outside Distance** controlling how\r\nfar the bump bleeds. Subtle positive bump reads as raised\r\nstitching; negative bump reads as a pressed seam.",
+      "values": [
+        {
+          "name": "Top Height1",
+          "type": "float",
+          "label": "Top Height1",
+          "labels": {
+            "ja": "トップの高さ1",
+            "zh-TW": "頂部高度1",
+            "ko": "상단 높이1",
+            "zh-CN": "顶部高度1"
+          },
+          "default": 3,
+          "min": 0,
+          "max": 3,
+          "options": null,
+          "description": "Height of the first line at center"
+        },
+        {
+          "name": "Top Angle1",
+          "type": "float",
+          "label": "Top Angle1",
+          "labels": {
+            "ja": "トップの角度1",
+            "zh-TW": "頂部角度1",
+            "ko": "상단 각도1",
+            "zh-CN": "顶部角度1"
+          },
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": "Angle of the first line"
+        },
+        {
+          "name": "Top Height2",
+          "type": "float",
+          "label": "Top Height2",
+          "labels": {
+            "ja": "トップの高さ2",
+            "zh-TW": "頂部高度2",
+            "ko": "상단 높이2",
+            "zh-CN": "顶部高度2"
+          },
+          "default": 3,
+          "min": 0,
+          "max": 3,
+          "options": null,
+          "description": "Height of the second line at center"
+        },
+        {
+          "name": "Top Angle2",
+          "type": "float",
+          "label": "Top Angle2",
+          "labels": {
+            "ja": "トップの角度2",
+            "zh-TW": "頂部角度2",
+            "ko": "상단 각도2",
+            "zh-CN": "顶部角度2"
+          },
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": "Angle of the second line"
+        },
+        {
+          "name": "Top Edge",
+          "type": "float",
+          "label": "Top Edge",
+          "labels": {
+            "ja": "トップのエッジ",
+            "zh-TW": "頂部邊緣",
+            "ko": "상단 가장자리",
+            "zh-CN": "顶部边缘"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 0.2,
+          "options": null,
+          "description": "Edge width for the first and second lines"
+        },
+        {
+          "name": "Stocking Height",
+          "type": "float",
+          "label": "Stocking Height",
+          "labels": {
+            "ja": "ストッキングの高さ",
+            "zh-TW": "絲襪高度",
+            "ko": "스타킹 높이",
+            "zh-CN": "吊袜高度"
+          },
+          "default": 1.45,
+          "min": 0,
+          "max": 3,
+          "options": null,
+          "description": "Height of the stocking line at center"
+        },
+        {
+          "name": "Stocking Angle",
+          "type": "float",
+          "label": "Stocking Angle",
+          "labels": {
+            "ja": "ストッキングの角度",
+            "zh-TW": "絲襪角度",
+            "ko": "스타킹 각도",
+            "zh-CN": "吊袜角度"
+          },
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": "Angle of the stocking line"
+        },
+        {
+          "name": "Stocking Edge",
+          "type": "float",
+          "label": "Stocking Edge",
+          "labels": {
+            "ja": "ストッキングのエッジ",
+            "zh-TW": "絲襪邊緣",
+            "ko": "스타킹 가장자리",
+            "zh-CN": "吊袜边缘"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 0.2,
+          "options": null,
+          "description": "Edge width for the stocking line"
+        },
+        {
+          "name": "Line Pattern Type",
+          "type": "int",
+          "label": "Pattern Type",
+          "labels": {
+            "ja": "パターンタイプ",
+            "zh-TW": "圖案類型",
+            "ko": "패턴 유형",
+            "zh-CN": "图案类型"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 4,
+          "options": ["None", "Grid", "Maze", "Maze Curve", "Parallel"],
+          "description": null
+        },
+        {
+          "name": "Line Pattern Symmetric",
+          "type": "bool",
+          "label": "Pattern Symmetric",
+          "labels": {
+            "ja": "パターンの対称性",
+            "zh-TW": "圖案對稱",
+            "ko": "패턴 대칭",
+            "zh-CN": "图案对称"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Line Pattern Density",
+          "type": "float",
+          "label": "Pattern Density",
+          "labels": {
+            "ja": "パターン密度",
+            "zh-TW": "圖案密度",
+            "ko": "패턴 밀도",
+            "zh-CN": "图案密度"
+          },
+          "default": 5,
+          "min": 1,
+          "max": 50,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Line Pattern Rotation",
+          "type": "float",
+          "label": "Pattern Rotation",
+          "labels": {
+            "ja": "パターンの回転",
+            "zh-TW": "圖案旋轉",
+            "ko": "패턴 회전",
+            "zh-CN": "图案旋转"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 180,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Line Pattern Seed",
+          "type": "float",
+          "label": "Pattern Seed",
+          "labels": {
+            "ja": "パターンのシード",
+            "zh-TW": "圖案種子",
+            "ko": "패턴 시드",
+            "zh-CN": "图案种子"
+          },
+          "default": 10,
+          "min": 10,
+          "max": 50,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Border Size In",
+          "type": "float",
+          "label": "Border Size In",
+          "labels": {
+            "ja": "ボーダーの内サイズ",
+            "zh-TW": "邊框大小內",
+            "ko": "테두리 크기 안쪽",
+            "zh-CN": "边框内尺寸"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Border Size Out",
+          "type": "float",
+          "label": "Border Size Out",
+          "labels": {
+            "ja": "ボーダーの外サイズ",
+            "zh-TW": "邊框大小外",
+            "ko": "테두리 크기 바깥쪽",
+            "zh-CN": "边框外尺寸"
+          },
+          "default": 0.8,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Outside Bump",
+          "type": "float",
+          "label": "Outside Bump",
+          "labels": {
+            "ja": "外部膨らみ",
+            "zh-TW": "外部鼓起",
+            "ko": "바깥쪽 엠보스",
+            "zh-CN": "外部凸起"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Outside Distance",
+          "type": "float",
+          "label": "Outside Distance",
+          "labels": {
+            "ja": "外部距離",
+            "zh-TW": "外部距離",
+            "ko": "바깥쪽 간격",
+            "zh-CN": "外部距离"
+          },
+          "default": 0.01,
+          "min": 0,
+          "max": 0.025,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Inside Bump",
+          "type": "float",
+          "label": "Inside Bump",
+          "labels": {
+            "ja": "内部膨らみ",
+            "zh-TW": "內部鼓起",
+            "ko": "안쪽 엠보스",
+            "zh-CN": "内部凸起"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Inside Distance",
+          "type": "float",
+          "label": "Inside Distance",
+          "labels": {
+            "ja": "内部距離",
+            "zh-TW": "內部距離",
+            "ko": "안쪽 간격",
+            "zh-CN": "内部距离"
+          },
+          "default": 0.005,
+          "min": 0,
+          "max": 0.1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Hexagon Map",
+      "type": "group",
+      "label": "Hexagon Map",
+      "labels": {
+        "ja": "(Hexagon Map)",
+        "zh-TW": "(Hexagon Map)",
+        "ko": "(Hexagon Map)",
+        "zh-CN": "(Hexagon Map)"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "A procedural hexagonal (or circular) micro-pattern overlaid on\r\nthe surface for fishnet, sci-fi panel, or studded looks. Toggle\r\nit off whenever you want a smooth fabric.\r\n\r\n\r\n## Density & Shape\r\n\r\n**Density** sets how many hexagons fit across the surface\r\n(snapped to powers of two for clean tiling). **Size** scales\r\neach hex within its cell — smaller values leave gaps between\r\nhexes, larger values pack them tight. **Use Circle** swaps the\r\nhex shape for circles, useful for polka-dot or rivet looks.\r\n**Soft Edge** controls the falloff at each cell's border;\r\nvalues near zero give a crisp boundary, larger values blur the\r\npattern into the surrounding surface.\r\n\r\n\r\n## Bump & Noise\r\n\r\n**Bump** raises or lowers each cell relative to the surface\r\n(negative values stamp inwards). **Noise** randomises per-cell\r\nheight so the pattern doesn't read as a perfect grid.\r\n\r\n\r\n## UV Projection\r\n\r\nFor outfits the cells can either follow the model's UV layout\r\nor be projected from a virtual cylinder around the body.\r\n**UV Projection** enables the cylindrical mode — turn it on\r\nwhen stretched or distorted UVs ruin the pattern.\r\n**Projection Radius** scales the cylinder, and **Rotation**\r\ntilts it so the hex grid runs diagonally instead of straight.",
+      "values": [
+        {
+          "name": "Density",
+          "type": "float",
+          "label": "Density",
+          "labels": {
+            "ja": "密度",
+            "zh-TW": "密度",
+            "ko": "밀도",
+            "zh-CN": "密度"
+          },
+          "default": 4,
+          "min": 0,
+          "max": 8,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Size",
+          "type": "float",
+          "label": "Size",
+          "labels": {
+            "ja": "サイズ",
+            "zh-TW": "尺寸",
+            "ko": "크기",
+            "zh-CN": "大小"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Bump",
+          "type": "float",
+          "label": "Bump",
+          "labels": {
+            "ja": "バンプ",
+            "zh-TW": "凹凸",
+            "ko": "범프",
+            "zh-CN": "凹凸贴图"
+          },
+          "default": 0.5,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Noise",
+          "type": "float",
+          "label": "Noise",
+          "labels": {
+            "ja": "ノイズ",
+            "zh-TW": "雜訊",
+            "ko": "노이즈",
+            "zh-CN": "噪点"
+          },
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Use Circle",
+          "type": "bool",
+          "label": "Use Circle",
+          "labels": {
+            "ja": "(Use Circle)",
+            "zh-TW": "(Use Circle)",
+            "ko": "(Use Circle)",
+            "zh-CN": "(Use Circle)"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Soft Edge",
+          "type": "float",
+          "label": "Soft Edge",
+          "labels": {
+            "ja": "ソフトエッジ",
+            "zh-TW": "軟邊",
+            "ko": "부드러운 모서리",
+            "zh-CN": "软边缘"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "UV Projection",
+          "type": "bool",
+          "label": "UV Projection",
+          "labels": {
+            "ja": "UV投影",
+            "zh-TW": "UV 投影",
+            "ko": "UV 투영",
+            "zh-CN": "UV投影"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Projection Radius",
+          "type": "float",
+          "label": "Projection Radius",
+          "labels": {
+            "ja": "投影半径",
+            "zh-TW": "投影半徑",
+            "ko": "투영 반경",
+            "zh-CN": "投影半径"
+          },
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Rotation",
+          "type": "float",
+          "label": "Rotation",
+          "labels": {
+            "ja": "回転",
+            "zh-TW": "旋轉",
+            "ko": "회전",
+            "zh-CN": "旋转"
+          },
+          "default": 0,
+          "min": -90,
+          "max": 90,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Surface Base",
+      "type": "group",
+      "label": "Surface Base",
+      "labels": {
+        "ja": "ベースサーフェス",
+        "zh-TW": "表面底色",
+        "ko": "표면 기본",
+        "zh-CN": "表面底色"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Gloss",
+          "type": "float",
+          "label": "Gloss",
+          "labels": {
+            "ja": "光沢度",
+            "zh-TW": "光澤度",
+            "ko": "광택",
+            "zh-CN": "光泽度"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Metallic",
+          "type": "float",
+          "label": "Metallic",
+          "labels": {
+            "ja": "メタリック",
+            "zh-TW": "金屬感",
+            "ko": "금속성",
+            "zh-CN": "金属度"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Bump Strength",
+          "type": "float",
+          "label": "Bump",
+          "labels": {
+            "ja": "バンプ",
+            "zh-TW": "凹凸",
+            "ko": "범프",
+            "zh-CN": "凹凸贴图"
+          },
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Glow",
+          "type": "float",
+          "label": "Glow",
+          "labels": {
+            "ja": "グロー",
+            "zh-TW": "發光",
+            "ko": "발광",
+            "zh-CN": "发光"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Ambient",
+          "type": "float",
+          "label": "Ambient",
+          "labels": {
+            "ja": "アンビエント",
+            "zh-TW": "環境光",
+            "ko": "주변광",
+            "zh-CN": "环境光"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Alpha Reduction",
+          "type": "float",
+          "label": "Alpha Reduction",
+          "labels": {
+            "ja": "アルファ削減",
+            "zh-TW": "Alpha削減",
+            "ko": "알파 감소",
+            "zh-CN": "Alpha衰减"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Alpha Curve",
+          "type": "float",
+          "label": "Alpha Curve",
+          "labels": {
+            "ja": "アルファカーブ",
+            "zh-TW": "Alpha曲線",
+            "ko": "알파 곡선",
+            "zh-CN": "Alpha曲线"
+          },
+          "default": 0,
+          "min": -2,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Clip",
+          "type": "float",
+          "label": "Clip",
+          "labels": {
+            "ja": "クリップ",
+            "zh-TW": "剪裁",
+            "ko": "클립",
+            "zh-CN": "裁剪"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Color",
+          "type": "group",
+          "label": "Color",
+          "labels": {
+            "ja": "色",
+            "zh-TW": "顏色",
+            "ko": "색상",
+            "zh-CN": "颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blend Mode",
+              "type": "options",
+              "label": "Blend Mode",
+              "labels": {
+                "ja": "ブレンドモード",
+                "zh-TW": "混合模式",
+                "ko": "블렌드 모드",
+                "zh-CN": "混合模式"
+              },
+              "default": "Blend",
+              "min": 0,
+              "max": 3,
+              "options": ["Original", "Multiply", "Blend", "Color Shift"],
+              "description": null
+            },
+            {
+              "name": "Blend",
+              "type": "float",
+              "label": "Blend",
+              "labels": {
+                "ja": "ブレンド",
+                "zh-TW": "混合",
+                "ko": "블렌드",
+                "zh-CN": "混合"
+              },
+              "default": 0.9,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Alpha",
+              "type": "float",
+              "label": "Alpha",
+              "labels": {
+                "ja": "アルファ",
+                "zh-TW": "Alpha",
+                "ko": "알파",
+                "zh-CN": "透明度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Anisotropy",
+          "type": "float",
+          "label": "Anisotropy",
+          "labels": {
+            "ja": "アニソトロピー",
+            "zh-TW": "各向異性",
+            "ko": "이방성",
+            "zh-CN": "各向异性"
+          },
+          "default": -0.5,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Stocking Effect",
+          "type": "float",
+          "label": "Stocking Effect",
+          "labels": {
+            "ja": "ストッキングエフェクト",
+            "zh-TW": "絲襪效果",
+            "ko": "스타킹 효과",
+            "zh-CN": "丝袜效果"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Stocking Gradient",
+          "type": "float",
+          "label": "Stocking Gradient",
+          "labels": {
+            "ja": "ストッキンググラデーション",
+            "zh-TW": "絲襪漸層",
+            "ko": "스타킹 그라디언트",
+            "zh-CN": "丝袜渐变"
+          },
+          "default": 2,
+          "min": -3,
+          "max": 3,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Detail Density",
+          "type": "float",
+          "label": "Detail Density",
+          "labels": {
+            "ja": "ディテール密度",
+            "zh-TW": "細節密度",
+            "ko": "디테일 밀도",
+            "zh-CN": "细节密度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Enable Dissolve",
+          "type": "bool",
+          "label": "Enable Dissolve",
+          "labels": {
+            "ja": "ディゾルブを有効化",
+            "zh-TW": "啟用溶解",
+            "ko": "용해 활성화",
+            "zh-CN": "启用溶解"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Surface Pattern",
+      "type": "group",
+      "label": "Surface Pattern",
+      "labels": {
+        "ja": "サーフェスパターン",
+        "zh-TW": "表面圖案",
+        "ko": "표면 패턴",
+        "zh-CN": "表面图案"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Gloss",
+          "type": "float",
+          "label": "Gloss",
+          "labels": {
+            "ja": "光沢度",
+            "zh-TW": "光澤度",
+            "ko": "광택",
+            "zh-CN": "光泽度"
+          },
+          "default": 0.9,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Metallic",
+          "type": "float",
+          "label": "Metallic",
+          "labels": {
+            "ja": "メタリック",
+            "zh-TW": "金屬感",
+            "ko": "금속성",
+            "zh-CN": "金属度"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Bump Strength",
+          "type": "float",
+          "label": "Bump",
+          "labels": {
+            "ja": "バンプ",
+            "zh-TW": "凹凸",
+            "ko": "범프",
+            "zh-CN": "凹凸贴图"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Glow",
+          "type": "float",
+          "label": "Glow",
+          "labels": {
+            "ja": "グロー",
+            "zh-TW": "發光",
+            "ko": "발광",
+            "zh-CN": "发光"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Ambient",
+          "type": "float",
+          "label": "Ambient",
+          "labels": {
+            "ja": "アンビエント",
+            "zh-TW": "環境光",
+            "ko": "주변광",
+            "zh-CN": "环境光"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Alpha Reduction",
+          "type": "float",
+          "label": "Alpha Reduction",
+          "labels": {
+            "ja": "アルファ削減",
+            "zh-TW": "Alpha削減",
+            "ko": "알파 감소",
+            "zh-CN": "Alpha衰减"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Alpha Curve",
+          "type": "float",
+          "label": "Alpha Curve",
+          "labels": {
+            "ja": "アルファカーブ",
+            "zh-TW": "Alpha曲線",
+            "ko": "알파 곡선",
+            "zh-CN": "Alpha曲线"
+          },
+          "default": 0,
+          "min": -2,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Clip",
+          "type": "float",
+          "label": "Clip",
+          "labels": {
+            "ja": "クリップ",
+            "zh-TW": "剪裁",
+            "ko": "클립",
+            "zh-CN": "裁剪"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Color",
+          "type": "group",
+          "label": "Color",
+          "labels": {
+            "ja": "色",
+            "zh-TW": "顏色",
+            "ko": "색상",
+            "zh-CN": "颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blend Mode",
+              "type": "options",
+              "label": "Blend Mode",
+              "labels": {
+                "ja": "ブレンドモード",
+                "zh-TW": "混合模式",
+                "ko": "블렌드 모드",
+                "zh-CN": "混合模式"
+              },
+              "default": "Blend",
+              "min": 0,
+              "max": 3,
+              "options": ["Original", "Multiply", "Blend", "Color Shift"],
+              "description": null
+            },
+            {
+              "name": "Blend",
+              "type": "float",
+              "label": "Blend",
+              "labels": {
+                "ja": "ブレンド",
+                "zh-TW": "混合",
+                "ko": "블렌드",
+                "zh-CN": "混合"
+              },
+              "default": 0.8,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Alpha",
+              "type": "float",
+              "label": "Alpha",
+              "labels": {
+                "ja": "アルファ",
+                "zh-TW": "Alpha",
+                "ko": "알파",
+                "zh-CN": "透明度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Anisotropy",
+          "type": "float",
+          "label": "Anisotropy",
+          "labels": {
+            "ja": "アニソトロピー",
+            "zh-TW": "各向異性",
+            "ko": "이방성",
+            "zh-CN": "各向异性"
+          },
+          "default": 0,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Stocking Effect",
+          "type": "float",
+          "label": "Stocking Effect",
+          "labels": {
+            "ja": "ストッキングエフェクト",
+            "zh-TW": "絲襪效果",
+            "ko": "스타킹 효과",
+            "zh-CN": "丝袜效果"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Stocking Gradient",
+          "type": "float",
+          "label": "Stocking Gradient",
+          "labels": {
+            "ja": "ストッキンググラデーション",
+            "zh-TW": "絲襪漸層",
+            "ko": "스타킹 그라디언트",
+            "zh-CN": "丝袜渐变"
+          },
+          "default": 1,
+          "min": -3,
+          "max": 3,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Detail Density",
+          "type": "float",
+          "label": "Detail Density",
+          "labels": {
+            "ja": "ディテール密度",
+            "zh-TW": "細節密度",
+            "ko": "디테일 밀도",
+            "zh-CN": "细节密度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Enable Dissolve",
+          "type": "bool",
+          "label": "Enable Dissolve",
+          "labels": {
+            "ja": "ディゾルブを有効化",
+            "zh-TW": "啟用溶解",
+            "ko": "용해 활성화",
+            "zh-CN": "启用溶解"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Surface Border",
+      "type": "group",
+      "label": "Surface Border",
+      "labels": {
+        "ja": "サーフェスボーダー",
+        "zh-TW": "表面邊框",
+        "ko": "표면 테두리",
+        "zh-CN": "表面边框"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Gloss",
+          "type": "float",
+          "label": "Gloss",
+          "labels": {
+            "ja": "光沢度",
+            "zh-TW": "光澤度",
+            "ko": "광택",
+            "zh-CN": "光泽度"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Metallic",
+          "type": "float",
+          "label": "Metallic",
+          "labels": {
+            "ja": "メタリック",
+            "zh-TW": "金屬感",
+            "ko": "금속성",
+            "zh-CN": "金属度"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Bump Strength",
+          "type": "float",
+          "label": "Bump",
+          "labels": {
+            "ja": "バンプ",
+            "zh-TW": "凹凸",
+            "ko": "범프",
+            "zh-CN": "凹凸贴图"
+          },
+          "default": 0.2,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Glow",
+          "type": "float",
+          "label": "Glow",
+          "labels": {
+            "ja": "グロー",
+            "zh-TW": "發光",
+            "ko": "발광",
+            "zh-CN": "发光"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Ambient",
+          "type": "float",
+          "label": "Ambient",
+          "labels": {
+            "ja": "アンビエント",
+            "zh-TW": "環境光",
+            "ko": "주변광",
+            "zh-CN": "环境光"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Alpha Reduction",
+          "type": "float",
+          "label": "Alpha Reduction",
+          "labels": {
+            "ja": "アルファ削減",
+            "zh-TW": "Alpha削減",
+            "ko": "알파 감소",
+            "zh-CN": "Alpha衰减"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Alpha Curve",
+          "type": "float",
+          "label": "Alpha Curve",
+          "labels": {
+            "ja": "アルファカーブ",
+            "zh-TW": "Alpha曲線",
+            "ko": "알파 곡선",
+            "zh-CN": "Alpha曲线"
+          },
+          "default": 0,
+          "min": -2,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Clip",
+          "type": "float",
+          "label": "Clip",
+          "labels": {
+            "ja": "クリップ",
+            "zh-TW": "剪裁",
+            "ko": "클립",
+            "zh-CN": "裁剪"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Color",
+          "type": "group",
+          "label": "Color",
+          "labels": {
+            "ja": "色",
+            "zh-TW": "顏色",
+            "ko": "색상",
+            "zh-CN": "颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blend Mode",
+              "type": "options",
+              "label": "Blend Mode",
+              "labels": {
+                "ja": "ブレンドモード",
+                "zh-TW": "混合模式",
+                "ko": "블렌드 모드",
+                "zh-CN": "混合模式"
+              },
+              "default": "Blend",
+              "min": 0,
+              "max": 3,
+              "options": ["Original", "Multiply", "Blend", "Color Shift"],
+              "description": null
+            },
+            {
+              "name": "Blend",
+              "type": "float",
+              "label": "Blend",
+              "labels": {
+                "ja": "ブレンド",
+                "zh-TW": "混合",
+                "ko": "블렌드",
+                "zh-CN": "混合"
+              },
+              "default": 0.9,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Alpha",
+              "type": "float",
+              "label": "Alpha",
+              "labels": {
+                "ja": "アルファ",
+                "zh-TW": "Alpha",
+                "ko": "알파",
+                "zh-CN": "透明度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Anisotropy",
+          "type": "float",
+          "label": "Anisotropy",
+          "labels": {
+            "ja": "アニソトロピー",
+            "zh-TW": "各向異性",
+            "ko": "이방성",
+            "zh-CN": "各向异性"
+          },
+          "default": -0.5,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Stocking Effect",
+          "type": "float",
+          "label": "Stocking Effect",
+          "labels": {
+            "ja": "ストッキングエフェクト",
+            "zh-TW": "絲襪效果",
+            "ko": "스타킹 효과",
+            "zh-CN": "丝袜效果"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Stocking Gradient",
+          "type": "float",
+          "label": "Stocking Gradient",
+          "labels": {
+            "ja": "ストッキンググラデーション",
+            "zh-TW": "絲襪漸層",
+            "ko": "스타킹 그라디언트",
+            "zh-CN": "丝袜渐变"
+          },
+          "default": 2,
+          "min": -3,
+          "max": 3,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Detail Density",
+          "type": "float",
+          "label": "Detail Density",
+          "labels": {
+            "ja": "ディテール密度",
+            "zh-TW": "細節密度",
+            "ko": "디테일 밀도",
+            "zh-CN": "细节密度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Enable Dissolve",
+          "type": "bool",
+          "label": "Enable Dissolve",
+          "labels": {
+            "ja": "ディゾルブを有効化",
+            "zh-TW": "啟用溶解",
+            "ko": "용해 활성화",
+            "zh-CN": "启用溶解"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Dissolve",
+      "type": "float",
+      "label": "Dissolve",
+      "labels": {
+        "ja": "ディゾルブ",
+        "zh-TW": "溶解",
+        "ko": "용해",
+        "zh-CN": "溶解"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Dissolve Map",
+      "type": "group",
+      "label": "Dissolve Map",
+      "labels": {
+        "ja": "ディゾルブマップ",
+        "zh-TW": "溶解圖",
+        "ko": "디졸브 맵",
+        "zh-CN": "消散贴图"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Generates the noise map that drives the parent's *Dissolve*\r\nslider. The map is built from two layered patterns and an edge\r\nprofile, so the same dissolve amount can read as cracking,\r\nburning, melting, or a clean cut depending on these settings.\r\n\r\n\r\n## Layer 1 & Layer 2\r\n\r\nTwo independent noise layers combine to break up the dissolve\r\nfront. **Pattern L1 / L2** pick a noise variant (different\r\nvalues produce visibly different shapes). **Density L1 / L2**\r\ncontrol how fine each layer is — L1 is typically the broad\r\nshape, L2 the small-scale detail. **Magnify Scale** zooms both\r\nlayers, **Curve** sharpens or softens the dissolve gradient.\r\n\r\n\r\n## Edges\r\n\r\nWhere the outfit dissolves it leaves a transition band on each\r\nside of the cutoff. **Edge Size** and **Edge Bump** shape the\r\nband on the still-visible side; **Inverse Edge Size / Bump**\r\nshape the band on the dissolved side. Negative bump indents\r\nthe surface (good for char/burn looks); positive bump raises\r\nit. **Cutout** discards dissolved pixels entirely instead of\r\nfading their alpha — pick this when you want the outfit to\r\nvanish hole-by-hole rather than fade out.\r\n\r\n\r\n## Offset\r\n\r\n**Offset X / Y** slide the dissolve map across the body. Animate\r\nthem (via auto-update) to make the dissolve front sweep in a\r\ndirection rather than appear uniformly.",
+      "values": [
+        {
+          "name": "Pattern L1",
+          "type": "float",
+          "label": "Pattern L1",
+          "labels": {
+            "ja": "パターン L1",
+            "zh-TW": "圖案 L1",
+            "ko": "패턴 L1",
+            "zh-CN": "图案L1"
+          },
+          "default": 13,
+          "min": 0,
+          "max": 90,
+          "options": null,
+          "description": "Change the level 1 pattern when generating the dissolve map"
+        },
+        {
+          "name": "Density L1",
+          "type": "float",
+          "label": "Density L1",
+          "labels": {
+            "ja": "密度 L1",
+            "zh-TW": "密度 L1",
+            "ko": "밀도 L1",
+            "zh-CN": "密度L1"
+          },
+          "default": 3.5,
+          "min": 1,
+          "max": 10,
+          "options": null,
+          "description": "Density of level 1 pattern"
+        },
+        {
+          "name": "Pattern L2",
+          "type": "float",
+          "label": "Pattern L2",
+          "labels": {
+            "ja": "パターン L2",
+            "zh-TW": "圖案 L2",
+            "ko": "패턴 L2",
+            "zh-CN": "图案L2"
+          },
+          "default": 31,
+          "min": 0,
+          "max": 90,
+          "options": null,
+          "description": "Change the level 2 pattern when generating the dissolve map"
+        },
+        {
+          "name": "Density L2",
+          "type": "float",
+          "label": "Density L2",
+          "labels": {
+            "ja": "密度 L2",
+            "zh-TW": "密度 L2",
+            "ko": "밀도 L2",
+            "zh-CN": "密度L2"
+          },
+          "default": 50,
+          "min": 10,
+          "max": 100,
+          "options": null,
+          "description": "Density of level 2 pattern"
+        },
+        {
+          "name": "Magnify Scale",
+          "type": "float",
+          "label": "Magnify Scale",
+          "labels": {
+            "ja": "拡大スケール",
+            "zh-TW": "放大比例",
+            "ko": "확대 배율",
+            "zh-CN": "放大比例"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Curve",
+          "type": "float",
+          "label": "Curve",
+          "labels": {
+            "ja": "カーブ",
+            "zh-TW": "曲線",
+            "ko": "커브",
+            "zh-CN": "曲线"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Edge Size",
+          "type": "float",
+          "label": "Edge Size",
+          "labels": {
+            "ja": "エッジサイズ",
+            "zh-TW": "邊緣大小",
+            "ko": "가장자리 크기",
+            "zh-CN": "边缘尺寸"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 0.2,
+          "options": null,
+          "description": "Width of the edge in the positive area"
+        },
+        {
+          "name": "Edge Bump",
+          "type": "float",
+          "label": "Edge Bump",
+          "labels": {
+            "ja": "エッジバンプ",
+            "zh-TW": "邊緣浮雕",
+            "ko": "가장자리 범프",
+            "zh-CN": "边缘凹凸"
+          },
+          "default": -1,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": "Bump effect of the edge area"
+        },
+        {
+          "name": "Inverse Edge Size",
+          "type": "float",
+          "label": "Inverse Edge Size",
+          "labels": {
+            "ja": "逆エッジサイズ",
+            "zh-TW": "反向邊緣大小",
+            "ko": "역방향 가장자리 크기",
+            "zh-CN": "反向边缘尺寸"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 0.2,
+          "options": null,
+          "description": "Width of the edge in the negative area"
+        },
+        {
+          "name": "Inverse Edge Bump",
+          "type": "float",
+          "label": "Inverse Edge Bump",
+          "labels": {
+            "ja": "逆エッジバンプ",
+            "zh-TW": "反向邊緣浮雕",
+            "ko": "역방향 가장자리 범프",
+            "zh-CN": "反向边缘凹凸"
+          },
+          "default": -1,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": "Bump effect of the edge area"
+        },
+        {
+          "name": "Offset X",
+          "type": "float",
+          "label": "Offset X",
+          "labels": {
+            "ja": "Xオフセット",
+            "zh-TW": "X 方向偏移",
+            "ko": "X 오프셋",
+            "zh-CN": "X轴偏移"
+          },
+          "default": 0,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": "Offset the dissolve map in X direction"
+        },
+        {
+          "name": "Offset Y",
+          "type": "float",
+          "label": "Offset Y",
+          "labels": {
+            "ja": "Yオフセット",
+            "zh-TW": "Y 方向偏移",
+            "ko": "Y 오프셋",
+            "zh-CN": "Y轴偏移"
+          },
+          "default": 0,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": "Offset the dissolve map in Y direction"
+        },
+        {
+          "name": "Cutout",
+          "type": "bool",
+          "label": "Cutout",
+          "labels": {
+            "ja": "カットアウト",
+            "zh-TW": "切割",
+            "ko": "커팅",
+            "zh-CN": "镂空"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Make the dissolved area invisible"
+        }
+      ]
+    },
+    {
+      "name": "Manual Selection",
+      "type": "bool",
+      "label": "Manual Selection",
+      "labels": {
+        "ja": "手動選択",
+        "zh-TW": "手動選擇",
+        "ko": "수동 선택",
+        "zh-CN": "手动选择"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Select Material",
+      "type": "selection",
+      "label": "Select Material",
+      "labels": {
+        "ja": "マテリアル選択",
+        "zh-TW": "材質選擇",
+        "ko": "머티리얼 선택",
+        "zh-CN": "选择材质"
+      },
+      "default": "0",
+      "min": 0,
+      "max": -1,
+      "options": null,
+      "description": null
+    }
+  ]
+}

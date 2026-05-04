@@ -1,0 +1,386 @@
+{
+  "name": "Ragdoll",
+  "docPath": "features/ragdoll",
+  "label": "Ragdoll",
+  "labels": {
+    "ja": "ラグドール",
+    "zh-TW": "玩偶人體",
+    "ko": "라그돌",
+    "zh-CN": "物理模型"
+  },
+  "description": "Replaces the actor's animated skeleton with a particle-based\r\nragdoll physics simulation. The body goes limp and reacts to\r\ngravity and external forces.\r\n\r\n**Spring Force** and **Damping** (both logarithmic) control\r\nhow aggressively the ragdoll tries to return to its animated\r\npose — low values make it floppy, high values keep it closer\r\nto the animation. **Gravity** toggles gravitational pull on\r\nthe ragdoll.\r\n\r\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\r\nHand** pin specific body parts to their animated positions so\r\nthey don't flop — useful for keeping feet planted while the\r\nrest of the body goes limp.\r\n\r\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\r\nto 1 (fully rigid). Adjust individual body parts like legs,\r\nknees, arms, shoulders, torso, neck, and head to create\r\nlocalized stiffness — e.g. keep the torso firm while letting\r\nlimbs dangle.",
+  "values": [
+    {
+      "name": "Spring Force",
+      "type": "float",
+      "label": "Spring Force",
+      "labels": {
+        "ja": "ばね力",
+        "zh-TW": "彈簧力",
+        "ko": "용수철 힘",
+        "zh-CN": "弹簧力"
+      },
+      "default": 5,
+      "min": 0,
+      "max": 10,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Damping",
+      "type": "float",
+      "label": "Damping",
+      "labels": {
+        "ja": "ダンピング",
+        "zh-TW": "阻尼",
+        "ko": "감쇠",
+        "zh-CN": "阻尼"
+      },
+      "default": 3,
+      "min": 0,
+      "max": 10,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Gravity",
+      "type": "bool",
+      "label": "Gravity",
+      "labels": {
+        "ja": "重力",
+        "zh-TW": "重力",
+        "ko": "중력",
+        "zh-CN": "重力"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Lock Left Foot",
+      "type": "bool",
+      "label": "Lock Left Foot",
+      "labels": {
+        "ja": "左足固定",
+        "zh-TW": "鎖定左腳",
+        "ko": "왼쪽 발 잠금",
+        "zh-CN": "固定左脚"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Lock Right Foot",
+      "type": "bool",
+      "label": "Lock Right Foot",
+      "labels": {
+        "ja": "右足固定",
+        "zh-TW": "鎖定右腳",
+        "ko": "오른쪽 발 잠금",
+        "zh-CN": "固定右脚"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Lock Head",
+      "type": "bool",
+      "label": "Lock Head",
+      "labels": {
+        "ja": "頭部固定",
+        "zh-TW": "鎖定頭部",
+        "ko": "머리 잠금",
+        "zh-CN": "固定头部"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Lock Left Hand",
+      "type": "bool",
+      "label": "Lock Left Hand",
+      "labels": {
+        "ja": "左手固定",
+        "zh-TW": "鎖定左手",
+        "ko": "왼쪽 손 잠금",
+        "zh-CN": "固定左手"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Lock Right Hand",
+      "type": "bool",
+      "label": "Lock Right Hand",
+      "labels": {
+        "ja": "右手固定",
+        "zh-TW": "鎖定右手",
+        "ko": "오른쪽 손 잠금",
+        "zh-CN": "固定右手"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Sex",
+      "type": "group",
+      "label": "Sex",
+      "labels": {
+        "ja": "(Sex)",
+        "zh-TW": "(Sex)",
+        "ko": "(Sex)",
+        "zh-CN": "(Sex)"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "dildo",
+          "type": "bool",
+          "label": "dildo",
+          "labels": {
+            "ja": "(dildo)",
+            "zh-TW": "(dildo)",
+            "ko": "(dildo)",
+            "zh-CN": "(dildo)"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Fine Tune",
+      "type": "group",
+      "label": "Fine Tune",
+      "labels": {
+        "ja": "微調整",
+        "zh-TW": "精細調整",
+        "ko": "세밀 조정",
+        "zh-CN": "微调"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Leg",
+          "type": "float",
+          "label": "Leg",
+          "labels": {
+            "ja": "脚",
+            "zh-TW": "腿部",
+            "ko": "다리",
+            "zh-CN": "腿部"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Knee",
+          "type": "float",
+          "label": "Knee",
+          "labels": {
+            "ja": "膝",
+            "zh-TW": "膝蓋",
+            "ko": "무릎",
+            "zh-CN": "膝盖"
+          },
+          "default": 0.75,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Foot",
+          "type": "float",
+          "label": "Foot",
+          "labels": {
+            "ja": "足",
+            "zh-TW": "足部",
+            "ko": "발",
+            "zh-CN": "脚部"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Shoulder",
+          "type": "float",
+          "label": "Shoulder",
+          "labels": {
+            "ja": "肩",
+            "zh-TW": "肩部",
+            "ko": "어깨",
+            "zh-CN": "肩膀"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Arm",
+          "type": "float",
+          "label": "Arm",
+          "labels": {
+            "ja": "腕",
+            "zh-TW": "手臂",
+            "ko": "팔",
+            "zh-CN": "手臂"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Elbow",
+          "type": "float",
+          "label": "Elbow",
+          "labels": {
+            "ja": "肘",
+            "zh-TW": "肘部",
+            "ko": "팔꿈치",
+            "zh-CN": "手肘"
+          },
+          "default": 0.75,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Hand",
+          "type": "float",
+          "label": "Hand",
+          "labels": {
+            "ja": "手",
+            "zh-TW": "手部",
+            "ko": "손",
+            "zh-CN": "手部"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Waist",
+          "type": "float",
+          "label": "Waist",
+          "labels": {
+            "ja": "ウエスト",
+            "zh-TW": "腰部",
+            "ko": "허리",
+            "zh-CN": "腰部"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Center",
+          "type": "float",
+          "label": "Center",
+          "labels": {
+            "ja": "中央",
+            "zh-TW": "中心",
+            "ko": "중앙",
+            "zh-CN": "中心"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Torso",
+          "type": "float",
+          "label": "Torso",
+          "labels": {
+            "ja": "体幹",
+            "zh-TW": "軀幹",
+            "ko": "몸통",
+            "zh-CN": "躯干"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Neck",
+          "type": "float",
+          "label": "Neck",
+          "labels": {
+            "ja": "首",
+            "zh-TW": "頸部",
+            "ko": "목",
+            "zh-CN": "颈部"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Head",
+          "type": "float",
+          "label": "Head",
+          "labels": {
+            "ja": "頭",
+            "zh-TW": "頭部",
+            "ko": "머리",
+            "zh-CN": "头部"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    }
+  ]
+}

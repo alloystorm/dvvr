@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Lighting"
 locale: en-US
 nav_links:

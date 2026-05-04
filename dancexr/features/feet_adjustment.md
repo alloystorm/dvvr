@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Feet Adjustment"
 locale: en-US
 nav_links:

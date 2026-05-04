@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Light Ball"
 locale: en-US
 nav_links:

@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Facial Control"
 locale: en-US
 nav_links:

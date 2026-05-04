@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Lifelike Motions"
 locale: en-US
 nav_links:

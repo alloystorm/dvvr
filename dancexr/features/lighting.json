@@ -1,0 +1,3080 @@
+{
+  "name": "Lighting",
+  "docPath": "features/lighting",
+  "label": "Lighting",
+  "labels": {
+    "ja": "照明",
+    "zh-TW": "照明",
+    "ko": "조명",
+    "zh-CN": "照明"
+  },
+  "description": "Controls all scene lighting — a directional sun, up to three\r\nindependent light groups, and global brightness controls.\r\nBuilt-in presets give a complete working look in one tap;\r\nevery parameter is then freely adjustable.\r\n\r\n\r\n## Presets\r\n\r\nThe built-in presets — *Sunset*, *Daylight*, *Window*, *Stage*,\r\n*Projector*, and others — establish a complete lighting setup in\r\none tap. Apply the closest preset and tune individual groups\r\nfrom there.\r\n\r\n\r\n## Overall Intensity & Sky Ambient\r\n\r\n**Overall Intensity** scales every light group and the sun\r\ntogether, letting you push or pull the whole scene brightness\r\nwith one slider. **Sky Ambient** controls indirect skylight;\r\nraising it brightens shadowed areas and reduces harsh contrast,\r\nespecially in outdoor scenes.\r\n\r\n\r\n## Sunlight\r\n\r\nThe **Celestial** sub-section controls the directional sun (and\r\nmoon on HDRP). Time of day, orientation, and ecliptic angle\r\ndetermine where the sun sits in the sky and the resulting shadow\r\ndirection.\r\n\r\n\r\n## Additional Light Groups\r\n\r\n**Additional 1**, **2**, and **3** are independent, fully\r\nconfigurable light groups — typically key, fill, and rim. Each\r\ncan be a spotlight, point light, area light, or projector, and\r\ncan track actors dynamically.\r\n\r\n\r\n## Fog\r\n\r\nAdds depth haze between the camera and the scene. Low values\r\ngive a subtle atmospheric cue; higher values can dramatically\r\nshift the mood. Fog interacts with volumetric light cones for\r\ndramatic beam effects.\r\n\r\n\r\n## Light & Shadow Limits\r\n\r\n**Light Limit** caps how many active lights are rendered\r\nsimultaneously. **Shadow Limit** caps the subset that cast\r\nshadows — shadows are expensive, so keep this low (1–4)\r\nunless performance allows more.\r\n\r\n\r\n## Allocation\r\n\r\nWhen light groups use *Follow Actor* or *Maintain Distance*\r\ndynamics, **Allocation** controls how lights are spread across\r\nmultiple dancers. *By Distance* minimises total travel for a\r\nnatural look; *By Index (Fixed)* pins lights to specific actor\r\nslots. **Refresh Interval** sets how many beats pass between\r\nreallocations.",
+  "values": [
+    {
+      "name": "Sunlight",
+      "type": "group",
+      "label": "Sun / Moon / Time",
+      "labels": {
+        "ja": "(Sun / Moon / Time)",
+        "zh-TW": "(Sun / Moon / Time)",
+        "ko": "(Sun / Moon / Time)",
+        "zh-CN": "(Sun / Moon / Time)"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Settings for the sunlight. Keep in mind that sunlight is very bright and will require a higher exposure value.",
+      "values": [
+        {
+          "name": "Ecliptic Angle",
+          "type": "float",
+          "label": "Ecliptic Angle",
+          "labels": {
+            "ja": "黄道角度",
+            "zh-TW": "黄赤经角",
+            "ko": "황도 경사각",
+            "zh-CN": "黄道角度"
+          },
+          "default": 0,
+          "min": -90,
+          "max": 90,
+          "options": null,
+          "description": "The angle between the horizon and the plane the sun moves within."
+        },
+        {
+          "name": "Orientation",
+          "type": "float",
+          "label": "Orientation",
+          "labels": {
+            "ja": "向き",
+            "zh-TW": "朝向",
+            "ko": "오리엔테이션",
+            "zh-CN": "朝向"
+          },
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Time Of Day",
+          "type": "float",
+          "label": "Time Of Day",
+          "labels": {
+            "ja": "時間帯",
+            "zh-TW": "時間",
+            "ko": "시간대",
+            "zh-CN": "时间"
+          },
+          "default": 9,
+          "min": 0,
+          "max": 24,
+          "options": null,
+          "description": "Set sun angle at a certain time, in hours."
+        },
+        {
+          "name": "Sun",
+          "type": "bool",
+          "label": "Sun",
+          "labels": {
+            "ja": "太陽",
+            "zh-TW": "太陽",
+            "ko": "태양",
+            "zh-CN": "太阳"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Enable or disable the sun."
+        },
+        {
+          "name": "Sunlight Intensity",
+          "type": "float",
+          "label": "Sunlight Intensity",
+          "labels": {
+            "ja": "太陽光の強度",
+            "zh-TW": "陽光強度",
+            "ko": "햇빛 강도",
+            "zh-CN": "阳光强度"
+          },
+          "default": 100,
+          "min": 0,
+          "max": 200,
+          "options": null,
+          "description": "Brightness of the sun."
+        },
+        {
+          "name": "Color Temperature",
+          "type": "float",
+          "label": "Color Temperature",
+          "labels": {
+            "ja": "色温度",
+            "zh-TW": "色溫",
+            "ko": "색온도",
+            "zh-CN": "色温"
+          },
+          "default": 6500,
+          "min": 1000,
+          "max": 20000,
+          "options": null,
+          "description": "Color temporature of the sunlight."
+        },
+        {
+          "name": "Spot Radius",
+          "type": "float",
+          "label": "Spot Radius",
+          "labels": {
+            "ja": "スポット半径",
+            "zh-TW": "光斑半徑",
+            "ko": "스폿 반경",
+            "zh-CN": "光斑半径"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "This affects the size of the sun disc in procedural sky and the softness of the shadow."
+        },
+        {
+          "name": "Volumetric Multiplier",
+          "type": "float",
+          "label": "Volumetric Multiplier",
+          "labels": {
+            "ja": "ボリューム乗数",
+            "zh-TW": "體積乘數",
+            "ko": "볼륨 계수",
+            "zh-CN": "体积倍数"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Moon",
+          "type": "bool",
+          "label": "Moon",
+          "labels": {
+            "ja": "月",
+            "zh-TW": "月亮",
+            "ko": "달",
+            "zh-CN": "月亮"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Enable or disable the moon."
+        },
+        {
+          "name": "Moonlight Intensity",
+          "type": "float",
+          "label": "Moonlight Intensity",
+          "labels": {
+            "ja": "月光の強度",
+            "zh-TW": "月光強度",
+            "ko": "달빛 강도",
+            "zh-CN": "月光强度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 4,
+          "options": null,
+          "description": "The brightness of the moon."
+        },
+        {
+          "name": "Moon Position",
+          "type": "float",
+          "label": "Moon Position",
+          "labels": {
+            "ja": "月の位置",
+            "zh-TW": "月亮位置",
+            "ko": "달 위치",
+            "zh-CN": "月亮位置"
+          },
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": "The position of the moon in the sky."
+        },
+        {
+          "name": "Moon Phase",
+          "type": "float",
+          "label": "Moon Phase",
+          "labels": {
+            "ja": "月相",
+            "zh-TW": "月相",
+            "ko": "달의 위상",
+            "zh-CN": "月相"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "The phase of the moon, where 0 is new moon and 1 is full moon."
+        },
+        {
+          "name": "Earthshine",
+          "type": "float",
+          "label": "Earthshine",
+          "labels": {
+            "ja": "地光",
+            "zh-TW": "地光",
+            "ko": "지구광",
+            "zh-CN": "地光"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "The brightness of the earthshine on the moon."
+        },
+        {
+          "name": "Phase Rotation",
+          "type": "float",
+          "label": "Phase Rotation",
+          "labels": {
+            "ja": "周期回転",
+            "zh-TW": "相位旋轉",
+            "ko": "위상 회전",
+            "zh-CN": "相位旋转"
+          },
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": "The rotation of the moon phase."
+        },
+        {
+          "name": "Stars",
+          "type": "float",
+          "label": "Stars",
+          "labels": {
+            "ja": "星",
+            "zh-TW": "星星",
+            "ko": "별",
+            "zh-CN": "星空"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 4,
+          "options": null,
+          "description": "The brightness of the stars."
+        },
+        {
+          "name": "Aurora",
+          "type": "float",
+          "label": "Aurora",
+          "labels": {
+            "ja": "オーロラ",
+            "zh-TW": "極光",
+            "ko": "오로라",
+            "zh-CN": "极光"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 4,
+          "options": null,
+          "description": "The brightness of the aurora."
+        },
+        {
+          "name": "Window",
+          "type": "group",
+          "label": "Window",
+          "labels": {
+            "ja": "窓",
+            "zh-TW": "窗戶",
+            "ko": "창문",
+            "zh-CN": "窗户"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Width",
+              "type": "float",
+              "label": "Width",
+              "labels": {
+                "ja": "幅",
+                "zh-TW": "寬度",
+                "ko": "너비",
+                "zh-CN": "宽度"
+              },
+              "default": 8,
+              "min": 0,
+              "max": 16,
+              "options": null,
+              "description": "The width of the window when cookie map is enabled."
+            },
+            {
+              "name": "Height",
+              "type": "float",
+              "label": "Height",
+              "labels": {
+                "ja": "高さ",
+                "zh-TW": "高度",
+                "ko": "높이",
+                "zh-CN": "高度"
+              },
+              "default": 2,
+              "min": 0,
+              "max": 16,
+              "options": null,
+              "description": "The height of the window when cookie map is enabled."
+            },
+            {
+              "name": "Bottom",
+              "type": "float",
+              "label": "Bottom",
+              "labels": {
+                "ja": "下部",
+                "zh-TW": "底部",
+                "ko": "하부",
+                "zh-CN": "底部"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 2,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Position",
+              "type": "group",
+              "label": "Position",
+              "labels": {
+                "ja": "位置",
+                "zh-TW": "位置",
+                "ko": "위치",
+                "zh-CN": "位置"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "X",
+                  "type": "float",
+                  "label": "X",
+                  "labels": {
+                    "ja": "(X)",
+                    "zh-TW": "(X)",
+                    "ko": "(X)",
+                    "zh-CN": "(X)"
+                  },
+                  "default": -2,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Y",
+                  "type": "float",
+                  "label": "Y",
+                  "labels": {
+                    "ja": "(Y)",
+                    "zh-TW": "(Y)",
+                    "ko": "(Y)",
+                    "zh-CN": "(Y)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            },
+            {
+              "name": "Rows",
+              "type": "int",
+              "label": "Rows",
+              "labels": {
+                "ja": "行",
+                "zh-TW": "行",
+                "ko": "행",
+                "zh-CN": "行数"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 8,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Columns",
+              "type": "int",
+              "label": "Columns",
+              "labels": {
+                "ja": "列",
+                "zh-TW": "列",
+                "ko": "열",
+                "zh-CN": "列数"
+              },
+              "default": 2,
+              "min": 0,
+              "max": 8,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Space X",
+              "type": "float",
+              "label": "Space X",
+              "labels": {
+                "ja": "X空間",
+                "zh-TW": "X 軸空間",
+                "ko": "X 공간",
+                "zh-CN": "X 轴空间"
+              },
+              "default": 0.05,
+              "min": 0,
+              "max": 0.5,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Space Y",
+              "type": "float",
+              "label": "Space Y",
+              "labels": {
+                "ja": "Y空間",
+                "zh-TW": "Y 軸空間",
+                "ko": "Y 공간",
+                "zh-CN": "Y 轴空间"
+              },
+              "default": 0.05,
+              "min": 0,
+              "max": 0.5,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Visible",
+              "type": "bool",
+              "label": "Visible",
+              "labels": {
+                "ja": "可視",
+                "zh-TW": "可見",
+                "ko": "가시성",
+                "zh-CN": "可见"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Show window in the scene."
+            },
+            {
+              "name": "Origin",
+              "type": "float",
+              "label": "Origin",
+              "labels": {
+                "ja": "原点",
+                "zh-TW": "起始點",
+                "ko": "원점",
+                "zh-CN": "原点"
+              },
+              "default": 1,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Sky Light",
+              "type": "float",
+              "label": "Sky Light",
+              "labels": {
+                "ja": "スカイライト",
+                "zh-TW": "天空光",
+                "ko": "스카이 라이트",
+                "zh-CN": "天空光"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 2,
+              "options": null,
+              "description": "The brightness of the sky light."
+            },
+            {
+              "name": "Sky Light Angle",
+              "type": "float",
+              "label": "Sky Light Angle",
+              "labels": {
+                "ja": "スカイライトの角度",
+                "zh-TW": "天空光角度",
+                "ko": "스카이 라이트 각도",
+                "zh-CN": "天空光角度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 90,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Sky Light Shadow",
+              "type": "bool",
+              "label": "Sky Light Shadow",
+              "labels": {
+                "ja": "スカイライトのシャドウ",
+                "zh-TW": "天空光陰影",
+                "ko": "스카이 라이트 그림자",
+                "zh-CN": "天空光阴影"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Enable shadow for the sky light."
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "type": "group",
+          "label": "Shadow",
+          "labels": {
+            "ja": "シャドウ",
+            "zh-TW": "陰影",
+            "ko": "그림자",
+            "zh-CN": "阴影"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Shadow settings.",
+          "values": [
+            {
+              "name": "Mode",
+              "type": "int",
+              "label": "Mode",
+              "labels": {
+                "ja": "モード",
+                "zh-TW": "模式",
+                "ko": "모드",
+                "zh-CN": "模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 3,
+              "options": ["Use Global Setting", "Shadow Map", "Screen Space", "Raytracing (If Available)"],
+              "description": null
+            },
+            {
+              "name": "Contact Shadow",
+              "type": "bool",
+              "label": "Contact Shadow",
+              "labels": {
+                "ja": "コンタクトシャドウ",
+                "zh-TW": "接觸陰影",
+                "ko": "접촉 그림자",
+                "zh-CN": "接触阴影"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Enable shadows for small details."
+            },
+            {
+              "name": "Sample Count",
+              "type": "int",
+              "label": "Sample Count",
+              "labels": {
+                "ja": "サンプル数",
+                "zh-TW": "樣本數",
+                "ko": "샘플 수",
+                "zh-CN": "采样计数"
+              },
+              "default": 8,
+              "min": 1,
+              "max": 32,
+              "options": null,
+              "description": "Sample count when using raytracing shadows. Higher = better result but worse performance."
+            },
+            {
+              "name": "Denoise",
+              "type": "bool",
+              "label": "Denoise",
+              "labels": {
+                "ja": "ノイズ除去",
+                "zh-TW": "去噪",
+                "ko": "디노이즈",
+                "zh-CN": "去噪"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Enable denoising when using raytracing shadows."
+            },
+            {
+              "name": "Denoise Radius",
+              "type": "int",
+              "label": "Denoise Radius",
+              "labels": {
+                "ja": "ノイズ除去半径",
+                "zh-TW": "去噪半徑",
+                "ko": "디노이즈 반경",
+                "zh-CN": "去噪半径"
+              },
+              "default": 8,
+              "min": 1,
+              "max": 32,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Shadow Dimmer",
+              "type": "float",
+              "label": "Shadow Dimmer",
+              "labels": {
+                "ja": "シャドウディマー",
+                "zh-TW": "陰影減光器",
+                "ko": "그림자 디머",
+                "zh-CN": "阴影衰减器"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Reduce intensity of the shadow."
+            }
+          ]
+        },
+        {
+          "name": "Lens Flare",
+          "type": "bool",
+          "label": "Lens Flare",
+          "labels": {
+            "ja": "レンズフレア",
+            "zh-TW": "鏡頭耀斑",
+            "ko": "렌즈 플레어",
+            "zh-CN": "镜头光晕"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Enable lens flare"
+        }
+      ]
+    },
+    {
+      "name": "Additional 1",
+      "type": "group",
+      "label": "Additional 1",
+      "labels": {
+        "ja": "追加 1",
+        "zh-TW": "附加 1",
+        "ko": "추가 1",
+        "zh-CN": "附加 1"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Configure light group 1",
+      "values": [
+        {
+          "name": "Volumetric Multiplier",
+          "type": "float",
+          "label": "Volumetric Multiplier",
+          "labels": {
+            "ja": "ボリューム乗数",
+            "zh-TW": "體積乘數",
+            "ko": "볼륨 계수",
+            "zh-CN": "体积倍数"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Type",
+          "type": "options",
+          "label": "Type",
+          "labels": {
+            "ja": "タイプ",
+            "zh-TW": "類型",
+            "ko": "유형",
+            "zh-CN": "类型"
+          },
+          "default": "Spotlight",
+          "min": 0,
+          "max": 4,
+          "options": ["Spotlight", "Point light", "Area light", "Pyramid", "Box"],
+          "description": null
+        },
+        {
+          "name": "Color",
+          "type": "group",
+          "label": "Color",
+          "labels": {
+            "ja": "色",
+            "zh-TW": "顏色",
+            "ko": "색상",
+            "zh-CN": "颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Use Stage Color",
+              "type": "bool",
+              "label": "Use Stage Color",
+              "labels": {
+                "ja": "ステージの色を使用",
+                "zh-TW": "使用舞台顏色",
+                "ko": "무대 색상 사용",
+                "zh-CN": "使用舞台颜色"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Use the color from the stage ring"
+            },
+            {
+              "name": "Color Temp",
+              "type": "float",
+              "label": "Color Temp",
+              "labels": {
+                "ja": "色温度",
+                "zh-TW": "色溫",
+                "ko": "색 온도",
+                "zh-CN": "色温"
+              },
+              "default": 6500,
+              "min": 3000,
+              "max": 8000,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Intensity",
+          "type": "float",
+          "label": "Intensity",
+          "labels": {
+            "ja": "強度",
+            "zh-TW": "強度",
+            "ko": "강도",
+            "zh-CN": "强度"
+          },
+          "default": 25,
+          "min": 0,
+          "max": 100,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Cookie",
+          "type": "options",
+          "label": "Cookie",
+          "labels": {
+            "ja": "クッキー",
+            "zh-TW": "陰影圖案",
+            "ko": "쿠키",
+            "zh-CN": "图案"
+          },
+          "default": "[None]",
+          "min": 0,
+          "max": 5,
+          "options": ["[None]", "[Window]", "[Blinds]", "[Spot]", "[Tube]", "[Video]"],
+          "description": null
+        },
+        {
+          "name": "Emitter Radius",
+          "type": "float",
+          "label": "Emitter Radius",
+          "labels": {
+            "ja": "エミッタ半径",
+            "zh-TW": "發射器半徑",
+            "ko": "방출기 반경",
+            "zh-CN": "发射器半径"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Size of the light source."
+        },
+        {
+          "name": "Size X",
+          "type": "float",
+          "label": "Size X",
+          "labels": {
+            "ja": "サイズ X",
+            "zh-TW": "X 尺寸",
+            "ko": "크기 X",
+            "zh-CN": "X轴尺寸"
+          },
+          "default": 1.25,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Size Y",
+          "type": "float",
+          "label": "Size Y",
+          "labels": {
+            "ja": "サイズ Y",
+            "zh-TW": "Y 尺寸",
+            "ko": "크기 Y",
+            "zh-CN": "Y轴尺寸"
+          },
+          "default": 1.25,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Visible",
+          "type": "float",
+          "label": "Visible",
+          "labels": {
+            "ja": "可視",
+            "zh-TW": "可見",
+            "ko": "가시성",
+            "zh-CN": "可见"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 4,
+          "options": null,
+          "description": "Controls how bright the light source is when being renderred. Set to 0 to make it invisible."
+        },
+        {
+          "name": "Cone Length",
+          "type": "float",
+          "label": "Cone Length",
+          "labels": {
+            "ja": "コーンの長さ",
+            "zh-TW": "錐體長度",
+            "ko": "원뿔 길이",
+            "zh-CN": "锥体长度"
+          },
+          "default": 1.25,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": "Length of the volumatric light cone."
+        },
+        {
+          "name": "Orientation",
+          "type": "float",
+          "label": "Orientation",
+          "labels": {
+            "ja": "向き",
+            "zh-TW": "朝向",
+            "ko": "오리엔테이션",
+            "zh-CN": "朝向"
+          },
+          "default": 0,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Angle",
+          "type": "float",
+          "label": "Angle",
+          "labels": {
+            "ja": "角度",
+            "zh-TW": "角度",
+            "ko": "각도",
+            "zh-CN": "角度"
+          },
+          "default": 25,
+          "min": -90,
+          "max": 180,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Distance",
+          "type": "float",
+          "label": "Distance",
+          "labels": {
+            "ja": "距離",
+            "zh-TW": "距離",
+            "ko": "거리",
+            "zh-CN": "距离"
+          },
+          "default": 3,
+          "min": 0,
+          "max": 20,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Height",
+          "type": "float",
+          "label": "Height",
+          "labels": {
+            "ja": "高さ",
+            "zh-TW": "高度",
+            "ko": "높이",
+            "zh-CN": "高度"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": "Height of light position."
+        },
+        {
+          "name": "Dynamics",
+          "type": "options",
+          "label": "Dynamics",
+          "labels": {
+            "ja": "ダイナミクス",
+            "zh-TW": "動態",
+            "ko": "동적 효과",
+            "zh-CN": "动态"
+          },
+          "default": "Maintain Distance",
+          "min": 0,
+          "max": 3,
+          "options": ["Stationary", "Follow Actor", "Behind Actor", "Maintain Distance"],
+          "description": null
+        },
+        {
+          "name": "Max Follow Distance",
+          "type": "float",
+          "label": "Max Follow Distance",
+          "labels": {
+            "ja": "最大追跡距離",
+            "zh-TW": "最大跟隨距離",
+            "ko": "최대 추적 거리",
+            "zh-CN": "最大跟随距离"
+          },
+          "default": 5,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Suspension",
+          "type": "group",
+          "label": "Suspension",
+          "labels": {
+            "ja": "吊り下げ",
+            "zh-TW": "懸掛",
+            "ko": "현수",
+            "zh-CN": "悬挂"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Suspension Segments",
+              "type": "int",
+              "label": "Suspension Segments",
+              "labels": {
+                "ja": "サスペンションセグメント",
+                "zh-TW": "懸掛段落",
+                "ko": "현수 분할",
+                "zh-CN": "悬挂节段"
+              },
+              "default": 2,
+              "min": 1,
+              "max": 5,
+              "options": null,
+              "description": "Enable suspension effect."
+            },
+            {
+              "name": "Suspension Distance",
+              "type": "float",
+              "label": "Suspension Distance",
+              "labels": {
+                "ja": "サスペンション距離",
+                "zh-TW": "懸掛距離",
+                "ko": "현수 거리",
+                "zh-CN": "悬挂距离"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 5,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Swing Speed",
+              "type": "float",
+              "label": "Swing Speed",
+              "labels": {
+                "ja": "スイング速度",
+                "zh-TW": "擺動速度",
+                "ko": "스윙 속도",
+                "zh-CN": "摆动速度"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Control speed to maintain swing motion"
+            }
+          ]
+        },
+        {
+          "name": "Use Actor Position",
+          "type": "bool",
+          "label": "Use Actor Position",
+          "labels": {
+            "ja": "アクターの位置を使用",
+            "zh-TW": "使用角色位置",
+            "ko": "액터 위치 사용",
+            "zh-CN": "使用角色位置"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Use actor's position and orientation when positioning the lights."
+        },
+        {
+          "name": "Target Height",
+          "type": "float",
+          "label": "Target Height",
+          "labels": {
+            "ja": "ターゲットの高さ",
+            "zh-TW": "目標高度",
+            "ko": "타겟 높이",
+            "zh-CN": "目标高度"
+          },
+          "default": 0,
+          "min": -2,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Lens Flare",
+          "type": "bool",
+          "label": "Lens Flare",
+          "labels": {
+            "ja": "レンズフレア",
+            "zh-TW": "鏡頭耀斑",
+            "ko": "렌즈 플레어",
+            "zh-CN": "镜头光晕"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Repeat",
+          "type": "group",
+          "label": "Repeat",
+          "labels": {
+            "ja": "繰り返し",
+            "zh-TW": "重複",
+            "ko": "반복",
+            "zh-CN": "重复"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Number",
+              "type": "int",
+              "label": "Number",
+              "labels": {
+                "ja": "数",
+                "zh-TW": "數量",
+                "ko": "개수",
+                "zh-CN": "数量"
+              },
+              "default": 1,
+              "min": 1,
+              "max": 8,
+              "options": null,
+              "description": "How many lights in the array."
+            },
+            {
+              "name": "Formation",
+              "type": "int",
+              "label": "Formation",
+              "labels": {
+                "ja": "配置",
+                "zh-TW": "陣型",
+                "ko": "배치",
+                "zh-CN": "阵列"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["Circle", "Grid"],
+              "description": "Use grid or circle formation."
+            },
+            {
+              "name": "Dist / Radius",
+              "type": "float",
+              "label": "Dist / Radius",
+              "labels": {
+                "ja": "距離 / 半径",
+                "zh-TW": "距離 / 半徑",
+                "ko": "거리 / 반경",
+                "zh-CN": "距离 / 半径"
+              },
+              "default": 7,
+              "min": 0,
+              "max": 20,
+              "options": null,
+              "description": "Distance between the lights in grid mode."
+            },
+            {
+              "name": "Range",
+              "type": "float",
+              "label": "Range",
+              "labels": {
+                "ja": "範囲",
+                "zh-TW": "範圍",
+                "ko": "범위",
+                "zh-CN": "范围"
+              },
+              "default": 360,
+              "min": 0,
+              "max": 360,
+              "options": null,
+              "description": "The angle of the lights in circle mode."
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "type": "group",
+          "label": "Shadow",
+          "labels": {
+            "ja": "シャドウ",
+            "zh-TW": "陰影",
+            "ko": "그림자",
+            "zh-CN": "阴影"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Mode",
+              "type": "int",
+              "label": "Mode",
+              "labels": {
+                "ja": "モード",
+                "zh-TW": "模式",
+                "ko": "모드",
+                "zh-CN": "模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 3,
+              "options": ["Use Global Setting", "Shadow Map", "Screen Space", "Raytracing (If Available)"],
+              "description": null
+            },
+            {
+              "name": "Contact Shadow",
+              "type": "bool",
+              "label": "Contact Shadow",
+              "labels": {
+                "ja": "コンタクトシャドウ",
+                "zh-TW": "接觸陰影",
+                "ko": "접촉 그림자",
+                "zh-CN": "接触阴影"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Enable shadows for small details."
+            },
+            {
+              "name": "Sample Count",
+              "type": "int",
+              "label": "Sample Count",
+              "labels": {
+                "ja": "サンプル数",
+                "zh-TW": "樣本數",
+                "ko": "샘플 수",
+                "zh-CN": "采样计数"
+              },
+              "default": 8,
+              "min": 1,
+              "max": 32,
+              "options": null,
+              "description": "Sample count when using raytracing shadows. Higher = better result but worse performance."
+            },
+            {
+              "name": "Denoise",
+              "type": "bool",
+              "label": "Denoise",
+              "labels": {
+                "ja": "ノイズ除去",
+                "zh-TW": "去噪",
+                "ko": "디노이즈",
+                "zh-CN": "去噪"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Enable denoising when using raytracing shadows."
+            },
+            {
+              "name": "Denoise Radius",
+              "type": "int",
+              "label": "Denoise Radius",
+              "labels": {
+                "ja": "ノイズ除去半径",
+                "zh-TW": "去噪半徑",
+                "ko": "디노이즈 반경",
+                "zh-CN": "去噪半径"
+              },
+              "default": 8,
+              "min": 1,
+              "max": 32,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Shadow Dimmer",
+              "type": "float",
+              "label": "Shadow Dimmer",
+              "labels": {
+                "ja": "シャドウディマー",
+                "zh-TW": "陰影減光器",
+                "ko": "그림자 디머",
+                "zh-CN": "阴影衰减器"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Reduce intensity of the shadow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Additional 2",
+      "type": "group",
+      "label": "Additional 2",
+      "labels": {
+        "ja": "追加 2",
+        "zh-TW": "附加 2",
+        "ko": "추가 2",
+        "zh-CN": "附加 2"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Configure light group 2",
+      "values": [
+        {
+          "name": "Volumetric Multiplier",
+          "type": "float",
+          "label": "Volumetric Multiplier",
+          "labels": {
+            "ja": "ボリューム乗数",
+            "zh-TW": "體積乘數",
+            "ko": "볼륨 계수",
+            "zh-CN": "体积倍数"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Type",
+          "type": "options",
+          "label": "Type",
+          "labels": {
+            "ja": "タイプ",
+            "zh-TW": "類型",
+            "ko": "유형",
+            "zh-CN": "类型"
+          },
+          "default": "Spotlight",
+          "min": 0,
+          "max": 4,
+          "options": ["Spotlight", "Point light", "Area light", "Pyramid", "Box"],
+          "description": null
+        },
+        {
+          "name": "Color",
+          "type": "group",
+          "label": "Color",
+          "labels": {
+            "ja": "色",
+            "zh-TW": "顏色",
+            "ko": "색상",
+            "zh-CN": "颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Use Stage Color",
+              "type": "bool",
+              "label": "Use Stage Color",
+              "labels": {
+                "ja": "ステージの色を使用",
+                "zh-TW": "使用舞台顏色",
+                "ko": "무대 색상 사용",
+                "zh-CN": "使用舞台颜色"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Use the color from the stage ring"
+            },
+            {
+              "name": "Color Temp",
+              "type": "float",
+              "label": "Color Temp",
+              "labels": {
+                "ja": "色温度",
+                "zh-TW": "色溫",
+                "ko": "색 온도",
+                "zh-CN": "色温"
+              },
+              "default": 6500,
+              "min": 3000,
+              "max": 8000,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Intensity",
+          "type": "float",
+          "label": "Intensity",
+          "labels": {
+            "ja": "強度",
+            "zh-TW": "強度",
+            "ko": "강도",
+            "zh-CN": "强度"
+          },
+          "default": 25,
+          "min": 0,
+          "max": 100,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Cookie",
+          "type": "options",
+          "label": "Cookie",
+          "labels": {
+            "ja": "クッキー",
+            "zh-TW": "陰影圖案",
+            "ko": "쿠키",
+            "zh-CN": "图案"
+          },
+          "default": "[None]",
+          "min": 0,
+          "max": 5,
+          "options": ["[None]", "[Window]", "[Blinds]", "[Spot]", "[Tube]", "[Video]"],
+          "description": null
+        },
+        {
+          "name": "Emitter Radius",
+          "type": "float",
+          "label": "Emitter Radius",
+          "labels": {
+            "ja": "エミッタ半径",
+            "zh-TW": "發射器半徑",
+            "ko": "방출기 반경",
+            "zh-CN": "发射器半径"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Size of the light source."
+        },
+        {
+          "name": "Size X",
+          "type": "float",
+          "label": "Size X",
+          "labels": {
+            "ja": "サイズ X",
+            "zh-TW": "X 尺寸",
+            "ko": "크기 X",
+            "zh-CN": "X轴尺寸"
+          },
+          "default": 1.25,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Size Y",
+          "type": "float",
+          "label": "Size Y",
+          "labels": {
+            "ja": "サイズ Y",
+            "zh-TW": "Y 尺寸",
+            "ko": "크기 Y",
+            "zh-CN": "Y轴尺寸"
+          },
+          "default": 1.25,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Visible",
+          "type": "float",
+          "label": "Visible",
+          "labels": {
+            "ja": "可視",
+            "zh-TW": "可見",
+            "ko": "가시성",
+            "zh-CN": "可见"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 4,
+          "options": null,
+          "description": "Controls how bright the light source is when being renderred. Set to 0 to make it invisible."
+        },
+        {
+          "name": "Cone Length",
+          "type": "float",
+          "label": "Cone Length",
+          "labels": {
+            "ja": "コーンの長さ",
+            "zh-TW": "錐體長度",
+            "ko": "원뿔 길이",
+            "zh-CN": "锥体长度"
+          },
+          "default": 1.25,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": "Length of the volumatric light cone."
+        },
+        {
+          "name": "Orientation",
+          "type": "float",
+          "label": "Orientation",
+          "labels": {
+            "ja": "向き",
+            "zh-TW": "朝向",
+            "ko": "오리엔테이션",
+            "zh-CN": "朝向"
+          },
+          "default": -135,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Angle",
+          "type": "float",
+          "label": "Angle",
+          "labels": {
+            "ja": "角度",
+            "zh-TW": "角度",
+            "ko": "각도",
+            "zh-CN": "角度"
+          },
+          "default": 35,
+          "min": -90,
+          "max": 180,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Distance",
+          "type": "float",
+          "label": "Distance",
+          "labels": {
+            "ja": "距離",
+            "zh-TW": "距離",
+            "ko": "거리",
+            "zh-CN": "距离"
+          },
+          "default": 3,
+          "min": 0,
+          "max": 20,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Height",
+          "type": "float",
+          "label": "Height",
+          "labels": {
+            "ja": "高さ",
+            "zh-TW": "高度",
+            "ko": "높이",
+            "zh-CN": "高度"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": "Height of light position."
+        },
+        {
+          "name": "Dynamics",
+          "type": "options",
+          "label": "Dynamics",
+          "labels": {
+            "ja": "ダイナミクス",
+            "zh-TW": "動態",
+            "ko": "동적 효과",
+            "zh-CN": "动态"
+          },
+          "default": "Maintain Distance",
+          "min": 0,
+          "max": 3,
+          "options": ["Stationary", "Follow Actor", "Behind Actor", "Maintain Distance"],
+          "description": null
+        },
+        {
+          "name": "Max Follow Distance",
+          "type": "float",
+          "label": "Max Follow Distance",
+          "labels": {
+            "ja": "最大追跡距離",
+            "zh-TW": "最大跟隨距離",
+            "ko": "최대 추적 거리",
+            "zh-CN": "最大跟随距离"
+          },
+          "default": 5,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Suspension",
+          "type": "group",
+          "label": "Suspension",
+          "labels": {
+            "ja": "吊り下げ",
+            "zh-TW": "懸掛",
+            "ko": "현수",
+            "zh-CN": "悬挂"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Suspension Segments",
+              "type": "int",
+              "label": "Suspension Segments",
+              "labels": {
+                "ja": "サスペンションセグメント",
+                "zh-TW": "懸掛段落",
+                "ko": "현수 분할",
+                "zh-CN": "悬挂节段"
+              },
+              "default": 2,
+              "min": 1,
+              "max": 5,
+              "options": null,
+              "description": "Enable suspension effect."
+            },
+            {
+              "name": "Suspension Distance",
+              "type": "float",
+              "label": "Suspension Distance",
+              "labels": {
+                "ja": "サスペンション距離",
+                "zh-TW": "懸掛距離",
+                "ko": "현수 거리",
+                "zh-CN": "悬挂距离"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 5,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Swing Speed",
+              "type": "float",
+              "label": "Swing Speed",
+              "labels": {
+                "ja": "スイング速度",
+                "zh-TW": "擺動速度",
+                "ko": "스윙 속도",
+                "zh-CN": "摆动速度"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Control speed to maintain swing motion"
+            }
+          ]
+        },
+        {
+          "name": "Use Actor Position",
+          "type": "bool",
+          "label": "Use Actor Position",
+          "labels": {
+            "ja": "アクターの位置を使用",
+            "zh-TW": "使用角色位置",
+            "ko": "액터 위치 사용",
+            "zh-CN": "使用角色位置"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Use actor's position and orientation when positioning the lights."
+        },
+        {
+          "name": "Target Height",
+          "type": "float",
+          "label": "Target Height",
+          "labels": {
+            "ja": "ターゲットの高さ",
+            "zh-TW": "目標高度",
+            "ko": "타겟 높이",
+            "zh-CN": "目标高度"
+          },
+          "default": 0,
+          "min": -2,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Lens Flare",
+          "type": "bool",
+          "label": "Lens Flare",
+          "labels": {
+            "ja": "レンズフレア",
+            "zh-TW": "鏡頭耀斑",
+            "ko": "렌즈 플레어",
+            "zh-CN": "镜头光晕"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Repeat",
+          "type": "group",
+          "label": "Repeat",
+          "labels": {
+            "ja": "繰り返し",
+            "zh-TW": "重複",
+            "ko": "반복",
+            "zh-CN": "重复"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Number",
+              "type": "int",
+              "label": "Number",
+              "labels": {
+                "ja": "数",
+                "zh-TW": "數量",
+                "ko": "개수",
+                "zh-CN": "数量"
+              },
+              "default": 1,
+              "min": 1,
+              "max": 8,
+              "options": null,
+              "description": "How many lights in the array."
+            },
+            {
+              "name": "Formation",
+              "type": "int",
+              "label": "Formation",
+              "labels": {
+                "ja": "配置",
+                "zh-TW": "陣型",
+                "ko": "배치",
+                "zh-CN": "阵列"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["Circle", "Grid"],
+              "description": "Use grid or circle formation."
+            },
+            {
+              "name": "Dist / Radius",
+              "type": "float",
+              "label": "Dist / Radius",
+              "labels": {
+                "ja": "距離 / 半径",
+                "zh-TW": "距離 / 半徑",
+                "ko": "거리 / 반경",
+                "zh-CN": "距离 / 半径"
+              },
+              "default": 7,
+              "min": 0,
+              "max": 20,
+              "options": null,
+              "description": "Distance between the lights in grid mode."
+            },
+            {
+              "name": "Range",
+              "type": "float",
+              "label": "Range",
+              "labels": {
+                "ja": "範囲",
+                "zh-TW": "範圍",
+                "ko": "범위",
+                "zh-CN": "范围"
+              },
+              "default": 360,
+              "min": 0,
+              "max": 360,
+              "options": null,
+              "description": "The angle of the lights in circle mode."
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "type": "group",
+          "label": "Shadow",
+          "labels": {
+            "ja": "シャドウ",
+            "zh-TW": "陰影",
+            "ko": "그림자",
+            "zh-CN": "阴影"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Mode",
+              "type": "int",
+              "label": "Mode",
+              "labels": {
+                "ja": "モード",
+                "zh-TW": "模式",
+                "ko": "모드",
+                "zh-CN": "模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 3,
+              "options": ["Use Global Setting", "Shadow Map", "Screen Space", "Raytracing (If Available)"],
+              "description": null
+            },
+            {
+              "name": "Contact Shadow",
+              "type": "bool",
+              "label": "Contact Shadow",
+              "labels": {
+                "ja": "コンタクトシャドウ",
+                "zh-TW": "接觸陰影",
+                "ko": "접촉 그림자",
+                "zh-CN": "接触阴影"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Enable shadows for small details."
+            },
+            {
+              "name": "Sample Count",
+              "type": "int",
+              "label": "Sample Count",
+              "labels": {
+                "ja": "サンプル数",
+                "zh-TW": "樣本數",
+                "ko": "샘플 수",
+                "zh-CN": "采样计数"
+              },
+              "default": 8,
+              "min": 1,
+              "max": 32,
+              "options": null,
+              "description": "Sample count when using raytracing shadows. Higher = better result but worse performance."
+            },
+            {
+              "name": "Denoise",
+              "type": "bool",
+              "label": "Denoise",
+              "labels": {
+                "ja": "ノイズ除去",
+                "zh-TW": "去噪",
+                "ko": "디노이즈",
+                "zh-CN": "去噪"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Enable denoising when using raytracing shadows."
+            },
+            {
+              "name": "Denoise Radius",
+              "type": "int",
+              "label": "Denoise Radius",
+              "labels": {
+                "ja": "ノイズ除去半径",
+                "zh-TW": "去噪半徑",
+                "ko": "디노이즈 반경",
+                "zh-CN": "去噪半径"
+              },
+              "default": 8,
+              "min": 1,
+              "max": 32,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Shadow Dimmer",
+              "type": "float",
+              "label": "Shadow Dimmer",
+              "labels": {
+                "ja": "シャドウディマー",
+                "zh-TW": "陰影減光器",
+                "ko": "그림자 디머",
+                "zh-CN": "阴影衰减器"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Reduce intensity of the shadow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Additional 3",
+      "type": "group",
+      "label": "Additional 3",
+      "labels": {
+        "ja": "追加 3",
+        "zh-TW": "附加 3",
+        "ko": "추가 3",
+        "zh-CN": "附加 3"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Configure light group 3",
+      "values": [
+        {
+          "name": "Volumetric Multiplier",
+          "type": "float",
+          "label": "Volumetric Multiplier",
+          "labels": {
+            "ja": "ボリューム乗数",
+            "zh-TW": "體積乘數",
+            "ko": "볼륨 계수",
+            "zh-CN": "体积倍数"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Type",
+          "type": "options",
+          "label": "Type",
+          "labels": {
+            "ja": "タイプ",
+            "zh-TW": "類型",
+            "ko": "유형",
+            "zh-CN": "类型"
+          },
+          "default": "Spotlight",
+          "min": 0,
+          "max": 4,
+          "options": ["Spotlight", "Point light", "Area light", "Pyramid", "Box"],
+          "description": null
+        },
+        {
+          "name": "Color",
+          "type": "group",
+          "label": "Color",
+          "labels": {
+            "ja": "色",
+            "zh-TW": "顏色",
+            "ko": "색상",
+            "zh-CN": "颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Use Stage Color",
+              "type": "bool",
+              "label": "Use Stage Color",
+              "labels": {
+                "ja": "ステージの色を使用",
+                "zh-TW": "使用舞台顏色",
+                "ko": "무대 색상 사용",
+                "zh-CN": "使用舞台颜色"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Use the color from the stage ring"
+            },
+            {
+              "name": "Color Temp",
+              "type": "float",
+              "label": "Color Temp",
+              "labels": {
+                "ja": "色温度",
+                "zh-TW": "色溫",
+                "ko": "색 온도",
+                "zh-CN": "色温"
+              },
+              "default": 6500,
+              "min": 3000,
+              "max": 8000,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Intensity",
+          "type": "float",
+          "label": "Intensity",
+          "labels": {
+            "ja": "強度",
+            "zh-TW": "強度",
+            "ko": "강도",
+            "zh-CN": "强度"
+          },
+          "default": 25,
+          "min": 0,
+          "max": 100,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Cookie",
+          "type": "options",
+          "label": "Cookie",
+          "labels": {
+            "ja": "クッキー",
+            "zh-TW": "陰影圖案",
+            "ko": "쿠키",
+            "zh-CN": "图案"
+          },
+          "default": "[None]",
+          "min": 0,
+          "max": 5,
+          "options": ["[None]", "[Window]", "[Blinds]", "[Spot]", "[Tube]", "[Video]"],
+          "description": null
+        },
+        {
+          "name": "Emitter Radius",
+          "type": "float",
+          "label": "Emitter Radius",
+          "labels": {
+            "ja": "エミッタ半径",
+            "zh-TW": "發射器半徑",
+            "ko": "방출기 반경",
+            "zh-CN": "发射器半径"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Size of the light source."
+        },
+        {
+          "name": "Size X",
+          "type": "float",
+          "label": "Size X",
+          "labels": {
+            "ja": "サイズ X",
+            "zh-TW": "X 尺寸",
+            "ko": "크기 X",
+            "zh-CN": "X轴尺寸"
+          },
+          "default": 1.25,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Size Y",
+          "type": "float",
+          "label": "Size Y",
+          "labels": {
+            "ja": "サイズ Y",
+            "zh-TW": "Y 尺寸",
+            "ko": "크기 Y",
+            "zh-CN": "Y轴尺寸"
+          },
+          "default": 1.25,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Visible",
+          "type": "float",
+          "label": "Visible",
+          "labels": {
+            "ja": "可視",
+            "zh-TW": "可見",
+            "ko": "가시성",
+            "zh-CN": "可见"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 4,
+          "options": null,
+          "description": "Controls how bright the light source is when being renderred. Set to 0 to make it invisible."
+        },
+        {
+          "name": "Cone Length",
+          "type": "float",
+          "label": "Cone Length",
+          "labels": {
+            "ja": "コーンの長さ",
+            "zh-TW": "錐體長度",
+            "ko": "원뿔 길이",
+            "zh-CN": "锥体长度"
+          },
+          "default": 1.25,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": "Length of the volumatric light cone."
+        },
+        {
+          "name": "Orientation",
+          "type": "float",
+          "label": "Orientation",
+          "labels": {
+            "ja": "向き",
+            "zh-TW": "朝向",
+            "ko": "오리엔테이션",
+            "zh-CN": "朝向"
+          },
+          "default": 135,
+          "min": -180,
+          "max": 180,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Angle",
+          "type": "float",
+          "label": "Angle",
+          "labels": {
+            "ja": "角度",
+            "zh-TW": "角度",
+            "ko": "각도",
+            "zh-CN": "角度"
+          },
+          "default": 35,
+          "min": -90,
+          "max": 180,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Distance",
+          "type": "float",
+          "label": "Distance",
+          "labels": {
+            "ja": "距離",
+            "zh-TW": "距離",
+            "ko": "거리",
+            "zh-CN": "距离"
+          },
+          "default": 3,
+          "min": 0,
+          "max": 20,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Height",
+          "type": "float",
+          "label": "Height",
+          "labels": {
+            "ja": "高さ",
+            "zh-TW": "高度",
+            "ko": "높이",
+            "zh-CN": "高度"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 16,
+          "options": null,
+          "description": "Height of light position."
+        },
+        {
+          "name": "Dynamics",
+          "type": "options",
+          "label": "Dynamics",
+          "labels": {
+            "ja": "ダイナミクス",
+            "zh-TW": "動態",
+            "ko": "동적 효과",
+            "zh-CN": "动态"
+          },
+          "default": "Maintain Distance",
+          "min": 0,
+          "max": 3,
+          "options": ["Stationary", "Follow Actor", "Behind Actor", "Maintain Distance"],
+          "description": null
+        },
+        {
+          "name": "Max Follow Distance",
+          "type": "float",
+          "label": "Max Follow Distance",
+          "labels": {
+            "ja": "最大追跡距離",
+            "zh-TW": "最大跟隨距離",
+            "ko": "최대 추적 거리",
+            "zh-CN": "最大跟随距离"
+          },
+          "default": 5,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Suspension",
+          "type": "group",
+          "label": "Suspension",
+          "labels": {
+            "ja": "吊り下げ",
+            "zh-TW": "懸掛",
+            "ko": "현수",
+            "zh-CN": "悬挂"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Suspension Segments",
+              "type": "int",
+              "label": "Suspension Segments",
+              "labels": {
+                "ja": "サスペンションセグメント",
+                "zh-TW": "懸掛段落",
+                "ko": "현수 분할",
+                "zh-CN": "悬挂节段"
+              },
+              "default": 2,
+              "min": 1,
+              "max": 5,
+              "options": null,
+              "description": "Enable suspension effect."
+            },
+            {
+              "name": "Suspension Distance",
+              "type": "float",
+              "label": "Suspension Distance",
+              "labels": {
+                "ja": "サスペンション距離",
+                "zh-TW": "懸掛距離",
+                "ko": "현수 거리",
+                "zh-CN": "悬挂距离"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 5,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Swing Speed",
+              "type": "float",
+              "label": "Swing Speed",
+              "labels": {
+                "ja": "スイング速度",
+                "zh-TW": "擺動速度",
+                "ko": "스윙 속도",
+                "zh-CN": "摆动速度"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Control speed to maintain swing motion"
+            }
+          ]
+        },
+        {
+          "name": "Use Actor Position",
+          "type": "bool",
+          "label": "Use Actor Position",
+          "labels": {
+            "ja": "アクターの位置を使用",
+            "zh-TW": "使用角色位置",
+            "ko": "액터 위치 사용",
+            "zh-CN": "使用角色位置"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Use actor's position and orientation when positioning the lights."
+        },
+        {
+          "name": "Target Height",
+          "type": "float",
+          "label": "Target Height",
+          "labels": {
+            "ja": "ターゲットの高さ",
+            "zh-TW": "目標高度",
+            "ko": "타겟 높이",
+            "zh-CN": "目标高度"
+          },
+          "default": 0,
+          "min": -2,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Lens Flare",
+          "type": "bool",
+          "label": "Lens Flare",
+          "labels": {
+            "ja": "レンズフレア",
+            "zh-TW": "鏡頭耀斑",
+            "ko": "렌즈 플레어",
+            "zh-CN": "镜头光晕"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Repeat",
+          "type": "group",
+          "label": "Repeat",
+          "labels": {
+            "ja": "繰り返し",
+            "zh-TW": "重複",
+            "ko": "반복",
+            "zh-CN": "重复"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Number",
+              "type": "int",
+              "label": "Number",
+              "labels": {
+                "ja": "数",
+                "zh-TW": "數量",
+                "ko": "개수",
+                "zh-CN": "数量"
+              },
+              "default": 1,
+              "min": 1,
+              "max": 8,
+              "options": null,
+              "description": "How many lights in the array."
+            },
+            {
+              "name": "Formation",
+              "type": "int",
+              "label": "Formation",
+              "labels": {
+                "ja": "配置",
+                "zh-TW": "陣型",
+                "ko": "배치",
+                "zh-CN": "阵列"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["Circle", "Grid"],
+              "description": "Use grid or circle formation."
+            },
+            {
+              "name": "Dist / Radius",
+              "type": "float",
+              "label": "Dist / Radius",
+              "labels": {
+                "ja": "距離 / 半径",
+                "zh-TW": "距離 / 半徑",
+                "ko": "거리 / 반경",
+                "zh-CN": "距离 / 半径"
+              },
+              "default": 7,
+              "min": 0,
+              "max": 20,
+              "options": null,
+              "description": "Distance between the lights in grid mode."
+            },
+            {
+              "name": "Range",
+              "type": "float",
+              "label": "Range",
+              "labels": {
+                "ja": "範囲",
+                "zh-TW": "範圍",
+                "ko": "범위",
+                "zh-CN": "范围"
+              },
+              "default": 360,
+              "min": 0,
+              "max": 360,
+              "options": null,
+              "description": "The angle of the lights in circle mode."
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "type": "group",
+          "label": "Shadow",
+          "labels": {
+            "ja": "シャドウ",
+            "zh-TW": "陰影",
+            "ko": "그림자",
+            "zh-CN": "阴影"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Mode",
+              "type": "int",
+              "label": "Mode",
+              "labels": {
+                "ja": "モード",
+                "zh-TW": "模式",
+                "ko": "모드",
+                "zh-CN": "模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 3,
+              "options": ["Use Global Setting", "Shadow Map", "Screen Space", "Raytracing (If Available)"],
+              "description": null
+            },
+            {
+              "name": "Contact Shadow",
+              "type": "bool",
+              "label": "Contact Shadow",
+              "labels": {
+                "ja": "コンタクトシャドウ",
+                "zh-TW": "接觸陰影",
+                "ko": "접촉 그림자",
+                "zh-CN": "接触阴影"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Enable shadows for small details."
+            },
+            {
+              "name": "Sample Count",
+              "type": "int",
+              "label": "Sample Count",
+              "labels": {
+                "ja": "サンプル数",
+                "zh-TW": "樣本數",
+                "ko": "샘플 수",
+                "zh-CN": "采样计数"
+              },
+              "default": 8,
+              "min": 1,
+              "max": 32,
+              "options": null,
+              "description": "Sample count when using raytracing shadows. Higher = better result but worse performance."
+            },
+            {
+              "name": "Denoise",
+              "type": "bool",
+              "label": "Denoise",
+              "labels": {
+                "ja": "ノイズ除去",
+                "zh-TW": "去噪",
+                "ko": "디노이즈",
+                "zh-CN": "去噪"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Enable denoising when using raytracing shadows."
+            },
+            {
+              "name": "Denoise Radius",
+              "type": "int",
+              "label": "Denoise Radius",
+              "labels": {
+                "ja": "ノイズ除去半径",
+                "zh-TW": "去噪半徑",
+                "ko": "디노이즈 반경",
+                "zh-CN": "去噪半径"
+              },
+              "default": 8,
+              "min": 1,
+              "max": 32,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Shadow Dimmer",
+              "type": "float",
+              "label": "Shadow Dimmer",
+              "labels": {
+                "ja": "シャドウディマー",
+                "zh-TW": "陰影減光器",
+                "ko": "그림자 디머",
+                "zh-CN": "阴影衰减器"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Reduce intensity of the shadow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Overall Intensity",
+      "type": "float",
+      "label": "Overall Intensity",
+      "labels": {
+        "ja": "全体強度",
+        "zh-TW": "整體強度",
+        "ko": "전체 강도",
+        "zh-CN": "整体强度"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": "Overall intensity of all the lights."
+    },
+    {
+      "name": "Sky Ambient",
+      "type": "float",
+      "label": "Sky Ambient",
+      "labels": {
+        "ja": "スカイアンビエント",
+        "zh-TW": "天空環境光",
+        "ko": "스카이 앰비언트",
+        "zh-CN": "天空环境光"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 14,
+      "options": null,
+      "description": "Intensity of ambient lighting from sky."
+    },
+    {
+      "name": "Auto Exposure",
+      "type": "group",
+      "label": "Auto Exposure",
+      "labels": {
+        "ja": "自動露出",
+        "zh-TW": "自動曝光",
+        "ko": "자동 노출",
+        "zh-CN": "自动曝光"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Auto exposure settings.",
+      "values": [
+        {
+          "name": "Metering Mode",
+          "type": "int",
+          "label": "Metering Mode",
+          "labels": {
+            "ja": "測光モード",
+            "zh-TW": "計測模式",
+            "ko": "측정 모드",
+            "zh-CN": "测光模式"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": ["Average", "Spot", "Center Weighted"],
+          "description": "Choose metering mode."
+        },
+        {
+          "name": "Compensation",
+          "type": "int",
+          "label": "Compensation",
+          "labels": {
+            "ja": "補償",
+            "zh-TW": "補償",
+            "ko": "보정",
+            "zh-CN": "补偿"
+          },
+          "default": 12,
+          "min": 0,
+          "max": 24,
+          "options": ["-3.00", "-2.75", "-2.50", "-2.25", "-2.00", "-1.75", "-1.50", "-1.25", "-1.00", "-0.75", "-0.50", "-0.25", "0.00", "0.25", "0.50", "0.75", "1.00", "1.25", "1.50", "1.75", "2.00", "2.25", "2.50", "2.75", "3.00"],
+          "description": null
+        },
+        {
+          "name": "Range",
+          "type": "range",
+          "label": "Range",
+          "labels": {
+            "ja": "範囲",
+            "zh-TW": "範圍",
+            "ko": "범위",
+            "zh-CN": "范围"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 15,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Adaptation",
+          "type": "int",
+          "label": "Adaptation",
+          "labels": {
+            "ja": "適応",
+            "zh-TW": "適應",
+            "ko": "적응",
+            "zh-CN": "适应"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 2,
+          "options": ["Normal", "Fast", "Instant"],
+          "description": "The speed of auto exposure level change when the lighting condition changes."
+        }
+      ]
+    },
+    {
+      "name": "Fog",
+      "type": "float",
+      "label": "Fog",
+      "labels": {
+        "ja": "霧",
+        "zh-TW": "霧",
+        "ko": "안개",
+        "zh-CN": "雾"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Fog level"
+    },
+    {
+      "name": "Light Limit",
+      "type": "int",
+      "label": "Light Limit",
+      "labels": {
+        "ja": "ライトの制限",
+        "zh-TW": "光源限制",
+        "ko": "광원 제한",
+        "zh-CN": "光源限制"
+      },
+      "default": 8,
+      "min": 0,
+      "max": 16,
+      "options": null,
+      "description": "Set max number of lights available in the scene."
+    },
+    {
+      "name": "Shadow Limit",
+      "type": "int",
+      "label": "Shadow Limit",
+      "labels": {
+        "ja": "影の制限",
+        "zh-TW": "陰影限制",
+        "ko": "그림자 제한",
+        "zh-CN": "阴影限制"
+      },
+      "default": 4,
+      "min": 0,
+      "max": 16,
+      "options": null,
+      "description": "Set max number of lights that can have shadows."
+    },
+    {
+      "name": "Allocation",
+      "type": "group",
+      "label": "Allocation",
+      "labels": {
+        "ja": "配分",
+        "zh-TW": "分配",
+        "ko": "할당",
+        "zh-CN": "分配"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Auto Allocate",
+          "type": "int",
+          "label": "Auto Allocate",
+          "labels": {
+            "ja": "自動配分",
+            "zh-TW": "自動分配",
+            "ko": "자동 할당",
+            "zh-CN": "自动分配"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": ["By Distance", "By Index (Fixed)"],
+          "description": null
+        },
+        {
+          "name": "Refresh Interval",
+          "type": "int",
+          "label": "Refresh Interval",
+          "labels": {
+            "ja": "更新間隔",
+            "zh-TW": "刷新間隔",
+            "ko": "새로고침 간격",
+            "zh-CN": "刷新间隔"
+          },
+          "default": 8,
+          "min": 1,
+          "max": 32,
+          "options": null,
+          "description": "How often does it reassign lights. In beats."
+        }
+      ]
+    }
+  ]
+}

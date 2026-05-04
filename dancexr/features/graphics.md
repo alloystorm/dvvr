@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Graphics"
 locale: en-US
 nav_links:

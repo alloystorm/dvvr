@@ -1,0 +1,96 @@
+{
+  "name": "Water Interaction",
+  "docPath": "features/water_interaction",
+  "label": "Water Interaction",
+  "labels": {
+    "ja": "水との相互作用",
+    "zh-TW": "水交互作用",
+    "ko": "물 상호작용",
+    "zh-CN": "水体交互"
+  },
+  "description": "Controls ripple effects generated when the actor contacts a water\r\nsurface. HDRP only — no effect in other render pipelines.\r\n\r\n**Intensity** scales all ripple amplitudes globally. **Body**,\r\n**Hands**, and **Feet** set per-body-part amplitude multipliers so\r\nyou can emphasize foot splashes or subtle hand trails independently.",
+  "values": [
+    {
+      "name": "Ripple",
+      "type": "group",
+      "label": "Ripple",
+      "labels": {
+        "ja": "波紋",
+        "zh-TW": "漣漪",
+        "ko": "물결",
+        "zh-CN": "波纹"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Intensity",
+          "type": "float",
+          "label": "Intensity",
+          "labels": {
+            "ja": "強度",
+            "zh-TW": "強度",
+            "ko": "강도",
+            "zh-CN": "强度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Body",
+          "type": "float",
+          "label": "Body",
+          "labels": {
+            "ja": "体",
+            "zh-TW": "身體",
+            "ko": "몸통",
+            "zh-CN": "身体"
+          },
+          "default": 1,
+          "min": 0.1,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Hands",
+          "type": "float",
+          "label": "Hands",
+          "labels": {
+            "ja": "手",
+            "zh-TW": "手部",
+            "ko": "손",
+            "zh-CN": "手部"
+          },
+          "default": 0.5,
+          "min": 0.1,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Feet",
+          "type": "float",
+          "label": "Feet",
+          "labels": {
+            "ja": "足",
+            "zh-TW": "足部",
+            "ko": "발",
+            "zh-CN": "脚部"
+          },
+          "default": 0.5,
+          "min": 0.1,
+          "max": 2,
+          "options": null,
+          "description": null
+        }
+      ]
+    }
+  ]
+}

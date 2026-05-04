@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Attach To Actor"
 locale: en-US
 nav_links:

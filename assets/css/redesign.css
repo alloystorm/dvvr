@@ -1814,7 +1814,7 @@ body:not(.home-page) .page__footer a:hover {
   background: rgba(29,29,31,0.82);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--border);
+  border: 1px solid var(--accent);
   border-radius: 10px;
   padding: 3px;
 }
@@ -1827,7 +1827,7 @@ body:not(.home-page) .page__footer a:hover {
   border: none;
   border-radius: 7px;
   background: none;
-  color: var(--text-dim);
+  color: rgba(255,255,255,0.55);
   font-size: 13px;
   font-weight: 500;
   font-family: var(--font) !important;
@@ -1835,13 +1835,18 @@ body:not(.home-page) .page__footer a:hover {
   transition: background 0.15s, color 0.15s;
   white-space: nowrap;
 }
-.feature-tab:hover { color: var(--text); }
+.feature-tab:hover { color: #fff; }
 .feature-tab.active {
-  background: var(--bg-surface);
-  color: var(--text);
-  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+  background: var(--accent);
+  color: #fff;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.35);
 }
 .feature-tab svg { flex-shrink: 0; }
+
+/* ── Main content offset (accounts for taller stacked topbar) */
+.feature-main {
+  padding-top: calc(var(--nav-h) + 130px);
+}
 
 /* ── Sidebar wrapper (left grid column) ─────────────────── */
 .feature-sidebar {
@@ -1999,6 +2004,8 @@ body:not(.home-page) .page__footer a:hover {
   font-size: 14px;
   opacity: 0.5;
 }
+.feature-detail__empty[hidden] { display: none; }
+.feature-detail__content[hidden] { display: none; }
 .feature-detail__empty svg { color: var(--text-dim); }
 .feature-detail__empty p { margin: 0; }
 

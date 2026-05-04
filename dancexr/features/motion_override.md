@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Motion Override"
 locale: en-US
 nav_links:

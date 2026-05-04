@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "[Fixed Camera]"
 locale: en-US
 nav_links:

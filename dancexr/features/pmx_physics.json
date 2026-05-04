@@ -1,0 +1,1162 @@
+{
+  "name": "Model Physics",
+  "docPath": "features/pmx_physics",
+  "label": "Physics",
+  "labels": {
+    "ja": "物理",
+    "zh-TW": "物理",
+    "ko": "물리",
+    "zh-CN": "物理"
+  },
+  "description": "Configures physics for PMX models that include built-in\r\nrigidbody and joint definitions (hair, skirts, accessories).\r\n\r\n**Physics Mode** selects the engine: *Auto* uses the system\r\ndefault; *PhysX* runs Unity's joint-based physics; *XPBD*\r\nuses a particle-based simulation; *Off* disables PMX physics\r\nentirely and exposes the XPS physics tools (Hair Physics,\r\nCloth Physics, etc.) as replacements.\r\n\r\n**Visualize Bodies** and **Visualize Joints** render the\r\nphysics shapes and joint constraints as wireframe gizmos.\r\nThe nested **Particle Props** panel defines global XPBD\r\nsettings like gravity, stiffness, and damping.\r\n\r\n**Linear Motion** and **Angular Motion** tune the PhysX\r\njoint drive response — how aggressively bodies follow their\r\nanimated targets. **Options** exposes advanced PhysX\r\nparameters like solver iterations and substep count.\r\n**Auto Reset Threshold** snaps bones back to their animated\r\nposition when velocity exceeds the limit, preventing physics\r\nfrom spinning out of control.\r\n\r\nEach **Group** section corresponds to a physics joint group\r\ndefined in the PMX file, with per-group enable/disable,\r\ngravity, and collision settings.\r\n\r\nThe **XPS Tools** section provides quick links to the\r\nalternative physics systems available when PMX physics is\r\nturned off.",
+  "values": [
+    {
+      "name": "Physics Mode",
+      "type": "options",
+      "label": "Physics Mode",
+      "labels": {
+        "ja": "物理モード",
+        "zh-TW": "物理模式",
+        "ko": "물리 모드",
+        "zh-CN": "物理模式"
+      },
+      "default": "Auto",
+      "min": 0,
+      "max": 3,
+      "options": ["Auto", "PhysX", "XPBD", "Off"],
+      "description": "XPBD uses particle-based simulation, Manual Setup disables bodies and joints in PMX definition so you can set up your own using the XPS tools."
+    },
+    {
+      "name": "Visualize Bodies",
+      "type": "bool",
+      "label": "Visualize Bodies",
+      "labels": {
+        "ja": "ボディの視覚化",
+        "zh-TW": "可視化身體",
+        "ko": "바디 시각화",
+        "zh-CN": "可视化身体"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Show XPBD physics bodies and joints as wireframe shapes"
+    },
+    {
+      "name": "Visualize Joints",
+      "type": "bool",
+      "label": "Visualize Joints",
+      "labels": {
+        "ja": "ジョイントの可視化",
+        "zh-TW": "可視化關節",
+        "ko": "조인트 시각화",
+        "zh-CN": "可视化关节"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Show joint limits and drive targets for PMX physics"
+    },
+    {
+      "name": "Particle Properties",
+      "type": "group",
+      "label": "Particle Properties",
+      "labels": {
+        "ja": "パーティクルプロパティ",
+        "zh-TW": "粒子屬性",
+        "ko": "입자 속성",
+        "zh-CN": "粒子属性"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Particle Radius",
+          "type": "float",
+          "label": "Particle Radius",
+          "labels": {
+            "ja": "粒子半径",
+            "zh-TW": "粒子半徑",
+            "ko": "입자 반지름",
+            "zh-CN": "粒子半径"
+          },
+          "default": 1,
+          "min": 1,
+          "max": 20,
+          "options": null,
+          "description": "Size of particle in millimeters"
+        },
+        {
+          "name": "Gravity",
+          "type": "float",
+          "label": "Gravity",
+          "labels": {
+            "ja": "重力",
+            "zh-TW": "重力",
+            "ko": "중력",
+            "zh-CN": "重力"
+          },
+          "default": 9.8,
+          "min": -9.8,
+          "max": 9.8,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Friction",
+          "type": "float",
+          "label": "Friction",
+          "labels": {
+            "ja": "摩擦",
+            "zh-TW": "摩擦力",
+            "ko": "마찰",
+            "zh-CN": "摩擦力"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Drag (Air)",
+          "type": "float",
+          "label": "Drag (Air)",
+          "labels": {
+            "ja": "空気抵抗",
+            "zh-TW": "阻力（空氣）",
+            "ko": "항력 (공기)",
+            "zh-CN": "阻力（空气）"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": "Air resistancy"
+        },
+        {
+          "name": "Drag (Underwater)",
+          "type": "float",
+          "label": "Drag (Underwater)",
+          "labels": {
+            "ja": "水中抵抗",
+            "zh-TW": "阻力（水下）",
+            "ko": "항력 (수중)",
+            "zh-CN": "阻力（水下）"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": "Underwater resistancy"
+        },
+        {
+          "name": "Buoyancy",
+          "type": "float",
+          "label": "Buoyancy",
+          "labels": {
+            "ja": "浮力",
+            "zh-TW": "浮力",
+            "ko": "부력",
+            "zh-CN": "浮力"
+          },
+          "default": -0.1,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Wind",
+          "type": "group",
+          "label": "Wind",
+          "labels": {
+            "ja": "風",
+            "zh-TW": "風",
+            "ko": "바람",
+            "zh-CN": "风力"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Wind Influence",
+              "type": "float",
+              "label": "Wind Influence",
+              "labels": {
+                "ja": "風の影響",
+                "zh-TW": "風影響力",
+                "ko": "바람 영향력",
+                "zh-CN": "风力影响"
+              },
+              "default": 0.25,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Turbulence Scale",
+              "type": "float",
+              "label": "Turbulence Scale",
+              "labels": {
+                "ja": "乱流スケール",
+                "zh-TW": "湍流尺度",
+                "ko": "난류 스케일",
+                "zh-CN": "湍流尺度"
+              },
+              "default": 0,
+              "min": -2,
+              "max": 2,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Turbulence Intensity",
+              "type": "float",
+              "label": "Turbulence Intensity",
+              "labels": {
+                "ja": "乱流強度",
+                "zh-TW": "湍流強度",
+                "ko": "난류 강도",
+                "zh-CN": "湍流强度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 2,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Turbulence Time Scale",
+              "type": "float",
+              "label": "Turbulence Time Scale",
+              "labels": {
+                "ja": "乱流時間スケール",
+                "zh-TW": "湍流時間尺度",
+                "ko": "난류 시간 스케일",
+                "zh-CN": "湍流时间尺度"
+              },
+              "default": 0,
+              "min": -4,
+              "max": 4,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Anchor Friction",
+          "type": "float",
+          "label": "Anchor Friction",
+          "labels": {
+            "ja": "アンカー摩擦",
+            "zh-TW": "固定點摩擦力",
+            "ko": "앵커 마찰",
+            "zh-CN": "固定点摩擦力"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Friction for anchored layers"
+        },
+        {
+          "name": "Angular Spring",
+          "type": "float",
+          "label": "Angular Spring",
+          "labels": {
+            "ja": "角度スプリング",
+            "zh-TW": "角向彈簧",
+            "ko": "각도 스프링",
+            "zh-CN": "角形弹簧"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 5,
+          "options": null,
+          "description": "Default angular spring stiffness for joints without rotation springs. Higher values pull joints back toward rest pose more strongly. 0 = disabled."
+        },
+        {
+          "name": "Collide With",
+          "type": "group",
+          "label": "Collide With",
+          "labels": {
+            "ja": "と衝突",
+            "zh-TW": "與碰撞",
+            "ko": "충돌 대상",
+            "zh-CN": "碰撞对象"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Head",
+              "type": "bool",
+              "label": "Head",
+              "labels": {
+                "ja": "頭",
+                "zh-TW": "頭部",
+                "ko": "머리",
+                "zh-CN": "头部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Body",
+              "type": "bool",
+              "label": "Body",
+              "labels": {
+                "ja": "体",
+                "zh-TW": "身體",
+                "ko": "몸통",
+                "zh-CN": "身体"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Boobs",
+              "type": "bool",
+              "label": "Boobs",
+              "labels": {
+                "ja": "ブブズ",
+                "zh-TW": "胸部",
+                "ko": "보디스",
+                "zh-CN": "胸部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Butts",
+              "type": "bool",
+              "label": "Butts",
+              "labels": {
+                "ja": "臀部",
+                "zh-TW": "臀部",
+                "ko": "엉덩이",
+                "zh-CN": "臀部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Arms",
+              "type": "bool",
+              "label": "Arms",
+              "labels": {
+                "ja": "(Arms)",
+                "zh-TW": "(Arms)",
+                "ko": "(Arms)",
+                "zh-CN": "(Arms)"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Hands",
+              "type": "bool",
+              "label": "Hands",
+              "labels": {
+                "ja": "手",
+                "zh-TW": "手部",
+                "ko": "손",
+                "zh-CN": "手部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Legs",
+              "type": "bool",
+              "label": "Legs",
+              "labels": {
+                "ja": "脚",
+                "zh-TW": "腿部",
+                "ko": "다리",
+                "zh-CN": "腿部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Feet",
+              "type": "bool",
+              "label": "Feet",
+              "labels": {
+                "ja": "足",
+                "zh-TW": "足部",
+                "ko": "발",
+                "zh-CN": "脚部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Holes",
+              "type": "bool",
+              "label": "Holes",
+              "labels": {
+                "ja": "(Holes)",
+                "zh-TW": "(Holes)",
+                "ko": "(Holes)",
+                "zh-CN": "(Holes)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Player",
+              "type": "bool",
+              "label": "Player",
+              "labels": {
+                "ja": "プレイヤー",
+                "zh-TW": "玩家",
+                "ko": "플레이어",
+                "zh-CN": "玩家"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Cloth Layer 1",
+              "type": "bool",
+              "label": "Cloth Layer 1",
+              "labels": {
+                "ja": "(Cloth Layer 1)",
+                "zh-TW": "(Cloth Layer 1)",
+                "ko": "(Cloth Layer 1)",
+                "zh-CN": "(Cloth Layer 1)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Cloth Layer 2",
+              "type": "bool",
+              "label": "Cloth Layer 2",
+              "labels": {
+                "ja": "(Cloth Layer 2)",
+                "zh-TW": "(Cloth Layer 2)",
+                "ko": "(Cloth Layer 2)",
+                "zh-CN": "(Cloth Layer 2)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Hair",
+              "type": "bool",
+              "label": "Hair",
+              "labels": {
+                "ja": "髪",
+                "zh-TW": "頭髮",
+                "ko": "머리카락",
+                "zh-CN": "头发"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Soft Boobs",
+              "type": "bool",
+              "label": "Soft Boobs",
+              "labels": {
+                "ja": "(Soft Boobs)",
+                "zh-TW": "(Soft Boobs)",
+                "ko": "(Soft Boobs)",
+                "zh-CN": "(Soft Boobs)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Soft Butts",
+              "type": "bool",
+              "label": "Soft Butts",
+              "labels": {
+                "ja": "(Soft Butts)",
+                "zh-TW": "(Soft Butts)",
+                "ko": "(Soft Butts)",
+                "zh-CN": "(Soft Butts)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Scale",
+          "type": "float",
+          "label": "Scale",
+          "labels": {
+            "ja": "スケール",
+            "zh-TW": "縮放",
+            "ko": "스케일",
+            "zh-CN": "缩放"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Rest Distance Check",
+          "type": "bool",
+          "label": "Rest Distance Check",
+          "labels": {
+            "ja": "静止距離チェック",
+            "zh-TW": "靜止距離檢查",
+            "ko": "휴식 거리 확인",
+            "zh-CN": "静止距离检查"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Use rest distance for self collision between rigid bodies in the same block. Helps when rigid body shapes are not configured perfectly."
+        }
+      ]
+    },
+    {
+      "name": "Linear Motion",
+      "type": "group",
+      "label": "Linear Motion",
+      "labels": {
+        "ja": "線形運動",
+        "zh-TW": "線性運動",
+        "ko": "선형 운동",
+        "zh-CN": "线性运动"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Settings for linear motion",
+      "values": [
+        {
+          "name": "Firmness",
+          "type": "float",
+          "label": "Firmness",
+          "labels": {
+            "ja": "硬さ",
+            "zh-TW": "剛性",
+            "ko": "단단함",
+            "zh-CN": "刚度"
+          },
+          "default": 0,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Main Drive Force",
+          "type": "float",
+          "label": "Main Drive Force",
+          "labels": {
+            "ja": "メイン駆動力",
+            "zh-TW": "主要驅動力",
+            "ko": "주 구동력",
+            "zh-CN": "主要驱动力"
+          },
+          "default": 5,
+          "min": 0,
+          "max": 8,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Second Drive Force",
+          "type": "float",
+          "label": "Second Drive Force",
+          "labels": {
+            "ja": "セカンダリ駆動力",
+            "zh-TW": "次要驅動力",
+            "ko": "보조 구동력",
+            "zh-CN": "次要驱动力"
+          },
+          "default": 3,
+          "min": 0,
+          "max": 8,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Target Position",
+          "type": "int",
+          "label": "Target Position",
+          "labels": {
+            "ja": "目標位置",
+            "zh-TW": "目標位置",
+            "ko": "목표 위치",
+            "zh-CN": "目标位置"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 3,
+          "options": ["Zero", "Center", "Min", "Max"],
+          "description": null
+        },
+        {
+          "name": "Lock When Possible",
+          "type": "bool",
+          "label": "Lock When Possible",
+          "labels": {
+            "ja": "可能であればロック",
+            "zh-TW": "可動時鎖定",
+            "ko": "가능한 경우 잠금",
+            "zh-CN": "尽可能锁定"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Acceleration Mode",
+          "type": "bool",
+          "label": "Acceleration Mode",
+          "labels": {
+            "ja": "加速モード",
+            "zh-TW": "加速度模式",
+            "ko": "가속 모드",
+            "zh-CN": "加速模式"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Damping",
+          "type": "float",
+          "label": "Damping",
+          "labels": {
+            "ja": "ダンピング",
+            "zh-TW": "阻尼",
+            "ko": "감쇠",
+            "zh-CN": "阻尼"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Drag",
+          "type": "float",
+          "label": "Drag",
+          "labels": {
+            "ja": "ドラッグ",
+            "zh-TW": "阻力",
+            "ko": "항력",
+            "zh-CN": "阻力"
+          },
+          "default": 0.15,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Ignore Limit",
+          "type": "bool",
+          "label": "Ignore Limit",
+          "labels": {
+            "ja": "(Ignore Limit)",
+            "zh-TW": "(Ignore Limit)",
+            "ko": "(Ignore Limit)",
+            "zh-CN": "(Ignore Limit)"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Further reducing constraints by ignoring joint limits"
+        }
+      ]
+    },
+    {
+      "name": "Angular Motion",
+      "type": "group",
+      "label": "Angular Motion",
+      "labels": {
+        "ja": "角運動",
+        "zh-TW": "角運動",
+        "ko": "각운동",
+        "zh-CN": "角运动"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Settings for angular motion",
+      "values": [
+        {
+          "name": "Firmness",
+          "type": "float",
+          "label": "Firmness",
+          "labels": {
+            "ja": "硬さ",
+            "zh-TW": "剛性",
+            "ko": "단단함",
+            "zh-CN": "刚度"
+          },
+          "default": 0,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Main Drive Force",
+          "type": "float",
+          "label": "Main Drive Force",
+          "labels": {
+            "ja": "メイン駆動力",
+            "zh-TW": "主要驅動力",
+            "ko": "주 구동력",
+            "zh-CN": "主要驱动力"
+          },
+          "default": 5,
+          "min": 0,
+          "max": 8,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Second Drive Force",
+          "type": "float",
+          "label": "Second Drive Force",
+          "labels": {
+            "ja": "セカンダリ駆動力",
+            "zh-TW": "次要驅動力",
+            "ko": "보조 구동력",
+            "zh-CN": "次要驱动力"
+          },
+          "default": 5,
+          "min": 0,
+          "max": 8,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Target Position",
+          "type": "int",
+          "label": "Target Position",
+          "labels": {
+            "ja": "目標位置",
+            "zh-TW": "目標位置",
+            "ko": "목표 위치",
+            "zh-CN": "目标位置"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 3,
+          "options": ["Zero", "Center", "Min", "Max"],
+          "description": null
+        },
+        {
+          "name": "Lock When Possible",
+          "type": "bool",
+          "label": "Lock When Possible",
+          "labels": {
+            "ja": "可能であればロック",
+            "zh-TW": "可動時鎖定",
+            "ko": "가능한 경우 잠금",
+            "zh-CN": "尽可能锁定"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Acceleration Mode",
+          "type": "bool",
+          "label": "Acceleration Mode",
+          "labels": {
+            "ja": "加速モード",
+            "zh-TW": "加速度模式",
+            "ko": "가속 모드",
+            "zh-CN": "加速模式"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Damping",
+          "type": "float",
+          "label": "Damping",
+          "labels": {
+            "ja": "ダンピング",
+            "zh-TW": "阻尼",
+            "ko": "감쇠",
+            "zh-CN": "阻尼"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Drag",
+          "type": "float",
+          "label": "Drag",
+          "labels": {
+            "ja": "ドラッグ",
+            "zh-TW": "阻力",
+            "ko": "항력",
+            "zh-CN": "阻力"
+          },
+          "default": 0.15,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Ignore Limit",
+          "type": "bool",
+          "label": "Ignore Limit",
+          "labels": {
+            "ja": "(Ignore Limit)",
+            "zh-TW": "(Ignore Limit)",
+            "ko": "(Ignore Limit)",
+            "zh-CN": "(Ignore Limit)"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Further reducing constraints by ignoring joint limits"
+        }
+      ]
+    },
+    {
+      "name": "Options",
+      "type": "group",
+      "label": "Options",
+      "labels": {
+        "ja": "オプション",
+        "zh-TW": "選項",
+        "ko": "옵션",
+        "zh-CN": "选项"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Min Drag",
+          "type": "float",
+          "label": "Min Drag",
+          "labels": {
+            "ja": "最小ドラッグ",
+            "zh-TW": "最小阻力",
+            "ko": "최소 항력",
+            "zh-CN": "最小阻力"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "The min drag value in auto mode"
+        },
+        {
+          "name": "Drag Scale",
+          "type": "float",
+          "label": "Drag Scale",
+          "labels": {
+            "ja": "ドラッグスケール",
+            "zh-TW": "阻力縮放比例",
+            "ko": "항력 스케일",
+            "zh-CN": "阻力缩放"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 5,
+          "options": null,
+          "description": "The scale applied to drag values in auto mode"
+        },
+        {
+          "name": "Min Mass",
+          "type": "float",
+          "label": "Min Mass",
+          "labels": {
+            "ja": "最小質量",
+            "zh-TW": "最小質量",
+            "ko": "최소 질량",
+            "zh-CN": "最小质量"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "The min mass value in auto mode"
+        },
+        {
+          "name": "Mass Scale",
+          "type": "float",
+          "label": "Mass Scale",
+          "labels": {
+            "ja": "質量スケール",
+            "zh-TW": "質量縮放比例",
+            "ko": "질량 스케일",
+            "zh-CN": "质量缩放"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": "The scale applied to mass values in auto mode"
+        },
+        {
+          "name": "Center Of Mass",
+          "type": "int",
+          "label": "Center Of Mass",
+          "labels": {
+            "ja": "重心",
+            "zh-TW": "質心",
+            "ko": "무게 중심",
+            "zh-CN": "质心"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": ["Auto", "Zero"],
+          "description": "Set center of mass at zero or automatically based on position and size of each collider"
+        },
+        {
+          "name": "Projection Dist",
+          "type": "float",
+          "label": "Projection Dist",
+          "labels": {
+            "ja": "射影距離",
+            "zh-TW": "投影距離",
+            "ko": "투영 거리",
+            "zh-CN": "投影距离"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 0.1,
+          "options": null,
+          "description": "Force reset the joint when distance between objects relative to neutral exceed this value"
+        },
+        {
+          "name": "Projection Angle",
+          "type": "float",
+          "label": "Projection Angle",
+          "labels": {
+            "ja": "射影角度",
+            "zh-TW": "投影角度",
+            "ko": "투영 각도",
+            "zh-CN": "投影角度"
+          },
+          "default": 5,
+          "min": 0,
+          "max": 60,
+          "options": null,
+          "description": "Force reset the joint when angle between the objects relative to neutral exceed this value"
+        }
+      ]
+    },
+    {
+      "name": "Auto Reset Threshold",
+      "type": "float",
+      "label": "Auto Reset Threshold",
+      "labels": {
+        "ja": "自動リセットしきい値",
+        "zh-TW": "自動重置閾值",
+        "ko": "자동 초기화 임계값",
+        "zh-CN": "自动重置阈值"
+      },
+      "default": 35,
+      "min": 0,
+      "max": 100,
+      "options": null,
+      "description": "Automatically reset the bone and its children when the velocity exceed this value"
+    },
+    {
+      "name": "Auto Reset",
+      "type": "value",
+      "label": "Auto Reset",
+      "labels": {
+        "ja": "自動リセット",
+        "zh-TW": "自動重設",
+        "ko": "자동 초기화",
+        "zh-CN": "自动重置"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Body Colliders",
+      "type": "value",
+      "label": "Body Colliders",
+      "labels": {
+        "ja": "ボディコライダー",
+        "zh-TW": "身體碰撞體",
+        "ko": "바디 콜라이더",
+        "zh-CN": "身体碰撞体"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Physics Boobs",
+      "type": "value",
+      "label": "Physics Boobs",
+      "labels": {
+        "ja": "物理ボブズ",
+        "zh-TW": "物理胸部",
+        "ko": "물리 보디스",
+        "zh-CN": "物理胸部"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Physics Skirt",
+      "type": "value",
+      "label": "Physics Skirt",
+      "labels": {
+        "ja": "物理スカート",
+        "zh-TW": "物理裙子",
+        "ko": "물리 스커트",
+        "zh-CN": "物理裙摆"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Hair Physics",
+      "type": "value",
+      "label": "Hair Physics",
+      "labels": {
+        "ja": "髪の物理",
+        "zh-TW": "頭髮物理",
+        "ko": "머리카락 물리",
+        "zh-CN": "头发物理"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Cloth Physics",
+      "type": "value",
+      "label": "Cloth Physics",
+      "labels": {
+        "ja": "布の物理",
+        "zh-TW": "布料物理",
+        "ko": "천 물리",
+        "zh-CN": "布料物理"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Detach Object",
+      "type": "value",
+      "label": "Detach Object",
+      "labels": {
+        "ja": "オブジェクトを切り離す",
+        "zh-TW": "分離物體",
+        "ko": "오브젝트 분리",
+        "zh-CN": "分离对象"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    }
+  ]
+}

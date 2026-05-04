@@ -1,0 +1,5762 @@
+{
+  "name": "./motion/proc/sm3",
+  "docPath": "features/sex_motion_3",
+  "label": "[Sex Motion 3]",
+  "labels": {
+    "ja": "[性モーション 3]",
+    "zh-TW": "[性行為動作 3]",
+    "ko": "[섹스 동작 3]",
+    "zh-CN": "[性爱动作 3]"
+  },
+  "description": "Procedural paired sex motion for a female and male actor. The\r\nfemale side generates the sway, thrust timing, contact frame,\r\nand arousal state; the male side binds to that contact frame so\r\nthe pair stays locked together instead of drifting as two\r\nindependent animations.\r\n\r\n\r\n## Sway and Thrust\r\n\r\n**Sway Motion** shapes the upper-body sway layered over the\r\ncycle, while **Sex Motion** controls the penetration rhythm,\r\ntravel distance, and tempo response. Treat sway as the visual\r\nstyle and sex motion as the mechanical driver underneath it.\r\nA stronger sway can sell weight, but if it is too large relative\r\nto the thrust cycle the pair will read as loose rather than\r\nphysically connected.\r\n\r\n\r\n## Contact and Reaction\r\n\r\n**Contact Smoothing** is primarily for the male role: it filters\r\nthe female-driven contact frame so small pelvis jitter does not\r\nshake the partner around. Raise it when the bind feels noisy,\r\nlower it when the male starts lagging behind the action.\r\n\r\n**Reaction** bends the spine in response to thrust extension.\r\n**Speed** and **Damping** shape how quickly the spring follows;\r\n**Bend**, **Hip/Torso Ratio**, and **Blend** decide where that\r\nmotion lives in the body. Pushing the bend too far makes the\r\nloop read theatrical rather than responsive.\r\n\r\n\r\n## Arousal and Orgasm\r\n\r\nThe **Orgasm** block adds a second layer that can accelerate the\r\nmotion, blend in a pose, and drive shaking plus facial intensity.\r\nIn *Physical* mode the peak is triggered by thrust stimulation,\r\nso **Orgasm Sensitivity**, **Music Compensation**, and\r\n**Arousal Curve** control how easily the build-up happens. In\r\n*Determined* mode the cycle is beat-counted instead, which is\r\nbetter when you want predictable musical phrasing.\r\n\r\nOnce triggered, **Shaking Intensity**, **Shaking Speed**,\r\n**Shaking Damping**, and **Shaking Frequency** define the feel\r\nof the peak. **Variety** adds per-orgasm drift so the shaking is\r\nless repetitive, and **Ejaculation Chance** changes whether the\r\npose collapses inward or resolves into the ejaculation branch.\r\nUse **Test** when tuning so you can see the full cycle without\r\nneeding live stimulation.\r\n\r\n\r\n## Role Pose Alignment\r\n\r\n**Female Pose** and **Male Pose** set the base body layout for\r\neach role before the procedural layers are applied. On the\r\nfemale side, **Pussy Up / Down**, **Pussy Front / Back**, and\r\n**Pussy Angle** move the contact anchor used to publish the bind\r\nframe. Small adjustments here are usually better than forcing a\r\nlarge pose offset, because the anchor affects both alignment and\r\npenetration direction.\r\n\r\nOn the male side, **Bend Penis** curves the chain toward the\r\nresolved target. Keep it low unless the model needs help meeting\r\nthe contact point, otherwise the correction becomes more visible\r\nthan the motion itself.\r\n\r\n\r\n## Expression\r\n\r\n**Facial** maps the procedural intensity onto eyebrow, eyelid,\r\nand mouth morphs. Keep this block subtle if the model already\r\nhas authored facial animation; push it harder when the body\r\nmotion needs help reading from a distance.",
+  "values": [
+    {
+      "name": "Role",
+      "type": "int",
+      "label": "Role",
+      "labels": {
+        "ja": "役柄",
+        "zh-TW": "角色",
+        "ko": "역할",
+        "zh-CN": "角色"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": ["Female", "Male"],
+      "description": null
+    },
+    {
+      "name": "Pairing",
+      "type": "int",
+      "label": "Pairing",
+      "labels": {
+        "ja": "ペアリング",
+        "zh-TW": "配對",
+        "ko": "페어링",
+        "zh-CN": "配对"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 2,
+      "options": ["Multiple Partners", "Single Partner", "No Partner"],
+      "description": null
+    },
+    {
+      "name": "Feet Distance",
+      "type": "float",
+      "label": "Feet Distance",
+      "labels": {
+        "ja": "足元の距離",
+        "zh-TW": "腳部距離",
+        "ko": "발 거리",
+        "zh-CN": "脚部距离"
+      },
+      "default": 0.3,
+      "min": 0,
+      "max": 0.4,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Lean",
+      "type": "float",
+      "label": "Lean",
+      "labels": {
+        "ja": "傾き",
+        "zh-TW": "傾斜",
+        "ko": "기울임",
+        "zh-CN": "倾斜"
+      },
+      "default": 0,
+      "min": -180,
+      "max": 180,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Sway Motion",
+      "type": "group",
+      "label": "Sway Motion",
+      "labels": {
+        "ja": "揺れモーション",
+        "zh-TW": "擺動動作",
+        "ko": "흔들림 동작",
+        "zh-CN": "摇晃动作"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Reusable motion-pattern generator for looping body sway and\r\npositional drift. It can randomize built-in patterns, randomize\r\nuser presets, or expose the underlying curves directly for\r\nmanual shaping.\r\n\r\n\r\n## Pattern Source\r\n\r\n**Mode** decides where the curves come from. *Random* pulls from\r\nthe built-in pattern library, *Random Preset* rotates through\r\nyour saved presets, and *Manual* exposes the underlying motion\r\ncurves directly. **Seed** fixes the random sequence so the same\r\npattern order repeats; change it when you want new variation\r\nwithout redesigning the curves.\r\n\r\n\r\n## Timing and Intensity\r\n\r\n**Moves Per Group** controls how often the generator advances to\r\na new pattern phrase. **Speed** scales playback, while **Use\r\nAudio** lets the motion breathe with the music level instead of\r\nstaying at a fixed intensity. **Extent** is auto-updatable, so\r\nit is the best control to automate when you want another system\r\nto push the motion larger or smaller over time.\r\n\r\n\r\n## Transition and Damping\r\n\r\n**Transition** softens the handoff between phrases; low values\r\nmake the motion snap to the next idea, high values keep it more\r\nfluid but can blur the character of individual patterns.\r\n**Damping** controls how quickly the driven rig catches up on\r\norientation, horizontal sway, and vertical sway, which is often\r\nthe difference between crisp choreography and a floaty feel.",
+      "values": [
+        {
+          "name": "Moves Per Group",
+          "type": "int",
+          "label": "Moves Per Group",
+          "labels": {
+            "ja": "グループあたりのムーブ数",
+            "zh-TW": "每組移動次數",
+            "ko": "그룹당 모션 수",
+            "zh-CN": "每组运动次数"
+          },
+          "default": 4,
+          "min": 1,
+          "max": 32,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Use Audio",
+          "type": "float",
+          "label": "Use Audio",
+          "labels": {
+            "ja": "音声の使用",
+            "zh-TW": "使用音訊",
+            "ko": "오디오 사용",
+            "zh-CN": "是否使用音频"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 4,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Speed",
+          "type": "float",
+          "label": "Speed",
+          "labels": {
+            "ja": "速度",
+            "zh-TW": "速度",
+            "ko": "속도",
+            "zh-CN": "速度"
+          },
+          "default": 0,
+          "min": -3,
+          "max": 3,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Transition",
+          "type": "float",
+          "label": "Transition",
+          "labels": {
+            "ja": "トランジション",
+            "zh-TW": "過渡",
+            "ko": "전환",
+            "zh-CN": "过渡"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Extent",
+          "type": "float",
+          "label": "Extent",
+          "labels": {
+            "ja": "範囲",
+            "zh-TW": "範圍",
+            "ko": "범위",
+            "zh-CN": "范围"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Damping",
+          "type": "group",
+          "label": "Damping",
+          "labels": {
+            "ja": "ダンピング",
+            "zh-TW": "阻尼",
+            "ko": "감쇠",
+            "zh-CN": "阻尼"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Orientation",
+              "type": "float",
+              "label": "Orientation",
+              "labels": {
+                "ja": "向き",
+                "zh-TW": "朝向",
+                "ko": "오리엔테이션",
+                "zh-CN": "朝向"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Horizontal",
+              "type": "float",
+              "label": "Horizontal",
+              "labels": {
+                "ja": "水平",
+                "zh-TW": "水平",
+                "ko": "수평",
+                "zh-CN": "水平"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Vertical",
+              "type": "float",
+              "label": "Vertical",
+              "labels": {
+                "ja": "垂直",
+                "zh-TW": "垂直",
+                "ko": "수직",
+                "zh-CN": "垂直"
+              },
+              "default": 0.1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Mode",
+          "type": "options",
+          "label": "Mode",
+          "labels": {
+            "ja": "モード",
+            "zh-TW": "模式",
+            "ko": "모드",
+            "zh-CN": "模式"
+          },
+          "default": "Random",
+          "min": 0,
+          "max": 2,
+          "options": ["Random", "Random Preset", "Manual"],
+          "description": null
+        },
+        {
+          "name": "Motion X",
+          "type": "group",
+          "label": "Motion X",
+          "labels": {
+            "ja": "モーションX",
+            "zh-TW": "運動 X",
+            "ko": "모션 X",
+            "zh-CN": "运动 X"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Curve function that is used to control procedural motions.",
+          "values": [
+            {
+              "name": "Override",
+              "type": "float",
+              "label": "Override",
+              "labels": {
+                "ja": "上書き",
+                "zh-TW": "覆蓋",
+                "ko": "덮어쓰기",
+                "zh-CN": "覆盖"
+              },
+              "default": 0,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": "Override generated movement with this value"
+            },
+            {
+              "name": "Speed Multiplier",
+              "type": "float",
+              "label": "Speed Multiplier",
+              "labels": {
+                "ja": "速度乗数",
+                "zh-TW": "速度倍增器",
+                "ko": "속도 승수",
+                "zh-CN": "速度乘数"
+              },
+              "default": -1,
+              "min": -3,
+              "max": 3,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Phase",
+              "type": "float",
+              "label": "Phase",
+              "labels": {
+                "ja": "位相",
+                "zh-TW": "相位",
+                "ko": "위상",
+                "zh-CN": "相位"
+              },
+              "default": 0.25,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Starting position in the cycle"
+            },
+            {
+              "name": "Curve",
+              "type": "float",
+              "label": "Curve",
+              "labels": {
+                "ja": "カーブ",
+                "zh-TW": "曲線",
+                "ko": "커브",
+                "zh-CN": "曲线"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Direction",
+              "type": "float",
+              "label": "Direction",
+              "labels": {
+                "ja": "方向",
+                "zh-TW": "方向",
+                "ko": "방향",
+                "zh-CN": "方向"
+              },
+              "default": 1,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Scale",
+              "type": "float",
+              "label": "Scale",
+              "labels": {
+                "ja": "スケール",
+                "zh-TW": "縮放",
+                "ko": "스케일",
+                "zh-CN": "缩放"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Center",
+              "type": "float",
+              "label": "Center",
+              "labels": {
+                "ja": "中央",
+                "zh-TW": "中心",
+                "ko": "중앙",
+                "zh-CN": "中心"
+              },
+              "default": 0,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Motion Z",
+          "type": "group",
+          "label": "Motion Z",
+          "labels": {
+            "ja": "モーションZ",
+            "zh-TW": "運動 Z",
+            "ko": "모션 Z",
+            "zh-CN": "运动 Z"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Curve function that is used to control procedural motions.",
+          "values": [
+            {
+              "name": "Override",
+              "type": "float",
+              "label": "Override",
+              "labels": {
+                "ja": "上書き",
+                "zh-TW": "覆蓋",
+                "ko": "덮어쓰기",
+                "zh-CN": "覆盖"
+              },
+              "default": 0,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": "Override generated movement with this value"
+            },
+            {
+              "name": "Speed Multiplier",
+              "type": "float",
+              "label": "Speed Multiplier",
+              "labels": {
+                "ja": "速度乗数",
+                "zh-TW": "速度倍增器",
+                "ko": "속도 승수",
+                "zh-CN": "速度乘数"
+              },
+              "default": -1,
+              "min": -3,
+              "max": 3,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Phase",
+              "type": "float",
+              "label": "Phase",
+              "labels": {
+                "ja": "位相",
+                "zh-TW": "相位",
+                "ko": "위상",
+                "zh-CN": "相位"
+              },
+              "default": 0.25,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Starting position in the cycle"
+            },
+            {
+              "name": "Curve",
+              "type": "float",
+              "label": "Curve",
+              "labels": {
+                "ja": "カーブ",
+                "zh-TW": "曲線",
+                "ko": "커브",
+                "zh-CN": "曲线"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Direction",
+              "type": "float",
+              "label": "Direction",
+              "labels": {
+                "ja": "方向",
+                "zh-TW": "方向",
+                "ko": "방향",
+                "zh-CN": "方向"
+              },
+              "default": 1,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Scale",
+              "type": "float",
+              "label": "Scale",
+              "labels": {
+                "ja": "スケール",
+                "zh-TW": "縮放",
+                "ko": "스케일",
+                "zh-CN": "缩放"
+              },
+              "default": 0.35,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Center",
+              "type": "float",
+              "label": "Center",
+              "labels": {
+                "ja": "中央",
+                "zh-TW": "中心",
+                "ko": "중앙",
+                "zh-CN": "中心"
+              },
+              "default": 0,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Seed",
+          "type": "float",
+          "label": "Seed",
+          "labels": {
+            "ja": "シード",
+            "zh-TW": "種子值",
+            "ko": "시드",
+            "zh-CN": "随机种子"
+          },
+          "default": 1234,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": "Controls randomized pattern sequence"
+        }
+      ]
+    },
+    {
+      "name": "Sex Motion",
+      "type": "group",
+      "label": "Sex Motion",
+      "labels": {
+        "ja": "性運動",
+        "zh-TW": "性行為動作",
+        "ko": "성적 동작",
+        "zh-CN": "性行为动作"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Reusable spring-driven thrust controller. A shaped driver curve\r\npushes one mass, a second mass trails behind it, and the gap\r\nbetween them becomes the regulated travel used by paired motion\r\nsystems. This makes the cycle feel elastic rather than like a\r\nraw sine wave.\r\n\r\n\r\n## Tempo and Travel\r\n\r\n**Extent** sets the maximum travel distance. **Auto Intensity**\r\ncan scale that travel from the current music level, while\r\n**Auto BPM** and **Speed** control how quickly the cycle runs.\r\nUse manual speed when you want consistent pacing; enable the\r\naudio-driven controls when the motion should breathe with the\r\nsoundtrack instead.\r\n\r\n\r\n## Driver Shape\r\n\r\n**Top Duration**, **Bottom Duration**, and **Slope Balance**\r\nshape the idealized cycle before the springs respond to it. A\r\nlonger top creates a held extension, a longer bottom creates a\r\nmore obvious reset, and slope balance shifts time between the\r\ndrive and return strokes. This is where you define whether the\r\nmotion feels punchy, even, or teasing.\r\n\r\n\r\n## Spring Response\r\n\r\n**Collision Distance** sets the resting separation between the\r\ntwo spring masses. **Spring A**, **Damping A**, **Spring B**,\r\n**Damping B**, and **Rest Spring** determine how tightly each\r\nmass follows the driver and how much overshoot or softness is\r\nleft in the result. Stiffer values feel more mechanical; softer\r\nvalues feel heavier but can get mushy if the cycle is fast.\r\n\r\n\r\n## Visualization\r\n\r\n**Visualize Curve** draws the target and spring responses in the\r\nscene so you can tune the shape without guessing from the body\r\nmotion alone. It is a setup aid, not something you would keep on\r\nduring normal use.",
+      "values": [
+        {
+          "name": "Extent",
+          "type": "float",
+          "label": "Extent",
+          "labels": {
+            "ja": "範囲",
+            "zh-TW": "範圍",
+            "ko": "범위",
+            "zh-CN": "范围"
+          },
+          "default": 0.2,
+          "min": 0,
+          "max": 0.5,
+          "options": null,
+          "description": "Travel distance"
+        },
+        {
+          "name": "Auto Intensity",
+          "type": "float",
+          "label": "Auto Intensity",
+          "labels": {
+            "ja": "自動強度",
+            "zh-TW": "自動強度",
+            "ko": "자동 강도",
+            "zh-CN": "自动强度"
+          },
+          "default": 0,
+          "min": -2,
+          "max": 4,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Auto BPM",
+          "type": "bool",
+          "label": "Auto BPM",
+          "labels": {
+            "ja": "自動BPM",
+            "zh-TW": "自動BPM",
+            "ko": "자동 BPM",
+            "zh-CN": "自动BPM"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Speed",
+          "type": "float",
+          "label": "Speed",
+          "labels": {
+            "ja": "速度",
+            "zh-TW": "速度",
+            "ko": "속도",
+            "zh-CN": "速度"
+          },
+          "default": -1,
+          "min": -2,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Top Duration",
+          "type": "float",
+          "label": "Top Duration",
+          "labels": {
+            "ja": "トップ期間",
+            "zh-TW": "頂部持續時間",
+            "ko": "최고 지속 시간",
+            "zh-CN": "顶部持续时间"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 0.5,
+          "options": null,
+          "description": "Duration of the top flat section"
+        },
+        {
+          "name": "Bottom Duration",
+          "type": "float",
+          "label": "Bottom Duration",
+          "labels": {
+            "ja": "ボトム期間",
+            "zh-TW": "底部持續時間",
+            "ko": "하단 지속 시간",
+            "zh-CN": "底部持续时间"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 0.5,
+          "options": null,
+          "description": "Duration of the bottom flat section"
+        },
+        {
+          "name": "Slope Balance",
+          "type": "float",
+          "label": "Slope Balance",
+          "labels": {
+            "ja": "スロープバランス",
+            "zh-TW": "斜坡平衡",
+            "ko": "경사 균형",
+            "zh-CN": "坡度平衡"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Ratio between upward and downward slope durations"
+        },
+        {
+          "name": "Collision Distance",
+          "type": "float",
+          "label": "Collision Distance",
+          "labels": {
+            "ja": "衝突距離",
+            "zh-TW": "碰撞距離",
+            "ko": "충돌 거리",
+            "zh-CN": "碰撞距离"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Spring A",
+          "type": "float",
+          "label": "Spring A",
+          "labels": {
+            "ja": "スプリングA",
+            "zh-TW": "彈簧 A",
+            "ko": "스프링 A",
+            "zh-CN": "弹簧 A"
+          },
+          "default": 10,
+          "min": 8,
+          "max": 12,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Damping A",
+          "type": "float",
+          "label": "Damping A",
+          "labels": {
+            "ja": "ダンピングA",
+            "zh-TW": "阻尼 A",
+            "ko": "감쇠 A",
+            "zh-CN": "阻尼 A"
+          },
+          "default": 50,
+          "min": 0,
+          "max": 100,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Spring B",
+          "type": "float",
+          "label": "Spring B",
+          "labels": {
+            "ja": "スプリングB",
+            "zh-TW": "彈簧 B",
+            "ko": "스프링 B",
+            "zh-CN": "弹簧 B"
+          },
+          "default": 9,
+          "min": 8,
+          "max": 12,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Damping B",
+          "type": "float",
+          "label": "Damping B",
+          "labels": {
+            "ja": "ダンピングB",
+            "zh-TW": "阻尼 B",
+            "ko": "감쇠 B",
+            "zh-CN": "阻尼 B"
+          },
+          "default": 50,
+          "min": 0,
+          "max": 100,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Rest Spring",
+          "type": "float",
+          "label": "Rest Spring",
+          "labels": {
+            "ja": "復元スプリング",
+            "zh-TW": "恢復彈簧",
+            "ko": "휴식 스프링",
+            "zh-CN": "静息弹簧"
+          },
+          "default": 8,
+          "min": 5,
+          "max": 9,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Visualize Curve",
+          "type": "bool",
+          "label": "Visualize Curve",
+          "labels": {
+            "ja": "カーブの可視化",
+            "zh-TW": "可視化曲線",
+            "ko": "곡선 시각화",
+            "zh-CN": "可视化曲线"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Visualize the motion curve in the scene view"
+        }
+      ]
+    },
+    {
+      "name": "Facial",
+      "type": "group",
+      "label": "Facial",
+      "labels": {
+        "ja": "フェイシャル",
+        "zh-TW": "臉部",
+        "ko": "얼굴",
+        "zh-CN": "面部"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Maps a single motion intensity value onto facial morphs so the\r\nexpression can open up with the thrust cycle, arousal buildup,\r\nor orgasm peak. This is a lightweight driver: it does not\r\ngenerate expressions on its own, it remaps existing morphs and\r\ntheir min/max range.\r\n\r\n\r\n## Morph Selection\r\n\r\n**Eyebrow Morph**, **Eyelid Morph**, and **Mouth Morph** pick\r\nwhich morph channels receive the driven value. Choose morphs\r\nthat read clearly from neutral to expressive, otherwise the\r\nmotion will feel weak even if the range is large.\r\n\r\n\r\n## Output Range\r\n\r\nEach range sets the minimum and maximum value written as the\r\ndriver moves from 0 to 1. Narrow ranges keep the face subtle\r\nand layered over other animation; wide ranges make the motion\r\nmuch more explicit but can clip or fight baked expressions on\r\nmodels with aggressive morphs.",
+      "values": [
+        {
+          "name": "Eyebrow Morph",
+          "type": "options",
+          "label": "Eyebrow Morph",
+          "labels": {
+            "ja": "眉のモーフ",
+            "zh-TW": "眉毛形變",
+            "ko": "눈썹 모프",
+            "zh-CN": "眉毛变形"
+          },
+          "default": "にこり",
+          "min": 0,
+          "max": 6,
+          "options": ["にこり", "上", "下", "困る", "怒り", "怒る", "Eyebrows Custom"],
+          "description": null
+        },
+        {
+          "name": "Eyebrows Range",
+          "type": "range",
+          "label": "Eyebrows Range",
+          "labels": {
+            "ja": "眉の範囲",
+            "zh-TW": "眉毛範圍",
+            "ko": "눈썹 범위",
+            "zh-CN": "眉毛范围"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Eyelid Morph",
+          "type": "options",
+          "label": "Eyelid Morph",
+          "labels": {
+            "ja": "まぶたのモーフ",
+            "zh-TW": "眼瞼形變",
+            "ko": "눈꺼풀 모프",
+            "zh-CN": "眼皮变形"
+          },
+          "default": "まばたき",
+          "min": 0,
+          "max": 6,
+          "options": ["まばたき", "じと目", "ウインク", "ウインク右", "笑い", "目細める", "Eyelids Custom"],
+          "description": null
+        },
+        {
+          "name": "Eyelids Range",
+          "type": "range",
+          "label": "Eyelids Range",
+          "labels": {
+            "ja": "まぶたの範囲",
+            "zh-TW": "眼瞼範圍",
+            "ko": "눈꺼풀 범위",
+            "zh-CN": "眼皮范围"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Mouth Morph",
+          "type": "options",
+          "label": "Mouth Morph",
+          "labels": {
+            "ja": "口のモーフ",
+            "zh-TW": "嘴部形變",
+            "ko": "입 모프",
+            "zh-CN": "嘴部变形"
+          },
+          "default": "あ",
+          "min": 0,
+          "max": 10,
+          "options": ["あ", "い", "う", "え", "お", "にやり", "にこ", "にこ2", "にこ3", "∧", "Mouth Custom"],
+          "description": null
+        },
+        {
+          "name": "Mouth Range",
+          "type": "range",
+          "label": "Mouth Range",
+          "labels": {
+            "ja": "口の範囲",
+            "zh-TW": "嘴部範圍",
+            "ko": "입 범위",
+            "zh-CN": "嘴部范围"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Contact Smoothing",
+      "type": "float",
+      "label": "Contact Smoothing",
+      "labels": {
+        "ja": "(Contact Smoothing)",
+        "zh-TW": "(Contact Smoothing)",
+        "ko": "(Contact Smoothing)",
+        "zh-CN": "(Contact Smoothing)"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Reaction",
+      "type": "group",
+      "label": "Reaction",
+      "labels": {
+        "ja": "(Reaction)",
+        "zh-TW": "(Reaction)",
+        "ko": "(Reaction)",
+        "zh-CN": "(Reaction)"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Arousal reaction from thrusting",
+      "values": [
+        {
+          "name": "Speed",
+          "type": "float",
+          "label": "Speed",
+          "labels": {
+            "ja": "速度",
+            "zh-TW": "速度",
+            "ko": "속도",
+            "zh-CN": "速度"
+          },
+          "default": 2,
+          "min": 1,
+          "max": 5,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Damping",
+          "type": "float",
+          "label": "Damping",
+          "labels": {
+            "ja": "ダンピング",
+            "zh-TW": "阻尼",
+            "ko": "감쇠",
+            "zh-CN": "阻尼"
+          },
+          "default": 25,
+          "min": 0,
+          "max": 50,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Bend",
+          "type": "float",
+          "label": "Bend",
+          "labels": {
+            "ja": "屈曲",
+            "zh-TW": "彎曲",
+            "ko": "굽힘 정도",
+            "zh-CN": "弯曲"
+          },
+          "default": 30,
+          "min": 15,
+          "max": 45,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Hip/Torso Ratio",
+          "type": "float",
+          "label": "Hip/Torso Ratio",
+          "labels": {
+            "ja": "(Hip/Torso Ratio)",
+            "zh-TW": "(Hip/Torso Ratio)",
+            "ko": "(Hip/Torso Ratio)",
+            "zh-CN": "(Hip/Torso Ratio)"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Blend",
+          "type": "float",
+          "label": "Blend",
+          "labels": {
+            "ja": "ブレンド",
+            "zh-TW": "混合",
+            "ko": "블렌드",
+            "zh-CN": "混合"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Test",
+          "type": "bool",
+          "label": "Test",
+          "labels": {
+            "ja": "(Test)",
+            "zh-TW": "(Test)",
+            "ko": "(Test)",
+            "zh-CN": "(Test)"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Orgasm",
+      "type": "group",
+      "label": "Orgasm",
+      "labels": {
+        "ja": "(Orgasm)",
+        "zh-TW": "(Orgasm)",
+        "ko": "(Orgasm)",
+        "zh-CN": "(Orgasm)"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Simulate orgasm for orgasmic movement",
+      "values": [
+        {
+          "name": "Mode",
+          "type": "options",
+          "label": "Mode",
+          "labels": {
+            "ja": "モード",
+            "zh-TW": "模式",
+            "ko": "모드",
+            "zh-CN": "模式"
+          },
+          "default": "Determined",
+          "min": 0,
+          "max": 1,
+          "options": ["Physical", "Determined"],
+          "description": null
+        },
+        {
+          "name": "Orgasm Sensitivity",
+          "type": "float",
+          "label": "Orgasm Sensitivity",
+          "labels": {
+            "ja": "(Orgasm Sensitivity)",
+            "zh-TW": "(Orgasm Sensitivity)",
+            "ko": "(Orgasm Sensitivity)",
+            "zh-CN": "(Orgasm Sensitivity)"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Music Compensation",
+          "type": "float",
+          "label": "Music Compensation",
+          "labels": {
+            "ja": "(Music Compensation)",
+            "zh-TW": "(Music Compensation)",
+            "ko": "(Music Compensation)",
+            "zh-CN": "(Music Compensation)"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Arousal Curve",
+          "type": "float",
+          "label": "Arousal Curve",
+          "labels": {
+            "ja": "(Arousal Curve)",
+            "zh-TW": "(Arousal Curve)",
+            "ko": "(Arousal Curve)",
+            "zh-CN": "(Arousal Curve)"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Build-Up Beats",
+          "type": "int",
+          "label": "Build-Up Beats",
+          "labels": {
+            "ja": "(Build-Up Beats)",
+            "zh-TW": "(Build-Up Beats)",
+            "ko": "(Build-Up Beats)",
+            "zh-CN": "(Build-Up Beats)"
+          },
+          "default": 24,
+          "min": 4,
+          "max": 64,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Peak Duration",
+          "type": "int",
+          "label": "Peak Duration",
+          "labels": {
+            "ja": "(Peak Duration)",
+            "zh-TW": "(Peak Duration)",
+            "ko": "(Peak Duration)",
+            "zh-CN": "(Peak Duration)"
+          },
+          "default": 4,
+          "min": 1,
+          "max": 8,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Fade-Out Beats",
+          "type": "int",
+          "label": "Fade-Out Beats",
+          "labels": {
+            "ja": "(Fade-Out Beats)",
+            "zh-TW": "(Fade-Out Beats)",
+            "ko": "(Fade-Out Beats)",
+            "zh-CN": "(Fade-Out Beats)"
+          },
+          "default": 4,
+          "min": 1,
+          "max": 8,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Shaking Intensity",
+          "type": "float",
+          "label": "Shaking Intensity",
+          "labels": {
+            "ja": "(Shaking Intensity)",
+            "zh-TW": "(Shaking Intensity)",
+            "ko": "(Shaking Intensity)",
+            "zh-CN": "(Shaking Intensity)"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Shaking Speed",
+          "type": "float",
+          "label": "Shaking Speed",
+          "labels": {
+            "ja": "(Shaking Speed)",
+            "zh-TW": "(Shaking Speed)",
+            "ko": "(Shaking Speed)",
+            "zh-CN": "(Shaking Speed)"
+          },
+          "default": 1,
+          "min": 0.25,
+          "max": 4,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Shaking Damping",
+          "type": "float",
+          "label": "Shaking Damping",
+          "labels": {
+            "ja": "(Shaking Damping)",
+            "zh-TW": "(Shaking Damping)",
+            "ko": "(Shaking Damping)",
+            "zh-CN": "(Shaking Damping)"
+          },
+          "default": 15,
+          "min": 0,
+          "max": 50,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Shaking Frequency",
+          "type": "float",
+          "label": "Shaking Frequency",
+          "labels": {
+            "ja": "(Shaking Frequency)",
+            "zh-TW": "(Shaking Frequency)",
+            "ko": "(Shaking Frequency)",
+            "zh-CN": "(Shaking Frequency)"
+          },
+          "default": 2,
+          "min": 1,
+          "max": 5,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Variety",
+          "type": "float",
+          "label": "Variety",
+          "labels": {
+            "ja": "(Variety)",
+            "zh-TW": "(Variety)",
+            "ko": "(Variety)",
+            "zh-CN": "(Variety)"
+          },
+          "default": 0.15,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Ejaculation Chance",
+          "type": "float",
+          "label": "Ejaculation Chance",
+          "labels": {
+            "ja": "(Ejaculation Chance)",
+            "zh-TW": "(Ejaculation Chance)",
+            "ko": "(Ejaculation Chance)",
+            "zh-CN": "(Ejaculation Chance)"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Test",
+          "type": "bool",
+          "label": "Test",
+          "labels": {
+            "ja": "(Test)",
+            "zh-TW": "(Test)",
+            "ko": "(Test)",
+            "zh-CN": "(Test)"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Male Pose",
+      "type": "group",
+      "label": "Male Pose",
+      "labels": {
+        "ja": "男性ポーズ",
+        "zh-TW": "男性姿態",
+        "ko": "남성 포즈",
+        "zh-CN": "男性姿势"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Reusable actor-pose block for staging a character before motion\r\nlayers are applied. It combines body alignment, hand pose, and\r\nleg pose controls so a procedural system can start from a stable\r\nauthored stance instead of fighting the model's default rest\r\npose.\r\n\r\n\r\n## Body Setup\r\n\r\nWhen the hosting feature enables body controls, **Orientation**,\r\n**Bend X**, **Bend Y**, **Twist**, **Head Rotation**,\r\n**Body Position**, and **Body Rotation** establish the base torso\r\nlayout. Use these for coarse alignment first. Large procedural\r\noffsets layered on top of a bad base pose usually read worse\r\nthan a cleanly staged pose with smaller animated corrections.\r\n\r\n\r\n## Hands\r\n\r\nThe **Hands** block chooses whether hand posing is active and\r\nwhether both sides stay symmetrical. This is useful when you want\r\na quick, mirrored pose for broad staging or an asymmetric pose\r\nthat interacts with a partner or prop more naturally.\r\n\r\n\r\n## Legs\r\n\r\nThe **Legs** block does the same for lower-body posing. Keep the\r\nlegs symmetrical when the feature should feel centered and easy\r\nto retarget; break symmetry when you need weight shift or a more\r\ncharacter-specific stance. Because many motion systems build on\r\nthis pose, small leg edits can have a large downstream effect on\r\nbalance and contact.",
+      "values": [
+        {
+          "name": "Body",
+          "type": "group",
+          "label": "Body",
+          "labels": {
+            "ja": "体",
+            "zh-TW": "身體",
+            "ko": "몸통",
+            "zh-CN": "身体"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Orientation",
+              "type": "float",
+              "label": "Orientation",
+              "labels": {
+                "ja": "向き",
+                "zh-TW": "朝向",
+                "ko": "오리엔테이션",
+                "zh-CN": "朝向"
+              },
+              "default": 0,
+              "min": -180,
+              "max": 180,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Bend X",
+              "type": "float",
+              "label": "Bend X",
+              "labels": {
+                "ja": "X曲げ",
+                "zh-TW": "X彎曲",
+                "ko": "굽힘 X",
+                "zh-CN": "弯曲 X"
+              },
+              "default": -65,
+              "min": -90,
+              "max": 90,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Bend Y",
+              "type": "float",
+              "label": "Bend Y",
+              "labels": {
+                "ja": "Y曲げ",
+                "zh-TW": "Y彎曲",
+                "ko": "굽힘 Y",
+                "zh-CN": "弯曲 Y"
+              },
+              "default": 0,
+              "min": -90,
+              "max": 90,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Twist",
+              "type": "float",
+              "label": "Twist",
+              "labels": {
+                "ja": "ねじれ",
+                "zh-TW": "扭轉",
+                "ko": "비틀림",
+                "zh-CN": "扭曲"
+              },
+              "default": 0,
+              "min": -90,
+              "max": 90,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Head Rotation",
+              "type": "group",
+              "label": "Head Rotation",
+              "labels": {
+                "ja": "(Head Rotation)",
+                "zh-TW": "(Head Rotation)",
+                "ko": "(Head Rotation)",
+                "zh-CN": "(Head Rotation)"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "X",
+                  "type": "float",
+                  "label": "X",
+                  "labels": {
+                    "ja": "(X)",
+                    "zh-TW": "(X)",
+                    "ko": "(X)",
+                    "zh-CN": "(X)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Y",
+                  "type": "float",
+                  "label": "Y",
+                  "labels": {
+                    "ja": "(Y)",
+                    "zh-TW": "(Y)",
+                    "ko": "(Y)",
+                    "zh-CN": "(Y)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Z",
+                  "type": "float",
+                  "label": "Z",
+                  "labels": {
+                    "ja": "(Z)",
+                    "zh-TW": "(Z)",
+                    "ko": "(Z)",
+                    "zh-CN": "(Z)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            },
+            {
+              "name": "Body Position",
+              "type": "group",
+              "label": "Body Position",
+              "labels": {
+                "ja": "ボディの位置",
+                "zh-TW": "身體位置",
+                "ko": "바디 위치",
+                "zh-CN": "身体位置"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "X",
+                  "type": "float",
+                  "label": "X",
+                  "labels": {
+                    "ja": "(X)",
+                    "zh-TW": "(X)",
+                    "ko": "(X)",
+                    "zh-CN": "(X)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Y",
+                  "type": "float",
+                  "label": "Y",
+                  "labels": {
+                    "ja": "(Y)",
+                    "zh-TW": "(Y)",
+                    "ko": "(Y)",
+                    "zh-CN": "(Y)"
+                  },
+                  "default": -0.2,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Z",
+                  "type": "float",
+                  "label": "Z",
+                  "labels": {
+                    "ja": "(Z)",
+                    "zh-TW": "(Z)",
+                    "ko": "(Z)",
+                    "zh-CN": "(Z)"
+                  },
+                  "default": 0.1,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            },
+            {
+              "name": "Body Rotation",
+              "type": "group",
+              "label": "Body Rotation",
+              "labels": {
+                "ja": "ボディの回転",
+                "zh-TW": "身體旋轉",
+                "ko": "바디 회전",
+                "zh-CN": "身体旋转"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "X",
+                  "type": "float",
+                  "label": "X",
+                  "labels": {
+                    "ja": "(X)",
+                    "zh-TW": "(X)",
+                    "ko": "(X)",
+                    "zh-CN": "(X)"
+                  },
+                  "default": 90,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Y",
+                  "type": "float",
+                  "label": "Y",
+                  "labels": {
+                    "ja": "(Y)",
+                    "zh-TW": "(Y)",
+                    "ko": "(Y)",
+                    "zh-CN": "(Y)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Z",
+                  "type": "float",
+                  "label": "Z",
+                  "labels": {
+                    "ja": "(Z)",
+                    "zh-TW": "(Z)",
+                    "ko": "(Z)",
+                    "zh-CN": "(Z)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hands",
+          "type": "group",
+          "label": "Hands",
+          "labels": {
+            "ja": "手",
+            "zh-TW": "手部",
+            "ko": "손",
+            "zh-CN": "手部"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Hands Symmetrical",
+              "type": "bool",
+              "label": "Hands Symmetrical",
+              "labels": {
+                "ja": "両手対称",
+                "zh-TW": "雙手對稱",
+                "ko": "손 대칭",
+                "zh-CN": "手对称"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Left Hand",
+              "type": "group",
+              "label": "Left Hand",
+              "labels": {
+                "ja": "左手",
+                "zh-TW": "左手",
+                "ko": "왼손",
+                "zh-CN": "左手"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "Gesture",
+                  "type": "options",
+                  "label": "Gesture",
+                  "labels": {
+                    "ja": "ジェスチャー",
+                    "zh-TW": "手勢",
+                    "ko": "제스처",
+                    "zh-CN": "手势"
+                  },
+                  "default": "Fist",
+                  "min": 0,
+                  "max": 11,
+                  "options": ["Palm Fingers Apart", "Palm Fingers Together", "Fist", "Victory", "Okay", "Hold", "Vulcan", "Horn", "Point", "Middle Finger", "Thumb Up", "Grab"],
+                  "description": null
+                },
+                {
+                  "name": "Hand Position",
+                  "type": "group",
+                  "label": "Hand Position",
+                  "labels": {
+                    "ja": "手の位置",
+                    "zh-TW": "手部位置",
+                    "ko": "손 위치",
+                    "zh-CN": "手部姿势"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "values": [
+                    {
+                      "name": "X",
+                      "type": "float",
+                      "label": "X",
+                      "labels": {
+                        "ja": "(X)",
+                        "zh-TW": "(X)",
+                        "ko": "(X)",
+                        "zh-CN": "(X)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Y",
+                      "type": "float",
+                      "label": "Y",
+                      "labels": {
+                        "ja": "(Y)",
+                        "zh-TW": "(Y)",
+                        "ko": "(Y)",
+                        "zh-CN": "(Y)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Z",
+                      "type": "float",
+                      "label": "Z",
+                      "labels": {
+                        "ja": "(Z)",
+                        "zh-TW": "(Z)",
+                        "ko": "(Z)",
+                        "zh-CN": "(Z)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Hand Rotation",
+                  "type": "group",
+                  "label": "Hand Rotation",
+                  "labels": {
+                    "ja": "手の回転",
+                    "zh-TW": "手部旋轉",
+                    "ko": "손 회전",
+                    "zh-CN": "手部旋转"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "values": [
+                    {
+                      "name": "X",
+                      "type": "float",
+                      "label": "X",
+                      "labels": {
+                        "ja": "(X)",
+                        "zh-TW": "(X)",
+                        "ko": "(X)",
+                        "zh-CN": "(X)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Y",
+                      "type": "float",
+                      "label": "Y",
+                      "labels": {
+                        "ja": "(Y)",
+                        "zh-TW": "(Y)",
+                        "ko": "(Y)",
+                        "zh-CN": "(Y)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Z",
+                      "type": "float",
+                      "label": "Z",
+                      "labels": {
+                        "ja": "(Z)",
+                        "zh-TW": "(Z)",
+                        "ko": "(Z)",
+                        "zh-CN": "(Z)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Rotation Type",
+                  "type": "int",
+                  "label": "Rotation Type",
+                  "labels": {
+                    "ja": "回転タイプ",
+                    "zh-TW": "旋轉類型",
+                    "ko": "회전 유형",
+                    "zh-CN": "旋转类型"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 3,
+                  "options": ["Relative to Reference Bone", "Relative to Self", "Absolute Rotation", "No Rotation"],
+                  "description": null
+                },
+                {
+                  "name": "Elbow Orientation",
+                  "type": "float",
+                  "label": "Elbow Orientation",
+                  "labels": {
+                    "ja": "肘の向き",
+                    "zh-TW": "肘部方向",
+                    "ko": "팔꿈치 방향",
+                    "zh-CN": "肘部方向"
+                  },
+                  "default": 0,
+                  "min": -180,
+                  "max": 180,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Mirror Left/Right",
+                  "type": "bool",
+                  "label": "Mirror Left/Right",
+                  "labels": {
+                    "ja": "左/右のミラーリング",
+                    "zh-TW": "鏡像左右",
+                    "ko": "좌우 미러링",
+                    "zh-CN": "镜像左/右"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Reference Actor",
+                  "type": "options",
+                  "label": "Reference Actor",
+                  "labels": {
+                    "ja": "参照アクター",
+                    "zh-TW": "參考角色",
+                    "ko": "참조 액터",
+                    "zh-CN": "参考角色"
+                  },
+                  "default": "Self",
+                  "min": 0,
+                  "max": 1,
+                  "options": ["Self", "Partner", "Closest"],
+                  "description": null
+                },
+                {
+                  "name": "Reference Bone",
+                  "type": "options",
+                  "label": "Reference Bone",
+                  "labels": {
+                    "ja": "参照ボーン",
+                    "zh-TW": "參考骨骼",
+                    "ko": "참조 본",
+                    "zh-CN": "参考骨骼"
+                  },
+                  "default": "None",
+                  "min": 0,
+                  "max": 15,
+                  "options": ["None", "Hip", "Chest", "Head", "Center", "Pole", "Upperarm", "Forearm", "Hand", "Leg", "Knee", "Foot", "Belly", "Boobs", "Pussy", "Dick"],
+                  "description": null
+                },
+                {
+                  "name": "Side Selection",
+                  "type": "int",
+                  "label": "Side Selection",
+                  "labels": {
+                    "ja": "側面の選択",
+                    "zh-TW": "側邊選擇",
+                    "ko": "측면 선택",
+                    "zh-CN": "侧面选择"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 2,
+                  "options": ["Auto", "Left", "Right"],
+                  "description": null
+                },
+                {
+                  "name": "IK Mode",
+                  "type": "int",
+                  "label": "IK Mode",
+                  "labels": {
+                    "ja": "IKモード",
+                    "zh-TW": "IK模式",
+                    "ko": "IK 모드",
+                    "zh-CN": "IK模式"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 4,
+                  "options": ["Auto", "Normal", "Cylinder", "Sphere", "Align"],
+                  "description": null
+                },
+                {
+                  "name": "Blend Hand Motion",
+                  "type": "bool",
+                  "label": "Blend Hand Motion",
+                  "labels": {
+                    "ja": "手動のブレンド",
+                    "zh-TW": "手部動作混合",
+                    "ko": "손 동작 블렌딩",
+                    "zh-CN": "混合手部动作"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Blend Range",
+                  "type": "float",
+                  "label": "Blend Range",
+                  "labels": {
+                    "ja": "ブレンド範囲",
+                    "zh-TW": "混合範圍",
+                    "ko": "블렌딩 범위",
+                    "zh-CN": "混合范围"
+                  },
+                  "default": 0.75,
+                  "min": 0,
+                  "max": 2,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Symmetrical Offset",
+                  "type": "float",
+                  "label": "Symmetrical Offset",
+                  "labels": {
+                    "ja": "対称オフセット",
+                    "zh-TW": "對稱偏移",
+                    "ko": "대칭 오프셋",
+                    "zh-CN": "对称偏移"
+                  },
+                  "default": 0,
+                  "min": -1,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Use Accessory Position",
+                  "type": "bool",
+                  "label": "Use Accessory Position",
+                  "labels": {
+                    "ja": "アクセサリーの位置を使用",
+                    "zh-TW": "使用配件位置",
+                    "ko": "액세서리 위치 사용",
+                    "zh-CN": "使用配饰位置"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Motion",
+                  "type": "group",
+                  "label": "Motion",
+                  "labels": {
+                    "ja": "モーション",
+                    "zh-TW": "動作",
+                    "ko": "동작",
+                    "zh-CN": "运动"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": "Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.",
+                  "values": [
+                    {
+                      "name": "Speed",
+                      "type": "group",
+                      "label": "Speed",
+                      "labels": {
+                        "ja": "速度",
+                        "zh-TW": "速度",
+                        "ko": "속도",
+                        "zh-CN": "速度"
+                      },
+                      "default": 0,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "values": [
+                        {
+                          "name": "Moves Per Beat",
+                          "type": "int",
+                          "label": "Moves Per Beat",
+                          "labels": {
+                            "ja": "ビートあたりのムーブ数",
+                            "zh-TW": "每拍次移動次數",
+                            "ko": "비트당 모션 수",
+                            "zh-CN": "每拍运动次数"
+                          },
+                          "default": 4,
+                          "min": 0,
+                          "max": 9,
+                          "options": ["1/4", "1/3", "1/2", "2/3", "1", "4/3", "3/2", "2", "3", "4"],
+                          "description": null
+                        },
+                        {
+                          "name": "Moves Per Group",
+                          "type": "int",
+                          "label": "Moves Per Group",
+                          "labels": {
+                            "ja": "グループあたりのムーブ数",
+                            "zh-TW": "每組移動次數",
+                            "ko": "그룹당 모션 수",
+                            "zh-CN": "每组运动次数"
+                          },
+                          "default": 8,
+                          "min": 4,
+                          "max": 32,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Phase",
+                          "type": "float",
+                          "label": "Phase",
+                          "labels": {
+                            "ja": "位相",
+                            "zh-TW": "相位",
+                            "ko": "위상",
+                            "zh-CN": "相位"
+                          },
+                          "default": 0,
+                          "min": 0,
+                          "max": 1,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Curve",
+                          "type": "float",
+                          "label": "Curve",
+                          "labels": {
+                            "ja": "カーブ",
+                            "zh-TW": "曲線",
+                            "ko": "커브",
+                            "zh-CN": "曲线"
+                          },
+                          "default": 0,
+                          "min": 0,
+                          "max": 1,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Variable Speed",
+                          "type": "bool",
+                          "label": "Variable Speed",
+                          "labels": {
+                            "ja": "可変速度",
+                            "zh-TW": "可變速度",
+                            "ko": "가변 속도",
+                            "zh-CN": "可变速度"
+                          },
+                          "default": "false",
+                          "min": 0,
+                          "max": 1,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Mode",
+                          "type": "int",
+                          "label": "Mode",
+                          "labels": {
+                            "ja": "モード",
+                            "zh-TW": "模式",
+                            "ko": "모드",
+                            "zh-CN": "模式"
+                          },
+                          "default": 0,
+                          "min": 0,
+                          "max": 2,
+                          "options": ["Gradual", "Random", "Volume"],
+                          "description": null
+                        },
+                        {
+                          "name": "Min Speed",
+                          "type": "int",
+                          "label": "Min Speed",
+                          "labels": {
+                            "ja": "最小速度",
+                            "zh-TW": "最小速度",
+                            "ko": "최소 속도",
+                            "zh-CN": "最小速度"
+                          },
+                          "default": 2,
+                          "min": 0,
+                          "max": 4,
+                          "options": ["1/4", "1/3", "1/2", "2/3", "1"],
+                          "description": null
+                        },
+                        {
+                          "name": "Max Speed",
+                          "type": "int",
+                          "label": "Max Speed",
+                          "labels": {
+                            "ja": "最大速度",
+                            "zh-TW": "最大速度",
+                            "ko": "최대 속도",
+                            "zh-CN": "最大速度"
+                          },
+                          "default": 1,
+                          "min": 0,
+                          "max": 4,
+                          "options": ["1", "3/2", "2", "3", "4"],
+                          "description": null
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Distance",
+                      "type": "float",
+                      "label": "Distance",
+                      "labels": {
+                        "ja": "距離",
+                        "zh-TW": "距離",
+                        "ko": "거리",
+                        "zh-CN": "距离"
+                      },
+                      "default": 0.1,
+                      "min": 0,
+                      "max": 0.3,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Angle",
+                      "type": "float",
+                      "label": "Angle",
+                      "labels": {
+                        "ja": "角度",
+                        "zh-TW": "角度",
+                        "ko": "각도",
+                        "zh-CN": "角度"
+                      },
+                      "default": 0,
+                      "min": -60,
+                      "max": 60,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Custom Pose",
+                  "type": "group",
+                  "label": "Custom Pose",
+                  "labels": {
+                    "ja": "カスタムポーズ",
+                    "zh-TW": "自定義姿態",
+                    "ko": "커스텀 포즈",
+                    "zh-CN": "自定义姿势"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "values": [
+                    {
+                      "name": "Open",
+                      "type": "float",
+                      "label": "Open",
+                      "labels": {
+                        "ja": "開く",
+                        "zh-TW": "張開",
+                        "ko": "열기",
+                        "zh-CN": "张开"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Thumb Fold",
+                      "type": "float",
+                      "label": "Thumb Fold",
+                      "labels": {
+                        "ja": "親指の折り曲げ",
+                        "zh-TW": "拇指彎曲",
+                        "ko": "엄지 접기",
+                        "zh-CN": "拇指弯折"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Thumb Bend",
+                      "type": "float",
+                      "label": "Thumb Bend",
+                      "labels": {
+                        "ja": "親指の屈曲",
+                        "zh-TW": "拇指彎曲",
+                        "ko": "엄지 구부림",
+                        "zh-CN": "拇指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Index Bend",
+                      "type": "float",
+                      "label": "Index Bend",
+                      "labels": {
+                        "ja": "人差し指の屈曲",
+                        "zh-TW": "食指彎曲",
+                        "ko": "검지 구부림",
+                        "zh-CN": "食指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Middle Bend",
+                      "type": "float",
+                      "label": "Middle Bend",
+                      "labels": {
+                        "ja": "中指の屈曲",
+                        "zh-TW": "中指彎曲",
+                        "ko": "중지 구부림",
+                        "zh-CN": "中指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Ring Bend",
+                      "type": "float",
+                      "label": "Ring Bend",
+                      "labels": {
+                        "ja": "薬指の屈曲",
+                        "zh-TW": "無名指彎曲",
+                        "ko": "약지 구부림",
+                        "zh-CN": "无名指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Pinky Bend",
+                      "type": "float",
+                      "label": "Pinky Bend",
+                      "labels": {
+                        "ja": "小指の屈曲",
+                        "zh-TW": "小指彎曲",
+                        "ko": "새끼손가락 구부림",
+                        "zh-CN": "小指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Propagate",
+                      "type": "float",
+                      "label": "Propagate",
+                      "labels": {
+                        "ja": "伝播",
+                        "zh-TW": "傳播",
+                        "ko": "전파",
+                        "zh-CN": "传播"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Blend",
+                      "type": "float",
+                      "label": "Blend",
+                      "labels": {
+                        "ja": "ブレンド",
+                        "zh-TW": "混合",
+                        "ko": "블렌드",
+                        "zh-CN": "混合"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Pose Weight",
+                  "type": "float",
+                  "label": "Pose Weight",
+                  "labels": {
+                    "ja": "ポーズの重み",
+                    "zh-TW": "姿態權重",
+                    "ko": "포즈 가중치",
+                    "zh-CN": "姿势权重"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Grab Distance",
+                  "type": "float",
+                  "label": "Grab Distance",
+                  "labels": {
+                    "ja": "グリップ距離",
+                    "zh-TW": "抓取距離",
+                    "ko": "잡는 거리",
+                    "zh-CN": "抓取距离"
+                  },
+                  "default": 0.015,
+                  "min": -0.1,
+                  "max": 0.1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Grab Position",
+                  "type": "float",
+                  "label": "Grab Position",
+                  "labels": {
+                    "ja": "グリップ位置",
+                    "zh-TW": "抓取位置",
+                    "ko": "잡는 위치",
+                    "zh-CN": "抓取位置"
+                  },
+                  "default": -0.05,
+                  "min": -0.1,
+                  "max": 0.1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Grab Axis",
+                  "type": "float",
+                  "label": "Grab Axis",
+                  "labels": {
+                    "ja": "(Grab Axis)",
+                    "zh-TW": "(Grab Axis)",
+                    "ko": "(Grab Axis)",
+                    "zh-CN": "(Grab Axis)"
+                  },
+                  "default": 0,
+                  "min": -180,
+                  "max": 180,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            },
+            {
+              "name": "Right Hand",
+              "type": "group",
+              "label": "Right Hand",
+              "labels": {
+                "ja": "右手",
+                "zh-TW": "右手",
+                "ko": "오른손",
+                "zh-CN": "右手"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "Gesture",
+                  "type": "options",
+                  "label": "Gesture",
+                  "labels": {
+                    "ja": "ジェスチャー",
+                    "zh-TW": "手勢",
+                    "ko": "제스처",
+                    "zh-CN": "手势"
+                  },
+                  "default": "Fist",
+                  "min": 0,
+                  "max": 11,
+                  "options": ["Palm Fingers Apart", "Palm Fingers Together", "Fist", "Victory", "Okay", "Hold", "Vulcan", "Horn", "Point", "Middle Finger", "Thumb Up", "Grab"],
+                  "description": null
+                },
+                {
+                  "name": "Hand Position",
+                  "type": "group",
+                  "label": "Hand Position",
+                  "labels": {
+                    "ja": "手の位置",
+                    "zh-TW": "手部位置",
+                    "ko": "손 위치",
+                    "zh-CN": "手部姿势"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "values": [
+                    {
+                      "name": "X",
+                      "type": "float",
+                      "label": "X",
+                      "labels": {
+                        "ja": "(X)",
+                        "zh-TW": "(X)",
+                        "ko": "(X)",
+                        "zh-CN": "(X)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Y",
+                      "type": "float",
+                      "label": "Y",
+                      "labels": {
+                        "ja": "(Y)",
+                        "zh-TW": "(Y)",
+                        "ko": "(Y)",
+                        "zh-CN": "(Y)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Z",
+                      "type": "float",
+                      "label": "Z",
+                      "labels": {
+                        "ja": "(Z)",
+                        "zh-TW": "(Z)",
+                        "ko": "(Z)",
+                        "zh-CN": "(Z)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Hand Rotation",
+                  "type": "group",
+                  "label": "Hand Rotation",
+                  "labels": {
+                    "ja": "手の回転",
+                    "zh-TW": "手部旋轉",
+                    "ko": "손 회전",
+                    "zh-CN": "手部旋转"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "values": [
+                    {
+                      "name": "X",
+                      "type": "float",
+                      "label": "X",
+                      "labels": {
+                        "ja": "(X)",
+                        "zh-TW": "(X)",
+                        "ko": "(X)",
+                        "zh-CN": "(X)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Y",
+                      "type": "float",
+                      "label": "Y",
+                      "labels": {
+                        "ja": "(Y)",
+                        "zh-TW": "(Y)",
+                        "ko": "(Y)",
+                        "zh-CN": "(Y)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Z",
+                      "type": "float",
+                      "label": "Z",
+                      "labels": {
+                        "ja": "(Z)",
+                        "zh-TW": "(Z)",
+                        "ko": "(Z)",
+                        "zh-CN": "(Z)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Rotation Type",
+                  "type": "int",
+                  "label": "Rotation Type",
+                  "labels": {
+                    "ja": "回転タイプ",
+                    "zh-TW": "旋轉類型",
+                    "ko": "회전 유형",
+                    "zh-CN": "旋转类型"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 3,
+                  "options": ["Relative to Reference Bone", "Relative to Self", "Absolute Rotation", "No Rotation"],
+                  "description": null
+                },
+                {
+                  "name": "Elbow Orientation",
+                  "type": "float",
+                  "label": "Elbow Orientation",
+                  "labels": {
+                    "ja": "肘の向き",
+                    "zh-TW": "肘部方向",
+                    "ko": "팔꿈치 방향",
+                    "zh-CN": "肘部方向"
+                  },
+                  "default": 0,
+                  "min": -180,
+                  "max": 180,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Mirror Left/Right",
+                  "type": "bool",
+                  "label": "Mirror Left/Right",
+                  "labels": {
+                    "ja": "左/右のミラーリング",
+                    "zh-TW": "鏡像左右",
+                    "ko": "좌우 미러링",
+                    "zh-CN": "镜像左/右"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Reference Actor",
+                  "type": "options",
+                  "label": "Reference Actor",
+                  "labels": {
+                    "ja": "参照アクター",
+                    "zh-TW": "參考角色",
+                    "ko": "참조 액터",
+                    "zh-CN": "参考角色"
+                  },
+                  "default": "Self",
+                  "min": 0,
+                  "max": 1,
+                  "options": ["Self", "Partner", "Closest"],
+                  "description": null
+                },
+                {
+                  "name": "Reference Bone",
+                  "type": "options",
+                  "label": "Reference Bone",
+                  "labels": {
+                    "ja": "参照ボーン",
+                    "zh-TW": "參考骨骼",
+                    "ko": "참조 본",
+                    "zh-CN": "参考骨骼"
+                  },
+                  "default": "None",
+                  "min": 0,
+                  "max": 15,
+                  "options": ["None", "Hip", "Chest", "Head", "Center", "Pole", "Upperarm", "Forearm", "Hand", "Leg", "Knee", "Foot", "Belly", "Boobs", "Pussy", "Dick"],
+                  "description": null
+                },
+                {
+                  "name": "Side Selection",
+                  "type": "int",
+                  "label": "Side Selection",
+                  "labels": {
+                    "ja": "側面の選択",
+                    "zh-TW": "側邊選擇",
+                    "ko": "측면 선택",
+                    "zh-CN": "侧面选择"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 2,
+                  "options": ["Auto", "Left", "Right"],
+                  "description": null
+                },
+                {
+                  "name": "IK Mode",
+                  "type": "int",
+                  "label": "IK Mode",
+                  "labels": {
+                    "ja": "IKモード",
+                    "zh-TW": "IK模式",
+                    "ko": "IK 모드",
+                    "zh-CN": "IK模式"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 4,
+                  "options": ["Auto", "Normal", "Cylinder", "Sphere", "Align"],
+                  "description": null
+                },
+                {
+                  "name": "Blend Hand Motion",
+                  "type": "bool",
+                  "label": "Blend Hand Motion",
+                  "labels": {
+                    "ja": "手動のブレンド",
+                    "zh-TW": "手部動作混合",
+                    "ko": "손 동작 블렌딩",
+                    "zh-CN": "混合手部动作"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Blend Range",
+                  "type": "float",
+                  "label": "Blend Range",
+                  "labels": {
+                    "ja": "ブレンド範囲",
+                    "zh-TW": "混合範圍",
+                    "ko": "블렌딩 범위",
+                    "zh-CN": "混合范围"
+                  },
+                  "default": 0.75,
+                  "min": 0,
+                  "max": 2,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Symmetrical Offset",
+                  "type": "float",
+                  "label": "Symmetrical Offset",
+                  "labels": {
+                    "ja": "対称オフセット",
+                    "zh-TW": "對稱偏移",
+                    "ko": "대칭 오프셋",
+                    "zh-CN": "对称偏移"
+                  },
+                  "default": 0,
+                  "min": -1,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Use Accessory Position",
+                  "type": "bool",
+                  "label": "Use Accessory Position",
+                  "labels": {
+                    "ja": "アクセサリーの位置を使用",
+                    "zh-TW": "使用配件位置",
+                    "ko": "액세서리 위치 사용",
+                    "zh-CN": "使用配饰位置"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Motion",
+                  "type": "group",
+                  "label": "Motion",
+                  "labels": {
+                    "ja": "モーション",
+                    "zh-TW": "動作",
+                    "ko": "동작",
+                    "zh-CN": "运动"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": "Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.",
+                  "values": [
+                    {
+                      "name": "Speed",
+                      "type": "group",
+                      "label": "Speed",
+                      "labels": {
+                        "ja": "速度",
+                        "zh-TW": "速度",
+                        "ko": "속도",
+                        "zh-CN": "速度"
+                      },
+                      "default": 0,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "values": [
+                        {
+                          "name": "Moves Per Beat",
+                          "type": "int",
+                          "label": "Moves Per Beat",
+                          "labels": {
+                            "ja": "ビートあたりのムーブ数",
+                            "zh-TW": "每拍次移動次數",
+                            "ko": "비트당 모션 수",
+                            "zh-CN": "每拍运动次数"
+                          },
+                          "default": 4,
+                          "min": 0,
+                          "max": 9,
+                          "options": ["1/4", "1/3", "1/2", "2/3", "1", "4/3", "3/2", "2", "3", "4"],
+                          "description": null
+                        },
+                        {
+                          "name": "Moves Per Group",
+                          "type": "int",
+                          "label": "Moves Per Group",
+                          "labels": {
+                            "ja": "グループあたりのムーブ数",
+                            "zh-TW": "每組移動次數",
+                            "ko": "그룹당 모션 수",
+                            "zh-CN": "每组运动次数"
+                          },
+                          "default": 8,
+                          "min": 4,
+                          "max": 32,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Phase",
+                          "type": "float",
+                          "label": "Phase",
+                          "labels": {
+                            "ja": "位相",
+                            "zh-TW": "相位",
+                            "ko": "위상",
+                            "zh-CN": "相位"
+                          },
+                          "default": 0,
+                          "min": 0,
+                          "max": 1,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Curve",
+                          "type": "float",
+                          "label": "Curve",
+                          "labels": {
+                            "ja": "カーブ",
+                            "zh-TW": "曲線",
+                            "ko": "커브",
+                            "zh-CN": "曲线"
+                          },
+                          "default": 0,
+                          "min": 0,
+                          "max": 1,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Variable Speed",
+                          "type": "bool",
+                          "label": "Variable Speed",
+                          "labels": {
+                            "ja": "可変速度",
+                            "zh-TW": "可變速度",
+                            "ko": "가변 속도",
+                            "zh-CN": "可变速度"
+                          },
+                          "default": "false",
+                          "min": 0,
+                          "max": 1,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Mode",
+                          "type": "int",
+                          "label": "Mode",
+                          "labels": {
+                            "ja": "モード",
+                            "zh-TW": "模式",
+                            "ko": "모드",
+                            "zh-CN": "模式"
+                          },
+                          "default": 0,
+                          "min": 0,
+                          "max": 2,
+                          "options": ["Gradual", "Random", "Volume"],
+                          "description": null
+                        },
+                        {
+                          "name": "Min Speed",
+                          "type": "int",
+                          "label": "Min Speed",
+                          "labels": {
+                            "ja": "最小速度",
+                            "zh-TW": "最小速度",
+                            "ko": "최소 속도",
+                            "zh-CN": "最小速度"
+                          },
+                          "default": 2,
+                          "min": 0,
+                          "max": 4,
+                          "options": ["1/4", "1/3", "1/2", "2/3", "1"],
+                          "description": null
+                        },
+                        {
+                          "name": "Max Speed",
+                          "type": "int",
+                          "label": "Max Speed",
+                          "labels": {
+                            "ja": "最大速度",
+                            "zh-TW": "最大速度",
+                            "ko": "최대 속도",
+                            "zh-CN": "最大速度"
+                          },
+                          "default": 1,
+                          "min": 0,
+                          "max": 4,
+                          "options": ["1", "3/2", "2", "3", "4"],
+                          "description": null
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Distance",
+                      "type": "float",
+                      "label": "Distance",
+                      "labels": {
+                        "ja": "距離",
+                        "zh-TW": "距離",
+                        "ko": "거리",
+                        "zh-CN": "距离"
+                      },
+                      "default": 0.1,
+                      "min": 0,
+                      "max": 0.3,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Angle",
+                      "type": "float",
+                      "label": "Angle",
+                      "labels": {
+                        "ja": "角度",
+                        "zh-TW": "角度",
+                        "ko": "각도",
+                        "zh-CN": "角度"
+                      },
+                      "default": 0,
+                      "min": -60,
+                      "max": 60,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Custom Pose",
+                  "type": "group",
+                  "label": "Custom Pose",
+                  "labels": {
+                    "ja": "カスタムポーズ",
+                    "zh-TW": "自定義姿態",
+                    "ko": "커스텀 포즈",
+                    "zh-CN": "自定义姿势"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "values": [
+                    {
+                      "name": "Open",
+                      "type": "float",
+                      "label": "Open",
+                      "labels": {
+                        "ja": "開く",
+                        "zh-TW": "張開",
+                        "ko": "열기",
+                        "zh-CN": "张开"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Thumb Fold",
+                      "type": "float",
+                      "label": "Thumb Fold",
+                      "labels": {
+                        "ja": "親指の折り曲げ",
+                        "zh-TW": "拇指彎曲",
+                        "ko": "엄지 접기",
+                        "zh-CN": "拇指弯折"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Thumb Bend",
+                      "type": "float",
+                      "label": "Thumb Bend",
+                      "labels": {
+                        "ja": "親指の屈曲",
+                        "zh-TW": "拇指彎曲",
+                        "ko": "엄지 구부림",
+                        "zh-CN": "拇指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Index Bend",
+                      "type": "float",
+                      "label": "Index Bend",
+                      "labels": {
+                        "ja": "人差し指の屈曲",
+                        "zh-TW": "食指彎曲",
+                        "ko": "검지 구부림",
+                        "zh-CN": "食指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Middle Bend",
+                      "type": "float",
+                      "label": "Middle Bend",
+                      "labels": {
+                        "ja": "中指の屈曲",
+                        "zh-TW": "中指彎曲",
+                        "ko": "중지 구부림",
+                        "zh-CN": "中指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Ring Bend",
+                      "type": "float",
+                      "label": "Ring Bend",
+                      "labels": {
+                        "ja": "薬指の屈曲",
+                        "zh-TW": "無名指彎曲",
+                        "ko": "약지 구부림",
+                        "zh-CN": "无名指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Pinky Bend",
+                      "type": "float",
+                      "label": "Pinky Bend",
+                      "labels": {
+                        "ja": "小指の屈曲",
+                        "zh-TW": "小指彎曲",
+                        "ko": "새끼손가락 구부림",
+                        "zh-CN": "小指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Propagate",
+                      "type": "float",
+                      "label": "Propagate",
+                      "labels": {
+                        "ja": "伝播",
+                        "zh-TW": "傳播",
+                        "ko": "전파",
+                        "zh-CN": "传播"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Blend",
+                      "type": "float",
+                      "label": "Blend",
+                      "labels": {
+                        "ja": "ブレンド",
+                        "zh-TW": "混合",
+                        "ko": "블렌드",
+                        "zh-CN": "混合"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Pose Weight",
+                  "type": "float",
+                  "label": "Pose Weight",
+                  "labels": {
+                    "ja": "ポーズの重み",
+                    "zh-TW": "姿態權重",
+                    "ko": "포즈 가중치",
+                    "zh-CN": "姿势权重"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Grab Distance",
+                  "type": "float",
+                  "label": "Grab Distance",
+                  "labels": {
+                    "ja": "グリップ距離",
+                    "zh-TW": "抓取距離",
+                    "ko": "잡는 거리",
+                    "zh-CN": "抓取距离"
+                  },
+                  "default": 0.015,
+                  "min": -0.1,
+                  "max": 0.1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Grab Position",
+                  "type": "float",
+                  "label": "Grab Position",
+                  "labels": {
+                    "ja": "グリップ位置",
+                    "zh-TW": "抓取位置",
+                    "ko": "잡는 위치",
+                    "zh-CN": "抓取位置"
+                  },
+                  "default": -0.05,
+                  "min": -0.1,
+                  "max": 0.1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Grab Axis",
+                  "type": "float",
+                  "label": "Grab Axis",
+                  "labels": {
+                    "ja": "(Grab Axis)",
+                    "zh-TW": "(Grab Axis)",
+                    "ko": "(Grab Axis)",
+                    "zh-CN": "(Grab Axis)"
+                  },
+                  "default": 0,
+                  "min": -180,
+                  "max": 180,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Legs",
+          "type": "group",
+          "label": "Legs",
+          "labels": {
+            "ja": "脚",
+            "zh-TW": "腿部",
+            "ko": "다리",
+            "zh-CN": "腿部"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Legs Symmetrical",
+              "type": "bool",
+              "label": "Legs Symmetrical",
+              "labels": {
+                "ja": "対称的な脚",
+                "zh-TW": "雙腿對稱",
+                "ko": "좌우 대칭 다리",
+                "zh-CN": "双腿对称"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Left Leg",
+              "type": "group",
+              "label": "Left Leg",
+              "labels": {
+                "ja": "左脚",
+                "zh-TW": "左腿",
+                "ko": "왼쪽 다리",
+                "zh-CN": "左腿"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "Open",
+                  "type": "float",
+                  "label": "Open",
+                  "labels": {
+                    "ja": "開く",
+                    "zh-TW": "張開",
+                    "ko": "열기",
+                    "zh-CN": "张开"
+                  },
+                  "default": 0,
+                  "min": -90,
+                  "max": 90,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot X",
+                  "type": "float",
+                  "label": "Foot X",
+                  "labels": {
+                    "ja": "足のX",
+                    "zh-TW": "脚部 X",
+                    "ko": "발 X",
+                    "zh-CN": "脚X"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Y",
+                  "type": "float",
+                  "label": "Foot Y",
+                  "labels": {
+                    "ja": "足のY",
+                    "zh-TW": "脚部 Y",
+                    "ko": "발 Y",
+                    "zh-CN": "脚Y"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Z",
+                  "type": "float",
+                  "label": "Foot Z",
+                  "labels": {
+                    "ja": "足のZ",
+                    "zh-TW": "脚部 Z",
+                    "ko": "발 Z",
+                    "zh-CN": "脚Z"
+                  },
+                  "default": -0.2,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Rotate X",
+                  "type": "float",
+                  "label": "Foot Rotate X",
+                  "labels": {
+                    "ja": "足の回転X",
+                    "zh-TW": "腳部旋轉 X",
+                    "ko": "발 회전 X",
+                    "zh-CN": "脚旋转X"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Rotate Y",
+                  "type": "float",
+                  "label": "Foot Rotate Y",
+                  "labels": {
+                    "ja": "足の回転Y",
+                    "zh-TW": "腳部旋轉 Y",
+                    "ko": "발 회전 Y",
+                    "zh-CN": "脚旋转Y"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Rotate Z",
+                  "type": "float",
+                  "label": "Foot Rotate Z",
+                  "labels": {
+                    "ja": "足の回転Z",
+                    "zh-TW": "腳部旋轉 Z",
+                    "ko": "발 회전 Z",
+                    "zh-CN": "脚旋转Z"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Toe",
+                  "type": "float",
+                  "label": "Toe",
+                  "labels": {
+                    "ja": "つま先",
+                    "zh-TW": "腳趾",
+                    "ko": "발가락",
+                    "zh-CN": "脚趾"
+                  },
+                  "default": 0,
+                  "min": -180,
+                  "max": 180,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot IK",
+                  "type": "bool",
+                  "label": "Foot IK",
+                  "labels": {
+                    "ja": "足のIK",
+                    "zh-TW": "腳部IK",
+                    "ko": "발 IK",
+                    "zh-CN": "脚IK"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            },
+            {
+              "name": "Right Leg",
+              "type": "group",
+              "label": "Right Leg",
+              "labels": {
+                "ja": "右脚",
+                "zh-TW": "右腿",
+                "ko": "오른쪽 다리",
+                "zh-CN": "右腿"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "Open",
+                  "type": "float",
+                  "label": "Open",
+                  "labels": {
+                    "ja": "開く",
+                    "zh-TW": "張開",
+                    "ko": "열기",
+                    "zh-CN": "张开"
+                  },
+                  "default": 0,
+                  "min": -90,
+                  "max": 90,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot X",
+                  "type": "float",
+                  "label": "Foot X",
+                  "labels": {
+                    "ja": "足のX",
+                    "zh-TW": "脚部 X",
+                    "ko": "발 X",
+                    "zh-CN": "脚X"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Y",
+                  "type": "float",
+                  "label": "Foot Y",
+                  "labels": {
+                    "ja": "足のY",
+                    "zh-TW": "脚部 Y",
+                    "ko": "발 Y",
+                    "zh-CN": "脚Y"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Z",
+                  "type": "float",
+                  "label": "Foot Z",
+                  "labels": {
+                    "ja": "足のZ",
+                    "zh-TW": "脚部 Z",
+                    "ko": "발 Z",
+                    "zh-CN": "脚Z"
+                  },
+                  "default": -0.2,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Rotate X",
+                  "type": "float",
+                  "label": "Foot Rotate X",
+                  "labels": {
+                    "ja": "足の回転X",
+                    "zh-TW": "腳部旋轉 X",
+                    "ko": "발 회전 X",
+                    "zh-CN": "脚旋转X"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Rotate Y",
+                  "type": "float",
+                  "label": "Foot Rotate Y",
+                  "labels": {
+                    "ja": "足の回転Y",
+                    "zh-TW": "腳部旋轉 Y",
+                    "ko": "발 회전 Y",
+                    "zh-CN": "脚旋转Y"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Rotate Z",
+                  "type": "float",
+                  "label": "Foot Rotate Z",
+                  "labels": {
+                    "ja": "足の回転Z",
+                    "zh-TW": "腳部旋轉 Z",
+                    "ko": "발 회전 Z",
+                    "zh-CN": "脚旋转Z"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Toe",
+                  "type": "float",
+                  "label": "Toe",
+                  "labels": {
+                    "ja": "つま先",
+                    "zh-TW": "腳趾",
+                    "ko": "발가락",
+                    "zh-CN": "脚趾"
+                  },
+                  "default": 0,
+                  "min": -180,
+                  "max": 180,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot IK",
+                  "type": "bool",
+                  "label": "Foot IK",
+                  "labels": {
+                    "ja": "足のIK",
+                    "zh-TW": "腳部IK",
+                    "ko": "발 IK",
+                    "zh-CN": "脚IK"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bend Penis",
+      "type": "float",
+      "label": "Bend Penis",
+      "labels": {
+        "ja": "ペニス曲げ",
+        "zh-TW": "彎曲陰莖",
+        "ko": "페니스 구부리기",
+        "zh-CN": "弯曲阴茎"
+      },
+      "default": 0.25,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Female Pose",
+      "type": "group",
+      "label": "Female Pose",
+      "labels": {
+        "ja": "女性ポーズ",
+        "zh-TW": "女性姿態",
+        "ko": "여성 포즈",
+        "zh-CN": "女性姿势"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Reusable actor-pose block for staging a character before motion\r\nlayers are applied. It combines body alignment, hand pose, and\r\nleg pose controls so a procedural system can start from a stable\r\nauthored stance instead of fighting the model's default rest\r\npose.\r\n\r\n\r\n## Body Setup\r\n\r\nWhen the hosting feature enables body controls, **Orientation**,\r\n**Bend X**, **Bend Y**, **Twist**, **Head Rotation**,\r\n**Body Position**, and **Body Rotation** establish the base torso\r\nlayout. Use these for coarse alignment first. Large procedural\r\noffsets layered on top of a bad base pose usually read worse\r\nthan a cleanly staged pose with smaller animated corrections.\r\n\r\n\r\n## Hands\r\n\r\nThe **Hands** block chooses whether hand posing is active and\r\nwhether both sides stay symmetrical. This is useful when you want\r\na quick, mirrored pose for broad staging or an asymmetric pose\r\nthat interacts with a partner or prop more naturally.\r\n\r\n\r\n## Legs\r\n\r\nThe **Legs** block does the same for lower-body posing. Keep the\r\nlegs symmetrical when the feature should feel centered and easy\r\nto retarget; break symmetry when you need weight shift or a more\r\ncharacter-specific stance. Because many motion systems build on\r\nthis pose, small leg edits can have a large downstream effect on\r\nbalance and contact.",
+      "values": [
+        {
+          "name": "Body",
+          "type": "group",
+          "label": "Body",
+          "labels": {
+            "ja": "体",
+            "zh-TW": "身體",
+            "ko": "몸통",
+            "zh-CN": "身体"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Orientation",
+              "type": "float",
+              "label": "Orientation",
+              "labels": {
+                "ja": "向き",
+                "zh-TW": "朝向",
+                "ko": "오리엔테이션",
+                "zh-CN": "朝向"
+              },
+              "default": 0,
+              "min": -180,
+              "max": 180,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Bend X",
+              "type": "float",
+              "label": "Bend X",
+              "labels": {
+                "ja": "X曲げ",
+                "zh-TW": "X彎曲",
+                "ko": "굽힘 X",
+                "zh-CN": "弯曲 X"
+              },
+              "default": 0,
+              "min": -90,
+              "max": 90,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Bend Y",
+              "type": "float",
+              "label": "Bend Y",
+              "labels": {
+                "ja": "Y曲げ",
+                "zh-TW": "Y彎曲",
+                "ko": "굽힘 Y",
+                "zh-CN": "弯曲 Y"
+              },
+              "default": 0,
+              "min": -90,
+              "max": 90,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Twist",
+              "type": "float",
+              "label": "Twist",
+              "labels": {
+                "ja": "ねじれ",
+                "zh-TW": "扭轉",
+                "ko": "비틀림",
+                "zh-CN": "扭曲"
+              },
+              "default": 0,
+              "min": -90,
+              "max": 90,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Head Rotation",
+              "type": "group",
+              "label": "Head Rotation",
+              "labels": {
+                "ja": "(Head Rotation)",
+                "zh-TW": "(Head Rotation)",
+                "ko": "(Head Rotation)",
+                "zh-CN": "(Head Rotation)"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "X",
+                  "type": "float",
+                  "label": "X",
+                  "labels": {
+                    "ja": "(X)",
+                    "zh-TW": "(X)",
+                    "ko": "(X)",
+                    "zh-CN": "(X)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Y",
+                  "type": "float",
+                  "label": "Y",
+                  "labels": {
+                    "ja": "(Y)",
+                    "zh-TW": "(Y)",
+                    "ko": "(Y)",
+                    "zh-CN": "(Y)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Z",
+                  "type": "float",
+                  "label": "Z",
+                  "labels": {
+                    "ja": "(Z)",
+                    "zh-TW": "(Z)",
+                    "ko": "(Z)",
+                    "zh-CN": "(Z)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            },
+            {
+              "name": "Body Position",
+              "type": "group",
+              "label": "Body Position",
+              "labels": {
+                "ja": "ボディの位置",
+                "zh-TW": "身體位置",
+                "ko": "바디 위치",
+                "zh-CN": "身体位置"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "X",
+                  "type": "float",
+                  "label": "X",
+                  "labels": {
+                    "ja": "(X)",
+                    "zh-TW": "(X)",
+                    "ko": "(X)",
+                    "zh-CN": "(X)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Y",
+                  "type": "float",
+                  "label": "Y",
+                  "labels": {
+                    "ja": "(Y)",
+                    "zh-TW": "(Y)",
+                    "ko": "(Y)",
+                    "zh-CN": "(Y)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Z",
+                  "type": "float",
+                  "label": "Z",
+                  "labels": {
+                    "ja": "(Z)",
+                    "zh-TW": "(Z)",
+                    "ko": "(Z)",
+                    "zh-CN": "(Z)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            },
+            {
+              "name": "Body Rotation",
+              "type": "group",
+              "label": "Body Rotation",
+              "labels": {
+                "ja": "ボディの回転",
+                "zh-TW": "身體旋轉",
+                "ko": "바디 회전",
+                "zh-CN": "身体旋转"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "X",
+                  "type": "float",
+                  "label": "X",
+                  "labels": {
+                    "ja": "(X)",
+                    "zh-TW": "(X)",
+                    "ko": "(X)",
+                    "zh-CN": "(X)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Y",
+                  "type": "float",
+                  "label": "Y",
+                  "labels": {
+                    "ja": "(Y)",
+                    "zh-TW": "(Y)",
+                    "ko": "(Y)",
+                    "zh-CN": "(Y)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Z",
+                  "type": "float",
+                  "label": "Z",
+                  "labels": {
+                    "ja": "(Z)",
+                    "zh-TW": "(Z)",
+                    "ko": "(Z)",
+                    "zh-CN": "(Z)"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hands",
+          "type": "group",
+          "label": "Hands",
+          "labels": {
+            "ja": "手",
+            "zh-TW": "手部",
+            "ko": "손",
+            "zh-CN": "手部"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Hands Symmetrical",
+              "type": "bool",
+              "label": "Hands Symmetrical",
+              "labels": {
+                "ja": "両手対称",
+                "zh-TW": "雙手對稱",
+                "ko": "손 대칭",
+                "zh-CN": "手对称"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Left Hand",
+              "type": "group",
+              "label": "Left Hand",
+              "labels": {
+                "ja": "左手",
+                "zh-TW": "左手",
+                "ko": "왼손",
+                "zh-CN": "左手"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "Gesture",
+                  "type": "options",
+                  "label": "Gesture",
+                  "labels": {
+                    "ja": "ジェスチャー",
+                    "zh-TW": "手勢",
+                    "ko": "제스처",
+                    "zh-CN": "手势"
+                  },
+                  "default": "Fist",
+                  "min": 0,
+                  "max": 11,
+                  "options": ["Palm Fingers Apart", "Palm Fingers Together", "Fist", "Victory", "Okay", "Hold", "Vulcan", "Horn", "Point", "Middle Finger", "Thumb Up", "Grab"],
+                  "description": null
+                },
+                {
+                  "name": "Hand Position",
+                  "type": "group",
+                  "label": "Hand Position",
+                  "labels": {
+                    "ja": "手の位置",
+                    "zh-TW": "手部位置",
+                    "ko": "손 위치",
+                    "zh-CN": "手部姿势"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "values": [
+                    {
+                      "name": "X",
+                      "type": "float",
+                      "label": "X",
+                      "labels": {
+                        "ja": "(X)",
+                        "zh-TW": "(X)",
+                        "ko": "(X)",
+                        "zh-CN": "(X)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Y",
+                      "type": "float",
+                      "label": "Y",
+                      "labels": {
+                        "ja": "(Y)",
+                        "zh-TW": "(Y)",
+                        "ko": "(Y)",
+                        "zh-CN": "(Y)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Z",
+                      "type": "float",
+                      "label": "Z",
+                      "labels": {
+                        "ja": "(Z)",
+                        "zh-TW": "(Z)",
+                        "ko": "(Z)",
+                        "zh-CN": "(Z)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Hand Rotation",
+                  "type": "group",
+                  "label": "Hand Rotation",
+                  "labels": {
+                    "ja": "手の回転",
+                    "zh-TW": "手部旋轉",
+                    "ko": "손 회전",
+                    "zh-CN": "手部旋转"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "values": [
+                    {
+                      "name": "X",
+                      "type": "float",
+                      "label": "X",
+                      "labels": {
+                        "ja": "(X)",
+                        "zh-TW": "(X)",
+                        "ko": "(X)",
+                        "zh-CN": "(X)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Y",
+                      "type": "float",
+                      "label": "Y",
+                      "labels": {
+                        "ja": "(Y)",
+                        "zh-TW": "(Y)",
+                        "ko": "(Y)",
+                        "zh-CN": "(Y)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Z",
+                      "type": "float",
+                      "label": "Z",
+                      "labels": {
+                        "ja": "(Z)",
+                        "zh-TW": "(Z)",
+                        "ko": "(Z)",
+                        "zh-CN": "(Z)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Rotation Type",
+                  "type": "int",
+                  "label": "Rotation Type",
+                  "labels": {
+                    "ja": "回転タイプ",
+                    "zh-TW": "旋轉類型",
+                    "ko": "회전 유형",
+                    "zh-CN": "旋转类型"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 3,
+                  "options": ["Relative to Reference Bone", "Relative to Self", "Absolute Rotation", "No Rotation"],
+                  "description": null
+                },
+                {
+                  "name": "Elbow Orientation",
+                  "type": "float",
+                  "label": "Elbow Orientation",
+                  "labels": {
+                    "ja": "肘の向き",
+                    "zh-TW": "肘部方向",
+                    "ko": "팔꿈치 방향",
+                    "zh-CN": "肘部方向"
+                  },
+                  "default": 0,
+                  "min": -180,
+                  "max": 180,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Mirror Left/Right",
+                  "type": "bool",
+                  "label": "Mirror Left/Right",
+                  "labels": {
+                    "ja": "左/右のミラーリング",
+                    "zh-TW": "鏡像左右",
+                    "ko": "좌우 미러링",
+                    "zh-CN": "镜像左/右"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Reference Actor",
+                  "type": "options",
+                  "label": "Reference Actor",
+                  "labels": {
+                    "ja": "参照アクター",
+                    "zh-TW": "參考角色",
+                    "ko": "참조 액터",
+                    "zh-CN": "参考角色"
+                  },
+                  "default": "Self",
+                  "min": 0,
+                  "max": 1,
+                  "options": ["Self", "Partner", "Closest"],
+                  "description": null
+                },
+                {
+                  "name": "Reference Bone",
+                  "type": "options",
+                  "label": "Reference Bone",
+                  "labels": {
+                    "ja": "参照ボーン",
+                    "zh-TW": "參考骨骼",
+                    "ko": "참조 본",
+                    "zh-CN": "参考骨骼"
+                  },
+                  "default": "None",
+                  "min": 0,
+                  "max": 15,
+                  "options": ["None", "Hip", "Chest", "Head", "Center", "Pole", "Upperarm", "Forearm", "Hand", "Leg", "Knee", "Foot", "Belly", "Boobs", "Pussy", "Dick"],
+                  "description": null
+                },
+                {
+                  "name": "Side Selection",
+                  "type": "int",
+                  "label": "Side Selection",
+                  "labels": {
+                    "ja": "側面の選択",
+                    "zh-TW": "側邊選擇",
+                    "ko": "측면 선택",
+                    "zh-CN": "侧面选择"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 2,
+                  "options": ["Auto", "Left", "Right"],
+                  "description": null
+                },
+                {
+                  "name": "IK Mode",
+                  "type": "int",
+                  "label": "IK Mode",
+                  "labels": {
+                    "ja": "IKモード",
+                    "zh-TW": "IK模式",
+                    "ko": "IK 모드",
+                    "zh-CN": "IK模式"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 4,
+                  "options": ["Auto", "Normal", "Cylinder", "Sphere", "Align"],
+                  "description": null
+                },
+                {
+                  "name": "Blend Hand Motion",
+                  "type": "bool",
+                  "label": "Blend Hand Motion",
+                  "labels": {
+                    "ja": "手動のブレンド",
+                    "zh-TW": "手部動作混合",
+                    "ko": "손 동작 블렌딩",
+                    "zh-CN": "混合手部动作"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Blend Range",
+                  "type": "float",
+                  "label": "Blend Range",
+                  "labels": {
+                    "ja": "ブレンド範囲",
+                    "zh-TW": "混合範圍",
+                    "ko": "블렌딩 범위",
+                    "zh-CN": "混合范围"
+                  },
+                  "default": 0.75,
+                  "min": 0,
+                  "max": 2,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Symmetrical Offset",
+                  "type": "float",
+                  "label": "Symmetrical Offset",
+                  "labels": {
+                    "ja": "対称オフセット",
+                    "zh-TW": "對稱偏移",
+                    "ko": "대칭 오프셋",
+                    "zh-CN": "对称偏移"
+                  },
+                  "default": 0,
+                  "min": -1,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Use Accessory Position",
+                  "type": "bool",
+                  "label": "Use Accessory Position",
+                  "labels": {
+                    "ja": "アクセサリーの位置を使用",
+                    "zh-TW": "使用配件位置",
+                    "ko": "액세서리 위치 사용",
+                    "zh-CN": "使用配饰位置"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Motion",
+                  "type": "group",
+                  "label": "Motion",
+                  "labels": {
+                    "ja": "モーション",
+                    "zh-TW": "動作",
+                    "ko": "동작",
+                    "zh-CN": "运动"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": "Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.",
+                  "values": [
+                    {
+                      "name": "Speed",
+                      "type": "group",
+                      "label": "Speed",
+                      "labels": {
+                        "ja": "速度",
+                        "zh-TW": "速度",
+                        "ko": "속도",
+                        "zh-CN": "速度"
+                      },
+                      "default": 0,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "values": [
+                        {
+                          "name": "Moves Per Beat",
+                          "type": "int",
+                          "label": "Moves Per Beat",
+                          "labels": {
+                            "ja": "ビートあたりのムーブ数",
+                            "zh-TW": "每拍次移動次數",
+                            "ko": "비트당 모션 수",
+                            "zh-CN": "每拍运动次数"
+                          },
+                          "default": 4,
+                          "min": 0,
+                          "max": 9,
+                          "options": ["1/4", "1/3", "1/2", "2/3", "1", "4/3", "3/2", "2", "3", "4"],
+                          "description": null
+                        },
+                        {
+                          "name": "Moves Per Group",
+                          "type": "int",
+                          "label": "Moves Per Group",
+                          "labels": {
+                            "ja": "グループあたりのムーブ数",
+                            "zh-TW": "每組移動次數",
+                            "ko": "그룹당 모션 수",
+                            "zh-CN": "每组运动次数"
+                          },
+                          "default": 8,
+                          "min": 4,
+                          "max": 32,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Phase",
+                          "type": "float",
+                          "label": "Phase",
+                          "labels": {
+                            "ja": "位相",
+                            "zh-TW": "相位",
+                            "ko": "위상",
+                            "zh-CN": "相位"
+                          },
+                          "default": 0,
+                          "min": 0,
+                          "max": 1,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Curve",
+                          "type": "float",
+                          "label": "Curve",
+                          "labels": {
+                            "ja": "カーブ",
+                            "zh-TW": "曲線",
+                            "ko": "커브",
+                            "zh-CN": "曲线"
+                          },
+                          "default": 0,
+                          "min": 0,
+                          "max": 1,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Variable Speed",
+                          "type": "bool",
+                          "label": "Variable Speed",
+                          "labels": {
+                            "ja": "可変速度",
+                            "zh-TW": "可變速度",
+                            "ko": "가변 속도",
+                            "zh-CN": "可变速度"
+                          },
+                          "default": "false",
+                          "min": 0,
+                          "max": 1,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Mode",
+                          "type": "int",
+                          "label": "Mode",
+                          "labels": {
+                            "ja": "モード",
+                            "zh-TW": "模式",
+                            "ko": "모드",
+                            "zh-CN": "模式"
+                          },
+                          "default": 0,
+                          "min": 0,
+                          "max": 2,
+                          "options": ["Gradual", "Random", "Volume"],
+                          "description": null
+                        },
+                        {
+                          "name": "Min Speed",
+                          "type": "int",
+                          "label": "Min Speed",
+                          "labels": {
+                            "ja": "最小速度",
+                            "zh-TW": "最小速度",
+                            "ko": "최소 속도",
+                            "zh-CN": "最小速度"
+                          },
+                          "default": 2,
+                          "min": 0,
+                          "max": 4,
+                          "options": ["1/4", "1/3", "1/2", "2/3", "1"],
+                          "description": null
+                        },
+                        {
+                          "name": "Max Speed",
+                          "type": "int",
+                          "label": "Max Speed",
+                          "labels": {
+                            "ja": "最大速度",
+                            "zh-TW": "最大速度",
+                            "ko": "최대 속도",
+                            "zh-CN": "最大速度"
+                          },
+                          "default": 1,
+                          "min": 0,
+                          "max": 4,
+                          "options": ["1", "3/2", "2", "3", "4"],
+                          "description": null
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Distance",
+                      "type": "float",
+                      "label": "Distance",
+                      "labels": {
+                        "ja": "距離",
+                        "zh-TW": "距離",
+                        "ko": "거리",
+                        "zh-CN": "距离"
+                      },
+                      "default": 0.1,
+                      "min": 0,
+                      "max": 0.3,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Angle",
+                      "type": "float",
+                      "label": "Angle",
+                      "labels": {
+                        "ja": "角度",
+                        "zh-TW": "角度",
+                        "ko": "각도",
+                        "zh-CN": "角度"
+                      },
+                      "default": 0,
+                      "min": -60,
+                      "max": 60,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Custom Pose",
+                  "type": "group",
+                  "label": "Custom Pose",
+                  "labels": {
+                    "ja": "カスタムポーズ",
+                    "zh-TW": "自定義姿態",
+                    "ko": "커스텀 포즈",
+                    "zh-CN": "自定义姿势"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "values": [
+                    {
+                      "name": "Open",
+                      "type": "float",
+                      "label": "Open",
+                      "labels": {
+                        "ja": "開く",
+                        "zh-TW": "張開",
+                        "ko": "열기",
+                        "zh-CN": "张开"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Thumb Fold",
+                      "type": "float",
+                      "label": "Thumb Fold",
+                      "labels": {
+                        "ja": "親指の折り曲げ",
+                        "zh-TW": "拇指彎曲",
+                        "ko": "엄지 접기",
+                        "zh-CN": "拇指弯折"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Thumb Bend",
+                      "type": "float",
+                      "label": "Thumb Bend",
+                      "labels": {
+                        "ja": "親指の屈曲",
+                        "zh-TW": "拇指彎曲",
+                        "ko": "엄지 구부림",
+                        "zh-CN": "拇指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Index Bend",
+                      "type": "float",
+                      "label": "Index Bend",
+                      "labels": {
+                        "ja": "人差し指の屈曲",
+                        "zh-TW": "食指彎曲",
+                        "ko": "검지 구부림",
+                        "zh-CN": "食指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Middle Bend",
+                      "type": "float",
+                      "label": "Middle Bend",
+                      "labels": {
+                        "ja": "中指の屈曲",
+                        "zh-TW": "中指彎曲",
+                        "ko": "중지 구부림",
+                        "zh-CN": "中指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Ring Bend",
+                      "type": "float",
+                      "label": "Ring Bend",
+                      "labels": {
+                        "ja": "薬指の屈曲",
+                        "zh-TW": "無名指彎曲",
+                        "ko": "약지 구부림",
+                        "zh-CN": "无名指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Pinky Bend",
+                      "type": "float",
+                      "label": "Pinky Bend",
+                      "labels": {
+                        "ja": "小指の屈曲",
+                        "zh-TW": "小指彎曲",
+                        "ko": "새끼손가락 구부림",
+                        "zh-CN": "小指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Propagate",
+                      "type": "float",
+                      "label": "Propagate",
+                      "labels": {
+                        "ja": "伝播",
+                        "zh-TW": "傳播",
+                        "ko": "전파",
+                        "zh-CN": "传播"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Blend",
+                      "type": "float",
+                      "label": "Blend",
+                      "labels": {
+                        "ja": "ブレンド",
+                        "zh-TW": "混合",
+                        "ko": "블렌드",
+                        "zh-CN": "混合"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Pose Weight",
+                  "type": "float",
+                  "label": "Pose Weight",
+                  "labels": {
+                    "ja": "ポーズの重み",
+                    "zh-TW": "姿態權重",
+                    "ko": "포즈 가중치",
+                    "zh-CN": "姿势权重"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Grab Distance",
+                  "type": "float",
+                  "label": "Grab Distance",
+                  "labels": {
+                    "ja": "グリップ距離",
+                    "zh-TW": "抓取距離",
+                    "ko": "잡는 거리",
+                    "zh-CN": "抓取距离"
+                  },
+                  "default": 0.015,
+                  "min": -0.1,
+                  "max": 0.1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Grab Position",
+                  "type": "float",
+                  "label": "Grab Position",
+                  "labels": {
+                    "ja": "グリップ位置",
+                    "zh-TW": "抓取位置",
+                    "ko": "잡는 위치",
+                    "zh-CN": "抓取位置"
+                  },
+                  "default": -0.05,
+                  "min": -0.1,
+                  "max": 0.1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Grab Axis",
+                  "type": "float",
+                  "label": "Grab Axis",
+                  "labels": {
+                    "ja": "(Grab Axis)",
+                    "zh-TW": "(Grab Axis)",
+                    "ko": "(Grab Axis)",
+                    "zh-CN": "(Grab Axis)"
+                  },
+                  "default": 0,
+                  "min": -180,
+                  "max": 180,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            },
+            {
+              "name": "Right Hand",
+              "type": "group",
+              "label": "Right Hand",
+              "labels": {
+                "ja": "右手",
+                "zh-TW": "右手",
+                "ko": "오른손",
+                "zh-CN": "右手"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "Gesture",
+                  "type": "options",
+                  "label": "Gesture",
+                  "labels": {
+                    "ja": "ジェスチャー",
+                    "zh-TW": "手勢",
+                    "ko": "제스처",
+                    "zh-CN": "手势"
+                  },
+                  "default": "Fist",
+                  "min": 0,
+                  "max": 11,
+                  "options": ["Palm Fingers Apart", "Palm Fingers Together", "Fist", "Victory", "Okay", "Hold", "Vulcan", "Horn", "Point", "Middle Finger", "Thumb Up", "Grab"],
+                  "description": null
+                },
+                {
+                  "name": "Hand Position",
+                  "type": "group",
+                  "label": "Hand Position",
+                  "labels": {
+                    "ja": "手の位置",
+                    "zh-TW": "手部位置",
+                    "ko": "손 위치",
+                    "zh-CN": "手部姿势"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "values": [
+                    {
+                      "name": "X",
+                      "type": "float",
+                      "label": "X",
+                      "labels": {
+                        "ja": "(X)",
+                        "zh-TW": "(X)",
+                        "ko": "(X)",
+                        "zh-CN": "(X)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Y",
+                      "type": "float",
+                      "label": "Y",
+                      "labels": {
+                        "ja": "(Y)",
+                        "zh-TW": "(Y)",
+                        "ko": "(Y)",
+                        "zh-CN": "(Y)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Z",
+                      "type": "float",
+                      "label": "Z",
+                      "labels": {
+                        "ja": "(Z)",
+                        "zh-TW": "(Z)",
+                        "ko": "(Z)",
+                        "zh-CN": "(Z)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Hand Rotation",
+                  "type": "group",
+                  "label": "Hand Rotation",
+                  "labels": {
+                    "ja": "手の回転",
+                    "zh-TW": "手部旋轉",
+                    "ko": "손 회전",
+                    "zh-CN": "手部旋转"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "values": [
+                    {
+                      "name": "X",
+                      "type": "float",
+                      "label": "X",
+                      "labels": {
+                        "ja": "(X)",
+                        "zh-TW": "(X)",
+                        "ko": "(X)",
+                        "zh-CN": "(X)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Y",
+                      "type": "float",
+                      "label": "Y",
+                      "labels": {
+                        "ja": "(Y)",
+                        "zh-TW": "(Y)",
+                        "ko": "(Y)",
+                        "zh-CN": "(Y)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Z",
+                      "type": "float",
+                      "label": "Z",
+                      "labels": {
+                        "ja": "(Z)",
+                        "zh-TW": "(Z)",
+                        "ko": "(Z)",
+                        "zh-CN": "(Z)"
+                      },
+                      "default": 0,
+                      "min": null,
+                      "max": null,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Rotation Type",
+                  "type": "int",
+                  "label": "Rotation Type",
+                  "labels": {
+                    "ja": "回転タイプ",
+                    "zh-TW": "旋轉類型",
+                    "ko": "회전 유형",
+                    "zh-CN": "旋转类型"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 3,
+                  "options": ["Relative to Reference Bone", "Relative to Self", "Absolute Rotation", "No Rotation"],
+                  "description": null
+                },
+                {
+                  "name": "Elbow Orientation",
+                  "type": "float",
+                  "label": "Elbow Orientation",
+                  "labels": {
+                    "ja": "肘の向き",
+                    "zh-TW": "肘部方向",
+                    "ko": "팔꿈치 방향",
+                    "zh-CN": "肘部方向"
+                  },
+                  "default": 0,
+                  "min": -180,
+                  "max": 180,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Mirror Left/Right",
+                  "type": "bool",
+                  "label": "Mirror Left/Right",
+                  "labels": {
+                    "ja": "左/右のミラーリング",
+                    "zh-TW": "鏡像左右",
+                    "ko": "좌우 미러링",
+                    "zh-CN": "镜像左/右"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Reference Actor",
+                  "type": "options",
+                  "label": "Reference Actor",
+                  "labels": {
+                    "ja": "参照アクター",
+                    "zh-TW": "參考角色",
+                    "ko": "참조 액터",
+                    "zh-CN": "参考角色"
+                  },
+                  "default": "Self",
+                  "min": 0,
+                  "max": 1,
+                  "options": ["Self", "Partner", "Closest"],
+                  "description": null
+                },
+                {
+                  "name": "Reference Bone",
+                  "type": "options",
+                  "label": "Reference Bone",
+                  "labels": {
+                    "ja": "参照ボーン",
+                    "zh-TW": "參考骨骼",
+                    "ko": "참조 본",
+                    "zh-CN": "参考骨骼"
+                  },
+                  "default": "None",
+                  "min": 0,
+                  "max": 15,
+                  "options": ["None", "Hip", "Chest", "Head", "Center", "Pole", "Upperarm", "Forearm", "Hand", "Leg", "Knee", "Foot", "Belly", "Boobs", "Pussy", "Dick"],
+                  "description": null
+                },
+                {
+                  "name": "Side Selection",
+                  "type": "int",
+                  "label": "Side Selection",
+                  "labels": {
+                    "ja": "側面の選択",
+                    "zh-TW": "側邊選擇",
+                    "ko": "측면 선택",
+                    "zh-CN": "侧面选择"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 2,
+                  "options": ["Auto", "Left", "Right"],
+                  "description": null
+                },
+                {
+                  "name": "IK Mode",
+                  "type": "int",
+                  "label": "IK Mode",
+                  "labels": {
+                    "ja": "IKモード",
+                    "zh-TW": "IK模式",
+                    "ko": "IK 모드",
+                    "zh-CN": "IK模式"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 4,
+                  "options": ["Auto", "Normal", "Cylinder", "Sphere", "Align"],
+                  "description": null
+                },
+                {
+                  "name": "Blend Hand Motion",
+                  "type": "bool",
+                  "label": "Blend Hand Motion",
+                  "labels": {
+                    "ja": "手動のブレンド",
+                    "zh-TW": "手部動作混合",
+                    "ko": "손 동작 블렌딩",
+                    "zh-CN": "混合手部动作"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Blend Range",
+                  "type": "float",
+                  "label": "Blend Range",
+                  "labels": {
+                    "ja": "ブレンド範囲",
+                    "zh-TW": "混合範圍",
+                    "ko": "블렌딩 범위",
+                    "zh-CN": "混合范围"
+                  },
+                  "default": 0.75,
+                  "min": 0,
+                  "max": 2,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Symmetrical Offset",
+                  "type": "float",
+                  "label": "Symmetrical Offset",
+                  "labels": {
+                    "ja": "対称オフセット",
+                    "zh-TW": "對稱偏移",
+                    "ko": "대칭 오프셋",
+                    "zh-CN": "对称偏移"
+                  },
+                  "default": 0,
+                  "min": -1,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Use Accessory Position",
+                  "type": "bool",
+                  "label": "Use Accessory Position",
+                  "labels": {
+                    "ja": "アクセサリーの位置を使用",
+                    "zh-TW": "使用配件位置",
+                    "ko": "액세서리 위치 사용",
+                    "zh-CN": "使用配饰位置"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Motion",
+                  "type": "group",
+                  "label": "Motion",
+                  "labels": {
+                    "ja": "モーション",
+                    "zh-TW": "動作",
+                    "ko": "동작",
+                    "zh-CN": "运动"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": "Drives rhythmic up/down oscillation on an attachment prop, synced to\r\nthe music beat. The toggle enables motion; **Distance** sets the\r\ntravel range; **Angle** controls the tilt at peak extension.\r\nThe nested speed config defines the beat curve and timing pattern.",
+                  "values": [
+                    {
+                      "name": "Speed",
+                      "type": "group",
+                      "label": "Speed",
+                      "labels": {
+                        "ja": "速度",
+                        "zh-TW": "速度",
+                        "ko": "속도",
+                        "zh-CN": "速度"
+                      },
+                      "default": 0,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "values": [
+                        {
+                          "name": "Moves Per Beat",
+                          "type": "int",
+                          "label": "Moves Per Beat",
+                          "labels": {
+                            "ja": "ビートあたりのムーブ数",
+                            "zh-TW": "每拍次移動次數",
+                            "ko": "비트당 모션 수",
+                            "zh-CN": "每拍运动次数"
+                          },
+                          "default": 4,
+                          "min": 0,
+                          "max": 9,
+                          "options": ["1/4", "1/3", "1/2", "2/3", "1", "4/3", "3/2", "2", "3", "4"],
+                          "description": null
+                        },
+                        {
+                          "name": "Moves Per Group",
+                          "type": "int",
+                          "label": "Moves Per Group",
+                          "labels": {
+                            "ja": "グループあたりのムーブ数",
+                            "zh-TW": "每組移動次數",
+                            "ko": "그룹당 모션 수",
+                            "zh-CN": "每组运动次数"
+                          },
+                          "default": 8,
+                          "min": 4,
+                          "max": 32,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Phase",
+                          "type": "float",
+                          "label": "Phase",
+                          "labels": {
+                            "ja": "位相",
+                            "zh-TW": "相位",
+                            "ko": "위상",
+                            "zh-CN": "相位"
+                          },
+                          "default": 0,
+                          "min": 0,
+                          "max": 1,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Curve",
+                          "type": "float",
+                          "label": "Curve",
+                          "labels": {
+                            "ja": "カーブ",
+                            "zh-TW": "曲線",
+                            "ko": "커브",
+                            "zh-CN": "曲线"
+                          },
+                          "default": 0,
+                          "min": 0,
+                          "max": 1,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Variable Speed",
+                          "type": "bool",
+                          "label": "Variable Speed",
+                          "labels": {
+                            "ja": "可変速度",
+                            "zh-TW": "可變速度",
+                            "ko": "가변 속도",
+                            "zh-CN": "可变速度"
+                          },
+                          "default": "false",
+                          "min": 0,
+                          "max": 1,
+                          "options": null,
+                          "description": null
+                        },
+                        {
+                          "name": "Mode",
+                          "type": "int",
+                          "label": "Mode",
+                          "labels": {
+                            "ja": "モード",
+                            "zh-TW": "模式",
+                            "ko": "모드",
+                            "zh-CN": "模式"
+                          },
+                          "default": 0,
+                          "min": 0,
+                          "max": 2,
+                          "options": ["Gradual", "Random", "Volume"],
+                          "description": null
+                        },
+                        {
+                          "name": "Min Speed",
+                          "type": "int",
+                          "label": "Min Speed",
+                          "labels": {
+                            "ja": "最小速度",
+                            "zh-TW": "最小速度",
+                            "ko": "최소 속도",
+                            "zh-CN": "最小速度"
+                          },
+                          "default": 2,
+                          "min": 0,
+                          "max": 4,
+                          "options": ["1/4", "1/3", "1/2", "2/3", "1"],
+                          "description": null
+                        },
+                        {
+                          "name": "Max Speed",
+                          "type": "int",
+                          "label": "Max Speed",
+                          "labels": {
+                            "ja": "最大速度",
+                            "zh-TW": "最大速度",
+                            "ko": "최대 속도",
+                            "zh-CN": "最大速度"
+                          },
+                          "default": 1,
+                          "min": 0,
+                          "max": 4,
+                          "options": ["1", "3/2", "2", "3", "4"],
+                          "description": null
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Distance",
+                      "type": "float",
+                      "label": "Distance",
+                      "labels": {
+                        "ja": "距離",
+                        "zh-TW": "距離",
+                        "ko": "거리",
+                        "zh-CN": "距离"
+                      },
+                      "default": 0.1,
+                      "min": 0,
+                      "max": 0.3,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Angle",
+                      "type": "float",
+                      "label": "Angle",
+                      "labels": {
+                        "ja": "角度",
+                        "zh-TW": "角度",
+                        "ko": "각도",
+                        "zh-CN": "角度"
+                      },
+                      "default": 0,
+                      "min": -60,
+                      "max": 60,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Custom Pose",
+                  "type": "group",
+                  "label": "Custom Pose",
+                  "labels": {
+                    "ja": "カスタムポーズ",
+                    "zh-TW": "自定義姿態",
+                    "ko": "커스텀 포즈",
+                    "zh-CN": "自定义姿势"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "values": [
+                    {
+                      "name": "Open",
+                      "type": "float",
+                      "label": "Open",
+                      "labels": {
+                        "ja": "開く",
+                        "zh-TW": "張開",
+                        "ko": "열기",
+                        "zh-CN": "张开"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Thumb Fold",
+                      "type": "float",
+                      "label": "Thumb Fold",
+                      "labels": {
+                        "ja": "親指の折り曲げ",
+                        "zh-TW": "拇指彎曲",
+                        "ko": "엄지 접기",
+                        "zh-CN": "拇指弯折"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Thumb Bend",
+                      "type": "float",
+                      "label": "Thumb Bend",
+                      "labels": {
+                        "ja": "親指の屈曲",
+                        "zh-TW": "拇指彎曲",
+                        "ko": "엄지 구부림",
+                        "zh-CN": "拇指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Index Bend",
+                      "type": "float",
+                      "label": "Index Bend",
+                      "labels": {
+                        "ja": "人差し指の屈曲",
+                        "zh-TW": "食指彎曲",
+                        "ko": "검지 구부림",
+                        "zh-CN": "食指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Middle Bend",
+                      "type": "float",
+                      "label": "Middle Bend",
+                      "labels": {
+                        "ja": "中指の屈曲",
+                        "zh-TW": "中指彎曲",
+                        "ko": "중지 구부림",
+                        "zh-CN": "中指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Ring Bend",
+                      "type": "float",
+                      "label": "Ring Bend",
+                      "labels": {
+                        "ja": "薬指の屈曲",
+                        "zh-TW": "無名指彎曲",
+                        "ko": "약지 구부림",
+                        "zh-CN": "无名指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Pinky Bend",
+                      "type": "float",
+                      "label": "Pinky Bend",
+                      "labels": {
+                        "ja": "小指の屈曲",
+                        "zh-TW": "小指彎曲",
+                        "ko": "새끼손가락 구부림",
+                        "zh-CN": "小指弯曲"
+                      },
+                      "default": 0,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Propagate",
+                      "type": "float",
+                      "label": "Propagate",
+                      "labels": {
+                        "ja": "伝播",
+                        "zh-TW": "傳播",
+                        "ko": "전파",
+                        "zh-CN": "传播"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    },
+                    {
+                      "name": "Blend",
+                      "type": "float",
+                      "label": "Blend",
+                      "labels": {
+                        "ja": "ブレンド",
+                        "zh-TW": "混合",
+                        "ko": "블렌드",
+                        "zh-CN": "混合"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null
+                    }
+                  ]
+                },
+                {
+                  "name": "Pose Weight",
+                  "type": "float",
+                  "label": "Pose Weight",
+                  "labels": {
+                    "ja": "ポーズの重み",
+                    "zh-TW": "姿態權重",
+                    "ko": "포즈 가중치",
+                    "zh-CN": "姿势权重"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Grab Distance",
+                  "type": "float",
+                  "label": "Grab Distance",
+                  "labels": {
+                    "ja": "グリップ距離",
+                    "zh-TW": "抓取距離",
+                    "ko": "잡는 거리",
+                    "zh-CN": "抓取距离"
+                  },
+                  "default": 0.015,
+                  "min": -0.1,
+                  "max": 0.1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Grab Position",
+                  "type": "float",
+                  "label": "Grab Position",
+                  "labels": {
+                    "ja": "グリップ位置",
+                    "zh-TW": "抓取位置",
+                    "ko": "잡는 위치",
+                    "zh-CN": "抓取位置"
+                  },
+                  "default": -0.05,
+                  "min": -0.1,
+                  "max": 0.1,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Grab Axis",
+                  "type": "float",
+                  "label": "Grab Axis",
+                  "labels": {
+                    "ja": "(Grab Axis)",
+                    "zh-TW": "(Grab Axis)",
+                    "ko": "(Grab Axis)",
+                    "zh-CN": "(Grab Axis)"
+                  },
+                  "default": 0,
+                  "min": -180,
+                  "max": 180,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Legs",
+          "type": "group",
+          "label": "Legs",
+          "labels": {
+            "ja": "脚",
+            "zh-TW": "腿部",
+            "ko": "다리",
+            "zh-CN": "腿部"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Legs Symmetrical",
+              "type": "bool",
+              "label": "Legs Symmetrical",
+              "labels": {
+                "ja": "対称的な脚",
+                "zh-TW": "雙腿對稱",
+                "ko": "좌우 대칭 다리",
+                "zh-CN": "双腿对称"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Left Leg",
+              "type": "group",
+              "label": "Left Leg",
+              "labels": {
+                "ja": "左脚",
+                "zh-TW": "左腿",
+                "ko": "왼쪽 다리",
+                "zh-CN": "左腿"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "Open",
+                  "type": "float",
+                  "label": "Open",
+                  "labels": {
+                    "ja": "開く",
+                    "zh-TW": "張開",
+                    "ko": "열기",
+                    "zh-CN": "张开"
+                  },
+                  "default": 0,
+                  "min": -90,
+                  "max": 90,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot X",
+                  "type": "float",
+                  "label": "Foot X",
+                  "labels": {
+                    "ja": "足のX",
+                    "zh-TW": "脚部 X",
+                    "ko": "발 X",
+                    "zh-CN": "脚X"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Y",
+                  "type": "float",
+                  "label": "Foot Y",
+                  "labels": {
+                    "ja": "足のY",
+                    "zh-TW": "脚部 Y",
+                    "ko": "발 Y",
+                    "zh-CN": "脚Y"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Z",
+                  "type": "float",
+                  "label": "Foot Z",
+                  "labels": {
+                    "ja": "足のZ",
+                    "zh-TW": "脚部 Z",
+                    "ko": "발 Z",
+                    "zh-CN": "脚Z"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Rotate X",
+                  "type": "float",
+                  "label": "Foot Rotate X",
+                  "labels": {
+                    "ja": "足の回転X",
+                    "zh-TW": "腳部旋轉 X",
+                    "ko": "발 회전 X",
+                    "zh-CN": "脚旋转X"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Rotate Y",
+                  "type": "float",
+                  "label": "Foot Rotate Y",
+                  "labels": {
+                    "ja": "足の回転Y",
+                    "zh-TW": "腳部旋轉 Y",
+                    "ko": "발 회전 Y",
+                    "zh-CN": "脚旋转Y"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Rotate Z",
+                  "type": "float",
+                  "label": "Foot Rotate Z",
+                  "labels": {
+                    "ja": "足の回転Z",
+                    "zh-TW": "腳部旋轉 Z",
+                    "ko": "발 회전 Z",
+                    "zh-CN": "脚旋转Z"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Toe",
+                  "type": "float",
+                  "label": "Toe",
+                  "labels": {
+                    "ja": "つま先",
+                    "zh-TW": "腳趾",
+                    "ko": "발가락",
+                    "zh-CN": "脚趾"
+                  },
+                  "default": 0,
+                  "min": -180,
+                  "max": 180,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot IK",
+                  "type": "bool",
+                  "label": "Foot IK",
+                  "labels": {
+                    "ja": "足のIK",
+                    "zh-TW": "腳部IK",
+                    "ko": "발 IK",
+                    "zh-CN": "脚IK"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            },
+            {
+              "name": "Right Leg",
+              "type": "group",
+              "label": "Right Leg",
+              "labels": {
+                "ja": "右脚",
+                "zh-TW": "右腿",
+                "ko": "오른쪽 다리",
+                "zh-CN": "右腿"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "values": [
+                {
+                  "name": "Open",
+                  "type": "float",
+                  "label": "Open",
+                  "labels": {
+                    "ja": "開く",
+                    "zh-TW": "張開",
+                    "ko": "열기",
+                    "zh-CN": "张开"
+                  },
+                  "default": 0,
+                  "min": -90,
+                  "max": 90,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot X",
+                  "type": "float",
+                  "label": "Foot X",
+                  "labels": {
+                    "ja": "足のX",
+                    "zh-TW": "脚部 X",
+                    "ko": "발 X",
+                    "zh-CN": "脚X"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Y",
+                  "type": "float",
+                  "label": "Foot Y",
+                  "labels": {
+                    "ja": "足のY",
+                    "zh-TW": "脚部 Y",
+                    "ko": "발 Y",
+                    "zh-CN": "脚Y"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Z",
+                  "type": "float",
+                  "label": "Foot Z",
+                  "labels": {
+                    "ja": "足のZ",
+                    "zh-TW": "脚部 Z",
+                    "ko": "발 Z",
+                    "zh-CN": "脚Z"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Rotate X",
+                  "type": "float",
+                  "label": "Foot Rotate X",
+                  "labels": {
+                    "ja": "足の回転X",
+                    "zh-TW": "腳部旋轉 X",
+                    "ko": "발 회전 X",
+                    "zh-CN": "脚旋转X"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Rotate Y",
+                  "type": "float",
+                  "label": "Foot Rotate Y",
+                  "labels": {
+                    "ja": "足の回転Y",
+                    "zh-TW": "腳部旋轉 Y",
+                    "ko": "발 회전 Y",
+                    "zh-CN": "脚旋转Y"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot Rotate Z",
+                  "type": "float",
+                  "label": "Foot Rotate Z",
+                  "labels": {
+                    "ja": "足の回転Z",
+                    "zh-TW": "腳部旋轉 Z",
+                    "ko": "발 회전 Z",
+                    "zh-CN": "脚旋转Z"
+                  },
+                  "default": 0,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Toe",
+                  "type": "float",
+                  "label": "Toe",
+                  "labels": {
+                    "ja": "つま先",
+                    "zh-TW": "腳趾",
+                    "ko": "발가락",
+                    "zh-CN": "脚趾"
+                  },
+                  "default": 0,
+                  "min": -180,
+                  "max": 180,
+                  "options": null,
+                  "description": null
+                },
+                {
+                  "name": "Foot IK",
+                  "type": "bool",
+                  "label": "Foot IK",
+                  "labels": {
+                    "ja": "足のIK",
+                    "zh-TW": "腳部IK",
+                    "ko": "발 IK",
+                    "zh-CN": "脚IK"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pussy Up / Down",
+      "type": "float",
+      "label": "Pussy Up / Down",
+      "labels": {
+        "ja": "プッシアップ/ダウン",
+        "zh-TW": "陰部 上/下",
+        "ko": "상/하 움직임",
+        "zh-CN": "阴部上下"
+      },
+      "default": 0,
+      "min": -0.1,
+      "max": 0.1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Pussy Front / Back",
+      "type": "float",
+      "label": "Pussy Front / Back",
+      "labels": {
+        "ja": "プッシフロント/バック",
+        "zh-TW": "陰部 前/後",
+        "ko": "전방/후방 움직임",
+        "zh-CN": "阴部前后"
+      },
+      "default": 0,
+      "min": -0.1,
+      "max": 0.1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Pussy Angle",
+      "type": "float",
+      "label": "Pussy Angle",
+      "labels": {
+        "ja": "(Pussy Angle)",
+        "zh-TW": "(Pussy Angle)",
+        "ko": "(Pussy Angle)",
+        "zh-CN": "(Pussy Angle)"
+      },
+      "default": 0,
+      "min": -45,
+      "max": 45,
+      "options": null,
+      "description": null
+    }
+  ]
+}

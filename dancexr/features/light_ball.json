@@ -1,0 +1,564 @@
+{
+  "name": "Light Ball",
+  "docPath": "features/light_ball",
+  "label": "Light Ball",
+  "labels": {
+    "ja": "ライトボール",
+    "zh-TW": "光球",
+    "ko": "빛 공",
+    "zh-CN": "光球"
+  },
+  "description": "Spawns physics-driven glowing orbs attached to actor bones.\r\n**Shape** selects Ball, Diamond, or Crystal mesh. **Size**\r\nscales the orbs. Toggle attachment points: **Hands**,\r\n**Hip**, and **Torso**.\r\n\r\nThe **Style** panel controls appearance with presets\r\n(Glow, Reflective, Crystal), color, gloss, glow, metallic,\r\nintensity, refraction, shadow, and trail. Use **Stage\r\nColor** to sync with scene lighting or **Flashing With\r\nBeats** for audio-reactive pulsing.\r\n\r\nThe **Physics** panel configures spring joint behavior with\r\npresets (Spring, Hanging, Floating), gravity, collision,\r\nmass, distance, spring force, damping, and speed limits.",
+  "values": [
+    {
+      "name": "Shape",
+      "type": "int",
+      "label": "Shape",
+      "labels": {
+        "ja": "シェイプ",
+        "zh-TW": "形狀",
+        "ko": "모양",
+        "zh-CN": "形状"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 2,
+      "options": ["Ball", "Diamond", "Crystal"],
+      "description": null
+    },
+    {
+      "name": "Size",
+      "type": "float",
+      "label": "Size",
+      "labels": {
+        "ja": "サイズ",
+        "zh-TW": "尺寸",
+        "ko": "크기",
+        "zh-CN": "大小"
+      },
+      "default": 1,
+      "min": 0.1,
+      "max": 10,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Style",
+      "type": "group",
+      "label": "Style",
+      "labels": {
+        "ja": "スタイル",
+        "zh-TW": "風格",
+        "ko": "스타일",
+        "zh-CN": "风格"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Nested config for light ball appearance. Presets: **Glow**\r\n(emissive), **Reflective** (metallic), **Crystal**\r\n(refractive). **Use Stage Color** syncs with scene\r\nlighting. **Flashing With Beats** pulses intensity to\r\naudio. Controls **Color**, **Gloss**, **Glow**, **Radius**,\r\n**Metallic**, **Intensity**, **Refraction**, **Cast\r\nShadow**, and **Trail** length.",
+      "values": [
+        {
+          "name": "Use Stage Color",
+          "type": "bool",
+          "label": "Use Stage Color",
+          "labels": {
+            "ja": "ステージの色を使用",
+            "zh-TW": "使用舞台顏色",
+            "ko": "무대 색상 사용",
+            "zh-CN": "使用舞台颜色"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Flashing With Beats",
+          "type": "bool",
+          "label": "Flashing With Beats",
+          "labels": {
+            "ja": "ビートに合わせた点滅",
+            "zh-TW": "隨著節奏閃爍",
+            "ko": "비트와 함께 깜빡임",
+            "zh-CN": "随节拍闪烁"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Color",
+          "type": "group",
+          "label": "Color",
+          "labels": {
+            "ja": "色",
+            "zh-TW": "顏色",
+            "ko": "색상",
+            "zh-CN": "颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null
+            },
+            {
+              "name": "Glow",
+              "type": "float",
+              "label": "Glow",
+              "labels": {
+                "ja": "グロー",
+                "zh-TW": "發光",
+                "ko": "발광",
+                "zh-CN": "发光"
+              },
+              "default": 2,
+              "min": 0,
+              "max": 5,
+              "options": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "name": "Gloss",
+          "type": "float",
+          "label": "Gloss",
+          "labels": {
+            "ja": "光沢度",
+            "zh-TW": "光澤度",
+            "ko": "광택",
+            "zh-CN": "光泽度"
+          },
+          "default": 0.95,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Intensity",
+          "type": "float",
+          "label": "Intensity",
+          "labels": {
+            "ja": "強度",
+            "zh-TW": "強度",
+            "ko": "강도",
+            "zh-CN": "强度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 100,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Glow",
+          "type": "float",
+          "label": "Glow",
+          "labels": {
+            "ja": "グロー",
+            "zh-TW": "發光",
+            "ko": "발광",
+            "zh-CN": "发光"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Radius",
+          "type": "float",
+          "label": "Radius",
+          "labels": {
+            "ja": "半径",
+            "zh-TW": "半徑",
+            "ko": "반지름",
+            "zh-CN": "半径"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Metallic",
+          "type": "float",
+          "label": "Metallic",
+          "labels": {
+            "ja": "メタリック",
+            "zh-TW": "金屬感",
+            "ko": "금속성",
+            "zh-CN": "金属度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Refraction",
+          "type": "float",
+          "label": "Refraction",
+          "labels": {
+            "ja": "屈折",
+            "zh-TW": "折射率",
+            "ko": "굴절",
+            "zh-CN": "折射"
+          },
+          "default": 0.5,
+          "min": -2,
+          "max": 2,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Cast Shadow",
+          "type": "bool",
+          "label": "Cast Shadow",
+          "labels": {
+            "ja": "影を投射",
+            "zh-TW": "投射陰影",
+            "ko": "그림자 드리우기",
+            "zh-CN": "投射阴影"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Trail",
+          "type": "float",
+          "label": "Trail",
+          "labels": {
+            "ja": "トレイル",
+            "zh-TW": "尾跡",
+            "ko": "트레일",
+            "zh-CN": "尾迹"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Physics",
+      "type": "group",
+      "label": "Physics",
+      "labels": {
+        "ja": "物理",
+        "zh-TW": "物理",
+        "ko": "물리",
+        "zh-CN": "物理"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Nested config for light ball physics behavior. Presets:\r\n**Spring** (no gravity/collision), **Hanging** (gravity +\r\ncollision), **Floating** (no gravity/collision). **Gravity**\r\nenables downward force. **Collision** enables physics\r\ncollisions. **Mass**, **Distance**, **Spring Force**, and\r\n**Damping** configure the spring joint. **Min/Max Speed**\r\nclamp velocity.",
+      "values": [
+        {
+          "name": "Gravity",
+          "type": "bool",
+          "label": "Gravity",
+          "labels": {
+            "ja": "重力",
+            "zh-TW": "重力",
+            "ko": "중력",
+            "zh-CN": "重力"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Collision",
+          "type": "bool",
+          "label": "Collision",
+          "labels": {
+            "ja": "衝突",
+            "zh-TW": "碰撞",
+            "ko": "충돌",
+            "zh-CN": "碰撞"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Mass",
+          "type": "float",
+          "label": "Mass",
+          "labels": {
+            "ja": "質量",
+            "zh-TW": "質量",
+            "ko": "질량",
+            "zh-CN": "质量"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Distance",
+          "type": "float",
+          "label": "Distance",
+          "labels": {
+            "ja": "距離",
+            "zh-TW": "距離",
+            "ko": "거리",
+            "zh-CN": "距离"
+          },
+          "default": 0.15,
+          "min": 0,
+          "max": 0.5,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Spring Force",
+          "type": "float",
+          "label": "Spring Force",
+          "labels": {
+            "ja": "ばね力",
+            "zh-TW": "彈簧力",
+            "ko": "용수철 힘",
+            "zh-CN": "弹簧力"
+          },
+          "default": 250,
+          "min": 0,
+          "max": 1000,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Damping",
+          "type": "float",
+          "label": "Damping",
+          "labels": {
+            "ja": "ダンピング",
+            "zh-TW": "阻尼",
+            "ko": "감쇠",
+            "zh-CN": "阻尼"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Min Speed",
+          "type": "float",
+          "label": "Min Speed",
+          "labels": {
+            "ja": "最小速度",
+            "zh-TW": "最小速度",
+            "ko": "최소 속도",
+            "zh-CN": "最小速度"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 5,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Max Speed",
+          "type": "float",
+          "label": "Max Speed",
+          "labels": {
+            "ja": "最大速度",
+            "zh-TW": "最大速度",
+            "ko": "최대 속도",
+            "zh-CN": "最大速度"
+          },
+          "default": 15,
+          "min": 2,
+          "max": 15,
+          "options": null,
+          "description": null
+        }
+      ]
+    },
+    {
+      "name": "Hands",
+      "type": "bool",
+      "label": "Hands",
+      "labels": {
+        "ja": "手",
+        "zh-TW": "手部",
+        "ko": "손",
+        "zh-CN": "手部"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Hip",
+      "type": "bool",
+      "label": "Hip",
+      "labels": {
+        "ja": "股関節",
+        "zh-TW": "髖部",
+        "ko": "엉덩이",
+        "zh-CN": "髋部"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Torso",
+      "type": "bool",
+      "label": "Torso",
+      "labels": {
+        "ja": "体幹",
+        "zh-TW": "軀幹",
+        "ko": "몸통",
+        "zh-CN": "躯干"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    }
+  ]
+}

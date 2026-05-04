@@ -1,0 +1,222 @@
+{
+  "name": "./motion/proc/oneshot_cam",
+  "docPath": "features/one_shot_cam",
+  "label": "[Long Take]",
+  "labels": {
+    "ja": "[長回し]",
+    "zh-TW": "[長鏡頭]",
+    "ko": "[롱테이크]",
+    "zh-CN": "[长镜头]"
+  },
+  "description": "Long-take camera that moves randomly each beat while following the actor.\r\n\r\n## Movement\r\n\r\n**Rotate Range** limits how far left or right the camera can orbit around\r\nthe actor. Wider ranges create sweeping shots; narrower ranges keep the\r\ncamera more front-facing.\r\n\r\nThe **Curve** value controls the easing when the camera moves to a new\r\nrandom position each beat. Negative values start slow and speed up;\r\npositive values start fast and slow down; *0* gives linear motion.\r\n\r\n## Distance & Pitch\r\n\r\nSets the range for camera distance and vertical angle. The camera picks\r\na random position within these limits each beat.\r\n\r\n**Distance** controls how far the camera is from the target — lower values\r\nfor close-ups, higher for wider shots.\r\n\r\n**Pitch Angle** sets the vertical tilt range. Negative values look down\r\nat the actor; positive values look up.\r\n\r\n## Orientation\r\n\r\nEnable **Use Actor Orientation** to align the camera with the actor's\r\nfacing direction, so the camera stays relative to where the actor is\r\nlooking.\r\n\r\nEnable **Raise Focus When Close** to automatically move the focus point\r\nupward as the camera gets nearer, keeping the actor's head in frame\r\nfor close-up shots.\r\n\r\n**Prevent Below Floor** stops the camera from moving beneath the ground\r\nplane.",
+  "values": [
+    {
+      "name": "Target Select",
+      "type": "options",
+      "label": "Target Select",
+      "labels": {
+        "ja": "ターゲット選択",
+        "zh-TW": "目標選擇",
+        "ko": "대상 선택",
+        "zh-CN": "目标选择"
+      },
+      "default": "Auto",
+      "min": 0,
+      "max": 5,
+      "options": ["Auto", "Selected", "Group", "Rotate", "Rotate + Group", "Stage Center"],
+      "description": null
+    },
+    {
+      "name": "Tracking Mode",
+      "type": "options",
+      "label": "Tracking Mode",
+      "labels": {
+        "ja": "トラッキングモード",
+        "zh-TW": "跟蹤模式",
+        "ko": "추적 모드",
+        "zh-CN": "跟踪模式"
+      },
+      "default": "Center",
+      "min": 0,
+      "max": 2,
+      "options": ["Center", "Head", "Chest"],
+      "description": null
+    },
+    {
+      "name": "Target Smoothing",
+      "type": "float",
+      "label": "Target Smoothing",
+      "labels": {
+        "ja": "ターゲット平滑化",
+        "zh-TW": "目標平滑度",
+        "ko": "대상 스무딩",
+        "zh-CN": "目标平滑处理"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Prediction",
+      "type": "float",
+      "label": "Prediction",
+      "labels": {
+        "ja": "予測",
+        "zh-TW": "預測",
+        "ko": "예측",
+        "zh-CN": "预测"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": "Predict position of the target to reduce lag caused by smoothing"
+    },
+    {
+      "name": "FOV",
+      "type": "float",
+      "label": "FOV",
+      "labels": {
+        "ja": "FOV",
+        "zh-TW": "視野",
+        "ko": "FOV",
+        "zh-CN": "视场角"
+      },
+      "default": 30,
+      "min": 5,
+      "max": 120,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Beat Cycle",
+      "type": "int",
+      "label": "Beat Cycle",
+      "labels": {
+        "ja": "ビートサイクル",
+        "zh-TW": "節拍循環",
+        "ko": "비트 사이클",
+        "zh-CN": "节拍周期"
+      },
+      "default": 8,
+      "min": 1,
+      "max": 16,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Rotate Range",
+      "type": "float",
+      "label": "Rotate Range",
+      "labels": {
+        "ja": "回転範囲",
+        "zh-TW": "旋轉範圍",
+        "ko": "회전 범위",
+        "zh-CN": "旋转范围"
+      },
+      "default": 60,
+      "min": 0,
+      "max": 180,
+      "options": null,
+      "description": "Horizontal rotation range."
+    },
+    {
+      "name": "Distance",
+      "type": "range",
+      "label": "Distance",
+      "labels": {
+        "ja": "距離",
+        "zh-TW": "距離",
+        "ko": "거리",
+        "zh-CN": "距离"
+      },
+      "default": 0.5,
+      "min": 0.2,
+      "max": 5,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Pitch Angle",
+      "type": "range",
+      "label": "Pitch Angle",
+      "labels": {
+        "ja": "ピッチ角度",
+        "zh-TW": "俯仰角度",
+        "ko": "피치 각도",
+        "zh-CN": "俯仰角"
+      },
+      "default": -15,
+      "min": -90,
+      "max": 90,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Curve",
+      "type": "float",
+      "label": "Curve",
+      "labels": {
+        "ja": "カーブ",
+        "zh-TW": "曲線",
+        "ko": "커브",
+        "zh-CN": "曲线"
+      },
+      "default": 0,
+      "min": -1,
+      "max": 1,
+      "options": null,
+      "description": "The ease curve used when changing motion"
+    },
+    {
+      "name": "Prevent Below Floor",
+      "type": "bool",
+      "label": "Prevent Below Floor",
+      "labels": {
+        "ja": "床面以下の移動を防止",
+        "zh-TW": "防止落到地板以下",
+        "ko": "바닥 아래 방지",
+        "zh-CN": "防止低于地面"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Use Actor Orientation",
+      "type": "bool",
+      "label": "Use Actor Orientation",
+      "labels": {
+        "ja": "アクターの向きを使用",
+        "zh-TW": "使用角色朝向",
+        "ko": "배우 방향 사용",
+        "zh-CN": "使用演员方向"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Raise Focus When Close",
+      "type": "bool",
+      "label": "Raise Focus When Close",
+      "labels": {
+        "ja": "近接時にフォーカスを上げる",
+        "zh-TW": "接近時提高焦點",
+        "ko": "가까워질 때 초점 올리기",
+        "zh-CN": "接近时提升焦距"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Move focus position up when distance gets smaller"
+    }
+  ]
+}

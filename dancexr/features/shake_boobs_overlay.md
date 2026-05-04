@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Shake Boobs Overlay"
 locale: en-US
 nav_links:

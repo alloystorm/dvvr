@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "[Sex Motion 3]"
 locale: en-US
 nav_links:

@@ -1,0 +1,94 @@
+{
+  "name": "Shake Boobs Overlay",
+  "docPath": "features/shake_boobs_overlay",
+  "label": "Shake Boobs Overlay",
+  "labels": {
+    "ja": "揺れる胸のオーバーレイ",
+    "zh-TW": "搖晃胸部覆蓋層",
+    "ko": "가슴 흔들림 오버레이",
+    "zh-CN": "晃胸叠加"
+  },
+  "description": "Adds rhythmic breast shake motion driven by the music beat.\r\n**Intensity** sets the amplitude; **Speed** scales the beat\r\nfrequency (power-of-2). **Motion Pattern** blends between\r\nhorizontal-only (−1), vertical-only (1), or combined (0)\r\nshake direction.\r\n\r\n**Time Pattern** selects the rhythm: *Constant* shakes every\r\nbeat; *Pulse* alternates on/off every other beat; *Gradual*\r\nfollows a predefined 16-beat pattern that builds intensity\r\nover phrases. **Abs Mode** bounces back at the neutral\r\nposition for a more exaggerated effect.",
+  "values": [
+    {
+      "name": "Intensity",
+      "type": "float",
+      "label": "Intensity",
+      "labels": {
+        "ja": "強度",
+        "zh-TW": "強度",
+        "ko": "강도",
+        "zh-CN": "强度"
+      },
+      "default": 2,
+      "min": 0,
+      "max": 4,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Speed",
+      "type": "float",
+      "label": "Speed",
+      "labels": {
+        "ja": "速度",
+        "zh-TW": "速度",
+        "ko": "속도",
+        "zh-CN": "速度"
+      },
+      "default": 1,
+      "min": -2,
+      "max": 2,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Motion Pattern",
+      "type": "float",
+      "label": "Motion Pattern",
+      "labels": {
+        "ja": "動きパターン",
+        "zh-TW": "動作規律",
+        "ko": "움직임 패턴",
+        "zh-CN": "运动模式"
+      },
+      "default": 0.5,
+      "min": -1,
+      "max": 1,
+      "options": null,
+      "description": "Choose horizontal, vertial or both (set to 0) motion"
+    },
+    {
+      "name": "Time Pattern",
+      "type": "int",
+      "label": "Time Pattern",
+      "labels": {
+        "ja": "時間パターン",
+        "zh-TW": "時間規律",
+        "ko": "시간 패턴",
+        "zh-CN": "时间模式"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 2,
+      "options": ["Constant", "Pulse", "Gradual"],
+      "description": null
+    },
+    {
+      "name": "Abs Mode",
+      "type": "bool",
+      "label": "Abs Mode",
+      "labels": {
+        "ja": "(Abs Mode)",
+        "zh-TW": "(Abs Mode)",
+        "ko": "(Abs Mode)",
+        "zh-CN": "(Abs Mode)"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Bounce back at neutral position"
+    }
+  ]
+}

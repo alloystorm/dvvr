@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "[Long Take]"
 locale: en-US
 nav_links:

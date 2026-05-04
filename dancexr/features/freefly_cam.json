@@ -1,0 +1,254 @@
+{
+  "name": "./motion/proc/free_cam",
+  "docPath": "features/freefly_cam",
+  "label": "[Freefly Cam]",
+  "labels": {
+    "ja": "[フリーフライカメラ]",
+    "zh-TW": "[自由飛行攝影機]",
+    "ko": "[프리플라이 카메라]",
+    "zh-CN": "[自由飞翔相机]"
+  },
+  "description": "A fully manual camera mode where you control position and\r\nrotation directly. Move freely through the scene, orbit around\r\na point, or lock on to an actor for tracking.\r\n\r\n\r\n## Movement\r\n\r\n**Movement Damping** smooths camera position changes — lower\r\nvalues make the camera more responsive, higher values add\r\ninertia for cinematic ease-in/out.\r\n\r\n**Use Orbit Move** switches from free-flight to orbit mode,\r\nwhere the camera rotates around a point 1.5 m in front of it\r\ninstead of translating freely. Useful for circling a subject.\r\n\r\n**Restrict Vertical Move** (VR platforms only) prevents\r\nunintentional height changes by snapping small vertical offsets\r\nback to ground level.\r\n\r\n\r\n## Lock On Target\r\n\r\nWhen **Lock On Target** is enabled the camera automatically\r\ntracks the selected actor. **Tracking Mode** chooses which\r\nbody part to follow (center, head, or chest). **Target\r\nSmoothing** and **Prediction** reduce lag and jitter in the\r\nfollow. **Auto Zoom** adjusts the field of view to keep the\r\ntarget at a consistent screen size, with **FOV Height At\r\nTarget** controlling the desired apparent height. **Camera\r\nShake** adds subtle handheld-style motion scaled by tracking\r\nlag. **Lock Rotation** makes the camera also follow the\r\ntarget's orientation.\r\n\r\n\r\n## Presets\r\n\r\nFour built-in presets cover common setups: *Freefly* (full\r\nmanual control), *Lock On Actor* (track without zoom), *Lock +\r\nZoom Fullbody*, and *Lock + Zoom Upper Body* (tighter framing\r\non the torso).",
+  "values": [
+    {
+      "name": "Target Select",
+      "type": "options",
+      "label": "Target Select",
+      "labels": {
+        "ja": "ターゲット選択",
+        "zh-TW": "目標選擇",
+        "ko": "대상 선택",
+        "zh-CN": "目标选择"
+      },
+      "default": "Auto",
+      "min": 0,
+      "max": 5,
+      "options": ["Auto", "Selected", "Group", "Rotate", "Rotate + Group", "Stage Center"],
+      "description": null
+    },
+    {
+      "name": "Tracking Mode",
+      "type": "options",
+      "label": "Tracking Mode",
+      "labels": {
+        "ja": "トラッキングモード",
+        "zh-TW": "跟蹤模式",
+        "ko": "추적 모드",
+        "zh-CN": "跟踪模式"
+      },
+      "default": "Center",
+      "min": 0,
+      "max": 2,
+      "options": ["Center", "Head", "Chest"],
+      "description": null
+    },
+    {
+      "name": "Target Smoothing",
+      "type": "float",
+      "label": "Target Smoothing",
+      "labels": {
+        "ja": "ターゲット平滑化",
+        "zh-TW": "目標平滑度",
+        "ko": "대상 스무딩",
+        "zh-CN": "目标平滑处理"
+      },
+      "default": 0.2,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Prediction",
+      "type": "float",
+      "label": "Prediction",
+      "labels": {
+        "ja": "予測",
+        "zh-TW": "預測",
+        "ko": "예측",
+        "zh-CN": "预测"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": "Predict position of the target to reduce lag caused by smoothing"
+    },
+    {
+      "name": "Lock On Target",
+      "type": "bool",
+      "label": "Lock On Target",
+      "labels": {
+        "ja": "ターゲットにロックオン",
+        "zh-TW": "鎖定目標",
+        "ko": "대상 고정",
+        "zh-CN": "锁定目标"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Automatically focus on target"
+    },
+    {
+      "name": "Camera Shake",
+      "type": "float",
+      "label": "Camera Shake",
+      "labels": {
+        "ja": "カメラシェイク",
+        "zh-TW": "相機晃動",
+        "ko": "카메라 흔들림",
+        "zh-CN": "镜头摇晃"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Lock Rotation",
+      "type": "bool",
+      "label": "Lock Rotation",
+      "labels": {
+        "ja": "回転固定",
+        "zh-TW": "鎖定旋轉",
+        "ko": "회전 잠금",
+        "zh-CN": "锁定旋转"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Camera follows the rotation of the target"
+    },
+    {
+      "name": "Auto Zoom",
+      "type": "float",
+      "label": "Auto Zoom",
+      "labels": {
+        "ja": "自動ズーム",
+        "zh-TW": "自動變焦",
+        "ko": "자동 확대/축소",
+        "zh-CN": "自动变焦"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Automatically zoom in and out to maintain the target size in view"
+    },
+    {
+      "name": "Zoom Speed",
+      "type": "float",
+      "label": "Zoom Speed",
+      "labels": {
+        "ja": "ズーム速度",
+        "zh-TW": "變焦速度",
+        "ko": "확대/축소 속도",
+        "zh-CN": "变焦速度"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Time it takes to zoom to target FOV"
+    },
+    {
+      "name": "FOV Height At Target",
+      "type": "float",
+      "label": "FOV Height At Target",
+      "labels": {
+        "ja": "ターゲットにおけるFOV高さ",
+        "zh-TW": "目標處視野高度",
+        "ko": "대상 위치에서의 FOV 높이",
+        "zh-CN": "目标处的视场高度"
+      },
+      "default": 1,
+      "min": 0.2,
+      "max": 2,
+      "options": null,
+      "description": "Vertical height for the target when using auto zoom"
+    },
+    {
+      "name": "Vertical Offset",
+      "type": "float",
+      "label": "Vertical Offset",
+      "labels": {
+        "ja": "垂直オフセット",
+        "zh-TW": "垂直偏移",
+        "ko": "수직 오프셋",
+        "zh-CN": "垂直偏移"
+      },
+      "default": 0,
+      "min": -1,
+      "max": 1,
+      "options": null,
+      "description": "Offset vertically"
+    },
+    {
+      "name": "FOV",
+      "type": "float",
+      "label": "FOV",
+      "labels": {
+        "ja": "FOV",
+        "zh-TW": "視野",
+        "ko": "FOV",
+        "zh-CN": "视场角"
+      },
+      "default": 30,
+      "min": 5,
+      "max": 120,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Beat Cycle",
+      "type": "int",
+      "label": "Beat Cycle",
+      "labels": {
+        "ja": "ビートサイクル",
+        "zh-TW": "節拍循環",
+        "ko": "비트 사이클",
+        "zh-CN": "节拍周期"
+      },
+      "default": 8,
+      "min": 1,
+      "max": 16,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Movement Damping",
+      "type": "float",
+      "label": "Movement Damping",
+      "labels": {
+        "ja": "移動減衰",
+        "zh-TW": "移動阻尼",
+        "ko": "움직임 감쇠",
+        "zh-CN": "运动阻尼"
+      },
+      "default": 0.2,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Use Orbit Move",
+      "type": "bool",
+      "label": "Use Orbit Move",
+      "labels": {
+        "ja": "オービット移動を使用する",
+        "zh-TW": "使用軌道移動",
+        "ko": "오빗 이동 사용",
+        "zh-CN": "使用轨道移动"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Enable or disable orbit movement, allowing the camera to rotate around a central point."
+    }
+  ]
+}

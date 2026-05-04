@@ -1,0 +1,368 @@
+{
+  "name": "./motion/proc/orbit_cam",
+  "docPath": "features/orbit_cam",
+  "label": "[Orbit Cam]",
+  "labels": {
+    "ja": "[オービットカメラ]",
+    "zh-TW": "[環繞攝影機]",
+    "ko": "[궤도 카메라]",
+    "zh-CN": "[环绕相机]"
+  },
+  "description": "Manual and automatic orbit camera that rotates around the focused actor.\r\n\r\n## Manual Control\r\n\r\nWhen not in auto mode, drag to orbit the camera around the actor.\r\n**Use Controller Input** enables gamepad/VR controller support for orbiting.\r\n**Prevent Below Floor** stops the camera from moving beneath the ground plane.\r\n\r\n**Retain Velocity** keeps the camera spinning after you release input, gradually\r\nslowing down. **Min Speed** and **Max Speed** clamp the retained rotation speed —\r\nraise *Max Speed* for long cinematic spins, or lower it for tighter control.\r\n\r\n## Auto Mode\r\n\r\nWhen enabled, the camera orbits automatically with configurable distance, pitch,\r\nand height that cycle using sine waves.\r\n\r\n**Distance Min** and **Distance Max** set the near/far range the camera moves\r\nthrough each cycle. **Distance Cycle** is the period in seconds for a full\r\nback-and-forth cycle.\r\n\r\n**Pitch Min** and **Pitch Max** control the vertical angle range, and\r\n**Pitch Cycle** sets how fast the camera tilts up and down.\r\n\r\n**Height Min** and **Height Max** adjust the vertical offset of the camera target,\r\nwith **Height Cycle** controlling the oscillation period.\r\n\r\n**Speed** sets how fast the camera orbits horizontally when auto mode is active.\r\nIncrease it for fast sweeping shots, or lower it for slow, deliberate circles.",
+  "values": [
+    {
+      "name": "Target Select",
+      "type": "options",
+      "label": "Target Select",
+      "labels": {
+        "ja": "ターゲット選択",
+        "zh-TW": "目標選擇",
+        "ko": "대상 선택",
+        "zh-CN": "目标选择"
+      },
+      "default": "Auto",
+      "min": 0,
+      "max": 5,
+      "options": ["Auto", "Selected", "Group", "Rotate", "Rotate + Group", "Stage Center"],
+      "description": null
+    },
+    {
+      "name": "Tracking Mode",
+      "type": "options",
+      "label": "Tracking Mode",
+      "labels": {
+        "ja": "トラッキングモード",
+        "zh-TW": "跟蹤模式",
+        "ko": "추적 모드",
+        "zh-CN": "跟踪模式"
+      },
+      "default": "Center",
+      "min": 0,
+      "max": 2,
+      "options": ["Center", "Head", "Chest"],
+      "description": null
+    },
+    {
+      "name": "Target Smoothing",
+      "type": "float",
+      "label": "Target Smoothing",
+      "labels": {
+        "ja": "ターゲット平滑化",
+        "zh-TW": "目標平滑度",
+        "ko": "대상 스무딩",
+        "zh-CN": "目标平滑处理"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Prediction",
+      "type": "float",
+      "label": "Prediction",
+      "labels": {
+        "ja": "予測",
+        "zh-TW": "預測",
+        "ko": "예측",
+        "zh-CN": "预测"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": "Predict position of the target to reduce lag caused by smoothing"
+    },
+    {
+      "name": "FOV",
+      "type": "float",
+      "label": "FOV",
+      "labels": {
+        "ja": "FOV",
+        "zh-TW": "視野",
+        "ko": "FOV",
+        "zh-CN": "视场角"
+      },
+      "default": 30,
+      "min": 5,
+      "max": 120,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Beat Cycle",
+      "type": "int",
+      "label": "Beat Cycle",
+      "labels": {
+        "ja": "ビートサイクル",
+        "zh-TW": "節拍循環",
+        "ko": "비트 사이클",
+        "zh-CN": "节拍周期"
+      },
+      "default": 8,
+      "min": 1,
+      "max": 16,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Use Controller Input",
+      "type": "bool",
+      "label": "Use Controller Input",
+      "labels": {
+        "ja": "コントローラ入力を使用",
+        "zh-TW": "使用控制器輸入",
+        "ko": "컨트롤러 입력 사용",
+        "zh-CN": "使用控制器输入"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Prevent Below Floor",
+      "type": "bool",
+      "label": "Prevent Below Floor",
+      "labels": {
+        "ja": "床面以下の移動を防止",
+        "zh-TW": "防止落到地板以下",
+        "ko": "바닥 아래 방지",
+        "zh-CN": "防止低于地面"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null
+    },
+    {
+      "name": "Retain Velocity",
+      "type": "bool",
+      "label": "Retain Velocity",
+      "labels": {
+        "ja": "速度維持",
+        "zh-TW": "保留速度",
+        "ko": "속도 유지",
+        "zh-CN": "保留速度"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Maintain the rotation when there is no input"
+    },
+    {
+      "name": "Max Speed",
+      "type": "float",
+      "label": "Max Speed",
+      "labels": {
+        "ja": "最大速度",
+        "zh-TW": "最大速度",
+        "ko": "최대 속도",
+        "zh-CN": "最大速度"
+      },
+      "default": 15,
+      "min": 0,
+      "max": 30,
+      "options": null,
+      "description": "Maximum rotation speed"
+    },
+    {
+      "name": "Min Speed",
+      "type": "float",
+      "label": "Min Speed",
+      "labels": {
+        "ja": "最小速度",
+        "zh-TW": "最小速度",
+        "ko": "최소 속도",
+        "zh-CN": "最小速度"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 30,
+      "options": null,
+      "description": "Minimum rotation speed"
+    },
+    {
+      "name": "Auto Mode",
+      "type": "group",
+      "label": "Auto Mode",
+      "labels": {
+        "ja": "自動モード",
+        "zh-TW": "自動模式",
+        "ko": "자동 모드",
+        "zh-CN": "自动模式"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "values": [
+        {
+          "name": "Distance Min",
+          "type": "float",
+          "label": "Distance Min",
+          "labels": {
+            "ja": "最小距離",
+            "zh-TW": "最小距離",
+            "ko": "최소 거리",
+            "zh-CN": "最小距离"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Distance Max",
+          "type": "float",
+          "label": "Distance Max",
+          "labels": {
+            "ja": "最大距離",
+            "zh-TW": "最大距離",
+            "ko": "최대 거리",
+            "zh-CN": "最大距离"
+          },
+          "default": 3,
+          "min": 1,
+          "max": 10,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Distance Cycle",
+          "type": "float",
+          "label": "Distance Cycle",
+          "labels": {
+            "ja": "距離サイクル",
+            "zh-TW": "距離週期",
+            "ko": "거리 사이클",
+            "zh-CN": "距离周期"
+          },
+          "default": 12,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Pitch Min",
+          "type": "float",
+          "label": "Pitch Min",
+          "labels": {
+            "ja": "最小ピッチ",
+            "zh-TW": "最小俯仰角度",
+            "ko": "최소 피치",
+            "zh-CN": "最小俯仰角"
+          },
+          "default": -15,
+          "min": -45,
+          "max": 0,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Pitch Max",
+          "type": "float",
+          "label": "Pitch Max",
+          "labels": {
+            "ja": "最大ピッチ",
+            "zh-TW": "最大俯仰角度",
+            "ko": "최대 피치",
+            "zh-CN": "最大俯仰角"
+          },
+          "default": 15,
+          "min": 0,
+          "max": 45,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Pitch Cycle",
+          "type": "float",
+          "label": "Pitch Cycle",
+          "labels": {
+            "ja": "ピッチサイクル",
+            "zh-TW": "俯仰週期",
+            "ko": "피치 사이클",
+            "zh-CN": "俯仰周期"
+          },
+          "default": 32,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Height Min",
+          "type": "float",
+          "label": "Height Min",
+          "labels": {
+            "ja": "最小高さ",
+            "zh-TW": "最小高度",
+            "ko": "최소 높이",
+            "zh-CN": "最小高度"
+          },
+          "default": 0,
+          "min": -1,
+          "max": 0,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Height Max",
+          "type": "float",
+          "label": "Height Max",
+          "labels": {
+            "ja": "最大高さ",
+            "zh-TW": "最大高度",
+            "ko": "최대 높이",
+            "zh-CN": "最大高度"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Height Cycle",
+          "type": "float",
+          "label": "Height Cycle",
+          "labels": {
+            "ja": "高さサイクル",
+            "zh-TW": "高度週期",
+            "ko": "높이 사이클",
+            "zh-CN": "高度周期"
+          },
+          "default": 32,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": null
+        },
+        {
+          "name": "Speed",
+          "type": "float",
+          "label": "Speed",
+          "labels": {
+            "ja": "速度",
+            "zh-TW": "速度",
+            "ko": "속도",
+            "zh-CN": "速度"
+          },
+          "default": 10,
+          "min": 0,
+          "max": 90,
+          "options": null,
+          "description": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Scale & Offset",
+  "docPath": "features/scale_offset",
+  "label": "Scale & Offset",
+  "labels": {
+    "ja": "スケールとオフセット",
+    "zh-TW": "尺寸與偏移",
+    "ko": "스케일 및 오프셋",
+    "zh-CN": "尺寸与偏移"
+  },
+  "description": "Adjusts the actor's overall size, position, and rotation in\r\nthe scene.\r\n\r\n**Model Scale** uses a power-of-2 exponential scale so small\r\nchanges produce fine adjustments. **Uniform Height** scales\r\nall actors to a consistent average human height regardless of\r\ntheir original model proportions — disable this when you want\r\nto preserve the model's intended size. **Ground Offset** moves\r\nthe actor up or down relative to the floor.\r\n\r\n**Rotation** turns the actor around the Y axis. **Offset X**\r\nand **Offset Z** shift position horizontally. **Snapping**\r\nsets the increment size when dragging the actor in the scene —\r\nzero disables snapping entirely.\r\n\r\nPresets include *Uniform Life Size*, *Miniature*, *Giant*,\r\nand *Original*.",
+  "values": [
+    {
+      "name": "Model Scale",
+      "type": "float",
+      "label": "Model Scale",
+      "labels": {
+        "ja": "モデルスケール",
+        "zh-TW": "模型比例",
+        "ko": "모델 스케일",
+        "zh-CN": "模型尺寸"
+      },
+      "default": 0,
+      "min": -3,
+      "max": 3,
+      "options": null,
+      "description": "Adjust the overall scale of the model. Values are exponential for finer control."
+    },
+    {
+      "name": "Ground Offset",
+      "type": "float",
+      "label": "Ground Offset",
+      "labels": {
+        "ja": "地面オフセット",
+        "zh-TW": "地面偏移",
+        "ko": "지면 오프셋",
+        "zh-CN": "地面偏移"
+      },
+      "default": 0,
+      "min": -2,
+      "max": 2,
+      "options": null,
+      "description": "Set the vertical offset of the model relative to the ground."
+    },
+    {
+      "name": "Uniform Height",
+      "type": "bool",
+      "label": "Uniform Height",
+      "labels": {
+        "ja": "一様高さ",
+        "zh-TW": "統一高度",
+        "ko": "균일 높이",
+        "zh-CN": "统一高度"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Enable to scale the model to an average human height."
+    },
+    {
+      "name": "Rotation",
+      "type": "float",
+      "label": "Rotation",
+      "labels": {
+        "ja": "回転",
+        "zh-TW": "旋轉",
+        "ko": "회전",
+        "zh-CN": "旋转"
+      },
+      "default": 0,
+      "min": -180,
+      "max": 180,
+      "options": null,
+      "description": "Set the rotation of the model in degrees."
+    },
+    {
+      "name": "Offset X",
+      "type": "float",
+      "label": "Offset X",
+      "labels": {
+        "ja": "Xオフセット",
+        "zh-TW": "X 方向偏移",
+        "ko": "X 오프셋",
+        "zh-CN": "X轴偏移"
+      },
+      "default": 0,
+      "min": -5,
+      "max": 5,
+      "options": null,
+      "description": "Adjust the horizontal offset of the model along the X-axis."
+    },
+    {
+      "name": "Offset Z",
+      "type": "float",
+      "label": "Offset Z",
+      "labels": {
+        "ja": "Zオフセット",
+        "zh-TW": "Z軸偏移",
+        "ko": "Z 오프셋",
+        "zh-CN": "Z轴偏移"
+      },
+      "default": 0,
+      "min": -5,
+      "max": 5,
+      "options": null,
+      "description": "Adjust the horizontal offset of the model along the Z-axis."
+    },
+    {
+      "name": "Snapping",
+      "type": "int",
+      "label": "Snapping",
+      "labels": {
+        "ja": "スナップ",
+        "zh-TW": "吸附",
+        "ko": "스냅핑",
+        "zh-CN": "吸附"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 5,
+      "options": ["0", "0.1", "0.2", "0.5", "1", "2"],
+      "description": "Set the snapping increment for drag adjustments. Smaller values allow finer control."
+    }
+  ]
+}
