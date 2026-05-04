@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="{{ page.locale | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <title>{{ page.title | default: site.title }}</title>
+  {% include head/custom.html %}
+  {% if site.analytics.provider == "google-gtag" %}
+  {% include analytics-providers/google-gtag.html %}
+  {% endif %}
+</head>
+<body class="home-page release-page feature-page">
+
+<!-- ── Navigation ──────────────────────────────────────────── -->
+<nav class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/dancexr/">
+      DanceXR
+    </a>
+    <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    {% assign nav_items = page.nav_links | default: site.default_nav_links %}
+    <ul class="nav-links" id="nav-links">
+      {% for item in nav_items %}<li{% if item.cta %} class="nav-cta-item"{% endif %}><a href="{{ item.url }}"{% if item.cta %} class="nav-cta"{% endif %}>{{ item.label }}</a></li>{% endfor %}
+    </ul>
+    {% for item in nav_items %}{% if item.cta %}<a href="{{ item.url }}" class="nav-cta-btn">{{ item.label }}</a>{% endif %}{% endfor %}
+  </div>
+</nav>
+
+<!-- ── Language bar ─────────────────────────────────────────── -->
+{% if page.locale %}{% assign lp = page.path | default: "" %}
+{% assign lp = lp | replace: '.md', '' %}
+{% assign lp = lp | replace: 'tw/', '' %}
+{% assign lp = lp | replace: 'jp/', '' %}
+{% assign lp = lp | replace: 'kr/', '' %}
+{% assign lp = lp | replace: 'zh/', '' %}
+<div class="release-lang-bar">
+  <a href="/{{ lp }}"      {% if page.locale == 'en-US' %}class="active"{% endif %}>Eng</a>
+  <a href="/tw/{{ lp }}"   {% if page.locale == 'zh-TW' %}class="active"{% endif %}>繁中</a>
+  <a href="/jp/{{ lp }}"   {% if page.locale == 'ja-JP' %}class="active"{% endif %}>日本語</a>
+  <a href="/kr/{{ lp }}"   {% if page.locale == 'ko-KR' %}class="active"{% endif %}>한국어</a>
+  <a href="/zh/{{ lp }}"   {% if page.locale == 'zh-CN' %}class="active"{% endif %}>简中</a>
+</div>{% endif %}
+
+<!-- ── Main ────────────────────────────────────────────────── -->
+{% assign json_url = page.path | replace: '.md', '.json' | prepend: '/' %}
+<main class="release-main feature-main" id="content">
+  <div class="release-layout feature-layout">
+
+    <!-- ── TOC sidebar ─────────────────────────────────── -->
+    <aside class="release-toc feature-toc" id="feature-toc" aria-label="Table of contents">
+      <p class="release-toc__title">On this page</p>
+      <nav id="toc-nav"></nav>
+    </aside>
+
+    <!-- ── Right content area ──────────────────────────── -->
+    <div class="feature-content-area">
+
+      <!-- View toggle -->
+      <div class="feature-view-toggle" role="tablist" aria-label="View mode">
+        <button class="feature-tab active" id="tab-manual" role="tab" aria-selected="true" aria-controls="panel-manual">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4h12M2 8h8M2 12h10"/></svg>
+          Manual
+        </button>
+        <button class="feature-tab" id="tab-config" role="tab" aria-selected="false" aria-controls="panel-config">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="8" r="2"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.22 3.22l1.41 1.41M11.37 11.37l1.41 1.41M3.22 12.78l1.41-1.41M11.37 4.63l1.41-1.41"/></svg>
+          Config Reference
+        </button>
+      </div>
+
+      <!-- Panel: Manual (markdown article) -->
+      <article class="release-content feature-panel" id="panel-manual" role="tabpanel" aria-labelledby="tab-manual">
+        {{ content }}
+      </article>
+
+      <!-- Panel: Config reference (tree + detail) -->
+      <div class="feature-panel feature-panel--config" id="panel-config" role="tabpanel" aria-labelledby="tab-config" hidden>
+
+        <aside class="feature-tree" id="feature-tree" aria-label="Config tree">
+          <p class="feature-tree__title">Config values</p>
+          <div class="feature-tree__body" id="feature-tree-body">
+            <p class="feature-tree__loading">Loading…</p>
+          </div>
+        </aside>
+
+        <div class="feature-detail" id="feature-detail">
+          <div class="feature-detail__empty" id="feature-detail-empty">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg>
+            <p>Select an item from the tree to view its details.</p>
+          </div>
+          <div class="feature-detail__content" id="feature-detail-content" hidden></div>
+        </div>
+
+      </div>
+
+    </div><!-- /.feature-content-area -->
+  </div><!-- /.release-layout -->
+</main>
+
+<!-- ── Footer ──────────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="/images/icon.png" width="22" height="22" alt="">
+        <span>{{ site.title }}</span>
+      </div>
+      {% if site.footer.links %}
+      <nav class="footer-social">
+        {% for link in site.footer.links %}
+        <a href="{{ link.url }}" rel="noopener noreferrer">{{ link.label }}</a>
+        {% endfor %}
+      </nav>
+      {% endif %}
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copyright">© {{ site.time | date: "%Y" }} VR Storm Lab</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // ── Nav scroll & hamburger ────────────────────────────────
+  const nav = document.getElementById('site-nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 20);
+  }, { passive: true });
+  const menuBtn = document.getElementById('nav-menu-btn');
+  const navLinksEl = document.getElementById('nav-links');
+  menuBtn.addEventListener('click', () => {
+    menuBtn.classList.toggle('open');
+    navLinksEl.classList.toggle('open');
+  });
+
+  // ── TOC builder ───────────────────────────────────────────
+  (function buildToc() {
+    const article = document.getElementById('panel-manual');
+    const tocNav  = document.getElementById('toc-nav');
+    if (!article || !tocNav) return;
+
+    const headings = article.querySelectorAll('h2, h3');
+    if (!headings.length) return;
+
+    const ul = document.createElement('ul');
+    ul.className = 'toc-list';
+
+    headings.forEach(h => {
+      if (!h.id) {
+        h.id = h.textContent.trim()
+          .toLowerCase()
+          .replace(/[^\w\s-]/g, '')
+          .replace(/\s+/g, '-');
+      }
+      const li = document.createElement('li');
+      li.className = h.tagName === 'H3' ? 'toc-item toc-item--sub' : 'toc-item';
+      const a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.textContent = h.textContent;
+      a.className = 'toc-link';
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
+
+    tocNav.appendChild(ul);
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        const link = ul.querySelector(`.toc-link[href="#${entry.target.id}"]`);
+        if (link) link.classList.toggle('active', entry.isIntersecting);
+      });
+    }, { rootMargin: '-10% 0px -80% 0px' });
+
+    headings.forEach(h => observer.observe(h));
+  }());
+
+  // ── View toggle (Manual ↔ Config Reference) ───────────────
+  (function initTabs() {
+    const tabManual   = document.getElementById('tab-manual');
+    const tabConfig   = document.getElementById('tab-config');
+    const panelManual = document.getElementById('panel-manual');
+    const panelConfig = document.getElementById('panel-config');
+    const toc         = document.getElementById('feature-toc');
+
+    function activate(isConfig) {
+      tabManual.classList.toggle('active', !isConfig);
+      tabConfig.classList.toggle('active',  isConfig);
+      tabManual.setAttribute('aria-selected', String(!isConfig));
+      tabConfig.setAttribute('aria-selected', String(isConfig));
+      panelManual.hidden =  isConfig;
+      panelConfig.hidden = !isConfig;
+      // Collapse the TOC in config mode — config has its own tree
+      toc.classList.toggle('feature-toc--hidden', isConfig);
+    }
+
+    tabManual.addEventListener('click', () => activate(false));
+    tabConfig.addEventListener('click', () => activate(true));
+  }());
+
+  // ── Config explorer ───────────────────────────────────────
+  (function () {
+    'use strict';
+
+    const JSON_URL      = '{{ json_url }}';
+    const treeBody      = document.getElementById('feature-tree-body');
+    const detailEmpty   = document.getElementById('feature-detail-empty');
+    const detailContent = document.getElementById('feature-detail-content');
+
+    function esc(str) {
+      return String(str ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function renderMd(text) {
+      if (!text) return '';
+      return esc(text)
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.+?)\*/g, '<em>$1</em>')
+        .replace(/\r\n|\r|\n/g, '<br>');
+    }
+
+    const TYPE_LABEL = {
+      group: 'Group', float: 'Float', int: 'Integer', bool: 'Toggle',
+      options: 'Options', string: 'Text', color: 'Color', vector3: 'Vector3',
+    };
+    const TYPE_BADGE_CLASS = {
+      group: 'badge--group', float: 'badge--number', int: 'badge--number',
+      bool: 'badge--bool', options: 'badge--options', color: 'badge--color',
+    };
+    function typeLabel(t)      { return TYPE_LABEL[t] ?? t; }
+    function typeBadgeClass(t) { return TYPE_BADGE_CLASS[t] ?? 'badge--default'; }
+
+    function showDetail(node) {
+      detailEmpty.hidden = true;
+      detailContent.hidden = false;
+
+      const labelChips = node.labels
+        ? Object.entries(node.labels)
+            .filter(([, v]) => v)
+            .map(([lang, val]) =>
+              `<span class="detail-label-chip"><span class="detail-label-lang">${esc(lang)}</span>${esc(val)}</span>`
+            ).join('')
+        : '';
+
+      const typeBadge = node.type
+        ? `<span class="detail-badge ${typeBadgeClass(node.type)}">${typeLabel(node.type)}</span>`
+        : '';
+
+      let propsHtml = '';
+      if (node.type && node.type !== 'group') {
+        const rows = [];
+        if (node.default !== null && node.default !== undefined)
+          rows.push(['Default', `<code>${esc(String(node.default))}</code>`]);
+        if (node.type === 'float' || node.type === 'int') {
+          if (node.min !== null && node.min !== undefined) rows.push(['Min', `<code>${esc(String(node.min))}</code>`]);
+          if (node.max !== null && node.max !== undefined) rows.push(['Max', `<code>${esc(String(node.max))}</code>`]);
+        }
+        if (node.options && node.options.length)
+          rows.push(['Options', node.options.map(o => `<code>${esc(String(o))}</code>`).join(', ')]);
+        if (rows.length) {
+          propsHtml = `<table class="detail-props-table"><tbody>
+            ${rows.map(([k, v]) => `<tr><th>${k}</th><td>${v}</td></tr>`).join('')}
+          </tbody></table>`;
+        }
+      }
+
+      let childrenHtml = '';
+      if (node.values && node.values.length) {
+        const childRows = node.values.map(c => {
+          const firstLine = c.description ? renderMd(c.description.split(/\r?\n/)[0]) : '';
+          return `<tr>
+            <td class="detail-child-name">${esc(c.label || c.name)}</td>
+            <td><span class="detail-badge ${typeBadgeClass(c.type)}">${typeLabel(c.type)}</span></td>
+            <td class="detail-child-desc">${firstLine}</td>
+          </tr>`;
+        }).join('');
+        childrenHtml = `
+          <div class="detail-children">
+            <p class="detail-children__title">Sub-items</p>
+            <table class="detail-children-table">
+              <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+              <tbody>${childRows}</tbody>
+            </table>
+          </div>`;
+      }
+
+      detailContent.innerHTML = `
+        <div class="detail-header">
+          <h2 class="detail-name">${esc(node.label || node.name)}</h2>
+          ${typeBadge}
+        </div>
+        ${labelChips ? `<div class="detail-labels">${labelChips}</div>` : ''}
+        ${node.description ? `<div class="detail-description">${renderMd(node.description)}</div>` : ''}
+        ${propsHtml}
+        ${childrenHtml}
+      `;
+    }
+
+    function buildTreeItem(node, depth) {
+      const li = document.createElement('li');
+      li.className = 'tree-item' + (node.type === 'group' ? ' tree-item--group' : '');
+
+      const row = document.createElement('div');
+      row.className = 'tree-row';
+      row.style.paddingLeft = (10 + depth * 14) + 'px';
+
+      if (node.type === 'group' && node.values && node.values.length) {
+        const toggle = document.createElement('button');
+        toggle.className = 'tree-toggle';
+        toggle.setAttribute('aria-label', 'Toggle');
+        toggle.innerHTML = '<svg width="7" height="7" viewBox="0 0 8 8" aria-hidden="true"><path d="M2 1l4 3-4 3" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+        toggle.addEventListener('click', e => { e.stopPropagation(); li.classList.toggle('expanded'); });
+        row.appendChild(toggle);
+      } else {
+        const sp = document.createElement('span');
+        sp.className = 'tree-spacer';
+        row.appendChild(sp);
+      }
+
+      const label = document.createElement('span');
+      label.className = 'tree-label';
+      label.textContent = node.label || node.name;
+      row.appendChild(label);
+
+      if (node.type && node.type !== 'group') {
+        const pill = document.createElement('span');
+        pill.className = 'tree-type-pill ' + typeBadgeClass(node.type);
+        pill.textContent = typeLabel(node.type);
+        row.appendChild(pill);
+      }
+
+      row.addEventListener('click', () => {
+        document.querySelectorAll('.tree-row.selected').forEach(r => r.classList.remove('selected'));
+        row.classList.add('selected');
+        showDetail(node);
+      });
+
+      li.appendChild(row);
+
+      if (node.values && node.values.length) {
+        const ul = document.createElement('ul');
+        ul.className = 'tree-children';
+        node.values.forEach(child => ul.appendChild(buildTreeItem(child, depth + 1)));
+        li.appendChild(ul);
+      }
+
+      return li;
+    }
+
+    fetch(JSON_URL)
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(data => {
+        treeBody.innerHTML = '';
+        const ul = document.createElement('ul');
+        ul.className = 'tree-list';
+        (data.values || []).forEach(node => ul.appendChild(buildTreeItem(node, 0)));
+        treeBody.appendChild(ul);
+        showDetail({ name: data.name, label: data.label, labels: data.labels,
+                     description: data.description, values: data.values, type: 'group' });
+      })
+      .catch(err => {
+        treeBody.innerHTML = '<p class="feature-tree__error">Config data unavailable.</p>';
+        console.error('Feature JSON:', err);
+      });
+
+  }());
+</script>
+</body>
+</html>

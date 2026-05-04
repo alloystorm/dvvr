@@ -1762,3 +1762,410 @@ body:not(.home-page) .page__footer a:hover {
   .release-main { padding-top: calc(var(--nav-h) + 56px); }
   .release-lang-bar { display: none; }
 }
+
+/* =========================================================
+   FEATURE PAGE LAYOUT
+   Extends the release layout: TOC sidebar left, tabbed
+   content area right (Manual ↔ Config Reference).
+   ========================================================= */
+
+.feature-main {
+  /* reuses .release-main padding */
+}
+
+/* The release-layout grid already gives us TOC (220px) + content.
+   In config mode the TOC slides away so the config panel gets full width. */
+.feature-layout {
+  /* same as .release-layout but content column is a flex column */
+  align-items: start;
+}
+
+/* TOC hides when config tab is active */
+.feature-toc--hidden {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.feature-toc {
+  transition: opacity 0.2s;
+}
+
+/* ── Content area (right column) ─────────────────────────── */
+.feature-content-area {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* ── View toggle ─────────────────────────────────────────── */
+.feature-view-toggle {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+  background: var(--bg-surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 4px;
+  width: fit-content;
+}
+
+.feature-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 7px;
+  background: none;
+  color: var(--text-dim);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: var(--font) !important;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+.feature-tab:hover { color: var(--text); }
+.feature-tab.active {
+  background: var(--bg-surface);
+  color: var(--text);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+}
+.feature-tab svg { flex-shrink: 0; }
+
+/* ── Panels ──────────────────────────────────────────────── */
+/* Manual panel reuses .release-content styles (already set) */
+.feature-panel {
+  /* nothing extra needed for manual; config panel overrides below */
+}
+
+/* Config panel: side-by-side tree + detail */
+.feature-panel--config {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 16px;
+  align-items: start;
+}
+.feature-panel--config[hidden] { display: none; }
+
+/* ── Tree sidebar ────────────────────────────────────────── */
+.feature-tree {
+  background: var(--bg-surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  position: sticky;
+  top: calc(var(--nav-h) + 56px);
+  max-height: calc(100vh - var(--nav-h) - 72px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+.feature-tree::-webkit-scrollbar { width: 4px; }
+.feature-tree::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+.feature-tree__title {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding: 14px 16px 10px;
+  margin: 0;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: var(--bg-surface-2);
+  z-index: 1;
+}
+
+.feature-tree__loading,
+.feature-tree__error {
+  font-size: 13px;
+  color: var(--text-dim);
+  padding: 16px;
+  margin: 0;
+}
+
+/* ── Tree list ───────────────────────────────────────────── */
+.tree-list,
+.tree-children {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+}
+
+.tree-children {
+  display: none;
+}
+.tree-item.expanded > .tree-children {
+  display: block;
+}
+
+.tree-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-right: 12px;
+  cursor: pointer;
+  min-height: 28px;
+  transition: background 0.1s;
+  user-select: none;
+  border-left: 2px solid transparent;
+}
+.tree-row:hover {
+  background: rgba(255,255,255,0.05);
+}
+.tree-row.selected {
+  background: rgba(0,113,227,0.13);
+  border-left-color: var(--accent);
+}
+.tree-row.selected .tree-label {
+  color: var(--text);
+}
+
+.tree-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: var(--text-dim);
+  border-radius: 3px;
+  transition: transform 0.15s, color 0.15s;
+}
+.tree-toggle:hover { color: var(--text); }
+.tree-item.expanded > .tree-row > .tree-toggle {
+  transform: rotate(90deg);
+}
+
+.tree-spacer {
+  display: inline-block;
+  width: 16px;
+  flex-shrink: 0;
+}
+
+.tree-label {
+  font-size: 13px;
+  color: rgba(245,245,247,0.72);
+  line-height: 1.3;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tree-item--group > .tree-row > .tree-label {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.tree-type-pill {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 1px 6px;
+  border-radius: 8px;
+  border: 1px solid;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+/* ── Detail panel ────────────────────────────────────────── */
+.feature-detail {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 40px 48px;
+  min-height: 360px;
+}
+
+.feature-detail__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-height: 280px;
+  color: var(--text-dim);
+  font-size: 14px;
+  opacity: 0.5;
+}
+.feature-detail__empty svg { color: var(--text-dim); }
+.feature-detail__empty p { margin: 0; }
+
+/* ── Detail content ──────────────────────────────────────── */
+.detail-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.detail-name {
+  font-size: clamp(22px, 2.5vw, 30px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin: 0;
+}
+
+.detail-badge {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 12px;
+  border: 1px solid;
+  white-space: nowrap;
+}
+.badge--group   { color: var(--text-dim);  border-color: var(--border);                background: transparent; }
+.badge--number  { color: #30d158;          border-color: rgba(48,209,88,0.3);          background: rgba(48,209,88,0.07); }
+.badge--bool    { color: #ffd60a;          border-color: rgba(255,214,10,0.3);         background: rgba(255,214,10,0.07); }
+.badge--options { color: var(--accent);    border-color: rgba(0,113,227,0.3);          background: rgba(0,113,227,0.07); }
+.badge--color   { color: #ff9f0a;          border-color: rgba(255,159,10,0.3);         background: rgba(255,159,10,0.07); }
+.badge--default { color: var(--text-dim);  border-color: var(--border);                background: transparent; }
+
+.detail-labels {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.detail-label-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: var(--text-dim);
+  background: var(--bg-surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 2px 8px;
+}
+
+.detail-label-lang {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.detail-description {
+  font-size: 15px;
+  line-height: 1.7;
+  color: rgba(245,245,247,0.82);
+  margin: 16px 0 24px;
+  padding: 16px 20px;
+  background: var(--bg-surface-2);
+  border-radius: 10px;
+  border-left: 3px solid var(--accent);
+}
+
+.detail-props-table {
+  width: auto;
+  min-width: 300px;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin: 0 0 28px;
+  background: var(--bg-surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.detail-props-table th {
+  text-align: left;
+  padding: 8px 16px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+  width: 90px;
+}
+.detail-props-table td {
+  padding: 8px 16px;
+  color: var(--text);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.detail-props-table tr:last-child td,
+.detail-props-table tr:last-child th { border-bottom: none; }
+.detail-props-table code {
+  background: var(--bg);
+  color: var(--text);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 13px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace !important;
+}
+
+.detail-children { margin-top: 8px; }
+.detail-children__title {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin: 0 0 10px;
+}
+.detail-children-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.detail-children-table thead th {
+  text-align: left;
+  padding: 8px 16px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  background: var(--bg-surface-2);
+  border-bottom: 1px solid var(--border);
+}
+.detail-children-table td {
+  padding: 10px 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  vertical-align: top;
+}
+.detail-children-table tr:last-child td { border-bottom: none; }
+.detail-children-table tr:hover td { background: rgba(255,255,255,0.03); }
+.detail-child-name {
+  color: var(--text);
+  font-weight: 500;
+  white-space: nowrap;
+}
+.detail-child-desc {
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .feature-panel--config {
+    grid-template-columns: 1fr;
+  }
+  .feature-tree {
+    position: static;
+    max-height: 320px;
+  }
+}
+@media (max-width: 640px) {
+  .feature-detail { padding: 24px 20px; }
+}

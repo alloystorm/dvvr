@@ -1,5 +1,5 @@
 ---
-layout: release
+layout: feature
 title: "Accessory"
 locale: en-US
 nav_links:
