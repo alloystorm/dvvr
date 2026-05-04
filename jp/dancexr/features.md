@@ -36,8 +36,6 @@ feature_sections:
         image: /images/slideshows/dancexr/logo-black.jpg
         badge: "2026.5 | Dedicated AI Backend"
         badge_type: new
-      - title: VR設定
-        link: /jp/dancexr/features/vr_settings
       - title: AI駆動音声チャット
         link: /jp/dancexr/features/ai_chat
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
@@ -507,6 +505,8 @@ feature_sections:
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
       - title: "グラフィックス & ディスプレイ"
         tiles:
+          - title: VR設定
+            link: /jp/dancexr/features/vr_settings
           - title: ディスプレイ設定
             link: /jp/dancexr/features/display_settings
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg

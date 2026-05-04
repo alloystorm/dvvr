@@ -22,9 +22,6 @@
           "image": "/images/slideshows/dancexr/logo-black.jpg"
         },
         {
-          "path": "features/vr_settings"
-        },
-        {
           "path": "features/ai_chat",
           "badge": "PRO",
           "badge_type": "pro",
@@ -928,6 +925,9 @@
             "kr": "그래픽 & 디스플레이"
           },
           "tiles": [
+            {
+              "path": "features/vr_settings"
+            },
             {
               "path": "features/display_settings",
               "image": "/images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg"
