@@ -261,7 +261,7 @@ feature_sections:
             link: /dancexr/features/dangling_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
           - title: Skirt Physics
-            link: /dancexr/features/skirt-physics
+            link: /dancexr/features/skirt_physics
             image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
           - title: Boobs Physics
             link: /dancexr/features/boobs_physics
@@ -274,7 +274,7 @@ feature_sections:
             badge: PRO
             badge_type: pro
           - title: Detach Object
-            link: /dancexr/features/detach-object
+            link: /dancexr/features/detach_object
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
   - title: "Motion & Media"
     light: true

@@ -21,10 +21,10 @@ XPS 모델에는 물리 정의가 포함되어 있지 않아 프로그램이 물
 * [가슴 물리학](boobs_physics)
 * [헤어 물리학](hair_physics)
 * [의상 물리학](dangling_physics)
-* [치마 물리학](skirt-physics)
+* [치마 물리학](skirt_physics)
 * [소프트바디 물리학](softbody_physics)
-* [감지 객체](detach-object)
-* [자동 초기화](auto-reset)
+* [감지 객체](detach_object)
+* [자동 초기화](auto_reset)
 
 ### 데모
 {% include video id="-IZTzHUpROs" provider="youtube" %}

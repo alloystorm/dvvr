@@ -23,10 +23,10 @@ This includes:
 * [Boobs Physics](boobs_physics)
 * [Hair Physics](hair_physics)
 * [Clothes Physics](dangling_physics)
-* [Skirt Physics](skirt-physics)
+* [Skirt Physics](skirt_physics)
 * [Softbody Physics](softbody_physics)
-* [Detect Object](detach-object)
-* [Auto Reset](auto-reset)
+* [Detect Object](detach_object)
+* [Auto Reset](auto_reset)
 
 ### Demo
 {% include video id="-IZTzHUpROs" provider="youtube" %}

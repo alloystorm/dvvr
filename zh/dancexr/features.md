@@ -246,35 +246,35 @@ feature_sections:
             badge_type: pro
       - title: XPS 物理
         tiles:
-          - title: XPS物理
+          - title: XPS物理学
             link: /zh/dancexr/features/xps_physics
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
             badge: PRO
             badge_type: pro
-          - title: Body Colliders
+          - title: "## 身体碰撞体"
             link: /zh/dancexr/features/body_colliders
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
-          - title: Hair Physics
+          - title: 头发物理
             link: /zh/dancexr/features/hair_physics
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
-          - title: Dangling Physics
+          - title: "## 悬垂物理"
             link: /zh/dancexr/features/dangling_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
-          - title: Skirt Physics
-            link: /zh/dancexr/features/skirt-physics
+          - title: 裙子物理效果
+            link: /zh/dancexr/features/skirt_physics
             image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
-          - title: Boobs Physics
+          - title: 胸部物理模拟
             link: /zh/dancexr/features/boobs_physics
             image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: Softbody Physics
+          - title: 软体物理
             link: /zh/dancexr/features/softbody_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
             badge: PRO
             badge_type: pro
-          - title: Detach Object
-            link: /zh/dancexr/features/detach-object
+          - title: 对象分离
+            link: /zh/dancexr/features/detach_object
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
   - title: 动作与媒体
     light: true
