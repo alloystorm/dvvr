@@ -1,0 +1,21 @@
+---
+layout: feature
+title: 网格到布料
+locale: zh-CN
+nav_links:
+  - label: 简介
+    url: /zh/dancexr
+  - label: 功能
+    url: /zh/dancexr/features
+  - label: 发布
+    url: /zh/dancexr/releases
+  - label: 下载
+    url: /zh/dancexr/download
+---
+
+# 网格转布料
+
+将角色上的任何渲染网格转换为基于粒子的布料模拟。每个网格都有自己的配置面板，用于选择固定顶点（用于固定布料的骨骼）和模拟参数。
+
+**逐步激活** 在预设秒数内平滑地启动模拟，防止网格突然卡入位。
+嵌套的 **粒子属性** 面板定义了适用于所有转换网格的全局物理属性，例如刚度、阻尼和重力倍数。

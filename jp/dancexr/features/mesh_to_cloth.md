@@ -1,0 +1,20 @@
+---
+layout: feature
+title: メッシュから布へ
+locale: ja-JP
+nav_links:
+  - label: イントロ
+    url: /jp/dancexr
+  - label: 機能
+    url: /jp/dancexr/features
+  - label: リリース
+    url: /jp/dancexr/releases
+  - label: ダウンロード
+    url: /jp/dancexr/download
+---
+
+# メッシュから布
+
+アクター上の任意のレンダーメッシュを、パーティクルベースの布シミュレーションに変換します。各メッシュには、ピン留めされた頂点（布を固定するボーン）やシミュレーションパラメーターを選択するための専用のコンフィグパネルが割り当てられます。
+
+**Gradual Enable** は、設定された秒数にわたってシミュレーションをフェードインさせ、メッシュが突然カクッと位置に張り付くのを防ぎます。ネストされた **Particle Props** パネルは、すべての変換されたメッシュに適用される、剛性（stiffness）、減衰（damping）、重力倍率（gravity multiplier）などのグローバルな物理特性を定義します。
