@@ -1,7 +1,6 @@
 ---
 layout: release
 title: 中国大陆购买选项
-locale: zh-CN
 nav_links:
   - label: 简介
     url: /zh/dancexr
