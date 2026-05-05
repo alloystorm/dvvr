@@ -211,8 +211,8 @@ feature_sections:
           - title: 模擬
             link: /tw/dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
-          - title: 布料模擬
-            link: /tw/dancexr/features/cloth_simulation
+          - title: Simulation
+            link: /tw/dancexr/features/cloth_sim
             image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
             badge: 2024.8 · PRO
             badge_type: pro
