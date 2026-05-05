@@ -1,6 +1,6 @@
 {
   "name": "Physics Skirt",
-  "docPath": "features/skirt-physics",
+  "docPath": "features/skirt_physics",
   "label": "Skirt Physics",
   "labels": {
     "ja": "スカート物理",

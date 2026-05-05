@@ -1,6 +1,6 @@
 {
   "name": "Detach Object",
-  "docPath": "features/detach-object",
+  "docPath": "features/detach_object",
   "label": "Detach Object",
   "labels": {
     "ja": "オブジェクトを切り離す",

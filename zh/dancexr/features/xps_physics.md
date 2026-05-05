@@ -1,6 +1,6 @@
 ---
 layout: release
-title: XPS物理
+title: XPS物理学
 locale: zh-CN
 nav_links:
   - label: 简介
@@ -14,16 +14,17 @@ nav_links:
 ---
 
 ## XPS模型特定设置
-XPS模型没有物理定义，因此程序不知道在哪里添加物理组件。为此，为每个XPS模型添加了几个物理设置，供您在XPS模型上配置物理组件。
+XPS模型没有物理定义，所以程序不知道在哪里添加物理组件。为此，为每个XPS模型添加了几个物理设置，供您在XPS模型上配置物理组件。
 
 这包括：
-* [身体碰撞器](xps_body_colliders)
-* [胸部物理](xps_boobs)
-* [头发物理](xps_hair)
-* [服装物理](xps_cloth)
-* [裙子物理](xps_skirt)
-* [软体物理](xps_softbody)
-* [分离物体](xps_detach)
+* [身体碰撞器](body_colliders)
+* [胸部物理](boobs_physics)
+* [头发物理](hair_physics)
+* [服装物理](dangling_physics)
+* [裙子物理](skirt-physics)
+* [软体物理](softbody_physics)
+* [分离物体](detach-object)
+* [自动重置](auto-reset)
 
 ### 演示
 {% include video id="-IZTzHUpROs" provider="youtube" %}

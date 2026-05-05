@@ -1,0 +1,22 @@
+---
+layout: feature
+title: 自动重置
+locale: zh-CN
+nav_links:
+  - label: 简介
+    url: /zh/dancexr
+  - label: 功能
+    url: /zh/dancexr/features
+  - label: 发布
+    url: /zh/dancexr/releases
+  - label: 下载
+    url: /zh/dancexr/download
+---
+
+# 自动重置
+
+当速度超出安全限制时，自动重置骨骼及其子骨骼。可防止极端力或传送引起的物理爆炸和网格变形。
+
+## 阈值
+
+设置物理重置的速度阈值。较低的值会更积极地触发重置，这可以防止穿透，但快移动时可能会导致可见的跳动。较高的值则允许在干预之前更极端的运动。

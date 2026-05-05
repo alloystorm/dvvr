@@ -1,6 +1,6 @@
 {
   "name": "Auto Reset",
-  "docPath": "features/auto-reset",
+  "docPath": "features/auto_reset",
   "label": "Auto Reset",
   "labels": {
     "ja": "自動リセット",
