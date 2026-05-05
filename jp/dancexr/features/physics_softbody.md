@@ -1,6 +1,6 @@
 ---
 layout: release
-title: ソフトボディ物理
+title: ソフトボディ物理演算
 locale: ja-JP
 nav_links:
   - label: イントロ
@@ -13,6 +13,4 @@ nav_links:
     url: /jp/dancexr/download
 ---
 
-
 パーティクルダイナミクスを使用して追加のコントロールボーンを駆動します。
-

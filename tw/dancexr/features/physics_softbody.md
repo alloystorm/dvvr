@@ -1,6 +1,6 @@
 ---
 layout: release
-title: 柔體物理學
+title: 軟體物理模擬
 locale: zh-TW
 nav_links:
   - label: 簡介
@@ -13,6 +13,4 @@ nav_links:
     url: /tw/dancexr/download
 ---
 
-
 通過粒子動力學驅動額外的控制骨骼。
-

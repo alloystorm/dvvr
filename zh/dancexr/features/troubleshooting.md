@@ -1,0 +1,18 @@
+---
+layout: feature
+title: 故障排除
+locale: zh-CN
+nav_links:
+  - label: 简介
+    url: /zh/dancexr
+  - label: 功能
+    url: /zh/dancexr/features
+  - label: 发布
+    url: /zh/dancexr/releases
+  - label: 下载
+    url: /zh/dancexr/download
+---
+
+# 故障排除
+
+修复常见的动画和骨骼绑定问题。**将身体旋转应用到中心** 将髋部和躯干的旋转传输到中心骨骼。**扭曲校正** 减少手臂和腿部关节的扭曲，设有独立的 **上臂**、**小臂** 和 **腿部扭曲** 滑块。**手肘轴** 调整手肘关节的旋转轴。**手部缩放** 调整手部大小。**BVH拇指运动** 减少 BVH 动画中的拇指运动。**限制颈部/头部旋转** 约束上身的旋转。**重置过渡** 从标准姿势进行平稳的物理重置。**跳过运动学更新** 禁用未动画运动学骨骼的更新。
