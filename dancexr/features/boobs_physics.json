@@ -1,0 +1,1754 @@
+{
+  "name": "Physics Boobs",
+  "docPath": "features/boobs_physics",
+  "label": "Boobs Physics",
+  "labels": {
+    "ja": "ブブズ物理演算",
+    "zh-TW": "胸部物理",
+    "ko": "보디스 물리",
+    "zh-CN": "胸部物理"
+  },
+  "description": "Adds physics simulation to breast bones on the model. Selected bones\r\nare given suspension joints that allow them to bounce and sway with\r\nmovement, plus optional collision shapes that interact with arms\r\nand the ground.\r\n\r\n\r\n## Bone Selection\r\n\r\nUse **Select Bones** to pick which bones receive physics. Opens a\r\nbone picker dialog starting from the torso — select one or two bones\r\n(left and right). Presets let you save and restore configurations\r\nacross different models.\r\n\r\n\r\n## Suspension\r\n\r\nAdds spring-damper joints that anchor each bone to its parent.\r\nControls bounce, sway, and rotation limits. See the Suspension\r\nsub-panel for detailed joint settings.\r\n\r\n\r\n## Collision\r\n\r\nEnables SDF collider shapes (cone-like capsules) around each breast\r\nbone so they interact with arms, clothing, and the ground.\r\n**Collider Radius** and **Collider Length** set the overall size.\r\n**Collider Curve** shapes the profile — negative values make it\r\nmore bulbous, positive values taper it toward the tip.\r\n**Enable Nipple** adds a small spherical collider with adjustable\r\n**Nipple Position** and **Nipple Size**. **Friction** controls how\r\nsurfaces slide against the collider. **Collide With Arms** assigns\r\nthe collider to a separate layer for arm-specific interactions.\r\n**Visualize** renders the 3D collider meshes for debugging.\r\n\r\nBoth **Collider Curve** and **Enable Nipple** are designed to work\r\nwith cloth simulation, giving clothing something to slide against.\r\n\r\n\r\n## Softbody\r\n\r\nOverlays a particle-based XPBD softbody on the child bones of each\r\nselected root, adding jiggle deformation on top of the rigid\r\nsuspension physics. See the Softbody sub-panel for particle\r\nsettings.",
+  "descriptions": {
+    "ja": "(Adds physics simulation to breast bones on the model. Selected bones\r\nare given suspension joints that allow them to bounce and sway with\r\nmovement, plus optional collision shapes that interact with arms\r\nand the ground.\r\n\r\n\r\n## Bone Selection\r\n\r\nUse **Select Bones** to pick which bones receive physics. Opens a\r\nbone picker dialog starting from the torso — select one or two bones\r\n(left and right). Presets let you save and restore configurations\r\nacross different models.\r\n\r\n\r\n## Suspension\r\n\r\nAdds spring-damper joints that anchor each bone to its parent.\r\nControls bounce, sway, and rotation limits. See the Suspension\r\nsub-panel for detailed joint settings.\r\n\r\n\r\n## Collision\r\n\r\nEnables SDF collider shapes (cone-like capsules) around each breast\r\nbone so they interact with arms, clothing, and the ground.\r\n**Collider Radius** and **Collider Length** set the overall size.\r\n**Collider Curve** shapes the profile — negative values make it\r\nmore bulbous, positive values taper it toward the tip.\r\n**Enable Nipple** adds a small spherical collider with adjustable\r\n**Nipple Position** and **Nipple Size**. **Friction** controls how\r\nsurfaces slide against the collider. **Collide With Arms** assigns\r\nthe collider to a separate layer for arm-specific interactions.\r\n**Visualize** renders the 3D collider meshes for debugging.\r\n\r\nBoth **Collider Curve** and **Enable Nipple** are designed to work\r\nwith cloth simulation, giving clothing something to slide against.\r\n\r\n\r\n## Softbody\r\n\r\nOverlays a particle-based XPBD softbody on the child bones of each\r\nselected root, adding jiggle deformation on top of the rigid\r\nsuspension physics. See the Softbody sub-panel for particle\r\nsettings.)",
+    "zh-TW": "(Adds physics simulation to breast bones on the model. Selected bones\r\nare given suspension joints that allow them to bounce and sway with\r\nmovement, plus optional collision shapes that interact with arms\r\nand the ground.\r\n\r\n\r\n## Bone Selection\r\n\r\nUse **Select Bones** to pick which bones receive physics. Opens a\r\nbone picker dialog starting from the torso — select one or two bones\r\n(left and right). Presets let you save and restore configurations\r\nacross different models.\r\n\r\n\r\n## Suspension\r\n\r\nAdds spring-damper joints that anchor each bone to its parent.\r\nControls bounce, sway, and rotation limits. See the Suspension\r\nsub-panel for detailed joint settings.\r\n\r\n\r\n## Collision\r\n\r\nEnables SDF collider shapes (cone-like capsules) around each breast\r\nbone so they interact with arms, clothing, and the ground.\r\n**Collider Radius** and **Collider Length** set the overall size.\r\n**Collider Curve** shapes the profile — negative values make it\r\nmore bulbous, positive values taper it toward the tip.\r\n**Enable Nipple** adds a small spherical collider with adjustable\r\n**Nipple Position** and **Nipple Size**. **Friction** controls how\r\nsurfaces slide against the collider. **Collide With Arms** assigns\r\nthe collider to a separate layer for arm-specific interactions.\r\n**Visualize** renders the 3D collider meshes for debugging.\r\n\r\nBoth **Collider Curve** and **Enable Nipple** are designed to work\r\nwith cloth simulation, giving clothing something to slide against.\r\n\r\n\r\n## Softbody\r\n\r\nOverlays a particle-based XPBD softbody on the child bones of each\r\nselected root, adding jiggle deformation on top of the rigid\r\nsuspension physics. See the Softbody sub-panel for particle\r\nsettings.)",
+    "ko": "(Adds physics simulation to breast bones on the model. Selected bones\r\nare given suspension joints that allow them to bounce and sway with\r\nmovement, plus optional collision shapes that interact with arms\r\nand the ground.\r\n\r\n\r\n## Bone Selection\r\n\r\nUse **Select Bones** to pick which bones receive physics. Opens a\r\nbone picker dialog starting from the torso — select one or two bones\r\n(left and right). Presets let you save and restore configurations\r\nacross different models.\r\n\r\n\r\n## Suspension\r\n\r\nAdds spring-damper joints that anchor each bone to its parent.\r\nControls bounce, sway, and rotation limits. See the Suspension\r\nsub-panel for detailed joint settings.\r\n\r\n\r\n## Collision\r\n\r\nEnables SDF collider shapes (cone-like capsules) around each breast\r\nbone so they interact with arms, clothing, and the ground.\r\n**Collider Radius** and **Collider Length** set the overall size.\r\n**Collider Curve** shapes the profile — negative values make it\r\nmore bulbous, positive values taper it toward the tip.\r\n**Enable Nipple** adds a small spherical collider with adjustable\r\n**Nipple Position** and **Nipple Size**. **Friction** controls how\r\nsurfaces slide against the collider. **Collide With Arms** assigns\r\nthe collider to a separate layer for arm-specific interactions.\r\n**Visualize** renders the 3D collider meshes for debugging.\r\n\r\nBoth **Collider Curve** and **Enable Nipple** are designed to work\r\nwith cloth simulation, giving clothing something to slide against.\r\n\r\n\r\n## Softbody\r\n\r\nOverlays a particle-based XPBD softbody on the child bones of each\r\nselected root, adding jiggle deformation on top of the rigid\r\nsuspension physics. See the Softbody sub-panel for particle\r\nsettings.)",
+    "zh-CN": "(Adds physics simulation to breast bones on the model. Selected bones\r\nare given suspension joints that allow them to bounce and sway with\r\nmovement, plus optional collision shapes that interact with arms\r\nand the ground.\r\n\r\n\r\n## Bone Selection\r\n\r\nUse **Select Bones** to pick which bones receive physics. Opens a\r\nbone picker dialog starting from the torso — select one or two bones\r\n(left and right). Presets let you save and restore configurations\r\nacross different models.\r\n\r\n\r\n## Suspension\r\n\r\nAdds spring-damper joints that anchor each bone to its parent.\r\nControls bounce, sway, and rotation limits. See the Suspension\r\nsub-panel for detailed joint settings.\r\n\r\n\r\n## Collision\r\n\r\nEnables SDF collider shapes (cone-like capsules) around each breast\r\nbone so they interact with arms, clothing, and the ground.\r\n**Collider Radius** and **Collider Length** set the overall size.\r\n**Collider Curve** shapes the profile — negative values make it\r\nmore bulbous, positive values taper it toward the tip.\r\n**Enable Nipple** adds a small spherical collider with adjustable\r\n**Nipple Position** and **Nipple Size**. **Friction** controls how\r\nsurfaces slide against the collider. **Collide With Arms** assigns\r\nthe collider to a separate layer for arm-specific interactions.\r\n**Visualize** renders the 3D collider meshes for debugging.\r\n\r\nBoth **Collider Curve** and **Enable Nipple** are designed to work\r\nwith cloth simulation, giving clothing something to slide against.\r\n\r\n\r\n## Softbody\r\n\r\nOverlays a particle-based XPBD softbody on the child bones of each\r\nselected root, adding jiggle deformation on top of the rigid\r\nsuspension physics. See the Softbody sub-panel for particle\r\nsettings.)"
+  },
+  "values": [
+    {
+      "name": "Select Bones",
+      "type": "value",
+      "label": "Select Bones",
+      "labels": {
+        "ja": "選択ボーン",
+        "zh-TW": "選擇骨骼",
+        "ko": "선택 본",
+        "zh-CN": "选择骨骼"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Suspension",
+      "type": "group",
+      "label": "Suspension",
+      "labels": {
+        "ja": "吊り下げ",
+        "zh-TW": "懸掛",
+        "ko": "현수",
+        "zh-CN": "悬挂"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Adds a spring-damper suspension joint to a bone, anchoring\r\nit to its parent with configurable **Anchor** position and\r\n**Center Offset**. **Spring Force**, **Damping**, **Mass**,\r\nand **Drag** control the joint dynamics. **Radius** sets\r\nthe collider size; **Rest Angle** adds a rotational bias.\r\n**Rotation Limit** constrains swing and twist angles with\r\ntheir own spring and damping. **Visualize Joints** renders\r\nthe constraint shape.",
+      "descriptions": {
+        "ja": "(Adds a spring-damper suspension joint to a bone, anchoring\r\nit to its parent with configurable **Anchor** position and\r\n**Center Offset**. **Spring Force**, **Damping**, **Mass**,\r\nand **Drag** control the joint dynamics. **Radius** sets\r\nthe collider size; **Rest Angle** adds a rotational bias.\r\n**Rotation Limit** constrains swing and twist angles with\r\ntheir own spring and damping. **Visualize Joints** renders\r\nthe constraint shape.)",
+        "zh-TW": "(Adds a spring-damper suspension joint to a bone, anchoring\r\nit to its parent with configurable **Anchor** position and\r\n**Center Offset**. **Spring Force**, **Damping**, **Mass**,\r\nand **Drag** control the joint dynamics. **Radius** sets\r\nthe collider size; **Rest Angle** adds a rotational bias.\r\n**Rotation Limit** constrains swing and twist angles with\r\ntheir own spring and damping. **Visualize Joints** renders\r\nthe constraint shape.)",
+        "ko": "(Adds a spring-damper suspension joint to a bone, anchoring\r\nit to its parent with configurable **Anchor** position and\r\n**Center Offset**. **Spring Force**, **Damping**, **Mass**,\r\nand **Drag** control the joint dynamics. **Radius** sets\r\nthe collider size; **Rest Angle** adds a rotational bias.\r\n**Rotation Limit** constrains swing and twist angles with\r\ntheir own spring and damping. **Visualize Joints** renders\r\nthe constraint shape.)",
+        "zh-CN": "(Adds a spring-damper suspension joint to a bone, anchoring\r\nit to its parent with configurable **Anchor** position and\r\n**Center Offset**. **Spring Force**, **Damping**, **Mass**,\r\nand **Drag** control the joint dynamics. **Radius** sets\r\nthe collider size; **Rest Angle** adds a rotational bias.\r\n**Rotation Limit** constrains swing and twist angles with\r\ntheir own spring and damping. **Visualize Joints** renders\r\nthe constraint shape.)"
+      },
+      "values": [
+        {
+          "name": "Anchor",
+          "type": "group",
+          "label": "Anchor",
+          "labels": {
+            "ja": "アンカー",
+            "zh-TW": "錨點",
+            "ko": "앵커",
+            "zh-CN": "固定点"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "X",
+              "type": "float",
+              "label": "X",
+              "labels": {
+                "ja": "(X)",
+                "zh-TW": "(X)",
+                "ko": "(X)",
+                "zh-CN": "(X)"
+              },
+              "default": -0.01,
+              "min": -0.2,
+              "max": 0.2,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Y",
+              "type": "float",
+              "label": "Y",
+              "labels": {
+                "ja": "(Y)",
+                "zh-TW": "(Y)",
+                "ko": "(Y)",
+                "zh-CN": "(Y)"
+              },
+              "default": 0.01,
+              "min": -0.2,
+              "max": 0.2,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Z",
+              "type": "float",
+              "label": "Z",
+              "labels": {
+                "ja": "(Z)",
+                "zh-TW": "(Z)",
+                "ko": "(Z)",
+                "zh-CN": "(Z)"
+              },
+              "default": 0.05,
+              "min": -0.2,
+              "max": 0.2,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Center Offset",
+          "type": "group",
+          "label": "Center Offset",
+          "labels": {
+            "ja": "中心オフセット",
+            "zh-TW": "中心偏移",
+            "ko": "중앙 오프셋",
+            "zh-CN": "中心偏移"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "X",
+              "type": "float",
+              "label": "X",
+              "labels": {
+                "ja": "(X)",
+                "zh-TW": "(X)",
+                "ko": "(X)",
+                "zh-CN": "(X)"
+              },
+              "default": 0,
+              "min": -0.2,
+              "max": 0.2,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Y",
+              "type": "float",
+              "label": "Y",
+              "labels": {
+                "ja": "(Y)",
+                "zh-TW": "(Y)",
+                "ko": "(Y)",
+                "zh-CN": "(Y)"
+              },
+              "default": 0,
+              "min": -0.2,
+              "max": 0.2,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Z",
+              "type": "float",
+              "label": "Z",
+              "labels": {
+                "ja": "(Z)",
+                "zh-TW": "(Z)",
+                "ko": "(Z)",
+                "zh-CN": "(Z)"
+              },
+              "default": 0,
+              "min": -0.2,
+              "max": 0.2,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Spring Force",
+          "type": "float",
+          "label": "Spring Force",
+          "labels": {
+            "ja": "ばね力",
+            "zh-TW": "彈簧力",
+            "ko": "용수철 힘",
+            "zh-CN": "弹簧力"
+          },
+          "default": 1.5,
+          "min": 0,
+          "max": 5,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Damping",
+          "type": "float",
+          "label": "Damping",
+          "labels": {
+            "ja": "ダンピング",
+            "zh-TW": "阻尼",
+            "ko": "감쇠",
+            "zh-CN": "阻尼"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Mass",
+          "type": "float",
+          "label": "Mass",
+          "labels": {
+            "ja": "質量",
+            "zh-TW": "質量",
+            "ko": "질량",
+            "zh-CN": "质量"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Drag",
+          "type": "float",
+          "label": "Drag",
+          "labels": {
+            "ja": "ドラッグ",
+            "zh-TW": "阻力",
+            "ko": "항력",
+            "zh-CN": "阻力"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Radius",
+          "type": "float",
+          "label": "Radius",
+          "labels": {
+            "ja": "半径",
+            "zh-TW": "半徑",
+            "ko": "반지름",
+            "zh-CN": "半径"
+          },
+          "default": 0.05,
+          "min": 0.01,
+          "max": 0.1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Rest Angle",
+          "type": "float",
+          "label": "Rest Angle",
+          "labels": {
+            "ja": "休息角",
+            "zh-TW": "靜止角度",
+            "ko": "휴식 각도",
+            "zh-CN": "静止角度"
+          },
+          "default": 0,
+          "min": -45,
+          "max": 45,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Rotation Limit",
+          "type": "group",
+          "label": "Rotation Limit",
+          "labels": {
+            "ja": "回転制限",
+            "zh-TW": "旋轉限制",
+            "ko": "회전 제한",
+            "zh-CN": "旋转限制"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "Limit X Lower",
+              "type": "float",
+              "label": "Up Limit",
+              "labels": {
+                "ja": "上限",
+                "zh-TW": "上限限制",
+                "ko": "상한 제한",
+                "zh-CN": "上限"
+              },
+              "default": 100,
+              "min": 0,
+              "max": 120,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Limit X Upper",
+              "type": "float",
+              "label": "Down Limit",
+              "labels": {
+                "ja": "下限",
+                "zh-TW": "下限限制",
+                "ko": "하한 제한",
+                "zh-CN": "下限"
+              },
+              "default": 15,
+              "min": 0,
+              "max": 45,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Limit Y",
+              "type": "float",
+              "label": "Left / Right Limit",
+              "labels": {
+                "ja": "左右の制限",
+                "zh-TW": "左/右限制",
+                "ko": "좌/우 제한",
+                "zh-CN": "左/右限制"
+              },
+              "default": 25,
+              "min": 0,
+              "max": 45,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Spring Force",
+              "type": "float",
+              "label": "Spring Force",
+              "labels": {
+                "ja": "ばね力",
+                "zh-TW": "彈簧力",
+                "ko": "용수철 힘",
+                "zh-CN": "弹簧力"
+              },
+              "default": 1.25,
+              "min": 0,
+              "max": 10,
+              "options": null,
+              "description": "Spring force when exceeding limit",
+              "descriptions": {
+                "ja": "制限を超えたときのばね力",
+                "zh-TW": "超出限制時的彈簧力",
+                "ko": "제한 초과 시 스프링 힘",
+                "zh-CN": "超过限制时的弹簧力"
+              }
+            },
+            {
+              "name": "Damping",
+              "type": "float",
+              "label": "Damping",
+              "labels": {
+                "ja": "ダンピング",
+                "zh-TW": "阻尼",
+                "ko": "감쇠",
+                "zh-CN": "阻尼"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Contact Distance",
+              "type": "float",
+              "label": "Contact Distance",
+              "labels": {
+                "ja": "接触距離",
+                "zh-TW": "接觸距離",
+                "ko": "접촉 거리",
+                "zh-CN": "接触距离"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Bounce",
+              "type": "float",
+              "label": "Bounce",
+              "labels": {
+                "ja": "反発力",
+                "zh-TW": "彈跳",
+                "ko": "반동",
+                "zh-CN": "反弹"
+              },
+              "default": 0.2,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Visualize Joints",
+          "type": "bool",
+          "label": "Visualize Joints",
+          "labels": {
+            "ja": "ジョイントの可視化",
+            "zh-TW": "可視化關節",
+            "ko": "조인트 시각화",
+            "zh-CN": "可视化关节"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Collision",
+      "type": "group",
+      "label": "Collision",
+      "labels": {
+        "ja": "衝突",
+        "zh-TW": "碰撞",
+        "ko": "충돌",
+        "zh-CN": "碰撞"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Collide With Arms",
+          "type": "bool",
+          "label": "Collide With Arms",
+          "labels": {
+            "ja": "腕との衝突",
+            "zh-TW": "與手臂碰撞",
+            "ko": "팔과 충돌",
+            "zh-CN": "与手臂碰撞"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Collider Radius",
+          "type": "float",
+          "label": "Collider Radius",
+          "labels": {
+            "ja": "コライダー半径",
+            "zh-TW": "碰撞器半徑",
+            "ko": "콜라이더 반지름",
+            "zh-CN": "碰撞器半径"
+          },
+          "default": 0.07,
+          "min": 0,
+          "max": 0.1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Collider Length",
+          "type": "float",
+          "label": "Collider Length",
+          "labels": {
+            "ja": "コライダーの長さ",
+            "zh-TW": "碰撞器長度",
+            "ko": "콜라이더 길이",
+            "zh-CN": "碰撞器长度"
+          },
+          "default": 0.65,
+          "min": 0.2,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Collider Curve",
+          "type": "float",
+          "label": "Collider Curve",
+          "labels": {
+            "ja": "コライダーカーブ",
+            "zh-TW": "碰撞器曲線",
+            "ko": "콜라이더 곡선",
+            "zh-CN": "碰撞器曲线"
+          },
+          "default": 2,
+          "min": -2,
+          "max": 2,
+          "options": null,
+          "description": "Works with cloth simulation.",
+          "descriptions": {
+            "ja": "クロスシミュレーションに対応",
+            "zh-TW": "與布料模擬協同工作。",
+            "ko": "천 시뮬레이션과 작동함.",
+            "zh-CN": "适用于布料模拟。"
+          }
+        },
+        {
+          "name": "Visualize",
+          "type": "bool",
+          "label": "Visualize",
+          "labels": {
+            "ja": "視覚化",
+            "zh-TW": "視覺化",
+            "ko": "시각화",
+            "zh-CN": "可视化"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Enable Nipple",
+          "type": "bool",
+          "label": "Enable Nipple",
+          "labels": {
+            "ja": "乳首の有効化",
+            "zh-TW": "啟用乳暈",
+            "ko": "젖꼭지 활성화",
+            "zh-CN": "启用乳头"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Works with cloth simulation.",
+          "descriptions": {
+            "ja": "クロスシミュレーションに対応",
+            "zh-TW": "與布料模擬協同工作。",
+            "ko": "천 시뮬레이션과 작동함.",
+            "zh-CN": "适用于布料模拟。"
+          }
+        },
+        {
+          "name": "Friction",
+          "type": "float",
+          "label": "Friction",
+          "labels": {
+            "ja": "摩擦",
+            "zh-TW": "摩擦力",
+            "ko": "마찰",
+            "zh-CN": "摩擦力"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Friction of the boob collider.",
+          "descriptions": {
+            "ja": "ブブズコライダーの摩擦",
+            "zh-TW": "胸部碰撞器的摩擦力。",
+            "ko": "보디스 콜라이더 마찰",
+            "zh-CN": "胸部碰撞器的摩擦力。"
+          }
+        },
+        {
+          "name": "Nipple Position",
+          "type": "group",
+          "label": "Nipple Position",
+          "labels": {
+            "ja": "乳首位置",
+            "zh-TW": "乳暈位置",
+            "ko": "젖꼭지 위치",
+            "zh-CN": "乳头位置"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "X",
+              "type": "float",
+              "label": "X",
+              "labels": {
+                "ja": "(X)",
+                "zh-TW": "(X)",
+                "ko": "(X)",
+                "zh-CN": "(X)"
+              },
+              "default": -0.18,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Y",
+              "type": "float",
+              "label": "Y",
+              "labels": {
+                "ja": "(Y)",
+                "zh-TW": "(Y)",
+                "ko": "(Y)",
+                "zh-CN": "(Y)"
+              },
+              "default": 0.09,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Z",
+              "type": "float",
+              "label": "Z",
+              "labels": {
+                "ja": "(Z)",
+                "zh-TW": "(Z)",
+                "ko": "(Z)",
+                "zh-CN": "(Z)"
+              },
+              "default": 0.2,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Nipple Size",
+          "type": "float",
+          "label": "Nipple Size",
+          "labels": {
+            "ja": "乳首サイズ",
+            "zh-TW": "乳暈大小",
+            "ko": "젖꼭지 크기",
+            "zh-CN": "乳头大小"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Softbody",
+      "type": "group",
+      "label": "Softbody",
+      "labels": {
+        "ja": "ソフトボディ",
+        "zh-TW": "軟體物體",
+        "ko": "소프트바디",
+        "zh-CN": "软体"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.",
+      "descriptions": {
+        "ja": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
+        "zh-TW": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
+        "ko": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
+        "zh-CN": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)"
+      },
+      "values": [
+        {
+          "name": "Depth",
+          "type": "float",
+          "label": "Depth",
+          "labels": {
+            "ja": "奥行き",
+            "zh-TW": "深度",
+            "ko": "깊이",
+            "zh-CN": "深度"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Edge Depth",
+          "type": "float",
+          "label": "Edge Depth",
+          "labels": {
+            "ja": "エッジ深度",
+            "zh-TW": "邊緣深度",
+            "ko": "엣지 깊이",
+            "zh-CN": "边缘深度"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
+          "descriptions": {
+            "ja": "エッジ上の粒子の深度を減らし、形状をボーンに近づける。",
+            "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
+            "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
+            "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
+          }
+        },
+        {
+          "name": "Layers",
+          "type": "int",
+          "label": "Layers",
+          "labels": {
+            "ja": "レイヤー",
+            "zh-TW": "層級",
+            "ko": "레이어",
+            "zh-CN": "层级"
+          },
+          "default": 2,
+          "min": 1,
+          "max": 5,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Depth Distribution",
+          "type": "float",
+          "label": "Depth Distribution",
+          "labels": {
+            "ja": "深度分布",
+            "zh-TW": "深度分佈",
+            "ko": "깊이 분포",
+            "zh-CN": "深度分布"
+          },
+          "default": 0,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": "Controls how depth is distributed across layers.",
+          "descriptions": {
+            "ja": "層全体にわたる深度の分布を制御する。",
+            "zh-TW": "控制深度在各層次的分配方式。",
+            "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
+            "zh-CN": "控制深度如何在层级间分布。"
+          }
+        },
+        {
+          "name": "Subdivision",
+          "type": "int",
+          "label": "Subdivision",
+          "labels": {
+            "ja": "サブディビジョン",
+            "zh-TW": "細分",
+            "ko": "세분화",
+            "zh-CN": "细分"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 3,
+          "options": null,
+          "description": "Number of subdivisions for each prism between layers.",
+          "descriptions": {
+            "ja": "層間の各プリズムのサブディビジョン数。",
+            "zh-TW": "各層次之間每個稜柱的細分數量。",
+            "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
+            "zh-CN": "层级间每个棱柱的细分数量。"
+          }
+        },
+        {
+          "name": "Volume Constraint",
+          "type": "float",
+          "label": "Volume Constraint",
+          "labels": {
+            "ja": "体積制約",
+            "zh-TW": "體積約束",
+            "ko": "볼륨 제약",
+            "zh-CN": "体积约束"
+          },
+          "default": 1,
+          "min": 0.5,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Edge Constraint",
+          "type": "float",
+          "label": "Edge Constraint",
+          "labels": {
+            "ja": "エッジ制約",
+            "zh-TW": "邊緣約束",
+            "ko": "엣지 제약",
+            "zh-CN": "边缘约束"
+          },
+          "default": 1,
+          "min": 0.5,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Rotation Constraint",
+          "type": "float",
+          "label": "Rotation Constraint",
+          "labels": {
+            "ja": "回転制約",
+            "zh-TW": "旋轉約束",
+            "ko": "회전 제약",
+            "zh-CN": "旋转约束"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Constraint Damping",
+          "type": "float",
+          "label": "Constraint Damping",
+          "labels": {
+            "ja": "制約減衰",
+            "zh-TW": "限制阻尼",
+            "ko": "제약 감쇠",
+            "zh-CN": "约束阻尼"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Visualize Mesh",
+          "type": "bool",
+          "label": "Visualize Mesh",
+          "labels": {
+            "ja": "メッシュを表示",
+            "zh-TW": "可視化網格",
+            "ko": "메시 시각화",
+            "zh-CN": "可视化网格"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Inertia",
+          "type": "float",
+          "label": "Inertia",
+          "labels": {
+            "ja": "慣性",
+            "zh-TW": "慣性",
+            "ko": "관성",
+            "zh-CN": "惯性"
+          },
+          "default": 1,
+          "min": 1,
+          "max": 5,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Particle Radius",
+          "type": "float",
+          "label": "Particle Radius",
+          "labels": {
+            "ja": "粒子半径",
+            "zh-TW": "粒子半徑",
+            "ko": "입자 반지름",
+            "zh-CN": "粒子半径"
+          },
+          "default": 5,
+          "min": 1,
+          "max": 20,
+          "options": null,
+          "description": "Size of particle in millimeters",
+          "descriptions": {
+            "ja": "パーティクルのサイズ（ミリメートル）",
+            "zh-TW": "粒子尺寸（毫米）",
+            "ko": "입자 크기 (밀리미터)",
+            "zh-CN": "粒子尺寸（毫米）"
+          }
+        },
+        {
+          "name": "Gravity",
+          "type": "float",
+          "label": "Gravity",
+          "labels": {
+            "ja": "重力",
+            "zh-TW": "重力",
+            "ko": "중력",
+            "zh-CN": "重力"
+          },
+          "default": 9.8,
+          "min": -9.8,
+          "max": 9.8,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Friction",
+          "type": "float",
+          "label": "Friction",
+          "labels": {
+            "ja": "摩擦",
+            "zh-TW": "摩擦力",
+            "ko": "마찰",
+            "zh-CN": "摩擦力"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Drag (Air)",
+          "type": "float",
+          "label": "Drag (Air)",
+          "labels": {
+            "ja": "空気抵抗",
+            "zh-TW": "阻力（空氣）",
+            "ko": "항력 (공기)",
+            "zh-CN": "阻力（空气）"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": "Air resistancy",
+          "descriptions": {
+            "ja": "空気抵抗",
+            "zh-TW": "空氣阻力",
+            "ko": "공기 저항",
+            "zh-CN": "空气阻力"
+          }
+        },
+        {
+          "name": "Drag (Underwater)",
+          "type": "float",
+          "label": "Drag (Underwater)",
+          "labels": {
+            "ja": "水中抵抗",
+            "zh-TW": "阻力（水下）",
+            "ko": "항력 (수중)",
+            "zh-CN": "阻力（水下）"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": "Underwater resistancy",
+          "descriptions": {
+            "ja": "水中抵抗",
+            "zh-TW": "水下阻力",
+            "ko": "수중 저항",
+            "zh-CN": "水下阻力"
+          }
+        },
+        {
+          "name": "Buoyancy",
+          "type": "float",
+          "label": "Buoyancy",
+          "labels": {
+            "ja": "浮力",
+            "zh-TW": "浮力",
+            "ko": "부력",
+            "zh-CN": "浮力"
+          },
+          "default": -0.1,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Wind",
+          "type": "group",
+          "label": "Wind",
+          "labels": {
+            "ja": "風",
+            "zh-TW": "風",
+            "ko": "바람",
+            "zh-CN": "风力"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "Wind Influence",
+              "type": "float",
+              "label": "Wind Influence",
+              "labels": {
+                "ja": "風の影響",
+                "zh-TW": "風影響力",
+                "ko": "바람 영향력",
+                "zh-CN": "风力影响"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Turbulence Scale",
+              "type": "float",
+              "label": "Turbulence Scale",
+              "labels": {
+                "ja": "乱流スケール",
+                "zh-TW": "湍流尺度",
+                "ko": "난류 스케일",
+                "zh-CN": "湍流尺度"
+              },
+              "default": 0,
+              "min": -2,
+              "max": 2,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Turbulence Intensity",
+              "type": "float",
+              "label": "Turbulence Intensity",
+              "labels": {
+                "ja": "乱流強度",
+                "zh-TW": "湍流強度",
+                "ko": "난류 강도",
+                "zh-CN": "湍流强度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 2,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Turbulence Time Scale",
+              "type": "float",
+              "label": "Turbulence Time Scale",
+              "labels": {
+                "ja": "乱流時間スケール",
+                "zh-TW": "湍流時間尺度",
+                "ko": "난류 시간 스케일",
+                "zh-CN": "湍流时间尺度"
+              },
+              "default": 0,
+              "min": -4,
+              "max": 4,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Collide With",
+          "type": "group",
+          "label": "Collide With",
+          "labels": {
+            "ja": "と衝突",
+            "zh-TW": "與碰撞",
+            "ko": "충돌 대상",
+            "zh-CN": "碰撞对象"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "Head",
+              "type": "bool",
+              "label": "Head",
+              "labels": {
+                "ja": "頭",
+                "zh-TW": "頭部",
+                "ko": "머리",
+                "zh-CN": "头部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Body",
+              "type": "bool",
+              "label": "Body",
+              "labels": {
+                "ja": "体",
+                "zh-TW": "身體",
+                "ko": "몸통",
+                "zh-CN": "身体"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Boobs",
+              "type": "bool",
+              "label": "Boobs",
+              "labels": {
+                "ja": "ブブズ",
+                "zh-TW": "胸部",
+                "ko": "보디스",
+                "zh-CN": "胸部"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Butts",
+              "type": "bool",
+              "label": "Butts",
+              "labels": {
+                "ja": "臀部",
+                "zh-TW": "臀部",
+                "ko": "엉덩이",
+                "zh-CN": "臀部"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Arms",
+              "type": "bool",
+              "label": "Arms",
+              "labels": {
+                "ja": "(Arms)",
+                "zh-TW": "(Arms)",
+                "ko": "(Arms)",
+                "zh-CN": "(Arms)"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Hands",
+              "type": "bool",
+              "label": "Hands",
+              "labels": {
+                "ja": "手",
+                "zh-TW": "手部",
+                "ko": "손",
+                "zh-CN": "手部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Legs",
+              "type": "bool",
+              "label": "Legs",
+              "labels": {
+                "ja": "脚",
+                "zh-TW": "腿部",
+                "ko": "다리",
+                "zh-CN": "腿部"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Feet",
+              "type": "bool",
+              "label": "Feet",
+              "labels": {
+                "ja": "足",
+                "zh-TW": "足部",
+                "ko": "발",
+                "zh-CN": "脚部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Holes",
+              "type": "bool",
+              "label": "Holes",
+              "labels": {
+                "ja": "(Holes)",
+                "zh-TW": "(Holes)",
+                "ko": "(Holes)",
+                "zh-CN": "(Holes)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Player",
+              "type": "bool",
+              "label": "Player",
+              "labels": {
+                "ja": "プレイヤー",
+                "zh-TW": "玩家",
+                "ko": "플레이어",
+                "zh-CN": "玩家"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Cloth Layer 1",
+              "type": "bool",
+              "label": "Cloth Layer 1",
+              "labels": {
+                "ja": "(Cloth Layer 1)",
+                "zh-TW": "(Cloth Layer 1)",
+                "ko": "(Cloth Layer 1)",
+                "zh-CN": "(Cloth Layer 1)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Cloth Layer 2",
+              "type": "bool",
+              "label": "Cloth Layer 2",
+              "labels": {
+                "ja": "(Cloth Layer 2)",
+                "zh-TW": "(Cloth Layer 2)",
+                "ko": "(Cloth Layer 2)",
+                "zh-CN": "(Cloth Layer 2)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Hair",
+              "type": "bool",
+              "label": "Hair",
+              "labels": {
+                "ja": "髪",
+                "zh-TW": "頭髮",
+                "ko": "머리카락",
+                "zh-CN": "头发"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Soft Boobs",
+              "type": "bool",
+              "label": "Soft Boobs",
+              "labels": {
+                "ja": "(Soft Boobs)",
+                "zh-TW": "(Soft Boobs)",
+                "ko": "(Soft Boobs)",
+                "zh-CN": "(Soft Boobs)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Soft Butts",
+              "type": "bool",
+              "label": "Soft Butts",
+              "labels": {
+                "ja": "(Soft Butts)",
+                "zh-TW": "(Soft Butts)",
+                "ko": "(Soft Butts)",
+                "zh-CN": "(Soft Butts)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Show Bones",
+          "type": "bool",
+          "label": "Show Bones",
+          "labels": {
+            "ja": "ボーンを表示",
+            "zh-TW": "顯示骨骼",
+            "ko": "본 표시",
+            "zh-CN": "显示骨骼"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    }
+  ]
+}

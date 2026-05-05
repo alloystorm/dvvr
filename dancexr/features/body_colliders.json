@@ -1,0 +1,440 @@
+{
+  "name": "Body Colliders",
+  "docPath": "features/body_colliders",
+  "label": "Body Colliders",
+  "labels": {
+    "ja": "ボディコライダー",
+    "zh-TW": "身體碰撞體",
+    "ko": "바디 콜라이더",
+    "zh-CN": "身体碰撞体"
+  },
+  "description": "Creates capsule and sphere collision shapes around the\r\nactor's body for physics interaction — used by cloth, hair,\r\nand other dynamic parts to bounce off the body instead of\r\nclipping through.\r\n\r\n\r\n## Global Size\r\n\r\n**Size** is a master multiplier applied to all collider\r\nradii. Adjust this first to match the model's overall scale\r\nbefore fine-tuning individual regions.\r\n\r\n\r\n## Body Regions\r\n\r\nIndividual sliders scale specific areas relative to the\r\nglobal size: **Head Radius**, **Arm Radius**, **Forearms**,\r\n**Chest Width**, **Waist Width**, **Hips Width**, **Leg\r\nRadius**, **Butts Radius**, and **Belly Radius**. Values\r\nabove 1 enlarge the collider; below 1 shrinks it.\r\n\r\n**Butts Position** and **Belly Position** shift those\r\ncolliders in 3D space to match the model's proportions.\r\n**Thigh Fwd/Back** adjusts thigh collider placement;\r\n**Thigh Start Position** controls where along the leg chain\r\ncolliders begin.\r\n\r\n\r\n## Visualization\r\n\r\nIn wireframe physics mode, **Visualize** renders the\r\ncollider shapes as translucent gizmos for debugging.",
+  "descriptions": {
+    "ja": "(Creates capsule and sphere collision shapes around the\r\nactor's body for physics interaction — used by cloth, hair,\r\nand other dynamic parts to bounce off the body instead of\r\nclipping through.\r\n\r\n\r\n## Global Size\r\n\r\n**Size** is a master multiplier applied to all collider\r\nradii. Adjust this first to match the model's overall scale\r\nbefore fine-tuning individual regions.\r\n\r\n\r\n## Body Regions\r\n\r\nIndividual sliders scale specific areas relative to the\r\nglobal size: **Head Radius**, **Arm Radius**, **Forearms**,\r\n**Chest Width**, **Waist Width**, **Hips Width**, **Leg\r\nRadius**, **Butts Radius**, and **Belly Radius**. Values\r\nabove 1 enlarge the collider; below 1 shrinks it.\r\n\r\n**Butts Position** and **Belly Position** shift those\r\ncolliders in 3D space to match the model's proportions.\r\n**Thigh Fwd/Back** adjusts thigh collider placement;\r\n**Thigh Start Position** controls where along the leg chain\r\ncolliders begin.\r\n\r\n\r\n## Visualization\r\n\r\nIn wireframe physics mode, **Visualize** renders the\r\ncollider shapes as translucent gizmos for debugging.)",
+    "zh-TW": "(Creates capsule and sphere collision shapes around the\r\nactor's body for physics interaction — used by cloth, hair,\r\nand other dynamic parts to bounce off the body instead of\r\nclipping through.\r\n\r\n\r\n## Global Size\r\n\r\n**Size** is a master multiplier applied to all collider\r\nradii. Adjust this first to match the model's overall scale\r\nbefore fine-tuning individual regions.\r\n\r\n\r\n## Body Regions\r\n\r\nIndividual sliders scale specific areas relative to the\r\nglobal size: **Head Radius**, **Arm Radius**, **Forearms**,\r\n**Chest Width**, **Waist Width**, **Hips Width**, **Leg\r\nRadius**, **Butts Radius**, and **Belly Radius**. Values\r\nabove 1 enlarge the collider; below 1 shrinks it.\r\n\r\n**Butts Position** and **Belly Position** shift those\r\ncolliders in 3D space to match the model's proportions.\r\n**Thigh Fwd/Back** adjusts thigh collider placement;\r\n**Thigh Start Position** controls where along the leg chain\r\ncolliders begin.\r\n\r\n\r\n## Visualization\r\n\r\nIn wireframe physics mode, **Visualize** renders the\r\ncollider shapes as translucent gizmos for debugging.)",
+    "ko": "(Creates capsule and sphere collision shapes around the\r\nactor's body for physics interaction — used by cloth, hair,\r\nand other dynamic parts to bounce off the body instead of\r\nclipping through.\r\n\r\n\r\n## Global Size\r\n\r\n**Size** is a master multiplier applied to all collider\r\nradii. Adjust this first to match the model's overall scale\r\nbefore fine-tuning individual regions.\r\n\r\n\r\n## Body Regions\r\n\r\nIndividual sliders scale specific areas relative to the\r\nglobal size: **Head Radius**, **Arm Radius**, **Forearms**,\r\n**Chest Width**, **Waist Width**, **Hips Width**, **Leg\r\nRadius**, **Butts Radius**, and **Belly Radius**. Values\r\nabove 1 enlarge the collider; below 1 shrinks it.\r\n\r\n**Butts Position** and **Belly Position** shift those\r\ncolliders in 3D space to match the model's proportions.\r\n**Thigh Fwd/Back** adjusts thigh collider placement;\r\n**Thigh Start Position** controls where along the leg chain\r\ncolliders begin.\r\n\r\n\r\n## Visualization\r\n\r\nIn wireframe physics mode, **Visualize** renders the\r\ncollider shapes as translucent gizmos for debugging.)",
+    "zh-CN": "(Creates capsule and sphere collision shapes around the\r\nactor's body for physics interaction — used by cloth, hair,\r\nand other dynamic parts to bounce off the body instead of\r\nclipping through.\r\n\r\n\r\n## Global Size\r\n\r\n**Size** is a master multiplier applied to all collider\r\nradii. Adjust this first to match the model's overall scale\r\nbefore fine-tuning individual regions.\r\n\r\n\r\n## Body Regions\r\n\r\nIndividual sliders scale specific areas relative to the\r\nglobal size: **Head Radius**, **Arm Radius**, **Forearms**,\r\n**Chest Width**, **Waist Width**, **Hips Width**, **Leg\r\nRadius**, **Butts Radius**, and **Belly Radius**. Values\r\nabove 1 enlarge the collider; below 1 shrinks it.\r\n\r\n**Butts Position** and **Belly Position** shift those\r\ncolliders in 3D space to match the model's proportions.\r\n**Thigh Fwd/Back** adjusts thigh collider placement;\r\n**Thigh Start Position** controls where along the leg chain\r\ncolliders begin.\r\n\r\n\r\n## Visualization\r\n\r\nIn wireframe physics mode, **Visualize** renders the\r\ncollider shapes as translucent gizmos for debugging.)"
+  },
+  "values": [
+    {
+      "name": "Size",
+      "type": "float",
+      "label": "Size",
+      "labels": {
+        "ja": "サイズ",
+        "zh-TW": "尺寸",
+        "ko": "크기",
+        "zh-CN": "大小"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Head Radius",
+      "type": "float",
+      "label": "Head Radius",
+      "labels": {
+        "ja": "頭の半径",
+        "zh-TW": "頭部半徑",
+        "ko": "머리 반지름",
+        "zh-CN": "头部半径"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Arm Radius",
+      "type": "float",
+      "label": "Arm Radius",
+      "labels": {
+        "ja": "腕の半径",
+        "zh-TW": "手臂半徑",
+        "ko": "팔 반지름",
+        "zh-CN": "手臂半径"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Forearms",
+      "type": "float",
+      "label": "Forearms",
+      "labels": {
+        "ja": "前腕",
+        "zh-TW": "前臂",
+        "ko": "전완",
+        "zh-CN": "前臂"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Chest Width",
+      "type": "float",
+      "label": "Chest Width",
+      "labels": {
+        "ja": "胸の幅",
+        "zh-TW": "胸部寬度",
+        "ko": "가슴 너비",
+        "zh-CN": "胸部宽度"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Waist Width",
+      "type": "float",
+      "label": "Waist Width",
+      "labels": {
+        "ja": "腰の幅",
+        "zh-TW": "腰部寬度",
+        "ko": "허리 너비",
+        "zh-CN": "腰部宽度"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Hips Width",
+      "type": "float",
+      "label": "Hips Width",
+      "labels": {
+        "ja": "お尻の幅",
+        "zh-TW": "髖部寬度",
+        "ko": "골반 너비",
+        "zh-CN": "臀部宽度"
+      },
+      "default": 0,
+      "min": -1,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Butts Radius",
+      "type": "float",
+      "label": "Butts Radius",
+      "labels": {
+        "ja": "臀部の半径",
+        "zh-TW": "臀部半徑",
+        "ko": "엉덩이 반지름",
+        "zh-CN": "臀部半径"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Butts Position",
+      "type": "group",
+      "label": "Butts Position",
+      "labels": {
+        "ja": "臀部の位置",
+        "zh-TW": "臀部位置",
+        "ko": "엉덩이 위치",
+        "zh-CN": "臀部位置"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "X",
+          "type": "float",
+          "label": "X",
+          "labels": {
+            "ja": "(X)",
+            "zh-TW": "(X)",
+            "ko": "(X)",
+            "zh-CN": "(X)"
+          },
+          "default": 0,
+          "min": -0.1,
+          "max": 0.1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Y",
+          "type": "float",
+          "label": "Y",
+          "labels": {
+            "ja": "(Y)",
+            "zh-TW": "(Y)",
+            "ko": "(Y)",
+            "zh-CN": "(Y)"
+          },
+          "default": 0,
+          "min": -0.1,
+          "max": 0.1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Z",
+          "type": "float",
+          "label": "Z",
+          "labels": {
+            "ja": "(Z)",
+            "zh-TW": "(Z)",
+            "ko": "(Z)",
+            "zh-CN": "(Z)"
+          },
+          "default": 0,
+          "min": -0.1,
+          "max": 0.1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Belly Radius",
+      "type": "float",
+      "label": "Belly Radius",
+      "labels": {
+        "ja": "腹の半径",
+        "zh-TW": "腹部半徑",
+        "ko": "배 반지름",
+        "zh-CN": "腹部半径"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Belly Position",
+      "type": "float",
+      "label": "Belly Position",
+      "labels": {
+        "ja": "腹の位置",
+        "zh-TW": "腹部位置",
+        "ko": "배 위치",
+        "zh-CN": "腹部位置"
+      },
+      "default": 0,
+      "min": -1,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Leg Radius",
+      "type": "float",
+      "label": "Leg Radius",
+      "labels": {
+        "ja": "脚の半径",
+        "zh-TW": "腿部半徑",
+        "ko": "다리 반지름",
+        "zh-CN": "腿部半径"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Thigh Fwd/Back",
+      "type": "float",
+      "label": "Thigh Fwd/Back",
+      "labels": {
+        "ja": "太ももの前後",
+        "zh-TW": "股四頭肌前後",
+        "ko": "허벅지 전/후",
+        "zh-CN": "大腿前后"
+      },
+      "default": 0,
+      "min": -1,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Thigh Start Position",
+      "type": "float",
+      "label": "Thigh Start Position",
+      "labels": {
+        "ja": "太もも開始位置",
+        "zh-TW": "股四頭肌起始位置",
+        "ko": "허벅지 시작 위치",
+        "zh-CN": "大腿起始位置"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Hand",
+      "type": "float",
+      "label": "Hand",
+      "labels": {
+        "ja": "手",
+        "zh-TW": "手部",
+        "ko": "손",
+        "zh-CN": "手部"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Visualize",
+      "type": "bool",
+      "label": "Visualize",
+      "labels": {
+        "ja": "視覚化",
+        "zh-TW": "視覺化",
+        "ko": "시각화",
+        "zh-CN": "可视化"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    }
+  ]
+}

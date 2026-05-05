@@ -252,29 +252,29 @@ feature_sections:
             badge: PRO
             badge_type: pro
           - title: Body Colliders
-            link: /dancexr/features/xps_body_colliders
+            link: /dancexr/features/body_colliders
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
           - title: Hair Physics
-            link: /dancexr/features/xps_hair
+            link: /dancexr/features/hair_physics
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
-          - title: Clothes Physics
-            link: /dancexr/features/xps_cloth
+          - title: Dangling Physics
+            link: /dancexr/features/dangling_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
           - title: Skirt Physics
-            link: /dancexr/features/xps_skirt
+            link: /dancexr/features/skirt-physics
             image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
-          - title: Body Colliders
-            link: /dancexr/features/xps_boobs
+          - title: Boobs Physics
+            link: /dancexr/features/boobs_physics
             image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
             badge: PRO
             badge_type: pro
           - title: Softbody Physics
-            link: /dancexr/features/xps_softbody
+            link: /dancexr/features/softbody_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
             badge: PRO
             badge_type: pro
-          - title: Detech Objects
-            link: /dancexr/features/xps_detach
+          - title: Detach Object
+            link: /dancexr/features/detach-object
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
   - title: "Motion & Media"
     light: true

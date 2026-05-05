@@ -1,0 +1,42 @@
+{
+  "name": "Auto Reset",
+  "docPath": "features/auto-reset",
+  "label": "Auto Reset",
+  "labels": {
+    "ja": "自動リセット",
+    "zh-TW": "自動重設",
+    "ko": "자동 초기화",
+    "zh-CN": "自动重置"
+  },
+  "description": "Automatically resets bones and their children when velocity\r\nexceeds a safe limit. Prevents physics explosions and mesh\r\ndeformation under extreme forces or teleportation.\r\n\r\n\r\n## Threshold\r\n\r\nSets the velocity threshold above which physics are reset.\r\nLower values trigger resets more aggressively, which can\r\nprevent clipping but may cause visible snaps during fast\r\nmovement. Higher values allow more extreme motion before\r\nintervention.",
+  "descriptions": {
+    "ja": "(Automatically resets bones and their children when velocity\r\nexceeds a safe limit. Prevents physics explosions and mesh\r\ndeformation under extreme forces or teleportation.\r\n\r\n\r\n## Threshold\r\n\r\nSets the velocity threshold above which physics are reset.\r\nLower values trigger resets more aggressively, which can\r\nprevent clipping but may cause visible snaps during fast\r\nmovement. Higher values allow more extreme motion before\r\nintervention.)",
+    "zh-TW": "(Automatically resets bones and their children when velocity\r\nexceeds a safe limit. Prevents physics explosions and mesh\r\ndeformation under extreme forces or teleportation.\r\n\r\n\r\n## Threshold\r\n\r\nSets the velocity threshold above which physics are reset.\r\nLower values trigger resets more aggressively, which can\r\nprevent clipping but may cause visible snaps during fast\r\nmovement. Higher values allow more extreme motion before\r\nintervention.)",
+    "ko": "(Automatically resets bones and their children when velocity\r\nexceeds a safe limit. Prevents physics explosions and mesh\r\ndeformation under extreme forces or teleportation.\r\n\r\n\r\n## Threshold\r\n\r\nSets the velocity threshold above which physics are reset.\r\nLower values trigger resets more aggressively, which can\r\nprevent clipping but may cause visible snaps during fast\r\nmovement. Higher values allow more extreme motion before\r\nintervention.)",
+    "zh-CN": "(Automatically resets bones and their children when velocity\r\nexceeds a safe limit. Prevents physics explosions and mesh\r\ndeformation under extreme forces or teleportation.\r\n\r\n\r\n## Threshold\r\n\r\nSets the velocity threshold above which physics are reset.\r\nLower values trigger resets more aggressively, which can\r\nprevent clipping but may cause visible snaps during fast\r\nmovement. Higher values allow more extreme motion before\r\nintervention.)"
+  },
+  "values": [
+    {
+      "name": "Threshold",
+      "type": "float",
+      "label": "Threshold",
+      "labels": {
+        "ja": "閾値",
+        "zh-TW": "閾值",
+        "ko": "임계값",
+        "zh-CN": "阈值"
+      },
+      "default": 30,
+      "min": 0,
+      "max": 50,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    }
+  ]
+}

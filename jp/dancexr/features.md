@@ -106,7 +106,7 @@ feature_sections:
           - title: スケールとオフセット
             link: /jp/dancexr/features/scale_offset
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
-          - title: Troubleshooting
+          - title: トラブルシューティング
             link: /jp/dancexr/features/troubleshooting
             image: /images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp
           - title: モーションパス
@@ -231,7 +231,7 @@ feature_sections:
             image: /images/slideshows/simulation/Nyotengo%20Looks%20Absolutely%20Stunning%20No%20Matter%20What%20She%20Wears%20%5BRxj702Ktp8s%5D.webp
             badge: 2024.11 · PRO
             badge_type: pro
-          - title: ソフトボディ物理
+          - title: ソフトボディ物理演算
             link: /jp/dancexr/features/physics_softbody
             image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
           - title: ラグドール
@@ -251,30 +251,30 @@ feature_sections:
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
             badge: PRO
             badge_type: pro
-          - title: ボディコライダー
-            link: /jp/dancexr/features/xps_body_colliders
+          - title: Body Colliders
+            link: /jp/dancexr/features/body_colliders
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
-          - title: 髪の物理特性
-            link: /jp/dancexr/features/xps_hair
+          - title: Hair Physics
+            link: /jp/dancexr/features/hair_physics
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
-          - title: 衣服の物理学
-            link: /jp/dancexr/features/xps_cloth
+          - title: Dangling Physics
+            link: /jp/dancexr/features/dangling_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
-          - title: スカート物理
-            link: /jp/dancexr/features/xps_skirt
+          - title: Skirt Physics
+            link: /jp/dancexr/features/skirt-physics
             image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
-          - title: ボディコライダー
-            link: /jp/dancexr/features/xps_boobs
+          - title: Boobs Physics
+            link: /jp/dancexr/features/boobs_physics
             image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: ソフトボディ物理
-            link: /jp/dancexr/features/xps_softbody
+          - title: Softbody Physics
+            link: /jp/dancexr/features/softbody_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
             badge: PRO
             badge_type: pro
-          - title: Detechオブジェクト
-            link: /jp/dancexr/features/xps_detach
+          - title: Detach Object
+            link: /jp/dancexr/features/detach-object
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
   - title: "モーション & メディア"
     light: true

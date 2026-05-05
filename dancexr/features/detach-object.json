@@ -1,0 +1,174 @@
+{
+  "name": "Detach Object",
+  "docPath": "features/detach-object",
+  "label": "Detach Object",
+  "labels": {
+    "ja": "オブジェクトを切り離す",
+    "zh-TW": "分離物體",
+    "ko": "오브젝트 분리",
+    "zh-CN": "分离对象"
+  },
+  "description": "Detaches selected bones from the character model and\r\napplies independent physics simulation, allowing\r\naccessories or held objects to fall off dynamically.\r\n\r\n\r\n## Bone Selection\r\n\r\nUse **Select Bones** to pick which bones become detached\r\nphysics objects. Only non-kinematic bones can be selected.\r\n\r\n\r\n## Physics\r\n\r\n**Gravity** toggles gravitational force on the detached\r\nbones. **Mass** controls the rigidbody weight — heavier\r\nobjects fall faster and push harder. **Damp** adds air\r\nresistance to slow movement over time.\r\n\r\n\r\n## Collider\r\n\r\nSelects the collision shape: *None*, *Sphere*, or\r\n*Capsule*. **Collider Radius** sets the sphere/capsule\r\nwidth. **Collider Length** extends the capsule along the\r\nbone axis.",
+  "descriptions": {
+    "ja": "(Detaches selected bones from the character model and\r\napplies independent physics simulation, allowing\r\naccessories or held objects to fall off dynamically.\r\n\r\n\r\n## Bone Selection\r\n\r\nUse **Select Bones** to pick which bones become detached\r\nphysics objects. Only non-kinematic bones can be selected.\r\n\r\n\r\n## Physics\r\n\r\n**Gravity** toggles gravitational force on the detached\r\nbones. **Mass** controls the rigidbody weight — heavier\r\nobjects fall faster and push harder. **Damp** adds air\r\nresistance to slow movement over time.\r\n\r\n\r\n## Collider\r\n\r\nSelects the collision shape: *None*, *Sphere*, or\r\n*Capsule*. **Collider Radius** sets the sphere/capsule\r\nwidth. **Collider Length** extends the capsule along the\r\nbone axis.)",
+    "zh-TW": "(Detaches selected bones from the character model and\r\napplies independent physics simulation, allowing\r\naccessories or held objects to fall off dynamically.\r\n\r\n\r\n## Bone Selection\r\n\r\nUse **Select Bones** to pick which bones become detached\r\nphysics objects. Only non-kinematic bones can be selected.\r\n\r\n\r\n## Physics\r\n\r\n**Gravity** toggles gravitational force on the detached\r\nbones. **Mass** controls the rigidbody weight — heavier\r\nobjects fall faster and push harder. **Damp** adds air\r\nresistance to slow movement over time.\r\n\r\n\r\n## Collider\r\n\r\nSelects the collision shape: *None*, *Sphere*, or\r\n*Capsule*. **Collider Radius** sets the sphere/capsule\r\nwidth. **Collider Length** extends the capsule along the\r\nbone axis.)",
+    "ko": "(Detaches selected bones from the character model and\r\napplies independent physics simulation, allowing\r\naccessories or held objects to fall off dynamically.\r\n\r\n\r\n## Bone Selection\r\n\r\nUse **Select Bones** to pick which bones become detached\r\nphysics objects. Only non-kinematic bones can be selected.\r\n\r\n\r\n## Physics\r\n\r\n**Gravity** toggles gravitational force on the detached\r\nbones. **Mass** controls the rigidbody weight — heavier\r\nobjects fall faster and push harder. **Damp** adds air\r\nresistance to slow movement over time.\r\n\r\n\r\n## Collider\r\n\r\nSelects the collision shape: *None*, *Sphere*, or\r\n*Capsule*. **Collider Radius** sets the sphere/capsule\r\nwidth. **Collider Length** extends the capsule along the\r\nbone axis.)",
+    "zh-CN": "(Detaches selected bones from the character model and\r\napplies independent physics simulation, allowing\r\naccessories or held objects to fall off dynamically.\r\n\r\n\r\n## Bone Selection\r\n\r\nUse **Select Bones** to pick which bones become detached\r\nphysics objects. Only non-kinematic bones can be selected.\r\n\r\n\r\n## Physics\r\n\r\n**Gravity** toggles gravitational force on the detached\r\nbones. **Mass** controls the rigidbody weight — heavier\r\nobjects fall faster and push harder. **Damp** adds air\r\nresistance to slow movement over time.\r\n\r\n\r\n## Collider\r\n\r\nSelects the collision shape: *None*, *Sphere*, or\r\n*Capsule*. **Collider Radius** sets the sphere/capsule\r\nwidth. **Collider Length** extends the capsule along the\r\nbone axis.)"
+  },
+  "values": [
+    {
+      "name": "Select Bones",
+      "type": "value",
+      "label": "Select Bones",
+      "labels": {
+        "ja": "選択ボーン",
+        "zh-TW": "選擇骨骼",
+        "ko": "선택 본",
+        "zh-CN": "选择骨骼"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Gravity",
+      "type": "bool",
+      "label": "Gravity",
+      "labels": {
+        "ja": "重力",
+        "zh-TW": "重力",
+        "ko": "중력",
+        "zh-CN": "重力"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Mass",
+      "type": "float",
+      "label": "Mass",
+      "labels": {
+        "ja": "質量",
+        "zh-TW": "質量",
+        "ko": "질량",
+        "zh-CN": "质量"
+      },
+      "default": 0.1,
+      "min": 0,
+      "max": 10,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Damp",
+      "type": "float",
+      "label": "Damp",
+      "labels": {
+        "ja": "減衰",
+        "zh-TW": "阻尼",
+        "ko": "감쇠",
+        "zh-CN": "阻尼"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Collider",
+      "type": "int",
+      "label": "Collider",
+      "labels": {
+        "ja": "コライダー",
+        "zh-TW": "碰撞體",
+        "ko": "충돌체",
+        "zh-CN": "碰撞器"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": ["None", "Sphere", "Capsule"],
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Collider Radius",
+      "type": "float",
+      "label": "Collider Radius",
+      "labels": {
+        "ja": "コライダー半径",
+        "zh-TW": "碰撞器半徑",
+        "ko": "콜라이더 반지름",
+        "zh-CN": "碰撞器半径"
+      },
+      "default": 0.1,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Collider Length",
+      "type": "float",
+      "label": "Collider Length",
+      "labels": {
+        "ja": "コライダーの長さ",
+        "zh-TW": "碰撞器長度",
+        "ko": "콜라이더 길이",
+        "zh-CN": "碰撞器长度"
+      },
+      "default": 0.3,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    }
+  ]
+}

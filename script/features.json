@@ -424,35 +424,35 @@
               "image": "/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp"
             },
             {
-              "path": "features/xps_body_colliders",
+              "path": "features/body_colliders",
               "image": "/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp"
             },
             {
-              "path": "features/xps_hair",
+              "path": "features/hair_physics",
               "image": "/images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp"
             },
             {
-              "path": "features/xps_cloth",
+              "path": "features/dangling_physics",
               "image": "/images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp"
             },
             {
-              "path": "features/xps_skirt",
+              "path": "features/skirt-physics",
               "image": "/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp"
             },
             {
-              "path": "features/xps_boobs",
+              "path": "features/boobs_physics",
               "badge": "PRO",
               "badge_type": "pro",
               "image": "/images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp"
             },
             {
-              "path": "features/xps_softbody",
+              "path": "features/softbody_physics",
               "badge": "PRO",
               "badge_type": "pro",
               "image": "/images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp"
             },
             {
-              "path": "features/xps_detach",
+              "path": "features/detach-object",
               "image": "/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp"
             }
           ]
