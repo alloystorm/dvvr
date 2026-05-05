@@ -82,7 +82,7 @@ VRモードでは、サムスティックを上下に動かしてアクターを
     * [足の調整](feet_adjustment)
     * [表情制御](facial_control)
     * [まばたき、呼吸、アイコンタクト](eyecontact)
-    * [トラブルシューティングオプション](troubleshooting_options)
+    * [トラブルシューティングオプション](troubleshooting)
 * Pro
     * [衣装とボディペイント](outfit)
     * アクセサリー

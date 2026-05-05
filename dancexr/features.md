@@ -106,8 +106,8 @@ feature_sections:
           - title: "Scale & Offset"
             link: /dancexr/features/scale_offset
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
-          - title: Troubleshooting Options
-            link: /dancexr/features/troubleshooting_options
+          - title: Troubleshooting
+            link: /dancexr/features/troubleshooting
             image: /images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp
           - title: Motion Passes
             link: /dancexr/features/motion_passes

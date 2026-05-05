@@ -81,7 +81,7 @@ The following are links to the detailed documentation for each of the settings.
     * [Feet Adjustments](feet_adjustment)
     * [Facial Control](facial_control)
     * [Blink, Breath and Eye Contact](eyecontact)
-    * [Troubleshooting Options](troubleshooting_options)
+    * [Troubleshooting Options](troubleshooting)
 * Pro
     * [Outfit & Body Paint](outfit)
     * Accessory
