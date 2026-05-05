@@ -351,14 +351,13 @@
               "image": "/images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp"
             },
             {
-              "path": "features/cloth_simulation",
+              "path": "features/cloth_sim",
               "badge": "2024.8 · PRO",
               "badge_type": "pro",
               "image": "/images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp"
             },
             {
-              "path": "features/cloth_simulation",
-              "link_suffix": "#mesh_to_cloth",
+              "path": "features/mesh_to_cloth",
               "title": "Mesh To Cloth",
               "title_locales": {
                 "jp": "メッシュから布へ",

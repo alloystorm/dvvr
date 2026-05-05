@@ -217,7 +217,7 @@ feature_sections:
             badge: 2024.8 · PRO
             badge_type: pro
           - title: メッシュから布へ
-            link: "/jp/dancexr/features/cloth_simulation#mesh_to_cloth"
+            link: /jp/dancexr/features/mesh_to_cloth
             image: /images/slideshows/physics/Convert%20Model%20Mesh%20To%20Cloth%20Simulation%20-%20DanceXR%202024.9%20%5BFdMSBaPMUHI%5D.webp
             badge: 2024.9 · PRO
             badge_type: pro

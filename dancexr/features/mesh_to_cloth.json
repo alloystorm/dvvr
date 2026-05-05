@@ -1,0 +1,776 @@
+{
+  "name": "Mesh To Cloth",
+  "docPath": "features/mesh_to_cloth",
+  "label": "Mesh To Cloth",
+  "labels": {
+    "ja": "メッシュから布へ",
+    "zh-TW": "網格轉布料",
+    "ko": "메시를 천으로",
+    "zh-CN": "网格到布料"
+  },
+  "description": "Converts any render mesh on the actor into a particle-based cloth\r\nsimulation. Each mesh gets its own config panel for selecting\r\npinned vertices (bones that anchor the cloth) and simulation\r\nparameters.\r\n\r\n**Gradual Enable** fades the simulation in over a set number of\r\nseconds, preventing the mesh from snapping into place abruptly.\r\nThe nested **Particle Props** panel defines global physics\r\nproperties like stiffness, damping, and gravity multiplier that\r\napply to all converted meshes.",
+  "descriptions": {
+    "ja": "(Converts any render mesh on the actor into a particle-based cloth\r\nsimulation. Each mesh gets its own config panel for selecting\r\npinned vertices (bones that anchor the cloth) and simulation\r\nparameters.\r\n\r\n**Gradual Enable** fades the simulation in over a set number of\r\nseconds, preventing the mesh from snapping into place abruptly.\r\nThe nested **Particle Props** panel defines global physics\r\nproperties like stiffness, damping, and gravity multiplier that\r\napply to all converted meshes.)",
+    "zh-TW": "(Converts any render mesh on the actor into a particle-based cloth\r\nsimulation. Each mesh gets its own config panel for selecting\r\npinned vertices (bones that anchor the cloth) and simulation\r\nparameters.\r\n\r\n**Gradual Enable** fades the simulation in over a set number of\r\nseconds, preventing the mesh from snapping into place abruptly.\r\nThe nested **Particle Props** panel defines global physics\r\nproperties like stiffness, damping, and gravity multiplier that\r\napply to all converted meshes.)",
+    "ko": "(Converts any render mesh on the actor into a particle-based cloth\r\nsimulation. Each mesh gets its own config panel for selecting\r\npinned vertices (bones that anchor the cloth) and simulation\r\nparameters.\r\n\r\n**Gradual Enable** fades the simulation in over a set number of\r\nseconds, preventing the mesh from snapping into place abruptly.\r\nThe nested **Particle Props** panel defines global physics\r\nproperties like stiffness, damping, and gravity multiplier that\r\napply to all converted meshes.)",
+    "zh-CN": "(Converts any render mesh on the actor into a particle-based cloth\r\nsimulation. Each mesh gets its own config panel for selecting\r\npinned vertices (bones that anchor the cloth) and simulation\r\nparameters.\r\n\r\n**Gradual Enable** fades the simulation in over a set number of\r\nseconds, preventing the mesh from snapping into place abruptly.\r\nThe nested **Particle Props** panel defines global physics\r\nproperties like stiffness, damping, and gravity multiplier that\r\napply to all converted meshes.)"
+  },
+  "values": [
+    {
+      "name": "Select Mesh",
+      "type": "group",
+      "label": "Select Mesh",
+      "labels": {
+        "ja": "メッシュを選択",
+        "zh-TW": "選擇網格",
+        "ko": "메시 선택",
+        "zh-CN": "选择网格"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+      ]
+    },
+    {
+      "name": "Gradual Enable",
+      "type": "float",
+      "label": "Gradual Enable",
+      "labels": {
+        "ja": "段階的有効化",
+        "zh-TW": "漸進啟用",
+        "ko": "점진적 활성화",
+        "zh-CN": "渐进启用"
+      },
+      "default": 2,
+      "min": 0,
+      "max": 5,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Particle Properties",
+      "type": "group",
+      "label": "Particle Properties",
+      "labels": {
+        "ja": "パーティクルプロパティ",
+        "zh-TW": "粒子屬性",
+        "ko": "입자 속성",
+        "zh-CN": "粒子属性"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Particle Radius",
+          "type": "float",
+          "label": "Particle Radius",
+          "labels": {
+            "ja": "粒子半径",
+            "zh-TW": "粒子半徑",
+            "ko": "입자 반지름",
+            "zh-CN": "粒子半径"
+          },
+          "default": 1,
+          "min": 1,
+          "max": 20,
+          "options": null,
+          "description": "Size of particle in millimeters",
+          "descriptions": {
+            "ja": "パーティクルのサイズ（ミリメートル）",
+            "zh-TW": "粒子尺寸（毫米）",
+            "ko": "입자 크기 (밀리미터)",
+            "zh-CN": "粒子尺寸（毫米）"
+          }
+        },
+        {
+          "name": "Gravity",
+          "type": "float",
+          "label": "Gravity",
+          "labels": {
+            "ja": "重力",
+            "zh-TW": "重力",
+            "ko": "중력",
+            "zh-CN": "重力"
+          },
+          "default": 9.8,
+          "min": -9.8,
+          "max": 9.8,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Friction",
+          "type": "float",
+          "label": "Friction",
+          "labels": {
+            "ja": "摩擦",
+            "zh-TW": "摩擦力",
+            "ko": "마찰",
+            "zh-CN": "摩擦力"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Drag (Air)",
+          "type": "float",
+          "label": "Drag (Air)",
+          "labels": {
+            "ja": "空気抵抗",
+            "zh-TW": "阻力（空氣）",
+            "ko": "항력 (공기)",
+            "zh-CN": "阻力（空气）"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": "Air resistancy",
+          "descriptions": {
+            "ja": "空気抵抗",
+            "zh-TW": "空氣阻力",
+            "ko": "공기 저항",
+            "zh-CN": "空气阻力"
+          }
+        },
+        {
+          "name": "Drag (Underwater)",
+          "type": "float",
+          "label": "Drag (Underwater)",
+          "labels": {
+            "ja": "水中抵抗",
+            "zh-TW": "阻力（水下）",
+            "ko": "항력 (수중)",
+            "zh-CN": "阻力（水下）"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": "Underwater resistancy",
+          "descriptions": {
+            "ja": "水中抵抗",
+            "zh-TW": "水下阻力",
+            "ko": "수중 저항",
+            "zh-CN": "水下阻力"
+          }
+        },
+        {
+          "name": "Buoyancy",
+          "type": "float",
+          "label": "Buoyancy",
+          "labels": {
+            "ja": "浮力",
+            "zh-TW": "浮力",
+            "ko": "부력",
+            "zh-CN": "浮力"
+          },
+          "default": -0.1,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Wind",
+          "type": "group",
+          "label": "Wind",
+          "labels": {
+            "ja": "風",
+            "zh-TW": "風",
+            "ko": "바람",
+            "zh-CN": "风力"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "Wind Influence",
+              "type": "float",
+              "label": "Wind Influence",
+              "labels": {
+                "ja": "風の影響",
+                "zh-TW": "風影響力",
+                "ko": "바람 영향력",
+                "zh-CN": "风力影响"
+              },
+              "default": 0.25,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Turbulence Scale",
+              "type": "float",
+              "label": "Turbulence Scale",
+              "labels": {
+                "ja": "乱流スケール",
+                "zh-TW": "湍流尺度",
+                "ko": "난류 스케일",
+                "zh-CN": "湍流尺度"
+              },
+              "default": 0,
+              "min": -2,
+              "max": 2,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Turbulence Intensity",
+              "type": "float",
+              "label": "Turbulence Intensity",
+              "labels": {
+                "ja": "乱流強度",
+                "zh-TW": "湍流強度",
+                "ko": "난류 강도",
+                "zh-CN": "湍流强度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 2,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Turbulence Time Scale",
+              "type": "float",
+              "label": "Turbulence Time Scale",
+              "labels": {
+                "ja": "乱流時間スケール",
+                "zh-TW": "湍流時間尺度",
+                "ko": "난류 시간 스케일",
+                "zh-CN": "湍流时间尺度"
+              },
+              "default": 0,
+              "min": -4,
+              "max": 4,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Anchor Friction",
+          "type": "float",
+          "label": "Anchor Friction",
+          "labels": {
+            "ja": "アンカー摩擦",
+            "zh-TW": "固定點摩擦力",
+            "ko": "앵커 마찰",
+            "zh-CN": "固定点摩擦力"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Friction for anchored layers",
+          "descriptions": {
+            "ja": "アンカーされたレイヤーの摩擦",
+            "zh-TW": "固定層的摩擦力",
+            "ko": "앵커된 레이어 마찰",
+            "zh-CN": "固定层摩擦力"
+          }
+        },
+        {
+          "name": "Angular Spring",
+          "type": "float",
+          "label": "Angular Spring",
+          "labels": {
+            "ja": "角度スプリング",
+            "zh-TW": "角向彈簧",
+            "ko": "각도 스프링",
+            "zh-CN": "角形弹簧"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 5,
+          "options": null,
+          "description": "Default angular spring stiffness for joints without rotation springs. Higher values pull joints back toward rest pose more strongly. 0 = disabled.",
+          "descriptions": {
+            "ja": "回転スプリングがないジョイントのデフォルトの角度スプリングの剛性。値が大きいほど、ジョイントは安静ポーズに戻ろうと強く引きます。0=無効。",
+            "zh-TW": "缺乏旋轉彈簧的關節的預設角向彈簧剛度。數值越高，關節恢復到靜止姿勢的力量越大。0 = 停用。",
+            "ko": "회전 스프링이 없는 관절의 기본 각도 스프링 강성. 값이 높을수록 관절을 휴식 자세로 더 강하게 끌어당깁니다. 0 = 비활성화.",
+            "zh-CN": "没有旋转弹簧的关节的默认角形弹簧刚度。较高值会更强烈地将关节拉回静止姿势。0 = 禁用。"
+          }
+        },
+        {
+          "name": "Collide With",
+          "type": "group",
+          "label": "Collide With",
+          "labels": {
+            "ja": "と衝突",
+            "zh-TW": "與碰撞",
+            "ko": "충돌 대상",
+            "zh-CN": "碰撞对象"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "Head",
+              "type": "bool",
+              "label": "Head",
+              "labels": {
+                "ja": "頭",
+                "zh-TW": "頭部",
+                "ko": "머리",
+                "zh-CN": "头部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Body",
+              "type": "bool",
+              "label": "Body",
+              "labels": {
+                "ja": "体",
+                "zh-TW": "身體",
+                "ko": "몸통",
+                "zh-CN": "身体"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Boobs",
+              "type": "bool",
+              "label": "Boobs",
+              "labels": {
+                "ja": "ブブズ",
+                "zh-TW": "胸部",
+                "ko": "보디스",
+                "zh-CN": "胸部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Butts",
+              "type": "bool",
+              "label": "Butts",
+              "labels": {
+                "ja": "臀部",
+                "zh-TW": "臀部",
+                "ko": "엉덩이",
+                "zh-CN": "臀部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Arms",
+              "type": "bool",
+              "label": "Arms",
+              "labels": {
+                "ja": "(Arms)",
+                "zh-TW": "(Arms)",
+                "ko": "(Arms)",
+                "zh-CN": "(Arms)"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Hands",
+              "type": "bool",
+              "label": "Hands",
+              "labels": {
+                "ja": "手",
+                "zh-TW": "手部",
+                "ko": "손",
+                "zh-CN": "手部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Legs",
+              "type": "bool",
+              "label": "Legs",
+              "labels": {
+                "ja": "脚",
+                "zh-TW": "腿部",
+                "ko": "다리",
+                "zh-CN": "腿部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Feet",
+              "type": "bool",
+              "label": "Feet",
+              "labels": {
+                "ja": "足",
+                "zh-TW": "足部",
+                "ko": "발",
+                "zh-CN": "脚部"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Holes",
+              "type": "bool",
+              "label": "Holes",
+              "labels": {
+                "ja": "(Holes)",
+                "zh-TW": "(Holes)",
+                "ko": "(Holes)",
+                "zh-CN": "(Holes)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Player",
+              "type": "bool",
+              "label": "Player",
+              "labels": {
+                "ja": "プレイヤー",
+                "zh-TW": "玩家",
+                "ko": "플레이어",
+                "zh-CN": "玩家"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Cloth Layer 1",
+              "type": "bool",
+              "label": "Cloth Layer 1",
+              "labels": {
+                "ja": "(Cloth Layer 1)",
+                "zh-TW": "(Cloth Layer 1)",
+                "ko": "(Cloth Layer 1)",
+                "zh-CN": "(Cloth Layer 1)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Cloth Layer 2",
+              "type": "bool",
+              "label": "Cloth Layer 2",
+              "labels": {
+                "ja": "(Cloth Layer 2)",
+                "zh-TW": "(Cloth Layer 2)",
+                "ko": "(Cloth Layer 2)",
+                "zh-CN": "(Cloth Layer 2)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Hair",
+              "type": "bool",
+              "label": "Hair",
+              "labels": {
+                "ja": "髪",
+                "zh-TW": "頭髮",
+                "ko": "머리카락",
+                "zh-CN": "头发"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Soft Boobs",
+              "type": "bool",
+              "label": "Soft Boobs",
+              "labels": {
+                "ja": "(Soft Boobs)",
+                "zh-TW": "(Soft Boobs)",
+                "ko": "(Soft Boobs)",
+                "zh-CN": "(Soft Boobs)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Soft Butts",
+              "type": "bool",
+              "label": "Soft Butts",
+              "labels": {
+                "ja": "(Soft Butts)",
+                "zh-TW": "(Soft Butts)",
+                "ko": "(Soft Butts)",
+                "zh-CN": "(Soft Butts)"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Scale",
+          "type": "float",
+          "label": "Scale",
+          "labels": {
+            "ja": "スケール",
+            "zh-TW": "縮放",
+            "ko": "스케일",
+            "zh-CN": "缩放"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Rest Distance Check",
+          "type": "bool",
+          "label": "Rest Distance Check",
+          "labels": {
+            "ja": "静止距離チェック",
+            "zh-TW": "靜止距離檢查",
+            "ko": "휴식 거리 확인",
+            "zh-CN": "静止距离检查"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Use rest distance for self collision between rigid bodies in the same block. Helps when rigid body shapes are not configured perfectly.",
+          "descriptions": {
+            "ja": "同じブロック内の剛体間の自己衝突に静止距離を使用する。剛体の形状が完璧に設定されていない場合に役立つ。",
+            "zh-TW": "在同一區塊內，針對剛體之間的自我碰撞使用靜止距離。當剛體形狀配置不完美時，這會有幫助。",
+            "ko": "같은 블록 내 강체 간의 자가 충돌에 휴식 거리를 사용합니다. 강체 모양이 완벽하게 설정되지 않았을 때 도움이 됩니다.",
+            "zh-CN": "对同一块体内的刚体自碰撞使用静止距离。当刚体形状未配置完美时很有帮助。"
+          }
+        }
+      ]
+    }
+  ]
+}
