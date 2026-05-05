@@ -84,7 +84,7 @@ VRモードでは、サムスティックを上下に動かしてアクターを
     * [まばたき、呼吸、アイコンタクト](eyecontact)
     * [トラブルシューティングオプション](troubleshooting_options)
 * Pro
-    * [衣装とボディペイント](outfit_body_paint)
+    * [衣装とボディペイント](outfit)
     * アクセサリー
     * ラグドール
     * [モーションオーバーライド](motion_override)

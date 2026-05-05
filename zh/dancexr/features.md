@@ -460,7 +460,7 @@ feature_sections:
         link: /zh/dancexr/features/one_shot_cam
         image: /images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp
       - title: 第一人称摄影机
-        link: /zh/dancexr/features/camera
+        link: /zh/dancexr/features/camera_settings
         image: /images/slideshows/camera/First%20Person%2039%20Music%20%5BY5T3JkedkQs%5D.webp
       - title: 固定摄影机（演唱会模式）
         link: /zh/dancexr/features/concert_cam

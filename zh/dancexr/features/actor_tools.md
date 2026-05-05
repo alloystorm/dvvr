@@ -84,7 +84,7 @@ Gizmo立方体是虚拟立方体，您可以使用它来移动和调整演员的
     * [眨眼、呼吸、眼神接触](eyecontact)
     * [故障排除选项](troubleshooting_options)
 * Pro
-    * [服装和身体绘画](outfit_body_paint)
+    * [服装和身体绘画](outfit)
     * 饰品
     * 布娃娃
     * [动作覆盖](motion_override)

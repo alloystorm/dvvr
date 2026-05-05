@@ -41,10 +41,10 @@ nav_links:
 * props: 가구와 같은 무대 소품으로 사용할 수 있는 3D 모델
 * texture
   * cookie: 빛 마스크용 텍스처
-  * drawing: [바디 페인트 기능](features/outfit_body_paint)을 위한 저장된 이미지
+  * drawing: [바디 페인트 기능](features/outfit)을 위한 저장된 이미지
   * ground: 지면 텍스처
   * mask: 모델에 적용할 수 있는 [상세 및 노멀 맵](features/custom_detail_map)
-  * particle: [파티클 효과](features/particles)용 텍스처
+  * particle: [파티클 효과](features/weather_particles)용 텍스처
   * sky: [파노라마 하늘 맵](features/skymap), HDR 형식 사용 권장
 * settings: 모든 저장된 설정. 이 파일들은 사용자가 수정할 목적으로 만들어진 것이 아니지만, 원하는 경우 백업을 복사할 수 있습니다.
 * scenes: [저장된 씬](features/save_scene) 파일

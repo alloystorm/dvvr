@@ -9,7 +9,7 @@
       "WebFetch(domain:snaggy-corrine-rampantly.ngrok-free.dev)",
       "Bash(for f:*)",
       "Bash(do)",
-      "Bash(sed -i 's|\\(features/outfit_body_paint\\\\.md\\)|\\(features/outfit_body_paint\\)|g;:*)",
+      "Bash(sed -i 's|\\(features/outfit\\\\.md\\)|\\(features/outfit\\)|g;:*)",
       "Bash(done)"
     ]
   }

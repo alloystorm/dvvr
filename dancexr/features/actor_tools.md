@@ -83,7 +83,7 @@ The following are links to the detailed documentation for each of the settings.
     * [Blink, Breath and Eye Contact](eyecontact)
     * [Troubleshooting Options](troubleshooting_options)
 * Pro
-    * [Outfit & Body Paint](outfit_body_paint)
+    * [Outfit & Body Paint](outfit)
     * Accessory
     * Ragdoll
     * [Motion Override](motion_override)

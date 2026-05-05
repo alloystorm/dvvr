@@ -41,10 +41,10 @@ DanceXR在内容库中的不同子文件夹中搜索各种类型的内容。
 * props：可以用于舞台道具（如家具）的3D模型。
 * texture
   * cookie：光掩模的纹理
-  * drawing：[身体彩绘功能](features/outfit_body_paint)的保存图像
+  * drawing：[身体彩绘功能](features/outfit)的保存图像
   * ground：地面纹理
   * mask：可应用于模型的[细节和法线贴图](features/custom_detail_map)
-  * particle：[粒子效果](features/particles)的纹理
+  * particle：[粒子效果](features/weather_particles)的纹理
   * sky：[全景天空贴图](features/skymap)，建议使用HDR格式
 * settings：所有保存的设置。这些文件不应由用户修改，但如果您愿意，可以复制并备份。
 * scenes：[保存的场景](features/save_scene)文件。

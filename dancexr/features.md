@@ -460,7 +460,7 @@ feature_sections:
         link: /dancexr/features/one_shot_cam
         image: /images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp
       - title: First Person Camera
-        link: /dancexr/features/camera
+        link: /dancexr/features/camera_settings
         image: /images/slideshows/camera/First%20Person%2039%20Music%20%5BY5T3JkedkQs%5D.webp
       - title: Fixed Camera (Concert Mode)
         link: /dancexr/features/concert_cam

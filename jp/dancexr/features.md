@@ -460,7 +460,7 @@ feature_sections:
         link: /jp/dancexr/features/one_shot_cam
         image: /images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp
       - title: 一人称カメラ
-        link: /jp/dancexr/features/camera
+        link: /jp/dancexr/features/camera_settings
         image: /images/slideshows/camera/First%20Person%2039%20Music%20%5BY5T3JkedkQs%5D.webp
       - title: 固定カメラ（コンサートモード）
         link: /jp/dancexr/features/concert_cam

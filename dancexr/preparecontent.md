@@ -42,10 +42,10 @@ DanceXR searches for various types of content in distinct subfolders located wit
 * props: 3D models that can be used for stage props, like furniture.
 * texture
   * cookie: Textures for light mask
-  * drawing: Saved images for [body paint feature](features/outfit_body_paint)
+  * drawing: Saved images for [body paint feature](features/outfit)
   * ground: Ground textures
   * mask: [Detail & normal maps](features/custom_detail_map) that can be applied to models
-  * particle: Textures for [particle effect](features/particles)
+  * particle: Textures for [particle effect](features/weather_particles)
   * sky: [Panoramic sky maps](features/skymap), recommend using HDR format
 * settings: All the saved settings. These files are not meant to be modified by users, but you can copy and keep a backup if you prefer.
 * scenes: [Saved scene](features/save_scene) files.

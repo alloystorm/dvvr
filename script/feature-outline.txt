@@ -29,7 +29,7 @@
   [Dressing]
     - Dressing System (Material Morph and XPS Optional Items)  features/optionals  (41L)
     - Alternative Textures  features/alternative_textures  (31L)
-    - Outfit Body Paint  features/outfit_body_paint  (52L)
+    - Outfit Body Paint  features/outfit  (52L)
     - Accessory  features/accessory  (21L)
   [Materials]
     - Global Material Settings  features/material_global  (32L)
@@ -98,7 +98,7 @@
     - Sky  features/sky  (221L)
     - Lighting  features/lighting  (931L)
   [Environment & Effects]
-    - Particle System  features/particles  (24L)
+    - Particle System  features/weather_particles  (24L)
     - Water System  features/water_system  (33L)
     - AR Mode  features/ar_mode  (33L)
     - Water Interaction  features/water_interaction  (19L)

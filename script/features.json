@@ -818,7 +818,7 @@
           "image": "/images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp"
         },
         {
-          "path": "features/camera",
+          "path": "features/camera_settings",
           "title": "First Person Camera",
           "title_locales": {
             "jp": "一人称カメラ",

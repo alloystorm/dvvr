@@ -41,10 +41,10 @@ DanceXR在內容庫中的不同子文件夾中搜索各種類型的內容。
 * 道具：可以用於舞台道具（如家具）的3D模型。
 * 紋理
   * cookie：用於光罩的紋理
-  * drawing：用於[身體彩繪功能](features/outfit_body_paint)的保存圖像
+  * drawing：用於[身體彩繪功能](features/outfit)的保存圖像
   * ground：地面紋理
   * mask：可以應用於模型的[細節和法線貼圖](features/custom_detail_map)
-  * particle：用於[粒子效果](features/particles)的紋理
+  * particle：用於[粒子效果](features/weather_particles)的紋理
   * sky：[全景天空地圖](features/skymap)，建議使用HDR格式
 * 設置：所有保存的設置。這些文件不應由用戶修改，但如果您喜歡，可以進行備份。
 * 場景：[保存的場景](features/save_scene)文件。
