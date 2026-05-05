@@ -2188,12 +2188,12 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null,
+              "description": "Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)",
+                "zh-TW": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)",
+                "ko": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)",
+                "zh-CN": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)"
               },
               "values": [
                 {
@@ -3234,12 +3234,12 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null,
+              "description": "Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)",
+                "zh-TW": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)",
+                "ko": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)",
+                "zh-CN": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)"
               },
               "values": [
                 {
@@ -5244,12 +5244,12 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null,
+              "description": "Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)",
+                "zh-TW": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)",
+                "ko": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)",
+                "zh-CN": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)"
               },
               "values": [
                 {
@@ -6290,12 +6290,12 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null,
+              "description": "Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)",
+                "zh-TW": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)",
+                "ko": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)",
+                "zh-CN": "(Nested config for hand pose control. Choose a **Gesture**\r\npreset or use **Custom Pose** to adjust individual\r\nfinger bends. **Position** and **Rotation** offset the\r\nhand in space. **Rotation Type** sets the coordinate\r\nframe (reference bone, self, absolute, or none).\r\n**Reference Bone** and **Reference Actor** anchor the\r\nhand to another body part or actor. **IK Mode**\r\nswitches between normal, cylinder, sphere, or align\r\nIK solvers. **Blend Hand Motion** fades the pose\r\nbased on distance. **Symmetrical** links left/right\r\nposes.)"
               },
               "values": [
                 {
