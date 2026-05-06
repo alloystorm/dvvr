@@ -489,6 +489,9 @@ feature_sections:
             image: /images/slideshows/physics/6b29c53917daff568a9ee75cfa0d62b6b4cadf79.jpg
             badge: 2026.1
             badge_type: new
+          - title: Auto Reset
+            link: /dancexr/features/auto_reset
+            image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
           - title: Auto Update
             link: /dancexr/features/autoupdate
             image: /images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg
