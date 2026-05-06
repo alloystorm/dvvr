@@ -7,3 +7,5 @@ settings.local.json
 thumbnails
 .DS_Store
 deadlinks.txt
+node_modules/
+pagefind/
