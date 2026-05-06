@@ -144,5 +144,50 @@
     headings.forEach(h => observer.observe(h));
   })();
 </script>
+
+<!-- ── Search overlay (hidden until triggered) ──────────── -->
+<div id="search-overlay" class="search-overlay" hidden>
+  <div class="search-overlay-backdrop"></div>
+  <div class="search-overlay-content">
+    <button class="search-overlay-close" id="search-close-btn" aria-label="Close search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+    <div id="search"></div>
+  </div>
+</div>
+
+<script>
+  // ── Search overlay ──────────────────────────────────────
+  var searchBtn  = document.getElementById('nav-search-btn');
+  var searchOver = document.getElementById('search-overlay');
+  var searchCls  = document.getElementById('search-close-btn');
+  if (searchBtn && searchOver) {
+    var pfLoaded = false;
+    searchBtn.addEventListener('click', function () {
+      searchOver.hidden = false;
+      document.body.classList.add('search-open');
+      if (!pfLoaded) {
+        var s = document.createElement('script');
+        s.src = '/pagefind/pagefind-ui.js';
+        s.onload = function () { new PagefindUI({ element: '#search', showSubResults: true }); };
+        document.body.appendChild(s);
+        pfLoaded = true;
+      }
+      setTimeout(function () {
+        var inp = searchOver.querySelector('.pagefind-ui__search-input');
+        if (inp) inp.focus();
+      }, 150);
+    });
+    function closeSearch() { searchOver.hidden = true; document.body.classList.remove('search-open'); }
+    if (searchCls) searchCls.addEventListener('click', closeSearch);
+    searchOver.querySelector('.search-overlay-backdrop').addEventListener('click', closeSearch);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !searchOver.hidden) closeSearch();
+    });
+  }
+</script>
 </body>
 </html>
