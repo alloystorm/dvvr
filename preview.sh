@@ -34,17 +34,26 @@ if [ ! -f Gemfile.lock ] || [ Gemfile -nt Gemfile.lock ]; then
   bundle install
 fi
 
+# ── 1. Build the site ────────────────────────────────────────────────────
+echo "→ Building Jekyll site..."
+bundle exec jekyll build --config "_config.yml,_config.dev.yml"
+
+# ── 2. Index with Pagefind ─────────────────────────────────────────────────
+echo "→ Indexing search with Pagefind..."
+npx --yes pagefind --site "_site"
+
 if [ "$SKIP_CHECK" = false ]; then
-  # ── 1. Start Jekyll in the background ────────────────────────────────────
+  # ── 3. Start Jekyll in the background (skip rebuild) ──────────────────────
   echo "→ Starting Jekyll server..."
   bundle exec jekyll serve \
     --port "$PORT" \
     --open-url \
+    --skip-initial-build \
     --config "_config.yml,_config.dev.yml" &
   JEKYLL_PID=$!
   trap "kill $JEKYLL_PID 2>/dev/null" EXIT INT TERM
 
-  # ── 2. Wait until the server is ready ────────────────────────────────────
+  # ── 4. Wait until the server is ready ────────────────────────────────────
   echo -n "  Waiting for server"
   until curl -sf "http://localhost:$PORT/" > /dev/null 2>&1; do
     # Exit early if Jekyll crashed
@@ -59,7 +68,7 @@ if [ "$SKIP_CHECK" = false ]; then
   echo " ready."
   echo ""
 
-  # ── 3. Check dead links and orphan pages against the live server ──────────
+  # ── 5. Check dead links and orphan pages against the live server ──────────
   echo "→ Checking links and orphan pages (crawling http://localhost:$PORT)..."
   EXTRA=""
   [ "$CHECK_EXTERNAL" = true ] && EXTRA="--external"
@@ -69,16 +78,17 @@ if [ "$SKIP_CHECK" = false ]; then
   echo "  Checks complete. Server still running at http://localhost:$PORT"
   echo "  (Press Ctrl+C to stop)"
 
-  # ── 4. Keep serving until Ctrl+C ─────────────────────────────────────────
+  # ── 6. Keep serving until Ctrl+C ─────────────────────────────────────────
   wait "$JEKYLL_PID" || true
 
 else
-  # ── Just serve ─────────────────────────────────────────────────────────────
+  # ── Just serve (skip rebuild, already built above) ─────────────────────────
   echo "→ Starting Jekyll on http://localhost:$PORT"
   echo "  (Press Ctrl+C to stop)"
   echo ""
   bundle exec jekyll serve \
     --port "$PORT" \
     --open-url \
+    --skip-initial-build \
     --config "_config.yml,_config.dev.yml"
 fi

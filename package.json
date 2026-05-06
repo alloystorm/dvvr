@@ -1,0 +1,26 @@
+{
+  "name": "dvvr",
+  "version": "1.0.0",
+  "description": "--- layout: single title: DanceXR toc: true sidebar:   nav: \"docs\" ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alloystorm/dvvr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alloystorm/dvvr/issues"
+  },
+  "homepage": "https://github.com/alloystorm/dvvr#readme",
+  "devDependencies": {
+    "pagefind": "^1.5.2"
+  },
+  "dependencies": {
+    "@pagefind/default-ui": "^1.5.2"
+  }
+}
