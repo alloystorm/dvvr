@@ -2,15 +2,6 @@
 layout: release
 title: 드레싱 시스템 (재료 변형 및 XPS 선택 항목)
 locale: ko-KR
-nav_links:
-  - label: 소개
-    url: /kr/dancexr
-  - label: 기능
-    url: /kr/dancexr/features
-  - label: 출시
-    url: /kr/dancexr/releases
-  - label: 다운로드
-    url: /kr/dancexr/download
 ---
 
 

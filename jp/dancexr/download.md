@@ -8,15 +8,6 @@ permalink: /jp/dancexr/download
 hero_compact: true
 hero_title: ダウンロード — DanceXR
 hero_image: /images/hero.png
-nav_links:
-  - label: はじめに
-    url: /jp/dancexr
-  - label: 機能
-    url: /jp/dancexr/features
-  - label: リリース
-    url: /jp/dancexr/releases
-  - label: ダウンロード
-    url: /jp/dancexr/download
 ---
 
 <!-- ── Patreon ─────────────────────────────────────────────── -->

@@ -2,15 +2,6 @@
 layout: feature
 title: "[Sex Motion 3]"
 locale: en-US
-nav_links:
-  - label: Intro
-    url: /dancexr
-  - label: Features
-    url: /dancexr/features
-  - label: Releases
-    url: /dancexr/releases
-  - label: Download
-    url: /dancexr/download
 ---
 
 # [Sex Motion 3]

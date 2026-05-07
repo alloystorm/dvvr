@@ -7,15 +7,6 @@ lang_path: /dancexr/support
 hero_compact: true
 hero_title: Support
 hero_image: /images/hero.png
-nav_links:
-  - label: Features
-    url: /dancexr/features
-  - label: Releases
-    url: /dancexr/releases
-  - label: Download
-    url: /dancexr/download
-  - label: Support
-    url: /dancexr/support
 ---
 
 <!-- ── Get Help ──────────────────────────────────────────────── -->

@@ -11,15 +11,6 @@ hero_ctas:
   - label: DOWNLOAD NOW
     url: /dancexr/download
     style: neon
-nav_links:
-  - label: Features
-    url: /dancexr/features
-  - label: Releases
-    url: /dancexr/releases
-  - label: Download
-    url: /dancexr/download
-  - label: Support
-    url: /dancexr/support
 feature_sections:
   - title: New and Noteworthy
     light: true

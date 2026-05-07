@@ -2,15 +2,6 @@
 layout: release
 title: 首页
 locale: zh-CN
-nav_links:
-  - label: 简介
-    url: /zh/dancexr
-  - label: 功能
-    url: /zh/dancexr/features
-  - label: 发布
-    url: /zh/dancexr/releases
-  - label: 下载
-    url: /zh/dancexr/download
 ---
 
 # 遍地皆是舞台，模型随意动画

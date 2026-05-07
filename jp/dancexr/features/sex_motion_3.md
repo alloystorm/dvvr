@@ -2,15 +2,6 @@
 layout: feature
 title: ./motion/proc/sm3
 locale: ja-JP
-nav_links:
-  - label: イントロ
-    url: /jp/dancexr
-  - label: 機能
-    url: /jp/dancexr/features
-  - label: リリース
-    url: /jp/dancexr/releases
-  - label: ダウンロード
-    url: /jp/dancexr/download
 ---
 
 # ./motion/proc/sm3

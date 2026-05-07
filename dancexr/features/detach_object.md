@@ -2,15 +2,6 @@
 layout: feature
 title: "Detach Object"
 locale: en-US
-nav_links:
-  - label: Intro
-    url: /dancexr
-  - label: Features
-    url: /dancexr/features
-  - label: Releases
-    url: /dancexr/releases
-  - label: Download
-    url: /dancexr/download
 ---
 
 # Detach Object

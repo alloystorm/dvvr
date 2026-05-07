@@ -2,15 +2,6 @@
 layout: feature
 title: "Sex Overlay & Dildo"
 locale: en-US
-nav_links:
-  - label: Intro
-    url: /dancexr
-  - label: Features
-    url: /dancexr/features
-  - label: Releases
-    url: /dancexr/releases
-  - label: Download
-    url: /dancexr/download
 ---
 
 # Sex Overlay & Dildo

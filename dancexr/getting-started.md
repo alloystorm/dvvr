@@ -2,20 +2,6 @@
 layout: release
 title: Getting Started
 locale: en-US
-nav_home:
-  - label: DanceXR
-    url: /dancexr
-nav_links:
-  - label: Getting Started
-    url: /dancexr/getting-started
-  - label: Features
-    url: /dancexr/features
-  - label: Releases
-    url: /dancexr/releases
-  - label: Download
-    url: /dancexr/download
-  - label: Support
-    url: /dancexr/support
 ---
 
 # Getting Started with DanceXR

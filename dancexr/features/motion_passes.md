@@ -2,15 +2,6 @@
 layout: feature
 title: "Motion Passes"
 locale: en-US
-nav_links:
-  - label: Intro
-    url: /dancexr
-  - label: Features
-    url: /dancexr/features
-  - label: Releases
-    url: /dancexr/releases
-  - label: Download
-    url: /dancexr/download
 ---
 
 # Motion Passes

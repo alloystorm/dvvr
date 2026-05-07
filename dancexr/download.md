@@ -7,15 +7,6 @@ lang_path: /dancexr/download
 hero_compact: true
 hero_title: Download DanceXR
 hero_image: /images/hero.png
-nav_links:
-  - label: Features
-    url: /dancexr/features
-  - label: Releases
-    url: /dancexr/releases
-  - label: Download
-    url: /dancexr/download
-  - label: Support
-    url: /dancexr/support
 ---
 
 <!-- ── Patreon ─────────────────────────────────────────────── -->

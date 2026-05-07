@@ -11,15 +11,6 @@ hero_ctas:
   - label: 今すぐダウンロード
     url: /jp/dancexr/download
     style: neon
-nav_links:
-  - label: 機能
-    url: /jp/dancexr/features
-  - label: リリース
-    url: /jp/dancexr/releases
-  - label: ダウンロード
-    url: /jp/dancexr/download
-  - label: サポート
-    url: /jp/dancexr/support
 feature_sections:
   - title: 新機能と注目ポイント
     light: true

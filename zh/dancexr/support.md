@@ -8,15 +8,6 @@ permalink: /zh/dancexr/support
 hero_compact: true
 hero_title: 支持
 hero_image: /images/hero.png
-nav_links:
-  - label: 功能
-    url: /zh/dancexr/features
-  - label: 发布
-    url: /zh/dancexr/releases
-  - label: 下载
-    url: /zh/dancexr/download
-  - label: 支持
-    url: /zh/dancexr/support
 ---
 
 <!-- ── Get Help ──────────────────────────────────────────────── -->

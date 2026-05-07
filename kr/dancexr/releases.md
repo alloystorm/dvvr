@@ -7,17 +7,6 @@ permalink: /kr/dancexr/releases
 hero_compact: true
 hero_title: 출시
 hero_image: /images/hero.png
-nav_links:
-  - label: 소개
-    url: /kr/dancexr
-  - label: 기능
-    url: /kr/dancexr/features
-  - label: 릴리스
-    url: /kr/dancexr/releases
-  - label: 다운로드
-    url: /kr/dancexr/download
-  - label: 지원
-    url: /kr/dancexr/support
 feature_sections:
   - title: "2026"
     light: true

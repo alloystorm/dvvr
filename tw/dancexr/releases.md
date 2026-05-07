@@ -7,17 +7,6 @@ permalink: /tw/dancexr/releases
 hero_compact: true
 hero_title: 發布版本
 hero_image: /images/hero.png
-nav_links:
-  - label: 介紹
-    url: /tw/dancexr
-  - label: 功能
-    url: /tw/dancexr/features
-  - label: 發布
-    url: /tw/dancexr/releases
-  - label: 下載
-    url: /tw/dancexr/download
-  - label: 支援
-    url: /tw/dancexr/support
 feature_sections:
   - title: "2026"
     light: true

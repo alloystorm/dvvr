@@ -8,15 +8,6 @@ permalink: /jp/dancexr/support
 hero_compact: true
 hero_title: サポート
 hero_image: /images/hero.png
-nav_links:
-  - label: 機能
-    url: /jp/dancexr/features
-  - label: リリース
-    url: /jp/dancexr/releases
-  - label: ダウンロード
-    url: /jp/dancexr/download
-  - label: サポート
-    url: /jp/dancexr/support
 ---
 
 <!-- ── Get Help ──────────────────────────────────────────────── -->

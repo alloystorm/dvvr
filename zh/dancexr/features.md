@@ -11,15 +11,6 @@ hero_ctas:
   - label: 立即下载
     url: /zh/dancexr/download
     style: neon
-nav_links:
-  - label: 功能
-    url: /zh/dancexr/features
-  - label: 发布
-    url: /zh/dancexr/releases
-  - label: 下载
-    url: /zh/dancexr/download
-  - label: 支持
-    url: /zh/dancexr/support
 feature_sections:
   - title: 新功能与亮点
     light: true

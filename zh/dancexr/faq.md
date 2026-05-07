@@ -2,15 +2,6 @@
 layout: release
 title: ## 常见问题解答
 locale: zh-CN
-nav_links:
-  - label: 简介
-    url: /zh/dancexr
-  - label: 功能
-    url: /zh/dancexr/features
-  - label: 发布
-    url: /zh/dancexr/releases
-  - label: 下载
-    url: /zh/dancexr/download
 ---
 
 ## 只显示天空，没有UI或相机控制可用

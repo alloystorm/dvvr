@@ -11,15 +11,6 @@ hero_ctas:
   - label: 今すぐダウンロード
     url: /jp/dancexr/download
     style: neon
-nav_links:
-  - label: ホーム
-    url: /jp/dancexr/index
-  - label: 機能
-    url: /jp/dancexr/features
-  - label: リリース
-    url: /jp/dancexr/releases
-  - label: ダウンロード
-    url: /jp/dancexr/download
 
 # ── Slideshow image lists ─────────────────────────────────────
 # Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.

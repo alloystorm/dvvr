@@ -11,15 +11,6 @@ hero_ctas:
   - label: 지금 다운로드
     url: /kr/dancexr/download
     style: neon
-nav_links:
-  - label: 기능
-    url: /kr/dancexr/features
-  - label: 릴리스
-    url: /kr/dancexr/releases
-  - label: 다운로드
-    url: /kr/dancexr/download
-  - label: 지원
-    url: /kr/dancexr/support
 feature_sections:
   - title: 새로운 기능 및 주목할 점
     light: true

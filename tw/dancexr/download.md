@@ -8,15 +8,6 @@ permalink: /tw/dancexr/download
 hero_compact: true
 hero_title: 下載 — DanceXR
 hero_image: /images/hero.png
-nav_links:
-  - label: 介紹
-    url: /tw/dancexr
-  - label: 功能
-    url: /tw/dancexr/features
-  - label: 發佈
-    url: /tw/dancexr/releases
-  - label: 下載
-    url: /tw/dancexr/download
 ---
 
 <!-- ── Patreon ─────────────────────────────────────────────── -->

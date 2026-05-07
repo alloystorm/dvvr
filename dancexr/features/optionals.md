@@ -2,15 +2,6 @@
 layout: release
 title: Dressing System (Material Morph and XPS Optional Items)
 locale: en-US
-nav_links:
-  - label: Intro
-    url: /dancexr
-  - label: Features
-    url: /dancexr/features
-  - label: Releases
-    url: /dancexr/releases
-  - label: Download
-    url: /dancexr/download
 ---
 
 
