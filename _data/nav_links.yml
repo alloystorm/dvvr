@@ -1,4 +1,4 @@
-# Centralised navigation link sets.
+# Centralized navigation link sets.
 # Layouts use these as locale-aware defaults via:
 #   page.nav_links | default: site.data.nav_links.dancexr[page.locale]
 #
@@ -63,7 +63,7 @@ dancexr:
       url: /zh/dancexr/support
 
 # ── nav_home: brand/logo link for each locale ─────────────────────────────────
-# Used by studio-home layout. DanceXR home / release / feature layouts use the
+# Used by the studio-home layout. DanceXR home / release / feature layouts use the
 # locale-derived URL below to make the logo locale-aware.
 nav_home:
   en-US:

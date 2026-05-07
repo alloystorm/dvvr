@@ -6,7 +6,7 @@ locale: en-US
 
 # Getting Started with DanceXR
 
-Welcome! This guide will walk you through your first experience with DanceXR — from downloading the app to loading a model and playing a motion. If you're new to DanceXR, don't worry: it is designed to be intuitive and user-friendly.
+Welcome! This guide walks you through your first DanceXR experience, from downloading the app to loading a model and playing a motion. If you're new to DanceXR, don't worry: it is designed to be intuitive and user-friendly.
 
 ---
 
@@ -21,7 +21,7 @@ Here's a quick overview of what's available:
 | Platform | Recommended Build |
 |----------|-----------------|
 | **Windows PC** | Choose **HD** for balanced quality, **RT** for ray tracing, or **LW** for performance |
-| **Mac** | **HD** build - available on Steam but hasn't been updated for some time due to low user base. |
+| **Mac** | **HD** build — available on Steam, but it has not been updated recently due to the smaller user base. |
 | **Android** | **LW** build — available on Google Play or Itch.io |
 | **iOS** | App Store |
 | **Meta Quest** | Standalone build — available on Itch.io |
@@ -39,7 +39,7 @@ Here's a quick overview of what's available:
 
 ## 2. Prepare Your Content Library
 
-It is recommended to prepare your content library before launching DanceXR, but you can also load content by simply dropping model and motion files onto the DanceXR window. You can skip this step for now and come back to it later when you're ready to add your own models and motions.
+We recommend preparing your content library before launching DanceXR, but you can also load content by dropping model and motion files directly onto the DanceXR window. You can skip this step for now and come back when you're ready to add your own models and motions.
 
 DanceXR looks for models, motions, and other content inside a **content library** folder. This is where you'll copy your PMX and XPS model files.
 
@@ -57,28 +57,28 @@ For a full breakdown of the folder structure and supported formats, see the [Con
 
 ## 3. Basic UI and Controls
 
-Once you are in DanceXR, you should see a menu bar at the bottom of the screen. If not, click on empty space to toggle UI states until it appears. 
-In VR the UI is floating in front of you, and in desktop mode it's anchored to the bottom of the screen. "Click" and "drag" actions work the same regardless of using mouse or VR controllers. In VR you can drag the UI around by holding the grip button and moving it with your hand. 
+When you open DanceXR, you should see a menu bar at the bottom of the screen. If not, click empty space to cycle UI states until it appears.
+In VR, the UI floats in front of you. In desktop mode, it is anchored to the bottom of the screen. Click and drag actions work the same whether you use a mouse or VR controllers. In VR, you can move the UI by holding the grip button and dragging it with your hand.
 
 
 **Components of the UI:**
 
-- **Progress Bar:** On the bottom. Display current motion / audio name and progress. Click to play and pause the current motion, or drag to scrub through it.
-- **Menu Section:** 5 icons on the left.
-  - system menu (gear): general settings, content library, and support links
-  - environment menu (picture): change the stage, skybox, lighting and camera settings
-  - scene menu (stage): Load stages and props, and save/load your scene setup
-  - audio / motion (music note): Load and assign motions and audio files
-  - actor (person): Load and manage character models
+- **Progress bar:** At the bottom. It displays the current motion or audio name and progress. Click to play or pause, or drag to scrub.
+- **Menu section:** Five icons on the left.
+  - system menu (gear): General settings, content library, and support links
+  - environment menu (picture): Change the stage, skybox, lighting, and camera settings
+  - scene menu (stage): Load stages and props, and save or load your scene setup
+  - audio/motion menu (music note): Load and assign motions and audio files
+  - actor menu (person): Load and manage character models
 - **Playback and Chat Controls:** Volume slider, playlist, previous/next buttons, and AI chat toggle on the right.
 
 
 **Scene controls:**
 
 Loaded actors have a white circle around their feet.
-— click to open the actor menu
-- drag to move the actor around the stage
-- while dragging use the mouse wheel to rotate the actor
+- Click the circle to open the actor menu
+- Drag to move the actor around the stage
+- While dragging, use the mouse wheel to rotate the actor
 
 
 **Toggle states:**
@@ -92,10 +92,10 @@ Click on empty space to toggle between these modes:
 
 ## 4. Load a Model
 
-**Not in content library yet?** No problem! You can load models on the fly by dragging and dropping files directly onto the DanceXR window. Supported formats include `.pmx`, `.xps`, `.mesh`, and `.mesh.ascii`. Just drop the file and it will be available in the actor menu.
+**Not in the content library yet?** No problem. You can load models on the fly by dragging and dropping files directly onto the DanceXR window. Supported formats include `.pmx`, `.xps`, `.mesh`, and `.mesh.ascii`. Just drop the file, and it will appear in the actor menu.
 
 
-**Within the content library:** Click on the "actor" icon and select "Load Model". You should see a list of all the models you've added to the `actors` folder. By default the new model will replace the current selected one on stage. To "add" instead of "replace", click on the "+" icon next to the model name. This option is available in paid versions.
+**Within the content library:** Click the actor icon and select "Load Model." You should see a list of all models in the `actors` folder. By default, the new model replaces the currently selected one on stage. To add instead of replace, click the "+" icon next to the model name. This option is available in paid versions.
 
 ---
 
@@ -103,14 +103,14 @@ Click on empty space to toggle between these modes:
 
 **Drag and drop:**
 
-Drag an audio file onto the DanceXR window to load it immediately. Wav and ogg formats are supported. 
-Drag a motion file in VMD or BVH format onto the DanceXR window to load it. The motion will be assigned to the currently selected actor if they don't have a motion assigned already.
+Drag an audio file onto the DanceXR window to load it immediately. WAV and OGG formats are supported.
+Drag a motion file in VMD or BVH format onto the DanceXR window to load it. The motion is assigned to the currently selected actor if they do not already have one assigned.
 
 **Content library:**
 
-Click on the "audio/motion" icon and select "Load Audio / Motion". You should see a list of all the motions you've added to the `motions` folder. 
+Click the audio/motion icon and select "Load Audio / Motion." You should see a list of all motions in the `motions` folder.
 
-The motion and audio are automatically grouped together as "dance sets". Once loaded, you should see the audio name in the progress bar and separate motions in the dance menu for selection. Assign motion by selecting the motion and then "assign to" or from the actor menu choose one of the loaded motion.
+Motion and audio are automatically grouped as "dance sets." Once loaded, you should see the audio name in the progress bar and the motions in the dance menu. To assign a motion, select it and choose "Assign To," or open the actor menu and choose one of the loaded motions.
 
 For more details on organizing motion files, see the [Content Library guide](/dancexr/preparecontent#motion-files).
 
