@@ -60,6 +60,8 @@ For a full breakdown of the folder structure and supported formats, see the [Con
 When you open DanceXR, you should see a menu bar at the bottom of the screen. If not, click empty space to cycle UI states until it appears.
 In VR, the UI floats in front of you. In desktop mode, it is anchored to the bottom of the screen. Click and drag actions work the same whether you use a mouse or VR controllers. In VR, you can move the UI by holding the grip button and dragging it with your hand.
 
+![DanceXR UI overview](/images/menu.PNG)
+
 
 **Components of the UI:**
 
@@ -105,6 +107,7 @@ Click on empty space to toggle between these modes:
 
 Drag an audio file onto the DanceXR window to load it immediately. WAV and OGG formats are supported.
 Drag a motion file in VMD or BVH format onto the DanceXR window to load it. The motion is assigned to the currently selected actor if they do not already have one assigned.
+
 
 **Content library:**
 
