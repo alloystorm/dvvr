@@ -3,6 +3,7 @@ layout: single
 title: AI Agent Documentation Index
 locale: en-US
 toc: true
+translate: false
 sidebar:
   nav: "docs"
 ---

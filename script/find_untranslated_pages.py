@@ -12,6 +12,19 @@ def get_latest_commit_info(file_path):
         return result.stdout.strip()
     return ""
 
+def is_translation_excluded(file_path):
+    """Return True if the file's front matter contains 'translate: false'."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        match = re.match(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
+        if match:
+            return bool(re.search(r'^translate:\s*false\s*$', match.group(1), re.MULTILINE | re.IGNORECASE))
+    except Exception:
+        pass
+    return False
+
+
 def get_header_count(file_path):
     """Count Markdown headers (# ## ### etc.), excluding front matter."""
     try:
@@ -65,6 +78,8 @@ def find_untranslated_pages():
                 continue
 
             file_path = os.path.join(subdir, file)
+            if is_translation_excluded(file_path):
+                continue
             langs_needed = []
             reasons = {}
 
