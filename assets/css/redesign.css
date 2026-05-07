@@ -102,22 +102,28 @@ body * {
 .nav__list a.active { color: var(--text) !important; }
 
 /* Tables */
-.page__content table {
-  border-color: var(--border) !important;
+.page__content table,
+.release-content table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid var(--border) !important;
   background: var(--bg) !important;
   color: var(--text) !important;
 }
-.page__content th {
+.page__content th,
+.release-content th {
   background: var(--bg-surface-2) !important;
   color: var(--text) !important;
-  border-color: var(--border) !important;
+  border: 1px solid var(--border) !important;
 }
-.page__content td {
-  border-color: var(--border) !important;
+.page__content td,
+.release-content td {
+  border: 1px solid var(--border) !important;
   color: var(--text) !important;
   background: transparent !important;
 }
-.page__content tr:nth-child(even) td { background: var(--bg-surface) !important; }
+.page__content tr:nth-child(even) td,
+.release-content tr:nth-child(even) td { background: var(--bg-surface) !important; }
 
 /* Code */
 code, kbd, samp {
