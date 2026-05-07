@@ -13,15 +13,17 @@
 <body class="home-page">
 
 <!-- ── Navigation ──────────────────────────────────────────── -->
+{% assign _locale = page.locale | default: 'en-US' %}
+{% assign _nav_home = site.data.nav_links.nav_home[_locale] | default: site.data.nav_links.nav_home['en-US'] %}
 <nav class="site-nav" id="site-nav">
   <div class="nav-inner">
-    <a class="nav-logo" href="/dancexr/">
-      DanceXR
+    <a class="nav-logo" href="{{ _nav_home.url }}">
+      {{ _nav_home.label }}
     </a>
     <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>
-    {% assign nav_items = page.nav_links | default: site.default_nav_links %}
+    {% assign nav_items = page.nav_links | default: site.data.nav_links.dancexr[_locale] | default: site.default_nav_links %}
     <ul class="nav-links" id="nav-links">
       {% for item in nav_items %}<li{% if item.cta %} class="nav-cta-item"{% endif %}><a href="{{ item.url }}"{% if item.cta %} class="nav-cta"{% endif %}>{{ item.label }}</a></li>{% endfor %}
     </ul>
