@@ -36,7 +36,7 @@
 }
 .home-page a:not(.btn) { color: inherit; text-decoration: none; }
 .home-page img { display: block; max-width: 100%; }
-.home-page ul:not(.nav-links) { list-style: none; margin: 0; padding: 0; }
+.home-page ul:not(.nav-links) { list-style: none; }
 
 .container {
   max-width: 1200px;
@@ -1215,7 +1215,7 @@ pre code { background: none !important; }
 body {
   -webkit-font-smoothing: antialiased;
 }
-
+ul { margin: 0 0 16px 24px; }
 /* Floating pill nav — matches custom site-nav */
 body:not(.home-page) .masthead {
   position: fixed !important;
@@ -1598,13 +1598,13 @@ body:not(.home-page) .page__footer a:hover {
 .release-content strong { color: var(--text); }
 .release-content ul, .release-content ol {
   padding-left: 20px;
-  margin: 0 0 20px;
+  margin: 0 0 32px;
 }
 .release-content li {
   font-size: 16px;
   line-height: 1.65;
   color: rgba(245,245,247,0.82);
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 .release-content a { color: var(--accent); }
 .release-content a:hover { color: var(--accent-h); }

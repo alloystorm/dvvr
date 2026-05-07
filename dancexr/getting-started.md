@@ -60,11 +60,8 @@ For a full breakdown of the folder structure and supported formats, see the [Con
 When you open DanceXR, you should see a menu bar at the bottom of the screen. If not, click empty space to cycle UI states until it appears.
 In VR, the UI floats in front of you. In desktop mode, it is anchored to the bottom of the screen. Click and drag actions work the same whether you use a mouse or VR controllers. In VR, you can move the UI by holding the grip button and dragging it with your hand.
 
+### Components of the UI
 ![DanceXR UI overview](/images/menu.PNG)
-
-
-**Components of the UI:**
-
 - **Progress bar:** At the bottom. It displays the current motion or audio name and progress. Click to play or pause, or drag to scrub.
 - **Menu section:** Five icons on the left.
   - system menu (gear): General settings, content library, and support links
@@ -75,15 +72,15 @@ In VR, the UI floats in front of you. In desktop mode, it is anchored to the bot
 - **Playback and Chat Controls:** Volume slider, playlist, previous/next buttons, and AI chat toggle on the right.
 
 
-**Scene controls:**
+### Scene controls
 
-Loaded actors have a white circle around their feet.
+Loaded actors have a yellow circle around their feet.
 - Click the circle to open the actor menu
 - Drag to move the actor around the stage
 - While dragging, use the mouse wheel to rotate the actor
 
 
-**Toggle states:**
+### Toggle states
 
 Click on empty space to toggle between these modes:
 - **UI mode:** All menus and controls are visible.
@@ -94,22 +91,26 @@ Click on empty space to toggle between these modes:
 
 ## 4. Load a Model
 
-**Not in the content library yet?** No problem. You can load models on the fly by dragging and dropping files directly onto the DanceXR window. Supported formats include `.pmx`, `.xps`, `.mesh`, and `.mesh.ascii`. Just drop the file, and it will appear in the actor menu.
+### Not in the content library yet?
+
+No problem. You can load models on the fly by dragging and dropping files directly onto the DanceXR window. Supported formats include `.pmx`, `.xps`, `.mesh`, and `.mesh.ascii`. Just drop the file, and it will appear in the actor menu.
 
 
-**Within the content library:** Click the actor icon and select "Load Model." You should see a list of all models in the `actors` folder. By default, the new model replaces the currently selected one on stage. To add instead of replace, click the "+" icon next to the model name. This option is available in paid versions.
+### Within the content library
+
+Click the actor icon and select "Load Model." You should see a list of all models in the `actors` folder. By default, the new model replaces the currently selected one on stage. To add instead of replace, click the "+" icon next to the model name. This option is available in paid versions.
 
 ---
 
 ## 5. Load a VMD Motion
 
-**Drag and drop:**
+### Drag and drop
 
 Drag an audio file onto the DanceXR window to load it immediately. WAV and OGG formats are supported.
 Drag a motion file in VMD or BVH format onto the DanceXR window to load it. The motion is assigned to the currently selected actor if they do not already have one assigned.
 
 
-**Content library:**
+### Content library
 
 Click the audio/motion icon and select "Load Audio / Motion." You should see a list of all motions in the `motions` folder.
 
