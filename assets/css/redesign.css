@@ -1221,7 +1221,7 @@ pre code { background: none !important; }
 body {
   -webkit-font-smoothing: antialiased;
 }
-ul { margin: 0 0 16px 24px; }
+
 /* Floating pill nav — matches custom site-nav */
 body:not(.home-page) .masthead {
   position: fixed !important;
