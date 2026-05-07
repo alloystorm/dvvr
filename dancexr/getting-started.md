@@ -6,7 +6,7 @@ nav_home:
   - label: DanceXR
     url: /dancexr
 nav_links:
-  - label: [Getting Started]
+  - label: Getting Started
     url: /dancexr/getting-started
   - label: Features
     url: /dancexr/features
