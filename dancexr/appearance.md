@@ -1,0 +1,129 @@
+---
+layout: release
+title: Appearance & Materials
+locale: en-US
+toc: true
+---
+
+# Appearance & Materials
+
+DanceXR's appearance system has many pages — fourteen material pages alone — because there are several independent layers that compose into the final look. This page is the map: what each layer does, when to reach for it, and how the pieces fit together.
+
+For per-feature detail, follow the links to each dedicated page. For terms used here (material slot, dressing system, alternative textures, body paint), see [Concepts & glossary](/dancexr/concepts#materials-and-appearance).
+
+---
+
+## The layers, top to bottom
+
+A loaded actor's appearance is built from layers that stack:
+
+1. **Mesh & visibility** — what parts of the model are showing.
+2. **Textures** — which image set is bound to those parts.
+3. **Materials** — how each surface reacts to light.
+4. **Overlays** — body paint, sweat, custom decals on top.
+5. **Shading style** — toon vs PBR look.
+6. **Accessories** — extra meshes attached to bones.
+
+Each layer has its own page or family of pages. Edit them in this order if you are dressing up a character from scratch.
+
+---
+
+## 1. Mesh & visibility — the dressing system
+
+The [Dressing system](/dancexr/features/optionals) is how you toggle parts of a model on and off:
+
+- For **PMX** models, it works through *material morphs* defined by the model author. Toggling shows or hides specific submeshes.
+- For **XPS** models, it works through *optional items* defined per-slot.
+
+Same UI in both cases. Use this for outfit changes, removing accessories the model came with, swapping hair sub-pieces, hiding limbs for special effects.
+
+PMX models also expose individual morphs through the [Morph list](/dancexr/features/morph_list) — useful when a morph is not surfaced as a dressing toggle.
+
+---
+
+## 2. Textures — alternative texture sets
+
+[Alternative textures](/dancexr/features/alternative_textures) lets you swap entire texture sets at runtime without editing the model.
+
+How it works: place additional textures with **the same filenames** as the model's originals, in a different folder (or elsewhere in the same zip). DanceXR detects them and exposes a picker. Common use: multiple skin tones, day/night versions, recolored outfits.
+
+You can also use [Texture enhancement](/dancexr/features/texture_enhancement) (Pro) to AI-upscale and sharpen textures at load time.
+
+---
+
+## 3. Materials — the slot system
+
+DanceXR groups materials into **slots** by surface type. Each slot has its own settings page; settings on a slot apply to every material in that category on the actor.
+
+| Slot | Use it for | Page |
+|---|---|---|
+| Skin | Body, face | [Skin materials](/dancexr/features/material_skin) |
+| Hair | Head hair, body hair | [Hair materials](/dancexr/features/material_hair) |
+| Eyes | Iris, sclera, eye highlights | [Eye materials](/dancexr/features/material_eyes) |
+| Lips | Lips and inner mouth | [Lips materials](/dancexr/features/material_lips) |
+| Opaque | Anything solid that does not fit a body slot — outfits, props on the model | [Opaque materials](/dancexr/features/material_opaque) |
+| Transparent | Anything see-through — glass, sheer fabric, particles, hair tips | [Transparent materials](/dancexr/features/material_transparent) |
+| Custom | Up to two free-form slots for shaders that need their own settings | [Custom materials](/dancexr/features/material_custom1) |
+
+How a material gets into a slot:
+
+- **PMX**: based on the material's properties in the model file (transparency, name hints).
+- **XPS**: based on the slot you assign in the dressing system / bone mapper.
+
+If something looks wrong (skin appearing as opaque, hair appearing as skin), it is usually a slot assignment problem.
+
+### Per-material vs scene-wide
+
+- [Material settings](/dancexr/features/material_settings) — per-actor, per-slot.
+- [Global material settings](/dancexr/features/material_global) — scene-wide overrides that apply to all actors.
+
+Use global when you want every actor to share a look (cinematic tone, single light study). Use per-actor when characters need to differ.
+
+---
+
+## 4. Overlays
+
+Layers drawn on top of the base materials:
+
+- [Outfit & body paint](/dancexr/features/outfit) — outfit slots and image-based body paint, drawn from images in `texture/drawing`.
+- [Sweat effect](/dancexr/features/sweat_effect) — procedural sweat overlay on skin.
+- [Custom detail map](/dancexr/features/custom_detail_map) — a custom detail normal map.
+- [Hexagon detail map](/dancexr/features/hexagon_detail) — built-in hexagon pattern detail.
+- [Generate normal map](/dancexr/features/generate_normal_map) — auto-derive a normal map from the diffuse texture.
+- [Specular / mask map](/dancexr/features/specular_map) — specular and mask map configuration.
+
+---
+
+## 5. Shading style
+
+[Toon shading](/dancexr/features/toon_shading) toggles cel / anime-style shading per actor. The toon path uses different math for light wrap, shadow ramps, and rim lighting than the default PBR-style path. Choose based on the look you want; mixing is OK.
+
+[Raytracing effects](/dancexr/features/raytracing) is a separate, scene-level feature (PC, RT build only) that affects shadow and reflection quality regardless of shading style.
+
+---
+
+## 6. Accessories
+
+[Accessory](/dancexr/features/accessory) attaches an extra 3D model to a bone slot — hats, weapons, items in hand, ribbons. Different from a [prop](/dancexr/features/props) because an accessory follows the actor's animation.
+
+---
+
+## Common problems
+
+| Symptom | Likely fix |
+|---|---|
+| You can see through hair | Transparency depth prepass — see [FAQ](/dancexr/faq#i-can-see-through-hair-materials) |
+| Texture missing, model is white | Filename or path mismatch — see [FAQ](/dancexr/faq#model-loads-but-everything-is-white) |
+| Skin looks plastic / shiny | Adjust [skin materials](/dancexr/features/material_skin) — typically reduce specular |
+| Outfit cannot be removed | The model author has to expose it as a morph (PMX) or optional (XPS); use [Dressing system](/dancexr/features/optionals) to find what is available |
+| Texture looks low-res | Try [Texture enhancement](/dancexr/features/texture_enhancement), or place a higher-res alternative texture |
+| Sky sphere looks pixelated / has holes | Multiple transparent sky spheres + transparency depth prepass; see [FAQ](/dancexr/faq) |
+
+---
+
+## Related pages
+
+- [Concepts & glossary](/dancexr/concepts#materials-and-appearance)
+- [Working with actors](/dancexr/actors)
+- [Physics system](/dancexr/physics) — for cloth and hair motion (separate from cloth materials)
+- [Content library](/dancexr/preparecontent) — `texture/`, `drawing/`, `mask/` folders
