@@ -84,6 +84,14 @@ Steps tp tag your video as VR180 content
 * Make sure "Left/Right" is the selected sterero layout, and "180 video" is the selected input field of view. 
 * Click on export and you are all done!
 
+## Related pages
+
+- [Cinematic cameras](/dancexr/cameras) — pick the right camera mode for your recording
+- [Auto camera](/dancexr/features/auto_cam) — hands-off cinematic camera, common pairing for music videos
+- [One-shot camera](/dancexr/features/one_shot_cam) — single-take path, suited to VR 180 / VR 360
+- [Music timing](/dancexr/features/music_timing) — sync motion and camera to the beat
+- [Concepts & glossary](/dancexr/concepts) — 3D SBS, VR 180, offline render
+
 ## Latest updates
 ### 1.4.3
 * Proper support for VR180 format with full 180 horizontal field of view. Previously VR180 are renderred at 120 degrees. 

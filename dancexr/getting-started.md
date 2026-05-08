@@ -122,16 +122,33 @@ For more details on organizing motion files, see the [Content Library guide](/da
 
 ## What's Next?
 
-You're up and running! Now dive into what DanceXR can really do:
+You're up and running! Start with these guides — each one is a hub that links out to the detailed pages:
 
-- **[Features Overview](/dancexr/features)** — Browse every feature and tool in DanceXR
-- **[Prepare Your Content Library](/dancexr/preparecontent)** — Detailed guide on organizing models, motions, stages, and more
-- **[Physics](/dancexr/features/physics)** — Cloth simulation, hair physics, soft body, and ragdoll
-- **[Dressing System](/dancexr/features/optionals)** — Change outfits, materials, and accessories
-- **[Cameras](/dancexr/features/camera_settings)** — Orbit cam, freefly, auto cam, first-person, and more
-- **[AI Chat](/dancexr/features/ai_chat)** — Talk to your characters with voice and text
-- **[Creator Edition](/dancexr/creator)** — Offline 4K / VR rendering for content creators
-- **[Troubleshooting](/dancexr/troubleshooting)** — Fix common issues
-- **[Support & FAQ](/dancexr/support)** — Frequently asked questions
+**Learn the system**
+
+- **[Concepts & glossary](/dancexr/concepts)** — Terms used across the docs (actor, dance set, gizmo cube, dressing system, Operator)
+- **[Controls & UI](/dancexr/features/controls)** — Toggle states, selection disc, gizmo cubes, input mappings
+- **[VR operations](/dancexr/features/vr_operations)** — Hand controllers, pointer, comfort, Mouse-in-VR
+
+**Work with content**
+
+- **[Working with actors](/dancexr/actors)** — Loading, configuring, and managing characters
+- **[Appearance & materials](/dancexr/appearance)** — Dressing, textures, materials, body paint
+- **[Physics system](/dancexr/physics)** — Hair, cloth, breast, soft body, ragdoll
+- **[Motion system](/dancexr/motion)** — Dance sets, procedural dance, layering, override
+- **[Cinematic cameras](/dancexr/cameras)** — When to use which camera mode
+
+**Browse and reference**
+
+- **[Features overview](/dancexr/features)** — Every feature in DanceXR, by section
+- **[AI in DanceXR](/dancexr/ai)** — Operator, AI Voice Chat, Discovery, Auto Dance
+- **[Content library](/dancexr/preparecontent)** — Organizing models, motions, stages, presets
+- **[Creator edition](/dancexr/creator)** — Offline 4K / VR rendering
+
+**Get help**
+
+- **[FAQ](/dancexr/faq)** — Quick answers to common questions
+- **[Troubleshooting](/dancexr/troubleshooting)** — Logs, common fixes, bug reports
+- **[Support](/dancexr/support)** — Discord, email, GitHub issues
 
 Enjoy exploring DanceXR! 
