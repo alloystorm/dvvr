@@ -58,13 +58,3 @@ This is also caused by transparency depth prepass. When there are multiple sky s
 To fix this, either
 * Turn off transparent prepass
 * Or find the sky sphere that is the background and change it from transparent to opaque.
-
----
-
-## Related pages
-
-- [Concepts & glossary](/dancexr/concepts) — definitions of terms used in the answers above (transparency depth prepass, dressing system, presets, etc.)
-- [Troubleshooting](/dancexr/troubleshooting) — log file locations and how to report a bug
-- [Working with actors](/dancexr/actors) — actor lifecycle and where settings live
-- [Physics system](/dancexr/physics) — when hair, cloth, or skirt physics misbehave
-- [Appearance & materials](/dancexr/appearance) — when textures or materials look wrong
