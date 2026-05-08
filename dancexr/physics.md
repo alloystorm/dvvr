@@ -7,9 +7,17 @@ toc: true
 
 # Physics System
 
-DanceXR has a physics page for almost every body part — hair, skirt, breast, dangling, cloth, soft body, ragdoll, particle. They are not redundant: each handles a different kind of motion, and several of them stack. This page is the map.
+DanceXR has model format-specific physics systems for PMX and XPS, plus a custom built XPBD (extended particle-based dynamics) system that can be used to simulate cloth, soft body and simplified rigid bodies. 
 
-For terms (rigid body, joint, type A/B colliders, projection distance), see [Concepts & glossary](/dancexr/concepts#bones-physics-and-colliders).
+For PMX models, the physics rig is defined in the file and exposed through the PMX physics settings. 
+
+For XPS models, there is no in-file rig, so you set up physics from scratch using the XPS physics tools. 
+
+PMX and XPS physics use the built-in Unity physics engine based on PhysX by default, but can be switched to the XPBD backend.
+
+The cloth simulation using the XPBD system is available for both PMX and XPS models, and is configured through the cloth simulation settings.
+
+For terms (rigid body, joint, colliders, spring force, damping, projection distance, projection angle), see [Concepts & glossary](/dancexr/concepts#bones-physics-and-colliders).
 
 > The detailed parameter reference for the system-wide physics dialog and the per-PMX-model dialog lives at [Physics (settings reference)](/dancexr/features/physics).
 
@@ -23,7 +31,7 @@ The biggest decision branch is the model format.
 |---|---|---|
 | Has a physics rig? | Yes — built into the file | No — set up in DanceXR |
 | Default behavior | Works out of the box | Nothing moves until configured |
-| Where you tune | [PMX physics](/dancexr/features/pmx_physics) (per-actor) | [XPS physics](/dancexr/features/xps_physics) (per-actor) |
+| Where you tune | [PMX physics](/dancexr/features/pmx_physics) (per-actor) | [XPS physics Tools](/dancexr/features/xps_physics) (per-actor) |
 | Common gotcha | Joint stiffness from the model author may need overriding | You have to **select bones** for hair, breast, skirt before they do anything |
 
 Both paths share the system-level dialog (gravity, simulation steps) and the same family of specialized rigs below.
@@ -32,12 +40,7 @@ Both paths share the system-level dialog (gravity, simulation steps) and the sam
 
 ## System-level settings
 
-Two pages set the rules for the whole simulation, regardless of model format:
-
-- [System physics](/dancexr/features/system_physics) — engine-level configuration, performance bounds.
-- [Simulation](/dancexr/features/simulation) — global gravity, simulation steps per second, master enable.
-
-Steps per second matters more than people expect: too few steps and joints jitter; too many and FPS tanks. Match it roughly to your target frame rate.
+The system-level physics settings apply globally to all physics simulations in DanceXR, regardless of model format or rig type. 
 
 ---
 

@@ -69,8 +69,8 @@ A short reference for the terms used throughout DanceXR docs. If a page uses a w
 **Joint**
 : A constraint connecting two physics bodies, allowing them to swing or stretch within configured limits. Most cloth and hair behavior comes from chains of joints.
 
-**Type A vs Type B colliders**
-: PMX physics distinguishes two collider classes. **Type A** colliders move with animation (arms, legs, torso). **Type B** colliders move freely under physics, usually connected by joints (hair, cloth, ribbons). By default Type B collides with Type A, so freely-moving parts do not pass through the body. The *Disable Collision* setting turns this off.
+**Colliders**
+: Colliders define the shape of a physics body for collision detection. Colliders can be static (strictly following the animated bones) or dynamic (simulated by physics engines using velocity, gravity and constraints). Colliders can be assigned to a group and collisions can be enabled or disabled between groups. 
 
 **Rigid body**
 : A physics object that has shape, mass, and a defined motion type. PMX models include rigid bodies in the file. XPS models do not, which is why XPS physics is configured manually.

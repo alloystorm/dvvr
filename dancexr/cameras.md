@@ -65,29 +65,3 @@ In VR, the **headset** is effectively the camera. You can still use the cinemati
 - **Block Desktop Window** in [VR settings → UI](/dancexr/features/vr_settings#ui) stops mirror rendering when you do not need it, freeing GPU.
 
 For VR recording (3D SBS, VR 180), use Creator's recording mode regardless of which cinematic camera is active — see [Creator edition → Recording modes](/dancexr/creator#recording-modes).
-
----
-
-## Auto reset
-
-[Auto reset](/dancexr/features/auto_reset) automatically resets the camera (or scene state) after a configurable trigger — useful for kiosk-style demos or for keeping a recording loop framed consistently.
-
----
-
-## Common problems
-
-| Symptom | Likely fix |
-|---|---|
-| Auto Cam keeps cutting to the same angle | Lower the affected target's [target selection](/dancexr/features/auto_cam#target-selection) probability, or change the [seed](/dancexr/features/auto_cam#random-seed) |
-| Auto Cam ignores the music | Verify [music timing](/dancexr/features/music_timing) detected the BPM correctly |
-| Camera passes through props or actors | Adjust [camera settings](/dancexr/features/camera_settings) — near clip / collision <!-- TODO: confirm exact setting names --> |
-| Camera looks tilted | Check FOV and roll in [camera settings](/dancexr/features/camera_settings) |
-
----
-
-## Related pages
-
-- [Camera settings](/dancexr/features/camera_settings) — shared parameters
-- [Creator edition](/dancexr/creator) — offline rendering
-- [Music timing](/dancexr/features/music_timing) — feeds Auto Cam
-- [Auto reset](/dancexr/features/auto_reset)
