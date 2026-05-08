@@ -39,7 +39,7 @@ Here's a quick overview of what's available:
 
 ## 2. Prepare Your Content Library
 
-We recommend preparing your content library before launching DanceXR, but you can also load content by dropping model and motion files directly onto the DanceXR window. You can skip this step for now and come back when you're ready to add your own models and motions.
+We recommend preparing your content library before launching DanceXR, but you can also load content by dropping model and motion files directly onto the DanceXR window. You can skip this step for now and come back when you're ready to add your own models and motions. Keep in mind that the drag and drop only works for models and motions, for other content like stages, sky maps and textures, you still need to put them in the content library.
 
 DanceXR looks for models, motions, and other content inside a **content library** folder. This is where you'll copy your PMX and XPS model files.
 

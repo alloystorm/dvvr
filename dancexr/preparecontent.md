@@ -34,7 +34,7 @@ DanceXR searches for various types of content in distinct subfolders located wit
 * texture
   * cookie: Textures for light mask
   * drawing: Saved images for [body paint feature](features/outfit)
-  * ground: Ground textures
+  * ground: Ground textures [Ground Settings](features/ground)
   * mask: [Detail & normal maps](features/custom_detail_map) that can be applied to models
   * particle: Textures for [particle effect](features/weather_particles)
   * sky: [Panoramic sky maps](features/skymap), recommend using HDR format
