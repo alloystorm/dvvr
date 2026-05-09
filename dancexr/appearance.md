@@ -7,30 +7,29 @@ toc: true
 
 # Appearance & Materials
 
-DanceXR's appearance system has many pages — fourteen material pages alone — because there are several independent layers that compose into the final look. This page is the map: what each layer does, when to reach for it, and how the pieces fit together.
+DanceXR's material system is highly customizable, with multiple layers of settings that stack to create the final look of an actor or objects on stage. You can change the materials' properties, swap textures, apply body paint, toggle outfit pieces, and more.
 
 For per-feature detail, follow the links to each dedicated page. For terms used here (material slot, dressing system, alternative textures, body paint), see [Concepts & glossary](/dancexr/concepts#materials-and-appearance).
 
 ---
 
-## The layers, top to bottom
+## The control layers
 
-A loaded actor's appearance is built from layers that stack:
+A loaded model's materials are controlled in multiple layers, from bottom to top:
 
-1. **Mesh & visibility** — what parts of the model are showing.
-2. **Textures** — which image set is bound to those parts.
-3. **Materials** — how each surface reacts to light.
-4. **Overlays** — body paint, sweat, custom decals on top.
-5. **Shading style** — toon vs PBR look.
-6. **Accessories** — extra meshes attached to bones.
+1. **Individual Materials** — you can access each material individually and change settings one by one.
+2. **Material slots** — materials are grouped into slots by surface type (skin, hair, eyes, lips, opaque, transparent, custom). Each slot has its own settings that apply to all materials in that category on the actor when turned on.
+3. **Global material settings** — Global overrides that apply to all materials for the actor, for quick change of properties that needs to be consistent across the whole model (e.g. toon shading and alpha cutoff threshold for all transparent materials).
+4. **Overlays** — layers drawn on top of the base materials, like outfit and body paint, sweat effect, detail maps, and specular/mask maps.
+5. **System-wide render properties** — settings that apply to the entire scene, like unlit mode, shadow quality, raytracing effects, and transparent prepass.
 
-Each layer has its own page or family of pages. Edit them in this order if you are dressing up a character from scratch.
+Keep in mind that when you have higher level control enabled, the individual material settings may not have any effect.
 
 ---
 
-## 1. Mesh & visibility — the dressing system
+## Mesh & visibility — the dressing system
 
-The [Dressing system](/dancexr/features/optionals) is how you toggle parts of a model on and off:
+The [Dressing system](/dancexr/features/optionals) combines the morphs from PMX and optional meshes from XPS to provide a unified interface for toggling the visibility of parts of the model. Use it to turn outfit pieces on and off, switch to alternative shapes, or hide specific body parts.
 
 - For **PMX** models, it works through *material morphs* defined by the model author. Toggling shows or hides specific submeshes.
 - For **XPS** models, it works through *optional items* defined per-slot.
@@ -41,7 +40,15 @@ PMX models also expose individual morphs through the [Morph list](/dancexr/featu
 
 ---
 
-## 2. Textures — alternative texture sets
+## Texture Enhancement (Pro)
+
+- [Custom detail map](/dancexr/features/custom_detail_map) — a custom detail normal map.
+- [Hexagon detail map](/dancexr/features/hexagon_detail) — built-in hexagon pattern detail.
+- [Generate normal map](/dancexr/features/generate_normal_map) — auto-derive a normal map from the diffuse texture.
+- [Specular / mask map](/dancexr/features/specular_map) — specular and mask map configuration.
+
+---
+## Textures — alternative texture sets
 
 [Alternative textures](/dancexr/features/alternative_textures) lets you swap entire texture sets at runtime without editing the model.
 
@@ -51,9 +58,9 @@ You can also use [Texture enhancement](/dancexr/features/texture_enhancement) (P
 
 ---
 
-## 3. Materials — the slot system
+## Materials — the slot system
 
-DanceXR groups materials into **slots** by surface type. Each slot has its own settings page; settings on a slot apply to every material in that category on the actor.
+DanceXR groups materials into **slots** by surface type. Each slot has its own settings; settings on a slot apply to every material in that category on the actor when turned on.
 
 | Slot | Use it for | Page |
 |---|---|---|
@@ -72,39 +79,22 @@ How a material gets into a slot:
 
 If something looks wrong (skin appearing as opaque, hair appearing as skin), it is usually a slot assignment problem.
 
-### Per-material vs scene-wide
-
-- [Material settings](/dancexr/features/material_settings) — per-actor, per-slot.
-- [Global material settings](/dancexr/features/material_global) — scene-wide overrides that apply to all actors.
-
-Use global when you want every actor to share a look (cinematic tone, single light study). Use per-actor when characters need to differ.
-
 ---
 
-## 4. Overlays
+## Overlays
 
 Layers drawn on top of the base materials:
 
 - [Outfit & body paint](/dancexr/features/outfit) — outfit slots and image-based body paint, drawn from images in `texture/drawing`.
 - [Sweat effect](/dancexr/features/sweat_effect) — procedural sweat overlay on skin.
-- [Custom detail map](/dancexr/features/custom_detail_map) — a custom detail normal map.
-- [Hexagon detail map](/dancexr/features/hexagon_detail) — built-in hexagon pattern detail.
-- [Generate normal map](/dancexr/features/generate_normal_map) — auto-derive a normal map from the diffuse texture.
-- [Specular / mask map](/dancexr/features/specular_map) — specular and mask map configuration.
 
 ---
 
-## 5. Shading style
+## Shading style
 
 [Toon shading](/dancexr/features/toon_shading) toggles cel / anime-style shading per actor. The toon path uses different math for light wrap, shadow ramps, and rim lighting than the default PBR-style path. Choose based on the look you want; mixing is OK.
 
 [Raytracing effects](/dancexr/features/raytracing) is a separate, scene-level feature (PC, RT build only) that affects shadow and reflection quality regardless of shading style.
-
----
-
-## 6. Accessories
-
-[Accessory](/dancexr/features/accessory) attaches an extra 3D model to a bone slot — hats, weapons, items in hand, ribbons. Different from a [prop](/dancexr/features/props) because an accessory follows the actor's animation.
 
 ---
 
@@ -121,7 +111,7 @@ Layers drawn on top of the base materials:
 
 ---
 
-## Related pages
+## Further reading
 
 - [Concepts & glossary](/dancexr/concepts#materials-and-appearance)
 - [Working with actors](/dancexr/actors)

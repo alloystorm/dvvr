@@ -38,8 +38,8 @@ These pages explain how groups of features relate to each other. Prefer fetching
 | Hub | Use it when the question is about… | Markdown Path |
 |---|---|---|
 | Concepts & Glossary | A term the user uses (actor, dance set, gizmo cube, dressing system, persona, prepass, presets, type A/B colliders, Operator, Pro/Creator) | `dancexr/concepts.md` |
-| Controls & UI | UI layout, toggle states, selection disc, gizmo cubes, input mappings, keybindings | `dancexr/features/controls.md` |
-| VR Operations | Hand controllers, pointer, grip-drag UI, Mouse-in-VR, Pointer Handle, comfort, AR mode | `dancexr/features/vr_operations.md` |
+| Controls & UI | UI layout, toggle states, selection disc, gizmo cubes, input mappings, keybindings | `dancexr/controls.md` |
+| VR Operations | Hand controllers, pointer, grip-drag UI, Mouse-in-VR, Pointer Handle, comfort, AR mode | `dancexr/vr_operations.md` |
 | Working with Actors | Loading, configuring, posing, multi-actor scenes, PMX vs XPS workflow differences | `dancexr/actors.md` |
 | Appearance & Materials | The dressing system, material slots, body paint, accessories, toon shading, swap textures | `dancexr/appearance.md` |
 | Physics System | Choosing between hair / skirt / dangling / cloth / soft body / ragdoll; PMX vs XPS physics | `dancexr/physics.md` |

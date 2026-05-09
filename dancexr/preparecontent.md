@@ -63,15 +63,15 @@ DanceXR searches for various types of content in distinct subfolders located wit
 
 For easier management of data files, especially for that content that requires multiple files to work together, we support using a zip package to organize your files. You can also keep all the required files in a subfolder, and they should work the same.
 
-### 3D Models<a id="3d-models"></a>
+### Dependent files
 
-3D models usually come with one file that describes the mesh and multiple texture files. Make sure the relative relationship of the textures and the mesh files stays the same when you move or extract files. That's important for the program to find the correct textures to use.
+3D models usually come with multiple files. One file describes the mesh, and multiple external files for textures and materials. Make sure you keep the textures in the original location relative to the mesh file so that it can be found correctly when loading the model.
 
 For PMX, the mesh file is the .pmx file, and for XPS, the mesh file can be .xps, .mesh, or .mesh.ascii.
 
 It is recommended to keep all the files for one model in a zip package for a smaller file size and easier management.
 
-Some models have [alternative textures](features/alternative_textures). DanceXR can search through the folder or zip package to find texture files that are similar to the ones used for the model and automatically include them in a menu for you to choose from. To allow this to work, you need to make sure the alternative textures have the same file name as the main texture. For example, if the base map is named base.png, when DanceXR finds another base.png in a different subfolder, it will automatically add it as an alternative texture. If your model is in a zip package, DanceXR will search the entire zip package for alternative textures. If your model is in a subfolder, it will search all the subfolders from where the mesh file is located. Keep this in mind since if you place your alternative textures outside of the mesh file folder, they won't be recognized.
+Some XPS models have [alternative textures](features/alternative_textures). DanceXR can search through the folder or zip package to find texture files that are similar to the ones used for the model and automatically include them in a menu for you to choose from. To allow this to work, you need to make sure the alternative textures have the same file name as the main texture. For example, if the base map is named base.png, when DanceXR finds another base.png in a different subfolder, it will automatically add it as an alternative texture. If your model is in a zip package, DanceXR will search the entire zip package for alternative textures. If your model is in a subfolder, it will search all the subfolders from where the mesh file is located. Keep this in mind since if you place your alternative textures outside of the mesh file folder, they won't be recognized.
 
 ![Example of actors folder](/images/content_actors.PNG)
 
@@ -88,6 +88,17 @@ You can also have multiple unrelated motions or audio files in the same folders 
 ![Example of motion folder](/images/content_motion.PNG)
 
 
+## Favourite, recent and tag system
+
+For models and motions you can mark them as favourite and add tags to them. 
+
+The favourite items will appear in your favourite list and you can use the tags to narrow down your search in the filter results. 
+
+The recent list keeps track of recently used items for your quick access. 
+
+These features allow you to easily find the items you need. Access them in the tools section of the actor menu for models and in the audio/motion menu for motions.
+
+
 ## Content Library Tools
 
 After you made changes to your content library files, DanceXR should automatically detect changes and rescan the content when you launch it.
@@ -96,9 +107,11 @@ However, if that doesn't happen or you moved files when it is running, you can u
 
 You can also point it to a different location by using the "Change Library" option.
 
+
 ## Google Drive Integration
 
 DanceXR can [download files from Google Drive](features/googledrive). As long as the drive folder is shared without any restriction. Simply type in the URL of your shared folder, and DanceXR will be able to scan the drive folder and download the files that don't exist locally.
+
 
 ## Preparing content for Android & Oculus Quest
 
@@ -109,6 +122,7 @@ From version 2024.3, we are using the storage permission to make managing files 
 {% include video id="mFnXE7LBV-M" provider="youtube" %}
 
 For older versions or if you choose to use app internal storage space, the content library is located here: /Android/data/com.vrstormlab.dancexr/files/.
+
 
 ## Demo Videos
 

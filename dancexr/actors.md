@@ -7,23 +7,11 @@ toc: true
 
 # Working with Actors
 
-An actor is a character model loaded into the scene. Working with one in DanceXR follows a consistent lifecycle — **load → configure → animate → refine** — and most settings hang off the same actor menu. This page is the map of that lifecycle, with links to the dedicated pages for each step.
+An actor is a character model loaded into the scene. DanceXR adapts the models' skeleton on-the-fly to fit the motion, and simulates movements of hair and clothes using the physics system.
+
+You can customize the appearance of the model by changing materials, applying textures, or using the dressing system to toggle outfit pieces. You can also adjust the scale and position of the model, and fine-tune how it interacts with the stage and other actors.
 
 For a glossary of terms used here (actor, selection disc, gizmo cube, dressing system), see [Concepts & glossary](/dancexr/concepts).
-
----
-
-## The actor lifecycle at a glance
-
-| Step | What you do | Primary pages |
-|---|---|---|
-| 1. Load | Drag a model file in, or pick from the content library | [Loading an actor](#loading-an-actor) |
-| 2. Place | Position, rotate, scale, ground-snap | [Scale & offset](/dancexr/features/scale_offset), [Feet adjustment](/dancexr/features/feet_adjustment) |
-| 3. Look | Materials, dressing, accessories | [Appearance & materials](/dancexr/appearance) |
-| 4. Move | Assign motion or use procedural motion | [Motion system](/dancexr/motion) |
-| 5. Simulate | Hair, cloth, breast, ragdoll, soft body | [Physics system](/dancexr/physics) |
-| 6. Behave | Idle, blink, breathing, gaze, facial control | [Lifelike motions](/dancexr/features/lifelike_motions), [Eye contact](/dancexr/features/eyecontact) |
-| 7. Save | Export pose, save preset, save scene | [Snapshots & presets](#snapshots-and-presets) |
 
 ---
 
@@ -36,11 +24,10 @@ DanceXR reads two model formats:
 
 Both formats can also be packaged in a **ZIP**. See [ZIP format](/dancexr/features/zip_format) for filename rules and encoding.
 
-### Three ways to load
+### Two ways to load
 
 - **Drag and drop** a model file (or zip) onto the DanceXR window. Fast for one-off loads.
 - **Content library** — place models under `actors/` in your [content library](/dancexr/preparecontent). They appear in the actor menu's *Load Model* list.
-- **Google Drive** — share a Drive folder URL and DanceXR can pull missing files. See [Google Drive integration](/dancexr/features/googledrive).
 
 ### Replace vs add
 
@@ -48,7 +35,7 @@ By default, loading a model **replaces** the currently selected actor. Click the
 
 ### Load options
 
-[Actor options](/dancexr/features/loader_options) (sometimes called Loader Options) control how new actors come in: cache size, texture compression, transition effect, auto actor change.
+[Loader options](/dancexr/features/loader_options) control how new actors come in: cache size, texture compression, transition effect, auto actor change.
 
 ---
 
@@ -73,13 +60,14 @@ Every actor has a yellow **selection disc** under its feet. Clicking it opens th
 
 The menu is grouped into:
 
-- **Tools** (wrench-and-hammer icon) — favourite, tag, [spectator](/dancexr/features/spectator_mode), move up/down, reset, [duplicate](/dancexr/features/actor_tools#tools-menu), reload, [3D snapshot](/dancexr/features/snapshot_3d), remove.
+- **Motion** — assigned motion, [formation](/dancexr/features/formation) slot and model-specific motion settings.
 - **Recently modified** — quick jumps to the dialogs you just changed. See [Recently modified settings](/dancexr/features/recently_modified).
 - **Dressing & textures** — [dressing system](/dancexr/features/optionals), [bone mapper](/dancexr/features/bone_mapper) (XPS), [alternative textures](/dancexr/features/alternative_textures).
 - **Materials** — per-slot settings: skin, hair, eyes, lips, opaque, transparent, custom. See [Appearance & materials](/dancexr/appearance) for how the slots fit together.
 - **Settings** — physics, [feet adjustment](/dancexr/features/feet_adjustment), [facial control](/dancexr/features/facial_control), [eye contact](/dancexr/features/eyecontact), [troubleshooting](/dancexr/features/troubleshooting).
 - **Pro** (paid builds) — [outfit & body paint](/dancexr/features/outfit), [accessory](/dancexr/features/accessory), [ragdoll](/dancexr/features/ragdoll), [motion override](/dancexr/features/motion_override), [light ball](/dancexr/features/light_ball), advanced physics, NSFW overlays.
 - **Morph list** (PMX only) — [PMX blendshape morphs](/dancexr/features/morph_list).
+- **Tools** (wrench-and-hammer icon) — favourite, tag, [spectator](/dancexr/features/spectator_mode), move up/down, reset, [duplicate](/dancexr/features/actor_tools#tools-menu), reload, [3D snapshot](/dancexr/features/snapshot_3d), remove.
 
 ---
 
@@ -114,9 +102,9 @@ Symptom-first troubleshooting:
 | Symptom | Where to look |
 |---|---|
 | Model loads but everything is white | [FAQ → Model loads but everything is white](/dancexr/faq) |
+| Model frozen in standard pose | [XPS bone mapper](/dancexr/features/bone_mapper), [Example bone structure](/dancexr/features/bones) |
 | Floats, sinks, slides on the ground | [Feet adjustment](/dancexr/features/feet_adjustment) |
 | Wrong size or position | [Scale & offset](/dancexr/features/scale_offset) |
-| Bones look broken (XPS) | [XPS bone mapper](/dancexr/features/bone_mapper), [Example bone structure](/dancexr/features/bones) |
 | Hair / skirt / cloth not moving or jittering | [Physics system](/dancexr/physics) |
 | Per-model weirdness | [Actor troubleshooting](/dancexr/features/troubleshooting) |
 | App-level crash, won't launch | [Troubleshooting](/dancexr/troubleshooting), [FAQ](/dancexr/faq) |

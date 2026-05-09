@@ -75,10 +75,8 @@ In **Immersive mode**, the panel and selection discs vanish, leaving only the sc
 
 <!-- TODO: confirm which of these settings actually exist. Below is what would belong here. -->
 
-- **Block Desktop Window** ([VR settings → UI](/dancexr/features/vr_settings#ui)) — stops mirroring the headset view to the desktop monitor, which reduces GPU load and is helpful on lower-end PCs.
-- **Foveated rendering** ([VR settings → Foveated rendering](/dancexr/features/vr_settings#foveated-rendering)) — only on supported hardware. Reduces peripheral resolution to free GPU time. Higher level = more performance, more visible blur at the edges.
-
-<!-- TODO: snap turn / vignette / seated mode / IPD — confirm whether DanceXR exposes these and document. If not, note that here so users stop looking. -->
+- **Block Desktop Window** ([VR settings → UI](/dancexr/features/vr_settings#ui)) — stops mirroring the headset view to the desktop monitor, for better privacy.
+- **Foveated rendering** ([VR settings → Foveated rendering](/dancexr/features/vr_settings#foveated-rendering)) — currently only works on the Quest version. Reduces peripheral resolution to free GPU time. Higher level = more performance, more visible blur at the edges.
 
 ---
 
@@ -89,8 +87,6 @@ Quest standalone is more resource-constrained than PC VR. Some features behave d
 - Actor load/unload **transitions are force-disabled** on Quest builds, regardless of [Actor options → Transition](/dancexr/features/loader_options#transition) settings, to keep the runtime cost low.
 - The content library lives at `/DanceXR/` on storage (post-2024.3); see [Content library on Android & Quest](/dancexr/content_android_quest).
 - Speech-to-text in **Automatic mode** is not recommended on Quest because audio processing is too slow; prefer **Manual mode**. See [AI Voice Chat → Speech to Text](/dancexr/features/ai_chat#speech-to-text).
-
-<!-- TODO: link to a future Performance & platform matrix page once it exists. -->
 
 ---
 

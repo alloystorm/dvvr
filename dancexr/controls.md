@@ -15,11 +15,11 @@ For VR-specific operations (hand controllers, pointer calibration, comfort, Poin
 
 ## UI layout
 
-When DanceXR opens you should see a menu bar at the bottom of the screen. If it is missing, click empty space to cycle UI states until it appears (see [Toggle states](#toggle-states) below).
+When DanceXR opens you should see the main UI panel at the bottom of the screen. If it is missing, click empty space to cycle UI states until it appears (see [Toggle states](#toggle-states) below).
 
-In desktop mode the menu bar is anchored to the bottom of the screen. In VR it floats in front of you and can be moved by holding the grip button and dragging it with your hand.
+In desktop mode the UI panel is anchored to the bottom of the screen. In VR it floats in front of you and can be moved by holding the grip button and dragging it with your hand.
 
-### Menu bar
+### UI panel
 
 Five icons on the left open the main menus:
 
@@ -31,11 +31,13 @@ Five icons on the left open the main menus:
 | Music note | Audio / motion | Load and assign motions and audio |
 | Person | Actor | Load and manage character models |
 
-On the right are playback and chat controls: volume, playlist, previous / next, AI chat toggle.
+On the right are playback and chat controls: volume, playlist, previous / next, AI chat button.
 
 ### Progress bar
 
-The strip at the bottom shows the current motion or audio name and progress. Click to play or pause; drag to scrub through the timeline.
+The strip at the bottom shows the current motion or audio name and progress. Click to play or pause; drag to scrub through the timeline. 
+
+Long press to enter the fine scrubbing mode, which slows down the timeline for more precise control. In the fine scrubbing mode, move the cursor to the left or right half to control the direction, and the distance from the center controls the speed.
 
 ---
 
@@ -43,17 +45,21 @@ The strip at the bottom shows the current motion or audio name and progress. Cli
 
 Click on empty space (anywhere not occupied by an interactable element) to cycle between three modes:
 
-- **UI mode** — all menus and controls are visible; selection discs are shown.
-- **Control mode** — menus are hidden but the actor selection discs remain visible, so you can still drag and pose actors.
-- **Immersive mode** — menus and discs are hidden for a clean view. Useful for screenshots, recording, or just watching.
+- **UI mode** — UI panel and controls are visible; selection discs are shown.
+- **Control mode** — UI panel is hidden but the actor selection discs remain visible, so you can still drag and pose actors.
+- **Immersive mode** — UI panel and discs are hidden for a clean view. Useful for screenshots, recording, or just watching.
 
 You can also map a button to **Toggle UI** to switch state without clicking; see the input tables below.
 
 ---
 
-## Interacting with actors
+## Interacting with actors and stage objects
 
-Loaded actors have a yellow **selection disc** under their feet. The disc is visible in UI and Control modes.
+Loaded actors and stage objects have a yellow **selection disc** under their feet. The disc is visible in UI and Control modes.
+
+The selection disc has a red arrow indicating the orientation of the actor. When your pointer lands inside the circle, you can click and drag to move the actor around the stage. When your pointer is outside the circle in the area of the arrow, you can drag to rotate the actor. This logic is the same in VR. 
+
+While dragging, you can also use the mouse wheel or thumbstick on the hand controller to rotate the actor. 
 
 - **Click** the disc to open the actor menu.
 - **Drag** the disc to move the actor across the stage.
@@ -63,16 +69,12 @@ Loaded actors have a yellow **selection disc** under their feet. The disc is vis
 
 ### Gizmo cubes
 
-Some motions and tools support **gizmo cubes** — virtual cubes that appear on body parts so you can move and pose them. Drag a face of the cube to move along it; use the wheel or thumbstick to rotate within the surface.
+Some motions and tools support **gizmo cubes** — virtual cubes that appear on body parts so you can move and pose them. Depending on where the pointer lands, drag to move or rotate the gizmo.
 
-Typical layout per actor: two cubes for the hands, two for the feet, one for the body.
-
-Tools and motions that show gizmo cubes:
-
-- [Idle motion](/dancexr/features/idle_motion)
-- [Auto Dance](/dancexr/features/autodance) and [Auto Dance 2](/dancexr/features/autodance2)
-- [Motion override](/dancexr/features/motion_override)
-- [Cowgirl sex motion](/dancexr/features/scg_motion), [Sex motion 2](/dancexr/features/sfb_motion), [Sex motion 3](/dancexr/features/sm3_motion)
+Features that show gizmo cubes include:
+- [Wind field in sky settings](/dancexr/features/sky#wind_field): change wind field position and direction.
+- [Various procedural motions](/dancexr/features/procedural_motions): change offset and rotation of body parts like torso, hands and feet.
+- [Motion Override](/dancexr/features/motion_override): adjust the position and rotation of body parts for the overridden motion.
 
 ---
 
@@ -141,15 +143,13 @@ You can re-bind Second Action to a different button in input settings if you pre
 
 ## Customizing controls
 
-<!-- TODO: confirm exact path. Settings → Options → Input? -->
-
 You can re-map any of the default actions in input settings. Open the system menu (gear icon), then go to the input settings section. Each abstract action lists its current mapping; select an action and press the new button or key to bind it.
 
 The microphone toggle for AI chat (default: right hand controller menu button) is configured here as well — see [AI Voice Chat](/dancexr/features/ai_chat#key-binding).
 
 ---
 
-## Related pages
+## Further reading
 
 - [VR operations](/dancexr/features/vr_operations) — VR-specific interaction (hand controllers, pointer, grip-drag UI, comfort)
 - [VR settings](/dancexr/features/vr_settings) — VR technical settings (foveated rendering, pointer calibration, hand rendering)
