@@ -109,14 +109,14 @@ If you'd rather skip re-activation when migrating to a new machine, save a copy 
 - **"Activate Your Copy" does nothing** — the activation server may be temporarily unreachable. Try again in a few minutes.
 - **You completed activation but DanceXR still runs in free mode** — open the system menu and click **Activate Your Copy** once more. DanceXR re-fetches the license.
 - **Activation seems stuck after deleting `license.txt`** — also delete `config.json` (back it up first, since it holds your settings). On next launch DanceXR will treat it as a first run and try to retrieve the license automatically; if your device is on record, the license restores silently.
-- **The website opens but the platform you bought from is not listed** — your edition is sold on a specific platform; the page only shows the platforms that sell that edition. If you believe a missing option is wrong, contact [support](/dancexr/support).
-- **Repeated re-activation requests on the same machine** — get in touch via [support](/dancexr/support) and include details of when the prompts appear.
+- **The website opens but the platform you bought from is not listed** — your edition is sold on a specific platform; the page only shows the platforms that sell that edition. If you believe a missing option is wrong, contact [support](support).
+- **Repeated re-activation requests on the same machine** — get in touch via [support](support) and include details of when the prompts appear.
 
 ---
 
 ## Related pages
 
-- [Download & editions](/dancexr/download) — which edition is sold on which platform
-- [FAQ](/dancexr/faq) — common activation and startup fixes
-- [Concepts & glossary](/dancexr/concepts#configuration-and-persistence) — `license.txt` alongside other configuration files
-- [Support](/dancexr/support) — Discord, GitHub Issues, email
+- [Download & editions](download) — which edition is sold on which platform
+- [FAQ](faq) — common activation and startup fixes
+- [Concepts & glossary](concepts#configuration-and-persistence) — `license.txt` alongside other configuration files
+- [Support](support) — Discord, GitHub Issues, email

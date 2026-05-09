@@ -140,8 +140,8 @@ Android 系統有嚴格的文件訪問規則。通常，應用程式無法訪問
 
 ## 相關頁面
 
-- [操作角色](/dancexr/actors) — 模型放入庫後該怎麼做
-- [運動系統](/dancexr/motion) — 舞蹈套件和運動的組織方式
-- [概念和術語表](/dancexr/concepts) — 預設、場景、場景包、舞蹈套件的定義
-- [Google Drive 集成](/dancexr/features/googledrive)
-- [Android 和 Quest 上的內容庫](/dancexr/content_android_quest)
+- [操作角色](actors) — 模型放入庫後該怎麼做
+- [運動系統](motion) — 舞蹈套件和運動的組織方式
+- [概念和術語表](concepts) — 預設、場景、場景包、舞蹈套件的定義
+- [Google Drive 集成](features/googledrive)
+- [Android 和 Quest 上的內容庫](content_android_quest)

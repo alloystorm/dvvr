@@ -322,7 +322,7 @@ The **Creator Edition** decouples recording from your screen and frame rate.
 - Output **2D, stereoscopic 3D SBS, VR 180, and VR 360** video
 - Offline frame-by-frame rendering — every frame is perfect
 
-[Available on Patreon →](/dancexr/download){: .btn-ghost}
+[Available on Patreon →](download){: .btn-ghost}
 
 </div>
 </div>
@@ -352,7 +352,7 @@ Pricing
       <li class="locked">Single actor on stage</li>
       <li class="locked">Advanced features locked</li>
     </ul>
-    <a href="/dancexr/download" class="edition-cta">Download Free</a>
+    <a href="download" class="edition-cta">Download Free</a>
   </div>
 
   <div class="edition-card featured">
@@ -367,7 +367,7 @@ Pricing
       <li>All advanced features</li>
       <li>Pro adds adult content support</li>
     </ul>
-    <a href="/dancexr/download" class="edition-cta">Buy Now</a>
+    <a href="download" class="edition-cta">Buy Now</a>
   </div>
 
   <div class="edition-card">
@@ -402,7 +402,7 @@ Updates
 
 New features and improvements ship every month. Patreon supporters get early access — Steam and other platforms follow mid-month.
 
-[See all release notes →](/dancexr/releases){: .btn-ghost}
+[See all release notes →](releases){: .btn-ghost}
 
 </div>
 <div class="release-card">
@@ -414,7 +414,7 @@ New features and improvements ship every month. Patreon supporters get early acc
     <div class="release-item">More responsive paired motion</div>
     <div class="release-item">Better pose and eye control</div>
   </div>
-  <a href="/dancexr/releases/2026.5" class="btn-ghost">Full release notes</a>
+  <a href="releases/2026.5" class="btn-ghost">Full release notes</a>
 </div>
 </div>
 </section>

@@ -29,18 +29,18 @@ Once you open the folder you'll see the log files "**Player.log**" and "**Player
 
 Symptom-first routing:
 
-- **App will not launch / crashes at startup** → [FAQ → Only sky is displayed](/dancexr/faq#only-sky-is-displayed-no-ui-or-camera-control-available), [FAQ → Suddenly started crashing](/dancexr/faq)
-- **VR will not start** → [FAQ → Unable to launch VR](/dancexr/faq#unable-to-launch-vr)
-- **Activation problem** → [FAQ → Asked to activate again](/dancexr/faq#im-asked-to-activate-again), then [Support](/dancexr/support)
-- **Per-model problem (specific model misbehaves)** → [Actor troubleshooting](/dancexr/features/troubleshooting)
-- **Hair, cloth, skirt, or breast physics** → [Physics system](/dancexr/physics)
-- **Material or texture looks wrong** → [Appearance & materials](/dancexr/appearance), [FAQ → Model loads but everything is white](/dancexr/faq#model-loads-but-everything-is-white)
-- **Motion not playing or wrong actor** → [Motion system](/dancexr/motion)
-- **Don't know what a term means** → [Concepts & glossary](/dancexr/concepts)
+- **App will not launch / crashes at startup** → [FAQ → Only sky is displayed](faq#only-sky-is-displayed-no-ui-or-camera-control-available), [FAQ → Suddenly started crashing](faq)
+- **VR will not start** → [FAQ → Unable to launch VR](faq#unable-to-launch-vr)
+- **Activation problem** → [FAQ → Asked to activate again](faq#im-asked-to-activate-again), then [Support](support)
+- **Per-model problem (specific model misbehaves)** → [Actor troubleshooting](features/troubleshooting)
+- **Hair, cloth, skirt, or breast physics** → [Physics system](physics)
+- **Material or texture looks wrong** → [Appearance & materials](appearance), [FAQ → Model loads but everything is white](faq#model-loads-but-everything-is-white)
+- **Motion not playing or wrong actor** → [Motion system](motion)
+- **Don't know what a term means** → [Concepts & glossary](concepts)
 
 ## Related pages
 
-- [FAQ](/dancexr/faq)
-- [Support](/dancexr/support) — Discord, email, GitHub issues
-- [Concepts & glossary](/dancexr/concepts)
+- [FAQ](faq)
+- [Support](support) — Discord, email, GitHub issues
+- [Concepts & glossary](concepts)
 

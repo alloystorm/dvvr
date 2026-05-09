@@ -21,7 +21,7 @@ Documentation
 
 The fastest way to find answers is in the documentation. The feature pages cover every option in detail, and the troubleshooting guide addresses the most common problems.
 
-[Feature documentation →](/dancexr/features){: .btn-ghost}
+[Feature documentation →](features){: .btn-ghost}
 
 </div>
 <div class="section-copy" markdown="1">
@@ -79,7 +79,7 @@ This is usually a VR runtime problem, not DanceXR itself.
 
 ### Asked to activate again
 
-After major OS or hardware changes, DanceXR may not recognize the system as the same one your license was issued for. Just run through the activation steps again — there's no extra cost. See the [Activation & Licensing](/dancexr/activation) guide. [Contact us](#contact) if you have trouble.
+After major OS or hardware changes, DanceXR may not recognize the system as the same one your license was issued for. Just run through the activation steps again — there's no extra cost. See the [Activation & Licensing](activation) guide. [Contact us](#contact) if you have trouble.
 
 </div>
 
@@ -101,7 +101,7 @@ DanceXR uses OpenXR to initialize VR. If you have multiple VR runtimes installed
 
 The most common cause is filename encoding — textures can't be located when filenames use a different character encoding.
 
-- For ZIP packages, add the encoding to the package name so DanceXR knows how to parse filenames. [Details here →](/dancexr/features/zip_format)
+- For ZIP packages, add the encoding to the package name so DanceXR knows how to parse filenames. [Details here →](features/zip_format)
 - Extra spaces in filenames can also prevent textures from loading. Open the model in PMXEditor and verify that texture references match the actual filenames exactly.
 
 </div>

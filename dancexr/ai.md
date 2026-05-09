@@ -9,21 +9,21 @@ toc: true
 
 DanceXR has several AI-driven features. Most of them go through one local backend — **DanceXR Operator** — which runs on your hardware and bundles voice synthesis, large language model chat, and supporting services into a single process. This page is the overview; each feature has its own detailed page.
 
-For terms (Operator, TTS, STT, persona, template), see [Concepts & glossary](/dancexr/concepts#ai-backends).
+For terms (Operator, TTS, STT, persona, template), see [Concepts & glossary](concepts#ai-backends).
 
 ---
 
 ## The big picture
 
-- **Operator** is the local AI backend. Runs as a separate process alongside DanceXR. See [DanceXR Operator](/dancexr/features/operator).
-- **AI Voice Chat** is the user-facing chat experience that consumes Operator. See [AI Powered Voice Chat](/dancexr/features/ai_chat).
+- **Operator** is the local AI backend. Runs as a separate process alongside DanceXR. See [DanceXR Operator](features/operator).
+- **AI Voice Chat** is the user-facing chat experience that consumes Operator. See [AI Powered Voice Chat](features/ai_chat).
 
 
 ---
 
 ## DanceXR Operator
 
-[Operator](/dancexr/features/operator) is the dedicated local backend introduced in **2026.5**. It bundles:
+[Operator](features/operator) is the dedicated local backend introduced in **2026.5**. It bundles:
 
 - **TTS** — Kokoro, for converting text replies to voice.
 - **LLM** — llama.cpp, for chat generation.

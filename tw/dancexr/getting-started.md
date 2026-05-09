@@ -14,7 +14,7 @@ locale: zh-TW
 
 DanceXR 可在 **PC（Windows/Mac）**、**Android**、**iOS** 和 **Meta Quest** 上運行。請造訪下載頁面，取得適合你平台的版本：
 
-[**下載 DanceXR →**](/dancexr/download)
+[**下載 DanceXR →**](download)
 
 以下是目前可用的版本概覽：
 
@@ -35,7 +35,7 @@ DanceXR 可在 **PC（Windows/Mac）**、**Android**、**iOS** 和 **Meta Quest*
 
 首次啟動時，如有需要請完成啟用程序。Steam 和 Google Play 版本會自動啟用；其他付費版本需要進行一次性啟用。完整說明請參閱 [啟用與授權](activation) 指南。
 
-> 如果啟動時遇到任何問題，請查看 [支援頁面](/dancexr/support) 以了解常見的解決方案。
+> 如果啟動時遇到任何問題，請查看 [支援頁面](support) 以了解常見的解決方案。
 
 ---
 
@@ -51,7 +51,7 @@ DanceXR 會在一個 **內容庫** 資料夾中尋找模型、動作和其他內
 - **Android / Quest：** 在 2024.3 更新之後，該資料夾位於你儲存空間的 `/DanceXR/`。
 - **iOS：** 在設備的 Files App 中尋找名為「DanceXR」的資料夾。
 
-如需完整了解資料夾結構和支援格式，請參閱 [內容庫指南](/dancexr/preparecontent)。
+如需完整了解資料夾結構和支援格式，請參閱 [內容庫指南](preparecontent)。
 
 ![Example of actors folder](/images/content_actors.PNG)
 
@@ -114,7 +114,7 @@ DanceXR 會在一個 **內容庫** 資料夾中尋找模型、動作和其他內
 
 動作和音訊會自動分組為「舞動組」（dance sets）。載入後，你應該在進度列中看到音訊名稱，並在舞蹈選單中看到動作清單。若要指派動作，可以先選取動作，再點擊「Assign To」（指派給）；或者開啟角色選單，從已載入的動作中選擇一個。
 
-如需了解如何整理動作檔，請參閱 [內容庫指南](/dancexr/preparecontent#motion-files)。
+如需了解如何整理動作檔，請參閱 [內容庫指南](preparecontent#motion-files)。
 
 ---
 
@@ -124,29 +124,29 @@ DanceXR 會在一個 **內容庫** 資料夾中尋找模型、動作和其他內
 
 **了解系統**
 
-- **[概念與術語](/dancexr/concepts)** — 跨文件使用的術語（角色、舞動組、輔助立方體、換裝系統、操作員）
-- **[控制與 UI](/dancexr/controls)** — 切換狀態、選擇盤、輔助立方體、輸入映射
-- **[VR 操作](/dancexr/vr_operations)** — 手控制器、光標、舒適度、虛擬空間滑鼠
+- **[概念與術語](concepts)** — 跨文件使用的術語（角色、舞動組、輔助立方體、換裝系統、操作員）
+- **[控制與 UI](controls)** — 切換狀態、選擇盤、輔助立方體、輸入映射
+- **[VR 操作](vr_operations)** — 手控制器、光標、舒適度、虛擬空間滑鼠
 
 **處理內容**
 
-- **[角色操作](/dancexr/actors)** — 載入、配置和管理角色
-- **[外觀與材質](/dancexr/appearance)** — 換裝、紋理、材質、彩繪
-- **[物理系統](/dancexr/physics)** — 頭髮、衣物、胸部、軟體、布娃娃
-- **[動作系統](/dancexr/motion)** — 舞動組、程序化舞蹈、分層、覆蓋
-- **[電影級攝影機](/dancexr/cameras)** — 應使用何種攝影機模式
+- **[角色操作](actors)** — 載入、配置和管理角色
+- **[外觀與材質](appearance)** — 換裝、紋理、材質、彩繪
+- **[物理系統](physics)** — 頭髮、衣物、胸部、軟體、布娃娃
+- **[動作系統](motion)** — 舞動組、程序化舞蹈、分層、覆蓋
+- **[電影級攝影機](cameras)** — 應使用何種攝影機模式
 
 **瀏覽和參考**
 
-- **[功能總覽](/dancexr/features)** — DanceXR 的所有功能，按區塊劃分
-- **[DanceXR 中的 AI](/dancexr/ai)** — 操作員、AI 語音聊天、發現、自動舞蹈
-- **[內容庫](/dancexr/preparecontent)** — 組織模型、動作、舞台、預設
-- **[創作版](/dancexr/creator)** — 離線 4K / VR 渲染
+- **[功能總覽](features)** — DanceXR 的所有功能，按區塊劃分
+- **[DanceXR 中的 AI](ai)** — 操作員、AI 語音聊天、發現、自動舞蹈
+- **[內容庫](preparecontent)** — 組織模型、動作、舞台、預設
+- **[創作版](creator)** — 離線 4K / VR 渲染
 
 **獲取幫助**
 
-- **[常見問題](/dancexr/faq)** — 快速回答常見問題
-- **[疑難排解](/dancexr/troubleshooting)** — 日誌、常見修復、錯誤報告
-- **[支援](/dancexr/support)** — Discord、電子郵件、GitHub 議題
+- **[常見問題](faq)** — 快速回答常見問題
+- **[疑難排解](troubleshooting)** — 日誌、常見修復、錯誤報告
+- **[支援](support)** — Discord、電子郵件、GitHub 議題
 
 享受探索 DanceXR 的樂趣！

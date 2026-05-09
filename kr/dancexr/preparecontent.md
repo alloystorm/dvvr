@@ -140,8 +140,8 @@ Quest에서 콘텐츠 로드하기
 
 ## 관련 페이지
 
-- [액터 사용하기](/dancexr/actors) — 라이브러리에 모델이 들어간 후 해야 할 일
-- [모션 시스템](/dancexr/motion) — 댄스 세트 및 모션 구성 방법
-- [개념 및 용어집](/dancexr/concepts) — 프리셋, 씬, 씬 번들, 댄스 세트의 정의
-- [Google 드라이브 통합](/dancexr/features/googledrive)
-- [Android 및 Quest의 콘텐츠 라이브러리](/dancexr/content_android_quest)
+- [액터 사용하기](actors) — 라이브러리에 모델이 들어간 후 해야 할 일
+- [모션 시스템](motion) — 댄스 세트 및 모션 구성 방법
+- [개념 및 용어집](concepts) — 프리셋, 씬, 씬 번들, 댄스 세트의 정의
+- [Google 드라이브 통합](features/googledrive)
+- [Android 및 Quest의 콘텐츠 라이브러리](content_android_quest)

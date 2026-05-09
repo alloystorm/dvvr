@@ -8,7 +8,7 @@ locale: en-US
 
 <!-- TODO: full description. The Beats Ring is referenced as a tile on /dancexr/features under Stage & Props but no other page describes it. Likely an audio-reactive visualizer ring; confirm and fill in. -->
 
-The Beats Ring is an audio-reactive visualizer prop that pulses with the music. It is one of the [auto-update](/dancexr/features/autoupdate) data sources, meaning other settings can drive themselves from its output.
+The Beats Ring is an audio-reactive visualizer prop that pulses with the music. It is one of the [auto-update](autoupdate) data sources, meaning other settings can drive themselves from its output.
 
 ---
 
@@ -37,6 +37,6 @@ The Beats Ring takes the current audio signal and produces a beat-driven value t
 
 ## Related pages
 
-- [Auto update](/dancexr/features/autoupdate) — using the beats ring as a data source for other settings
-- [Music timing](/dancexr/features/music_timing) — synchronizing motion to music
-- [Audio options](/dancexr/features/audio_options)
+- [Auto update](autoupdate) — using the beats ring as a data source for other settings
+- [Music timing](music_timing) — synchronizing motion to music
+- [Audio options](audio_options)

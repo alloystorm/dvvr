@@ -8,7 +8,7 @@ locale: ko-KR
 
 가장 최근에 변경한 액터별 설정을 빠르게 열람할 수 있는 목록입니다. 이 기능을 사용하면 액터 메뉴 계층 구조를 다시 탐색할 필요 없이 동일한 대화 상자를 다시 열 수 있습니다.
 
-액터 메뉴에서 이용 가능합니다 — [액터 메뉴 및 도구](/dancexr/features/actor_tools#actor-menu) 참조.
+액터 메뉴에서 이용 가능합니다 — [액터 메뉴 및 도구](actor_tools#actor-menu) 참조.
 
 ---
 
@@ -35,5 +35,5 @@ locale: ko-KR
 
 ## 관련 페이지
 
-- [액터 메뉴 및 도구](/dancexr/features/actor_tools)
-- [개념 및 용어집](/dancexr/concepts)
+- [액터 메뉴 및 도구](actor_tools)
+- [개념 및 용어집](../concepts)

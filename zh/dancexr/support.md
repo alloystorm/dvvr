@@ -21,7 +21,7 @@ hero_image: /images/hero.png
 
 最快找到答案的方式是查阅文档。功能页面详细介绍了每个选项，故障排除指南则针对最常见的问题提供了解决方案。
 
-[功能文档 →](/dancexr/features){: .btn-ghost}
+[功能文档 →](features){: .btn-ghost}
 
 </div>
 <div class="section-copy" markdown="1">
@@ -79,7 +79,7 @@ DanceXR 社区在 Discord 上非常活跃。在这里可以找到其他用户、
 
 ### 被要求重新激活
 
-在进行重大操作系统或硬件更改后，DanceXR 可能无法识别该系统与您的许可证发行时相同的系统。只需再次执行激活步骤即可——不会产生额外费用。请参阅 [激活与许可](/dancexr/activation) 指南。[联系我们](#contact) 如果您遇到问题。
+在进行重大操作系统或硬件更改后，DanceXR 可能无法识别该系统与您的许可证发行时相同的系统。只需再次执行激活步骤即可——不会产生额外费用。请参阅 [激活与许可](activation) 指南。[联系我们](#contact) 如果您遇到问题。
 
 </div>
 
@@ -101,7 +101,7 @@ DanceXR 使用 OpenXR 来初始化 VR。如果您安装了多个 VR 运行时，
 
 最常见的原因是文件名编码——当文件名使用不同的字符编码时，贴图无法被定位。
 
-- 对于 ZIP 包，请将编码添加到包名中，以便 DanceXR 知道如何解析文件名。[在此查看详情 →](/dancexr/features/zip_format)
+- 对于 ZIP 包，请将编码添加到包名中，以便 DanceXR 知道如何解析文件名。[在此查看详情 →](features/zip_format)
 - 文件名中的额外空格也会阻止贴图加载。请在 PMXEditor 中打开模型，并确认贴图引用与实际文件名完全匹配。
 
 </div>

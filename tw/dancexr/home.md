@@ -103,7 +103,7 @@ DanceXR 內建了一個完整的即時模擬堆疊：
 
 Pure 和 Pro 可以在 **Steam** 和 **Itch.io** 上取得。Creator 可透過 **Patreon** 取得。每月發布更新 — Patreon 在月初可提前使用，Steam 在月中跟進。
 
-[下載 / 購買 →](/dancexr/download)
+[下載 / 購買 →](download)
 
 ---
 
@@ -111,4 +111,4 @@ Pure 和 Pro 可以在 **Steam** 和 **Itch.io** 上取得。Creator 可透過 *
 
 每個月都會發布新功能。最近增加的功能包括關鍵影格動畫、音樂節拍同步、帶撕裂的布料模擬、軟體物理、替代材質層、皮膚材質改進，以及重新設計的圖形設定面板。
 
-[查看所有發布說明 →](/dancexr/releases)
+[查看所有發布說明 →](releases)

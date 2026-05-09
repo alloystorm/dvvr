@@ -8,7 +8,7 @@ locale: zh-TW
 
 這是可快速存取的、您最近更改的每個角色設定清單。它允許您無需在角色菜單層級結構中導航，即可重新開啟相同的對話框。
 
-可在角色菜單中找到——參閱 [角色菜單與工具](/dancexr/features/actor_tools#actor-menu)。
+可在角色菜單中找到——參閱 [角色菜單與工具](actor_tools#actor-menu)。
 
 ---
 
@@ -35,5 +35,5 @@ locale: zh-TW
 
 ## 相關頁面
 
-- [角色菜單與工具](/dancexr/features/actor_tools)
-- [概念與詞彙表](/dancexr/concepts)
+- [角色菜單與工具](actor_tools)
+- [概念與詞彙表](../concepts)

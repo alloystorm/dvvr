@@ -87,4 +87,4 @@ The fluid simulation extends the particle system to simulate fluid behavior.
   - LipSync generates facial movements from audio
   - Spatial audio plays sound from actor positions in 3D space
 
-For more details, refer to the [release notes](/dancexr/releases).
+For more details, refer to the [release notes](../releases).

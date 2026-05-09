@@ -120,7 +120,7 @@ center → torso → torso2 → neck → head
 
 ## 相关页面
 
-- [使用角色](dancexr/actors) — 角色生命周期和 PMX 与 XPS 与 FBX 路径
-- [骨骼结构示例](dancexr/features/bones) — 参考骨架，用于了解应查找哪些骨骼
-- [XPS物理](dancexr/features/xps_physics) — 映射完成后物理骨架配置
-- [角色疑难排解](dancexr/features/troubleshooting) — 即使映射完成后，如果外观仍有问题该怎么办
+- [使用角色](../actors) — 角色生命周期和 PMX 与 XPS 与 FBX 路径
+- [骨骼结构示例](bones) — 参考骨架，用于了解应查找哪些骨骼
+- [XPS物理](xps_physics) — 映射完成后物理骨架配置
+- [角色疑难排解](troubleshooting) — 即使映射完成后，如果外观仍有问题该怎么办

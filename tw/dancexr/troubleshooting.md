@@ -27,17 +27,17 @@ locale: zh-TW
 
 按症狀分類導航：
 
-- **應用程式無法啟動/啟動時崩潰** → [FAQ → 僅顯示天空](/dancexr/faq#only-sky-is-displayed-no-ui-or-camera-control-available), [FAQ → 突然開始崩潰](/dancexr/faq)
-- **VR無法啟動** → [FAQ → 無法啟動VR](/dancexr/faq#unable-to-launch-vr)
-- **啟用問題** → [FAQ → 被要求再次啟用](/dancexr/faq#im-asked-to-activate-again)，然後 [支援中心](/dancexr/support)
-- **單一模型問題（特定模型行為異常）** → [角色疑難排解](/dancexr/features/troubleshooting)
-- **毛髮、布料、裙子或胸部物理效果** → [物理系統](/dancexr/physics)
-- **材質或紋理看起來不正確** → [外觀與材質](/dancexr/appearance), [FAQ → 模型載入但一切都是白色](/dancexr/faq#model-loads-but-everything-is-white)
-- **動作未播放或角色錯誤** → [動作系統](/dancexr/motion)
-- **不知道某個術語的意思** → [概念與詞彙表](/dancexr/concepts)
+- **應用程式無法啟動/啟動時崩潰** → [FAQ → 僅顯示天空](faq#only-sky-is-displayed-no-ui-or-camera-control-available), [FAQ → 突然開始崩潰](faq)
+- **VR無法啟動** → [FAQ → 無法啟動VR](faq#unable-to-launch-vr)
+- **啟用問題** → [FAQ → 被要求再次啟用](faq#im-asked-to-activate-again)，然後 [支援中心](support)
+- **單一模型問題（特定模型行為異常）** → [角色疑難排解](features/troubleshooting)
+- **毛髮、布料、裙子或胸部物理效果** → [物理系統](physics)
+- **材質或紋理看起來不正確** → [外觀與材質](appearance), [FAQ → 模型載入但一切都是白色](faq#model-loads-but-everything-is-white)
+- **動作未播放或角色錯誤** → [動作系統](motion)
+- **不知道某個術語的意思** → [概念與詞彙表](concepts)
 
 ## 相關頁面
 
-- [FAQ](/dancexr/faq)
-- [支援中心](/dancexr/support) — Discord, email, GitHub issues
-- [概念與詞彙表](/dancexr/concepts)
+- [FAQ](faq)
+- [支援中心](support) — Discord, email, GitHub issues
+- [概念與詞彙表](concepts)

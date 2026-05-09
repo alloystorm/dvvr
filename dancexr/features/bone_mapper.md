@@ -120,7 +120,7 @@ Converting an FBX model into XPS format and using the bone mapper to make it wor
 
 ## Related pages
 
-- [Working with actors](/dancexr/actors) — actor lifecycle and PMX vs XPS vs FBX paths
-- [Example bone structure](/dancexr/features/bones) — reference skeletons for what bones to look for
-- [XPS physics](/dancexr/features/xps_physics) — physics rig configuration after mapping is done
-- [Actor troubleshooting](/dancexr/features/troubleshooting) — when things still look wrong after mapping
+- [Working with actors](../actors) — actor lifecycle and PMX vs XPS vs FBX paths
+- [Example bone structure](bones) — reference skeletons for what bones to look for
+- [XPS physics](xps_physics) — physics rig configuration after mapping is done
+- [Actor troubleshooting](troubleshooting) — when things still look wrong after mapping

@@ -9,7 +9,7 @@ toc: true
 
 DanceXR 提供了六种摄影机模式和一个共享的设置页面。它们不能互换——每种模式都是针对不同用途优化的。本页面将为您选择合适的模式，并在您确定需求后，引导您到相应的详细页面。
 
-有关共享参数（FOV、近/远裁剪、景深），请参阅 [摄影机设置](/dancexr/features/camera_settings)。
+有关共享参数（FOV、近/远裁剪、景深），请参阅 [摄影机设置](features/camera_settings)。
 
 ---
 
@@ -17,12 +17,12 @@ DanceXR 提供了六种摄影机模式和一个共享的设置页面。它们不
 
 | 模式 | 最适用于 | 驱动方式 | 页面 |
 |---|---|---|---|
-| Freefly | 手动自由漫游，排位镜头 | 您本人（鼠标 / 手柄 / VR） | [Freefly摄影机](/dancexr/features/freefly_cam) |
-| Auto | 电影级音乐视频，免操作记录 | 音乐节拍 + 角色位置 | [Auto摄影机](/dancexr/features/auto_cam) |
-| Orbit | 旋转台拍摄，模型展示 | 您本人（围绕目标点的环绕输入） | [Orbit摄影机](/dancexr/features/orbit_cam) |
-| One-shot (长镜头) | 贯穿场景的单次无剪接扫过 | 预设路径，运行一次 | [One-shot摄影机](/dancexr/features/one_shot_cam) |
-| Concert (固定) | 音乐会/舞台角度，固定静帧 | 固定位置；永不移动 | [Concert摄影机](/dancexr/features/concert_cam) |
-| 第一人称视角 | 第一人称视角体验；角色看到的视角 | <!-- TODO: confirm — actor head bone? --> | [摄影机设置](/dancexr/features/camera_settings) <!-- TODO: separate page if/when one is added --> |
+| Freefly | 手动自由漫游，排位镜头 | 您本人（鼠标 / 手柄 / VR） | [Freefly摄影机](features/freefly_cam) |
+| Auto | 电影级音乐视频，免操作记录 | 音乐节拍 + 角色位置 | [Auto摄影机](features/auto_cam) |
+| Orbit | 旋转台拍摄，模型展示 | 您本人（围绕目标点的环绕输入） | [Orbit摄影机](features/orbit_cam) |
+| One-shot (长镜头) | 贯穿场景的单次无剪接扫过 | 预设路径，运行一次 | [One-shot摄影机](features/one_shot_cam) |
+| Concert (固定) | 音乐会/舞台角度，固定静帧 | 固定位置；永不移动 | [Concert摄影机](features/concert_cam) |
+| 第一人称视角 | 第一人称视角体验；角色看到的视角 | <!-- TODO: confirm — actor head bone? --> | [摄影机设置](features/camera_settings) <!-- TODO: separate page if/when one is added --> |
 
 ---
 
@@ -30,7 +30,7 @@ DanceXR 提供了六种摄影机模式和一个共享的设置页面。它们不
 
 **Freefly摄影机。** 桌面模式的默认选择。您通过 WASD + 鼠标（或摇杆 + 观察）移动摄影机。当您需要手动控制时，无论是在构图截图、穿越场景，还是在录制前摆拍镜头时，都使用它。
 
-**Auto摄影机。** 免操作的电影级拍摄。它会基于概率性地选择目标（头部、胸部、中心、腿部）、距离（近景到远景）和角度，并可选择淡出黑场剪辑。它会读取 [音乐时机](/dancexr/features/music_timing) 和音乐音量，以同步过渡和节奏。当您希望获得一个看起来完整的音乐视频，而无需手动指导每一个镜头时，它最适用。您需要重复 [随机种子](/dancexr/features/auto_cam#random-seed)，直到满意为止。
+**Auto摄影机。** 免操作的电影级拍摄。它会基于概率性地选择目标（头部、胸部、中心、腿部）、距离（近景到远景）和角度，并可选择淡出黑场剪辑。它会读取 [音乐时机](features/music_timing) 和音乐音量，以同步过渡和节奏。当您希望获得一个看起来完整的音乐视频，而无需手动指导每一个镜头时，它最适用。您需要重复 [随机种子](features/auto_cam#random-seed)，直到满意为止。
 
 **Orbit摄影机。** 它保持与目标物固定的距离，并围绕其做圆周运动。适用于模型转盘、缓慢的展示循环，或围绕摆姿势的角色进行受控旋转。
 
@@ -46,13 +46,13 @@ DanceXR 提供了六种摄影机模式和一个共享的设置页面。它们不
 
 选择的模式会影响离线渲染捕获的内容：
 
-- **Auto摄影机 + 创作版** 是制作完整音乐视频最常见的组合。Auto摄影机负责构图；创作版进行逐帧录制，这样您就不会因为帧率下降而丢失镜头。请参阅 [创作版](/dancexr/creator)。
+- **Auto摄影机 + 创作版** 是制作完整音乐视频最常见的组合。Auto摄影机负责构图；创作版进行逐帧录制，这样您就不会因为帧率下降而丢失镜头。请参阅 [创作版](creator)。
 - **Freefly + 屏幕捕获** 在实时帧率良好时，适合拍摄较短的片段。
 - **One-shot** 与 VR 180 / VR 360 录制是最理想的匹配——一个摄像机路径，一次拍摄，无剪接。
 - **Concert** 适用于静态角度的参考镜头、对比视频或任何需要跨次拍摄完美可重复性的场景。
 - **Orbit** 录制干净，因为路径是确定的——适用于展示集。
 
-无论选择何种模式，录制流程本身都是相同的；请参阅 [创作版 → 录制菜单](/dancexr/creator#recording-menu)。
+无论选择何种模式，录制流程本身都是相同的；请参阅 [创作版 → 录制菜单](creator#recording-menu)。
 
 ---
 
@@ -62,6 +62,6 @@ DanceXR 提供了六种摄影机模式和一个共享的设置页面。它们不
 
 - 头戴设备始终以立体 VR 模式显示世界。
 - 电影级摄影机应用于镜像窗口和录制。
-- 在 [VR设置 → UI](/dancexr/features/vr_settings#ui) 中使用 **阻止桌面窗口** 功能，在您不需要时停止镜像渲染，从而释放 GPU 资源。
+- 在 [VR设置 → UI](features/vr_settings#ui) 中使用 **阻止桌面窗口** 功能，在您不需要时停止镜像渲染，从而释放 GPU 资源。
 
-对于 VR 录制（3D SBS, VR 180），无论当前激活的是哪种电影级摄影机，都使用创作版的录制模式——请参阅 [创作版 → 录制模式](/dancexr/creator#recording-modes)。
+对于 VR 录制（3D SBS, VR 180），无论当前激活的是哪种电影级摄影机，都使用创作版的录制模式——请参阅 [创作版 → 录制模式](creator#recording-modes)。

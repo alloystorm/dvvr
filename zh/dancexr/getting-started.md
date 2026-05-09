@@ -14,7 +14,7 @@ locale: zh-CN
 
 DanceXR 可用于 **PC（Windows/Mac）**、**Android**、**iOS** 和 **Meta Quest**。请访问下载页面，获取适合你平台的版本：
 
-[**下载 DanceXR →**](/dancexr/download)
+[**下载 DanceXR →**](download)
 
 以下是当前可用版本的简要概览：
 
@@ -35,7 +35,7 @@ DanceXR 可用于 **PC（Windows/Mac）**、**Android**、**iOS** 和 **Meta Que
 
 首次启动时，如有需要请完成激活过程。Steam 和 Google Play 版本会自动激活；其他付费版本需要进行一次性激活。完整说明请参阅 [激活与授权](activation) 指南。
 
-> 如果在启动时遇到任何问题，请查看 [支持页面](/dancexr/support) 获取常见修复方法。
+> 如果在启动时遇到任何问题，请查看 [支持页面](support) 获取常见修复方法。
 
 ---
 
@@ -51,7 +51,7 @@ DanceXR 会在 **content library** 文件夹中查找模型、动作和其他内
 - **Android / Quest：** 在 2024.3 更新后，该文件夹位于你存储的 `/DanceXR/`。
 - **iOS：** 在设备中的“文件”应用中查找名为 “DanceXR” 的文件夹。
 
-有关文件夹结构和支持格式的完整说明，请参阅 [内容库指南](/dancexr/preparecontent)。
+有关文件夹结构和支持格式的完整说明，请参阅 [内容库指南](preparecontent)。
 
 ![Example of actors folder](/images/content_actors.PNG)
 
@@ -118,7 +118,7 @@ DanceXR 会在 **content library** 文件夹中查找模型、动作和其他内
 
 动作和音频会自动归组为“dance sets”（舞蹈套装）。加载后，你会在进度条中看到音频名称，并在舞蹈菜单中看到动作列表。要分配动作，可以先选择动作，再点击“Assign To”（分配给）；或者打开角色菜单，从已加载的动作中选择一个。
 
-要了解如何整理动作文件，请参阅 [内容库指南](/dancexr/preparecontent#motion-files)。
+要了解如何整理动作文件，请参阅 [内容库指南](preparecontent#motion-files)。
 
 ---
 
@@ -128,29 +128,29 @@ DanceXR 会在 **content library** 文件夹中查找模型、动作和其他内
 
 **了解系统**
 
-- **[Concepts & glossary](/dancexr/concepts)** — 文档中使用的术语（角色、舞蹈套装、Gizmo 立方体、服装系统、操作员）
-- **[Controls & UI](/dancexr/controls)** — 切换状态、选择盘、Gizmo 立方体、输入映射
-- **[VR operations](/dancexr/vr_operations)** — 手柄控制器、指针、舒适度、VR 内鼠标
+- **[Concepts & glossary](concepts)** — 文档中使用的术语（角色、舞蹈套装、Gizmo 立方体、服装系统、操作员）
+- **[Controls & UI](controls)** — 切换状态、选择盘、Gizmo 立方体、输入映射
+- **[VR operations](vr_operations)** — 手柄控制器、指针、舒适度、VR 内鼠标
 
 **使用内容**
 
-- **[Working with actors](/dancexr/actors)** — 加载、配置和管理角色
-- **[Appearance & materials](/dancexr/appearance)** — 穿搭、纹理、材质、身体彩绘
-- **[Physics system](/dancexr/physics)** — 毛发、布料、胸部、软体和布娃娃
-- **[Motion system](/dancexr/motion)** — 舞蹈套装、程序化舞蹈、分层、覆盖
-- **[Cinematic cameras](/dancexr/cameras)** — 何时使用何种摄影机模式
+- **[Working with actors](actors)** — 加载、配置和管理角色
+- **[Appearance & materials](appearance)** — 穿搭、纹理、材质、身体彩绘
+- **[Physics system](physics)** — 毛发、布料、胸部、软体和布娃娃
+- **[Motion system](motion)** — 舞蹈套装、程序化舞蹈、分层、覆盖
+- **[Cinematic cameras](cameras)** — 何时使用何种摄影机模式
 
 **浏览和参考**
 
-- **[Features overview](/dancexr/features)** — DanceXR 中的所有功能，按部分分类
-- **[AI in DanceXR](/dancexr/ai)** — 操作员、AI 语音聊天、发现、自动舞蹈
-- **[Content library](/dancexr/preparecontent)** — 组织模型、动作、舞台、预设
-- **[Creator edition](/dancexr/creator)** — 离线 4K / VR 渲染
+- **[Features overview](features)** — DanceXR 中的所有功能，按部分分类
+- **[AI in DanceXR](ai)** — 操作员、AI 语音聊天、发现、自动舞蹈
+- **[Content library](preparecontent)** — 组织模型、动作、舞台、预设
+- **[Creator edition](creator)** — 离线 4K / VR 渲染
 
 **获取帮助**
 
-- **[FAQ](/dancexr/faq)** — 常见问题快速解答
-- **[Troubleshooting](/dancexr/troubleshooting)** — 日志、常见修复方法、Bug 报告
-- **[Support](/dancexr/support)** — Discord、电子邮件、GitHub 问题
+- **[FAQ](faq)** — 常见问题快速解答
+- **[Troubleshooting](troubleshooting)** — 日志、常见修复方法、Bug 报告
+- **[Support](support)** — Discord、电子邮件、GitHub 问题
 
 享受探索 DanceXR 的过程！

@@ -9,7 +9,7 @@ toc: true
 
 DanceXR 的材質系統高度可客製化，具有多層次的設定，這些設定堆疊組合，從而打造出舞台上角色或物體的最終外觀。您可以在此更改材質屬性、交換貼圖、套用身體彩繪、切換服裝部件等等。
 
-若要了解某一功能的詳細資訊，請參閱各專門頁面中的連結。對於本頁提及的術語（材質插槽、穿衣系統、替代貼圖、身體彩繪），請參考 [概念與詞彙表](/dancexr/concepts#materials-and-appearance)。
+若要了解某一功能的詳細資訊，請參閱各專門頁面中的連結。對於本頁提及的術語（材質插槽、穿衣系統、替代貼圖、身體彩繪），請參考 [概念與詞彙表](concepts#materials-and-appearance)。
 
 ---
 
@@ -29,32 +29,32 @@ DanceXR 的材質系統高度可客製化，具有多層次的設定，這些設
 
 ## 模型與可見性 — 穿衣系統
 
-[穿衣系統](/dancexr/features/optionals) 結合了 PMX 的形變（morphs）和 XPS 的可選模型（optional meshes），提供了一個統一的介面來控制模型部分的可見性。您可使用它來開啟或關閉服裝部件、切換到替代形狀，或隱藏特定的身體部位。
+[穿衣系統](features/optionals) 結合了 PMX 的形變（morphs）和 XPS 的可選模型（optional meshes），提供了一個統一的介面來控制模型部分的可見性。您可使用它來開啟或關閉服裝部件、切換到替代形狀，或隱藏特定的身體部位。
 
 - 對於 **PMX** 模型，它透過模型作者定義的 *材質形變* 來運作。切換會顯示或隱藏特定的子模型。
 - 對於 **XPS** 模型，它透過每個插槽定義的 *可選項目* 來運作。
 
 兩者使用相同的 UI。您可利用此功能進行換裝、移除模型內附帶的配件、交換頭髮子部件，或為特殊效果隱藏肢體。
 
-PMX 模型也會透過 [形變列表](/dancexr/features/morph_list) 暴露個別形變 — 當某個形變沒有顯示為穿衣切換時，這個功能會很有用。
+PMX 模型也會透過 [形變列表](features/morph_list) 暴露個別形變 — 當某個形變沒有顯示為穿衣切換時，這個功能會很有用。
 
 ---
 
 ## 貼圖增強（專業版）
 
-- [自訂細節貼圖](/dancexr/features/custom_detail_map) — 自訂細節法線貼圖。
-- [六邊形細節貼圖](/dancexr/features/hexagon_detail) — 內建六邊形圖案細節。
-- [生成法線貼圖](/dancexr/features/generate_normal_map) — 從漫反射貼圖自動推導出法線貼圖。
-- [鏡面/遮罩貼圖](/dancexr/features/specular_map) — 鏡面和遮罩貼圖配置。
+- [自訂細節貼圖](features/custom_detail_map) — 自訂細節法線貼圖。
+- [六邊形細節貼圖](features/hexagon_detail) — 內建六邊形圖案細節。
+- [生成法線貼圖](features/generate_normal_map) — 從漫反射貼圖自動推導出法線貼圖。
+- [鏡面/遮罩貼圖](features/specular_map) — 鏡面和遮罩貼圖配置。
 
 ---
 ## 貼圖 — 替代貼圖集
 
-[替代貼圖](/dancexr/features/alternative_textures) 讓您可以在運行時交換整個貼圖集，而無需編輯模型。
+[替代貼圖](features/alternative_textures) 讓您可以在運行時交換整個貼圖集，而無需編輯模型。
 
 其工作原理：將額外的貼圖以與模型原始貼圖**相同的文件名**，放入不同的資料夾（或壓縮包中的其他位置）。DanceXR 會偵測到它們，並提供一個選擇器。常見用途：多種膚色、日夜版本、換色服裝。
 
-您也可以使用 [貼圖增強](/dancexr/features/texture_enhancement) (專業版) 在載入時對貼圖進行 AI 上採樣和銳化。
+您也可以使用 [貼圖增強](features/texture_enhancement) (專業版) 在載入時對貼圖進行 AI 上採樣和銳化。
 
 ---
 
@@ -64,13 +64,13 @@ DanceXR 根據表面類型將材質分組到 **插槽** 中。每個插槽都有
 
 | 插槽 | 用途 | 頁面 |
 |---|---|---|
-| Skin (皮膚) | 身體、臉部 | [皮膚材質](/dancexr/features/material_skin) |
-| Hair (頭髮) | 頭髮、體毛 | [頭髮材質](/dancexr/features/material_hair) |
-| Eyes (眼睛) | 虹膜、鞏膜、眼部高光 | [眼睛材質](/dancexr/features/material_eyes) |
-| Lips (嘴唇) | 嘴唇和口內 | [嘴唇材質](/dancexr/features/material_lips) |
-| Opaque (不透明) | 任何不適合身體插槽的實體物體 — 服裝、模型上的道具 | [不透明材質](/dancexr/features/material_opaque) |
-| Transparent (透明) | 任何透明物體 — 玻璃、薄紗、粒子、髮尖 | [透明材質](/dancexr/features/material_transparent) |
-| Custom (自訂) | 最多兩個自由形式插槽，用於需要自己設定的著色器 | [自訂材質](/dancexr/features/material_custom1) |
+| Skin (皮膚) | 身體、臉部 | [皮膚材質](features/material_skin) |
+| Hair (頭髮) | 頭髮、體毛 | [頭髮材質](features/material_hair) |
+| Eyes (眼睛) | 虹膜、鞏膜、眼部高光 | [眼睛材質](features/material_eyes) |
+| Lips (嘴唇) | 嘴唇和口內 | [嘴唇材質](features/material_lips) |
+| Opaque (不透明) | 任何不適合身體插槽的實體物體 — 服裝、模型上的道具 | [不透明材質](features/material_opaque) |
+| Transparent (透明) | 任何透明物體 — 玻璃、薄紗、粒子、髮尖 | [透明材質](features/material_transparent) |
+| Custom (自訂) | 最多兩個自由形式插槽，用於需要自己設定的著色器 | [自訂材質](features/material_custom1) |
 
 材質如何進入插槽：
 
@@ -85,16 +85,16 @@ DanceXR 根據表面類型將材質分組到 **插槽** 中。每個插槽都有
 
 繪製在基礎材質之上的圖層：
 
-- [服裝與身體彩繪](/dancexr/features/outfit) — 服裝插槽和基於圖像的身體彩繪，這些彩繪從 `texture/drawing` 中的圖像繪製。
-- [汗水效果](/dancexr/features/sweat_effect) — 皮膚上的程序化汗水疊加。
+- [服裝與身體彩繪](features/outfit) — 服裝插槽和基於圖像的身體彩繪，這些彩繪從 `texture/drawing` 中的圖像繪製。
+- [汗水效果](features/sweat_effect) — 皮膚上的程序化汗水疊加。
 
 ---
 
 ## 著色風格
 
-[卡通著色](/dancexr/features/toon_shading) 針對每個角色切換卡通/動畫風格的著色。卡通路徑在光線包裹、陰影階梯和邊緣光方面使用了不同於預設 PBR 風格的路徑的數學計算。請根據您想要的風格進行選擇；混用是可行的。
+[卡通著色](features/toon_shading) 針對每個角色切換卡通/動畫風格的著色。卡通路徑在光線包裹、陰影階梯和邊緣光方面使用了不同於預設 PBR 風格的路徑的數學計算。請根據您想要的風格進行選擇；混用是可行的。
 
-[光線追蹤效果](/dancexr/features/raytracing) 是一個獨立的、場景級別的功能（僅限 PC、RT 版本），它會影響陰影和反射的品質，與著色風格無關。
+[光線追蹤效果](features/raytracing) 是一個獨立的、場景級別的功能（僅限 PC、RT 版本），它會影響陰影和反射的品質，與著色風格無關。
 
 ---
 
@@ -102,18 +102,18 @@ DanceXR 根據表面類型將材質分組到 **插槽** 中。每個插槽都有
 
 | 症狀 | 可能的解決方法 |
 |---|---|
-| 可以看到穿過頭髮 | 透明度深度前傳 — 請參閱 [常見問題](/dancexr/faq#i-can-see-through-hair-materials) |
-| 貼圖缺失，模型是白色的 | 文件名或路徑不匹配 — 請參閱 [常見問題](/dancexr/faq#model-loads-but-everything-is-white) |
-| 皮膚看起來像塑膠/有光澤 | 調整 [皮膚材質](/dancexr/features/material_skin) — 通常是降低鏡面值 |
-| 服裝無法移除 | 模型作者必須將其暴露為形變（PMX）或可選項目（XPS）；請使用 [穿衣系統](/dancexr/features/optionals) 來查看哪些功能是可用的 |
-| 貼圖看起來低解析度 | 嘗試 [貼圖增強](/dancexr/features/texture_enhancement)，或放置更高解析度的替代貼圖 |
-| 天空球看起來像素化/有空洞 | 多個透明天空球 + 透明度深度前傳；請參閱 [常見問題](/dancexr/faq) |
+| 可以看到穿過頭髮 | 透明度深度前傳 — 請參閱 [常見問題](faq#i-can-see-through-hair-materials) |
+| 貼圖缺失，模型是白色的 | 文件名或路徑不匹配 — 請參閱 [常見問題](faq#model-loads-but-everything-is-white) |
+| 皮膚看起來像塑膠/有光澤 | 調整 [皮膚材質](features/material_skin) — 通常是降低鏡面值 |
+| 服裝無法移除 | 模型作者必須將其暴露為形變（PMX）或可選項目（XPS）；請使用 [穿衣系統](features/optionals) 來查看哪些功能是可用的 |
+| 貼圖看起來低解析度 | 嘗試 [貼圖增強](features/texture_enhancement)，或放置更高解析度的替代貼圖 |
+| 天空球看起來像素化/有空洞 | 多個透明天空球 + 透明度深度前傳；請參閱 [常見問題](faq) |
 
 ---
 
 ## 進一步閱讀
 
-- [概念與詞彙表](/dancexr/concepts#materials-and-appearance)
-- [操作角色](/dancexr/actors)
-- [物理系統](/dancexr/physics) — 用於布料和頭髮運動（與布料材質分開）
-- [內容庫](/dancexr/preparecontent) — `texture/`、`drawing/`、`mask/` 資料夾
+- [概念與詞彙表](concepts#materials-and-appearance)
+- [操作角色](actors)
+- [物理系統](physics) — 用於布料和頭髮運動（與布料材質分開）
+- [內容庫](preparecontent) — `texture/`、`drawing/`、`mask/` 資料夾

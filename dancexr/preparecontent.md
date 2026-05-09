@@ -142,8 +142,8 @@ Loading content on Quest
 
 ## Related pages
 
-- [Working with actors](/dancexr/actors) — what to do with models once they are in the library
-- [Motion system](/dancexr/motion) — how dance sets and motions are organized
-- [Concepts & glossary](/dancexr/concepts) — definitions of preset, scene, scene bundle, dance set
-- [Google Drive integration](/dancexr/features/googledrive)
-- [Content library on Android & Quest](/dancexr/content_android_quest)
+- [Working with actors](actors) — what to do with models once they are in the library
+- [Motion system](motion) — how dance sets and motions are organized
+- [Concepts & glossary](concepts) — definitions of preset, scene, scene bundle, dance set
+- [Google Drive integration](features/googledrive)
+- [Content library on Android & Quest](content_android_quest)

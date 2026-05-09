@@ -8,7 +8,7 @@ locale: ja-JP
 
 観客モードは、アクターを受動的な観察者としてマークします。観客はシーン内にロードされたままですが、「すべての俳優」に作用する機能（自動割り当てモーション、フォーメーション、グループダンス生成）からは除外されます。
 
-アクターツールメニューから切り替えます。詳細は [アクターメニューとツール → ツールメニュー](/dancexr/features/actor_tools#tools-menu) を参照してください。
+アクターツールメニューから切り替えます。詳細は [アクターメニューとツール → ツールメニュー](actor_tools#tools-menu) を参照してください。
 
 ---
 
@@ -43,6 +43,6 @@ locale: ja-JP
 
 ## 関連ページ
 
-- [アクターメニューとツール](/dancexr/features/actor_tools)
-- [フォーメーション](/dancexr/features/formation)
-- [アクタープレイリスト](/dancexr/features/actor_playlist)
+- [アクターメニューとツール](actor_tools)
+- [フォーメーション](formation)
+- [アクタープレイリスト](actor_playlist)

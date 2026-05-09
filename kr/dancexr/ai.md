@@ -9,21 +9,21 @@ toc: true
 
 DanceXR에는 여러 AI 기반 기능이 있습니다. 이들 중 대부분은 **DanceXR Operator**라는 단일 로컬 백엔드를 통해 작동하며, 이 백엔드는 사용자의 하드웨어에서 실행되며 음성 합성, 대규모 언어 모델 채팅, 지원 서비스를 단일 프로세스로 통합합니다. 이 페이지는 개요이며, 각 기능은 자체 상세 페이지를 가지고 있습니다.
 
-용어(Operator, TTS, STT, persona, template)에 대해서는 [개념 및 용어집](/dancexr/concepts#ai-backends)을 참조하세요.
+용어(Operator, TTS, STT, persona, template)에 대해서는 [개념 및 용어집](concepts#ai-backends)을 참조하세요.
 
 ---
 
 ## 전반적인 개요
 
-- **Operator**는 로컬 AI 백엔드입니다. DanceXR과 별도의 프로세스로 실행됩니다. [DanceXR Operator](/dancexr/features/operator)를 참조하세요.
-- **AI 음성 채팅**은 Operator를 사용하는 사용자 인터페이스 채팅 경험입니다. [AI 음성 채팅](/dancexr/features/ai_chat)을 참조하세요.
+- **Operator**는 로컬 AI 백엔드입니다. DanceXR과 별도의 프로세스로 실행됩니다. [DanceXR Operator](features/operator)를 참조하세요.
+- **AI 음성 채팅**은 Operator를 사용하는 사용자 인터페이스 채팅 경험입니다. [AI 음성 채팅](features/ai_chat)을 참조하세요.
 
 
 ---
 
 ## DanceXR Operator
 
-[Operator](/dancexr/features/operator)는 **2026.5**에 도입된 전용 로컬 백엔드입니다. 여기에는 다음이 번들로 포함되어 있습니다:
+[Operator](features/operator)는 **2026.5**에 도입된 전용 로컬 백엔드입니다. 여기에는 다음이 번들로 포함되어 있습니다:
 
 - **TTS** — 음성으로 텍스트 답변을 변환하는 Kokoro.
 - **LLM** — 채팅 생성을 위한 llama.cpp.

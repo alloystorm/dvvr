@@ -8,7 +8,7 @@ locale: ja-JP
 
 <!-- TODO: full description. The Beats Ring is referenced as a tile on /dancexr/features under Stage & Props but no other page describes it. Likely an audio-reactive visualizer ring; confirm and fill in. -->
 
-ビーツリングは、音楽に合わせて脈動する、オーディオリアクティブなビジュアライザープロップです。これは[auto-update](/dancexr/features/autoupdate) データソースの一つであり、他の設定がその出力を利用して自動的に動く（駆動できる）ことを意味します。
+ビーツリングは、音楽に合わせて脈動する、オーディオリアクティブなビジュアライザープロップです。これは[auto-update](autoupdate) データソースの一つであり、他の設定がその出力を利用して自動的に動く（駆動できる）ことを意味します。
 
 ---
 
@@ -37,6 +37,6 @@ locale: ja-JP
 
 ## 関連ページ
 
-- [Auto update](/dancexr/features/autoupdate) — ビーツリングを他の設定のデータソースとして使用する
-- [Music timing](/dancexr/features/music_timing) — 音楽へのモーション同期
-- [Audio options](/dancexr/features/audio_options)
+- [Auto update](autoupdate) — ビーツリングを他の設定のデータソースとして使用する
+- [Music timing](music_timing) — 音楽へのモーション同期
+- [Audio options](audio_options)

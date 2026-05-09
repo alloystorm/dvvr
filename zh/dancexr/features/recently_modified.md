@@ -8,7 +8,7 @@ locale: zh-CN
 
 这是一个快速访问列表，用于查看您最近更改的每个角色的设置。它可以让您无需通过角色菜单层级结构导航，即可重新打开相同的设置对话框。
 
-可在角色菜单中找到——请参阅 [Actor menu & tools](/dancexr/features/actor_tools#actor-menu)。
+可在角色菜单中找到——请参阅 [Actor menu & tools](actor_tools#actor-menu)。
 
 ---
 
@@ -35,5 +35,5 @@ locale: zh-CN
 
 ## 相关页面
 
-- [Actor menu & tools](/dancexr/features/actor_tools)
-- [Concepts & glossary](/dancexr/concepts)
+- [Actor menu & tools](actor_tools)
+- [Concepts & glossary](../concepts)

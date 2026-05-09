@@ -8,7 +8,7 @@ locale: ko-KR
 
 관전자 모드는 에셋을 수동 관찰자로 지정합니다. 관전자 에셋은 씬에 로드된 상태로 유지되지만, "모든 에셋에" 작용하는 기능(자동 할당 동작, 포메이션, 그룹 댄스 생성 등)에서는 제외됩니다.
 
-에셋 도구 메뉴에서 토글할 수 있습니다 — [에셋 메뉴 & 도구 → 도구 메뉴](/dancexr/features/actor_tools#tools-menu)를 참조하세요.
+에셋 도구 메뉴에서 토글할 수 있습니다 — [에셋 메뉴 & 도구 → 도구 메뉴](actor_tools#tools-menu)를 참조하세요.
 
 ---
 
@@ -43,6 +43,6 @@ locale: ko-KR
 
 ## 관련 페이지
 
-- [에셋 메뉴 & 도구](/dancexr/features/actor_tools)
-- [포메이션](/dancexr/features/formation)
-- [에셋 플레이리스트](/dancexr/features/actor_playlist)
+- [에셋 메뉴 & 도구](actor_tools)
+- [포메이션](formation)
+- [에셋 플레이리스트](actor_playlist)

@@ -14,7 +14,7 @@ Welcome! This guide walks you through your first DanceXR experience, from downlo
 
 DanceXR is available on **PC (Windows/Mac)**, **Android**, **iOS**, and **Meta Quest**. Visit the download page to get the right version for your platform:
 
-[**Download DanceXR →**](/dancexr/download)
+[**Download DanceXR →**](download)
 
 Here's a quick overview of what's available:
 
@@ -35,7 +35,7 @@ Here's a quick overview of what's available:
 
 On first launch, complete the activation process if required. Steam and Google Play activate automatically; other paid editions need a quick one-time activation. See the [Activation & Licensing](activation) guide for the full walkthrough.
 
-> If you run into any issues at launch, check the [Support page](/dancexr/support) for common fixes.
+> If you run into any issues at launch, check the [Support page](support) for common fixes.
 
 ---
 
@@ -51,7 +51,7 @@ The location depends on your platform:
 - **Android / Quest:** After the 2024.3 update, the folder is at `/DanceXR/` on your storage. 
 - **iOS:** Look for a "DanceXR" folder in your device's Files app.
 
-For a full breakdown of the folder structure and supported formats, see the [Content Library guide](/dancexr/preparecontent).
+For a full breakdown of the folder structure and supported formats, see the [Content Library guide](preparecontent).
 
 ![Example of actors folder](/images/content_actors.PNG)
 
@@ -118,7 +118,7 @@ Click the audio/motion icon and select "Load Audio / Motion." You should see a l
 
 Motion and audio are automatically grouped as "dance sets." Once loaded, you should see the audio name in the progress bar and the motions in the dance menu. To assign a motion, select it and choose "Assign To," or open the actor menu and choose one of the loaded motions.
 
-For more details on organizing motion files, see the [Content Library guide](/dancexr/preparecontent#motion-files).
+For more details on organizing motion files, see the [Content Library guide](preparecontent#motion-files).
 
 ---
 
@@ -128,29 +128,29 @@ You're up and running! Start with these guides — each one is a hub that links 
 
 **Learn the system**
 
-- **[Concepts & glossary](/dancexr/concepts)** — Terms used across the docs (actor, dance set, gizmo cube, dressing system, Operator)
-- **[Controls & UI](/dancexr/controls)** — Toggle states, selection disc, gizmo cubes, input mappings
-- **[VR operations](/dancexr/vr_operations)** — Hand controllers, pointer, comfort, Mouse-in-VR
+- **[Concepts & glossary](concepts)** — Terms used across the docs (actor, dance set, gizmo cube, dressing system, Operator)
+- **[Controls & UI](controls)** — Toggle states, selection disc, gizmo cubes, input mappings
+- **[VR operations](vr_operations)** — Hand controllers, pointer, comfort, Mouse-in-VR
 
 **Work with content**
 
-- **[Working with actors](/dancexr/actors)** — Loading, configuring, and managing characters
-- **[Appearance & materials](/dancexr/appearance)** — Dressing, textures, materials, body paint
-- **[Physics system](/dancexr/physics)** — Hair, cloth, breast, soft body, ragdoll
-- **[Motion system](/dancexr/motion)** — Dance sets, procedural dance, layering, override
-- **[Cinematic cameras](/dancexr/cameras)** — When to use which camera mode
+- **[Working with actors](actors)** — Loading, configuring, and managing characters
+- **[Appearance & materials](appearance)** — Dressing, textures, materials, body paint
+- **[Physics system](physics)** — Hair, cloth, breast, soft body, ragdoll
+- **[Motion system](motion)** — Dance sets, procedural dance, layering, override
+- **[Cinematic cameras](cameras)** — When to use which camera mode
 
 **Browse and reference**
 
-- **[Features overview](/dancexr/features)** — Every feature in DanceXR, by section
-- **[AI in DanceXR](/dancexr/ai)** — Operator, AI Voice Chat, Discovery, Auto Dance
-- **[Content library](/dancexr/preparecontent)** — Organizing models, motions, stages, presets
-- **[Creator edition](/dancexr/creator)** — Offline 4K / VR rendering
+- **[Features overview](features)** — Every feature in DanceXR, by section
+- **[AI in DanceXR](ai)** — Operator, AI Voice Chat, Discovery, Auto Dance
+- **[Content library](preparecontent)** — Organizing models, motions, stages, presets
+- **[Creator edition](creator)** — Offline 4K / VR rendering
 
 **Get help**
 
-- **[FAQ](/dancexr/faq)** — Quick answers to common questions
-- **[Troubleshooting](/dancexr/troubleshooting)** — Logs, common fixes, bug reports
-- **[Support](/dancexr/support)** — Discord, email, GitHub issues
+- **[FAQ](faq)** — Quick answers to common questions
+- **[Troubleshooting](troubleshooting)** — Logs, common fixes, bug reports
+- **[Support](support)** — Discord, email, GitHub issues
 
 Enjoy exploring DanceXR! 

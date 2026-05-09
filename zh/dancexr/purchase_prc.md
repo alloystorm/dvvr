@@ -1,7 +1,7 @@
 ---
 layout: release
 title: 中国大陆购买选项
-permalink: /dancexr/purchase_prc
+permalink: /zh/dancexr/purchase_prc
 ---
 
 

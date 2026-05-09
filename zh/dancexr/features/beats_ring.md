@@ -8,7 +8,7 @@ locale: zh-CN
 
 <!-- TODO: full description. The Beats Ring is referenced as a tile on /dancexr/features under Stage & Props but no other page describes it. Likely an audio-reactive visualizer ring; confirm and fill in. -->
 
-节拍光环是一个音频反应式视觉效果道具，会随着音乐脉动。它是 [auto-update](/dancexr/features/autoupdate) 数据源之一，这意味着其他设置可以根据其输出自行驱动。
+节拍光环是一个音频反应式视觉效果道具，会随着音乐脉动。它是 [auto-update](autoupdate) 数据源之一，这意味着其他设置可以根据其输出自行驱动。
 
 ---
 
@@ -37,6 +37,6 @@ locale: zh-CN
 
 ## 相关页面
 
-- [Auto update](/dancexr/features/autoupdate) — 将节拍光环用作其他设置的数据源
-- [Music timing](/dancexr/features/music_timing) — 将动作与音乐同步
-- [Audio options](/dancexr/features/audio_options)
+- [Auto update](autoupdate) — 将节拍光环用作其他设置的数据源
+- [Music timing](music_timing) — 将动作与音乐同步
+- [Audio options](audio_options)

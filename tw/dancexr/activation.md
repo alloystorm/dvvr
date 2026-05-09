@@ -109,14 +109,14 @@ DanceXR 還會在 `config.json` 中（與其他設定一起）記住它是否已
 - **「啟用您的副本」沒有反應** — 啟用伺服器可能暫時無法連線。請幾分鐘後再試。
 - **您完成了啟用，但 DanceXR 仍然以免費模式運行** — 打開系統選單並再次點擊**啟用您的副本**。DanceXR 會重新檢索授權。
 - **刪除 `license.txt` 後，啟用似乎卡住了** — 也請刪除 `config.json`（先備份它，因為它儲存了您的設定）。下次啟動時，DanceXR 會將其視為首次運行，並自動嘗試檢索授權；如果您的設備有記錄，授權將靜默恢復。
-- **網站開啟了，但您購買的平台沒有列出** — 您的版本是在特定平台上銷售的；該頁面只顯示販售該版本的平台。如果您認為缺少的功能是錯誤的，請聯絡 [支援](/dancexr/support)。
-- **在同一機器上多次要求重新啟用** — 請透過 [支援](/dancexr/support) 聯絡我們，並包含提示出現的時間細節。
+- **網站開啟了，但您購買的平台沒有列出** — 您的版本是在特定平台上銷售的；該頁面只顯示販售該版本的平台。如果您認為缺少的功能是錯誤的，請聯絡 [支援](support)。
+- **在同一機器上多次要求重新啟用** — 請透過 [支援](support) 聯絡我們，並包含提示出現的時間細節。
 
 ---
 
 ## 相關頁面
 
-- [下載與版本](/dancexr/download) — 哪個版本在哪個平台上銷售
-- [常見問題](/dancexr/faq) — 常見的啟用和啟動修復方法
-- [概念與詞彙表](/dancexr/concepts#configuration-and-persistence) — `license.txt` 與其他配置檔案
-- [支援](/dancexr/support) — Discord、GitHub Issues、電子郵件
+- [下載與版本](download) — 哪個版本在哪個平台上銷售
+- [常見問題](faq) — 常見的啟用和啟動修復方法
+- [概念與詞彙表](concepts#configuration-and-persistence) — `license.txt` 與其他配置檔案
+- [支援](support) — Discord、GitHub Issues、電子郵件

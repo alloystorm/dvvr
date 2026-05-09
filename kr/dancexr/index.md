@@ -322,7 +322,7 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
 - **2D, 입체 3D SBS, VR 180, VR 360** 비디오 출력
 - 오프라인 프레임 단위 렌더링 — 모든 프레임이 완벽합니다
 
-[Patreon에서 이용 가능 →](/kr/dancexr/download){: .btn-ghost}
+[Patreon에서 이용 가능 →](download){: .btn-ghost}
 
 </div>
 </div>
@@ -352,7 +352,7 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
       <li class="locked">무대 위 액터 한 명</li>
       <li class="locked">고급 기능 잠금</li>
     </ul>
-    <a href="/kr/dancexr/download" class="edition-cta">무료 다운로드</a>
+    <a href="download" class="edition-cta">무료 다운로드</a>
   </div>
 
   <div class="edition-card featured">
@@ -367,7 +367,7 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
       <li>모든 고급 기능</li>
       <li>Pro는 성인 콘텐츠 지원</li>
     </ul>
-    <a href="/kr/dancexr/download" class="edition-cta">지금 구매</a>
+    <a href="download" class="edition-cta">지금 구매</a>
   </div>
 
   <div class="edition-card">
@@ -386,7 +386,7 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
 
 </div>
 <div class="editions-header" markdown="1">
-  DanceXR은 Android, iOS, Quest VR에서도 이용할 수 있습니다 — 동일한 핵심 기능이 디바이스에 맞게 최적화되어 있습니다. 자세한 내용은 [다운로드 페이지](/kr/dancexr/download)를 확인하세요.
+  DanceXR은 Android, iOS, Quest VR에서도 이용할 수 있습니다 — 동일한 핵심 기능이 디바이스에 맞게 최적화되어 있습니다. 자세한 내용은 [다운로드 페이지](download)를 확인하세요.
 </div>
 </section>
 
@@ -402,7 +402,7 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
 
 매달 새로운 기능과 개선 사항이 출시됩니다. Patreon 후원자는 먼저 이용할 수 있으며 — Steam 및 기타 플랫폼은 이달 중반에 출시됩니다.
 
-[모든 릴리스 노트 보기 →](/kr/dancexr/releases){: .btn-ghost}
+[모든 릴리스 노트 보기 →](releases){: .btn-ghost}
 
 </div>
 <div class="release-card">
@@ -414,7 +414,7 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
     <div class="release-item">더 반응적인 페어 모션</div>
     <div class="release-item">포즈와 시선 제어 개선</div>
   </div>
-  <a href="/kr/dancexr/releases/2026.5" class="btn-ghost">전체 릴리스 노트</a>
+  <a href="releases/2026.5" class="btn-ghost">전체 릴리스 노트</a>
 </div>
 </div>
 </section>

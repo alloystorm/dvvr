@@ -8,7 +8,7 @@ locale: en-US
 
 A quick-access list of the per-actor settings you have changed most recently. Lets you re-open the same dialog without navigating back through the actor menu hierarchy.
 
-Available from the actor menu — see [Actor menu & tools](/dancexr/features/actor_tools#actor-menu).
+Available from the actor menu — see [Actor menu & tools](actor_tools#actor-menu).
 
 ---
 
@@ -35,5 +35,5 @@ The list is per-actor and resets when you reload the model or the scene.
 
 ## Related pages
 
-- [Actor menu & tools](/dancexr/features/actor_tools)
-- [Concepts & glossary](/dancexr/concepts)
+- [Actor menu & tools](actor_tools)
+- [Concepts & glossary](../concepts)

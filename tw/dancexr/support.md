@@ -21,7 +21,7 @@ hero_image: /images/hero.png
 
 最快找到答案的方式是查閱文件。功能頁面詳細說明了每個選項，疑難排解指南則針對最常見的問題提供解決方案。
 
-[功能文件 →](/dancexr/features){: .btn-ghost}
+[功能文件 →](features){: .btn-ghost}
 
 </div>
 <div class="section-copy" markdown="1">
@@ -79,7 +79,7 @@ DanceXR 社群在 Discord 上非常活躍。在這裡可以找到其他使用者
 
 ### 被要求重新啟用
 
-在進行重大作業系統或硬體變更後，DanceXR 可能無法識別您的系統與您的授權發放時的系統是同一台。只需再次運行啟用步驟即可 — 不會額外產生費用。請參閱 [啟用與授權](/dancexr/activation) 指南。如有困難，請[聯絡我們](#contact)。
+在進行重大作業系統或硬體變更後，DanceXR 可能無法識別您的系統與您的授權發放時的系統是同一台。只需再次運行啟用步驟即可 — 不會額外產生費用。請參閱 [啟用與授權](activation) 指南。如有困難，請[聯絡我們](#contact)。
 
 </div>
 
@@ -101,7 +101,7 @@ DanceXR 使用 OpenXR 來初始化 VR。如果您安裝了多個 VR 執行環境
 
 最常見的原因是檔案名稱編碼 — 當檔案名稱使用不同字元編碼時，紋理貼圖無法被定位。
 
-- 對於 ZIP 封包，請將編碼添加到封包名稱，讓 DanceXR 知道如何解析檔名。[詳情 →](/dancexr/features/zip_format)
+- 對於 ZIP 封包，請將編碼添加到封包名稱，讓 DanceXR 知道如何解析檔名。[詳情 →](features/zip_format)
 - 檔名中的額外空格也會導致紋理貼圖無法載入。請在 PMXEditor 中開啟模型，並驗證紋理參照是否與實際檔名完全一致。
 
 </div>

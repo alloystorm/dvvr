@@ -118,7 +118,7 @@ hero_image: /images/hero.png
   </div>
 
 </div>
-<p class="section-note" markdown="1">中国大陆用户请查看 [购买选项](/dancexr/purchase_prc)。</p>
+<p class="section-note" markdown="1">中国大陆用户请查看 [购买选项](purchase_prc)。</p>
 </section>
 
 <!-- ── Mobile & VR ────────────────────────────────────────── -->
@@ -185,7 +185,7 @@ hero_image: /images/hero.png
 
 付费版本在使用前需要确认您的购买。**Steam** 和 **Google Play** 的购买将在首次启动时自动激活，无需操作。其他所有版本（Itch.io PC、Itch.io Android、Quest、Patreon Creator）则需要通过系统菜单进行快速的一次性激活步骤。
 
-[激活指南 →](/dancexr/activation){: .btn-ghost}
+[激活指南 →](activation){: .btn-ghost}
 
 </div>
 <div class="section-copy" markdown="1">
@@ -197,7 +197,7 @@ hero_image: /images/hero.png
 
 每个许可与您激活的特定设备和版本变体绑定。如果要在第二台设备上运行 DanceXR — 或者在同一设备上运行不同版本（HD、LW、RT、Creator）——只需再次完成激活流程即可。无额外费用。硬件或操作系统重大升级后也适用。
 
-[激活详情 →](/dancexr/activation#multiple-devices){: .btn-ghost}
+[激活详情 →](activation#multiple-devices){: .btn-ghost}
 
 </div>
 </div>

@@ -9,7 +9,7 @@ toc: true
 
 How the DanceXR interface is laid out, how you interact with the scene, and the default input mappings for keyboard, mouse, gamepad, and VR controllers.
 
-For VR-specific operations (hand controllers, pointer calibration, comfort, Pointer Handle, Mouse-in-VR), see the [VR operations](/dancexr/vr_operations) page.
+For VR-specific operations (hand controllers, pointer calibration, comfort, Pointer Handle, Mouse-in-VR), see the [VR operations](vr_operations) page.
 
 ---
 
@@ -72,9 +72,9 @@ While dragging, you can also use the mouse wheel or thumbstick on the hand contr
 Some motions and tools support **gizmo cubes** — virtual cubes that appear on body parts so you can move and pose them. Depending on where the pointer lands, drag to move or rotate the gizmo.
 
 Features that show gizmo cubes include:
-- [Wind field in sky settings](/dancexr/features/sky#wind_field): change wind field position and direction.
+- [Wind field in sky settings](features/sky#wind_field): change wind field position and direction.
 - [Various procedural motions]: change offset and rotation of body parts like torso, hands and feet.
-- [Motion Override](/dancexr/features/motion_override): adjust the position and rotation of body parts for the overridden motion.
+- [Motion Override](features/motion_override): adjust the position and rotation of body parts for the overridden motion.
 
 ---
 
@@ -145,13 +145,13 @@ You can re-bind Second Action to a different button in input settings if you pre
 
 You can re-map any of the default actions in input settings. Open the system menu (gear icon), then go to the input settings section. Each abstract action lists its current mapping; select an action and press the new button or key to bind it.
 
-The microphone toggle for AI chat (default: right hand controller menu button) is configured here as well — see [AI Voice Chat](/dancexr/features/ai_chat#key-binding).
+The microphone toggle for AI chat (default: right hand controller menu button) is configured here as well — see [AI Voice Chat](features/ai_chat#key-binding).
 
 ---
 
 ## Further reading
 
-- [VR operations](/dancexr/vr_operations) — VR-specific interaction (hand controllers, pointer, grip-drag UI, comfort)
-- [VR settings](/dancexr/features/vr_settings) — VR technical settings (foveated rendering, pointer calibration, hand rendering)
-- [Concepts & glossary](/dancexr/concepts) — definitions of selection disc, gizmo cube, toggle states
-- [Getting started](/dancexr/getting-started) — first-run walkthrough
+- [VR operations](vr_operations) — VR-specific interaction (hand controllers, pointer, grip-drag UI, comfort)
+- [VR settings](features/vr_settings) — VR technical settings (foveated rendering, pointer calibration, hand rendering)
+- [Concepts & glossary](concepts) — definitions of selection disc, gizmo cube, toggle states
+- [Getting started](getting-started) — first-run walkthrough

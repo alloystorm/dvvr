@@ -9,20 +9,20 @@ toc: true
 
 DanceXR 具有多個由 AI 驅動的功能。大多數這些功能都通過一個本地後端——**DanceXR Operator**——運行，它在您的硬體上運行，並將語音合成、大型語言模型聊天和支援服務打包成一個單一程序。本頁是概述；每個功能都有其詳細頁面。
 
-對於術語 (Operator、TTS、STT、persona、template)，請參閱 [Concepts & glossary](/dancexr/concepts#ai-backends)。
+對於術語 (Operator、TTS、STT、persona、template)，請參閱 [Concepts & glossary](concepts#ai-backends)。
 
 ---
 
 ## 概覽
 
-- **Operator** 是本地 AI 後端。它作為一個獨立的程序與 DanceXR 並行運行。參見 [DanceXR Operator](/dancexr/features/operator)。
-- **AI Voice Chat** 是使用者介面的聊天體驗，它使用 Operator。參見 [AI Powered Voice Chat](/dancexr/features/ai_chat)。
+- **Operator** 是本地 AI 後端。它作為一個獨立的程序與 DanceXR 並行運行。參見 [DanceXR Operator](features/operator)。
+- **AI Voice Chat** 是使用者介面的聊天體驗，它使用 Operator。參見 [AI Powered Voice Chat](features/ai_chat)。
 
 ---
 
 ## DanceXR Operator
 
-[Operator](/dancexr/features/operator) 是在 **2026.5** 版本中引入的專用本地後端。它打包了：
+[Operator](features/operator) 是在 **2026.5** 版本中引入的專用本地後端。它打包了：
 
 - **TTS** — Kokoro，用於將文字回覆轉換為語音。
 - **LLM** — llama.cpp，用於聊天生成。

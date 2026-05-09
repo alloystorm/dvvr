@@ -27,17 +27,17 @@ locale: ja-JP
 
 症状別の案内:
 
-- **起動しない、または起動時にクラッシュする** → [FAQ → 空のみが表示される](/dancexr/faq#only-sky-is-displayed-no-ui-or-camera-control-available)、[FAQ → 突然クラッシュし始めた](/dancexr/faq)
-- **VRが開始しない** → [FAQ → VRが起動できない](/dancexr/faq#unable-to-launch-vr)
-- **アクティベーションの問題** → [FAQ → 再度アクティベートを求められる](/dancexr/faq#im-asked-to-activate-again)、次に[サポート](/dancexr/support)
-- **モデル固有の問題（特定のモデルが予期せず動作しない）** → [アクターのトラブルシューティング](/dancexr/features/troubleshooting)
-- **髪、布、スカート、または胸の物理演算** → [物理システム](/dancexr/physics)
-- **マテリアルまたはテクスチャがおかしい** → [外観とマテリアル](/dancexr/appearance)、[FAQ → モデルはロードされるがすべてが白くなる](/dancexr/faq#model-loads-but-everything-is-white)
-- **モーションが再生されない、またはアクターが間違っている** → [モーションシステム](/dancexr/motion)
-- **用語の意味がわからない** → [コンセプトと用語集](/dancexr/concepts)
+- **起動しない、または起動時にクラッシュする** → [FAQ → 空のみが表示される](faq#only-sky-is-displayed-no-ui-or-camera-control-available)、[FAQ → 突然クラッシュし始めた](faq)
+- **VRが開始しない** → [FAQ → VRが起動できない](faq#unable-to-launch-vr)
+- **アクティベーションの問題** → [FAQ → 再度アクティベートを求められる](faq#im-asked-to-activate-again)、次に[サポート](support)
+- **モデル固有の問題（特定のモデルが予期せず動作しない）** → [アクターのトラブルシューティング](features/troubleshooting)
+- **髪、布、スカート、または胸の物理演算** → [物理システム](physics)
+- **マテリアルまたはテクスチャがおかしい** → [外観とマテリアル](appearance)、[FAQ → モデルはロードされるがすべてが白くなる](faq#model-loads-but-everything-is-white)
+- **モーションが再生されない、またはアクターが間違っている** → [モーションシステム](motion)
+- **用語の意味がわからない** → [コンセプトと用語集](concepts)
 
 ## 関連ページ
 
-- [FAQ](/dancexr/faq)
-- [サポート](/dancexr/support) — Discord, email, GitHub issues
-- [コンセプトと用語集](/dancexr/concepts)
+- [FAQ](faq)
+- [サポート](support) — Discord, email, GitHub issues
+- [コンセプトと用語集](concepts)

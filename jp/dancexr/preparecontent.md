@@ -132,8 +132,8 @@ Questでのコンテンツの読み込み
 
 ## 関連ページ
 
-- [アクターの扱い方](/dancexr/actors) — ライブラリに入れた後のモデルの扱い方
-- [モーションシステム](/dancexr/motion) — ダンスセットとモーションの整理方法
-- [コンセプトと用語集](/dancexr/concepts) — プリセット、シーン、シーンバンドル、ダンスセットの定義
-- [Google Driveの統合](/dancexr/features/googledrive)
-- [AndroidおよびQuestでのコンテンツライブラリ](/dancexr/content_android_quest)
+- [アクターの扱い方](actors) — ライブラリに入れた後のモデルの扱い方
+- [モーションシステム](motion) — ダンスセットとモーションの整理方法
+- [コンセプトと用語集](concepts) — プリセット、シーン、シーンバンドル、ダンスセットの定義
+- [Google Driveの統合](features/googledrive)
+- [AndroidおよびQuestでのコンテンツライブラリ](content_android_quest)

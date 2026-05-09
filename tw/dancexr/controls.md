@@ -9,7 +9,7 @@ toc: true
 
 說明 DanceXR 的介面佈局、與場景的互動方式，以及鍵盤、滑鼠、遊戲手把和 VR 控制器的預設輸入映射。
 
-關於特定於 VR 的操作（手部控制器、指標校準、舒適度、指標把手、VR 內滑鼠），請參閱 [VR 操作](/dancexr/vr_operations) 頁面。
+關於特定於 VR 的操作（手部控制器、指標校準、舒適度、指標把手、VR 內滑鼠），請參閱 [VR 操作](vr_operations) 頁面。
 
 ---
 
@@ -72,9 +72,9 @@ toc: true
 有些動作和工具支援**輔助方塊**（gizmo cubes）— 這些是出現在身體部位的虛擬方塊，讓您可以移動和擺姿勢部件。根據指標停在的位置，拖動以移動或旋轉輔助方塊。
 
 顯示輔助方塊的功能包括：
-- [天空設定中的風場](/dancexr/features/sky#wind_field)：改變風場的位置和方向。
+- [天空設定中的風場](features/sky#wind_field)：改變風場的位置和方向。
 - [各種程序化動作]：改變軀幹、手和腳等身體部位的偏移和旋轉。
-- [動作覆蓋](/dancexr/features/motion_override)：調整被覆蓋動作的身體部位的位置和旋轉。
+- [動作覆蓋](features/motion_override)：調整被覆蓋動作的身體部位的位置和旋轉。
 
 ---
 
@@ -145,13 +145,13 @@ DanceXR 的輸入映射圍繞一套通用抽象控制集構建，因此相同的
 
 您可以在輸入設定中重新映射任何預設動作。開啟系統選單（齒輪圖示），然後進入輸入設定部分。每個抽象動作都列出了其當前映射；選擇一個動作並按下新的按鈕或鍵來綁定它。
 
-用於 AI 聊天的麥克風切換（預設：右手控制器選單按鈕）也在此配置——參見 [AI 語音聊天](/dancexr/features/ai_chat#key-binding)。
+用於 AI 聊天的麥克風切換（預設：右手控制器選單按鈕）也在此配置——參見 [AI 語音聊天](features/ai_chat#key-binding)。
 
 ---
 
 ## 進一步閱讀
 
-- [VR 操作](/dancexr/vr_operations) — VR 特定互動（手部控制器、指標、抓握拖動 UI、舒適度）
-- [VR 設定](/dancexr/features/vr_settings) — VR 技術設定（foveated rendering、指標校準、手部渲染）
-- [概念與詞彙表](/dancexr/concepts) — 選取圓盤、輔助方塊、切換狀態的定義
-- [開始使用](/dancexr/getting-started) — 初次使用指南
+- [VR 操作](vr_operations) — VR 特定互動（手部控制器、指標、抓握拖動 UI、舒適度）
+- [VR 設定](features/vr_settings) — VR 技術設定（foveated rendering、指標校準、手部渲染）
+- [概念與詞彙表](concepts) — 選取圓盤、輔助方塊、切換狀態的定義
+- [開始使用](getting-started) — 初次使用指南

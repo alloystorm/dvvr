@@ -118,7 +118,7 @@ Steam 및 모든 다른 플랫폼보다 모든 월간 출시를 먼저 받아보
   </div>
 
 </div>
-<p class="section-note" markdown="1">중국大陆用户请查看 [购买选项](/dancexr/purchase_prc)。</p>
+<p class="section-note" markdown="1">중국大陆用户请查看 [购买选项](/zh/dancexr/purchase_prc)。</p>
 </section>
 
 <!-- ── Mobile & VR ────────────────────────────────────────── -->
@@ -185,7 +185,7 @@ Steam 및 모든 다른 플랫폼보다 모든 월간 출시를 먼저 받아보
 
 유료 버전은 잠금 해제 전에 구매를 확인해야 합니다. **Steam** 및 **Google Play** 구매는 첫 실행 시 자동으로 활성화되므로 별다른 조치가 필요하지 않습니다. 나머지 모든 것(Itch.io PC, Itch.io Android, Quest, Patreon Creator)은 시스템 메뉴에서 간편한 일회성 활성화 단계가 필요합니다.
 
-[활성화 가이드 →](/dancexr/activation){: .btn-ghost}
+[활성화 가이드 →](activation){: .btn-ghost}
 
 </div>
 <div class="section-copy" markdown="1">
@@ -197,7 +197,7 @@ Steam 및 모든 다른 플랫폼보다 모든 월간 출시를 먼저 받아보
 
 각 라이선스는 활성화한 특정 장치 및 빌드 변형과 연결됩니다. 두 번째 장치에서 DanceXR을 실행하거나 — 또는 동일한 장치에서 다른 빌드(HD, LW, RT, Creator)를 실행하려면 — 활성화 흐름을 다시 거치기만 하면 됩니다. 추가 비용은 없습니다. 주요 하드웨어 또는 OS 업그레이드 후에도 마찬가지입니다.
 
-[활성화 세부 정보 →](/dancexr/activation#multiple-devices){: .btn-ghost}
+[활성화 세부 정보 →](activation#multiple-devices){: .btn-ghost}
 
 </div>
 </div>

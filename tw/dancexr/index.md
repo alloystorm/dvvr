@@ -322,7 +322,7 @@ AI 功能
 - 輸出 **2D、立體 3D SBS、VR 180 和 VR 360** 影片
 - 離線逐幀渲染 —— 確保每一幀都完美無瑕
 
-[可在 Patreon 上獲取 →](/tw/dancexr/download){: .btn-ghost}
+[可在 Patreon 上獲取 →](download){: .btn-ghost}
 
 </div>
 </div>
@@ -352,7 +352,7 @@ AI 功能
       <li class="locked">舞台上只有一名演員</li>
       <li class="locked">高階功能已鎖定</li>
     </ul>
-    <a href="/tw/dancexr/download" class="edition-cta">免費下載</a>
+    <a href="download" class="edition-cta">免費下載</a>
   </div>
 
   <div class="edition-card featured">
@@ -367,7 +367,7 @@ AI 功能
       <li>所有高階功能</li>
       <li>Pro 版支援成人內容</li>
     </ul>
-    <a href="/tw/dancexr/download" class="edition-cta">立即購買</a>
+    <a href="download" class="edition-cta">立即購買</a>
   </div>
 
   <div class="edition-card">
@@ -386,7 +386,7 @@ AI 功能
 
 </div>
 <div class="editions-header" markdown="1">
-  DanceXR 同樣支援 Android、iOS 和 Quest VR —— 相同的核心功能，針對您的裝置進行了最佳化。詳情請查看[下載頁面](/tw/dancexr/download)。
+  DanceXR 同樣支援 Android、iOS 和 Quest VR —— 相同的核心功能，針對您的裝置進行了最佳化。詳情請查看[下載頁面](download)。
 </div>
 </section>
 
@@ -402,7 +402,7 @@ AI 功能
 
 每個月都有新功能和改進上線。Patreon 訂閱者可搶先體驗 —— Steam 和其他平台則在月中跟進。
 
-[查看所有版本說明 →](/tw/dancexr/releases){: .btn-ghost}
+[查看所有版本說明 →](releases){: .btn-ghost}
 
 </div>
 <div class="release-card">
@@ -414,7 +414,7 @@ AI 功能
     <div class="release-item">更靈敏的雙人動作</div>
     <div class="release-item">姿勢與視線控制改進</div>
   </div>
-  <a href="/tw/dancexr/releases/2026.5" class="btn-ghost">完整版本說明</a>
+  <a href="releases/2026.5" class="btn-ghost">完整版本說明</a>
 </div>
 </div>
 </section>

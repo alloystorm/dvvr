@@ -9,7 +9,7 @@ toc: true
 
 3D Snapshot exports the current pose of an actor to an OBJ-format 3D model file. Whatever pose, morph, and dressing state the actor is in at the moment of capture is baked into the exported geometry.
 
-Output files land in the `export/` folder of your [content library](/dancexr/preparecontent).
+Output files land in the `export/` folder of your [content library](../preparecontent).
 
 ---
 
@@ -26,7 +26,7 @@ OBJ format only carries mesh and material references — bones, animation, morph
 
 ## Taking a snapshot
 
-1. Pose the actor exactly the way you want — apply motion, then pause; or use [Keyframe animation](/dancexr/features/keyframe_animation) for a specific frame; or pose by hand with [Motion override](/dancexr/features/motion_override).
+1. Pose the actor exactly the way you want — apply motion, then pause; or use [Keyframe animation](keyframe_animation) for a specific frame; or pose by hand with [Motion override](motion_override).
 2. Click the actor's selection disc to open the actor menu.
 3. Open the **Tools menu** (wrench-and-hammer icon next to the actor name).
 4. Click **3D Snapshot**.
@@ -38,7 +38,7 @@ OBJ format only carries mesh and material references — bones, animation, morph
 
 - Final mesh deformation from the current pose, morphs, and any active physics state.
 - Material references — texture filenames are written into the OBJ's MTL file.
-- Submesh visibility — items hidden by [Dressing system](/dancexr/features/optionals) are excluded.
+- Submesh visibility — items hidden by [Dressing system](optionals) are excluded.
 
 What is **not** included:
 
@@ -60,7 +60,7 @@ What is **not** included:
 
 ## Related pages
 
-- [Actor menu & tools](/dancexr/features/actor_tools)
-- [Content library](/dancexr/preparecontent) — see the `export/` folder
-- [Keyframe animation](/dancexr/features/keyframe_animation)
-- [Motion override](/dancexr/features/motion_override)
+- [Actor menu & tools](actor_tools)
+- [Content library](../preparecontent) — see the `export/` folder
+- [Keyframe animation](keyframe_animation)
+- [Motion override](motion_override)

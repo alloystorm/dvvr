@@ -322,7 +322,7 @@ AIパワードのボイスチャットにより、キャラクターがリアル
 - **2D、ステレオ３D SBS、VR 180、VR 360** 動画を出力
 - オフラインによるフレーム単位のレンダリング — すべてのフレームが完璧です
 
-[Patreonで利用可能 →](/jp/dancexr/download){: .btn-ghost}
+[Patreonで利用可能 →](download){: .btn-ghost}
 
 </div>
 </div>
@@ -352,7 +352,7 @@ AIパワードのボイスチャットにより、キャラクターがリアル
       <li class="locked">ステージ上のアクターは1人のみ</li>
       <li class="locked">高度な機能はロック</li>
     </ul>
-    <a href="/jp/dancexr/download" class="edition-cta">無料でダウンロード</a>
+    <a href="download" class="edition-cta">無料でダウンロード</a>
   </div>
 
   <div class="edition-card featured">
@@ -367,7 +367,7 @@ AIパワードのボイスチャットにより、キャラクターがリアル
       <li>すべての高度な機能</li>
       <li>Proはアダルトコンテンツをサポート</li>
     </ul>
-    <a href="/jp/dancexr/download" class="edition-cta">今すぐ購入</a>
+    <a href="download" class="edition-cta">今すぐ購入</a>
   </div>
 
   <div class="edition-card">
@@ -386,7 +386,7 @@ AIパワードのボイスチャットにより、キャラクターがリアル
 
 </div>
 <div class="editions-header" markdown="1">
-  DanceXRはAndroid、iOS、Quest VRでもご利用いただけます — 同じコア機能がお使いのデバイスに最適化されています。詳しくは[ダウンロードページ](/jp/dancexr/download)をご確認ください。
+  DanceXRはAndroid、iOS、Quest VRでもご利用いただけます — 同じコア機能がお使いのデバイスに最適化されています。詳しくは[ダウンロードページ](download)をご確認ください。
 </div>
 </section>
 
@@ -402,7 +402,7 @@ AIパワードのボイスチャットにより、キャラクターがリアル
 
 毎月新しい機能と改善がリリースされます。Patreonのサポーターはいち早くアクセス可能 — SteamやほかのプラットフォームはN月中旬に続きます。
 
-[すべてのリリースノートを見る →](/jp/dancexr/releases){: .btn-ghost}
+[すべてのリリースノートを見る →](releases){: .btn-ghost}
 
 </div>
 <div class="release-card">
@@ -414,7 +414,7 @@ AIパワードのボイスチャットにより、キャラクターがリアル
     <div class="release-item">より反応的なペアモーション</div>
     <div class="release-item">ポーズと視線制御の改善</div>
   </div>
-  <a href="/jp/dancexr/releases/2026.5" class="btn-ghost">完全なリリースノート</a>
+  <a href="releases/2026.5" class="btn-ghost">完全なリリースノート</a>
 </div>
 </div>
 </section>

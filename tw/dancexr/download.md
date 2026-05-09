@@ -118,7 +118,7 @@ hero_image: /images/hero.png
   </div>
 
 </div>
-<p class="section-note" markdown="1">中國大陸用戶請查看 [購買選項](/dancexr/purchase_prc)。</p>
+<p class="section-note" markdown="1">中國大陸用戶請查看 [購買選項](/zh/dancexr/purchase_prc)。</p>
 </section>
 
 <!-- ── Mobile & VR ────────────────────────────────────────── -->
@@ -185,7 +185,7 @@ hero_image: /images/hero.png
 
 付費版本需要確認您的購買紀錄才能解鎖。**Steam** 和 **Google Play** 的購買在首次啟動時會自動激活 — 無需任何操作。所有其他版本（Itch.io PC、Itch.io Android、Quest、Patreon Creator）都需要從系統選單進行一次性快速激活步驟。
 
-[激活指南 →](/dancexr/activation){: .btn-ghost}
+[激活指南 →](activation){: .btn-ghost}
 
 </div>
 <div class="section-copy" markdown="1">
@@ -197,7 +197,7 @@ hero_image: /images/hero.png
 
 每份授權與您所激活的特定設備和版本變體綁定。若要在第二台機器上運行 DanceXR — 或要在同一機器上運行不同的版本（HD、LW、RT、Creator） — 只需再次經過激活流程即可。不會產生額外費用。在主要硬體或作業系統升級後亦是如此。
 
-[激活詳細資訊 →](/dancexr/activation#multiple-devices){: .btn-ghost}
+[激活詳細資訊 →](activation#multiple-devices){: .btn-ghost}
 
 </div>
 </div>

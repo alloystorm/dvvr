@@ -8,7 +8,7 @@ locale: ko-KR
 
 <!-- TODO: full description. The Beats Ring is referenced as a tile on /dancexr/features under Stage & Props but no other page describes it. Likely an audio-reactive visualizer ring; confirm and fill in. -->
 
-비트 링은 음악에 맞춰 맥동하는 오디오 반응형 비주얼라이저 프로프입니다. 이는 [auto-update](/dancexr/features/autoupdate) 데이터 소스 중 하나로, 다른 설정들이 이 출력을 통해 자체적으로 구동될 수 있음을 의미합니다.
+비트 링은 음악에 맞춰 맥동하는 오디오 반응형 비주얼라이저 프로프입니다. 이는 [auto-update](autoupdate) 데이터 소스 중 하나로, 다른 설정들이 이 출력을 통해 자체적으로 구동될 수 있음을 의미합니다.
 
 ---
 
@@ -37,6 +37,6 @@ locale: ko-KR
 
 ## 관련 페이지
 
-- [Auto update](/dancexr/features/autoupdate) — 다른 설정을 위한 데이터 소스로 비트 링 사용
-- [Music timing](/dancexr/features/music_timing) — 음악에 동작을 동기화
-- [Audio options](/dancexr/features/audio_options)
+- [Auto update](autoupdate) — 다른 설정을 위한 데이터 소스로 비트 링 사용
+- [Music timing](music_timing) — 음악에 동작을 동기화
+- [Audio options](audio_options)

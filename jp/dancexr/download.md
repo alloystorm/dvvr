@@ -118,7 +118,7 @@ Steamやその他のすべてのプラットフォームより早く、毎月の
   </div>
 
 </div>
-<p class="section-note" markdown="1">中国大陸ユーザーは [購入オプション](/dancexr/purchase_prc) を確認してください。</p>
+<p class="section-note" markdown="1">中国大陸ユーザーは [購入オプション](/zh/dancexr/purchase_prc) を確認してください。</p>
 </section>
 
 <!-- ── Mobile & VR ────────────────────────────────────────── -->
@@ -185,7 +185,7 @@ Steamやその他のすべてのプラットフォームより早く、毎月の
 
 有料エディションは、アンロック前に購入の確認が必要です。**Steam**と**Google Play**での購入は、初回起動時に自動で有効化されます。何もする必要はありません。その他（Itch.io PC、Itch.io Android、Quest、Patreon Creator）は、システムメニューから簡単な一度限りの有効化ステップが必要です。
 
-[有効化ガイド →](/dancexr/activation){: .btn-ghost}
+[有効化ガイド →](activation){: .btn-ghost}
 
 </div>
 <div class="section-copy" markdown="1">
@@ -197,7 +197,7 @@ Steamやその他のすべてのプラットフォームより早く、毎月の
 
 各ライセンスは、有効化を行った特定のデバイスとビルドのバリアントに紐づいています。2台目のマシンでDanceXRを実行したり、同じマシンで別のビルド（HD、LW、RT、Creator）を実行したりするには、再度有効化プロセスを経るだけです。追加費用はかかりません。これは、主要なハードウェアまたはOSのアップグレード後も同様です。
 
-[有効化の詳細 →](/dancexr/activation#multiple-devices){: .btn-ghost}
+[有効化の詳細 →](activation#multiple-devices){: .btn-ghost}
 
 </div>
 </div>

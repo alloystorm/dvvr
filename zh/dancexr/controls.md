@@ -9,7 +9,7 @@ toc: true
 
 介绍 DanceXR 界面布局、您如何与场景互动，以及键盘、鼠标、手柄和 VR 控制器的默认输入映射。
 
-有关特定于 VR 的操作（手柄、光标校准、舒适度、光标握柄、VR 中的鼠标），请参阅 [VR 操作](/dancexr/vr_operations) 页面。
+有关特定于 VR 的操作（手柄、光标校准、舒适度、光标握柄、VR 中的鼠标），请参阅 [VR 操作](vr_operations) 页面。
 
 ---
 
@@ -72,9 +72,9 @@ toc: true
 某些动作和工具支持**辅助立方体**——出现在身体部位上的虚拟立方体，可用于移动和摆姿作它们。根据光标停放的位置，拖动辅助立方体以移动或旋转它。
 
 显示辅助立方体的功能包括：
-- [天空设置中的风场](/dancexr/features/sky#wind_field)：更改风场位置和方向。
+- [天空设置中的风场](features/sky#wind_field)：更改风场位置和方向。
 - [各种程序化动作]：更改身体部位（如躯干、手和脚）的偏移和旋转。
-- [动作覆盖](/dancexr/features/motion_override)：调整被覆盖动作的身体部位的位置和旋转。
+- [动作覆盖](features/motion_override)：调整被覆盖动作的身体部位的位置和旋转。
 
 ---
 
@@ -145,13 +145,13 @@ DanceXR 的输入映射基于一套通用的抽象控制集，因此相同的操
 
 您可以在输入设置中重新映射任何默认动作。打开系统菜单（齿轮图标），然后进入输入设置部分。每个抽象动作都会列出其当前的映射；选择一个动作并按下新按钮或按键即可绑定它。
 
-AI 聊天（默认：右上手柄菜单按钮）的麦克风切换功能也在这里配置——有关 [AI 语音聊天](/dancexr/features/ai_chat#key-binding)，请参阅。
+AI 聊天（默认：右上手柄菜单按钮）的麦克风切换功能也在这里配置——有关 [AI 语音聊天](features/ai_chat#key-binding)，请参阅。
 
 ---
 
 ## 进一步阅读
 
-- [VR 操作](/dancexr/vr_operations) — 特定于 VR 的交互（手柄、光标、握拖 UI、舒适度）
-- [VR 设置](/dancexr/features/vr_settings) — VR 技术设置（焦平渲染、光标校准、手部渲染）
-- [概念与术语表](/dancexr/concepts) — 选择盘、辅助立方体、切换状态的定义
-- [入门](/dancexr/getting-started) — 首次运行指南
+- [VR 操作](vr_operations) — 特定于 VR 的交互（手柄、光标、握拖 UI、舒适度）
+- [VR 设置](features/vr_settings) — VR 技术设置（焦平渲染、光标校准、手部渲染）
+- [概念与术语表](concepts) — 选择盘、辅助立方体、切换状态的定义
+- [入门](getting-started) — 首次运行指南

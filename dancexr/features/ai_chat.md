@@ -43,7 +43,7 @@ Operator is what powers the new AI chat stack introduced in the 2026.5 release. 
 * Performance still depends on your hardware and selected models
 
 **Setup:**
-* Install Operator next to your DanceXR folder. See the [DanceXR Operator](/dancexr/features/operator) feature page for installation details.
+* Install Operator next to your DanceXR folder. See the [DanceXR Operator](operator) feature page for installation details.
 * Enable AI Chat in DanceXR and select Operator as the backend when available.
 * Once installed in the recommended folder structure, Operator can start automatically with DanceXR and expose its web interface locally for model and TTS management.
 

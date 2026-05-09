@@ -9,21 +9,21 @@ toc: true
 
 DanceXRにはいくつかのAI駆動型機能があります。これらのほとんどは、音声合成、大規模言語モデルのチャット、およびサポートサービスを単一のプロセスにバンドルするローカルバックエンド「**DanceXR Operator**」を経由します。このページは概要であり、各機能には詳細ページがあります。
 
-用語（Operator、TTS、STT、persona、template）については、[Concepts & glossary](/dancexr/concepts#ai-backends)を参照してください。
+用語（Operator、TTS、STT、persona、template）については、[Concepts & glossary](concepts#ai-backends)を参照してください。
 
 ---
 
 ## 全体像
 
-- **Operator** はローカルのAIバックエンドです。DanceXRと並行して分離したプロセスとして実行されます。詳細は[DanceXR Operator](/dancexr/features/operator)を参照してください。
-- **AI Voice Chat** は、Operatorを利用するユーザー向けのチャット体験です。詳細は[AI Powered Voice Chat](/dancexr/features/ai_chat)を参照してください。
+- **Operator** はローカルのAIバックエンドです。DanceXRと並行して分離したプロセスとして実行されます。詳細は[DanceXR Operator](features/operator)を参照してください。
+- **AI Voice Chat** は、Operatorを利用するユーザー向けのチャット体験です。詳細は[AI Powered Voice Chat](features/ai_chat)を参照してください。
 
 
 ---
 
 ## DanceXR Operator
 
-[Operator](/dancexr/features/operator) は、**2026.5**で導入された専用のローカルバックエンドです。以下の要素をバンドルしています。
+[Operator](features/operator) は、**2026.5**で導入された専用のローカルバックエンドです。以下の要素をバンドルしています。
 
 - **TTS** — Kokoro：テキストの応答を音声に変換します。
 - **LLM** — llama.cpp：チャットの生成に使用されます。

@@ -8,7 +8,7 @@ locale: zh-CN
 
 观摩模式将一名演员标记为被动观察者。观摩者仍然保持加载在场景中，但会被排除在作用于“所有演员”的功能之外，例如自动分配的动作、编队、群舞生成。
 
-您可以在演员工具菜单中切换此设置 — 请参阅 [演员菜单与工具 → 工具菜单](/dancexr/features/actor_tools#tools-menu)。
+您可以在演员工具菜单中切换此设置 — 请参阅 [演员菜单与工具 → 工具菜单](actor_tools#tools-menu)。
 
 ---
 
@@ -43,6 +43,6 @@ locale: zh-CN
 
 ## 相关页面
 
-- [演员菜单与工具](/dancexr/features/actor_tools)
-- [编队](/dancexr/features/formation)
-- [演员播放列表](/dancexr/features/actor_playlist)
+- [演员菜单与工具](actor_tools)
+- [编队](formation)
+- [演员播放列表](actor_playlist)

@@ -8,7 +8,7 @@ locale: ja-JP
 
 アクターごとに、最も最近変更した設定を一覧表示するクイックアクセスリストです。アクターメニューの階層を辿り直すことなく、同じダイアログを再開できます。
 
-アクターメニューから利用可能 — [アクターメニュー＆ツール](/dancexr/features/actor_tools#actor-menu) を参照。
+アクターメニューから利用可能 — [アクターメニュー＆ツール](actor_tools#actor-menu) を参照。
 
 ---
 
@@ -35,5 +35,5 @@ locale: ja-JP
 
 ## 関連ページ
 
-- [アクターメニュー＆ツール](/dancexr/features/actor_tools)
-- [概念＆用語集](/dancexr/concepts)
+- [アクターメニュー＆ツール](actor_tools)
+- [概念＆用語集](../concepts)

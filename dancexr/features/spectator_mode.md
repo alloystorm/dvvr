@@ -8,7 +8,7 @@ locale: en-US
 
 Spectator mode marks an actor as a passive observer. Spectators stay loaded in the scene but are excluded from features that act on "all actors" — auto-assigned motions, formations, group dance generation.
 
-Toggle it from the actor tools menu — see [Actor menu & tools → Tools menu](/dancexr/features/actor_tools#tools-menu).
+Toggle it from the actor tools menu — see [Actor menu & tools → Tools menu](actor_tools#tools-menu).
 
 ---
 
@@ -43,6 +43,6 @@ The setting is per-actor. <!-- TODO: confirm whether it persists with scene save
 
 ## Related pages
 
-- [Actor menu & tools](/dancexr/features/actor_tools)
-- [Formation](/dancexr/features/formation)
-- [Actor playlist](/dancexr/features/actor_playlist)
+- [Actor menu & tools](actor_tools)
+- [Formation](formation)
+- [Actor playlist](actor_playlist)

@@ -8,7 +8,7 @@ locale: zh-TW
 
 觀眾模式將一位角色設定為被動觀察者。觀眾仍然會載入場景，但會被排除在「所有角色」作用的功能之外，例如：自動分配動作、陣型、群舞生成。
 
-可在角色工具選單中切換開關 — 請參閱 [角色選單與工具 → 工具選單](/dancexr/features/actor_tools#tools-menu)。
+可在角色工具選單中切換開關 — 請參閱 [角色選單與工具 → 工具選單](actor_tools#tools-menu)。
 
 ---
 
@@ -43,6 +43,6 @@ locale: zh-TW
 
 ## 相關頁面
 
-- [角色選單與工具](/dancexr/features/actor_tools)
-- [陣型](/dancexr/features/formation)
-- [角色播放列表](/dancexr/features/actor_playlist)
+- [角色選單與工具](actor_tools)
+- [陣型](formation)
+- [角色播放列表](actor_playlist)

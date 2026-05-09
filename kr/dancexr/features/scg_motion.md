@@ -5,4 +5,4 @@ locale: ko-KR
 ---
 
 
-[영어](/dancexr/features/scg_motion) | [繁中](/tw/dancexr/features/scg_motion) | [일본어](/jp/dancexr/features/scg_motion) | [한국어](/kr/dancexr/features/scg_motion) | [간체중국어](/zh/dancexr/features/scg_motion)
+[영어](scg_motion) | [繁中](/tw/dancexr/features/scg_motion) | [일본어](/jp/dancexr/features/scg_motion) | [한국어](scg_motion) | [간체중국어](/zh/dancexr/features/scg_motion)

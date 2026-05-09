@@ -103,7 +103,7 @@ AR mode on Quest and supported mobile devices lets characters appear in your rea
 
 Pure and Pro are on **Steam** and **Itch.io**. Creator is available through **Patreon**. Updates ship every month — Patreon gets early access at the start of the month, Steam follows mid-month.
 
-[Download / Purchase →](/dancexr/download)
+[Download / Purchase →](download)
 
 ---
 
@@ -111,4 +111,4 @@ Pure and Pro are on **Steam** and **Itch.io**. Creator is available through **Pa
 
 New features ship every month. Recent additions include keyframe animation, music timing sync, cloth simulation with tearing, soft body physics, alternative texture layers, skin material improvements, and a redesigned graphics settings panel.
 
-[See all release notes →](/dancexr/releases)
+[See all release notes →](releases)
