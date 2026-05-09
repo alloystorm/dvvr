@@ -33,12 +33,6 @@ LOCALES = {
            "hero_title": "機能一覧",
            "hero_cta_label": "今すぐダウンロード",
            "hero_cta_url": "/jp/dancexr/download",
-           "nav_links": [
-               {"label": "機能",           "url": "/jp/dancexr/features"},
-               {"label": "リリース",       "url": "/jp/dancexr/releases"},
-               {"label": "ダウンロード",   "url": "/jp/dancexr/download"},
-               {"label": "サポート",       "url": "/jp/dancexr/support"},
-           ],
            "releases_title": "リリース",
            "releases_hero_title": "リリース",
            "releases_tile_prefix": "リリース",
@@ -51,12 +45,6 @@ LOCALES = {
            "hero_title": "功能列表",
            "hero_cta_label": "立即下载",
            "hero_cta_url": "/zh/dancexr/download",
-           "nav_links": [
-               {"label": "功能",     "url": "/zh/dancexr/features"},
-               {"label": "发布",     "url": "/zh/dancexr/releases"},
-               {"label": "下载",     "url": "/zh/dancexr/download"},
-               {"label": "支持",     "url": "/zh/dancexr/support"},
-           ],
            "releases_title": "发行",
            "releases_hero_title": "发行",
            "releases_tile_prefix": "发布",
@@ -69,12 +57,6 @@ LOCALES = {
            "hero_title": "功能清單",
            "hero_cta_label": "立即下載",
            "hero_cta_url": "/tw/dancexr/download",
-           "nav_links": [
-               {"label": "功能",     "url": "/tw/dancexr/features"},
-               {"label": "發布",     "url": "/tw/dancexr/releases"},
-               {"label": "下載",     "url": "/tw/dancexr/download"},
-               {"label": "支援",     "url": "/tw/dancexr/support"},
-           ],
            "releases_title": "發布版本",
            "releases_hero_title": "發布版本",
            "releases_tile_prefix": "發布",
@@ -87,12 +69,6 @@ LOCALES = {
            "hero_title": "기능 목록",
            "hero_cta_label": "지금 다운로드",
            "hero_cta_url": "/kr/dancexr/download",
-           "nav_links": [
-               {"label": "기능",     "url": "/kr/dancexr/features"},
-               {"label": "릴리스",   "url": "/kr/dancexr/releases"},
-               {"label": "다운로드", "url": "/kr/dancexr/download"},
-               {"label": "지원",     "url": "/kr/dancexr/support"},
-           ],
            "releases_title": "출시",
            "releases_hero_title": "출시",
            "releases_tile_prefix": "출시",
@@ -102,12 +78,6 @@ LOCALES = {
            },
 }
 
-EN_NAV_LINKS = [
-    {"label": "Features",  "url": "/dancexr/features"},
-    {"label": "Releases",  "url": "/dancexr/releases"},
-    {"label": "Download",  "url": "/dancexr/download"},
-    {"label": "Support",   "url": "/dancexr/support"},
-]
 
 
 # ---------------------------------------------------------------------------
@@ -315,15 +285,6 @@ hero_ctas:
   - label: DOWNLOAD NOW
     url: /dancexr/download
     style: neon
-nav_links:
-  - label: Features
-    url: /dancexr/features
-  - label: Releases
-    url: /dancexr/releases
-  - label: Download
-    url: /dancexr/download
-  - label: Support
-    url: /dancexr/support
 {sections}
 ---
 """
@@ -342,21 +303,9 @@ hero_ctas:
   - label: {hero_cta_label}
     url: {hero_cta_url}
     style: neon
-nav_links:
-{nav_links}
 {sections}
 ---
 """
-
-
-def build_nav_links_yaml(nav_links, indent=2):
-    """Serialize nav_links list for YAML front matter."""
-    pad = " " * indent
-    lines = []
-    for nl in nav_links:
-        lines.append(f"{pad}- label: {nl['label']}")
-        lines.append(f"{pad}  url: {nl['url']}")
-    return "\n".join(lines)
 
 
 # ---------------------------------------------------------------------------
@@ -376,7 +325,6 @@ def generate_locale(sections_data, locale_key):
     info = LOCALES[locale_key]
     prefix = info["prefix"]
     sections_yaml = build_sections_yaml(sections_data, locale=locale_key, locale_prefix=prefix)
-    nav_yaml = build_nav_links_yaml(info["nav_links"])
     content = LOCALE_FRONT_MATTER_TEMPLATE.format(
         locale_code=info["code"],
         title=info["title"],
@@ -384,7 +332,6 @@ def generate_locale(sections_data, locale_key):
         hero_title=info["hero_title"],
         hero_cta_label=info["hero_cta_label"],
         hero_cta_url=info["hero_cta_url"],
-        nav_links=nav_yaml,
         sections=sections_yaml,
     )
     out_path = os.path.join(BASE, locale_key, "dancexr", "features.md")
@@ -587,15 +534,6 @@ hero_ctas:
   - label: DOWNLOAD NOW
     url: /dancexr/download
     style: neon
-nav_links:
-  - label: Features
-    url: /dancexr/features
-  - label: Releases
-    url: /dancexr/releases
-  - label: Download
-    url: /dancexr/download
-  - label: Support
-    url: /dancexr/support
 {sections}
 about:
   - title: About Releases
@@ -614,8 +552,6 @@ permalink: {permalink}
 hero_compact: true
 hero_title: {hero_title}
 hero_image: /images/hero.png
-nav_links:
-{nav_links}
 {sections}
 about:
   - title: {about_title}
@@ -653,14 +589,12 @@ def generate_releases_locale(releases_by_year, locale_key):
     prefix = info["prefix"]
     tile_prefix = info["releases_tile_prefix"]
     sections_yaml = build_releases_sections_yaml(releases_by_year, locale_prefix=prefix, tile_prefix=tile_prefix)
-    nav_yaml = build_nav_links_yaml(info["nav_links"])
     content = LOCALE_RELEASES_TEMPLATE.format(
         locale_code=info["code"],
         title=info["releases_title"],
         permalink=info["releases_permalink"],
         hero_title=info["releases_hero_title"],
         about_title=info["releases_about_title"],
-        nav_links=nav_yaml,
         sections=sections_yaml,
     )
     out_path = os.path.join(BASE, locale_key, "dancexr", "releases.md")
