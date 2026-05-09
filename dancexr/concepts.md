@@ -142,7 +142,7 @@ A short reference for the terms used throughout DanceXR docs. If a page uses a w
 : `config.json` next to the executable. Holds application-level preferences. Deleting it resets DanceXR to defaults.
 
 **License file**
-: `license.txt`. Tied to your activation. Removing it forces re-activation. See [FAQ](/dancexr/faq).
+: `license.txt`. Tied to your activation. Removing it forces re-activation. See [Activation & licensing](/dancexr/activation).
 
 ---
 

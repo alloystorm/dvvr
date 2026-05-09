@@ -172,3 +172,33 @@ Get early access to every monthly release before Steam and all other platforms.
 
 </div>
 </section>
+
+<!-- ── Activation ─────────────────────────────────────────────── -->
+<section class="section section-light">
+<div class="section-inner">
+<div class="section-copy" markdown="1">
+
+{:.section-label}
+After purchase
+
+## Activating your copy
+
+Paid editions need to confirm your purchase before they unlock. **Steam** and **Google Play** purchases activate automatically on first launch — nothing to do. Everything else (Itch.io PC, Itch.io Android, Quest, Patreon Creator) needs a quick one-time activation step from the system menu.
+
+[Activation guide →](/dancexr/activation){: .btn-ghost}
+
+</div>
+<div class="section-copy" markdown="1">
+
+{:.section-label}
+Per device & per build
+
+## License scope
+
+Each license is tied to the specific device and build variant you activated on. To run DanceXR on a second machine — or to run a different build (HD, LW, RT, Creator) on the same machine — just go through the activation flow again. No extra cost. The same applies after major hardware or OS upgrades.
+
+[Activation details →](/dancexr/activation#multiple-devices){: .btn-ghost}
+
+</div>
+</div>
+</section>

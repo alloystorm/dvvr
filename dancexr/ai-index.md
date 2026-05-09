@@ -82,6 +82,7 @@ Use these when the user's wording does not match a topic title directly.
 | Adult / NSFW / sex / lewd content | rows under *Adult Lane* (requires the corresponding tier/toggle) |
 | What changed in version YYYY.M | `dancexr/releases/YYYY.M.md` (e.g., `dancexr/releases/2026.5.md`) |
 | Which version do I need to buy / Pro vs Free vs Creator | `dancexr/download.md`, `dancexr/concepts.md` (Editions and tiers section) |
+| Activation, license file, "asked to activate again", running in free mode despite paying | `dancexr/activation.md` |
 
 ---
 
@@ -93,6 +94,7 @@ Use these when the user's wording does not match a topic title directly.
 | Getting Started | First-run guide: download, install, load a model, play a motion | `dancexr/getting-started.md` |
 | Concepts & Glossary | Definitions of all terms used across the docs (actor, dance set, gizmo cube, dressing system, persona, presets, prepass, type A/B colliders, Pro/Creator, Operator) | `dancexr/concepts.md` |
 | Download & Editions | Tier matrix (Free / Pure / Pro / Creator / Patreon) and per-platform availability | `dancexr/download.md` |
+| Activation & Licensing | When activation is automatic (Steam, Google Play) vs manual (Itch.io, Patreon, Quest); the activation flow; the license file; multiple devices; per-variant licensing | `dancexr/activation.md` |
 | Content Library | Organizing model, motion, music, and stage files on disk | `dancexr/preparecontent.md` |
 | Content Library (Android & Quest) | Setting up a content folder on Android / Meta Quest | `dancexr/content_android_quest.md` |
 | FAQ | Frequently asked questions and quick fixes | `dancexr/faq.md` |

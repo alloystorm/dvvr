@@ -79,7 +79,7 @@ This is usually a VR runtime problem, not DanceXR itself.
 
 ### Asked to activate again
 
-Device IDs can change after an OS update, hardware upgrade, or other system changes. Just run through the activation steps again. [Contact us](#contact) if you have trouble.
+After major OS or hardware changes, DanceXR may not recognize the system as the same one your license was issued for. Just run through the activation steps again — there's no extra cost. See the [Activation & Licensing](/dancexr/activation) guide. [Contact us](#contact) if you have trouble.
 
 </div>
 

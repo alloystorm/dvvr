@@ -24,9 +24,9 @@ This is usually not because of DanceXR itself, but rather something wrong with t
 
 
 ## I'm asked to activate again
-Sometimes your device ID can change because of OS update, hardware upgrade or other changes to your system. And this will require a new activation. 
+After major OS or hardware changes, DanceXR may not recognize the system as the same one your license was issued for. When this happens you just need to run through the activation steps again — there's no extra cost.
 
-All you need to do is to perform the activation steps again and it should work fine afterwards. Let us know if you are having any issue with this and we can certainly help out. 
+Open the system menu, click **Activate Your Copy**, and follow the prompts. See the [Activation & Licensing](/dancexr/activation) page for the full walkthrough. If activation keeps failing, [contact support](/dancexr/support).
 
 
 ## Unable to launch VR
