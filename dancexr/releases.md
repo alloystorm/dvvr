@@ -3,7 +3,7 @@ locale: en-US
 layout: home
 title: Releases
 toc: false
-permalink: /dancexr/releases
+permalink: /dancexr/releases/
 hero_compact: true
 hero_title: Latest Release - 2026.5
 hero_sub: Introducing DanceXR Operator

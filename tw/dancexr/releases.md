@@ -3,7 +3,7 @@ locale: zh-TW
 layout: home
 title: 發布版本
 toc: false
-permalink: /tw/dancexr/releases
+permalink: /tw/dancexr/releases/
 hero_compact: true
 hero_title: 發布版本
 hero_image: /images/hero.png
@@ -102,7 +102,7 @@ feature_sections:
         link: "/tw/dancexr/releases/1.4.0"
 about:
   - title: 關於發布
-    url: /tw/dancexr/releases
+    url: /tw/dancexr/releases/
 
 ---
 

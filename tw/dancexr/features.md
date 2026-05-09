@@ -3,7 +3,7 @@ locale: zh-TW
 layout: home
 title: 功能清單
 toc: false
-permalink: /tw/dancexr/features
+permalink: /tw/dancexr/features/
 hero_compact: true
 hero_title: 功能清單
 hero_image: /images/hero.png
@@ -77,7 +77,7 @@ feature_sections:
             image: /images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg
       - title: 格式專項功能
         tiles:
-          - title: XPS骨骼映射器
+          - title: 骨骼映射器
             link: /tw/dancexr/features/bone_mapper
             image: /images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp
           - title: 物理學
@@ -181,7 +181,7 @@ feature_sections:
           - title: 自定義材質
             link: /tw/dancexr/features/material_custom1
             image: /images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp
-          - title: 材質設置
+          - title: 材質設定
             link: /tw/dancexr/features/material_settings
             image: /images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp
             badge: PRO
@@ -487,7 +487,7 @@ feature_sections:
     subsections:
       - title: 參考
         tiles:
-          - title: 概念與術語表
+          - title: 概念與詞彙表
             link: /tw/dancexr/concepts
           - title: 控制與使用者介面
             link: /tw/dancexr/controls

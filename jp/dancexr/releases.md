@@ -3,7 +3,7 @@ locale: ja-JP
 layout: home
 title: リリース
 toc: false
-permalink: /jp/dancexr/releases
+permalink: /jp/dancexr/releases/
 hero_compact: true
 hero_title: リリース
 hero_image: /images/hero.png
@@ -102,7 +102,7 @@ feature_sections:
         link: "/jp/dancexr/releases/1.4.0"
 about:
   - title: リリースについて
-    url: /jp/dancexr/releases
+    url: /jp/dancexr/releases/
 
 ---
 

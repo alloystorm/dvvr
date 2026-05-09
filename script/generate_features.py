@@ -28,7 +28,7 @@ import argparse
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 LOCALES = {
-    "jp": {"code": "ja-JP",  "title": "機能一覧",   "permalink": "/jp/dancexr/features",
+    "jp": {"code": "ja-JP",  "title": "機能一覧",   "permalink": "/jp/dancexr/features/",
            "prefix": "/jp",
            "hero_title": "機能一覧",
            "hero_cta_label": "今すぐダウンロード",
@@ -38,9 +38,9 @@ LOCALES = {
            "releases_tile_prefix": "リリース",
            "releases_latest_label": "最新リリース",
            "releases_about_title": "リリースについて",
-           "releases_permalink": "/jp/dancexr/releases",
+           "releases_permalink": "/jp/dancexr/releases/",
            },
-    "zh": {"code": "zh-CN",  "title": "功能列表",   "permalink": "/zh/dancexr/features",
+    "zh": {"code": "zh-CN",  "title": "功能列表",   "permalink": "/zh/dancexr/features/",
            "prefix": "/zh",
            "hero_title": "功能列表",
            "hero_cta_label": "立即下载",
@@ -50,9 +50,9 @@ LOCALES = {
            "releases_tile_prefix": "发布",
            "releases_latest_label": "最新发布",
            "releases_about_title": "关于发布",
-           "releases_permalink": "/zh/dancexr/releases",
+           "releases_permalink": "/zh/dancexr/releases/",
            },
-    "tw": {"code": "zh-TW",  "title": "功能清單",   "permalink": "/tw/dancexr/features",
+    "tw": {"code": "zh-TW",  "title": "功能清單",   "permalink": "/tw/dancexr/features/",
            "prefix": "/tw",
            "hero_title": "功能清單",
            "hero_cta_label": "立即下載",
@@ -62,9 +62,9 @@ LOCALES = {
            "releases_tile_prefix": "發布",
            "releases_latest_label": "最新發布",
            "releases_about_title": "關於發布",
-           "releases_permalink": "/tw/dancexr/releases",
+           "releases_permalink": "/tw/dancexr/releases/",
            },
-    "kr": {"code": "ko-KR",  "title": "기능 목록",  "permalink": "/kr/dancexr/features",
+    "kr": {"code": "ko-KR",  "title": "기능 목록",  "permalink": "/kr/dancexr/features/",
            "prefix": "/kr",
            "hero_title": "기능 목록",
            "hero_cta_label": "지금 다운로드",
@@ -74,7 +74,7 @@ LOCALES = {
            "releases_tile_prefix": "출시",
            "releases_latest_label": "최신 출시",
            "releases_about_title": "출시 정보",
-           "releases_permalink": "/kr/dancexr/releases",
+           "releases_permalink": "/kr/dancexr/releases/",
            },
 }
 
@@ -297,7 +297,7 @@ locale: en-US
 layout: home
 title: Feature List
 toc: false
-permalink: /dancexr/features
+permalink: /dancexr/features/
 hero_compact: true
 hero_title: Features
 hero_image: /images/hero.png
@@ -542,7 +542,7 @@ locale: en-US
 layout: home
 title: Releases
 toc: false
-permalink: /dancexr/releases
+permalink: /dancexr/releases/
 hero_compact: true
 hero_title: Latest Release - {latest_version}
 hero_sub: {hero_sub}

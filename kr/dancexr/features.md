@@ -3,7 +3,7 @@ locale: ko-KR
 layout: home
 title: 기능 목록
 toc: false
-permalink: /kr/dancexr/features
+permalink: /kr/dancexr/features/
 hero_compact: true
 hero_title: 기능 목록
 hero_image: /images/hero.png
@@ -77,7 +77,7 @@ feature_sections:
             image: /images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg
       - title: 형식별 기능
         tiles:
-          - title: XPS 본 매핑
+          - title: 본 매퍼
             link: /kr/dancexr/features/bone_mapper
             image: /images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp
           - title: 물리
@@ -181,7 +181,7 @@ feature_sections:
           - title: 사용자 정의 재료
             link: /kr/dancexr/features/material_custom1
             image: /images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp
-          - title: 재료 설정
+          - title: 재질 설정
             link: /kr/dancexr/features/material_settings
             image: /images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp
             badge: PRO
@@ -487,7 +487,7 @@ feature_sections:
     subsections:
       - title: 참고
         tiles:
-          - title: "## 개념 및 용어집"
+          - title: "# 개념 및 용어집"
             link: /kr/dancexr/concepts
           - title: 컨트롤 및 UI
             link: /kr/dancexr/controls

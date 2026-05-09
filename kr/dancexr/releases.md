@@ -3,7 +3,7 @@ locale: ko-KR
 layout: home
 title: 출시
 toc: false
-permalink: /kr/dancexr/releases
+permalink: /kr/dancexr/releases/
 hero_compact: true
 hero_title: 출시
 hero_image: /images/hero.png
@@ -102,7 +102,7 @@ feature_sections:
         link: "/kr/dancexr/releases/1.4.0"
 about:
   - title: 출시 정보
-    url: /kr/dancexr/releases
+    url: /kr/dancexr/releases/
 
 ---
 

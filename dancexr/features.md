@@ -3,7 +3,7 @@ locale: en-US
 layout: home
 title: Feature List
 toc: false
-permalink: /dancexr/features
+permalink: /dancexr/features/
 hero_compact: true
 hero_title: Features
 hero_image: /images/hero.png

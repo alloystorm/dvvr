@@ -3,7 +3,7 @@ locale: ja-JP
 layout: home
 title: 機能一覧
 toc: false
-permalink: /jp/dancexr/features
+permalink: /jp/dancexr/features/
 hero_compact: true
 hero_title: 機能一覧
 hero_image: /images/hero.png
@@ -77,7 +77,7 @@ feature_sections:
             image: /images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg
       - title: 形式固有の機能
         tiles:
-          - title: XPSボーンマッパー
+          - title: ボーンマッパー
             link: /jp/dancexr/features/bone_mapper
             image: /images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp
           - title: 物理
@@ -487,7 +487,7 @@ feature_sections:
     subsections:
       - title: 参考
         tiles:
-          - title: コンセプトと用語集
+          - title: "# コンセプトと用語集"
             link: /jp/dancexr/concepts
           - title: 操作とUI
             link: /jp/dancexr/controls
