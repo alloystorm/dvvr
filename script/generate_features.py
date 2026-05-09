@@ -187,6 +187,20 @@ def resolve_link(tile, locale_prefix=""):
     return f"{locale_prefix}/dancexr/{tile['path']}{suffix}"
 
 
+def resolve_hub_url(section, locale_prefix=""):
+    """Build the URL for a section-level hub page, if any."""
+    if "hub" not in section:
+        return None
+    return f"{locale_prefix}/dancexr/{section['hub']}"
+
+
+def resolve_hub_summary(section, locale=None):
+    """Return the localized hub summary string, if any."""
+    if locale and "hub_summary_locales" in section and locale in section["hub_summary_locales"]:
+        return section["hub_summary_locales"][locale]
+    return section.get("hub_summary")
+
+
 # ---------------------------------------------------------------------------
 # YAML serialisation helpers
 # ---------------------------------------------------------------------------
@@ -250,6 +264,12 @@ def build_sections_yaml(sections_data, locale=None, locale_prefix=""):
         lines.append(f"  - title: {sec_title}")
         if idx % 2 == 0:
             lines.append(f"    light: true")
+        hub_url = resolve_hub_url(section, locale_prefix)
+        if hub_url:
+            lines.append(f"    hub_url: {hub_url}")
+        hub_summary = resolve_hub_summary(section, locale)
+        if hub_summary:
+            lines.append(f"    hub_summary: {yaml_str(hub_summary)}")
         if "subsections" in section:
             lines.append(f"    subsections:")
             for sub in section["subsections"]:

@@ -34,7 +34,29 @@ feature_sections:
         link: /jp/dancexr/creator
         image: /images/slideshows/render/14b024471bc0d21580d976ea28e2fc5f74f1f623.jpg
         badge: PC · CREATOR
+  - title: AI 機能
+    hub_url: /jp/dancexr/ai
+    hub_summary: DanceXR Operator runs a local AI backend on your hardware, powering voice chat, conversational roleplay, and asset discovery — no cloud required.
+    tiles:
+      - title: DanceXR Operator
+        link: /jp/dancexr/features/operator
+        image: /images/slideshows/dancexr/logo-black.jpg
+        badge: 2026.5
+        badge_type: new
+      - title: AI駆動音声チャット
+        link: /jp/dancexr/features/ai_chat
+        image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
+        badge: PRO
+        badge_type: pro
+      - title: ディスカバリーアプリ
+        link: /jp/dancexr/features/discovery
+        image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
+        badge: 2025.6
+        badge_type: new
   - title: モデルサポート
+    light: true
+    hub_url: /jp/dancexr/actors
+    hub_summary: Load PMX/MMD or XPS character models, position and configure them, and stage multi-actor scenes with formations and playlists.
     subsections:
       - title: コンテンツ管理
         tiles:
@@ -67,6 +89,7 @@ feature_sections:
             link: /jp/dancexr/features/pmx_physics
             image: /images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp
           - title: PMX ブレンドシェイプモーフ
+            link: /jp/dancexr/features/morph_list
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
             badge: PRO
             badge_type: pro
@@ -107,7 +130,8 @@ feature_sections:
             badge: 2024.1
             badge_type: new
   - title: 外観
-    light: true
+    hub_url: /jp/dancexr/appearance
+    hub_summary: "A layered system: dressing toggles, swappable textures, per-slot materials (skin, hair, eyes, lips, opaque, transparent), and overlay effects."
     subsections:
       - title: 着せ替え
         tiles:
@@ -193,6 +217,9 @@ feature_sections:
             link: /jp/dancexr/features/transparency
             image: /images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp
   - title: 物理シミュレーション
+    light: true
+    hub_url: /jp/dancexr/physics
+    hub_summary: Per-body-part rigs for hair, skirt, breast, dangling, cloth, soft body, and ragdoll. PMX models bring built-in physics; XPS models are configured from scratch.
     subsections:
       - title: シミュレーション
         tiles:
@@ -202,7 +229,7 @@ feature_sections:
           - title: シミュレーション
             link: /jp/dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
-          - title: Simulation
+          - title: シミュレーション
             link: /jp/dancexr/features/cloth_sim
             image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
             badge: 2024.8 · PRO
@@ -268,7 +295,8 @@ feature_sections:
             link: /jp/dancexr/features/detach_object
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
   - title: "モーション & メディア"
-    light: true
+    hub_url: /jp/dancexr/motion
+    hub_summary: Motion sources (VMD/BVH files, dance sets, procedural, keyframe, remix), settings hierarchy, layering vs override, and music-synced playback.
     subsections:
       - title: プロシージャルモーション
         tiles:
@@ -343,7 +371,7 @@ feature_sections:
           - title: リミックスモーション
             link: /jp/dancexr/features/remix
             image: /images/slideshows/motion/Spin%20%5BK__liB93anI%5D.webp
-          - title: モーションオーバーライド
+          - title: モーション・オーバーライド
             link: /jp/dancexr/features/motion_override
             image: /images/slideshows/motion/Pole%20Dance%20Test%20%5B4TB8aFRJENI%5D.webp
             badge: PRO
@@ -357,6 +385,7 @@ feature_sections:
             link: "/jp/dancexr/preparecontent#motion-files"
             image: /images/slideshows/load_play/%5BDanceXR%5D%20Kimagure%20Mercy%20-%20Honoka%20%5Bg1-OfMxxZ5s%5D.webp
   - title: "雰囲気 & 環境"
+    light: true
     subsections:
       - title: "空 & ライティング"
         tiles:
@@ -417,6 +446,7 @@ feature_sections:
             badge: 2024.3 · PRO
             badge_type: pro
           - title: ビーツリング
+            link: /jp/dancexr/features/beats_ring
             image: /images/slideshows/tools/DanceXR%201.4.5%20New%20AutoUpdate%20Options%20for%20Audio%20Visualization%20%5BA00DhbCOgu0%5D.webp
       - title: "シーン & レンダリング"
         tiles:
@@ -433,7 +463,8 @@ feature_sections:
             image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
             badge: PC
   - title: シネマカメラ
-    light: true
+    hub_url: /jp/dancexr/cameras
+    hub_summary: Six camera modes — Freefly, Auto, Orbit, One-shot, Concert, First Person — each tuned for a different shot style, plus shared parameters and recording considerations.
     tiles:
       - title: カメラ設定
         link: /jp/dancexr/features/camera_settings
@@ -457,7 +488,16 @@ feature_sections:
         link: /jp/dancexr/features/concert_cam
         image: /images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp
   - title: "システム & プラットフォーム"
+    light: true
     subsections:
+      - title: 参考
+        tiles:
+          - title: "Concepts & Glossary"
+            link: /jp/dancexr/concepts
+          - title: "Controls & UI"
+            link: /jp/dancexr/controls
+          - title: VR Operations
+            link: /jp/dancexr/vr_operations
       - title: システム
         tiles:
           - title: コンテンツライブラリ
@@ -472,9 +512,6 @@ feature_sections:
           - title: 言語
             link: /jp/dancexr/features/languages
             image: /images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp
-          - title: コントロール
-            link: /jp/dancexr/features/controls
-            image: /images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp
           - title: システム・フィジックス
             link: /jp/dancexr/features/system_physics
             image: /images/slideshows/physics/6b29c53917daff568a9ee75cfa0d62b6b4cadf79.jpg
@@ -505,7 +542,6 @@ feature_sections:
             badge: 2026.2
             badge_type: new
   - title: アダルト
-    light: true
     tiles:
       - title: 胸揺れ
         link: /jp/dancexr/features/shake_boobs_overlay

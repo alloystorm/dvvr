@@ -79,7 +79,15 @@
 {% for section in page.feature_sections %}
 <section class="section{% if section.light %} section-light{% endif %}">
 <div class="features-container">
-<h2>{{ section.title | escape }}</h2>
+{% if section.hub_url %}
+  <h2>{{ section.title }}</h2>
+  <a href="{{ section.hub_url }}" class="section-hub-link">{{ section.hub_url }} →</a>
+  {% if section.hub_summary %}
+    <p class="section-hub-summary">{{ section.hub_summary }}</p>
+  {% endif %}
+{% else %}
+  <h2>{{ section.title }}</h2>
+{% endif %}
 {% if section.subsections %}
 {% for sub in section.subsections %}
 {% if sub.title %}<h3>{{ sub.title | escape }}</h3>{% endif %}

@@ -42,6 +42,37 @@
       ]
     },
     {
+      "title": "AI Features",
+      "title_locales": {
+        "jp": "AI 機能",
+        "zh": "AI 功能",
+        "tw": "AI 功能",
+        "kr": "AI 기능"
+      },
+      "hub": "ai",
+      "hub_summary": "DanceXR Operator runs a local AI backend on your hardware, powering voice chat, conversational roleplay, and asset discovery — no cloud required.",
+      "tiles": [
+        {
+          "path": "features/operator",
+          "badge": "2026.5",
+          "badge_type": "new",
+          "image": "/images/slideshows/dancexr/logo-black.jpg"
+        },
+        {
+          "path": "features/ai_chat",
+          "badge": "PRO",
+          "badge_type": "pro",
+          "image": "/images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg"
+        },
+        {
+          "path": "features/discovery",
+          "badge": "2025.6",
+          "badge_type": "new",
+          "image": "/images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp"
+        }
+      ]
+    },
+    {
       "title": "Model Support",
       "title_locales": {
         "jp": "モデルサポート",
@@ -49,6 +80,8 @@
         "tw": "模型支援",
         "kr": "모델 지원"
       },
+      "hub": "actors",
+      "hub_summary": "Load PMX/MMD or XPS character models, position and configure them, and stage multi-actor scenes with formations and playlists.",
       "subsections": [
         {
           "title": "Content & Loading",
@@ -113,6 +146,7 @@
               "image": "/images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp"
             },
             {
+              "path": "features/morph_list",
               "title": "PMX Blendshape Morphs",
               "title_locales": {
                 "jp": "PMX ブレンドシェイプモーフ",
@@ -199,6 +233,8 @@
         "tw": "外觀",
         "kr": "외관"
       },
+      "hub": "appearance",
+      "hub_summary": "A layered system: dressing toggles, swappable textures, per-slot materials (skin, hair, eyes, lips, opaque, transparent), and overlay effects.",
       "subsections": [
         {
           "title": "Dressing",
@@ -332,6 +368,8 @@
         "tw": "物理模擬",
         "kr": "물리 시뮬레이션"
       },
+      "hub": "physics",
+      "hub_summary": "Per-body-part rigs for hair, skirt, breast, dangling, cloth, soft body, and ragdoll. PMX models bring built-in physics; XPS models are configured from scratch.",
       "subsections": [
         {
           "title": "Simulation",
@@ -466,6 +504,8 @@
         "tw": "動作與媒體",
         "kr": "모션 & 미디어"
       },
+      "hub": "motion",
+      "hub_summary": "Motion sources (VMD/BVH files, dance sets, procedural, keyframe, remix), settings hierarchy, layering vs override, and music-synced playback.",
       "subsections": [
         {
           "title": "Procedural Motion",
@@ -727,6 +767,7 @@
               "image": "/images/slideshows/environment/35e7dbc7eff97344e4b4ebb5e68a0f3a74d085eb.jpg"
             },
             {
+              "path": "features/beats_ring",
               "title": "Beats Ring",
               "title_locales": {
                 "jp": "ビーツリング",
@@ -774,6 +815,8 @@
         "tw": "電影攝影機",
         "kr": "시네마 카메라"
       },
+      "hub": "cameras",
+      "hub_summary": "Six camera modes — Freefly, Auto, Orbit, One-shot, Concert, First Person — each tuned for a different shot style, plus shared parameters and recording considerations.",
       "tiles": [
         {
           "path": "features/camera_settings",
@@ -850,6 +893,26 @@
       },
       "subsections": [
         {
+          "title": "Reference",
+          "title_locales": {
+            "jp": "参考",
+            "zh": "参考",
+            "tw": "參考",
+            "kr": "참고"
+          },
+          "tiles": [
+            {
+              "path": "concepts"
+            },
+            {
+              "path": "controls"
+            },
+            {
+              "path": "vr_operations"
+            }
+          ]
+        },
+        {
           "title": "System",
           "title_locales": {
             "jp": "システム",
@@ -880,10 +943,6 @@
             {
               "path": "features/languages",
               "image": "/images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp"
-            },
-            {
-              "path": "features/controls",
-              "image": "/images/slideshows/load_play/Bone%20Mapper%20Development%20Progress%20%5BWeIYqGNJKdg%5D.webp"
             },
             {
               "path": "features/system_physics",
