@@ -131,7 +131,7 @@
     - Google Drive Integration  features/googledrive  (24L)
     - Content Library for Android & Quest  content_android_quest  (59L)
     - Languages  features/languages  (21L)
-    - Controls  features/controls  (71L)
+    - Controls  controls  (71L)
     - System Physics  features/system_physics  (49L)
     - Auto Update  features/autoupdate  (62L)
     - System Presets  features/system_presets

@@ -7,7 +7,7 @@ toc: true
 
 # VR Operations
 
-How to use DanceXR in VR — controllers, pointers, grip-drag UI, comfort, and the operations that differ from desktop. For technical VR settings (foveated rendering, pointer calibration values, hand rendering toggles), see [VR settings](/dancexr/features/vr_settings). For the input mapping tables and abstract control scheme, see [Controls & UI](/dancexr/features/controls).
+How to use DanceXR in VR — controllers, pointers, grip-drag UI, comfort, and the operations that differ from desktop. For technical VR settings (foveated rendering, pointer calibration values, hand rendering toggles), see [VR settings](/dancexr/features/vr_settings). For the input mapping tables and abstract control scheme, see [Controls & UI](/dancexr/controls).
 
 ---
 
@@ -21,7 +21,7 @@ Each hand maps to:
 - **Thumbstick** — moves and rotates actors when dragging; also used for UI scrolling
 - **Menu button** — left-hand menu = Toggle UI / UI back; right-hand menu = Toggle microphone
 
-The defaults are listed in [Controls & UI](/dancexr/features/controls#default-mappings).
+The defaults are listed in [Controls & UI](/dancexr/controls#default-mappings).
 
 ### Hand rendering
 
@@ -65,7 +65,7 @@ You can also adjust the resting distance of the panel from your head with the **
 
 ## Toggle states in VR
 
-The same three UI toggle states from desktop apply in VR — see [Controls & UI → Toggle states](/dancexr/features/controls#toggle-states). Cycle by clicking empty space, or by pressing the assigned **Toggle UI** input (Left Menu button by default).
+The same three UI toggle states from desktop apply in VR — see [Controls & UI → Toggle states](/dancexr/controls#toggle-states). Cycle by clicking empty space, or by pressing the assigned **Toggle UI** input (Left Menu button by default).
 
 In **Immersive mode**, the panel and selection discs vanish, leaving only the scene — useful for pure passive viewing.
 
@@ -106,7 +106,7 @@ AR mode uses the device's camera passthrough so actors appear to stand in your r
 
 ## Related pages
 
-- [Controls & UI](/dancexr/features/controls) — input mappings and selection disc behavior
+- [Controls & UI](/dancexr/controls) — input mappings and selection disc behavior
 - [VR settings](/dancexr/features/vr_settings) — pointer calibration, foveated rendering, hand rendering
 - [AI Voice Chat](/dancexr/features/ai_chat) — microphone setup
 - [Concepts & glossary](/dancexr/concepts) — toggle states, gizmo cube, selection disc

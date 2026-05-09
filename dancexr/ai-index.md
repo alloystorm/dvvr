@@ -76,8 +76,8 @@ Use these when the user's wording does not match a topic title directly.
 | Outfit change, removing clothes, toggling items | `dancexr/appearance.md`, `dancexr/features/optionals.md` |
 | Sky, weather, rain, snow, fog | `dancexr/features/skymap.md`, `dancexr/features/weather_particles.md`, `dancexr/features/sky.md` |
 | Save / load a scene, share a setup | `dancexr/features/save_scene.md`, `dancexr/features/scene_bundle.md` |
-| VR controllers, pointer, comfort, hand tracking | `dancexr/features/vr_operations.md`, `dancexr/features/vr_settings.md` |
-| Keyboard shortcuts, gamepad mapping, key bindings | `dancexr/features/controls.md` |
+| VR controllers, pointer, comfort, hand tracking | `dancexr/vr_operations.md`, `dancexr/features/vr_settings.md` |
+| Keyboard shortcuts, gamepad mapping, key bindings | `dancexr/controls.md` |
 | Adult / NSFW / sex / lewd content | rows under *Adult Lane* (requires the corresponding tier/toggle) |
 | What changed in version YYYY.M | `dancexr/releases/YYYY.M.md` (e.g., `dancexr/releases/2026.5.md`) |
 | Which version do I need to buy / Pro vs Free vs Creator | `dancexr/download.md`, `dancexr/concepts.md` (Editions and tiers section) |
@@ -99,8 +99,8 @@ Use these when the user's wording does not match a topic title directly.
 | Support | Discord, email, GitHub issues | `dancexr/support.md` |
 | Creator Edition | Offline render / video recording, 4K, 60fps, 3D and VR180 video | `dancexr/creator.md` |
 | Release Notes index | Landing page listing all monthly release notes | `dancexr/releases.md` |
-| Controls & UI | UI layout, toggle states, selection disc, gizmo cubes, input mappings | `dancexr/features/controls.md` |
-| VR Operations | Hand controllers, pointer, grip-drag UI, Mouse-in-VR, Pointer Handle, comfort | `dancexr/features/vr_operations.md` |
+| Controls & UI | UI layout, toggle states, selection disc, gizmo cubes, input mappings | `dancexr/controls.md` |
+| VR Operations | Hand controllers, pointer, grip-drag UI, Mouse-in-VR, Pointer Handle, comfort | `dancexr/vr_operations.md` |
 | Languages | Changing the UI language | `dancexr/features/languages.md` |
 | Auto Update | Enabling or disabling automatic updates | `dancexr/features/autoupdate.md` |
 | Application Settings | Global app preferences (startup, performance, network) | `dancexr/features/application_settings.md` |

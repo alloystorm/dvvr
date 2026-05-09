@@ -127,8 +127,8 @@ You're up and running! Start with these guides — each one is a hub that links 
 **Learn the system**
 
 - **[Concepts & glossary](/dancexr/concepts)** — Terms used across the docs (actor, dance set, gizmo cube, dressing system, Operator)
-- **[Controls & UI](/dancexr/features/controls)** — Toggle states, selection disc, gizmo cubes, input mappings
-- **[VR operations](/dancexr/features/vr_operations)** — Hand controllers, pointer, comfort, Mouse-in-VR
+- **[Controls & UI](/dancexr/controls)** — Toggle states, selection disc, gizmo cubes, input mappings
+- **[VR operations](/dancexr/vr_operations)** — Hand controllers, pointer, comfort, Mouse-in-VR
 
 **Work with content**
 

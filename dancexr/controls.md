@@ -9,7 +9,7 @@ toc: true
 
 How the DanceXR interface is laid out, how you interact with the scene, and the default input mappings for keyboard, mouse, gamepad, and VR controllers.
 
-For VR-specific operations (hand controllers, pointer calibration, comfort, Pointer Handle, Mouse-in-VR), see the [VR operations](/dancexr/features/vr_operations) page.
+For VR-specific operations (hand controllers, pointer calibration, comfort, Pointer Handle, Mouse-in-VR), see the [VR operations](/dancexr/vr_operations) page.
 
 ---
 
@@ -73,7 +73,7 @@ Some motions and tools support **gizmo cubes** — virtual cubes that appear on 
 
 Features that show gizmo cubes include:
 - [Wind field in sky settings](/dancexr/features/sky#wind_field): change wind field position and direction.
-- [Various procedural motions](/dancexr/features/procedural_motions): change offset and rotation of body parts like torso, hands and feet.
+- [Various procedural motions]: change offset and rotation of body parts like torso, hands and feet.
 - [Motion Override](/dancexr/features/motion_override): adjust the position and rotation of body parts for the overridden motion.
 
 ---
@@ -151,7 +151,7 @@ The microphone toggle for AI chat (default: right hand controller menu button) i
 
 ## Further reading
 
-- [VR operations](/dancexr/features/vr_operations) — VR-specific interaction (hand controllers, pointer, grip-drag UI, comfort)
+- [VR operations](/dancexr/vr_operations) — VR-specific interaction (hand controllers, pointer, grip-drag UI, comfort)
 - [VR settings](/dancexr/features/vr_settings) — VR technical settings (foveated rendering, pointer calibration, hand rendering)
 - [Concepts & glossary](/dancexr/concepts) — definitions of selection disc, gizmo cube, toggle states
 - [Getting started](/dancexr/getting-started) — first-run walkthrough

@@ -1,0 +1,48 @@
+---
+layout: release
+title: 旁觀者模式
+locale: zh-TW
+---
+
+# 觀眾模式
+
+觀眾模式將一位角色設定為被動觀察者。觀眾仍然會載入場景，但會被排除在「所有角色」作用的功能之外，例如：自動分配動作、陣型、群舞生成。
+
+可在角色工具選單中切換開關 — 請參閱 [角色選單與工具 → 工具選單](/dancexr/features/actor_tools#tools-menu)。
+
+---
+
+## 何時使用
+
+- 您希望一個角色站在觀眾席，而非跳舞。
+- 您希望一個模型作為佈景或道具出現在場景中，而它不屬於任何陣型。
+- 您正在測試只包含一個角色的場景，但仍希望其他角色保持載入狀態但處於非活動狀態。
+
+---
+
+## 角色成為觀眾時會發生什麼變化
+
+<!-- TODO: confirm the full list. Below is what is implied by the actor_tools description. -->
+
+- 在載入新的舞步時，會被 **自動分配動作** 跳過。
+- 被排除在 **陣型** 佈置之外。
+- 在跨角色 **自動舞蹈** 生成時會被跳過。
+- 選取碟和角色選單仍然可用 — 您仍可以手動擺姿、更衣和移動觀眾。
+
+---
+
+## 切換觀眾狀態
+
+1. 點擊角色的選取碟以開啟角色選單。
+2. 點擊角色名稱旁邊的扳手與錘子圖標，開啟 **工具選單**。
+3. 點擊 **觀眾** 以切換開關。
+
+此設定為每個角色獨立儲存。<!-- TODO: confirm whether it persists with scene save -->
+
+---
+
+## 相關頁面
+
+- [角色選單與工具](/dancexr/features/actor_tools)
+- [陣型](/dancexr/features/formation)
+- [角色播放列表](/dancexr/features/actor_playlist)

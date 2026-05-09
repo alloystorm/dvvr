@@ -40,7 +40,7 @@ locale: zh-TW
 
 您需要使用像是 ffmpeg 這樣的工具將這些影像轉換成影片。（如果您熟悉影片編輯，可以使用您喜歡的任何工具。這裡只是推薦使用 ffmpeg，因為它易於使用）
 
-這是一篇有關如何在 Windows 上安裝 ffmpeg 的文章：https://www.wikihow.com/Install-FFmpeg-on-Windows
+這是一篇關於如何在 Windows 上安裝 ffmpeg 的文章：https://www.wikihow.com/Install-FFmpeg-on-Windows
 
 一旦您安裝了 ffmpeg 並將其路徑添加到環境變數中，您就可以開始使用了。
 

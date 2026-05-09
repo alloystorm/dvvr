@@ -1,0 +1,48 @@
+---
+layout: release
+title: 观察者模式
+locale: zh-CN
+---
+
+# 观摩模式
+
+观摩模式将一名演员标记为被动观察者。观摩者仍然保持加载在场景中，但会被排除在作用于“所有演员”的功能之外，例如自动分配的动作、编队、群舞生成。
+
+您可以在演员工具菜单中切换此设置 — 请参阅 [演员菜单与工具 → 工具菜单](/dancexr/features/actor_tools#tools-menu)。
+
+---
+
+## 何时使用
+
+- 您想要一个站在观众席，而非跳舞的角色。
+- 您想要一个模型作为道具或背景留在场景中，而又不希望它参与编队。
+- 您正在使用一名演员测试设置，并希望保持其他演员加载但处于非活动状态。
+
+---
+
+## 演员成为观摩者会发生什么变化
+
+<!-- TODO: confirm the full list. Below is what is implied by the actor_tools description. -->
+
+- 当加载新的舞蹈场景时，会被 **自动分配动作** 跳过。
+- 不参与 **编队** 的放置。
+- 被跨演员的 **自动舞蹈** 生成跳过。
+- 选择盘和演员菜单仍然可用 — 您仍然可以手动摆姿势、更换服装和移动观摩者。
+
+---
+
+## 切换观摩者状态
+
+1. 点击演员的选择盘，打开演员菜单。
+2. 点击演员名称旁边的扳手和锤子图标，打开 **工具菜单**。
+3. 点击 **观摩者** 来切换开关。
+
+此设置是针对每个演员的。 <!-- TODO: confirm whether it persists with scene save -->
+
+---
+
+## 相关页面
+
+- [演员菜单与工具](/dancexr/features/actor_tools)
+- [编队](/dancexr/features/formation)
+- [演员播放列表](/dancexr/features/actor_playlist)

@@ -92,7 +92,7 @@ Generated at runtime, no source VMD needed:
 - [Secondary motion](/dancexr/features/secondary_motion) — procedural layer that runs on top of any motion (sway, breath, follow-through).
 - [Keyframe animation](/dancexr/features/keyframe_animation) — author your own poses with manual keyframes.
 
-[Idle motion](/dancexr/features/idle_motion), [Auto Dance](/dancexr/features/autodance), [Auto Dance 2](/dancexr/features/autodance2), and [Motion override](/dancexr/features/motion_override) all expose [gizmo cubes](/dancexr/features/controls#gizmo-cubes) for direct posing.
+[Idle motion](/dancexr/features/idle_motion), [Auto Dance](/dancexr/features/autodance), [Auto Dance 2](/dancexr/features/autodance2), and [Motion override](/dancexr/features/motion_override) all expose [gizmo cubes](/dancexr/controls#gizmo-cubes) for direct posing.
 
 ---
 

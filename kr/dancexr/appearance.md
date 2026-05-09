@@ -1,0 +1,119 @@
+---
+layout: release
+title: 외형 및 재질
+locale: ko-KR
+toc: true
+---
+
+# 외모 및 재질
+
+DanceXR의 재질 시스템은 매우 사용자 정의가 가능하며, 여러 계층의 설정이 쌓여 액터나 무대 위의 오브젝트의 최종적인 모습이 만들어집니다. 재질 속성을 변경하고, 텍스처를 교체하며, 바디 페인트를 적용하고, 의상 조각을 토글하는 등 할 수 있습니다.
+
+특정 기능에 대한 자세한 내용은 각 전용 페이지 링크를 따르십시오. 여기서 사용된 용어(재질 슬롯, 드레싱 시스템, 대체 텍스처, 바디 페인트)는 [개념 및 용어집](/dancexr/concepts#materials-and-appearance)을 참조하십시오.
+
+---
+
+## 제어 계층 (The control layers)
+
+로드된 모델의 재질은 아래에서 위로 여러 계층에서 제어됩니다.
+
+1. **개별 재질(Individual Materials)** — 각 재질에 개별적으로 접근하여 설정을 하나씩 변경할 수 있습니다.
+2. **재질 슬롯(Material slots)** — 재질은 표면 유형(피부, 머리카락, 눈, 입술, 불투명, 투명, 커스텀)별로 슬롯에 그룹화됩니다. 각 슬롯은 자체 설정을 가지며, 이 설정은 액터의 해당 카테고리 모든 재질에 적용됩니다.
+3. **글로벌 재질 설정(Global material settings)** — 모든 재질에 적용되는 전역 재정의(Global overrides) 설정입니다. 모델 전체에 걸쳐 일관성이 필요한 속성(예: 툰 셰이딩 및 모든 투명 재질의 알파 차단 임계값)을 빠르게 변경할 수 있습니다.
+4. **오버레이(Overlays)** — 의상이나 바디 페인트, 땀 효과, 디테일 맵, 스페큘러/마스크 맵처럼 기본 재질 위에 그려지는 계층입니다.
+5. **시스템 전체 렌더 속성(System-wide render properties)** — 비조명 모드, 그림자 품질, 레이트레이싱 효과, 투명 프리패스처럼 전체 장면에 적용되는 설정입니다.
+
+높은 수준의 제어를 활성화하는 경우, 개별 재질 설정이 아무런 영향을 미치지 않을 수 있다는 점을 유의하십시오.
+
+---
+
+## 메시 및 가시성 — 드레싱 시스템
+
+[드레싱 시스템](/dancexr/features/optionals)은 PMX의 모프와 XPS의 선택적 메시를 결합하여 모델 부위의 가시성을 토글하는 통합 인터페이스를 제공합니다. 이를 사용하여 의상 조각을 켜고 끄거나, 다른 모양으로 전환하거나, 특정 신체 부위를 숨길 수 있습니다.
+
+- **PMX** 모델의 경우, 모델 작가에 의해 정의된 *재질 모프(material morphs)*를 통해 작동합니다. 토글은 특정 서브메시를 표시하거나 숨깁니다.
+- **XPS** 모델의 경우, 슬롯별로 정의된 *선택적 아이템(optional items)*을 통해 작동합니다.
+
+두 경우 모두 UI는 동일합니다. 이 기능을 사용하여 의상 변경, 모델에 기본으로 제공된 액세서리 제거, 헤어 서브 피스 교체, 특수 효과를 위한 사지 숨김 등을 할 수 있습니다.
+
+PMX 모델은 또한 [모프 목록](/dancexr/features/morph_list)을 통해 개별 모프를 노출하므로, 모프가 드레싱 토글로 표면화되지 않은 경우 유용합니다.
+
+---
+
+## 텍스처 향상 (Pro)
+
+- [커스텀 디테일 맵](/dancexr/features/custom_detail_map) — 커스텀 디테일 노멀 맵입니다.
+- [육각형 디테일 맵](/dancexr/features/hexagon_detail) — 내장된 육각형 패턴 디테일입니다.
+- [노멀 맵 생성](/dancexr/features/generate_normal_map) — 디퓨즈 텍스처에서 노멀 맵을 자동 파생합니다.
+- [스페큘러 / 마스크 맵](/dancexr/features/specular_map) — 스페큘러 및 마스크 맵 구성입니다.
+
+---
+## 텍스처 — 대체 텍스처 세트
+
+[대체 텍스처](/dancexr/features/alternative_textures)를 사용하면 모델을 편집하지 않고 런타임에 전체 텍스처 세트를 교체할 수 있습니다.
+
+작동 방식: 모델의 원본과 **동일한 파일 이름**을 가진 추가 텍스처를 다른 폴더(또는 동일한 zip의 다른 곳)에 배치합니다. DanceXR이 이를 감지하고 선택기(picker)를 노출합니다. 일반적인 용도: 여러 피부 톤, 낮/밤 버전, 재색상 의상.
+
+또한 [텍스처 향상](/dancexr/features/texture_enhancement) (Pro)을 사용하여 로드 시간에 텍스처를 AI 업스케일링하고 선명하게 할 수 있습니다.
+
+---
+
+## 재질 — 슬롯 시스템
+
+DanceXR은 표면 유형별로 재질을 **슬롯**에 그룹화합니다. 각 슬롯은 자체 설정을 가지며, 슬롯의 설정은 해당 카테고리에 속한 모든 재질에 액터에게 적용됩니다.
+
+| 슬롯 | 용도 | 페이지 |
+|---|---|---|
+| Skin | 몸통, 얼굴 | [피부 재질](/dancexr/features/material_skin) |
+| Hair | 머리카락, 몸털 | [머리카락 재질](/dancexr/features/material_hair) |
+| Eyes | 홍채, 공막, 눈 하이라이트 | [눈 재질](/dancexr/features/material_eyes) |
+| Lips | 입술 및 입 안쪽 | [입술 재질](/dancexr/features/material_lips) |
+| Opaque | 몸통 슬롯에 맞지 않는 모든 고체 물체 — 의상, 모델의 소품 | [불투명 재질](/dancexr/features/material_opaque) |
+| Transparent | 모든 투명한 물체 — 유리, 시어 패브릭, 입자, 머리카락 끝 | [투명 재질](/dancexr/features/material_transparent) |
+| Custom | 자체 설정이 필요한 셰이더를 위한 최대 두 개의 자유 형식 슬롯 | [커스텀 재질](/dancexr/features/material_custom1) |
+
+재질이 슬롯에 할당되는 방식:
+
+- **PMX**: 모델 파일 내 재질의 속성(투명도, 이름 힌트)에 기반합니다.
+- **XPS**: 드레싱 시스템/본 매퍼에서 할당하는 슬롯에 기반합니다.
+
+무언가 잘못된 것처럼 보인다면(피부가 불투명하게 보이거나, 머리카락이 피부처럼 보이는 경우), 일반적으로 슬롯 할당 문제입니다.
+
+---
+
+## 오버레이
+
+기본 재질 위에 그려지는 계층입니다:
+
+- [의상 및 바디 페인트](/dancexr/features/outfit) — 의상 슬롯과 `texture/drawing`에서 가져온 이미지 기반 바디 페인트.
+- [땀 효과](/dancexr/features/sweat_effect) — 피부에 적용되는 프로시저 땀 오버레이.
+
+---
+
+## 셰이딩 스타일
+
+[툰 셰이딩](/dancexr/features/toon_shading)은 액터별 셀/애니메이션 스타일 셰이딩을 토글합니다. 툰 경로는 기본 PBR 스타일 경로와 다른 수학 계산을 사용하여 라이트 랩, 그림자 램프, 림 라이팅을 적용합니다. 원하는 모양에 따라 선택하십시오. 혼용하는 것도 괜찮습니다.
+
+[레이트레이싱 효과](/dancexr/features/raytracing)는 셰이딩 스타일과 무관하게 그림자와 반사 품질에 영향을 미치는 별도의 장면 레벨 기능입니다 (PC, RT 빌드에서만).
+
+---
+
+## 일반적인 문제
+
+| 증상 | 예상 해결책 |
+|---|---|
+| 머리카락이 비쳐 보임 | 투명도 깊이 프리패스 — [FAQ](/dancexr/faq#i-can-see-through-hair-materials) 참조 |
+| 텍스처가 누락되어 모델이 흰색임 | 파일 이름 또는 경로 불일치 — [FAQ](/dancexr/faq#model-loads-but-everything-is-white) 참조 |
+| 피부가 플라스틱 같거나 번들거림 | [피부 재질](/dancexr/features/material_skin) 조정 — 일반적으로 스페큘러 감소 |
+| 의상 제거 불가 | 모델 작가가 모프(PMX) 또는 선택적(XPS)으로 노출해야 합니다. [드레싱 시스템](/dancexr/features/optionals)을 사용하여 사용 가능한 것을 찾으십시오. |
+| 텍스처가 저해상도로 보임 | [텍스처 향상](/dancexr/features/texture_enhancement)을 시도하거나, 더 고해상도의 대체 텍스처를 배치하십시오. |
+| 스카이 스피어가 픽셀화되거나 구멍이 있음 | 투명 스카이 스피어 다수 + 투명도 깊이 프리패스; [FAQ](/dancexr/faq) 참조 |
+
+---
+
+## 추가 정보
+
+- [개념 및 용어집](/dancexr/concepts#materials-and-appearance)
+- [액터 작업](/dancexr/actors)
+- [물리 시스템](/dancexr/physics) — 의상 및 머리카락 움직임 (의상 재질과는 별개)
+- [콘텐츠 라이브러리](/dancexr/preparecontent) — `texture/`, `drawing/`, `mask/` 폴더

@@ -1,0 +1,56 @@
+---
+layout: release
+title: PMX 블렌드셰이프 모프
+locale: ko-KR
+toc: true
+---
+
+# PMX 블렌드셰이프 모프
+
+PMX 모델에는 모델 제작자가 정의한 이름이 지정된 **모프**(블렌드셰이프) 목록이 포함되어 있습니다. 여기에는 얼굴 표정, 입 모양, 의상 토글, 신체 조정 등이 있습니다. DanceXR의 모프 목록에서 이를 찾아 적용할 수 있습니다.
+
+모프 목록은 로드된 모든 **PMX** 모델의 액터 메뉴에 나타납니다. XPS 모델의 경우 대신 [Dressing system](/dancexr/features/optionals)을 사용합니다.
+
+---
+
+## 모프란 무엇인가
+
+모프는 모델의 저장된 변형입니다. 이는 버텍스 위치, 본 오프셋, 재질 매개변수 또는 서브 메쉬 가시성 등이며, 0–1 값으로 블렌딩되거나 해제될 수 있습니다. PMX 모델에는 일반적으로 다음 내용이 포함됩니다.
+
+- **얼굴 모프**: 행복, 분노, 슬픔, 놀람, 눈 열림/닫힘, 입 모양(아/이/우/에/오)
+- **본 모프**: 미세한 골격 조정
+- **재질 모프**: 색상 또는 투명도 변화 (이는 [dressing system](/dancexr/features/optionals)에서 사용됩니다)
+- **버텍스 모프**: 직접적인 메쉬 변형
+- **그룹 모프**: 위의 조합
+
+DanceXR은 이 값들을 PMX 파일에서 직접 읽어오므로, DanceXR에서 직접 제작할 필요는 없습니다.
+
+---
+
+## 모프 목록 사용하기
+
+<!-- TODO: confirm exact UI path and layout -->
+
+1. 액터 메뉴를 엽니다 (액터의 선택 디스크를 클릭합니다).
+2. 메뉴 하단 근처에서 **모프 목록** 항목을 찾습니다.
+3. 각 모프는 이름과 0에서 1까지의 슬라이더와 함께 표시됩니다.
+4. 슬라이더를 드래그하여 모프를 적용하고, 원하는 값에서 놓으면 그 값을 유지합니다.
+
+모프는 변경하거나 모델을 새로고침할 때까지 적용된 상태를 유지합니다. 일부 모프(예: 얼굴 표정)는 [Facial control](/dancexr/features/facial_control)과 [Blink, breathing & eye contact](/dancexr/features/eyecontact)가 활성화될 때 의해 덮어쓰여지게 됩니다.
+
+---
+
+## 팁
+
+- **모프 이름은 제작자에 따라 다릅니다**. 일본 모델 제작자는 일반적으로 얼굴 모프의 이름을 일본어(まばたき, あ, い…)로 지정하는 경향이 있습니다. 영어 모델은 영어 이름을 사용하는 경우가 많습니다.
+- 여기에 표시되는 **재질 모프**는 일반적으로 [Dressing system](/dancexr/features/optionals)에서 노출되는 모프와 동일합니다. 어느 쪽에서 적용하든 동일한 효과를 가집니다.
+- 수백 개의 모프가 포함된 PMX 모델의 경우, 스크롤하거나 검색창 <!-- TODO: confirm if search exists -->을 사용하여 원하는 모프를 찾으세요.
+
+---
+
+## 관련 페이지
+
+- [Dressing system](/dancexr/features/optionals)
+- [Facial control](/dancexr/features/facial_control)
+- [Blink, breathing & eye contact](/dancexr/features/eyecontact)
+- [Concepts & glossary](/dancexr/concepts)

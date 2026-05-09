@@ -1,0 +1,56 @@
+---
+layout: release
+title: PMX ブレンドシェイプ モーフ
+locale: ja-JP
+toc: true
+---
+
+# PMX ブレンドシェイプモーフ
+
+PMXモデルには、モデル作者が定義した名前付きの**モーフ**（ブレンドシェイプ）のリストが同梱されています。これには、表情、口の形、衣装のオン/オフ、身体の調整などが含まれます。DanceXRでのモーフリストは、それらを閲覧し、適用する場所です。
+
+モーフリストは、読み込まれたすべての**PMX**モデルのアクターメニューに表示されます。XPSモデルは代わりに[Dressing system](/dancexr/features/optionals)を使用します。
+
+---
+
+## モーフとは
+
+モーフとは、モデルの変形（頂点位置、ボーンオフセット、マテリアルパラメーター、またはサブメッシュの可視性）が、0から1の値を介してブレンドされることで得られる、保存された変形データです。PMXモデルには一般的に以下のようなモーフが含まれます。
+
+- **顔のモーフ** — 嬉しい、怒り、悲しみ、驚き、目を開ける/閉じる、口の形（あ/い/う/え/お）
+- **ボーンのモーフ** — 小さな骨格の調整
+- **マテリアルのモーフ** — 色や透明度の変更（[dressing system](/dancexr/features/optionals)で使用されます）
+- **頂点（Vertex）のモーフ** — 直接的なメッシュ変形
+- **グループのモーフ** — 上記の組み合わせ
+
+DanceXRはこれらのデータをPMXファイルから直接読み取るため、DanceXR内で作成する必要はありません。
+
+---
+
+## モーフリストの使用方法
+
+<!-- TODO: confirm exact UI path and layout -->
+
+1. アクターメニューを開きます（アクターの選択ディスクをクリック）。
+2. メニューの下部近くにある**モーフリスト**のエントリを探します。
+3. 各モーフは、名前と0から1のスライダーとともに表示されます。
+4. スライダーをドラッグしてモーフを適用し、指を離すとその値が維持されます。
+
+モーフは、変更したりモデルをリロードしたりするまで適用された状態が保たれます。一部のモーフ（表情など）は、[Facial control](/dancexr/features/facial_control)や[Blink, breathing & eye contact](/dancexr/features/eyecontact)がアクティブな場合、それらによって上書きされます。
+
+---
+
+## ヒント
+
+- **モーフの名前は作者に依存します**。日本のモデル作者は通常、顔のモーフに日本語（まばたき、あ、い…）で名前を付けています。英語のモデルは英語の名前を使うことが多いです。
+- ここに表示される**マテリアルのモーフ**は、通常[Dressing system](/dancexr/features/optionals)によって表示されるモーフと同じものです。どちらから適用しても同じ効果があります。
+- 数百ものモーフを持つPMXモデルの場合、目的のモーフを見つけるためにスクロールするか、検索ボックスを使用してください<!-- TODO: confirm if search exists -->。
+
+---
+
+## 関連ページ
+
+- [Dressing system](/dancexr/features/optionals)
+- [Facial control](/dancexr/features/facial_control)
+- [Blink, breathing & eye contact](/dancexr/features/eyecontact)
+- [Concepts & glossary](/dancexr/concepts)

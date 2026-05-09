@@ -1,0 +1,119 @@
+---
+layout: release
+title: 外観とマテリアル
+locale: ja-JP
+toc: true
+---
+
+# 外観とマテリアル
+
+DanceXRのマテリアルシステムは非常にカスタマイズ性が高く、複数の設定レイヤーが積み重なって、アクターまたはステージ上のオブジェクトの最終的な外観を創り出します。マテリアルのプロパティを変更したり、テクスチャを入れ替えたり、ボディペイントを適用したり、衣装のパーツの表示/非表示を切り替えたりできます。
+
+各機能の詳細については、専用ページへのリンクに従ってください。ここで使用されている用語（マテリアルスロット、ドレッシングシステム、代替テクスチャ、ボディペイント）については、[Concepts & glossary](/dancexr/concepts#materials-and-appearance)を参照してください。
+
+---
+
+## コントロールレイヤー
+
+ロードされたモデルのマテリアルは、下から上に向かって複数のレイヤーで制御されます。
+
+1. **個別のマテリアル** — 各マテリアルに個別にアクセスし、設定を一つずつ変更できます。
+2. **マテリアルスロット** — マテリアルは、表面タイプ（肌、髪、目、唇、不透明、透明、カスタム）によってスロットにグループ化されています。各スロットには独自のものが設定があり、アクタにオンにされると、そのカテゴリのすべてのマテリアルに適用されます。
+3. **グローバルマテリアル設定** — アクタのすべてのマテリアルに適用されるグローバルオーバーライドです。モデル全体で一貫性が求められるプロパティ（例：トゥーンシェーディングやすべての透明マテリアルのアルファカットオフしきい値）を迅速に変更するために使用します。
+4. **オーバーレイ** — 衣装やボディペイント、汗のエフェクト、ディテールマップ、スペキュラー/マスクマップなど、ベースマテリアルの上に描画されるレイヤーです。
+5. **システム全体のレンダリングプロパティ** — ライトオフモード、シャドウクオリティ、レイマーチングエフェクト、透明なプレパスなど、シーン全体に適用される設定です。
+
+高度なレベルの制御を有効にしている場合、個別のマテリアルの設定は影響しない場合があることに注意してください。
+
+---
+
+## メッシュと可視性 — ドレッシングシステム
+
+[Dressing system](/dancexr/features/optionals)は、PMXからのモーフとXPSからのオプションメッシュを組み合わせて、モデルのパーツの可視性を切り替えるための統一されたインターフェースを提供します。これを使用して、衣装パーツのオン/オフ、代替シェイプへの切り替え、特定の体のパーツの非表示化を行います。
+
+- **PMX**モデルの場合、モデルの作者によって定義された*マテリアルモーフ*を介して機能します。トグルを行うことで、特定のサブメッシュを表示または非表示にします。
+- **XPS**モデルの場合、スロットごとに定義された*オプションアイテム*を介して機能します。
+
+どちらの場合もUIは同じです。衣装変更、付属アクセサリーの削除、髪のサブパーツの交換、特殊効果のための四肢の非表示化に使用します。
+
+PMXモデルは、[Morph list](/dancexr/features/morph_list)を介して個々のモーフも公開しています。これは、モーフがドレッシングトグルとして表面化されていない場合に特に有用です。
+
+---
+
+## テクスチャエンハンスメント（プロ版）
+
+- [Custom detail map](/dancexr/features/custom_detail_map) — カスタムディテールノーマルマップ。
+- [Hexagon detail map](/dancexr/features/hexagon_detail) — 内蔵の六角パターンディテール。
+- [Generate normal map](/dancexr/features/generate_normal_map) — ディフューズテクスチャからノーマルマップを自動導出します。
+- [Specular / mask map](/dancexr/features/specular_map) — スペキュラーおよびマスクマップの設定。
+
+---
+## テクスチャ — 代替テクスチャセット
+
+[Alternative textures](/dancexr/features/alternative_textures)を使用すると、モデルを編集することなく、実行時にテクスチャセット全体を入れ替えることができます。
+
+仕組み：モデルのオリジナルと同じ**ファイル名**を持つ追加のテクスチャを、別のフォルダ（または同じzip内の別箇所）に配置します。DanceXRがそれらを検出してピッカーとして公開します。一般的な用途：複数の肌の色調、昼/夜バージョン、着色された衣装。
+
+また、[Texture enhancement](/dancexr/features/texture_enhancement)（プロ版）を使用して、ロード時にテクスチャをAIアップスケールし、シャープにすることもできます。
+
+---
+
+## マテリアル — スロットシステム
+
+DanceXRは、表面タイプによってマテリアルを**スロット**にグループ化します。各スロットには独自のものが設定があり、スロットがオンにされると、そのカテゴリのすべてのマテリアルに適用されます。
+
+| スロット | 用途 | ページ |
+|---|---|---|
+| Skin | 体、顔 | [Skin materials](/dancexr/features/material_skin) |
+| Hair | 頭髪、体毛 | [Hair materials](/dancexr/features/material_hair) |
+| Eyes | 虹彩、強膜、目のハイライト | [Eye materials](/dancexr/features/material_eyes) |
+| Lips | 唇と内側 | [Lips materials](/dancexr/features/material_lips) |
+| Opaque | ボディスロットに合わない固体すべて — 衣装、モデル上の小道具 | [Opaque materials](/dancexr/features/material_opaque) |
+| Transparent | 透明なすべて — ガラス、シアーな布地、パーティクル、髪の先 | [Transparent materials](/dancexr/features/material_transparent) |
+| Custom | 独自のものが設定できる自由形式のスロット（最大2つ） | [Custom materials](/dancexr/features/material_custom1) |
+
+マテリアルがスロットに入る仕組み：
+
+- **PMX**: モデルファイル内のマテリアルのプロパティ（透明度、名前のヒント）に基づく。
+- **XPS**: ドレッシングシステム／ボーンマッパーで割り当てたスロットに基づく。
+
+何かがおかしいように見える場合（肌が不透明に見える、髪が肌に見えるなど）は、通常、スロットの割り当ての問題です。
+
+---
+
+## オーバーレイ
+
+ベースマテリアルの上に描画されるレイヤー：
+
+- [Outfit & body paint](/dancexr/features/outfit) — 衣装スロットと、`texture/drawing`の画像から描画される画像ベースのボディペイント。
+- [Sweat effect](/dancexr/features/sweat_effect) — 肌上のプロシージャルな汗オーバーレイ。
+
+---
+
+## シェーディングスタイル
+
+[Toon shading](/dancexr/features/toon_shading)は、アクタごとにセル/アニメスタイルのシェーディングを切り替えます。トゥーンパスは、デフォルトのPBRスタイルのパスとは異なるライトラップ、シャドウランプ、リムライティングの数式を使用します。希望のルックに基づいて選択してください。混合しても構いません。
+
+[Raytracing effects](/dancexr/features/raytracing)は、シェーディングスタイルに関係なく、シャドウや反射の品質に影響を与える、別個のシーンレベルの機能です（PC、RTビルド限定）。
+
+---
+
+## 一般的な問題
+
+| 症状 | 推奨される修正 |
+|---|---|
+| 髪の透けが見える | 透明度深度プレパス — [FAQ](/dancexr/faq#i-can-see-through-hair-materials)を参照 |
+| テクスチャが欠落し、モデルが白くなる | ファイル名またはパスの不一致 — [FAQ](/dancexr/faq#model-loads-but-everything-is-white)を参照 |
+| 肌がプラスチック/光沢に見える | [Skin materials](/dancexr/features/material_skin)を調整 — 通常、スペキュラーを減らします |
+| 衣装が削除できない | モデルの作者がモーフ（PMX）またはオプション（XPS）として公開する必要があります。利用可能なものを見つけるには、[Dressing system](/dancexr/features/optionals)を使用してください |
+| テクスチャが低解像度に見える | [Texture enhancement](/dancexr/features/texture_enhancement)を試すか、より高解像度の代替テクスチャを配置します |
+| スカイボールがピクセル化している/穴が開いている | 透明なスカイボールを複数組み合わせる + 透明度深度プレパス。 [FAQ](/dancexr/faq)を参照 |
+
+---
+
+## さらに読む
+
+- [Concepts & glossary](/dancexr/concepts#materials-and-appearance)
+- [Working with actors](/dancexr/actors)
+- [Physics system](/dancexr/physics) — 布地や髪の毛の動き用（布地マテリアルとは別）
+- [Content library](/dancexr/preparecontent) — `texture/`, `drawing/`, `mask/`フォルダ

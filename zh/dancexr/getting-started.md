@@ -6,22 +6,22 @@ locale: zh-CN
 
 # 开始使用 DanceXR
 
-本指南将带你完成第一次使用 DanceXR 的基本流程，从下载应用到加载模型、播放动作，一步步上手。如果你是第一次接触 DanceXR，也不用担心，它的设计目标就是直观、易用。
+欢迎！本指南将带你完成第一次使用 DanceXR 的体验，从下载应用到加载模型和播放动作。如果你是 DanceXR 新手，不用担心：它被设计为直观且用户友好。
 
 ---
 
 ## 1. 下载并安装
 
-DanceXR 可用于 **PC（Windows/Mac）**、**Android**、**iOS** 和 **Meta Quest**。请前往下载页面，获取适合你平台的版本。
+DanceXR 可用于 **PC（Windows/Mac）**、**Android**、**iOS** 和 **Meta Quest**。请访问下载页面，获取适合你平台的版本：
 
-[**下载 DanceXR →**](/zh/dancexr/download)
+[**下载 DanceXR →**](/dancexr/download)
 
-下面是目前可用版本的简要说明：
+以下是当前可用版本的简要概览：
 
 | 平台 | 推荐版本 |
-|----------|-----------------|
-| **Windows PC** | 画质与性能均衡请选择 **HD**，需要光线追踪请选择 **RT**，更注重性能请选择 **LW** |
-| **Mac** | **HD** 版本 — 可通过 Steam 获取，但由于用户基数较小，最近没有更新 |
+|----------|--------------|
+| **Windows PC** | 选择 **HD** 以达到平衡的画质，选择 **RT** 进行光线追踪，或选择 **LW** 以注重性能 |
+| **Mac** | **HD** 版本 — 可通过 Steam 获取，但由于用户基础较小，近期没有更新。 |
 | **Android** | **LW** 版本 — 可通过 Google Play 或 Itch.io 获取 |
 | **iOS** | App Store |
 | **Meta Quest** | 独立运行版本 — 可通过 Itch.io 获取 |
@@ -33,69 +33,71 @@ DanceXR 可用于 **PC（Windows/Mac）**、**Android**、**iOS** 和 **Meta Que
 - **Android / Quest：** 从下载来源安装 APK。
 - **iOS：** 直接从 App Store 安装。
 
-> 如果启动时遇到问题，请查看 [支持页面](/zh/dancexr/support) 中的常见解决方法。
+> 如果在启动时遇到任何问题，请查看 [支持页面](/dancexr/support) 获取常见修复方法。
 
 ---
 
 ## 2. 准备内容库
 
-我们建议你在启动 DanceXR 之前先准备好内容库。不过，你也可以直接把模型文件和动作文件拖放到 DanceXR 窗口中来加载内容。现在也可以先跳过这一步，等你准备好添加自己的模型和动作时再回来。
+我们建议你在启动 DanceXR 之前准备好内容库，但你也可以通过将模型和动作文件直接拖放到 DanceXR 窗口中来加载内容。目前你可以跳过此步骤，等你准备好添加自己的模型和动作后再回来。请记住，拖放功能仅适用于模型和动作，对于舞台、天空图和纹理等其他内容，你仍然需要将它们放入内容库。
 
-DanceXR 会在 **content library** 文件夹中查找模型、动作和其他内容。你需要把 PMX 和 XPS 模型文件复制到这里。
+DanceXR 会在 **content library** 文件夹中查找模型、动作和其他内容。你需要将 PMX 和 XPS 模型文件复制到这里。
 
-具体位置取决于平台：
+具体位置取决于你的平台：
 
-- **Windows：** 打开 DanceXR，点击左下角的齿轮图标（系统菜单），然后在 Content Library 下选择“Show in Explorer”。
-- **Android / Quest：** 从 2024.3 更新开始，该文件夹位于存储中的 `/DanceXR/`。
-- **iOS：** 在设备的 Files 应用中查找名为 “DanceXR” 的文件夹。
+- **Windows：** 打开 DanceXR，点击左下角的齿轮图标（系统菜单），然后在内容库下选择“Show in Explorer”。
+- **Android / Quest：** 在 2024.3 更新后，该文件夹位于你存储的 `/DanceXR/`。
+- **iOS：** 在设备中的“文件”应用中查找名为 “DanceXR” 的文件夹。
 
-有关文件夹结构和支持格式的完整说明，请参阅 [内容库指南](/zh/dancexr/preparecontent)。
+有关文件夹结构和支持格式的完整说明，请参阅 [内容库指南](/dancexr/preparecontent)。
 
 ![Example of actors folder](/images/content_actors.PNG)
 
 ---
 
-## 3. 基本 UI 和操作
+## 3. 基本 UI 和控制
 
-打开 DanceXR 后，你应该会在屏幕底部看到菜单栏。如果没有显示，请点击空白区域以切换 UI 状态，直到它出现。
-在 VR 中，UI 会悬浮在你面前；在桌面模式中，它固定在屏幕底部。无论你使用鼠标还是 VR 控制器，点击和拖动的操作方式基本一致。在 VR 中，你可以按住握把键并移动手部来拖动 UI。
+打开 DanceXR 后，你应该会在屏幕底部看到一个菜单栏。如果看不到，请点击空白区域循环切换 UI 状态直到它出现。
+在 VR 中，UI 会漂浮在你面前。在桌面模式中，它固定在屏幕底部。无论是使用鼠标还是 VR 控制器进行点击和拖动操作，方式都一样。在 VR 中，你可以按住握把键并用手移动来拖动 UI。
 
-### UI 组成
+### UI 组件
 ![DanceXR UI overview](/images/menu.PNG)
-- **进度条：** 位于底部，显示当前动作或音频名称以及播放进度。点击可播放或暂停，拖动可快速定位。
+- **进度条：** 位于底部。显示当前的动作或音频名称以及进度。点击可播放或暂停，或拖动可快进/快退。
 - **菜单区域：** 左侧有五个图标。
   - 系统菜单（齿轮）：常规设置、内容库和支持链接
-  - 环境菜单（图片）：更改舞台、天空盒、灯光和相机设置
-  - 场景菜单（舞台）：加载舞台和道具，以及保存 / 加载场景设置
-  - 音频 / 动作菜单（音符）：加载并分配动作文件和音频文件
+  - 环境菜单（图片）：更改舞台、天空盒、灯光和摄影机设置
+  - 场景菜单（舞台）：加载舞台和道具，以及保存或加载场景设置
+  - 音频/动作菜单（音符）：加载和分配动作和音频文件
   - 角色菜单（人物）：加载和管理角色模型
-- **播放和聊天控制：** 右侧有音量滑块、播放列表、上一首 / 下一首按钮，以及 AI 聊天开关。
+- **播放和聊天控制：** 右侧有音量滑块、播放列表、上一首/下一首按钮，以及 AI 聊天切换开关。
 
-### 场景操作
 
-已加载的角色脚下会显示一个黄色圆圈。
-- 点击圆圈打开角色菜单
+### 场景控制
+
+已加载角色的脚下会显示一个黄色圆圈。
+- 点击圆圈以打开角色菜单
 - 拖动可在舞台上移动角色
-- 拖动时滚动鼠标滚轮可旋转角色
+- 拖动时，使用鼠标滚轮旋转角色
 
-### 切换显示状态
+
+### 切换状态
 
 点击空白区域可以在以下模式之间切换：
 - **UI 模式：** 所有菜单和控制项都可见。
 - **控制模式：** 菜单隐藏，但角色圆圈仍可见。
-- **沉浸模式：** 菜单和圆圈都被隐藏，获得最沉浸的体验。
+- **沉浸模式：** 所有菜单和圆圈都被隐藏，以获得最沉浸的体验。
 
 ---
 
 ## 4. 加载模型
 
-### 还没放进内容库？
+### 尚未放入内容库？
 
-没问题。你可以直接把模型文件拖放到 DanceXR 窗口中即时加载。支持的格式包括 `.pmx`、`.xps`、`.mesh` 和 `.mesh.ascii`。只要把文件拖进去，它就会出现在角色菜单中。
+没问题。你可以通过将文件直接拖放到 DanceXR 窗口中实时加载模型。支持的格式包括 `.pmx`、`.xps`、`.mesh` 和 `.mesh.ascii`。只需拖放文件，它就会出现在角色菜单中。
 
 ### 从内容库中加载
 
-点击角色图标并选择 “Load Model”。你会看到 `actors` 文件夹中的所有模型列表。默认情况下，新模型会替换当前舞台上选中的模型。如果想添加而不是替换，请点击模型名称旁边的 “+” 图标。此功能仅在付费版本中可用。
+点击角色图标并选择“Load Model”（加载模型）。你会看到 `actors` 文件夹中的所有模型列表。默认情况下，新模型会替换当前舞台上选定的模型。如果要添加而非替换，请点击模型名称旁边的 “+” 图标。此选项在专业版中可用。
 
 ---
 
@@ -103,31 +105,49 @@ DanceXR 会在 **content library** 文件夹中查找模型、动作和其他内
 
 ### 拖放加载
 
-把音频文件拖到 DanceXR 窗口中即可立即加载。支持 WAV 和 OGG 格式。
-把 VMD 或 BVH 格式的动作文件拖到 DanceXR 窗口中即可加载。如果当前选中的角色还没有分配动作，该动作会自动分配给它。
+将音频文件拖到 DanceXR 窗口中即可立即加载。支持 WAV 和 OGG 格式。
+将 VMD 或 BVH 格式的动作文件拖到 DanceXR 窗口中即可加载。如果当前选定的角色尚未分配动作，该动作将自动分配给它。
 
-### 从内容库加载
 
-点击音频 / 动作图标并选择 “Load Audio / Motion”。你会看到 `motions` 文件夹中的所有动作列表。
+### 内容库
 
-动作和音频会自动归组为 “dance sets”。加载后，你会在进度条中看到音频名称，并在舞蹈菜单中看到动作列表。要分配动作，可以先选择动作，再点击 “Assign To”；或者打开角色菜单，从已加载的动作中选择一个。
+点击音频/动作图标并选择“Load Audio / Motion”（加载音频/动作）。你会看到 `motions` 文件夹中的所有动作列表。
 
-如需了解如何整理动作文件，请参阅 [内容库指南](/zh/dancexr/preparecontent#motion-files)。
+动作和音频会自动归组为“dance sets”（舞蹈套装）。加载后，你会在进度条中看到音频名称，并在舞蹈菜单中看到动作列表。要分配动作，可以先选择动作，再点击“Assign To”（分配给）；或者打开角色菜单，从已加载的动作中选择一个。
+
+要了解如何整理动作文件，请参阅 [内容库指南](/dancexr/preparecontent#motion-files)。
 
 ---
 
 ## 接下来做什么？
 
-现在你已经可以开始使用了。接下来可以继续深入了解 DanceXR 的更多功能：
+你已经可以上手使用了！接下来可以继续深入了解 DanceXR 的更多功能：
 
-- **[功能概览](/zh/dancexr/features)** — 浏览 DanceXR 的全部功能和工具
-- **[准备内容库](/zh/dancexr/preparecontent)** — 详细了解如何整理模型、动作、舞台等内容
-- **[物理效果](/zh/dancexr/features/physics)** — 布料模拟、头发物理、软体和布娃娃
-- **[换装系统](/zh/dancexr/features/optionals)** — 更换服装、材质和配件
-- **[相机](/zh/dancexr/features/camera_settings)** — Orbit cam、freefly、auto cam、第一人称等
-- **[AI 聊天](/zh/dancexr/features/ai_chat)** — 通过语音和文字与角色对话
-- **[创作者版](/zh/dancexr/creator)** — 面向内容创作者的离线 4K / VR 渲染
-- **[故障排除](/zh/dancexr/troubleshooting)** — 解决常见问题
-- **[支持与 FAQ](/zh/dancexr/support)** — 常见问题解答
+**了解系统**
 
-祝你玩得开心。
+- **[Concepts & glossary](/dancexr/concepts)** — 文档中使用的术语（角色、舞蹈套装、Gizmo 立方体、换装系统、操作员）
+- **[Controls & UI](/dancexr/controls)** — 切换状态、选择盘、Gizmo 立方体、输入映射
+- **[VR operations](/dancexr/vr_operations)** — 手柄控制器、指针、舒适度、VR 内鼠标
+
+**使用内容**
+
+- **[Working with actors](/dancexr/actors)** — 加载、配置和管理角色
+- **[Appearance & materials](/dancexr/appearance)** — 穿搭、纹理、材质、身体彩绘
+- **[Physics system](/dancexr/physics)** — 毛发、布料、胸部、软体和布娃娃
+- **[Motion system](/dancexr/motion)** — 舞蹈套装、程序化舞蹈、分层、覆盖
+- **[Cinematic cameras](/dancexr/cameras)** — 何时使用何种摄影机模式
+
+**浏览和参考**
+
+- **[Features overview](/dancexr/features)** — DanceXR 中的所有功能，按部分分类
+- **[AI in DanceXR](/dancexr/ai)** — 操作员、AI 语音聊天、发现、自动舞蹈
+- **[Content library](/dancexr/preparecontent)** — 组织模型、动作、舞台、预设
+- **[Creator edition](/dancexr/creator)** — 离线 4K / VR 渲染
+
+**获取帮助**
+
+- **[FAQ](/dancexr/faq)** — 常见问题快速解答
+- **[Troubleshooting](/dancexr/troubleshooting)** — 日志、常见修复方法、Bug 报告
+- **[Support](/dancexr/support)** — Discord、电子邮件、GitHub 问题
+
+享受探索 DanceXR 的过程！

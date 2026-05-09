@@ -54,7 +54,7 @@ A short reference for the terms used throughout DanceXR docs. If a page uses a w
 : A virtual cube that appears on body parts when a supported motion or tool is active (Idle Motion, Auto Dance, Motion Override, and several others). Drag a face to move along it; use the wheel or thumbstick to rotate. Typically there are five cubes per actor: two hands, two feet, one body. See [Actor menu & tools](/dancexr/features/actor_tools#gizmo-cube).
 
 **Toggle states**
-: Click on empty space to cycle through three UI states. **UI mode** shows menus and discs. **Control mode** hides menus but keeps the actor selection discs visible. **Immersive mode** hides everything for a clean view. See [Controls & UI](/dancexr/features/controls).
+: Click on empty space to cycle through three UI states. **UI mode** shows menus and discs. **Control mode** hides menus but keeps the actor selection discs visible. **Immersive mode** hides everything for a clean view. See [Controls & UI](/dancexr/controls).
 
 **Progress bar**
 : The strip at the very bottom that shows the current motion/audio name and play position. Click to play/pause; drag to scrub.
@@ -204,7 +204,7 @@ DanceXR has multiple builds and tiers. The full matrix is on the [Download page]
 
 ## Related pages
 
-- [Controls & UI](/dancexr/features/controls) — where the UI elements above are documented in full
+- [Controls & UI](/dancexr/controls) — where the UI elements above are documented in full
 - [Working with actors](/dancexr/actors) — actor lifecycle and configuration
 - [Content library](/dancexr/preparecontent) — folder structure and supported formats
 - [Download & editions](/dancexr/download) — full tier matrix

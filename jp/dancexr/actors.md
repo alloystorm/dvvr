@@ -1,0 +1,121 @@
+---
+layout: release
+title: アクターの扱い方
+locale: ja-JP
+toc: true
+---
+
+# アクターの扱い
+
+アクターとは、シーンに読み込まれるキャラクターモデルです。DanceXRは、モーションに合わせてモデルのスケルトンをリアルタイムで適応させ、物理システムを使用して髪や服の動きをシミュレーションします。
+
+マテリアルを変更したり、テクスチャを適用したり、ドレスアップシステムを使用して衣装パーツを切り替えることで、モデルの外観をカスタマイズできます。モデルのスケールや位置を調整したり、ステージや他のアクターとのインタラクションを微調整することも可能です。
+
+ここで使用される用語（アクター、セレクションディスク、ギズモキューブ、ドレスアップシステム）の用語集については、[コンセプトと用語集](/dancexr/concepts)を参照してください。
+
+---
+
+## アクターの読み込み
+
+DanceXRは、2種類のモデル形式を読み込みます。
+
+- **PMX** — MikuMikuDance形式。独自のボーン階層、物理リグ、モーフリストが最初から含まれています。
+- **XPS** — XNALara / XPS形式（`.xps`, `.mesh`, `.mesh.ascii`）。物理または標準スケルトンは**含まれていない**ため、DanceXR内でそれらを設定する必要があります。
+
+どちらの形式も**ZIP**にパッケージ化できます。[ZIP形式](/dancexr/features/zip_format)では、ファイル名規則とエンコーディングを参照してください。
+
+### 2つの方法
+
+- モデルファイル（またはzip）をDanceXRウィンドウに**ドラッグ＆ドロップ**します。都度読み込みする際に高速です。
+- **コンテンツライブラリ** — モデルを[コンテンツライブラリ](/dancexr/preparecontent)内の`actors/`に配置します。アクターメニューの*モデルを読み込む*リストに表示されます。
+
+### 置換 vs 追加
+
+デフォルトでは、モデルを読み込むと、現在選択されているアクターが**上書き**されます。モデル名の横にある**+**アイコンをクリックすると、追加のアクターとして追加できます。マルチアクターシーンには有料ビルドが必要です — [ダウンロードとエディション](/dancexr/download)を参照してください。
+
+### 読み込みオプション
+
+[ローダーオプション](/dancexr/features/loader_options)は、新しいアクターがどのように入ってくるかを制御します。キャッシュサイズ、テクスチャ圧縮、トランジションエフェクト、自動アクター変更などがあります。
+
+---
+
+## PMX 対 XPS — 違いはどこか
+
+ほとんどの設定はどちらの形式でも同じように機能します。違いがある場所は知っておく価値があります。
+
+| トピック | PMX | XPS |
+|---|---|---|
+| スケルトン | ファイルからの標準ボーン名 | [XPSボーンマッパー](/dancexr/features/bone_mapper)経由でマッピング |
+| 物理リグ | ファイルに組み込まれている（[PMX物理](/dancexr/features/pmx_physics)） | [XPS物理](/dancexr/features/xps_physics)で設定 |
+| モーフ / ブレンドシェイプ | [モーフリスト](/dancexr/features/morph_list) | なし — 代わりに[ドレスアップシステム](/dancexr/features/optionals)を使用 |
+| 衣装切り替え | マテリアルモーフ（PMX） | オプショナルアイテム（XPS） — UIは同じ（[ドレスアップシステム](/dancexr/features/optionals)） |
+
+このガイドで「PMXのみ」または「XPSのみ」という記述がある場合は、それが理由です。
+
+---
+
+## アクターメニュー
+
+すべてのモデルの足元には、黄色い**セレクションディスク**があります。これをクリックするとアクターメニューが開き、アクターに関するあらゆるものの中心ハブとなります。詳細な内訳については、[アクターメニューとツール](/dancexr/features/actor_tools)を参照してください。
+
+メニューは以下のように分類されています。
+
+- **モーション** — 設定されたモーション、[フォーメーション](/dancexr/features/formation)スロット、およびモデル固有のモーション設定。
+- **最近変更した** — 直前に変更したダイアログへのクイックジャンプ。[最近変更した設定](/dancexr/features/recently_modified)を参照してください。
+- **ドレスアップとテクスチャ** — [ドレスアップシステム](/dancexr/features/optionals)、[ボーンマッパー](/dancexr/features/bone_mapper)（XPS）、[代替テクスチャ](/dancexr/features/alternative_textures)。
+- **マテリアル** — スロットごとの設定：肌、髪、目、口、不透明、透明、カスタム。スロットがどのように組み合わさるかについては、[外観とマテリアル](/dancexr/appearance)を参照してください。
+- **設定** — 物理、[足の調整](/dancexr/features/feet_adjustment)、[顔の制御](/dancexr/features/facial_control)、[視線誘導](/dancexr/features/eyecontact)、[トラブルシューティング](/dancexr/features/troubleshooting)。
+- **プロ版**（有料ビルド） — [衣装とボディペイント](/dancexr/features/outfit)、[アクセサリー](/dancexr/features/accessory)、[ラグラ doll](/dancexr/features/ragdoll)、[モーションの上書き](/dancexr/features/motion_override)、[ライトボール](/dancexr/features/light_ball)、高度な物理、NSFWオーバーレイ。
+- **モーフリスト**（PMXのみ） — [PMXブレンドシェイプモーフ](/dancexr/features/morph_list)。
+- **ツール**（レンチとハンマーのアイコン） — お気に入り、タグ付け、[スペクタクル](/dancexr/features/spectator_mode)、上下移動、リセット、[複製](/dancexr/features/actor_tools#tools-menu)、再読み込み、[3Dスナップショット](/dancexr/features/snapshot_3d)、削除。
+
+---
+
+## マルチアクターシーン
+
+ステージにアクターが複数いる場合、以下の3つの機能がグループの挙動を処理します。
+
+- [フォーメーション](/dancexr/features/formation) — アクターをパターン（ライン、グリッド、カスタム）で配置します。順番は、ツールメニューの**上へ移動** / **下へ移動**で設定します。
+- [アクタープレイリスト](/dancexr/features/actor_playlist) — 時間をかけてモデルのリストを順に再生し、オプションで音楽と同期させます。
+- [アクターにアタッチ](/dancexr/features/attach_to_actor) — アクターまたはアクセサリーを別のものに親子付けします（持っているアイテム、乗り物、ペアモーションなど）。
+
+モデルをステージに維持しつつ、自動割り当てモーションとフォーメーションスロットから除外するには、[スペクタクルモード](/dancexr/features/spectator_mode)を使用します。
+
+[グローバルアクター制御](/dancexr/features/global_actor_control)は、すべての設定をすべての**アクターに一度に適用**します。これは、読み込まれたすべてのモデルに同じ物理チューニング、ドレスアップ、またはマテリアルを共有させたい場合に便利です。
+
+---
+
+## スナップショットとプリセット
+
+作成した内容を保存する方法は3つあります。
+
+- [3Dスナップショット](/dancexr/features/snapshot_3d) — 現在のポーズをOBJとしてエクスポートし、他の3Dツールで使用できます。
+- [アクタープリセット](/dancexr/features/actor_presets) — アクターの設定（マテリアル、物理、ドレスアップ）を保存し、後で同じルックを同じモデルまたは類似のモデルに適用できます。
+- [シーンを保存](/dancexr/features/save_scene) および [シーンバンドル](/dancexr/features/scene_bundle) — すべてのアクター、モーション、ステージ、および設定を含むシーン全体をキャプチャします。
+
+---
+
+## 何かがおかしい場合
+
+症状から原因を探るトラブルシューティング：
+
+| 症状 | 確認する場所 |
+|---|---|
+| モデルは読み込まれるがすべてが白くなる | [FAQ → モデルは読み込まれるがすべてが白くなる](/dancexr/faq) |
+| モデルが標準ポーズで固まる | [XPSボーンマッパー](/dancexr/features/bone_mapper)、[ボーン構造の例](/dancexr/features/bones) |
+| 地面で浮いたり、沈んだり、滑る | [足の調整](/dancexr/features/feet_adjustment) |
+| サイズまたは位置が異なる | [スケールとオフセット](/dancexr/features/scale_offset) |
+| 髪 / スカート / 布が動かない、またはちらつく | [物理システム](/dancexr/physics) |
+| モデルごとの異常な挙動 | [アクターのトラブルシューティング](/dancexr/features/troubleshooting) |
+| アプリケーションレベルのクラッシュ、起動しない | [トラブルシューティング](/dancexr/troubleshooting)、[FAQ](/dancexr/faq) |
+
+---
+
+## 関連ページ
+
+- [コンセプトと用語集](/dancexr/concepts)
+- [外観とマテリアル](/dancexr/appearance)
+- [物理システム](/dancexr/physics)
+- [モーションシステム](/dancexr/motion)
+- [アクターメニューとツール](/dancexr/features/actor_tools)
+- [コンテンツライブラリ](/dancexr/preparecontent)
