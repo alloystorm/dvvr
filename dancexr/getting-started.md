@@ -33,6 +33,8 @@ Here's a quick overview of what's available:
 - **Android / Quest:** Install the APK from your download source.
 - **iOS:** Install directly from the App Store.
 
+On first launch, complete the activation process if required. Steam and Google Play activate automatically; other paid editions need a quick one-time activation. See the [Activation & Licensing](activation) guide for the full walkthrough.
+
 > If you run into any issues at launch, check the [Support page](/dancexr/support) for common fixes.
 
 ---

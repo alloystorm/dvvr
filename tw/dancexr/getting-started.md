@@ -33,6 +33,8 @@ DanceXR 可在 **PC（Windows/Mac）**、**Android**、**iOS** 和 **Meta Quest*
 - **Android / Quest：** 從你的下載來源安裝 APK。
 - **iOS：** 直接從 App Store 安裝。
 
+首次啟動時，如有需要請完成啟用程序。Steam 和 Google Play 版本會自動啟用；其他付費版本需要進行一次性啟用。完整說明請參閱 [啟用與授權](activation) 指南。
+
 > 如果啟動時遇到任何問題，請查看 [支援頁面](/dancexr/support) 以了解常見的解決方案。
 
 ---
