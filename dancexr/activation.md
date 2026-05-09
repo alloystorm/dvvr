@@ -50,13 +50,24 @@ In short: anything not on Steam or Google Play.
 
 The success page also offers a manual download of the license file as a backup. You don't need it for the normal flow — DanceXR retrieves the license on its own — but it's worth saving in case you want it later.
 
+### When activation completes silently
+
+If you've activated this build on this device before, DanceXR can usually skip the browser entirely: clicking **Activate Your Copy** retrieves the license directly and you'll see a **"successfully restored license"** message in DanceXR. Nothing more to do.
+
+This is the path you'll hit if you reinstall DanceXR on the same machine, restore from a backup, or wipe configuration files. It's also what happens automatically on the very first launch after install — DanceXR checks once, and if your purchase is already on record for this device, your edition unlocks without you ever opening the menu.
+
 ---
 
 ## The license file
 
 DanceXR stores your activation as a file named **`license.txt`**, kept alongside the application's data. As long as that file is present and valid, your edition's features stay unlocked.
 
-If you ever delete or move the file (a common step when troubleshooting startup issues — see [FAQ](/dancexr/faq)), DanceXR falls back to free mode until you activate again.
+DanceXR also remembers — in `config.json`, alongside other settings — whether it has already done a license check. This is how it knows on every launch whether to start up immediately or to attempt a quick license retrieval first.
+
+A few practical consequences:
+
+- **Deleting only `license.txt`** drops you back into free mode until you re-activate. DanceXR thinks the check has already happened and won't try to fetch the license on its own.
+- **Deleting both `license.txt` and `config.json`** looks like a fresh install. On the next launch, DanceXR will try to retrieve the license — and if your device is on record for this build, it'll restore the license silently. This is sometimes the cleanest fix when activation gets into a stuck state.
 
 ---
 
@@ -83,6 +94,8 @@ DanceXR may ask you to activate again if:
 
 The flow is identical to a first-time activation: **system menu → Activate Your Copy → browser → return to DanceXR**. Re-activation never charges anything.
 
+If you're re-activating on a device DanceXR already knows about (a reinstall, a fresh user profile, a config wipe), the browser step often gets skipped entirely — DanceXR retrieves the license directly and reports **"successfully restored license"**. See [When activation completes silently](#when-activation-completes-silently).
+
 ---
 
 ## Backing up your license
@@ -95,6 +108,7 @@ If you'd rather skip re-activation when migrating to a new machine, save a copy 
 
 - **"Activate Your Copy" does nothing** — the activation server may be temporarily unreachable. Try again in a few minutes.
 - **You completed activation but DanceXR still runs in free mode** — open the system menu and click **Activate Your Copy** once more. DanceXR re-fetches the license.
+- **Activation seems stuck after deleting `license.txt`** — also delete `config.json` (back it up first, since it holds your settings). On next launch DanceXR will treat it as a first run and try to retrieve the license automatically; if your device is on record, the license restores silently.
 - **The website opens but the platform you bought from is not listed** — your edition is sold on a specific platform; the page only shows the platforms that sell that edition. If you believe a missing option is wrong, contact [support](/dancexr/support).
 - **Repeated re-activation requests on the same machine** — get in touch via [support](/dancexr/support) and include details of when the prompts appear.
 

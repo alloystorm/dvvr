@@ -82,7 +82,7 @@ Use these when the user's wording does not match a topic title directly.
 | Adult / NSFW / sex / lewd content | rows under *Adult Lane* (requires the corresponding tier/toggle) |
 | What changed in version YYYY.M | `dancexr/releases/YYYY.M.md` (e.g., `dancexr/releases/2026.5.md`) |
 | Which version do I need to buy / Pro vs Free vs Creator | `dancexr/download.md`, `dancexr/concepts.md` (Editions and tiers section) |
-| Activation, license file, "asked to activate again", running in free mode despite paying | `dancexr/activation.md` |
+| Activation, license file, "asked to activate again", running in free mode despite paying, "successfully restored license", silent activation, license.txt or config.json missing | `dancexr/activation.md` |
 
 ---
 
