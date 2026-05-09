@@ -87,7 +87,7 @@ DanceXR 中的动作来源于多个源头，并在多个层级进行配置，它
 
 - [待机动作](/dancexr/features/idle_motion) — 在没有任何其他动作播放时，处理呼吸和静止姿势。
 - [T台走秀动作](/dancexr/features/catwalk) — 程序化的行走周期。
-- [自动舞步 1](/dancexr/features/autodance1)、[自动舞步 2](/dancexr/features/autodance2)、[自动舞步 3](/dancexr/features/autodance3) — 程序化舞蹈生成器。除非您有理由选择早期版本，否则请使用 **自动舞步 3**；它具备节拍分析和最强的变化性。
+- [自动舞步 1](/dancexr/features/autodance)、[自动舞步 2](/dancexr/features/autodance2)、[自动舞步 3](/dancexr/features/autodance3) — 程序化舞蹈生成器。除非您有理由选择早期版本，否则请使用 **自动舞步 3**；它具备节拍分析和最强的变化性。
 - [拟真动作](/dancexr/features/lifelike_motions) — 使处于暂停或待机的角色感觉更生动的微动作。
 - [二次动作](/dancexr/features/secondary_motion) — 一个运行在任何动作之上的程序化层（摆动、呼吸、跟随）。
 - [关键帧动画](/dancexr/features/keyframe_animation) — 使用手动关键帧制作您自己的姿势。
