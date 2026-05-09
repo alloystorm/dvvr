@@ -1,7 +1,6 @@
 ---
 layout: release
-title: Working with Actors
-액터 사용하기
+title: ## 액터 다루기
 locale: ko-KR
 toc: true
 ---
@@ -18,12 +17,13 @@ toc: true
 
 ## 액터 로드하기
 
-DanceXR은 두 가지 모델 형식을 읽습니다:
+DanceXR은 세 가지 모델 형식을 읽습니다:
 
-- **PMX** — MikuMikuDance 형식입니다. 자체 본 계층 구조, 물리 리그, 모프 목록을 포함하고 있습니다.
+- **PMX** — MikuMikuDance 형식입니다. 자체 본 계층 구조, 물리 리그, 모프 목록을 기본적으로 포함하고 있습니다.
 - **XPS** — XNALara / XPS 형식(`.xps`, `.mesh`, `.mesh.ascii`)입니다. 물리 또는 표준 스켈레톤이 포함되어 있지 않으므로, DanceXR에서 직접 설정해야 합니다.
+- **FBX** *(미리보기, 2025.9부터)* — 범용 3D 형식입니다. DanceXR은 현재 모델만 로드하며, 임베디드 애니메이션이나 기타 FBX별 기능은 제외됩니다. XPS와 마찬가지로, FBX는 애니메이션이 올바르게 재생되려면 [본 매핑](/dancexr/features/bone_mapper)이 필요합니다.
 
-두 형식 모두 **ZIP**으로 패키징할 수도 있습니다. 파일 이름 규칙 및 인코딩에 대한 내용은 [ZIP format](/dancexr/features/zip_format)를 참조하세요.
+세 가지 형식 모두 **ZIP**으로 패키징할 수도 있습니다. 파일 이름 규칙 및 인코딩에 대한 내용은 [ZIP format](/dancexr/features/zip_format)를 참조하세요.
 
 ### 로드 방법 두 가지
 
@@ -32,7 +32,7 @@ DanceXR은 두 가지 모델 형식을 읽습니다:
 
 ### 교체 대 추가
 
-기본적으로 모델을 로드하면 현재 선택된 액터를 **교체**합니다. 대신 추가 액터로 추가하려면 모델 이름 옆의 **+** 아이콘을 클릭하세요. 다중 액터 씬의 경우 유료 빌드가 필요합니다. 자세한 내용은 [Download & editions](/dancexr/download)를 참조하세요.
+기본적으로 모델을 로드하면 현재 선택된 액터를 **교체**합니다. 대신 추가 액터로 추가하려면 모델 이름 옆의 **+** 아이콘을 클릭하세요. 다중 액터 씬의 경우 유료 빌드가 필요합니다 — [Download & editions](/dancexr/download)를 참조하세요.
 
 ### 로드 옵션
 
@@ -40,18 +40,18 @@ DanceXR은 두 가지 모델 형식을 읽습니다:
 
 ---
 
-## PMX 대 XPS — 차이점
+## PMX 대 XPS 대 FBX — 차이점
 
-대부분의 설정은 두 형식 모두에서 동일하게 작동합니다. 차이가 발생하는 부분은 알고 있는 것이 좋습니다:
+대부분의 설정은 세 형식 모두에서 동일하게 작동합니다. 차이가 발생하는 부분은 아는 것이 좋습니다:
 
-| 주제 | PMX | XPS |
-|---|---|---|
-| 스켈레톤 | 파일의 표준 본 이름 | [XPS bone mapper](/dancexr/features/bone_mapper)를 통해 매핑 |
-| 물리 리그 | 파일에 내장 ([PMX physics](/dancexr/features/pmx_physics)) | [XPS physics](/dancexr/features/xps_physics)에서 구성 |
-| 모프 / 블렌드쉐이프 | [Morph list](/dancexr/features/morph_list) | 없음 — 대신 [Dressing system](/dancexr/features/optionals)을 사용하세요 |
-| 의상 토글 | 재질 모프 (PMX) | 옵션 항목 (XPS) — 동일한 UI ([Dressing system](/dancexr/features/optionals)) |
+| 주제 | PMX | XPS | FBX (미리보기) |
+|---|---|---|---|
+| 스켈레톤 | 파일의 표준 본 이름 | [본 매퍼](/dancexr/features/bone_mapper)를 통해 매핑 | [본 매퍼](/dancexr/features/bone_mapper)를 통해 매핑 |
+| 물리 리그 | 파일에 내장 ([PMX physics](/dancexr/features/pmx_physics)) | [XPS physics](/dancexr/features/xps_physics)에서 구성 | [XPS physics](/dancexr/features/xps_physics)에서 구성 |
+| 모프 / 블렌드쉐이프 | [Morph list](/dancexr/features/morph_list) | 없음 — 대신 [Dressing system](/dancexr/features/optionals)을 사용하세요 | 없음 |
+| 의상 토글 | 재질 모프 (PMX) | 옵션 항목 (XPS) — 동일한 UI ([Dressing system](/dancexr/features/optionals)) | 없음 |
 
-이 가이드에서 "PMX 전용" 또는 "XPS 전용"이라고 하는 부분이 있다면, 그 이유가 따로 있습니다.
+이 가이드에서 "PMX 전용" 또는 "XPS 전용"이라고 하는 부분이 있다면, 그 이유가 따로 있습니다. FBX 지원은 2025.9를 기준으로 미리보기 기능이며, 모델 지오메트리와 재질은 로드되지만 파일 내의 애니메이션이나 기타 FBX 기능은 무시됩니다.
 
 ---
 
@@ -77,7 +77,7 @@ DanceXR은 두 가지 모델 형식을 읽습니다:
 무대에 액터가 하나 이상 있을 때, 세 가지 기능이 그룹 동작을 처리합니다:
 
 - [Formation](/dancexr/features/formation) — 액터를 패턴(라인, 그리드, 사용자 지정)으로 배치합니다. 순서는 도구 메뉴의 **위 이동** / **아래 이동**으로 설정합니다.
-- [Actor playlist](/dancexr/features/actor_playlist) — 시간 경과에 따라 모델 목록을 순환하며, 음악과 선택적으로 동기화할 수 있습니다.
+- [Actor playlist](/dancexr/features/actor_playlist) — 시간 경과에 따라 모델 목록을 순환하며, 선택적으로 음악과 동기화할 수 있습니다.
 - [Attach to actor](/dancexr/features/attach_to_actor) — 한 액터 또는 액세서리를 다른 액터에 부모로 지정합니다(소지품, 라이더, 페어링된 모션).
 
 [Spectator mode](/dancexr/features/spectator_mode)를 사용하면 모델을 무대에 유지하면서 자동 할당 모션 및 포메이션 슬롯에서는 제외할 수 있습니다.

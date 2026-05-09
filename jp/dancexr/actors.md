@@ -1,11 +1,11 @@
 ---
 layout: release
-title: アクターの扱い方
+title: アクターの操作方法
 locale: ja-JP
 toc: true
 ---
 
-# アクターの扱い
+# アクターの扱い方
 
 アクターとは、シーンに読み込まれるキャラクターモデルです。DanceXRは、モーションに合わせてモデルのスケルトンをリアルタイムで適応させ、物理システムを使用して髪や服の動きをシミュレーションします。
 
@@ -17,12 +17,13 @@ toc: true
 
 ## アクターの読み込み
 
-DanceXRは、2種類のモデル形式を読み込みます。
+DanceXRは、以下の3種類のモデル形式を読み込みます。
 
 - **PMX** — MikuMikuDance形式。独自のボーン階層、物理リグ、モーフリストが最初から含まれています。
 - **XPS** — XNALara / XPS形式（`.xps`, `.mesh`, `.mesh.ascii`）。物理または標準スケルトンは**含まれていない**ため、DanceXR内でそれらを設定する必要があります。
+- **FBX** *(プレビュー、2025.9以降)* — 幅広い用途の3D形式。DanceXRは現在、モデルのみを読み込み、埋め込まれたアニメーションやその他のFBX固有の機能は読み込みません。XPSと同様に、モーションを正しく再生するには[ボーンマッパー](/dancexr/features/bone_mapper)が必要です。
 
-どちらの形式も**ZIP**にパッケージ化できます。[ZIP形式](/dancexr/features/zip_format)では、ファイル名規則とエンコーディングを参照してください。
+これら3つの形式すべてを**ZIP**にパッケージ化することもできます。[ZIP形式](/dancexr/features/zip_format)では、ファイル名規則とエンコーディングを参照してください。
 
 ### 2つの方法
 
@@ -39,18 +40,18 @@ DanceXRは、2種類のモデル形式を読み込みます。
 
 ---
 
-## PMX 対 XPS — 違いはどこか
+## PMX 対 XPS 対 FBX — 違いはどこか
 
-ほとんどの設定はどちらの形式でも同じように機能します。違いがある場所は知っておく価値があります。
+ほとんどの設定は、どの形式でも同じように機能します。違いがある場所を知っておく価値があります。
 
-| トピック | PMX | XPS |
-|---|---|---|
-| スケルトン | ファイルからの標準ボーン名 | [XPSボーンマッパー](/dancexr/features/bone_mapper)経由でマッピング |
-| 物理リグ | ファイルに組み込まれている（[PMX物理](/dancexr/features/pmx_physics)） | [XPS物理](/dancexr/features/xps_physics)で設定 |
-| モーフ / ブレンドシェイプ | [モーフリスト](/dancexr/features/morph_list) | なし — 代わりに[ドレスアップシステム](/dancexr/features/optionals)を使用 |
-| 衣装切り替え | マテリアルモーフ（PMX） | オプショナルアイテム（XPS） — UIは同じ（[ドレスアップシステム](/dancexr/features/optionals)） |
+| トピック | PMX | XPS | FBX (プレビュー) |
+|---|---|---|---|
+| スケルトン | ファイルからの標準ボーン名 | [XPSボーンマッパー](/dancexr/features/bone_mapper)経由でマッピング | [ボーンマッパー](/dancexr/features/bone_mapper)経由でマッピング |
+| 物理リグ | ファイルに組み込まれている（[PMX物理](/dancexr/features/pmx_physics)） | [XPS物理](/dancexr/features/xps_physics)で設定 | [XPS物理](/dancexr/features/xps_physics)で設定 |
+| モーフ / ブレンドシェイプ | [モーフリスト](/dancexr/features/morph_list) | なし — 代わりに[ドレスアップシステム](/dancexr/features/optionals)を使用 | なし |
+| 衣装切り替え | マテリアルモーフ（PMX） | オプショナルアイテム（XPS） — UIは同じ（[ドレスアップシステム](/dancexr/features/optionals)） | なし |
 
-このガイドで「PMXのみ」または「XPSのみ」という記述がある場合は、それが理由です。
+このガイドで「PMXのみ」または「XPSのみ」という記述がある場合は、それが理由です。FBXサポートは2025.9時点でのプレビュー機能であり、モデルのジオメトリとマテリアルは読み込まれますが、ファイル内のアニメーションやその他のFBX機能は無視されます。
 
 ---
 

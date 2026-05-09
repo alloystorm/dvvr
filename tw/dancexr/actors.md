@@ -1,6 +1,6 @@
 ---
 layout: release
-title: 操作角色
+title: ## 處理角色
 locale: zh-TW
 toc: true
 ---
@@ -17,21 +17,22 @@ toc: true
 
 ## 載入角色
 
-DanceXR 會讀取兩種模型格式：
+DanceXR 會讀取三種模型格式：
 
 - **PMX** — MikuMikuDance 格式。包含內建的骨骼層級、物理綁定和形態列表。
 - **XPS** — XNALara / XPS 格式（`.xps`, `.mesh`, `.mesh.ascii`）。不包含物理綁定或標準骨骼，因此您需要在 DanceXR 中設定這些內容。
+- **FBX** *(預覽版，2025.9 起)* — 通用 3D 格式。DanceXR 目前只能載入模型本身，無法載入嵌入的動畫或其他 FBX 專屬功能。和 XPS 一樣，FBX 在動畫播放前需要透過 [骨骼映射器](/dancexr/features/bone_mapper) 進行映射。
 
-這兩種格式也可以打包成 **ZIP**。請參閱 [ZIP 格式](/dancexr/features/zip_format) 以了解檔案命名規則和編碼。
+所有這三種格式也可以打包成 **ZIP**。請參閱 [ZIP 格式](/dancexr/features/zip_format) 以了解檔案命名規則和編碼。
 
 ### 兩種載入方式
 
 - **拖放** 模型檔案（或 zip）到 DanceXR 視窗。對於單次載入非常快速。
 - **內容庫** — 將模型放入您 [content library](/dancexr/preparecontent) 中的 `actors/` 資料夾。它們將出現在角色選單的 *載入模型* 清單中。
 
-### 替換 vs. 新增
+### 替換 vs 新增
 
-預設情況下，載入模型會 **替換** 當前選取的角色。如果您想將模型作為額外的角色新增，請點擊模型名稱旁邊的 **+** 圖標。多角色場景需要專業版（paid build）——請參閱 [下載與版本](/dancexr/download)。
+預設情況下，載入模型會 **替換** 當前選取的角色。如果您想將模型作為額外的角色新增，請點擊模型名稱旁邊的 **+** 圖標。多角色場景需要專業版（paid build）——請參閱 [Download & editions](/dancexr/download)。
 
 ### 載入選項
 
@@ -39,18 +40,18 @@ DanceXR 會讀取兩種模型格式：
 
 ---
 
-## PMX 與 XPS — 有何不同
+## PMX 與 XPS 與 FBX — 有何不同
 
-大多數設定在這兩種格式上都是相同的。它們分歧的地方值得了解：
+大多數設定在這三種格式上都是相同的。它們分歧的地方值得了解：
 
-| 主題 | PMX | XPS |
-|---|---|---|
-| 骨骼 | 檔案中的標準骨骼名稱 | 透過 [XPS 骨骼映射器](/dancexr/features/bone_mapper) 映射 |
-| 物理綁定 | 建置在檔案內（[PMX 物理](/dancexr/features/pmx_physics)） | 在 [XPS 物理](/dancexr/features/xps_physics) 中設定 |
-| 形態 / 混合形狀 | [形態列表](/dancexr/features/morph_list) | 無 — 請改用 [裝扮系統](/dancexr/features/optionals) |
-| 服裝切換 | 材質形態（PMX） | 選用物品（XPS）— 使用相同 UI ([裝扮系統](/dancexr/features/optionals)) |
+| 主題 | PMX | XPS | FBX (預覽版) |
+|---|---|---|---|
+| 骨骼 | 檔案中的標準骨骼名稱 | 透過 [骨骼映射器](/dancexr/features/bone_mapper) 映射 | 透過 [骨骼映射器](/dancexr/features/bone_mapper) 映射 |
+| 物理綁定 | 建置在檔案內（[PMX 物理](/dancexr/features/pmx_physics)） | 在 [XPS 物理](/dancexr/features/xps_physics) 中設定 | 在 [XPS 物理](/dancexr/features/xps_physics) 中設定 |
+| 形態 / 混合形狀 | [形態列表](/dancexr/features/morph_list) | 無 — 請改用 [裝扮系統](/dancexr/features/optionals) | 無 |
+| 服裝切換 | 材質形態（PMX） | 選用物品（XPS）— 使用相同 UI ([裝扮系統](/dancexr/features/optionals)) | 無 |
 
-如果本指南提到「僅限 PMX」或「僅限 XPS」，那就是原因所在。
+如果本指南提到「僅限 PMX」或「僅限 XPS」，那就是原因所在。FBX 支援作為預覽版（截至 2025.9），模型幾何和材質會載入，但檔案內部的動畫和其他 FBX 功能會被忽略。
 
 ---
 
@@ -65,7 +66,7 @@ DanceXR 會讀取兩種模型格式：
 - **裝扮與紋理** — [裝扮系統](/dancexr/features/optionals)、[骨骼映射器](/dancexr/features/bone_mapper) (XPS)、[alternative textures](/dancexr/features/alternative_textures)。
 - **材質** — 每槽位設定：皮膚、頭髮、眼睛、嘴唇、不透明、透明、自定義。請參閱 [Appearance & materials](/dancexr/appearance) 了解槽位之間的搭配關係。
 - **設定** — 物理、[feet adjustment](/dancexr/features/feet_adjustment)、[facial control](/dancexr/features/facial_control)、[eye contact](/dancexr/features/eyecontact)、[troubleshooting](/dancexr/features/troubleshooting)。
-- **專業版** (專業版建構) — [outfit & body paint](/dancexr/features/outfit)、[accessory](/dancexr/features/accessory)、[ragdoll](/dancexr/features/ragdoll)、[motion override](/dancexr/features/motion_override)、[light ball](/dancexr/features/light_ball)、進階物理、NSFW 疊層。
+- **專業版** (paid builds) — [outfit & body paint](/dancexr/features/outfit)、[accessory](/dancexr/features/accessory)、[ragdoll](/dancexr/features/ragdoll)、[motion override](/dancexr/features/motion_override)、[light ball](/dancexr/features/light_ball)、進階物理、NSFW 疊層。
 - **形態列表** (僅限 PMX) — [PMX 混合形狀](/dancexr/features/morph_list)。
 - **工具** (扳手和錘子圖標) — 收藏、標籤、[spectator](/dancexr/features/spectator_mode)、向上/向下移動、重置、[duplicate](/dancexr/features/actor_tools#tools-menu)、重新載入、[3D snapshot](/dancexr/features/snapshot_3d)、移除。
 
