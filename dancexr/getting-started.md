@@ -93,7 +93,7 @@ Click on empty space to toggle between these modes:
 
 ### Not in the content library yet?
 
-No problem. You can load models on the fly by dragging and dropping files directly onto the DanceXR window. Supported formats include `.pmx`, `.xps`, `.mesh`, and `.mesh.ascii`. Just drop the file, and it will appear in the actor menu.
+No problem. You can load models on the fly by dragging and dropping files directly onto the DanceXR window. Supported formats include `.pmx`, `.xps`, `.mesh`, `.mesh.ascii`, and `.fbx` (preview, since 2025.9 — model only, no animations). Just drop the file, and it will appear in the actor menu.
 
 
 ### Within the content library

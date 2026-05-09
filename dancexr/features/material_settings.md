@@ -65,3 +65,52 @@ Allow changing material properties along a gradient path.
 {% include video id="Yi2W_cwufNk" provider="youtube" %}
 {% include video id="d8GP3G0wF3M" provider="youtube" %}
 {% include video id="atIdSd2TIrA" provider="youtube" %}
+
+## Textures
+
+A material can carry an unlimited number of textures (since 2025.9), each playing a different role in how the surface looks. The texture section in the material settings lists every texture on the selected material; click into a texture to inspect it and reassign its purpose if DanceXR's auto-detection got it wrong.
+
+DanceXR assigns the texture type and channel mappings automatically based on the texture file name. Most of the time you do not need to change anything — the rest of this section is for the cases where you do.
+
+### Basic texture types
+
+Textures that map to a single role on the material:
+
+| Type | What it does |
+|---|---|
+| Color | Main color of the surface (also called diffuse / albedo / base color). |
+| Bump | Adds surface relief by altering the surface normals — wrinkles, seams, fabric weave. |
+| Specular | Defines highlight color and sharpness on legacy specular workflows. DanceXR uses a PBR workflow, so specular data is redirected into metallic and roughness maps. |
+| Emissive | Makes the surface appear to emit light. Used for glow effects, screens, eyes. |
+| Alpha (Opacity) | Controls how transparent the material is. |
+
+### Advanced texture types
+
+Some textures pack multiple roles into the channels (R, G, B, A) of a single image. DanceXR supports two:
+
+- **Detail** — a tiling texture that adds fine detail on top of the base color (skin pores, fabric grain).
+- **Mask** — defines which areas of the surface are affected by which properties (metallic, roughness, occlusion, detail).
+
+For these, you assign each channel of the texture to a specific purpose. The available channel purposes are:
+
+| Purpose | Used in | What it controls |
+|---|---|---|
+| Metallic | Mask map | How metallic the surface is, per pixel. |
+| Occlusion | Mask map | Ambient occlusion — soft shadows in crevices. |
+| Smoothness | Mask map | How smooth (mirror-like) the surface is. |
+| Roughness | Mask map | Inverse of smoothness — provided for textures authored in roughness instead of smoothness workflows. |
+| Bump X | Detail map | The X axis of a detail normal map. |
+| Bump Y | Detail map | The Y axis of a detail normal map. |
+| Detail Mask | Mask map | Limits where the detail texture is applied. |
+
+So a single mask texture's red channel might drive metallic, the green channel occlusion, the blue smoothness — DanceXR exposes each channel separately and you can repoint them individually.
+
+### Inspecting a texture
+
+Inside the texture submenu:
+
+- The texture itself displays at the top of the panel.
+- Click the texture to break it into individual channels (R, G, B, A) so you can see what each one carries — useful when figuring out how a packed mask texture was authored.
+- Below the preview, options let you change the texture's type assignment and channel purposes.
+
+This is the fastest way to figure out what an unfamiliar texture is for: open it, view the channels, and reassign if needed.

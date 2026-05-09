@@ -53,7 +53,7 @@ DanceXR searches for various types of content in distinct subfolders located wit
 
 ## Supported formats
 
-* 3D models: PMX, XPS, and OBJ (for stage props)
+* 3D models: PMX, XPS, FBX (preview — since 2025.9, model only), and OBJ (for stage props)
 * Audio: OGG and MP3 (on mobile platforms only)
 * Video: MP4
 * Motion: VMD, BVH
@@ -67,7 +67,7 @@ For easier management of data files, especially for that content that requires m
 
 3D models usually come with multiple files. One file describes the mesh, and multiple external files for textures and materials. Make sure you keep the textures in the original location relative to the mesh file so that it can be found correctly when loading the model.
 
-For PMX, the mesh file is the .pmx file, and for XPS, the mesh file can be .xps, .mesh, or .mesh.ascii.
+For PMX, the mesh file is the .pmx file. For XPS, the mesh file can be .xps, .mesh, or .mesh.ascii. For FBX (preview, since 2025.9), the mesh file is .fbx — DanceXR currently loads the model itself but not embedded animations or other FBX features. FBX and XPS models both need [bone mapping](features/bone_mapper) before motions will play correctly.
 
 It is recommended to keep all the files for one model in a zip package for a smaller file size and easier management.
 

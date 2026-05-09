@@ -48,11 +48,6 @@ feature_sections:
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
         badge: PRO
         badge_type: pro
-      - title: 探索應用程式
-        link: /tw/dancexr/features/discovery
-        image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
-        badge: 2025.6
-        badge_type: new
   - title: 模型支援
     light: true
     hub_url: /tw/dancexr/actors
@@ -492,11 +487,11 @@ feature_sections:
     subsections:
       - title: 參考
         tiles:
-          - title: "Concepts & Glossary"
+          - title: 概念與術語表
             link: /tw/dancexr/concepts
-          - title: "Controls & UI"
+          - title: 控制與使用者介面
             link: /tw/dancexr/controls
-          - title: VR Operations
+          - title: 虛擬實境運作
             link: /tw/dancexr/vr_operations
       - title: 系統
         tiles:

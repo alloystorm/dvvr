@@ -48,11 +48,6 @@ feature_sections:
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
         badge: PRO
         badge_type: pro
-      - title: Discovery App
-        link: /dancexr/features/discovery
-        image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
-        badge: 2025.6
-        badge_type: new
   - title: Model Support
     light: true
     hub_url: /dancexr/actors
@@ -82,7 +77,7 @@ feature_sections:
             image: /images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg
       - title: Format Specifics
         tiles:
-          - title: XPS Bone Mapper
+          - title: Bone Mapper
             link: /dancexr/features/bone_mapper
             image: /images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp
           - title: Physics

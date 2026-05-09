@@ -17,12 +17,13 @@ For a glossary of terms used here (actor, selection disc, gizmo cube, dressing s
 
 ## Loading an actor
 
-DanceXR reads two model formats:
+DanceXR reads three model formats:
 
 - **PMX** — the MikuMikuDance format. Includes its own bone hierarchy, physics rig, and morph list out of the box.
 - **XPS** — the XNALara / XPS format (`.xps`, `.mesh`, `.mesh.ascii`). Does **not** include physics or a standard skeleton, so you set those up in DanceXR.
+- **FBX** *(preview, since 2025.9)* — broad-purpose 3D format. DanceXR currently loads the model only, not embedded animations or other FBX-specific features. Like XPS, FBX requires [bone mapping](/dancexr/features/bone_mapper) before motions will play correctly.
 
-Both formats can also be packaged in a **ZIP**. See [ZIP format](/dancexr/features/zip_format) for filename rules and encoding.
+All three formats can also be packaged in a **ZIP**. See [ZIP format](/dancexr/features/zip_format) for filename rules and encoding.
 
 ### Two ways to load
 
@@ -39,18 +40,18 @@ By default, loading a model **replaces** the currently selected actor. Click the
 
 ---
 
-## PMX vs XPS — what differs
+## PMX vs XPS vs FBX — what differs
 
-Most settings work the same on both formats. The places they diverge are worth knowing:
+Most settings work the same across all three formats. The places they diverge are worth knowing:
 
-| Topic | PMX | XPS |
-|---|---|---|
-| Skeleton | Standard bone names from the file | Mapped via [XPS bone mapper](/dancexr/features/bone_mapper) |
-| Physics rig | Built into the file ([PMX physics](/dancexr/features/pmx_physics)) | Configured in [XPS physics](/dancexr/features/xps_physics) |
-| Morphs / blendshapes | [Morph list](/dancexr/features/morph_list) | None — use [Dressing system](/dancexr/features/optionals) instead |
-| Outfit toggles | Material morphs (PMX) | Optional items (XPS) — same UI ([Dressing system](/dancexr/features/optionals)) |
+| Topic | PMX | XPS | FBX (preview) |
+|---|---|---|---|
+| Skeleton | Standard bone names from the file | Mapped via [bone mapper](/dancexr/features/bone_mapper) | Mapped via [bone mapper](/dancexr/features/bone_mapper) |
+| Physics rig | Built into the file ([PMX physics](/dancexr/features/pmx_physics)) | Configured in [XPS physics](/dancexr/features/xps_physics) | Configured in [XPS physics](/dancexr/features/xps_physics) |
+| Morphs / blendshapes | [Morph list](/dancexr/features/morph_list) | None — use [Dressing system](/dancexr/features/optionals) instead | None |
+| Outfit toggles | Material morphs (PMX) | Optional items (XPS) — same UI ([Dressing system](/dancexr/features/optionals)) | None |
 
-If something in this guide says "PMX only" or "XPS only", that is why.
+If something in this guide says "PMX only" or "XPS only", that is why. FBX support is in preview as of 2025.9 — model geometry and materials load, but animations and other FBX features inside the file are ignored.
 
 ---
 

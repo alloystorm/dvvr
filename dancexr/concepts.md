@@ -14,7 +14,7 @@ A short reference for the terms used throughout DanceXR docs. If a page uses a w
 ## Core entities
 
 **Actor**
-: A character model loaded into the scene. Actors come from PMX or XPS files. Each actor has its own motion, materials, physics, and behavior settings. Multiple actors can share a stage; the **selection disc** under each actor's feet is how you target one of them. See [Actor menu & tools](/dancexr/features/actor_tools).
+: A character model loaded into the scene. Actors come from PMX, XPS, or FBX files (FBX support is in preview since 2025.9). Each actor has its own motion, materials, physics, and behavior settings. Multiple actors can share a stage; the **selection disc** under each actor's feet is how you target one of them. See [Actor menu & tools](/dancexr/features/actor_tools).
 
 **Motion**
 : An animation that drives an actor's bones. Motions usually come from VMD or BVH files. Motions can also be procedural (generated at runtime) — see *Procedural motion* below.

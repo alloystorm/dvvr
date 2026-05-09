@@ -48,11 +48,6 @@ feature_sections:
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
         badge: PRO
         badge_type: pro
-      - title: 디스커버리 앱
-        link: /kr/dancexr/features/discovery
-        image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
-        badge: 2025.6
-        badge_type: new
   - title: 모델 지원
     light: true
     hub_url: /kr/dancexr/actors
@@ -492,11 +487,11 @@ feature_sections:
     subsections:
       - title: 참고
         tiles:
-          - title: "Concepts & Glossary"
+          - title: "## 개념 및 용어집"
             link: /kr/dancexr/concepts
-          - title: "Controls & UI"
+          - title: 컨트롤 및 UI
             link: /kr/dancexr/controls
-          - title: VR Operations
+          - title: VR 작업 (또는 VR 오퍼레이션)
             link: /kr/dancexr/vr_operations
       - title: 시스템
         tiles:

@@ -48,11 +48,6 @@ feature_sections:
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
         badge: PRO
         badge_type: pro
-      - title: ディスカバリーアプリ
-        link: /jp/dancexr/features/discovery
-        image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
-        badge: 2025.6
-        badge_type: new
   - title: モデルサポート
     light: true
     hub_url: /jp/dancexr/actors
@@ -492,11 +487,11 @@ feature_sections:
     subsections:
       - title: 参考
         tiles:
-          - title: "Concepts & Glossary"
+          - title: コンセプトと用語集
             link: /jp/dancexr/concepts
-          - title: "Controls & UI"
+          - title: 操作とUI
             link: /jp/dancexr/controls
-          - title: VR Operations
+          - title: VR操作 (または VRオペレーション)
             link: /jp/dancexr/vr_operations
       - title: システム
         tiles:

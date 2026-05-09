@@ -59,10 +59,11 @@ Use these when the user's wording does not match a topic title directly.
 | "What is X?" / unfamiliar term | `dancexr/concepts.md` first, then the linked feature page |
 | MMD, MikuMikuDance, PMX/PMD model loading | `dancexr/actors.md`, then `dancexr/features/loader_options.md` |
 | XPS, XNALara, generic XPS posing | `dancexr/actors.md` (PMX vs XPS section), `dancexr/features/bone_mapper.md`, `dancexr/features/xps_physics.md` |
+| FBX, .fbx model loading | `dancexr/actors.md` (FBX preview), `dancexr/features/bone_mapper.md` (FBX uses bone mapping; chain mapping mode is the fastest path) |
 | VMD or BVH motion files, "how do I play a dance" | `dancexr/motion.md`, then `dancexr/features/assign_motion.md` |
 | Model floats / sinks / clips through ground, foot sliding | `dancexr/features/feet_adjustment.md` |
 | Model is too small / too big / wrong position | `dancexr/features/scale_offset.md` |
-| Bones look broken, twisted neck, wrong skeleton on XPS | `dancexr/features/bone_mapper.md`, `dancexr/features/bones.md` |
+| Bones look broken, twisted neck, wrong skeleton on XPS or FBX | `dancexr/features/bone_mapper.md`, `dancexr/features/bones.md` |
 | Hair / skirt / chest / jiggle / breast / cloth not moving or jittering | `dancexr/physics.md` (start here), then `hair_physics.md`, `skirt_physics.md`, `boobs_physics.md`, `cloth_simulation.md` |
 | Crash, won't launch, missing files, install issue | `dancexr/troubleshooting.md`, `dancexr/faq.md` |
 | Per-model problem (specific model misbehaves) | `dancexr/features/troubleshooting.md` |
@@ -139,7 +140,7 @@ See the [Working with actors hub](dancexr/actors.md) for the actor lifecycle and
 | Actor Playlist | Queuing multiple actors to cycle through | `dancexr/features/actor_playlist.md` |
 | Formation | Positioning multiple actors in formation patterns (groups, lineups) | `dancexr/features/formation.md` |
 | ZIP Format | Loading models and motions directly from ZIP archives | `dancexr/features/zip_format.md` |
-| XPS Bone Mapper | Remapping XPS/XNALara bones to the standard skeleton | `dancexr/features/bone_mapper.md` |
+| Bone Mapper | Mapping XPS/XNALara and FBX bones to the standard skeleton; includes the new chain mapping mode | `dancexr/features/bone_mapper.md` |
 | Example Bone Structure | Reference bone hierarchy for PMX / XPS models | `dancexr/features/bones.md` |
 
 ---
