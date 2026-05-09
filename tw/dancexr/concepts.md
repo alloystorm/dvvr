@@ -1,6 +1,6 @@
 ---
 layout: release
-title: 概念與詞彙表
+title: 概念與術語表
 locale: zh-TW
 toc: true
 ---

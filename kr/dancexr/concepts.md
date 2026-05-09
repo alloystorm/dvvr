@@ -1,6 +1,6 @@
 ---
 layout: release
-title: # 개념 및 용어집
+title: 개념 및 용어집
 locale: ko-KR
 toc: true
 ---
