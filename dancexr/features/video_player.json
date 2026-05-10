@@ -1,0 +1,218 @@
+{
+  "name": "Video Player",
+  "docPath": "features/video_player",
+  "label": "Video Player",
+  "labels": {
+    "ja": "ビデオプレイヤー",
+    "zh-TW": "影片播放器",
+    "ko": "비디오 플레이어",
+    "zh-CN": "视频播放器"
+  },
+  "description": "Controls video playback, audio sync, and aspect ratio for the loaded video file.\r\n\r\n\r\n## Playback\r\n\r\n**Loop** restarts the video automatically when it ends. **Mute** silences the video's audio track — useful when playing video as a background layer and relying on the main audio mix instead.\r\n\r\n**Time Offset** shifts the playback timeline relative to the audio; use this to correct sync drift between video and music.\r\n\r\n\r\n## Display\r\n\r\n**Aspect Ratio** lets you match the video to the screen shape — choose from common cinema and broadcast ratios. **Fit Frame** scales the video to fit the screen while preserving aspect ratio, which may introduce letterboxing or pillarboxing depending on the mismatch.\r\n\r\n\r\n## Timing\r\n\r\nInherits timing configuration from *Base Timing* — sets BPM, beat offset, and phrase structure used to sync video-reactive effects.\r\n\r\n\r\n## Presets\r\n\r\n**Projector Scene Example** and **LED Screen Example** apply preconfigured ground and lighting settings optimized for a projector screen look and an LED wall look respectively.",
+  "descriptions": {
+    "ja": "(Controls video playback, audio sync, and aspect ratio for the loaded video file.\r\n\r\n\r\n## Playback\r\n\r\n**Loop** restarts the video automatically when it ends. **Mute** silences the video's audio track — useful when playing video as a background layer and relying on the main audio mix instead.\r\n\r\n**Time Offset** shifts the playback timeline relative to the audio; use this to correct sync drift between video and music.\r\n\r\n\r\n## Display\r\n\r\n**Aspect Ratio** lets you match the video to the screen shape — choose from common cinema and broadcast ratios. **Fit Frame** scales the video to fit the screen while preserving aspect ratio, which may introduce letterboxing or pillarboxing depending on the mismatch.\r\n\r\n\r\n## Timing\r\n\r\nInherits timing configuration from *Base Timing* — sets BPM, beat offset, and phrase structure used to sync video-reactive effects.\r\n\r\n\r\n## Presets\r\n\r\n**Projector Scene Example** and **LED Screen Example** apply preconfigured ground and lighting settings optimized for a projector screen look and an LED wall look respectively.)",
+    "zh-TW": "(Controls video playback, audio sync, and aspect ratio for the loaded video file.\r\n\r\n\r\n## Playback\r\n\r\n**Loop** restarts the video automatically when it ends. **Mute** silences the video's audio track — useful when playing video as a background layer and relying on the main audio mix instead.\r\n\r\n**Time Offset** shifts the playback timeline relative to the audio; use this to correct sync drift between video and music.\r\n\r\n\r\n## Display\r\n\r\n**Aspect Ratio** lets you match the video to the screen shape — choose from common cinema and broadcast ratios. **Fit Frame** scales the video to fit the screen while preserving aspect ratio, which may introduce letterboxing or pillarboxing depending on the mismatch.\r\n\r\n\r\n## Timing\r\n\r\nInherits timing configuration from *Base Timing* — sets BPM, beat offset, and phrase structure used to sync video-reactive effects.\r\n\r\n\r\n## Presets\r\n\r\n**Projector Scene Example** and **LED Screen Example** apply preconfigured ground and lighting settings optimized for a projector screen look and an LED wall look respectively.)",
+    "ko": "(Controls video playback, audio sync, and aspect ratio for the loaded video file.\r\n\r\n\r\n## Playback\r\n\r\n**Loop** restarts the video automatically when it ends. **Mute** silences the video's audio track — useful when playing video as a background layer and relying on the main audio mix instead.\r\n\r\n**Time Offset** shifts the playback timeline relative to the audio; use this to correct sync drift between video and music.\r\n\r\n\r\n## Display\r\n\r\n**Aspect Ratio** lets you match the video to the screen shape — choose from common cinema and broadcast ratios. **Fit Frame** scales the video to fit the screen while preserving aspect ratio, which may introduce letterboxing or pillarboxing depending on the mismatch.\r\n\r\n\r\n## Timing\r\n\r\nInherits timing configuration from *Base Timing* — sets BPM, beat offset, and phrase structure used to sync video-reactive effects.\r\n\r\n\r\n## Presets\r\n\r\n**Projector Scene Example** and **LED Screen Example** apply preconfigured ground and lighting settings optimized for a projector screen look and an LED wall look respectively.)",
+    "zh-CN": "(Controls video playback, audio sync, and aspect ratio for the loaded video file.\r\n\r\n\r\n## Playback\r\n\r\n**Loop** restarts the video automatically when it ends. **Mute** silences the video's audio track — useful when playing video as a background layer and relying on the main audio mix instead.\r\n\r\n**Time Offset** shifts the playback timeline relative to the audio; use this to correct sync drift between video and music.\r\n\r\n\r\n## Display\r\n\r\n**Aspect Ratio** lets you match the video to the screen shape — choose from common cinema and broadcast ratios. **Fit Frame** scales the video to fit the screen while preserving aspect ratio, which may introduce letterboxing or pillarboxing depending on the mismatch.\r\n\r\n\r\n## Timing\r\n\r\nInherits timing configuration from *Base Timing* — sets BPM, beat offset, and phrase structure used to sync video-reactive effects.\r\n\r\n\r\n## Presets\r\n\r\n**Projector Scene Example** and **LED Screen Example** apply preconfigured ground and lighting settings optimized for a projector screen look and an LED wall look respectively.)"
+  },
+  "values": [
+    {
+      "name": "Loop",
+      "type": "bool",
+      "label": "Loop",
+      "labels": {
+        "ja": "ループ",
+        "zh-TW": "循環",
+        "ko": "반복",
+        "zh-CN": "循环"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Mute",
+      "type": "bool",
+      "label": "Mute",
+      "labels": {
+        "ja": "消音",
+        "zh-TW": "靜音",
+        "ko": "음소거",
+        "zh-CN": "静音"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Time Offset",
+      "type": "float",
+      "label": "Time Offset",
+      "labels": {
+        "ja": "時間オフセット",
+        "zh-TW": "時間偏移",
+        "ko": "시간 오프셋",
+        "zh-CN": "时间偏移"
+      },
+      "default": 0,
+      "min": null,
+      "max": null,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Aspect Ratio",
+      "type": "options",
+      "label": "Aspect Ratio",
+      "labels": {
+        "ja": "アスペクト比",
+        "zh-TW": "縱橫比",
+        "ko": "종횡비",
+        "zh-CN": "宽高比"
+      },
+      "default": "16:9",
+      "min": 0,
+      "max": 9,
+      "options": ["1:1", "4:3", "14:9", "16:10", "16:9", "1.85:1", "2:1", "2.35:1", "2.39:1", "2.4:1"],
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Offset",
+      "type": "float",
+      "label": "Offset",
+      "labels": {
+        "ja": "オフセット",
+        "zh-TW": "偏移",
+        "ko": "오프셋",
+        "zh-CN": "偏移量"
+      },
+      "default": 0,
+      "min": null,
+      "max": null,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "BPM",
+      "type": "float",
+      "label": "BPM",
+      "labels": {
+        "ja": "BPM",
+        "zh-TW": "BPM",
+        "ko": "BPM",
+        "zh-CN": "BPM（每分钟节拍）"
+      },
+      "default": 120,
+      "min": 1,
+      "max": 240,
+      "options": null,
+      "description": "Beats per minute",
+      "descriptions": {
+        "ja": "1分あたりのビート数",
+        "zh-TW": "每分鐘節拍",
+        "ko": "분당 비트 수",
+        "zh-CN": "每分钟节拍数"
+      }
+    },
+    {
+      "name": "Beat Offset",
+      "type": "float",
+      "label": "Beat Offset",
+      "labels": {
+        "ja": "ビートオフセット",
+        "zh-TW": "節拍偏移",
+        "ko": "비트 오프셋",
+        "zh-CN": "节拍偏移"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Beats Per Phrase",
+      "type": "int",
+      "label": "Beats Per Phrase",
+      "labels": {
+        "ja": "フレーズあたりのビート数",
+        "zh-TW": "樂句拍數",
+        "ko": "구절당 비트 수",
+        "zh-CN": "乐句节拍数"
+      },
+      "default": 8,
+      "min": 4,
+      "max": 64,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Phrase Begin",
+      "type": "int",
+      "label": "Phrase Begin",
+      "labels": {
+        "ja": "フレーズ開始",
+        "zh-TW": "樂句開始",
+        "ko": "구절 시작",
+        "zh-CN": "乐句开始"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 32,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    }
+  ]
+}

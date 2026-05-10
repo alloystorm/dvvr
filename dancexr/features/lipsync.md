@@ -7,8 +7,6 @@ toc: true
 
 # LipSync
 
-<!-- TODO: confirm against current build. Drafted from the 2024.9 release notes. May overlap with content already in facial_control.md — fold one into the other if appropriate. -->
-
 LipSync drives an actor's mouth shapes from an audio signal in real time, so characters appear to speak or sing along with whatever audio is playing. Unlike the older lip-sync that lived inside [AI Voice Chat](ai_chat), this system is **available on all platforms**, including Android and Quest.
 
 Added in **2024.9**.
