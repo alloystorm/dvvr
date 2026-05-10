@@ -225,7 +225,7 @@ See the [Physics system hub](dancexr/physics.md) for the rig family map and "wha
 | PMX Physics | Built-in PMX rigid-body and joint physics | `dancexr/features/pmx_physics.md` |
 | Cloth Simulation | Unity cloth simulation for garments | `dancexr/features/cloth_simulation.md` |
 | Mesh To Cloth | Converting a mesh to a simulated cloth object | `dancexr/features/mesh_to_cloth.md` |
-| Particle Dynamics | Particle-based secondary motion effects | `dancexr/features/particle_dynamics.md` |
+| Particle Dynamics | XPBD Physics | `dancexr/features/particle_dynamics.md` |
 | Softbody Physics | Volumetric softbody deformation | `dancexr/features/softbody_physics.md` |
 | Ragdoll | Physics-driven ragdoll on actors | `dancexr/features/ragdoll.md` |
 | System Physics | Engine-level physics configuration | `dancexr/features/system_physics.md` |
@@ -236,7 +236,6 @@ See the [Physics system hub](dancexr/physics.md) for the rig family map and "wha
 | Skirt Physics | Skirt and hem physics simulation | `dancexr/features/skirt_physics.md` |
 | Boobs Physics | Breast / chest / bust jiggle physics | `dancexr/features/boobs_physics.md` |
 | Detach Object | Detaching bones or objects with physics | `dancexr/features/detach_object.md` |
-| Secondary Motion | Procedural secondary motion layering | `dancexr/features/secondary_motion.md` |
 
 ---
 
@@ -251,6 +250,7 @@ See the [Motion system hub](dancexr/motion.md) for sources, settings hierarchy, 
 | Actor Motion Settings | Per-actor motion adjustments | `dancexr/features/motion_settings.md` |
 | Playback Options | Speed, loop, and playback control | `dancexr/features/playback_options.md` |
 | Assigning Motion | How to assign a motion file to an actor | `dancexr/features/assign_motion.md` |
+| Secondary Motion | Assign a secondary motion file to an actor | `dancexr/features/secondary_motion.md` |
 | Pose Files (.pose / .vpd) | Loading static `.pose` and `.vpd` files; auto-generated motion sequences from a folder of poses with transition motion and anchoring | `dancexr/features/pose_files.md` |
 | VMD2PNG | Loading motion data from `.png` files produced by the [VMD2PNG](https://github.com/alloystorm/vmd2png) tool | `dancexr/features/vmd2png.md` |
 | Dance Set | Grouping motions, music, and stages into a set | `dancexr/features/dance_set.md` |

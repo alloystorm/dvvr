@@ -305,9 +305,6 @@ feature_sections:
             image: /images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp
             badge: PRO
             badge_type: pro
-          - title: Secondary Motion
-            link: /dancexr/features/secondary_motion
-            image: /images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp
       - title: Character Behavior
         tiles:
           - title: Blink, Breathing and Eye Contact
@@ -358,6 +355,9 @@ feature_sections:
           - title: Assigning Motion
             link: /dancexr/features/assign_motion
             image: /images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp
+          - title: Secondary Motion
+            link: /dancexr/features/secondary_motion
+            image: /images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp
           - title: Pose Files (.pose / .vpd)
             link: /dancexr/features/pose_files
             badge: 2024.6

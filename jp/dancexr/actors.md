@@ -47,7 +47,7 @@ DanceXRは、以下の3種類のモデル形式を読み込みます。
 | トピック | PMX | XPS | FBX (プレビュー) |
 |---|---|---|---|
 | スケルトン | ファイルからの標準ボーン名 | [XPSボーンマッパー](features/bone_mapper)経由でマッピング | [ボーンマッパー](features/bone_mapper)経由でマッピング |
-| 物理リグ | ファイルに組み込まれている（[PMX物理](features/pmx_physics)） | [XPS物理](features/xps_physics)で設定 | [XPS物理](features/xps_physics)で設定 |
+| 物理リグ | ファイルに組み込まれている（[PMX物理](features/pmx_physics)） | XPS物理で設定 | XPS物理で設定 |
 | モーフ / ブレンドシェイプ | [モーフリスト](features/morph_list) | なし — 代わりに[ドレスアップシステム](features/optionals)を使用 | なし |
 | 衣装切り替え | マテリアルモーフ（PMX） | オプショナルアイテム（XPS） — UIは同じ（[ドレスアップシステム](features/optionals)） | なし |
 

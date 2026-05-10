@@ -47,7 +47,7 @@ DanceXR 會讀取三種模型格式：
 | 主題 | PMX | XPS | FBX (預覽版) |
 |---|---|---|---|
 | 骨骼 | 檔案中的標準骨骼名稱 | 透過 [骨骼映射器](features/bone_mapper) 映射 | 透過 [骨骼映射器](features/bone_mapper) 映射 |
-| 物理綁定 | 建置在檔案內（[PMX 物理](features/pmx_physics)） | 在 [XPS 物理](features/xps_physics) 中設定 | 在 [XPS 物理](features/xps_physics) 中設定 |
+| 物理綁定 | 建置在檔案內（[PMX 物理](features/pmx_physics)） | 物理設定 | XPS 物理設定 |
 | 形態 / 混合形狀 | [形態列表](features/morph_list) | 無 — 請改用 [裝扮系統](features/optionals) | 無 |
 | 服裝切換 | 材質形態（PMX） | 選用物品（XPS）— 使用相同 UI ([裝扮系統](features/optionals)) | 無 |
 

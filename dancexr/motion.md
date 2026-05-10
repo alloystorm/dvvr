@@ -23,7 +23,7 @@ There are five places motion can come from:
 4. **Keyframe animation** — manually authored poses in DanceXR.
 5. **Remix** — using motion data from one dance set with audio from another.
 
-You can mix these. A typical scene plays a VMD-driven dance with a procedural [secondary motion](features/secondary_motion) layer on top, plus [eye contact](features/eyecontact) and breathing handled by their own systems.
+You can mix these. A typical scene plays a VMD-driven dance with a [secondary motion](features/secondary_motion) layer on top, plus [eye contact](features/eyecontact) and breathing handled by their own systems.
 
 ---
 
@@ -60,6 +60,8 @@ Motion settings live at three levels. When the same parameter exists at multiple
 
 [Assigning motion](features/assign_motion) covers the actual mechanics: drag-drop a VMD onto the window, click *Assign To* in the audio/motion menu, or open the actor menu and pick from already-loaded motions.
 
+[Secondary motion](features/secondary_motion) — a secondary motion file that layers on top of the main motion — is assigned separately in the actor menu.
+
 Order matters when you have multiple actors. **Move Up / Move Down** in the actor [Tools menu](features/actor_tools#tools-menu) reorders actors, which changes which motion in the dance set they get when auto-assigned.
 
 [Spectator mode](features/spectator_mode) excludes an actor from auto-assignment.
@@ -72,7 +74,6 @@ When you want to combine or modify motions, four pages do related things — pic
 
 | Want | Use |
 |---|---|
-| Two motions playing on the same actor at once (e.g. a dance plus a hand wave) | [Motion passes](features/motion_passes) |
 | Replace specific bones in a motion (fix arm clipping, swap face) | [Motion override](features/motion_override) |
 | Author or modify the bone-following relationships PMX inherit-bones use | [Custom inherit motion](features/custom_inherit) |
 | Pair motion from one dance set with audio from another | [Remix motion](features/remix) |
@@ -89,7 +90,6 @@ Generated at runtime, no source VMD needed:
 - [Catwalk motion](features/catwalk) — procedural walk cycle.
 - [Auto Dance 1](features/autodance), [Auto Dance 2](features/autodance2), [Auto Dance 3](features/autodance3) — procedural dance generators. Use **Auto Dance 3** unless you have a reason to pick an earlier generation; it has rhythm analysis and the strongest variation.
 - [Lifelike motions](features/lifelike_motions) — micro-motions that make a paused or idle actor feel alive.
-- [Secondary motion](features/secondary_motion) — procedural layer that runs on top of any motion (sway, breath, follow-through).
 - [Keyframe animation](features/keyframe_animation) — author your own poses with manual keyframes.
 
 [Idle motion](features/idle_motion), [Auto Dance](features/autodance), [Auto Dance 2](features/autodance2), and [Motion override](features/motion_override) all expose [gizmo cubes](controls#gizmo-cubes) for direct posing.

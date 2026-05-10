@@ -39,7 +39,7 @@ DanceXR includes a full simulation stack running in real time:
 
 - **Cloth simulation** — Stable, parallel-threaded cloth physics with tearing, dragging, and mesh-to-cloth conversion
 - **Hair, skirt, and soft body physics** — Per-model configuration for XPS and PMX models
-- **Particle dynamics** — Flowing hair, fabric, and secondary motion that reacts to animation
+- **Particle dynamics** — Flowing hair, fabric, and soft bodies with the XPBD particle-based physics engine
 
 ---
 

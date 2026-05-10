@@ -108,7 +108,7 @@ A short reference for the terms used throughout DanceXR docs. If a page uses a w
 ## Motion concepts
 
 **Procedural motion**
-: Motion generated at runtime instead of read from a file. Includes [Idle motion](features/idle_motion), [Catwalk](features/catwalk), [Auto Dance 1/2/3](features/autodance3), [Lifelike motions](features/lifelike_motions), and the procedural [secondary motion](features/secondary_motion) layer.
+: Motion generated at runtime instead of read from a file. Includes [Idle motion](features/idle_motion), [Catwalk](features/catwalk), [Auto Dance 1/2/3](features/autodance3), [Lifelike motions](features/lifelike_motions), and the [secondary motion](features/secondary_motion) layer.
 
 **Motion pass**
 : A layer of motion stacked on top of another. Lets you play one motion as the base and override specific bones with another. See [Motion passes](features/motion_passes).

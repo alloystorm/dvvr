@@ -27,23 +27,6 @@ Use it for:
 
 ---
 
-## Settings
-
-<!-- TODO: confirm exact slider names. Likely candidates:
-- Walk speed
-- Stride length
-- Hip sway intensity
-- Arm swing intensity
-- Direction / target -->
-
----
-
-## Pairing with other motions
-
-Catwalk works well as a **secondary motion** layered under a face / facial-expression track ([Secondary Motion](secondary_motion), [Motion Passes](motion_passes)). Foot-on-floor adjustments from [Feet Adjustment](feet_adjustment) are recommended so the procedural footfalls plant correctly.
-
----
-
 ## Related pages
 
 - [Idle Motion](idle_motion)

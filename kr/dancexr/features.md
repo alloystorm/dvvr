@@ -99,7 +99,7 @@ feature_sections:
             image: /images/slideshows/physics/921e8f56935161e0e14e15d1dd0addb866f2b735.jpg
       - title: 캐릭터 도구
         tiles:
-          - title: 배우 메뉴 및 도구
+          - title: 액터 메뉴 및 도구
             link: /kr/dancexr/features/actor_tools
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
           - title: 전역 액터 컨트롤
@@ -305,9 +305,6 @@ feature_sections:
             image: /images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 보조 동작
-            link: /kr/dancexr/features/secondary_motion
-            image: /images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp
       - title: 캐릭터 행동
         tiles:
           - title: 깜빡임, 숨쉬기 및 눈동자 접촉
@@ -358,6 +355,9 @@ feature_sections:
           - title: 동작 할당
             link: /kr/dancexr/features/assign_motion
             image: /images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp
+          - title: 보조 동작
+            link: /kr/dancexr/features/secondary_motion
+            image: /images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp
           - title: 포즈 파일（.pose / .vpd）
             link: /kr/dancexr/features/pose_files
             badge: 2024.6

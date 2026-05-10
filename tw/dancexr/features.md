@@ -99,7 +99,7 @@ feature_sections:
             image: /images/slideshows/physics/921e8f56935161e0e14e15d1dd0addb866f2b735.jpg
       - title: 角色工具
         tiles:
-          - title: 演員選單和工具
+          - title: 角色選單與工具
             link: /tw/dancexr/features/actor_tools
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
           - title: 全域演員控制
@@ -270,7 +270,7 @@ feature_sections:
             image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: Softbody 物理學
+          - title: "# 軟體物理學"
             link: /tw/dancexr/features/softbody_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
             badge: PRO
@@ -305,9 +305,6 @@ feature_sections:
             image: /images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 次要動作
-            link: /tw/dancexr/features/secondary_motion
-            image: /images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp
       - title: 角色行為
         tiles:
           - title: 眨眼、呼吸和眼神交流
@@ -358,6 +355,9 @@ feature_sections:
           - title: 分配動作
             link: /tw/dancexr/features/assign_motion
             image: /images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp
+          - title: 次要動作
+            link: /tw/dancexr/features/secondary_motion
+            image: /images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp
           - title: 姿勢檔案（.pose / .vpd）
             link: /tw/dancexr/features/pose_files
             badge: 2024.6
