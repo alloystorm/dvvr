@@ -971,6 +971,13 @@
             },
             {
               "path": "features/system_physics",
+              "title": "System Physics",
+              "title_locales": {
+                "jp": "システム物理",
+                "zh": "系统物理",
+                "tw": "系統物理",
+                "kr": "시스템 물리"
+              },
               "badge": "2026.1",
               "badge_type": "new",
               "image": "/images/slideshows/physics/6b29c53917daff568a9ee75cfa0d62b6b4cadf79.jpg"

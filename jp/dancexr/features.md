@@ -509,7 +509,7 @@ feature_sections:
           - title: 言語
             link: /jp/dancexr/features/languages
             image: /images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp
-          - title: システム・フィジックス
+          - title: システム物理
             link: /jp/dancexr/features/system_physics
             image: /images/slideshows/physics/6b29c53917daff568a9ee75cfa0d62b6b4cadf79.jpg
             badge: 2026.1
