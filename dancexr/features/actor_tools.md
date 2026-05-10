@@ -82,6 +82,5 @@ The following are links to the detailed documentation for each of the settings.
     * [Sex Overlay](smo_config){: .nsfw}
     * [Dildo](dildo){: .nsfw}
     * Light Ball
-    * [XPS Physics (XPS Only)](xps_physics)
 * Morph List (PMX Only)
 
