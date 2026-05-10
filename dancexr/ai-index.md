@@ -248,7 +248,7 @@ See the [Motion system hub](dancexr/motion.md) for sources, settings hierarchy, 
 |---|---|---|
 | Motion hub | Five sources, three-level settings hierarchy, layering vs override decision table | `dancexr/motion.md` |
 | Motion Settings | General motion playback preferences (VMD/BVH) | `dancexr/features/motion_settings.md` |
-| Actor Motion Settings | Per-actor motion adjustments | `dancexr/features/actor_motion_settings.md` |
+| Actor Motion Settings | Per-actor motion adjustments | `dancexr/features/motion_settings.md` |
 | Playback Options | Speed, loop, and playback control | `dancexr/features/playback_options.md` |
 | Assigning Motion | How to assign a motion file to an actor | `dancexr/features/assign_motion.md` |
 | Pose Files (.pose / .vpd) | Loading static `.pose` and `.vpd` files; auto-generated motion sequences from a folder of poses with transition motion and anchoring | `dancexr/features/pose_files.md` |

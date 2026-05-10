@@ -1,42 +1,60 @@
 ---
-layout: release
-title: 비트 링
+layout: feature
+title: Audio Visualizer: 오디오 시각화기
 locale: ko-KR
 ---
 
-# 비트 링
+# 오디오 비주얼라이저
 
-<!-- TODO: full description. The Beats Ring is referenced as a tile on /dancexr/features under Stage & Props but no other page describes it. Likely an audio-reactive visualizer ring; confirm and fill in. -->
+오디오 스펙트럼 데이터를 청크 평면(ground plane)에 링 오버레이 형태로 시각화하며, 비트에 반응하여 실시간으로 변화합니다.
 
-비트 링은 음악에 맞춰 맥동하는 오디오 반응형 비주얼라이저 프로프입니다. 이는 [auto-update](autoupdate) 데이터 소스 중 하나로, 다른 설정들이 이 출력을 통해 자체적으로 구동될 수 있음을 의미합니다.
+## 레이아웃
 
----
+*가로(Horizontal)*, *세로(Vertical)*, *원형(Circle)* 레이아웃 중에서 선택합니다. *원형*은 비주얼라이저를 공연자 주변으로 감싸기 때문에 둥근 무대에 가장 적합합니다. *가로* 또는 *세로* 모드에서는 비주얼라이저가 한 방향으로 바닥을 따라 확장됩니다.
 
-## 작동 방식
+## 링 설정
 
-<!-- TODO: confirm shape (ring? particles? geometry?), where it is rendered (around the actor? on the stage?), how it scales with audio. -->
+**크기(Size)**는 전체 시각화 영역의 크기를 조정합니다. **깊이(Depth)**는 시각화가 중심에서 얼마나 멀리 확장되는지를 제어합니다. **링 크기(Ring Size)**는 각 링의 두께를 조절합니다. **데이터 스케일(Data Scale)**은 오디오 진폭을 곱하는 값으로, 약한 신호를 증폭하거나 강한 신호를 감쇠시킬 수 있습니다. **색상 전환(Color Transition)**은 링들 사이의 색상이 얼마나 부드럽게 블렌딩되는지를 제어하며, 낮은 값은 선명하고 분리된 밴드를 생성합니다.
 
-비트 링은 현재의 오디오 신호를 가져와 비트 구동 값을 생성하며, 이 값은 다음 용도로 사용될 수 있습니다:
+**모양 변화(Shape Shift)**는 시간이 지남에 따라 링 모양을 왜곡하여 유기적인 움직임을 만들고, **간격(Gap)**은 인접한 링 사이의 간격을 설정합니다. **정렬(Align)**은 링들을 시작 지점에 상대적으로 오프셋(offset)하여, 무대 지오메트리와의 정렬을 세밀하게 조정할 때 유용합니다.
 
-- 액터 또는 무대 주변에 보이는 링 또는 맥동 효과를 렌더링합니다.
-- 음악에 맞춰 다른 auto-update 매개변수(조명 강도, 재질 매개변수, 동작 속도)를 구동합니다.
+## 링 색상
 
----
+링 색상은 기본 색상에 *Glow* 강도를 사용하여, 비트에 따라 맥동할 수 있습니다. 사전 설정에는 *애니메이션 색상(Animated Hue)* (스펙트럼을 느리게 순환)과 *Glow w/ Music* (음악에 동기화된 광원 효과로, 강한 비트를 강조하는 데 유용)가 있습니다.
 
-## 활성화하기
+## 배경
 
-<!-- TODO: confirm the menu path. Likely under environment menu or a per-actor setting. -->
+선택 사항인 배경 레이어가 링 뒤에 자체 색상과 함께 위치합니다. 텍스처 이미지를 적용할 수 있으며, *Background Vibration*을 사용하면 오디오에 맞춰 반짝이며 반응형 텍스처 효과를 만듭니다. 배경은 *투명(Transparent)*이 비활성화된 경우에만 보입니다.
 
----
+## 전경
 
-## 설정
+전경 레이어는 링 위에 렌더링되며 독립적인 색상 및 텍스처 제어를 가집니다. *전경 스케일(Foreground Scale)*은 전경 텍스처를 확대하고; *Foreground Vibration*은 오디오에 반응하는 반짝임을 추가합니다. 전경의 색상은 링 색상과 곱해지므로, 밝은 전경에서 시작하여 링 색상으로 색조를 입히는 것이 좋습니다. 전경은 항상 보이며 아래의 링과 블렌딩됩니다.
 
-<!-- TODO: list. Possibly: visibility, color, scale, sensitivity threshold, smoothing. -->
+## 비트 클럭
 
----
+*비트 클럭(Beat Clock)*이 활성화되면, 링은 순수 오디오 진폭이 아닌 감지된 BPM에 맞춰 맥동하여, 일정한 템포의 트랙에서 더 깨끗하고 리듬감 있는 애니메이션을 생성합니다. *자동 BPM(Auto BPM)*은 설정된 BPM에서 실시간 감지된 템포로 전환됩니다.
 
-## 관련 페이지
+## 투명도
 
-- [Auto update](autoupdate) — 다른 설정을 위한 데이터 소스로 비트 링 사용
-- [Music timing](music_timing) — 음악에 동작을 동기화
-- [Audio options](audio_options)
+*투명(Transparent)*을 활성화하면 배경 채움이 제거되어, 어두운 무대에 적합한 미니멀한 모습으로 링과 광원만을 유지합니다. 그림자 효과는 이 설정과 관계없이 계속 활성화됩니다.
+
+# 하위 구성 요소
+
+## 오디오 비주얼라이저
+
+링 시각화 레이아웃, 색상, 텍스처, 오디오 반응형 설정을 담고 있습니다.
+
+### 링 색상
+
+오디오 반응형 요소를 위한 기본 색상과 광원 강도를 가집니다.
+광원은 색상과 곱해지며, 자동 업데이트가 활성화되면 비트에 맞춰 애니메이션됩니다.
+
+### 배경 색상
+
+오디오 반응형 요소를 위한 기본 색상과 광원 강도를 가집니다.
+광원은 색상과 곱해지며, 자동 업데이트가 활성화되면 비트에 맞춰 애니메이션됩니다.
+
+### 전경 색상
+
+오디오 반응형 요소를 위한 기본 색상과 광원 강도를 가집니다.
+광원은 색상과 곱해지며, 자동 업데이트가 활성화되면 비트에 맞춰 애니메이션됩니다.

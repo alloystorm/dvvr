@@ -1,6 +1,6 @@
 ---
 layout: release
-title: 常见问题解答
+title: 常见问题
 locale: zh-CN
 ---
 

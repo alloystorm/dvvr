@@ -1,42 +1,68 @@
 ---
-layout: release
-title: ビーツリング
+layout: feature
+title: Audio Visualizer：音声の波形や周波数を視覚化するための、DanceXRに組み込まれたツール
 locale: ja-JP
 ---
 
-# ビーツリング
+# Audio Visualizer
 
-<!-- TODO: full description. The Beats Ring is referenced as a tile on /dancexr/features under Stage & Props but no other page describes it. Likely an audio-reactive visualizer ring; confirm and fill in. -->
+地面の平面にリングのオーバーレイとしてオーディオスペクトルデータを可視化し、ビートにリアルタイムで反応します。
 
-ビーツリングは、音楽に合わせて脈動する、オーディオリアクティブなビジュアライザープロップです。これは[auto-update](autoupdate) データソースの一つであり、他の設定がその出力を利用して自動的に動く（駆動できる）ことを意味します。
 
----
+## レイアウト
 
-## 何をするか
+*Horizontal*（水平）、*Vertical*（垂直）、*Circle*（円形）のいずれかを選択します。*Circle*はビジュアライゼーションをパフォーマーの周りに巻きつけるため、円形のステージで最適です。*Horizontal*または*Vertical*モードでは、ビジュアライゼーションが一方の方向に沿って床に伸びます。
 
-<!-- TODO: confirm shape (ring? particles? geometry?), where it is rendered (around the actor? on the stage?), how it scales with audio. -->
 
-ビーツリングは現在のオーディオ信号を受け取り、ビートを駆動する値を生成し、これを使用して以下のことが可能です。
+## リング設定
 
-- アクターまたはステージの周りに可視のリングまたはパルスエフェクトをレンダリングする。
-- 他のauto-updateパラメータ（ライティングの強度、マテリアルパラメータ、モーション速度）を音楽と同期して駆動する。
+**Size**は全体的なビジュアライゼーションエリアをスケーリングします。**Depth**はビジュアライゼーションが中心からどれだけ遠くまで広がるかを制御します。**Ring Size**は各リングの厚さを調整します。**Data Scale**はオーディオ振幅を乗算します。弱信号を増幅したり、強い信号を抑えたりできます。**Color Transition**はリング間で色がどれだけスムーズにブレンドするかを制御します。値が低いほど、はっきりと分離した帯状になります。
 
----
+**Shape Shift**は時間経過とともにリングの形状を歪ませ、有機的な動きを作り出します。一方、**Gap**は隣接するリング間の間隔を設定します。**Align**はリングを始点に対してオフセットします。これは、ステージのジオメトリに合わせて配置を微調整するのに役立ちます。
 
-## 有効化
 
-<!-- TODO: confirm the menu path. Likely under environment menu or a per-actor setting. -->
+## リングカラー
 
----
+リングの色は、ベースカラーと、ビートに合わせて脈動する可能性のある*Glow*強度を使用します。プリセットには、*Animated Hue*（スペクトラムをゆっくり循環）と*Glow w/ Music*（音楽に同期したグロー。強いビートでの強調に役立ちます）があります。
 
-## 設定
 
-<!-- TODO: list. Possibly: visibility, color, scale, sensitivity threshold, smoothing. -->
+## 背景
 
----
+オプションの背景レイヤーがリングの背後に配置され、独自の色を持ちます。テクスチャ画像を適用できます。*Background Vibration*はオーディオによってきらめきを加え、反応的なテクスチャ効果を生み出します。背景は、*Transparent*が無効になっている場合にのみ表示されます。
 
-## 関連ページ
 
-- [Auto update](autoupdate) — ビーツリングを他の設定のデータソースとして使用する
-- [Music timing](music_timing) — 音楽へのモーション同期
-- [Audio options](audio_options)
+## フォアグラウンド
+
+フォアグラウンドレイヤーはリングの上に描画され、独立した色とテクスチャ制御が可能です。*Foreground Scale*はフォアグラウンドテクスチャをズームします。*Foreground Vibration*はオーディオ反応的なきらめきを加えます。フォアグラウンドの色はリングの色によって乗算されるため、明るいフォアグラウンドから始め、リングの色で色調を調整することをお勧めします。フォアグラウンドは常に表示され、下のリングとブレンドします。
+
+
+## ビートクロック
+
+*Beat Clock*を有効にすると、リングは生のエンドオシロスコープ振幅ではなく、検出されたBPMに同期して脈動します。これにより、テンポが一定のトラックで、よりクリーンでリズム的なアニメーションが生成されます。*Auto BPM*は、設定されたBPMからリアルタイムで検出されたテンポに切り替わります。
+
+
+## 透明度
+
+*Transparent*を有効にすると、背景の塗りつぶしが削除され、暗いステージに適した最小限のルックとなり、リングとそのグローのみが残ります。シャドウ効果はこの設定に関係なくアクティブなままです。
+
+
+# サブコンポーネント
+
+## Audio Visualizer
+
+リングのビジュアライゼーションレイアウト、色、テクスチャ、およびオーディオ反応設定を保持します。
+
+### Ring Color
+
+オーディオ反応要素のベースカラーとグロー強度を保持します。
+グローは色と乗算され、auto-updateが有効な場合にビートに合わせてアニメーションします。
+
+### Background Color
+
+オーディオ反応要素のベースカラーとグロー強度を保持します。
+グローは色と乗算され、auto-updateが有効な場合にビートに合わせてアニメーションします。
+
+### Foreground Color
+
+オーディオ反応要素のベースカラーとグロー強度を保持します。
+グローは色と乗算され、auto-updateが有効な場合にビートに合わせてアニメーションします。

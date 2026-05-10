@@ -19,7 +19,7 @@ toc: true
 
 一个典型的角色预设捕获了：
 
-- 角色动作 [运动设置](actor_motion_settings)
+- 角色动作 [运动设置](motion_settings)
 - [服装系统](optionals) 状态（可见/隐藏物品）
 - 每个插槽的 [材质设置](material_settings)
 - [物理](physics) 配置（PMX 或 XPS，包括 [头发](hair_physics)、[裙子](skirt_physics)、[乳房](boobs_physics)、[身体碰撞体](body_colliders)）

@@ -325,7 +325,7 @@ feature_sections:
             link: /dancexr/features/lifelike_motions
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
           - title: Actor Motion Settings
-            link: /dancexr/features/actor_motion_settings
+            link: /dancexr/features/motion_settings
             image: /images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp
       - title: "Audio & Video"
         tiles:

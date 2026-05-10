@@ -49,7 +49,7 @@ DanceXR 中的动作来源于多个源头，并在多个层级进行配置，它
 | 级别 | 页面 | 范围 |
 |---|---|---|
 | 系统 | [动作设置](features/motion_settings) | 场景中每个动作的默认值 |
-| 角色级 | [角色动作设置](features/actor_motion_settings) | 覆盖单个角色的动作设置 |
+| 角色级 | [角色动作设置](features/motion_settings) | 覆盖单个角色的动作设置 |
 | 动作级 | [舞步包](features/dance_set) 内 | 舞步包内的每动作微调 |
 
 [播放选项](features/playback_options) — 速度、循环模式、范围 — 应用于播放级别（即整个音频/动作时间线）。

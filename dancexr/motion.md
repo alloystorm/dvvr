@@ -49,7 +49,7 @@ Motion settings live at three levels. When the same parameter exists at multiple
 | Level | Page | Scope |
 |---|---|---|
 | System | [Motion settings](features/motion_settings) | Defaults for every motion in the scene |
-| Per-actor | [Actor motion settings](features/actor_motion_settings) | Overrides for one actor's motion |
+| Per-actor | [Actor motion settings](features/motion_settings) | Overrides for one actor's motion |
 | Per-motion | inside [Dance set](features/dance_set) | Per-motion tuning within the set |
 
 [Playback options](features/playback_options) — speed, loop mode, range — applies at the playback level (the audio/motion timeline as a whole).

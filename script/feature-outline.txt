@@ -78,7 +78,7 @@
     - Secondary Motion  features/secondary_motion  (28L)
   [Character Behavior]
     - Blink, Breathing and Eye Contact  features/eyecontact  (40L)
-    - Actor Motion Settings  features/actor_motion_settings  (19L)
+    - Actor Motion Settings  features/motion_settings  (19L)
   [Audio & Video]
     - Audio Options  features/audio_options  (19L)
     - Video Playback  features/video_playback  (44L)

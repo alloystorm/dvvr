@@ -1,42 +1,60 @@
 ---
-layout: release
-title: 節拍環
+layout: feature
+title: 音訊視覺化器
 locale: zh-TW
 ---
 
-# 節拍光環
+# 音訊視覺化儀
 
-<!-- TODO: full description. The Beats Ring is referenced as a tile on /dancexr/features under Stage & Props but no other page describes it. Likely an audio-reactive visualizer ring; confirm and fill in. -->
+將音訊頻譜資料以環狀覆蓋物（ring overlays）呈現於地面平面，並實時根據節拍進行反應。
 
-「節拍光環」是一個會隨著音樂脈動的音訊反應式視覺化道具。它是 [auto-update](autoupdate) 的資料來源之一，這意味著其他設定可以根據其輸出自動驅動。
+## 佈局
 
----
+可從 *水平*、*垂直* 或 *圓形* 佈局中選擇。*圓形* 將視覺化環繞表演者，最適合使用圓形舞台。在 *水平* 或 *垂直* 模式下，視覺化效果將沿著單一方向延伸於地板上。
 
-## 作用
+## 環狀設定
 
-<!-- TODO: confirm shape (ring? particles? geometry?), where it is rendered (around the actor? on the stage?), how it scales with audio. -->
+**大小**（Size）縮放整體視覺化區域。**深度**（Depth）控制視覺化延伸的距離。**環狀大小**（Ring Size）調整每個環的厚度。**資料縮放**（Data Scale）會乘數化音訊振幅——放大微弱的訊號或減弱強烈的訊號。**顏色漸變**（Color Transition）控制環之間顏色的平滑混合程度；數值越低，產生的波段越清晰、越分明。
 
-「節拍光環」接收當前的音訊訊號，產生一個由節拍驅動的值，可用於：
+**形狀變換**（Shape Shift）會隨著時間扭曲環形狀以創造有機的動感，而 **間隙**（Gap）則設定了相鄰環之間的間距。**對齊**（Align）可將環狀與其起點進行偏移——這對於精細調整與舞台幾何體學的對齊非常有用。
 
-- 在演員或舞台周圍渲染一個可見的光環或脈衝效果。
-- 與音樂同步驅動其他自動更新參數（例如：燈光強度、材質參數、運動速度）。
+## 環狀顏色
 
----
+環狀顏色使用一個基礎顏色，並搭配一個 *發光*（Glow）強度，使其可以隨著節拍脈動。預設選項包括 *動畫色相*（Animated Hue）（緩慢地在頻譜中循環變化）和 *隨著音樂的發光*（Glow w/ Music）（發光與音樂同步，特別適用於突顯強烈節拍）。
 
-## 啟用方式
+## 背景
 
-<!-- TODO: confirm the menu path. Likely under environment menu or a per-actor setting. -->
+一個可選的背景層位於環狀之後，擁有自己的顏色。可以套用紋理圖像；*背景震動*（Background Vibration）能讓背景隨著音訊閃爍，創造出反應性紋理效果。只有在停用 *透明度*（Transparent）時，背景才會可見。
 
----
+## 前景
 
-## 設定
+前景層會渲染在環狀之上，具有獨立的顏色和紋理控制。*前景縮放*（Foreground Scale）會放大前景紋理；*前景震動*（Foreground Vibration）會增加音訊反應性的閃爍效果。前景的顏色會乘以環狀的顏色，因此建議先使用明亮的背景，再通過環狀顏色進行色調變化。前景始終可見，並與下方的環狀融合。
 
-<!-- TODO: list. Possibly: visibility, color, scale, sensitivity threshold, smoothing. -->
+## 節拍時鐘
 
----
+啟用 *節拍時鐘*（Beat Clock）後，環狀將與偵測到的 BPM（每分鐘節拍數）同步脈動，而非原始音訊振幅——這會在節奏穩定的曲目中產生更乾淨、更有節律感的動畫。*自動 BPM*（Auto BPM）則會從預設的 BPM 切換到實時偵測的節拍。
 
-## 相關頁面
+## 透明度
 
-- [自動更新](autoupdate) — 將節拍光環作為其他設定的資料來源
-- [音樂時機](music_timing) — 將運動同步到音樂
-- [音訊選項](audio_options)
+啟用 *透明度*（Transparent）會移除背景填充，僅保留環狀和其發光效果，呈現出適合黑暗舞台的極簡風格。陰影效果無論是否設定該選項都保持活躍。
+
+# 子組件
+
+## 音訊視覺化儀
+
+包含環狀視覺化佈局、顏色、紋理和音訊反應性設定。
+
+### 環狀顏色
+
+包含用於音訊反應性元素的基礎顏色和發光強度。
+當啟用自動更新時，發光會與顏色相乘，並隨著節拍動畫。
+
+### 背景顏色
+
+包含用於音訊反應性元素的基礎顏色和發光強度。
+當啟用自動更新時，發光會與顏色相乘，並隨著節拍動畫。
+
+### 前景顏色
+
+包含用於音訊反應性元素的基礎顏色和發光強度。
+當啟用自動更新時，發光會與顏色相乘，並隨著節拍動畫。

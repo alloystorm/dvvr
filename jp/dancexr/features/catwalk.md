@@ -1,19 +1,53 @@
 ---
 layout: release
-title: キャットウォークモーション
+title: カトウォークモーション
 locale: ja-JP
+toc: true
 ---
 
+# ウォーキング（キャットウォーク）モーション
 
-## Catwalk Motion
+<!-- TODO: confirm exact settings. Drafted from procedural-motion patterns. -->
 
-{
-  "title": "Catwalk Motion",
-  "description": "Create stunning catwalk animations with this scene bundle.",
-  "features": [
-    "High-quality assets included",
-    "Easy to use",
-    "Procedural animations",
-    "Compatible with all versions"
-  ]
-}
+キャットウォークモーションは、プロシージャルなウォーキング/ランウェイモーションです。俳優が、VMDウォーキングモーションファイルを用意することなく、ファッションショーのような歩幅（腰の揺れ、意図的な足取り、正しい姿勢など）でターゲットに向かって歩きます。
+
+使用できるシーン：
+
+- 俳優がステージ外から登場するポーズシーン。
+- ランウェイ/ファッションビデオ。
+- 次のモーションが始まるまでの時間稼ぎ。
+
+---
+
+## 動作
+
+- 俳優はシーンのZ軸に沿って（またはターゲットに向かって — <!-- TODO: confirm whether target selection is exposed -->）前進します。
+- 歩調はプロシージャルです。音楽のBPMを設定した場合（[音楽タイミング]）、ステップをビートに同期させることができます。
+- このモーションはループします。停止するか、別のモーションを割り当ててまで、俳優は歩き続けます。
+
+---
+
+## 設定
+
+<!-- TODO: confirm exact slider names. Likely candidates:
+- Walk speed
+- Stride length
+- Hip sway intensity
+- Arm swing intensity
+- Direction / target -->
+
+---
+
+## 他のモーションとの組み合わせ
+
+キャットウォークは、顔/表情トラックの下に重ねる**セカンダリーモーション**（[セカンダリーモーション]、[モーションパス]）として使用すると効果的です。[足の調整]からのフロアへの足の着地調整を行うことを推奨します。これにより、プロシージャルな足取りが適切に固定されます。
+
+---
+
+## 関連ページ
+
+- [アイドルモーション]
+- [オートダンス3]
+- [リアルなモーション]
+- [足の調整]
+- [音楽タイミング]

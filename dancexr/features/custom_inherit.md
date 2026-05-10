@@ -43,7 +43,7 @@ The new inherit relationship is applied during motion playback alongside any inh
 
 ## Compatibility with other systems
 
-- **PMX inheritance toggles** — added in 2025.8, the inheritance behavior of a model can be turned off in [Actor Motion Settings](actor_motion_settings) if a model fights itself. Custom inherit relationships are layered on top of that.
+- **PMX inheritance toggles** — added in 2025.8, the inheritance behavior of a model can be turned off in [Actor Motion Settings](motion_settings) if a model fights itself. Custom inherit relationships are layered on top of that.
 - **Motion override** — combine with [Motion Override](motion_override) to drive specific bones procedurally while using inheritance for everything downstream.
 
 ---
@@ -53,4 +53,4 @@ The new inherit relationship is applied during motion playback alongside any inh
 - [Bones (reference)](bones)
 - [Bone Mapper](bone_mapper)
 - [Motion Override](motion_override)
-- [Actor Motion Settings](actor_motion_settings)
+- [Actor Motion Settings](motion_settings)

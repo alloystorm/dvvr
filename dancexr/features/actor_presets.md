@@ -19,7 +19,7 @@ Added in **2024.1**. Stored under `presets/` in the [content library](../prepare
 
 A typical actor preset captures:
 
-- Per-actor [motion settings](actor_motion_settings)
+- Per-actor [motion settings](motion_settings)
 - [Dressing system](optionals) state (visible / hidden items)
 - [Material settings](material_settings) per slot
 - [Physics](physics) configuration (PMX or XPS, including [hair](hair_physics), [skirt](skirt_physics), [boobs](boobs_physics), [body colliders](body_colliders))

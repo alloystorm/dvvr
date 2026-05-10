@@ -19,7 +19,7 @@ toc: true
 
 一個典型的角色預設集捕獲了：
 
-- 每個角色的 [動態設定](actor_motion_settings)
+- 每個角色的 [動態設定](motion_settings)
 - [服裝系統](optionals) 的狀態（可見/隱藏的項目）
 - 每個槽位（slot）的 [材質設定](material_settings)
 - [物理](physics) 配置（PMX 或 XPS，包括 [頭髮](hair_physics)、[裙子](skirt_physics)、[胸部](boobs_physics)、[身體碰撞體](body_colliders)）

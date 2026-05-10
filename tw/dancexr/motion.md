@@ -49,7 +49,7 @@ DanceXR 中的動作來自多個來源，並在多個層級進行配置，這些
 | 層級 | 頁面 | 適用範圍 |
 |---|---|---|
 | 系統 | [動作設定](features/motion_settings) | 場景中所有動作的預設值 |
-| 每個演員 | [演員動作設定](features/actor_motion_settings) | 單一演員動作的覆蓋設定 |
+| 每個演員 | [演員動作設定](features/motion_settings) | 單一演員動作的覆蓋設定 |
 | 每個動作 | 在 [舞步集](features/dance_set) 內部 | 舞步集內針對每個動作的調整 |
 
 [播放選項](features/playback_options) — 速度、迴圈模式、範圍 — 應用於播放層級（即整個音訊/動作時間軸）。

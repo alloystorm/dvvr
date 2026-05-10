@@ -19,7 +19,7 @@ toc: true
 
 일반적인 배우 프리셋은 다음을 캡처합니다:
 
-- 배우별 [모션 설정](actor_motion_settings)
+- 배우별 [모션 설정](motion_settings)
 - [의상 시스템](optionals) 상태 (보이는/숨기는 아이템)
 - 슬롯별 [재질 설정](material_settings)
 - [물리 효과](physics) 구성 (PMX 또는 XPS, [머리](hair_physics), [스커트](skirt_physics), [가슴](boobs_physics), [신체 충돌체](body_colliders) 포함)

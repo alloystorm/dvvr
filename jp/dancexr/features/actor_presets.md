@@ -19,7 +19,7 @@ toc: true
 
 典型的なアクタープリセットがキャプチャする要素は以下の通りです。
 
-- アクターごとの [モーション設定](actor_motion_settings)
+- アクターごとの [モーション設定](motion_settings)
 - [ドレッシングシステム](optionals) のステータス（可視/非可視アイテム）
 - スロットごとの [マテリアル設定](material_settings)
 - [物理](physics) の設定（PMXまたはXPS、[髪](hair_physics)、[スカート](skirt_physics)、[胸](boobs_physics)、[ボディコライダー](body_colliders) を含む）
