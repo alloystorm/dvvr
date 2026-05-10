@@ -1,6 +1,6 @@
 {
   "name": "Cloth Simulation",
-  "docPath": "features/cloth_sim",
+  "docPath": "features/cloth_sim_guide",
   "label": "Simulation",
   "labels": {
     "ja": "シミュレーション",
