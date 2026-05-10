@@ -87,6 +87,25 @@ selects from ground pattern presets or solid color.
 **Detail Map** adds secondary surface noise. **Transparent**
 enables alpha blending for see-through garments.
 
+### Audio Visualization
+
+Holds the ring visualization layout, colors, textures, and audio-reactive settings.
+
+#### Ring Color
+
+Holds a base color and glow intensity for audio-reactive elements.
+Glow is multiplied with the color and animates with the beat when auto-update is enabled.
+
+#### Background Color
+
+Holds a base color and glow intensity for audio-reactive elements.
+Glow is multiplied with the color and animates with the beat when auto-update is enabled.
+
+#### Foreground Color
+
+Holds a base color and glow intensity for audio-reactive elements.
+Glow is multiplied with the color and animates with the beat when auto-update is enabled.
+
 ## Cloth 2
 
 Configures a procedurally generated cloth mesh. **Topology**
@@ -127,6 +146,25 @@ properties in real-time.
 selects from ground pattern presets or solid color.
 **Detail Map** adds secondary surface noise. **Transparent**
 enables alpha blending for see-through garments.
+
+### Audio Visualization
+
+Holds the ring visualization layout, colors, textures, and audio-reactive settings.
+
+#### Ring Color
+
+Holds a base color and glow intensity for audio-reactive elements.
+Glow is multiplied with the color and animates with the beat when auto-update is enabled.
+
+#### Background Color
+
+Holds a base color and glow intensity for audio-reactive elements.
+Glow is multiplied with the color and animates with the beat when auto-update is enabled.
+
+#### Foreground Color
+
+Holds a base color and glow intensity for audio-reactive elements.
+Glow is multiplied with the color and animates with the beat when auto-update is enabled.
 
 ## Fluid
 

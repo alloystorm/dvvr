@@ -1294,12 +1294,12 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null,
+              "description": "Holds the ring visualization layout, colors, textures, and audio-reactive settings.",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+                "zh-TW": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+                "ko": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+                "zh-CN": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)"
               },
               "values": [
                 {
@@ -1558,12 +1558,12 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null,
+                  "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
                   "descriptions": {
-                    "ja": null,
-                    "zh-TW": null,
-                    "ko": null,
-                    "zh-CN": null
+                    "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
                   },
                   "values": [
                     {
@@ -1758,12 +1758,12 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null,
+                  "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
                   "descriptions": {
-                    "ja": null,
-                    "zh-TW": null,
-                    "ko": null,
-                    "zh-CN": null
+                    "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
                   },
                   "values": [
                     {
@@ -2002,12 +2002,12 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null,
+                  "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
                   "descriptions": {
-                    "ja": null,
-                    "zh-TW": null,
-                    "ko": null,
-                    "zh-CN": null
+                    "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
                   },
                   "values": [
                     {
@@ -3984,12 +3984,12 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null,
+              "description": "Holds the ring visualization layout, colors, textures, and audio-reactive settings.",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+                "zh-TW": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+                "ko": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+                "zh-CN": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)"
               },
               "values": [
                 {
@@ -4248,12 +4248,12 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null,
+                  "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
                   "descriptions": {
-                    "ja": null,
-                    "zh-TW": null,
-                    "ko": null,
-                    "zh-CN": null
+                    "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
                   },
                   "values": [
                     {
@@ -4448,12 +4448,12 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null,
+                  "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
                   "descriptions": {
-                    "ja": null,
-                    "zh-TW": null,
-                    "ko": null,
-                    "zh-CN": null
+                    "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
                   },
                   "values": [
                     {
@@ -4692,12 +4692,12 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null,
+                  "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
                   "descriptions": {
-                    "ja": null,
-                    "zh-TW": null,
-                    "ko": null,
-                    "zh-CN": null
+                    "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
                   },
                   "values": [
                     {
@@ -6138,12 +6138,12 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null,
+              "description": "Holds the ring visualization layout, colors, textures, and audio-reactive settings.",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+                "zh-TW": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+                "ko": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+                "zh-CN": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)"
               },
               "values": [
                 {
@@ -6402,12 +6402,12 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null,
+                  "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
                   "descriptions": {
-                    "ja": null,
-                    "zh-TW": null,
-                    "ko": null,
-                    "zh-CN": null
+                    "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
                   },
                   "values": [
                     {
@@ -6602,12 +6602,12 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null,
+                  "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
                   "descriptions": {
-                    "ja": null,
-                    "zh-TW": null,
-                    "ko": null,
-                    "zh-CN": null
+                    "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
                   },
                   "values": [
                     {
@@ -6846,12 +6846,12 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null,
+                  "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
                   "descriptions": {
-                    "ja": null,
-                    "zh-TW": null,
-                    "ko": null,
-                    "zh-CN": null
+                    "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
                   },
                   "values": [
                     {
@@ -8292,12 +8292,12 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": null,
+              "description": "Holds the ring visualization layout, colors, textures, and audio-reactive settings.",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+                "zh-TW": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+                "ko": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+                "zh-CN": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)"
               },
               "values": [
                 {
@@ -8556,12 +8556,12 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null,
+                  "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
                   "descriptions": {
-                    "ja": null,
-                    "zh-TW": null,
-                    "ko": null,
-                    "zh-CN": null
+                    "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
                   },
                   "values": [
                     {
@@ -8756,12 +8756,12 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null,
+                  "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
                   "descriptions": {
-                    "ja": null,
-                    "zh-TW": null,
-                    "ko": null,
-                    "zh-CN": null
+                    "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
                   },
                   "values": [
                     {
@@ -9000,12 +9000,12 @@
                   "min": 0,
                   "max": 1,
                   "options": null,
-                  "description": null,
+                  "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
                   "descriptions": {
-                    "ja": null,
-                    "zh-TW": null,
-                    "ko": null,
-                    "zh-CN": null
+                    "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                    "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
                   },
                   "values": [
                     {

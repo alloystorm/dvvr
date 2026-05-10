@@ -1,0 +1,1086 @@
+{
+  "name": "Laser",
+  "docPath": "features/laser",
+  "label": "Laser",
+  "labels": {
+    "ja": "レーザー",
+    "zh-TW": "激光",
+    "ko": "레이저",
+    "zh-CN": "激光"
+  },
+  "description": "Controls laser beams projected across the stage, reacting to music with animated color and movement.\r\n\r\n\r\n## Formation\r\n\r\n**Number** sets how many laser beams are spawned. **Width** controls the horizontal spread of the beam array — higher values fan the beams farther apart. **Curvature** bends the formation from flat into an arc; negative values bow inward, positive values bow outward. **Rotation** tilts the arc; **Distance** pushes the entire formation forward or backward along the stage. **Height** raises or lowers the formation vertically.\r\n\r\n\r\n## Direction\r\n\r\n**Direction** rotates the formation around the horizontal axis, pointing the beams up or down. **Angle** narrows or widens each individual beam's spread cone. Both values auto-update with the music and can drive reactive motion.\r\n\r\n\r\n## Color\r\n\r\nThe beam color uses a base color with a *Glow* intensity. Presets include *Glow w/ Music*, which syncs glow to audio amplitude for a pulsing effect on strong beats. **Base Level**, **Edge Level**, and **Hit Level** use power-based scaling — lower values brighten the corresponding part of the beam, useful for creating sharp or diffuse laser aesthetics.\r\n\r\n\r\n## Motion\r\n\r\nMotion patterns define how beams rotate and sway over time. The motion interpolates between two randomly selected target rotations every beat, creating organic, evolving movement across the laser array.",
+  "descriptions": {
+    "ja": "(Controls laser beams projected across the stage, reacting to music with animated color and movement.\r\n\r\n\r\n## Formation\r\n\r\n**Number** sets how many laser beams are spawned. **Width** controls the horizontal spread of the beam array — higher values fan the beams farther apart. **Curvature** bends the formation from flat into an arc; negative values bow inward, positive values bow outward. **Rotation** tilts the arc; **Distance** pushes the entire formation forward or backward along the stage. **Height** raises or lowers the formation vertically.\r\n\r\n\r\n## Direction\r\n\r\n**Direction** rotates the formation around the horizontal axis, pointing the beams up or down. **Angle** narrows or widens each individual beam's spread cone. Both values auto-update with the music and can drive reactive motion.\r\n\r\n\r\n## Color\r\n\r\nThe beam color uses a base color with a *Glow* intensity. Presets include *Glow w/ Music*, which syncs glow to audio amplitude for a pulsing effect on strong beats. **Base Level**, **Edge Level**, and **Hit Level** use power-based scaling — lower values brighten the corresponding part of the beam, useful for creating sharp or diffuse laser aesthetics.\r\n\r\n\r\n## Motion\r\n\r\nMotion patterns define how beams rotate and sway over time. The motion interpolates between two randomly selected target rotations every beat, creating organic, evolving movement across the laser array.)",
+    "zh-TW": "(Controls laser beams projected across the stage, reacting to music with animated color and movement.\r\n\r\n\r\n## Formation\r\n\r\n**Number** sets how many laser beams are spawned. **Width** controls the horizontal spread of the beam array — higher values fan the beams farther apart. **Curvature** bends the formation from flat into an arc; negative values bow inward, positive values bow outward. **Rotation** tilts the arc; **Distance** pushes the entire formation forward or backward along the stage. **Height** raises or lowers the formation vertically.\r\n\r\n\r\n## Direction\r\n\r\n**Direction** rotates the formation around the horizontal axis, pointing the beams up or down. **Angle** narrows or widens each individual beam's spread cone. Both values auto-update with the music and can drive reactive motion.\r\n\r\n\r\n## Color\r\n\r\nThe beam color uses a base color with a *Glow* intensity. Presets include *Glow w/ Music*, which syncs glow to audio amplitude for a pulsing effect on strong beats. **Base Level**, **Edge Level**, and **Hit Level** use power-based scaling — lower values brighten the corresponding part of the beam, useful for creating sharp or diffuse laser aesthetics.\r\n\r\n\r\n## Motion\r\n\r\nMotion patterns define how beams rotate and sway over time. The motion interpolates between two randomly selected target rotations every beat, creating organic, evolving movement across the laser array.)",
+    "ko": "(Controls laser beams projected across the stage, reacting to music with animated color and movement.\r\n\r\n\r\n## Formation\r\n\r\n**Number** sets how many laser beams are spawned. **Width** controls the horizontal spread of the beam array — higher values fan the beams farther apart. **Curvature** bends the formation from flat into an arc; negative values bow inward, positive values bow outward. **Rotation** tilts the arc; **Distance** pushes the entire formation forward or backward along the stage. **Height** raises or lowers the formation vertically.\r\n\r\n\r\n## Direction\r\n\r\n**Direction** rotates the formation around the horizontal axis, pointing the beams up or down. **Angle** narrows or widens each individual beam's spread cone. Both values auto-update with the music and can drive reactive motion.\r\n\r\n\r\n## Color\r\n\r\nThe beam color uses a base color with a *Glow* intensity. Presets include *Glow w/ Music*, which syncs glow to audio amplitude for a pulsing effect on strong beats. **Base Level**, **Edge Level**, and **Hit Level** use power-based scaling — lower values brighten the corresponding part of the beam, useful for creating sharp or diffuse laser aesthetics.\r\n\r\n\r\n## Motion\r\n\r\nMotion patterns define how beams rotate and sway over time. The motion interpolates between two randomly selected target rotations every beat, creating organic, evolving movement across the laser array.)",
+    "zh-CN": "(Controls laser beams projected across the stage, reacting to music with animated color and movement.\r\n\r\n\r\n## Formation\r\n\r\n**Number** sets how many laser beams are spawned. **Width** controls the horizontal spread of the beam array — higher values fan the beams farther apart. **Curvature** bends the formation from flat into an arc; negative values bow inward, positive values bow outward. **Rotation** tilts the arc; **Distance** pushes the entire formation forward or backward along the stage. **Height** raises or lowers the formation vertically.\r\n\r\n\r\n## Direction\r\n\r\n**Direction** rotates the formation around the horizontal axis, pointing the beams up or down. **Angle** narrows or widens each individual beam's spread cone. Both values auto-update with the music and can drive reactive motion.\r\n\r\n\r\n## Color\r\n\r\nThe beam color uses a base color with a *Glow* intensity. Presets include *Glow w/ Music*, which syncs glow to audio amplitude for a pulsing effect on strong beats. **Base Level**, **Edge Level**, and **Hit Level** use power-based scaling — lower values brighten the corresponding part of the beam, useful for creating sharp or diffuse laser aesthetics.\r\n\r\n\r\n## Motion\r\n\r\nMotion patterns define how beams rotate and sway over time. The motion interpolates between two randomly selected target rotations every beat, creating organic, evolving movement across the laser array.)"
+  },
+  "values": [
+    {
+      "name": "Number",
+      "type": "int",
+      "label": "Number",
+      "labels": {
+        "ja": "数",
+        "zh-TW": "數量",
+        "ko": "개수",
+        "zh-CN": "数量"
+      },
+      "default": 16,
+      "min": 1,
+      "max": 32,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Width",
+      "type": "float",
+      "label": "Width",
+      "labels": {
+        "ja": "幅",
+        "zh-TW": "寬度",
+        "ko": "너비",
+        "zh-CN": "宽度"
+      },
+      "default": 8,
+      "min": 0,
+      "max": 50,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Curvature",
+      "type": "float",
+      "label": "Curvature",
+      "labels": {
+        "ja": "曲率",
+        "zh-TW": "曲率",
+        "ko": "곡률",
+        "zh-CN": "曲率"
+      },
+      "default": -1,
+      "min": -2,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Rotation",
+      "type": "float",
+      "label": "Rotation",
+      "labels": {
+        "ja": "回転",
+        "zh-TW": "旋轉",
+        "ko": "회전",
+        "zh-CN": "旋转"
+      },
+      "default": 0,
+      "min": -90,
+      "max": 90,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Distance",
+      "type": "float",
+      "label": "Distance",
+      "labels": {
+        "ja": "距離",
+        "zh-TW": "距離",
+        "ko": "거리",
+        "zh-CN": "距离"
+      },
+      "default": 0,
+      "min": -10,
+      "max": 10,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Direction",
+      "type": "float",
+      "label": "Direction",
+      "labels": {
+        "ja": "方向",
+        "zh-TW": "方向",
+        "ko": "방향",
+        "zh-CN": "方向"
+      },
+      "default": 0,
+      "min": -180,
+      "max": 180,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Height",
+      "type": "float",
+      "label": "Height",
+      "labels": {
+        "ja": "高さ",
+        "zh-TW": "高度",
+        "ko": "높이",
+        "zh-CN": "高度"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 8,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Angle",
+      "type": "float",
+      "label": "Angle",
+      "labels": {
+        "ja": "角度",
+        "zh-TW": "角度",
+        "ko": "각도",
+        "zh-CN": "角度"
+      },
+      "default": 45,
+      "min": 0,
+      "max": 90,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Color",
+      "type": "group",
+      "label": "Color",
+      "labels": {
+        "ja": "色",
+        "zh-TW": "顏色",
+        "ko": "색상",
+        "zh-CN": "颜色"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
+      "descriptions": {
+        "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+        "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+        "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+        "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
+      },
+      "values": [
+        {
+          "name": "Color Mode",
+          "type": "int",
+          "label": "Color Mode",
+          "labels": {
+            "ja": "色モード",
+            "zh-TW": "色彩模式",
+            "ko": "색상 모드",
+            "zh-CN": "颜色模式"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": ["RGB", "HSV"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Hue",
+          "type": "float",
+          "label": "Hue",
+          "labels": {
+            "ja": "色相",
+            "zh-TW": "色相",
+            "ko": "색상",
+            "zh-CN": "色相"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Satuation",
+          "type": "float",
+          "label": "Satuation",
+          "labels": {
+            "ja": "彩度",
+            "zh-TW": "飽和度",
+            "ko": "채도",
+            "zh-CN": "饱和度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Brightness",
+          "type": "float",
+          "label": "Brightness",
+          "labels": {
+            "ja": "明度",
+            "zh-TW": "亮度",
+            "ko": "밝기",
+            "zh-CN": "亮度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Red",
+          "type": "float",
+          "label": "Red",
+          "labels": {
+            "ja": "赤",
+            "zh-TW": "紅色",
+            "ko": "빨간색",
+            "zh-CN": "红色"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Green",
+          "type": "float",
+          "label": "Green",
+          "labels": {
+            "ja": "緑",
+            "zh-TW": "綠色",
+            "ko": "녹색",
+            "zh-CN": "绿色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Blue",
+          "type": "float",
+          "label": "Blue",
+          "labels": {
+            "ja": "青",
+            "zh-TW": "藍色",
+            "ko": "파란색",
+            "zh-CN": "蓝色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Glow",
+          "type": "float",
+          "label": "Glow",
+          "labels": {
+            "ja": "グロー",
+            "zh-TW": "發光",
+            "ko": "발광",
+            "zh-CN": "发光"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 5,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Base Level",
+          "type": "float",
+          "label": "Base Level",
+          "labels": {
+            "ja": "ベースレベル",
+            "zh-TW": "基底水平",
+            "ko": "기본 레벨",
+            "zh-CN": "基线"
+          },
+          "default": -1,
+          "min": -3,
+          "max": 3,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Edge Level",
+          "type": "float",
+          "label": "Edge Level",
+          "labels": {
+            "ja": "エッジレベル",
+            "zh-TW": "邊緣水平",
+            "ko": "가장자리 레벨",
+            "zh-CN": "边缘水平"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 5,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Hit Level",
+          "type": "float",
+          "label": "Hit Level",
+          "labels": {
+            "ja": "ヒットレベル",
+            "zh-TW": "擊中水平",
+            "ko": "히트 레벨",
+            "zh-CN": "击中水平"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 5,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Motion",
+      "type": "group",
+      "label": "Motion",
+      "labels": {
+        "ja": "モーション",
+        "zh-TW": "動作",
+        "ko": "동작",
+        "zh-CN": "运动"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Reusable motion-pattern generator for looping body sway and\r\npositional drift. It can randomize built-in patterns, randomize\r\nuser presets, or expose the underlying curves directly for\r\nmanual shaping.\r\n\r\n\r\n## Pattern Source\r\n\r\n**Mode** decides where the curves come from. *Random* pulls from\r\nthe built-in pattern library, *Random Preset* rotates through\r\nyour saved presets, and *Manual* exposes the underlying motion\r\ncurves directly. **Seed** fixes the random sequence so the same\r\npattern order repeats; change it when you want new variation\r\nwithout redesigning the curves.\r\n\r\n\r\n## Timing and Intensity\r\n\r\n**Moves Per Group** controls how often the generator advances to\r\na new pattern phrase. **Speed** scales playback, while **Use\r\nAudio** lets the motion breathe with the music level instead of\r\nstaying at a fixed intensity. **Extent** is auto-updatable, so\r\nit is the best control to automate when you want another system\r\nto push the motion larger or smaller over time.\r\n\r\n\r\n## Transition and Damping\r\n\r\n**Transition** softens the handoff between phrases; low values\r\nmake the motion snap to the next idea, high values keep it more\r\nfluid but can blur the character of individual patterns.\r\n**Damping** controls how quickly the driven rig catches up on\r\norientation, horizontal sway, and vertical sway, which is often\r\nthe difference between crisp choreography and a floaty feel.",
+      "descriptions": {
+        "ja": "(Reusable motion-pattern generator for looping body sway and\r\npositional drift. It can randomize built-in patterns, randomize\r\nuser presets, or expose the underlying curves directly for\r\nmanual shaping.\r\n\r\n\r\n## Pattern Source\r\n\r\n**Mode** decides where the curves come from. *Random* pulls from\r\nthe built-in pattern library, *Random Preset* rotates through\r\nyour saved presets, and *Manual* exposes the underlying motion\r\ncurves directly. **Seed** fixes the random sequence so the same\r\npattern order repeats; change it when you want new variation\r\nwithout redesigning the curves.\r\n\r\n\r\n## Timing and Intensity\r\n\r\n**Moves Per Group** controls how often the generator advances to\r\na new pattern phrase. **Speed** scales playback, while **Use\r\nAudio** lets the motion breathe with the music level instead of\r\nstaying at a fixed intensity. **Extent** is auto-updatable, so\r\nit is the best control to automate when you want another system\r\nto push the motion larger or smaller over time.\r\n\r\n\r\n## Transition and Damping\r\n\r\n**Transition** softens the handoff between phrases; low values\r\nmake the motion snap to the next idea, high values keep it more\r\nfluid but can blur the character of individual patterns.\r\n**Damping** controls how quickly the driven rig catches up on\r\norientation, horizontal sway, and vertical sway, which is often\r\nthe difference between crisp choreography and a floaty feel.)",
+        "zh-TW": "(Reusable motion-pattern generator for looping body sway and\r\npositional drift. It can randomize built-in patterns, randomize\r\nuser presets, or expose the underlying curves directly for\r\nmanual shaping.\r\n\r\n\r\n## Pattern Source\r\n\r\n**Mode** decides where the curves come from. *Random* pulls from\r\nthe built-in pattern library, *Random Preset* rotates through\r\nyour saved presets, and *Manual* exposes the underlying motion\r\ncurves directly. **Seed** fixes the random sequence so the same\r\npattern order repeats; change it when you want new variation\r\nwithout redesigning the curves.\r\n\r\n\r\n## Timing and Intensity\r\n\r\n**Moves Per Group** controls how often the generator advances to\r\na new pattern phrase. **Speed** scales playback, while **Use\r\nAudio** lets the motion breathe with the music level instead of\r\nstaying at a fixed intensity. **Extent** is auto-updatable, so\r\nit is the best control to automate when you want another system\r\nto push the motion larger or smaller over time.\r\n\r\n\r\n## Transition and Damping\r\n\r\n**Transition** softens the handoff between phrases; low values\r\nmake the motion snap to the next idea, high values keep it more\r\nfluid but can blur the character of individual patterns.\r\n**Damping** controls how quickly the driven rig catches up on\r\norientation, horizontal sway, and vertical sway, which is often\r\nthe difference between crisp choreography and a floaty feel.)",
+        "ko": "(Reusable motion-pattern generator for looping body sway and\r\npositional drift. It can randomize built-in patterns, randomize\r\nuser presets, or expose the underlying curves directly for\r\nmanual shaping.\r\n\r\n\r\n## Pattern Source\r\n\r\n**Mode** decides where the curves come from. *Random* pulls from\r\nthe built-in pattern library, *Random Preset* rotates through\r\nyour saved presets, and *Manual* exposes the underlying motion\r\ncurves directly. **Seed** fixes the random sequence so the same\r\npattern order repeats; change it when you want new variation\r\nwithout redesigning the curves.\r\n\r\n\r\n## Timing and Intensity\r\n\r\n**Moves Per Group** controls how often the generator advances to\r\na new pattern phrase. **Speed** scales playback, while **Use\r\nAudio** lets the motion breathe with the music level instead of\r\nstaying at a fixed intensity. **Extent** is auto-updatable, so\r\nit is the best control to automate when you want another system\r\nto push the motion larger or smaller over time.\r\n\r\n\r\n## Transition and Damping\r\n\r\n**Transition** softens the handoff between phrases; low values\r\nmake the motion snap to the next idea, high values keep it more\r\nfluid but can blur the character of individual patterns.\r\n**Damping** controls how quickly the driven rig catches up on\r\norientation, horizontal sway, and vertical sway, which is often\r\nthe difference between crisp choreography and a floaty feel.)",
+        "zh-CN": "(Reusable motion-pattern generator for looping body sway and\r\npositional drift. It can randomize built-in patterns, randomize\r\nuser presets, or expose the underlying curves directly for\r\nmanual shaping.\r\n\r\n\r\n## Pattern Source\r\n\r\n**Mode** decides where the curves come from. *Random* pulls from\r\nthe built-in pattern library, *Random Preset* rotates through\r\nyour saved presets, and *Manual* exposes the underlying motion\r\ncurves directly. **Seed** fixes the random sequence so the same\r\npattern order repeats; change it when you want new variation\r\nwithout redesigning the curves.\r\n\r\n\r\n## Timing and Intensity\r\n\r\n**Moves Per Group** controls how often the generator advances to\r\na new pattern phrase. **Speed** scales playback, while **Use\r\nAudio** lets the motion breathe with the music level instead of\r\nstaying at a fixed intensity. **Extent** is auto-updatable, so\r\nit is the best control to automate when you want another system\r\nto push the motion larger or smaller over time.\r\n\r\n\r\n## Transition and Damping\r\n\r\n**Transition** softens the handoff between phrases; low values\r\nmake the motion snap to the next idea, high values keep it more\r\nfluid but can blur the character of individual patterns.\r\n**Damping** controls how quickly the driven rig catches up on\r\norientation, horizontal sway, and vertical sway, which is often\r\nthe difference between crisp choreography and a floaty feel.)"
+      },
+      "values": [
+        {
+          "name": "Moves Per Group",
+          "type": "int",
+          "label": "Moves Per Group",
+          "labels": {
+            "ja": "グループあたりのムーブ数",
+            "zh-TW": "每組移動次數",
+            "ko": "그룹당 모션 수",
+            "zh-CN": "每组运动次数"
+          },
+          "default": 1,
+          "min": 1,
+          "max": 32,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Use Audio",
+          "type": "float",
+          "label": "Use Audio",
+          "labels": {
+            "ja": "音声の使用",
+            "zh-TW": "使用音訊",
+            "ko": "오디오 사용",
+            "zh-CN": "是否使用音频"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 4,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Speed",
+          "type": "float",
+          "label": "Speed",
+          "labels": {
+            "ja": "速度",
+            "zh-TW": "速度",
+            "ko": "속도",
+            "zh-CN": "速度"
+          },
+          "default": 0,
+          "min": -3,
+          "max": 3,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Transition",
+          "type": "float",
+          "label": "Transition",
+          "labels": {
+            "ja": "トランジション",
+            "zh-TW": "過渡",
+            "ko": "전환",
+            "zh-CN": "过渡"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Extent",
+          "type": "float",
+          "label": "Extent",
+          "labels": {
+            "ja": "範囲",
+            "zh-TW": "範圍",
+            "ko": "범위",
+            "zh-CN": "范围"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Damping",
+          "type": "group",
+          "label": "Damping",
+          "labels": {
+            "ja": "ダンピング",
+            "zh-TW": "阻尼",
+            "ko": "감쇠",
+            "zh-CN": "阻尼"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "Orientation",
+              "type": "float",
+              "label": "Orientation",
+              "labels": {
+                "ja": "向き",
+                "zh-TW": "朝向",
+                "ko": "오리엔테이션",
+                "zh-CN": "朝向"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Horizontal",
+              "type": "float",
+              "label": "Horizontal",
+              "labels": {
+                "ja": "水平",
+                "zh-TW": "水平",
+                "ko": "수평",
+                "zh-CN": "水平"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Vertical",
+              "type": "float",
+              "label": "Vertical",
+              "labels": {
+                "ja": "垂直",
+                "zh-TW": "垂直",
+                "ko": "수직",
+                "zh-CN": "垂直"
+              },
+              "default": 0.1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Mode",
+          "type": "options",
+          "label": "Mode",
+          "labels": {
+            "ja": "モード",
+            "zh-TW": "模式",
+            "ko": "모드",
+            "zh-CN": "模式"
+          },
+          "default": "Random",
+          "min": 0,
+          "max": 2,
+          "options": ["Random", "Random Preset", "Manual"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Motion X",
+          "type": "group",
+          "label": "Motion X",
+          "labels": {
+            "ja": "モーションX",
+            "zh-TW": "運動 X",
+            "ko": "모션 X",
+            "zh-CN": "运动 X"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Curve function that is used to control procedural motions.",
+          "descriptions": {
+            "ja": "プロシージャルモーションを制御するために使用されるカーブ関数。",
+            "zh-TW": "用於控制程序化動作的曲線函數。",
+            "ko": "절차적 동작을 제어하는 데 사용되는 곡선 함수.",
+            "zh-CN": "用于控制程序化动作的曲线函数。"
+          },
+          "values": [
+            {
+              "name": "Override",
+              "type": "float",
+              "label": "Override",
+              "labels": {
+                "ja": "上書き",
+                "zh-TW": "覆蓋",
+                "ko": "덮어쓰기",
+                "zh-CN": "覆盖"
+              },
+              "default": 0,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": "Override generated movement with this value",
+              "descriptions": {
+                "ja": "この値で生成された動きを上書きする",
+                "zh-TW": "用此值覆寫生成的動作。",
+                "ko": "이 값으로 생성된 동작을 덮어쓰기",
+                "zh-CN": "用此值覆盖生成的运动"
+              }
+            },
+            {
+              "name": "Speed Multiplier",
+              "type": "float",
+              "label": "Speed Multiplier",
+              "labels": {
+                "ja": "速度乗数",
+                "zh-TW": "速度倍增器",
+                "ko": "속도 승수",
+                "zh-CN": "速度乘数"
+              },
+              "default": -1,
+              "min": -3,
+              "max": 3,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Phase",
+              "type": "float",
+              "label": "Phase",
+              "labels": {
+                "ja": "位相",
+                "zh-TW": "相位",
+                "ko": "위상",
+                "zh-CN": "相位"
+              },
+              "default": 0.25,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Starting position in the cycle",
+              "descriptions": {
+                "ja": "サイクルの開始位置",
+                "zh-TW": "週期中的起始位置",
+                "ko": "사이클 내 시작 위치",
+                "zh-CN": "循环中的起始位置"
+              }
+            },
+            {
+              "name": "Curve",
+              "type": "float",
+              "label": "Curve",
+              "labels": {
+                "ja": "カーブ",
+                "zh-TW": "曲線",
+                "ko": "커브",
+                "zh-CN": "曲线"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Direction",
+              "type": "float",
+              "label": "Direction",
+              "labels": {
+                "ja": "方向",
+                "zh-TW": "方向",
+                "ko": "방향",
+                "zh-CN": "方向"
+              },
+              "default": 1,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Scale",
+              "type": "float",
+              "label": "Scale",
+              "labels": {
+                "ja": "スケール",
+                "zh-TW": "縮放",
+                "ko": "스케일",
+                "zh-CN": "缩放"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Center",
+              "type": "float",
+              "label": "Center",
+              "labels": {
+                "ja": "中央",
+                "zh-TW": "中心",
+                "ko": "중앙",
+                "zh-CN": "中心"
+              },
+              "default": 0,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Motion Z",
+          "type": "group",
+          "label": "Motion Z",
+          "labels": {
+            "ja": "モーションZ",
+            "zh-TW": "運動 Z",
+            "ko": "모션 Z",
+            "zh-CN": "运动 Z"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Curve function that is used to control procedural motions.",
+          "descriptions": {
+            "ja": "プロシージャルモーションを制御するために使用されるカーブ関数。",
+            "zh-TW": "用於控制程序化動作的曲線函數。",
+            "ko": "절차적 동작을 제어하는 데 사용되는 곡선 함수.",
+            "zh-CN": "用于控制程序化动作的曲线函数。"
+          },
+          "values": [
+            {
+              "name": "Override",
+              "type": "float",
+              "label": "Override",
+              "labels": {
+                "ja": "上書き",
+                "zh-TW": "覆蓋",
+                "ko": "덮어쓰기",
+                "zh-CN": "覆盖"
+              },
+              "default": 0,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": "Override generated movement with this value",
+              "descriptions": {
+                "ja": "この値で生成された動きを上書きする",
+                "zh-TW": "用此值覆寫生成的動作。",
+                "ko": "이 값으로 생성된 동작을 덮어쓰기",
+                "zh-CN": "用此值覆盖生成的运动"
+              }
+            },
+            {
+              "name": "Speed Multiplier",
+              "type": "float",
+              "label": "Speed Multiplier",
+              "labels": {
+                "ja": "速度乗数",
+                "zh-TW": "速度倍增器",
+                "ko": "속도 승수",
+                "zh-CN": "速度乘数"
+              },
+              "default": -1,
+              "min": -3,
+              "max": 3,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Phase",
+              "type": "float",
+              "label": "Phase",
+              "labels": {
+                "ja": "位相",
+                "zh-TW": "相位",
+                "ko": "위상",
+                "zh-CN": "相位"
+              },
+              "default": 0.25,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Starting position in the cycle",
+              "descriptions": {
+                "ja": "サイクルの開始位置",
+                "zh-TW": "週期中的起始位置",
+                "ko": "사이클 내 시작 위치",
+                "zh-CN": "循环中的起始位置"
+              }
+            },
+            {
+              "name": "Curve",
+              "type": "float",
+              "label": "Curve",
+              "labels": {
+                "ja": "カーブ",
+                "zh-TW": "曲線",
+                "ko": "커브",
+                "zh-CN": "曲线"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Direction",
+              "type": "float",
+              "label": "Direction",
+              "labels": {
+                "ja": "方向",
+                "zh-TW": "方向",
+                "ko": "방향",
+                "zh-CN": "方向"
+              },
+              "default": 1,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Scale",
+              "type": "float",
+              "label": "Scale",
+              "labels": {
+                "ja": "スケール",
+                "zh-TW": "縮放",
+                "ko": "스케일",
+                "zh-CN": "缩放"
+              },
+              "default": 0.35,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Center",
+              "type": "float",
+              "label": "Center",
+              "labels": {
+                "ja": "中央",
+                "zh-TW": "中心",
+                "ko": "중앙",
+                "zh-CN": "中心"
+              },
+              "default": 0,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Seed",
+          "type": "float",
+          "label": "Seed",
+          "labels": {
+            "ja": "シード",
+            "zh-TW": "種子值",
+            "ko": "시드",
+            "zh-CN": "随机种子"
+          },
+          "default": 1234,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": "Controls randomized pattern sequence",
+          "descriptions": {
+            "ja": "ランダム化されたパターンシーケンスを制御",
+            "zh-TW": "控制隨機模式序列",
+            "ko": "무작위 패턴 시퀀스 제어",
+            "zh-CN": "控制随机模式序列"
+          }
+        }
+      ]
+    }
+  ]
+}

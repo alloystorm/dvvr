@@ -34,6 +34,11 @@ audio. Controls **Color**, **Gloss**, **Glow**, **Radius**,
 **Metallic**, **Intensity**, **Refraction**, **Cast
 Shadow**, and **Trail** length.
 
+### Color
+
+Holds a base color and glow intensity for audio-reactive elements.
+Glow is multiplied with the color and animates with the beat when auto-update is enabled.
+
 ## Physics
 
 Nested config for light ball physics behavior. Presets:

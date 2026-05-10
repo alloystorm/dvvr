@@ -1,0 +1,1242 @@
+{
+  "name": "Audio Visualizer",
+  "docPath": "features/beats_ring",
+  "label": "Audio Visualizer",
+  "labels": {
+    "ja": "オーディオビジュアライザー",
+    "zh-TW": "音訊視覺化器",
+    "ko": "오디오 시각화",
+    "zh-CN": "音频可视化工具"
+  },
+  "description": "Visualizes audio spectrum data as ring overlays on the ground plane, reacting to beats in real time.\r\n\r\n\r\n## Layout\r\n\r\nChoose between *Horizontal*, *Vertical*, or *Circle* layout. *Circle* wraps the visualization around the performer and works best with a round stage. In *Horizontal* or *Vertical* mode, the visualization extends along the floor in one direction.\r\n\r\n\r\n## Ring Settings\r\n\r\n**Size** scales the overall visualization area. **Depth** controls how far the visualization extends from the center. **Ring Size** adjusts the thickness of each ring. **Data Scale** multiplies the audio amplitude — amplify a weak signal or dampen a strong one. **Color Transition** controls how smoothly colors blend between rings; lower values produce crisp, separate bands.\r\n\r\n**Shape Shift** distorts the ring shape over time to create organic movement, while **Gap** sets the spacing between adjacent rings. **Align** offsets the rings relative to their start point — useful to fine-tune alignment with stage geometry.\r\n\r\n\r\n## Ring Color\r\n\r\nThe ring color uses a base color with a *Glow* intensity that can pulse with the beat. Presets include *Animated Hue* (slowly cycling through the spectrum) and *Glow w/ Music* (glow synced to the music, useful for emphasis on strong beats).\r\n\r\n\r\n## Background\r\n\r\nAn optional background layer sits behind the rings with its own color. A texture image can be applied; *Background Vibration* makes it shimmer with the audio, creating a reactive texture effect. Background is only visible when *Transparent* is disabled.\r\n\r\n\r\n## Foreground\r\n\r\nA foreground layer renders on top of the rings with independent color and texture control. *Foreground Scale* zooms the foreground texture; *Foreground Vibration* adds audio-reactive shimmer. The foreground's colors are multiplied by the ring color, so start with a bright foreground and tint it via the ring color. Foreground is always visible and blends with the rings below.\r\n\r\n\r\n## Beat Clock\r\n\r\nWhen *Beat Clock* is enabled, rings pulse in sync with the detected BPM rather than raw audio amplitude — producing cleaner, rhythmic animations on tracks with steady tempo. *Auto BPM* switches from the configured BPM to real-time detected tempo instead.\r\n\r\n\r\n## Transparency\r\n\r\nEnabling *Transparent* removes the background fill, keeping only the rings and their glow for a minimal look suited to dark stages. Shadow effects remain active regardless of this setting.",
+  "descriptions": {
+    "ja": "(Visualizes audio spectrum data as ring overlays on the ground plane, reacting to beats in real time.\r\n\r\n\r\n## Layout\r\n\r\nChoose between *Horizontal*, *Vertical*, or *Circle* layout. *Circle* wraps the visualization around the performer and works best with a round stage. In *Horizontal* or *Vertical* mode, the visualization extends along the floor in one direction.\r\n\r\n\r\n## Ring Settings\r\n\r\n**Size** scales the overall visualization area. **Depth** controls how far the visualization extends from the center. **Ring Size** adjusts the thickness of each ring. **Data Scale** multiplies the audio amplitude — amplify a weak signal or dampen a strong one. **Color Transition** controls how smoothly colors blend between rings; lower values produce crisp, separate bands.\r\n\r\n**Shape Shift** distorts the ring shape over time to create organic movement, while **Gap** sets the spacing between adjacent rings. **Align** offsets the rings relative to their start point — useful to fine-tune alignment with stage geometry.\r\n\r\n\r\n## Ring Color\r\n\r\nThe ring color uses a base color with a *Glow* intensity that can pulse with the beat. Presets include *Animated Hue* (slowly cycling through the spectrum) and *Glow w/ Music* (glow synced to the music, useful for emphasis on strong beats).\r\n\r\n\r\n## Background\r\n\r\nAn optional background layer sits behind the rings with its own color. A texture image can be applied; *Background Vibration* makes it shimmer with the audio, creating a reactive texture effect. Background is only visible when *Transparent* is disabled.\r\n\r\n\r\n## Foreground\r\n\r\nA foreground layer renders on top of the rings with independent color and texture control. *Foreground Scale* zooms the foreground texture; *Foreground Vibration* adds audio-reactive shimmer. The foreground's colors are multiplied by the ring color, so start with a bright foreground and tint it via the ring color. Foreground is always visible and blends with the rings below.\r\n\r\n\r\n## Beat Clock\r\n\r\nWhen *Beat Clock* is enabled, rings pulse in sync with the detected BPM rather than raw audio amplitude — producing cleaner, rhythmic animations on tracks with steady tempo. *Auto BPM* switches from the configured BPM to real-time detected tempo instead.\r\n\r\n\r\n## Transparency\r\n\r\nEnabling *Transparent* removes the background fill, keeping only the rings and their glow for a minimal look suited to dark stages. Shadow effects remain active regardless of this setting.)",
+    "zh-TW": "(Visualizes audio spectrum data as ring overlays on the ground plane, reacting to beats in real time.\r\n\r\n\r\n## Layout\r\n\r\nChoose between *Horizontal*, *Vertical*, or *Circle* layout. *Circle* wraps the visualization around the performer and works best with a round stage. In *Horizontal* or *Vertical* mode, the visualization extends along the floor in one direction.\r\n\r\n\r\n## Ring Settings\r\n\r\n**Size** scales the overall visualization area. **Depth** controls how far the visualization extends from the center. **Ring Size** adjusts the thickness of each ring. **Data Scale** multiplies the audio amplitude — amplify a weak signal or dampen a strong one. **Color Transition** controls how smoothly colors blend between rings; lower values produce crisp, separate bands.\r\n\r\n**Shape Shift** distorts the ring shape over time to create organic movement, while **Gap** sets the spacing between adjacent rings. **Align** offsets the rings relative to their start point — useful to fine-tune alignment with stage geometry.\r\n\r\n\r\n## Ring Color\r\n\r\nThe ring color uses a base color with a *Glow* intensity that can pulse with the beat. Presets include *Animated Hue* (slowly cycling through the spectrum) and *Glow w/ Music* (glow synced to the music, useful for emphasis on strong beats).\r\n\r\n\r\n## Background\r\n\r\nAn optional background layer sits behind the rings with its own color. A texture image can be applied; *Background Vibration* makes it shimmer with the audio, creating a reactive texture effect. Background is only visible when *Transparent* is disabled.\r\n\r\n\r\n## Foreground\r\n\r\nA foreground layer renders on top of the rings with independent color and texture control. *Foreground Scale* zooms the foreground texture; *Foreground Vibration* adds audio-reactive shimmer. The foreground's colors are multiplied by the ring color, so start with a bright foreground and tint it via the ring color. Foreground is always visible and blends with the rings below.\r\n\r\n\r\n## Beat Clock\r\n\r\nWhen *Beat Clock* is enabled, rings pulse in sync with the detected BPM rather than raw audio amplitude — producing cleaner, rhythmic animations on tracks with steady tempo. *Auto BPM* switches from the configured BPM to real-time detected tempo instead.\r\n\r\n\r\n## Transparency\r\n\r\nEnabling *Transparent* removes the background fill, keeping only the rings and their glow for a minimal look suited to dark stages. Shadow effects remain active regardless of this setting.)",
+    "ko": "(Visualizes audio spectrum data as ring overlays on the ground plane, reacting to beats in real time.\r\n\r\n\r\n## Layout\r\n\r\nChoose between *Horizontal*, *Vertical*, or *Circle* layout. *Circle* wraps the visualization around the performer and works best with a round stage. In *Horizontal* or *Vertical* mode, the visualization extends along the floor in one direction.\r\n\r\n\r\n## Ring Settings\r\n\r\n**Size** scales the overall visualization area. **Depth** controls how far the visualization extends from the center. **Ring Size** adjusts the thickness of each ring. **Data Scale** multiplies the audio amplitude — amplify a weak signal or dampen a strong one. **Color Transition** controls how smoothly colors blend between rings; lower values produce crisp, separate bands.\r\n\r\n**Shape Shift** distorts the ring shape over time to create organic movement, while **Gap** sets the spacing between adjacent rings. **Align** offsets the rings relative to their start point — useful to fine-tune alignment with stage geometry.\r\n\r\n\r\n## Ring Color\r\n\r\nThe ring color uses a base color with a *Glow* intensity that can pulse with the beat. Presets include *Animated Hue* (slowly cycling through the spectrum) and *Glow w/ Music* (glow synced to the music, useful for emphasis on strong beats).\r\n\r\n\r\n## Background\r\n\r\nAn optional background layer sits behind the rings with its own color. A texture image can be applied; *Background Vibration* makes it shimmer with the audio, creating a reactive texture effect. Background is only visible when *Transparent* is disabled.\r\n\r\n\r\n## Foreground\r\n\r\nA foreground layer renders on top of the rings with independent color and texture control. *Foreground Scale* zooms the foreground texture; *Foreground Vibration* adds audio-reactive shimmer. The foreground's colors are multiplied by the ring color, so start with a bright foreground and tint it via the ring color. Foreground is always visible and blends with the rings below.\r\n\r\n\r\n## Beat Clock\r\n\r\nWhen *Beat Clock* is enabled, rings pulse in sync with the detected BPM rather than raw audio amplitude — producing cleaner, rhythmic animations on tracks with steady tempo. *Auto BPM* switches from the configured BPM to real-time detected tempo instead.\r\n\r\n\r\n## Transparency\r\n\r\nEnabling *Transparent* removes the background fill, keeping only the rings and their glow for a minimal look suited to dark stages. Shadow effects remain active regardless of this setting.)",
+    "zh-CN": "(Visualizes audio spectrum data as ring overlays on the ground plane, reacting to beats in real time.\r\n\r\n\r\n## Layout\r\n\r\nChoose between *Horizontal*, *Vertical*, or *Circle* layout. *Circle* wraps the visualization around the performer and works best with a round stage. In *Horizontal* or *Vertical* mode, the visualization extends along the floor in one direction.\r\n\r\n\r\n## Ring Settings\r\n\r\n**Size** scales the overall visualization area. **Depth** controls how far the visualization extends from the center. **Ring Size** adjusts the thickness of each ring. **Data Scale** multiplies the audio amplitude — amplify a weak signal or dampen a strong one. **Color Transition** controls how smoothly colors blend between rings; lower values produce crisp, separate bands.\r\n\r\n**Shape Shift** distorts the ring shape over time to create organic movement, while **Gap** sets the spacing between adjacent rings. **Align** offsets the rings relative to their start point — useful to fine-tune alignment with stage geometry.\r\n\r\n\r\n## Ring Color\r\n\r\nThe ring color uses a base color with a *Glow* intensity that can pulse with the beat. Presets include *Animated Hue* (slowly cycling through the spectrum) and *Glow w/ Music* (glow synced to the music, useful for emphasis on strong beats).\r\n\r\n\r\n## Background\r\n\r\nAn optional background layer sits behind the rings with its own color. A texture image can be applied; *Background Vibration* makes it shimmer with the audio, creating a reactive texture effect. Background is only visible when *Transparent* is disabled.\r\n\r\n\r\n## Foreground\r\n\r\nA foreground layer renders on top of the rings with independent color and texture control. *Foreground Scale* zooms the foreground texture; *Foreground Vibration* adds audio-reactive shimmer. The foreground's colors are multiplied by the ring color, so start with a bright foreground and tint it via the ring color. Foreground is always visible and blends with the rings below.\r\n\r\n\r\n## Beat Clock\r\n\r\nWhen *Beat Clock* is enabled, rings pulse in sync with the detected BPM rather than raw audio amplitude — producing cleaner, rhythmic animations on tracks with steady tempo. *Auto BPM* switches from the configured BPM to real-time detected tempo instead.\r\n\r\n\r\n## Transparency\r\n\r\nEnabling *Transparent* removes the background fill, keeping only the rings and their glow for a minimal look suited to dark stages. Shadow effects remain active regardless of this setting.)"
+  },
+  "values": [
+    {
+      "name": "Audio Visualizer",
+      "type": "group",
+      "label": "Audio Visualizer",
+      "labels": {
+        "ja": "オーディオビジュアライザー",
+        "zh-TW": "音訊視覺化器",
+        "ko": "오디오 시각화",
+        "zh-CN": "音频可视化工具"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Holds the ring visualization layout, colors, textures, and audio-reactive settings.",
+      "descriptions": {
+        "ja": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+        "zh-TW": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+        "ko": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)",
+        "zh-CN": "(Holds the ring visualization layout, colors, textures, and audio-reactive settings.)"
+      },
+      "values": [
+        {
+          "name": "Layout",
+          "type": "int",
+          "label": "Layout",
+          "labels": {
+            "ja": "レイアウト",
+            "zh-TW": "佈局",
+            "ko": "레이아웃",
+            "zh-CN": "布局"
+          },
+          "default": 2,
+          "min": 0,
+          "max": 2,
+          "options": ["Horizontal", "Vertical", "Circle"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Transparent",
+          "type": "bool",
+          "label": "Transparent",
+          "labels": {
+            "ja": "透明",
+            "zh-TW": "透明",
+            "ko": "투명",
+            "zh-CN": "透明"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Shadow",
+          "type": "float",
+          "label": "Shadow",
+          "labels": {
+            "ja": "シャドウ",
+            "zh-TW": "陰影",
+            "ko": "그림자",
+            "zh-CN": "阴影"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Radius",
+          "type": "float",
+          "label": "Radius",
+          "labels": {
+            "ja": "半径",
+            "zh-TW": "半徑",
+            "ko": "반지름",
+            "zh-CN": "半径"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Ring Size",
+          "type": "float",
+          "label": "Ring Size",
+          "labels": {
+            "ja": "リングサイズ",
+            "zh-TW": "環大小",
+            "ko": "링 크기",
+            "zh-CN": "环大小"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Data Scale",
+          "type": "float",
+          "label": "Data Scale",
+          "labels": {
+            "ja": "データスケール",
+            "zh-TW": "數據縮放",
+            "ko": "데이터 스케일",
+            "zh-CN": "数据比例"
+          },
+          "default": 1,
+          "min": -2,
+          "max": 2,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Color Transition",
+          "type": "float",
+          "label": "Color Transition",
+          "labels": {
+            "ja": "色の遷移",
+            "zh-TW": "顏色過渡",
+            "ko": "색상 전환",
+            "zh-CN": "颜色过渡"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Align",
+          "type": "float",
+          "label": "Align",
+          "labels": {
+            "ja": "アライメント",
+            "zh-TW": "對齊",
+            "ko": "정렬",
+            "zh-CN": "对齐"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Gap",
+          "type": "float",
+          "label": "Gap",
+          "labels": {
+            "ja": "間隔",
+            "zh-TW": "間隙",
+            "ko": "간격",
+            "zh-CN": "间隙"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Shape Shift",
+          "type": "float",
+          "label": "Shape Shift",
+          "labels": {
+            "ja": "シェイプシフト",
+            "zh-TW": "形狀變化",
+            "ko": "모양 변화",
+            "zh-CN": "形状变化"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Beat Clock",
+          "type": "bool",
+          "label": "Beat Clock",
+          "labels": {
+            "ja": "ビートクロック",
+            "zh-TW": "節拍計時器",
+            "ko": "비트 클럭",
+            "zh-CN": "节拍时钟"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Ring Color",
+          "type": "group",
+          "label": "Ring Color",
+          "labels": {
+            "ja": "リングの色",
+            "zh-TW": "環顏色",
+            "ko": "링 색상",
+            "zh-CN": "环颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
+          "descriptions": {
+            "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+            "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+            "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+            "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
+          },
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Glow",
+              "type": "float",
+              "label": "Glow",
+              "labels": {
+                "ja": "グロー",
+                "zh-TW": "發光",
+                "ko": "발광",
+                "zh-CN": "发光"
+              },
+              "default": 20,
+              "min": 0,
+              "max": 5,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Background Color",
+          "type": "group",
+          "label": "Background Color",
+          "labels": {
+            "ja": "背景色",
+            "zh-TW": "背景顏色",
+            "ko": "배경 색상",
+            "zh-CN": "背景颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
+          "descriptions": {
+            "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+            "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+            "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+            "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
+          },
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Glow",
+              "type": "float",
+              "label": "Glow",
+              "labels": {
+                "ja": "グロー",
+                "zh-TW": "發光",
+                "ko": "발광",
+                "zh-CN": "发光"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 5,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Background Image",
+          "type": "options",
+          "label": "Background Image",
+          "labels": {
+            "ja": "背景画像",
+            "zh-TW": "背景圖片",
+            "ko": "배경 이미지",
+            "zh-CN": "背景图像"
+          },
+          "default": "[None]",
+          "min": 0,
+          "max": 5,
+          "options": ["[None]", "[Wood1]", "[DanceXR]", "[Tiles]", "[Concrete]", "[Video]"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Background Vibration",
+          "type": "float",
+          "label": "Background Vibration",
+          "labels": {
+            "ja": "背景の振動",
+            "zh-TW": "背景震動",
+            "ko": "배경 진동",
+            "zh-CN": "背景振动"
+          },
+          "default": 0.25,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Foreground Color",
+          "type": "group",
+          "label": "Foreground Color",
+          "labels": {
+            "ja": "前景の色",
+            "zh-TW": "前景顏色",
+            "ko": "전경 색상",
+            "zh-CN": "前景颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
+          "descriptions": {
+            "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+            "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+            "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+            "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
+          },
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "色モード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "明度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Glow",
+              "type": "float",
+              "label": "Glow",
+              "labels": {
+                "ja": "グロー",
+                "zh-TW": "發光",
+                "ko": "발광",
+                "zh-CN": "发光"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 5,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Foreground Image",
+          "type": "options",
+          "label": "Foreground Image",
+          "labels": {
+            "ja": "前景画像",
+            "zh-TW": "前景圖片",
+            "ko": "전경 이미지",
+            "zh-CN": "前景图像"
+          },
+          "default": "[DanceXR]",
+          "min": 0,
+          "max": 5,
+          "options": ["[None]", "[Wood1]", "[DanceXR]", "[Tiles]", "[Concrete]", "[Video]"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Foreground Vibration",
+          "type": "float",
+          "label": "Foreground Vibration",
+          "labels": {
+            "ja": "前景の振動",
+            "zh-TW": "前景震動",
+            "ko": "전경 진동",
+            "zh-CN": "前景振动"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Foreground Scale",
+          "type": "float",
+          "label": "Foreground Scale",
+          "labels": {
+            "ja": "前景スケール",
+            "zh-TW": "前景縮放",
+            "ko": "전경 스케일",
+            "zh-CN": "前景比例"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Auto BPM",
+          "type": "bool",
+          "label": "Auto BPM",
+          "labels": {
+            "ja": "自動BPM",
+            "zh-TW": "自動BPM",
+            "ko": "자동 BPM",
+            "zh-CN": "自动BPM"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Use real-time automatically detected BPM instead of the set BPM.",
+          "descriptions": {
+            "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用します。",
+            "zh-TW": "使用實時自動偵測的BPM，而非設定的BPM。",
+            "ko": "설정된 BPM 대신 실시간으로 자동으로 감지된 BPM을 사용합니다.",
+            "zh-CN": "使用实时自动检测的 BPM，而不是设置的 BPM。"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Position",
+      "type": "group",
+      "label": "Position",
+      "labels": {
+        "ja": "位置",
+        "zh-TW": "位置",
+        "ko": "위치",
+        "zh-CN": "位置"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "X",
+          "type": "float",
+          "label": "X",
+          "labels": {
+            "ja": "(X)",
+            "zh-TW": "(X)",
+            "ko": "(X)",
+            "zh-CN": "(X)"
+          },
+          "default": 0,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Y",
+          "type": "float",
+          "label": "Y",
+          "labels": {
+            "ja": "(Y)",
+            "zh-TW": "(Y)",
+            "ko": "(Y)",
+            "zh-CN": "(Y)"
+          },
+          "default": 1.5,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Z",
+          "type": "float",
+          "label": "Z",
+          "labels": {
+            "ja": "(Z)",
+            "zh-TW": "(Z)",
+            "ko": "(Z)",
+            "zh-CN": "(Z)"
+          },
+          "default": 0,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rotation",
+      "type": "group",
+      "label": "Rotation",
+      "labels": {
+        "ja": "回転",
+        "zh-TW": "旋轉",
+        "ko": "회전",
+        "zh-CN": "旋转"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "X",
+          "type": "float",
+          "label": "X",
+          "labels": {
+            "ja": "(X)",
+            "zh-TW": "(X)",
+            "ko": "(X)",
+            "zh-CN": "(X)"
+          },
+          "default": 90,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Y",
+          "type": "float",
+          "label": "Y",
+          "labels": {
+            "ja": "(Y)",
+            "zh-TW": "(Y)",
+            "ko": "(Y)",
+            "zh-CN": "(Y)"
+          },
+          "default": 0,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Z",
+          "type": "float",
+          "label": "Z",
+          "labels": {
+            "ja": "(Z)",
+            "zh-TW": "(Z)",
+            "ko": "(Z)",
+            "zh-CN": "(Z)"
+          },
+          "default": 0,
+          "min": null,
+          "max": null,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Size",
+      "type": "float",
+      "label": "Size",
+      "labels": {
+        "ja": "サイズ",
+        "zh-TW": "尺寸",
+        "ko": "크기",
+        "zh-CN": "大小"
+      },
+      "default": 2,
+      "min": 0,
+      "max": 5,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Depth",
+      "type": "float",
+      "label": "Depth",
+      "labels": {
+        "ja": "奥行き",
+        "zh-TW": "深度",
+        "ko": "깊이",
+        "zh-CN": "深度"
+      },
+      "default": 5,
+      "min": 0,
+      "max": 10,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    }
+  ]
+}
