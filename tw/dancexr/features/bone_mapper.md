@@ -122,5 +122,4 @@ center → torso → torso2 → neck → head
 
 - [使用演員](../actors) — 演員生命週期和 PMX 對 XPS 對 FBX 路徑
 - [骨骼結構範例](bones) — 用於查找骨骼的參考骨架
-- [XPS 物理](xps_physics) — 映射完成後的物理骨架配置
 - [演員故障排除](troubleshooting) — 映射後仍然看起來有誤時的處理方法

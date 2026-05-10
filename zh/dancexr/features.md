@@ -88,9 +88,6 @@ feature_sections:
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: "Custom Inherit Motion: 骨骼设置，定义了如何从父骨骼继承动作，并支持自定义规则。"
-            link: /zh/dancexr/features/custom_inherit
-            image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
           - title: 示例骨骼结构
             link: /zh/dancexr/features/bones
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp

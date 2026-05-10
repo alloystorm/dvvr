@@ -119,9 +119,6 @@ A short reference for the terms used throughout DanceXR docs. If a page uses a w
 **Remix**
 : Pairing motion data from one dance set with the audio from another. DanceXR auto-adjusts speed to match. See [Remix motion](features/remix).
 
-**Custom inherit motion**
-: A user-defined inherit-bone setup, used to add or modify the bone-following relationships some PMX models rely on. See [Custom inherit motion](features/custom_inherit).
-
 ---
 
 ## Configuration and persistence

@@ -119,9 +119,6 @@ toc: true
 **混音（Remix）**
 ：將一個舞動集中的動作數據與另一個舞動集的音訊配對。DanceXR 會自動調整速度以匹配。參閱 [混音動作](features/remix)。
 
-**自訂繼承動作（Custom inherit motion）**
-：使用者定義的繼承骨骼設定，用於添加或修改某些 PMX 模型所依賴的骨骼跟隨關係。參閱 [自訂繼承動作](features/custom_inherit)。
-
 ---
 
 ## 配置和持久性

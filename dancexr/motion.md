@@ -75,7 +75,6 @@ When you want to combine or modify motions, four pages do related things — pic
 | Want | Use |
 |---|---|
 | Replace specific bones in a motion (fix arm clipping, swap face) | [Motion override](features/motion_override) |
-| Author or modify the bone-following relationships PMX inherit-bones use | [Custom inherit motion](features/custom_inherit) |
 | Pair motion from one dance set with audio from another | [Remix motion](features/remix) |
 
 Motion passes layer; override masks per-bone; inherit motion changes what counts as following what; remix is a higher-level swap of audio under the same motion.

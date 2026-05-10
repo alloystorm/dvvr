@@ -119,9 +119,6 @@ toc: true
 **混音 (Remix)**
 : 将一个舞动场景的动画数据与另一个舞动场景的音频进行配对。DanceXR 会自动调整速度以匹配。了解 [混音动画](features/remix)。
 
-**自定义继承动画 (Custom inherit motion)**
-: 用户定义的继承骨骼设置，用于添加或修改某些 PMX 模型所依赖的骨骼跟随关系。了解 [自定义继承动画](features/custom_inherit)。
-
 ---
 
 ## 配置和持久性

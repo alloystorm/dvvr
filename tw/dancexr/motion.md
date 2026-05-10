@@ -74,7 +74,6 @@ DanceXR 中的動作來自多個來源，並在多個層級進行配置，這些
 |---|---|
 | 同一個演員同時播放兩個動作（例如：舞蹈動作加上手部揮動） | [動作傳遞](features/motion_passes) |
 | 替換動作中的特定骨骼（修復手臂穿模、交換臉部） | [動作覆蓋](features/motion_override) |
-| 編寫或修改 PMX *繼承骨骼* 使用的骨骼跟隨關係 | [自定義繼承動作](features/custom_inherit) |
 | 將一個舞步集中的動作與來自另一個舞步集的音訊配對 | [混音動作](features/remix) |
 
 動作傳遞（Motion passes）用於分層；覆蓋（override）用於單骨骼遮罩；繼承動作（inherit motion）改變了什麼計為跟隨什麼；混音（remix）是在同一動作基礎上，更高層級的音訊替換。
