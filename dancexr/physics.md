@@ -30,6 +30,7 @@ The physics tools are a collection of tools that allow you to quickly set up phy
 - [Boobs physics](features/boobs_physics) — joint-based jiggle on breast bones, with counter-gravity to compensate for the constant downward pull. 
 - [Soft body physics](features/softbody_physics) — connecting bones with a mesh of spring force constraints to simulate volumetric deformation on body parts like butts and thighs.
 - [Detach object](features/detach_object) — release a bone or object so you can remove certain parts by making it drop off. Useful when they don't have separate materials to hide them with transparency.
+- [Auto Reset](features/auto_reset) — automatically reset physics components when velocity reaches a certain threshold, to prevent explosions.
 
 Demo video:
 {% include video id="-IZTzHUpROs" provider="youtube" %}
@@ -61,6 +62,7 @@ You can control the physics behavior with the following settings.
     - [Boobs physics](features/boobs_physics) — spring force, damping, collider radius, bone selection, and counter-gravity for boobs physics.
     - [Soft body physics](features/softbody_physics) — particle size, constraint compliance, and bone selection for soft body physics.
     - [Detach object](features/detach_object) — bone selection for detach object.
+    - [Auto Reset](features/auto_reset) — velocity threshold for auto reset.
 - [Cloth Simulation settings](features/cloth_simulation) — mesh creation parameters, simulation parameters, and collider adjustments for cloth simulation. It includes
     - Cloth Mesh 1
     - Cloth Mesh 2
