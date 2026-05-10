@@ -26,10 +26,11 @@ XPS 및 FBX 모델의 경우, 일반적인 사용 사례에 맞춰진 제공된 
 - [바디 충돌체](features/body_colliders) — 액터 몸통을 따라 위치한 캡슐 충돌체로, 자유롭게 움직이는 부위(머리카락, 천, 치마)가 몸통을 관통(클리핑)하는 대신 몸통과 충돌하도록 합니다.
 - [머리카락 물리](features/hair_physics) — 머리를 뿌리로 하는 본 트리에서의 스프링 본 시뮬레이션입니다. 루트 본을 설정하고 DanceXR이 자식 본을 순회하며 리깅을 만듭니다.
 - [치마 물리](features/skirt_physics) — 수평 연결(메시와 같은)이 있는 체인 물리로, 치마나 밑단에 적합합니다.
-- [늘어지는 장식 물리](features/dangling_physics) — 수평 연결이 없는 체인 물리로, 리본, 끈, 귀걸이 체인, 동물 꼬리 등 매달리는 모든 것에 적합합니다.
+- [늘어지는 장식 물리](features/dangling_physics) — 수평 연결이 없는 체인 물리로, 리본, 끈, 귀걸이 체인, 동물 꼬리, 매달리는 모든 것에 적합합니다.
 - [가슴 물리](features/boobs_physics) — 가슴 본에 관절 기반의 흔들림(jiggle)을 적용하며, 지속적인 아래로의 당김을 보상하는 반중력 기능을 갖춥니다.
 - [소프트 바디 물리](features/softbody_physics) — 연결 본과 스프링 힘 제약 메쉬를 사용하여 엉덩이와 허벅지 같은 신체 부위의 부피 변형을 시뮬레이션합니다.
 - [객체 분리](features/detach_object) — 본이나 객체를 분리하여 특정 부분을 떨어지게 함으로써 제거할 수 있습니다. 투명도로 가릴 별도의 재질이 없는 경우 유용합니다.
+- [자동 초기화](features/auto_reset) — 폭발을 방지하기 위해 속도가 특정 임계값에 도달할 때 물리 컴포넌트를 자동으로 초기화합니다.
 
 데모 비디오:
 {% include video id="-IZTzHUpROs" provider="youtube" %}
@@ -61,6 +62,7 @@ XPS 및 FBX 모델의 경우, 일반적인 사용 사례에 맞춰진 제공된 
     - [가슴 물리](features/boobs_physics) — 스프링 힘, 감쇠, 충돌체 반지름, 본 선택 및 가슴 물리용 반중력.
     - [소프트 바디 물리](features/softbody_physics) — 입자 크기, 제약 조건 준수도 및 소프트 바디 물리용 본 선택.
     - [객체 분리](features/detach_object) — 분리할 객체용 본 선택.
+    - [자동 초기화](features/auto_reset) — 자동 초기화를 위한 속도 임계값.
 - [천 시뮬레이션 설정](features/cloth_simulation) — 천 시뮬레이션용 메쉬 생성 매개변수, 시뮬레이션 매개변수 및 충돌체 조정. 다음을 포함합니다:
     - Cloth Mesh 1
     - Cloth Mesh 2

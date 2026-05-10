@@ -1,6 +1,6 @@
 ---
 layout: release
-title: ## T台走步
+title: T台动作
 locale: zh-CN
 toc: true
 ---
@@ -22,25 +22,8 @@ toc: true
 ## 行为
 
 - 角色沿着场景的Z轴向前行走（或走向目标点 — <!-- TODO: confirm whether target selection is exposed -->）。
-- 步态节拍是程序化的；如果设置了音乐BPM（[音乐时机](music_timing)），则步子可以与节拍同步。
+- 步态节拍是程序化的；如果设置了音乐BPM ([Music Timing](music_timing))，则步子可以与节拍同步。
 - 该动作会循环；角色会持续行走，直到您停止它或分配其他动作。
-
----
-
-## 设置
-
-<!-- TODO: confirm exact slider names. Likely candidates:
-- Walk speed
-- Stride length
-- Hip sway intensity
-- Arm swing intensity
-- Direction / target -->
-
----
-
-## 与其他动作的搭配
-
-猫步运动非常适合作为**二次动作**，叠加在面部/面部表情轨道上（[二次动作](secondary_motion)，[动作传达](motion_passes)）。建议使用[脚部调整](feet_adjustment)进行足底调整，以确保程序化脚步能够正确地固定着地。
 
 ---
 
