@@ -17,3 +17,10 @@ The nested **Particle Props** panel defines global physics
 properties like stiffness, damping, and gravity multiplier that
 apply to all converted meshes.
 
+
+# Sub-Components
+
+## Particle Properties
+
+Holds particle size, mass, damping, gravity, friction, and collision layers for the XPBD physics system used in PMX physics mode.
+

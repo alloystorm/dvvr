@@ -74,6 +74,10 @@ positions and rotations. The cloth spans between these two
 anchor rings, with attraction strength controlling how
 tightly particles follow the anchor bones during simulation.
 
+### Particle Properties
+
+Holds particle size, mass, damping, gravity, friction, and collision layers for the XPBD physics system used in PMX physics mode.
+
 ## C1 Material
 
 Configures the surface appearance of a cloth mesh. Supports
@@ -133,6 +137,10 @@ upper and lower attachment points using bone-relative
 positions and rotations. The cloth spans between these two
 anchor rings, with attraction strength controlling how
 tightly particles follow the anchor bones during simulation.
+
+### Particle Properties
+
+Holds particle size, mass, damping, gravity, friction, and collision layers for the XPBD physics system used in PMX physics mode.
 
 ## C2 Material
 
