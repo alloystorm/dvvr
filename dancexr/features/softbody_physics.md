@@ -87,18 +87,283 @@ particle stiffness — higher values mean less deformation.
 **Show Bones** renders the original skeleton bones alongside the
 particle mesh for comparison.
 
-## Groups 2–8
+## Group 2
 
-Groups 2 through 8 expose **identical settings** to the Primary Group
-documented above (bone picker, **Use Suspension**, anchor controls,
-and the nested XPBD particle panel). Each additional group can
-either inherit the Primary Group's physics settings (via **Use
-Primary Group Settings**) or define its own.
+Defines a softbody simulation group. Select bones via the
+bone picker; child bones of selected roots become softbody
+particles. Optional **Suspension** adds anchor joints to
+root bones. **Anchor Along Axis** and **Anchor Offset**
+control the softbody attachment point. Non-primary groups
+can inherit the primary group's physics settings. The
+nested XPBD panel defines particle stiffness, damping,
+and collision parameters.
 
-Use additional groups when one model needs **multiple separate
-softbody zones** that should not share particles — for example, a
-chest group plus a butts group plus a thighs group, each with its
-own particle resolution and constraints. If the same physics
-parameters fit every zone, leave them on the Primary Group's
-settings to keep configuration centralized.
+### Use Suspension
+
+Adds a spring-damper suspension joint to a bone, anchoring
+it to its parent with configurable **Anchor** position and
+**Center Offset**. **Spring Force**, **Damping**, **Mass**,
+and **Drag** control the joint dynamics. **Radius** sets
+the collider size; **Rest Angle** adds a rotational bias.
+**Rotation Limit** constrains swing and twist angles with
+their own spring and damping. **Visualize Joints** renders
+the constraint shape.
+
+### XPBD
+
+Defines a particle-based XPBD softbody mesh that deforms with
+physics. Child bones of each selected root become simulation
+particles arranged in layers extending outward. **Depth** controls
+how far particles extend from the bone; **Edge Depth** pulls edge
+particles closer to the skeleton for a tighter fit. **Layers**
+and **Subdivision** increase mesh resolution at the cost of
+performance. **Depth Distribution** shifts volume between inner
+and outer layers.
+
+The constraint sliders (**Volume**, **Edge**, **Rotation**) control
+particle stiffness — higher values mean less deformation.
+**Constraint Damping** smooths oscillation between solver steps.
+**Inertia** adds resistance to rapid movement changes.
+**Show Bones** renders the original skeleton bones alongside the
+particle mesh for comparison.
+
+## Group 3
+
+Defines a softbody simulation group. Select bones via the
+bone picker; child bones of selected roots become softbody
+particles. Optional **Suspension** adds anchor joints to
+root bones. **Anchor Along Axis** and **Anchor Offset**
+control the softbody attachment point. Non-primary groups
+can inherit the primary group's physics settings. The
+nested XPBD panel defines particle stiffness, damping,
+and collision parameters.
+
+### Use Suspension
+
+Adds a spring-damper suspension joint to a bone, anchoring
+it to its parent with configurable **Anchor** position and
+**Center Offset**. **Spring Force**, **Damping**, **Mass**,
+and **Drag** control the joint dynamics. **Radius** sets
+the collider size; **Rest Angle** adds a rotational bias.
+**Rotation Limit** constrains swing and twist angles with
+their own spring and damping. **Visualize Joints** renders
+the constraint shape.
+
+### XPBD
+
+Defines a particle-based XPBD softbody mesh that deforms with
+physics. Child bones of each selected root become simulation
+particles arranged in layers extending outward. **Depth** controls
+how far particles extend from the bone; **Edge Depth** pulls edge
+particles closer to the skeleton for a tighter fit. **Layers**
+and **Subdivision** increase mesh resolution at the cost of
+performance. **Depth Distribution** shifts volume between inner
+and outer layers.
+
+The constraint sliders (**Volume**, **Edge**, **Rotation**) control
+particle stiffness — higher values mean less deformation.
+**Constraint Damping** smooths oscillation between solver steps.
+**Inertia** adds resistance to rapid movement changes.
+**Show Bones** renders the original skeleton bones alongside the
+particle mesh for comparison.
+
+## Group 4
+
+Defines a softbody simulation group. Select bones via the
+bone picker; child bones of selected roots become softbody
+particles. Optional **Suspension** adds anchor joints to
+root bones. **Anchor Along Axis** and **Anchor Offset**
+control the softbody attachment point. Non-primary groups
+can inherit the primary group's physics settings. The
+nested XPBD panel defines particle stiffness, damping,
+and collision parameters.
+
+### Use Suspension
+
+Adds a spring-damper suspension joint to a bone, anchoring
+it to its parent with configurable **Anchor** position and
+**Center Offset**. **Spring Force**, **Damping**, **Mass**,
+and **Drag** control the joint dynamics. **Radius** sets
+the collider size; **Rest Angle** adds a rotational bias.
+**Rotation Limit** constrains swing and twist angles with
+their own spring and damping. **Visualize Joints** renders
+the constraint shape.
+
+### XPBD
+
+Defines a particle-based XPBD softbody mesh that deforms with
+physics. Child bones of each selected root become simulation
+particles arranged in layers extending outward. **Depth** controls
+how far particles extend from the bone; **Edge Depth** pulls edge
+particles closer to the skeleton for a tighter fit. **Layers**
+and **Subdivision** increase mesh resolution at the cost of
+performance. **Depth Distribution** shifts volume between inner
+and outer layers.
+
+The constraint sliders (**Volume**, **Edge**, **Rotation**) control
+particle stiffness — higher values mean less deformation.
+**Constraint Damping** smooths oscillation between solver steps.
+**Inertia** adds resistance to rapid movement changes.
+**Show Bones** renders the original skeleton bones alongside the
+particle mesh for comparison.
+
+## Group 5
+
+Defines a softbody simulation group. Select bones via the
+bone picker; child bones of selected roots become softbody
+particles. Optional **Suspension** adds anchor joints to
+root bones. **Anchor Along Axis** and **Anchor Offset**
+control the softbody attachment point. Non-primary groups
+can inherit the primary group's physics settings. The
+nested XPBD panel defines particle stiffness, damping,
+and collision parameters.
+
+### Use Suspension
+
+Adds a spring-damper suspension joint to a bone, anchoring
+it to its parent with configurable **Anchor** position and
+**Center Offset**. **Spring Force**, **Damping**, **Mass**,
+and **Drag** control the joint dynamics. **Radius** sets
+the collider size; **Rest Angle** adds a rotational bias.
+**Rotation Limit** constrains swing and twist angles with
+their own spring and damping. **Visualize Joints** renders
+the constraint shape.
+
+### XPBD
+
+Defines a particle-based XPBD softbody mesh that deforms with
+physics. Child bones of each selected root become simulation
+particles arranged in layers extending outward. **Depth** controls
+how far particles extend from the bone; **Edge Depth** pulls edge
+particles closer to the skeleton for a tighter fit. **Layers**
+and **Subdivision** increase mesh resolution at the cost of
+performance. **Depth Distribution** shifts volume between inner
+and outer layers.
+
+The constraint sliders (**Volume**, **Edge**, **Rotation**) control
+particle stiffness — higher values mean less deformation.
+**Constraint Damping** smooths oscillation between solver steps.
+**Inertia** adds resistance to rapid movement changes.
+**Show Bones** renders the original skeleton bones alongside the
+particle mesh for comparison.
+
+## Group 6
+
+Defines a softbody simulation group. Select bones via the
+bone picker; child bones of selected roots become softbody
+particles. Optional **Suspension** adds anchor joints to
+root bones. **Anchor Along Axis** and **Anchor Offset**
+control the softbody attachment point. Non-primary groups
+can inherit the primary group's physics settings. The
+nested XPBD panel defines particle stiffness, damping,
+and collision parameters.
+
+### Use Suspension
+
+Adds a spring-damper suspension joint to a bone, anchoring
+it to its parent with configurable **Anchor** position and
+**Center Offset**. **Spring Force**, **Damping**, **Mass**,
+and **Drag** control the joint dynamics. **Radius** sets
+the collider size; **Rest Angle** adds a rotational bias.
+**Rotation Limit** constrains swing and twist angles with
+their own spring and damping. **Visualize Joints** renders
+the constraint shape.
+
+### XPBD
+
+Defines a particle-based XPBD softbody mesh that deforms with
+physics. Child bones of each selected root become simulation
+particles arranged in layers extending outward. **Depth** controls
+how far particles extend from the bone; **Edge Depth** pulls edge
+particles closer to the skeleton for a tighter fit. **Layers**
+and **Subdivision** increase mesh resolution at the cost of
+performance. **Depth Distribution** shifts volume between inner
+and outer layers.
+
+The constraint sliders (**Volume**, **Edge**, **Rotation**) control
+particle stiffness — higher values mean less deformation.
+**Constraint Damping** smooths oscillation between solver steps.
+**Inertia** adds resistance to rapid movement changes.
+**Show Bones** renders the original skeleton bones alongside the
+particle mesh for comparison.
+
+## Group 7
+
+Defines a softbody simulation group. Select bones via the
+bone picker; child bones of selected roots become softbody
+particles. Optional **Suspension** adds anchor joints to
+root bones. **Anchor Along Axis** and **Anchor Offset**
+control the softbody attachment point. Non-primary groups
+can inherit the primary group's physics settings. The
+nested XPBD panel defines particle stiffness, damping,
+and collision parameters.
+
+### Use Suspension
+
+Adds a spring-damper suspension joint to a bone, anchoring
+it to its parent with configurable **Anchor** position and
+**Center Offset**. **Spring Force**, **Damping**, **Mass**,
+and **Drag** control the joint dynamics. **Radius** sets
+the collider size; **Rest Angle** adds a rotational bias.
+**Rotation Limit** constrains swing and twist angles with
+their own spring and damping. **Visualize Joints** renders
+the constraint shape.
+
+### XPBD
+
+Defines a particle-based XPBD softbody mesh that deforms with
+physics. Child bones of each selected root become simulation
+particles arranged in layers extending outward. **Depth** controls
+how far particles extend from the bone; **Edge Depth** pulls edge
+particles closer to the skeleton for a tighter fit. **Layers**
+and **Subdivision** increase mesh resolution at the cost of
+performance. **Depth Distribution** shifts volume between inner
+and outer layers.
+
+The constraint sliders (**Volume**, **Edge**, **Rotation**) control
+particle stiffness — higher values mean less deformation.
+**Constraint Damping** smooths oscillation between solver steps.
+**Inertia** adds resistance to rapid movement changes.
+**Show Bones** renders the original skeleton bones alongside the
+particle mesh for comparison.
+
+## Group 8
+
+Defines a softbody simulation group. Select bones via the
+bone picker; child bones of selected roots become softbody
+particles. Optional **Suspension** adds anchor joints to
+root bones. **Anchor Along Axis** and **Anchor Offset**
+control the softbody attachment point. Non-primary groups
+can inherit the primary group's physics settings. The
+nested XPBD panel defines particle stiffness, damping,
+and collision parameters.
+
+### Use Suspension
+
+Adds a spring-damper suspension joint to a bone, anchoring
+it to its parent with configurable **Anchor** position and
+**Center Offset**. **Spring Force**, **Damping**, **Mass**,
+and **Drag** control the joint dynamics. **Radius** sets
+the collider size; **Rest Angle** adds a rotational bias.
+**Rotation Limit** constrains swing and twist angles with
+their own spring and damping. **Visualize Joints** renders
+the constraint shape.
+
+### XPBD
+
+Defines a particle-based XPBD softbody mesh that deforms with
+physics. Child bones of each selected root become simulation
+particles arranged in layers extending outward. **Depth** controls
+how far particles extend from the bone; **Edge Depth** pulls edge
+particles closer to the skeleton for a tighter fit. **Layers**
+and **Subdivision** increase mesh resolution at the cost of
+performance. **Depth Distribution** shifts volume between inner
+and outer layers.
+
+The constraint sliders (**Volume**, **Edge**, **Rotation**) control
+particle stiffness — higher values mean less deformation.
+**Constraint Damping** smooths oscillation between solver steps.
+**Inertia** adds resistance to rapid movement changes.
+**Show Bones** renders the original skeleton bones alongside the
+particle mesh for comparison.
 

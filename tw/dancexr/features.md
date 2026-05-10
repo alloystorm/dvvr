@@ -163,13 +163,13 @@ feature_sections:
             image: /images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp
             badge: 2026.2
             badge_type: new
-          - title: 頭髮材質
+          - title: 髮絲材質
             link: /tw/dancexr/features/material_hair
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
-          - title: 眼睛材質
+          - title: 眼材質
             link: /tw/dancexr/features/material_eyes
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
-          - title: 唇部材質
+          - title: 嘴唇材質
             link: /tw/dancexr/features/material_lips
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
           - title: 不透明材料
@@ -218,9 +218,6 @@ feature_sections:
     subsections:
       - title: 模擬
         tiles:
-          - title: 物理學
-            link: /tw/dancexr/features/physics
-            image: /images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp
           - title: 模擬
             link: /tw/dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
@@ -254,13 +251,8 @@ feature_sections:
             image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
             badge: PRO
             badge_type: pro
-      - title: XPS 物理
+      - title: 物理工具
         tiles:
-          - title: XPS 物理學
-            link: /tw/dancexr/features/xps_physics
-            image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
-            badge: PRO
-            badge_type: pro
           - title: 身體碰撞器
             link: /tw/dancexr/features/body_colliders
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
@@ -278,7 +270,7 @@ feature_sections:
             image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: Softbody 物理
+          - title: Softbody 物理學
             link: /tw/dancexr/features/softbody_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
             badge: PRO
@@ -292,18 +284,18 @@ feature_sections:
     subsections:
       - title: 程序化動作
         tiles:
-          - title: 閒置動作
+          - title: 待機動畫
             link: /tw/dancexr/features/idle_motion
             image: /images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp
-          - title: 猫步动作
+          - title: T台走動
             link: /tw/dancexr/features/catwalk
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
-          - title: 自動跳舞
+          - title: 自動舞蹈
             link: /tw/dancexr/features/autodance
             image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 自動舞蹈2
+          - title: Auto Dance 2
             link: /tw/dancexr/features/autodance2
             image: /images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp
             badge: PRO
@@ -324,7 +316,7 @@ feature_sections:
           - title: 逼真動作
             link: /tw/dancexr/features/lifelike_motions
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
-          - title: 演員動作設置
+          - title: 動態設定
             link: /tw/dancexr/features/motion_settings
             image: /images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp
       - title: 音訊與視訊
@@ -436,7 +428,7 @@ feature_sections:
           - title: 道具
             link: /tw/dancexr/features/props
             image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
-          - title: 原始形狀
+          - title: 基本形狀
             link: /tw/dancexr/features/primitive_shapes
             image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
           - title: 螢幕
@@ -445,7 +437,7 @@ feature_sections:
           - title: 鏡子
             link: /tw/dancexr/features/mirror
             image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
-          - title: 激光系統
+          - title: 雷射
             link: /tw/dancexr/features/laser
             image: /images/slideshows/environment/35e7dbc7eff97344e4b4ebb5e68a0f3a74d085eb.jpg
             badge: 2024.3 · PRO
@@ -455,7 +447,7 @@ feature_sections:
             image: /images/slideshows/tools/DanceXR%201.4.5%20New%20AutoUpdate%20Options%20for%20Audio%20Visualization%20%5BA00DhbCOgu0%5D.webp
       - title: 場景與渲染
         tiles:
-          - title: 保存場景
+          - title: 儲存場景
             link: /tw/dancexr/features/save_scene
             image: /images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp
           - title: 場景包
@@ -463,7 +455,7 @@ feature_sections:
             image: /images/slideshows/environment/Leifang%20-%20As%20You%20Like%20It%20-%20Group%20Dance%20%5BZgmCbzNs7EU%5D.webp
             badge: 2024.1 · PRO
             badge_type: pro
-          - title: 光線追踪效果
+          - title: 光線追蹤效果
             link: /tw/dancexr/features/raytracing
             image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
             badge: PC
@@ -563,15 +555,15 @@ feature_sections:
         link: /tw/dancexr/features/smo_config
         badge: NSFW
         badge_type: nsfw
-      - title: 仿真陽具
+      - title: Dildo
         link: /tw/dancexr/features/dildo
         badge: NSFW
         badge_type: nsfw
-      - title: Cowgirl 性愛動作
+      - title: 騎乘式性愛動作 (Cowgirl Sex Motion)
         link: /tw/dancexr/features/scg_motion
         badge: NSFW
         badge_type: nsfw
-      - title: 性愛運動2
+      - title: 性愛動作 2
         link: /tw/dancexr/features/sfb_motion
         badge: NSFW
         badge_type: nsfw

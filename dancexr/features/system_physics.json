@@ -1,0 +1,398 @@
+{
+  "name": "Physics",
+  "docPath": "features/system_physics",
+  "label": "Physics",
+  "labels": {
+    "ja": "物理",
+    "zh-TW": "物理",
+    "ko": "물리",
+    "zh-CN": "物理"
+  },
+  "description": "Global physics engine selection, timestep settings, and gravity for the scene.\r\n\r\n\r\n## Default Engines\r\n\r\n**PMX Default** sets the physics engine used for PMX models with built-in rigidbodies and joints (hair, skirts, accessories). Choose *PhysX* for Unity's joint-based physics, *XPBD* for a particle-based simulation, or *Off* to disable and free those bones for the XPS custom physics tools.\r\n\r\n**Custom Physics Default** sets the engine for the XPS tools (Hair Physics, Cloth Physics, Softbody, etc.). XPBD is more stable for cloth; PhysX may be faster on some hardware.\r\n\r\n\r\n## PhysX Settings\r\n\r\n**Gravity** sets the downward force applied to all rigidbodies. Set it to zero for a zero-gravity stage. **Disable Collision** prevents XPS particle systems from colliding with each other, which can reduce jitter when multiple soft bodies interact.\r\n\r\n\r\n## XPBD Settings\r\n\r\nHolds simulation parameters for the XPBD engine — see the XPBD Settings sub-data for details.\r\n\r\n\r\n## Time\r\n\r\n**Time Scale** slows or accelerates the physics simulation independently of animation playback speed. Lower values make particles and soft bodies move in slow motion. **Physics FPS** locks the simulation to a fixed timestep: lower values reduce CPU load, higher values improve stability at the cost of performance. *Flexible* lets the simulation run at the render framerate.",
+  "descriptions": {
+    "ja": "(Global physics engine selection, timestep settings, and gravity for the scene.\r\n\r\n\r\n## Default Engines\r\n\r\n**PMX Default** sets the physics engine used for PMX models with built-in rigidbodies and joints (hair, skirts, accessories). Choose *PhysX* for Unity's joint-based physics, *XPBD* for a particle-based simulation, or *Off* to disable and free those bones for the XPS custom physics tools.\r\n\r\n**Custom Physics Default** sets the engine for the XPS tools (Hair Physics, Cloth Physics, Softbody, etc.). XPBD is more stable for cloth; PhysX may be faster on some hardware.\r\n\r\n\r\n## PhysX Settings\r\n\r\n**Gravity** sets the downward force applied to all rigidbodies. Set it to zero for a zero-gravity stage. **Disable Collision** prevents XPS particle systems from colliding with each other, which can reduce jitter when multiple soft bodies interact.\r\n\r\n\r\n## XPBD Settings\r\n\r\nHolds simulation parameters for the XPBD engine — see the XPBD Settings sub-data for details.\r\n\r\n\r\n## Time\r\n\r\n**Time Scale** slows or accelerates the physics simulation independently of animation playback speed. Lower values make particles and soft bodies move in slow motion. **Physics FPS** locks the simulation to a fixed timestep: lower values reduce CPU load, higher values improve stability at the cost of performance. *Flexible* lets the simulation run at the render framerate.)",
+    "zh-TW": "(Global physics engine selection, timestep settings, and gravity for the scene.\r\n\r\n\r\n## Default Engines\r\n\r\n**PMX Default** sets the physics engine used for PMX models with built-in rigidbodies and joints (hair, skirts, accessories). Choose *PhysX* for Unity's joint-based physics, *XPBD* for a particle-based simulation, or *Off* to disable and free those bones for the XPS custom physics tools.\r\n\r\n**Custom Physics Default** sets the engine for the XPS tools (Hair Physics, Cloth Physics, Softbody, etc.). XPBD is more stable for cloth; PhysX may be faster on some hardware.\r\n\r\n\r\n## PhysX Settings\r\n\r\n**Gravity** sets the downward force applied to all rigidbodies. Set it to zero for a zero-gravity stage. **Disable Collision** prevents XPS particle systems from colliding with each other, which can reduce jitter when multiple soft bodies interact.\r\n\r\n\r\n## XPBD Settings\r\n\r\nHolds simulation parameters for the XPBD engine — see the XPBD Settings sub-data for details.\r\n\r\n\r\n## Time\r\n\r\n**Time Scale** slows or accelerates the physics simulation independently of animation playback speed. Lower values make particles and soft bodies move in slow motion. **Physics FPS** locks the simulation to a fixed timestep: lower values reduce CPU load, higher values improve stability at the cost of performance. *Flexible* lets the simulation run at the render framerate.)",
+    "ko": "(Global physics engine selection, timestep settings, and gravity for the scene.\r\n\r\n\r\n## Default Engines\r\n\r\n**PMX Default** sets the physics engine used for PMX models with built-in rigidbodies and joints (hair, skirts, accessories). Choose *PhysX* for Unity's joint-based physics, *XPBD* for a particle-based simulation, or *Off* to disable and free those bones for the XPS custom physics tools.\r\n\r\n**Custom Physics Default** sets the engine for the XPS tools (Hair Physics, Cloth Physics, Softbody, etc.). XPBD is more stable for cloth; PhysX may be faster on some hardware.\r\n\r\n\r\n## PhysX Settings\r\n\r\n**Gravity** sets the downward force applied to all rigidbodies. Set it to zero for a zero-gravity stage. **Disable Collision** prevents XPS particle systems from colliding with each other, which can reduce jitter when multiple soft bodies interact.\r\n\r\n\r\n## XPBD Settings\r\n\r\nHolds simulation parameters for the XPBD engine — see the XPBD Settings sub-data for details.\r\n\r\n\r\n## Time\r\n\r\n**Time Scale** slows or accelerates the physics simulation independently of animation playback speed. Lower values make particles and soft bodies move in slow motion. **Physics FPS** locks the simulation to a fixed timestep: lower values reduce CPU load, higher values improve stability at the cost of performance. *Flexible* lets the simulation run at the render framerate.)",
+    "zh-CN": "(Global physics engine selection, timestep settings, and gravity for the scene.\r\n\r\n\r\n## Default Engines\r\n\r\n**PMX Default** sets the physics engine used for PMX models with built-in rigidbodies and joints (hair, skirts, accessories). Choose *PhysX* for Unity's joint-based physics, *XPBD* for a particle-based simulation, or *Off* to disable and free those bones for the XPS custom physics tools.\r\n\r\n**Custom Physics Default** sets the engine for the XPS tools (Hair Physics, Cloth Physics, Softbody, etc.). XPBD is more stable for cloth; PhysX may be faster on some hardware.\r\n\r\n\r\n## PhysX Settings\r\n\r\n**Gravity** sets the downward force applied to all rigidbodies. Set it to zero for a zero-gravity stage. **Disable Collision** prevents XPS particle systems from colliding with each other, which can reduce jitter when multiple soft bodies interact.\r\n\r\n\r\n## XPBD Settings\r\n\r\nHolds simulation parameters for the XPBD engine — see the XPBD Settings sub-data for details.\r\n\r\n\r\n## Time\r\n\r\n**Time Scale** slows or accelerates the physics simulation independently of animation playback speed. Lower values make particles and soft bodies move in slow motion. **Physics FPS** locks the simulation to a fixed timestep: lower values reduce CPU load, higher values improve stability at the cost of performance. *Flexible* lets the simulation run at the render framerate.)"
+  },
+  "values": [
+    {
+      "name": "PMX Default",
+      "type": "options",
+      "label": "PMX Default",
+      "labels": {
+        "ja": "PMXデフォルト",
+        "zh-TW": "PMX 預設",
+        "ko": "PMX 기본값",
+        "zh-CN": "PMX 默认"
+      },
+      "default": "PhysX",
+      "min": 0,
+      "max": 2,
+      "options": ["PhysX", "XPBD", "Off"],
+      "description": "Choose physics engine for PMX physics. You can override this for each model too.",
+      "descriptions": {
+        "ja": "PMX物理学用の物理エンジンを選択します。各モデルについても上書きできます。",
+        "zh-TW": "為 PMX 物理學選擇物理引擎。您也可以針對每個模型覆蓋此設定。",
+        "ko": "PMX 물리를 위한 물리 엔진을 선택합니다. 각 모델별로도 재정의할 수 있습니다.",
+        "zh-CN": "为 PMX 物理选择物理引擎。您也可以为每个模型覆盖此设置。"
+      }
+    },
+    {
+      "name": "Custom Physics Default",
+      "type": "options",
+      "label": "Custom Physics Default",
+      "labels": {
+        "ja": "カスタム物理学のデフォルト",
+        "zh-TW": "自訂物理預設",
+        "ko": "사용자 정의 물리 기본값",
+        "zh-CN": "自定义物理默认"
+      },
+      "default": "XPBD",
+      "min": 0,
+      "max": 1,
+      "options": ["PhysX", "XPBD"],
+      "description": "Choose physics engine for custom physics tools like hair, skirt and softbody.",
+      "descriptions": {
+        "ja": "ヘア、スカート、ソフトボディなどのカスタム物理ツール用の物理エンジンを選択します。",
+        "zh-TW": "為自訂物理工具（如頭髮、裙子和軟體）選擇物理引擎。",
+        "ko": "헤어, 치마, 소프트 바디와 같은 사용자 정의 물리 도구를 위한 물리 엔진을 선택합니다.",
+        "zh-CN": "为自定义物理工具（如头发、裙子和软体）选择物理引擎。"
+      }
+    },
+    {
+      "name": "PhysX Settings",
+      "type": "group",
+      "label": "PhysX Settings",
+      "labels": {
+        "ja": "PhysX設定",
+        "zh-TW": "PhysX 設定",
+        "ko": "PhysX 설정",
+        "zh-CN": "PhysX 设置"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "PhysX is the standard rigidbody physics engine.",
+      "descriptions": {
+        "ja": "PhysXは標準の剛体物理エンジンです。",
+        "zh-TW": "PhysX 是標準的剛體物理引擎。",
+        "ko": "PhysX는 표준 강체 물리 엔진입니다.",
+        "zh-CN": "PhysX 是标准的刚体物理引擎。"
+      },
+      "values": [
+        {
+          "name": "Gravity",
+          "type": "float",
+          "label": "Gravity",
+          "labels": {
+            "ja": "重力",
+            "zh-TW": "重力",
+            "ko": "중력",
+            "zh-CN": "重力"
+          },
+          "default": 9.81,
+          "min": -10,
+          "max": 10,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Disable Collision",
+          "type": "bool",
+          "label": "Disable Collision",
+          "labels": {
+            "ja": "衝突を無効化",
+            "zh-TW": "禁用碰撞",
+            "ko": "충돌 비활성화",
+            "zh-CN": "禁用碰撞"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "XPBD Settings",
+      "type": "group",
+      "label": "XPBD Settings",
+      "labels": {
+        "ja": "XPBD設定",
+        "zh-TW": "XPBD設定",
+        "ko": "XPBD 설정",
+        "zh-CN": "XPBD设置"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "XPBD is our custom made particle-based dynamics engine that also does cloth simulation.",
+      "descriptions": {
+        "ja": "XPBDは、布シミュレーションも行う、当社カスタムのパーティクルベースのダイナミクスエンジンです。",
+        "zh-TW": "XPBD 是我們定制的基於粒子的動力學引擎，它也用於布料模擬。",
+        "ko": "XPBD는 의상 시뮬레이션도 수행하는 당사에서 만든 입자 기반 역학 엔진입니다.",
+        "zh-CN": "XPBD 是我们定制的基于粒子的动力学引擎，它还执行布料模拟。"
+      },
+      "values": [
+        {
+          "name": "Parallel Solving",
+          "type": "bool",
+          "label": "Parallel Solving",
+          "labels": {
+            "ja": "並列ソルビング",
+            "zh-TW": "並行求解",
+            "ko": "병렬 해법",
+            "zh-CN": "并行求解"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Use multi-threading for constraint solving to improve performance on complex scenes.",
+          "descriptions": {
+            "ja": "複雑なシーンでのパフォーマンス向上のため、拘束ソルビングにマルチスレッディングを使用する。",
+            "zh-TW": "使用多執行緒來求解約束，以提高在複雜場景中的性能。",
+            "ko": "복잡한 장면에 대한 성능 향상을 위해 제약 조건 해결에 멀티스레딩을 사용합니다.",
+            "zh-CN": "使用多线程进行约束求解，以提高复杂场景的性能。"
+          }
+        },
+        {
+          "name": "Substeps",
+          "type": "int",
+          "label": "Substeps",
+          "labels": {
+            "ja": "サブステップ",
+            "zh-TW": "子步數",
+            "ko": "서브스텝",
+            "zh-CN": "子步"
+          },
+          "default": 8,
+          "min": 1,
+          "max": 20,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Iterations",
+          "type": "int",
+          "label": "Iterations",
+          "labels": {
+            "ja": "イテレーション",
+            "zh-TW": "迭代次數",
+            "ko": "반복 횟수",
+            "zh-CN": "迭代次数"
+          },
+          "default": 2,
+          "min": 1,
+          "max": 10,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Collision Interval",
+          "type": "int",
+          "label": "Collision Interval",
+          "labels": {
+            "ja": "衝突間隔",
+            "zh-TW": "碰撞間隔",
+            "ko": "충돌 간격",
+            "zh-CN": "碰撞间隔"
+          },
+          "default": 2,
+          "min": 1,
+          "max": 4,
+          "options": null,
+          "description": "Number of substeps between collision correction.",
+          "descriptions": {
+            "ja": "衝突補正間のサブステップ数",
+            "zh-TW": "碰撞校正之間的子步數。",
+            "ko": "충돌 보정 간의 서브스텝 수.",
+            "zh-CN": "碰撞校正之间子步的数量。"
+          }
+        },
+        {
+          "name": "Iteration In Last Substep Only",
+          "type": "bool",
+          "label": "Iteration In Last Substep Only",
+          "labels": {
+            "ja": "最後のサブステップでのみイテレーションを実行する",
+            "zh-TW": "僅在最後一個子步迭代",
+            "ko": "마지막 서브스텝에서만 반복",
+            "zh-CN": "仅在最后一个子步中进行迭代。"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Run iterations in the last substep only to improve performance.",
+          "descriptions": {
+            "ja": "パフォーマンス向上のため、最後のサブステップでのみイテレーションを実行する。",
+            "zh-TW": "僅在最後一個子步運行迭代次數，以提高性能。",
+            "ko": "성능 향상을 위해 마지막 서브스텝에서만 반복을 실행합니다.",
+            "zh-CN": "仅在最后一个子步中运行迭代，以提高性能。"
+          }
+        },
+        {
+          "name": "Self Collision",
+          "type": "bool",
+          "label": "Self Collision",
+          "labels": {
+            "ja": "自己衝突",
+            "zh-TW": "自我碰撞",
+            "ko": "자가 충돌",
+            "zh-CN": "自碰撞"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Body Collision",
+          "type": "bool",
+          "label": "Body Collision",
+          "labels": {
+            "ja": "ボディ衝突",
+            "zh-TW": "主體碰撞",
+            "ko": "본체 충돌",
+            "zh-CN": "体碰撞"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Ground Friction",
+          "type": "float",
+          "label": "Ground Friction",
+          "labels": {
+            "ja": "地面摩擦",
+            "zh-TW": "地面摩擦力",
+            "ko": "지면 마찰",
+            "zh-CN": "地面摩擦力"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Friction applied to particles in contact with the ground.",
+          "descriptions": {
+            "ja": "地面と接触したパーティクルに適用される摩擦。",
+            "zh-TW": "應用於與地面接觸的粒子的摩擦力。",
+            "ko": "지면에 닿은 입자에 적용되는 마찰.",
+            "zh-CN": "作用于与地面接触的粒子的摩擦力。"
+          }
+        },
+        {
+          "name": "Expand Radius",
+          "type": "float",
+          "label": "Expand Radius",
+          "labels": {
+            "ja": "拡張半径",
+            "zh-TW": "擴展半徑",
+            "ko": "확장 반지름",
+            "zh-CN": "扩展半径"
+          },
+          "default": 0.01,
+          "min": 0,
+          "max": 0.1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Time Scale",
+      "type": "float",
+      "label": "Time Scale",
+      "labels": {
+        "ja": "時間スケール",
+        "zh-TW": "時間縮放",
+        "ko": "시간 비율",
+        "zh-CN": "时间缩放"
+      },
+      "default": 0.75,
+      "min": 0.25,
+      "max": 1,
+      "options": null,
+      "description": "Change time used for physics simulation.",
+      "descriptions": {
+        "ja": "物理シミュレーションに使用される時間に変更します。",
+        "zh-TW": "更改用於物理模擬的時間。",
+        "ko": "물리 시뮬레이션에 사용되는 시간 변경.",
+        "zh-CN": "更改用于物理模拟的时间。"
+      }
+    },
+    {
+      "name": "Physics FPS",
+      "type": "int",
+      "label": "Physics FPS",
+      "labels": {
+        "ja": "(Physics FPS)",
+        "zh-TW": "(Physics FPS)",
+        "ko": "(Physics FPS)",
+        "zh-CN": "(Physics FPS)"
+      },
+      "default": 3,
+      "min": 0,
+      "max": 8,
+      "options": ["Flexible", "30", "60", "90", "100", "120", "160", "175", "240"],
+      "description": "Set physics simulation rate. Higher = smoother simulation but at higher CPU cost.",
+      "descriptions": {
+        "ja": "物理シミュレーションレートを設定します。高いほどシミュレーションはスムーズになりますが、CPUコストも高くなります。",
+        "zh-TW": "設定物理模擬速率。越高 = 模擬越平滑，但 CPU 開銷越高。",
+        "ko": "물리 시뮬레이션 속도를 설정합니다. 높을수록 시뮬레이션이 부드러워지지만 CPU 비용이 높습니다.",
+        "zh-CN": "设置物理模拟速率。越高 = 模拟越平滑，但CPU开销越大。"
+      }
+    }
+  ]
+}

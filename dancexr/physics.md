@@ -7,123 +7,73 @@ toc: true
 
 # Physics System
 
-DanceXR has model format-specific physics systems for PMX and XPS, plus a custom built XPBD (extended particle-based dynamics) system that can be used to simulate cloth, soft body and simplified rigid bodies. 
+DanceXR has model format-specific physics systems for character models, plus a custom built XPBD (extended particle-based dynamics) system that can be used to simulate cloth, soft body and simplified rigid bodies. 
 
-For PMX models, the physics rig is defined in the file and exposed through the PMX physics settings. 
+PMX models come with physics component definitions and it should work out of the box. You can customize and fine-tune the physics behavior for PMX models in the [PMX physics settings](features/pmx_physics). 
 
-For XPS models, there is no in-file rig, so you set up physics from scratch using the XPS physics tools. 
+For XPS and FBX models, you need to set up physics from scratch using the provided physics tools tailered for common usecases. See below for the list of tools and their recommended use cases. 
 
-PMX and XPS physics use the built-in Unity physics engine based on PhysX by default, but can be switched to the XPBD backend.
-
-The cloth simulation using the XPBD system is available for both PMX and XPS models, and is configured through the cloth simulation settings.
+By default the physics system uses the built-in Unity physics engine based on PhysX. We also have a custom made physics engine based on XPBD (Extended Position-Based Dynamics) which provides better control and stability especially for cloth and hair.
 
 For terms (rigid body, joint, colliders, spring force, damping, projection distance, projection angle), see [Concepts & glossary](concepts#bones-physics-and-colliders).
 
-> The detailed parameter reference for the system-wide physics dialog and the per-PMX-model dialog lives at [Physics (settings reference)](features/physics).
-
 ---
 
-## The two paths: PMX vs XPS
+## Physics Tools
 
-The biggest decision branch is the model format.
+The physics tools are a collection of tools that allow you to quickly set up physics for your models. Each individual tool focuses on a particular use case, minimizing the number of parameters you need to tweak to get a good result. Most of the time you only need to select the right bone to get the desired behavior. There are also presets to help you quickly find good settings and and visualization for understanding the effect of each parameter.
 
-| | PMX | XPS |
-|---|---|---|
-| Has a physics rig? | Yes — built into the file | No — set up in DanceXR |
-| Default behavior | Works out of the box | Nothing moves until configured |
-| Where you tune | [PMX physics](features/pmx_physics) (per-actor) | [XPS physics Tools](features/xps_physics) (per-actor) |
-| Common gotcha | Joint stiffness from the model author may need overriding | You have to **select bones** for hair, breast, skirt before they do anything |
-
-Both paths share the system-level dialog (gravity, simulation steps) and the same family of specialized rigs below.
-
----
-
-## System-level settings
-
-The system-level physics settings apply globally to all physics simulations in DanceXR, regardless of model format or rig type. 
-
----
-
-## The rig family
-
-These are the per-body-part physics rigs. Most of them work on both PMX and XPS, but some are XPS-specific because PMX models already include their own rigid bodies for the same parts.
-
-### Body shape
-
-[Body colliders](features/body_colliders) — capsule colliders along the actor's body, used so freely-moving parts (hair, cloth, skirt) collide with the body instead of clipping through.
-
-### Hair
-
-[Hair physics](features/hair_physics) — spring-bone simulation on a tree of bones rooted at the head. Set the root bones and DanceXR walks the children to build the rig.
-
-### Skirt and dangling
-
+- [Body colliders](features/body_colliders) — capsule colliders along the actor's body, used so freely-moving parts (hair, cloth, skirt) collide with the body instead of clipping through.
+- [Hair physics](features/hair_physics) — spring-bone simulation on a tree of bones rooted at the head. Set the root bones and DanceXR walks the children to build the rig.
 - [Skirt physics](features/skirt_physics) — chain physics with horizontal connections (mesh-like), suited to skirts and hems.
 - [Dangling physics](features/dangling_physics) — chain physics without horizontal connections, suited to ribbons, ties, ear chains, animal tails, anything that hangs.
+- [Boobs physics](features/boobs_physics) — joint-based jiggle on breast bones, with counter-gravity to compensate for the constant downward pull. 
+- [Soft body physics](features/softbody_physics) — connecting bones with a mesh of spring force constraints to simulate volumetric deformation on body parts like butts and thighs.
+- [Detach object](features/detach_object) — release a bone or object so you can remove certain parts by making it drop off. Useful when they don't have separate materials to hide them with transparency.
 
-The difference is whether nearby chains are linked horizontally. Skirts collapse without those links; ribbons hang awkwardly with them.
+Demo video:
+{% include video id="-IZTzHUpROs" provider="youtube" %}
 
-### Breast
+---
 
-[Boobs physics](features/boobs_physics) — joint-based jiggle on breast bones, with counter-gravity to compensate for the constant downward pull. XPS-relevant because PMX models usually have their own breast joints in-file.
+## Simulation System
 
-### Cloth (mesh-based)
+The simulation system is a custom built XPBD (extended particle-based dynamics) system that can be used to simulate cloth, soft body and fluid. 
 
-- [Cloth simulation](features/cloth_simulation) — Unity cloth-style simulation on garment meshes.
+- [Cloth simulation](features/cloth_simulation) — adding cloth to the model.
 - [Mesh to cloth](features/mesh_to_cloth) — convert a mesh on the model into a cloth-simulated object.
-
-These differ from skirt/dangling chain physics: cloth simulates the whole mesh, not a small set of control bones. Heavier; better for dramatic, full-garment motion.
-
-### Soft body
-
-- [Soft body physics](features/softbody_physics) — volumetric deformation. <!-- TODO: confirm primary use cases. -->
-- [Particle dynamics](features/particle_dynamics) — particle-based secondary motion.
-
-### Whole-body
-
-- [Ragdoll](features/ragdoll) — physics takes over the whole skeleton; the actor goes limp.
-- [Detach object](features/detach_object) — release a bone or object so physics drives it independently.
-- [Secondary motion](features/secondary_motion) — procedural layer that adds breath, sway, and follow-through on top of an existing motion.
+- Fluid simulation — simulate simple fluid effect like viscosity with particles.
+- [Tentacle simulation](features/tentacles) — simulating tentacles movement by connecting nodes with constraints and drive force.
 
 ---
 
-## Choosing what to use
+## Settings
 
-| Want | Reach for |
-|---|---|
-| Hair to swing | [Hair physics](features/hair_physics) — set root bones |
-| Skirt to flare | [Skirt physics](features/skirt_physics) (XPS), or [PMX physics](features/pmx_physics) (PMX) |
-| A ribbon, tail, or tie to hang | [Dangling physics](features/dangling_physics) |
-| Breast jiggle on XPS | [Boobs physics](features/boobs_physics) — assign bones |
-| A whole garment to sim like fabric | [Cloth simulation](features/cloth_simulation) |
-| Body parts to feel volumetric | [Soft body physics](features/softbody_physics) |
-| Actor to fall over | [Ragdoll](features/ragdoll) |
-| To remove a body part dynamically | [Detach object](features/detach_object) |
-| A subtle alive feel on top of any motion | [Secondary motion](features/secondary_motion) |
-| Hair / cloth to actually collide with the body | [Body colliders](features/body_colliders) |
+You can control the physics behavior with the following settings.
 
----
-
-## Common problems
-
-| Symptom | Likely cause |
-|---|---|
-| Hair / cloth clips through the body | [Body colliders](features/body_colliders) not set up, or *Disable Collision* is on in [physics settings](features/physics) |
-| Hair selected but nothing moves | Selected bones may not be roots; check [Example bone structure](features/bones) |
-| Boobs do not move | The boobs physics toggle is on but bones are not assigned — see [boobs physics](features/boobs_physics) |
-| Bones drift away over time | Reduce *Projection distance* / *Projection angle*, or enable *Reset on change* in [physics settings](features/physics) |
-| Jitter at high FPS | Increase steps per second in [simulation](features/simulation) |
-| FPS drops when physics is on | Reduce steps per second; turn off heavy rigs (cloth, soft body) you do not need |
-| Skirt looks like a stiff cone | You have dangling rather than skirt physics; switch ([skirt](features/skirt_physics) vs [dangling](features/dangling_physics)) |
+- [System-level physics settings](features/system_physics) — global settings that apply to all physics simulations in DanceXR, regardless of model format or rig type.
+- [PMX physics settings](features/pmx_physics) — PMX-specific settings that override the physics definitions from the model file.
+- Physics Tools:
+    - [Body colliders](features/body_colliders) — size and position of the colliders along the body.
+    - [Hair physics](features/hair_physics) — spring force, damping, collider radius, and bone selection for hair physics.
+    - [Skirt physics](features/skirt_physics) — spring force, damping, collider radius, and bone selection for skirt physics.
+    - [Dangling physics](features/dangling_physics) — spring force, damping, collider radius, and bone selection for dangling physics.
+    - [Boobs physics](features/boobs_physics) — spring force, damping, collider radius, bone selection, and counter-gravity for boobs physics.
+    - [Soft body physics](features/softbody_physics) — particle size, constraint compliance, and bone selection for soft body physics.
+    - [Detach object](features/detach_object) — bone selection for detach object.
+- [Cloth Simulation settings](features/cloth_simulation) — mesh creation parameters, simulation parameters, and collider adjustments for cloth simulation. It includes
+    - Cloth Mesh 1
+    - Cloth Mesh 2
+    - Fluid Simulation
+    - Mesh To Cloth
+- [Tentacle Simulation settings](features/tentacles) — node count, spring force, damping, and collider radius for tentacle simulation.
+- [Ragdoll settings](features/ragdoll) — joint limits, spring force, damping, and collider radius for ragdoll simulation.
 
 ---
 
-## Related pages
+## Further reading
 
 - [Concepts & glossary](concepts#bones-physics-and-colliders)
 - [Working with actors](actors)
-- [Physics (settings reference)](features/physics) — system-wide and PMX-specific dialog parameters
-- [XPS physics](features/xps_physics) — XPS rig configuration
 - [Example bone structure](features/bones) — reference skeletons for bone selection
 
-<!-- TODO Phase 3: resolve duplicate pages — cloth_sim.md vs cloth_simulation.md, physics_softbody.md vs softbody_physics.md, transparency.md vs material_transparent.md. Also consider renaming features/physics.md to features/pmx_physics_settings.md to make this hub the canonical "Physics" entry. -->

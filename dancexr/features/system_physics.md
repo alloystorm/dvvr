@@ -1,40 +1,39 @@
 ---
-layout: release
-title: System Physics
+layout: feature
+title: "Physics"
 locale: en-US
 ---
 
+# Physics
+
+Global physics engine selection, timestep settings, and gravity for the scene.
 
 
-## System-wide physics settings
+## Default Engines
 
-These are configurations for system-wide physics simulation. You can enable or disable physics simulation, adjust gravity, time scale, and other settings.
+**PMX Default** sets the physics engine used for PMX models with built-in rigidbodies and joints (hair, skirts, accessories). Choose *PhysX* for Unity's joint-based physics, *XPBD* for a particle-based simulation, or *Off* to disable and free those bones for the XPS custom physics tools.
 
-### Recent Engine Updates
-* **Collision Optimization**: Refactored simulation jobs to optimize collision handling order.
-* **Joint Stability**: Improved twist angle calculation and impulse calculation in joints.
-* **Inertia**: Simplified inertia tensor calculations for better performance and stability.
+**Custom Physics Default** sets the engine for the XPS tools (Hair Physics, Cloth Physics, Softbody, etc.). XPBD is more stable for cloth; PhysX may be faster on some hardware.
 
-## Settings
 
-- Enabled: Turn physics simulation on and off
-- Engine: Select the physics engine to use. Currently, only the Physx engine is available.
-- Gravity: Change gravity force. Setting it to negative will reverse the gravity direction.
-- Time Scale: Change the time scale of physics simulation, creating slow motion or fast forward effect without affecting animation.
-- Disable Collision: Disable collision between stationary and dynamic colliders.
-- Subframe Motion: Enable subframe motion for smoother simulation.
-- Steps per second: Number of physics simulation steps per second.
+## PhysX Settings
 
-## Physics Frame Rate and Subframe Motion <a id="subframe"></a>
+**Gravity** sets the downward force applied to all rigidbodies. Set it to zero for a zero-gravity stage. **Disable Collision** prevents XPS particle systems from colliding with each other, which can reduce jitter when multiple soft bodies interact.
 
-For the best result, physics simulation is calculated at a fixed interval, which means there can be multiple simulation steps per frame and the actual number of steps performed each frame can be different depending on the stability of your frame rate.
 
-You can choose your desired physics frame rate by setting the "Steps per second" option. But do keep in mind that physics simulation takes CPU resources and setting it too high can slow down your frame rate, resulting in a worse experience. So it's best to find a sweet spot that doesn't hurt your frame rate too much while providing smooth simulation.
+## XPBD Settings
 
-Subframe motion is a new feature that updates motion at the selected physics frame rate. This can reduce the amount of movement of each physics simulation step, resulting in smoother simulation and more stability. This is especially useful for fast-moving objects or when you want to achieve more realistic motion. However, this will also require more CPU resources, so only use it when you have CPU headroom to spare.
+Holds simulation parameters for the XPBD engine — see the XPBD Settings sub-data for details.
 
-The following image shows the difference between subframe motion and normal motion.
 
-![Subframe Demo](/images/subframe640.png)
+## Time
 
-Imagine an object with a chain attached to it moving from left to right. Without subframe motion, the physics simulation has a much greater gap to fill in the next frame, while with subframe motion, the gaps are much smaller, resulting in smoother motion.
+**Time Scale** slows or accelerates the physics simulation independently of animation playback speed. Lower values make particles and soft bodies move in slow motion. **Physics FPS** locks the simulation to a fixed timestep: lower values reduce CPU load, higher values improve stability at the cost of performance. *Flexible* lets the simulation run at the render framerate.
+
+
+# Sub-Components
+
+## XPBD Settings
+
+Holds XPBD solver settings: substeps, iterations, collision interval, self-collision, body collision, ground friction, expand radius, and parallel solving.
+

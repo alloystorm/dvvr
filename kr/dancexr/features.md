@@ -163,13 +163,13 @@ feature_sections:
             image: /images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp
             badge: 2026.2
             badge_type: new
-          - title: 머리 재질
+          - title: 헤어 재질
             link: /kr/dancexr/features/material_hair
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
           - title: 눈 재질
             link: /kr/dancexr/features/material_eyes
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
-          - title: 입술 소재
+          - title: 입술 재질
             link: /kr/dancexr/features/material_lips
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
           - title: 불투명 재질
@@ -199,7 +199,7 @@ feature_sections:
           - title: 사용자 정의 상세 지도
             link: /kr/dancexr/features/custom_detail_map
             image: /images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp
-          - title: 일반 맵 생성
+          - title: 노멀 맵 생성
             link: /kr/dancexr/features/generate_normal_map
             image: /images/slideshows/dressing/HIBIKASE%20-%20DOAXVV%20Mikasa%20Dissolving%20Outfit%20%5BZZwW0PoJ1vE%5D.webp
           - title: 육각형 패턴 상세 지도
@@ -218,13 +218,10 @@ feature_sections:
     subsections:
       - title: 시뮬레이션
         tiles:
-          - title: 물리학
-            link: /kr/dancexr/features/physics
-            image: /images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp
           - title: 시뮬레이션
             link: /kr/dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
-          - title: 옷 시뮬레이션
+          - title: 의상 시뮬레이션
             link: /kr/dancexr/features/cloth_simulation
             image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
             badge: 2024.8 · PRO
@@ -249,18 +246,13 @@ feature_sections:
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 라이트 볼
+          - title: 빛 공
             link: /kr/dancexr/features/light_ball
             image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
             badge: PRO
             badge_type: pro
-      - title: XPS 물리학
+      - title: 물리 도구
         tiles:
-          - title: XPS 피직스
-            link: /kr/dancexr/features/xps_physics
-            image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
-            badge: PRO
-            badge_type: pro
           - title: 바디 충돌체
             link: /kr/dancexr/features/body_colliders
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
@@ -292,10 +284,10 @@ feature_sections:
     subsections:
       - title: 절차적 모션
         tiles:
-          - title: 아이들 모션
+          - title: 대기 동작
             link: /kr/dancexr/features/idle_motion
             image: /images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp
-          - title: 캣워크 모션
+          - title: 캣워크 동작
             link: /kr/dancexr/features/catwalk
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
           - title: 자동 댄스
@@ -303,7 +295,7 @@ feature_sections:
             image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: Auto Dance 2
+          - title: 자동 댄스 2
             link: /kr/dancexr/features/autodance2
             image: /images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp
             badge: PRO
@@ -324,7 +316,7 @@ feature_sections:
           - title: 사실적인 움직임
             link: /kr/dancexr/features/lifelike_motions
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
-          - title: 배우 모션 설정
+          - title: Motion Settings
             link: /kr/dancexr/features/motion_settings
             image: /images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp
       - title: "오디오 & 비디오"
@@ -360,7 +352,7 @@ feature_sections:
             image: /images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp
             badge: 2026.2
             badge_type: new
-          - title: 재생 옵션
+          - title: "## 재생 옵션"
             link: /kr/dancexr/features/playback_options
             image: /images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp
           - title: 동작 할당
@@ -430,13 +422,13 @@ feature_sections:
           - title: 룸 무대
             link: /kr/dancexr/features/room_stage
             image: /images/slideshows/environment/How%20is%20the%20shadow%20on%20the%20wall%20even%20possible%EF%BC%9F%20%5B85lKm5S3Oa8%5D.webp
-          - title: 단계
+          - title: "## 무대"
             link: /kr/dancexr/features/stages
             image: /images/slideshows/environment/Leifang%20Circus%20Show%20%5Bg0pe5q9DrMo%5D.webp
           - title: 소품
             link: /kr/dancexr/features/props
             image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
-          - title: 원시 모양
+          - title: 기본 도형
             link: /kr/dancexr/features/primitive_shapes
             image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
           - title: 화면
@@ -445,7 +437,7 @@ feature_sections:
           - title: 거울
             link: /kr/dancexr/features/mirror
             image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
-          - title: 레이저 시스템
+          - title: 레이저
             link: /kr/dancexr/features/laser
             image: /images/slideshows/environment/35e7dbc7eff97344e4b4ebb5e68a0f3a74d085eb.jpg
             badge: 2024.3 · PRO
@@ -463,7 +455,7 @@ feature_sections:
             image: /images/slideshows/environment/Leifang%20-%20As%20You%20Like%20It%20-%20Group%20Dance%20%5BZgmCbzNs7EU%5D.webp
             badge: 2024.1 · PRO
             badge_type: pro
-          - title: 레이트레이싱 효과
+          - title: 레이 트레이싱 효과
             link: /kr/dancexr/features/raytracing
             image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
             badge: PC
@@ -563,7 +555,7 @@ feature_sections:
         link: /kr/dancexr/features/smo_config
         badge: NSFW
         badge_type: nsfw
-      - title: 딜도
+      - title: Dildo
         link: /kr/dancexr/features/dildo
         badge: NSFW
         badge_type: nsfw
@@ -571,7 +563,7 @@ feature_sections:
         link: /kr/dancexr/features/scg_motion
         badge: NSFW
         badge_type: nsfw
-      - title: 섹스 모션 2
+      - title: Sex Motion 2
         link: /kr/dancexr/features/sfb_motion
         badge: NSFW
         badge_type: nsfw

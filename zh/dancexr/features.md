@@ -88,7 +88,7 @@ feature_sections:
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 自定义继承动作
+          - title: "Custom Inherit Motion: 骨骼设置，定义了如何从父骨骼继承动作，并支持自定义规则。"
             link: /zh/dancexr/features/custom_inherit
             image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
           - title: 示例骨骼结构
@@ -169,7 +169,7 @@ feature_sections:
           - title: 眼睛材质
             link: /zh/dancexr/features/material_eyes
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
-          - title: 唇部材质
+          - title: 嘴唇材质
             link: /zh/dancexr/features/material_lips
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
           - title: 不透明材料
@@ -218,9 +218,6 @@ feature_sections:
     subsections:
       - title: 模拟
         tiles:
-          - title: 物理学
-            link: /zh/dancexr/features/physics
-            image: /images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp
           - title: 仿真
             link: /zh/dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
@@ -254,13 +251,8 @@ feature_sections:
             image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
             badge: PRO
             badge_type: pro
-      - title: XPS 物理
+      - title: 物理工具
         tiles:
-          - title: XPS物理学
-            link: /zh/dancexr/features/xps_physics
-            image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
-            badge: PRO
-            badge_type: pro
           - title: "## 身体碰撞体"
             link: /zh/dancexr/features/body_colliders
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
@@ -278,7 +270,7 @@ feature_sections:
             image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 软体物理
+          - title: 软体物理学
             link: /zh/dancexr/features/softbody_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
             badge: PRO
@@ -292,10 +284,10 @@ feature_sections:
     subsections:
       - title: 程序化动作
         tiles:
-          - title: 闲置动作
+          - title: 待机动画
             link: /zh/dancexr/features/idle_motion
             image: /images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp
-          - title: 猫步运动
+          - title: "## T台走步"
             link: /zh/dancexr/features/catwalk
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
           - title: 自动舞蹈
@@ -303,7 +295,7 @@ feature_sections:
             image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 自动舞蹈2
+          - title: 自动舞动 2
             link: /zh/dancexr/features/autodance2
             image: /images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp
             badge: PRO
@@ -324,7 +316,7 @@ feature_sections:
           - title: 逼真的动作
             link: /zh/dancexr/features/lifelike_motions
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
-          - title: 演员动作设置
+          - title: 动作设置
             link: /zh/dancexr/features/motion_settings
             image: /images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp
       - title: 音频与视频
@@ -442,10 +434,10 @@ feature_sections:
           - title: 屏幕
             link: /zh/dancexr/features/screen
             image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
-          - title: 镜子
+          - title: 镜像
             link: /zh/dancexr/features/mirror
             image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
-          - title: 激光系统
+          - title: 激光
             link: /zh/dancexr/features/laser
             image: /images/slideshows/environment/35e7dbc7eff97344e4b4ebb5e68a0f3a74d085eb.jpg
             badge: 2024.3 · PRO
@@ -563,15 +555,15 @@ feature_sections:
         link: /zh/dancexr/features/smo_config
         badge: NSFW
         badge_type: nsfw
-      - title: 假阳具
+      - title: 性玩具
         link: /zh/dancexr/features/dildo
         badge: NSFW
         badge_type: nsfw
-      - title: Cowgirl Sex Motion
+      - title: 女上式性动作
         link: /zh/dancexr/features/scg_motion
         badge: NSFW
         badge_type: nsfw
-      - title: Sex Motion 2
+      - title: 性爱动作 2
         link: /zh/dancexr/features/sfb_motion
         badge: NSFW
         badge_type: nsfw

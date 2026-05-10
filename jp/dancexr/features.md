@@ -163,13 +163,13 @@ feature_sections:
             image: /images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp
             badge: 2026.2
             badge_type: new
-          - title: 髪の素材
+          - title: ヘアマテリアル
             link: /jp/dancexr/features/material_hair
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
-          - title: 目の素材
+          - title: 目材
             link: /jp/dancexr/features/material_eyes
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
-          - title: 唇の素材
+          - title: 唇のマテリアル
             link: /jp/dancexr/features/material_lips
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
           - title: 不透明な素材
@@ -199,7 +199,7 @@ feature_sections:
           - title: カスタムディテールマップ
             link: /jp/dancexr/features/custom_detail_map
             image: /images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp
-          - title: 通常マップを生成
+          - title: ノーマルマップを生成
             link: /jp/dancexr/features/generate_normal_map
             image: /images/slideshows/dressing/HIBIKASE%20-%20DOAXVV%20Mikasa%20Dissolving%20Outfit%20%5BZZwW0PoJ1vE%5D.webp
           - title: 六角形パターン詳細マップ
@@ -218,13 +218,10 @@ feature_sections:
     subsections:
       - title: シミュレーション
         tiles:
-          - title: 物理
-            link: /jp/dancexr/features/physics
-            image: /images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp
           - title: シミュレーション
             link: /jp/dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
-          - title: 布のシミュレーション
+          - title: 布シミュレーション
             link: /jp/dancexr/features/cloth_simulation
             image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
             badge: 2024.8 · PRO
@@ -249,18 +246,13 @@ feature_sections:
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
             badge: PRO
             badge_type: pro
-          - title: ライトボール
+          - title: 光のボール
             link: /jp/dancexr/features/light_ball
             image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
             badge: PRO
             badge_type: pro
-      - title: XPS 物理
+      - title: 物理ツール
         tiles:
-          - title: XPS物理
-            link: /jp/dancexr/features/xps_physics
-            image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
-            badge: PRO
-            badge_type: pro
           - title: ボディコライダー
             link: /jp/dancexr/features/body_colliders
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
@@ -278,7 +270,7 @@ feature_sections:
             image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: ソフトボディ物理学
+          - title: Softbody物理学
             link: /jp/dancexr/features/softbody_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
             badge: PRO
@@ -295,20 +287,20 @@ feature_sections:
           - title: アイドルモーション
             link: /jp/dancexr/features/idle_motion
             image: /images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp
-          - title: キャットウォークモーション
+          - title: カトウォークモーション
             link: /jp/dancexr/features/catwalk
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
-          - title: オートダンス
+          - title: 自動ダンス
             link: /jp/dancexr/features/autodance
             image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: オートダンス2
+          - title: Auto Dance 2
             link: /jp/dancexr/features/autodance2
             image: /images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp
             badge: PRO
             badge_type: pro
-          - title: オートダンス3
+          - title: Auto Dance 3
             link: /jp/dancexr/features/autodance3
             image: /images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp
             badge: PRO
@@ -324,7 +316,7 @@ feature_sections:
           - title: よりリアルなモーション
             link: /jp/dancexr/features/lifelike_motions
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
-          - title: 俳優モーション設定
+          - title: モーション設定
             link: /jp/dancexr/features/motion_settings
             image: /images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp
       - title: "オーディオ & ビデオ"
@@ -360,7 +352,7 @@ feature_sections:
             image: /images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp
             badge: 2026.2
             badge_type: new
-          - title: 再生オプション
+          - title: "## 再生オプション"
             link: /jp/dancexr/features/playback_options
             image: /images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp
           - title: モーションの割り当て
@@ -430,13 +422,13 @@ feature_sections:
           - title: 部屋のステージ
             link: /jp/dancexr/features/room_stage
             image: /images/slideshows/environment/How%20is%20the%20shadow%20on%20the%20wall%20even%20possible%EF%BC%9F%20%5B85lKm5S3Oa8%5D.webp
-          - title: ステージ
+          - title: "# ステージ"
             link: /jp/dancexr/features/stages
             image: /images/slideshows/environment/Leifang%20Circus%20Show%20%5Bg0pe5q9DrMo%5D.webp
           - title: プロップ
             link: /jp/dancexr/features/props
             image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
-          - title: 原始的な形
+          - title: "## 基本図形"
             link: /jp/dancexr/features/primitive_shapes
             image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
           - title: 画面
@@ -445,7 +437,7 @@ feature_sections:
           - title: ミラー
             link: /jp/dancexr/features/mirror
             image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
-          - title: レーザーシステム
+          - title: レーザー
             link: /jp/dancexr/features/laser
             image: /images/slideshows/environment/35e7dbc7eff97344e4b4ebb5e68a0f3a74d085eb.jpg
             badge: 2024.3 · PRO
@@ -463,7 +455,7 @@ feature_sections:
             image: /images/slideshows/environment/Leifang%20-%20As%20You%20Like%20It%20-%20Group%20Dance%20%5BZgmCbzNs7EU%5D.webp
             badge: 2024.1 · PRO
             badge_type: pro
-          - title: レイトレーシング効果
+          - title: レイトレーシングエフェクト
             link: /jp/dancexr/features/raytracing
             image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
             badge: PC
@@ -567,11 +559,11 @@ feature_sections:
         link: /jp/dancexr/features/dildo
         badge: NSFW
         badge_type: nsfw
-      - title: Cowgirl Sex Motion
+      - title: コウルガールセックスモーション
         link: /jp/dancexr/features/scg_motion
         badge: NSFW
         badge_type: nsfw
-      - title: Sex Motion 2
+      - title: セックスモーション 2
         link: /jp/dancexr/features/sfb_motion
         badge: NSFW
         badge_type: nsfw

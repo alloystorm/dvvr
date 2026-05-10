@@ -218,9 +218,6 @@ feature_sections:
     subsections:
       - title: Simulation
         tiles:
-          - title: Physics
-            link: /dancexr/features/physics
-            image: /images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp
           - title: Simulation
             link: /dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
@@ -254,13 +251,8 @@ feature_sections:
             image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
             badge: PRO
             badge_type: pro
-      - title: XPS Physics
+      - title: Physics Tools
         tiles:
-          - title: XPS Physics
-            link: /dancexr/features/xps_physics
-            image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
-            badge: PRO
-            badge_type: pro
           - title: Body Colliders
             link: /dancexr/features/body_colliders
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
@@ -324,7 +316,7 @@ feature_sections:
           - title: Lifelike Motions
             link: /dancexr/features/lifelike_motions
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
-          - title: Actor Motion Settings
+          - title: Motion Settings
             link: /dancexr/features/motion_settings
             image: /images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp
       - title: "Audio & Video"
@@ -445,7 +437,7 @@ feature_sections:
           - title: Mirror
             link: /dancexr/features/mirror
             image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
-          - title: Laser System
+          - title: Laser
             link: /dancexr/features/laser
             image: /images/slideshows/environment/35e7dbc7eff97344e4b4ebb5e68a0f3a74d085eb.jpg
             badge: 2024.3 · PRO

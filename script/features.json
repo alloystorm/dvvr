@@ -375,10 +375,6 @@
           },
           "tiles": [
             {
-              "path": "features/physics",
-              "image": "/images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp"
-            },
-            {
               "path": "features/simulation",
               "image": "/images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp"
             },
@@ -436,20 +432,14 @@
           ]
         },
         {
-          "title": "XPS Physics",
+          "title": "Physics Tools",
           "title_locales": {
-            "jp": "XPS 物理",
-            "zh": "XPS 物理",
-            "tw": "XPS 物理",
-            "kr": "XPS 물리학"
+            "jp": "物理ツール",
+            "zh": "物理工具",
+            "tw": "物理工具",
+            "kr": "물리 도구"
           },
           "tiles": [
-            {
-              "path": "features/xps_physics",
-              "badge": "PRO",
-              "badge_type": "pro",
-              "image": "/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp"
-            },
             {
               "path": "features/body_colliders",
               "image": "/images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp"

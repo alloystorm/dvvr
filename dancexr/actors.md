@@ -47,7 +47,7 @@ Most settings work the same across all three formats. The places they diverge ar
 | Topic | PMX | XPS | FBX (preview) |
 |---|---|---|---|
 | Skeleton | Standard bone names from the file | Mapped via [bone mapper](features/bone_mapper) | Mapped via [bone mapper](features/bone_mapper) |
-| Physics rig | Built into the file ([PMX physics](features/pmx_physics)) | Configured in [XPS physics](features/xps_physics) | Configured in [XPS physics](features/xps_physics) |
+| Physics rig | Built into the file ([PMX physics](features/pmx_physics)) | Configured in Physics Tools | Configured in Physics Tools |
 | Morphs / blendshapes | [Morph list](features/morph_list) | None — use [Dressing system](features/optionals) instead | None |
 | Outfit toggles | Material morphs (PMX) | Optional items (XPS) — same UI ([Dressing system](features/optionals)) | None |
 
