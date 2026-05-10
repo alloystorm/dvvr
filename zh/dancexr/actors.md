@@ -1,13 +1,13 @@
 ---
 layout: release
-title: 处理角色
+title: 使用角色
 locale: zh-CN
 toc: true
 ---
 
-# 使用角色模型
+# 处理角色模型
 
-角色模型（actor）是将模型加载到场景中的角色。DanceXR 会实时调整模型的骨骼以适应动作，并使用物理系统模拟头发和服装的运动。
+角色模型（actor）是加载到场景中的角色。DanceXR 会实时调整模型的骨骼以适应动作，并使用物理系统模拟头发和服装的运动。
 
 您可以通过更改材质、应用纹理或使用着装系统（dressing system）来切换服装部件，从而自定义模型的外观。您还可以调整模型的尺寸和位置，并精细调整其与舞台和其他角色模型的互动方式。
 
@@ -47,7 +47,7 @@ DanceXR 读取三种模型格式：
 | 主题 | PMX | XPS | FBX (预览) |
 |---|---|---|---|
 | 骨骼 | 文件中的标准骨骼名称 | 通过 [骨骼映射](features/bone_mapper) 映射 | 通过 [骨骼映射](features/bone_mapper) 映射 |
-| 物理骨架 | 内置于文件（[PMX 物理骨架](features/pmx_physics)） | 在 [XPS 物理骨架](features/xps_physics) 中配置 | 在 [XPS 物理骨架](features/xps_physics) 中配置 |
+| 物理骨架 | 内置于文件（[PMX 物理骨架](features/pmx_physics)） | 在物理工具中配置 | 在物理工具中配置 |
 | 变形/混合形状 | [变形列表](features/morph_list) | 无 — 请使用 [着装系统](features/optionals) 代替 | 无 |
 | 服装切换 | 材质变形（PMX） | 可选物品（XPS）— 相同的 UI ([着装系统](features/optionals)) | 无 |
 

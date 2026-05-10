@@ -47,7 +47,7 @@ DanceXR은 세 가지 모델 형식을 읽습니다:
 | 주제 | PMX | XPS | FBX (미리보기) |
 |---|---|---|---|
 | 스켈레톤 | 파일의 표준 본 이름 | [본 매퍼](features/bone_mapper)를 통해 매핑 | [본 매퍼](features/bone_mapper)를 통해 매핑 |
-| 물리 리그 | 파일에 내장 ([PMX physics](features/pmx_physics)) | [XPS physics](features/xps_physics)에서 구성 | [XPS physics](features/xps_physics)에서 구성 |
+| 물리 리그 | 파일에 내장 ([PMX physics](features/pmx_physics)) | 물리 도구에서 구성 | 물리 도구에서 구성 |
 | 모프 / 블렌드쉐이프 | [Morph list](features/morph_list) | 없음 — 대신 [Dressing system](features/optionals)을 사용하세요 | 없음 |
 | 의상 토글 | 재질 모프 (PMX) | 옵션 항목 (XPS) — 동일한 UI ([Dressing system](features/optionals)) | 없음 |
 

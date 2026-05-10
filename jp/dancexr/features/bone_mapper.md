@@ -122,5 +122,4 @@ FBXモデルをXPS形式に変換し、ボーンマッパーを使用してDance
 
 - [Working with actors](../actors) — アクターのライフサイクルとPMX 対 XPS 対 FBXのパス
 - [Example bone structure](bones) — 探すべきボーンの参考スケルトン
-- [XPS physics](xps_physics) — マッピング完了後の物理リグ設定
 - [Actor troubleshooting](troubleshooting) — マッピング後も問題が残る場合のトラブルシューティング

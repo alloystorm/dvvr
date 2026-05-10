@@ -5,7 +5,7 @@ locale: zh-CN
 toc: true
 ---
 
-## 骨骼映射器
+# 骨骼映射器
 
 骨骼映射告诉 DanceXR 模型中的哪个骨骼对应其标准骨架中的哪个插槽——例如，头部、脊椎、左肩、右食指等。完成映射后，动作动画就可以驱动模型，并且 DanceXR 的其他工具也能正常工作。
 
@@ -122,5 +122,4 @@ center → torso → torso2 → neck → head
 
 - [使用角色](../actors) — 角色生命周期和 PMX 与 XPS 与 FBX 路径
 - [骨骼结构示例](bones) — 参考骨架，用于了解应查找哪些骨骼
-- [XPS物理](xps_physics) — 映射完成后物理骨架配置
 - [角色疑难排解](troubleshooting) — 即使映射完成后，如果外观仍有问题该怎么办

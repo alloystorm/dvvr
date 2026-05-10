@@ -1,11 +1,11 @@
 ---
 layout: release
-title: ## 處理角色
+title: ## 使用實體
 locale: zh-TW
 toc: true
 ---
 
-# 操作角色
+# 處理角色
 
 角色（actor）是載入場景中的模型。DanceXR 會即時調整模型的骨骼以適應動作，並使用物理系統模擬頭髮和服裝的動態。
 

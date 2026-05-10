@@ -9,7 +9,7 @@ toc: true
 
 角色预设会保存角色设置的快照——包括物理、材质、服装、动作偏好等——以便您稍后将相同的配置重新应用于同一模型，或应用于具有相似体型的不同模型。
 
-添加于 **2024.1**。存储在 [内容库](../preparecontent) 的 `presets/` 目录下，这意味着预设可以在使用同一版本 DanceXR 的用户之间共享。
+添加于 **2024.1**。存储在 [内容库](../preparecontent) 的 `presets/` 目录下，这意味着预设可以在使用同一版本的 DanceXR 的用户之间共享。
 
 ---
 
@@ -22,7 +22,7 @@ toc: true
 - 角色动作 [运动设置](motion_settings)
 - [服装系统](optionals) 状态（可见/隐藏物品）
 - 每个插槽的 [材质设置](material_settings)
-- [物理](physics) 配置（PMX 或 XPS，包括 [头发](hair_physics)、[裙子](skirt_physics)、[乳房](boobs_physics)、[身体碰撞体](body_colliders)）
+- 物理配置（PMX 或 XPS，包括 [头发](hair_physics)、[裙子](skirt_physics)、[乳房](boobs_physics)、[身体碰撞体](body_colliders)）
 - [脚部调整](feet_adjustment) 和 [缩放与偏移](scale_offset)
 
 预设中**不包含**的内容：

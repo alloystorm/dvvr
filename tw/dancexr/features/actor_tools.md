@@ -1,16 +1,14 @@
 ---
 layout: release
-title: 演員選單和工具
+title: 角色選單與工具
 locale: zh-TW
 ---
 
-
-
 ## 滑鼠和指標互動
-以下是您可以使用滑鼠和VR指標進行的操作。
+這些是您可以使用滑鼠和VR指標進行的操作。
 
 ### 移動
-演員下方有選擇圓盤。當UI可見時，圓盤也可見，您可以拖動圓盤來移動演員。
+演員下方有選擇圓盤。當UI可見時，圓盤也會可見，您可以拖動圓盤來移動演員。
 
 在桌面模式下，您可以使用滑鼠拖動。在VR模式下，您可以使用指標拖動。
 
@@ -27,15 +25,14 @@ Gizmo立方體是虛擬立方體，您可以使用它來移動和擺姿勢演員
 * 靜止動作
 * 自動跳舞
 * 自動跳舞2
-* [騎乘位](scg_motion){: .nsfw}
-* [後入位](sfb_motion){: .nsfw}
-* [性愛動作3](sex_motion_3){: .nsfw}
+* [Cowgirl Sex](scg_motion){: .nsfw}
+* [Sex From Behind](sfb_motion){: .nsfw}
+* [Sex Motion 3](sex_motion_3){: .nsfw}
 * 動作覆蓋
 
 當Gizmo立方體可見時，將滑鼠或指標放在其面上，拖動以沿著表面移動，使用滾輪或拇指輪在表面內旋轉。
 
 通常手部有2個立方體，腳部有2個立方體，身體有1個立方體。因此，您可以分別移動和調整這些身體部位的姿勢。
-
 
 
 ## 工具選單
@@ -60,28 +57,27 @@ Gizmo立方體是虛擬立方體，您可以使用它來移動和擺姿勢演員
 以下是各設定的詳細說明文件連結。
 * 動作分配和設定
 * 最近修改的設定
-* [服裝系統（材質變形和XPS可選項）](optionals)
+* [裝備系統（材質變形和XPS可選項）](optionals)
 * [骨骼映射器（僅限XPS）](bone_mapper)
 * [替代材質](alternative_textures)
 * 材質
     * 皮膚
-    * 頭髮
-    * 眼睛、嘴唇、透明、不透明、自訂1和2
+    * 髮型
+    * 眼睛、嘴唇、透明度、不透明、自訂1和2
     * [材質設定](material_settings)
 * 設定
     * [PMX物理（僅限PMX）](pmx_physics)
     * [腳部調整](feet_adjustment)
     * [面部控制](facial_control)
-    * [眨眼、呼吸、眼神接觸](eyecontact)
+    * [眨眼、呼吸和眼神接觸](eyecontact)
     * [疑難排解選項](troubleshooting)
-* Pro
+* 專業版
     * [服裝和身體彩繪](outfit)
     * 配件
     * 布娃娃
     * [動作覆蓋](motion_override)
     * [Boob Shake Overlay](shake_boobs_overlay){: .nsfw}
-    * [Sex Overlay](smo_config){: .nsfw}
+    * [透明度](smo_config){: .nsfw}
     * [假陽具](dildo){: .nsfw}
     * 光球
-    * [XPS物理（僅限XPS）](xps_physics)
 * 形態列表（僅限PMX）

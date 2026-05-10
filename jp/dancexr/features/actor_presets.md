@@ -22,12 +22,12 @@ toc: true
 - アクターごとの [モーション設定](motion_settings)
 - [ドレッシングシステム](optionals) のステータス（可視/非可視アイテム）
 - スロットごとの [マテリアル設定](material_settings)
-- [物理](physics) の設定（PMXまたはXPS、[髪](hair_physics)、[スカート](skirt_physics)、[胸](boobs_physics)、[ボディコライダー](body_colliders) を含む）
+- 物理設定（PMXまたはXPS、[髪](hair_physics)、[スカート](skirt_physics)、[胸](boobs_physics)、[ボディコライダー](body_colliders) を含む）
 - [足の調整](feet_adjustment) および [スケール＆オフセット](scale_offset)
 
 プリセットに含まれないもの：
 
-- モデルファイル自体（プリセットは設定を参照するものであり、アセット自体ではありません）。
+- モデルファイル自体（プリセットはアセット自体を参照するものであり、設定を参照するものです）。
 - システム全体の設定 — これらは [システムプリセット](#system-presets) にあります。
 - シーンの構成（ステージ、ライティング、カメラ） — これは [シーン](save_scene) にあります。
 
