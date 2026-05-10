@@ -29,7 +29,7 @@ Gizmo cubes are virtual cubes that you can use to move and pose the actor. They 
 * Auto Dance 2
 * [Cowgirl Sex](scg_motion){: .nsfw}
 * [Sex From Behind](sfb_motion){: .nsfw}
-* [Sex Motion 3](sm3_motion){: .nsfw}
+* [Sex Motion 3](sex_motion_3){: .nsfw}
 * Motion Override
 
 When the gizmo cube is visible, place your mouse or pointer on one of its faces, drag to move it along the surface and use wheel or thumbstick to rotate within the surface.

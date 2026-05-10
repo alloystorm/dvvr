@@ -244,9 +244,6 @@ feature_sections:
             image: /images/slideshows/simulation/Nyotengo%20Looks%20Absolutely%20Stunning%20No%20Matter%20What%20She%20Wears%20%5BRxj702Ktp8s%5D.webp
             badge: 2024.11 · PRO
             badge_type: pro
-          - title: "## 소프트바디 물리"
-            link: /kr/dancexr/features/physics_softbody
-            image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
           - title: 라그돌
             link: /kr/dancexr/features/ragdoll
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
@@ -335,6 +332,12 @@ feature_sections:
           - title: 오디오 옵션
             link: /kr/dancexr/features/audio_options
             image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
+          - title: 공간 오디오
+            link: /kr/dancexr/features/spatial_audio
+            badge: 2024.9
+          - title: 립싱크
+            link: /kr/dancexr/features/lipsync
+            badge: 2024.9
           - title: 비디오 재생
             link: /kr/dancexr/features/video_playback
             image: /images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp
@@ -363,6 +366,13 @@ feature_sections:
           - title: 동작 할당
             link: /kr/dancexr/features/assign_motion
             image: /images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp
+          - title: 포즈 파일（.pose / .vpd）
+            link: /kr/dancexr/features/pose_files
+            badge: 2024.6
+          - title: VMD2PNG
+            link: /kr/dancexr/features/vmd2png
+            badge: 2026.3
+            badge_type: new
           - title: 리믹스 모션
             link: /kr/dancexr/features/remix
             image: /images/slideshows/motion/Spin%20%5BK__liB93anI%5D.webp
@@ -487,7 +497,7 @@ feature_sections:
     subsections:
       - title: 참고
         tiles:
-          - title: "# 개념 및 용어집"
+          - title: 개념 및 용어집
             link: /kr/dancexr/concepts
           - title: 컨트롤 및 UI
             link: /kr/dancexr/controls
@@ -518,9 +528,13 @@ feature_sections:
             badge: PRO
             badge_type: pro
           - title: 시스템 프리셋
+            link: /kr/dancexr/features/system_presets
             image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
             badge: 2024.1
             badge_type: new
+          - title: 원격 제어
+            link: /kr/dancexr/features/remote_control
+            badge: 2024.12 · Android
           - title: 애플리케이션 설정
             link: /kr/dancexr/features/application_settings
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
@@ -536,6 +550,9 @@ feature_sections:
             image: /images/slideshows/render/VRGirl%20Sea%20Breeze%20dance%20%5BvPnmTRJqj8Q%5D.webp
             badge: 2026.2
             badge_type: new
+          - title: HDR 디스플레이
+            link: /kr/dancexr/features/hdr_display
+            badge: 2024.1 · PC
   - title: 성인
     tiles:
       - title: 가슴 흔들림

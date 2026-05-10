@@ -83,6 +83,20 @@ Use these when the user's wording does not match a topic title directly.
 | What changed in version YYYY.M | `dancexr/releases/YYYY.M.md` (e.g., `dancexr/releases/2026.5.md`) |
 | Which version do I need to buy / Pro vs Free vs Creator | `dancexr/download.md`, `dancexr/concepts.md` (Editions and tiers section) |
 | Activation, license file, "asked to activate again", running in free mode despite paying, "successfully restored license", silent activation, license.txt or config.json missing | `dancexr/activation.md` |
+| Drag and drop loading, dropping a model / motion / audio onto the window, temporary dance set | `dancexr/features/dance_set.md`, `dancexr/controls.md` (and the 2026.3 release notes for the rules) |
+| `.pose` / `.vpd` files, static poses, pose sequence, pose-to-pose transitions, transition anchoring | `dancexr/features/pose_files.md` |
+| Controlling DanceXR from a phone, Android remote, drive PC from the couch, second-screen control | `dancexr/features/remote_control.md` |
+| Wind, fan, breeze, turbulence, blowing cloth or hair, wind field | `dancexr/features/simulation.md`, `dancexr/features/sky.md` |
+| Pathtracing, path-traced rendering, denoiser, glowing objects illuminating scene | `dancexr/features/raytracing.md` |
+| Outline, cel outline, halftone, posterization, retro / 8-bit / printed look, dithering effect | `dancexr/features/graphics.md` |
+| XPBD physics, new physics mode, "Physics Mode" toggle, override physics, new ragdoll, SDF colliders | `dancexr/physics.md`, `dancexr/features/physics.md` (and the 2026.4 release notes) |
+| Fluid simulation, water particles, fountain, shower, viscosity, stickiness | `dancexr/features/simulation.md` |
+| Tentacle simulation | `dancexr/features/simulation.md` |
+| Audio-driven mouth movement, lip sync from any audio, talking along with music | `dancexr/features/lipsync.md` |
+| Sound coming from an actor's head, 3D positional audio, spatialized voice | `dancexr/features/spatial_audio.md` |
+| HDR display, HDR10, brighter highlights on supported monitors | `dancexr/features/hdr_display.md` |
+| VMD2PNG, motion encoded as PNG image, loading a `.png` as motion | `dancexr/features/vmd2png.md` |
+| Saving graphics / lighting / sky / ground as a preset, system presets, environment presets | `dancexr/features/system_presets.md` |
 
 ---
 
@@ -108,6 +122,8 @@ Use these when the user's wording does not match a topic title directly.
 | Auto Update | Enabling or disabling automatic updates | `dancexr/features/autoupdate.md` |
 | Application Settings | Global app preferences (startup, performance, network) | `dancexr/features/application_settings.md` |
 | Google Drive Integration | Accessing models / motions / music from Google Drive | `dancexr/features/googledrive.md` |
+| Remote Control | Control DanceXR running on another device (PC / Quest) from the Android app over local network | `dancexr/features/remote_control.md` |
+| System Presets | Save and reapply scene-wide settings (graphics, lighting, sky, ground) as a named preset | `dancexr/features/system_presets.md` |
 | Feature index page | Master feature list (human-facing tile catalog) | `dancexr/features.md` |
 
 For "what is new in version X" questions, fetch `dancexr/releases/<version>.md` directly. Versions follow `YYYY.M` (e.g. `2026.5`) for 2024+ and semantic versions (e.g. `1.5.1`) for older builds.
@@ -235,6 +251,8 @@ See the [Motion system hub](dancexr/motion.md) for sources, settings hierarchy, 
 | Actor Motion Settings | Per-actor motion adjustments | `dancexr/features/actor_motion_settings.md` |
 | Playback Options | Speed, loop, and playback control | `dancexr/features/playback_options.md` |
 | Assigning Motion | How to assign a motion file to an actor | `dancexr/features/assign_motion.md` |
+| Pose Files (.pose / .vpd) | Loading static `.pose` and `.vpd` files; auto-generated motion sequences from a folder of poses with transition motion and anchoring | `dancexr/features/pose_files.md` |
+| VMD2PNG | Loading motion data from `.png` files produced by the [VMD2PNG](https://github.com/alloystorm/vmd2png) tool | `dancexr/features/vmd2png.md` |
 | Dance Set | Grouping motions, music, and stages into a set | `dancexr/features/dance_set.md` |
 | Remix Motion | Blending and remixing multiple motions | `dancexr/features/remix.md` |
 | Motion Override | Overriding specific bones in a motion | `dancexr/features/motion_override.md` |
@@ -253,6 +271,8 @@ See the [Motion system hub](dancexr/motion.md) for sources, settings hierarchy, 
 | Topic | Description (with synonyms) | Markdown Path |
 |---|---|---|
 | Audio Options | Music playback, volume, and audio source settings | `dancexr/features/audio_options.md` |
+| Spatial Audio | Anchor scene audio to an actor's head for 3D positional sound (works with LipSync and VR head tracking) | `dancexr/features/spatial_audio.md` |
+| LipSync | Audio-driven mouth movement; works on all platforms including Android and Quest | `dancexr/features/lipsync.md` |
 | Video Playback | Playing video files on screen props | `dancexr/features/video_playback.md` |
 
 ---
@@ -270,7 +290,8 @@ See the [Motion system hub](dancexr/motion.md) for sources, settings hierarchy, 
 | Water Interaction | Actor interaction with water surface | `dancexr/features/water_interaction.md` |
 | AR Mode | Augmented reality pass-through mode | `dancexr/features/ar_mode.md` |
 | Ground | Ground plane material and settings | `dancexr/features/ground.md` |
-| Beats Ring | Audio-reactive visualizer used as an auto-update data source | `dancexr/features/beats_ring.md` |
+| Beats Ring | Legacy audio-reactive visualizer; superseded by the new Audio Visualizer in 2025.5 (decal on the floor or surface effect on stage walls). Still present as an [auto-update](dancexr/features/autoupdate.md) data source | `dancexr/features/beats_ring.md` |
+| Audio Visualizer | Music-reactive visual effect used as a floor decal or as a stage-wall surface effect (replaces Beats Ring as of 2025.5) | `dancexr/features/beats_ring.md` (until a dedicated page is added — see the 2025.5 release notes) |
 
 ---
 
@@ -301,6 +322,7 @@ See the [Cinematic cameras hub](dancexr/cameras.md) for mode comparison and reco
 | Orbit Camera | Orbit / turntable camera mode | `dancexr/features/orbit_cam.md` |
 | Long Take Camera | Single-shot long-take camera mode | `dancexr/features/one_shot_cam.md` |
 | Fixed Camera (Concert Mode) | Static camera for concert-style shooting | `dancexr/features/concert_cam.md` |
+| First Person Camera | POV camera that uses the actor's head as the view origin; in VR, head and hand tracking drive the actor | `dancexr/cameras.md` (no dedicated feature page — see the cameras hub) |
 | Auto Reset | Automatically resetting camera or scene state | `dancexr/features/auto_reset.md` |
 
 ---
@@ -312,7 +334,8 @@ See the [Cinematic cameras hub](dancexr/cameras.md) for mode comparison and reco
 | Save Scene | Saving and loading full scene state | `dancexr/features/save_scene.md` |
 | Scene Bundle | Packaging a scene for sharing or reuse | `dancexr/features/scene_bundle.md` |
 | Raytracing Effects | Real-time raytracing settings (PC only) | `dancexr/features/raytracing.md` |
-| Graphics | Render quality, shadows, anti-aliasing | `dancexr/features/graphics.md` |
+| Graphics | Render quality, shadows, anti-aliasing, posterization / outline / halftone effects | `dancexr/features/graphics.md` |
+| HDR Display Support | HDR10 output on capable Windows displays — auto-detected, can be turned off in Graphics settings | `dancexr/features/hdr_display.md` |
 | Display Settings | Resolution, fullscreen, and multi-monitor settings | `dancexr/features/display_settings.md` |
 | VR Settings | VR headset technical settings (foveated rendering, pointer calibration, hand rendering) | `dancexr/features/vr_settings.md` |
 
@@ -329,8 +352,7 @@ Adult-content features. Only route here if the user explicitly asks about NSFW /
 | Dildo | Dildo prop setup and controls | `dancexr/features/dildo.md` |
 | Cowgirl Sex Motion | Cowgirl-position procedural sex motion | `dancexr/features/scg_motion.md` |
 | Sex Motion 2 | Second sex motion system | `dancexr/features/sfb_motion.md` |
-| Sex Motion 3 | Third-generation sex motion system | `dancexr/features/sm3_motion.md` |
-| Sex Motion 3 Actor Settings | Per-actor settings for Sex Motion 3 | `dancexr/features/sex_motion_3.md` |
+| Sex Motion 3 | Per-actor settings for Sex Motion 3 | `dancexr/features/sex_motion_3.md` |
 
 ---
 

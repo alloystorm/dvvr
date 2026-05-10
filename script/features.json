@@ -422,10 +422,6 @@
               "image": "/images/slideshows/simulation/Nyotengo%20Looks%20Absolutely%20Stunning%20No%20Matter%20What%20She%20Wears%20%5BRxj702Ktp8s%5D.webp"
             },
             {
-              "path": "features/physics_softbody",
-              "image": "/images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp"
-            },
-            {
               "path": "features/ragdoll",
               "badge": "PRO",
               "badge_type": "pro",
@@ -579,6 +575,28 @@
               "image": "/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp"
             },
             {
+              "path": "features/spatial_audio",
+              "title": "Spatial Audio",
+              "title_locales": {
+                "jp": "空間オーディオ",
+                "zh": "空间音频",
+                "tw": "空間音訊",
+                "kr": "공간 오디오"
+              },
+              "badge": "2024.9"
+            },
+            {
+              "path": "features/lipsync",
+              "title": "LipSync",
+              "title_locales": {
+                "jp": "リップシンク",
+                "zh": "口型同步",
+                "tw": "口型同步",
+                "kr": "립싱크"
+              },
+              "badge": "2024.9"
+            },
+            {
               "path": "features/video_playback",
               "badge": "2024.4 · PRO",
               "badge_type": "pro",
@@ -620,6 +638,29 @@
             {
               "path": "features/assign_motion",
               "image": "/images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp"
+            },
+            {
+              "path": "features/pose_files",
+              "title": "Pose Files (.pose / .vpd)",
+              "title_locales": {
+                "jp": "ポーズファイル（.pose / .vpd）",
+                "zh": "姿势文件（.pose / .vpd）",
+                "tw": "姿勢檔案（.pose / .vpd）",
+                "kr": "포즈 파일（.pose / .vpd）"
+              },
+              "badge": "2024.6"
+            },
+            {
+              "path": "features/vmd2png",
+              "title": "VMD2PNG",
+              "title_locales": {
+                "jp": "VMD2PNG",
+                "zh": "VMD2PNG",
+                "tw": "VMD2PNG",
+                "kr": "VMD2PNG"
+              },
+              "badge": "2026.3",
+              "badge_type": "new"
             },
             {
               "path": "features/remix",
@@ -951,6 +992,7 @@
               "image": "/images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg"
             },
             {
+              "path": "features/system_presets",
               "title": "System Presets",
               "title_locales": {
                 "jp": "システムプリセット",
@@ -961,6 +1003,17 @@
               "badge": "2024.1",
               "badge_type": "new",
               "image": "/images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg"
+            },
+            {
+              "path": "features/remote_control",
+              "title": "Remote Control",
+              "title_locales": {
+                "jp": "リモートコントロール",
+                "zh": "远程控制",
+                "tw": "遠端控制",
+                "kr": "원격 제어"
+              },
+              "badge": "2024.12 · Android"
             },
             {
               "path": "features/application_settings",
@@ -989,6 +1042,17 @@
               "badge": "2026.2",
               "badge_type": "new",
               "image": "/images/slideshows/render/VRGirl%20Sea%20Breeze%20dance%20%5BvPnmTRJqj8Q%5D.webp"
+            },
+            {
+              "path": "features/hdr_display",
+              "title": "HDR Display",
+              "title_locales": {
+                "jp": "HDR ディスプレイ",
+                "zh": "HDR 显示",
+                "tw": "HDR 顯示",
+                "kr": "HDR 디스플레이"
+              },
+              "badge": "2024.1 · PC"
             }
           ]
         }

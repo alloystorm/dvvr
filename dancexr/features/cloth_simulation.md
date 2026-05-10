@@ -6,6 +6,11 @@ locale: en-US
 
 
 # Cloth Simulation
+
+<!-- TODO: this page (`cloth_simulation.md`) and `cloth_sim.md` cover the same feature. The ai-index references this page; features.json references `cloth_sim`. Decide on one canonical and redirect the other. -->
+
+> **See also:** [Simulation (UI reference)](cloth_sim) — the per-control UI breakdown for the same feature, including the fluid-simulation extension and mesh / SDF colliders.
+
 Cloth simulation creates realistic clothing and fabric effects by simulating the movements of particles and constraints between them. From version 2024.8 you can create clothings for your character and watch them move and interact with the motion.
 
 The key characteristics of the new system are

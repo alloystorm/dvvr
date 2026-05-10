@@ -244,9 +244,6 @@ feature_sections:
             image: /images/slideshows/simulation/Nyotengo%20Looks%20Absolutely%20Stunning%20No%20Matter%20What%20She%20Wears%20%5BRxj702Ktp8s%5D.webp
             badge: 2024.11 · PRO
             badge_type: pro
-          - title: 软体物理
-            link: /zh/dancexr/features/physics_softbody
-            image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
           - title: 布偶人
             link: /zh/dancexr/features/ragdoll
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
@@ -335,6 +332,12 @@ feature_sections:
           - title: 音频选项
             link: /zh/dancexr/features/audio_options
             image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
+          - title: 空间音频
+            link: /zh/dancexr/features/spatial_audio
+            badge: 2024.9
+          - title: 口型同步
+            link: /zh/dancexr/features/lipsync
+            badge: 2024.9
           - title: 视频播放
             link: /zh/dancexr/features/video_playback
             image: /images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp
@@ -363,6 +366,13 @@ feature_sections:
           - title: 分配动作
             link: /zh/dancexr/features/assign_motion
             image: /images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp
+          - title: 姿势文件（.pose / .vpd）
+            link: /zh/dancexr/features/pose_files
+            badge: 2024.6
+          - title: VMD2PNG
+            link: /zh/dancexr/features/vmd2png
+            badge: 2026.3
+            badge_type: new
           - title: Remix Motion
             link: /zh/dancexr/features/remix
             image: /images/slideshows/motion/Spin%20%5BK__liB93anI%5D.webp
@@ -487,7 +497,7 @@ feature_sections:
     subsections:
       - title: 参考
         tiles:
-          - title: "# 概念与术语表"
+          - title: 概念和术语表
             link: /zh/dancexr/concepts
           - title: 控制与用户界面
             link: /zh/dancexr/controls
@@ -518,9 +528,13 @@ feature_sections:
             badge: PRO
             badge_type: pro
           - title: 系统预设
+            link: /zh/dancexr/features/system_presets
             image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
             badge: 2024.1
             badge_type: new
+          - title: 远程控制
+            link: /zh/dancexr/features/remote_control
+            badge: 2024.12 · Android
           - title: 应用程序设置
             link: /zh/dancexr/features/application_settings
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
@@ -536,6 +550,9 @@ feature_sections:
             image: /images/slideshows/render/VRGirl%20Sea%20Breeze%20dance%20%5BvPnmTRJqj8Q%5D.webp
             badge: 2026.2
             badge_type: new
+          - title: HDR 显示
+            link: /zh/dancexr/features/hdr_display
+            badge: 2024.1 · PC
   - title: 成人
     tiles:
       - title: 胸部摇晃

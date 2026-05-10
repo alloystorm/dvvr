@@ -244,9 +244,6 @@ feature_sections:
             image: /images/slideshows/simulation/Nyotengo%20Looks%20Absolutely%20Stunning%20No%20Matter%20What%20She%20Wears%20%5BRxj702Ktp8s%5D.webp
             badge: 2024.11 · PRO
             badge_type: pro
-          - title: ソフトボディ物理演算
-            link: /jp/dancexr/features/physics_softbody
-            image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
           - title: ラグドール
             link: /jp/dancexr/features/ragdoll
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
@@ -335,6 +332,12 @@ feature_sections:
           - title: オーディオオプション
             link: /jp/dancexr/features/audio_options
             image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
+          - title: 空間オーディオ
+            link: /jp/dancexr/features/spatial_audio
+            badge: 2024.9
+          - title: リップシンク
+            link: /jp/dancexr/features/lipsync
+            badge: 2024.9
           - title: ビデオ再生
             link: /jp/dancexr/features/video_playback
             image: /images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp
@@ -363,6 +366,13 @@ feature_sections:
           - title: モーションの割り当て
             link: /jp/dancexr/features/assign_motion
             image: /images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp
+          - title: ポーズファイル（.pose / .vpd）
+            link: /jp/dancexr/features/pose_files
+            badge: 2024.6
+          - title: VMD2PNG
+            link: /jp/dancexr/features/vmd2png
+            badge: 2026.3
+            badge_type: new
           - title: リミックスモーション
             link: /jp/dancexr/features/remix
             image: /images/slideshows/motion/Spin%20%5BK__liB93anI%5D.webp
@@ -487,7 +497,7 @@ feature_sections:
     subsections:
       - title: 参考
         tiles:
-          - title: "# コンセプトと用語集"
+          - title: 概念と用語集
             link: /jp/dancexr/concepts
           - title: 操作とUI
             link: /jp/dancexr/controls
@@ -518,9 +528,13 @@ feature_sections:
             badge: PRO
             badge_type: pro
           - title: システムプリセット
+            link: /jp/dancexr/features/system_presets
             image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
             badge: 2024.1
             badge_type: new
+          - title: リモートコントロール
+            link: /jp/dancexr/features/remote_control
+            badge: 2024.12 · Android
           - title: アプリケーション設定
             link: /jp/dancexr/features/application_settings
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
@@ -536,6 +550,9 @@ feature_sections:
             image: /images/slideshows/render/VRGirl%20Sea%20Breeze%20dance%20%5BvPnmTRJqj8Q%5D.webp
             badge: 2026.2
             badge_type: new
+          - title: HDR ディスプレイ
+            link: /jp/dancexr/features/hdr_display
+            badge: 2024.1 · PC
   - title: アダルト
     tiles:
       - title: 胸揺れ
