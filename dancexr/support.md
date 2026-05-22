@@ -9,38 +9,111 @@ hero_title: Support
 hero_image: /images/hero.png
 ---
 
-<!-- ── Get Help ──────────────────────────────────────────────── -->
+<!-- ── Support Hub Navigation ───────────────────────────────── -->
 <section class="section">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+Support Hub
+
+## How can we help you?
+
+</div>
+<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
+
+  <div class="edition-card">
+    <p class="edition-tier">Documentation</p>
+    <p class="edition-name">Browse Docs</p>
+    <p class="edition-price">Features & Options Guide</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>Detailed features documentation</li>
+      <li>Preparation of custom content</li>
+      <li>VR/Screen settings details</li>
+      <li>System requirements & formats</li>
+    </ul>
+    <a href="features" class="edition-cta">Open Documentation</a>
+  </div>
+
+  <div class="edition-card featured">
+    <p class="edition-tier">Quick Fixes</p>
+    <p class="edition-name">Troubleshooting</p>
+    <p class="edition-price">Checklist before reporting</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>Verify runtime & settings</li>
+      <li>Reset corrupt configurations</li>
+      <li>Diagnose issues with logs</li>
+      <li>Resolve common crash states</li>
+    </ul>
+    <a href="#troubleshooting" class="edition-cta">View Checklist</a>
+  </div>
+
+  <div class="edition-card">
+    <p class="edition-tier">Licensing</p>
+    <p class="edition-name">Activation</p>
+    <p class="edition-price">Manage your license key</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>Hardware change re-activations</li>
+      <li>Patreon verification steps</li>
+      <li>Platform edition differences</li>
+      <li>Purchase & refund inquiries</li>
+    </ul>
+    <a href="activation" class="edition-cta">Activation Guide</a>
+  </div>
+
+</div>
+</section>
+
+<!-- ── Troubleshooting & Logs ───────────────────────────────── -->
+<section class="section section-light" id="troubleshooting">
 <div class="section-inner">
 <div class="section-copy" markdown="1">
 
 {:.section-label}
-Documentation
+Quick Fixes
 
-## Browse the Docs
+## Before Reporting
 
-The fastest way to find answers is in the documentation. The feature pages cover every option in detail, and the troubleshooting guide addresses the most common problems.
+Before submitting a bug report, please run through these quick troubleshooting steps:
 
-[Feature documentation →](features){: .btn-ghost}
+1. **Update to the Latest Version** — Your issue may already be resolved in a newer release.
+2. **Reset Configuration** — Back up and then delete `config.json` to rule out a corrupted settings file.
+3. **Reset License** — If the app fails to start or behaves weirdly, try removing `license.txt` from the installation directory and relaunching.
+4. **Clear Library Cache** — Back up and delete `cache.json` from your content library folder to force the player to re-scan your files.
+5. **OpenXR Setup** — If VR won't launch, double-check that your active OpenXR runtime is set correctly in your VR software settings.
 
 </div>
 <div class="section-copy" markdown="1">
 
 {:.section-label}
-Community
+Troubleshooting
 
-## Join the Discord
+## Finding Your Log Files
 
-The DanceXR community is active on Discord. Find fellow users, share your work, and get quick answers from people who have likely run into the same issue.
+When reporting a bug, attaching your log files is extremely helpful. Log files record errors as they happen and let us diagnose problems quickly.
 
-[Join Discord →](https://discord.gg/xN2MaM7C5q){: .btn-ghost}
+**Windows PC Path:**
+```
+C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
+```
+*Note: Replace `[User]` with your Windows username. The final folder name depends on your edition (e.g. `DanceXR HD`, `DanceXR LW`, or `DanceXR RT`). If AppData is hidden, enable "Hidden items" in Windows Explorer.*
+
+**Android & Meta Quest Path:**
+```
+/Android/data/com.vrstormlab.dancexr/files/Player.log
+```
+*Note: Connect your device to a PC via USB and use File Transfer, or use a file explorer app with appropriate permissions on the device to locate this file.*
+
+Please attach **`Player.log`** (current session) and **`Player-prev.log`** (previous session) to your bug report.
 
 </div>
 </div>
 </section>
 
 <!-- ── FAQ ──────────────────────────────────────────────────── -->
-<section class="section section-light">
+<section class="section">
 <div class="editions-header" markdown="1">
 
 {:.section-label}
@@ -49,6 +122,8 @@ FAQ
 ## Frequently Asked Questions
 
 </div>
+
+<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">🖥️ System & VR Startup</h3>
 <div class="faq-grid">
 
 <div class="faq-item" markdown="1">
@@ -57,9 +132,9 @@ FAQ
 
 This usually means something went wrong during startup. Try these steps in order:
 
-- Remove `license.txt` and relaunch
-- Remove (back up first) `config.json` — this resets all settings and fixes issues caused by a corrupted config
-- Remove (back up first) `cache.json` from your content library
+- Remove `license.txt` and relaunch.
+- Remove (back up first) `config.json` — this resets all settings and fixes issues caused by a corrupted config.
+- Remove (back up first) `cache.json` from your content library.
 
 </div>
 
@@ -69,17 +144,9 @@ This usually means something went wrong during startup. Try these steps in order
 
 This is usually a VR runtime problem, not DanceXR itself.
 
-- If you have multiple VR runtimes, try switching to a different one
-- For SteamVR: disable startup overlays and addons you don't need; try a clean reinstall
-- Check the SteamVR `driver` folder for anything recently installed or updated that you can remove
-
-</div>
-
-<div class="faq-item" markdown="1">
-
-### Asked to activate again
-
-After major OS or hardware changes, DanceXR may not recognize the system as the same one your license was issued for. Just run through the activation steps again — there's no extra cost. See the [Activation & Licensing](activation) guide. [Contact us](#contact) if you have trouble.
+- If you have multiple VR runtimes, try switching to a different one.
+- For SteamVR: disable startup overlays and addons you don't need; try a clean reinstall.
+- Check the SteamVR `driver` folder for anything recently installed or updated that you can remove.
 
 </div>
 
@@ -89,11 +156,16 @@ After major OS or hardware changes, DanceXR may not recognize the system as the 
 
 DanceXR uses OpenXR to initialize VR. If you have multiple VR runtimes installed, one needs to be set as the active OpenXR runtime:
 
-- **Oculus / Meta:** Open the Oculus app → Settings → Beta → OpenXR Runtime → "Set Oculus as active"
-- **SteamVR:** Open SteamVR → top-left menu → Settings → Developer → "Set SteamVR as OpenXR Runtime"
-- **Windows Mixed Reality:** Download "Windows Mixed Reality OpenXR Developer Tools" from the Microsoft Store and set WMR as active from there
+- **Oculus / Meta:** Open the Oculus app → Settings → Beta → OpenXR Runtime → "Set Oculus as active".
+- **SteamVR:** Open SteamVR → top-left menu → Settings → Developer → "Set SteamVR as OpenXR Runtime".
+- **Windows Mixed Reality:** Download "Windows Mixed Reality OpenXR Developer Tools" from the Microsoft Store and set WMR as active from there.
 
 </div>
+
+</div>
+
+<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">📦 Models & Content Library</h3>
+<div class="faq-grid">
 
 <div class="faq-item" markdown="1">
 
@@ -105,6 +177,23 @@ The most common cause is filename encoding — textures can't be located when fi
 - Extra spaces in filenames can also prevent textures from loading. Open the model in PMXEditor and verify that texture references match the actual filenames exactly.
 
 </div>
+
+<div class="faq-item" markdown="1">
+
+### How do I set up my content library on Android or Meta Quest?
+
+Android systems have strict file access rules. By default, the content library is located inside the app internal storage.
+
+- Connect your device to a PC via USB, select "File Transfer", and navigate to `/Android/data/com.vrstormlab.dancexr/files/` or the root `/DanceXR/` folder to copy your zip/image files.
+- On Android and Meta Quest (from version 2024.3), grant DanceXR storage permission to use the system Files app or the built-in Content Manager app to share and manage your library.
+- For more details, see the [Content Library for Android & Quest](content_android_quest) guide.
+
+</div>
+
+</div>
+
+<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">🎨 Visuals & Rendering</h3>
+<div class="faq-grid">
 
 <div class="faq-item" markdown="1">
 
@@ -124,56 +213,23 @@ Transparency depth prepass is on by default. It fixes transparency sorting by re
 Also caused by transparency depth prepass — when multiple sky spheres are transparent, only the topmost layer renders fully in some areas.
 
 - Turn off transparency depth prepass, or
-- Find the background sky sphere and change its material from transparent to opaque
+- Find the background sky sphere and change its material from transparent to opaque.
 
 </div>
 
 </div>
-</section>
 
-<!-- ── Troubleshooting ───────────────────────────────────────── -->
-<section class="section">
-<div class="section-inner">
-<div class="section-copy" markdown="1">
+<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">🔑 Licensing & Payments</h3>
+<div class="faq-grid">
 
-{:.section-label}
-Troubleshooting
+<div class="faq-item" markdown="1">
 
-## Finding Your Log Files
+### Asked to activate again
 
-When reporting a bug, attaching your log files is extremely helpful. Log files record errors as they happen and let us diagnose problems quickly.
-
-**Log file location (PC):**
-
-```
-C:\Users\[your user name]\AppData\LocalLow\VR Storm Lab\DanceXR HD
-```
-
-The last folder name depends on which version you have — it may be `DanceXR HD`, `DanceXR LW`, or `DanceXR RT`.
-
-Some folders are hidden by default. If you can't find `AppData`, [enable hidden files in Explorer](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2) first.
-
-Once you open the folder, attach **`Player.log`** (current session) and **`Player-prev.log`** (previous session) to your report.
+After major OS or hardware changes, DanceXR may not recognize the system as the same one your license was issued for. Just run through the activation steps again — there's no extra cost. See the [Activation & Licensing](activation) guide. [Contact us](#contact) if you have trouble.
 
 </div>
-<div class="section-copy" markdown="1">
 
-{:.section-label}
-Quick Fixes
-
-## Before Reporting
-
-Run through these steps first — they resolve the majority of issues:
-
-1. **Update to the latest version** — your issue may already be fixed
-2. **Reset config** — back up then delete `config.json` to rule out a corrupted settings file
-3. **Check the log** — open `Player.log` and search for `ERROR` or `Exception` to identify the problem
-4. **VR not launching** — confirm your OpenXR runtime is set correctly (see FAQ above)
-5. **White textures** — check filename encoding and extra spaces in texture references
-
-If none of these help, the issue is worth reporting.
-
-</div>
 </div>
 </section>
 

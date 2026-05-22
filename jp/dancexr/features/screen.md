@@ -20,7 +20,7 @@ toc: true
 スクリーンに何を表示するかを選択します。
 
 - **カメラ** — シーンカメラの視点（ステージ上のスクリーンに俳優を見るには、シーンに2台目のカメラを使用してください）。
-- **ビデオ** — [Video Playback]を介して再生されるビデオファイル。このビデオを[content library](../preparecontent)の`videos/`フォルダに配置してください。
+- **ビデオ** — [ビデオプレーヤー](video_player)を介して再生されるビデオファイル。このビデオを[content library](../preparecontent)の`videos/`フォルダに配置してください。
 - **画像** — 静的なテクスチャ。
 
 ---
@@ -52,7 +52,7 @@ toc: true
 
 ## 関連ページ
 
-- [Video Playback](video_playback)
+- [ビデオプレーヤー](video_player)
 - [Mirror](mirror)
 - [Props](props)
 - [Room Stage](room_stage)

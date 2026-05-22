@@ -13,28 +13,36 @@ A Jekyll-based documentation website for **DanceXR** — a VR character model vi
   - `features.md` — master feature index (Markdown table)
   - `releases/` — monthly release notes (e.g., `2026.3.md`)
 - `jp/dancexr/`, `zh/dancexr/`, `tw/dancexr/`, `kr/dancexr/` — localized mirrors of `dancexr/`
-- `_data/navigation.yml` — sidebar nav hierarchy (releases grouped by year, feature nav)
+- `_data/nav_links.yml` — sidebar nav hierarchy (releases grouped by year, feature nav)
 - `_data/ui-text.yml` — theme UI string translations
 - `_config.yml` — Jekyll config (theme, plugins, analytics, footer links)
 - `script/` — Python utilities for translation automation
 
 ## Page anatomy
 
-Every content page has three mandatory regions in this order:
+Every content page starts with a YAML front matter block specifying its layout and metadata. Valid layout options are `home`, `release`, `feature`, and `studio-home`.
 
+Example of a feature page:
 ```markdown
 ---
-layout: single
-title: Page Title
-toc: true
+layout: feature
+title: "Video Player"
 locale: en-US
-sidebar:
-  nav: "docs"
 ---
+```
 
-
-
-Body content here...
+Example of a home/dashboard page (such as support):
+```markdown
+---
+layout: home
+title: Support
+toc: false
+locale: en-US
+lang_path: /dancexr/support
+hero_compact: true
+hero_title: Support
+hero_image: /images/hero.png
+---
 ```
 
 **Never alter** YAML front matter fields (except `title`, `locale`, `permalink`, `sidebar.nav` when translating), the language links block, or Jekyll Liquid tags.

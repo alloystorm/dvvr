@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: Audio Visualizer: 오디오 시각화기
+title: "Audio Visualizer: 오디오 시각화기"
 locale: ko-KR
 ---
 

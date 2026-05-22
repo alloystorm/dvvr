@@ -20,7 +20,7 @@ toc: true
 選擇螢幕顯示的內容：
 
 - **攝影機 (Camera)** — 場景攝影機的視圖（在場景中使用第二個攝影機來觀察舞台上的演員）。
-- **影片 (Video)** — 透過 [Video Playback](video_playback) 播放的影片檔案。請將影片放置在您 [content library](../preparecontent) 的 `videos/` 資料夾中。
+- **影片 (Video)** — 透過 [影片播放器](video_player) 播放的影片檔案。請將影片放置在您 [content library](../preparecontent) 的 `videos/` 資料夾中。
 - **影像 (Image)** — 靜態紋理。
 
 ---
@@ -52,7 +52,7 @@ toc: true
 
 ## 相關頁面 (Related pages)
 
-- [Video Playback](video_playback)
+- [影片播放器](video_player)
 - [Mirror](mirror)
 - [Props](props)
 - [Room Stage](room_stage)

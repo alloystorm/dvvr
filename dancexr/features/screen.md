@@ -20,7 +20,7 @@ In an earlier release the previous "Screen" prop was split into two: [Mirror](mi
 Choose what the screen displays:
 
 - **Camera** — a scene camera's view (use a second camera in the scene to see the actor on a stage screen).
-- **Video** — a video file played via [Video Playback](video_playback). Place the video in the `videos/` folder of your [content library](../preparecontent).
+- **Video** — a video file played via [Video Player](video_player). Place the video in the `videos/` folder of your [content library](../preparecontent).
 - **Image** — a static texture.
 
 ---
@@ -52,7 +52,7 @@ When the screen source is a scene camera, a small camera model is rendered at th
 
 ## Related pages
 
-- [Video Playback](video_playback)
+- [Video Player](video_player)
 - [Mirror](mirror)
 - [Props](props)
 - [Room Stage](room_stage)

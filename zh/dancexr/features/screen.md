@@ -20,7 +20,7 @@ toc: true
 选择屏幕显示的内容：
 
 - **Camera** — 场景摄影机的视图（要在舞台屏幕上看到角色的表演，请在场景中使用第二个摄影机）。
-- **Video** — 通过 [Video Playback](video_playback) 播放的视频文件。请将视频放置在您的 [content library](../preparecontent) 的 `videos/` 文件夹中。
+- **Video** — 通过 [视频播放器](video_player) 播放的视频文件。请将视频放置在您的 [content library](../preparecontent) 的 `videos/` 文件夹中。
 - **Image** — 静态纹理。
 
 ---
@@ -52,7 +52,7 @@ toc: true
 
 ## 相关页面
 
-- [Video Playback](video_playback)
+- [视频播放器](video_player)
 - [Mirror](mirror)
 - [Props](props)
 - [Room Stage](room_stage)

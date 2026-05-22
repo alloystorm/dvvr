@@ -273,7 +273,7 @@ See the [Motion system hub](dancexr/motion.md) for sources, settings hierarchy, 
 | Audio Options | Music playback, volume, and audio source settings | `dancexr/features/audio_options.md` |
 | Spatial Audio | Anchor scene audio to an actor's head for 3D positional sound (works with LipSync and VR head tracking) | `dancexr/features/spatial_audio.md` |
 | LipSync | Audio-driven mouth movement; works on all platforms including Android and Quest | `dancexr/features/lipsync.md` |
-| Video Playback | Playing video files on screen props | `dancexr/features/video_playback.md` |
+| Video Player | Playing video files on screen props | `dancexr/features/video_player.md` |
 
 ---
 

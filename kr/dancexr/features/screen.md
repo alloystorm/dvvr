@@ -20,7 +20,7 @@ toc: true
 화면에 무엇을 표시할지 선택합니다:
 
 - **Camera** — 씬 카메라의 뷰입니다 (배우가 무대 스크린에 보이는지 확인하려면 씬에 두 번째 카메라를 사용하세요).
-- **Video** — [Video Playback](video_playback)을 통해 재생되는 비디오 파일입니다. 비디오는 [content library](../preparecontent)의 `videos/` 폴더에 배치해야 합니다.
+- **Video** — [비디오 플레이어](video_player)을 통해 재생되는 비디오 파일입니다. 비디오는 [content library](../preparecontent)의 `videos/` 폴더에 배치해야 합니다.
 - **Image** — 정적 텍스처입니다.
 
 ---
@@ -52,7 +52,7 @@ toc: true
 
 ## 관련 페이지
 
-- [Video Playback](video_playback)
+- [비디오 플레이어](video_player)
 - [Mirror](mirror)
 - [Props](props)
 - [Room Stage](room_stage)

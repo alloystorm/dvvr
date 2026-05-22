@@ -81,7 +81,7 @@
     - Actor Motion Settings  features/motion_settings  (19L)
   [Audio & Video]
     - Audio Options  features/audio_options  (19L)
-    - Video Playback  features/video_playback  (44L)
+    - Video Player  features/video_player  (44L)
     - Music Timing  features/music_timing  (34L)
   [Motions]
     - Dance Set  features/dance_set  (37L)

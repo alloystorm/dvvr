@@ -21,13 +21,16 @@ from urllib.parse import urljoin, urlparse
 SKIP_PREFIXES = ("/assets/",)
 SKIP_EXACT = frozenset({
     "/feed.xml", "/sitemap.xml", "/robots.txt",
-    "/404", "/redirect",
+    "/404", "/redirect", "/README", "/dancexr/ai-index", "/dancexr/versions",
+    "/pages/purchase_options", "/policy", "/terms", "/shiftpiano",
+    "/jp", "/kr", "/tw", "/zh",
+    "/dancexr/home", "/jp/dancexr/home", "/kr/dancexr/home", "/tw/dancexr/home", "/zh/dancexr/home"
 })
 
 
 def canonical_path(path: str) -> str:
-    """Normalise a URL path: strip index.html, .html extension, trailing slash."""
-    path = re.sub(r"/index\.html$", "/", path)
+    """Normalise a URL path: strip index.html, index, .html extension, trailing slash."""
+    path = re.sub(r"/index(\.html)?$", "", path)
     path = path.replace("\\", "/")
     if path != "/" and path.endswith("/"):
         path = path.rstrip("/")

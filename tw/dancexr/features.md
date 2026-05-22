@@ -324,8 +324,8 @@ feature_sections:
           - title: 口型同步
             link: /tw/dancexr/features/lipsync
             badge: 2024.9
-          - title: 視頻播放
-            link: /tw/dancexr/features/video_playback
+          - title: 影片播放器
+            link: /tw/dancexr/features/video_player
             image: /images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp
             badge: 2024.4 · PRO
             badge_type: pro

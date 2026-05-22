@@ -41,7 +41,7 @@ locale: ko-KR
 * bundles: [필요한 모든 에셋과 함께 저장된 씬](features/scene_bundle)을 포함한 zip 패키지입니다.
 * export: 3D 스냅샷 기능을 사용할 때 내보낸 모델 파일을 여기서 찾을 수 있습니다.
 * presets: 저장된 프리셋 파일입니다. 댄스XR의 동일한 버전을 사용하는 한 친구들과 이 파일을 공유할 수 있습니다.
-* videos: [프로젝션 및 다이나믹 텍스처 맵](features/video_playback)에 사용할 수 있는 비디오입니다. MP4 형식만 지원합니다.
+* videos: [프로젝션 및 다이나믹 텍스처 맵](features/video_player)에 사용할 수 있는 비디오입니다. MP4 형식만 지원합니다.
 * chat: [AI 채팅 시스템](features/ai_chat)에 사용되는 파일입니다.
   * characters: 캐릭터 썸네일 및 템플릿. 이들은 자동으로 생성되지만, 수정할 수 있습니다.
   * templates: 프롬프트 템플릿으로, 수정하거나 새로 만들 수 있습니다.

@@ -9,38 +9,111 @@ hero_title: サポート
 hero_image: /images/hero.png
 ---
 
-<!-- ── Get Help ──────────────────────────────────────────────── -->
+<!-- ── Support Hub Navigation ───────────────────────────────── -->
 <section class="section">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+サポートハブ
+
+## どのようなご用件でしょうか？
+
+</div>
+<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
+
+  <div class="edition-card">
+    <p class="edition-tier">ドキュメント</p>
+    <p class="edition-name">ドキュメントを参照</p>
+    <p class="edition-price">機能とオプションのガイド</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>詳細な機能ドキュメント</li>
+      <li>カスタムコンテンツの準備</li>
+      <li>VR/画面設定の詳細</li>
+      <li>システム要件とフォーマット</li>
+    </ul>
+    <a href="features" class="edition-cta">ドキュメントを開く</a>
+  </div>
+
+  <div class="edition-card featured">
+    <p class="edition-tier">クイックフィックス</p>
+    <p class="edition-name">トラブルシューティング</p>
+    <p class="edition-price">報告前のチェックリスト</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>ランタイムと設定の確認</li>
+      <li>破損した設定の初期化</li>
+      <li>ログによる問題の診断</li>
+      <li>一般的なクラッシュ状態の解決</li>
+    </ul>
+    <a href="#troubleshooting" class="edition-cta">チェックリストを表示</a>
+  </div>
+
+  <div class="edition-card">
+    <p class="edition-tier">ライセンス</p>
+    <p class="edition-name">アクティベーション</p>
+    <p class="edition-price">ライセンスキーの管理</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>ハードウェア変更による再有効化</li>
+      <li>Patreon認証手順</li>
+      <li>プラットフォーム版の違い</li>
+      <li>購入および返金に関するお問い合わせ</li>
+    </ul>
+    <a href="activation" class="edition-cta">アクティベーションガイド</a>
+  </div>
+
+</div>
+</section>
+
+<!-- ── Troubleshooting & Logs ───────────────────────────────── -->
+<section class="section section-light" id="troubleshooting">
 <div class="section-inner">
 <div class="section-copy" markdown="1">
 
 {:.section-label}
-ドキュメント
+クイックフィックス
 
-## ドキュメントを参照する
+## 報告する前に
 
-答えを見つける最も早い方法はドキュメントです。機能ページでは各オプションが詳細に説明されており、トラブルシューティングガイドでは最も一般的な問題を取り上げています。
+バグ報告を送信する前に、以下のクイックトラブルシューティング手順を実行してください：
 
-[機能ドキュメント →](features){: .btn-ghost}
+1. **最新バージョンへの更新** — 新しいリリースで問題がすでに解決されている可能性があります。
+2. **設定の初期化** — 設定ファイルの破損を排除するため、`config.json`をバックアップしてから削除してください。
+3. **ライセンスの初期化** — アプリが起動しない場合や動作がおかしい場合は、インストールディレクトリから`license.txt`を削除して再起動してみてください。
+4. **ライブラリキャッシュのクリア** — プレイヤーにファイルを強制的に再スキャンさせるため、コンテンツライブラリフォルダから`cache.json`をバックアップおよび削除してください。
+5. **OpenXRの設定** — VRが起動しない場合は、VRソフトウェアの設定でアクティブなOpenXRランタイムが正しく設定されているか再確認してください。
 
 </div>
 <div class="section-copy" markdown="1">
 
 {:.section-label}
-コミュニティ
+トラブルシューティング
 
-## Discordに参加する
+## ログファイルの場所
 
-DanceXRコミュニティはDiscordで活発です。他のユーザーを見つけ、作品を共有し、同じ問題に遭遇した可能性のある人から迅速な回答を得ましょう。
+バグを報告する際、ログファイルを添付すると非常に役立ちます。ログファイルにはエラーの発生時の記録が含まれており、問題を素早く診断できます。
 
-[Discordに参加 →](https://discord.gg/xN2MaM7C5q){: .btn-ghost}
+**Windows PCのパス：**
+```
+C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
+```
+*※注：[User]をお使いのWindowsユーザー名に置き換えてください。最後のフォルダ名はエディション（DanceXR HD、DanceXR LW、DanceXR RTなど）によって異なります。AppDataが非表示の場合は、エクスプローラーの表示設定で「隠しファイル」を有効にしてください。*
+
+**Android & Meta Questのパス：**
+```
+/Android/data/com.vrstormlab.dancexr/files/Player.log
+```
+*※注：デバイスをUSBでPCに接続してファイル転送を使用するか、デバイス上の適切な権限を持つファイルエクスプローラーアプリを使用してこのファイルを特定してください。*
+
+レポートに **`Player.log`**（現在のセッション）と **`Player-prev.log`**（前のセッション）を添付してください。
 
 </div>
 </div>
 </section>
 
 <!-- ── FAQ ──────────────────────────────────────────────────── -->
-<section class="section section-light">
+<section class="section">
 <div class="editions-header" markdown="1">
 
 {:.section-label}
@@ -49,6 +122,8 @@ DanceXRコミュニティはDiscordで活発です。他のユーザーを見つ
 ## よくある質問（FAQ）
 
 </div>
+
+<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">🖥️ システム & VRの起動</h3>
 <div class="faq-grid">
 
 <div class="faq-item" markdown="1">
@@ -57,9 +132,9 @@ DanceXRコミュニティはDiscordで活発です。他のユーザーを見つ
 
 これは通常、起動時に何らかの問題が発生していることを意味します。以下の手順を順番にお試しください：
 
-- `license.txt`を削除して再起動する
-- `config.json`を削除する（先にバックアップすること）—これによりすべての設定がリセットされ、破損した設定ファイルが原因の問題が解決します
-- コンテンツライブラリから`cache.json`を削除する（先にバックアップすること）
+- `license.txt`を削除して再起動する。
+- `config.json`を削除する（先にバックアップすること）—これによりすべての設定がリセットされ、破損した設定ファイルが原因の問題が解決します。
+- コンテンツライブラリから`cache.json`を削除する（先にバックアップすること）。
 
 </div>
 
@@ -69,17 +144,9 @@ DanceXRコミュニティはDiscordで活発です。他のユーザーを見つ
 
 これは通常、DanceXR自体ではなく、VRランタイムの問題です。
 
-- 複数のVRランタイムがある場合は、別のものに切り替えてみる
-- SteamVRの場合：不要な起動オーバーレイやアドオンを無効にし、クリーン再インストールを試してください
-- SteamVRの`driver`フォルダー内で、削除できる最近インストールまたは更新されたものがないか確認する
-
-</div>
-
-<div class="faq-item" markdown="1">
-
-### 再度アクティベートを求められる
-
-大規模なOSまたはハードウェアの変更後、DanceXRはシステムをライセンス発行時と同じものとして認識しない場合があります。アクティベーション手順を再度実行するだけで解決します。追加の費用はかかりません。[アクティベーションとライセンス](activation)ガイドを参照してください。問題がある場合は[お問い合わせ](#contact)ください。
+- 複数のVRランタイムがある場合は、別のものに切り替えてみる。
+- SteamVRの場合：不要な起動オーバーレイやアドオンを無効にし、クリーン再インストールを試してください。
+- SteamVRの`driver`フォルダー内で、削除できる最近インストールまたは更新されたものがないか確認する。
 
 </div>
 
@@ -95,6 +162,11 @@ DanceXRはOpenXRを使用してVRを初期化します。複数のVRランタイ
 
 </div>
 
+</div>
+
+<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">📦 モデル & コンテンツライブラリ</h3>
+<div class="faq-grid">
+
 <div class="faq-item" markdown="1">
 
 ### モデルを読み込んでも全部が白い
@@ -108,12 +180,29 @@ DanceXRはOpenXRを使用してVRを初期化します。複数のVRランタイ
 
 <div class="faq-item" markdown="1">
 
+### AndroidまたはMeta Questでコンテンツライブラリを設定するにはどうすればよいですか？
+
+Androidシステムには厳格なファイルアクセス制限があります。デフォルトでは、コンテンツライブラリはアプリの内部ストレージ内に配置されます。
+
+- デバイスをUSB経由でPCに接続し、「ファイル転送」を選択し、`/Android/data/com.vrstormlab.dancexr/files/`またはルートの`/DanceXR/`フォルダに移動して、zipや画像ファイルをコピーします。
+- AndroidおよびMeta Quest（バージョン2024.3以降）では、DanceXRにストレージ権限を付与して、システムファイルアプリまたは組み込みのコンテンツマネージャーアプリを使用してライブラリを共有・管理します。
+- 詳細については、[Android & Quest用コンテンツライブラリ](content_android_quest)ガイドを参照してください。
+
+</div>
+
+</div>
+
+<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">🎨 ビジュアル & レンダリング</h3>
+<div class="faq-grid">
+
+<div class="faq-item" markdown="1">
+
 ### 髪のマテリアルが透けて見える
 
-透明度の深度プリパスがデフォルトでオンになっています。これは、最上層の透明レイヤーのみをレンダリングすることで、透明度のソートを修正します—つまり、積み重ねられた透明レイヤー（層状の髪など）は最上層のみが表示されるということです。
+透明度の深度プリパスがデフォルトでオンになっています。これは、最上層の透明レイヤーのみをレンダリングすることで透明度のソートを修正します。つまり、積み重ねられた透明レイヤー（層状の髪など）は最上層のみが表示されます。
 
-- すべての透明レイヤーをレンダリングするために、透明度の深度プリパスをオフにする。モデルのマテリアルの順序が正しくない場合、ソートのアーティファクトが発生する可能性があります。
-- 完璧な万能な解決策はありません—異なる設定を試して、視覚的な問題が少ないものを使用してください。
+- すべての透明レイヤーをレンダリングするために、透明度の深度プリパスをオフにします。モデルのマテリアルの順序が正しくない場合、ソートのアーティファクトが発生する可能性があります。
+- 完璧な万能の解決策はありません。異なる設定を試して、視覚的な問題が少ないものを使用してください。
 
 </div>
 
@@ -121,59 +210,26 @@ DanceXRはOpenXRを使用してVRを初期化します。複数のVRランタイ
 
 ### ステージモデルのスカイスフィアに穴が開いている、またはピクセル化して見える
 
-これも透明度の深度プリパスが原因です—複数のスカイスフィアが透明な場合、一部の領域では最上層のみが完全にレンダリングされます。
+これも透明度の深度プリパスが原因です。複数のスカイスフィアが透明な場合、一部の領域では最上層のみが完全にレンダリングされます。
 
 - 透明度の深度プリパスをオフにする、または
-- 背景のスカイスフィアを見つけ、そのマテリアルを透明から不透明に変更する
+- 背景のスカイスフィアを見つけ、そのマテリアルを透明から不透明に変更する。
 
 </div>
 
 </div>
-</section>
 
-<!-- ── Troubleshooting ───────────────────────────────────────── -->
-<section class="section">
-<div class="section-inner">
-<div class="section-copy" markdown="1">
+<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">🔑 ライセンス & 支払い</h3>
+<div class="faq-grid">
 
-{:.section-label}
-トラブルシューティング
+<div class="faq-item" markdown="1">
 
-## ログファイルの場所
+### 再度アクティベートを求められる
 
-バグを報告する際、ログファイルを添付すると非常に役立ちます。ログファイルにはエラーの発生時の記録が含まれており、問題を素早く診断できます。
-
-**ログファイルの場所（PC）：**
-
-```
-C:\Users\[your user name]\AppData\LocalLow\VR Storm Lab\DanceXR HD
-```
-
-最後のフォルダー名は、お使いのバージョンによって異なります—`DanceXR HD`、`DanceXR LW`、または`DanceXR RT`の場合があります。
-
-一部のフォルダーは初期設定で隠されています。`AppData`が見つからない場合は、まず[エクスプローラーで隠しファイルを表示する](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2)を有効にしてください。
-
-フォルダーを開いたら、レポートに**`Player.log`**（現在のセッション）と**`Player-prev.log`**（前のセッション）を添付してください。
+大規模なOSまたはハードウェアの変更後、DanceXRはシステムをライセンス発行時と同じものとして認識しない場合があります。アクティベーション手順を再度実行するだけで解決します。追加の費用はかかりません。[アクティベーションとライセンス](activation)ガイドを参照してください。問題がある場合は[お問い合わせ](#contact)ください。
 
 </div>
-<div class="section-copy" markdown="1">
 
-{:.section-label}
-クイックフィックス
-
-## 報告する前に
-
-まずこれらの手順を実行してください—ほとんどの問題がこれで解決します：
-
-1. **最新バージョンに更新する** — すでに問題が修正されている可能性があります
-2. **設定をリセットする** — 破損した設定ファイルを排除するため、`config.json`をバックアップしてから削除する
-3. **ログを確認する** — `Player.log`を開き、`ERROR`または`Exception`を検索して問題を特定する
-4. **VRが起動しない** — OpenXRランタイムが正しく設定されているか確認する（上記のFAQを参照）
-5. **白いテクスチャ** — テクスチャ参照のファイル名のエンコーディングと余分なスペースを確認する
-
-これらで解決しない場合は、報告する価値があります。
-
-</div>
 </div>
 </section>
 

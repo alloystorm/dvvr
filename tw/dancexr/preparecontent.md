@@ -41,7 +41,7 @@ DanceXR 會在內容庫中的不同子文件夾中搜索各種類型的內容。
 * bundles：[保存的場景以及所有必要的資源](features/scene_bundle)包含在壓縮包中。
 * export：當您使用 3D 快照功能時，導出的模型文件可以在此找到。
 * presets：保存的預設文件。只要您使用相同版本的 DanceXR，就可以與朋友分享這些文件。
-* videos：可用於[投影和動態紋理映射](features/video_playback)的視頻。僅支持 MP4 格式。
+* videos：可用於[投影和動態紋理映射](features/video_player)的視頻。僅支持 MP4 格式。
 * chat：用於[AI 聊天系統](features/ai_chat)的文件。
   * characters：角色縮略圖和模板。這些是自動生成的，但您可以進行修改。
   * templates：提示模板，您可以進行修改並創建新模板。
