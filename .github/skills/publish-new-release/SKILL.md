@@ -9,7 +9,6 @@ A full release publication touches seven areas:
 
 1. Draft the English release notes from the CHANGELOG
 2. Create four localized release note pages (JP, ZH, TW, KR)
-3. Add the new release to `_data/navigation.yml` for all five nav sections
 4. Update the homepage release card in all five `index.md` files
 5. Use `layout: release` (not `layout: single`) for all release note pages
 6. Prepare platform-specific release notes under `notes/[version]/`
@@ -31,15 +30,6 @@ Create `dancexr/releases/[version].md` with this exact front matter:
 layout: release
 title: Release [version]
 locale: en-US
-nav_links:
-  - label: Intro
-    url: /dancexr
-  - label: Features
-    url: /dancexr/features
-  - label: Releases
-    url: /dancexr/releases
-  - label: Download
-    url: /dancexr/download
 ---
 ```
 
@@ -72,15 +62,6 @@ Front matter template for each locale (example for Japanese):
 layout: release
 title: リリース [version]
 locale: ja-JP
-nav_links:
-  - label: イントロ
-    url: /jp/dancexr
-  - label: 機能
-    url: /jp/dancexr/features
-  - label: リリース
-    url: /jp/dancexr/releases
-  - label: ダウンロード
-    url: /jp/dancexr/download
 ---
 ```
 
@@ -90,23 +71,6 @@ Translate the full body content of the English release notes into each target la
 - Preserve Markdown structure exactly (same heading hierarchy, same bullet count).
 - Never alter URLs.
 - Keep code spans, Liquid tags, and HTML untouched.
-
----
-
-## Step 3: Update `_data/navigation.yml`
-
-Six navigation sections must each have the new release inserted at the top of their 2026 children list. Use `multi_replace_string_in_file` to update all six in a single call.
-
-| Section key | Title format | URL format |
-|---|---|---|
-| `releases` (main docs nav — inside the `docs` nav entry) | `"[version]"` | `/dancexr/releases/[version]` |
-| `releases` (standalone sidebar) | `Release [version]` | `/dancexr/releases/[version]` |
-| `releases-zh` | `发布 [version]` | `/zh/dancexr/releases/[version]` |
-| `releases-tw` | `發布 [version]` | `/tw/dancexr/releases/[version]` |
-| `releases-jp` | `リリース [version]` | `/jp/dancexr/releases/[version]` |
-| `releases-kr` | `출시 [version]` | `/kr/dancexr/releases/[version]` |
-
-The main `docs` nav entry is a short list under `- title: Releases` inside the `docs:` key. Insert the new entry as the first child there too, and remove any `(Early Access)` or similar suffixes from the previous release title at the same time.
 
 ---
 
