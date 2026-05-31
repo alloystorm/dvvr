@@ -406,15 +406,15 @@ New features and improvements ship every month. Patreon supporters get early acc
 
 </div>
 <div class="release-card">
-  <p class="release-version">Latest — 2026.5</p>
-  <p class="release-headline">May 2026</p>
+  <p class="release-version">Latest — 2026.6</p>
+  <p class="release-headline">June 2026</p>
   <div class="release-items">
-    <div class="release-item">Persistent AI roleplay sessions</div>
-    <div class="release-item">OperatorXR workflow integration</div>
-    <div class="release-item">More responsive paired motion</div>
-    <div class="release-item">Better pose and eye control</div>
+    <div class="release-item">Pose your character by hand</div>
+    <div class="release-item">Rebuilt full-body balance</div>
+    <div class="release-item">Smarter assistant with voice commands</div>
+    <div class="release-item">More lifelike fluid and motion</div>
   </div>
-  <a href="releases/2026.5" class="btn-ghost">Full release notes</a>
+  <a href="releases/2026.6" class="btn-ghost">Full release notes</a>
 </div>
 </div>
 </section>

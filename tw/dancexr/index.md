@@ -406,15 +406,15 @@ AI 功能
 
 </div>
 <div class="release-card">
-  <p class="release-version">最新 — 2026.5</p>
-  <p class="release-headline">2026年5月</p>
+  <p class="release-version">最新 — 2026.6</p>
+  <p class="release-headline">2026年6月</p>
   <div class="release-items">
-    <div class="release-item">持續多輪 AI 角色扮演</div>
-    <div class="release-item">OperatorXR 工作流程整合</div>
-    <div class="release-item">更靈敏的雙人動作</div>
-    <div class="release-item">姿勢與視線控制改進</div>
+    <div class="release-item">用手擺出角色姿勢</div>
+    <div class="release-item">重構的全身平衡</div>
+    <div class="release-item">支援語音指令的智慧助手</div>
+    <div class="release-item">更逼真的流體與動作</div>
   </div>
-  <a href="releases/2026.5" class="btn-ghost">完整版本說明</a>
+  <a href="releases/2026.6" class="btn-ghost">完整版本說明</a>
 </div>
 </div>
 </section>

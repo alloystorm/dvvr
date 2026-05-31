@@ -406,15 +406,15 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
 
 </div>
 <div class="release-card">
-  <p class="release-version">최신 — 2026.5</p>
-  <p class="release-headline">2026년 5월</p>
+  <p class="release-version">최신 — 2026.6</p>
+  <p class="release-headline">2026년 6월</p>
   <div class="release-items">
-    <div class="release-item">지속되는 AI 롤플레이</div>
-    <div class="release-item">OperatorXR 워크플로 통합</div>
-    <div class="release-item">더 반응적인 페어 모션</div>
-    <div class="release-item">포즈와 시선 제어 개선</div>
+    <div class="release-item">손으로 캐릭터 포즈 잡기</div>
+    <div class="release-item">재구축된 전신 밸런스</div>
+    <div class="release-item">음성 명령을 지원하는 스마트 어시스턴트</div>
+    <div class="release-item">더 생생한 유체와 모션</div>
   </div>
-  <a href="releases/2026.5" class="btn-ghost">전체 릴리스 노트</a>
+  <a href="releases/2026.6" class="btn-ghost">전체 릴리스 노트</a>
 </div>
 </div>
 </section>

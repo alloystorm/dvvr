@@ -406,15 +406,15 @@ AIパワードのボイスチャットにより、キャラクターがリアル
 
 </div>
 <div class="release-card">
-  <p class="release-version">最新 — 2026.5</p>
-  <p class="release-headline">2026年5月</p>
+  <p class="release-version">最新 — 2026.6</p>
+  <p class="release-headline">2026年6月</p>
   <div class="release-items">
-    <div class="release-item">継続するAIロールプレイ</div>
-    <div class="release-item">OperatorXR ワークフロー統合</div>
-    <div class="release-item">より反応的なペアモーション</div>
-    <div class="release-item">ポーズと視線制御の改善</div>
+    <div class="release-item">手でキャラクターをポーズ付け</div>
+    <div class="release-item">再構築された全身バランス</div>
+    <div class="release-item">音声コマンド対応のスマートアシスタント</div>
+    <div class="release-item">よりリアルな流体とモーション</div>
   </div>
-  <a href="releases/2026.5" class="btn-ghost">完全なリリースノート</a>
+  <a href="releases/2026.6" class="btn-ghost">完全なリリースノート</a>
 </div>
 </div>
 </section>
