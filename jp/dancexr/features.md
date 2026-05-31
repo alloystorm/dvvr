@@ -15,6 +15,10 @@ feature_sections:
   - title: 新機能と注目ポイント
     light: true
     tiles:
+      - title: インタラクティブ・ポージング
+        link: /jp/dancexr/features/posing
+        badge: "2026.6 | Pose Your Character By Hand"
+        badge_type: new
       - title: ディスカバリーアプリ
         link: /jp/dancexr/features/discovery
         image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
@@ -28,7 +32,7 @@ feature_sections:
       - title: AI駆動音声チャット
         link: /jp/dancexr/features/ai_chat
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
-        badge: PRO
+        badge: 2026.6 · PRO
         badge_type: pro
       - title: "オフラインレンダー & 録画"
         link: /jp/dancexr/creator
@@ -46,7 +50,7 @@ feature_sections:
       - title: AI駆動音声チャット
         link: /jp/dancexr/features/ai_chat
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
-        badge: PRO
+        badge: 2026.6 · PRO
         badge_type: pro
   - title: モデルサポート
     light: true
@@ -218,6 +222,8 @@ feature_sections:
           - title: シミュレーション
             link: /jp/dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
+            badge: 2026.6
+            badge_type: new
           - title: 布シミュレーション
             link: /jp/dancexr/features/cloth_simulation
             image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
@@ -304,6 +310,10 @@ feature_sections:
             badge_type: pro
       - title: キャラクタービヘイビア
         tiles:
+          - title: インタラクティブ・ポージング
+            link: /jp/dancexr/features/posing
+            badge: 2026.6
+            badge_type: new
           - title: 瞬き、呼吸、目線
             link: /jp/dancexr/features/eyecontact
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
@@ -344,7 +354,7 @@ feature_sections:
           - title: モーション設定
             link: /jp/dancexr/features/motion_settings
             image: /images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp
-            badge: 2026.2
+            badge: 2026.6
             badge_type: new
           - title: "## 再生オプション"
             link: /jp/dancexr/features/playback_options
