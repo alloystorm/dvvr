@@ -30,8 +30,8 @@ DanceXR Root Folder
    └─ [other Operator files]
 ```
 
-下載連結：
-https://github.com/alloystorm/dvvr/releases/download/operator1.0/operator-install-lite-1.0.exe
+下載連結（1.1 版本，助手與聊天功能所需）：
+https://github.com/alloystorm/dvvr/releases/download/operator1.0/operator-installer-lite-1.1.262.exe
 
 ## 使用方式
 
