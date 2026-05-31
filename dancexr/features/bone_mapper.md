@@ -67,6 +67,8 @@ For each target bone in DanceXR's standard skeleton, pick the matching bone from
 
 Manual mapping is the original mapping mode and is still available for any case [chain mapping](#chain-mapping) does not handle well. You can switch between manual and chain mapping freely without losing data.
 
+As of 2026.6, bone and rig handling is more reliable, including support for translating non-standard bones and availability checks that help DanceXR work correctly with a wider range of models.
+
 ---
 
 ## Chain mapping

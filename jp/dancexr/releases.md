@@ -11,6 +11,8 @@ feature_sections:
   - title: "2026"
     light: true
     tiles:
+      - title: "リリース 2026.6"
+        link: "/jp/dancexr/releases/2026.6"
       - title: "リリース 2026.5"
         link: "/jp/dancexr/releases/2026.5"
       - title: "リリース 2026.4"

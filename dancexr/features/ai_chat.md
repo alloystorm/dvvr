@@ -55,6 +55,16 @@ The latest AI chat stack includes several workflow improvements that apply most 
 * **Better interaction flow**: Prompt handling, speaker turns, startup behavior, and status reporting were refined for longer sessions.
 * **Improved TTS behavior**: Voice quality, language support, and fallback behavior have all been improved.
 
+### Operator Assistant
+Introduced in the 2026.6 release, the Operator Assistant is a built-in helper that answers your questions about DanceXR right inside the chat window. Type **@operator** followed by a question and it will look up the relevant documentation, answer in plain language, and include clickable links back to the docs so you can read more. It works even before you have loaded a character, so you can ask for help at any time, and it keeps its own conversation thread separate from your roleplay history.
+
+Two quick slash commands let you set things up without leaving the conversation:
+
+* **`/scene <description>`** — set up or regenerate the current scene from a short text description.
+* **`/char <name> <description>`** — regenerate a character's profile from a name and description. If the character is well known, the assistant can search the web to fill in the details.
+
+Conversations are also more robust in 2026.6. Empty or cut-off replies are handled gracefully instead of breaking the flow, links in messages are now clickable, and a welcome message plus clearer loading and progress feedback make it easier to tell what the assistant is doing.
+
 ### Running LLM Locally (LM Studio, OobaBooga, Ollama)
 You can also run LLMs locally if your computer is powerful enough. For example, the latest Llama3 8b should be more than enough for role-playing. We have tested OobaBooga, LM Studio, and Ollama, and they work well with DanceXR.
 

@@ -5,12 +5,12 @@ title: Releases
 toc: false
 permalink: /dancexr/releases/
 hero_compact: true
-hero_title: Latest Release - 2026.5
-hero_sub: Introducing DanceXR Operator
+hero_title: Latest Release - 2026.6
+hero_sub: Pose your character by hand
 hero_image: /images/hero.png
 hero_ctas:
   - label: Full Release Notes
-    url: /dancexr/releases/2026.5
+    url: /dancexr/releases/2026.6
     style: neon
   - label: DOWNLOAD NOW
     url: /dancexr/download
@@ -19,6 +19,8 @@ feature_sections:
   - title: "2026"
     light: true
     tiles:
+      - title: "Release 2026.6"
+        link: "/dancexr/releases/2026.6"
       - title: "Release 2026.5"
         link: "/dancexr/releases/2026.5"
       - title: "Release 2026.4"

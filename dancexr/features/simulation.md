@@ -67,6 +67,10 @@ The fluid simulation extends the particle system to simulate fluid behavior.
   - Viscosity
   - Stickiness
 
+- **Improved Fluid (v2026.6)**:
+  - Better cohesion and stickiness for more convincing fluid behavior
+  - Improved stability so the simulation holds together more reliably
+
 - **Rendering**:
   - Fluid particles rendered as points or spheres
   - Fluid shaders coming in future updates
