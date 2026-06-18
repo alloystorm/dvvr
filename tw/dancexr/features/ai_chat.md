@@ -11,6 +11,8 @@ DanceXR 現在透過 2026.5 版本引入的專用本地 AI 後端 DanceXR Operat
 
 如果您想要在 DanceXR 中使用最新的 AI 聊天體驗，目前推薦的配置就是 Operator。
 
+**注意：** 使用助手或聊天功能需要 DanceXR Operator 1.1 版本，您可以[在此免費下載](https://github.com/alloystorm/dvvr/releases/download/operator1.0/operator-installer-lite-1.1.262.exe)。
+
 ### 主要功能
 * 推薦使用 DanceXR Operator 作為專用本地 AI 後端
 * AI 聊天可利用場景資訊、記憶與多輪歷史，支援更長時間的角色扮演互動
@@ -62,6 +64,8 @@ Operator 助手在 2026.6 版本中引入，是一個內建助手，可在聊天
 * **`/char <name> <description>`** — 根據名稱與描述重新生成角色資料。如果該角色廣為人知，助手可以連網搜尋來補全細節。
 
 2026.6 中對話也更加穩健。空白或被截斷的回覆會被妥善處理而不會打斷流程，訊息中的連結現在可以點擊，歡迎訊息以及更清晰的載入與進度回饋讓你更容易了解助手正在做什麼。
+
+**注意：** 使用助手或聊天功能需要 DanceXR Operator 1.1 版本，您可以[在此免費下載](https://github.com/alloystorm/dvvr/releases/download/operator1.0/operator-installer-lite-1.1.262.exe)。
 
 ### 本地運行 LLM (LM Studio, OobaBooga, Ollama)
 如果您的計算機足夠強大，您也可以本地運行 LLM。例如，最新的 Llama3 8b 應該足以進行角色扮演。我們已經測試了 OobaBooga、LM Studio 和 Ollama，它們在 DanceXR 中表現良好。

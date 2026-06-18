@@ -32,8 +32,8 @@ DanceXR Root Folder
    └─ [other Operator files]
 ```
 
-Download Link:
-https://github.com/alloystorm/dvvr/releases/download/operator1.0/operator-install-lite-1.0.exe
+Download Link (version 1.1, required for the assistant and chat features):
+https://github.com/alloystorm/dvvr/releases/download/operator1.0/operator-installer-lite-1.1.262.exe
 
 
 ## Usage

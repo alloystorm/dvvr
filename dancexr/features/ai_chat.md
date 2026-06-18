@@ -12,6 +12,8 @@ DanceXR now supports a more complete local AI chat workflow through DanceXR Oper
 
 If you want the most up-to-date AI chat experience in DanceXR, Operator is now the recommended setup.
 
+**Note:** Using the assistant or chat features requires version 1.1 of DanceXR Operator, which you can [download for free here](https://github.com/alloystorm/dvvr/releases/download/operator1.0/operator-installer-lite-1.1.262.exe).
+
 ### Key features
 * Recommended support for DanceXR Operator as the dedicated local AI backend
 * AI chat that can use scene context, memory, and multi-turn history for longer roleplay sessions
@@ -64,6 +66,8 @@ Two quick slash commands let you set things up without leaving the conversation:
 * **`/char <name> <description>`** — regenerate a character's profile from a name and description. If the character is well known, the assistant can search the web to fill in the details.
 
 Conversations are also more robust in 2026.6. Empty or cut-off replies are handled gracefully instead of breaking the flow, links in messages are now clickable, and a welcome message plus clearer loading and progress feedback make it easier to tell what the assistant is doing.
+
+**Note:** Using the assistant or chat features requires version 1.1 of DanceXR Operator, which you can [download for free here](https://github.com/alloystorm/dvvr/releases/download/operator1.0/operator-installer-lite-1.1.262.exe).
 
 ### Running LLM Locally (LM Studio, OobaBooga, Ollama)
 You can also run LLMs locally if your computer is powerful enough. For example, the latest Llama3 8b should be more than enough for role-playing. We have tested OobaBooga, LM Studio, and Ollama, and they work well with DanceXR.
