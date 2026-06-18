@@ -263,6 +263,7 @@ See the [Motion system hub](dancexr/motion.md) for sources, settings hierarchy, 
 | Catwalk Motion | Procedural catwalk / walk cycle | `dancexr/features/catwalk.md` |
 | Lifelike Motions | Procedural lifelike micro-motions | `dancexr/features/lifelike_motions.md` |
 | Blink, Breathing & Eye Contact | Automatic blink, breathing, and gaze behavior | `dancexr/features/eyecontact.md` |
+| Free Pose | Manual posing with the balance solver; pinning limbs in place | `dancexr/features/free_pose.md` |
 
 ---
 

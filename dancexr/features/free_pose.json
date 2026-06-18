@@ -1,0 +1,394 @@
+{
+  "name": "./motion/proc/free_pose",
+  "docPath": "features/free_pose",
+  "label": "./motion/proc/free_pose",
+  "labels": {
+    "ja": "(./motion/proc/free_pose)",
+    "zh-TW": "(./motion/proc/free_pose)",
+    "ko": "(./motion/proc/free_pose)",
+    "zh-CN": "(./motion/proc/free_pose)"
+  },
+  "description": "Free Pose turns the actor into a self-balancing puppet you pose\r\nby hand. Nothing is animating — the balance solver owns the whole\r\npose. Grab any limb, the torso, or the head and drag it; the\r\nsolver keeps the character balanced over its feet while standing,\r\nor over a locked seat while sitting. Pins are remembered, so a\r\nreleased limb stays where you leave it.\r\n\r\n\r\n## Posing & Pinning\r\n\r\nDrag a hand/arm or foot/leg to move that limb; the grab rides the\r\npointer ray at a fixed depth, so moving the camera (or scrolling)\r\nsweeps it nearer and farther. The target is clamped to the limb's\r\nnatural reach, so it can't collapse into the joint or lock dead\r\nstraight. Hands stay put where you release them. Feet use\r\n*dwell-to-pin*: hold the drag still until the marker tints green to\r\nlock the foot in the air, or release while it is still red to let\r\nthe leg drop and settle to the floor. The **Reset** action drops\r\nevery pin and returns the actor to a neutral stand.\r\n\r\n\r\n## Weight Shift & Sway\r\n\r\n**Shift Smoothing** is the time the body takes to transfer weight\r\nfrom one foot to the other — larger feels slower and heavier.\r\n**Sway Amplitude** adds a small idle quiet-stance drift so a\r\nstanding pose doesn't look frozen; set it to *0* for a dead-still\r\nhold.\r\n\r\n\r\n## Support & Solver\r\n\r\n**Support Radius** is a slack disk around the weighted stance: COM\r\nexcursion inside it counts as balanced and draws no hip correction,\r\nso a larger radius gives a looser, lazier-looking balance.\r\n**Solve Iterations** is how many passes the pose solver runs each\r\nframe — raise it for tighter limbs at a small cost, lower it to\r\nsave time.\r\n\r\n\r\n## Leg Springs\r\n\r\nThe body is a single mass at the pelvis, held up by each grounded\r\nleg acting as a spring; the knee bend, the catch on landing, and\r\nthe standing wobble all emerge from these. **Sim Gravity** is the\r\ndownward pull that compresses the legs. **Leg Stiffness** sets how\r\nfirmly a leg resists that compression (softer legs sink into a\r\ndeeper crouch), and **Leg Damping** is the landing give that keeps\r\na planted foot from bouncing.\r\n\r\n\r\n## Stance Control\r\n\r\n**Stance Stiffness** and **Stance Damping** are the horizontal\r\ncontroller that holds the pelvis over the base of support —\r\nstiffer reacts faster but can feel rigid, more damping keeps quiet\r\nstance from jittering. **Relax Rate** is how quickly a released leg\r\neases back toward its resting pose.\r\n\r\n\r\n## Sitting\r\n\r\nDrag the torso (waist) and hold still to lock it as a seat: the\r\nbody then rests on it like a stool, and both feet are free to lift\r\nand dangle without bearing weight. A quick drag-and-release of the\r\ntorso, or **Reset**, stands back up. Because a seated pelvis can't\r\nslide to chase balance the way a standing one does, balance is kept\r\nby *tilting the upper body* opposite the legs. **Seat Radius** is\r\nthe support disk around the seat inside which no tilt is applied.\r\n**Seat Lean Gain** sets how hard the upper body leans to counter a\r\nleg that's been moved, and **Seat Lean Max** caps that angle — turn\r\nthe gain up for a stronger, more visible counterbalance, down if it\r\novershoots. **Seat Stiffness** and **Seat Damping** tune the spring\r\nthat settles the pelvis onto the seat after you release the drag.",
+  "descriptions": {
+    "ja": "(Free Pose turns the actor into a self-balancing puppet you pose\r\nby hand. Nothing is animating — the balance solver owns the whole\r\npose. Grab any limb, the torso, or the head and drag it; the\r\nsolver keeps the character balanced over its feet while standing,\r\nor over a locked seat while sitting. Pins are remembered, so a\r\nreleased limb stays where you leave it.\r\n\r\n\r\n## Posing & Pinning\r\n\r\nDrag a hand/arm or foot/leg to move that limb; the grab rides the\r\npointer ray at a fixed depth, so moving the camera (or scrolling)\r\nsweeps it nearer and farther. The target is clamped to the limb's\r\nnatural reach, so it can't collapse into the joint or lock dead\r\nstraight. Hands stay put where you release them. Feet use\r\n*dwell-to-pin*: hold the drag still until the marker tints green to\r\nlock the foot in the air, or release while it is still red to let\r\nthe leg drop and settle to the floor. The **Reset** action drops\r\nevery pin and returns the actor to a neutral stand.\r\n\r\n\r\n## Weight Shift & Sway\r\n\r\n**Shift Smoothing** is the time the body takes to transfer weight\r\nfrom one foot to the other — larger feels slower and heavier.\r\n**Sway Amplitude** adds a small idle quiet-stance drift so a\r\nstanding pose doesn't look frozen; set it to *0* for a dead-still\r\nhold.\r\n\r\n\r\n## Support & Solver\r\n\r\n**Support Radius** is a slack disk around the weighted stance: COM\r\nexcursion inside it counts as balanced and draws no hip correction,\r\nso a larger radius gives a looser, lazier-looking balance.\r\n**Solve Iterations** is how many passes the pose solver runs each\r\nframe — raise it for tighter limbs at a small cost, lower it to\r\nsave time.\r\n\r\n\r\n## Leg Springs\r\n\r\nThe body is a single mass at the pelvis, held up by each grounded\r\nleg acting as a spring; the knee bend, the catch on landing, and\r\nthe standing wobble all emerge from these. **Sim Gravity** is the\r\ndownward pull that compresses the legs. **Leg Stiffness** sets how\r\nfirmly a leg resists that compression (softer legs sink into a\r\ndeeper crouch), and **Leg Damping** is the landing give that keeps\r\na planted foot from bouncing.\r\n\r\n\r\n## Stance Control\r\n\r\n**Stance Stiffness** and **Stance Damping** are the horizontal\r\ncontroller that holds the pelvis over the base of support —\r\nstiffer reacts faster but can feel rigid, more damping keeps quiet\r\nstance from jittering. **Relax Rate** is how quickly a released leg\r\neases back toward its resting pose.\r\n\r\n\r\n## Sitting\r\n\r\nDrag the torso (waist) and hold still to lock it as a seat: the\r\nbody then rests on it like a stool, and both feet are free to lift\r\nand dangle without bearing weight. A quick drag-and-release of the\r\ntorso, or **Reset**, stands back up. Because a seated pelvis can't\r\nslide to chase balance the way a standing one does, balance is kept\r\nby *tilting the upper body* opposite the legs. **Seat Radius** is\r\nthe support disk around the seat inside which no tilt is applied.\r\n**Seat Lean Gain** sets how hard the upper body leans to counter a\r\nleg that's been moved, and **Seat Lean Max** caps that angle — turn\r\nthe gain up for a stronger, more visible counterbalance, down if it\r\novershoots. **Seat Stiffness** and **Seat Damping** tune the spring\r\nthat settles the pelvis onto the seat after you release the drag.)",
+    "zh-TW": "(Free Pose turns the actor into a self-balancing puppet you pose\r\nby hand. Nothing is animating — the balance solver owns the whole\r\npose. Grab any limb, the torso, or the head and drag it; the\r\nsolver keeps the character balanced over its feet while standing,\r\nor over a locked seat while sitting. Pins are remembered, so a\r\nreleased limb stays where you leave it.\r\n\r\n\r\n## Posing & Pinning\r\n\r\nDrag a hand/arm or foot/leg to move that limb; the grab rides the\r\npointer ray at a fixed depth, so moving the camera (or scrolling)\r\nsweeps it nearer and farther. The target is clamped to the limb's\r\nnatural reach, so it can't collapse into the joint or lock dead\r\nstraight. Hands stay put where you release them. Feet use\r\n*dwell-to-pin*: hold the drag still until the marker tints green to\r\nlock the foot in the air, or release while it is still red to let\r\nthe leg drop and settle to the floor. The **Reset** action drops\r\nevery pin and returns the actor to a neutral stand.\r\n\r\n\r\n## Weight Shift & Sway\r\n\r\n**Shift Smoothing** is the time the body takes to transfer weight\r\nfrom one foot to the other — larger feels slower and heavier.\r\n**Sway Amplitude** adds a small idle quiet-stance drift so a\r\nstanding pose doesn't look frozen; set it to *0* for a dead-still\r\nhold.\r\n\r\n\r\n## Support & Solver\r\n\r\n**Support Radius** is a slack disk around the weighted stance: COM\r\nexcursion inside it counts as balanced and draws no hip correction,\r\nso a larger radius gives a looser, lazier-looking balance.\r\n**Solve Iterations** is how many passes the pose solver runs each\r\nframe — raise it for tighter limbs at a small cost, lower it to\r\nsave time.\r\n\r\n\r\n## Leg Springs\r\n\r\nThe body is a single mass at the pelvis, held up by each grounded\r\nleg acting as a spring; the knee bend, the catch on landing, and\r\nthe standing wobble all emerge from these. **Sim Gravity** is the\r\ndownward pull that compresses the legs. **Leg Stiffness** sets how\r\nfirmly a leg resists that compression (softer legs sink into a\r\ndeeper crouch), and **Leg Damping** is the landing give that keeps\r\na planted foot from bouncing.\r\n\r\n\r\n## Stance Control\r\n\r\n**Stance Stiffness** and **Stance Damping** are the horizontal\r\ncontroller that holds the pelvis over the base of support —\r\nstiffer reacts faster but can feel rigid, more damping keeps quiet\r\nstance from jittering. **Relax Rate** is how quickly a released leg\r\neases back toward its resting pose.\r\n\r\n\r\n## Sitting\r\n\r\nDrag the torso (waist) and hold still to lock it as a seat: the\r\nbody then rests on it like a stool, and both feet are free to lift\r\nand dangle without bearing weight. A quick drag-and-release of the\r\ntorso, or **Reset**, stands back up. Because a seated pelvis can't\r\nslide to chase balance the way a standing one does, balance is kept\r\nby *tilting the upper body* opposite the legs. **Seat Radius** is\r\nthe support disk around the seat inside which no tilt is applied.\r\n**Seat Lean Gain** sets how hard the upper body leans to counter a\r\nleg that's been moved, and **Seat Lean Max** caps that angle — turn\r\nthe gain up for a stronger, more visible counterbalance, down if it\r\novershoots. **Seat Stiffness** and **Seat Damping** tune the spring\r\nthat settles the pelvis onto the seat after you release the drag.)",
+    "ko": "(Free Pose turns the actor into a self-balancing puppet you pose\r\nby hand. Nothing is animating — the balance solver owns the whole\r\npose. Grab any limb, the torso, or the head and drag it; the\r\nsolver keeps the character balanced over its feet while standing,\r\nor over a locked seat while sitting. Pins are remembered, so a\r\nreleased limb stays where you leave it.\r\n\r\n\r\n## Posing & Pinning\r\n\r\nDrag a hand/arm or foot/leg to move that limb; the grab rides the\r\npointer ray at a fixed depth, so moving the camera (or scrolling)\r\nsweeps it nearer and farther. The target is clamped to the limb's\r\nnatural reach, so it can't collapse into the joint or lock dead\r\nstraight. Hands stay put where you release them. Feet use\r\n*dwell-to-pin*: hold the drag still until the marker tints green to\r\nlock the foot in the air, or release while it is still red to let\r\nthe leg drop and settle to the floor. The **Reset** action drops\r\nevery pin and returns the actor to a neutral stand.\r\n\r\n\r\n## Weight Shift & Sway\r\n\r\n**Shift Smoothing** is the time the body takes to transfer weight\r\nfrom one foot to the other — larger feels slower and heavier.\r\n**Sway Amplitude** adds a small idle quiet-stance drift so a\r\nstanding pose doesn't look frozen; set it to *0* for a dead-still\r\nhold.\r\n\r\n\r\n## Support & Solver\r\n\r\n**Support Radius** is a slack disk around the weighted stance: COM\r\nexcursion inside it counts as balanced and draws no hip correction,\r\nso a larger radius gives a looser, lazier-looking balance.\r\n**Solve Iterations** is how many passes the pose solver runs each\r\nframe — raise it for tighter limbs at a small cost, lower it to\r\nsave time.\r\n\r\n\r\n## Leg Springs\r\n\r\nThe body is a single mass at the pelvis, held up by each grounded\r\nleg acting as a spring; the knee bend, the catch on landing, and\r\nthe standing wobble all emerge from these. **Sim Gravity** is the\r\ndownward pull that compresses the legs. **Leg Stiffness** sets how\r\nfirmly a leg resists that compression (softer legs sink into a\r\ndeeper crouch), and **Leg Damping** is the landing give that keeps\r\na planted foot from bouncing.\r\n\r\n\r\n## Stance Control\r\n\r\n**Stance Stiffness** and **Stance Damping** are the horizontal\r\ncontroller that holds the pelvis over the base of support —\r\nstiffer reacts faster but can feel rigid, more damping keeps quiet\r\nstance from jittering. **Relax Rate** is how quickly a released leg\r\neases back toward its resting pose.\r\n\r\n\r\n## Sitting\r\n\r\nDrag the torso (waist) and hold still to lock it as a seat: the\r\nbody then rests on it like a stool, and both feet are free to lift\r\nand dangle without bearing weight. A quick drag-and-release of the\r\ntorso, or **Reset**, stands back up. Because a seated pelvis can't\r\nslide to chase balance the way a standing one does, balance is kept\r\nby *tilting the upper body* opposite the legs. **Seat Radius** is\r\nthe support disk around the seat inside which no tilt is applied.\r\n**Seat Lean Gain** sets how hard the upper body leans to counter a\r\nleg that's been moved, and **Seat Lean Max** caps that angle — turn\r\nthe gain up for a stronger, more visible counterbalance, down if it\r\novershoots. **Seat Stiffness** and **Seat Damping** tune the spring\r\nthat settles the pelvis onto the seat after you release the drag.)",
+    "zh-CN": "(Free Pose turns the actor into a self-balancing puppet you pose\r\nby hand. Nothing is animating — the balance solver owns the whole\r\npose. Grab any limb, the torso, or the head and drag it; the\r\nsolver keeps the character balanced over its feet while standing,\r\nor over a locked seat while sitting. Pins are remembered, so a\r\nreleased limb stays where you leave it.\r\n\r\n\r\n## Posing & Pinning\r\n\r\nDrag a hand/arm or foot/leg to move that limb; the grab rides the\r\npointer ray at a fixed depth, so moving the camera (or scrolling)\r\nsweeps it nearer and farther. The target is clamped to the limb's\r\nnatural reach, so it can't collapse into the joint or lock dead\r\nstraight. Hands stay put where you release them. Feet use\r\n*dwell-to-pin*: hold the drag still until the marker tints green to\r\nlock the foot in the air, or release while it is still red to let\r\nthe leg drop and settle to the floor. The **Reset** action drops\r\nevery pin and returns the actor to a neutral stand.\r\n\r\n\r\n## Weight Shift & Sway\r\n\r\n**Shift Smoothing** is the time the body takes to transfer weight\r\nfrom one foot to the other — larger feels slower and heavier.\r\n**Sway Amplitude** adds a small idle quiet-stance drift so a\r\nstanding pose doesn't look frozen; set it to *0* for a dead-still\r\nhold.\r\n\r\n\r\n## Support & Solver\r\n\r\n**Support Radius** is a slack disk around the weighted stance: COM\r\nexcursion inside it counts as balanced and draws no hip correction,\r\nso a larger radius gives a looser, lazier-looking balance.\r\n**Solve Iterations** is how many passes the pose solver runs each\r\nframe — raise it for tighter limbs at a small cost, lower it to\r\nsave time.\r\n\r\n\r\n## Leg Springs\r\n\r\nThe body is a single mass at the pelvis, held up by each grounded\r\nleg acting as a spring; the knee bend, the catch on landing, and\r\nthe standing wobble all emerge from these. **Sim Gravity** is the\r\ndownward pull that compresses the legs. **Leg Stiffness** sets how\r\nfirmly a leg resists that compression (softer legs sink into a\r\ndeeper crouch), and **Leg Damping** is the landing give that keeps\r\na planted foot from bouncing.\r\n\r\n\r\n## Stance Control\r\n\r\n**Stance Stiffness** and **Stance Damping** are the horizontal\r\ncontroller that holds the pelvis over the base of support —\r\nstiffer reacts faster but can feel rigid, more damping keeps quiet\r\nstance from jittering. **Relax Rate** is how quickly a released leg\r\neases back toward its resting pose.\r\n\r\n\r\n## Sitting\r\n\r\nDrag the torso (waist) and hold still to lock it as a seat: the\r\nbody then rests on it like a stool, and both feet are free to lift\r\nand dangle without bearing weight. A quick drag-and-release of the\r\ntorso, or **Reset**, stands back up. Because a seated pelvis can't\r\nslide to chase balance the way a standing one does, balance is kept\r\nby *tilting the upper body* opposite the legs. **Seat Radius** is\r\nthe support disk around the seat inside which no tilt is applied.\r\n**Seat Lean Gain** sets how hard the upper body leans to counter a\r\nleg that's been moved, and **Seat Lean Max** caps that angle — turn\r\nthe gain up for a stronger, more visible counterbalance, down if it\r\novershoots. **Seat Stiffness** and **Seat Damping** tune the spring\r\nthat settles the pelvis onto the seat after you release the drag.)"
+  },
+  "values": [
+    {
+      "name": "Shift Smoothing",
+      "type": "float",
+      "label": "Shift Smoothing",
+      "labels": {
+        "ja": "シフトスムージング",
+        "zh-TW": "位移平滑",
+        "ko": "이동 평활화",
+        "zh-CN": "位移平滑"
+      },
+      "default": 0.25,
+      "min": 0.05,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Support Radius",
+      "type": "float",
+      "label": "Support Radius",
+      "labels": {
+        "ja": "サポート半径",
+        "zh-TW": "支撐半徑",
+        "ko": "지지 반경",
+        "zh-CN": "支撑半径"
+      },
+      "default": 0.05,
+      "min": 0,
+      "max": 0.3,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Solve Iterations",
+      "type": "int",
+      "label": "Solve Iterations",
+      "labels": {
+        "ja": "ソルブイテレーション",
+        "zh-TW": "求解迭代次數",
+        "ko": "솔버 반복 횟수",
+        "zh-CN": "求解迭代次数"
+      },
+      "default": 5,
+      "min": 1,
+      "max": 10,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Sway Amplitude",
+      "type": "float",
+      "label": "Sway Amplitude",
+      "labels": {
+        "ja": "揺れ振幅",
+        "zh-TW": "搖擺幅度",
+        "ko": "흔들림 진폭",
+        "zh-CN": "摇摆幅度"
+      },
+      "default": 0.02,
+      "min": 0,
+      "max": 0.05,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Sim Gravity",
+      "type": "float",
+      "label": "Sim Gravity",
+      "labels": {
+        "ja": "シミュレーション重力",
+        "zh-TW": "模擬重力",
+        "ko": "시뮬레이션 중력",
+        "zh-CN": "模拟重力"
+      },
+      "default": 5,
+      "min": 0,
+      "max": 10,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Leg Stiffness",
+      "type": "float",
+      "label": "Leg Stiffness",
+      "labels": {
+        "ja": "脚の剛性",
+        "zh-TW": "腿部剛度",
+        "ko": "다리 강성",
+        "zh-CN": "腿部刚度"
+      },
+      "default": 1.5,
+      "min": 0,
+      "max": 3,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Leg Damping",
+      "type": "float",
+      "label": "Leg Damping",
+      "labels": {
+        "ja": "脚の減衰",
+        "zh-TW": "腿部阻尼",
+        "ko": "다리 감쇠",
+        "zh-CN": "腿部阻尼"
+      },
+      "default": 5,
+      "min": 0,
+      "max": 10,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Stance Stiffness",
+      "type": "float",
+      "label": "Stance Stiffness",
+      "labels": {
+        "ja": "スタンスの剛性",
+        "zh-TW": "站姿剛度",
+        "ko": "스탠스 강성",
+        "zh-CN": "站姿刚度"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Stance Damping",
+      "type": "float",
+      "label": "Stance Damping",
+      "labels": {
+        "ja": "スタンスの減衰",
+        "zh-TW": "站姿阻尼",
+        "ko": "스탠스 댐핑",
+        "zh-CN": "站姿阻尼"
+      },
+      "default": 0.7,
+      "min": 0,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Relax Rate",
+      "type": "float",
+      "label": "Relax Rate",
+      "labels": {
+        "ja": "リラックス率",
+        "zh-TW": "鬆弛率",
+        "ko": "릴랙스 속도",
+        "zh-CN": "松弛率"
+      },
+      "default": 5,
+      "min": 0,
+      "max": 10,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Seat Radius",
+      "type": "float",
+      "label": "Seat Radius",
+      "labels": {
+        "ja": "(Seat Radius)",
+        "zh-TW": "(Seat Radius)",
+        "ko": "(Seat Radius)",
+        "zh-CN": "(Seat Radius)"
+      },
+      "default": 0.04,
+      "min": 0,
+      "max": 0.3,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Seat Lean Gain",
+      "type": "float",
+      "label": "Seat Lean Gain",
+      "labels": {
+        "ja": "(Seat Lean Gain)",
+        "zh-TW": "(Seat Lean Gain)",
+        "ko": "(Seat Lean Gain)",
+        "zh-CN": "(Seat Lean Gain)"
+      },
+      "default": 800,
+      "min": 0,
+      "max": 2000,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Seat Lean Max",
+      "type": "float",
+      "label": "Seat Lean Max",
+      "labels": {
+        "ja": "(Seat Lean Max)",
+        "zh-TW": "(Seat Lean Max)",
+        "ko": "(Seat Lean Max)",
+        "zh-CN": "(Seat Lean Max)"
+      },
+      "default": 45,
+      "min": 0,
+      "max": 80,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Seat Stiffness",
+      "type": "float",
+      "label": "Seat Stiffness",
+      "labels": {
+        "ja": "(Seat Stiffness)",
+        "zh-TW": "(Seat Stiffness)",
+        "ko": "(Seat Stiffness)",
+        "zh-CN": "(Seat Stiffness)"
+      },
+      "default": 1.5,
+      "min": 0,
+      "max": 3,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Seat Damping",
+      "type": "float",
+      "label": "Seat Damping",
+      "labels": {
+        "ja": "(Seat Damping)",
+        "zh-TW": "(Seat Damping)",
+        "ko": "(Seat Damping)",
+        "zh-CN": "(Seat Damping)"
+      },
+      "default": 8,
+      "min": 0,
+      "max": 20,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Debug Log",
+      "type": "bool",
+      "label": "Debug Log",
+      "labels": {
+        "ja": "デバッグログ",
+        "zh-TW": "調試日誌",
+        "ko": "디버그 로그",
+        "zh-CN": "调试日志"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Debug Draw",
+      "type": "bool",
+      "label": "Debug Draw",
+      "labels": {
+        "ja": "デバッグ描画",
+        "zh-TW": "調試繪製",
+        "ko": "디버그 드로우",
+        "zh-CN": "调试绘制"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    }
+  ]
+}
