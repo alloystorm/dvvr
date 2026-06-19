@@ -99,7 +99,7 @@ feature_sections:
           - title: 角色菜单与工具
             link: /zh/dancexr/features/actor_tools
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
-          - title: 全局角色控制
+          - title: 全局主体控制
             link: /zh/dancexr/features/global_actor_control
           - title: 附加到角色
             link: /zh/dancexr/features/attach_to_actor
@@ -137,7 +137,7 @@ feature_sections:
             image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
             badge: 2026.1
             badge_type: new
-          - title: 服装与身体彩绘
+          - title: 服饰与身体彩绘
             link: /zh/dancexr/features/outfit
             image: /images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp
             badge: 2024.3 · PRO
@@ -218,7 +218,7 @@ feature_sections:
           - title: 仿真
             link: /zh/dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
-          - title: 布料模拟
+          - title: 模拟
             link: /zh/dancexr/features/cloth_simulation
             image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
             badge: 2024.8 · PRO
@@ -284,6 +284,8 @@ feature_sections:
           - title: 待机动画
             link: /zh/dancexr/features/idle_motion
             image: /images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp
+          - title: 自由姿势动作
+            link: /zh/dancexr/features/free_pose
           - title: T台动作
             link: /zh/dancexr/features/catwalk
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
@@ -310,7 +312,7 @@ feature_sections:
           - title: 逼真的动作
             link: /zh/dancexr/features/lifelike_motions
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
-          - title: 动作设置
+          - title: 运动设置
             link: /zh/dancexr/features/motion_settings
             image: /images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp
       - title: 音频与视频
@@ -341,7 +343,7 @@ feature_sections:
             image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
             badge: 2026.3
             badge_type: new
-          - title: 动作设置
+          - title: 运动设置
             link: /zh/dancexr/features/motion_settings
             image: /images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp
             badge: 2026.2
@@ -394,7 +396,7 @@ feature_sections:
             image: /images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp
       - title: 环境与效果
         tiles:
-          - title: 天气粒子
+          - title: 粒子效果
             link: /zh/dancexr/features/weather_particles
             image: /images/slideshows/environment/9173d0f946d256d4c711cbe876fe30ad139d1a7d.jpg
             badge: PRO
@@ -537,7 +539,7 @@ feature_sections:
             badge_type: pro
       - title: 图形与显示
         tiles:
-          - title: VR 设置
+          - title: VR设置
             link: /zh/dancexr/features/vr_settings
           - title: 显示设置
             link: /zh/dancexr/features/display_settings

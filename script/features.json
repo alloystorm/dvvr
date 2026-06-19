@@ -497,6 +497,16 @@
               "image": "/images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp"
             },
             {
+              "path": "features/free_pose",
+              "title": "Free Pose Motion",
+              "title_locales": {
+                "jp": "フリーポーズモーション",
+                "zh": "自由姿势动作",
+                "tw": "自由姿勢動作",
+                "kr": "자유 포즈 모션"
+              }
+            },
+            {
               "path": "features/catwalk",
               "image": "/images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp"
             },

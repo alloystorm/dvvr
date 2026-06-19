@@ -1,10 +1,10 @@
 ---
 layout: feature
-title: ./motion/proc/free_pose
+title: Free Pose Motion
 locale: zh-TW
 ---
 
-# ./motion/proc/free_pose
+# Free Pose Motion
 
 Free Pose 將角色轉變為一個可由手動擺弄的自我平衡木偶。過程中沒有任何動畫——整個造型都由平衡解算器負責。抓取任何肢體、軀幹或頭部並拖曳它；解算器會讓角色在站立時保持腳底穩定，或在坐著時維持在固定座位上穩定。定點（Pins）會被記憶，所以釋放的肢體會停留在原地。
 

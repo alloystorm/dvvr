@@ -99,7 +99,7 @@ feature_sections:
           - title: 액터 메뉴 및 도구
             link: /kr/dancexr/features/actor_tools
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
-          - title: 전역 액터 컨트롤
+          - title: 전역 액터 제어
             link: /kr/dancexr/features/global_actor_control
           - title: 액터에 부착
             link: /kr/dancexr/features/attach_to_actor
@@ -218,7 +218,7 @@ feature_sections:
           - title: 시뮬레이션
             link: /kr/dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
-          - title: 의상 시뮬레이션
+          - title: 시뮬레이션
             link: /kr/dancexr/features/cloth_simulation
             image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
             badge: 2024.8 · PRO
@@ -284,6 +284,8 @@ feature_sections:
           - title: 대기 동작
             link: /kr/dancexr/features/idle_motion
             image: /images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp
+          - title: 자유 포즈 모션
+            link: /kr/dancexr/features/free_pose
           - title: 런웨이 모션
             link: /kr/dancexr/features/catwalk
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
@@ -310,7 +312,7 @@ feature_sections:
           - title: 사실적인 움직임
             link: /kr/dancexr/features/lifelike_motions
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
-          - title: Motion Settings
+          - title: "## 모션 설정"
             link: /kr/dancexr/features/motion_settings
             image: /images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp
       - title: "오디오 & 비디오"
@@ -324,7 +326,7 @@ feature_sections:
           - title: 립싱크
             link: /kr/dancexr/features/lipsync
             badge: 2024.9
-          - title: 영상 플레이어
+          - title: Video Player
             link: /kr/dancexr/features/video_player
             image: /images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp
             badge: 2024.4 · PRO
@@ -341,7 +343,7 @@ feature_sections:
             image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
             badge: 2026.3
             badge_type: new
-          - title: Motion Settings
+          - title: "## 모션 설정"
             link: /kr/dancexr/features/motion_settings
             image: /images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp
             badge: 2026.2
@@ -394,7 +396,7 @@ feature_sections:
             image: /images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp
       - title: "환경 & 효과"
         tiles:
-          - title: 날씨 파티클
+          - title: 파티클 효과
             link: /kr/dancexr/features/weather_particles
             image: /images/slideshows/environment/9173d0f946d256d4c711cbe876fe30ad139d1a7d.jpg
             badge: PRO
@@ -537,7 +539,7 @@ feature_sections:
             badge_type: pro
       - title: "그래픽 & 디스플레이"
         tiles:
-          - title: VR 설정
+          - title: "## VR 설정"
             link: /kr/dancexr/features/vr_settings
           - title: 디스플레이 설정
             link: /kr/dancexr/features/display_settings

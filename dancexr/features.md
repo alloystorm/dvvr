@@ -284,6 +284,8 @@ feature_sections:
           - title: Idle Motion
             link: /dancexr/features/idle_motion
             image: /images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp
+          - title: Free Pose Motion
+            link: /dancexr/features/free_pose
           - title: Catwalk Motion
             link: /dancexr/features/catwalk
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp

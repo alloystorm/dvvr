@@ -1,10 +1,10 @@
 ---
 layout: feature
-title: ./motion/proc/free_pose
+title: Free Pose Motion
 locale: ko-KR
 ---
 
-# ./motion/proc/free_pose
+# Free Pose Motion
 
 자유 포즈는 액터를 사용자가 직접 자세를 취하는 자가 균형 잡는 인형으로 만듭니다. 아무것도 애니메이션 되는 것이 없으며, 전체 포즈는 균형 솔버가 담당합니다. 아무 사지, 몸통 또는 머리를 잡아 드래그하면; 솔버는 캐릭터가 서 있을 때는 발 위에서, 앉아 있을 때는 고정된 좌석 위에서 균형을 유지하도록 합니다. 핀(Pins)은 기억되므로, 놓아버린 사지는 그 자리에 남아 있습니다.
 

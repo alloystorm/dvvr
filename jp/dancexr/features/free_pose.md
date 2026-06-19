@@ -1,10 +1,10 @@
 ---
 layout: feature
-title: `./motion/proc/free_pose`
+title: `Free Pose Motion`
 locale: ja-JP
 ---
 
-# ./motion/proc/free_pose
+# Free Pose Motion
 
 Free Poseは、俳優を手動でポーズ付けできる自立式の人形に変えます。何もアニメーションしていません。すべてのポーズはバランスソルバーが担当します。どの四肢、胴体、または頭部を掴んでドラッグしても、ソルバーは立ちているときは足の上で、座っているときは固定された椅子の上でキャラクターのバランスを保ちます。ピンは記憶されるため、解放された四肢は離した位置にとどまります。
 

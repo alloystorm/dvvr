@@ -1,10 +1,10 @@
 ---
 layout: feature
-title: ./motion/proc/free_pose
+title: Free Pose Motion
 locale: zh-CN
 ---
 
-# ./motion/proc/free_pose
+# Free Pose Motion
 
 自由姿势（Free Pose）将角色变成一个可以由你手动摆姿势的自我平衡木偶。这里没有任何动画——所有的姿态都由平衡求解器负责。抓住任何四肢、躯干或头部并拖动它；求解器会在角色站立时保持其身体在双脚上的平衡，或者在坐着时在其固定座椅上保持平衡。定位点（Pins）会被记住，所以释放的肢体将停留在你离开的位置。
 
