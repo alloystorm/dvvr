@@ -16,6 +16,9 @@ import re
 import sys
 import argparse
 
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='backslashreplace')
+
 sys.path.insert(0, os.path.dirname(__file__))
 from find_untranslated_pages import find_untranslated_pages
 from utils import translate_local, extract_section, lang_names
@@ -145,7 +148,7 @@ def translate_file(src_path: str, lang: str, model: str, dry_run: bool = False) 
     target_lang_name = lang_names[lang]
 
     print(f"\n{'[DRY RUN] ' if dry_run else ''}{'NEW' if not os.path.exists(dst_path) else 'UPDATE'}"
-          f"  {src_path}  →  {dst_path}  ({target_lang_name})")
+          f"  {src_path}  ->  {dst_path}  ({target_lang_name})")
 
     with open(src_path, 'r', encoding='utf-8') as f:
         source = f.read()
@@ -165,7 +168,7 @@ def translate_file(src_path: str, lang: str, model: str, dry_run: bool = False) 
     if original_title and not dry_run:
         print(f"  title: {original_title!r}")
         translated_title = translate_local(original_title, lang, model=model).strip()
-        print(f"      → {translated_title!r}")
+        print(f"      -> {translated_title!r}")
 
     # Translate body chunks
     translated_chunks = []

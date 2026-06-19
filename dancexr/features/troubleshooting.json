@@ -21,7 +21,7 @@
       "type": "bool",
       "label": "Apply Body Rotation To Center",
       "labels": {
-        "ja": "ボディの回転を中央に適用",
+        "ja": "ボディー回転を中央に適用",
         "zh-TW": "將身體旋轉應用到中心點",
         "ko": "몸통 회전을 중심으로 적용",
         "zh-CN": "将身体旋转应用到中心骨骼"
@@ -32,7 +32,7 @@
       "options": null,
       "description": "Apply rotation of hip and torso to the center bone",
       "descriptions": {
-        "ja": "股関節と胴体の回転を中央のボーンに適用",
+        "ja": "骨盤と胴体の回転を中央のボーンに適用",
         "zh-TW": "將臀部和軀幹的旋轉應用到中心骨骼",
         "ko": "엉덩이 및 몸통 회전을 중심 본에 적용",
         "zh-CN": "将臀部和躯干的旋转应用于中心骨骼"
@@ -43,7 +43,7 @@
       "type": "bool",
       "label": "Twist Correction",
       "labels": {
-        "ja": "ねじれの補正",
+        "ja": "ねじれ修正",
         "zh-TW": "扭曲校正",
         "ko": "비틀림 수정",
         "zh-CN": "扭曲校正"
@@ -54,7 +54,7 @@
       "options": null,
       "description": "Reduce twisting of arms & legs at joints",
       "descriptions": {
-        "ja": "関節における腕と脚のねじれを軽減",
+        "ja": "関節の腕と脚のねじれを軽減",
         "zh-TW": "減少關節處手臂和腿部的扭曲",
         "ko": "관절의 팔과 다리 비틀림 감소",
         "zh-CN": "减少关节处手臂和腿部的扭曲"
@@ -153,7 +153,7 @@
       "type": "float",
       "label": "Clear Arm Twist",
       "labels": {
-        "ja": "腕のねじれをクリア",
+        "ja": "腕のねじれを解除",
         "zh-TW": "清除手臂扭曲",
         "ko": "팔 비틀림 초기화",
         "zh-CN": "清除手臂扭曲"
@@ -197,7 +197,7 @@
       "type": "bool",
       "label": "Ignore Diffuse Color",
       "labels": {
-        "ja": "拡散色を無視",
+        "ja": "ディフューズ色を無視",
         "zh-TW": "忽略漫反射顏色",
         "ko": "확산색 무시",
         "zh-CN": "忽略漫反射颜色"
@@ -318,7 +318,7 @@
       "options": null,
       "description": "When resetting physics, perform a transition from standard pose to the animated pose to allow physics components to settle properly.",
       "descriptions": {
-        "ja": "物理をリセットする場合、物理コンポーネントが適切に落ち着くように、標準ポーズからアニメーションポーズへのトランジションを実行してください。",
+        "ja": "物理をリセットする場合、物理コンポーネントが適切に落ち着くように、標準ポーズからアニメーションポーズへの遷移を実行してください。",
         "zh-TW": "重置物理時，執行從標準姿勢到動畫姿勢的過渡，以讓物理組件正常穩定。",
         "ko": "물리 초기화 시, 물리 컴포넌트가 제대로 안정화될 수 있도록 표준 포즈에서 애니메이션 포즈로 전환을 수행하십시오.",
         "zh-CN": "重置物理时，进行从标准姿势到动画姿势的过渡，以使物理组件能够正确稳定。"
@@ -329,7 +329,7 @@
       "type": "float",
       "label": "Leg Pose During Reset",
       "labels": {
-        "ja": "リセット中の脚のポーズ",
+        "ja": "リセット時の脚のポーズ",
         "zh-TW": "重置期間的腿部姿勢",
         "ko": "리셋 중 다리 포즈",
         "zh-CN": "重置过程中的腿部姿势"
@@ -351,7 +351,7 @@
       "type": "bool",
       "label": "Skip Kinematic Updates",
       "labels": {
-        "ja": "キネマティックな更新をスキップ",
+        "ja": "キネマティック更新をスキップ",
         "zh-TW": "跳過運動學更新",
         "ko": "키네마틱 업데이트 건너뛰기",
         "zh-CN": "跳过运动学更新"
@@ -362,7 +362,7 @@
       "options": null,
       "description": "Not updating kinematic bones that are not animated.",
       "descriptions": {
-        "ja": "アニメーションされていないキネマティックボーンは更新されていません。",
+        "ja": "アニメーションされていないキネマティックボーンは更新されません。",
         "zh-TW": "不更新未進行動畫的運動學骨骼。",
         "ko": "애니메이션되지 않은 키네마틱 본을 업데이트하지 않음.",
         "zh-CN": "不更新未进行动画的运动学骨骼。"

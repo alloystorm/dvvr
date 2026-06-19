@@ -21,7 +21,7 @@
       "type": "bool",
       "label": "Reset Bones",
       "labels": {
-        "ja": "ボーンのリセット",
+        "ja": "ボーンリセット",
         "zh-TW": "重置骨骼",
         "ko": "본 초기화",
         "zh-CN": "重置骨骼"
@@ -87,7 +87,7 @@
       "type": "bool",
       "label": "Virtual Bones",
       "labels": {
-        "ja": "仮想ボーン",
+        "ja": "バーチャルボーン",
         "zh-TW": "虛擬骨骼",
         "ko": "가상 본",
         "zh-CN": "虚拟骨骼"
@@ -109,7 +109,7 @@
       "type": "bool",
       "label": "Morph Post Update",
       "labels": {
-        "ja": "モーフ後更新",
+        "ja": "モーフポスト更新",
         "zh-TW": "形態後更新",
         "ko": "모프 포스트 업데이트",
         "zh-CN": "形变后更新"

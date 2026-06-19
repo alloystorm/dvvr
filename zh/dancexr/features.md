@@ -15,10 +15,6 @@ feature_sections:
   - title: 新功能与亮点
     light: true
     tiles:
-      - title: 交互式摆姿
-        link: /zh/dancexr/features/posing
-        badge: "2026.6 | Pose Your Character By Hand"
-        badge_type: new
       - title: 发现应用
         link: /zh/dancexr/features/discovery
         image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
@@ -32,7 +28,7 @@ feature_sections:
       - title: AI驱动的语音聊天
         link: /zh/dancexr/features/ai_chat
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
-        badge: 2026.6 · PRO
+        badge: PRO
         badge_type: pro
       - title: 离线渲染与录制
         link: /zh/dancexr/creator
@@ -50,7 +46,7 @@ feature_sections:
       - title: AI驱动的语音聊天
         link: /zh/dancexr/features/ai_chat
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
-        badge: 2026.6 · PRO
+        badge: PRO
         badge_type: pro
   - title: 模型支持
     light: true
@@ -100,7 +96,7 @@ feature_sections:
             image: /images/slideshows/physics/921e8f56935161e0e14e15d1dd0addb866f2b735.jpg
       - title: 角色工具
         tiles:
-          - title: "# 角色菜单与工具"
+          - title: 角色菜单与工具
             link: /zh/dancexr/features/actor_tools
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
           - title: 全局角色控制
@@ -222,8 +218,6 @@ feature_sections:
           - title: 仿真
             link: /zh/dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
-            badge: 2026.6
-            badge_type: new
           - title: 布料模拟
             link: /zh/dancexr/features/cloth_simulation
             image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
@@ -290,7 +284,7 @@ feature_sections:
           - title: 待机动画
             link: /zh/dancexr/features/idle_motion
             image: /images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp
-          - title: "## T台走步"
+          - title: T台动作
             link: /zh/dancexr/features/catwalk
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
           - title: 自动舞蹈
@@ -310,10 +304,6 @@ feature_sections:
             badge_type: pro
       - title: 角色行为
         tiles:
-          - title: 交互式摆姿
-            link: /zh/dancexr/features/posing
-            badge: 2026.6
-            badge_type: new
           - title: 眨眼、呼吸和眼神交流
             link: /zh/dancexr/features/eyecontact
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
@@ -354,7 +344,7 @@ feature_sections:
           - title: 动作设置
             link: /zh/dancexr/features/motion_settings
             image: /images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp
-            badge: 2026.6
+            badge: 2026.2
             badge_type: new
           - title: 播放选项
             link: /zh/dancexr/features/playback_options
@@ -375,7 +365,7 @@ feature_sections:
           - title: Remix Motion
             link: /zh/dancexr/features/remix
             image: /images/slideshows/motion/Spin%20%5BK__liB93anI%5D.webp
-          - title: "# 运动覆盖"
+          - title: 运动覆盖
             link: /zh/dancexr/features/motion_override
             image: /images/slideshows/motion/Pole%20Dance%20Test%20%5B4TB8aFRJENI%5D.webp
             badge: PRO
@@ -537,6 +527,14 @@ feature_sections:
           - title: 应用程序设置
             link: /zh/dancexr/features/application_settings
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
+          - title: 输入设置
+            link: /zh/dancexr/features/input_settings
+            image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
+          - title: 录制设置
+            link: /zh/dancexr/features/recording_settings
+            image: /images/slideshows/render/14b024471bc0d21580d976ea28e2fc5f74f1f623.jpg
+            badge: PRO
+            badge_type: pro
       - title: 图形与显示
         tiles:
           - title: VR 设置

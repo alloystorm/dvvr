@@ -21,7 +21,7 @@
       "type": "value",
       "label": "Select Source Bones",
       "labels": {
-        "ja": "ソースボーンの選択",
+        "ja": "ソースボーンを選択",
         "zh-TW": "選擇來源骨骼",
         "ko": "소스 본 선택",
         "zh-CN": "选择源骨骼"
@@ -32,7 +32,7 @@
       "options": null,
       "description": "Select bone to attach",
       "descriptions": {
-        "ja": "アタッチするボーンの選択",
+        "ja": "アタッチするボーンを選択",
         "zh-TW": "選擇要附加的骨骼",
         "ko": "부착할 본 선택",
         "zh-CN": "选择要附加的骨骼"
@@ -43,7 +43,7 @@
       "type": "options",
       "label": "Select Actor",
       "labels": {
-        "ja": "アクター選択",
+        "ja": "アクターの選択",
         "zh-TW": "選擇角色",
         "ko": "액터 선택",
         "zh-CN": "选择角色"
@@ -65,7 +65,7 @@
       "type": "value",
       "label": "Select Target Bones",
       "labels": {
-        "ja": "ターゲットボーンの選択",
+        "ja": "対象ボーンを選択",
         "zh-TW": "選擇目標骨骼",
         "ko": "대상 본 선택",
         "zh-CN": "选择目标骨骼"
@@ -76,7 +76,7 @@
       "options": null,
       "description": "Select target bone to attach to",
       "descriptions": {
-        "ja": "アタッチするターゲットボーンの選択",
+        "ja": "アタッチするターゲットボーンを選択",
         "zh-TW": "選擇目標骨骼（用於附加）",
         "ko": "부착할 대상 본 선택",
         "zh-CN": "选择要附加的目标骨骼"

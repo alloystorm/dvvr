@@ -21,7 +21,7 @@
       "type": "int",
       "label": "Shape",
       "labels": {
-        "ja": "シェイプ",
+        "ja": "形状",
         "zh-TW": "形狀",
         "ko": "모양",
         "zh-CN": "形状"
@@ -109,7 +109,7 @@
           "type": "bool",
           "label": "Flashing With Beats",
           "labels": {
-            "ja": "ビートに合わせた点滅",
+            "ja": "ビート同期点滅",
             "zh-TW": "隨著節奏閃爍",
             "ko": "비트와 함께 깜빡임",
             "zh-CN": "随节拍闪烁"
@@ -153,7 +153,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -219,7 +219,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -442,7 +442,7 @@
           "label": "Refraction",
           "labels": {
             "ja": "屈折",
-            "zh-TW": "折射率",
+            "zh-TW": "折射",
             "ko": "굴절",
             "zh-CN": "折射"
           },
@@ -463,7 +463,7 @@
           "type": "bool",
           "label": "Cast Shadow",
           "labels": {
-            "ja": "影を投射",
+            "ja": "影をキャスト",
             "zh-TW": "投射陰影",
             "ko": "그림자 드리우기",
             "zh-CN": "投射阴影"
@@ -509,7 +509,7 @@
       "type": "group",
       "label": "Physics",
       "labels": {
-        "ja": "物理",
+        "ja": "物理演算",
         "zh-TW": "物理",
         "ko": "물리",
         "zh-CN": "物理"
@@ -641,7 +641,7 @@
           "type": "float",
           "label": "Damping",
           "labels": {
-            "ja": "ダンピング",
+            "ja": "減衰",
             "zh-TW": "阻尼",
             "ko": "감쇠",
             "zh-CN": "阻尼"
@@ -663,7 +663,7 @@
           "type": "float",
           "label": "Min Speed",
           "labels": {
-            "ja": "最小速度",
+            "ja": "最小スピード",
             "zh-TW": "最小速度",
             "ko": "최소 속도",
             "zh-CN": "最小速度"
@@ -685,7 +685,7 @@
           "type": "float",
           "label": "Max Speed",
           "labels": {
-            "ja": "最大速度",
+            "ja": "最大スピード",
             "zh-TW": "最大速度",
             "ko": "최대 속도",
             "zh-CN": "最大速度"
@@ -731,7 +731,7 @@
       "type": "bool",
       "label": "Hip",
       "labels": {
-        "ja": "股関節",
+        "ja": "腰",
         "zh-TW": "髖部",
         "ko": "엉덩이",
         "zh-CN": "髋部"
@@ -753,7 +753,7 @@
       "type": "bool",
       "label": "Torso",
       "labels": {
-        "ja": "体幹",
+        "ja": "胴体",
         "zh-TW": "軀幹",
         "ko": "몸통",
         "zh-CN": "躯干"

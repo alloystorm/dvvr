@@ -3,7 +3,7 @@
   "docPath": "features/smo_config",
   "label": "Sex Overlay & Dildo",
   "labels": {
-    "ja": "性交オーバーレイ＆ディルド",
+    "ja": "セックスオーバーレイ＆ディルド",
     "zh-TW": "性行為疊圖與按摩棒",
     "ko": "섹스 오버레이 및 딜도",
     "zh-CN": "性覆盖与假阳具"
@@ -252,7 +252,7 @@
           "options": null,
           "description": "Duration of the top flat section",
           "descriptions": {
-            "ja": "トップ平坦部分の期間",
+            "ja": "トップの平坦なセクションの期間",
             "zh-TW": "頂部平坦部分的持續時間",
             "ko": "상단 평지 구간 지속 시간",
             "zh-CN": "顶部平坦部分的持续时间"
@@ -274,7 +274,7 @@
           "options": null,
           "description": "Duration of the bottom flat section",
           "descriptions": {
-            "ja": "ボトム平坦部分の期間",
+            "ja": "ボトムの平坦なセクションの期間",
             "zh-TW": "底部平坦部分的持續時間",
             "ko": "하단 평지 구간 지속 시간",
             "zh-CN": "底部平坦部分的持续时间"
@@ -285,7 +285,7 @@
           "type": "float",
           "label": "Slope Balance",
           "labels": {
-            "ja": "スロープバランス",
+            "ja": "傾斜のバランス",
             "zh-TW": "斜坡平衡",
             "ko": "경사 균형",
             "zh-CN": "坡度平衡"
@@ -296,7 +296,7 @@
           "options": null,
           "description": "Ratio between upward and downward slope durations",
           "descriptions": {
-            "ja": "上り坂と下り坂の期間の比率",
+            "ja": "上昇と下降の傾斜期間の比率",
             "zh-TW": "上坡和下坡持續時間的比率",
             "ko": "상승 경사와 하강 경사 지속 시간 비율",
             "zh-CN": "上坡和下坡持续时间的比例"
@@ -329,7 +329,7 @@
           "type": "float",
           "label": "Spring A",
           "labels": {
-            "ja": "スプリングA",
+            "ja": "スプリング A",
             "zh-TW": "彈簧 A",
             "ko": "스프링 A",
             "zh-CN": "弹簧 A"
@@ -351,7 +351,7 @@
           "type": "float",
           "label": "Damping A",
           "labels": {
-            "ja": "ダンピングA",
+            "ja": "ダンピング A",
             "zh-TW": "阻尼 A",
             "ko": "감쇠 A",
             "zh-CN": "阻尼 A"
@@ -373,7 +373,7 @@
           "type": "float",
           "label": "Spring B",
           "labels": {
-            "ja": "スプリングB",
+            "ja": "スプリング B",
             "zh-TW": "彈簧 B",
             "ko": "스프링 B",
             "zh-CN": "弹簧 B"
@@ -395,7 +395,7 @@
           "type": "float",
           "label": "Damping B",
           "labels": {
-            "ja": "ダンピングB",
+            "ja": "ダンピング B",
             "zh-TW": "阻尼 B",
             "ko": "감쇠 B",
             "zh-CN": "阻尼 B"
@@ -439,7 +439,7 @@
           "type": "bool",
           "label": "Visualize Curve",
           "labels": {
-            "ja": "カーブの可視化",
+            "ja": "カーブを視覚化",
             "zh-TW": "可視化曲線",
             "ko": "곡선 시각화",
             "zh-CN": "可视化曲线"
@@ -450,7 +450,7 @@
           "options": null,
           "description": "Visualize the motion curve in the scene view",
           "descriptions": {
-            "ja": "シーンビューでモーションカーブを可視化",
+            "ja": "シーンビューでモーションカーブを視覚化する",
             "zh-TW": "在場景視圖中可視化運動曲線",
             "ko": "씬 뷰에서 모션 곡선 시각화",
             "zh-CN": "在场景视图中可视化运动曲线"
@@ -518,7 +518,7 @@
           "options": null,
           "description": "Set the anchor position for the attachment to attach to",
           "descriptions": {
-            "ja": "アタッチメントを接続するアンカー位置を設定",
+            "ja": "アタッチするアンカー位置を設定",
             "zh-TW": "設定附件要附加的錨點位置",
             "ko": "부착할 부착물에 대한 앵커 위치 설정",
             "zh-CN": "设置附件附加的锚点位置"
@@ -1135,7 +1135,7 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "アンビエント",
+                "ja": "周囲光",
                 "zh-TW": "環境光",
                 "ko": "주변광",
                 "zh-CN": "环境光"
@@ -1245,7 +1245,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -1311,7 +1311,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -1533,7 +1533,7 @@
                   "type": "float",
                   "label": "Specular",
                   "labels": {
-                    "ja": "スペキュラー",
+                    "ja": "スペキュラ",
                     "zh-TW": "鏡面光",
                     "ko": "스페큘러",
                     "zh-CN": "反射高光"
@@ -1555,7 +1555,7 @@
                   "type": "float",
                   "label": "Soft Specular",
                   "labels": {
-                    "ja": "ソフトスペキュラー",
+                    "ja": "ソフトスペキュラ",
                     "zh-TW": "柔和鏡面光",
                     "ko": "부드러운 스페큘러",
                     "zh-CN": "柔和高光"
@@ -1621,7 +1621,7 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "アンビエント",
+                    "ja": "周囲光",
                     "zh-TW": "環境光",
                     "ko": "주변광",
                     "zh-CN": "环境光"
@@ -1643,7 +1643,7 @@
                   "type": "float",
                   "label": "Shadow Area",
                   "labels": {
-                    "ja": "シャドウエリア",
+                    "ja": "影エリア",
                     "zh-TW": "陰影區域",
                     "ko": "그림자 영역",
                     "zh-CN": "阴影区域"
@@ -1665,7 +1665,7 @@
                   "type": "float",
                   "label": "Shadow",
                   "labels": {
-                    "ja": "シャドウ",
+                    "ja": "影",
                     "zh-TW": "陰影",
                     "ko": "그림자",
                     "zh-CN": "阴影"
@@ -1711,7 +1711,7 @@
               "type": "group",
               "label": "Special Shader",
               "labels": {
-                "ja": "スペシャルシェーダー",
+                "ja": "特殊シェーダー",
                 "zh-TW": "特殊著色器",
                 "ko": "특수 셰이더",
                 "zh-CN": "特殊着色器"
@@ -1756,7 +1756,7 @@
                   "label": "Refraction",
                   "labels": {
                     "ja": "屈折",
-                    "zh-TW": "折射率",
+                    "zh-TW": "折射",
                     "ko": "굴절",
                     "zh-CN": "折射"
                   },
@@ -1814,7 +1814,7 @@
           "options": null,
           "description": "Apply up / down motion to the attachment model",
           "descriptions": {
-            "ja": "アタッチメントモデルに上下の動きを適用",
+            "ja": "アタッチモデルに上下の動きを適用",
             "zh-TW": "將上下運動應用到附件模型",
             "ko": "부착 모델에 상하 움직임 적용",
             "zh-CN": "对附件模型应用上下运动"
@@ -1847,7 +1847,7 @@
                   "type": "int",
                   "label": "Moves Per Beat",
                   "labels": {
-                    "ja": "ビートあたりのムーブ数",
+                    "ja": "ビートあたりの動き",
                     "zh-TW": "每拍次移動次數",
                     "ko": "비트당 모션 수",
                     "zh-CN": "每拍运动次数"
@@ -1869,7 +1869,7 @@
                   "type": "int",
                   "label": "Moves Per Group",
                   "labels": {
-                    "ja": "グループあたりのムーブ数",
+                    "ja": "グループあたりの動き",
                     "zh-TW": "每組移動次數",
                     "ko": "그룹당 모션 수",
                     "zh-CN": "每组运动次数"
@@ -1935,7 +1935,7 @@
                   "type": "bool",
                   "label": "Variable Speed",
                   "labels": {
-                    "ja": "可変速度",
+                    "ja": "可変スピード",
                     "zh-TW": "可變速度",
                     "ko": "가변 속도",
                     "zh-CN": "可变速度"
@@ -1979,7 +1979,7 @@
                   "type": "int",
                   "label": "Min Speed",
                   "labels": {
-                    "ja": "最小速度",
+                    "ja": "最小スピード",
                     "zh-TW": "最小速度",
                     "ko": "최소 속도",
                     "zh-CN": "最小速度"
@@ -2001,7 +2001,7 @@
                   "type": "int",
                   "label": "Max Speed",
                   "labels": {
-                    "ja": "最大速度",
+                    "ja": "最大スピード",
                     "zh-TW": "最大速度",
                     "ko": "최대 속도",
                     "zh-CN": "最大速度"
@@ -2080,7 +2080,7 @@
               "options": null,
               "description": "Pulling hands towards the attachment when they are close enough",
               "descriptions": {
-                "ja": "手が十分に近くにある場合にアタッチメントに向かって引っ張る",
+                "ja": "十分に接近した際に、手をアタッチに引きつける",
                 "zh-TW": "當手部足夠靠近時，將手部拉向附件",
                 "ko": "손이 충분히 가까워지면 부착물 쪽으로 손 끌어당기기",
                 "zh-CN": "当手部足够接近附件时，将手部拉向附件"
@@ -2102,7 +2102,7 @@
               "options": null,
               "description": "Automatically change hand pose to grab when they are on the attachment",
               "descriptions": {
-                "ja": "手がアタッチメント上にあるときに自動的にグリップポーズに変更する",
+                "ja": "アタッチに接触したときに自動的に手ポーズをグリップに変更",
                 "zh-TW": "當手部位於附件上時，自動更改手部姿態為抓握",
                 "ko": "손이 부착물에 위치할 때 자동으로 잡기 포즈로 변경",
                 "zh-CN": "当手部位于附件上时，自动将手部姿势更改为抓取"
@@ -2124,7 +2124,7 @@
               "options": null,
               "description": "Move hands relative to the attachment motion",
               "descriptions": {
-                "ja": "アタッチメントの動きに相対して手を動かす",
+                "ja": "アタッチの動きに対して相対的に手を動かす",
                 "zh-TW": "相對於附件運動移動手部",
                 "ko": "부착물 모션을 기준으로 손 움직임",
                 "zh-CN": "相对于附件运动移动手部"
@@ -2247,7 +2247,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -2313,7 +2313,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"

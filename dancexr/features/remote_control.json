@@ -1,0 +1,64 @@
+{
+  "name": "Remote Access",
+  "docPath": "features/remote_control",
+  "label": "Remote Access",
+  "labels": {
+    "ja": "リモートアクセス",
+    "zh-TW": "遠端存取",
+    "ko": "원격 접속",
+    "zh-CN": "远程访问"
+  },
+  "description": "Remote Control lets the Android app act as a wireless controller for DanceXR running on another device (such as PC or Quest) on the same local network. You can change scenes, motions, and settings from your phone or tablet while the main session plays on a larger screen.\r\n\r\n\r\n## Requirements\r\n\r\n* An Android device with the DanceXR Android app installed.\r\n* A PC, Quest, or other DanceXR host running on the same local area network (LAN).\r\n* The network must allow local device discovery (no client isolation).\r\n\r\n\r\n## How to Connect\r\n\r\n1. Enable **Remote Access** on the host device.\r\n2. Set the **Port Number** and a secure **Password**.\r\n3. Open the Android app, select **Remote Control** in the main menu, and choose the host from the discovered devices.\r\n4. Enter the password when prompted to sync the menu and touchpad controls.",
+  "descriptions": {
+    "ja": "(Remote Control lets the Android app act as a wireless controller for DanceXR running on another device (such as PC or Quest) on the same local network. You can change scenes, motions, and settings from your phone or tablet while the main session plays on a larger screen.\r\n\r\n\r\n## Requirements\r\n\r\n* An Android device with the DanceXR Android app installed.\r\n* A PC, Quest, or other DanceXR host running on the same local area network (LAN).\r\n* The network must allow local device discovery (no client isolation).\r\n\r\n\r\n## How to Connect\r\n\r\n1. Enable **Remote Access** on the host device.\r\n2. Set the **Port Number** and a secure **Password**.\r\n3. Open the Android app, select **Remote Control** in the main menu, and choose the host from the discovered devices.\r\n4. Enter the password when prompted to sync the menu and touchpad controls.)",
+    "zh-TW": "(Remote Control lets the Android app act as a wireless controller for DanceXR running on another device (such as PC or Quest) on the same local network. You can change scenes, motions, and settings from your phone or tablet while the main session plays on a larger screen.\r\n\r\n\r\n## Requirements\r\n\r\n* An Android device with the DanceXR Android app installed.\r\n* A PC, Quest, or other DanceXR host running on the same local area network (LAN).\r\n* The network must allow local device discovery (no client isolation).\r\n\r\n\r\n## How to Connect\r\n\r\n1. Enable **Remote Access** on the host device.\r\n2. Set the **Port Number** and a secure **Password**.\r\n3. Open the Android app, select **Remote Control** in the main menu, and choose the host from the discovered devices.\r\n4. Enter the password when prompted to sync the menu and touchpad controls.)",
+    "ko": "(Remote Control lets the Android app act as a wireless controller for DanceXR running on another device (such as PC or Quest) on the same local network. You can change scenes, motions, and settings from your phone or tablet while the main session plays on a larger screen.\r\n\r\n\r\n## Requirements\r\n\r\n* An Android device with the DanceXR Android app installed.\r\n* A PC, Quest, or other DanceXR host running on the same local area network (LAN).\r\n* The network must allow local device discovery (no client isolation).\r\n\r\n\r\n## How to Connect\r\n\r\n1. Enable **Remote Access** on the host device.\r\n2. Set the **Port Number** and a secure **Password**.\r\n3. Open the Android app, select **Remote Control** in the main menu, and choose the host from the discovered devices.\r\n4. Enter the password when prompted to sync the menu and touchpad controls.)",
+    "zh-CN": "(Remote Control lets the Android app act as a wireless controller for DanceXR running on another device (such as PC or Quest) on the same local network. You can change scenes, motions, and settings from your phone or tablet while the main session plays on a larger screen.\r\n\r\n\r\n## Requirements\r\n\r\n* An Android device with the DanceXR Android app installed.\r\n* A PC, Quest, or other DanceXR host running on the same local area network (LAN).\r\n* The network must allow local device discovery (no client isolation).\r\n\r\n\r\n## How to Connect\r\n\r\n1. Enable **Remote Access** on the host device.\r\n2. Set the **Port Number** and a secure **Password**.\r\n3. Open the Android app, select **Remote Control** in the main menu, and choose the host from the discovered devices.\r\n4. Enter the password when prompted to sync the menu and touchpad controls.)"
+  },
+  "values": [
+    {
+      "name": "Port Number",
+      "type": "text",
+      "label": "Port Number",
+      "labels": {
+        "ja": "ポート番号",
+        "zh-TW": "連接埠號",
+        "ko": "포트 번호",
+        "zh-CN": "端口号"
+      },
+      "default": "7777",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Password",
+      "type": "text",
+      "label": "Password",
+      "labels": {
+        "ja": "パスワード",
+        "zh-TW": "密碼",
+        "ko": "비밀번호",
+        "zh-CN": "密码"
+      },
+      "default": "ilovedancexr",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    }
+  ]
+}

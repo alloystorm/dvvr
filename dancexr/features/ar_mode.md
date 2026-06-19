@@ -1,24 +1,36 @@
 ---
-layout: release
-title: AR Mode
+layout: feature
+title: "AR Settings"
 locale: en-US
 ---
 
-
+# AR Settings
 
 AR mode is available on supported devices on iOS, Android and Quest. Not all devices have the capability of AR so if you don't see the AR option in the menu, it means your device does not support AR.
 
-On iOS and Android, the program is always launched in normal mode without AR. You can then start AR by going to the scene menu and check the "AR" option. Once activated you'll see your live enviroment appearing on the screen. 
+On iOS and Android, the program is always launched in normal mode without AR. You can start AR by going to the scene menu and checking the AR option.
 
-On the Quest, there are 2 separate versions, DanceXR Mix is the AR version and the DanceXR Immersion is VR only.
+On Quest, the app supports Quest passthrough to show your real-world environment.
 
-## VR Options
-* Occulusion: This option will make the virtual objects appear behind real objects in the scene. This is useful when you want to have a virtual object appear behind a real object in the scene. Please note that the occulusion is not perfect and may not work well in all situations.
-* Shadow Only: This option allows virtual objects to drop shadows on real objects in the scene. This often gets blocked by the Occulusion so you might want to disable Occulusion when you want to see the shadows.
 
-## VR ease of use (v2026.3)
-DanceXR 2026.3 makes switching between VR and desktop mode more convenient:
+## Settings
 
-* The app now initializes VR on startup and automatically falls back to desktop mode when no headset is detected, maximizing compatibility across VR platforms.
-* A new **Exit VR** button lets you return to desktop mode without putting on the headset.
-* Entering VR from desktop requires only a single click on the **VR** item in the scene menu.
+**Show Camera** toggles the display of the physical camera background.
+
+**Hide Ground** hides the virtual ground plane so that virtual models appear standing directly on your physical floor.
+
+**Occlusion** enables virtual models to be occluded by real-world physical objects. Only works on supported devices and platforms.
+
+**Double Tap Reset Scene** (non-Quest) allows double tapping to quickly reset the virtual scene position in front of you.
+
+
+## VR options (Quest only)
+
+* **Foveated Rendering Level** adjusts the level of foveated rendering to improve performance in VR.
+* **Hand Visible** toggles rendering of virtual hands.
+* **Cast Shadow** controls whether hands cast shadows.
+* **Left/Right Hand Pose** selects default poses for hands.
+* **UI Auto Return** enables the UI to follow your head direction.
+* **UI Distance** sets how far away the menu is.
+* **Pointer Calibration** (Direction, Orientation, Offset) calibrates the VR pointer ray.
+

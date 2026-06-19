@@ -87,7 +87,7 @@
           "type": "float",
           "label": "Damping",
           "labels": {
-            "ja": "ダンピング",
+            "ja": "減衰",
             "zh-TW": "阻尼",
             "ko": "감쇠",
             "zh-CN": "阻尼"
@@ -219,7 +219,7 @@
           "type": "float",
           "label": "Forward / Back",
           "labels": {
-            "ja": "前進/後退",
+            "ja": "前方 / 後方",
             "zh-TW": "前進 / 後退",
             "ko": "전후",
             "zh-CN": "前进 / 后退"
@@ -263,7 +263,7 @@
           "type": "options",
           "label": "Target Actor",
           "labels": {
-            "ja": "目標アクター",
+            "ja": "対象アクター",
             "zh-TW": "目標角色",
             "ko": "대상 액터",
             "zh-CN": "目标角色"
@@ -285,7 +285,7 @@
           "type": "float",
           "label": "Detect Range",
           "labels": {
-            "ja": "検出範囲",
+            "ja": "検知範囲",
             "zh-TW": "偵測範圍",
             "ko": "감지 범위",
             "zh-CN": "检测范围"
@@ -353,7 +353,7 @@
       "type": "group",
       "label": "Rocking Motion",
       "labels": {
-        "ja": "ロッキングモーション",
+        "ja": "揺れる動き",
         "zh-TW": "搖擺動作",
         "ko": "흔들림 모션",
         "zh-CN": "摇摆运动"
@@ -397,7 +397,7 @@
               "type": "int",
               "label": "Moves Per Beat",
               "labels": {
-                "ja": "ビートあたりのムーブ数",
+                "ja": "ビートあたりの動き",
                 "zh-TW": "每拍次移動次數",
                 "ko": "비트당 모션 수",
                 "zh-CN": "每拍运动次数"
@@ -419,7 +419,7 @@
               "type": "int",
               "label": "Moves Per Group",
               "labels": {
-                "ja": "グループあたりのムーブ数",
+                "ja": "グループあたりの動き",
                 "zh-TW": "每組移動次數",
                 "ko": "그룹당 모션 수",
                 "zh-CN": "每组运动次数"
@@ -485,7 +485,7 @@
               "type": "bool",
               "label": "Variable Speed",
               "labels": {
-                "ja": "可変速度",
+                "ja": "可変スピード",
                 "zh-TW": "可變速度",
                 "ko": "가변 속도",
                 "zh-CN": "可变速度"
@@ -529,7 +529,7 @@
               "type": "int",
               "label": "Min Speed",
               "labels": {
-                "ja": "最小速度",
+                "ja": "最小スピード",
                 "zh-TW": "最小速度",
                 "ko": "최소 속도",
                 "zh-CN": "最小速度"
@@ -551,7 +551,7 @@
               "type": "int",
               "label": "Max Speed",
               "labels": {
-                "ja": "最大速度",
+                "ja": "最大スピード",
                 "zh-TW": "最大速度",
                 "ko": "최대 속도",
                 "zh-CN": "最大速度"
@@ -575,7 +575,7 @@
           "type": "float",
           "label": "Rocking Angle",
           "labels": {
-            "ja": "揺れ角度",
+            "ja": "揺れる角度",
             "zh-TW": "搖擺角度",
             "ko": "흔들림 각도",
             "zh-CN": "摇摆角度"
@@ -597,7 +597,7 @@
           "type": "float",
           "label": "Up / Down",
           "labels": {
-            "ja": "上下",
+            "ja": "上 / 下",
             "zh-TW": "上 / 下",
             "ko": "상하",
             "zh-CN": "上 / 下"
@@ -619,7 +619,7 @@
           "type": "float",
           "label": "Front / Back",
           "labels": {
-            "ja": "前後",
+            "ja": "前 / 後",
             "zh-TW": "前 / 後",
             "ko": "전후",
             "zh-CN": "前 / 后"
@@ -641,7 +641,7 @@
           "type": "float",
           "label": "Depth Change",
           "labels": {
-            "ja": "深さの変化",
+            "ja": "深度変化",
             "zh-TW": "深度改變",
             "ko": "깊이 변화",
             "zh-CN": "深度变化"
@@ -663,7 +663,7 @@
           "type": "float",
           "label": "Depth Max",
           "labels": {
-            "ja": "最大深さ",
+            "ja": "最大深度",
             "zh-TW": "最大深度",
             "ko": "최대 깊이",
             "zh-CN": "最大深度"
@@ -685,7 +685,7 @@
           "type": "float",
           "label": "Depth Extra",
           "labels": {
-            "ja": "追加深さ",
+            "ja": "追加深度",
             "zh-TW": "額外深度",
             "ko": "깊이 추가",
             "zh-CN": "额外深度"
@@ -707,7 +707,7 @@
           "type": "float",
           "label": "Feet Motion",
           "labels": {
-            "ja": "足のモーション",
+            "ja": "足モーション",
             "zh-TW": "腳部動作",
             "ko": "발 모션",
             "zh-CN": "脚部运动"
@@ -731,7 +731,7 @@
       "type": "group",
       "label": "Head Pose",
       "labels": {
-        "ja": "頭部ポーズ",
+        "ja": "頭部姿勢",
         "zh-TW": "頭部姿勢",
         "ko": "머리 자세",
         "zh-CN": "头部姿势"
@@ -753,7 +753,7 @@
           "type": "float",
           "label": "Rotatoin X",
           "labels": {
-            "ja": "回転 X",
+            "ja": "X軸回転",
             "zh-TW": "X軸旋轉",
             "ko": "X축 회전",
             "zh-CN": "X 旋转"
@@ -775,7 +775,7 @@
           "type": "float",
           "label": "Rotatoin Y",
           "labels": {
-            "ja": "回転 Y",
+            "ja": "Y軸回転",
             "zh-TW": "Y軸旋轉",
             "ko": "Y축 회전",
             "zh-CN": "Y 旋转"
@@ -797,7 +797,7 @@
           "type": "float",
           "label": "Rotatoin Z",
           "labels": {
-            "ja": "回転 Z",
+            "ja": "Z軸回転",
             "zh-TW": "Z軸旋轉",
             "ko": "Z축 회전",
             "zh-CN": "Z 旋转"
@@ -843,7 +843,7 @@
           "type": "bool",
           "label": "Relative To Floor",
           "labels": {
-            "ja": "床に対する相対",
+            "ja": "床に対して相対的",
             "zh-TW": "相對於地面",
             "ko": "바닥 기준",
             "zh-CN": "相对于地面"
@@ -887,7 +887,7 @@
           "type": "bool",
           "label": "Symmetrical",
           "labels": {
-            "ja": "対称",
+            "ja": "対称的",
             "zh-TW": "對稱",
             "ko": "대칭",
             "zh-CN": "对称"
@@ -953,7 +953,7 @@
               "type": "float",
               "label": "Foot X",
               "labels": {
-                "ja": "足のX",
+                "ja": "足 X",
                 "zh-TW": "脚部 X",
                 "ko": "발 X",
                 "zh-CN": "脚X"
@@ -975,7 +975,7 @@
               "type": "float",
               "label": "Foot Y",
               "labels": {
-                "ja": "足のY",
+                "ja": "足 Y",
                 "zh-TW": "脚部 Y",
                 "ko": "발 Y",
                 "zh-CN": "脚Y"
@@ -997,7 +997,7 @@
               "type": "float",
               "label": "Foot Z",
               "labels": {
-                "ja": "足のZ",
+                "ja": "足 Z",
                 "zh-TW": "脚部 Z",
                 "ko": "발 Z",
                 "zh-CN": "脚Z"
@@ -1019,7 +1019,7 @@
               "type": "float",
               "label": "Foot Rotate X",
               "labels": {
-                "ja": "足の回転X",
+                "ja": "足の回転 X",
                 "zh-TW": "腳部旋轉 X",
                 "ko": "발 회전 X",
                 "zh-CN": "脚旋转X"
@@ -1041,7 +1041,7 @@
               "type": "float",
               "label": "Foot Rotate Y",
               "labels": {
-                "ja": "足の回転Y",
+                "ja": "足の回転 Y",
                 "zh-TW": "腳部旋轉 Y",
                 "ko": "발 회전 Y",
                 "zh-CN": "脚旋转Y"
@@ -1063,7 +1063,7 @@
               "type": "float",
               "label": "Foot Rotate Z",
               "labels": {
-                "ja": "足の回転Z",
+                "ja": "足の回転 Z",
                 "zh-TW": "腳部旋轉 Z",
                 "ko": "발 회전 Z",
                 "zh-CN": "脚旋转Z"
@@ -1085,7 +1085,7 @@
               "type": "float",
               "label": "Toe",
               "labels": {
-                "ja": "つま先",
+                "ja": "指先",
                 "zh-TW": "腳趾",
                 "ko": "발가락",
                 "zh-CN": "脚趾"
@@ -1107,10 +1107,10 @@
               "type": "bool",
               "label": "Foot IK",
               "labels": {
-                "ja": "足のIK",
-                "zh-TW": "腳部IK",
+                "ja": "足 IK",
+                "zh-TW": "足部 IK",
                 "ko": "발 IK",
-                "zh-CN": "脚IK"
+                "zh-CN": "足部 IK"
               },
               "default": "true",
               "min": 0,
@@ -1175,7 +1175,7 @@
               "type": "float",
               "label": "Foot X",
               "labels": {
-                "ja": "足のX",
+                "ja": "足 X",
                 "zh-TW": "脚部 X",
                 "ko": "발 X",
                 "zh-CN": "脚X"
@@ -1197,7 +1197,7 @@
               "type": "float",
               "label": "Foot Y",
               "labels": {
-                "ja": "足のY",
+                "ja": "足 Y",
                 "zh-TW": "脚部 Y",
                 "ko": "발 Y",
                 "zh-CN": "脚Y"
@@ -1219,7 +1219,7 @@
               "type": "float",
               "label": "Foot Z",
               "labels": {
-                "ja": "足のZ",
+                "ja": "足 Z",
                 "zh-TW": "脚部 Z",
                 "ko": "발 Z",
                 "zh-CN": "脚Z"
@@ -1241,7 +1241,7 @@
               "type": "float",
               "label": "Foot Rotate X",
               "labels": {
-                "ja": "足の回転X",
+                "ja": "足の回転 X",
                 "zh-TW": "腳部旋轉 X",
                 "ko": "발 회전 X",
                 "zh-CN": "脚旋转X"
@@ -1263,7 +1263,7 @@
               "type": "float",
               "label": "Foot Rotate Y",
               "labels": {
-                "ja": "足の回転Y",
+                "ja": "足の回転 Y",
                 "zh-TW": "腳部旋轉 Y",
                 "ko": "발 회전 Y",
                 "zh-CN": "脚旋转Y"
@@ -1285,7 +1285,7 @@
               "type": "float",
               "label": "Foot Rotate Z",
               "labels": {
-                "ja": "足の回転Z",
+                "ja": "足の回転 Z",
                 "zh-TW": "腳部旋轉 Z",
                 "ko": "발 회전 Z",
                 "zh-CN": "脚旋转Z"
@@ -1307,7 +1307,7 @@
               "type": "float",
               "label": "Toe",
               "labels": {
-                "ja": "つま先",
+                "ja": "指先",
                 "zh-TW": "腳趾",
                 "ko": "발가락",
                 "zh-CN": "脚趾"
@@ -1329,10 +1329,10 @@
               "type": "bool",
               "label": "Foot IK",
               "labels": {
-                "ja": "足のIK",
-                "zh-TW": "腳部IK",
+                "ja": "足 IK",
+                "zh-TW": "足部 IK",
                 "ko": "발 IK",
-                "zh-CN": "脚IK"
+                "zh-CN": "足部 IK"
               },
               "default": "true",
               "min": 0,
@@ -1355,7 +1355,7 @@
       "type": "bool",
       "label": "Hands Symmetrical",
       "labels": {
-        "ja": "両手対称",
+        "ja": "手の左右対称",
         "zh-TW": "雙手對稱",
         "ko": "손 대칭",
         "zh-CN": "手对称"
@@ -1755,7 +1755,7 @@
           "type": "bool",
           "label": "Blend Hand Motion",
           "labels": {
-            "ja": "手動のブレンド",
+            "ja": "手の動きのブレンド",
             "zh-TW": "手部動作混合",
             "ko": "손 동작 블렌딩",
             "zh-CN": "混合手部动作"
@@ -1821,7 +1821,7 @@
           "type": "bool",
           "label": "Use Accessory Position",
           "labels": {
-            "ja": "アクセサリーの位置を使用",
+            "ja": "アクセサリー位置を使用",
             "zh-TW": "使用配件位置",
             "ko": "액세서리 위치 사용",
             "zh-CN": "使用配饰位置"
@@ -1887,7 +1887,7 @@
                   "type": "int",
                   "label": "Moves Per Beat",
                   "labels": {
-                    "ja": "ビートあたりのムーブ数",
+                    "ja": "ビートあたりの動き",
                     "zh-TW": "每拍次移動次數",
                     "ko": "비트당 모션 수",
                     "zh-CN": "每拍运动次数"
@@ -1909,7 +1909,7 @@
                   "type": "int",
                   "label": "Moves Per Group",
                   "labels": {
-                    "ja": "グループあたりのムーブ数",
+                    "ja": "グループあたりの動き",
                     "zh-TW": "每組移動次數",
                     "ko": "그룹당 모션 수",
                     "zh-CN": "每组运动次数"
@@ -1975,7 +1975,7 @@
                   "type": "bool",
                   "label": "Variable Speed",
                   "labels": {
-                    "ja": "可変速度",
+                    "ja": "可変スピード",
                     "zh-TW": "可變速度",
                     "ko": "가변 속도",
                     "zh-CN": "可变速度"
@@ -2019,7 +2019,7 @@
                   "type": "int",
                   "label": "Min Speed",
                   "labels": {
-                    "ja": "最小速度",
+                    "ja": "最小スピード",
                     "zh-TW": "最小速度",
                     "ko": "최소 속도",
                     "zh-CN": "最小速度"
@@ -2041,7 +2041,7 @@
                   "type": "int",
                   "label": "Max Speed",
                   "labels": {
-                    "ja": "最大速度",
+                    "ja": "最大スピード",
                     "zh-TW": "最大速度",
                     "ko": "최대 속도",
                     "zh-CN": "最大速度"
@@ -2177,7 +2177,7 @@
               "type": "float",
               "label": "Thumb Bend",
               "labels": {
-                "ja": "親指の屈曲",
+                "ja": "親指の曲げ",
                 "zh-TW": "拇指彎曲",
                 "ko": "엄지 구부림",
                 "zh-CN": "拇指弯曲"
@@ -2199,7 +2199,7 @@
               "type": "float",
               "label": "Index Bend",
               "labels": {
-                "ja": "人差し指の屈曲",
+                "ja": "人差し指の曲げ",
                 "zh-TW": "食指彎曲",
                 "ko": "검지 구부림",
                 "zh-CN": "食指弯曲"
@@ -2221,7 +2221,7 @@
               "type": "float",
               "label": "Middle Bend",
               "labels": {
-                "ja": "中指の屈曲",
+                "ja": "中指の曲げ",
                 "zh-TW": "中指彎曲",
                 "ko": "중지 구부림",
                 "zh-CN": "中指弯曲"
@@ -2243,7 +2243,7 @@
               "type": "float",
               "label": "Ring Bend",
               "labels": {
-                "ja": "薬指の屈曲",
+                "ja": "薬指の曲げ",
                 "zh-TW": "無名指彎曲",
                 "ko": "약지 구부림",
                 "zh-CN": "无名指弯曲"
@@ -2265,7 +2265,7 @@
               "type": "float",
               "label": "Pinky Bend",
               "labels": {
-                "ja": "小指の屈曲",
+                "ja": "小指の曲げ",
                 "zh-TW": "小指彎曲",
                 "ko": "새끼손가락 구부림",
                 "zh-CN": "小指弯曲"
@@ -2287,7 +2287,7 @@
               "type": "float",
               "label": "Propagate",
               "labels": {
-                "ja": "伝播",
+                "ja": "伝播させる",
                 "zh-TW": "傳播",
                 "ko": "전파",
                 "zh-CN": "传播"
@@ -2333,7 +2333,7 @@
           "type": "float",
           "label": "Pose Weight",
           "labels": {
-            "ja": "ポーズの重み",
+            "ja": "ポーズ重み",
             "zh-TW": "姿態權重",
             "ko": "포즈 가중치",
             "zh-CN": "姿势权重"
@@ -2801,7 +2801,7 @@
           "type": "bool",
           "label": "Blend Hand Motion",
           "labels": {
-            "ja": "手動のブレンド",
+            "ja": "手の動きのブレンド",
             "zh-TW": "手部動作混合",
             "ko": "손 동작 블렌딩",
             "zh-CN": "混合手部动作"
@@ -2867,7 +2867,7 @@
           "type": "bool",
           "label": "Use Accessory Position",
           "labels": {
-            "ja": "アクセサリーの位置を使用",
+            "ja": "アクセサリー位置を使用",
             "zh-TW": "使用配件位置",
             "ko": "액세서리 위치 사용",
             "zh-CN": "使用配饰位置"
@@ -2933,7 +2933,7 @@
                   "type": "int",
                   "label": "Moves Per Beat",
                   "labels": {
-                    "ja": "ビートあたりのムーブ数",
+                    "ja": "ビートあたりの動き",
                     "zh-TW": "每拍次移動次數",
                     "ko": "비트당 모션 수",
                     "zh-CN": "每拍运动次数"
@@ -2955,7 +2955,7 @@
                   "type": "int",
                   "label": "Moves Per Group",
                   "labels": {
-                    "ja": "グループあたりのムーブ数",
+                    "ja": "グループあたりの動き",
                     "zh-TW": "每組移動次數",
                     "ko": "그룹당 모션 수",
                     "zh-CN": "每组运动次数"
@@ -3021,7 +3021,7 @@
                   "type": "bool",
                   "label": "Variable Speed",
                   "labels": {
-                    "ja": "可変速度",
+                    "ja": "可変スピード",
                     "zh-TW": "可變速度",
                     "ko": "가변 속도",
                     "zh-CN": "可变速度"
@@ -3065,7 +3065,7 @@
                   "type": "int",
                   "label": "Min Speed",
                   "labels": {
-                    "ja": "最小速度",
+                    "ja": "最小スピード",
                     "zh-TW": "最小速度",
                     "ko": "최소 속도",
                     "zh-CN": "最小速度"
@@ -3087,7 +3087,7 @@
                   "type": "int",
                   "label": "Max Speed",
                   "labels": {
-                    "ja": "最大速度",
+                    "ja": "最大スピード",
                     "zh-TW": "最大速度",
                     "ko": "최대 속도",
                     "zh-CN": "最大速度"
@@ -3223,7 +3223,7 @@
               "type": "float",
               "label": "Thumb Bend",
               "labels": {
-                "ja": "親指の屈曲",
+                "ja": "親指の曲げ",
                 "zh-TW": "拇指彎曲",
                 "ko": "엄지 구부림",
                 "zh-CN": "拇指弯曲"
@@ -3245,7 +3245,7 @@
               "type": "float",
               "label": "Index Bend",
               "labels": {
-                "ja": "人差し指の屈曲",
+                "ja": "人差し指の曲げ",
                 "zh-TW": "食指彎曲",
                 "ko": "검지 구부림",
                 "zh-CN": "食指弯曲"
@@ -3267,7 +3267,7 @@
               "type": "float",
               "label": "Middle Bend",
               "labels": {
-                "ja": "中指の屈曲",
+                "ja": "中指の曲げ",
                 "zh-TW": "中指彎曲",
                 "ko": "중지 구부림",
                 "zh-CN": "中指弯曲"
@@ -3289,7 +3289,7 @@
               "type": "float",
               "label": "Ring Bend",
               "labels": {
-                "ja": "薬指の屈曲",
+                "ja": "薬指の曲げ",
                 "zh-TW": "無名指彎曲",
                 "ko": "약지 구부림",
                 "zh-CN": "无名指弯曲"
@@ -3311,7 +3311,7 @@
               "type": "float",
               "label": "Pinky Bend",
               "labels": {
-                "ja": "小指の屈曲",
+                "ja": "小指の曲げ",
                 "zh-TW": "小指彎曲",
                 "ko": "새끼손가락 구부림",
                 "zh-CN": "小指弯曲"
@@ -3333,7 +3333,7 @@
               "type": "float",
               "label": "Propagate",
               "labels": {
-                "ja": "伝播",
+                "ja": "伝播させる",
                 "zh-TW": "傳播",
                 "ko": "전파",
                 "zh-CN": "传播"
@@ -3379,7 +3379,7 @@
           "type": "float",
           "label": "Pose Weight",
           "labels": {
-            "ja": "ポーズの重み",
+            "ja": "ポーズ重み",
             "zh-TW": "姿態權重",
             "ko": "포즈 가중치",
             "zh-CN": "姿势权重"
@@ -3469,7 +3469,7 @@
       "type": "group",
       "label": "Ride Model",
       "labels": {
-        "ja": "乗用モデル",
+        "ja": "乗り物モデル",
         "zh-TW": "騎乘模型",
         "ko": "라이드 모델",
         "zh-CN": "骑行模型"
@@ -3513,7 +3513,7 @@
           "type": "float",
           "label": "Acceleration",
           "labels": {
-            "ja": "加速",
+            "ja": "加速度",
             "zh-TW": "加速",
             "ko": "가속도",
             "zh-CN": "加速度"
@@ -3557,7 +3557,7 @@
           "type": "float",
           "label": "Tilt When Turning",
           "labels": {
-            "ja": "曲がる際の傾き",
+            "ja": "旋回時の傾き",
             "zh-TW": "轉彎傾斜",
             "ko": "회전 시 기울임",
             "zh-CN": "转弯倾斜"

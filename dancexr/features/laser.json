@@ -219,7 +219,7 @@
           "type": "int",
           "label": "Color Mode",
           "labels": {
-            "ja": "色モード",
+            "ja": "カラーモード",
             "zh-TW": "色彩模式",
             "ko": "색상 모드",
             "zh-CN": "颜色模式"
@@ -285,7 +285,7 @@
           "type": "float",
           "label": "Brightness",
           "labels": {
-            "ja": "明度",
+            "ja": "輝度",
             "zh-TW": "亮度",
             "ko": "밝기",
             "zh-CN": "亮度"
@@ -395,7 +395,7 @@
           "type": "float",
           "label": "Base Level",
           "labels": {
-            "ja": "ベースレベル",
+            "ja": "基本レベル",
             "zh-TW": "基底水平",
             "ko": "기본 레벨",
             "zh-CN": "基线"
@@ -485,7 +485,7 @@
           "type": "int",
           "label": "Moves Per Group",
           "labels": {
-            "ja": "グループあたりのムーブ数",
+            "ja": "グループあたりの動き",
             "zh-TW": "每組移動次數",
             "ko": "그룹당 모션 수",
             "zh-CN": "每组运动次数"
@@ -507,7 +507,7 @@
           "type": "float",
           "label": "Use Audio",
           "labels": {
-            "ja": "音声の使用",
+            "ja": "オーディオを使用",
             "zh-TW": "使用音訊",
             "ko": "오디오 사용",
             "zh-CN": "是否使用音频"
@@ -595,7 +595,7 @@
           "type": "group",
           "label": "Damping",
           "labels": {
-            "ja": "ダンピング",
+            "ja": "減衰",
             "zh-TW": "阻尼",
             "ko": "감쇠",
             "zh-CN": "阻尼"
@@ -707,7 +707,7 @@
           "type": "group",
           "label": "Motion X",
           "labels": {
-            "ja": "モーションX",
+            "ja": "モーション X",
             "zh-TW": "運動 X",
             "ko": "모션 X",
             "zh-CN": "运动 X"
@@ -718,7 +718,7 @@
           "options": null,
           "description": "Curve function that is used to control procedural motions.",
           "descriptions": {
-            "ja": "プロシージャルモーションを制御するために使用されるカーブ関数。",
+            "ja": "プロシージャルな動きを制御するために使用されるカーブ関数。",
             "zh-TW": "用於控制程序化動作的曲線函數。",
             "ko": "절차적 동작을 제어하는 데 사용되는 곡선 함수.",
             "zh-CN": "用于控制程序化动作的曲线函数。"
@@ -740,7 +740,7 @@
               "options": null,
               "description": "Override generated movement with this value",
               "descriptions": {
-                "ja": "この値で生成された動きを上書きする",
+                "ja": "この値で生成されるオーバーライドされた動き",
                 "zh-TW": "用此值覆寫生成的動作。",
                 "ko": "이 값으로 생성된 동작을 덮어쓰기",
                 "zh-CN": "用此值覆盖生成的运动"
@@ -751,7 +751,7 @@
               "type": "float",
               "label": "Speed Multiplier",
               "labels": {
-                "ja": "速度乗数",
+                "ja": "スピード乗数",
                 "zh-TW": "速度倍增器",
                 "ko": "속도 승수",
                 "zh-CN": "速度乘数"
@@ -784,7 +784,7 @@
               "options": null,
               "description": "Starting position in the cycle",
               "descriptions": {
-                "ja": "サイクルの開始位置",
+                "ja": "サイクル内の開始位置",
                 "zh-TW": "週期中的起始位置",
                 "ko": "사이클 내 시작 위치",
                 "zh-CN": "循环中的起始位置"
@@ -885,7 +885,7 @@
           "type": "group",
           "label": "Motion Z",
           "labels": {
-            "ja": "モーションZ",
+            "ja": "モーション Z",
             "zh-TW": "運動 Z",
             "ko": "모션 Z",
             "zh-CN": "运动 Z"
@@ -896,7 +896,7 @@
           "options": null,
           "description": "Curve function that is used to control procedural motions.",
           "descriptions": {
-            "ja": "プロシージャルモーションを制御するために使用されるカーブ関数。",
+            "ja": "プロシージャルな動きを制御するために使用されるカーブ関数。",
             "zh-TW": "用於控制程序化動作的曲線函數。",
             "ko": "절차적 동작을 제어하는 데 사용되는 곡선 함수.",
             "zh-CN": "用于控制程序化动作的曲线函数。"
@@ -918,7 +918,7 @@
               "options": null,
               "description": "Override generated movement with this value",
               "descriptions": {
-                "ja": "この値で生成された動きを上書きする",
+                "ja": "この値で生成されるオーバーライドされた動き",
                 "zh-TW": "用此值覆寫生成的動作。",
                 "ko": "이 값으로 생성된 동작을 덮어쓰기",
                 "zh-CN": "用此值覆盖生成的运动"
@@ -929,7 +929,7 @@
               "type": "float",
               "label": "Speed Multiplier",
               "labels": {
-                "ja": "速度乗数",
+                "ja": "スピード乗数",
                 "zh-TW": "速度倍增器",
                 "ko": "속도 승수",
                 "zh-CN": "速度乘数"
@@ -962,7 +962,7 @@
               "options": null,
               "description": "Starting position in the cycle",
               "descriptions": {
-                "ja": "サイクルの開始位置",
+                "ja": "サイクル内の開始位置",
                 "zh-TW": "週期中的起始位置",
                 "ko": "사이클 내 시작 위치",
                 "zh-CN": "循环中的起始位置"
@@ -1074,7 +1074,7 @@
           "options": null,
           "description": "Controls randomized pattern sequence",
           "descriptions": {
-            "ja": "ランダム化されたパターンシーケンスを制御",
+            "ja": "ランダムなパターンスケンスを制御",
             "zh-TW": "控制隨機模式序列",
             "ko": "무작위 패턴 시퀀스 제어",
             "zh-CN": "控制随机模式序列"

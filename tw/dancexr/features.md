@@ -15,10 +15,6 @@ feature_sections:
   - title: 新功能與亮點
     light: true
     tiles:
-      - title: 互動式擺姿
-        link: /tw/dancexr/features/posing
-        badge: "2026.6 | Pose Your Character By Hand"
-        badge_type: new
       - title: 探索應用程式
         link: /tw/dancexr/features/discovery
         image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
@@ -32,7 +28,7 @@ feature_sections:
       - title: AI 驅動的語音聊天
         link: /tw/dancexr/features/ai_chat
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
-        badge: 2026.6 · PRO
+        badge: PRO
         badge_type: pro
       - title: 離線渲染與錄製
         link: /tw/dancexr/creator
@@ -50,7 +46,7 @@ feature_sections:
       - title: AI 驅動的語音聊天
         link: /tw/dancexr/features/ai_chat
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
-        badge: 2026.6 · PRO
+        badge: PRO
         badge_type: pro
   - title: 模型支援
     light: true
@@ -222,8 +218,6 @@ feature_sections:
           - title: 模擬
             link: /tw/dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
-            badge: 2026.6
-            badge_type: new
           - title: 布料模擬
             link: /tw/dancexr/features/cloth_simulation
             image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
@@ -290,7 +284,7 @@ feature_sections:
           - title: 待機動畫
             link: /tw/dancexr/features/idle_motion
             image: /images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp
-          - title: T台走動
+          - title: 走秀動作
             link: /tw/dancexr/features/catwalk
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
           - title: 自動舞蹈
@@ -310,10 +304,6 @@ feature_sections:
             badge_type: pro
       - title: 角色行為
         tiles:
-          - title: 互動式擺姿
-            link: /tw/dancexr/features/posing
-            badge: 2026.6
-            badge_type: new
           - title: 眨眼、呼吸和眼神交流
             link: /tw/dancexr/features/eyecontact
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
@@ -354,7 +344,7 @@ feature_sections:
           - title: 動態設定
             link: /tw/dancexr/features/motion_settings
             image: /images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp
-            badge: 2026.6
+            badge: 2026.2
             badge_type: new
           - title: 播放選項
             link: /tw/dancexr/features/playback_options
@@ -537,6 +527,14 @@ feature_sections:
           - title: 應用程式設定
             link: /tw/dancexr/features/application_settings
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
+          - title: 輸入設定
+            link: /tw/dancexr/features/input_settings
+            image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
+          - title: 錄製設定
+            link: /tw/dancexr/features/recording_settings
+            image: /images/slideshows/render/14b024471bc0d21580d976ea28e2fc5f74f1f623.jpg
+            badge: PRO
+            badge_type: pro
       - title: 圖形與顯示
         tiles:
           - title: VR 設定

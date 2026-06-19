@@ -21,7 +21,7 @@
       "type": "int",
       "label": "Tentacle Count",
       "labels": {
-        "ja": "触手数",
+        "ja": "触手の数",
         "zh-TW": "觸手數量",
         "ko": "촉수 개수",
         "zh-CN": "触手数量"
@@ -98,7 +98,7 @@
           "options": ["Circle", "Rectangle"],
           "description": "Shape of the cluster area where tentacles are spawned.",
           "descriptions": {
-            "ja": "触手が出現するクラスターエリアの形状。",
+            "ja": "触手が生成されるクラスターエリアの形状。",
             "zh-TW": "觸手生成集群區域的形狀。",
             "ko": "촉수가 스폰되는 군집 영역의 모양.",
             "zh-CN": "触手生成集群区域的形状。"
@@ -109,7 +109,7 @@
           "type": "float",
           "label": "Area Size",
           "labels": {
-            "ja": "エリアサイズ",
+            "ja": "エリアのサイズ",
             "zh-TW": "區域大小",
             "ko": "영역 크기",
             "zh-CN": "区域尺寸"
@@ -120,7 +120,7 @@
           "options": null,
           "description": "Radius of the cluster area where tentacles are spawned.",
           "descriptions": {
-            "ja": "触手が出現するクラスターエリアの半径。",
+            "ja": "触手が生成されるクラスターエリアの半径。",
             "zh-TW": "觸手生成集群區域的半徑。",
             "ko": "촉수가 스폰되는 군집 영역의 반지름.",
             "zh-CN": "触手生成集群区域的半径。"
@@ -142,7 +142,7 @@
           "options": null,
           "description": "Ratio of the cluster area to the tentacle radius.",
           "descriptions": {
-            "ja": "クラスターエリアから触手の半径の比率。",
+            "ja": "クラスターエリアと触手半径の比率。",
             "zh-TW": "集群區域與觸手半徑的比例。",
             "ko": "군집 영역 대 촉수 반지름의 비율.",
             "zh-CN": "集群区域与触手半径的比率。"
@@ -219,7 +219,7 @@
           "type": "float",
           "label": "Tip Radius",
           "labels": {
-            "ja": "先端半径",
+            "ja": "先端の半径",
             "zh-TW": "尖端半徑",
             "ko": "팁 반지름",
             "zh-CN": "尖端半径"
@@ -265,7 +265,7 @@
           "type": "float",
           "label": "Wiggle Speed",
           "labels": {
-            "ja": "ゆらめき速度",
+            "ja": "揺れの速さ",
             "zh-TW": "顫抖速度",
             "ko": "흔들림 속도",
             "zh-CN": "摆动速度"
@@ -276,7 +276,7 @@
           "options": null,
           "description": "Speed of the wiggle effect.",
           "descriptions": {
-            "ja": "ゆらめきエフェクトの速度。",
+            "ja": "揺れエフェクトの速度。",
             "zh-TW": "顫抖效果的速度。",
             "ko": "흔들림 효과의 속도.",
             "zh-CN": "摆动效果的速度。"
@@ -287,7 +287,7 @@
           "type": "float",
           "label": "Wiggle Extent",
           "labels": {
-            "ja": "ゆらめき範囲",
+            "ja": "揺れの範囲",
             "zh-TW": "顫抖範圍",
             "ko": "흔들림 범위",
             "zh-CN": "摆动范围"
@@ -298,7 +298,7 @@
           "options": null,
           "description": "Extent of the wiggle effect.",
           "descriptions": {
-            "ja": "ゆらめきエフェクトの範囲。",
+            "ja": "揺れエフェクトの範囲。",
             "zh-TW": "顫抖效果的範圍。",
             "ko": "흔들림 효과의 범위.",
             "zh-CN": "摆动效果的范围。"
@@ -309,7 +309,7 @@
           "type": "float",
           "label": "Wiggle Lag",
           "labels": {
-            "ja": "ゆらめき遅延",
+            "ja": "揺れのラグ",
             "zh-TW": "顫抖延遲",
             "ko": "흔들림 지연",
             "zh-CN": "摆动滞后"
@@ -320,7 +320,7 @@
           "options": null,
           "description": "Lag of the wiggle effect.",
           "descriptions": {
-            "ja": "ゆらめきエフェクトの遅延。",
+            "ja": "揺れエフェクトのラグ。",
             "zh-TW": "顫抖效果的延遲。",
             "ko": "흔들림 효과의 지연.",
             "zh-CN": "摆动效果的滞后。"
@@ -331,7 +331,7 @@
           "type": "float",
           "label": "Coil Extent",
           "labels": {
-            "ja": "コイル範囲",
+            "ja": "コイルの範囲",
             "zh-TW": "捲曲範圍",
             "ko": "코일 범위",
             "zh-CN": "卷曲范围"
@@ -353,7 +353,7 @@
           "type": "float",
           "label": "Coil Fade",
           "labels": {
-            "ja": "コイルフェード",
+            "ja": "コイルのフェード",
             "zh-TW": "捲曲淡出",
             "ko": "코일 페이드",
             "zh-CN": "卷曲衰减"
@@ -364,7 +364,7 @@
           "options": null,
           "description": "Fade out the coil effect over time.",
           "descriptions": {
-            "ja": "時間が経つにつれてコイルエフェクトをフェードアウトさせる。",
+            "ja": "時間とともにコイルエフェクトをフェードアウト。",
             "zh-TW": "隨時間淡出捲曲效果。",
             "ko": "시간 경과에 따라 코일 효과가 사라집니다.",
             "zh-CN": "随时间淡出卷曲效果。"
@@ -375,7 +375,7 @@
           "type": "float",
           "label": "Attraction",
           "labels": {
-            "ja": "引力",
+            "ja": "吸引力",
             "zh-TW": "吸引力",
             "ko": "인력",
             "zh-CN": "吸引力"
@@ -386,7 +386,7 @@
           "options": null,
           "description": "Strength of the attraction force.",
           "descriptions": {
-            "ja": "引力フォースの強さ。",
+            "ja": "引力の強さ。",
             "zh-TW": "吸引力的強度。",
             "ko": "끌림 힘의 세기.",
             "zh-CN": "吸引力的强度。"
@@ -408,7 +408,7 @@
           "options": null,
           "description": "Offset for the attraction force.",
           "descriptions": {
-            "ja": "引力フォースのオフセット。",
+            "ja": "引力に対するオフセット。",
             "zh-TW": "吸引力的偏移量。",
             "ko": "끌림 힘을 위한 오프셋.",
             "zh-CN": "吸引力的偏移。"
@@ -487,7 +487,7 @@
       "type": "group",
       "label": "Material",
       "labels": {
-        "ja": "素材",
+        "ja": "材質",
         "zh-TW": "材質",
         "ko": "재질",
         "zh-CN": "材质"
@@ -553,7 +553,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -619,7 +619,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -775,7 +775,7 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "アンビエント",
+                "ja": "周囲光",
                 "zh-TW": "環境光",
                 "ko": "주변광",
                 "zh-CN": "环境光"
@@ -830,7 +830,7 @@
               "options": ["Transparency", "Gloss", "Metallic", "Occlusion", "Detail Mask", "None"],
               "description": "How alpha channel is used in the shader",
               "descriptions": {
-                "ja": "シェーダーでアルファチャンネルがどのように使用されるか",
+                "ja": "シェーダーでアルファチャネルが使用される方法",
                 "zh-TW": "Shader 中 Alpha 通道的用途",
                 "ko": "셰이더에서 알파 채널 사용 방식",
                 "zh-CN": "Alpha 通道在着色器中的使用方式"
@@ -841,7 +841,7 @@
               "type": "group",
               "label": "Special Shader",
               "labels": {
-                "ja": "スペシャルシェーダー",
+                "ja": "特殊シェーダー",
                 "zh-TW": "特殊著色器",
                 "ko": "특수 셰이더",
                 "zh-CN": "特殊着色器"
@@ -886,7 +886,7 @@
                   "label": "Refraction",
                   "labels": {
                     "ja": "屈折",
-                    "zh-TW": "折射率",
+                    "zh-TW": "折射",
                     "ko": "굴절",
                     "zh-CN": "折射"
                   },
@@ -1309,7 +1309,7 @@
               "type": "float",
               "label": "Albedo Strength",
               "labels": {
-                "ja": "アルベド強度",
+                "ja": "アルベドの強度",
                 "zh-TW": "反照率強度",
                 "ko": "알베도 강도",
                 "zh-CN": "反光率强度"
@@ -1331,7 +1331,7 @@
               "type": "float",
               "label": "Smoothness Strength",
               "labels": {
-                "ja": "スムーズネス強度",
+                "ja": "スムーズネスの強度",
                 "zh-TW": "光滑度強度",
                 "ko": "부드러움 강도",
                 "zh-CN": "平滑度强度"
@@ -1353,7 +1353,7 @@
               "type": "float",
               "label": "Albedo Neutral",
               "labels": {
-                "ja": "アルベドニュートラル",
+                "ja": "アルベドのニュートラル",
                 "zh-TW": "反照率中性",
                 "ko": "알베도 중립",
                 "zh-CN": "基础色中性"
@@ -1375,7 +1375,7 @@
               "type": "float",
               "label": "Smoothness Neutral",
               "labels": {
-                "ja": "スムーズネスニュートラル",
+                "ja": "スムーズネスのニュートラル",
                 "zh-TW": "光滑度中性",
                 "ko": "부드러움 중립",
                 "zh-CN": "平滑度中性"
@@ -1397,7 +1397,7 @@
               "type": "float",
               "label": "Anisotropy",
               "labels": {
-                "ja": "アニソトロピー",
+                "ja": "異方性",
                 "zh-TW": "各向異性",
                 "ko": "이방성",
                 "zh-CN": "各向异性"
@@ -1430,7 +1430,7 @@
               "options": null,
               "description": "Adjust sharpness of detail texture.",
               "descriptions": {
-                "ja": "ディテールテクスチャのシャープさを調整します。",
+                "ja": "ディテールテクスチャのシャープさの調整。",
                 "zh-TW": "調整細節紋理的銳利度。",
                 "ko": "디테일 텍스처의 선명도 조절.",
                 "zh-CN": "调整细节纹理的锐度。"
@@ -1441,7 +1441,7 @@
               "type": "bool",
               "label": "Use Triplaner",
               "labels": {
-                "ja": "トライプラナーを使用",
+                "ja": "トリプラナーの使用",
                 "zh-TW": "使用三平面",
                 "ko": "트라이플래너 사용",
                 "zh-CN": "使用三平面贴图"
@@ -1467,7 +1467,7 @@
       "type": "group",
       "label": "X-Ray",
       "labels": {
-        "ja": "X線透過",
+        "ja": "X線",
         "zh-TW": "X光",
         "ko": "X-Ray",
         "zh-CN": "X光透视"
@@ -1511,7 +1511,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -1577,7 +1577,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -1777,7 +1777,7 @@
           "type": "float",
           "label": "Power",
           "labels": {
-            "ja": "強度",
+            "ja": "パワー",
             "zh-TW": "功率",
             "ko": "강도",
             "zh-CN": "功率"
@@ -1867,7 +1867,7 @@
           "type": "float",
           "label": "Drag (Air)",
           "labels": {
-            "ja": "空気抵抗",
+            "ja": "抵抗（空気）",
             "zh-TW": "阻力（空氣）",
             "ko": "항력 (공기)",
             "zh-CN": "阻力（空气）"
@@ -1889,7 +1889,7 @@
           "type": "float",
           "label": "Drag (Underwater)",
           "labels": {
-            "ja": "水中抵抗",
+            "ja": "抵抗（水中）",
             "zh-TW": "阻力（水下）",
             "ko": "항력 (수중)",
             "zh-CN": "阻力（水下）"
@@ -1900,7 +1900,7 @@
           "options": null,
           "description": "Underwater resistancy",
           "descriptions": {
-            "ja": "水中抵抗",
+            "ja": "水抵抗",
             "zh-TW": "水下阻力",
             "ko": "수중 저항",
             "zh-CN": "水下阻力"
@@ -1955,7 +1955,7 @@
               "type": "float",
               "label": "Wind Influence",
               "labels": {
-                "ja": "風の影響",
+                "ja": "風の影響度",
                 "zh-TW": "風影響力",
                 "ko": "바람 영향력",
                 "zh-CN": "风力影响"
@@ -2021,7 +2021,7 @@
               "type": "float",
               "label": "Turbulence Time Scale",
               "labels": {
-                "ja": "乱流時間スケール",
+                "ja": "乱流タイムスケール",
                 "zh-TW": "湍流時間尺度",
                 "ko": "난류 시간 스케일",
                 "zh-CN": "湍流时间尺度"
@@ -2045,7 +2045,7 @@
           "type": "group",
           "label": "Collide With",
           "labels": {
-            "ja": "と衝突",
+            "ja": "衝突判定",
             "zh-TW": "與碰撞",
             "ko": "충돌 대상",
             "zh-CN": "碰撞对象"
@@ -2111,7 +2111,7 @@
               "type": "bool",
               "label": "Boobs",
               "labels": {
-                "ja": "ブブズ",
+                "ja": "バスト",
                 "zh-TW": "胸部",
                 "ko": "보디스",
                 "zh-CN": "胸部"
@@ -2133,7 +2133,7 @@
               "type": "bool",
               "label": "Butts",
               "labels": {
-                "ja": "臀部",
+                "ja": "お尻",
                 "zh-TW": "臀部",
                 "ko": "엉덩이",
                 "zh-CN": "臀部"

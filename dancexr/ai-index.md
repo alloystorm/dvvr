@@ -77,8 +77,8 @@ Use these when the user's wording does not match a topic title directly.
 | Outfit change, removing clothes, toggling items | `dancexr/appearance.md`, `dancexr/features/optionals.md` |
 | Sky, weather, rain, snow, fog | `dancexr/features/skymap.md`, `dancexr/features/weather_particles.md`, `dancexr/features/sky.md` |
 | Save / load a scene, share a setup | `dancexr/features/save_scene.md`, `dancexr/features/scene_bundle.md` |
-| VR controllers, pointer, comfort, hand tracking | `dancexr/vr_operations.md`, `dancexr/features/vr_settings.md` |
-| Keyboard shortcuts, gamepad mapping, key bindings | `dancexr/controls.md` |
+| VR controllers, pointer, comfort, hand tracking, physical hands | `dancexr/vr_operations.md`, `dancexr/features/vr_settings.md` |
+| Keyboard shortcuts, gamepad mapping, key bindings, controller calibration, grip threshold, analog stick | `dancexr/controls.md`, `dancexr/features/input_settings.md` |
 | Adult / NSFW / sex / lewd content | rows under *Adult Lane* (requires the corresponding tier/toggle) |
 | What changed in version YYYY.M | `dancexr/releases/YYYY.M.md` (e.g., `dancexr/releases/2026.5.md`) |
 | Which version do I need to buy / Pro vs Free vs Creator | `dancexr/download.md`, `dancexr/concepts.md` (Editions and tiers section) |
@@ -121,6 +121,7 @@ Use these when the user's wording does not match a topic title directly.
 | Languages | Changing the UI language | `dancexr/features/languages.md` |
 | Auto Update | Enabling or disabling automatic updates | `dancexr/features/autoupdate.md` |
 | Application Settings | Global app preferences (startup, performance, network) | `dancexr/features/application_settings.md` |
+| Input Settings | Keyboard shortcuts, controller axis and button mappings, trackpad/thumbstick modes, grip thresholds | `dancexr/features/input_settings.md` |
 | Google Drive Integration | Accessing models / motions / music from Google Drive | `dancexr/features/googledrive.md` |
 | Remote Control | Control DanceXR running on another device (PC / Quest) from the Android app over local network | `dancexr/features/remote_control.md` |
 | System Presets | Save and reapply scene-wide settings (graphics, lighting, sky, ground) as a named preset | `dancexr/features/system_presets.md` |
@@ -339,6 +340,7 @@ See the [Cinematic cameras hub](dancexr/cameras.md) for mode comparison and reco
 | HDR Display Support | HDR10 output on capable Windows displays — auto-detected, can be turned off in Graphics settings | `dancexr/features/hdr_display.md` |
 | Display Settings | Resolution, fullscreen, and multi-monitor settings | `dancexr/features/display_settings.md` |
 | VR Settings | VR headset technical settings (foveated rendering, pointer calibration, hand rendering) | `dancexr/features/vr_settings.md` |
+| Recording Settings | Framerate, duration, image format, quality, resolution, and IPD settings for offline rendering | `dancexr/features/recording_settings.md` |
 
 ---
 

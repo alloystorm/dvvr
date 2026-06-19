@@ -15,10 +15,6 @@ feature_sections:
   - title: 新機能と注目ポイント
     light: true
     tiles:
-      - title: インタラクティブ・ポージング
-        link: /jp/dancexr/features/posing
-        badge: "2026.6 | Pose Your Character By Hand"
-        badge_type: new
       - title: ディスカバリーアプリ
         link: /jp/dancexr/features/discovery
         image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
@@ -32,7 +28,7 @@ feature_sections:
       - title: AI駆動音声チャット
         link: /jp/dancexr/features/ai_chat
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
-        badge: 2026.6 · PRO
+        badge: PRO
         badge_type: pro
       - title: "オフラインレンダー & 録画"
         link: /jp/dancexr/creator
@@ -50,7 +46,7 @@ feature_sections:
       - title: AI駆動音声チャット
         link: /jp/dancexr/features/ai_chat
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
-        badge: 2026.6 · PRO
+        badge: PRO
         badge_type: pro
   - title: モデルサポート
     light: true
@@ -222,8 +218,6 @@ feature_sections:
           - title: シミュレーション
             link: /jp/dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
-            badge: 2026.6
-            badge_type: new
           - title: 布シミュレーション
             link: /jp/dancexr/features/cloth_simulation
             image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
@@ -290,7 +284,7 @@ feature_sections:
           - title: アイドルモーション
             link: /jp/dancexr/features/idle_motion
             image: /images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp
-          - title: カトウォークモーション
+          - title: ランウェイウォーク
             link: /jp/dancexr/features/catwalk
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
           - title: 自動ダンス
@@ -310,10 +304,6 @@ feature_sections:
             badge_type: pro
       - title: キャラクタービヘイビア
         tiles:
-          - title: インタラクティブ・ポージング
-            link: /jp/dancexr/features/posing
-            badge: 2026.6
-            badge_type: new
           - title: 瞬き、呼吸、目線
             link: /jp/dancexr/features/eyecontact
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
@@ -334,7 +324,7 @@ feature_sections:
           - title: リップシンク
             link: /jp/dancexr/features/lipsync
             badge: 2024.9
-          - title: ビデオプレーヤー
+          - title: ビデオプレイヤー
             link: /jp/dancexr/features/video_player
             image: /images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp
             badge: 2024.4 · PRO
@@ -354,7 +344,7 @@ feature_sections:
           - title: モーション設定
             link: /jp/dancexr/features/motion_settings
             image: /images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp
-            badge: 2026.6
+            badge: 2026.2
             badge_type: new
           - title: "## 再生オプション"
             link: /jp/dancexr/features/playback_options
@@ -537,6 +527,14 @@ feature_sections:
           - title: アプリケーション設定
             link: /jp/dancexr/features/application_settings
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
+          - title: 入力設定
+            link: /jp/dancexr/features/input_settings
+            image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
+          - title: 録画設定
+            link: /jp/dancexr/features/recording_settings
+            image: /images/slideshows/render/14b024471bc0d21580d976ea28e2fc5f74f1f623.jpg
+            badge: PRO
+            badge_type: pro
       - title: "グラフィックス & ディスプレイ"
         tiles:
           - title: VR設定

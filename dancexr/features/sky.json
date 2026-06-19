@@ -32,7 +32,7 @@
       "options": ["Color", "Sky Map", "Procedural"],
       "description": "Selects the sky rendering mode: Color, Sky Map, or Procedural.",
       "descriptions": {
-        "ja": "空のレンダリングモードを選択します：色、スカイマップ、またはプロシージャル。",
+        "ja": "空のレンダリングモードを選択します: カラー、スカイマップ、またはプロシージャル。",
         "zh-TW": "選擇天空渲染模式：顏色、天空貼圖或程序化。",
         "ko": "스카이 렌더링 모드를 선택합니다: 색상, 스카이 맵 또는 프로시저.",
         "zh-CN": "选择天空渲染模式：颜色、天空贴图或程序化。"
@@ -54,7 +54,7 @@
       "options": null,
       "description": "Controls the brightness of the sky when it is rendered.",
       "descriptions": {
-        "ja": "レンダリングされたとき、空の明るさを制御します。",
+        "ja": "レンダリングされる際の空の明るさを制御します。",
         "zh-TW": "控制渲染時天空的亮度。",
         "ko": "하늘이 렌더링될 때의 밝기를 제어합니다.",
         "zh-CN": "控制天空的亮度。"
@@ -65,7 +65,7 @@
       "type": "float",
       "label": "Sky Ambient",
       "labels": {
-        "ja": "スカイアンビエント",
+        "ja": "空の環境光",
         "zh-TW": "天空環境光",
         "ko": "스카이 앰비언트",
         "zh-CN": "天空环境光"
@@ -76,7 +76,7 @@
       "options": null,
       "description": "Controls how much the sky affects ambient lighting.",
       "descriptions": {
-        "ja": "空が環境光にどの程度影響するかを制御します。",
+        "ja": "空が環境光に影響を与える度合いを制御します。",
         "zh-TW": "控制天空影響環境光的程度。",
         "ko": "하늘이 앰비언트 조명에 영향을 미치는 정도를 제어합니다.",
         "zh-CN": "控制天空对环境光的影响程度。"
@@ -87,10 +87,10 @@
       "type": "value",
       "label": "Celestial",
       "labels": {
-        "ja": "天体",
-        "zh-TW": "天體",
-        "ko": "천체",
-        "zh-CN": "天体"
+        "ja": "(Celestial)",
+        "zh-TW": "(Celestial)",
+        "ko": "(Celestial)",
+        "zh-CN": "(Celestial)"
       },
       "default": 0,
       "min": 0,
@@ -164,7 +164,7 @@
       "options": null,
       "description": "Global wind speed affecting cloth simulation, particle dynamics, and clouds.",
       "descriptions": {
-        "ja": "布シミュレーション、パーティクルのダイナミクス、および雲に影響を与えるグローバルな風速。",
+        "ja": "布シミュレーション、パーティクルダイナミクス、雲に影響を与えるグローバルな風速。",
         "zh-TW": "影響布料模擬、粒子動態和雲的全局風速。",
         "ko": "천체 시뮬레이션, 입자 역학 및 구름에 영향을 미치는 전역 바람 속도.",
         "zh-CN": "影响布料模拟、粒子动态和云朵的全局风速。"
@@ -175,7 +175,7 @@
       "type": "float",
       "label": "Wind Direction",
       "labels": {
-        "ja": "風の方向",
+        "ja": "風向き",
         "zh-TW": "風向",
         "ko": "바람 방향",
         "zh-CN": "风向"
@@ -186,7 +186,7 @@
       "options": null,
       "description": "Sets the global wind direction in degrees.",
       "descriptions": {
-        "ja": "グローバルな風の方向を度数で設定します。",
+        "ja": "グローバルな風向きを度数で設定します。",
         "zh-TW": "以度為單位設定全局風向。",
         "ko": "전역 바람 방향을 각도로 설정합니다.",
         "zh-CN": "设置全局风向（度）。"
@@ -197,7 +197,7 @@
       "type": "group",
       "label": "Wind Field",
       "labels": {
-        "ja": "風の場",
+        "ja": "風場",
         "zh-TW": "風場",
         "ko": "바람장",
         "zh-CN": "风场"
@@ -230,7 +230,7 @@
           "options": null,
           "description": "Sets the position of the wind field.",
           "descriptions": {
-            "ja": "風の場の位置を設定します。",
+            "ja": "風場の位置を設定します。",
             "zh-TW": "設定風場的位置。",
             "ko": "바람장의 위치를 설정합니다.",
             "zh-CN": "设置风场的位置。"
@@ -320,7 +320,7 @@
           "options": null,
           "description": "Sets the rotation of the wind field.",
           "descriptions": {
-            "ja": "風の場の回転を設定します。",
+            "ja": "風場の回転を設定します。",
             "zh-TW": "設定風場的旋轉角度。",
             "ko": "바람장의 회전을 설정합니다.",
             "zh-CN": "设置风场的旋转。"
@@ -410,7 +410,7 @@
           "options": null,
           "description": "Sets the distance of the wind field.",
           "descriptions": {
-            "ja": "風の場の距離を設定します。",
+            "ja": "風場の距離を設定します。",
             "zh-TW": "設定風場的距離。",
             "ko": "바람장의 거리를 설정합니다.",
             "zh-CN": "设置风场的距离。"
@@ -432,7 +432,7 @@
           "options": null,
           "description": "Sets the radius of the wind field.",
           "descriptions": {
-            "ja": "風の場の半径を設定します。",
+            "ja": "風場の半径を設定します。",
             "zh-TW": "設定風場的半徑。",
             "ko": "바람장의 반지름을 설정합니다.",
             "zh-CN": "设置风场的半径。"
@@ -454,7 +454,7 @@
           "options": null,
           "description": "Sets the speed of the wind field.",
           "descriptions": {
-            "ja": "風の場の速度を設定します。",
+            "ja": "風場の速度を設定します。",
             "zh-TW": "設定風場的速度。",
             "ko": "바람장의 속도를 설정합니다.",
             "zh-CN": "设置风场的速度。"
@@ -489,7 +489,7 @@
           "type": "int",
           "label": "Color Mode",
           "labels": {
-            "ja": "色モード",
+            "ja": "カラーモード",
             "zh-TW": "色彩模式",
             "ko": "색상 모드",
             "zh-CN": "颜色模式"
@@ -555,7 +555,7 @@
           "type": "float",
           "label": "Brightness",
           "labels": {
-            "ja": "明度",
+            "ja": "輝度",
             "zh-TW": "亮度",
             "ko": "밝기",
             "zh-CN": "亮度"
@@ -711,7 +711,7 @@
           "type": "int",
           "label": "Color Mode",
           "labels": {
-            "ja": "色モード",
+            "ja": "カラーモード",
             "zh-TW": "色彩模式",
             "ko": "색상 모드",
             "zh-CN": "颜色模式"
@@ -777,7 +777,7 @@
           "type": "float",
           "label": "Brightness",
           "labels": {
-            "ja": "明度",
+            "ja": "輝度",
             "zh-TW": "亮度",
             "ko": "밝기",
             "zh-CN": "亮度"
@@ -933,7 +933,7 @@
           "type": "int",
           "label": "Color Mode",
           "labels": {
-            "ja": "色モード",
+            "ja": "カラーモード",
             "zh-TW": "色彩模式",
             "ko": "색상 모드",
             "zh-CN": "颜色模式"
@@ -999,7 +999,7 @@
           "type": "float",
           "label": "Brightness",
           "labels": {
-            "ja": "明度",
+            "ja": "輝度",
             "zh-TW": "亮度",
             "ko": "밝기",
             "zh-CN": "亮度"
@@ -1188,7 +1188,7 @@
           "options": null,
           "description": "Adjusts the shape factor of the clouds.",
           "descriptions": {
-            "ja": "雲のシェイプファクターを調整します。",
+            "ja": "雲の形状ファクターを調整します。",
             "zh-TW": "調整雲朵的形狀係數。",
             "ko": "구름의 형태 계수를 조정합니다.",
             "zh-CN": "调整云的形状因子。"
@@ -1199,7 +1199,7 @@
           "type": "float",
           "label": "Erosion Scale",
           "labels": {
-            "ja": "エロージョンスケール",
+            "ja": "侵食スケール",
             "zh-TW": "風化縮放",
             "ko": "침식 스케일",
             "zh-CN": "侵蚀缩放"
@@ -1210,7 +1210,7 @@
           "options": null,
           "description": "Controls the scale of cloud erosion.",
           "descriptions": {
-            "ja": "雲のエロージョンのスケールを制御します。",
+            "ja": "雲の侵食のスケールを制御します。",
             "zh-TW": "控制雲朵風化程度的縮放。",
             "ko": "구름 침식의 스케일을 제어합니다.",
             "zh-CN": "控制云侵蚀的缩放。"
@@ -1221,7 +1221,7 @@
           "type": "float",
           "label": "Erosion Factor",
           "labels": {
-            "ja": "エロージョンファクター",
+            "ja": "侵食ファクター",
             "zh-TW": "風化係數",
             "ko": "침식 계수",
             "zh-CN": "侵蚀因子"
@@ -1232,7 +1232,7 @@
           "options": null,
           "description": "Adjusts the erosion factor of the clouds.",
           "descriptions": {
-            "ja": "雲のエロージョンファクターを調整します。",
+            "ja": "雲の侵食ファクターを調整します。",
             "zh-TW": "調整雲朵的風化係數。",
             "ko": "구름의 침식 계수를 조정합니다.",
             "zh-CN": "调整云的侵蚀因子。"
@@ -1265,7 +1265,7 @@
           "type": "bool",
           "label": "Shadow",
           "labels": {
-            "ja": "シャドウ",
+            "ja": "影",
             "zh-TW": "陰影",
             "ko": "그림자",
             "zh-CN": "阴影"
@@ -1287,7 +1287,7 @@
           "type": "float",
           "label": "Wind Multiplier",
           "labels": {
-            "ja": "風の乗数",
+            "ja": "風倍率",
             "zh-TW": "風力乘數",
             "ko": "바람 증폭률",
             "zh-CN": "风力乘数"
@@ -1298,7 +1298,7 @@
           "options": null,
           "description": "Sets the wind multiplier for cloud movement.",
           "descriptions": {
-            "ja": "雲の動きのための風の乗数を設定します。",
+            "ja": "雲の動きの風倍率を設定します。",
             "zh-TW": "設定雲移動的風力乘數。",
             "ko": "구름 움직임을 위한 바람 증폭률을 설정합니다.",
             "zh-CN": "设置云移动的风力乘数。"

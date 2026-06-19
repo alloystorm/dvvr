@@ -3,7 +3,7 @@
   "docPath": "features/shake_boobs_overlay",
   "label": "Shake Boobs Overlay",
   "labels": {
-    "ja": "揺れる胸のオーバーレイ",
+    "ja": "バストシェイクオーバーレイ",
     "zh-TW": "搖晃胸部覆蓋層",
     "ko": "가슴 흔들림 오버레이",
     "zh-CN": "晃胸叠加"
@@ -65,7 +65,7 @@
       "type": "float",
       "label": "Motion Pattern",
       "labels": {
-        "ja": "動きパターン",
+        "ja": "動きのパターン",
         "zh-TW": "動作規律",
         "ko": "움직임 패턴",
         "zh-CN": "运动模式"
@@ -120,7 +120,7 @@
       "options": null,
       "description": "Bounce back at neutral position",
       "descriptions": {
-        "ja": "中立位置で跳ね返る",
+        "ja": "中立位置で跳ね返り",
         "zh-TW": "在中性位置反彈",
         "ko": "중립 위치로 복원",
         "zh-CN": "在中性位置回弹"

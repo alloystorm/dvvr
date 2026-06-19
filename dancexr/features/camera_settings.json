@@ -1,0 +1,174 @@
+{
+  "name": "Main Camera",
+  "docPath": "features/camera_settings",
+  "label": "Main Camera",
+  "labels": {
+    "ja": "メインカメラ",
+    "zh-TW": "主要攝影機",
+    "ko": "메인 카메라",
+    "zh-CN": "主摄像机"
+  },
+  "description": "Camera settings control the behavior and position of the camera rig, including height, field of view, and how motion data affects the camera.\r\n\r\n\r\n## Settings\r\n\r\n**Height Offset** (-5.0 to 5.0) adjusts the camera height relative to the motion's default position. Use this to raise or lower the camera independently of the motion data.\r\n\r\n**FOV Scale** (0.25 to 2.0) scales the field of view of the camera. Values below 1 narrow the view (zoom in); values above 1 widen it (zoom out).\r\n\r\n**Portrait Mode Zoom** (1.0 to 2.0) sets additional zoom applied when the display is in portrait orientation.\r\n\r\n**Near Clip** (0.0 to 0.5) sets the near clipping plane distance. Lower values allow the camera to get closer to objects before they are clipped.\r\n\r\n**Reset When Motion Change** resets the camera offset to default whenever the motion changes.\r\n\r\n**Freeze in VR** freezes camera movements while the UI is visible in VR mode, preventing unwanted camera drift during menu interaction.\r\n\r\n\r\n## Rotation filter\r\n\r\nControls how much of the camera rotation from motion data is applied.\r\n\r\n* **No Rotation**: Motion camera rotation is ignored; the camera remains stationary in rotation.\r\n* **Direction Only**: Only the horizontal facing direction from the motion is applied.\r\n* **Full Rotation**: The full rotation from the motion data is applied.\r\n\r\n\r\n## Actions\r\n\r\n* **Reset Offset** resets the camera height offset to its default value.",
+  "descriptions": {
+    "ja": "(Camera settings control the behavior and position of the camera rig, including height, field of view, and how motion data affects the camera.\r\n\r\n\r\n## Settings\r\n\r\n**Height Offset** (-5.0 to 5.0) adjusts the camera height relative to the motion's default position. Use this to raise or lower the camera independently of the motion data.\r\n\r\n**FOV Scale** (0.25 to 2.0) scales the field of view of the camera. Values below 1 narrow the view (zoom in); values above 1 widen it (zoom out).\r\n\r\n**Portrait Mode Zoom** (1.0 to 2.0) sets additional zoom applied when the display is in portrait orientation.\r\n\r\n**Near Clip** (0.0 to 0.5) sets the near clipping plane distance. Lower values allow the camera to get closer to objects before they are clipped.\r\n\r\n**Reset When Motion Change** resets the camera offset to default whenever the motion changes.\r\n\r\n**Freeze in VR** freezes camera movements while the UI is visible in VR mode, preventing unwanted camera drift during menu interaction.\r\n\r\n\r\n## Rotation filter\r\n\r\nControls how much of the camera rotation from motion data is applied.\r\n\r\n* **No Rotation**: Motion camera rotation is ignored; the camera remains stationary in rotation.\r\n* **Direction Only**: Only the horizontal facing direction from the motion is applied.\r\n* **Full Rotation**: The full rotation from the motion data is applied.\r\n\r\n\r\n## Actions\r\n\r\n* **Reset Offset** resets the camera height offset to its default value.)",
+    "zh-TW": "(Camera settings control the behavior and position of the camera rig, including height, field of view, and how motion data affects the camera.\r\n\r\n\r\n## Settings\r\n\r\n**Height Offset** (-5.0 to 5.0) adjusts the camera height relative to the motion's default position. Use this to raise or lower the camera independently of the motion data.\r\n\r\n**FOV Scale** (0.25 to 2.0) scales the field of view of the camera. Values below 1 narrow the view (zoom in); values above 1 widen it (zoom out).\r\n\r\n**Portrait Mode Zoom** (1.0 to 2.0) sets additional zoom applied when the display is in portrait orientation.\r\n\r\n**Near Clip** (0.0 to 0.5) sets the near clipping plane distance. Lower values allow the camera to get closer to objects before they are clipped.\r\n\r\n**Reset When Motion Change** resets the camera offset to default whenever the motion changes.\r\n\r\n**Freeze in VR** freezes camera movements while the UI is visible in VR mode, preventing unwanted camera drift during menu interaction.\r\n\r\n\r\n## Rotation filter\r\n\r\nControls how much of the camera rotation from motion data is applied.\r\n\r\n* **No Rotation**: Motion camera rotation is ignored; the camera remains stationary in rotation.\r\n* **Direction Only**: Only the horizontal facing direction from the motion is applied.\r\n* **Full Rotation**: The full rotation from the motion data is applied.\r\n\r\n\r\n## Actions\r\n\r\n* **Reset Offset** resets the camera height offset to its default value.)",
+    "ko": "(Camera settings control the behavior and position of the camera rig, including height, field of view, and how motion data affects the camera.\r\n\r\n\r\n## Settings\r\n\r\n**Height Offset** (-5.0 to 5.0) adjusts the camera height relative to the motion's default position. Use this to raise or lower the camera independently of the motion data.\r\n\r\n**FOV Scale** (0.25 to 2.0) scales the field of view of the camera. Values below 1 narrow the view (zoom in); values above 1 widen it (zoom out).\r\n\r\n**Portrait Mode Zoom** (1.0 to 2.0) sets additional zoom applied when the display is in portrait orientation.\r\n\r\n**Near Clip** (0.0 to 0.5) sets the near clipping plane distance. Lower values allow the camera to get closer to objects before they are clipped.\r\n\r\n**Reset When Motion Change** resets the camera offset to default whenever the motion changes.\r\n\r\n**Freeze in VR** freezes camera movements while the UI is visible in VR mode, preventing unwanted camera drift during menu interaction.\r\n\r\n\r\n## Rotation filter\r\n\r\nControls how much of the camera rotation from motion data is applied.\r\n\r\n* **No Rotation**: Motion camera rotation is ignored; the camera remains stationary in rotation.\r\n* **Direction Only**: Only the horizontal facing direction from the motion is applied.\r\n* **Full Rotation**: The full rotation from the motion data is applied.\r\n\r\n\r\n## Actions\r\n\r\n* **Reset Offset** resets the camera height offset to its default value.)",
+    "zh-CN": "(Camera settings control the behavior and position of the camera rig, including height, field of view, and how motion data affects the camera.\r\n\r\n\r\n## Settings\r\n\r\n**Height Offset** (-5.0 to 5.0) adjusts the camera height relative to the motion's default position. Use this to raise or lower the camera independently of the motion data.\r\n\r\n**FOV Scale** (0.25 to 2.0) scales the field of view of the camera. Values below 1 narrow the view (zoom in); values above 1 widen it (zoom out).\r\n\r\n**Portrait Mode Zoom** (1.0 to 2.0) sets additional zoom applied when the display is in portrait orientation.\r\n\r\n**Near Clip** (0.0 to 0.5) sets the near clipping plane distance. Lower values allow the camera to get closer to objects before they are clipped.\r\n\r\n**Reset When Motion Change** resets the camera offset to default whenever the motion changes.\r\n\r\n**Freeze in VR** freezes camera movements while the UI is visible in VR mode, preventing unwanted camera drift during menu interaction.\r\n\r\n\r\n## Rotation filter\r\n\r\nControls how much of the camera rotation from motion data is applied.\r\n\r\n* **No Rotation**: Motion camera rotation is ignored; the camera remains stationary in rotation.\r\n* **Direction Only**: Only the horizontal facing direction from the motion is applied.\r\n* **Full Rotation**: The full rotation from the motion data is applied.\r\n\r\n\r\n## Actions\r\n\r\n* **Reset Offset** resets the camera height offset to its default value.)"
+  },
+  "values": [
+    {
+      "name": "Height Offset",
+      "type": "float",
+      "label": "Height Offset",
+      "labels": {
+        "ja": "高さオフセット",
+        "zh-TW": "高度偏移",
+        "ko": "높이 오프셋",
+        "zh-CN": "高度偏移"
+      },
+      "default": 0,
+      "min": -5,
+      "max": 5,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "FOV Scale",
+      "type": "float",
+      "label": "FOV Scale",
+      "labels": {
+        "ja": "FOVスケール",
+        "zh-TW": "視場角縮放",
+        "ko": "FOV 스케일",
+        "zh-CN": "视场角缩放"
+      },
+      "default": 1,
+      "min": 0.25,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Portrait Mode Zoom",
+      "type": "float",
+      "label": "Portrait Mode Zoom",
+      "labels": {
+        "ja": "ポートレートモードズーム",
+        "zh-TW": "肖像模式縮放",
+        "ko": "인물 모드 줌",
+        "zh-CN": "肖像模式缩放"
+      },
+      "default": 1.2,
+      "min": 1,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Rotation Filter",
+      "type": "int",
+      "label": "Rotation Filter",
+      "labels": {
+        "ja": "回転フィルター",
+        "zh-TW": "旋轉過濾器",
+        "ko": "회전 필터",
+        "zh-CN": "旋转滤镜"
+      },
+      "default": 2,
+      "min": 0,
+      "max": 2,
+      "options": ["No Rotation", "Direction Only", "Full Rotation"],
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Near Clip",
+      "type": "float",
+      "label": "Near Clip",
+      "labels": {
+        "ja": "近接クリップ",
+        "zh-TW": "近裁剪",
+        "ko": "근절단면",
+        "zh-CN": "近裁剪"
+      },
+      "default": 0.01,
+      "min": 0,
+      "max": 0.5,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Reset When Motion Change",
+      "type": "bool",
+      "label": "Reset When Motion Change",
+      "labels": {
+        "ja": "動きが変化したときにリセット",
+        "zh-TW": "移動變化時重置",
+        "ko": "모션 변경 시 초기화",
+        "zh-CN": "运动变化时重置"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Freeze in VR",
+      "type": "bool",
+      "label": "Freeze in VR",
+      "labels": {
+        "ja": "VRでの固定",
+        "zh-TW": "虛擬實境鎖定",
+        "ko": "VR에서의 고정",
+        "zh-CN": "VR中冻结"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Freeze camera movements when UI is visible in VR mode.",
+      "descriptions": {
+        "ja": "VRモードでUIが表示されているときにカメラの動きを固定する。",
+        "zh-TW": "當在虛擬實境模式下顯示 UI 時，鎖定攝影機移動。",
+        "ko": "VR 모드에서 UI가 보일 때 카메라 움직임 고정.",
+        "zh-CN": "在VR模式下，如果UI可见，则冻结摄像机运动。"
+      }
+    }
+  ]
+}

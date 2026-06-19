@@ -1011,6 +1011,30 @@
             {
               "path": "features/application_settings",
               "image": "/images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg"
+            },
+            {
+              "path": "features/input_settings",
+              "title": "Input Settings",
+              "title_locales": {
+                "jp": "入力設定",
+                "zh": "输入设置",
+                "tw": "輸入設定",
+                "kr": "입력 설정"
+              },
+              "image": "/images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg"
+            },
+            {
+              "path": "features/recording_settings",
+              "title": "Recording Settings",
+              "title_locales": {
+                "jp": "録画設定",
+                "zh": "录制设置",
+                "tw": "錄製設定",
+                "kr": "녹화 설정"
+              },
+              "badge": "PRO",
+              "badge_type": "pro",
+              "image": "/images/slideshows/render/14b024471bc0d21580d976ea28e2fc5f74f1f623.jpg"
             }
           ]
         },

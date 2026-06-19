@@ -87,7 +87,7 @@
           "type": "float",
           "label": "Shadow",
           "labels": {
-            "ja": "シャドウ",
+            "ja": "影",
             "zh-TW": "陰影",
             "ko": "그림자",
             "zh-CN": "阴影"
@@ -175,7 +175,7 @@
           "type": "float",
           "label": "Color Transition",
           "labels": {
-            "ja": "色の遷移",
+            "ja": "色遷移",
             "zh-TW": "顏色過渡",
             "ko": "색상 전환",
             "zh-CN": "颜色过渡"
@@ -197,7 +197,7 @@
           "type": "float",
           "label": "Align",
           "labels": {
-            "ja": "アライメント",
+            "ja": "整列",
             "zh-TW": "對齊",
             "ko": "정렬",
             "zh-CN": "对齐"
@@ -241,7 +241,7 @@
           "type": "float",
           "label": "Shape Shift",
           "labels": {
-            "ja": "シェイプシフト",
+            "ja": "形状変化",
             "zh-TW": "形狀變化",
             "ko": "모양 변화",
             "zh-CN": "形状变化"
@@ -307,7 +307,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -373,7 +373,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -507,7 +507,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -573,7 +573,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -751,7 +751,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -817,7 +817,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -1006,7 +1006,7 @@
           "options": null,
           "description": "Use real-time automatically detected BPM instead of the set BPM.",
           "descriptions": {
-            "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用します。",
+            "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用する。",
             "zh-TW": "使用實時自動偵測的BPM，而非設定的BPM。",
             "ko": "설정된 BPM 대신 실시간으로 자동으로 감지된 BPM을 사용합니다.",
             "zh-CN": "使用实时自动检测的 BPM，而不是设置的 BPM。"
@@ -1221,7 +1221,7 @@
       "type": "float",
       "label": "Depth",
       "labels": {
-        "ja": "奥行き",
+        "ja": "深度",
         "zh-TW": "深度",
         "ko": "깊이",
         "zh-CN": "深度"

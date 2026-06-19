@@ -21,7 +21,7 @@
       "type": "group",
       "label": "Primary Group",
       "labels": {
-        "ja": "プライマリーグループ",
+        "ja": "プライマリ グループ",
         "zh-TW": "主要群組",
         "ko": "기본 그룹",
         "zh-CN": "主组"
@@ -54,7 +54,7 @@
           "options": null,
           "description": "Select bones",
           "descriptions": {
-            "ja": "骨格を選択",
+            "ja": "ボーンを選択",
             "zh-TW": "選取骨骼",
             "ko": "뼈 선택",
             "zh-CN": "选择骨骼"
@@ -65,7 +65,7 @@
           "type": "group",
           "label": "Use Suspension",
           "labels": {
-            "ja": "サスペンションを使用",
+            "ja": "サスペンションの使用",
             "zh-TW": "使用懸掛",
             "ko": "서스펜션 사용",
             "zh-CN": "使用悬挂"
@@ -289,7 +289,7 @@
               "type": "float",
               "label": "Damping",
               "labels": {
-                "ja": "ダンピング",
+                "ja": "減衰",
                 "zh-TW": "阻尼",
                 "ko": "감쇠",
                 "zh-CN": "阻尼"
@@ -377,7 +377,7 @@
               "type": "float",
               "label": "Rest Angle",
               "labels": {
-                "ja": "休息角",
+                "ja": "静止角",
                 "zh-TW": "靜止角度",
                 "ko": "휴식 각도",
                 "zh-CN": "静止角度"
@@ -465,7 +465,7 @@
                   "type": "float",
                   "label": "Left / Right Limit",
                   "labels": {
-                    "ja": "左右の制限",
+                    "ja": "左右制限",
                     "zh-TW": "左/右限制",
                     "ko": "좌/우 제한",
                     "zh-CN": "左/右限制"
@@ -498,7 +498,7 @@
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
-                    "ja": "制限を超えたときのばね力",
+                    "ja": "制限超過時のばね力",
                     "zh-TW": "超出限制時的彈簧力",
                     "ko": "제한 초과 시 스프링 힘",
                     "zh-CN": "超过限制时的弹簧力"
@@ -509,7 +509,7 @@
                   "type": "float",
                   "label": "Damping",
                   "labels": {
-                    "ja": "ダンピング",
+                    "ja": "減衰",
                     "zh-TW": "阻尼",
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
@@ -553,7 +553,7 @@
                   "type": "float",
                   "label": "Bounce",
                   "labels": {
-                    "ja": "反発力",
+                    "ja": "バウンス",
                     "zh-TW": "彈跳",
                     "ko": "반동",
                     "zh-CN": "反弹"
@@ -735,7 +735,7 @@
               "type": "float",
               "label": "Depth",
               "labels": {
-                "ja": "奥行き",
+                "ja": "深度",
                 "zh-TW": "深度",
                 "ko": "깊이",
                 "zh-CN": "深度"
@@ -757,7 +757,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジ深度",
+                "ja": "エッジの奥行き",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -768,7 +768,7 @@
               "options": null,
               "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の深度を減らし、形状をボーンに近づける。",
+                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
                 "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
                 "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
                 "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
@@ -801,7 +801,7 @@
               "type": "float",
               "label": "Depth Distribution",
               "labels": {
-                "ja": "深度分布",
+                "ja": "奥行き分布",
                 "zh-TW": "深度分佈",
                 "ko": "깊이 분포",
                 "zh-CN": "深度分布"
@@ -812,7 +812,7 @@
               "options": null,
               "description": "Controls how depth is distributed across layers.",
               "descriptions": {
-                "ja": "層全体にわたる深度の分布を制御する。",
+                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
                 "zh-TW": "控制深度在各層次的分配方式。",
                 "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
                 "zh-CN": "控制深度如何在层级间分布。"
@@ -828,13 +828,13 @@
                 "ko": "세분화",
                 "zh-CN": "细分"
               },
-              "default": 1,
+              "default": 0,
               "min": 0,
               "max": 3,
               "options": null,
               "description": "Number of subdivisions for each prism between layers.",
               "descriptions": {
-                "ja": "層間の各プリズムのサブディビジョン数。",
+                "ja": "レイヤー間の各プリズムのサブディビジョン数",
                 "zh-TW": "各層次之間每個稜柱的細分數量。",
                 "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
                 "zh-CN": "层级间每个棱柱的细分数量。"
@@ -850,7 +850,7 @@
                 "ko": "볼륨 제약",
                 "zh-CN": "体积约束"
               },
-              "default": 1,
+              "default": 0.75,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -872,7 +872,7 @@
                 "ko": "엣지 제약",
                 "zh-CN": "边缘约束"
               },
-              "default": 1,
+              "default": 0.95,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -916,7 +916,7 @@
                 "ko": "제약 감쇠",
                 "zh-CN": "约束阻尼"
               },
-              "default": 2,
+              "default": 0.2,
               "min": 0,
               "max": 2,
               "options": null,
@@ -933,7 +933,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -988,7 +988,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -1043,7 +1043,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -1065,7 +1065,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -1076,7 +1076,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -1131,7 +1131,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -1197,7 +1197,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -1221,7 +1221,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -1287,7 +1287,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -1309,7 +1309,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -1599,7 +1599,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -1610,7 +1610,7 @@
           "options": null,
           "description": "Show collider shapes for softbody physics bodies",
           "descriptions": {
-            "ja": "ソフトボディ物理ボディのコライダー形状を表示",
+            "ja": "ソフトボディ物理のボディのコライダー形状を表示",
             "zh-TW": "顯示軟體物理身體的碰撞體形狀",
             "ko": "소프트바디 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示软体物理骨体的碰撞器形状"
@@ -1632,7 +1632,7 @@
           "options": null,
           "description": "Show joint limits for softbody physics joints",
           "descriptions": {
-            "ja": "ソフトボディ物理ジョイントの関節制限を表示",
+            "ja": "ソフトボディ物理のジョイントの制限を表示",
             "zh-TW": "顯示軟體物理關節的關節限制",
             "ko": "소프트바디 물리 관절의 관절 한계를 표시합니다.",
             "zh-CN": "显示软体物理关节的关节限制"
@@ -1700,7 +1700,7 @@
           "options": null,
           "description": "Select bones",
           "descriptions": {
-            "ja": "骨格を選択",
+            "ja": "ボーンを選択",
             "zh-TW": "選取骨骼",
             "ko": "뼈 선택",
             "zh-CN": "选择骨骼"
@@ -1711,7 +1711,7 @@
           "type": "group",
           "label": "Use Suspension",
           "labels": {
-            "ja": "サスペンションを使用",
+            "ja": "サスペンションの使用",
             "zh-TW": "使用懸掛",
             "ko": "서스펜션 사용",
             "zh-CN": "使用悬挂"
@@ -1935,7 +1935,7 @@
               "type": "float",
               "label": "Damping",
               "labels": {
-                "ja": "ダンピング",
+                "ja": "減衰",
                 "zh-TW": "阻尼",
                 "ko": "감쇠",
                 "zh-CN": "阻尼"
@@ -2023,7 +2023,7 @@
               "type": "float",
               "label": "Rest Angle",
               "labels": {
-                "ja": "休息角",
+                "ja": "静止角",
                 "zh-TW": "靜止角度",
                 "ko": "휴식 각도",
                 "zh-CN": "静止角度"
@@ -2111,7 +2111,7 @@
                   "type": "float",
                   "label": "Left / Right Limit",
                   "labels": {
-                    "ja": "左右の制限",
+                    "ja": "左右制限",
                     "zh-TW": "左/右限制",
                     "ko": "좌/우 제한",
                     "zh-CN": "左/右限制"
@@ -2144,7 +2144,7 @@
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
-                    "ja": "制限を超えたときのばね力",
+                    "ja": "制限超過時のばね力",
                     "zh-TW": "超出限制時的彈簧力",
                     "ko": "제한 초과 시 스프링 힘",
                     "zh-CN": "超过限制时的弹簧力"
@@ -2155,7 +2155,7 @@
                   "type": "float",
                   "label": "Damping",
                   "labels": {
-                    "ja": "ダンピング",
+                    "ja": "減衰",
                     "zh-TW": "阻尼",
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
@@ -2199,7 +2199,7 @@
                   "type": "float",
                   "label": "Bounce",
                   "labels": {
-                    "ja": "反発力",
+                    "ja": "バウンス",
                     "zh-TW": "彈跳",
                     "ko": "반동",
                     "zh-CN": "反弹"
@@ -2403,7 +2403,7 @@
               "type": "float",
               "label": "Depth",
               "labels": {
-                "ja": "奥行き",
+                "ja": "深度",
                 "zh-TW": "深度",
                 "ko": "깊이",
                 "zh-CN": "深度"
@@ -2425,7 +2425,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジ深度",
+                "ja": "エッジの奥行き",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -2436,7 +2436,7 @@
               "options": null,
               "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の深度を減らし、形状をボーンに近づける。",
+                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
                 "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
                 "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
                 "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
@@ -2469,7 +2469,7 @@
               "type": "float",
               "label": "Depth Distribution",
               "labels": {
-                "ja": "深度分布",
+                "ja": "奥行き分布",
                 "zh-TW": "深度分佈",
                 "ko": "깊이 분포",
                 "zh-CN": "深度分布"
@@ -2480,7 +2480,7 @@
               "options": null,
               "description": "Controls how depth is distributed across layers.",
               "descriptions": {
-                "ja": "層全体にわたる深度の分布を制御する。",
+                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
                 "zh-TW": "控制深度在各層次的分配方式。",
                 "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
                 "zh-CN": "控制深度如何在层级间分布。"
@@ -2496,13 +2496,13 @@
                 "ko": "세분화",
                 "zh-CN": "细分"
               },
-              "default": 1,
+              "default": 0,
               "min": 0,
               "max": 3,
               "options": null,
               "description": "Number of subdivisions for each prism between layers.",
               "descriptions": {
-                "ja": "層間の各プリズムのサブディビジョン数。",
+                "ja": "レイヤー間の各プリズムのサブディビジョン数",
                 "zh-TW": "各層次之間每個稜柱的細分數量。",
                 "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
                 "zh-CN": "层级间每个棱柱的细分数量。"
@@ -2518,7 +2518,7 @@
                 "ko": "볼륨 제약",
                 "zh-CN": "体积约束"
               },
-              "default": 1,
+              "default": 0.75,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -2540,7 +2540,7 @@
                 "ko": "엣지 제약",
                 "zh-CN": "边缘约束"
               },
-              "default": 1,
+              "default": 0.95,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -2584,7 +2584,7 @@
                 "ko": "제약 감쇠",
                 "zh-CN": "约束阻尼"
               },
-              "default": 2,
+              "default": 0.2,
               "min": 0,
               "max": 2,
               "options": null,
@@ -2601,7 +2601,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -2656,7 +2656,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -2711,7 +2711,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -2733,7 +2733,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -2744,7 +2744,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -2799,7 +2799,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -2865,7 +2865,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -2889,7 +2889,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -2955,7 +2955,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -2977,7 +2977,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -3267,7 +3267,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -3278,7 +3278,7 @@
           "options": null,
           "description": "Show collider shapes for softbody physics bodies",
           "descriptions": {
-            "ja": "ソフトボディ物理ボディのコライダー形状を表示",
+            "ja": "ソフトボディ物理のボディのコライダー形状を表示",
             "zh-TW": "顯示軟體物理身體的碰撞體形狀",
             "ko": "소프트바디 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示软体物理骨体的碰撞器形状"
@@ -3300,7 +3300,7 @@
           "options": null,
           "description": "Show joint limits for softbody physics joints",
           "descriptions": {
-            "ja": "ソフトボディ物理ジョイントの関節制限を表示",
+            "ja": "ソフトボディ物理のジョイントの制限を表示",
             "zh-TW": "顯示軟體物理關節的關節限制",
             "ko": "소프트바디 물리 관절의 관절 한계를 표시합니다.",
             "zh-CN": "显示软体物理关节的关节限制"
@@ -3346,7 +3346,7 @@
           "options": null,
           "description": "Select bones",
           "descriptions": {
-            "ja": "骨格を選択",
+            "ja": "ボーンを選択",
             "zh-TW": "選取骨骼",
             "ko": "뼈 선택",
             "zh-CN": "选择骨骼"
@@ -3357,7 +3357,7 @@
           "type": "group",
           "label": "Use Suspension",
           "labels": {
-            "ja": "サスペンションを使用",
+            "ja": "サスペンションの使用",
             "zh-TW": "使用懸掛",
             "ko": "서스펜션 사용",
             "zh-CN": "使用悬挂"
@@ -3581,7 +3581,7 @@
               "type": "float",
               "label": "Damping",
               "labels": {
-                "ja": "ダンピング",
+                "ja": "減衰",
                 "zh-TW": "阻尼",
                 "ko": "감쇠",
                 "zh-CN": "阻尼"
@@ -3669,7 +3669,7 @@
               "type": "float",
               "label": "Rest Angle",
               "labels": {
-                "ja": "休息角",
+                "ja": "静止角",
                 "zh-TW": "靜止角度",
                 "ko": "휴식 각도",
                 "zh-CN": "静止角度"
@@ -3757,7 +3757,7 @@
                   "type": "float",
                   "label": "Left / Right Limit",
                   "labels": {
-                    "ja": "左右の制限",
+                    "ja": "左右制限",
                     "zh-TW": "左/右限制",
                     "ko": "좌/우 제한",
                     "zh-CN": "左/右限制"
@@ -3790,7 +3790,7 @@
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
-                    "ja": "制限を超えたときのばね力",
+                    "ja": "制限超過時のばね力",
                     "zh-TW": "超出限制時的彈簧力",
                     "ko": "제한 초과 시 스프링 힘",
                     "zh-CN": "超过限制时的弹簧力"
@@ -3801,7 +3801,7 @@
                   "type": "float",
                   "label": "Damping",
                   "labels": {
-                    "ja": "ダンピング",
+                    "ja": "減衰",
                     "zh-TW": "阻尼",
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
@@ -3845,7 +3845,7 @@
                   "type": "float",
                   "label": "Bounce",
                   "labels": {
-                    "ja": "反発力",
+                    "ja": "バウンス",
                     "zh-TW": "彈跳",
                     "ko": "반동",
                     "zh-CN": "反弹"
@@ -4049,7 +4049,7 @@
               "type": "float",
               "label": "Depth",
               "labels": {
-                "ja": "奥行き",
+                "ja": "深度",
                 "zh-TW": "深度",
                 "ko": "깊이",
                 "zh-CN": "深度"
@@ -4071,7 +4071,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジ深度",
+                "ja": "エッジの奥行き",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -4082,7 +4082,7 @@
               "options": null,
               "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の深度を減らし、形状をボーンに近づける。",
+                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
                 "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
                 "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
                 "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
@@ -4115,7 +4115,7 @@
               "type": "float",
               "label": "Depth Distribution",
               "labels": {
-                "ja": "深度分布",
+                "ja": "奥行き分布",
                 "zh-TW": "深度分佈",
                 "ko": "깊이 분포",
                 "zh-CN": "深度分布"
@@ -4126,7 +4126,7 @@
               "options": null,
               "description": "Controls how depth is distributed across layers.",
               "descriptions": {
-                "ja": "層全体にわたる深度の分布を制御する。",
+                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
                 "zh-TW": "控制深度在各層次的分配方式。",
                 "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
                 "zh-CN": "控制深度如何在层级间分布。"
@@ -4142,13 +4142,13 @@
                 "ko": "세분화",
                 "zh-CN": "细分"
               },
-              "default": 1,
+              "default": 0,
               "min": 0,
               "max": 3,
               "options": null,
               "description": "Number of subdivisions for each prism between layers.",
               "descriptions": {
-                "ja": "層間の各プリズムのサブディビジョン数。",
+                "ja": "レイヤー間の各プリズムのサブディビジョン数",
                 "zh-TW": "各層次之間每個稜柱的細分數量。",
                 "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
                 "zh-CN": "层级间每个棱柱的细分数量。"
@@ -4164,7 +4164,7 @@
                 "ko": "볼륨 제약",
                 "zh-CN": "体积约束"
               },
-              "default": 1,
+              "default": 0.75,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -4186,7 +4186,7 @@
                 "ko": "엣지 제약",
                 "zh-CN": "边缘约束"
               },
-              "default": 1,
+              "default": 0.95,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -4230,7 +4230,7 @@
                 "ko": "제약 감쇠",
                 "zh-CN": "约束阻尼"
               },
-              "default": 2,
+              "default": 0.2,
               "min": 0,
               "max": 2,
               "options": null,
@@ -4247,7 +4247,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -4302,7 +4302,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -4357,7 +4357,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -4379,7 +4379,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -4390,7 +4390,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -4445,7 +4445,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -4511,7 +4511,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -4535,7 +4535,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -4601,7 +4601,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -4623,7 +4623,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -4913,7 +4913,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -4924,7 +4924,7 @@
           "options": null,
           "description": "Show collider shapes for softbody physics bodies",
           "descriptions": {
-            "ja": "ソフトボディ物理ボディのコライダー形状を表示",
+            "ja": "ソフトボディ物理のボディのコライダー形状を表示",
             "zh-TW": "顯示軟體物理身體的碰撞體形狀",
             "ko": "소프트바디 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示软体物理骨体的碰撞器形状"
@@ -4946,7 +4946,7 @@
           "options": null,
           "description": "Show joint limits for softbody physics joints",
           "descriptions": {
-            "ja": "ソフトボディ物理ジョイントの関節制限を表示",
+            "ja": "ソフトボディ物理のジョイントの制限を表示",
             "zh-TW": "顯示軟體物理關節的關節限制",
             "ko": "소프트바디 물리 관절의 관절 한계를 표시합니다.",
             "zh-CN": "显示软体物理关节的关节限制"
@@ -4992,7 +4992,7 @@
           "options": null,
           "description": "Select bones",
           "descriptions": {
-            "ja": "骨格を選択",
+            "ja": "ボーンを選択",
             "zh-TW": "選取骨骼",
             "ko": "뼈 선택",
             "zh-CN": "选择骨骼"
@@ -5003,7 +5003,7 @@
           "type": "group",
           "label": "Use Suspension",
           "labels": {
-            "ja": "サスペンションを使用",
+            "ja": "サスペンションの使用",
             "zh-TW": "使用懸掛",
             "ko": "서스펜션 사용",
             "zh-CN": "使用悬挂"
@@ -5227,7 +5227,7 @@
               "type": "float",
               "label": "Damping",
               "labels": {
-                "ja": "ダンピング",
+                "ja": "減衰",
                 "zh-TW": "阻尼",
                 "ko": "감쇠",
                 "zh-CN": "阻尼"
@@ -5315,7 +5315,7 @@
               "type": "float",
               "label": "Rest Angle",
               "labels": {
-                "ja": "休息角",
+                "ja": "静止角",
                 "zh-TW": "靜止角度",
                 "ko": "휴식 각도",
                 "zh-CN": "静止角度"
@@ -5403,7 +5403,7 @@
                   "type": "float",
                   "label": "Left / Right Limit",
                   "labels": {
-                    "ja": "左右の制限",
+                    "ja": "左右制限",
                     "zh-TW": "左/右限制",
                     "ko": "좌/우 제한",
                     "zh-CN": "左/右限制"
@@ -5436,7 +5436,7 @@
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
-                    "ja": "制限を超えたときのばね力",
+                    "ja": "制限超過時のばね力",
                     "zh-TW": "超出限制時的彈簧力",
                     "ko": "제한 초과 시 스프링 힘",
                     "zh-CN": "超过限制时的弹簧力"
@@ -5447,7 +5447,7 @@
                   "type": "float",
                   "label": "Damping",
                   "labels": {
-                    "ja": "ダンピング",
+                    "ja": "減衰",
                     "zh-TW": "阻尼",
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
@@ -5491,7 +5491,7 @@
                   "type": "float",
                   "label": "Bounce",
                   "labels": {
-                    "ja": "反発力",
+                    "ja": "バウンス",
                     "zh-TW": "彈跳",
                     "ko": "반동",
                     "zh-CN": "反弹"
@@ -5695,7 +5695,7 @@
               "type": "float",
               "label": "Depth",
               "labels": {
-                "ja": "奥行き",
+                "ja": "深度",
                 "zh-TW": "深度",
                 "ko": "깊이",
                 "zh-CN": "深度"
@@ -5717,7 +5717,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジ深度",
+                "ja": "エッジの奥行き",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -5728,7 +5728,7 @@
               "options": null,
               "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の深度を減らし、形状をボーンに近づける。",
+                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
                 "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
                 "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
                 "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
@@ -5761,7 +5761,7 @@
               "type": "float",
               "label": "Depth Distribution",
               "labels": {
-                "ja": "深度分布",
+                "ja": "奥行き分布",
                 "zh-TW": "深度分佈",
                 "ko": "깊이 분포",
                 "zh-CN": "深度分布"
@@ -5772,7 +5772,7 @@
               "options": null,
               "description": "Controls how depth is distributed across layers.",
               "descriptions": {
-                "ja": "層全体にわたる深度の分布を制御する。",
+                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
                 "zh-TW": "控制深度在各層次的分配方式。",
                 "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
                 "zh-CN": "控制深度如何在层级间分布。"
@@ -5788,13 +5788,13 @@
                 "ko": "세분화",
                 "zh-CN": "细分"
               },
-              "default": 1,
+              "default": 0,
               "min": 0,
               "max": 3,
               "options": null,
               "description": "Number of subdivisions for each prism between layers.",
               "descriptions": {
-                "ja": "層間の各プリズムのサブディビジョン数。",
+                "ja": "レイヤー間の各プリズムのサブディビジョン数",
                 "zh-TW": "各層次之間每個稜柱的細分數量。",
                 "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
                 "zh-CN": "层级间每个棱柱的细分数量。"
@@ -5810,7 +5810,7 @@
                 "ko": "볼륨 제약",
                 "zh-CN": "体积约束"
               },
-              "default": 1,
+              "default": 0.75,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -5832,7 +5832,7 @@
                 "ko": "엣지 제약",
                 "zh-CN": "边缘约束"
               },
-              "default": 1,
+              "default": 0.95,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -5876,7 +5876,7 @@
                 "ko": "제약 감쇠",
                 "zh-CN": "约束阻尼"
               },
-              "default": 2,
+              "default": 0.2,
               "min": 0,
               "max": 2,
               "options": null,
@@ -5893,7 +5893,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -5948,7 +5948,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -6003,7 +6003,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -6025,7 +6025,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -6036,7 +6036,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -6091,7 +6091,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -6157,7 +6157,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -6181,7 +6181,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -6247,7 +6247,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -6269,7 +6269,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -6559,7 +6559,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -6570,7 +6570,7 @@
           "options": null,
           "description": "Show collider shapes for softbody physics bodies",
           "descriptions": {
-            "ja": "ソフトボディ物理ボディのコライダー形状を表示",
+            "ja": "ソフトボディ物理のボディのコライダー形状を表示",
             "zh-TW": "顯示軟體物理身體的碰撞體形狀",
             "ko": "소프트바디 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示软体物理骨体的碰撞器形状"
@@ -6592,7 +6592,7 @@
           "options": null,
           "description": "Show joint limits for softbody physics joints",
           "descriptions": {
-            "ja": "ソフトボディ物理ジョイントの関節制限を表示",
+            "ja": "ソフトボディ物理のジョイントの制限を表示",
             "zh-TW": "顯示軟體物理關節的關節限制",
             "ko": "소프트바디 물리 관절의 관절 한계를 표시합니다.",
             "zh-CN": "显示软体物理关节的关节限制"
@@ -6638,7 +6638,7 @@
           "options": null,
           "description": "Select bones",
           "descriptions": {
-            "ja": "骨格を選択",
+            "ja": "ボーンを選択",
             "zh-TW": "選取骨骼",
             "ko": "뼈 선택",
             "zh-CN": "选择骨骼"
@@ -6649,7 +6649,7 @@
           "type": "group",
           "label": "Use Suspension",
           "labels": {
-            "ja": "サスペンションを使用",
+            "ja": "サスペンションの使用",
             "zh-TW": "使用懸掛",
             "ko": "서스펜션 사용",
             "zh-CN": "使用悬挂"
@@ -6873,7 +6873,7 @@
               "type": "float",
               "label": "Damping",
               "labels": {
-                "ja": "ダンピング",
+                "ja": "減衰",
                 "zh-TW": "阻尼",
                 "ko": "감쇠",
                 "zh-CN": "阻尼"
@@ -6961,7 +6961,7 @@
               "type": "float",
               "label": "Rest Angle",
               "labels": {
-                "ja": "休息角",
+                "ja": "静止角",
                 "zh-TW": "靜止角度",
                 "ko": "휴식 각도",
                 "zh-CN": "静止角度"
@@ -7049,7 +7049,7 @@
                   "type": "float",
                   "label": "Left / Right Limit",
                   "labels": {
-                    "ja": "左右の制限",
+                    "ja": "左右制限",
                     "zh-TW": "左/右限制",
                     "ko": "좌/우 제한",
                     "zh-CN": "左/右限制"
@@ -7082,7 +7082,7 @@
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
-                    "ja": "制限を超えたときのばね力",
+                    "ja": "制限超過時のばね力",
                     "zh-TW": "超出限制時的彈簧力",
                     "ko": "제한 초과 시 스프링 힘",
                     "zh-CN": "超过限制时的弹簧力"
@@ -7093,7 +7093,7 @@
                   "type": "float",
                   "label": "Damping",
                   "labels": {
-                    "ja": "ダンピング",
+                    "ja": "減衰",
                     "zh-TW": "阻尼",
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
@@ -7137,7 +7137,7 @@
                   "type": "float",
                   "label": "Bounce",
                   "labels": {
-                    "ja": "反発力",
+                    "ja": "バウンス",
                     "zh-TW": "彈跳",
                     "ko": "반동",
                     "zh-CN": "反弹"
@@ -7341,7 +7341,7 @@
               "type": "float",
               "label": "Depth",
               "labels": {
-                "ja": "奥行き",
+                "ja": "深度",
                 "zh-TW": "深度",
                 "ko": "깊이",
                 "zh-CN": "深度"
@@ -7363,7 +7363,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジ深度",
+                "ja": "エッジの奥行き",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -7374,7 +7374,7 @@
               "options": null,
               "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の深度を減らし、形状をボーンに近づける。",
+                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
                 "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
                 "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
                 "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
@@ -7407,7 +7407,7 @@
               "type": "float",
               "label": "Depth Distribution",
               "labels": {
-                "ja": "深度分布",
+                "ja": "奥行き分布",
                 "zh-TW": "深度分佈",
                 "ko": "깊이 분포",
                 "zh-CN": "深度分布"
@@ -7418,7 +7418,7 @@
               "options": null,
               "description": "Controls how depth is distributed across layers.",
               "descriptions": {
-                "ja": "層全体にわたる深度の分布を制御する。",
+                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
                 "zh-TW": "控制深度在各層次的分配方式。",
                 "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
                 "zh-CN": "控制深度如何在层级间分布。"
@@ -7434,13 +7434,13 @@
                 "ko": "세분화",
                 "zh-CN": "细分"
               },
-              "default": 1,
+              "default": 0,
               "min": 0,
               "max": 3,
               "options": null,
               "description": "Number of subdivisions for each prism between layers.",
               "descriptions": {
-                "ja": "層間の各プリズムのサブディビジョン数。",
+                "ja": "レイヤー間の各プリズムのサブディビジョン数",
                 "zh-TW": "各層次之間每個稜柱的細分數量。",
                 "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
                 "zh-CN": "层级间每个棱柱的细分数量。"
@@ -7456,7 +7456,7 @@
                 "ko": "볼륨 제약",
                 "zh-CN": "体积约束"
               },
-              "default": 1,
+              "default": 0.75,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -7478,7 +7478,7 @@
                 "ko": "엣지 제약",
                 "zh-CN": "边缘约束"
               },
-              "default": 1,
+              "default": 0.95,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -7522,7 +7522,7 @@
                 "ko": "제약 감쇠",
                 "zh-CN": "约束阻尼"
               },
-              "default": 2,
+              "default": 0.2,
               "min": 0,
               "max": 2,
               "options": null,
@@ -7539,7 +7539,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -7594,7 +7594,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -7649,7 +7649,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -7671,7 +7671,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -7682,7 +7682,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -7737,7 +7737,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -7803,7 +7803,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -7827,7 +7827,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -7893,7 +7893,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -7915,7 +7915,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -8205,7 +8205,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -8216,7 +8216,7 @@
           "options": null,
           "description": "Show collider shapes for softbody physics bodies",
           "descriptions": {
-            "ja": "ソフトボディ物理ボディのコライダー形状を表示",
+            "ja": "ソフトボディ物理のボディのコライダー形状を表示",
             "zh-TW": "顯示軟體物理身體的碰撞體形狀",
             "ko": "소프트바디 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示软体物理骨体的碰撞器形状"
@@ -8238,7 +8238,7 @@
           "options": null,
           "description": "Show joint limits for softbody physics joints",
           "descriptions": {
-            "ja": "ソフトボディ物理ジョイントの関節制限を表示",
+            "ja": "ソフトボディ物理のジョイントの制限を表示",
             "zh-TW": "顯示軟體物理關節的關節限制",
             "ko": "소프트바디 물리 관절의 관절 한계를 표시합니다.",
             "zh-CN": "显示软体物理关节的关节限制"
@@ -8284,7 +8284,7 @@
           "options": null,
           "description": "Select bones",
           "descriptions": {
-            "ja": "骨格を選択",
+            "ja": "ボーンを選択",
             "zh-TW": "選取骨骼",
             "ko": "뼈 선택",
             "zh-CN": "选择骨骼"
@@ -8295,7 +8295,7 @@
           "type": "group",
           "label": "Use Suspension",
           "labels": {
-            "ja": "サスペンションを使用",
+            "ja": "サスペンションの使用",
             "zh-TW": "使用懸掛",
             "ko": "서스펜션 사용",
             "zh-CN": "使用悬挂"
@@ -8519,7 +8519,7 @@
               "type": "float",
               "label": "Damping",
               "labels": {
-                "ja": "ダンピング",
+                "ja": "減衰",
                 "zh-TW": "阻尼",
                 "ko": "감쇠",
                 "zh-CN": "阻尼"
@@ -8607,7 +8607,7 @@
               "type": "float",
               "label": "Rest Angle",
               "labels": {
-                "ja": "休息角",
+                "ja": "静止角",
                 "zh-TW": "靜止角度",
                 "ko": "휴식 각도",
                 "zh-CN": "静止角度"
@@ -8695,7 +8695,7 @@
                   "type": "float",
                   "label": "Left / Right Limit",
                   "labels": {
-                    "ja": "左右の制限",
+                    "ja": "左右制限",
                     "zh-TW": "左/右限制",
                     "ko": "좌/우 제한",
                     "zh-CN": "左/右限制"
@@ -8728,7 +8728,7 @@
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
-                    "ja": "制限を超えたときのばね力",
+                    "ja": "制限超過時のばね力",
                     "zh-TW": "超出限制時的彈簧力",
                     "ko": "제한 초과 시 스프링 힘",
                     "zh-CN": "超过限制时的弹簧力"
@@ -8739,7 +8739,7 @@
                   "type": "float",
                   "label": "Damping",
                   "labels": {
-                    "ja": "ダンピング",
+                    "ja": "減衰",
                     "zh-TW": "阻尼",
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
@@ -8783,7 +8783,7 @@
                   "type": "float",
                   "label": "Bounce",
                   "labels": {
-                    "ja": "反発力",
+                    "ja": "バウンス",
                     "zh-TW": "彈跳",
                     "ko": "반동",
                     "zh-CN": "反弹"
@@ -8987,7 +8987,7 @@
               "type": "float",
               "label": "Depth",
               "labels": {
-                "ja": "奥行き",
+                "ja": "深度",
                 "zh-TW": "深度",
                 "ko": "깊이",
                 "zh-CN": "深度"
@@ -9009,7 +9009,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジ深度",
+                "ja": "エッジの奥行き",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -9020,7 +9020,7 @@
               "options": null,
               "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の深度を減らし、形状をボーンに近づける。",
+                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
                 "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
                 "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
                 "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
@@ -9053,7 +9053,7 @@
               "type": "float",
               "label": "Depth Distribution",
               "labels": {
-                "ja": "深度分布",
+                "ja": "奥行き分布",
                 "zh-TW": "深度分佈",
                 "ko": "깊이 분포",
                 "zh-CN": "深度分布"
@@ -9064,7 +9064,7 @@
               "options": null,
               "description": "Controls how depth is distributed across layers.",
               "descriptions": {
-                "ja": "層全体にわたる深度の分布を制御する。",
+                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
                 "zh-TW": "控制深度在各層次的分配方式。",
                 "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
                 "zh-CN": "控制深度如何在层级间分布。"
@@ -9080,13 +9080,13 @@
                 "ko": "세분화",
                 "zh-CN": "细分"
               },
-              "default": 1,
+              "default": 0,
               "min": 0,
               "max": 3,
               "options": null,
               "description": "Number of subdivisions for each prism between layers.",
               "descriptions": {
-                "ja": "層間の各プリズムのサブディビジョン数。",
+                "ja": "レイヤー間の各プリズムのサブディビジョン数",
                 "zh-TW": "各層次之間每個稜柱的細分數量。",
                 "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
                 "zh-CN": "层级间每个棱柱的细分数量。"
@@ -9102,7 +9102,7 @@
                 "ko": "볼륨 제약",
                 "zh-CN": "体积约束"
               },
-              "default": 1,
+              "default": 0.75,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -9124,7 +9124,7 @@
                 "ko": "엣지 제약",
                 "zh-CN": "边缘约束"
               },
-              "default": 1,
+              "default": 0.95,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -9168,7 +9168,7 @@
                 "ko": "제약 감쇠",
                 "zh-CN": "约束阻尼"
               },
-              "default": 2,
+              "default": 0.2,
               "min": 0,
               "max": 2,
               "options": null,
@@ -9185,7 +9185,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -9240,7 +9240,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -9295,7 +9295,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -9317,7 +9317,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -9328,7 +9328,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -9383,7 +9383,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -9449,7 +9449,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -9473,7 +9473,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -9539,7 +9539,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -9561,7 +9561,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -9851,7 +9851,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -9862,7 +9862,7 @@
           "options": null,
           "description": "Show collider shapes for softbody physics bodies",
           "descriptions": {
-            "ja": "ソフトボディ物理ボディのコライダー形状を表示",
+            "ja": "ソフトボディ物理のボディのコライダー形状を表示",
             "zh-TW": "顯示軟體物理身體的碰撞體形狀",
             "ko": "소프트바디 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示软体物理骨体的碰撞器形状"
@@ -9884,7 +9884,7 @@
           "options": null,
           "description": "Show joint limits for softbody physics joints",
           "descriptions": {
-            "ja": "ソフトボディ物理ジョイントの関節制限を表示",
+            "ja": "ソフトボディ物理のジョイントの制限を表示",
             "zh-TW": "顯示軟體物理關節的關節限制",
             "ko": "소프트바디 물리 관절의 관절 한계를 표시합니다.",
             "zh-CN": "显示软体物理关节的关节限制"
@@ -9930,7 +9930,7 @@
           "options": null,
           "description": "Select bones",
           "descriptions": {
-            "ja": "骨格を選択",
+            "ja": "ボーンを選択",
             "zh-TW": "選取骨骼",
             "ko": "뼈 선택",
             "zh-CN": "选择骨骼"
@@ -9941,7 +9941,7 @@
           "type": "group",
           "label": "Use Suspension",
           "labels": {
-            "ja": "サスペンションを使用",
+            "ja": "サスペンションの使用",
             "zh-TW": "使用懸掛",
             "ko": "서스펜션 사용",
             "zh-CN": "使用悬挂"
@@ -10165,7 +10165,7 @@
               "type": "float",
               "label": "Damping",
               "labels": {
-                "ja": "ダンピング",
+                "ja": "減衰",
                 "zh-TW": "阻尼",
                 "ko": "감쇠",
                 "zh-CN": "阻尼"
@@ -10253,7 +10253,7 @@
               "type": "float",
               "label": "Rest Angle",
               "labels": {
-                "ja": "休息角",
+                "ja": "静止角",
                 "zh-TW": "靜止角度",
                 "ko": "휴식 각도",
                 "zh-CN": "静止角度"
@@ -10341,7 +10341,7 @@
                   "type": "float",
                   "label": "Left / Right Limit",
                   "labels": {
-                    "ja": "左右の制限",
+                    "ja": "左右制限",
                     "zh-TW": "左/右限制",
                     "ko": "좌/우 제한",
                     "zh-CN": "左/右限制"
@@ -10374,7 +10374,7 @@
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
-                    "ja": "制限を超えたときのばね力",
+                    "ja": "制限超過時のばね力",
                     "zh-TW": "超出限制時的彈簧力",
                     "ko": "제한 초과 시 스프링 힘",
                     "zh-CN": "超过限制时的弹簧力"
@@ -10385,7 +10385,7 @@
                   "type": "float",
                   "label": "Damping",
                   "labels": {
-                    "ja": "ダンピング",
+                    "ja": "減衰",
                     "zh-TW": "阻尼",
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
@@ -10429,7 +10429,7 @@
                   "type": "float",
                   "label": "Bounce",
                   "labels": {
-                    "ja": "反発力",
+                    "ja": "バウンス",
                     "zh-TW": "彈跳",
                     "ko": "반동",
                     "zh-CN": "反弹"
@@ -10633,7 +10633,7 @@
               "type": "float",
               "label": "Depth",
               "labels": {
-                "ja": "奥行き",
+                "ja": "深度",
                 "zh-TW": "深度",
                 "ko": "깊이",
                 "zh-CN": "深度"
@@ -10655,7 +10655,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジ深度",
+                "ja": "エッジの奥行き",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -10666,7 +10666,7 @@
               "options": null,
               "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の深度を減らし、形状をボーンに近づける。",
+                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
                 "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
                 "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
                 "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
@@ -10699,7 +10699,7 @@
               "type": "float",
               "label": "Depth Distribution",
               "labels": {
-                "ja": "深度分布",
+                "ja": "奥行き分布",
                 "zh-TW": "深度分佈",
                 "ko": "깊이 분포",
                 "zh-CN": "深度分布"
@@ -10710,7 +10710,7 @@
               "options": null,
               "description": "Controls how depth is distributed across layers.",
               "descriptions": {
-                "ja": "層全体にわたる深度の分布を制御する。",
+                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
                 "zh-TW": "控制深度在各層次的分配方式。",
                 "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
                 "zh-CN": "控制深度如何在层级间分布。"
@@ -10726,13 +10726,13 @@
                 "ko": "세분화",
                 "zh-CN": "细分"
               },
-              "default": 1,
+              "default": 0,
               "min": 0,
               "max": 3,
               "options": null,
               "description": "Number of subdivisions for each prism between layers.",
               "descriptions": {
-                "ja": "層間の各プリズムのサブディビジョン数。",
+                "ja": "レイヤー間の各プリズムのサブディビジョン数",
                 "zh-TW": "各層次之間每個稜柱的細分數量。",
                 "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
                 "zh-CN": "层级间每个棱柱的细分数量。"
@@ -10748,7 +10748,7 @@
                 "ko": "볼륨 제약",
                 "zh-CN": "体积约束"
               },
-              "default": 1,
+              "default": 0.75,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -10770,7 +10770,7 @@
                 "ko": "엣지 제약",
                 "zh-CN": "边缘约束"
               },
-              "default": 1,
+              "default": 0.95,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -10814,7 +10814,7 @@
                 "ko": "제약 감쇠",
                 "zh-CN": "约束阻尼"
               },
-              "default": 2,
+              "default": 0.2,
               "min": 0,
               "max": 2,
               "options": null,
@@ -10831,7 +10831,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -10886,7 +10886,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -10941,7 +10941,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -10963,7 +10963,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -10974,7 +10974,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -11029,7 +11029,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -11095,7 +11095,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -11119,7 +11119,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -11185,7 +11185,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -11207,7 +11207,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -11497,7 +11497,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -11508,7 +11508,7 @@
           "options": null,
           "description": "Show collider shapes for softbody physics bodies",
           "descriptions": {
-            "ja": "ソフトボディ物理ボディのコライダー形状を表示",
+            "ja": "ソフトボディ物理のボディのコライダー形状を表示",
             "zh-TW": "顯示軟體物理身體的碰撞體形狀",
             "ko": "소프트바디 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示软体物理骨体的碰撞器形状"
@@ -11530,7 +11530,7 @@
           "options": null,
           "description": "Show joint limits for softbody physics joints",
           "descriptions": {
-            "ja": "ソフトボディ物理ジョイントの関節制限を表示",
+            "ja": "ソフトボディ物理のジョイントの制限を表示",
             "zh-TW": "顯示軟體物理關節的關節限制",
             "ko": "소프트바디 물리 관절의 관절 한계를 표시합니다.",
             "zh-CN": "显示软体物理关节的关节限制"
@@ -11576,7 +11576,7 @@
           "options": null,
           "description": "Select bones",
           "descriptions": {
-            "ja": "骨格を選択",
+            "ja": "ボーンを選択",
             "zh-TW": "選取骨骼",
             "ko": "뼈 선택",
             "zh-CN": "选择骨骼"
@@ -11587,7 +11587,7 @@
           "type": "group",
           "label": "Use Suspension",
           "labels": {
-            "ja": "サスペンションを使用",
+            "ja": "サスペンションの使用",
             "zh-TW": "使用懸掛",
             "ko": "서스펜션 사용",
             "zh-CN": "使用悬挂"
@@ -11811,7 +11811,7 @@
               "type": "float",
               "label": "Damping",
               "labels": {
-                "ja": "ダンピング",
+                "ja": "減衰",
                 "zh-TW": "阻尼",
                 "ko": "감쇠",
                 "zh-CN": "阻尼"
@@ -11899,7 +11899,7 @@
               "type": "float",
               "label": "Rest Angle",
               "labels": {
-                "ja": "休息角",
+                "ja": "静止角",
                 "zh-TW": "靜止角度",
                 "ko": "휴식 각도",
                 "zh-CN": "静止角度"
@@ -11987,7 +11987,7 @@
                   "type": "float",
                   "label": "Left / Right Limit",
                   "labels": {
-                    "ja": "左右の制限",
+                    "ja": "左右制限",
                     "zh-TW": "左/右限制",
                     "ko": "좌/우 제한",
                     "zh-CN": "左/右限制"
@@ -12020,7 +12020,7 @@
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
-                    "ja": "制限を超えたときのばね力",
+                    "ja": "制限超過時のばね力",
                     "zh-TW": "超出限制時的彈簧力",
                     "ko": "제한 초과 시 스프링 힘",
                     "zh-CN": "超过限制时的弹簧力"
@@ -12031,7 +12031,7 @@
                   "type": "float",
                   "label": "Damping",
                   "labels": {
-                    "ja": "ダンピング",
+                    "ja": "減衰",
                     "zh-TW": "阻尼",
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
@@ -12075,7 +12075,7 @@
                   "type": "float",
                   "label": "Bounce",
                   "labels": {
-                    "ja": "反発力",
+                    "ja": "バウンス",
                     "zh-TW": "彈跳",
                     "ko": "반동",
                     "zh-CN": "反弹"
@@ -12279,7 +12279,7 @@
               "type": "float",
               "label": "Depth",
               "labels": {
-                "ja": "奥行き",
+                "ja": "深度",
                 "zh-TW": "深度",
                 "ko": "깊이",
                 "zh-CN": "深度"
@@ -12301,7 +12301,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジ深度",
+                "ja": "エッジの奥行き",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -12312,7 +12312,7 @@
               "options": null,
               "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の深度を減らし、形状をボーンに近づける。",
+                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
                 "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
                 "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
                 "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
@@ -12345,7 +12345,7 @@
               "type": "float",
               "label": "Depth Distribution",
               "labels": {
-                "ja": "深度分布",
+                "ja": "奥行き分布",
                 "zh-TW": "深度分佈",
                 "ko": "깊이 분포",
                 "zh-CN": "深度分布"
@@ -12356,7 +12356,7 @@
               "options": null,
               "description": "Controls how depth is distributed across layers.",
               "descriptions": {
-                "ja": "層全体にわたる深度の分布を制御する。",
+                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
                 "zh-TW": "控制深度在各層次的分配方式。",
                 "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
                 "zh-CN": "控制深度如何在层级间分布。"
@@ -12372,13 +12372,13 @@
                 "ko": "세분화",
                 "zh-CN": "细分"
               },
-              "default": 1,
+              "default": 0,
               "min": 0,
               "max": 3,
               "options": null,
               "description": "Number of subdivisions for each prism between layers.",
               "descriptions": {
-                "ja": "層間の各プリズムのサブディビジョン数。",
+                "ja": "レイヤー間の各プリズムのサブディビジョン数",
                 "zh-TW": "各層次之間每個稜柱的細分數量。",
                 "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
                 "zh-CN": "层级间每个棱柱的细分数量。"
@@ -12394,7 +12394,7 @@
                 "ko": "볼륨 제약",
                 "zh-CN": "体积约束"
               },
-              "default": 1,
+              "default": 0.75,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -12416,7 +12416,7 @@
                 "ko": "엣지 제약",
                 "zh-CN": "边缘约束"
               },
-              "default": 1,
+              "default": 0.95,
               "min": 0.5,
               "max": 1,
               "options": null,
@@ -12460,7 +12460,7 @@
                 "ko": "제약 감쇠",
                 "zh-CN": "约束阻尼"
               },
-              "default": 2,
+              "default": 0.2,
               "min": 0,
               "max": 2,
               "options": null,
@@ -12477,7 +12477,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -12532,7 +12532,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -12587,7 +12587,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -12609,7 +12609,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -12620,7 +12620,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -12675,7 +12675,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -12741,7 +12741,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -12765,7 +12765,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -12831,7 +12831,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -12853,7 +12853,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -13143,7 +13143,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -13154,7 +13154,7 @@
           "options": null,
           "description": "Show collider shapes for softbody physics bodies",
           "descriptions": {
-            "ja": "ソフトボディ物理ボディのコライダー形状を表示",
+            "ja": "ソフトボディ物理のボディのコライダー形状を表示",
             "zh-TW": "顯示軟體物理身體的碰撞體形狀",
             "ko": "소프트바디 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示软体物理骨体的碰撞器形状"
@@ -13176,7 +13176,7 @@
           "options": null,
           "description": "Show joint limits for softbody physics joints",
           "descriptions": {
-            "ja": "ソフトボディ物理ジョイントの関節制限を表示",
+            "ja": "ソフトボディ物理のジョイントの制限を表示",
             "zh-TW": "顯示軟體物理關節的關節限制",
             "ko": "소프트바디 물리 관절의 관절 한계를 표시합니다.",
             "zh-CN": "显示软体物理关节的关节限制"

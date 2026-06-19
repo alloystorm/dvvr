@@ -3,7 +3,7 @@
   "docPath": "features/auto_cam",
   "label": "[Auto Cam]",
   "labels": {
-    "ja": "[オートカメラ]",
+    "ja": "[自動カメラ]",
     "zh-TW": "[自動鏡頭]",
     "ko": "[자동 카메라]",
     "zh-CN": "[自动相机]"
@@ -65,7 +65,7 @@
       "type": "float",
       "label": "Target Smoothing",
       "labels": {
-        "ja": "ターゲット平滑化",
+        "ja": "ターゲットスムージング",
         "zh-TW": "目標平滑度",
         "ko": "대상 스무딩",
         "zh-CN": "目标平滑处理"
@@ -98,7 +98,7 @@
       "options": null,
       "description": "Predict position of the target to reduce lag caused by smoothing",
       "descriptions": {
-        "ja": "平滑化による遅延を減らすためのターゲットの予測位置",
+        "ja": "スムージングによる遅延を減らすためにターゲットの位置を予測する",
         "zh-TW": "預測目標位置以減少平滑度造成的延遲",
         "ko": "스무딩으로 인한 지연을 줄이기 위해 대상의 위치를 예측합니다",
         "zh-CN": "预测目标位置以减少平滑处理引起的延迟"
@@ -164,7 +164,7 @@
       "options": null,
       "description": "Minimum distance of the camera from the target.",
       "descriptions": {
-        "ja": "ターゲットからカメラの最小距離。",
+        "ja": "カメラからターゲットまでの最小距離。",
         "zh-TW": "相機到目標的最小距離。",
         "ko": "목표물로부터 카메라의 최소 거리.",
         "zh-CN": "相机与目标之间的最小距离。"
@@ -186,7 +186,7 @@
       "options": null,
       "description": "Maximum distance of the camera from the target.",
       "descriptions": {
-        "ja": "ターゲットからカメラの最大距離。",
+        "ja": "カメラからターゲットまでの最大距離。",
         "zh-TW": "相機到目標的最大距離。",
         "ko": "목표물로부터 카메라의 최대 거리.",
         "zh-CN": "相机与目标之间的最大距离。"
@@ -197,7 +197,7 @@
       "type": "bool",
       "label": "Use Actor Orientation",
       "labels": {
-        "ja": "アクターの向きを使用",
+        "ja": "アクタの向きを使用",
         "zh-TW": "使用角色朝向",
         "ko": "배우 방향 사용",
         "zh-CN": "使用演员方向"
@@ -208,7 +208,7 @@
       "options": null,
       "description": "Enable or disable alignment of the camera to the actor's orientation.",
       "descriptions": {
-        "ja": "カメラのアライメントをアクターの向きに合わせるか無効にする。",
+        "ja": "カメラをアクタの向きに合わせる機能の有効化または無効化。",
         "zh-TW": "是否開啟或關閉相機與角色朝向的對齊。",
         "ko": "배우의 방향에 카메라 정렬을 활성화 또는 비활성화.",
         "zh-CN": "启用或禁用相机与演员方向对齐。"
@@ -230,7 +230,7 @@
       "options": null,
       "description": "Seed value for generating random camera motions.",
       "descriptions": {
-        "ja": "ランダムなカメラモーション生成のためのシード値。",
+        "ja": "ランダムなカメラモーションを生成するためのシード値。",
         "zh-TW": "生成隨機相機運動的種子值。",
         "ko": "무작위 카메라 모션 생성을 위한 시드 값.",
         "zh-CN": "生成随机相机运动的种子值。"
@@ -241,7 +241,7 @@
       "type": "float",
       "label": "Fade To Black",
       "labels": {
-        "ja": "ブラックアウト",
+        "ja": "黒へのフェード",
         "zh-TW": "淡出至黑色",
         "ko": "암전",
         "zh-CN": "淡出至黑屏"
@@ -252,7 +252,7 @@
       "options": null,
       "description": "Duration of the fade-to-black effect during transitions.",
       "descriptions": {
-        "ja": "トランジション中のブラックアウト効果の持続時間。",
+        "ja": "トランジション中の黒フェード効果の持続時間。",
         "zh-TW": "過渡過程中使用淡出至黑色效果的持續時間。",
         "ko": "전환 중 암전 효과 지속 시간.",
         "zh-CN": "过渡期间淡出至黑屏效果持续时间。"
@@ -263,7 +263,7 @@
       "type": "float",
       "label": "F2B Probability",
       "labels": {
-        "ja": "ブラックアウト確率",
+        "ja": "F2B確率",
         "zh-TW": "淡出至黑機率",
         "ko": "F2B 확률",
         "zh-CN": "黑屏概率"
@@ -274,7 +274,7 @@
       "options": null,
       "description": "Probability of triggering the fade-to-black effect.",
       "descriptions": {
-        "ja": "ブラックアウト効果が作動する確率。",
+        "ja": "黒フェード効果を誘発する確率。",
         "zh-TW": "觸發淡出至黑色效果的機率。",
         "ko": "암전 효과가 발생할 확률.",
         "zh-CN": "触发淡出至黑屏效果的概率。"
@@ -296,7 +296,7 @@
       "options": null,
       "description": "Sensitivity of the camera motion to audio levels.",
       "descriptions": {
-        "ja": "オーディオレベルに対するカメラモーションの感度。",
+        "ja": "音声レベルに対するカメラモーションの感度。",
         "zh-TW": "相機運動對音訊水準的敏感度。",
         "ko": "오디오 레벨에 따른 카메라 모션 민감도.",
         "zh-CN": "相机运动对音频水平的敏感度。"
@@ -307,7 +307,7 @@
       "type": "group",
       "label": "Target Selection",
       "labels": {
-        "ja": "ターゲットの選択",
+        "ja": "ターゲット選択",
         "zh-TW": "目標選擇",
         "ko": "목표 선택",
         "zh-CN": "目标选择"
@@ -340,7 +340,7 @@
           "options": null,
           "description": "Probability of targeting the actor's head.",
           "descriptions": {
-            "ja": "アクターの頭をターゲットにする確率。",
+            "ja": "アクタの頭をターゲットにする確率。",
             "zh-TW": "鎖定角色頭部的機率。",
             "ko": "배우의 머리를 목표로 할 확률.",
             "zh-CN": "针对演员头部的目标概率。"
@@ -362,7 +362,7 @@
           "options": null,
           "description": "Probability of targeting the actor's chest.",
           "descriptions": {
-            "ja": "アクターの胸をターゲットにする確率。",
+            "ja": "アクタの胸をターゲットにする確率。",
             "zh-TW": "鎖定角色胸部的機率。",
             "ko": "배우의 가슴을 목표로 할 확률.",
             "zh-CN": "针对演员胸部的目标概率。"
@@ -384,7 +384,7 @@
           "options": null,
           "description": "Probability of targeting the actor's center.",
           "descriptions": {
-            "ja": "アクターの中心をターゲットにする確率。",
+            "ja": "アクタの中心をターゲットにする確率。",
             "zh-TW": "鎖定角色中心的機率。",
             "ko": "배우의 중앙을 목표로 할 확률.",
             "zh-CN": "针对演员中心的目标概率。"
@@ -406,7 +406,7 @@
           "options": null,
           "description": "Probability of targeting the actor's legs.",
           "descriptions": {
-            "ja": "アクターの脚をターゲットにする確率。",
+            "ja": "アクタの脚をターゲットにする確率。",
             "zh-TW": "鎖定角色腿部的機率。",
             "ko": "배우의 다리를 목표로 할 확률.",
             "zh-CN": "针对演员腿部的目标概率。"
@@ -428,7 +428,7 @@
           "options": null,
           "description": "Probability of targeting the actor's feet.",
           "descriptions": {
-            "ja": "アクターの足元をターゲットにする確率。",
+            "ja": "アクタの足をターゲットにする確率。",
             "zh-TW": "鎖定角色腳部的機率。",
             "ko": "배우의 발을 목표로 할 확률.",
             "zh-CN": "针对演员脚部的目标概率。"
@@ -441,7 +441,7 @@
       "type": "group",
       "label": "Distance Selection",
       "labels": {
-        "ja": "距離の選択",
+        "ja": "距離選択",
         "zh-TW": "距離選擇",
         "ko": "거리 선택",
         "zh-CN": "距离选择"
@@ -474,7 +474,7 @@
           "options": null,
           "description": "Probability of a close-up camera distance.",
           "descriptions": {
-            "ja": "クローズアップ距離の確率。",
+            "ja": "クローズアップのカメラ距離の確率。",
             "zh-TW": "特寫鏡頭距離的機率。",
             "ko": "클로즈업 카메라 거리 확률.",
             "zh-CN": "特写相机距离的概率。"
@@ -496,7 +496,7 @@
           "options": null,
           "description": "Probability of zooming in.",
           "descriptions": {
-            "ja": "ズームインする確率。",
+            "ja": "ズームインの確率。",
             "zh-TW": "拉近鏡頭的機率。",
             "ko": "줌 인 확률.",
             "zh-CN": "放大概率。"
@@ -518,7 +518,7 @@
           "options": null,
           "description": "Probability of zooming out.",
           "descriptions": {
-            "ja": "ズームアウトする確率。",
+            "ja": "ズームアウトの確率。",
             "zh-TW": "拉遠鏡頭的機率。",
             "ko": "줌 아웃 확률.",
             "zh-CN": "缩小概率。"
@@ -540,7 +540,7 @@
           "options": null,
           "description": "Probability of a middle-range camera distance.",
           "descriptions": {
-            "ja": "中距離カメラの確率。",
+            "ja": "中間距離のカメラ距離の確率。",
             "zh-TW": "中景鏡頭距離的機率。",
             "ko": "중간 거리 카메라 거리 확률.",
             "zh-CN": "中距离相机距离的概率。"
@@ -562,7 +562,7 @@
           "options": null,
           "description": "Probability of a far camera distance.",
           "descriptions": {
-            "ja": "遠距離カメラの確率。",
+            "ja": "遠方距離のカメラ距離の確率。",
             "zh-TW": "遠景鏡頭距離的機率。",
             "ko": "원거리 카메라 거리 확률.",
             "zh-CN": "远距离相机距离的概率。"
@@ -575,7 +575,7 @@
       "type": "group",
       "label": "Path Selection",
       "labels": {
-        "ja": "パスの選択",
+        "ja": "パス選択",
         "zh-TW": "路徑選擇",
         "ko": "경로 선택",
         "zh-CN": "路径选择"
@@ -676,7 +676,7 @@
           "options": null,
           "description": "Probability of orienting the camera to the front center of the actor.",
           "descriptions": {
-            "ja": "カメラをアクターの正面中央に向ける確率。",
+            "ja": "カメラをアクタの正面中央に向ける確率。",
             "zh-TW": "將相機朝向角色正前方中央的機率。",
             "ko": "카메라를 배우의 전방 중앙으로 방향지을 확률.",
             "zh-CN": "将相机朝向演员正前中心的概率。"
@@ -698,7 +698,7 @@
           "options": null,
           "description": "Probability of orienting the camera to a 45-degree angle in front of the actor.",
           "descriptions": {
-            "ja": "カメラをアクターの正面の45度角度に向ける確率。",
+            "ja": "カメラをアクタの正面45度の角度に向ける確率。",
             "zh-TW": "將相機朝向角色前方 45 度角的機率。",
             "ko": "카메라를 배우 전방 45도 각도로 방향지을 확률.",
             "zh-CN": "将相机朝向演员前方45度角度的概率。"
@@ -709,7 +709,7 @@
           "type": "float",
           "label": "Side 90",
           "labels": {
-            "ja": "横90度",
+            "ja": "側面90度",
             "zh-TW": "側方 90 度",
             "ko": "측면 90도",
             "zh-CN": "侧90度"
@@ -720,7 +720,7 @@
           "options": null,
           "description": "Probability of orienting the camera to the actor's side at a 90-degree angle.",
           "descriptions": {
-            "ja": "カメラをアクターの側面（90度角度）に向ける確率。",
+            "ja": "カメラをアクタの側面90度の角度に向ける確率。",
             "zh-TW": "將相機朝向角色側方 90 度角的機率。",
             "ko": "카메라를 배우의 측면 90도 각도로 방향지을 확률.",
             "zh-CN": "将相机朝向演员侧面90度角度的概率。"
@@ -731,7 +731,7 @@
           "type": "float",
           "label": "Back 135",
           "labels": {
-            "ja": "後方135度",
+            "ja": "背面135度",
             "zh-TW": "後方 135 度",
             "ko": "후방 135도",
             "zh-CN": "后135度"
@@ -742,7 +742,7 @@
           "options": null,
           "description": "Probability of orienting the camera to a 135-degree angle behind the actor.",
           "descriptions": {
-            "ja": "カメラをアクターの後方135度角度に向ける確率。",
+            "ja": "カメラをアクタの背面135度の角度に向ける確率。",
             "zh-TW": "將相機朝向角色後方 135 度角的機率。",
             "ko": "카메라를 배우 후방 135도 각도로 방향지을 확률.",
             "zh-CN": "将相机朝向演员后方135度角度的概率。"
@@ -753,7 +753,7 @@
           "type": "float",
           "label": "Back 180",
           "labels": {
-            "ja": "後方180度",
+            "ja": "背面180度",
             "zh-TW": "後方 180 度",
             "ko": "후방 180도",
             "zh-CN": "后180度"
@@ -764,7 +764,7 @@
           "options": null,
           "description": "Probability of orienting the camera directly behind the actor.",
           "descriptions": {
-            "ja": "カメラをアクターの真後ろに向ける確率。",
+            "ja": "カメラをアクタの真後ろに向ける確率。",
             "zh-TW": "將相機直接朝向角色後方的機率。",
             "ko": "카메라를 배우 바로 뒤로 방향지을 확률.",
             "zh-CN": "将相机直接朝向演员后方的概率。"

@@ -3,7 +3,7 @@
   "docPath": "features/pmx_physics",
   "label": "Physics",
   "labels": {
-    "ja": "物理",
+    "ja": "物理演算",
     "zh-TW": "物理",
     "ko": "물리",
     "zh-CN": "物理"
@@ -32,7 +32,7 @@
       "options": ["Auto", "PhysX", "XPBD", "Off"],
       "description": "XPBD uses particle-based simulation, Manual Setup disables bodies and joints in PMX definition so you can set up your own using the XPS tools.",
       "descriptions": {
-        "ja": "XPBDはパーティクルベースのシミュレーションを使用します。マニュアルセットアップでは、PMX定義内のボディとジョイントが無効になるため、XPSツールを使用して独自のものを設定できます。",
+        "ja": "XPBDは粒子ベースのシミュレーションを使用します。手動設定では、XPSツールを使用して独自のボディとジョイントを設定できます。",
         "zh-TW": "XPBD 使用基於粒子的模擬，手動設定會停用 PMX 定義中的身體和關節，因此您可以使用 XPS 工具設置自己的配置。",
         "ko": "XPBD는 입자 기반 시뮬레이션을 사용하며, 수동 설정은 PMX 정의에서 바디와 관절을 비활성화하므로 XPS 도구를 사용하여 자체적으로 설정할 수 있습니다.",
         "zh-CN": "XPBD使用粒子模拟，手动设置会禁用PMX定义中的身体和关节，因此您可以使用XPS工具设置自己的。"
@@ -43,7 +43,7 @@
       "type": "bool",
       "label": "Visualize Bodies",
       "labels": {
-        "ja": "ボディの視覚化",
+        "ja": "ボディの可視化",
         "zh-TW": "可視化身體",
         "ko": "바디 시각화",
         "zh-CN": "可视化身体"
@@ -54,7 +54,7 @@
       "options": null,
       "description": "Show XPBD physics bodies and joints as wireframe shapes",
       "descriptions": {
-        "ja": "XPBDの物理ボディとジョイントをワイヤーフレーム形状として表示する",
+        "ja": "XPBD物理ボディとジョイントをワイヤーフレーム形状で表示",
         "zh-TW": "以線框形狀顯示 XPBD 物理身體和關節",
         "ko": "XPBD 물리 바디와 관절을 와이어프레임 형태로 표시",
         "zh-CN": "将XPBD物理身体和关节显示为线框形状"
@@ -76,7 +76,7 @@
       "options": null,
       "description": "Show joint limits and drive targets for PMX physics",
       "descriptions": {
-        "ja": "PMXの物理のためのジョイント制限とドライブターゲットを表示する",
+        "ja": "PMX物理のためのジョイント制限と駆動ターゲットを表示",
         "zh-TW": "顯示 PMX 物理的關節限制和驅動目標",
         "ko": "PMX 물리용 관절 제한 및 구동 목표 표시",
         "zh-CN": "显示PMX物理的关节限制和驱动目标"
@@ -120,7 +120,7 @@
           "options": null,
           "description": "Size of particle in millimeters",
           "descriptions": {
-            "ja": "パーティクルのサイズ（ミリメートル）",
+            "ja": "ミリメートル単位のパーティクルサイズ",
             "zh-TW": "粒子尺寸（毫米）",
             "ko": "입자 크기 (밀리미터)",
             "zh-CN": "粒子尺寸（毫米）"
@@ -175,7 +175,7 @@
           "type": "float",
           "label": "Drag (Air)",
           "labels": {
-            "ja": "空気抵抗",
+            "ja": "抵抗（空気）",
             "zh-TW": "阻力（空氣）",
             "ko": "항력 (공기)",
             "zh-CN": "阻力（空气）"
@@ -197,7 +197,7 @@
           "type": "float",
           "label": "Drag (Underwater)",
           "labels": {
-            "ja": "水中抵抗",
+            "ja": "抵抗（水中）",
             "zh-TW": "阻力（水下）",
             "ko": "항력 (수중)",
             "zh-CN": "阻力（水下）"
@@ -208,7 +208,7 @@
           "options": null,
           "description": "Underwater resistancy",
           "descriptions": {
-            "ja": "水中抵抗",
+            "ja": "水抵抗",
             "zh-TW": "水下阻力",
             "ko": "수중 저항",
             "zh-CN": "水下阻力"
@@ -263,7 +263,7 @@
               "type": "float",
               "label": "Wind Influence",
               "labels": {
-                "ja": "風の影響",
+                "ja": "風の影響度",
                 "zh-TW": "風影響力",
                 "ko": "바람 영향력",
                 "zh-CN": "风力影响"
@@ -329,7 +329,7 @@
               "type": "float",
               "label": "Turbulence Time Scale",
               "labels": {
-                "ja": "乱流時間スケール",
+                "ja": "乱流タイムスケール",
                 "zh-TW": "湍流時間尺度",
                 "ko": "난류 시간 스케일",
                 "zh-CN": "湍流时间尺度"
@@ -364,7 +364,7 @@
           "options": null,
           "description": "Friction for anchored layers",
           "descriptions": {
-            "ja": "アンカーされたレイヤーの摩擦",
+            "ja": "固定レイヤーの摩擦",
             "zh-TW": "固定層的摩擦力",
             "ko": "앵커된 레이어 마찰",
             "zh-CN": "固定层摩擦力"
@@ -375,7 +375,7 @@
           "type": "float",
           "label": "Angular Spring",
           "labels": {
-            "ja": "角度スプリング",
+            "ja": "角ばね",
             "zh-TW": "角向彈簧",
             "ko": "각도 스프링",
             "zh-CN": "角形弹簧"
@@ -386,7 +386,7 @@
           "options": null,
           "description": "Default angular spring stiffness for joints without rotation springs. Higher values pull joints back toward rest pose more strongly. 0 = disabled.",
           "descriptions": {
-            "ja": "回転スプリングがないジョイントのデフォルトの角度スプリングの剛性。値が大きいほど、ジョイントは安静ポーズに戻ろうと強く引きます。0=無効。",
+            "ja": "回転バネのないジョイントのデフォルトの角ばねの剛性。高い値ほどジョイントをレストポーズに強く戻します。0=無効。",
             "zh-TW": "缺乏旋轉彈簧的關節的預設角向彈簧剛度。數值越高，關節恢復到靜止姿勢的力量越大。0 = 停用。",
             "ko": "회전 스프링이 없는 관절의 기본 각도 스프링 강성. 값이 높을수록 관절을 휴식 자세로 더 강하게 끌어당깁니다. 0 = 비활성화.",
             "zh-CN": "没有旋转弹簧的关节的默认角形弹簧刚度。较高值会更强烈地将关节拉回静止姿势。0 = 禁用。"
@@ -397,7 +397,7 @@
           "type": "group",
           "label": "Collide With",
           "labels": {
-            "ja": "と衝突",
+            "ja": "衝突判定",
             "zh-TW": "與碰撞",
             "ko": "충돌 대상",
             "zh-CN": "碰撞对象"
@@ -463,7 +463,7 @@
               "type": "bool",
               "label": "Boobs",
               "labels": {
-                "ja": "ブブズ",
+                "ja": "バスト",
                 "zh-TW": "胸部",
                 "ko": "보디스",
                 "zh-CN": "胸部"
@@ -485,7 +485,7 @@
               "type": "bool",
               "label": "Butts",
               "labels": {
-                "ja": "臀部",
+                "ja": "お尻",
                 "zh-TW": "臀部",
                 "ko": "엉덩이",
                 "zh-CN": "臀部"
@@ -773,7 +773,7 @@
           "type": "bool",
           "label": "Rest Distance Check",
           "labels": {
-            "ja": "静止距離チェック",
+            "ja": "レスト距離チェック",
             "zh-TW": "靜止距離檢查",
             "ko": "휴식 거리 확인",
             "zh-CN": "静止距离检查"
@@ -784,10 +784,32 @@
           "options": null,
           "description": "Use rest distance for self collision between rigid bodies in the same block. Helps when rigid body shapes are not configured perfectly.",
           "descriptions": {
-            "ja": "同じブロック内の剛体間の自己衝突に静止距離を使用する。剛体の形状が完璧に設定されていない場合に役立つ。",
+            "ja": "同じブロック内の剛体間の自己衝突にレスト距離を使用する。剛体形状が完璧に設定されていない場合に役立ちます。",
             "zh-TW": "在同一區塊內，針對剛體之間的自我碰撞使用靜止距離。當剛體形狀配置不完美時，這會有幫助。",
             "ko": "같은 블록 내 강체 간의 자가 충돌에 휴식 거리를 사용합니다. 강체 모양이 완벽하게 설정되지 않았을 때 도움이 됩니다.",
             "zh-CN": "对同一块体内的刚体自碰撞使用静止距离。当刚体形状未配置完美时很有帮助。"
+          }
+        },
+        {
+          "name": "Use Repulsion (Bounce)",
+          "type": "bool",
+          "label": "Use Repulsion (Bounce)",
+          "labels": {
+            "ja": "(Use Repulsion (Bounce))",
+            "zh-TW": "(Use Repulsion (Bounce))",
+            "ko": "(Use Repulsion (Bounce))",
+            "zh-CN": "(Use Repulsion (Bounce))"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.",
+          "descriptions": {
+            "ja": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
+            "zh-TW": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
+            "ko": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
+            "zh-CN": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)"
           }
         }
       ]
@@ -819,7 +841,7 @@
           "type": "float",
           "label": "Firmness",
           "labels": {
-            "ja": "硬さ",
+            "ja": "硬度",
             "zh-TW": "剛性",
             "ko": "단단함",
             "zh-CN": "刚度"
@@ -841,7 +863,7 @@
           "type": "float",
           "label": "Main Drive Force",
           "labels": {
-            "ja": "メイン駆動力",
+            "ja": "メインドライブ力",
             "zh-TW": "主要驅動力",
             "ko": "주 구동력",
             "zh-CN": "主要驱动力"
@@ -863,7 +885,7 @@
           "type": "float",
           "label": "Second Drive Force",
           "labels": {
-            "ja": "セカンダリ駆動力",
+            "ja": "セカンダリドライブ力",
             "zh-TW": "次要驅動力",
             "ko": "보조 구동력",
             "zh-CN": "次要驱动力"
@@ -907,7 +929,7 @@
           "type": "bool",
           "label": "Lock When Possible",
           "labels": {
-            "ja": "可能であればロック",
+            "ja": "可能な場合はロック",
             "zh-TW": "可動時鎖定",
             "ko": "가능한 경우 잠금",
             "zh-CN": "尽可能锁定"
@@ -951,7 +973,7 @@
           "type": "float",
           "label": "Damping",
           "labels": {
-            "ja": "ダンピング",
+            "ja": "減衰",
             "zh-TW": "阻尼",
             "ko": "감쇠",
             "zh-CN": "阻尼"
@@ -1006,7 +1028,7 @@
           "options": null,
           "description": "Further reducing constraints by ignoring joint limits",
           "descriptions": {
-            "ja": "ジョイント制限を無視することで制約をさらに減らす",
+            "ja": "ジョイント制限を無視することで、制約をさらに軽減",
             "zh-TW": "忽略關節限制以進一步減少約束力",
             "ko": "조인트 제한을 무시하여 제약 조건을 추가로 줄임",
             "zh-CN": "通过忽略关节限制进一步减少约束"
@@ -1019,7 +1041,7 @@
       "type": "group",
       "label": "Angular Motion",
       "labels": {
-        "ja": "角運動",
+        "ja": "角度運動",
         "zh-TW": "角運動",
         "ko": "각운동",
         "zh-CN": "角运动"
@@ -1030,7 +1052,7 @@
       "options": null,
       "description": "Settings for angular motion",
       "descriptions": {
-        "ja": "角運動の設定",
+        "ja": "角度運動の設定",
         "zh-TW": "角運動設置",
         "ko": "각운동 설정",
         "zh-CN": "角运动设置"
@@ -1041,7 +1063,7 @@
           "type": "float",
           "label": "Firmness",
           "labels": {
-            "ja": "硬さ",
+            "ja": "硬度",
             "zh-TW": "剛性",
             "ko": "단단함",
             "zh-CN": "刚度"
@@ -1063,7 +1085,7 @@
           "type": "float",
           "label": "Main Drive Force",
           "labels": {
-            "ja": "メイン駆動力",
+            "ja": "メインドライブ力",
             "zh-TW": "主要驅動力",
             "ko": "주 구동력",
             "zh-CN": "主要驱动力"
@@ -1085,7 +1107,7 @@
           "type": "float",
           "label": "Second Drive Force",
           "labels": {
-            "ja": "セカンダリ駆動力",
+            "ja": "セカンダリドライブ力",
             "zh-TW": "次要驅動力",
             "ko": "보조 구동력",
             "zh-CN": "次要驱动力"
@@ -1129,12 +1151,12 @@
           "type": "bool",
           "label": "Lock When Possible",
           "labels": {
-            "ja": "可能であればロック",
+            "ja": "可能な場合はロック",
             "zh-TW": "可動時鎖定",
             "ko": "가능한 경우 잠금",
             "zh-CN": "尽可能锁定"
           },
-          "default": "false",
+          "default": "true",
           "min": 0,
           "max": 1,
           "options": null,
@@ -1173,7 +1195,7 @@
           "type": "float",
           "label": "Damping",
           "labels": {
-            "ja": "ダンピング",
+            "ja": "減衰",
             "zh-TW": "阻尼",
             "ko": "감쇠",
             "zh-CN": "阻尼"
@@ -1228,7 +1250,7 @@
           "options": null,
           "description": "Further reducing constraints by ignoring joint limits",
           "descriptions": {
-            "ja": "ジョイント制限を無視することで制約をさらに減らす",
+            "ja": "ジョイント制限を無視することで、制約をさらに軽減",
             "zh-TW": "忽略關節限制以進一步減少約束力",
             "ko": "조인트 제한을 무시하여 제약 조건을 추가로 줄임",
             "zh-CN": "通过忽略关节限制进一步减少约束"
@@ -1318,7 +1340,7 @@
           "options": null,
           "description": "The min mass value in auto mode",
           "descriptions": {
-            "ja": "自動モードでの最小質量値",
+            "ja": "自動モードの最小質量値",
             "zh-TW": "自動模式下的最小質量值",
             "ko": "자동 모드에서 최소 질량 값",
             "zh-CN": "自动模式下的最小质量值"
@@ -1362,7 +1384,7 @@
           "options": ["Auto", "Zero"],
           "description": "Set center of mass at zero or automatically based on position and size of each collider",
           "descriptions": {
-            "ja": "ゼロ、または各コライダーの位置とサイズに基づいて自動的に重心を設定する",
+            "ja": "重心をゼロに設定するか、各コライダーの位置とサイズに基づいて自動設定",
             "zh-TW": "將質心設定為零，或根據每個碰撞器的位置和大小自動設定",
             "ko": "무게 중심을 0으로 설정하거나 각 콜라이더의 위치와 크기에 따라 자동으로 설정",
             "zh-CN": "将质心设置为零，或根据每个碰撞体的位置和大小自动设置"
@@ -1384,7 +1406,7 @@
           "options": null,
           "description": "Force reset the joint when distance between objects relative to neutral exceed this value",
           "descriptions": {
-            "ja": "オブジェクト間の距離がニュートラルからの偏差をこの値を超えた場合にジョイントを強制リセットする",
+            "ja": "物体間の距離がニュートラルに対してこの値を超えた場合にジョイントを強制リセットする",
             "zh-TW": "當物體之間相對於中性狀態的距離超過此值時，強制重置關節",
             "ko": "객체 간의 거리가 중립 대비 이 값을 초과할 때 조인트를 강제로 초기화",
             "zh-CN": "当物体间的距离相对于中性值超过此值时，强制重置关节"
@@ -1406,7 +1428,7 @@
           "options": null,
           "description": "Force reset the joint when angle between the objects relative to neutral exceed this value",
           "descriptions": {
-            "ja": "オブジェクト間の角度がニュートラルからの偏差をこの値を超えた場合にジョイントを強制リセットする",
+            "ja": "物体間の角度がニュートラルに対してこの値を超えた場合にジョイントを強制リセットする",
             "zh-TW": "當物體之間相對於中性狀態的角度超過此值時，強制重置關節",
             "ko": "객체 간의 각도가 중립 대비 이 값을 초과할 때 조인트를 강제로 초기화",
             "zh-CN": "当物体间的角度相对于中性值超过此值时，强制重置关节"
@@ -1419,7 +1441,7 @@
       "type": "float",
       "label": "Auto Reset Threshold",
       "labels": {
-        "ja": "自動リセットしきい値",
+        "ja": "自動リセット閾値",
         "zh-TW": "自動重置閾值",
         "ko": "자동 초기화 임계값",
         "zh-CN": "自动重置阈值"
@@ -1430,7 +1452,7 @@
       "options": null,
       "description": "Automatically reset the bone and its children when the velocity exceed this value",
       "descriptions": {
-        "ja": "速度がこの値を超えたときに、骨と子骨を自動的にリセットする",
+        "ja": "速度がこの値を超えたときにボーンとその子を自動的にリセット",
         "zh-TW": "當速度超過此值時，自動重置骨骼及其子骨骼",
         "ko": "속도가 이 값을 초과하면 본과 그 자식들을 자동으로 초기화합니다.",
         "zh-CN": "当速度超过此值时，自动重置骨骼及其子骨骼"
@@ -1485,7 +1507,7 @@
       "type": "value",
       "label": "Physics Boobs",
       "labels": {
-        "ja": "物理ボブズ",
+        "ja": "物理ボディース",
         "zh-TW": "物理胸部",
         "ko": "물리 보디스",
         "zh-CN": "物理胸部"
@@ -1507,7 +1529,7 @@
       "type": "value",
       "label": "Physics Skirt",
       "labels": {
-        "ja": "物理スカート",
+        "ja": "スカート物理",
         "zh-TW": "物理裙子",
         "ko": "물리 스커트",
         "zh-CN": "物理裙摆"
@@ -1529,7 +1551,7 @@
       "type": "value",
       "label": "Hair Physics",
       "labels": {
-        "ja": "髪の物理",
+        "ja": "髪の毛の物理",
         "zh-TW": "頭髮物理",
         "ko": "머리카락 물리",
         "zh-CN": "头发物理"

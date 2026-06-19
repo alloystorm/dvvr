@@ -32,7 +32,7 @@
       "options": null,
       "description": "Scale the position offset.",
       "descriptions": {
-        "ja": "位置オフセットを調整します。",
+        "ja": "位置オフセットをスケーリングします。",
         "zh-TW": "縮小位置偏移。",
         "ko": "위치 오프셋 스케일 조정.",
         "zh-CN": "缩放位置偏移。"
@@ -54,7 +54,7 @@
       "options": null,
       "description": "Reduce vertical movement for center bone.",
       "descriptions": {
-        "ja": "中心ボーンの垂直移動を減少させます。",
+        "ja": "中心ボーンの垂直移動を削減します。",
         "zh-TW": "減小中心骨骼的垂直移動。",
         "ko": "중앙 본의 수직 움직임 감소.",
         "zh-CN": "减少中心骨骼的垂直运动。"
@@ -65,7 +65,7 @@
       "type": "bool",
       "label": "Mirror (VMD Only)",
       "labels": {
-        "ja": "ミラー（VMD専用）",
+        "ja": "ミラー（VMD限定）",
         "zh-TW": "鏡像（VMD專用）",
         "ko": "미러 (VMD 전용)",
         "zh-CN": "镜像（仅VMD）"
@@ -109,7 +109,7 @@
       "type": "bool",
       "label": "Motion Leg IK",
       "labels": {
-        "ja": "モーションの脚IK",
+        "ja": "モーション脚IK",
         "zh-TW": "動作腿部 IK",
         "ko": "모션 다리 IK",
         "zh-CN": "动作腿部IK"
@@ -120,7 +120,7 @@
       "options": null,
       "description": "Apply common leg IK within motion processing, allow IK motion to work with models without IK bones.",
       "descriptions": {
-        "ja": "モーション処理内で一般的な脚IKを適用し、IKボーンのないモデルでもIK動作を可能にします。",
+        "ja": "モーション処理内で一般的な脚IKを適用し、IKボーンがないモデルでもIKモーションを機能させます。",
         "zh-TW": "在動作處理中應用通用腿部 IK，允許沒有 IK 骨骼的模型也使用 IK 動作。",
         "ko": "모션 처리 내에서 공통 다리 IK를 적용하여, IK 본이 없는 모델도 IK 모션이 작동하도록 허용.",
         "zh-CN": "在动作处理中应用通用的腿部IK，允许IK动作在没有IK骨骼的模型上工作。"
@@ -153,7 +153,7 @@
       "type": "float",
       "label": "Time Offset Percent",
       "labels": {
-        "ja": "時間オフセット（パーセント）",
+        "ja": "時間オフセット（%）",
         "zh-TW": "時間偏移百分比",
         "ko": "시간 오프셋 백분율",
         "zh-CN": "时间偏移百分比"
@@ -164,7 +164,7 @@
       "options": null,
       "description": "The time offset added to the actor when applying motion in percentage.",
       "descriptions": {
-        "ja": "パーセンテージでモーションを適用した際に、アクターに追加される時間オフセット。",
+        "ja": "モーションをパーセンテージで適用する際に、アクターに追加される時間オフセット。",
         "zh-TW": "以百分比應用動作時增加的動作時間偏移。",
         "ko": "백분율로 모션을 적용할 때 액터에 추가되는 시간 오프셋.",
         "zh-CN": "以百分比应用动作时添加到角色身上的时间偏移。"
@@ -186,7 +186,7 @@
       "options": null,
       "description": "The time offset added to the actor when applying motion in seconds.",
       "descriptions": {
-        "ja": "秒でモーションを適用した際に、アクターに追加される時間オフセット。",
+        "ja": "モーションを秒単位で適用する際に、アクターに追加される時間オフセット。",
         "zh-TW": "以秒數應用動作時增加的動作時間偏移。",
         "ko": "초 단위로 모션을 적용할 때 액터에 추가되는 시간 오프셋.",
         "zh-CN": "以秒应用动作时添加到角色身上的时间偏移。"
@@ -197,7 +197,7 @@
       "type": "bool",
       "label": "Spectator",
       "labels": {
-        "ja": "観客モード",
+        "ja": "スピクトレータ",
         "zh-TW": "旁觀者",
         "ko": "스펙테이터",
         "zh-CN": "观察者"
@@ -893,7 +893,7 @@
           "type": "group",
           "label": "Foot Rotation",
           "labels": {
-            "ja": "足首の回転",
+            "ja": "足の回転",
             "zh-TW": "腳部旋轉",
             "ko": "발 회전",
             "zh-CN": "脚部旋转"
@@ -983,7 +983,7 @@
           "type": "group",
           "label": "Thumb Rotation 1",
           "labels": {
-            "ja": "親指の回転 1",
+            "ja": "親指の回転1",
             "zh-TW": "拇指旋轉 1",
             "ko": "엄지 손가락 회전 1",
             "zh-CN": "拇指旋转 1"
@@ -1073,7 +1073,7 @@
           "type": "group",
           "label": "Thumb Rotation 2",
           "labels": {
-            "ja": "親指の回転 2",
+            "ja": "親指の回転2",
             "zh-TW": "拇指旋轉 2",
             "ko": "엄지 손가락 회전 2",
             "zh-CN": "拇指旋转 2"
@@ -1411,7 +1411,7 @@
       "type": "bool",
       "label": "Visualize Bones",
       "labels": {
-        "ja": "ボーンの視覚化",
+        "ja": "ボーンの可視化",
         "zh-TW": "可視化骨骼",
         "ko": "본 시각화",
         "zh-CN": "显示骨骼"

@@ -32,7 +32,7 @@
       "options": null,
       "description": "How many actor models to keep in cache",
       "descriptions": {
-        "ja": "キャッシュに保持するアクターモデルの数",
+        "ja": "キャッシュに保持するアクターモデル数",
         "zh-TW": "緩存中要保留多少個角色模型",
         "ko": "캐시에 유지할 액터 모델 수",
         "zh-CN": "保留在缓存中的角色模型数量"
@@ -54,7 +54,7 @@
       "options": null,
       "description": "Automatically applies the settings from the outgoing actor to the incoming actor when replacing actors.",
       "descriptions": {
-        "ja": "アクターを置き換える際、前のアクターの設定を自動的に次のアクターに適用します。",
+        "ja": "アクターを置き換える際、自動的に前の（送信元）アクターの設定を次の（受信先）アクターに適用します。",
         "zh-TW": "在替換角色時，自動將發送角色（Outgoing actor）的設定應用到接收角色（Incoming actor）。",
         "ko": "액터를 교체할 때 나가는 액터의 설정을 들어오는 액터에 자동으로 적용합니다.",
         "zh-CN": "在替换角色时，自动将离开角色的设置应用于进入的角色。"
@@ -65,7 +65,7 @@
       "type": "bool",
       "label": "Compress Textures",
       "labels": {
-        "ja": "テクスチャを圧縮",
+        "ja": "テクスチャの圧縮",
         "zh-TW": "壓縮紋理",
         "ko": "텍스처 압축",
         "zh-CN": "压缩纹理"
@@ -76,7 +76,7 @@
       "options": null,
       "description": "Compress textures to reduce VRAM use",
       "descriptions": {
-        "ja": "VRAM使用量を削減するためにテクスチャを圧縮",
+        "ja": "VRAM使用量を減らすためにテクスチャを圧縮します。",
         "zh-TW": "壓縮紋理以減少VRAM使用量",
         "ko": "VRAM 사용량을 줄이기 위해 텍스처 압축",
         "zh-CN": "压缩纹理以减少 VRAM 使用量"
@@ -131,7 +131,7 @@
           "type": "float",
           "label": "V Shape",
           "labels": {
-            "ja": "V字形",
+            "ja": "V字型",
             "zh-TW": "V 形",
             "ko": "V 모양",
             "zh-CN": "V形"
@@ -208,7 +208,7 @@
           "options": null,
           "description": "The size of the transition area.",
           "descriptions": {
-            "ja": "トランジション領域のサイズ。",
+            "ja": "トランジションエリアのサイズ。",
             "zh-TW": "過渡區域的大小。",
             "ko": "전환 영역의 크기.",
             "zh-CN": "过渡区域的大小。"
@@ -241,7 +241,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -307,7 +307,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -520,7 +520,7 @@
       "options": null,
       "description": "Automatically switch between actors in the cache based on the value",
       "descriptions": {
-        "ja": "値に基づいてキャッシュ内のアクターを自動的に切り替え",
+        "ja": "値に基づいてキャッシュ内のアクター間で自動的に切り替えます。",
         "zh-TW": "根據數值自動在緩存中的角色之間切換",
         "ko": "값을 기반으로 캐시 내 액터 간에 자동으로 전환합니다.",
         "zh-CN": "根据值自动在缓存中的角色间切换。"

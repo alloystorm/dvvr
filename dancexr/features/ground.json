@@ -54,7 +54,7 @@
       "options": null,
       "description": "Ground Settings.",
       "descriptions": {
-        "ja": "地面設定",
+        "ja": "地面設定。",
         "zh-TW": "地面設定。",
         "ko": "지면 설정",
         "zh-CN": "地面设置。"
@@ -175,7 +175,7 @@
                   "type": "float",
                   "label": "Tiling X",
                   "labels": {
-                    "ja": "Xタイリング",
+                    "ja": "X軸タイリング",
                     "zh-TW": "平鋪 X",
                     "ko": "타일링 X",
                     "zh-CN": "X轴平铺"
@@ -197,7 +197,7 @@
                   "type": "float",
                   "label": "Tiling Y",
                   "labels": {
-                    "ja": "Yタイリング",
+                    "ja": "Y軸タイリング",
                     "zh-TW": "平鋪 Y",
                     "ko": "타일링 Y",
                     "zh-CN": "Y轴平铺"
@@ -329,7 +329,7 @@
                   "type": "bool",
                   "label": "Fit Texture",
                   "labels": {
-                    "ja": "テクスチャフィット",
+                    "ja": "テクスチャのフィット",
                     "zh-TW": "貼圖適應",
                     "ko": "텍스처 맞추기",
                     "zh-CN": "贴图适配"
@@ -441,7 +441,7 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "アンビエント",
+                "ja": "周囲光",
                 "zh-TW": "環境光",
                 "ko": "주변광",
                 "zh-CN": "环境光"
@@ -551,7 +551,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -617,7 +617,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -839,7 +839,7 @@
                   "type": "float",
                   "label": "Specular",
                   "labels": {
-                    "ja": "スペキュラー",
+                    "ja": "スペキュラ",
                     "zh-TW": "鏡面光",
                     "ko": "스페큘러",
                     "zh-CN": "反射高光"
@@ -861,7 +861,7 @@
                   "type": "float",
                   "label": "Soft Specular",
                   "labels": {
-                    "ja": "ソフトスペキュラー",
+                    "ja": "ソフトスペキュラ",
                     "zh-TW": "柔和鏡面光",
                     "ko": "부드러운 스페큘러",
                     "zh-CN": "柔和高光"
@@ -927,7 +927,7 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "アンビエント",
+                    "ja": "周囲光",
                     "zh-TW": "環境光",
                     "ko": "주변광",
                     "zh-CN": "环境光"
@@ -949,7 +949,7 @@
                   "type": "float",
                   "label": "Shadow Area",
                   "labels": {
-                    "ja": "シャドウエリア",
+                    "ja": "影エリア",
                     "zh-TW": "陰影區域",
                     "ko": "그림자 영역",
                     "zh-CN": "阴影区域"
@@ -971,7 +971,7 @@
                   "type": "float",
                   "label": "Shadow",
                   "labels": {
-                    "ja": "シャドウ",
+                    "ja": "影",
                     "zh-TW": "陰影",
                     "ko": "그림자",
                     "zh-CN": "阴影"
@@ -1017,7 +1017,7 @@
               "type": "group",
               "label": "Special Shader",
               "labels": {
-                "ja": "スペシャルシェーダー",
+                "ja": "特殊シェーダー",
                 "zh-TW": "特殊著色器",
                 "ko": "특수 셰이더",
                 "zh-CN": "特殊着色器"
@@ -1062,7 +1062,7 @@
                   "label": "Refraction",
                   "labels": {
                     "ja": "屈折",
-                    "zh-TW": "折射率",
+                    "zh-TW": "折射",
                     "ko": "굴절",
                     "zh-CN": "折射"
                   },
@@ -1107,7 +1107,7 @@
               "type": "float",
               "label": "Viewer Height",
               "labels": {
-                "ja": "ビューア高さ",
+                "ja": "ビューアの高さ",
                 "zh-TW": "檢視器高度",
                 "ko": "뷰어 높이",
                 "zh-CN": "视角高度"
@@ -1118,7 +1118,7 @@
               "options": null,
               "description": "Viewer height used when projecting the the texture on to the ground",
               "descriptions": {
-                "ja": "地面にテクスチャを投影する際に使用されるビューアの高さ",
+                "ja": "テクスチャを地面に投影する際に使用されるビューアの高さ",
                 "zh-TW": "當將紋理投影到地面上時使用的檢視器高度",
                 "ko": "바닥에 텍스처를 투사할 때 사용되는 뷰어 높이",
                 "zh-CN": "将纹理投影到地面时使用的视角高度"
@@ -1217,7 +1217,7 @@
                   "type": "float",
                   "label": "Viewing Angle",
                   "labels": {
-                    "ja": "視点角",
+                    "ja": "視点角度",
                     "zh-TW": "觀看角度",
                     "ko": "시야각",
                     "zh-CN": "视角"
@@ -1228,7 +1228,7 @@
                   "options": null,
                   "description": "Reduce brightness when viewed from an angle. 0 = perfect",
                   "descriptions": {
-                    "ja": "斜めから見たときの明るさを軽減する。0 = 完璧。",
+                    "ja": "斜めから見たときの明るさを軽減します。0 = 完璧",
                     "zh-TW": "減少從角度觀看時的亮度。0 = 完美",
                     "ko": "각도에서 볼 때 밝기 감소. 0 = 완벽",
                     "zh-CN": "从角度观看时减少亮度。0 = 完美"
@@ -1351,7 +1351,7 @@
                   "type": "float",
                   "label": "Shadow",
                   "labels": {
-                    "ja": "シャドウ",
+                    "ja": "影",
                     "zh-TW": "陰影",
                     "ko": "그림자",
                     "zh-CN": "阴影"
@@ -1439,7 +1439,7 @@
                   "type": "float",
                   "label": "Color Transition",
                   "labels": {
-                    "ja": "色の遷移",
+                    "ja": "色遷移",
                     "zh-TW": "顏色過渡",
                     "ko": "색상 전환",
                     "zh-CN": "颜色过渡"
@@ -1461,7 +1461,7 @@
                   "type": "float",
                   "label": "Align",
                   "labels": {
-                    "ja": "アライメント",
+                    "ja": "整列",
                     "zh-TW": "對齊",
                     "ko": "정렬",
                     "zh-CN": "对齐"
@@ -1505,7 +1505,7 @@
                   "type": "float",
                   "label": "Shape Shift",
                   "labels": {
-                    "ja": "シェイプシフト",
+                    "ja": "形状変化",
                     "zh-TW": "形狀變化",
                     "ko": "모양 변화",
                     "zh-CN": "形状变化"
@@ -1571,7 +1571,7 @@
                       "type": "int",
                       "label": "Color Mode",
                       "labels": {
-                        "ja": "色モード",
+                        "ja": "カラーモード",
                         "zh-TW": "色彩模式",
                         "ko": "색상 모드",
                         "zh-CN": "颜色模式"
@@ -1637,7 +1637,7 @@
                       "type": "float",
                       "label": "Brightness",
                       "labels": {
-                        "ja": "明度",
+                        "ja": "輝度",
                         "zh-TW": "亮度",
                         "ko": "밝기",
                         "zh-CN": "亮度"
@@ -1771,7 +1771,7 @@
                       "type": "int",
                       "label": "Color Mode",
                       "labels": {
-                        "ja": "色モード",
+                        "ja": "カラーモード",
                         "zh-TW": "色彩模式",
                         "ko": "색상 모드",
                         "zh-CN": "颜色模式"
@@ -1837,7 +1837,7 @@
                       "type": "float",
                       "label": "Brightness",
                       "labels": {
-                        "ja": "明度",
+                        "ja": "輝度",
                         "zh-TW": "亮度",
                         "ko": "밝기",
                         "zh-CN": "亮度"
@@ -2015,7 +2015,7 @@
                       "type": "int",
                       "label": "Color Mode",
                       "labels": {
-                        "ja": "色モード",
+                        "ja": "カラーモード",
                         "zh-TW": "色彩模式",
                         "ko": "색상 모드",
                         "zh-CN": "颜色模式"
@@ -2081,7 +2081,7 @@
                       "type": "float",
                       "label": "Brightness",
                       "labels": {
-                        "ja": "明度",
+                        "ja": "輝度",
                         "zh-TW": "亮度",
                         "ko": "밝기",
                         "zh-CN": "亮度"
@@ -2270,7 +2270,7 @@
                   "options": null,
                   "description": "Use real-time automatically detected BPM instead of the set BPM.",
                   "descriptions": {
-                    "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用します。",
+                    "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用する。",
                     "zh-TW": "使用實時自動偵測的BPM，而非設定的BPM。",
                     "ko": "설정된 BPM 대신 실시간으로 자동으로 감지된 BPM을 사용합니다.",
                     "zh-CN": "使用实时自动检测的 BPM，而不是设置的 BPM。"
@@ -2307,7 +2307,7 @@
               "type": "group",
               "label": "Shadow Color",
               "labels": {
-                "ja": "シャドウの色",
+                "ja": "影の色",
                 "zh-TW": "陰影顏色",
                 "ko": "그림자 색상",
                 "zh-CN": "阴影颜色"
@@ -2329,7 +2329,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -2395,7 +2395,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -2511,7 +2511,7 @@
       "type": "group",
       "label": "Stage Geometry",
       "labels": {
-        "ja": "ステージの形状",
+        "ja": "ステージジオメトリ",
         "zh-TW": "舞台幾何體",
         "ko": "무대 기하학",
         "zh-CN": "舞台几何结构"
@@ -2522,7 +2522,7 @@
       "options": null,
       "description": "Procedural stage & pool geometry.",
       "descriptions": {
-        "ja": "プロシージャルなステージ＆プールジオメトリ",
+        "ja": "プロシージャルなステージとプールのジオメトリ。",
         "zh-TW": "程序化舞台和泳池的幾何體。",
         "ko": "프로시저 무대 및 풀 지오메트리",
         "zh-CN": "程序化舞台和泳池几何体。"
@@ -2533,7 +2533,7 @@
           "type": "float",
           "label": "Lift",
           "labels": {
-            "ja": "リフト",
+            "ja": "持ち上げ",
             "zh-TW": "抬升",
             "ko": "들어 올리기",
             "zh-CN": "抬起"
@@ -2544,7 +2544,7 @@
           "options": null,
           "description": "Lift the stage up / down.",
           "descriptions": {
-            "ja": "ステージを上げ下げする。",
+            "ja": "ステージを上下にリフトする。",
             "zh-TW": "上下升降舞台。",
             "ko": "무대를 위/아래로 올리다.",
             "zh-CN": "上下升降舞台。"
@@ -2555,7 +2555,7 @@
           "type": "float",
           "label": "Front / Back Offset",
           "labels": {
-            "ja": "前面 / 背面オフセット",
+            "ja": "前後オフセット",
             "zh-TW": "前後偏移",
             "ko": "전면 / 후면 오프셋",
             "zh-CN": "前/后偏移"
@@ -2577,7 +2577,7 @@
           "type": "group",
           "label": "Geometry",
           "labels": {
-            "ja": "形状",
+            "ja": "ジオメトリ",
             "zh-TW": "幾何體",
             "ko": "기하학",
             "zh-CN": "几何结构"
@@ -2632,7 +2632,7 @@
               "options": null,
               "description": "Depth of the center area.",
               "descriptions": {
-                "ja": "中央エリアの奥行き。",
+                "ja": "中央エリアの奥行。",
                 "zh-TW": "中心區域深度。",
                 "ko": "중앙 영역 깊이.",
                 "zh-CN": "中央区域深度。"
@@ -2643,7 +2643,7 @@
               "type": "float",
               "label": "Back Height",
               "labels": {
-                "ja": "背面の高さ",
+                "ja": "後方高さ",
                 "zh-TW": "後方高度",
                 "ko": "후면 높이",
                 "zh-CN": "后高"
@@ -2687,7 +2687,7 @@
               "type": "float",
               "label": "Front Extension",
               "labels": {
-                "ja": "前面拡張",
+                "ja": "前方拡張",
                 "zh-TW": "前方延伸",
                 "ko": "전면 확장",
                 "zh-CN": "前延伸"
@@ -2698,7 +2698,7 @@
               "options": null,
               "description": "Extension at front.",
               "descriptions": {
-                "ja": "前面の拡張。",
+                "ja": "前方の拡張。",
                 "zh-TW": "前方延伸。",
                 "ko": "전면 확장.",
                 "zh-CN": "前部延伸。"
@@ -2709,7 +2709,7 @@
               "type": "float",
               "label": "Back Extension",
               "labels": {
-                "ja": "背面拡張",
+                "ja": "後方拡張",
                 "zh-TW": "後方延伸",
                 "ko": "후면 확장",
                 "zh-CN": "后延伸"
@@ -2720,7 +2720,7 @@
               "options": null,
               "description": "Extension at back.",
               "descriptions": {
-                "ja": "背面の拡張。",
+                "ja": "後方の拡張。",
                 "zh-TW": "後方延伸。",
                 "ko": "후면 확장.",
                 "zh-CN": "后部延伸。"
@@ -2742,7 +2742,7 @@
               "options": null,
               "description": "Height of the edge above ground.",
               "descriptions": {
-                "ja": "地面より上の端の高さ。",
+                "ja": "地面より上のエッジの高さ。",
                 "zh-TW": "地面以上邊緣高度。",
                 "ko": "지상 위 가장자리 높이.",
                 "zh-CN": "地面以上边缘高度。"
@@ -2764,7 +2764,7 @@
               "options": null,
               "description": "Size of the edge.",
               "descriptions": {
-                "ja": "端のサイズ。",
+                "ja": "エッジのサイズ。",
                 "zh-TW": "邊緣大小。",
                 "ko": "가장자리 크기.",
                 "zh-CN": "边缘大小。"
@@ -2821,7 +2821,7 @@
           "type": "group",
           "label": "Top Surface",
           "labels": {
-            "ja": "天面",
+            "ja": "天面表面",
             "zh-TW": "頂部表面",
             "ko": "상부 표면",
             "zh-CN": "顶部表面"
@@ -2887,7 +2887,7 @@
                   "type": "float",
                   "label": "Tiling X",
                   "labels": {
-                    "ja": "Xタイリング",
+                    "ja": "X軸タイリング",
                     "zh-TW": "平鋪 X",
                     "ko": "타일링 X",
                     "zh-CN": "X轴平铺"
@@ -2909,7 +2909,7 @@
                   "type": "float",
                   "label": "Tiling Y",
                   "labels": {
-                    "ja": "Yタイリング",
+                    "ja": "Y軸タイリング",
                     "zh-TW": "平鋪 Y",
                     "ko": "타일링 Y",
                     "zh-CN": "Y轴平铺"
@@ -3041,7 +3041,7 @@
                   "type": "bool",
                   "label": "Fit Texture",
                   "labels": {
-                    "ja": "テクスチャフィット",
+                    "ja": "テクスチャのフィット",
                     "zh-TW": "貼圖適應",
                     "ko": "텍스처 맞추기",
                     "zh-CN": "贴图适配"
@@ -3153,7 +3153,7 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "アンビエント",
+                "ja": "周囲光",
                 "zh-TW": "環境光",
                 "ko": "주변광",
                 "zh-CN": "环境光"
@@ -3263,7 +3263,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -3329,7 +3329,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -3551,7 +3551,7 @@
                   "type": "float",
                   "label": "Specular",
                   "labels": {
-                    "ja": "スペキュラー",
+                    "ja": "スペキュラ",
                     "zh-TW": "鏡面光",
                     "ko": "스페큘러",
                     "zh-CN": "反射高光"
@@ -3573,7 +3573,7 @@
                   "type": "float",
                   "label": "Soft Specular",
                   "labels": {
-                    "ja": "ソフトスペキュラー",
+                    "ja": "ソフトスペキュラ",
                     "zh-TW": "柔和鏡面光",
                     "ko": "부드러운 스페큘러",
                     "zh-CN": "柔和高光"
@@ -3639,7 +3639,7 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "アンビエント",
+                    "ja": "周囲光",
                     "zh-TW": "環境光",
                     "ko": "주변광",
                     "zh-CN": "环境光"
@@ -3661,7 +3661,7 @@
                   "type": "float",
                   "label": "Shadow Area",
                   "labels": {
-                    "ja": "シャドウエリア",
+                    "ja": "影エリア",
                     "zh-TW": "陰影區域",
                     "ko": "그림자 영역",
                     "zh-CN": "阴影区域"
@@ -3683,7 +3683,7 @@
                   "type": "float",
                   "label": "Shadow",
                   "labels": {
-                    "ja": "シャドウ",
+                    "ja": "影",
                     "zh-TW": "陰影",
                     "ko": "그림자",
                     "zh-CN": "阴影"
@@ -3729,7 +3729,7 @@
               "type": "group",
               "label": "Special Shader",
               "labels": {
-                "ja": "スペシャルシェーダー",
+                "ja": "特殊シェーダー",
                 "zh-TW": "特殊著色器",
                 "ko": "특수 셰이더",
                 "zh-CN": "特殊着色器"
@@ -3774,7 +3774,7 @@
                   "label": "Refraction",
                   "labels": {
                     "ja": "屈折",
-                    "zh-TW": "折射率",
+                    "zh-TW": "折射",
                     "ko": "굴절",
                     "zh-CN": "折射"
                   },
@@ -3907,7 +3907,7 @@
                   "type": "float",
                   "label": "Viewing Angle",
                   "labels": {
-                    "ja": "視点角",
+                    "ja": "視点角度",
                     "zh-TW": "觀看角度",
                     "ko": "시야각",
                     "zh-CN": "视角"
@@ -3918,7 +3918,7 @@
                   "options": null,
                   "description": "Reduce brightness when viewed from an angle. 0 = perfect",
                   "descriptions": {
-                    "ja": "斜めから見たときの明るさを軽減する。0 = 完璧。",
+                    "ja": "斜めから見たときの明るさを軽減します。0 = 完璧",
                     "zh-TW": "減少從角度觀看時的亮度。0 = 完美",
                     "ko": "각도에서 볼 때 밝기 감소. 0 = 완벽",
                     "zh-CN": "从角度观看时减少亮度。0 = 完美"
@@ -4041,7 +4041,7 @@
                   "type": "float",
                   "label": "Shadow",
                   "labels": {
-                    "ja": "シャドウ",
+                    "ja": "影",
                     "zh-TW": "陰影",
                     "ko": "그림자",
                     "zh-CN": "阴影"
@@ -4129,7 +4129,7 @@
                   "type": "float",
                   "label": "Color Transition",
                   "labels": {
-                    "ja": "色の遷移",
+                    "ja": "色遷移",
                     "zh-TW": "顏色過渡",
                     "ko": "색상 전환",
                     "zh-CN": "颜色过渡"
@@ -4151,7 +4151,7 @@
                   "type": "float",
                   "label": "Align",
                   "labels": {
-                    "ja": "アライメント",
+                    "ja": "整列",
                     "zh-TW": "對齊",
                     "ko": "정렬",
                     "zh-CN": "对齐"
@@ -4195,7 +4195,7 @@
                   "type": "float",
                   "label": "Shape Shift",
                   "labels": {
-                    "ja": "シェイプシフト",
+                    "ja": "形状変化",
                     "zh-TW": "形狀變化",
                     "ko": "모양 변화",
                     "zh-CN": "形状变化"
@@ -4261,7 +4261,7 @@
                       "type": "int",
                       "label": "Color Mode",
                       "labels": {
-                        "ja": "色モード",
+                        "ja": "カラーモード",
                         "zh-TW": "色彩模式",
                         "ko": "색상 모드",
                         "zh-CN": "颜色模式"
@@ -4327,7 +4327,7 @@
                       "type": "float",
                       "label": "Brightness",
                       "labels": {
-                        "ja": "明度",
+                        "ja": "輝度",
                         "zh-TW": "亮度",
                         "ko": "밝기",
                         "zh-CN": "亮度"
@@ -4461,7 +4461,7 @@
                       "type": "int",
                       "label": "Color Mode",
                       "labels": {
-                        "ja": "色モード",
+                        "ja": "カラーモード",
                         "zh-TW": "色彩模式",
                         "ko": "색상 모드",
                         "zh-CN": "颜色模式"
@@ -4527,7 +4527,7 @@
                       "type": "float",
                       "label": "Brightness",
                       "labels": {
-                        "ja": "明度",
+                        "ja": "輝度",
                         "zh-TW": "亮度",
                         "ko": "밝기",
                         "zh-CN": "亮度"
@@ -4705,7 +4705,7 @@
                       "type": "int",
                       "label": "Color Mode",
                       "labels": {
-                        "ja": "色モード",
+                        "ja": "カラーモード",
                         "zh-TW": "色彩模式",
                         "ko": "색상 모드",
                         "zh-CN": "颜色模式"
@@ -4771,7 +4771,7 @@
                       "type": "float",
                       "label": "Brightness",
                       "labels": {
-                        "ja": "明度",
+                        "ja": "輝度",
                         "zh-TW": "亮度",
                         "ko": "밝기",
                         "zh-CN": "亮度"
@@ -4960,7 +4960,7 @@
                   "options": null,
                   "description": "Use real-time automatically detected BPM instead of the set BPM.",
                   "descriptions": {
-                    "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用します。",
+                    "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用する。",
                     "zh-TW": "使用實時自動偵測的BPM，而非設定的BPM。",
                     "ko": "설정된 BPM 대신 실시간으로 자동으로 감지된 BPM을 사용합니다.",
                     "zh-CN": "使用实时自动检测的 BPM，而不是设置的 BPM。"
@@ -5041,7 +5041,7 @@
                   "type": "float",
                   "label": "Tiling X",
                   "labels": {
-                    "ja": "Xタイリング",
+                    "ja": "X軸タイリング",
                     "zh-TW": "平鋪 X",
                     "ko": "타일링 X",
                     "zh-CN": "X轴平铺"
@@ -5063,7 +5063,7 @@
                   "type": "float",
                   "label": "Tiling Y",
                   "labels": {
-                    "ja": "Yタイリング",
+                    "ja": "Y軸タイリング",
                     "zh-TW": "平鋪 Y",
                     "ko": "타일링 Y",
                     "zh-CN": "Y轴平铺"
@@ -5195,7 +5195,7 @@
                   "type": "bool",
                   "label": "Fit Texture",
                   "labels": {
-                    "ja": "テクスチャフィット",
+                    "ja": "テクスチャのフィット",
                     "zh-TW": "貼圖適應",
                     "ko": "텍스처 맞추기",
                     "zh-CN": "贴图适配"
@@ -5307,7 +5307,7 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "アンビエント",
+                "ja": "周囲光",
                 "zh-TW": "環境光",
                 "ko": "주변광",
                 "zh-CN": "环境光"
@@ -5417,7 +5417,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -5483,7 +5483,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -5705,7 +5705,7 @@
                   "type": "float",
                   "label": "Specular",
                   "labels": {
-                    "ja": "スペキュラー",
+                    "ja": "スペキュラ",
                     "zh-TW": "鏡面光",
                     "ko": "스페큘러",
                     "zh-CN": "反射高光"
@@ -5727,7 +5727,7 @@
                   "type": "float",
                   "label": "Soft Specular",
                   "labels": {
-                    "ja": "ソフトスペキュラー",
+                    "ja": "ソフトスペキュラ",
                     "zh-TW": "柔和鏡面光",
                     "ko": "부드러운 스페큘러",
                     "zh-CN": "柔和高光"
@@ -5793,7 +5793,7 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "アンビエント",
+                    "ja": "周囲光",
                     "zh-TW": "環境光",
                     "ko": "주변광",
                     "zh-CN": "环境光"
@@ -5815,7 +5815,7 @@
                   "type": "float",
                   "label": "Shadow Area",
                   "labels": {
-                    "ja": "シャドウエリア",
+                    "ja": "影エリア",
                     "zh-TW": "陰影區域",
                     "ko": "그림자 영역",
                     "zh-CN": "阴影区域"
@@ -5837,7 +5837,7 @@
                   "type": "float",
                   "label": "Shadow",
                   "labels": {
-                    "ja": "シャドウ",
+                    "ja": "影",
                     "zh-TW": "陰影",
                     "ko": "그림자",
                     "zh-CN": "阴影"
@@ -5883,7 +5883,7 @@
               "type": "group",
               "label": "Special Shader",
               "labels": {
-                "ja": "スペシャルシェーダー",
+                "ja": "特殊シェーダー",
                 "zh-TW": "特殊著色器",
                 "ko": "특수 셰이더",
                 "zh-CN": "特殊着色器"
@@ -5928,7 +5928,7 @@
                   "label": "Refraction",
                   "labels": {
                     "ja": "屈折",
-                    "zh-TW": "折射率",
+                    "zh-TW": "折射",
                     "ko": "굴절",
                     "zh-CN": "折射"
                   },
@@ -6061,7 +6061,7 @@
                   "type": "float",
                   "label": "Viewing Angle",
                   "labels": {
-                    "ja": "視点角",
+                    "ja": "視点角度",
                     "zh-TW": "觀看角度",
                     "ko": "시야각",
                     "zh-CN": "视角"
@@ -6072,7 +6072,7 @@
                   "options": null,
                   "description": "Reduce brightness when viewed from an angle. 0 = perfect",
                   "descriptions": {
-                    "ja": "斜めから見たときの明るさを軽減する。0 = 完璧。",
+                    "ja": "斜めから見たときの明るさを軽減します。0 = 完璧",
                     "zh-TW": "減少從角度觀看時的亮度。0 = 完美",
                     "ko": "각도에서 볼 때 밝기 감소. 0 = 완벽",
                     "zh-CN": "从角度观看时减少亮度。0 = 完美"
@@ -6195,7 +6195,7 @@
                   "type": "float",
                   "label": "Shadow",
                   "labels": {
-                    "ja": "シャドウ",
+                    "ja": "影",
                     "zh-TW": "陰影",
                     "ko": "그림자",
                     "zh-CN": "阴影"
@@ -6283,7 +6283,7 @@
                   "type": "float",
                   "label": "Color Transition",
                   "labels": {
-                    "ja": "色の遷移",
+                    "ja": "色遷移",
                     "zh-TW": "顏色過渡",
                     "ko": "색상 전환",
                     "zh-CN": "颜色过渡"
@@ -6305,7 +6305,7 @@
                   "type": "float",
                   "label": "Align",
                   "labels": {
-                    "ja": "アライメント",
+                    "ja": "整列",
                     "zh-TW": "對齊",
                     "ko": "정렬",
                     "zh-CN": "对齐"
@@ -6349,7 +6349,7 @@
                   "type": "float",
                   "label": "Shape Shift",
                   "labels": {
-                    "ja": "シェイプシフト",
+                    "ja": "形状変化",
                     "zh-TW": "形狀變化",
                     "ko": "모양 변화",
                     "zh-CN": "形状变化"
@@ -6415,7 +6415,7 @@
                       "type": "int",
                       "label": "Color Mode",
                       "labels": {
-                        "ja": "色モード",
+                        "ja": "カラーモード",
                         "zh-TW": "色彩模式",
                         "ko": "색상 모드",
                         "zh-CN": "颜色模式"
@@ -6481,7 +6481,7 @@
                       "type": "float",
                       "label": "Brightness",
                       "labels": {
-                        "ja": "明度",
+                        "ja": "輝度",
                         "zh-TW": "亮度",
                         "ko": "밝기",
                         "zh-CN": "亮度"
@@ -6615,7 +6615,7 @@
                       "type": "int",
                       "label": "Color Mode",
                       "labels": {
-                        "ja": "色モード",
+                        "ja": "カラーモード",
                         "zh-TW": "色彩模式",
                         "ko": "색상 모드",
                         "zh-CN": "颜色模式"
@@ -6681,7 +6681,7 @@
                       "type": "float",
                       "label": "Brightness",
                       "labels": {
-                        "ja": "明度",
+                        "ja": "輝度",
                         "zh-TW": "亮度",
                         "ko": "밝기",
                         "zh-CN": "亮度"
@@ -6859,7 +6859,7 @@
                       "type": "int",
                       "label": "Color Mode",
                       "labels": {
-                        "ja": "色モード",
+                        "ja": "カラーモード",
                         "zh-TW": "色彩模式",
                         "ko": "색상 모드",
                         "zh-CN": "颜色模式"
@@ -6925,7 +6925,7 @@
                       "type": "float",
                       "label": "Brightness",
                       "labels": {
-                        "ja": "明度",
+                        "ja": "輝度",
                         "zh-TW": "亮度",
                         "ko": "밝기",
                         "zh-CN": "亮度"
@@ -7114,7 +7114,7 @@
                   "options": null,
                   "description": "Use real-time automatically detected BPM instead of the set BPM.",
                   "descriptions": {
-                    "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用します。",
+                    "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用する。",
                     "zh-TW": "使用實時自動偵測的BPM，而非設定的BPM。",
                     "ko": "설정된 BPM 대신 실시간으로 자동으로 감지된 BPM을 사용합니다.",
                     "zh-CN": "使用实时自动检测的 BPM，而不是设置的 BPM。"
@@ -7129,7 +7129,7 @@
           "type": "group",
           "label": "Back Surface",
           "labels": {
-            "ja": "背面表面",
+            "ja": "後方表面",
             "zh-TW": "後方表面",
             "ko": "후면 표면",
             "zh-CN": "后表面"
@@ -7195,7 +7195,7 @@
                   "type": "float",
                   "label": "Tiling X",
                   "labels": {
-                    "ja": "Xタイリング",
+                    "ja": "X軸タイリング",
                     "zh-TW": "平鋪 X",
                     "ko": "타일링 X",
                     "zh-CN": "X轴平铺"
@@ -7217,7 +7217,7 @@
                   "type": "float",
                   "label": "Tiling Y",
                   "labels": {
-                    "ja": "Yタイリング",
+                    "ja": "Y軸タイリング",
                     "zh-TW": "平鋪 Y",
                     "ko": "타일링 Y",
                     "zh-CN": "Y轴平铺"
@@ -7349,7 +7349,7 @@
                   "type": "bool",
                   "label": "Fit Texture",
                   "labels": {
-                    "ja": "テクスチャフィット",
+                    "ja": "テクスチャのフィット",
                     "zh-TW": "貼圖適應",
                     "ko": "텍스처 맞추기",
                     "zh-CN": "贴图适配"
@@ -7461,7 +7461,7 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "アンビエント",
+                "ja": "周囲光",
                 "zh-TW": "環境光",
                 "ko": "주변광",
                 "zh-CN": "环境光"
@@ -7571,7 +7571,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -7637,7 +7637,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -7859,7 +7859,7 @@
                   "type": "float",
                   "label": "Specular",
                   "labels": {
-                    "ja": "スペキュラー",
+                    "ja": "スペキュラ",
                     "zh-TW": "鏡面光",
                     "ko": "스페큘러",
                     "zh-CN": "反射高光"
@@ -7881,7 +7881,7 @@
                   "type": "float",
                   "label": "Soft Specular",
                   "labels": {
-                    "ja": "ソフトスペキュラー",
+                    "ja": "ソフトスペキュラ",
                     "zh-TW": "柔和鏡面光",
                     "ko": "부드러운 스페큘러",
                     "zh-CN": "柔和高光"
@@ -7947,7 +7947,7 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "アンビエント",
+                    "ja": "周囲光",
                     "zh-TW": "環境光",
                     "ko": "주변광",
                     "zh-CN": "环境光"
@@ -7969,7 +7969,7 @@
                   "type": "float",
                   "label": "Shadow Area",
                   "labels": {
-                    "ja": "シャドウエリア",
+                    "ja": "影エリア",
                     "zh-TW": "陰影區域",
                     "ko": "그림자 영역",
                     "zh-CN": "阴影区域"
@@ -7991,7 +7991,7 @@
                   "type": "float",
                   "label": "Shadow",
                   "labels": {
-                    "ja": "シャドウ",
+                    "ja": "影",
                     "zh-TW": "陰影",
                     "ko": "그림자",
                     "zh-CN": "阴影"
@@ -8037,7 +8037,7 @@
               "type": "group",
               "label": "Special Shader",
               "labels": {
-                "ja": "スペシャルシェーダー",
+                "ja": "特殊シェーダー",
                 "zh-TW": "特殊著色器",
                 "ko": "특수 셰이더",
                 "zh-CN": "特殊着色器"
@@ -8082,7 +8082,7 @@
                   "label": "Refraction",
                   "labels": {
                     "ja": "屈折",
-                    "zh-TW": "折射率",
+                    "zh-TW": "折射",
                     "ko": "굴절",
                     "zh-CN": "折射"
                   },
@@ -8215,7 +8215,7 @@
                   "type": "float",
                   "label": "Viewing Angle",
                   "labels": {
-                    "ja": "視点角",
+                    "ja": "視点角度",
                     "zh-TW": "觀看角度",
                     "ko": "시야각",
                     "zh-CN": "视角"
@@ -8226,7 +8226,7 @@
                   "options": null,
                   "description": "Reduce brightness when viewed from an angle. 0 = perfect",
                   "descriptions": {
-                    "ja": "斜めから見たときの明るさを軽減する。0 = 完璧。",
+                    "ja": "斜めから見たときの明るさを軽減します。0 = 完璧",
                     "zh-TW": "減少從角度觀看時的亮度。0 = 完美",
                     "ko": "각도에서 볼 때 밝기 감소. 0 = 완벽",
                     "zh-CN": "从角度观看时减少亮度。0 = 完美"
@@ -8349,7 +8349,7 @@
                   "type": "float",
                   "label": "Shadow",
                   "labels": {
-                    "ja": "シャドウ",
+                    "ja": "影",
                     "zh-TW": "陰影",
                     "ko": "그림자",
                     "zh-CN": "阴影"
@@ -8437,7 +8437,7 @@
                   "type": "float",
                   "label": "Color Transition",
                   "labels": {
-                    "ja": "色の遷移",
+                    "ja": "色遷移",
                     "zh-TW": "顏色過渡",
                     "ko": "색상 전환",
                     "zh-CN": "颜色过渡"
@@ -8459,7 +8459,7 @@
                   "type": "float",
                   "label": "Align",
                   "labels": {
-                    "ja": "アライメント",
+                    "ja": "整列",
                     "zh-TW": "對齊",
                     "ko": "정렬",
                     "zh-CN": "对齐"
@@ -8503,7 +8503,7 @@
                   "type": "float",
                   "label": "Shape Shift",
                   "labels": {
-                    "ja": "シェイプシフト",
+                    "ja": "形状変化",
                     "zh-TW": "形狀變化",
                     "ko": "모양 변화",
                     "zh-CN": "形状变化"
@@ -8569,7 +8569,7 @@
                       "type": "int",
                       "label": "Color Mode",
                       "labels": {
-                        "ja": "色モード",
+                        "ja": "カラーモード",
                         "zh-TW": "色彩模式",
                         "ko": "색상 모드",
                         "zh-CN": "颜色模式"
@@ -8635,7 +8635,7 @@
                       "type": "float",
                       "label": "Brightness",
                       "labels": {
-                        "ja": "明度",
+                        "ja": "輝度",
                         "zh-TW": "亮度",
                         "ko": "밝기",
                         "zh-CN": "亮度"
@@ -8769,7 +8769,7 @@
                       "type": "int",
                       "label": "Color Mode",
                       "labels": {
-                        "ja": "色モード",
+                        "ja": "カラーモード",
                         "zh-TW": "色彩模式",
                         "ko": "색상 모드",
                         "zh-CN": "颜色模式"
@@ -8835,7 +8835,7 @@
                       "type": "float",
                       "label": "Brightness",
                       "labels": {
-                        "ja": "明度",
+                        "ja": "輝度",
                         "zh-TW": "亮度",
                         "ko": "밝기",
                         "zh-CN": "亮度"
@@ -9013,7 +9013,7 @@
                       "type": "int",
                       "label": "Color Mode",
                       "labels": {
-                        "ja": "色モード",
+                        "ja": "カラーモード",
                         "zh-TW": "色彩模式",
                         "ko": "색상 모드",
                         "zh-CN": "颜色模式"
@@ -9079,7 +9079,7 @@
                       "type": "float",
                       "label": "Brightness",
                       "labels": {
-                        "ja": "明度",
+                        "ja": "輝度",
                         "zh-TW": "亮度",
                         "ko": "밝기",
                         "zh-CN": "亮度"
@@ -9268,7 +9268,7 @@
                   "options": null,
                   "description": "Use real-time automatically detected BPM instead of the set BPM.",
                   "descriptions": {
-                    "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用します。",
+                    "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用する。",
                     "zh-TW": "使用實時自動偵測的BPM，而非設定的BPM。",
                     "ko": "설정된 BPM 대신 실시간으로 자동으로 감지된 BPM을 사용합니다.",
                     "zh-CN": "使用实时自动检测的 BPM，而不是设置的 BPM。"
@@ -9393,7 +9393,7 @@
               "type": "float",
               "label": "Top",
               "labels": {
-                "ja": "上部",
+                "ja": "トップ",
                 "zh-TW": "頂部",
                 "ko": "상단",
                 "zh-CN": "上身"
@@ -9415,7 +9415,7 @@
               "type": "float",
               "label": "Bottom",
               "labels": {
-                "ja": "下部",
+                "ja": "底面",
                 "zh-TW": "底部",
                 "ko": "하부",
                 "zh-CN": "底部"
@@ -9496,7 +9496,7 @@
           "options": null,
           "description": "Height of water level.",
           "descriptions": {
-            "ja": "水位の高さ",
+            "ja": "水位の高さ。",
             "zh-TW": "水面高度",
             "ko": "수위 높이.",
             "zh-CN": "水面高度。"
@@ -9562,7 +9562,7 @@
           "options": null,
           "description": "Controls the maximum distance in meters used to clamp the under water refraction depth. Higher value increases the distortion amount.",
           "descriptions": {
-            "ja": "水中屈折深さをクランプするために使用される最大距離（メートル）を制御します。値が高いほど、歪みの量が増加します。",
+            "ja": "水中屈折深度をクランプするために使用される最大距離をメートル単位で制御します。値が大きいほど、歪みが大きくなります。",
             "zh-TW": "控制用於夾帶水下折射深度的最大距離。較高的數值會增加扭曲程度。",
             "ko": "물 속 굴절 깊이를 클램핑하는 데 사용되는 최대 거리를 제어합니다. 값이 높을수록 왜곡 양이 증가합니다.",
             "zh-CN": "控制用于限制水下折射深度的最大距离（米）。数值越高，失真程度越大。"
@@ -9584,7 +9584,7 @@
           "options": null,
           "description": "Max distance you can see in the water from above.",
           "descriptions": {
-            "ja": "上から水で見渡せる最大距離。",
+            "ja": "上から水中で見える最大距離。",
             "zh-TW": "從上方可以看到的水最大距離。",
             "ko": "위에서 볼 수 있는 물 속의 최대 거리.",
             "zh-CN": "从上方能看到的最大水下距离。"
@@ -9595,7 +9595,7 @@
           "type": "float",
           "label": "Caustics",
           "labels": {
-            "ja": "カウスティックス",
+            "ja": "カウストリクス",
             "zh-TW": "神光",
             "ko": "카우스틱",
             "zh-CN": "焦散"
@@ -9606,7 +9606,7 @@
           "options": null,
           "description": "Caustics effect",
           "descriptions": {
-            "ja": "カウスティクス効果",
+            "ja": "カウストリクス効果",
             "zh-TW": "神光效果",
             "ko": "카우스틱 효과",
             "zh-CN": "焦散效果"
@@ -9628,7 +9628,7 @@
           "options": null,
           "description": "Multiplication applied to the Absorption Distance when viewing from below.",
           "descriptions": {
-            "ja": "下から見た際の吸収距離に乗算される係数。",
+            "ja": "下から見るときに吸収距離に適用される乗数。",
             "zh-TW": "從下方觀看時，應用於吸收距離的乘數。",
             "ko": "아래에서 볼 때 흡수 거리에 적용되는 곱셈.",
             "zh-CN": "从下方观察时应用于吸收距离的乘数。"
@@ -9650,7 +9650,7 @@
           "options": null,
           "description": "Height of wet effect on materials.",
           "descriptions": {
-            "ja": "素材の濡れ効果の高さ。",
+            "ja": "マテリアルへの濡れ効果の高さ。",
             "zh-TW": "材料潮濕效果的高度。",
             "ko": "재질에 대한 젖은 효과의 높이.",
             "zh-CN": "湿润效果对材质的高度。"

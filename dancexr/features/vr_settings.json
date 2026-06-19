@@ -1,0 +1,2964 @@
+{
+  "name": "VR Hands",
+  "docPath": "features/vr_settings",
+  "label": "VR Settings",
+  "labels": {
+    "ja": "VR設定",
+    "zh-TW": "VR 設定",
+    "ko": "VR 설정",
+    "zh-CN": "VR设置"
+  },
+  "description": "VR settings contain VR-specific configuration for hand controllers, UI behavior, pointer calibration, and performance options. These settings are only relevant when running in VR mode.\r\n\r\n\r\n## Hand\r\n\r\nSettings for virtual hand rendering.\r\n\r\n* **Enable** toggles the display of virtual hands in VR.\r\n* **Cast Shadow** controls whether the virtual hands cast shadows in the scene.\r\n* **Left Hand Pose** selects the default pose for the left hand controller.\r\n* **Right Hand Pose** selects the default pose for the right hand controller.\r\n\r\n\r\n## UI\r\n\r\nSettings for how the UI panel behaves in VR.\r\n\r\n* **Block Desktop Window** blocks the desktop mirror window while in VR mode, reducing GPU load by not rendering the screen output to the desktop.\r\n* **UI Auto Return** causes the UI panel to smoothly return to the field of view when it drifts out of sight.\r\n* **UI Distance** (0.5 to 5.0m) controls how far the UI panel is positioned from the user.\r\n* **Mouse Mode in VR** enables using the mouse as a pointer in VR without requiring hand controllers.\r\n* **Mouse Sensitivity** adjusts pointer sensitivity when using mouse mode in VR.\r\n* **Time and FPS** displays the current time and frame rate on the hand overlay.\r\n\r\n\r\n## Pointer\r\n\r\nSettings for calibrating the pointer ray used for VR interaction.\r\n\r\n* **Direction** adjusts the direction angle of the pointer ray relative to the controller.\r\n* **Orientation** adjusts the orientation offset of the pointer.\r\n* **Offset** adjusts the positional offset of the pointer ray origin.\r\n* **Update Pointer** applies the current pointer calibration settings.\r\n\r\n\r\n## Foveated rendering\r\n\r\nFoveated rendering reduces GPU load by rendering the peripheral areas of the view at lower resolution while keeping the center sharp. Only shown on supported hardware.\r\n\r\n* **Enable** toggles foveated rendering on or off.\r\n* **Level** (0 to 1) controls how aggressively the edges of the view are rendered at lower resolution. Higher values increase performance at the cost of peripheral image quality.",
+  "descriptions": {
+    "ja": "(VR settings contain VR-specific configuration for hand controllers, UI behavior, pointer calibration, and performance options. These settings are only relevant when running in VR mode.\r\n\r\n\r\n## Hand\r\n\r\nSettings for virtual hand rendering.\r\n\r\n* **Enable** toggles the display of virtual hands in VR.\r\n* **Cast Shadow** controls whether the virtual hands cast shadows in the scene.\r\n* **Left Hand Pose** selects the default pose for the left hand controller.\r\n* **Right Hand Pose** selects the default pose for the right hand controller.\r\n\r\n\r\n## UI\r\n\r\nSettings for how the UI panel behaves in VR.\r\n\r\n* **Block Desktop Window** blocks the desktop mirror window while in VR mode, reducing GPU load by not rendering the screen output to the desktop.\r\n* **UI Auto Return** causes the UI panel to smoothly return to the field of view when it drifts out of sight.\r\n* **UI Distance** (0.5 to 5.0m) controls how far the UI panel is positioned from the user.\r\n* **Mouse Mode in VR** enables using the mouse as a pointer in VR without requiring hand controllers.\r\n* **Mouse Sensitivity** adjusts pointer sensitivity when using mouse mode in VR.\r\n* **Time and FPS** displays the current time and frame rate on the hand overlay.\r\n\r\n\r\n## Pointer\r\n\r\nSettings for calibrating the pointer ray used for VR interaction.\r\n\r\n* **Direction** adjusts the direction angle of the pointer ray relative to the controller.\r\n* **Orientation** adjusts the orientation offset of the pointer.\r\n* **Offset** adjusts the positional offset of the pointer ray origin.\r\n* **Update Pointer** applies the current pointer calibration settings.\r\n\r\n\r\n## Foveated rendering\r\n\r\nFoveated rendering reduces GPU load by rendering the peripheral areas of the view at lower resolution while keeping the center sharp. Only shown on supported hardware.\r\n\r\n* **Enable** toggles foveated rendering on or off.\r\n* **Level** (0 to 1) controls how aggressively the edges of the view are rendered at lower resolution. Higher values increase performance at the cost of peripheral image quality.)",
+    "zh-TW": "(VR settings contain VR-specific configuration for hand controllers, UI behavior, pointer calibration, and performance options. These settings are only relevant when running in VR mode.\r\n\r\n\r\n## Hand\r\n\r\nSettings for virtual hand rendering.\r\n\r\n* **Enable** toggles the display of virtual hands in VR.\r\n* **Cast Shadow** controls whether the virtual hands cast shadows in the scene.\r\n* **Left Hand Pose** selects the default pose for the left hand controller.\r\n* **Right Hand Pose** selects the default pose for the right hand controller.\r\n\r\n\r\n## UI\r\n\r\nSettings for how the UI panel behaves in VR.\r\n\r\n* **Block Desktop Window** blocks the desktop mirror window while in VR mode, reducing GPU load by not rendering the screen output to the desktop.\r\n* **UI Auto Return** causes the UI panel to smoothly return to the field of view when it drifts out of sight.\r\n* **UI Distance** (0.5 to 5.0m) controls how far the UI panel is positioned from the user.\r\n* **Mouse Mode in VR** enables using the mouse as a pointer in VR without requiring hand controllers.\r\n* **Mouse Sensitivity** adjusts pointer sensitivity when using mouse mode in VR.\r\n* **Time and FPS** displays the current time and frame rate on the hand overlay.\r\n\r\n\r\n## Pointer\r\n\r\nSettings for calibrating the pointer ray used for VR interaction.\r\n\r\n* **Direction** adjusts the direction angle of the pointer ray relative to the controller.\r\n* **Orientation** adjusts the orientation offset of the pointer.\r\n* **Offset** adjusts the positional offset of the pointer ray origin.\r\n* **Update Pointer** applies the current pointer calibration settings.\r\n\r\n\r\n## Foveated rendering\r\n\r\nFoveated rendering reduces GPU load by rendering the peripheral areas of the view at lower resolution while keeping the center sharp. Only shown on supported hardware.\r\n\r\n* **Enable** toggles foveated rendering on or off.\r\n* **Level** (0 to 1) controls how aggressively the edges of the view are rendered at lower resolution. Higher values increase performance at the cost of peripheral image quality.)",
+    "ko": "(VR settings contain VR-specific configuration for hand controllers, UI behavior, pointer calibration, and performance options. These settings are only relevant when running in VR mode.\r\n\r\n\r\n## Hand\r\n\r\nSettings for virtual hand rendering.\r\n\r\n* **Enable** toggles the display of virtual hands in VR.\r\n* **Cast Shadow** controls whether the virtual hands cast shadows in the scene.\r\n* **Left Hand Pose** selects the default pose for the left hand controller.\r\n* **Right Hand Pose** selects the default pose for the right hand controller.\r\n\r\n\r\n## UI\r\n\r\nSettings for how the UI panel behaves in VR.\r\n\r\n* **Block Desktop Window** blocks the desktop mirror window while in VR mode, reducing GPU load by not rendering the screen output to the desktop.\r\n* **UI Auto Return** causes the UI panel to smoothly return to the field of view when it drifts out of sight.\r\n* **UI Distance** (0.5 to 5.0m) controls how far the UI panel is positioned from the user.\r\n* **Mouse Mode in VR** enables using the mouse as a pointer in VR without requiring hand controllers.\r\n* **Mouse Sensitivity** adjusts pointer sensitivity when using mouse mode in VR.\r\n* **Time and FPS** displays the current time and frame rate on the hand overlay.\r\n\r\n\r\n## Pointer\r\n\r\nSettings for calibrating the pointer ray used for VR interaction.\r\n\r\n* **Direction** adjusts the direction angle of the pointer ray relative to the controller.\r\n* **Orientation** adjusts the orientation offset of the pointer.\r\n* **Offset** adjusts the positional offset of the pointer ray origin.\r\n* **Update Pointer** applies the current pointer calibration settings.\r\n\r\n\r\n## Foveated rendering\r\n\r\nFoveated rendering reduces GPU load by rendering the peripheral areas of the view at lower resolution while keeping the center sharp. Only shown on supported hardware.\r\n\r\n* **Enable** toggles foveated rendering on or off.\r\n* **Level** (0 to 1) controls how aggressively the edges of the view are rendered at lower resolution. Higher values increase performance at the cost of peripheral image quality.)",
+    "zh-CN": "(VR settings contain VR-specific configuration for hand controllers, UI behavior, pointer calibration, and performance options. These settings are only relevant when running in VR mode.\r\n\r\n\r\n## Hand\r\n\r\nSettings for virtual hand rendering.\r\n\r\n* **Enable** toggles the display of virtual hands in VR.\r\n* **Cast Shadow** controls whether the virtual hands cast shadows in the scene.\r\n* **Left Hand Pose** selects the default pose for the left hand controller.\r\n* **Right Hand Pose** selects the default pose for the right hand controller.\r\n\r\n\r\n## UI\r\n\r\nSettings for how the UI panel behaves in VR.\r\n\r\n* **Block Desktop Window** blocks the desktop mirror window while in VR mode, reducing GPU load by not rendering the screen output to the desktop.\r\n* **UI Auto Return** causes the UI panel to smoothly return to the field of view when it drifts out of sight.\r\n* **UI Distance** (0.5 to 5.0m) controls how far the UI panel is positioned from the user.\r\n* **Mouse Mode in VR** enables using the mouse as a pointer in VR without requiring hand controllers.\r\n* **Mouse Sensitivity** adjusts pointer sensitivity when using mouse mode in VR.\r\n* **Time and FPS** displays the current time and frame rate on the hand overlay.\r\n\r\n\r\n## Pointer\r\n\r\nSettings for calibrating the pointer ray used for VR interaction.\r\n\r\n* **Direction** adjusts the direction angle of the pointer ray relative to the controller.\r\n* **Orientation** adjusts the orientation offset of the pointer.\r\n* **Offset** adjusts the positional offset of the pointer ray origin.\r\n* **Update Pointer** applies the current pointer calibration settings.\r\n\r\n\r\n## Foveated rendering\r\n\r\nFoveated rendering reduces GPU load by rendering the peripheral areas of the view at lower resolution while keeping the center sharp. Only shown on supported hardware.\r\n\r\n* **Enable** toggles foveated rendering on or off.\r\n* **Level** (0 to 1) controls how aggressively the edges of the view are rendered at lower resolution. Higher values increase performance at the cost of peripheral image quality.)"
+  },
+  "values": [
+    {
+      "name": "Hand",
+      "type": "group",
+      "label": "Hand",
+      "labels": {
+        "ja": "手",
+        "zh-TW": "手部",
+        "ko": "손",
+        "zh-CN": "手部"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Cast Shadow",
+          "type": "bool",
+          "label": "Cast Shadow",
+          "labels": {
+            "ja": "影をキャスト",
+            "zh-TW": "投射陰影",
+            "ko": "그림자 드리우기",
+            "zh-CN": "投射阴影"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Left Hand Pose",
+          "type": "options",
+          "label": "Left Hand Pose",
+          "labels": {
+            "ja": "左手のポーズ",
+            "zh-TW": "左手姿態",
+            "ko": "왼손 포즈",
+            "zh-CN": "左手姿势"
+          },
+          "default": "Auto",
+          "min": 0,
+          "max": 12,
+          "options": ["Auto", "Palm Fingers Apart", "Palm Fingers Together", "Fist", "Victory", "Okay", "Hold", "Vulcan", "Horn", "Point", "Middle Finger", "Thumb Up", "Grab"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Right Hand Pose",
+          "type": "options",
+          "label": "Right Hand Pose",
+          "labels": {
+            "ja": "右手のポーズ",
+            "zh-TW": "右手姿態",
+            "ko": "오른손 포즈",
+            "zh-CN": "右手姿势"
+          },
+          "default": "Auto",
+          "min": 0,
+          "max": 12,
+          "options": ["Auto", "Palm Fingers Apart", "Palm Fingers Together", "Fist", "Victory", "Okay", "Hold", "Vulcan", "Horn", "Point", "Middle Finger", "Thumb Up", "Grab"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "UI",
+      "type": "group",
+      "label": "UI",
+      "labels": {
+        "ja": "UI",
+        "zh-TW": "UI",
+        "ko": "UI",
+        "zh-CN": "用户界面"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Block desktop window in VR",
+          "type": "bool",
+          "label": "Block desktop window in VR",
+          "labels": {
+            "ja": "VRでデスクトップウィンドウをブロック",
+            "zh-TW": "在 VR 中鎖定桌面視窗",
+            "ko": "VR에서 데스크톱 창 차단",
+            "zh-CN": "在VR中阻挡桌面窗口"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Blocks desktop window in VR mode",
+          "descriptions": {
+            "ja": "VRモードでデスクトップウィンドウをブロック",
+            "zh-TW": "在 VR 模式中鎖定桌面視窗",
+            "ko": "VR 모드에서 데스크톱 창 차단",
+            "zh-CN": "在VR模式中阻挡桌面窗口"
+          }
+        },
+        {
+          "name": "UI Auto Return",
+          "type": "bool",
+          "label": "UI Auto Return",
+          "labels": {
+            "ja": "UI自動復帰",
+            "zh-TW": "UI 自動返回",
+            "ko": "UI 자동 복귀",
+            "zh-CN": "UI 自动返回"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "UI smoothly follow user's orientation in VR mode",
+          "descriptions": {
+            "ja": "VRモードでUIがユーザーの向きにスムーズに追従する",
+            "zh-TW": "VR 模式下 UI 平穩跟隨使用者的朝向",
+            "ko": "VR 모드에서 UI가 사용자의 방향을 부드럽게 추적함",
+            "zh-CN": "在 VR 模式下，UI 平滑地跟随用户朝向"
+          }
+        },
+        {
+          "name": "UI Distance",
+          "type": "float",
+          "label": "UI Distance",
+          "labels": {
+            "ja": "UI距離",
+            "zh-TW": "UI 距離",
+            "ko": "UI 거리",
+            "zh-CN": "UI 距离"
+          },
+          "default": 1.2,
+          "min": 0.5,
+          "max": 5,
+          "options": null,
+          "description": "Distance of UI from the user in VR mode",
+          "descriptions": {
+            "ja": "VRモードにおけるUIとユーザーの距離",
+            "zh-TW": "VR 模式下 UI 與使用者的距離",
+            "ko": "VR 모드에서 사용자로부터의 UI 거리",
+            "zh-CN": "VR 模式下 UI 与用户的距离"
+          }
+        },
+        {
+          "name": "Mouse mode in VR",
+          "type": "bool",
+          "label": "Mouse mode in VR",
+          "labels": {
+            "ja": "VRでのマウスモード",
+            "zh-TW": "VR 中的滑鼠模式",
+            "ko": "VR에서의 마우스 모드",
+            "zh-CN": "VR中的鼠标模式"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Use mouse as pointer in VR without hand controllers",
+          "descriptions": {
+            "ja": "ハンドコントローラーなしでVRでマウスをポインターとして使用",
+            "zh-TW": "在沒有手柄的情況下，在 VR 中使用滑鼠作為指標",
+            "ko": "핸드 컨트롤러 없이 VR에서 마우스를 포인터로 사용",
+            "zh-CN": "在VR中使用鼠标作为指针，无需手柄"
+          }
+        },
+        {
+          "name": "Mouse Sensitivity",
+          "type": "float",
+          "label": "Mouse Sensitivity",
+          "labels": {
+            "ja": "マウス感度",
+            "zh-TW": "滑鼠靈敏度",
+            "ko": "마우스 민감도",
+            "zh-CN": "鼠标灵敏度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": "Mouse sensitivity in VR mode",
+          "descriptions": {
+            "ja": "VRモードでのマウス感度",
+            "zh-TW": "在 VR 模式中的滑鼠靈敏度",
+            "ko": "VR 모드 마우스 민감도",
+            "zh-CN": "VR模式下的鼠标灵敏度"
+          }
+        },
+        {
+          "name": "Time And FPS",
+          "type": "bool",
+          "label": "Time And FPS",
+          "labels": {
+            "ja": "(Time And FPS)",
+            "zh-TW": "(Time And FPS)",
+            "ko": "(Time And FPS)",
+            "zh-CN": "(Time And FPS)"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Foveated Rendering Level",
+      "type": "float",
+      "label": "Foveated Rendering Level",
+      "labels": {
+        "ja": "フォビエートレンダリングレベル",
+        "zh-TW": "視場景渲染級別",
+        "ko": "포비에이티드 렌더링 레벨",
+        "zh-CN": "眼动渲染级别"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Pointer",
+      "type": "group",
+      "label": "Pointer",
+      "labels": {
+        "ja": "ポインター",
+        "zh-TW": "指標",
+        "ko": "포인터",
+        "zh-CN": "指针"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Direction",
+          "type": "float",
+          "label": "Direction",
+          "labels": {
+            "ja": "方向",
+            "zh-TW": "方向",
+            "ko": "방향",
+            "zh-CN": "方向"
+          },
+          "default": 0,
+          "min": -90,
+          "max": 90,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Orientation",
+          "type": "float",
+          "label": "Orientation",
+          "labels": {
+            "ja": "向き",
+            "zh-TW": "朝向",
+            "ko": "오리엔테이션",
+            "zh-CN": "朝向"
+          },
+          "default": 0,
+          "min": -90,
+          "max": 90,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Offset",
+          "type": "float",
+          "label": "Offset",
+          "labels": {
+            "ja": "オフセット",
+            "zh-TW": "偏移",
+            "ko": "오프셋",
+            "zh-CN": "偏移量"
+          },
+          "default": 0,
+          "min": -0.1,
+          "max": 0.1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Handle",
+      "type": "group",
+      "label": "Handle",
+      "labels": {
+        "ja": "(Handle)",
+        "zh-TW": "(Handle)",
+        "ko": "(Handle)",
+        "zh-CN": "(Handle)"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Model",
+          "type": "options",
+          "label": "Model",
+          "labels": {
+            "ja": "モデル",
+            "zh-TW": "模型",
+            "ko": "모델",
+            "zh-CN": "模型"
+          },
+          "default": "[Handle]",
+          "min": 0,
+          "max": 1,
+          "options": ["[Handle]"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Radius",
+          "type": "float",
+          "label": "Radius",
+          "labels": {
+            "ja": "半径",
+            "zh-TW": "半徑",
+            "ko": "반지름",
+            "zh-CN": "半径"
+          },
+          "default": 0.02,
+          "min": 0.01,
+          "max": 0.1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Tip Radius",
+          "type": "float",
+          "label": "Tip Radius",
+          "labels": {
+            "ja": "先端の半径",
+            "zh-TW": "尖端半徑",
+            "ko": "팁 반지름",
+            "zh-CN": "尖端半径"
+          },
+          "default": 1,
+          "min": 1,
+          "max": 2,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Length",
+          "type": "float",
+          "label": "Length",
+          "labels": {
+            "ja": "長さ",
+            "zh-TW": "長度",
+            "ko": "길이",
+            "zh-CN": "长度"
+          },
+          "default": 0.2,
+          "min": 0.01,
+          "max": 0.5,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Scale",
+          "type": "float",
+          "label": "Scale",
+          "labels": {
+            "ja": "スケール",
+            "zh-TW": "縮放",
+            "ko": "스케일",
+            "zh-CN": "缩放"
+          },
+          "default": 0,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Offset",
+          "type": "group",
+          "label": "Offset",
+          "labels": {
+            "ja": "オフセット",
+            "zh-TW": "偏移",
+            "ko": "오프셋",
+            "zh-CN": "偏移量"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "X",
+              "type": "float",
+              "label": "X",
+              "labels": {
+                "ja": "(X)",
+                "zh-TW": "(X)",
+                "ko": "(X)",
+                "zh-CN": "(X)"
+              },
+              "default": 0,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Y",
+              "type": "float",
+              "label": "Y",
+              "labels": {
+                "ja": "(Y)",
+                "zh-TW": "(Y)",
+                "ko": "(Y)",
+                "zh-CN": "(Y)"
+              },
+              "default": 0,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Z",
+              "type": "float",
+              "label": "Z",
+              "labels": {
+                "ja": "(Z)",
+                "zh-TW": "(Z)",
+                "ko": "(Z)",
+                "zh-CN": "(Z)"
+              },
+              "default": 0,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Orientation",
+          "type": "group",
+          "label": "Orientation",
+          "labels": {
+            "ja": "向き",
+            "zh-TW": "朝向",
+            "ko": "오리엔테이션",
+            "zh-CN": "朝向"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "X",
+              "type": "float",
+              "label": "X",
+              "labels": {
+                "ja": "(X)",
+                "zh-TW": "(X)",
+                "ko": "(X)",
+                "zh-CN": "(X)"
+              },
+              "default": 0,
+              "min": -180,
+              "max": 180,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Y",
+              "type": "float",
+              "label": "Y",
+              "labels": {
+                "ja": "(Y)",
+                "zh-TW": "(Y)",
+                "ko": "(Y)",
+                "zh-CN": "(Y)"
+              },
+              "default": 0,
+              "min": -180,
+              "max": 180,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Z",
+              "type": "float",
+              "label": "Z",
+              "labels": {
+                "ja": "(Z)",
+                "zh-TW": "(Z)",
+                "ko": "(Z)",
+                "zh-CN": "(Z)"
+              },
+              "default": 0,
+              "min": -180,
+              "max": 180,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Auto Chain Physics",
+          "type": "group",
+          "label": "Auto Chain Physics",
+          "labels": {
+            "ja": "(Auto Chain Physics)",
+            "zh-TW": "(Auto Chain Physics)",
+            "ko": "(Auto Chain Physics)",
+            "zh-CN": "(Auto Chain Physics)"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "Particle Radius",
+              "type": "float",
+              "label": "Particle Radius",
+              "labels": {
+                "ja": "粒子半径",
+                "zh-TW": "粒子半徑",
+                "ko": "입자 반지름",
+                "zh-CN": "粒子半径"
+              },
+              "default": 0.02,
+              "min": 0.01,
+              "max": 0.1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Anchor Position",
+              "type": "float",
+              "label": "Anchor Position",
+              "labels": {
+                "ja": "アンカー位置",
+                "zh-TW": "錨定位置",
+                "ko": "앵커 위치",
+                "zh-CN": "锚定位置"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Distance Compliance",
+              "type": "float",
+              "label": "Distance Compliance",
+              "labels": {
+                "ja": "距離適合性",
+                "zh-TW": "距離符合度",
+                "ko": "거리 준수율",
+                "zh-CN": "距离遵从度"
+              },
+              "default": 6,
+              "min": 0,
+              "max": 8,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Rotation Compliance",
+              "type": "float",
+              "label": "Rotation Compliance",
+              "labels": {
+                "ja": "回転コンプライアンス",
+                "zh-TW": "旋轉順應性",
+                "ko": "회전 순응도",
+                "zh-CN": "旋转柔顺度"
+              },
+              "default": 3,
+              "min": 0,
+              "max": 8,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Damping",
+              "type": "float",
+              "label": "Damping",
+              "labels": {
+                "ja": "減衰",
+                "zh-TW": "阻尼",
+                "ko": "감쇠",
+                "zh-CN": "阻尼"
+              },
+              "default": 0.1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Visualize",
+              "type": "bool",
+              "label": "Visualize",
+              "labels": {
+                "ja": "可視化",
+                "zh-TW": "視覺化",
+                "ko": "시각화",
+                "zh-CN": "可视化"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Particle Properties",
+          "type": "group",
+          "label": "Particle Properties",
+          "labels": {
+            "ja": "パーティクルプロパティ",
+            "zh-TW": "粒子屬性",
+            "ko": "입자 속성",
+            "zh-CN": "粒子属性"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "Gravity",
+              "type": "float",
+              "label": "Gravity",
+              "labels": {
+                "ja": "重力",
+                "zh-TW": "重力",
+                "ko": "중력",
+                "zh-CN": "重力"
+              },
+              "default": 0,
+              "min": -9.8,
+              "max": 9.8,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Friction",
+              "type": "float",
+              "label": "Friction",
+              "labels": {
+                "ja": "摩擦",
+                "zh-TW": "摩擦力",
+                "ko": "마찰",
+                "zh-CN": "摩擦力"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Drag (Air)",
+              "type": "float",
+              "label": "Drag (Air)",
+              "labels": {
+                "ja": "抵抗（空気）",
+                "zh-TW": "阻力（空氣）",
+                "ko": "항력 (공기)",
+                "zh-CN": "阻力（空气）"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 2,
+              "options": null,
+              "description": "Air resistancy",
+              "descriptions": {
+                "ja": "空気抵抗",
+                "zh-TW": "空氣阻力",
+                "ko": "공기 저항",
+                "zh-CN": "空气阻力"
+              }
+            },
+            {
+              "name": "Drag (Underwater)",
+              "type": "float",
+              "label": "Drag (Underwater)",
+              "labels": {
+                "ja": "抵抗（水中）",
+                "zh-TW": "阻力（水下）",
+                "ko": "항력 (수중)",
+                "zh-CN": "阻力（水下）"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 2,
+              "options": null,
+              "description": "Underwater resistancy",
+              "descriptions": {
+                "ja": "水抵抗",
+                "zh-TW": "水下阻力",
+                "ko": "수중 저항",
+                "zh-CN": "水下阻力"
+              }
+            },
+            {
+              "name": "Buoyancy",
+              "type": "float",
+              "label": "Buoyancy",
+              "labels": {
+                "ja": "浮力",
+                "zh-TW": "浮力",
+                "ko": "부력",
+                "zh-CN": "浮力"
+              },
+              "default": -0.1,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Wind",
+              "type": "group",
+              "label": "Wind",
+              "labels": {
+                "ja": "風",
+                "zh-TW": "風",
+                "ko": "바람",
+                "zh-CN": "风力"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
+              "values": [
+                {
+                  "name": "Wind Influence",
+                  "type": "float",
+                  "label": "Wind Influence",
+                  "labels": {
+                    "ja": "風の影響度",
+                    "zh-TW": "風影響力",
+                    "ko": "바람 영향력",
+                    "zh-CN": "风力影响"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Turbulence Scale",
+                  "type": "float",
+                  "label": "Turbulence Scale",
+                  "labels": {
+                    "ja": "乱流スケール",
+                    "zh-TW": "湍流尺度",
+                    "ko": "난류 스케일",
+                    "zh-CN": "湍流尺度"
+                  },
+                  "default": 0,
+                  "min": -2,
+                  "max": 2,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Turbulence Intensity",
+                  "type": "float",
+                  "label": "Turbulence Intensity",
+                  "labels": {
+                    "ja": "乱流強度",
+                    "zh-TW": "湍流強度",
+                    "ko": "난류 강도",
+                    "zh-CN": "湍流强度"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 2,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Turbulence Time Scale",
+                  "type": "float",
+                  "label": "Turbulence Time Scale",
+                  "labels": {
+                    "ja": "乱流タイムスケール",
+                    "zh-TW": "湍流時間尺度",
+                    "ko": "난류 시간 스케일",
+                    "zh-CN": "湍流时间尺度"
+                  },
+                  "default": 0,
+                  "min": -4,
+                  "max": 4,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Collide With",
+              "type": "group",
+              "label": "Collide With",
+              "labels": {
+                "ja": "衝突判定",
+                "zh-TW": "與碰撞",
+                "ko": "충돌 대상",
+                "zh-CN": "碰撞对象"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
+              "values": [
+                {
+                  "name": "Head",
+                  "type": "bool",
+                  "label": "Head",
+                  "labels": {
+                    "ja": "頭",
+                    "zh-TW": "頭部",
+                    "ko": "머리",
+                    "zh-CN": "头部"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Body",
+                  "type": "bool",
+                  "label": "Body",
+                  "labels": {
+                    "ja": "体",
+                    "zh-TW": "身體",
+                    "ko": "몸통",
+                    "zh-CN": "身体"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Boobs",
+                  "type": "bool",
+                  "label": "Boobs",
+                  "labels": {
+                    "ja": "バスト",
+                    "zh-TW": "胸部",
+                    "ko": "보디스",
+                    "zh-CN": "胸部"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Butts",
+                  "type": "bool",
+                  "label": "Butts",
+                  "labels": {
+                    "ja": "お尻",
+                    "zh-TW": "臀部",
+                    "ko": "엉덩이",
+                    "zh-CN": "臀部"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Arms",
+                  "type": "bool",
+                  "label": "Arms",
+                  "labels": {
+                    "ja": "(Arms)",
+                    "zh-TW": "(Arms)",
+                    "ko": "(Arms)",
+                    "zh-CN": "(Arms)"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Hands",
+                  "type": "bool",
+                  "label": "Hands",
+                  "labels": {
+                    "ja": "手",
+                    "zh-TW": "手部",
+                    "ko": "손",
+                    "zh-CN": "手部"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Legs",
+                  "type": "bool",
+                  "label": "Legs",
+                  "labels": {
+                    "ja": "脚",
+                    "zh-TW": "腿部",
+                    "ko": "다리",
+                    "zh-CN": "腿部"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Feet",
+                  "type": "bool",
+                  "label": "Feet",
+                  "labels": {
+                    "ja": "足",
+                    "zh-TW": "足部",
+                    "ko": "발",
+                    "zh-CN": "脚部"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Holes",
+                  "type": "bool",
+                  "label": "Holes",
+                  "labels": {
+                    "ja": "(Holes)",
+                    "zh-TW": "(Holes)",
+                    "ko": "(Holes)",
+                    "zh-CN": "(Holes)"
+                  },
+                  "default": "true",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Player",
+                  "type": "bool",
+                  "label": "Player",
+                  "labels": {
+                    "ja": "プレイヤー",
+                    "zh-TW": "玩家",
+                    "ko": "플레이어",
+                    "zh-CN": "玩家"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Cloth Layer 1",
+                  "type": "bool",
+                  "label": "Cloth Layer 1",
+                  "labels": {
+                    "ja": "(Cloth Layer 1)",
+                    "zh-TW": "(Cloth Layer 1)",
+                    "ko": "(Cloth Layer 1)",
+                    "zh-CN": "(Cloth Layer 1)"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Cloth Layer 2",
+                  "type": "bool",
+                  "label": "Cloth Layer 2",
+                  "labels": {
+                    "ja": "(Cloth Layer 2)",
+                    "zh-TW": "(Cloth Layer 2)",
+                    "ko": "(Cloth Layer 2)",
+                    "zh-CN": "(Cloth Layer 2)"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Hair",
+                  "type": "bool",
+                  "label": "Hair",
+                  "labels": {
+                    "ja": "髪",
+                    "zh-TW": "頭髮",
+                    "ko": "머리카락",
+                    "zh-CN": "头发"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Soft Boobs",
+                  "type": "bool",
+                  "label": "Soft Boobs",
+                  "labels": {
+                    "ja": "(Soft Boobs)",
+                    "zh-TW": "(Soft Boobs)",
+                    "ko": "(Soft Boobs)",
+                    "zh-CN": "(Soft Boobs)"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Soft Butts",
+                  "type": "bool",
+                  "label": "Soft Butts",
+                  "labels": {
+                    "ja": "(Soft Butts)",
+                    "zh-TW": "(Soft Butts)",
+                    "ko": "(Soft Butts)",
+                    "zh-CN": "(Soft Butts)"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Material",
+          "type": "group",
+          "label": "Material",
+          "labels": {
+            "ja": "材質",
+            "zh-TW": "材質",
+            "ko": "재질",
+            "zh-CN": "材质"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "Surface",
+              "type": "group",
+              "label": "Surface",
+              "labels": {
+                "ja": "表面",
+                "zh-TW": "表面",
+                "ko": "표면",
+                "zh-CN": "表面"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
+              "values": [
+                {
+                  "name": "Color",
+                  "type": "group",
+                  "label": "Color",
+                  "labels": {
+                    "ja": "色",
+                    "zh-TW": "顏色",
+                    "ko": "색상",
+                    "zh-CN": "颜色"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  },
+                  "values": [
+                    {
+                      "name": "Color Mode",
+                      "type": "int",
+                      "label": "Color Mode",
+                      "labels": {
+                        "ja": "カラーモード",
+                        "zh-TW": "色彩模式",
+                        "ko": "색상 모드",
+                        "zh-CN": "颜色模式"
+                      },
+                      "default": 0,
+                      "min": 0,
+                      "max": 1,
+                      "options": ["RGB", "HSV"],
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Hue",
+                      "type": "float",
+                      "label": "Hue",
+                      "labels": {
+                        "ja": "色相",
+                        "zh-TW": "色相",
+                        "ko": "색상",
+                        "zh-CN": "色相"
+                      },
+                      "default": 0,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Satuation",
+                      "type": "float",
+                      "label": "Satuation",
+                      "labels": {
+                        "ja": "彩度",
+                        "zh-TW": "飽和度",
+                        "ko": "채도",
+                        "zh-CN": "饱和度"
+                      },
+                      "default": 0,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Brightness",
+                      "type": "float",
+                      "label": "Brightness",
+                      "labels": {
+                        "ja": "輝度",
+                        "zh-TW": "亮度",
+                        "ko": "밝기",
+                        "zh-CN": "亮度"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Red",
+                      "type": "float",
+                      "label": "Red",
+                      "labels": {
+                        "ja": "赤",
+                        "zh-TW": "紅色",
+                        "ko": "빨간색",
+                        "zh-CN": "红色"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Green",
+                      "type": "float",
+                      "label": "Green",
+                      "labels": {
+                        "ja": "緑",
+                        "zh-TW": "綠色",
+                        "ko": "녹색",
+                        "zh-CN": "绿色"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Blue",
+                      "type": "float",
+                      "label": "Blue",
+                      "labels": {
+                        "ja": "青",
+                        "zh-TW": "藍色",
+                        "ko": "파란색",
+                        "zh-CN": "蓝色"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Blend Mode",
+                      "type": "options",
+                      "label": "Blend Mode",
+                      "labels": {
+                        "ja": "ブレンドモード",
+                        "zh-TW": "混合模式",
+                        "ko": "블렌드 모드",
+                        "zh-CN": "混合模式"
+                      },
+                      "default": "Blend",
+                      "min": 0,
+                      "max": 3,
+                      "options": ["Original", "Multiply", "Blend", "Color Shift"],
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Blend",
+                      "type": "float",
+                      "label": "Blend",
+                      "labels": {
+                        "ja": "ブレンド",
+                        "zh-TW": "混合",
+                        "ko": "블렌드",
+                        "zh-CN": "混合"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Alpha",
+                      "type": "float",
+                      "label": "Alpha",
+                      "labels": {
+                        "ja": "アルファ",
+                        "zh-TW": "Alpha",
+                        "ko": "알파",
+                        "zh-CN": "透明度"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "Ambient",
+                  "type": "float",
+                  "label": "Ambient",
+                  "labels": {
+                    "ja": "周囲光",
+                    "zh-TW": "環境光",
+                    "ko": "주변광",
+                    "zh-CN": "环境光"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Glow",
+                  "type": "float",
+                  "label": "Glow",
+                  "labels": {
+                    "ja": "グロー",
+                    "zh-TW": "發光",
+                    "ko": "발광",
+                    "zh-CN": "发光"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 10,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Alpha Purpose",
+                  "type": "options",
+                  "label": "Alpha Purpose",
+                  "labels": {
+                    "ja": "アルファの用途",
+                    "zh-TW": "Alpha 用途",
+                    "ko": "알파 목적",
+                    "zh-CN": "Alpha 的用途"
+                  },
+                  "default": "Transparency",
+                  "min": 0,
+                  "max": 5,
+                  "options": ["Transparency", "Gloss", "Metallic", "Occlusion", "Detail Mask", "None"],
+                  "description": "How alpha channel is used in the shader",
+                  "descriptions": {
+                    "ja": "シェーダーでアルファチャネルが使用される方法",
+                    "zh-TW": "Shader 中 Alpha 通道的用途",
+                    "ko": "셰이더에서 알파 채널 사용 방식",
+                    "zh-CN": "Alpha 通道在着色器中的使用方式"
+                  }
+                },
+                {
+                  "name": "Special Shader",
+                  "type": "group",
+                  "label": "Special Shader",
+                  "labels": {
+                    "ja": "特殊シェーダー",
+                    "zh-TW": "特殊著色器",
+                    "ko": "특수 셰이더",
+                    "zh-CN": "特殊着色器"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": "Overrides the shader type for all materials on the actor.\r\n\r\n**Mode** selects the shader: *Off* uses the default shader;\r\n*Refraction Thick/Thin* simulates glass with refractive\r\ntransparency; *Outline* renders only the outline edges;\r\n*Unlit* disables all lighting; *Experiment* is a\r\nplaceholder for custom shader effects.\r\n\r\n**Refraction** controls the index of refraction for glass\r\nmodes — higher values bend light more.\r\n\r\n**Thickness** adjusts the perceived depth of thin glass\r\nrefraction.",
+                  "descriptions": {
+                    "ja": "(Overrides the shader type for all materials on the actor.\r\n\r\n**Mode** selects the shader: *Off* uses the default shader;\r\n*Refraction Thick/Thin* simulates glass with refractive\r\ntransparency; *Outline* renders only the outline edges;\r\n*Unlit* disables all lighting; *Experiment* is a\r\nplaceholder for custom shader effects.\r\n\r\n**Refraction** controls the index of refraction for glass\r\nmodes — higher values bend light more.\r\n\r\n**Thickness** adjusts the perceived depth of thin glass\r\nrefraction.)",
+                    "zh-TW": "(Overrides the shader type for all materials on the actor.\r\n\r\n**Mode** selects the shader: *Off* uses the default shader;\r\n*Refraction Thick/Thin* simulates glass with refractive\r\ntransparency; *Outline* renders only the outline edges;\r\n*Unlit* disables all lighting; *Experiment* is a\r\nplaceholder for custom shader effects.\r\n\r\n**Refraction** controls the index of refraction for glass\r\nmodes — higher values bend light more.\r\n\r\n**Thickness** adjusts the perceived depth of thin glass\r\nrefraction.)",
+                    "ko": "(Overrides the shader type for all materials on the actor.\r\n\r\n**Mode** selects the shader: *Off* uses the default shader;\r\n*Refraction Thick/Thin* simulates glass with refractive\r\ntransparency; *Outline* renders only the outline edges;\r\n*Unlit* disables all lighting; *Experiment* is a\r\nplaceholder for custom shader effects.\r\n\r\n**Refraction** controls the index of refraction for glass\r\nmodes — higher values bend light more.\r\n\r\n**Thickness** adjusts the perceived depth of thin glass\r\nrefraction.)",
+                    "zh-CN": "(Overrides the shader type for all materials on the actor.\r\n\r\n**Mode** selects the shader: *Off* uses the default shader;\r\n*Refraction Thick/Thin* simulates glass with refractive\r\ntransparency; *Outline* renders only the outline edges;\r\n*Unlit* disables all lighting; *Experiment* is a\r\nplaceholder for custom shader effects.\r\n\r\n**Refraction** controls the index of refraction for glass\r\nmodes — higher values bend light more.\r\n\r\n**Thickness** adjusts the perceived depth of thin glass\r\nrefraction.)"
+                  },
+                  "values": [
+                    {
+                      "name": "Mode",
+                      "type": "options",
+                      "label": "Mode",
+                      "labels": {
+                        "ja": "モード",
+                        "zh-TW": "模式",
+                        "ko": "모드",
+                        "zh-CN": "模式"
+                      },
+                      "default": "Off",
+                      "min": 0,
+                      "max": 5,
+                      "options": ["Off", "Refraction Thick", "Refraction Thin", "Outline", "Unlit", "Experiment"],
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Refraction",
+                      "type": "float",
+                      "label": "Refraction",
+                      "labels": {
+                        "ja": "屈折",
+                        "zh-TW": "折射",
+                        "ko": "굴절",
+                        "zh-CN": "折射"
+                      },
+                      "default": 0.5,
+                      "min": 1,
+                      "max": 3,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Thickness",
+                      "type": "float",
+                      "label": "Thickness",
+                      "labels": {
+                        "ja": "厚さ",
+                        "zh-TW": "厚度",
+                        "ko": "두께",
+                        "zh-CN": "厚度"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Metallic",
+              "type": "float",
+              "label": "Metallic",
+              "labels": {
+                "ja": "メタリック",
+                "zh-TW": "金屬感",
+                "ko": "금속성",
+                "zh-CN": "金属度"
+              },
+              "default": 0.75,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Gloss",
+              "type": "float",
+              "label": "Gloss",
+              "labels": {
+                "ja": "光沢度",
+                "zh-TW": "光澤度",
+                "ko": "광택",
+                "zh-CN": "光泽度"
+              },
+              "default": 0.75,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Bump",
+              "type": "float",
+              "label": "Bump",
+              "labels": {
+                "ja": "バンプ",
+                "zh-TW": "凹凸",
+                "ko": "범프",
+                "zh-CN": "凹凸贴图"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Sweat",
+              "type": "float",
+              "label": "Sweat",
+              "labels": {
+                "ja": "汗",
+                "zh-TW": "汗水",
+                "ko": "땀",
+                "zh-CN": "汗水"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Texture",
+              "type": "options",
+              "label": "Texture",
+              "labels": {
+                "ja": "テクスチャ",
+                "zh-TW": "紋理",
+                "ko": "텍스처",
+                "zh-CN": "纹理"
+              },
+              "default": "[Solid Color]",
+              "min": 0,
+              "max": 5,
+              "options": ["[Solid Color]", "[Wood1]", "[DanceXR]", "[Tiles]", "[Concrete]", "[Video]"],
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Detail Map",
+              "type": "group",
+              "label": "Detail Map",
+              "labels": {
+                "ja": "ディテールマップ",
+                "zh-TW": "細節貼圖",
+                "ko": "디테일 맵",
+                "zh-CN": "细节贴图"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
+              "values": [
+                {
+                  "name": "Hexagon Map",
+                  "type": "group",
+                  "label": "Hexagon Map",
+                  "labels": {
+                    "ja": "(Hexagon Map)",
+                    "zh-TW": "(Hexagon Map)",
+                    "ko": "(Hexagon Map)",
+                    "zh-CN": "(Hexagon Map)"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": "A procedural hexagonal (or circular) micro-pattern overlaid on\r\nthe surface for fishnet, sci-fi panel, or studded looks. Toggle\r\nit off whenever you want a smooth fabric.\r\n\r\n\r\n## Density & Shape\r\n\r\n**Density** sets how many hexagons fit across the surface\r\n(snapped to powers of two for clean tiling). **Size** scales\r\neach hex within its cell — smaller values leave gaps between\r\nhexes, larger values pack them tight. **Use Circle** swaps the\r\nhex shape for circles, useful for polka-dot or rivet looks.\r\n**Soft Edge** controls the falloff at each cell's border;\r\nvalues near zero give a crisp boundary, larger values blur the\r\npattern into the surrounding surface.\r\n\r\n\r\n## Bump & Noise\r\n\r\n**Bump** raises or lowers each cell relative to the surface\r\n(negative values stamp inwards). **Noise** randomises per-cell\r\nheight so the pattern doesn't read as a perfect grid.\r\n\r\n\r\n## UV Projection\r\n\r\nFor outfits the cells can either follow the model's UV layout\r\nor be projected from a virtual cylinder around the body.\r\n**UV Projection** enables the cylindrical mode — turn it on\r\nwhen stretched or distorted UVs ruin the pattern.\r\n**Projection Radius** scales the cylinder, and **Rotation**\r\ntilts it so the hex grid runs diagonally instead of straight.",
+                  "descriptions": {
+                    "ja": "(A procedural hexagonal (or circular) micro-pattern overlaid on\r\nthe surface for fishnet, sci-fi panel, or studded looks. Toggle\r\nit off whenever you want a smooth fabric.\r\n\r\n\r\n## Density & Shape\r\n\r\n**Density** sets how many hexagons fit across the surface\r\n(snapped to powers of two for clean tiling). **Size** scales\r\neach hex within its cell — smaller values leave gaps between\r\nhexes, larger values pack them tight. **Use Circle** swaps the\r\nhex shape for circles, useful for polka-dot or rivet looks.\r\n**Soft Edge** controls the falloff at each cell's border;\r\nvalues near zero give a crisp boundary, larger values blur the\r\npattern into the surrounding surface.\r\n\r\n\r\n## Bump & Noise\r\n\r\n**Bump** raises or lowers each cell relative to the surface\r\n(negative values stamp inwards). **Noise** randomises per-cell\r\nheight so the pattern doesn't read as a perfect grid.\r\n\r\n\r\n## UV Projection\r\n\r\nFor outfits the cells can either follow the model's UV layout\r\nor be projected from a virtual cylinder around the body.\r\n**UV Projection** enables the cylindrical mode — turn it on\r\nwhen stretched or distorted UVs ruin the pattern.\r\n**Projection Radius** scales the cylinder, and **Rotation**\r\ntilts it so the hex grid runs diagonally instead of straight.)",
+                    "zh-TW": "(A procedural hexagonal (or circular) micro-pattern overlaid on\r\nthe surface for fishnet, sci-fi panel, or studded looks. Toggle\r\nit off whenever you want a smooth fabric.\r\n\r\n\r\n## Density & Shape\r\n\r\n**Density** sets how many hexagons fit across the surface\r\n(snapped to powers of two for clean tiling). **Size** scales\r\neach hex within its cell — smaller values leave gaps between\r\nhexes, larger values pack them tight. **Use Circle** swaps the\r\nhex shape for circles, useful for polka-dot or rivet looks.\r\n**Soft Edge** controls the falloff at each cell's border;\r\nvalues near zero give a crisp boundary, larger values blur the\r\npattern into the surrounding surface.\r\n\r\n\r\n## Bump & Noise\r\n\r\n**Bump** raises or lowers each cell relative to the surface\r\n(negative values stamp inwards). **Noise** randomises per-cell\r\nheight so the pattern doesn't read as a perfect grid.\r\n\r\n\r\n## UV Projection\r\n\r\nFor outfits the cells can either follow the model's UV layout\r\nor be projected from a virtual cylinder around the body.\r\n**UV Projection** enables the cylindrical mode — turn it on\r\nwhen stretched or distorted UVs ruin the pattern.\r\n**Projection Radius** scales the cylinder, and **Rotation**\r\ntilts it so the hex grid runs diagonally instead of straight.)",
+                    "ko": "(A procedural hexagonal (or circular) micro-pattern overlaid on\r\nthe surface for fishnet, sci-fi panel, or studded looks. Toggle\r\nit off whenever you want a smooth fabric.\r\n\r\n\r\n## Density & Shape\r\n\r\n**Density** sets how many hexagons fit across the surface\r\n(snapped to powers of two for clean tiling). **Size** scales\r\neach hex within its cell — smaller values leave gaps between\r\nhexes, larger values pack them tight. **Use Circle** swaps the\r\nhex shape for circles, useful for polka-dot or rivet looks.\r\n**Soft Edge** controls the falloff at each cell's border;\r\nvalues near zero give a crisp boundary, larger values blur the\r\npattern into the surrounding surface.\r\n\r\n\r\n## Bump & Noise\r\n\r\n**Bump** raises or lowers each cell relative to the surface\r\n(negative values stamp inwards). **Noise** randomises per-cell\r\nheight so the pattern doesn't read as a perfect grid.\r\n\r\n\r\n## UV Projection\r\n\r\nFor outfits the cells can either follow the model's UV layout\r\nor be projected from a virtual cylinder around the body.\r\n**UV Projection** enables the cylindrical mode — turn it on\r\nwhen stretched or distorted UVs ruin the pattern.\r\n**Projection Radius** scales the cylinder, and **Rotation**\r\ntilts it so the hex grid runs diagonally instead of straight.)",
+                    "zh-CN": "(A procedural hexagonal (or circular) micro-pattern overlaid on\r\nthe surface for fishnet, sci-fi panel, or studded looks. Toggle\r\nit off whenever you want a smooth fabric.\r\n\r\n\r\n## Density & Shape\r\n\r\n**Density** sets how many hexagons fit across the surface\r\n(snapped to powers of two for clean tiling). **Size** scales\r\neach hex within its cell — smaller values leave gaps between\r\nhexes, larger values pack them tight. **Use Circle** swaps the\r\nhex shape for circles, useful for polka-dot or rivet looks.\r\n**Soft Edge** controls the falloff at each cell's border;\r\nvalues near zero give a crisp boundary, larger values blur the\r\npattern into the surrounding surface.\r\n\r\n\r\n## Bump & Noise\r\n\r\n**Bump** raises or lowers each cell relative to the surface\r\n(negative values stamp inwards). **Noise** randomises per-cell\r\nheight so the pattern doesn't read as a perfect grid.\r\n\r\n\r\n## UV Projection\r\n\r\nFor outfits the cells can either follow the model's UV layout\r\nor be projected from a virtual cylinder around the body.\r\n**UV Projection** enables the cylindrical mode — turn it on\r\nwhen stretched or distorted UVs ruin the pattern.\r\n**Projection Radius** scales the cylinder, and **Rotation**\r\ntilts it so the hex grid runs diagonally instead of straight.)"
+                  },
+                  "values": [
+                    {
+                      "name": "Density",
+                      "type": "float",
+                      "label": "Density",
+                      "labels": {
+                        "ja": "密度",
+                        "zh-TW": "密度",
+                        "ko": "밀도",
+                        "zh-CN": "密度"
+                      },
+                      "default": 2,
+                      "min": 0,
+                      "max": 8,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Size",
+                      "type": "float",
+                      "label": "Size",
+                      "labels": {
+                        "ja": "サイズ",
+                        "zh-TW": "尺寸",
+                        "ko": "크기",
+                        "zh-CN": "大小"
+                      },
+                      "default": 1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Bump",
+                      "type": "float",
+                      "label": "Bump",
+                      "labels": {
+                        "ja": "バンプ",
+                        "zh-TW": "凹凸",
+                        "ko": "범프",
+                        "zh-CN": "凹凸贴图"
+                      },
+                      "default": 0.5,
+                      "min": -1,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Noise",
+                      "type": "float",
+                      "label": "Noise",
+                      "labels": {
+                        "ja": "ノイズ",
+                        "zh-TW": "雜訊",
+                        "ko": "노이즈",
+                        "zh-CN": "噪点"
+                      },
+                      "default": 0.2,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Use Circle",
+                      "type": "bool",
+                      "label": "Use Circle",
+                      "labels": {
+                        "ja": "(Use Circle)",
+                        "zh-TW": "(Use Circle)",
+                        "ko": "(Use Circle)",
+                        "zh-CN": "(Use Circle)"
+                      },
+                      "default": "false",
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    },
+                    {
+                      "name": "Soft Edge",
+                      "type": "float",
+                      "label": "Soft Edge",
+                      "labels": {
+                        "ja": "ソフトエッジ",
+                        "zh-TW": "軟邊",
+                        "ko": "부드러운 모서리",
+                        "zh-CN": "软边缘"
+                      },
+                      "default": 0.1,
+                      "min": 0,
+                      "max": 1,
+                      "options": null,
+                      "description": null,
+                      "descriptions": {
+                        "ja": null,
+                        "zh-TW": null,
+                        "ko": null,
+                        "zh-CN": null
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "Select Map",
+                  "type": "options",
+                  "label": "Select Map",
+                  "labels": {
+                    "ja": "マップの選択",
+                    "zh-TW": "選擇貼圖",
+                    "ko": "맵 선택",
+                    "zh-CN": "选择贴图"
+                  },
+                  "default": "Fabric 3",
+                  "min": 0,
+                  "max": 9,
+                  "options": ["Carbon Fiber", "Leather", "Fabric 1", "Fabric 2", "Fabric 3", "Wool 1", "Wool 2", "Metal Satin", "Metal Brushed", "Hair"],
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Detail Map Rotation",
+                  "type": "float",
+                  "label": "Detail Map Rotation",
+                  "labels": {
+                    "ja": "ディテールマップの回転",
+                    "zh-TW": "細節貼圖旋轉",
+                    "ko": "디테일 맵 회전",
+                    "zh-CN": "细节贴图旋转"
+                  },
+                  "default": 0,
+                  "min": -180,
+                  "max": 180,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Detail Map Scale",
+                  "type": "float",
+                  "label": "Detail Map Scale",
+                  "labels": {
+                    "ja": "ディテールマップのスケール",
+                    "zh-TW": "細節貼圖縮放",
+                    "ko": "디테일 맵 크기",
+                    "zh-CN": "细节贴图缩放"
+                  },
+                  "default": 6,
+                  "min": 0,
+                  "max": 8,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Detail Map Bump",
+                  "type": "float",
+                  "label": "Detail Map Bump",
+                  "labels": {
+                    "ja": "ディテールマップのバンプ",
+                    "zh-TW": "細節貼圖突起",
+                    "ko": "디테일 맵 범프",
+                    "zh-CN": "细节贴图凹凸"
+                  },
+                  "default": 0.5,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Albedo Strength",
+                  "type": "float",
+                  "label": "Albedo Strength",
+                  "labels": {
+                    "ja": "アルベドの強度",
+                    "zh-TW": "反照率強度",
+                    "ko": "알베도 강도",
+                    "zh-CN": "反光率强度"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Smoothness Strength",
+                  "type": "float",
+                  "label": "Smoothness Strength",
+                  "labels": {
+                    "ja": "スムーズネスの強度",
+                    "zh-TW": "光滑度強度",
+                    "ko": "부드러움 강도",
+                    "zh-CN": "平滑度强度"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Albedo Neutral",
+                  "type": "float",
+                  "label": "Albedo Neutral",
+                  "labels": {
+                    "ja": "アルベドのニュートラル",
+                    "zh-TW": "反照率中性",
+                    "ko": "알베도 중립",
+                    "zh-CN": "基础色中性"
+                  },
+                  "default": 0.5,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Smoothness Neutral",
+                  "type": "float",
+                  "label": "Smoothness Neutral",
+                  "labels": {
+                    "ja": "スムーズネスのニュートラル",
+                    "zh-TW": "光滑度中性",
+                    "ko": "부드러움 중립",
+                    "zh-CN": "平滑度中性"
+                  },
+                  "default": 0.5,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Anisotropy",
+                  "type": "float",
+                  "label": "Anisotropy",
+                  "labels": {
+                    "ja": "異方性",
+                    "zh-TW": "各向異性",
+                    "ko": "이방성",
+                    "zh-CN": "各向异性"
+                  },
+                  "default": 0,
+                  "min": -1,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "MIP Map Bias",
+                  "type": "float",
+                  "label": "MIP Map Bias",
+                  "labels": {
+                    "ja": "MIPマップバイアス",
+                    "zh-TW": "MIP貼圖偏差",
+                    "ko": "MIP 맵 편향",
+                    "zh-CN": "MIP贴图偏差"
+                  },
+                  "default": 0,
+                  "min": -5,
+                  "max": 5,
+                  "options": null,
+                  "description": "Adjust sharpness of detail texture.",
+                  "descriptions": {
+                    "ja": "ディテールテクスチャのシャープさの調整。",
+                    "zh-TW": "調整細節紋理的銳利度。",
+                    "ko": "디테일 텍스처의 선명도 조절.",
+                    "zh-CN": "调整细节纹理的锐度。"
+                  }
+                },
+                {
+                  "name": "Use Triplaner",
+                  "type": "bool",
+                  "label": "Use Triplaner",
+                  "labels": {
+                    "ja": "トリプラナーの使用",
+                    "zh-TW": "使用三平面",
+                    "ko": "트라이플래너 사용",
+                    "zh-CN": "使用三平面贴图"
+                  },
+                  "default": "false",
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X-Ray",
+          "type": "group",
+          "label": "X-Ray",
+          "labels": {
+            "ja": "X線",
+            "zh-TW": "X光",
+            "ko": "X-Ray",
+            "zh-CN": "X光透视"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "Color",
+              "type": "group",
+              "label": "Color",
+              "labels": {
+                "ja": "色",
+                "zh-TW": "顏色",
+                "ko": "색상",
+                "zh-CN": "颜色"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.",
+              "descriptions": {
+                "ja": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                "zh-TW": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                "ko": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)",
+                "zh-CN": "(Holds a base color and glow intensity for audio-reactive elements. \r\n            Glow is multiplied with the color and animates with the beat when auto-update is enabled.)"
+              },
+              "values": [
+                {
+                  "name": "Color Mode",
+                  "type": "int",
+                  "label": "Color Mode",
+                  "labels": {
+                    "ja": "カラーモード",
+                    "zh-TW": "色彩模式",
+                    "ko": "색상 모드",
+                    "zh-CN": "颜色模式"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": ["RGB", "HSV"],
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Hue",
+                  "type": "float",
+                  "label": "Hue",
+                  "labels": {
+                    "ja": "色相",
+                    "zh-TW": "色相",
+                    "ko": "색상",
+                    "zh-CN": "色相"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Satuation",
+                  "type": "float",
+                  "label": "Satuation",
+                  "labels": {
+                    "ja": "彩度",
+                    "zh-TW": "飽和度",
+                    "ko": "채도",
+                    "zh-CN": "饱和度"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Brightness",
+                  "type": "float",
+                  "label": "Brightness",
+                  "labels": {
+                    "ja": "輝度",
+                    "zh-TW": "亮度",
+                    "ko": "밝기",
+                    "zh-CN": "亮度"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Red",
+                  "type": "float",
+                  "label": "Red",
+                  "labels": {
+                    "ja": "赤",
+                    "zh-TW": "紅色",
+                    "ko": "빨간색",
+                    "zh-CN": "红色"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Green",
+                  "type": "float",
+                  "label": "Green",
+                  "labels": {
+                    "ja": "緑",
+                    "zh-TW": "綠色",
+                    "ko": "녹색",
+                    "zh-CN": "绿色"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Blue",
+                  "type": "float",
+                  "label": "Blue",
+                  "labels": {
+                    "ja": "青",
+                    "zh-TW": "藍色",
+                    "ko": "파란색",
+                    "zh-CN": "蓝色"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Glow",
+                  "type": "float",
+                  "label": "Glow",
+                  "labels": {
+                    "ja": "グロー",
+                    "zh-TW": "發光",
+                    "ko": "발광",
+                    "zh-CN": "发光"
+                  },
+                  "default": 1,
+                  "min": 0,
+                  "max": 5,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Origin Control",
+              "type": "bool",
+              "label": "Origin Control",
+              "labels": {
+                "ja": "原点制御",
+                "zh-TW": "原點控制",
+                "ko": "원점 제어",
+                "zh-CN": "原点控制"
+              },
+              "default": "true",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Radius",
+              "type": "float",
+              "label": "Radius",
+              "labels": {
+                "ja": "半径",
+                "zh-TW": "半徑",
+                "ko": "반지름",
+                "zh-CN": "半径"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Length",
+              "type": "float",
+              "label": "Length",
+              "labels": {
+                "ja": "長さ",
+                "zh-TW": "長度",
+                "ko": "길이",
+                "zh-CN": "长度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Offset",
+              "type": "float",
+              "label": "Offset",
+              "labels": {
+                "ja": "オフセット",
+                "zh-TW": "偏移",
+                "ko": "오프셋",
+                "zh-CN": "偏移量"
+              },
+              "default": 0,
+              "min": -1,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Power",
+              "type": "float",
+              "label": "Power",
+              "labels": {
+                "ja": "パワー",
+                "zh-TW": "功率",
+                "ko": "강도",
+                "zh-CN": "功率"
+              },
+              "default": 4,
+              "min": 0,
+              "max": 10,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Enable in Desktop",
+          "type": "bool",
+          "label": "Enable in Desktop",
+          "labels": {
+            "ja": "デスクトップで有効化",
+            "zh-TW": "在桌面上啟用",
+            "ko": "데스크톱에서 사용 가능",
+            "zh-CN": "在桌面启用"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Position",
+          "type": "group",
+          "label": "Position",
+          "labels": {
+            "ja": "位置",
+            "zh-TW": "位置",
+            "ko": "위치",
+            "zh-CN": "位置"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "X",
+              "type": "float",
+              "label": "X",
+              "labels": {
+                "ja": "(X)",
+                "zh-TW": "(X)",
+                "ko": "(X)",
+                "zh-CN": "(X)"
+              },
+              "default": 0,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Y",
+              "type": "float",
+              "label": "Y",
+              "labels": {
+                "ja": "(Y)",
+                "zh-TW": "(Y)",
+                "ko": "(Y)",
+                "zh-CN": "(Y)"
+              },
+              "default": 1,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Z",
+              "type": "float",
+              "label": "Z",
+              "labels": {
+                "ja": "(Z)",
+                "zh-TW": "(Z)",
+                "ko": "(Z)",
+                "zh-CN": "(Z)"
+              },
+              "default": 0,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Rotation",
+          "type": "group",
+          "label": "Rotation",
+          "labels": {
+            "ja": "回転",
+            "zh-TW": "旋轉",
+            "ko": "회전",
+            "zh-CN": "旋转"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "X",
+              "type": "float",
+              "label": "X",
+              "labels": {
+                "ja": "(X)",
+                "zh-TW": "(X)",
+                "ko": "(X)",
+                "zh-CN": "(X)"
+              },
+              "default": 180,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Y",
+              "type": "float",
+              "label": "Y",
+              "labels": {
+                "ja": "(Y)",
+                "zh-TW": "(Y)",
+                "ko": "(Y)",
+                "zh-CN": "(Y)"
+              },
+              "default": 0,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Z",
+              "type": "float",
+              "label": "Z",
+              "labels": {
+                "ja": "(Z)",
+                "zh-TW": "(Z)",
+                "ko": "(Z)",
+                "zh-CN": "(Z)"
+              },
+              "default": 0,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

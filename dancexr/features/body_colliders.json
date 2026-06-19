@@ -131,7 +131,7 @@
       "type": "float",
       "label": "Waist Width",
       "labels": {
-        "ja": "腰の幅",
+        "ja": "ウエストの幅",
         "zh-TW": "腰部寬度",
         "ko": "허리 너비",
         "zh-CN": "腰部宽度"
@@ -153,7 +153,7 @@
       "type": "float",
       "label": "Hips Width",
       "labels": {
-        "ja": "お尻の幅",
+        "ja": "腰の幅",
         "zh-TW": "髖部寬度",
         "ko": "골반 너비",
         "zh-CN": "臀部宽度"
@@ -175,7 +175,7 @@
       "type": "float",
       "label": "Butts Radius",
       "labels": {
-        "ja": "臀部の半径",
+        "ja": "お尻の半径",
         "zh-TW": "臀部半徑",
         "ko": "엉덩이 반지름",
         "zh-CN": "臀部半径"
@@ -197,7 +197,7 @@
       "type": "group",
       "label": "Butts Position",
       "labels": {
-        "ja": "臀部の位置",
+        "ja": "お尻の位置",
         "zh-TW": "臀部位置",
         "ko": "엉덩이 위치",
         "zh-CN": "臀部位置"
@@ -287,7 +287,7 @@
       "type": "float",
       "label": "Belly Radius",
       "labels": {
-        "ja": "腹の半径",
+        "ja": "お腹の半径",
         "zh-TW": "腹部半徑",
         "ko": "배 반지름",
         "zh-CN": "腹部半径"
@@ -309,7 +309,7 @@
       "type": "float",
       "label": "Belly Position",
       "labels": {
-        "ja": "腹の位置",
+        "ja": "お腹の位置",
         "zh-TW": "腹部位置",
         "ko": "배 위치",
         "zh-CN": "腹部位置"
@@ -353,7 +353,7 @@
       "type": "float",
       "label": "Thigh Fwd/Back",
       "labels": {
-        "ja": "太ももの前後",
+        "ja": "太もも（前/後）",
         "zh-TW": "股四頭肌前後",
         "ko": "허벅지 전/후",
         "zh-CN": "大腿前后"
@@ -375,7 +375,7 @@
       "type": "float",
       "label": "Thigh Start Position",
       "labels": {
-        "ja": "太もも開始位置",
+        "ja": "太ももの開始位置",
         "zh-TW": "股四頭肌起始位置",
         "ko": "허벅지 시작 위치",
         "zh-CN": "大腿起始位置"
@@ -419,7 +419,7 @@
       "type": "bool",
       "label": "Visualize",
       "labels": {
-        "ja": "視覚化",
+        "ja": "可視化",
         "zh-TW": "視覺化",
         "ko": "시각화",
         "zh-CN": "可视化"

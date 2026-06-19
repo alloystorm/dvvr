@@ -1,0 +1,262 @@
+{
+  "name": "Formation",
+  "docPath": "features/formation",
+  "label": "Formation",
+  "labels": {
+    "ja": "隊形",
+    "zh-TW": "陣型",
+    "ko": "배치",
+    "zh-CN": "阵列"
+  },
+  "description": "Formation controls how the actors are laid out in the scene, and provides convenient tools to reset actor positions.\r\n\r\n\r\n## Formation Types\r\n\r\nSelect from a variety of layout patterns:\r\n\r\n* **V Shape**: Places actors in a V layout using both X Dist and Y Dist.\r\n* **A Shape**: Places actors in an A layout using both X Dist and Y Dist.\r\n* **Line**: Aligns actors horizontally with X Dist as the distance between them.\r\n* **Circle**: Places actors in a circle where X Dist controls the radius and Y Dist controls the offset.\r\n* **Zero**: Sets zero offset and rotation for all actors. This is useful for multi-actor dances where individual positions are already authored into the motions.\r\n* **Fan Shape**: Arranges actors in a fan layout.\r\n\r\n\r\n## Settings\r\n\r\n**X Dist** and **Y Dist** control the spacing scale of the selected formation.\r\n\r\n**Rotation** rotates each individual actor.\r\n\r\n**Orientation** rotates the entire formation group as a whole.\r\n\r\n**Offset X** and **Offset Y** shift the center of the formation.\r\n\r\n\r\n## Spectators\r\n\r\nActors labeled as spectators are grouped into a separate formation that circles around the main stage.\r\n\r\n* **Use Spectator Formation** enables spectator positioning.\r\n* **Spectator Dist** sets the radius for spectators.\r\n* **Rotate Spectators** rotates spectators to face the center of the stage.",
+  "descriptions": {
+    "ja": "(Formation controls how the actors are laid out in the scene, and provides convenient tools to reset actor positions.\r\n\r\n\r\n## Formation Types\r\n\r\nSelect from a variety of layout patterns:\r\n\r\n* **V Shape**: Places actors in a V layout using both X Dist and Y Dist.\r\n* **A Shape**: Places actors in an A layout using both X Dist and Y Dist.\r\n* **Line**: Aligns actors horizontally with X Dist as the distance between them.\r\n* **Circle**: Places actors in a circle where X Dist controls the radius and Y Dist controls the offset.\r\n* **Zero**: Sets zero offset and rotation for all actors. This is useful for multi-actor dances where individual positions are already authored into the motions.\r\n* **Fan Shape**: Arranges actors in a fan layout.\r\n\r\n\r\n## Settings\r\n\r\n**X Dist** and **Y Dist** control the spacing scale of the selected formation.\r\n\r\n**Rotation** rotates each individual actor.\r\n\r\n**Orientation** rotates the entire formation group as a whole.\r\n\r\n**Offset X** and **Offset Y** shift the center of the formation.\r\n\r\n\r\n## Spectators\r\n\r\nActors labeled as spectators are grouped into a separate formation that circles around the main stage.\r\n\r\n* **Use Spectator Formation** enables spectator positioning.\r\n* **Spectator Dist** sets the radius for spectators.\r\n* **Rotate Spectators** rotates spectators to face the center of the stage.)",
+    "zh-TW": "(Formation controls how the actors are laid out in the scene, and provides convenient tools to reset actor positions.\r\n\r\n\r\n## Formation Types\r\n\r\nSelect from a variety of layout patterns:\r\n\r\n* **V Shape**: Places actors in a V layout using both X Dist and Y Dist.\r\n* **A Shape**: Places actors in an A layout using both X Dist and Y Dist.\r\n* **Line**: Aligns actors horizontally with X Dist as the distance between them.\r\n* **Circle**: Places actors in a circle where X Dist controls the radius and Y Dist controls the offset.\r\n* **Zero**: Sets zero offset and rotation for all actors. This is useful for multi-actor dances where individual positions are already authored into the motions.\r\n* **Fan Shape**: Arranges actors in a fan layout.\r\n\r\n\r\n## Settings\r\n\r\n**X Dist** and **Y Dist** control the spacing scale of the selected formation.\r\n\r\n**Rotation** rotates each individual actor.\r\n\r\n**Orientation** rotates the entire formation group as a whole.\r\n\r\n**Offset X** and **Offset Y** shift the center of the formation.\r\n\r\n\r\n## Spectators\r\n\r\nActors labeled as spectators are grouped into a separate formation that circles around the main stage.\r\n\r\n* **Use Spectator Formation** enables spectator positioning.\r\n* **Spectator Dist** sets the radius for spectators.\r\n* **Rotate Spectators** rotates spectators to face the center of the stage.)",
+    "ko": "(Formation controls how the actors are laid out in the scene, and provides convenient tools to reset actor positions.\r\n\r\n\r\n## Formation Types\r\n\r\nSelect from a variety of layout patterns:\r\n\r\n* **V Shape**: Places actors in a V layout using both X Dist and Y Dist.\r\n* **A Shape**: Places actors in an A layout using both X Dist and Y Dist.\r\n* **Line**: Aligns actors horizontally with X Dist as the distance between them.\r\n* **Circle**: Places actors in a circle where X Dist controls the radius and Y Dist controls the offset.\r\n* **Zero**: Sets zero offset and rotation for all actors. This is useful for multi-actor dances where individual positions are already authored into the motions.\r\n* **Fan Shape**: Arranges actors in a fan layout.\r\n\r\n\r\n## Settings\r\n\r\n**X Dist** and **Y Dist** control the spacing scale of the selected formation.\r\n\r\n**Rotation** rotates each individual actor.\r\n\r\n**Orientation** rotates the entire formation group as a whole.\r\n\r\n**Offset X** and **Offset Y** shift the center of the formation.\r\n\r\n\r\n## Spectators\r\n\r\nActors labeled as spectators are grouped into a separate formation that circles around the main stage.\r\n\r\n* **Use Spectator Formation** enables spectator positioning.\r\n* **Spectator Dist** sets the radius for spectators.\r\n* **Rotate Spectators** rotates spectators to face the center of the stage.)",
+    "zh-CN": "(Formation controls how the actors are laid out in the scene, and provides convenient tools to reset actor positions.\r\n\r\n\r\n## Formation Types\r\n\r\nSelect from a variety of layout patterns:\r\n\r\n* **V Shape**: Places actors in a V layout using both X Dist and Y Dist.\r\n* **A Shape**: Places actors in an A layout using both X Dist and Y Dist.\r\n* **Line**: Aligns actors horizontally with X Dist as the distance between them.\r\n* **Circle**: Places actors in a circle where X Dist controls the radius and Y Dist controls the offset.\r\n* **Zero**: Sets zero offset and rotation for all actors. This is useful for multi-actor dances where individual positions are already authored into the motions.\r\n* **Fan Shape**: Arranges actors in a fan layout.\r\n\r\n\r\n## Settings\r\n\r\n**X Dist** and **Y Dist** control the spacing scale of the selected formation.\r\n\r\n**Rotation** rotates each individual actor.\r\n\r\n**Orientation** rotates the entire formation group as a whole.\r\n\r\n**Offset X** and **Offset Y** shift the center of the formation.\r\n\r\n\r\n## Spectators\r\n\r\nActors labeled as spectators are grouped into a separate formation that circles around the main stage.\r\n\r\n* **Use Spectator Formation** enables spectator positioning.\r\n* **Spectator Dist** sets the radius for spectators.\r\n* **Rotate Spectators** rotates spectators to face the center of the stage.)"
+  },
+  "values": [
+    {
+      "name": "Formation",
+      "type": "options",
+      "label": "Formation",
+      "labels": {
+        "ja": "隊形",
+        "zh-TW": "陣型",
+        "ko": "배치",
+        "zh-CN": "阵列"
+      },
+      "default": "V Shape",
+      "min": 0,
+      "max": 5,
+      "options": ["V Shape", "Line", "A Shape", "Circle", "Zero", "Fan Shape"],
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "X Dist",
+      "type": "float",
+      "label": "X Dist",
+      "labels": {
+        "ja": "X距離",
+        "zh-TW": "X 距離",
+        "ko": "X 거리",
+        "zh-CN": "X轴距离"
+      },
+      "default": 1,
+      "min": -10,
+      "max": 10,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Y Dist",
+      "type": "float",
+      "label": "Y Dist",
+      "labels": {
+        "ja": "Y距離",
+        "zh-TW": "Y 距離",
+        "ko": "Y 거리",
+        "zh-CN": "Y轴距离"
+      },
+      "default": 1,
+      "min": -2,
+      "max": 2,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Rotation",
+      "type": "float",
+      "label": "Rotation",
+      "labels": {
+        "ja": "回転",
+        "zh-TW": "旋轉",
+        "ko": "회전",
+        "zh-CN": "旋转"
+      },
+      "default": 0,
+      "min": -180,
+      "max": 180,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Orientation",
+      "type": "float",
+      "label": "Orientation",
+      "labels": {
+        "ja": "向き",
+        "zh-TW": "朝向",
+        "ko": "오리엔테이션",
+        "zh-CN": "朝向"
+      },
+      "default": 0,
+      "min": -180,
+      "max": 180,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Use Spectator Formation",
+      "type": "bool",
+      "label": "Use Spectator Formation",
+      "labels": {
+        "ja": "観客の隊形を使用",
+        "zh-TW": "使用觀看者陣型",
+        "ko": "관람객 배치 사용",
+        "zh-CN": "使用观众阵列"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Spectator Dist",
+      "type": "float",
+      "label": "Spectator Dist",
+      "labels": {
+        "ja": "観客距離",
+        "zh-TW": "觀看者距離",
+        "ko": "관람객 거리",
+        "zh-CN": "观众距离"
+      },
+      "default": 2,
+      "min": 0.25,
+      "max": 5,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Rotate Spectators",
+      "type": "bool",
+      "label": "Rotate Spectators",
+      "labels": {
+        "ja": "観客の回転",
+        "zh-TW": "旋轉觀看者",
+        "ko": "관람객 회전",
+        "zh-CN": "旋转观众"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Offset X",
+      "type": "float",
+      "label": "Offset X",
+      "labels": {
+        "ja": "Xオフセット",
+        "zh-TW": "X 方向偏移",
+        "ko": "X 오프셋",
+        "zh-CN": "X轴偏移"
+      },
+      "default": 0,
+      "min": -5,
+      "max": 5,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Offset Y",
+      "type": "float",
+      "label": "Offset Y",
+      "labels": {
+        "ja": "Yオフセット",
+        "zh-TW": "Y 方向偏移",
+        "ko": "Y 오프셋",
+        "zh-CN": "Y轴偏移"
+      },
+      "default": 0,
+      "min": -5,
+      "max": 5,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Random Props Position",
+      "type": "bool",
+      "label": "Random Props Position",
+      "labels": {
+        "ja": "ランダム小道具配置",
+        "zh-TW": "隨機道具位置",
+        "ko": "랜덤 소품 위치",
+        "zh-CN": "随机道具位置"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 ---
 layout: feature
-title: "System Physics"
+title: "Physics"
 locale: en-US
 ---
 
-# System Physics
+# Physics
 
 Global physics engine selection, timestep settings, and gravity for the scene.
 

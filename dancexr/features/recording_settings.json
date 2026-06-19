@@ -1,0 +1,240 @@
+{
+  "name": "Recording Settings",
+  "docPath": "features/recording_settings",
+  "label": "Recording Settings",
+  "labels": {
+    "ja": "レコーディング設定",
+    "zh-TW": "錄製設定",
+    "ko": "녹화 설정",
+    "zh-CN": "录制设置"
+  },
+  "description": "Recording settings allow you to configure the output parameters for offline rendering and video capture, available in the Creator Edition.\r\n\r\n\r\n## Output Format & Quality\r\n\r\n**Image Format** selects the output file format for the rendered frames: *JPG*, *PNG*, or *TGA*.\r\n\r\n**JPG Quality** (0 to 100) sets the compression quality if JPG is chosen. Higher values yield better quality at the cost of larger file sizes.\r\n\r\n\r\n## Resolution\r\n\r\n**Resolution** sets the aspect ratio and size of the output frames in 2D and 3D SBS modes. Common options include *FHD 1920x1080*, *QHD 2560x1440*, and *UHD 3840x2160*.\r\n\r\n**VR Resolution** specifies the resolution for VR 180 and VR 360 recordings (e.g., *4k 4096x2048*, *8k 8192x4096*).\r\n\r\n**Vertical** renders the output in a vertical aspect ratio.\r\n\r\n\r\n## Performance & Capture Settings\r\n\r\n**Frame Rate** selects the target output frame rate (e.g., *24*, *30*, *60*, *90*, *120* fps). Offline rendering ensures smooth output at the target frame rate regardless of real-time performance.\r\n\r\n**Default Duration** (1 to 300 seconds) defines the recording length when no VMD audio file is present.\r\n\r\n**Physics Step** controls the simulation delta time per step. Lower values (like *0.002s*) increase physics accuracy, which is ideal for offline rendering.\r\n\r\n**Output Buffer** sets the number of frames to buffer in memory before writing to disk, helping to smooth out disk write bottlenecks.\r\n\r\n**IPD (cm)** sets the inter-pupillary distance for stereo 3D recording modes, defining the depth perception scale.",
+  "descriptions": {
+    "ja": "(Recording settings allow you to configure the output parameters for offline rendering and video capture, available in the Creator Edition.\r\n\r\n\r\n## Output Format & Quality\r\n\r\n**Image Format** selects the output file format for the rendered frames: *JPG*, *PNG*, or *TGA*.\r\n\r\n**JPG Quality** (0 to 100) sets the compression quality if JPG is chosen. Higher values yield better quality at the cost of larger file sizes.\r\n\r\n\r\n## Resolution\r\n\r\n**Resolution** sets the aspect ratio and size of the output frames in 2D and 3D SBS modes. Common options include *FHD 1920x1080*, *QHD 2560x1440*, and *UHD 3840x2160*.\r\n\r\n**VR Resolution** specifies the resolution for VR 180 and VR 360 recordings (e.g., *4k 4096x2048*, *8k 8192x4096*).\r\n\r\n**Vertical** renders the output in a vertical aspect ratio.\r\n\r\n\r\n## Performance & Capture Settings\r\n\r\n**Frame Rate** selects the target output frame rate (e.g., *24*, *30*, *60*, *90*, *120* fps). Offline rendering ensures smooth output at the target frame rate regardless of real-time performance.\r\n\r\n**Default Duration** (1 to 300 seconds) defines the recording length when no VMD audio file is present.\r\n\r\n**Physics Step** controls the simulation delta time per step. Lower values (like *0.002s*) increase physics accuracy, which is ideal for offline rendering.\r\n\r\n**Output Buffer** sets the number of frames to buffer in memory before writing to disk, helping to smooth out disk write bottlenecks.\r\n\r\n**IPD (cm)** sets the inter-pupillary distance for stereo 3D recording modes, defining the depth perception scale.)",
+    "zh-TW": "(Recording settings allow you to configure the output parameters for offline rendering and video capture, available in the Creator Edition.\r\n\r\n\r\n## Output Format & Quality\r\n\r\n**Image Format** selects the output file format for the rendered frames: *JPG*, *PNG*, or *TGA*.\r\n\r\n**JPG Quality** (0 to 100) sets the compression quality if JPG is chosen. Higher values yield better quality at the cost of larger file sizes.\r\n\r\n\r\n## Resolution\r\n\r\n**Resolution** sets the aspect ratio and size of the output frames in 2D and 3D SBS modes. Common options include *FHD 1920x1080*, *QHD 2560x1440*, and *UHD 3840x2160*.\r\n\r\n**VR Resolution** specifies the resolution for VR 180 and VR 360 recordings (e.g., *4k 4096x2048*, *8k 8192x4096*).\r\n\r\n**Vertical** renders the output in a vertical aspect ratio.\r\n\r\n\r\n## Performance & Capture Settings\r\n\r\n**Frame Rate** selects the target output frame rate (e.g., *24*, *30*, *60*, *90*, *120* fps). Offline rendering ensures smooth output at the target frame rate regardless of real-time performance.\r\n\r\n**Default Duration** (1 to 300 seconds) defines the recording length when no VMD audio file is present.\r\n\r\n**Physics Step** controls the simulation delta time per step. Lower values (like *0.002s*) increase physics accuracy, which is ideal for offline rendering.\r\n\r\n**Output Buffer** sets the number of frames to buffer in memory before writing to disk, helping to smooth out disk write bottlenecks.\r\n\r\n**IPD (cm)** sets the inter-pupillary distance for stereo 3D recording modes, defining the depth perception scale.)",
+    "ko": "(Recording settings allow you to configure the output parameters for offline rendering and video capture, available in the Creator Edition.\r\n\r\n\r\n## Output Format & Quality\r\n\r\n**Image Format** selects the output file format for the rendered frames: *JPG*, *PNG*, or *TGA*.\r\n\r\n**JPG Quality** (0 to 100) sets the compression quality if JPG is chosen. Higher values yield better quality at the cost of larger file sizes.\r\n\r\n\r\n## Resolution\r\n\r\n**Resolution** sets the aspect ratio and size of the output frames in 2D and 3D SBS modes. Common options include *FHD 1920x1080*, *QHD 2560x1440*, and *UHD 3840x2160*.\r\n\r\n**VR Resolution** specifies the resolution for VR 180 and VR 360 recordings (e.g., *4k 4096x2048*, *8k 8192x4096*).\r\n\r\n**Vertical** renders the output in a vertical aspect ratio.\r\n\r\n\r\n## Performance & Capture Settings\r\n\r\n**Frame Rate** selects the target output frame rate (e.g., *24*, *30*, *60*, *90*, *120* fps). Offline rendering ensures smooth output at the target frame rate regardless of real-time performance.\r\n\r\n**Default Duration** (1 to 300 seconds) defines the recording length when no VMD audio file is present.\r\n\r\n**Physics Step** controls the simulation delta time per step. Lower values (like *0.002s*) increase physics accuracy, which is ideal for offline rendering.\r\n\r\n**Output Buffer** sets the number of frames to buffer in memory before writing to disk, helping to smooth out disk write bottlenecks.\r\n\r\n**IPD (cm)** sets the inter-pupillary distance for stereo 3D recording modes, defining the depth perception scale.)",
+    "zh-CN": "(Recording settings allow you to configure the output parameters for offline rendering and video capture, available in the Creator Edition.\r\n\r\n\r\n## Output Format & Quality\r\n\r\n**Image Format** selects the output file format for the rendered frames: *JPG*, *PNG*, or *TGA*.\r\n\r\n**JPG Quality** (0 to 100) sets the compression quality if JPG is chosen. Higher values yield better quality at the cost of larger file sizes.\r\n\r\n\r\n## Resolution\r\n\r\n**Resolution** sets the aspect ratio and size of the output frames in 2D and 3D SBS modes. Common options include *FHD 1920x1080*, *QHD 2560x1440*, and *UHD 3840x2160*.\r\n\r\n**VR Resolution** specifies the resolution for VR 180 and VR 360 recordings (e.g., *4k 4096x2048*, *8k 8192x4096*).\r\n\r\n**Vertical** renders the output in a vertical aspect ratio.\r\n\r\n\r\n## Performance & Capture Settings\r\n\r\n**Frame Rate** selects the target output frame rate (e.g., *24*, *30*, *60*, *90*, *120* fps). Offline rendering ensures smooth output at the target frame rate regardless of real-time performance.\r\n\r\n**Default Duration** (1 to 300 seconds) defines the recording length when no VMD audio file is present.\r\n\r\n**Physics Step** controls the simulation delta time per step. Lower values (like *0.002s*) increase physics accuracy, which is ideal for offline rendering.\r\n\r\n**Output Buffer** sets the number of frames to buffer in memory before writing to disk, helping to smooth out disk write bottlenecks.\r\n\r\n**IPD (cm)** sets the inter-pupillary distance for stereo 3D recording modes, defining the depth perception scale.)"
+  },
+  "values": [
+    {
+      "name": "Frame Rate",
+      "type": "options",
+      "label": "Frame Rate",
+      "labels": {
+        "ja": "フレームレート",
+        "zh-TW": "幀率",
+        "ko": "프레임 속도",
+        "zh-CN": "帧率"
+      },
+      "default": "30 HD",
+      "min": 0,
+      "max": 11,
+      "options": ["24 Film", "23.976 Film NTSC", "25 PAL", "29.97 NTSC HD", "30 HD", "50 PAL HD", "59.94 NTSC HD", "60 HD", "72", "80", "90", "120"],
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Default Duration",
+      "type": "int",
+      "label": "Default Duration",
+      "labels": {
+        "ja": "デフォルト時間",
+        "zh-TW": "預設持續時間",
+        "ko": "기본 지속 시간",
+        "zh-CN": "默认时长"
+      },
+      "default": 10,
+      "min": 1,
+      "max": 300,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Physics Step",
+      "type": "float",
+      "label": "Physics Step",
+      "labels": {
+        "ja": "物理ステップ",
+        "zh-TW": "物理步進",
+        "ko": "물리 스텝",
+        "zh-CN": "物理步进"
+      },
+      "default": 0.005,
+      "min": 0.001,
+      "max": 0.01,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Output Buffer",
+      "type": "int",
+      "label": "Output Buffer",
+      "labels": {
+        "ja": "出力バッファ",
+        "zh-TW": "輸出緩衝區",
+        "ko": "출력 버퍼",
+        "zh-CN": "输出缓冲区"
+      },
+      "default": 10,
+      "min": 0,
+      "max": 100,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Image Format",
+      "type": "int",
+      "label": "Image Format",
+      "labels": {
+        "ja": "画像フォーマット",
+        "zh-TW": "圖像格式",
+        "ko": "이미지 형식",
+        "zh-CN": "图像格式"
+      },
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "options": ["JPG", "PNG", "TGA"],
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "JPG Quality",
+      "type": "float",
+      "label": "JPG Quality",
+      "labels": {
+        "ja": "JPG品質",
+        "zh-TW": "JPG 品質",
+        "ko": "JPG 품질",
+        "zh-CN": "JPG 画质"
+      },
+      "default": 95,
+      "min": 0,
+      "max": 100,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Resolution",
+      "type": "int",
+      "label": "Resolution",
+      "labels": {
+        "ja": "解像度",
+        "zh-TW": "解析度",
+        "ko": "해상도",
+        "zh-CN": "分辨率"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 6,
+      "options": ["FHD 1920x1080", "21:9 2560x1080", "QHD 2560x1440", "UHD 3840x2160", "SD 512x512", "768x512", "768x768"],
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Vertical",
+      "type": "bool",
+      "label": "Vertical",
+      "labels": {
+        "ja": "垂直",
+        "zh-TW": "垂直",
+        "ko": "수직",
+        "zh-CN": "垂直"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "VR Resolution",
+      "type": "int",
+      "label": "VR Resolution",
+      "labels": {
+        "ja": "VR解像度",
+        "zh-TW": "VR 解析度",
+        "ko": "VR 해상도",
+        "zh-CN": "VR 分辨率"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 2,
+      "options": ["4k 4096x2048", "7.2k 7200x3600", "8k 8192x4096"],
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "IPD (cm)",
+      "type": "float",
+      "label": "IPD (cm)",
+      "labels": {
+        "ja": "IPD (cm)",
+        "zh-TW": "瞳距 (cm)",
+        "ko": "IPD (cm)",
+        "zh-CN": "瞳距 (cm)"
+      },
+      "default": 6.4,
+      "min": 0,
+      "max": 8,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    }
+  ]
+}

@@ -8,12 +8,12 @@
     "ko": "의상 & 바디페인트",
     "zh-CN": "服装与身体彩绘"
   },
-  "description": "Outfit applies a procedural fabric/paint layer over the character's\r\nskin material — used to add stockings, bodysuits, latex, hexagon\r\ndetail, freehand body paint, and dissolve transitions without\r\ntouching the underlying mesh or textures.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks how the layer behaves. *Color Paint* turns the\r\ncharacter into a canvas you draw on directly with the cursor —\r\npick a brush color and paint freely. *Outfit* hides the painting\r\ntools and instead drives the layer from the procedural\r\nshape/pattern settings, so you get clean stockings or bodysuits\r\ngenerated from parameters. *Outfit Paint* combines both: the\r\nprocedural shape defines the outfit area, and you paint on top\r\nof it. The visibility rules in the panel collapse the unrelated\r\nsub-sections automatically once the mode is set.\r\n\r\n\r\n## Presets\r\n\r\nSeven built-in presets cover the common cases — Body Paint,\r\nFullbody Latex, V-Shape Fishnet, two stocking variants, and two\r\nbodysuits. They seed the mode, shape, and the three surface\r\npresets in one click; treat them as starting points to tweak\r\nrather than final looks.\r\n\r\n\r\n## Body Paint\r\n\r\nSee the *Body Paint* sub-section. Brush size, rotation, color,\r\nstamp texture, and save/load drawing live there. Visible only\r\nin Color Paint and Outfit Paint modes.\r\n\r\n\r\n## Shape & Pattern\r\n\r\nSee the *Shape* sub-section. Controls the procedural geometry of\r\nthe outfit — stocking heights, top lines, fishnet/maze/curve\r\nline patterns, and bump effects along borders. Hidden in pure\r\nColor Paint mode since there is no procedural outfit to shape.\r\n\r\n\r\n## Surfaces\r\n\r\nThree surface layers stack on the outfit: **Surface Base** is\r\nthe main fabric (latex, stocking, gold, etc.), **Surface\r\nPattern** drives the line/maze pattern fill, and **Surface\r\nBorder** controls the trim around shape edges. Each is a full\r\nsurface block (metallic, gloss, color, anisotropy, dissolve,\r\nspecial shaders) so you can mix e.g. matte stockings with a\r\nglowing border. Hidden in Color Paint mode.\r\n\r\n\r\n## Hexagon Detail\r\n\r\nSee the *Hexagon Map* sub-section. Adds a procedural hex /\r\ncircle micro-pattern on top of the surface for fishnet-style\r\ndetail or sci-fi panels. Toggle off when you want a smooth\r\nfabric.\r\n\r\n\r\n## Dissolve\r\n\r\n**Dissolve** is the master amount (0 – 1) that fades the outfit\r\naway along the dissolve map — drive it with auto-update for\r\ntearing/melting transitions synced to music or other data.\r\nThe *Dissolve Map* sub-section configures the map itself:\r\npattern frequency, edge width and bump on both sides of the\r\ncutoff, X/Y offsets, and a hard cutout toggle. Hidden in pure\r\nColor Paint mode.",
+  "description": "Outfit applies a procedural fabric/paint layer over the character's\r\nskin material — used to add stockings, bodysuits, latex, hexagon\r\ndetail, freehand body paint, and dissolve transitions without\r\ntouching the underlying mesh or textures.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks how the layer behaves. *Color Paint* turns the\r\ncharacter into a canvas you draw on directly with the cursor —\r\npick a brush color and paint freely. *Outfit* hides the painting\r\ntools and instead drives the layer from the procedural\r\nshape/pattern settings, so you get clean stockings or bodysuits\r\ngenerated from parameters. *Outfit Paint* combines both: the\r\nprocedural shape defines the outfit area, and you paint on top\r\nof it. The visibility rules in the panel collapse the unrelated\r\nsub-sections automatically once the mode is set.\r\n\r\n\r\n## Presets\r\n\r\nSeven built-in presets cover the common cases — Body Paint,\r\nFullbody Latex, V-Shape Fishnet, two stocking variants, and two\r\nbodysuits. They seed the mode, shape, and the three surface\r\npresets in one click; treat them as starting points to tweak\r\nrather than final looks.\r\n\r\n\r\n## Body Paint\r\n\r\n{% include video id='chHk9--cUYE' provider='youtube' %}\r\n\r\nSee the *Body Paint* sub-section. Brush size, rotation, color,\r\nstamp texture, and save/load drawing live there. Visible only\r\nin Color Paint and Outfit Paint modes.\r\n\r\n\r\n## Shape & Pattern\r\n\r\nSee the *Shape* sub-section. Controls the procedural geometry of\r\nthe outfit — stocking heights, top lines, fishnet/maze/curve\r\nline patterns, and bump effects along borders. Hidden in pure\r\nColor Paint mode since there is no procedural outfit to shape.\r\n\r\n\r\n## Surfaces\r\n\r\nThree surface layers stack on the outfit: **Surface Base** is\r\nthe main fabric (latex, stocking, gold, etc.), **Surface\r\nPattern** drives the line/maze pattern fill, and **Surface\r\nBorder** controls the trim around shape edges. Each is a full\r\nsurface block (metallic, gloss, color, anisotropy, dissolve,\r\nspecial shaders) so you can mix e.g. matte stockings with a\r\nglowing border. Hidden in Color Paint mode.\r\n\r\n\r\n## Hexagon Detail\r\n\r\nSee the *Hexagon Map* sub-section. Adds a procedural hex /\r\ncircle micro-pattern on top of the surface for fishnet-style\r\ndetail or sci-fi panels. Toggle off when you want a smooth\r\nfabric.\r\n\r\n\r\n## Dissolve\r\n\r\n**Dissolve** is the master amount (0 – 1) that fades the outfit\r\naway along the dissolve map — drive it with auto-update for\r\ntearing/melting transitions synced to music or other data.\r\nThe *Dissolve Map* sub-section configures the map itself:\r\npattern frequency, edge width and bump on both sides of the\r\ncutoff, X/Y offsets, and a hard cutout toggle. Hidden in pure\r\nColor Paint mode.",
   "descriptions": {
-    "ja": "(Outfit applies a procedural fabric/paint layer over the character's\r\nskin material — used to add stockings, bodysuits, latex, hexagon\r\ndetail, freehand body paint, and dissolve transitions without\r\ntouching the underlying mesh or textures.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks how the layer behaves. *Color Paint* turns the\r\ncharacter into a canvas you draw on directly with the cursor —\r\npick a brush color and paint freely. *Outfit* hides the painting\r\ntools and instead drives the layer from the procedural\r\nshape/pattern settings, so you get clean stockings or bodysuits\r\ngenerated from parameters. *Outfit Paint* combines both: the\r\nprocedural shape defines the outfit area, and you paint on top\r\nof it. The visibility rules in the panel collapse the unrelated\r\nsub-sections automatically once the mode is set.\r\n\r\n\r\n## Presets\r\n\r\nSeven built-in presets cover the common cases — Body Paint,\r\nFullbody Latex, V-Shape Fishnet, two stocking variants, and two\r\nbodysuits. They seed the mode, shape, and the three surface\r\npresets in one click; treat them as starting points to tweak\r\nrather than final looks.\r\n\r\n\r\n## Body Paint\r\n\r\nSee the *Body Paint* sub-section. Brush size, rotation, color,\r\nstamp texture, and save/load drawing live there. Visible only\r\nin Color Paint and Outfit Paint modes.\r\n\r\n\r\n## Shape & Pattern\r\n\r\nSee the *Shape* sub-section. Controls the procedural geometry of\r\nthe outfit — stocking heights, top lines, fishnet/maze/curve\r\nline patterns, and bump effects along borders. Hidden in pure\r\nColor Paint mode since there is no procedural outfit to shape.\r\n\r\n\r\n## Surfaces\r\n\r\nThree surface layers stack on the outfit: **Surface Base** is\r\nthe main fabric (latex, stocking, gold, etc.), **Surface\r\nPattern** drives the line/maze pattern fill, and **Surface\r\nBorder** controls the trim around shape edges. Each is a full\r\nsurface block (metallic, gloss, color, anisotropy, dissolve,\r\nspecial shaders) so you can mix e.g. matte stockings with a\r\nglowing border. Hidden in Color Paint mode.\r\n\r\n\r\n## Hexagon Detail\r\n\r\nSee the *Hexagon Map* sub-section. Adds a procedural hex /\r\ncircle micro-pattern on top of the surface for fishnet-style\r\ndetail or sci-fi panels. Toggle off when you want a smooth\r\nfabric.\r\n\r\n\r\n## Dissolve\r\n\r\n**Dissolve** is the master amount (0 – 1) that fades the outfit\r\naway along the dissolve map — drive it with auto-update for\r\ntearing/melting transitions synced to music or other data.\r\nThe *Dissolve Map* sub-section configures the map itself:\r\npattern frequency, edge width and bump on both sides of the\r\ncutoff, X/Y offsets, and a hard cutout toggle. Hidden in pure\r\nColor Paint mode.)",
-    "zh-TW": "(Outfit applies a procedural fabric/paint layer over the character's\r\nskin material — used to add stockings, bodysuits, latex, hexagon\r\ndetail, freehand body paint, and dissolve transitions without\r\ntouching the underlying mesh or textures.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks how the layer behaves. *Color Paint* turns the\r\ncharacter into a canvas you draw on directly with the cursor —\r\npick a brush color and paint freely. *Outfit* hides the painting\r\ntools and instead drives the layer from the procedural\r\nshape/pattern settings, so you get clean stockings or bodysuits\r\ngenerated from parameters. *Outfit Paint* combines both: the\r\nprocedural shape defines the outfit area, and you paint on top\r\nof it. The visibility rules in the panel collapse the unrelated\r\nsub-sections automatically once the mode is set.\r\n\r\n\r\n## Presets\r\n\r\nSeven built-in presets cover the common cases — Body Paint,\r\nFullbody Latex, V-Shape Fishnet, two stocking variants, and two\r\nbodysuits. They seed the mode, shape, and the three surface\r\npresets in one click; treat them as starting points to tweak\r\nrather than final looks.\r\n\r\n\r\n## Body Paint\r\n\r\nSee the *Body Paint* sub-section. Brush size, rotation, color,\r\nstamp texture, and save/load drawing live there. Visible only\r\nin Color Paint and Outfit Paint modes.\r\n\r\n\r\n## Shape & Pattern\r\n\r\nSee the *Shape* sub-section. Controls the procedural geometry of\r\nthe outfit — stocking heights, top lines, fishnet/maze/curve\r\nline patterns, and bump effects along borders. Hidden in pure\r\nColor Paint mode since there is no procedural outfit to shape.\r\n\r\n\r\n## Surfaces\r\n\r\nThree surface layers stack on the outfit: **Surface Base** is\r\nthe main fabric (latex, stocking, gold, etc.), **Surface\r\nPattern** drives the line/maze pattern fill, and **Surface\r\nBorder** controls the trim around shape edges. Each is a full\r\nsurface block (metallic, gloss, color, anisotropy, dissolve,\r\nspecial shaders) so you can mix e.g. matte stockings with a\r\nglowing border. Hidden in Color Paint mode.\r\n\r\n\r\n## Hexagon Detail\r\n\r\nSee the *Hexagon Map* sub-section. Adds a procedural hex /\r\ncircle micro-pattern on top of the surface for fishnet-style\r\ndetail or sci-fi panels. Toggle off when you want a smooth\r\nfabric.\r\n\r\n\r\n## Dissolve\r\n\r\n**Dissolve** is the master amount (0 – 1) that fades the outfit\r\naway along the dissolve map — drive it with auto-update for\r\ntearing/melting transitions synced to music or other data.\r\nThe *Dissolve Map* sub-section configures the map itself:\r\npattern frequency, edge width and bump on both sides of the\r\ncutoff, X/Y offsets, and a hard cutout toggle. Hidden in pure\r\nColor Paint mode.)",
-    "ko": "(Outfit applies a procedural fabric/paint layer over the character's\r\nskin material — used to add stockings, bodysuits, latex, hexagon\r\ndetail, freehand body paint, and dissolve transitions without\r\ntouching the underlying mesh or textures.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks how the layer behaves. *Color Paint* turns the\r\ncharacter into a canvas you draw on directly with the cursor —\r\npick a brush color and paint freely. *Outfit* hides the painting\r\ntools and instead drives the layer from the procedural\r\nshape/pattern settings, so you get clean stockings or bodysuits\r\ngenerated from parameters. *Outfit Paint* combines both: the\r\nprocedural shape defines the outfit area, and you paint on top\r\nof it. The visibility rules in the panel collapse the unrelated\r\nsub-sections automatically once the mode is set.\r\n\r\n\r\n## Presets\r\n\r\nSeven built-in presets cover the common cases — Body Paint,\r\nFullbody Latex, V-Shape Fishnet, two stocking variants, and two\r\nbodysuits. They seed the mode, shape, and the three surface\r\npresets in one click; treat them as starting points to tweak\r\nrather than final looks.\r\n\r\n\r\n## Body Paint\r\n\r\nSee the *Body Paint* sub-section. Brush size, rotation, color,\r\nstamp texture, and save/load drawing live there. Visible only\r\nin Color Paint and Outfit Paint modes.\r\n\r\n\r\n## Shape & Pattern\r\n\r\nSee the *Shape* sub-section. Controls the procedural geometry of\r\nthe outfit — stocking heights, top lines, fishnet/maze/curve\r\nline patterns, and bump effects along borders. Hidden in pure\r\nColor Paint mode since there is no procedural outfit to shape.\r\n\r\n\r\n## Surfaces\r\n\r\nThree surface layers stack on the outfit: **Surface Base** is\r\nthe main fabric (latex, stocking, gold, etc.), **Surface\r\nPattern** drives the line/maze pattern fill, and **Surface\r\nBorder** controls the trim around shape edges. Each is a full\r\nsurface block (metallic, gloss, color, anisotropy, dissolve,\r\nspecial shaders) so you can mix e.g. matte stockings with a\r\nglowing border. Hidden in Color Paint mode.\r\n\r\n\r\n## Hexagon Detail\r\n\r\nSee the *Hexagon Map* sub-section. Adds a procedural hex /\r\ncircle micro-pattern on top of the surface for fishnet-style\r\ndetail or sci-fi panels. Toggle off when you want a smooth\r\nfabric.\r\n\r\n\r\n## Dissolve\r\n\r\n**Dissolve** is the master amount (0 – 1) that fades the outfit\r\naway along the dissolve map — drive it with auto-update for\r\ntearing/melting transitions synced to music or other data.\r\nThe *Dissolve Map* sub-section configures the map itself:\r\npattern frequency, edge width and bump on both sides of the\r\ncutoff, X/Y offsets, and a hard cutout toggle. Hidden in pure\r\nColor Paint mode.)",
-    "zh-CN": "(Outfit applies a procedural fabric/paint layer over the character's\r\nskin material — used to add stockings, bodysuits, latex, hexagon\r\ndetail, freehand body paint, and dissolve transitions without\r\ntouching the underlying mesh or textures.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks how the layer behaves. *Color Paint* turns the\r\ncharacter into a canvas you draw on directly with the cursor —\r\npick a brush color and paint freely. *Outfit* hides the painting\r\ntools and instead drives the layer from the procedural\r\nshape/pattern settings, so you get clean stockings or bodysuits\r\ngenerated from parameters. *Outfit Paint* combines both: the\r\nprocedural shape defines the outfit area, and you paint on top\r\nof it. The visibility rules in the panel collapse the unrelated\r\nsub-sections automatically once the mode is set.\r\n\r\n\r\n## Presets\r\n\r\nSeven built-in presets cover the common cases — Body Paint,\r\nFullbody Latex, V-Shape Fishnet, two stocking variants, and two\r\nbodysuits. They seed the mode, shape, and the three surface\r\npresets in one click; treat them as starting points to tweak\r\nrather than final looks.\r\n\r\n\r\n## Body Paint\r\n\r\nSee the *Body Paint* sub-section. Brush size, rotation, color,\r\nstamp texture, and save/load drawing live there. Visible only\r\nin Color Paint and Outfit Paint modes.\r\n\r\n\r\n## Shape & Pattern\r\n\r\nSee the *Shape* sub-section. Controls the procedural geometry of\r\nthe outfit — stocking heights, top lines, fishnet/maze/curve\r\nline patterns, and bump effects along borders. Hidden in pure\r\nColor Paint mode since there is no procedural outfit to shape.\r\n\r\n\r\n## Surfaces\r\n\r\nThree surface layers stack on the outfit: **Surface Base** is\r\nthe main fabric (latex, stocking, gold, etc.), **Surface\r\nPattern** drives the line/maze pattern fill, and **Surface\r\nBorder** controls the trim around shape edges. Each is a full\r\nsurface block (metallic, gloss, color, anisotropy, dissolve,\r\nspecial shaders) so you can mix e.g. matte stockings with a\r\nglowing border. Hidden in Color Paint mode.\r\n\r\n\r\n## Hexagon Detail\r\n\r\nSee the *Hexagon Map* sub-section. Adds a procedural hex /\r\ncircle micro-pattern on top of the surface for fishnet-style\r\ndetail or sci-fi panels. Toggle off when you want a smooth\r\nfabric.\r\n\r\n\r\n## Dissolve\r\n\r\n**Dissolve** is the master amount (0 – 1) that fades the outfit\r\naway along the dissolve map — drive it with auto-update for\r\ntearing/melting transitions synced to music or other data.\r\nThe *Dissolve Map* sub-section configures the map itself:\r\npattern frequency, edge width and bump on both sides of the\r\ncutoff, X/Y offsets, and a hard cutout toggle. Hidden in pure\r\nColor Paint mode.)"
+    "ja": "(Outfit applies a procedural fabric/paint layer over the character's\r\nskin material — used to add stockings, bodysuits, latex, hexagon\r\ndetail, freehand body paint, and dissolve transitions without\r\ntouching the underlying mesh or textures.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks how the layer behaves. *Color Paint* turns the\r\ncharacter into a canvas you draw on directly with the cursor —\r\npick a brush color and paint freely. *Outfit* hides the painting\r\ntools and instead drives the layer from the procedural\r\nshape/pattern settings, so you get clean stockings or bodysuits\r\ngenerated from parameters. *Outfit Paint* combines both: the\r\nprocedural shape defines the outfit area, and you paint on top\r\nof it. The visibility rules in the panel collapse the unrelated\r\nsub-sections automatically once the mode is set.\r\n\r\n\r\n## Presets\r\n\r\nSeven built-in presets cover the common cases — Body Paint,\r\nFullbody Latex, V-Shape Fishnet, two stocking variants, and two\r\nbodysuits. They seed the mode, shape, and the three surface\r\npresets in one click; treat them as starting points to tweak\r\nrather than final looks.\r\n\r\n\r\n## Body Paint\r\n\r\n{% include video id='chHk9--cUYE' provider='youtube' %}\r\n\r\nSee the *Body Paint* sub-section. Brush size, rotation, color,\r\nstamp texture, and save/load drawing live there. Visible only\r\nin Color Paint and Outfit Paint modes.\r\n\r\n\r\n## Shape & Pattern\r\n\r\nSee the *Shape* sub-section. Controls the procedural geometry of\r\nthe outfit — stocking heights, top lines, fishnet/maze/curve\r\nline patterns, and bump effects along borders. Hidden in pure\r\nColor Paint mode since there is no procedural outfit to shape.\r\n\r\n\r\n## Surfaces\r\n\r\nThree surface layers stack on the outfit: **Surface Base** is\r\nthe main fabric (latex, stocking, gold, etc.), **Surface\r\nPattern** drives the line/maze pattern fill, and **Surface\r\nBorder** controls the trim around shape edges. Each is a full\r\nsurface block (metallic, gloss, color, anisotropy, dissolve,\r\nspecial shaders) so you can mix e.g. matte stockings with a\r\nglowing border. Hidden in Color Paint mode.\r\n\r\n\r\n## Hexagon Detail\r\n\r\nSee the *Hexagon Map* sub-section. Adds a procedural hex /\r\ncircle micro-pattern on top of the surface for fishnet-style\r\ndetail or sci-fi panels. Toggle off when you want a smooth\r\nfabric.\r\n\r\n\r\n## Dissolve\r\n\r\n**Dissolve** is the master amount (0 – 1) that fades the outfit\r\naway along the dissolve map — drive it with auto-update for\r\ntearing/melting transitions synced to music or other data.\r\nThe *Dissolve Map* sub-section configures the map itself:\r\npattern frequency, edge width and bump on both sides of the\r\ncutoff, X/Y offsets, and a hard cutout toggle. Hidden in pure\r\nColor Paint mode.)",
+    "zh-TW": "(Outfit applies a procedural fabric/paint layer over the character's\r\nskin material — used to add stockings, bodysuits, latex, hexagon\r\ndetail, freehand body paint, and dissolve transitions without\r\ntouching the underlying mesh or textures.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks how the layer behaves. *Color Paint* turns the\r\ncharacter into a canvas you draw on directly with the cursor —\r\npick a brush color and paint freely. *Outfit* hides the painting\r\ntools and instead drives the layer from the procedural\r\nshape/pattern settings, so you get clean stockings or bodysuits\r\ngenerated from parameters. *Outfit Paint* combines both: the\r\nprocedural shape defines the outfit area, and you paint on top\r\nof it. The visibility rules in the panel collapse the unrelated\r\nsub-sections automatically once the mode is set.\r\n\r\n\r\n## Presets\r\n\r\nSeven built-in presets cover the common cases — Body Paint,\r\nFullbody Latex, V-Shape Fishnet, two stocking variants, and two\r\nbodysuits. They seed the mode, shape, and the three surface\r\npresets in one click; treat them as starting points to tweak\r\nrather than final looks.\r\n\r\n\r\n## Body Paint\r\n\r\n{% include video id='chHk9--cUYE' provider='youtube' %}\r\n\r\nSee the *Body Paint* sub-section. Brush size, rotation, color,\r\nstamp texture, and save/load drawing live there. Visible only\r\nin Color Paint and Outfit Paint modes.\r\n\r\n\r\n## Shape & Pattern\r\n\r\nSee the *Shape* sub-section. Controls the procedural geometry of\r\nthe outfit — stocking heights, top lines, fishnet/maze/curve\r\nline patterns, and bump effects along borders. Hidden in pure\r\nColor Paint mode since there is no procedural outfit to shape.\r\n\r\n\r\n## Surfaces\r\n\r\nThree surface layers stack on the outfit: **Surface Base** is\r\nthe main fabric (latex, stocking, gold, etc.), **Surface\r\nPattern** drives the line/maze pattern fill, and **Surface\r\nBorder** controls the trim around shape edges. Each is a full\r\nsurface block (metallic, gloss, color, anisotropy, dissolve,\r\nspecial shaders) so you can mix e.g. matte stockings with a\r\nglowing border. Hidden in Color Paint mode.\r\n\r\n\r\n## Hexagon Detail\r\n\r\nSee the *Hexagon Map* sub-section. Adds a procedural hex /\r\ncircle micro-pattern on top of the surface for fishnet-style\r\ndetail or sci-fi panels. Toggle off when you want a smooth\r\nfabric.\r\n\r\n\r\n## Dissolve\r\n\r\n**Dissolve** is the master amount (0 – 1) that fades the outfit\r\naway along the dissolve map — drive it with auto-update for\r\ntearing/melting transitions synced to music or other data.\r\nThe *Dissolve Map* sub-section configures the map itself:\r\npattern frequency, edge width and bump on both sides of the\r\ncutoff, X/Y offsets, and a hard cutout toggle. Hidden in pure\r\nColor Paint mode.)",
+    "ko": "(Outfit applies a procedural fabric/paint layer over the character's\r\nskin material — used to add stockings, bodysuits, latex, hexagon\r\ndetail, freehand body paint, and dissolve transitions without\r\ntouching the underlying mesh or textures.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks how the layer behaves. *Color Paint* turns the\r\ncharacter into a canvas you draw on directly with the cursor —\r\npick a brush color and paint freely. *Outfit* hides the painting\r\ntools and instead drives the layer from the procedural\r\nshape/pattern settings, so you get clean stockings or bodysuits\r\ngenerated from parameters. *Outfit Paint* combines both: the\r\nprocedural shape defines the outfit area, and you paint on top\r\nof it. The visibility rules in the panel collapse the unrelated\r\nsub-sections automatically once the mode is set.\r\n\r\n\r\n## Presets\r\n\r\nSeven built-in presets cover the common cases — Body Paint,\r\nFullbody Latex, V-Shape Fishnet, two stocking variants, and two\r\nbodysuits. They seed the mode, shape, and the three surface\r\npresets in one click; treat them as starting points to tweak\r\nrather than final looks.\r\n\r\n\r\n## Body Paint\r\n\r\n{% include video id='chHk9--cUYE' provider='youtube' %}\r\n\r\nSee the *Body Paint* sub-section. Brush size, rotation, color,\r\nstamp texture, and save/load drawing live there. Visible only\r\nin Color Paint and Outfit Paint modes.\r\n\r\n\r\n## Shape & Pattern\r\n\r\nSee the *Shape* sub-section. Controls the procedural geometry of\r\nthe outfit — stocking heights, top lines, fishnet/maze/curve\r\nline patterns, and bump effects along borders. Hidden in pure\r\nColor Paint mode since there is no procedural outfit to shape.\r\n\r\n\r\n## Surfaces\r\n\r\nThree surface layers stack on the outfit: **Surface Base** is\r\nthe main fabric (latex, stocking, gold, etc.), **Surface\r\nPattern** drives the line/maze pattern fill, and **Surface\r\nBorder** controls the trim around shape edges. Each is a full\r\nsurface block (metallic, gloss, color, anisotropy, dissolve,\r\nspecial shaders) so you can mix e.g. matte stockings with a\r\nglowing border. Hidden in Color Paint mode.\r\n\r\n\r\n## Hexagon Detail\r\n\r\nSee the *Hexagon Map* sub-section. Adds a procedural hex /\r\ncircle micro-pattern on top of the surface for fishnet-style\r\ndetail or sci-fi panels. Toggle off when you want a smooth\r\nfabric.\r\n\r\n\r\n## Dissolve\r\n\r\n**Dissolve** is the master amount (0 – 1) that fades the outfit\r\naway along the dissolve map — drive it with auto-update for\r\ntearing/melting transitions synced to music or other data.\r\nThe *Dissolve Map* sub-section configures the map itself:\r\npattern frequency, edge width and bump on both sides of the\r\ncutoff, X/Y offsets, and a hard cutout toggle. Hidden in pure\r\nColor Paint mode.)",
+    "zh-CN": "(Outfit applies a procedural fabric/paint layer over the character's\r\nskin material — used to add stockings, bodysuits, latex, hexagon\r\ndetail, freehand body paint, and dissolve transitions without\r\ntouching the underlying mesh or textures.\r\n\r\n\r\n## Mode\r\n\r\n**Mode** picks how the layer behaves. *Color Paint* turns the\r\ncharacter into a canvas you draw on directly with the cursor —\r\npick a brush color and paint freely. *Outfit* hides the painting\r\ntools and instead drives the layer from the procedural\r\nshape/pattern settings, so you get clean stockings or bodysuits\r\ngenerated from parameters. *Outfit Paint* combines both: the\r\nprocedural shape defines the outfit area, and you paint on top\r\nof it. The visibility rules in the panel collapse the unrelated\r\nsub-sections automatically once the mode is set.\r\n\r\n\r\n## Presets\r\n\r\nSeven built-in presets cover the common cases — Body Paint,\r\nFullbody Latex, V-Shape Fishnet, two stocking variants, and two\r\nbodysuits. They seed the mode, shape, and the three surface\r\npresets in one click; treat them as starting points to tweak\r\nrather than final looks.\r\n\r\n\r\n## Body Paint\r\n\r\n{% include video id='chHk9--cUYE' provider='youtube' %}\r\n\r\nSee the *Body Paint* sub-section. Brush size, rotation, color,\r\nstamp texture, and save/load drawing live there. Visible only\r\nin Color Paint and Outfit Paint modes.\r\n\r\n\r\n## Shape & Pattern\r\n\r\nSee the *Shape* sub-section. Controls the procedural geometry of\r\nthe outfit — stocking heights, top lines, fishnet/maze/curve\r\nline patterns, and bump effects along borders. Hidden in pure\r\nColor Paint mode since there is no procedural outfit to shape.\r\n\r\n\r\n## Surfaces\r\n\r\nThree surface layers stack on the outfit: **Surface Base** is\r\nthe main fabric (latex, stocking, gold, etc.), **Surface\r\nPattern** drives the line/maze pattern fill, and **Surface\r\nBorder** controls the trim around shape edges. Each is a full\r\nsurface block (metallic, gloss, color, anisotropy, dissolve,\r\nspecial shaders) so you can mix e.g. matte stockings with a\r\nglowing border. Hidden in Color Paint mode.\r\n\r\n\r\n## Hexagon Detail\r\n\r\nSee the *Hexagon Map* sub-section. Adds a procedural hex /\r\ncircle micro-pattern on top of the surface for fishnet-style\r\ndetail or sci-fi panels. Toggle off when you want a smooth\r\nfabric.\r\n\r\n\r\n## Dissolve\r\n\r\n**Dissolve** is the master amount (0 – 1) that fades the outfit\r\naway along the dissolve map — drive it with auto-update for\r\ntearing/melting transitions synced to music or other data.\r\nThe *Dissolve Map* sub-section configures the map itself:\r\npattern frequency, edge width and bump on both sides of the\r\ncutoff, X/Y offsets, and a hard cutout toggle. Hidden in pure\r\nColor Paint mode.)"
   },
   "values": [
     {
@@ -65,7 +65,7 @@
           "type": "int",
           "label": "Paint Side",
           "labels": {
-            "ja": "ペイント側",
+            "ja": "ペイント面",
             "zh-TW": "繪畫側",
             "ko": "페인트 측면",
             "zh-CN": "上色侧面"
@@ -131,7 +131,7 @@
           "type": "float",
           "label": "Brush Rotation",
           "labels": {
-            "ja": "ブラシの回転",
+            "ja": "ブラシ回転",
             "zh-TW": "筆刷旋轉",
             "ko": "브러시 회전",
             "zh-CN": "画笔旋转"
@@ -175,8 +175,8 @@
           "type": "bool",
           "label": "Erase",
           "labels": {
-            "ja": "消しゴム",
-            "zh-TW": "橡皮擦",
+            "ja": "消去",
+            "zh-TW": "清除",
             "ko": "지우기",
             "zh-CN": "擦除"
           },
@@ -219,7 +219,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -285,7 +285,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -419,7 +419,7 @@
           "type": "options",
           "label": "Load Drawing",
           "labels": {
-            "ja": "描画の読み込み",
+            "ja": "描画をロード",
             "zh-TW": "載入繪圖",
             "ko": "그림 불러오기",
             "zh-CN": "加载绘制内容"
@@ -443,7 +443,7 @@
       "type": "group",
       "label": "Shape & Pattern",
       "labels": {
-        "ja": "形状とパターン",
+        "ja": "形とパターン",
         "zh-TW": "形狀與圖案",
         "ko": "모양 및 패턴",
         "zh-CN": "形状与图案"
@@ -465,7 +465,7 @@
           "type": "float",
           "label": "Top Height1",
           "labels": {
-            "ja": "トップの高さ1",
+            "ja": "上部高さ1",
             "zh-TW": "頂部高度1",
             "ko": "상단 높이1",
             "zh-CN": "顶部高度1"
@@ -476,7 +476,7 @@
           "options": null,
           "description": "Height of the first line at center",
           "descriptions": {
-            "ja": "中央における最初のラインの高さ",
+            "ja": "中央の最初のラインの高さ",
             "zh-TW": "中心第一條線的高度",
             "ko": "중앙에서의 첫 번째 라인 높이",
             "zh-CN": "中心第一条线的高度"
@@ -487,7 +487,7 @@
           "type": "float",
           "label": "Top Angle1",
           "labels": {
-            "ja": "トップの角度1",
+            "ja": "上部角度1",
             "zh-TW": "頂部角度1",
             "ko": "상단 각도1",
             "zh-CN": "顶部角度1"
@@ -509,7 +509,7 @@
           "type": "float",
           "label": "Top Height2",
           "labels": {
-            "ja": "トップの高さ2",
+            "ja": "上部高さ2",
             "zh-TW": "頂部高度2",
             "ko": "상단 높이2",
             "zh-CN": "顶部高度2"
@@ -520,7 +520,7 @@
           "options": null,
           "description": "Height of the second line at center",
           "descriptions": {
-            "ja": "中央における2番目のラインの高さ",
+            "ja": "中央の2番目のラインの高さ",
             "zh-TW": "中心第二條線的高度",
             "ko": "중앙에서의 두 번째 라인 높이",
             "zh-CN": "中心第二条线的高度"
@@ -531,7 +531,7 @@
           "type": "float",
           "label": "Top Angle2",
           "labels": {
-            "ja": "トップの角度2",
+            "ja": "上部角度2",
             "zh-TW": "頂部角度2",
             "ko": "상단 각도2",
             "zh-CN": "顶部角度2"
@@ -553,7 +553,7 @@
           "type": "float",
           "label": "Top Edge",
           "labels": {
-            "ja": "トップのエッジ",
+            "ja": "上部エッジ",
             "zh-TW": "頂部邊緣",
             "ko": "상단 가장자리",
             "zh-CN": "顶部边缘"
@@ -564,7 +564,7 @@
           "options": null,
           "description": "Edge width for the first and second lines",
           "descriptions": {
-            "ja": "最初のラインと2番目のラインのエッジ幅",
+            "ja": "最初のラインと2番目のラインの端の幅",
             "zh-TW": "第一條和第二條線的邊緣寬度",
             "ko": "첫 번째 및 두 번째 라인 가장자리 너비",
             "zh-CN": "第一条线和第二条线的边缘宽度"
@@ -586,7 +586,7 @@
           "options": null,
           "description": "Height of the stocking line at center",
           "descriptions": {
-            "ja": "ストッキングラインの中央における高さ",
+            "ja": "中央のストッキングラインの高さ",
             "zh-TW": "絲襪線中心的高度",
             "ko": "중앙에서의 스타킹 라인 높이",
             "zh-CN": "吊袜线中心的高度"
@@ -619,7 +619,7 @@
           "type": "float",
           "label": "Stocking Edge",
           "labels": {
-            "ja": "ストッキングのエッジ",
+            "ja": "ストッキングの端",
             "zh-TW": "絲襪邊緣",
             "ko": "스타킹 가장자리",
             "zh-CN": "吊袜边缘"
@@ -630,7 +630,7 @@
           "options": null,
           "description": "Edge width for the stocking line",
           "descriptions": {
-            "ja": "ストッキングラインのエッジ幅",
+            "ja": "ストッキングラインの端の幅",
             "zh-TW": "絲襪線的邊緣寬度",
             "ko": "스타킹 라인 가장자리 너비",
             "zh-CN": "吊袜线的边缘宽度"
@@ -641,7 +641,7 @@
           "type": "int",
           "label": "Pattern Type",
           "labels": {
-            "ja": "パターンタイプ",
+            "ja": "パターン種類",
             "zh-TW": "圖案類型",
             "ko": "패턴 유형",
             "zh-CN": "图案类型"
@@ -729,7 +729,7 @@
           "type": "float",
           "label": "Pattern Seed",
           "labels": {
-            "ja": "パターンのシード",
+            "ja": "パターンシード",
             "zh-TW": "圖案種子",
             "ko": "패턴 시드",
             "zh-CN": "图案种子"
@@ -751,7 +751,7 @@
           "type": "float",
           "label": "Border Size In",
           "labels": {
-            "ja": "ボーダーの内サイズ",
+            "ja": "境界サイズ内",
             "zh-TW": "邊框大小內",
             "ko": "테두리 크기 안쪽",
             "zh-CN": "边框内尺寸"
@@ -773,7 +773,7 @@
           "type": "float",
           "label": "Border Size Out",
           "labels": {
-            "ja": "ボーダーの外サイズ",
+            "ja": "境界サイズ外",
             "zh-TW": "邊框大小外",
             "ko": "테두리 크기 바깥쪽",
             "zh-CN": "边框外尺寸"
@@ -795,7 +795,7 @@
           "type": "float",
           "label": "Outside Bump",
           "labels": {
-            "ja": "外部膨らみ",
+            "ja": "外側バンプ",
             "zh-TW": "外部鼓起",
             "ko": "바깥쪽 엠보스",
             "zh-CN": "外部凸起"
@@ -817,7 +817,7 @@
           "type": "float",
           "label": "Outside Distance",
           "labels": {
-            "ja": "外部距離",
+            "ja": "外側距離",
             "zh-TW": "外部距離",
             "ko": "바깥쪽 간격",
             "zh-CN": "外部距离"
@@ -839,7 +839,7 @@
           "type": "float",
           "label": "Inside Bump",
           "labels": {
-            "ja": "内部膨らみ",
+            "ja": "内側バンプ",
             "zh-TW": "內部鼓起",
             "ko": "안쪽 엠보스",
             "zh-CN": "内部凸起"
@@ -861,7 +861,7 @@
           "type": "float",
           "label": "Inside Distance",
           "labels": {
-            "ja": "内部距離",
+            "ja": "内側距離",
             "zh-TW": "內部距離",
             "ko": "안쪽 간격",
             "zh-CN": "内部距离"
@@ -1107,7 +1107,7 @@
       "type": "group",
       "label": "Surface Base",
       "labels": {
-        "ja": "ベースサーフェス",
+        "ja": "サーフェスベース",
         "zh-TW": "表面底色",
         "ko": "표면 기본",
         "zh-CN": "表面底色"
@@ -1217,7 +1217,7 @@
           "type": "float",
           "label": "Ambient",
           "labels": {
-            "ja": "アンビエント",
+            "ja": "周囲光",
             "zh-TW": "環境光",
             "ko": "주변광",
             "zh-CN": "环境光"
@@ -1327,7 +1327,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -1393,7 +1393,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -1549,7 +1549,7 @@
           "type": "float",
           "label": "Anisotropy",
           "labels": {
-            "ja": "アニソトロピー",
+            "ja": "異方性",
             "zh-TW": "各向異性",
             "ko": "이방성",
             "zh-CN": "各向异性"
@@ -1637,7 +1637,7 @@
           "type": "bool",
           "label": "Enable Dissolve",
           "labels": {
-            "ja": "ディゾルブを有効化",
+            "ja": "溶解有効化",
             "zh-TW": "啟用溶解",
             "ko": "용해 활성화",
             "zh-CN": "启用溶解"
@@ -1771,7 +1771,7 @@
           "type": "float",
           "label": "Ambient",
           "labels": {
-            "ja": "アンビエント",
+            "ja": "周囲光",
             "zh-TW": "環境光",
             "ko": "주변광",
             "zh-CN": "环境光"
@@ -1881,7 +1881,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -1947,7 +1947,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -2103,7 +2103,7 @@
           "type": "float",
           "label": "Anisotropy",
           "labels": {
-            "ja": "アニソトロピー",
+            "ja": "異方性",
             "zh-TW": "各向異性",
             "ko": "이방성",
             "zh-CN": "各向异性"
@@ -2191,7 +2191,7 @@
           "type": "bool",
           "label": "Enable Dissolve",
           "labels": {
-            "ja": "ディゾルブを有効化",
+            "ja": "溶解有効化",
             "zh-TW": "啟用溶解",
             "ko": "용해 활성화",
             "zh-CN": "启用溶解"
@@ -2325,7 +2325,7 @@
           "type": "float",
           "label": "Ambient",
           "labels": {
-            "ja": "アンビエント",
+            "ja": "周囲光",
             "zh-TW": "環境光",
             "ko": "주변광",
             "zh-CN": "环境光"
@@ -2435,7 +2435,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -2501,7 +2501,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -2657,7 +2657,7 @@
           "type": "float",
           "label": "Anisotropy",
           "labels": {
-            "ja": "アニソトロピー",
+            "ja": "異方性",
             "zh-TW": "各向異性",
             "ko": "이방성",
             "zh-CN": "各向异性"
@@ -2745,7 +2745,7 @@
           "type": "bool",
           "label": "Enable Dissolve",
           "labels": {
-            "ja": "ディゾルブを有効化",
+            "ja": "溶解有効化",
             "zh-TW": "啟用溶解",
             "ko": "용해 활성화",
             "zh-CN": "启用溶解"
@@ -2824,7 +2824,7 @@
           "options": null,
           "description": "Change the level 1 pattern when generating the dissolve map",
           "descriptions": {
-            "ja": "ディゾルブマップ生成時にレベル1のパターンを変更",
+            "ja": "ディゾルブマップ生成時のレベル1パターンの変更",
             "zh-TW": "生成溶解圖時更改級別 1 的圖案",
             "ko": "디졸브 맵 생성 시 레벨 1 패턴 변경",
             "zh-CN": "生成消散贴图时改变级别1图案"
@@ -2868,7 +2868,7 @@
           "options": null,
           "description": "Change the level 2 pattern when generating the dissolve map",
           "descriptions": {
-            "ja": "ディゾルブマップ生成時にレベル2のパターンを変更",
+            "ja": "ディゾルブマップ生成時のレベル2パターンの変更",
             "zh-TW": "生成溶解圖時更改級別 2 的圖案",
             "ko": "디졸브 맵 생성 시 레벨 2 패턴 변경",
             "zh-CN": "生成消散贴图时改变级别2图案"
@@ -2967,7 +2967,7 @@
           "type": "float",
           "label": "Edge Bump",
           "labels": {
-            "ja": "エッジバンプ",
+            "ja": "エッジの凹凸",
             "zh-TW": "邊緣浮雕",
             "ko": "가장자리 범프",
             "zh-CN": "边缘凹凸"
@@ -2978,7 +2978,7 @@
           "options": null,
           "description": "Bump effect of the edge area",
           "descriptions": {
-            "ja": "エッジ領域のバンプ効果",
+            "ja": "エッジ領域の凹凸効果",
             "zh-TW": "邊緣區域的浮雕效果",
             "ko": "가장자리 영역 범프 효과",
             "zh-CN": "边缘区域的凹凸效果"
@@ -3011,7 +3011,7 @@
           "type": "float",
           "label": "Inverse Edge Bump",
           "labels": {
-            "ja": "逆エッジバンプ",
+            "ja": "逆エッジの凹凸",
             "zh-TW": "反向邊緣浮雕",
             "ko": "역방향 가장자리 범프",
             "zh-CN": "反向边缘凹凸"
@@ -3022,7 +3022,7 @@
           "options": null,
           "description": "Bump effect of the edge area",
           "descriptions": {
-            "ja": "エッジ領域のバンプ効果",
+            "ja": "エッジ領域の凹凸効果",
             "zh-TW": "邊緣區域的浮雕效果",
             "ko": "가장자리 영역 범프 효과",
             "zh-CN": "边缘区域的凹凸效果"
@@ -3088,7 +3088,7 @@
           "options": null,
           "description": "Make the dissolved area invisible",
           "descriptions": {
-            "ja": "ディゾルブした領域を非表示にする",
+            "ja": "溶けた領域を非表示にする",
             "zh-TW": "讓溶解區域隱形",
             "ko": "디졸브된 영역을 투명하게 만듦",
             "zh-CN": "使溶解区域不可见"
@@ -3123,7 +3123,7 @@
       "type": "selection",
       "label": "Select Material",
       "labels": {
-        "ja": "マテリアル選択",
+        "ja": "マテリアルを選択",
         "zh-TW": "材質選擇",
         "ko": "머티리얼 선택",
         "zh-CN": "选择材质"

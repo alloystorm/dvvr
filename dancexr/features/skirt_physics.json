@@ -21,7 +21,7 @@
       "type": "group",
       "label": "Primary Group",
       "labels": {
-        "ja": "プライマリーグループ",
+        "ja": "プライマリ グループ",
         "zh-TW": "主要群組",
         "ko": "기본 그룹",
         "zh-CN": "主组"
@@ -65,7 +65,7 @@
           "type": "options",
           "label": "Sorting",
           "labels": {
-            "ja": "ソーティング",
+            "ja": "ソート順",
             "zh-TW": "排序",
             "ko": "정렬",
             "zh-CN": "排序"
@@ -76,7 +76,7 @@
           "options": ["Shortest Path", "Circular", "Linear", "No Sorting"],
           "description": "Set sorting method used when making lateral connections.",
           "descriptions": {
-            "ja": "側面接続を作成する際に使用されるソーティング方法を設定します。",
+            "ja": "横方向の接続を作成する際に使用されるソート方法を設定します。",
             "zh-TW": "設定用於建立側方連接的排序方法。",
             "ko": "측면 연결을 만들 때 사용되는 정렬 방법을 설정합니다.",
             "zh-CN": "设置用于创建侧向连接的排序方法。"
@@ -87,7 +87,7 @@
           "type": "bool",
           "label": "Closed Loop",
           "labels": {
-            "ja": "クローズドループ",
+            "ja": "閉じたループ",
             "zh-TW": "閉環",
             "ko": "폐쇄 루프",
             "zh-CN": "闭环"
@@ -98,7 +98,7 @@
           "options": null,
           "description": "Bones for closed loops at each level",
           "descriptions": {
-            "ja": "各レベルのクローズドループ用の骨",
+            "ja": "各レベルの閉じたループのボーン",
             "zh-TW": "每級的閉環骨骼",
             "ko": "각 레벨의 폐쇄 루프 본",
             "zh-CN": "每个级别的闭环骨骼"
@@ -109,7 +109,7 @@
           "type": "int",
           "label": "Skip First X Bones",
           "labels": {
-            "ja": "最初からX個の骨格をスキップ",
+            "ja": "先頭からX個のボーンをスキップ",
             "zh-TW": "跳過前 X 根骨骼",
             "ko": "첫 X개 뼈 건너뛰기",
             "zh-CN": "跳过前 X 根骨骼"
@@ -120,7 +120,7 @@
           "options": null,
           "description": "Do not create physics connection for the first x number of levels",
           "descriptions": {
-            "ja": "最初からx個のレベルについて物理接続を作成しない",
+            "ja": "最初からX個のレベルには物理接続を作成しない",
             "zh-TW": "不為前 x 個層級創建物理連接",
             "ko": "첫 x개 레벨에 물리 연결을 생성하지 않음",
             "zh-CN": "不为前 X 个层级创建物理连接"
@@ -142,7 +142,7 @@
           "options": ["Auto", "PhysX", "XPBD"],
           "description": "Auto follows system default. PhysX uses joint-based physics. XPBD uses particle-based simulation.",
           "descriptions": {
-            "ja": "自動でシステムのデフォルトに従います。PhysXはジョイントベースの物理学を使用します。XPBDはパーティクルベースのシミュレーションを使用します。",
+            "ja": "自動はシステムデフォルトに従います。PhysXはジョイントベースの物理学を使用します。XPBDはパーティクルベースのシミュレーションを使用します。",
             "zh-TW": "自動遵循系統預設。PhysX 使用基於關節的物理學。XPBD 使用基於粒子的模擬。",
             "ko": "자동은 시스템 기본값을 따릅니다. PhysX는 관절 기반 물리입니다. XPBD는 입자 기반 시뮬레이션입니다.",
             "zh-CN": "自动遵循系统默认。PhysX使用基于关节的物理。XPBD使用基于粒子的模拟。"
@@ -153,7 +153,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -164,7 +164,7 @@
           "options": null,
           "description": "Show collider shapes for skirt physics bodies",
           "descriptions": {
-            "ja": "スカート物理ボディのコライダー形状を表示",
+            "ja": "スカート物理のボディのコライダー形状を表示",
             "zh-TW": "顯示裙子物理身體的碰撞體形狀",
             "ko": "스커트 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示裙摆物理骨体的碰撞器形状"
@@ -186,7 +186,7 @@
           "options": null,
           "description": "Show joint limits and drive targets for skirt physics joints",
           "descriptions": {
-            "ja": "スカート物理ジョイントの関節制限とドライブターゲットを表示",
+            "ja": "スカート物理のジョイントの制限とドライブターゲットを表示",
             "zh-TW": "顯示裙子物理關節的關節限制和驅動目標",
             "ko": "스커트 물리 관절의 관절 한계 및 구동 목표를 표시합니다.",
             "zh-CN": "显示裙摆物理关节的关节限制和驱动目标"
@@ -230,7 +230,7 @@
               "options": null,
               "description": "Physics properties like mass, drag and friction",
               "descriptions": {
-                "ja": "質量、ドラッグ、摩擦などの物理プロパティ",
+                "ja": "質量、抵抗、摩擦などの物理プロパティ",
                 "zh-TW": "物理屬性，如質量、阻力和摩擦力",
                 "ko": "질량, 항력, 마찰력과 같은 물리 속성",
                 "zh-CN": "物理属性，如质量、阻力和摩擦力"
@@ -296,7 +296,7 @@
                   "options": null,
                   "description": "Overlap of colliders horizontally",
                   "descriptions": {
-                    "ja": "コライダーの水平方向のオーバーラップ",
+                    "ja": "水平方向のコライダーオーバーラップ",
                     "zh-TW": "碰撞器水平重疊",
                     "ko": "콜라이더의 수평 중첩",
                     "zh-CN": "水平碰撞体重叠"
@@ -318,7 +318,7 @@
                   "options": null,
                   "description": "Reduce mass at each level",
                   "descriptions": {
-                    "ja": "各レベルで質量を減少させる",
+                    "ja": "レベルごとの質量減少",
                     "zh-TW": "降低每個層級的質量",
                     "ko": "각 레벨별 질량 감소",
                     "zh-CN": "降低每个级别的质量"
@@ -384,7 +384,7 @@
                   "options": ["Auto", "Zero"],
                   "description": "Set center of mass at zero or automatically based on position and size of each collider",
                   "descriptions": {
-                    "ja": "ゼロ、または各コライダーの位置とサイズに基づいて自動的に重心を設定する",
+                    "ja": "重心をゼロに設定するか、各コライダーの位置とサイズに基づいて自動設定",
                     "zh-TW": "將質心設定為零，或根據每個碰撞器的位置和大小自動設定",
                     "ko": "무게 중심을 0으로 설정하거나 각 콜라이더의 위치와 크기에 따라 자동으로 설정",
                     "zh-CN": "将质心设置为零，或根据每个碰撞体的位置和大小自动设置"
@@ -419,7 +419,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -441,7 +441,7 @@
                   "type": "float",
                   "label": "Swing Drive",
                   "labels": {
-                    "ja": "スイングドライブ",
+                    "ja": "スイング ドライブ",
                     "zh-TW": "擺動驅動",
                     "ko": "스윙 드라이브",
                     "zh-CN": "摆动驱动"
@@ -463,7 +463,7 @@
                   "type": "float",
                   "label": "Twist Drive",
                   "labels": {
-                    "ja": "ねじれドライブ",
+                    "ja": "ツイスト ドライブ",
                     "zh-TW": "扭轉驅動",
                     "ko": "비틀림 드라이브",
                     "zh-CN": "扭转驱动"
@@ -485,7 +485,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -507,7 +507,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -553,7 +553,7 @@
               "type": "group",
               "label": "Lateral Joint",
               "labels": {
-                "ja": "側面ジョイント",
+                "ja": "横方向ジョイント",
                 "zh-TW": "側方關節",
                 "ko": "측면 관절",
                 "zh-CN": "侧向关节"
@@ -575,7 +575,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -597,7 +597,7 @@
                   "type": "float",
                   "label": "Linear Drive",
                   "labels": {
-                    "ja": "線形ドライブ",
+                    "ja": "リニア ドライブ",
                     "zh-TW": "線性驅動",
                     "ko": "선형 드라이브",
                     "zh-CN": "线性驱动"
@@ -619,7 +619,7 @@
                   "type": "float",
                   "label": "Angular Drive",
                   "labels": {
-                    "ja": "角度ドライブ",
+                    "ja": "アングル ドライブ",
                     "zh-TW": "角度驅動",
                     "ko": "각도 드라이브",
                     "zh-CN": "角度驱动"
@@ -641,7 +641,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -663,7 +663,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -685,7 +685,7 @@
                   "type": "bool",
                   "label": "Lock Y",
                   "labels": {
-                    "ja": "Y軸固定",
+                    "ja": "Y固定",
                     "zh-TW": "鎖定 Y",
                     "ko": "Y 잠금",
                     "zh-CN": "锁定 Y 轴"
@@ -707,7 +707,7 @@
                   "type": "bool",
                   "label": "Lock Z",
                   "labels": {
-                    "ja": "Z軸固定",
+                    "ja": "Z固定",
                     "zh-TW": "鎖定 Z",
                     "ko": "Z 잠금",
                     "zh-CN": "锁定 Z 轴"
@@ -775,7 +775,7 @@
                   "type": "options",
                   "label": "Collider Type",
                   "labels": {
-                    "ja": "コライダータイプ",
+                    "ja": "コライダー タイプ",
                     "zh-TW": "碰撞體類型",
                     "ko": "충돌체 유형",
                     "zh-CN": "碰撞器类型"
@@ -808,7 +808,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -830,7 +830,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -944,7 +944,7 @@
               "options": null,
               "description": "Use sphere particles instead of capsules (for debugging)",
               "descriptions": {
-                "ja": "カプセルではなく球体パーティクルを使用する（デバッグ用）",
+                "ja": "カプセルではなく球体粒子を使用する（デバッグ用）",
                 "zh-TW": "使用球體顆粒而非膠囊體（用於除錯）",
                 "ko": "캡슐 대신 구 입자 사용 (디버깅용)",
                 "zh-CN": "使用球形粒子代替胶囊体（用于调试）"
@@ -955,7 +955,7 @@
               "type": "float",
               "label": "Stiffness Reduction",
               "labels": {
-                "ja": "剛性の低下",
+                "ja": "剛性低下",
                 "zh-TW": "剛度降低",
                 "ko": "강성 감소",
                 "zh-CN": "刚度减小"
@@ -988,7 +988,7 @@
               "options": null,
               "description": "Damping of particle motion",
               "descriptions": {
-                "ja": "パーティクル運動の減衰",
+                "ja": "粒子運動の減衰",
                 "zh-TW": "顆粒運動阻尼",
                 "ko": "입자 움직임의 감쇠",
                 "zh-CN": "粒子运动阻尼"
@@ -999,7 +999,7 @@
               "type": "float",
               "label": "Particle Anchor",
               "labels": {
-                "ja": "パーティクルアンカー",
+                "ja": "粒子アンカー",
                 "zh-TW": "顆粒固定點",
                 "ko": "입자 앵커",
                 "zh-CN": "粒子固定点"
@@ -1021,7 +1021,7 @@
               "type": "float",
               "label": "Mass Reduction",
               "labels": {
-                "ja": "質量軽減",
+                "ja": "質量削減",
                 "zh-TW": "質量衰減",
                 "ko": "질량 감소",
                 "zh-CN": "质量衰减"
@@ -1032,7 +1032,7 @@
               "options": null,
               "description": "Reducing mass at each level",
               "descriptions": {
-                "ja": "各レベルでの質量軽減",
+                "ja": "各レベルでの質量削減",
                 "zh-TW": "降低每級的質量",
                 "ko": "각 레벨에서의 질량 감소",
                 "zh-CN": "每个级别的质量衰减"
@@ -1043,7 +1043,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -1098,7 +1098,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -1153,7 +1153,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -1175,7 +1175,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -1186,7 +1186,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -1241,7 +1241,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -1307,7 +1307,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -1331,7 +1331,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -1397,7 +1397,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -1419,7 +1419,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -1755,7 +1755,7 @@
           "type": "options",
           "label": "Sorting",
           "labels": {
-            "ja": "ソーティング",
+            "ja": "ソート順",
             "zh-TW": "排序",
             "ko": "정렬",
             "zh-CN": "排序"
@@ -1766,7 +1766,7 @@
           "options": ["Shortest Path", "Circular", "Linear", "No Sorting"],
           "description": "Set sorting method used when making lateral connections.",
           "descriptions": {
-            "ja": "側面接続を作成する際に使用されるソーティング方法を設定します。",
+            "ja": "横方向の接続を作成する際に使用されるソート方法を設定します。",
             "zh-TW": "設定用於建立側方連接的排序方法。",
             "ko": "측면 연결을 만들 때 사용되는 정렬 방법을 설정합니다.",
             "zh-CN": "设置用于创建侧向连接的排序方法。"
@@ -1777,7 +1777,7 @@
           "type": "bool",
           "label": "Closed Loop",
           "labels": {
-            "ja": "クローズドループ",
+            "ja": "閉じたループ",
             "zh-TW": "閉環",
             "ko": "폐쇄 루프",
             "zh-CN": "闭环"
@@ -1788,7 +1788,7 @@
           "options": null,
           "description": "Bones for closed loops at each level",
           "descriptions": {
-            "ja": "各レベルのクローズドループ用の骨",
+            "ja": "各レベルの閉じたループのボーン",
             "zh-TW": "每級的閉環骨骼",
             "ko": "각 레벨의 폐쇄 루프 본",
             "zh-CN": "每个级别的闭环骨骼"
@@ -1799,7 +1799,7 @@
           "type": "int",
           "label": "Skip First X Bones",
           "labels": {
-            "ja": "最初からX個の骨格をスキップ",
+            "ja": "先頭からX個のボーンをスキップ",
             "zh-TW": "跳過前 X 根骨骼",
             "ko": "첫 X개 뼈 건너뛰기",
             "zh-CN": "跳过前 X 根骨骼"
@@ -1810,7 +1810,7 @@
           "options": null,
           "description": "Do not create physics connection for the first x number of levels",
           "descriptions": {
-            "ja": "最初からx個のレベルについて物理接続を作成しない",
+            "ja": "最初からX個のレベルには物理接続を作成しない",
             "zh-TW": "不為前 x 個層級創建物理連接",
             "ko": "첫 x개 레벨에 물리 연결을 생성하지 않음",
             "zh-CN": "不为前 X 个层级创建物理连接"
@@ -1821,7 +1821,7 @@
           "type": "bool",
           "label": "Override Physics",
           "labels": {
-            "ja": "物理の上書き",
+            "ja": "物理のオーバーライド",
             "zh-TW": "覆蓋物理",
             "ko": "물리 재정의",
             "zh-CN": "覆盖物理"
@@ -1832,7 +1832,7 @@
           "options": null,
           "description": "Override physics settings from the primary group",
           "descriptions": {
-            "ja": "プライマリーグループからの物理設定を上書きします",
+            "ja": "プライマリグループからの物理設定をオーバーライドします",
             "zh-TW": "覆蓋來自主要群組的物理設定",
             "ko": "기본 그룹의 물리 설정을 재정의합니다.",
             "zh-CN": "覆盖主组的物理设置"
@@ -1843,7 +1843,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -1854,7 +1854,7 @@
           "options": null,
           "description": "Show collider shapes for skirt physics bodies",
           "descriptions": {
-            "ja": "スカート物理ボディのコライダー形状を表示",
+            "ja": "スカート物理のボディのコライダー形状を表示",
             "zh-TW": "顯示裙子物理身體的碰撞體形狀",
             "ko": "스커트 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示裙摆物理骨体的碰撞器形状"
@@ -1876,7 +1876,7 @@
           "options": null,
           "description": "Show joint limits and drive targets for skirt physics joints",
           "descriptions": {
-            "ja": "スカート物理ジョイントの関節制限とドライブターゲットを表示",
+            "ja": "スカート物理のジョイントの制限とドライブターゲットを表示",
             "zh-TW": "顯示裙子物理關節的關節限制和驅動目標",
             "ko": "스커트 물리 관절의 관절 한계 및 구동 목표를 표시합니다.",
             "zh-CN": "显示裙摆物理关节的关节限制和驱动目标"
@@ -1920,7 +1920,7 @@
               "options": null,
               "description": "Physics properties like mass, drag and friction",
               "descriptions": {
-                "ja": "質量、ドラッグ、摩擦などの物理プロパティ",
+                "ja": "質量、抵抗、摩擦などの物理プロパティ",
                 "zh-TW": "物理屬性，如質量、阻力和摩擦力",
                 "ko": "질량, 항력, 마찰력과 같은 물리 속성",
                 "zh-CN": "物理属性，如质量、阻力和摩擦力"
@@ -1986,7 +1986,7 @@
                   "options": null,
                   "description": "Overlap of colliders horizontally",
                   "descriptions": {
-                    "ja": "コライダーの水平方向のオーバーラップ",
+                    "ja": "水平方向のコライダーオーバーラップ",
                     "zh-TW": "碰撞器水平重疊",
                     "ko": "콜라이더의 수평 중첩",
                     "zh-CN": "水平碰撞体重叠"
@@ -2008,7 +2008,7 @@
                   "options": null,
                   "description": "Reduce mass at each level",
                   "descriptions": {
-                    "ja": "各レベルで質量を減少させる",
+                    "ja": "レベルごとの質量減少",
                     "zh-TW": "降低每個層級的質量",
                     "ko": "각 레벨별 질량 감소",
                     "zh-CN": "降低每个级别的质量"
@@ -2074,7 +2074,7 @@
                   "options": ["Auto", "Zero"],
                   "description": "Set center of mass at zero or automatically based on position and size of each collider",
                   "descriptions": {
-                    "ja": "ゼロ、または各コライダーの位置とサイズに基づいて自動的に重心を設定する",
+                    "ja": "重心をゼロに設定するか、各コライダーの位置とサイズに基づいて自動設定",
                     "zh-TW": "將質心設定為零，或根據每個碰撞器的位置和大小自動設定",
                     "ko": "무게 중심을 0으로 설정하거나 각 콜라이더의 위치와 크기에 따라 자동으로 설정",
                     "zh-CN": "将质心设置为零，或根据每个碰撞体的位置和大小自动设置"
@@ -2109,7 +2109,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -2131,7 +2131,7 @@
                   "type": "float",
                   "label": "Swing Drive",
                   "labels": {
-                    "ja": "スイングドライブ",
+                    "ja": "スイング ドライブ",
                     "zh-TW": "擺動驅動",
                     "ko": "스윙 드라이브",
                     "zh-CN": "摆动驱动"
@@ -2153,7 +2153,7 @@
                   "type": "float",
                   "label": "Twist Drive",
                   "labels": {
-                    "ja": "ねじれドライブ",
+                    "ja": "ツイスト ドライブ",
                     "zh-TW": "扭轉驅動",
                     "ko": "비틀림 드라이브",
                     "zh-CN": "扭转驱动"
@@ -2175,7 +2175,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -2197,7 +2197,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -2243,7 +2243,7 @@
               "type": "group",
               "label": "Lateral Joint",
               "labels": {
-                "ja": "側面ジョイント",
+                "ja": "横方向ジョイント",
                 "zh-TW": "側方關節",
                 "ko": "측면 관절",
                 "zh-CN": "侧向关节"
@@ -2265,7 +2265,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -2287,7 +2287,7 @@
                   "type": "float",
                   "label": "Linear Drive",
                   "labels": {
-                    "ja": "線形ドライブ",
+                    "ja": "リニア ドライブ",
                     "zh-TW": "線性驅動",
                     "ko": "선형 드라이브",
                     "zh-CN": "线性驱动"
@@ -2309,7 +2309,7 @@
                   "type": "float",
                   "label": "Angular Drive",
                   "labels": {
-                    "ja": "角度ドライブ",
+                    "ja": "アングル ドライブ",
                     "zh-TW": "角度驅動",
                     "ko": "각도 드라이브",
                     "zh-CN": "角度驱动"
@@ -2331,7 +2331,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -2353,7 +2353,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -2375,7 +2375,7 @@
                   "type": "bool",
                   "label": "Lock Y",
                   "labels": {
-                    "ja": "Y軸固定",
+                    "ja": "Y固定",
                     "zh-TW": "鎖定 Y",
                     "ko": "Y 잠금",
                     "zh-CN": "锁定 Y 轴"
@@ -2397,7 +2397,7 @@
                   "type": "bool",
                   "label": "Lock Z",
                   "labels": {
-                    "ja": "Z軸固定",
+                    "ja": "Z固定",
                     "zh-TW": "鎖定 Z",
                     "ko": "Z 잠금",
                     "zh-CN": "锁定 Z 轴"
@@ -2465,7 +2465,7 @@
                   "type": "options",
                   "label": "Collider Type",
                   "labels": {
-                    "ja": "コライダータイプ",
+                    "ja": "コライダー タイプ",
                     "zh-TW": "碰撞體類型",
                     "ko": "충돌체 유형",
                     "zh-CN": "碰撞器类型"
@@ -2498,7 +2498,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -2520,7 +2520,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -2634,7 +2634,7 @@
               "options": null,
               "description": "Use sphere particles instead of capsules (for debugging)",
               "descriptions": {
-                "ja": "カプセルではなく球体パーティクルを使用する（デバッグ用）",
+                "ja": "カプセルではなく球体粒子を使用する（デバッグ用）",
                 "zh-TW": "使用球體顆粒而非膠囊體（用於除錯）",
                 "ko": "캡슐 대신 구 입자 사용 (디버깅용)",
                 "zh-CN": "使用球形粒子代替胶囊体（用于调试）"
@@ -2645,7 +2645,7 @@
               "type": "float",
               "label": "Stiffness Reduction",
               "labels": {
-                "ja": "剛性の低下",
+                "ja": "剛性低下",
                 "zh-TW": "剛度降低",
                 "ko": "강성 감소",
                 "zh-CN": "刚度减小"
@@ -2678,7 +2678,7 @@
               "options": null,
               "description": "Damping of particle motion",
               "descriptions": {
-                "ja": "パーティクル運動の減衰",
+                "ja": "粒子運動の減衰",
                 "zh-TW": "顆粒運動阻尼",
                 "ko": "입자 움직임의 감쇠",
                 "zh-CN": "粒子运动阻尼"
@@ -2689,7 +2689,7 @@
               "type": "float",
               "label": "Particle Anchor",
               "labels": {
-                "ja": "パーティクルアンカー",
+                "ja": "粒子アンカー",
                 "zh-TW": "顆粒固定點",
                 "ko": "입자 앵커",
                 "zh-CN": "粒子固定点"
@@ -2711,7 +2711,7 @@
               "type": "float",
               "label": "Mass Reduction",
               "labels": {
-                "ja": "質量軽減",
+                "ja": "質量削減",
                 "zh-TW": "質量衰減",
                 "ko": "질량 감소",
                 "zh-CN": "质量衰减"
@@ -2722,7 +2722,7 @@
               "options": null,
               "description": "Reducing mass at each level",
               "descriptions": {
-                "ja": "各レベルでの質量軽減",
+                "ja": "各レベルでの質量削減",
                 "zh-TW": "降低每級的質量",
                 "ko": "각 레벨에서의 질량 감소",
                 "zh-CN": "每个级别的质量衰减"
@@ -2733,7 +2733,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -2788,7 +2788,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -2843,7 +2843,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -2865,7 +2865,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -2876,7 +2876,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -2931,7 +2931,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -2997,7 +2997,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -3021,7 +3021,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -3087,7 +3087,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -3109,7 +3109,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -3423,7 +3423,7 @@
           "type": "options",
           "label": "Sorting",
           "labels": {
-            "ja": "ソーティング",
+            "ja": "ソート順",
             "zh-TW": "排序",
             "ko": "정렬",
             "zh-CN": "排序"
@@ -3434,7 +3434,7 @@
           "options": ["Shortest Path", "Circular", "Linear", "No Sorting"],
           "description": "Set sorting method used when making lateral connections.",
           "descriptions": {
-            "ja": "側面接続を作成する際に使用されるソーティング方法を設定します。",
+            "ja": "横方向の接続を作成する際に使用されるソート方法を設定します。",
             "zh-TW": "設定用於建立側方連接的排序方法。",
             "ko": "측면 연결을 만들 때 사용되는 정렬 방법을 설정합니다.",
             "zh-CN": "设置用于创建侧向连接的排序方法。"
@@ -3445,7 +3445,7 @@
           "type": "bool",
           "label": "Closed Loop",
           "labels": {
-            "ja": "クローズドループ",
+            "ja": "閉じたループ",
             "zh-TW": "閉環",
             "ko": "폐쇄 루프",
             "zh-CN": "闭环"
@@ -3456,7 +3456,7 @@
           "options": null,
           "description": "Bones for closed loops at each level",
           "descriptions": {
-            "ja": "各レベルのクローズドループ用の骨",
+            "ja": "各レベルの閉じたループのボーン",
             "zh-TW": "每級的閉環骨骼",
             "ko": "각 레벨의 폐쇄 루프 본",
             "zh-CN": "每个级别的闭环骨骼"
@@ -3467,7 +3467,7 @@
           "type": "int",
           "label": "Skip First X Bones",
           "labels": {
-            "ja": "最初からX個の骨格をスキップ",
+            "ja": "先頭からX個のボーンをスキップ",
             "zh-TW": "跳過前 X 根骨骼",
             "ko": "첫 X개 뼈 건너뛰기",
             "zh-CN": "跳过前 X 根骨骼"
@@ -3478,7 +3478,7 @@
           "options": null,
           "description": "Do not create physics connection for the first x number of levels",
           "descriptions": {
-            "ja": "最初からx個のレベルについて物理接続を作成しない",
+            "ja": "最初からX個のレベルには物理接続を作成しない",
             "zh-TW": "不為前 x 個層級創建物理連接",
             "ko": "첫 x개 레벨에 물리 연결을 생성하지 않음",
             "zh-CN": "不为前 X 个层级创建物理连接"
@@ -3489,7 +3489,7 @@
           "type": "bool",
           "label": "Override Physics",
           "labels": {
-            "ja": "物理の上書き",
+            "ja": "物理のオーバーライド",
             "zh-TW": "覆蓋物理",
             "ko": "물리 재정의",
             "zh-CN": "覆盖物理"
@@ -3500,7 +3500,7 @@
           "options": null,
           "description": "Override physics settings from the primary group",
           "descriptions": {
-            "ja": "プライマリーグループからの物理設定を上書きします",
+            "ja": "プライマリグループからの物理設定をオーバーライドします",
             "zh-TW": "覆蓋來自主要群組的物理設定",
             "ko": "기본 그룹의 물리 설정을 재정의합니다.",
             "zh-CN": "覆盖主组的物理设置"
@@ -3511,7 +3511,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -3522,7 +3522,7 @@
           "options": null,
           "description": "Show collider shapes for skirt physics bodies",
           "descriptions": {
-            "ja": "スカート物理ボディのコライダー形状を表示",
+            "ja": "スカート物理のボディのコライダー形状を表示",
             "zh-TW": "顯示裙子物理身體的碰撞體形狀",
             "ko": "스커트 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示裙摆物理骨体的碰撞器形状"
@@ -3544,7 +3544,7 @@
           "options": null,
           "description": "Show joint limits and drive targets for skirt physics joints",
           "descriptions": {
-            "ja": "スカート物理ジョイントの関節制限とドライブターゲットを表示",
+            "ja": "スカート物理のジョイントの制限とドライブターゲットを表示",
             "zh-TW": "顯示裙子物理關節的關節限制和驅動目標",
             "ko": "스커트 물리 관절의 관절 한계 및 구동 목표를 표시합니다.",
             "zh-CN": "显示裙摆物理关节的关节限制和驱动目标"
@@ -3588,7 +3588,7 @@
               "options": null,
               "description": "Physics properties like mass, drag and friction",
               "descriptions": {
-                "ja": "質量、ドラッグ、摩擦などの物理プロパティ",
+                "ja": "質量、抵抗、摩擦などの物理プロパティ",
                 "zh-TW": "物理屬性，如質量、阻力和摩擦力",
                 "ko": "질량, 항력, 마찰력과 같은 물리 속성",
                 "zh-CN": "物理属性，如质量、阻力和摩擦力"
@@ -3654,7 +3654,7 @@
                   "options": null,
                   "description": "Overlap of colliders horizontally",
                   "descriptions": {
-                    "ja": "コライダーの水平方向のオーバーラップ",
+                    "ja": "水平方向のコライダーオーバーラップ",
                     "zh-TW": "碰撞器水平重疊",
                     "ko": "콜라이더의 수평 중첩",
                     "zh-CN": "水平碰撞体重叠"
@@ -3676,7 +3676,7 @@
                   "options": null,
                   "description": "Reduce mass at each level",
                   "descriptions": {
-                    "ja": "各レベルで質量を減少させる",
+                    "ja": "レベルごとの質量減少",
                     "zh-TW": "降低每個層級的質量",
                     "ko": "각 레벨별 질량 감소",
                     "zh-CN": "降低每个级别的质量"
@@ -3742,7 +3742,7 @@
                   "options": ["Auto", "Zero"],
                   "description": "Set center of mass at zero or automatically based on position and size of each collider",
                   "descriptions": {
-                    "ja": "ゼロ、または各コライダーの位置とサイズに基づいて自動的に重心を設定する",
+                    "ja": "重心をゼロに設定するか、各コライダーの位置とサイズに基づいて自動設定",
                     "zh-TW": "將質心設定為零，或根據每個碰撞器的位置和大小自動設定",
                     "ko": "무게 중심을 0으로 설정하거나 각 콜라이더의 위치와 크기에 따라 자동으로 설정",
                     "zh-CN": "将质心设置为零，或根据每个碰撞体的位置和大小自动设置"
@@ -3777,7 +3777,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -3799,7 +3799,7 @@
                   "type": "float",
                   "label": "Swing Drive",
                   "labels": {
-                    "ja": "スイングドライブ",
+                    "ja": "スイング ドライブ",
                     "zh-TW": "擺動驅動",
                     "ko": "스윙 드라이브",
                     "zh-CN": "摆动驱动"
@@ -3821,7 +3821,7 @@
                   "type": "float",
                   "label": "Twist Drive",
                   "labels": {
-                    "ja": "ねじれドライブ",
+                    "ja": "ツイスト ドライブ",
                     "zh-TW": "扭轉驅動",
                     "ko": "비틀림 드라이브",
                     "zh-CN": "扭转驱动"
@@ -3843,7 +3843,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -3865,7 +3865,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -3911,7 +3911,7 @@
               "type": "group",
               "label": "Lateral Joint",
               "labels": {
-                "ja": "側面ジョイント",
+                "ja": "横方向ジョイント",
                 "zh-TW": "側方關節",
                 "ko": "측면 관절",
                 "zh-CN": "侧向关节"
@@ -3933,7 +3933,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -3955,7 +3955,7 @@
                   "type": "float",
                   "label": "Linear Drive",
                   "labels": {
-                    "ja": "線形ドライブ",
+                    "ja": "リニア ドライブ",
                     "zh-TW": "線性驅動",
                     "ko": "선형 드라이브",
                     "zh-CN": "线性驱动"
@@ -3977,7 +3977,7 @@
                   "type": "float",
                   "label": "Angular Drive",
                   "labels": {
-                    "ja": "角度ドライブ",
+                    "ja": "アングル ドライブ",
                     "zh-TW": "角度驅動",
                     "ko": "각도 드라이브",
                     "zh-CN": "角度驱动"
@@ -3999,7 +3999,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -4021,7 +4021,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -4043,7 +4043,7 @@
                   "type": "bool",
                   "label": "Lock Y",
                   "labels": {
-                    "ja": "Y軸固定",
+                    "ja": "Y固定",
                     "zh-TW": "鎖定 Y",
                     "ko": "Y 잠금",
                     "zh-CN": "锁定 Y 轴"
@@ -4065,7 +4065,7 @@
                   "type": "bool",
                   "label": "Lock Z",
                   "labels": {
-                    "ja": "Z軸固定",
+                    "ja": "Z固定",
                     "zh-TW": "鎖定 Z",
                     "ko": "Z 잠금",
                     "zh-CN": "锁定 Z 轴"
@@ -4133,7 +4133,7 @@
                   "type": "options",
                   "label": "Collider Type",
                   "labels": {
-                    "ja": "コライダータイプ",
+                    "ja": "コライダー タイプ",
                     "zh-TW": "碰撞體類型",
                     "ko": "충돌체 유형",
                     "zh-CN": "碰撞器类型"
@@ -4166,7 +4166,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -4188,7 +4188,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -4302,7 +4302,7 @@
               "options": null,
               "description": "Use sphere particles instead of capsules (for debugging)",
               "descriptions": {
-                "ja": "カプセルではなく球体パーティクルを使用する（デバッグ用）",
+                "ja": "カプセルではなく球体粒子を使用する（デバッグ用）",
                 "zh-TW": "使用球體顆粒而非膠囊體（用於除錯）",
                 "ko": "캡슐 대신 구 입자 사용 (디버깅용)",
                 "zh-CN": "使用球形粒子代替胶囊体（用于调试）"
@@ -4313,7 +4313,7 @@
               "type": "float",
               "label": "Stiffness Reduction",
               "labels": {
-                "ja": "剛性の低下",
+                "ja": "剛性低下",
                 "zh-TW": "剛度降低",
                 "ko": "강성 감소",
                 "zh-CN": "刚度减小"
@@ -4346,7 +4346,7 @@
               "options": null,
               "description": "Damping of particle motion",
               "descriptions": {
-                "ja": "パーティクル運動の減衰",
+                "ja": "粒子運動の減衰",
                 "zh-TW": "顆粒運動阻尼",
                 "ko": "입자 움직임의 감쇠",
                 "zh-CN": "粒子运动阻尼"
@@ -4357,7 +4357,7 @@
               "type": "float",
               "label": "Particle Anchor",
               "labels": {
-                "ja": "パーティクルアンカー",
+                "ja": "粒子アンカー",
                 "zh-TW": "顆粒固定點",
                 "ko": "입자 앵커",
                 "zh-CN": "粒子固定点"
@@ -4379,7 +4379,7 @@
               "type": "float",
               "label": "Mass Reduction",
               "labels": {
-                "ja": "質量軽減",
+                "ja": "質量削減",
                 "zh-TW": "質量衰減",
                 "ko": "질량 감소",
                 "zh-CN": "质量衰减"
@@ -4390,7 +4390,7 @@
               "options": null,
               "description": "Reducing mass at each level",
               "descriptions": {
-                "ja": "各レベルでの質量軽減",
+                "ja": "各レベルでの質量削減",
                 "zh-TW": "降低每級的質量",
                 "ko": "각 레벨에서의 질량 감소",
                 "zh-CN": "每个级别的质量衰减"
@@ -4401,7 +4401,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -4456,7 +4456,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -4511,7 +4511,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -4533,7 +4533,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -4544,7 +4544,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -4599,7 +4599,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -4665,7 +4665,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -4689,7 +4689,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -4755,7 +4755,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -4777,7 +4777,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -5091,7 +5091,7 @@
           "type": "options",
           "label": "Sorting",
           "labels": {
-            "ja": "ソーティング",
+            "ja": "ソート順",
             "zh-TW": "排序",
             "ko": "정렬",
             "zh-CN": "排序"
@@ -5102,7 +5102,7 @@
           "options": ["Shortest Path", "Circular", "Linear", "No Sorting"],
           "description": "Set sorting method used when making lateral connections.",
           "descriptions": {
-            "ja": "側面接続を作成する際に使用されるソーティング方法を設定します。",
+            "ja": "横方向の接続を作成する際に使用されるソート方法を設定します。",
             "zh-TW": "設定用於建立側方連接的排序方法。",
             "ko": "측면 연결을 만들 때 사용되는 정렬 방법을 설정합니다.",
             "zh-CN": "设置用于创建侧向连接的排序方法。"
@@ -5113,7 +5113,7 @@
           "type": "bool",
           "label": "Closed Loop",
           "labels": {
-            "ja": "クローズドループ",
+            "ja": "閉じたループ",
             "zh-TW": "閉環",
             "ko": "폐쇄 루프",
             "zh-CN": "闭环"
@@ -5124,7 +5124,7 @@
           "options": null,
           "description": "Bones for closed loops at each level",
           "descriptions": {
-            "ja": "各レベルのクローズドループ用の骨",
+            "ja": "各レベルの閉じたループのボーン",
             "zh-TW": "每級的閉環骨骼",
             "ko": "각 레벨의 폐쇄 루프 본",
             "zh-CN": "每个级别的闭环骨骼"
@@ -5135,7 +5135,7 @@
           "type": "int",
           "label": "Skip First X Bones",
           "labels": {
-            "ja": "最初からX個の骨格をスキップ",
+            "ja": "先頭からX個のボーンをスキップ",
             "zh-TW": "跳過前 X 根骨骼",
             "ko": "첫 X개 뼈 건너뛰기",
             "zh-CN": "跳过前 X 根骨骼"
@@ -5146,7 +5146,7 @@
           "options": null,
           "description": "Do not create physics connection for the first x number of levels",
           "descriptions": {
-            "ja": "最初からx個のレベルについて物理接続を作成しない",
+            "ja": "最初からX個のレベルには物理接続を作成しない",
             "zh-TW": "不為前 x 個層級創建物理連接",
             "ko": "첫 x개 레벨에 물리 연결을 생성하지 않음",
             "zh-CN": "不为前 X 个层级创建物理连接"
@@ -5157,7 +5157,7 @@
           "type": "bool",
           "label": "Override Physics",
           "labels": {
-            "ja": "物理の上書き",
+            "ja": "物理のオーバーライド",
             "zh-TW": "覆蓋物理",
             "ko": "물리 재정의",
             "zh-CN": "覆盖物理"
@@ -5168,7 +5168,7 @@
           "options": null,
           "description": "Override physics settings from the primary group",
           "descriptions": {
-            "ja": "プライマリーグループからの物理設定を上書きします",
+            "ja": "プライマリグループからの物理設定をオーバーライドします",
             "zh-TW": "覆蓋來自主要群組的物理設定",
             "ko": "기본 그룹의 물리 설정을 재정의합니다.",
             "zh-CN": "覆盖主组的物理设置"
@@ -5179,7 +5179,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -5190,7 +5190,7 @@
           "options": null,
           "description": "Show collider shapes for skirt physics bodies",
           "descriptions": {
-            "ja": "スカート物理ボディのコライダー形状を表示",
+            "ja": "スカート物理のボディのコライダー形状を表示",
             "zh-TW": "顯示裙子物理身體的碰撞體形狀",
             "ko": "스커트 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示裙摆物理骨体的碰撞器形状"
@@ -5212,7 +5212,7 @@
           "options": null,
           "description": "Show joint limits and drive targets for skirt physics joints",
           "descriptions": {
-            "ja": "スカート物理ジョイントの関節制限とドライブターゲットを表示",
+            "ja": "スカート物理のジョイントの制限とドライブターゲットを表示",
             "zh-TW": "顯示裙子物理關節的關節限制和驅動目標",
             "ko": "스커트 물리 관절의 관절 한계 및 구동 목표를 표시합니다.",
             "zh-CN": "显示裙摆物理关节的关节限制和驱动目标"
@@ -5256,7 +5256,7 @@
               "options": null,
               "description": "Physics properties like mass, drag and friction",
               "descriptions": {
-                "ja": "質量、ドラッグ、摩擦などの物理プロパティ",
+                "ja": "質量、抵抗、摩擦などの物理プロパティ",
                 "zh-TW": "物理屬性，如質量、阻力和摩擦力",
                 "ko": "질량, 항력, 마찰력과 같은 물리 속성",
                 "zh-CN": "物理属性，如质量、阻力和摩擦力"
@@ -5322,7 +5322,7 @@
                   "options": null,
                   "description": "Overlap of colliders horizontally",
                   "descriptions": {
-                    "ja": "コライダーの水平方向のオーバーラップ",
+                    "ja": "水平方向のコライダーオーバーラップ",
                     "zh-TW": "碰撞器水平重疊",
                     "ko": "콜라이더의 수평 중첩",
                     "zh-CN": "水平碰撞体重叠"
@@ -5344,7 +5344,7 @@
                   "options": null,
                   "description": "Reduce mass at each level",
                   "descriptions": {
-                    "ja": "各レベルで質量を減少させる",
+                    "ja": "レベルごとの質量減少",
                     "zh-TW": "降低每個層級的質量",
                     "ko": "각 레벨별 질량 감소",
                     "zh-CN": "降低每个级别的质量"
@@ -5410,7 +5410,7 @@
                   "options": ["Auto", "Zero"],
                   "description": "Set center of mass at zero or automatically based on position and size of each collider",
                   "descriptions": {
-                    "ja": "ゼロ、または各コライダーの位置とサイズに基づいて自動的に重心を設定する",
+                    "ja": "重心をゼロに設定するか、各コライダーの位置とサイズに基づいて自動設定",
                     "zh-TW": "將質心設定為零，或根據每個碰撞器的位置和大小自動設定",
                     "ko": "무게 중심을 0으로 설정하거나 각 콜라이더의 위치와 크기에 따라 자동으로 설정",
                     "zh-CN": "将质心设置为零，或根据每个碰撞体的位置和大小自动设置"
@@ -5445,7 +5445,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -5467,7 +5467,7 @@
                   "type": "float",
                   "label": "Swing Drive",
                   "labels": {
-                    "ja": "スイングドライブ",
+                    "ja": "スイング ドライブ",
                     "zh-TW": "擺動驅動",
                     "ko": "스윙 드라이브",
                     "zh-CN": "摆动驱动"
@@ -5489,7 +5489,7 @@
                   "type": "float",
                   "label": "Twist Drive",
                   "labels": {
-                    "ja": "ねじれドライブ",
+                    "ja": "ツイスト ドライブ",
                     "zh-TW": "扭轉驅動",
                     "ko": "비틀림 드라이브",
                     "zh-CN": "扭转驱动"
@@ -5511,7 +5511,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -5533,7 +5533,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -5579,7 +5579,7 @@
               "type": "group",
               "label": "Lateral Joint",
               "labels": {
-                "ja": "側面ジョイント",
+                "ja": "横方向ジョイント",
                 "zh-TW": "側方關節",
                 "ko": "측면 관절",
                 "zh-CN": "侧向关节"
@@ -5601,7 +5601,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -5623,7 +5623,7 @@
                   "type": "float",
                   "label": "Linear Drive",
                   "labels": {
-                    "ja": "線形ドライブ",
+                    "ja": "リニア ドライブ",
                     "zh-TW": "線性驅動",
                     "ko": "선형 드라이브",
                     "zh-CN": "线性驱动"
@@ -5645,7 +5645,7 @@
                   "type": "float",
                   "label": "Angular Drive",
                   "labels": {
-                    "ja": "角度ドライブ",
+                    "ja": "アングル ドライブ",
                     "zh-TW": "角度驅動",
                     "ko": "각도 드라이브",
                     "zh-CN": "角度驱动"
@@ -5667,7 +5667,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -5689,7 +5689,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -5711,7 +5711,7 @@
                   "type": "bool",
                   "label": "Lock Y",
                   "labels": {
-                    "ja": "Y軸固定",
+                    "ja": "Y固定",
                     "zh-TW": "鎖定 Y",
                     "ko": "Y 잠금",
                     "zh-CN": "锁定 Y 轴"
@@ -5733,7 +5733,7 @@
                   "type": "bool",
                   "label": "Lock Z",
                   "labels": {
-                    "ja": "Z軸固定",
+                    "ja": "Z固定",
                     "zh-TW": "鎖定 Z",
                     "ko": "Z 잠금",
                     "zh-CN": "锁定 Z 轴"
@@ -5801,7 +5801,7 @@
                   "type": "options",
                   "label": "Collider Type",
                   "labels": {
-                    "ja": "コライダータイプ",
+                    "ja": "コライダー タイプ",
                     "zh-TW": "碰撞體類型",
                     "ko": "충돌체 유형",
                     "zh-CN": "碰撞器类型"
@@ -5834,7 +5834,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -5856,7 +5856,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -5970,7 +5970,7 @@
               "options": null,
               "description": "Use sphere particles instead of capsules (for debugging)",
               "descriptions": {
-                "ja": "カプセルではなく球体パーティクルを使用する（デバッグ用）",
+                "ja": "カプセルではなく球体粒子を使用する（デバッグ用）",
                 "zh-TW": "使用球體顆粒而非膠囊體（用於除錯）",
                 "ko": "캡슐 대신 구 입자 사용 (디버깅용)",
                 "zh-CN": "使用球形粒子代替胶囊体（用于调试）"
@@ -5981,7 +5981,7 @@
               "type": "float",
               "label": "Stiffness Reduction",
               "labels": {
-                "ja": "剛性の低下",
+                "ja": "剛性低下",
                 "zh-TW": "剛度降低",
                 "ko": "강성 감소",
                 "zh-CN": "刚度减小"
@@ -6014,7 +6014,7 @@
               "options": null,
               "description": "Damping of particle motion",
               "descriptions": {
-                "ja": "パーティクル運動の減衰",
+                "ja": "粒子運動の減衰",
                 "zh-TW": "顆粒運動阻尼",
                 "ko": "입자 움직임의 감쇠",
                 "zh-CN": "粒子运动阻尼"
@@ -6025,7 +6025,7 @@
               "type": "float",
               "label": "Particle Anchor",
               "labels": {
-                "ja": "パーティクルアンカー",
+                "ja": "粒子アンカー",
                 "zh-TW": "顆粒固定點",
                 "ko": "입자 앵커",
                 "zh-CN": "粒子固定点"
@@ -6047,7 +6047,7 @@
               "type": "float",
               "label": "Mass Reduction",
               "labels": {
-                "ja": "質量軽減",
+                "ja": "質量削減",
                 "zh-TW": "質量衰減",
                 "ko": "질량 감소",
                 "zh-CN": "质量衰减"
@@ -6058,7 +6058,7 @@
               "options": null,
               "description": "Reducing mass at each level",
               "descriptions": {
-                "ja": "各レベルでの質量軽減",
+                "ja": "各レベルでの質量削減",
                 "zh-TW": "降低每級的質量",
                 "ko": "각 레벨에서의 질량 감소",
                 "zh-CN": "每个级别的质量衰减"
@@ -6069,7 +6069,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -6124,7 +6124,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -6179,7 +6179,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -6201,7 +6201,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -6212,7 +6212,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -6267,7 +6267,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -6333,7 +6333,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -6357,7 +6357,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -6423,7 +6423,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -6445,7 +6445,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -6759,7 +6759,7 @@
           "type": "options",
           "label": "Sorting",
           "labels": {
-            "ja": "ソーティング",
+            "ja": "ソート順",
             "zh-TW": "排序",
             "ko": "정렬",
             "zh-CN": "排序"
@@ -6770,7 +6770,7 @@
           "options": ["Shortest Path", "Circular", "Linear", "No Sorting"],
           "description": "Set sorting method used when making lateral connections.",
           "descriptions": {
-            "ja": "側面接続を作成する際に使用されるソーティング方法を設定します。",
+            "ja": "横方向の接続を作成する際に使用されるソート方法を設定します。",
             "zh-TW": "設定用於建立側方連接的排序方法。",
             "ko": "측면 연결을 만들 때 사용되는 정렬 방법을 설정합니다.",
             "zh-CN": "设置用于创建侧向连接的排序方法。"
@@ -6781,7 +6781,7 @@
           "type": "bool",
           "label": "Closed Loop",
           "labels": {
-            "ja": "クローズドループ",
+            "ja": "閉じたループ",
             "zh-TW": "閉環",
             "ko": "폐쇄 루프",
             "zh-CN": "闭环"
@@ -6792,7 +6792,7 @@
           "options": null,
           "description": "Bones for closed loops at each level",
           "descriptions": {
-            "ja": "各レベルのクローズドループ用の骨",
+            "ja": "各レベルの閉じたループのボーン",
             "zh-TW": "每級的閉環骨骼",
             "ko": "각 레벨의 폐쇄 루프 본",
             "zh-CN": "每个级别的闭环骨骼"
@@ -6803,7 +6803,7 @@
           "type": "int",
           "label": "Skip First X Bones",
           "labels": {
-            "ja": "最初からX個の骨格をスキップ",
+            "ja": "先頭からX個のボーンをスキップ",
             "zh-TW": "跳過前 X 根骨骼",
             "ko": "첫 X개 뼈 건너뛰기",
             "zh-CN": "跳过前 X 根骨骼"
@@ -6814,7 +6814,7 @@
           "options": null,
           "description": "Do not create physics connection for the first x number of levels",
           "descriptions": {
-            "ja": "最初からx個のレベルについて物理接続を作成しない",
+            "ja": "最初からX個のレベルには物理接続を作成しない",
             "zh-TW": "不為前 x 個層級創建物理連接",
             "ko": "첫 x개 레벨에 물리 연결을 생성하지 않음",
             "zh-CN": "不为前 X 个层级创建物理连接"
@@ -6825,7 +6825,7 @@
           "type": "bool",
           "label": "Override Physics",
           "labels": {
-            "ja": "物理の上書き",
+            "ja": "物理のオーバーライド",
             "zh-TW": "覆蓋物理",
             "ko": "물리 재정의",
             "zh-CN": "覆盖物理"
@@ -6836,7 +6836,7 @@
           "options": null,
           "description": "Override physics settings from the primary group",
           "descriptions": {
-            "ja": "プライマリーグループからの物理設定を上書きします",
+            "ja": "プライマリグループからの物理設定をオーバーライドします",
             "zh-TW": "覆蓋來自主要群組的物理設定",
             "ko": "기본 그룹의 물리 설정을 재정의합니다.",
             "zh-CN": "覆盖主组的物理设置"
@@ -6847,7 +6847,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -6858,7 +6858,7 @@
           "options": null,
           "description": "Show collider shapes for skirt physics bodies",
           "descriptions": {
-            "ja": "スカート物理ボディのコライダー形状を表示",
+            "ja": "スカート物理のボディのコライダー形状を表示",
             "zh-TW": "顯示裙子物理身體的碰撞體形狀",
             "ko": "스커트 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示裙摆物理骨体的碰撞器形状"
@@ -6880,7 +6880,7 @@
           "options": null,
           "description": "Show joint limits and drive targets for skirt physics joints",
           "descriptions": {
-            "ja": "スカート物理ジョイントの関節制限とドライブターゲットを表示",
+            "ja": "スカート物理のジョイントの制限とドライブターゲットを表示",
             "zh-TW": "顯示裙子物理關節的關節限制和驅動目標",
             "ko": "스커트 물리 관절의 관절 한계 및 구동 목표를 표시합니다.",
             "zh-CN": "显示裙摆物理关节的关节限制和驱动目标"
@@ -6924,7 +6924,7 @@
               "options": null,
               "description": "Physics properties like mass, drag and friction",
               "descriptions": {
-                "ja": "質量、ドラッグ、摩擦などの物理プロパティ",
+                "ja": "質量、抵抗、摩擦などの物理プロパティ",
                 "zh-TW": "物理屬性，如質量、阻力和摩擦力",
                 "ko": "질량, 항력, 마찰력과 같은 물리 속성",
                 "zh-CN": "物理属性，如质量、阻力和摩擦力"
@@ -6990,7 +6990,7 @@
                   "options": null,
                   "description": "Overlap of colliders horizontally",
                   "descriptions": {
-                    "ja": "コライダーの水平方向のオーバーラップ",
+                    "ja": "水平方向のコライダーオーバーラップ",
                     "zh-TW": "碰撞器水平重疊",
                     "ko": "콜라이더의 수평 중첩",
                     "zh-CN": "水平碰撞体重叠"
@@ -7012,7 +7012,7 @@
                   "options": null,
                   "description": "Reduce mass at each level",
                   "descriptions": {
-                    "ja": "各レベルで質量を減少させる",
+                    "ja": "レベルごとの質量減少",
                     "zh-TW": "降低每個層級的質量",
                     "ko": "각 레벨별 질량 감소",
                     "zh-CN": "降低每个级别的质量"
@@ -7078,7 +7078,7 @@
                   "options": ["Auto", "Zero"],
                   "description": "Set center of mass at zero or automatically based on position and size of each collider",
                   "descriptions": {
-                    "ja": "ゼロ、または各コライダーの位置とサイズに基づいて自動的に重心を設定する",
+                    "ja": "重心をゼロに設定するか、各コライダーの位置とサイズに基づいて自動設定",
                     "zh-TW": "將質心設定為零，或根據每個碰撞器的位置和大小自動設定",
                     "ko": "무게 중심을 0으로 설정하거나 각 콜라이더의 위치와 크기에 따라 자동으로 설정",
                     "zh-CN": "将质心设置为零，或根据每个碰撞体的位置和大小自动设置"
@@ -7113,7 +7113,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -7135,7 +7135,7 @@
                   "type": "float",
                   "label": "Swing Drive",
                   "labels": {
-                    "ja": "スイングドライブ",
+                    "ja": "スイング ドライブ",
                     "zh-TW": "擺動驅動",
                     "ko": "스윙 드라이브",
                     "zh-CN": "摆动驱动"
@@ -7157,7 +7157,7 @@
                   "type": "float",
                   "label": "Twist Drive",
                   "labels": {
-                    "ja": "ねじれドライブ",
+                    "ja": "ツイスト ドライブ",
                     "zh-TW": "扭轉驅動",
                     "ko": "비틀림 드라이브",
                     "zh-CN": "扭转驱动"
@@ -7179,7 +7179,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -7201,7 +7201,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -7247,7 +7247,7 @@
               "type": "group",
               "label": "Lateral Joint",
               "labels": {
-                "ja": "側面ジョイント",
+                "ja": "横方向ジョイント",
                 "zh-TW": "側方關節",
                 "ko": "측면 관절",
                 "zh-CN": "侧向关节"
@@ -7269,7 +7269,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -7291,7 +7291,7 @@
                   "type": "float",
                   "label": "Linear Drive",
                   "labels": {
-                    "ja": "線形ドライブ",
+                    "ja": "リニア ドライブ",
                     "zh-TW": "線性驅動",
                     "ko": "선형 드라이브",
                     "zh-CN": "线性驱动"
@@ -7313,7 +7313,7 @@
                   "type": "float",
                   "label": "Angular Drive",
                   "labels": {
-                    "ja": "角度ドライブ",
+                    "ja": "アングル ドライブ",
                     "zh-TW": "角度驅動",
                     "ko": "각도 드라이브",
                     "zh-CN": "角度驱动"
@@ -7335,7 +7335,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -7357,7 +7357,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -7379,7 +7379,7 @@
                   "type": "bool",
                   "label": "Lock Y",
                   "labels": {
-                    "ja": "Y軸固定",
+                    "ja": "Y固定",
                     "zh-TW": "鎖定 Y",
                     "ko": "Y 잠금",
                     "zh-CN": "锁定 Y 轴"
@@ -7401,7 +7401,7 @@
                   "type": "bool",
                   "label": "Lock Z",
                   "labels": {
-                    "ja": "Z軸固定",
+                    "ja": "Z固定",
                     "zh-TW": "鎖定 Z",
                     "ko": "Z 잠금",
                     "zh-CN": "锁定 Z 轴"
@@ -7469,7 +7469,7 @@
                   "type": "options",
                   "label": "Collider Type",
                   "labels": {
-                    "ja": "コライダータイプ",
+                    "ja": "コライダー タイプ",
                     "zh-TW": "碰撞體類型",
                     "ko": "충돌체 유형",
                     "zh-CN": "碰撞器类型"
@@ -7502,7 +7502,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -7524,7 +7524,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -7638,7 +7638,7 @@
               "options": null,
               "description": "Use sphere particles instead of capsules (for debugging)",
               "descriptions": {
-                "ja": "カプセルではなく球体パーティクルを使用する（デバッグ用）",
+                "ja": "カプセルではなく球体粒子を使用する（デバッグ用）",
                 "zh-TW": "使用球體顆粒而非膠囊體（用於除錯）",
                 "ko": "캡슐 대신 구 입자 사용 (디버깅용)",
                 "zh-CN": "使用球形粒子代替胶囊体（用于调试）"
@@ -7649,7 +7649,7 @@
               "type": "float",
               "label": "Stiffness Reduction",
               "labels": {
-                "ja": "剛性の低下",
+                "ja": "剛性低下",
                 "zh-TW": "剛度降低",
                 "ko": "강성 감소",
                 "zh-CN": "刚度减小"
@@ -7682,7 +7682,7 @@
               "options": null,
               "description": "Damping of particle motion",
               "descriptions": {
-                "ja": "パーティクル運動の減衰",
+                "ja": "粒子運動の減衰",
                 "zh-TW": "顆粒運動阻尼",
                 "ko": "입자 움직임의 감쇠",
                 "zh-CN": "粒子运动阻尼"
@@ -7693,7 +7693,7 @@
               "type": "float",
               "label": "Particle Anchor",
               "labels": {
-                "ja": "パーティクルアンカー",
+                "ja": "粒子アンカー",
                 "zh-TW": "顆粒固定點",
                 "ko": "입자 앵커",
                 "zh-CN": "粒子固定点"
@@ -7715,7 +7715,7 @@
               "type": "float",
               "label": "Mass Reduction",
               "labels": {
-                "ja": "質量軽減",
+                "ja": "質量削減",
                 "zh-TW": "質量衰減",
                 "ko": "질량 감소",
                 "zh-CN": "质量衰减"
@@ -7726,7 +7726,7 @@
               "options": null,
               "description": "Reducing mass at each level",
               "descriptions": {
-                "ja": "各レベルでの質量軽減",
+                "ja": "各レベルでの質量削減",
                 "zh-TW": "降低每級的質量",
                 "ko": "각 레벨에서의 질량 감소",
                 "zh-CN": "每个级别的质量衰减"
@@ -7737,7 +7737,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -7792,7 +7792,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -7847,7 +7847,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -7869,7 +7869,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -7880,7 +7880,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -7935,7 +7935,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -8001,7 +8001,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -8025,7 +8025,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -8091,7 +8091,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -8113,7 +8113,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -8427,7 +8427,7 @@
           "type": "options",
           "label": "Sorting",
           "labels": {
-            "ja": "ソーティング",
+            "ja": "ソート順",
             "zh-TW": "排序",
             "ko": "정렬",
             "zh-CN": "排序"
@@ -8438,7 +8438,7 @@
           "options": ["Shortest Path", "Circular", "Linear", "No Sorting"],
           "description": "Set sorting method used when making lateral connections.",
           "descriptions": {
-            "ja": "側面接続を作成する際に使用されるソーティング方法を設定します。",
+            "ja": "横方向の接続を作成する際に使用されるソート方法を設定します。",
             "zh-TW": "設定用於建立側方連接的排序方法。",
             "ko": "측면 연결을 만들 때 사용되는 정렬 방법을 설정합니다.",
             "zh-CN": "设置用于创建侧向连接的排序方法。"
@@ -8449,7 +8449,7 @@
           "type": "bool",
           "label": "Closed Loop",
           "labels": {
-            "ja": "クローズドループ",
+            "ja": "閉じたループ",
             "zh-TW": "閉環",
             "ko": "폐쇄 루프",
             "zh-CN": "闭环"
@@ -8460,7 +8460,7 @@
           "options": null,
           "description": "Bones for closed loops at each level",
           "descriptions": {
-            "ja": "各レベルのクローズドループ用の骨",
+            "ja": "各レベルの閉じたループのボーン",
             "zh-TW": "每級的閉環骨骼",
             "ko": "각 레벨의 폐쇄 루프 본",
             "zh-CN": "每个级别的闭环骨骼"
@@ -8471,7 +8471,7 @@
           "type": "int",
           "label": "Skip First X Bones",
           "labels": {
-            "ja": "最初からX個の骨格をスキップ",
+            "ja": "先頭からX個のボーンをスキップ",
             "zh-TW": "跳過前 X 根骨骼",
             "ko": "첫 X개 뼈 건너뛰기",
             "zh-CN": "跳过前 X 根骨骼"
@@ -8482,7 +8482,7 @@
           "options": null,
           "description": "Do not create physics connection for the first x number of levels",
           "descriptions": {
-            "ja": "最初からx個のレベルについて物理接続を作成しない",
+            "ja": "最初からX個のレベルには物理接続を作成しない",
             "zh-TW": "不為前 x 個層級創建物理連接",
             "ko": "첫 x개 레벨에 물리 연결을 생성하지 않음",
             "zh-CN": "不为前 X 个层级创建物理连接"
@@ -8493,7 +8493,7 @@
           "type": "bool",
           "label": "Override Physics",
           "labels": {
-            "ja": "物理の上書き",
+            "ja": "物理のオーバーライド",
             "zh-TW": "覆蓋物理",
             "ko": "물리 재정의",
             "zh-CN": "覆盖物理"
@@ -8504,7 +8504,7 @@
           "options": null,
           "description": "Override physics settings from the primary group",
           "descriptions": {
-            "ja": "プライマリーグループからの物理設定を上書きします",
+            "ja": "プライマリグループからの物理設定をオーバーライドします",
             "zh-TW": "覆蓋來自主要群組的物理設定",
             "ko": "기본 그룹의 물리 설정을 재정의합니다.",
             "zh-CN": "覆盖主组的物理设置"
@@ -8515,7 +8515,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -8526,7 +8526,7 @@
           "options": null,
           "description": "Show collider shapes for skirt physics bodies",
           "descriptions": {
-            "ja": "スカート物理ボディのコライダー形状を表示",
+            "ja": "スカート物理のボディのコライダー形状を表示",
             "zh-TW": "顯示裙子物理身體的碰撞體形狀",
             "ko": "스커트 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示裙摆物理骨体的碰撞器形状"
@@ -8548,7 +8548,7 @@
           "options": null,
           "description": "Show joint limits and drive targets for skirt physics joints",
           "descriptions": {
-            "ja": "スカート物理ジョイントの関節制限とドライブターゲットを表示",
+            "ja": "スカート物理のジョイントの制限とドライブターゲットを表示",
             "zh-TW": "顯示裙子物理關節的關節限制和驅動目標",
             "ko": "스커트 물리 관절의 관절 한계 및 구동 목표를 표시합니다.",
             "zh-CN": "显示裙摆物理关节的关节限制和驱动目标"
@@ -8592,7 +8592,7 @@
               "options": null,
               "description": "Physics properties like mass, drag and friction",
               "descriptions": {
-                "ja": "質量、ドラッグ、摩擦などの物理プロパティ",
+                "ja": "質量、抵抗、摩擦などの物理プロパティ",
                 "zh-TW": "物理屬性，如質量、阻力和摩擦力",
                 "ko": "질량, 항력, 마찰력과 같은 물리 속성",
                 "zh-CN": "物理属性，如质量、阻力和摩擦力"
@@ -8658,7 +8658,7 @@
                   "options": null,
                   "description": "Overlap of colliders horizontally",
                   "descriptions": {
-                    "ja": "コライダーの水平方向のオーバーラップ",
+                    "ja": "水平方向のコライダーオーバーラップ",
                     "zh-TW": "碰撞器水平重疊",
                     "ko": "콜라이더의 수평 중첩",
                     "zh-CN": "水平碰撞体重叠"
@@ -8680,7 +8680,7 @@
                   "options": null,
                   "description": "Reduce mass at each level",
                   "descriptions": {
-                    "ja": "各レベルで質量を減少させる",
+                    "ja": "レベルごとの質量減少",
                     "zh-TW": "降低每個層級的質量",
                     "ko": "각 레벨별 질량 감소",
                     "zh-CN": "降低每个级别的质量"
@@ -8746,7 +8746,7 @@
                   "options": ["Auto", "Zero"],
                   "description": "Set center of mass at zero or automatically based on position and size of each collider",
                   "descriptions": {
-                    "ja": "ゼロ、または各コライダーの位置とサイズに基づいて自動的に重心を設定する",
+                    "ja": "重心をゼロに設定するか、各コライダーの位置とサイズに基づいて自動設定",
                     "zh-TW": "將質心設定為零，或根據每個碰撞器的位置和大小自動設定",
                     "ko": "무게 중심을 0으로 설정하거나 각 콜라이더의 위치와 크기에 따라 자동으로 설정",
                     "zh-CN": "将质心设置为零，或根据每个碰撞体的位置和大小自动设置"
@@ -8781,7 +8781,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -8803,7 +8803,7 @@
                   "type": "float",
                   "label": "Swing Drive",
                   "labels": {
-                    "ja": "スイングドライブ",
+                    "ja": "スイング ドライブ",
                     "zh-TW": "擺動驅動",
                     "ko": "스윙 드라이브",
                     "zh-CN": "摆动驱动"
@@ -8825,7 +8825,7 @@
                   "type": "float",
                   "label": "Twist Drive",
                   "labels": {
-                    "ja": "ねじれドライブ",
+                    "ja": "ツイスト ドライブ",
                     "zh-TW": "扭轉驅動",
                     "ko": "비틀림 드라이브",
                     "zh-CN": "扭转驱动"
@@ -8847,7 +8847,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -8869,7 +8869,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -8915,7 +8915,7 @@
               "type": "group",
               "label": "Lateral Joint",
               "labels": {
-                "ja": "側面ジョイント",
+                "ja": "横方向ジョイント",
                 "zh-TW": "側方關節",
                 "ko": "측면 관절",
                 "zh-CN": "侧向关节"
@@ -8937,7 +8937,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -8959,7 +8959,7 @@
                   "type": "float",
                   "label": "Linear Drive",
                   "labels": {
-                    "ja": "線形ドライブ",
+                    "ja": "リニア ドライブ",
                     "zh-TW": "線性驅動",
                     "ko": "선형 드라이브",
                     "zh-CN": "线性驱动"
@@ -8981,7 +8981,7 @@
                   "type": "float",
                   "label": "Angular Drive",
                   "labels": {
-                    "ja": "角度ドライブ",
+                    "ja": "アングル ドライブ",
                     "zh-TW": "角度驅動",
                     "ko": "각도 드라이브",
                     "zh-CN": "角度驱动"
@@ -9003,7 +9003,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -9025,7 +9025,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -9047,7 +9047,7 @@
                   "type": "bool",
                   "label": "Lock Y",
                   "labels": {
-                    "ja": "Y軸固定",
+                    "ja": "Y固定",
                     "zh-TW": "鎖定 Y",
                     "ko": "Y 잠금",
                     "zh-CN": "锁定 Y 轴"
@@ -9069,7 +9069,7 @@
                   "type": "bool",
                   "label": "Lock Z",
                   "labels": {
-                    "ja": "Z軸固定",
+                    "ja": "Z固定",
                     "zh-TW": "鎖定 Z",
                     "ko": "Z 잠금",
                     "zh-CN": "锁定 Z 轴"
@@ -9137,7 +9137,7 @@
                   "type": "options",
                   "label": "Collider Type",
                   "labels": {
-                    "ja": "コライダータイプ",
+                    "ja": "コライダー タイプ",
                     "zh-TW": "碰撞體類型",
                     "ko": "충돌체 유형",
                     "zh-CN": "碰撞器类型"
@@ -9170,7 +9170,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -9192,7 +9192,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -9306,7 +9306,7 @@
               "options": null,
               "description": "Use sphere particles instead of capsules (for debugging)",
               "descriptions": {
-                "ja": "カプセルではなく球体パーティクルを使用する（デバッグ用）",
+                "ja": "カプセルではなく球体粒子を使用する（デバッグ用）",
                 "zh-TW": "使用球體顆粒而非膠囊體（用於除錯）",
                 "ko": "캡슐 대신 구 입자 사용 (디버깅용)",
                 "zh-CN": "使用球形粒子代替胶囊体（用于调试）"
@@ -9317,7 +9317,7 @@
               "type": "float",
               "label": "Stiffness Reduction",
               "labels": {
-                "ja": "剛性の低下",
+                "ja": "剛性低下",
                 "zh-TW": "剛度降低",
                 "ko": "강성 감소",
                 "zh-CN": "刚度减小"
@@ -9350,7 +9350,7 @@
               "options": null,
               "description": "Damping of particle motion",
               "descriptions": {
-                "ja": "パーティクル運動の減衰",
+                "ja": "粒子運動の減衰",
                 "zh-TW": "顆粒運動阻尼",
                 "ko": "입자 움직임의 감쇠",
                 "zh-CN": "粒子运动阻尼"
@@ -9361,7 +9361,7 @@
               "type": "float",
               "label": "Particle Anchor",
               "labels": {
-                "ja": "パーティクルアンカー",
+                "ja": "粒子アンカー",
                 "zh-TW": "顆粒固定點",
                 "ko": "입자 앵커",
                 "zh-CN": "粒子固定点"
@@ -9383,7 +9383,7 @@
               "type": "float",
               "label": "Mass Reduction",
               "labels": {
-                "ja": "質量軽減",
+                "ja": "質量削減",
                 "zh-TW": "質量衰減",
                 "ko": "질량 감소",
                 "zh-CN": "质量衰减"
@@ -9394,7 +9394,7 @@
               "options": null,
               "description": "Reducing mass at each level",
               "descriptions": {
-                "ja": "各レベルでの質量軽減",
+                "ja": "各レベルでの質量削減",
                 "zh-TW": "降低每級的質量",
                 "ko": "각 레벨에서의 질량 감소",
                 "zh-CN": "每个级别的质量衰减"
@@ -9405,7 +9405,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -9460,7 +9460,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -9515,7 +9515,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -9537,7 +9537,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -9548,7 +9548,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -9603,7 +9603,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -9669,7 +9669,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -9693,7 +9693,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -9759,7 +9759,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -9781,7 +9781,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -10095,7 +10095,7 @@
           "type": "options",
           "label": "Sorting",
           "labels": {
-            "ja": "ソーティング",
+            "ja": "ソート順",
             "zh-TW": "排序",
             "ko": "정렬",
             "zh-CN": "排序"
@@ -10106,7 +10106,7 @@
           "options": ["Shortest Path", "Circular", "Linear", "No Sorting"],
           "description": "Set sorting method used when making lateral connections.",
           "descriptions": {
-            "ja": "側面接続を作成する際に使用されるソーティング方法を設定します。",
+            "ja": "横方向の接続を作成する際に使用されるソート方法を設定します。",
             "zh-TW": "設定用於建立側方連接的排序方法。",
             "ko": "측면 연결을 만들 때 사용되는 정렬 방법을 설정합니다.",
             "zh-CN": "设置用于创建侧向连接的排序方法。"
@@ -10117,7 +10117,7 @@
           "type": "bool",
           "label": "Closed Loop",
           "labels": {
-            "ja": "クローズドループ",
+            "ja": "閉じたループ",
             "zh-TW": "閉環",
             "ko": "폐쇄 루프",
             "zh-CN": "闭环"
@@ -10128,7 +10128,7 @@
           "options": null,
           "description": "Bones for closed loops at each level",
           "descriptions": {
-            "ja": "各レベルのクローズドループ用の骨",
+            "ja": "各レベルの閉じたループのボーン",
             "zh-TW": "每級的閉環骨骼",
             "ko": "각 레벨의 폐쇄 루프 본",
             "zh-CN": "每个级别的闭环骨骼"
@@ -10139,7 +10139,7 @@
           "type": "int",
           "label": "Skip First X Bones",
           "labels": {
-            "ja": "最初からX個の骨格をスキップ",
+            "ja": "先頭からX個のボーンをスキップ",
             "zh-TW": "跳過前 X 根骨骼",
             "ko": "첫 X개 뼈 건너뛰기",
             "zh-CN": "跳过前 X 根骨骼"
@@ -10150,7 +10150,7 @@
           "options": null,
           "description": "Do not create physics connection for the first x number of levels",
           "descriptions": {
-            "ja": "最初からx個のレベルについて物理接続を作成しない",
+            "ja": "最初からX個のレベルには物理接続を作成しない",
             "zh-TW": "不為前 x 個層級創建物理連接",
             "ko": "첫 x개 레벨에 물리 연결을 생성하지 않음",
             "zh-CN": "不为前 X 个层级创建物理连接"
@@ -10161,7 +10161,7 @@
           "type": "bool",
           "label": "Override Physics",
           "labels": {
-            "ja": "物理の上書き",
+            "ja": "物理のオーバーライド",
             "zh-TW": "覆蓋物理",
             "ko": "물리 재정의",
             "zh-CN": "覆盖物理"
@@ -10172,7 +10172,7 @@
           "options": null,
           "description": "Override physics settings from the primary group",
           "descriptions": {
-            "ja": "プライマリーグループからの物理設定を上書きします",
+            "ja": "プライマリグループからの物理設定をオーバーライドします",
             "zh-TW": "覆蓋來自主要群組的物理設定",
             "ko": "기본 그룹의 물리 설정을 재정의합니다.",
             "zh-CN": "覆盖主组的物理设置"
@@ -10183,7 +10183,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -10194,7 +10194,7 @@
           "options": null,
           "description": "Show collider shapes for skirt physics bodies",
           "descriptions": {
-            "ja": "スカート物理ボディのコライダー形状を表示",
+            "ja": "スカート物理のボディのコライダー形状を表示",
             "zh-TW": "顯示裙子物理身體的碰撞體形狀",
             "ko": "스커트 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示裙摆物理骨体的碰撞器形状"
@@ -10216,7 +10216,7 @@
           "options": null,
           "description": "Show joint limits and drive targets for skirt physics joints",
           "descriptions": {
-            "ja": "スカート物理ジョイントの関節制限とドライブターゲットを表示",
+            "ja": "スカート物理のジョイントの制限とドライブターゲットを表示",
             "zh-TW": "顯示裙子物理關節的關節限制和驅動目標",
             "ko": "스커트 물리 관절의 관절 한계 및 구동 목표를 표시합니다.",
             "zh-CN": "显示裙摆物理关节的关节限制和驱动目标"
@@ -10260,7 +10260,7 @@
               "options": null,
               "description": "Physics properties like mass, drag and friction",
               "descriptions": {
-                "ja": "質量、ドラッグ、摩擦などの物理プロパティ",
+                "ja": "質量、抵抗、摩擦などの物理プロパティ",
                 "zh-TW": "物理屬性，如質量、阻力和摩擦力",
                 "ko": "질량, 항력, 마찰력과 같은 물리 속성",
                 "zh-CN": "物理属性，如质量、阻力和摩擦力"
@@ -10326,7 +10326,7 @@
                   "options": null,
                   "description": "Overlap of colliders horizontally",
                   "descriptions": {
-                    "ja": "コライダーの水平方向のオーバーラップ",
+                    "ja": "水平方向のコライダーオーバーラップ",
                     "zh-TW": "碰撞器水平重疊",
                     "ko": "콜라이더의 수평 중첩",
                     "zh-CN": "水平碰撞体重叠"
@@ -10348,7 +10348,7 @@
                   "options": null,
                   "description": "Reduce mass at each level",
                   "descriptions": {
-                    "ja": "各レベルで質量を減少させる",
+                    "ja": "レベルごとの質量減少",
                     "zh-TW": "降低每個層級的質量",
                     "ko": "각 레벨별 질량 감소",
                     "zh-CN": "降低每个级别的质量"
@@ -10414,7 +10414,7 @@
                   "options": ["Auto", "Zero"],
                   "description": "Set center of mass at zero or automatically based on position and size of each collider",
                   "descriptions": {
-                    "ja": "ゼロ、または各コライダーの位置とサイズに基づいて自動的に重心を設定する",
+                    "ja": "重心をゼロに設定するか、各コライダーの位置とサイズに基づいて自動設定",
                     "zh-TW": "將質心設定為零，或根據每個碰撞器的位置和大小自動設定",
                     "ko": "무게 중심을 0으로 설정하거나 각 콜라이더의 위치와 크기에 따라 자동으로 설정",
                     "zh-CN": "将质心设置为零，或根据每个碰撞体的位置和大小自动设置"
@@ -10449,7 +10449,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -10471,7 +10471,7 @@
                   "type": "float",
                   "label": "Swing Drive",
                   "labels": {
-                    "ja": "スイングドライブ",
+                    "ja": "スイング ドライブ",
                     "zh-TW": "擺動驅動",
                     "ko": "스윙 드라이브",
                     "zh-CN": "摆动驱动"
@@ -10493,7 +10493,7 @@
                   "type": "float",
                   "label": "Twist Drive",
                   "labels": {
-                    "ja": "ねじれドライブ",
+                    "ja": "ツイスト ドライブ",
                     "zh-TW": "扭轉驅動",
                     "ko": "비틀림 드라이브",
                     "zh-CN": "扭转驱动"
@@ -10515,7 +10515,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -10537,7 +10537,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -10583,7 +10583,7 @@
               "type": "group",
               "label": "Lateral Joint",
               "labels": {
-                "ja": "側面ジョイント",
+                "ja": "横方向ジョイント",
                 "zh-TW": "側方關節",
                 "ko": "측면 관절",
                 "zh-CN": "侧向关节"
@@ -10605,7 +10605,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -10627,7 +10627,7 @@
                   "type": "float",
                   "label": "Linear Drive",
                   "labels": {
-                    "ja": "線形ドライブ",
+                    "ja": "リニア ドライブ",
                     "zh-TW": "線性驅動",
                     "ko": "선형 드라이브",
                     "zh-CN": "线性驱动"
@@ -10649,7 +10649,7 @@
                   "type": "float",
                   "label": "Angular Drive",
                   "labels": {
-                    "ja": "角度ドライブ",
+                    "ja": "アングル ドライブ",
                     "zh-TW": "角度驅動",
                     "ko": "각도 드라이브",
                     "zh-CN": "角度驱动"
@@ -10671,7 +10671,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -10693,7 +10693,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -10715,7 +10715,7 @@
                   "type": "bool",
                   "label": "Lock Y",
                   "labels": {
-                    "ja": "Y軸固定",
+                    "ja": "Y固定",
                     "zh-TW": "鎖定 Y",
                     "ko": "Y 잠금",
                     "zh-CN": "锁定 Y 轴"
@@ -10737,7 +10737,7 @@
                   "type": "bool",
                   "label": "Lock Z",
                   "labels": {
-                    "ja": "Z軸固定",
+                    "ja": "Z固定",
                     "zh-TW": "鎖定 Z",
                     "ko": "Z 잠금",
                     "zh-CN": "锁定 Z 轴"
@@ -10805,7 +10805,7 @@
                   "type": "options",
                   "label": "Collider Type",
                   "labels": {
-                    "ja": "コライダータイプ",
+                    "ja": "コライダー タイプ",
                     "zh-TW": "碰撞體類型",
                     "ko": "충돌체 유형",
                     "zh-CN": "碰撞器类型"
@@ -10838,7 +10838,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -10860,7 +10860,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -10974,7 +10974,7 @@
               "options": null,
               "description": "Use sphere particles instead of capsules (for debugging)",
               "descriptions": {
-                "ja": "カプセルではなく球体パーティクルを使用する（デバッグ用）",
+                "ja": "カプセルではなく球体粒子を使用する（デバッグ用）",
                 "zh-TW": "使用球體顆粒而非膠囊體（用於除錯）",
                 "ko": "캡슐 대신 구 입자 사용 (디버깅용)",
                 "zh-CN": "使用球形粒子代替胶囊体（用于调试）"
@@ -10985,7 +10985,7 @@
               "type": "float",
               "label": "Stiffness Reduction",
               "labels": {
-                "ja": "剛性の低下",
+                "ja": "剛性低下",
                 "zh-TW": "剛度降低",
                 "ko": "강성 감소",
                 "zh-CN": "刚度减小"
@@ -11018,7 +11018,7 @@
               "options": null,
               "description": "Damping of particle motion",
               "descriptions": {
-                "ja": "パーティクル運動の減衰",
+                "ja": "粒子運動の減衰",
                 "zh-TW": "顆粒運動阻尼",
                 "ko": "입자 움직임의 감쇠",
                 "zh-CN": "粒子运动阻尼"
@@ -11029,7 +11029,7 @@
               "type": "float",
               "label": "Particle Anchor",
               "labels": {
-                "ja": "パーティクルアンカー",
+                "ja": "粒子アンカー",
                 "zh-TW": "顆粒固定點",
                 "ko": "입자 앵커",
                 "zh-CN": "粒子固定点"
@@ -11051,7 +11051,7 @@
               "type": "float",
               "label": "Mass Reduction",
               "labels": {
-                "ja": "質量軽減",
+                "ja": "質量削減",
                 "zh-TW": "質量衰減",
                 "ko": "질량 감소",
                 "zh-CN": "质量衰减"
@@ -11062,7 +11062,7 @@
               "options": null,
               "description": "Reducing mass at each level",
               "descriptions": {
-                "ja": "各レベルでの質量軽減",
+                "ja": "各レベルでの質量削減",
                 "zh-TW": "降低每級的質量",
                 "ko": "각 레벨에서의 질량 감소",
                 "zh-CN": "每个级别的质量衰减"
@@ -11073,7 +11073,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -11128,7 +11128,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -11183,7 +11183,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -11205,7 +11205,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -11216,7 +11216,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -11271,7 +11271,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -11337,7 +11337,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -11361,7 +11361,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -11427,7 +11427,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -11449,7 +11449,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -11763,7 +11763,7 @@
           "type": "options",
           "label": "Sorting",
           "labels": {
-            "ja": "ソーティング",
+            "ja": "ソート順",
             "zh-TW": "排序",
             "ko": "정렬",
             "zh-CN": "排序"
@@ -11774,7 +11774,7 @@
           "options": ["Shortest Path", "Circular", "Linear", "No Sorting"],
           "description": "Set sorting method used when making lateral connections.",
           "descriptions": {
-            "ja": "側面接続を作成する際に使用されるソーティング方法を設定します。",
+            "ja": "横方向の接続を作成する際に使用されるソート方法を設定します。",
             "zh-TW": "設定用於建立側方連接的排序方法。",
             "ko": "측면 연결을 만들 때 사용되는 정렬 방법을 설정합니다.",
             "zh-CN": "设置用于创建侧向连接的排序方法。"
@@ -11785,7 +11785,7 @@
           "type": "bool",
           "label": "Closed Loop",
           "labels": {
-            "ja": "クローズドループ",
+            "ja": "閉じたループ",
             "zh-TW": "閉環",
             "ko": "폐쇄 루프",
             "zh-CN": "闭环"
@@ -11796,7 +11796,7 @@
           "options": null,
           "description": "Bones for closed loops at each level",
           "descriptions": {
-            "ja": "各レベルのクローズドループ用の骨",
+            "ja": "各レベルの閉じたループのボーン",
             "zh-TW": "每級的閉環骨骼",
             "ko": "각 레벨의 폐쇄 루프 본",
             "zh-CN": "每个级别的闭环骨骼"
@@ -11807,7 +11807,7 @@
           "type": "int",
           "label": "Skip First X Bones",
           "labels": {
-            "ja": "最初からX個の骨格をスキップ",
+            "ja": "先頭からX個のボーンをスキップ",
             "zh-TW": "跳過前 X 根骨骼",
             "ko": "첫 X개 뼈 건너뛰기",
             "zh-CN": "跳过前 X 根骨骼"
@@ -11818,7 +11818,7 @@
           "options": null,
           "description": "Do not create physics connection for the first x number of levels",
           "descriptions": {
-            "ja": "最初からx個のレベルについて物理接続を作成しない",
+            "ja": "最初からX個のレベルには物理接続を作成しない",
             "zh-TW": "不為前 x 個層級創建物理連接",
             "ko": "첫 x개 레벨에 물리 연결을 생성하지 않음",
             "zh-CN": "不为前 X 个层级创建物理连接"
@@ -11829,7 +11829,7 @@
           "type": "bool",
           "label": "Override Physics",
           "labels": {
-            "ja": "物理の上書き",
+            "ja": "物理のオーバーライド",
             "zh-TW": "覆蓋物理",
             "ko": "물리 재정의",
             "zh-CN": "覆盖物理"
@@ -11840,7 +11840,7 @@
           "options": null,
           "description": "Override physics settings from the primary group",
           "descriptions": {
-            "ja": "プライマリーグループからの物理設定を上書きします",
+            "ja": "プライマリグループからの物理設定をオーバーライドします",
             "zh-TW": "覆蓋來自主要群組的物理設定",
             "ko": "기본 그룹의 물리 설정을 재정의합니다.",
             "zh-CN": "覆盖主组的物理设置"
@@ -11851,7 +11851,7 @@
           "type": "bool",
           "label": "Visualize Bodies",
           "labels": {
-            "ja": "ボディの視覚化",
+            "ja": "ボディの可視化",
             "zh-TW": "可視化身體",
             "ko": "바디 시각화",
             "zh-CN": "可视化身体"
@@ -11862,7 +11862,7 @@
           "options": null,
           "description": "Show collider shapes for skirt physics bodies",
           "descriptions": {
-            "ja": "スカート物理ボディのコライダー形状を表示",
+            "ja": "スカート物理のボディのコライダー形状を表示",
             "zh-TW": "顯示裙子物理身體的碰撞體形狀",
             "ko": "스커트 물리 바디의 충돌체 모양을 표시합니다.",
             "zh-CN": "显示裙摆物理骨体的碰撞器形状"
@@ -11884,7 +11884,7 @@
           "options": null,
           "description": "Show joint limits and drive targets for skirt physics joints",
           "descriptions": {
-            "ja": "スカート物理ジョイントの関節制限とドライブターゲットを表示",
+            "ja": "スカート物理のジョイントの制限とドライブターゲットを表示",
             "zh-TW": "顯示裙子物理關節的關節限制和驅動目標",
             "ko": "스커트 물리 관절의 관절 한계 및 구동 목표를 표시합니다.",
             "zh-CN": "显示裙摆物理关节的关节限制和驱动目标"
@@ -11928,7 +11928,7 @@
               "options": null,
               "description": "Physics properties like mass, drag and friction",
               "descriptions": {
-                "ja": "質量、ドラッグ、摩擦などの物理プロパティ",
+                "ja": "質量、抵抗、摩擦などの物理プロパティ",
                 "zh-TW": "物理屬性，如質量、阻力和摩擦力",
                 "ko": "질량, 항력, 마찰력과 같은 물리 속성",
                 "zh-CN": "物理属性，如质量、阻力和摩擦力"
@@ -11994,7 +11994,7 @@
                   "options": null,
                   "description": "Overlap of colliders horizontally",
                   "descriptions": {
-                    "ja": "コライダーの水平方向のオーバーラップ",
+                    "ja": "水平方向のコライダーオーバーラップ",
                     "zh-TW": "碰撞器水平重疊",
                     "ko": "콜라이더의 수평 중첩",
                     "zh-CN": "水平碰撞体重叠"
@@ -12016,7 +12016,7 @@
                   "options": null,
                   "description": "Reduce mass at each level",
                   "descriptions": {
-                    "ja": "各レベルで質量を減少させる",
+                    "ja": "レベルごとの質量減少",
                     "zh-TW": "降低每個層級的質量",
                     "ko": "각 레벨별 질량 감소",
                     "zh-CN": "降低每个级别的质量"
@@ -12082,7 +12082,7 @@
                   "options": ["Auto", "Zero"],
                   "description": "Set center of mass at zero or automatically based on position and size of each collider",
                   "descriptions": {
-                    "ja": "ゼロ、または各コライダーの位置とサイズに基づいて自動的に重心を設定する",
+                    "ja": "重心をゼロに設定するか、各コライダーの位置とサイズに基づいて自動設定",
                     "zh-TW": "將質心設定為零，或根據每個碰撞器的位置和大小自動設定",
                     "ko": "무게 중심을 0으로 설정하거나 각 콜라이더의 위치와 크기에 따라 자동으로 설정",
                     "zh-CN": "将质心设置为零，或根据每个碰撞体的位置和大小自动设置"
@@ -12117,7 +12117,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -12139,7 +12139,7 @@
                   "type": "float",
                   "label": "Swing Drive",
                   "labels": {
-                    "ja": "スイングドライブ",
+                    "ja": "スイング ドライブ",
                     "zh-TW": "擺動驅動",
                     "ko": "스윙 드라이브",
                     "zh-CN": "摆动驱动"
@@ -12161,7 +12161,7 @@
                   "type": "float",
                   "label": "Twist Drive",
                   "labels": {
-                    "ja": "ねじれドライブ",
+                    "ja": "ツイスト ドライブ",
                     "zh-TW": "扭轉驅動",
                     "ko": "비틀림 드라이브",
                     "zh-CN": "扭转驱动"
@@ -12183,7 +12183,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -12205,7 +12205,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -12251,7 +12251,7 @@
               "type": "group",
               "label": "Lateral Joint",
               "labels": {
-                "ja": "側面ジョイント",
+                "ja": "横方向ジョイント",
                 "zh-TW": "側方關節",
                 "ko": "측면 관절",
                 "zh-CN": "侧向关节"
@@ -12273,7 +12273,7 @@
                   "type": "bool",
                   "label": "Visualize",
                   "labels": {
-                    "ja": "視覚化",
+                    "ja": "可視化",
                     "zh-TW": "視覺化",
                     "ko": "시각화",
                     "zh-CN": "可视化"
@@ -12295,7 +12295,7 @@
                   "type": "float",
                   "label": "Linear Drive",
                   "labels": {
-                    "ja": "線形ドライブ",
+                    "ja": "リニア ドライブ",
                     "zh-TW": "線性驅動",
                     "ko": "선형 드라이브",
                     "zh-CN": "线性驱动"
@@ -12317,7 +12317,7 @@
                   "type": "float",
                   "label": "Angular Drive",
                   "labels": {
-                    "ja": "角度ドライブ",
+                    "ja": "アングル ドライブ",
                     "zh-TW": "角度驅動",
                     "ko": "각도 드라이브",
                     "zh-CN": "角度驱动"
@@ -12339,7 +12339,7 @@
                   "type": "float",
                   "label": "Drive Damping",
                   "labels": {
-                    "ja": "ドライブダンピング",
+                    "ja": "ドライブ ダンピング",
                     "zh-TW": "驅動阻尼",
                     "ko": "드라이브 감쇠",
                     "zh-CN": "驱动阻尼"
@@ -12361,7 +12361,7 @@
                   "type": "float",
                   "label": "Reduction Rate",
                   "labels": {
-                    "ja": "減衰率",
+                    "ja": "リダクション レート",
                     "zh-TW": "減小率",
                     "ko": "감소율",
                     "zh-CN": "减小速率"
@@ -12383,7 +12383,7 @@
                   "type": "bool",
                   "label": "Lock Y",
                   "labels": {
-                    "ja": "Y軸固定",
+                    "ja": "Y固定",
                     "zh-TW": "鎖定 Y",
                     "ko": "Y 잠금",
                     "zh-CN": "锁定 Y 轴"
@@ -12405,7 +12405,7 @@
                   "type": "bool",
                   "label": "Lock Z",
                   "labels": {
-                    "ja": "Z軸固定",
+                    "ja": "Z固定",
                     "zh-TW": "鎖定 Z",
                     "ko": "Z 잠금",
                     "zh-CN": "锁定 Z 轴"
@@ -12473,7 +12473,7 @@
                   "type": "options",
                   "label": "Collider Type",
                   "labels": {
-                    "ja": "コライダータイプ",
+                    "ja": "コライダー タイプ",
                     "zh-TW": "碰撞體類型",
                     "ko": "충돌체 유형",
                     "zh-CN": "碰撞器类型"
@@ -12506,7 +12506,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -12528,7 +12528,7 @@
                   "options": null,
                   "description": "Reducing length of collider for the first level of bones to avoid interference from body colliders.",
                   "descriptions": {
-                    "ja": "ボディコライダーとの干渉を避けるため、最初のレベルの骨のコライダー長を短縮する。",
+                    "ja": "ボディコライダーからの干渉を避けるため、最上位ボーンのコライダー長を短縮します。",
                     "zh-TW": "縮小第一級骨骼碰撞體長度，以避免身體碰撞體干擾。",
                     "ko": "본의 첫 번째 레벨에 대한 충돌체 길이를 줄여 바디 충돌체 간섭을 방지합니다.",
                     "zh-CN": "缩短第一级骨骼的碰撞器长度，以避免与身体碰撞器发生干扰。"
@@ -12642,7 +12642,7 @@
               "options": null,
               "description": "Use sphere particles instead of capsules (for debugging)",
               "descriptions": {
-                "ja": "カプセルではなく球体パーティクルを使用する（デバッグ用）",
+                "ja": "カプセルではなく球体粒子を使用する（デバッグ用）",
                 "zh-TW": "使用球體顆粒而非膠囊體（用於除錯）",
                 "ko": "캡슐 대신 구 입자 사용 (디버깅용)",
                 "zh-CN": "使用球形粒子代替胶囊体（用于调试）"
@@ -12653,7 +12653,7 @@
               "type": "float",
               "label": "Stiffness Reduction",
               "labels": {
-                "ja": "剛性の低下",
+                "ja": "剛性低下",
                 "zh-TW": "剛度降低",
                 "ko": "강성 감소",
                 "zh-CN": "刚度减小"
@@ -12686,7 +12686,7 @@
               "options": null,
               "description": "Damping of particle motion",
               "descriptions": {
-                "ja": "パーティクル運動の減衰",
+                "ja": "粒子運動の減衰",
                 "zh-TW": "顆粒運動阻尼",
                 "ko": "입자 움직임의 감쇠",
                 "zh-CN": "粒子运动阻尼"
@@ -12697,7 +12697,7 @@
               "type": "float",
               "label": "Particle Anchor",
               "labels": {
-                "ja": "パーティクルアンカー",
+                "ja": "粒子アンカー",
                 "zh-TW": "顆粒固定點",
                 "ko": "입자 앵커",
                 "zh-CN": "粒子固定点"
@@ -12719,7 +12719,7 @@
               "type": "float",
               "label": "Mass Reduction",
               "labels": {
-                "ja": "質量軽減",
+                "ja": "質量削減",
                 "zh-TW": "質量衰減",
                 "ko": "질량 감소",
                 "zh-CN": "质量衰减"
@@ -12730,7 +12730,7 @@
               "options": null,
               "description": "Reducing mass at each level",
               "descriptions": {
-                "ja": "各レベルでの質量軽減",
+                "ja": "各レベルでの質量削減",
                 "zh-TW": "降低每級的質量",
                 "ko": "각 레벨에서의 질량 감소",
                 "zh-CN": "每个级别的质量衰减"
@@ -12741,7 +12741,7 @@
               "type": "bool",
               "label": "Visualize Mesh",
               "labels": {
-                "ja": "メッシュを表示",
+                "ja": "メッシュの可視化",
                 "zh-TW": "可視化網格",
                 "ko": "메시 시각화",
                 "zh-CN": "可视化网格"
@@ -12796,7 +12796,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -12851,7 +12851,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -12873,7 +12873,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -12884,7 +12884,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -12939,7 +12939,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -13005,7 +13005,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -13029,7 +13029,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -13095,7 +13095,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -13117,7 +13117,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"

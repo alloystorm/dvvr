@@ -215,15 +215,43 @@ respawn. **TTL on Floor** is how long puddles persist.
 
 ### Fluid
 
-Defines particle interaction physics. **Cohesion** pulls
-particles together into streams. **Cohesion Range** sets the
-maximum distance for cohesion effects. **Target Distance**
-is the minimum particle separation when cohesion is off.
-**Viscosity** resists flow for thicker fluids. **Stick To
-Surface** controls how strongly particles adhere to geometry.
+Defines particle interaction physics.
+
+**Particle Size** is the rest distance between neighbouring
+particles in mm — the fundamental size knob. It drives the
+rest density target, the body-collision radius, and (via
+**Kernel Ratio**) the SPH kernel reach.
+**Kernel Ratio** is the SPH kernel radius as a multiple of
+Particle Size. The standard PBF value is 2.0 — raise it for
+a smoother / slower fluid, lower it for a sharper / less
+stable one.
+
+**Cohesion** pulls particles together into streams.
+**Viscosity** resists flow for thicker fluids.
+**Target Density** scales how dense the fluid wants to be at
+rest. Lower (< 1) = more compressible / weaker push-apart on
+spawn. Higher (> 1) = stiffer fluid.
+**Pressure Softness** regularizes the per-particle pressure
+correction — higher values dampen the violent push-apart that
+happens when newly-spawned particles overlap. The right knob
+to turn first if particles bounce away from each other on spawn.
 
 Presets: *Water* (light, cohesive), *Viscous* (thick,
 sticky), *Sand* (no cohesion, granular).
+
+### Ray March Surface
+
+Raymarched fluid surface — a smooth metaball isosurface lit and refracted
+through the camera's opaque scene. Requires the **Fluid Raymarch** Custom
+Pass Volume to be present in the scene (injection point: Before Transparent).
+
+**Render Surface** enables the pass at runtime.
+**Color** is the bulk fluid tint; alpha controls how much it mixes with
+the refracted scene behind it (alpha=0 → clear, alpha=1 → opaque tint).
+**Specular Power / Strength** size and brightness of the highlight.
+**Fresnel Power** how strongly the rim brightens / opaques at glancing
+angles (lower = wider rim).
+**Refraction** screen-space displacement of the scene behind the fluid.
 
 ## Geometry Collider
 

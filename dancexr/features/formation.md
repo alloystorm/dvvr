@@ -1,24 +1,42 @@
 ---
-layout: release
-title: Formation
+layout: feature
+title: "Formation"
 locale: en-US
 ---
 
+# Formation
+
+Formation controls how the actors are laid out in the scene, and provides convenient tools to reset actor positions.
 
 
-## Formation
-Formation controls how the actors are layed out in the scene, it also provides convenient tools to reset actor positions.
+## Formation Types
 
-In formation settings you can change the horizontal and verticle distances between actors, change their rotation (of individual) and orientation (rotation for the entire group as a whole)
+Select from a variety of layout patterns:
 
-#### Formation Types
-A few different formation types to choose from:
-* V Shape: Using both X Dist and Y Dist to place actors in a V shape
-* A Shape: Using both X Dist and Y Dist to place actors in a A shape
-* Line: In a horizontal line with X Dist as distance between actors
-* Circle: Actors are placed on a circle with X Dist as radius and Y Dist as offset from the calculated position
-* Zero: This option will set 0 offset and rotation for all the actors. This is useful for group dance motions where there are multiple motions and each are designed to work together.
-* Fan Shape
+* **V Shape**: Places actors in a V layout using both X Dist and Y Dist.
+* **A Shape**: Places actors in an A layout using both X Dist and Y Dist.
+* **Line**: Aligns actors horizontally with X Dist as the distance between them.
+* **Circle**: Places actors in a circle where X Dist controls the radius and Y Dist controls the offset.
+* **Zero**: Sets zero offset and rotation for all actors. This is useful for multi-actor dances where individual positions are already authored into the motions.
+* **Fan Shape**: Arranges actors in a fan layout.
 
-#### Spectators
-Actors can be labelled as "Speactor" and they will then be grouped in a different formation that circles around the center of the stage. 
+
+## Settings
+
+**X Dist** and **Y Dist** control the spacing scale of the selected formation.
+
+**Rotation** rotates each individual actor.
+
+**Orientation** rotates the entire formation group as a whole.
+
+**Offset X** and **Offset Y** shift the center of the formation.
+
+
+## Spectators
+
+Actors labeled as spectators are grouped into a separate formation that circles around the main stage.
+
+* **Use Spectator Formation** enables spectator positioning.
+* **Spectator Dist** sets the radius for spectators.
+* **Rotate Spectators** rotates spectators to face the center of the stage.
+

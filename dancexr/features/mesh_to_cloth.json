@@ -100,7 +100,7 @@
           "options": null,
           "description": "Size of particle in millimeters",
           "descriptions": {
-            "ja": "パーティクルのサイズ（ミリメートル）",
+            "ja": "ミリメートル単位のパーティクルサイズ",
             "zh-TW": "粒子尺寸（毫米）",
             "ko": "입자 크기 (밀리미터)",
             "zh-CN": "粒子尺寸（毫米）"
@@ -155,7 +155,7 @@
           "type": "float",
           "label": "Drag (Air)",
           "labels": {
-            "ja": "空気抵抗",
+            "ja": "抵抗（空気）",
             "zh-TW": "阻力（空氣）",
             "ko": "항력 (공기)",
             "zh-CN": "阻力（空气）"
@@ -177,7 +177,7 @@
           "type": "float",
           "label": "Drag (Underwater)",
           "labels": {
-            "ja": "水中抵抗",
+            "ja": "抵抗（水中）",
             "zh-TW": "阻力（水下）",
             "ko": "항력 (수중)",
             "zh-CN": "阻力（水下）"
@@ -188,7 +188,7 @@
           "options": null,
           "description": "Underwater resistancy",
           "descriptions": {
-            "ja": "水中抵抗",
+            "ja": "水抵抗",
             "zh-TW": "水下阻力",
             "ko": "수중 저항",
             "zh-CN": "水下阻力"
@@ -243,7 +243,7 @@
               "type": "float",
               "label": "Wind Influence",
               "labels": {
-                "ja": "風の影響",
+                "ja": "風の影響度",
                 "zh-TW": "風影響力",
                 "ko": "바람 영향력",
                 "zh-CN": "风力影响"
@@ -309,7 +309,7 @@
               "type": "float",
               "label": "Turbulence Time Scale",
               "labels": {
-                "ja": "乱流時間スケール",
+                "ja": "乱流タイムスケール",
                 "zh-TW": "湍流時間尺度",
                 "ko": "난류 시간 스케일",
                 "zh-CN": "湍流时间尺度"
@@ -344,7 +344,7 @@
           "options": null,
           "description": "Friction for anchored layers",
           "descriptions": {
-            "ja": "アンカーされたレイヤーの摩擦",
+            "ja": "固定レイヤーの摩擦",
             "zh-TW": "固定層的摩擦力",
             "ko": "앵커된 레이어 마찰",
             "zh-CN": "固定层摩擦力"
@@ -355,7 +355,7 @@
           "type": "float",
           "label": "Angular Spring",
           "labels": {
-            "ja": "角度スプリング",
+            "ja": "角ばね",
             "zh-TW": "角向彈簧",
             "ko": "각도 스프링",
             "zh-CN": "角形弹簧"
@@ -366,7 +366,7 @@
           "options": null,
           "description": "Default angular spring stiffness for joints without rotation springs. Higher values pull joints back toward rest pose more strongly. 0 = disabled.",
           "descriptions": {
-            "ja": "回転スプリングがないジョイントのデフォルトの角度スプリングの剛性。値が大きいほど、ジョイントは安静ポーズに戻ろうと強く引きます。0=無効。",
+            "ja": "回転バネのないジョイントのデフォルトの角ばねの剛性。高い値ほどジョイントをレストポーズに強く戻します。0=無効。",
             "zh-TW": "缺乏旋轉彈簧的關節的預設角向彈簧剛度。數值越高，關節恢復到靜止姿勢的力量越大。0 = 停用。",
             "ko": "회전 스프링이 없는 관절의 기본 각도 스프링 강성. 값이 높을수록 관절을 휴식 자세로 더 강하게 끌어당깁니다. 0 = 비활성화.",
             "zh-CN": "没有旋转弹簧的关节的默认角形弹簧刚度。较高值会更强烈地将关节拉回静止姿势。0 = 禁用。"
@@ -377,7 +377,7 @@
           "type": "group",
           "label": "Collide With",
           "labels": {
-            "ja": "と衝突",
+            "ja": "衝突判定",
             "zh-TW": "與碰撞",
             "ko": "충돌 대상",
             "zh-CN": "碰撞对象"
@@ -443,7 +443,7 @@
               "type": "bool",
               "label": "Boobs",
               "labels": {
-                "ja": "ブブズ",
+                "ja": "バスト",
                 "zh-TW": "胸部",
                 "ko": "보디스",
                 "zh-CN": "胸部"
@@ -465,7 +465,7 @@
               "type": "bool",
               "label": "Butts",
               "labels": {
-                "ja": "臀部",
+                "ja": "お尻",
                 "zh-TW": "臀部",
                 "ko": "엉덩이",
                 "zh-CN": "臀部"
@@ -753,7 +753,7 @@
           "type": "bool",
           "label": "Rest Distance Check",
           "labels": {
-            "ja": "静止距離チェック",
+            "ja": "レスト距離チェック",
             "zh-TW": "靜止距離檢查",
             "ko": "휴식 거리 확인",
             "zh-CN": "静止距离检查"
@@ -764,10 +764,32 @@
           "options": null,
           "description": "Use rest distance for self collision between rigid bodies in the same block. Helps when rigid body shapes are not configured perfectly.",
           "descriptions": {
-            "ja": "同じブロック内の剛体間の自己衝突に静止距離を使用する。剛体の形状が完璧に設定されていない場合に役立つ。",
+            "ja": "同じブロック内の剛体間の自己衝突にレスト距離を使用する。剛体形状が完璧に設定されていない場合に役立ちます。",
             "zh-TW": "在同一區塊內，針對剛體之間的自我碰撞使用靜止距離。當剛體形狀配置不完美時，這會有幫助。",
             "ko": "같은 블록 내 강체 간의 자가 충돌에 휴식 거리를 사용합니다. 강체 모양이 완벽하게 설정되지 않았을 때 도움이 됩니다.",
             "zh-CN": "对同一块体内的刚体自碰撞使用静止距离。当刚体形状未配置完美时很有帮助。"
+          }
+        },
+        {
+          "name": "Use Repulsion (Bounce)",
+          "type": "bool",
+          "label": "Use Repulsion (Bounce)",
+          "labels": {
+            "ja": "(Use Repulsion (Bounce))",
+            "zh-TW": "(Use Repulsion (Bounce))",
+            "ko": "(Use Repulsion (Bounce))",
+            "zh-CN": "(Use Repulsion (Bounce))"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.",
+          "descriptions": {
+            "ja": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
+            "zh-TW": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
+            "ko": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
+            "zh-CN": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)"
           }
         }
       ]

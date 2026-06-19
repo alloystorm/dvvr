@@ -1,0 +1,2434 @@
+{
+  "name": "Input Settings",
+  "docPath": "features/input_settings",
+  "label": "Controller Input",
+  "labels": {
+    "ja": "コントローラー入力",
+    "zh-TW": "控制器輸入",
+    "ko": "컨트롤러 입력",
+    "zh-CN": "控制器输入"
+  },
+  "description": "Input settings allow you to map and calibrate controller inputs for both keyboard/mouse and game controllers (including VR hand controllers).\r\n\r\n\r\n## Options\r\n\r\n**Trackpad Mode** changes the behavior of controller touchpads. When enabled, axis values are only output when the pad button is physically pressed.\r\n\r\n**Use Secondary Axes** enables reading inputs from controllers that have both a thumbstick and a trackpad (such as WMR controllers).\r\n\r\n**Use Gamepad** enables game controllers/gamepads even when running in VR mode.\r\n\r\n**Use Grip Input** toggles grip button inputs on or off. Turning it off prevents accidental grabs or grip-drag interactions.\r\n\r\n**Grip Threshold** (0.0 to 1.0) sets the actuation threshold for the grip button. Useful for highly sensitive controllers (like Valve Index) to prevent accidental triggers.\r\n\r\n\r\n## Controller Mapping\r\n\r\nYou can customize the mapping of various axes and buttons on your controller:\r\n* **Axes** can be mapped to actions like camera movement, rotation, timeline scrubbing, or frame stepping.\r\n* **Buttons** can be mapped to actions like playing motions, loading next/previous models, slow-motion, or resetting physics.\r\n* **Alt Keys** can be assigned to map keyboard keys to controller buttons.",
+  "descriptions": {
+    "ja": "(Input settings allow you to map and calibrate controller inputs for both keyboard/mouse and game controllers (including VR hand controllers).\r\n\r\n\r\n## Options\r\n\r\n**Trackpad Mode** changes the behavior of controller touchpads. When enabled, axis values are only output when the pad button is physically pressed.\r\n\r\n**Use Secondary Axes** enables reading inputs from controllers that have both a thumbstick and a trackpad (such as WMR controllers).\r\n\r\n**Use Gamepad** enables game controllers/gamepads even when running in VR mode.\r\n\r\n**Use Grip Input** toggles grip button inputs on or off. Turning it off prevents accidental grabs or grip-drag interactions.\r\n\r\n**Grip Threshold** (0.0 to 1.0) sets the actuation threshold for the grip button. Useful for highly sensitive controllers (like Valve Index) to prevent accidental triggers.\r\n\r\n\r\n## Controller Mapping\r\n\r\nYou can customize the mapping of various axes and buttons on your controller:\r\n* **Axes** can be mapped to actions like camera movement, rotation, timeline scrubbing, or frame stepping.\r\n* **Buttons** can be mapped to actions like playing motions, loading next/previous models, slow-motion, or resetting physics.\r\n* **Alt Keys** can be assigned to map keyboard keys to controller buttons.)",
+    "zh-TW": "(Input settings allow you to map and calibrate controller inputs for both keyboard/mouse and game controllers (including VR hand controllers).\r\n\r\n\r\n## Options\r\n\r\n**Trackpad Mode** changes the behavior of controller touchpads. When enabled, axis values are only output when the pad button is physically pressed.\r\n\r\n**Use Secondary Axes** enables reading inputs from controllers that have both a thumbstick and a trackpad (such as WMR controllers).\r\n\r\n**Use Gamepad** enables game controllers/gamepads even when running in VR mode.\r\n\r\n**Use Grip Input** toggles grip button inputs on or off. Turning it off prevents accidental grabs or grip-drag interactions.\r\n\r\n**Grip Threshold** (0.0 to 1.0) sets the actuation threshold for the grip button. Useful for highly sensitive controllers (like Valve Index) to prevent accidental triggers.\r\n\r\n\r\n## Controller Mapping\r\n\r\nYou can customize the mapping of various axes and buttons on your controller:\r\n* **Axes** can be mapped to actions like camera movement, rotation, timeline scrubbing, or frame stepping.\r\n* **Buttons** can be mapped to actions like playing motions, loading next/previous models, slow-motion, or resetting physics.\r\n* **Alt Keys** can be assigned to map keyboard keys to controller buttons.)",
+    "ko": "(Input settings allow you to map and calibrate controller inputs for both keyboard/mouse and game controllers (including VR hand controllers).\r\n\r\n\r\n## Options\r\n\r\n**Trackpad Mode** changes the behavior of controller touchpads. When enabled, axis values are only output when the pad button is physically pressed.\r\n\r\n**Use Secondary Axes** enables reading inputs from controllers that have both a thumbstick and a trackpad (such as WMR controllers).\r\n\r\n**Use Gamepad** enables game controllers/gamepads even when running in VR mode.\r\n\r\n**Use Grip Input** toggles grip button inputs on or off. Turning it off prevents accidental grabs or grip-drag interactions.\r\n\r\n**Grip Threshold** (0.0 to 1.0) sets the actuation threshold for the grip button. Useful for highly sensitive controllers (like Valve Index) to prevent accidental triggers.\r\n\r\n\r\n## Controller Mapping\r\n\r\nYou can customize the mapping of various axes and buttons on your controller:\r\n* **Axes** can be mapped to actions like camera movement, rotation, timeline scrubbing, or frame stepping.\r\n* **Buttons** can be mapped to actions like playing motions, loading next/previous models, slow-motion, or resetting physics.\r\n* **Alt Keys** can be assigned to map keyboard keys to controller buttons.)",
+    "zh-CN": "(Input settings allow you to map and calibrate controller inputs for both keyboard/mouse and game controllers (including VR hand controllers).\r\n\r\n\r\n## Options\r\n\r\n**Trackpad Mode** changes the behavior of controller touchpads. When enabled, axis values are only output when the pad button is physically pressed.\r\n\r\n**Use Secondary Axes** enables reading inputs from controllers that have both a thumbstick and a trackpad (such as WMR controllers).\r\n\r\n**Use Gamepad** enables game controllers/gamepads even when running in VR mode.\r\n\r\n**Use Grip Input** toggles grip button inputs on or off. Turning it off prevents accidental grabs or grip-drag interactions.\r\n\r\n**Grip Threshold** (0.0 to 1.0) sets the actuation threshold for the grip button. Useful for highly sensitive controllers (like Valve Index) to prevent accidental triggers.\r\n\r\n\r\n## Controller Mapping\r\n\r\nYou can customize the mapping of various axes and buttons on your controller:\r\n* **Axes** can be mapped to actions like camera movement, rotation, timeline scrubbing, or frame stepping.\r\n* **Buttons** can be mapped to actions like playing motions, loading next/previous models, slow-motion, or resetting physics.\r\n* **Alt Keys** can be assigned to map keyboard keys to controller buttons.)"
+  },
+  "values": [
+    {
+      "name": "Axis Input Settings",
+      "type": "group",
+      "label": "Options",
+      "labels": {
+        "ja": "オプション",
+        "zh-TW": "選項",
+        "ko": "옵션",
+        "zh-CN": "选项"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Trackpad Mode",
+          "type": "bool",
+          "label": "Trackpad Mode",
+          "labels": {
+            "ja": "トラックパッドモード",
+            "zh-TW": "觸控板模式",
+            "ko": "트랙패드 모드",
+            "zh-CN": "触控板模式"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Output axis value only when the related button is being pressed",
+          "descriptions": {
+            "ja": "関連ボタンが押されているときのみ軸の値を出力する",
+            "zh-TW": "僅在按下相關按鈕時輸出軸值",
+            "ko": "관련 버튼을 누르는 경우에만 축 값 출력",
+            "zh-CN": "仅在按下相关按钮时输出轴值"
+          }
+        },
+        {
+          "name": "Use Secondary Axes",
+          "type": "bool",
+          "label": "Use Secondary Axes",
+          "labels": {
+            "ja": "二次軸を使用",
+            "zh-TW": "使用次要軸",
+            "ko": "보조 축 사용",
+            "zh-CN": "使用次要轴"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Read secondary axis input from VR controllers if available. e.g. WMR controlls have both thumbstick and touchpad",
+          "descriptions": {
+            "ja": "利用可能な場合、VRコントローラーから二次軸入力を読み取ります。例：WMRコントローラーはサムスティックとタッチパッドの両方を備えています。",
+            "zh-TW": "如有可得，從VR控制器讀取次要軸輸入。例如，WMR控制器同時具有搖桿和觸控板。",
+            "ko": "사용 가능한 경우 VR 컨트롤러에서 보조 축 입력 읽기. 예: WMR 컨트롤은 썸스틱과 터치패드가 모두 있음.",
+            "zh-CN": "如果可用，从VR控制器读取次要轴输入。例如，WMR控制器同时具备摇杆和触控板"
+          }
+        },
+        {
+          "name": "Use Gamepad",
+          "type": "bool",
+          "label": "Use Gamepad",
+          "labels": {
+            "ja": "ゲームパッドを使用",
+            "zh-TW": "使用遊戲手把",
+            "ko": "게임패드 사용",
+            "zh-CN": "使用游戏手柄"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Enable gamepad input in VR mode",
+          "descriptions": {
+            "ja": "VRモードでゲームパッド入力を有効にする",
+            "zh-TW": "在VR模式中啟用遊戲手把輸入",
+            "ko": "VR 모드에서 게임패드 입력 활성화",
+            "zh-CN": "在VR模式下启用游戏手柄输入"
+          }
+        },
+        {
+          "name": "Use Grip Input",
+          "type": "bool",
+          "label": "Use Grip Input",
+          "labels": {
+            "ja": "グリップ入力を使用",
+            "zh-TW": "使用握把輸入",
+            "ko": "그립 입력 사용",
+            "zh-CN": "使用握持输入"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Ignores grip button completely when turned off",
+          "descriptions": {
+            "ja": "オフにするとグリップボタンを完全に無視する",
+            "zh-TW": "關閉後會完全忽略握把按鈕",
+            "ko": "꺼짐 상태일 때 그립 버튼을 완전히 무시함",
+            "zh-CN": "关闭时完全忽略握持按钮"
+          }
+        },
+        {
+          "name": "Grip Threshold",
+          "type": "float",
+          "label": "Grip Threshold",
+          "labels": {
+            "ja": "グリップしきい値",
+            "zh-TW": "握把閾值",
+            "ko": "그립 임계값",
+            "zh-CN": "握持阈值"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "The threshold for triggering a grip button input. Useful for very sensitive controllers like Valve Index",
+          "descriptions": {
+            "ja": "グリップボタン入力をトリガーするためのしきい値。Valve Indexのような非常に敏感なコントローラーに有用です。",
+            "zh-TW": "觸發握把按鈕輸入的閾值。對於像 Valve Index 這樣極度敏感的控制器很有用。",
+            "ko": "그립 버튼 입력을 트리거하는 임계값. Valve Index와 같이 매우 민감한 컨트롤러에 유용함.",
+            "zh-CN": "触发握持按钮输入的阈值。对像Valve Index这样灵敏的控制器很有用"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Left Thumb X",
+      "type": "group",
+      "label": "Left Thumb X",
+      "labels": {
+        "ja": "左親指 X軸",
+        "zh-TW": "左手拇指 X",
+        "ko": "왼쪽 엄지 X",
+        "zh-CN": "左拇指 X"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Axis Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Move Left / Right",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Axis Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "Rotate Left / Right",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Deadzone",
+          "type": "float",
+          "label": "Deadzone",
+          "labels": {
+            "ja": "デッドゾーン",
+            "zh-TW": "死亡區",
+            "ko": "데드존",
+            "zh-CN": "死区"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Invert",
+          "type": "bool",
+          "label": "Invert",
+          "labels": {
+            "ja": "反転",
+            "zh-TW": "反轉",
+            "ko": "반전",
+            "zh-CN": "反转"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative +",
+          "type": "options",
+          "label": "Keyboard Alternative +",
+          "labels": {
+            "ja": "キーボード代替（+）",
+            "zh-TW": "鍵盤替代按鍵 +",
+            "ko": "키보드 대체 +",
+            "zh-CN": "键盘替代+"
+          },
+          "default": "D",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative -",
+          "type": "options",
+          "label": "Keyboard Alternative -",
+          "labels": {
+            "ja": "キーボード代替（-）",
+            "zh-TW": "鍵盤替代按鍵 -",
+            "ko": "키보드 대체 -",
+            "zh-CN": "键盘替代-"
+          },
+          "default": "A",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Smoothing",
+          "type": "float",
+          "label": "Smoothing",
+          "labels": {
+            "ja": "スムージング",
+            "zh-TW": "平滑度",
+            "ko": "스무딩",
+            "zh-CN": "平滑度"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Left Thumb Y",
+      "type": "group",
+      "label": "Left Thumb Y",
+      "labels": {
+        "ja": "左親指 Y軸",
+        "zh-TW": "左手拇指 Y",
+        "ko": "왼쪽 엄지 Y",
+        "zh-CN": "左拇指 Y"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Axis Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Move Forward / Back",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Axis Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "Move Up / Down",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Deadzone",
+          "type": "float",
+          "label": "Deadzone",
+          "labels": {
+            "ja": "デッドゾーン",
+            "zh-TW": "死亡區",
+            "ko": "데드존",
+            "zh-CN": "死区"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Invert",
+          "type": "bool",
+          "label": "Invert",
+          "labels": {
+            "ja": "反転",
+            "zh-TW": "反轉",
+            "ko": "반전",
+            "zh-CN": "反转"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative +",
+          "type": "options",
+          "label": "Keyboard Alternative +",
+          "labels": {
+            "ja": "キーボード代替（+）",
+            "zh-TW": "鍵盤替代按鍵 +",
+            "ko": "키보드 대체 +",
+            "zh-CN": "键盘替代+"
+          },
+          "default": "W",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative -",
+          "type": "options",
+          "label": "Keyboard Alternative -",
+          "labels": {
+            "ja": "キーボード代替（-）",
+            "zh-TW": "鍵盤替代按鍵 -",
+            "ko": "키보드 대체 -",
+            "zh-CN": "键盘替代-"
+          },
+          "default": "S",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Smoothing",
+          "type": "float",
+          "label": "Smoothing",
+          "labels": {
+            "ja": "スムージング",
+            "zh-TW": "平滑度",
+            "ko": "스무딩",
+            "zh-CN": "平滑度"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Right Thumb X",
+      "type": "group",
+      "label": "Right Thumb X",
+      "labels": {
+        "ja": "右親指 X軸",
+        "zh-TW": "右手拇指 X",
+        "ko": "오른쪽 엄지 X",
+        "zh-CN": "右拇指 X"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Axis Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Rotate Left / Right",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Axis Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "Move Left / Right",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Deadzone",
+          "type": "float",
+          "label": "Deadzone",
+          "labels": {
+            "ja": "デッドゾーン",
+            "zh-TW": "死亡區",
+            "ko": "데드존",
+            "zh-CN": "死区"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Invert",
+          "type": "bool",
+          "label": "Invert",
+          "labels": {
+            "ja": "反転",
+            "zh-TW": "反轉",
+            "ko": "반전",
+            "zh-CN": "反转"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative +",
+          "type": "options",
+          "label": "Keyboard Alternative +",
+          "labels": {
+            "ja": "キーボード代替（+）",
+            "zh-TW": "鍵盤替代按鍵 +",
+            "ko": "키보드 대체 +",
+            "zh-CN": "键盘替代+"
+          },
+          "default": "Right",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative -",
+          "type": "options",
+          "label": "Keyboard Alternative -",
+          "labels": {
+            "ja": "キーボード代替（-）",
+            "zh-TW": "鍵盤替代按鍵 -",
+            "ko": "키보드 대체 -",
+            "zh-CN": "键盘替代-"
+          },
+          "default": "Left",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Smoothing",
+          "type": "float",
+          "label": "Smoothing",
+          "labels": {
+            "ja": "スムージング",
+            "zh-TW": "平滑度",
+            "ko": "스무딩",
+            "zh-CN": "平滑度"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Right Thumb Y",
+      "type": "group",
+      "label": "Right Thumb Y",
+      "labels": {
+        "ja": "右親指 Y軸",
+        "zh-TW": "右手拇指 Y",
+        "ko": "오른쪽 엄지 Y",
+        "zh-CN": "右拇指 Y"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Axis Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Move Up / Down",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Axis Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "Move Forward / Back",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Deadzone",
+          "type": "float",
+          "label": "Deadzone",
+          "labels": {
+            "ja": "デッドゾーン",
+            "zh-TW": "死亡區",
+            "ko": "데드존",
+            "zh-CN": "死区"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Invert",
+          "type": "bool",
+          "label": "Invert",
+          "labels": {
+            "ja": "反転",
+            "zh-TW": "反轉",
+            "ko": "반전",
+            "zh-CN": "反转"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative +",
+          "type": "options",
+          "label": "Keyboard Alternative +",
+          "labels": {
+            "ja": "キーボード代替（+）",
+            "zh-TW": "鍵盤替代按鍵 +",
+            "ko": "키보드 대체 +",
+            "zh-CN": "键盘替代+"
+          },
+          "default": "Up",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative -",
+          "type": "options",
+          "label": "Keyboard Alternative -",
+          "labels": {
+            "ja": "キーボード代替（-）",
+            "zh-TW": "鍵盤替代按鍵 -",
+            "ko": "키보드 대체 -",
+            "zh-CN": "键盘替代-"
+          },
+          "default": "Down",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Smoothing",
+          "type": "float",
+          "label": "Smoothing",
+          "labels": {
+            "ja": "スムージング",
+            "zh-TW": "平滑度",
+            "ko": "스무딩",
+            "zh-CN": "平滑度"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Left Trigger",
+      "type": "group",
+      "label": "Left Trigger",
+      "labels": {
+        "ja": "左トリガー",
+        "zh-TW": "左扳機鍵",
+        "ko": "왼쪽 트리거",
+        "zh-CN": "左扳机键"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Axis Action",
+          "type": "options",
+          "label": "Prime Axis Action",
+          "labels": {
+            "ja": "プライマリアクシスアクション",
+            "zh-TW": "主要軸動作",
+            "ko": "주 축 동작",
+            "zh-CN": "主要轴动作"
+          },
+          "default": "Custom Axis 1",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Prime Button Action",
+          "type": "options",
+          "label": "Prime Button Action",
+          "labels": {
+            "ja": "プライマリアクションボタン",
+            "zh-TW": "主要按鈕動作",
+            "ko": "주 버튼 동작",
+            "zh-CN": "主要按钮动作"
+          },
+          "default": "None",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Deadzone",
+          "type": "float",
+          "label": "Deadzone",
+          "labels": {
+            "ja": "デッドゾーン",
+            "zh-TW": "死亡區",
+            "ko": "데드존",
+            "zh-CN": "死区"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Button Threshold",
+          "type": "float",
+          "label": "Button Threshold",
+          "labels": {
+            "ja": "ボタンしきい値",
+            "zh-TW": "按鈕閾值",
+            "ko": "버튼 임계값",
+            "zh-CN": "按钮阈值"
+          },
+          "default": 0.75,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative +",
+          "type": "options",
+          "label": "Keyboard Alternative +",
+          "labels": {
+            "ja": "キーボード代替（+）",
+            "zh-TW": "鍵盤替代按鍵 +",
+            "ko": "키보드 대체 +",
+            "zh-CN": "键盘替代+"
+          },
+          "default": "Tab",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Smoothing",
+          "type": "float",
+          "label": "Smoothing",
+          "labels": {
+            "ja": "スムージング",
+            "zh-TW": "平滑度",
+            "ko": "스무딩",
+            "zh-CN": "平滑度"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Right Trigger",
+      "type": "group",
+      "label": "Right Trigger",
+      "labels": {
+        "ja": "右トリガー",
+        "zh-TW": "右扳機",
+        "ko": "오른쪽 트리거",
+        "zh-CN": "右扳机"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Axis Action",
+          "type": "options",
+          "label": "Prime Axis Action",
+          "labels": {
+            "ja": "プライマリアクシスアクション",
+            "zh-TW": "主要軸動作",
+            "ko": "주 축 동작",
+            "zh-CN": "主要轴动作"
+          },
+          "default": "Custom Axis 2",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Prime Button Action",
+          "type": "options",
+          "label": "Prime Button Action",
+          "labels": {
+            "ja": "プライマリアクションボタン",
+            "zh-TW": "主要按鈕動作",
+            "ko": "주 버튼 동작",
+            "zh-CN": "主要按钮动作"
+          },
+          "default": "None",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Deadzone",
+          "type": "float",
+          "label": "Deadzone",
+          "labels": {
+            "ja": "デッドゾーン",
+            "zh-TW": "死亡區",
+            "ko": "데드존",
+            "zh-CN": "死区"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Button Threshold",
+          "type": "float",
+          "label": "Button Threshold",
+          "labels": {
+            "ja": "ボタンしきい値",
+            "zh-TW": "按鈕閾值",
+            "ko": "버튼 임계값",
+            "zh-CN": "按钮阈值"
+          },
+          "default": 0.75,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative +",
+          "type": "options",
+          "label": "Keyboard Alternative +",
+          "labels": {
+            "ja": "キーボード代替（+）",
+            "zh-TW": "鍵盤替代按鍵 +",
+            "ko": "키보드 대체 +",
+            "zh-CN": "键盘替代+"
+          },
+          "default": "Space",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Smoothing",
+          "type": "float",
+          "label": "Smoothing",
+          "labels": {
+            "ja": "スムージング",
+            "zh-TW": "平滑度",
+            "ko": "스무딩",
+            "zh-CN": "平滑度"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "DPad X",
+      "type": "group",
+      "label": "DPad X",
+      "labels": {
+        "ja": "D-Pad X軸",
+        "zh-TW": "方向盤 X",
+        "ko": "D-패드 X",
+        "zh-CN": "方向键 X"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Axis Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "UI X",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Axis Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "Seek Timeline",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Deadzone",
+          "type": "float",
+          "label": "Deadzone",
+          "labels": {
+            "ja": "デッドゾーン",
+            "zh-TW": "死亡區",
+            "ko": "데드존",
+            "zh-CN": "死区"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Invert",
+          "type": "bool",
+          "label": "Invert",
+          "labels": {
+            "ja": "反転",
+            "zh-TW": "反轉",
+            "ko": "반전",
+            "zh-CN": "反转"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative +",
+          "type": "options",
+          "label": "Keyboard Alternative +",
+          "labels": {
+            "ja": "キーボード代替（+）",
+            "zh-TW": "鍵盤替代按鍵 +",
+            "ko": "키보드 대체 +",
+            "zh-CN": "键盘替代+"
+          },
+          "default": "L",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative -",
+          "type": "options",
+          "label": "Keyboard Alternative -",
+          "labels": {
+            "ja": "キーボード代替（-）",
+            "zh-TW": "鍵盤替代按鍵 -",
+            "ko": "키보드 대체 -",
+            "zh-CN": "键盘替代-"
+          },
+          "default": "J",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Smoothing",
+          "type": "float",
+          "label": "Smoothing",
+          "labels": {
+            "ja": "スムージング",
+            "zh-TW": "平滑度",
+            "ko": "스무딩",
+            "zh-CN": "平滑度"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "DPad Y",
+      "type": "group",
+      "label": "DPad Y",
+      "labels": {
+        "ja": "D-Pad Y軸",
+        "zh-TW": "方向盤 Y",
+        "ko": "D-패드 Y",
+        "zh-CN": "方向键 Y"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Axis Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "UI Y",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Axis Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "Seek Frame",
+          "min": 0,
+          "max": 12,
+          "options": ["None", "Move Left / Right", "Move Forward / Back", "Move Up / Down", "Rotate Left / Right", "UI X", "UI Y", "Custom Axis 1", "Custom Axis 2", "Tilt View", "UI Scroll", "Seek Timeline", "Seek Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Deadzone",
+          "type": "float",
+          "label": "Deadzone",
+          "labels": {
+            "ja": "デッドゾーン",
+            "zh-TW": "死亡區",
+            "ko": "데드존",
+            "zh-CN": "死区"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Invert",
+          "type": "bool",
+          "label": "Invert",
+          "labels": {
+            "ja": "反転",
+            "zh-TW": "反轉",
+            "ko": "반전",
+            "zh-CN": "反转"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative +",
+          "type": "options",
+          "label": "Keyboard Alternative +",
+          "labels": {
+            "ja": "キーボード代替（+）",
+            "zh-TW": "鍵盤替代按鍵 +",
+            "ko": "키보드 대체 +",
+            "zh-CN": "键盘替代+"
+          },
+          "default": "I",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Keyboard Alternative -",
+          "type": "options",
+          "label": "Keyboard Alternative -",
+          "labels": {
+            "ja": "キーボード代替（-）",
+            "zh-TW": "鍵盤替代按鍵 -",
+            "ko": "키보드 대체 -",
+            "zh-CN": "键盘替代-"
+          },
+          "default": "K",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Smoothing",
+          "type": "float",
+          "label": "Smoothing",
+          "labels": {
+            "ja": "スムージング",
+            "zh-TW": "平滑度",
+            "ko": "스무딩",
+            "zh-CN": "平滑度"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Left Btn 1",
+      "type": "group",
+      "label": "Btn X / Left 1",
+      "labels": {
+        "ja": "ボタン X / 左 1",
+        "zh-TW": "按鈕 X / 左 1",
+        "ko": "버튼 X / 왼쪽 1",
+        "zh-CN": "键 X / 左 1"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Button Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Center Actor",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Button Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "Reset Physics",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Key",
+          "type": "options",
+          "label": "Key",
+          "labels": {
+            "ja": "(Key)",
+            "zh-TW": "(Key)",
+            "ko": "(Key)",
+            "zh-CN": "(Key)"
+          },
+          "default": "1",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Left Btn 2",
+      "type": "group",
+      "label": "Btn Y / Left 2",
+      "labels": {
+        "ja": "ボタン Y / 左 2",
+        "zh-TW": "按鈕 Y / 左 2",
+        "ko": "버튼 Y / 왼쪽 2",
+        "zh-CN": "键 Y / 左 2"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Button Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Next Actor",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Button Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "Shuffle Actor",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Key",
+          "type": "options",
+          "label": "Key",
+          "labels": {
+            "ja": "(Key)",
+            "zh-TW": "(Key)",
+            "ko": "(Key)",
+            "zh-CN": "(Key)"
+          },
+          "default": "2",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Right Btn 1",
+      "type": "group",
+      "label": "Btn A / Right 1",
+      "labels": {
+        "ja": "ボタン A / 右 1",
+        "zh-TW": "按鈕 A / 右 1",
+        "ko": "버튼 A / 오른쪽 1",
+        "zh-CN": "键 A / 右 1"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Button Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Next Motion",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Button Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "Prev Motion",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Key",
+          "type": "options",
+          "label": "Key",
+          "labels": {
+            "ja": "(Key)",
+            "zh-TW": "(Key)",
+            "ko": "(Key)",
+            "zh-CN": "(Key)"
+          },
+          "default": "3",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Right Btn 2",
+      "type": "group",
+      "label": "Btn B / Right 2",
+      "labels": {
+        "ja": "ボタン B / 右 2",
+        "zh-TW": "按鈕 B / 右 2",
+        "ko": "버튼 B / 오른쪽 2",
+        "zh-CN": "键 B / 右 2"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Button Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Play / Pause",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Button Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "Slow Motion",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Key",
+          "type": "options",
+          "label": "Key",
+          "labels": {
+            "ja": "(Key)",
+            "zh-TW": "(Key)",
+            "ko": "(Key)",
+            "zh-CN": "(Key)"
+          },
+          "default": "4",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Left Shoulder",
+      "type": "group",
+      "label": "Left Shoulder",
+      "labels": {
+        "ja": "左肩",
+        "zh-TW": "左肩",
+        "ko": "왼쪽 어깨",
+        "zh-CN": "左肩部"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Button Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Secondary Action",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Button Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "None",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Key",
+          "type": "options",
+          "label": "Key",
+          "labels": {
+            "ja": "(Key)",
+            "zh-TW": "(Key)",
+            "ko": "(Key)",
+            "zh-CN": "(Key)"
+          },
+          "default": "L Shift",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Right Shoulder",
+      "type": "group",
+      "label": "Right Shoulder",
+      "labels": {
+        "ja": "右肩",
+        "zh-TW": "右肩",
+        "ko": "오른쪽 어깨",
+        "zh-CN": "右肩部"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Button Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Secondary Action",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Button Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "None",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Key",
+          "type": "options",
+          "label": "Key",
+          "labels": {
+            "ja": "(Key)",
+            "zh-TW": "(Key)",
+            "ko": "(Key)",
+            "zh-CN": "(Key)"
+          },
+          "default": "R Shift",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Left Thumb Click",
+      "type": "group",
+      "label": "Left Thumb Click",
+      "labels": {
+        "ja": "左親指クリック",
+        "zh-TW": "左手拇指點擊",
+        "ko": "왼쪽 엄지 클릭",
+        "zh-CN": "左拇指点击"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Button Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Reset Physics",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Button Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "Center UI",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Key",
+          "type": "options",
+          "label": "Key",
+          "labels": {
+            "ja": "(Key)",
+            "zh-TW": "(Key)",
+            "ko": "(Key)",
+            "zh-CN": "(Key)"
+          },
+          "default": "L Ctrl",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Right Thumb Click",
+      "type": "group",
+      "label": "Right Thumb Click",
+      "labels": {
+        "ja": "右親指クリック",
+        "zh-TW": "右手拇指點擊",
+        "ko": "오른쪽 엄지 클릭",
+        "zh-CN": "右拇指点击"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Button Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Toggle UI",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Button Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "Center UI",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Key",
+          "type": "options",
+          "label": "Key",
+          "labels": {
+            "ja": "(Key)",
+            "zh-TW": "(Key)",
+            "ko": "(Key)",
+            "zh-CN": "(Key)"
+          },
+          "default": "R Ctrl",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Select",
+      "type": "group",
+      "label": "Select",
+      "labels": {
+        "ja": "選択",
+        "zh-TW": "選擇",
+        "ko": "선택",
+        "zh-CN": "选择"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Button Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Toggle UI",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Button Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "UI Back",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Key",
+          "type": "options",
+          "label": "Key",
+          "labels": {
+            "ja": "(Key)",
+            "zh-TW": "(Key)",
+            "ko": "(Key)",
+            "zh-CN": "(Key)"
+          },
+          "default": "Esc",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Start",
+      "type": "group",
+      "label": "Start",
+      "labels": {
+        "ja": "開始",
+        "zh-TW": "開始",
+        "ko": "시작",
+        "zh-CN": "开始"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Prime Button Action",
+          "type": "options",
+          "label": "Prime Action",
+          "labels": {
+            "ja": "プライマリアクション",
+            "zh-TW": "主要動作",
+            "ko": "주 동작",
+            "zh-CN": "主要动作"
+          },
+          "default": "Toggle Microphone",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Second Button Action",
+          "type": "options",
+          "label": "Second Action",
+          "labels": {
+            "ja": "セカンダリアクション",
+            "zh-TW": "次要動作",
+            "ko": "보조 동작",
+            "zh-CN": "次要动作"
+          },
+          "default": "Toggle Microphone",
+          "min": 0,
+          "max": 23,
+          "options": ["None", "Toggle UI", "Play / Pause", "UI Back", "Reset Physics", "Center Actor", "Next Actor", "Prev Actor", "Next Motion", "Prev Motion", "Switch Camera", "Slow Motion", "Shuffle Actor", "Shuffle Motion", "Next Stage", "Previous Stage", "Shuffle Stage", "UI Action", "UI Alternative", "Secondary Action", "Center UI", "Toggle Microphone", "Next Frame", "Previous Frame"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Key",
+          "type": "options",
+          "label": "Key",
+          "labels": {
+            "ja": "(Key)",
+            "zh-TW": "(Key)",
+            "ko": "(Key)",
+            "zh-CN": "(Key)"
+          },
+          "default": "Return",
+          "min": 0,
+          "max": 57,
+          "options": ["None", "Esc", "Backspace", "Tab", "Space", "Return", "L Ctrl", "R Ctrl", "L Shift", "R Shift", "L Alt", "R Alt", "Insert", "Delete", "Home", "End", "PageUp", "PageDown", "Up", "Down", "Left", "Right", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    }
+  ]
+}

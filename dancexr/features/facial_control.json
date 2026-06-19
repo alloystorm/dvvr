@@ -3,9 +3,9 @@
   "docPath": "features/facial_control",
   "label": "Facial Control",
   "labels": {
-    "ja": "フェイシャルコントロール",
+    "ja": "顔の制御",
     "zh-TW": "面部控制",
-    "ko": "얼굴 제어",
+    "ko": "페이셜 컨트롤",
     "zh-CN": "面部控制"
   },
   "description": "Provides direct sliders for facial expressions on XPS/FBX models.\r\nMouth shapes (A, I, U, E, O, Grinning, Smile 1-3, Frown), eyebrow\r\nposes (Smile, Upper, Lower, Worry, Angry 1-2), and eyelid poses\r\n(Blink, Jito, Wink, Laugh, Narrow) each get their own slider.\r\n\r\n**Use Lip Sync** drives mouth shapes from the currently playing\r\naudio. For XPS models, **Disable** turns off all facial animation,\r\nand the **Extent** sliders scale eyelid, mouth, and eyebrow\r\nmovement independently to fix over- or under-animated faces.",
@@ -21,9 +21,9 @@
       "type": "bool",
       "label": "Use Lip Sync",
       "labels": {
-        "ja": "リップシンク使用",
+        "ja": "口の同期を使用",
         "zh-TW": "使用口型同步",
-        "ko": "립 싱크 사용",
+        "ko": "립싱크 사용",
         "zh-CN": "使用口型同步"
       },
       "default": "false",
@@ -43,7 +43,7 @@
       "type": "value",
       "label": "Mouth Neutral",
       "labels": {
-        "ja": "口（ニュートラル）",
+        "ja": "口 ニュートラル",
         "zh-TW": "嘴巴中性",
         "ko": "입술 중립",
         "zh-CN": "嘴巴 中性"
@@ -65,7 +65,7 @@
       "type": "value",
       "label": "Mouth Custom",
       "labels": {
-        "ja": "口（カスタム）",
+        "ja": "口 カスタム",
         "zh-TW": "嘴巴自定義",
         "ko": "입술 커스텀",
         "zh-CN": "嘴巴 定制"
@@ -197,9 +197,9 @@
       "type": "value",
       "label": "Grinning",
       "labels": {
-        "ja": "ニヤリと笑う",
+        "ja": "にやり笑い",
         "zh-TW": "咧嘴笑",
-        "ko": "방긋 웃음",
+        "ko": "활짝 웃음",
         "zh-CN": "咧嘴笑"
       },
       "default": 0,
@@ -285,7 +285,7 @@
       "type": "value",
       "label": "Frown",
       "labels": {
-        "ja": "しかめっ面",
+        "ja": "不機嫌な顔",
         "zh-TW": "皺眉",
         "ko": "찡그림",
         "zh-CN": "皱眉"
@@ -307,7 +307,7 @@
       "type": "value",
       "label": "Eyebrows Neutral",
       "labels": {
-        "ja": "眉毛（ニュートラル）",
+        "ja": "眉毛 ニュートラル",
         "zh-TW": "眉毛中性",
         "ko": "눈썹 중립",
         "zh-CN": "眉毛 中性"
@@ -329,7 +329,7 @@
       "type": "value",
       "label": "Eyebrows Custom",
       "labels": {
-        "ja": "眉毛（カスタム）",
+        "ja": "眉毛 カスタム",
         "zh-TW": "眉毛自定義",
         "ko": "눈썹 커스텀",
         "zh-CN": "眉毛 定制"
@@ -373,7 +373,7 @@
       "type": "value",
       "label": "Upper",
       "labels": {
-        "ja": "上部",
+        "ja": "上",
         "zh-TW": "上部",
         "ko": "위쪽",
         "zh-CN": "上部"
@@ -395,7 +395,7 @@
       "type": "value",
       "label": "Lower",
       "labels": {
-        "ja": "下部",
+        "ja": "下",
         "zh-TW": "下部",
         "ko": "아래쪽",
         "zh-CN": "下部"
@@ -441,7 +441,7 @@
       "labels": {
         "ja": "怒り1",
         "zh-TW": "生氣1",
-        "ko": "분노1",
+        "ko": "화남1",
         "zh-CN": "生气1"
       },
       "default": 0,
@@ -463,7 +463,7 @@
       "labels": {
         "ja": "怒り2",
         "zh-TW": "生氣2",
-        "ko": "분노2",
+        "ko": "화남2",
         "zh-CN": "生气2"
       },
       "default": 0,
@@ -483,7 +483,7 @@
       "type": "value",
       "label": "Eyelids Neutral",
       "labels": {
-        "ja": "まぶた（ニュートラル）",
+        "ja": "まぶた ニュートラル",
         "zh-TW": "眼皮中性",
         "ko": "눈꺼풀 중립",
         "zh-CN": "眼睑 中性"
@@ -505,7 +505,7 @@
       "type": "value",
       "label": "Eyelids Custom",
       "labels": {
-        "ja": "まぶた（カスタム）",
+        "ja": "まぶた カスタム",
         "zh-TW": "眼皮自定義",
         "ko": "눈꺼풀 커스텀",
         "zh-CN": "眼睑 定制"
@@ -571,7 +571,7 @@
       "type": "value",
       "label": "Wink",
       "labels": {
-        "ja": "ウインク",
+        "ja": "ウィンク",
         "zh-TW": "眨眼",
         "ko": "윙크",
         "zh-CN": "眨眼"
@@ -593,7 +593,7 @@
       "type": "value",
       "label": "Wink Right",
       "labels": {
-        "ja": "右目ウインク",
+        "ja": "右ウィンク",
         "zh-TW": "右眨眼",
         "ko": "오른쪽 윙크",
         "zh-CN": "右眨眼"
@@ -637,9 +637,9 @@
       "type": "value",
       "label": "Narrow Eyes",
       "labels": {
-        "ja": "細目",
+        "ja": "細め（の目）",
         "zh-TW": "眯眼",
-        "ko": "눈 가늘게 뜨기",
+        "ko": "가늘게 뜬 눈",
         "zh-CN": "眯眼"
       },
       "default": 0,

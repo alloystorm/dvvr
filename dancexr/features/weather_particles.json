@@ -1,0 +1,618 @@
+{
+  "name": "Particles",
+  "docPath": "features/weather_particles",
+  "label": "Particle Effect",
+  "labels": {
+    "ja": "パーティクルエフェクト",
+    "zh-TW": "粒子效果",
+    "ko": "파티클 효과",
+    "zh-CN": "粒子效果"
+  },
+  "description": "Weather particles add atmospheric particle effects to the scene to simulate environmental conditions such as rain, snow, or falling leaves. Built-in presets are available: *Off*, *Dust*, *Rain*, *Snow*, *Petal*, *Leaf*, *Glitter*.\r\n\r\n{% include video id=\"SLNw5XZflZ8\" provider=\"youtube\" %}\r\n\r\n\r\n## Particle settings\r\n\r\n**Spawn Rate** (0 to 2) controls the density of particles. Higher values produce more particles.\r\n\r\n**Gravity** controls how strongly particles fall. Negative values cause particles to fall downward.\r\n\r\n**Velocity** sets the initial velocity of particles when spawned.\r\n\r\n**Turbulence** applies random movement to particles, creating a more natural appearance.\r\n\r\n**Drag** is the air resistance applied to particles, slowing them as they travel.\r\n\r\n**Bounce** controls how much particles bounce when they hit the ground or scene objects.\r\n\r\n**Spin** controls the rotation speed of individual particles.\r\n\r\n**Collision** enables or disables particle collision with scene objects.\r\n\r\n**Spawn from top** spawns particles from the top of the spawn area when enabled, or randomly throughout the volume when disabled.\r\n\r\n**Texture** selects the particle texture or type to use.\r\n\r\n**Size** controls the size of each particle.\r\n\r\n**Lifetime** sets how long each particle remains visible before disappearing.\r\n\r\n**Height** sets the height of the particle spawn area.\r\n\r\n**Stay on Ground** (0+) controls how long particles remain on the ground after landing. A value of 0 causes them to disappear on contact.\r\n\r\n\r\n## Rain shader\r\n\r\nThe rain shader applies a screen-space effect that simulates rain droplets forming on the camera lens, adding an extra layer of immersion during rain weather.\r\n\r\n\r\n## Audio\r\n\r\nControls the volume of weather audio, such as rain sounds or ambient environmental noise.",
+  "descriptions": {
+    "ja": "(Weather particles add atmospheric particle effects to the scene to simulate environmental conditions such as rain, snow, or falling leaves. Built-in presets are available: *Off*, *Dust*, *Rain*, *Snow*, *Petal*, *Leaf*, *Glitter*.\r\n\r\n{% include video id=\"SLNw5XZflZ8\" provider=\"youtube\" %}\r\n\r\n\r\n## Particle settings\r\n\r\n**Spawn Rate** (0 to 2) controls the density of particles. Higher values produce more particles.\r\n\r\n**Gravity** controls how strongly particles fall. Negative values cause particles to fall downward.\r\n\r\n**Velocity** sets the initial velocity of particles when spawned.\r\n\r\n**Turbulence** applies random movement to particles, creating a more natural appearance.\r\n\r\n**Drag** is the air resistance applied to particles, slowing them as they travel.\r\n\r\n**Bounce** controls how much particles bounce when they hit the ground or scene objects.\r\n\r\n**Spin** controls the rotation speed of individual particles.\r\n\r\n**Collision** enables or disables particle collision with scene objects.\r\n\r\n**Spawn from top** spawns particles from the top of the spawn area when enabled, or randomly throughout the volume when disabled.\r\n\r\n**Texture** selects the particle texture or type to use.\r\n\r\n**Size** controls the size of each particle.\r\n\r\n**Lifetime** sets how long each particle remains visible before disappearing.\r\n\r\n**Height** sets the height of the particle spawn area.\r\n\r\n**Stay on Ground** (0+) controls how long particles remain on the ground after landing. A value of 0 causes them to disappear on contact.\r\n\r\n\r\n## Rain shader\r\n\r\nThe rain shader applies a screen-space effect that simulates rain droplets forming on the camera lens, adding an extra layer of immersion during rain weather.\r\n\r\n\r\n## Audio\r\n\r\nControls the volume of weather audio, such as rain sounds or ambient environmental noise.)",
+    "zh-TW": "(Weather particles add atmospheric particle effects to the scene to simulate environmental conditions such as rain, snow, or falling leaves. Built-in presets are available: *Off*, *Dust*, *Rain*, *Snow*, *Petal*, *Leaf*, *Glitter*.\r\n\r\n{% include video id=\"SLNw5XZflZ8\" provider=\"youtube\" %}\r\n\r\n\r\n## Particle settings\r\n\r\n**Spawn Rate** (0 to 2) controls the density of particles. Higher values produce more particles.\r\n\r\n**Gravity** controls how strongly particles fall. Negative values cause particles to fall downward.\r\n\r\n**Velocity** sets the initial velocity of particles when spawned.\r\n\r\n**Turbulence** applies random movement to particles, creating a more natural appearance.\r\n\r\n**Drag** is the air resistance applied to particles, slowing them as they travel.\r\n\r\n**Bounce** controls how much particles bounce when they hit the ground or scene objects.\r\n\r\n**Spin** controls the rotation speed of individual particles.\r\n\r\n**Collision** enables or disables particle collision with scene objects.\r\n\r\n**Spawn from top** spawns particles from the top of the spawn area when enabled, or randomly throughout the volume when disabled.\r\n\r\n**Texture** selects the particle texture or type to use.\r\n\r\n**Size** controls the size of each particle.\r\n\r\n**Lifetime** sets how long each particle remains visible before disappearing.\r\n\r\n**Height** sets the height of the particle spawn area.\r\n\r\n**Stay on Ground** (0+) controls how long particles remain on the ground after landing. A value of 0 causes them to disappear on contact.\r\n\r\n\r\n## Rain shader\r\n\r\nThe rain shader applies a screen-space effect that simulates rain droplets forming on the camera lens, adding an extra layer of immersion during rain weather.\r\n\r\n\r\n## Audio\r\n\r\nControls the volume of weather audio, such as rain sounds or ambient environmental noise.)",
+    "ko": "(Weather particles add atmospheric particle effects to the scene to simulate environmental conditions such as rain, snow, or falling leaves. Built-in presets are available: *Off*, *Dust*, *Rain*, *Snow*, *Petal*, *Leaf*, *Glitter*.\r\n\r\n{% include video id=\"SLNw5XZflZ8\" provider=\"youtube\" %}\r\n\r\n\r\n## Particle settings\r\n\r\n**Spawn Rate** (0 to 2) controls the density of particles. Higher values produce more particles.\r\n\r\n**Gravity** controls how strongly particles fall. Negative values cause particles to fall downward.\r\n\r\n**Velocity** sets the initial velocity of particles when spawned.\r\n\r\n**Turbulence** applies random movement to particles, creating a more natural appearance.\r\n\r\n**Drag** is the air resistance applied to particles, slowing them as they travel.\r\n\r\n**Bounce** controls how much particles bounce when they hit the ground or scene objects.\r\n\r\n**Spin** controls the rotation speed of individual particles.\r\n\r\n**Collision** enables or disables particle collision with scene objects.\r\n\r\n**Spawn from top** spawns particles from the top of the spawn area when enabled, or randomly throughout the volume when disabled.\r\n\r\n**Texture** selects the particle texture or type to use.\r\n\r\n**Size** controls the size of each particle.\r\n\r\n**Lifetime** sets how long each particle remains visible before disappearing.\r\n\r\n**Height** sets the height of the particle spawn area.\r\n\r\n**Stay on Ground** (0+) controls how long particles remain on the ground after landing. A value of 0 causes them to disappear on contact.\r\n\r\n\r\n## Rain shader\r\n\r\nThe rain shader applies a screen-space effect that simulates rain droplets forming on the camera lens, adding an extra layer of immersion during rain weather.\r\n\r\n\r\n## Audio\r\n\r\nControls the volume of weather audio, such as rain sounds or ambient environmental noise.)",
+    "zh-CN": "(Weather particles add atmospheric particle effects to the scene to simulate environmental conditions such as rain, snow, or falling leaves. Built-in presets are available: *Off*, *Dust*, *Rain*, *Snow*, *Petal*, *Leaf*, *Glitter*.\r\n\r\n{% include video id=\"SLNw5XZflZ8\" provider=\"youtube\" %}\r\n\r\n\r\n## Particle settings\r\n\r\n**Spawn Rate** (0 to 2) controls the density of particles. Higher values produce more particles.\r\n\r\n**Gravity** controls how strongly particles fall. Negative values cause particles to fall downward.\r\n\r\n**Velocity** sets the initial velocity of particles when spawned.\r\n\r\n**Turbulence** applies random movement to particles, creating a more natural appearance.\r\n\r\n**Drag** is the air resistance applied to particles, slowing them as they travel.\r\n\r\n**Bounce** controls how much particles bounce when they hit the ground or scene objects.\r\n\r\n**Spin** controls the rotation speed of individual particles.\r\n\r\n**Collision** enables or disables particle collision with scene objects.\r\n\r\n**Spawn from top** spawns particles from the top of the spawn area when enabled, or randomly throughout the volume when disabled.\r\n\r\n**Texture** selects the particle texture or type to use.\r\n\r\n**Size** controls the size of each particle.\r\n\r\n**Lifetime** sets how long each particle remains visible before disappearing.\r\n\r\n**Height** sets the height of the particle spawn area.\r\n\r\n**Stay on Ground** (0+) controls how long particles remain on the ground after landing. A value of 0 causes them to disappear on contact.\r\n\r\n\r\n## Rain shader\r\n\r\nThe rain shader applies a screen-space effect that simulates rain droplets forming on the camera lens, adding an extra layer of immersion during rain weather.\r\n\r\n\r\n## Audio\r\n\r\nControls the volume of weather audio, such as rain sounds or ambient environmental noise.)"
+  },
+  "values": [
+    {
+      "name": "Particles",
+      "type": "group",
+      "label": "Particles",
+      "labels": {
+        "ja": "パーティクル",
+        "zh-TW": "粒子",
+        "ko": "입자",
+        "zh-CN": "粒子"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Spawn Rate",
+          "type": "float",
+          "label": "Spawn Rate",
+          "labels": {
+            "ja": "スポーンレート",
+            "zh-TW": "生成速率",
+            "ko": "생성률",
+            "zh-CN": "生成速率"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": "Density of particles",
+          "descriptions": {
+            "ja": "パーティクルの密度",
+            "zh-TW": "粒子密度",
+            "ko": "입자 밀도",
+            "zh-CN": "粒子密度"
+          }
+        },
+        {
+          "name": "Life",
+          "type": "float",
+          "label": "Life",
+          "labels": {
+            "ja": "寿命",
+            "zh-TW": "生命時間",
+            "ko": "수명",
+            "zh-CN": "生命周期"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": "How long does each particle last",
+          "descriptions": {
+            "ja": "各パーティクルはどれくらいの期間持続しますか？",
+            "zh-TW": "每個粒子持續多久",
+            "ko": "각 입자는 얼마나 오래 지속되나요?",
+            "zh-CN": "每个粒子持续多久"
+          }
+        },
+        {
+          "name": "Size",
+          "type": "float",
+          "label": "Size",
+          "labels": {
+            "ja": "サイズ",
+            "zh-TW": "尺寸",
+            "ko": "크기",
+            "zh-CN": "大小"
+          },
+          "default": 0.005,
+          "min": 0,
+          "max": 0.2,
+          "options": null,
+          "description": "Size of the particles",
+          "descriptions": {
+            "ja": "パーティクルのサイズ",
+            "zh-TW": "粒子尺寸",
+            "ko": "입자 크기",
+            "zh-CN": "粒子大小"
+          }
+        },
+        {
+          "name": "Texture",
+          "type": "options",
+          "label": "Texture",
+          "labels": {
+            "ja": "テクスチャ",
+            "zh-TW": "紋理",
+            "ko": "텍스처",
+            "zh-CN": "纹理"
+          },
+          "default": "[None]",
+          "min": 0,
+          "max": 3,
+          "options": ["[None]", "[Dust]", "[Petal]", "[Leaf]"],
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Glow",
+          "type": "float",
+          "label": "Glow",
+          "labels": {
+            "ja": "グロー",
+            "zh-TW": "發光",
+            "ko": "발광",
+            "zh-CN": "发光"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Metallic",
+          "type": "float",
+          "label": "Metallic",
+          "labels": {
+            "ja": "メタリック",
+            "zh-TW": "金屬感",
+            "ko": "금속성",
+            "zh-CN": "金属度"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Smoothness",
+          "type": "float",
+          "label": "Smoothness",
+          "labels": {
+            "ja": "滑らかさ",
+            "zh-TW": "平滑度",
+            "ko": "부드러움",
+            "zh-CN": "平滑度"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Thickness",
+          "type": "float",
+          "label": "Thickness",
+          "labels": {
+            "ja": "厚さ",
+            "zh-TW": "厚度",
+            "ko": "두께",
+            "zh-CN": "厚度"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Gravity",
+          "type": "float",
+          "label": "Gravity",
+          "labels": {
+            "ja": "重力",
+            "zh-TW": "重力",
+            "ko": "중력",
+            "zh-CN": "重力"
+          },
+          "default": 9.8,
+          "min": -10,
+          "max": 10,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Velocity",
+          "type": "float",
+          "label": "Velocity",
+          "labels": {
+            "ja": "速度",
+            "zh-TW": "速度",
+            "ko": "속도",
+            "zh-CN": "速度"
+          },
+          "default": 8,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Turbulence",
+          "type": "float",
+          "label": "Turbulence",
+          "labels": {
+            "ja": "乱流",
+            "zh-TW": "紊流",
+            "ko": "난류",
+            "zh-CN": "湍流"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Drag",
+          "type": "float",
+          "label": "Drag",
+          "labels": {
+            "ja": "ドラッグ",
+            "zh-TW": "阻力",
+            "ko": "항력",
+            "zh-CN": "阻力"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Bounce",
+          "type": "float",
+          "label": "Bounce",
+          "labels": {
+            "ja": "バウンス",
+            "zh-TW": "彈跳",
+            "ko": "반동",
+            "zh-CN": "反弹"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "How much does the particle bounce back when colliding with ground or objects",
+          "descriptions": {
+            "ja": "地面や物体に衝突した際、パーティクルはどれだけ跳ね返りますか？",
+            "zh-TW": "粒子與地面或物體碰撞時會彈回多少",
+            "ko": "입자가 지면이나 물체에 충돌할 때 얼마나 되돌아오나요?",
+            "zh-CN": "粒子与地面或物体碰撞时能反弹多少"
+          }
+        },
+        {
+          "name": "Spin",
+          "type": "float",
+          "label": "Spin",
+          "labels": {
+            "ja": "スピン",
+            "zh-TW": "自旋",
+            "ko": "회전",
+            "zh-CN": "自旋"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 5,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Collision",
+          "type": "bool",
+          "label": "Collision",
+          "labels": {
+            "ja": "衝突",
+            "zh-TW": "碰撞",
+            "ko": "충돌",
+            "zh-CN": "碰撞"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Enable collision with objects",
+          "descriptions": {
+            "ja": "物体との衝突を有効化",
+            "zh-TW": "啟用與物體的碰撞",
+            "ko": "물체와 충돌 활성화",
+            "zh-CN": "启用与物体的碰撞"
+          }
+        },
+        {
+          "name": "Spawn From Top",
+          "type": "bool",
+          "label": "Spawn From Top",
+          "labels": {
+            "ja": "上部から生成",
+            "zh-TW": "從頂部生成",
+            "ko": "상단에서 생성",
+            "zh-CN": "从顶部生成"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Particles spawn from the top or within the spawn area",
+          "descriptions": {
+            "ja": "パーティクルが上部または生成エリア内から生成される",
+            "zh-TW": "粒子從頂部或生成區域生成",
+            "ko": "입자가 상단 또는 생성 영역 내에서 생성됩니다.",
+            "zh-CN": "粒子从顶部或生成区域生成"
+          }
+        },
+        {
+          "name": "Height",
+          "type": "float",
+          "label": "Height",
+          "labels": {
+            "ja": "高さ",
+            "zh-TW": "高度",
+            "ko": "높이",
+            "zh-CN": "高度"
+          },
+          "default": 4,
+          "min": 1,
+          "max": 8,
+          "options": null,
+          "description": "Height of the spawn area",
+          "descriptions": {
+            "ja": "生成エリアの高さ",
+            "zh-TW": "生成區域的高度",
+            "ko": "생성 영역의 높이",
+            "zh-CN": "生成区域高度"
+          }
+        },
+        {
+          "name": "Stay On Ground",
+          "type": "float",
+          "label": "Stay On Ground",
+          "labels": {
+            "ja": "地面に留まる",
+            "zh-TW": "保持在地面",
+            "ko": "지면에 머무름",
+            "zh-CN": "留在地面"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "How long does particle stay after falling on to the ground. Set to 0 and they will disappear immediately",
+          "descriptions": {
+            "ja": "地面に落下した後、パーティクルがどれくらい留まるか。0に設定すると即座に消滅します。",
+            "zh-TW": "粒子掉到地面後會停留多長時間。設定為 0，它們會立即消失。",
+            "ko": "입자가 지면에 떨어진 후 얼마나 오래 머무르나요? 0으로 설정하면 즉시 사라집니다.",
+            "zh-CN": "粒子落在地面后停留多久。设置为 0 时，它们会立即消失。"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rain Sound Effect",
+      "type": "float",
+      "label": "Rain Sound Effect",
+      "labels": {
+        "ja": "雨のSE",
+        "zh-TW": "雨水音效",
+        "ko": "비 음향 효과",
+        "zh-CN": "雨声效果"
+      },
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Rain Shader",
+      "type": "group",
+      "label": "Rain Shader",
+      "labels": {
+        "ja": "雨シェーダー",
+        "zh-TW": "雨水著色器",
+        "ko": "비 셰이더",
+        "zh-CN": "雨天着色器"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Intensity",
+          "type": "float",
+          "label": "Intensity",
+          "labels": {
+            "ja": "強度",
+            "zh-TW": "強度",
+            "ko": "강도",
+            "zh-CN": "强度"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Droplet Duration",
+          "type": "float",
+          "label": "Droplet Duration",
+          "labels": {
+            "ja": "飛沫持続時間",
+            "zh-TW": "液滴持續時間",
+            "ko": "물방울 지속 시간",
+            "zh-CN": "飞滴持续时间"
+          },
+          "default": 5,
+          "min": 0,
+          "max": 20,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Droplet Size",
+          "type": "float",
+          "label": "Droplet Size",
+          "labels": {
+            "ja": "飛沫サイズ",
+            "zh-TW": "液滴尺寸",
+            "ko": "물방울 크기",
+            "zh-CN": "液滴大小"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Droplet Density",
+          "type": "float",
+          "label": "Droplet Density",
+          "labels": {
+            "ja": "飛沫密度",
+            "zh-TW": "液滴密度",
+            "ko": "물방울 밀도",
+            "zh-CN": "飞滴密度"
+          },
+          "default": 1,
+          "min": -2,
+          "max": 3,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Bump",
+          "type": "float",
+          "label": "Bump",
+          "labels": {
+            "ja": "バンプ",
+            "zh-TW": "凹凸",
+            "ko": "범프",
+            "zh-CN": "凹凸贴图"
+          },
+          "default": 0.35,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Wetness",
+          "type": "float",
+          "label": "Wetness",
+          "labels": {
+            "ja": "濡れ度",
+            "zh-TW": "濕度",
+            "ko": "습윤도",
+            "zh-CN": "潮湿度"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    }
+  ]
+}

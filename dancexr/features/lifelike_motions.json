@@ -32,7 +32,7 @@
       "options": null,
       "description": "Enable eye contact, look at and turn head towards camera or other models when they are in visual range",
       "descriptions": {
-        "ja": "視線範囲内のカメラまたは他のモデルにアイコンタクトし、頭を向けさせることを有効にする",
+        "ja": "視認範囲内のカメラや他のモデルに対して、アイコンタクトや首振りを行うかを設定します",
         "zh-TW": "在可視範圍內，開啟眼神交流、注視並朝向攝影機或其他模型轉動頭部",
         "ko": "시야 범위 내의 카메라나 다른 모델을 바라보고 고개를 돌려 눈맞춤을 활성화",
         "zh-CN": "在视觉范围内，启用眼神交流，看向并转头朝向相机或其他模型"
@@ -54,7 +54,7 @@
       "options": null,
       "description": "Constantly looking at the closest target in range.",
       "descriptions": {
-        "ja": "範囲内の最も近いターゲットを常に凝視する。",
+        "ja": "範囲内の最も近いターゲットを常に見つめ続けます。",
         "zh-TW": "始終注視範圍內最近的目標。",
         "ko": "범위 내에서 가장 가까운 대상을 지속적으로 응시합니다.",
         "zh-CN": "持续看向范围内最近的目标"
@@ -65,7 +65,7 @@
       "type": "float",
       "label": "Look At Camera",
       "labels": {
-        "ja": "カメラを見る",
+        "ja": "カメラを見つめる",
         "zh-TW": "注視攝影機",
         "ko": "카메라 응시",
         "zh-CN": "看向相机"
@@ -76,7 +76,7 @@
       "options": null,
       "description": "Priority of cameras as gaze target",
       "descriptions": {
-        "ja": "視線ターゲットとしてのカメラの優先度",
+        "ja": "視線のターゲットとしてのカメラの優先度",
         "zh-TW": "攝影機作為注視目標的優先級",
         "ko": "시선 대상으로서 카메라의 우선순위",
         "zh-CN": "相机作为注视目标的优先级"
@@ -87,7 +87,7 @@
       "type": "float",
       "label": "Look At Peers",
       "labels": {
-        "ja": "他のキャラクターを見る",
+        "ja": "他のモデルを見つめる",
         "zh-TW": "注視同伴",
         "ko": "동료 응시",
         "zh-CN": "看向同伴"
@@ -98,7 +98,7 @@
       "options": null,
       "description": "Priority of other models as gaze target",
       "descriptions": {
-        "ja": "視線ターゲットとしての他のモデルの優先度",
+        "ja": "視線のターゲットとしての他のモデルの優先度",
         "zh-TW": "其他模型作為注視目標的優先級",
         "ko": "시선 대상으로서 다른 모델의 우선순위",
         "zh-CN": "其他模型作为注视目标的优先级"
@@ -109,7 +109,7 @@
       "type": "float",
       "label": "Look At Body",
       "labels": {
-        "ja": "体を見る",
+        "ja": "体を見つめる",
         "zh-TW": "注視身體",
         "ko": "신체 응시",
         "zh-CN": "看向身体"
@@ -120,7 +120,7 @@
       "options": null,
       "description": "Priority of certain body parts as gaze target",
       "descriptions": {
-        "ja": "視線ターゲットとしての特定の体の部位の優先度",
+        "ja": "視線のターゲットとしての特定の体の部位の優先度",
         "zh-TW": "身體特定部位作為注視目標的優先級",
         "ko": "시선 대상으로서 특정 신체 부위의 우선순위",
         "zh-CN": "特定身体部位作为注视目标的优先级"
@@ -142,7 +142,7 @@
       "options": null,
       "description": "Angle of visual range, only objects within this angle can be gaze target",
       "descriptions": {
-        "ja": "視界の角度。この角度内にあるオブジェクトのみが視線ターゲットとなり得る。",
+        "ja": "視認範囲の角度。この角度内のオブジェクトのみが視線のターゲットになります",
         "zh-TW": "可視範圍的角度，只有此角度內的物體才能成為注視目標",
         "ko": "시야 범위 각도. 이 각도 내에 있는 객체만 응시 대상이 될 수 있습니다.",
         "zh-CN": "视觉范围角度，只有在此角度内的对象才能成为注视目标"
@@ -153,7 +153,7 @@
       "type": "float",
       "label": "Eye Contact Head Turn",
       "labels": {
-        "ja": "アイコンタクト時の頭の向き",
+        "ja": "アイコンタクト時の首の動き",
         "zh-TW": "眼神交流和頭部轉動",
         "ko": "눈맞춤 시 머리 회전",
         "zh-CN": "眼神交流头部转向"
@@ -164,7 +164,7 @@
       "options": null,
       "description": "Ratio of head turn when looking at target",
       "descriptions": {
-        "ja": "ターゲットを見る際の頭の向きの比率",
+        "ja": "ターゲットを見る際の首振り比率",
         "zh-TW": "注視目標時頭部轉動的比率",
         "ko": "대상 응시 시 머리 회전 비율",
         "zh-CN": "查看目标时的头部转动比例"
@@ -175,7 +175,7 @@
       "type": "bool",
       "label": "Cartoon Eyes",
       "labels": {
-        "ja": "カートゥーン目",
+        "ja": "アニメ調の目",
         "zh-TW": "卡通眼睛",
         "ko": "만화 눈",
         "zh-CN": "卡通眼睛"
@@ -186,7 +186,7 @@
       "options": null,
       "description": "Reduce eye rotation, useful for models with big cartoon eyes",
       "descriptions": {
-        "ja": "目を回転させるのを減らす。大きなカートゥーン目を持つモデルに有用。",
+        "ja": "目を回転させるのを減らします。大きなアニメ調の目を持つモデルに便利です",
         "zh-TW": "減少眼部旋轉，對於有大卡通眼睛的模型很有用",
         "ko": "눈 회전 감소. 큰 만화 눈 모델에 유용합니다.",
         "zh-CN": "减少眼部旋转，适用于具有大卡通眼睛的模型"
@@ -197,7 +197,7 @@
       "type": "float",
       "label": "Cartoon Eyes Limit",
       "labels": {
-        "ja": "カートゥーン目の制限",
+        "ja": "アニメ調の目の制限",
         "zh-TW": "卡通眼睛限制",
         "ko": "만화 눈 제한",
         "zh-CN": "卡通眼睛限制"
@@ -208,7 +208,7 @@
       "options": null,
       "description": "How much rotation reduction in cartoon eyes mode",
       "descriptions": {
-        "ja": "カートゥーン目モードでの回転の減少量",
+        "ja": "アニメ調の目モードでの回転減少度",
         "zh-TW": "卡通眼睛模式下的旋轉減少程度",
         "ko": "만화 눈 모드에서 회전 감소 정도",
         "zh-CN": "卡通眼睛模式下的旋转减少量"
@@ -219,7 +219,7 @@
       "type": "float",
       "label": "Smile Mouth",
       "labels": {
-        "ja": "笑う口元",
+        "ja": "笑顔の口",
         "zh-TW": "微笑嘴型",
         "ko": "웃는 입",
         "zh-CN": "微笑嘴部"
@@ -241,7 +241,7 @@
       "type": "float",
       "label": "Smile Eyebrow",
       "labels": {
-        "ja": "笑う眉毛",
+        "ja": "笑顔の眉毛",
         "zh-TW": "微笑眉毛",
         "ko": "웃는 눈썹",
         "zh-CN": "微笑眉毛"
@@ -274,7 +274,7 @@
       "options": null,
       "description": "Automatically blink eyes at random interval",
       "descriptions": {
-        "ja": "ランダムな間隔で自動的にまばたきを行う",
+        "ja": "ランダムな間隔で自動的にまばたきを行います",
         "zh-TW": "在隨機間隔自動眨眼",
         "ko": "무작위 간격으로 자동으로 눈 깜빡임",
         "zh-CN": "随机间隔自动眨眼"
@@ -296,7 +296,7 @@
       "options": null,
       "description": "Duration of each blink",
       "descriptions": {
-        "ja": "1回あたりのまばたきの持続時間",
+        "ja": "一度のまばたきの持続時間",
         "zh-TW": "每次眨眼持續時間",
         "ko": "각 깜빡임의 지속 시간",
         "zh-CN": "每次眨眼持续时间"
@@ -307,7 +307,7 @@
       "type": "group",
       "label": "Shape Morph Eye Control",
       "labels": {
-        "ja": "シェイプモーフィングによる目の制御",
+        "ja": "形状変化（モーフィング）による目の制御",
         "zh-TW": "形狀變形眼部控制",
         "ko": "형태 변형 눈 제어",
         "zh-CN": "形状变形眼睛控制"
@@ -562,7 +562,7 @@
       "options": null,
       "description": "Breathing motion",
       "descriptions": {
-        "ja": "呼吸モーション",
+        "ja": "呼吸の動き",
         "zh-TW": "呼吸動畫",
         "ko": "호흡 동작",
         "zh-CN": "呼吸运动"
@@ -573,7 +573,7 @@
       "type": "float",
       "label": "Breath Rate",
       "labels": {
-        "ja": "呼吸頻度",
+        "ja": "呼吸速度",
         "zh-TW": "呼吸頻率",
         "ko": "호흡 속도",
         "zh-CN": "呼吸频率"
@@ -595,7 +595,7 @@
       "type": "bool",
       "label": "Micro Move",
       "labels": {
-        "ja": "マイクロムーブメント",
+        "ja": "微細な動き",
         "zh-TW": "微動",
         "ko": "미세 움직임",
         "zh-CN": "微动"
@@ -606,7 +606,7 @@
       "options": null,
       "description": "Add micro movements",
       "descriptions": {
-        "ja": "マイクロムーブメントの追加",
+        "ja": "微細な動きを追加",
         "zh-TW": "添加微動",
         "ko": "미세 움직임 추가",
         "zh-CN": "添加微动"
@@ -617,7 +617,7 @@
       "type": "float",
       "label": "Micro Move Extent",
       "labels": {
-        "ja": "マイクロムーブメント範囲",
+        "ja": "微細な動きの範囲",
         "zh-TW": "微動範圍",
         "ko": "미세 움직임 범위",
         "zh-CN": "微动幅度"
@@ -639,7 +639,7 @@
       "type": "float",
       "label": "Micro Move Cycle",
       "labels": {
-        "ja": "マイクロムーブメントサイクル",
+        "ja": "微細な動きのサイクル",
         "zh-TW": "微動週期",
         "ko": "미세 움직임 주기",
         "zh-CN": "微动循环"

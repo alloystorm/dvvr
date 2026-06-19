@@ -15,10 +15,6 @@ feature_sections:
   - title: New and Noteworthy
     light: true
     tiles:
-      - title: Interactive Posing
-        link: /dancexr/features/posing
-        badge: "2026.6 | Pose Your Character By Hand"
-        badge_type: new
       - title: Discovery App
         link: /dancexr/features/discovery
         image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
@@ -32,7 +28,7 @@ feature_sections:
       - title: AI Powered Voice Chat
         link: /dancexr/features/ai_chat
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
-        badge: 2026.6 · PRO
+        badge: PRO
         badge_type: pro
       - title: "Offline Render & Recording"
         link: /dancexr/creator
@@ -50,7 +46,7 @@ feature_sections:
       - title: AI Powered Voice Chat
         link: /dancexr/features/ai_chat
         image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
-        badge: 2026.6 · PRO
+        badge: PRO
         badge_type: pro
   - title: Model Support
     light: true
@@ -222,8 +218,6 @@ feature_sections:
           - title: Simulation
             link: /dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
-            badge: 2026.6
-            badge_type: new
           - title: Cloth Simulation
             link: /dancexr/features/cloth_simulation
             image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
@@ -310,10 +304,6 @@ feature_sections:
             badge_type: pro
       - title: Character Behavior
         tiles:
-          - title: Interactive Posing
-            link: /dancexr/features/posing
-            badge: 2026.6
-            badge_type: new
           - title: Blink, Breathing and Eye Contact
             link: /dancexr/features/eyecontact
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
@@ -354,7 +344,7 @@ feature_sections:
           - title: Motion Settings
             link: /dancexr/features/motion_settings
             image: /images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp
-            badge: 2026.6
+            badge: 2026.2
             badge_type: new
           - title: Playback Options
             link: /dancexr/features/playback_options
@@ -404,7 +394,7 @@ feature_sections:
             image: /images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp
       - title: "Environment & Effects"
         tiles:
-          - title: Weather Particles
+          - title: Particle Effect
             link: /dancexr/features/weather_particles
             image: /images/slideshows/environment/9173d0f946d256d4c711cbe876fe30ad139d1a7d.jpg
             badge: PRO
@@ -537,6 +527,14 @@ feature_sections:
           - title: Application Settings
             link: /dancexr/features/application_settings
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
+          - title: Input Settings
+            link: /dancexr/features/input_settings
+            image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
+          - title: Recording Settings
+            link: /dancexr/features/recording_settings
+            image: /images/slideshows/render/14b024471bc0d21580d976ea28e2fc5f74f1f623.jpg
+            badge: PRO
+            badge_type: pro
       - title: "Graphics & Display"
         tiles:
           - title: VR Settings

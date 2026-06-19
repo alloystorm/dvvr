@@ -21,7 +21,7 @@
       "type": "bool",
       "label": "Auto-Load Actors",
       "labels": {
-        "ja": "アクター自動ロード",
+        "ja": "自動ロードの俳優",
         "zh-TW": "自動加載角色",
         "ko": "자동 액터 로드",
         "zh-CN": "自动加载角色"
@@ -32,7 +32,7 @@
       "options": null,
       "description": "Automatically load actors to match the number of motion tracks and assign different motion for each actor",
       "descriptions": {
-        "ja": "モーショントラックの数に合わせてアクターを自動的にロードし、各アクターに異なるモーションを割り当てます。",
+        "ja": "モーションのトラック数に合わせて俳優を自動的にロードし、各俳優に異なる動きを割り当てます。",
         "zh-TW": "自動加載角色以匹配動作軌道的數量，並為每個角色分配不同的動作",
         "ko": "모션 트랙 수에 맞춰 자동으로 액터를 로드하고 각 액터에 다른 모션을 할당합니다.",
         "zh-CN": "自动加载角色以匹配动作轨道数量，并为每个角色分配不同的动作。"
@@ -43,7 +43,7 @@
       "type": "bool",
       "label": "Auto-Assign Camera",
       "labels": {
-        "ja": "カメラ自動割り当て",
+        "ja": "自動カメラ割り当て",
         "zh-TW": "自動分配攝影機",
         "ko": "카메라 자동 할당",
         "zh-CN": "自动分配摄影机"
@@ -54,7 +54,7 @@
       "options": null,
       "description": "Automatically assign camera motion if available",
       "descriptions": {
-        "ja": "利用可能な場合、カメラモーションを自動的に割り当てます。",
+        "ja": "利用可能な場合、カメラの動きを自動的に割り当てます。",
         "zh-TW": "如果可用，自動分配攝影機動作",
         "ko": "사용 가능한 경우 카메라 모션을 자동으로 할당합니다.",
         "zh-CN": "如果可用，自动分配摄影机动作。"
@@ -109,7 +109,7 @@
       "type": "bool",
       "label": "Smooth Audio Time",
       "labels": {
-        "ja": "オーディオ時間のスムージング",
+        "ja": "音声時間の平滑化",
         "zh-TW": "平滑音訊時間",
         "ko": "오디오 시간 평활화",
         "zh-CN": "平滑音频时间"
@@ -120,7 +120,7 @@
       "options": null,
       "description": "Interpolate motion time between audio updates for smoother playback. Might introduce slight delay.",
       "descriptions": {
-        "ja": "オーディオ更新間のモーション時間を補間し、よりスムーズな再生を実現します。わずかな遅延が生じる可能性があります。",
+        "ja": "よりスムーズな再生のために、音声アップデートの間で動きの時間を補間します。わずかな遅延が発生する場合があります。",
         "zh-TW": "在音訊更新之間插值動作時間，以實現更流暢的播放。可能引入輕微延遲。",
         "ko": "더 부드러운 재생을 위해 오디오 업데이트 간에 모션 시간을 보간합니다. 약간의 지연이 발생할 수 있습니다.",
         "zh-CN": "在音频更新之间插值动作时间，以实现更平滑的播放。可能会引入轻微延迟。"
@@ -131,7 +131,7 @@
       "type": "float",
       "label": "Smooth Time Damping",
       "labels": {
-        "ja": "スムーズな時間減衰",
+        "ja": "時間減衰平滑化",
         "zh-TW": "平滑時間阻尼",
         "ko": "시간 감쇠 평활화",
         "zh-CN": "平滑时间阻尼"
@@ -142,7 +142,7 @@
       "options": null,
       "description": "Damping factor for smooth audio time. Higher value means more damping and less overshoot.",
       "descriptions": {
-        "ja": "スムーズなオーディオ時間のための減衰係数。値が高いほど減衰が大きく、オーバーシュートが少なくなります。",
+        "ja": "音声時間の平滑化のための減衰係数。値が高いほど減衰が大きく、オーバーシュートが少なくなります。",
         "zh-TW": "平滑音訊時間的阻尼係數。較高的數值代表更高的阻尼和更少的過衝。",
         "ko": "오디오 시간 평활화를 위한 감쇠 계수입니다. 값이 높을수록 감쇠가 커지고 오버슈트가 적습니다.",
         "zh-CN": "平滑音频时间的阻尼系数。值越高，阻尼越大，超调越小。"
@@ -153,7 +153,7 @@
       "type": "float",
       "label": "Smooth Time Frequency",
       "labels": {
-        "ja": "スムーズな時間周波数",
+        "ja": "時間周波数平滑化",
         "zh-TW": "平滑時間頻率",
         "ko": "시간 평활화 주파수",
         "zh-CN": "平滑时间频率"
@@ -164,7 +164,7 @@
       "options": null,
       "description": "Frequency for smooth audio time. Higher value means faster response to changes but might be less stable.",
       "descriptions": {
-        "ja": "スムーズなオーディオ時間のための周波数。値が高いほど変化への応答は速くなりますが、不安定になる可能性があります。",
+        "ja": "音声時間の周波数。値が高いほど変化への応答が速くなりますが、安定しなくなる場合があります。",
         "zh-TW": "平滑音訊時間的頻率。較高的數值表示對變化的響應更快，但可能不穩定。",
         "ko": "오디오 시간 평활화 주파수입니다. 값이 높을수록 변화에 더 빠르게 반응하지만, 안정성이 떨어질 수 있습니다.",
         "zh-CN": "平滑音频时间的频率。值越高，对变化的响应越快，但稳定性可能较差。"
@@ -186,7 +186,7 @@
       "options": null,
       "description": "Change speed of audio. This also affects motion and physics speed",
       "descriptions": {
-        "ja": "オーディオの速度を変更します。これはモーションと物理速度にも影響します。",
+        "ja": "音声の速度を変更します。これは動きや物理速度にも影響します。",
         "zh-TW": "改變音訊速度。這也會影響動作和物理速度。",
         "ko": "오디오 속도를 변경합니다. 이는 모션 및 물리 속도에도 영향을 미칩니다.",
         "zh-CN": "改变音频速度。这也影响动作和物理速度。"
@@ -208,7 +208,7 @@
       "options": null,
       "description": "Adjust audio to match the original pitch after changing speed",
       "descriptions": {
-        "ja": "速度変更後、オリジナルのピッチに合うようにオーディオを調整します。",
+        "ja": "速度を変更した後、元のピッチに合わせるように音声を調整します。",
         "zh-TW": "改變速度後，調整音訊以匹配原始音高。",
         "ko": "속도 변경 후 원래 피치에 맞게 오디오를 조정합니다.",
         "zh-CN": "改变速度后，调整音频以匹配原始音高。"
@@ -219,7 +219,7 @@
       "type": "bool",
       "label": "Timeline Fine Adjust",
       "labels": {
-        "ja": "タイムライン微調整",
+        "ja": "タイムラインの微調整",
         "zh-TW": "時間軸精細調整",
         "ko": "타임라인 세밀 조정",
         "zh-CN": "时间轴精细调整"
@@ -230,7 +230,7 @@
       "options": null,
       "description": "Long press on the timeline to fine adjust playback time.",
       "descriptions": {
-        "ja": "タイムラインを長押しすると、再生時間を微調整できます。",
+        "ja": "タイムラインを長押しして、再生時間を微調整します。",
         "zh-TW": "長按時間軸以精細調整播放時間。",
         "ko": "타임라인을 길게 눌러 재생 시간을 세밀하게 조정합니다.",
         "zh-CN": "长按时间轴以精细调整播放时间。"
@@ -241,7 +241,7 @@
       "type": "group",
       "label": "Default Timing",
       "labels": {
-        "ja": "デフォルトタイミング",
+        "ja": "デフォルトのタイミング",
         "zh-TW": "預設時機",
         "ko": "기본 타이밍",
         "zh-CN": "默认时间"
@@ -375,7 +375,7 @@
       "type": "group",
       "label": "Audio Analysis",
       "labels": {
-        "ja": "オーディオ分析",
+        "ja": "音声分析",
         "zh-TW": "音訊分析",
         "ko": "오디오 분석",
         "zh-CN": "音频分析"
@@ -397,7 +397,7 @@
           "type": "int",
           "label": "Processing Rate",
           "labels": {
-            "ja": "処理レート",
+            "ja": "処理速度",
             "zh-TW": "處理速率",
             "ko": "처리 속도",
             "zh-CN": "处理率"
@@ -408,7 +408,7 @@
           "options": null,
           "description": "Rate of audio processing. Since the system only updates audio data at a fixed rate, usually no need to go above 45 FPS.",
           "descriptions": {
-            "ja": "オーディオ処理のレート。システムは固定レートでのみオーディオデータを更新するため、通常は45 FPSを超える必要はありません。",
+            "ja": "音声処理のレート。システムは固定レートでのみ音声データを更新するため、通常45 FPSを超える必要はありません。",
             "zh-TW": "音訊處理速率。由於系統只以固定速率更新音訊資料，通常不需要超過 45 FPS。",
             "ko": "오디오 처리 속도입니다. 시스템이 고정된 비율로만 오디오 데이터를 업데이트하기 때문에 일반적으로 45 FPS를 초과할 필요는 없습니다.",
             "zh-CN": "音频处理速率。由于系统只以固定速率更新音频数据，通常不需要超过 45 FPS。"
@@ -430,7 +430,7 @@
           "options": null,
           "description": "Select the range of bands to calculate loudness level",
           "descriptions": {
-            "ja": "ラウドネスレベルを計算するバンド範囲を選択します。",
+            "ja": "ラウドネスレベルを計算するバンドの範囲を選択します。",
             "zh-TW": "選擇計算聲大度級別的頻帶範圍",
             "ko": "라우드니스 레벨 계산을 위한 대역 범위를 선택합니다.",
             "zh-CN": "选择用于计算响度水平的频段范围。"
@@ -441,7 +441,7 @@
           "type": "float",
           "label": "Audio Level Rise",
           "labels": {
-            "ja": "オーディオレベル上昇",
+            "ja": "音声レベルの上昇",
             "zh-TW": "音訊級別上升",
             "ko": "오디오 레벨 상승",
             "zh-CN": "音频级别上升"
@@ -463,7 +463,7 @@
           "type": "float",
           "label": "Audio Level Fall",
           "labels": {
-            "ja": "オーディオレベル下降",
+            "ja": "音声レベルの下降",
             "zh-TW": "音訊級別下降",
             "ko": "오디오 레벨 하강",
             "zh-CN": "音频级别下降"
@@ -485,7 +485,7 @@
           "type": "float",
           "label": "Audio Level Damping",
           "labels": {
-            "ja": "オーディオレベル減衰",
+            "ja": "音声レベルの減衰",
             "zh-TW": "音訊級別阻尼",
             "ko": "오디오 레벨 감쇠",
             "zh-CN": "音频级别阻尼"
@@ -518,7 +518,7 @@
           "options": null,
           "description": "Fade in and out audio level at the beginning and end of the audio.",
           "descriptions": {
-            "ja": "オーディオの開始時と終了時にオーディオレベルをフェードイン/アウトします。",
+            "ja": "音声の開始時と終了時に音声をフェードイン/アウトさせます。",
             "zh-TW": "在音訊開始和結束處淡入和淡出音訊級別。",
             "ko": "오디오 시작점과 끝점에서 오디오 레벨을 페이드 인/아웃합니다.",
             "zh-CN": "在音频开始和结束时淡入和淡出音频级别。"
@@ -529,7 +529,7 @@
           "type": "float",
           "label": "Spectrum Balance",
           "labels": {
-            "ja": "スペクトルバランス",
+            "ja": "スペクトラムバランス",
             "zh-TW": "頻譜平衡",
             "ko": "스펙트럼 밸런스",
             "zh-CN": "频谱平衡"
@@ -540,7 +540,7 @@
           "options": null,
           "description": "Adjust balance between low and high frequency bands when calculating audio level.",
           "descriptions": {
-            "ja": "オーディオレベルを計算する際に、低周波数帯と高周波数帯のバランスを調整します。",
+            "ja": "音声レベルを計算する際に、低周波数帯と高周波数帯のバランスを調整します。",
             "zh-TW": "在計算音訊級別時，調整低頻和高頻頻帶之間的平衡。",
             "ko": "오디오 레벨을 계산할 때 저음과 고음 대역 간의 균형을 조정합니다.",
             "zh-CN": "计算音频级别时，调整低频和高频频段之间的平衡。"
@@ -575,7 +575,7 @@
           "type": "float",
           "label": "Lip Sync Smoothing",
           "labels": {
-            "ja": "リップシンクスムージング",
+            "ja": "リップシンクの平滑化",
             "zh-TW": "口型同步平滑",
             "ko": "립 싱크 평활화",
             "zh-CN": "唇形同步平滑"
@@ -632,7 +632,7 @@
           "options": null,
           "description": "Blend the 3D effect of the spatial audio",
           "descriptions": {
-            "ja": "空間オーディオの3D効果をブレンドします。",
+            "ja": "空間音声の3D効果をブレンドします。",
             "zh-TW": "混合空間音訊的 3D 效果",
             "ko": "공간 오디오의 3D 효과를 블렌딩합니다.",
             "zh-CN": "混合空间音频的 3D 效果"
@@ -643,7 +643,7 @@
           "type": "bool",
           "label": "Follow Actor",
           "labels": {
-            "ja": "アクターを追跡",
+            "ja": "追従アクター",
             "zh-TW": "跟隨角色",
             "ko": "배우 추적",
             "zh-CN": "跟随目标表演者"
@@ -665,7 +665,7 @@
           "type": "options",
           "label": "Select Actor",
           "labels": {
-            "ja": "アクター選択",
+            "ja": "アクターの選択",
             "zh-TW": "選擇角色",
             "ko": "액터 선택",
             "zh-CN": "选择角色"

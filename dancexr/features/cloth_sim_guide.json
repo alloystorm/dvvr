@@ -21,7 +21,7 @@
       "type": "group",
       "label": "Cloth 1",
       "labels": {
-        "ja": "クロス1",
+        "ja": "布1",
         "zh-TW": "布料 1",
         "ko": "천 1",
         "zh-CN": "布料 1"
@@ -65,7 +65,7 @@
           "type": "int",
           "label": "String Connection",
           "labels": {
-            "ja": "ストリング接続",
+            "ja": "文字列接続",
             "zh-TW": "線串連接",
             "ko": "줄 연결",
             "zh-CN": "线连接"
@@ -98,7 +98,7 @@
           "options": null,
           "description": "Radius of inner circle in meters",
           "descriptions": {
-            "ja": "内円の半径（メートル）",
+            "ja": "メートル単位の内円の半径",
             "zh-TW": "內部圓圈半徑（單位：米）",
             "ko": "내부 원의 반지름 (미터)",
             "zh-CN": "内圆半径（米）"
@@ -120,7 +120,7 @@
           "options": null,
           "description": "Angle to expand the mesh along the length. 0 = tube, 90 = flat circle.",
           "descriptions": {
-            "ja": "長さに沿ってメッシュを展開する角度。0 = チューブ、90 = 平面円。",
+            "ja": "メッシュを長さ方向に展開する角度。0＝チューブ、90＝平らな円。",
             "zh-TW": "沿著長度展開網格的角度。0 = 管狀，90 = 平面圓。",
             "ko": "길이 방향으로 메쉬를 확장하는 각도. 0 = 튜브, 90 = 평평한 원.",
             "zh-CN": "沿长度方向扩展网格的角度。0 = 管状，90 = 平面圆。"
@@ -131,7 +131,7 @@
           "type": "float",
           "label": "Arc",
           "labels": {
-            "ja": "円弧",
+            "ja": "アーク",
             "zh-TW": "弧度",
             "ko": "아크",
             "zh-CN": "弧度"
@@ -142,7 +142,7 @@
           "options": null,
           "description": "Arc outwards or inwards along the length. Positive = balloon shape, Negative = bell shape",
           "descriptions": {
-            "ja": "長さに沿った外側または内側の円弧。正の値 = 風船型、負の値 = 鐘型",
+            "ja": "長さ方向に外側または内側にアークを出す。正の値＝風船型、負の値＝ベル型",
             "zh-TW": "沿著長度向外或向內彎曲的弧度。正值 = 氣球形，負值 = 鐘形。",
             "ko": "길이 방향으로 바깥쪽 또는 안쪽으로 아크. 양수 = 풍선 모양, 음수 = 종 모양",
             "zh-CN": "沿长度方向向外或向内弯曲的弧度。正值 = 气球形，负值 = 铃铛形"
@@ -164,7 +164,7 @@
           "options": null,
           "description": "Length in meters",
           "descriptions": {
-            "ja": "長さ（メートル）",
+            "ja": "メートル単位の長さ",
             "zh-TW": "長度（單位：米）",
             "ko": "길이 (미터)",
             "zh-CN": "长度（米）"
@@ -175,7 +175,7 @@
           "type": "float",
           "label": "Arm Holes",
           "labels": {
-            "ja": "腕穴",
+            "ja": "アームホール",
             "zh-TW": "手臂孔",
             "ko": "암홀",
             "zh-CN": "腋窝开口"
@@ -186,7 +186,7 @@
           "options": null,
           "description": "Size of arm holes in relation to circumference",
           "descriptions": {
-            "ja": "円周に対する腕穴のサイズ",
+            "ja": "円周に対するアームホールのサイズ",
             "zh-TW": "手臂孔與周長的比例尺寸",
             "ko": "둘레에 대한 암홀 크기",
             "zh-CN": "腋窝开口相对于周长的尺寸"
@@ -197,7 +197,7 @@
           "type": "float",
           "label": "Arm Hole Height",
           "labels": {
-            "ja": "腕穴の高さ",
+            "ja": "アームホールの高さ",
             "zh-TW": "手臂孔高度",
             "ko": "암홀 높이",
             "zh-CN": "腋窝开口高度"
@@ -208,7 +208,7 @@
           "options": null,
           "description": "Height of arm holes in relation to total length",
           "descriptions": {
-            "ja": "全長に対する腕穴の高さ",
+            "ja": "全長に対するアームホールの高さ",
             "zh-TW": "手臂孔與總長度的比例高度",
             "ko": "총 길이에 대한 암홀 높이",
             "zh-CN": "腋窝开口相对于总长度的高度"
@@ -219,7 +219,7 @@
           "type": "float",
           "label": "Back Length",
           "labels": {
-            "ja": "背面の長さ",
+            "ja": "背面長さ",
             "zh-TW": "背部長度",
             "ko": "등 길이",
             "zh-CN": "背部长度"
@@ -241,7 +241,7 @@
           "type": "float",
           "label": "Side Length",
           "labels": {
-            "ja": "側面の長さ",
+            "ja": "側面長さ",
             "zh-TW": "側面長度",
             "ko": "옆면 길이",
             "zh-CN": "侧面长度"
@@ -318,7 +318,7 @@
           "options": null,
           "description": "Compliance of distance constraints between particles",
           "descriptions": {
-            "ja": "粒子間の距離制約の適合度",
+            "ja": "粒子間の距離制約の適合性",
             "zh-TW": "粒子間距離約束的符合度",
             "ko": "입자 간 거리 제약 준수율",
             "zh-CN": "粒子间距离约束的遵从度"
@@ -351,7 +351,7 @@
           "type": "float",
           "label": "Damping",
           "labels": {
-            "ja": "ダンピング",
+            "ja": "減衰",
             "zh-TW": "阻尼",
             "ko": "감쇠",
             "zh-CN": "阻尼"
@@ -685,7 +685,7 @@
                   "type": "float",
                   "label": "Attraction",
                   "labels": {
-                    "ja": "引力",
+                    "ja": "吸引力",
                     "zh-TW": "吸引力",
                     "ko": "인력",
                     "zh-CN": "吸引力"
@@ -955,7 +955,7 @@
                   "type": "float",
                   "label": "Attraction",
                   "labels": {
-                    "ja": "引力",
+                    "ja": "吸引力",
                     "zh-TW": "吸引力",
                     "ko": "인력",
                     "zh-CN": "吸引力"
@@ -977,7 +977,7 @@
                   "type": "bool",
                   "label": "Swap Sides",
                   "labels": {
-                    "ja": "左右反転",
+                    "ja": "左右入れ替え",
                     "zh-TW": "交換側面",
                     "ko": "측면 교체",
                     "zh-CN": "交换两侧"
@@ -1036,7 +1036,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -1091,7 +1091,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -1113,7 +1113,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -1124,7 +1124,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -1179,7 +1179,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -1245,7 +1245,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -1280,7 +1280,7 @@
               "options": null,
               "description": "Friction for anchored layers",
               "descriptions": {
-                "ja": "アンカーされたレイヤーの摩擦",
+                "ja": "固定レイヤーの摩擦",
                 "zh-TW": "固定層的摩擦力",
                 "ko": "앵커된 레이어 마찰",
                 "zh-CN": "固定层摩擦力"
@@ -1291,7 +1291,7 @@
               "type": "float",
               "label": "Angular Spring",
               "labels": {
-                "ja": "角度スプリング",
+                "ja": "角ばね",
                 "zh-TW": "角向彈簧",
                 "ko": "각도 스프링",
                 "zh-CN": "角形弹簧"
@@ -1302,7 +1302,7 @@
               "options": null,
               "description": "Default angular spring stiffness for joints without rotation springs. Higher values pull joints back toward rest pose more strongly. 0 = disabled.",
               "descriptions": {
-                "ja": "回転スプリングがないジョイントのデフォルトの角度スプリングの剛性。値が大きいほど、ジョイントは安静ポーズに戻ろうと強く引きます。0=無効。",
+                "ja": "回転バネのないジョイントのデフォルトの角ばねの剛性。高い値ほどジョイントをレストポーズに強く戻します。0=無効。",
                 "zh-TW": "缺乏旋轉彈簧的關節的預設角向彈簧剛度。數值越高，關節恢復到靜止姿勢的力量越大。0 = 停用。",
                 "ko": "회전 스프링이 없는 관절의 기본 각도 스프링 강성. 값이 높을수록 관절을 휴식 자세로 더 강하게 끌어당깁니다. 0 = 비활성화.",
                 "zh-CN": "没有旋转弹簧的关节的默认角形弹簧刚度。较高值会更强烈地将关节拉回静止姿势。0 = 禁用。"
@@ -1313,7 +1313,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -1379,7 +1379,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -1401,7 +1401,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -1689,7 +1689,7 @@
               "type": "bool",
               "label": "Rest Distance Check",
               "labels": {
-                "ja": "静止距離チェック",
+                "ja": "レスト距離チェック",
                 "zh-TW": "靜止距離檢查",
                 "ko": "휴식 거리 확인",
                 "zh-CN": "静止距离检查"
@@ -1700,10 +1700,32 @@
               "options": null,
               "description": "Use rest distance for self collision between rigid bodies in the same block. Helps when rigid body shapes are not configured perfectly.",
               "descriptions": {
-                "ja": "同じブロック内の剛体間の自己衝突に静止距離を使用する。剛体の形状が完璧に設定されていない場合に役立つ。",
+                "ja": "同じブロック内の剛体間の自己衝突にレスト距離を使用する。剛体形状が完璧に設定されていない場合に役立ちます。",
                 "zh-TW": "在同一區塊內，針對剛體之間的自我碰撞使用靜止距離。當剛體形狀配置不完美時，這會有幫助。",
                 "ko": "같은 블록 내 강체 간의 자가 충돌에 휴식 거리를 사용합니다. 강체 모양이 완벽하게 설정되지 않았을 때 도움이 됩니다.",
                 "zh-CN": "对同一块体内的刚体自碰撞使用静止距离。当刚体形状未配置完美时很有帮助。"
+              }
+            },
+            {
+              "name": "Use Repulsion (Bounce)",
+              "type": "bool",
+              "label": "Use Repulsion (Bounce)",
+              "labels": {
+                "ja": "(Use Repulsion (Bounce))",
+                "zh-TW": "(Use Repulsion (Bounce))",
+                "ko": "(Use Repulsion (Bounce))",
+                "zh-CN": "(Use Repulsion (Bounce))"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.",
+              "descriptions": {
+                "ja": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
+                "zh-TW": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
+                "ko": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
+                "zh-CN": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)"
               }
             }
           ]
@@ -1814,7 +1836,7 @@
               "options": ["Transparency", "Gloss", "Metallic", "Occlusion", "Detail Mask", "None"],
               "description": "How alpha channel is used in the shader",
               "descriptions": {
-                "ja": "シェーダーでアルファチャンネルがどのように使用されるか",
+                "ja": "シェーダーでアルファチャネルが使用される方法",
                 "zh-TW": "Shader 中 Alpha 通道的用途",
                 "ko": "셰이더에서 알파 채널 사용 방식",
                 "zh-CN": "Alpha 通道在着色器中的使用方式"
@@ -1825,7 +1847,7 @@
               "type": "bool",
               "label": "Double Side",
               "labels": {
-                "ja": "両面描画",
+                "ja": "両面",
                 "zh-TW": "雙面",
                 "ko": "양면",
                 "zh-CN": "双面"
@@ -1847,7 +1869,7 @@
               "type": "float",
               "label": "Dim Back",
               "labels": {
-                "ja": "暗いバック",
+                "ja": "背面減光",
                 "zh-TW": "陰暗背面",
                 "ko": "뒷면 어둡게",
                 "zh-CN": "暗背"
@@ -1869,7 +1891,7 @@
               "type": "float",
               "label": "Cast Shadow",
               "labels": {
-                "ja": "影を投射",
+                "ja": "影をキャスト",
                 "zh-TW": "投射陰影",
                 "ko": "그림자 드리우기",
                 "zh-CN": "投射阴影"
@@ -2001,7 +2023,7 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "アンビエント",
+                "ja": "周囲光",
                 "zh-TW": "環境光",
                 "ko": "주변광",
                 "zh-CN": "环境光"
@@ -2111,7 +2133,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -2177,7 +2199,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -2399,7 +2421,7 @@
                   "type": "float",
                   "label": "Specular",
                   "labels": {
-                    "ja": "スペキュラー",
+                    "ja": "スペキュラ",
                     "zh-TW": "鏡面光",
                     "ko": "스페큘러",
                     "zh-CN": "反射高光"
@@ -2421,7 +2443,7 @@
                   "type": "float",
                   "label": "Soft Specular",
                   "labels": {
-                    "ja": "ソフトスペキュラー",
+                    "ja": "ソフトスペキュラ",
                     "zh-TW": "柔和鏡面光",
                     "ko": "부드러운 스페큘러",
                     "zh-CN": "柔和高光"
@@ -2487,7 +2509,7 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "アンビエント",
+                    "ja": "周囲光",
                     "zh-TW": "環境光",
                     "ko": "주변광",
                     "zh-CN": "环境光"
@@ -2509,7 +2531,7 @@
                   "type": "float",
                   "label": "Shadow Area",
                   "labels": {
-                    "ja": "シャドウエリア",
+                    "ja": "影エリア",
                     "zh-TW": "陰影區域",
                     "ko": "그림자 영역",
                     "zh-CN": "阴影区域"
@@ -2531,7 +2553,7 @@
                   "type": "float",
                   "label": "Shadow",
                   "labels": {
-                    "ja": "シャドウ",
+                    "ja": "影",
                     "zh-TW": "陰影",
                     "ko": "그림자",
                     "zh-CN": "阴影"
@@ -2577,7 +2599,7 @@
               "type": "group",
               "label": "Special Shader",
               "labels": {
-                "ja": "スペシャルシェーダー",
+                "ja": "特殊シェーダー",
                 "zh-TW": "特殊著色器",
                 "ko": "특수 셰이더",
                 "zh-CN": "特殊着色器"
@@ -2622,7 +2644,7 @@
                   "label": "Refraction",
                   "labels": {
                     "ja": "屈折",
-                    "zh-TW": "折射率",
+                    "zh-TW": "折射",
                     "ko": "굴절",
                     "zh-CN": "折射"
                   },
@@ -2669,7 +2691,7 @@
           "type": "group",
           "label": "Audio Visualization",
           "labels": {
-            "ja": "音声可視化",
+            "ja": "オーディオビジュアライゼーション",
             "zh-TW": "音頻視覺化",
             "ko": "오디오 시각화",
             "zh-CN": "音频可视化"
@@ -2735,7 +2757,7 @@
               "type": "float",
               "label": "Shadow",
               "labels": {
-                "ja": "シャドウ",
+                "ja": "影",
                 "zh-TW": "陰影",
                 "ko": "그림자",
                 "zh-CN": "阴影"
@@ -2823,7 +2845,7 @@
               "type": "float",
               "label": "Color Transition",
               "labels": {
-                "ja": "色の遷移",
+                "ja": "色遷移",
                 "zh-TW": "顏色過渡",
                 "ko": "색상 전환",
                 "zh-CN": "颜色过渡"
@@ -2845,7 +2867,7 @@
               "type": "float",
               "label": "Align",
               "labels": {
-                "ja": "アライメント",
+                "ja": "整列",
                 "zh-TW": "對齊",
                 "ko": "정렬",
                 "zh-CN": "对齐"
@@ -2889,7 +2911,7 @@
               "type": "float",
               "label": "Shape Shift",
               "labels": {
-                "ja": "シェイプシフト",
+                "ja": "形状変化",
                 "zh-TW": "形狀變化",
                 "ko": "모양 변화",
                 "zh-CN": "形状变化"
@@ -2955,7 +2977,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -3021,7 +3043,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -3155,7 +3177,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -3221,7 +3243,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -3399,7 +3421,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -3465,7 +3487,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -3654,7 +3676,7 @@
               "options": null,
               "description": "Use real-time automatically detected BPM instead of the set BPM.",
               "descriptions": {
-                "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用します。",
+                "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用する。",
                 "zh-TW": "使用實時自動偵測的BPM，而非設定的BPM。",
                 "ko": "설정된 BPM 대신 실시간으로 자동으로 감지된 BPM을 사용합니다.",
                 "zh-CN": "使用实时自动检测的 BPM，而不是设置的 BPM。"
@@ -3955,7 +3977,7 @@
               "type": "float",
               "label": "Albedo Strength",
               "labels": {
-                "ja": "アルベド強度",
+                "ja": "アルベドの強度",
                 "zh-TW": "反照率強度",
                 "ko": "알베도 강도",
                 "zh-CN": "反光率强度"
@@ -3977,7 +3999,7 @@
               "type": "float",
               "label": "Smoothness Strength",
               "labels": {
-                "ja": "スムーズネス強度",
+                "ja": "スムーズネスの強度",
                 "zh-TW": "光滑度強度",
                 "ko": "부드러움 강도",
                 "zh-CN": "平滑度强度"
@@ -3999,7 +4021,7 @@
               "type": "float",
               "label": "Albedo Neutral",
               "labels": {
-                "ja": "アルベドニュートラル",
+                "ja": "アルベドのニュートラル",
                 "zh-TW": "反照率中性",
                 "ko": "알베도 중립",
                 "zh-CN": "基础色中性"
@@ -4021,7 +4043,7 @@
               "type": "float",
               "label": "Smoothness Neutral",
               "labels": {
-                "ja": "スムーズネスニュートラル",
+                "ja": "スムーズネスのニュートラル",
                 "zh-TW": "光滑度中性",
                 "ko": "부드러움 중립",
                 "zh-CN": "平滑度中性"
@@ -4043,7 +4065,7 @@
               "type": "float",
               "label": "Anisotropy",
               "labels": {
-                "ja": "アニソトロピー",
+                "ja": "異方性",
                 "zh-TW": "各向異性",
                 "ko": "이방성",
                 "zh-CN": "各向异性"
@@ -4076,7 +4098,7 @@
               "options": null,
               "description": "Adjust sharpness of detail texture.",
               "descriptions": {
-                "ja": "ディテールテクスチャのシャープさを調整します。",
+                "ja": "ディテールテクスチャのシャープさの調整。",
                 "zh-TW": "調整細節紋理的銳利度。",
                 "ko": "디테일 텍스처의 선명도 조절.",
                 "zh-CN": "调整细节纹理的锐度。"
@@ -4087,7 +4109,7 @@
               "type": "bool",
               "label": "Use Triplaner",
               "labels": {
-                "ja": "トライプラナーを使用",
+                "ja": "トリプラナーの使用",
                 "zh-TW": "使用三平面",
                 "ko": "트라이플래너 사용",
                 "zh-CN": "使用三平面贴图"
@@ -4113,7 +4135,7 @@
       "type": "group",
       "label": "Cloth 2",
       "labels": {
-        "ja": "クロス2",
+        "ja": "布2",
         "zh-TW": "布料 2",
         "ko": "천 2",
         "zh-CN": "布料 2"
@@ -4157,7 +4179,7 @@
           "type": "int",
           "label": "String Connection",
           "labels": {
-            "ja": "ストリング接続",
+            "ja": "文字列接続",
             "zh-TW": "線串連接",
             "ko": "줄 연결",
             "zh-CN": "线连接"
@@ -4190,7 +4212,7 @@
           "options": null,
           "description": "Radius of inner circle in meters",
           "descriptions": {
-            "ja": "内円の半径（メートル）",
+            "ja": "メートル単位の内円の半径",
             "zh-TW": "內部圓圈半徑（單位：米）",
             "ko": "내부 원의 반지름 (미터)",
             "zh-CN": "内圆半径（米）"
@@ -4212,7 +4234,7 @@
           "options": null,
           "description": "Angle to expand the mesh along the length. 0 = tube, 90 = flat circle.",
           "descriptions": {
-            "ja": "長さに沿ってメッシュを展開する角度。0 = チューブ、90 = 平面円。",
+            "ja": "メッシュを長さ方向に展開する角度。0＝チューブ、90＝平らな円。",
             "zh-TW": "沿著長度展開網格的角度。0 = 管狀，90 = 平面圓。",
             "ko": "길이 방향으로 메쉬를 확장하는 각도. 0 = 튜브, 90 = 평평한 원.",
             "zh-CN": "沿长度方向扩展网格的角度。0 = 管状，90 = 平面圆。"
@@ -4223,7 +4245,7 @@
           "type": "float",
           "label": "Arc",
           "labels": {
-            "ja": "円弧",
+            "ja": "アーク",
             "zh-TW": "弧度",
             "ko": "아크",
             "zh-CN": "弧度"
@@ -4234,7 +4256,7 @@
           "options": null,
           "description": "Arc outwards or inwards along the length. Positive = balloon shape, Negative = bell shape",
           "descriptions": {
-            "ja": "長さに沿った外側または内側の円弧。正の値 = 風船型、負の値 = 鐘型",
+            "ja": "長さ方向に外側または内側にアークを出す。正の値＝風船型、負の値＝ベル型",
             "zh-TW": "沿著長度向外或向內彎曲的弧度。正值 = 氣球形，負值 = 鐘形。",
             "ko": "길이 방향으로 바깥쪽 또는 안쪽으로 아크. 양수 = 풍선 모양, 음수 = 종 모양",
             "zh-CN": "沿长度方向向外或向内弯曲的弧度。正值 = 气球形，负值 = 铃铛形"
@@ -4256,7 +4278,7 @@
           "options": null,
           "description": "Length in meters",
           "descriptions": {
-            "ja": "長さ（メートル）",
+            "ja": "メートル単位の長さ",
             "zh-TW": "長度（單位：米）",
             "ko": "길이 (미터)",
             "zh-CN": "长度（米）"
@@ -4267,7 +4289,7 @@
           "type": "float",
           "label": "Arm Holes",
           "labels": {
-            "ja": "腕穴",
+            "ja": "アームホール",
             "zh-TW": "手臂孔",
             "ko": "암홀",
             "zh-CN": "腋窝开口"
@@ -4278,7 +4300,7 @@
           "options": null,
           "description": "Size of arm holes in relation to circumference",
           "descriptions": {
-            "ja": "円周に対する腕穴のサイズ",
+            "ja": "円周に対するアームホールのサイズ",
             "zh-TW": "手臂孔與周長的比例尺寸",
             "ko": "둘레에 대한 암홀 크기",
             "zh-CN": "腋窝开口相对于周长的尺寸"
@@ -4289,7 +4311,7 @@
           "type": "float",
           "label": "Arm Hole Height",
           "labels": {
-            "ja": "腕穴の高さ",
+            "ja": "アームホールの高さ",
             "zh-TW": "手臂孔高度",
             "ko": "암홀 높이",
             "zh-CN": "腋窝开口高度"
@@ -4300,7 +4322,7 @@
           "options": null,
           "description": "Height of arm holes in relation to total length",
           "descriptions": {
-            "ja": "全長に対する腕穴の高さ",
+            "ja": "全長に対するアームホールの高さ",
             "zh-TW": "手臂孔與總長度的比例高度",
             "ko": "총 길이에 대한 암홀 높이",
             "zh-CN": "腋窝开口相对于总长度的高度"
@@ -4311,7 +4333,7 @@
           "type": "float",
           "label": "Back Length",
           "labels": {
-            "ja": "背面の長さ",
+            "ja": "背面長さ",
             "zh-TW": "背部長度",
             "ko": "등 길이",
             "zh-CN": "背部长度"
@@ -4333,7 +4355,7 @@
           "type": "float",
           "label": "Side Length",
           "labels": {
-            "ja": "側面の長さ",
+            "ja": "側面長さ",
             "zh-TW": "側面長度",
             "ko": "옆면 길이",
             "zh-CN": "侧面长度"
@@ -4410,7 +4432,7 @@
           "options": null,
           "description": "Compliance of distance constraints between particles",
           "descriptions": {
-            "ja": "粒子間の距離制約の適合度",
+            "ja": "粒子間の距離制約の適合性",
             "zh-TW": "粒子間距離約束的符合度",
             "ko": "입자 간 거리 제약 준수율",
             "zh-CN": "粒子间距离约束的遵从度"
@@ -4443,7 +4465,7 @@
           "type": "float",
           "label": "Damping",
           "labels": {
-            "ja": "ダンピング",
+            "ja": "減衰",
             "zh-TW": "阻尼",
             "ko": "감쇠",
             "zh-CN": "阻尼"
@@ -4777,7 +4799,7 @@
                   "type": "float",
                   "label": "Attraction",
                   "labels": {
-                    "ja": "引力",
+                    "ja": "吸引力",
                     "zh-TW": "吸引力",
                     "ko": "인력",
                     "zh-CN": "吸引力"
@@ -5047,7 +5069,7 @@
                   "type": "float",
                   "label": "Attraction",
                   "labels": {
-                    "ja": "引力",
+                    "ja": "吸引力",
                     "zh-TW": "吸引力",
                     "ko": "인력",
                     "zh-CN": "吸引力"
@@ -5069,7 +5091,7 @@
                   "type": "bool",
                   "label": "Swap Sides",
                   "labels": {
-                    "ja": "左右反転",
+                    "ja": "左右入れ替え",
                     "zh-TW": "交換側面",
                     "ko": "측면 교체",
                     "zh-CN": "交换两侧"
@@ -5128,7 +5150,7 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "パーティクルのサイズ（ミリメートル）",
+                "ja": "ミリメートル単位のパーティクルサイズ",
                 "zh-TW": "粒子尺寸（毫米）",
                 "ko": "입자 크기 (밀리미터)",
                 "zh-CN": "粒子尺寸（毫米）"
@@ -5183,7 +5205,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -5205,7 +5227,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -5216,7 +5238,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -5271,7 +5293,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -5337,7 +5359,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -5372,7 +5394,7 @@
               "options": null,
               "description": "Friction for anchored layers",
               "descriptions": {
-                "ja": "アンカーされたレイヤーの摩擦",
+                "ja": "固定レイヤーの摩擦",
                 "zh-TW": "固定層的摩擦力",
                 "ko": "앵커된 레이어 마찰",
                 "zh-CN": "固定层摩擦力"
@@ -5383,7 +5405,7 @@
               "type": "float",
               "label": "Angular Spring",
               "labels": {
-                "ja": "角度スプリング",
+                "ja": "角ばね",
                 "zh-TW": "角向彈簧",
                 "ko": "각도 스프링",
                 "zh-CN": "角形弹簧"
@@ -5394,7 +5416,7 @@
               "options": null,
               "description": "Default angular spring stiffness for joints without rotation springs. Higher values pull joints back toward rest pose more strongly. 0 = disabled.",
               "descriptions": {
-                "ja": "回転スプリングがないジョイントのデフォルトの角度スプリングの剛性。値が大きいほど、ジョイントは安静ポーズに戻ろうと強く引きます。0=無効。",
+                "ja": "回転バネのないジョイントのデフォルトの角ばねの剛性。高い値ほどジョイントをレストポーズに強く戻します。0=無効。",
                 "zh-TW": "缺乏旋轉彈簧的關節的預設角向彈簧剛度。數值越高，關節恢復到靜止姿勢的力量越大。0 = 停用。",
                 "ko": "회전 스프링이 없는 관절의 기본 각도 스프링 강성. 값이 높을수록 관절을 휴식 자세로 더 강하게 끌어당깁니다. 0 = 비활성화.",
                 "zh-CN": "没有旋转弹簧的关节的默认角形弹簧刚度。较高值会更强烈地将关节拉回静止姿势。0 = 禁用。"
@@ -5405,7 +5427,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -5471,7 +5493,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -5493,7 +5515,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -5781,7 +5803,7 @@
               "type": "bool",
               "label": "Rest Distance Check",
               "labels": {
-                "ja": "静止距離チェック",
+                "ja": "レスト距離チェック",
                 "zh-TW": "靜止距離檢查",
                 "ko": "휴식 거리 확인",
                 "zh-CN": "静止距离检查"
@@ -5792,10 +5814,32 @@
               "options": null,
               "description": "Use rest distance for self collision between rigid bodies in the same block. Helps when rigid body shapes are not configured perfectly.",
               "descriptions": {
-                "ja": "同じブロック内の剛体間の自己衝突に静止距離を使用する。剛体の形状が完璧に設定されていない場合に役立つ。",
+                "ja": "同じブロック内の剛体間の自己衝突にレスト距離を使用する。剛体形状が完璧に設定されていない場合に役立ちます。",
                 "zh-TW": "在同一區塊內，針對剛體之間的自我碰撞使用靜止距離。當剛體形狀配置不完美時，這會有幫助。",
                 "ko": "같은 블록 내 강체 간의 자가 충돌에 휴식 거리를 사용합니다. 강체 모양이 완벽하게 설정되지 않았을 때 도움이 됩니다.",
                 "zh-CN": "对同一块体内的刚体自碰撞使用静止距离。当刚体形状未配置完美时很有帮助。"
+              }
+            },
+            {
+              "name": "Use Repulsion (Bounce)",
+              "type": "bool",
+              "label": "Use Repulsion (Bounce)",
+              "labels": {
+                "ja": "(Use Repulsion (Bounce))",
+                "zh-TW": "(Use Repulsion (Bounce))",
+                "ko": "(Use Repulsion (Bounce))",
+                "zh-CN": "(Use Repulsion (Bounce))"
+              },
+              "default": "false",
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.",
+              "descriptions": {
+                "ja": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
+                "zh-TW": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
+                "ko": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
+                "zh-CN": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)"
               }
             }
           ]
@@ -5906,7 +5950,7 @@
               "options": ["Transparency", "Gloss", "Metallic", "Occlusion", "Detail Mask", "None"],
               "description": "How alpha channel is used in the shader",
               "descriptions": {
-                "ja": "シェーダーでアルファチャンネルがどのように使用されるか",
+                "ja": "シェーダーでアルファチャネルが使用される方法",
                 "zh-TW": "Shader 中 Alpha 通道的用途",
                 "ko": "셰이더에서 알파 채널 사용 방식",
                 "zh-CN": "Alpha 通道在着色器中的使用方式"
@@ -5917,7 +5961,7 @@
               "type": "bool",
               "label": "Double Side",
               "labels": {
-                "ja": "両面描画",
+                "ja": "両面",
                 "zh-TW": "雙面",
                 "ko": "양면",
                 "zh-CN": "双面"
@@ -5939,7 +5983,7 @@
               "type": "float",
               "label": "Dim Back",
               "labels": {
-                "ja": "暗いバック",
+                "ja": "背面減光",
                 "zh-TW": "陰暗背面",
                 "ko": "뒷면 어둡게",
                 "zh-CN": "暗背"
@@ -5961,7 +6005,7 @@
               "type": "float",
               "label": "Cast Shadow",
               "labels": {
-                "ja": "影を投射",
+                "ja": "影をキャスト",
                 "zh-TW": "投射陰影",
                 "ko": "그림자 드리우기",
                 "zh-CN": "投射阴影"
@@ -6093,7 +6137,7 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "アンビエント",
+                "ja": "周囲光",
                 "zh-TW": "環境光",
                 "ko": "주변광",
                 "zh-CN": "环境光"
@@ -6203,7 +6247,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -6269,7 +6313,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -6491,7 +6535,7 @@
                   "type": "float",
                   "label": "Specular",
                   "labels": {
-                    "ja": "スペキュラー",
+                    "ja": "スペキュラ",
                     "zh-TW": "鏡面光",
                     "ko": "스페큘러",
                     "zh-CN": "反射高光"
@@ -6513,7 +6557,7 @@
                   "type": "float",
                   "label": "Soft Specular",
                   "labels": {
-                    "ja": "ソフトスペキュラー",
+                    "ja": "ソフトスペキュラ",
                     "zh-TW": "柔和鏡面光",
                     "ko": "부드러운 스페큘러",
                     "zh-CN": "柔和高光"
@@ -6579,7 +6623,7 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "アンビエント",
+                    "ja": "周囲光",
                     "zh-TW": "環境光",
                     "ko": "주변광",
                     "zh-CN": "环境光"
@@ -6601,7 +6645,7 @@
                   "type": "float",
                   "label": "Shadow Area",
                   "labels": {
-                    "ja": "シャドウエリア",
+                    "ja": "影エリア",
                     "zh-TW": "陰影區域",
                     "ko": "그림자 영역",
                     "zh-CN": "阴影区域"
@@ -6623,7 +6667,7 @@
                   "type": "float",
                   "label": "Shadow",
                   "labels": {
-                    "ja": "シャドウ",
+                    "ja": "影",
                     "zh-TW": "陰影",
                     "ko": "그림자",
                     "zh-CN": "阴影"
@@ -6669,7 +6713,7 @@
               "type": "group",
               "label": "Special Shader",
               "labels": {
-                "ja": "スペシャルシェーダー",
+                "ja": "特殊シェーダー",
                 "zh-TW": "特殊著色器",
                 "ko": "특수 셰이더",
                 "zh-CN": "特殊着色器"
@@ -6714,7 +6758,7 @@
                   "label": "Refraction",
                   "labels": {
                     "ja": "屈折",
-                    "zh-TW": "折射率",
+                    "zh-TW": "折射",
                     "ko": "굴절",
                     "zh-CN": "折射"
                   },
@@ -6761,7 +6805,7 @@
           "type": "group",
           "label": "Audio Visualization",
           "labels": {
-            "ja": "音声可視化",
+            "ja": "オーディオビジュアライゼーション",
             "zh-TW": "音頻視覺化",
             "ko": "오디오 시각화",
             "zh-CN": "音频可视化"
@@ -6827,7 +6871,7 @@
               "type": "float",
               "label": "Shadow",
               "labels": {
-                "ja": "シャドウ",
+                "ja": "影",
                 "zh-TW": "陰影",
                 "ko": "그림자",
                 "zh-CN": "阴影"
@@ -6915,7 +6959,7 @@
               "type": "float",
               "label": "Color Transition",
               "labels": {
-                "ja": "色の遷移",
+                "ja": "色遷移",
                 "zh-TW": "顏色過渡",
                 "ko": "색상 전환",
                 "zh-CN": "颜色过渡"
@@ -6937,7 +6981,7 @@
               "type": "float",
               "label": "Align",
               "labels": {
-                "ja": "アライメント",
+                "ja": "整列",
                 "zh-TW": "對齊",
                 "ko": "정렬",
                 "zh-CN": "对齐"
@@ -6981,7 +7025,7 @@
               "type": "float",
               "label": "Shape Shift",
               "labels": {
-                "ja": "シェイプシフト",
+                "ja": "形状変化",
                 "zh-TW": "形狀變化",
                 "ko": "모양 변화",
                 "zh-CN": "形状变化"
@@ -7047,7 +7091,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -7113,7 +7157,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -7247,7 +7291,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -7313,7 +7357,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -7491,7 +7535,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -7557,7 +7601,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -7746,7 +7790,7 @@
               "options": null,
               "description": "Use real-time automatically detected BPM instead of the set BPM.",
               "descriptions": {
-                "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用します。",
+                "ja": "設定されたBPMではなく、リアルタイムで自動検出されたBPMを使用する。",
                 "zh-TW": "使用實時自動偵測的BPM，而非設定的BPM。",
                 "ko": "설정된 BPM 대신 실시간으로 자동으로 감지된 BPM을 사용합니다.",
                 "zh-CN": "使用实时自动检测的 BPM，而不是设置的 BPM。"
@@ -8047,7 +8091,7 @@
               "type": "float",
               "label": "Albedo Strength",
               "labels": {
-                "ja": "アルベド強度",
+                "ja": "アルベドの強度",
                 "zh-TW": "反照率強度",
                 "ko": "알베도 강도",
                 "zh-CN": "反光率强度"
@@ -8069,7 +8113,7 @@
               "type": "float",
               "label": "Smoothness Strength",
               "labels": {
-                "ja": "スムーズネス強度",
+                "ja": "スムーズネスの強度",
                 "zh-TW": "光滑度強度",
                 "ko": "부드러움 강도",
                 "zh-CN": "平滑度强度"
@@ -8091,7 +8135,7 @@
               "type": "float",
               "label": "Albedo Neutral",
               "labels": {
-                "ja": "アルベドニュートラル",
+                "ja": "アルベドのニュートラル",
                 "zh-TW": "反照率中性",
                 "ko": "알베도 중립",
                 "zh-CN": "基础色中性"
@@ -8113,7 +8157,7 @@
               "type": "float",
               "label": "Smoothness Neutral",
               "labels": {
-                "ja": "スムーズネスニュートラル",
+                "ja": "スムーズネスのニュートラル",
                 "zh-TW": "光滑度中性",
                 "ko": "부드러움 중립",
                 "zh-CN": "平滑度中性"
@@ -8135,7 +8179,7 @@
               "type": "float",
               "label": "Anisotropy",
               "labels": {
-                "ja": "アニソトロピー",
+                "ja": "異方性",
                 "zh-TW": "各向異性",
                 "ko": "이방성",
                 "zh-CN": "各向异性"
@@ -8168,7 +8212,7 @@
               "options": null,
               "description": "Adjust sharpness of detail texture.",
               "descriptions": {
-                "ja": "ディテールテクスチャのシャープさを調整します。",
+                "ja": "ディテールテクスチャのシャープさの調整。",
                 "zh-TW": "調整細節紋理的銳利度。",
                 "ko": "디테일 텍스처의 선명도 조절.",
                 "zh-CN": "调整细节纹理的锐度。"
@@ -8179,7 +8223,7 @@
               "type": "bool",
               "label": "Use Triplaner",
               "labels": {
-                "ja": "トライプラナーを使用",
+                "ja": "トリプラナーの使用",
                 "zh-TW": "使用三平面",
                 "ko": "트라이플래너 사용",
                 "zh-CN": "使用三平面贴图"
@@ -8205,7 +8249,7 @@
       "type": "group",
       "label": "Fluid (Experimental)",
       "labels": {
-        "ja": "流体 (実験的)",
+        "ja": "流体（実験的）",
         "zh-TW": "流體 (實驗性)",
         "ko": "유체 (실험적)",
         "zh-CN": "流体（实验性）"
@@ -8517,7 +8561,7 @@
               "type": "bool",
               "label": "Mouse / Hand Control",
               "labels": {
-                "ja": "マウス/手制御",
+                "ja": "マウス/ハンド操作",
                 "zh-TW": "滑鼠/手部控制",
                 "ko": "마우스 / 손 조작",
                 "zh-CN": "鼠标/手柄控制"
@@ -8539,7 +8583,7 @@
               "type": "bool",
               "label": "Auto Aim",
               "labels": {
-                "ja": "自動照準",
+                "ja": "オートエイム",
                 "zh-TW": "自動瞄準",
                 "ko": "자동 조준",
                 "zh-CN": "自动瞄准"
@@ -8572,7 +8616,7 @@
               "options": null,
               "description": "Particles disappear and respawn after this amount of time.",
               "descriptions": {
-                "ja": "この時間後にパーティクルが消滅して再スポーンします。",
+                "ja": "この時間量後に粒子が消え、再スポーンします。",
                 "zh-TW": "粒子在這個時間量後消失並重生。",
                 "ko": "이 시간 후에 입자가 사라지고 다시 생성됩니다.",
                 "zh-CN": "粒子在指定时间后消失并重新生成。"
@@ -8605,7 +8649,7 @@
               "type": "float",
               "label": "Smoothing",
               "labels": {
-                "ja": "平滑化",
+                "ja": "スムージング",
                 "zh-TW": "平滑度",
                 "ko": "스무딩",
                 "zh-CN": "平滑度"
@@ -8638,12 +8682,12 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Defines particle interaction physics. **Cohesion** pulls\r\nparticles together into streams. **Cohesion Range** sets the\r\nmaximum distance for cohesion effects. **Target Distance**\r\nis the minimum particle separation when cohesion is off.\r\n**Viscosity** resists flow for thicker fluids. **Stick To\r\nSurface** controls how strongly particles adhere to geometry.\r\n\r\nPresets: *Water* (light, cohesive), *Viscous* (thick,\r\nsticky), *Sand* (no cohesion, granular).",
+          "description": "Defines particle interaction physics.\r\n\r\n**Particle Size** is the rest distance between neighbouring\r\nparticles in mm — the fundamental size knob. It drives the\r\nrest density target, the body-collision radius, and (via\r\n**Kernel Ratio**) the SPH kernel reach.\r\n**Kernel Ratio** is the SPH kernel radius as a multiple of\r\nParticle Size. The standard PBF value is 2.0 — raise it for\r\na smoother / slower fluid, lower it for a sharper / less\r\nstable one.\r\n\r\n**Cohesion** pulls particles together into streams.\r\n**Viscosity** resists flow for thicker fluids.\r\n**Target Density** scales how dense the fluid wants to be at\r\nrest. Lower (< 1) = more compressible / weaker push-apart on\r\nspawn. Higher (> 1) = stiffer fluid.\r\n**Pressure Softness** regularizes the per-particle pressure\r\ncorrection — higher values dampen the violent push-apart that\r\nhappens when newly-spawned particles overlap. The right knob\r\nto turn first if particles bounce away from each other on spawn.\r\n\r\nPresets: *Water* (light, cohesive), *Viscous* (thick,\r\nsticky), *Sand* (no cohesion, granular).",
           "descriptions": {
-            "ja": "(Defines particle interaction physics. **Cohesion** pulls\r\nparticles together into streams. **Cohesion Range** sets the\r\nmaximum distance for cohesion effects. **Target Distance**\r\nis the minimum particle separation when cohesion is off.\r\n**Viscosity** resists flow for thicker fluids. **Stick To\r\nSurface** controls how strongly particles adhere to geometry.\r\n\r\nPresets: *Water* (light, cohesive), *Viscous* (thick,\r\nsticky), *Sand* (no cohesion, granular).)",
-            "zh-TW": "(Defines particle interaction physics. **Cohesion** pulls\r\nparticles together into streams. **Cohesion Range** sets the\r\nmaximum distance for cohesion effects. **Target Distance**\r\nis the minimum particle separation when cohesion is off.\r\n**Viscosity** resists flow for thicker fluids. **Stick To\r\nSurface** controls how strongly particles adhere to geometry.\r\n\r\nPresets: *Water* (light, cohesive), *Viscous* (thick,\r\nsticky), *Sand* (no cohesion, granular).)",
-            "ko": "(Defines particle interaction physics. **Cohesion** pulls\r\nparticles together into streams. **Cohesion Range** sets the\r\nmaximum distance for cohesion effects. **Target Distance**\r\nis the minimum particle separation when cohesion is off.\r\n**Viscosity** resists flow for thicker fluids. **Stick To\r\nSurface** controls how strongly particles adhere to geometry.\r\n\r\nPresets: *Water* (light, cohesive), *Viscous* (thick,\r\nsticky), *Sand* (no cohesion, granular).)",
-            "zh-CN": "(Defines particle interaction physics. **Cohesion** pulls\r\nparticles together into streams. **Cohesion Range** sets the\r\nmaximum distance for cohesion effects. **Target Distance**\r\nis the minimum particle separation when cohesion is off.\r\n**Viscosity** resists flow for thicker fluids. **Stick To\r\nSurface** controls how strongly particles adhere to geometry.\r\n\r\nPresets: *Water* (light, cohesive), *Viscous* (thick,\r\nsticky), *Sand* (no cohesion, granular).)"
+            "ja": "(Defines particle interaction physics.\r\n\r\n**Particle Size** is the rest distance between neighbouring\r\nparticles in mm — the fundamental size knob. It drives the\r\nrest density target, the body-collision radius, and (via\r\n**Kernel Ratio**) the SPH kernel reach.\r\n**Kernel Ratio** is the SPH kernel radius as a multiple of\r\nParticle Size. The standard PBF value is 2.0 — raise it for\r\na smoother / slower fluid, lower it for a sharper / less\r\nstable one.\r\n\r\n**Cohesion** pulls particles together into streams.\r\n**Viscosity** resists flow for thicker fluids.\r\n**Target Density** scales how dense the fluid wants to be at\r\nrest. Lower (< 1) = more compressible / weaker push-apart on\r\nspawn. Higher (> 1) = stiffer fluid.\r\n**Pressure Softness** regularizes the per-particle pressure\r\ncorrection — higher values dampen the violent push-apart that\r\nhappens when newly-spawned particles overlap. The right knob\r\nto turn first if particles bounce away from each other on spawn.\r\n\r\nPresets: *Water* (light, cohesive), *Viscous* (thick,\r\nsticky), *Sand* (no cohesion, granular).)",
+            "zh-TW": "(Defines particle interaction physics.\r\n\r\n**Particle Size** is the rest distance between neighbouring\r\nparticles in mm — the fundamental size knob. It drives the\r\nrest density target, the body-collision radius, and (via\r\n**Kernel Ratio**) the SPH kernel reach.\r\n**Kernel Ratio** is the SPH kernel radius as a multiple of\r\nParticle Size. The standard PBF value is 2.0 — raise it for\r\na smoother / slower fluid, lower it for a sharper / less\r\nstable one.\r\n\r\n**Cohesion** pulls particles together into streams.\r\n**Viscosity** resists flow for thicker fluids.\r\n**Target Density** scales how dense the fluid wants to be at\r\nrest. Lower (< 1) = more compressible / weaker push-apart on\r\nspawn. Higher (> 1) = stiffer fluid.\r\n**Pressure Softness** regularizes the per-particle pressure\r\ncorrection — higher values dampen the violent push-apart that\r\nhappens when newly-spawned particles overlap. The right knob\r\nto turn first if particles bounce away from each other on spawn.\r\n\r\nPresets: *Water* (light, cohesive), *Viscous* (thick,\r\nsticky), *Sand* (no cohesion, granular).)",
+            "ko": "(Defines particle interaction physics.\r\n\r\n**Particle Size** is the rest distance between neighbouring\r\nparticles in mm — the fundamental size knob. It drives the\r\nrest density target, the body-collision radius, and (via\r\n**Kernel Ratio**) the SPH kernel reach.\r\n**Kernel Ratio** is the SPH kernel radius as a multiple of\r\nParticle Size. The standard PBF value is 2.0 — raise it for\r\na smoother / slower fluid, lower it for a sharper / less\r\nstable one.\r\n\r\n**Cohesion** pulls particles together into streams.\r\n**Viscosity** resists flow for thicker fluids.\r\n**Target Density** scales how dense the fluid wants to be at\r\nrest. Lower (< 1) = more compressible / weaker push-apart on\r\nspawn. Higher (> 1) = stiffer fluid.\r\n**Pressure Softness** regularizes the per-particle pressure\r\ncorrection — higher values dampen the violent push-apart that\r\nhappens when newly-spawned particles overlap. The right knob\r\nto turn first if particles bounce away from each other on spawn.\r\n\r\nPresets: *Water* (light, cohesive), *Viscous* (thick,\r\nsticky), *Sand* (no cohesion, granular).)",
+            "zh-CN": "(Defines particle interaction physics.\r\n\r\n**Particle Size** is the rest distance between neighbouring\r\nparticles in mm — the fundamental size knob. It drives the\r\nrest density target, the body-collision radius, and (via\r\n**Kernel Ratio**) the SPH kernel reach.\r\n**Kernel Ratio** is the SPH kernel radius as a multiple of\r\nParticle Size. The standard PBF value is 2.0 — raise it for\r\na smoother / slower fluid, lower it for a sharper / less\r\nstable one.\r\n\r\n**Cohesion** pulls particles together into streams.\r\n**Viscosity** resists flow for thicker fluids.\r\n**Target Density** scales how dense the fluid wants to be at\r\nrest. Lower (< 1) = more compressible / weaker push-apart on\r\nspawn. Higher (> 1) = stiffer fluid.\r\n**Pressure Softness** regularizes the per-particle pressure\r\ncorrection — higher values dampen the violent push-apart that\r\nhappens when newly-spawned particles overlap. The right knob\r\nto turn first if particles bounce away from each other on spawn.\r\n\r\nPresets: *Water* (light, cohesive), *Viscous* (thick,\r\nsticky), *Sand* (no cohesion, granular).)"
           },
           "values": [
             {
@@ -8673,7 +8717,7 @@
               "type": "float",
               "label": "Viscosity",
               "labels": {
-                "ja": "粘度",
+                "ja": "粘性",
                 "zh-TW": "黏度",
                 "ko": "점도",
                 "zh-CN": "粘度"
@@ -8695,7 +8739,7 @@
               "type": "float",
               "label": "Stick To Surface",
               "labels": {
-                "ja": "表面に付着",
+                "ja": "表面への付着",
                 "zh-TW": "附著於表面",
                 "ko": "표면에 고정",
                 "zh-CN": "附着于表面"
@@ -8713,69 +8757,113 @@
               }
             },
             {
-              "name": "Cohesion Range",
+              "name": "Particle Size",
               "type": "float",
-              "label": "Cohesion Range",
+              "label": "Particle Size",
               "labels": {
-                "ja": "凝集範囲",
-                "zh-TW": "凝聚範圍",
-                "ko": "응집력 범위",
-                "zh-CN": "内聚范围"
+                "ja": "粒子サイズ",
+                "zh-TW": "粒子大小",
+                "ko": "입자 크기",
+                "zh-CN": "粒子大小"
               },
-              "default": 20,
+              "default": 3,
               "min": 1,
+              "max": 100,
+              "options": null,
+              "description": "Rest distance between particles in mm. Drives rest density, body-collision radius, and (via Kernel Ratio) the SPH kernel reach.",
+              "descriptions": {
+                "ja": "粒子間の静止距離をmm単位で設定します。静止密度、体衝突半径、および（カーネル比率経由で）SPHカーネルの到達範囲を決定します。",
+                "zh-TW": "以毫米為單位的粒子間靜止距離。決定靜止密度、實體碰撞半徑以及（通過核比例決定的）SPH 內核範圍。",
+                "ko": "mm 단위의 입자 간 정지 거리. 정지 밀도, 바디 충돌 반경 및 (커널 비율을 통해) SPH 커널 범위에 영향을 미칩니다.",
+                "zh-CN": "以毫米为单位的粒子间静止距离。决定静止密度、实体碰撞半径以及（通过核比例决定的）SPH 内核范围。"
+              }
+            },
+            {
+              "name": "Kernel Ratio",
+              "type": "float",
+              "label": "Kernel Ratio",
+              "labels": {
+                "ja": "カーネル比率",
+                "zh-TW": "核半徑比例",
+                "ko": "커널 반경 비율",
+                "zh-CN": "核半径比例"
+              },
+              "default": 2,
+              "min": 1,
+              "max": 10,
+              "options": null,
+              "description": "SPH kernel radius as a multiple of Particle Size. Standard PBF value is 2.0. Higher = smoother/slower, lower = sharper/less stable. Clamped to ≥ 1 so the kernel never falls below the rest distance.",
+              "descriptions": {
+                "ja": "粒子サイズの倍率としてのSPHカーネル半径。標準PBF値は2.0です。高いほどスムーズ/遅く、低いほどシャープ/不安定になります。カーネルが静止距離を下回らないよう1以上でクランプされます。",
+                "zh-TW": "作為粒子大小倍數的 SPH 內核半徑。標準 PBF 值為 2.0。值越高越平滑/越慢，越低越銳利/越不穩定。限制為 ≥ 1，以使內核永遠不會低於靜止距離。",
+                "ko": "입자 크기의 배수로서의 SPH 커널 반경. 표준 PBF 값은 2.0입니다. 높을수록 부드럽고 느리며, 낮을수록 선명하고 불안정합니다. 커널이 정지 거리 이하로 떨어지지 않도록 ≥ 1로 고정됩니다.",
+                "zh-CN": "作为粒子大小倍数的 SPH 内核半径。标准 PBF 值为 2.0。值越高越平滑/越慢，越低越锐利/越不稳定。限制为 ≥ 1，以使内核永远不会低于静止距离。"
+              }
+            },
+            {
+              "name": "Target Density",
+              "type": "float",
+              "label": "Target Density",
+              "labels": {
+                "ja": "目標密度",
+                "zh-TW": "目標密度",
+                "ko": "목표 밀도",
+                "zh-CN": "目标密度"
+              },
+              "default": 1,
+              "min": 0.1,
               "max": 50,
               "options": null,
-              "description": "Max distance for cohesion effect",
+              "description": "Multiplier on the auto-derived rest density. >1 = stiffer fluid, <1 = more compressible.",
               "descriptions": {
-                "ja": "凝集効果の最大距離",
-                "zh-TW": "凝聚力效果的最大距離",
-                "ko": "응집력 효과 최대 거리",
-                "zh-CN": "内聚效果的最大距离"
+                "ja": "自動導出された静止密度に対する乗数。>1の場合、流体はより硬く、<1の場合、より圧縮可能です。",
+                "zh-TW": "自動推導的靜止密度的乘數。>1 = 更粘稠/堅硬的流體，<1 = 更易壓縮。",
+                "ko": "자동 도출된 정지 밀도의 배수. >1 = 더 뻣뻣한 유체, <1 = 더 압축 가능한 유체.",
+                "zh-CN": "自动推导的静止密度的乘数。>1 = 更粘稠/坚硬的流体，<1 = 更易压缩。"
               }
             },
             {
-              "name": "Target Distance",
+              "name": "Pressure Softness",
               "type": "float",
-              "label": "Target Distance",
+              "label": "Pressure Softness",
               "labels": {
-                "ja": "ターゲット距離",
-                "zh-TW": "目標距離",
-                "ko": "목표 거리",
-                "zh-CN": "目标距离"
+                "ja": "圧力の平滑さ",
+                "zh-TW": "壓力柔軟度",
+                "ko": "압력 부드움",
+                "zh-CN": "压力柔软度"
               },
-              "default": 10,
-              "min": 1,
-              "max": 20,
+              "default": 0,
+              "min": -4,
+              "max": 4,
               "options": null,
-              "description": "Minimum distance between particles in MM when cohesion is off.",
+              "description": "PBF lambda regularization. Higher = softer pressure response; the knob to raise when particles bounce off each other on spawn.",
               "descriptions": {
-                "ja": "凝集がオフの場合の、パーティクル間の最小距離（mm）。",
-                "zh-TW": "當關閉凝聚力時，粒子之間最小的距離（毫米）。",
-                "ko": "응집력이 꺼져 있을 때 입자 간 최소 거리 (MM).",
-                "zh-CN": "内聚力关闭时，粒子之间的最小距离（毫米）。"
+                "ja": "PBFラムダ正則化。高いほど圧力応答が柔らかくなります。粒子が生成時に互いに跳ねる際に調整するノブです。",
+                "zh-TW": "PBF lambda 正規化。越高表示壓力響應越軟；當粒子在生成時相互彈開時，可調高此參數。",
+                "ko": "PBF 람다 정규화. 값이 높을수록 압력 반응이 더 부드러워집니다. 생성 시 입자가 서로 튕겨 나갈 때 이 값을 높이십시오.",
+                "zh-CN": "PBF lambda 正则化。越高表示压力响应越软；当粒子在生成时相互弹开时，可调高此参数。"
               }
             },
             {
-              "name": "Elevation",
+              "name": "Fluid Size",
               "type": "float",
-              "label": "Elevation",
+              "label": "Fluid Size",
               "labels": {
-                "ja": "高度",
-                "zh-TW": "高度",
-                "ko": "고도",
-                "zh-CN": "高度"
+                "ja": "流体サイズ",
+                "zh-TW": "流體尺寸",
+                "ko": "유체 크기",
+                "zh-CN": "流体尺寸"
               },
-              "default": 0.25,
-              "min": 0,
-              "max": 0.5,
+              "default": 0,
+              "min": -2,
+              "max": 0,
               "options": null,
-              "description": "Elevate particle in proportion of its size",
+              "description": "Uniform scale on particle radius, target distance, and kernel range. <1 = finer fluid (smaller droplets, more detailed surfaces); >1 = chunkier. Costs nothing — just rescales the existing values at runtime.",
               "descriptions": {
-                "ja": "サイズに比例してパーティクルを上昇させる",
-                "zh-TW": "根據粒子大小提升高度",
-                "ko": "입자 크기에 비례하여 높이 조정",
-                "zh-CN": "根据其大小抬升粒子"
+                "ja": "粒子半径、目標距離、およびカーネル範囲の均一スケール。<1の場合、より繊細な流体（より小さな飛沫、より詳細な表面）になります。>1の場合、より塊状になります。コストはかかりません — ランタイムで既存の値を再スケーリングするだけです。",
+                "zh-TW": "粒子半徑、目標距離和內核範圍的統一縮放。<1 = 更精細的流體（更小的液滴，更詳細的表面）；>1 = 更粗糙。無性能開銷——只是在運行時重新縮放現有值。",
+                "ko": "입자 반경, 목표 거리 및 커널 범위에 대한 균일 스케일. <1 = 더 미세한 유체(더 작은 물방울, 더 세밀한 표면), >1 = 더 덩어리진 유체. 비용 없음 - 런타임에 기존 값을 재조정합니다.",
+                "zh-CN": "粒子半径、目标距离和内核范围的统一缩放。<1 = 更精细的流体（更小的液滴，更详细的表面）；>1 = 更粗糙。无性能开销——只是在运行时重新缩放现有值。"
               }
             }
           ]
@@ -8807,7 +8895,7 @@
               "type": "bool",
               "label": "Render Particle",
               "labels": {
-                "ja": "パーティクルレンダリング",
+                "ja": "粒子のレンダリング",
                 "zh-TW": "渲染粒子",
                 "ko": "입자 렌더링",
                 "zh-CN": "渲染粒子"
@@ -8829,7 +8917,7 @@
               "type": "bool",
               "label": "Render Droplet",
               "labels": {
-                "ja": "液滴のレンダリング",
+                "ja": "飛沫のレンダリング",
                 "zh-TW": "渲染液滴",
                 "ko": "물방울 렌더링",
                 "zh-CN": "渲染液滴"
@@ -8851,7 +8939,7 @@
               "type": "float",
               "label": "Droplet Size",
               "labels": {
-                "ja": "液滴サイズ",
+                "ja": "飛沫サイズ",
                 "zh-TW": "液滴尺寸",
                 "ko": "물방울 크기",
                 "zh-CN": "液滴大小"
@@ -8862,32 +8950,10 @@
               "options": null,
               "description": "Droplet size in MM",
               "descriptions": {
-                "ja": "液滴サイズ（mm）",
+                "ja": "飛沫サイズ（mm）",
                 "zh-TW": "液滴尺寸（單位：毫米）",
                 "ko": "물방울 크기 (MM)",
                 "zh-CN": "液滴大小（毫米）"
-              }
-            },
-            {
-              "name": "Scale By Density",
-              "type": "float",
-              "label": "Scale By Density",
-              "labels": {
-                "ja": "密度によるスケール調整",
-                "zh-TW": "依密度縮放",
-                "ko": "밀도에 따른 크기 조정",
-                "zh-CN": "按密度缩放"
-              },
-              "default": 0,
-              "min": 0,
-              "max": 5,
-              "options": null,
-              "description": "Scale droplet size by density of the fluid",
-              "descriptions": {
-                "ja": "流体の密度によって液滴のサイズを調整する",
-                "zh-TW": "根據流體密度縮放液滴尺寸",
-                "ko": "유체 밀도에 따라 물방울 크기 조정",
-                "zh-CN": "根据流体密度缩放液滴大小"
               }
             },
             {
@@ -8917,7 +8983,7 @@
                   "type": "int",
                   "label": "Color Mode",
                   "labels": {
-                    "ja": "色モード",
+                    "ja": "カラーモード",
                     "zh-TW": "色彩模式",
                     "ko": "색상 모드",
                     "zh-CN": "颜色模式"
@@ -8983,7 +9049,7 @@
                   "type": "float",
                   "label": "Brightness",
                   "labels": {
-                    "ja": "明度",
+                    "ja": "輝度",
                     "zh-TW": "亮度",
                     "ko": "밝기",
                     "zh-CN": "亮度"
@@ -9159,6 +9225,472 @@
           ]
         },
         {
+          "name": "Ray March Surface",
+          "type": "group",
+          "label": "Ray March Surface",
+          "labels": {
+            "ja": "レイマーチ表面",
+            "zh-TW": "光線步進表面",
+            "ko": "레이 마칭 표면",
+            "zh-CN": "光线投射表面"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Raymarched fluid surface — a smooth metaball isosurface lit and refracted\r\nthrough the camera's opaque scene. Requires the **Fluid Raymarch** Custom\r\nPass Volume to be present in the scene (injection point: Before Transparent).\r\n\r\n**Render Surface** enables the pass at runtime.\r\n**Color** is the bulk fluid tint; alpha controls how much it mixes with\r\nthe refracted scene behind it (alpha=0 → clear, alpha=1 → opaque tint).\r\n**Specular Power / Strength** size and brightness of the highlight.\r\n**Fresnel Power** how strongly the rim brightens / opaques at glancing\r\nangles (lower = wider rim).\r\n**Refraction** screen-space displacement of the scene behind the fluid.",
+          "descriptions": {
+            "ja": "(Raymarched fluid surface — a smooth metaball isosurface lit and refracted\r\nthrough the camera's opaque scene. Requires the **Fluid Raymarch** Custom\r\nPass Volume to be present in the scene (injection point: Before Transparent).\r\n\r\n**Render Surface** enables the pass at runtime.\r\n**Color** is the bulk fluid tint; alpha controls how much it mixes with\r\nthe refracted scene behind it (alpha=0 → clear, alpha=1 → opaque tint).\r\n**Specular Power / Strength** size and brightness of the highlight.\r\n**Fresnel Power** how strongly the rim brightens / opaques at glancing\r\nangles (lower = wider rim).\r\n**Refraction** screen-space displacement of the scene behind the fluid.)",
+            "zh-TW": "(Raymarched fluid surface — a smooth metaball isosurface lit and refracted\r\nthrough the camera's opaque scene. Requires the **Fluid Raymarch** Custom\r\nPass Volume to be present in the scene (injection point: Before Transparent).\r\n\r\n**Render Surface** enables the pass at runtime.\r\n**Color** is the bulk fluid tint; alpha controls how much it mixes with\r\nthe refracted scene behind it (alpha=0 → clear, alpha=1 → opaque tint).\r\n**Specular Power / Strength** size and brightness of the highlight.\r\n**Fresnel Power** how strongly the rim brightens / opaques at glancing\r\nangles (lower = wider rim).\r\n**Refraction** screen-space displacement of the scene behind the fluid.)",
+            "ko": "(Raymarched fluid surface — a smooth metaball isosurface lit and refracted\r\nthrough the camera's opaque scene. Requires the **Fluid Raymarch** Custom\r\nPass Volume to be present in the scene (injection point: Before Transparent).\r\n\r\n**Render Surface** enables the pass at runtime.\r\n**Color** is the bulk fluid tint; alpha controls how much it mixes with\r\nthe refracted scene behind it (alpha=0 → clear, alpha=1 → opaque tint).\r\n**Specular Power / Strength** size and brightness of the highlight.\r\n**Fresnel Power** how strongly the rim brightens / opaques at glancing\r\nangles (lower = wider rim).\r\n**Refraction** screen-space displacement of the scene behind the fluid.)",
+            "zh-CN": "(Raymarched fluid surface — a smooth metaball isosurface lit and refracted\r\nthrough the camera's opaque scene. Requires the **Fluid Raymarch** Custom\r\nPass Volume to be present in the scene (injection point: Before Transparent).\r\n\r\n**Render Surface** enables the pass at runtime.\r\n**Color** is the bulk fluid tint; alpha controls how much it mixes with\r\nthe refracted scene behind it (alpha=0 → clear, alpha=1 → opaque tint).\r\n**Specular Power / Strength** size and brightness of the highlight.\r\n**Fresnel Power** how strongly the rim brightens / opaques at glancing\r\nangles (lower = wider rim).\r\n**Refraction** screen-space displacement of the scene behind the fluid.)"
+          },
+          "values": [
+            {
+              "name": "Color",
+              "type": "group",
+              "label": "Color",
+              "labels": {
+                "ja": "色",
+                "zh-TW": "顏色",
+                "ko": "색상",
+                "zh-CN": "颜色"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              },
+              "values": [
+                {
+                  "name": "Color Mode",
+                  "type": "int",
+                  "label": "Color Mode",
+                  "labels": {
+                    "ja": "カラーモード",
+                    "zh-TW": "色彩模式",
+                    "ko": "색상 모드",
+                    "zh-CN": "颜色模式"
+                  },
+                  "default": 0,
+                  "min": 0,
+                  "max": 1,
+                  "options": ["RGB", "HSV"],
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Hue",
+                  "type": "float",
+                  "label": "Hue",
+                  "labels": {
+                    "ja": "色相",
+                    "zh-TW": "色相",
+                    "ko": "색상",
+                    "zh-CN": "色相"
+                  },
+                  "default": 0.5667,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Satuation",
+                  "type": "float",
+                  "label": "Satuation",
+                  "labels": {
+                    "ja": "彩度",
+                    "zh-TW": "飽和度",
+                    "ko": "채도",
+                    "zh-CN": "饱和度"
+                  },
+                  "default": 0.5556,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Brightness",
+                  "type": "float",
+                  "label": "Brightness",
+                  "labels": {
+                    "ja": "輝度",
+                    "zh-TW": "亮度",
+                    "ko": "밝기",
+                    "zh-CN": "亮度"
+                  },
+                  "default": 0.9,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Red",
+                  "type": "float",
+                  "label": "Red",
+                  "labels": {
+                    "ja": "赤",
+                    "zh-TW": "紅色",
+                    "ko": "빨간색",
+                    "zh-CN": "红色"
+                  },
+                  "default": 0.4,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Green",
+                  "type": "float",
+                  "label": "Green",
+                  "labels": {
+                    "ja": "緑",
+                    "zh-TW": "綠色",
+                    "ko": "녹색",
+                    "zh-CN": "绿色"
+                  },
+                  "default": 0.7,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Blue",
+                  "type": "float",
+                  "label": "Blue",
+                  "labels": {
+                    "ja": "青",
+                    "zh-TW": "藍色",
+                    "ko": "파란색",
+                    "zh-CN": "蓝色"
+                  },
+                  "default": 0.9,
+                  "min": 0,
+                  "max": 1,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Opacity",
+              "type": "float",
+              "label": "Opacity",
+              "labels": {
+                "ja": "不透明度",
+                "zh-TW": "不透明度",
+                "ko": "불투명도",
+                "zh-CN": "不透明度"
+              },
+              "default": 0.6,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": "Bulk tint opacity. Lower = more refraction visible.",
+              "descriptions": {
+                "ja": "バルクティントの不透明度。低いほど屈折がより見えます。",
+                "zh-TW": "整體色調不透明度。越低 = 可見折射越多。",
+                "ko": "벌크 틴트 불투명도. 낮을수록 굴절이 더 잘 보입니다.",
+                "zh-CN": "整体色调不透明度。越低 = 可见折射越多。"
+              }
+            },
+            {
+              "name": "Specular Power",
+              "type": "float",
+              "label": "Specular Power",
+              "labels": {
+                "ja": "鏡面指数",
+                "zh-TW": "高光指數",
+                "ko": "스펙큘러 파워",
+                "zh-CN": "高光指数"
+              },
+              "default": 64,
+              "min": 1,
+              "max": 256,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Specular Strength",
+              "type": "float",
+              "label": "Specular Strength",
+              "labels": {
+                "ja": "鏡面強度",
+                "zh-TW": "高光反射強度",
+                "ko": "스펙큘러 강도",
+                "zh-CN": "高光反射强度"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 4,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Ambient",
+              "type": "float",
+              "label": "Ambient",
+              "labels": {
+                "ja": "周囲光",
+                "zh-TW": "環境光",
+                "ko": "주변광",
+                "zh-CN": "环境光"
+              },
+              "default": 0.25,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Fresnel Power",
+              "type": "float",
+              "label": "Fresnel Power",
+              "labels": {
+                "ja": "フレネル指数",
+                "zh-TW": "菲涅爾指數",
+                "ko": "프레넬 파워",
+                "zh-CN": "菲涅尔指数"
+              },
+              "default": 4,
+              "min": 0.5,
+              "max": 8,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Refraction",
+              "type": "float",
+              "label": "Refraction",
+              "labels": {
+                "ja": "屈折",
+                "zh-TW": "折射",
+                "ko": "굴절",
+                "zh-CN": "折射"
+              },
+              "default": 0.02,
+              "min": 0,
+              "max": 0.1,
+              "options": null,
+              "description": "Screen-space refraction strength.",
+              "descriptions": {
+                "ja": "スクリーン空間での屈折強度。",
+                "zh-TW": "螢幕空間折射強度。",
+                "ko": "스크린 공간 굴절 강도.",
+                "zh-CN": "屏幕空间折射强度。"
+              }
+            },
+            {
+              "name": "Surface Radius",
+              "type": "float",
+              "label": "Surface Radius",
+              "labels": {
+                "ja": "(Surface Radius)",
+                "zh-TW": "(Surface Radius)",
+                "ko": "(Surface Radius)",
+                "zh-CN": "(Surface Radius)"
+              },
+              "default": 0.45,
+              "min": 0.15,
+              "max": 0.95,
+              "options": null,
+              "description": "How far from a lone particle the surface renders, as a fraction of the kernel radius. Bigger = fatter, blobbier surface reaching further from the particles; smaller = tight shrink-wrap that only shows dense clusters.",
+              "descriptions": {
+                "ja": "(How far from a lone particle the surface renders, as a fraction of the kernel radius. Bigger = fatter, blobbier surface reaching further from the particles; smaller = tight shrink-wrap that only shows dense clusters.)",
+                "zh-TW": "(How far from a lone particle the surface renders, as a fraction of the kernel radius. Bigger = fatter, blobbier surface reaching further from the particles; smaller = tight shrink-wrap that only shows dense clusters.)",
+                "ko": "(How far from a lone particle the surface renders, as a fraction of the kernel radius. Bigger = fatter, blobbier surface reaching further from the particles; smaller = tight shrink-wrap that only shows dense clusters.)",
+                "zh-CN": "(How far from a lone particle the surface renders, as a fraction of the kernel radius. Bigger = fatter, blobbier surface reaching further from the particles; smaller = tight shrink-wrap that only shows dense clusters.)"
+              }
+            },
+            {
+              "name": "Max Steps",
+              "type": "float",
+              "label": "Max Steps",
+              "labels": {
+                "ja": "最大ステップ数",
+                "zh-TW": "最大步數",
+                "ko": "최대 단계",
+                "zh-CN": "最大步数"
+              },
+              "default": 9,
+              "min": 7,
+              "max": 12,
+              "options": null,
+              "description": "Maximum raymarch iterations per pixel (at Fluid Size = 1). Higher = longer reach but more GPU cost. Auto-scaled by fluid size so small fluids get more steps.",
+              "descriptions": {
+                "ja": "ピクセルあたりの最大レイマーチ反復回数（流体サイズ=1の場合）。高いほど到達距離が長くなりますが、GPUコストが増します。小さな流体でも多くのステップが確保されるよう流体サイズによって自動スケーリングされます。",
+                "zh-TW": "每個像素的最大光線步進迭代次數（在流體尺寸 = 1 時）。越高 = 範圍越長但 GPU 開銷越大。隨流體尺寸自動縮放，因此小流體可以獲得更多步數。",
+                "ko": "픽셀당 최대 레이 마칭 반복 횟수(유체 크기 = 1 기준). 높을수록 도달 범위는 길어지지만 GPU 비용이 증가합니다. 유체 크기에 따라 자동 스케일되므로 작은 유체는 더 많은 단계를 거칩니다.",
+                "zh-CN": "每个像素的最大光线步进迭代次数（在流体尺寸 = 1 时）。越高 = 范围越长但 GPU 开销越大。随流体尺寸自动缩放，因此小流体可以获得更多步数。"
+              }
+            },
+            {
+              "name": "Far Step Size",
+              "type": "float",
+              "label": "Far Step Size",
+              "labels": {
+                "ja": "遠方ステップサイズ",
+                "zh-TW": "遠步長",
+                "ko": "원거리 단계 크기",
+                "zh-CN": "远步长"
+              },
+              "default": 1,
+              "min": 0.25,
+              "max": 4,
+              "options": null,
+              "description": "Empty-space stride as a multiple of the kernel radius h. Bigger = faster march but may overshoot thin sheets.",
+              "descriptions": {
+                "ja": "カーネル半径hの倍率としての空空間ストライド。大きいほどマーチングは速くなりますが、薄いシートを飛び越える可能性があります。",
+                "zh-TW": "空閒空間步長占內核半徑 h 的倍數。越大 = 步進越快但可能會跳過薄片。",
+                "ko": "커널 반경 h의 배수로서의 빈 공간 보폭. 클수록 마칭이 빠르지만 얇은 시트를 지나칠 수 있습니다.",
+                "zh-CN": "空闲空间步长占内核半径 h 的倍数。越大 = 步进越快但可能会跳过薄片。"
+              }
+            },
+            {
+              "name": "Near Step Size",
+              "type": "float",
+              "label": "Near Step Size",
+              "labels": {
+                "ja": "近距離ステップサイズ",
+                "zh-TW": "近步長",
+                "ko": "근거리 단계 크기",
+                "zh-CN": "近步长"
+              },
+              "default": 0.25,
+              "min": 0.05,
+              "max": 1,
+              "options": null,
+              "description": "Near-surface stride as a multiple of h. Smaller = crisper silhouette but more steps consumed near the surface.",
+              "descriptions": {
+                "ja": "hの倍率としての近表面ストライド。小さいほどシルエットは鮮明になりますが、表面近くでより多くのステップが消費されます。",
+                "zh-TW": "接近表面時的步長占 h 的倍數。越小 = 輪廓越清晰，但在表面附近消耗的步數更多。",
+                "ko": "h의 배수로서의 표면 근처 보폭. 작을수록 실루엣이 더 선명하지만 표면 근처에서 더 많은 단계가 소비됩니다.",
+                "zh-CN": "接近表面时的步长占 h 的倍数。越小 = 轮廓越清晰，但在表面附近消耗的步数更多。"
+              }
+            },
+            {
+              "name": "Step Switch",
+              "type": "float",
+              "label": "Step Switch",
+              "labels": {
+                "ja": "ステップ切り替え",
+                "zh-TW": "步長切換閾值",
+                "ko": "단계 스위치",
+                "zh-CN": "步长切换阈值"
+              },
+              "default": 0.2,
+              "min": 0.05,
+              "max": 1,
+              "options": null,
+              "description": "Density (as a fraction of the surface isolevel) at which the march drops from Far to Near step size. Lower = switch sooner, more accurate but slower.",
+              "descriptions": {
+                "ja": "マージが遠方ステップサイズから近距離ステップサイズに切り替わる密度（表面等値面の割合）。低いほど早く切り替わり、より正確ですが遅くなります。",
+                "zh-TW": "光线步进从远步长降低到近步长时的密度（作为表面等值面的一部分）。越低 = 切换越早，越精确但越慢。",
+                "ko": "마칭이 원거리에서 근거리 단계 크기로 떨어지는 밀도(표면 등가면의 일부). 낮을수록 더 빨리 전환되어 더 정확하지만 느려집니다.",
+                "zh-CN": "光线步进从远步长降低到近步长时的密度（作为表面等值面的一部分）。越低 = 切换越早，越精确但越慢。"
+              }
+            },
+            {
+              "name": "Normal Detail",
+              "type": "float",
+              "label": "Normal Detail",
+              "labels": {
+                "ja": "法線詳細",
+                "zh-TW": "法線細節",
+                "ko": "법선 디테일",
+                "zh-CN": "法线细节"
+              },
+              "default": 0.1,
+              "min": 0.02,
+              "max": 0.5,
+              "options": null,
+              "description": "Finite-difference sample distance for the surface normal, as a multiple of h. Smaller = more surface detail but noisier; larger = smoother but blurry.",
+              "descriptions": {
+                "ja": "表面法線に対する有限差分サンプリング距離をhの倍率で指定します。小さいほどより多くの表面詳細が出ますがノイズが乗ります。大きいほどスムーズですがぼやけます。",
+                "zh-TW": "用於表面法線差分計算的採樣距離，占 h 的倍數。越小 = 表面細節越多但噪點越多；越大 = 越平滑但越模糊。",
+                "ko": "표면 법선에 대한 유한 차분 샘플 거리(h의 배수). 작을수록 표면 디테일은 늘어나지만 노이즈가 심해지고, 클수록 부드럽지만 흐릿해집니다.",
+                "zh-CN": "用于表面法线差分计算的采样距离，占 h 的倍数。越小 = 表面细节越多但噪点越多；越大 = 越平滑但越模糊。"
+              }
+            }
+          ]
+        },
+        {
           "name": "Particle Properties",
           "type": "group",
           "label": "Particle Properties",
@@ -9229,7 +9761,7 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "空気抵抗",
+                "ja": "抵抗（空気）",
                 "zh-TW": "阻力（空氣）",
                 "ko": "항력 (공기)",
                 "zh-CN": "阻力（空气）"
@@ -9251,7 +9783,7 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "水中抵抗",
+                "ja": "抵抗（水中）",
                 "zh-TW": "阻力（水下）",
                 "ko": "항력 (수중)",
                 "zh-CN": "阻力（水下）"
@@ -9262,7 +9794,7 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水中抵抗",
+                "ja": "水抵抗",
                 "zh-TW": "水下阻力",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
@@ -9317,7 +9849,7 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響",
+                    "ja": "風の影響度",
                     "zh-TW": "風影響力",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
@@ -9383,7 +9915,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流時間スケール",
+                    "ja": "乱流タイムスケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -9407,7 +9939,7 @@
               "type": "group",
               "label": "Collide With",
               "labels": {
-                "ja": "と衝突",
+                "ja": "衝突判定",
                 "zh-TW": "與碰撞",
                 "ko": "충돌 대상",
                 "zh-CN": "碰撞对象"
@@ -9473,7 +10005,7 @@
                   "type": "bool",
                   "label": "Boobs",
                   "labels": {
-                    "ja": "ブブズ",
+                    "ja": "バスト",
                     "zh-TW": "胸部",
                     "ko": "보디스",
                     "zh-CN": "胸部"
@@ -9495,7 +10027,7 @@
                   "type": "bool",
                   "label": "Butts",
                   "labels": {
-                    "ja": "臀部",
+                    "ja": "お尻",
                     "zh-TW": "臀部",
                     "ko": "엉덩이",
                     "zh-CN": "臀部"
@@ -10011,7 +10543,7 @@
               "type": "float",
               "label": "Depth",
               "labels": {
-                "ja": "奥行き",
+                "ja": "深度",
                 "zh-TW": "深度",
                 "ko": "깊이",
                 "zh-CN": "深度"
@@ -10079,7 +10611,7 @@
           "type": "group",
           "label": "Pussy Hole",
           "labels": {
-            "ja": "陰部",
+            "ja": "陰部穴",
             "zh-TW": "陰部孔洞",
             "ko": "성기 구멍",
             "zh-CN": "生殖器孔洞"
@@ -10281,7 +10813,7 @@
               "type": "float",
               "label": "Depth",
               "labels": {
-                "ja": "奥行き",
+                "ja": "深度",
                 "zh-TW": "深度",
                 "ko": "깊이",
                 "zh-CN": "深度"
@@ -12259,7 +12791,7 @@
           "type": "group",
           "label": "Belly",
           "labels": {
-            "ja": "腹部",
+            "ja": "お腹",
             "zh-TW": "腹部",
             "ko": "배",
             "zh-CN": "腹部"
@@ -12641,7 +13173,7 @@
           "type": "group",
           "label": "Butts",
           "labels": {
-            "ja": "臀部",
+            "ja": "お尻",
             "zh-TW": "臀部",
             "ko": "엉덩이",
             "zh-CN": "臀部"
@@ -13787,7 +14319,7 @@
           "type": "group",
           "label": "Lower Arm",
           "labels": {
-            "ja": "前腕",
+            "ja": "下腕",
             "zh-TW": "前臂",
             "ko": "하완",
             "zh-CN": "前臂"
@@ -16237,7 +16769,7 @@
           "type": "bool",
           "label": "Visualize",
           "labels": {
-            "ja": "視覚化",
+            "ja": "可視化",
             "zh-TW": "視覺化",
             "ko": "시각화",
             "zh-CN": "可视化"
@@ -16259,7 +16791,7 @@
           "type": "float",
           "label": "Depth",
           "labels": {
-            "ja": "奥行き",
+            "ja": "深度",
             "zh-TW": "深度",
             "ko": "깊이",
             "zh-CN": "深度"

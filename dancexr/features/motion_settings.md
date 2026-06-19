@@ -31,10 +31,7 @@ stance width or toe-out angle across the entire animation.
 ## IK Settings
 
 **Inherit Bones** respects the inherit-parent constraints defined in
-the PMX file (e.g. hand bones following arm bones). Inherit-bone
-handling was improved in 2026.6 to fix a long-standing compatibility
-issue — many models that previously animated incorrectly now play
-back as intended. **Motion Leg IK**
+the PMX file (e.g. hand bones following arm bones). **Motion Leg IK**
 applies a generic two-bone leg IK pass during motion processing,
 allowing foot planting to work even on models without dedicated IK
 bones. **Model IK** uses the IK link chains defined in the PMX itself.

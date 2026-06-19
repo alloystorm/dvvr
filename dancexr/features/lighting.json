@@ -3,7 +3,7 @@
   "docPath": "features/lighting",
   "label": "Lighting",
   "labels": {
-    "ja": "照明",
+    "ja": "ライティング",
     "zh-TW": "照明",
     "ko": "조명",
     "zh-CN": "照明"
@@ -21,10 +21,10 @@
       "type": "group",
       "label": "Sun / Moon / Time",
       "labels": {
-        "ja": "(Sun / Moon / Time)",
-        "zh-TW": "(Sun / Moon / Time)",
-        "ko": "(Sun / Moon / Time)",
-        "zh-CN": "(Sun / Moon / Time)"
+        "ja": "太陽 / 月 / 時間",
+        "zh-TW": "太陽 / 月亮 / 時間",
+        "ko": "태양 / 달 / 시간",
+        "zh-CN": "太阳 / 月亮 / 时间"
       },
       "default": 0,
       "min": 0,
@@ -32,7 +32,7 @@
       "options": null,
       "description": "Settings for the sunlight. Keep in mind that sunlight is very bright and will require a higher exposure value.",
       "descriptions": {
-        "ja": "日光の設定。日光は非常に明るいため、より高い露出値が必要であることを考慮してください。",
+        "ja": "太陽光の設定。太陽光は非常に明るいため、高い露出値が必要であることを考慮してください。",
         "zh-TW": "日光的設定。請注意，日光非常明亮，需要更高的曝光值。",
         "ko": "햇빛에 대한 설정입니다. 햇빛은 매우 밝으므로 더 높은 노출 값이 필요하다는 점을 유념하십시오.",
         "zh-CN": "日光的设置。请注意，阳光非常明亮，需要更高的曝光值。"
@@ -54,7 +54,7 @@
           "options": null,
           "description": "The angle between the horizon and the plane the sun moves within.",
           "descriptions": {
-            "ja": "地平線と太陽が動く平面との間の角度。",
+            "ja": "地平線と太陽が動く面との角度。",
             "zh-TW": "水平線與太陽移動平面的夾角。",
             "ko": "지평선과 태양이 움직이는 평면 사이의 각도.",
             "zh-CN": "地平线与太阳运动平面之间的夹角。"
@@ -98,7 +98,7 @@
           "options": null,
           "description": "Set sun angle at a certain time, in hours.",
           "descriptions": {
-            "ja": "特定の時間における太陽角度を時間で設定する。",
+            "ja": "特定の時間に太陽角度を設定（時間単位）。",
             "zh-TW": "在特定時間設置太陽角度（小時）。",
             "ko": "특정 시간의 태양 각도를 시간 단위로 설정합니다.",
             "zh-CN": "在特定时间设置太阳角度，单位为小时。"
@@ -120,7 +120,7 @@
           "options": null,
           "description": "Enable or disable the sun.",
           "descriptions": {
-            "ja": "太陽の有効化または無効化。",
+            "ja": "太陽の有効化/無効化。",
             "zh-TW": "開啟或關閉太陽。",
             "ko": "태양을 활성화하거나 비활성화합니다.",
             "zh-CN": "启用或禁用太阳。"
@@ -131,7 +131,7 @@
           "type": "float",
           "label": "Sunlight Intensity",
           "labels": {
-            "ja": "太陽光の強度",
+            "ja": "太陽光強度",
             "zh-TW": "陽光強度",
             "ko": "햇빛 강도",
             "zh-CN": "阳光强度"
@@ -142,7 +142,7 @@
           "options": null,
           "description": "Brightness of the sun.",
           "descriptions": {
-            "ja": "太陽の輝度。",
+            "ja": "太陽の明るさ。",
             "zh-TW": "太陽亮度。",
             "ko": "태양의 밝기.",
             "zh-CN": "太阳亮度。"
@@ -186,7 +186,7 @@
           "options": null,
           "description": "This affects the size of the sun disc in procedural sky and the softness of the shadow.",
           "descriptions": {
-            "ja": "これは、プロシージャルスカイにおける太陽のディスクサイズと影の柔らかさに影響します。",
+            "ja": "これは、プロシージャルスカイにおける太陽円盤のサイズと影の柔らかさに影響します。",
             "zh-TW": "這會影響程序化天空中的太陽光盤大小以及陰影的柔和度。",
             "ko": "이것은 절차적 하늘에서 태양 원반의 크기와 그림자의 부드러움에 영향을 줍니다.",
             "zh-CN": "这会影响程序化天空中的太阳圆盘大小和阴影的柔和度。"
@@ -197,7 +197,7 @@
           "type": "float",
           "label": "Volumetric Multiplier",
           "labels": {
-            "ja": "ボリューム乗数",
+            "ja": "ボリュームマルチプライヤー",
             "zh-TW": "體積乘數",
             "ko": "볼륨 계수",
             "zh-CN": "体积倍数"
@@ -230,7 +230,7 @@
           "options": null,
           "description": "Enable or disable the moon.",
           "descriptions": {
-            "ja": "月の有効化または無効化。",
+            "ja": "月の有効化/無効化。",
             "zh-TW": "開啟或關閉月亮。",
             "ko": "달을 활성화하거나 비활성화합니다.",
             "zh-CN": "启用或禁用月亮。"
@@ -241,7 +241,7 @@
           "type": "float",
           "label": "Moonlight Intensity",
           "labels": {
-            "ja": "月光の強度",
+            "ja": "月の光の強度",
             "zh-TW": "月光強度",
             "ko": "달빛 강도",
             "zh-CN": "月光强度"
@@ -285,7 +285,7 @@
           "type": "float",
           "label": "Moon Phase",
           "labels": {
-            "ja": "月相",
+            "ja": "月の周期",
             "zh-TW": "月相",
             "ko": "달의 위상",
             "zh-CN": "月相"
@@ -296,7 +296,7 @@
           "options": null,
           "description": "The phase of the moon, where 0 is new moon and 1 is full moon.",
           "descriptions": {
-            "ja": "月の周期。0は新月、1は満月。",
+            "ja": "月の周期。0が新月、1が満月です。",
             "zh-TW": "月相，其中 0 為新月， 1 為滿月。",
             "ko": "달의 위상으로, 0은 초승달, 1은 보름달입니다.",
             "zh-CN": "月相，其中 0 为新月，1 为满月。"
@@ -318,7 +318,7 @@
           "options": null,
           "description": "The brightness of the earthshine on the moon.",
           "descriptions": {
-            "ja": "月に当たる地光の明るさ。",
+            "ja": "月にかかる地光の明るさ。",
             "zh-TW": "月亮上地光的亮度。",
             "ko": "달에 비치는 지구광의 밝기.",
             "zh-CN": "月亮上地光的亮度。"
@@ -428,7 +428,7 @@
               "options": null,
               "description": "The width of the window when cookie map is enabled.",
               "descriptions": {
-                "ja": "クッキーマップが有効なときのウィンドウの幅。",
+                "ja": "クッキーマップが有効な場合のウィンドウの幅。",
                 "zh-TW": "啟用濾片圖時窗口的寬度。",
                 "ko": "쿠키 맵이 활성화되었을 때 창문의 너비.",
                 "zh-CN": "启用滤镜图时窗口的宽度。"
@@ -450,7 +450,7 @@
               "options": null,
               "description": "The height of the window when cookie map is enabled.",
               "descriptions": {
-                "ja": "クッキーマップが有効なときのウィンドウの高さ。",
+                "ja": "クッキーマップが有効な場合のウィンドウの高さ。",
                 "zh-TW": "啟用濾片圖時窗口的高度。",
                 "ko": "쿠키 맵이 활성화되었을 때 창문의 높이.",
                 "zh-CN": "启用滤镜图时窗口的高度。"
@@ -461,7 +461,7 @@
               "type": "float",
               "label": "Bottom",
               "labels": {
-                "ja": "下部",
+                "ja": "底面",
                 "zh-TW": "底部",
                 "ko": "하부",
                 "zh-CN": "底部"
@@ -595,7 +595,7 @@
               "type": "float",
               "label": "Space X",
               "labels": {
-                "ja": "X空間",
+                "ja": "スペース X",
                 "zh-TW": "X 軸空間",
                 "ko": "X 공간",
                 "zh-CN": "X 轴空间"
@@ -617,7 +617,7 @@
               "type": "float",
               "label": "Space Y",
               "labels": {
-                "ja": "Y空間",
+                "ja": "スペース Y",
                 "zh-TW": "Y 軸空間",
                 "ko": "Y 공간",
                 "zh-CN": "Y 轴空间"
@@ -705,7 +705,7 @@
               "type": "float",
               "label": "Sky Light Angle",
               "labels": {
-                "ja": "スカイライトの角度",
+                "ja": "スカイライト角度",
                 "zh-TW": "天空光角度",
                 "ko": "스카이 라이트 각도",
                 "zh-CN": "天空光角度"
@@ -727,7 +727,7 @@
               "type": "bool",
               "label": "Sky Light Shadow",
               "labels": {
-                "ja": "スカイライトのシャドウ",
+                "ja": "スカイライトの影",
                 "zh-TW": "天空光陰影",
                 "ko": "스카이 라이트 그림자",
                 "zh-CN": "天空光阴影"
@@ -738,7 +738,7 @@
               "options": null,
               "description": "Enable shadow for the sky light.",
               "descriptions": {
-                "ja": "スカイライトのシャドウを有効化する。",
+                "ja": "スカイライトの影を有効にする。",
                 "zh-TW": "為天空光啟用陰影。",
                 "ko": "스카이 라이트에 그림자 활성화.",
                 "zh-CN": "为天空光启用阴影。"
@@ -751,7 +751,7 @@
           "type": "group",
           "label": "Shadow",
           "labels": {
-            "ja": "シャドウ",
+            "ja": "影",
             "zh-TW": "陰影",
             "ko": "그림자",
             "zh-CN": "阴影"
@@ -762,7 +762,7 @@
           "options": null,
           "description": "Shadow settings.",
           "descriptions": {
-            "ja": "シャドウ設定。",
+            "ja": "影の設定。",
             "zh-TW": "陰影設定。",
             "ko": "그림자 설정.",
             "zh-CN": "阴影设置。"
@@ -795,7 +795,7 @@
               "type": "bool",
               "label": "Contact Shadow",
               "labels": {
-                "ja": "コンタクトシャドウ",
+                "ja": "接触シャドウ",
                 "zh-TW": "接觸陰影",
                 "ko": "접촉 그림자",
                 "zh-CN": "接触阴影"
@@ -806,7 +806,7 @@
               "options": null,
               "description": "Enable shadows for small details.",
               "descriptions": {
-                "ja": "小さなディテールに影を有効にする。",
+                "ja": "小さなディテールにシャドウを有効化します。",
                 "zh-TW": "為小細節啟用陰影。",
                 "ko": "작은 디테일에 그림자 활성화.",
                 "zh-CN": "为小型细节启用阴影。"
@@ -828,7 +828,7 @@
               "options": null,
               "description": "Sample count when using raytracing shadows. Higher = better result but worse performance.",
               "descriptions": {
-                "ja": "レイ トレーシングシャドウ使用時のサンプル数。高いほど結果は良くなるが、パフォーマンスは低下する。",
+                "ja": "レイ トレーシングシャドウを使用する場合のサンプル数。高いほど結果は良くなりますが、パフォーマンスは低下します。",
                 "zh-TW": "使用光線追蹤陰影時的樣本數。越高 = 結果越好但性能越差。",
                 "ko": "레이 트레이싱 그림자 사용 시 샘플 수. 높을수록 결과는 좋지만 성능은 저하됨.",
                 "zh-CN": "使用光线追踪阴影时的采样计数。越高 = 结果越好，但性能越差。"
@@ -850,7 +850,7 @@
               "options": null,
               "description": "Enable denoising when using raytracing shadows.",
               "descriptions": {
-                "ja": "レイ トレーシングシャドウ使用時にノイズ除去を有効にする。",
+                "ja": "レイ トレーシングシャドウを使用する場合にノイズ除去を有効化します。",
                 "zh-TW": "使用光線追蹤陰影時啟用去噪。",
                 "ko": "레이 트레이싱 그림자 사용 시 디노이징 활성화.",
                 "zh-CN": "使用光线追踪阴影时启用去噪。"
@@ -894,7 +894,7 @@
               "options": null,
               "description": "Reduce intensity of the shadow.",
               "descriptions": {
-                "ja": "シャドウの強度を減らす。",
+                "ja": "シャドウの強度を低下させる。",
                 "zh-TW": "減少陰影的強度。",
                 "ko": "그림자 강도 감소.",
                 "zh-CN": "降低阴影的强度。"
@@ -918,7 +918,7 @@
           "options": null,
           "description": "Enable lens flare",
           "descriptions": {
-            "ja": "レンズフレアを有効化する",
+            "ja": "レンズフレアを有効にする。",
             "zh-TW": "啟用鏡頭眩光",
             "ko": "렌즈 플레어 활성화",
             "zh-CN": "启用镜头光晕"
@@ -953,7 +953,7 @@
           "type": "float",
           "label": "Volumetric Multiplier",
           "labels": {
-            "ja": "ボリューム乗数",
+            "ja": "ボリュームマルチプライヤー",
             "zh-TW": "體積乘數",
             "ko": "볼륨 계수",
             "zh-CN": "体积倍数"
@@ -1019,7 +1019,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -1085,7 +1085,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -1263,7 +1263,7 @@
           "type": "float",
           "label": "Emitter Radius",
           "labels": {
-            "ja": "エミッタ半径",
+            "ja": "エミッター半径",
             "zh-TW": "發射器半徑",
             "ko": "방출기 반경",
             "zh-CN": "发射器半径"
@@ -1340,7 +1340,7 @@
           "options": null,
           "description": "Controls how bright the light source is when being renderred. Set to 0 to make it invisible.",
           "descriptions": {
-            "ja": "レンダリング時に光源がどれだけ明るであるかを制御します。0に設定すると非表示になります。",
+            "ja": "レンダリング時に光源がどれだけ明るくなるかを制御します。0に設定すると非表示になります。",
             "zh-TW": "控制光源在渲染時的亮度。設為 0 可使其隱形。",
             "ko": "렌더링 시 광원의 밝기를 제어합니다. 0으로 설정하면 보이지 않습니다.",
             "zh-CN": "控制光源在渲染时的亮度。设置为0使其不可见。"
@@ -1362,7 +1362,7 @@
           "options": null,
           "description": "Length of the volumatric light cone.",
           "descriptions": {
-            "ja": "ボリューム光コーンの長さ。",
+            "ja": "ボリューメトリックライトコーンの長さ。",
             "zh-TW": "體積光源錐體的長度。",
             "ko": "볼류메트릭 광원 원뿔의 길이.",
             "zh-CN": "体积光锥的长度。"
@@ -1450,7 +1450,7 @@
           "options": null,
           "description": "Height of light position.",
           "descriptions": {
-            "ja": "光源の位置の高さ。",
+            "ja": "ライト位置の高さ。",
             "zh-TW": "光源位置的高度。",
             "ko": "광원 위치의 높이.",
             "zh-CN": "光源位置的高度。"
@@ -1505,7 +1505,7 @@
           "type": "group",
           "label": "Suspension",
           "labels": {
-            "ja": "吊り下げ",
+            "ja": "サスペンション",
             "zh-TW": "懸掛",
             "ko": "현수",
             "zh-CN": "悬挂"
@@ -1527,7 +1527,7 @@
               "type": "int",
               "label": "Suspension Segments",
               "labels": {
-                "ja": "サスペンションセグメント",
+                "ja": "懸架セグメント",
                 "zh-TW": "懸掛段落",
                 "ko": "현수 분할",
                 "zh-CN": "悬挂节段"
@@ -1538,7 +1538,7 @@
               "options": null,
               "description": "Enable suspension effect.",
               "descriptions": {
-                "ja": "サスペンションエフェクトを有効にする。",
+                "ja": "懸架エフェクトを有効化。",
                 "zh-TW": "啟用懸掛效果。",
                 "ko": "현수 효과 활성화.",
                 "zh-CN": "启用悬挂效果。"
@@ -1549,7 +1549,7 @@
               "type": "float",
               "label": "Suspension Distance",
               "labels": {
-                "ja": "サスペンション距離",
+                "ja": "懸架距離",
                 "zh-TW": "懸掛距離",
                 "ko": "현수 거리",
                 "zh-CN": "悬挂距离"
@@ -1582,7 +1582,7 @@
               "options": null,
               "description": "Control speed to maintain swing motion",
               "descriptions": {
-                "ja": "スイング動作を維持するための制御速度。",
+                "ja": "スイング動作を維持するための速度を制御",
                 "zh-TW": "控制速度以維持擺動動作",
                 "ko": "스윙 동작을 유지하기 위한 속도 제어.",
                 "zh-CN": "控制维持摆动运动的速度"
@@ -1606,7 +1606,7 @@
           "options": null,
           "description": "Use actor's position and orientation when positioning the lights.",
           "descriptions": {
-            "ja": "ライトを配置する際にアクターの位置と方向を使用する。",
+            "ja": "ライトを配置する際に、アクターの位置と向きを使用。",
             "zh-TW": "定位燈光時使用角色的位置和方向。",
             "ko": "조명 위치 설정 시 액터의 위치와 방향 사용.",
             "zh-CN": "使用角色的位置和朝向来定位灯光。"
@@ -1694,7 +1694,7 @@
               "options": null,
               "description": "How many lights in the array.",
               "descriptions": {
-                "ja": "配列内の光源数。",
+                "ja": "アレイ内のライトの数。",
                 "zh-TW": "陣列中的燈光數量。",
                 "ko": "배열에 있는 라이트 개수.",
                 "zh-CN": "阵列中的灯光数量。"
@@ -1705,7 +1705,7 @@
               "type": "int",
               "label": "Formation",
               "labels": {
-                "ja": "配置",
+                "ja": "隊形",
                 "zh-TW": "陣型",
                 "ko": "배치",
                 "zh-CN": "阵列"
@@ -1716,7 +1716,7 @@
               "options": ["Circle", "Grid"],
               "description": "Use grid or circle formation.",
               "descriptions": {
-                "ja": "グリッドまたは円の配置を使用。",
+                "ja": "グリッドまたは円の形状を使用。",
                 "zh-TW": "使用網格或圓形陣列。",
                 "ko": "격자 또는 원형 배열 사용.",
                 "zh-CN": "使用网格或圆形阵列。"
@@ -1727,7 +1727,7 @@
               "type": "float",
               "label": "Dist / Radius",
               "labels": {
-                "ja": "距離 / 半径",
+                "ja": "距離/半径",
                 "zh-TW": "距離 / 半徑",
                 "ko": "거리 / 반경",
                 "zh-CN": "距离 / 半径"
@@ -1738,7 +1738,7 @@
               "options": null,
               "description": "Distance between the lights in grid mode.",
               "descriptions": {
-                "ja": "グリッドモードでの光源間の距離。",
+                "ja": "グリッドモードでのライト間の距離。",
                 "zh-TW": "網格模式下燈光之間的距離。",
                 "ko": "그리드 모드에서 라이트 사이의 거리.",
                 "zh-CN": "网格模式下灯光之间的距离。"
@@ -1760,7 +1760,7 @@
               "options": null,
               "description": "The angle of the lights in circle mode.",
               "descriptions": {
-                "ja": "円モードでの光源の角度。",
+                "ja": "円モードでのライトの角度。",
                 "zh-TW": "圓形模式下燈光的角度。",
                 "ko": "원형 모드에서 라이트의 각도.",
                 "zh-CN": "圆形模式下灯光之间的角度。"
@@ -1773,7 +1773,7 @@
           "type": "group",
           "label": "Shadow",
           "labels": {
-            "ja": "シャドウ",
+            "ja": "影",
             "zh-TW": "陰影",
             "ko": "그림자",
             "zh-CN": "阴影"
@@ -1817,7 +1817,7 @@
               "type": "bool",
               "label": "Contact Shadow",
               "labels": {
-                "ja": "コンタクトシャドウ",
+                "ja": "接触シャドウ",
                 "zh-TW": "接觸陰影",
                 "ko": "접촉 그림자",
                 "zh-CN": "接触阴影"
@@ -1828,7 +1828,7 @@
               "options": null,
               "description": "Enable shadows for small details.",
               "descriptions": {
-                "ja": "小さなディテールに影を有効にする。",
+                "ja": "小さなディテールにシャドウを有効化します。",
                 "zh-TW": "為小細節啟用陰影。",
                 "ko": "작은 디테일에 그림자 활성화.",
                 "zh-CN": "为小型细节启用阴影。"
@@ -1850,7 +1850,7 @@
               "options": null,
               "description": "Sample count when using raytracing shadows. Higher = better result but worse performance.",
               "descriptions": {
-                "ja": "レイ トレーシングシャドウ使用時のサンプル数。高いほど結果は良くなるが、パフォーマンスは低下する。",
+                "ja": "レイ トレーシングシャドウを使用する場合のサンプル数。高いほど結果は良くなりますが、パフォーマンスは低下します。",
                 "zh-TW": "使用光線追蹤陰影時的樣本數。越高 = 結果越好但性能越差。",
                 "ko": "레이 트레이싱 그림자 사용 시 샘플 수. 높을수록 결과는 좋지만 성능은 저하됨.",
                 "zh-CN": "使用光线追踪阴影时的采样计数。越高 = 结果越好，但性能越差。"
@@ -1872,7 +1872,7 @@
               "options": null,
               "description": "Enable denoising when using raytracing shadows.",
               "descriptions": {
-                "ja": "レイ トレーシングシャドウ使用時にノイズ除去を有効にする。",
+                "ja": "レイ トレーシングシャドウを使用する場合にノイズ除去を有効化します。",
                 "zh-TW": "使用光線追蹤陰影時啟用去噪。",
                 "ko": "레이 트레이싱 그림자 사용 시 디노이징 활성화.",
                 "zh-CN": "使用光线追踪阴影时启用去噪。"
@@ -1916,7 +1916,7 @@
               "options": null,
               "description": "Reduce intensity of the shadow.",
               "descriptions": {
-                "ja": "シャドウの強度を減らす。",
+                "ja": "シャドウの強度を低下させる。",
                 "zh-TW": "減少陰影的強度。",
                 "ko": "그림자 강도 감소.",
                 "zh-CN": "降低阴影的强度。"
@@ -1953,7 +1953,7 @@
           "type": "float",
           "label": "Volumetric Multiplier",
           "labels": {
-            "ja": "ボリューム乗数",
+            "ja": "ボリュームマルチプライヤー",
             "zh-TW": "體積乘數",
             "ko": "볼륨 계수",
             "zh-CN": "体积倍数"
@@ -2019,7 +2019,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -2085,7 +2085,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -2263,7 +2263,7 @@
           "type": "float",
           "label": "Emitter Radius",
           "labels": {
-            "ja": "エミッタ半径",
+            "ja": "エミッター半径",
             "zh-TW": "發射器半徑",
             "ko": "방출기 반경",
             "zh-CN": "发射器半径"
@@ -2340,7 +2340,7 @@
           "options": null,
           "description": "Controls how bright the light source is when being renderred. Set to 0 to make it invisible.",
           "descriptions": {
-            "ja": "レンダリング時に光源がどれだけ明るであるかを制御します。0に設定すると非表示になります。",
+            "ja": "レンダリング時に光源がどれだけ明るくなるかを制御します。0に設定すると非表示になります。",
             "zh-TW": "控制光源在渲染時的亮度。設為 0 可使其隱形。",
             "ko": "렌더링 시 광원의 밝기를 제어합니다. 0으로 설정하면 보이지 않습니다.",
             "zh-CN": "控制光源在渲染时的亮度。设置为0使其不可见。"
@@ -2362,7 +2362,7 @@
           "options": null,
           "description": "Length of the volumatric light cone.",
           "descriptions": {
-            "ja": "ボリューム光コーンの長さ。",
+            "ja": "ボリューメトリックライトコーンの長さ。",
             "zh-TW": "體積光源錐體的長度。",
             "ko": "볼류메트릭 광원 원뿔의 길이.",
             "zh-CN": "体积光锥的长度。"
@@ -2450,7 +2450,7 @@
           "options": null,
           "description": "Height of light position.",
           "descriptions": {
-            "ja": "光源の位置の高さ。",
+            "ja": "ライト位置の高さ。",
             "zh-TW": "光源位置的高度。",
             "ko": "광원 위치의 높이.",
             "zh-CN": "光源位置的高度。"
@@ -2505,7 +2505,7 @@
           "type": "group",
           "label": "Suspension",
           "labels": {
-            "ja": "吊り下げ",
+            "ja": "サスペンション",
             "zh-TW": "懸掛",
             "ko": "현수",
             "zh-CN": "悬挂"
@@ -2527,7 +2527,7 @@
               "type": "int",
               "label": "Suspension Segments",
               "labels": {
-                "ja": "サスペンションセグメント",
+                "ja": "懸架セグメント",
                 "zh-TW": "懸掛段落",
                 "ko": "현수 분할",
                 "zh-CN": "悬挂节段"
@@ -2538,7 +2538,7 @@
               "options": null,
               "description": "Enable suspension effect.",
               "descriptions": {
-                "ja": "サスペンションエフェクトを有効にする。",
+                "ja": "懸架エフェクトを有効化。",
                 "zh-TW": "啟用懸掛效果。",
                 "ko": "현수 효과 활성화.",
                 "zh-CN": "启用悬挂效果。"
@@ -2549,7 +2549,7 @@
               "type": "float",
               "label": "Suspension Distance",
               "labels": {
-                "ja": "サスペンション距離",
+                "ja": "懸架距離",
                 "zh-TW": "懸掛距離",
                 "ko": "현수 거리",
                 "zh-CN": "悬挂距离"
@@ -2582,7 +2582,7 @@
               "options": null,
               "description": "Control speed to maintain swing motion",
               "descriptions": {
-                "ja": "スイング動作を維持するための制御速度。",
+                "ja": "スイング動作を維持するための速度を制御",
                 "zh-TW": "控制速度以維持擺動動作",
                 "ko": "스윙 동작을 유지하기 위한 속도 제어.",
                 "zh-CN": "控制维持摆动运动的速度"
@@ -2606,7 +2606,7 @@
           "options": null,
           "description": "Use actor's position and orientation when positioning the lights.",
           "descriptions": {
-            "ja": "ライトを配置する際にアクターの位置と方向を使用する。",
+            "ja": "ライトを配置する際に、アクターの位置と向きを使用。",
             "zh-TW": "定位燈光時使用角色的位置和方向。",
             "ko": "조명 위치 설정 시 액터의 위치와 방향 사용.",
             "zh-CN": "使用角色的位置和朝向来定位灯光。"
@@ -2694,7 +2694,7 @@
               "options": null,
               "description": "How many lights in the array.",
               "descriptions": {
-                "ja": "配列内の光源数。",
+                "ja": "アレイ内のライトの数。",
                 "zh-TW": "陣列中的燈光數量。",
                 "ko": "배열에 있는 라이트 개수.",
                 "zh-CN": "阵列中的灯光数量。"
@@ -2705,7 +2705,7 @@
               "type": "int",
               "label": "Formation",
               "labels": {
-                "ja": "配置",
+                "ja": "隊形",
                 "zh-TW": "陣型",
                 "ko": "배치",
                 "zh-CN": "阵列"
@@ -2716,7 +2716,7 @@
               "options": ["Circle", "Grid"],
               "description": "Use grid or circle formation.",
               "descriptions": {
-                "ja": "グリッドまたは円の配置を使用。",
+                "ja": "グリッドまたは円の形状を使用。",
                 "zh-TW": "使用網格或圓形陣列。",
                 "ko": "격자 또는 원형 배열 사용.",
                 "zh-CN": "使用网格或圆形阵列。"
@@ -2727,7 +2727,7 @@
               "type": "float",
               "label": "Dist / Radius",
               "labels": {
-                "ja": "距離 / 半径",
+                "ja": "距離/半径",
                 "zh-TW": "距離 / 半徑",
                 "ko": "거리 / 반경",
                 "zh-CN": "距离 / 半径"
@@ -2738,7 +2738,7 @@
               "options": null,
               "description": "Distance between the lights in grid mode.",
               "descriptions": {
-                "ja": "グリッドモードでの光源間の距離。",
+                "ja": "グリッドモードでのライト間の距離。",
                 "zh-TW": "網格模式下燈光之間的距離。",
                 "ko": "그리드 모드에서 라이트 사이의 거리.",
                 "zh-CN": "网格模式下灯光之间的距离。"
@@ -2760,7 +2760,7 @@
               "options": null,
               "description": "The angle of the lights in circle mode.",
               "descriptions": {
-                "ja": "円モードでの光源の角度。",
+                "ja": "円モードでのライトの角度。",
                 "zh-TW": "圓形模式下燈光的角度。",
                 "ko": "원형 모드에서 라이트의 각도.",
                 "zh-CN": "圆形模式下灯光之间的角度。"
@@ -2773,7 +2773,7 @@
           "type": "group",
           "label": "Shadow",
           "labels": {
-            "ja": "シャドウ",
+            "ja": "影",
             "zh-TW": "陰影",
             "ko": "그림자",
             "zh-CN": "阴影"
@@ -2817,7 +2817,7 @@
               "type": "bool",
               "label": "Contact Shadow",
               "labels": {
-                "ja": "コンタクトシャドウ",
+                "ja": "接触シャドウ",
                 "zh-TW": "接觸陰影",
                 "ko": "접촉 그림자",
                 "zh-CN": "接触阴影"
@@ -2828,7 +2828,7 @@
               "options": null,
               "description": "Enable shadows for small details.",
               "descriptions": {
-                "ja": "小さなディテールに影を有効にする。",
+                "ja": "小さなディテールにシャドウを有効化します。",
                 "zh-TW": "為小細節啟用陰影。",
                 "ko": "작은 디테일에 그림자 활성화.",
                 "zh-CN": "为小型细节启用阴影。"
@@ -2850,7 +2850,7 @@
               "options": null,
               "description": "Sample count when using raytracing shadows. Higher = better result but worse performance.",
               "descriptions": {
-                "ja": "レイ トレーシングシャドウ使用時のサンプル数。高いほど結果は良くなるが、パフォーマンスは低下する。",
+                "ja": "レイ トレーシングシャドウを使用する場合のサンプル数。高いほど結果は良くなりますが、パフォーマンスは低下します。",
                 "zh-TW": "使用光線追蹤陰影時的樣本數。越高 = 結果越好但性能越差。",
                 "ko": "레이 트레이싱 그림자 사용 시 샘플 수. 높을수록 결과는 좋지만 성능은 저하됨.",
                 "zh-CN": "使用光线追踪阴影时的采样计数。越高 = 结果越好，但性能越差。"
@@ -2872,7 +2872,7 @@
               "options": null,
               "description": "Enable denoising when using raytracing shadows.",
               "descriptions": {
-                "ja": "レイ トレーシングシャドウ使用時にノイズ除去を有効にする。",
+                "ja": "レイ トレーシングシャドウを使用する場合にノイズ除去を有効化します。",
                 "zh-TW": "使用光線追蹤陰影時啟用去噪。",
                 "ko": "레이 트레이싱 그림자 사용 시 디노이징 활성화.",
                 "zh-CN": "使用光线追踪阴影时启用去噪。"
@@ -2916,7 +2916,7 @@
               "options": null,
               "description": "Reduce intensity of the shadow.",
               "descriptions": {
-                "ja": "シャドウの強度を減らす。",
+                "ja": "シャドウの強度を低下させる。",
                 "zh-TW": "減少陰影的強度。",
                 "ko": "그림자 강도 감소.",
                 "zh-CN": "降低阴影的强度。"
@@ -2953,7 +2953,7 @@
           "type": "float",
           "label": "Volumetric Multiplier",
           "labels": {
-            "ja": "ボリューム乗数",
+            "ja": "ボリュームマルチプライヤー",
             "zh-TW": "體積乘數",
             "ko": "볼륨 계수",
             "zh-CN": "体积倍数"
@@ -3019,7 +3019,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -3085,7 +3085,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -3263,7 +3263,7 @@
           "type": "float",
           "label": "Emitter Radius",
           "labels": {
-            "ja": "エミッタ半径",
+            "ja": "エミッター半径",
             "zh-TW": "發射器半徑",
             "ko": "방출기 반경",
             "zh-CN": "发射器半径"
@@ -3340,7 +3340,7 @@
           "options": null,
           "description": "Controls how bright the light source is when being renderred. Set to 0 to make it invisible.",
           "descriptions": {
-            "ja": "レンダリング時に光源がどれだけ明るであるかを制御します。0に設定すると非表示になります。",
+            "ja": "レンダリング時に光源がどれだけ明るくなるかを制御します。0に設定すると非表示になります。",
             "zh-TW": "控制光源在渲染時的亮度。設為 0 可使其隱形。",
             "ko": "렌더링 시 광원의 밝기를 제어합니다. 0으로 설정하면 보이지 않습니다.",
             "zh-CN": "控制光源在渲染时的亮度。设置为0使其不可见。"
@@ -3362,7 +3362,7 @@
           "options": null,
           "description": "Length of the volumatric light cone.",
           "descriptions": {
-            "ja": "ボリューム光コーンの長さ。",
+            "ja": "ボリューメトリックライトコーンの長さ。",
             "zh-TW": "體積光源錐體的長度。",
             "ko": "볼류메트릭 광원 원뿔의 길이.",
             "zh-CN": "体积光锥的长度。"
@@ -3450,7 +3450,7 @@
           "options": null,
           "description": "Height of light position.",
           "descriptions": {
-            "ja": "光源の位置の高さ。",
+            "ja": "ライト位置の高さ。",
             "zh-TW": "光源位置的高度。",
             "ko": "광원 위치의 높이.",
             "zh-CN": "光源位置的高度。"
@@ -3505,7 +3505,7 @@
           "type": "group",
           "label": "Suspension",
           "labels": {
-            "ja": "吊り下げ",
+            "ja": "サスペンション",
             "zh-TW": "懸掛",
             "ko": "현수",
             "zh-CN": "悬挂"
@@ -3527,7 +3527,7 @@
               "type": "int",
               "label": "Suspension Segments",
               "labels": {
-                "ja": "サスペンションセグメント",
+                "ja": "懸架セグメント",
                 "zh-TW": "懸掛段落",
                 "ko": "현수 분할",
                 "zh-CN": "悬挂节段"
@@ -3538,7 +3538,7 @@
               "options": null,
               "description": "Enable suspension effect.",
               "descriptions": {
-                "ja": "サスペンションエフェクトを有効にする。",
+                "ja": "懸架エフェクトを有効化。",
                 "zh-TW": "啟用懸掛效果。",
                 "ko": "현수 효과 활성화.",
                 "zh-CN": "启用悬挂效果。"
@@ -3549,7 +3549,7 @@
               "type": "float",
               "label": "Suspension Distance",
               "labels": {
-                "ja": "サスペンション距離",
+                "ja": "懸架距離",
                 "zh-TW": "懸掛距離",
                 "ko": "현수 거리",
                 "zh-CN": "悬挂距离"
@@ -3582,7 +3582,7 @@
               "options": null,
               "description": "Control speed to maintain swing motion",
               "descriptions": {
-                "ja": "スイング動作を維持するための制御速度。",
+                "ja": "スイング動作を維持するための速度を制御",
                 "zh-TW": "控制速度以維持擺動動作",
                 "ko": "스윙 동작을 유지하기 위한 속도 제어.",
                 "zh-CN": "控制维持摆动运动的速度"
@@ -3606,7 +3606,7 @@
           "options": null,
           "description": "Use actor's position and orientation when positioning the lights.",
           "descriptions": {
-            "ja": "ライトを配置する際にアクターの位置と方向を使用する。",
+            "ja": "ライトを配置する際に、アクターの位置と向きを使用。",
             "zh-TW": "定位燈光時使用角色的位置和方向。",
             "ko": "조명 위치 설정 시 액터의 위치와 방향 사용.",
             "zh-CN": "使用角色的位置和朝向来定位灯光。"
@@ -3694,7 +3694,7 @@
               "options": null,
               "description": "How many lights in the array.",
               "descriptions": {
-                "ja": "配列内の光源数。",
+                "ja": "アレイ内のライトの数。",
                 "zh-TW": "陣列中的燈光數量。",
                 "ko": "배열에 있는 라이트 개수.",
                 "zh-CN": "阵列中的灯光数量。"
@@ -3705,7 +3705,7 @@
               "type": "int",
               "label": "Formation",
               "labels": {
-                "ja": "配置",
+                "ja": "隊形",
                 "zh-TW": "陣型",
                 "ko": "배치",
                 "zh-CN": "阵列"
@@ -3716,7 +3716,7 @@
               "options": ["Circle", "Grid"],
               "description": "Use grid or circle formation.",
               "descriptions": {
-                "ja": "グリッドまたは円の配置を使用。",
+                "ja": "グリッドまたは円の形状を使用。",
                 "zh-TW": "使用網格或圓形陣列。",
                 "ko": "격자 또는 원형 배열 사용.",
                 "zh-CN": "使用网格或圆形阵列。"
@@ -3727,7 +3727,7 @@
               "type": "float",
               "label": "Dist / Radius",
               "labels": {
-                "ja": "距離 / 半径",
+                "ja": "距離/半径",
                 "zh-TW": "距離 / 半徑",
                 "ko": "거리 / 반경",
                 "zh-CN": "距离 / 半径"
@@ -3738,7 +3738,7 @@
               "options": null,
               "description": "Distance between the lights in grid mode.",
               "descriptions": {
-                "ja": "グリッドモードでの光源間の距離。",
+                "ja": "グリッドモードでのライト間の距離。",
                 "zh-TW": "網格模式下燈光之間的距離。",
                 "ko": "그리드 모드에서 라이트 사이의 거리.",
                 "zh-CN": "网格模式下灯光之间的距离。"
@@ -3760,7 +3760,7 @@
               "options": null,
               "description": "The angle of the lights in circle mode.",
               "descriptions": {
-                "ja": "円モードでの光源の角度。",
+                "ja": "円モードでのライトの角度。",
                 "zh-TW": "圓形模式下燈光的角度。",
                 "ko": "원형 모드에서 라이트의 각도.",
                 "zh-CN": "圆形模式下灯光之间的角度。"
@@ -3773,7 +3773,7 @@
           "type": "group",
           "label": "Shadow",
           "labels": {
-            "ja": "シャドウ",
+            "ja": "影",
             "zh-TW": "陰影",
             "ko": "그림자",
             "zh-CN": "阴影"
@@ -3817,7 +3817,7 @@
               "type": "bool",
               "label": "Contact Shadow",
               "labels": {
-                "ja": "コンタクトシャドウ",
+                "ja": "接触シャドウ",
                 "zh-TW": "接觸陰影",
                 "ko": "접촉 그림자",
                 "zh-CN": "接触阴影"
@@ -3828,7 +3828,7 @@
               "options": null,
               "description": "Enable shadows for small details.",
               "descriptions": {
-                "ja": "小さなディテールに影を有効にする。",
+                "ja": "小さなディテールにシャドウを有効化します。",
                 "zh-TW": "為小細節啟用陰影。",
                 "ko": "작은 디테일에 그림자 활성화.",
                 "zh-CN": "为小型细节启用阴影。"
@@ -3850,7 +3850,7 @@
               "options": null,
               "description": "Sample count when using raytracing shadows. Higher = better result but worse performance.",
               "descriptions": {
-                "ja": "レイ トレーシングシャドウ使用時のサンプル数。高いほど結果は良くなるが、パフォーマンスは低下する。",
+                "ja": "レイ トレーシングシャドウを使用する場合のサンプル数。高いほど結果は良くなりますが、パフォーマンスは低下します。",
                 "zh-TW": "使用光線追蹤陰影時的樣本數。越高 = 結果越好但性能越差。",
                 "ko": "레이 트레이싱 그림자 사용 시 샘플 수. 높을수록 결과는 좋지만 성능은 저하됨.",
                 "zh-CN": "使用光线追踪阴影时的采样计数。越高 = 结果越好，但性能越差。"
@@ -3872,7 +3872,7 @@
               "options": null,
               "description": "Enable denoising when using raytracing shadows.",
               "descriptions": {
-                "ja": "レイ トレーシングシャドウ使用時にノイズ除去を有効にする。",
+                "ja": "レイ トレーシングシャドウを使用する場合にノイズ除去を有効化します。",
                 "zh-TW": "使用光線追蹤陰影時啟用去噪。",
                 "ko": "레이 트레이싱 그림자 사용 시 디노이징 활성화.",
                 "zh-CN": "使用光线追踪阴影时启用去噪。"
@@ -3916,7 +3916,7 @@
               "options": null,
               "description": "Reduce intensity of the shadow.",
               "descriptions": {
-                "ja": "シャドウの強度を減らす。",
+                "ja": "シャドウの強度を低下させる。",
                 "zh-TW": "減少陰影的強度。",
                 "ko": "그림자 강도 감소.",
                 "zh-CN": "降低阴影的强度。"
@@ -3931,7 +3931,7 @@
       "type": "float",
       "label": "Overall Intensity",
       "labels": {
-        "ja": "全体強度",
+        "ja": "全体的な強度",
         "zh-TW": "整體強度",
         "ko": "전체 강도",
         "zh-CN": "整体强度"
@@ -3942,7 +3942,7 @@
       "options": null,
       "description": "Overall intensity of all the lights.",
       "descriptions": {
-        "ja": "すべてのライトの総合的な強度。",
+        "ja": "すべてのライトの全体的な強度。",
         "zh-TW": "所有光源的整體強度。",
         "ko": "모든 조명의 전체 강도입니다.",
         "zh-CN": "所有光源的总体强度。"
@@ -3953,7 +3953,7 @@
       "type": "float",
       "label": "Sky Ambient",
       "labels": {
-        "ja": "スカイアンビエント",
+        "ja": "空の環境光",
         "zh-TW": "天空環境光",
         "ko": "스카이 앰비언트",
         "zh-CN": "天空环境光"
@@ -4074,7 +4074,7 @@
           "options": ["Normal", "Fast", "Instant"],
           "description": "The speed of auto exposure level change when the lighting condition changes.",
           "descriptions": {
-            "ja": "照明条件が変化した際の自動露出レベルの変化速度。",
+            "ja": "ライティング条件が変化した際の自動露出レベル変化の速度。",
             "zh-TW": "照明條件改變時，自動曝光級別變化的速度。",
             "ko": "조명 조건이 변경될 때 자동 노출 레벨이 변하는 속도.",
             "zh-CN": "当照明条件变化时，自动曝光级别改变的速度。"
@@ -4098,7 +4098,7 @@
       "options": null,
       "description": "Fog level",
       "descriptions": {
-        "ja": "霧レベル",
+        "ja": "霧のレベル",
         "zh-TW": "霧度",
         "ko": "안개 레벨",
         "zh-CN": "雾级别"
@@ -4109,7 +4109,7 @@
       "type": "int",
       "label": "Light Limit",
       "labels": {
-        "ja": "ライトの制限",
+        "ja": "光の制限",
         "zh-TW": "光源限制",
         "ko": "광원 제한",
         "zh-CN": "光源限制"
@@ -4120,7 +4120,7 @@
       "options": null,
       "description": "Set max number of lights available in the scene.",
       "descriptions": {
-        "ja": "シーンで利用可能な最大ライト数を設定します。",
+        "ja": "シーンで利用可能なライトの最大数を設定します。",
         "zh-TW": "設定場景中可用的最大光源數量。",
         "ko": "장면에서 사용할 수 있는 최대 조명 수를 설정합니다.",
         "zh-CN": "设置场景中可用的最大光源数量。"
@@ -4142,7 +4142,7 @@
       "options": null,
       "description": "Set max number of lights that can have shadows.",
       "descriptions": {
-        "ja": "影を持つことができる最大ライト数を設定します。",
+        "ja": "影を落とせるライトの最大数を設定します。",
         "zh-TW": "設定可以產生陰影的最大光源數量。",
         "ko": "그림자를 가질 수 있는 최대 조명 수를 설정합니다.",
         "zh-CN": "设置可以产生阴影的最大光源数量。"
@@ -4153,7 +4153,7 @@
       "type": "group",
       "label": "Allocation",
       "labels": {
-        "ja": "配分",
+        "ja": "アロケーション",
         "zh-TW": "分配",
         "ko": "할당",
         "zh-CN": "分配"
@@ -4175,7 +4175,7 @@
           "type": "int",
           "label": "Auto Allocate",
           "labels": {
-            "ja": "自動配分",
+            "ja": "自動割り当て",
             "zh-TW": "自動分配",
             "ko": "자동 할당",
             "zh-CN": "自动分配"
@@ -4208,7 +4208,7 @@
           "options": null,
           "description": "How often does it reassign lights. In beats.",
           "descriptions": {
-            "ja": "ライトはどのくらいの頻度で再割り当てされますか。ビート単位。",
+            "ja": "ライトを再割り当てる頻度。ビート単位。",
             "zh-TW": "它多久重新分配一次光源。單位為拍。",
             "ko": "조명을 얼마나 자주 재할당하는가. 비트 단위.",
             "zh-CN": "多久重新分配光源一次。单位：拍。"

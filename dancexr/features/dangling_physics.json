@@ -3,7 +3,7 @@
   "docPath": "features/dangling_physics",
   "label": "Dangling Physics",
   "labels": {
-    "ja": "ぶら下がり物理",
+    "ja": "垂れ下がる物理",
     "zh-TW": "垂掛物物理",
     "ko": "늘어지는 물리",
     "zh-CN": "垂挂物理"
@@ -32,7 +32,7 @@
       "options": null,
       "description": "Select bones",
       "descriptions": {
-        "ja": "骨格を選択",
+        "ja": "ボーンを選択",
         "zh-TW": "選取骨骼",
         "ko": "뼈 선택",
         "zh-CN": "选择骨骼"
@@ -43,7 +43,7 @@
       "type": "int",
       "label": "Skip First X Bones",
       "labels": {
-        "ja": "最初からX個の骨格をスキップ",
+        "ja": "先頭からX個のボーンをスキップ",
         "zh-TW": "跳過前 X 根骨骼",
         "ko": "첫 X개 뼈 건너뛰기",
         "zh-CN": "跳过前 X 根骨骼"
@@ -54,7 +54,7 @@
       "options": null,
       "description": "Do not create physics connection for the first x number of levels",
       "descriptions": {
-        "ja": "最初からx個のレベルについて物理接続を作成しない",
+        "ja": "最初からX個のレベルには物理接続を作成しない",
         "zh-TW": "不為前 x 個層級創建物理連接",
         "ko": "첫 x개 레벨에 물리 연결을 생성하지 않음",
         "zh-CN": "不为前 X 个层级创建物理连接"
@@ -65,7 +65,7 @@
       "type": "int",
       "label": "Max Levels",
       "labels": {
-        "ja": "最大レベル",
+        "ja": "最大レベル数",
         "zh-TW": "最大層級",
         "ko": "최대 레벨",
         "zh-CN": "最大层级"
@@ -98,7 +98,7 @@
       "options": ["Auto", "PhysX", "XPBD"],
       "description": "Auto follows system default. PhysX uses joint-based physics. XPBD uses particle-based simulation.",
       "descriptions": {
-        "ja": "自動でシステムのデフォルトに従います。PhysXはジョイントベースの物理学を使用します。XPBDはパーティクルベースのシミュレーションを使用します。",
+        "ja": "自動はシステムデフォルトに従います。PhysXはジョイントベースの物理学を使用します。XPBDはパーティクルベースのシミュレーションを使用します。",
         "zh-TW": "自動遵循系統預設。PhysX 使用基於關節的物理學。XPBD 使用基於粒子的模擬。",
         "ko": "자동은 시스템 기본값을 따릅니다. PhysX는 관절 기반 물리입니다. XPBD는 입자 기반 시뮬레이션입니다.",
         "zh-CN": "自动遵循系统默认。PhysX使用基于关节的物理。XPBD使用基于粒子的模拟。"
@@ -109,7 +109,7 @@
       "type": "bool",
       "label": "Visualize Bodies",
       "labels": {
-        "ja": "ボディの視覚化",
+        "ja": "ボディの可視化",
         "zh-TW": "可視化身體",
         "ko": "바디 시각화",
         "zh-CN": "可视化身体"
@@ -142,7 +142,7 @@
       "options": null,
       "description": "Show joint limits and drive targets for physics joints",
       "descriptions": {
-        "ja": "物理ジョイントのジョイント制限と駆動ターゲットを表示",
+        "ja": "物理ジョイントの制限と駆動ターゲットを表示",
         "zh-TW": "顯示物理關節的關節限制和驅動目標",
         "ko": "물리 관절에 대한 관절 제한 및 드라이브 타겟 표시",
         "zh-CN": "显示物理关节的限制和驱动目标"
@@ -197,7 +197,7 @@
           "type": "float",
           "label": "Damping",
           "labels": {
-            "ja": "ダンピング",
+            "ja": "減衰",
             "zh-TW": "阻尼",
             "ko": "감쇠",
             "zh-CN": "阻尼"
@@ -219,7 +219,7 @@
           "type": "float",
           "label": "Stiffness Reduction",
           "labels": {
-            "ja": "剛性の低下",
+            "ja": "剛性低下",
             "zh-TW": "剛度降低",
             "ko": "강성 감소",
             "zh-CN": "刚度减小"
@@ -230,7 +230,7 @@
           "options": null,
           "description": "Reducing stiffness at each level",
           "descriptions": {
-            "ja": "レベルごとに剛性を低下させる",
+            "ja": "レベルごとに剛性を低下",
             "zh-TW": "各層級減少剛度",
             "ko": "각 레벨마다 강성 감소",
             "zh-CN": "降低每个层级的刚度"
@@ -241,7 +241,7 @@
           "type": "float",
           "label": "Twist Limit",
           "labels": {
-            "ja": "ねじれの制限",
+            "ja": "ねじれ制限",
             "zh-TW": "扭轉限制",
             "ko": "비틀림 제한",
             "zh-CN": "扭转限制"
@@ -252,7 +252,7 @@
           "options": null,
           "description": "Limit twisting rotation",
           "descriptions": {
-            "ja": "ねじれ回転を制限",
+            "ja": "ねじれ回転の制限",
             "zh-TW": "限制扭轉旋轉",
             "ko": "비틀림 회전 제한",
             "zh-CN": "限制扭曲旋转"
@@ -474,7 +474,7 @@
           "options": null,
           "description": "Use sphere particles instead of capsules (for debugging)",
           "descriptions": {
-            "ja": "カプセルではなく球体パーティクルを使用する（デバッグ用）",
+            "ja": "カプセルではなく球体粒子を使用する（デバッグ用）",
             "zh-TW": "使用球體顆粒而非膠囊體（用於除錯）",
             "ko": "캡슐 대신 구 입자 사용 (디버깅용)",
             "zh-CN": "使用球形粒子代替胶囊体（用于调试）"
@@ -485,7 +485,7 @@
           "type": "float",
           "label": "Stiffness Reduction",
           "labels": {
-            "ja": "剛性の低下",
+            "ja": "剛性低下",
             "zh-TW": "剛度降低",
             "ko": "강성 감소",
             "zh-CN": "刚度减小"
@@ -518,7 +518,7 @@
           "options": null,
           "description": "Damping of particle motion",
           "descriptions": {
-            "ja": "パーティクル運動の減衰",
+            "ja": "粒子運動の減衰",
             "zh-TW": "顆粒運動阻尼",
             "ko": "입자 움직임의 감쇠",
             "zh-CN": "粒子运动阻尼"
@@ -529,7 +529,7 @@
           "type": "float",
           "label": "Particle Anchor",
           "labels": {
-            "ja": "パーティクルアンカー",
+            "ja": "粒子アンカー",
             "zh-TW": "顆粒固定點",
             "ko": "입자 앵커",
             "zh-CN": "粒子固定点"
@@ -551,7 +551,7 @@
           "type": "float",
           "label": "Mass Reduction",
           "labels": {
-            "ja": "質量軽減",
+            "ja": "質量削減",
             "zh-TW": "質量衰減",
             "ko": "질량 감소",
             "zh-CN": "质量衰减"
@@ -562,7 +562,7 @@
           "options": null,
           "description": "Reducing mass at each level",
           "descriptions": {
-            "ja": "各レベルでの質量軽減",
+            "ja": "各レベルでの質量削減",
             "zh-TW": "降低每級的質量",
             "ko": "각 레벨에서의 질량 감소",
             "zh-CN": "每个级别的质量衰减"
@@ -573,7 +573,7 @@
           "type": "bool",
           "label": "Visualize Mesh",
           "labels": {
-            "ja": "メッシュを表示",
+            "ja": "メッシュの可視化",
             "zh-TW": "可視化網格",
             "ko": "메시 시각화",
             "zh-CN": "可视化网格"
@@ -628,7 +628,7 @@
           "options": null,
           "description": "Size of particle in millimeters",
           "descriptions": {
-            "ja": "パーティクルのサイズ（ミリメートル）",
+            "ja": "ミリメートル単位のパーティクルサイズ",
             "zh-TW": "粒子尺寸（毫米）",
             "ko": "입자 크기 (밀리미터)",
             "zh-CN": "粒子尺寸（毫米）"
@@ -683,7 +683,7 @@
           "type": "float",
           "label": "Drag (Air)",
           "labels": {
-            "ja": "空気抵抗",
+            "ja": "抵抗（空気）",
             "zh-TW": "阻力（空氣）",
             "ko": "항력 (공기)",
             "zh-CN": "阻力（空气）"
@@ -705,7 +705,7 @@
           "type": "float",
           "label": "Drag (Underwater)",
           "labels": {
-            "ja": "水中抵抗",
+            "ja": "抵抗（水中）",
             "zh-TW": "阻力（水下）",
             "ko": "항력 (수중)",
             "zh-CN": "阻力（水下）"
@@ -716,7 +716,7 @@
           "options": null,
           "description": "Underwater resistancy",
           "descriptions": {
-            "ja": "水中抵抗",
+            "ja": "水抵抗",
             "zh-TW": "水下阻力",
             "ko": "수중 저항",
             "zh-CN": "水下阻力"
@@ -771,7 +771,7 @@
               "type": "float",
               "label": "Wind Influence",
               "labels": {
-                "ja": "風の影響",
+                "ja": "風の影響度",
                 "zh-TW": "風影響力",
                 "ko": "바람 영향력",
                 "zh-CN": "风力影响"
@@ -837,7 +837,7 @@
               "type": "float",
               "label": "Turbulence Time Scale",
               "labels": {
-                "ja": "乱流時間スケール",
+                "ja": "乱流タイムスケール",
                 "zh-TW": "湍流時間尺度",
                 "ko": "난류 시간 스케일",
                 "zh-CN": "湍流时间尺度"
@@ -861,7 +861,7 @@
           "type": "group",
           "label": "Collide With",
           "labels": {
-            "ja": "と衝突",
+            "ja": "衝突判定",
             "zh-TW": "與碰撞",
             "ko": "충돌 대상",
             "zh-CN": "碰撞对象"
@@ -927,7 +927,7 @@
               "type": "bool",
               "label": "Boobs",
               "labels": {
-                "ja": "ブブズ",
+                "ja": "バスト",
                 "zh-TW": "胸部",
                 "ko": "보디스",
                 "zh-CN": "胸部"
@@ -949,7 +949,7 @@
               "type": "bool",
               "label": "Butts",
               "labels": {
-                "ja": "臀部",
+                "ja": "お尻",
                 "zh-TW": "臀部",
                 "ko": "엉덩이",
                 "zh-CN": "臀部"

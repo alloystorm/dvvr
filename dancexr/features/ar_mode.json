@@ -1,0 +1,332 @@
+{
+  "name": "AR Settings",
+  "docPath": "features/ar_mode",
+  "label": "AR Settings",
+  "labels": {
+    "ja": "AR設定",
+    "zh-TW": "AR 設定",
+    "ko": "AR 설정",
+    "zh-CN": "AR 设置"
+  },
+  "description": "AR mode is available on supported devices on iOS, Android and Quest. Not all devices have the capability of AR so if you don't see the AR option in the menu, it means your device does not support AR.\r\n\r\nOn iOS and Android, the program is always launched in normal mode without AR. You can start AR by going to the scene menu and checking the AR option.\r\n\r\nOn Quest, the app supports Quest passthrough to show your real-world environment.\r\n\r\n\r\n## Settings\r\n\r\n**Show Camera** toggles the display of the physical camera background.\r\n\r\n**Hide Ground** hides the virtual ground plane so that virtual models appear standing directly on your physical floor.\r\n\r\n**Occlusion** enables virtual models to be occluded by real-world physical objects. Only works on supported devices and platforms.\r\n\r\n**Double Tap Reset Scene** (non-Quest) allows double tapping to quickly reset the virtual scene position in front of you.\r\n\r\n\r\n## VR options (Quest only)\r\n\r\n* **Foveated Rendering Level** adjusts the level of foveated rendering to improve performance in VR.\r\n* **Hand Visible** toggles rendering of virtual hands.\r\n* **Cast Shadow** controls whether hands cast shadows.\r\n* **Left/Right Hand Pose** selects default poses for hands.\r\n* **UI Auto Return** enables the UI to follow your head direction.\r\n* **UI Distance** sets how far away the menu is.\r\n* **Pointer Calibration** (Direction, Orientation, Offset) calibrates the VR pointer ray.",
+  "descriptions": {
+    "ja": "(AR mode is available on supported devices on iOS, Android and Quest. Not all devices have the capability of AR so if you don't see the AR option in the menu, it means your device does not support AR.\r\n\r\nOn iOS and Android, the program is always launched in normal mode without AR. You can start AR by going to the scene menu and checking the AR option.\r\n\r\nOn Quest, the app supports Quest passthrough to show your real-world environment.\r\n\r\n\r\n## Settings\r\n\r\n**Show Camera** toggles the display of the physical camera background.\r\n\r\n**Hide Ground** hides the virtual ground plane so that virtual models appear standing directly on your physical floor.\r\n\r\n**Occlusion** enables virtual models to be occluded by real-world physical objects. Only works on supported devices and platforms.\r\n\r\n**Double Tap Reset Scene** (non-Quest) allows double tapping to quickly reset the virtual scene position in front of you.\r\n\r\n\r\n## VR options (Quest only)\r\n\r\n* **Foveated Rendering Level** adjusts the level of foveated rendering to improve performance in VR.\r\n* **Hand Visible** toggles rendering of virtual hands.\r\n* **Cast Shadow** controls whether hands cast shadows.\r\n* **Left/Right Hand Pose** selects default poses for hands.\r\n* **UI Auto Return** enables the UI to follow your head direction.\r\n* **UI Distance** sets how far away the menu is.\r\n* **Pointer Calibration** (Direction, Orientation, Offset) calibrates the VR pointer ray.)",
+    "zh-TW": "(AR mode is available on supported devices on iOS, Android and Quest. Not all devices have the capability of AR so if you don't see the AR option in the menu, it means your device does not support AR.\r\n\r\nOn iOS and Android, the program is always launched in normal mode without AR. You can start AR by going to the scene menu and checking the AR option.\r\n\r\nOn Quest, the app supports Quest passthrough to show your real-world environment.\r\n\r\n\r\n## Settings\r\n\r\n**Show Camera** toggles the display of the physical camera background.\r\n\r\n**Hide Ground** hides the virtual ground plane so that virtual models appear standing directly on your physical floor.\r\n\r\n**Occlusion** enables virtual models to be occluded by real-world physical objects. Only works on supported devices and platforms.\r\n\r\n**Double Tap Reset Scene** (non-Quest) allows double tapping to quickly reset the virtual scene position in front of you.\r\n\r\n\r\n## VR options (Quest only)\r\n\r\n* **Foveated Rendering Level** adjusts the level of foveated rendering to improve performance in VR.\r\n* **Hand Visible** toggles rendering of virtual hands.\r\n* **Cast Shadow** controls whether hands cast shadows.\r\n* **Left/Right Hand Pose** selects default poses for hands.\r\n* **UI Auto Return** enables the UI to follow your head direction.\r\n* **UI Distance** sets how far away the menu is.\r\n* **Pointer Calibration** (Direction, Orientation, Offset) calibrates the VR pointer ray.)",
+    "ko": "(AR mode is available on supported devices on iOS, Android and Quest. Not all devices have the capability of AR so if you don't see the AR option in the menu, it means your device does not support AR.\r\n\r\nOn iOS and Android, the program is always launched in normal mode without AR. You can start AR by going to the scene menu and checking the AR option.\r\n\r\nOn Quest, the app supports Quest passthrough to show your real-world environment.\r\n\r\n\r\n## Settings\r\n\r\n**Show Camera** toggles the display of the physical camera background.\r\n\r\n**Hide Ground** hides the virtual ground plane so that virtual models appear standing directly on your physical floor.\r\n\r\n**Occlusion** enables virtual models to be occluded by real-world physical objects. Only works on supported devices and platforms.\r\n\r\n**Double Tap Reset Scene** (non-Quest) allows double tapping to quickly reset the virtual scene position in front of you.\r\n\r\n\r\n## VR options (Quest only)\r\n\r\n* **Foveated Rendering Level** adjusts the level of foveated rendering to improve performance in VR.\r\n* **Hand Visible** toggles rendering of virtual hands.\r\n* **Cast Shadow** controls whether hands cast shadows.\r\n* **Left/Right Hand Pose** selects default poses for hands.\r\n* **UI Auto Return** enables the UI to follow your head direction.\r\n* **UI Distance** sets how far away the menu is.\r\n* **Pointer Calibration** (Direction, Orientation, Offset) calibrates the VR pointer ray.)",
+    "zh-CN": "(AR mode is available on supported devices on iOS, Android and Quest. Not all devices have the capability of AR so if you don't see the AR option in the menu, it means your device does not support AR.\r\n\r\nOn iOS and Android, the program is always launched in normal mode without AR. You can start AR by going to the scene menu and checking the AR option.\r\n\r\nOn Quest, the app supports Quest passthrough to show your real-world environment.\r\n\r\n\r\n## Settings\r\n\r\n**Show Camera** toggles the display of the physical camera background.\r\n\r\n**Hide Ground** hides the virtual ground plane so that virtual models appear standing directly on your physical floor.\r\n\r\n**Occlusion** enables virtual models to be occluded by real-world physical objects. Only works on supported devices and platforms.\r\n\r\n**Double Tap Reset Scene** (non-Quest) allows double tapping to quickly reset the virtual scene position in front of you.\r\n\r\n\r\n## VR options (Quest only)\r\n\r\n* **Foveated Rendering Level** adjusts the level of foveated rendering to improve performance in VR.\r\n* **Hand Visible** toggles rendering of virtual hands.\r\n* **Cast Shadow** controls whether hands cast shadows.\r\n* **Left/Right Hand Pose** selects default poses for hands.\r\n* **UI Auto Return** enables the UI to follow your head direction.\r\n* **UI Distance** sets how far away the menu is.\r\n* **Pointer Calibration** (Direction, Orientation, Offset) calibrates the VR pointer ray.)"
+  },
+  "values": [
+    {
+      "name": "Show Camera",
+      "type": "bool",
+      "label": "Show Camera",
+      "labels": {
+        "ja": "カメラを表示",
+        "zh-TW": "顯示攝影機",
+        "ko": "카메라 표시",
+        "zh-CN": "显示摄像头"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Shadow Only",
+      "type": "group",
+      "label": "Shadow Only",
+      "labels": {
+        "ja": "影のみ",
+        "zh-TW": "僅陰影",
+        "ko": "그림자 전용",
+        "zh-CN": "仅阴影"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Shadow Color",
+          "type": "group",
+          "label": "Shadow Color",
+          "labels": {
+            "ja": "影の色",
+            "zh-TW": "陰影顏色",
+            "ko": "그림자 색상",
+            "zh-CN": "阴影颜色"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "Color Mode",
+              "type": "int",
+              "label": "Color Mode",
+              "labels": {
+                "ja": "カラーモード",
+                "zh-TW": "色彩模式",
+                "ko": "색상 모드",
+                "zh-CN": "颜色模式"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": ["RGB", "HSV"],
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Hue",
+              "type": "float",
+              "label": "Hue",
+              "labels": {
+                "ja": "色相",
+                "zh-TW": "色相",
+                "ko": "색상",
+                "zh-CN": "色相"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Satuation",
+              "type": "float",
+              "label": "Satuation",
+              "labels": {
+                "ja": "彩度",
+                "zh-TW": "飽和度",
+                "ko": "채도",
+                "zh-CN": "饱和度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Brightness",
+              "type": "float",
+              "label": "Brightness",
+              "labels": {
+                "ja": "輝度",
+                "zh-TW": "亮度",
+                "ko": "밝기",
+                "zh-CN": "亮度"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Red",
+              "type": "float",
+              "label": "Red",
+              "labels": {
+                "ja": "赤",
+                "zh-TW": "紅色",
+                "ko": "빨간색",
+                "zh-CN": "红色"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Green",
+              "type": "float",
+              "label": "Green",
+              "labels": {
+                "ja": "緑",
+                "zh-TW": "綠色",
+                "ko": "녹색",
+                "zh-CN": "绿色"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Blue",
+              "type": "float",
+              "label": "Blue",
+              "labels": {
+                "ja": "青",
+                "zh-TW": "藍色",
+                "ko": "파란색",
+                "zh-CN": "蓝色"
+              },
+              "default": 0,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Transparency",
+          "type": "float",
+          "label": "Transparency",
+          "labels": {
+            "ja": "透明度",
+            "zh-TW": "透明度",
+            "ko": "투명도",
+            "zh-CN": "透明度"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hide Ground",
+      "type": "bool",
+      "label": "Hide Ground",
+      "labels": {
+        "ja": "地面を非表示",
+        "zh-TW": "隱藏地面",
+        "ko": "지면 숨기기",
+        "zh-CN": "隐藏地面"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Occlusion",
+      "type": "bool",
+      "label": "Occlusion",
+      "labels": {
+        "ja": "オクルージョン",
+        "zh-TW": "遮蔽",
+        "ko": "오클루전",
+        "zh-CN": "遮挡"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Only works on supported platforms / devices, might require restart AR",
+      "descriptions": {
+        "ja": "サポートされているプラットフォーム/デバイスでのみ機能します。ARの再起動が必要な場合があります。",
+        "zh-TW": "僅在支援的平台/設備上運行，可能需要重新啟動 AR",
+        "ko": "지원되는 플랫폼/기기에서만 작동하며, AR 재시작이 필요할 수 있음",
+        "zh-CN": "仅在支持的平台/设备上工作，可能需要重启 AR"
+      }
+    },
+    {
+      "name": "Double Tap Reset Scene",
+      "type": "bool",
+      "label": "Double Tap Reset Scene",
+      "labels": {
+        "ja": "ダブルタップでシーンをリセット",
+        "zh-TW": "雙擊重置場景",
+        "ko": "더블 탭으로 장면 초기화",
+        "zh-CN": "双击重置场景"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    }
+  ]
+}

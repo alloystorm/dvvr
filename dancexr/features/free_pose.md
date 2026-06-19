@@ -1,10 +1,10 @@
 ---
 layout: feature
-title: "Free Pose"
+title: "./motion/proc/free_pose"
 locale: en-US
 ---
 
-# Free Pose
+# ./motion/proc/free_pose
 
 Free Pose turns the actor into a self-balancing puppet you pose
 by hand. Nothing is animating — the balance solver owns the whole

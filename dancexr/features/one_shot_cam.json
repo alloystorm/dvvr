@@ -65,7 +65,7 @@
       "type": "float",
       "label": "Target Smoothing",
       "labels": {
-        "ja": "ターゲット平滑化",
+        "ja": "ターゲットスムージング",
         "zh-TW": "目標平滑度",
         "ko": "대상 스무딩",
         "zh-CN": "目标平滑处理"
@@ -98,7 +98,7 @@
       "options": null,
       "description": "Predict position of the target to reduce lag caused by smoothing",
       "descriptions": {
-        "ja": "平滑化による遅延を減らすためのターゲットの予測位置",
+        "ja": "スムージングによる遅延を減らすためにターゲットの位置を予測する",
         "zh-TW": "預測目標位置以減少平滑度造成的延遲",
         "ko": "스무딩으로 인한 지연을 줄이기 위해 대상의 위치를 예측합니다",
         "zh-CN": "预测目标位置以减少平滑处理引起的延迟"
@@ -164,7 +164,7 @@
       "options": null,
       "description": "Horizontal rotation range.",
       "descriptions": {
-        "ja": "水平回転範囲。",
+        "ja": "水平な回転範囲。",
         "zh-TW": "水平旋轉範圍。",
         "ko": "수평 회전 범위.",
         "zh-CN": "水平旋转范围。"
@@ -230,7 +230,7 @@
       "options": null,
       "description": "The ease curve used when changing motion",
       "descriptions": {
-        "ja": "モーション変更時に使用されるイーズカーブ",
+        "ja": "動きを変更する際に使用されるイーズカーブ",
         "zh-TW": "變更運動時使用的平滑曲線",
         "ko": "모션 변경 시 사용되는 이징 곡선",
         "zh-CN": "更改运动时使用的缓动曲线。"
@@ -241,7 +241,7 @@
       "type": "bool",
       "label": "Prevent Below Floor",
       "labels": {
-        "ja": "床面以下の移動を防止",
+        "ja": "床下への移動を防止",
         "zh-TW": "防止落到地板以下",
         "ko": "바닥 아래 방지",
         "zh-CN": "防止低于地面"
@@ -263,7 +263,7 @@
       "type": "bool",
       "label": "Use Actor Orientation",
       "labels": {
-        "ja": "アクターの向きを使用",
+        "ja": "アクタの向きを使用",
         "zh-TW": "使用角色朝向",
         "ko": "배우 방향 사용",
         "zh-CN": "使用演员方向"
@@ -296,7 +296,7 @@
       "options": null,
       "description": "Move focus position up when distance gets smaller",
       "descriptions": {
-        "ja": "距離が小さくなるにつれて、フォーカス位置が上がります。",
+        "ja": "距離が縮小したときにフォーカス位置を上に移動させる",
         "zh-TW": "當距離變小時，向上移動焦點位置",
         "ko": "거리가 줄어들 때 포커스 위치 위로 이동",
         "zh-CN": "距离变小时，向上移动焦点位置。"

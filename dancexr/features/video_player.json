@@ -3,7 +3,7 @@
   "docPath": "features/video_player",
   "label": "Video Player",
   "labels": {
-    "ja": "ビデオプレイヤー",
+    "ja": "ビデオプレーヤー",
     "zh-TW": "影片播放器",
     "ko": "비디오 플레이어",
     "zh-CN": "视频播放器"

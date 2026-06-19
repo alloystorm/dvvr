@@ -9,24 +9,24 @@ locale: en-US
 Ensures feet dynamically adapt to ground level with
 realistic placement and movement.
 
-**Ground Offset** adjusts the vertical reference. The **Feet
-On Floor** panel controls **Strength** (pull to ground),
-**Sole Height** (toe-to-ground distance), **Body Lift** (COM
-correction), **Contact Bend Toe** (toe flexion), **Contact
-Rotation** (rotational inertia), **Jump Detection** (airborne
-suppression), and **Jump Height** threshold.
+**Ground Offset** adjusts the vertical ground reference.
 
-The **Virtual Shoes** panel visualizes foot contact with
-**Inner**, **Outer**, **Front**, **Back** offsets, **Shoe
-Distance**, **Heel Top** height, **Mode** (Wireframe, Opaque,
-Chrome, Solid Glass, Thin Glass), **Smoothness**, and
-**Color**.
+The **Feet On Floor** panel keeps the feet on the ground:
+**Strength** (overall amount, 0 disables), **Sole Height**
+(toe-to-ground gap), **Jump Height** (airborne threshold that
+suspends correction), **Body Smooth** and **Foot Smooth**
+(response smoothing for the body and per-foot adjustments),
+**Max Foot Tilt** (how far a foot may tilt to set a contact on
+the ground), and **Reach Tilt** (extra toe-dip to keep contact
+when the leg can't reach down).
 
-The **Heels** panel simulates high heel poses with **High
-Heel** height, **Limit Angle**, **High Heel Toe Bend**, and
-**High Heel Blend** for animation mixing.
+The **Heels** panel raises the foot into a **High Heel** pose.
 
-**Reduce Sliding** applies friction with **Dist Threshold**
-and **Damping** controls. **Foot Angle** adds manual
-**Rotate X**, **Y**, and **Z** offsets.
+**Reduce Sliding** holds a planted foot in place to stop
+skating: enable it, then set **Strength** (how firmly it locks)
+and **Slide Distance** (how far it may drift before releasing,
+to avoid over-stretching the leg).
+
+**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**
+offsets.
 
