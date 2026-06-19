@@ -6,7 +6,7 @@ locale: ko-KR
 
 # 의상 및 바디페인트
 
-의상은 프로시저 패브릭/페인트 레이어를 캐릭터 피부 재질 위에 적용합니다. 이를 통해 기반 메쉬나 텍스처를 건드리지 않고 스타킹, 바디수트, 라텍스, 육각형 디테일, 자유 손 바디페인트, 그리고 용해 전환 효과를 추가할 수 있습니다.
+의상은 캐릭터 피부 재질 위에 프로시저 패브릭/페인트 레이어를 적용합니다. 이를 통해 기반 메쉬나 텍스처를 건드리지 않고 스타킹, 바디수트, 라텍스, 육각형 디테일, 자유 손 바디페인트, 그리고 용해 전환 효과를 추가할 수 있습니다.
 
 
 ## 모드
@@ -21,7 +21,7 @@ locale: ko-KR
 
 ## 바디페인트
 
-{% include video id="chHk9--cUYE" provider="youtube" %}
+{% include video id='chHk9--cUYE' provider='youtube' %}
 
 *바디 페인트* 하위 섹션을 참조하세요. 브러시 크기, 회전, 색상, 스탬프 텍스처, 그리고 그리기 저장/불러가기는 여기서 실시간으로 수행합니다. 컬러 페인트 모드와 의상 페인트 모드에서만 보입니다.
 
@@ -47,13 +47,12 @@ locale: ko-KR
 
 # 하위 구성 요소
 
-## 바디 페인트
+## 바디페인트
 
 캐릭터 몸에 자유롭게 페인팅합니다. 커서(또는 VR 포인터)를 모델 위로 드래그하여 색상이나 패턴 스트로크를 의상 캔버스에 직접 적용합니다. 캔버스는 프레임 간에 유지되므로 시간에 따라 그림을 쌓거나 텍스처로 저장하고 나중에 다시 로드할 수 있습니다.
 
 
 ### 브러시
-
 
 **브러시 크기(Brush Size)**와 **브러시 회전(Brush Rotation)**이 스트로크 모양을 설정합니다. 회전은 스탬프 텍스처가 선택되었을 때만 중요합니다. **텍스처(Texture)**는 선택적 스탬프를 선택합니다. 설정할 경우, 각 클릭은 연속적인 스트로크를 그리는 대신 단일 데칼을 스탬프합니다. 이는 문신이나 로고에 적합한 선택입니다. **브러시 유형(Brush Type)**은 *의상 페인트* 모드에서 페인팅하는 채널(베이스 / 패턴 / 가장자리 / 지우기)을 선택합니다. *컬러 페인트* 모드에서는 채널이 암시적이며 숨겨져 있습니다.
 
@@ -131,239 +130,3 @@ locale: ko-KR
 ### 오프셋
 
 **오프셋 X / Y(Offset X / Y)**는 용해 맵을 몸을 따라 이동시킵니다. 이를 애니메이션(자동 업데이트를 통해)하여 용해 전면이 균일하게 나타나는 대신 방향으로 스우프하도록 만듭니다.
-
-
-## 설정
-
-<table>
-<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
-<tbody>
-<tr><td>프리셋</td><td></td><td></td><td></td><td></td><td>
-<b>바디페인트</b>, 전신 라텍스, V 모양 망사, 스타킹, 스타킹 망사, 바디수트 1, 바디수트 2, </td></tr>
-<tr><td><strong>모드</strong></td><td>정수(Integer)</td><td>0 – 2</td><td>0</td><td></td><td></td></tr>
-<tr><td colspan="6"><details>
-<summary><strong>바디페인트</strong></summary>
-<table><tbody>
-<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
-<tr><td>프리셋</td><td></td><td></td><td></td><td></td><td>
-</td></tr>
-<tr><td><strong>페인트 면</strong></td><td>정수(Integer)</td><td>0 – 2</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>텍스처</strong></td><td>옵션(Options)</td><td>[없음], [문신]</td><td>[없음]</td><td></td><td></td></tr>
-<tr><td><strong>브러시 크기</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.2</td><td></td><td></td></tr>
-<tr><td><strong>브러시 회전</strong></td><td>실수(Float)</td><td>-180 – 180</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>브러시 유형</strong></td><td>정수(Integer)</td><td>0 – 3</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>지우기</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>끄기</td><td></td><td></td></tr>
-<tr colspan="6"><details>
-<summary><strong>색상</strong></summary>
-<table><tbody>
-<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
-<tr><td>프리셋</td><td></td><td></td><td></td><td></td><td>
-원래, <b>흰색</b>, 검정, 빨강, 노랑, 회색, 파랑, 피부, 살구, 주황, </td></tr>
-<tr><td><strong>색상 모드</strong></td><td>정수(Integer)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>색조(Hue)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>채도(Satuation)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>밝기(Brightness)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>빨강(Red)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>초록(Green)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>파랑(Blue)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-</tbody></table>
-</details></td></tr>
-<tr><td><strong>글로우</strong></td><td>실수(Float)</td><td>0 – 10</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>색상 보존</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>캔버스 지우기</strong></td><td>액션(Action)</td><td></td><td></td><td></td><td></td></tr>
-<tr><td><strong>그림 저장</strong></td><td>액션(Action)</td><td></td><td></td><td></td><td></td></tr>
-<tr><td><strong>그림 불러오기</strong></td><td>옵션(Options)</td><td>[없음]</td><td>[없음]</td><td></td><td></td></tr>
-</tbody></table>
-</details></td></tr>
-<tr colspan="6"><details>
-<summary><strong>형태 및 패턴</strong></summary>
-<table><tbody>
-<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
-<tr><td>프리셋</td><td></td><td></td><td></td><td></td><td>
-<b>전신</b>, V 모양, 스타킹, 망사 전신, 망사 V 모양, 망사 스타킹, 미로 1, 미로 2, 곡선 1, 곡선 2, </td></tr>
-<tr><td><strong>상단 높이1</strong></td><td>실수(Float)</td><td>0 – 3</td><td>3</td><td></td><td>첫 번째 라인의 중앙 높이</td></tr>
-<tr><td><strong>상단 각도1</strong></td><td>실수(Float)</td><td>-180 – 180</td><td>0</td><td></td><td>첫 번째 라인의 각도</td></tr>
-<tr><td><strong>상단 높이2</strong></td><td>실수(Float)</td><td>0 – 3</td><td>3</td><td></td><td>두 번째 라인의 중앙 높이</td></tr>
-<tr><td><strong>상단 각도2</strong></td><td>실수(Float)</td><td>-180 – 180</td><td>0</td><td></td><td>두 번째 라인의 각도</td></tr>
-<tr><td><strong>상단 가장자리</strong></td><td>실수(Float)</td><td>0 – 0.2</td><td>0.05</td><td></td><td>첫 번째 및 두 번째 라인의 가장자리 너비</td></tr>
-<tr><td><strong>스타킹 높이</strong></td><td>실수(Float)</td><td>0 – 3</td><td>1.45</td><td></td><td>스타킹 라인의 중앙 높이</td></tr>
-<tr><td><strong>스타킹 각도</strong></td><td>실수(Float)</td><td>-180 – 180</td><td>0</td><td></td><td>스타킹 라인의 각도</td></tr>
-<tr><td><strong>스타킹 가장자리</strong></td><td>실수(Float)</td><td>0 – 0.2</td><td>0.05</td><td></td><td>스타킹 라인의 가장자리 너비</td></tr>
-<tr><td><strong>패턴 유형</strong></td><td>정수(Integer)</td><td>0 – 4</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>패턴 대칭</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>끄기</td><td></td><td></td></tr>
-<tr><td><strong>패턴 밀도</strong></td><td>실수(Float)</td><td>1 – 50</td><td>5</td><td></td><td></td></tr>
-<tr><td><strong>패턴 회전</strong></td><td>실수(Float)</td><td>0 – 180</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>패턴 시드</strong></td><td>실수(Float)</td><td>10 – 50</td><td>10</td><td></td><td></td></tr>
-<tr><td><strong>경계 크기 안</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.1</td><td></td><td></td></tr>
-<tr><td><strong>경계 크기 밖</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.8</td><td></td><td></td></tr>
-<tr><td><strong>바깥쪽 범프</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.5</td><td></td><td></td></tr>
-<tr><td><strong>바깥쪽 거리</strong></td><td>실수(Float)</td><td>0 – 0.025</td><td>0.01</td><td></td><td></td></tr>
-<tr><td><strong>안쪽 범프</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.5</td><td></td><td></td></tr>
-<tr><td><strong>안쪽 거리</strong></td><td>실수(Float)</td><td>0 – 0.1</td><td>0.005</td><td></td><td></td></tr>
-</tbody></table>
-</details></td></tr>
-<tr colspan="6"><details>
-<summary><strong>육각형 맵</strong></summary>
-<table><tbody>
-<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
-<tr><td><strong>사용</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>끄기</td><td></td><td></td></tr>
-<tr><td>프리셋</td><td></td><td></td><td></td><td></td><td>
-</td></tr>
-<tr><td><strong>밀도</strong></td><td>실수(Float)</td><td>0 – 8</td><td>4</td><td></td><td></td></tr>
-<tr><td><strong>크기</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>범프</strong></td><td>실수(Float)</td><td>-1 – 1</td><td>0.5</td><td></td><td></td></tr>
-<tr><td><strong>노이즈</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.2</td><td></td><td></td></tr>
-<tr><td><strong>원형 사용</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>끄기</td><td></td><td></td></tr>
-<tr><td><strong>부드러운 가장자리</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.1</td><td></td><td></td></tr>
-<tr><td><strong>UV 투영</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>켜기</td><td></td><td></td></tr>
-<tr><td><strong>투영 반경</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.2</td><td></td><td></td></tr>
-<tr><td><strong>회전</strong></td><td>실수(Float)</td><td>-90 – 90</td><td>0</td><td></td><td></td></tr>
-</tbody></table>
-</details></td></tr>
-<tr colspan="6"><details>
-<summary><strong>서피스 베이스</strong></summary>
-<table><tbody>
-<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
-<tr><td>프리셋</td><td></td><td></td><td></td><td></td><td>
-<b>스타킹 얇게</b>, 스타킹 두껍게, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 오리지널, </td></tr>
-<tr><td><strong>글로스</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.5</td><td></td><td></td></tr>
-<tr><td><strong>메탈릭</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>범프</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.2</td><td></td><td></td></tr>
-<tr><td><strong>글로우</strong></td><td>실수(Float)</td><td>0 – 10</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>주변광(Ambient)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>알파 감소</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>알파 곡선</strong></td><td>실수(Float)</td><td>-2 – 2</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>클립</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr colspan="6"><details>
-<summary><strong>색상</strong></summary>
-<table><tbody>
-<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
-<tr><td>프리셋</td><td></td><td></td><td></td><td></td><td>
-오리지널, <b>흰색</b>, 검정, 빨강, 노랑, 어두운 회색, 파랑, 피부, 살구, 주황, </td></tr>
-<tr><td><strong>색상 모드</strong></td><td>정수(Integer)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>색조(Hue)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>채도(Satuation)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>밝기(Brightness)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>빨강(Red)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>초록(Green)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>파랑(Blue)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>블렌드 모드</strong></td><td>옵션(Options)</td><td>오리지널, 곱하기, 블렌드, 색상 이동</td><td>블렌드</td><td></td><td></td></tr>
-<tr><td><strong>블렌드</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.9</td><td></td><td></td></tr>
-<tr><td><strong>알파(Alpha)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-</tbody></table>
-</details></td></tr>
-<tr><td><strong>비등방성(Anisotropy)</strong></td><td>실수(Float)</td><td>-1 – 1</td><td>-0.5</td><td></td><td></td></tr>
-<tr><td><strong>스타킹 효과</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.5</td><td></td><td></td></tr>
-<tr><td><strong>스타킹 그라디언트</strong></td><td>실수(Float)</td><td>-3 – 3</td><td>2</td><td></td><td></td></tr>
-<tr><td><strong>디테일 밀도</strong></td><td>실수(Float)</td><td>0 – 2</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>용해 활성화</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>켜기</td><td></td><td></td></tr>
-</tbody></table>
-</details></td></tr>
-<tr colspan="6"><details>
-<summary><strong>서피스 패턴</strong></summary>
-<table><tbody>
-<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
-<tr><td>프리셋</td><td></td><td></td><td></td><td></td><td>
-<b>스타킹 얇게</b>, 스타킹 두껍게, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 오리지널, </td></tr>
-<tr><td><strong>글로스</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.9</td><td></td><td></td></tr>
-<tr><td><strong>메탈릭</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>범프</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>글로우</strong></td><td>실수(Float)</td><td>0 – 10</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>주변광(Ambient)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>알파 감소</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>알파 곡선</strong></td><td>실수(Float)</td><td>-2 – 2</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>클립</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr colspan="6"><details>
-<summary><strong>색상</strong></summary>
-<table><tbody>
-<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
-<tr><td>프리셋</td><td></td><td></td><td></td><td></td><td>
-오리지널, <b>흰색</b>, 검정, 빨강, 노랑, 어두운 회색, 파랑, 피부, 살구, 주황, </td></tr>
-<tr><td><strong>색상 모드</strong></td><td>정수(Integer)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>색조(Hue)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>채도(Satuation)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>밝기(Brightness)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>빨강(Red)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>초록(Green)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>파랑(Blue)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>블렌드 모드</strong></td><td>옵션(Options)</td><td>오리지널, 곱하기, 블렌드, 색상 이동</td><td>블렌드</td><td></td><td></td></tr>
-<tr><td><strong>블렌드</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.8</td><td></td><td></td></tr>
-<tr><td><strong>알파(Alpha)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-</tbody></table>
-</details></td></tr>
-<tr><td><strong>비등방성(Anisotropy)</strong></td><td>실수(Float)</td><td>-1 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>스타킹 효과</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>스타킹 그라디언트</strong></td><td>실수(Float)</td><td>-3 – 3</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>디테일 밀도</strong></td><td>실수(Float)</td><td>0 – 2</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>용해 활성화</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>켜기</td><td></td><td></td></tr>
-</tbody></table>
-</details></td></tr>
-<tr colspan="6"><details>
-<summary><strong>서피스 보더</strong></summary>
-<table><tbody>
-<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
-<tr><td>프리셋</td><td></td><td></td><td></td><td></td><td>
-<b>스타킹 얇게</b>, 스타킹 두껍게, 흰색 스타킹, 라텍스, 투명 라텍스, 은색, 금색, 빛나는 흰색, 오리지널, </td></tr>
-<tr><td><strong>글로스</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.5</td><td></td><td></td></tr>
-<tr><td><strong>메탈릭</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>범프</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.2</td><td></td><td></td></tr>
-<tr><td><strong>글로우</strong></td><td>실수(Float)</td><td>0 – 10</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>주변광(Ambient)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>알파 감소</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>알파 곡선</strong></td><td>실수(Float)</td><td>-2 – 2</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>클립</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr colspan="6"><details>
-<summary><strong>색상</strong></summary>
-<table><tbody>
-<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
-<tr><td>프리셋</td><td></td><td></td><td></td><td></td><td>
-오리지널, <b>흰색</b>, 검정, 빨강, 노랑, 어두운 회색, 파랑, 피부, 살구, 주황, </td></tr>
-<tr><td><strong>색상 모드</strong></td><td>정수(Integer)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>색조(Hue)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>채도(Satuation)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr><td><strong>밝기(Brightness)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>빨강(Red)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>초록(Green)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>파랑(Blue)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>블렌드 모드</strong></td><td>옵션(Options)</td><td>오리지널, 곱하기, 블렌드, 색상 이동</td><td>블렌드</td><td></td><td></td></tr>
-<tr><td><strong>블렌드</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.9</td><td></td><td></td></tr>
-<tr><td><strong>알파(Alpha)</strong></td><td>실수(Float)</td><td>0 – 1</td><td>1</td><td></td><td></td></tr>
-</tbody></table>
-</details></td></tr>
-<tr><td><strong>비등방성(Anisotropy)</strong></td><td>실수(Float)</td><td>-1 – 1</td><td>-0.5</td><td></td><td></td></tr>
-<tr><td><strong>스타킹 효과</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0.5</td><td></td><td></td></tr>
-<tr><td><strong>스타킹 그라디언트</strong></td><td>실수(Float)</td><td>-3 – 3</td><td>2</td><td></td><td></td></tr>
-<tr><td><strong>디테일 밀도</strong></td><td>실수(Float)</td><td>0 – 2</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>용해 활성화</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>켜기</td><td></td><td></td></tr>
-</tbody></table>
-</details></td></tr>
-<tr colspan="6"><details>
-<summary><strong>용해</strong></summary>
-<table><tbody>
-<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
-<tr><td><strong>용해 맵</strong></td><td>실수(Float)</td><td>0 – 1</td><td>0</td><td></td><td></td></tr>
-<tr colspan="6"><details>
-<summary><strong>용해 맵</strong></summary>
-<table><tbody>
-<thead><tr><th>설정</th><th>유형</th><th>범위 / 값</th><th>기본값</th><th>조건</th><th>설명</th></tr></thead>
-<tr><td>프리셋</td><td></td><td></td><td></td><td></td><td>
-</td></tr>
-<tr><td><strong>패턴 L1</strong></td><td>실수(Float)</td><td>0 – 90</td><td>13</td><td></td><td>용해 맵을 생성할 때 레벨 1 패턴 변경</td></tr>
-<tr><td><strong>밀도 L1</strong></td><td>실수(Float)</td><td>1 – 10</td><td>3.5</td><td></td><td>레벨 1 패턴의 밀도</td></tr>
-<tr><td><strong>패턴 L2</strong></td><td>실수(Float)</td><td>0 – 90</td><td>31</td><td></td><td>용해 맵을 생성할 때 레벨 2 패턴 변경</td></tr>
-<tr><td><strong>밀도 L2</strong></td><td>실수(Float)</td><td>10 – 100</td><td>50</td><td></td><td>레벨 2 패턴의 밀도</td></tr>
-<tr><td><strong>확대 배율</strong></td><td>실수(Float)</td><td>0 – 2</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>곡선</strong></td><td>실수(Float)</td><td>0 – 2</td><td>1</td><td></td><td></td></tr>
-<tr><td><strong>가장자리 크기</strong></td><td>실수(Float)</td><td>0 – 0.2</td><td>0.05</td><td></td><td>양의 영역에서의 가장자리 너비</td></tr>
-<tr><td><strong>가장자리 범프</strong></td><td>실수(Float)</td><td>-1 – 1</td><td>-1</td><td></td><td>가장자리 영역의 범프 효과</td></tr>
-<tr><td><strong>역방향 가장자리 크기</strong></td><td>실수(Float)</td><td>0 – 0.2</td><td>0.05</td><td></td><td>음의 영역에서의 가장자리 너비</td></tr>
-<tr><td><strong>역방향 가장자리 범프</strong></td><td>실수(Float)</td><td>-1 – 1</td><td>-1</td><td></td><td>가장자리 영역의 범프 효과</td></tr>
-<tr><td><strong>오프셋 X</strong></td><td>실수(Float)</td><td>-1 – 1</td><td>0</td><td></td><td>용해 맵을 X 방향으로 오프셋</td></tr>
-<tr><td><strong>오프셋 Y</strong></td><td>실수(Float)</td><td>-1 – 1</td><td>0</td><td></td><td>용해 맵을 Y 방향으로 오프셋</td></tr>
-<tr><td><strong>커팅</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>끄기</td><td></td><td>용해된 영역을 비가시로 만듦</td></tr>
-</tbody></table>
-</details></td></tr>
-<tr><td><strong>수동 선택</strong></td><td>토글(Toggle)</td><td>켜기 / 끄기</td><td>끄기</td><td></td><td></td></tr>
-<tr><td><strong>재질 선택</strong></td><td>선택(Selection)</td><td></td><td></td><td></td><td></td></tr>
-</tbody>
-</table>

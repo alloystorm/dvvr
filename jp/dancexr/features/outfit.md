@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: 衣装とボディペイント
+title: 衣装＆ボディペイント
 locale: ja-JP
 ---
 
@@ -21,7 +21,7 @@ locale: ja-JP
 
 ## ボディペイント
 
-{% include video id="chHk9--cUYE" provider="youtube" %}
+{% include video id='chHk9--cUYE' provider='youtube' %}
 
 *ボディペイント*のサブセクションを参照してください。ブラシサイズ、回転、色、スタンプテクスチャ、描画の保存/読み込みは、そこでライブで行えます。カラーペイントモードとアウトフィットペイントモードでのみ可視化されます。
 

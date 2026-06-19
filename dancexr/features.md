@@ -218,7 +218,7 @@ feature_sections:
           - title: Simulation
             link: /dancexr/features/simulation
             image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
-          - title: Cloth Simulation
+          - title: Simulation
             link: /dancexr/features/cloth_simulation
             image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
             badge: 2024.8 · PRO
@@ -403,7 +403,7 @@ feature_sections:
             link: /dancexr/features/water_system
             image: /images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp
             badge: PC
-          - title: AR Mode
+          - title: AR Settings
             link: /dancexr/features/ar_mode
             image: /images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp
             badge: "Mobile & Quest · PRO"

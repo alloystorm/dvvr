@@ -69,7 +69,7 @@ feature_sections:
           - title: 演員播放清單
             link: /tw/dancexr/features/actor_playlist
             image: /images/slideshows/load_play/%5BDanceXR%5D%20Kimagure%20Mercy%20-%20Honoka%20%5Bg1-OfMxxZ5s%5D.webp
-          - title: 編制
+          - title: 隊形
             link: /tw/dancexr/features/formation
             image: /images/slideshows/load_play/%5BDanceXR%5D%20New%20mirror%20feature%20%5B0FwY2viXcM0%5D.webp
           - title: ZIP 格式
@@ -403,7 +403,7 @@ feature_sections:
             link: /tw/dancexr/features/water_system
             image: /images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp
             badge: PC
-          - title: 增強現實模式
+          - title: AR 設定
             link: /tw/dancexr/features/ar_mode
             image: /images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp
             badge: "Mobile & Quest · PRO"

@@ -69,7 +69,7 @@ feature_sections:
           - title: アクタープレイリスト
             link: /jp/dancexr/features/actor_playlist
             image: /images/slideshows/load_play/%5BDanceXR%5D%20Kimagure%20Mercy%20-%20Honoka%20%5Bg1-OfMxxZ5s%5D.webp
-          - title: フォーメーション
+          - title: 編成
             link: /jp/dancexr/features/formation
             image: /images/slideshows/load_play/%5BDanceXR%5D%20New%20mirror%20feature%20%5B0FwY2viXcM0%5D.webp
           - title: ZIP形式
@@ -403,7 +403,7 @@ feature_sections:
             link: /jp/dancexr/features/water_system
             image: /images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp
             badge: PC
-          - title: ARモード
+          - title: AR設定
             link: /jp/dancexr/features/ar_mode
             image: /images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp
             badge: "Mobile & Quest · PRO"
