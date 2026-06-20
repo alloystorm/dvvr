@@ -73,7 +73,7 @@ hero_image: /images/hero.png
     <button class="player-launch" id="player-launch" type="button">
       <span class="play-icon">▶</span>
       <span class="play-title">Launch DanceXR</span>
-      <span class="play-note">runs entirely in your browser — your files are never uploaded.</span>
+      <span class="play-note">Runs entirely in your browser — your files are never uploaded.</span>
     </button>
   </div>
 
