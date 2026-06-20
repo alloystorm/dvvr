@@ -9,6 +9,23 @@ hero_title: 下載 DanceXR
 hero_image: /images/hero.png
 ---
 
+<!-- ── Try in browser ─────────────────────────────────────── -->
+<section class="section section-light" style="padding: 56px 24px;">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+無需下載
+
+## 在瀏覽器中免費試玩 DanceXR
+
+載入您自己的 PMX / VMD 檔案即可立即播放——無需安裝。
+
+</div>
+<p style="text-align:center; margin-top: 20px;">
+  <a href="play" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'try_web', { 'event_category': 'web_demo', 'event_label': 'Download page banner' });">▶ 啟動網頁示範</a>
+</p>
+</section>
+
 <!-- ── Patreon ─────────────────────────────────────────────── -->
 <section class="section">
 <div class="editions-header" markdown="1">

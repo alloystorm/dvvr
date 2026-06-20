@@ -13,6 +13,8 @@ dancexr:
       url: /dancexr/features
     - label: Releases
       url: /dancexr/releases
+    - label: Try Online
+      url: /dancexr/play
     - label: Download
       url: /dancexr/download
     - label: Support
@@ -24,6 +26,8 @@ dancexr:
       url: /jp/dancexr/features
     - label: リリース
       url: /jp/dancexr/releases
+    - label: ブラウザで試す
+      url: /jp/dancexr/play
     - label: ダウンロード
       url: /jp/dancexr/download
     - label: サポート
@@ -35,6 +39,8 @@ dancexr:
       url: /kr/dancexr/features
     - label: 릴리스
       url: /kr/dancexr/releases
+    - label: 브라우저 체험
+      url: /kr/dancexr/play
     - label: 다운로드
       url: /kr/dancexr/download
     - label: 지원
@@ -46,6 +52,8 @@ dancexr:
       url: /tw/dancexr/features
     - label: 發布
       url: /tw/dancexr/releases
+    - label: 線上試玩
+      url: /tw/dancexr/play
     - label: 下載
       url: /tw/dancexr/download
     - label: 支援
@@ -57,6 +65,8 @@ dancexr:
       url: /zh/dancexr/features
     - label: 发布
       url: /zh/dancexr/releases
+    - label: 在线试玩
+      url: /zh/dancexr/play
     - label: 下载
       url: /zh/dancexr/download
     - label: 支持

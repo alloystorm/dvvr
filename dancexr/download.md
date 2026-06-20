@@ -9,6 +9,23 @@ hero_title: Download DanceXR
 hero_image: /images/hero.png
 ---
 
+<!-- ── Try in browser ─────────────────────────────────────── -->
+<section class="section section-light" style="padding: 56px 24px;">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+No download required
+
+## Try DanceXR free in your browser
+
+Load your own PMX / VMD files and play instantly — nothing to install.
+
+</div>
+<p style="text-align:center; margin-top: 20px;">
+  <a href="play" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'try_web', { 'event_category': 'web_demo', 'event_label': 'Download page banner' });">▶ Launch the web demo</a>
+</p>
+</section>
+
 <!-- ── Patreon ─────────────────────────────────────────────── -->
 <section class="section">
 <div class="editions-header" markdown="1">

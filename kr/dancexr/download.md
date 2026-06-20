@@ -9,6 +9,23 @@ hero_title: DanceXR 다운로드
 hero_image: /images/hero.png
 ---
 
+<!-- ── Try in browser ─────────────────────────────────────── -->
+<section class="section section-light" style="padding: 56px 24px;">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+다운로드 불필요
+
+## 브라우저에서 DanceXR 무료 체험
+
+내 PMX / VMD 파일을 불러와 바로 재생하세요 — 설치가 필요 없습니다.
+
+</div>
+<p style="text-align:center; margin-top: 20px;">
+  <a href="play" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'try_web', { 'event_category': 'web_demo', 'event_label': 'Download page banner' });">▶ 웹 데모 실행</a>
+</p>
+</section>
+
 <!-- ── Patreon ─────────────────────────────────────────────── -->
 <section class="section">
 <div class="editions-header" markdown="1">

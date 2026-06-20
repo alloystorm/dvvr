@@ -9,6 +9,23 @@ hero_title: DanceXRをダウンロード
 hero_image: /images/hero.png
 ---
 
+<!-- ── Try in browser ─────────────────────────────────────── -->
+<section class="section section-light" style="padding: 56px 24px;">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+ダウンロード不要
+
+## ブラウザでDanceXRを無料で試す
+
+お持ちのPMX / VMDファイルを読み込んですぐに再生——インストール不要です。
+
+</div>
+<p style="text-align:center; margin-top: 20px;">
+  <a href="play" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'try_web', { 'event_category': 'web_demo', 'event_label': 'Download page banner' });">▶ Webデモを起動</a>
+</p>
+</section>
+
 <!-- ── Patreon ─────────────────────────────────────────────── -->
 <section class="section">
 <div class="editions-header" markdown="1">

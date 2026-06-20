@@ -11,6 +11,9 @@ hero_ctas:
   - label: 지금 다운로드
     url: /kr/dancexr/download
     style: neon
+  - label: 브라우저로 체험
+    url: /kr/dancexr/play
+    style: secondary
 
 # ── Slideshow image lists ─────────────────────────────────────
 # Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.

@@ -11,6 +11,9 @@ hero_ctas:
   - label: 立即下載
     url: /tw/dancexr/download
     style: neon
+  - label: 線上試玩
+    url: /tw/dancexr/play
+    style: secondary
 
 # ── Slideshow image lists ─────────────────────────────────────
 # Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.

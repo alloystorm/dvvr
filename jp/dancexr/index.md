@@ -11,6 +11,9 @@ hero_ctas:
   - label: 今すぐダウンロード
     url: /jp/dancexr/download
     style: neon
+  - label: ブラウザで試す
+    url: /jp/dancexr/play
+    style: secondary
 
 # ── Slideshow image lists ─────────────────────────────────────
 # Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.
