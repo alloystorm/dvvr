@@ -22,7 +22,7 @@ hero_image: /images/hero.png
 
 </div>
 <p style="text-align:center; margin-top: 20px;">
-  <a href="play" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'try_web', { 'event_category': 'web_demo', 'event_label': 'Download page banner' });">▶ 웹 데모 실행</a>
+  <a href="play" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'try_web', { 'event_category': 'web_demo', 'event_label': 'Download page banner' });">▶ 무료 웹 버전 실행</a>
 </p>
 </section>
 

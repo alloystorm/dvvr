@@ -22,7 +22,7 @@ Load your own PMX / VMD files and play instantly — nothing to install.
 
 </div>
 <p style="text-align:center; margin-top: 20px;">
-  <a href="play" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'try_web', { 'event_category': 'web_demo', 'event_label': 'Download page banner' });">▶ Launch the web demo</a>
+  <a href="play" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'try_web', { 'event_category': 'web_demo', 'event_label': 'Download page banner' });">▶ Launch the free web version</a>
 </p>
 </section>
 
