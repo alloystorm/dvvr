@@ -422,6 +422,28 @@ pre code { background: none !important; }
     0 0 70px rgba(100,60,255,0.35),
     inset 0 0 24px rgba(100,60,255,0.12);
 }
+/* Same footprint as .btn-neon (padding/font/radius) but no glow — for a
+   secondary hero CTA that needs to match the neon button's size exactly. */
+.btn-neon-ghost {
+  background: rgba(255,255,255,0.06);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  color: #fff;
+  border: 1.5px solid rgba(255,255,255,0.25);
+  border-radius: 50px;
+  padding: 15px 52px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: background 0.2s, border-color 0.3s, transform 0.2s var(--ease);
+}
+.btn-neon-ghost:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.45);
+  transform: scale(1.03);
+}
 
 /* ── Platform strip ──────────────────────────────────────── */
 .platform-strip {

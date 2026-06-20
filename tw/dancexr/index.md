@@ -13,7 +13,7 @@ hero_ctas:
     style: neon
   - label: 線上試玩
     url: /tw/dancexr/play
-    style: secondary
+    style: neon-ghost
 
 # ── Slideshow image lists ─────────────────────────────────────
 # Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.

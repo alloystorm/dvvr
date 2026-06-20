@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: studio-home
 title: "Try DanceXR Online"
 toc: false
 locale: en-US
@@ -16,7 +16,7 @@ hero_image: /images/hero.png
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  aspect-ratio: 960 / 638;
+  aspect-ratio: 960 / 600;
   background: #000;
   border-radius: var(--r);
   overflow: hidden;
@@ -24,13 +24,14 @@ hero_image: /images/hero.png
 }
 .player-frame iframe {
   position: absolute;
-  top: 0; left: 0;
-  width: 960px;
-  height: 638px;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   border: 0;
-  transform-origin: 0 0;
   background: #000;
 }
+.player-frame:fullscreen { max-width: none; width: 100%; height: 100%; aspect-ratio: auto; border-radius: 0; }
+.player-frame:-webkit-full-screen { max-width: none; width: 100%; height: 100%; border-radius: 0; }
 .player-launch {
   position: absolute; inset: 0;
   width: 100%; height: 100%;
@@ -72,7 +73,7 @@ hero_image: /images/hero.png
     <button class="player-launch" id="player-launch" type="button">
       <span class="play-icon">▶</span>
       <span class="play-title">Launch DanceXR</span>
-      <span class="play-note">Free LW build · about 105&nbsp;MB will download · runs entirely in your browser — your files are never uploaded.</span>
+      <span class="play-note">runs entirely in your browser — your files are never uploaded.</span>
     </button>
   </div>
 
@@ -126,11 +127,23 @@ This is the free **LW (lightweight)** build running through WebGL — the same v
   var fsBtn  = document.getElementById('player-fs');
   var iframe = null;
 
-  function fit() {
-    if (!iframe) return;
-    var scale = Math.min(1, frame.clientWidth / 960);
-    iframe.style.transform = 'scale(' + scale + ')';
-    frame.style.height = (638 * scale) + 'px';
+  // Injected into the (same-origin) Unity iframe so the canvas always fills the
+  // frame. This makes the embed responsive and lets fullscreen fill the screen.
+  var FILL_CSS =
+    'html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#000;}' +
+    '#unity-container,#unity-container.unity-desktop{position:absolute!important;' +
+    'left:0!important;top:0!important;width:100%!important;height:100%!important;transform:none!important;}' +
+    '#unity-canvas{width:100%!important;height:100%!important;}' +
+    '#unity-footer{display:none!important;}';
+
+  function injectFill() {
+    try {
+      var doc = iframe.contentDocument;
+      if (!doc) return;
+      var s = doc.createElement('style');
+      s.textContent = FILL_CSS;
+      (doc.head || doc.documentElement).appendChild(s);
+    } catch (e) {}
   }
 
   launch.addEventListener('click', function () {
@@ -139,24 +152,19 @@ This is the free **LW (lightweight)** build running through WebGL — the same v
     iframe.title = 'DanceXR Web Player';
     iframe.allow = 'fullscreen; autoplay';
     iframe.setAttribute('allowfullscreen', '');
+    iframe.addEventListener('load', injectFill);
     iframe.src = '/dancexr/web/index.html';
     frame.appendChild(iframe);
     launch.remove();
     fsBtn.disabled = false;
-    fit();
     if (window.gtag) { gtag('event', 'try_web', { 'event_category': 'web_demo', 'event_label': 'Launch' }); }
   });
 
   fsBtn.addEventListener('click', function () {
     if (!iframe) return;
-    // Trigger Unity's own fullscreen button for a proper canvas resize (same-origin).
-    try {
-      var btn = iframe.contentDocument && iframe.contentDocument.getElementById('unity-fullscreen-button');
-      if (btn) { btn.click(); return; }
-    } catch (e) {}
-    if (iframe.requestFullscreen) iframe.requestFullscreen();
+    // Fullscreen the wrapper; the iframe + Unity canvas fill it (see FILL_CSS).
+    var req = frame.requestFullscreen || frame.webkitRequestFullscreen || frame.msRequestFullscreen;
+    if (req) { req.call(frame); }
   });
-
-  window.addEventListener('resize', fit);
 })();
 </script>

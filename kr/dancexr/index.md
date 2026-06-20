@@ -13,7 +13,7 @@ hero_ctas:
     style: neon
   - label: 브라우저로 체험
     url: /kr/dancexr/play
-    style: secondary
+    style: neon-ghost
 
 # ── Slideshow image lists ─────────────────────────────────────
 # Each key matches a {% include slideshow.html slides=page.slideshows.KEY %} call below.
