@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: studio-home
 title: Support
 toc: false
 locale: en-US
@@ -112,6 +112,70 @@ Please attach **`Player.log`** (current session) and **`Player-prev.log`** (prev
 </div>
 </section>
 
+<!-- ── Known Issues & Workarounds ───────────────────────────── -->
+<section class="section section-light" id="known-issues">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+Known Issues
+
+## Known Issues & Workarounds
+
+</div>
+
+<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">🌐 All Versions</h3>
+<div class="faq-grid">
+
+<div class="faq-item" markdown="1">
+
+### Model loads but everything is white
+
+The most common cause is filename encoding — textures can't be located when filenames use a different character encoding.
+
+- For ZIP packages, add the encoding to the package name so DanceXR knows how to parse filenames. [Details here →](features/zip_format)
+- Extra spaces in filenames can also prevent textures from loading. Open the model in PMXEditor and verify that texture references match the actual filenames exactly.
+
+</div>
+
+<div class="faq-item" markdown="1">
+
+### Hair materials are see-through
+
+Transparency depth prepass is on by default. It fixes transparency sorting by rendering only the topmost transparent layer — which means stacked transparent layers (like layered hair) only show the top one.
+
+- Turn off transparency depth prepass to render all transparent layers. This may introduce sorting artifacts if the model's material order isn't correct.
+- There is no perfect universal solution — try different configurations and use the one with fewer visual problems.
+
+</div>
+
+<div class="faq-item" markdown="1">
+
+### Sky sphere from a stage model has holes or looks pixelated
+
+Also caused by transparency depth prepass — when multiple sky spheres are transparent, only the topmost layer renders fully in some areas.
+
+- Turn off transparency depth prepass, or
+- Find the background sky sphere and change its material from transparent to opaque.
+
+</div>
+
+</div>
+
+<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">📌 Version 2025.12</h3>
+<div class="faq-grid">
+
+<div class="faq-item" markdown="1">
+
+### Placeholder issue
+
+*This is a placeholder for version-specific known issues. We will add content here.*
+
+</div>
+
+</div>
+
+</section>
+
 <!-- ── FAQ ──────────────────────────────────────────────────── -->
 <section class="section">
 <div class="editions-header" markdown="1">
@@ -164,19 +228,8 @@ DanceXR uses OpenXR to initialize VR. If you have multiple VR runtimes installed
 
 </div>
 
-<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">📦 Models & Content Library</h3>
+<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">📦 Content Library Setup</h3>
 <div class="faq-grid">
-
-<div class="faq-item" markdown="1">
-
-### Model loads but everything is white
-
-The most common cause is filename encoding — textures can't be located when filenames use a different character encoding.
-
-- For ZIP packages, add the encoding to the package name so DanceXR knows how to parse filenames. [Details here →](features/zip_format)
-- Extra spaces in filenames can also prevent textures from loading. Open the model in PMXEditor and verify that texture references match the actual filenames exactly.
-
-</div>
 
 <div class="faq-item" markdown="1">
 
@@ -187,33 +240,6 @@ Android systems have strict file access rules. By default, the content library i
 - Connect your device to a PC via USB, select "File Transfer", and navigate to `/Android/data/com.vrstormlab.dancexr/files/` or the root `/DanceXR/` folder to copy your zip/image files.
 - On Android and Meta Quest (from version 2024.3), grant DanceXR storage permission to use the system Files app or the built-in Content Manager app to share and manage your library.
 - For more details, see the [Content Library for Android & Quest](content_android_quest) guide.
-
-</div>
-
-</div>
-
-<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">🎨 Visuals & Rendering</h3>
-<div class="faq-grid">
-
-<div class="faq-item" markdown="1">
-
-### Hair materials are see-through
-
-Transparency depth prepass is on by default. It fixes transparency sorting by rendering only the topmost transparent layer — which means stacked transparent layers (like layered hair) only show the top one.
-
-- Turn off transparency depth prepass to render all transparent layers. This may introduce sorting artifacts if the model's material order isn't correct.
-- There is no perfect universal solution — try different configurations and use the one with fewer visual problems.
-
-</div>
-
-<div class="faq-item" markdown="1">
-
-### Sky sphere from a stage model has holes or looks pixelated
-
-Also caused by transparency depth prepass — when multiple sky spheres are transparent, only the topmost layer renders fully in some areas.
-
-- Turn off transparency depth prepass, or
-- Find the background sky sphere and change its material from transparent to opaque.
 
 </div>
 
