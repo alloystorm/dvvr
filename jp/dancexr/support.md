@@ -129,7 +129,7 @@ support_sections:
 </div>
 
 {% for sub in section.subsections %}
-<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">{{ sub.title }}</h3>
+<h3 class="faq-subsection">{{ sub.title }}</h3>
 <div class="faq-grid">
 
 {% for item in sub.items %}

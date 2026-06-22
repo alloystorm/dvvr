@@ -5,7 +5,7 @@
 
 /* ── Design Tokens ───────────────────────────────────────── */
 :root {
-  --bg:           #000000;
+  --bg:           #222222;
   --bg-surface:   #1d1d1f;
   --bg-surface-2: #2d2d2f;
   --text:         #f5f5f7;
@@ -475,7 +475,7 @@ pre code { background: none !important; }
 
 /* ── Section base ────────────────────────────────────────── */
 .section {
-  padding: 120px 24px;
+  padding: 60px 24px;
   background: var(--bg-surface-2);
 }
 .section-continue-down {
@@ -730,23 +730,27 @@ pre code { background: none !important; }
 /* ── Support Search & Cards ──────────────────────────────── */
 .support-search-container {
   max-width: 800px;
-  margin: 0 auto 60px;
+  margin: 20px auto 20px;
   position: relative;
 }
 .support-search-input {
   width: 100%;
-  padding: 16px 24px;
+  padding: 17px 24px 17px 56px;
   font-size: 18px;
   color: var(--text);
-  background: var(--bg-surface);
+  background: #000
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2386868b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E")
+    no-repeat 22px center;
+  background-size: 20px;
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 14px;
   outline: none;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
+.support-search-input::placeholder { color: var(--text-dim); }
 .support-search-input:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 4px rgba(0, 113, 227, 0.2);
+  box-shadow: 0 0 0 4px rgba(0, 113, 227, 0.18);
 }
 .support-card {
   background: var(--bg-surface);
@@ -796,11 +800,17 @@ pre code { background: none !important; }
   color: #fff;
 }
 .faq-item.known-issue {
-  background: rgba(255, 170, 0, 0.05);
-  border-left: 4px solid #ffaa00;
-  border-radius: 8px;
-  padding: 16px 20px;
+  background: linear-gradient(180deg, rgba(255,170,0,0.07), rgba(255,170,0,0.015));
+  border-color: rgba(255,170,0,0.18);
+  border-left: 3px solid #ffaa00;
+  border-radius: var(--r);
+  padding: 24px 28px;
 }
+.faq-item.known-issue:hover {
+  border-color: rgba(255,170,0,0.4);
+  border-left-color: #ffaa00;
+}
+.faq-item.known-issue ul li::before { color: #ffaa00; }
 
 /* ── Download section ────────────────────────────────────── */
 .download-section {
@@ -996,14 +1006,13 @@ pre code { background: none !important; }
   justify-content: center;
   gap: 16px;
   padding: 12px 24px;
-  background: var(--bg-surface);
+  background: #000;
   border-bottom: 1px solid var(--border);
   border-top: 1px solid var(--border);
   font-size: 13px;
 }
 .lang-bar-no-hero {
-  margin-top: 0;
-  padding-top: 92px;
+  margin-top: 92px;
 }
 .lang-bar a {
   color: var(--text-dim);
@@ -1210,30 +1219,52 @@ pre code { background: none !important; }
   font-weight: 500;
 }
 
+/* ── FAQ subsection titles ───────────────────────────────── */
+.faq-subsection {
+  max-width: 1200px;
+  margin: 52px auto 18px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text);
+  font-weight: 600;
+  font-size: 19px;
+  letter-spacing: -0.01em;
+}
+.faq-subsection::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, var(--border), transparent);
+}
+
 /* ── FAQ grid ────────────────────────────────────────────── */
 .faq-grid {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 14px;
   padding: 0 24px;
 }
 .faq-item {
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--r);
-  padding: 28px 28px 24px;
-  transition: border-color 0.2s;
+  padding: 24px 28px;
+  transition: border-color 0.2s, transform 0.2s var(--ease), box-shadow 0.2s var(--ease);
 }
 .faq-item:hover {
-  border-color: rgba(255,255,255,0.18);
+  border-color: rgba(255,255,255,0.22);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
 }
 .faq-item h3 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
   letter-spacing: -0.01em;
-  line-height: 1.3;
+  line-height: 1.35;
   margin: 0 0 12px;
   color: var(--text);
 }
