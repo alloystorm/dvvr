@@ -113,11 +113,6 @@ support_sections:
 
 <div class="support-search-container">
   <input type="text" id="supportSearch" class="support-search-input" placeholder="Search issues, keywords, or error codes...">
-  <div style="text-align: center; margin-top: 12px; font-size: 14px; color: var(--text-dim);">
-    <a href="https://discord.gg/xN2MaM7C5q" style="color: var(--text-dim); text-decoration: underline; margin-right: 12px;">Discord</a>
-    <a href="https://github.com/alloystorm/dvvr/issues" style="color: var(--text-dim); text-decoration: underline; margin-right: 12px;">GitHub</a>
-    <a href="mailto:vrstormlab@gmail.com" style="color: var(--text-dim); text-decoration: underline;">Email</a>
-  </div>
 </div>
 <script src="/assets/js/support-search.js"></script>
 
