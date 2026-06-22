@@ -5,7 +5,7 @@
 
 /* ── Design Tokens ───────────────────────────────────────── */
 :root {
-  --bg:           #222222;
+  --bg:           #000000;
   --bg-surface:   #1d1d1f;
   --bg-surface-2: #2d2d2f;
   --text:         #f5f5f7;
@@ -799,7 +799,7 @@ pre code { background: none !important; }
   background: var(--accent);
   color: #fff;
 }
-.faq-item.known-issue {
+/* .faq-item.known-issue {
   background: linear-gradient(180deg, rgba(255,170,0,0.07), rgba(255,170,0,0.015));
   border-color: rgba(255,170,0,0.18);
   border-left: 3px solid #ffaa00;
@@ -810,7 +810,7 @@ pre code { background: none !important; }
   border-color: rgba(255,170,0,0.4);
   border-left-color: #ffaa00;
 }
-.faq-item.known-issue ul li::before { color: #ffaa00; }
+.faq-item.known-issue ul li::before { color: #ffaa00; } */
 
 /* ── Download section ────────────────────────────────────── */
 .download-section {
