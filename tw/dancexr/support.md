@@ -47,6 +47,30 @@ support_sections:
     label: FAQ
     title: Frequently Asked Questions
     subsections:
+      - title: 🛠️ Pre-Report Checklist
+        items:
+          - question: "Before reporting a bug, try these quick fixes:"
+            answer: |
+              1. **Update to the Latest Version** — Your issue may already be resolved in a newer release.
+              2. **Reset Configuration** — Back up and then delete `config.json` to rule out a corrupted settings file.
+              3. **Reset License** — If the app fails to start or behaves weirdly, try removing `license.txt` from the installation directory and relaunching.
+              4. **Clear Library Cache** — Back up and delete `cache.json` from your content library folder to force the player to re-scan your files.
+              5. **OpenXR Setup** — If VR won't launch, double-check that your active OpenXR runtime is set correctly in your VR software settings.
+          - question: "Where can I find the log files?"
+            answer: |
+              When reporting a bug, attaching your log files is extremely helpful. Please attach **`Player.log`** (current session) and **`Player-prev.log`** (previous session) to your bug report.
+              
+              **Windows PC Path:**
+              ```
+              C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
+              ```
+              *Note: Replace `[User]` with your Windows username. If AppData is hidden, enable "Hidden items" in Windows Explorer.*
+              
+              **Android & Meta Quest Path:**
+              ```
+              /Android/data/com.vrstormlab.dancexr/files/Player.log
+              ```
+              *Note: Connect your device to a PC via USB and use File Transfer to locate this file.*
       - title: "🖥️ System & VR Startup"
         items:
           - question: Only the sky is visible — no UI or camera controls
@@ -86,108 +110,16 @@ support_sections:
               After major OS or hardware changes, DanceXR may not recognize the system as the same one your license was issued for. Just run through the activation steps again — there's no extra cost. See the [Activation & Licensing](activation) guide. [Contact us](#contact) if you have trouble.
 ---
 
-<!-- ── Support Hub Navigation ───────────────────────────────── -->
-<section class="section">
-<div class="editions-header" markdown="1">
 
-{:.section-label}
-支援中心
-
-## 我們能為您提供什麼幫助？
-
-</div>
-<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
-
-  <div class="edition-card">
-    <p class="edition-tier">說明文件</p>
-    <p class="edition-name">瀏覽文件</p>
-    <p class="edition-price">功能與選項指南</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>詳細的功能說明文件</li>
-      <li>自訂內容準備</li>
-      <li>VR/螢幕設定詳情</li>
-      <li>系統需求與支援格式</li>
-    </ul>
-    <a href="features" class="edition-cta">開啟文件</a>
+<div class="support-search-container">
+  <input type="text" id="supportSearch" class="support-search-input" placeholder="Search issues, keywords, or error codes...">
+  <div style="text-align: center; margin-top: 12px; font-size: 14px; color: var(--text-dim);">
+    <a href="https://discord.gg/xN2MaM7C5q" style="color: var(--text-dim); text-decoration: underline; margin-right: 12px;">Discord</a>
+    <a href="https://github.com/alloystorm/dvvr/issues" style="color: var(--text-dim); text-decoration: underline; margin-right: 12px;">GitHub</a>
+    <a href="mailto:vrstormlab@gmail.com" style="color: var(--text-dim); text-decoration: underline;">Email</a>
   </div>
-
-  <div class="edition-card featured">
-    <p class="edition-tier">快速修復</p>
-    <p class="edition-name">疑難排解</p>
-    <p class="edition-price">回報前檢查清單</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>驗證執行環境與設定</li>
-      <li>重設損壞的設定</li>
-      <li>使用日誌診斷問題</li>
-      <li>解決常見的當機狀態</li>
-    </ul>
-    <a href="#troubleshooting" class="edition-cta">檢視清單</a>
-  </div>
-
-  <div class="edition-card">
-    <p class="edition-tier">授權許可</p>
-    <p class="edition-name">啟用</p>
-    <p class="edition-price">管理您的授權金鑰</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>硬體變更重新啟用</li>
-      <li>Patreon 驗證步驟</li>
-      <li>不同平台版本差異</li>
-      <li>購買與退款諮詢</li>
-    </ul>
-    <a href="activation" class="edition-cta">啟用指南</a>
-  </div>
-
 </div>
-</section>
-
-<!-- ── Troubleshooting & Logs ───────────────────────────────── -->
-<section class="section section-light" id="troubleshooting">
-<div class="section-inner">
-<div class="section-copy" markdown="1">
-
-{:.section-label}
-快速修復
-
-## 回報前請先嘗試
-
-在提交 Bug 回報前，請先執行以下快速疑難排解步驟：
-
-1. **更新至最新版本** — 您遇到的問題可能已經在較新的版本中被修復。
-2. **重設設定** — 備份後刪除 `config.json`，以排除設定檔損壞的可能性。
-3. **重設授權** — 如果應用程式無法啟動或行為異常，請嘗試從安裝目錄中刪除 `license.txt` 並重新啟動。
-4. **清除快取** — 備份並刪除內容庫資料夾中的 `cache.json`，以強制播放器重新掃描您的檔案。
-5. **OpenXR 設定** — 如果 VR 無法啟動，請再次確認您的 VR 軟體設定中是否正確設定了活躍的 OpenXR 執行環境。
-
-</div>
-<div class="section-copy" markdown="1">
-
-{:.section-label}
-疑難排解
-
-## 尋找日誌檔案
-
-在回報 Bug 時，附上您的日誌檔案非常有用。日誌檔案記錄了錯誤發生的過程，讓我們能快速診斷問題。
-
-**Windows PC 路徑：**
-```
-C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
-```
-*\*注意：請將 [User] 替換為您的 Windows 使用者名稱。最後一個資料夾名稱取決於您的版本（例如 DanceXR HD、DanceXR LW 或 DanceXR RT）。如果找不到 AppData 資料夾，請在檔案總管中開啟「隱藏的項目」。\**
-
-**Android & Meta Quest 路徑：**
-```
-/Android/data/com.vrstormlab.dancexr/files/Player.log
-```
-*\*注意：請使用 USB 將您的裝置連接到 PC 並選擇檔案傳送，或使用裝置上具有適當權限的文件瀏覽器應用程式來找到此檔案。\**
-
-請將 **`Player.log`**（當前工作階段）和 **`Player-prev.log`**（前一個工作階段）附加到您的 Bug 回報中。
-
-</div>
-</div>
-</section>
+<script src="/assets/js/support-search.js"></script>
 
 {% for section in page.support_sections %}
 <!-- ── {{ section.label }} ───────────────────────────────────────────── -->
@@ -206,7 +138,7 @@ C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
 <div class="faq-grid">
 
 {% for item in sub.items %}
-<div class="faq-item" markdown="1">
+<div class="faq-item{% if section.id == 'known-issues' %} known-issue{% endif %}" markdown="1">
 
 ### {{ item.question }}
 
@@ -221,9 +153,42 @@ C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
 </section>
 {% endfor %}
 
-<!-- ── Bug Report & Contact ──────────────────────────────────── -->
+<!-- ── Support & Contact ──────────────────────────────────── -->
 <section class="section section-light" id="contact">
 <div class="editions-header" markdown="1">
+
+{:.section-label}
+支援中心
+
+## 我們能為您提供什麼幫助？
+
+</div>
+<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
+
+  <div class="support-card">
+    <div class="support-icon">📖</div>
+    <h3 class="support-title">瀏覽文件</h3>
+    <p class="support-desc">功能與選項指南</p>
+    <a href="features" class="support-cta">開啟文件</a>
+  </div>
+
+  <div class="support-card">
+    <div class="support-icon">🛠️</div>
+    <h3 class="support-title">疑難排解</h3>
+    <p class="support-desc">回報前檢查清單</p>
+    <a href="#troubleshooting" class="support-cta">檢視清單</a>
+  </div>
+
+  <div class="support-card">
+    <div class="support-icon">🔑</div>
+    <h3 class="support-title">啟用</h3>
+    <p class="support-desc">管理您的授權金鑰</p>
+    <a href="activation" class="support-cta">啟用指南</a>
+  </div>
+
+</div>
+
+<div class="editions-header" style="margin-top: 80px;" markdown="1">
 
 {:.section-label}
 聯絡我們
@@ -233,47 +198,27 @@ C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
 </div>
 <div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
-  <div class="edition-card">
-    <p class="edition-tier">推薦</p>
-    <p class="edition-name">GitHub Issues</p>
-    <p class="edition-price">Bug 追蹤與功能請求</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>完整的問題歷史與狀態</li>
-      <li>可附加截圖和日誌檔案</li>
-      <li>追蹤回報進度</li>
-      <li>請求新功能</li>
-    </ul>
-    <a href="https://github.com/alloystorm/dvvr/issues" class="edition-cta">提交 Issue</a>
+  <div class="support-card">
+    <div class="support-icon">🐛</div>
+    <h3 class="support-title">GitHub Issues</h3>
+    <p class="support-desc">Bug 追蹤與功能請求</p>
+    <a href="https://github.com/alloystorm/dvvr/issues" class="support-cta">提交 Issue</a>
   </div>
 
-  <div class="edition-card featured">
-    <p class="edition-tier">快速</p>
-    <p class="edition-name">Discord</p>
-    <p class="edition-price">社群支援</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>社群快速解答</li>
-      <li>分享作品和想法</li>
-      <li>開發者在線</li>
-      <li>即時交流</li>
-    </ul>
-    <a href="https://discord.gg/xN2MaM7C5q" class="edition-cta">加入 Discord</a>
+  <div class="support-card">
+    <div class="support-icon">💬</div>
+    <h3 class="support-title">Discord</h3>
+    <p class="support-desc">社群支援</p>
+    <a href="https://discord.gg/xN2MaM7C5q" class="support-cta">加入 Discord</a>
   </div>
 
-  <div class="edition-card">
-    <p class="edition-tier">直接</p>
-    <p class="edition-name">電子郵件</p>
-    <p class="edition-price">商務與直接諮詢</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>附帶附件的 Bug 回報</li>
-      <li>商務諮詢</li>
-      <li>啟動問題</li>
-      <li>vrstormlab@gmail.com</li>
-    </ul>
-    <a href="mailto:vrstormlab@gmail.com" class="edition-cta">發送郵件</a>
+  <div class="support-card">
+    <div class="support-icon">✉️</div>
+    <h3 class="support-title">電子郵件</h3>
+    <p class="support-desc">商務與直接諮詢</p>
+    <a href="mailto:vrstormlab@gmail.com" class="support-cta">發送郵件</a>
   </div>
 
 </div>
+
 </section>

@@ -47,6 +47,30 @@ support_sections:
     label: FAQ
     title: Frequently Asked Questions
     subsections:
+      - title: 🛠️ Pre-Report Checklist
+        items:
+          - question: "Before reporting a bug, try these quick fixes:"
+            answer: |
+              1. **Update to the Latest Version** — Your issue may already be resolved in a newer release.
+              2. **Reset Configuration** — Back up and then delete `config.json` to rule out a corrupted settings file.
+              3. **Reset License** — If the app fails to start or behaves weirdly, try removing `license.txt` from the installation directory and relaunching.
+              4. **Clear Library Cache** — Back up and delete `cache.json` from your content library folder to force the player to re-scan your files.
+              5. **OpenXR Setup** — If VR won't launch, double-check that your active OpenXR runtime is set correctly in your VR software settings.
+          - question: "Where can I find the log files?"
+            answer: |
+              When reporting a bug, attaching your log files is extremely helpful. Please attach **`Player.log`** (current session) and **`Player-prev.log`** (previous session) to your bug report.
+              
+              **Windows PC Path:**
+              ```
+              C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
+              ```
+              *Note: Replace `[User]` with your Windows username. If AppData is hidden, enable "Hidden items" in Windows Explorer.*
+              
+              **Android & Meta Quest Path:**
+              ```
+              /Android/data/com.vrstormlab.dancexr/files/Player.log
+              ```
+              *Note: Connect your device to a PC via USB and use File Transfer to locate this file.*
       - title: "🖥️ System & VR Startup"
         items:
           - question: Only the sky is visible — no UI or camera controls
@@ -86,108 +110,16 @@ support_sections:
               After major OS or hardware changes, DanceXR may not recognize the system as the same one your license was issued for. Just run through the activation steps again — there's no extra cost. See the [Activation & Licensing](activation) guide. [Contact us](#contact) if you have trouble.
 ---
 
-<!-- ── Support Hub Navigation ───────────────────────────────── -->
-<section class="section">
-<div class="editions-header" markdown="1">
 
-{:.section-label}
-Support Hub
-
-## How can we help you?
-
-</div>
-<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
-
-  <div class="edition-card">
-    <p class="edition-tier">Documentation</p>
-    <p class="edition-name">Browse Docs</p>
-    <p class="edition-price">Features & Options Guide</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>Detailed features documentation</li>
-      <li>Preparation of custom content</li>
-      <li>VR/Screen settings details</li>
-      <li>System requirements & formats</li>
-    </ul>
-    <a href="features" class="edition-cta">Open Documentation</a>
+<div class="support-search-container">
+  <input type="text" id="supportSearch" class="support-search-input" placeholder="Search issues, keywords, or error codes...">
+  <div style="text-align: center; margin-top: 12px; font-size: 14px; color: var(--text-dim);">
+    <a href="https://discord.gg/xN2MaM7C5q" style="color: var(--text-dim); text-decoration: underline; margin-right: 12px;">Discord</a>
+    <a href="https://github.com/alloystorm/dvvr/issues" style="color: var(--text-dim); text-decoration: underline; margin-right: 12px;">GitHub</a>
+    <a href="mailto:vrstormlab@gmail.com" style="color: var(--text-dim); text-decoration: underline;">Email</a>
   </div>
-
-  <div class="edition-card featured">
-    <p class="edition-tier">Quick Fixes</p>
-    <p class="edition-name">Troubleshooting</p>
-    <p class="edition-price">Checklist before reporting</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>Verify runtime & settings</li>
-      <li>Reset corrupt configurations</li>
-      <li>Diagnose issues with logs</li>
-      <li>Resolve common crash states</li>
-    </ul>
-    <a href="#troubleshooting" class="edition-cta">View Checklist</a>
-  </div>
-
-  <div class="edition-card">
-    <p class="edition-tier">Licensing</p>
-    <p class="edition-name">Activation</p>
-    <p class="edition-price">Manage your license key</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>Hardware change re-activations</li>
-      <li>Patreon verification steps</li>
-      <li>Platform edition differences</li>
-      <li>Purchase & refund inquiries</li>
-    </ul>
-    <a href="activation" class="edition-cta">Activation Guide</a>
-  </div>
-
 </div>
-</section>
-
-<!-- ── Troubleshooting & Logs ───────────────────────────────── -->
-<section class="section section-light" id="troubleshooting">
-<div class="section-inner">
-<div class="section-copy" markdown="1">
-
-{:.section-label}
-Quick Fixes
-
-## Before Reporting
-
-Before submitting a bug report, please run through these quick troubleshooting steps:
-
-1. **Update to the Latest Version** — Your issue may already be resolved in a newer release.
-2. **Reset Configuration** — Back up and then delete `config.json` to rule out a corrupted settings file.
-3. **Reset License** — If the app fails to start or behaves weirdly, try removing `license.txt` from the installation directory and relaunching.
-4. **Clear Library Cache** — Back up and delete `cache.json` from your content library folder to force the player to re-scan your files.
-5. **OpenXR Setup** — If VR won't launch, double-check that your active OpenXR runtime is set correctly in your VR software settings.
-
-</div>
-<div class="section-copy" markdown="1">
-
-{:.section-label}
-Troubleshooting
-
-## Finding Your Log Files
-
-When reporting a bug, attaching your log files is extremely helpful. Log files record errors as they happen and let us diagnose problems quickly.
-
-**Windows PC Path:**
-```
-C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
-```
-*Note: Replace `[User]` with your Windows username. The final folder name depends on your edition (e.g. `DanceXR HD`, `DanceXR LW`, or `DanceXR RT`). If AppData is hidden, enable "Hidden items" in Windows Explorer.*
-
-**Android & Meta Quest Path:**
-```
-/Android/data/com.vrstormlab.dancexr/files/Player.log
-```
-*Note: Connect your device to a PC via USB and use File Transfer, or use a file explorer app with appropriate permissions on the device to locate this file.*
-
-Please attach **`Player.log`** (current session) and **`Player-prev.log`** (previous session) to your bug report.
-
-</div>
-</div>
-</section>
+<script src="/assets/js/support-search.js"></script>
 
 {% for section in page.support_sections %}
 <!-- ── {{ section.label }} ───────────────────────────────────────────── -->
@@ -206,7 +138,7 @@ Please attach **`Player.log`** (current session) and **`Player-prev.log`** (prev
 <div class="faq-grid">
 
 {% for item in sub.items %}
-<div class="faq-item" markdown="1">
+<div class="faq-item{% if section.id == 'known-issues' %} known-issue{% endif %}" markdown="1">
 
 ### {{ item.question }}
 
@@ -221,9 +153,42 @@ Please attach **`Player.log`** (current session) and **`Player-prev.log`** (prev
 </section>
 {% endfor %}
 
-<!-- ── Bug Report & Contact ──────────────────────────────────── -->
+<!-- ── Support & Contact ──────────────────────────────────── -->
 <section class="section section-light" id="contact">
 <div class="editions-header" markdown="1">
+
+{:.section-label}
+Support Hub
+
+## How can we help you?
+
+</div>
+<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
+
+  <div class="support-card">
+    <div class="support-icon">📖</div>
+    <h3 class="support-title">Browse Docs</h3>
+    <p class="support-desc">Features & Options Guide</p>
+    <a href="features" class="support-cta">Open Documentation</a>
+  </div>
+
+  <div class="support-card">
+    <div class="support-icon">🛠️</div>
+    <h3 class="support-title">Troubleshooting</h3>
+    <p class="support-desc">Checklist before reporting</p>
+    <a href="#troubleshooting" class="support-cta">View Checklist</a>
+  </div>
+
+  <div class="support-card">
+    <div class="support-icon">🔑</div>
+    <h3 class="support-title">Activation</h3>
+    <p class="support-desc">Manage your license key</p>
+    <a href="activation" class="support-cta">Activation Guide</a>
+  </div>
+
+</div>
+
+<div class="editions-header" style="margin-top: 80px;" markdown="1">
 
 {:.section-label}
 Contact
@@ -233,47 +198,27 @@ Contact
 </div>
 <div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
-  <div class="edition-card">
-    <p class="edition-tier">Preferred</p>
-    <p class="edition-name">GitHub Issues</p>
-    <p class="edition-price">Bug tracking & feature requests</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>Full issue history and status</li>
-      <li>Attach screenshots & log files</li>
-      <li>Track progress on your report</li>
-      <li>Request new features</li>
-    </ul>
-    <a href="https://github.com/alloystorm/dvvr/issues" class="edition-cta">Open an Issue</a>
+  <div class="support-card">
+    <div class="support-icon">🐛</div>
+    <h3 class="support-title">GitHub Issues</h3>
+    <p class="support-desc">Bug tracking & feature requests</p>
+    <a href="https://github.com/alloystorm/dvvr/issues" class="support-cta">Open an Issue</a>
   </div>
 
-  <div class="edition-card featured">
-    <p class="edition-tier">Fast</p>
-    <p class="edition-name">Discord</p>
-    <p class="edition-price">Community support</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>Quick answers from the community</li>
-      <li>Share work and ideas</li>
-      <li>Developer presence</li>
-      <li>Real-time discussion</li>
-    </ul>
-    <a href="https://discord.gg/xN2MaM7C5q" class="edition-cta">Join Discord</a>
+  <div class="support-card">
+    <div class="support-icon">💬</div>
+    <h3 class="support-title">Discord</h3>
+    <p class="support-desc">Community support</p>
+    <a href="https://discord.gg/xN2MaM7C5q" class="support-cta">Join Discord</a>
   </div>
 
-  <div class="edition-card">
-    <p class="edition-tier">Direct</p>
-    <p class="edition-name">Email</p>
-    <p class="edition-price">Business & direct enquiries</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>Bug reports with attachments</li>
-      <li>Business inquiries</li>
-      <li>Activation issues</li>
-      <li>vrstormlab@gmail.com</li>
-    </ul>
-    <a href="mailto:vrstormlab@gmail.com" class="edition-cta">Send Email</a>
+  <div class="support-card">
+    <div class="support-icon">✉️</div>
+    <h3 class="support-title">Email</h3>
+    <p class="support-desc">Business & direct enquiries</p>
+    <a href="mailto:vrstormlab@gmail.com" class="support-cta">Send Email</a>
   </div>
 
 </div>
+
 </section>

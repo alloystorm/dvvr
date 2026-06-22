@@ -47,6 +47,30 @@ support_sections:
     label: よくある質問
     title: よくある質問（FAQ）
     subsections:
+      - title: 🛠️ 報告前のチェックリスト
+        items:
+          - question: バグを報告する前に、以下の簡単な修正をお試しください：
+            answer: |
+              1. **最新バージョンに更新** — 問題が新しいリリースですでに解決されている可能性があります。
+              2. **設定のリセット** — 破損した設定ファイルを排除するために、バックアップを取ってから `config.json` を削除します。
+              3. **ライセンスのリセット** — アプリの起動に失敗したり動作がおかしい場合は、インストールディレクトリから `license.txt` を削除して再起動してみてください。
+              4. **ライブラリキャッシュのクリア** — コンテンツライブラリフォルダから `cache.json` をバックアップして削除し、プレイヤーにファイルの再スキャンを強制します。
+              5. **OpenXRセットアップ** — VRが起動しない場合は、VRソフトウェアの設定でアクティブなOpenXRランタイムが正しく設定されているか再確認してください。
+          - question: ログファイルはどこにありますか？
+            answer: |
+              バグを報告する際、ログファイルを添付すると非常に役立ちます。バグ報告には、**`Player.log`**（現在のセッション）と**`Player-prev.log`**（以前のセッション）を添付してください。
+              
+              **Windows PCのパス:**
+              ```
+              C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
+              ```
+              *注: `[User]`をWindowsのユーザー名に置き換えてください。AppDataが隠しフォルダになっている場合は、エクスプローラーで「隠しファイル」を表示する設定にしてください。*
+              
+              **Android & Meta Questのパス:**
+              ```
+              /Android/data/com.vrstormlab.dancexr/files/Player.log
+              ```
+              *注: デバイスをUSBでPCに接続し、ファイル転送モードを使用してこのファイルを見つけてください。*
       - title: "🖥️ システム & VRの起動"
         items:
           - question: 空だけが表示され、UIやカメラ操作ができない
@@ -86,108 +110,16 @@ support_sections:
               大規模なOSまたはハードウェアの変更後、DanceXRはシステムをライセンス発行時と同じものとして認識しない場合があります。アクティベーション手順を再度実行するだけで解決します。追加の費用はかかりません。[アクティベーションとライセンス](activation)ガイドを参照してください。問題がある場合は[お問い合わせ](#contact)ください。
 ---
 
-<!-- ── Support Hub Navigation ───────────────────────────────── -->
-<section class="section">
-<div class="editions-header" markdown="1">
 
-{:.section-label}
-サポートハブ
-
-## どのようなご用件でしょうか？
-
-</div>
-<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
-
-  <div class="edition-card">
-    <p class="edition-tier">ドキュメント</p>
-    <p class="edition-name">ドキュメントを参照</p>
-    <p class="edition-price">機能とオプションのガイド</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>詳細な機能ドキュメント</li>
-      <li>カスタムコンテンツの準備</li>
-      <li>VR/画面設定の詳細</li>
-      <li>システム要件とフォーマット</li>
-    </ul>
-    <a href="features" class="edition-cta">ドキュメントを開く</a>
+<div class="support-search-container">
+  <input type="text" id="supportSearch" class="support-search-input" placeholder="Search issues, keywords, or error codes...">
+  <div style="text-align: center; margin-top: 12px; font-size: 14px; color: var(--text-dim);">
+    <a href="https://discord.gg/xN2MaM7C5q" style="color: var(--text-dim); text-decoration: underline; margin-right: 12px;">Discord</a>
+    <a href="https://github.com/alloystorm/dvvr/issues" style="color: var(--text-dim); text-decoration: underline; margin-right: 12px;">GitHub</a>
+    <a href="mailto:vrstormlab@gmail.com" style="color: var(--text-dim); text-decoration: underline;">Email</a>
   </div>
-
-  <div class="edition-card featured">
-    <p class="edition-tier">クイックフィックス</p>
-    <p class="edition-name">トラブルシューティング</p>
-    <p class="edition-price">報告前のチェックリスト</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>ランタイムと設定の確認</li>
-      <li>破損した設定の初期化</li>
-      <li>ログによる問題の診断</li>
-      <li>一般的なクラッシュ状態の解決</li>
-    </ul>
-    <a href="#troubleshooting" class="edition-cta">チェックリストを表示</a>
-  </div>
-
-  <div class="edition-card">
-    <p class="edition-tier">ライセンス</p>
-    <p class="edition-name">アクティベーション</p>
-    <p class="edition-price">ライセンスキーの管理</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>ハードウェア変更による再有効化</li>
-      <li>Patreon認証手順</li>
-      <li>プラットフォーム版の違い</li>
-      <li>購入および返金に関するお問い合わせ</li>
-    </ul>
-    <a href="activation" class="edition-cta">アクティベーションガイド</a>
-  </div>
-
 </div>
-</section>
-
-<!-- ── Troubleshooting & Logs ───────────────────────────────── -->
-<section class="section section-light" id="troubleshooting">
-<div class="section-inner">
-<div class="section-copy" markdown="1">
-
-{:.section-label}
-クイックフィックス
-
-## 報告する前に
-
-バグ報告を送信する前に、以下のクイックトラブルシューティング手順を実行してください：
-
-1. **最新バージョンへの更新** — 新しいリリースで問題がすでに解決されている可能性があります。
-2. **設定の初期化** — 設定ファイルの破損を排除するため、`config.json`をバックアップしてから削除してください。
-3. **ライセンスの初期化** — アプリが起動しない場合や動作がおかしい場合は、インストールディレクトリから`license.txt`を削除して再起動してみてください。
-4. **ライブラリキャッシュのクリア** — プレイヤーにファイルを強制的に再スキャンさせるため、コンテンツライブラリフォルダから`cache.json`をバックアップおよび削除してください。
-5. **OpenXRの設定** — VRが起動しない場合は、VRソフトウェアの設定でアクティブなOpenXRランタイムが正しく設定されているか再確認してください。
-
-</div>
-<div class="section-copy" markdown="1">
-
-{:.section-label}
-トラブルシューティング
-
-## ログファイルの場所
-
-バグを報告する際、ログファイルを添付すると非常に役立ちます。ログファイルにはエラーの発生時の記録が含まれており、問題を素早く診断できます。
-
-**Windows PCのパス：**
-```
-C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
-```
-*※注：[User]をお使いのWindowsユーザー名に置き換えてください。最後のフォルダ名はエディション（DanceXR HD、DanceXR LW、DanceXR RTなど）によって異なります。AppDataが非表示の場合は、エクスプローラーの表示設定で「隠しファイル」を有効にしてください。*
-
-**Android & Meta Questのパス：**
-```
-/Android/data/com.vrstormlab.dancexr/files/Player.log
-```
-*※注：デバイスをUSBでPCに接続してファイル転送を使用するか、デバイス上の適切な権限を持つファイルエクスプローラーアプリを使用してこのファイルを特定してください。*
-
-レポートに **`Player.log`**（現在のセッション）と **`Player-prev.log`**（前のセッション）を添付してください。
-
-</div>
-</div>
-</section>
+<script src="/assets/js/support-search.js"></script>
 
 {% for section in page.support_sections %}
 <!-- ── {{ section.label }} ───────────────────────────────────────────── -->
@@ -206,7 +138,7 @@ C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
 <div class="faq-grid">
 
 {% for item in sub.items %}
-<div class="faq-item" markdown="1">
+<div class="faq-item{% if section.id == 'known-issues' %} known-issue{% endif %}" markdown="1">
 
 ### {{ item.question }}
 
@@ -221,9 +153,42 @@ C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
 </section>
 {% endfor %}
 
-<!-- ── Bug Report & Contact ──────────────────────────────────── -->
+<!-- ── Support & Contact ──────────────────────────────────── -->
 <section class="section section-light" id="contact">
 <div class="editions-header" markdown="1">
+
+{:.section-label}
+サポートハブ
+
+## どのようなご用件でしょうか？
+
+</div>
+<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
+
+  <div class="support-card">
+    <div class="support-icon">📖</div>
+    <h3 class="support-title">ドキュメントを参照</h3>
+    <p class="support-desc">機能とオプションのガイド</p>
+    <a href="features" class="support-cta">ドキュメントを開く</a>
+  </div>
+
+  <div class="support-card">
+    <div class="support-icon">🛠️</div>
+    <h3 class="support-title">トラブルシューティング</h3>
+    <p class="support-desc">報告前のチェックリスト</p>
+    <a href="#troubleshooting" class="support-cta">チェックリストを表示</a>
+  </div>
+
+  <div class="support-card">
+    <div class="support-icon">🔑</div>
+    <h3 class="support-title">アクティベーション</h3>
+    <p class="support-desc">ライセンスキーの管理</p>
+    <a href="activation" class="support-cta">アクティベーションガイド</a>
+  </div>
+
+</div>
+
+<div class="editions-header" style="margin-top: 80px;" markdown="1">
 
 {:.section-label}
 お問い合わせ
@@ -233,47 +198,27 @@ C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
 </div>
 <div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
-  <div class="edition-card">
-    <p class="edition-tier">推奨</p>
-    <p class="edition-name">GitHub Issues</p>
-    <p class="edition-price">バグ追跡・機能リクエスト</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>完全な問題の履歴とステータス</li>
-      <li>スクリーンショットとログファイルを添付可能</li>
-      <li>報告の進行状況を追跡</li>
-      <li>新機能のリクエスト</li>
-    </ul>
-    <a href="https://github.com/alloystorm/dvvr/issues" class="edition-cta">Issueを開く</a>
+  <div class="support-card">
+    <div class="support-icon">🐛</div>
+    <h3 class="support-title">GitHub Issues</h3>
+    <p class="support-desc">バグ追跡・機能リクエスト</p>
+    <a href="https://github.com/alloystorm/dvvr/issues" class="support-cta">Issueを開く</a>
   </div>
 
-  <div class="edition-card featured">
-    <p class="edition-tier">すばやい</p>
-    <p class="edition-name">Discord</p>
-    <p class="edition-price">コミュニティサポート</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>コミュニティからの迅速な回答</li>
-      <li>作品やアイデアを共有</li>
-      <li>開発者も参加中</li>
-      <li>リアルタイムのディスカッション</li>
-    </ul>
-    <a href="https://discord.gg/xN2MaM7C5q" class="edition-cta">Discordに参加</a>
+  <div class="support-card">
+    <div class="support-icon">💬</div>
+    <h3 class="support-title">Discord</h3>
+    <p class="support-desc">コミュニティサポート</p>
+    <a href="https://discord.gg/xN2MaM7C5q" class="support-cta">Discordに参加</a>
   </div>
 
-  <div class="edition-card">
-    <p class="edition-tier">直接</p>
-    <p class="edition-name">メール</p>
-    <p class="edition-price">ビジネス・直接のお問い合わせ</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>添付ファイル付きのバグ報告</li>
-      <li>ビジネスに関するお問い合わせ</li>
-      <li>アクティベーションの問題</li>
-      <li>vrstormlab@gmail.com</li>
-    </ul>
-    <a href="mailto:vrstormlab@gmail.com" class="edition-cta">メールを送る</a>
+  <div class="support-card">
+    <div class="support-icon">✉️</div>
+    <h3 class="support-title">メール</h3>
+    <p class="support-desc">ビジネス・直接のお問い合わせ</p>
+    <a href="mailto:vrstormlab@gmail.com" class="support-cta">メールを送る</a>
   </div>
 
 </div>
+
 </section>
