@@ -38,11 +38,6 @@ support_sections:
           - question: Motion broken when using T pose or custom rigging in motion settings
             answer: |
               This is caused by a bug in motion smoothing system. Temerory workaround: disable motion smoothing in motion settings.
-      - title: 📌 Version 2025.12
-        items:
-          - question: Placeholder issue
-            answer: |
-              *This is a placeholder for version-specific known issues. We will add content here.*
   - id: faq
     label: FAQ
     title: Frequently Asked Questions

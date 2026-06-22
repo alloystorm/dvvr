@@ -67,24 +67,6 @@
               }
             }
           ]
-        },
-        {
-          "title": "📌 Version 2025.12",
-          "title_locales": {
-            "jp": "📌 バージョン 2025.12"
-          },
-          "items": [
-            {
-              "question": "Placeholder issue",
-              "question_locales": {
-                "jp": "プレースホルダーの問題"
-              },
-              "answer": "*This is a placeholder for version-specific known issues. We will add content here.*",
-              "answer_locales": {
-                "jp": "*これはバージョン固有の既知の問題のためのプレースホルダーです。後で内容を追加します。*"
-              }
-            }
-          ]
         }
       ]
     },
