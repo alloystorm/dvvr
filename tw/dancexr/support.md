@@ -7,6 +7,78 @@ lang_path: /dancexr/support
 hero_compact: true
 hero_title: 支援
 hero_image: /images/hero.png
+support_sections:
+  - id: known-issues
+    light: true
+    label: Known Issues
+    title: "Known Issues & Workarounds"
+    subsections:
+      - title: 🌐 All Versions
+        items:
+          - question: Model loads but everything is white
+            answer: |
+              The most common cause is filename encoding — textures can't be located when filenames use a different character encoding.
+              
+              - For ZIP packages, add the encoding to the package name so DanceXR knows how to parse filenames. [Details here →](features/zip_format)
+              - Extra spaces in filenames can also prevent textures from loading. Open the model in PMXEditor and verify that texture references match the actual filenames exactly.
+          - question: Hair materials are see-through
+            answer: |
+              Transparency depth prepass is on by default. It fixes transparency sorting by rendering only the topmost transparent layer — which means stacked transparent layers (like layered hair) only show the top one.
+              
+              - Turn off transparency depth prepass to render all transparent layers. This may introduce sorting artifacts if the model's material order isn't correct.
+              - There is no perfect universal solution — try different configurations and use the one with fewer visual problems.
+          - question: Sky sphere from a stage model has holes or looks pixelated
+            answer: |
+              Also caused by transparency depth prepass — when multiple sky spheres are transparent, only the topmost layer renders fully in some areas.
+              
+              - Turn off transparency depth prepass, or
+              - Find the background sky sphere and change its material from transparent to opaque.
+      - title: 📌 Version 2025.12
+        items:
+          - question: Placeholder issue
+            answer: |
+              *This is a placeholder for version-specific known issues. We will add content here.*
+  - id: faq
+    label: FAQ
+    title: Frequently Asked Questions
+    subsections:
+      - title: "🖥️ System & VR Startup"
+        items:
+          - question: Only the sky is visible — no UI or camera controls
+            answer: |
+              This usually means something went wrong during startup. Try these steps in order:
+              
+              - Remove `license.txt` and relaunch.
+              - Remove (back up first) `config.json` — this resets all settings and fixes issues caused by a corrupted config.
+              - Remove (back up first) `cache.json` from your content library.
+          - question: Crashes every launch — reverting to an older version doesn't help
+            answer: |
+              This is usually a VR runtime problem, not DanceXR itself.
+              
+              - If you have multiple VR runtimes, try switching to a different one.
+              - For SteamVR: disable startup overlays and addons you don't need; try a clean reinstall.
+              - Check the SteamVR `driver` folder for anything recently installed or updated that you can remove.
+          - question: Unable to launch VR
+            answer: |
+              DanceXR uses OpenXR to initialize VR. If you have multiple VR runtimes installed, one needs to be set as the active OpenXR runtime:
+              
+              - **Oculus / Meta:** Open the Oculus app → Settings → Beta → OpenXR Runtime → "Set Oculus as active".
+              - **SteamVR:** Open SteamVR → top-left menu → Settings → Developer → "Set SteamVR as OpenXR Runtime".
+              - **Windows Mixed Reality:** Download "Windows Mixed Reality OpenXR Developer Tools" from the Microsoft Store and set WMR as active from there.
+      - title: 📦 Content Library Setup
+        items:
+          - question: "How do I set up my content library on Android or Meta Quest?"
+            answer: |
+              Android systems have strict file access rules. By default, the content library is located inside the app internal storage.
+              
+              - Connect your device to a PC via USB, select "File Transfer", and navigate to `/Android/data/com.vrstormlab.dancexr/files/` or the root `/DanceXR/` folder to copy your zip/image files.
+              - On Android and Meta Quest (from version 2024.3), grant DanceXR storage permission to use the system Files app or the built-in Content Manager app to share and manage your library.
+              - For more details, see the [Content Library for Android & Quest](content_android_quest) guide.
+      - title: "🔑 Licensing & Payments"
+        items:
+          - question: Asked to activate again
+            answer: |
+              After major OS or hardware changes, DanceXR may not recognize the system as the same one your license was issued for. Just run through the activation steps again — there's no extra cost. See the [Activation & Licensing](activation) guide. [Contact us](#contact) if you have trouble.
 ---
 
 <!-- ── Support Hub Navigation ───────────────────────────────── -->
@@ -112,126 +184,37 @@ C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
 </div>
 </section>
 
-<!-- ── FAQ ──────────────────────────────────────────────────── -->
-<section class="section">
+{% for section in page.support_sections %}
+<!-- ── {{ section.label }} ───────────────────────────────────────────── -->
+<section class="section {% if section.light %}section-light{% endif %}" id="{{ section.id }}">
 <div class="editions-header" markdown="1">
 
 {:.section-label}
-常見問題
+{{ section.label }}
 
-## 常見問題解答
+## {{ section.title }}
 
 </div>
 
-<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">🖥️ 系統與 VR 啟動</h3>
+{% for sub in section.subsections %}
+<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">{{ sub.title }}</h3>
 <div class="faq-grid">
 
+{% for item in sub.items %}
 <div class="faq-item" markdown="1">
 
-### 只顯示天空，沒有 UI 或相機控制
+### {{ item.question }}
 
-這通常表示啟動時發生了問題。請依序嘗試以下步驟：
-
-- 刪除 `license.txt` 後重新啟動。
-- 移除（先備份）`config.json` — 這會重置所有設定，並修復因設定檔損壞引起的問題。
-- 移除（先備份）內容庫中的 `cache.json`。
+{{ item.answer }}
 
 </div>
-
-<div class="faq-item" markdown="1">
-
-### 每次啟動都當機，回到舊版本也沒有改善
-
-這通常是 VR 執行環境的問題，而非 DanceXR 本身的問題。
-
-- 如果您安裝了多個 VR 執行環境，請嘗試切換到另一個。
-- 對於 SteamVR：停用不需要的啟動覆層和附加元件；嘗試進行乾淨重裝。
-- 檢查 SteamVR 的 `driver` 資料夾中是否有任何最近安裝或更新的內容可以移除。
+{% endfor %}
 
 </div>
+{% endfor %}
 
-<div class="faq-item" markdown="1">
-
-### 無法啟動 VR
-
-DanceXR 使用 OpenXR 來初始化 VR。如果您安裝了多個 VR 執行環境，則必須將其中一個設定為活躍的 OpenXR 執行環境：
-
-- **Oculus / Meta：** 開啟 Oculus 應用程式 → 設定 → Beta → OpenXR 執行環境 → 「將 Oculus 設定為活躍」
-- **SteamVR：** 開啟 SteamVR → 左上角選單 → 設定 → 開發者 → 「將 SteamVR 設定為 OpenXR 執行環境」
-- **Windows Mixed Reality：** 從 Microsoft Store 下載「Windows Mixed Reality OpenXR 開發者工具」，然後從中將 WMR 設定為活躍
-
-</div>
-
-</div>
-
-<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">📦 模型與內容庫</h3>
-<div class="faq-grid">
-
-<div class="faq-item" markdown="1">
-
-### 模型載入後全是白色
-
-最常見的原因是檔案名稱編碼 — 當檔案名稱使用不同字元編碼時，紋理貼圖無法被定位。
-
-- 對於 ZIP 封包，請將編碼添加到封包名稱，讓 DanceXR 知道如何解析檔名。[詳情 →](features/zip_format)
-- 檔名中的額外空格也會導致紋理貼圖無法載入。請在 PMXEditor 中開啟模型，並驗證紋理參照是否與實際檔名完全一致。
-
-</div>
-
-<div class="faq-item" markdown="1">
-
-### 如何在 Android 或 Meta Quest 上設定內容庫？
-
-Android 系統有嚴格的檔案存取限制。預設情況下，內容庫會放置在應用程式內部儲存空間中。
-
-- 使用 USB 將您的裝置連接到 PC，選擇「檔案傳送」，然後移至 `/Android/data/com.vrstormlab.dancexr/files/` 或根目錄 `/DanceXR/` 資料夾以複製您的 zip/圖片檔案。
-- 在 Android 和 Meta Quest（自版本 2024.3 起），授權 DanceXR 儲存存取權限，以便使用系統「檔案」應用程式或內建的「內容管理器」應用程式來分享與管理您的庫。
-- 更多詳細資訊，請參閱 [Android 與 Quest 內容庫](content_android_quest) 指南。
-
-</div>
-
-</div>
-
-<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">🎨 畫面與渲染</h3>
-<div class="faq-grid">
-
-<div class="faq-item" markdown="1">
-
-### 頭髮材質是透明的
-
-透明度深度預處理預設為開啟。它透過僅渲染最頂層の透明層來修復透明度排序 — 這意味著堆疊の透明材質（例如分層髮型）只會顯示最頂層。
-
-- 關閉透明度深度預處理可渲染所有透明層。但如果模型材質順序不正確，可能會出現排序瑕疵。
-- 目前沒有完美的通用解決方案 — 請嘗試不同的設定，選擇視覺問題最少的那個。
-
-</div>
-
-<div class="faq-item" markdown="1">
-
-### 舞台模型的天空球有孔洞或看起來像素化的
-
-這也是由透明度深度預處理引起的 — 當有多個天空球都是透明時，某些區域只會完整渲染最頂層。
-
-- 關閉透明度深度預處理，或
-- 找到背景天空球，並將其材質從透明更改為不透明。
-
-</div>
-
-</div>
-
-<h3 style="max-width: 1200px; margin: 40px auto 16px; padding: 0 24px; color: var(--text); font-weight: 600; font-size: 20px;">🔑 授權與付款</h3>
-<div class="faq-grid">
-
-<div class="faq-item" markdown="1">
-
-### 被要求重新啟用
-
-在進行重大作業系統或硬體變更後，DanceXR 可能無法識別您的系統與您的授權發放時的系統是同一台。只需再次運行啟用步驟即可 — 不會額外產生費用。請參閱 [啟用與授權](activation) 指南。如有困難，請[聯絡我們](#contact)。
-
-</div>
-
-</div>
 </section>
+{% endfor %}
 
 <!-- ── Bug Report & Contact ──────────────────────────────────── -->
 <section class="section section-light" id="contact">
