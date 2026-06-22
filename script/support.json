@@ -33,6 +33,18 @@
           ]
         },
         {
+          "title": "📌 Version 2026.6",
+          "title_locales": { "jp": "📌 バージョン 2026.6" },
+          "items": [
+            {
+              "question": "Motion broken when using T pose or custom rigging in motion settings",
+              "question_locales": { "jp": "Tポーズまたはカスタムリグの使用時にモーションが壊れる" },
+              "answer": "This is caused by a bug in motion smoothing system. Temerory workaround: disable motion smoothing in motion settings.",
+              "answer_locales": { "jp": "これはモーションスムージングシステムのバグが原因です。一時的な回避策として、モーション設定でモーションスムージングを無効にしてください。" }
+            }
+          ]
+        },
+        {
           "title": "📌 Version 2025.12",
           "title_locales": { "jp": "📌 バージョン 2025.12" },
           "items": [

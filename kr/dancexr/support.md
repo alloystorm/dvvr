@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: studio-home
 title: 지원
 toc: false
 locale: ko-KR
@@ -33,6 +33,11 @@ support_sections:
               
               - Turn off transparency depth prepass, or
               - Find the background sky sphere and change its material from transparent to opaque.
+      - title: 📌 Version 2026.6
+        items:
+          - question: Motion broken when using T pose or custom rigging in motion settings
+            answer: |
+              This is caused by a bug in motion smoothing system. Temerory workaround: disable motion smoothing in motion settings.
       - title: 📌 Version 2025.12
         items:
           - question: Placeholder issue
