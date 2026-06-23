@@ -22,7 +22,7 @@ support_sections:
     label: よくある質問
     title: よくある質問（FAQ）
     subsections:
-      - title: 🌐 Common Issues
+      - title: 🌐 よくある問題
         items:
           - question: モデルを読み込んでも全部が白い
             answer: |
