@@ -10,99 +10,99 @@ hero_image: /images/hero.png
 support_sections:
   - id: known-issues
     light: true
-    label: Known Issues
-    title: "Known Issues & Workarounds"
+    label: 已知問題
+    title: 已知問題與解決方法
     subsections:
-      - title: 📌 Version 2026.6
+      - title: 📌 版本 2026.6
         items:
-          - question: Motion broken when using T pose or custom rigging in motion settings
+          - question: 在動作設定中使用 T 姿勢或自訂骨骼綁定時動作損壞
             answer: |
-              This is caused by a bug in motion smoothing system. Temerory workaround: disable motion smoothing in motion settings.
+              這是由動作平滑系統中的 bug 引起的。臨時解決方法：在動作設定中停用動作平滑。
   - id: faq
-    label: FAQ
-    title: Frequently Asked Questions
+    label: 常見問題
+    title: 常見問題解答 (FAQ)
     subsections:
-      - title: 🌐 Common Issues
+      - title: 🌐 常見問題
         items:
-          - question: Model loads but everything is white
+          - question: 模型已載入但全部顯示為白色
             answer: |
-              The most common cause is filename encoding — textures can't be located when filenames use a different character encoding.
+              最常見的原因是檔案名稱編碼問題 —— 當檔案名稱使用不同的字元編碼時，將無法定位貼圖。
               
-              - For ZIP packages, add the encoding to the package name so DanceXR knows how to parse filenames. [Details here →](features/zip_format)
-              - Extra spaces in filenames can also prevent textures from loading. Open the model in PMXEditor and verify that texture references match the actual filenames exactly.
-          - question: Hair materials are see-through
+              - 對於 ZIP 壓縮包，請在壓縮包名稱中新增編碼，以便 DanceXR 能夠正確解析檔案名稱。[詳細資訊請參閱此頁面 →](features/zip_format)
+              - 檔案名稱中的額外空格也可能導致貼圖無法載入。請在 PMXEditor 中開啟模型，驗證貼圖引用是否與實際檔案名稱完全一致。
+          - question: 頭髮材質透光/透明
             answer: |
-              Transparency depth prepass is on by default. It fixes transparency sorting by rendering only the topmost transparent layer — which means stacked transparent layers (like layered hair) only show the top one.
+              半透明深度預處理（Transparency depth prepass）預設處於開啟狀態。它透過僅渲染最頂層的透明層來修正半透明排序問題 —— 這意味著多層疊加的半透明（如分層頭髮）只顯示最外層。
               
-              - Turn off transparency depth prepass to render all transparent layers. This may introduce sorting artifacts if the model's material order isn't correct.
-              - There is no perfect universal solution — try different configurations and use the one with fewer visual problems.
-          - question: Sky sphere from a stage model has holes or looks pixelated
+              - 關閉半透明深度預處理以渲染所有半透明層。如果模型的材質順序不正確，這可能會引入排序錯誤/偽影。
+              - 沒有十全十美的通用解決方案 —— 請嘗試不同的配置，選擇視覺問題較少的那一種。
+          - question: 舞台模型的天空球有破洞或看起來有像素顆粒
             answer: |
-              Also caused by transparency depth prepass — when multiple sky spheres are transparent, only the topmost layer renders fully in some areas.
+              同樣是由半透明深度預處理引起的 —— 當存在多個半透明天空球時，在某些區域只會完全渲染最頂層。
               
-              - Turn off transparency depth prepass, or
-              - Find the background sky sphere and change its material from transparent to opaque.
-      - title: 🛠️ Pre-Report Checklist
+              - 關閉半透明深度預處理，或者
+              - 找到背景天空球，並將其材質從半透明更改為不透明。
+      - title: 🛠️ 報告問題前的檢查清單
         items:
-          - question: "Before reporting a bug, try these quick fixes:"
+          - question: 在報告 bug 之前，請嘗試以下快速修復方法：
             answer: |
-              1. **Update to the Latest Version** — Your issue may already be resolved in a newer release.
-              2. **Reset Configuration** — Back up and then delete `config.json` to rule out a corrupted settings file.
-              3. **Reset License** — If the app fails to start or behaves weirdly, try removing `license.txt` from the installation directory and relaunching.
-              4. **Clear Library Cache** — Back up and delete `cache.json` from your content library folder to force the player to re-scan your files.
-              5. **OpenXR Setup** — If VR won't launch, double-check that your active OpenXR runtime is set correctly in your VR software settings.
-          - question: "Where can I find the log files?"
+              1. **更新至最新版本** —— 您的問題可能已在新版本中得到解決。
+              2. **重置設定** —— 備份並刪除 `config.json` 以排除設定檔損壞的情況。
+              3. **重置授權/許可證** —— 如果應用程式無法啟動或行為異常，請嘗試從安裝目錄中刪除 `license.txt` 並重新啟動。
+              4. **清除媒體庫快取** —— 備份並刪除內容庫資料夾中的 `cache.json`，以強制播放器重新掃描您的檔案。
+              5. **OpenXR 設定** —— 如果 VR 無法啟動，請仔細檢查您的 VR 軟體設定中是否正確設定了當前活動の OpenXR 執行階段。
+          - question: 在哪裡可以找到記錄檔？
             answer: |
-              When reporting a bug, attaching your log files is extremely helpful. Please attach **`Player.log`** (current session) and **`Player-prev.log`** (previous session) to your bug report.
+              報告 bug 時，附上記錄檔會非常有幫助。請在您的 bug 報告中附帶 **`Player.log`**（目前工作階段）和 **`Player-prev.log`**（上一次工作階段）。
               
-              **Windows PC Path:**
+              **Windows PC 路徑：**
               ```
               C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
               ```
-              *Note: Replace `[User]` with your Windows username. If AppData is hidden, enable "Hidden items" in Windows Explorer.*
+              *注意：請將 `[User]` 替換為您的 Windows 使用者名稱。如果 AppData 資料夾被隱藏，請在 Windows 檔案總管中啟用「隱藏的項目」。*
               
-              **Android & Meta Quest Path:**
+              **Android 和 Meta Quest 路徑：**
               ```
               /Android/data/com.vrstormlab.dancexr/files/Player.log
               ```
-              *Note: Connect your device to a PC via USB and use File Transfer to locate this file.*
-      - title: "🖥️ System & VR Startup"
+              *注意：透過 USB 將您的裝置連接到電腦，並使用檔案傳輸模式來定位此檔案。*
+      - title: 🖥️ 系統與 VR 啟動
         items:
-          - question: Only the sky is visible — no UI or camera controls
+          - question: 只顯示天空 —— 沒有 UI 或相機控制介面
             answer: |
-              This usually means something went wrong during startup. Try these steps in order:
+              這通常意指在啟動過程中出了問題。請按順序嘗試以下步驟：
               
-              - Remove `license.txt` and relaunch.
-              - Remove (back up first) `config.json` — this resets all settings and fixes issues caused by a corrupted config.
-              - Remove (back up first) `cache.json` from your content library.
-          - question: Crashes every launch — reverting to an older version doesn't help
+              - 刪除 `license.txt` 並重新啟動。
+              - 刪除（請先備份）`config.json` —— 這將重置所有設定並修復由於設定檔損壞引起的問題。
+              - 從您的內容媒體庫中刪除（請先備份）`cache.json`。
+          - question: 每次啟動都崩潰 —— 回退到舊版本也無濟於事
             answer: |
-              This is usually a VR runtime problem, not DanceXR itself.
+              這通常是 VR 執行階段的問題，而不是 DanceXR 本身的問題。
               
-              - If you have multiple VR runtimes, try switching to a different one.
-              - For SteamVR: disable startup overlays and addons you don't need; try a clean reinstall.
-              - Check the SteamVR `driver` folder for anything recently installed or updated that you can remove.
-          - question: Unable to launch VR
+              - 如果您安裝了多個 VR 執行階段，請嘗試切換到另一個。
+              - 對於 SteamVR：停用不需要的啟動重疊層（overlays）和外掛程式；嘗試乾淨的重新安裝。
+              - 檢查 SteamVR 的 `driver` 資料夾，看看是否有最近安裝或更新的可以刪除的項目。
+          - question: 無法啟動 VR
             answer: |
-              DanceXR uses OpenXR to initialize VR. If you have multiple VR runtimes installed, one needs to be set as the active OpenXR runtime:
+              DanceXR 使用 OpenXR 來初始化 VR。如果您安裝了多個 VR 執行階段，則需要將其中一個設定為活動的 OpenXR 執行階段：
               
-              - **Oculus / Meta:** Open the Oculus app → Settings → Beta → OpenXR Runtime → "Set Oculus as active".
-              - **SteamVR:** Open SteamVR → top-left menu → Settings → Developer → "Set SteamVR as OpenXR Runtime".
-              - **Windows Mixed Reality:** Download "Windows Mixed Reality OpenXR Developer Tools" from the Microsoft Store and set WMR as active from there.
-      - title: 📦 Content Library Setup
+              - **Oculus / Meta：** 開啟 Oculus 應用程式 → 設定 → 測試版 → OpenXR 執行階段 → 點擊「將 Oculus 設定為活動」。
+              - **SteamVR：** 開啟 SteamVR → 左上角功能表 → 設定 → 開發者 → 點擊「將 SteamVR 設定為 OpenXR 執行階段」。
+              - **Windows Mixed Reality：** 從 Microsoft Store 下載 「Windows Mixed Reality OpenXR Developer Tools」，並從中將 WMR 設定為活動。
+      - title: 📦 媒體庫設定
         items:
-          - question: "How do I set up my content library on Android or Meta Quest?"
+          - question: 如何在 Android 或 Meta Quest 上設定我的內容媒體庫？
             answer: |
-              Android systems have strict file access rules. By default, the content library is located inside the app internal storage.
+              Android 系統具有嚴格的檔案存取規則。預設情況下，內容媒體庫位於應用程式內部儲存中。
               
-              - Connect your device to a PC via USB, select "File Transfer", and navigate to `/Android/data/com.vrstormlab.dancexr/files/` or the root `/DanceXR/` folder to copy your zip/image files.
-              - On Android and Meta Quest (from version 2024.3), grant DanceXR storage permission to use the system Files app or the built-in Content Manager app to share and manage your library.
-              - For more details, see the [Content Library for Android & Quest](content_android_quest) guide.
-      - title: "🔑 Licensing & Payments"
+              - 透過 USB 將您的裝置連接到電腦，選擇「檔案傳輸」模式，然後導航到 `/Android/data/com.vrstormlab.dancexr/files/` 或根目錄的 `/DanceXR/` 資料夾以複製您的 zip/影像檔案。
+              - 在 Android 和 Meta Quest（自 2024.3 版本起）上，授予 DanceXR 儲存權限以使用系統「檔案」應用程式或內建的「內容管理器」應用程式來共享和管理您的媒體庫。
+              - 有關更多詳細資訊，請參閱 [Android 和 Quest 內容媒體庫](content_android_quest) 指南。
+      - title: 🔑 授權與支付
         items:
-          - question: Asked to activate again
+          - question: 提示需要再次啟用
             answer: |
-              After major OS or hardware changes, DanceXR may not recognize the system as the same one your license was issued for. Just run through the activation steps again — there's no extra cost. See the [Activation & Licensing](activation) guide. [Contact us](#contact) if you have trouble.
+              在重大 OS 或硬體變更後，DanceXR 可能無法將系統識別為核發授權時的系統。只需再次執行啟用步驟即可 —— 沒有額外費用。請參閱 [啟用與授權](activation) 指南。如果您遇到問題，請 [聯絡我們](#contact)。
 ---
 
 

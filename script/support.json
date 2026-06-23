@@ -5,27 +5,42 @@
       "light": true,
       "label": "Known Issues",
       "label_locales": {
-        "jp": "既知の問題"
+        "jp": "既知の問題",
+        "zh": "已知问题",
+        "tw": "已知問題",
+        "kr": "알려진 문제"
       },
       "title": "Known Issues & Workarounds",
       "title_locales": {
-        "jp": "既知の問題と回避策"
+        "jp": "既知の問題と回避策",
+        "zh": "已知问题与解决方法",
+        "tw": "已知問題與解決方法",
+        "kr": "알려진 문제 및 해결 방법"
       },
       "subsections": [
         {
           "title": "📌 Version 2026.6",
           "title_locales": {
-            "jp": "📌 バージョン 2026.6"
+            "jp": "📌 バージョン 2026.6",
+            "zh": "📌 版本 2026.6",
+            "tw": "📌 版本 2026.6",
+            "kr": "📌 버전 2026.6"
           },
           "items": [
             {
               "question": "Motion broken when using T pose or custom rigging in motion settings",
               "question_locales": {
-                "jp": "Tポーズまたはカスタムリグの使用時にモーションが壊れる"
+                "jp": "Tポーズまたはカスタムリグの使用時にモーションが壊れる",
+                "zh": "在动作设置中使用 T 姿势或自定义骨骼绑定时动作损坏",
+                "tw": "在動作設定中使用 T 姿勢或自訂骨骼綁定時動作損壞",
+                "kr": "모션 설정에서 T 포즈 또는 커스텀 리깅을 사용할 때 모션이 깨지는 현상"
               },
               "answer": "This is caused by a bug in motion smoothing system. Temerory workaround: disable motion smoothing in motion settings.",
               "answer_locales": {
-                "jp": "これはモーションスムージングシステムのバグが原因です。一時的な回避策として、モーション設定でモーションスムージングを無効にしてください。"
+                "jp": "これはモーションスムージングシステムのバグが原因です。一時的な回避策として、モーション設定でモーションスムージングを無効にしてください。",
+                "zh": "这是由动作平滑系统中的 bug 引起的。临时解决方法：在动作设置中禁用动作平滑。",
+                "tw": "這是由動作平滑系統中的 bug 引起的。臨時解決方法：在動作設定中停用動作平滑。",
+                "kr": "이는 모션 보정(smoothing) 시스템의 버그로 인해 발생합니다. 임시 해결 방법: 모션 설정에서 모션 보정을 비활성화하십시오."
               }
             }
           ]
@@ -36,47 +51,74 @@
       "id": "faq",
       "label": "FAQ",
       "label_locales": {
-        "jp": "よくある質問"
+        "jp": "よくある質問",
+        "zh": "常见问题",
+        "tw": "常見問題",
+        "kr": "자주 묻는 질문"
       },
       "title": "Frequently Asked Questions",
       "title_locales": {
-        "jp": "よくある質問（FAQ）"
+        "jp": "よくある質問（FAQ）",
+        "zh": "常见问题解答 (FAQ)",
+        "tw": "常見問題解答 (FAQ)",
+        "kr": "자주 묻는 질문 (FAQ)"
       },
       "subsections": [
         {
           "title": "🌐 Common Issues",
           "title_locales": {
-            "jp": "🌐 Common Issues"
+            "jp": "🌐 Common Issues",
+            "zh": "🌐 常见问题",
+            "tw": "🌐 常見問題",
+            "kr": "🌐 일반적인 문제"
           },
           "items": [
             {
               "question": "Model loads but everything is white",
               "question_locales": {
-                "jp": "モデルを読み込んでも全部が白い"
+                "jp": "モデルを読み込んでも全部が白い",
+                "zh": "模型已加载但全部显示为白色",
+                "tw": "模型已載入但全部顯示為白色",
+                "kr": "모델이 로드되었으나 전체가 하얗게 보임"
               },
               "answer": "The most common cause is filename encoding — textures can't be located when filenames use a different character encoding.\n\n- For ZIP packages, add the encoding to the package name so DanceXR knows how to parse filenames. [Details here →](features/zip_format)\n- Extra spaces in filenames can also prevent textures from loading. Open the model in PMXEditor and verify that texture references match the actual filenames exactly.",
               "answer_locales": {
-                "jp": "最も一般的な原因はファイル名のエンコーディングです。ファイル名が異なる文字エンコーディングを使用している場合、テクスチャを見つけることができません。\n\n- ZIPパッケージの場合、エンコーディングをパッケージ名に追加して、DanceXRがファイル名を解析する方法を理解できるようにします。[詳細はこちら →](features/zip_format)\n- ファイル名内の余分なスペースもテクスチャの読み込みを妨げることがあります。PMXEditorでモデルを開き、テクスチャ参照が実際のファイル名と完全に一致しているか確認してください。"
+                "jp": "最も一般的な原因はファイル名のエンコーディングです。ファイル名が異なる文字エンコーディングを使用している場合、テクスチャを見つけることができません。\n\n- ZIPパッケージの場合、エンコーディングをパッケージ名に追加して、DanceXRがファイル名を解析する方法を理解できるようにします。[詳細はこちら →](features/zip_format)\n- ファイル名内の余分なスペースもテクスチャの読み込みを妨げることがあります。PMXEditorでモデルを開き、テクスチャ参照が実際のファイル名と完全に一致しているか確認してください。",
+                "zh": "最常见的原因是文件名编码问题 —— 当文件名使用不同的字符编码时，将无法定位贴图。\n\n- 对于 ZIP 压缩包，请在压缩包名称中添加编码，以便 DanceXR 能够正确解析文件名。[详细信息请参阅此页面 →](features/zip_format)\n- 文件名中的额外空格也可能导致贴图无法加载。请在 PMXEditor 中打开模型，验证贴图引用是否与实际文件名完全一致。",
+                "tw": "最常見的原因是檔案名稱編碼問題 —— 當檔案名稱使用不同的字元編碼時，將無法定位貼圖。\n\n- 對於 ZIP 壓縮包，請在壓縮包名稱中新增編碼，以便 DanceXR 能夠正確解析檔案名稱。[詳細資訊請參閱此頁面 →](features/zip_format)\n- 檔案名稱中的額外空格也可能導致貼圖無法載入。請在 PMXEditor 中開啟模型，驗證貼圖引用是否與實際檔案名稱完全一致。",
+                "kr": "가장 흔한 원인은 파일 이름 인코딩 때문입니다. 파일 이름에 다른 문자 인코딩이 사용된 경우 텍스처를 찾을 수 없습니다.\n\n- ZIP 패키지의 경우, DanceXR이 파일 이름을 올바르게 분석할 수 있도록 패키지 이름에 인코딩을 추가하십시오. [자세한 정보 →](features/zip_format)\n- 파일 이름의 불필요한 공백도 텍스처 로드를 방해할 수 있습니다. PMXEditor에서 모델을 열고 텍스처 참조 경로가 실제 파일 이름과 정확히 일치하는지 확인하십시오."
               }
             },
             {
               "question": "Hair materials are see-through",
               "question_locales": {
-                "jp": "髪のマテリアルが透けて見える"
+                "jp": "髪のマテリアルが透けて見える",
+                "zh": "头发材质透光/透明",
+                "tw": "頭髮材質透光/透明",
+                "kr": "머리카락 재질이 반투명하게 비쳐 보임"
               },
               "answer": "Transparency depth prepass is on by default. It fixes transparency sorting by rendering only the topmost transparent layer — which means stacked transparent layers (like layered hair) only show the top one.\n\n- Turn off transparency depth prepass to render all transparent layers. This may introduce sorting artifacts if the model's material order isn't correct.\n- There is no perfect universal solution — try different configurations and use the one with fewer visual problems.",
               "answer_locales": {
-                "jp": "透明度の深度プリパスがデフォルトでオンになっています。これは、最上層の透明レイヤーのみをレンダリングすることで透明度のソートを修正します。つまり、積み重ねられた透明レイヤー（層状の髪など）は最上層のみが表示されます。\n\n- すべての透明レイヤーをレンダリングするために、透明度の深度プリパスをオフにします。モデルのマテリアルの順序が正しくない場合、ソートのアーティファクトが発生する可能性があります。\n- 完璧な万能の解決策はありません。異なる設定を試して、視覚的な問題が少ないものを使用してください。"
+                "jp": "透明度の深度プリパスがデフォルトでオンになっています。これは、最上層の透明レイヤーのみをレンダリングすることで透明度のソートを修正します。つまり、積み重ねられた透明レイヤー（層状の髪など）は最上層のみが表示されます。\n\n- すべての透明レイヤーをレンダリングするために、透明度の深度プリパスをオフにします。モデルのマテリアルの順序が正しくない場合、ソートのアーティファクトが発生する可能性があります。\n- 完璧な万能の解決策はありません。異なる設定を試して、視覚的な問題が少ないものを使用してください。",
+                "zh": "半透明深度预处理（Transparency depth prepass）默认处于开启状态。它通过仅渲染最顶层的透明层来修正半透明排序问题 —— 这意味着多层叠加的半透明（如分层头发）只显示最外层。\n\n- 关闭半透明深度预处理以渲染所有半透明层。如果模型的材质顺序不正确，这可能会引入排序错误/伪影。\n- 没有十全十美的通用解决方案 —— 请尝试不同的配置，选择视觉问题较少的那一种。",
+                "tw": "半透明深度預處理（Transparency depth prepass）預設處於開啟狀態。它透過僅渲染最頂層的透明層來修正半透明排序問題 —— 這意味著多層疊加的半透明（如分層頭髮）只顯示最外層。\n\n- 關閉半透明深度預處理以渲染所有半透明層。如果模型的材質順序不正確，這可能會引入排序錯誤/偽影。\n- 沒有十全十美的通用解決方案 —— 請嘗試不同的配置，選擇視覺問題較少的那一種。",
+                "kr": "반투명 깊이 프리패스(Transparency depth prepass) 기능이 기본적으로 켜져 있습니다. 이 기능은 가장 위에 있는 반투명 레이어만 렌더링하여 투명도 정렬 문제를 해결합니다. 따라서 레이어드 헤어처럼 겹쳐진 반투명 레이어은 가장 겉면만 보이게 됩니다.\n\n- 모든 반투명 레이어를 렌더링하려면 반투명 깊이 프리패스를 끄십시오. 모델의 재질 순서가 올바르지 않은 경우 정렬 오류(아티팩트)가 발생할 수 있습니다.\n- 완벽한 범용 해결책은 없습니다. 다양한 설정을 시도해 보고 시각적 문제가 가장 적은 설정을 사용하십시오."
               }
             },
             {
               "question": "Sky sphere from a stage model has holes or looks pixelated",
               "question_locales": {
-                "jp": "ステージモデルのスカイスフィアに穴が開いている、またはピクセル化して見える"
+                "jp": "ステージモデルのスカイスフィアに穴が開いている、またはピクセル化して見える",
+                "zh": "舞台模型的天空球有破洞或看起来有像素颗粒",
+                "tw": "舞台模型的天空球有破洞或看起來有像素顆粒",
+                "kr": "스테이지 모델의 스카이 스피어에 구멍이 뚫려 있거나 픽셀이 깨져 보임"
               },
               "answer": "Also caused by transparency depth prepass — when multiple sky spheres are transparent, only the topmost layer renders fully in some areas.\n\n- Turn off transparency depth prepass, or\n- Find the background sky sphere and change its material from transparent to opaque.",
               "answer_locales": {
-                "jp": "これも透明度の深度プリパスが原因です。複数のスカイスフィアが透明な場合、一部の領域では最上層のみが完全にレンダリングされます。\n\n- 透明度の深度プリパスをオフにする、または\n- 背景のスカイスフィアを見つけ、そのマテリアルを透明から不透明に変更する。"
+                "jp": "これも透明度の深度プリパスが原因です。複数のスカイスフィアが透明な場合、一部の領域では最上層のみが完全にレンダリングされます。\n\n- 透明度の深度プリパスをオフにする、または\n- 背景のスカイスフィアを見つけ、そのマテリアルを透明から不透明に変更する。",
+                "zh": "同样是由半透明深度预处理引起的 —— 当存在多个半透明天空球时，在某些区域只会完全渲染最顶层。\n\n- 关闭半透明深度预处理，或者\n- 找到背景天空球，并将其材质从半透明更改为不透明。",
+                "tw": "同樣是由半透明深度預處理引起的 —— 當存在多個半透明天空球時，在某些區域只會完全渲染最頂層。\n\n- 關閉半透明深度預處理，或者\n- 找到背景天空球，並將其材質從半透明更改為不透明。",
+                "kr": "이 역시 반투명 깊이 프리패스로 인해 발생합니다. 여러 개의 스카이 스피어가 투명할 경우 일부 영역에서 가장 바깥쪽 레이어만 완전히 렌더링됩니다.\n\n- 반투명 깊이 프리패스를 끄거나,\n- 배경 스카이 스피어를 찾아 재질을 투명에서 불투명으로 변경하십시오."
               }
             }
           ]
@@ -84,27 +126,42 @@
         {
           "title": "🛠️ Pre-Report Checklist",
           "title_locales": {
-            "jp": "🛠️ 報告前のチェックリスト"
+            "jp": "🛠️ 報告前のチェックリスト",
+            "zh": "🛠️ 报告问题前的检查清单",
+            "tw": "🛠️ 報告問題前的檢查清單",
+            "kr": "🛠️ 문의 전 체크리스트"
           },
           "items": [
             {
               "question": "Before reporting a bug, try these quick fixes:",
               "question_locales": {
-                "jp": "バグを報告する前に、以下の簡単な修正をお試しください："
+                "jp": "バグを報告する前に、以下の簡単な修正をお試しください：",
+                "zh": "在报告 bug 之前，请尝试以下快速修复方法：",
+                "tw": "在報告 bug 之前，請嘗試以下快速修復方法：",
+                "kr": "버그를 보고하기 전에 다음의 간단한 해결 방법을 시도해 보세요:"
               },
               "answer": "1. **Update to the Latest Version** — Your issue may already be resolved in a newer release.\n2. **Reset Configuration** — Back up and then delete `config.json` to rule out a corrupted settings file.\n3. **Reset License** — If the app fails to start or behaves weirdly, try removing `license.txt` from the installation directory and relaunching.\n4. **Clear Library Cache** — Back up and delete `cache.json` from your content library folder to force the player to re-scan your files.\n5. **OpenXR Setup** — If VR won't launch, double-check that your active OpenXR runtime is set correctly in your VR software settings.",
               "answer_locales": {
-                "jp": "1. **最新バージョンに更新** — 問題が新しいリリースですでに解決されている可能性があります。\n2. **設定のリセット** — 破損した設定ファイルを排除するために、バックアップを取ってから `config.json` を削除します。\n3. **ライセンスのリセット** — アプリの起動に失敗したり動作がおかしい場合は、インストールディレクトリから `license.txt` を削除して再起動してみてください。\n4. **ライブラリキャッシュのクリア** — コンテンツライブラリフォルダから `cache.json` をバックアップして削除し、プレイヤーにファイルの再スキャンを強制します。\n5. **OpenXRセットアップ** — VRが起動しない場合は、VRソフトウェアの設定でアクティブなOpenXRランタイムが正しく設定されているか再確認してください。"
+                "jp": "1. **最新バージョンに更新** — 問題が新しいリリースですでに解決されている可能性があります。\n2. **設定のリセット** — 破損した設定ファイルを排除するために、バックアップを取ってから `config.json` を削除します。\n3. **ライセンスのリセット** — アプリの起動に失敗したり動作がおかしい場合は、インストールディレクトリから `license.txt` を削除して再起動してみてください。\n4. **ライブラリキャッシュのクリア** — コンテンツライブラリフォルダから `cache.json` をバックアップして削除し、プレイヤーにファイルの再スキャンを強制します。\n5. **OpenXRセットアップ** — VRが起動しない場合は、VRソフトウェアの設定でアクティブなOpenXRランタイムが正しく設定されているか再確認してください。",
+                "zh": "1. **更新至最新版本** —— 您的问题可能已在新版本中得到解决。\n2. **重置配置** —— 备份并删除 `config.json` 以排除配置文件损坏的情况。\n3. **重置授权/许可证** —— 如果应用无法启动或行为异常，请尝试从安装目录中删除 `license.txt` 并重新启动。\n4. **清除媒体库缓存** —— 备份并删除内容库文件夹中的 `cache.json`，以强制播放器重新扫描您的文件。\n5. **OpenXR 设置** —— 如果 VR 无法启动，请仔细检查您的 VR 软件设置中是否正确设置了当前活动的 OpenXR 运行时。",
+                "tw": "1. **更新至最新版本** —— 您的問題可能已在新版本中得到解決。\n2. **重置設定** —— 備份並刪除 `config.json` 以排除設定檔損壞的情況。\n3. **重置授權/許可證** —— 如果應用程式無法啟動或行為異常，請嘗試從安裝目錄中刪除 `license.txt` 並重新啟動。\n4. **清除媒體庫快取** —— 備份並刪除內容庫資料夾中的 `cache.json`，以強制播放器重新掃描您的檔案。\n5. **OpenXR 設定** —— 如果 VR 無法啟動，請仔細檢查您的 VR 軟體設定中是否正確設定了當前活動の OpenXR 執行階段。",
+                "kr": "1. **최신 버전으로 업데이트** — 겪고 계신 문제가 최신 버전에서 이미 해결되었을 수 있습니다.\n2. **설정 초기화** — 백업을 진행한 후 `config.json`을 삭제하여 설정 파일 손상 여부를 확인합니다.\n3. **라이선스 초기화** — 앱이 실행되지 않거나 오작동할 경우, 설치 디렉토리에서 `license.txt` 파일을 삭제한 후 다시 시작해 보십시오.\n4. **라이브러리 캐시 지우기** — 콘텐츠 라이브러리 폴더에서 `cache.json`을 백업하고 삭제하여 플레이어가 파일을 다시 스캔하도록 강제합니다.\n5. **OpenXR 설정** — VR이 실행되지 않는 경우, VR 소프트웨어 설정에서 활성화된 OpenXR 런타임이 올바르게 설정되어 있는지 다시 한번 확인하십시오."
               }
             },
             {
               "question": "Where can I find the log files?",
               "question_locales": {
-                "jp": "ログファイルはどこにありますか？"
+                "jp": "ログファイルはどこにありますか？",
+                "zh": "在哪里可以找到日志文件？",
+                "tw": "在哪裡可以找到記錄檔？",
+                "kr": "로그 파일은 어디에서 찾을 수 있나요?"
               },
               "answer": "When reporting a bug, attaching your log files is extremely helpful. Please attach **`Player.log`** (current session) and **`Player-prev.log`** (previous session) to your bug report.\n\n**Windows PC Path:**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*Note: Replace `[User]` with your Windows username. If AppData is hidden, enable \"Hidden items\" in Windows Explorer.*\n\n**Android & Meta Quest Path:**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*Note: Connect your device to a PC via USB and use File Transfer to locate this file.*",
               "answer_locales": {
-                "jp": "バグを報告する際、ログファイルを添付すると非常に役立ちます。バグ報告には、**`Player.log`**（現在のセッション）と**`Player-prev.log`**（以前のセッション）を添付してください。\n\n**Windows PCのパス:**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*注: `[User]`をWindowsのユーザー名に置き換えてください。AppDataが隠しフォルダになっている場合は、エクスプローラーで「隠しファイル」を表示する設定にしてください。*\n\n**Android & Meta Questのパス:**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*注: デバイスをUSBでPCに接続し、ファイル転送モードを使用してこのファイルを見つけてください。*"
+                "jp": "バグを報告する際、ログファイルを添付すると非常に役立ちます。バグ報告には、**`Player.log`**（現在のセッション）と**`Player-prev.log`**（以前のセッション）を添付してください。\n\n**Windows PCのパス:**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*注: `[User]`をWindowsのユーザー名に置き換えてください。AppDataが隠しフォルダになっている場合は、エクスプローラーで「隠しファイル」を表示する設定にしてください。*\n\n**Android & Meta Questのパス:**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*注: デバイスをUSBでPCに接続し、ファイル転送モードを使用してこのファイルを見つけてください。*",
+                "zh": "报告 bug 时，附上日志文件会非常有帮助。请在您的 bug 报告中附带 **`Player.log`**（当前会话）和 **`Player-prev.log`**（上一次会话）。\n\n**Windows PC 路径：**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*注意：请将 `[User]` 替换为您的 Windows 用户名。如果 AppData 文件夹被隐藏，请在 Windows 文件资源管理器中启用“隐藏的项目”。*\n\n**Android 和 Meta Quest 路径：**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*注意：通过 USB 将您的设备连接到电脑，并使用文件传输模式来定位此文件。*",
+                "tw": "報告 bug 時，附上記錄檔會非常有幫助。請在您的 bug 報告中附帶 **`Player.log`**（目前工作階段）和 **`Player-prev.log`**（上一次工作階段）。\n\n**Windows PC 路徑：**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*注意：請將 `[User]` 替換為您的 Windows 使用者名稱。如果 AppData 資料夾被隱藏，請在 Windows 檔案總管中啟用「隱藏的項目」。*\n\n**Android 和 Meta Quest 路徑：**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*注意：透過 USB 將您的裝置連接到電腦，並使用檔案傳輸模式來定位此檔案。*",
+                "kr": "버그를 보고할 때 로그 파일을 첨부해 주시면 문제 해결에 큰 도움이 됩니다. 버그 보고서에 **`Player.log`**(현재 세션) 및 **`Player-prev.log`**(이전 세션) 파일을 첨부해 주세요.\n\n**Windows PC 경로:**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*참고: `[User]`를 본인의 Windows 사용자 이름으로 바꾸십시오. AppData 폴더가 숨겨져 있는 경우 Windows 탐색기에서 '숨긴 항목' 표시를 활성화하십시오.*\n\n**Android 및 Meta Quest 경로:**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*참고: USB 케이블을 이용해 기기를 PC에 연결하고 '파일 전송' 모드를 사용하여 해당 파일을 찾으십시오.*"
               }
             }
           ]
@@ -112,37 +169,58 @@
         {
           "title": "🖥️ System & VR Startup",
           "title_locales": {
-            "jp": "🖥️ システム & VRの起動"
+            "jp": "🖥️ システム & VRの起動",
+            "zh": "🖥️ 系统与 VR 启动",
+            "tw": "🖥️ 系統與 VR 啟動",
+            "kr": "🖥️ 시스템 및 VR 실행"
           },
           "items": [
             {
               "question": "Only the sky is visible — no UI or camera controls",
               "question_locales": {
-                "jp": "空だけが表示され、UIやカメラ操作ができない"
+                "jp": "空だけが表示され、UIやカメラ操作ができない",
+                "zh": "只显示天空 —— 没有 UI 或相机控制界面",
+                "tw": "只顯示天空 —— 沒有 UI 或相機控制介面",
+                "kr": "하늘만 보임 — UI 및 카메라 제어 불가"
               },
               "answer": "This usually means something went wrong during startup. Try these steps in order:\n\n- Remove `license.txt` and relaunch.\n- Remove (back up first) `config.json` — this resets all settings and fixes issues caused by a corrupted config.\n- Remove (back up first) `cache.json` from your content library.",
               "answer_locales": {
-                "jp": "これは通常、起動時に何らかの問題が発生していることを意味します。以下の手順を順番にお試しください：\n\n- `license.txt`を削除して再起動する。\n- `config.json`を削除する（先にバックアップすること）—これによりすべての設定がリセットされ、破損した設定ファイルが原因の問題が解決します。\n- コンテンツライブラリから`cache.json`を削除する（先にバックアップすること）。"
+                "jp": "これは通常、起動時に何らかの問題が発生していることを意味します。以下の手順を順番にお試しください：\n\n- `license.txt`を削除して再起動する。\n- `config.json`を削除する（先にバックアップすること）—これによりすべての設定がリセットされ、破損した設定ファイルが原因の問題が解決します。\n- コンテンツライブラリから`cache.json`を削除する（先にバックアップすること）。",
+                "zh": "这通常意味着在启动过程中出了问题。请按顺序尝试以下步骤：\n\n- 删除 `license.txt` 并重新启动。\n- 删除（请先备份）`config.json` —— 这将重置所有设置并修复由于配置文件损坏引起的问题。\n- 从您的内容媒体库中删除（请先备份）`cache.json`。",
+                "tw": "這通常意指在啟動過程中出了問題。請按順序嘗試以下步驟：\n\n- 刪除 `license.txt` 並重新啟動。\n- 刪除（請先備份）`config.json` —— 這將重置所有設定並修復由於設定檔損壞引起的問題。\n- 從您的內容媒體庫中刪除（請先備份）`cache.json`。",
+                "kr": "이는 보통 실행 과정에서 문제가 발생했음을 의미합니다. 다음 단계를 순서대로 시도해 보십시오:\n\n- `license.txt` 파일을 삭제한 후 다시 실행합니다.\n- `config.json` 파일을 삭제(먼저 백업 권장)합니다. 모든 설정이 초기화되며 설정 파일 손상으로 인한 문제가 해결됩니다.\n- 콘텐츠 라이브러리에서 `cache.json` 파일을 삭제(먼저 백업 권장)합니다."
               }
             },
             {
               "question": "Crashes every launch — reverting to an older version doesn't help",
               "question_locales": {
-                "jp": "起動するたびにクラッシュする—古いバージョンに戻しても改善しない"
+                "jp": "起動するたびにクラッシュする—古いバージョンに戻しても改善しない",
+                "zh": "每次启动都崩溃 —— 回退到旧版本也无济于事",
+                "tw": "每次啟動都崩潰 —— 回退到舊版本也無濟於事",
+                "kr": "매 실행 시 크래시(강제 종료) 발생 — 이전 버전으로 되돌려도 해결되지 않음"
               },
               "answer": "This is usually a VR runtime problem, not DanceXR itself.\n\n- If you have multiple VR runtimes, try switching to a different one.\n- For SteamVR: disable startup overlays and addons you don't need; try a clean reinstall.\n- Check the SteamVR `driver` folder for anything recently installed or updated that you can remove.",
               "answer_locales": {
-                "jp": "これは通常、DanceXR自体ではなく、VRランタイムの問題です。\n\n- 複数のVRランタイムがある場合は、別のものに切り替えてみる。\n- SteamVRの場合：不要な起動オーバーレイやアドオンを無効にし、クリーン再インストールを試してください。\n- SteamVRの`driver`フォルダー内で、削除できる最近インストールまたは更新されたものがないか確認する。"
+                "jp": "これは通常、DanceXR自体ではなく、VRランタイムの問題です。\n\n- 複数のVRランタイムがある場合は、別のものに切り替えてみる。\n- SteamVRの場合：不要な起動オーバーレイやアドオンを無効にし、クリーン再インストールを試してください。\n- SteamVRの`driver`フォルダー内で、削除できる最近インストールまたは更新されたものがないか確認する。",
+                "zh": "这通常是 VR 运行时的问题，而不是 DanceXR 本身的问题。\n\n- 如果您安装了多个 VR 运行时，请尝试切换到另一个。\n- 对于 SteamVR：禁用不需要的启动叠加层（overlays）和插件；尝试干净的重新安装。\n- 检查 SteamVR 的 `driver` 文件夹，看看是否有最近安装或更新的可以删除的项目。",
+                "tw": "這通常是 VR 執行階段的問題，而不是 DanceXR 本身的問題。\n\n- 如果您安裝了多個 VR 執行階段，請嘗試切換到另一個。\n- 對於 SteamVR：停用不需要的啟動重疊層（overlays）和外掛程式；嘗試乾淨的重新安裝。\n- 檢查 SteamVR 的 `driver` 資料夾，看看是否有最近安裝或更新的可以刪除的項目。",
+                "kr": "이 문제는 보통 DanceXR 자체의 문제라기보다는 VR 런타임의 문제입니다.\n\n- 여러 개의 VR 런타임이 설치되어 있는 경우 다른 런타임으로 전환해 보십시오.\n- SteamVR의 경우: 필요하지 않은 시작 오버레이 및 애드온을 비활성화하고 깔끔하게 재설치해 보십시오.\n- SteamVR의 `driver` 폴더에서 최근에 설치되거나 업데이트된 항목 중 제거할 수 있는 것이 있는지 확인하십시오."
               }
             },
             {
               "question": "Unable to launch VR",
               "question_locales": {
-                "jp": "VRが起動できない"
+                "jp": "VRが起動できない",
+                "zh": "无法启动 VR",
+                "tw": "無法啟動 VR",
+                "kr": "VR을 실행할 수 없음"
               },
               "answer": "DanceXR uses OpenXR to initialize VR. If you have multiple VR runtimes installed, one needs to be set as the active OpenXR runtime:\n\n- **Oculus / Meta:** Open the Oculus app → Settings → Beta → OpenXR Runtime → \"Set Oculus as active\".\n- **SteamVR:** Open SteamVR → top-left menu → Settings → Developer → \"Set SteamVR as OpenXR Runtime\".\n- **Windows Mixed Reality:** Download \"Windows Mixed Reality OpenXR Developer Tools\" from the Microsoft Store and set WMR as active from there.",
               "answer_locales": {
-                "jp": "DanceXRはOpenXRを使用してVRを初期化します。複数のVRランタイムがインストールされている場合は、いずれか一つをアクティブなOpenXRランタイムとして設定する必要があります：\n\n- **Oculus / Meta：** Oculusアプリを開く → 設定 → ベータ → OpenXRランタイム → 「Oculusをアクティブに設定」\n- **SteamVR：** SteamVRを開く → 左上メニュー → 設定 → 開発者 → 「SteamVRをOpenXRランタイムに設定」\n- **Windows Mixed Reality：** Microsoftストアから「Windows Mixed Reality OpenXR Developer Tools」をダウンロードし、そこからWMRをアクティブに設定する"
+                "jp": "DanceXRはOpenXRを使用してVRを初期化します。複数のVRランタイムがインストールされている場合は、いずれか一つをアクティブなOpenXRランタイムとして設定する必要があります：\n\n- **Oculus / Meta：** Oculusアプリを開く → 設定 → ベータ → OpenXRランタイム → 「Oculusをアクティブに設定」\n- **SteamVR：** SteamVRを開く → 左上メニュー → 設定 → 開発者 → 「SteamVRをOpenXRランタイムに設定」\n- **Windows Mixed Reality：** Microsoftストアから「Windows Mixed Reality OpenXR Developer Tools」をダウンロードし、そこからWMRをアクティブに設定する",
+                "zh": "DanceXR 使用 OpenXR 来初始化 VR。如果您安装了多个 VR 运行时，则需要将其中一个设置为活动的 OpenXR 运行时：\n\n- **Oculus / Meta：** 打开 Oculus 应用 → 设置 → 测试版 → OpenXR 运行时 → 点击“将 Oculus 设置为活动”。\n- **SteamVR：** 打开 SteamVR → 左上角菜单 → 设置 → 开发者 → 点击“将 SteamVR 设置为 OpenXR 运行时”。\n- **Windows Mixed Reality：** 从 Microsoft Store 下载 “Windows Mixed Reality OpenXR Developer Tools”，并从中将 WMR 设置为活动。",
+                "tw": "DanceXR 使用 OpenXR 來初始化 VR。如果您安裝了多個 VR 執行階段，則需要將其中一個設定為活動的 OpenXR 執行階段：\n\n- **Oculus / Meta：** 開啟 Oculus 應用程式 → 設定 → 測試版 → OpenXR 執行階段 → 點擊「將 Oculus 設定為活動」。\n- **SteamVR：** 開啟 SteamVR → 左上角功能表 → 設定 → 開發者 → 點擊「將 SteamVR 設定為 OpenXR 執行階段」。\n- **Windows Mixed Reality：** 從 Microsoft Store 下載 「Windows Mixed Reality OpenXR Developer Tools」，並從中將 WMR 設定為活動。",
+                "kr": "DanceXR은 VR 초기화에 OpenXR을 사용합니다. 여러 개의 VR 런타임이 설치되어 있는 경우, 그중 하나를 활성 OpenXR 런타임으로 설정해야 합니다:\n\n- **Oculus / Meta:** Oculus 앱 실행 → 설정 → 베타 → OpenXR 런타임 → 'Oculus를 활성으로 설정' 클릭.\n- **SteamVR:** SteamVR 실행 → 설정 → 개발자 → 'SteamVR을 OpenXR 런타임으로 설정' 클릭.\n- **Windows Mixed Reality:** Microsoft Store에서 'Windows Mixed Reality OpenXR Developer Tools'를 다운로드한 후, 해당 툴에서 WMR을 활성으로 설정하십시오."
               }
             }
           ]
@@ -150,17 +228,26 @@
         {
           "title": "📦 Content Library Setup",
           "title_locales": {
-            "jp": "📦 モデル & コンテンツライブラリ"
+            "jp": "📦 モデル & コンテンツライブラリ",
+            "zh": "📦 媒体库设置",
+            "tw": "📦 媒體庫設定",
+            "kr": "📦 콘텐츠 라이브러리 설정"
           },
           "items": [
             {
               "question": "How do I set up my content library on Android or Meta Quest?",
               "question_locales": {
-                "jp": "AndroidまたはMeta Questでコンテンツライブラリを設定するにはどうすればよいですか？"
+                "jp": "AndroidまたはMeta Questでコンテンツライブラリを設定するにはどうすればよいですか？",
+                "zh": "如何在 Android 或 Meta Quest 上设置我的内容媒体库？",
+                "tw": "如何在 Android 或 Meta Quest 上設定我的內容媒體庫？",
+                "kr": "Android 또는 Meta Quest에서 콘텐츠 라이브러리를 어떻게 설정하나요?"
               },
               "answer": "Android systems have strict file access rules. By default, the content library is located inside the app internal storage.\n\n- Connect your device to a PC via USB, select \"File Transfer\", and navigate to `/Android/data/com.vrstormlab.dancexr/files/` or the root `/DanceXR/` folder to copy your zip/image files.\n- On Android and Meta Quest (from version 2024.3), grant DanceXR storage permission to use the system Files app or the built-in Content Manager app to share and manage your library.\n- For more details, see the [Content Library for Android & Quest](content_android_quest) guide.",
               "answer_locales": {
-                "jp": "Androidシステムには厳格なファイルアクセス制限があります。デフォルトでは、コンテンツライブラリはアプリの内部ストレージ内に配置されます。\n\n- デバイスをUSB経由でPCに接続し、「ファイル転送」を選択し、`/Android/data/com.vrstormlab.dancexr/files/`またはルートの`/DanceXR/`フォルダに移動して、zipや画像ファイルをコピーします。\n- AndroidおよびMeta Quest（バージョン2024.3以降）では、DanceXRにストレージ権限を付与して、システムファイルアプリまたは組み込みのコンテンツマネージャーアプリを使用してライブラリを共有・管理します。\n- 詳細については、[Android & Quest用コンテンツライブラリ](content_android_quest)ガイドを参照してください。"
+                "jp": "Androidシステムには厳格なファイルアクセス制限があります。デフォルトでは、コンテンツライブラリはアプリの内部ストレージ内に配置されます。\n\n- デバイスをUSB経由でPCに接続し、「ファイル転送」を選択し、`/Android/data/com.vrstormlab.dancexr/files/`またはルートの`/DanceXR/`フォルダに移動して、zipや画像ファイルをコピーします。\n- AndroidおよびMeta Quest（バージョン2024.3以降）では、DanceXRにストレージ権限を付与して、システムファイルアプリまたは組み込みのコンテンツマネージャーアプリを使用してライブラリを共有・管理します。\n- 詳細については、[Android & Quest用コンテンツライブラリ](content_android_quest)ガイドを参照してください。",
+                "zh": "Android 系统具有严格的文件访问规则。默认情况下，内容媒体库位于应用内部存储中。\n\n- 通过 USB 将您的设备连接到电脑，选择“文件传输”模式，然后导航到 `/Android/data/com.vrstormlab.dancexr/files/` 或根目录的 `/DanceXR/` 文件夹以复制您的 zip/图像文件。\n- 在 Android 和 Meta Quest（自 2024.3 版本起）上，授予 DanceXR 存储权限以使用系统“文件”应用或内置的“内容管理器”应用来共享和管理您的媒体库。\n- 有关更多详细信息，请参阅 [Android 和 Quest 内容媒体库](content_android_quest) 指南。",
+                "tw": "Android 系統具有嚴格的檔案存取規則。預設情況下，內容媒體庫位於應用程式內部儲存中。\n\n- 透過 USB 將您的裝置連接到電腦，選擇「檔案傳輸」模式，然後導航到 `/Android/data/com.vrstormlab.dancexr/files/` 或根目錄的 `/DanceXR/` 資料夾以複製您的 zip/影像檔案。\n- 在 Android 和 Meta Quest（自 2024.3 版本起）上，授予 DanceXR 儲存權限以使用系統「檔案」應用程式或內建的「內容管理器」應用程式來共享和管理您的媒體庫。\n- 有關更多詳細資訊，請參閱 [Android 和 Quest 內容媒體庫](content_android_quest) 指南。",
+                "kr": "Android 시스템은 엄격한 파일 접근 규칙을 따릅니다. 기본적으로 콘텐츠 라이브러리는 앱의 내부 저장소 안에 배치됩니다.\n\n- USB 케이블로 기기를 PC에 연결하고 '파일 전송'을 선택한 뒤, `/Android/data/com.vrstormlab.dancexr/files/` 또는 루트의 `/DanceXR/` 폴더로 이동하여 zip/이미지 파일을 복사합니다.\n- Android 및 Meta Quest(2024.3 버전부터)의 경우, 시스템 파일 앱이나 기본 제공되는 콘텐츠 매니저 앱을 사용하여 라이브러리를 공유하고 관리할 수 있도록 DanceXR에 저장소 권한을 부여하십시오.\n- 자세한 내용은 [Android 및 Quest용 콘텐츠 라이브러리](content_android_quest) 가이드를 참조하십시오."
               }
             }
           ]
@@ -168,17 +255,26 @@
         {
           "title": "🔑 Licensing & Payments",
           "title_locales": {
-            "jp": "🔑 ライセンス & 支払い"
+            "jp": "🔑 ライセンス & 支払い",
+            "zh": "🔑 授权与支付",
+            "tw": "🔑 授權與支付",
+            "kr": "🔑 라이선스 및 결제"
           },
           "items": [
             {
               "question": "Asked to activate again",
               "question_locales": {
-                "jp": "再度アクティベートを求められる"
+                "jp": "再度アクティベートを求められる",
+                "zh": "提示需要再次激活",
+                "tw": "提示需要再次啟用",
+                "kr": "다시 활성화하라는 메시지가 표시됨"
               },
               "answer": "After major OS or hardware changes, DanceXR may not recognize the system as the same one your license was issued for. Just run through the activation steps again — there's no extra cost. See the [Activation & Licensing](activation) guide. [Contact us](#contact) if you have trouble.",
               "answer_locales": {
-                "jp": "大規模なOSまたはハードウェアの変更後、DanceXRはシステムをライセンス発行時と同じものとして認識しない場合があります。アクティベーション手順を再度実行するだけで解決します。追加の費用はかかりません。[アクティベーションとライセンス](activation)ガイドを参照してください。問題がある場合は[お問い合わせ](#contact)ください。"
+                "jp": "大規模なOSまたはハードウェアの変更後、DanceXRはシステムをライセンス発行時と同じものとして認識しない場合があります。アクティベーション手順を再度実行するだけで解決します。追加の費用はかかりません。[アクティベーションとライセンス](activation)ガイドを参照してください。問題がある場合は[お問い合わせ](#contact)ください。",
+                "zh": "在重大 OS 或硬件更改后，DanceXR 可能无法将系统识别为签发许可证时的系统。只需再次运行激活步骤即可 —— 没有额外费用。请参阅 [激活与授权](activation) 指南。如果您遇到问题，请 [联系我们](#contact)。",
+                "tw": "在重大 OS 或硬體變更後，DanceXR 可能無法將系統識別為核發授權時的系統。只需再次執行啟用步驟即可 —— 沒有額外費用。請參閱 [啟用與授權](activation) 指南。如果您遇到問題，請 [聯絡我們](#contact)。",
+                "kr": "주요 OS 또는 하드웨어 변경 후, DanceXR이 귀하의 라이선스가 발급된 동일한 시스템으로 인식하지 못할 수 있습니다. 활성화 단계를 다시 수행하기만 하면 되며, 추가 비용은 청구되지 않습니다. [활성화 및 라이선스](activation) 가이드를 참조하십시오. 문제가 발생하면 [문의하기](#contact) 바랍니다."
               }
             }
           ]

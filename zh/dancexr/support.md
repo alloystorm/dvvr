@@ -10,99 +10,99 @@ hero_image: /images/hero.png
 support_sections:
   - id: known-issues
     light: true
-    label: Known Issues
-    title: "Known Issues & Workarounds"
+    label: 已知问题
+    title: 已知问题与解决方法
     subsections:
-      - title: 📌 Version 2026.6
+      - title: 📌 版本 2026.6
         items:
-          - question: Motion broken when using T pose or custom rigging in motion settings
+          - question: 在动作设置中使用 T 姿势或自定义骨骼绑定时动作损坏
             answer: |
-              This is caused by a bug in motion smoothing system. Temerory workaround: disable motion smoothing in motion settings.
+              这是由动作平滑系统中的 bug 引起的。临时解决方法：在动作设置中禁用动作平滑。
   - id: faq
-    label: FAQ
-    title: Frequently Asked Questions
+    label: 常见问题
+    title: 常见问题解答 (FAQ)
     subsections:
-      - title: 🌐 Common Issues
+      - title: 🌐 常见问题
         items:
-          - question: Model loads but everything is white
+          - question: 模型已加载但全部显示为白色
             answer: |
-              The most common cause is filename encoding — textures can't be located when filenames use a different character encoding.
+              最常见的原因是文件名编码问题 —— 当文件名使用不同的字符编码时，将无法定位贴图。
               
-              - For ZIP packages, add the encoding to the package name so DanceXR knows how to parse filenames. [Details here →](features/zip_format)
-              - Extra spaces in filenames can also prevent textures from loading. Open the model in PMXEditor and verify that texture references match the actual filenames exactly.
-          - question: Hair materials are see-through
+              - 对于 ZIP 压缩包，请在压缩包名称中添加编码，以便 DanceXR 能够正确解析文件名。[详细信息请参阅此页面 →](features/zip_format)
+              - 文件名中的额外空格也可能导致贴图无法加载。请在 PMXEditor 中打开模型，验证贴图引用是否与实际文件名完全一致。
+          - question: 头发材质透光/透明
             answer: |
-              Transparency depth prepass is on by default. It fixes transparency sorting by rendering only the topmost transparent layer — which means stacked transparent layers (like layered hair) only show the top one.
+              半透明深度预处理（Transparency depth prepass）默认处于开启状态。它通过仅渲染最顶层的透明层来修正半透明排序问题 —— 这意味着多层叠加的半透明（如分层头发）只显示最外层。
               
-              - Turn off transparency depth prepass to render all transparent layers. This may introduce sorting artifacts if the model's material order isn't correct.
-              - There is no perfect universal solution — try different configurations and use the one with fewer visual problems.
-          - question: Sky sphere from a stage model has holes or looks pixelated
+              - 关闭半透明深度预处理以渲染所有半透明层。如果模型的材质顺序不正确，这可能会引入排序错误/伪影。
+              - 没有十全十美的通用解决方案 —— 请尝试不同的配置，选择视觉问题较少的那一种。
+          - question: 舞台模型的天空球有破洞或看起来有像素颗粒
             answer: |
-              Also caused by transparency depth prepass — when multiple sky spheres are transparent, only the topmost layer renders fully in some areas.
+              同样是由半透明深度预处理引起的 —— 当存在多个半透明天空球时，在某些区域只会完全渲染最顶层。
               
-              - Turn off transparency depth prepass, or
-              - Find the background sky sphere and change its material from transparent to opaque.
-      - title: 🛠️ Pre-Report Checklist
+              - 关闭半透明深度预处理，或者
+              - 找到背景天空球，并将其材质从半透明更改为不透明。
+      - title: 🛠️ 报告问题前的检查清单
         items:
-          - question: "Before reporting a bug, try these quick fixes:"
+          - question: 在报告 bug 之前，请尝试以下快速修复方法：
             answer: |
-              1. **Update to the Latest Version** — Your issue may already be resolved in a newer release.
-              2. **Reset Configuration** — Back up and then delete `config.json` to rule out a corrupted settings file.
-              3. **Reset License** — If the app fails to start or behaves weirdly, try removing `license.txt` from the installation directory and relaunching.
-              4. **Clear Library Cache** — Back up and delete `cache.json` from your content library folder to force the player to re-scan your files.
-              5. **OpenXR Setup** — If VR won't launch, double-check that your active OpenXR runtime is set correctly in your VR software settings.
-          - question: "Where can I find the log files?"
+              1. **更新至最新版本** —— 您的问题可能已在新版本中得到解决。
+              2. **重置配置** —— 备份并删除 `config.json` 以排除配置文件损坏的情况。
+              3. **重置授权/许可证** —— 如果应用无法启动或行为异常，请尝试从安装目录中删除 `license.txt` 并重新启动。
+              4. **清除媒体库缓存** —— 备份并删除内容库文件夹中的 `cache.json`，以强制播放器重新扫描您的文件。
+              5. **OpenXR 设置** —— 如果 VR 无法启动，请仔细检查您的 VR 软件设置中是否正确设置了当前活动的 OpenXR 运行时。
+          - question: 在哪里可以找到日志文件？
             answer: |
-              When reporting a bug, attaching your log files is extremely helpful. Please attach **`Player.log`** (current session) and **`Player-prev.log`** (previous session) to your bug report.
+              报告 bug 时，附上日志文件会非常有帮助。请在您的 bug 报告中附带 **`Player.log`**（当前会话）和 **`Player-prev.log`**（上一次会话）。
               
-              **Windows PC Path:**
+              **Windows PC 路径：**
               ```
               C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
               ```
-              *Note: Replace `[User]` with your Windows username. If AppData is hidden, enable "Hidden items" in Windows Explorer.*
+              *注意：请将 `[User]` 替换为您的 Windows 用户名。如果 AppData 文件夹被隐藏，请在 Windows 文件资源管理器中启用“隐藏的项目”。*
               
-              **Android & Meta Quest Path:**
+              **Android 和 Meta Quest 路径：**
               ```
               /Android/data/com.vrstormlab.dancexr/files/Player.log
               ```
-              *Note: Connect your device to a PC via USB and use File Transfer to locate this file.*
-      - title: "🖥️ System & VR Startup"
+              *注意：通过 USB 将您的设备连接到电脑，并使用文件传输模式来定位此文件。*
+      - title: 🖥️ 系统与 VR 启动
         items:
-          - question: Only the sky is visible — no UI or camera controls
+          - question: 只显示天空 —— 没有 UI 或相机控制界面
             answer: |
-              This usually means something went wrong during startup. Try these steps in order:
+              这通常意味着在启动过程中出了问题。请按顺序尝试以下步骤：
               
-              - Remove `license.txt` and relaunch.
-              - Remove (back up first) `config.json` — this resets all settings and fixes issues caused by a corrupted config.
-              - Remove (back up first) `cache.json` from your content library.
-          - question: Crashes every launch — reverting to an older version doesn't help
+              - 删除 `license.txt` 并重新启动。
+              - 删除（请先备份）`config.json` —— 这将重置所有设置并修复由于配置文件损坏引起的问题。
+              - 从您的内容媒体库中删除（请先备份）`cache.json`。
+          - question: 每次启动都崩溃 —— 回退到旧版本也无济于事
             answer: |
-              This is usually a VR runtime problem, not DanceXR itself.
+              这通常是 VR 运行时的问题，而不是 DanceXR 本身的问题。
               
-              - If you have multiple VR runtimes, try switching to a different one.
-              - For SteamVR: disable startup overlays and addons you don't need; try a clean reinstall.
-              - Check the SteamVR `driver` folder for anything recently installed or updated that you can remove.
-          - question: Unable to launch VR
+              - 如果您安装了多个 VR 运行时，请尝试切换到另一个。
+              - 对于 SteamVR：禁用不需要的启动叠加层（overlays）和插件；尝试干净的重新安装。
+              - 检查 SteamVR 的 `driver` 文件夹，看看是否有最近安装或更新的可以删除的项目。
+          - question: 无法启动 VR
             answer: |
-              DanceXR uses OpenXR to initialize VR. If you have multiple VR runtimes installed, one needs to be set as the active OpenXR runtime:
+              DanceXR 使用 OpenXR 来初始化 VR。如果您安装了多个 VR 运行时，则需要将其中一个设置为活动的 OpenXR 运行时：
               
-              - **Oculus / Meta:** Open the Oculus app → Settings → Beta → OpenXR Runtime → "Set Oculus as active".
-              - **SteamVR:** Open SteamVR → top-left menu → Settings → Developer → "Set SteamVR as OpenXR Runtime".
-              - **Windows Mixed Reality:** Download "Windows Mixed Reality OpenXR Developer Tools" from the Microsoft Store and set WMR as active from there.
-      - title: 📦 Content Library Setup
+              - **Oculus / Meta：** 打开 Oculus 应用 → 设置 → 测试版 → OpenXR 运行时 → 点击“将 Oculus 设置为活动”。
+              - **SteamVR：** 打开 SteamVR → 左上角菜单 → 设置 → 开发者 → 点击“将 SteamVR 设置为 OpenXR 运行时”。
+              - **Windows Mixed Reality：** 从 Microsoft Store 下载 “Windows Mixed Reality OpenXR Developer Tools”，并从中将 WMR 设置为活动。
+      - title: 📦 媒体库设置
         items:
-          - question: "How do I set up my content library on Android or Meta Quest?"
+          - question: 如何在 Android 或 Meta Quest 上设置我的内容媒体库？
             answer: |
-              Android systems have strict file access rules. By default, the content library is located inside the app internal storage.
+              Android 系统具有严格的文件访问规则。默认情况下，内容媒体库位于应用内部存储中。
               
-              - Connect your device to a PC via USB, select "File Transfer", and navigate to `/Android/data/com.vrstormlab.dancexr/files/` or the root `/DanceXR/` folder to copy your zip/image files.
-              - On Android and Meta Quest (from version 2024.3), grant DanceXR storage permission to use the system Files app or the built-in Content Manager app to share and manage your library.
-              - For more details, see the [Content Library for Android & Quest](content_android_quest) guide.
-      - title: "🔑 Licensing & Payments"
+              - 通过 USB 将您的设备连接到电脑，选择“文件传输”模式，然后导航到 `/Android/data/com.vrstormlab.dancexr/files/` 或根目录的 `/DanceXR/` 文件夹以复制您的 zip/图像文件。
+              - 在 Android 和 Meta Quest（自 2024.3 版本起）上，授予 DanceXR 存储权限以使用系统“文件”应用或内置的“内容管理器”应用来共享和管理您的媒体库。
+              - 有关更多详细信息，请参阅 [Android 和 Quest 内容媒体库](content_android_quest) 指南。
+      - title: 🔑 授权与支付
         items:
-          - question: Asked to activate again
+          - question: 提示需要再次激活
             answer: |
-              After major OS or hardware changes, DanceXR may not recognize the system as the same one your license was issued for. Just run through the activation steps again — there's no extra cost. See the [Activation & Licensing](activation) guide. [Contact us](#contact) if you have trouble.
+              在重大 OS 或硬件更改后，DanceXR 可能无法将系统识别为签发许可证时的系统。只需再次运行激活步骤即可 —— 没有额外费用。请参阅 [激活与授权](activation) 指南。如果您遇到问题，请 [联系我们](#contact)。
 ---
 
 

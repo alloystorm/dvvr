@@ -10,99 +10,99 @@ hero_image: /images/hero.png
 support_sections:
   - id: known-issues
     light: true
-    label: Known Issues
-    title: "Known Issues & Workarounds"
+    label: 알려진 문제
+    title: 알려진 문제 및 해결 방법
     subsections:
-      - title: 📌 Version 2026.6
+      - title: 📌 버전 2026.6
         items:
-          - question: Motion broken when using T pose or custom rigging in motion settings
+          - question: 모션 설정에서 T 포즈 또는 커스텀 리깅을 사용할 때 모션이 깨지는 현상
             answer: |
-              This is caused by a bug in motion smoothing system. Temerory workaround: disable motion smoothing in motion settings.
+              이는 모션 보정(smoothing) 시스템의 버그로 인해 발생합니다. 임시 해결 방법: 모션 설정에서 모션 보정을 비활성화하십시오.
   - id: faq
-    label: FAQ
-    title: Frequently Asked Questions
+    label: 자주 묻는 질문
+    title: 자주 묻는 질문 (FAQ)
     subsections:
-      - title: 🌐 Common Issues
+      - title: 🌐 일반적인 문제
         items:
-          - question: Model loads but everything is white
+          - question: 모델이 로드되었으나 전체가 하얗게 보임
             answer: |
-              The most common cause is filename encoding — textures can't be located when filenames use a different character encoding.
+              가장 흔한 원인은 파일 이름 인코딩 때문입니다. 파일 이름에 다른 문자 인코딩이 사용된 경우 텍스처를 찾을 수 없습니다.
               
-              - For ZIP packages, add the encoding to the package name so DanceXR knows how to parse filenames. [Details here →](features/zip_format)
-              - Extra spaces in filenames can also prevent textures from loading. Open the model in PMXEditor and verify that texture references match the actual filenames exactly.
-          - question: Hair materials are see-through
+              - ZIP 패키지의 경우, DanceXR이 파일 이름을 올바르게 분석할 수 있도록 패키지 이름에 인코딩을 추가하십시오. [자세한 정보 →](features/zip_format)
+              - 파일 이름의 불필요한 공백도 텍스처 로드를 방해할 수 있습니다. PMXEditor에서 모델을 열고 텍스처 참조 경로가 실제 파일 이름과 정확히 일치하는지 확인하십시오.
+          - question: 머리카락 재질이 반투명하게 비쳐 보임
             answer: |
-              Transparency depth prepass is on by default. It fixes transparency sorting by rendering only the topmost transparent layer — which means stacked transparent layers (like layered hair) only show the top one.
+              반투명 깊이 프리패스(Transparency depth prepass) 기능이 기본적으로 켜져 있습니다. 이 기능은 가장 위에 있는 반투명 레이어만 렌더링하여 투명도 정렬 문제를 해결합니다. 따라서 레이어드 헤어처럼 겹쳐진 반투명 레이어은 가장 겉면만 보이게 됩니다.
               
-              - Turn off transparency depth prepass to render all transparent layers. This may introduce sorting artifacts if the model's material order isn't correct.
-              - There is no perfect universal solution — try different configurations and use the one with fewer visual problems.
-          - question: Sky sphere from a stage model has holes or looks pixelated
+              - 모든 반투명 레이어를 렌더링하려면 반투명 깊이 프리패스를 끄십시오. 모델의 재질 순서가 올바르지 않은 경우 정렬 오류(아티팩트)가 발생할 수 있습니다.
+              - 완벽한 범용 해결책은 없습니다. 다양한 설정을 시도해 보고 시각적 문제가 가장 적은 설정을 사용하십시오.
+          - question: 스테이지 모델의 스카이 스피어에 구멍이 뚫려 있거나 픽셀이 깨져 보임
             answer: |
-              Also caused by transparency depth prepass — when multiple sky spheres are transparent, only the topmost layer renders fully in some areas.
+              이 역시 반투명 깊이 프리패스로 인해 발생합니다. 여러 개의 스카이 스피어가 투명할 경우 일부 영역에서 가장 바깥쪽 레이어만 완전히 렌더링됩니다.
               
-              - Turn off transparency depth prepass, or
-              - Find the background sky sphere and change its material from transparent to opaque.
-      - title: 🛠️ Pre-Report Checklist
+              - 반투명 깊이 프리패스를 끄거나,
+              - 배경 스카이 스피어를 찾아 재질을 투명에서 불투명으로 변경하십시오.
+      - title: 🛠️ 문의 전 체크리스트
         items:
-          - question: "Before reporting a bug, try these quick fixes:"
+          - question: "버그를 보고하기 전에 다음의 간단한 해결 방법을 시도해 보세요:"
             answer: |
-              1. **Update to the Latest Version** — Your issue may already be resolved in a newer release.
-              2. **Reset Configuration** — Back up and then delete `config.json` to rule out a corrupted settings file.
-              3. **Reset License** — If the app fails to start or behaves weirdly, try removing `license.txt` from the installation directory and relaunching.
-              4. **Clear Library Cache** — Back up and delete `cache.json` from your content library folder to force the player to re-scan your files.
-              5. **OpenXR Setup** — If VR won't launch, double-check that your active OpenXR runtime is set correctly in your VR software settings.
-          - question: "Where can I find the log files?"
+              1. **최신 버전으로 업데이트** — 겪고 계신 문제가 최신 버전에서 이미 해결되었을 수 있습니다.
+              2. **설정 초기화** — 백업을 진행한 후 `config.json`을 삭제하여 설정 파일 손상 여부를 확인합니다.
+              3. **라이선스 초기화** — 앱이 실행되지 않거나 오작동할 경우, 설치 디렉토리에서 `license.txt` 파일을 삭제한 후 다시 시작해 보십시오.
+              4. **라이브러리 캐시 지우기** — 콘텐츠 라이브러리 폴더에서 `cache.json`을 백업하고 삭제하여 플레이어가 파일을 다시 스캔하도록 강제합니다.
+              5. **OpenXR 설정** — VR이 실행되지 않는 경우, VR 소프트웨어 설정에서 활성화된 OpenXR 런타임이 올바르게 설정되어 있는지 다시 한번 확인하십시오.
+          - question: "로그 파일은 어디에서 찾을 수 있나요?"
             answer: |
-              When reporting a bug, attaching your log files is extremely helpful. Please attach **`Player.log`** (current session) and **`Player-prev.log`** (previous session) to your bug report.
+              버그를 보고할 때 로그 파일을 첨부해 주시면 문제 해결에 큰 도움이 됩니다. 버그 보고서에 **`Player.log`**(현재 세션) 및 **`Player-prev.log`**(이전 세션) 파일을 첨부해 주세요.
               
-              **Windows PC Path:**
+              **Windows PC 경로:**
               ```
               C:\Users\[User]\AppData\LocalLow\VR Storm Lab\DanceXR [HD|LW|RT]\Player.log
               ```
-              *Note: Replace `[User]` with your Windows username. If AppData is hidden, enable "Hidden items" in Windows Explorer.*
+              *참고: `[User]`를 본인의 Windows 사용자 이름으로 바꾸십시오. AppData 폴더가 숨겨져 있는 경우 Windows 탐색기에서 '숨긴 항목' 표시를 활성화하십시오.*
               
-              **Android & Meta Quest Path:**
+              **Android 및 Meta Quest 경로:**
               ```
               /Android/data/com.vrstormlab.dancexr/files/Player.log
               ```
-              *Note: Connect your device to a PC via USB and use File Transfer to locate this file.*
-      - title: "🖥️ System & VR Startup"
+              *참고: USB 케이블을 이용해 기기를 PC에 연결하고 '파일 전송' 모드를 사용하여 해당 파일을 찾으십시오.*
+      - title: 🖥️ 시스템 및 VR 실행
         items:
-          - question: Only the sky is visible — no UI or camera controls
+          - question: 하늘만 보임 — UI 및 카메라 제어 불가
             answer: |
-              This usually means something went wrong during startup. Try these steps in order:
+              이는 보통 실행 과정에서 문제가 발생했음을 의미합니다. 다음 단계를 순서대로 시도해 보십시오:
               
-              - Remove `license.txt` and relaunch.
-              - Remove (back up first) `config.json` — this resets all settings and fixes issues caused by a corrupted config.
-              - Remove (back up first) `cache.json` from your content library.
-          - question: Crashes every launch — reverting to an older version doesn't help
+              - `license.txt` 파일을 삭제한 후 다시 실행합니다.
+              - `config.json` 파일을 삭제(먼저 백업 권장)합니다. 모든 설정이 초기화되며 설정 파일 손상으로 인한 문제가 해결됩니다.
+              - 콘텐츠 라이브러리에서 `cache.json` 파일을 삭제(먼저 백업 권장)합니다.
+          - question: 매 실행 시 크래시(강제 종료) 발생 — 이전 버전으로 되돌려도 해결되지 않음
             answer: |
-              This is usually a VR runtime problem, not DanceXR itself.
+              이 문제는 보통 DanceXR 자체의 문제라기보다는 VR 런타임의 문제입니다.
               
-              - If you have multiple VR runtimes, try switching to a different one.
-              - For SteamVR: disable startup overlays and addons you don't need; try a clean reinstall.
-              - Check the SteamVR `driver` folder for anything recently installed or updated that you can remove.
-          - question: Unable to launch VR
+              - 여러 개의 VR 런타임이 설치되어 있는 경우 다른 런타임으로 전환해 보십시오.
+              - SteamVR의 경우: 필요하지 않은 시작 오버레이 및 애드온을 비활성화하고 깔끔하게 재설치해 보십시오.
+              - SteamVR의 `driver` 폴더에서 최근에 설치되거나 업데이트된 항목 중 제거할 수 있는 것이 있는지 확인하십시오.
+          - question: VR을 실행할 수 없음
             answer: |
-              DanceXR uses OpenXR to initialize VR. If you have multiple VR runtimes installed, one needs to be set as the active OpenXR runtime:
+              DanceXR은 VR 초기화에 OpenXR을 사용합니다. 여러 개의 VR 런타임이 설치되어 있는 경우, 그중 하나를 활성 OpenXR 런타임으로 설정해야 합니다:
               
-              - **Oculus / Meta:** Open the Oculus app → Settings → Beta → OpenXR Runtime → "Set Oculus as active".
-              - **SteamVR:** Open SteamVR → top-left menu → Settings → Developer → "Set SteamVR as OpenXR Runtime".
-              - **Windows Mixed Reality:** Download "Windows Mixed Reality OpenXR Developer Tools" from the Microsoft Store and set WMR as active from there.
-      - title: 📦 Content Library Setup
+              - **Oculus / Meta:** Oculus 앱 실행 → 설정 → 베타 → OpenXR 런타임 → 'Oculus를 활성으로 설정' 클릭.
+              - **SteamVR:** SteamVR 실행 → 설정 → 개발자 → 'SteamVR을 OpenXR 런타임으로 설정' 클릭.
+              - **Windows Mixed Reality:** Microsoft Store에서 'Windows Mixed Reality OpenXR Developer Tools'를 다운로드한 후, 해당 툴에서 WMR을 활성으로 설정하십시오.
+      - title: 📦 콘텐츠 라이브러리 설정
         items:
-          - question: "How do I set up my content library on Android or Meta Quest?"
+          - question: "Android 또는 Meta Quest에서 콘텐츠 라이브러리를 어떻게 설정하나요?"
             answer: |
-              Android systems have strict file access rules. By default, the content library is located inside the app internal storage.
+              Android 시스템은 엄격한 파일 접근 규칙을 따릅니다. 기본적으로 콘텐츠 라이브러리는 앱의 내부 저장소 안에 배치됩니다.
               
-              - Connect your device to a PC via USB, select "File Transfer", and navigate to `/Android/data/com.vrstormlab.dancexr/files/` or the root `/DanceXR/` folder to copy your zip/image files.
-              - On Android and Meta Quest (from version 2024.3), grant DanceXR storage permission to use the system Files app or the built-in Content Manager app to share and manage your library.
-              - For more details, see the [Content Library for Android & Quest](content_android_quest) guide.
-      - title: "🔑 Licensing & Payments"
+              - USB 케이블로 기기를 PC에 연결하고 '파일 전송'을 선택한 뒤, `/Android/data/com.vrstormlab.dancexr/files/` 또는 루트의 `/DanceXR/` 폴더로 이동하여 zip/이미지 파일을 복사합니다.
+              - Android 및 Meta Quest(2024.3 버전부터)의 경우, 시스템 파일 앱이나 기본 제공되는 콘텐츠 매니저 앱을 사용하여 라이브러리를 공유하고 관리할 수 있도록 DanceXR에 저장소 권한을 부여하십시오.
+              - 자세한 내용은 [Android 및 Quest용 콘텐츠 라이브러리](content_android_quest) 가이드를 참조하십시오.
+      - title: 🔑 라이선스 및 결제
         items:
-          - question: Asked to activate again
+          - question: 다시 활성화하라는 메시지가 표시됨
             answer: |
-              After major OS or hardware changes, DanceXR may not recognize the system as the same one your license was issued for. Just run through the activation steps again — there's no extra cost. See the [Activation & Licensing](activation) guide. [Contact us](#contact) if you have trouble.
+              주요 OS 또는 하드웨어 변경 후, DanceXR이 귀하의 라이선스가 발급된 동일한 시스템으로 인식하지 못할 수 있습니다. 활성화 단계를 다시 수행하기만 하면 되며, 추가 비용은 청구되지 않습니다. [활성화 및 라이선스](activation) 가이드를 참조하십시오. 문제가 발생하면 [문의하기](#contact) 바랍니다.
 ---
 
 
