@@ -13,7 +13,16 @@ support_sections:
     label: Known Issues
     title: "Known Issues & Workarounds"
     subsections:
-      - title: 🌐 All Versions
+      - title: 📌 Version 2026.6
+        items:
+          - question: Motion broken when using T pose or custom rigging in motion settings
+            answer: |
+              This is caused by a bug in motion smoothing system. Temerory workaround: disable motion smoothing in motion settings.
+  - id: faq
+    label: FAQ
+    title: Frequently Asked Questions
+    subsections:
+      - title: 🌐 Common Issues
         items:
           - question: Model loads but everything is white
             answer: |
@@ -33,15 +42,6 @@ support_sections:
               
               - Turn off transparency depth prepass, or
               - Find the background sky sphere and change its material from transparent to opaque.
-      - title: 📌 Version 2026.6
-        items:
-          - question: Motion broken when using T pose or custom rigging in motion settings
-            answer: |
-              This is caused by a bug in motion smoothing system. Temerory workaround: disable motion smoothing in motion settings.
-  - id: faq
-    label: FAQ
-    title: Frequently Asked Questions
-    subsections:
       - title: 🛠️ Pre-Report Checklist
         items:
           - question: "Before reporting a bug, try these quick fixes:"

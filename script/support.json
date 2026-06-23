@@ -13,9 +13,40 @@
       },
       "subsections": [
         {
-          "title": "🌐 All Versions",
+          "title": "📌 Version 2026.6",
           "title_locales": {
-            "jp": "🌐 全バージョン共通"
+            "jp": "📌 バージョン 2026.6"
+          },
+          "items": [
+            {
+              "question": "Motion broken when using T pose or custom rigging in motion settings",
+              "question_locales": {
+                "jp": "Tポーズまたはカスタムリグの使用時にモーションが壊れる"
+              },
+              "answer": "This is caused by a bug in motion smoothing system. Temerory workaround: disable motion smoothing in motion settings.",
+              "answer_locales": {
+                "jp": "これはモーションスムージングシステムのバグが原因です。一時的な回避策として、モーション設定でモーションスムージングを無効にしてください。"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "label": "FAQ",
+      "label_locales": {
+        "jp": "よくある質問"
+      },
+      "title": "Frequently Asked Questions",
+      "title_locales": {
+        "jp": "よくある質問（FAQ）"
+      },
+      "subsections": [
+        {
+          "title": "🌐 Common Issues",
+          "title_locales": {
+            "jp": "🌐 Common Issues"
           },
           "items": [
             {
@@ -50,37 +81,6 @@
             }
           ]
         },
-        {
-          "title": "📌 Version 2026.6",
-          "title_locales": {
-            "jp": "📌 バージョン 2026.6"
-          },
-          "items": [
-            {
-              "question": "Motion broken when using T pose or custom rigging in motion settings",
-              "question_locales": {
-                "jp": "Tポーズまたはカスタムリグの使用時にモーションが壊れる"
-              },
-              "answer": "This is caused by a bug in motion smoothing system. Temerory workaround: disable motion smoothing in motion settings.",
-              "answer_locales": {
-                "jp": "これはモーションスムージングシステムのバグが原因です。一時的な回避策として、モーション設定でモーションスムージングを無効にしてください。"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "faq",
-      "label": "FAQ",
-      "label_locales": {
-        "jp": "よくある質問"
-      },
-      "title": "Frequently Asked Questions",
-      "title_locales": {
-        "jp": "よくある質問（FAQ）"
-      },
-      "subsections": [
         {
           "title": "🛠️ Pre-Report Checklist",
           "title_locales": {

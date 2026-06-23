@@ -13,7 +13,16 @@ support_sections:
     label: 既知の問題
     title: 既知の問題と回避策
     subsections:
-      - title: 🌐 全バージョン共通
+      - title: 📌 バージョン 2026.6
+        items:
+          - question: Tポーズまたはカスタムリグの使用時にモーションが壊れる
+            answer: |
+              これはモーションスムージングシステムのバグが原因です。一時的な回避策として、モーション設定でモーションスムージングを無効にしてください。
+  - id: faq
+    label: よくある質問
+    title: よくある質問（FAQ）
+    subsections:
+      - title: 🌐 Common Issues
         items:
           - question: モデルを読み込んでも全部が白い
             answer: |
@@ -33,15 +42,6 @@ support_sections:
               
               - 透明度の深度プリパスをオフにする、または
               - 背景のスカイスフィアを見つけ、そのマテリアルを透明から不透明に変更する。
-      - title: 📌 バージョン 2026.6
-        items:
-          - question: Tポーズまたはカスタムリグの使用時にモーションが壊れる
-            answer: |
-              これはモーションスムージングシステムのバグが原因です。一時的な回避策として、モーション設定でモーションスムージングを無効にしてください。
-  - id: faq
-    label: よくある質問
-    title: よくある質問（FAQ）
-    subsections:
       - title: 🛠️ 報告前のチェックリスト
         items:
           - question: バグを報告する前に、以下の簡単な修正をお試しください：
