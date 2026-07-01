@@ -11,6 +11,8 @@ feature_sections:
   - title: "2026"
     light: true
     tiles:
+      - title: "發布 2026.7"
+        link: "/tw/dancexr/releases/2026.7"
       - title: "發布 2026.6"
         link: "/tw/dancexr/releases/2026.6"
       - title: "發布 2026.5"

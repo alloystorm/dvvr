@@ -409,15 +409,15 @@ AIパワードのボイスチャットにより、キャラクターがリアル
 
 </div>
 <div class="release-card">
-  <p class="release-version">最新 — 2026.6</p>
-  <p class="release-headline">2026年6月</p>
+  <p class="release-version">最新 — 2026.7</p>
+  <p class="release-headline">2026年7月</p>
   <div class="release-items">
-    <div class="release-item">手でキャラクターをポーズ付け</div>
-    <div class="release-item">再構築された全身バランス</div>
-    <div class="release-item">音声コマンド対応のスマートアシスタント</div>
-    <div class="release-item">よりリアルな流体とモーション</div>
+    <div class="release-item">PMX モデル物理の大幅な見直し</div>
+    <div class="release-item">形状を保つ安定したソフトボディ</div>
+    <div class="release-item">床にきちんと着く足</div>
+    <div class="release-item">胴体操作と着席ポーズ</div>
   </div>
-  <a href="releases/2026.6" class="btn-ghost">完全なリリースノート</a>
+  <a href="releases/2026.7" class="btn-ghost">完全なリリースノート</a>
 </div>
 </div>
 </section>

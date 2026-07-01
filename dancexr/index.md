@@ -409,15 +409,15 @@ New features and improvements ship every month. Patreon supporters get early acc
 
 </div>
 <div class="release-card">
-  <p class="release-version">Latest — 2026.6</p>
-  <p class="release-headline">June 2026</p>
+  <p class="release-version">Latest — 2026.7</p>
+  <p class="release-headline">July 2026</p>
   <div class="release-items">
-    <div class="release-item">Pose your character by hand</div>
-    <div class="release-item">Rebuilt full-body balance</div>
-    <div class="release-item">Smarter assistant with voice commands</div>
-    <div class="release-item">More lifelike fluid and motion</div>
+    <div class="release-item">Overhauled PMX model physics</div>
+    <div class="release-item">Steadier shape-matching soft body</div>
+    <div class="release-item">Feet that settle on the floor</div>
+    <div class="release-item">Torso control and seated poses</div>
   </div>
-  <a href="releases/2026.6" class="btn-ghost">Full release notes</a>
+  <a href="releases/2026.7" class="btn-ghost">Full release notes</a>
 </div>
 </div>
 </section>

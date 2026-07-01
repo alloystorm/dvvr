@@ -409,15 +409,15 @@ AI 功能
 
 </div>
 <div class="release-card">
-  <p class="release-version">最新 — 2026.6</p>
-  <p class="release-headline">2026年6月</p>
+  <p class="release-version">最新 — 2026.7</p>
+  <p class="release-headline">2026年7月</p>
   <div class="release-items">
-    <div class="release-item">用手摆出角色姿势</div>
-    <div class="release-item">重构的全身平衡</div>
-    <div class="release-item">支持语音指令的智能助手</div>
-    <div class="release-item">更逼真的流体与动作</div>
+    <div class="release-item">全面重构的 PMX 模型物理</div>
+    <div class="release-item">保持形状的稳定软体</div>
+    <div class="release-item">稳稳落地的双脚</div>
+    <div class="release-item">躯干操控与坐姿</div>
   </div>
-  <a href="releases/2026.6" class="btn-ghost">完整版本说明</a>
+  <a href="releases/2026.7" class="btn-ghost">完整版本说明</a>
 </div>
 </div>
 </section>
