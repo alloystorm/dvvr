@@ -14,7 +14,7 @@ Structured routing table for the DanceXR documentation. Use it to map a user's q
 
 ## Product summary
 
-DanceXR is a multi-platform character viewer and motion player for **PMX/MMD** (MikuMikuDance) and **XPS/XNALara** models. It plays **VMD** and **BVH** motions, runs on PC, Mac, Android, and Meta Quest, and supports VR. The **Creator Edition** adds offline render / video recording. **Pro** is a paid tier that unlocks features such as AI Voice Chat. **DanceXR Operator** is a separate AI backend for hands-free / scripted control.
+DanceXR is a multi-platform character viewer and motion player for **PMX/MMD** (MikuMikuDance) and **XPS/XNALara** models. It plays **VMD** and **BVH** motions, runs on PC, Mac, Android, Meta Quest, and the Web, and supports VR. The **Creator Edition** adds offline render / video recording. **Pro** is a paid tier that unlocks features such as AI Voice Chat. **DanceXR Operator** is a separate AI backend for hands-free / scripted control.
 
 ## How to use this index
 
@@ -78,6 +78,8 @@ Use these when the user's wording does not match a topic title directly.
 | Sky, weather, rain, snow, fog | `dancexr/features/skymap.md`, `dancexr/features/weather_particles.md`, `dancexr/features/sky.md` |
 | Save / load a scene, share a setup | `dancexr/features/save_scene.md`, `dancexr/features/scene_bundle.md` |
 | VR controllers, pointer, comfort, hand tracking, physical hands | `dancexr/vr_operations.md`, `dancexr/features/vr_settings.md` |
+| Hand grasp, holding objects, fingers wrap around shapes | `dancexr/releases/2026.7.md` |
+| Web version, running in a browser | `dancexr/releases/2026.7.md` |
 | Keyboard shortcuts, gamepad mapping, key bindings, controller calibration, grip threshold, analog stick | `dancexr/controls.md`, `dancexr/features/input_settings.md` |
 | Adult / NSFW / sex / lewd content | rows under *Adult Lane* (requires the corresponding tier/toggle) |
 | What changed in version YYYY.M | `dancexr/releases/YYYY.M.md` (e.g., `dancexr/releases/2026.5.md`) |
