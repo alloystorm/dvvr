@@ -10,7 +10,14 @@
       "Bash(for f:*)",
       "Bash(do)",
       "Bash(sed -i 's|\\(features/outfit\\\\.md\\)|\\(features/outfit\\)|g;:*)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(find \"/d/studio/Unity/DanceXRLW/Assets\" -iname \"*webgltemplate*\" -o -iname \"index.html\" 2>&1 | head -50)",
+      "Read(//d/studio/Unity/DanceXRLW/Assets/**)",
+      "Bash(find \"/d/studio/Unity/DanceXRLW/Assets/Plugins\" -maxdepth 3 -type d 2>&1 | head -50)",
+      "Read(//d/studio/Unity/DanceXRLW/Assets/Plugins/**)",
+      "Read(//d/studio/Unity/DanceXRLW/Assets/Plugins/WebGL/**)",
+      "Bash(grep -n -i \"webgl\\\\|template\\\\|defaultScreenWidth\\\\|defaultScreenHeight\" \"/d/studio/Unity/DanceXRLW/ProjectSettings/ProjectSettings.asset\" 2>&1 | head -60)",
+      "Read(//d/studio/Unity/DanceXRLW/ProjectSettings/**)"
     ]
   }
 }

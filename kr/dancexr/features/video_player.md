@@ -1,7 +1,6 @@
 ---
 layout: feature
 title: Video Player
-비디오 플레이어
 locale: ko-KR
 ---
 

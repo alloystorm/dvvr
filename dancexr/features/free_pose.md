@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: "Free Pose Motion"
+title: Free Pose Motion
 locale: en-US
 ---
 

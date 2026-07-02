@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: "Video Player"
+title: Video Player
 locale: en-US
 ---
 
