@@ -118,9 +118,15 @@ about:
 
 ---
 
-## Release Schedule
+<section class="section">
+<div class="section-wide" markdown="1">
+
+### Release Schedule
 
 We are running a monthly release schedule, with new versions being released on the first day of each month on Patreon first, then itch.io and Steam beta around the 15th and then by the end of the month to production channel.
 
-Mobile version (iOS/Android) might have bigger gaps between versions due to the platform review process and technical constraints. We will try to keep the mobile version as up-to-date as possible.
+Mobile versions (iOS/Android) don't have a fixed schedule and might have bigger gaps between versions due to the platform review process and technical constraints. We will try to keep the mobile version as up-to-date as possible.
+
+</div>
+</section>
 

@@ -109,13 +109,3 @@ about:
     url: /kr/dancexr/releases/
 
 ---
-
-<section class="section">
-<div class="section-inner">
-<div class="edition-card" markdown="1">
-
-{% include nav_list nav="releases" %}
-
-</div>
-</div>
-</section>

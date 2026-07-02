@@ -75,6 +75,7 @@
 
 <!-- ── Page content ────────────────────────────────────────── -->
 <main id="content">
+{{ content }}
 {% if page.feature_sections %}
 {% for section in page.feature_sections %}
 <section class="section{% if section.light %} section-light{% endif %}">
@@ -104,8 +105,6 @@
 </div>
 </section>
 {% endfor %}
-{% else %}
-  {{ content }}
 {% endif %}
 </main>
 
