@@ -18,7 +18,7 @@ support_sections:
           - question: Motion broken (Upper body not moving or twisted) when using T pose or custom rigging in motion settings. Or fingers motion not applied correctly.
             answer: |
               This is caused by a bug in motion smoothing system. Temerory workaround: disable motion smoothing in motion settings.
-      - title: 📌 Version 2026.5
+      - title: 📌 Version 2026.5 - 2026.6
         items:
           - question: Legs being pulled towards a fixed position for certain models and motions
             answer: |
