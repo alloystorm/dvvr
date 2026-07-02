@@ -19,33 +19,6 @@
       },
       "subsections": [
         {
-          "title": "📌 Version 2026.5",
-          "title_locales": {
-            "jp": "📌 バージョン 2026.5",
-            "zh": "📌 版本 2026.5",
-            "tw": "📌 版本 2026.5",
-            "kr": "📌 버전 2026.5"
-          },
-          "items": [
-            {
-              "question": "Legs being pulled towards a fixed position for certain models and motions",
-              "question_locales": {
-                "jp": "特定のモデルとモーションで脚が固定位置に向かって引かれている",
-                "zh": "在某些模型和动作中，腿部被拉向固定位置",
-                "tw": "在某些模型和動作中，腿部被拉向固定位置",
-                "kr": "특정 모델과 모션에서 다리가 고정 위치로 끌어당겨지는 현상"
-              },
-              "answer": "This is due to the model defined IK being active when there's no IK movement from the motion. Workaround: disable \"Model IK\" from the actor motion settings.",
-              "answer_locales": {
-                "jp": "これは、モーションからIKの動きがない場合にモデル定義のIKが有効になっているためです。回避策：アクターモーション設定から「モデルIK」を無効にしてください。",
-                "zh": "这是由于模型定义的 IK 在动作没有 IK 移动时处于激活状态。解决方法：在演员动作设置中禁用“模型 IK”。",
-                "tw": "這是由於模型定義的 IK 在動作沒有 IK 移動時處於啟用狀態。解決方法：在演員動作設定中停用「模型 IK」。",
-                "kr": "이는 모션에서 IK 움직임이 없을 때 모델 정의 IK가 활성화되어 있기 때문입니다. 해결 방법: 배우 모션 설정에서 '모델 IK'를 비활성화하십시오."
-              }
-            }
-          ]
-        },
-        {
           "title": "📌 Version 2026.6",
           "title_locales": {
             "jp": "📌 バージョン 2026.6",
@@ -68,6 +41,33 @@
                 "zh": "这是由动作平滑系统中的 bug 引起的。临时解决方法：在动作设置中禁用动作平滑。",
                 "tw": "這是由動作平滑系統中的 bug 引起的。臨時解決方法：在動作設定中停用動作平滑。",
                 "kr": "이는 모션 보정(smoothing) 시스템의 버그로 인해 발생합니다. 임시 해결 방법: 모션 설정에서 모션 보정을 비활성화하십시오."
+              }
+            }
+          ]
+        },
+        {
+          "title": "📌 Version 2026.5",
+          "title_locales": {
+            "jp": "📌 バージョン 2026.5",
+            "zh": "📌 版本 2026.5",
+            "tw": "📌 版本 2026.5",
+            "kr": "📌 버전 2026.5"
+          },
+          "items": [
+            {
+              "question": "Legs being pulled towards a fixed position for certain models and motions",
+              "question_locales": {
+                "jp": "特定のモデルとモーションで脚が固定位置に向かって引かれている",
+                "zh": "在某些模型和动作中，腿部被拉向固定位置",
+                "tw": "在某些模型和動作中，腿部被拉向固定位置",
+                "kr": "특정 모델과 모션에서 다리가 고정 위치로 끌어당겨지는 현상"
+              },
+              "answer": "This is due to the model defined IK being active when there's no IK movement from the motion. Workaround: disable \"Model IK\" from the actor motion settings.",
+              "answer_locales": {
+                "jp": "これは、モーションからIKの動きがない場合にモデル定義のIKが有効になっているためです。回避策：アクターモーション設定から「モデルIK」を無効にしてください。",
+                "zh": "这是由于模型定义的 IK 在动作没有 IK 移动时处于激活状态。解决方法：在演员动作设置中禁用“模型 IK”。",
+                "tw": "這是由於模型定義的 IK 在動作沒有 IK 移動時處於啟用狀態。解決方法：在演員動作設定中停用「模型 IK」。",
+                "kr": "이는 모션에서 IK 움직임이 없을 때 모델 정의 IK가 활성화되어 있기 때문입니다. 해결 방법: 배우 모션 설정에서 '모델 IK'를 비활성화하십시오."
               }
             }
           ]
