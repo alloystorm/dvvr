@@ -109,3 +109,15 @@ about:
     url: /tw/dancexr/releases/
 
 ---
+
+<section class="section">
+<div class="section-wide" markdown="1">
+
+### 發布計劃
+
+我們採用每月發布一次的模式，新版本將於每月1日首先在Patreon平台發布，隨後在15日左右登陸itch.io和Steam測試版，並在月底前正式上線。
+
+行動版本（iOS/Android）沒有固定的發布計劃，而且由於平台審核流程和技術限制，版本之間的間隔可能會更長。我們會盡力保持行動版本的更新。
+
+</div>
+</section>

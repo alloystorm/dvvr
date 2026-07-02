@@ -109,3 +109,15 @@ about:
     url: /kr/dancexr/releases/
 
 ---
+
+<section class="section">
+<div class="section-wide" markdown="1">
+
+### 출시 일정
+
+저희는 매달 새로운 버전을 출시하는 월간 출시 일정을 운영하고 있습니다. 매월 1일에 Patreon에서 먼저 새로운 버전이 공개되고, 15일경에는 itch.io와 Steam 베타 버전에, 그리고 월말에는 정식 채널에 출시됩니다.
+
+모바일 버전(iOS/Android)은 플랫폼 검토 과정 및 기술적 제약으로 인해 출시 일정이 정해져 있지 않아 버전 간 간격이 더 클 수 있습니다. 하지만 모바일 버전도 최대한 최신 상태로 유지하도록 노력하겠습니다.
+
+</div>
+</section>
