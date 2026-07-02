@@ -13,9 +13,14 @@ support_sections:
     label: Known Issues
     title: "Known Issues & Workarounds"
     subsections:
+      - title: 📌 Version 2026.5
+        items:
+          - question: Legs being pulled towards a fixed position for certain models and motions
+            answer: |
+              This is due to the model defined IK being active when there's no IK movement from the motion. Workaround: disable "Model IK" from the actor motion settings.
       - title: 📌 Version 2026.6
         items:
-          - question: Motion broken when using T pose or custom rigging in motion settings
+          - question: Motion broken (Upper body not moving or twisted) when using T pose or custom rigging in motion settings. Or fingers motion not applied correctly.
             answer: |
               This is caused by a bug in motion smoothing system. Temerory workaround: disable motion smoothing in motion settings.
   - id: faq

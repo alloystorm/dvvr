@@ -13,9 +13,14 @@ support_sections:
     label: 已知問題
     title: 已知問題與解決方法
     subsections:
+      - title: 📌 版本 2026.5
+        items:
+          - question: 在某些模型和動作中，腿部被拉向固定位置
+            answer: |
+              這是由於模型定義的 IK 在動作沒有 IK 移動時處於啟用狀態。解決方法：在演員動作設定中停用「模型 IK」。
       - title: 📌 版本 2026.6
         items:
-          - question: 在動作設定中使用 T 姿勢或自訂骨骼綁定時動作損壞
+          - question: 在動作設定中使用 T 姿勢或自訂骨架綁定時動作損壞（上半身不動或扭曲）。或者手指動作未正確應用。
             answer: |
               這是由動作平滑系統中的 bug 引起的。臨時解決方法：在動作設定中停用動作平滑。
   - id: faq
