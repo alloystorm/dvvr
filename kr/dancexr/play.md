@@ -16,7 +16,7 @@ hero_image: /images/hero.png
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  aspect-ratio: 960 / 600;
+  aspect-ratio: 960 / 620;
   background: #000;
   border-radius: var(--r);
   overflow: hidden;
@@ -127,33 +127,13 @@ WebGL로 실행되는 무료 **LW(경량)** 빌드입니다. 동일한 뷰어를
   var fsBtn  = document.getElementById('player-fs');
   var iframe = null;
 
-  // Injected into the (same-origin) Unity iframe so the canvas always fills the
-  // frame. This makes the embed responsive and lets fullscreen fill the screen.
-  var FILL_CSS =
-    'html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#000;}' +
-    '#unity-container,#unity-container.unity-desktop{position:absolute!important;' +
-    'left:0!important;top:0!important;width:100%!important;height:100%!important;transform:none!important;}' +
-    '#unity-canvas{width:100%!important;height:100%!important;}' +
-    '#unity-footer{display:none!important;}';
-
-  function injectFill() {
-    try {
-      var doc = iframe.contentDocument;
-      if (!doc) return;
-      var s = doc.createElement('style');
-      s.textContent = FILL_CSS;
-      (doc.head || doc.documentElement).appendChild(s);
-    } catch (e) {}
-  }
-
   launch.addEventListener('click', function () {
     iframe = document.createElement('iframe');
     iframe.id = 'player-iframe';
     iframe.title = 'DanceXR Web Player';
     iframe.allow = 'fullscreen; autoplay';
     iframe.setAttribute('allowfullscreen', '');
-    iframe.addEventListener('load', injectFill);
-    iframe.src = '/dancexr/web/index.html';
+    iframe.src = 'https://itch.io/embed-upload/18121997?color=4b4b4b';
     frame.appendChild(iframe);
     launch.remove();
     fsBtn.disabled = false;
@@ -162,7 +142,7 @@ WebGL로 실행되는 무료 **LW(경량)** 빌드입니다. 동일한 뷰어를
 
   fsBtn.addEventListener('click', function () {
     if (!iframe) return;
-    // Fullscreen the wrapper; the iframe + Unity canvas fill it (see FILL_CSS).
+    // Fullscreen the wrapper; the iframe (itch.io embed) fills it via CSS above.
     var req = frame.requestFullscreen || frame.webkitRequestFullscreen || frame.msRequestFullscreen;
     if (req) { req.call(frame); }
   });
