@@ -74,3 +74,21 @@ toward its rest shape, allowing soft local deformation and jiggle.
 **Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
 sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
 
+
+## Recommended Settings and Fine-Tuning Tips
+
+The physics configuration largely depends on the model's bone structure. There's no one-size-fits-all setting, but here are some recommended starting points:
+
+**Simple Model (1-2 breast bones):**
+Use suspension only. Use the default settings and test for bounce and sway. Adjust spring force to fine-tune the stiffness. 
+
+**Complex Model (many child control bones like DOA models):**
+For easy and quick setup, use suspension only. 
+
+For more realistic jiggle, use softbody without suspension. 
+
+Things to look out for:
+- Simulation largely depends on the frame rate. For best result use a fixed frame rate for consistency.
+- Higher FPS will result in more stiffness, so use lower step counts in system physics settings if you prefer higher FPS but still want the soft feel.
+- You can drop stiffness to very low and then turn on distance constraints to help it maintain shape while preserving the soft feel. 
+- Configuration can be very different for different models, so you may need to experiment with the settings to get the desired effect.
