@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: 影片播放器
+title: # 影片播放器
 locale: zh-TW
 ---
 
@@ -24,4 +24,4 @@ locale: zh-TW
 
 ## 預設值
 
-**Projector Scene Example** 和 **LED Screen Example** 分別套用為投影螢幕和 LED 牆外觀優化的預先配置的地板和照明設定。
+**投影螢幕範例** (Projector Scene Example) 和 **LED 牆範例** (LED Screen Example) 分別套用為優化投影螢幕外觀和 LED 牆外觀的預先配置的地板和照明設定。

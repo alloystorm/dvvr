@@ -174,7 +174,7 @@ def translate_local(text, target_language, model="gemma4:e4b", existing_translat
     headers = {
         "Content-Type": "application/json"
     }
-
+    print(model)
     with open("script/translate_page_prompt.txt", 'r', encoding='utf-8') as f:
         system_message = f.read()
 
@@ -202,8 +202,12 @@ def translate_local(text, target_language, model="gemma4:e4b", existing_translat
         "stream": False
     }
     response = requests.post(url, json=data, headers=headers)
-    print(response)
-    translated_text = response.json()['message']['content'].strip()
+    response_json = response.json()
+    
+    if 'error' in response_json:
+        raise RuntimeError(f"Ollama API Error: {response_json['error']}")
+        
+    translated_text = response_json['message']['content'].strip()
     
     # Strip <think> or <thinking> traces
     thinking_match = re.search(r'<(thinking|think)>(.*?)</\1>', translated_text, flags=re.DOTALL)

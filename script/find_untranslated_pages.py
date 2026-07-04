@@ -4,13 +4,36 @@ import re
 import argparse
 import json
 
+_all_commit_dates = None
+
+def load_all_commit_dates():
+    global _all_commit_dates
+    _all_commit_dates = {}
+    cmd = ["git", "log", "--name-only", "--pretty=format:commit:%ci"]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        return
+    
+    current_date = ""
+    for line in result.stdout.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        if line.startswith("commit:"):
+            current_date = line[len("commit:"):]
+        else:
+            # git paths are forward slash, normalize
+            if line not in _all_commit_dates:
+                _all_commit_dates[line] = current_date
+
 def get_latest_commit_info(file_path):
     """Get the latest commit date for a given file."""
-    cmd = f"git log -1 --pretty=format:%ci -- {file_path}"
-    result = subprocess.run(cmd.split(), capture_output=True, text=True)
-    if result.returncode == 0:
-        return result.stdout.strip()
-    return ""
+    global _all_commit_dates
+    if _all_commit_dates is None:
+        load_all_commit_dates()
+    
+    normalized_path = file_path.replace("\\", "/")
+    return _all_commit_dates.get(normalized_path, "")
 
 def is_translation_excluded(file_path):
     """Return True if the file's front matter contains 'translate: false'."""
