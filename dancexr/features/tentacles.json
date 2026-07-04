@@ -65,7 +65,7 @@
       "type": "group",
       "label": "Spawn",
       "labels": {
-        "ja": "スポーン",
+        "ja": "スパウンス",
         "zh-TW": "生成",
         "ko": "생성",
         "zh-CN": "生成"
@@ -775,9 +775,9 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "周囲光",
+                "ja": "環境光",
                 "zh-TW": "環境光",
-                "ko": "주변광",
+                "ko": "주변광(Ambient)",
                 "zh-CN": "环境光"
               },
               "default": 1,
@@ -933,7 +933,7 @@
           "type": "float",
           "label": "Metallic",
           "labels": {
-            "ja": "メタリック",
+            "ja": "メタリック度",
             "zh-TW": "金屬感",
             "ko": "금속성",
             "zh-CN": "金属度"
@@ -1845,9 +1845,9 @@
           "type": "float",
           "label": "Friction",
           "labels": {
-            "ja": "摩擦",
+            "ja": "摩擦力",
             "zh-TW": "摩擦力",
-            "ko": "마찰",
+            "ko": "마찰력",
             "zh-CN": "摩擦力"
           },
           "default": 1,
@@ -1867,9 +1867,9 @@
           "type": "float",
           "label": "Drag (Air)",
           "labels": {
-            "ja": "抵抗（空気）",
-            "zh-TW": "阻力（空氣）",
-            "ko": "항력 (공기)",
+            "ja": "空気抵抗",
+            "zh-TW": "空氣阻力",
+            "ko": "공기 항력",
             "zh-CN": "阻力（空气）"
           },
           "default": 1,
@@ -1879,7 +1879,7 @@
           "description": "Air resistancy",
           "descriptions": {
             "ja": "空気抵抗",
-            "zh-TW": "空氣阻力",
+            "zh-TW": "空氣阻抗",
             "ko": "공기 저항",
             "zh-CN": "空气阻力"
           }
@@ -1889,9 +1889,9 @@
           "type": "float",
           "label": "Drag (Underwater)",
           "labels": {
-            "ja": "抵抗（水中）",
-            "zh-TW": "阻力（水下）",
-            "ko": "항력 (수중)",
+            "ja": "水中抵抗",
+            "zh-TW": "水下阻力",
+            "ko": "수중 항력",
             "zh-CN": "阻力（水下）"
           },
           "default": 1,
@@ -1900,8 +1900,8 @@
           "options": null,
           "description": "Underwater resistancy",
           "descriptions": {
-            "ja": "水抵抗",
-            "zh-TW": "水下阻力",
+            "ja": "水中抵抗",
+            "zh-TW": "水下阻抗",
             "ko": "수중 저항",
             "zh-CN": "水下阻力"
           }
@@ -1934,7 +1934,7 @@
           "label": "Wind",
           "labels": {
             "ja": "風",
-            "zh-TW": "風",
+            "zh-TW": "風力",
             "ko": "바람",
             "zh-CN": "风力"
           },
@@ -1955,8 +1955,8 @@
               "type": "float",
               "label": "Wind Influence",
               "labels": {
-                "ja": "風の影響度",
-                "zh-TW": "風影響力",
+                "ja": "風の影響力",
+                "zh-TW": "風力影響",
                 "ko": "바람 영향력",
                 "zh-CN": "风力影响"
               },
@@ -1977,7 +1977,7 @@
               "type": "float",
               "label": "Turbulence Scale",
               "labels": {
-                "ja": "乱流スケール",
+                "ja": "乱気流スケール",
                 "zh-TW": "湍流尺度",
                 "ko": "난류 스케일",
                 "zh-CN": "湍流尺度"
@@ -1999,7 +1999,7 @@
               "type": "float",
               "label": "Turbulence Intensity",
               "labels": {
-                "ja": "乱流強度",
+                "ja": "乱気流強度",
                 "zh-TW": "湍流強度",
                 "ko": "난류 강도",
                 "zh-CN": "湍流强度"
@@ -2021,7 +2021,7 @@
               "type": "float",
               "label": "Turbulence Time Scale",
               "labels": {
-                "ja": "乱流タイムスケール",
+                "ja": "乱気流時間スケール",
                 "zh-TW": "湍流時間尺度",
                 "ko": "난류 시간 스케일",
                 "zh-CN": "湍流时间尺度"

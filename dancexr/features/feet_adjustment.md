@@ -13,7 +13,8 @@ realistic placement and movement.
 
 The **Feet On Floor** panel keeps the feet on the ground:
 **Strength** (overall amount, 0 disables), **Sole Height**
-(toe-to-ground gap), **Jump Height** (airborne threshold that
+(toe-to-ground gap), **Toe Tip** (forward offset of the toe
+contact toward the toe tip), **Jump Height** (airborne threshold that
 suspends correction), **Body Smooth** and **Foot Smooth**
 (response smoothing for the body and per-foot adjustments),
 **Max Foot Tilt** (how far a foot may tilt to set a contact on

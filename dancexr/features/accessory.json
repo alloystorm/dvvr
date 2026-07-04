@@ -627,7 +627,7 @@
               "type": "float",
               "label": "Metallic",
               "labels": {
-                "ja": "メタリック",
+                "ja": "メタリック度",
                 "zh-TW": "金屬感",
                 "ko": "금속성",
                 "zh-CN": "金属度"
@@ -693,9 +693,9 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "周囲光",
+                "ja": "環境光",
                 "zh-TW": "環境光",
-                "ko": "주변광",
+                "ko": "주변광(Ambient)",
                 "zh-CN": "环境光"
               },
               "default": 1,
@@ -1179,9 +1179,9 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "周囲光",
+                    "ja": "環境光",
                     "zh-TW": "環境光",
-                    "ko": "주변광",
+                    "ko": "주변광(Ambient)",
                     "zh-CN": "环境光"
                   },
                   "default": 0.75,
@@ -2637,7 +2637,7 @@
               "type": "float",
               "label": "Metallic",
               "labels": {
-                "ja": "メタリック",
+                "ja": "メタリック度",
                 "zh-TW": "金屬感",
                 "ko": "금속성",
                 "zh-CN": "金属度"
@@ -2703,9 +2703,9 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "周囲光",
+                "ja": "環境光",
                 "zh-TW": "環境光",
-                "ko": "주변광",
+                "ko": "주변광(Ambient)",
                 "zh-CN": "环境光"
               },
               "default": 1,
@@ -3189,9 +3189,9 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "周囲光",
+                    "ja": "環境光",
                     "zh-TW": "環境光",
-                    "ko": "주변광",
+                    "ko": "주변광(Ambient)",
                     "zh-CN": "环境光"
                   },
                   "default": 0.75,
@@ -4669,7 +4669,7 @@
               "type": "float",
               "label": "Metallic",
               "labels": {
-                "ja": "メタリック",
+                "ja": "メタリック度",
                 "zh-TW": "金屬感",
                 "ko": "금속성",
                 "zh-CN": "金属度"
@@ -4735,9 +4735,9 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "周囲光",
+                "ja": "環境光",
                 "zh-TW": "環境光",
-                "ko": "주변광",
+                "ko": "주변광(Ambient)",
                 "zh-CN": "环境光"
               },
               "default": 1,
@@ -5221,9 +5221,9 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "周囲光",
+                    "ja": "環境光",
                     "zh-TW": "環境光",
-                    "ko": "주변광",
+                    "ko": "주변광(Ambient)",
                     "zh-CN": "环境光"
                   },
                   "default": 0.75,
@@ -6679,7 +6679,7 @@
               "type": "float",
               "label": "Metallic",
               "labels": {
-                "ja": "メタリック",
+                "ja": "メタリック度",
                 "zh-TW": "金屬感",
                 "ko": "금속성",
                 "zh-CN": "金属度"
@@ -6745,9 +6745,9 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "周囲光",
+                "ja": "環境光",
                 "zh-TW": "環境光",
-                "ko": "주변광",
+                "ko": "주변광(Ambient)",
                 "zh-CN": "环境光"
               },
               "default": 1,
@@ -7231,9 +7231,9 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "周囲光",
+                    "ja": "環境光",
                     "zh-TW": "環境光",
-                    "ko": "주변광",
+                    "ko": "주변광(Ambient)",
                     "zh-CN": "环境光"
                   },
                   "default": 0.75,
@@ -8689,7 +8689,7 @@
               "type": "float",
               "label": "Metallic",
               "labels": {
-                "ja": "メタリック",
+                "ja": "メタリック度",
                 "zh-TW": "金屬感",
                 "ko": "금속성",
                 "zh-CN": "金属度"
@@ -8755,9 +8755,9 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "周囲光",
+                "ja": "環境光",
                 "zh-TW": "環境光",
-                "ko": "주변광",
+                "ko": "주변광(Ambient)",
                 "zh-CN": "环境光"
               },
               "default": 1,
@@ -9241,9 +9241,9 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "周囲光",
+                    "ja": "環境光",
                     "zh-TW": "環境光",
-                    "ko": "주변광",
+                    "ko": "주변광(Ambient)",
                     "zh-CN": "环境光"
                   },
                   "default": 0.75,
@@ -10699,7 +10699,7 @@
               "type": "float",
               "label": "Metallic",
               "labels": {
-                "ja": "メタリック",
+                "ja": "メタリック度",
                 "zh-TW": "金屬感",
                 "ko": "금속성",
                 "zh-CN": "金属度"
@@ -10765,9 +10765,9 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "周囲光",
+                "ja": "環境光",
                 "zh-TW": "環境光",
-                "ko": "주변광",
+                "ko": "주변광(Ambient)",
                 "zh-CN": "环境光"
               },
               "default": 1,
@@ -11251,9 +11251,9 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "周囲光",
+                    "ja": "環境光",
                     "zh-TW": "環境光",
-                    "ko": "주변광",
+                    "ko": "주변광(Ambient)",
                     "zh-CN": "环境光"
                   },
                   "default": 0.75,
@@ -12731,7 +12731,7 @@
               "type": "float",
               "label": "Metallic",
               "labels": {
-                "ja": "メタリック",
+                "ja": "メタリック度",
                 "zh-TW": "金屬感",
                 "ko": "금속성",
                 "zh-CN": "金属度"
@@ -12797,9 +12797,9 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "周囲光",
+                "ja": "環境光",
                 "zh-TW": "環境光",
-                "ko": "주변광",
+                "ko": "주변광(Ambient)",
                 "zh-CN": "环境光"
               },
               "default": 1,
@@ -13283,9 +13283,9 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "周囲光",
+                    "ja": "環境光",
                     "zh-TW": "環境光",
-                    "ko": "주변광",
+                    "ko": "주변광(Ambient)",
                     "zh-CN": "环境光"
                   },
                   "default": 0.75,

@@ -21,7 +21,7 @@
       "type": "options",
       "label": "Anti-Aliasing",
       "labels": {
-        "ja": "アンチエイリアシング",
+        "ja": "アンチエイリアス",
         "zh-TW": "抗鋸齒",
         "ko": "안티 에일리어싱",
         "zh-CN": "抗锯齿"
@@ -208,7 +208,7 @@
           "options": null,
           "description": "Fallback to sky color when raytracing has no hit.",
           "descriptions": {
-            "ja": "レイマーチングでヒットがない場合の空色へのフォールバック。",
+            "ja": "レイトレーシングでヒットがない場合の空色へのフォールバック。",
             "zh-TW": "當光線追蹤沒有命中時，回退到天空顏色。",
             "ko": "레이트레이싱에서 히트가 없을 때 하늘색으로 폴백.",
             "zh-CN": "光线追踪没有命中时，默认使用天空颜色。"
@@ -265,7 +265,7 @@
           "type": "bool",
           "label": "Volumetric Fog",
           "labels": {
-            "ja": "ボリューム霧",
+            "ja": "ボリュームフォグ",
             "zh-TW": "體積霧",
             "ko": "볼류메트릭 포그",
             "zh-CN": "体积雾"
@@ -739,7 +739,7 @@
           "type": "bool",
           "label": "Disable in VR",
           "labels": {
-            "ja": "VRでの無効化",
+            "ja": "VRでは無効",
             "zh-TW": "禁用於 VR",
             "ko": "VR에서 사용 안 함",
             "zh-CN": "VR禁用"
@@ -805,7 +805,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -871,7 +871,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -1150,7 +1150,7 @@
           "options": null,
           "description": "Enable color adjustment.",
           "descriptions": {
-            "ja": "色調整を有効にします。",
+            "ja": "カラー調整を有効にします。",
             "zh-TW": "啟用顏色調整。",
             "ko": "색상 조정을 활성화합니다.",
             "zh-CN": "启用色彩调整。"
@@ -1161,7 +1161,7 @@
           "type": "int",
           "label": "Post Exposure",
           "labels": {
-            "ja": "ポスト露出",
+            "ja": "後処理露出",
             "zh-TW": "後期曝光",
             "ko": "노출 후처리",
             "zh-CN": "后期曝光"
@@ -1271,7 +1271,7 @@
               "type": "int",
               "label": "Color Mode",
               "labels": {
-                "ja": "色モード",
+                "ja": "カラーモード",
                 "zh-TW": "色彩模式",
                 "ko": "색상 모드",
                 "zh-CN": "颜色模式"
@@ -1337,7 +1337,7 @@
               "type": "float",
               "label": "Brightness",
               "labels": {
-                "ja": "明度",
+                "ja": "輝度",
                 "zh-TW": "亮度",
                 "ko": "밝기",
                 "zh-CN": "亮度"
@@ -1671,7 +1671,7 @@
           "type": "float",
           "label": "Outline Thickness",
           "labels": {
-            "ja": "アウトライン太さ",
+            "ja": "アウトラインの太さ",
             "zh-TW": "輪廓厚度",
             "ko": "윤곽선 두께",
             "zh-CN": "轮廓线粗细"
@@ -1693,7 +1693,7 @@
           "type": "float",
           "label": "Outline Intensity",
           "labels": {
-            "ja": "アウトライン強度",
+            "ja": "アウトラインの強度",
             "zh-TW": "輪廓強度",
             "ko": "윤곽선 강도",
             "zh-CN": "轮廓线强度"
@@ -1715,7 +1715,7 @@
           "type": "int",
           "label": "Quantize Illumination",
           "labels": {
-            "ja": "照明量子化",
+            "ja": "照明の量子化",
             "zh-TW": "量化照明",
             "ko": "밝기 양자화",
             "zh-CN": "量化光照"
@@ -1737,7 +1737,7 @@
           "type": "int",
           "label": "Quantize Color",
           "labels": {
-            "ja": "色量子化",
+            "ja": "色の量子化",
             "zh-TW": "量化顏色",
             "ko": "색상 양자화",
             "zh-CN": "量化颜色"
@@ -1781,7 +1781,7 @@
           "type": "float",
           "label": "Halftone Size",
           "labels": {
-            "ja": "ハーフトーンサイズ",
+            "ja": "ハーフトンサイズ",
             "zh-TW": "半色調大小",
             "ko": "하프톤 크기",
             "zh-CN": "半色调大小"
@@ -1792,7 +1792,7 @@
           "options": null,
           "description": "Halftone size",
           "descriptions": {
-            "ja": "ハーフトーンサイズ",
+            "ja": "ハーフトンサイズ",
             "zh-TW": "半色調大小",
             "ko": "하프톤 크기",
             "zh-CN": "半色调大小"
@@ -1803,7 +1803,7 @@
           "type": "float",
           "label": "Halftone Strength",
           "labels": {
-            "ja": "ハーフトーン強度",
+            "ja": "ハーフトンの強度",
             "zh-TW": "半色調強度",
             "ko": "하프톤 강도",
             "zh-CN": "半色调强度"
@@ -1814,7 +1814,7 @@
           "options": null,
           "description": "Halftone strength",
           "descriptions": {
-            "ja": "ハーフトーン強度",
+            "ja": "ハーフトンの強度",
             "zh-TW": "半色調強度",
             "ko": "하프톤 강도",
             "zh-CN": "半色调强度"
@@ -1849,7 +1849,7 @@
           "type": "bool",
           "label": "Transparent Prepass",
           "labels": {
-            "ja": "透明度事前パス",
+            "ja": "透明度プリパス",
             "zh-TW": "透明預渲染",
             "ko": "투명 사전 패스",
             "zh-CN": "透明度预处理"
@@ -1860,7 +1860,7 @@
           "options": null,
           "description": "Enable transparent prepass. This will make obscured transparent materials invisible.",
           "descriptions": {
-            "ja": "透明度事前パスを有効にします。これにより、遮られた透明な素材が見えなくなります。",
+            "ja": "透明度プリパスを有効にします。これにより、隠された透過素材が不可視になります。",
             "zh-TW": "啟用透明預渲染。這會使被遮擋的透明材質不可見。",
             "ko": "투명 사전 패스를 활성화합니다. 이로 인해 가려진 투명 재료가 보이지 않게 됩니다.",
             "zh-CN": "启用透明预处理。这将使被遮挡的透明材料不可见。"
@@ -1871,7 +1871,7 @@
           "type": "bool",
           "label": "Screen Space Shadows",
           "labels": {
-            "ja": "スクリーン空間影",
+            "ja": "スクリーン空間シャドウ",
             "zh-TW": "螢幕空間陰影",
             "ko": "화면 공간 그림자",
             "zh-CN": "屏幕空间阴影"
@@ -1893,7 +1893,7 @@
           "type": "bool",
           "label": "Contact Shadow",
           "labels": {
-            "ja": "コンタクトシャドウ",
+            "ja": "接触シャドウ",
             "zh-TW": "接觸陰影",
             "ko": "접촉 그림자",
             "zh-CN": "接触阴影"
@@ -1904,7 +1904,7 @@
           "options": null,
           "description": "Shadow for small details.",
           "descriptions": {
-            "ja": "細部への影を追加します。",
+            "ja": "小さなディテール用のシャドウ。",
             "zh-TW": "為小細節添加陰影。",
             "ko": "작은 디테일에 대한 그림자.",
             "zh-CN": "用于小细节的阴影。"
@@ -1915,7 +1915,7 @@
           "type": "float",
           "label": "Bump Map Shadow",
           "labels": {
-            "ja": "バンプマップ影",
+            "ja": "バンプマップシャドウ",
             "zh-TW": "凹凸貼圖陰影",
             "ko": "범프 맵 그림자",
             "zh-CN": "法线贴图阴影"
@@ -1926,7 +1926,7 @@
           "options": null,
           "description": "Enable shadows for bump map and detail map.",
           "descriptions": {
-            "ja": "バンプマップおよびディテールマップの影を有効にします。",
+            "ja": "バンプマップとディテールマップのシャドウを有効にします。",
             "zh-TW": "啟用凹凸貼圖和細節貼圖的陰影。",
             "ko": "범프 맵 및 디테일 맵에 대한 그림자 활성화.",
             "zh-CN": "启用法线贴图和细节贴图的阴影。"
@@ -1937,7 +1937,7 @@
           "type": "bool",
           "label": "Stop NaN",
           "labels": {
-            "ja": "NaN停止",
+            "ja": "NaNエラー停止",
             "zh-TW": "停止 NaN",
             "ko": "NaN 중지",
             "zh-CN": "防止NaN"
@@ -1959,7 +1959,7 @@
           "type": "bool",
           "label": "Compute Thickness",
           "labels": {
-            "ja": "厚さの計算",
+            "ja": "厚み計算",
             "zh-TW": "計算厚度",
             "ko": "두께 계산",
             "zh-CN": "计算厚度"
@@ -1970,7 +1970,7 @@
           "options": null,
           "description": "Calculate thickness that can be used in skin effect.",
           "descriptions": {
-            "ja": "スキンエフェクトに使用できる厚さを計算します。",
+            "ja": "スキンエフェクトに使用できる厚みを計算します。",
             "zh-TW": "計算用於皮膚效果的厚度。",
             "ko": "피부 효과에 사용될 수 있는 두께를 계산합니다.",
             "zh-CN": "计算可用于皮肤效果的厚度。"
@@ -2014,7 +2014,7 @@
           "options": null,
           "description": "Use toon shading for stages and props.",
           "descriptions": {
-            "ja": "ステージと小道具にトゥーンシェーディングを使用します。",
+            "ja": "ステージとプロップスにトゥーンシェーディングを使用します。",
             "zh-TW": "對舞台和道具使用卡通陰影。",
             "ko": "스테이지 및 소품에 카툰 음영 처리 사용.",
             "zh-CN": "为场景和道具使用卡通着色。"
@@ -2025,7 +2025,7 @@
           "type": "bool",
           "label": "Dithering Transparency",
           "labels": {
-            "ja": "ディザリング透過度",
+            "ja": "ディザリング透明度",
             "zh-TW": "抖動透明度",
             "ko": "디더링 투명도",
             "zh-CN": "抖动透明度"

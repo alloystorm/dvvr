@@ -1,12 +1,12 @@
 {
-  "name": "Free Pose Motion",
+  "name": "./motion/proc/free_pose",
   "docPath": "features/free_pose",
-  "label": "Free Pose Motion",
+  "label": "./motion/proc/free_pose",
   "labels": {
-    "ja": "(Free Pose Motion)",
-    "zh-TW": "(Free Pose Motion)",
-    "ko": "(Free Pose Motion)",
-    "zh-CN": "(Free Pose Motion)"
+    "ja": "(./motion/proc/free_pose)",
+    "zh-TW": "(./motion/proc/free_pose)",
+    "ko": "(./motion/proc/free_pose)",
+    "zh-CN": "(./motion/proc/free_pose)"
   },
   "description": "Free Pose turns the actor into a self-balancing puppet you pose\r\nby hand. Nothing is animating — the balance solver owns the whole\r\npose. Grab any limb, the torso, or the head and drag it; the\r\nsolver keeps the character balanced over its feet while standing,\r\nor over a locked seat while sitting. Pins are remembered, so a\r\nreleased limb stays where you leave it.\r\n\r\n\r\n## Posing & Pinning\r\n\r\nDrag a hand/arm or foot/leg to move that limb; the grab rides the\r\npointer ray at a fixed depth, so moving the camera (or scrolling)\r\nsweeps it nearer and farther. The target is clamped to the limb's\r\nnatural reach, so it can't collapse into the joint or lock dead\r\nstraight. Hands stay put where you release them. Feet use\r\n*dwell-to-pin*: hold the drag still until the marker tints green to\r\nlock the foot in the air, or release while it is still red to let\r\nthe leg drop and settle to the floor. The **Reset** action drops\r\nevery pin and returns the actor to a neutral stand.\r\n\r\n\r\n## Weight Shift & Sway\r\n\r\n**Shift Smoothing** is the time the body takes to transfer weight\r\nfrom one foot to the other — larger feels slower and heavier.\r\n**Sway Amplitude** adds a small idle quiet-stance drift so a\r\nstanding pose doesn't look frozen; set it to *0* for a dead-still\r\nhold.\r\n\r\n\r\n## Support & Solver\r\n\r\n**Support Radius** is a slack disk around the weighted stance: COM\r\nexcursion inside it counts as balanced and draws no hip correction,\r\nso a larger radius gives a looser, lazier-looking balance.\r\n**Solve Iterations** is how many passes the pose solver runs each\r\nframe — raise it for tighter limbs at a small cost, lower it to\r\nsave time.\r\n\r\n\r\n## Leg Springs\r\n\r\nThe body is a single mass at the pelvis, held up by each grounded\r\nleg acting as a spring; the knee bend, the catch on landing, and\r\nthe standing wobble all emerge from these. **Sim Gravity** is the\r\ndownward pull that compresses the legs. **Leg Stiffness** sets how\r\nfirmly a leg resists that compression (softer legs sink into a\r\ndeeper crouch), and **Leg Damping** is the landing give that keeps\r\na planted foot from bouncing.\r\n\r\n\r\n## Stance Control\r\n\r\n**Stance Stiffness** and **Stance Damping** are the horizontal\r\ncontroller that holds the pelvis over the base of support —\r\nstiffer reacts faster but can feel rigid, more damping keeps quiet\r\nstance from jittering. **Relax Rate** is how quickly a released leg\r\neases back toward its resting pose.\r\n\r\n\r\n## Sitting\r\n\r\nDrag the torso (waist) and hold still to lock it as a seat: the\r\nbody then rests on it like a stool, and both feet are free to lift\r\nand dangle without bearing weight. A quick drag-and-release of the\r\ntorso, or **Reset**, stands back up. Because a seated pelvis can't\r\nslide to chase balance the way a standing one does, balance is kept\r\nby *tilting the upper body* opposite the legs. **Seat Radius** is\r\nthe support disk around the seat inside which no tilt is applied.\r\n**Seat Lean Gain** sets how hard the upper body leans to counter a\r\nleg that's been moved, and **Seat Lean Max** caps that angle — turn\r\nthe gain up for a stronger, more visible counterbalance, down if it\r\novershoots. **Seat Stiffness** and **Seat Damping** tune the spring\r\nthat settles the pelvis onto the seat after you release the drag.",
   "descriptions": {
@@ -21,10 +21,10 @@
       "type": "float",
       "label": "Shift Smoothing",
       "labels": {
-        "ja": "シフトスムージング",
-        "zh-TW": "位移平滑",
-        "ko": "이동 평활화",
-        "zh-CN": "位移平滑"
+        "ja": "シフト平滑化",
+        "zh-TW": "偏移平滑",
+        "ko": "시프트 스무딩",
+        "zh-CN": "平移平滑度"
       },
       "default": 0.25,
       "min": 0.05,
@@ -65,9 +65,9 @@
       "type": "int",
       "label": "Solve Iterations",
       "labels": {
-        "ja": "ソルブイテレーション",
-        "zh-TW": "求解迭代次數",
-        "ko": "솔버 반복 횟수",
+        "ja": "解算イテレーション",
+        "zh-TW": "解算迭代次數",
+        "ko": "해결 반복 횟수",
         "zh-CN": "求解迭代次数"
       },
       "default": 5,
@@ -88,7 +88,7 @@
       "label": "Sway Amplitude",
       "labels": {
         "ja": "揺れ振幅",
-        "zh-TW": "搖擺幅度",
+        "zh-TW": "晃動振幅",
         "ko": "흔들림 진폭",
         "zh-CN": "摇摆幅度"
       },
@@ -111,7 +111,7 @@
       "labels": {
         "ja": "シミュレーション重力",
         "zh-TW": "模擬重力",
-        "ko": "시뮬레이션 중력",
+        "ko": "심 그래비티",
         "zh-CN": "模拟重力"
       },
       "default": 5,
@@ -132,9 +132,9 @@
       "label": "Leg Stiffness",
       "labels": {
         "ja": "脚の剛性",
-        "zh-TW": "腿部剛度",
+        "zh-TW": "腿部剛性",
         "ko": "다리 강성",
-        "zh-CN": "腿部刚度"
+        "zh-CN": "腿部硬度"
       },
       "default": 1.5,
       "min": 0,
@@ -175,10 +175,10 @@
       "type": "float",
       "label": "Stance Stiffness",
       "labels": {
-        "ja": "スタンスの剛性",
-        "zh-TW": "站姿剛度",
+        "ja": "立位剛性",
+        "zh-TW": "站姿剛性",
         "ko": "스탠스 강성",
-        "zh-CN": "站姿刚度"
+        "zh-CN": "站姿硬度"
       },
       "default": 1,
       "min": 0,
@@ -197,9 +197,9 @@
       "type": "float",
       "label": "Stance Damping",
       "labels": {
-        "ja": "スタンスの減衰",
+        "ja": "立位減衰",
         "zh-TW": "站姿阻尼",
-        "ko": "스탠스 댐핑",
+        "ko": "스탠스 감쇠",
         "zh-CN": "站姿阻尼"
       },
       "default": 0.7,
@@ -219,9 +219,9 @@
       "type": "float",
       "label": "Relax Rate",
       "labels": {
-        "ja": "リラックス率",
-        "zh-TW": "鬆弛率",
-        "ko": "릴랙스 속도",
+        "ja": "リラックスレート",
+        "zh-TW": "弛緩率",
+        "ko": "이완율",
         "zh-CN": "松弛率"
       },
       "default": 5,
@@ -237,14 +237,36 @@
       }
     },
     {
+      "name": "Hand Grasp",
+      "type": "bool",
+      "label": "Hand Grasp",
+      "labels": {
+        "ja": "手のグリップ",
+        "zh-TW": "手部抓握",
+        "ko": "손 파지",
+        "zh-CN": "手部抓取"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
       "name": "Seat Radius",
       "type": "float",
       "label": "Seat Radius",
       "labels": {
-        "ja": "(Seat Radius)",
-        "zh-TW": "(Seat Radius)",
-        "ko": "(Seat Radius)",
-        "zh-CN": "(Seat Radius)"
+        "ja": "座席半径",
+        "zh-TW": "座椅半徑",
+        "ko": "좌석 반경",
+        "zh-CN": "座位半径"
       },
       "default": 0.04,
       "min": 0,
@@ -263,10 +285,10 @@
       "type": "float",
       "label": "Seat Lean Gain",
       "labels": {
-        "ja": "(Seat Lean Gain)",
-        "zh-TW": "(Seat Lean Gain)",
-        "ko": "(Seat Lean Gain)",
-        "zh-CN": "(Seat Lean Gain)"
+        "ja": "シートリーンゲイン",
+        "zh-TW": "座椅傾斜增益",
+        "ko": "앉은 자세 기울기 이득",
+        "zh-CN": "座位倾斜增益"
       },
       "default": 800,
       "min": 0,
@@ -285,10 +307,10 @@
       "type": "float",
       "label": "Seat Lean Max",
       "labels": {
-        "ja": "(Seat Lean Max)",
-        "zh-TW": "(Seat Lean Max)",
-        "ko": "(Seat Lean Max)",
-        "zh-CN": "(Seat Lean Max)"
+        "ja": "シートリーン最大値",
+        "zh-TW": "最大傾斜角度",
+        "ko": "최대 앉은 자세 기울임",
+        "zh-CN": "最大座位倾斜度"
       },
       "default": 45,
       "min": 0,
@@ -307,10 +329,10 @@
       "type": "float",
       "label": "Seat Stiffness",
       "labels": {
-        "ja": "(Seat Stiffness)",
-        "zh-TW": "(Seat Stiffness)",
-        "ko": "(Seat Stiffness)",
-        "zh-CN": "(Seat Stiffness)"
+        "ja": "座席剛性",
+        "zh-TW": "座椅剛性",
+        "ko": "좌석 강성",
+        "zh-CN": "座位硬度"
       },
       "default": 1.5,
       "min": 0,
@@ -329,10 +351,10 @@
       "type": "float",
       "label": "Seat Damping",
       "labels": {
-        "ja": "(Seat Damping)",
-        "zh-TW": "(Seat Damping)",
-        "ko": "(Seat Damping)",
-        "zh-CN": "(Seat Damping)"
+        "ja": "座席減衰",
+        "zh-TW": "座椅阻尼",
+        "ko": "좌석 감쇠",
+        "zh-CN": "座位阻尼"
       },
       "default": 8,
       "min": 0,
@@ -352,7 +374,7 @@
       "label": "Debug Log",
       "labels": {
         "ja": "デバッグログ",
-        "zh-TW": "調試日誌",
+        "zh-TW": "除錯日誌",
         "ko": "디버그 로그",
         "zh-CN": "调试日志"
       },
@@ -374,8 +396,8 @@
       "label": "Debug Draw",
       "labels": {
         "ja": "デバッグ描画",
-        "zh-TW": "調試繪製",
-        "ko": "디버그 드로우",
+        "zh-TW": "除錯繪製",
+        "ko": "디버그 드로잉",
         "zh-CN": "调试绘制"
       },
       "default": "false",

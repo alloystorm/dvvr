@@ -311,7 +311,7 @@
           "labels": {
             "ja": "スムージング",
             "zh-TW": "平滑度",
-            "ko": "스무딩",
+            "ko": "스무딩 (Smoothing)",
             "zh-CN": "平滑度"
           },
           "default": 0.1,
@@ -489,7 +489,7 @@
           "labels": {
             "ja": "スムージング",
             "zh-TW": "平滑度",
-            "ko": "스무딩",
+            "ko": "스무딩 (Smoothing)",
             "zh-CN": "平滑度"
           },
           "default": 0.1,
@@ -667,7 +667,7 @@
           "labels": {
             "ja": "スムージング",
             "zh-TW": "平滑度",
-            "ko": "스무딩",
+            "ko": "스무딩 (Smoothing)",
             "zh-CN": "平滑度"
           },
           "default": 0.1,
@@ -845,7 +845,7 @@
           "labels": {
             "ja": "スムージング",
             "zh-TW": "平滑度",
-            "ko": "스무딩",
+            "ko": "스무딩 (Smoothing)",
             "zh-CN": "平滑度"
           },
           "default": 0.1,
@@ -1001,7 +1001,7 @@
           "labels": {
             "ja": "スムージング",
             "zh-TW": "平滑度",
-            "ko": "스무딩",
+            "ko": "스무딩 (Smoothing)",
             "zh-CN": "平滑度"
           },
           "default": 0.1,
@@ -1157,7 +1157,7 @@
           "labels": {
             "ja": "スムージング",
             "zh-TW": "平滑度",
-            "ko": "스무딩",
+            "ko": "스무딩 (Smoothing)",
             "zh-CN": "平滑度"
           },
           "default": 0.1,
@@ -1335,7 +1335,7 @@
           "labels": {
             "ja": "スムージング",
             "zh-TW": "平滑度",
-            "ko": "스무딩",
+            "ko": "스무딩 (Smoothing)",
             "zh-CN": "平滑度"
           },
           "default": 0.1,
@@ -1513,7 +1513,7 @@
           "labels": {
             "ja": "スムージング",
             "zh-TW": "平滑度",
-            "ko": "스무딩",
+            "ko": "스무딩 (Smoothing)",
             "zh-CN": "平滑度"
           },
           "default": 0.1,

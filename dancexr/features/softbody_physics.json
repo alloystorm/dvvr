@@ -45,7 +45,7 @@
           "labels": {
             "ja": "選択ボーン",
             "zh-TW": "選擇骨骼",
-            "ko": "선택 본",
+            "ko": "본 선택",
             "zh-CN": "选择骨骼"
           },
           "default": 0,
@@ -269,7 +269,7 @@
               "labels": {
                 "ja": "ばね力",
                 "zh-TW": "彈簧力",
-                "ko": "용수철 힘",
+                "ko": "스프링 힘",
                 "zh-CN": "弹簧力"
               },
               "default": 1.5,
@@ -489,12 +489,12 @@
                   "labels": {
                     "ja": "ばね力",
                     "zh-TW": "彈簧力",
-                    "ko": "용수철 힘",
+                    "ko": "스프링 힘",
                     "zh-CN": "弹簧力"
                   },
                   "default": 1.25,
                   "min": 0,
-                  "max": 10,
+                  "max": 5,
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
@@ -514,7 +514,7 @@
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
                   },
-                  "default": 1,
+                  "default": 0.25,
                   "min": 0,
                   "max": 1,
                   "options": null,
@@ -722,12 +722,12 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.",
+          "description": "Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).",
           "descriptions": {
-            "ja": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-TW": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "ko": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-CN": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)"
+            "ja": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-TW": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "ko": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-CN": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)"
           },
           "values": [
             {
@@ -757,7 +757,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジの奥行き",
+                "ja": "エッジデプス",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -766,166 +766,100 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
+              "description": "Reduces the depth of anchors on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
-                "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
-                "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
-                "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
+                "ja": "形状をボーンに近づけるため、エッジ上のアンカーの深さを減少させる。",
+                "zh-TW": "減少邊緣錨點的深度，使形狀更貼近骨骼。",
+                "ko": "형태를 본에 가깝게 만들기 위해 엣지상의 앵커 깊이를 줄입니다.",
+                "zh-CN": "减少边缘锚点的深度，使形状更接近骨骼。"
               }
             },
             {
-              "name": "Layers",
-              "type": "int",
-              "label": "Layers",
+              "name": "Stiffness",
+              "type": "float",
+              "label": "Stiffness",
               "labels": {
-                "ja": "レイヤー",
-                "zh-TW": "層級",
-                "ko": "레이어",
-                "zh-CN": "层级"
+                "ja": "剛性",
+                "zh-TW": "剛度",
+                "ko": "강성",
+                "zh-CN": "刚度"
               },
-              "default": 2,
+              "default": -3.5,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Per-iteration pull toward the matched rest shape. Higher is stiffer.",
+              "descriptions": {
+                "ja": "マッチしたレストシェイプに向かう反復ごとの引き寄せ力。数値が高いほど硬い。",
+                "zh-TW": "每迭代拉向匹配的原始形狀。數值越高，越硬挺。",
+                "ko": "일반화된 휴식 형태 방향으로의 반복별 당김. 높을수록 더 강합니다.",
+                "zh-CN": "每迭代次数向匹配的初始形状拉动。值越高，刚度越强。"
+              }
+            },
+            {
+              "name": "Base Stiffness",
+              "type": "float",
+              "label": "Base Stiffness",
+              "labels": {
+                "ja": "ベース剛性",
+                "zh-TW": "基礎剛度",
+                "ko": "기본 강성",
+                "zh-CN": "基础刚度"
+              },
+              "default": -3,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Stiffness for base clusters.",
+              "descriptions": {
+                "ja": "ベースクラスターの剛性",
+                "zh-TW": "基礎集群的剛度。",
+                "ko": "기본 클러스터에 대한 강성.",
+                "zh-CN": "用于基础簇的刚度。"
+              }
+            },
+            {
+              "name": "Orientation Tracking",
+              "type": "float",
+              "label": "Orientation Tracking",
+              "labels": {
+                "ja": "オリエンテーショントラッキング",
+                "zh-TW": "方向追蹤",
+                "ko": "방향 추적",
+                "zh-CN": "方向跟踪"
+              },
+              "default": 20,
               "min": 1,
-              "max": 5,
+              "max": 100,
               "options": null,
-              "description": null,
+              "description": "How strongly the shape re-orients with the body. Higher tracks the bone rotation faster (anchor weight in the shape fit).",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "形状がボディとどれだけ強く向きを変えるか。値が大きいほどボーンの回転を速く追跡する（シェイプフィットにおけるアンカーウェイト）。",
+                "zh-TW": "形狀與身體重新定向的強度。數值越高，能更快跟上骨骼旋轉（形體擬合中的錨點權重）。",
+                "ko": "형태가 신체와 얼마나 강력하게 재배열되는지. 높을수록 본 회전을 더 빠르게 추적합니다 (형태 적합도에서의 앵커 가중치).",
+                "zh-CN": "形状与身体同步改变的强度。值越高，能更快地跟踪骨骼旋转（形状拟合中的锚点权重）。"
               }
             },
             {
-              "name": "Depth Distribution",
+              "name": "Distance Constraint",
               "type": "float",
-              "label": "Depth Distribution",
+              "label": "Distance Constraint",
               "labels": {
-                "ja": "奥行き分布",
-                "zh-TW": "深度分佈",
-                "ko": "깊이 분포",
-                "zh-CN": "深度分布"
+                "ja": "距離制約",
+                "zh-TW": "距離約束",
+                "ko": "거리 제약 조건",
+                "zh-CN": "距离约束"
               },
-              "default": 0,
-              "min": -1,
-              "max": 1,
+              "default": 0.5,
+              "min": 0.25,
+              "max": 0.75,
               "options": null,
-              "description": "Controls how depth is distributed across layers.",
+              "description": "Optional distance constraints between particles, so a weak stiffness can be used without everything sagging. Higher = stiffer edges.",
               "descriptions": {
-                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
-                "zh-TW": "控制深度在各層次的分配方式。",
-                "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
-                "zh-CN": "控制深度如何在层级间分布。"
-              }
-            },
-            {
-              "name": "Subdivision",
-              "type": "int",
-              "label": "Subdivision",
-              "labels": {
-                "ja": "サブディビジョン",
-                "zh-TW": "細分",
-                "ko": "세분화",
-                "zh-CN": "细分"
-              },
-              "default": 0,
-              "min": 0,
-              "max": 3,
-              "options": null,
-              "description": "Number of subdivisions for each prism between layers.",
-              "descriptions": {
-                "ja": "レイヤー間の各プリズムのサブディビジョン数",
-                "zh-TW": "各層次之間每個稜柱的細分數量。",
-                "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
-                "zh-CN": "层级间每个棱柱的细分数量。"
-              }
-            },
-            {
-              "name": "Volume Constraint",
-              "type": "float",
-              "label": "Volume Constraint",
-              "labels": {
-                "ja": "体積制約",
-                "zh-TW": "體積約束",
-                "ko": "볼륨 제약",
-                "zh-CN": "体积约束"
-              },
-              "default": 0.75,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Edge Constraint",
-              "type": "float",
-              "label": "Edge Constraint",
-              "labels": {
-                "ja": "エッジ制約",
-                "zh-TW": "邊緣約束",
-                "ko": "엣지 제약",
-                "zh-CN": "边缘约束"
-              },
-              "default": 0.95,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Rotation Constraint",
-              "type": "float",
-              "label": "Rotation Constraint",
-              "labels": {
-                "ja": "回転制約",
-                "zh-TW": "旋轉約束",
-                "ko": "회전 제약",
-                "zh-CN": "旋转约束"
-              },
-              "default": 1,
-              "min": 0,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Constraint Damping",
-              "type": "float",
-              "label": "Constraint Damping",
-              "labels": {
-                "ja": "制約減衰",
-                "zh-TW": "限制阻尼",
-                "ko": "제약 감쇠",
-                "zh-CN": "约束阻尼"
-              },
-              "default": 0.2,
-              "min": 0,
-              "max": 2,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "パーティクル間にオプションで設けられる距離制約。これを使うことで、全てがたるむことなく弱い剛性を使用できる。値が高いほどエッジは硬くなる。",
+                "zh-TW": "可選的粒子間距離約束，這樣即使使用較低的剛度，物體也不會下垂。數值越高 = 邊緣越硬挺。",
+                "ko": "입자 간 선택적 거리 제약 조건을 설정하여 모든 것이 늘어지지 않도록 약한 강성을 사용할 수 있습니다. 높을수록 더 단단한 엣지입니다.",
+                "zh-CN": "粒子之间的可选距离约束，这样即使刚度较低也不会所有部分垂弛。值越高，边缘越硬。"
               }
             },
             {
@@ -988,10 +922,10 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "ミリメートル単位のパーティクルサイズ",
+                "ja": "パーティクルのサイズ（mm）",
                 "zh-TW": "粒子尺寸（毫米）",
-                "ko": "입자 크기 (밀리미터)",
-                "zh-CN": "粒子尺寸（毫米）"
+                "ko": "밀리미터 단위의 입자 크기",
+                "zh-CN": "毫米中粒子大小"
               }
             },
             {
@@ -1021,9 +955,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 0,
@@ -1043,19 +977,19 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "抵抗（空気）",
-                "zh-TW": "阻力（空氣）",
-                "ko": "항력 (공기)",
+                "ja": "空気抵抗",
+                "zh-TW": "空氣阻力",
+                "ko": "공기 항력",
                 "zh-CN": "阻力（空气）"
               },
-              "default": 0,
+              "default": 0.3,
               "min": 0,
               "max": 2,
               "options": null,
               "description": "Air resistancy",
               "descriptions": {
                 "ja": "空気抵抗",
-                "zh-TW": "空氣阻力",
+                "zh-TW": "空氣阻抗",
                 "ko": "공기 저항",
                 "zh-CN": "空气阻力"
               }
@@ -1065,9 +999,9 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "抵抗（水中）",
-                "zh-TW": "阻力（水下）",
-                "ko": "항력 (수중)",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻力",
+                "ko": "수중 항력",
                 "zh-CN": "阻力（水下）"
               },
               "default": 1,
@@ -1076,8 +1010,8 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水抵抗",
-                "zh-TW": "水下阻力",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻抗",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
               }
@@ -1110,7 +1044,7 @@
               "label": "Wind",
               "labels": {
                 "ja": "風",
-                "zh-TW": "風",
+                "zh-TW": "風力",
                 "ko": "바람",
                 "zh-CN": "风力"
               },
@@ -1131,8 +1065,8 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響度",
-                    "zh-TW": "風影響力",
+                    "ja": "風の影響力",
+                    "zh-TW": "風力影響",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
                   },
@@ -1153,7 +1087,7 @@
                   "type": "float",
                   "label": "Turbulence Scale",
                   "labels": {
-                    "ja": "乱流スケール",
+                    "ja": "乱気流スケール",
                     "zh-TW": "湍流尺度",
                     "ko": "난류 스케일",
                     "zh-CN": "湍流尺度"
@@ -1175,7 +1109,7 @@
                   "type": "float",
                   "label": "Turbulence Intensity",
                   "labels": {
-                    "ja": "乱流強度",
+                    "ja": "乱気流強度",
                     "zh-TW": "湍流強度",
                     "ko": "난류 강도",
                     "zh-CN": "湍流强度"
@@ -1197,7 +1131,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流タイムスケール",
+                    "ja": "乱気流時間スケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -1691,7 +1625,7 @@
           "labels": {
             "ja": "選択ボーン",
             "zh-TW": "選擇骨骼",
-            "ko": "선택 본",
+            "ko": "본 선택",
             "zh-CN": "选择骨骼"
           },
           "default": 0,
@@ -1915,7 +1849,7 @@
               "labels": {
                 "ja": "ばね力",
                 "zh-TW": "彈簧力",
-                "ko": "용수철 힘",
+                "ko": "스프링 힘",
                 "zh-CN": "弹簧力"
               },
               "default": 1.5,
@@ -2135,12 +2069,12 @@
                   "labels": {
                     "ja": "ばね力",
                     "zh-TW": "彈簧力",
-                    "ko": "용수철 힘",
+                    "ko": "스프링 힘",
                     "zh-CN": "弹簧力"
                   },
                   "default": 1.25,
                   "min": 0,
-                  "max": 10,
+                  "max": 5,
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
@@ -2160,7 +2094,7 @@
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
                   },
-                  "default": 1,
+                  "default": 0.25,
                   "min": 0,
                   "max": 1,
                   "options": null,
@@ -2390,12 +2324,12 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.",
+          "description": "Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).",
           "descriptions": {
-            "ja": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-TW": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "ko": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-CN": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)"
+            "ja": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-TW": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "ko": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-CN": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)"
           },
           "values": [
             {
@@ -2425,7 +2359,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジの奥行き",
+                "ja": "エッジデプス",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -2434,166 +2368,100 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
+              "description": "Reduces the depth of anchors on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
-                "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
-                "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
-                "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
+                "ja": "形状をボーンに近づけるため、エッジ上のアンカーの深さを減少させる。",
+                "zh-TW": "減少邊緣錨點的深度，使形狀更貼近骨骼。",
+                "ko": "형태를 본에 가깝게 만들기 위해 엣지상의 앵커 깊이를 줄입니다.",
+                "zh-CN": "减少边缘锚点的深度，使形状更接近骨骼。"
               }
             },
             {
-              "name": "Layers",
-              "type": "int",
-              "label": "Layers",
+              "name": "Stiffness",
+              "type": "float",
+              "label": "Stiffness",
               "labels": {
-                "ja": "レイヤー",
-                "zh-TW": "層級",
-                "ko": "레이어",
-                "zh-CN": "层级"
+                "ja": "剛性",
+                "zh-TW": "剛度",
+                "ko": "강성",
+                "zh-CN": "刚度"
               },
-              "default": 2,
+              "default": -3.5,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Per-iteration pull toward the matched rest shape. Higher is stiffer.",
+              "descriptions": {
+                "ja": "マッチしたレストシェイプに向かう反復ごとの引き寄せ力。数値が高いほど硬い。",
+                "zh-TW": "每迭代拉向匹配的原始形狀。數值越高，越硬挺。",
+                "ko": "일반화된 휴식 형태 방향으로의 반복별 당김. 높을수록 더 강합니다.",
+                "zh-CN": "每迭代次数向匹配的初始形状拉动。值越高，刚度越强。"
+              }
+            },
+            {
+              "name": "Base Stiffness",
+              "type": "float",
+              "label": "Base Stiffness",
+              "labels": {
+                "ja": "ベース剛性",
+                "zh-TW": "基礎剛度",
+                "ko": "기본 강성",
+                "zh-CN": "基础刚度"
+              },
+              "default": -3,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Stiffness for base clusters.",
+              "descriptions": {
+                "ja": "ベースクラスターの剛性",
+                "zh-TW": "基礎集群的剛度。",
+                "ko": "기본 클러스터에 대한 강성.",
+                "zh-CN": "用于基础簇的刚度。"
+              }
+            },
+            {
+              "name": "Orientation Tracking",
+              "type": "float",
+              "label": "Orientation Tracking",
+              "labels": {
+                "ja": "オリエンテーショントラッキング",
+                "zh-TW": "方向追蹤",
+                "ko": "방향 추적",
+                "zh-CN": "方向跟踪"
+              },
+              "default": 20,
               "min": 1,
-              "max": 5,
+              "max": 100,
               "options": null,
-              "description": null,
+              "description": "How strongly the shape re-orients with the body. Higher tracks the bone rotation faster (anchor weight in the shape fit).",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "形状がボディとどれだけ強く向きを変えるか。値が大きいほどボーンの回転を速く追跡する（シェイプフィットにおけるアンカーウェイト）。",
+                "zh-TW": "形狀與身體重新定向的強度。數值越高，能更快跟上骨骼旋轉（形體擬合中的錨點權重）。",
+                "ko": "형태가 신체와 얼마나 강력하게 재배열되는지. 높을수록 본 회전을 더 빠르게 추적합니다 (형태 적합도에서의 앵커 가중치).",
+                "zh-CN": "形状与身体同步改变的强度。值越高，能更快地跟踪骨骼旋转（形状拟合中的锚点权重）。"
               }
             },
             {
-              "name": "Depth Distribution",
+              "name": "Distance Constraint",
               "type": "float",
-              "label": "Depth Distribution",
+              "label": "Distance Constraint",
               "labels": {
-                "ja": "奥行き分布",
-                "zh-TW": "深度分佈",
-                "ko": "깊이 분포",
-                "zh-CN": "深度分布"
+                "ja": "距離制約",
+                "zh-TW": "距離約束",
+                "ko": "거리 제약 조건",
+                "zh-CN": "距离约束"
               },
-              "default": 0,
-              "min": -1,
-              "max": 1,
+              "default": 0.5,
+              "min": 0.25,
+              "max": 0.75,
               "options": null,
-              "description": "Controls how depth is distributed across layers.",
+              "description": "Optional distance constraints between particles, so a weak stiffness can be used without everything sagging. Higher = stiffer edges.",
               "descriptions": {
-                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
-                "zh-TW": "控制深度在各層次的分配方式。",
-                "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
-                "zh-CN": "控制深度如何在层级间分布。"
-              }
-            },
-            {
-              "name": "Subdivision",
-              "type": "int",
-              "label": "Subdivision",
-              "labels": {
-                "ja": "サブディビジョン",
-                "zh-TW": "細分",
-                "ko": "세분화",
-                "zh-CN": "细分"
-              },
-              "default": 0,
-              "min": 0,
-              "max": 3,
-              "options": null,
-              "description": "Number of subdivisions for each prism between layers.",
-              "descriptions": {
-                "ja": "レイヤー間の各プリズムのサブディビジョン数",
-                "zh-TW": "各層次之間每個稜柱的細分數量。",
-                "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
-                "zh-CN": "层级间每个棱柱的细分数量。"
-              }
-            },
-            {
-              "name": "Volume Constraint",
-              "type": "float",
-              "label": "Volume Constraint",
-              "labels": {
-                "ja": "体積制約",
-                "zh-TW": "體積約束",
-                "ko": "볼륨 제약",
-                "zh-CN": "体积约束"
-              },
-              "default": 0.75,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Edge Constraint",
-              "type": "float",
-              "label": "Edge Constraint",
-              "labels": {
-                "ja": "エッジ制約",
-                "zh-TW": "邊緣約束",
-                "ko": "엣지 제약",
-                "zh-CN": "边缘约束"
-              },
-              "default": 0.95,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Rotation Constraint",
-              "type": "float",
-              "label": "Rotation Constraint",
-              "labels": {
-                "ja": "回転制約",
-                "zh-TW": "旋轉約束",
-                "ko": "회전 제약",
-                "zh-CN": "旋转约束"
-              },
-              "default": 1,
-              "min": 0,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Constraint Damping",
-              "type": "float",
-              "label": "Constraint Damping",
-              "labels": {
-                "ja": "制約減衰",
-                "zh-TW": "限制阻尼",
-                "ko": "제약 감쇠",
-                "zh-CN": "约束阻尼"
-              },
-              "default": 0.2,
-              "min": 0,
-              "max": 2,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "パーティクル間にオプションで設けられる距離制約。これを使うことで、全てがたるむことなく弱い剛性を使用できる。値が高いほどエッジは硬くなる。",
+                "zh-TW": "可選的粒子間距離約束，這樣即使使用較低的剛度，物體也不會下垂。數值越高 = 邊緣越硬挺。",
+                "ko": "입자 간 선택적 거리 제약 조건을 설정하여 모든 것이 늘어지지 않도록 약한 강성을 사용할 수 있습니다. 높을수록 더 단단한 엣지입니다.",
+                "zh-CN": "粒子之间的可选距离约束，这样即使刚度较低也不会所有部分垂弛。值越高，边缘越硬。"
               }
             },
             {
@@ -2656,10 +2524,10 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "ミリメートル単位のパーティクルサイズ",
+                "ja": "パーティクルのサイズ（mm）",
                 "zh-TW": "粒子尺寸（毫米）",
-                "ko": "입자 크기 (밀리미터)",
-                "zh-CN": "粒子尺寸（毫米）"
+                "ko": "밀리미터 단위의 입자 크기",
+                "zh-CN": "毫米中粒子大小"
               }
             },
             {
@@ -2689,9 +2557,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 0,
@@ -2711,19 +2579,19 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "抵抗（空気）",
-                "zh-TW": "阻力（空氣）",
-                "ko": "항력 (공기)",
+                "ja": "空気抵抗",
+                "zh-TW": "空氣阻力",
+                "ko": "공기 항력",
                 "zh-CN": "阻力（空气）"
               },
-              "default": 0,
+              "default": 0.3,
               "min": 0,
               "max": 2,
               "options": null,
               "description": "Air resistancy",
               "descriptions": {
                 "ja": "空気抵抗",
-                "zh-TW": "空氣阻力",
+                "zh-TW": "空氣阻抗",
                 "ko": "공기 저항",
                 "zh-CN": "空气阻力"
               }
@@ -2733,9 +2601,9 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "抵抗（水中）",
-                "zh-TW": "阻力（水下）",
-                "ko": "항력 (수중)",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻力",
+                "ko": "수중 항력",
                 "zh-CN": "阻力（水下）"
               },
               "default": 1,
@@ -2744,8 +2612,8 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水抵抗",
-                "zh-TW": "水下阻力",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻抗",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
               }
@@ -2778,7 +2646,7 @@
               "label": "Wind",
               "labels": {
                 "ja": "風",
-                "zh-TW": "風",
+                "zh-TW": "風力",
                 "ko": "바람",
                 "zh-CN": "风力"
               },
@@ -2799,8 +2667,8 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響度",
-                    "zh-TW": "風影響力",
+                    "ja": "風の影響力",
+                    "zh-TW": "風力影響",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
                   },
@@ -2821,7 +2689,7 @@
                   "type": "float",
                   "label": "Turbulence Scale",
                   "labels": {
-                    "ja": "乱流スケール",
+                    "ja": "乱気流スケール",
                     "zh-TW": "湍流尺度",
                     "ko": "난류 스케일",
                     "zh-CN": "湍流尺度"
@@ -2843,7 +2711,7 @@
                   "type": "float",
                   "label": "Turbulence Intensity",
                   "labels": {
-                    "ja": "乱流強度",
+                    "ja": "乱気流強度",
                     "zh-TW": "湍流強度",
                     "ko": "난류 강도",
                     "zh-CN": "湍流强度"
@@ -2865,7 +2733,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流タイムスケール",
+                    "ja": "乱気流時間スケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -3337,7 +3205,7 @@
           "labels": {
             "ja": "選択ボーン",
             "zh-TW": "選擇骨骼",
-            "ko": "선택 본",
+            "ko": "본 선택",
             "zh-CN": "选择骨骼"
           },
           "default": 0,
@@ -3561,7 +3429,7 @@
               "labels": {
                 "ja": "ばね力",
                 "zh-TW": "彈簧力",
-                "ko": "용수철 힘",
+                "ko": "스프링 힘",
                 "zh-CN": "弹簧力"
               },
               "default": 1.5,
@@ -3781,12 +3649,12 @@
                   "labels": {
                     "ja": "ばね力",
                     "zh-TW": "彈簧力",
-                    "ko": "용수철 힘",
+                    "ko": "스프링 힘",
                     "zh-CN": "弹簧力"
                   },
                   "default": 1.25,
                   "min": 0,
-                  "max": 10,
+                  "max": 5,
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
@@ -3806,7 +3674,7 @@
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
                   },
-                  "default": 1,
+                  "default": 0.25,
                   "min": 0,
                   "max": 1,
                   "options": null,
@@ -4036,12 +3904,12 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.",
+          "description": "Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).",
           "descriptions": {
-            "ja": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-TW": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "ko": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-CN": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)"
+            "ja": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-TW": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "ko": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-CN": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)"
           },
           "values": [
             {
@@ -4071,7 +3939,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジの奥行き",
+                "ja": "エッジデプス",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -4080,166 +3948,100 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
+              "description": "Reduces the depth of anchors on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
-                "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
-                "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
-                "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
+                "ja": "形状をボーンに近づけるため、エッジ上のアンカーの深さを減少させる。",
+                "zh-TW": "減少邊緣錨點的深度，使形狀更貼近骨骼。",
+                "ko": "형태를 본에 가깝게 만들기 위해 엣지상의 앵커 깊이를 줄입니다.",
+                "zh-CN": "减少边缘锚点的深度，使形状更接近骨骼。"
               }
             },
             {
-              "name": "Layers",
-              "type": "int",
-              "label": "Layers",
+              "name": "Stiffness",
+              "type": "float",
+              "label": "Stiffness",
               "labels": {
-                "ja": "レイヤー",
-                "zh-TW": "層級",
-                "ko": "레이어",
-                "zh-CN": "层级"
+                "ja": "剛性",
+                "zh-TW": "剛度",
+                "ko": "강성",
+                "zh-CN": "刚度"
               },
-              "default": 2,
+              "default": -3.5,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Per-iteration pull toward the matched rest shape. Higher is stiffer.",
+              "descriptions": {
+                "ja": "マッチしたレストシェイプに向かう反復ごとの引き寄せ力。数値が高いほど硬い。",
+                "zh-TW": "每迭代拉向匹配的原始形狀。數值越高，越硬挺。",
+                "ko": "일반화된 휴식 형태 방향으로의 반복별 당김. 높을수록 더 강합니다.",
+                "zh-CN": "每迭代次数向匹配的初始形状拉动。值越高，刚度越强。"
+              }
+            },
+            {
+              "name": "Base Stiffness",
+              "type": "float",
+              "label": "Base Stiffness",
+              "labels": {
+                "ja": "ベース剛性",
+                "zh-TW": "基礎剛度",
+                "ko": "기본 강성",
+                "zh-CN": "基础刚度"
+              },
+              "default": -3,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Stiffness for base clusters.",
+              "descriptions": {
+                "ja": "ベースクラスターの剛性",
+                "zh-TW": "基礎集群的剛度。",
+                "ko": "기본 클러스터에 대한 강성.",
+                "zh-CN": "用于基础簇的刚度。"
+              }
+            },
+            {
+              "name": "Orientation Tracking",
+              "type": "float",
+              "label": "Orientation Tracking",
+              "labels": {
+                "ja": "オリエンテーショントラッキング",
+                "zh-TW": "方向追蹤",
+                "ko": "방향 추적",
+                "zh-CN": "方向跟踪"
+              },
+              "default": 20,
               "min": 1,
-              "max": 5,
+              "max": 100,
               "options": null,
-              "description": null,
+              "description": "How strongly the shape re-orients with the body. Higher tracks the bone rotation faster (anchor weight in the shape fit).",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "形状がボディとどれだけ強く向きを変えるか。値が大きいほどボーンの回転を速く追跡する（シェイプフィットにおけるアンカーウェイト）。",
+                "zh-TW": "形狀與身體重新定向的強度。數值越高，能更快跟上骨骼旋轉（形體擬合中的錨點權重）。",
+                "ko": "형태가 신체와 얼마나 강력하게 재배열되는지. 높을수록 본 회전을 더 빠르게 추적합니다 (형태 적합도에서의 앵커 가중치).",
+                "zh-CN": "形状与身体同步改变的强度。值越高，能更快地跟踪骨骼旋转（形状拟合中的锚点权重）。"
               }
             },
             {
-              "name": "Depth Distribution",
+              "name": "Distance Constraint",
               "type": "float",
-              "label": "Depth Distribution",
+              "label": "Distance Constraint",
               "labels": {
-                "ja": "奥行き分布",
-                "zh-TW": "深度分佈",
-                "ko": "깊이 분포",
-                "zh-CN": "深度分布"
+                "ja": "距離制約",
+                "zh-TW": "距離約束",
+                "ko": "거리 제약 조건",
+                "zh-CN": "距离约束"
               },
-              "default": 0,
-              "min": -1,
-              "max": 1,
+              "default": 0.5,
+              "min": 0.25,
+              "max": 0.75,
               "options": null,
-              "description": "Controls how depth is distributed across layers.",
+              "description": "Optional distance constraints between particles, so a weak stiffness can be used without everything sagging. Higher = stiffer edges.",
               "descriptions": {
-                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
-                "zh-TW": "控制深度在各層次的分配方式。",
-                "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
-                "zh-CN": "控制深度如何在层级间分布。"
-              }
-            },
-            {
-              "name": "Subdivision",
-              "type": "int",
-              "label": "Subdivision",
-              "labels": {
-                "ja": "サブディビジョン",
-                "zh-TW": "細分",
-                "ko": "세분화",
-                "zh-CN": "细分"
-              },
-              "default": 0,
-              "min": 0,
-              "max": 3,
-              "options": null,
-              "description": "Number of subdivisions for each prism between layers.",
-              "descriptions": {
-                "ja": "レイヤー間の各プリズムのサブディビジョン数",
-                "zh-TW": "各層次之間每個稜柱的細分數量。",
-                "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
-                "zh-CN": "层级间每个棱柱的细分数量。"
-              }
-            },
-            {
-              "name": "Volume Constraint",
-              "type": "float",
-              "label": "Volume Constraint",
-              "labels": {
-                "ja": "体積制約",
-                "zh-TW": "體積約束",
-                "ko": "볼륨 제약",
-                "zh-CN": "体积约束"
-              },
-              "default": 0.75,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Edge Constraint",
-              "type": "float",
-              "label": "Edge Constraint",
-              "labels": {
-                "ja": "エッジ制約",
-                "zh-TW": "邊緣約束",
-                "ko": "엣지 제약",
-                "zh-CN": "边缘约束"
-              },
-              "default": 0.95,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Rotation Constraint",
-              "type": "float",
-              "label": "Rotation Constraint",
-              "labels": {
-                "ja": "回転制約",
-                "zh-TW": "旋轉約束",
-                "ko": "회전 제약",
-                "zh-CN": "旋转约束"
-              },
-              "default": 1,
-              "min": 0,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Constraint Damping",
-              "type": "float",
-              "label": "Constraint Damping",
-              "labels": {
-                "ja": "制約減衰",
-                "zh-TW": "限制阻尼",
-                "ko": "제약 감쇠",
-                "zh-CN": "约束阻尼"
-              },
-              "default": 0.2,
-              "min": 0,
-              "max": 2,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "パーティクル間にオプションで設けられる距離制約。これを使うことで、全てがたるむことなく弱い剛性を使用できる。値が高いほどエッジは硬くなる。",
+                "zh-TW": "可選的粒子間距離約束，這樣即使使用較低的剛度，物體也不會下垂。數值越高 = 邊緣越硬挺。",
+                "ko": "입자 간 선택적 거리 제약 조건을 설정하여 모든 것이 늘어지지 않도록 약한 강성을 사용할 수 있습니다. 높을수록 더 단단한 엣지입니다.",
+                "zh-CN": "粒子之间的可选距离约束，这样即使刚度较低也不会所有部分垂弛。值越高，边缘越硬。"
               }
             },
             {
@@ -4302,10 +4104,10 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "ミリメートル単位のパーティクルサイズ",
+                "ja": "パーティクルのサイズ（mm）",
                 "zh-TW": "粒子尺寸（毫米）",
-                "ko": "입자 크기 (밀리미터)",
-                "zh-CN": "粒子尺寸（毫米）"
+                "ko": "밀리미터 단위의 입자 크기",
+                "zh-CN": "毫米中粒子大小"
               }
             },
             {
@@ -4335,9 +4137,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 0,
@@ -4357,19 +4159,19 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "抵抗（空気）",
-                "zh-TW": "阻力（空氣）",
-                "ko": "항력 (공기)",
+                "ja": "空気抵抗",
+                "zh-TW": "空氣阻力",
+                "ko": "공기 항력",
                 "zh-CN": "阻力（空气）"
               },
-              "default": 0,
+              "default": 0.3,
               "min": 0,
               "max": 2,
               "options": null,
               "description": "Air resistancy",
               "descriptions": {
                 "ja": "空気抵抗",
-                "zh-TW": "空氣阻力",
+                "zh-TW": "空氣阻抗",
                 "ko": "공기 저항",
                 "zh-CN": "空气阻力"
               }
@@ -4379,9 +4181,9 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "抵抗（水中）",
-                "zh-TW": "阻力（水下）",
-                "ko": "항력 (수중)",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻力",
+                "ko": "수중 항력",
                 "zh-CN": "阻力（水下）"
               },
               "default": 1,
@@ -4390,8 +4192,8 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水抵抗",
-                "zh-TW": "水下阻力",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻抗",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
               }
@@ -4424,7 +4226,7 @@
               "label": "Wind",
               "labels": {
                 "ja": "風",
-                "zh-TW": "風",
+                "zh-TW": "風力",
                 "ko": "바람",
                 "zh-CN": "风力"
               },
@@ -4445,8 +4247,8 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響度",
-                    "zh-TW": "風影響力",
+                    "ja": "風の影響力",
+                    "zh-TW": "風力影響",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
                   },
@@ -4467,7 +4269,7 @@
                   "type": "float",
                   "label": "Turbulence Scale",
                   "labels": {
-                    "ja": "乱流スケール",
+                    "ja": "乱気流スケール",
                     "zh-TW": "湍流尺度",
                     "ko": "난류 스케일",
                     "zh-CN": "湍流尺度"
@@ -4489,7 +4291,7 @@
                   "type": "float",
                   "label": "Turbulence Intensity",
                   "labels": {
-                    "ja": "乱流強度",
+                    "ja": "乱気流強度",
                     "zh-TW": "湍流強度",
                     "ko": "난류 강도",
                     "zh-CN": "湍流强度"
@@ -4511,7 +4313,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流タイムスケール",
+                    "ja": "乱気流時間スケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -4983,7 +4785,7 @@
           "labels": {
             "ja": "選択ボーン",
             "zh-TW": "選擇骨骼",
-            "ko": "선택 본",
+            "ko": "본 선택",
             "zh-CN": "选择骨骼"
           },
           "default": 0,
@@ -5207,7 +5009,7 @@
               "labels": {
                 "ja": "ばね力",
                 "zh-TW": "彈簧力",
-                "ko": "용수철 힘",
+                "ko": "스프링 힘",
                 "zh-CN": "弹簧力"
               },
               "default": 1.5,
@@ -5427,12 +5229,12 @@
                   "labels": {
                     "ja": "ばね力",
                     "zh-TW": "彈簧力",
-                    "ko": "용수철 힘",
+                    "ko": "스프링 힘",
                     "zh-CN": "弹簧力"
                   },
                   "default": 1.25,
                   "min": 0,
-                  "max": 10,
+                  "max": 5,
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
@@ -5452,7 +5254,7 @@
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
                   },
-                  "default": 1,
+                  "default": 0.25,
                   "min": 0,
                   "max": 1,
                   "options": null,
@@ -5682,12 +5484,12 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.",
+          "description": "Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).",
           "descriptions": {
-            "ja": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-TW": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "ko": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-CN": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)"
+            "ja": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-TW": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "ko": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-CN": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)"
           },
           "values": [
             {
@@ -5717,7 +5519,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジの奥行き",
+                "ja": "エッジデプス",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -5726,166 +5528,100 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
+              "description": "Reduces the depth of anchors on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
-                "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
-                "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
-                "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
+                "ja": "形状をボーンに近づけるため、エッジ上のアンカーの深さを減少させる。",
+                "zh-TW": "減少邊緣錨點的深度，使形狀更貼近骨骼。",
+                "ko": "형태를 본에 가깝게 만들기 위해 엣지상의 앵커 깊이를 줄입니다.",
+                "zh-CN": "减少边缘锚点的深度，使形状更接近骨骼。"
               }
             },
             {
-              "name": "Layers",
-              "type": "int",
-              "label": "Layers",
+              "name": "Stiffness",
+              "type": "float",
+              "label": "Stiffness",
               "labels": {
-                "ja": "レイヤー",
-                "zh-TW": "層級",
-                "ko": "레이어",
-                "zh-CN": "层级"
+                "ja": "剛性",
+                "zh-TW": "剛度",
+                "ko": "강성",
+                "zh-CN": "刚度"
               },
-              "default": 2,
+              "default": -3.5,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Per-iteration pull toward the matched rest shape. Higher is stiffer.",
+              "descriptions": {
+                "ja": "マッチしたレストシェイプに向かう反復ごとの引き寄せ力。数値が高いほど硬い。",
+                "zh-TW": "每迭代拉向匹配的原始形狀。數值越高，越硬挺。",
+                "ko": "일반화된 휴식 형태 방향으로의 반복별 당김. 높을수록 더 강합니다.",
+                "zh-CN": "每迭代次数向匹配的初始形状拉动。值越高，刚度越强。"
+              }
+            },
+            {
+              "name": "Base Stiffness",
+              "type": "float",
+              "label": "Base Stiffness",
+              "labels": {
+                "ja": "ベース剛性",
+                "zh-TW": "基礎剛度",
+                "ko": "기본 강성",
+                "zh-CN": "基础刚度"
+              },
+              "default": -3,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Stiffness for base clusters.",
+              "descriptions": {
+                "ja": "ベースクラスターの剛性",
+                "zh-TW": "基礎集群的剛度。",
+                "ko": "기본 클러스터에 대한 강성.",
+                "zh-CN": "用于基础簇的刚度。"
+              }
+            },
+            {
+              "name": "Orientation Tracking",
+              "type": "float",
+              "label": "Orientation Tracking",
+              "labels": {
+                "ja": "オリエンテーショントラッキング",
+                "zh-TW": "方向追蹤",
+                "ko": "방향 추적",
+                "zh-CN": "方向跟踪"
+              },
+              "default": 20,
               "min": 1,
-              "max": 5,
+              "max": 100,
               "options": null,
-              "description": null,
+              "description": "How strongly the shape re-orients with the body. Higher tracks the bone rotation faster (anchor weight in the shape fit).",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "形状がボディとどれだけ強く向きを変えるか。値が大きいほどボーンの回転を速く追跡する（シェイプフィットにおけるアンカーウェイト）。",
+                "zh-TW": "形狀與身體重新定向的強度。數值越高，能更快跟上骨骼旋轉（形體擬合中的錨點權重）。",
+                "ko": "형태가 신체와 얼마나 강력하게 재배열되는지. 높을수록 본 회전을 더 빠르게 추적합니다 (형태 적합도에서의 앵커 가중치).",
+                "zh-CN": "形状与身体同步改变的强度。值越高，能更快地跟踪骨骼旋转（形状拟合中的锚点权重）。"
               }
             },
             {
-              "name": "Depth Distribution",
+              "name": "Distance Constraint",
               "type": "float",
-              "label": "Depth Distribution",
+              "label": "Distance Constraint",
               "labels": {
-                "ja": "奥行き分布",
-                "zh-TW": "深度分佈",
-                "ko": "깊이 분포",
-                "zh-CN": "深度分布"
+                "ja": "距離制約",
+                "zh-TW": "距離約束",
+                "ko": "거리 제약 조건",
+                "zh-CN": "距离约束"
               },
-              "default": 0,
-              "min": -1,
-              "max": 1,
+              "default": 0.5,
+              "min": 0.25,
+              "max": 0.75,
               "options": null,
-              "description": "Controls how depth is distributed across layers.",
+              "description": "Optional distance constraints between particles, so a weak stiffness can be used without everything sagging. Higher = stiffer edges.",
               "descriptions": {
-                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
-                "zh-TW": "控制深度在各層次的分配方式。",
-                "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
-                "zh-CN": "控制深度如何在层级间分布。"
-              }
-            },
-            {
-              "name": "Subdivision",
-              "type": "int",
-              "label": "Subdivision",
-              "labels": {
-                "ja": "サブディビジョン",
-                "zh-TW": "細分",
-                "ko": "세분화",
-                "zh-CN": "细分"
-              },
-              "default": 0,
-              "min": 0,
-              "max": 3,
-              "options": null,
-              "description": "Number of subdivisions for each prism between layers.",
-              "descriptions": {
-                "ja": "レイヤー間の各プリズムのサブディビジョン数",
-                "zh-TW": "各層次之間每個稜柱的細分數量。",
-                "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
-                "zh-CN": "层级间每个棱柱的细分数量。"
-              }
-            },
-            {
-              "name": "Volume Constraint",
-              "type": "float",
-              "label": "Volume Constraint",
-              "labels": {
-                "ja": "体積制約",
-                "zh-TW": "體積約束",
-                "ko": "볼륨 제약",
-                "zh-CN": "体积约束"
-              },
-              "default": 0.75,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Edge Constraint",
-              "type": "float",
-              "label": "Edge Constraint",
-              "labels": {
-                "ja": "エッジ制約",
-                "zh-TW": "邊緣約束",
-                "ko": "엣지 제약",
-                "zh-CN": "边缘约束"
-              },
-              "default": 0.95,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Rotation Constraint",
-              "type": "float",
-              "label": "Rotation Constraint",
-              "labels": {
-                "ja": "回転制約",
-                "zh-TW": "旋轉約束",
-                "ko": "회전 제약",
-                "zh-CN": "旋转约束"
-              },
-              "default": 1,
-              "min": 0,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Constraint Damping",
-              "type": "float",
-              "label": "Constraint Damping",
-              "labels": {
-                "ja": "制約減衰",
-                "zh-TW": "限制阻尼",
-                "ko": "제약 감쇠",
-                "zh-CN": "约束阻尼"
-              },
-              "default": 0.2,
-              "min": 0,
-              "max": 2,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "パーティクル間にオプションで設けられる距離制約。これを使うことで、全てがたるむことなく弱い剛性を使用できる。値が高いほどエッジは硬くなる。",
+                "zh-TW": "可選的粒子間距離約束，這樣即使使用較低的剛度，物體也不會下垂。數值越高 = 邊緣越硬挺。",
+                "ko": "입자 간 선택적 거리 제약 조건을 설정하여 모든 것이 늘어지지 않도록 약한 강성을 사용할 수 있습니다. 높을수록 더 단단한 엣지입니다.",
+                "zh-CN": "粒子之间的可选距离约束，这样即使刚度较低也不会所有部分垂弛。值越高，边缘越硬。"
               }
             },
             {
@@ -5948,10 +5684,10 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "ミリメートル単位のパーティクルサイズ",
+                "ja": "パーティクルのサイズ（mm）",
                 "zh-TW": "粒子尺寸（毫米）",
-                "ko": "입자 크기 (밀리미터)",
-                "zh-CN": "粒子尺寸（毫米）"
+                "ko": "밀리미터 단위의 입자 크기",
+                "zh-CN": "毫米中粒子大小"
               }
             },
             {
@@ -5981,9 +5717,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 0,
@@ -6003,19 +5739,19 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "抵抗（空気）",
-                "zh-TW": "阻力（空氣）",
-                "ko": "항력 (공기)",
+                "ja": "空気抵抗",
+                "zh-TW": "空氣阻力",
+                "ko": "공기 항력",
                 "zh-CN": "阻力（空气）"
               },
-              "default": 0,
+              "default": 0.3,
               "min": 0,
               "max": 2,
               "options": null,
               "description": "Air resistancy",
               "descriptions": {
                 "ja": "空気抵抗",
-                "zh-TW": "空氣阻力",
+                "zh-TW": "空氣阻抗",
                 "ko": "공기 저항",
                 "zh-CN": "空气阻力"
               }
@@ -6025,9 +5761,9 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "抵抗（水中）",
-                "zh-TW": "阻力（水下）",
-                "ko": "항력 (수중)",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻力",
+                "ko": "수중 항력",
                 "zh-CN": "阻力（水下）"
               },
               "default": 1,
@@ -6036,8 +5772,8 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水抵抗",
-                "zh-TW": "水下阻力",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻抗",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
               }
@@ -6070,7 +5806,7 @@
               "label": "Wind",
               "labels": {
                 "ja": "風",
-                "zh-TW": "風",
+                "zh-TW": "風力",
                 "ko": "바람",
                 "zh-CN": "风力"
               },
@@ -6091,8 +5827,8 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響度",
-                    "zh-TW": "風影響力",
+                    "ja": "風の影響力",
+                    "zh-TW": "風力影響",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
                   },
@@ -6113,7 +5849,7 @@
                   "type": "float",
                   "label": "Turbulence Scale",
                   "labels": {
-                    "ja": "乱流スケール",
+                    "ja": "乱気流スケール",
                     "zh-TW": "湍流尺度",
                     "ko": "난류 스케일",
                     "zh-CN": "湍流尺度"
@@ -6135,7 +5871,7 @@
                   "type": "float",
                   "label": "Turbulence Intensity",
                   "labels": {
-                    "ja": "乱流強度",
+                    "ja": "乱気流強度",
                     "zh-TW": "湍流強度",
                     "ko": "난류 강도",
                     "zh-CN": "湍流强度"
@@ -6157,7 +5893,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流タイムスケール",
+                    "ja": "乱気流時間スケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -6629,7 +6365,7 @@
           "labels": {
             "ja": "選択ボーン",
             "zh-TW": "選擇骨骼",
-            "ko": "선택 본",
+            "ko": "본 선택",
             "zh-CN": "选择骨骼"
           },
           "default": 0,
@@ -6853,7 +6589,7 @@
               "labels": {
                 "ja": "ばね力",
                 "zh-TW": "彈簧力",
-                "ko": "용수철 힘",
+                "ko": "스프링 힘",
                 "zh-CN": "弹簧力"
               },
               "default": 1.5,
@@ -7073,12 +6809,12 @@
                   "labels": {
                     "ja": "ばね力",
                     "zh-TW": "彈簧力",
-                    "ko": "용수철 힘",
+                    "ko": "스프링 힘",
                     "zh-CN": "弹簧力"
                   },
                   "default": 1.25,
                   "min": 0,
-                  "max": 10,
+                  "max": 5,
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
@@ -7098,7 +6834,7 @@
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
                   },
-                  "default": 1,
+                  "default": 0.25,
                   "min": 0,
                   "max": 1,
                   "options": null,
@@ -7328,12 +7064,12 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.",
+          "description": "Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).",
           "descriptions": {
-            "ja": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-TW": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "ko": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-CN": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)"
+            "ja": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-TW": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "ko": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-CN": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)"
           },
           "values": [
             {
@@ -7363,7 +7099,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジの奥行き",
+                "ja": "エッジデプス",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -7372,166 +7108,100 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
+              "description": "Reduces the depth of anchors on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
-                "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
-                "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
-                "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
+                "ja": "形状をボーンに近づけるため、エッジ上のアンカーの深さを減少させる。",
+                "zh-TW": "減少邊緣錨點的深度，使形狀更貼近骨骼。",
+                "ko": "형태를 본에 가깝게 만들기 위해 엣지상의 앵커 깊이를 줄입니다.",
+                "zh-CN": "减少边缘锚点的深度，使形状更接近骨骼。"
               }
             },
             {
-              "name": "Layers",
-              "type": "int",
-              "label": "Layers",
+              "name": "Stiffness",
+              "type": "float",
+              "label": "Stiffness",
               "labels": {
-                "ja": "レイヤー",
-                "zh-TW": "層級",
-                "ko": "레이어",
-                "zh-CN": "层级"
+                "ja": "剛性",
+                "zh-TW": "剛度",
+                "ko": "강성",
+                "zh-CN": "刚度"
               },
-              "default": 2,
+              "default": -3.5,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Per-iteration pull toward the matched rest shape. Higher is stiffer.",
+              "descriptions": {
+                "ja": "マッチしたレストシェイプに向かう反復ごとの引き寄せ力。数値が高いほど硬い。",
+                "zh-TW": "每迭代拉向匹配的原始形狀。數值越高，越硬挺。",
+                "ko": "일반화된 휴식 형태 방향으로의 반복별 당김. 높을수록 더 강합니다.",
+                "zh-CN": "每迭代次数向匹配的初始形状拉动。值越高，刚度越强。"
+              }
+            },
+            {
+              "name": "Base Stiffness",
+              "type": "float",
+              "label": "Base Stiffness",
+              "labels": {
+                "ja": "ベース剛性",
+                "zh-TW": "基礎剛度",
+                "ko": "기본 강성",
+                "zh-CN": "基础刚度"
+              },
+              "default": -3,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Stiffness for base clusters.",
+              "descriptions": {
+                "ja": "ベースクラスターの剛性",
+                "zh-TW": "基礎集群的剛度。",
+                "ko": "기본 클러스터에 대한 강성.",
+                "zh-CN": "用于基础簇的刚度。"
+              }
+            },
+            {
+              "name": "Orientation Tracking",
+              "type": "float",
+              "label": "Orientation Tracking",
+              "labels": {
+                "ja": "オリエンテーショントラッキング",
+                "zh-TW": "方向追蹤",
+                "ko": "방향 추적",
+                "zh-CN": "方向跟踪"
+              },
+              "default": 20,
               "min": 1,
-              "max": 5,
+              "max": 100,
               "options": null,
-              "description": null,
+              "description": "How strongly the shape re-orients with the body. Higher tracks the bone rotation faster (anchor weight in the shape fit).",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "形状がボディとどれだけ強く向きを変えるか。値が大きいほどボーンの回転を速く追跡する（シェイプフィットにおけるアンカーウェイト）。",
+                "zh-TW": "形狀與身體重新定向的強度。數值越高，能更快跟上骨骼旋轉（形體擬合中的錨點權重）。",
+                "ko": "형태가 신체와 얼마나 강력하게 재배열되는지. 높을수록 본 회전을 더 빠르게 추적합니다 (형태 적합도에서의 앵커 가중치).",
+                "zh-CN": "形状与身体同步改变的强度。值越高，能更快地跟踪骨骼旋转（形状拟合中的锚点权重）。"
               }
             },
             {
-              "name": "Depth Distribution",
+              "name": "Distance Constraint",
               "type": "float",
-              "label": "Depth Distribution",
+              "label": "Distance Constraint",
               "labels": {
-                "ja": "奥行き分布",
-                "zh-TW": "深度分佈",
-                "ko": "깊이 분포",
-                "zh-CN": "深度分布"
+                "ja": "距離制約",
+                "zh-TW": "距離約束",
+                "ko": "거리 제약 조건",
+                "zh-CN": "距离约束"
               },
-              "default": 0,
-              "min": -1,
-              "max": 1,
+              "default": 0.5,
+              "min": 0.25,
+              "max": 0.75,
               "options": null,
-              "description": "Controls how depth is distributed across layers.",
+              "description": "Optional distance constraints between particles, so a weak stiffness can be used without everything sagging. Higher = stiffer edges.",
               "descriptions": {
-                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
-                "zh-TW": "控制深度在各層次的分配方式。",
-                "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
-                "zh-CN": "控制深度如何在层级间分布。"
-              }
-            },
-            {
-              "name": "Subdivision",
-              "type": "int",
-              "label": "Subdivision",
-              "labels": {
-                "ja": "サブディビジョン",
-                "zh-TW": "細分",
-                "ko": "세분화",
-                "zh-CN": "细分"
-              },
-              "default": 0,
-              "min": 0,
-              "max": 3,
-              "options": null,
-              "description": "Number of subdivisions for each prism between layers.",
-              "descriptions": {
-                "ja": "レイヤー間の各プリズムのサブディビジョン数",
-                "zh-TW": "各層次之間每個稜柱的細分數量。",
-                "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
-                "zh-CN": "层级间每个棱柱的细分数量。"
-              }
-            },
-            {
-              "name": "Volume Constraint",
-              "type": "float",
-              "label": "Volume Constraint",
-              "labels": {
-                "ja": "体積制約",
-                "zh-TW": "體積約束",
-                "ko": "볼륨 제약",
-                "zh-CN": "体积约束"
-              },
-              "default": 0.75,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Edge Constraint",
-              "type": "float",
-              "label": "Edge Constraint",
-              "labels": {
-                "ja": "エッジ制約",
-                "zh-TW": "邊緣約束",
-                "ko": "엣지 제약",
-                "zh-CN": "边缘约束"
-              },
-              "default": 0.95,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Rotation Constraint",
-              "type": "float",
-              "label": "Rotation Constraint",
-              "labels": {
-                "ja": "回転制約",
-                "zh-TW": "旋轉約束",
-                "ko": "회전 제약",
-                "zh-CN": "旋转约束"
-              },
-              "default": 1,
-              "min": 0,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Constraint Damping",
-              "type": "float",
-              "label": "Constraint Damping",
-              "labels": {
-                "ja": "制約減衰",
-                "zh-TW": "限制阻尼",
-                "ko": "제약 감쇠",
-                "zh-CN": "约束阻尼"
-              },
-              "default": 0.2,
-              "min": 0,
-              "max": 2,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "パーティクル間にオプションで設けられる距離制約。これを使うことで、全てがたるむことなく弱い剛性を使用できる。値が高いほどエッジは硬くなる。",
+                "zh-TW": "可選的粒子間距離約束，這樣即使使用較低的剛度，物體也不會下垂。數值越高 = 邊緣越硬挺。",
+                "ko": "입자 간 선택적 거리 제약 조건을 설정하여 모든 것이 늘어지지 않도록 약한 강성을 사용할 수 있습니다. 높을수록 더 단단한 엣지입니다.",
+                "zh-CN": "粒子之间的可选距离约束，这样即使刚度较低也不会所有部分垂弛。值越高，边缘越硬。"
               }
             },
             {
@@ -7594,10 +7264,10 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "ミリメートル単位のパーティクルサイズ",
+                "ja": "パーティクルのサイズ（mm）",
                 "zh-TW": "粒子尺寸（毫米）",
-                "ko": "입자 크기 (밀리미터)",
-                "zh-CN": "粒子尺寸（毫米）"
+                "ko": "밀리미터 단위의 입자 크기",
+                "zh-CN": "毫米中粒子大小"
               }
             },
             {
@@ -7627,9 +7297,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 0,
@@ -7649,19 +7319,19 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "抵抗（空気）",
-                "zh-TW": "阻力（空氣）",
-                "ko": "항력 (공기)",
+                "ja": "空気抵抗",
+                "zh-TW": "空氣阻力",
+                "ko": "공기 항력",
                 "zh-CN": "阻力（空气）"
               },
-              "default": 0,
+              "default": 0.3,
               "min": 0,
               "max": 2,
               "options": null,
               "description": "Air resistancy",
               "descriptions": {
                 "ja": "空気抵抗",
-                "zh-TW": "空氣阻力",
+                "zh-TW": "空氣阻抗",
                 "ko": "공기 저항",
                 "zh-CN": "空气阻力"
               }
@@ -7671,9 +7341,9 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "抵抗（水中）",
-                "zh-TW": "阻力（水下）",
-                "ko": "항력 (수중)",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻力",
+                "ko": "수중 항력",
                 "zh-CN": "阻力（水下）"
               },
               "default": 1,
@@ -7682,8 +7352,8 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水抵抗",
-                "zh-TW": "水下阻力",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻抗",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
               }
@@ -7716,7 +7386,7 @@
               "label": "Wind",
               "labels": {
                 "ja": "風",
-                "zh-TW": "風",
+                "zh-TW": "風力",
                 "ko": "바람",
                 "zh-CN": "风力"
               },
@@ -7737,8 +7407,8 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響度",
-                    "zh-TW": "風影響力",
+                    "ja": "風の影響力",
+                    "zh-TW": "風力影響",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
                   },
@@ -7759,7 +7429,7 @@
                   "type": "float",
                   "label": "Turbulence Scale",
                   "labels": {
-                    "ja": "乱流スケール",
+                    "ja": "乱気流スケール",
                     "zh-TW": "湍流尺度",
                     "ko": "난류 스케일",
                     "zh-CN": "湍流尺度"
@@ -7781,7 +7451,7 @@
                   "type": "float",
                   "label": "Turbulence Intensity",
                   "labels": {
-                    "ja": "乱流強度",
+                    "ja": "乱気流強度",
                     "zh-TW": "湍流強度",
                     "ko": "난류 강도",
                     "zh-CN": "湍流强度"
@@ -7803,7 +7473,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流タイムスケール",
+                    "ja": "乱気流時間スケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -8275,7 +7945,7 @@
           "labels": {
             "ja": "選択ボーン",
             "zh-TW": "選擇骨骼",
-            "ko": "선택 본",
+            "ko": "본 선택",
             "zh-CN": "选择骨骼"
           },
           "default": 0,
@@ -8499,7 +8169,7 @@
               "labels": {
                 "ja": "ばね力",
                 "zh-TW": "彈簧力",
-                "ko": "용수철 힘",
+                "ko": "스프링 힘",
                 "zh-CN": "弹簧力"
               },
               "default": 1.5,
@@ -8719,12 +8389,12 @@
                   "labels": {
                     "ja": "ばね力",
                     "zh-TW": "彈簧力",
-                    "ko": "용수철 힘",
+                    "ko": "스프링 힘",
                     "zh-CN": "弹簧力"
                   },
                   "default": 1.25,
                   "min": 0,
-                  "max": 10,
+                  "max": 5,
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
@@ -8744,7 +8414,7 @@
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
                   },
-                  "default": 1,
+                  "default": 0.25,
                   "min": 0,
                   "max": 1,
                   "options": null,
@@ -8974,12 +8644,12 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.",
+          "description": "Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).",
           "descriptions": {
-            "ja": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-TW": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "ko": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-CN": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)"
+            "ja": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-TW": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "ko": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-CN": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)"
           },
           "values": [
             {
@@ -9009,7 +8679,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジの奥行き",
+                "ja": "エッジデプス",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -9018,166 +8688,100 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
+              "description": "Reduces the depth of anchors on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
-                "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
-                "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
-                "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
+                "ja": "形状をボーンに近づけるため、エッジ上のアンカーの深さを減少させる。",
+                "zh-TW": "減少邊緣錨點的深度，使形狀更貼近骨骼。",
+                "ko": "형태를 본에 가깝게 만들기 위해 엣지상의 앵커 깊이를 줄입니다.",
+                "zh-CN": "减少边缘锚点的深度，使形状更接近骨骼。"
               }
             },
             {
-              "name": "Layers",
-              "type": "int",
-              "label": "Layers",
+              "name": "Stiffness",
+              "type": "float",
+              "label": "Stiffness",
               "labels": {
-                "ja": "レイヤー",
-                "zh-TW": "層級",
-                "ko": "레이어",
-                "zh-CN": "层级"
+                "ja": "剛性",
+                "zh-TW": "剛度",
+                "ko": "강성",
+                "zh-CN": "刚度"
               },
-              "default": 2,
+              "default": -3.5,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Per-iteration pull toward the matched rest shape. Higher is stiffer.",
+              "descriptions": {
+                "ja": "マッチしたレストシェイプに向かう反復ごとの引き寄せ力。数値が高いほど硬い。",
+                "zh-TW": "每迭代拉向匹配的原始形狀。數值越高，越硬挺。",
+                "ko": "일반화된 휴식 형태 방향으로의 반복별 당김. 높을수록 더 강합니다.",
+                "zh-CN": "每迭代次数向匹配的初始形状拉动。值越高，刚度越强。"
+              }
+            },
+            {
+              "name": "Base Stiffness",
+              "type": "float",
+              "label": "Base Stiffness",
+              "labels": {
+                "ja": "ベース剛性",
+                "zh-TW": "基礎剛度",
+                "ko": "기본 강성",
+                "zh-CN": "基础刚度"
+              },
+              "default": -3,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Stiffness for base clusters.",
+              "descriptions": {
+                "ja": "ベースクラスターの剛性",
+                "zh-TW": "基礎集群的剛度。",
+                "ko": "기본 클러스터에 대한 강성.",
+                "zh-CN": "用于基础簇的刚度。"
+              }
+            },
+            {
+              "name": "Orientation Tracking",
+              "type": "float",
+              "label": "Orientation Tracking",
+              "labels": {
+                "ja": "オリエンテーショントラッキング",
+                "zh-TW": "方向追蹤",
+                "ko": "방향 추적",
+                "zh-CN": "方向跟踪"
+              },
+              "default": 20,
               "min": 1,
-              "max": 5,
+              "max": 100,
               "options": null,
-              "description": null,
+              "description": "How strongly the shape re-orients with the body. Higher tracks the bone rotation faster (anchor weight in the shape fit).",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "形状がボディとどれだけ強く向きを変えるか。値が大きいほどボーンの回転を速く追跡する（シェイプフィットにおけるアンカーウェイト）。",
+                "zh-TW": "形狀與身體重新定向的強度。數值越高，能更快跟上骨骼旋轉（形體擬合中的錨點權重）。",
+                "ko": "형태가 신체와 얼마나 강력하게 재배열되는지. 높을수록 본 회전을 더 빠르게 추적합니다 (형태 적합도에서의 앵커 가중치).",
+                "zh-CN": "形状与身体同步改变的强度。值越高，能更快地跟踪骨骼旋转（形状拟合中的锚点权重）。"
               }
             },
             {
-              "name": "Depth Distribution",
+              "name": "Distance Constraint",
               "type": "float",
-              "label": "Depth Distribution",
+              "label": "Distance Constraint",
               "labels": {
-                "ja": "奥行き分布",
-                "zh-TW": "深度分佈",
-                "ko": "깊이 분포",
-                "zh-CN": "深度分布"
+                "ja": "距離制約",
+                "zh-TW": "距離約束",
+                "ko": "거리 제약 조건",
+                "zh-CN": "距离约束"
               },
-              "default": 0,
-              "min": -1,
-              "max": 1,
+              "default": 0.5,
+              "min": 0.25,
+              "max": 0.75,
               "options": null,
-              "description": "Controls how depth is distributed across layers.",
+              "description": "Optional distance constraints between particles, so a weak stiffness can be used without everything sagging. Higher = stiffer edges.",
               "descriptions": {
-                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
-                "zh-TW": "控制深度在各層次的分配方式。",
-                "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
-                "zh-CN": "控制深度如何在层级间分布。"
-              }
-            },
-            {
-              "name": "Subdivision",
-              "type": "int",
-              "label": "Subdivision",
-              "labels": {
-                "ja": "サブディビジョン",
-                "zh-TW": "細分",
-                "ko": "세분화",
-                "zh-CN": "细分"
-              },
-              "default": 0,
-              "min": 0,
-              "max": 3,
-              "options": null,
-              "description": "Number of subdivisions for each prism between layers.",
-              "descriptions": {
-                "ja": "レイヤー間の各プリズムのサブディビジョン数",
-                "zh-TW": "各層次之間每個稜柱的細分數量。",
-                "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
-                "zh-CN": "层级间每个棱柱的细分数量。"
-              }
-            },
-            {
-              "name": "Volume Constraint",
-              "type": "float",
-              "label": "Volume Constraint",
-              "labels": {
-                "ja": "体積制約",
-                "zh-TW": "體積約束",
-                "ko": "볼륨 제약",
-                "zh-CN": "体积约束"
-              },
-              "default": 0.75,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Edge Constraint",
-              "type": "float",
-              "label": "Edge Constraint",
-              "labels": {
-                "ja": "エッジ制約",
-                "zh-TW": "邊緣約束",
-                "ko": "엣지 제약",
-                "zh-CN": "边缘约束"
-              },
-              "default": 0.95,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Rotation Constraint",
-              "type": "float",
-              "label": "Rotation Constraint",
-              "labels": {
-                "ja": "回転制約",
-                "zh-TW": "旋轉約束",
-                "ko": "회전 제약",
-                "zh-CN": "旋转约束"
-              },
-              "default": 1,
-              "min": 0,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Constraint Damping",
-              "type": "float",
-              "label": "Constraint Damping",
-              "labels": {
-                "ja": "制約減衰",
-                "zh-TW": "限制阻尼",
-                "ko": "제약 감쇠",
-                "zh-CN": "约束阻尼"
-              },
-              "default": 0.2,
-              "min": 0,
-              "max": 2,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "パーティクル間にオプションで設けられる距離制約。これを使うことで、全てがたるむことなく弱い剛性を使用できる。値が高いほどエッジは硬くなる。",
+                "zh-TW": "可選的粒子間距離約束，這樣即使使用較低的剛度，物體也不會下垂。數值越高 = 邊緣越硬挺。",
+                "ko": "입자 간 선택적 거리 제약 조건을 설정하여 모든 것이 늘어지지 않도록 약한 강성을 사용할 수 있습니다. 높을수록 더 단단한 엣지입니다.",
+                "zh-CN": "粒子之间的可选距离约束，这样即使刚度较低也不会所有部分垂弛。值越高，边缘越硬。"
               }
             },
             {
@@ -9240,10 +8844,10 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "ミリメートル単位のパーティクルサイズ",
+                "ja": "パーティクルのサイズ（mm）",
                 "zh-TW": "粒子尺寸（毫米）",
-                "ko": "입자 크기 (밀리미터)",
-                "zh-CN": "粒子尺寸（毫米）"
+                "ko": "밀리미터 단위의 입자 크기",
+                "zh-CN": "毫米中粒子大小"
               }
             },
             {
@@ -9273,9 +8877,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 0,
@@ -9295,19 +8899,19 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "抵抗（空気）",
-                "zh-TW": "阻力（空氣）",
-                "ko": "항력 (공기)",
+                "ja": "空気抵抗",
+                "zh-TW": "空氣阻力",
+                "ko": "공기 항력",
                 "zh-CN": "阻力（空气）"
               },
-              "default": 0,
+              "default": 0.3,
               "min": 0,
               "max": 2,
               "options": null,
               "description": "Air resistancy",
               "descriptions": {
                 "ja": "空気抵抗",
-                "zh-TW": "空氣阻力",
+                "zh-TW": "空氣阻抗",
                 "ko": "공기 저항",
                 "zh-CN": "空气阻力"
               }
@@ -9317,9 +8921,9 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "抵抗（水中）",
-                "zh-TW": "阻力（水下）",
-                "ko": "항력 (수중)",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻力",
+                "ko": "수중 항력",
                 "zh-CN": "阻力（水下）"
               },
               "default": 1,
@@ -9328,8 +8932,8 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水抵抗",
-                "zh-TW": "水下阻力",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻抗",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
               }
@@ -9362,7 +8966,7 @@
               "label": "Wind",
               "labels": {
                 "ja": "風",
-                "zh-TW": "風",
+                "zh-TW": "風力",
                 "ko": "바람",
                 "zh-CN": "风力"
               },
@@ -9383,8 +8987,8 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響度",
-                    "zh-TW": "風影響力",
+                    "ja": "風の影響力",
+                    "zh-TW": "風力影響",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
                   },
@@ -9405,7 +9009,7 @@
                   "type": "float",
                   "label": "Turbulence Scale",
                   "labels": {
-                    "ja": "乱流スケール",
+                    "ja": "乱気流スケール",
                     "zh-TW": "湍流尺度",
                     "ko": "난류 스케일",
                     "zh-CN": "湍流尺度"
@@ -9427,7 +9031,7 @@
                   "type": "float",
                   "label": "Turbulence Intensity",
                   "labels": {
-                    "ja": "乱流強度",
+                    "ja": "乱気流強度",
                     "zh-TW": "湍流強度",
                     "ko": "난류 강도",
                     "zh-CN": "湍流强度"
@@ -9449,7 +9053,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流タイムスケール",
+                    "ja": "乱気流時間スケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -9921,7 +9525,7 @@
           "labels": {
             "ja": "選択ボーン",
             "zh-TW": "選擇骨骼",
-            "ko": "선택 본",
+            "ko": "본 선택",
             "zh-CN": "选择骨骼"
           },
           "default": 0,
@@ -10145,7 +9749,7 @@
               "labels": {
                 "ja": "ばね力",
                 "zh-TW": "彈簧力",
-                "ko": "용수철 힘",
+                "ko": "스프링 힘",
                 "zh-CN": "弹簧力"
               },
               "default": 1.5,
@@ -10365,12 +9969,12 @@
                   "labels": {
                     "ja": "ばね力",
                     "zh-TW": "彈簧力",
-                    "ko": "용수철 힘",
+                    "ko": "스프링 힘",
                     "zh-CN": "弹簧力"
                   },
                   "default": 1.25,
                   "min": 0,
-                  "max": 10,
+                  "max": 5,
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
@@ -10390,7 +9994,7 @@
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
                   },
-                  "default": 1,
+                  "default": 0.25,
                   "min": 0,
                   "max": 1,
                   "options": null,
@@ -10620,12 +10224,12 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.",
+          "description": "Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).",
           "descriptions": {
-            "ja": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-TW": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "ko": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-CN": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)"
+            "ja": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-TW": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "ko": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-CN": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)"
           },
           "values": [
             {
@@ -10655,7 +10259,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジの奥行き",
+                "ja": "エッジデプス",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -10664,166 +10268,100 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
+              "description": "Reduces the depth of anchors on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
-                "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
-                "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
-                "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
+                "ja": "形状をボーンに近づけるため、エッジ上のアンカーの深さを減少させる。",
+                "zh-TW": "減少邊緣錨點的深度，使形狀更貼近骨骼。",
+                "ko": "형태를 본에 가깝게 만들기 위해 엣지상의 앵커 깊이를 줄입니다.",
+                "zh-CN": "减少边缘锚点的深度，使形状更接近骨骼。"
               }
             },
             {
-              "name": "Layers",
-              "type": "int",
-              "label": "Layers",
+              "name": "Stiffness",
+              "type": "float",
+              "label": "Stiffness",
               "labels": {
-                "ja": "レイヤー",
-                "zh-TW": "層級",
-                "ko": "레이어",
-                "zh-CN": "层级"
+                "ja": "剛性",
+                "zh-TW": "剛度",
+                "ko": "강성",
+                "zh-CN": "刚度"
               },
-              "default": 2,
+              "default": -3.5,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Per-iteration pull toward the matched rest shape. Higher is stiffer.",
+              "descriptions": {
+                "ja": "マッチしたレストシェイプに向かう反復ごとの引き寄せ力。数値が高いほど硬い。",
+                "zh-TW": "每迭代拉向匹配的原始形狀。數值越高，越硬挺。",
+                "ko": "일반화된 휴식 형태 방향으로의 반복별 당김. 높을수록 더 강합니다.",
+                "zh-CN": "每迭代次数向匹配的初始形状拉动。值越高，刚度越强。"
+              }
+            },
+            {
+              "name": "Base Stiffness",
+              "type": "float",
+              "label": "Base Stiffness",
+              "labels": {
+                "ja": "ベース剛性",
+                "zh-TW": "基礎剛度",
+                "ko": "기본 강성",
+                "zh-CN": "基础刚度"
+              },
+              "default": -3,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Stiffness for base clusters.",
+              "descriptions": {
+                "ja": "ベースクラスターの剛性",
+                "zh-TW": "基礎集群的剛度。",
+                "ko": "기본 클러스터에 대한 강성.",
+                "zh-CN": "用于基础簇的刚度。"
+              }
+            },
+            {
+              "name": "Orientation Tracking",
+              "type": "float",
+              "label": "Orientation Tracking",
+              "labels": {
+                "ja": "オリエンテーショントラッキング",
+                "zh-TW": "方向追蹤",
+                "ko": "방향 추적",
+                "zh-CN": "方向跟踪"
+              },
+              "default": 20,
               "min": 1,
-              "max": 5,
+              "max": 100,
               "options": null,
-              "description": null,
+              "description": "How strongly the shape re-orients with the body. Higher tracks the bone rotation faster (anchor weight in the shape fit).",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "形状がボディとどれだけ強く向きを変えるか。値が大きいほどボーンの回転を速く追跡する（シェイプフィットにおけるアンカーウェイト）。",
+                "zh-TW": "形狀與身體重新定向的強度。數值越高，能更快跟上骨骼旋轉（形體擬合中的錨點權重）。",
+                "ko": "형태가 신체와 얼마나 강력하게 재배열되는지. 높을수록 본 회전을 더 빠르게 추적합니다 (형태 적합도에서의 앵커 가중치).",
+                "zh-CN": "形状与身体同步改变的强度。值越高，能更快地跟踪骨骼旋转（形状拟合中的锚点权重）。"
               }
             },
             {
-              "name": "Depth Distribution",
+              "name": "Distance Constraint",
               "type": "float",
-              "label": "Depth Distribution",
+              "label": "Distance Constraint",
               "labels": {
-                "ja": "奥行き分布",
-                "zh-TW": "深度分佈",
-                "ko": "깊이 분포",
-                "zh-CN": "深度分布"
+                "ja": "距離制約",
+                "zh-TW": "距離約束",
+                "ko": "거리 제약 조건",
+                "zh-CN": "距离约束"
               },
-              "default": 0,
-              "min": -1,
-              "max": 1,
+              "default": 0.5,
+              "min": 0.25,
+              "max": 0.75,
               "options": null,
-              "description": "Controls how depth is distributed across layers.",
+              "description": "Optional distance constraints between particles, so a weak stiffness can be used without everything sagging. Higher = stiffer edges.",
               "descriptions": {
-                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
-                "zh-TW": "控制深度在各層次的分配方式。",
-                "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
-                "zh-CN": "控制深度如何在层级间分布。"
-              }
-            },
-            {
-              "name": "Subdivision",
-              "type": "int",
-              "label": "Subdivision",
-              "labels": {
-                "ja": "サブディビジョン",
-                "zh-TW": "細分",
-                "ko": "세분화",
-                "zh-CN": "细分"
-              },
-              "default": 0,
-              "min": 0,
-              "max": 3,
-              "options": null,
-              "description": "Number of subdivisions for each prism between layers.",
-              "descriptions": {
-                "ja": "レイヤー間の各プリズムのサブディビジョン数",
-                "zh-TW": "各層次之間每個稜柱的細分數量。",
-                "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
-                "zh-CN": "层级间每个棱柱的细分数量。"
-              }
-            },
-            {
-              "name": "Volume Constraint",
-              "type": "float",
-              "label": "Volume Constraint",
-              "labels": {
-                "ja": "体積制約",
-                "zh-TW": "體積約束",
-                "ko": "볼륨 제약",
-                "zh-CN": "体积约束"
-              },
-              "default": 0.75,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Edge Constraint",
-              "type": "float",
-              "label": "Edge Constraint",
-              "labels": {
-                "ja": "エッジ制約",
-                "zh-TW": "邊緣約束",
-                "ko": "엣지 제약",
-                "zh-CN": "边缘约束"
-              },
-              "default": 0.95,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Rotation Constraint",
-              "type": "float",
-              "label": "Rotation Constraint",
-              "labels": {
-                "ja": "回転制約",
-                "zh-TW": "旋轉約束",
-                "ko": "회전 제약",
-                "zh-CN": "旋转约束"
-              },
-              "default": 1,
-              "min": 0,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Constraint Damping",
-              "type": "float",
-              "label": "Constraint Damping",
-              "labels": {
-                "ja": "制約減衰",
-                "zh-TW": "限制阻尼",
-                "ko": "제약 감쇠",
-                "zh-CN": "约束阻尼"
-              },
-              "default": 0.2,
-              "min": 0,
-              "max": 2,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "パーティクル間にオプションで設けられる距離制約。これを使うことで、全てがたるむことなく弱い剛性を使用できる。値が高いほどエッジは硬くなる。",
+                "zh-TW": "可選的粒子間距離約束，這樣即使使用較低的剛度，物體也不會下垂。數值越高 = 邊緣越硬挺。",
+                "ko": "입자 간 선택적 거리 제약 조건을 설정하여 모든 것이 늘어지지 않도록 약한 강성을 사용할 수 있습니다. 높을수록 더 단단한 엣지입니다.",
+                "zh-CN": "粒子之间的可选距离约束，这样即使刚度较低也不会所有部分垂弛。值越高，边缘越硬。"
               }
             },
             {
@@ -10886,10 +10424,10 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "ミリメートル単位のパーティクルサイズ",
+                "ja": "パーティクルのサイズ（mm）",
                 "zh-TW": "粒子尺寸（毫米）",
-                "ko": "입자 크기 (밀리미터)",
-                "zh-CN": "粒子尺寸（毫米）"
+                "ko": "밀리미터 단위의 입자 크기",
+                "zh-CN": "毫米中粒子大小"
               }
             },
             {
@@ -10919,9 +10457,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 0,
@@ -10941,19 +10479,19 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "抵抗（空気）",
-                "zh-TW": "阻力（空氣）",
-                "ko": "항력 (공기)",
+                "ja": "空気抵抗",
+                "zh-TW": "空氣阻力",
+                "ko": "공기 항력",
                 "zh-CN": "阻力（空气）"
               },
-              "default": 0,
+              "default": 0.3,
               "min": 0,
               "max": 2,
               "options": null,
               "description": "Air resistancy",
               "descriptions": {
                 "ja": "空気抵抗",
-                "zh-TW": "空氣阻力",
+                "zh-TW": "空氣阻抗",
                 "ko": "공기 저항",
                 "zh-CN": "空气阻力"
               }
@@ -10963,9 +10501,9 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "抵抗（水中）",
-                "zh-TW": "阻力（水下）",
-                "ko": "항력 (수중)",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻力",
+                "ko": "수중 항력",
                 "zh-CN": "阻力（水下）"
               },
               "default": 1,
@@ -10974,8 +10512,8 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水抵抗",
-                "zh-TW": "水下阻力",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻抗",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
               }
@@ -11008,7 +10546,7 @@
               "label": "Wind",
               "labels": {
                 "ja": "風",
-                "zh-TW": "風",
+                "zh-TW": "風力",
                 "ko": "바람",
                 "zh-CN": "风力"
               },
@@ -11029,8 +10567,8 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響度",
-                    "zh-TW": "風影響力",
+                    "ja": "風の影響力",
+                    "zh-TW": "風力影響",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
                   },
@@ -11051,7 +10589,7 @@
                   "type": "float",
                   "label": "Turbulence Scale",
                   "labels": {
-                    "ja": "乱流スケール",
+                    "ja": "乱気流スケール",
                     "zh-TW": "湍流尺度",
                     "ko": "난류 스케일",
                     "zh-CN": "湍流尺度"
@@ -11073,7 +10611,7 @@
                   "type": "float",
                   "label": "Turbulence Intensity",
                   "labels": {
-                    "ja": "乱流強度",
+                    "ja": "乱気流強度",
                     "zh-TW": "湍流強度",
                     "ko": "난류 강도",
                     "zh-CN": "湍流强度"
@@ -11095,7 +10633,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流タイムスケール",
+                    "ja": "乱気流時間スケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -11567,7 +11105,7 @@
           "labels": {
             "ja": "選択ボーン",
             "zh-TW": "選擇骨骼",
-            "ko": "선택 본",
+            "ko": "본 선택",
             "zh-CN": "选择骨骼"
           },
           "default": 0,
@@ -11791,7 +11329,7 @@
               "labels": {
                 "ja": "ばね力",
                 "zh-TW": "彈簧力",
-                "ko": "용수철 힘",
+                "ko": "스프링 힘",
                 "zh-CN": "弹簧力"
               },
               "default": 1.5,
@@ -12011,12 +11549,12 @@
                   "labels": {
                     "ja": "ばね力",
                     "zh-TW": "彈簧力",
-                    "ko": "용수철 힘",
+                    "ko": "스프링 힘",
                     "zh-CN": "弹簧力"
                   },
                   "default": 1.25,
                   "min": 0,
-                  "max": 10,
+                  "max": 5,
                   "options": null,
                   "description": "Spring force when exceeding limit",
                   "descriptions": {
@@ -12036,7 +11574,7 @@
                     "ko": "감쇠",
                     "zh-CN": "阻尼"
                   },
-                  "default": 1,
+                  "default": 0.25,
                   "min": 0,
                   "max": 1,
                   "options": null,
@@ -12266,12 +11804,12 @@
           "min": 0,
           "max": 1,
           "options": null,
-          "description": "Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.",
+          "description": "Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).",
           "descriptions": {
-            "ja": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-TW": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "ko": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)",
-            "zh-CN": "(Defines a particle-based XPBD softbody mesh that deforms with\r\nphysics. Child bones of each selected root become simulation\r\nparticles arranged in layers extending outward. **Depth** controls\r\nhow far particles extend from the bone; **Edge Depth** pulls edge\r\nparticles closer to the skeleton for a tighter fit. **Layers**\r\nand **Subdivision** increase mesh resolution at the cost of\r\nperformance. **Depth Distribution** shifts volume between inner\r\nand outer layers.\r\n\r\nThe constraint sliders (**Volume**, **Edge**, **Rotation**) control\r\nparticle stiffness — higher values mean less deformation.\r\n**Constraint Damping** smooths oscillation between solver steps.\r\n**Inertia** adds resistance to rapid movement changes.\r\n**Show Bones** renders the original skeleton bones alongside the\r\nparticle mesh for comparison.)"
+            "ja": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-TW": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "ko": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)",
+            "zh-CN": "(Shape-matching softbody. Each selected bone becomes a surface particle\r\nplus a locked inner anchor; overlapping clusters pull the surface back\r\ntoward its rest shape, allowing soft local deformation and jiggle.\r\n**Depth** controls how far the inner anchors sit from the surface;\r\n**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**\r\nsets how strongly the shape is restored each step (0 = floppy, 1 = rigid).)"
           },
           "values": [
             {
@@ -12301,7 +11839,7 @@
               "type": "float",
               "label": "Edge Depth",
               "labels": {
-                "ja": "エッジの奥行き",
+                "ja": "エッジデプス",
                 "zh-TW": "邊緣深度",
                 "ko": "엣지 깊이",
                 "zh-CN": "边缘深度"
@@ -12310,166 +11848,100 @@
               "min": 0,
               "max": 1,
               "options": null,
-              "description": "Reduces the depth of particles on the edges to make the shape closer to the bones.",
+              "description": "Reduces the depth of anchors on the edges to make the shape closer to the bones.",
               "descriptions": {
-                "ja": "エッジ上の粒子の奥行きを減らし、形状を骨に近づけます。",
-                "zh-TW": "減少邊緣粒子的深度，使形狀更接近骨骼。",
-                "ko": "형태를 본에 가깝게 만들기 위해 엣지의 파티클 깊이를 줄입니다.",
-                "zh-CN": "减少边缘粒子的深度，使形状更接近骨骼。"
+                "ja": "形状をボーンに近づけるため、エッジ上のアンカーの深さを減少させる。",
+                "zh-TW": "減少邊緣錨點的深度，使形狀更貼近骨骼。",
+                "ko": "형태를 본에 가깝게 만들기 위해 엣지상의 앵커 깊이를 줄입니다.",
+                "zh-CN": "减少边缘锚点的深度，使形状更接近骨骼。"
               }
             },
             {
-              "name": "Layers",
-              "type": "int",
-              "label": "Layers",
+              "name": "Stiffness",
+              "type": "float",
+              "label": "Stiffness",
               "labels": {
-                "ja": "レイヤー",
-                "zh-TW": "層級",
-                "ko": "레이어",
-                "zh-CN": "层级"
+                "ja": "剛性",
+                "zh-TW": "剛度",
+                "ko": "강성",
+                "zh-CN": "刚度"
               },
-              "default": 2,
+              "default": -3.5,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Per-iteration pull toward the matched rest shape. Higher is stiffer.",
+              "descriptions": {
+                "ja": "マッチしたレストシェイプに向かう反復ごとの引き寄せ力。数値が高いほど硬い。",
+                "zh-TW": "每迭代拉向匹配的原始形狀。數值越高，越硬挺。",
+                "ko": "일반화된 휴식 형태 방향으로의 반복별 당김. 높을수록 더 강합니다.",
+                "zh-CN": "每迭代次数向匹配的初始形状拉动。值越高，刚度越强。"
+              }
+            },
+            {
+              "name": "Base Stiffness",
+              "type": "float",
+              "label": "Base Stiffness",
+              "labels": {
+                "ja": "ベース剛性",
+                "zh-TW": "基礎剛度",
+                "ko": "기본 강성",
+                "zh-CN": "基础刚度"
+              },
+              "default": -3,
+              "min": -4,
+              "max": -2,
+              "options": null,
+              "description": "Stiffness for base clusters.",
+              "descriptions": {
+                "ja": "ベースクラスターの剛性",
+                "zh-TW": "基礎集群的剛度。",
+                "ko": "기본 클러스터에 대한 강성.",
+                "zh-CN": "用于基础簇的刚度。"
+              }
+            },
+            {
+              "name": "Orientation Tracking",
+              "type": "float",
+              "label": "Orientation Tracking",
+              "labels": {
+                "ja": "オリエンテーショントラッキング",
+                "zh-TW": "方向追蹤",
+                "ko": "방향 추적",
+                "zh-CN": "方向跟踪"
+              },
+              "default": 20,
               "min": 1,
-              "max": 5,
+              "max": 100,
               "options": null,
-              "description": null,
+              "description": "How strongly the shape re-orients with the body. Higher tracks the bone rotation faster (anchor weight in the shape fit).",
               "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "形状がボディとどれだけ強く向きを変えるか。値が大きいほどボーンの回転を速く追跡する（シェイプフィットにおけるアンカーウェイト）。",
+                "zh-TW": "形狀與身體重新定向的強度。數值越高，能更快跟上骨骼旋轉（形體擬合中的錨點權重）。",
+                "ko": "형태가 신체와 얼마나 강력하게 재배열되는지. 높을수록 본 회전을 더 빠르게 추적합니다 (형태 적합도에서의 앵커 가중치).",
+                "zh-CN": "形状与身体同步改变的强度。值越高，能更快地跟踪骨骼旋转（形状拟合中的锚点权重）。"
               }
             },
             {
-              "name": "Depth Distribution",
+              "name": "Distance Constraint",
               "type": "float",
-              "label": "Depth Distribution",
+              "label": "Distance Constraint",
               "labels": {
-                "ja": "奥行き分布",
-                "zh-TW": "深度分佈",
-                "ko": "깊이 분포",
-                "zh-CN": "深度分布"
+                "ja": "距離制約",
+                "zh-TW": "距離約束",
+                "ko": "거리 제약 조건",
+                "zh-CN": "距离约束"
               },
-              "default": 0,
-              "min": -1,
-              "max": 1,
+              "default": 0.5,
+              "min": 0.25,
+              "max": 0.75,
               "options": null,
-              "description": "Controls how depth is distributed across layers.",
+              "description": "Optional distance constraints between particles, so a weak stiffness can be used without everything sagging. Higher = stiffer edges.",
               "descriptions": {
-                "ja": "奥行きがレイヤー全体にどのように分散されるかを制御します。",
-                "zh-TW": "控制深度在各層次的分配方式。",
-                "ko": "레이어를 가로질러 깊이가 분포되는 방식을 제어합니다.",
-                "zh-CN": "控制深度如何在层级间分布。"
-              }
-            },
-            {
-              "name": "Subdivision",
-              "type": "int",
-              "label": "Subdivision",
-              "labels": {
-                "ja": "サブディビジョン",
-                "zh-TW": "細分",
-                "ko": "세분화",
-                "zh-CN": "细分"
-              },
-              "default": 0,
-              "min": 0,
-              "max": 3,
-              "options": null,
-              "description": "Number of subdivisions for each prism between layers.",
-              "descriptions": {
-                "ja": "レイヤー間の各プリズムのサブディビジョン数",
-                "zh-TW": "各層次之間每個稜柱的細分數量。",
-                "ko": "레이어 사이 각 프리즘의 세분화 횟수.",
-                "zh-CN": "层级间每个棱柱的细分数量。"
-              }
-            },
-            {
-              "name": "Volume Constraint",
-              "type": "float",
-              "label": "Volume Constraint",
-              "labels": {
-                "ja": "体積制約",
-                "zh-TW": "體積約束",
-                "ko": "볼륨 제약",
-                "zh-CN": "体积约束"
-              },
-              "default": 0.75,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Edge Constraint",
-              "type": "float",
-              "label": "Edge Constraint",
-              "labels": {
-                "ja": "エッジ制約",
-                "zh-TW": "邊緣約束",
-                "ko": "엣지 제약",
-                "zh-CN": "边缘约束"
-              },
-              "default": 0.95,
-              "min": 0.5,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Rotation Constraint",
-              "type": "float",
-              "label": "Rotation Constraint",
-              "labels": {
-                "ja": "回転制約",
-                "zh-TW": "旋轉約束",
-                "ko": "회전 제약",
-                "zh-CN": "旋转约束"
-              },
-              "default": 1,
-              "min": 0,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
-              "name": "Constraint Damping",
-              "type": "float",
-              "label": "Constraint Damping",
-              "labels": {
-                "ja": "制約減衰",
-                "zh-TW": "限制阻尼",
-                "ko": "제약 감쇠",
-                "zh-CN": "约束阻尼"
-              },
-              "default": 0.2,
-              "min": 0,
-              "max": 2,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
+                "ja": "パーティクル間にオプションで設けられる距離制約。これを使うことで、全てがたるむことなく弱い剛性を使用できる。値が高いほどエッジは硬くなる。",
+                "zh-TW": "可選的粒子間距離約束，這樣即使使用較低的剛度，物體也不會下垂。數值越高 = 邊緣越硬挺。",
+                "ko": "입자 간 선택적 거리 제약 조건을 설정하여 모든 것이 늘어지지 않도록 약한 강성을 사용할 수 있습니다. 높을수록 더 단단한 엣지입니다.",
+                "zh-CN": "粒子之间的可选距离约束，这样即使刚度较低也不会所有部分垂弛。值越高，边缘越硬。"
               }
             },
             {
@@ -12532,10 +12004,10 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "ミリメートル単位のパーティクルサイズ",
+                "ja": "パーティクルのサイズ（mm）",
                 "zh-TW": "粒子尺寸（毫米）",
-                "ko": "입자 크기 (밀리미터)",
-                "zh-CN": "粒子尺寸（毫米）"
+                "ko": "밀리미터 단위의 입자 크기",
+                "zh-CN": "毫米中粒子大小"
               }
             },
             {
@@ -12565,9 +12037,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 0,
@@ -12587,19 +12059,19 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "抵抗（空気）",
-                "zh-TW": "阻力（空氣）",
-                "ko": "항력 (공기)",
+                "ja": "空気抵抗",
+                "zh-TW": "空氣阻力",
+                "ko": "공기 항력",
                 "zh-CN": "阻力（空气）"
               },
-              "default": 0,
+              "default": 0.3,
               "min": 0,
               "max": 2,
               "options": null,
               "description": "Air resistancy",
               "descriptions": {
                 "ja": "空気抵抗",
-                "zh-TW": "空氣阻力",
+                "zh-TW": "空氣阻抗",
                 "ko": "공기 저항",
                 "zh-CN": "空气阻力"
               }
@@ -12609,9 +12081,9 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "抵抗（水中）",
-                "zh-TW": "阻力（水下）",
-                "ko": "항력 (수중)",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻力",
+                "ko": "수중 항력",
                 "zh-CN": "阻力（水下）"
               },
               "default": 1,
@@ -12620,8 +12092,8 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水抵抗",
-                "zh-TW": "水下阻力",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻抗",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
               }
@@ -12654,7 +12126,7 @@
               "label": "Wind",
               "labels": {
                 "ja": "風",
-                "zh-TW": "風",
+                "zh-TW": "風力",
                 "ko": "바람",
                 "zh-CN": "风力"
               },
@@ -12675,8 +12147,8 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響度",
-                    "zh-TW": "風影響力",
+                    "ja": "風の影響力",
+                    "zh-TW": "風力影響",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
                   },
@@ -12697,7 +12169,7 @@
                   "type": "float",
                   "label": "Turbulence Scale",
                   "labels": {
-                    "ja": "乱流スケール",
+                    "ja": "乱気流スケール",
                     "zh-TW": "湍流尺度",
                     "ko": "난류 스케일",
                     "zh-CN": "湍流尺度"
@@ -12719,7 +12191,7 @@
                   "type": "float",
                   "label": "Turbulence Intensity",
                   "labels": {
-                    "ja": "乱流強度",
+                    "ja": "乱気流強度",
                     "zh-TW": "湍流強度",
                     "ko": "난류 강도",
                     "zh-CN": "湍流强度"
@@ -12741,7 +12213,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流タイムスケール",
+                    "ja": "乱気流時間スケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"

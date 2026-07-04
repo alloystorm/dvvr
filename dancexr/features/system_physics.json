@@ -134,7 +134,7 @@
       "label": "XPBD Settings",
       "labels": {
         "ja": "XPBD設定",
-        "zh-TW": "XPBD設定",
+        "zh-TW": "XPBD 設定",
         "ko": "XPBD 설정",
         "zh-CN": "XPBD设置"
       },
@@ -155,9 +155,9 @@
           "type": "bool",
           "label": "Parallel Solving",
           "labels": {
-            "ja": "並列解法",
-            "zh-TW": "並行求解",
-            "ko": "병렬 해법",
+            "ja": "並列計算",
+            "zh-TW": "並行解算",
+            "ko": "병렬 계산",
             "zh-CN": "并行求解"
           },
           "default": "true",
@@ -166,10 +166,10 @@
           "options": null,
           "description": "Use multi-threading for constraint solving to improve performance on complex scenes.",
           "descriptions": {
-            "ja": "制約解法にマルチスレッディングを使用し、複雑なシーンでのパフォーマンスを向上させる。",
-            "zh-TW": "使用多執行緒來求解約束，以提高在複雜場景中的性能。",
-            "ko": "복잡한 장면에 대한 성능 향상을 위해 제약 조건 해결에 멀티스레딩을 사용합니다.",
-            "zh-CN": "使用多线程进行约束求解，以提高复杂场景的性能。"
+            "ja": "制約解決にマルチスレッディングを使用し、複雑なシーンでのパフォーマンスを向上させる。",
+            "zh-TW": "使用多執行緒進行約束求解，以提高複雜場景下的性能。",
+            "ko": "제약 조건 해결을 위해 멀티스레딩을 사용함으로써 복잡한 장면에 대한 성능이 향상됩니다.",
+            "zh-CN": "使用多线程进行约束求解，提高复杂场景的性能。"
           }
         },
         {
@@ -178,9 +178,9 @@
           "label": "Substeps",
           "labels": {
             "ja": "サブステップ",
-            "zh-TW": "子步數",
-            "ko": "서브스텝",
-            "zh-CN": "子步"
+            "zh-TW": "子步次數",
+            "ko": "서브 스텝 수",
+            "zh-CN": "子步数"
           },
           "default": 8,
           "min": 1,
@@ -199,7 +199,7 @@
           "type": "int",
           "label": "Iterations",
           "labels": {
-            "ja": "イテレーション",
+            "ja": "反復回数",
             "zh-TW": "迭代次數",
             "ko": "반복 횟수",
             "zh-CN": "迭代次数"
@@ -232,10 +232,10 @@
           "options": null,
           "description": "Number of substeps between collision correction.",
           "descriptions": {
-            "ja": "衝突補正間のサブステップ数",
-            "zh-TW": "碰撞校正之間的子步數。",
-            "ko": "충돌 보정 간의 서브스텝 수.",
-            "zh-CN": "碰撞校正之间子步的数量。"
+            "ja": "衝突補正の間にあるサブステップ数。",
+            "zh-TW": "碰撞校正之間的子步次數。",
+            "ko": "충돌 보정 사이에 존재하는 서브 스텝 수.",
+            "zh-CN": "碰撞校正之间的子步数。"
           }
         },
         {
@@ -243,10 +243,10 @@
           "type": "bool",
           "label": "Iteration In Last Substep Only",
           "labels": {
-            "ja": "最終サブステップでのみイテレーションを実行する",
+            "ja": "最後のサブステップでのみ反復回数を実行",
             "zh-TW": "僅在最後一個子步迭代",
-            "ko": "마지막 서브스텝에서만 반복",
-            "zh-CN": "仅在最后一个子步中进行迭代。"
+            "ko": "마지막 서브 스텝에서만 반복 처리 여부",
+            "zh-CN": "仅在最后一步迭代时执行"
           },
           "default": "false",
           "min": 0,
@@ -254,10 +254,10 @@
           "options": null,
           "description": "Run iterations in the last substep only to improve performance.",
           "descriptions": {
-            "ja": "パフォーマンス向上のため、最終サブステップでのみイテレーションを実行する。",
-            "zh-TW": "僅在最後一個子步運行迭代次數，以提高性能。",
-            "ko": "성능 향상을 위해 마지막 서브스텝에서만 반복을 실행합니다.",
-            "zh-CN": "仅在最后一个子步中运行迭代，以提高性能。"
+            "ja": "パフォーマンスを向上させるために、最後のサブステップでのみ反復を実行する。",
+            "zh-TW": "僅在最後一個子步運行迭代次數以提高性能。",
+            "ko": "성능 향상을 위해 마지막 서브 스텝에만 반복을 실행합니다.",
+            "zh-CN": "仅在最后一步运行迭代以提高性能。"
           }
         },
         {
@@ -266,7 +266,7 @@
           "label": "Self Collision",
           "labels": {
             "ja": "自己衝突",
-            "zh-TW": "自我碰撞",
+            "zh-TW": "自碰撞",
             "ko": "자가 충돌",
             "zh-CN": "自碰撞"
           },
@@ -287,10 +287,10 @@
           "type": "bool",
           "label": "Body Collision",
           "labels": {
-            "ja": "ボディ衝突",
-            "zh-TW": "主體碰撞",
-            "ko": "본체 충돌",
-            "zh-CN": "体碰撞"
+            "ja": "体の衝突",
+            "zh-TW": "身體碰撞",
+            "ko": "신체 간 충돌",
+            "zh-CN": "物体碰撞"
           },
           "default": "true",
           "min": 0,
@@ -311,7 +311,7 @@
           "labels": {
             "ja": "地面摩擦",
             "zh-TW": "地面摩擦力",
-            "ko": "지면 마찰",
+            "ko": "지면 마찰력",
             "zh-CN": "地面摩擦力"
           },
           "default": 1,
@@ -320,10 +320,10 @@
           "options": null,
           "description": "Friction applied to particles in contact with the ground.",
           "descriptions": {
-            "ja": "地面と接触したパーティクルに適用される摩擦。",
-            "zh-TW": "應用於與地面接觸的粒子的摩擦力。",
-            "ko": "지면에 닿은 입자에 적용되는 마찰.",
-            "zh-CN": "作用于与地面接触的粒子的摩擦力。"
+            "ja": "地面に接触するパーティクルに適用される摩擦力。",
+            "zh-TW": "作用於與地面接觸的粒子的摩擦力。",
+            "ko": "지면에 접촉된 입자에 적용되는 마찰력.",
+            "zh-CN": "与地面接触的粒子的摩擦力。"
           }
         },
         {
@@ -331,9 +331,9 @@
           "type": "float",
           "label": "Expand Radius",
           "labels": {
-            "ja": "拡張半径",
+            "ja": "拡大半径",
             "zh-TW": "擴展半徑",
-            "ko": "확장 반지름",
+            "ko": "확장 반경",
             "zh-CN": "扩展半径"
           },
           "default": 0.01,
@@ -355,8 +355,8 @@
           "labels": {
             "ja": "流体イプシロン",
             "zh-TW": "流體 Epsilon",
-            "ko": "유체 입실론",
-            "zh-CN": "流体 Epsilon"
+            "ko": "유체 엡실론",
+            "zh-CN": "流体极小值（Epsilon）"
           },
           "default": 100,
           "min": 0,
@@ -366,8 +366,8 @@
           "descriptions": {
             "ja": "圧縮挙動の微調整",
             "zh-TW": "微調壓縮行為",
-            "ko": "압축 동작 미세 조정",
-            "zh-CN": "微调压缩行为"
+            "ko": "압축 동작 세부 조정",
+            "zh-CN": "精细调整压缩行为"
           }
         }
       ]

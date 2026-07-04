@@ -43,10 +43,10 @@
           "type": "float",
           "label": "Spawn Rate",
           "labels": {
-            "ja": "スポーンレート",
+            "ja": "スパウンスレート",
             "zh-TW": "生成速率",
             "ko": "생성률",
-            "zh-CN": "生成速率"
+            "zh-CN": "生成率"
           },
           "default": 1,
           "min": 0,
@@ -153,7 +153,7 @@
           "type": "float",
           "label": "Metallic",
           "labels": {
-            "ja": "メタリック",
+            "ja": "メタリック度",
             "zh-TW": "金屬感",
             "ko": "금속성",
             "zh-CN": "金属度"
@@ -176,9 +176,9 @@
           "label": "Smoothness",
           "labels": {
             "ja": "滑らかさ",
-            "zh-TW": "平滑度",
-            "ko": "부드러움",
-            "zh-CN": "平滑度"
+            "zh-TW": "光滑度",
+            "ko": "부드러움 정도",
+            "zh-CN": "光滑度"
           },
           "default": 0.5,
           "min": 0,
@@ -351,7 +351,7 @@
           "type": "bool",
           "label": "Collision",
           "labels": {
-            "ja": "衝突",
+            "ja": "衝突判定",
             "zh-TW": "碰撞",
             "ko": "충돌",
             "zh-CN": "碰撞"
@@ -529,9 +529,9 @@
           "type": "float",
           "label": "Droplet Size",
           "labels": {
-            "ja": "飛沫サイズ",
+            "ja": "液滴サイズ",
             "zh-TW": "液滴尺寸",
-            "ko": "물방울 크기",
+            "ko": "액적 크기",
             "zh-CN": "液滴大小"
           },
           "default": 1,

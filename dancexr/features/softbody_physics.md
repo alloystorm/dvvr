@@ -71,21 +71,12 @@ the constraint shape.
 
 ### XPBD
 
-Defines a particle-based XPBD softbody mesh that deforms with
-physics. Child bones of each selected root become simulation
-particles arranged in layers extending outward. **Depth** controls
-how far particles extend from the bone; **Edge Depth** pulls edge
-particles closer to the skeleton for a tighter fit. **Layers**
-and **Subdivision** increase mesh resolution at the cost of
-performance. **Depth Distribution** shifts volume between inner
-and outer layers.
-
-The constraint sliders (**Volume**, **Edge**, **Rotation**) control
-particle stiffness — higher values mean less deformation.
-**Constraint Damping** smooths oscillation between solver steps.
-**Inertia** adds resistance to rapid movement changes.
-**Show Bones** renders the original skeleton bones alongside the
-particle mesh for comparison.
+Shape-matching softbody. Each selected bone becomes a surface particle
+plus a locked inner anchor; overlapping clusters pull the surface back
+toward its rest shape, allowing soft local deformation and jiggle.
+**Depth** controls how far the inner anchors sit from the surface;
+**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
+sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
 
 ## Group 2
 
@@ -111,21 +102,12 @@ the constraint shape.
 
 ### XPBD
 
-Defines a particle-based XPBD softbody mesh that deforms with
-physics. Child bones of each selected root become simulation
-particles arranged in layers extending outward. **Depth** controls
-how far particles extend from the bone; **Edge Depth** pulls edge
-particles closer to the skeleton for a tighter fit. **Layers**
-and **Subdivision** increase mesh resolution at the cost of
-performance. **Depth Distribution** shifts volume between inner
-and outer layers.
-
-The constraint sliders (**Volume**, **Edge**, **Rotation**) control
-particle stiffness — higher values mean less deformation.
-**Constraint Damping** smooths oscillation between solver steps.
-**Inertia** adds resistance to rapid movement changes.
-**Show Bones** renders the original skeleton bones alongside the
-particle mesh for comparison.
+Shape-matching softbody. Each selected bone becomes a surface particle
+plus a locked inner anchor; overlapping clusters pull the surface back
+toward its rest shape, allowing soft local deformation and jiggle.
+**Depth** controls how far the inner anchors sit from the surface;
+**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
+sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
 
 ## Group 3
 
@@ -151,21 +133,12 @@ the constraint shape.
 
 ### XPBD
 
-Defines a particle-based XPBD softbody mesh that deforms with
-physics. Child bones of each selected root become simulation
-particles arranged in layers extending outward. **Depth** controls
-how far particles extend from the bone; **Edge Depth** pulls edge
-particles closer to the skeleton for a tighter fit. **Layers**
-and **Subdivision** increase mesh resolution at the cost of
-performance. **Depth Distribution** shifts volume between inner
-and outer layers.
-
-The constraint sliders (**Volume**, **Edge**, **Rotation**) control
-particle stiffness — higher values mean less deformation.
-**Constraint Damping** smooths oscillation between solver steps.
-**Inertia** adds resistance to rapid movement changes.
-**Show Bones** renders the original skeleton bones alongside the
-particle mesh for comparison.
+Shape-matching softbody. Each selected bone becomes a surface particle
+plus a locked inner anchor; overlapping clusters pull the surface back
+toward its rest shape, allowing soft local deformation and jiggle.
+**Depth** controls how far the inner anchors sit from the surface;
+**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
+sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
 
 ## Group 4
 
@@ -191,21 +164,12 @@ the constraint shape.
 
 ### XPBD
 
-Defines a particle-based XPBD softbody mesh that deforms with
-physics. Child bones of each selected root become simulation
-particles arranged in layers extending outward. **Depth** controls
-how far particles extend from the bone; **Edge Depth** pulls edge
-particles closer to the skeleton for a tighter fit. **Layers**
-and **Subdivision** increase mesh resolution at the cost of
-performance. **Depth Distribution** shifts volume between inner
-and outer layers.
-
-The constraint sliders (**Volume**, **Edge**, **Rotation**) control
-particle stiffness — higher values mean less deformation.
-**Constraint Damping** smooths oscillation between solver steps.
-**Inertia** adds resistance to rapid movement changes.
-**Show Bones** renders the original skeleton bones alongside the
-particle mesh for comparison.
+Shape-matching softbody. Each selected bone becomes a surface particle
+plus a locked inner anchor; overlapping clusters pull the surface back
+toward its rest shape, allowing soft local deformation and jiggle.
+**Depth** controls how far the inner anchors sit from the surface;
+**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
+sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
 
 ## Group 5
 
@@ -231,21 +195,12 @@ the constraint shape.
 
 ### XPBD
 
-Defines a particle-based XPBD softbody mesh that deforms with
-physics. Child bones of each selected root become simulation
-particles arranged in layers extending outward. **Depth** controls
-how far particles extend from the bone; **Edge Depth** pulls edge
-particles closer to the skeleton for a tighter fit. **Layers**
-and **Subdivision** increase mesh resolution at the cost of
-performance. **Depth Distribution** shifts volume between inner
-and outer layers.
-
-The constraint sliders (**Volume**, **Edge**, **Rotation**) control
-particle stiffness — higher values mean less deformation.
-**Constraint Damping** smooths oscillation between solver steps.
-**Inertia** adds resistance to rapid movement changes.
-**Show Bones** renders the original skeleton bones alongside the
-particle mesh for comparison.
+Shape-matching softbody. Each selected bone becomes a surface particle
+plus a locked inner anchor; overlapping clusters pull the surface back
+toward its rest shape, allowing soft local deformation and jiggle.
+**Depth** controls how far the inner anchors sit from the surface;
+**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
+sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
 
 ## Group 6
 
@@ -271,21 +226,12 @@ the constraint shape.
 
 ### XPBD
 
-Defines a particle-based XPBD softbody mesh that deforms with
-physics. Child bones of each selected root become simulation
-particles arranged in layers extending outward. **Depth** controls
-how far particles extend from the bone; **Edge Depth** pulls edge
-particles closer to the skeleton for a tighter fit. **Layers**
-and **Subdivision** increase mesh resolution at the cost of
-performance. **Depth Distribution** shifts volume between inner
-and outer layers.
-
-The constraint sliders (**Volume**, **Edge**, **Rotation**) control
-particle stiffness — higher values mean less deformation.
-**Constraint Damping** smooths oscillation between solver steps.
-**Inertia** adds resistance to rapid movement changes.
-**Show Bones** renders the original skeleton bones alongside the
-particle mesh for comparison.
+Shape-matching softbody. Each selected bone becomes a surface particle
+plus a locked inner anchor; overlapping clusters pull the surface back
+toward its rest shape, allowing soft local deformation and jiggle.
+**Depth** controls how far the inner anchors sit from the surface;
+**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
+sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
 
 ## Group 7
 
@@ -311,21 +257,12 @@ the constraint shape.
 
 ### XPBD
 
-Defines a particle-based XPBD softbody mesh that deforms with
-physics. Child bones of each selected root become simulation
-particles arranged in layers extending outward. **Depth** controls
-how far particles extend from the bone; **Edge Depth** pulls edge
-particles closer to the skeleton for a tighter fit. **Layers**
-and **Subdivision** increase mesh resolution at the cost of
-performance. **Depth Distribution** shifts volume between inner
-and outer layers.
-
-The constraint sliders (**Volume**, **Edge**, **Rotation**) control
-particle stiffness — higher values mean less deformation.
-**Constraint Damping** smooths oscillation between solver steps.
-**Inertia** adds resistance to rapid movement changes.
-**Show Bones** renders the original skeleton bones alongside the
-particle mesh for comparison.
+Shape-matching softbody. Each selected bone becomes a surface particle
+plus a locked inner anchor; overlapping clusters pull the surface back
+toward its rest shape, allowing soft local deformation and jiggle.
+**Depth** controls how far the inner anchors sit from the surface;
+**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
+sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
 
 ## Group 8
 
@@ -351,19 +288,10 @@ the constraint shape.
 
 ### XPBD
 
-Defines a particle-based XPBD softbody mesh that deforms with
-physics. Child bones of each selected root become simulation
-particles arranged in layers extending outward. **Depth** controls
-how far particles extend from the bone; **Edge Depth** pulls edge
-particles closer to the skeleton for a tighter fit. **Layers**
-and **Subdivision** increase mesh resolution at the cost of
-performance. **Depth Distribution** shifts volume between inner
-and outer layers.
-
-The constraint sliders (**Volume**, **Edge**, **Rotation**) control
-particle stiffness — higher values mean less deformation.
-**Constraint Damping** smooths oscillation between solver steps.
-**Inertia** adds resistance to rapid movement changes.
-**Show Bones** renders the original skeleton bones alongside the
-particle mesh for comparison.
+Shape-matching softbody. Each selected bone becomes a surface particle
+plus a locked inner anchor; overlapping clusters pull the surface back
+toward its rest shape, allowing soft local deformation and jiggle.
+**Depth** controls how far the inner anchors sit from the surface;
+**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
+sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
 

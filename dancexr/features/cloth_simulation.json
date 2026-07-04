@@ -1036,10 +1036,10 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "ミリメートル単位のパーティクルサイズ",
+                "ja": "パーティクルのサイズ（mm）",
                 "zh-TW": "粒子尺寸（毫米）",
-                "ko": "입자 크기 (밀리미터)",
-                "zh-CN": "粒子尺寸（毫米）"
+                "ko": "밀리미터 단위의 입자 크기",
+                "zh-CN": "毫米中粒子大小"
               }
             },
             {
@@ -1069,9 +1069,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 0.25,
@@ -1091,9 +1091,9 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "抵抗（空気）",
-                "zh-TW": "阻力（空氣）",
-                "ko": "항력 (공기)",
+                "ja": "空気抵抗",
+                "zh-TW": "空氣阻力",
+                "ko": "공기 항력",
                 "zh-CN": "阻力（空气）"
               },
               "default": 0.5,
@@ -1103,7 +1103,7 @@
               "description": "Air resistancy",
               "descriptions": {
                 "ja": "空気抵抗",
-                "zh-TW": "空氣阻力",
+                "zh-TW": "空氣阻抗",
                 "ko": "공기 저항",
                 "zh-CN": "空气阻力"
               }
@@ -1113,9 +1113,9 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "抵抗（水中）",
-                "zh-TW": "阻力（水下）",
-                "ko": "항력 (수중)",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻力",
+                "ko": "수중 항력",
                 "zh-CN": "阻力（水下）"
               },
               "default": 1,
@@ -1124,8 +1124,8 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水抵抗",
-                "zh-TW": "水下阻力",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻抗",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
               }
@@ -1158,7 +1158,7 @@
               "label": "Wind",
               "labels": {
                 "ja": "風",
-                "zh-TW": "風",
+                "zh-TW": "風力",
                 "ko": "바람",
                 "zh-CN": "风力"
               },
@@ -1179,8 +1179,8 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響度",
-                    "zh-TW": "風影響力",
+                    "ja": "風の影響力",
+                    "zh-TW": "風力影響",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
                   },
@@ -1201,7 +1201,7 @@
                   "type": "float",
                   "label": "Turbulence Scale",
                   "labels": {
-                    "ja": "乱流スケール",
+                    "ja": "乱気流スケール",
                     "zh-TW": "湍流尺度",
                     "ko": "난류 스케일",
                     "zh-CN": "湍流尺度"
@@ -1223,7 +1223,7 @@
                   "type": "float",
                   "label": "Turbulence Intensity",
                   "labels": {
-                    "ja": "乱流強度",
+                    "ja": "乱気流強度",
                     "zh-TW": "湍流強度",
                     "ko": "난류 강도",
                     "zh-CN": "湍流强度"
@@ -1245,7 +1245,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流タイムスケール",
+                    "ja": "乱気流時間スケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -1271,8 +1271,8 @@
               "labels": {
                 "ja": "アンカー摩擦",
                 "zh-TW": "固定點摩擦力",
-                "ko": "앵커 마찰",
-                "zh-CN": "固定点摩擦力"
+                "ko": "앵커 마찰력",
+                "zh-CN": "锚点摩擦力"
               },
               "default": 1,
               "min": 0,
@@ -1280,10 +1280,10 @@
               "options": null,
               "description": "Friction for anchored layers",
               "descriptions": {
-                "ja": "固定レイヤーの摩擦",
+                "ja": "固定層の摩擦",
                 "zh-TW": "固定層的摩擦力",
-                "ko": "앵커된 레이어 마찰",
-                "zh-CN": "固定层摩擦力"
+                "ko": "고정된 레이어에 대한 마찰력",
+                "zh-CN": "锚定层级的摩擦力"
               }
             },
             {
@@ -1292,7 +1292,7 @@
               "label": "Angular Spring",
               "labels": {
                 "ja": "角ばね",
-                "zh-TW": "角向彈簧",
+                "zh-TW": "角張彈簧",
                 "ko": "각도 스프링",
                 "zh-CN": "角形弹簧"
               },
@@ -1302,10 +1302,10 @@
               "options": null,
               "description": "Default angular spring stiffness for joints without rotation springs. Higher values pull joints back toward rest pose more strongly. 0 = disabled.",
               "descriptions": {
-                "ja": "回転バネのないジョイントのデフォルトの角ばねの剛性。高い値ほどジョイントをレストポーズに強く戻します。0=無効。",
-                "zh-TW": "缺乏旋轉彈簧的關節的預設角向彈簧剛度。數值越高，關節恢復到靜止姿勢的力量越大。0 = 停用。",
-                "ko": "회전 스프링이 없는 관절의 기본 각도 스프링 강성. 값이 높을수록 관절을 휴식 자세로 더 강하게 끌어당깁니다. 0 = 비활성화.",
-                "zh-CN": "没有旋转弹簧的关节的默认角形弹簧刚度。较高值会更强烈地将关节拉回静止姿势。0 = 禁用。"
+                "ja": "回転バネのないジョイントのデフォルト角度ばね剛性。高い値ほどジョイントを休息姿勢により強く戻します。0＝無効。",
+                "zh-TW": "沒有旋轉彈簧的關節預設角張彈簧剛度。數值越高，將使關節更強地拉回靜態姿勢。0 = 停用。",
+                "ko": "회전 스프링이 없는 관절의 기본 각도 스프링 강성. 값이 높을수록 관절이 휴식 자세로 더 강하게 당겨집니다. 0 = 비활성화.",
+                "zh-CN": "关节没有旋转弹簧时的默认角形弹簧刚度。数值越高，越能将关节拉回静止姿势。0 = 禁用。"
               }
             },
             {
@@ -1689,10 +1689,10 @@
               "type": "bool",
               "label": "Rest Distance Check",
               "labels": {
-                "ja": "レスト距離チェック",
+                "ja": "休息距離チェック",
                 "zh-TW": "靜止距離檢查",
                 "ko": "휴식 거리 확인",
-                "zh-CN": "静止距离检查"
+                "zh-CN": "恢复距离检查"
               },
               "default": "false",
               "min": 0,
@@ -1700,10 +1700,10 @@
               "options": null,
               "description": "Use rest distance for self collision between rigid bodies in the same block. Helps when rigid body shapes are not configured perfectly.",
               "descriptions": {
-                "ja": "同じブロック内の剛体間の自己衝突にレスト距離を使用する。剛体形状が完璧に設定されていない場合に役立ちます。",
-                "zh-TW": "在同一區塊內，針對剛體之間的自我碰撞使用靜止距離。當剛體形狀配置不完美時，這會有幫助。",
-                "ko": "같은 블록 내 강체 간의 자가 충돌에 휴식 거리를 사용합니다. 강체 모양이 완벽하게 설정되지 않았을 때 도움이 됩니다.",
-                "zh-CN": "对同一块体内的刚体自碰撞使用静止距离。当刚体形状未配置完美时很有帮助。"
+                "ja": "同じブロック内の剛体間の自己衝突に休息距離を使用。剛体の形状が完璧に設定されていない場合に役立ちます。",
+                "zh-TW": "在同一區塊的剛體之間使用靜止距離進行自碰撞檢測。當剛體形狀無法完美配置時，會有幫助。",
+                "ko": "같은 블록 내의 강체 간 자가 충돌에 휴식 거리를 사용합니다. 강체 모양 설정이 완벽하지 않을 때 도움이 됩니다.",
+                "zh-CN": "使用刚体块内自碰撞的恢复距离。有助于解决刚体形状配置不完美时的问题。"
               }
             },
             {
@@ -1711,10 +1711,10 @@
               "type": "bool",
               "label": "Use Repulsion (Bounce)",
               "labels": {
-                "ja": "(Use Repulsion (Bounce))",
-                "zh-TW": "(Use Repulsion (Bounce))",
-                "ko": "(Use Repulsion (Bounce))",
-                "zh-CN": "(Use Repulsion (Bounce))"
+                "ja": "反発力の使用（バウンス）",
+                "zh-TW": "使用排斥力（彈跳）",
+                "ko": "척력 사용 (튕김)",
+                "zh-CN": "使用排斥力（弹跳）"
               },
               "default": "false",
               "min": 0,
@@ -1722,10 +1722,10 @@
               "options": null,
               "description": "Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.",
               "descriptions": {
-                "ja": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
-                "zh-TW": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
-                "ko": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
-                "zh-CN": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)"
+                "ja": "PMX剛体反発値を衝突バウンスとして復元します。ほとんどのモデルは反発力をゼロに近い値で出荷するため、通常目に見える差はありません。",
+                "zh-TW": "將 PMX 剛體排斥值恢復為碰撞彈跳。大多數模型預設的排斥值接近零，因此這通常不會帶來明顯的可見差異。",
+                "ko": "PMX 강체 척력 값을 충돌 튕김으로 복원합니다. 대부분의 모델은 척력을 거의 0에 가깝게 전송하므로, 이는 보통 눈에 띄는 차이가 적습니다.",
+                "zh-CN": "将PMX刚体的排斥值作为碰撞弹跳来恢复。大多数模型默认接近零，因此这通常不会带来可见的变化。"
               }
             }
           ]
@@ -1957,7 +1957,7 @@
               "type": "float",
               "label": "Metallic",
               "labels": {
-                "ja": "メタリック",
+                "ja": "メタリック度",
                 "zh-TW": "金屬感",
                 "ko": "금속성",
                 "zh-CN": "金属度"
@@ -2023,9 +2023,9 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "周囲光",
+                "ja": "環境光",
                 "zh-TW": "環境光",
-                "ko": "주변광",
+                "ko": "주변광(Ambient)",
                 "zh-CN": "环境光"
               },
               "default": 1,
@@ -2509,9 +2509,9 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "周囲光",
+                    "ja": "環境光",
                     "zh-TW": "環境光",
-                    "ko": "주변광",
+                    "ko": "주변광(Ambient)",
                     "zh-CN": "环境光"
                   },
                   "default": 0.75,
@@ -5150,10 +5150,10 @@
               "options": null,
               "description": "Size of particle in millimeters",
               "descriptions": {
-                "ja": "ミリメートル単位のパーティクルサイズ",
+                "ja": "パーティクルのサイズ（mm）",
                 "zh-TW": "粒子尺寸（毫米）",
-                "ko": "입자 크기 (밀리미터)",
-                "zh-CN": "粒子尺寸（毫米）"
+                "ko": "밀리미터 단위의 입자 크기",
+                "zh-CN": "毫米中粒子大小"
               }
             },
             {
@@ -5183,9 +5183,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 0.25,
@@ -5205,9 +5205,9 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "抵抗（空気）",
-                "zh-TW": "阻力（空氣）",
-                "ko": "항력 (공기)",
+                "ja": "空気抵抗",
+                "zh-TW": "空氣阻力",
+                "ko": "공기 항력",
                 "zh-CN": "阻力（空气）"
               },
               "default": 0.5,
@@ -5217,7 +5217,7 @@
               "description": "Air resistancy",
               "descriptions": {
                 "ja": "空気抵抗",
-                "zh-TW": "空氣阻力",
+                "zh-TW": "空氣阻抗",
                 "ko": "공기 저항",
                 "zh-CN": "空气阻力"
               }
@@ -5227,9 +5227,9 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "抵抗（水中）",
-                "zh-TW": "阻力（水下）",
-                "ko": "항력 (수중)",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻力",
+                "ko": "수중 항력",
                 "zh-CN": "阻力（水下）"
               },
               "default": 1,
@@ -5238,8 +5238,8 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水抵抗",
-                "zh-TW": "水下阻力",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻抗",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
               }
@@ -5272,7 +5272,7 @@
               "label": "Wind",
               "labels": {
                 "ja": "風",
-                "zh-TW": "風",
+                "zh-TW": "風力",
                 "ko": "바람",
                 "zh-CN": "风力"
               },
@@ -5293,8 +5293,8 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響度",
-                    "zh-TW": "風影響力",
+                    "ja": "風の影響力",
+                    "zh-TW": "風力影響",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
                   },
@@ -5315,7 +5315,7 @@
                   "type": "float",
                   "label": "Turbulence Scale",
                   "labels": {
-                    "ja": "乱流スケール",
+                    "ja": "乱気流スケール",
                     "zh-TW": "湍流尺度",
                     "ko": "난류 스케일",
                     "zh-CN": "湍流尺度"
@@ -5337,7 +5337,7 @@
                   "type": "float",
                   "label": "Turbulence Intensity",
                   "labels": {
-                    "ja": "乱流強度",
+                    "ja": "乱気流強度",
                     "zh-TW": "湍流強度",
                     "ko": "난류 강도",
                     "zh-CN": "湍流强度"
@@ -5359,7 +5359,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流タイムスケール",
+                    "ja": "乱気流時間スケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -5385,8 +5385,8 @@
               "labels": {
                 "ja": "アンカー摩擦",
                 "zh-TW": "固定點摩擦力",
-                "ko": "앵커 마찰",
-                "zh-CN": "固定点摩擦力"
+                "ko": "앵커 마찰력",
+                "zh-CN": "锚点摩擦力"
               },
               "default": 1,
               "min": 0,
@@ -5394,10 +5394,10 @@
               "options": null,
               "description": "Friction for anchored layers",
               "descriptions": {
-                "ja": "固定レイヤーの摩擦",
+                "ja": "固定層の摩擦",
                 "zh-TW": "固定層的摩擦力",
-                "ko": "앵커된 레이어 마찰",
-                "zh-CN": "固定层摩擦力"
+                "ko": "고정된 레이어에 대한 마찰력",
+                "zh-CN": "锚定层级的摩擦力"
               }
             },
             {
@@ -5406,7 +5406,7 @@
               "label": "Angular Spring",
               "labels": {
                 "ja": "角ばね",
-                "zh-TW": "角向彈簧",
+                "zh-TW": "角張彈簧",
                 "ko": "각도 스프링",
                 "zh-CN": "角形弹簧"
               },
@@ -5416,10 +5416,10 @@
               "options": null,
               "description": "Default angular spring stiffness for joints without rotation springs. Higher values pull joints back toward rest pose more strongly. 0 = disabled.",
               "descriptions": {
-                "ja": "回転バネのないジョイントのデフォルトの角ばねの剛性。高い値ほどジョイントをレストポーズに強く戻します。0=無効。",
-                "zh-TW": "缺乏旋轉彈簧的關節的預設角向彈簧剛度。數值越高，關節恢復到靜止姿勢的力量越大。0 = 停用。",
-                "ko": "회전 스프링이 없는 관절의 기본 각도 스프링 강성. 값이 높을수록 관절을 휴식 자세로 더 강하게 끌어당깁니다. 0 = 비활성화.",
-                "zh-CN": "没有旋转弹簧的关节的默认角形弹簧刚度。较高值会更强烈地将关节拉回静止姿势。0 = 禁用。"
+                "ja": "回転バネのないジョイントのデフォルト角度ばね剛性。高い値ほどジョイントを休息姿勢により強く戻します。0＝無効。",
+                "zh-TW": "沒有旋轉彈簧的關節預設角張彈簧剛度。數值越高，將使關節更強地拉回靜態姿勢。0 = 停用。",
+                "ko": "회전 스프링이 없는 관절의 기본 각도 스프링 강성. 값이 높을수록 관절이 휴식 자세로 더 강하게 당겨집니다. 0 = 비활성화.",
+                "zh-CN": "关节没有旋转弹簧时的默认角形弹簧刚度。数值越高，越能将关节拉回静止姿势。0 = 禁用。"
               }
             },
             {
@@ -5803,10 +5803,10 @@
               "type": "bool",
               "label": "Rest Distance Check",
               "labels": {
-                "ja": "レスト距離チェック",
+                "ja": "休息距離チェック",
                 "zh-TW": "靜止距離檢查",
                 "ko": "휴식 거리 확인",
-                "zh-CN": "静止距离检查"
+                "zh-CN": "恢复距离检查"
               },
               "default": "false",
               "min": 0,
@@ -5814,10 +5814,10 @@
               "options": null,
               "description": "Use rest distance for self collision between rigid bodies in the same block. Helps when rigid body shapes are not configured perfectly.",
               "descriptions": {
-                "ja": "同じブロック内の剛体間の自己衝突にレスト距離を使用する。剛体形状が完璧に設定されていない場合に役立ちます。",
-                "zh-TW": "在同一區塊內，針對剛體之間的自我碰撞使用靜止距離。當剛體形狀配置不完美時，這會有幫助。",
-                "ko": "같은 블록 내 강체 간의 자가 충돌에 휴식 거리를 사용합니다. 강체 모양이 완벽하게 설정되지 않았을 때 도움이 됩니다.",
-                "zh-CN": "对同一块体内的刚体自碰撞使用静止距离。当刚体形状未配置完美时很有帮助。"
+                "ja": "同じブロック内の剛体間の自己衝突に休息距離を使用。剛体の形状が完璧に設定されていない場合に役立ちます。",
+                "zh-TW": "在同一區塊的剛體之間使用靜止距離進行自碰撞檢測。當剛體形狀無法完美配置時，會有幫助。",
+                "ko": "같은 블록 내의 강체 간 자가 충돌에 휴식 거리를 사용합니다. 강체 모양 설정이 완벽하지 않을 때 도움이 됩니다.",
+                "zh-CN": "使用刚体块内自碰撞的恢复距离。有助于解决刚体形状配置不完美时的问题。"
               }
             },
             {
@@ -5825,10 +5825,10 @@
               "type": "bool",
               "label": "Use Repulsion (Bounce)",
               "labels": {
-                "ja": "(Use Repulsion (Bounce))",
-                "zh-TW": "(Use Repulsion (Bounce))",
-                "ko": "(Use Repulsion (Bounce))",
-                "zh-CN": "(Use Repulsion (Bounce))"
+                "ja": "反発力の使用（バウンス）",
+                "zh-TW": "使用排斥力（彈跳）",
+                "ko": "척력 사용 (튕김)",
+                "zh-CN": "使用排斥力（弹跳）"
               },
               "default": "false",
               "min": 0,
@@ -5836,10 +5836,10 @@
               "options": null,
               "description": "Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.",
               "descriptions": {
-                "ja": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
-                "zh-TW": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
-                "ko": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)",
-                "zh-CN": "(Restore the PMX rigidbody repulsion value as collision bounce. Most models ship repulsion near zero, so this usually makes little visible difference.)"
+                "ja": "PMX剛体反発値を衝突バウンスとして復元します。ほとんどのモデルは反発力をゼロに近い値で出荷するため、通常目に見える差はありません。",
+                "zh-TW": "將 PMX 剛體排斥值恢復為碰撞彈跳。大多數模型預設的排斥值接近零，因此這通常不會帶來明顯的可見差異。",
+                "ko": "PMX 강체 척력 값을 충돌 튕김으로 복원합니다. 대부분의 모델은 척력을 거의 0에 가깝게 전송하므로, 이는 보통 눈에 띄는 차이가 적습니다.",
+                "zh-CN": "将PMX刚体的排斥值作为碰撞弹跳来恢复。大多数模型默认接近零，因此这通常不会带来可见的变化。"
               }
             }
           ]
@@ -6071,7 +6071,7 @@
               "type": "float",
               "label": "Metallic",
               "labels": {
-                "ja": "メタリック",
+                "ja": "メタリック度",
                 "zh-TW": "金屬感",
                 "ko": "금속성",
                 "zh-CN": "金属度"
@@ -6137,9 +6137,9 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "周囲光",
+                "ja": "環境光",
                 "zh-TW": "環境光",
-                "ko": "주변광",
+                "ko": "주변광(Ambient)",
                 "zh-CN": "环境光"
               },
               "default": 1,
@@ -6623,9 +6623,9 @@
                   "type": "float",
                   "label": "Ambient",
                   "labels": {
-                    "ja": "周囲光",
+                    "ja": "環境光",
                     "zh-TW": "環境光",
-                    "ko": "주변광",
+                    "ko": "주변광(Ambient)",
                     "zh-CN": "环境光"
                   },
                   "default": 0.75,
@@ -8250,7 +8250,7 @@
       "label": "Fluid (Experimental)",
       "labels": {
         "ja": "流体（実験的）",
-        "zh-TW": "流體 (實驗性)",
+        "zh-TW": "流體（實驗性）",
         "ko": "유체 (실험적)",
         "zh-CN": "流体（实验性）"
       },
@@ -8271,7 +8271,7 @@
           "type": "group",
           "label": "Spawn",
           "labels": {
-            "ja": "スポーン",
+            "ja": "スパウンス",
             "zh-TW": "生成",
             "ko": "생성",
             "zh-CN": "生成"
@@ -8473,7 +8473,7 @@
               "type": "float",
               "label": "Spawn Radius",
               "labels": {
-                "ja": "スポーン半径",
+                "ja": "スポアンス半径",
                 "zh-TW": "生成半徑",
                 "ko": "스폰 반경",
                 "zh-CN": "生成半径"
@@ -8496,7 +8496,7 @@
               "label": "Spread",
               "labels": {
                 "ja": "拡散",
-                "zh-TW": "擴散",
+                "zh-TW": "擴散範圍",
                 "ko": "확산",
                 "zh-CN": "扩散范围"
               },
@@ -8517,10 +8517,10 @@
               "type": "float",
               "label": "Spawn Rate",
               "labels": {
-                "ja": "スポーンレート",
+                "ja": "スパウンスレート",
                 "zh-TW": "生成速率",
                 "ko": "생성률",
-                "zh-CN": "生成速率"
+                "zh-CN": "生成率"
               },
               "default": 20,
               "min": 0,
@@ -8561,10 +8561,10 @@
               "type": "bool",
               "label": "Mouse / Hand Control",
               "labels": {
-                "ja": "マウス/ハンド操作",
+                "ja": "マウス/手による制御",
                 "zh-TW": "滑鼠/手部控制",
-                "ko": "마우스 / 손 조작",
-                "zh-CN": "鼠标/手柄控制"
+                "ko": "마우스 / 핸드 컨트롤",
+                "zh-CN": "鼠标/手部控制"
               },
               "default": "false",
               "min": 0,
@@ -8583,7 +8583,7 @@
               "type": "bool",
               "label": "Auto Aim",
               "labels": {
-                "ja": "オートエイム",
+                "ja": "自動照準",
                 "zh-TW": "自動瞄準",
                 "ko": "자동 조준",
                 "zh-CN": "自动瞄准"
@@ -8606,8 +8606,8 @@
               "label": "Max TTL",
               "labels": {
                 "ja": "最大TTL",
-                "zh-TW": "最大生存時間",
-                "ko": "최대 TTL",
+                "zh-TW": "最大生存時間 (TTL)",
+                "ko": "최대 생존 시간",
                 "zh-CN": "最大存活时间"
               },
               "default": 10,
@@ -8616,10 +8616,10 @@
               "options": null,
               "description": "Particles disappear and respawn after this amount of time.",
               "descriptions": {
-                "ja": "この時間量後に粒子が消え、再スポーンします。",
-                "zh-TW": "粒子在這個時間量後消失並重生。",
+                "ja": "この時間経過後に粒子が消滅し、再出現します。",
+                "zh-TW": "粒子在此時間後消失並重新生成。",
                 "ko": "이 시간 후에 입자가 사라지고 다시 생성됩니다.",
-                "zh-CN": "粒子在指定时间后消失并重新生成。"
+                "zh-CN": "颗粒销毁并在此时间内重生。"
               }
             },
             {
@@ -8627,10 +8627,10 @@
               "type": "float",
               "label": "TTL on Floor",
               "labels": {
-                "ja": "床でのTTL",
-                "zh-TW": "地板上的生存時間",
-                "ko": "바닥 TTL",
-                "zh-CN": "地面存活时间"
+                "ja": "床上のTTL",
+                "zh-TW": "地板上的存活時間",
+                "ko": "바닥 TTL (Time to Live)",
+                "zh-CN": "地面生存时间"
               },
               "default": 0.1,
               "min": 0,
@@ -8638,10 +8638,10 @@
               "options": null,
               "description": "Time to live after hitting floor.",
               "descriptions": {
-                "ja": "床に当たった後の生存時間。",
-                "zh-TW": "擊中地板後的生存時間。",
-                "ko": "바닥 충돌 후 생존 시간.",
-                "zh-CN": "触地后的生存时间。"
+                "ja": "床に当たった後の生存時間（TTL）。",
+                "zh-TW": "擊中地板後的存活時間。",
+                "ko": "바닥에 닿은 후의 수명.",
+                "zh-CN": "击中地面后的存活时间。"
               }
             },
             {
@@ -8651,7 +8651,7 @@
               "labels": {
                 "ja": "スムージング",
                 "zh-TW": "平滑度",
-                "ko": "스무딩",
+                "ko": "스무딩 (Smoothing)",
                 "zh-CN": "平滑度"
               },
               "default": 0.5,
@@ -8696,7 +8696,7 @@
               "label": "Cohesion",
               "labels": {
                 "ja": "凝集力",
-                "zh-TW": "凝聚力",
+                "zh-TW": "黏結性",
                 "ko": "응집력",
                 "zh-CN": "内聚力"
               },
@@ -8717,10 +8717,10 @@
               "type": "float",
               "label": "Viscosity",
               "labels": {
-                "ja": "粘性",
+                "ja": "粘度",
                 "zh-TW": "黏度",
-                "ko": "점도",
-                "zh-CN": "粘度"
+                "ko": "점성",
+                "zh-CN": "黏度"
               },
               "default": 0,
               "min": 0,
@@ -8740,8 +8740,8 @@
               "label": "Stick To Surface",
               "labels": {
                 "ja": "表面への付着",
-                "zh-TW": "附著於表面",
-                "ko": "표면에 고정",
+                "zh-TW": "表面附著力",
+                "ko": "표면에 달라붙음",
                 "zh-CN": "附着于表面"
               },
               "default": 0.1,
@@ -8762,9 +8762,9 @@
               "label": "Particle Size",
               "labels": {
                 "ja": "粒子サイズ",
-                "zh-TW": "粒子大小",
+                "zh-TW": "粒子尺寸",
                 "ko": "입자 크기",
-                "zh-CN": "粒子大小"
+                "zh-CN": "颗粒大小"
               },
               "default": 3,
               "min": 1,
@@ -8772,10 +8772,10 @@
               "options": null,
               "description": "Rest distance between particles in mm. Drives rest density, body-collision radius, and (via Kernel Ratio) the SPH kernel reach.",
               "descriptions": {
-                "ja": "粒子間の静止距離をmm単位で設定します。静止密度、体衝突半径、および（カーネル比率経由で）SPHカーネルの到達範囲を決定します。",
-                "zh-TW": "以毫米為單位的粒子間靜止距離。決定靜止密度、實體碰撞半徑以及（通過核比例決定的）SPH 內核範圍。",
-                "ko": "mm 단위의 입자 간 정지 거리. 정지 밀도, 바디 충돌 반경 및 (커널 비율을 통해) SPH 커널 범위에 영향을 미칩니다.",
-                "zh-CN": "以毫米为单位的粒子间静止距离。决定静止密度、实体碰撞半径以及（通过核比例决定的）SPH 内核范围。"
+                "ja": "粒子間の静止距離（mm）。静止密度、物体衝突半径、および（カーネル比率を介して）SPHカーネルの到達範囲を決定します。",
+                "zh-TW": "粒子之間的靜止距離（毫米）。驅動靜態密度、身體碰撞半徑，以及（透過核心函數比率）SPH核心範圍。",
+                "ko": "입자 간의 최소 거리를 mm 단위로 설정합니다. 휴지 밀도, 본체 충돌 반경 및 (커널 비율을 통해) SPH 커널 도달 범위를 결정합니다.",
+                "zh-CN": "颗粒间的静止距离（单位：毫米）。决定静止密度、体碰撞半径，以及（通过核函数比率）SPH核心范围。"
               }
             },
             {
@@ -8784,9 +8784,9 @@
               "label": "Kernel Ratio",
               "labels": {
                 "ja": "カーネル比率",
-                "zh-TW": "核半徑比例",
-                "ko": "커널 반경 비율",
-                "zh-CN": "核半径比例"
+                "zh-TW": "核心函數比率",
+                "ko": "커널 비율",
+                "zh-CN": "核函数比率"
               },
               "default": 2,
               "min": 1,
@@ -8794,10 +8794,10 @@
               "options": null,
               "description": "SPH kernel radius as a multiple of Particle Size. Standard PBF value is 2.0. Higher = smoother/slower, lower = sharper/less stable. Clamped to ≥ 1 so the kernel never falls below the rest distance.",
               "descriptions": {
-                "ja": "粒子サイズの倍率としてのSPHカーネル半径。標準PBF値は2.0です。高いほどスムーズ/遅く、低いほどシャープ/不安定になります。カーネルが静止距離を下回らないよう1以上でクランプされます。",
-                "zh-TW": "作為粒子大小倍數的 SPH 內核半徑。標準 PBF 值為 2.0。值越高越平滑/越慢，越低越銳利/越不穩定。限制為 ≥ 1，以使內核永遠不會低於靜止距離。",
-                "ko": "입자 크기의 배수로서의 SPH 커널 반경. 표준 PBF 값은 2.0입니다. 높을수록 부드럽고 느리며, 낮을수록 선명하고 불안정합니다. 커널이 정지 거리 이하로 떨어지지 않도록 ≥ 1로 고정됩니다.",
-                "zh-CN": "作为粒子大小倍数的 SPH 内核半径。标准 PBF 值为 2.0。值越高越平滑/越慢，越低越锐利/越不稳定。限制为 ≥ 1，以使内核永远不会低于静止距离。"
+                "ja": "SPHカーネル半径（粒子サイズの倍率）。標準PBF値は2.0です。高いほど滑らかで遅く、低いほどシャープですが不安定になります。カーネルが静止距離を下回らないよう1以上にクランプされます。",
+                "zh-TW": "SPH核心半徑，作為粒子尺寸的倍數。標準PBF值為2.0。越高=更平滑/越慢，越低=更銳利/不穩定。限制在≥ 1，以確保核心不會低於靜止距離。",
+                "ko": "입자 크기의 배율로 계산된 SPH 커널 반경입니다. 표준 PBF 값은 2.0입니다. 값이 클수록 더 부드럽고 느리며, 작을수록 더 날카롭고 불안정합니다. 커널이 최소 거리 이하로 떨어지는 것을 방지하기 위해 ≥ 1로 고정됩니다.",
+                "zh-CN": "SPH核半径是颗粒大小的倍数。标准PBF值为2.0。越高=越平滑/越慢，越低=越清晰/越不稳定。限制在≥1以确保核不会低于静止距离。"
               }
             },
             {
@@ -8816,10 +8816,10 @@
               "options": null,
               "description": "Multiplier on the auto-derived rest density. >1 = stiffer fluid, <1 = more compressible.",
               "descriptions": {
-                "ja": "自動導出された静止密度に対する乗数。>1の場合、流体はより硬く、<1の場合、より圧縮可能です。",
-                "zh-TW": "自動推導的靜止密度的乘數。>1 = 更粘稠/堅硬的流體，<1 = 更易壓縮。",
-                "ko": "자동 도출된 정지 밀도의 배수. >1 = 더 뻣뻣한 유체, <1 = 더 압축 가능한 유체.",
-                "zh-CN": "自动推导的静止密度的乘数。>1 = 更粘稠/坚硬的流体，<1 = 更易压缩。"
+                "ja": "自動導出された静止密度に乗じる倍率。>1はより硬い流体、<1はより圧縮しやすい流体を意味します。",
+                "zh-TW": "自動計算的靜態密度的倍數。>1 = 更硬的流體，<1 = 更有可壓縮性。",
+                "ko": "자동 계산된 휴지 밀도에 대한 배율입니다. >1 = 더 단단한 유체, <1 = 압축성이 높음.",
+                "zh-CN": "自动计算的静止密度的乘数。>1=更硬的流体，<1=更可压缩。"
               }
             },
             {
@@ -8827,10 +8827,10 @@
               "type": "float",
               "label": "Pressure Softness",
               "labels": {
-                "ja": "圧力の平滑さ",
-                "zh-TW": "壓力柔軟度",
-                "ko": "압력 부드움",
-                "zh-CN": "压力柔软度"
+                "ja": "圧力の柔らかさ",
+                "zh-TW": "壓力柔和度",
+                "ko": "압력 부드러움 정도",
+                "zh-CN": "压力柔和度"
               },
               "default": 0,
               "min": -4,
@@ -8838,10 +8838,10 @@
               "options": null,
               "description": "PBF lambda regularization. Higher = softer pressure response; the knob to raise when particles bounce off each other on spawn.",
               "descriptions": {
-                "ja": "PBFラムダ正則化。高いほど圧力応答が柔らかくなります。粒子が生成時に互いに跳ねる際に調整するノブです。",
-                "zh-TW": "PBF lambda 正規化。越高表示壓力響應越軟；當粒子在生成時相互彈開時，可調高此參數。",
-                "ko": "PBF 람다 정규화. 값이 높을수록 압력 반응이 더 부드러워집니다. 생성 시 입자가 서로 튕겨 나갈 때 이 값을 높이십시오.",
-                "zh-CN": "PBF lambda 正则化。越高表示压力响应越软；当粒子在生成时相互弹开时，可调高此参数。"
+                "ja": "PBFラムダ正則化。高いほど圧力応答が柔らかくなります。粒子がスポーン時に衝突する場合に調整するノブです。",
+                "zh-TW": "PBF λ正则化。越高=壓力響應越柔和；當粒子在生成時相互彈跳時，用於提高此數值。",
+                "ko": "PBF 라무다 정규화. 값이 클수록 압력 반응이 부드러워집니다. 입자들이 스폰 시 서로 튕겨져 나갈 때 조정하는 노브입니다.",
+                "zh-CN": "PBF拉姆达正则化。越高=压力响应越柔和；当颗粒在生成时互相碰撞时应提高此项。"
               }
             },
             {
@@ -8852,7 +8852,7 @@
                 "ja": "流体サイズ",
                 "zh-TW": "流體尺寸",
                 "ko": "유체 크기",
-                "zh-CN": "流体尺寸"
+                "zh-CN": "流体大小"
               },
               "default": 0,
               "min": -2,
@@ -8860,10 +8860,10 @@
               "options": null,
               "description": "Uniform scale on particle radius, target distance, and kernel range. <1 = finer fluid (smaller droplets, more detailed surfaces); >1 = chunkier. Costs nothing — just rescales the existing values at runtime.",
               "descriptions": {
-                "ja": "粒子半径、目標距離、およびカーネル範囲の均一スケール。<1の場合、より繊細な流体（より小さな飛沫、より詳細な表面）になります。>1の場合、より塊状になります。コストはかかりません — ランタイムで既存の値を再スケーリングするだけです。",
-                "zh-TW": "粒子半徑、目標距離和內核範圍的統一縮放。<1 = 更精細的流體（更小的液滴，更詳細的表面）；>1 = 更粗糙。無性能開銷——只是在運行時重新縮放現有值。",
-                "ko": "입자 반경, 목표 거리 및 커널 범위에 대한 균일 스케일. <1 = 더 미세한 유체(더 작은 물방울, 더 세밀한 표면), >1 = 더 덩어리진 유체. 비용 없음 - 런타임에 기존 값을 재조정합니다.",
-                "zh-CN": "粒子半径、目标距离和内核范围的统一缩放。<1 = 更精细的流体（更小的液滴，更详细的表面）；>1 = 更粗糙。无性能开销——只是在运行时重新缩放现有值。"
+                "ja": "粒子半径、目標距離、およびカーネル範囲の均一スケール。<1はより細かい流体（小さい液滴、詳細な表面）を、>1はより塊状にします。コストはかかりません—ランタイムで既存の値が再スケーリングされるだけです。",
+                "zh-TW": "適用於粒子半徑、目標距離和核心範圍的統一縮放比例。<1 = 更細緻的流體（更小的液滴，更詳細的表面）；>1 = 更粗塊化。不消耗任何資源——只是在運行時重新縮放現有值。",
+                "ko": "입자 반경, 목표 거리 및 커널 범위를 위한 균일 스케일입니다. <1 = 더 미세한 유체(더 작은 액적, 더 상세한 표면); >1 = 덩어리짐. 비용은 들지 않으며, 런타임에 기존 값을 단순히 재조정합니다.",
+                "zh-CN": "作用于颗粒半径、目标距离和核心范围的统一缩放。<1=更精细的流体（较小的液滴，更精细的表面）；>1=更粗糙。不消耗资源——只是在运行时重新缩放现有值。"
               }
             }
           ]
@@ -8895,10 +8895,10 @@
               "type": "bool",
               "label": "Render Particle",
               "labels": {
-                "ja": "粒子のレンダリング",
+                "ja": "粒子レンダリング",
                 "zh-TW": "渲染粒子",
                 "ko": "입자 렌더링",
-                "zh-CN": "渲染粒子"
+                "zh-CN": "渲染颗粒"
               },
               "default": "true",
               "min": 0,
@@ -8917,9 +8917,9 @@
               "type": "bool",
               "label": "Render Droplet",
               "labels": {
-                "ja": "飛沫のレンダリング",
+                "ja": "液滴レンダリング",
                 "zh-TW": "渲染液滴",
-                "ko": "물방울 렌더링",
+                "ko": "액적(Droplet) 렌더링",
                 "zh-CN": "渲染液滴"
               },
               "default": "false",
@@ -8939,9 +8939,9 @@
               "type": "float",
               "label": "Droplet Size",
               "labels": {
-                "ja": "飛沫サイズ",
+                "ja": "液滴サイズ",
                 "zh-TW": "液滴尺寸",
-                "ko": "물방울 크기",
+                "ko": "액적 크기",
                 "zh-CN": "液滴大小"
               },
               "default": 2,
@@ -8950,10 +8950,10 @@
               "options": null,
               "description": "Droplet size in MM",
               "descriptions": {
-                "ja": "飛沫サイズ（mm）",
-                "zh-TW": "液滴尺寸（單位：毫米）",
-                "ko": "물방울 크기 (MM)",
-                "zh-CN": "液滴大小（毫米）"
+                "ja": "液滴のサイズ（mm）",
+                "zh-TW": "液滴尺寸（毫米）",
+                "ko": "액적 크기 (MM 단위)",
+                "zh-CN": "液滴尺寸（毫米）"
               }
             },
             {
@@ -9139,7 +9139,7 @@
               "type": "float",
               "label": "Metallic",
               "labels": {
-                "ja": "メタリック",
+                "ja": "メタリック度",
                 "zh-TW": "金屬感",
                 "ko": "금속성",
                 "zh-CN": "金属度"
@@ -9162,9 +9162,9 @@
               "label": "Smoothness",
               "labels": {
                 "ja": "滑らかさ",
-                "zh-TW": "平滑度",
-                "ko": "부드러움",
-                "zh-CN": "平滑度"
+                "zh-TW": "光滑度",
+                "ko": "부드러움 정도",
+                "zh-CN": "光滑度"
               },
               "default": 0.95,
               "min": 0,
@@ -9230,9 +9230,9 @@
           "label": "Ray March Surface",
           "labels": {
             "ja": "レイマーチ表面",
-            "zh-TW": "光線步進表面",
+            "zh-TW": "光線步進曲面",
             "ko": "레이 마칭 표면",
-            "zh-CN": "光线投射表面"
+            "zh-CN": "光线步进表面"
           },
           "default": 0,
           "min": 0,
@@ -9440,10 +9440,10 @@
               "options": null,
               "description": "Bulk tint opacity. Lower = more refraction visible.",
               "descriptions": {
-                "ja": "バルクティントの不透明度。低いほど屈折がより見えます。",
-                "zh-TW": "整體色調不透明度。越低 = 可見折射越多。",
-                "ko": "벌크 틴트 불투명도. 낮을수록 굴절이 더 잘 보입니다.",
-                "zh-CN": "整体色调不透明度。越低 = 可见折射越多。"
+                "ja": "全体の色味の不透明度。低いほど屈折が見やすくなります。",
+                "zh-TW": "體積色調不透明度。越低=折射現象越明顯。",
+                "ko": "전체 색상 농도의 불투명도입니다. 낮을수록 굴절이 더 많이 보입니다.",
+                "zh-CN": "整体着色不透明度。越低=折射可见越多。"
               }
             },
             {
@@ -9452,8 +9452,8 @@
               "label": "Specular Power",
               "labels": {
                 "ja": "鏡面指数",
-                "zh-TW": "高光指數",
-                "ko": "스펙큘러 파워",
+                "zh-TW": "反射光功率",
+                "ko": "반사광(Specular) 파워",
                 "zh-CN": "高光指数"
               },
               "default": 64,
@@ -9474,9 +9474,9 @@
               "label": "Specular Strength",
               "labels": {
                 "ja": "鏡面強度",
-                "zh-TW": "高光反射強度",
-                "ko": "스펙큘러 강도",
-                "zh-CN": "高光反射强度"
+                "zh-TW": "反射光強度",
+                "ko": "반사광(Specular) 강도",
+                "zh-CN": "高光强度"
               },
               "default": 1,
               "min": 0,
@@ -9495,9 +9495,9 @@
               "type": "float",
               "label": "Ambient",
               "labels": {
-                "ja": "周囲光",
+                "ja": "環境光",
                 "zh-TW": "環境光",
-                "ko": "주변광",
+                "ko": "주변광(Ambient)",
                 "zh-CN": "环境光"
               },
               "default": 0.25,
@@ -9517,10 +9517,10 @@
               "type": "float",
               "label": "Fresnel Power",
               "labels": {
-                "ja": "フレネル指数",
-                "zh-TW": "菲涅爾指數",
+                "ja": "フレネルパワー",
+                "zh-TW": "菲涅爾功率",
                 "ko": "프레넬 파워",
-                "zh-CN": "菲涅尔指数"
+                "zh-CN": "菲涅尔幂次方"
               },
               "default": 4,
               "min": 0.5,
@@ -9550,7 +9550,7 @@
               "options": null,
               "description": "Screen-space refraction strength.",
               "descriptions": {
-                "ja": "スクリーン空間での屈折強度。",
+                "ja": "スクリーン空間の屈折強度。",
                 "zh-TW": "螢幕空間折射強度。",
                 "ko": "스크린 공간 굴절 강도.",
                 "zh-CN": "屏幕空间折射强度。"
@@ -9561,10 +9561,10 @@
               "type": "float",
               "label": "Surface Radius",
               "labels": {
-                "ja": "(Surface Radius)",
-                "zh-TW": "(Surface Radius)",
-                "ko": "(Surface Radius)",
-                "zh-CN": "(Surface Radius)"
+                "ja": "表面半径",
+                "zh-TW": "曲面半徑",
+                "ko": "표면 반경",
+                "zh-CN": "表面半径"
               },
               "default": 0.45,
               "min": 0.15,
@@ -9572,10 +9572,10 @@
               "options": null,
               "description": "How far from a lone particle the surface renders, as a fraction of the kernel radius. Bigger = fatter, blobbier surface reaching further from the particles; smaller = tight shrink-wrap that only shows dense clusters.",
               "descriptions": {
-                "ja": "(How far from a lone particle the surface renders, as a fraction of the kernel radius. Bigger = fatter, blobbier surface reaching further from the particles; smaller = tight shrink-wrap that only shows dense clusters.)",
-                "zh-TW": "(How far from a lone particle the surface renders, as a fraction of the kernel radius. Bigger = fatter, blobbier surface reaching further from the particles; smaller = tight shrink-wrap that only shows dense clusters.)",
-                "ko": "(How far from a lone particle the surface renders, as a fraction of the kernel radius. Bigger = fatter, blobbier surface reaching further from the particles; smaller = tight shrink-wrap that only shows dense clusters.)",
-                "zh-CN": "(How far from a lone particle the surface renders, as a fraction of the kernel radius. Bigger = fatter, blobbier surface reaching further from the particles; smaller = tight shrink-wrap that only shows dense clusters.)"
+                "ja": "単独の粒子からどの程度まで表面を描画するか（カーネル半径の割合）。大きいほど、より太く、丸みを帯びた表面が粒子から遠くまで到達します。小さいほど、密なクラスターのみを表示するタイトなシュリンクラップになります。",
+                "zh-TW": "相對於單個粒子的曲面渲染距離，以核心半徑的比例計算。越大=更厚實、更臃腫的表面可以從粒子處傳播得更遠；越小=緊密的縮褶包裹，只顯示密集群集。",
+                "ko": "커널 반경의 비율로, 단일 입자로부터 표면이 렌더링되는 거리입니다. 값이 클수록 입자로부터 더 멀리 도달하는 두껍고 둥근 표면이 됩니다; 작을수록 밀집된 군집만 보여주는 타이트한 슈링크랩(shrink-wrap) 효과가 나타납니다.",
+                "zh-CN": "距离单个颗粒多远开始渲染表面，以核半径的比例计。越大=更厚重、更臃肿的表面，能从颗粒处延伸更远；越小=紧密的收缩包装，只显示密集的簇群。"
               }
             },
             {
@@ -9585,7 +9585,7 @@
               "labels": {
                 "ja": "最大ステップ数",
                 "zh-TW": "最大步數",
-                "ko": "최대 단계",
+                "ko": "최대 스텝 수",
                 "zh-CN": "最大步数"
               },
               "default": 9,
@@ -9594,10 +9594,10 @@
               "options": null,
               "description": "Maximum raymarch iterations per pixel (at Fluid Size = 1). Higher = longer reach but more GPU cost. Auto-scaled by fluid size so small fluids get more steps.",
               "descriptions": {
-                "ja": "ピクセルあたりの最大レイマーチ反復回数（流体サイズ=1の場合）。高いほど到達距離が長くなりますが、GPUコストが増します。小さな流体でも多くのステップが確保されるよう流体サイズによって自動スケーリングされます。",
-                "zh-TW": "每個像素的最大光線步進迭代次數（在流體尺寸 = 1 時）。越高 = 範圍越長但 GPU 開銷越大。隨流體尺寸自動縮放，因此小流體可以獲得更多步數。",
-                "ko": "픽셀당 최대 레이 마칭 반복 횟수(유체 크기 = 1 기준). 높을수록 도달 범위는 길어지지만 GPU 비용이 증가합니다. 유체 크기에 따라 자동 스케일되므로 작은 유체는 더 많은 단계를 거칩니다.",
-                "zh-CN": "每个像素的最大光线步进迭代次数（在流体尺寸 = 1 时）。越高 = 范围越长但 GPU 开销越大。随流体尺寸自动缩放，因此小流体可以获得更多步数。"
+                "ja": "ピクセルあたりの最大レイマーチ反復回数（流体サイズが1の場合）。高いほど到達範囲は長くなりますが、GPUコストが増加します。小さな流体にもより多くのステップが得られるよう、流体サイズによって自動調整されます。",
+                "zh-TW": "每像素的最大光線步進迭代次數（當流體尺寸 = 1 時）。越高=覆蓋範圍越長，但GPU成本更高。會根據流體尺寸自動縮放，因此小型流體能獲得更多步數。",
+                "ko": "(유체 크기 = 1 기준) 픽셀당 최대 레이마칭 반복 횟수입니다. 값이 클수록 도달 거리는 길어지지만 GPU 비용이 더 많이 발생합니다. 유체 크기에 따라 자동 조정되어 작은 유체는 더 많은 스텝을 얻습니다.",
+                "zh-CN": "每个像素的最大光线步进迭代次数（流体大小=1时）。越高=渲染范围越长但GPU成本更高。会根据流体大小自动缩放，以便小型流体获得更多步数。"
               }
             },
             {
@@ -9606,9 +9606,9 @@
               "label": "Far Step Size",
               "labels": {
                 "ja": "遠方ステップサイズ",
-                "zh-TW": "遠步長",
-                "ko": "원거리 단계 크기",
-                "zh-CN": "远步长"
+                "zh-TW": "遠處步進大小",
+                "ko": "원거리 스텝 크기",
+                "zh-CN": "远距离步进尺寸"
               },
               "default": 1,
               "min": 0.25,
@@ -9616,10 +9616,10 @@
               "options": null,
               "description": "Empty-space stride as a multiple of the kernel radius h. Bigger = faster march but may overshoot thin sheets.",
               "descriptions": {
-                "ja": "カーネル半径hの倍率としての空空間ストライド。大きいほどマーチングは速くなりますが、薄いシートを飛び越える可能性があります。",
-                "zh-TW": "空閒空間步長占內核半徑 h 的倍數。越大 = 步進越快但可能會跳過薄片。",
-                "ko": "커널 반경 h의 배수로서의 빈 공간 보폭. 클수록 마칭이 빠르지만 얇은 시트를 지나칠 수 있습니다.",
-                "zh-CN": "空闲空间步长占内核半径 h 的倍数。越大 = 步进越快但可能会跳过薄片。"
+                "ja": "空中空間のストライド（カーネル半径hの倍率）。大きいほどマーチングは速くなりますが、薄いシートを飛び越える可能性があります。",
+                "zh-TW": "空氣空間步進（與核心半徑 h 的倍數）。越大=步進越快，但可能會超過薄片。",
+                "ko": "커널 반경 h의 배율로 빈 공간 간격(Empty-space stride)입니다. 값이 클수록 마칭 속도가 빨라지지만 얇은 막(sheet)를 건너뛸 수 있습니다.",
+                "zh-CN": "空空间步长，以核半径h的倍数计。越大=光线步进越快但可能超过薄片。"
               }
             },
             {
@@ -9627,10 +9627,10 @@
               "type": "float",
               "label": "Near Step Size",
               "labels": {
-                "ja": "近距離ステップサイズ",
-                "zh-TW": "近步長",
-                "ko": "근거리 단계 크기",
-                "zh-CN": "近步长"
+                "ja": "近方ステップサイズ",
+                "zh-TW": "接近處步進大小",
+                "ko": "근거리 스텝 크기",
+                "zh-CN": "近距离步进尺寸"
               },
               "default": 0.25,
               "min": 0.05,
@@ -9638,10 +9638,10 @@
               "options": null,
               "description": "Near-surface stride as a multiple of h. Smaller = crisper silhouette but more steps consumed near the surface.",
               "descriptions": {
-                "ja": "hの倍率としての近表面ストライド。小さいほどシルエットは鮮明になりますが、表面近くでより多くのステップが消費されます。",
-                "zh-TW": "接近表面時的步長占 h 的倍數。越小 = 輪廓越清晰，但在表面附近消耗的步數更多。",
-                "ko": "h의 배수로서의 표면 근처 보폭. 작을수록 실루엣이 더 선명하지만 표면 근처에서 더 많은 단계가 소비됩니다.",
-                "zh-CN": "接近表面时的步长占 h 的倍数。越小 = 轮廓越清晰，但在表面附近消耗的步数更多。"
+                "ja": "近表面のストライド（hの倍率）。小さいほどシルエットはシャープになりますが、表面付近でより多くのステップを消費します。",
+                "zh-TW": "接近表面步進（與 h 的倍數）。越小=輪廓越清晰，但在表面附近消耗的步驟越多。",
+                "ko": "h의 배율로 근접 표면 간격(Near-surface stride)입니다. 값이 작을수록 실루엣이 선명하지만 표면 근처에서 더 많은 스텝을 사용합니다.",
+                "zh-CN": "接近表面步长，以h的倍数计。越小=轮廓更清晰但接近表面会消耗更多步数。"
               }
             },
             {
@@ -9650,9 +9650,9 @@
               "label": "Step Switch",
               "labels": {
                 "ja": "ステップ切り替え",
-                "zh-TW": "步長切換閾值",
-                "ko": "단계 스위치",
-                "zh-CN": "步长切换阈值"
+                "zh-TW": "步進切換",
+                "ko": "스텝 전환점",
+                "zh-CN": "步进切换"
               },
               "default": 0.2,
               "min": 0.05,
@@ -9660,10 +9660,10 @@
               "options": null,
               "description": "Density (as a fraction of the surface isolevel) at which the march drops from Far to Near step size. Lower = switch sooner, more accurate but slower.",
               "descriptions": {
-                "ja": "マージが遠方ステップサイズから近距離ステップサイズに切り替わる密度（表面等値面の割合）。低いほど早く切り替わり、より正確ですが遅くなります。",
-                "zh-TW": "光线步进从远步长降低到近步长时的密度（作为表面等值面的一部分）。越低 = 切换越早，越精确但越慢。",
-                "ko": "마칭이 원거리에서 근거리 단계 크기로 떨어지는 밀도(표면 등가면의 일부). 낮을수록 더 빨리 전환되어 더 정확하지만 느려집니다.",
-                "zh-CN": "光线步进从远步长降低到近步长时的密度（作为表面等值面的一部分）。越低 = 切换越早，越精确但越慢。"
+                "ja": "マーチングが遠方ステップサイズから近方ステップサイズに切り替わる密度（表面等値面の割合）。低いほど早く切り替わり、より正確ですが遅くなります。",
+                "zh-TW": "步進從遠處變為接近處的密度（作為曲面等值面的比例）。越低=切換得更早，更準確但速度較慢。",
+                "ko": "마칭이 원거리 스텝 크기에서 근접 스텝 크기로 전환되는 밀도 (표면 아이소레벨의 비율)입니다. 값이 낮을수록 더 빨리 전환되며, 더 정확하지만 느립니다.",
+                "zh-CN": "光线步进从远距离尺寸切换到近距离尺寸的密度（作为表面等值线的比例）。越低=切换得越早，更准确但速度更慢。"
               }
             },
             {
@@ -9671,9 +9671,9 @@
               "type": "float",
               "label": "Normal Detail",
               "labels": {
-                "ja": "法線詳細",
+                "ja": "法線ディテール",
                 "zh-TW": "法線細節",
-                "ko": "법선 디테일",
+                "ko": "노멀 디테일",
                 "zh-CN": "法线细节"
               },
               "default": 0.1,
@@ -9682,10 +9682,10 @@
               "options": null,
               "description": "Finite-difference sample distance for the surface normal, as a multiple of h. Smaller = more surface detail but noisier; larger = smoother but blurry.",
               "descriptions": {
-                "ja": "表面法線に対する有限差分サンプリング距離をhの倍率で指定します。小さいほどより多くの表面詳細が出ますがノイズが乗ります。大きいほどスムーズですがぼやけます。",
-                "zh-TW": "用於表面法線差分計算的採樣距離，占 h 的倍數。越小 = 表面細節越多但噪點越多；越大 = 越平滑但越模糊。",
-                "ko": "표면 법선에 대한 유한 차분 샘플 거리(h의 배수). 작을수록 표면 디테일은 늘어나지만 노이즈가 심해지고, 클수록 부드럽지만 흐릿해집니다.",
-                "zh-CN": "用于表面法线差分计算的采样距离，占 h 的倍数。越小 = 表面细节越多但噪点越多；越大 = 越平滑但越模糊。"
+                "ja": "表面法線の有限差分サンプル距離（hの倍率）。小さいほどより多くの表面ディテールが得られますが、ノイズが増えます。大きいほど滑らかですがぼやけます。",
+                "zh-TW": "曲面法線的有限差分採樣距離，與 h 的倍數。越小=表面細節越多但噪點更多；越大=更平滑但模糊。",
+                "ko": "h의 배율로 표면 노멀에 대한 유한 차분 샘플 간격입니다. 값이 작을수록 표면 디테일은 높지만 노이즈가 많고, 클수록 부드럽지만 흐릿합니다.",
+                "zh-CN": "表面法线的有限差分采样距离，以h的倍数计。越小=更多表面细节但更噪点；越大=更平滑但模糊。"
               }
             }
           ]
@@ -9739,9 +9739,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 0,
@@ -9761,9 +9761,9 @@
               "type": "float",
               "label": "Drag (Air)",
               "labels": {
-                "ja": "抵抗（空気）",
-                "zh-TW": "阻力（空氣）",
-                "ko": "항력 (공기)",
+                "ja": "空気抵抗",
+                "zh-TW": "空氣阻力",
+                "ko": "공기 항력",
                 "zh-CN": "阻力（空气）"
               },
               "default": -2,
@@ -9773,7 +9773,7 @@
               "description": "Air resistancy",
               "descriptions": {
                 "ja": "空気抵抗",
-                "zh-TW": "空氣阻力",
+                "zh-TW": "空氣阻抗",
                 "ko": "공기 저항",
                 "zh-CN": "空气阻力"
               }
@@ -9783,9 +9783,9 @@
               "type": "float",
               "label": "Drag (Underwater)",
               "labels": {
-                "ja": "抵抗（水中）",
-                "zh-TW": "阻力（水下）",
-                "ko": "항력 (수중)",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻力",
+                "ko": "수중 항력",
                 "zh-CN": "阻力（水下）"
               },
               "default": -2,
@@ -9794,8 +9794,8 @@
               "options": null,
               "description": "Underwater resistancy",
               "descriptions": {
-                "ja": "水抵抗",
-                "zh-TW": "水下阻力",
+                "ja": "水中抵抗",
+                "zh-TW": "水下阻抗",
                 "ko": "수중 저항",
                 "zh-CN": "水下阻力"
               }
@@ -9828,7 +9828,7 @@
               "label": "Wind",
               "labels": {
                 "ja": "風",
-                "zh-TW": "風",
+                "zh-TW": "風力",
                 "ko": "바람",
                 "zh-CN": "风力"
               },
@@ -9849,8 +9849,8 @@
                   "type": "float",
                   "label": "Wind Influence",
                   "labels": {
-                    "ja": "風の影響度",
-                    "zh-TW": "風影響力",
+                    "ja": "風の影響力",
+                    "zh-TW": "風力影響",
                     "ko": "바람 영향력",
                     "zh-CN": "风力影响"
                   },
@@ -9871,7 +9871,7 @@
                   "type": "float",
                   "label": "Turbulence Scale",
                   "labels": {
-                    "ja": "乱流スケール",
+                    "ja": "乱気流スケール",
                     "zh-TW": "湍流尺度",
                     "ko": "난류 스케일",
                     "zh-CN": "湍流尺度"
@@ -9893,7 +9893,7 @@
                   "type": "float",
                   "label": "Turbulence Intensity",
                   "labels": {
-                    "ja": "乱流強度",
+                    "ja": "乱気流強度",
                     "zh-TW": "湍流強度",
                     "ko": "난류 강도",
                     "zh-CN": "湍流强度"
@@ -9915,7 +9915,7 @@
                   "type": "float",
                   "label": "Turbulence Time Scale",
                   "labels": {
-                    "ja": "乱流タイムスケール",
+                    "ja": "乱気流時間スケール",
                     "zh-TW": "湍流時間尺度",
                     "ko": "난류 시간 스케일",
                     "zh-CN": "湍流时间尺度"
@@ -10587,9 +10587,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -10857,9 +10857,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -11239,9 +11239,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -11621,9 +11621,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -12003,9 +12003,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -12385,9 +12385,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -12767,9 +12767,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -13149,9 +13149,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -13531,9 +13531,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -13913,9 +13913,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -14295,9 +14295,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -14677,9 +14677,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -15059,9 +15059,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -15441,9 +15441,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -15823,9 +15823,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -16339,9 +16339,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,
@@ -16721,9 +16721,9 @@
               "type": "float",
               "label": "Friction",
               "labels": {
-                "ja": "摩擦",
+                "ja": "摩擦力",
                 "zh-TW": "摩擦力",
-                "ko": "마찰",
+                "ko": "마찰력",
                 "zh-CN": "摩擦力"
               },
               "default": 1,

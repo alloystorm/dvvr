@@ -131,10 +131,10 @@
           "type": "float",
           "label": "Bend",
           "labels": {
-            "ja": "屈曲",
-            "zh-TW": "彎曲",
-            "ko": "굽힘 정도",
-            "zh-CN": "弯曲"
+            "ja": "曲げ",
+            "zh-TW": "彎曲度",
+            "ko": "굽힘",
+            "zh-CN": "弯曲度"
           },
           "default": 0,
           "min": -150,
@@ -912,7 +912,7 @@
             "ja": "左",
             "zh-TW": "左",
             "ko": "왼쪽",
-            "zh-CN": "左侧"
+            "zh-CN": "左"
           },
           "default": 0,
           "min": 0,
@@ -933,7 +933,7 @@
               "labels": {
                 "ja": "開く",
                 "zh-TW": "張開",
-                "ko": "열기",
+                "ko": "펼치기",
                 "zh-CN": "张开"
               },
               "default": 0,
@@ -1134,7 +1134,7 @@
             "ja": "右",
             "zh-TW": "右",
             "ko": "오른쪽",
-            "zh-CN": "右侧"
+            "zh-CN": "右"
           },
           "default": 0,
           "min": 0,
@@ -1155,7 +1155,7 @@
               "labels": {
                 "ja": "開く",
                 "zh-TW": "張開",
-                "ko": "열기",
+                "ko": "펼치기",
                 "zh-CN": "张开"
               },
               "default": 0,
@@ -1355,10 +1355,10 @@
       "type": "bool",
       "label": "Hands Symmetrical",
       "labels": {
-        "ja": "手の左右対称",
+        "ja": "両手対称",
         "zh-TW": "雙手對稱",
-        "ko": "손 대칭",
-        "zh-CN": "手对称"
+        "ko": "양손 대칭",
+        "zh-CN": "双手对称"
       },
       "default": "true",
       "min": 0,
@@ -1421,10 +1421,10 @@
           "type": "group",
           "label": "Hand Position",
           "labels": {
-            "ja": "手の位置",
+            "ja": "手の配置",
             "zh-TW": "手部位置",
             "ko": "손 위치",
-            "zh-CN": "手部姿势"
+            "zh-CN": "手部位置"
           },
           "default": 0,
           "min": 0,
@@ -1624,9 +1624,9 @@
           "label": "Elbow Orientation",
           "labels": {
             "ja": "肘の向き",
-            "zh-TW": "肘部方向",
+            "zh-TW": "手肘方向",
             "ko": "팔꿈치 방향",
-            "zh-CN": "肘部方向"
+            "zh-CN": "手肘方向"
           },
           "default": 0,
           "min": -180,
@@ -1645,10 +1645,10 @@
           "type": "bool",
           "label": "Mirror Left/Right",
           "labels": {
-            "ja": "左/右のミラーリング",
-            "zh-TW": "鏡像左右",
-            "ko": "좌우 미러링",
-            "zh-CN": "镜像左/右"
+            "ja": "左/右ミラーリング",
+            "zh-TW": "左右鏡像",
+            "ko": "좌/우 미러링",
+            "zh-CN": "左右镜像"
           },
           "default": "false",
           "min": 0,
@@ -1669,7 +1669,7 @@
           "labels": {
             "ja": "参照アクター",
             "zh-TW": "參考角色",
-            "ko": "참조 액터",
+            "ko": "기준 액터",
             "zh-CN": "参考角色"
           },
           "default": "Self",
@@ -1691,7 +1691,7 @@
           "labels": {
             "ja": "参照ボーン",
             "zh-TW": "參考骨骼",
-            "ko": "참조 본",
+            "ko": "기준 본",
             "zh-CN": "参考骨骼"
           },
           "default": "None",
@@ -1711,10 +1711,10 @@
           "type": "int",
           "label": "Side Selection",
           "labels": {
-            "ja": "側面の選択",
+            "ja": "サイド選択",
             "zh-TW": "側邊選擇",
             "ko": "측면 선택",
-            "zh-CN": "侧面选择"
+            "zh-CN": "侧边选择"
           },
           "default": 0,
           "min": 0,
@@ -1751,14 +1751,36 @@
           }
         },
         {
+          "name": "Adapt to Shape",
+          "type": "bool",
+          "label": "Adapt to Shape",
+          "labels": {
+            "ja": "形状への適応",
+            "zh-TW": "適應形狀",
+            "ko": "형태 적응",
+            "zh-CN": "适应形状"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
           "name": "Blend Hand Motion",
           "type": "bool",
           "label": "Blend Hand Motion",
           "labels": {
-            "ja": "手の動きのブレンド",
+            "ja": "ハンドモーションブレンド",
             "zh-TW": "手部動作混合",
             "ko": "손 동작 블렌딩",
-            "zh-CN": "混合手部动作"
+            "zh-CN": "手部运动混合"
           },
           "default": "false",
           "min": 0,
@@ -1779,7 +1801,7 @@
           "labels": {
             "ja": "ブレンド範囲",
             "zh-TW": "混合範圍",
-            "ko": "블렌딩 범위",
+            "ko": "블렌드 범위",
             "zh-CN": "混合范围"
           },
           "default": 0.75,
@@ -1821,10 +1843,10 @@
           "type": "bool",
           "label": "Use Accessory Position",
           "labels": {
-            "ja": "アクセサリー位置を使用",
+            "ja": "アクセサリー位置使用",
             "zh-TW": "使用配件位置",
             "ko": "액세서리 위치 사용",
-            "zh-CN": "使用配饰位置"
+            "zh-CN": "使用附件位置"
           },
           "default": "true",
           "min": 0,
@@ -2113,7 +2135,7 @@
           "labels": {
             "ja": "カスタムポーズ",
             "zh-TW": "自定義姿態",
-            "ko": "커스텀 포즈",
+            "ko": "사용자 지정 포즈",
             "zh-CN": "自定义姿势"
           },
           "default": 0,
@@ -2135,7 +2157,7 @@
               "labels": {
                 "ja": "開く",
                 "zh-TW": "張開",
-                "ko": "열기",
+                "ko": "펼치기",
                 "zh-CN": "张开"
               },
               "default": 0,
@@ -2155,10 +2177,10 @@
               "type": "float",
               "label": "Thumb Fold",
               "labels": {
-                "ja": "親指の折り曲げ",
-                "zh-TW": "拇指彎曲",
+                "ja": "親指を畳む",
+                "zh-TW": "拇指蜷曲",
                 "ko": "엄지 접기",
-                "zh-CN": "拇指弯折"
+                "zh-CN": "拇指折叠"
               },
               "default": 0,
               "min": -1,
@@ -2178,8 +2200,8 @@
               "label": "Thumb Bend",
               "labels": {
                 "ja": "親指の曲げ",
-                "zh-TW": "拇指彎曲",
-                "ko": "엄지 구부림",
+                "zh-TW": "拇指彎曲度",
+                "ko": "엄지 굽힘",
                 "zh-CN": "拇指弯曲"
               },
               "default": 0,
@@ -2200,8 +2222,8 @@
               "label": "Index Bend",
               "labels": {
                 "ja": "人差し指の曲げ",
-                "zh-TW": "食指彎曲",
-                "ko": "검지 구부림",
+                "zh-TW": "食指彎曲度",
+                "ko": "검지 굽힘",
                 "zh-CN": "食指弯曲"
               },
               "default": 0,
@@ -2222,8 +2244,8 @@
               "label": "Middle Bend",
               "labels": {
                 "ja": "中指の曲げ",
-                "zh-TW": "中指彎曲",
-                "ko": "중지 구부림",
+                "zh-TW": "中指彎曲度",
+                "ko": "중지 굽힘",
                 "zh-CN": "中指弯曲"
               },
               "default": 0,
@@ -2244,8 +2266,8 @@
               "label": "Ring Bend",
               "labels": {
                 "ja": "薬指の曲げ",
-                "zh-TW": "無名指彎曲",
-                "ko": "약지 구부림",
+                "zh-TW": "無名指彎曲度",
+                "ko": "약지 굽힘",
                 "zh-CN": "无名指弯曲"
               },
               "default": 0,
@@ -2266,8 +2288,8 @@
               "label": "Pinky Bend",
               "labels": {
                 "ja": "小指の曲げ",
-                "zh-TW": "小指彎曲",
-                "ko": "새끼손가락 구부림",
+                "zh-TW": "小指彎曲度",
+                "ko": "새끼손가락 굽힘",
                 "zh-CN": "小指弯曲"
               },
               "default": 0,
@@ -2287,7 +2309,7 @@
               "type": "float",
               "label": "Propagate",
               "labels": {
-                "ja": "伝播させる",
+                "ja": "伝播",
                 "zh-TW": "傳播",
                 "ko": "전파",
                 "zh-CN": "传播"
@@ -2333,7 +2355,7 @@
           "type": "float",
           "label": "Pose Weight",
           "labels": {
-            "ja": "ポーズ重み",
+            "ja": "ポーズウェイト",
             "zh-TW": "姿態權重",
             "ko": "포즈 가중치",
             "zh-CN": "姿势权重"
@@ -2355,9 +2377,9 @@
           "type": "float",
           "label": "Grab Distance",
           "labels": {
-            "ja": "グリップ距離",
+            "ja": "グリッピング距離",
             "zh-TW": "抓取距離",
-            "ko": "잡는 거리",
+            "ko": "그랩 거리",
             "zh-CN": "抓取距离"
           },
           "default": 0.015,
@@ -2377,9 +2399,9 @@
           "type": "float",
           "label": "Grab Position",
           "labels": {
-            "ja": "グリップ位置",
+            "ja": "グリッピング位置",
             "zh-TW": "抓取位置",
-            "ko": "잡는 위치",
+            "ko": "그랩 위치",
             "zh-CN": "抓取位置"
           },
           "default": -0.05,
@@ -2467,10 +2489,10 @@
           "type": "group",
           "label": "Hand Position",
           "labels": {
-            "ja": "手の位置",
+            "ja": "手の配置",
             "zh-TW": "手部位置",
             "ko": "손 위치",
-            "zh-CN": "手部姿势"
+            "zh-CN": "手部位置"
           },
           "default": 0,
           "min": 0,
@@ -2670,9 +2692,9 @@
           "label": "Elbow Orientation",
           "labels": {
             "ja": "肘の向き",
-            "zh-TW": "肘部方向",
+            "zh-TW": "手肘方向",
             "ko": "팔꿈치 방향",
-            "zh-CN": "肘部方向"
+            "zh-CN": "手肘方向"
           },
           "default": 0,
           "min": -180,
@@ -2691,10 +2713,10 @@
           "type": "bool",
           "label": "Mirror Left/Right",
           "labels": {
-            "ja": "左/右のミラーリング",
-            "zh-TW": "鏡像左右",
-            "ko": "좌우 미러링",
-            "zh-CN": "镜像左/右"
+            "ja": "左/右ミラーリング",
+            "zh-TW": "左右鏡像",
+            "ko": "좌/우 미러링",
+            "zh-CN": "左右镜像"
           },
           "default": "false",
           "min": 0,
@@ -2715,7 +2737,7 @@
           "labels": {
             "ja": "参照アクター",
             "zh-TW": "參考角色",
-            "ko": "참조 액터",
+            "ko": "기준 액터",
             "zh-CN": "参考角色"
           },
           "default": "Self",
@@ -2737,7 +2759,7 @@
           "labels": {
             "ja": "参照ボーン",
             "zh-TW": "參考骨骼",
-            "ko": "참조 본",
+            "ko": "기준 본",
             "zh-CN": "参考骨骼"
           },
           "default": "None",
@@ -2757,10 +2779,10 @@
           "type": "int",
           "label": "Side Selection",
           "labels": {
-            "ja": "側面の選択",
+            "ja": "サイド選択",
             "zh-TW": "側邊選擇",
             "ko": "측면 선택",
-            "zh-CN": "侧面选择"
+            "zh-CN": "侧边选择"
           },
           "default": 0,
           "min": 0,
@@ -2797,14 +2819,36 @@
           }
         },
         {
+          "name": "Adapt to Shape",
+          "type": "bool",
+          "label": "Adapt to Shape",
+          "labels": {
+            "ja": "形状への適応",
+            "zh-TW": "適應形狀",
+            "ko": "형태 적응",
+            "zh-CN": "适应形状"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
           "name": "Blend Hand Motion",
           "type": "bool",
           "label": "Blend Hand Motion",
           "labels": {
-            "ja": "手の動きのブレンド",
+            "ja": "ハンドモーションブレンド",
             "zh-TW": "手部動作混合",
             "ko": "손 동작 블렌딩",
-            "zh-CN": "混合手部动作"
+            "zh-CN": "手部运动混合"
           },
           "default": "false",
           "min": 0,
@@ -2825,7 +2869,7 @@
           "labels": {
             "ja": "ブレンド範囲",
             "zh-TW": "混合範圍",
-            "ko": "블렌딩 범위",
+            "ko": "블렌드 범위",
             "zh-CN": "混合范围"
           },
           "default": 0.75,
@@ -2867,10 +2911,10 @@
           "type": "bool",
           "label": "Use Accessory Position",
           "labels": {
-            "ja": "アクセサリー位置を使用",
+            "ja": "アクセサリー位置使用",
             "zh-TW": "使用配件位置",
             "ko": "액세서리 위치 사용",
-            "zh-CN": "使用配饰位置"
+            "zh-CN": "使用附件位置"
           },
           "default": "true",
           "min": 0,
@@ -3159,7 +3203,7 @@
           "labels": {
             "ja": "カスタムポーズ",
             "zh-TW": "自定義姿態",
-            "ko": "커스텀 포즈",
+            "ko": "사용자 지정 포즈",
             "zh-CN": "自定义姿势"
           },
           "default": 0,
@@ -3181,7 +3225,7 @@
               "labels": {
                 "ja": "開く",
                 "zh-TW": "張開",
-                "ko": "열기",
+                "ko": "펼치기",
                 "zh-CN": "张开"
               },
               "default": 0,
@@ -3201,10 +3245,10 @@
               "type": "float",
               "label": "Thumb Fold",
               "labels": {
-                "ja": "親指の折り曲げ",
-                "zh-TW": "拇指彎曲",
+                "ja": "親指を畳む",
+                "zh-TW": "拇指蜷曲",
                 "ko": "엄지 접기",
-                "zh-CN": "拇指弯折"
+                "zh-CN": "拇指折叠"
               },
               "default": 0,
               "min": -1,
@@ -3224,8 +3268,8 @@
               "label": "Thumb Bend",
               "labels": {
                 "ja": "親指の曲げ",
-                "zh-TW": "拇指彎曲",
-                "ko": "엄지 구부림",
+                "zh-TW": "拇指彎曲度",
+                "ko": "엄지 굽힘",
                 "zh-CN": "拇指弯曲"
               },
               "default": 0,
@@ -3246,8 +3290,8 @@
               "label": "Index Bend",
               "labels": {
                 "ja": "人差し指の曲げ",
-                "zh-TW": "食指彎曲",
-                "ko": "검지 구부림",
+                "zh-TW": "食指彎曲度",
+                "ko": "검지 굽힘",
                 "zh-CN": "食指弯曲"
               },
               "default": 0,
@@ -3268,8 +3312,8 @@
               "label": "Middle Bend",
               "labels": {
                 "ja": "中指の曲げ",
-                "zh-TW": "中指彎曲",
-                "ko": "중지 구부림",
+                "zh-TW": "中指彎曲度",
+                "ko": "중지 굽힘",
                 "zh-CN": "中指弯曲"
               },
               "default": 0,
@@ -3290,8 +3334,8 @@
               "label": "Ring Bend",
               "labels": {
                 "ja": "薬指の曲げ",
-                "zh-TW": "無名指彎曲",
-                "ko": "약지 구부림",
+                "zh-TW": "無名指彎曲度",
+                "ko": "약지 굽힘",
                 "zh-CN": "无名指弯曲"
               },
               "default": 0,
@@ -3312,8 +3356,8 @@
               "label": "Pinky Bend",
               "labels": {
                 "ja": "小指の曲げ",
-                "zh-TW": "小指彎曲",
-                "ko": "새끼손가락 구부림",
+                "zh-TW": "小指彎曲度",
+                "ko": "새끼손가락 굽힘",
                 "zh-CN": "小指弯曲"
               },
               "default": 0,
@@ -3333,7 +3377,7 @@
               "type": "float",
               "label": "Propagate",
               "labels": {
-                "ja": "伝播させる",
+                "ja": "伝播",
                 "zh-TW": "傳播",
                 "ko": "전파",
                 "zh-CN": "传播"
@@ -3379,7 +3423,7 @@
           "type": "float",
           "label": "Pose Weight",
           "labels": {
-            "ja": "ポーズ重み",
+            "ja": "ポーズウェイト",
             "zh-TW": "姿態權重",
             "ko": "포즈 가중치",
             "zh-CN": "姿势权重"
@@ -3401,9 +3445,9 @@
           "type": "float",
           "label": "Grab Distance",
           "labels": {
-            "ja": "グリップ距離",
+            "ja": "グリッピング距離",
             "zh-TW": "抓取距離",
-            "ko": "잡는 거리",
+            "ko": "그랩 거리",
             "zh-CN": "抓取距离"
           },
           "default": 0.015,
@@ -3423,9 +3467,9 @@
           "type": "float",
           "label": "Grab Position",
           "labels": {
-            "ja": "グリップ位置",
+            "ja": "グリッピング位置",
             "zh-TW": "抓取位置",
-            "ko": "잡는 위치",
+            "ko": "그랩 위치",
             "zh-CN": "抓取位置"
           },
           "default": -0.05,

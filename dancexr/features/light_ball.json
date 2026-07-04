@@ -419,7 +419,7 @@
           "type": "float",
           "label": "Metallic",
           "labels": {
-            "ja": "メタリック",
+            "ja": "メタリック度",
             "zh-TW": "金屬感",
             "ko": "금속성",
             "zh-CN": "金属度"
@@ -553,7 +553,7 @@
           "type": "bool",
           "label": "Collision",
           "labels": {
-            "ja": "衝突",
+            "ja": "衝突判定",
             "zh-TW": "碰撞",
             "ko": "충돌",
             "zh-CN": "碰撞"
@@ -621,7 +621,7 @@
           "labels": {
             "ja": "ばね力",
             "zh-TW": "彈簧力",
-            "ko": "용수철 힘",
+            "ko": "스프링 힘",
             "zh-CN": "弹簧力"
           },
           "default": 250,

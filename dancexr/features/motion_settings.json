@@ -105,6 +105,28 @@
       }
     },
     {
+      "name": "Clamp Weights",
+      "type": "bool",
+      "label": "Clamp Weights",
+      "labels": {
+        "ja": "(Clamp Weights)",
+        "zh-TW": "(Clamp Weights)",
+        "ko": "(Clamp Weights)",
+        "zh-CN": "(Clamp Weights)"
+      },
+      "default": "true",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": "Clamp inherit weights to 0 to 1 range.",
+      "descriptions": {
+        "ja": "(Clamp inherit weights to 0 to 1 range.)",
+        "zh-TW": "(Clamp inherit weights to 0 to 1 range.)",
+        "ko": "(Clamp inherit weights to 0 to 1 range.)",
+        "zh-CN": "(Clamp inherit weights to 0 to 1 range.)"
+      }
+    },
+    {
       "name": "Motion Leg IK",
       "type": "bool",
       "label": "Motion Leg IK",

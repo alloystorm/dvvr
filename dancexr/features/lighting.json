@@ -413,72 +413,6 @@
           },
           "values": [
             {
-              "name": "Width",
-              "type": "float",
-              "label": "Width",
-              "labels": {
-                "ja": "幅",
-                "zh-TW": "寬度",
-                "ko": "너비",
-                "zh-CN": "宽度"
-              },
-              "default": 8,
-              "min": 0,
-              "max": 16,
-              "options": null,
-              "description": "The width of the window when cookie map is enabled.",
-              "descriptions": {
-                "ja": "クッキーマップが有効な場合のウィンドウの幅。",
-                "zh-TW": "啟用濾片圖時窗口的寬度。",
-                "ko": "쿠키 맵이 활성화되었을 때 창문의 너비.",
-                "zh-CN": "启用滤镜图时窗口的宽度。"
-              }
-            },
-            {
-              "name": "Height",
-              "type": "float",
-              "label": "Height",
-              "labels": {
-                "ja": "高さ",
-                "zh-TW": "高度",
-                "ko": "높이",
-                "zh-CN": "高度"
-              },
-              "default": 2,
-              "min": 0,
-              "max": 16,
-              "options": null,
-              "description": "The height of the window when cookie map is enabled.",
-              "descriptions": {
-                "ja": "クッキーマップが有効な場合のウィンドウの高さ。",
-                "zh-TW": "啟用濾片圖時窗口的高度。",
-                "ko": "쿠키 맵이 활성화되었을 때 창문의 높이.",
-                "zh-CN": "启用滤镜图时窗口的高度。"
-              }
-            },
-            {
-              "name": "Bottom",
-              "type": "float",
-              "label": "Bottom",
-              "labels": {
-                "ja": "底面",
-                "zh-TW": "底部",
-                "ko": "하부",
-                "zh-CN": "底部"
-              },
-              "default": 0,
-              "min": 0,
-              "max": 2,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
-              }
-            },
-            {
               "name": "Position",
               "type": "group",
               "label": "Position",
@@ -532,7 +466,29 @@
                     "ko": "(Y)",
                     "zh-CN": "(Y)"
                   },
-                  "default": 0,
+                  "default": 1,
+                  "min": null,
+                  "max": null,
+                  "options": null,
+                  "description": null,
+                  "descriptions": {
+                    "ja": null,
+                    "zh-TW": null,
+                    "ko": null,
+                    "zh-CN": null
+                  }
+                },
+                {
+                  "name": "Z",
+                  "type": "float",
+                  "label": "Z",
+                  "labels": {
+                    "ja": "(Z)",
+                    "zh-TW": "(Z)",
+                    "ko": "(Z)",
+                    "zh-CN": "(Z)"
+                  },
+                  "default": -2,
                   "min": null,
                   "max": null,
                   "options": null,
@@ -547,6 +503,72 @@
               ]
             },
             {
+              "name": "Width",
+              "type": "float",
+              "label": "Width",
+              "labels": {
+                "ja": "幅",
+                "zh-TW": "寬度",
+                "ko": "너비",
+                "zh-CN": "宽度"
+              },
+              "default": 8,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": "The width of the window.",
+              "descriptions": {
+                "ja": "(The width of the window.)",
+                "zh-TW": "(The width of the window.)",
+                "ko": "(The width of the window.)",
+                "zh-CN": "(The width of the window.)"
+              }
+            },
+            {
+              "name": "Height",
+              "type": "float",
+              "label": "Height",
+              "labels": {
+                "ja": "高さ",
+                "zh-TW": "高度",
+                "ko": "높이",
+                "zh-CN": "高度"
+              },
+              "default": 2,
+              "min": null,
+              "max": null,
+              "options": null,
+              "description": "The height of the window.",
+              "descriptions": {
+                "ja": "(The height of the window.)",
+                "zh-TW": "(The height of the window.)",
+                "ko": "(The height of the window.)",
+                "zh-CN": "(The height of the window.)"
+              }
+            },
+            {
+              "name": "Orientation",
+              "type": "float",
+              "label": "Orientation",
+              "labels": {
+                "ja": "向き",
+                "zh-TW": "朝向",
+                "ko": "오리엔테이션",
+                "zh-CN": "朝向"
+              },
+              "default": 90,
+              "min": -180,
+              "max": 180,
+              "options": null,
+              "description": "The direction the window faces.",
+              "descriptions": {
+                "ja": "(The direction the window faces.)",
+                "zh-TW": "(The direction the window faces.)",
+                "ko": "(The direction the window faces.)",
+                "zh-CN": "(The direction the window faces.)"
+              }
+            },
+            {
               "name": "Rows",
               "type": "int",
               "label": "Rows",
@@ -556,8 +578,8 @@
                 "ko": "행",
                 "zh-CN": "行数"
               },
-              "default": 1,
-              "min": 0,
+              "default": 2,
+              "min": 1,
               "max": 8,
               "options": null,
               "description": null,
@@ -578,9 +600,9 @@
                 "ko": "열",
                 "zh-CN": "列数"
               },
-              "default": 2,
-              "min": 0,
-              "max": 8,
+              "default": 4,
+              "min": 1,
+              "max": 36,
               "options": null,
               "description": null,
               "descriptions": {
@@ -635,6 +657,28 @@
               }
             },
             {
+              "name": "Softness",
+              "type": "float",
+              "label": "Softness",
+              "labels": {
+                "ja": "(Softness)",
+                "zh-TW": "(Softness)",
+                "ko": "(Softness)",
+                "zh-CN": "(Softness)"
+              },
+              "default": 4,
+              "min": 1,
+              "max": 16,
+              "options": null,
+              "description": "Softness of the light pattern's edges, like sunlight blurring with distance from the window.",
+              "descriptions": {
+                "ja": "(Softness of the light pattern's edges, like sunlight blurring with distance from the window.)",
+                "zh-TW": "(Softness of the light pattern's edges, like sunlight blurring with distance from the window.)",
+                "ko": "(Softness of the light pattern's edges, like sunlight blurring with distance from the window.)",
+                "zh-CN": "(Softness of the light pattern's edges, like sunlight blurring with distance from the window.)"
+              }
+            },
+            {
               "name": "Visible",
               "type": "bool",
               "label": "Visible",
@@ -654,28 +698,6 @@
                 "zh-TW": "在場景中顯示窗口。",
                 "ko": "장면에 창문 표시.",
                 "zh-CN": "场景中显示窗口。"
-              }
-            },
-            {
-              "name": "Origin",
-              "type": "float",
-              "label": "Origin",
-              "labels": {
-                "ja": "原点",
-                "zh-TW": "起始點",
-                "ko": "원점",
-                "zh-CN": "原点"
-              },
-              "default": 1,
-              "min": -1,
-              "max": 1,
-              "options": null,
-              "description": null,
-              "descriptions": {
-                "ja": null,
-                "zh-TW": null,
-                "ko": null,
-                "zh-CN": null
               }
             },
             {
@@ -710,7 +732,7 @@
                 "ko": "스카이 라이트 각도",
                 "zh-CN": "天空光角度"
               },
-              "default": 0,
+              "default": 90,
               "min": 0,
               "max": 90,
               "options": null,
@@ -1505,9 +1527,9 @@
           "type": "group",
           "label": "Suspension",
           "labels": {
-            "ja": "サスペンション",
-            "zh-TW": "懸掛",
-            "ko": "현수",
+            "ja": "懸垂",
+            "zh-TW": "懸掛力",
+            "ko": "서스펜션",
             "zh-CN": "悬挂"
           },
           "default": 0,
@@ -2505,9 +2527,9 @@
           "type": "group",
           "label": "Suspension",
           "labels": {
-            "ja": "サスペンション",
-            "zh-TW": "懸掛",
-            "ko": "현수",
+            "ja": "懸垂",
+            "zh-TW": "懸掛力",
+            "ko": "서스펜션",
             "zh-CN": "悬挂"
           },
           "default": 0,
@@ -3505,9 +3527,9 @@
           "type": "group",
           "label": "Suspension",
           "labels": {
-            "ja": "サスペンション",
-            "zh-TW": "懸掛",
-            "ko": "현수",
+            "ja": "懸垂",
+            "zh-TW": "懸掛力",
+            "ko": "서스펜션",
             "zh-CN": "悬挂"
           },
           "default": 0,

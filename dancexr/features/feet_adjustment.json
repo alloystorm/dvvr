@@ -3,17 +3,17 @@
   "docPath": "features/feet_adjustment",
   "label": "Feet Adjustment",
   "labels": {
-    "ja": "足の調整",
-    "zh-TW": "足部調整",
+    "ja": "フットアジャストメント",
+    "zh-TW": "腳部調整",
     "ko": "발 조정",
-    "zh-CN": "足部调整"
+    "zh-CN": "脚部调整"
   },
-  "description": "Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.",
+  "description": "Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\r\ncontact toward the toe tip), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.",
   "descriptions": {
-    "ja": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.)",
-    "zh-TW": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.)",
-    "ko": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.)",
-    "zh-CN": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.)"
+    "ja": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\r\ncontact toward the toe tip), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.)",
+    "zh-TW": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\r\ncontact toward the toe tip), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.)",
+    "ko": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\r\ncontact toward the toe tip), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.)",
+    "zh-CN": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\r\ncontact toward the toe tip), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.)"
   },
   "values": [
     {
@@ -32,10 +32,10 @@
       "options": null,
       "description": "Adjusts the vertical offset of the ground level.",
       "descriptions": {
-        "ja": "地面レベルの垂直オフセットを調整する。",
-        "zh-TW": "調整地面的垂直偏移量。",
+        "ja": "地面レベルの垂直オフセットを調整します。",
+        "zh-TW": "調整地面水平的垂直偏移量。",
         "ko": "지면 레벨의 수직 오프셋을 조정합니다.",
-        "zh-CN": "调整地面水平的垂直偏移量。"
+        "zh-CN": "调整地面的垂直偏移量。"
       }
     },
     {
@@ -43,10 +43,10 @@
       "type": "group",
       "label": "Feet On Floor",
       "labels": {
-        "ja": "フロア設置",
-        "zh-TW": "足部貼地",
-        "ko": "바닥 착지",
-        "zh-CN": "足部在地面"
+        "ja": "接地時足の制御",
+        "zh-TW": "腳部著地",
+        "ko": "바닥 접촉 여부",
+        "zh-CN": "脚部贴地"
       },
       "default": 0,
       "min": 0,
@@ -61,35 +61,13 @@
       },
       "values": [
         {
-          "name": "Strength",
-          "type": "float",
-          "label": "Strength",
-          "labels": {
-            "ja": "強度",
-            "zh-TW": "強度",
-            "ko": "강도",
-            "zh-CN": "强度"
-          },
-          "default": 0,
-          "min": 0,
-          "max": 1,
-          "options": null,
-          "description": "Controls how strongly feet are pulled to the ground. 0 = disabled.",
-          "descriptions": {
-            "ja": "足が地面に引き付けられる強さを制御する。0 = 無効。",
-            "zh-TW": "控制足部貼地的強度。0 = 禁用。",
-            "ko": "발이 지면에 얼마나 강하게 당겨지는지 제어합니다. 0 = 비활성화.",
-            "zh-CN": "控制足部被拉向地面的强度。 0 = 关闭。"
-          }
-        },
-        {
           "name": "Sole Height",
           "type": "float",
           "label": "Sole Height",
           "labels": {
-            "ja": "靴底の高さ",
+            "ja": "底面高",
             "zh-TW": "鞋底高度",
-            "ko": "발바닥 높이",
+            "ko": "밑창 높이",
             "zh-CN": "鞋底高度"
           },
           "default": 0.03,
@@ -98,10 +76,32 @@
           "options": null,
           "description": "The desired distance from the ground to the toe bone.",
           "descriptions": {
-            "ja": "地面からつま先骨までの目標距離。",
-            "zh-TW": "腳趾骨骼到地面的期望距離。",
-            "ko": "발가락과 지면 사이의 원하는 거리입니다.",
-            "zh-CN": "期望的从地面到脚趾骨的距离。"
+            "ja": "指先から求められる地面への理想的な距離です。",
+            "zh-TW": "從地面到趾骨期望的距離。",
+            "ko": "토 본에서 바닥까지 원하는 거리입니다.",
+            "zh-CN": "从地面到趾骨的期望距离。"
+          }
+        },
+        {
+          "name": "Toe Tip",
+          "type": "float",
+          "label": "Toe Tip",
+          "labels": {
+            "ja": "指先",
+            "zh-TW": "腳趾尖",
+            "ko": "발가락 끝",
+            "zh-CN": "趾尖"
+          },
+          "default": 0.03,
+          "min": 0,
+          "max": 0.1,
+          "options": null,
+          "description": "How far forward of the toe bone the toe contact sits, toward the actual toe tip, so the tip doesn't sink when the foot is angled.",
+          "descriptions": {
+            "ja": "足を角度付けした際、つま先が沈み込まないよう、実際の指先に向けて、足の甲よりどれだけ前で接触するかを設定します。",
+            "zh-TW": "腳趾接觸點在趾骨前方多遠，接近實際的趾尖，這樣當腳部角度傾斜時，指尖不會下陷。",
+            "ko": "발이 각도지어졌을 때 끝이 가라앉지 않도록, 발가락 끝 쪽으로 토 컨택이 얼마나 앞쪽에 위치하는지 설정합니다.",
+            "zh-CN": "趾尖位于趾骨前方多远，接近实际脚趾尖，以防止足部倾斜时指尖下陷。"
           }
         },
         {
@@ -109,7 +109,7 @@
           "type": "float",
           "label": "Jump Height",
           "labels": {
-            "ja": "ジャンプの高さ",
+            "ja": "ジャンプ高さ",
             "zh-TW": "跳躍高度",
             "ko": "점프 높이",
             "zh-CN": "跳跃高度"
@@ -120,32 +120,10 @@
           "options": null,
           "description": "Minimum height above ground for both feet to be considered a jump.",
           "descriptions": {
-            "ja": "両足がジャンプとみなされるための最低地上高。",
-            "zh-TW": "雙腳懸空被判定為跳躍的最小地面高度。",
-            "ko": "두 발 모두 점프로 간주되기 위한 최소 지면 위 높이입니다.",
-            "zh-CN": "双脚被视为跳跃所需的最小高度。"
-          }
-        },
-        {
-          "name": "Body Smooth",
-          "type": "float",
-          "label": "Body Smooth",
-          "labels": {
-            "ja": "(Body Smooth)",
-            "zh-TW": "(Body Smooth)",
-            "ko": "(Body Smooth)",
-            "zh-CN": "(Body Smooth)"
-          },
-          "default": 0.2,
-          "min": 0,
-          "max": 0.5,
-          "options": null,
-          "description": "Smoothing time for the body's vertical correction. Higher = smoother but laggier.",
-          "descriptions": {
-            "ja": "(Smoothing time for the body's vertical correction. Higher = smoother but laggier.)",
-            "zh-TW": "(Smoothing time for the body's vertical correction. Higher = smoother but laggier.)",
-            "ko": "(Smoothing time for the body's vertical correction. Higher = smoother but laggier.)",
-            "zh-CN": "(Smoothing time for the body's vertical correction. Higher = smoother but laggier.)"
+            "ja": "両足にとってジャンプと見なされるための最小の地面からの高さです。",
+            "zh-TW": "身體需達到何種最小高度才視為跳躍。",
+            "ko": "두 발 모두 점프로 간주되기 위한 최소 바닥 위 높이입니다.",
+            "zh-CN": "双脚被视为跳跃所需的最低离地高度。"
           }
         },
         {
@@ -153,10 +131,10 @@
           "type": "float",
           "label": "Foot Smooth",
           "labels": {
-            "ja": "(Foot Smooth)",
-            "zh-TW": "(Foot Smooth)",
-            "ko": "(Foot Smooth)",
-            "zh-CN": "(Foot Smooth)"
+            "ja": "足の滑らかさ",
+            "zh-TW": "腳部平滑度",
+            "ko": "풋 스무스",
+            "zh-CN": "脚部平滑度"
           },
           "default": 0,
           "min": 0,
@@ -164,10 +142,10 @@
           "options": null,
           "description": "Smoothing time for each foot's shift and tilt. 0 = instant.",
           "descriptions": {
-            "ja": "(Smoothing time for each foot's shift and tilt. 0 = instant.)",
-            "zh-TW": "(Smoothing time for each foot's shift and tilt. 0 = instant.)",
-            "ko": "(Smoothing time for each foot's shift and tilt. 0 = instant.)",
-            "zh-CN": "(Smoothing time for each foot's shift and tilt. 0 = instant.)"
+            "ja": "各足の移動および傾きに対する平滑化時間です。0は即時です。",
+            "zh-TW": "每個足部位移和傾斜的平滑時間。0 = 即時。",
+            "ko": "각 발의 이동 및 기울기 스무딩 시간입니다. 0 = 즉시.",
+            "zh-CN": "每只脚位移和倾斜的平滑时间。0 = 即时。"
           }
         },
         {
@@ -175,10 +153,10 @@
           "type": "float",
           "label": "Max Foot Tilt",
           "labels": {
-            "ja": "(Max Foot Tilt)",
-            "zh-TW": "(Max Foot Tilt)",
-            "ko": "(Max Foot Tilt)",
-            "zh-CN": "(Max Foot Tilt)"
+            "ja": "最大足傾き",
+            "zh-TW": "最大足傾斜度",
+            "ko": "최대 발 기울임",
+            "zh-CN": "最大足部倾角"
           },
           "default": 15,
           "min": 0,
@@ -186,10 +164,10 @@
           "options": null,
           "description": "Maximum foot pitch (degrees) used to tilt a contact onto the ground.",
           "descriptions": {
-            "ja": "(Maximum foot pitch (degrees) used to tilt a contact onto the ground.)",
-            "zh-TW": "(Maximum foot pitch (degrees) used to tilt a contact onto the ground.)",
-            "ko": "(Maximum foot pitch (degrees) used to tilt a contact onto the ground.)",
-            "zh-CN": "(Maximum foot pitch (degrees) used to tilt a contact onto the ground.)"
+            "ja": "接触面を地面に傾けるのに使われる最大足のピッチ（度数）。",
+            "zh-TW": "用於將接觸點傾斜到地面的最大足俯仰角度（度）。",
+            "ko": "컨택을 바닥에 기울이는 데 사용되는 최대 발 피치(도).",
+            "zh-CN": "用于将接触点倾斜至地面的最大脚部俯仰角度（度）。"
           }
         },
         {
@@ -197,10 +175,10 @@
           "type": "float",
           "label": "Reach Tilt",
           "labels": {
-            "ja": "(Reach Tilt)",
-            "zh-TW": "(Reach Tilt)",
-            "ko": "(Reach Tilt)",
-            "zh-CN": "(Reach Tilt)"
+            "ja": "到達時の傾き",
+            "zh-TW": "伸展傾斜度",
+            "ko": "뻗기 기울임",
+            "zh-CN": "达到姿态倾角"
           },
           "default": 34,
           "min": 0,
@@ -208,10 +186,54 @@
           "options": null,
           "description": "Maximum toe-dip (degrees) used to keep contact when the leg can't reach the ground.",
           "descriptions": {
-            "ja": "(Maximum toe-dip (degrees) used to keep contact when the leg can't reach the ground.)",
-            "zh-TW": "(Maximum toe-dip (degrees) used to keep contact when the leg can't reach the ground.)",
-            "ko": "(Maximum toe-dip (degrees) used to keep contact when the leg can't reach the ground.)",
-            "zh-CN": "(Maximum toe-dip (degrees) used to keep contact when the leg can't reach the ground.)"
+            "ja": "脚が地面に届かない場合に、接地を維持するために使用される最大のつま先ディップ（度数）。",
+            "zh-TW": "當腿部無法到達地面時，用於維持接觸點的最大趾凹角度（度）。",
+            "ko": "다리가 땅에 닿지 못할 때 컨택을 유지하는 데 사용되는 최대 토-딥(도).",
+            "zh-CN": "当腿部无法到达地面时，保持接触的最大趾尖弯曲角度（度）。"
+          }
+        },
+        {
+          "name": "Settle Stiffness",
+          "type": "float",
+          "label": "Settle Stiffness",
+          "labels": {
+            "ja": "着地剛性",
+            "zh-TW": "穩定剛性",
+            "ko": "정착 강성",
+            "zh-CN": "稳定刚度"
+          },
+          "default": 500,
+          "min": 50,
+          "max": 3000,
+          "options": null,
+          "description": "Physics settle: ground spring stiffness. Higher = firmer, less single-leg dip.",
+          "descriptions": {
+            "ja": "物理演算による着地：地面バネの剛性。高いほど硬く、片足での沈みが少なくなります。",
+            "zh-TW": "物理穩定：地面彈簧剛度。越高 = 更堅實，單腿下沉現象越少。",
+            "ko": "물리 기반 정착: 지면 스프링 강성. 높을수록 단단하고, 편측 처짐이 적습니다.",
+            "zh-CN": "物理稳定：地面弹簧刚度。数值越高，越坚固，减少单腿下凹现象。"
+          }
+        },
+        {
+          "name": "Settle Damping",
+          "type": "float",
+          "label": "Settle Damping",
+          "labels": {
+            "ja": "着地減衰",
+            "zh-TW": "穩定阻尼",
+            "ko": "정착 감쇠",
+            "zh-CN": "稳定阻尼"
+          },
+          "default": 45,
+          "min": 0,
+          "max": 150,
+          "options": null,
+          "description": "Physics settle: velocity damping. Higher = less bounce/overshoot (critical ≈ 2·√stiffness).",
+          "descriptions": {
+            "ja": "物理演算による着地：速度減衰。高いほど反発/オーバーシュートが少なくなり安定します（クリティカル値 ≈ 2・√剛性）。",
+            "zh-TW": "物理穩定：速度阻尼。越高 = 彈跳/過衝越少（臨界值 ≈ 2·√剛性）。",
+            "ko": "물리 기반 정착: 속도 감쇠. 높을수록 바운스/오버슈트가 적습니다(임계값 ≈ 2·√강성).",
+            "zh-CN": "物理稳定：速度阻尼。数值越高，反弹/超调现象越小（临界值 ≈ 2·√刚度）。"
           }
         }
       ]
@@ -221,10 +243,10 @@
       "type": "group",
       "label": "Heels",
       "labels": {
-        "ja": "かかと",
-        "zh-TW": "鞋跟",
-        "ko": "힐",
-        "zh-CN": "鞋跟"
+        "ja": "ヒール",
+        "zh-TW": "後跟",
+        "ko": "뒤꿈치",
+        "zh-CN": "脚跟"
       },
       "default": 0,
       "min": 0,
@@ -254,10 +276,32 @@
           "options": null,
           "description": "Adjusts the height of the high heel pose.",
           "descriptions": {
-            "ja": "ハイヒールポーズの高さを調整する。",
-            "zh-TW": "調整高跟鞋姿勢的高度。",
+            "ja": "ハイヒールポーズの高さを調整します。",
+            "zh-TW": "調整高跟姿勢的高度。",
             "ko": "하이힐 포즈의 높이를 조정합니다.",
             "zh-CN": "调整高跟姿势的高度。"
+          }
+        },
+        {
+          "name": "High Heel Toe Bend",
+          "type": "float",
+          "label": "High Heel Toe Bend",
+          "labels": {
+            "ja": "ハイヒールつま先曲がり",
+            "zh-TW": "高跟鞋趾彎曲度",
+            "ko": "하이힐 발가락 굽힘",
+            "zh-CN": "高跟鞋趾弯曲度"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": "Adjusts how much the toe bends in the high heel pose.",
+          "descriptions": {
+            "ja": "ハイヒールポーズにおけるつま先の曲がり具合を調整します。",
+            "zh-TW": "調整在高跟姿勢中腳趾彎曲的程度。",
+            "ko": "하이힐 포즈에서 발가락이 얼마나 구부러지는지 조정합니다.",
+            "zh-CN": "调整高跟姿势中脚趾的弯曲程度。"
           }
         }
       ]
@@ -267,10 +311,10 @@
       "type": "group",
       "label": "Reduce Sliding",
       "labels": {
-        "ja": "(Reduce Sliding)",
-        "zh-TW": "(Reduce Sliding)",
-        "ko": "(Reduce Sliding)",
-        "zh-CN": "(Reduce Sliding)"
+        "ja": "スライディング軽減",
+        "zh-TW": "減緩打滑",
+        "ko": "슬라이딩 감소",
+        "zh-CN": "减少滑动"
       },
       "default": 0,
       "min": 0,
@@ -300,10 +344,10 @@
           "options": null,
           "description": "How strongly a planted foot holds its horizontal position. 0 = free, 1 = fully locked.",
           "descriptions": {
-            "ja": "(How strongly a planted foot holds its horizontal position. 0 = free, 1 = fully locked.)",
-            "zh-TW": "(How strongly a planted foot holds its horizontal position. 0 = free, 1 = fully locked.)",
-            "ko": "(How strongly a planted foot holds its horizontal position. 0 = free, 1 = fully locked.)",
-            "zh-CN": "(How strongly a planted foot holds its horizontal position. 0 = free, 1 = fully locked.)"
+            "ja": "接地した足が水平位置をどの程度強く保つかを設定します。0は自由、1は完全にロックです。",
+            "zh-TW": "一個固定站立的腳能多強地維持其水平位置。0 = 自由，1 = 完全鎖定。",
+            "ko": "고정된 발이 수평 위치를 얼마나 강하게 유지하는지 설정합니다. 0 = 자유, 1 = 완전히 잠김.",
+            "zh-CN": "固定足部维持其水平位置的强度。0 = 自由，1 = 完全锁定。"
           }
         },
         {
@@ -311,10 +355,10 @@
           "type": "float",
           "label": "Slide Distance",
           "labels": {
-            "ja": "(Slide Distance)",
-            "zh-TW": "(Slide Distance)",
-            "ko": "(Slide Distance)",
-            "zh-CN": "(Slide Distance)"
+            "ja": "スライド距離",
+            "zh-TW": "滑動距離",
+            "ko": "슬라이드 거리",
+            "zh-CN": "滑动距离"
           },
           "default": 0.12,
           "min": 0,
@@ -322,10 +366,10 @@
           "options": null,
           "description": "Maximum horizontal hold distance before the foot is allowed to slide (avoids over-stretching).",
           "descriptions": {
-            "ja": "(Maximum horizontal hold distance before the foot is allowed to slide (avoids over-stretching).)",
-            "zh-TW": "(Maximum horizontal hold distance before the foot is allowed to slide (avoids over-stretching).)",
-            "ko": "(Maximum horizontal hold distance before the foot is allowed to slide (avoids over-stretching).)",
-            "zh-CN": "(Maximum horizontal hold distance before the foot is allowed to slide (avoids over-stretching).)"
+            "ja": "スライディングが許される前に耐えられる最大水平保持距離（過度のストレッチを防ぎます）。",
+            "zh-TW": "允許腳部滑動的最大水平保持距離（避免過度拉伸）。",
+            "ko": "발에 슬라이딩이 허용되기 전의 최대 수평 유지 거리입니다 (과도한 늘어짐 방지).",
+            "zh-CN": "允许足部滑出之前的最大水平保持距离（防止过度拉伸）。"
           }
         }
       ]
@@ -338,7 +382,7 @@
         "ja": "足の角度",
         "zh-TW": "足部角度",
         "ko": "발 각도",
-        "zh-CN": "足部角度"
+        "zh-CN": "脚部角度"
       },
       "default": 0,
       "min": 0,
@@ -358,7 +402,7 @@
           "label": "Rotate X",
           "labels": {
             "ja": "X軸回転",
-            "zh-TW": "旋轉 X",
+            "zh-TW": "繞X軸旋轉",
             "ko": "X축 회전",
             "zh-CN": "X轴旋转"
           },
@@ -368,10 +412,10 @@
           "options": null,
           "description": "Adjusts the rotation of the foot around the X-axis.",
           "descriptions": {
-            "ja": "足のX軸周りの回転を調整する。",
-            "zh-TW": "調整足部繞 X 軸的旋轉。",
-            "ko": "X축을 기준으로 발의 회전을 조정합니다.",
-            "zh-CN": "调整足部绕X轴的旋转。"
+            "ja": "X軸周りの足の回転を調整します。",
+            "zh-TW": "調整腳部繞X軸的旋轉。",
+            "ko": "X축을 중심으로 발의 회전을 조정합니다.",
+            "zh-CN": "调整脚部绕X轴的旋转。"
           }
         },
         {
@@ -380,7 +424,7 @@
           "label": "Rotate Y",
           "labels": {
             "ja": "Y軸回転",
-            "zh-TW": "旋轉 Y",
+            "zh-TW": "繞Y軸旋轉",
             "ko": "Y축 회전",
             "zh-CN": "Y轴旋转"
           },
@@ -390,10 +434,10 @@
           "options": null,
           "description": "Adjusts the rotation of the foot around the Y-axis.",
           "descriptions": {
-            "ja": "足のY軸周りの回転を調整する。",
-            "zh-TW": "調整足部繞 Y 軸的旋轉。",
-            "ko": "Y축을 기준으로 발의 회전을 조정합니다.",
-            "zh-CN": "调整足部绕Y轴的旋转。"
+            "ja": "Y軸周りの足の回転を調整します。",
+            "zh-TW": "調整腳部繞Y軸的旋轉。",
+            "ko": "Y축을 중심으로 발의 회전을 조정합니다.",
+            "zh-CN": "调整脚部绕Y轴的旋转。"
           }
         },
         {
@@ -402,7 +446,7 @@
           "label": "Rotate Z",
           "labels": {
             "ja": "Z軸回転",
-            "zh-TW": "旋轉 Z",
+            "zh-TW": "繞Z軸旋轉",
             "ko": "Z축 회전",
             "zh-CN": "Z轴旋转"
           },
@@ -412,10 +456,10 @@
           "options": null,
           "description": "Adjusts the rotation of the foot around the Z-axis.",
           "descriptions": {
-            "ja": "足のZ軸周りの回転を調整する。",
-            "zh-TW": "調整足部繞 Z 軸的旋轉。",
-            "ko": "Z축을 기준으로 발의 회전을 조정합니다.",
-            "zh-CN": "调整足部绕Z轴的旋转。"
+            "ja": "Z軸周りの足の回転を調整します。",
+            "zh-TW": "調整腳部繞Z軸的旋轉。",
+            "ko": "Z축을 중심으로 발의 회전을 조정합니다.",
+            "zh-CN": "调整脚部绕Z轴的旋转。"
           }
         }
       ]

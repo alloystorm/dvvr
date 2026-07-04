@@ -107,10 +107,12 @@ sun and raise moonlight intensity for night scenes.
 ### Window Effect
 
 The **Window** sub-section casts a grid of rectangular shadows
-that simulate light streaming through window panes. Adjust
-width, height, rows, and columns to fit an imagined room
-interior. The *Sky Light* option adds a soft fill from the same
-direction to complement the shadow.
+that simulate light streaming through window panes. Place the
+window with Position, Bottom, and Orientation, size it with
+Width, Height, Rows, and Columns, and the sun controls above
+determine the beam direction through it. The *Sky Light* option
+adds a soft fill from the same direction to complement the
+shadow.
 
 ## Additional 1
 
