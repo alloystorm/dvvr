@@ -106,7 +106,7 @@ feature_sections:
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
             badge: 2025.2 · PRO
             badge_type: pro
-          - title: 腳部調整
+          - title: 足部調整
             link: /tw/dancexr/features/feet_adjustment
             image: /images/slideshows/dressing/90fbb9ac6e412cb83d0fcf3c743bfcd776473261.jpg
           - title: 縮放與偏移
@@ -262,12 +262,12 @@ feature_sections:
           - title: 裙擺物理
             link: /tw/dancexr/features/skirt_physics
             image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
-          - title: 胸部物理
+          - title: 胸部物理效果
             link: /tw/dancexr/features/boobs_physics
             image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: "# 軟體物理學"
+          - title: 柔體物理學
             link: /tw/dancexr/features/softbody_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
             badge: PRO
@@ -326,7 +326,7 @@ feature_sections:
           - title: 口型同步
             link: /tw/dancexr/features/lipsync
             badge: 2024.9
-          - title: 影片播放器
+          - title: "# 影片播放器"
             link: /tw/dancexr/features/video_player
             image: /images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp
             badge: 2024.4 · PRO

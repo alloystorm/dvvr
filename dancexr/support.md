@@ -22,7 +22,7 @@ support_sections:
         items:
           - question: Legs being pulled towards a fixed position for certain models and motions
             answer: |
-              This is due to the model defined IK being active when there's no IK movement from the motion. Workaround: disable "Model IK" from the actor motion settings.
+              This is due to the model defined IK being active when there's no IK movement from the motion. Workaround: disable "Model IK" from the actor motion settings. Note that this is no longer needed after 2026.7 release.
   - id: faq
     label: FAQ
     title: Frequently Asked Questions

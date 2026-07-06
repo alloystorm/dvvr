@@ -106,7 +106,7 @@ feature_sections:
             image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
             badge: 2025.2 · PRO
             badge_type: pro
-          - title: 足元調整
+          - title: 足の調整
             link: /jp/dancexr/features/feet_adjustment
             image: /images/slideshows/dressing/90fbb9ac6e412cb83d0fcf3c743bfcd776473261.jpg
           - title: スケールとオフセット
@@ -262,12 +262,12 @@ feature_sections:
           - title: スカートの物理演算
             link: /jp/dancexr/features/skirt_physics
             image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
-          - title: 胸部物理演算
+          - title: バスト物理演算
             link: /jp/dancexr/features/boobs_physics
             image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: ソフトボディ物理演算
+          - title: ソフトボディの物理演算
             link: /jp/dancexr/features/softbody_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
             badge: PRO
@@ -326,7 +326,7 @@ feature_sections:
           - title: リップシンク
             link: /jp/dancexr/features/lipsync
             badge: 2024.9
-          - title: Video Player
+          - title: ビデオプレイヤー
             link: /jp/dancexr/features/video_player
             image: /images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp
             badge: 2024.4 · PRO
@@ -391,7 +391,7 @@ feature_sections:
           - title: 空
             link: /jp/dancexr/features/sky
             image: /images/slideshows/environment/How%20is%20the%20shadow%20on%20the%20wall%20even%20possible%EF%BC%9F%20%5B85lKm5S3Oa8%5D.webp
-          - title: 照明 (またはライティング)
+          - title: ライティング
             link: /jp/dancexr/features/lighting
             image: /images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp
       - title: "環境 & エフェクト"
