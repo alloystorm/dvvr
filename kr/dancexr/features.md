@@ -15,6 +15,11 @@ feature_sections:
   - title: 새로운 기능 및 주목할 점
     light: true
     tiles:
+      - title: DanceXR Native
+        link: /kr/dancexr/features/native
+        image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
+        badge: "2026.8 | Path-Traced Native App"
+        badge_type: new
       - title: 디스커버리 앱
         link: /kr/dancexr/features/discovery
         image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
@@ -458,6 +463,11 @@ feature_sections:
             link: /kr/dancexr/features/raytracing
             image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
             badge: PC
+          - title: DanceXR Native
+            link: /kr/dancexr/features/native
+            image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
+            badge: "2026.8 · PC"
+            badge_type: new
   - title: 시네마 카메라
     hub_url: /kr/dancexr/cameras
     hub_summary: Six camera modes — Freefly, Auto, Orbit, One-shot, Concert, First Person — each tuned for a different shot style, plus shared parameters and recording considerations.
