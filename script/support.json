@@ -62,12 +62,12 @@
                 "tw": "在某些模型和動作中，腿部被拉向固定位置",
                 "kr": "특정 모델과 모션에서 다리가 고정 위치로 끌어당겨지는 현상"
               },
-              "answer": "This is due to the model defined IK being active when there's no IK movement from the motion. Workaround: disable \"Model IK\" from the actor motion settings.",
+              "answer": "This is due to the model defined IK being active when there's no IK movement from the motion. Workaround: disable \"Model IK\" from the actor motion settings. Note that this is no longer needed after 2026.7 release.",
               "answer_locales": {
-                "jp": "これは、モーションからIKの動きがない場合にモデル定義のIKが有効になっているためです。回避策：アクターモーション設定から「モデルIK」を無効にしてください。",
-                "zh": "这是由于模型定义的 IK 在动作没有 IK 移动时处于激活状态。解决方法：在演员动作设置中禁用“模型 IK”。",
-                "tw": "這是由於模型定義的 IK 在動作沒有 IK 移動時處於啟用狀態。解決方法：在演員動作設定中停用「模型 IK」。",
-                "kr": "이는 모션에서 IK 움직임이 없을 때 모델 정의 IK가 활성화되어 있기 때문입니다. 해결 방법: 배우 모션 설정에서 '모델 IK'를 비활성화하십시오."
+                "jp": "これは、モーションからIKの動きがない場合にモデル定義のIKが有効になっているためです。回避策：アクターモーション設定から「モデルIK」を無効にしてください。 2026.7リリース以降は不要です。",
+                "zh": "这是由于模型定义的 IK 在动作没有 IK 移动时处于激活状态。解决方法：在演员动作设置中禁用“模型 IK”。 注意：在 2026.7 版本发布后，这不再需要。",
+                "tw": "這是由於模型定義的 IK 在動作沒有 IK 移動時處於啟用狀態。解決方法：在演員動作設定中停用「模型 IK」。 注意：在 2026.7 版本發布後，這不再需要。",
+                "kr": "이는 모션에서 IK 움직임이 없을 때 모델 정의 IK가 활성화되어 있기 때문입니다. 해결 방법: 배우 모션 설정에서 '모델 IK'를 비활성화하십시오. 2026.7 릴리스 이후에는 더 이상 필요하지 않습니다."
               }
             }
           ]

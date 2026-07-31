@@ -262,12 +262,12 @@ feature_sections:
           - title: 치마 물리
             link: /kr/dancexr/features/skirt_physics
             image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
-          - title: 가슴 물리 시뮬레이션
+          - title: 가슴 물리
             link: /kr/dancexr/features/boobs_physics
             image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 소프트바디 물리
+          - title: Softbody 물리
             link: /kr/dancexr/features/softbody_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
             badge: PRO
@@ -326,7 +326,7 @@ feature_sections:
           - title: 립싱크
             link: /kr/dancexr/features/lipsync
             badge: 2024.9
-          - title: Video Player
+          - title: 비디오 플레이어
             link: /kr/dancexr/features/video_player
             image: /images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp
             badge: 2024.4 · PRO
