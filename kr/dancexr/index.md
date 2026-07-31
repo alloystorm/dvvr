@@ -409,15 +409,15 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
 
 </div>
 <div class="release-card">
-  <p class="release-version">최신 — 2026.7</p>
-  <p class="release-headline">2026년 7월</p>
+  <p class="release-version">최신 — 2026.8</p>
+  <p class="release-headline">2026년 8월</p>
   <div class="release-items">
-    <div class="release-item">PMX 모델 물리의 대규모 개편</div>
-    <div class="release-item">형태를 유지하는 안정적인 소프트바디</div>
-    <div class="release-item">바닥에 제대로 붙는 발</div>
-    <div class="release-item">몸통 조작과 앉은 자세</div>
+    <div class="release-item">로드 시 물리 자동 설정</div>
+    <div class="release-item">더 부드러운 포즈 작업과 관절 제한</div>
+    <div class="release-item">더 안정적인 손 그랩</div>
+    <div class="release-item">네이티브 패스 트레이싱 앱 공개 프리뷰</div>
   </div>
-  <a href="releases/2026.7" class="btn-ghost">전체 릴리스 노트</a>
+  <a href="releases/2026.8" class="btn-ghost">전체 릴리스 노트</a>
 </div>
 </div>
 </section>

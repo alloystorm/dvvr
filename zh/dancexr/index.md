@@ -409,15 +409,15 @@ AI 功能
 
 </div>
 <div class="release-card">
-  <p class="release-version">最新 — 2026.7</p>
-  <p class="release-headline">2026年7月</p>
+  <p class="release-version">最新 — 2026.8</p>
+  <p class="release-headline">2026年8月</p>
   <div class="release-items">
-    <div class="release-item">全面重构的 PMX 模型物理</div>
-    <div class="release-item">保持形状的稳定软体</div>
-    <div class="release-item">稳稳落地的双脚</div>
-    <div class="release-item">躯干操控与坐姿</div>
+    <div class="release-item">加载时自动配置物理</div>
+    <div class="release-item">更平滑的摆姿与关节限制</div>
+    <div class="release-item">更稳定的手部抓握</div>
+    <div class="release-item">原生路径追踪应用公开预览</div>
   </div>
-  <a href="releases/2026.7" class="btn-ghost">完整版本说明</a>
+  <a href="releases/2026.8" class="btn-ghost">完整版本说明</a>
 </div>
 </div>
 </section>

@@ -409,15 +409,15 @@ New features and improvements ship every month. Patreon supporters get early acc
 
 </div>
 <div class="release-card">
-  <p class="release-version">Latest — 2026.7</p>
-  <p class="release-headline">July 2026</p>
+  <p class="release-version">Latest — 2026.8</p>
+  <p class="release-headline">August 2026</p>
   <div class="release-items">
-    <div class="release-item">Overhauled PMX model physics</div>
-    <div class="release-item">Steadier shape-matching soft body</div>
-    <div class="release-item">Feet that settle on the floor</div>
-    <div class="release-item">Torso control and seated poses</div>
+    <div class="release-item">Automatic physics setup on load</div>
+    <div class="release-item">Smoother posing and joint limits</div>
+    <div class="release-item">More reliable hand grasping</div>
+    <div class="release-item">Native path-traced app in preview</div>
   </div>
-  <a href="releases/2026.7" class="btn-ghost">Full release notes</a>
+  <a href="releases/2026.8" class="btn-ghost">Full release notes</a>
 </div>
 </div>
 </section>
