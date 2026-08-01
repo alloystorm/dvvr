@@ -138,6 +138,24 @@ Get early access to every monthly release before Steam and all other platforms.
 <p class="section-note" markdown="1">中国大陆用户请查看 [购买选项](/zh/dancexr/purchase_prc)。</p>
 </section>
 
+<!-- ── DanceXR Native ─────────────────────────────────────── -->
+<section class="section">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+Public preview
+
+## Try path-traced rendering
+
+DanceXR Native is a separate, free Windows app that renders your characters with full path tracing on RTX hardware. XPS models and VMD motions, one character at a time.
+
+</div>
+<p style="text-align:center; margin-top: 20px;">
+  <a href="https://github.com/alloystorm/dvvr/releases/tag/dxr-native" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native preview' });">Download the free preview</a>
+</p>
+<p style="text-align:center; margin-top: 8px;" markdown="1">[Learn more →](features/native)</p>
+</section>
+
 <!-- ── Mobile & VR ────────────────────────────────────────── -->
 <section class="section">
 <div class="editions-header" markdown="1">

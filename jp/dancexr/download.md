@@ -138,6 +138,24 @@ Steamやその他のすべてのプラットフォームより早く、毎月の
 <p class="section-note" markdown="1">中国大陸ユーザーは [購入オプション](/zh/dancexr/purchase_prc) を確認してください。</p>
 </section>
 
+<!-- ── DanceXR Native ─────────────────────────────────────── -->
+<section class="section">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+パブリックプレビュー
+
+## パストレーシング描画を試す
+
+DanceXR Native は、RTX ハードウェア上で完全なパストレーシングによりキャラクターを描画する、無料の独立した Windows アプリです。XPS モデルと VMD モーションに対応し、一度に 1 体のキャラクターを描画します。
+
+</div>
+<p style="text-align:center; margin-top: 20px;">
+  <a href="https://github.com/alloystorm/dvvr/releases/tag/dxr-native" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native preview' });">無料プレビューをダウンロード</a>
+</p>
+<p style="text-align:center; margin-top: 8px;" markdown="1">[詳細はこちら →](features/native)</p>
+</section>
+
 <!-- ── Mobile & VR ────────────────────────────────────────── -->
 <section class="section">
 <div class="editions-header" markdown="1">

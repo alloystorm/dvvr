@@ -138,6 +138,24 @@ hero_image: /images/hero.png
 <p class="section-note" markdown="1">中國大陸用戶請查看 [購買選項](/zh/dancexr/purchase_prc)。</p>
 </section>
 
+<!-- ── DanceXR Native ─────────────────────────────────────── -->
+<section class="section">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+公開預覽
+
+## 體驗路徑追蹤算繪
+
+DanceXR Native 是一款獨立的免費 Windows 應用，在 RTX 硬體上以完整路徑追蹤算繪你的角色。支援 XPS 模型與 VMD 動作，一次算繪一個角色。
+
+</div>
+<p style="text-align:center; margin-top: 20px;">
+  <a href="https://github.com/alloystorm/dvvr/releases/tag/dxr-native" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native preview' });">下載免費預覽版</a>
+</p>
+<p style="text-align:center; margin-top: 8px;" markdown="1">[了解更多 →](features/native)</p>
+</section>
+
 <!-- ── Mobile & VR ────────────────────────────────────────── -->
 <section class="section">
 <div class="editions-header" markdown="1">

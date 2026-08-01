@@ -138,6 +138,24 @@ hero_image: /images/hero.png
 <p class="section-note" markdown="1">中国大陆用户请查看 [购买选项](purchase_prc)。</p>
 </section>
 
+<!-- ── DanceXR Native ─────────────────────────────────────── -->
+<section class="section">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+公开预览
+
+## 体验路径追踪渲染
+
+DanceXR Native 是一款独立的免费 Windows 应用，在 RTX 硬件上以完整路径追踪渲染你的角色。支持 XPS 模型与 VMD 动作，一次渲染一个角色。
+
+</div>
+<p style="text-align:center; margin-top: 20px;">
+  <a href="https://github.com/alloystorm/dvvr/releases/tag/dxr-native" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native preview' });">下载免费预览版</a>
+</p>
+<p style="text-align:center; margin-top: 8px;" markdown="1">[了解更多 →](features/native)</p>
+</section>
+
 <!-- ── Mobile & VR ────────────────────────────────────────── -->
 <section class="section">
 <div class="editions-header" markdown="1">
