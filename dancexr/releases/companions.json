@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "components": [
+    {
+      "id": "dancexr_discovery_win32_x64",
+      "displayName": "DanceXR Discovery",
+      "kind": "zip",
+      "version": "1.1.0",
+      "folder": "dancexr-discovery-win32-x64",
+      "url": "https://github.com/alloystorm/dvvr/releases/download/discovery/dancexr-discovery-1.1.0-b103-win32-x64.zip",
+      "size": 123858131,
+      "sha256": "",
+      "versionExecutable": "dancexr-discovery.exe"
+    },
+    {
+      "id": "dancexr_operator",
+      "displayName": "DanceXR Operator",
+      "kind": "installer",
+      "version": "1.2.264",
+      "requiredVersion": "1.1",
+      "folder": "Operator",
+      "url": "https://github.com/alloystorm/dvvr/releases/download/operator1.0/operator-installer-lite-1.2.264.exe",
+      "size": 262503902,
+      "sha256": "",
+      "innoAppId": "{8A2C0B6E-4F4A-4F0B-9C5B-2C3F3D9E1A11}",
+      "versionFile": "server.py",
+      "versionKey": "SERVER_VERSION",
+      "silentArgs": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+      "directoryArg": "/DIR="
+    }
+  ]
+}
