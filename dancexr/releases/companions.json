@@ -26,7 +26,8 @@
       "versionFile": "server.py",
       "versionKey": "SERVER_VERSION",
       "silentArgs": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
-      "directoryArg": "/DIR="
+      "directoryArg": "/DIR=",
+      "logArg": "/LOG="
     }
   ]
 }
