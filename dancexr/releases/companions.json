@@ -16,7 +16,7 @@
       "id": "dancexr_operator",
       "displayName": "DanceXR Operator",
       "kind": "installer",
-      "version": "1.2.264",
+      "version": "1.2.1.266",
       "requiredVersion": "1.1",
       "folder": "Operator",
       "url": "https://github.com/alloystorm/dvvr/releases/download/operator/operator-installer-lite-1.2.1.266.exe",
