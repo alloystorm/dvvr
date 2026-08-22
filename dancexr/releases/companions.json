@@ -25,7 +25,7 @@
       "innoAppId": "{8A2C0B6E-4F4A-4F0B-9C5B-2C3F3D9E1A11}",
       "versionFile": "server.py",
       "versionKey": "SERVER_VERSION",
-      "silentArgs": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+      "silentArgs": ["/SILENT", "/NORESTART"],
       "directoryArg": "/DIR=",
       "logArg": "/LOG="
     }
