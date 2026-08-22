@@ -10,7 +10,8 @@
       "url": "https://github.com/alloystorm/dvvr/releases/download/discovery/dancexr-discovery-1.1.0-b103-win32-x64.zip",
       "size": 123858131,
       "sha256": "",
-      "versionExecutable": "dancexr-discovery.exe"
+      "versionExecutable": "dancexr-discovery.exe",
+      "sentinelFile": "resources/app.asar"
     },
     {
       "id": "dancexr_operator",
@@ -23,6 +24,7 @@
       "size": 263119752,
       "sha256": "",
       "innoAppId": "{8A2C0B6E-4F4A-4F0B-9C5B-2C3F3D9E1A11}",
+      "sentinelFile": "opserver/__init__.py",
       "versionFile": "server.py",
       "versionKey": "SERVER_VERSION",
       "silentArgs": ["/SILENT", "/NORESTART"],
