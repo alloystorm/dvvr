@@ -2,6 +2,32 @@
   "schemaVersion": 1,
   "components": [
     {
+      "id": "dxr_native_win32_x64",
+      "displayName": "Native Path Tracing",
+      "kind": "zip",
+      "renderingEngine": true,
+      "engineTag": "Raytracing",
+      "version": "1.1.469",
+      "folder": "dxr_native_win32_x64",
+      "url": "https://github.com/alloystorm/dvvr/releases/download/dxr-native/dancexr-native-1.1.469-free.7z",
+      "size": 122873881,
+      "sha256": "e8a2cae75e07c8ecf0c49cd2c0b58a022362b572a43041d016c6ba26e223be40",
+      "versionExecutable": "dxr_native.exe",
+      "sentinelFile": "component.json"
+    },
+    {
+      "id": "dancexr_hd_win64",
+      "displayName": "DanceXR HD",
+      "kind": "zip",
+      "renderingEngine": true,
+      "engineTag": "Graphics",
+      "version": "2026.8",
+      "folder": "DanceXR HD Free_WIN64",
+      "url": "https://github.com/alloystorm/dvvr/releases/download/pc-free/DanceXR.HD.Free_WIN64_2026.8.7z",
+      "size": 340290951,
+      "sha256": ""
+    },
+    {
       "id": "dancexr_discovery_win32_x64",
       "displayName": "DanceXR Discovery",
       "kind": "zip",
