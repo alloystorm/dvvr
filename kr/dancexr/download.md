@@ -138,20 +138,36 @@ Steam 및 모든 다른 플랫폼보다 모든 월간 출시를 먼저 받아보
 <p class="section-note" markdown="1">중국大陆用户请查看 [购买选项](/zh/dancexr/purchase_prc)。</p>
 </section>
 
+<!-- ── DanceXR Launcher ───────────────────────────────────── -->
+<section class="section section-light">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+2026.9의 새로운 기능
+
+## 모든 DanceXR 앱을 하나의 런처에서
+
+새로운 **DanceXR Launcher**는 설치된 HD, LW, RT, Native 런타임을 찾아 한곳에서 실행할 수 있게 해 줍니다. 새 PC에서는 무료 HD 및 Native 에디션을 직접 다운로드하고 설치할 수 있습니다. 또한 DanceXR Discovery와 DanceXR Operator를 확인해 필요할 때 설치, 업데이트 또는 복구 작업을 제공합니다.
+
+런처는 2026.9 Windows 릴리스 패키지에 포함됩니다.
+
+</div>
+</section>
+
 <!-- ── DanceXR Native ─────────────────────────────────────── -->
 <section class="section">
 <div class="editions-header" markdown="1">
 
 {:.section-label}
-공개 프리뷰
+정식 출시 준비 완료
 
 ## 패스 트레이싱 렌더링 체험하기
 
-DanceXR Native는 RTX 하드웨어에서 완전한 패스 트레이싱으로 캐릭터를 렌더링하는 무료 독립형 Windows 앱입니다. XPS 모델과 VMD 모션을 지원하며 한 번에 한 캐릭터를 렌더링합니다.
+DanceXR Native는 레이 트레이싱을 지원하는 하드웨어에서 PMX 및 XPS 캐릭터를 완전한 패스 트레이싱으로 렌더링하는 독립형 Windows 앱입니다. 무료 에디션은 캐릭터 한 명을 지원하고, 활성화된 Pro 설치는 다중 캐릭터 장면을 지원합니다. 데스크톱 또는 OpenXR VR로 실행할 수 있습니다.
 
 </div>
 <p style="text-align:center; margin-top: 20px;">
-  <a href="https://github.com/alloystorm/dvvr/releases/tag/dxr-native" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native preview' });">무료 프리뷰 다운로드</a>
+  <a href="https://github.com/alloystorm/dvvr/releases/tag/dxr-native" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native free' });">Native 무료 버전 다운로드</a>
 </p>
 <p style="text-align:center; margin-top: 8px;" markdown="1">[자세히 보기 →](features/native)</p>
 </section>

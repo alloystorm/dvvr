@@ -409,15 +409,15 @@ AI 功能
 
 </div>
 <div class="release-card">
-  <p class="release-version">最新 — 2026.8</p>
-  <p class="release-headline">2026年8月</p>
+  <p class="release-version">最新 — 2026.9</p>
+  <p class="release-headline">2026年9月</p>
   <div class="release-items">
-    <div class="release-item">載入時自動設定物理</div>
-    <div class="release-item">更平滑的擺姿與關節限制</div>
-    <div class="release-item">更穩定的手部抓握</div>
-    <div class="release-item">原生路徑追蹤應用公開預覽</div>
+    <div class="release-item">Native 新增 PMX 與多角色場景</div>
+    <div class="release-item">用於執行環境與配套應用更新的新啟動器</div>
+    <div class="release-item">適用於多角色場景的互動擺姿</div>
+    <div class="release-item">實驗性平滑流體表面</div>
   </div>
-  <a href="releases/2026.8" class="btn-ghost">完整版本說明</a>
+  <a href="releases/2026.9" class="btn-ghost">完整版本說明</a>
 </div>
 </div>
 </section>

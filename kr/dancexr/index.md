@@ -409,15 +409,15 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
 
 </div>
 <div class="release-card">
-  <p class="release-version">최신 — 2026.8</p>
-  <p class="release-headline">2026년 8월</p>
+  <p class="release-version">최신 — 2026.9</p>
+  <p class="release-headline">2026년 9월</p>
   <div class="release-items">
-    <div class="release-item">로드 시 물리 자동 설정</div>
-    <div class="release-item">더 부드러운 포즈 작업과 관절 제한</div>
-    <div class="release-item">더 안정적인 손 그랩</div>
-    <div class="release-item">네이티브 패스 트레이싱 앱 공개 프리뷰</div>
+    <div class="release-item">Native의 PMX 및 다중 캐릭터 장면 지원</div>
+    <div class="release-item">런타임과 컴패니언 업데이트를 위한 새 런처</div>
+    <div class="release-item">다중 캐릭터 장면을 위한 인터랙티브 포즈</div>
+    <div class="release-item">실험적인 매끄러운 유체 표면</div>
   </div>
-  <a href="releases/2026.8" class="btn-ghost">전체 릴리스 노트</a>
+  <a href="releases/2026.9" class="btn-ghost">전체 릴리스 노트</a>
 </div>
 </div>
 </section>

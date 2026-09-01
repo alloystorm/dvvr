@@ -138,20 +138,36 @@ hero_image: /images/hero.png
 <p class="section-note" markdown="1">中國大陸用戶請查看 [購買選項](/zh/dancexr/purchase_prc)。</p>
 </section>
 
+<!-- ── DanceXR Launcher ───────────────────────────────────── -->
+<section class="section section-light">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+2026.9 新功能
+
+## 一個啟動器管理所有 DanceXR 應用
+
+新的 **DanceXR Launcher** 會尋找已安裝的 HD、LW、RT 與 Native 執行環境，讓你從一個地方啟動它們。在新電腦上，它還可以直接下載並安裝免費的 HD 與 Native 版本。它也會檢查 DanceXR Discovery 和 DanceXR Operator，並在需要時提供安裝、更新或修復操作。
+
+此啟動器包含在 2026.9 Windows 發布套件中。
+
+</div>
+</section>
+
 <!-- ── DanceXR Native ─────────────────────────────────────── -->
 <section class="section">
 <div class="editions-header" markdown="1">
 
 {:.section-label}
-公開預覽
+正式發布
 
 ## 體驗路徑追蹤算繪
 
-DanceXR Native 是一款獨立的免費 Windows 應用，在 RTX 硬體上以完整路徑追蹤算繪你的角色。支援 XPS 模型與 VMD 動作，一次算繪一個角色。
+DanceXR Native 是一款獨立的 Windows 應用，可在支援光線追蹤的硬體上以完整路徑追蹤算繪 PMX 與 XPS 角色。免費版支援一個角色；已啟用的 Pro 安裝支援多角色場景。可在桌面或 OpenXR VR 模式下啟動。
 
 </div>
 <p style="text-align:center; margin-top: 20px;">
-  <a href="https://github.com/alloystorm/dvvr/releases/tag/dxr-native" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native preview' });">下載免費預覽版</a>
+  <a href="https://github.com/alloystorm/dvvr/releases/tag/dxr-native" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native free' });">下載 Native 免費版</a>
 </p>
 <p style="text-align:center; margin-top: 8px;" markdown="1">[了解更多 →](features/native)</p>
 </section>
