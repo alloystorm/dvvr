@@ -9,9 +9,9 @@
       "edition": "Free",
       "version": "1.1.470",
       "folder": "dxr_native_win32_x64",
-      "url": "https://github.com/alloystorm/dvvr/releases/download/dxr-native/dancexr-native-1.1.470-free.7z",
-      "size": 122882949,
-      "sha256": "7cd24df66d38aed593c1e8e0f08f89a0f06e1363c4d7296143737cc8409123cd",
+      "url": "https://github.com/alloystorm/dvvr/releases/download/dxr-native/dancexr-native-1.1.477-free.7z",
+      "size": 123109329,
+      "sha256": "e9e7a34389748f64d7bc2af2518c805ca15f11d2e830f991ec5b463270950e79",
       "versionExecutable": "dxr_native.exe",
       "sentinelFile": "component.json"
     },
@@ -23,9 +23,9 @@
       "edition": "Free",
       "version": "2026.8",
       "folder": "DanceXR HD Free_WIN64",
-      "url": "https://github.com/alloystorm/dvvr/releases/download/pc-free/DanceXR.HD.Free_WIN64_2026.8.7z",
-      "size": 340290951,
-      "sha256": ""
+      "url": "https://github.com/alloystorm/dvvr/releases/download/pc-free/DanceXR.HD.Free_WIN64_2026.9.7z",
+      "size": 340903682,
+      "sha256": "2d4b6ccf7b4b6ec0404bf1ece780f845f119a7c5d52ea9d2e5d48887e1b13742"
     },
     {
       "id": "dancexr_discovery_win32_x64",
