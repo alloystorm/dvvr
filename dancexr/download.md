@@ -138,20 +138,36 @@ Get early access to every monthly release before Steam and all other platforms.
 <p class="section-note" markdown="1">中国大陆用户请查看 [购买选项](/zh/dancexr/purchase_prc)。</p>
 </section>
 
+<!-- ── DanceXR Launcher ───────────────────────────────────── -->
+<section class="section section-light">
+<div class="editions-header" markdown="1">
+
+{:.section-label}
+New in 2026.9
+
+## One launcher for every DanceXR app
+
+The new **DanceXR Launcher** finds your installed HD, LW, RT, and Native runtimes and starts them from one place. On a new PC, it can download and install the free HD and Native editions for you. It also checks DanceXR Discovery and DanceXR Operator, then offers install, update, or repair actions when needed.
+
+The launcher is included with the 2026.9 Windows release packages.
+
+</div>
+</section>
+
 <!-- ── DanceXR Native ─────────────────────────────────────── -->
 <section class="section">
 <div class="editions-header" markdown="1">
 
 {:.section-label}
-Public preview
+Release ready
 
 ## Try path-traced rendering
 
-DanceXR Native is a separate, free Windows app that renders your characters with full path tracing on RTX hardware. XPS models and VMD motions, one character at a time.
+DanceXR Native is a standalone Windows app that renders PMX and XPS characters with full path tracing on ray-tracing-capable hardware. The free edition supports one character; activated Pro installations support multi-character scenes. Launch it on desktop or in OpenXR VR.
 
 </div>
 <p style="text-align:center; margin-top: 20px;">
-  <a href="https://github.com/alloystorm/dvvr/releases/tag/dxr-native" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native preview' });">Download the free preview</a>
+  <a href="https://github.com/alloystorm/dvvr/releases/tag/dxr-native" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native free' });">Download Native free</a>
 </p>
 <p style="text-align:center; margin-top: 8px;" markdown="1">[Learn more →](features/native)</p>
 </section>

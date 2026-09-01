@@ -7,9 +7,9 @@ toc: true
 
 # DanceXR Native
 
-**DanceXR Native** is a separate, standalone Windows application that renders your characters with full **path tracing** on NVIDIA RTX hardware. It is not a build of DanceXR — it is a purpose-built companion app with its own installer, its own settings, and its own content folder.
+**DanceXR Native** is a separate, standalone Windows application that renders your characters with full **path tracing** on ray-tracing-capable hardware. It is a purpose-built companion to the Unity-based DanceXR runtimes, with its own renderer and settings while using the same organized content library.
 
-Currently in **public preview** (2026.8). Expect rough edges.
+After entering public preview in 2026.8, Native became **release ready in [2026.9](../releases/2026.9)** with PMX models, multi-character scenes, and OpenXR VR support.
 
 Download: [github.com/alloystorm/dvvr/releases/tag/dxr-native](https://github.com/alloystorm/dvvr/releases/tag/dxr-native)
 
@@ -37,7 +37,7 @@ Two render modes:
 |---|---|
 | OS | Windows |
 | GPU | Ray-tracing capable (NVIDIA RTX recommended) |
-| VR | **Not supported** — desktop only |
+| VR | OpenXR-compatible headset and runtime |
 
 If your GPU can't run it, the app tells you why on launch instead of failing silently.
 
@@ -47,29 +47,27 @@ If your GPU can't run it, the app tells you why on launch instead of failing sil
 
 This is the most important thing to know before you download.
 
-- **Models: XPS / XNALara** (`.xps`, `.mesh`, `.ascii`), loose or in a ZIP.
+- **Models: PMX and XPS / XNALara** (`.pmx`, `.xps`, `.mesh`, `.ascii`), loose or in a ZIP.
 - **Motions: VMD** (MikuMikuDance), including camera motion.
 
-**PMX models are not supported yet.** PMX is the next major chapter for Native — it brings morphs, append/inherit deforms, and PMX physics content with it — but it is not in this preview. If your library is entirely PMX, this release won't have much for you yet.
+PMX support includes append and inherited bone deformation, IK, vertex/bone/material/group morphs, and rigid-body physics. Facial morphs can be driven by VMD motion or adjusted from the Actors menu.
 
-Facial morphs are likewise not yet available, since XPS has no morph data.
+### Editions and character limits
 
-### Preview limits
-
-The free preview renders **one character at a time**. Dropping a second model replaces the first, and the app shows a notice when it does.
+The free edition renders **one character at a time**. Dropping a second model replaces the first, and the app shows a notice when it does. An activated Pro installation supports multiple simultaneous characters: each can have its own model settings, materials, physics, placement, and motion.
 
 ---
 
 ## Using it
 
-Drag and drop is the primary way in — drop a model, a motion, or a ZIP onto the window and it loads. The interface is organized into tabs: **Actors**, **Motion**, **Camera**, **Environment**, **Scene**, and **System**.
+Drag and drop is the primary way in — drop a model, a motion, or a ZIP onto the window and it loads. The interface is organized into tabs: **Actors**, **Motion**, **Camera**, **Environment**, **Scene**, and **System**. Start Native in desktop or VR mode from the DanceXR Launcher.
 
 ### Posing and motion
 
 - VMD motion playback with audio, kept in sync on a shared clock.
 - Procedural idle motion when no clip is playing, plus eye contact so the character can look at the camera.
 - Leg IK and a feet-on-floor solver, so feet plant on the ground rather than floating or sinking.
-- Hair physics and shape-matching soft-body simulation, with body colliders.
+- Hair physics and shape-matching soft-body simulation, with body colliders, plus PMX-authored rigid-body physics.
 
 ### Placing characters
 
@@ -77,7 +75,7 @@ Hover a character's feet to bring up the interaction disc: drag to move on the g
 
 ### Scenes and rooms
 
-A procedural room with real window openings, adjustable lighting, and volumetric fog serves as the default environment. Scenes can be saved and reloaded by name, preserving character placement, materials, and motion assignment.
+A procedural room with real window openings, adjustable lighting, and volumetric fog serves as the default environment. Scenes can be saved and reloaded by name, preserving the full character roster, placement, materials, and motion assignments.
 
 ### Materials
 

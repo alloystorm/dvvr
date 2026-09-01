@@ -409,15 +409,15 @@ New features and improvements ship every month. Patreon supporters get early acc
 
 </div>
 <div class="release-card">
-  <p class="release-version">Latest — 2026.8</p>
-  <p class="release-headline">August 2026</p>
+  <p class="release-version">Latest — 2026.9</p>
+  <p class="release-headline">September 2026</p>
   <div class="release-items">
-    <div class="release-item">Automatic physics setup on load</div>
-    <div class="release-item">Smoother posing and joint limits</div>
-    <div class="release-item">More reliable hand grasping</div>
-    <div class="release-item">Native path-traced app in preview</div>
+    <div class="release-item">Native adds PMX and multi-character scenes</div>
+    <div class="release-item">New launcher for runtimes and companion updates</div>
+    <div class="release-item">Interactive Pose for multi-character scenes</div>
+    <div class="release-item">Experimental smooth fluid surfaces</div>
   </div>
-  <a href="releases/2026.8" class="btn-ghost">Full release notes</a>
+  <a href="releases/2026.9" class="btn-ghost">Full release notes</a>
 </div>
 </div>
 </section>
