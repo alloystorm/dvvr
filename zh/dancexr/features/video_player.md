@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: 视频播放器
+title: "视频播放器"
 locale: zh-CN
 ---
 
