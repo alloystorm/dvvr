@@ -1,6 +1,6 @@
 ---
 layout: feature
-title: `./motion/proc/free_pose`
+title: "./motion/proc/free_pose"
 locale: zh-CN
 ---
 

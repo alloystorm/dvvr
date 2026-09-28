@@ -24,6 +24,17 @@ done
 
 cd "$SITE_DIR"
 
+# Ensure Ruby >= 3.0 is used (e.g. Homebrew Ruby instead of system macOS Ruby 2.6)
+if ! command -v ruby >/dev/null 2>&1 || [ "$(ruby -e 'puts RUBY_VERSION.split(".").first' 2>/dev/null || echo 0)" -lt 3 ]; then
+  if [ -d "/opt/homebrew/opt/ruby/bin" ]; then
+    export PATH="/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/4.0.0/bin:$PATH"
+  elif [ -d "/opt/homebrew/opt/ruby@3.3/bin" ]; then
+    export PATH="/opt/homebrew/opt/ruby@3.3/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"
+  elif [ -d "$HOME/.rbenv/shims" ]; then
+    export PATH="$HOME/.rbenv/shims:$PATH"
+  fi
+fi
+
 echo "──────────────────────────────────────"
 echo "  DanceXR local preview"
 echo "──────────────────────────────────────"

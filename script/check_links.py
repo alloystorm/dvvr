@@ -8,8 +8,9 @@ pages that cannot be resolved to a file, and reports pages present in SITE_DIR
 that were never reached from the home page.
 
 When --external is given, BASE_URL is used to identify internal vs external
-links for HTTP HEAD checks (e.g. http://localhost:4000).
 """
+from __future__ import annotations
+
 import sys
 import re
 from collections import deque
