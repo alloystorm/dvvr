@@ -18,7 +18,7 @@ feature_sections:
       - title: DanceXR Native
         link: /kr/dancexr/features/native
         image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
-        badge: "2026.8 | Path-Traced Native App"
+        badge: "2026.10 | Path-Traced and Raster App"
         badge_type: new
       - title: 디스커버리 앱
         link: /kr/dancexr/features/discovery
@@ -466,7 +466,7 @@ feature_sections:
           - title: DanceXR Native
             link: /kr/dancexr/features/native
             image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
-            badge: "2026.8 · PC"
+            badge: "2026.10 · PC"
             badge_type: new
   - title: 시네마 카메라
     hub_url: /kr/dancexr/cameras
