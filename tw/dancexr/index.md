@@ -409,15 +409,15 @@ AI 功能
 
 </div>
 <div class="release-card">
-  <p class="release-version">最新 — 2026.9</p>
-  <p class="release-headline">2026年9月</p>
+  <p class="release-version">最新 — 2026.10</p>
+  <p class="release-headline">2026年10月</p>
   <div class="release-items">
-    <div class="release-item">Native 新增 PMX 與多角色場景</div>
-    <div class="release-item">用於執行環境與配套應用更新的新啟動器</div>
-    <div class="release-item">適用於多角色場景的互動擺姿</div>
-    <div class="release-item">實驗性平滑流體表面</div>
+    <div class="release-item">光柵算繪器讓 Native 支援更多 PC</div>
+    <div class="release-item">Wet Skin &amp; Fluid 與布料服裝</div>
+    <div class="release-item">自動相機、隨機播放與影片背景</div>
+    <div class="release-item">無需重新啟動即可進出 VR</div>
   </div>
-  <a href="releases/2026.9" class="btn-ghost">完整版本說明</a>
+  <a href="releases/2026.10" class="btn-ghost">完整版本說明</a>
 </div>
 </div>
 </section>

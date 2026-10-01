@@ -409,15 +409,15 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
 
 </div>
 <div class="release-card">
-  <p class="release-version">최신 — 2026.9</p>
-  <p class="release-headline">2026년 9월</p>
+  <p class="release-version">최신 — 2026.10</p>
+  <p class="release-headline">2026년 10월</p>
   <div class="release-items">
-    <div class="release-item">Native의 PMX 및 다중 캐릭터 장면 지원</div>
-    <div class="release-item">런타임과 컴패니언 업데이트를 위한 새 런처</div>
-    <div class="release-item">다중 캐릭터 장면을 위한 인터랙티브 포즈</div>
-    <div class="release-item">실험적인 매끄러운 유체 표면</div>
+    <div class="release-item">래스터 렌더러로 더 많은 PC에서 Native 실행</div>
+    <div class="release-item">Wet Skin &amp; Fluid와 천 의상</div>
+    <div class="release-item">오토 카메라, 셔플, 비디오 배경</div>
+    <div class="release-item">재시작 없이 VR 출입</div>
   </div>
-  <a href="releases/2026.9" class="btn-ghost">전체 릴리스 노트</a>
+  <a href="releases/2026.10" class="btn-ghost">전체 릴리스 노트</a>
 </div>
 </div>
 </section>

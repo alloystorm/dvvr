@@ -409,15 +409,15 @@ AIパワードのボイスチャットにより、キャラクターがリアル
 
 </div>
 <div class="release-card">
-  <p class="release-version">最新 — 2026.9</p>
-  <p class="release-headline">2026年9月</p>
+  <p class="release-version">最新 — 2026.10</p>
+  <p class="release-headline">2026年10月</p>
   <div class="release-items">
-    <div class="release-item">Native が PMX と複数キャラクターに対応</div>
-    <div class="release-item">ランタイムとコンパニオン更新の新ランチャー</div>
-    <div class="release-item">複数キャラクター向け Interactive Pose</div>
-    <div class="release-item">実験的な滑らかな流体表面</div>
+    <div class="release-item">ラスターレンダラーで Native がより多くの PC に対応</div>
+    <div class="release-item">Wet Skin &amp; Fluid と布の衣装</div>
+    <div class="release-item">オートカメラ、シャッフル、ビデオ背景</div>
+    <div class="release-item">再起動なしで VR に出入り</div>
   </div>
-  <a href="releases/2026.9" class="btn-ghost">完全なリリースノート</a>
+  <a href="releases/2026.10" class="btn-ghost">完全なリリースノート</a>
 </div>
 </div>
 </section>
