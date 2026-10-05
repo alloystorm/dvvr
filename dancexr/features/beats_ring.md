@@ -46,24 +46,23 @@ When *Beat Clock* is enabled, rings pulse in sync with the detected BPM rather t
 Enabling *Transparent* removes the background fill, keeping only the rings and their glow for a minimal look suited to dark stages. Shadow effects remain active regardless of this setting.
 
 
-# Sub-Components
+## Settings reference
 
-## Audio Visualizer
+## Audio Visualizer {#audio-visualizer}
 
 Holds the ring visualization layout, colors, textures, and audio-reactive settings.
 
-### Ring Color
+<a id="settings-glow-color"></a>
+### Color and glow (Ring Color) {#ring-color}
 
 Holds a base color and glow intensity for audio-reactive elements.
 Glow is multiplied with the color and animates with the beat when auto-update is enabled.
 
-### Background Color
+### Background Color {#background-color}
 
-Holds a base color and glow intensity for audio-reactive elements.
-Glow is multiplied with the color and animates with the beat when auto-update is enabled.
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
 
-### Foreground Color
+### Foreground Color {#foreground-color}
 
-Holds a base color and glow intensity for audio-reactive elements.
-Glow is multiplied with the color and animates with the beat when auto-update is enabled.
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
 

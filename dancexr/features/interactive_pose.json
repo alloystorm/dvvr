@@ -1,0 +1,1284 @@
+{
+  "name": "./motion/proc/interactive_pose",
+  "docPath": "features/interactive_pose",
+  "label": "./motion/proc/interactive_pose",
+  "labels": {
+    "ja": "(./motion/proc/interactive_pose)",
+    "zh-TW": "(./motion/proc/interactive_pose)",
+    "ko": "(./motion/proc/interactive_pose)",
+    "zh-CN": "(./motion/proc/interactive_pose)"
+  },
+  "description": "Interactive Pose turns several actors into self-balancing puppets that share\none physical world. Pose each one by hand exactly like Free Pose — grab a limb,\nthe torso, or the head and drag; the balance solver keeps each character\nstanding over its feet (or sitting on a locked seat). Because all the bodies\nlive in the same simulation, characters can lean on and push against each other,\nand a hand held against another character can grab onto them.\n\n\n## Posing\n\nIdentical to Free Pose: drag a hand/arm or foot/leg to move that limb; feet use\ndwell-to-pin (hold still to lock in the air, release to drop). Drag the torso and\nhold to sit. **Reset** drops every pin and returns to a neutral stand.\n\n\n## Pinning\n\nA pinned hand or foot is held by a spring constraint rather than being frozen,\nso it still takes part in the simulation — another character can push against it\nand it springs back to the pin. **Pin Strength** sets how firmly: high holds the\npin tightly, low lets the limb give way and drift under contact.\n\n\n## Contact & Anchoring\n\n**Contact Reaction** is how strongly a character reacts to being pushed into by\nanother: contact that would sink the two bodies together shifts the whole body\naway instead, feet staying planted. Turn it up for a firmer brace, down to 0 to\nlet the bodies overlap freely.\n\nHold a hand against another character and keep it still, and it **anchors** to\nthe body part underneath — it then rides that part as you re-pose the partner\n(a hand on a shoulder stays on the shoulder). **Anchor Reach** is how close the\nhand has to get before it latches; set it to 0 to disable anchoring. Drag the\nhand again, or **Reset**, to let go. The anchor is one-way — the character being\nheld feels nothing from it except the contact itself.\n\n\n## Ragdoll\n\n**Ragdoll** is the master switch for the shared physical body: with it off, each\ncharacter still poses and balances but passes straight through the others.\n**Drive Strength** is how firmly the physical body is held to the pose you\ndirected (lower gives more under contact) and **Damping** settles it.\n\n**World Pose Pull** is a second, weaker version of that hold. The joints only\nreproduce each bone's rotation relative to its parent, so an arm knocked aside\nby contact keeps pointing the wrong way for good — every bone below the shoulder\nis still correct relative to a shoulder that isn't. This steers each part back\ntoward the direction the pose asked for. Raise it until displaced limbs find\ntheir way back, and back off before the body stops giving under contact.\n\n**Fine Tune** scales both drives per body part, from 0 (that part goes limp) to\n1 (held as firmly as the drive allows) — keep the torso firm while the arms\ndangle, or soften just the hands.\n\n**Pose Recovery** is how strongly the body is drawn back to the pose you\ndirected. It is deliberately gentle, so moving or shaking the character still\nmakes the limbs trail and swing — it only decides how surely they settle back\nafterwards rather than staying where they ended up. Turn it to 0 and a body that\ngets displaced stays displaced.\n\n**Surface Friction** is how much the body grips the floor and other surfaces it\ntouches. At 1 a part that touches the ground sticks to it and can only be pulled\nfree by the rest of the body; turn it down for parts that slide and settle.\n\n**Show Colliders** draws the physical volumes the character is actually built\nfrom — the capsules, slabs and spheres that collide — and **Show Joints** draws\nthe connection between each pair, with the range it is allowed to bend through.\nBoth are diagnostic: use them to see why two characters touch where they do, or\nwhy a limb stops where it does.\n\n\n## Sitting\n\nDrag the torso (waist) and hold still to lock it as a seat, exactly as in Free\nPose: the character rests on it like a stool and both feet hang free. A quick\ndrag-and-release, or **Reset**, stands back up. A seated character is still\nfully part of the shared simulation — the seat is a spring, not a nail, so\nanother character can lean into one and push them off it, and they settle back.\n**Seat Stiffness** and **Seat Damping** set how firmly and how quickly; a softer\nseat gives more under contact. **Seat Pin Strength** is the matching hold on the\n*physical* body: turn it down and a seated character drifts further and takes\nlonger to come back, up for a seat they barely leave. **Seat Radius**, **Seat Lean Gain** and **Seat\nLean Max** control the counterbalancing tilt of the upper body, since a seated\npelvis can't slide to chase balance the way a standing one does.\n\n\n## Repeating Motion\n\n**Motion** adds an optional repeating body movement — the hips travel back and\nforth over **Motion Range** at **Motion Speed**. **Motion Orientation** tilts the\nline they travel along, from straight forward/back through to straight up/down.\n**Motion Origin** shifts the centre of that travel, so the movement can sit\nforward or back of where the character rests; leave **Motion Speed** at 0 and the\nhips simply hold at that offset instead of moving. **Motion Phase** gives each\ncharacter its own starting point so peers don't move in lock-step.",
+  "descriptions": {
+    "ja": "(Interactive Pose turns several actors into self-balancing puppets that share\none physical world. Pose each one by hand exactly like Free Pose — grab a limb,\nthe torso, or the head and drag; the balance solver keeps each character\nstanding over its feet (or sitting on a locked seat). Because all the bodies\nlive in the same simulation, characters can lean on and push against each other,\nand a hand held against another character can grab onto them.\n\n\n## Posing\n\nIdentical to Free Pose: drag a hand/arm or foot/leg to move that limb; feet use\ndwell-to-pin (hold still to lock in the air, release to drop). Drag the torso and\nhold to sit. **Reset** drops every pin and returns to a neutral stand.\n\n\n## Pinning\n\nA pinned hand or foot is held by a spring constraint rather than being frozen,\nso it still takes part in the simulation — another character can push against it\nand it springs back to the pin. **Pin Strength** sets how firmly: high holds the\npin tightly, low lets the limb give way and drift under contact.\n\n\n## Contact & Anchoring\n\n**Contact Reaction** is how strongly a character reacts to being pushed into by\nanother: contact that would sink the two bodies together shifts the whole body\naway instead, feet staying planted. Turn it up for a firmer brace, down to 0 to\nlet the bodies overlap freely.\n\nHold a hand against another character and keep it still, and it **anchors** to\nthe body part underneath — it then rides that part as you re-pose the partner\n(a hand on a shoulder stays on the shoulder). **Anchor Reach** is how close the\nhand has to get before it latches; set it to 0 to disable anchoring. Drag the\nhand again, or **Reset**, to let go. The anchor is one-way — the character being\nheld feels nothing from it except the contact itself.\n\n\n## Ragdoll\n\n**Ragdoll** is the master switch for the shared physical body: with it off, each\ncharacter still poses and balances but passes straight through the others.\n**Drive Strength** is how firmly the physical body is held to the pose you\ndirected (lower gives more under contact) and **Damping** settles it.\n\n**World Pose Pull** is a second, weaker version of that hold. The joints only\nreproduce each bone's rotation relative to its parent, so an arm knocked aside\nby contact keeps pointing the wrong way for good — every bone below the shoulder\nis still correct relative to a shoulder that isn't. This steers each part back\ntoward the direction the pose asked for. Raise it until displaced limbs find\ntheir way back, and back off before the body stops giving under contact.\n\n**Fine Tune** scales both drives per body part, from 0 (that part goes limp) to\n1 (held as firmly as the drive allows) — keep the torso firm while the arms\ndangle, or soften just the hands.\n\n**Pose Recovery** is how strongly the body is drawn back to the pose you\ndirected. It is deliberately gentle, so moving or shaking the character still\nmakes the limbs trail and swing — it only decides how surely they settle back\nafterwards rather than staying where they ended up. Turn it to 0 and a body that\ngets displaced stays displaced.\n\n**Surface Friction** is how much the body grips the floor and other surfaces it\ntouches. At 1 a part that touches the ground sticks to it and can only be pulled\nfree by the rest of the body; turn it down for parts that slide and settle.\n\n**Show Colliders** draws the physical volumes the character is actually built\nfrom — the capsules, slabs and spheres that collide — and **Show Joints** draws\nthe connection between each pair, with the range it is allowed to bend through.\nBoth are diagnostic: use them to see why two characters touch where they do, or\nwhy a limb stops where it does.\n\n\n## Sitting\n\nDrag the torso (waist) and hold still to lock it as a seat, exactly as in Free\nPose: the character rests on it like a stool and both feet hang free. A quick\ndrag-and-release, or **Reset**, stands back up. A seated character is still\nfully part of the shared simulation — the seat is a spring, not a nail, so\nanother character can lean into one and push them off it, and they settle back.\n**Seat Stiffness** and **Seat Damping** set how firmly and how quickly; a softer\nseat gives more under contact. **Seat Pin Strength** is the matching hold on the\n*physical* body: turn it down and a seated character drifts further and takes\nlonger to come back, up for a seat they barely leave. **Seat Radius**, **Seat Lean Gain** and **Seat\nLean Max** control the counterbalancing tilt of the upper body, since a seated\npelvis can't slide to chase balance the way a standing one does.\n\n\n## Repeating Motion\n\n**Motion** adds an optional repeating body movement — the hips travel back and\nforth over **Motion Range** at **Motion Speed**. **Motion Orientation** tilts the\nline they travel along, from straight forward/back through to straight up/down.\n**Motion Origin** shifts the centre of that travel, so the movement can sit\nforward or back of where the character rests; leave **Motion Speed** at 0 and the\nhips simply hold at that offset instead of moving. **Motion Phase** gives each\ncharacter its own starting point so peers don't move in lock-step.)",
+    "zh-TW": "(Interactive Pose turns several actors into self-balancing puppets that share\none physical world. Pose each one by hand exactly like Free Pose — grab a limb,\nthe torso, or the head and drag; the balance solver keeps each character\nstanding over its feet (or sitting on a locked seat). Because all the bodies\nlive in the same simulation, characters can lean on and push against each other,\nand a hand held against another character can grab onto them.\n\n\n## Posing\n\nIdentical to Free Pose: drag a hand/arm or foot/leg to move that limb; feet use\ndwell-to-pin (hold still to lock in the air, release to drop). Drag the torso and\nhold to sit. **Reset** drops every pin and returns to a neutral stand.\n\n\n## Pinning\n\nA pinned hand or foot is held by a spring constraint rather than being frozen,\nso it still takes part in the simulation — another character can push against it\nand it springs back to the pin. **Pin Strength** sets how firmly: high holds the\npin tightly, low lets the limb give way and drift under contact.\n\n\n## Contact & Anchoring\n\n**Contact Reaction** is how strongly a character reacts to being pushed into by\nanother: contact that would sink the two bodies together shifts the whole body\naway instead, feet staying planted. Turn it up for a firmer brace, down to 0 to\nlet the bodies overlap freely.\n\nHold a hand against another character and keep it still, and it **anchors** to\nthe body part underneath — it then rides that part as you re-pose the partner\n(a hand on a shoulder stays on the shoulder). **Anchor Reach** is how close the\nhand has to get before it latches; set it to 0 to disable anchoring. Drag the\nhand again, or **Reset**, to let go. The anchor is one-way — the character being\nheld feels nothing from it except the contact itself.\n\n\n## Ragdoll\n\n**Ragdoll** is the master switch for the shared physical body: with it off, each\ncharacter still poses and balances but passes straight through the others.\n**Drive Strength** is how firmly the physical body is held to the pose you\ndirected (lower gives more under contact) and **Damping** settles it.\n\n**World Pose Pull** is a second, weaker version of that hold. The joints only\nreproduce each bone's rotation relative to its parent, so an arm knocked aside\nby contact keeps pointing the wrong way for good — every bone below the shoulder\nis still correct relative to a shoulder that isn't. This steers each part back\ntoward the direction the pose asked for. Raise it until displaced limbs find\ntheir way back, and back off before the body stops giving under contact.\n\n**Fine Tune** scales both drives per body part, from 0 (that part goes limp) to\n1 (held as firmly as the drive allows) — keep the torso firm while the arms\ndangle, or soften just the hands.\n\n**Pose Recovery** is how strongly the body is drawn back to the pose you\ndirected. It is deliberately gentle, so moving or shaking the character still\nmakes the limbs trail and swing — it only decides how surely they settle back\nafterwards rather than staying where they ended up. Turn it to 0 and a body that\ngets displaced stays displaced.\n\n**Surface Friction** is how much the body grips the floor and other surfaces it\ntouches. At 1 a part that touches the ground sticks to it and can only be pulled\nfree by the rest of the body; turn it down for parts that slide and settle.\n\n**Show Colliders** draws the physical volumes the character is actually built\nfrom — the capsules, slabs and spheres that collide — and **Show Joints** draws\nthe connection between each pair, with the range it is allowed to bend through.\nBoth are diagnostic: use them to see why two characters touch where they do, or\nwhy a limb stops where it does.\n\n\n## Sitting\n\nDrag the torso (waist) and hold still to lock it as a seat, exactly as in Free\nPose: the character rests on it like a stool and both feet hang free. A quick\ndrag-and-release, or **Reset**, stands back up. A seated character is still\nfully part of the shared simulation — the seat is a spring, not a nail, so\nanother character can lean into one and push them off it, and they settle back.\n**Seat Stiffness** and **Seat Damping** set how firmly and how quickly; a softer\nseat gives more under contact. **Seat Pin Strength** is the matching hold on the\n*physical* body: turn it down and a seated character drifts further and takes\nlonger to come back, up for a seat they barely leave. **Seat Radius**, **Seat Lean Gain** and **Seat\nLean Max** control the counterbalancing tilt of the upper body, since a seated\npelvis can't slide to chase balance the way a standing one does.\n\n\n## Repeating Motion\n\n**Motion** adds an optional repeating body movement — the hips travel back and\nforth over **Motion Range** at **Motion Speed**. **Motion Orientation** tilts the\nline they travel along, from straight forward/back through to straight up/down.\n**Motion Origin** shifts the centre of that travel, so the movement can sit\nforward or back of where the character rests; leave **Motion Speed** at 0 and the\nhips simply hold at that offset instead of moving. **Motion Phase** gives each\ncharacter its own starting point so peers don't move in lock-step.)",
+    "ko": "(Interactive Pose turns several actors into self-balancing puppets that share\none physical world. Pose each one by hand exactly like Free Pose — grab a limb,\nthe torso, or the head and drag; the balance solver keeps each character\nstanding over its feet (or sitting on a locked seat). Because all the bodies\nlive in the same simulation, characters can lean on and push against each other,\nand a hand held against another character can grab onto them.\n\n\n## Posing\n\nIdentical to Free Pose: drag a hand/arm or foot/leg to move that limb; feet use\ndwell-to-pin (hold still to lock in the air, release to drop). Drag the torso and\nhold to sit. **Reset** drops every pin and returns to a neutral stand.\n\n\n## Pinning\n\nA pinned hand or foot is held by a spring constraint rather than being frozen,\nso it still takes part in the simulation — another character can push against it\nand it springs back to the pin. **Pin Strength** sets how firmly: high holds the\npin tightly, low lets the limb give way and drift under contact.\n\n\n## Contact & Anchoring\n\n**Contact Reaction** is how strongly a character reacts to being pushed into by\nanother: contact that would sink the two bodies together shifts the whole body\naway instead, feet staying planted. Turn it up for a firmer brace, down to 0 to\nlet the bodies overlap freely.\n\nHold a hand against another character and keep it still, and it **anchors** to\nthe body part underneath — it then rides that part as you re-pose the partner\n(a hand on a shoulder stays on the shoulder). **Anchor Reach** is how close the\nhand has to get before it latches; set it to 0 to disable anchoring. Drag the\nhand again, or **Reset**, to let go. The anchor is one-way — the character being\nheld feels nothing from it except the contact itself.\n\n\n## Ragdoll\n\n**Ragdoll** is the master switch for the shared physical body: with it off, each\ncharacter still poses and balances but passes straight through the others.\n**Drive Strength** is how firmly the physical body is held to the pose you\ndirected (lower gives more under contact) and **Damping** settles it.\n\n**World Pose Pull** is a second, weaker version of that hold. The joints only\nreproduce each bone's rotation relative to its parent, so an arm knocked aside\nby contact keeps pointing the wrong way for good — every bone below the shoulder\nis still correct relative to a shoulder that isn't. This steers each part back\ntoward the direction the pose asked for. Raise it until displaced limbs find\ntheir way back, and back off before the body stops giving under contact.\n\n**Fine Tune** scales both drives per body part, from 0 (that part goes limp) to\n1 (held as firmly as the drive allows) — keep the torso firm while the arms\ndangle, or soften just the hands.\n\n**Pose Recovery** is how strongly the body is drawn back to the pose you\ndirected. It is deliberately gentle, so moving or shaking the character still\nmakes the limbs trail and swing — it only decides how surely they settle back\nafterwards rather than staying where they ended up. Turn it to 0 and a body that\ngets displaced stays displaced.\n\n**Surface Friction** is how much the body grips the floor and other surfaces it\ntouches. At 1 a part that touches the ground sticks to it and can only be pulled\nfree by the rest of the body; turn it down for parts that slide and settle.\n\n**Show Colliders** draws the physical volumes the character is actually built\nfrom — the capsules, slabs and spheres that collide — and **Show Joints** draws\nthe connection between each pair, with the range it is allowed to bend through.\nBoth are diagnostic: use them to see why two characters touch where they do, or\nwhy a limb stops where it does.\n\n\n## Sitting\n\nDrag the torso (waist) and hold still to lock it as a seat, exactly as in Free\nPose: the character rests on it like a stool and both feet hang free. A quick\ndrag-and-release, or **Reset**, stands back up. A seated character is still\nfully part of the shared simulation — the seat is a spring, not a nail, so\nanother character can lean into one and push them off it, and they settle back.\n**Seat Stiffness** and **Seat Damping** set how firmly and how quickly; a softer\nseat gives more under contact. **Seat Pin Strength** is the matching hold on the\n*physical* body: turn it down and a seated character drifts further and takes\nlonger to come back, up for a seat they barely leave. **Seat Radius**, **Seat Lean Gain** and **Seat\nLean Max** control the counterbalancing tilt of the upper body, since a seated\npelvis can't slide to chase balance the way a standing one does.\n\n\n## Repeating Motion\n\n**Motion** adds an optional repeating body movement — the hips travel back and\nforth over **Motion Range** at **Motion Speed**. **Motion Orientation** tilts the\nline they travel along, from straight forward/back through to straight up/down.\n**Motion Origin** shifts the centre of that travel, so the movement can sit\nforward or back of where the character rests; leave **Motion Speed** at 0 and the\nhips simply hold at that offset instead of moving. **Motion Phase** gives each\ncharacter its own starting point so peers don't move in lock-step.)",
+    "zh-CN": "(Interactive Pose turns several actors into self-balancing puppets that share\none physical world. Pose each one by hand exactly like Free Pose — grab a limb,\nthe torso, or the head and drag; the balance solver keeps each character\nstanding over its feet (or sitting on a locked seat). Because all the bodies\nlive in the same simulation, characters can lean on and push against each other,\nand a hand held against another character can grab onto them.\n\n\n## Posing\n\nIdentical to Free Pose: drag a hand/arm or foot/leg to move that limb; feet use\ndwell-to-pin (hold still to lock in the air, release to drop). Drag the torso and\nhold to sit. **Reset** drops every pin and returns to a neutral stand.\n\n\n## Pinning\n\nA pinned hand or foot is held by a spring constraint rather than being frozen,\nso it still takes part in the simulation — another character can push against it\nand it springs back to the pin. **Pin Strength** sets how firmly: high holds the\npin tightly, low lets the limb give way and drift under contact.\n\n\n## Contact & Anchoring\n\n**Contact Reaction** is how strongly a character reacts to being pushed into by\nanother: contact that would sink the two bodies together shifts the whole body\naway instead, feet staying planted. Turn it up for a firmer brace, down to 0 to\nlet the bodies overlap freely.\n\nHold a hand against another character and keep it still, and it **anchors** to\nthe body part underneath — it then rides that part as you re-pose the partner\n(a hand on a shoulder stays on the shoulder). **Anchor Reach** is how close the\nhand has to get before it latches; set it to 0 to disable anchoring. Drag the\nhand again, or **Reset**, to let go. The anchor is one-way — the character being\nheld feels nothing from it except the contact itself.\n\n\n## Ragdoll\n\n**Ragdoll** is the master switch for the shared physical body: with it off, each\ncharacter still poses and balances but passes straight through the others.\n**Drive Strength** is how firmly the physical body is held to the pose you\ndirected (lower gives more under contact) and **Damping** settles it.\n\n**World Pose Pull** is a second, weaker version of that hold. The joints only\nreproduce each bone's rotation relative to its parent, so an arm knocked aside\nby contact keeps pointing the wrong way for good — every bone below the shoulder\nis still correct relative to a shoulder that isn't. This steers each part back\ntoward the direction the pose asked for. Raise it until displaced limbs find\ntheir way back, and back off before the body stops giving under contact.\n\n**Fine Tune** scales both drives per body part, from 0 (that part goes limp) to\n1 (held as firmly as the drive allows) — keep the torso firm while the arms\ndangle, or soften just the hands.\n\n**Pose Recovery** is how strongly the body is drawn back to the pose you\ndirected. It is deliberately gentle, so moving or shaking the character still\nmakes the limbs trail and swing — it only decides how surely they settle back\nafterwards rather than staying where they ended up. Turn it to 0 and a body that\ngets displaced stays displaced.\n\n**Surface Friction** is how much the body grips the floor and other surfaces it\ntouches. At 1 a part that touches the ground sticks to it and can only be pulled\nfree by the rest of the body; turn it down for parts that slide and settle.\n\n**Show Colliders** draws the physical volumes the character is actually built\nfrom — the capsules, slabs and spheres that collide — and **Show Joints** draws\nthe connection between each pair, with the range it is allowed to bend through.\nBoth are diagnostic: use them to see why two characters touch where they do, or\nwhy a limb stops where it does.\n\n\n## Sitting\n\nDrag the torso (waist) and hold still to lock it as a seat, exactly as in Free\nPose: the character rests on it like a stool and both feet hang free. A quick\ndrag-and-release, or **Reset**, stands back up. A seated character is still\nfully part of the shared simulation — the seat is a spring, not a nail, so\nanother character can lean into one and push them off it, and they settle back.\n**Seat Stiffness** and **Seat Damping** set how firmly and how quickly; a softer\nseat gives more under contact. **Seat Pin Strength** is the matching hold on the\n*physical* body: turn it down and a seated character drifts further and takes\nlonger to come back, up for a seat they barely leave. **Seat Radius**, **Seat Lean Gain** and **Seat\nLean Max** control the counterbalancing tilt of the upper body, since a seated\npelvis can't slide to chase balance the way a standing one does.\n\n\n## Repeating Motion\n\n**Motion** adds an optional repeating body movement — the hips travel back and\nforth over **Motion Range** at **Motion Speed**. **Motion Orientation** tilts the\nline they travel along, from straight forward/back through to straight up/down.\n**Motion Origin** shifts the centre of that travel, so the movement can sit\nforward or back of where the character rests; leave **Motion Speed** at 0 and the\nhips simply hold at that offset instead of moving. **Motion Phase** gives each\ncharacter its own starting point so peers don't move in lock-step.)"
+  },
+  "values": [
+    {
+      "name": "Auto Balance",
+      "type": "group",
+      "label": "Auto Balance",
+      "labels": {
+        "ja": "(Auto Balance)",
+        "zh-TW": "(Auto Balance)",
+        "ko": "(Auto Balance)",
+        "zh-CN": "(Auto Balance)"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Shift Smoothing",
+          "type": "float",
+          "label": "Shift Smoothing",
+          "labels": {
+            "ja": "シフト平滑化",
+            "zh-TW": "偏移平滑",
+            "ko": "시프트 스무딩",
+            "zh-CN": "平移平滑度"
+          },
+          "default": 0.25,
+          "min": 0.05,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Support Radius",
+          "type": "float",
+          "label": "Support Radius",
+          "labels": {
+            "ja": "サポート半径",
+            "zh-TW": "支撐半徑",
+            "ko": "지지 반경",
+            "zh-CN": "支撑半径"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 0.3,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Solve Iterations",
+          "type": "int",
+          "label": "Solve Iterations",
+          "labels": {
+            "ja": "解算イテレーション",
+            "zh-TW": "解算迭代次數",
+            "ko": "해결 반복 횟수",
+            "zh-CN": "求解迭代次数"
+          },
+          "default": 5,
+          "min": 1,
+          "max": 10,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Sway Amplitude",
+          "type": "float",
+          "label": "Sway Amplitude",
+          "labels": {
+            "ja": "揺れ振幅",
+            "zh-TW": "晃動振幅",
+            "ko": "흔들림 진폭",
+            "zh-CN": "摇摆幅度"
+          },
+          "default": 0.02,
+          "min": 0,
+          "max": 0.05,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Sim Gravity",
+          "type": "float",
+          "label": "Sim Gravity",
+          "labels": {
+            "ja": "シミュレーション重力",
+            "zh-TW": "模擬重力",
+            "ko": "심 그래비티",
+            "zh-CN": "模拟重力"
+          },
+          "default": 5,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Leg Stiffness",
+          "type": "float",
+          "label": "Leg Stiffness",
+          "labels": {
+            "ja": "脚の剛性",
+            "zh-TW": "腿部剛性",
+            "ko": "다리 강성",
+            "zh-CN": "腿部硬度"
+          },
+          "default": 1.5,
+          "min": 0,
+          "max": 3,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Leg Damping",
+          "type": "float",
+          "label": "Leg Damping",
+          "labels": {
+            "ja": "脚の減衰",
+            "zh-TW": "腿部阻尼",
+            "ko": "다리 감쇠",
+            "zh-CN": "腿部阻尼"
+          },
+          "default": 5,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Stance Stiffness",
+          "type": "float",
+          "label": "Stance Stiffness",
+          "labels": {
+            "ja": "立位剛性",
+            "zh-TW": "站姿剛性",
+            "ko": "스탠스 강성",
+            "zh-CN": "站姿硬度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Stance Damping",
+          "type": "float",
+          "label": "Stance Damping",
+          "labels": {
+            "ja": "立位減衰",
+            "zh-TW": "站姿阻尼",
+            "ko": "스탠스 감쇠",
+            "zh-CN": "站姿阻尼"
+          },
+          "default": 0.7,
+          "min": 0,
+          "max": 2,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Relax Rate",
+          "type": "float",
+          "label": "Relax Rate",
+          "labels": {
+            "ja": "リラックスレート",
+            "zh-TW": "弛緩率",
+            "ko": "이완율",
+            "zh-CN": "松弛率"
+          },
+          "default": 5,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Hand Grasp",
+          "type": "bool",
+          "label": "Hand Grasp",
+          "labels": {
+            "ja": "手のグリップ",
+            "zh-TW": "手部抓握",
+            "ko": "손 파지",
+            "zh-CN": "手部抓取"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Arm Limits",
+          "type": "bool",
+          "label": "Arm Limits",
+          "labels": {
+            "ja": "(Arm Limits)",
+            "zh-TW": "(Arm Limits)",
+            "ko": "(Arm Limits)",
+            "zh-CN": "(Arm Limits)"
+          },
+          "default": "true",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Seat Radius",
+          "type": "float",
+          "label": "Seat Radius",
+          "labels": {
+            "ja": "座席半径",
+            "zh-TW": "座椅半徑",
+            "ko": "좌석 반경",
+            "zh-CN": "座位半径"
+          },
+          "default": 0.04,
+          "min": 0,
+          "max": 0.3,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Seat Lean Gain",
+          "type": "float",
+          "label": "Seat Lean Gain",
+          "labels": {
+            "ja": "シートリーンゲイン",
+            "zh-TW": "座椅傾斜增益",
+            "ko": "앉은 자세 기울기 이득",
+            "zh-CN": "座位倾斜增益"
+          },
+          "default": 800,
+          "min": 0,
+          "max": 2000,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Seat Lean Max",
+          "type": "float",
+          "label": "Seat Lean Max",
+          "labels": {
+            "ja": "シートリーン最大値",
+            "zh-TW": "最大傾斜角度",
+            "ko": "최대 앉은 자세 기울임",
+            "zh-CN": "最大座位倾斜度"
+          },
+          "default": 45,
+          "min": 0,
+          "max": 80,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Seat Stiffness",
+          "type": "float",
+          "label": "Seat Stiffness",
+          "labels": {
+            "ja": "座席剛性",
+            "zh-TW": "座椅剛性",
+            "ko": "좌석 강성",
+            "zh-CN": "座位硬度"
+          },
+          "default": 1.5,
+          "min": 0,
+          "max": 3,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Seat Damping",
+          "type": "float",
+          "label": "Seat Damping",
+          "labels": {
+            "ja": "座席減衰",
+            "zh-TW": "座椅阻尼",
+            "ko": "좌석 감쇠",
+            "zh-CN": "座位阻尼"
+          },
+          "default": 8,
+          "min": 0,
+          "max": 20,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Pin Strength",
+          "type": "float",
+          "label": "Pin Strength",
+          "labels": {
+            "ja": "(Pin Strength)",
+            "zh-TW": "(Pin Strength)",
+            "ko": "(Pin Strength)",
+            "zh-CN": "(Pin Strength)"
+          },
+          "default": 0.7,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Seat Pin Strength",
+          "type": "float",
+          "label": "Seat Pin Strength",
+          "labels": {
+            "ja": "(Seat Pin Strength)",
+            "zh-TW": "(Seat Pin Strength)",
+            "ko": "(Seat Pin Strength)",
+            "zh-CN": "(Seat Pin Strength)"
+          },
+          "default": 0.8,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Contact Reaction",
+          "type": "float",
+          "label": "Contact Reaction",
+          "labels": {
+            "ja": "(Contact Reaction)",
+            "zh-TW": "(Contact Reaction)",
+            "ko": "(Contact Reaction)",
+            "zh-CN": "(Contact Reaction)"
+          },
+          "default": 10,
+          "min": 0,
+          "max": 40,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Anchor Reach",
+          "type": "float",
+          "label": "Anchor Reach",
+          "labels": {
+            "ja": "(Anchor Reach)",
+            "zh-TW": "(Anchor Reach)",
+            "ko": "(Anchor Reach)",
+            "zh-CN": "(Anchor Reach)"
+          },
+          "default": 0.08,
+          "min": 0,
+          "max": 0.3,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ragdoll",
+      "type": "group",
+      "label": "Ragdoll",
+      "labels": {
+        "ja": "ラグドール",
+        "zh-TW": "玩偶人體",
+        "ko": "라그돌",
+        "zh-CN": "物理模型"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Drive Strength",
+          "type": "float",
+          "label": "Drive Strength",
+          "labels": {
+            "ja": "(Drive Strength)",
+            "zh-TW": "(Drive Strength)",
+            "ko": "(Drive Strength)",
+            "zh-CN": "(Drive Strength)"
+          },
+          "default": 5,
+          "min": 3,
+          "max": 5,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Damping",
+          "type": "float",
+          "label": "Damping",
+          "labels": {
+            "ja": "減衰",
+            "zh-TW": "阻尼",
+            "ko": "감쇠",
+            "zh-CN": "阻尼"
+          },
+          "default": 5,
+          "min": 0,
+          "max": 10,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "World Pose Pull",
+          "type": "float",
+          "label": "World Pose Pull",
+          "labels": {
+            "ja": "(World Pose Pull)",
+            "zh-TW": "(World Pose Pull)",
+            "ko": "(World Pose Pull)",
+            "zh-CN": "(World Pose Pull)"
+          },
+          "default": 0.1,
+          "min": 0,
+          "max": 0.2,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Pose Recovery",
+          "type": "float",
+          "label": "Pose Recovery",
+          "labels": {
+            "ja": "(Pose Recovery)",
+            "zh-TW": "(Pose Recovery)",
+            "ko": "(Pose Recovery)",
+            "zh-CN": "(Pose Recovery)"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Surface Friction",
+          "type": "float",
+          "label": "Surface Friction",
+          "labels": {
+            "ja": "(Surface Friction)",
+            "zh-TW": "(Surface Friction)",
+            "ko": "(Surface Friction)",
+            "zh-CN": "(Surface Friction)"
+          },
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Show Colliders",
+          "type": "bool",
+          "label": "Show Colliders",
+          "labels": {
+            "ja": "(Show Colliders)",
+            "zh-TW": "(Show Colliders)",
+            "ko": "(Show Colliders)",
+            "zh-CN": "(Show Colliders)"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Show Joints",
+          "type": "bool",
+          "label": "Show Joints",
+          "labels": {
+            "ja": "(Show Joints)",
+            "zh-TW": "(Show Joints)",
+            "ko": "(Show Joints)",
+            "zh-CN": "(Show Joints)"
+          },
+          "default": "false",
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Fine Tune",
+          "type": "group",
+          "label": "Fine Tune",
+          "labels": {
+            "ja": "微調整",
+            "zh-TW": "精細調整",
+            "ko": "세밀 조정",
+            "zh-CN": "微调"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          },
+          "values": [
+            {
+              "name": "Leg",
+              "type": "float",
+              "label": "Leg",
+              "labels": {
+                "ja": "脚",
+                "zh-TW": "腿部",
+                "ko": "다리",
+                "zh-CN": "腿部"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Knee",
+              "type": "float",
+              "label": "Knee",
+              "labels": {
+                "ja": "膝",
+                "zh-TW": "膝蓋",
+                "ko": "무릎",
+                "zh-CN": "膝盖"
+              },
+              "default": 0.75,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Foot",
+              "type": "float",
+              "label": "Foot",
+              "labels": {
+                "ja": "足",
+                "zh-TW": "足部",
+                "ko": "발",
+                "zh-CN": "脚部"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Shoulder",
+              "type": "float",
+              "label": "Shoulder",
+              "labels": {
+                "ja": "肩",
+                "zh-TW": "肩部",
+                "ko": "어깨",
+                "zh-CN": "肩膀"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Arm",
+              "type": "float",
+              "label": "Arm",
+              "labels": {
+                "ja": "腕",
+                "zh-TW": "手臂",
+                "ko": "팔",
+                "zh-CN": "手臂"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Elbow",
+              "type": "float",
+              "label": "Elbow",
+              "labels": {
+                "ja": "肘",
+                "zh-TW": "肘部",
+                "ko": "팔꿈치",
+                "zh-CN": "手肘"
+              },
+              "default": 0.75,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Hand",
+              "type": "float",
+              "label": "Hand",
+              "labels": {
+                "ja": "手",
+                "zh-TW": "手部",
+                "ko": "손",
+                "zh-CN": "手部"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Waist",
+              "type": "float",
+              "label": "Waist",
+              "labels": {
+                "ja": "ウエスト",
+                "zh-TW": "腰部",
+                "ko": "허리",
+                "zh-CN": "腰部"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Center",
+              "type": "float",
+              "label": "Center",
+              "labels": {
+                "ja": "中央",
+                "zh-TW": "中心",
+                "ko": "중앙",
+                "zh-CN": "中心"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Torso",
+              "type": "float",
+              "label": "Torso",
+              "labels": {
+                "ja": "胴体",
+                "zh-TW": "軀幹",
+                "ko": "몸통",
+                "zh-CN": "躯干"
+              },
+              "default": 1,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Neck",
+              "type": "float",
+              "label": "Neck",
+              "labels": {
+                "ja": "首",
+                "zh-TW": "頸部",
+                "ko": "목",
+                "zh-CN": "颈部"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            },
+            {
+              "name": "Head",
+              "type": "float",
+              "label": "Head",
+              "labels": {
+                "ja": "頭",
+                "zh-TW": "頭部",
+                "ko": "머리",
+                "zh-CN": "头部"
+              },
+              "default": 0.5,
+              "min": 0,
+              "max": 1,
+              "options": null,
+              "description": null,
+              "descriptions": {
+                "ja": null,
+                "zh-TW": null,
+                "ko": null,
+                "zh-CN": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "Ragdoll Body",
+          "type": "value",
+          "label": "Ragdoll Body",
+          "labels": {
+            "ja": "(Ragdoll Body)",
+            "zh-TW": "(Ragdoll Body)",
+            "ko": "(Ragdoll Body)",
+            "zh-CN": "(Ragdoll Body)"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Motion",
+      "type": "group",
+      "label": "Motion",
+      "labels": {
+        "ja": "モーション",
+        "zh-TW": "動作",
+        "ko": "동작",
+        "zh-CN": "运动"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Motion Range",
+          "type": "float",
+          "label": "Motion Range",
+          "labels": {
+            "ja": "モーション範囲",
+            "zh-TW": "動作範圍",
+            "ko": "동작 범위",
+            "zh-CN": "动作范围"
+          },
+          "default": 0.05,
+          "min": 0,
+          "max": 0.2,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Motion Speed",
+          "type": "float",
+          "label": "Motion Speed",
+          "labels": {
+            "ja": "モーション速度",
+            "zh-TW": "動作速度",
+            "ko": "동작 속도",
+            "zh-CN": "动作速度"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 4,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Motion Orientation",
+          "type": "float",
+          "label": "Motion Orientation",
+          "labels": {
+            "ja": "(Motion Orientation)",
+            "zh-TW": "(Motion Orientation)",
+            "ko": "(Motion Orientation)",
+            "zh-CN": "(Motion Orientation)"
+          },
+          "default": 0,
+          "min": -90,
+          "max": 90,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Motion Phase",
+          "type": "float",
+          "label": "Motion Phase",
+          "labels": {
+            "ja": "(Motion Phase)",
+            "zh-TW": "(Motion Phase)",
+            "ko": "(Motion Phase)",
+            "zh-CN": "(Motion Phase)"
+          },
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Motion Origin",
+          "type": "float",
+          "label": "Motion Origin",
+          "labels": {
+            "ja": "(Motion Origin)",
+            "zh-TW": "(Motion Origin)",
+            "ko": "(Motion Origin)",
+            "zh-CN": "(Motion Origin)"
+          },
+          "default": 0,
+          "min": -1,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Penis Control",
+      "type": "group",
+      "label": "Penis Control",
+      "labels": {
+        "ja": "(Penis Control)",
+        "zh-TW": "(Penis Control)",
+        "ko": "(Penis Control)",
+        "zh-CN": "(Penis Control)"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      },
+      "values": [
+        {
+          "name": "Target Y",
+          "type": "float",
+          "label": "Target Y",
+          "labels": {
+            "ja": "(Target Y)",
+            "zh-TW": "(Target Y)",
+            "ko": "(Target Y)",
+            "zh-CN": "(Target Y)"
+          },
+          "default": 0,
+          "min": -0.1,
+          "max": 0.1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Target Z",
+          "type": "float",
+          "label": "Target Z",
+          "labels": {
+            "ja": "(Target Z)",
+            "zh-TW": "(Target Z)",
+            "ko": "(Target Z)",
+            "zh-CN": "(Target Z)"
+          },
+          "default": 0,
+          "min": -0.1,
+          "max": 0.1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Target Angle",
+          "type": "float",
+          "label": "Target Angle",
+          "labels": {
+            "ja": "(Target Angle)",
+            "zh-TW": "(Target Angle)",
+            "ko": "(Target Angle)",
+            "zh-CN": "(Target Angle)"
+          },
+          "default": 0,
+          "min": -45,
+          "max": 45,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        },
+        {
+          "name": "Penis Bend",
+          "type": "float",
+          "label": "Penis Bend",
+          "labels": {
+            "ja": "(Penis Bend)",
+            "zh-TW": "(Penis Bend)",
+            "ko": "(Penis Bend)",
+            "zh-CN": "(Penis Bend)"
+          },
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "options": null,
+          "description": null,
+          "descriptions": {
+            "ja": null,
+            "zh-TW": null,
+            "ko": null,
+            "zh-CN": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Debug Draw Particles",
+      "type": "bool",
+      "label": "Debug Draw Particles",
+      "labels": {
+        "ja": "(Debug Draw Particles)",
+        "zh-TW": "(Debug Draw Particles)",
+        "ko": "(Debug Draw Particles)",
+        "zh-CN": "(Debug Draw Particles)"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "Record CSV Trace",
+      "type": "bool",
+      "label": "Record CSV Trace",
+      "labels": {
+        "ja": "(Record CSV Trace)",
+        "zh-TW": "(Record CSV Trace)",
+        "ko": "(Record CSV Trace)",
+        "zh-CN": "(Record CSV Trace)"
+      },
+      "default": "false",
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    }
+  ]
+}

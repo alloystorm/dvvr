@@ -51,9 +51,9 @@ Enables mouth animation driven by audio. **Lip Sync Smoothing** controls how fas
 Enables 3D spatialization of the audio output. **Spatial Blend** controls how much the audio is panned between the headset speakers. **Follow Actor** moves the audio source with the selected actor, creating a personal listening space. **Select Actor** picks which actor the audio follows.
 
 
-# Sub-Components
+## Settings reference
 
-## Default Timing
+## Default Timing {#default-timing}
 
 Holds BPM, beat offset, phrase structure, loop range, and motion speed for an audio track. Designed to be reused wherever timing configuration is needed.
 

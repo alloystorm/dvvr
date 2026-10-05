@@ -60,9 +60,9 @@ Targets** render debug gizmos for the skeleton hierarchy and IK
 target positions (PMX models only).
 
 
-# Sub-Components
+## Settings reference
 
-## sd_pose
+## Pose Adjustment {#sd_pose}
 
 Adjusts the default (zero-pose) rotation for every major bone group
 on the actor. Values rotate the bone away from its imported T-pose

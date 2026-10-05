@@ -36,9 +36,9 @@ model, surface material, and XRay cutaway. It can also drive hand
 grab poses and leg IK when active.
 
 
-# Sub-Components
+## Settings reference
 
-## Motion
+## Motion {#motion}
 
 Reusable spring-driven thrust controller. A shaped driver curve
 pushes one mass, a second mass trails behind it, and the gap
@@ -84,7 +84,8 @@ scene so you can tune the shape without guessing from the body
 motion alone. It is a setup aid, not something you would keep on
 during normal use.
 
-## Dildo
+<a id="settings-attachment"></a>
+## Attachment settings (Dildo) {#dildo}
 
 Configures a prop (model or procedural geometry) attached to a
 specific bone on the actor. Supports pole objects, hand-held items,
@@ -104,14 +105,16 @@ controls visibility, while **Radius**, **Height**, **Offset**, and
 **Color** define the cylinder shape and tint. **Alpha** adjusts
 overall material transparency.
 
-### Anchor Offset
+<a id="settings-anchor-offset"></a>
+### Anchor offset (Anchor Offset) {#anchor-offset}
 
 Fine-tunes the anchor bone's position and rotation before any
 attachment offsets are applied. Both **Position** and **Rotation**
 are small adjustments (±1 unit, ±90 degrees) to compensate for
 skeleton variations between models.
 
-### Size & Alignment
+<a id="settings-accessory-alignment"></a>
+### Size and alignment (Size & Alignment) {#size--alignment}
 
 Controls the physical dimensions and spatial alignment of an
 attachment prop. **Object Radius** and **Object Length** define the
@@ -123,10 +126,54 @@ multiplier for loaded models.
 orientation. **Guitar Mode** rotates the prop to track hand position
 as if strumming.
 
-### Motion
+<a id="settings-toon-shading"></a>
+### Toon shading (Toon Shader) {#toon-shader}
+
+Overrides the actor's material with a global toon shader.
+
+Enable the toggle to replace all materials with a unified toon
+style. Adjust **Shading** and **Shadow** for the light/dark
+balance, **Outline** for edge thickness, and **Ambient** for
+the fill light level.
+
+**Highlight Area** and **Soft Highlight** control how sharp
+the bright areas are. **Shadow Area** and **Soft Shadow**
+do the same for dark areas.
+
+**Specular** and **Soft Specular** add shiny reflections
+to lit surfaces.
+
+**Receive Shadow** (non-HDRP only) lets the material
+receive shadows from other objects.
+
+<a id="settings-special-shader"></a>
+### Special shader (Special Shader) {#special-shader}
+
+Overrides the shader type for all materials on the actor.
+
+**Mode** selects the shader: *Off* uses the default shader;
+*Refraction Thick/Thin* simulates glass with refractive
+transparency; *Outline* renders only the outline edges;
+*Unlit* disables all lighting; *Experiment* is a
+placeholder for custom shader effects.
+
+**Refraction** controls the index of refraction for glass
+modes — higher values bend light more.
+
+**Thickness** adjusts the perceived depth of thin glass
+refraction.
+
+<a id="settings-accessory-motion"></a>
+### Attachment motion (Motion) {#motion-1}
 
 Drives rhythmic up/down oscillation on an attachment prop, synced to
 the music beat. The toggle enables motion; **Distance** sets the
 travel range; **Angle** controls the tilt at peak extension.
 The nested speed config defines the beat curve and timing pattern.
+
+<a id="settings-glow-color"></a>
+### Color and glow (Color) {#color}
+
+Holds a base color and glow intensity for audio-reactive elements.
+Glow is multiplied with the color and animates with the beat when auto-update is enabled.
 

@@ -28,4 +28,5 @@ You can customize the mapping of various axes and buttons on your controller:
 * **Axes** can be mapped to actions like camera movement, rotation, timeline scrubbing, or frame stepping.
 * **Buttons** can be mapped to actions like playing motions, loading next/previous models, slow-motion, or resetting physics.
 * **Alt Keys** can be assigned to map keyboard keys to controller buttons.
+* The **Right Thumb Y** axis (camera elevation) takes a second keyboard pair as well, mapped to **E / Q** by default so it matches the usual WASD + QE layout.
 

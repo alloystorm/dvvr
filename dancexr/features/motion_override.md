@@ -54,9 +54,9 @@ pointing. **Legs Pose** adjusts foot placement with
 symmetry support. **Head Pose** adds rotation offsets.
 
 
-# Sub-Components
+## Settings reference
 
-## Body
+## Body {#body}
 
 Nested config for body pose adjustments. **Position** and
 **Rotation** switches lock specific axes. **Damping**
@@ -67,7 +67,7 @@ maintains proximity to a **Target Actor** within a
 **Detect Range**, enforcing **Min** and **Max Distance**
 bounds.
 
-## Rocking Motion
+## Rocking Motion {#rocking-motion}
 
 Nested config for rhythmic rocking motion simulation.
 **Rocking Angle** sets the arc, **Up/Down** and **Front/
@@ -76,13 +76,13 @@ Back** control translation amplitude. **Depth Change** and
 blends foot movement with the rocking cycle. Includes a
 **Motion Speed** sub-config for timing control.
 
-## Head Pose
+## Head Pose {#head-pose}
 
 Nested config for head pose rotation offsets applied to the
 neck and head bones. Controls **Rotation X**, **Y**, and
 **Z** angles.
 
-## Leg Pose
+## Leg Pose {#leg-pose}
 
 Nested config for leg and foot placement. **Left** and
 **Right** sub-panels adjust **Foot X/Y/Z** positions,
@@ -93,7 +93,7 @@ of the hip. **Max Twist** limits how far the torso angle
 can drift from the legs. Presets: *Sit*, *Ride*, *Kneel*,
 *Stand*.
 
-## Left Hand
+## Left Hand {#left-hand}
 
 Nested config for hand pose control. Choose a **Gesture**
 preset or use **Custom Pose** to adjust individual
@@ -107,14 +107,15 @@ IK solvers. **Blend Hand Motion** fades the pose
 based on distance. **Symmetrical** links left/right
 poses.
 
-### Motion
+<a id="settings-accessory-motion"></a>
+### Attachment motion (Motion) {#motion}
 
 Drives rhythmic up/down oscillation on an attachment prop, synced to
 the music beat. The toggle enables motion; **Distance** sets the
 travel range; **Angle** controls the tilt at peak extension.
 The nested speed config defines the beat curve and timing pattern.
 
-## Right Hand
+## Right Hand {#right-hand}
 
 Nested config for hand pose control. Choose a **Gesture**
 preset or use **Custom Pose** to adjust individual
@@ -128,14 +129,11 @@ IK solvers. **Blend Hand Motion** fades the pose
 based on distance. **Symmetrical** links left/right
 poses.
 
-### Motion
+### Motion {#motion-1}
 
-Drives rhythmic up/down oscillation on an attachment prop, synced to
-the music beat. The toggle enables motion; **Distance** sets the
-travel range; **Angle** controls the tilt at peak extension.
-The nested speed config defines the beat curve and timing pattern.
+See [Attachment motion](#settings-accessory-motion). Defaults and available controls for this instance are listed in Config Reference.
 
-## Ride Model
+## Ride Model {#ride-model}
 
 Nested config for rideable prop models (hoverbike, saddle).
 **Model** selects the prop type. **Acceleration** and

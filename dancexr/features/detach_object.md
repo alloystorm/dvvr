@@ -20,8 +20,7 @@ physics objects. Only non-kinematic bones can be selected.
 ## Physics
 
 **Gravity** toggles gravitational force on the detached
-bones. **Mass** controls the rigidbody weight — heavier
-objects fall faster and push harder. **Damp** adds air
+bones. **Mass** controls the rigidbody mass and its response to collisions. **Damp** adds air
 resistance to slow movement over time.
 
 

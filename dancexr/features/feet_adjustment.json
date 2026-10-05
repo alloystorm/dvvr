@@ -8,12 +8,12 @@
     "ko": "발 조정",
     "zh-CN": "脚部调整"
   },
-  "description": "Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\r\ncontact toward the toe tip), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.",
+  "description": "Ensures feet dynamically adapt to ground level with\nrealistic placement and movement.\n\n**Ground Offset** adjusts the vertical ground reference.\n\nThe **Feet On Floor** panel keeps the feet on the ground:\n**Strength** (overall amount, 0 disables), **Sole Height**\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\ncontact toward the toe tip), **Jump Height** (airborne threshold that\nsuspends correction), **Body Smooth** and **Foot Smooth**\n(response smoothing for the body and per-foot adjustments),\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\nwhen the leg can't reach down). **Lift Gate Start** and **Lift\nGate End** stop a foot the motion lifts from being pulled down:\nit counts as planted below the start height and is free above\nthe end. With leg IK the height comes from the IK target, so a\nleg that just can't reach the floor is still grounded.\n\nThe **Heels** panel raises the foot into a **High Heel** pose.\n\n**Reduce Sliding** holds a planted foot in place to stop\nskating: enable it, then set **Strength** (how firmly it locks)\nand **Slide Distance** (how far it may drift before releasing,\nto avoid over-stretching the leg).\n\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\noffsets.",
   "descriptions": {
-    "ja": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\r\ncontact toward the toe tip), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.)",
-    "zh-TW": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\r\ncontact toward the toe tip), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.)",
-    "ko": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\r\ncontact toward the toe tip), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.)",
-    "zh-CN": "(Ensures feet dynamically adapt to ground level with\r\nrealistic placement and movement.\r\n\r\n**Ground Offset** adjusts the vertical ground reference.\r\n\r\nThe **Feet On Floor** panel keeps the feet on the ground:\r\n**Strength** (overall amount, 0 disables), **Sole Height**\r\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\r\ncontact toward the toe tip), **Jump Height** (airborne threshold that\r\nsuspends correction), **Body Smooth** and **Foot Smooth**\r\n(response smoothing for the body and per-foot adjustments),\r\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\r\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\r\nwhen the leg can't reach down).\r\n\r\nThe **Heels** panel raises the foot into a **High Heel** pose.\r\n\r\n**Reduce Sliding** holds a planted foot in place to stop\r\nskating: enable it, then set **Strength** (how firmly it locks)\r\nand **Slide Distance** (how far it may drift before releasing,\r\nto avoid over-stretching the leg).\r\n\r\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\r\noffsets.)"
+    "ja": "(Ensures feet dynamically adapt to ground level with\nrealistic placement and movement.\n\n**Ground Offset** adjusts the vertical ground reference.\n\nThe **Feet On Floor** panel keeps the feet on the ground:\n**Strength** (overall amount, 0 disables), **Sole Height**\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\ncontact toward the toe tip), **Jump Height** (airborne threshold that\nsuspends correction), **Body Smooth** and **Foot Smooth**\n(response smoothing for the body and per-foot adjustments),\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\nwhen the leg can't reach down). **Lift Gate Start** and **Lift\nGate End** stop a foot the motion lifts from being pulled down:\nit counts as planted below the start height and is free above\nthe end. With leg IK the height comes from the IK target, so a\nleg that just can't reach the floor is still grounded.\n\nThe **Heels** panel raises the foot into a **High Heel** pose.\n\n**Reduce Sliding** holds a planted foot in place to stop\nskating: enable it, then set **Strength** (how firmly it locks)\nand **Slide Distance** (how far it may drift before releasing,\nto avoid over-stretching the leg).\n\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\noffsets.)",
+    "zh-TW": "(Ensures feet dynamically adapt to ground level with\nrealistic placement and movement.\n\n**Ground Offset** adjusts the vertical ground reference.\n\nThe **Feet On Floor** panel keeps the feet on the ground:\n**Strength** (overall amount, 0 disables), **Sole Height**\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\ncontact toward the toe tip), **Jump Height** (airborne threshold that\nsuspends correction), **Body Smooth** and **Foot Smooth**\n(response smoothing for the body and per-foot adjustments),\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\nwhen the leg can't reach down). **Lift Gate Start** and **Lift\nGate End** stop a foot the motion lifts from being pulled down:\nit counts as planted below the start height and is free above\nthe end. With leg IK the height comes from the IK target, so a\nleg that just can't reach the floor is still grounded.\n\nThe **Heels** panel raises the foot into a **High Heel** pose.\n\n**Reduce Sliding** holds a planted foot in place to stop\nskating: enable it, then set **Strength** (how firmly it locks)\nand **Slide Distance** (how far it may drift before releasing,\nto avoid over-stretching the leg).\n\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\noffsets.)",
+    "ko": "(Ensures feet dynamically adapt to ground level with\nrealistic placement and movement.\n\n**Ground Offset** adjusts the vertical ground reference.\n\nThe **Feet On Floor** panel keeps the feet on the ground:\n**Strength** (overall amount, 0 disables), **Sole Height**\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\ncontact toward the toe tip), **Jump Height** (airborne threshold that\nsuspends correction), **Body Smooth** and **Foot Smooth**\n(response smoothing for the body and per-foot adjustments),\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\nwhen the leg can't reach down). **Lift Gate Start** and **Lift\nGate End** stop a foot the motion lifts from being pulled down:\nit counts as planted below the start height and is free above\nthe end. With leg IK the height comes from the IK target, so a\nleg that just can't reach the floor is still grounded.\n\nThe **Heels** panel raises the foot into a **High Heel** pose.\n\n**Reduce Sliding** holds a planted foot in place to stop\nskating: enable it, then set **Strength** (how firmly it locks)\nand **Slide Distance** (how far it may drift before releasing,\nto avoid over-stretching the leg).\n\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\noffsets.)",
+    "zh-CN": "(Ensures feet dynamically adapt to ground level with\nrealistic placement and movement.\n\n**Ground Offset** adjusts the vertical ground reference.\n\nThe **Feet On Floor** panel keeps the feet on the ground:\n**Strength** (overall amount, 0 disables), **Sole Height**\n(toe-to-ground gap), **Toe Tip** (forward offset of the toe\ncontact toward the toe tip), **Jump Height** (airborne threshold that\nsuspends correction), **Body Smooth** and **Foot Smooth**\n(response smoothing for the body and per-foot adjustments),\n**Max Foot Tilt** (how far a foot may tilt to set a contact on\nthe ground), and **Reach Tilt** (extra toe-dip to keep contact\nwhen the leg can't reach down). **Lift Gate Start** and **Lift\nGate End** stop a foot the motion lifts from being pulled down:\nit counts as planted below the start height and is free above\nthe end. With leg IK the height comes from the IK target, so a\nleg that just can't reach the floor is still grounded.\n\nThe **Heels** panel raises the foot into a **High Heel** pose.\n\n**Reduce Sliding** holds a planted foot in place to stop\nskating: enable it, then set **Strength** (how firmly it locks)\nand **Slide Distance** (how far it may drift before releasing,\nto avoid over-stretching the leg).\n\n**Foot Angle** adds manual **Rotate X**, **Y**, and **Z**\noffsets.)"
   },
   "values": [
     {
@@ -193,6 +193,28 @@
           }
         },
         {
+          "name": "Reach Mode",
+          "type": "options",
+          "label": "Reach Mode",
+          "labels": {
+            "ja": "(Reach Mode)",
+            "zh-TW": "(Reach Mode)",
+            "ko": "(Reach Mode)",
+            "zh-CN": "(Reach Mode)"
+          },
+          "default": "Tilt",
+          "min": 0,
+          "max": 1,
+          "options": ["Tilt", "Toe IK"],
+          "description": "How a foot keeps its toe down when the leg can't reach: Tilt dips the foot about a fixed ankle (the toe slides forward as it dips); Toe IK places the toe on the ground and moves the ankle to suit (no slide).",
+          "descriptions": {
+            "ja": "(How a foot keeps its toe down when the leg can't reach: Tilt dips the foot about a fixed ankle (the toe slides forward as it dips); Toe IK places the toe on the ground and moves the ankle to suit (no slide).)",
+            "zh-TW": "(How a foot keeps its toe down when the leg can't reach: Tilt dips the foot about a fixed ankle (the toe slides forward as it dips); Toe IK places the toe on the ground and moves the ankle to suit (no slide).)",
+            "ko": "(How a foot keeps its toe down when the leg can't reach: Tilt dips the foot about a fixed ankle (the toe slides forward as it dips); Toe IK places the toe on the ground and moves the ankle to suit (no slide).)",
+            "zh-CN": "(How a foot keeps its toe down when the leg can't reach: Tilt dips the foot about a fixed ankle (the toe slides forward as it dips); Toe IK places the toe on the ground and moves the ankle to suit (no slide).)"
+          }
+        },
+        {
           "name": "Settle Stiffness",
           "type": "float",
           "label": "Settle Stiffness",
@@ -212,6 +234,50 @@
             "zh-TW": "物理穩定：地面彈簧剛度。越高 = 更堅實，單腿下沉現象越少。",
             "ko": "물리 기반 정착: 지면 스프링 강성. 높을수록 단단하고, 편측 처짐이 적습니다.",
             "zh-CN": "物理稳定：地面弹簧刚度。数值越高，越坚固，减少单腿下凹现象。"
+          }
+        },
+        {
+          "name": "Lift Gate Start",
+          "type": "float",
+          "label": "Lift Gate Start",
+          "labels": {
+            "ja": "(Lift Gate Start)",
+            "zh-TW": "(Lift Gate Start)",
+            "ko": "(Lift Gate Start)",
+            "zh-CN": "(Lift Gate Start)"
+          },
+          "default": 0.03,
+          "min": 0,
+          "max": 0.2,
+          "options": null,
+          "description": "A foot the motion lifts less than this stays fully planted and is kept on the floor.",
+          "descriptions": {
+            "ja": "(A foot the motion lifts less than this stays fully planted and is kept on the floor.)",
+            "zh-TW": "(A foot the motion lifts less than this stays fully planted and is kept on the floor.)",
+            "ko": "(A foot the motion lifts less than this stays fully planted and is kept on the floor.)",
+            "zh-CN": "(A foot the motion lifts less than this stays fully planted and is kept on the floor.)"
+          }
+        },
+        {
+          "name": "Lift Gate End",
+          "type": "float",
+          "label": "Lift Gate End",
+          "labels": {
+            "ja": "(Lift Gate End)",
+            "zh-TW": "(Lift Gate End)",
+            "ko": "(Lift Gate End)",
+            "zh-CN": "(Lift Gate End)"
+          },
+          "default": 0.08,
+          "min": 0,
+          "max": 0.3,
+          "options": null,
+          "description": "A foot the motion lifts more than this is free and no longer pulled to the floor. Between start and end the pull fades out. With leg IK the lift is read from the IK target, so a leg that can't reach the floor is still grounded.",
+          "descriptions": {
+            "ja": "(A foot the motion lifts more than this is free and no longer pulled to the floor. Between start and end the pull fades out. With leg IK the lift is read from the IK target, so a leg that can't reach the floor is still grounded.)",
+            "zh-TW": "(A foot the motion lifts more than this is free and no longer pulled to the floor. Between start and end the pull fades out. With leg IK the lift is read from the IK target, so a leg that can't reach the floor is still grounded.)",
+            "ko": "(A foot the motion lifts more than this is free and no longer pulled to the floor. Between start and end the pull fades out. With leg IK the lift is read from the IK target, so a leg that can't reach the floor is still grounded.)",
+            "zh-CN": "(A foot the motion lifts more than this is free and no longer pulled to the floor. Between start and end the pull fades out. With leg IK the lift is read from the IK target, so a leg that can't reach the floor is still grounded.)"
           }
         },
         {

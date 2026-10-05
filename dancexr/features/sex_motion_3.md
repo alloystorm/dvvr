@@ -81,9 +81,9 @@ has authored facial animation; push it harder when the body
 motion needs help reading from a distance.
 
 
-# Sub-Components
+## Settings reference
 
-## Sway Motion
+## Sway Motion {#sway-motion}
 
 Reusable motion-pattern generator for looping body sway and
 positional drift. It can randomize built-in patterns, randomize
@@ -120,15 +120,15 @@ fluid but can blur the character of individual patterns.
 orientation, horizontal sway, and vertical sway, which is often
 the difference between crisp choreography and a floaty feel.
 
-### Motion X
+### Motion X {#motion-x}
 
 Curve function that is used to control procedural motions.
 
-### Motion Z
+### Motion Z {#motion-z}
 
 Curve function that is used to control procedural motions.
 
-## Sex Motion
+## Sex Motion {#sex-motion}
 
 Reusable spring-driven thrust controller. A shaped driver curve
 pushes one mass, a second mass trails behind it, and the gap
@@ -174,7 +174,7 @@ scene so you can tune the shape without guessing from the body
 motion alone. It is a setup aid, not something you would keep on
 during normal use.
 
-## Facial
+## Facial {#facial}
 
 Maps a single motion intensity value onto facial morphs so the
 expression can open up with the thrust cycle, arousal buildup,
@@ -199,7 +199,7 @@ and layered over other animation; wide ranges make the motion
 much more explicit but can clip or fight baked expressions on
 models with aggressive morphs.
 
-## Male Pose
+## Male Pose {#male-pose}
 
 Reusable actor-pose block for staging a character before motion
 layers are applied. It combines body alignment, hand pose, and
@@ -235,7 +235,47 @@ character-specific stance. Because many motion systems build on
 this pose, small leg edits can have a large downstream effect on
 balance and contact.
 
-## Female Pose
+### Left Hand {#left-hand}
+
+Nested config for hand pose control. Choose a **Gesture**
+preset or use **Custom Pose** to adjust individual
+finger bends. **Position** and **Rotation** offset the
+hand in space. **Rotation Type** sets the coordinate
+frame (reference bone, self, absolute, or none).
+**Reference Bone** and **Reference Actor** anchor the
+hand to another body part or actor. **IK Mode**
+switches between normal, cylinder, sphere, or align
+IK solvers. **Blend Hand Motion** fades the pose
+based on distance. **Symmetrical** links left/right
+poses.
+
+<a id="settings-accessory-motion"></a>
+#### Attachment motion (Motion) {#motion}
+
+Drives rhythmic up/down oscillation on an attachment prop, synced to
+the music beat. The toggle enables motion; **Distance** sets the
+travel range; **Angle** controls the tilt at peak extension.
+The nested speed config defines the beat curve and timing pattern.
+
+### Right Hand {#right-hand}
+
+Nested config for hand pose control. Choose a **Gesture**
+preset or use **Custom Pose** to adjust individual
+finger bends. **Position** and **Rotation** offset the
+hand in space. **Rotation Type** sets the coordinate
+frame (reference bone, self, absolute, or none).
+**Reference Bone** and **Reference Actor** anchor the
+hand to another body part or actor. **IK Mode**
+switches between normal, cylinder, sphere, or align
+IK solvers. **Blend Hand Motion** fades the pose
+based on distance. **Symmetrical** links left/right
+poses.
+
+#### Motion {#motion-1}
+
+See [Attachment motion](#settings-accessory-motion). Defaults and available controls for this instance are listed in Config Reference.
+
+## Female Pose {#female-pose}
 
 Reusable actor-pose block for staging a character before motion
 layers are applied. It combines body alignment, hand pose, and
@@ -270,4 +310,40 @@ to retarget; break symmetry when you need weight shift or a more
 character-specific stance. Because many motion systems build on
 this pose, small leg edits can have a large downstream effect on
 balance and contact.
+
+### Left Hand {#left-hand-1}
+
+Nested config for hand pose control. Choose a **Gesture**
+preset or use **Custom Pose** to adjust individual
+finger bends. **Position** and **Rotation** offset the
+hand in space. **Rotation Type** sets the coordinate
+frame (reference bone, self, absolute, or none).
+**Reference Bone** and **Reference Actor** anchor the
+hand to another body part or actor. **IK Mode**
+switches between normal, cylinder, sphere, or align
+IK solvers. **Blend Hand Motion** fades the pose
+based on distance. **Symmetrical** links left/right
+poses.
+
+#### Motion {#motion-2}
+
+See [Attachment motion](#settings-accessory-motion). Defaults and available controls for this instance are listed in Config Reference.
+
+### Right Hand {#right-hand-1}
+
+Nested config for hand pose control. Choose a **Gesture**
+preset or use **Custom Pose** to adjust individual
+finger bends. **Position** and **Rotation** offset the
+hand in space. **Rotation Type** sets the coordinate
+frame (reference bone, self, absolute, or none).
+**Reference Bone** and **Reference Actor** anchor the
+hand to another body part or actor. **IK Mode**
+switches between normal, cylinder, sphere, or align
+IK solvers. **Blend Hand Motion** fades the pose
+based on distance. **Symmetrical** links left/right
+poses.
+
+#### Motion {#motion-3}
+
+See [Attachment motion](#settings-accessory-motion). Defaults and available controls for this instance are listed in Config Reference.
 

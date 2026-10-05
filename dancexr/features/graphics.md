@@ -87,9 +87,9 @@ illumination, or a halftone screen over the final frame — useful
 for anime or comic-strip aesthetics.
 
 
-# Sub-Components
+## Settings reference
 
-## Reflection
+## Reflection {#reflection}
 
 Configures screen-space reflections or a planar reflection probe.
 *Screen Space* mode ray-marches the depth buffer to find
@@ -116,7 +116,7 @@ reflections on upward-facing surfaces. **Fallback To Sky** fills
 in reflection probe coverage for areas the screen-space pass
 misses, at the cost of a slight accuracy trade-off.
 
-## Posterization
+## Posterization {#posterization}
 
 A full-screen custom pass that applies stylised effects over the
 final rendered image. Four built-in presets give a quick starting

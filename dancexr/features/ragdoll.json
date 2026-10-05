@@ -8,12 +8,12 @@
     "ko": "라그돌",
     "zh-CN": "物理模型"
   },
-  "description": "Replaces the actor's animated skeleton with a particle-based\r\nragdoll physics simulation. The body goes limp and reacts to\r\ngravity and external forces.\r\n\r\n**Spring Force** and **Damping** (both logarithmic) control\r\nhow aggressively the ragdoll tries to return to its animated\r\npose — low values make it floppy, high values keep it closer\r\nto the animation. **Gravity** toggles gravitational pull on\r\nthe ragdoll.\r\n\r\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\r\nHand** pin specific body parts to their animated positions so\r\nthey don't flop — useful for keeping feet planted while the\r\nrest of the body goes limp.\r\n\r\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\r\nto 1 (fully rigid). Adjust individual body parts like legs,\r\nknees, arms, shoulders, torso, neck, and head to create\r\nlocalized stiffness — e.g. keep the torso firm while letting\r\nlimbs dangle.",
+  "description": "Replaces the actor's animated skeleton with a particle-based\nragdoll physics simulation. The body goes limp and reacts to\ngravity and external forces.\n\n**Spring Force** and **Damping** (both logarithmic) control\nhow aggressively the ragdoll tries to return to its animated\npose — low values make it floppy, high values keep it closer\nto the animation. **Gravity** toggles gravitational pull on\nthe ragdoll.\n\n**World Pose Pull** adds a second, weaker drive that steers\neach body toward its animated *world* rotation. The joints\nonly reproduce rotations relative to the parent, so a limb\nknocked aside by contact keeps its displaced orientation for\ngood; this pulls it back. 0 disables it — raise it until the\nbody recovers, and back off before it stops looking limp.\n\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\nHand** pin specific body parts to their animated positions so\nthey don't flop — useful for keeping feet planted while the\nrest of the body goes limp.\n\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\nto 1 (fully rigid). Adjust individual body parts like legs,\nknees, arms, shoulders, torso, neck, and head to create\nlocalized stiffness — e.g. keep the torso firm while letting\nlimbs dangle.",
   "descriptions": {
-    "ja": "(Replaces the actor's animated skeleton with a particle-based\r\nragdoll physics simulation. The body goes limp and reacts to\r\ngravity and external forces.\r\n\r\n**Spring Force** and **Damping** (both logarithmic) control\r\nhow aggressively the ragdoll tries to return to its animated\r\npose — low values make it floppy, high values keep it closer\r\nto the animation. **Gravity** toggles gravitational pull on\r\nthe ragdoll.\r\n\r\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\r\nHand** pin specific body parts to their animated positions so\r\nthey don't flop — useful for keeping feet planted while the\r\nrest of the body goes limp.\r\n\r\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\r\nto 1 (fully rigid). Adjust individual body parts like legs,\r\nknees, arms, shoulders, torso, neck, and head to create\r\nlocalized stiffness — e.g. keep the torso firm while letting\r\nlimbs dangle.)",
-    "zh-TW": "(Replaces the actor's animated skeleton with a particle-based\r\nragdoll physics simulation. The body goes limp and reacts to\r\ngravity and external forces.\r\n\r\n**Spring Force** and **Damping** (both logarithmic) control\r\nhow aggressively the ragdoll tries to return to its animated\r\npose — low values make it floppy, high values keep it closer\r\nto the animation. **Gravity** toggles gravitational pull on\r\nthe ragdoll.\r\n\r\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\r\nHand** pin specific body parts to their animated positions so\r\nthey don't flop — useful for keeping feet planted while the\r\nrest of the body goes limp.\r\n\r\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\r\nto 1 (fully rigid). Adjust individual body parts like legs,\r\nknees, arms, shoulders, torso, neck, and head to create\r\nlocalized stiffness — e.g. keep the torso firm while letting\r\nlimbs dangle.)",
-    "ko": "(Replaces the actor's animated skeleton with a particle-based\r\nragdoll physics simulation. The body goes limp and reacts to\r\ngravity and external forces.\r\n\r\n**Spring Force** and **Damping** (both logarithmic) control\r\nhow aggressively the ragdoll tries to return to its animated\r\npose — low values make it floppy, high values keep it closer\r\nto the animation. **Gravity** toggles gravitational pull on\r\nthe ragdoll.\r\n\r\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\r\nHand** pin specific body parts to their animated positions so\r\nthey don't flop — useful for keeping feet planted while the\r\nrest of the body goes limp.\r\n\r\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\r\nto 1 (fully rigid). Adjust individual body parts like legs,\r\nknees, arms, shoulders, torso, neck, and head to create\r\nlocalized stiffness — e.g. keep the torso firm while letting\r\nlimbs dangle.)",
-    "zh-CN": "(Replaces the actor's animated skeleton with a particle-based\r\nragdoll physics simulation. The body goes limp and reacts to\r\ngravity and external forces.\r\n\r\n**Spring Force** and **Damping** (both logarithmic) control\r\nhow aggressively the ragdoll tries to return to its animated\r\npose — low values make it floppy, high values keep it closer\r\nto the animation. **Gravity** toggles gravitational pull on\r\nthe ragdoll.\r\n\r\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\r\nHand** pin specific body parts to their animated positions so\r\nthey don't flop — useful for keeping feet planted while the\r\nrest of the body goes limp.\r\n\r\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\r\nto 1 (fully rigid). Adjust individual body parts like legs,\r\nknees, arms, shoulders, torso, neck, and head to create\r\nlocalized stiffness — e.g. keep the torso firm while letting\r\nlimbs dangle.)"
+    "ja": "(Replaces the actor's animated skeleton with a particle-based\nragdoll physics simulation. The body goes limp and reacts to\ngravity and external forces.\n\n**Spring Force** and **Damping** (both logarithmic) control\nhow aggressively the ragdoll tries to return to its animated\npose — low values make it floppy, high values keep it closer\nto the animation. **Gravity** toggles gravitational pull on\nthe ragdoll.\n\n**World Pose Pull** adds a second, weaker drive that steers\neach body toward its animated *world* rotation. The joints\nonly reproduce rotations relative to the parent, so a limb\nknocked aside by contact keeps its displaced orientation for\ngood; this pulls it back. 0 disables it — raise it until the\nbody recovers, and back off before it stops looking limp.\n\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\nHand** pin specific body parts to their animated positions so\nthey don't flop — useful for keeping feet planted while the\nrest of the body goes limp.\n\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\nto 1 (fully rigid). Adjust individual body parts like legs,\nknees, arms, shoulders, torso, neck, and head to create\nlocalized stiffness — e.g. keep the torso firm while letting\nlimbs dangle.)",
+    "zh-TW": "(Replaces the actor's animated skeleton with a particle-based\nragdoll physics simulation. The body goes limp and reacts to\ngravity and external forces.\n\n**Spring Force** and **Damping** (both logarithmic) control\nhow aggressively the ragdoll tries to return to its animated\npose — low values make it floppy, high values keep it closer\nto the animation. **Gravity** toggles gravitational pull on\nthe ragdoll.\n\n**World Pose Pull** adds a second, weaker drive that steers\neach body toward its animated *world* rotation. The joints\nonly reproduce rotations relative to the parent, so a limb\nknocked aside by contact keeps its displaced orientation for\ngood; this pulls it back. 0 disables it — raise it until the\nbody recovers, and back off before it stops looking limp.\n\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\nHand** pin specific body parts to their animated positions so\nthey don't flop — useful for keeping feet planted while the\nrest of the body goes limp.\n\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\nto 1 (fully rigid). Adjust individual body parts like legs,\nknees, arms, shoulders, torso, neck, and head to create\nlocalized stiffness — e.g. keep the torso firm while letting\nlimbs dangle.)",
+    "ko": "(Replaces the actor's animated skeleton with a particle-based\nragdoll physics simulation. The body goes limp and reacts to\ngravity and external forces.\n\n**Spring Force** and **Damping** (both logarithmic) control\nhow aggressively the ragdoll tries to return to its animated\npose — low values make it floppy, high values keep it closer\nto the animation. **Gravity** toggles gravitational pull on\nthe ragdoll.\n\n**World Pose Pull** adds a second, weaker drive that steers\neach body toward its animated *world* rotation. The joints\nonly reproduce rotations relative to the parent, so a limb\nknocked aside by contact keeps its displaced orientation for\ngood; this pulls it back. 0 disables it — raise it until the\nbody recovers, and back off before it stops looking limp.\n\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\nHand** pin specific body parts to their animated positions so\nthey don't flop — useful for keeping feet planted while the\nrest of the body goes limp.\n\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\nto 1 (fully rigid). Adjust individual body parts like legs,\nknees, arms, shoulders, torso, neck, and head to create\nlocalized stiffness — e.g. keep the torso firm while letting\nlimbs dangle.)",
+    "zh-CN": "(Replaces the actor's animated skeleton with a particle-based\nragdoll physics simulation. The body goes limp and reacts to\ngravity and external forces.\n\n**Spring Force** and **Damping** (both logarithmic) control\nhow aggressively the ragdoll tries to return to its animated\npose — low values make it floppy, high values keep it closer\nto the animation. **Gravity** toggles gravitational pull on\nthe ragdoll.\n\n**World Pose Pull** adds a second, weaker drive that steers\neach body toward its animated *world* rotation. The joints\nonly reproduce rotations relative to the parent, so a limb\nknocked aside by contact keeps its displaced orientation for\ngood; this pulls it back. 0 disables it — raise it until the\nbody recovers, and back off before it stops looking limp.\n\n**Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right\nHand** pin specific body parts to their animated positions so\nthey don't flop — useful for keeping feet planted while the\nrest of the body goes limp.\n\n**Fine Tune** sets per-bone force scales from 0 (fully floppy)\nto 1 (fully rigid). Adjust individual body parts like legs,\nknees, arms, shoulders, torso, neck, and head to create\nlocalized stiffness — e.g. keep the torso firm while letting\nlimbs dangle.)"
   },
   "values": [
     {
@@ -29,6 +29,28 @@
       "default": 5,
       "min": 0,
       "max": 10,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
+    },
+    {
+      "name": "World Pose Pull",
+      "type": "float",
+      "label": "World Pose Pull",
+      "labels": {
+        "ja": "(World Pose Pull)",
+        "zh-TW": "(World Pose Pull)",
+        "ko": "(World Pose Pull)",
+        "zh-CN": "(World Pose Pull)"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
       "options": null,
       "description": null,
       "descriptions": {
@@ -191,52 +213,6 @@
         "ko": null,
         "zh-CN": null
       }
-    },
-    {
-      "name": "Sex",
-      "type": "group",
-      "label": "Sex",
-      "labels": {
-        "ja": "(Sex)",
-        "zh-TW": "(Sex)",
-        "ko": "(Sex)",
-        "zh-CN": "(Sex)"
-      },
-      "default": 0,
-      "min": 0,
-      "max": 1,
-      "options": null,
-      "description": null,
-      "descriptions": {
-        "ja": null,
-        "zh-TW": null,
-        "ko": null,
-        "zh-CN": null
-      },
-      "values": [
-        {
-          "name": "dildo",
-          "type": "bool",
-          "label": "dildo",
-          "labels": {
-            "ja": "(dildo)",
-            "zh-TW": "(dildo)",
-            "ko": "(dildo)",
-            "zh-CN": "(dildo)"
-          },
-          "default": "true",
-          "min": 0,
-          "max": 1,
-          "options": null,
-          "description": null,
-          "descriptions": {
-            "ja": null,
-            "zh-TW": null,
-            "ko": null,
-            "zh-CN": null
-          }
-        }
-      ]
     },
     {
       "name": "Fine Tune",
@@ -525,6 +501,28 @@
           }
         }
       ]
+    },
+    {
+      "name": "Ragdoll Body",
+      "type": "value",
+      "label": "Ragdoll Body",
+      "labels": {
+        "ja": "(Ragdoll Body)",
+        "zh-TW": "(Ragdoll Body)",
+        "ko": "(Ragdoll Body)",
+        "zh-CN": "(Ragdoll Body)"
+      },
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "options": null,
+      "description": null,
+      "descriptions": {
+        "ja": null,
+        "zh-TW": null,
+        "ko": null,
+        "zh-CN": null
+      }
     }
   ]
 }

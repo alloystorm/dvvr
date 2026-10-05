@@ -67,21 +67,21 @@ Links to alternative physics systems available when PMX physics is turned
 off: Hair Physics, Cloth Physics, Boobs Physics, Skirt Physics, and more.
 
 
-# Sub-Components
+## Settings reference
 
-## Particle Properties
+## Particle Properties {#particle-properties}
 
-Holds particle size, mass, damping, gravity, friction, and collision layers for the XPBD physics system used in PMX physics mode.
+Sets the shared forces and collision behavior for particle simulation. **Gravity** controls downward acceleration; **Drag (Air)** and **Drag (Underwater)** slow movement, while **Buoyancy** affects submerged particles. **Wind** tunes how global wind and turbulence influence the particles. **Friction** controls sliding at contact, and collision-layer selection determines which objects interact. Keep the default values while selecting and anchoring a mesh, then change one parameter at a time to tune its response.
 
-## Linear Motion
-
-Holds spring force, damping, drag, and drive mode for a PhysX joint axis. Used per-group to override global Linear/Angular motion settings.
-
-## Angular Motion
+## Linear Motion {#linear-motion}
 
 Holds spring force, damping, drag, and drive mode for a PhysX joint axis. Used per-group to override global Linear/Angular motion settings.
 
-## Options
+## Angular Motion {#angular-motion}
+
+Holds spring force, damping, drag, and drive mode for a PhysX joint axis. Used per-group to override global Linear/Angular motion settings.
+
+## Options {#options}
 
 Holds mass scaling, drag scaling, center of mass mode, and projection thresholds for the PhysX joint solver. Used to fine-tune joint stability and prevent stretching under fast motion.
 

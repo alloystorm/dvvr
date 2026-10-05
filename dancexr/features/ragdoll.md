@@ -16,6 +16,13 @@ pose — low values make it floppy, high values keep it closer
 to the animation. **Gravity** toggles gravitational pull on
 the ragdoll.
 
+**World Pose Pull** adds a second, weaker drive that steers
+each body toward its animated *world* rotation. The joints
+only reproduce rotations relative to the parent, so a limb
+knocked aside by contact keeps its displaced orientation for
+good; this pulls it back. 0 disables it — raise it until the
+body recovers, and back off before it stops looking limp.
+
 **Lock Left/Right Foot**, **Lock Head**, and **Lock Left/Right
 Hand** pin specific body parts to their animated positions so
 they don't flop — useful for keeping feet planted while the

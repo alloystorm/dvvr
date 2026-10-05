@@ -45,40 +45,10 @@ physics bodies. **Visualize Joints** shows joint limits for
 softbody physics joints.
 
 
-# Sub-Components
+## Settings reference
 
-## Primary Group
-
-Defines a softbody simulation group. Select bones via the
-bone picker; child bones of selected roots become softbody
-particles. Optional **Suspension** adds anchor joints to
-root bones. **Anchor Along Axis** and **Anchor Offset**
-control the softbody attachment point. Non-primary groups
-can inherit the primary group's physics settings. The
-nested XPBD panel defines particle stiffness, damping,
-and collision parameters.
-
-### Use Suspension
-
-Adds a spring-damper suspension joint to a bone, anchoring
-it to its parent with configurable **Anchor** position and
-**Center Offset**. **Spring Force**, **Damping**, **Mass**,
-and **Drag** control the joint dynamics. **Radius** sets
-the collider size; **Rest Angle** adds a rotational bias.
-**Rotation Limit** constrains swing and twist angles with
-their own spring and damping. **Visualize Joints** renders
-the constraint shape.
-
-### XPBD
-
-Shape-matching softbody. Each selected bone becomes a surface particle
-plus a locked inner anchor; overlapping clusters pull the surface back
-toward its rest shape, allowing soft local deformation and jiggle.
-**Depth** controls how far the inner anchors sit from the surface;
-**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
-sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
-
-## Group 2
+<a id="settings-softbody-group"></a>
+## Softbody group settings (Primary Group) {#primary-group}
 
 Defines a softbody simulation group. Select bones via the
 bone picker; child bones of selected roots become softbody
@@ -89,7 +59,7 @@ can inherit the primary group's physics settings. The
 nested XPBD panel defines particle stiffness, damping,
 and collision parameters.
 
-### Use Suspension
+### Use Suspension {#use-suspension}
 
 Adds a spring-damper suspension joint to a bone, anchoring
 it to its parent with configurable **Anchor** position and
@@ -100,7 +70,8 @@ the collider size; **Rest Angle** adds a rotational bias.
 their own spring and damping. **Visualize Joints** renders
 the constraint shape.
 
-### XPBD
+<a id="settings-shape-matching"></a>
+### Shape matching (XPBD) {#xpbd}
 
 Shape-matching softbody. Each selected bone becomes a surface particle
 plus a locked inner anchor; overlapping clusters pull the surface back
@@ -109,189 +80,45 @@ toward its rest shape, allowing soft local deformation and jiggle.
 **Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
 sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
 
-## Group 3
+## Group 2 {#group-2}
 
-Defines a softbody simulation group. Select bones via the
-bone picker; child bones of selected roots become softbody
-particles. Optional **Suspension** adds anchor joints to
-root bones. **Anchor Along Axis** and **Anchor Offset**
-control the softbody attachment point. Non-primary groups
-can inherit the primary group's physics settings. The
-nested XPBD panel defines particle stiffness, damping,
-and collision parameters.
+See [Softbody group settings](#settings-softbody-group). Defaults and available controls for this instance are listed in Config Reference.
 
-### Use Suspension
+<a id="use-suspension-1"></a>
+<a id="xpbd-1"></a>
+## Group 3 {#group-3}
 
-Adds a spring-damper suspension joint to a bone, anchoring
-it to its parent with configurable **Anchor** position and
-**Center Offset**. **Spring Force**, **Damping**, **Mass**,
-and **Drag** control the joint dynamics. **Radius** sets
-the collider size; **Rest Angle** adds a rotational bias.
-**Rotation Limit** constrains swing and twist angles with
-their own spring and damping. **Visualize Joints** renders
-the constraint shape.
+See [Softbody group settings](#settings-softbody-group). Defaults and available controls for this instance are listed in Config Reference.
 
-### XPBD
+<a id="use-suspension-2"></a>
+<a id="xpbd-2"></a>
+## Group 4 {#group-4}
 
-Shape-matching softbody. Each selected bone becomes a surface particle
-plus a locked inner anchor; overlapping clusters pull the surface back
-toward its rest shape, allowing soft local deformation and jiggle.
-**Depth** controls how far the inner anchors sit from the surface;
-**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
-sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
+See [Softbody group settings](#settings-softbody-group). Defaults and available controls for this instance are listed in Config Reference.
 
-## Group 4
+<a id="use-suspension-3"></a>
+<a id="xpbd-3"></a>
+## Group 5 {#group-5}
 
-Defines a softbody simulation group. Select bones via the
-bone picker; child bones of selected roots become softbody
-particles. Optional **Suspension** adds anchor joints to
-root bones. **Anchor Along Axis** and **Anchor Offset**
-control the softbody attachment point. Non-primary groups
-can inherit the primary group's physics settings. The
-nested XPBD panel defines particle stiffness, damping,
-and collision parameters.
+See [Softbody group settings](#settings-softbody-group). Defaults and available controls for this instance are listed in Config Reference.
 
-### Use Suspension
+<a id="use-suspension-4"></a>
+<a id="xpbd-4"></a>
+## Group 6 {#group-6}
 
-Adds a spring-damper suspension joint to a bone, anchoring
-it to its parent with configurable **Anchor** position and
-**Center Offset**. **Spring Force**, **Damping**, **Mass**,
-and **Drag** control the joint dynamics. **Radius** sets
-the collider size; **Rest Angle** adds a rotational bias.
-**Rotation Limit** constrains swing and twist angles with
-their own spring and damping. **Visualize Joints** renders
-the constraint shape.
+See [Softbody group settings](#settings-softbody-group). Defaults and available controls for this instance are listed in Config Reference.
 
-### XPBD
+<a id="use-suspension-5"></a>
+<a id="xpbd-5"></a>
+## Group 7 {#group-7}
 
-Shape-matching softbody. Each selected bone becomes a surface particle
-plus a locked inner anchor; overlapping clusters pull the surface back
-toward its rest shape, allowing soft local deformation and jiggle.
-**Depth** controls how far the inner anchors sit from the surface;
-**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
-sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
+See [Softbody group settings](#settings-softbody-group). Defaults and available controls for this instance are listed in Config Reference.
 
-## Group 5
+<a id="use-suspension-6"></a>
+<a id="xpbd-6"></a>
+## Group 8 {#group-8}
 
-Defines a softbody simulation group. Select bones via the
-bone picker; child bones of selected roots become softbody
-particles. Optional **Suspension** adds anchor joints to
-root bones. **Anchor Along Axis** and **Anchor Offset**
-control the softbody attachment point. Non-primary groups
-can inherit the primary group's physics settings. The
-nested XPBD panel defines particle stiffness, damping,
-and collision parameters.
+See [Softbody group settings](#settings-softbody-group). Defaults and available controls for this instance are listed in Config Reference.
 
-### Use Suspension
-
-Adds a spring-damper suspension joint to a bone, anchoring
-it to its parent with configurable **Anchor** position and
-**Center Offset**. **Spring Force**, **Damping**, **Mass**,
-and **Drag** control the joint dynamics. **Radius** sets
-the collider size; **Rest Angle** adds a rotational bias.
-**Rotation Limit** constrains swing and twist angles with
-their own spring and damping. **Visualize Joints** renders
-the constraint shape.
-
-### XPBD
-
-Shape-matching softbody. Each selected bone becomes a surface particle
-plus a locked inner anchor; overlapping clusters pull the surface back
-toward its rest shape, allowing soft local deformation and jiggle.
-**Depth** controls how far the inner anchors sit from the surface;
-**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
-sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
-
-## Group 6
-
-Defines a softbody simulation group. Select bones via the
-bone picker; child bones of selected roots become softbody
-particles. Optional **Suspension** adds anchor joints to
-root bones. **Anchor Along Axis** and **Anchor Offset**
-control the softbody attachment point. Non-primary groups
-can inherit the primary group's physics settings. The
-nested XPBD panel defines particle stiffness, damping,
-and collision parameters.
-
-### Use Suspension
-
-Adds a spring-damper suspension joint to a bone, anchoring
-it to its parent with configurable **Anchor** position and
-**Center Offset**. **Spring Force**, **Damping**, **Mass**,
-and **Drag** control the joint dynamics. **Radius** sets
-the collider size; **Rest Angle** adds a rotational bias.
-**Rotation Limit** constrains swing and twist angles with
-their own spring and damping. **Visualize Joints** renders
-the constraint shape.
-
-### XPBD
-
-Shape-matching softbody. Each selected bone becomes a surface particle
-plus a locked inner anchor; overlapping clusters pull the surface back
-toward its rest shape, allowing soft local deformation and jiggle.
-**Depth** controls how far the inner anchors sit from the surface;
-**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
-sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
-
-## Group 7
-
-Defines a softbody simulation group. Select bones via the
-bone picker; child bones of selected roots become softbody
-particles. Optional **Suspension** adds anchor joints to
-root bones. **Anchor Along Axis** and **Anchor Offset**
-control the softbody attachment point. Non-primary groups
-can inherit the primary group's physics settings. The
-nested XPBD panel defines particle stiffness, damping,
-and collision parameters.
-
-### Use Suspension
-
-Adds a spring-damper suspension joint to a bone, anchoring
-it to its parent with configurable **Anchor** position and
-**Center Offset**. **Spring Force**, **Damping**, **Mass**,
-and **Drag** control the joint dynamics. **Radius** sets
-the collider size; **Rest Angle** adds a rotational bias.
-**Rotation Limit** constrains swing and twist angles with
-their own spring and damping. **Visualize Joints** renders
-the constraint shape.
-
-### XPBD
-
-Shape-matching softbody. Each selected bone becomes a surface particle
-plus a locked inner anchor; overlapping clusters pull the surface back
-toward its rest shape, allowing soft local deformation and jiggle.
-**Depth** controls how far the inner anchors sit from the surface;
-**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
-sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
-
-## Group 8
-
-Defines a softbody simulation group. Select bones via the
-bone picker; child bones of selected roots become softbody
-particles. Optional **Suspension** adds anchor joints to
-root bones. **Anchor Along Axis** and **Anchor Offset**
-control the softbody attachment point. Non-primary groups
-can inherit the primary group's physics settings. The
-nested XPBD panel defines particle stiffness, damping,
-and collision parameters.
-
-### Use Suspension
-
-Adds a spring-damper suspension joint to a bone, anchoring
-it to its parent with configurable **Anchor** position and
-**Center Offset**. **Spring Force**, **Damping**, **Mass**,
-and **Drag** control the joint dynamics. **Radius** sets
-the collider size; **Rest Angle** adds a rotational bias.
-**Rotation Limit** constrains swing and twist angles with
-their own spring and damping. **Visualize Joints** renders
-the constraint shape.
-
-### XPBD
-
-Shape-matching softbody. Each selected bone becomes a surface particle
-plus a locked inner anchor; overlapping clusters pull the surface back
-toward its rest shape, allowing soft local deformation and jiggle.
-**Depth** controls how far the inner anchors sit from the surface;
-**Edge Depth** pulls edge anchors closer to the skeleton. **Stiffness**
-sets how strongly the shape is restored each step (0 = floppy, 1 = rigid).
-
+<a id="use-suspension-7"></a>
+<a id="xpbd-7"></a>

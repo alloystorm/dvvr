@@ -62,9 +62,10 @@ of the scene.
 wireframe gizmos.
 
 
-# Sub-Components
+## Settings reference
 
-## XPBD
+<a id="settings-particle-mesh"></a>
+## XPBD mesh settings (XPBD) {#xpbd}
 
 Configures particle-based chain or mesh simulation for hair,
 cloth, and other dangling parts. **Rotation Compliance** controls

@@ -65,9 +65,10 @@ bodies. **Visualize Joints** shows joint limits and drive
 targets as wireframe gizmos.
 
 
-# Sub-Components
+## Settings reference
 
-## Primary Group
+<a id="settings-skirt-group"></a>
+## Skirt group settings (Primary Group) {#primary-group}
 
 Nested config for a single skirt physics group. **Select
 Bones** picks the root bone chain. **Sorting** organizes
@@ -80,7 +81,50 @@ Bodies/Joints** shows debug geometry. Contains nested
 Joint, Lateral Joint, and Collider sub-configs, or an
 **XPBD Settings** particle mesh config.
 
-### XPBD Settings
+### Physics Properties {#physics-properties}
+
+Defines base physics parameters for rigid body simulation.
+**Mass** and **Drag** control how bones respond to forces
+and air resistance. In mesh mode, **Horizontal Overlap**
+adjusts collider side-to-side coverage, and **Mass
+Distribution** reduces mass at each successive level.
+**Friction** affects surface sliding during collisions.
+**Solver Iterations** controls collision resolution accuracy
+— higher values are more stable but cost more performance.
+**Center Of Mass** chooses between auto-calculated (based
+on collider shapes) or zero-centered positioning.
+
+### Parent-Child Joint {#parent-child-joint}
+
+Configures the joint connecting each bone to its parent.
+**Swing Drive** controls stiffness for bending away from
+the rest pose; **Twist Drive** resists rotation around the
+bone axis. **Drive Damping** (squared) reduces oscillation.
+**Reduction Rate** multiplies stiffness at each chain level
+— values below 1 make the chain progressively looser.
+**Anchor Position** chooses where the joint attaches (0 =
+parent bone, 1 = child bone).
+
+### Lateral Joint {#lateral-joint}
+
+Configures connections between adjacent bones at the same
+chain level, creating mesh-like behavior. **Linear Drive**
+resists positional separation; **Angular Drive** resists
+rotational differences. **Drive Damping** (squared) smooths
+oscillation. **Reduction Rate** multiplies stiffness at each
+level. **Lock Y** and **Lock Z** constrain lateral movement
+along specific axes for stiffer behavior.
+
+### Collider {#collider}
+
+Nested config for physics collider parameters. **Collider
+Type** selects Box, Capsule, or Sphere shapes. **Collider
+Radius** sets the size. **Collider Length** and **First
+Collider Length** control elongation, with the first level
+typically shorter to avoid body interference.
+
+<a id="settings-particle-mesh"></a>
+### XPBD mesh settings (XPBD Settings) {#xpbd-settings}
 
 Configures particle-based chain or mesh simulation for hair,
 cloth, and other dangling parts. **Rotation Compliance** controls
@@ -99,227 +143,66 @@ steps. **Inertia** adds resistance to movement changes.
 **Use Sphere Shape** replaces capsule particles with spheres for
 debugging.
 
-## Group 2
+## Group 2 {#group-2}
 
-Nested config for a single skirt physics group. **Select
-Bones** picks the root bone chain. **Sorting** organizes
-bones for lateral connections. **Closed Loop** connects the
-first and last bone at each level. **Skip First X Bones**
-excludes initial levels from physics. **Physics Mode**
-chooses PhysX or XPBD (primary group only). **Visualize
-Bodies/Joints** shows debug geometry. Contains nested
-**PhysX Settings** with Physics Properties, Parent-Child
-Joint, Lateral Joint, and Collider sub-configs, or an
-**XPBD Settings** particle mesh config.
+See [Skirt group settings](#settings-skirt-group). Defaults and available controls for this instance are listed in Config Reference.
 
-### XPBD Settings
+<a id="physics-properties-1"></a>
+<a id="parent-child-joint-1"></a>
+<a id="lateral-joint-1"></a>
+<a id="collider-1"></a>
+<a id="xpbd-settings-1"></a>
+## Group 3 {#group-3}
 
-Configures particle-based chain or mesh simulation for hair,
-cloth, and other dangling parts. **Rotation Compliance** controls
-how much the chain bends at each joint (higher = more flexible).
-**Twist Compliance** controls rotation around the bone axis.
-For mesh mode, **Lateral Compliance** adds cross-connections
-between adjacent chains.
+See [Skirt group settings](#settings-skirt-group). Defaults and available controls for this instance are listed in Config Reference.
 
-**Stiffness Reduction** (power-of-10 scale) multiplies compliance
-at each level — values above 1 make the chain progressively looser
-toward the tip. **Mass Reduction** (power-of-2 scale) reduces mass
-at each level. **Particle Anchor** positions the joint along the
-segment. **Constraint Damping** smooths oscillation between solver
-steps. **Inertia** adds resistance to movement changes.
-**Particle Radius** sets the collider size in millimeters.
-**Use Sphere Shape** replaces capsule particles with spheres for
-debugging.
+<a id="physics-properties-2"></a>
+<a id="parent-child-joint-2"></a>
+<a id="lateral-joint-2"></a>
+<a id="collider-2"></a>
+<a id="xpbd-settings-2"></a>
+## Group 4 {#group-4}
 
-## Group 3
+See [Skirt group settings](#settings-skirt-group). Defaults and available controls for this instance are listed in Config Reference.
 
-Nested config for a single skirt physics group. **Select
-Bones** picks the root bone chain. **Sorting** organizes
-bones for lateral connections. **Closed Loop** connects the
-first and last bone at each level. **Skip First X Bones**
-excludes initial levels from physics. **Physics Mode**
-chooses PhysX or XPBD (primary group only). **Visualize
-Bodies/Joints** shows debug geometry. Contains nested
-**PhysX Settings** with Physics Properties, Parent-Child
-Joint, Lateral Joint, and Collider sub-configs, or an
-**XPBD Settings** particle mesh config.
+<a id="physics-properties-3"></a>
+<a id="parent-child-joint-3"></a>
+<a id="lateral-joint-3"></a>
+<a id="collider-3"></a>
+<a id="xpbd-settings-3"></a>
+## Group 5 {#group-5}
 
-### XPBD Settings
+See [Skirt group settings](#settings-skirt-group). Defaults and available controls for this instance are listed in Config Reference.
 
-Configures particle-based chain or mesh simulation for hair,
-cloth, and other dangling parts. **Rotation Compliance** controls
-how much the chain bends at each joint (higher = more flexible).
-**Twist Compliance** controls rotation around the bone axis.
-For mesh mode, **Lateral Compliance** adds cross-connections
-between adjacent chains.
+<a id="physics-properties-4"></a>
+<a id="parent-child-joint-4"></a>
+<a id="lateral-joint-4"></a>
+<a id="collider-4"></a>
+<a id="xpbd-settings-4"></a>
+## Group 6 {#group-6}
 
-**Stiffness Reduction** (power-of-10 scale) multiplies compliance
-at each level — values above 1 make the chain progressively looser
-toward the tip. **Mass Reduction** (power-of-2 scale) reduces mass
-at each level. **Particle Anchor** positions the joint along the
-segment. **Constraint Damping** smooths oscillation between solver
-steps. **Inertia** adds resistance to movement changes.
-**Particle Radius** sets the collider size in millimeters.
-**Use Sphere Shape** replaces capsule particles with spheres for
-debugging.
+See [Skirt group settings](#settings-skirt-group). Defaults and available controls for this instance are listed in Config Reference.
 
-## Group 4
+<a id="physics-properties-5"></a>
+<a id="parent-child-joint-5"></a>
+<a id="lateral-joint-5"></a>
+<a id="collider-5"></a>
+<a id="xpbd-settings-5"></a>
+## Group 7 {#group-7}
 
-Nested config for a single skirt physics group. **Select
-Bones** picks the root bone chain. **Sorting** organizes
-bones for lateral connections. **Closed Loop** connects the
-first and last bone at each level. **Skip First X Bones**
-excludes initial levels from physics. **Physics Mode**
-chooses PhysX or XPBD (primary group only). **Visualize
-Bodies/Joints** shows debug geometry. Contains nested
-**PhysX Settings** with Physics Properties, Parent-Child
-Joint, Lateral Joint, and Collider sub-configs, or an
-**XPBD Settings** particle mesh config.
+See [Skirt group settings](#settings-skirt-group). Defaults and available controls for this instance are listed in Config Reference.
 
-### XPBD Settings
+<a id="physics-properties-6"></a>
+<a id="parent-child-joint-6"></a>
+<a id="lateral-joint-6"></a>
+<a id="collider-6"></a>
+<a id="xpbd-settings-6"></a>
+## Group 8 {#group-8}
 
-Configures particle-based chain or mesh simulation for hair,
-cloth, and other dangling parts. **Rotation Compliance** controls
-how much the chain bends at each joint (higher = more flexible).
-**Twist Compliance** controls rotation around the bone axis.
-For mesh mode, **Lateral Compliance** adds cross-connections
-between adjacent chains.
+See [Skirt group settings](#settings-skirt-group). Defaults and available controls for this instance are listed in Config Reference.
 
-**Stiffness Reduction** (power-of-10 scale) multiplies compliance
-at each level — values above 1 make the chain progressively looser
-toward the tip. **Mass Reduction** (power-of-2 scale) reduces mass
-at each level. **Particle Anchor** positions the joint along the
-segment. **Constraint Damping** smooths oscillation between solver
-steps. **Inertia** adds resistance to movement changes.
-**Particle Radius** sets the collider size in millimeters.
-**Use Sphere Shape** replaces capsule particles with spheres for
-debugging.
-
-## Group 5
-
-Nested config for a single skirt physics group. **Select
-Bones** picks the root bone chain. **Sorting** organizes
-bones for lateral connections. **Closed Loop** connects the
-first and last bone at each level. **Skip First X Bones**
-excludes initial levels from physics. **Physics Mode**
-chooses PhysX or XPBD (primary group only). **Visualize
-Bodies/Joints** shows debug geometry. Contains nested
-**PhysX Settings** with Physics Properties, Parent-Child
-Joint, Lateral Joint, and Collider sub-configs, or an
-**XPBD Settings** particle mesh config.
-
-### XPBD Settings
-
-Configures particle-based chain or mesh simulation for hair,
-cloth, and other dangling parts. **Rotation Compliance** controls
-how much the chain bends at each joint (higher = more flexible).
-**Twist Compliance** controls rotation around the bone axis.
-For mesh mode, **Lateral Compliance** adds cross-connections
-between adjacent chains.
-
-**Stiffness Reduction** (power-of-10 scale) multiplies compliance
-at each level — values above 1 make the chain progressively looser
-toward the tip. **Mass Reduction** (power-of-2 scale) reduces mass
-at each level. **Particle Anchor** positions the joint along the
-segment. **Constraint Damping** smooths oscillation between solver
-steps. **Inertia** adds resistance to movement changes.
-**Particle Radius** sets the collider size in millimeters.
-**Use Sphere Shape** replaces capsule particles with spheres for
-debugging.
-
-## Group 6
-
-Nested config for a single skirt physics group. **Select
-Bones** picks the root bone chain. **Sorting** organizes
-bones for lateral connections. **Closed Loop** connects the
-first and last bone at each level. **Skip First X Bones**
-excludes initial levels from physics. **Physics Mode**
-chooses PhysX or XPBD (primary group only). **Visualize
-Bodies/Joints** shows debug geometry. Contains nested
-**PhysX Settings** with Physics Properties, Parent-Child
-Joint, Lateral Joint, and Collider sub-configs, or an
-**XPBD Settings** particle mesh config.
-
-### XPBD Settings
-
-Configures particle-based chain or mesh simulation for hair,
-cloth, and other dangling parts. **Rotation Compliance** controls
-how much the chain bends at each joint (higher = more flexible).
-**Twist Compliance** controls rotation around the bone axis.
-For mesh mode, **Lateral Compliance** adds cross-connections
-between adjacent chains.
-
-**Stiffness Reduction** (power-of-10 scale) multiplies compliance
-at each level — values above 1 make the chain progressively looser
-toward the tip. **Mass Reduction** (power-of-2 scale) reduces mass
-at each level. **Particle Anchor** positions the joint along the
-segment. **Constraint Damping** smooths oscillation between solver
-steps. **Inertia** adds resistance to movement changes.
-**Particle Radius** sets the collider size in millimeters.
-**Use Sphere Shape** replaces capsule particles with spheres for
-debugging.
-
-## Group 7
-
-Nested config for a single skirt physics group. **Select
-Bones** picks the root bone chain. **Sorting** organizes
-bones for lateral connections. **Closed Loop** connects the
-first and last bone at each level. **Skip First X Bones**
-excludes initial levels from physics. **Physics Mode**
-chooses PhysX or XPBD (primary group only). **Visualize
-Bodies/Joints** shows debug geometry. Contains nested
-**PhysX Settings** with Physics Properties, Parent-Child
-Joint, Lateral Joint, and Collider sub-configs, or an
-**XPBD Settings** particle mesh config.
-
-### XPBD Settings
-
-Configures particle-based chain or mesh simulation for hair,
-cloth, and other dangling parts. **Rotation Compliance** controls
-how much the chain bends at each joint (higher = more flexible).
-**Twist Compliance** controls rotation around the bone axis.
-For mesh mode, **Lateral Compliance** adds cross-connections
-between adjacent chains.
-
-**Stiffness Reduction** (power-of-10 scale) multiplies compliance
-at each level — values above 1 make the chain progressively looser
-toward the tip. **Mass Reduction** (power-of-2 scale) reduces mass
-at each level. **Particle Anchor** positions the joint along the
-segment. **Constraint Damping** smooths oscillation between solver
-steps. **Inertia** adds resistance to movement changes.
-**Particle Radius** sets the collider size in millimeters.
-**Use Sphere Shape** replaces capsule particles with spheres for
-debugging.
-
-## Group 8
-
-Nested config for a single skirt physics group. **Select
-Bones** picks the root bone chain. **Sorting** organizes
-bones for lateral connections. **Closed Loop** connects the
-first and last bone at each level. **Skip First X Bones**
-excludes initial levels from physics. **Physics Mode**
-chooses PhysX or XPBD (primary group only). **Visualize
-Bodies/Joints** shows debug geometry. Contains nested
-**PhysX Settings** with Physics Properties, Parent-Child
-Joint, Lateral Joint, and Collider sub-configs, or an
-**XPBD Settings** particle mesh config.
-
-### XPBD Settings
-
-Configures particle-based chain or mesh simulation for hair,
-cloth, and other dangling parts. **Rotation Compliance** controls
-how much the chain bends at each joint (higher = more flexible).
-**Twist Compliance** controls rotation around the bone axis.
-For mesh mode, **Lateral Compliance** adds cross-connections
-between adjacent chains.
-
-**Stiffness Reduction** (power-of-10 scale) multiplies compliance
-at each level — values above 1 make the chain progressively looser
-toward the tip. **Mass Reduction** (power-of-2 scale) reduces mass
-at each level. **Particle Anchor** positions the joint along the
-segment. **Constraint Damping** smooths oscillation between solver
-steps. **Inertia** adds resistance to movement changes.
-**Particle Radius** sets the collider size in millimeters.
-**Use Sphere Shape** replaces capsule particles with spheres for
-debugging.
-
+<a id="physics-properties-7"></a>
+<a id="parent-child-joint-7"></a>
+<a id="lateral-joint-7"></a>
+<a id="collider-7"></a>
+<a id="xpbd-settings-7"></a>

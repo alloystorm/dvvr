@@ -29,14 +29,15 @@ The beam color uses a base color with a *Glow* intensity. Presets include *Glow 
 Motion patterns define how beams rotate and sway over time. The motion interpolates between two randomly selected target rotations every beat, creating organic, evolving movement across the laser array.
 
 
-# Sub-Components
+## Settings reference
 
-## Color
+<a id="settings-glow-color"></a>
+## Color and glow (Color) {#color}
 
 Holds a base color and glow intensity for audio-reactive elements.
 Glow is multiplied with the color and animates with the beat when auto-update is enabled.
 
-## Motion
+## Motion {#motion}
 
 Reusable motion-pattern generator for looping body sway and
 positional drift. It can randomize built-in patterns, randomize
@@ -73,11 +74,11 @@ fluid but can blur the character of individual patterns.
 orientation, horizontal sway, and vertical sway, which is often
 the difference between crisp choreography and a floaty feel.
 
-### Motion X
+### Motion X {#motion-x}
 
 Curve function that is used to control procedural motions.
 
-### Motion Z
+### Motion Z {#motion-z}
 
 Curve function that is used to control procedural motions.
 

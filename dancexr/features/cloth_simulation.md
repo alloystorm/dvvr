@@ -48,73 +48,10 @@ An experimental particle shower system that spawns fluid droplets with configura
 **Geometry Colliders** creates SDF body shapes for cloth to collide against. **Mesh Collider** generates tetrahedral colliders from the actor's skinned mesh for more accurate collision with arbitrary geometry.
 
 
-# Sub-Components
+## Settings reference
 
-## Cloth 1
-
-Configures a procedurally generated cloth mesh. **Topology**
-selects the particle grid layout — *Adaptive Hexagon*,
-*Adaptive Rectangle*, *Horizontal/Vertical Layout*, or
-*String* variants. **Inner Radius** sets the waist opening
-size. **Slope** controls flare angle (0 = tube, 90 = flat
-disc). **Arc** shapes the profile — positive for balloon,
-negative for bell shape. **Length** sets garment length.
-
-For horizontal layouts, **Arm Holes** and **Arm Hole Height**
-carve openings. For vertical layouts, **Back Length** and
-**Side Length** scale the mesh independently, and **Split
-Interval** creates gaps in the mesh. **Horizontal** and
-**Vertical Resolution** set particle spacing. **Distance
-Compliance** controls stretchiness. **Damping** reduces
-oscillation. **UV Mapping** selects texture projection mode.
-**Particle Radius** sets collision size.
-
-### Anchor
-
-Configures how the cloth mesh attaches to the actor's
-skeleton. **Top Anchor** and **Bottom Anchor** define the
-upper and lower attachment points using bone-relative
-positions and rotations. The cloth spans between these two
-anchor rings, with attraction strength controlling how
-tightly particles follow the anchor bones during simulation.
-
-### Particle Properties
-
-Holds particle size, mass, damping, gravity, friction, and collision layers for the XPBD physics system used in PMX physics mode.
-
-## C1 Material
-
-Configures the surface appearance of a cloth mesh. Supports
-solid color textures, detail maps, and transparent rendering.
-**Audio Visualization** mode replaces surface settings with
-reactive frequency/beat patterns that animate the material
-properties in real-time.
-
-**Surface** controls roughness and metalness. **Texture**
-selects from ground pattern presets or solid color.
-**Detail Map** adds secondary surface noise. **Transparent**
-enables alpha blending for see-through garments.
-
-### Audio Visualization
-
-Holds the ring visualization layout, colors, textures, and audio-reactive settings.
-
-#### Ring Color
-
-Holds a base color and glow intensity for audio-reactive elements.
-Glow is multiplied with the color and animates with the beat when auto-update is enabled.
-
-#### Background Color
-
-Holds a base color and glow intensity for audio-reactive elements.
-Glow is multiplied with the color and animates with the beat when auto-update is enabled.
-
-#### Foreground Color
-
-Holds a base color and glow intensity for audio-reactive elements.
-Glow is multiplied with the color and animates with the beat when auto-update is enabled.
-
-## Cloth 2
+<a id="settings-cloth-mesh"></a>
+## Cloth layer settings (Cloth 1) {#cloth-1}
 
 Configures a procedurally generated cloth mesh. **Topology**
 selects the particle grid layout — *Adaptive Hexagon*,
@@ -133,7 +70,8 @@ Compliance** controls stretchiness. **Damping** reduces
 oscillation. **UV Mapping** selects texture projection mode.
 **Particle Radius** sets collision size.
 
-### Anchor
+<a id="settings-cloth-anchor"></a>
+### Cloth anchors (Anchor) {#anchor}
 
 Configures how the cloth mesh attaches to the actor's
 skeleton. **Top Anchor** and **Bottom Anchor** define the
@@ -142,11 +80,12 @@ positions and rotations. The cloth spans between these two
 anchor rings, with attraction strength controlling how
 tightly particles follow the anchor bones during simulation.
 
-### Particle Properties
+### Particle Properties {#particle-properties}
 
-Holds particle size, mass, damping, gravity, friction, and collision layers for the XPBD physics system used in PMX physics mode.
+Sets the shared forces and collision behavior for particle simulation. **Gravity** controls downward acceleration; **Drag (Air)** and **Drag (Underwater)** slow movement, while **Buoyancy** affects submerged particles. **Wind** tunes how global wind and turbulence influence the particles. **Friction** controls sliding at contact, and collision-layer selection determines which objects interact. Keep the default values while selecting and anchoring a mesh, then change one parameter at a time to tune its response.
 
-## C2 Material
+<a id="settings-cloth-material"></a>
+## Cloth material settings (C1 Material) {#c1-material}
 
 Configures the surface appearance of a cloth mesh. Supports
 solid color textures, detail maps, and transparent rendering.
@@ -159,26 +98,114 @@ selects from ground pattern presets or solid color.
 **Detail Map** adds secondary surface noise. **Transparent**
 enables alpha blending for see-through garments.
 
-### Audio Visualization
+<a id="settings-toon-shading"></a>
+### Toon shading (Toon Shader) {#toon-shader}
+
+Overrides the actor's material with a global toon shader.
+
+Enable the toggle to replace all materials with a unified toon
+style. Adjust **Shading** and **Shadow** for the light/dark
+balance, **Outline** for edge thickness, and **Ambient** for
+the fill light level.
+
+**Highlight Area** and **Soft Highlight** control how sharp
+the bright areas are. **Shadow Area** and **Soft Shadow**
+do the same for dark areas.
+
+**Specular** and **Soft Specular** add shiny reflections
+to lit surfaces.
+
+**Receive Shadow** (non-HDRP only) lets the material
+receive shadows from other objects.
+
+<a id="settings-special-shader"></a>
+### Special shader (Special Shader) {#special-shader}
+
+Overrides the shader type for all materials on the actor.
+
+**Mode** selects the shader: *Off* uses the default shader;
+*Refraction Thick/Thin* simulates glass with refractive
+transparency; *Outline* renders only the outline edges;
+*Unlit* disables all lighting; *Experiment* is a
+placeholder for custom shader effects.
+
+**Refraction** controls the index of refraction for glass
+modes — higher values bend light more.
+
+**Thickness** adjusts the perceived depth of thin glass
+refraction.
+
+### Audio Visualization {#audio-visualization}
 
 Holds the ring visualization layout, colors, textures, and audio-reactive settings.
 
-#### Ring Color
+<a id="settings-glow-color"></a>
+#### Color and glow (Ring Color) {#ring-color}
 
 Holds a base color and glow intensity for audio-reactive elements.
 Glow is multiplied with the color and animates with the beat when auto-update is enabled.
 
-#### Background Color
+#### Background Color {#background-color}
 
-Holds a base color and glow intensity for audio-reactive elements.
-Glow is multiplied with the color and animates with the beat when auto-update is enabled.
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
 
-#### Foreground Color
+#### Foreground Color {#foreground-color}
 
-Holds a base color and glow intensity for audio-reactive elements.
-Glow is multiplied with the color and animates with the beat when auto-update is enabled.
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
 
-## Fluid
+### Hexagon Map {#hexagon-map}
+
+A procedural hexagonal (or circular) micro-pattern overlaid on
+the surface for fishnet, sci-fi panel, or studded looks. Toggle
+it off whenever you want a smooth fabric.
+
+
+#### Density & Shape
+
+**Density** sets how many hexagons fit across the surface
+(snapped to powers of two for clean tiling). **Size** scales
+each hex within its cell — smaller values leave gaps between
+hexes, larger values pack them tight. **Use Circle** swaps the
+hex shape for circles, useful for polka-dot or rivet looks.
+**Soft Edge** controls the falloff at each cell's border;
+values near zero give a crisp boundary, larger values blur the
+pattern into the surrounding surface.
+
+
+#### Bump & Noise
+
+**Bump** raises or lowers each cell relative to the surface
+(negative values stamp inwards). **Noise** randomises per-cell
+height so the pattern doesn't read as a perfect grid.
+
+
+#### UV Projection
+
+For outfits the cells can either follow the model's UV layout
+or be projected from a virtual cylinder around the body.
+**UV Projection** enables the cylindrical mode — turn it on
+when stretched or distorted UVs ruin the pattern.
+**Projection Radius** scales the cylinder, and **Rotation**
+tilts it so the hex grid runs diagonally instead of straight.
+
+## Cloth 2 {#cloth-2}
+
+See [Cloth layer settings](#settings-cloth-mesh). Defaults and available controls for this instance are listed in Config Reference.
+
+<a id="anchor-1"></a>
+<a id="particle-properties-1"></a>
+## C2 Material {#c2-material}
+
+See [Cloth material settings](#settings-cloth-material). Defaults and available controls for this instance are listed in Config Reference.
+
+<a id="toon-shader-1"></a>
+<a id="special-shader-1"></a>
+<a id="audio-visualization-1"></a>
+<a id="ring-color-1"></a>
+<a id="background-color-1"></a>
+<a id="foreground-color-1"></a>
+<a id="hexagon-map-1"></a>
+## Fluid (Experimental) {#fluid}
 
 An experimental particle-based fluid simulation system.
 Spawns up to 1000 particles with configurable physics
@@ -204,7 +231,7 @@ Toggles point cloud vs droplet mesh rendering. Droplet size
 can scale with local fluid density. Material properties
 include color, metallic, smoothness, glow, and transparency.
 
-### Spawn
+### Spawn {#spawn}
 
 Configures where and how fluid particles are generated.
 Supports three spawn modes: fixed position relative to the
@@ -217,7 +244,7 @@ initial velocity. **Max TTL** is the particle lifetime before
 respawn. **TTL on Floor** is how long puddles persist.
 **Smoothing** damps the auto-aim target tracking.
 
-### Fluid
+### Fluid {#fluid-1}
 
 Defines particle interaction physics.
 
@@ -243,21 +270,28 @@ to turn first if particles bounce away from each other on spawn.
 Presets: *Water* (light, cohesive), *Viscous* (thick,
 sticky), *Sand* (no cohesion, granular).
 
-### Ray March Surface
+### Ray March Surface {#ray-march-surface}
 
 Raymarched fluid surface — a smooth metaball isosurface lit and refracted
 through the camera's opaque scene. Requires the **Fluid Raymarch** Custom
 Pass Volume to be present in the scene (injection point: Before Transparent).
 
+*Experimental, and HD only.* These settings are **global**: the surface is
+drawn from one shared GPU buffer, so every actor's fluid renders with the
+values set here and with the kernel radius of whichever fluid is built
+first. Per-actor surface settings are not supported.
+
 **Render Surface** enables the pass at runtime.
 **Color** is the bulk fluid tint; alpha controls how much it mixes with
 the refracted scene behind it (alpha=0 → clear, alpha=1 → opaque tint).
 **Specular Power / Strength** size and brightness of the highlight.
-**Fresnel Power** how strongly the rim brightens / opaques at glancing
-angles (lower = wider rim).
+**Fresnel Power** how tightly the rim hugs glancing angles (lower = wider
+rim). **Fresnel Strength** how much rim there is at all (0 = none).
+Specular and fresnel are added on top of the body colour, so they keep
+their full brightness however transparent **Opacity** makes the fluid.
 **Refraction** screen-space displacement of the scene behind the fluid.
 
-## Geometry Collider
+## Geometry Collider {#geometry-collider}
 
 Defines SDF (signed distance field) body capsule shapes that
 cloth and physics systems collide against. Each body part
@@ -271,7 +305,7 @@ wireframes in the scene. Organized into sections: head, body,
 arms, and legs. NSFW builds include additional hole collider
 configurations.
 
-## Mesh Collider
+## Mesh Collider {#mesh-collider}
 
 Generates tetrahedral collision geometry from the actor's
 skinned mesh renderers. Unlike SDF capsule colliders, mesh

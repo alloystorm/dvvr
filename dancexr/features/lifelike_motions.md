@@ -6,8 +6,7 @@ locale: en-US
 
 # Lifelike Motions
 
-Adds idle behaviors that make the actor feel alive when no
-animation is playing: breathing, blinking, micro-movements,
+Adds subtle behaviors over the actor's current pose or motion: breathing, blinking, micro-movements,
 and eye contact.
 
 
@@ -28,6 +27,13 @@ sockets; **Cartoon Eyes Limit** sets the reduction amount.
 shifting gaze naturally. **Smile Mouth** and **Smile
 Eyebrow** add subtle expression while making eye contact.
 
+
+These effects need a compatible eye, eyelid and torso rig. If
+eye bones are unavailable, configure **Shape Morph Eye Control**
+with appropriate morphs instead. Test with **Stare Mode** off and
+change one target priority at a time.
+
+{% include video id="zP966sQ6h0g" provider="youtube" %}
 
 ## Shape Morph Eye Control
 

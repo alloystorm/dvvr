@@ -71,9 +71,9 @@ slots. **Refresh Interval** sets how many beats pass between
 reallocations.
 
 
-# Sub-Components
+## Settings reference
 
-## Sunlight
+## Sun / Moon / Time {#sunlight}
 
 Controls the directional sun (and, on HDRP, the moon and night
 sky). The sun position is defined by Time of Day, Orientation,
@@ -114,7 +114,8 @@ determine the beam direction through it. The *Sky Light* option
 adds a soft fill from the same direction to complement the
 shadow.
 
-## Additional 1
+<a id="settings-light-group"></a>
+## Light group settings (Additional 1) {#additional-1}
 
 A configurable group of one or more lights, positioned relative
 to the scene or an actor. Three groups are available in the
@@ -174,127 +175,15 @@ default to inherit the global scene quality, or override it to
 force raytraced or screen-space shadows on this group.
 **Shadow Dimmer** softens the shadow without fully disabling it.
 
-## Additional 2
+## Additional 2 {#additional-2}
 
-A configurable group of one or more lights, positioned relative
-to the scene or an actor. Three groups are available in the
-Lighting settings, typically used as key, fill, and rim lights,
-but each is configured identically through this sub-section.
+See [Light group settings](#settings-light-group). Defaults and available controls for this instance are listed in Config Reference.
 
+## Additional 3 {#additional-3}
 
-### Type & Cookie
+See [Light group settings](#settings-light-group). Defaults and available controls for this instance are listed in Config Reference.
 
-**Type** selects the light shape: Spotlight, Point, Area,
-Pyramid, or Box projector. **Cookie** maps project a pattern
-through the beam (Window, Blinds, Spot, Tube, Video). Set
-**Emitter Radius** to soften the cone or cookie edges, and
-**Visible** to control how bright the light source itself
-appears in the render.
-
-
-### Position & Orientation
-
-**Distance** and **Height** place the light relative to its
-target, **Angle** tilts it downward, and **Orientation** rotates
-it around the vertical axis. On spotlight types, **Size X / Y**
-widens the beam cross-section; **Cone Length** controls the
-volumetric scatter depth.
-
-
-### Dynamics
-
-**Dynamics** determines whether the light stays fixed
-(*Stationary*), orbits the assigned actor (*Follow Actor* /
-*Behind Actor*), or trails at a set radius (*Maintain Distance*).
-Enable **Use Actor Position** to orient the light relative to
-where the actor is facing. Actor assignment is handled by the
-Allocation settings in the parent Lighting panel.
-
-
-### Repeat (Array)
-
-The **Repeat** sub-section multiplies the light into an array.
-Choose *Circle* formation for a ring of stage beams or *Grid*
-for a ceiling rig. Presets such as *4x Fan* or *8x Circle* set
-the array up in one step.
-
-
-### Suspension
-
-Enable **Suspension** to hang the light from a virtual rigging
-point, giving it a slow pendulum swing. **Segments** sets the
-number of cable joints, **Suspension Distance** the drop length,
-and **Swing Speed** how actively it maintains its swinging arc.
-
-
-### Shadow
-
-Each group has independent shadow controls. Leave mode at the
-default to inherit the global scene quality, or override it to
-force raytraced or screen-space shadows on this group.
-**Shadow Dimmer** softens the shadow without fully disabling it.
-
-## Additional 3
-
-A configurable group of one or more lights, positioned relative
-to the scene or an actor. Three groups are available in the
-Lighting settings, typically used as key, fill, and rim lights,
-but each is configured identically through this sub-section.
-
-
-### Type & Cookie
-
-**Type** selects the light shape: Spotlight, Point, Area,
-Pyramid, or Box projector. **Cookie** maps project a pattern
-through the beam (Window, Blinds, Spot, Tube, Video). Set
-**Emitter Radius** to soften the cone or cookie edges, and
-**Visible** to control how bright the light source itself
-appears in the render.
-
-
-### Position & Orientation
-
-**Distance** and **Height** place the light relative to its
-target, **Angle** tilts it downward, and **Orientation** rotates
-it around the vertical axis. On spotlight types, **Size X / Y**
-widens the beam cross-section; **Cone Length** controls the
-volumetric scatter depth.
-
-
-### Dynamics
-
-**Dynamics** determines whether the light stays fixed
-(*Stationary*), orbits the assigned actor (*Follow Actor* /
-*Behind Actor*), or trails at a set radius (*Maintain Distance*).
-Enable **Use Actor Position** to orient the light relative to
-where the actor is facing. Actor assignment is handled by the
-Allocation settings in the parent Lighting panel.
-
-
-### Repeat (Array)
-
-The **Repeat** sub-section multiplies the light into an array.
-Choose *Circle* formation for a ring of stage beams or *Grid*
-for a ceiling rig. Presets such as *4x Fan* or *8x Circle* set
-the array up in one step.
-
-
-### Suspension
-
-Enable **Suspension** to hang the light from a virtual rigging
-point, giving it a slow pendulum swing. **Segments** sets the
-number of cable joints, **Suspension Distance** the drop length,
-and **Swing Speed** how actively it maintains its swinging arc.
-
-
-### Shadow
-
-Each group has independent shadow controls. Leave mode at the
-default to inherit the global scene quality, or override it to
-force raytraced or screen-space shadows on this group.
-**Shadow Dimmer** softens the shadow without fully disabling it.
-
-## Auto Exposure
+## Auto Exposure {#auto-exposure}
 
 HDRP auto-exposure settings that control how the camera adapts
 to changes in scene brightness. When disabled, the camera uses a

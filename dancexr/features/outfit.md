@@ -81,9 +81,9 @@ cutoff, X/Y offsets, and a hard cutout toggle. Hidden in pure
 Color Paint mode.
 
 
-# Sub-Components
+## Settings reference
 
-## Body Paint
+## Body Paint {#body-paint}
 
 Freehand painting on the character's body. Drag the cursor (or
 VR pointer) across the model to apply color or pattern strokes
@@ -130,7 +130,7 @@ colour/glow range survives a round-trip. **Load Drawing** picks
 a previously saved drawing (or any drawing texture in the
 library) as the canvas contents.
 
-## Shape
+## Shape & Pattern {#shape}
 
 Procedural geometry for the outfit layer — defines where the
 outfit covers the body and what pattern fills it. Everything is
@@ -171,7 +171,7 @@ line edges, with **Inside / Outside Distance** controlling how
 far the bump bleeds. Subtle positive bump reads as raised
 stitching; negative bump reads as a pressed seam.
 
-## Hexagon Map
+## Hexagon Map {#hexagon-map}
 
 A procedural hexagonal (or circular) micro-pattern overlaid on
 the surface for fishnet, sci-fi panel, or studded looks. Toggle
@@ -206,7 +206,7 @@ when stretched or distorted UVs ruin the pattern.
 **Projection Radius** scales the cylinder, and **Rotation**
 tilts it so the hex grid runs diagonally instead of straight.
 
-## Dissolve Map
+## Dissolve Map {#dissolve-map}
 
 Generates the noise map that drives the parent's *Dissolve*
 slider. The map is built from two layered patterns and an edge

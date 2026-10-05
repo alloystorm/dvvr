@@ -19,7 +19,11 @@ suspends correction), **Body Smooth** and **Foot Smooth**
 (response smoothing for the body and per-foot adjustments),
 **Max Foot Tilt** (how far a foot may tilt to set a contact on
 the ground), and **Reach Tilt** (extra toe-dip to keep contact
-when the leg can't reach down).
+when the leg can't reach down). **Lift Gate Start** and **Lift
+Gate End** stop a foot the motion lifts from being pulled down:
+it counts as planted below the start height and is free above
+the end. With leg IK the height comes from the IK target, so a
+leg that just can't reach the floor is still grounded.
 
 The **Heels** panel raises the foot into a **High Heel** pose.
 

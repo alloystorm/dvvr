@@ -55,9 +55,9 @@ floor, a runway stage, a pool, an ocean, an audio visualizer
 floor, a projector screen, or an LED box.
 
 
-# Sub-Components
+## Settings reference
 
-## Ground
+## Ground {#ground}
 
 The flat ground disc that the scene sits on. Toggling it off
 hides the ground entirely (useful when a stage prop or AR
@@ -72,7 +72,62 @@ textured tiles, sky-projected dome, or solid color — and
 also shares its preset list with the parent's preset
 bundles.
 
-## Stage / Pool
+<a id="settings-toon-shading"></a>
+### Toon shading (Toon Shader) {#toon-shader}
+
+Overrides the actor's material with a global toon shader.
+
+Enable the toggle to replace all materials with a unified toon
+style. Adjust **Shading** and **Shadow** for the light/dark
+balance, **Outline** for edge thickness, and **Ambient** for
+the fill light level.
+
+**Highlight Area** and **Soft Highlight** control how sharp
+the bright areas are. **Shadow Area** and **Soft Shadow**
+do the same for dark areas.
+
+**Specular** and **Soft Specular** add shiny reflections
+to lit surfaces.
+
+**Receive Shadow** (non-HDRP only) lets the material
+receive shadows from other objects.
+
+<a id="settings-special-shader"></a>
+### Special shader (Special Shader) {#special-shader}
+
+Overrides the shader type for all materials on the actor.
+
+**Mode** selects the shader: *Off* uses the default shader;
+*Refraction Thick/Thin* simulates glass with refractive
+transparency; *Outline* renders only the outline edges;
+*Unlit* disables all lighting; *Experiment* is a
+placeholder for custom shader effects.
+
+**Refraction** controls the index of refraction for glass
+modes — higher values bend light more.
+
+**Thickness** adjusts the perceived depth of thin glass
+refraction.
+
+### Audio Visualizer {#audio-visualizer}
+
+Holds the ring visualization layout, colors, textures, and audio-reactive settings.
+
+<a id="settings-glow-color"></a>
+#### Color and glow (Ring Color) {#ring-color}
+
+Holds a base color and glow intensity for audio-reactive elements.
+Glow is multiplied with the color and animates with the beat when auto-update is enabled.
+
+#### Background Color {#background-color}
+
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
+
+#### Foreground Color {#foreground-color}
+
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
+
+## Stage Geometry {#stage--pool}
 
 Procedural stage built from a runway slab plus optional
 outer walls, inner well, and back wall — used for runways,
@@ -120,7 +175,79 @@ By default the carved hole follows the stage outline. Toggle
 **Bottom** values — handy for non-rectangular cutouts or
 aligning the hole with an imported set.
 
-## Water System
+### Toon Shader {#toon-shader-1}
+
+See [Toon shading](#settings-toon-shading). Defaults and available controls for this instance are listed in Config Reference.
+
+### Special Shader {#special-shader-1}
+
+See [Special shader](#settings-special-shader). Defaults and available controls for this instance are listed in Config Reference.
+
+### Audio Visualizer {#audio-visualizer-1}
+
+Holds the ring visualization layout, colors, textures, and audio-reactive settings.
+
+#### Ring Color {#ring-color-1}
+
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
+
+#### Background Color {#background-color-1}
+
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
+
+#### Foreground Color {#foreground-color-1}
+
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
+
+### Toon Shader {#toon-shader-2}
+
+See [Toon shading](#settings-toon-shading). Defaults and available controls for this instance are listed in Config Reference.
+
+### Special Shader {#special-shader-2}
+
+See [Special shader](#settings-special-shader). Defaults and available controls for this instance are listed in Config Reference.
+
+### Audio Visualizer {#audio-visualizer-2}
+
+Holds the ring visualization layout, colors, textures, and audio-reactive settings.
+
+#### Ring Color {#ring-color-2}
+
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
+
+#### Background Color {#background-color-2}
+
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
+
+#### Foreground Color {#foreground-color-2}
+
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
+
+### Toon Shader {#toon-shader-3}
+
+See [Toon shading](#settings-toon-shading). Defaults and available controls for this instance are listed in Config Reference.
+
+### Special Shader {#special-shader-3}
+
+See [Special shader](#settings-special-shader). Defaults and available controls for this instance are listed in Config Reference.
+
+### Audio Visualizer {#audio-visualizer-3}
+
+Holds the ring visualization layout, colors, textures, and audio-reactive settings.
+
+#### Ring Color {#ring-color-3}
+
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
+
+#### Background Color {#background-color-3}
+
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
+
+#### Foreground Color {#foreground-color-3}
+
+See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
+
+## Water System {#water-system}
 
 HDRP water surface anchored to the stage center. Pro-only.
 Used for pools sitting in the stage's inner well, still

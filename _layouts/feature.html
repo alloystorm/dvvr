@@ -246,7 +246,7 @@
 
     function renderMd(text) {
       if (!text) return '';
-      return esc(text)
+      return esc(text.replace(/\{%[\s\S]*?%\}/g, ''))
         .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
         .replace(/\*(.+?)\*/g, '<em>$1</em>')
         .replace(/\r\n|\r|\n/g, '<br>');
@@ -324,6 +324,7 @@
           <h2 class="detail-name">${esc(localLabel(node))}</h2>
           ${typeBadge}
         </div>
+        ${desc ? `<div class="detail-description">${renderMd(desc)}</div>` : ''}
         ${propsHtml}
         ${childrenHtml}
       `;

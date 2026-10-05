@@ -13,6 +13,19 @@ bundle these into named looks like *Skymap*, *Procedural*,
 *Indoor*, *Thin Cloud*, and *Cloudy*.
 
 
+## Start with a background
+
+Open **Sky**, choose a preset, then adjust its mode and orientation.
+For an imported panorama, place the sky texture in the content
+library's **sky** folder and select it under **Sky Map**. Check
+both the background and actor shading: background brightness and
+ambient lighting are separate controls. Available modes and cloud
+rendering differ between the HDRP and lightweight builds.
+
+{% include video id="2NZpffP1X5o" provider="youtube" %}
+{% include video id="vUY7DY4cCV0" provider="youtube" %}
+{% include video id="D745FYNcx4c" provider="youtube" %}
+
 ## Mode
 
 **Mode** picks one of three sky renderers and the rest of the

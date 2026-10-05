@@ -1,10 +1,10 @@
 ---
 layout: feature
-title: "./motion/proc/free_pose"
+title: "Free Pose"
 locale: en-US
 ---
 
-# ./motion/proc/free_pose
+# Free Pose
 
 Free Pose turns the actor into a self-balancing puppet you pose
 by hand. Nothing is animating — the balance solver owns the whole
@@ -13,6 +13,17 @@ solver keeps the character balanced over its feet while standing,
 or over a locked seat while sitting. Pins are remembered, so a
 released limb stays where you leave it.
 
+
+## Start posing
+
+Select **Free Pose** from the procedural motion list. This
+replaces the actor's active motion with balance-driven posing.
+Use **Reset** to release pins and return to a neutral stand.
+
+Mouse users drag the body handles and scroll to adjust depth.
+In VR, use the controller ray to drag, or grip a body handle
+directly to move it with your hand. Start with both feet on the
+floor before trying a raised-foot or seated pose.
 
 ## Posing & Pinning
 

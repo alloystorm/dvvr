@@ -39,9 +39,9 @@ With the auto update enabled for this value you can achieve automatic
 actor switching from music progress or any other data source you choose.
 
 
-# Sub-Components
+## Settings reference
 
-## Transition Effect
+## Transition Effect {#transition-effect}
 
 Reusable transition effect applied when actors or other optional
 meshes are added, removed, or replaced. The effect dissolves the

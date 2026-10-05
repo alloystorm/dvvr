@@ -31,9 +31,9 @@ Holds simulation parameters for the XPBD engine — see the XPBD Settings sub-da
 **Time Scale** slows or accelerates the physics simulation independently of animation playback speed. Lower values make particles and soft bodies move in slow motion. **Physics FPS** locks the simulation to a fixed timestep: lower values reduce CPU load, higher values improve stability at the cost of performance. *Flexible* lets the simulation run at the render framerate.
 
 
-# Sub-Components
+## Settings reference
 
-## XPBD Settings
+## XPBD Settings {#xpbd-settings}
 
-Holds XPBD solver settings: substeps, iterations, collision interval, self-collision, body collision, ground friction, expand radius, and parallel solving.
+Holds XPBD solver settings: substeps, iterations, self-collision, body collision, ground friction, expand radius, and parallel solving.
 
