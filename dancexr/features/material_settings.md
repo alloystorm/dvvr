@@ -26,7 +26,7 @@ A model can have hundreds of different materials. To manage them more efficientl
 
 ## Making adjustments
 
-### Material list<a id="material-list"></a>
+### Material list {#material-list}
 
 You can find the material list from the actor menu. Just go to "Materials" / "Material List" and you'll see all the materials listed under their texture groups.
 
@@ -50,15 +50,8 @@ Adjustments you can do in the material list:
   With skin materials, you can control the detail map scale, thickness, and sweat effect.
 * Hair
   Hair shader has detail map scale and anisotropy (The highlight becomes directional) control
-* 
 
 {% include video id="xazXOlls5mM" provider="youtube" %}
-
-DanceXR checks for certain keywords in the material names and categorizes them into different groups. Like skin, hair, eyes, lips, and everything falls into the "Others" category.
-
-Most of the time, you can simply adjust material settings in the material category configurations without going to the material list and change them one by one.
-
-You can also find all the materials from the list and change them individually if necessary.
 
 ### New Gradient Control
 Allow changing material properties along a gradient path.
@@ -114,3 +107,20 @@ Inside the texture submenu:
 - Below the preview, options let you change the texture's type assignment and channel purposes.
 
 This is the fastest way to figure out what an unfamiliar texture is for: open it, view the channels, and reassign if needed.
+
+## Opaque materials {#opaque-materials}
+
+The Opaque category covers solid materials outside the specialized skin, hair, eye and mouth categories. Category adjustments let you give several surfaces a consistent appearance; individual changes belong in the material list. The category override is disabled by default so imported materials can retain their own settings.
+
+If automatic classification is wrong, open the material list, select the material and change its category. Change its transparency mode separately when you need to force it to render as solid. See [Transparency](transparency) for alpha and sorting problems, and [Texture Enhancement](texture_enhancement) for shared map controls.
+
+## Custom categories {#custom-materials}
+
+**Custom A** and **Custom B** start without assigned materials. Use them when a group of surfaces needs the same appearance but should not inherit the skin or hair shader settings.
+
+1. Select a material in the material list and assign it to a custom category.
+2. Repeat for the other materials that should share those adjustments.
+3. Enable that category and tune its surface and texture enhancement settings.
+4. Check all assigned materials before saving: an override can improve one surface while making another too shiny or too dark.
+
+For a one-off adjustment, leave the category override disabled and edit the individual material. **Share Material** is a separate texture-group option; use it only when the group should share the first item's material, including its appearance.

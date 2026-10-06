@@ -112,3 +112,36 @@ DanceXR根据纹理文件名自动分配纹理类型和通道映射。大多数�
 - 在预览下方，选项允许您更改纹理的类型分配和通道用途。
 
 这是确定一个陌生纹理用途最快的方法：打开它，查看通道，如有必要则重新分配。
+
+## 不透明材料 {#opaque-materials}
+
+## 不透明材质
+不透明材质是不透明的材质，不包括皮肤、头发、眼睛或嘴唇材质。
+
+默认情况下关闭此选项，以便在材质列表中单独控制材质。如果您希望对所有不透明材质应用一致的设置，可以启用它并在此处进行调整。
+
+## 分类
+系统会根据网格信息（对于XPS模型）或纹理格式（对于PMX模型）自动确定材质是不透明还是透明。有时可能会出错，因此您可以手动将材质分配到这个类别。
+
+[材质如何分类](material_settings#material-category)
+
+## 纹理增强
+您可以通过利用特定效果的高光图，从基础图或高光图生成法线图，以及使用自定义细节贴图来改善这个类别的材质的纹理。
+
+* [使用高光/遮罩图](texture_enhancement#specular-mask-map)
+* [生成法线图](texture_enhancement#generate-normal-map)
+* [使用自定义细节贴图](texture_enhancement#custom-detail-map)
+
+## 自定义材质 {#custom-materials}
+
+## 自定义材质
+默认情况下，此选项关闭，并未分配任何材质。
+
+如果您想对一组材质应用统一设置，您可以将它们分配到此类别中，启用此选项，并在此处进行调整。
+
+## 纹理增强
+您可以通过利用镜面反射贴图实现某些效果，从基础贴图或镜面反射贴图生成法线贴图，并使用自定义细节贴图来改善材质的细节。
+
+* [使用镜面反射/遮罩贴图](texture_enhancement#specular-mask-map)
+* [生成法线贴图](texture_enhancement#generate-normal-map)
+* [使用自定义细节贴图](texture_enhancement#custom-detail-map)

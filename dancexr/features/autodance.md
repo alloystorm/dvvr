@@ -5,47 +5,30 @@ locale: en-US
 toc: true
 ---
 
-# Auto Dance
+# Auto Dance: choosing a generator
 
-<!-- TODO: confirm settings. Drafted from procedural-motion family. -->
+Auto Dance creates motion procedurally from curves and poses, using music timing and optional audio response. You do not need to load a VMD dance file. The three generations have distinct settings; a value in one version does not configure the others.
 
-Auto Dance is the **first-generation** procedural dance generator. It produces dance moves on the fly from a built-in motion library, choosing and blending moves in response to the music's beats and volume.
+| Generator | Use it for | Main controls |
+|---|---|---|
+| Auto Dance | The original procedural movement style | Extent, Curve, Motion Per Beat, hand poses and upper-body motion. |
+| Auto Dance 2 | A different movement pattern with direct audio-response controls | Extent, motion speed, Audio Sensitivity, Audio Threshold and Body Twist. |
+| [Auto Dance 3](autodance3) | Pattern-based motion with a configurable actor pose | Motion, Anchoring and Actor Pose. |
 
-Auto Dance is largely superseded by [Auto Dance 2](autodance2) and [Auto Dance 3](autodance3) — the newer versions have more variation, finer control, and better music sync. Use Auto Dance when you specifically want the original generator's behavior.
+Start by selecting a generator from the procedural motion list, playing an audio track, and checking [Music Timing](music_timing). Open that motion's settings to adjust the generated movement; use the actor's motion settings for pose changes.
 
----
+## Original Auto Dance {#auto-dance-1}
 
-## How it works
+**Extent** changes movement amplitude. **Legs Open** and **Lower** set the stance; **Curve** changes the movement curve, and **Motion Per Beat** sets its relationship to the beat. **Upper Body Motion** scales upper-body movement. **Use Loudness For** enables the loudness-dependent behavior.
 
-- DanceXR analyzes the playing audio for **beats** (timing) and **volume** (energy).
-- On each beat, the generator picks the next move from a library of short authored dance segments and blends from the previous move.
-- Higher volume sections trigger bigger / more energetic moves.
+Choose left and right hand poses, or use symmetrical hands when they should match. Start with a small extent and a neutral stance, then increase the movement while checking foot placement and clothing physics. If the timing looks wrong, correct the audio timing before compensating with larger movements.
 
-You do not load a VMD file for Auto Dance — the moves are generated.
+## Auto Dance 2 {#auto-dance-2}
 
----
+The second generator exposes **Extent** and motion speed alongside **Audio Sensitivity**, **Audio Threshold** and **Body Twist**. Audio Sensitivity is an on/off control as well as a value: disable its audio response to compare the base motion with the music-reactive result.
 
-## Settings
+Raise sensitivity when the motion responds too little to the track. Adjust the threshold when quiet passages trigger unwanted movement. **Lower** and the left/right hand pose settings configure the actor's stance. Change one control at a time so you can distinguish pose changes from audio response.
 
-<!-- TODO: confirm exact settings. Likely candidates:
-- Variety / pool size
-- Energy multiplier
-- Random seed (for reproducible sequences) -->
+## Keeping a setup usable
 
----
-
-## When to choose Auto Dance vs newer versions
-
-- **Auto Dance (this page)** — the original generator. Smaller move library, simpler music response.
-- **[Auto Dance 2](autodance2)** — second generation, larger pool, more variation between moves.
-- **[Auto Dance 3](autodance3)** — current default. Highly customizable; integrates with the [Sex Motion 3](sex_motion_3) shared motion-control system; uses the realtime audio analyzer with beat detection.
-
----
-
-## Related pages
-
-- [Auto Dance 2](autodance2)
-- [Auto Dance 3](autodance3)
-- [Music Timing](music_timing)
-- [Audio Options](audio_options)
-- [AI in DanceXR](../ai)
+Compare generators with the same actor and track. Their defaults and movement shapes differ, so an apparently stronger result may simply be a different stance or extent. For the pattern and pose workflow in the third generator, continue to [Auto Dance 3](autodance3).

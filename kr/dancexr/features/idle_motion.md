@@ -44,5 +44,5 @@ DanceXR 2025.12는 새로운 프로시저 모션 제어 시스템으로 구동�
 - [Lifelike Motions](lifelike_motions) — 어떤 모션 위에든 미세한 움직임 추가
 - [Catwalk Motion](catwalk)
 - [Auto Dance 3](autodance3)
-- [Blink, Breathing & Eye Contact](eyecontact)
+- [Blink, Breathing & Eye Contact](lifelike_motions#eye-contact)
 - [Motion Settings](motion_settings)

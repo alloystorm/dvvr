@@ -7,68 +7,26 @@ toc: true
 
 # Actor Presets
 
-Actor presets save a snapshot of an actor's settings — physics, materials, dressing, motion preferences — so you can reapply the same configuration to the same model later, or to a different model with a similar build.
+Actor presets save an actor's configuration for later use. They contain settings rather than the model file. A model-specific preset is useful for a finished material or physics setup; a global actor preset makes a reusable starting point for several actors.
 
-Added in **2024.1**. Stored under `presets/` in the [content library](../preparecontent), which means presets can be shared between users on the same DanceXR version.
+## Save and apply
 
----
+1. Configure the actor, then open its **Presets** menu.
+2. Choose **Save Actor Preset** for a preset associated with that model, or **Save Global** for a preset available to other actors.
+3. Enter a name and save it.
+4. To restore the setup, open the actor's Presets menu and select the saved entry.
 
-## What a preset contains
+Global actor presets live under `presets/actor/` in the [content library](../preparecontent). Model-specific presets use that model's preset path. **Reload Saved** restores the model's saved configuration; **Reset All** resets the actor's settings rather than selecting a named preset.
 
-<!-- TODO: confirm the exact list of settings included. -->
+## Check a reused preset
 
-A typical actor preset captures:
+Start with the same model, then test closely related models. Settings tied to bone names, material slots or model proportions may not transfer cleanly to another skeleton. Inspect [Bone Mapper](bone_mapper), material assignments, physics anchors and feet placement after applying a preset across models.
 
-- Per-actor [motion settings](motion_settings)
-- [Dressing system](optionals) state (visible / hidden items)
-- [Material settings](material_settings) per slot
-- Physics configuration (PMX or XPS, including [hair](hair_physics), [skirt](skirt_physics), [boobs](boobs_physics), [body colliders](body_colliders))
-- [Feet adjustment](feet_adjustment) and [scale & offset](scale_offset)
+Keep a named baseline before experimenting. Applying a preset changes the actor's configuration; it does not load a replacement model or reconstruct a full scene.
 
-What is **not** in the preset:
+## Choose the right scope
 
-- The model file itself (presets reference settings, not assets).
-- System-wide settings — those live in [System presets](#system-presets).
-- Scene composition (stage, lighting, camera) — that lives in a [scene](save_scene).
-
----
-
-## Saving and loading
-
-<!-- TODO: confirm exact UI path and naming flow. -->
-
-1. Configure an actor the way you want.
-2. Open the actor menu, then the **Tools menu** (wrench-and-hammer icon).
-3. Save preset; give it a name.
-4. To apply, open the same Tools menu on any actor and select a saved preset by name.
-
-Presets are saved under `presets/` in the content library. You can copy preset files between machines.
-
----
-
-## When a preset is reusable across models
-
-A preset is most reliable when applied to:
-
-- The **same model** you saved it from.
-- A **closely related model** (same source character, same skeleton).
-- A **same-format model with similar build** (PMX-to-PMX, similar bone naming).
-
-Across very different models, settings that depend on bone names — XPS physics rigs, [bone mapper](bone_mapper) overrides — may not transfer cleanly.
-
----
-
-## System presets
-
-<!-- TODO: confirm whether System Presets is a distinct feature. Tile exists on features.md (badge "2024.1") with no link. -->
-
-System Presets save scene-wide settings (lighting, environment, camera, graphics) instead of per-actor settings. The save and apply flow is similar; system presets are stored separately.
-
----
-
-## Related pages
-
-- [Save scene](save_scene) — captures the entire scene rather than a single actor's settings
-- [Scene bundle](scene_bundle) — packages a saved scene with the assets it depends on
-- [Content library](../preparecontent) — `presets/` folder location
-- [Actor menu & tools](actor_tools)
+- [System Presets](system_presets) save application-level settings.
+- [Save Scene](save_scene) saves content references and composition.
+- [Scene Bundle](scene_bundle) packages scene content for transfer.
+- [Actor Menu & Tools](actor_tools) covers other per-actor operations.

@@ -23,7 +23,7 @@ toc: true
 
 - [그래픽 설정](graphics) — 렌더 품질, 후처리 효과.
 - [조명](lighting) — 방향 조명 및 주변광 설정, [빛 볼](light_ball).
-- [하늘 및 구름](skymap)과 [하늘색](sky).
+- [하늘 및 구름](sky#mode)과 [하늘색](sky).
 - [지면](ground) — 재질, 그림자 전용 모드 등.
 - <!-- TODO: confirm whether camera, weather, simulation, or audio settings are included. -->
 

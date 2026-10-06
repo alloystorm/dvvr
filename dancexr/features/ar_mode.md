@@ -13,7 +13,7 @@ On iOS and Android, the program is always launched in normal mode without AR. Yo
 On Quest, the app supports Quest passthrough to show your real-world environment.
 
 
-## Settings
+## Settings {#settings}
 
 **Show Camera** toggles the display of the physical camera background.
 
@@ -24,7 +24,7 @@ On Quest, the app supports Quest passthrough to show your real-world environment
 **Double Tap Reset Scene** (non-Quest) allows double tapping to quickly reset the virtual scene position in front of you.
 
 
-## VR options (Quest only)
+## VR options (Quest only) {#vr-options-quest-only}
 
 * **Foveated Rendering Level** adjusts the level of foveated rendering to improve performance in VR.
 * **Hand Visible** toggles rendering of virtual hands.

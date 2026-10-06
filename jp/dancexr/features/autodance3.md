@@ -54,7 +54,7 @@ toc: true
 ## 関連ページ
 
 - [Auto Dance](autodance) — 第1世代
-- [Auto Dance 2](autodance2) — 第2世代
+- [Auto Dance 2](autodance#auto-dance-2) — 第2世代
 - [Sex Motion 3](sex_motion_3) — 共有モーション制御システム、NSFW
 - [Music Timing](music_timing)
 - [Audio Options](audio_options)

@@ -35,7 +35,7 @@ toc: true
 
 ## 헤어 물리(Hair physics)는 별개입니다
 
-헤어 **움직임** — 머리를 돌리거나 아티스트가 걸을 때 본(bone)이 흔들리는 현상 — 은 [헤어 물리](hair_physics)에서 구성됩니다 (또는 새로운 시뮬레이션 시스템의 [입자 역학](particle_dynamics)을 통해 구성). 이 소재 페이지는 오직 헤어 표면이 렌더링되는 방식을 제어할 뿐입니다.
+헤어 **움직임** — 머리를 돌리거나 아티스트가 걸을 때 본(bone)이 흔들리는 현상 — 은 [헤어 물리](hair_physics)에서 구성됩니다 (또는 새로운 시뮬레이션 시스템의 [입자 역학](simulation#particle-dynamics)을 통해 구성). 이 소재 페이지는 오직 헤어 표면이 렌더링되는 방식을 제어할 뿐입니다.
 
 ---
 
@@ -44,5 +44,5 @@ toc: true
 - [소재 설정](material_settings)
 - [스킨 소재](material_skin)
 - [헤어 물리](hair_physics)
-- [입자 역학](particle_dynamics)
+- [입자 역학](simulation#particle-dynamics)
 - [툰 쉐이딩](toon_shading)

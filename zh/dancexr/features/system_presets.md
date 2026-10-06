@@ -23,7 +23,7 @@ toc: true
 
 - [图形设置](graphics) — 渲染质量、后期效果。
 - [灯光](lighting) — 方向和环境光设置，[灯光球](light_ball)。
-- [天空和云层](skymap) 和 [天空颜色](sky)。
+- [天空和云层](sky#mode) 和 [天空颜色](sky)。
 - [地面](ground) — 材质、仅阴影模式等。
 - <!-- TODO: confirm whether camera, weather, simulation, or audio settings are included. -->
 

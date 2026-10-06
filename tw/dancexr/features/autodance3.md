@@ -54,7 +54,7 @@ toc: true
 ## 相關頁面
 
 - [Auto Dance](autodance) — 第 1 代
-- [Auto Dance 2](autodance2) — 第 2 代
+- [Auto Dance 2](autodance#auto-dance-2) — 第 2 代
 - [Sex Motion 3](sex_motion_3) — 共用運動控制系統，不適宜工作場所內容
 - [Music Timing](music_timing)
 - [Audio Options](audio_options)

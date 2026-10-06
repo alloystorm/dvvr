@@ -57,4 +57,4 @@ toc: true
 - [Facial Control](facial_control)
 - [Spatial Audio](spatial_audio)
 - [AI Voice Chat](ai_chat)
-- [Blink, Breathing & Eye Contact](eyecontact)
+- [Blink, Breathing & Eye Contact](lifelike_motions#eye-contact)

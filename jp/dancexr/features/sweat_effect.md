@@ -1,14 +1,10 @@
 ---
-layout: release
+layout: forward
 title: 汗のエフェクト
 locale: ja-JP
+target: "/jp/dancexr/features/material_skin#sweat-effect"
+redirect_fragments:
+  "概要": "sweat-effect"
+  "シェーダーの改善v20262": "sweat-effect"
+  "シェーダーの最適化v20263": "sweat-effect"
 ---
-
-## 概要
-汗効果は、ダンスパフォーマンス中の発汗をシミュレートし、肌素材にリアルな光沢感を追加します。
-
-## シェーダーの改善（v2026.2）
-DanceXR 2026.2では、汗効果シェーダーが更新され、キャラクターの肌に、よりリアルで視覚的に正確な汗の外観を実現しました。
-
-## シェーダーの最適化（v2026.3）
-汗効果が無効な場合、専用のシェーダーバリアントが使用されるようになりました。これにより、特に高解像度やVR環境において、汗効果を使用しない場合のレンダリングパフォーマンスが向上します。

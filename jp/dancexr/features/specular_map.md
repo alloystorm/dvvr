@@ -1,14 +1,8 @@
 ---
-layout: release
+layout: forward
 title: スペキュラー / マスクマップ
 locale: ja-JP
+target: "/jp/dancexr/features/texture_enhancement#specular-mask-map"
+redirect_fragments:
+  "スペキュラー--マスクマップ": "specular-mask-map"
 ---
-
-
-## スペキュラー / マスクマップ
-
-マテリアルの特定のプロパティを制御するためにスペキュラーまたはマスクマップを使用します。金属、AO（環境遮蔽）、発光、滑らかさなど。
-
-これにより、マテリアルの異なるプロパティを制御するために、マップの各チャンネルを選択できます。
-
-各プロパティについて、プロパティを制御するマップのチャンネルを選択し、プロパティの強度を調整します。

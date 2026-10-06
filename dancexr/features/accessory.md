@@ -15,14 +15,14 @@ alignment, surface material, motion oscillation, and XRay
 cross-section rendering. The common controls are explained once below; each attachment
 retains its own values in Config Reference.
 
-## First attachment
+## First attachment {#first-attachment}
 
 Open **Accessory** on the actor, enable **Left Hand**, and choose
 a model. Use **Size & Alignment** to rotate and size it, then
 adjust **Offset** to place the prop in the hand. Turn off the
 attachment to remove it from the scene.
 
-## Attachment differences
+## Attachment differences {#attachment-differences}
 
 | Point | Particular controls and behavior |
 |---|---|

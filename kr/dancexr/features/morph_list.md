@@ -36,7 +36,7 @@ DanceXR은 이 값들을 PMX 파일에서 직접 읽어오므로, DanceXR에서 
 3. 각 모프는 이름과 0에서 1까지의 슬라이더와 함께 표시됩니다.
 4. 슬라이더를 드래그하여 모프를 적용하고, 원하는 값에서 놓으면 그 값을 유지합니다.
 
-모프는 변경하거나 모델을 새로고침할 때까지 적용된 상태를 유지합니다. 일부 모프(예: 얼굴 표정)는 [Facial control](facial_control)과 [Blink, breathing & eye contact](eyecontact)가 활성화될 때 의해 덮어쓰여지게 됩니다.
+모프는 변경하거나 모델을 새로고침할 때까지 적용된 상태를 유지합니다. 일부 모프(예: 얼굴 표정)는 [Facial control](facial_control)과 [Blink, breathing & eye contact](lifelike_motions#eye-contact)가 활성화될 때 의해 덮어쓰여지게 됩니다.
 
 ---
 
@@ -52,5 +52,5 @@ DanceXR은 이 값들을 PMX 파일에서 직접 읽어오므로, DanceXR에서 
 
 - [Dressing system](optionals)
 - [Facial control](facial_control)
-- [Blink, breathing & eye contact](eyecontact)
+- [Blink, breathing & eye contact](lifelike_motions#eye-contact)
 - [Concepts & glossary](../concepts)

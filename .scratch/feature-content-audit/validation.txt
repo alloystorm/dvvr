@@ -1,0 +1,9 @@
+PASS: all 57 generated manuals have unique rendered IDs
+PASS: all 75 redirect targets resolve to a rendered section
+PASS: new Interactive Pose page exists in all four localized mirrors
+PASS: no broken static internal links in changed public files (excluding JS template placeholders)
+PASS: Unity compilation, export and grouping checks
+PASS: Jekyll build using installed theme
+PASS: copy_docs.py dry run reports zero changes
+PASS: browser Manual/Config Reference, selected description, formatted table and legacy deep-link redirect checks
+LIMITATION: enriched English prose still needs a full localized translation refresh/review; retained localized merge content and indices are updated

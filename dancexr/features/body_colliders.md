@@ -12,14 +12,14 @@ and other dynamic parts to bounce off the body instead of
 clipping through.
 
 
-## Global Size
+## Global Size {#global-size}
 
 **Size** is a master multiplier applied to all collider
 radii. Adjust this first to match the model's overall scale
 before fine-tuning individual regions.
 
 
-## Body Regions
+## Body Regions {#body-regions}
 
 Individual sliders scale specific areas relative to the
 global size: **Head Radius**, **Arm Radius**, **Forearms**,
@@ -34,7 +34,7 @@ colliders in 3D space to match the model's proportions.
 colliders begin.
 
 
-## Visualization
+## Visualization {#visualization}
 
 In wireframe physics mode, **Visualize** renders the
 collider shapes as translucent gizmos for debugging.

@@ -9,7 +9,7 @@ locale: en-US
 Formation controls how the actors are laid out in the scene, and provides convenient tools to reset actor positions.
 
 
-## Formation Types
+## Formation Types {#formation-types}
 
 Select from a variety of layout patterns:
 
@@ -21,7 +21,7 @@ Select from a variety of layout patterns:
 * **Fan Shape**: Arranges actors in a fan layout.
 
 
-## Settings
+## Settings {#settings}
 
 **X Dist** and **Y Dist** control the spacing scale of the selected formation.
 
@@ -32,7 +32,7 @@ Select from a variety of layout patterns:
 **Offset X** and **Offset Y** shift the center of the formation.
 
 
-## Spectators
+## Spectators {#spectators}
 
 Actors labeled as spectators are grouped into a separate formation that circles around the main stage.
 

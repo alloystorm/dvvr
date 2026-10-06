@@ -13,7 +13,7 @@ bundle these into named looks like *Skymap*, *Procedural*,
 *Indoor*, *Thin Cloud*, and *Cloudy*.
 
 
-## Start with a background
+## Start with a background {#start-with-a-background}
 
 Open **Sky**, choose a preset, then adjust its mode and orientation.
 For an imported panorama, place the sky texture in the content
@@ -26,7 +26,7 @@ rendering differ between the HDRP and lightweight builds.
 {% include video id="vUY7DY4cCV0" provider="youtube" %}
 {% include video id="D745FYNcx4c" provider="youtube" %}
 
-## Mode
+## Mode {#mode}
 
 **Mode** picks one of three sky renderers and the rest of the
 panel reshapes to match. *Color* paints a flat gradient sky
@@ -38,7 +38,7 @@ physically-based sky and (on HDRP) is the only mode that
 supports volumetric clouds.
 
 
-## Sky Map and Orientation
+## Sky Map and Orientation {#sky-map-and-orientation}
 
 When mode is *Sky Map*, **Sky Map** chooses the panorama from
 the built-in set plus anything imported into the content
@@ -49,7 +49,7 @@ the ground sky-dome material, so adjusting it shifts ground
 reflections too.
 
 
-## Background and Ambient
+## Background and Ambient {#background-and-ambient}
 
 **Background** (HDRP) scales how bright the sky looks on
 screen. **Sky Ambient** controls how much that sky bleeds
@@ -59,7 +59,7 @@ same role is played by **Sky Exposure** and **Intensity**,
 where Sky Exposure also feeds reflection probe brightness.
 
 
-## Sky Colors
+## Sky Colors {#sky-colors}
 
 In *Color* mode, **Sky Color**, **Middle Color**, and
 **Ground Color** define the top, horizon, and bottom of a
@@ -69,7 +69,7 @@ tints what the scene picks up from the sky in addition to
 the visible background.
 
 
-## Wind
+## Wind {#wind}
 
 **Wind** sets a global wind speed that drives cloth
 simulation, particle dynamics, and (on HDRP) volumetric
@@ -78,7 +78,7 @@ Keep this modest — high wind speeds make hair and skirts
 visibly thrash.
 
 
-## Wind Field
+## Wind Field {#wind-field}
 
 A localized wind volume on top of the global wind, useful
 for staged effects like a fan blowing on one actor. Toggle
@@ -89,7 +89,7 @@ length, **Radius** its width, and **Speed** its strength.
 Affects cloth and particles inside the volume only.
 
 
-## Clouds (HDRP)
+## Clouds (HDRP) {#clouds-hdrp}
 
 Volumetric clouds, available only in *Procedural* mode. The
 **Toggle** turns them on. **Shape Scale** and **Shape

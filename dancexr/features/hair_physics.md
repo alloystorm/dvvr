@@ -11,7 +11,7 @@ bones are connected into a physics chain where each child bone
 swings and bounces driven by spring-damper dynamics.
 
 
-## Bone Selection
+## Bone Selection {#bone-selection}
 
 Use **Select Bones** to pick root hair bones — the system
 automatically traverses children to build the chain. **Skip First X
@@ -20,7 +20,7 @@ Levels** caps chain depth (0 = unlimited). Presets let you save
 configurations across different models.
 
 
-## Physics Mode
+## Physics Mode {#physics-mode}
 
 **Auto** follows the system-wide default. **PhysX** uses
 joint-based rigid body physics with capsule or sphere colliders.
@@ -28,7 +28,7 @@ joint-based rigid body physics with capsule or sphere colliders.
 for long chains. The mode determines which settings panel is shown.
 
 
-## PhysX Settings
+## PhysX Settings {#physx-settings}
 
 Visible when using PhysX mode. **Spring Force** (logarithmic)
 controls stiffness — higher values keep hair closer to its rest
@@ -43,7 +43,7 @@ resistance. **Collider Radius** sets the collision sphere size;
 bone, 1 = child bone).
 
 
-## XPBD Chain
+## XPBD Chain {#xpbd-chain}
 
 Visible when using XPBD mode. Configures particle-based chain
 simulation with **Rotation Compliance**, **Twist Compliance**,
@@ -53,7 +53,7 @@ Collision layer is set to Hair for interaction with the rest
 of the scene.
 
 
-## Visualization
+## Visualization {#visualization}
 
 **Visualize Bodies** renders collider shapes for physics bodies.
 **Visualize Joints** shows joint limits and drive targets as

@@ -47,3 +47,16 @@ In each individual material option, you can change the material's transparency m
 In the hair options, you can change the transparency mode of all hair materials.
 
 In the Global Material Settings, you can choose the transparency sorting order from a few different options.
+
+## Transparent category {#transparent-category}
+
+The Transparent category groups alpha-blended materials outside the specialized skin, hair, eye and mouth categories. Its override is disabled by default so individual material settings remain available. Enable it when all assigned transparent materials should share an adjustment; use the [material list](material_settings#material-list) when only one surface needs correction.
+
+## Fix one problem at a time {#troubleshooting}
+
+1. If a surface should be solid, change that material's transparency mode and compare it with Auto.
+2. If the surface is correctly transparent but layers disappear, compare it with Transparent Prepass disabled. Keep it enabled only where discarding deeper transparent layers gives the desired result.
+3. If only part of the texture should use the prepass, adjust its threshold and inspect overlapping hair, clothing and props together.
+4. If the appearance changes across the entire category, check category overrides before adjusting individual materials.
+
+Use [Texture Enhancement](texture_enhancement) for map and bump controls. A transparency classification change and a texture enhancement solve different visual problems.

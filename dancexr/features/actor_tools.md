@@ -34,7 +34,7 @@ Gizmo cubes are virtual cubes that you can use to move and pose the actor. They 
 
 When the gizmo cube is visible, place your mouse or pointer on one of its faces, drag to move it along the surface and use wheel or thumbstick to rotate within the surface.
 
-Ususally there are 2 cubes for the hands, 2 cubes for the feet and 1 for the body. So you can move and adjust pose of these body parts individually.
+Usually there are 2 cubes for the hands, 2 cubes for the feet and 1 for the body. So you can move and adjust pose of these body parts individually.
 
 
 ## Tools Menu
@@ -42,11 +42,11 @@ When you click on the selection disc, the actor menu will pop up. Next to the ac
 
 * **Favourite** - Add or remove the model from the favourite list
 * **Tag** - Modify tags for the model
-* **Spectator** - Toggle spectator mode for the model
+* **Spectator** - [Toggle spectator mode](#spectator-mode) for the model
 * **Move Up** - Move the model up in the list. This will affect their position in the formation and will change the assigned motion if you have auto assign motion enabled.
 * **Move Down** - Move the model down in the list. This will affect their position in the formation and will change the assigned motion if you have auto assign motion enabled.
 * **Reset Position** - Reset the actor to the default position and rotation
-* **Reset Physics** - Reset the physics componenets of the actor
+* **Reset Physics** - Reset the physics components of the actor
 * **Reset All Settings** - Reset all the settings for the actor
 * **Duplicate** - Duplicate the actor
 * **Reload** - Reload the model
@@ -57,8 +57,8 @@ When you click on the selection disc, the actor menu will pop up. Next to the ac
 The actor menu is the main menu for the actor. It contains all the settings for the actor.
 
 The following are links to the detailed documentation for each of the settings.
-* Motin Assign & Settings
-* Recently Modified Settings
+* Motion Assign & Settings
+* [Recently Modified](#recently-modified)
 * [Dressing System (Material Morphs and XPS Optionals)](optionals)
 * [Bone Mapper (XPS Only)](bone_mapper)
 * [Alternative Textures](alternative_textures)
@@ -71,7 +71,7 @@ The following are links to the detailed documentation for each of the settings.
     * [PMX Physics (PMX Only)](pmx_physics)
     * [Feet Adjustments](feet_adjustment)
     * [Facial Control](facial_control)
-    * [Blink, Breath and Eye Contact](eyecontact)
+    * [Blink, Breath and Eye Contact](lifelike_motions#eye-contact)
     * [Troubleshooting Options](troubleshooting)
 * Pro
     * [Outfit & Body Paint](outfit)
@@ -84,3 +84,16 @@ The following are links to the detailed documentation for each of the settings.
     * Light Ball
 * Morph List (PMX Only)
 
+## Recently Modified {#recently-modified}
+
+The actor menu shows up to four recently modified settings directly under the **Recently Modified** heading, near the motion controls. Select an entry to reopen that configuration. There is no separate Recently Modified dialog to open first.
+
+Use these shortcuts when repeatedly tuning physics or materials. They point to settings on this actor; they are not saved presets and do not copy a configuration to another actor.
+
+## Spectator mode {#spectator-mode}
+
+Open the actor's Tools menu and toggle **Spectator** to separate that actor from the main dancer list. The model remains loaded and selectable, so you can adjust its materials, pose and settings normally.
+
+Idle spectators can use their own circular formation. In [Formation](formation), enable **Use Spectator Formation**, set **Spectator Dist**, and use **Rotate Spectators** when they should face the stage center. A spectator with an explicitly assigned motion can still move; spectator mode is not a freeze switch.
+
+For a stationary audience member, select [Idle Motion](idle_motion) and leave its Walking and Follow Actor controls disabled. Enable those controls only when following or walking is intended.

@@ -1,13 +1,8 @@
 ---
-layout: release
+layout: forward
 title: 自定義細節地圖
 locale: zh-TW
+target: "/tw/dancexr/features/texture_enhancement#custom-detail-map"
+redirect_fragments:
+  "自定義細節地圖": "custom-detail-map"
 ---
-
-
-## 自定義細節地圖
-自定義細節地圖允許您將自定義細節地圖添加到材質中。此地圖可用於為材質添加在基本地圖中不存在的細節。
-
-內建的細節地圖列表可供使用，您可以將細節地圖放在內容庫的紋理文件夾中以供使用。
-
-還有一個程序化的[六角形細節地圖](hexagon_detail)可用於為材質添加六角形細節。

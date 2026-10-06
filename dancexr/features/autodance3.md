@@ -7,55 +7,22 @@ toc: true
 
 # Auto Dance 3
 
-<!-- TODO: confirm exact UI labels for the actor pose / motion sections. Drafted from release notes (2024.3, 2025.5, 2025.7) and the SM3 documentation. -->
+Auto Dance 3 generates dance movement from a configurable motion pattern and actor pose. Use it when you want to tune the shape of the movement alongside the character's base stance. [Auto Dance](autodance) compares the three generators and documents the older controls.
 
-Auto Dance 3 is the **current-generation** procedural dance generator. It shares its motion-control plumbing with [Sex Motion 3](sex_motion_3) but without the NSFW layers, and integrates with the realtime audio analyzer (beat detection added in 2025.5) so dance phrasing tracks the music in real time.
+## First dance
 
-This is the default Auto Dance to use for new projects.
+1. Load an actor and an audio track, then select **Auto Dance 3** from the procedural motion list.
+2. Check [Music Timing](music_timing) so the generated motion follows the intended beat.
+3. Open the actor's motion configuration. Set **Actor Pose** before making the motion larger: arrange the body, hands and legs so the stance works on this model.
+4. Open **Motion** and choose a pattern or adjust its controls. Compare the movement with the base pose rather than changing both at once.
+5. Adjust **Anchoring** and inspect how the stance responds during the cycle. Check foot placement and balance through several beats.
 
----
+## Pose and pattern
 
-## What sets Auto Dance 3 apart
+**Actor Pose** supplies the body position, rotation, bend and limb arrangement. **Motion** supplies the generated offset over time. If hands start inside the body or feet overlap, correct the base pose before trying to solve it through the pattern.
 
-- **Highly customizable.** Hand pose, leg pose, body pose, and motion patterns can all be tuned individually.
-- **Reproducible random.** Each generated sequence has a seed; save and share a seed (added 2024.3) to reproduce the exact same sequence.
-- **Realtime beat reactive.** Uses the realtime audio analyzer with beat detection; you do not need precomputed BPM.
-- **Spring / damping motion curves.** From 2025.7, motions are smoothed by simulated spring force and damping for a more natural feel.
+When the model has unusual proportions, test a restrained pattern first. Then increase its movement and inspect [feet adjustment](feet_adjustment), [lifelike overlays](lifelike_motions) and physics separately. These tools can alter the final result even when the procedural pattern itself is unchanged.
 
----
+## Timing checks
 
-## Actor pose
-
-Set the actor's base pose before the procedural motion runs:
-
-- **Hands** — pose for both hands (or per-hand if asymmetric).
-- **Legs** — leg / feet pose.
-- **Body** — torso pose, bend, and orientation.
-
-The procedural motion is layered on top of this base pose, so a clean base produces cleaner-looking dance.
-
----
-
-## Motion control
-
-- **Pattern source** — random from built-in patterns, random from your saved presets, or fully manual curves.
-- **Random seed** — fixes the random sequence so it can be reproduced.
-- **Speed** — manual or driven by audio level.
-- **Variety / transition** — controls how often the generator switches phrases and how smoothly it transitions.
-
----
-
-## Pairing with audio
-
-The most natural results come from setting [Music Timing](music_timing) on the dance set so the generator has a BPM to lock to. With BPM set, the generator can phrase moves at musically meaningful intervals (typically 4 / 8 / 16 beats) instead of drifting.
-
----
-
-## Related pages
-
-- [Auto Dance](autodance) — generation 1
-- [Auto Dance 2](autodance2) — generation 2
-- [Sex Motion 3](sex_motion_3) — shared motion control system, NSFW
-- [Music Timing](music_timing)
-- [Audio Options](audio_options)
-- [AI in DanceXR](../ai)
+Use the same track when comparing setups. If movement drifts against the music, review BPM and beat offset in Music Timing. If the movement fits the beat but the stance looks wrong, return to Actor Pose. This separates a timing problem from a posing problem without relying on guessed controls such as a motion-library size.

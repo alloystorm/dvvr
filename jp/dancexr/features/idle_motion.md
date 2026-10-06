@@ -44,5 +44,5 @@ DanceXR 2025.12では、新しいプロシージャルモーションコント�
 - [Lifelike Motions](lifelike_motions) — subtle micro-movements on top of any motion
 - [Catwalk Motion](catwalk)
 - [Auto Dance 3](autodance3)
-- [Blink, Breathing & Eye Contact](eyecontact)
+- [Blink, Breathing & Eye Contact](lifelike_motions#eye-contact)
 - [Motion Settings](motion_settings)

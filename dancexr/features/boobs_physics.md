@@ -12,7 +12,7 @@ movement, plus optional collision shapes that interact with arms
 and the ground.
 
 
-## Bone Selection
+## Bone Selection {#bone-selection}
 
 Use **Select Bones** to pick which bones receive physics. Opens a
 bone picker dialog starting from the torso — select one or two bones
@@ -20,14 +20,14 @@ bone picker dialog starting from the torso — select one or two bones
 across different models.
 
 
-## Suspension
+## Suspension {#suspension}
 
 Adds spring-damper joints that anchor each bone to its parent.
 Controls bounce, sway, and rotation limits. See the Suspension
 sub-panel for detailed joint settings.
 
 
-## Collision
+## Collision {#collision}
 
 Enables SDF collider shapes (cone-like capsules) around each breast
 bone so they interact with arms, clothing, and the ground.
@@ -44,7 +44,7 @@ Both **Collider Curve** and **Enable Nipple** are designed to work
 with cloth simulation, giving clothing something to slide against.
 
 
-## Softbody
+## Softbody {#softbody}
 
 Overlays a particle-based XPBD softbody on the child bones of each
 selected root, adding jiggle deformation on top of the rigid
@@ -52,7 +52,7 @@ suspension physics. See the Softbody sub-panel for particle
 settings.
 
 
-## Model-specific starting points
+## Model-specific starting points {#model-specific-starting-points}
 
 For a model with one or two breast bones, start with suspension
 and test a gentle motion before increasing spring force. For a
@@ -67,7 +67,7 @@ motion. Settings that fit one skeleton may not transfer to another.
 
 ## Settings reference
 
-## Suspension {#suspension}
+## Suspension {#suspension-1}
 
 Adds a spring-damper suspension joint to a bone, anchoring
 it to its parent with configurable **Anchor** position and
@@ -79,7 +79,7 @@ their own spring and damping. **Visualize Joints** renders
 the constraint shape.
 
 <a id="settings-shape-matching"></a>
-## Shape matching (Softbody) {#softbody}
+## Shape matching (Softbody) {#softbody-1}
 
 Shape-matching softbody. Each selected bone becomes a surface particle
 plus a locked inner anchor; overlapping clusters pull the surface back

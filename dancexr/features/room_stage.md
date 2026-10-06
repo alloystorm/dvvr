@@ -8,7 +8,7 @@ locale: en-US
 
 Creates a procedural room around the scene. Choose a preset first, then adjust its shape and surfaces. This is an enclosed environment; Ground's Stage / Pool controls instead create a platform or pool, and [Stages](stages) describes imported stage models.
 
-## Build a simple room
+## Build a simple room {#build-a-simple-room}
 
 1. Open **Room Stage Settings** and select **Wood Seamless** for a starting room, or **Glow Box** for a box-shaped scene.
 2. Open **Shape** and choose **Box** or **Circle**. Set **Radius** and **Height** so the actors have room to move.
@@ -16,7 +16,7 @@ Creates a procedural room around the scene. Choose a preset first, then adjust i
 4. Adjust **Ceiling**, **Walls** and **Floor** independently. **Back** and **Edge** have their own surface settings as well.
 5. Set the [lighting](lighting) after the geometry and surfaces are in place. For an indoor look, reduce sky ambient lighting if it washes out the room.
 
-## Shape and appearance
+## Shape and appearance {#shape-and-appearance}
 
 **Edge Radius** rounds the room edges and **Edge Steps** controls their subdivisions. **Gap** adds spacing between elements. The five surfaces each expose their own material/texture settings so the floor and walls do not have to share a look.
 

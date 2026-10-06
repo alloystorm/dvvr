@@ -35,7 +35,7 @@ DanceXR auto-assigns materials whose names match common hair keywords to this ca
 
 ## Hair physics is separate
 
-Hair **movement** — the bones swinging when the head turns or the actor walks — is configured in [Hair Physics](hair_physics) (or via [Particle Dynamics](particle_dynamics) on the new simulation system). The materials page only controls how hair surfaces render.
+Hair **movement** — the bones swinging when the head turns or the actor walks — is configured in [Hair Physics](hair_physics) (or via [Particle Dynamics](simulation#particle-dynamics) on the new simulation system). The materials page only controls how hair surfaces render.
 
 ---
 
@@ -44,5 +44,5 @@ Hair **movement** — the bones swinging when the head turns or the actor walks 
 - [Material Settings](material_settings)
 - [Skin Materials](material_skin)
 - [Hair Physics](hair_physics)
-- [Particle Dynamics](particle_dynamics)
+- [Particle Dynamics](simulation#particle-dynamics)
 - [Toon Shading](toon_shading)

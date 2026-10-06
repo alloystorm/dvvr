@@ -19,6 +19,16 @@
     {% assign title = page.targettitle %}
     {% endif %}
     <meta http-equiv="refresh" content="{{ time }};url={{ page.target }}"/>
+    {% if page.redirect_fragments %}
+    <script>
+      const fragments = {{ page.redirect_fragments | jsonify }};
+      const target = {{ page.target | jsonify }};
+      const fragment = decodeURIComponent(window.location.hash.slice(1));
+      if (Object.prototype.hasOwnProperty.call(fragments, fragment)) {
+        window.location.replace(target.split('#')[0] + '#' + fragments[fragment]);
+      }
+    </script>
+    {% endif %}
     <link rel="canonical" href="{{ page.target }}"/>
     <title>{{ title }}</title>
     <style>
@@ -42,4 +52,3 @@
 
 </body>
 </html>
-

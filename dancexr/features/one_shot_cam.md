@@ -8,7 +8,7 @@ locale: en-US
 
 Long-take camera that moves randomly each beat while following the actor.
 
-## Movement
+## Movement {#movement}
 
 **Rotate Range** limits how far left or right the camera can orbit around
 the actor. Wider ranges create sweeping shots; narrower ranges keep the
@@ -18,7 +18,7 @@ The **Curve** value controls the easing when the camera moves to a new
 random position each beat. Negative values start slow and speed up;
 positive values start fast and slow down; *0* gives linear motion.
 
-## Distance & Pitch
+## Distance & Pitch {#distance--pitch}
 
 Sets the range for camera distance and vertical angle. The camera picks
 a random position within these limits each beat.
@@ -29,7 +29,7 @@ for close-ups, higher for wider shots.
 **Pitch Angle** sets the vertical tilt range. Negative values look down
 at the actor; positive values look up.
 
-## Orientation
+## Orientation {#orientation}
 
 Enable **Use Actor Orientation** to align the camera with the actor's
 facing direction, so the camera stays relative to where the actor is

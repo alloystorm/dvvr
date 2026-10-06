@@ -9,22 +9,22 @@ locale: en-US
 Controls laser beams projected across the stage, reacting to music with animated color and movement.
 
 
-## Formation
+## Formation {#formation}
 
 **Number** sets how many laser beams are spawned. **Width** controls the horizontal spread of the beam array — higher values fan the beams farther apart. **Curvature** bends the formation from flat into an arc; negative values bow inward, positive values bow outward. **Rotation** tilts the arc; **Distance** pushes the entire formation forward or backward along the stage. **Height** raises or lowers the formation vertically.
 
 
-## Direction
+## Direction {#direction}
 
 **Direction** rotates the formation around the horizontal axis, pointing the beams up or down. **Angle** narrows or widens each individual beam's spread cone. Both values auto-update with the music and can drive reactive motion.
 
 
-## Color
+## Color {#color}
 
 The beam color uses a base color with a *Glow* intensity. Presets include *Glow w/ Music*, which syncs glow to audio amplitude for a pulsing effect on strong beats. **Base Level**, **Edge Level**, and **Hit Level** use power-based scaling — lower values brighten the corresponding part of the beam, useful for creating sharp or diffuse laser aesthetics.
 
 
-## Motion
+## Motion {#motion}
 
 Motion patterns define how beams rotate and sway over time. The motion interpolates between two randomly selected target rotations every beat, creating organic, evolving movement across the laser array.
 
@@ -32,12 +32,12 @@ Motion patterns define how beams rotate and sway over time. The motion interpola
 ## Settings reference
 
 <a id="settings-glow-color"></a>
-## Color and glow (Color) {#color}
+## Color and glow (Color) {#color-1}
 
 Holds a base color and glow intensity for audio-reactive elements.
 Glow is multiplied with the color and animates with the beat when auto-update is enabled.
 
-## Motion {#motion}
+## Motion {#motion-1}
 
 Reusable motion-pattern generator for looping body sway and
 positional drift. It can randomize built-in patterns, randomize
@@ -45,7 +45,7 @@ user presets, or expose the underlying curves directly for
 manual shaping.
 
 
-### Pattern Source
+### Pattern Source {#pattern-source}
 
 **Mode** decides where the curves come from. *Random* pulls from
 the built-in pattern library, *Random Preset* rotates through
@@ -55,7 +55,7 @@ pattern order repeats; change it when you want new variation
 without redesigning the curves.
 
 
-### Timing and Intensity
+### Timing and Intensity {#timing-and-intensity}
 
 **Moves Per Group** controls how often the generator advances to
 a new pattern phrase. **Speed** scales playback, while **Use
@@ -65,7 +65,7 @@ it is the best control to automate when you want another system
 to push the motion larger or smaller over time.
 
 
-### Transition and Damping
+### Transition and Damping {#transition-and-damping}
 
 **Transition** softens the handoff between phrases; low values
 make the motion snap to the next idea, high values keep it more

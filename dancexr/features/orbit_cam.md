@@ -8,7 +8,7 @@ locale: en-US
 
 Manual and automatic orbit camera that rotates around the focused actor.
 
-## Manual Control
+## Manual Control {#manual-control}
 
 When not in auto mode, drag to orbit the camera around the actor.
 **Use Controller Input** enables gamepad/VR controller support for orbiting.
@@ -18,7 +18,7 @@ When not in auto mode, drag to orbit the camera around the actor.
 slowing down. **Min Speed** and **Max Speed** clamp the retained rotation speed —
 raise *Max Speed* for long cinematic spins, or lower it for tighter control.
 
-## Auto Mode
+## Auto Mode {#auto-mode}
 
 When enabled, the camera orbits automatically with configurable distance, pitch,
 and height that cycle using sine waves.

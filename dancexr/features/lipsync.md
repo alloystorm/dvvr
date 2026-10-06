@@ -7,54 +7,24 @@ toc: true
 
 # LipSync
 
-LipSync drives an actor's mouth shapes from an audio signal in real time, so characters appear to speak or sing along with whatever audio is playing. Unlike the older lip-sync that lived inside [AI Voice Chat](ai_chat), this system is **available on all platforms**, including Android and Quest.
+LipSync analyzes playback audio and drives the actor's A, I, U, E and O mouth shapes. It can make an actor sing or speak along with the track without a separate mouth animation.
 
-Added in **2024.9**.
+## Enable it
 
----
+1. In [Playback Options](playback_options), enable the **Lip Sync** group.
+2. In the actor's [Facial Control](facial_control), enable **Use Lip Sync**.
+3. Play audio with a clear vocal part and watch the mouth. Adjust **Lip Sync Smoothing** in Playback Options if transitions are too abrupt or too slow.
 
-## Enabling LipSync
+The playback toggle enables the analyzer; the actor toggle applies its result to that actor. Several enabled actors can react to the same playback signal.
 
-<!-- TODO: confirm exact UI path. -->
+## If the mouth does not move
 
-1. Turn LipSync on globally in [Playback Options](playback_options).
-2. For each actor that should move its mouth, open [Facial Control](facial_control) and enable **LipSync**.
+Check both toggles and confirm audio is playing. Then test the individual vowel expressions in Facial Control. If those do not work manually, the model's expression mapping needs attention: audio analysis cannot create missing mouth morphs or an unmapped facial rig. For XPS facial controls, also check the Disable switch and mouth extent.
 
-Both toggles are required: the global toggle controls whether the audio is analyzed at all; the per-actor toggle controls which actors react to it.
+Disable Use Lip Sync when arranging a manual mouth expression so the audio driver does not keep replacing the vowel values.
 
----
+## Spatial audio and chat
 
-## Pairing with Spatial Audio
+[Spatial Audio](spatial_audio) moves the playback sound source to an actor when configured to follow it; it does not select which actors use lip sync. Set the two features independently.
 
-LipSync pairs naturally with [Spatial Audio](spatial_audio) — anchor the audio to an actor's head and enable LipSync on that same actor, and the result reads as "this character is speaking."
-
----
-
-## Pairing with AI Voice Chat
-
-[AI Voice Chat](ai_chat) drives speech audio that the LipSync system can analyze the same way as music or video audio. <!-- TODO: confirm whether AI Voice Chat uses LipSync directly, or its own internal mouth driver, or both. -->
-
----
-
-## Settings
-
-<!-- TODO: list. Likely candidates: sensitivity / gain, smoothing, mouth-open intensity, which morph(s) drive what. -->
-
----
-
-## Limitations
-
-<!-- TODO: confirm. Areas to verify:
-- Does it require specific blendshapes / morphs (a / i / u / e / o)? What if the model lacks them?
-- Does it work with PMX, XPS, and FBX equally?
-- Latency on Android / Quest. -->
-
----
-
-## Related pages
-
-- [Playback Options](playback_options)
-- [Facial Control](facial_control)
-- [Spatial Audio](spatial_audio)
-- [AI Voice Chat](ai_chat)
-- [Blink, Breathing & Eye Contact](eyecontact)
+[AI Voice Chat](ai_chat) uses a separate speech-audio lip-sync driver for the speaking actor. Playback audio settings should not be treated as the sole control for chat speech.

@@ -36,7 +36,7 @@ DanceXR 直接從 PMX 檔案讀取這些參數；您無法在 DanceXR 中自行�
 3. 每個形變參數都會顯示名稱和一個 0 到 1 的滑桿。
 4. 拖動滑桿以應用形變參數；釋放滑桿則保持當前值。
 
-除非您更改或重新加載模型，否則形變參數都會保持應用狀態。某些形變參數（例如面部表情）在 [Facial control](facial_control) 和 [Blink, breathing & eye contact](eyecontact) 處於活躍狀態時，將會被覆蓋。
+除非您更改或重新加載模型，否則形變參數都會保持應用狀態。某些形變參數（例如面部表情）在 [Facial control](facial_control) 和 [Blink, breathing & eye contact](lifelike_motions#eye-contact) 處於活躍狀態時，將會被覆蓋。
 
 ---
 
@@ -52,5 +52,5 @@ DanceXR 直接從 PMX 檔案讀取這些參數；您無法在 DanceXR 中自行�
 
 - [Dressing system](optionals)
 - [Facial control](facial_control)
-- [Blink, breathing & eye contact](eyecontact)
+- [Blink, breathing & eye contact](lifelike_motions#eye-contact)
 - [Concepts & glossary](../concepts)

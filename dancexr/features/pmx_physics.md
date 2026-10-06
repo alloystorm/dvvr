@@ -10,7 +10,7 @@ Configures physics for PMX models that include built-in rigidbody
 and joint definitions — typically used for hair, skirts, and accessories.
 
 
-## Physics Mode
+## Physics Mode {#physics-mode}
 
 Selects the simulation engine. *Auto* uses the system default; *PhysX*
 runs Unity's joint-based physics; *XPBD* uses a particle-based simulation
@@ -19,14 +19,14 @@ exposes the XPS physics tools (Hair Physics, Cloth Physics, etc.) as
 replacements.
 
 
-## Particle Props
+## Particle Props {#particle-props}
 
 Available only in XPBD mode. Controls global XPBD parameters — particle
 size, mass, damping, gravity response, and collision layers. **Scale**
 auto-updates with the music for audio-reactive particle sizing.
 
 
-## Linear / Angular Motion
+## Linear / Angular Motion {#linear--angular-motion}
 
 Available only in PhysX mode. Tune how aggressively joints drive bodies
 back toward their animated targets. **Main Drive Force** and **Second Drive
@@ -35,7 +35,7 @@ Force** set spring stiffness; **Damping** and **Drag** absorb energy;
 **Acceleration Mode** uses acceleration-based drive for snappier response.
 
 
-## Options
+## Options {#options}
 
 Available only in PhysX mode. Advanced solver parameters: **Min Mass**
 and **Mass Scale** prevent bodies from becoming too light; **Min Drag**
@@ -45,7 +45,7 @@ zero or computes it from collider positions. **Projection Angle** and
 preventing joints from stretching under fast motion.
 
 
-## Groups
+## Groups {#groups}
 
 Each section corresponds to a physics joint group defined in the PMX file.
 Enable or disable groups individually. When **Override Configs** is on,
@@ -54,14 +54,14 @@ Linear/Angular settings — useful to make a stiff skirt and soft hair coexist.
 **Visualize Joints** and **Visualize Colliders** render that group's shapes.
 
 
-## Auto Reset
+## Auto Reset {#auto-reset}
 
 When joint velocity exceeds **Auto Reset Threshold**, the bone and its
 children snap back to their animated position — prevents physics from
 spinning out of control on impact or extreme motion.
 
 
-## XPS Tools
+## XPS Tools {#xps-tools}
 
 Links to alternative physics systems available when PMX physics is turned
 off: Hair Physics, Cloth Physics, Boobs Physics, Skirt Physics, and more.
@@ -81,7 +81,7 @@ Holds spring force, damping, drag, and drive mode for a PhysX joint axis. Used p
 
 Holds spring force, damping, drag, and drive mode for a PhysX joint axis. Used per-group to override global Linear/Angular motion settings.
 
-## Options {#options}
+## Options {#options-1}
 
 Holds mass scaling, drag scaling, center of mass mode, and projection thresholds for the PhysX joint solver. Used to fine-tune joint stability and prevent stretching under fast motion.
 

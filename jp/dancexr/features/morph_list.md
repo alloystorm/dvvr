@@ -36,7 +36,7 @@ DanceXRはこれらのデータをPMXファイルから直接読み取るため�
 3. 各モーフは、名前と0から1のスライダーとともに表示されます。
 4. スライダーをドラッグしてモーフを適用し、指を離すとその値が維持されます。
 
-モーフは、変更したりモデルをリロードしたりするまで適用された状態が保たれます。一部のモーフ（表情など）は、[Facial control](facial_control)や[Blink, breathing & eye contact](eyecontact)がアクティブな場合、それらによって上書きされます。
+モーフは、変更したりモデルをリロードしたりするまで適用された状態が保たれます。一部のモーフ（表情など）は、[Facial control](facial_control)や[Blink, breathing & eye contact](lifelike_motions#eye-contact)がアクティブな場合、それらによって上書きされます。
 
 ---
 
@@ -52,5 +52,5 @@ DanceXRはこれらのデータをPMXファイルから直接読み取るため�
 
 - [Dressing system](optionals)
 - [Facial control](facial_control)
-- [Blink, breathing & eye contact](eyecontact)
+- [Blink, breathing & eye contact](lifelike_motions#eye-contact)
 - [Concepts & glossary](../concepts)

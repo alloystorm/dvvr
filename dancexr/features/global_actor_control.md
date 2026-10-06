@@ -9,7 +9,7 @@ locale: en-US
 Global Actor Control provides scene-wide scaling settings that apply uniformly to all loaded actors.
 
 
-## Settings
+## Settings {#settings}
 
 **Actor Scale** (0.15 to 5.0) scales the size of all actors in the scene globally. The default value is 1. Use this to uniformly make all actors larger or smaller without adjusting them individually.
 

@@ -8,7 +8,7 @@ locale: en-US
 
 Simulate an existing mesh on the actor as cloth. This preserves the garment's authored shape, unlike [Cloth Simulation](cloth_simulation), which creates a new cloth layer. [Skirt Physics](skirt_physics) instead drives selected bone chains.
 
-## First garment
+## First garment {#first-garment}
 
 1. Open **Mesh To Cloth** on the actor and expand **Select Mesh**.
 2. Choose the garment mesh by its displayed name. Each mesh has an independent enable switch and configuration.
@@ -16,13 +16,13 @@ Simulate an existing mesh on the actor as cloth. This preserves the garment's au
 4. Enable the mesh and play a gentle motion. If it falls away, check the anchor selection before increasing forces.
 5. Keep **Gradual Enable** on while testing. Its duration blends the simulated mesh in over several seconds rather than switching instantly.
 
-## Simulation region and forces
+## Simulation region and forces {#simulation-region-and-forces}
 
 Each mesh exposes **Height Range** and **Index Range** to restrict the simulated region. Start with their defaults, then narrow the region if only part of the mesh should respond. Tune the shared **Particle Properties** after the mesh and anchors are correct: gravity, drag, friction, wind and collision layers affect the converted meshes.
 
 For contact with the body, configure [Body Colliders](body_colliders) and appropriate collision layers. A conversion alone does not guarantee the garment fits the character's body; inspect the collider sizes when fabric intersects it.
 
-## Returning to the original mesh
+## Returning to the original mesh {#returning-to-the-original-mesh}
 
 Turn off the mesh's enable switch to remove its simulation and restore the original render mesh. Test one garment at a time so anchor and collision problems are easy to isolate. The mesh list is built from the loaded actor, so it differs between models; the generic configuration reference cannot list every model's meshes.
 

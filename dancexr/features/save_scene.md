@@ -7,60 +7,23 @@ toc: true
 
 # Save Scene
 
-<!-- TODO: confirm exact UI flow. -->
+A saved scene records the loaded content and its configuration so you can reopen the performance setup. It references models, motions and audio in the content library; it does not embed those source files.
 
-A saved scene captures the **complete state** of your DanceXR session — loaded actors, motions, audio, stage, lights, camera, all per-actor settings, all environment settings — into a single file that can be reloaded later.
+## Save and reload
 
----
+1. Arrange the actors, stage, props, motion assignments, environment and camera.
+2. Open the **Scene** browser and use its save icon.
+3. Enter a scene name and choose **Save**.
+4. To restore it, open Scene again and select the saved name.
 
-## What a scene contains
+Before relying on a scene for a recording, reload it and check the actor assignments, playback and camera. This catches missing content or configuration differences while the source files are still easy to locate.
 
-- All loaded **actors** with their per-actor configuration (materials, physics, dressing, motion overrides).
-- The currently loaded **stage** and its settings.
-- The active **dance set** (audio + motions) and assignment to each actor.
-- **Environment** — sky, ground, lighting, weather, water.
-- **Camera** mode and settings.
-- **Formation** layout for multi-actor scenes.
+## Move a scene to another device
 
-What a scene does **not** contain:
+The destination library must contain the content referenced by the scene. DanceXR uses content identifiers rather than depending only on the full original filesystem path, but renaming files or removing their identifying folder can still prevent a match.
 
-- The actual model, motion, or music files. The scene file references them by their content-library identifier ([since 2024.9](../releases/2024.9), this is the immediate folder + filename, not the full path, so reorganizing your library no longer breaks scenes).
-- Per-tier features the recipient does not have access to.
+If part of a scene fails to load, confirm the corresponding actor, motion, audio or stage can be loaded directly from the destination library. Keep the asset files and required textures together. To transfer packaged content, use [Scene Bundle](scene_bundle).
 
----
+## Scenes and presets
 
-## Saving and loading
-
-1. Configure your scene the way you want.
-2. Open the scene menu and choose **Save Scene** — name the scene file.
-3. To reload, open the scene menu and pick the saved scene by name.
-
-Saved scenes live in your [content library](../preparecontent) and can be copied between machines.
-
----
-
-## When the scene fails to load completely
-
-If a scene references a model, motion, or music file that is not present in the recipient's library, that asset is skipped. The rest of the scene loads normally.
-
-To **share a scene with all its assets bundled together**, use [Scene Bundle](scene_bundle) — that packs the model and motion files in alongside the scene file so a recipient does not have to track them down separately.
-
----
-
-## Save Scene vs presets
-
-| Format | Scope | Page |
-|---|---|---|
-| **Save Scene** | Everything in the scene | (this page) |
-| **Scene Bundle** | Save Scene + the actual asset files | [Scene Bundle](scene_bundle) |
-| **Actor Preset** | A single actor's settings only | [Actor Presets](actor_presets) |
-| **System Preset** | Scene-wide environment / graphics settings only | [System Presets](system_presets) |
-
----
-
-## Related pages
-
-- [Scene Bundle](scene_bundle)
-- [Actor Presets](actor_presets)
-- [System Presets](system_presets)
-- [Content Library](../preparecontent)
+A scene captures composition and loaded-content references. [Actor Presets](actor_presets) reuse one actor's configuration, while [System Presets](system_presets) reuse application-level settings. Save a scene when you need the whole setup; use a preset for a narrower reusable adjustment.

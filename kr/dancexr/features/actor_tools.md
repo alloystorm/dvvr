@@ -69,7 +69,7 @@ VR 모드에서는 써머스틱을 위/아래로 사용하여 배우를 수직�
     * [PMX 물리학 (PMX 전용)](pmx_physics)
     * [발 조정](feet_adjustment)
     * [얼굴 제어](facial_control)
-    * [눈 깜빡임, 숨쉬기, 아이컨택](eyecontact)
+    * [눈 깜빡임, 숨쉬기, 아이컨택](lifelike_motions#eye-contact)
     * [문제 해결 옵션](troubleshooting)
 * Pro
     * [의상 및 바디 페인트](outfit)
@@ -81,3 +81,17 @@ VR 모드에서는 써머스틱을 위/아래로 사용하여 배우를 수직�
     * [Dildo](dildo){: .nsfw}
     * 라이트볼
 * 모프 목록 (PMX 전용)
+
+## 최근 변경한 설정 {#recently-modified}
+
+액터 메뉴의 모션 설정 근처에서 **Recently Modified** 제목 아래에 최근 변경한 설정이 최대 네 개까지 바로 표시됩니다. 항목을 선택하면 해당 설정을 다시 열 수 있습니다. 먼저 별도의 대화상자를 열 필요가 없습니다.
+
+물리나 재질을 반복해서 조정할 때 유용합니다. 이 항목들은 현재 액터의 설정으로 연결되는 바로가기이며, 저장된 프리셋이나 다른 액터로 설정을 복사하는 기능이 아닙니다.
+
+## 관객 모드 {#spectator-mode}
+
+액터의 Tools 메뉴에서 **Spectator**를 전환하면 해당 액터가 주 댄서 목록에서 분리됩니다. 모델은 계속 로드되어 선택할 수 있으며 재질, 포즈와 설정을 조정할 수 있습니다.
+
+Idle Motion을 사용하는 관객은 별도의 원형 대형을 사용할 수 있습니다. [Formation](formation)에서 **Use Spectator Formation**을 켜고 **Spectator Dist**를 설정하세요. 무대 중앙을 바라보게 하려면 **Rotate Spectators**를 켭니다. 명시적으로 모션을 지정한 관객은 여전히 움직일 수 있으므로 Spectator는 동작을 정지시키는 스위치가 아닙니다.
+
+제자리에 서 있는 관객을 만들려면 [Idle Motion](idle_motion)을 선택하고 Walking과 Follow Actor를 끕니다. 걷거나 따라가야 할 때만 이 기능들을 켜세요.

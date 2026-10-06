@@ -12,7 +12,7 @@ detail, freehand body paint, and dissolve transitions without
 touching the underlying mesh or textures.
 
 
-## Mode
+## Mode {#mode}
 
 **Mode** picks how the layer behaves. *Color Paint* turns the
 character into a canvas you draw on directly with the cursor —
@@ -25,7 +25,7 @@ of it. The visibility rules in the panel collapse the unrelated
 sub-sections automatically once the mode is set.
 
 
-## Presets
+## Presets {#presets}
 
 Seven built-in presets cover the common cases — Body Paint,
 Fullbody Latex, V-Shape Fishnet, two stocking variants, and two
@@ -34,7 +34,7 @@ presets in one click; treat them as starting points to tweak
 rather than final looks.
 
 
-## Body Paint
+## Body Paint {#body-paint}
 
 {% include video id='chHk9--cUYE' provider='youtube' %}
 
@@ -43,7 +43,7 @@ stamp texture, and save/load drawing live there. Visible only
 in Color Paint and Outfit Paint modes.
 
 
-## Shape & Pattern
+## Shape & Pattern {#shape--pattern}
 
 See the *Shape* sub-section. Controls the procedural geometry of
 the outfit — stocking heights, top lines, fishnet/maze/curve
@@ -51,7 +51,7 @@ line patterns, and bump effects along borders. Hidden in pure
 Color Paint mode since there is no procedural outfit to shape.
 
 
-## Surfaces
+## Surfaces {#surfaces}
 
 Three surface layers stack on the outfit: **Surface Base** is
 the main fabric (latex, stocking, gold, etc.), **Surface
@@ -62,7 +62,7 @@ special shaders) so you can mix e.g. matte stockings with a
 glowing border. Hidden in Color Paint mode.
 
 
-## Hexagon Detail
+## Hexagon Detail {#hexagon-detail}
 
 See the *Hexagon Map* sub-section. Adds a procedural hex /
 circle micro-pattern on top of the surface for fishnet-style
@@ -70,7 +70,7 @@ detail or sci-fi panels. Toggle off when you want a smooth
 fabric.
 
 
-## Dissolve
+## Dissolve {#dissolve}
 
 **Dissolve** is the master amount (0 – 1) that fades the outfit
 away along the dissolve map — drive it with auto-update for
@@ -83,7 +83,7 @@ Color Paint mode.
 
 ## Settings reference
 
-## Body Paint {#body-paint}
+## Body Paint {#body-paint-1}
 
 Freehand painting on the character's body. Drag the cursor (or
 VR pointer) across the model to apply color or pattern strokes
@@ -92,7 +92,7 @@ frames so you can build up a drawing over time, save it as a
 texture, and reload it later.
 
 
-### Brush
+### Brush {#brush}
 
 **Brush Size** and **Brush Rotation** set the stroke shape;
 rotation only matters when a stamp texture is selected.
@@ -104,7 +104,7 @@ Erase) when in *Outfit Paint* mode; in *Color Paint* mode the
 channel is implicit and this is hidden.
 
 
-### Color, Glow & Preserve
+### Color, Glow & Preserve {#color-glow--preserve}
 
 **Color** is the brush color in Color Paint mode. **Glow**
 multiplies the painted color's intensity (above 1 it becomes
@@ -115,14 +115,14 @@ bleached bright one. **Erase** flips the brush to clear instead
 of paint.
 
 
-### Paint Side
+### Paint Side {#paint-side}
 
 Restricts strokes to *Front*, *Back*, or *Both* sides of the
 body. Pick a side when you want a design only on the chest or
 only on the back without having to carefully avoid the other.
 
 
-### Canvas Actions
+### Canvas Actions {#canvas-actions}
 
 **Clear Canvas** wipes the drawing. **Save Drawing** writes the
 current canvas to disk as both an HDR and PNG so the full
@@ -130,7 +130,7 @@ colour/glow range survives a round-trip. **Load Drawing** picks
 a previously saved drawing (or any drawing texture in the
 library) as the canvas contents.
 
-## Shape & Pattern {#shape}
+## Shape & Pattern {#shape--pattern-1}
 
 Procedural geometry for the outfit layer — defines where the
 outfit covers the body and what pattern fills it. Everything is
@@ -138,7 +138,7 @@ computed in shader, so changes are live and free of texture
 authoring.
 
 
-### Stocking & Top Lines
+### Stocking & Top Lines {#stocking--top-lines}
 
 Outfits are bounded by up to three diagonal cuts: one stocking
 line (the bottom of the leg cover) and two top lines (V-neck
@@ -150,7 +150,7 @@ bodysuits, fishnet halters, etc. **Stocking Edge** and
 a hard hem, larger values fade the outfit into skin.
 
 
-### Line Pattern
+### Line Pattern {#line-pattern}
 
 **Line Pattern Type** picks the fill: *None* leaves the area
 solid, *Grid* tiles a fishnet, *Maze* and *Maze Curve* generate
@@ -164,7 +164,7 @@ control how thick the line is on each side of its centre — use
 the asymmetry to suggest stitching or piping.
 
 
-### Bump
+### Bump {#bump}
 
 **Inside / Outside Bump** raises or lowers the surface near the
 line edges, with **Inside / Outside Distance** controlling how
@@ -178,7 +178,7 @@ the surface for fishnet, sci-fi panel, or studded looks. Toggle
 it off whenever you want a smooth fabric.
 
 
-### Density & Shape
+### Density & Shape {#density--shape}
 
 **Density** sets how many hexagons fit across the surface
 (snapped to powers of two for clean tiling). **Size** scales
@@ -190,14 +190,14 @@ values near zero give a crisp boundary, larger values blur the
 pattern into the surrounding surface.
 
 
-### Bump & Noise
+### Bump & Noise {#bump--noise}
 
 **Bump** raises or lowers each cell relative to the surface
 (negative values stamp inwards). **Noise** randomises per-cell
 height so the pattern doesn't read as a perfect grid.
 
 
-### UV Projection
+### UV Projection {#uv-projection}
 
 For outfits the cells can either follow the model's UV layout
 or be projected from a virtual cylinder around the body.
@@ -214,7 +214,7 @@ profile, so the same dissolve amount can read as cracking,
 burning, melting, or a clean cut depending on these settings.
 
 
-### Layer 1 & Layer 2
+### Layer 1 & Layer 2 {#layer-1--layer-2}
 
 Two independent noise layers combine to break up the dissolve
 front. **Pattern L1 / L2** pick a noise variant (different
@@ -224,7 +224,7 @@ shape, L2 the small-scale detail. **Magnify Scale** zooms both
 layers, **Curve** sharpens or softens the dissolve gradient.
 
 
-### Edges
+### Edges {#edges}
 
 Where the outfit dissolves it leaves a transition band on each
 side of the cutoff. **Edge Size** and **Edge Bump** shape the
@@ -236,7 +236,7 @@ fading their alpha — pick this when you want the outfit to
 vanish hole-by-hole rather than fade out.
 
 
-### Offset
+### Offset {#offset}
 
 **Offset X / Y** slide the dissolve map across the body. Animate
 them (via auto-update) to make the dissolve front sweep in a

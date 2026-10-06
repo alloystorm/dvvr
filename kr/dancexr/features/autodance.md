@@ -11,7 +11,7 @@ toc: true
 
 Auto Dance는 **초기 세대**의 프로시저 댄스 생성기입니다. 내장 모션 라이브러리에서 댄스 동작을 실시간으로 생성하며, 음악의 비트와 음량에 반응하여 동작을 선택하고 블렌딩합니다.
 
-Auto Dance는 [Auto Dance 2](autodance2)와 [Auto Dance 3](autodance3)에 의해 상당 부분 대체되었습니다. 최신 버전들은 더 많은 변화, 더 정교한 제어, 그리고 향상된 음악 싱크를 제공합니다. 원래 생성기의 동작을 특별히 원할 때 Auto Dance를 사용하십시오.
+Auto Dance는 [Auto Dance 2](autodance#auto-dance-2)와 [Auto Dance 3](autodance3)에 의해 상당 부분 대체되었습니다. 최신 버전들은 더 많은 변화, 더 정교한 제어, 그리고 향상된 음악 싱크를 제공합니다. 원래 생성기의 동작을 특별히 원할 때 Auto Dance를 사용하십시오.
 
 ---
 
@@ -37,14 +37,62 @@ Auto Dance를 위해 VMD 파일을 로드할 필요가 없습니다. 동작이 �
 ## Auto Dance와 최신 버전의 선택 시기
 
 - **Auto Dance (이 페이지)** — 원래의 생성기입니다. 동작 라이브러리가 더 작고, 음악 반응이 더 단순합니다.
-- **[Auto Dance 2](autodance2)** — 2세대이며, 풀(pool)이 더 크고 동작 간 변화가 더 많습니다.
+- **[Auto Dance 2](autodance#auto-dance-2)** — 2세대이며, 풀(pool)이 더 크고 동작 간 변화가 더 많습니다.
 - **[Auto Dance 3](autodance3)** — 현재 기본값입니다. 사용자 정의가 매우 뛰어나고, [Sex Motion 3](sex_motion_3) 공유 모션 제어 시스템과 통합되며, 비트 감지 기능이 있는 실시간 오디오 분석기를 사용합니다.
 
 ---
 
 ## 관련 페이지
 
-- [Auto Dance 2](autodance2)
+- [Auto Dance 2](autodance#auto-dance-2)
+- [Auto Dance 3](autodance3)
+- [Music Timing](music_timing)
+- [Audio Options](audio_options)
+- [AI in DanceXR](../ai)
+
+## 자동 댄스 2 {#auto-dance-2}
+
+# Auto Dance 2
+
+<!-- TODO: confirm settings. Drafted from procedural-motion family. -->
+
+Auto Dance 2는 **2세대** 프로시저 댄스 생성기입니다. 원본 [Auto Dance](autodance)보다 더 큰 모션 풀, 연속 동작 간 더 나은 변화, 그리고 음악의 비트 및 볼륨과 더 깔끔한 싱크를 제공합니다.
+
+Auto Dance 2 자체는 [Auto Dance 3](autodance3)에 의해 대체되었습니다. Auto Dance 3은 [Sex Motion 3](sex_motion_3)과 공유하는 최신 모션 제어 시스템을 사용하며 실시간 오디오 분석기에 통합됩니다.
+
+---
+
+## Auto Dance 1 대비 변경 사항
+
+- 더 큰 내장 댄스 세그먼트 풀.
+- 연속 동작 간 더 나은 블렌딩으로 슬라이드쇼처럼 보이지 않습니다.
+- 음악 볼륨에 대한 향상된 반응 — 고에너지 구간에서 더 큰 동작을 구현합니다.
+
+---
+
+## 설정
+
+<!-- TODO: confirm exact settings. Likely candidates:
+- Variety / pool size
+- Energy multiplier
+- Random seed (for reproducible sequences) -->
+
+---
+
+## Auto Dance 2를 선택할 시점
+
+다음의 특징을 가진 프로시저 댄스를 원할 때 Auto Dance 2를 사용하세요:
+
+- 원본 Auto Dance보다 더 다양함.
+- 설정할 수 있는 노브가 적어 Auto Dance 3보다 더 간단함.
+
+새 프로젝트의 경우, Auto Dance 2의 동작이 필요한 경우가 아니라면 [Auto Dance 3](autodance3)을 사용하는 것이 좋습니다.
+
+---
+
+## 관련 페이지
+
+- [Auto Dance](autodance)
 - [Auto Dance 3](autodance3)
 - [Music Timing](music_timing)
 - [Audio Options](audio_options)

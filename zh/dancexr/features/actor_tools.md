@@ -104,7 +104,7 @@ Gizmo立方体是虚拟立方体，您可以使用它来移动和调整演员的
     * [PMX物理（仅限PMX）](pmx_physics)
     * [脚部调整](feet_adjustment)
     * [面部控制](facial_control)
-    * [眨眼、呼吸、眼神接触](eyecontact)
+    * [眨眼、呼吸、眼神接触](lifelike_motions#eye-contact)
     * [故障排除选项](troubleshooting)
 * 专业版
     * [服装和身体绘画](outfit)
@@ -116,3 +116,17 @@ Gizmo立方体是虚拟立方体，您可以使用它来移动和调整演员的
     * [假阳具](dildo){: .nsfw}
     * 光球
 * 形态列表（仅限PMX）
+
+## 最近修改的设置 {#recently-modified}
+
+角色菜单中，动作设置附近的 **Recently Modified** 标题下会直接显示最多四项最近修改的设置。选择一项即可重新打开对应配置，无需先打开单独的对话框。
+
+反复调整物理或材质时可使用这些快捷入口。它们指向当前角色的设置，不是保存的预设，也不会将配置复制给其他角色。
+
+## 观众模式 {#spectator-mode}
+
+在角色的 Tools 菜单中切换 **Spectator**，可将该角色从主要舞者列表中分离。模型仍保持加载并可选中，材质、姿态和其他设置仍可正常调整。
+
+使用 Idle Motion 的观众可以采用独立的圆形队形。在 [Formation](formation) 中启用 **Use Spectator Formation**，设置 **Spectator Dist**；需要朝向舞台中心时启用 **Rotate Spectators**。明确分配了动作的观众仍然可以运动，因此 Spectator 不是冻结角色的开关。
+
+若需要站在原地的观众，选择 [Idle Motion](idle_motion)，并关闭 Walking 和 Follow Actor。只有需要行走或跟随时才启用这些功能。

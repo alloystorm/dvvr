@@ -36,7 +36,7 @@ DanceXR reads these directly from the PMX file; you do not author them in DanceX
 3. Each morph is shown with its name and a slider 0 to 1.
 4. Drag the slider to apply the morph; release to leave it at that value.
 
-Morphs stay applied until you change them or reload the model. Some morphs (like facial expressions) will be overridden by [Facial control](facial_control) and [Blink, breathing & eye contact](eyecontact) when those are active.
+Morphs stay applied until you change them or reload the model. Some morphs (like facial expressions) will be overridden by [Facial control](facial_control) and [Blink, breathing & eye contact](lifelike_motions#eye-contact) when those are active.
 
 ---
 
@@ -52,5 +52,5 @@ Morphs stay applied until you change them or reload the model. Some morphs (like
 
 - [Dressing system](optionals)
 - [Facial control](facial_control)
-- [Blink, breathing & eye contact](eyecontact)
+- [Blink, breathing & eye contact](lifelike_motions#eye-contact)
 - [Concepts & glossary](../concepts)

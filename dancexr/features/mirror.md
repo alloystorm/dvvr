@@ -7,50 +7,26 @@ toc: true
 
 # Mirror
 
-<!-- TODO: confirm exact settings. Drafted from prop docs and release notes (2024.10). -->
+The built-in Mirror prop shows the scene from the viewer's reflected position. Use it for a dance-studio wall or to inspect a pose from another angle. [Screen](screen) is a separate prop for video and camera feeds.
 
-A mirror prop reflects the scene from a planar surface — useful for choreography review (the actor can be seen from a second angle) and for stage scenes (reflective walls, dance studios).
+## Place a mirror
 
-Originally split out from the Screen prop in an earlier release. See [Props](props) for general prop placement.
+1. Add the built-in Mirror from the props browser and position it using the prop's placement controls.
+2. Open its settings. Adjust **Size**, **Elevation** and **Tilt** so the actor fits inside the reflected view.
+3. Use **Frame** to set the border thickness and **Shadow** to choose whether the prop casts a shadow.
+4. Select **Resolution** and inspect the mirror from your normal viewing distance. Available choices include 800×480, 1280×720, 1920×1080, 800×2000 and 1200×3000.
+5. Adjust **Gloss Coat** and **Smoothness** for the surface; on HDRP, **Brightness** also changes its glow.
 
----
+## Check visibility and performance
 
-## Placement and sizing
+Face the reflecting surface and compare the actor's position with its reflection. If the actor is outside the view, adjust the mirror placement and tilt before changing resolution. Higher capture resolution increases the rendering work; use the lowest resolution that looks acceptable at the size shown in your shot.
 
-Place a mirror like any other [prop](props): position it on the stage, then resize and rotate. Standard placement gizmos apply.
+In VR, the mirror maintains separate reflected camera views for the eyes. Inspect it in the headset after placing it, because a desktop view alone cannot verify stereo depth.
 
----
+The mirror's Resolution setting controls its own capture. It is separate from the graphics settings for screen-space or planar reflections on ordinary materials.
 
-## Reflection settings
+## Related tools
 
-<!-- TODO: confirm. Likely settings: reflection resolution, reflection clarity / blur, double-sided toggle, near-clip plane for the reflection camera. -->
-
-The mirror renders the scene from the camera position reflected across its plane, so:
-
-- Higher reflection resolution costs frame rate.
-- The reflection respects existing lighting and shadows.
-- Transparent or alpha-clipped objects in the reflection follow the same rules as the main view.
-
----
-
-## VR support
-
-From **2024.10**, the mirror works correctly in VR — both eyes get the right parallax so depth in the mirror feels physical instead of flat. This is what makes the mirror feel like a real surface in headset rather than a 2D screen.
-
----
-
-## Limitations
-
-<!-- TODO: confirm. Likely:
-- Only one mirror at a time may be active, or N mirrors with each eating frame rate.
-- Recursive reflection (mirror facing mirror) is bounded.
-- Available render features inside the reflection (e.g. raytracing, pathtracing). -->
-
----
-
-## Related pages
-
-- [Props](props)
-- [Screen](screen)
-- [Primitive Shapes](primitive_shapes)
-- [Room Stage](room_stage)
+- [Props](props) for loading and positioning scene objects.
+- [Screen](screen) for displaying playback video or a camera feed.
+- [Room Stage](room_stage) for a procedural room around the scene.

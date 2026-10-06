@@ -11,7 +11,7 @@ simulation to simulate jiggly or deformable body parts like
 butts, belly, or chest.
 
 
-## Group Management
+## Group Management {#group-management}
 
 The **Primary Group** is always active and has full control
 over simulation parameters. **Additional Groups** adds up
@@ -21,7 +21,7 @@ via **Use Primary Group Settings** to keep configuration
 consistent.
 
 
-## Bone Selection
+## Bone Selection {#bone-selection}
 
 Each group has a bone picker to select root bones. Child
 bones of selected roots become softbody particles.
@@ -31,14 +31,14 @@ bones for additional support. **Anchor Along Axis** and
 parent.
 
 
-## Softbody Particles
+## Softbody Particles {#softbody-particles}
 
 The XPBD panel defines particle mesh parameters including
 depth, layers, subdivision, and constraint stiffness. See
 the Softbody sub-panel for detailed particle settings.
 
 
-## Visualization
+## Visualization {#visualization}
 
 **Visualize Bodies** renders collider shapes for softbody
 physics bodies. **Visualize Joints** shows joint limits for

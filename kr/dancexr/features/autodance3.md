@@ -54,7 +54,7 @@ toc: true
 ## 관련 페이지
 
 - [Auto Dance](autodance) — 생성 1
-- [Auto Dance 2](autodance2) — 생성 2
+- [Auto Dance 2](autodance#auto-dance-2) — 생성 2
 - [Sex Motion 3](sex_motion_3) — 공유 움직임 제어 시스템, NSFW
 - [Music Timing](music_timing)
 - [Audio Options](audio_options)

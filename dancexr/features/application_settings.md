@@ -8,20 +8,20 @@ locale: en-US
 
 Global application settings for startup behavior and content handling.
 
-## Startup
+## Startup {#startup}
 
 **Auto Load** controls what happens when the application starts.
 *None* starts with an empty stage, *Last Actor* loads the most recently
 used actor model, and *Last Scene* restores the last saved scene.
 
-## Texture Loading
+## Texture Loading {#texture-loading}
 
 **Flip DDS Compressed** and **Flip DDS Uncompressed** control whether
 DDS textures are vertically flipped on load. Enable these if textures
 appear upside-down — which setting you need depends on the texture
 compression format.
 
-## UI Behavior
+## UI Behavior {#ui-behavior}
 
 **Gizmo 3rd Axis** changes what the mouse wheel does when using the
 transform gizmo. *Rotation* spins the object along the selected axis,

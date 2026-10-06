@@ -13,7 +13,7 @@ one-click looks like *Wood*, *Stage*, *Pool*, *Ocean* and
 *Audio Visualizer*.
 
 
-## Ground Height
+## Ground Height {#ground-height}
 
 Vertical offset for the stage center, in meters. Use this to
 line the floor up with a tracked play area or a captured set so
@@ -21,14 +21,14 @@ actors do not sink into or float above the ground. Other anchors
 (lights, cameras attached to the stage) follow this offset.
 
 
-## Ground Settings
+## Ground Settings {#ground-settings}
 
 Sub-group that defines the floor disc itself — its surface
 material, radius, and stage-aware visibility. See the
 *Ground* group below for details.
 
 
-## Stage Geometry
+## Stage Geometry {#stage-geometry}
 
 Procedural stage, runway, walls, and inner pool well that
 surround the ground disc. See the *Stage / Pool* group
@@ -36,7 +36,7 @@ below for details. Stage geometry composes with the ground
 disc — both can be visible at once.
 
 
-## Water (HDRP)
+## Water (HDRP) {#water-hdrp}
 
 HDRP-only water surface anchored to the stage center, used
 by ocean and pool presets. See the *Water System* group
@@ -45,7 +45,7 @@ changes so the water tracks the pool well. Not available
 on URP — the water shader globals are cleared instead.
 
 
-## Presets
+## Presets {#presets}
 
 The preset list combines the sub-features into named looks.
 Picking a preset toggles the ground on or off, selects a floor
@@ -57,7 +57,7 @@ floor, a projector screen, or an LED box.
 
 ## Settings reference
 
-## Ground {#ground}
+## Ground {#ground-1}
 
 The flat ground disc that the scene sits on. Toggling it off
 hides the ground entirely (useful when a stage prop or AR
@@ -127,7 +127,7 @@ See [Color and glow](#settings-glow-color). Defaults and available controls for 
 
 See [Color and glow](#settings-glow-color). Defaults and available controls for this instance are listed in Config Reference.
 
-## Stage Geometry {#stage--pool}
+## Stage Geometry {#stage-geometry-1}
 
 Procedural stage built from a runway slab plus optional
 outer walls, inner well, and back wall — used for runways,
@@ -136,7 +136,7 @@ presets cover the common shapes; the fields below let you
 tune them.
 
 
-### Position
+### Position {#position}
 
 **Lift** raises the stage above the ground or sinks it
 below; a negative lift carves a hole through the ground
@@ -145,7 +145,7 @@ Offset** shifts the whole stage forward or back along the
 Z axis, useful for aligning with a tracked play area.
 
 
-### Geometry
+### Geometry {#geometry}
 
 The **Geometry** sub-group sizes the slab. **Center Width**
 / **Center Depth** define the main rectangle; **Side /
@@ -158,7 +158,7 @@ detaches the slab from the ground geometry so it can sit on
 water without z-fighting.
 
 
-### Surfaces
+### Surfaces {#surfaces}
 
 Three independent floor surfaces — *Top*, *Sides*, and
 *Background* — each with their own texture, tiling, and
@@ -167,7 +167,7 @@ the back board read as different materials (e.g. wood top
 with metal sides).
 
 
-### Custom Hole
+### Custom Hole {#custom-hole}
 
 By default the carved hole follows the stage outline. Toggle
 **Custom Hole** to override the bounds explicitly with the
@@ -254,7 +254,7 @@ Used for pools sitting in the stage's inner well, still
 lakes, and infinite oceans. Presets bundle the common looks.
 
 
-### Type and Height
+### Type and Height {#type-and-height}
 
 **Type** picks the water geometry. *Pool* sizes the surface
 to the stage's runway dimensions and is the right choice
@@ -267,7 +267,7 @@ Negative values sit the water below the floor (matching a
 pool well dug by a negative stage *Lift*).
 
 
-### Waves
+### Waves {#waves}
 
 **Ripples** drives the small wind-chop wavelets — keep
 this low for still water. **Large Wave** drives the broad
@@ -277,7 +277,7 @@ the wet effect reaches up onto materials touching the
 water.
 
 
-### Optical Properties
+### Optical Properties {#optical-properties}
 
 **Absorption Distance** is how far you can see through the
 water from above; lower it for murky water, raise it for

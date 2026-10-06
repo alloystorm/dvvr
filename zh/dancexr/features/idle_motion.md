@@ -44,5 +44,5 @@ DanceXR 2025.12 引入了由新的程序化运动控制系统驱动的更自然�
 - [Lifelike Motions](lifelike_motions) — 任何运动上的微妙微小动作
 - [Catwalk Motion](catwalk)
 - [Auto Dance 3](autodance3)
-- [Blink, Breathing & Eye Contact](eyecontact)
+- [Blink, Breathing & Eye Contact](lifelike_motions#eye-contact)
 - [Motion Settings](motion_settings)

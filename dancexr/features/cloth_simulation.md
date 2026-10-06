@@ -16,12 +16,12 @@ The key characteristics of the system are:
 
 Supports two independent cloth layers with configurable topology, anchoring, materials, and fluid particle effects.
 
-## Performance Guide
+## Performance Guide {#performance-guide}
 
 The simulation prefers higher and stable frame rates. Our recommendation is to choose a suitable fixed frame rate in your 'Display & UI' settings, and select a comparable framerate in the 'Compute' settings for cloth simulation.
 The default settings set the simulation frame rate at fixed 90. If your system runs at 60 or 30, it should still work fine except for a slight slow-motion effect. You can increase the number of sub-steps to compensate for this.
 
-## Collider Adjustments
+## Collider Adjustments {#collider-adjustments}
 
 The cloth simulation system uses its own collider models and does not interact with standard physics components. The default settings are tuned on a XPS model and should work on most DOA models. For PMX, the body proportions vary a lot, so you may need to fine-tune the colliders to fit the model.
 First turn on visualization so you can see the colliders, then go to each of the sections to adjust the shape and sizes for body parts.
@@ -31,19 +31,19 @@ You can imagine the collider as 2 spheres on both ends with adjustable smooth cu
 * The radius of the spheres separately.
 * The value of the curve in-between (positive is convex and negative is concave).
 
-## Cloth Layers
+## Cloth Layers {#cloth-layers}
 
 **Cloth 1** and **Cloth 2** each define a separate garment with its own mesh topology, anchor points, and material. Use **Rebuild Mesh** to regenerate the geometry after changing shape parameters. Presets include skirts, tops, and string configurations.
 
-## Materials
+## Materials {#materials}
 
 Each cloth layer has a **Material** panel for surface shading, texture selection, and detail mapping. Supports transparent rendering and audio-reactive visualization modes.
 
-## Fluid Simulation
+## Fluid Simulation {#fluid-simulation}
 
 An experimental particle shower system that spawns fluid droplets with configurable spawn position, auto-aim, cohesion, and viscosity. See the Fluid sub-panel for detailed particle behavior settings.
 
-## Collision
+## Collision {#collision}
 
 **Geometry Colliders** creates SDF body shapes for cloth to collide against. **Mesh Collider** generates tetrahedral colliders from the actor's skinned mesh for more accurate collision with arbitrary geometry.
 
@@ -160,7 +160,7 @@ the surface for fishnet, sci-fi panel, or studded looks. Toggle
 it off whenever you want a smooth fabric.
 
 
-#### Density & Shape
+#### Density & Shape {#density--shape}
 
 **Density** sets how many hexagons fit across the surface
 (snapped to powers of two for clean tiling). **Size** scales
@@ -172,14 +172,14 @@ values near zero give a crisp boundary, larger values blur the
 pattern into the surrounding surface.
 
 
-#### Bump & Noise
+#### Bump & Noise {#bump--noise}
 
 **Bump** raises or lowers each cell relative to the surface
 (negative values stamp inwards). **Noise** randomises per-cell
 height so the pattern doesn't read as a perfect grid.
 
 
-#### UV Projection
+#### UV Projection {#uv-projection}
 
 For outfits the cells can either follow the model's UV layout
 or be projected from a virtual cylinder around the body.
@@ -205,7 +205,7 @@ See [Cloth material settings](#settings-cloth-material). Defaults and available 
 <a id="background-color-1"></a>
 <a id="foreground-color-1"></a>
 <a id="hexagon-map-1"></a>
-## Fluid (Experimental) {#fluid}
+## Fluid (Experimental) {#fluid-experimental}
 
 An experimental particle-based fluid simulation system.
 Spawns up to 1000 particles with configurable physics
@@ -213,25 +213,25 @@ including cohesion, viscosity, gravity, and surface
 interaction. Particles can render as points or as scaled
 droplets with PBR material properties.
 
-### Spawn
+### Spawn {#spawn}
 
 Controls particle generation — fixed position, hand/mouse
 aiming, or auto-tracking. Configure rate, speed, spread,
 and lifetime.
 
-### Fluid
+### Fluid {#fluid}
 
 Defines particle interaction physics: cohesion strength,
 viscosity, stickiness, and target spacing. Presets include
 water, viscous fluid, and sand-like granular behavior.
 
-### Render
+### Render {#render}
 
 Toggles point cloud vs droplet mesh rendering. Droplet size
 can scale with local fluid density. Material properties
 include color, metallic, smoothness, glow, and transparency.
 
-### Spawn {#spawn}
+### Spawn {#spawn-1}
 
 Configures where and how fluid particles are generated.
 Supports three spawn modes: fixed position relative to the

@@ -57,4 +57,4 @@ LipSync는 [Spatial Audio](spatial_audio)와 자연스럽게 결합됩니다. �
 - [Facial Control](facial_control)
 - [Spatial Audio](spatial_audio)
 - [AI Voice Chat](ai_chat)
-- [Blink, Breathing & Eye Contact](eyecontact)
+- [Blink, Breathing & Eye Contact](lifelike_motions#eye-contact)

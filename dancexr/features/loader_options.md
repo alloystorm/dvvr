@@ -9,7 +9,7 @@ locale: en-US
 Settings that control how actor models are loaded and replaced.
 
 
-## Caching
+## Caching {#caching}
 
 Models are kept in an in-memory cache after first load so switching
 between actors is near-instant. **Cache Size** sets how many models
@@ -17,25 +17,25 @@ are held at once — increase it if you switch frequently, lower it
 to reduce RAM use.
 
 
-## Texture Compression
+## Texture Compression {#texture-compression}
 
 Enabling *Compress Textures* converts textures to a GPU-compressed
 format on load. This reduces VRAM significantly for complex models
 but may introduce minor quality loss on some materials.
 
 
-## Transition
+## Transition {#transition}
 
 Controls transition effects when adding, removing or replacing actor
-models. 
+models.
 
 
-## Auto Actor Change
+## Auto Actor Change {#auto-actor-change}
 
-When multiple models are in cache, the value of *Auto Actor Change* 
-will automatically switch between them at runtime. 
+When multiple models are in cache, the value of *Auto Actor Change*
+will automatically switch between them at runtime.
 
-With the auto update enabled for this value you can achieve automatic 
+With the auto update enabled for this value you can achieve automatic
 actor switching from music progress or any other data source you choose.
 
 
@@ -50,7 +50,7 @@ glow — a single configuration drives both the shader-side burn
 and the VFX spawn.
 
 
-### Edge Shape
+### Edge Shape {#edge-shape}
 
 **Direction** picks whether the edge sweeps *Up* or *Down* the
 mesh. **V Shape** bends the edge from a flat horizontal line
@@ -62,7 +62,7 @@ resizes that pattern (logarithmic) and **Width** widens the
 band the dissolve spans, from a sharp line to a diffuse fade.
 
 
-### Color and Glow
+### Color and Glow {#color-and-glow}
 
 **Color** is the burn color drawn at the leading edge of the
 dissolve. **Glow** boosts that edge to an emissive intensity
@@ -72,7 +72,7 @@ color in the transition band — drop it to keep the original
 material visible through the effect.
 
 
-### Duration and Particles
+### Duration and Particles {#duration-and-particles}
 
 **Transition Duration** is an on/off float — toggle it on to
 use a custom duration, off to fall back to the system default.

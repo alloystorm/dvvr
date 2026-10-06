@@ -34,3 +34,17 @@ The system automatically puts materials that are named with certain keywords int
 
 ## Shader improvements (v2026.2)
 DanceXR 2026.2 updates the skin shader to provide a more realistic skin texture appearance, improving how lighting and detail interact with skin materials across all supported platforms.
+
+## Sweat effect {#sweat-effect}
+
+Sweat is an actor-level effect that can apply to skin, hair and other materials. Open the actor's **Sweat** settings rather than treating it as part of the skin category override.
+
+1. Start with the **Sweaty** preset or raise **Sweat** from zero.
+2. Leave **Apply to Skin** enabled and initially disable **Apply to Hair** and **Apply to Others** so you can judge the skin alone.
+3. Adjust **Sweat Scale**, **Sweat Map Offset** and **Sweat Map Angle** to align the pattern. **Sweat Bump** changes droplet relief and **Sweat Flow** animates the pattern.
+4. Use **Wet Darken** for darkened wet areas; **Sweat Color** and **Sweat Blend** tint the effect.
+5. Enable **Water Drop** only if you also want falling droplets. **Sweat Drops** controls their rate; gravity, drag, duration, size and alpha control motion and appearance. **Sweat Collision** adds interaction with body colliders.
+
+For a subtle skin sheen, keep flowing texture and droplet spawning modest. If nothing changes, check the material's category and the effect's Apply toggles. To return to a dry appearance, use **Off**.
+
+The 2026.2 shader update improved the effect's appearance; 2026.3 added a dedicated shader variant for the disabled effect.

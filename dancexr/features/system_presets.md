@@ -7,60 +7,19 @@ toc: true
 
 # System Presets
 
-<!-- TODO: confirm exact contents and UI flow. Drafted from the 2024.1 release notes. -->
+System presets save the application setting manager's configuration so you can restore a scene-wide setup. They store settings rather than model, motion or music files. Use [Save Scene](save_scene) for loaded content and actor assignments.
 
-System Presets save **scene-wide and environment settings** — graphics quality, lighting, sky, ground — into a single named preset that you can reapply later or share with others.
+## Save and apply
 
-Added in **2024.1**. Presets are saved as individual JSON files in the [content library](../preparecontent).
+1. Configure the application settings you want to keep, such as graphics, lighting, sky and ground.
+2. Open **System Presets** in the environment menu and use its save action.
+3. Enter a name and choose **Save**. The preset is written as JSON under `presets/system/` in the [content library](../preparecontent).
+4. Open System Presets again and select the saved name to apply it.
 
----
+**Reload Saved** restores the application's saved settings. **Reset All** resets application settings; these actions are different from loading one named preset.
 
-## What a system preset contains
+## Scope and reuse
 
-<!-- TODO: confirm the exact list of settings captured. The release notes call out: graphics quality, lighting, sky, ground. There are likely more. -->
+System presets capture settings registered with the application setting manager. The exact collection depends on the build and available features, so compare the resulting settings after applying a preset on another platform. A preset cannot make an unavailable rendering feature appear.
 
-A typical system preset captures:
-
-- [Graphics settings](graphics) — render quality, post effects.
-- [Lighting](lighting) — directional and ambient light setup, [light balls](light_ball).
-- [Sky & cloud](skymap) and [Sky color](sky).
-- [Ground](ground) — material, shadow-only mode, etc.
-- <!-- TODO: confirm whether camera, weather, simulation, or audio settings are included. -->
-
-What is **not** in a system preset:
-
-- Per-actor settings — those live in [actor presets](actor_presets).
-- Loaded actors, motions, music, or stage assets — that lives in a [saved scene](save_scene).
-
----
-
-## Saving and loading
-
-<!-- TODO: confirm exact UI path. -->
-
-1. Configure your scene the way you want.
-2. Open the relevant scene / system menu.
-3. **Save preset** — give it a name. The preset is written as a JSON file under `presets/` (or the system-presets subfolder) in the content library.
-4. **Load preset** — pick a saved preset by name to apply it.
-
-Because each preset is a separate file, you can copy it between machines or share it with other users.
-
----
-
-## System presets vs other preset types
-
-| Preset | Scope | Typical contents | Page |
-|---|---|---|---|
-| **System preset** | Scene-wide | Graphics, lighting, sky, ground | (this page) |
-| **Actor preset** | Per actor | Materials, physics, dressing | [Actor Presets](actor_presets) |
-| **Saved scene** | Everything | Scene-wide + actors + motion + assignments | [Save Scene](save_scene) |
-| **Scene bundle** | Everything + assets | Saved scene + the model / motion / music files it depends on | [Scene Bundle](scene_bundle) |
-
----
-
-## Related pages
-
-- [Actor Presets](actor_presets)
-- [Save Scene](save_scene)
-- [Scene Bundle](scene_bundle)
-- [Content Library](../preparecontent)
+Per-actor configuration belongs in [Actor Presets](actor_presets). A [saved scene](save_scene) records content references and scene composition; a [Scene Bundle](scene_bundle) includes packaged content files. Choose the smallest scope that matches what you want to reuse.

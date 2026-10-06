@@ -1,14 +1,8 @@
 ---
-layout: release
+layout: forward
 title: 高光 / 蒙版地图
 locale: zh-CN
+target: "/zh/dancexr/features/texture_enhancement#specular-mask-map"
+redirect_fragments:
+  "高光遮罩图": "specular-mask-map"
 ---
-
-
-## 高光/遮罩图
-
-使用高光或遮罩图来控制材质的某些属性。例如金属感、环境光遮蔽、发光和光滑度。
-
-这使您可以选择地图的每个通道来控制材质的不同属性。
-
-对于每个属性，选择控制该属性的地图通道，并调整属性的强度。

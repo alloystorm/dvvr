@@ -11,14 +11,14 @@ actor movement through rigging adjustments. Useful for
 limiting dance ranges, creating vehicle simulations, or
 adding rhythmic animations like rocking motions.
 
-## Presets
+## Presets {#presets}
 
 Quick-start configurations include **Free** (minimal
 override), **Rocking Motion**, **Hoverbike**, **Rocking
 Horse**, **Pole Motion**, and **Pole Blend**. Each preset
 enables and configures relevant sub-panels automatically.
 
-## Body Controls
+## Body Controls {#body-controls}
 
 **Position Lock** restricts movement along horizontal,
 vertical, or both axes — useful for keeping actors in
@@ -29,7 +29,7 @@ with the dance. **Damping** smooths position changes
 **Forward/Back** shift the body. **Distance** mode
 maintains a set range from a target actor.
 
-## Rocking Motion
+## Rocking Motion {#rocking-motion}
 
 Simulates rhythmic movement with **Angle** (arc width),
 **Up/Down** and **Front/Back** (translation amplitude),
@@ -37,7 +37,7 @@ and **Depth Change** (proximity oscillation). **Feet
 Motion** blends foot movement with the rocking cycle.
 Timing is controlled via the **Motion Speed** sub-config.
 
-## Ride Model
+## Ride Model {#ride-model}
 
 Attaches a prop (hoverbike or saddle) with **Acceleration**
 and **Drag** physics. **Tilt When Turning** leans the
@@ -46,7 +46,7 @@ prop during direction changes. Adjust **Position**,
 **Particle Effect** for exhaust spark VFX trailing the
 vehicle.
 
-## Hand and Leg Poses
+## Hand and Leg Poses {#hand-and-leg-poses}
 
 **Hand Poses** (left/right) offer gesture presets and
 custom finger control with IK modes for grabbing or
@@ -67,7 +67,7 @@ maintains proximity to a **Target Actor** within a
 **Detect Range**, enforcing **Min** and **Max Distance**
 bounds.
 
-## Rocking Motion {#rocking-motion}
+## Rocking Motion {#rocking-motion-1}
 
 Nested config for rhythmic rocking motion simulation.
 **Rocking Angle** sets the arc, **Up/Down** and **Front/
@@ -133,7 +133,7 @@ poses.
 
 See [Attachment motion](#settings-accessory-motion). Defaults and available controls for this instance are listed in Config Reference.
 
-## Ride Model {#ride-model}
+## Ride Model {#ride-model-1}
 
 Nested config for rideable prop models (hoverbike, saddle).
 **Model** selects the prop type. **Acceleration** and

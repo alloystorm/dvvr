@@ -1,15 +1,10 @@
 ---
-layout: release
+layout: forward
 title: Sweat Effect
 locale: en-US
+target: "/dancexr/features/material_skin#sweat-effect"
+redirect_fragments:
+  "overview": "sweat-effect"
+  "shader-improvements-v20262": "sweat-effect"
+  "shader-optimization-v20263": "sweat-effect"
 ---
-
-
-## Overview
-The sweat effect adds a realistic glistening appearance to skin materials, simulating perspiration during dance performances.
-
-## Shader improvements (v2026.2)
-DanceXR 2026.2 updates the sweat effect shaders, resulting in a more realistic and visually accurate sweat appearance on character skin.
-
-## Shader optimization (v2026.3)
-A dedicated shader variant is now used when the sweat effect is disabled. This improves rendering performance when the sweat effect is not in use, especially at high resolutions and in VR.

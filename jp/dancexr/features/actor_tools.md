@@ -68,7 +68,7 @@ VRモードでは、サムスティックを上下に動かしてアクターを
     * [PMX物理（PMXのみ）](pmx_physics)
     * [足の調整](feet_adjustment)
     * [表情制御](facial_control)
-    * [まばたき、呼吸、アイコンタクト](eyecontact)
+    * [まばたき、呼吸、アイコンタクト](lifelike_motions#eye-contact)
     * [トラブルシューティングオプション](troubleshooting)
 * Pro
     * [衣装とボディペイント](outfit)
@@ -80,3 +80,17 @@ VRモードでは、サムスティックを上下に動かしてアクターを
     * [Dildo](dildo){: .nsfw}
     * ライトボール
 * モーフリスト（PMXのみ）
+
+## 最近変更した設定 {#recently-modified}
+
+アクターメニューのモーション設定の近くにある **Recently Modified** の見出しの下には、最近変更した設定が最大4件表示されます。項目を選ぶと、その設定を直接開けます。先に別のダイアログを開く必要はありません。
+
+物理やマテリアルを繰り返し調整するときに便利です。これらは現在のアクターの設定へのショートカットであり、保存済みプリセットや他のアクターへの設定コピーではありません。
+
+## 観客モード {#spectator-mode}
+
+アクターの Tools メニューで **Spectator** を切り替えると、そのアクターをメインのダンサー一覧から分離できます。モデルは読み込まれたままで、選択してマテリアル、ポーズ、設定を調整できます。
+
+Idle Motion の観客には専用の円形配置を使用できます。[Formation](formation) で **Use Spectator Formation** を有効にし、**Spectator Dist** で距離を設定します。ステージ中央を向かせるには **Rotate Spectators** を使用します。観客にモーションを明示的に割り当てれば動くこともできるため、Spectator は動きを停止するスイッチではありません。
+
+その場に立つ観客には [Idle Motion](idle_motion) を選び、Walking と Follow Actor を無効にします。歩行や追従が必要な場合にだけ有効にしてください。

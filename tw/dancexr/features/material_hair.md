@@ -35,7 +35,7 @@ DanceXR 會自動將名稱符合常見髮質關鍵字的材質分配到此類別
 
 ## 髮質物理獨立於此處
 
-髮質**運動** — 拍攝者轉頭或角色行走時骨骼擺動 — 是在 [髮質物理](hair_physics) 中配置的（或在新的模擬系統中透過 [粒子動力學](particle_dynamics)）。材質頁面僅控制髮質表面的渲染方式。
+髮質**運動** — 拍攝者轉頭或角色行走時骨骼擺動 — 是在 [髮質物理](hair_physics) 中配置的（或在新的模擬系統中透過 [粒子動力學](simulation#particle-dynamics)）。材質頁面僅控制髮質表面的渲染方式。
 
 ---
 
@@ -44,5 +44,5 @@ DanceXR 會自動將名稱符合常見髮質關鍵字的材質分配到此類別
 - [材質設定](material_settings)
 - [膚質材質](material_skin)
 - [髮質物理](hair_physics)
-- [粒子動力學](particle_dynamics)
+- [粒子動力學](simulation#particle-dynamics)
 - [卡通著色](toon_shading)

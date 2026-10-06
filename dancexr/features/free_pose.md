@@ -14,7 +14,7 @@ or over a locked seat while sitting. Pins are remembered, so a
 released limb stays where you leave it.
 
 
-## Start posing
+## Start posing {#start-posing}
 
 Select **Free Pose** from the procedural motion list. This
 replaces the actor's active motion with balance-driven posing.
@@ -25,7 +25,7 @@ In VR, use the controller ray to drag, or grip a body handle
 directly to move it with your hand. Start with both feet on the
 floor before trying a raised-foot or seated pose.
 
-## Posing & Pinning
+## Posing & Pinning {#posing--pinning}
 
 Drag a hand/arm or foot/leg to move that limb; the grab rides the
 pointer ray at a fixed depth, so moving the camera (or scrolling)
@@ -38,7 +38,7 @@ the leg drop and settle to the floor. The **Reset** action drops
 every pin and returns the actor to a neutral stand.
 
 
-## Weight Shift & Sway
+## Weight Shift & Sway {#weight-shift--sway}
 
 **Shift Smoothing** is the time the body takes to transfer weight
 from one foot to the other — larger feels slower and heavier.
@@ -47,7 +47,7 @@ standing pose doesn't look frozen; set it to *0* for a dead-still
 hold.
 
 
-## Support & Solver
+## Support & Solver {#support--solver}
 
 **Support Radius** is a slack disk around the weighted stance: COM
 excursion inside it counts as balanced and draws no hip correction,
@@ -57,7 +57,7 @@ frame — raise it for tighter limbs at a small cost, lower it to
 save time.
 
 
-## Leg Springs
+## Leg Springs {#leg-springs}
 
 The body is a single mass at the pelvis, held up by each grounded
 leg acting as a spring; the knee bend, the catch on landing, and
@@ -68,7 +68,7 @@ deeper crouch), and **Leg Damping** is the landing give that keeps
 a planted foot from bouncing.
 
 
-## Stance Control
+## Stance Control {#stance-control}
 
 **Stance Stiffness** and **Stance Damping** are the horizontal
 controller that holds the pelvis over the base of support —
@@ -77,7 +77,7 @@ stance from jittering. **Relax Rate** is how quickly a released leg
 eases back toward its resting pose.
 
 
-## Sitting
+## Sitting {#sitting}
 
 Drag the torso (waist) and hold still to lock it as a seat: the
 body then rests on it like a stool, and both feet are free to lift

@@ -244,13 +244,38 @@
         .replace(/"/g, '&quot;');
     }
 
+    {% raw %}
     function renderMd(text) {
       if (!text) return '';
-      return esc(text.replace(/\{%[\s\S]*?%\}/g, ''))
+      const inline = value => esc(value)
+        .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (match, label, href) => {
+          // Descriptions are data: allow ordinary documentation URLs only.
+          if (!/^(?:https?:\/\/|\/|#|[a-zA-Z0-9_.-]+(?:[\/#]|$))/.test(href)) return label;
+          return `<a href="${href}">${label}</a>`;
+        })
         .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-        .replace(/\*(.+?)\*/g, '<em>$1</em>')
-        .replace(/\r\n|\r|\n/g, '<br>');
+        .replace(/\*(.+?)\*/g, '<em>$1</em>');
+      const lines = text.replace(/\{%[\s\S]*?%\}/g, '').split(/\r\n|\r|\n/);
+      const cells = line => line.trim().replace(/^\||\|$/g, '').split('|').map(cell => inline(cell.trim()));
+      const output = [];
+      for (let i = 0; i < lines.length; i++) {
+        if (lines[i].trim().startsWith('|') && /^\s*\|?\s*:?-{3,}/.test(lines[i + 1] || '')) {
+          const header = cells(lines[i]).map(cell => `<th>${cell}</th>`).join('');
+          i += 2;
+          const rows = [];
+          while (i < lines.length && lines[i].trim().startsWith('|')) {
+            rows.push(`<tr>${cells(lines[i]).map(cell => `<td>${cell}</td>`).join('')}</tr>`);
+            i++;
+          }
+          i--;
+          output.push(`<table class="feature-table"><thead><tr>${header}</tr></thead><tbody>${rows.join('')}</tbody></table>`);
+        } else {
+          output.push(inline(lines[i]).replace(/^#{1,6}\s+(.+)$/, '<strong>$1</strong>') + '<br>');
+        }
+      }
+      return output.join('');
     }
+    {% endraw %}
 
     const TYPE_LABEL = {
       group: 'Group', float: 'Float', int: 'Integer', bool: 'Toggle',

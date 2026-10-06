@@ -11,7 +11,7 @@ Weather particles add atmospheric particle effects to the scene to simulate envi
 {% include video id="SLNw5XZflZ8" provider="youtube" %}
 
 
-## Particle settings
+## Particle settings {#particle-settings}
 
 **Spawn Rate** (0 to 2) controls the density of particles. Higher values produce more particles.
 
@@ -42,12 +42,12 @@ Weather particles add atmospheric particle effects to the scene to simulate envi
 **Stay on Ground** (0+) controls how long particles remain on the ground after landing. A value of 0 causes them to disappear on contact.
 
 
-## Rain shader
+## Rain shader {#rain-shader}
 
 The rain shader applies a screen-space effect that simulates rain droplets forming on the camera lens, adding an extra layer of immersion during rain weather.
 
 
-## Audio
+## Audio {#audio}
 
 Controls the volume of weather audio, such as rain sounds or ambient environmental noise.
 

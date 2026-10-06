@@ -8,7 +8,7 @@ locale: en-US
 
 Correct actor-specific rigging and motion problems. For missing files, loading failures or platform issues, use the [general troubleshooting guide](../troubleshooting). For an incorrectly identified skeleton, start with [Bone Mapper](bone_mapper).
 
-## Diagnose one change at a time
+## Diagnose one change at a time {#diagnose-one-change-at-a-time}
 
 Use a short motion that reproduces the issue and change one control at a time. Compare the same frame before and after the adjustment. These corrections compensate for differences between a model and a motion; they do not repair missing bones.
 
@@ -21,7 +21,7 @@ Use a short motion that reproduces the issue and change one control at a time. C
 | Neck or head turns too far | **Limit Neck Rotation**, **Limit Head Rotation** | Keep enough rotation for the motion and eye contact to remain natural |
 | Body rotation needs to move the center | **Apply Body Rotation To Center** | Hip and torso rotation transferred to the center bone |
 
-## Physics reset and compatibility
+## Physics reset and compatibility {#physics-reset-and-compatibility}
 
 **Reset Transition** blends from a standard pose to the animated pose during a physics reset, giving dynamic parts time to settle. **Leg Pose During Reset** changes the reset leg pose. Use this when an immediate reset leaves clothing or hair in an awkward state.
 

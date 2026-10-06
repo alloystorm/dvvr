@@ -36,7 +36,7 @@ DanceXR 会将名称匹配常见眼部关键词的材质自动分配到此类别
 
 ## 眼睛的行为与材质是分离的
 
-眼睛的**运动**（如眨眼、注视、眼神交流）是在 [Blink, Breathing & Eye Contact](eyecontact) 中配置的，而不是在此处。材质页面只控制眼睛表面如何渲染。
+眼睛的**运动**（如眨眼、注视、眼神交流）是在 [Blink, Breathing & Eye Contact](lifelike_motions#eye-contact) 中配置的，而不是在此处。材质页面只控制眼睛表面如何渲染。
 
 ---
 
@@ -45,4 +45,4 @@ DanceXR 会将名称匹配常见眼部关键词的材质自动分配到此类别
 - [Material Settings](material_settings)
 - [Skin Materials](material_skin)
 - [Hair Materials](material_hair)
-- [Blink, Breathing & Eye Contact](eyecontact)
+- [Blink, Breathing & Eye Contact](lifelike_motions#eye-contact)

@@ -54,7 +54,7 @@ toc: true
 ## 相关页面
 
 - [自动舞蹈](autodance) — 第 1 代
-- [自动舞蹈 2](autodance2) — 第 2 代
+- [自动舞蹈 2](autodance#auto-dance-2) — 第 2 代
 - [Sex Motion 3](sex_motion_3) — 共享运动控制系统，NSFW
 - [音乐节拍](music_timing)
 - [音频选项](audio_options)

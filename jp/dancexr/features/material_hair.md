@@ -35,7 +35,7 @@ DanceXRは、一般的な髪のキーワードと名前が一致するマテリ�
 
 ## 髪の物理演算は別です
 
-髪の**動き** — 頭を回すときや俳優が歩くときに骨が振れる動き — は、[Hair Physics](hair_physics)（または新しいシミュレーションシステムにおける[Particle Dynamics](particle_dynamics)経由）で設定します。このマテリアルページは、髪の表面がどのようにレンダリングされるかのみを制御します。
+髪の**動き** — 頭を回すときや俳優が歩くときに骨が振れる動き — は、[Hair Physics](hair_physics)（または新しいシミュレーションシステムにおける[Particle Dynamics](simulation#particle-dynamics)経由）で設定します。このマテリアルページは、髪の表面がどのようにレンダリングされるかのみを制御します。
 
 ---
 
@@ -44,5 +44,5 @@ DanceXRは、一般的な髪のキーワードと名前が一致するマテリ�
 - [Material Settings](material_settings)
 - [Skin Materials](material_skin)
 - [Hair Physics](hair_physics)
-- [Particle Dynamics](particle_dynamics)
+- [Particle Dynamics](simulation#particle-dynamics)
 - [Toon Shading](toon_shading)

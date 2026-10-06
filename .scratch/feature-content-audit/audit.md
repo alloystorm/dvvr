@@ -354,3 +354,18 @@ The inventory below includes all English feature pages, sorted by word count. It
 | [skirt_physics.md](../../dancexr/features/skirt_physics.md) | 1807 | 0 | Yes | Reduce repetition |
 | [accessory.md](../../dancexr/features/accessory.md) | 1898 | 0 | Yes | Reduce repetition |
 | [ai_chat.md](../../dancexr/features/ai_chat.md) | 2394 | 0 | No | No priority flag |
+
+
+## Implementation status (2026-10-06)
+
+The generated-page pass and English editorial pass are implemented. The current export owns **57 Markdown/JSON pairs**: the original 55 settings plus Interactive Pose and the deliberately migrated Room Stage guide. Reusable component descriptions render once per page; repeated instances keep their own headings, legacy anchors and complete exported JSON subtrees. JSON changes also refresh the reference from current configuration code.
+
+The editor export now supports a review output directory, validates duplicate paths and records an ownership manifest. Copying defaults to a dry run, copies only manifest-owned files, preserves website metadata and does not delete editorial files. The source documentation skill now describes shared components.
+
+English workflows were added or corrected in Accessory, Attach to Actor, Mesh to Cloth, Facial Control, rigging troubleshooting, Room Stage, Free Pose, Sky, Lifelike Motions and breast physics. The editorial pass covers playlists, Google Drive, Discovery, mirrors/screens, idle/catwalk/Auto Dance, playback lip sync/spatial audio, material/texture/transparency/sweat, water/simulation and scene/preset workflows. Incorrect authored-motion-library, guessed idle-slider, spatial-follow and spectator claims were removed.
+
+**15 old routes** now forward to canonical guides; existing translated material was retained in the localized destinations. The feature index and incoming feature-guide links use the canonical routes across all five languages. Water Interaction keeps its distinct generated help and JSON route, linking to the full Water System workflow. Interactive Pose remains distinct from Free Pose. Legacy cowgirl/Sex Motion 2 pages also remain distinct pending a focused source review.
+
+The English prose is ready for review. Localized consolidation routes and indices are updated, and the new Interactive Pose page has localized mirrors. A translation refresh/review for the newly enriched English prose is still a separate remaining pass; retained localized articles should not be treated as fully synchronized translations. Source-owned descriptions must also be localized through the Unity localization workflow rather than by hand-editing exported JSON.
+
+Validation: Unity batch export and grouping checks pass; instance variants, JSON retention, deterministic/page-local grouping, generic containers and heading collisions are covered. A full Jekyll build using the installed theme passes. All 57 generated manuals have unique rendered IDs. Canonical merge anchors resolve in English and all four localized mirrors. Browser checks cover both Accessory tabs and the selected attachment description. The copy dry run is clean after applying the final export.

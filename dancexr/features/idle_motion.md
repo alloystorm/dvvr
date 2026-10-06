@@ -7,42 +7,22 @@ toc: true
 
 # Idle Motion
 
-<!-- TODO: confirm UI labels. Drafted from release notes (2025.12) and the procedural-motion family. -->
+Idle Motion provides a configurable resting pose with weight shifts and small body movements. Select it as a procedural motion when an actor should stay present without performing a dance. Use [Lifelike Motions](lifelike_motions) for blink, breathing and gaze overlays on another motion.
 
-Idle Motion is a procedural motion that plays when an actor has no other motion assigned. It simulates breathing, weight shifting, and small head and limb movements so the actor looks alive in the standing pose rather than frozen.
+## Make a resting pose
 
----
+1. Select **Idle Motion** and open the actor's motion settings.
+2. Start with **Stand**, **Sit** or **On Floor**. These presets also change hand poses and stance, so inspect the result on your model.
+3. Adjust the hand poses, **Lift** and **Hip Bend** to settle the body at the intended height and bend.
+4. Enable **Shifting** for changes of weight. **Shift Interval** controls the interval; **Random** varies that shifting behavior.
+5. Compare **Micro Twist** and **Head Turn** on and off to decide how much background movement the shot needs.
 
-## When idle motion plays
+For a still pose, disable the movement toggles rather than looking for a single intensity control. To dance instead, assign another motion to the actor. [Free Pose](free_pose) provides direct dragging and foot pinning when you want to place limbs interactively.
 
-- Before any motion is assigned to the actor.
-- When a motion ends (and the actor is not part of a sequence).
-- During pauses in a sequence.
+## Spectators
 
-If an explicit motion is playing, idle motion does not run. To layer subtle micro-movements on top of an active motion, see [Lifelike Motions](lifelike_motions) instead.
+Spectator actors expose additional idle controls: **Follow Actor**, **Min Distance**, **Follow Speed**, **Walking** and **Turn To Speaker**. Start with walking and following disabled for a stationary audience member, then enable the behavior you need and check spacing around the other actors. These controls are specific to spectator behavior; they do not set the Catwalk motion's stride.
 
----
+## Check the model
 
-## Settings
-
-<!-- TODO: confirm exact slider names and ranges. -->
-
-- **Intensity** — overall amplitude of the idle movement.
-- **Speed** — how quickly the breathing / weight-shift cycle runs.
-- **Body sway, head movement** — per-region multipliers.
-
----
-
-## New idle motion (v2025.12)
-
-DanceXR 2025.12 introduced a more natural idle motion driven by the new procedural motion control system. The new version produces smoother, less repetitive idle animation than earlier builds. More improvements to procedural motion control are planned for future releases.
-
----
-
-## Related pages
-
-- [Lifelike Motions](lifelike_motions) — subtle micro-movements on top of any motion
-- [Catwalk Motion](catwalk)
-- [Auto Dance 3](autodance3)
-- [Blink, Breathing & Eye Contact](eyecontact)
-- [Motion Settings](motion_settings)
+If the resting pose bends unexpectedly, inspect [Bone Mapper](bone_mapper) and [actor troubleshooting](troubleshooting). If the feet float or sink, check the actor's height and [Feet Adjustment](feet_adjustment) before adding more idle movement.

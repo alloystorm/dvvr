@@ -7,50 +7,21 @@ toc: true
 
 # Spatial Audio
 
-<!-- TODO: confirm against current build. Drafted from the 2024.9 release notes. -->
+Spatial audio gives playback sound a position in the scene. Use it when the track should sound as though it comes from a character, especially while viewing the scene in VR.
 
-Spatial Audio plays scene audio from a position in 3D space rather than as a flat stereo mix. Anchoring audio to an actor's head makes the sound move with that actor, which adds a strong sense of presence in VR and on multi-actor stages.
+## Follow an actor
 
-Added in **2024.9**.
+1. Open the **Spatialize** group in [Playback Options](playback_options) and enable it.
+2. Increase **Spatial Blend** to introduce the 3D effect. At zero, the source remains a 2D mix even when the group is enabled.
+3. Enable **Follow Actor**, then use **Select Actor** to choose the source actor.
+4. Play the track and move the camera or headset around that actor to compare the result.
 
----
+Follow Actor updates the source position from the selected actor's tracked head. Selecting an actor alone does not enable following. After removing or reordering actors, check that the selector still points to the actor you intend.
 
-## Enabling spatial audio
+## Combine with mouth movement
 
-<!-- TODO: confirm exact menu path. Drafted from the release notes which name the option as "Spatialize" under Playback Options. -->
+Enable [LipSync](lipsync) on the actor that should appear to sing or speak. Spatialize and LipSync are independent: one positions sound, while the other applies mouth expressions. Choosing a spatial source does not automatically turn other actors' lip sync off.
 
-1. Open [Playback Options](playback_options).
-2. Turn on **Spatialize**.
-3. Choose an actor from the dropdown — that actor's **head position** becomes the audio source.
+For music that should fill the scene rather than come from one character, lower Spatial Blend or disable Spatialize. Compare from your normal viewing position before saving the setup.
 
-Audio then attenuates with distance and pans correctly relative to the camera or VR headset.
-
----
-
-## Behavior
-
-- The audio source follows the chosen actor's head bone as the actor moves.
-- In VR, the effect uses head tracking, so turning your head changes left / right balance naturally.
-- <!-- TODO: confirm whether stereo is preserved or audio is downmixed to mono at the source. -->
-- <!-- TODO: confirm distance attenuation curve and whether it is configurable. -->
-
----
-
-## Pairing with LipSync
-
-Spatial Audio pairs naturally with the [audio-driven lip sync](lipsync) introduced in the same release: anchoring audio to an actor's head and driving that actor's mouth from the same audio gives a consistent "this actor is the one talking" effect.
-
----
-
-## Limitations
-
-<!-- TODO: confirm. Likely areas to verify: which audio types this applies to (music vs voice chat vs video), behavior with multiple actors, behavior on Android / Quest, behavior in AR mode. -->
-
----
-
-## Related pages
-
-- [Playback Options](playback_options)
-- [Audio Options](audio_options)
-- [LipSync](lipsync)
-- [AI Voice Chat](ai_chat)
+[AI Voice Chat](ai_chat) has its own speech source and spatial voice configuration. These playback settings configure the playback AudioPlayer; use the chat settings for conversational speech.

@@ -1,0 +1,62 @@
+{
+  "skymap": [
+    "sky",
+    "mode"
+  ],
+  "eyecontact": [
+    "lifelike_motions",
+    "eye-contact"
+  ],
+  "posing": [
+    "free_pose",
+    "posing--pinning"
+  ],
+  "material_opaque": [
+    "material_settings",
+    "opaque-materials"
+  ],
+  "material_custom1": [
+    "material_settings",
+    "custom-materials"
+  ],
+  "material_transparent": [
+    "transparency",
+    "transparent-category"
+  ],
+  "specular_map": [
+    "texture_enhancement",
+    "specular-mask-map"
+  ],
+  "generate_normal_map": [
+    "texture_enhancement",
+    "generate-normal-map"
+  ],
+  "custom_detail_map": [
+    "texture_enhancement",
+    "custom-detail-map"
+  ],
+  "hexagon_detail": [
+    "texture_enhancement",
+    "hexagon-pattern"
+  ],
+  "sweat_effect": [
+    "material_skin",
+    "sweat-effect"
+  ],
+  "autodance2": [
+    "autodance",
+    "auto-dance-2"
+  ],
+  "particle_dynamics": [
+    "simulation",
+    "particle-dynamics"
+  ],
+  "recently_modified": [
+    "actor_tools",
+    "recently-modified"
+  ],
+  "spectator_mode": [
+    "actor_tools",
+    "spectator-mode"
+  ]
+}

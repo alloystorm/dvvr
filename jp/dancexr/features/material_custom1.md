@@ -1,17 +1,9 @@
 ---
-layout: release
+layout: forward
 title: ## カスタムマテリアル
 locale: ja-JP
+target: "/jp/dancexr/features/material_settings#custom-materials"
+redirect_fragments:
+  "カスタムマテリアル": "custom-materials"
+  "テクスチャ強化": "custom-materials"
 ---
-
-## カスタムマテリアル
-デフォルトでは、これはオフになっており、アサインされたマテリアルはありません。
-
-マテリアルのグループに一様な設定を適用したい場合は、それらをこのカテゴリにアサインし、これを有効にして、ここで調整を行うことができます。
-
-## テクスチャ強化
-このカテゴリのマテリアルのテクスチャは、特定の効果のためにスペキュラーマップを利用したり、ベースマップまたはスペキュラーマップからノーマルマップを生成したり、カスタムディテールマップを使用してマテリアルの詳細を向上させることで、強化することができます。
-
-* [スペキュラー/マスクマップの使用](specular_map)
-* [ノーマルマップの生成](generate_normal_map)
-* [カスタムディテールマップの使用](custom_detail_map)

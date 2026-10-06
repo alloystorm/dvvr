@@ -9,7 +9,7 @@ locale: en-US
 Input settings allow you to map and calibrate controller inputs for both keyboard/mouse and game controllers (including VR hand controllers).
 
 
-## Options
+## Options {#options}
 
 **Trackpad Mode** changes the behavior of controller touchpads. When enabled, axis values are only output when the pad button is physically pressed.
 
@@ -22,7 +22,7 @@ Input settings allow you to map and calibrate controller inputs for both keyboar
 **Grip Threshold** (0.0 to 1.0) sets the actuation threshold for the grip button. Useful for highly sensitive controllers (like Valve Index) to prevent accidental triggers.
 
 
-## Controller Mapping
+## Controller Mapping {#controller-mapping}
 
 You can customize the mapping of various axes and buttons on your controller:
 * **Axes** can be mapped to actions like camera movement, rotation, timeline scrubbing, or frame stepping.

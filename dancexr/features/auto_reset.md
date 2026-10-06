@@ -11,7 +11,7 @@ exceeds a safe limit. Prevents physics explosions and mesh
 deformation under extreme forces or teleportation.
 
 
-## Threshold
+## Threshold {#threshold}
 
 Sets the velocity threshold above which physics are reset.
 Lower values trigger resets more aggressively, which can

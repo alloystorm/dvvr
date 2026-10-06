@@ -11,7 +11,7 @@ model. Supports up to 8 bone groups with configurable
 joints, colliders, and particle-based mesh deformation.
 
 
-## Group Management
+## Group Management {#group-management}
 
 The **Primary Group** is always active and defines the main
 physics chain. **Additional Groups** adds up to 7 more
@@ -20,7 +20,7 @@ groups can inherit settings from the primary group or
 override them via **Override Physics**.
 
 
-## Bone Selection
+## Bone Selection {#bone-selection}
 
 Each group has a **Select Bones** picker to choose root
 bones. **Sorting** organizes bones for lateral connections
@@ -31,7 +31,7 @@ excludes initial levels from physics, keeping the waist
 area firm.
 
 
-## Physics Mode
+## Physics Mode {#physics-mode}
 
 **Auto** follows the system-wide default. **PhysX** uses
 joint-based rigid body physics with box, capsule, or sphere
@@ -40,7 +40,7 @@ for more stable, continuous deformation. The mode
 determines which settings panel is shown.
 
 
-## PhysX Settings
+## PhysX Settings {#physx-settings}
 
 Visible when using PhysX mode. Contains nested panels for
 **Physics Properties** (mass, drag, friction, solver
@@ -51,14 +51,14 @@ length). **First Collider Length** is typically shorter to
 avoid interference with body colliders.
 
 
-## XPBD Settings
+## XPBD Settings {#xpbd-settings}
 
 Visible when using XPBD mode. Configures particle-based
 mesh simulation via the XPartMesh system with rotation,
 twist, and lateral compliance values.
 
 
-## Visualization
+## Visualization {#visualization}
 
 **Visualize Bodies** renders collider shapes for physics
 bodies. **Visualize Joints** shows joint limits and drive
@@ -124,7 +124,7 @@ Collider Length** control elongation, with the first level
 typically shorter to avoid body interference.
 
 <a id="settings-particle-mesh"></a>
-### XPBD mesh settings (XPBD Settings) {#xpbd-settings}
+### XPBD mesh settings (XPBD Settings) {#xpbd-settings-1}
 
 Configures particle-based chain or mesh simulation for hair,
 cloth, and other dangling parts. **Rotation Compliance** controls
@@ -151,7 +151,7 @@ See [Skirt group settings](#settings-skirt-group). Defaults and available contro
 <a id="parent-child-joint-1"></a>
 <a id="lateral-joint-1"></a>
 <a id="collider-1"></a>
-<a id="xpbd-settings-1"></a>
+<a id="xpbd-settings-2"></a>
 ## Group 3 {#group-3}
 
 See [Skirt group settings](#settings-skirt-group). Defaults and available controls for this instance are listed in Config Reference.
@@ -160,7 +160,7 @@ See [Skirt group settings](#settings-skirt-group). Defaults and available contro
 <a id="parent-child-joint-2"></a>
 <a id="lateral-joint-2"></a>
 <a id="collider-2"></a>
-<a id="xpbd-settings-2"></a>
+<a id="xpbd-settings-3"></a>
 ## Group 4 {#group-4}
 
 See [Skirt group settings](#settings-skirt-group). Defaults and available controls for this instance are listed in Config Reference.
@@ -169,7 +169,7 @@ See [Skirt group settings](#settings-skirt-group). Defaults and available contro
 <a id="parent-child-joint-3"></a>
 <a id="lateral-joint-3"></a>
 <a id="collider-3"></a>
-<a id="xpbd-settings-3"></a>
+<a id="xpbd-settings-4"></a>
 ## Group 5 {#group-5}
 
 See [Skirt group settings](#settings-skirt-group). Defaults and available controls for this instance are listed in Config Reference.
@@ -178,7 +178,7 @@ See [Skirt group settings](#settings-skirt-group). Defaults and available contro
 <a id="parent-child-joint-4"></a>
 <a id="lateral-joint-4"></a>
 <a id="collider-4"></a>
-<a id="xpbd-settings-4"></a>
+<a id="xpbd-settings-5"></a>
 ## Group 6 {#group-6}
 
 See [Skirt group settings](#settings-skirt-group). Defaults and available controls for this instance are listed in Config Reference.
@@ -187,7 +187,7 @@ See [Skirt group settings](#settings-skirt-group). Defaults and available contro
 <a id="parent-child-joint-5"></a>
 <a id="lateral-joint-5"></a>
 <a id="collider-5"></a>
-<a id="xpbd-settings-5"></a>
+<a id="xpbd-settings-6"></a>
 ## Group 7 {#group-7}
 
 See [Skirt group settings](#settings-skirt-group). Defaults and available controls for this instance are listed in Config Reference.
@@ -196,7 +196,7 @@ See [Skirt group settings](#settings-skirt-group). Defaults and available contro
 <a id="parent-child-joint-6"></a>
 <a id="lateral-joint-6"></a>
 <a id="collider-6"></a>
-<a id="xpbd-settings-6"></a>
+<a id="xpbd-settings-7"></a>
 ## Group 8 {#group-8}
 
 See [Skirt group settings](#settings-skirt-group). Defaults and available controls for this instance are listed in Config Reference.
@@ -205,4 +205,4 @@ See [Skirt group settings](#settings-skirt-group). Defaults and available contro
 <a id="parent-child-joint-7"></a>
 <a id="lateral-joint-7"></a>
 <a id="collider-7"></a>
-<a id="xpbd-settings-7"></a>
+<a id="xpbd-settings-8"></a>

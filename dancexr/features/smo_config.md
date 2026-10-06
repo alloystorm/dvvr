@@ -10,7 +10,7 @@ Controls adult motion overlay and attachment props for an actor model.
 This is a Pro-only feature and requires compatible skeletons.
 
 
-## Pose
+## Pose {#pose}
 
 **Vertical Shift** raises or lowers the actor's root position — useful
 for adjusting height relative to a partner or object. **Angle** sets
@@ -22,14 +22,14 @@ correction so hands follow the body motion instead of floating in place.
 Values above zero enable proportional IK influence.
 
 
-## Motion
+## Motion {#motion}
 
 The motion subsystem drives rhythmic root offsets synced to the music
 beat. Settings are managed by the nested Organic Motion panel, which
 controls amplitude, frequency, and timing patterns.
 
 
-## Attachment
+## Attachment {#attachment}
 
 The **Dildo** section configures a bone-attached prop with its own
 model, surface material, and XRay cutaway. It can also drive hand
@@ -38,7 +38,7 @@ grab poses and leg IK when active.
 
 ## Settings reference
 
-## Motion {#motion}
+## Motion {#motion-1}
 
 Reusable spring-driven thrust controller. A shaped driver curve
 pushes one mass, a second mass trails behind it, and the gap
@@ -47,7 +47,7 @@ systems. This makes the cycle feel elastic rather than like a
 raw sine wave.
 
 
-### Tempo and Travel
+### Tempo and Travel {#tempo-and-travel}
 
 **Extent** sets the maximum travel distance. **Auto Intensity**
 can scale that travel from the current music level, while
@@ -57,7 +57,7 @@ audio-driven controls when the motion should breathe with the
 soundtrack instead.
 
 
-### Driver Shape
+### Driver Shape {#driver-shape}
 
 **Top Duration**, **Bottom Duration**, and **Slope Balance**
 shape the idealized cycle before the springs respond to it. A
@@ -67,7 +67,7 @@ drive and return strokes. This is where you define whether the
 motion feels punchy, even, or teasing.
 
 
-### Spring Response
+### Spring Response {#spring-response}
 
 **Collision Distance** sets the resting separation between the
 two spring masses. **Spring A**, **Damping A**, **Spring B**,
@@ -77,7 +77,7 @@ left in the result. Stiffer values feel more mechanical; softer
 values feel heavier but can get mushy if the cycle is fast.
 
 
-### Visualization
+### Visualization {#visualization}
 
 **Visualize Curve** draws the target and spring responses in the
 scene so you can tune the shape without guessing from the body
@@ -164,7 +164,7 @@ modes — higher values bend light more.
 refraction.
 
 <a id="settings-accessory-motion"></a>
-### Attachment motion (Motion) {#motion-1}
+### Attachment motion (Motion) {#motion-2}
 
 Drives rhythmic up/down oscillation on an attachment prop, synced to
 the music beat. The toggle enables motion; **Distance** sets the

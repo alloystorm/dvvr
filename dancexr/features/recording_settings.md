@@ -9,14 +9,14 @@ locale: en-US
 Recording settings allow you to configure the output parameters for offline rendering and video capture, available in the Creator Edition.
 
 
-## Output Format & Quality
+## Output Format & Quality {#output-format--quality}
 
 **Image Format** selects the output file format for the rendered frames: *JPG*, *PNG*, or *TGA*.
 
 **JPG Quality** (0 to 100) sets the compression quality if JPG is chosen. Higher values yield better quality at the cost of larger file sizes.
 
 
-## Resolution
+## Resolution {#resolution}
 
 **Resolution** sets the aspect ratio and size of the output frames in 2D and 3D SBS modes. Common options include *FHD 1920x1080*, *QHD 2560x1440*, and *UHD 3840x2160*.
 
@@ -25,7 +25,7 @@ Recording settings allow you to configure the output parameters for offline rend
 **Vertical** renders the output in a vertical aspect ratio.
 
 
-## Performance & Capture Settings
+## Performance & Capture Settings {#performance--capture-settings}
 
 **Frame Rate** selects the target output frame rate (e.g., *24*, *30*, *60*, *90*, *120* fps). Offline rendering ensures smooth output at the target frame rate regardless of real-time performance.
 

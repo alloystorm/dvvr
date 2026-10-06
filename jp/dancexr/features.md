@@ -15,11 +15,6 @@ feature_sections:
   - title: 新機能と注目ポイント
     light: true
     tiles:
-      - title: DanceXR Native
-        link: /jp/dancexr/features/native
-        image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
-        badge: "2026.8 | Path-Traced Native App"
-        badge_type: new
       - title: ディスカバリーアプリ
         link: /jp/dancexr/features/discovery
         image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
@@ -174,45 +169,17 @@ feature_sections:
           - title: 唇のマテリアル
             link: /jp/dancexr/features/material_lips
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
-          - title: 不透明な素材
-            link: /jp/dancexr/features/material_opaque
-            image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
-          - title: 透明な素材
-            link: /jp/dancexr/features/material_transparent
-            image: /images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp
-          - title: "## カスタムマテリアル"
-            link: /jp/dancexr/features/material_custom1
-            image: /images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp
           - title: マテリアル設定
             link: /jp/dancexr/features/material_settings
-            image: /images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp
-            badge: PRO
-            badge_type: pro
+            image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
+          - title: 透明な素材
+            link: /jp/dancexr/features/transparency
+            image: /images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp
           - title: テクスチャの向上
             link: /jp/dancexr/features/texture_enhancement
             image: /images/slideshows/dressing/%5BDanceXR%202024.3%5D%20Improved%20Stocking%20Effect%20%5BewUUxxGbAm8%5D.webp
             badge: PRO
             badge_type: pro
-          - title: 汗のエフェクト
-            link: /jp/dancexr/features/sweat_effect
-            image: /images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp
-            badge: 2026.2 · NSFW
-            badge_type: nsfw
-          - title: カスタムディテールマップ
-            link: /jp/dancexr/features/custom_detail_map
-            image: /images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp
-          - title: ノーマルマップを生成
-            link: /jp/dancexr/features/generate_normal_map
-            image: /images/slideshows/dressing/HIBIKASE%20-%20DOAXVV%20Mikasa%20Dissolving%20Outfit%20%5BZZwW0PoJ1vE%5D.webp
-          - title: 六角形パターン詳細マップ
-            link: /jp/dancexr/features/hexagon_detail
-            image: /images/slideshows/dressing/Marie%20Rose%20Morphing%20Ballet%20Outfit%20-%20Satisfaction%20%5BRgNi-DdEfL0%5D.webp
-          - title: スペキュラー / マスクマップ
-            link: /jp/dancexr/features/specular_map
-            image: /images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp
-          - title: 透明な素材
-            link: /jp/dancexr/features/transparency
-            image: /images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp
   - title: 物理シミュレーション
     light: true
     hub_url: /jp/dancexr/physics
@@ -232,16 +199,6 @@ feature_sections:
             link: /jp/dancexr/features/mesh_to_cloth
             image: /images/slideshows/physics/Convert%20Model%20Mesh%20To%20Cloth%20Simulation%20-%20DanceXR%202024.9%20%5BFdMSBaPMUHI%5D.webp
             badge: 2024.9 · PRO
-            badge_type: pro
-          - title: パーティクルダイナミクス
-            link: /jp/dancexr/features/particle_dynamics
-            image: /images/slideshows/simulation/Wearing%20a%20spiderweb%20%5BooZ3Kq8D6ZQ%5D.webp
-            badge: 2024.9 · PRO
-            badge_type: pro
-          - title: ソフトボディシミュレーション
-            link: "/jp/dancexr/features/particle_dynamics#softbody"
-            image: /images/slideshows/simulation/Nyotengo%20Looks%20Absolutely%20Stunning%20No%20Matter%20What%20She%20Wears%20%5BRxj702Ktp8s%5D.webp
-            badge: 2024.11 · PRO
             badge_type: pro
           - title: ラグドール
             link: /jp/dancexr/features/ragdoll
@@ -291,17 +248,16 @@ feature_sections:
             image: /images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp
           - title: フリーポーズモーション
             link: /jp/dancexr/features/free_pose
+          - title: インタラクティブポーズ
+            link: /jp/dancexr/features/interactive_pose
+            badge: 2026.9
+            badge_type: new
           - title: ランウェイウォーク
             link: /jp/dancexr/features/catwalk
             image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
           - title: 自動ダンス
             link: /jp/dancexr/features/autodance
             image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
-            badge: PRO
-            badge_type: pro
-          - title: Auto Dance 2
-            link: /jp/dancexr/features/autodance2
-            image: /images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp
             badge: PRO
             badge_type: pro
           - title: Auto Dance 3
@@ -311,9 +267,6 @@ feature_sections:
             badge_type: pro
       - title: キャラクタービヘイビア
         tiles:
-          - title: 瞬き、呼吸、目線
-            link: /jp/dancexr/features/eyecontact
-            image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
           - title: よりリアルなモーション
             link: /jp/dancexr/features/lifelike_motions
             image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
@@ -390,12 +343,9 @@ feature_sections:
     subsections:
       - title: "空 & ライティング"
         tiles:
-          - title: 空と雲
-            link: /jp/dancexr/features/skymap
-            image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
           - title: 空
             link: /jp/dancexr/features/sky
-            image: /images/slideshows/environment/How%20is%20the%20shadow%20on%20the%20wall%20even%20possible%EF%BC%9F%20%5B85lKm5S3Oa8%5D.webp
+            image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
           - title: ライティング
             link: /jp/dancexr/features/lighting
             image: /images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp
@@ -463,11 +413,6 @@ feature_sections:
             link: /jp/dancexr/features/raytracing
             image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
             badge: PC
-          - title: DanceXR Native
-            link: /jp/dancexr/features/native
-            image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
-            badge: "2026.8 · PC"
-            badge_type: new
   - title: シネマカメラ
     hub_url: /jp/dancexr/cameras
     hub_summary: Six camera modes — Freefly, Auto, Orbit, One-shot, Concert, First Person — each tuned for a different shot style, plus shared parameters and recording considerations.
@@ -487,9 +432,6 @@ feature_sections:
       - title: ワンショットカメラ
         link: /jp/dancexr/features/one_shot_cam
         image: /images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp
-      - title: 一人称カメラ
-        link: /jp/dancexr/features/camera_settings
-        image: /images/slideshows/camera/First%20Person%2039%20Music%20%5BY5T3JkedkQs%5D.webp
       - title: 固定カメラ（コンサートモード）
         link: /jp/dancexr/features/concert_cam
         image: /images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp

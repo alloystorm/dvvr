@@ -1,23 +1,10 @@
 ---
-layout: release
+layout: forward
 title: 透明な素材
 locale: ja-JP
+target: "/jp/dancexr/features/transparency#transparent-category"
+redirect_fragments:
+  "透明マテリアル": "transparent-category"
+  "カテゴリ分類": "transparent-category"
+  "テクスチャの強化": "transparent-category"
 ---
-
-
-## 透明マテリアル
-透明マテリアルは、肌、髪、目、唇のマテリアルに含まれていない透明なマテリアルです。
-
-これはデフォルトでオフになっており、マテリアルリスト内のマテリアルを個別に制御できるようになっています。すべての透明マテリアルに一貫した設定を適用したい場合は、ここで有効にして調整できます。
-
-## カテゴリ分類
-システムは、XPSモデルのメッシュからの情報（またはPMXモデルのテクスチャ形式）に基づいて、マテリアルが不透明か透明かを自動的に判断します。これは時々間違うことがあるため、このカテゴリに手動でマテリアルを割り当てることができます。
-
-[マテリアルの分類方法](material_settings#material-category)
-
-## テクスチャの強化
-このカテゴリのマテリアルのテクスチャを強化するために、特定の効果のためにスペキュラマップを利用したり、ベースマップやスペキュラマップから法線マップを生成したり、カスタムディテールマップを使用してマテリアルの詳細を向上させることができます。
-
-* [スペキュラ/マスクマップの使用](specular_map)
-* [法線マップの生成](generate_normal_map)
-* [カスタムディテールマップの使用](custom_detail_map)

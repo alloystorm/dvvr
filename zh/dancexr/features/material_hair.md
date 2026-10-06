@@ -35,7 +35,7 @@ DanceXR 会自动将名称匹配通用头发关键词的材质分配到此类别
 
 ## 头发物理属于独立部分
 
-头发 **运动** — 头部转动或角色行走时骨骼的摆动 — 在 [头发物理](hair_physics)（或在新的模拟系统上的 [粒子动态](particle_dynamics)）中配置。此材质页面仅控制头发表面的渲染方式。
+头发 **运动** — 头部转动或角色行走时骨骼的摆动 — 在 [头发物理](hair_physics)（或在新的模拟系统上的 [粒子动态](simulation#particle-dynamics)）中配置。此材质页面仅控制头发表面的渲染方式。
 
 ---
 
@@ -44,5 +44,5 @@ DanceXR 会自动将名称匹配通用头发关键词的材质分配到此类别
 - [材质设置](material_settings)
 - [皮肤材质](material_skin)
 - [头发物理](hair_physics)
-- [粒子动态](particle_dynamics)
+- [粒子动态](simulation#particle-dynamics)
 - [卡通着色](toon_shading)

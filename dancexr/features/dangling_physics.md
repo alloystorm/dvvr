@@ -12,7 +12,7 @@ physics but tuned for heavier, slower movement with lower spring
 stiffness for more exaggerated swinging.
 
 
-## Bone Selection
+## Bone Selection {#bone-selection}
 
 Use **Select Bones** to pick root bones of dangling parts — the
 system automatically traverses children to build the chain.
@@ -21,7 +21,7 @@ base. **Max Levels** caps chain depth (0 = unlimited). Presets
 let you save configurations across different models.
 
 
-## Physics Mode
+## Physics Mode {#physics-mode}
 
 **Auto** follows the system-wide default. **PhysX** uses
 joint-based rigid body physics with capsule or sphere colliders.
@@ -30,7 +30,7 @@ for long chains and interacts with the scene collision layers.
 The mode determines which settings panel is shown.
 
 
-## PhysX Settings
+## PhysX Settings {#physx-settings}
 
 Visible when using PhysX mode. **Spring Force** (logarithmic)
 controls stiffness — lower values than hair physics give a looser,
@@ -45,7 +45,7 @@ Length** scales it along the bone as a capsule. **Anchor Position**
 chooses where the joint attaches (0 = parent bone, 1 = child bone).
 
 
-## XPBD Chain
+## XPBD Chain {#xpbd-chain}
 
 Visible when using XPBD mode. Configures particle-based chain
 simulation with **Rotation Compliance**, **Twist Compliance**,
@@ -55,7 +55,7 @@ Collision layer is set to Cloth for interaction with the rest
 of the scene.
 
 
-## Visualization
+## Visualization {#visualization}
 
 **Visualize Bodies** renders collider shapes for physics bodies.
 **Visualize Joints** shows joint limits and drive targets as

@@ -11,7 +11,7 @@ rotation directly. Move freely through the scene, orbit around
 a point, or lock on to an actor for tracking.
 
 
-## Movement
+## Movement {#movement}
 
 **Movement Damping** smooths camera position changes — lower
 values make the camera more responsive, higher values add
@@ -26,7 +26,7 @@ unintentional height changes by snapping small vertical offsets
 back to ground level.
 
 
-## Lock On Target
+## Lock On Target {#lock-on-target}
 
 When **Lock On Target** is enabled the camera automatically
 tracks the selected actor. **Tracking Mode** chooses which
@@ -40,7 +40,7 @@ lag. **Lock Rotation** makes the camera also follow the
 target's orientation.
 
 
-## Presets
+## Presets {#presets}
 
 Four built-in presets cover common setups: *Freefly* (full
 manual control), *Lock On Actor* (track without zoom), *Lock +

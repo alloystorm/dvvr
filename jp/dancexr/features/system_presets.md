@@ -23,7 +23,7 @@ toc: true
 
 - [グラフィックス設定](graphics) — レンダリング品質、ポストエフェクト。
 - [ライティング](lighting) — 方向および環境光の設定、[ライトボール](light_ball)。
-- [空と雲](skymap) および [空の色](sky)。
+- [空と雲](sky#mode) および [空の色](sky)。
 - [地面](ground) — マテリアル、シャドウオンリーモードなど。
 - <!-- TODO: confirm whether camera, weather, simulation, or audio settings are included. -->
 

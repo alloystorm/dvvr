@@ -1,13 +1,8 @@
 ---
-layout: release
+layout: forward
 title: カスタムディテールマップ
 locale: ja-JP
+target: "/jp/dancexr/features/texture_enhancement#custom-detail-map"
+redirect_fragments:
+  "カスタムディテールマップ": "custom-detail-map"
 ---
-
-
-## カスタムディテールマップ
-カスタムディテールマップを使用すると、マテリアルにカスタムディテールマップを追加できます。このマップは、ベースマップに存在しないマテリアルの詳細を追加するために使用できます。
-
-使用できるディテールマップの組み込みリストがあり、コンテンツライブラリのテクスチャフォルダにディテールマップを配置して使用できます。
-
-また、マテリアルに六角形の詳細を追加するために使用できるプロシージャル[六角形ディテールマップ](hexagon_detail)もあります。

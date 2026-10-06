@@ -11,20 +11,20 @@ applies independent physics simulation, allowing
 accessories or held objects to fall off dynamically.
 
 
-## Bone Selection
+## Bone Selection {#bone-selection}
 
 Use **Select Bones** to pick which bones become detached
 physics objects. Only non-kinematic bones can be selected.
 
 
-## Physics
+## Physics {#physics}
 
 **Gravity** toggles gravitational force on the detached
 bones. **Mass** controls the rigidbody mass and its response to collisions. **Damp** adds air
 resistance to slow movement over time.
 
 
-## Collider
+## Collider {#collider}
 
 Selects the collision shape: *None*, *Sphere*, or
 *Capsule*. **Collider Radius** sets the sphere/capsule

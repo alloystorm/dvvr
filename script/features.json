@@ -176,7 +176,7 @@
               "image": "/images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp"
             },
             {
-              "path": "features/global_actor_control"              
+              "path": "features/global_actor_control"
             },
             {
               "path": "features/attach_to_actor",
@@ -297,54 +297,18 @@
               "image": "/images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp"
             },
             {
-              "path": "features/material_opaque",
+              "path": "features/material_settings",
               "image": "/images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp"
             },
             {
-              "path": "features/material_transparent",
+              "path": "features/transparency",
               "image": "/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp"
-            },
-            {
-              "path": "features/material_custom1",
-              "image": "/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp"
-            },
-            {
-              "path": "features/material_settings",
-              "badge": "PRO",
-              "badge_type": "pro",
-              "image": "/images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp"
             },
             {
               "path": "features/texture_enhancement",
               "badge": "PRO",
               "badge_type": "pro",
               "image": "/images/slideshows/dressing/%5BDanceXR%202024.3%5D%20Improved%20Stocking%20Effect%20%5BewUUxxGbAm8%5D.webp"
-            },
-            {
-              "path": "features/sweat_effect",
-              "badge": "2026.2 · NSFW",
-              "badge_type": "nsfw",
-              "image": "/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp"
-            },
-            {
-              "path": "features/custom_detail_map",
-              "image": "/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp"
-            },
-            {
-              "path": "features/generate_normal_map",
-              "image": "/images/slideshows/dressing/HIBIKASE%20-%20DOAXVV%20Mikasa%20Dissolving%20Outfit%20%5BZZwW0PoJ1vE%5D.webp"
-            },
-            {
-              "path": "features/hexagon_detail",
-              "image": "/images/slideshows/dressing/Marie%20Rose%20Morphing%20Ballet%20Outfit%20-%20Satisfaction%20%5BRgNi-DdEfL0%5D.webp"
-            },
-            {
-              "path": "features/specular_map",
-              "image": "/images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp"
-            },
-            {
-              "path": "features/transparency",
-              "image": "/images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp"
             }
           ]
         }
@@ -392,26 +356,6 @@
               "badge": "2024.9 · PRO",
               "badge_type": "pro",
               "image": "/images/slideshows/physics/Convert%20Model%20Mesh%20To%20Cloth%20Simulation%20-%20DanceXR%202024.9%20%5BFdMSBaPMUHI%5D.webp"
-            },
-            {
-              "path": "features/particle_dynamics",
-              "badge": "2024.9 · PRO",
-              "badge_type": "pro",
-              "image": "/images/slideshows/simulation/Wearing%20a%20spiderweb%20%5BooZ3Kq8D6ZQ%5D.webp"
-            },
-            {
-              "path": "features/particle_dynamics",
-              "link_suffix": "#softbody",
-              "title": "Soft Body Simulation",
-              "title_locales": {
-                "jp": "ソフトボディシミュレーション",
-                "zh": "软体模拟",
-                "tw": "軟體模擬",
-                "kr": "소프트 바디 시뮬레이션"
-              },
-              "badge": "2024.11 · PRO",
-              "badge_type": "pro",
-              "image": "/images/slideshows/simulation/Nyotengo%20Looks%20Absolutely%20Stunning%20No%20Matter%20What%20She%20Wears%20%5BRxj702Ktp8s%5D.webp"
             },
             {
               "path": "features/ragdoll",
@@ -507,6 +451,11 @@
               }
             },
             {
+              "path": "features/interactive_pose",
+              "badge": "2026.9",
+              "badge_type": "new"
+            },
+            {
               "path": "features/catwalk",
               "image": "/images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp"
             },
@@ -515,12 +464,6 @@
               "badge": "PRO",
               "badge_type": "pro",
               "image": "/images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp"
-            },
-            {
-              "path": "features/autodance2",
-              "badge": "PRO",
-              "badge_type": "pro",
-              "image": "/images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp"
             },
             {
               "path": "features/autodance3",
@@ -539,10 +482,6 @@
             "kr": "캐릭터 행동"
           },
           "tiles": [
-            {
-              "path": "features/eyecontact",
-              "image": "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
-            },
             {
               "path": "features/lifelike_motions",
               "image": "/images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp"
@@ -709,12 +648,8 @@
           },
           "tiles": [
             {
-              "path": "features/skymap",
-              "image": "/images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp"
-            },
-            {
               "path": "features/sky",
-              "image": "/images/slideshows/environment/How%20is%20the%20shadow%20on%20the%20wall%20even%20possible%EF%BC%9F%20%5B85lKm5S3Oa8%5D.webp"
+              "image": "/images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp"
             },
             {
               "path": "features/lighting",
@@ -889,17 +824,6 @@
             "kr": "원샷 카메라"
           },
           "image": "/images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp"
-        },
-        {
-          "path": "features/camera_settings",
-          "title": "First Person Camera",
-          "title_locales": {
-            "jp": "一人称カメラ",
-            "zh": "第一人称摄影机",
-            "tw": "第一人稱攝影機",
-            "kr": "일인칭 카메라"
-          },
-          "image": "/images/slideshows/camera/First%20Person%2039%20Music%20%5BY5T3JkedkQs%5D.webp"
         },
         {
           "path": "features/concert_cam",

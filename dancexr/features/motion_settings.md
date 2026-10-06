@@ -11,7 +11,7 @@ model, including scaling, timing offsets, IK handling, and pose
 corrections.
 
 
-## Motion Parameters
+## Motion Parameters {#motion-parameters}
 
 **Motion Scale** multiplies all positional movement from the motion
 file — useful when animations are exaggerated or too subtle for the
@@ -28,7 +28,7 @@ compensating for motion lead-in.
 stance width or toe-out angle across the entire animation.
 
 
-## IK Settings
+## IK Settings {#ik-settings}
 
 **Inherit Bones** respects the inherit-parent constraints defined in
 the PMX file (e.g. hand bones following arm bones). **Motion Leg IK**
@@ -38,14 +38,15 @@ bones. **Model IK** uses the IK link chains defined in the PMX itself.
 When Model IK conflicts with Motion IK, try disabling one or the other.
 
 
-## Spectator
+## Spectator {#spectator}
 
-Marks the actor as a spectator — they are excluded from formation
-patterns and lighting assignments, useful for audience members or
-background characters.
+Marks the actor as a spectator, separating them from the main dancer list.
+Idle spectators can use a separate circular formation when **Use Spectator Formation**
+is enabled. They remain selectable and can receive an explicitly assigned motion.
+See [Actor Tools](actor_tools#spectator-mode) for the complete behavior.
 
 
-## Pose Adjustment
+## Pose Adjustment {#pose-adjustment}
 
 Rotates the default T-pose bone angles before any motion is applied.
 See the nested panel for per-bone-group rotation controls — this is
@@ -53,7 +54,7 @@ the primary way to fix models whose imported rest pose doesn't match
 the animation's assumptions.
 
 
-## Visualization
+## Visualization {#visualization}
 
 **Show Virtual Bones**, **Visualize Bones**, and **Visualize IK
 Targets** render debug gizmos for the skeleton hierarchy and IK
@@ -62,7 +63,7 @@ target positions (PMX models only).
 
 ## Settings reference
 
-## Pose Adjustment {#sd_pose}
+## Pose Adjustment {#pose-adjustment-1}
 
 Adjusts the default (zero-pose) rotation for every major bone group
 on the actor. Values rotate the bone away from its imported T-pose

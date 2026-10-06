@@ -12,7 +12,7 @@ Built-in presets give a complete working look in one tap;
 every parameter is then freely adjustable.
 
 
-## Presets
+## Presets {#presets}
 
 The built-in presets — *Sunset*, *Daylight*, *Window*, *Stage*,
 *Projector*, and others — establish a complete lighting setup in
@@ -20,7 +20,7 @@ one tap. Apply the closest preset and tune individual groups
 from there.
 
 
-## Overall Intensity & Sky Ambient
+## Overall Intensity & Sky Ambient {#overall-intensity--sky-ambient}
 
 **Overall Intensity** scales every light group and the sun
 together, letting you push or pull the whole scene brightness
@@ -29,7 +29,7 @@ raising it brightens shadowed areas and reduces harsh contrast,
 especially in outdoor scenes.
 
 
-## Sunlight
+## Sunlight {#sunlight}
 
 The **Celestial** sub-section controls the directional sun (and
 moon on HDRP). Time of day, orientation, and ecliptic angle
@@ -37,7 +37,7 @@ determine where the sun sits in the sky and the resulting shadow
 direction.
 
 
-## Additional Light Groups
+## Additional Light Groups {#additional-light-groups}
 
 **Additional 1**, **2**, and **3** are independent, fully
 configurable light groups — typically key, fill, and rim. Each
@@ -45,7 +45,7 @@ can be a spotlight, point light, area light, or projector, and
 can track actors dynamically.
 
 
-## Fog
+## Fog {#fog}
 
 Adds depth haze between the camera and the scene. Low values
 give a subtle atmospheric cue; higher values can dramatically
@@ -53,7 +53,7 @@ shift the mood. Fog interacts with volumetric light cones for
 dramatic beam effects.
 
 
-## Light & Shadow Limits
+## Light & Shadow Limits {#light--shadow-limits}
 
 **Light Limit** caps how many active lights are rendered
 simultaneously. **Shadow Limit** caps the subset that cast
@@ -61,7 +61,7 @@ shadows — shadows are expensive, so keep this low (1–4)
 unless performance allows more.
 
 
-## Allocation
+## Allocation {#allocation}
 
 When light groups use *Follow Actor* or *Maintain Distance*
 dynamics, **Allocation** controls how lights are spread across
@@ -73,7 +73,7 @@ reallocations.
 
 ## Settings reference
 
-## Sun / Moon / Time {#sunlight}
+## Sun / Moon / Time {#sun--moon--time}
 
 Controls the directional sun (and, on HDRP, the moon and night
 sky). The sun position is defined by Time of Day, Orientation,
@@ -81,7 +81,7 @@ and Ecliptic Angle, giving full creative control over shadow
 direction and sky colour.
 
 
-### Sun Position
+### Sun Position {#sun-position}
 
 **Time Of Day** moves the sun along its arc in hours (0–24).
 **Orientation** sets the compass direction the sun rises toward.
@@ -89,7 +89,7 @@ direction and sky colour.
 a specific location or season without precise sun tracking.
 
 
-### Intensity & Color
+### Intensity & Color {#intensity--color}
 
 **Sunlight Intensity** and **Color Temperature** control the raw
 brightness and warmth of the directional light. Because sunlight
@@ -97,14 +97,14 @@ is very powerful, scenes with it enabled typically need a higher
 exposure or lower Overall Intensity to avoid blow-out.
 
 
-### Moon & Night Sky (HDRP)
+### Moon & Night Sky (HDRP) {#moon--night-sky-hdrp}
 
 On HDRP the same sub-section controls moon position, phase, and
 earthshine, plus the brightness of stars and aurora. Disable the
 sun and raise moonlight intensity for night scenes.
 
 
-### Window Effect
+### Window Effect {#window-effect}
 
 The **Window** sub-section casts a grid of rectangular shadows
 that simulate light streaming through window panes. Place the
@@ -123,7 +123,7 @@ Lighting settings, typically used as key, fill, and rim lights,
 but each is configured identically through this sub-section.
 
 
-### Type & Cookie
+### Type & Cookie {#type--cookie}
 
 **Type** selects the light shape: Spotlight, Point, Area,
 Pyramid, or Box projector. **Cookie** maps project a pattern
@@ -133,7 +133,7 @@ through the beam (Window, Blinds, Spot, Tube, Video). Set
 appears in the render.
 
 
-### Position & Orientation
+### Position & Orientation {#position--orientation}
 
 **Distance** and **Height** place the light relative to its
 target, **Angle** tilts it downward, and **Orientation** rotates
@@ -142,7 +142,7 @@ widens the beam cross-section; **Cone Length** controls the
 volumetric scatter depth.
 
 
-### Dynamics
+### Dynamics {#dynamics}
 
 **Dynamics** determines whether the light stays fixed
 (*Stationary*), orbits the assigned actor (*Follow Actor* /
@@ -152,7 +152,7 @@ where the actor is facing. Actor assignment is handled by the
 Allocation settings in the parent Lighting panel.
 
 
-### Repeat (Array)
+### Repeat (Array) {#repeat-array}
 
 The **Repeat** sub-section multiplies the light into an array.
 Choose *Circle* formation for a ring of stage beams or *Grid*
@@ -160,7 +160,7 @@ for a ceiling rig. Presets such as *4x Fan* or *8x Circle* set
 the array up in one step.
 
 
-### Suspension
+### Suspension {#suspension}
 
 Enable **Suspension** to hang the light from a virtual rigging
 point, giving it a slow pendulum swing. **Segments** sets the
@@ -168,7 +168,7 @@ number of cable joints, **Suspension Distance** the drop length,
 and **Swing Speed** how actively it maintains its swinging arc.
 
 
-### Shadow
+### Shadow {#shadow}
 
 Each group has independent shadow controls. Leave mode at the
 default to inherit the global scene quality, or override it to
@@ -191,7 +191,7 @@ fixed exposure driven by the global dim slider; when enabled, it
 adjusts continuously based on scene luminance.
 
 
-### Metering Mode
+### Metering Mode {#metering-mode}
 
 Determines which part of the frame is sampled to measure
 brightness. *Average* reads the whole frame uniformly; *Spot*
@@ -201,7 +201,7 @@ when a bright background would otherwise cause the subject to
 appear too dark.
 
 
-### Compensation & Range
+### Compensation & Range {#compensation--range}
 
 **Compensation** shifts the target exposure up or down in EV
 steps. **Range** clamps the minimum and maximum allowed exposure
@@ -209,7 +209,7 @@ values, preventing the camera from going too dark in black scenes
 or too bright in blown-out environments.
 
 
-### Adaptation
+### Adaptation {#adaptation}
 
 Controls how quickly exposure changes when lighting conditions
 shift. *Normal* gives a gradual, cinematic response; *Fast*

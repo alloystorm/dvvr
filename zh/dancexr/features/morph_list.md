@@ -36,7 +36,7 @@ DanceXR 直接从 PMX 文件中读取这些形态；您无法在 DanceXR 中创�
 3. 每个形态都会显示其名称和一个 0 到 1 的滑块。
 4. 拖动滑块来应用形态；松开滑块则使其保持在该数值。
 
-只要您更改或重新加载模型，形态就会保持应用状态。一些形态（例如面部表情）将在 [Facial control](facial_control) 和 [Blink, breathing & eye contact](eyecontact) 激活时被其覆盖。
+只要您更改或重新加载模型，形态就会保持应用状态。一些形态（例如面部表情）将在 [Facial control](facial_control) 和 [Blink, breathing & eye contact](lifelike_motions#eye-contact) 激活时被其覆盖。
 
 ---
 
@@ -52,5 +52,5 @@ DanceXR 直接从 PMX 文件中读取这些形态；您无法在 DanceXR 中创�
 
 - [Dressing system](optionals)
 - [Facial control](facial_control)
-- [Blink, breathing & eye contact](eyecontact)
+- [Blink, breathing & eye contact](lifelike_motions#eye-contact)
 - [Concepts & glossary](../concepts)

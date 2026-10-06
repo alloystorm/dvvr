@@ -13,7 +13,7 @@ the pair stays locked together instead of drifting as two
 independent animations.
 
 
-## Sway and Thrust
+## Sway and Thrust {#sway-and-thrust}
 
 **Sway Motion** shapes the upper-body sway layered over the
 cycle, while **Sex Motion** controls the penetration rhythm,
@@ -24,7 +24,7 @@ to the thrust cycle the pair will read as loose rather than
 physically connected.
 
 
-## Contact and Reaction
+## Contact and Reaction {#contact-and-reaction}
 
 **Contact Smoothing** is primarily for the male role: it filters
 the female-driven contact frame so small pelvis jitter does not
@@ -38,7 +38,7 @@ motion lives in the body. Pushing the bend too far makes the
 loop read theatrical rather than responsive.
 
 
-## Arousal and Orgasm
+## Arousal and Orgasm {#arousal-and-orgasm}
 
 The **Orgasm** block adds a second layer that can accelerate the
 motion, blend in a pose, and drive shaking plus facial intensity.
@@ -57,7 +57,7 @@ Use **Test** when tuning so you can see the full cycle without
 needing live stimulation.
 
 
-## Role Pose Alignment
+## Role Pose Alignment {#role-pose-alignment}
 
 **Female Pose** and **Male Pose** set the base body layout for
 each role before the procedural layers are applied. On the
@@ -73,7 +73,7 @@ the contact point, otherwise the correction becomes more visible
 than the motion itself.
 
 
-## Expression
+## Expression {#expression}
 
 **Facial** maps the procedural intensity onto eyebrow, eyelid,
 and mouth morphs. Keep this block subtle if the model already
@@ -91,7 +91,7 @@ user presets, or expose the underlying curves directly for
 manual shaping.
 
 
-### Pattern Source
+### Pattern Source {#pattern-source}
 
 **Mode** decides where the curves come from. *Random* pulls from
 the built-in pattern library, *Random Preset* rotates through
@@ -101,7 +101,7 @@ pattern order repeats; change it when you want new variation
 without redesigning the curves.
 
 
-### Timing and Intensity
+### Timing and Intensity {#timing-and-intensity}
 
 **Moves Per Group** controls how often the generator advances to
 a new pattern phrase. **Speed** scales playback, while **Use
@@ -111,7 +111,7 @@ it is the best control to automate when you want another system
 to push the motion larger or smaller over time.
 
 
-### Transition and Damping
+### Transition and Damping {#transition-and-damping}
 
 **Transition** softens the handoff between phrases; low values
 make the motion snap to the next idea, high values keep it more
@@ -137,7 +137,7 @@ systems. This makes the cycle feel elastic rather than like a
 raw sine wave.
 
 
-### Tempo and Travel
+### Tempo and Travel {#tempo-and-travel}
 
 **Extent** sets the maximum travel distance. **Auto Intensity**
 can scale that travel from the current music level, while
@@ -147,7 +147,7 @@ audio-driven controls when the motion should breathe with the
 soundtrack instead.
 
 
-### Driver Shape
+### Driver Shape {#driver-shape}
 
 **Top Duration**, **Bottom Duration**, and **Slope Balance**
 shape the idealized cycle before the springs respond to it. A
@@ -157,7 +157,7 @@ drive and return strokes. This is where you define whether the
 motion feels punchy, even, or teasing.
 
 
-### Spring Response
+### Spring Response {#spring-response}
 
 **Collision Distance** sets the resting separation between the
 two spring masses. **Spring A**, **Damping A**, **Spring B**,
@@ -167,7 +167,7 @@ left in the result. Stiffer values feel more mechanical; softer
 values feel heavier but can get mushy if the cycle is fast.
 
 
-### Visualization
+### Visualization {#visualization}
 
 **Visualize Curve** draws the target and spring responses in the
 scene so you can tune the shape without guessing from the body
@@ -183,7 +183,7 @@ generate expressions on its own, it remaps existing morphs and
 their min/max range.
 
 
-### Morph Selection
+### Morph Selection {#morph-selection}
 
 **Eyebrow Morph**, **Eyelid Morph**, and **Mouth Morph** pick
 which morph channels receive the driven value. Choose morphs
@@ -191,7 +191,7 @@ that read clearly from neutral to expressive, otherwise the
 motion will feel weak even if the range is large.
 
 
-### Output Range
+### Output Range {#output-range}
 
 Each range sets the minimum and maximum value written as the
 driver moves from 0 to 1. Narrow ranges keep the face subtle
@@ -208,7 +208,7 @@ authored stance instead of fighting the model's default rest
 pose.
 
 
-### Body Setup
+### Body Setup {#body-setup}
 
 When the hosting feature enables body controls, **Orientation**,
 **Bend X**, **Bend Y**, **Twist**, **Head Rotation**,
@@ -218,7 +218,7 @@ offsets layered on top of a bad base pose usually read worse
 than a cleanly staged pose with smaller animated corrections.
 
 
-### Hands
+### Hands {#hands}
 
 The **Hands** block chooses whether hand posing is active and
 whether both sides stay symmetrical. This is useful when you want
@@ -226,7 +226,7 @@ a quick, mirrored pose for broad staging or an asymmetric pose
 that interacts with a partner or prop more naturally.
 
 
-### Legs
+### Legs {#legs}
 
 The **Legs** block does the same for lower-body posing. Keep the
 legs symmetrical when the feature should feel centered and easy
@@ -284,7 +284,7 @@ authored stance instead of fighting the model's default rest
 pose.
 
 
-### Body Setup
+### Body Setup {#body-setup-1}
 
 When the hosting feature enables body controls, **Orientation**,
 **Bend X**, **Bend Y**, **Twist**, **Head Rotation**,
@@ -294,7 +294,7 @@ offsets layered on top of a bad base pose usually read worse
 than a cleanly staged pose with smaller animated corrections.
 
 
-### Hands
+### Hands {#hands-1}
 
 The **Hands** block chooses whether hand posing is active and
 whether both sides stay symmetrical. This is useful when you want
@@ -302,7 +302,7 @@ a quick, mirrored pose for broad staging or an asymmetric pose
 that interacts with a partner or prop more naturally.
 
 
-### Legs
+### Legs {#legs-1}
 
 The **Legs** block does the same for lower-body posing. Keep the
 legs symmetrical when the feature should feel centered and easy

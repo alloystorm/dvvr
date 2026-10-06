@@ -36,7 +36,7 @@ DanceXR auto-assigns materials whose names match common eye keywords to this cat
 
 ## Eye behavior is separate from materials
 
-Eye **movement** — blinking, gaze, eye contact — is configured in [Blink, Breathing & Eye Contact](eyecontact), not here. The materials page only controls how the eye surface renders.
+Eye **movement** — blinking, gaze, eye contact — is configured in [Blink, Breathing & Eye Contact](lifelike_motions#eye-contact), not here. The materials page only controls how the eye surface renders.
 
 ---
 
@@ -45,4 +45,4 @@ Eye **movement** — blinking, gaze, eye contact — is configured in [Blink, Br
 - [Material Settings](material_settings)
 - [Skin Materials](material_skin)
 - [Hair Materials](material_hair)
-- [Blink, Breathing & Eye Contact](eyecontact)
+- [Blink, Breathing & Eye Contact](lifelike_motions#eye-contact)

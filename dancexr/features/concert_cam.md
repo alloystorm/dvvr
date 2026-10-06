@@ -8,7 +8,7 @@ locale: en-US
 
 Fixed camera positioned at a set location, always looking at the focused actor.
 
-## Framing
+## Framing {#framing}
 
 **Size** controls how large the target actor appears in the camera view.
 Lower values zoom in for a tighter frame; higher values show more of the
@@ -18,7 +18,7 @@ surrounding scene.
 Negative values focus lower (legs/feet); positive values focus higher
 (chest/head).
 
-## Position
+## Position {#position}
 
 **Offset** moves the camera's fixed position in 3D space. Use this to
 place the camera exactly where you want it relative to the scene origin.
@@ -26,7 +26,7 @@ place the camera exactly where you want it relative to the scene origin.
 **Shift** tilts the camera up or down while keeping its fixed position.
 This changes the angle of view without moving the camera location.
 
-## Field of View
+## Field of View {#field-of-view}
 
 **FOV** controls how wide the camera lens is. Lower values act like a
 telephoto lens (narrow view, zoomed in); higher values act like a wide-angle

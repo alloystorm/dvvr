@@ -14,14 +14,14 @@ live in the same simulation, characters can lean on and push against each other,
 and a hand held against another character can grab onto them.
 
 
-## Posing
+## Posing {#posing}
 
 Identical to Free Pose: drag a hand/arm or foot/leg to move that limb; feet use
 dwell-to-pin (hold still to lock in the air, release to drop). Drag the torso and
 hold to sit. **Reset** drops every pin and returns to a neutral stand.
 
 
-## Pinning
+## Pinning {#pinning}
 
 A pinned hand or foot is held by a spring constraint rather than being frozen,
 so it still takes part in the simulation — another character can push against it
@@ -29,7 +29,7 @@ and it springs back to the pin. **Pin Strength** sets how firmly: high holds the
 pin tightly, low lets the limb give way and drift under contact.
 
 
-## Contact & Anchoring
+## Contact & Anchoring {#contact--anchoring}
 
 **Contact Reaction** is how strongly a character reacts to being pushed into by
 another: contact that would sink the two bodies together shifts the whole body
@@ -44,7 +44,7 @@ hand again, or **Reset**, to let go. The anchor is one-way — the character bei
 held feels nothing from it except the contact itself.
 
 
-## Ragdoll
+## Ragdoll {#ragdoll}
 
 **Ragdoll** is the master switch for the shared physical body: with it off, each
 character still poses and balances but passes straight through the others.
@@ -79,7 +79,7 @@ Both are diagnostic: use them to see why two characters touch where they do, or
 why a limb stops where it does.
 
 
-## Sitting
+## Sitting {#sitting}
 
 Drag the torso (waist) and hold still to lock it as a seat, exactly as in Free
 Pose: the character rests on it like a stool and both feet hang free. A quick
@@ -94,7 +94,7 @@ Lean Max** control the counterbalancing tilt of the upper body, since a seated
 pelvis can't slide to chase balance the way a standing one does.
 
 
-## Repeating Motion
+## Repeating Motion {#repeating-motion}
 
 **Motion** adds an optional repeating body movement — the hips travel back and
 forth over **Motion Range** at **Motion Speed**. **Motion Orientation** tilts the

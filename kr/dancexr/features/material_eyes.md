@@ -36,7 +36,7 @@ DanceXR은 일반적인 눈 키워드와 이름이 일치하는 재질을 자동
 
 ## Eye behavior is separate from materials
 
-눈 **움직임**(movement) — 깜빡임(blinking), 시선(gaze), 아이 컨택(eye contact) — 은 여기에 있는 것이 아니라 [Blink, Breathing & Eye Contact](eyecontact)에서 설정합니다. 재질 페이지는 눈 표면이 렌더링되는 방식만을 제어합니다.
+눈 **움직임**(movement) — 깜빡임(blinking), 시선(gaze), 아이 컨택(eye contact) — 은 여기에 있는 것이 아니라 [Blink, Breathing & Eye Contact](lifelike_motions#eye-contact)에서 설정합니다. 재질 페이지는 눈 표면이 렌더링되는 방식만을 제어합니다.
 
 ---
 
@@ -45,4 +45,4 @@ DanceXR은 일반적인 눈 키워드와 이름이 일치하는 재질을 자동
 - [Material Settings](material_settings)
 - [Skin Materials](material_skin)
 - [Hair Materials](material_hair)
-- [Blink, Breathing & Eye Contact](eyecontact)
+- [Blink, Breathing & Eye Contact](lifelike_motions#eye-contact)

@@ -58,7 +58,7 @@ the surface for fishnet, sci-fi panel, or studded looks. Toggle
 it off whenever you want a smooth fabric.
 
 
-### Density & Shape
+### Density & Shape {#density--shape}
 
 **Density** sets how many hexagons fit across the surface
 (snapped to powers of two for clean tiling). **Size** scales
@@ -70,14 +70,14 @@ values near zero give a crisp boundary, larger values blur the
 pattern into the surrounding surface.
 
 
-### Bump & Noise
+### Bump & Noise {#bump--noise}
 
 **Bump** raises or lowers each cell relative to the surface
 (negative values stamp inwards). **Noise** randomises per-cell
 height so the pattern doesn't read as a perfect grid.
 
 
-### UV Projection
+### UV Projection {#uv-projection}
 
 For outfits the cells can either follow the model's UV layout
 or be projected from a virtual cylinder around the body.

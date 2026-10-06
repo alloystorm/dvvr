@@ -9,7 +9,7 @@ locale: en-US
 Camera settings control the behavior and position of the camera rig, including height, field of view, and how motion data affects the camera.
 
 
-## Settings
+## Settings {#settings}
 
 **Height Offset** (-5.0 to 5.0) adjusts the camera height relative to the motion's default position. Use this to raise or lower the camera independently of the motion data.
 
@@ -24,7 +24,7 @@ Camera settings control the behavior and position of the camera rig, including h
 **Freeze in VR** freezes camera movements while the UI is visible in VR mode, preventing unwanted camera drift during menu interaction.
 
 
-## Rotation filter
+## Rotation filter {#rotation-filter}
 
 Controls how much of the camera rotation from motion data is applied.
 
@@ -33,7 +33,7 @@ Controls how much of the camera rotation from motion data is applied.
 * **Full Rotation**: The full rotation from the motion data is applied.
 
 
-## Actions
+## Actions {#actions}
 
 * **Reset Offset** resets the camera height offset to its default value.
 
