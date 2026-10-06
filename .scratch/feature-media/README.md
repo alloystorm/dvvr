@@ -148,7 +148,7 @@ Video cards are omitted when the same YouTube video is already embedded or linke
 
 - Twelve focused tests cover URL validation, missing assets, duplicate paths, thumbnail precedence, API pagination, preserving cached Shorts, and recency ranking: recent equivalent coverage beats an old embed, strong older relevance beats a broad newer match, and unknown/future dates are handled explicitly. An additional check covers Jekyll-safe poster filenames for video IDs starting with an underscore.
 - Jekyll build passes using the installed Minimal Mistakes theme (offline override) through `script/build_site.sh`.
-- Generated media and rendered pages are checked across all five languages for selected IDs, card ordering, local poster paths and duplicate suppression.
+- All 580 mapped outputs across five languages contain their selected IDs. The 397 rendered cards follow JSON order and are unique within each page; all local poster paths exist in the built site. All 12 replacement primaries have later upload dates than their predecessors.
 - All 650 feature Markdown files are byte-for-byte unchanged.
-- Browser checks confirm the feature thumbnail grid and video cards in both guide layouts, including Japanese headings. Stylesheet build versioning avoids stale card CSS.
+- Browser checks confirm the 2026 wet-texture video appears before the distinct 2023 skin detail-map tutorial, with both thumbnails loaded. Previous checks also covered both guide layouts, the feature grid and Japanese headings.
 - API credentials are read from the shell environment and are not stored in the catalogue or source files.
