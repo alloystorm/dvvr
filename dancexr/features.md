@@ -39,8 +39,8 @@ feature_sections:
         badge_type: pro
       - title: "Offline Render & Recording"
         link: /dancexr/creator
-        image: /images/features/youtube/Xeh9l8K8nqo.webp
-        video: "https://www.youtube.com/watch?v=Xeh9l8K8nqo"
+        image: /images/features/youtube/B2a_BGe7r1U.jpg
+        video: "https://www.youtube.com/watch?v=B2a_BGe7r1U"
         badge: PC · CREATOR
   - title: AI Features
     hub_url: /dancexr/ai
