@@ -1,0 +1,609 @@
+{
+  "features/discovery": [
+    {
+      "id": "bMtgN0cNJm8",
+      "title": "Introducing DanceXR Discovery"
+    }
+  ],
+  "creator": [
+    {
+      "id": "Xeh9l8K8nqo",
+      "title": "8K VR 180 Video Test"
+    },
+    {
+      "id": "V6zpyW1hDog",
+      "title": "8K VR 360 Video Test"
+    }
+  ],
+  "preparecontent": [
+    {
+      "id": "-2LStDN7WB8",
+      "title": "DanceXR Beginner's Guide: Content Setup"
+    }
+  ],
+  "features/tagging": [
+    {
+      "id": "TWlidp0Htfk",
+      "title": "Tag system and content selection improvements in version 1.4.0"
+    }
+  ],
+  "features/formation": [
+    {
+      "id": "Y6WLG6-toW8",
+      "title": "New multiple actors feature & formation control"
+    }
+  ],
+  "features/bone_mapper": [
+    {
+      "id": "YqX_uktVvQk",
+      "title": "Expand Your Model Choices - DanceXR FBX Conversion & Bone Mapper Tutorial"
+    },
+    {
+      "id": "g0VAfBHauXw",
+      "title": "Model Stays in Standard Pose? Use the Bone Mapper To Fix It"
+    },
+    {
+      "id": "9YTX9seWLK4",
+      "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]"
+    }
+  ],
+  "features/pmx_physics": [
+    {
+      "id": "limT_kMRp8s",
+      "title": "DanceXR 1.4.6 New PMX Physics Settings"
+    }
+  ],
+  "features/facial_control": [
+    {
+      "id": "1qxWF6qumoY",
+      "title": "DanceXR 1.4.5 Facial Debug And Adjustments for XPS Models"
+    }
+  ],
+  "features/attach_to_actor": [
+    {
+      "id": "IoveVJs15wY",
+      "title": "DanceXR 2025.2 New Feature: Attach To Actor"
+    }
+  ],
+  "features/feet_adjustment": [
+    {
+      "id": "xQ59IhWUbVA",
+      "title": "Feet Adjustments Improved"
+    }
+  ],
+  "features/optionals": [
+    {
+      "id": "9YTX9seWLK4",
+      "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]"
+    },
+    {
+      "id": "MN-JIDmAR3Q",
+      "title": "Using the updated optional items feature to animate clothing change"
+    },
+    {
+      "id": "p29x9-smIfs",
+      "title": "[1.4.3] Custom Optional Items (Dressing System)",
+      "reason": "Title/description explicitly covers this guide’s feature."
+    }
+  ],
+  "features/outfit": [
+    {
+      "id": "chHk9--cUYE",
+      "title": "Body Paint Coming Soon!"
+    },
+    {
+      "id": "ewUUxxGbAm8",
+      "title": "[DanceXR 2024.3] Improved Stocking Effect"
+    }
+  ],
+  "features/accessory": [
+    {
+      "id": "0BFrdqO9cuI",
+      "title": "Accessory preview"
+    }
+  ],
+  "features/toon_shading": [
+    {
+      "id": "3jdADJzUdY8",
+      "title": "All New Toon Shading Preview"
+    },
+    {
+      "id": "IV50xh6mQ_U",
+      "title": "Toon Shading Works Well With More Realistic Models Too"
+    }
+  ],
+  "features/material_skin": [
+    {
+      "id": "C3boLWhL4Og",
+      "title": "New Skin Shader with Procedural Detail Map"
+    }
+  ],
+  "features/material_hair": [
+    {
+      "id": "EODvj5SiafI",
+      "title": "Improved Hair Details - New in DanceXR 2024.5"
+    }
+  ],
+  "features/material_settings": [
+    {
+      "id": "xazXOlls5mM",
+      "title": "Updated Material Controls (1.3.4)"
+    },
+    {
+      "id": "uk7QGK3rOQk",
+      "title": "Material Editing & New Texture Enhancement Features"
+    }
+  ],
+  "features/texture_enhancement": [
+    {
+      "id": "uk7QGK3rOQk",
+      "title": "Material Editing & New Texture Enhancement Features"
+    },
+    {
+      "id": "G9SSJQieO-E",
+      "title": "[Tutorial] Glittering Effect On Clothes / DanceXR 2024.4"
+    },
+    {
+      "id": "Yi2W_cwufNk",
+      "title": "New Gradient Control Available in 1.4.4"
+    }
+  ],
+  "features/simulation": [
+    {
+      "id": "8wOB11Afz7k",
+      "title": "Particle Dynamics VS Physics Engine Comparison"
+    }
+  ],
+  "features/cloth_simulation": [
+    {
+      "id": "Lz9UC59LLXo",
+      "title": "Mesh Colliders & Translucent Material - 2025.1 Cloth Simulation Improvements"
+    },
+    {
+      "id": "DPjuUjCxhkE",
+      "title": "Cloth Simulation Buoyancy And Underwater Properties - DanceXR 2024.9"
+    },
+    {
+      "id": "aJqbgiw2NP4",
+      "title": "DanceXR Realtime Cloth Simulation Demo"
+    }
+  ],
+  "features/mesh_to_cloth": [
+    {
+      "id": "FdMSBaPMUHI",
+      "title": "Convert Model Mesh To Cloth Simulation - DanceXR 2024.9"
+    }
+  ],
+  "features/ragdoll": [
+    {
+      "id": "h7flTJ_YQ-o",
+      "title": "Interacting with ragdoll in VR"
+    },
+    {
+      "id": "vG-rDgvYaJU",
+      "title": "Ragdoll Feature Preview"
+    }
+  ],
+  "features/light_ball": [
+    {
+      "id": "XHX6ZLpSuOw",
+      "title": "DVVR Light Ball test - Requiem"
+    }
+  ],
+  "features/hair_physics": [
+    {
+      "id": "LkVbfxGz4tw",
+      "title": "How Do You Rate This Hair Dynamics?"
+    },
+    {
+      "id": "84olpK_iYFU",
+      "title": "DanceXR Beginner's Guide: XPS Physics Setup"
+    }
+  ],
+  "features/skirt_physics": [
+    {
+      "id": "a6aEDeWmsIM",
+      "title": "Improved XPS Skirt Physics Setting in 1.4.4"
+    },
+    {
+      "id": "E9-ImPNSOSw",
+      "title": "No more legs stuck inside skirt - New in DanceXR 2024.5"
+    }
+  ],
+  "features/boobs_physics": [
+    {
+      "id": "QRCphRAS0Tw",
+      "title": "DanceXR 1.4.8 Improved Boobs & Softbody Physics"
+    }
+  ],
+  "features/softbody_physics": [
+    {
+      "id": "1SYw7Li-ffQ",
+      "title": "[DanceXR] Softbody physics setup"
+    },
+    {
+      "id": "QRCphRAS0Tw",
+      "title": "DanceXR 1.4.8 Improved Boobs & Softbody Physics"
+    }
+  ],
+  "features/free_pose": [
+    {
+      "id": "Y_r-y7yoqGE",
+      "title": "2026.7 Free Pose Demo"
+    },
+    {
+      "id": "ot8rCxIvN4M",
+      "title": "Auto Balanced Free Pose - DanceXR 2026.6"
+    }
+  ],
+  "features/interactive_pose": [
+    {
+      "id": "RtMze-_g8SM",
+      "title": "New Interactive Pose"
+    }
+  ],
+  "features/catwalk": [
+    {
+      "id": "PkWub6dVHXM",
+      "title": "[WIP] Catwalk motion"
+    }
+  ],
+  "features/autodance": [
+    {
+      "id": "HS8qy3ncPe8",
+      "title": "DVVR Auto Dance 2 Controls & UI"
+    },
+    {
+      "id": "NLxAIDdhAU4",
+      "title": "Auto Dance Demo 3"
+    }
+  ],
+  "features/lifelike_motions": [
+    {
+      "id": "zP966sQ6h0g",
+      "title": "DVVR Dance Viewer VR eye contact showcase 2 60fps [MMD] Conqueror"
+    }
+  ],
+  "features/motion_settings": [
+    {
+      "id": "98xdPeg2ON8",
+      "title": "Meteor - Leifang Twins Dance (Motion MIrroring)"
+    }
+  ],
+  "features/lipsync": [
+    {
+      "id": "EIEAJ45WphQ",
+      "title": "Auto LipSync Demo - DanceXR 2024.9"
+    }
+  ],
+  "features/video_player": [
+    {
+      "id": "AR_LEym7nvY",
+      "title": "LED Screen Mode For Video Player - New in DanceXR 2024.5"
+    }
+  ],
+  "features/music_timing": [
+    {
+      "id": "m6U7wYCqfYk",
+      "title": "Configuring Music Timing With New \"Tap Beats\" Functionality"
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization"
+    }
+  ],
+  "features/playback_options": [
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control"
+    }
+  ],
+  "features/secondary_motion": [
+    {
+      "id": "EenDTJkNNQs",
+      "title": "Coming Soon: Secondary Motion (1.3.4)"
+    }
+  ],
+  "features/pose_files": [
+    {
+      "id": "hwUahuvWBoQ",
+      "title": "This entire video is automatic transition between a few static poses!"
+    }
+  ],
+  "features/remix": [
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "reason": "Description explicitly covers synchronizing arbitrary background music with motion remix; the older companion covers audio timing preparation."
+    },
+    {
+      "id": "chI-3GQS08Q",
+      "title": "Preparing audio data for \"Dance Remix\" feature in DVVR 0.7.1",
+      "reason": "Description explicitly covers synchronizing arbitrary background music with motion remix; the older companion covers audio timing preparation."
+    }
+  ],
+  "features/motion_override": [
+    {
+      "id": "z79Z08OJ0vc",
+      "title": "Motion Override Demo"
+    }
+  ],
+  "features/keyframe_animation": [
+    {
+      "id": "b0IvZs98JrE",
+      "title": "Keyframe Animation Tutorial"
+    }
+  ],
+  "features/sky": [
+    {
+      "id": "D745FYNcx4c",
+      "title": "New Time Based Sunlight Setting And Automatic Day-Night Transition With Stars"
+    },
+    {
+      "id": "2NZpffP1X5o",
+      "title": "DanceXR 1.4.5 Support For HDR Sky Map"
+    },
+    {
+      "id": "vUY7DY4cCV0",
+      "title": "DVVR 0.8 Sky Map Feature Tutorial"
+    }
+  ],
+  "features/lighting": [
+    {
+      "id": "wniVUS8YhRA",
+      "title": "Suspension Light Mode - New in DanceXR 2024.5"
+    },
+    {
+      "id": "iASGbuiMSIk",
+      "title": "Light Grid Demo"
+    }
+  ],
+  "features/weather_particles": [
+    {
+      "id": "SLNw5XZflZ8",
+      "title": "Fine tuning particle effects"
+    }
+  ],
+  "features/water_system": [
+    {
+      "id": "K3WSqEj7K-4",
+      "title": "Stage geometry and water system"
+    },
+    {
+      "id": "SRt1IRoRwNI",
+      "title": "DanceXR 1.5.1 Ripple Effect & Under Water Physics"
+    }
+  ],
+  "features/water_interaction": [
+    {
+      "id": "SRt1IRoRwNI",
+      "title": "DanceXR 1.5.1 Ripple Effect & Under Water Physics"
+    }
+  ],
+  "features/ground": [
+    {
+      "id": "K3WSqEj7K-4",
+      "title": "Stage geometry and water system"
+    },
+    {
+      "id": "n7zeKsWVLQE",
+      "title": "Enable Ground Reflection For Stage Models"
+    }
+  ],
+  "features/stages": [
+    {
+      "id": "pR_qq99iKxg",
+      "title": "DanceXR 1.4.6 Stage Edit (Move Objects)"
+    },
+    {
+      "id": "TWlidp0Htfk",
+      "title": "Tag system and content selection improvements in version 1.4.0",
+      "reason": "Title/description explicitly covers this guide’s feature."
+    }
+  ],
+  "features/props": [
+    {
+      "id": "MCzx_vzNcQU",
+      "title": "[DanceXR] 1.4.0 Built-in Props Demo"
+    },
+    {
+      "id": "UEc7kLflt7o",
+      "title": "[DanceXR] 1.4.0 Using PMX model as prop"
+    }
+  ],
+  "features/screen": [
+    {
+      "id": "AR_LEym7nvY",
+      "title": "LED Screen Mode For Video Player - New in DanceXR 2024.5"
+    }
+  ],
+  "features/mirror": [
+    {
+      "id": "0FwY2viXcM0",
+      "title": "[DanceXR] New mirror feature"
+    }
+  ],
+  "features/laser": [
+    {
+      "id": "rOQow-MBkVU",
+      "title": "ザムザ - New Laser System Demo (Warning: Flashing Lights)"
+    }
+  ],
+  "features/beats_ring": [
+    {
+      "id": "q1hFsp8GiHQ",
+      "title": "DanceXR 2025.5 New Features: Audio Visualizer, Posterization Effects & Path Tracing!"
+    }
+  ],
+  "features/save_scene": [
+    {
+      "id": "zTSOD-dJH3Y",
+      "title": "Demo of Save & Load Scene feature"
+    }
+  ],
+  "features/raytracing": [
+    {
+      "id": "q1hFsp8GiHQ",
+      "title": "DanceXR 2025.5 New Features: Audio Visualizer, Posterization Effects & Path Tracing!"
+    },
+    {
+      "id": "eBjhymW60Uw",
+      "title": "Translucent Material With Raytraced Color Shadow - DanceXR 2025.1"
+    }
+  ],
+  "features/concert_cam": [
+    {
+      "id": "9kGqlY858Do",
+      "title": "Patchwork Staccato - Concert Mode"
+    }
+  ],
+  "vr_operations": [
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input"
+    },
+    {
+      "id": "1Wkde7_pDBQ",
+      "title": "Controlling actor motion with your own movements in VR, coming soon to the December release"
+    }
+  ],
+  "features/googledrive": [
+    {
+      "id": "N7o0CdbFvD4",
+      "title": "[DanceXR] 1.4.0 New Feature: Google Drive Integration"
+    }
+  ],
+  "content_android_quest": [
+    {
+      "id": "mFnXE7LBV-M",
+      "title": "Version 2024.3 for Android External Storage Permission and Data Migration"
+    },
+    {
+      "id": "VQjnL9oq-hY",
+      "title": "Android Content Manager Demo"
+    },
+    {
+      "id": "ZmDeuWwZtmI",
+      "title": "Install & load content onto Oculus Quest"
+    }
+  ],
+  "features/system_physics": [
+    {
+      "id": "8wOB11Afz7k",
+      "title": "Particle Dynamics VS Physics Engine Comparison"
+    }
+  ],
+  "features/autoupdate": [
+    {
+      "id": "A00DhbCOgu0",
+      "title": "DanceXR 1.4.5 New AutoUpdate Options for Audio Visualization"
+    }
+  ],
+  "features/system_presets": [
+    {
+      "id": "EbMYpyW8AGA",
+      "title": "[1.4.3] Share Settings Between Actors"
+    }
+  ],
+  "features/recording_settings": [
+    {
+      "id": "Xeh9l8K8nqo",
+      "title": "8K VR 180 Video Test"
+    },
+    {
+      "id": "V6zpyW1hDog",
+      "title": "8K VR 360 Video Test"
+    }
+  ],
+  "features/actor_playlist": [
+    {
+      "id": "TWlidp0Htfk",
+      "title": "Tag system and content selection improvements in version 1.4.0",
+      "reason": "Description explicitly covers reordering, deleting and saving playlists."
+    }
+  ],
+  "features/alternative_textures": [
+    {
+      "id": "g5hB3BqR3QE",
+      "title": "[WIP] Responsive Loading & Support for Optional Items & Alternative Textures",
+      "reason": "Title and description explicitly demonstrate alternative textures for XPS models."
+    }
+  ],
+  "features/material_eyes": [
+    {
+      "id": "xazXOlls5mM",
+      "title": "Updated Material Controls (1.3.4)",
+      "reason": "Description explicitly introduces grouped controls and categorization for eyes."
+    }
+  ],
+  "features/material_lips": [
+    {
+      "id": "xazXOlls5mM",
+      "title": "Updated Material Controls (1.3.4)",
+      "reason": "Description explicitly introduces grouped controls and categorization for lips."
+    }
+  ],
+  "features/transparency": [
+    {
+      "id": "DZEBZLPDnAA",
+      "title": "Demo of physics setup and updated material settings in 1.3.7",
+      "reason": "Description explicitly demonstrates changing material transparency."
+    }
+  ],
+  "features/primitive_shapes": [
+    {
+      "id": "MCzx_vzNcQU",
+      "title": "[DanceXR] 1.4.0 Built-in Props Demo",
+      "reason": "Description explicitly covers primitive prop textures and physics."
+    }
+  ],
+  "features/auto_cam": [
+    {
+      "id": "csv6_H5_Q7k",
+      "title": "Ready Steady - DOAXVV Tamaki Ryza Outfit",
+      "reason": "Description explicitly identifies automatic camera framing of all actors."
+    }
+  ],
+  "features/freefly_cam": [
+    {
+      "id": "N8azStv5j6s",
+      "title": "New Fancam Options",
+      "reason": "Description identifies Freefly camera lock-on-target and auto zoom controls."
+    }
+  ],
+  "features/remote_control": [
+    {
+      "id": "hliH6oFmjVE",
+      "title": "Remotely controlling DanceXR from your Android phone",
+      "reason": "Upload title explicitly demonstrates Android remote control, added in 2024.12."
+    }
+  ],
+  "features/hdr_display": [
+    {
+      "id": "8Dsi8_WCK9w",
+      "title": "Conqueror HDR",
+      "reason": "Title and description identify HDR display output rather than HDR sky textures."
+    }
+  ],
+  "controls": [
+    {
+      "id": "5qJ7SwcoZak",
+      "title": "UI Improvements - Key Pad Input & Menu Item Filtering",
+      "reason": "Description demonstrates precise number-pad entry and menu item filtering."
+    }
+  ],
+  "features/input_settings": [
+    {
+      "id": "oROcc75SrnE",
+      "title": "DVVR 0.5.2 Auto Value Update Feature & Input Settings",
+      "reason": "Title and description explicitly demonstrate the customizable input system."
+    }
+  ],
+  "features/graphics": [
+    {
+      "id": "5yerg14Is6E",
+      "title": "[Sneak Peek] New Graphics Menu & Toon Shader",
+      "reason": "Title explicitly demonstrates the Graphics menu and toon shader."
+    }
+  ]
+}

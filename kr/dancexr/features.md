@@ -18,6 +18,7 @@ feature_sections:
       - title: 디스커버리 앱
         link: /kr/dancexr/features/discovery
         image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
+        video: "https://www.youtube.com/watch?v=bMtgN0cNJm8"
         badge: "2025.6 | Asset Acquisition Made Effortless"
         badge_type: new
       - title: DanceXR Operator
@@ -32,7 +33,8 @@ feature_sections:
         badge_type: pro
       - title: "오프라인 렌더 & 녹화"
         link: /kr/dancexr/creator
-        image: /images/slideshows/render/14b024471bc0d21580d976ea28e2fc5f74f1f623.jpg
+        image: /images/features/youtube/Xeh9l8K8nqo.webp
+        video: "https://www.youtube.com/watch?v=Xeh9l8K8nqo"
         badge: PC · CREATOR
   - title: AI 기능
     hub_url: /kr/dancexr/ai
@@ -58,9 +60,11 @@ feature_sections:
           - title: 모델 파일 구성
             link: "/kr/dancexr/preparecontent#3d-models"
             image: /images/content_actors.PNG
+            video: "https://www.youtube.com/watch?v=-2LStDN7WB8"
           - title: 태깅
             link: /kr/dancexr/features/tagging
-            image: /images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp
+            image: /images/features/youtube/TWlidp0Htfk.webp
+            video: "https://www.youtube.com/watch?v=TWlidp0Htfk"
           - title: Actor Options
             link: /kr/dancexr/features/loader_options
             image: /images/slideshows/load_play/Stellar%20Blade%20Raven%20Sea%20Breeze%20Dance%20%5Bo6mocERvFNk%5D.webp
@@ -68,10 +72,12 @@ feature_sections:
             badge_type: new
           - title: 배우 재생목록
             link: /kr/dancexr/features/actor_playlist
-            image: /images/slideshows/load_play/%5BDanceXR%5D%20Kimagure%20Mercy%20-%20Honoka%20%5Bg1-OfMxxZ5s%5D.webp
+            image: /images/features/youtube/TWlidp0Htfk.webp
+            video: "https://www.youtube.com/watch?v=TWlidp0Htfk"
           - title: 구성
             link: /kr/dancexr/features/formation
-            image: /images/slideshows/load_play/%5BDanceXR%5D%20New%20mirror%20feature%20%5B0FwY2viXcM0%5D.webp
+            image: /images/features/youtube/Y6WLG6-toW8.webp
+            video: "https://www.youtube.com/watch?v=Y6WLG6-toW8"
           - title: ZIP 형식
             link: /kr/dancexr/features/zip_format
             image: /images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg
@@ -79,10 +85,12 @@ feature_sections:
         tiles:
           - title: 본 매퍼
             link: /kr/dancexr/features/bone_mapper
-            image: /images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp
+            image: /images/features/youtube/YqX_uktVvQk.webp
+            video: "https://www.youtube.com/watch?v=YqX_uktVvQk"
           - title: 물리
             link: /kr/dancexr/features/pmx_physics
-            image: /images/slideshows/physics/Cloth%20Simulation%20Buoyancy%20And%20Underwater%20Properties%20-%20DanceXR%202024.9%20%5BDPjuUjCxhkE%5D.webp
+            image: /images/features/youtube/limT_kMRp8s.webp
+            video: "https://www.youtube.com/watch?v=limT_kMRp8s"
           - title: PMX 블렌드셰이프 모프
             link: /kr/dancexr/features/morph_list
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
@@ -93,7 +101,8 @@ feature_sections:
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
           - title: 표정 제어
             link: /kr/dancexr/features/facial_control
-            image: /images/slideshows/physics/921e8f56935161e0e14e15d1dd0addb866f2b735.jpg
+            image: /images/features/youtube/1qxWF6qumoY.webp
+            video: "https://www.youtube.com/watch?v=1qxWF6qumoY"
       - title: 캐릭터 도구
         tiles:
           - title: 액터 메뉴 및 도구
@@ -103,12 +112,14 @@ feature_sections:
             link: /kr/dancexr/features/global_actor_control
           - title: 액터에 부착
             link: /kr/dancexr/features/attach_to_actor
-            image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
+            image: /images/slideshows/tools/DanceXR%202025.2%20New%20Feature%EF%BC%9A%20Attach%20To%20Actor%20%5BIoveVJs15wY%5D.webp
+            video: "https://www.youtube.com/watch?v=IoveVJs15wY"
             badge: 2025.2 · PRO
             badge_type: pro
           - title: 발 조정
             link: /kr/dancexr/features/feet_adjustment
-            image: /images/slideshows/dressing/90fbb9ac6e412cb83d0fcf3c743bfcd776473261.jpg
+            image: /images/features/youtube/xQ59IhWUbVA.webp
+            video: "https://www.youtube.com/watch?v=xQ59IhWUbVA"
           - title: "Scale & Offset"
             link: /kr/dancexr/features/scale_offset
             image: /images/slideshows/character/Candace%20%26%20Nahida%20from%20Genshin%20Implact%20%5BO6_lwe6TURM%5D.webp
@@ -129,22 +140,26 @@ feature_sections:
         tiles:
           - title: 드레싱 시스템 (재료 변형 및 XPS 선택 항목)
             link: /kr/dancexr/features/optionals
-            image: /images/slideshows/dressing/HIBIKASE%20-%20DOAXVV%20Mikasa%20Dissolving%20Outfit%20%5BZZwW0PoJ1vE%5D.webp
+            image: /images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp
+            video: "https://www.youtube.com/watch?v=9YTX9seWLK4"
             badge: PRO
             badge_type: pro
           - title: 대체 텍스처
             link: /kr/dancexr/features/alternative_textures
-            image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
+            image: /images/features/youtube/g5hB3BqR3QE.webp
+            video: "https://www.youtube.com/watch?v=g5hB3BqR3QE"
             badge: 2026.1
             badge_type: new
           - title: 의상 및 바디페인트
             link: /kr/dancexr/features/outfit
             image: /images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp
+            video: "https://www.youtube.com/watch?v=chHk9--cUYE"
             badge: 2024.3 · PRO
             badge_type: pro
           - title: 액세서리
             link: /kr/dancexr/features/accessory
-            image: /images/slideshows/dressing/Marie%20Rose%20Morphing%20Ballet%20Outfit%20-%20Satisfaction%20%5BRgNi-DdEfL0%5D.webp
+            image: /images/features/youtube/0BFrdqO9cuI.webp
+            video: "https://www.youtube.com/watch?v=0BFrdqO9cuI"
             badge: PRO
             badge_type: pro
       - title: 재료
@@ -154,30 +169,38 @@ feature_sections:
             image: /images/slideshows/dressing/Translucent%20Material%20With%20Raytraced%20Color%20Shadow%20-%20DanceXR%202025.1%20%5BeBjhymW60Uw%5D.webp
           - title: 툰 쉐이딩
             link: /kr/dancexr/features/toon_shading
-            image: /images/slideshows/dressing/%5BDanceXR%202024.3%5D%20Improved%20Stocking%20Effect%20%5BewUUxxGbAm8%5D.webp
+            image: /images/features/youtube/3jdADJzUdY8.webp
+            video: "https://www.youtube.com/watch?v=3jdADJzUdY8"
           - title: 피부 재질
             link: /kr/dancexr/features/material_skin
-            image: /images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp
+            image: /images/features/youtube/C3boLWhL4Og.webp
+            video: "https://www.youtube.com/watch?v=C3boLWhL4Og"
             badge: 2026.2
             badge_type: new
           - title: 헤어 재질
             link: /kr/dancexr/features/material_hair
-            image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
+            image: /images/features/youtube/EODvj5SiafI.webp
+            video: "https://www.youtube.com/watch?v=EODvj5SiafI"
           - title: 눈 재질
             link: /kr/dancexr/features/material_eyes
-            image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
+            image: /images/features/youtube/xazXOlls5mM.webp
+            video: "https://www.youtube.com/watch?v=xazXOlls5mM"
           - title: 입술 재질
             link: /kr/dancexr/features/material_lips
-            image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
+            image: /images/features/youtube/xazXOlls5mM.webp
+            video: "https://www.youtube.com/watch?v=xazXOlls5mM"
           - title: 재질 설정
             link: /kr/dancexr/features/material_settings
-            image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
+            image: /images/features/youtube/xazXOlls5mM.webp
+            video: "https://www.youtube.com/watch?v=xazXOlls5mM"
           - title: 투명 재료
             link: /kr/dancexr/features/transparency
-            image: /images/slideshows/dressing/Nyotengu%20Sends%20Her%20Transparent%20Dress%20Flying%20%5BbmZbBuYI2AA%5D.webp
+            image: /images/features/youtube/DZEBZLPDnAA.webp
+            video: "https://www.youtube.com/watch?v=DZEBZLPDnAA"
           - title: 텍스처 향상
             link: /kr/dancexr/features/texture_enhancement
-            image: /images/slideshows/dressing/%5BDanceXR%202024.3%5D%20Improved%20Stocking%20Effect%20%5BewUUxxGbAm8%5D.webp
+            image: /images/features/youtube/uk7QGK3rOQk.webp
+            video: "https://www.youtube.com/watch?v=uk7QGK3rOQk"
             badge: PRO
             badge_type: pro
   - title: 물리 시뮬레이션
@@ -189,25 +212,30 @@ feature_sections:
         tiles:
           - title: 시뮬레이션
             link: /kr/dancexr/features/simulation
-            image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
+            image: /images/features/youtube/8wOB11Afz7k.webp
+            video: "https://www.youtube.com/watch?v=8wOB11Afz7k"
           - title: 시뮬레이션
             link: /kr/dancexr/features/cloth_simulation
-            image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
+            image: /images/features/youtube/Lz9UC59LLXo.webp
+            video: "https://www.youtube.com/watch?v=Lz9UC59LLXo"
             badge: 2024.8 · PRO
             badge_type: pro
           - title: 메시에서 천으로
             link: /kr/dancexr/features/mesh_to_cloth
             image: /images/slideshows/physics/Convert%20Model%20Mesh%20To%20Cloth%20Simulation%20-%20DanceXR%202024.9%20%5BFdMSBaPMUHI%5D.webp
+            video: "https://www.youtube.com/watch?v=FdMSBaPMUHI"
             badge: 2024.9 · PRO
             badge_type: pro
           - title: 라그돌
             link: /kr/dancexr/features/ragdoll
-            image: /images/slideshows/simulation/2%20Piece%20%5Bim27WxYX7Z8%5D.webp
+            image: /images/features/youtube/h7flTJ_YQ-o.webp
+            video: "https://www.youtube.com/watch?v=h7flTJ_YQ-o"
             badge: PRO
             badge_type: pro
           - title: 빛 공
             link: /kr/dancexr/features/light_ball
-            image: /images/slideshows/atmosphere/DOAMMD%20Nyotengu%20Ghost%20Rule%20%5BlauPwAzRFQc%5D.webp
+            image: /images/features/youtube/XHX6ZLpSuOw.webp
+            video: "https://www.youtube.com/watch?v=XHX6ZLpSuOw"
             badge: PRO
             badge_type: pro
       - title: 물리 도구
@@ -217,21 +245,25 @@ feature_sections:
             image: /images/slideshows/character/XPS%20model%20physics%20setup%20examples%20%5B2VOh5Mt_Jm0%5D.webp
           - title: 헤어 물리
             link: /kr/dancexr/features/hair_physics
-            image: /images/slideshows/character/Nikke%20Anis%20%5BkbWPhFTUucY%5D.webp
+            image: /images/features/youtube/LkVbfxGz4tw.webp
+            video: "https://www.youtube.com/watch?v=LkVbfxGz4tw"
           - title: 매달린 물리 (Dangling Physics)
             link: /kr/dancexr/features/dangling_physics
             image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
           - title: 치마 물리
             link: /kr/dancexr/features/skirt_physics
-            image: /images/slideshows/dressing/Just%20Cheongsam%20%5BTYs4erflWog%5D.webp
+            image: /images/features/youtube/a6aEDeWmsIM.webp
+            video: "https://www.youtube.com/watch?v=a6aEDeWmsIM"
           - title: 가슴 물리
             link: /kr/dancexr/features/boobs_physics
-            image: /images/slideshows/physics/MIsaki%20-%20Lucky%20Orb%20-%20Jiggle%20Physics%20%5B70HScYliiKM%5D.webp
+            image: /images/features/youtube/QRCphRAS0Tw.webp
+            video: "https://www.youtube.com/watch?v=QRCphRAS0Tw"
             badge: PRO
             badge_type: pro
           - title: Softbody 물리
             link: /kr/dancexr/features/softbody_physics
-            image: /images/slideshows/simulation/Beautiful%20Long%20Sleeves%20%5Bwh785n86VQ8%5D.webp
+            image: /images/features/youtube/1SYw7Li-ffQ.webp
+            video: "https://www.youtube.com/watch?v=1SYw7Li-ffQ"
             badge: PRO
             badge_type: pro
           - title: 객체 분리
@@ -248,16 +280,22 @@ feature_sections:
             image: /images/slideshows/alive/Pool%20Dance%20-%20River%20in%20The%20Desert%20-%20Momiji%20%5BAGDoXubearg%5D.webp
           - title: 자유 포즈 모션
             link: /kr/dancexr/features/free_pose
+            image: /images/features/youtube/Y_r-y7yoqGE.webp
+            video: "https://www.youtube.com/watch?v=Y_r-y7yoqGE"
           - title: 인터랙티브 포즈
             link: /kr/dancexr/features/interactive_pose
+            image: /images/features/youtube/RtMze-_g8SM.webp
+            video: "https://www.youtube.com/watch?v=RtMze-_g8SM"
             badge: 2026.9
             badge_type: new
           - title: 런웨이 모션
             link: /kr/dancexr/features/catwalk
-            image: /images/slideshows/alive/Tamaki%20%5B7SmvAwwYU8U%5D.webp
+            image: /images/features/youtube/PkWub6dVHXM.webp
+            video: "https://www.youtube.com/watch?v=PkWub6dVHXM"
           - title: 자동 댄스
             link: /kr/dancexr/features/autodance
-            image: /images/slideshows/motion/2B%20Walk%20Motion%20With%20Outfit%20Transition%20%5BW1dQueEsTMM%5D.webp
+            image: /images/features/youtube/HS8qy3ncPe8.webp
+            video: "https://www.youtube.com/watch?v=HS8qy3ncPe8"
             badge: PRO
             badge_type: pro
           - title: 자동 댄스 3
@@ -269,10 +307,12 @@ feature_sections:
         tiles:
           - title: 사실적인 움직임
             link: /kr/dancexr/features/lifelike_motions
-            image: /images/slideshows/alive/DOA%20Yukino%20Crossing%20Legs%20Slowmo%20%5BIjtxhFwwLqU%5D.webp
+            image: /images/features/youtube/zP966sQ6h0g.webp
+            video: "https://www.youtube.com/watch?v=zP966sQ6h0g"
           - title: "## 모션 설정"
             link: /kr/dancexr/features/motion_settings
-            image: /images/slideshows/alive/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%20%E2%A7%B8%20Charles%20%5BU5KBA4SysNA%5D.webp
+            image: /images/features/youtube/98xdPeg2ON8.webp
+            video: "https://www.youtube.com/watch?v=98xdPeg2ON8"
       - title: "오디오 & 비디오"
         tiles:
           - title: 오디오 옵션
@@ -283,15 +323,19 @@ feature_sections:
             badge: 2024.9
           - title: 립싱크
             link: /kr/dancexr/features/lipsync
+            image: /images/slideshows/tools/Auto%20LipSync%20Demo%20-%20DanceXR%202024.9%20%5BEIEAJ45WphQ%5D.webp
+            video: "https://www.youtube.com/watch?v=EIEAJ45WphQ"
             badge: 2024.9
           - title: 비디오 플레이어
             link: /kr/dancexr/features/video_player
-            image: /images/slideshows/motion/Yukino%20-%20Nobody%20Can%20Resist%20%5B_79q5X_xzs0%5D.webp
+            image: /images/features/youtube/AR_LEym7nvY.webp
+            video: "https://www.youtube.com/watch?v=AR_LEym7nvY"
             badge: 2024.4 · PRO
             badge_type: pro
           - title: 음악 타이밍
             link: /kr/dancexr/features/music_timing
-            image: /images/slideshows/motion/Don%27t%20miss%20out%21%20DanceXR%20is%20currently%2030%25%20off%20on%20Steam%20and%20Itch.io%21%20%5BMfpTKkOkXP8%5D.webp
+            image: /images/features/youtube/m6U7wYCqfYk.webp
+            video: "https://www.youtube.com/watch?v=m6U7wYCqfYk"
             badge: 2026.2
             badge_type: new
       - title: 모션
@@ -303,20 +347,25 @@ feature_sections:
             badge_type: new
           - title: "## 모션 설정"
             link: /kr/dancexr/features/motion_settings
-            image: /images/slideshows/motion/Play%20With%20Fire%20%28Hiasobi%29%20Mocap%20Comparison%20%5BpNQDRMJ6DGU%5D.webp
+            image: /images/features/youtube/98xdPeg2ON8.webp
+            video: "https://www.youtube.com/watch?v=98xdPeg2ON8"
             badge: 2026.2
             badge_type: new
           - title: "## 재생 옵션"
             link: /kr/dancexr/features/playback_options
-            image: /images/slideshows/motion/Amy%27s%20Runway%20Walk%20%5BBIUiOAEu_y4%5D.webp
+            image: /images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp
+            video: "https://www.youtube.com/watch?v=nyeiDoQbYaE"
           - title: 동작 할당
             link: /kr/dancexr/features/assign_motion
             image: /images/slideshows/motion/DanceXR%201.4.6%20Motion%20Loop%20Control%20%5BnyeiDoQbYaE%5D.webp
           - title: 보조 동작
             link: /kr/dancexr/features/secondary_motion
-            image: /images/slideshows/alive/%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%83%A1%E3%83%89%E3%83%AC%E3%83%BC%20%EF%BD%9E%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%20%E3%82%B5%E3%82%A6%E3%83%B3%E3%82%BA%EF%BD%9E%E2%A7%B8%20Cute%20Medley%20%5Bg22AttKYy_Q%5D.webp
+            image: /images/features/youtube/EenDTJkNNQs.webp
+            video: "https://www.youtube.com/watch?v=EenDTJkNNQs"
           - title: 포즈 파일（.pose / .vpd）
             link: /kr/dancexr/features/pose_files
+            image: /images/slideshows/motion/This%20entire%20video%20is%20automatic%20transition%20between%20a%20few%20static%20poses%21%20%5BhwUahuvWBoQ%5D.webp
+            video: "https://www.youtube.com/watch?v=hwUahuvWBoQ"
             badge: 2024.6
           - title: VMD2PNG
             link: /kr/dancexr/features/vmd2png
@@ -324,20 +373,24 @@ feature_sections:
             badge_type: new
           - title: 리믹스 모션
             link: /kr/dancexr/features/remix
-            image: /images/slideshows/motion/Spin%20%5BK__liB93anI%5D.webp
+            image: /images/features/youtube/mpS3vvxSn3I.webp
+            video: "https://www.youtube.com/watch?v=mpS3vvxSn3I"
           - title: 모션 오버라이드
             link: /kr/dancexr/features/motion_override
-            image: /images/slideshows/motion/Pole%20Dance%20Test%20%5B4TB8aFRJENI%5D.webp
+            image: /images/features/youtube/z79Z08OJ0vc.webp
+            video: "https://www.youtube.com/watch?v=z79Z08OJ0vc"
             badge: PRO
             badge_type: pro
           - title: 키프레임 애니메이션
             link: /kr/dancexr/features/keyframe_animation
-            image: /images/slideshows/motion/This%20entire%20video%20is%20automatic%20transition%20between%20a%20few%20static%20poses%21%20%5BhwUahuvWBoQ%5D.webp
+            image: /images/slideshows/tools/Keyframe%20Animation%20Tutorial%20%5Bb0IvZs98JrE%5D.webp
+            video: "https://www.youtube.com/watch?v=b0IvZs98JrE"
             badge: 2025.3 · PRO
             badge_type: pro
           - title: 모션 파일 구성
             link: "/kr/dancexr/preparecontent#motion-files"
-            image: /images/slideshows/load_play/%5BDanceXR%5D%20Kimagure%20Mercy%20-%20Honoka%20%5Bg1-OfMxxZ5s%5D.webp
+            image: /images/features/youtube/-2LStDN7WB8.webp
+            video: "https://www.youtube.com/watch?v=-2LStDN7WB8"
   - title: "분위기 & 환경"
     light: true
     subsections:
@@ -345,20 +398,24 @@ feature_sections:
         tiles:
           - title: 하늘
             link: /kr/dancexr/features/sky
-            image: /images/slideshows/simulation/DanceXR%20Realtime%20Cloth%20Simulation%20Demo%20%5BaJqbgiw2NP4%5D.webp
+            image: /images/features/youtube/D745FYNcx4c.webp
+            video: "https://www.youtube.com/watch?v=D745FYNcx4c"
           - title: 조명
             link: /kr/dancexr/features/lighting
             image: /images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp
+            video: "https://www.youtube.com/watch?v=wniVUS8YhRA"
       - title: "환경 & 효과"
         tiles:
           - title: 파티클 효과
             link: /kr/dancexr/features/weather_particles
-            image: /images/slideshows/environment/9173d0f946d256d4c711cbe876fe30ad139d1a7d.jpg
+            image: /images/features/youtube/SLNw5XZflZ8.webp
+            video: "https://www.youtube.com/watch?v=SLNw5XZflZ8"
             badge: PRO
             badge_type: pro
           - title: 물 시스템
             link: /kr/dancexr/features/water_system
-            image: /images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp
+            image: /images/features/youtube/K3WSqEj7K-4.webp
+            video: "https://www.youtube.com/watch?v=K3WSqEj7K-4"
             badge: PC
           - title: "## AR 설정"
             link: /kr/dancexr/features/ar_mode
@@ -368,42 +425,52 @@ feature_sections:
           - title: "## 물 상호작용"
             link: /kr/dancexr/features/water_interaction
             image: /images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp
+            video: "https://www.youtube.com/watch?v=SRt1IRoRwNI"
       - title: "무대 & 소품"
         tiles:
           - title: 바닥
             link: /kr/dancexr/features/ground
-            image: /images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp
+            image: /images/features/youtube/K3WSqEj7K-4.webp
+            video: "https://www.youtube.com/watch?v=K3WSqEj7K-4"
           - title: 룸 무대
             link: /kr/dancexr/features/room_stage
             image: /images/slideshows/environment/How%20is%20the%20shadow%20on%20the%20wall%20even%20possible%EF%BC%9F%20%5B85lKm5S3Oa8%5D.webp
           - title: "## 무대"
             link: /kr/dancexr/features/stages
-            image: /images/slideshows/environment/Leifang%20Circus%20Show%20%5Bg0pe5q9DrMo%5D.webp
+            image: /images/features/youtube/pR_qq99iKxg.webp
+            video: "https://www.youtube.com/watch?v=pR_qq99iKxg"
           - title: 소품
             link: /kr/dancexr/features/props
             image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
+            video: "https://www.youtube.com/watch?v=MCzx_vzNcQU"
           - title: 기본 도형
             link: /kr/dancexr/features/primitive_shapes
-            image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
+            image: /images/features/youtube/MCzx_vzNcQU.webp
+            video: "https://www.youtube.com/watch?v=MCzx_vzNcQU"
           - title: 화면
             link: /kr/dancexr/features/screen
-            image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
+            image: /images/features/youtube/AR_LEym7nvY.webp
+            video: "https://www.youtube.com/watch?v=AR_LEym7nvY"
           - title: 거울
             link: /kr/dancexr/features/mirror
-            image: /images/slideshows/tools/%5BDanceXR%5D%201.4.0%20Built-in%20Props%20Demo%20%5BMCzx_vzNcQU%5D.webp
+            image: /images/slideshows/load_play/%5BDanceXR%5D%20New%20mirror%20feature%20%5B0FwY2viXcM0%5D.webp
+            video: "https://www.youtube.com/watch?v=0FwY2viXcM0"
           - title: 레이저
             link: /kr/dancexr/features/laser
-            image: /images/slideshows/environment/35e7dbc7eff97344e4b4ebb5e68a0f3a74d085eb.jpg
+            image: /images/features/youtube/rOQow-MBkVU.webp
+            video: "https://www.youtube.com/watch?v=rOQow-MBkVU"
             badge: 2024.3 · PRO
             badge_type: pro
           - title: 비트 링
             link: /kr/dancexr/features/beats_ring
-            image: /images/slideshows/tools/DanceXR%201.4.5%20New%20AutoUpdate%20Options%20for%20Audio%20Visualization%20%5BA00DhbCOgu0%5D.webp
+            image: /images/features/youtube/q1hFsp8GiHQ.webp
+            video: "https://www.youtube.com/watch?v=q1hFsp8GiHQ"
       - title: "장면 & 렌더링"
         tiles:
           - title: 씬 저장
             link: /kr/dancexr/features/save_scene
-            image: /images/slideshows/environment/DOAXVV%20Honoka%20-%20Aidee%20%5BVm23ShO6uAM%5D.webp
+            image: /images/features/youtube/zTSOD-dJH3Y.webp
+            video: "https://www.youtube.com/watch?v=zTSOD-dJH3Y"
           - title: 씬 번들
             link: /kr/dancexr/features/scene_bundle
             image: /images/slideshows/environment/Leifang%20-%20As%20You%20Like%20It%20-%20Group%20Dance%20%5BZgmCbzNs7EU%5D.webp
@@ -411,7 +478,8 @@ feature_sections:
             badge_type: pro
           - title: 레이 트레이싱 효과
             link: /kr/dancexr/features/raytracing
-            image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
+            image: /images/features/youtube/q1hFsp8GiHQ.webp
+            video: "https://www.youtube.com/watch?v=q1hFsp8GiHQ"
             badge: PC
   - title: 시네마 카메라
     hub_url: /kr/dancexr/cameras
@@ -422,10 +490,12 @@ feature_sections:
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
       - title: "[Freefly Cam]"
         link: /kr/dancexr/features/freefly_cam
-        image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
+        image: /images/features/youtube/N8azStv5j6s.webp
+        video: "https://www.youtube.com/watch?v=N8azStv5j6s"
       - title: "[자동 카메라]"
         link: /kr/dancexr/features/auto_cam
-        image: /images/slideshows/camera/What%20does%20it%20feel%20like%20to%20watch%20a%20concert%20while%20standing%20in%20the%20middle%20of%20the%20stage%EF%BC%9F%20%5Beq7XxG_6YLg%5D.webp
+        image: /images/features/youtube/csv6_H5_Q7k.webp
+        video: "https://www.youtube.com/watch?v=csv6_H5_Q7k"
       - title: 궤도 카메라
         link: /kr/dancexr/features/orbit_cam
         image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
@@ -434,7 +504,8 @@ feature_sections:
         image: /images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp
       - title: 고정 카메라（콘서트 모드）
         link: /kr/dancexr/features/concert_cam
-        image: /images/slideshows/camera/Ready%20Steady%20-%20Concert%20Mode%20%5BcB4I7J_h--c%5D.webp
+        image: /images/features/youtube/9kGqlY858Do.webp
+        video: "https://www.youtube.com/watch?v=9kGqlY858Do"
   - title: "시스템 & 플랫폼"
     light: true
     subsections:
@@ -444,49 +515,63 @@ feature_sections:
             link: /kr/dancexr/concepts
           - title: 컨트롤 및 UI
             link: /kr/dancexr/controls
+            image: /images/features/youtube/5qJ7SwcoZak.webp
+            video: "https://www.youtube.com/watch?v=5qJ7SwcoZak"
           - title: VR 작업 (또는 VR 오퍼레이션)
             link: /kr/dancexr/vr_operations
+            image: /images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp
+            video: "https://www.youtube.com/watch?v=KkGzY28Oj7k"
       - title: 시스템
         tiles:
           - title: 콘텐츠 라이브러리
             link: /kr/dancexr/preparecontent
-            image: /images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp
+            image: /images/features/youtube/-2LStDN7WB8.webp
+            video: "https://www.youtube.com/watch?v=-2LStDN7WB8"
           - title: Google Drive 통합
             link: /kr/dancexr/features/googledrive
-            image: /images/slideshows/load_play/Stellar%20Blade%20Raven%20Sea%20Breeze%20Dance%20%5Bo6mocERvFNk%5D.webp
+            image: /images/features/youtube/N7o0CdbFvD4.webp
+            video: "https://www.youtube.com/watch?v=N7o0CdbFvD4"
           - title: 안드로이드 및 퀘스트용 콘텐츠 라이브러리
             link: /kr/dancexr/content_android_quest
-            image: /images/slideshows/load_play/Jane%20Doe%20-%20Zenless%20Zone%20Zero%20%5BF7jBPC9uxms%5D.webp
+            image: /images/features/youtube/mFnXE7LBV-M.webp
+            video: "https://www.youtube.com/watch?v=mFnXE7LBV-M"
           - title: 언어
             link: /kr/dancexr/features/languages
             image: /images/slideshows/load_play/2B%20Will%20Make%20Your%20Blood%20Boil%20With%20This%20Song%21%20Weight%20Of%20The%20World%20%28Heavy%20Metal%20Version%29%20%5BRwiLkO4LCkQ%5D.webp
           - title: 시스템 물리
             link: /kr/dancexr/features/system_physics
-            image: /images/slideshows/physics/6b29c53917daff568a9ee75cfa0d62b6b4cadf79.jpg
+            image: /images/features/youtube/8wOB11Afz7k.webp
+            video: "https://www.youtube.com/watch?v=8wOB11Afz7k"
             badge: 2026.1
             badge_type: new
           - title: 자동 업데이트
             link: /kr/dancexr/features/autoupdate
-            image: /images/slideshows/load_play/4e0d4466664bf1e6fd615d3c69e03b74045bd0c7.jpg
+            image: /images/slideshows/tools/DanceXR%201.4.5%20New%20AutoUpdate%20Options%20for%20Audio%20Visualization%20%5BA00DhbCOgu0%5D.webp
+            video: "https://www.youtube.com/watch?v=A00DhbCOgu0"
             badge: PRO
             badge_type: pro
           - title: 시스템 프리셋
             link: /kr/dancexr/features/system_presets
-            image: /images/slideshows/load_play/e2f4a1b6f2ab26b476aba086260cdf3dd89fcc59.jpg
+            image: /images/features/youtube/EbMYpyW8AGA.webp
+            video: "https://www.youtube.com/watch?v=EbMYpyW8AGA"
             badge: 2024.1
             badge_type: new
           - title: 원격 제어
             link: /kr/dancexr/features/remote_control
+            image: /images/features/youtube/hliH6oFmjVE.webp
+            video: "https://www.youtube.com/watch?v=hliH6oFmjVE"
             badge: 2024.12 · Android
           - title: 애플리케이션 설정
             link: /kr/dancexr/features/application_settings
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
           - title: 입력 설정
             link: /kr/dancexr/features/input_settings
-            image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
+            image: /images/features/youtube/oROcc75SrnE.webp
+            video: "https://www.youtube.com/watch?v=oROcc75SrnE"
           - title: 녹화 설정
             link: /kr/dancexr/features/recording_settings
-            image: /images/slideshows/render/14b024471bc0d21580d976ea28e2fc5f74f1f623.jpg
+            image: /images/features/youtube/Xeh9l8K8nqo.webp
+            video: "https://www.youtube.com/watch?v=Xeh9l8K8nqo"
             badge: PRO
             badge_type: pro
       - title: "그래픽 & 디스플레이"
@@ -498,11 +583,14 @@ feature_sections:
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
           - title: 그래픽스
             link: /kr/dancexr/features/graphics
-            image: /images/slideshows/render/VRGirl%20Sea%20Breeze%20dance%20%5BvPnmTRJqj8Q%5D.webp
+            image: /images/features/youtube/5yerg14Is6E.webp
+            video: "https://www.youtube.com/watch?v=5yerg14Is6E"
             badge: 2026.2
             badge_type: new
           - title: HDR 디스플레이
             link: /kr/dancexr/features/hdr_display
+            image: /images/features/youtube/8Dsi8_WCK9w.webp
+            video: "https://www.youtube.com/watch?v=8Dsi8_WCK9w"
             badge: 2024.1 · PC
   - title: 성인
     tiles:

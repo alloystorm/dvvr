@@ -12,8 +12,8 @@ For each tile the title is resolved in priority order:
   2. JSON `title`                  (explicit EN override, also used as fallback)
   3. Markdown front-matter title   (read from {locale}/dancexr/{path}.md)
 
-`image` and `video` fields are injected into feature-page front matters
-when --inject-media is passed.
+`image`, `video` and optional additional `videos` are resolved into
+_data/feature_media.json for Jekyll. Feature-page Markdown is never modified.
 
 Usage:
   python script/generate_features.py [--inject-media] [--locale LOCALE]
@@ -24,6 +24,7 @@ import os
 import re
 import sys
 import argparse
+from feature_media import generate_media, build_media
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -410,47 +411,6 @@ def generate_outline(sections_data, out_path=None):
         print(text, end="")
 
 
-def inject_media(sections_data):
-    """
-    For every tile that has `image` or `video`, inject those values into the
-    feature page's front matter (all locales + EN).
-    """
-    seen = set()
-    all_locales = [""] + list(LOCALES.keys())
-
-    def inject_tile(tile):
-        if "path" not in tile:
-            return
-        path = tile["path"]
-        # Deduplicate: same path injected multiple times (e.g. camera tiles)
-        key = path
-        if key in seen:
-            return
-        seen.add(key)
-
-        for locale in all_locales:
-            fp = page_filepath(path, locale if locale else None)
-            if not os.path.isfile(fp):
-                continue
-            if "image" in tile:
-                write_front_matter_field(fp, "feature_image", tile["image"])
-            if "video" in tile:
-                write_front_matter_field(fp, "feature_video", tile["video"])
-
-    def walk(sections):
-        for section in sections:
-            if "subsections" in section:
-                for sub in section["subsections"]:
-                    for tile in sub["tiles"]:
-                        inject_tile(tile)
-            else:
-                for tile in section["tiles"]:
-                    inject_tile(tile)
-
-    walk(sections_data)
-    print("Media injection complete.")
-
-
 # ---------------------------------------------------------------------------
 # Releases list generation
 # ---------------------------------------------------------------------------
@@ -687,7 +647,7 @@ def main():
     parser.add_argument(
         "--inject-media",
         action="store_true",
-        help="Also inject feature_image / feature_video into feature page front matters",
+        help="Deprecated compatibility flag; media lookup is now always generated without editing feature pages",
     )
     parser.add_argument(
         "--locale",
@@ -760,6 +720,20 @@ def main():
             generate_outline(sections, out)
             return
 
+        # Validate before writing outputs; one shared lookup serves all locales.
+        media = build_media(sections)
+        def resolve_media_tiles(groups):
+            for group in groups:
+                for tile in group.get('tiles', []):
+                    entry = media.get(tile.get('path'), {})
+                    if 'image' not in tile and entry.get('image'):
+                        tile['image'] = entry['image']
+                    if entry.get('videos'):
+                        tile['video'] = entry['videos'][0]['url']
+                resolve_media_tiles(group.get('subsections', []))
+        resolve_media_tiles(sections)
+        generate_media(sections)
+
         locales_to_gen = list(LOCALES.keys())
         gen_en = True
         if args.locale:
@@ -774,9 +748,6 @@ def main():
             generate_en(sections)
         for locale_key in locales_to_gen:
             generate_locale(sections, locale_key)
-
-        if args.inject_media:
-            inject_media(sections)
 
     # -----------------------------------------------------------------------
     # Support generation

@@ -1,0 +1,6186 @@
+{
+  "features/discovery": [
+    {
+      "id": "bMtgN0cNJm8",
+      "title": "Introducing DanceXR Discovery",
+      "score": 29,
+      "title_terms": [
+        "discovery"
+      ],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "mFnXE7LBV-M",
+      "title": "Version 2024.3 for Android External Storage Permission and Data Migration",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "app"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "pDjS_TVFBdM",
+      "title": "Introducing Fluid Diffusion - A Stable Diffusion Android frontend that doesn't suck",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "app"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "guB0snADHdM",
+      "title": "Lucky Orb Pole Dance Group",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "app"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "YkHZ_gqWyBo",
+      "title": "39 Music - DOAXVV Misaki Frog Bikini",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "app"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/operator": [],
+  "features/ai_chat": [],
+  "creator": [
+    {
+      "id": "Xeh9l8K8nqo",
+      "title": "8K VR 180 Video Test",
+      "score": 23,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "V6zpyW1hDog",
+      "title": "8K VR 360 Video Test",
+      "score": 20,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "QQHMFYwmaw0",
+      "title": "Sample of VR180 render output",
+      "score": 10,
+      "title_terms": [
+        "render"
+      ],
+      "description_terms": [
+        "creator",
+        "edition",
+        "offline",
+        "render"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "buzEl6V61ZE",
+      "title": "Yukino Dancing - Cartoon Render",
+      "score": 6,
+      "title_terms": [
+        "render"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "LIX3m4uQG6k",
+      "title": "Senbonzakura - Nyotengu & Misaki - Screen recording of DanceXR 1.3.7",
+      "score": 6,
+      "title_terms": [
+        "recording"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "preparecontent": [
+    {
+      "id": "ZmDeuWwZtmI",
+      "title": "Install & load content onto Oculus Quest",
+      "score": 29,
+      "title_terms": [
+        "content"
+      ],
+      "description_terms": [
+        "content",
+        "files",
+        "library"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "-2LStDN7WB8",
+      "title": "DanceXR Beginner's Guide: Content Setup",
+      "score": 28,
+      "title_terms": [
+        "content"
+      ],
+      "description_terms": [
+        "content",
+        "library"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "VQjnL9oq-hY",
+      "title": "Android Content Manager Demo",
+      "score": 28,
+      "title_terms": [
+        "content"
+      ],
+      "description_terms": [
+        "content",
+        "library"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "mFnXE7LBV-M",
+      "title": "Version 2024.3 for Android External Storage Permission and Data Migration",
+      "score": 22,
+      "title_terms": [],
+      "description_terms": [
+        "content",
+        "files"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "TWlidp0Htfk",
+      "title": "Tag system and content selection improvements in version 1.4.0",
+      "score": 9,
+      "title_terms": [
+        "content"
+      ],
+      "description_terms": [
+        "content",
+        "library",
+        "model"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/tagging": [
+    {
+      "id": "kOrp7rESrXQ",
+      "title": "Dance In The Pool - Sea Breeze - Nyotengu",
+      "score": 20,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "TWlidp0Htfk",
+      "title": "Tag system and content selection improvements in version 1.4.0",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    }
+  ],
+  "features/loader_options": [
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 7,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [
+        "actor"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "IoveVJs15wY",
+      "title": "DanceXR 2025.2 New Feature: Attach To Actor",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "1Wkde7_pDBQ",
+      "title": "Controlling actor motion with your own movements in VR, coming soon to the December release",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "BVRxBkAsKmM",
+      "title": "会いたい (Aitai) I Want to Meet You - Improved Actor Transition",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "kvGxDK_mq70",
+      "title": "Conqueror - Actor Transition Effect in 1.3.6",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/actor_playlist": [
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 7,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [
+        "actor"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "IoveVJs15wY",
+      "title": "DanceXR 2025.2 New Feature: Attach To Actor",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "1Wkde7_pDBQ",
+      "title": "Controlling actor motion with your own movements in VR, coming soon to the December release",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "BVRxBkAsKmM",
+      "title": "会いたい (Aitai) I Want to Meet You - Improved Actor Transition",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "kvGxDK_mq70",
+      "title": "Conqueror - Actor Transition Effect in 1.3.6",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/formation": [
+    {
+      "id": "Y6WLG6-toW8",
+      "title": "New multiple actors feature & formation control",
+      "score": 9,
+      "title_terms": [
+        "formation"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "4Sc2c3Wkq0E",
+      "title": "DVVR 0.5.3 Circular Formation",
+      "score": 6,
+      "title_terms": [
+        "formation"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/zip_format": [
+    {
+      "id": "m6U7wYCqfYk",
+      "title": "Configuring Music Timing With New \"Tap Beats\" Functionality",
+      "score": 2,
+      "title_terms": [],
+      "description_terms": [
+        "format",
+        "zip"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "s2tH9rTGhKk",
+      "title": "Not a 3D expert? No problem! You can create super detailed model of any character for 3D print!",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "format"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "2NZpffP1X5o",
+      "title": "DanceXR 1.4.5 Support For HDR Sky Map",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "format"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "27UIiAibUyk",
+      "title": "Playing BVH motion on PMX model",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "format"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "QQHMFYwmaw0",
+      "title": "Sample of VR180 render output",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "format"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/bone_mapper": [
+    {
+      "id": "YqX_uktVvQk",
+      "title": "Expand Your Model Choices - DanceXR FBX Conversion & Bone Mapper Tutorial",
+      "score": 35,
+      "title_terms": [
+        "bone",
+        "mapper"
+      ],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "g0VAfBHauXw",
+      "title": "Model Stays in Standard Pose? Use the Bone Mapper To Fix It",
+      "score": 34,
+      "title_terms": [
+        "bone",
+        "mapper"
+      ],
+      "description_terms": [
+        "bone",
+        "mapper"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "jtxQo5NYk2o",
+      "title": "Bone Mapper Demo #2",
+      "score": 33,
+      "title_terms": [
+        "bone",
+        "mapper"
+      ],
+      "description_terms": [
+        "bone"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "9YTX9seWLK4",
+      "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]",
+      "score": 14,
+      "title_terms": [
+        "bone",
+        "mapper"
+      ],
+      "description_terms": [
+        "bone",
+        "mapper"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "WeIYqGNJKdg",
+      "title": "Bone Mapper Development Progress",
+      "score": 14,
+      "title_terms": [
+        "bone",
+        "mapper"
+      ],
+      "description_terms": [
+        "bone",
+        "mapper"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/pmx_physics": [
+    {
+      "id": "limT_kMRp8s",
+      "title": "DanceXR 1.4.6 New PMX Physics Settings",
+      "score": 16,
+      "title_terms": [
+        "physics",
+        "pmx"
+      ],
+      "description_terms": [
+        "pmx"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "UEc7kLflt7o",
+      "title": "[DanceXR] 1.4.0 Using PMX model as prop",
+      "score": 8,
+      "title_terms": [
+        "pmx"
+      ],
+      "description_terms": [
+        "physics",
+        "pmx"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "84olpK_iYFU",
+      "title": "DanceXR Beginner's Guide: XPS Physics Setup",
+      "score": 8,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics",
+        "pmx"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "i64aoOXWjks",
+      "title": "Latest Physics Improvements",
+      "score": 8,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics",
+        "pmx"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "8wOB11Afz7k",
+      "title": "Particle Dynamics VS Physics Engine Comparison",
+      "score": 7,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/morph_list": [
+    {
+      "id": "limT_kMRp8s",
+      "title": "DanceXR 1.4.6 New PMX Physics Settings",
+      "score": 7,
+      "title_terms": [
+        "pmx"
+      ],
+      "description_terms": [
+        "pmx"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "UEc7kLflt7o",
+      "title": "[DanceXR] 1.4.0 Using PMX model as prop",
+      "score": 7,
+      "title_terms": [
+        "pmx"
+      ],
+      "description_terms": [
+        "pmx"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "oFmxirj3pmw",
+      "title": "Native Pathtracing With PMX Support",
+      "score": 6,
+      "title_terms": [
+        "pmx"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "27UIiAibUyk",
+      "title": "Playing BVH motion on PMX model",
+      "score": 6,
+      "title_terms": [
+        "pmx"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "O6_lwe6TURM",
+      "title": "Candace & Nahida from Genshin Implact",
+      "score": 4,
+      "title_terms": [],
+      "description_terms": [
+        "pmx"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    }
+  ],
+  "features/bones": [
+    {
+      "id": "9YTX9seWLK4",
+      "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]",
+      "score": 8,
+      "title_terms": [
+        "bone"
+      ],
+      "description_terms": [
+        "bone",
+        "bones"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "jtxQo5NYk2o",
+      "title": "Bone Mapper Demo #2",
+      "score": 8,
+      "title_terms": [
+        "bone"
+      ],
+      "description_terms": [
+        "bone",
+        "bones"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "g0VAfBHauXw",
+      "title": "Model Stays in Standard Pose? Use the Bone Mapper To Fix It",
+      "score": 8,
+      "title_terms": [
+        "bone"
+      ],
+      "description_terms": [
+        "bone",
+        "bones"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "WeIYqGNJKdg",
+      "title": "Bone Mapper Development Progress",
+      "score": 8,
+      "title_terms": [
+        "bone"
+      ],
+      "description_terms": [
+        "bone",
+        "bones"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "YqX_uktVvQk",
+      "title": "Expand Your Model Choices - DanceXR FBX Conversion & Bone Mapper Tutorial",
+      "score": 6,
+      "title_terms": [
+        "bone"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/facial_control": [
+    {
+      "id": "1qxWF6qumoY",
+      "title": "DanceXR 1.4.5 Facial Debug And Adjustments for XPS Models",
+      "score": 10,
+      "title_terms": [
+        "facial"
+      ],
+      "description_terms": [
+        "facial"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "control"
+      ],
+      "description_terms": [
+        "control"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Yi2W_cwufNk",
+      "title": "New Gradient Control Available in 1.4.4",
+      "score": 7,
+      "title_terms": [
+        "control"
+      ],
+      "description_terms": [
+        "control"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "v_rtvjpK_KU",
+      "title": "DVVR 0.3.2 dissolving effect control demo",
+      "score": 7,
+      "title_terms": [
+        "control"
+      ],
+      "description_terms": [
+        "control"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "wpwrU4oDGO8",
+      "title": "Speed control in 1.3.7",
+      "score": 6,
+      "title_terms": [
+        "control"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/actor_tools": [
+    {
+      "id": "5qJ7SwcoZak",
+      "title": "UI Improvements - Key Pad Input & Menu Item Filtering",
+      "score": 7,
+      "title_terms": [
+        "menu"
+      ],
+      "description_terms": [
+        "menu"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 7,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [
+        "actor"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "IoveVJs15wY",
+      "title": "DanceXR 2025.2 New Feature: Attach To Actor",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "1Wkde7_pDBQ",
+      "title": "Controlling actor motion with your own movements in VR, coming soon to the December release",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "BVRxBkAsKmM",
+      "title": "会いたい (Aitai) I Want to Meet You - Improved Actor Transition",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/global_actor_control": [
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 8,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [
+        "actor",
+        "control"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "control"
+      ],
+      "description_terms": [
+        "control"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Yi2W_cwufNk",
+      "title": "New Gradient Control Available in 1.4.4",
+      "score": 7,
+      "title_terms": [
+        "control"
+      ],
+      "description_terms": [
+        "control"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "v_rtvjpK_KU",
+      "title": "DVVR 0.3.2 dissolving effect control demo",
+      "score": 7,
+      "title_terms": [
+        "control"
+      ],
+      "description_terms": [
+        "control"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Yt9RJqellnw",
+      "title": "Global Illumination Test",
+      "score": 6,
+      "title_terms": [
+        "global"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/attach_to_actor": [
+    {
+      "id": "IoveVJs15wY",
+      "title": "DanceXR 2025.2 New Feature: Attach To Actor",
+      "score": 15,
+      "title_terms": [
+        "actor",
+        "attach"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 7,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [
+        "actor"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "1Wkde7_pDBQ",
+      "title": "Controlling actor motion with your own movements in VR, coming soon to the December release",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "BVRxBkAsKmM",
+      "title": "会いたい (Aitai) I Want to Meet You - Improved Actor Transition",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "kvGxDK_mq70",
+      "title": "Conqueror - Actor Transition Effect in 1.3.6",
+      "score": 6,
+      "title_terms": [
+        "actor"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/feet_adjustment": [
+    {
+      "id": "xQ59IhWUbVA",
+      "title": "Feet Adjustments Improved",
+      "score": 9,
+      "title_terms": [
+        "feet"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "wpzJ12mDQkw",
+      "title": "DanceXR 1.4.8 New Gizmo Cube To Help Adjusting Poses",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "adjustment"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "so_hrdVIo2I",
+      "title": "DVVR 0.2.5 Preview [MMD] Sea Breeze - Velvet",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "feet"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/scale_offset": [
+    {
+      "id": "O6_lwe6TURM",
+      "title": "Candace & Nahida from Genshin Implact",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "m6U7wYCqfYk",
+      "title": "Configuring Music Timing With New \"Tap Beats\" Functionality",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "offset"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "o52EwwxCGgg",
+      "title": "Motion improvements side by side comparison",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "offset"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "oGu7g1ItRnc",
+      "title": "DVVR 0.7 Preview : Drag & Drop + XPS Physics",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "scale"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/troubleshooting": [
+    {
+      "id": "RwiLkO4LCkQ",
+      "title": "2B Will Make Your Blood Boil With This Song! Weight Of The World (Heavy Metal Version)",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    }
+  ],
+  "features/motion_passes": [
+    {
+      "id": "ORscgEC-N90",
+      "title": "[Experimental Feature] Motion Sequence",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "qDxesapl3Xs",
+      "title": "From video to motion - AI motion capture experiment",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/optionals": [
+    {
+      "id": "MN-JIDmAR3Q",
+      "title": "Using the updated optional items feature to animate clothing change",
+      "score": 34,
+      "title_terms": [
+        "items",
+        "optional"
+      ],
+      "description_terms": [
+        "items",
+        "optional"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "p29x9-smIfs",
+      "title": "[1.4.3] Custom Optional Items (Dressing System)",
+      "score": 28,
+      "title_terms": [
+        "dressing",
+        "items",
+        "optional",
+        "system"
+      ],
+      "description_terms": [
+        "dressing",
+        "items",
+        "optional",
+        "system"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "TQqR8ZPbqWI",
+      "title": "Honoka - Higher Strip Dance (NSFW)",
+      "score": 21,
+      "title_terms": [],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "9YTX9seWLK4",
+      "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]",
+      "score": 17,
+      "title_terms": [
+        "dressing",
+        "system"
+      ],
+      "description_terms": [
+        "dressing",
+        "system"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "g5hB3BqR3QE",
+      "title": "[WIP] Responsive Loading & Support for Optional Items & Alternative Textures",
+      "score": 15,
+      "title_terms": [
+        "items",
+        "optional"
+      ],
+      "description_terms": [
+        "items",
+        "optional",
+        "xps"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/alternative_textures": [
+    {
+      "id": "g5hB3BqR3QE",
+      "title": "[WIP] Responsive Loading & Support for Optional Items & Alternative Textures",
+      "score": 17,
+      "title_terms": [
+        "alternative",
+        "textures"
+      ],
+      "description_terms": [
+        "alternative",
+        "textures"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "_ojV5x37FlU",
+      "title": "Better Support For Wet Textures (2026.1)",
+      "score": 7,
+      "title_terms": [
+        "textures"
+      ],
+      "description_terms": [
+        "textures"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "eBjhymW60Uw",
+      "title": "Translucent Material With Raytraced Color Shadow - DanceXR 2025.1",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "textures"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "EODvj5SiafI",
+      "title": "Improved Hair Details - New in DanceXR 2024.5",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "textures"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "s2tH9rTGhKk",
+      "title": "Not a 3D expert? No problem! You can create super detailed model of any character for 3D print!",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "textures"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/outfit": [
+    {
+      "id": "chHk9--cUYE",
+      "title": "Body Paint Coming Soon!",
+      "score": 23,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "gwKJw0NTqmM",
+      "title": "Outfit with Bump Effect",
+      "score": 7,
+      "title_terms": [
+        "outfit"
+      ],
+      "description_terms": [
+        "outfit"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "buV5tMxEUR0",
+      "title": "Release 0.8.1 New Outfit Feature Walkthrough",
+      "score": 7,
+      "title_terms": [
+        "outfit"
+      ],
+      "description_terms": [
+        "outfit"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "K2lMcdd0iN4",
+      "title": "Ayane put on new outfit for her birthday",
+      "score": 6,
+      "title_terms": [
+        "outfit"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "b2Lo7x90u1o",
+      "title": "2B Runway Walk + Outfit Changing",
+      "score": 6,
+      "title_terms": [
+        "outfit"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/accessory": [
+    {
+      "id": "0BFrdqO9cuI",
+      "title": "Accessory preview",
+      "score": 10,
+      "title_terms": [
+        "accessory"
+      ],
+      "description_terms": [
+        "accessory"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "DhZOPvdFQVw",
+      "title": "Nyotengu Conqueror Dance with Weapon in Hand",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "accessory"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "4TB8aFRJENI",
+      "title": "Pole Dance Test",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "accessory"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/material_global": [
+    {
+      "id": "eBjhymW60Uw",
+      "title": "Translucent Material With Raytraced Color Shadow - DanceXR 2025.1",
+      "score": 10,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "uk7QGK3rOQk",
+      "title": "Material Editing & New Texture Enhancement Features",
+      "score": 7,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "DZEBZLPDnAA",
+      "title": "Demo of physics setup and updated material settings in 1.3.7",
+      "score": 7,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "xazXOlls5mM",
+      "title": "Updated Material Controls (1.3.4)",
+      "score": 7,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "pJdw7r5tHKQ",
+      "title": "DVVR 0.5.2 Material Effect Settings",
+      "score": 7,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/toon_shading": [
+    {
+      "id": "3jdADJzUdY8",
+      "title": "All New Toon Shading Preview",
+      "score": 16,
+      "title_terms": [
+        "shading",
+        "toon"
+      ],
+      "description_terms": [
+        "toon"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "IV50xh6mQ_U",
+      "title": "Toon Shading Works Well With More Realistic Models Too",
+      "score": 12,
+      "title_terms": [
+        "shading",
+        "toon"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "FmTC7S2Pjyo",
+      "title": "Conqueror - Toon Shader Demo",
+      "score": 6,
+      "title_terms": [
+        "toon"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "5yerg14Is6E",
+      "title": "[Sneak Peek] New Graphics Menu & Toon Shader",
+      "score": 6,
+      "title_terms": [
+        "toon"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/material_skin": [
+    {
+      "id": "C3boLWhL4Og",
+      "title": "New Skin Shader with Procedural Detail Map",
+      "score": 9,
+      "title_terms": [
+        "skin"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "xazXOlls5mM",
+      "title": "Updated Material Controls (1.3.4)",
+      "score": 9,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material",
+        "materials",
+        "skin"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "eBjhymW60Uw",
+      "title": "Translucent Material With Raytraced Color Shadow - DanceXR 2025.1",
+      "score": 8,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material",
+        "materials"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "uk7QGK3rOQk",
+      "title": "Material Editing & New Texture Enhancement Features",
+      "score": 7,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "DZEBZLPDnAA",
+      "title": "Demo of physics setup and updated material settings in 1.3.7",
+      "score": 7,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/material_hair": [
+    {
+      "id": "EODvj5SiafI",
+      "title": "Improved Hair Details - New in DanceXR 2024.5",
+      "score": 10,
+      "title_terms": [
+        "hair"
+      ],
+      "description_terms": [
+        "hair"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "xazXOlls5mM",
+      "title": "Updated Material Controls (1.3.4)",
+      "score": 9,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "hair",
+        "material",
+        "materials"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "eBjhymW60Uw",
+      "title": "Translucent Material With Raytraced Color Shadow - DanceXR 2025.1",
+      "score": 8,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material",
+        "materials"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "uk7QGK3rOQk",
+      "title": "Material Editing & New Texture Enhancement Features",
+      "score": 7,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "DZEBZLPDnAA",
+      "title": "Demo of physics setup and updated material settings in 1.3.7",
+      "score": 7,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/material_eyes": [
+    {
+      "id": "xazXOlls5mM",
+      "title": "Updated Material Controls (1.3.4)",
+      "score": 12,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "eyes",
+        "material",
+        "materials"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "eBjhymW60Uw",
+      "title": "Translucent Material With Raytraced Color Shadow - DanceXR 2025.1",
+      "score": 8,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material",
+        "materials"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "zP966sQ6h0g",
+      "title": "DVVR Dance Viewer VR eye contact showcase 2 60fps [MMD] Conqueror",
+      "score": 8,
+      "title_terms": [
+        "eye"
+      ],
+      "description_terms": [
+        "eye",
+        "eyes"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "BVKBc11KhRU",
+      "title": "DVVR Dance Viewer VR eye contact showcase 60fps [MMD] Conqueror",
+      "score": 8,
+      "title_terms": [
+        "eye"
+      ],
+      "description_terms": [
+        "eye",
+        "eyes"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "uk7QGK3rOQk",
+      "title": "Material Editing & New Texture Enhancement Features",
+      "score": 7,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/material_lips": [
+    {
+      "id": "xazXOlls5mM",
+      "title": "Updated Material Controls (1.3.4)",
+      "score": 12,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "lips",
+        "material",
+        "materials"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "eBjhymW60Uw",
+      "title": "Translucent Material With Raytraced Color Shadow - DanceXR 2025.1",
+      "score": 8,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material",
+        "materials"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "uk7QGK3rOQk",
+      "title": "Material Editing & New Texture Enhancement Features",
+      "score": 7,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "DZEBZLPDnAA",
+      "title": "Demo of physics setup and updated material settings in 1.3.7",
+      "score": 7,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "pJdw7r5tHKQ",
+      "title": "DVVR 0.5.2 Material Effect Settings",
+      "score": 7,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/material_settings": [
+    {
+      "id": "xazXOlls5mM",
+      "title": "Updated Material Controls (1.3.4)",
+      "score": 30,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "Yi2W_cwufNk",
+      "title": "New Gradient Control Available in 1.4.4",
+      "score": 21,
+      "title_terms": [],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "d8GP3G0wF3M",
+      "title": "Koharu's Conqueror Dance But What's Going On With The Dress??!!",
+      "score": 20,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "atIdSd2TIrA",
+      "title": "Koharu's Transforming Dress Dance Show",
+      "score": 20,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "eBjhymW60Uw",
+      "title": "Translucent Material With Raytraced Color Shadow - DanceXR 2025.1",
+      "score": 7,
+      "title_terms": [
+        "material"
+      ],
+      "description_terms": [
+        "material"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/transparency": [
+    {
+      "id": "zKz9GOqLJ-g",
+      "title": "DOA Nyotengu Transparent Dress Dance 2",
+      "score": 6,
+      "title_terms": [
+        "transparent"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "KGU8eVVx3OY",
+      "title": "DOA Nyotengu Transparent Dress Dance",
+      "score": 6,
+      "title_terms": [
+        "transparent"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "bmZbBuYI2AA",
+      "title": "Nyotengu Sends Her Transparent Dress Flying",
+      "score": 6,
+      "title_terms": [
+        "transparent"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "DZEBZLPDnAA",
+      "title": "Demo of physics setup and updated material settings in 1.3.7",
+      "score": 4,
+      "title_terms": [],
+      "description_terms": [
+        "transparency"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "eBjhymW60Uw",
+      "title": "Translucent Material With Raytraced Color Shadow - DanceXR 2025.1",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "materials"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/texture_enhancement": [
+    {
+      "id": "uk7QGK3rOQk",
+      "title": "Material Editing & New Texture Enhancement Features",
+      "score": 36,
+      "title_terms": [
+        "enhancement",
+        "texture"
+      ],
+      "description_terms": [
+        "texture"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "G9SSJQieO-E",
+      "title": "[Tutorial] Glittering Effect On Clothes / DanceXR 2024.4",
+      "score": 20,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Yi2W_cwufNk",
+      "title": "New Gradient Control Available in 1.4.4",
+      "score": 20,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "d8GP3G0wF3M",
+      "title": "Koharu's Conqueror Dance But What's Going On With The Dress??!!",
+      "score": 20,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "atIdSd2TIrA",
+      "title": "Koharu's Transforming Dress Dance Show",
+      "score": 20,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/simulation": [
+    {
+      "id": "DPjuUjCxhkE",
+      "title": "Cloth Simulation Buoyancy And Underwater Properties - DanceXR 2024.9",
+      "score": 7,
+      "title_terms": [
+        "simulation"
+      ],
+      "description_terms": [
+        "simulation"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "FdMSBaPMUHI",
+      "title": "Convert Model Mesh To Cloth Simulation - DanceXR 2024.9",
+      "score": 7,
+      "title_terms": [
+        "simulation"
+      ],
+      "description_terms": [
+        "simulation"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Lz9UC59LLXo",
+      "title": "Mesh Colliders & Translucent Material - 2025.1 Cloth Simulation Improvements",
+      "score": 6,
+      "title_terms": [
+        "simulation"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "tviSTzLT72E",
+      "title": "Meltdown - Cloth Simulation",
+      "score": 6,
+      "title_terms": [
+        "simulation"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "bqfVUz2A_-Q",
+      "title": "Monica Runway Walk [Cloth Simulation]",
+      "score": 6,
+      "title_terms": [
+        "simulation"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/cloth_simulation": [
+    {
+      "id": "Lz9UC59LLXo",
+      "title": "Mesh Colliders & Translucent Material - 2025.1 Cloth Simulation Improvements",
+      "score": 15,
+      "title_terms": [
+        "cloth",
+        "simulation"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "FdMSBaPMUHI",
+      "title": "Convert Model Mesh To Cloth Simulation - DanceXR 2024.9",
+      "score": 14,
+      "title_terms": [
+        "cloth",
+        "simulation"
+      ],
+      "description_terms": [
+        "cloth",
+        "simulation"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "DPjuUjCxhkE",
+      "title": "Cloth Simulation Buoyancy And Underwater Properties - DanceXR 2024.9",
+      "score": 13,
+      "title_terms": [
+        "cloth",
+        "simulation"
+      ],
+      "description_terms": [
+        "simulation"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "tviSTzLT72E",
+      "title": "Meltdown - Cloth Simulation",
+      "score": 12,
+      "title_terms": [
+        "cloth",
+        "simulation"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "bqfVUz2A_-Q",
+      "title": "Monica Runway Walk [Cloth Simulation]",
+      "score": 12,
+      "title_terms": [
+        "cloth",
+        "simulation"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/mesh_to_cloth": [
+    {
+      "id": "FdMSBaPMUHI",
+      "title": "Convert Model Mesh To Cloth Simulation - DanceXR 2024.9",
+      "score": 17,
+      "title_terms": [
+        "cloth",
+        "mesh"
+      ],
+      "description_terms": [
+        "cloth",
+        "mesh"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "Lz9UC59LLXo",
+      "title": "Mesh Colliders & Translucent Material - 2025.1 Cloth Simulation Improvements",
+      "score": 12,
+      "title_terms": [
+        "cloth",
+        "mesh"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "-IZTzHUpROs",
+      "title": "Hair & Cloth Physics Setup Examples (Please read description below)",
+      "score": 7,
+      "title_terms": [
+        "cloth"
+      ],
+      "description_terms": [
+        "cloth"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "tviSTzLT72E",
+      "title": "Meltdown - Cloth Simulation",
+      "score": 6,
+      "title_terms": [
+        "cloth"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "DPjuUjCxhkE",
+      "title": "Cloth Simulation Buoyancy And Underwater Properties - DanceXR 2024.9",
+      "score": 6,
+      "title_terms": [
+        "cloth"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/ragdoll": [
+    {
+      "id": "h7flTJ_YQ-o",
+      "title": "Interacting with ragdoll in VR",
+      "score": 10,
+      "title_terms": [
+        "ragdoll"
+      ],
+      "description_terms": [
+        "ragdoll"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "vG-rDgvYaJU",
+      "title": "Ragdoll Feature Preview",
+      "score": 7,
+      "title_terms": [
+        "ragdoll"
+      ],
+      "description_terms": [
+        "ragdoll"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/light_ball": [
+    {
+      "id": "XHX6ZLpSuOw",
+      "title": "DVVR Light Ball test - Requiem",
+      "score": 17,
+      "title_terms": [
+        "ball",
+        "light"
+      ],
+      "description_terms": [
+        "ball",
+        "light"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "lczNyX31K5E",
+      "title": "[NSFW] [MMD] Higher - Nyotengu - LIght Ball Physics Experiment with HDRP",
+      "score": 12,
+      "title_terms": [
+        "ball",
+        "light"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "w77JF0grcqw",
+      "title": "[MMD] Deep Blue Song - Light Ball Physics Experiment",
+      "score": 12,
+      "title_terms": [
+        "ball",
+        "light"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "COmbV8QhCVQ",
+      "title": "[MMD] Conqueror - Light Ball Physics Experiment",
+      "score": 12,
+      "title_terms": [
+        "ball",
+        "light"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "wniVUS8YhRA",
+      "title": "Suspension Light Mode - New in DanceXR 2024.5",
+      "score": 6,
+      "title_terms": [
+        "light"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/body_colliders": [
+    {
+      "id": "chHk9--cUYE",
+      "title": "Body Paint Coming Soon!",
+      "score": 7,
+      "title_terms": [
+        "body"
+      ],
+      "description_terms": [
+        "body"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Lz9UC59LLXo",
+      "title": "Mesh Colliders & Translucent Material - 2025.1 Cloth Simulation Improvements",
+      "score": 6,
+      "title_terms": [
+        "colliders"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "5kQL5EJ3EjE",
+      "title": "That day I woke up in Tamaki's body...",
+      "score": 6,
+      "title_terms": [
+        "body"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "WHIRPHhDAp4",
+      "title": "Kill La Kill - Before My Body Is Dry - [DVVR 0.8.2]",
+      "score": 6,
+      "title_terms": [
+        "body"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "2VOh5Mt_Jm0",
+      "title": "XPS model physics setup examples",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    }
+  ],
+  "features/hair_physics": [
+    {
+      "id": "-IZTzHUpROs",
+      "title": "Hair & Cloth Physics Setup Examples (Please read description below)",
+      "score": 14,
+      "title_terms": [
+        "hair",
+        "physics"
+      ],
+      "description_terms": [
+        "hair",
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "LkVbfxGz4tw",
+      "title": "How Do You Rate This Hair Dynamics?",
+      "score": 9,
+      "title_terms": [
+        "hair"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "8wOB11Afz7k",
+      "title": "Particle Dynamics VS Physics Engine Comparison",
+      "score": 7,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "EODvj5SiafI",
+      "title": "Improved Hair Details - New in DanceXR 2024.5",
+      "score": 7,
+      "title_terms": [
+        "hair"
+      ],
+      "description_terms": [
+        "hair"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "SRt1IRoRwNI",
+      "title": "DanceXR 1.5.1 Ripple Effect & Under Water Physics",
+      "score": 7,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/dangling_physics": [
+    {
+      "id": "8wOB11Afz7k",
+      "title": "Particle Dynamics VS Physics Engine Comparison",
+      "score": 7,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "SRt1IRoRwNI",
+      "title": "DanceXR 1.5.1 Ripple Effect & Under Water Physics",
+      "score": 7,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "QRCphRAS0Tw",
+      "title": "DanceXR 1.4.8 Improved Boobs & Softbody Physics",
+      "score": 7,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "a6aEDeWmsIM",
+      "title": "Improved XPS Skirt Physics Setting in 1.4.4",
+      "score": 7,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "ZQEjhUdkSlg",
+      "title": "New Physics System Preview - Teo - Shandy",
+      "score": 7,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/skirt_physics": [
+    {
+      "id": "a6aEDeWmsIM",
+      "title": "Improved XPS Skirt Physics Setting in 1.4.4",
+      "score": 17,
+      "title_terms": [
+        "physics",
+        "skirt"
+      ],
+      "description_terms": [
+        "physics",
+        "skirt"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "QMaYIDYCX4M",
+      "title": "[Work in Progress] Skirt Physics!!",
+      "score": 12,
+      "title_terms": [
+        "physics",
+        "skirt"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "DZEBZLPDnAA",
+      "title": "Demo of physics setup and updated material settings in 1.3.7",
+      "score": 8,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics",
+        "skirt"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "8wOB11Afz7k",
+      "title": "Particle Dynamics VS Physics Engine Comparison",
+      "score": 7,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "E9-ImPNSOSw",
+      "title": "No more legs stuck inside skirt - New in DanceXR 2024.5",
+      "score": 7,
+      "title_terms": [
+        "skirt"
+      ],
+      "description_terms": [
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/boobs_physics": [
+    {
+      "id": "QRCphRAS0Tw",
+      "title": "DanceXR 1.4.8 Improved Boobs & Softbody Physics",
+      "score": 17,
+      "title_terms": [
+        "boobs",
+        "physics"
+      ],
+      "description_terms": [
+        "boobs",
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "VOwuh_6eRcA",
+      "title": "[DanceXR] Softbody physics applied to boobs (Work in progress)",
+      "score": 12,
+      "title_terms": [
+        "boobs",
+        "physics"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "1SYw7Li-ffQ",
+      "title": "[DanceXR] Softbody physics setup",
+      "score": 8,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "boobs",
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "8wOB11Afz7k",
+      "title": "Particle Dynamics VS Physics Engine Comparison",
+      "score": 7,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "SRt1IRoRwNI",
+      "title": "DanceXR 1.5.1 Ripple Effect & Under Water Physics",
+      "score": 7,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/softbody_physics": [
+    {
+      "id": "1SYw7Li-ffQ",
+      "title": "[DanceXR] Softbody physics setup",
+      "score": 17,
+      "title_terms": [
+        "physics",
+        "softbody"
+      ],
+      "description_terms": [
+        "physics",
+        "softbody"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "QRCphRAS0Tw",
+      "title": "DanceXR 1.4.8 Improved Boobs & Softbody Physics",
+      "score": 14,
+      "title_terms": [
+        "physics",
+        "softbody"
+      ],
+      "description_terms": [
+        "physics",
+        "softbody"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "FvPFAII16eg",
+      "title": "[DanceXR] Softbody Physics (Work in progress)",
+      "score": 12,
+      "title_terms": [
+        "physics",
+        "softbody"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "VOwuh_6eRcA",
+      "title": "[DanceXR] Softbody physics applied to boobs (Work in progress)",
+      "score": 12,
+      "title_terms": [
+        "physics",
+        "softbody"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "GwNtYA6Xz-E",
+      "title": "[DanceXR] Softbody Physics Work in Progress - Conqueror - Leifang",
+      "score": 12,
+      "title_terms": [
+        "physics",
+        "softbody"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/detach_object": [
+    {
+      "id": "2VOh5Mt_Jm0",
+      "title": "XPS model physics setup examples",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    }
+  ],
+  "features/idle_motion": [
+    {
+      "id": "ORscgEC-N90",
+      "title": "[Experimental Feature] Motion Sequence",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "qDxesapl3Xs",
+      "title": "From video to motion - AI motion capture experiment",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/free_pose": [
+    {
+      "id": "Y_r-y7yoqGE",
+      "title": "2026.7 Free Pose Demo",
+      "score": 16,
+      "title_terms": [
+        "free",
+        "pose"
+      ],
+      "description_terms": [
+        "pose"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "ot8rCxIvN4M",
+      "title": "Auto Balanced Free Pose - DanceXR 2026.6",
+      "score": 12,
+      "title_terms": [
+        "free",
+        "pose"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "ORscgEC-N90",
+      "title": "[Experimental Feature] Motion Sequence",
+      "score": 8,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "free",
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/interactive_pose": [
+    {
+      "id": "RtMze-_g8SM",
+      "title": "New Interactive Pose",
+      "score": 15,
+      "title_terms": [
+        "interactive",
+        "pose"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "Y_r-y7yoqGE",
+      "title": "2026.7 Free Pose Demo",
+      "score": 7,
+      "title_terms": [
+        "pose"
+      ],
+      "description_terms": [
+        "pose"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "g0VAfBHauXw",
+      "title": "Model Stays in Standard Pose? Use the Bone Mapper To Fix It",
+      "score": 7,
+      "title_terms": [
+        "pose"
+      ],
+      "description_terms": [
+        "pose"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "ot8rCxIvN4M",
+      "title": "Auto Balanced Free Pose - DanceXR 2026.6",
+      "score": 6,
+      "title_terms": [
+        "pose"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "hwUahuvWBoQ",
+      "title": "This entire video is automatic transition between a few static poses!",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "pose"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/catwalk": [
+    {
+      "id": "PkWub6dVHXM",
+      "title": "[WIP] Catwalk motion",
+      "score": 15,
+      "title_terms": [
+        "catwalk",
+        "motion"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "ORscgEC-N90",
+      "title": "[Experimental Feature] Motion Sequence",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "qDxesapl3Xs",
+      "title": "From video to motion - AI motion capture experiment",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/autodance": [
+    {
+      "id": "HS8qy3ncPe8",
+      "title": "DVVR Auto Dance 2 Controls & UI",
+      "score": 17,
+      "title_terms": [
+        "auto",
+        "dance"
+      ],
+      "description_terms": [
+        "auto",
+        "dance"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "PVUxUR3zTd8",
+      "title": "DVVR Auto Dance Improvements Work in Progress",
+      "score": 14,
+      "title_terms": [
+        "auto",
+        "dance"
+      ],
+      "description_terms": [
+        "auto",
+        "dance"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "FdQcbjltNB8",
+      "title": "Auto Dance Demo 4",
+      "score": 12,
+      "title_terms": [
+        "auto",
+        "dance"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "NLxAIDdhAU4",
+      "title": "Auto Dance Demo 3",
+      "score": 12,
+      "title_terms": [
+        "auto",
+        "dance"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "1AQFk66gnBA",
+      "title": "DVVR Auto Dance 2 Demo",
+      "score": 12,
+      "title_terms": [
+        "auto",
+        "dance"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/autodance3": [
+    {
+      "id": "HS8qy3ncPe8",
+      "title": "DVVR Auto Dance 2 Controls & UI",
+      "score": 14,
+      "title_terms": [
+        "auto",
+        "dance"
+      ],
+      "description_terms": [
+        "auto",
+        "dance"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "PVUxUR3zTd8",
+      "title": "DVVR Auto Dance Improvements Work in Progress",
+      "score": 14,
+      "title_terms": [
+        "auto",
+        "dance"
+      ],
+      "description_terms": [
+        "auto",
+        "dance"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "FdQcbjltNB8",
+      "title": "Auto Dance Demo 4",
+      "score": 12,
+      "title_terms": [
+        "auto",
+        "dance"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "NLxAIDdhAU4",
+      "title": "Auto Dance Demo 3",
+      "score": 12,
+      "title_terms": [
+        "auto",
+        "dance"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "1AQFk66gnBA",
+      "title": "DVVR Auto Dance 2 Demo",
+      "score": 12,
+      "title_terms": [
+        "auto",
+        "dance"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/lifelike_motions": [
+    {
+      "id": "zP966sQ6h0g",
+      "title": "DVVR Dance Viewer VR eye contact showcase 2 60fps [MMD] Conqueror",
+      "score": 23,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "hwUahuvWBoQ",
+      "title": "This entire video is automatic transition between a few static poses!",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "motions"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "ORscgEC-N90",
+      "title": "[Experimental Feature] Motion Sequence",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "motions"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "wpzJ12mDQkw",
+      "title": "DanceXR 1.4.8 New Gizmo Cube To Help Adjusting Poses",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "motions"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "g0VAfBHauXw",
+      "title": "Model Stays in Standard Pose? Use the Bone Mapper To Fix It",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "motions"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/motion_settings": [
+    {
+      "id": "98xdPeg2ON8",
+      "title": "Meteor - Leifang Twins Dance (Motion MIrroring)",
+      "score": 10,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "ORscgEC-N90",
+      "title": "[Experimental Feature] Motion Sequence",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "qDxesapl3Xs",
+      "title": "From video to motion - AI motion capture experiment",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/audio_options": [
+    {
+      "id": "A00DhbCOgu0",
+      "title": "DanceXR 1.4.5 New AutoUpdate Options for Audio Visualization",
+      "score": 7,
+      "title_terms": [
+        "audio"
+      ],
+      "description_terms": [
+        "audio"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "chI-3GQS08Q",
+      "title": "Preparing audio data for \"Dance Remix\" feature in DVVR 0.7.1",
+      "score": 7,
+      "title_terms": [
+        "audio"
+      ],
+      "description_terms": [
+        "audio"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "q1hFsp8GiHQ",
+      "title": "DanceXR 2025.5 New Features: Audio Visualizer, Posterization Effects & Path Tracing!",
+      "score": 6,
+      "title_terms": [
+        "audio"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "W1dQueEsTMM",
+      "title": "2B Walk Motion With Outfit Transition",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "EIEAJ45WphQ",
+      "title": "Auto LipSync Demo - DanceXR 2024.9",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "audio"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/spatial_audio": [
+    {
+      "id": "A00DhbCOgu0",
+      "title": "DanceXR 1.4.5 New AutoUpdate Options for Audio Visualization",
+      "score": 7,
+      "title_terms": [
+        "audio"
+      ],
+      "description_terms": [
+        "audio"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "chI-3GQS08Q",
+      "title": "Preparing audio data for \"Dance Remix\" feature in DVVR 0.7.1",
+      "score": 7,
+      "title_terms": [
+        "audio"
+      ],
+      "description_terms": [
+        "audio"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "q1hFsp8GiHQ",
+      "title": "DanceXR 2025.5 New Features: Audio Visualizer, Posterization Effects & Path Tracing!",
+      "score": 6,
+      "title_terms": [
+        "audio"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "EIEAJ45WphQ",
+      "title": "Auto LipSync Demo - DanceXR 2024.9",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "audio"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "ZvtporW01gA",
+      "title": "Rivers in the desert",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "audio"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/lipsync": [
+    {
+      "id": "EIEAJ45WphQ",
+      "title": "Auto LipSync Demo - DanceXR 2024.9",
+      "score": 9,
+      "title_terms": [
+        "lipsync"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    }
+  ],
+  "features/video_player": [
+    {
+      "id": "AR_LEym7nvY",
+      "title": "LED Screen Mode For Video Player - New in DanceXR 2024.5",
+      "score": 9,
+      "title_terms": [
+        "player"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "ja5-wlPURsk",
+      "title": "DOA Tamaki in Sweet Devil Dance Live - VR180 3D",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "player"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "e4Hcr_a8q40",
+      "title": "Higher - Tamaki - VR180 Stereo 3D",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "player"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Mjw1vPlbhaM",
+      "title": "Hibikase - Nyotengu - VR180 / Stereo 3D Showcase",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "player"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "zGThGRqeahU",
+      "title": "Conqueror - Volumetric Fog - Video Demo",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "player"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/music_timing": [
+    {
+      "id": "m6U7wYCqfYk",
+      "title": "Configuring Music Timing With New \"Tap Beats\" Functionality",
+      "score": 37,
+      "title_terms": [
+        "music",
+        "timing"
+      ],
+      "description_terms": [
+        "music",
+        "timing"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "chI-3GQS08Q",
+      "title": "Preparing audio data for \"Dance Remix\" feature in DVVR 0.7.1",
+      "score": 20,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 7,
+      "title_terms": [
+        "music"
+      ],
+      "description_terms": [
+        "music"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "lVQSI8ZvpSg",
+      "title": "39 Music",
+      "score": 6,
+      "title_terms": [
+        "music"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Y5T3JkedkQs",
+      "title": "First Person 39 Music",
+      "score": 6,
+      "title_terms": [
+        "music"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/dance_set": [
+    {
+      "id": "DhZOPvdFQVw",
+      "title": "Nyotengu Conqueror Dance with Weapon in Hand",
+      "score": 7,
+      "title_terms": [
+        "dance"
+      ],
+      "description_terms": [
+        "dance"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "HS8qy3ncPe8",
+      "title": "DVVR Auto Dance 2 Controls & UI",
+      "score": 7,
+      "title_terms": [
+        "dance"
+      ],
+      "description_terms": [
+        "dance"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "PVUxUR3zTd8",
+      "title": "DVVR Auto Dance Improvements Work in Progress",
+      "score": 7,
+      "title_terms": [
+        "dance"
+      ],
+      "description_terms": [
+        "dance"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "rX48xA1dfeY",
+      "title": "Wonder Woman Half-Life Alyx Ending Triumph Dance",
+      "score": 7,
+      "title_terms": [
+        "dance"
+      ],
+      "description_terms": [
+        "dance"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "tSKp3XecR58",
+      "title": "Zelda Guardian Battle Dance",
+      "score": 7,
+      "title_terms": [
+        "dance"
+      ],
+      "description_terms": [
+        "dance"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/playback_options": [
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "playback"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "so_hrdVIo2I",
+      "title": "DVVR 0.2.5 Preview [MMD] Sea Breeze - Velvet",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "playback"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/assign_motion": [
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 10,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "EenDTJkNNQs",
+      "title": "Coming Soon: Secondary Motion (1.3.4)",
+      "score": 9,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "assign",
+        "assigning",
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "98xdPeg2ON8",
+      "title": "Meteor - Leifang Twins Dance (Motion MIrroring)",
+      "score": 8,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "assign",
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "ORscgEC-N90",
+      "title": "[Experimental Feature] Motion Sequence",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/secondary_motion": [
+    {
+      "id": "EenDTJkNNQs",
+      "title": "Coming Soon: Secondary Motion (1.3.4)",
+      "score": 37,
+      "title_terms": [
+        "motion",
+        "secondary"
+      ],
+      "description_terms": [
+        "motion",
+        "secondary"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "ORscgEC-N90",
+      "title": "[Experimental Feature] Motion Sequence",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "qDxesapl3Xs",
+      "title": "From video to motion - AI motion capture experiment",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/pose_files": [
+    {
+      "id": "Y_r-y7yoqGE",
+      "title": "2026.7 Free Pose Demo",
+      "score": 7,
+      "title_terms": [
+        "pose"
+      ],
+      "description_terms": [
+        "pose"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "g0VAfBHauXw",
+      "title": "Model Stays in Standard Pose? Use the Bone Mapper To Fix It",
+      "score": 7,
+      "title_terms": [
+        "pose"
+      ],
+      "description_terms": [
+        "pose"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "RtMze-_g8SM",
+      "title": "New Interactive Pose",
+      "score": 6,
+      "title_terms": [
+        "pose"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "ot8rCxIvN4M",
+      "title": "Auto Balanced Free Pose - DanceXR 2026.6",
+      "score": 6,
+      "title_terms": [
+        "pose"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "hwUahuvWBoQ",
+      "title": "This entire video is automatic transition between a few static poses!",
+      "score": 6,
+      "title_terms": [],
+      "description_terms": [
+        "files",
+        "pose",
+        "vpd"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    }
+  ],
+  "features/vmd2png": [],
+  "features/remix": [
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 11,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion",
+        "remix"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "ORscgEC-N90",
+      "title": "[Experimental Feature] Motion Sequence",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "qDxesapl3Xs",
+      "title": "From video to motion - AI motion capture experiment",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/motion_override": [
+    {
+      "id": "z79Z08OJ0vc",
+      "title": "Motion Override Demo",
+      "score": 17,
+      "title_terms": [
+        "motion",
+        "override"
+      ],
+      "description_terms": [
+        "motion",
+        "override"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "ORscgEC-N90",
+      "title": "[Experimental Feature] Motion Sequence",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "qDxesapl3Xs",
+      "title": "From video to motion - AI motion capture experiment",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/keyframe_animation": [
+    {
+      "id": "b0IvZs98JrE",
+      "title": "Keyframe Animation Tutorial",
+      "score": 17,
+      "title_terms": [
+        "animation",
+        "keyframe"
+      ],
+      "description_terms": [
+        "animation",
+        "keyframe"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "1AQFk66gnBA",
+      "title": "DVVR Auto Dance 2 Demo",
+      "score": 2,
+      "title_terms": [],
+      "description_terms": [
+        "animation",
+        "keyframe"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "MN-JIDmAR3Q",
+      "title": "Using the updated optional items feature to animate clothing change",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "animation"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "YkHZ_gqWyBo",
+      "title": "39 Music - DOAXVV Misaki Frog Bikini",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "animation"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "vG-rDgvYaJU",
+      "title": "Ragdoll Feature Preview",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "animation"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/sky": [
+    {
+      "id": "2NZpffP1X5o",
+      "title": "DanceXR 1.4.5 Support For HDR Sky Map",
+      "score": 27,
+      "title_terms": [
+        "sky"
+      ],
+      "description_terms": [
+        "sky"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "vUY7DY4cCV0",
+      "title": "DVVR 0.8 Sky Map Feature Tutorial",
+      "score": 27,
+      "title_terms": [
+        "sky"
+      ],
+      "description_terms": [
+        "sky"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "D745FYNcx4c",
+      "title": "New Time Based Sunlight Setting And Automatic Day-Night Transition With Stars",
+      "score": 24,
+      "title_terms": [],
+      "description_terms": [
+        "sky"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "dINTsKjcw0c",
+      "title": "DVVR 0.8 New Sky Map feature",
+      "score": 7,
+      "title_terms": [
+        "sky"
+      ],
+      "description_terms": [
+        "sky"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/lighting": [
+    {
+      "id": "wniVUS8YhRA",
+      "title": "Suspension Light Mode - New in DanceXR 2024.5",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "2NZpffP1X5o",
+      "title": "DanceXR 1.4.5 Support For HDR Sky Map",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "lighting"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "8Dsi8_WCK9w",
+      "title": "Conqueror HDR",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "lighting"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "nxC4btePbPI",
+      "title": "DVVR 0.5.1 Overview",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "lighting"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "XQzn-1PXY5U",
+      "title": "[NSFW] Higher - Nude - Low Angle",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "lighting"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/weather_particles": [
+    {
+      "id": "SLNw5XZflZ8",
+      "title": "Fine tuning particle effects",
+      "score": 29,
+      "title_terms": [
+        "particle"
+      ],
+      "description_terms": [],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "Gxo6mQN97Gs",
+      "title": "New Particle System Glitter Effect",
+      "score": 12,
+      "title_terms": [
+        "effect",
+        "particle"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "8wOB11Afz7k",
+      "title": "Particle Dynamics VS Physics Engine Comparison",
+      "score": 7,
+      "title_terms": [
+        "particle"
+      ],
+      "description_terms": [
+        "particle"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "gwKJw0NTqmM",
+      "title": "Outfit with Bump Effect",
+      "score": 7,
+      "title_terms": [
+        "effect"
+      ],
+      "description_terms": [
+        "effect"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "B-WzxB4-H6c",
+      "title": "New Particle Effects Coming Soon - Sea breeze - Momiji",
+      "score": 7,
+      "title_terms": [
+        "particle"
+      ],
+      "description_terms": [
+        "particle"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/water_system": [
+    {
+      "id": "K3WSqEj7K-4",
+      "title": "Stage geometry and water system",
+      "score": 37,
+      "title_terms": [
+        "system",
+        "water"
+      ],
+      "description_terms": [
+        "system",
+        "water"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "kOrp7rESrXQ",
+      "title": "Dance In The Pool - Sea Breeze - Nyotengu",
+      "score": 22,
+      "title_terms": [],
+      "description_terms": [
+        "system",
+        "water"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "SRt1IRoRwNI",
+      "title": "DanceXR 1.5.1 Ripple Effect & Under Water Physics",
+      "score": 7,
+      "title_terms": [
+        "water"
+      ],
+      "description_terms": [
+        "water"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "9YTX9seWLK4",
+      "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]",
+      "score": 7,
+      "title_terms": [
+        "system"
+      ],
+      "description_terms": [
+        "system"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "p29x9-smIfs",
+      "title": "[1.4.3] Custom Optional Items (Dressing System)",
+      "score": 7,
+      "title_terms": [
+        "system"
+      ],
+      "description_terms": [
+        "system"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/ar_mode": [
+    {
+      "id": "fKxTDq88gBk",
+      "title": "DanceXR 1.4.5 New Special Rendering Mode To Work With Stable Diffusion ControlNet",
+      "score": 7,
+      "title_terms": [
+        "mode"
+      ],
+      "description_terms": [
+        "mode"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "cB4I7J_h--c",
+      "title": "Ready Steady - Concert Mode",
+      "score": 7,
+      "title_terms": [
+        "mode"
+      ],
+      "description_terms": [
+        "mode"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "AR_LEym7nvY",
+      "title": "LED Screen Mode For Video Player - New in DanceXR 2024.5",
+      "score": 6,
+      "title_terms": [
+        "mode"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "wniVUS8YhRA",
+      "title": "Suspension Light Mode - New in DanceXR 2024.5",
+      "score": 6,
+      "title_terms": [
+        "mode"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "RcSZmf1NE6c",
+      "title": "[1.4.3] Outfit Cutout Mode",
+      "score": 6,
+      "title_terms": [
+        "mode"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/water_interaction": [
+    {
+      "id": "SRt1IRoRwNI",
+      "title": "DanceXR 1.5.1 Ripple Effect & Under Water Physics",
+      "score": 11,
+      "title_terms": [
+        "water"
+      ],
+      "description_terms": [
+        "interaction",
+        "water"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "K3WSqEj7K-4",
+      "title": "Stage geometry and water system",
+      "score": 7,
+      "title_terms": [
+        "water"
+      ],
+      "description_terms": [
+        "water"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "62-Jn9soETA",
+      "title": "Work in progress - Hand interaction in VR",
+      "score": 7,
+      "title_terms": [
+        "interaction"
+      ],
+      "description_terms": [
+        "interaction"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "DPjuUjCxhkE",
+      "title": "Cloth Simulation Buoyancy And Underwater Properties - DanceXR 2024.9",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "water"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "kOrp7rESrXQ",
+      "title": "Dance In The Pool - Sea Breeze - Nyotengu",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "water"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/ground": [
+    {
+      "id": "n7zeKsWVLQE",
+      "title": "Enable Ground Reflection For Stage Models",
+      "score": 7,
+      "title_terms": [
+        "ground"
+      ],
+      "description_terms": [
+        "ground"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "K3WSqEj7K-4",
+      "title": "Stage geometry and water system",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "V1NbW-_V3vE",
+      "title": "What's New in DVVR 0.2.3",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "ground"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/room_stage": [
+    {
+      "id": "n7zeKsWVLQE",
+      "title": "Enable Ground Reflection For Stage Models",
+      "score": 7,
+      "title_terms": [
+        "stage"
+      ],
+      "description_terms": [
+        "stage"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "K3WSqEj7K-4",
+      "title": "Stage geometry and water system",
+      "score": 7,
+      "title_terms": [
+        "stage"
+      ],
+      "description_terms": [
+        "stage"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "HCqA1-ZE3Ek",
+      "title": "Living Room Performance",
+      "score": 6,
+      "title_terms": [
+        "room"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "BKCy9-pkt4o",
+      "title": "Tentacle monster takes stage",
+      "score": 6,
+      "title_terms": [
+        "stage"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "z_3Hmxk_HzE",
+      "title": "A little accident on stage, luckily the mouse came to the rescue",
+      "score": 6,
+      "title_terms": [
+        "stage"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/stages": [
+    {
+      "id": "pR_qq99iKxg",
+      "title": "DanceXR 1.4.6 Stage Edit (Move Objects)",
+      "score": 4,
+      "title_terms": [],
+      "description_terms": [
+        "stages"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "kibRAjcHi0M",
+      "title": "DVVR 0.4 demo",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "stages"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/props": [
+    {
+      "id": "MCzx_vzNcQU",
+      "title": "[DanceXR] 1.4.0 Built-in Props Demo",
+      "score": 30,
+      "title_terms": [
+        "props"
+      ],
+      "description_terms": [
+        "props"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "UEc7kLflt7o",
+      "title": "[DanceXR] 1.4.0 Using PMX model as prop",
+      "score": 21,
+      "title_terms": [],
+      "description_terms": [
+        "props"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "TWlidp0Htfk",
+      "title": "Tag system and content selection improvements in version 1.4.0",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "props"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/primitive_shapes": [
+    {
+      "id": "MCzx_vzNcQU",
+      "title": "[DanceXR] 1.4.0 Built-in Props Demo",
+      "score": 5,
+      "title_terms": [],
+      "description_terms": [
+        "primitive",
+        "shapes"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "TWlidp0Htfk",
+      "title": "Tag system and content selection improvements in version 1.4.0",
+      "score": 2,
+      "title_terms": [],
+      "description_terms": [
+        "primitive",
+        "shapes"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "UEc7kLflt7o",
+      "title": "[DanceXR] 1.4.0 Using PMX model as prop",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "shapes"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "ecuuzKi02DY",
+      "title": "Work in progress - New built-in character VR Girl",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "shapes"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/screen": [
+    {
+      "id": "AR_LEym7nvY",
+      "title": "LED Screen Mode For Video Player - New in DanceXR 2024.5",
+      "score": 9,
+      "title_terms": [
+        "screen"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "LIX3m4uQG6k",
+      "title": "Senbonzakura - Nyotengu & Misaki - Screen recording of DanceXR 1.3.7",
+      "score": 6,
+      "title_terms": [
+        "screen"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "jjPXUeQuHQA",
+      "title": "Screen recording of upcoming Android version",
+      "score": 6,
+      "title_terms": [
+        "screen"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "N8azStv5j6s",
+      "title": "New Fancam Options",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "screen"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "MCzx_vzNcQU",
+      "title": "[DanceXR] 1.4.0 Built-in Props Demo",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "screen"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/mirror": [
+    {
+      "id": "0FwY2viXcM0",
+      "title": "[DanceXR] New mirror feature",
+      "score": 10,
+      "title_terms": [
+        "mirror"
+      ],
+      "description_terms": [
+        "mirror"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "Orz2nObbWlI",
+      "title": "Marie Rose - The Magic Bomb with Mirror",
+      "score": 6,
+      "title_terms": [
+        "mirror"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "MCzx_vzNcQU",
+      "title": "[DanceXR] 1.4.0 Built-in Props Demo",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "mirror"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "98xdPeg2ON8",
+      "title": "Meteor - Leifang Twins Dance (Motion MIrroring)",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "mirror"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/laser": [
+    {
+      "id": "rOQow-MBkVU",
+      "title": "ザムザ - New Laser System Demo (Warning: Flashing Lights)",
+      "score": 9,
+      "title_terms": [
+        "laser"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    }
+  ],
+  "features/beats_ring": [
+    {
+      "id": "q1hFsp8GiHQ",
+      "title": "DanceXR 2025.5 New Features: Audio Visualizer, Posterization Effects & Path Tracing!",
+      "score": 15,
+      "title_terms": [
+        "audio",
+        "visualizer"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "m6U7wYCqfYk",
+      "title": "Configuring Music Timing With New \"Tap Beats\" Functionality",
+      "score": 8,
+      "title_terms": [
+        "beats"
+      ],
+      "description_terms": [
+        "beats",
+        "ring"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "A00DhbCOgu0",
+      "title": "DanceXR 1.4.5 New AutoUpdate Options for Audio Visualization",
+      "score": 7,
+      "title_terms": [
+        "audio"
+      ],
+      "description_terms": [
+        "audio"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "chI-3GQS08Q",
+      "title": "Preparing audio data for \"Dance Remix\" feature in DVVR 0.7.1",
+      "score": 7,
+      "title_terms": [
+        "audio"
+      ],
+      "description_terms": [
+        "audio"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "EIEAJ45WphQ",
+      "title": "Auto LipSync Demo - DanceXR 2024.9",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "audio"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/save_scene": [
+    {
+      "id": "zTSOD-dJH3Y",
+      "title": "Demo of Save & Load Scene feature",
+      "score": 17,
+      "title_terms": [
+        "save",
+        "scene"
+      ],
+      "description_terms": [
+        "save",
+        "scene"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "bTEOW-Q-DTA",
+      "title": "Fluid Diffusion 1.1 - Proper Prompt Editor, Save Templates and more!",
+      "score": 7,
+      "title_terms": [
+        "save"
+      ],
+      "description_terms": [
+        "save"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Gq2lL4jbJko",
+      "title": "DVVR 0.3 Walkthrough",
+      "score": 2,
+      "title_terms": [],
+      "description_terms": [
+        "save",
+        "scene"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "5qJ7SwcoZak",
+      "title": "UI Improvements - Key Pad Input & Menu Item Filtering",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "scene"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "EbMYpyW8AGA",
+      "title": "[1.4.3] Share Settings Between Actors",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "scene"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/scene_bundle": [
+    {
+      "id": "zTSOD-dJH3Y",
+      "title": "Demo of Save & Load Scene feature",
+      "score": 7,
+      "title_terms": [
+        "scene"
+      ],
+      "description_terms": [
+        "scene"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "ZgmCbzNs7EU",
+      "title": "Leifang - As You Like It - Group Dance",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "5qJ7SwcoZak",
+      "title": "UI Improvements - Key Pad Input & Menu Item Filtering",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "scene"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "EbMYpyW8AGA",
+      "title": "[1.4.3] Share Settings Between Actors",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "scene"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "gDGd4LwOZuA",
+      "title": "Testing First Person Camera [Motion Sick Warning!]",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "scene"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/raytracing": [
+    {
+      "id": "q1hFsp8GiHQ",
+      "title": "DanceXR 2025.5 New Features: Audio Visualizer, Posterization Effects & Path Tracing!",
+      "score": 9,
+      "title_terms": [
+        "effects"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "vpwP7F3kIb8",
+      "title": "New rendering effects: Depth of field, Global illumination",
+      "score": 7,
+      "title_terms": [
+        "effects"
+      ],
+      "description_terms": [
+        "effects"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "1DbMD-3IU6k",
+      "title": "Addiction - DVVR Raytracing Demo",
+      "score": 7,
+      "title_terms": [
+        "raytracing"
+      ],
+      "description_terms": [
+        "raytracing"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "14R9TuzdeVI",
+      "title": "[Quick Tip] Enable Raytracing Shadow To Get Realistic Detailed Shadows",
+      "score": 6,
+      "title_terms": [
+        "raytracing"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "SLNw5XZflZ8",
+      "title": "Fine tuning particle effects",
+      "score": 6,
+      "title_terms": [
+        "effects"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/camera_settings": [
+    {
+      "id": "gDGd4LwOZuA",
+      "title": "Testing First Person Camera [Motion Sick Warning!]",
+      "score": 7,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [
+        "camera"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "I19n582EWqY",
+      "title": "Conqueror - Animated Camera",
+      "score": 7,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [
+        "camera"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Z0NBmRh3JU4",
+      "title": "Conqueror - Fixed Camera",
+      "score": 7,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [
+        "camera"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Gq_eRoZIrO4",
+      "title": "[1.4.3] New Camera Tracking Options",
+      "score": 6,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    }
+  ],
+  "features/freefly_cam": [
+    {
+      "id": "N8azStv5j6s",
+      "title": "New Fancam Options",
+      "score": 12,
+      "title_terms": [
+        "fancam"
+      ],
+      "description_terms": [
+        "freefly",
+        "lock",
+        "target"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "itY7E4eUi1k",
+      "title": "Fancam + Face Tracking - Conqueror - Leifang",
+      "score": 6,
+      "title_terms": [
+        "fancam"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "1wcjmcMOa4A",
+      "title": "Fancam + Face Tracking - Deep Blue Town - Leifang",
+      "score": 6,
+      "title_terms": [
+        "fancam"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "UeI3iU1-OtM",
+      "title": "Vertical Fancam - Gimme x Gimme - Momiji",
+      "score": 6,
+      "title_terms": [
+        "fancam"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Y_r-y7yoqGE",
+      "title": "2026.7 Free Pose Demo",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "lock"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/auto_cam": [
+    {
+      "id": "gDGd4LwOZuA",
+      "title": "Testing First Person Camera [Motion Sick Warning!]",
+      "score": 7,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [
+        "camera"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "I19n582EWqY",
+      "title": "Conqueror - Animated Camera",
+      "score": 7,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [
+        "camera"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Z0NBmRh3JU4",
+      "title": "Conqueror - Fixed Camera",
+      "score": 7,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [
+        "camera"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "HS8qy3ncPe8",
+      "title": "DVVR Auto Dance 2 Controls & UI",
+      "score": 7,
+      "title_terms": [
+        "auto"
+      ],
+      "description_terms": [
+        "auto"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "PVUxUR3zTd8",
+      "title": "DVVR Auto Dance Improvements Work in Progress",
+      "score": 7,
+      "title_terms": [
+        "auto"
+      ],
+      "description_terms": [
+        "auto"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/orbit_cam": [
+    {
+      "id": "gDGd4LwOZuA",
+      "title": "Testing First Person Camera [Motion Sick Warning!]",
+      "score": 7,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [
+        "camera"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "I19n582EWqY",
+      "title": "Conqueror - Animated Camera",
+      "score": 7,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [
+        "camera"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Z0NBmRh3JU4",
+      "title": "Conqueror - Fixed Camera",
+      "score": 7,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [
+        "camera"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Gq_eRoZIrO4",
+      "title": "[1.4.3] New Camera Tracking Options",
+      "score": 6,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    }
+  ],
+  "features/one_shot_cam": [
+    {
+      "id": "gDGd4LwOZuA",
+      "title": "Testing First Person Camera [Motion Sick Warning!]",
+      "score": 7,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [
+        "camera"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "I19n582EWqY",
+      "title": "Conqueror - Animated Camera",
+      "score": 7,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [
+        "camera"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Z0NBmRh3JU4",
+      "title": "Conqueror - Fixed Camera",
+      "score": 7,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [
+        "camera"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "wh785n86VQ8",
+      "title": "Beautiful Long Sleeves",
+      "score": 6,
+      "title_terms": [
+        "long"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "krx-uvRjxQA",
+      "title": "Nyotengu's take on the Magic Bomb in spendid cheongsam",
+      "score": 6,
+      "title_terms": [
+        "take"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/concert_cam": [
+    {
+      "id": "cB4I7J_h--c",
+      "title": "Ready Steady - Concert Mode",
+      "score": 16,
+      "title_terms": [
+        "concert",
+        "mode"
+      ],
+      "description_terms": [
+        "camera",
+        "concert",
+        "fixed",
+        "mode"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "9kGqlY858Do",
+      "title": "Patchwork Staccato - Concert Mode",
+      "score": 15,
+      "title_terms": [
+        "concert",
+        "mode"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "Z0NBmRh3JU4",
+      "title": "Conqueror - Fixed Camera",
+      "score": 13,
+      "title_terms": [
+        "camera",
+        "fixed"
+      ],
+      "description_terms": [
+        "camera"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "w9Erl87klYY",
+      "title": "Romeo & Cinderella - Concert Mode",
+      "score": 12,
+      "title_terms": [
+        "concert",
+        "mode"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "I19n582EWqY",
+      "title": "Conqueror - Animated Camera",
+      "score": 8,
+      "title_terms": [
+        "camera"
+      ],
+      "description_terms": [
+        "camera",
+        "fixed"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "concepts": [],
+  "controls": [
+    {
+      "id": "xazXOlls5mM",
+      "title": "Updated Material Controls (1.3.4)",
+      "score": 6,
+      "title_terms": [
+        "controls"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "HS8qy3ncPe8",
+      "title": "DVVR Auto Dance 2 Controls & UI",
+      "score": 6,
+      "title_terms": [
+        "controls"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "5qJ7SwcoZak",
+      "title": "UI Improvements - Key Pad Input & Menu Item Filtering",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "N8azStv5j6s",
+      "title": "New Fancam Options",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "controls"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "oGu7g1ItRnc",
+      "title": "DVVR 0.7 Preview : Drag & Drop + XPS Physics",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "controls"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "vr_operations": [
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    }
+  ],
+  "features/googledrive": [
+    {
+      "id": "N7o0CdbFvD4",
+      "title": "[DanceXR] 1.4.0 New Feature: Google Drive Integration",
+      "score": 43,
+      "title_terms": [
+        "drive",
+        "google",
+        "integration"
+      ],
+      "description_terms": [
+        "drive",
+        "google"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "bTEOW-Q-DTA",
+      "title": "Fluid Diffusion 1.1 - Proper Prompt Editor, Save Templates and more!",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "google"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "gfu59PJGpF0",
+      "title": "DanceXR glass shader running on  Android (full ver)",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "google"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "3mGjxOdH-24",
+      "title": "DanceXR glass shader running on Android (short ver)",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "google"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Rzv2jKjbYIk",
+      "title": "DanceXR(DVVR) 0.9.3 demo",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "google"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "content_android_quest": [
+    {
+      "id": "mFnXE7LBV-M",
+      "title": "Version 2024.3 for Android External Storage Permission and Data Migration",
+      "score": 30,
+      "title_terms": [
+        "android"
+      ],
+      "description_terms": [
+        "content"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "ZmDeuWwZtmI",
+      "title": "Install & load content onto Oculus Quest",
+      "score": 16,
+      "title_terms": [
+        "content",
+        "quest"
+      ],
+      "description_terms": [
+        "android",
+        "content",
+        "library",
+        "quest"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "VQjnL9oq-hY",
+      "title": "Android Content Manager Demo",
+      "score": 15,
+      "title_terms": [
+        "android",
+        "content"
+      ],
+      "description_terms": [
+        "android",
+        "content",
+        "library"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "TWlidp0Htfk",
+      "title": "Tag system and content selection improvements in version 1.4.0",
+      "score": 8,
+      "title_terms": [
+        "content"
+      ],
+      "description_terms": [
+        "content",
+        "library"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "-2LStDN7WB8",
+      "title": "DanceXR Beginner's Guide: Content Setup",
+      "score": 8,
+      "title_terms": [
+        "content"
+      ],
+      "description_terms": [
+        "content",
+        "library"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/languages": [
+    {
+      "id": "RwiLkO4LCkQ",
+      "title": "2B Will Make Your Blood Boil With This Song! Weight Of The World (Heavy Metal Version)",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    }
+  ],
+  "features/system_physics": [
+    {
+      "id": "ZQEjhUdkSlg",
+      "title": "New Physics System Preview - Teo - Shandy",
+      "score": 14,
+      "title_terms": [
+        "physics",
+        "system"
+      ],
+      "description_terms": [
+        "physics",
+        "system"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "uq0Pvr3GCGs",
+      "title": "New Physics System Preview #3 - Meteor - Misaki",
+      "score": 12,
+      "title_terms": [
+        "physics",
+        "system"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "7HwbDgYYqfM",
+      "title": "New Physics System Preview #2 - Deep Blue Town - Shandy",
+      "score": 12,
+      "title_terms": [
+        "physics",
+        "system"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "8wOB11Afz7k",
+      "title": "Particle Dynamics VS Physics Engine Comparison",
+      "score": 10,
+      "title_terms": [
+        "physics"
+      ],
+      "description_terms": [
+        "physics"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "K3WSqEj7K-4",
+      "title": "Stage geometry and water system",
+      "score": 8,
+      "title_terms": [
+        "system"
+      ],
+      "description_terms": [
+        "physics",
+        "system"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/autoupdate": [
+    {
+      "id": "A00DhbCOgu0",
+      "title": "DanceXR 1.4.5 New AutoUpdate Options for Audio Visualization",
+      "score": 30,
+      "title_terms": [
+        "autoupdate"
+      ],
+      "description_terms": [
+        "autoupdate"
+      ],
+      "already_in_page": true,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "oROcc75SrnE",
+      "title": "DVVR 0.5.2 Auto Value Update Feature & Input Settings",
+      "score": 14,
+      "title_terms": [
+        "auto",
+        "update"
+      ],
+      "description_terms": [
+        "auto",
+        "update"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "HS8qy3ncPe8",
+      "title": "DVVR Auto Dance 2 Controls & UI",
+      "score": 7,
+      "title_terms": [
+        "auto"
+      ],
+      "description_terms": [
+        "auto"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "PVUxUR3zTd8",
+      "title": "DVVR Auto Dance Improvements Work in Progress",
+      "score": 7,
+      "title_terms": [
+        "auto"
+      ],
+      "description_terms": [
+        "auto"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "ot8rCxIvN4M",
+      "title": "Auto Balanced Free Pose - DanceXR 2026.6",
+      "score": 6,
+      "title_terms": [
+        "auto"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/system_presets": [
+    {
+      "id": "9YTX9seWLK4",
+      "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]",
+      "score": 7,
+      "title_terms": [
+        "system"
+      ],
+      "description_terms": [
+        "system"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "p29x9-smIfs",
+      "title": "[1.4.3] Custom Optional Items (Dressing System)",
+      "score": 7,
+      "title_terms": [
+        "system"
+      ],
+      "description_terms": [
+        "system"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "ZQEjhUdkSlg",
+      "title": "New Physics System Preview - Teo - Shandy",
+      "score": 7,
+      "title_terms": [
+        "system"
+      ],
+      "description_terms": [
+        "system"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "K3WSqEj7K-4",
+      "title": "Stage geometry and water system",
+      "score": 7,
+      "title_terms": [
+        "system"
+      ],
+      "description_terms": [
+        "system"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "TWlidp0Htfk",
+      "title": "Tag system and content selection improvements in version 1.4.0",
+      "score": 7,
+      "title_terms": [
+        "system"
+      ],
+      "description_terms": [
+        "system"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/remote_control": [
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "control"
+      ],
+      "description_terms": [
+        "control"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Yi2W_cwufNk",
+      "title": "New Gradient Control Available in 1.4.4",
+      "score": 7,
+      "title_terms": [
+        "control"
+      ],
+      "description_terms": [
+        "control"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "GXK4AeGswb8",
+      "title": "Work in progress: Quick access menus",
+      "score": 7,
+      "title_terms": [
+        "access"
+      ],
+      "description_terms": [
+        "access"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "v_rtvjpK_KU",
+      "title": "DVVR 0.3.2 dissolving effect control demo",
+      "score": 7,
+      "title_terms": [
+        "control"
+      ],
+      "description_terms": [
+        "control"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "wpwrU4oDGO8",
+      "title": "Speed control in 1.3.7",
+      "score": 6,
+      "title_terms": [
+        "control"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/application_settings": [
+    {
+      "id": "m6U7wYCqfYk",
+      "title": "Configuring Music Timing With New \"Tap Beats\" Functionality",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "application"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "zP966sQ6h0g",
+      "title": "DVVR Dance Viewer VR eye contact showcase 2 60fps [MMD] Conqueror",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "application"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "BVKBc11KhRU",
+      "title": "DVVR Dance Viewer VR eye contact showcase 60fps [MMD] Conqueror",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "application"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "09woenQFzbo",
+      "title": "DVVR Dance Viewer VR 60fps real-time in-game footage [MMD] Sea Breeze",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "application"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/input_settings": [
+    {
+      "id": "oROcc75SrnE",
+      "title": "DVVR 0.5.2 Auto Value Update Feature & Input Settings",
+      "score": 10,
+      "title_terms": [
+        "input"
+      ],
+      "description_terms": [
+        "input"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "5qJ7SwcoZak",
+      "title": "UI Improvements - Key Pad Input & Menu Item Filtering",
+      "score": 7,
+      "title_terms": [
+        "input"
+      ],
+      "description_terms": [
+        "input"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 6,
+      "title_terms": [
+        "input"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "fKxTDq88gBk",
+      "title": "DanceXR 1.4.5 New Special Rendering Mode To Work With Stable Diffusion ControlNet",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "input"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "N7o0CdbFvD4",
+      "title": "[DanceXR] 1.4.0 New Feature: Google Drive Integration",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "input"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/recording_settings": [
+    {
+      "id": "LIX3m4uQG6k",
+      "title": "Senbonzakura - Nyotengu & Misaki - Screen recording of DanceXR 1.3.7",
+      "score": 6,
+      "title_terms": [
+        "recording"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "jjPXUeQuHQA",
+      "title": "Screen recording of upcoming Android version",
+      "score": 6,
+      "title_terms": [
+        "recording"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "Xeh9l8K8nqo",
+      "title": "8K VR 180 Video Test",
+      "score": 3,
+      "title_terms": [],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "QUOTdlKDL58",
+      "title": "Nothing but 10 seconds of Tamaki catwalking...",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "recording"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "kvGxDK_mq70",
+      "title": "Conqueror - Actor Transition Effect in 1.3.6",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "recording"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/vr_settings": [],
+  "features/display_settings": [],
+  "features/graphics": [
+    {
+      "id": "5yerg14Is6E",
+      "title": "[Sneak Peek] New Graphics Menu & Toon Shader",
+      "score": 9,
+      "title_terms": [
+        "graphics"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "r-Uq5VnocE8",
+      "title": "The Absolute Best Real-time Rendering Graphics Possible",
+      "score": 6,
+      "title_terms": [
+        "graphics"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/hdr_display": [
+    {
+      "id": "8Dsi8_WCK9w",
+      "title": "Conqueror HDR",
+      "score": 10,
+      "title_terms": [
+        "hdr"
+      ],
+      "description_terms": [
+        "hdr"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": true
+    },
+    {
+      "id": "2NZpffP1X5o",
+      "title": "DanceXR 1.4.5 Support For HDR Sky Map",
+      "score": 7,
+      "title_terms": [
+        "hdr"
+      ],
+      "description_terms": [
+        "hdr"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "g8qNzOeNHlk",
+      "title": "IA Higher HDR - Nyotengu Micro Bikini",
+      "score": 7,
+      "title_terms": [
+        "hdr"
+      ],
+      "description_terms": [
+        "hdr"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "uN17aedmgrQ",
+      "title": "Romeo and Cinderella - Leifang Twins HDR",
+      "score": 6,
+      "title_terms": [
+        "hdr"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/shake_boobs_overlay": [
+    {
+      "id": "QRCphRAS0Tw",
+      "title": "DanceXR 1.4.8 Improved Boobs & Softbody Physics",
+      "score": 7,
+      "title_terms": [
+        "boobs"
+      ],
+      "description_terms": [
+        "boobs"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "MzGzFG4l4DY",
+      "title": "[DanceXR 2024.3] Overlay Shadow On To Panoramic Background",
+      "score": 6,
+      "title_terms": [
+        "overlay"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "VOwuh_6eRcA",
+      "title": "[DanceXR] Softbody physics applied to boobs (Work in progress)",
+      "score": 6,
+      "title_terms": [
+        "boobs"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "ra5XJ2IqKrU",
+      "title": "[DVVR] shake it(Easy pop Remix)",
+      "score": 6,
+      "title_terms": [
+        "shake"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "1SYw7Li-ffQ",
+      "title": "[DanceXR] Softbody physics setup",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "boobs"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/smo_config": [
+    {
+      "id": "MzGzFG4l4DY",
+      "title": "[DanceXR 2024.3] Overlay Shadow On To Panoramic Background",
+      "score": 6,
+      "title_terms": [
+        "overlay"
+      ],
+      "description_terms": [],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "oROcc75SrnE",
+      "title": "DVVR 0.5.2 Auto Value Update Feature & Input Settings",
+      "score": 1,
+      "title_terms": [],
+      "description_terms": [
+        "config"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/dildo": [],
+  "features/scg_motion": [
+    {
+      "id": "ORscgEC-N90",
+      "title": "[Experimental Feature] Motion Sequence",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "qDxesapl3Xs",
+      "title": "From video to motion - AI motion capture experiment",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/sfb_motion": [
+    {
+      "id": "ORscgEC-N90",
+      "title": "[Experimental Feature] Motion Sequence",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "qDxesapl3Xs",
+      "title": "From video to motion - AI motion capture experiment",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ],
+  "features/sex_motion_3": [
+    {
+      "id": "ORscgEC-N90",
+      "title": "[Experimental Feature] Motion Sequence",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "nyeiDoQbYaE",
+      "title": "DanceXR 1.4.6 Motion Loop Control",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "qDxesapl3Xs",
+      "title": "From video to motion - AI motion capture experiment",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    },
+    {
+      "id": "KkGzY28Oj7k",
+      "title": "Controlling actor motion with VR head & hand input",
+      "score": 7,
+      "title_terms": [
+        "motion"
+      ],
+      "description_terms": [
+        "motion"
+      ],
+      "already_in_page": false,
+      "existing_thumbnail": false
+    }
+  ]
+}

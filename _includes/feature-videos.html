@@ -1,0 +1,35 @@
+{% comment %}Shared media lookup generated from script/features.json; no page front matter required.{% endcomment %}
+{% assign media_path = page.path | remove: '.md' %}
+{% assign first_segment = media_path | split: '/' | first %}
+{% assign media_locale = 'en' %}
+{% if first_segment == 'jp' or first_segment == 'zh' or first_segment == 'tw' or first_segment == 'kr' %}
+  {% assign media_locale = first_segment %}
+  {% assign locale_prefix = first_segment | append: '/' %}
+  {% assign media_path = media_path | remove_first: locale_prefix %}
+{% endif %}
+{% assign media_path = media_path | remove_first: 'dancexr/' %}
+{% assign feature_media = site.data.feature_media[media_path] %}
+{% capture video_cards %}
+  {% for video in feature_media.videos %}
+    {% assign embed_path = '/embed/' | append: video.id %}
+    {% assign watch_path = 'watch?v=' | append: video.id %}
+    {% assign short_path = 'youtu.be/' | append: video.id %}
+    {% unless content contains embed_path or content contains watch_path or content contains short_path %}
+      <a class="feature-video-card" href="{{ video.url | escape }}">
+        <span class="feature-video-poster">
+          <img src="{{ video.thumbnail | escape }}" alt="" loading="lazy" width="480" height="270">
+          <span class="feature-video-play" aria-hidden="true">&#9654;</span>
+        </span>
+        <span class="feature-video-title">{{ video.title | escape }}</span>
+        <span class="feature-video-label">YouTube &#8599;{% if video.published_at != '' %} · {{ video.published_at | date: '%Y' }}{% endif %}</span>
+      </a>
+    {% endunless %}
+  {% endfor %}
+{% endcapture %}
+{% assign video_cards = video_cards | strip %}
+{% if video_cards != '' %}
+  <section class="feature-videos" aria-labelledby="feature-videos-title">
+    <h2 id="feature-videos-title">{% case media_locale %}{% when 'jp' %}関連動画{% when 'zh' %}相关视频{% when 'tw' %}相關影片{% when 'kr' %}관련 동영상{% else %}Feature videos{% endcase %}</h2>
+    <div class="feature-video-grid">{{ video_cards }}</div>
+  </section>
+{% endif %}
