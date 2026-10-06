@@ -97,28 +97,21 @@
   "features/bone_mapper": {
     "videos": [
       {
+        "id": "9YTX9seWLK4",
+        "url": "https://www.youtube.com/watch?v=9YTX9seWLK4",
+        "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]",
+        "thumbnail": "/images/features/youtube/9YTX9seWLK4.webp",
+        "published_at": "2023-10-31T14:02:29Z"
+      },
+      {
         "id": "YqX_uktVvQk",
         "url": "https://www.youtube.com/watch?v=YqX_uktVvQk",
         "title": "Expand Your Model Choices - DanceXR FBX Conversion & Bone Mapper Tutorial",
         "thumbnail": "/images/features/youtube/YqX_uktVvQk.webp",
         "published_at": "2023-08-08T16:34:44Z"
-      },
-      {
-        "id": "g0VAfBHauXw",
-        "url": "https://www.youtube.com/watch?v=g0VAfBHauXw",
-        "title": "Model Stays in Standard Pose? Use the Bone Mapper To Fix It",
-        "thumbnail": "https://i.ytimg.com/vi/g0VAfBHauXw/maxresdefault.jpg",
-        "published_at": "2023-02-28T00:11:19Z"
-      },
-      {
-        "id": "9YTX9seWLK4",
-        "url": "https://www.youtube.com/watch?v=9YTX9seWLK4",
-        "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]",
-        "thumbnail": "https://i.ytimg.com/vi/9YTX9seWLK4/hqdefault.jpg",
-        "published_at": "2023-10-31T14:02:29Z"
       }
     ],
-    "image": "/images/features/youtube/YqX_uktVvQk.webp"
+    "image": "/images/features/youtube/9YTX9seWLK4.webp"
   },
   "features/pmx_physics": {
     "videos": [
@@ -200,15 +193,8 @@
         "id": "9YTX9seWLK4",
         "url": "https://www.youtube.com/watch?v=9YTX9seWLK4",
         "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]",
-        "thumbnail": "/images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp",
+        "thumbnail": "/images/features/youtube/9YTX9seWLK4.webp",
         "published_at": "2023-10-31T14:02:29Z"
-      },
-      {
-        "id": "MN-JIDmAR3Q",
-        "url": "https://www.youtube.com/watch?v=MN-JIDmAR3Q",
-        "title": "Using the updated optional items feature to animate clothing change",
-        "thumbnail": "https://i.ytimg.com/vi/MN-JIDmAR3Q/maxresdefault.jpg",
-        "published_at": "2022-09-28T13:26:20Z"
       },
       {
         "id": "p29x9-smIfs",
@@ -235,21 +221,21 @@
   "features/outfit": {
     "videos": [
       {
-        "id": "chHk9--cUYE",
-        "url": "https://www.youtube.com/watch?v=chHk9--cUYE",
-        "title": "Body Paint Coming Soon!",
-        "thumbnail": "/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp",
-        "published_at": "2023-05-25T00:07:51Z"
-      },
-      {
         "id": "ewUUxxGbAm8",
         "url": "https://www.youtube.com/watch?v=ewUUxxGbAm8",
         "title": "[DanceXR 2024.3] Improved Stocking Effect",
-        "thumbnail": "https://i.ytimg.com/vi/ewUUxxGbAm8/maxresdefault.jpg",
+        "thumbnail": "/images/features/youtube/ewUUxxGbAm8.webp",
         "published_at": "2024-03-01T14:24:57Z"
+      },
+      {
+        "id": "chHk9--cUYE",
+        "url": "https://www.youtube.com/watch?v=chHk9--cUYE",
+        "title": "Body Paint Coming Soon!",
+        "thumbnail": "https://i.ytimg.com/vi/chHk9--cUYE/maxresdefault.jpg",
+        "published_at": "2023-05-25T00:07:51Z"
       }
     ],
-    "image": "/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp"
+    "image": "/images/features/youtube/ewUUxxGbAm8.webp"
   },
   "features/accessory": {
     "videos": [
@@ -289,6 +275,13 @@
   "features/material_skin": {
     "videos": [
       {
+        "id": "_ojV5x37FlU",
+        "url": "https://www.youtube.com/watch?v=_ojV5x37FlU",
+        "title": "Better Support For Wet Textures (2026.1)",
+        "thumbnail": "/images/features/youtube/video-_ojV5x37FlU.webp",
+        "published_at": "2026-01-04T03:07:01Z"
+      },
+      {
         "id": "C3boLWhL4Og",
         "url": "https://www.youtube.com/watch?v=C3boLWhL4Og",
         "title": "New Skin Shader with Procedural Detail Map",
@@ -296,7 +289,7 @@
         "published_at": "2023-02-26T22:50:18Z"
       }
     ],
-    "image": "/images/features/youtube/C3boLWhL4Og.webp"
+    "image": "/images/features/youtube/video-_ojV5x37FlU.webp"
   },
   "features/material_hair": {
     "videos": [
@@ -337,13 +330,6 @@
   "features/material_settings": {
     "videos": [
       {
-        "id": "xazXOlls5mM",
-        "url": "https://www.youtube.com/watch?v=xazXOlls5mM",
-        "title": "Updated Material Controls (1.3.4)",
-        "thumbnail": "/images/features/youtube/xazXOlls5mM.webp",
-        "published_at": "2022-07-30T13:10:39Z"
-      },
-      {
         "id": "uk7QGK3rOQk",
         "url": "https://www.youtube.com/watch?v=uk7QGK3rOQk",
         "title": "Material Editing & New Texture Enhancement Features",
@@ -351,10 +337,17 @@
         "published_at": "2023-08-01T04:38:53Z"
       }
     ],
-    "image": "/images/features/youtube/xazXOlls5mM.webp"
+    "image": "/images/features/youtube/uk7QGK3rOQk.webp"
   },
   "features/transparency": {
     "videos": [
+      {
+        "id": "eBjhymW60Uw",
+        "url": "https://www.youtube.com/watch?v=eBjhymW60Uw",
+        "title": "Translucent Material With Raytraced Color Shadow - DanceXR 2025.1",
+        "thumbnail": "/images/features/youtube/eBjhymW60Uw.webp",
+        "published_at": "2025-01-05T03:34:23Z"
+      },
       {
         "id": "DZEBZLPDnAA",
         "url": "https://www.youtube.com/watch?v=DZEBZLPDnAA",
@@ -363,23 +356,23 @@
         "published_at": "2022-10-30T12:27:35Z"
       }
     ],
-    "image": "/images/features/youtube/DZEBZLPDnAA.webp"
+    "image": "/images/features/youtube/eBjhymW60Uw.webp"
   },
   "features/texture_enhancement": {
     "videos": [
+      {
+        "id": "G9SSJQieO-E",
+        "url": "https://www.youtube.com/watch?v=G9SSJQieO-E",
+        "title": "[Tutorial] Glittering Effect On Clothes / DanceXR 2024.4",
+        "thumbnail": "/images/features/youtube/G9SSJQieO-E.webp",
+        "published_at": "2024-04-01T23:25:51Z"
+      },
       {
         "id": "uk7QGK3rOQk",
         "url": "https://www.youtube.com/watch?v=uk7QGK3rOQk",
         "title": "Material Editing & New Texture Enhancement Features",
         "thumbnail": "/images/features/youtube/uk7QGK3rOQk.webp",
         "published_at": "2023-08-01T04:38:53Z"
-      },
-      {
-        "id": "G9SSJQieO-E",
-        "url": "https://www.youtube.com/watch?v=G9SSJQieO-E",
-        "title": "[Tutorial] Glittering Effect On Clothes / DanceXR 2024.4",
-        "thumbnail": "https://i.ytimg.com/vi/G9SSJQieO-E/maxresdefault.jpg",
-        "published_at": "2024-04-01T23:25:51Z"
       },
       {
         "id": "Yi2W_cwufNk",
@@ -389,7 +382,7 @@
         "published_at": "2023-04-26T15:26:52Z"
       }
     ],
-    "image": "/images/features/youtube/uk7QGK3rOQk.webp"
+    "image": "/images/features/youtube/G9SSJQieO-E.webp"
   },
   "features/simulation": {
     "videos": [
@@ -449,13 +442,6 @@
         "title": "Interacting with ragdoll in VR",
         "thumbnail": "/images/features/youtube/h7flTJ_YQ-o.webp",
         "published_at": "2022-02-25T04:02:54Z"
-      },
-      {
-        "id": "vG-rDgvYaJU",
-        "url": "https://www.youtube.com/watch?v=vG-rDgvYaJU",
-        "title": "Ragdoll Feature Preview",
-        "thumbnail": "https://i.ytimg.com/vi/vG-rDgvYaJU/maxresdefault.jpg",
-        "published_at": "2022-02-22T03:32:08Z"
       }
     ],
     "image": "/images/features/youtube/h7flTJ_YQ-o.webp"
@@ -484,13 +470,6 @@
         "title": "How Do You Rate This Hair Dynamics?",
         "thumbnail": "/images/features/youtube/LkVbfxGz4tw.webp",
         "published_at": "2024-08-14T07:10:55Z"
-      },
-      {
-        "id": "84olpK_iYFU",
-        "url": "https://www.youtube.com/watch?v=84olpK_iYFU",
-        "title": "DanceXR Beginner's Guide: XPS Physics Setup",
-        "thumbnail": "https://i.ytimg.com/vi/84olpK_iYFU/maxresdefault.jpg",
-        "published_at": "2022-06-07T04:00:32Z"
       }
     ],
     "image": "/images/features/youtube/LkVbfxGz4tw.webp"
@@ -521,23 +500,11 @@
   "features/boobs_physics": {
     "videos": [
       {
-        "id": "QRCphRAS0Tw",
-        "url": "https://www.youtube.com/watch?v=QRCphRAS0Tw",
-        "title": "DanceXR 1.4.8 Improved Boobs & Softbody Physics",
-        "thumbnail": "/images/features/youtube/QRCphRAS0Tw.webp",
-        "published_at": "2023-08-31T02:01:42Z"
-      }
-    ],
-    "image": "/images/features/youtube/QRCphRAS0Tw.webp"
-  },
-  "features/softbody_physics": {
-    "videos": [
-      {
-        "id": "1SYw7Li-ffQ",
-        "url": "https://www.youtube.com/watch?v=1SYw7Li-ffQ",
-        "title": "[DanceXR] Softbody physics setup",
-        "thumbnail": "/images/features/youtube/1SYw7Li-ffQ.webp",
-        "published_at": "2022-12-30T15:00:36Z"
+        "id": "JtOmvEBmQFQ",
+        "url": "https://www.youtube.com/watch?v=JtOmvEBmQFQ",
+        "title": "Jiggle Physics Supercharged",
+        "thumbnail": "/images/features/youtube/JtOmvEBmQFQ.webp",
+        "published_at": "2024-11-01T12:31:42Z"
       },
       {
         "id": "QRCphRAS0Tw",
@@ -547,7 +514,26 @@
         "published_at": "2023-08-31T02:01:42Z"
       }
     ],
-    "image": "/images/features/youtube/1SYw7Li-ffQ.webp"
+    "image": "/images/features/youtube/JtOmvEBmQFQ.webp"
+  },
+  "features/softbody_physics": {
+    "videos": [
+      {
+        "id": "JtOmvEBmQFQ",
+        "url": "https://www.youtube.com/watch?v=JtOmvEBmQFQ",
+        "title": "Jiggle Physics Supercharged",
+        "thumbnail": "/images/features/youtube/JtOmvEBmQFQ.webp",
+        "published_at": "2024-11-01T12:31:42Z"
+      },
+      {
+        "id": "1SYw7Li-ffQ",
+        "url": "https://www.youtube.com/watch?v=1SYw7Li-ffQ",
+        "title": "[DanceXR] Softbody physics setup",
+        "thumbnail": "/images/features/youtube/1SYw7Li-ffQ.webp",
+        "published_at": "2022-12-30T15:00:36Z"
+      }
+    ],
+    "image": "/images/features/youtube/JtOmvEBmQFQ.webp"
   },
   "features/detach_object": {
     "videos": [],
@@ -681,21 +667,21 @@
   "features/music_timing": {
     "videos": [
       {
-        "id": "m6U7wYCqfYk",
-        "url": "https://www.youtube.com/watch?v=m6U7wYCqfYk",
-        "title": "Configuring Music Timing With New \"Tap Beats\" Functionality",
-        "thumbnail": "/images/features/youtube/m6U7wYCqfYk.webp",
-        "published_at": "2022-07-01T03:54:44Z"
-      },
-      {
         "id": "mpS3vvxSn3I",
         "url": "https://www.youtube.com/watch?v=mpS3vvxSn3I",
         "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
         "thumbnail": "/images/features/youtube/mpS3vvxSn3I.webp",
         "published_at": "2023-07-05T04:53:57Z"
+      },
+      {
+        "id": "m6U7wYCqfYk",
+        "url": "https://www.youtube.com/watch?v=m6U7wYCqfYk",
+        "title": "Configuring Music Timing With New \"Tap Beats\" Functionality",
+        "thumbnail": "/images/features/youtube/m6U7wYCqfYk.webp",
+        "published_at": "2022-07-01T03:54:44Z"
       }
     ],
-    "image": "/images/features/youtube/m6U7wYCqfYk.webp"
+    "image": "/images/features/youtube/mpS3vvxSn3I.webp"
   },
   "features/dance_set": {
     "videos": [],
@@ -752,13 +738,6 @@
         "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
         "thumbnail": "/images/features/youtube/mpS3vvxSn3I.webp",
         "published_at": "2023-07-05T04:53:57Z"
-      },
-      {
-        "id": "chI-3GQS08Q",
-        "url": "https://www.youtube.com/watch?v=chI-3GQS08Q",
-        "title": "Preparing audio data for \"Dance Remix\" feature in DVVR 0.7.1",
-        "thumbnail": "/images/features/youtube/chI-3GQS08Q.webp",
-        "published_at": "2020-08-27T15:51:53Z"
       }
     ],
     "image": "/images/features/youtube/mpS3vvxSn3I.webp"
@@ -802,13 +781,6 @@
         "title": "DanceXR 1.4.5 Support For HDR Sky Map",
         "thumbnail": "https://i.ytimg.com/vi/2NZpffP1X5o/maxresdefault.jpg",
         "published_at": "2023-06-01T03:34:30Z"
-      },
-      {
-        "id": "vUY7DY4cCV0",
-        "url": "https://www.youtube.com/watch?v=vUY7DY4cCV0",
-        "title": "DVVR 0.8 Sky Map Feature Tutorial",
-        "thumbnail": "https://i.ytimg.com/vi/vUY7DY4cCV0/hqdefault.jpg",
-        "published_at": "2020-12-01T11:18:16Z"
       }
     ],
     "image": "/images/features/youtube/D745FYNcx4c.webp"
@@ -821,13 +793,6 @@
         "title": "Suspension Light Mode - New in DanceXR 2024.5",
         "thumbnail": "/images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp",
         "published_at": "2024-05-07T00:52:40Z"
-      },
-      {
-        "id": "iASGbuiMSIk",
-        "url": "https://www.youtube.com/watch?v=iASGbuiMSIk",
-        "title": "Light Grid Demo",
-        "thumbnail": "https://i.ytimg.com/vi/iASGbuiMSIk/maxresdefault.jpg",
-        "published_at": "2022-02-02T00:29:28Z"
       }
     ],
     "image": "/images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp"
@@ -847,21 +812,21 @@
   "features/water_system": {
     "videos": [
       {
+        "id": "SRt1IRoRwNI",
+        "url": "https://www.youtube.com/watch?v=SRt1IRoRwNI",
+        "title": "DanceXR 1.5.1 Ripple Effect & Under Water Physics",
+        "thumbnail": "/images/features/youtube/SRt1IRoRwNI.webp",
+        "published_at": "2023-12-04T13:05:13Z"
+      },
+      {
         "id": "K3WSqEj7K-4",
         "url": "https://www.youtube.com/watch?v=K3WSqEj7K-4",
         "title": "Stage geometry and water system",
         "thumbnail": "/images/features/youtube/K3WSqEj7K-4.webp",
         "published_at": "2023-01-28T14:47:19Z"
-      },
-      {
-        "id": "SRt1IRoRwNI",
-        "url": "https://www.youtube.com/watch?v=SRt1IRoRwNI",
-        "title": "DanceXR 1.5.1 Ripple Effect & Under Water Physics",
-        "thumbnail": "https://i.ytimg.com/vi/SRt1IRoRwNI/maxresdefault.jpg",
-        "published_at": "2023-12-04T13:05:13Z"
       }
     ],
-    "image": "/images/features/youtube/K3WSqEj7K-4.webp"
+    "image": "/images/features/youtube/SRt1IRoRwNI.webp"
   },
   "features/ar_mode": {
     "videos": [],
@@ -873,7 +838,7 @@
         "id": "SRt1IRoRwNI",
         "url": "https://www.youtube.com/watch?v=SRt1IRoRwNI",
         "title": "DanceXR 1.5.1 Ripple Effect & Under Water Physics",
-        "thumbnail": "/images/slideshows/environment/DanceXR%201.5.1%20Ripple%20Effect%20%26%20Under%20Water%20Physics%20%5BSRt1IRoRwNI%5D.webp",
+        "thumbnail": "/images/features/youtube/SRt1IRoRwNI.webp",
         "published_at": "2023-12-04T13:05:13Z"
       }
     ],
@@ -882,21 +847,21 @@
   "features/ground": {
     "videos": [
       {
+        "id": "n7zeKsWVLQE",
+        "url": "https://www.youtube.com/watch?v=n7zeKsWVLQE",
+        "title": "Enable Ground Reflection For Stage Models",
+        "thumbnail": "/images/features/youtube/n7zeKsWVLQE.webp",
+        "published_at": "2024-02-02T13:35:24Z"
+      },
+      {
         "id": "K3WSqEj7K-4",
         "url": "https://www.youtube.com/watch?v=K3WSqEj7K-4",
         "title": "Stage geometry and water system",
         "thumbnail": "/images/features/youtube/K3WSqEj7K-4.webp",
         "published_at": "2023-01-28T14:47:19Z"
-      },
-      {
-        "id": "n7zeKsWVLQE",
-        "url": "https://www.youtube.com/watch?v=n7zeKsWVLQE",
-        "title": "Enable Ground Reflection For Stage Models",
-        "thumbnail": "https://i.ytimg.com/vi/n7zeKsWVLQE/maxresdefault.jpg",
-        "published_at": "2024-02-02T13:35:24Z"
       }
     ],
-    "image": "/images/features/youtube/K3WSqEj7K-4.webp"
+    "image": "/images/features/youtube/n7zeKsWVLQE.webp"
   },
   "features/room_stage": {
     "videos": [],
@@ -910,13 +875,6 @@
         "title": "DanceXR 1.4.6 Stage Edit (Move Objects)",
         "thumbnail": "/images/features/youtube/pR_qq99iKxg.webp",
         "published_at": "2023-07-01T14:16:25Z"
-      },
-      {
-        "id": "TWlidp0Htfk",
-        "url": "https://www.youtube.com/watch?v=TWlidp0Htfk",
-        "title": "Tag system and content selection improvements in version 1.4.0",
-        "thumbnail": "/images/features/youtube/TWlidp0Htfk.webp",
-        "published_at": "2022-12-27T13:38:49Z"
       }
     ],
     "image": "/images/features/youtube/pR_qq99iKxg.webp"
@@ -1029,7 +987,7 @@
         "id": "eBjhymW60Uw",
         "url": "https://www.youtube.com/watch?v=eBjhymW60Uw",
         "title": "Translucent Material With Raytraced Color Shadow - DanceXR 2025.1",
-        "thumbnail": "https://i.ytimg.com/vi/eBjhymW60Uw/maxresdefault.jpg",
+        "thumbnail": "/images/features/youtube/eBjhymW60Uw.webp",
         "published_at": "2025-01-05T03:34:23Z"
       }
     ],
@@ -1106,13 +1064,6 @@
         "title": "Controlling actor motion with VR head & hand input",
         "thumbnail": "/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp",
         "published_at": "2022-11-25T13:28:50Z"
-      },
-      {
-        "id": "1Wkde7_pDBQ",
-        "url": "https://www.youtube.com/watch?v=1Wkde7_pDBQ",
-        "title": "Controlling actor motion with your own movements in VR, coming soon to the December release",
-        "thumbnail": "https://i.ytimg.com/vi/1Wkde7_pDBQ/maxresdefault.jpg",
-        "published_at": "2022-11-27T02:24:52Z"
       }
     ],
     "image": "/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp"
@@ -1137,20 +1088,6 @@
         "title": "Version 2024.3 for Android External Storage Permission and Data Migration",
         "thumbnail": "/images/features/youtube/mFnXE7LBV-M.webp",
         "published_at": "2024-03-04T10:09:21Z"
-      },
-      {
-        "id": "VQjnL9oq-hY",
-        "url": "https://www.youtube.com/watch?v=VQjnL9oq-hY",
-        "title": "Android Content Manager Demo",
-        "thumbnail": "https://i.ytimg.com/vi/VQjnL9oq-hY/maxresdefault.jpg",
-        "published_at": "2021-05-29T14:14:18Z"
-      },
-      {
-        "id": "ZmDeuWwZtmI",
-        "url": "https://www.youtube.com/watch?v=ZmDeuWwZtmI",
-        "title": "Install & load content onto Oculus Quest",
-        "thumbnail": "https://i.ytimg.com/vi/ZmDeuWwZtmI/maxresdefault.jpg",
-        "published_at": "2021-03-01T03:10:42Z"
       }
     ],
     "image": "/images/features/youtube/mFnXE7LBV-M.webp"
@@ -1252,14 +1189,14 @@
   "features/graphics": {
     "videos": [
       {
-        "id": "5yerg14Is6E",
-        "url": "https://www.youtube.com/watch?v=5yerg14Is6E",
-        "title": "[Sneak Peek] New Graphics Menu & Toon Shader",
-        "thumbnail": "/images/features/youtube/5yerg14Is6E.webp",
-        "published_at": "2021-09-18T02:12:36Z"
+        "id": "q1hFsp8GiHQ",
+        "url": "https://www.youtube.com/watch?v=q1hFsp8GiHQ",
+        "title": "DanceXR 2025.5 New Features: Audio Visualizer, Posterization Effects & Path Tracing!",
+        "thumbnail": "/images/features/youtube/q1hFsp8GiHQ.webp",
+        "published_at": "2025-05-03T04:28:37Z"
       }
     ],
-    "image": "/images/features/youtube/5yerg14Is6E.webp"
+    "image": "/images/features/youtube/q1hFsp8GiHQ.webp"
   },
   "features/hdr_display": {
     "videos": [

@@ -85,8 +85,8 @@ feature_sections:
         tiles:
           - title: 骨骼映射器
             link: /zh/dancexr/features/bone_mapper
-            image: /images/features/youtube/YqX_uktVvQk.webp
-            video: "https://www.youtube.com/watch?v=YqX_uktVvQk"
+            image: /images/features/youtube/9YTX9seWLK4.webp
+            video: "https://www.youtube.com/watch?v=9YTX9seWLK4"
           - title: 物理
             link: /zh/dancexr/features/pmx_physics
             image: /images/features/youtube/limT_kMRp8s.webp
@@ -152,8 +152,8 @@ feature_sections:
             badge_type: new
           - title: 服饰与身体彩绘
             link: /zh/dancexr/features/outfit
-            image: /images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp
-            video: "https://www.youtube.com/watch?v=chHk9--cUYE"
+            image: /images/features/youtube/ewUUxxGbAm8.webp
+            video: "https://www.youtube.com/watch?v=ewUUxxGbAm8"
             badge: 2024.3 · PRO
             badge_type: pro
           - title: 配件
@@ -173,8 +173,8 @@ feature_sections:
             video: "https://www.youtube.com/watch?v=3jdADJzUdY8"
           - title: 皮肤材质
             link: /zh/dancexr/features/material_skin
-            image: /images/features/youtube/C3boLWhL4Og.webp
-            video: "https://www.youtube.com/watch?v=C3boLWhL4Og"
+            image: /images/features/youtube/video-_ojV5x37FlU.webp
+            video: "https://www.youtube.com/watch?v=_ojV5x37FlU"
             badge: 2026.2
             badge_type: new
           - title: 头发材质
@@ -191,16 +191,16 @@ feature_sections:
             video: "https://www.youtube.com/watch?v=xazXOlls5mM"
           - title: 材质设置
             link: /zh/dancexr/features/material_settings
-            image: /images/features/youtube/xazXOlls5mM.webp
-            video: "https://www.youtube.com/watch?v=xazXOlls5mM"
-          - title: 透明材料
-            link: /zh/dancexr/features/transparency
-            image: /images/features/youtube/DZEBZLPDnAA.webp
-            video: "https://www.youtube.com/watch?v=DZEBZLPDnAA"
-          - title: 纹理增强
-            link: /zh/dancexr/features/texture_enhancement
             image: /images/features/youtube/uk7QGK3rOQk.webp
             video: "https://www.youtube.com/watch?v=uk7QGK3rOQk"
+          - title: 透明材料
+            link: /zh/dancexr/features/transparency
+            image: /images/features/youtube/eBjhymW60Uw.webp
+            video: "https://www.youtube.com/watch?v=eBjhymW60Uw"
+          - title: 纹理增强
+            link: /zh/dancexr/features/texture_enhancement
+            image: /images/features/youtube/G9SSJQieO-E.webp
+            video: "https://www.youtube.com/watch?v=G9SSJQieO-E"
             badge: PRO
             badge_type: pro
   - title: 物理模拟
@@ -256,14 +256,14 @@ feature_sections:
             video: "https://www.youtube.com/watch?v=a6aEDeWmsIM"
           - title: 胸部物理模拟
             link: /zh/dancexr/features/boobs_physics
-            image: /images/features/youtube/QRCphRAS0Tw.webp
-            video: "https://www.youtube.com/watch?v=QRCphRAS0Tw"
+            image: /images/features/youtube/JtOmvEBmQFQ.webp
+            video: "https://www.youtube.com/watch?v=JtOmvEBmQFQ"
             badge: PRO
             badge_type: pro
           - title: 软体物理学
             link: /zh/dancexr/features/softbody_physics
-            image: /images/features/youtube/1SYw7Li-ffQ.webp
-            video: "https://www.youtube.com/watch?v=1SYw7Li-ffQ"
+            image: /images/features/youtube/JtOmvEBmQFQ.webp
+            video: "https://www.youtube.com/watch?v=JtOmvEBmQFQ"
             badge: PRO
             badge_type: pro
           - title: 对象分离
@@ -334,8 +334,8 @@ feature_sections:
             badge_type: pro
           - title: 音乐同步
             link: /zh/dancexr/features/music_timing
-            image: /images/features/youtube/m6U7wYCqfYk.webp
-            video: "https://www.youtube.com/watch?v=m6U7wYCqfYk"
+            image: /images/features/youtube/mpS3vvxSn3I.webp
+            video: "https://www.youtube.com/watch?v=mpS3vvxSn3I"
             badge: 2026.2
             badge_type: new
       - title: 动作
@@ -414,8 +414,8 @@ feature_sections:
             badge_type: pro
           - title: 水系统
             link: /zh/dancexr/features/water_system
-            image: /images/features/youtube/K3WSqEj7K-4.webp
-            video: "https://www.youtube.com/watch?v=K3WSqEj7K-4"
+            image: /images/features/youtube/SRt1IRoRwNI.webp
+            video: "https://www.youtube.com/watch?v=SRt1IRoRwNI"
             badge: PC
           - title: 增强现实设置
             link: /zh/dancexr/features/ar_mode
@@ -430,8 +430,8 @@ feature_sections:
         tiles:
           - title: 地面
             link: /zh/dancexr/features/ground
-            image: /images/features/youtube/K3WSqEj7K-4.webp
-            video: "https://www.youtube.com/watch?v=K3WSqEj7K-4"
+            image: /images/features/youtube/n7zeKsWVLQE.webp
+            video: "https://www.youtube.com/watch?v=n7zeKsWVLQE"
           - title: 房间舞台
             link: /zh/dancexr/features/room_stage
             image: /images/slideshows/environment/How%20is%20the%20shadow%20on%20the%20wall%20even%20possible%EF%BC%9F%20%5B85lKm5S3Oa8%5D.webp
@@ -583,8 +583,8 @@ feature_sections:
             image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
           - title: 图形
             link: /zh/dancexr/features/graphics
-            image: /images/features/youtube/5yerg14Is6E.webp
-            video: "https://www.youtube.com/watch?v=5yerg14Is6E"
+            image: /images/features/youtube/q1hFsp8GiHQ.webp
+            video: "https://www.youtube.com/watch?v=q1hFsp8GiHQ"
             badge: 2026.2
             badge_type: new
           - title: HDR 显示

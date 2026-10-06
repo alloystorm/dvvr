@@ -58,7 +58,9 @@ def build_media(sections):
                 raise ValueError(f'{path}: {vid} missing from catalogue; refresh it first')
             video = catalogue[vid]
             poster = video['thumbnail']
-            local_poster = f'/images/features/youtube/{vid}.webp'
+            # Jekyll omits files whose names begin with an underscore.
+            poster_name = f'video-{vid}' if vid.startswith('_') else vid
+            local_poster = f'/images/features/youtube/{poster_name}.webp'
             if (BASE / local_poster.lstrip('/')).is_file():
                 poster = local_poster
             elif image and vid in image:

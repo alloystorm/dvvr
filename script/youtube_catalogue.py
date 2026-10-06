@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fetch public channel metadata and suggest feature/video matches (never apply them)."""
 import argparse
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 import json
 import os
 from pathlib import Path
@@ -141,7 +141,25 @@ def tiles(sections):
         yield from tiles(section.get('subsections', []))
 
 
-def suggest(catalogue):
+def recency_weight(published_at, as_of):
+    """Prefer recent uploads with a two-year half-life; unknown dates get no boost."""
+    try:
+        published = date.fromisoformat(published_at[:10])
+    except (TypeError, ValueError):
+        return 0.25, None
+    age_years = max(0, (as_of - published).days / 365.25)
+    return 0.25 + 0.75 * 2 ** (-age_years / 2), age_years
+
+
+def score_candidate(title_overlap, desc_overlap, existing, image, published_at, as_of):
+    relevance = 6 * len(title_overlap) + 2 * len(desc_overlap) + 2 * existing + 0.5 * image
+    weight, age = recency_weight(published_at, as_of)
+    return {'score': round(relevance * weight, 3), 'relevance_score': relevance,
+            'recency_weight': round(weight, 3), 'age_years': round(age, 2) if age is not None else None}
+
+
+def suggest(catalogue, as_of=None):
+    as_of = as_of or datetime.now(timezone.utc).date()
     # Repeated boilerplate descriptions (site links, credits) carry no matching weight.
     frequencies = {}
     for video in catalogue['videos']:
@@ -170,9 +188,11 @@ def suggest(catalogue):
             desc_overlap = query & words(unique_desc)
             existing = video['id'] in body
             image = video['id'] in tile.get('image', '')
-            score = 6 * len(title_overlap) + len(desc_overlap) + 20 * existing + 3 * image
-            if score:
-                scores.append({'id': video['id'], 'title': video['title'], 'score': score,
+            score = score_candidate(title_overlap, desc_overlap, existing, image,
+                                    video.get('published_at', ''), as_of)
+            if score['relevance_score']:
+                scores.append({'id': video['id'], 'title': video['title'], **score,
+                               'published_at': video.get('published_at', ''),
                                'title_terms': sorted(title_overlap), 'description_terms': sorted(desc_overlap),
                                'already_in_page': existing, 'existing_thumbnail': image})
         results[path] = sorted(scores, key=lambda v: -v['score'])[:5]
@@ -186,6 +206,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--refresh', action='store_true', help='Fetch catalogue before suggesting matches')
     parser.add_argument('--api', action='store_true', help='Use official API (YOUTUBE_API_KEY environment variable)')
+    parser.add_argument('--as-of', type=date.fromisoformat, help='Reference date for reproducible recency scoring (YYYY-MM-DD)')
     args = parser.parse_args()
     if args.api and not args.refresh:
         parser.error('--api requires --refresh')
@@ -222,7 +243,7 @@ def main():
     catalogue = json.loads(CATALOGUE.read_text())
     print(f'Catalogue: {len(catalogue["videos"])} videos; '
           f'{sum(bool(v["description"]) for v in catalogue["videos"])} nonempty descriptions')
-    suggest(catalogue)
+    suggest(catalogue, args.as_of)
 
 
 if __name__ == '__main__':

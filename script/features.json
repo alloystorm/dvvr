@@ -142,11 +142,10 @@
           "tiles": [
             {
               "path": "features/bone_mapper",
-              "image": "/images/features/youtube/YqX_uktVvQk.webp",
-              "video": "https://www.youtube.com/watch?v=YqX_uktVvQk",
+              "image": "/images/features/youtube/9YTX9seWLK4.webp",
+              "video": "https://www.youtube.com/watch?v=9YTX9seWLK4",
               "videos": [
-                "https://www.youtube.com/watch?v=g0VAfBHauXw",
-                "https://www.youtube.com/watch?v=9YTX9seWLK4"
+                "https://www.youtube.com/watch?v=YqX_uktVvQk"
               ]
             },
             {
@@ -260,7 +259,6 @@
               "image": "/images/slideshows/character/Updated%20Bone%20Mapper%20%26%20Dressing%20System%20%5BDanceXR%201.5.0%5D%20%5B9YTX9seWLK4%5D.webp",
               "video": "https://www.youtube.com/watch?v=9YTX9seWLK4",
               "videos": [
-                "https://www.youtube.com/watch?v=MN-JIDmAR3Q",
                 "https://www.youtube.com/watch?v=p29x9-smIfs"
               ]
             },
@@ -275,10 +273,10 @@
               "path": "features/outfit",
               "badge": "2024.3 · PRO",
               "badge_type": "pro",
-              "image": "/images/slideshows/dressing/Body%20Paint%20Coming%20Soon%21%20%5BchHk9--cUYE%5D.webp",
-              "video": "https://www.youtube.com/watch?v=chHk9--cUYE",
+              "image": "/images/features/youtube/ewUUxxGbAm8.webp",
+              "video": "https://www.youtube.com/watch?v=ewUUxxGbAm8",
               "videos": [
-                "https://www.youtube.com/watch?v=ewUUxxGbAm8"
+                "https://www.youtube.com/watch?v=chHk9--cUYE"
               ]
             },
             {
@@ -315,8 +313,15 @@
               "path": "features/material_skin",
               "badge": "2026.2",
               "badge_type": "new",
-              "image": "/images/features/youtube/C3boLWhL4Og.webp",
-              "video": "https://www.youtube.com/watch?v=C3boLWhL4Og"
+              "image": "/images/features/youtube/video-_ojV5x37FlU.webp",
+              "video": "https://www.youtube.com/watch?v=_ojV5x37FlU",
+              "videos": [
+                "https://www.youtube.com/watch?v=C3boLWhL4Og"
+              ],
+              "video_keywords": [
+                "skin",
+                "wet textures"
+              ]
             },
             {
               "path": "features/material_hair",
@@ -335,25 +340,25 @@
             },
             {
               "path": "features/material_settings",
-              "image": "/images/features/youtube/xazXOlls5mM.webp",
-              "video": "https://www.youtube.com/watch?v=xazXOlls5mM",
-              "videos": [
-                "https://www.youtube.com/watch?v=uk7QGK3rOQk"
-              ]
+              "image": "/images/features/youtube/uk7QGK3rOQk.webp",
+              "video": "https://www.youtube.com/watch?v=uk7QGK3rOQk"
             },
             {
               "path": "features/transparency",
-              "image": "/images/features/youtube/DZEBZLPDnAA.webp",
-              "video": "https://www.youtube.com/watch?v=DZEBZLPDnAA"
+              "image": "/images/features/youtube/eBjhymW60Uw.webp",
+              "video": "https://www.youtube.com/watch?v=eBjhymW60Uw",
+              "videos": [
+                "https://www.youtube.com/watch?v=DZEBZLPDnAA"
+              ]
             },
             {
               "path": "features/texture_enhancement",
               "badge": "PRO",
               "badge_type": "pro",
-              "image": "/images/features/youtube/uk7QGK3rOQk.webp",
-              "video": "https://www.youtube.com/watch?v=uk7QGK3rOQk",
+              "image": "/images/features/youtube/G9SSJQieO-E.webp",
+              "video": "https://www.youtube.com/watch?v=G9SSJQieO-E",
               "videos": [
-                "https://www.youtube.com/watch?v=G9SSJQieO-E",
+                "https://www.youtube.com/watch?v=uk7QGK3rOQk",
                 "https://www.youtube.com/watch?v=Yi2W_cwufNk"
               ]
             }
@@ -416,10 +421,7 @@
               "badge": "PRO",
               "badge_type": "pro",
               "image": "/images/features/youtube/h7flTJ_YQ-o.webp",
-              "video": "https://www.youtube.com/watch?v=h7flTJ_YQ-o",
-              "videos": [
-                "https://www.youtube.com/watch?v=vG-rDgvYaJU"
-              ]
+              "video": "https://www.youtube.com/watch?v=h7flTJ_YQ-o"
             },
             {
               "path": "features/light_ball",
@@ -446,10 +448,7 @@
             {
               "path": "features/hair_physics",
               "image": "/images/features/youtube/LkVbfxGz4tw.webp",
-              "video": "https://www.youtube.com/watch?v=LkVbfxGz4tw",
-              "videos": [
-                "https://www.youtube.com/watch?v=84olpK_iYFU"
-              ]
+              "video": "https://www.youtube.com/watch?v=LkVbfxGz4tw"
             },
             {
               "path": "features/dangling_physics",
@@ -467,17 +466,28 @@
               "path": "features/boobs_physics",
               "badge": "PRO",
               "badge_type": "pro",
-              "image": "/images/features/youtube/QRCphRAS0Tw.webp",
-              "video": "https://www.youtube.com/watch?v=QRCphRAS0Tw"
+              "image": "/images/features/youtube/JtOmvEBmQFQ.webp",
+              "video": "https://www.youtube.com/watch?v=JtOmvEBmQFQ",
+              "videos": [
+                "https://www.youtube.com/watch?v=QRCphRAS0Tw"
+              ],
+              "video_keywords": [
+                "softbody",
+                "jiggle physics"
+              ]
             },
             {
               "path": "features/softbody_physics",
               "badge": "PRO",
               "badge_type": "pro",
-              "image": "/images/features/youtube/1SYw7Li-ffQ.webp",
-              "video": "https://www.youtube.com/watch?v=1SYw7Li-ffQ",
+              "image": "/images/features/youtube/JtOmvEBmQFQ.webp",
+              "video": "https://www.youtube.com/watch?v=JtOmvEBmQFQ",
               "videos": [
-                "https://www.youtube.com/watch?v=QRCphRAS0Tw"
+                "https://www.youtube.com/watch?v=1SYw7Li-ffQ"
+              ],
+              "video_keywords": [
+                "softbody",
+                "jiggle physics"
               ]
             },
             {
@@ -626,10 +636,10 @@
               "path": "features/music_timing",
               "badge": "2026.2",
               "badge_type": "new",
-              "image": "/images/features/youtube/m6U7wYCqfYk.webp",
-              "video": "https://www.youtube.com/watch?v=m6U7wYCqfYk",
+              "image": "/images/features/youtube/mpS3vvxSn3I.webp",
+              "video": "https://www.youtube.com/watch?v=mpS3vvxSn3I",
               "videos": [
-                "https://www.youtube.com/watch?v=mpS3vvxSn3I"
+                "https://www.youtube.com/watch?v=m6U7wYCqfYk"
               ]
             }
           ]
@@ -698,10 +708,7 @@
             {
               "path": "features/remix",
               "image": "/images/features/youtube/mpS3vvxSn3I.webp",
-              "video": "https://www.youtube.com/watch?v=mpS3vvxSn3I",
-              "videos": [
-                "https://www.youtube.com/watch?v=chI-3GQS08Q"
-              ]
+              "video": "https://www.youtube.com/watch?v=mpS3vvxSn3I"
             },
             {
               "path": "features/motion_override",
@@ -757,17 +764,13 @@
               "image": "/images/features/youtube/D745FYNcx4c.webp",
               "video": "https://www.youtube.com/watch?v=D745FYNcx4c",
               "videos": [
-                "https://www.youtube.com/watch?v=2NZpffP1X5o",
-                "https://www.youtube.com/watch?v=vUY7DY4cCV0"
+                "https://www.youtube.com/watch?v=2NZpffP1X5o"
               ]
             },
             {
               "path": "features/lighting",
               "image": "/images/slideshows/environment/Suspension%20Light%20Mode%20-%20New%20in%20DanceXR%202024.5%20%5BwniVUS8YhRA%5D.webp",
-              "video": "https://www.youtube.com/watch?v=wniVUS8YhRA",
-              "videos": [
-                "https://www.youtube.com/watch?v=iASGbuiMSIk"
-              ]
+              "video": "https://www.youtube.com/watch?v=wniVUS8YhRA"
             }
           ]
         },
@@ -790,10 +793,10 @@
             {
               "path": "features/water_system",
               "badge": "PC",
-              "image": "/images/features/youtube/K3WSqEj7K-4.webp",
-              "video": "https://www.youtube.com/watch?v=K3WSqEj7K-4",
+              "image": "/images/features/youtube/SRt1IRoRwNI.webp",
+              "video": "https://www.youtube.com/watch?v=SRt1IRoRwNI",
               "videos": [
-                "https://www.youtube.com/watch?v=SRt1IRoRwNI"
+                "https://www.youtube.com/watch?v=K3WSqEj7K-4"
               ]
             },
             {
@@ -820,10 +823,10 @@
           "tiles": [
             {
               "path": "features/ground",
-              "image": "/images/features/youtube/K3WSqEj7K-4.webp",
-              "video": "https://www.youtube.com/watch?v=K3WSqEj7K-4",
+              "image": "/images/features/youtube/n7zeKsWVLQE.webp",
+              "video": "https://www.youtube.com/watch?v=n7zeKsWVLQE",
               "videos": [
-                "https://www.youtube.com/watch?v=n7zeKsWVLQE"
+                "https://www.youtube.com/watch?v=K3WSqEj7K-4"
               ]
             },
             {
@@ -833,10 +836,7 @@
             {
               "path": "features/stages",
               "image": "/images/features/youtube/pR_qq99iKxg.webp",
-              "video": "https://www.youtube.com/watch?v=pR_qq99iKxg",
-              "videos": [
-                "https://www.youtube.com/watch?v=TWlidp0Htfk"
-              ]
+              "video": "https://www.youtube.com/watch?v=pR_qq99iKxg"
             },
             {
               "path": "features/props",
@@ -1021,10 +1021,7 @@
             {
               "path": "vr_operations",
               "image": "/images/slideshows/camera/Controlling%20actor%20motion%20with%20VR%20head%20%26%20hand%20input%20%5BKkGzY28Oj7k%5D.webp",
-              "video": "https://www.youtube.com/watch?v=KkGzY28Oj7k",
-              "videos": [
-                "https://www.youtube.com/watch?v=1Wkde7_pDBQ"
-              ]
+              "video": "https://www.youtube.com/watch?v=KkGzY28Oj7k"
             }
           ]
         },
@@ -1057,11 +1054,7 @@
                 "kr": "안드로이드 및 퀘스트용 콘텐츠 라이브러리"
               },
               "image": "/images/features/youtube/mFnXE7LBV-M.webp",
-              "video": "https://www.youtube.com/watch?v=mFnXE7LBV-M",
-              "videos": [
-                "https://www.youtube.com/watch?v=VQjnL9oq-hY",
-                "https://www.youtube.com/watch?v=ZmDeuWwZtmI"
-              ]
+              "video": "https://www.youtube.com/watch?v=mFnXE7LBV-M"
             },
             {
               "path": "features/languages",
@@ -1170,8 +1163,12 @@
               "path": "features/graphics",
               "badge": "2026.2",
               "badge_type": "new",
-              "image": "/images/features/youtube/5yerg14Is6E.webp",
-              "video": "https://www.youtube.com/watch?v=5yerg14Is6E"
+              "image": "/images/features/youtube/q1hFsp8GiHQ.webp",
+              "video": "https://www.youtube.com/watch?v=q1hFsp8GiHQ",
+              "video_keywords": [
+                "posterization",
+                "path tracing"
+              ]
             },
             {
               "path": "features/hdr_display",

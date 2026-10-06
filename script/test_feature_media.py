@@ -1,5 +1,6 @@
 """Focused checks for URL validation, duplicate tiles and thumbnail fallback."""
 import json
+from datetime import date
 from contextlib import redirect_stdout
 import io
 from pathlib import Path
@@ -8,7 +9,7 @@ import unittest
 from unittest.mock import patch
 
 import feature_media
-from youtube_catalogue import api_listing
+from youtube_catalogue import api_listing, recency_weight, score_candidate
 
 
 class FeatureMediaTests(unittest.TestCase):
@@ -23,6 +24,7 @@ class FeatureMediaTests(unittest.TestCase):
         (self.base / 'script/data/youtube.json').write_text(json.dumps({'videos': [
             {'id': 'bMtgN0cNJm8', 'title': 'Discovery', 'thumbnail': 'https://i.ytimg.com/vi/bMtgN0cNJm8/hqdefault.jpg'},
             {'id': 'RtMze-_g8SM', 'title': 'Pose', 'thumbnail': 'https://i.ytimg.com/vi/RtMze-_g8SM/hqdefault.jpg'},
+            {'id': '_ojV5x37FlU', 'title': 'Wet textures', 'thumbnail': 'https://i.ytimg.com/vi/_ojV5x37FlU/hqdefault.jpg'},
         ]}))
 
     def test_watch_and_short_links_normalize(self):
@@ -57,6 +59,16 @@ class FeatureMediaTests(unittest.TestCase):
     def test_no_video_has_no_invented_match(self):
         self.assertEqual(feature_media.build_media([{'tiles': [{'path': 'features/operator'}]}]),
                          {'features/operator': {'videos': []}})
+
+    def test_underscore_video_id_uses_jekyll_safe_local_poster(self):
+        poster = '/images/features/youtube/video-_ojV5x37FlU.webp'
+        local = self.base / poster.lstrip('/')
+        local.parent.mkdir(parents=True)
+        local.touch()
+        media = feature_media.build_media([{'tiles': [{'path': 'features/skin',
+            'video': 'https://youtu.be/_ojV5x37FlU'}]}])
+        self.assertEqual(media['features/skin']['videos'][0]['thumbnail'], poster)
+        self.assertEqual(media['features/skin']['image'], poster)
 
     def test_api_paginates_uploads_and_uses_full_descriptions(self):
         from youtube_catalogue import CHANNEL
@@ -95,6 +107,26 @@ class FeatureMediaTests(unittest.TestCase):
         self.assertEqual(videos['bMtgN0cNJm8']['description'], 'Full API description')
         self.assertEqual(videos['bMtgN0cNJm8']['title'], 'Updated Discovery title')
         self.assertEqual(videos['RtMze-_g8SM']['listing_status'], 'cached-not-in-videos-tab')
+
+    def test_recent_equivalent_beats_an_old_embedded_video(self):
+        as_of = date(2026, 10, 6)
+        old = score_candidate({'cloth'}, set(), True, True, '2021-01-01', as_of)
+        new = score_candidate({'cloth'}, set(), False, False, '2025-01-01', as_of)
+        self.assertGreater(new['score'], old['score'])
+
+    def test_relevance_still_beats_an_unrelated_recent_upload(self):
+        as_of = date(2026, 10, 6)
+        old = score_candidate({'bone', 'mapper'}, {'mapping'}, False, False, '2023-01-01', as_of)
+        broad = score_candidate({'model'}, set(), False, False, '2026-10-01', as_of)
+        unrelated = score_candidate(set(), set(), False, False, '2026-10-01', as_of)
+        self.assertGreater(old['score'], broad['score'])
+        self.assertEqual(unrelated['score'], 0)
+
+    def test_unknown_and_future_dates_do_not_inflate_recency(self):
+        as_of = date(2026, 10, 6)
+        for value in ('', 'not-a-date', None):
+            self.assertEqual(recency_weight(value, as_of), (0.25, None))
+        self.assertEqual(recency_weight('2027-01-01', as_of), (1.0, 0))
 
 
 if __name__ == '__main__':

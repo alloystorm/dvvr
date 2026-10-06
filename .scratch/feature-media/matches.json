@@ -35,16 +35,14 @@
   ],
   "features/bone_mapper": [
     {
-      "id": "YqX_uktVvQk",
-      "title": "Expand Your Model Choices - DanceXR FBX Conversion & Bone Mapper Tutorial"
-    },
-    {
-      "id": "g0VAfBHauXw",
-      "title": "Model Stays in Standard Pose? Use the Bone Mapper To Fix It"
-    },
-    {
       "id": "9YTX9seWLK4",
-      "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]"
+      "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]",
+      "reason": "Prefer the October 2023 updated mapping UI over the August tutorial and February standard-pose fix; retain the conversion tutorial as distinct setup coverage. The 2025 FBX preview does not explicitly demonstrate the mapper."
+    },
+    {
+      "id": "YqX_uktVvQk",
+      "title": "Expand Your Model Choices - DanceXR FBX Conversion & Bone Mapper Tutorial",
+      "reason": "Distinct companion coverage; see primary selection rationale."
     }
   ],
   "features/pmx_physics": [
@@ -74,26 +72,25 @@
   "features/optionals": [
     {
       "id": "9YTX9seWLK4",
-      "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]"
-    },
-    {
-      "id": "MN-JIDmAR3Q",
-      "title": "Using the updated optional items feature to animate clothing change"
+      "title": "Updated Bone Mapper & Dressing System [DanceXR 1.5.0]",
+      "reason": "Keep the updated dressing UI and custom-item tutorial; remove the superseded 2022 clothing-change preview."
     },
     {
       "id": "p29x9-smIfs",
       "title": "[1.4.3] Custom Optional Items (Dressing System)",
-      "reason": "Title/description explicitly covers this guide’s feature."
+      "reason": "Distinct companion coverage; see primary selection rationale."
     }
   ],
   "features/outfit": [
     {
-      "id": "chHk9--cUYE",
-      "title": "Body Paint Coming Soon!"
+      "id": "ewUUxxGbAm8",
+      "title": "[DanceXR 2024.3] Improved Stocking Effect",
+      "reason": "The 2024.3 improved stocking effect replaces the older coming-soon body-paint preview as the first video; body paint remains a distinct companion."
     },
     {
-      "id": "ewUUxxGbAm8",
-      "title": "[DanceXR 2024.3] Improved Stocking Effect"
+      "id": "chHk9--cUYE",
+      "title": "Body Paint Coming Soon!",
+      "reason": "Distinct companion coverage; see primary selection rationale."
     }
   ],
   "features/accessory": [
@@ -114,8 +111,14 @@
   ],
   "features/material_skin": [
     {
+      "id": "_ojV5x37FlU",
+      "title": "Better Support For Wet Textures (2026.1)",
+      "reason": "The 2026.1 wet-texture enhancement covers the wetness controls documented here; retain the skin shader detail-map explanation as a companion."
+    },
+    {
       "id": "C3boLWhL4Og",
-      "title": "New Skin Shader with Procedural Detail Map"
+      "title": "New Skin Shader with Procedural Detail Map",
+      "reason": "Distinct companion coverage; see primary selection rationale."
     }
   ],
   "features/material_hair": [
@@ -126,26 +129,26 @@
   ],
   "features/material_settings": [
     {
-      "id": "xazXOlls5mM",
-      "title": "Updated Material Controls (1.3.4)"
-    },
-    {
       "id": "uk7QGK3rOQk",
-      "title": "Material Editing & New Texture Enhancement Features"
+      "title": "Material Editing & New Texture Enhancement Features",
+      "reason": "The August 2023 editing tutorial supersedes the July 2022 grouped-control preview for this overview; eyes/lips retain the explicit categorization video."
     }
   ],
   "features/texture_enhancement": [
     {
-      "id": "uk7QGK3rOQk",
-      "title": "Material Editing & New Texture Enhancement Features"
+      "id": "G9SSJQieO-E",
+      "title": "[Tutorial] Glittering Effect On Clothes / DanceXR 2024.4",
+      "reason": "Prefer the 2024.4 glitter tutorial; retain the material-editing and gradient tutorials for their distinct controls."
     },
     {
-      "id": "G9SSJQieO-E",
-      "title": "[Tutorial] Glittering Effect On Clothes / DanceXR 2024.4"
+      "id": "uk7QGK3rOQk",
+      "title": "Material Editing & New Texture Enhancement Features",
+      "reason": "Distinct companion coverage; see primary selection rationale."
     },
     {
       "id": "Yi2W_cwufNk",
-      "title": "New Gradient Control Available in 1.4.4"
+      "title": "New Gradient Control Available in 1.4.4",
+      "reason": "Distinct companion coverage; see primary selection rationale."
     }
   ],
   "features/simulation": [
@@ -177,11 +180,8 @@
   "features/ragdoll": [
     {
       "id": "h7flTJ_YQ-o",
-      "title": "Interacting with ragdoll in VR"
-    },
-    {
-      "id": "vG-rDgvYaJU",
-      "title": "Ragdoll Feature Preview"
+      "title": "Interacting with ragdoll in VR",
+      "reason": "Keep the newer VR interaction demonstration and remove the earlier WIP preview."
     }
   ],
   "features/light_ball": [
@@ -193,11 +193,8 @@
   "features/hair_physics": [
     {
       "id": "LkVbfxGz4tw",
-      "title": "How Do You Rate This Hair Dynamics?"
-    },
-    {
-      "id": "84olpK_iYFU",
-      "title": "DanceXR Beginner's Guide: XPS Physics Setup"
+      "title": "How Do You Rate This Hair Dynamics?",
+      "reason": "Keep the 2024 hair-dynamics demonstration; remove the 2022 general XPS-physics setup companion."
     }
   ],
   "features/skirt_physics": [
@@ -212,18 +209,26 @@
   ],
   "features/boobs_physics": [
     {
+      "id": "JtOmvEBmQFQ",
+      "title": "Jiggle Physics Supercharged",
+      "reason": "Prefer the 2024.11 softbody update for the particle deformation documented in this page; retain the breast suspension-specific demonstration."
+    },
+    {
       "id": "QRCphRAS0Tw",
-      "title": "DanceXR 1.4.8 Improved Boobs & Softbody Physics"
+      "title": "DanceXR 1.4.8 Improved Boobs & Softbody Physics",
+      "reason": "Distinct companion coverage; see primary selection rationale."
     }
   ],
   "features/softbody_physics": [
     {
-      "id": "1SYw7Li-ffQ",
-      "title": "[DanceXR] Softbody physics setup"
+      "id": "JtOmvEBmQFQ",
+      "title": "Jiggle Physics Supercharged",
+      "reason": "The description confirms the 2024.11 proper softbody simulation. Retain the setup tutorial, remove the superseded 2023 preview."
     },
     {
-      "id": "QRCphRAS0Tw",
-      "title": "DanceXR 1.4.8 Improved Boobs & Softbody Physics"
+      "id": "1SYw7Li-ffQ",
+      "title": "[DanceXR] Softbody physics setup",
+      "reason": "Distinct companion coverage; see primary selection rationale."
     }
   ],
   "features/free_pose": [
@@ -284,12 +289,14 @@
   ],
   "features/music_timing": [
     {
-      "id": "m6U7wYCqfYk",
-      "title": "Configuring Music Timing With New \"Tap Beats\" Functionality"
+      "id": "mpS3vvxSn3I",
+      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
+      "reason": "Prefer the 2023 music/motion synchronization controls; retain the tap-beats tutorial for BPM measurement."
     },
     {
-      "id": "mpS3vvxSn3I",
-      "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization"
+      "id": "m6U7wYCqfYk",
+      "title": "Configuring Music Timing With New \"Tap Beats\" Functionality",
+      "reason": "Distinct companion coverage; see primary selection rationale."
     }
   ],
   "features/playback_options": [
@@ -314,12 +321,7 @@
     {
       "id": "mpS3vvxSn3I",
       "title": "DanceXR 1.4.6 Adjusting Music & Motion Synchronization",
-      "reason": "Description explicitly covers synchronizing arbitrary background music with motion remix; the older companion covers audio timing preparation."
-    },
-    {
-      "id": "chI-3GQS08Q",
-      "title": "Preparing audio data for \"Dance Remix\" feature in DVVR 0.7.1",
-      "reason": "Description explicitly covers synchronizing arbitrary background music with motion remix; the older companion covers audio timing preparation."
+      "reason": "The 2023 synchronization controls supersede the 2019 audio-data preparation workflow."
     }
   ],
   "features/motion_override": [
@@ -337,25 +339,20 @@
   "features/sky": [
     {
       "id": "D745FYNcx4c",
-      "title": "New Time Based Sunlight Setting And Automatic Day-Night Transition With Stars"
+      "title": "New Time Based Sunlight Setting And Automatic Day-Night Transition With Stars",
+      "reason": "Retain the 2023 sun and HDR-map demonstrations; remove the 2019 sky-map tutorial."
     },
     {
       "id": "2NZpffP1X5o",
-      "title": "DanceXR 1.4.5 Support For HDR Sky Map"
-    },
-    {
-      "id": "vUY7DY4cCV0",
-      "title": "DVVR 0.8 Sky Map Feature Tutorial"
+      "title": "DanceXR 1.4.5 Support For HDR Sky Map",
+      "reason": "Distinct companion coverage; see primary selection rationale."
     }
   ],
   "features/lighting": [
     {
       "id": "wniVUS8YhRA",
-      "title": "Suspension Light Mode - New in DanceXR 2024.5"
-    },
-    {
-      "id": "iASGbuiMSIk",
-      "title": "Light Grid Demo"
+      "title": "Suspension Light Mode - New in DanceXR 2024.5",
+      "reason": "Keep the 2024 suspension-light demonstration; remove the older light-grid preview from this overview."
     }
   ],
   "features/weather_particles": [
@@ -366,12 +363,14 @@
   ],
   "features/water_system": [
     {
-      "id": "K3WSqEj7K-4",
-      "title": "Stage geometry and water system"
+      "id": "SRt1IRoRwNI",
+      "title": "DanceXR 1.5.1 Ripple Effect & Under Water Physics",
+      "reason": "Prefer the December 2023 ripple/underwater update over the January water-system preview; keep geometry/pool construction as distinct coverage."
     },
     {
-      "id": "SRt1IRoRwNI",
-      "title": "DanceXR 1.5.1 Ripple Effect & Under Water Physics"
+      "id": "K3WSqEj7K-4",
+      "title": "Stage geometry and water system",
+      "reason": "Distinct companion coverage; see primary selection rationale."
     }
   ],
   "features/water_interaction": [
@@ -382,23 +381,21 @@
   ],
   "features/ground": [
     {
-      "id": "K3WSqEj7K-4",
-      "title": "Stage geometry and water system"
+      "id": "n7zeKsWVLQE",
+      "title": "Enable Ground Reflection For Stage Models",
+      "reason": "Prefer the 2024.2 ground-reflection demonstration; its description states the LW limitation. Keep stage geometry/pool construction as a distinct companion."
     },
     {
-      "id": "n7zeKsWVLQE",
-      "title": "Enable Ground Reflection For Stage Models"
+      "id": "K3WSqEj7K-4",
+      "title": "Stage geometry and water system",
+      "reason": "Distinct companion coverage; see primary selection rationale."
     }
   ],
   "features/stages": [
     {
       "id": "pR_qq99iKxg",
-      "title": "DanceXR 1.4.6 Stage Edit (Move Objects)"
-    },
-    {
-      "id": "TWlidp0Htfk",
-      "title": "Tag system and content selection improvements in version 1.4.0",
-      "reason": "Title/description explicitly covers this guide’s feature."
+      "title": "DanceXR 1.4.6 Stage Edit (Move Objects)",
+      "reason": "Keep the stage-object editing demonstration; remove the older content-tagging clip from the stage overview."
     }
   ],
   "features/props": [
@@ -460,11 +457,8 @@
   "vr_operations": [
     {
       "id": "KkGzY28Oj7k",
-      "title": "Controlling actor motion with VR head & hand input"
-    },
-    {
-      "id": "1Wkde7_pDBQ",
-      "title": "Controlling actor motion with your own movements in VR, coming soon to the December release"
+      "title": "Controlling actor motion with VR head & hand input",
+      "reason": "Keep the actual head/hand-control demonstration; remove the earlier upcoming-input preview."
     }
   ],
   "features/googledrive": [
@@ -476,15 +470,8 @@
   "content_android_quest": [
     {
       "id": "mFnXE7LBV-M",
-      "title": "Version 2024.3 for Android External Storage Permission and Data Migration"
-    },
-    {
-      "id": "VQjnL9oq-hY",
-      "title": "Android Content Manager Demo"
-    },
-    {
-      "id": "ZmDeuWwZtmI",
-      "title": "Install & load content onto Oculus Quest"
+      "title": "Version 2024.3 for Android External Storage Permission and Data Migration",
+      "reason": "The 2024.3 external-storage permission/data migration guide is current coverage; remove the two 2021 companion walkthroughs."
     }
   ],
   "features/system_physics": [
@@ -545,9 +532,14 @@
   ],
   "features/transparency": [
     {
+      "id": "eBjhymW60Uw",
+      "title": "Translucent Material With Raytraced Color Shadow - DanceXR 2025.1",
+      "reason": "Prefer the 2025.1 translucent-material showcase; retain the older explicit transparency editing demonstration for the alpha/category workflow."
+    },
+    {
       "id": "DZEBZLPDnAA",
       "title": "Demo of physics setup and updated material settings in 1.3.7",
-      "reason": "Description explicitly demonstrates changing material transparency."
+      "reason": "Distinct companion coverage; see primary selection rationale."
     }
   ],
   "features/primitive_shapes": [
@@ -601,9 +593,9 @@
   ],
   "features/graphics": [
     {
-      "id": "5yerg14Is6E",
-      "title": "[Sneak Peek] New Graphics Menu & Toon Shader",
-      "reason": "Title explicitly demonstrates the Graphics menu and toon shader."
+      "id": "q1hFsp8GiHQ",
+      "title": "DanceXR 2025.5 New Features: Audio Visualizer, Posterization Effects & Path Tracing!",
+      "reason": "The 2025.5 Unity posterization and path-tracing update covers effects documented here. Exclude newer Native rendering clips because they demonstrate a separate renderer."
     }
   ]
 }
