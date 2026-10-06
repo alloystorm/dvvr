@@ -1,4 +1,16 @@
 {
+  "features/native": {
+    "videos": [
+      {
+        "id": "kidbnBw78S8",
+        "url": "https://www.youtube.com/watch?v=kidbnBw78S8",
+        "title": "[Anaglyph 3D] (Red Blue) Conqueror",
+        "thumbnail": "/images/features/youtube/kidbnBw78S8.jpg",
+        "published_at": "2026-08-07T04:46:04Z"
+      }
+    ],
+    "image": "/images/features/youtube/kidbnBw78S8.jpg"
+  },
   "features/discovery": {
     "videos": [
       {

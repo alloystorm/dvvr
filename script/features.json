@@ -10,6 +10,13 @@
       },
       "tiles": [
         {
+          "path": "features/native",
+          "badge": "2026.9 | Native Path Tracing & Raster Rendering",
+          "badge_type": "new",
+          "image": "/images/features/youtube/kidbnBw78S8.jpg",
+          "video": "https://www.youtube.com/watch?v=kidbnBw78S8"
+        },
+        {
           "path": "features/discovery",
           "badge": "2025.6 | Asset Acquisition Made Effortless",
           "badge_type": "new",

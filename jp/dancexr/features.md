@@ -17,8 +17,9 @@ feature_sections:
     tiles:
       - title: DanceXR Native
         link: /jp/dancexr/features/native
-        image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
-        badge: "2026.10 | Path-Traced and Raster App"
+        image: /images/features/youtube/kidbnBw78S8.jpg
+        video: "https://www.youtube.com/watch?v=kidbnBw78S8"
+        badge: "2026.9 | Native Path Tracing & Raster Rendering"
         badge_type: new
       - title: ディスカバリーアプリ
         link: /jp/dancexr/features/discovery
@@ -486,11 +487,6 @@ feature_sections:
             image: /images/features/youtube/q1hFsp8GiHQ.webp
             video: "https://www.youtube.com/watch?v=q1hFsp8GiHQ"
             badge: PC
-          - title: DanceXR Native
-            link: /jp/dancexr/features/native
-            image: /images/slideshows/render/39%20Music%20%5BlVQSI8ZvpSg%5D.webp
-            badge: "2026.10 · PC"
-            badge_type: new
   - title: シネマカメラ
     hub_url: /jp/dancexr/cameras
     hub_summary: Six camera modes — Freefly, Auto, Orbit, One-shot, Concert, First Person — each tuned for a different shot style, plus shared parameters and recording considerations.
