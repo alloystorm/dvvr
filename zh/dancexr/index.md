@@ -5,7 +5,9 @@ toc: false
 locale: zh-CN
 lang_path: /dancexr/index
 hero_compact: true
-hero_title: 终极多平台角色查看器
+hero_title: 让你的 MMD 角色在桌面和 VR 中动起来
+hero_sub: 载入 PMX 或 XPS 角色，添加 VMD 舞蹈，体验随动作响应的头发、衣物与镜头控制。
+description: 载入 PMX 或 XPS 角色，添加 VMD 舞蹈，体验随动作响应的头发、衣物与镜头控制。
 hero_image: /images/hero.png
 hero_ctas:
   - label: 立即下载
@@ -384,7 +386,7 @@ AI 功能
       <li>4K、VR 180 &amp; VR 360 视频</li>
       <li>提前一个月获取新功能</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'engagement\', \'event_label\': \'Join on Patreon\' });">加入 Patreon</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'engagement', 'event_label': 'Join on Patreon' });">加入 Patreon</a>
   </div>
 
 </div>
@@ -403,7 +405,7 @@ AI 功能
 
 ## 每月更新
 
-每个月都有新功能和改进上线。Patreon 订阅者可抢先体验 —— Steam 和其他平台则在月中跟进。
+PC 版每月 1 日在 Patreon 抢先发布，15 日左右进入 Steam 测试版和 Itch.io，月底前进入 Steam 公开版。iOS 和 Android 使用独立的更新安排。
 
 [查看所有版本说明 →](releases){: .btn-ghost}
 

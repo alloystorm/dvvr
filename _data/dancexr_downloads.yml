@@ -1,0 +1,4 @@
+# Verified against GitHub release assets on 2026-10-07. Keep these stable tags.
+free_launcher: https://github.com/alloystorm/dvvr/releases/download/pc-free/DanceXRLauncher.7z
+free_builds: https://github.com/alloystorm/dvvr/releases/tag/pc-free
+native: https://github.com/alloystorm/dvvr/releases/tag/dxr-native

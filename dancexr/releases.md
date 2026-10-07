@@ -129,7 +129,13 @@ about:
 
 ### Release Schedule
 
-We are running a monthly release schedule, with new versions being released on the first day of each month on Patreon first, then itch.io and Steam beta around the 15th and then by the end of the month to production channel.
+PC releases follow these target dates:
+
+- **1st:** early access on Patreon.
+- **Around the 15th:** Itch.io and the Steam beta channel.
+- **By month-end:** Steam’s public channel.
+
+The latest release notes describe the newest features; check your download or store page for the build currently available on your platform.
 
 Mobile versions (iOS/Android) don't have a fixed schedule and might have bigger gaps between versions due to the platform review process and technical constraints. We will try to keep the mobile version as up-to-date as possible.
 

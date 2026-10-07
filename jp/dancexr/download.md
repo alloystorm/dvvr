@@ -7,6 +7,7 @@ lang_path: /dancexr/download
 hero_compact: true
 hero_title: DanceXRをダウンロード
 hero_image: /images/hero.png
+description: ランチャーで無料のHD・Native版をインストール・更新できます。
 ---
 
 <!-- ── Try in browser ─────────────────────────────────────── -->
@@ -26,66 +27,11 @@ hero_image: /images/hero.png
 </p>
 </section>
 
-<!-- ── Patreon ─────────────────────────────────────────────── -->
-<section class="section">
-<div class="editions-header" markdown="1">
-
-## Patreonでサポートする
-
-Steamやその他のすべてのプラットフォームより早く、毎月のリリースに早期アクセスできます。
-
-</div>
-<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
-
-  <div class="edition-card">
-    <p class="edition-tier">Patreon</p>
-    <p class="edition-name">Patron</p>
-    <p class="edition-price">$7 / 月</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>毎月のリリースへの早期アクセス</li>
-      <li>HDビルド — 高画質</li>
-      <li>LWビルド — パフォーマンス最適化</li>
-      <li>プロ版ビルド</li>
-    </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'patreon', 'event_label': 'Patron $7' });">Patreonで参加する</a>
-  </div>
-
-  <div class="edition-card featured">
-    <p class="edition-tier">Patreon</p>
-    <p class="edition-name">Pro</p>
-    <p class="edition-price">$10 / 月</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>Patronの全特典</li>
-      <li>RTビルド — レイトレーシング</li>
-      <li>プロ版ビルド</li>
-    </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'patreon', 'event_label': 'Pro $10' });">Patreonで参加する</a>
-  </div>
-
-  <div class="edition-card">
-    <p class="edition-tier">Patreon</p>
-    <p class="edition-name">Creator</p>
-    <p class="edition-price">$15 / 月</p>
-    <div class="edition-divider"></div>
-    <ul class="edition-features">
-      <li>Proの全特典</li>
-      <li>クリエイター版 — オフラインレンダリング</li>
-      <li>4K、VR 180 &amp; VR 360 動画出力</li>
-      <li>任意解像度でのフレーム単位のレンダリング</li>
-    </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'patreon', 'event_label': 'Creator $15' });">Patreonで参加する</a>
-  </div>
-
-</div>
-</section>
-
 <!-- ── PC ─────────────────────────────────────────────────── -->
 <section class="section section-light">
 <div class="editions-header" markdown="1">
 
-## PCで購入
+## PCエディションを選ぶ
 
 </div>
 <div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
@@ -102,7 +48,9 @@ Steamやその他のすべてのプラットフォームより早く、毎月の
       <li class="locked">ステージ上の俳優は1人のみ</li>
       <li class="locked">高度な機能はロック</li>
     </ul>
-    <a href="https://github.com/alloystorm/dvvr/releases/download/2026.4/DanceXR.HD.Free_WIN64.7z" class="edition-cta" onclick="gtag('event', 'download', { 'event_category': 'pc', 'event_label': 'Freeをダウンロード' });">無料ダウンロード</a>
+    <a href="{{ site.data.dancexr_downloads.free_launcher }}" class="edition-cta" onclick="gtag('event', 'download', { 'event_category': 'pc', 'event_label': 'Freeをダウンロード' });">無料ランチャーをダウンロード</a>
+    <p>ランチャーで無料のHD・Native版をインストール・更新できます。</p>
+    <a href="{{ site.data.dancexr_downloads.free_builds }}">単体の無料ビルドを見る</a>
   </div>
 
   <div class="edition-card featured">
@@ -117,7 +65,7 @@ Steamやその他のすべてのプラットフォームより早く、毎月の
       <li>全高度機能</li>
       <li>レイトレーシングを含む</li>
     </ul>
-    <a href="https://store.steampowered.com/app/2193970/DanceXR_Pure/" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'steam', 'event_label': 'Pure $24.99' });">Steamで購入</a>
+    <a href="https://store.steampowered.com/app/2193970/DanceXR_Pure/" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'steam', 'event_label': 'Pure $24.99' });">Steamで購入</a>
   </div>
 
   <div class="edition-card">
@@ -130,11 +78,12 @@ Steamやその他のすべてのプラットフォームより早く、毎月の
       <li>アダルトコンテンツ対応</li>
       <li>レイトレーシングはDLC（$9.99）として販売</li>
     </ul>
-    <a href="https://store.steampowered.com/app/1905510/DanceXR/" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'steam', 'event_label': 'Pro $24.99' });">Steamで購入</a>
-    <a href="https://stormlab.itch.io/dancexr" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'purchase', { 'event_category': 'itchio', 'event_label': 'Pro PC Itch.io' });">Itch.ioで購入</a>
+    <a href="https://store.steampowered.com/app/1905510/DanceXR/" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'steam', 'event_label': 'Pro $24.99' });">Steamで購入</a>
+    <a href="https://stormlab.itch.io/dancexr" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'store_link_click', { 'event_category': 'itchio', 'event_label': 'Pro PC Itch.io' });">Itch.ioで購入</a>
   </div>
 
 </div>
+<p class="section-note">表示価格は米ドルです。地域やセールにより異なります。</p>
 <p class="section-note" markdown="1">中国大陸ユーザーは [購入オプション](/zh/dancexr/purchase_prc) を確認してください。</p>
 </section>
 
@@ -161,13 +110,13 @@ Steamやその他のすべてのプラットフォームより早く、毎月の
 {:.section-label}
 正式リリース対応
 
-## パストレーシング描画を試す
+## PCでDanceXR Nativeを試す
 
-DanceXR Native は、レイトレーシング対応ハードウェア上で PMX と XPS キャラクターを完全なパストレーシングにより描画する独立した Windows アプリです。無料版は 1 体、アクティベート済みの Pro 版は複数キャラクターのシーンに対応します。デスクトップまたは OpenXR VR で起動できます。
+DanceXR Nativeは、WindowsのデスクトップやOpenXR VRでPMX・XPSキャラクターを描画します。2026.10以降はラスターレンダラーにより、内蔵GPUを含むレイトレーシング非対応のDirectX 12 PCでも利用できます。完全なパストレーシングには対応GPUが必要です。無料版は1体、アクティベート済みPro版は複数キャラクターに対応します。
 
 </div>
 <p style="text-align:center; margin-top: 20px;">
-  <a href="https://github.com/alloystorm/dvvr/releases/tag/dxr-native" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native free' });">Native 無料版をダウンロード</a>
+  <a href="{{ site.data.dancexr_downloads.native }}" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native free' });">Native 無料版をダウンロード</a>
 </p>
 <p style="text-align:center; margin-top: 8px;" markdown="1">[詳細はこちら →](features/native)</p>
 </section>
@@ -187,12 +136,12 @@ DanceXR Native は、レイトレーシング対応ハードウェア上で PMX 
     <p class="edition-price">DanceXR Portable</p>
     <div class="edition-divider"></div>
     <ul class="edition-features">
-      <li>完全なプロ版機能セット</li>
+      <li>PMX・XPSモデルとVMDモーションの再生</li>
       <li>Androidデバイス向けに最適化</li>
       <li>公開ベータに参加して早期アクセス</li>
     </ul>
-    <a href="https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'google_play', 'event_label': 'Android Google Play' });">Google Playで入手</a>
-    <a href="https://stormlab.itch.io/dancexr-android" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'purchase', { 'event_category': 'itchio', 'event_label': 'Android Itch.io' });">Itch.ioで購入</a>
+    <a href="https://play.google.com/store/apps/details?id=com.vrstormlab.dancexr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'google_play', 'event_label': 'Android Google Play' });">Google Playで入手</a>
+    <a href="https://stormlab.itch.io/dancexr-android" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'store_link_click', { 'event_category': 'itchio', 'event_label': 'Android Itch.io' });">Itch.ioで購入</a>
   </div>
 
   <div class="edition-card">
@@ -201,11 +150,11 @@ DanceXR Native は、レイトレーシング対応ハードウェア上で PMX 
     <p class="edition-price">DanceXR</p>
     <div class="edition-divider"></div>
     <ul class="edition-features">
-      <li>完全なプロ版機能セット</li>
+      <li>PMX・XPSモデルとVMDモーションの再生</li>
       <li>iPhoneおよびiPad向けに最適化</li>
-      <li>PCと同じ月次更新サイクル</li>
+      <li>更新時期はプラットフォームの審査により異なります</li>
     </ul>
-    <a href="https://apps.apple.com/au/app/dancexr/id6475269158" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'app_store', 'event_label': 'iOS App Store' });">App Storeで入手</a>
+    <a href="https://apps.apple.com/au/app/dancexr/id6475269158" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'app_store', 'event_label': 'iOS App Store' });">App Storeで入手</a>
   </div>
 
   <div class="edition-card">
@@ -216,9 +165,64 @@ DanceXR Native は、レイトレーシング対応ハードウェア上で PMX 
     <ul class="edition-features">
       <li>Questハードウェアでの完全なVR体験</li>
       <li>スタンドアロン — PC不要</li>
-      <li>PCのプロ版と同じ機能セット</li>
+      <li>Quest向けに最適化されたモデル・モーション再生</li>
     </ul>
-    <a href="https://stormlab.itch.io/dancexr-quest" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'itchio', 'event_label': 'Quest Itch.io' });">Itch.ioで入手</a>
+    <a href="https://stormlab.itch.io/dancexr-quest" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'itchio', 'event_label': 'Quest Itch.io' });">Itch.ioで入手</a>
+  </div>
+
+</div>
+</section>
+
+<!-- ── Patreon ─────────────────────────────────────────────── -->
+<section class="section">
+<div class="editions-header" markdown="1">
+
+## Patreonでサポートする
+
+Steamやその他のすべてのプラットフォームより早く、毎月のリリースに早期アクセスできます。
+
+</div>
+<div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
+
+  <div class="edition-card">
+    <p class="edition-tier">Patreon</p>
+    <p class="edition-name">Patron</p>
+    <p class="edition-price">$7 / 月</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>毎月のリリースへの早期アクセス</li>
+      <li>HDビルド — 高画質</li>
+      <li>LWビルド — パフォーマンス最適化</li>
+      <li>プロ版ビルド</li>
+    </ul>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'patreon', 'event_label': 'Patron $7' });">Patreonで参加する</a>
+  </div>
+
+  <div class="edition-card featured">
+    <p class="edition-tier">Patreon</p>
+    <p class="edition-name">Pro</p>
+    <p class="edition-price">$10 / 月</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>Patronの全特典</li>
+      <li>RTビルド — レイトレーシング</li>
+      <li>プロ版ビルド</li>
+    </ul>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'patreon', 'event_label': 'Pro $10' });">Patreonで参加する</a>
+  </div>
+
+  <div class="edition-card">
+    <p class="edition-tier">Patreon</p>
+    <p class="edition-name">Creator</p>
+    <p class="edition-price">$15 / 月</p>
+    <div class="edition-divider"></div>
+    <ul class="edition-features">
+      <li>Proの全特典</li>
+      <li>クリエイター版 — オフラインレンダリング</li>
+      <li>4K、VR 180 &amp; VR 360 動画出力</li>
+      <li>任意解像度でのフレーム単位のレンダリング</li>
+    </ul>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'patreon', 'event_label': 'Creator $15' });">Patreonで参加する</a>
   </div>
 
 </div>

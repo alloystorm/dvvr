@@ -5,7 +5,9 @@ toc: false
 locale: ja-JP
 lang_path: /dancexr/index
 hero_compact: true
-hero_title: 究極のマルチプラットフォーム キャラクタービューアー
+hero_title: MMDキャラクターをデスクトップとVRで生き生きと
+hero_sub: PMX・XPSモデルとVMDダンスを読み込み、動きに反応する髪や衣服、カメラ操作を楽しめます。
+description: PMX・XPSモデルとVMDダンスを読み込み、動きに反応する髪や衣服、カメラ操作を楽しめます。
 hero_image: /images/hero.png
 hero_ctas:
   - label: 今すぐダウンロード
@@ -384,7 +386,7 @@ AIパワードのボイスチャットにより、キャラクターがリアル
       <li>4K、VR 180 &amp; VR 360動画</li>
       <li>新機能を1ヶ月早くアクセス</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'engagement\', \'event_label\': \'Join on Patreon\' });">Patreonに参加</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'engagement', 'event_label': 'Join on Patreon' });">Patreonに参加</a>
   </div>
 
 </div>
@@ -403,7 +405,7 @@ AIパワードのボイスチャットにより、キャラクターがリアル
 
 ## 毎月新機能
 
-毎月新しい機能と改善がリリースされます。Patreonのサポーターはいち早くアクセス可能 — SteamやほかのプラットフォームはN月中旬に続きます。
+PC版は毎月1日にPatreonで先行公開され、15日頃にSteamベータとItch.io、月末までにSteamの公開版へ配信されます。iOS・Android版は別のスケジュールです。
 
 [すべてのリリースノートを見る →](releases){: .btn-ghost}
 

@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: page.hero_sub | default: site.description | escape }}">
+  <title>{{ page.title | default: site.title | escape }}</title>
+  {% include head/social.html %}
   {% include head/custom.html %}
   {% if site.analytics.provider == "google-gtag" %}
   {% include analytics-providers/google-gtag.html %}

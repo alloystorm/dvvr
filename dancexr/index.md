@@ -5,7 +5,9 @@ toc: false
 locale: en-US
 lang_path: /dancexr/index
 hero_compact: true
-hero_title: The Ultimate Multi-Platform Character Viewer
+hero_title: Bring your MMD characters to life on desktop and in VR
+hero_sub: Load PMX or XPS characters, add a VMD dance, and enjoy responsive hair, clothing and camera controls.
+description: Load PMX or XPS characters, add a VMD dance, and enjoy responsive hair, clothing and camera controls.
 hero_image: /images/hero.png
 hero_ctas:
   - label: DOWNLOAD NOW
@@ -384,7 +386,7 @@ Pricing
       <li>4K, VR 180 &amp; VR 360 video</li>
       <li>New features one month early</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'purchase', { 'event_category': 'engagement', 'event_label': 'Join on Patreon' });">Join on Patreon</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'engagement', 'event_label': 'Join on Patreon' });">Join on Patreon</a>
   </div>
 
 </div>
@@ -403,7 +405,7 @@ Updates
 
 ## New Every Month
 
-New features and improvements ship every month. Patreon supporters get early access — Steam and other platforms follow mid-month.
+PC releases start on Patreon on the 1st, reach Steam beta and Itch.io around the 15th, and reach Steam’s public channel by month-end. iOS and Android follow a separate schedule.
 
 [See all release notes →](releases){: .btn-ghost}
 

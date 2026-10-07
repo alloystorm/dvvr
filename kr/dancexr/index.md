@@ -5,7 +5,9 @@ toc: false
 locale: ko-KR
 lang_path: /dancexr/index
 hero_compact: true
-hero_title: 궁극의 멀티플랫폼 캐릭터 뷰어
+hero_title: 데스크톱과 VR에서 MMD 캐릭터에 생동감을
+hero_sub: PMX 또는 XPS 캐릭터와 VMD 댄스를 불러오고, 움직임에 반응하는 머리카락과 의상, 카메라 조작을 즐기세요.
+description: PMX 또는 XPS 캐릭터와 VMD 댄스를 불러오고, 움직임에 반응하는 머리카락과 의상, 카메라 조작을 즐기세요.
 hero_image: /images/hero.png
 hero_ctas:
   - label: 지금 다운로드
@@ -384,7 +386,7 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
       <li>4K, VR 180 &amp; VR 360 비디오</li>
       <li>새 기능 한 달 먼저 이용</li>
     </ul>
-    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag(\'event\', \'purchase\', { \'event_category\': \'engagement\', \'event_label\': \'Join on Patreon\' });">Patreon 가입</a>
+    <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'engagement', 'event_label': 'Join on Patreon' });">Patreon 가입</a>
   </div>
 
 </div>
@@ -403,7 +405,7 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
 
 ## 매달 새로운 기능
 
-매달 새로운 기능과 개선 사항이 출시됩니다. Patreon 후원자는 먼저 이용할 수 있으며 — Steam 및 기타 플랫폼은 이달 중반에 출시됩니다.
+PC 버전은 매월 1일 Patreon, 15일경 Steam 베타와 Itch.io, 월말까지 Steam 공개 채널에 배포됩니다. iOS와 Android는 별도 일정으로 업데이트됩니다.
 
 [모든 릴리스 노트 보기 →](releases){: .btn-ghost}
 

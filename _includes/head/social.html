@@ -1,0 +1,15 @@
+{% assign social_title = page.title | default: site.title %}
+{% assign social_description = page.description | default: page.hero_sub | default: site.description %}
+{% assign social_image = page.social_image | default: page.hero_image | default: '/images/hero.png' %}
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ social_title | escape }}">
+<meta property="og:description" content="{{ social_description | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ social_image | absolute_url }}">
+<meta property="og:locale" content="{{ page.locale | default: 'en-US' | replace: '-', '_' }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ social_title | escape }}">
+<meta name="twitter:description" content="{{ social_description | escape }}">
+<meta name="twitter:image" content="{{ social_image | absolute_url }}">

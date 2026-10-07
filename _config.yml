@@ -17,6 +17,7 @@ analytics:
     anonymize_ip: false # default
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -34,6 +35,9 @@ footer:
     - label: "Reddit"
       icon: "fab fa-reddit"
       url: "https://www.reddit.com/r/dancexr"
+    - label: "DeviantArt"
+      icon: "fab fa-fw fa-deviantart"
+      url: "https://www.deviantart.com/alloystorm"
     - label: "Steam"
       icon: "fab fa-steam"
       url: "https://store.steampowered.com/search/?developer=VR%20Storm%20Lab"
