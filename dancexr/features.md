@@ -550,6 +550,9 @@ feature_sections:
             video: "https://www.youtube.com/watch?v=8wOB11Afz7k"
             badge: 2026.1
             badge_type: new
+          - title: Auto Reset
+            link: /dancexr/features/auto_reset
+            image: /images/slideshows/load_play/e01294325adee543b4942b0aa5e917dfe7a67394.jpg
           - title: Auto Update
             link: /dancexr/features/autoupdate
             image: /images/slideshows/tools/DanceXR%201.4.5%20New%20AutoUpdate%20Options%20for%20Audio%20Visualization%20%5BA00DhbCOgu0%5D.webp
