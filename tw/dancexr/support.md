@@ -34,248 +34,248 @@ support_sections:
           - id: "find-content-library"
             category: "content"
             type: "how-to"
-            question: "How do I find my content library?"
-            keywords: ["content library", "folder", "Explorer", "storage"]
-            related: [{"href": "preparecontent", "label": "Content Library"}]
-            answer: "Open the **System** menu (gear icon), then **Content Library → Show In Explorer** on Windows to open the library folder.\n\nOn Android and Meta Quest, the shared library is normally at `/DanceXR/`. Older installations or those using internal storage use `/Android/data/com.vrstormlab.dancexr/files/`. On iPhone and iPad, open the Files app and look for the DanceXR folder under **On My iPhone** or **On My iPad**."
+            question: "如何找到我的內容庫？"
+            keywords: ["content library", "folder", "Explorer", "storage", "內容庫", "資料夾", "儲存位置", "儲存"]
+            related: [{"href": "preparecontent", "label": "內容庫"}]
+            answer: "在Windows上，開啟**系統**選單（齒輪圖示），選擇**內容庫 → 在資源管理器中顯示**，即可開啟內容庫資料夾。\n\nAndroid和Meta Quest的共享內容庫通常位於 `/DanceXR/`。舊版本或使用應用內部儲存時，路徑為 `/Android/data/com.vrstormlab.dancexr/files/`。在iPhone或iPad上，開啟“檔案”應用，在**我的iPhone**或**我的iPad**下找到DanceXR資料夾。"
           - id: "add-models"
             category: "content"
             type: "how-to"
-            question: "How do I add my own models?"
-            keywords: ["import model", "PMX", "XPS", "FBX", "ZIP", "drag and drop"]
-            related: [{"href": "getting-started", "label": "Getting Started"}]
-            answer: "Copy the model and its textures into `actors/` in your content library, keeping their original folder structure. You can also keep each model package in its own ZIP file.\n\nOpen the **Actor** menu, choose **Load Model**, and select the model. On desktop, you can drag a model file or model ZIP directly onto the DanceXR window.\n\nPMX and XPS are supported. FBX model loading is in preview; embedded FBX animations are not loaded."
+            question: "如何新增自己的模型？"
+            keywords: ["import model", "PMX", "XPS", "FBX", "ZIP", "drag and drop", "新增模型", "匯入模型", "拖放", "貼圖"]
+            related: [{"href": "getting-started", "label": "入門指南"}]
+            answer: "將模型及其貼圖複製到內容庫的 `actors/` 中，保留原有的資料夾結構。也可以將每個模型及其資源打包成單獨的ZIP檔案。\n\n開啟**角色**選單，選擇**載入模型**，再選擇所需模型。在桌面版中，也可以將模型檔案或模型ZIP直接拖到DanceXR視窗中。\n\n支援PMX和XPS。FBX模型載入目前是預覽功能，不會載入FBX內嵌的動畫。"
           - id: "add-motions-and-music"
             category: "content"
             type: "how-to"
-            question: "How do I add motions and music?"
-            keywords: ["VMD", "BVH", "audio", "music", "WAV", "OGG", "load motion"]
-            related: [{"href": "preparecontent#motion-files", "label": "Content Library"}]
-            answer: "Put your VMD or BVH motion files and their audio into `motion/` in the content library. WAV and OGG audio work for dance sets.\n\nOpen the **Audio/Motion** menu and choose **Load Audio / Motion** to select them. On desktop, you can also drag files onto the DanceXR window.\n\nTo have the music and motion load together, keep one song and its related motions in the same subfolder or ZIP. For a single motion/audio pair, matching names such as `dance.vmd` and `dance.ogg` also work."
+            question: "如何新增動作和音樂？"
+            keywords: ["VMD", "BVH", "audio", "music", "WAV", "OGG", "load motion", "新增動作", "新增音樂", "音訊", "舞蹈套裝"]
+            related: [{"href": "preparecontent#motion-files", "label": "內容庫"}]
+            answer: "將VMD或BVH動作檔案及音訊放入內容庫的 `motion/` 中。舞蹈套裝可以使用WAV或OGG音訊。\n\n開啟**音訊／動作**選單，選擇**載入音訊／動作**。桌面版也支援將檔案直接拖到DanceXR視窗中。\n\n要讓音樂和動作一起載入，將一首歌及其相關動作放在同一個子資料夾或ZIP中。如果只有一組動作和音訊，也可以使用相同的檔名，例如 `dance.vmd` 和 `dance.ogg`。"
           - id: "refresh-content-library"
             category: "content"
             type: "how-to"
-            question: "How do I make newly added files appear in the library?"
-            keywords: ["refresh", "rescan", "missing files", "new content"]
-            related: [{"href": "preparecontent", "label": "Content Library"}]
-            answer: "Open **System → Content Library → Refresh Content** and wait for the scan to finish. Use this after copying or moving files while DanceXR is running.\n\nThe app also checks for library changes when it starts. If a file still does not appear, make sure it is in the correct subfolder: `actors/` for models, `motion/` for motions and audio, `stages/` for stages, or `texture/sky/` for sky maps."
+            question: "如何讓新新增的檔案顯示在內容庫中？"
+            keywords: ["refresh", "rescan", "missing files", "new content", "重新整理內容庫", "重新掃描", "檔案不顯示", "新內容"]
+            related: [{"href": "preparecontent", "label": "內容庫"}]
+            answer: "開啟**系統 → 內容庫 → 重新整理內容**，等待掃描完成。在DanceXR執行時複製或移動檔案後，可以使用此功能。\n\n應用啟動時也會檢查內容庫的變化。如果檔案仍未出現，請確認放入了正確的子資料夾：模型放在 `actors/`，動作和音訊放在 `motion/`，舞臺放在 `stages/`，天空貼圖放在 `texture/sky/`。"
       - title: "角色與外觀"
         items:
           - id: "add-another-actor"
             category: "actors"
             type: "how-to"
-            question: "How do I add another actor without replacing the current one?"
-            keywords: ["multiple actors", "add character", "replace model", "plus"]
-            related: [{"href": "getting-started", "label": "Getting Started"}]
-            answer: "Open **Actor → Load Model**, then click the **+** icon next to the model you want to add. Selecting the model normally replaces the currently selected actor; the + action keeps that actor and adds another.\n\nMultiple actors require an activated paid edition. If the + action is unavailable, check your edition and activation status."
+            question: "如何新增另一個角色，而不替換當前角色？"
+            keywords: ["multiple actors", "add character", "replace model", "plus", "新增角色", "多個角色", "替換模型", "付費版本"]
+            related: [{"href": "getting-started", "label": "入門指南"}]
+            answer: "開啟**角色 → 載入模型**，點選要新增的模型旁邊的 **+** 圖示。直接選擇模型通常會替換當前選取的角色；使用+可以保留當前角色並新增另一個。\n\n多角色場景需要已啟用的付費版本。如果無法使用+，請檢查版本和啟用狀態。"
           - id: "move-and-rotate-actor"
             category: "actors"
             type: "how-to"
-            question: "How do I move, rotate or resize an actor?"
-            keywords: ["scale", "resize", "position", "move", "rotate", "selection disc"]
-            related: [{"href": "actors", "label": "Working with Actors"}, {"href": "features/scale_offset", "label": "Scale & Offset"}, {"href": "controls", "label": "Controls & UI"}]
-            answer: "Drag the yellow selection disc under the actor to move it. While dragging, use the mouse wheel to rotate it; in VR, use the controller thumbstick left or right.\n\nFor precise adjustments, open the actor's **Scale & Offset** settings. Use **Model Scale** to resize, **Rotation** to turn, **Offset X/Z** to move horizontally, and **Ground Offset** to move vertically. Turn off **Uniform Height** if you want to preserve the model's original size."
+            question: "如何移動、旋轉或縮放角色？"
+            keywords: ["scale", "resize", "position", "move", "rotate", "selection disc", "移動", "旋轉", "縮放", "調整大小", "選擇圓盤"]
+            related: [{"href": "actors", "label": "角色使用指南"}, {"href": "features/scale_offset", "label": "縮放與偏移"}, {"href": "controls", "label": "操作與介面"}]
+            answer: "拖動角色腳下的黃色選擇圓盤即可移動角色。拖動時使用滑鼠滾輪可以旋轉；在VR中，將控制器搖桿向左或向右撥動。\n\n要精確調整，開啟角色的**縮放與偏移**設定。使用**模型縮放**調整大小、**旋轉**調整朝向、**偏移X/Z**調整水平位置、**地面偏移**調整高度。如果希望保留模型的原始大小，請關閉**統一身高**。"
           - id: "change-model-textures"
             category: "actors"
             type: "how-to"
-            question: "How do I change a model’s textures?"
-            keywords: ["alternative textures", "replace texture", "skin", "base.png"]
-            related: [{"href": "features/alternative_textures", "label": "Alternative Textures"}]
-            answer: "For an alternative texture set, keep the replacement textures in a separate subfolder inside the model's folder, or anywhere inside the same model ZIP. Each replacement must have the same filename as the texture it replaces.\n\nFor example, if the model uses `base.png`, put another `base.png` in an `alternate/` subfolder. Reload the model, open **Alternative Textures** in its actor menu, and select the set that DanceXR detects. Keep the alternatives inside the model package so the scan can find them."
+            question: "如何更換模型的貼圖？"
+            keywords: ["alternative textures", "replace texture", "skin", "base.png", "更換貼圖", "替代貼圖", "模型外觀", "貼圖替換"]
+            related: [{"href": "features/alternative_textures", "label": "替代貼圖"}]
+            answer: "將替代貼圖放在模型資料夾內單獨的子資料夾中，或同一個模型ZIP內的任意位置。每張替代貼圖必須與被替換的貼圖使用相同的檔名。\n\n例如，模型使用 `base.png`，可以在 `alternate/` 子資料夾中放入另一張 `base.png`。重新載入模型，在角色選單的**替代貼圖**中選擇DanceXR檢測到的貼圖組。請將替代檔案保留在模型包內，以便掃描時找到它們。"
           - id: "attach-hand-prop"
             category: "actors"
             type: "how-to"
-            question: "How do I attach a prop to an actor’s hand?"
-            keywords: ["accessory", "prop", "hand", "grab pose", "attachment"]
-            related: [{"href": "features/accessory", "label": "Accessory"}]
-            answer: "Put the prop model and its textures in `accessory/` in your content library and refresh the library if needed.\n\nSelect the actor and open **Accessory**. Enable **Left Hand** or **Right Hand**, then choose the prop under **Model**. Adjust **Size & Alignment**, **Rotation** and **Offset** until it fits the hand. Use **Grab Pose** to adjust the grip where available.\n\nThis requires an edition with the Accessory feature."
+            question: "如何讓角色手持道具？"
+            keywords: ["accessory", "prop", "hand", "grab pose", "attachment", "手持道具", "配件", "道具附加", "抓握姿勢"]
+            related: [{"href": "features/accessory", "label": "配件"}]
+            answer: "將道具模型和貼圖放入內容庫的 `accessory/`，必要時重新整理內容庫。\n\n選取的角色，開啟**配件**。啟用**左手**或**右手**，然後在**模型**中選擇道具。調整**大小與對齊**、**旋轉**和**偏移**，使其貼合手部。如果提供**抓握姿勢**選項，還可以調整握持方式。\n\n需要使用支援配件功能的版本。"
       - title: "動作與播放"
         items:
           - id: "assign-motion"
             category: "motion"
             type: "how-to"
-            question: "How do I assign a motion to an actor?"
-            keywords: ["assign motion", "animation", "selected actor", "dance"]
-            related: [{"href": "features/assign_motion", "label": "Assigning Motion"}]
-            answer: "Load the motion from the **Audio/Motion** menu, then select the actor you want to animate.\n\nChoose the motion and use **Assign To Selected**. You can also open the actor's menu and select the loaded motion from its motion list. Use **Assign To All** when every actor should perform the same motion.\n\nIf an XPS or FBX actor stays in its standard pose, check its **Bone Mapper** assignments."
+            question: "如何給角色指派動作？"
+            keywords: ["assign motion", "animation", "selected actor", "dance", "指派動作", "角色動畫", "選取的角色", "舞蹈"]
+            related: [{"href": "features/assign_motion", "label": "動作指派"}]
+            answer: "在**音訊／動作**選單中載入動作，然後選取要播放動作的角色。\n\n選擇動作並使用**指派給選取的角色**。也可以開啟角色選單，從動作列表中選擇已載入的動作。要讓所有角色執行同一個動作，請使用**指派給所有角色**。\n\n如果XPS或FBX角色仍停留在標準姿勢，請檢查其**骨骼對映器**中的指派。"
           - id: "assign-group-dance"
             category: "motion"
             type: "how-to"
-            question: "How do I assign different dance tracks to multiple actors?"
-            keywords: ["group dance", "multiple tracks", "assign all actors"]
-            related: [{"href": "features/assign_motion", "label": "Assigning Motion"}]
-            answer: "Load the group dance set so all of its motion tracks are available. From the motion menu, use **Assign All Actors** to distribute different tracks across the actors already in the scene.\n\nUse **Load And Assign Actors** if you want DanceXR to load actors and assign a track to each automatically. For manual control, select each actor and use **Assign To Selected** on the desired track.\n\nA scene with multiple actors requires an activated paid edition."
+            question: "如何給多個角色指派不同的舞蹈軌道？"
+            keywords: ["group dance", "multiple tracks", "assign all actors", "群舞", "多個軌道", "指派所有角色", "自動指派"]
+            related: [{"href": "features/assign_motion", "label": "動作指派"}]
+            answer: "載入群舞套裝，使所有動作軌道都可用。在動作選單中使用**指派所有角色**，將不同軌道指派給場景中已有的角色。\n\n如果希望DanceXR自動載入角色併為每個角色指派軌道，使用**載入並指派角色**。要手動控制，逐個選取的角色，對所需軌道使用**指派給選取的角色**。\n\n多角色場景需要已啟用的付費版本。"
           - id: "organize-dance-set"
             category: "motion"
             type: "how-to"
-            question: "How do I group music, actor motions and camera motion into a dance set?"
-            keywords: ["dance set", "package", "group music", "camera VMD", "ZIP"]
-            related: [{"href": "preparecontent#motion-files", "label": "Content Library"}]
-            answer: "Create a subfolder or ZIP under `motion/` containing the song, its actor motion files and its camera motion. Keep only one audio file in that package. DanceXR recognizes the related files as a dance set so you can load them together.\n\nFor a simple motion/audio pair, matching filenames such as `dance.vmd` and `dance.ogg` also work. If unrelated files share a folder, separate them into individual packages to make the grouping clear."
+            question: "如何把音樂、角色動作和鏡頭動作組成舞蹈套裝？"
+            keywords: ["dance set", "package", "group music", "camera VMD", "ZIP", "舞蹈套裝", "音樂和動作", "檔案分組", "鏡頭動作"]
+            related: [{"href": "preparecontent#motion-files", "label": "內容庫"}]
+            answer: "在 `motion/` 下建立子資料夾或ZIP，將歌曲、角色動作檔案和鏡頭動作放入其中。每個包中只保留一個音訊檔案。DanceXR會把相關檔案識別為舞蹈套裝，方便一起載入。\n\n對於一組動作和音訊，相同的檔名（例如 `dance.vmd` 和 `dance.ogg`）也可以。如果同一資料夾內包含無關檔案，請將它們分成獨立的包，明確分組關係。"
           - id: "map-xps-fbx-bones"
             category: "motion"
             type: "how-to"
-            question: "How do I make an XPS or FBX model respond to motions?"
-            keywords: ["bone mapping", "XPS", "FBX", "T-pose", "Auto Map", "Chain Mapping"]
-            related: [{"href": "features/bone_mapper", "label": "Bone Mapper"}]
-            answer: "Load the model and open **Bone Mapper** in its actor menu. Run **Auto Map**, then check the slots marked with an exclamation mark: these are critical bones that still need assignments.\n\nMap each missing slot to the corresponding bone in the model. **Chain Mapping** can speed up mapping arms, hands and other bone chains. Once the critical mappings are complete, assign a motion and check the result.\n\nXPS and FBX require bone mapping. PMX models usually already include standard bone names."
+            question: "如何讓XPS或FBX模型播放動作？"
+            keywords: ["bone mapping", "XPS", "FBX", "T-pose", "Auto Map", "Chain Mapping", "骨骼對映", "標準姿勢不動", "自動對映", "鏈式對映"]
+            related: [{"href": "features/bone_mapper", "label": "骨骼映射器"}]
+            answer: "載入模型，在角色選單中開啟**骨骼對映器**。執行**自動對映**，檢查帶感嘆號的槽位：這些是尚未指派、但正常動作所必需的骨骼。\n\n將每個缺失槽位對映到模型中對應的骨骼。**鏈式對映**可以加快手臂、手指等骨骼鏈的設定。完成必要對映後，指派動作並檢查結果。\n\nXPS和FBX需要骨骼對映。PMX模型通常已包含標準骨骼名稱。"
       - title: "環境與燈光"
         items:
           - id: "change-sky-map"
             category: "environment"
             type: "how-to"
-            question: "How do I use my own sky map or HDRI background?"
-            keywords: ["HDRI", "skybox", "panorama", "background", "environment map"]
-            related: [{"href": "features/sky", "label": "Sky"}, {"href": "preparecontent", "label": "Content Library"}]
-            answer: "Put your panoramic sky image in `texture/sky/` inside the content library. HDR is recommended for environment maps. If you added it while DanceXR was running, use **System → Content Library → Refresh Content**.\n\nOpen **Environment → Sky**, set **Mode** to **Sky Map**, and select your image under **Sky Map**. Use **Orientation** if the background needs rotating."
+            question: "如何使用自己的天空貼圖或HDRI背景？"
+            keywords: ["HDRI", "skybox", "panorama", "background", "environment map", "天空貼圖", "環境貼圖", "全景圖", "更換背景", "天空背景"]
+            related: [{"href": "features/sky", "label": "天空"}, {"href": "preparecontent", "label": "內容庫"}]
+            answer: "將全景天空圖片放入內容庫的 `texture/sky/`。環境貼圖推薦使用HDR格式。如果在DanceXR執行時新增了檔案，請使用**系統 → 內容庫 → 重新整理內容**。\n\n開啟**環境 → 天空**，將**模式**設為**天空貼圖**，再在**天空貼圖**中選擇圖片。要旋轉背景，請調整**方向**。"
           - id: "rotate-sky-map"
             category: "environment"
             type: "how-to"
-            question: "How do I rotate the sky background?"
-            keywords: ["sky orientation", "rotate panorama", "skybox"]
-            related: [{"href": "features/sky", "label": "Sky"}, {"href": "features/sky", "label": "Sky"}]
-            answer: "Open **Environment → Sky** and make sure **Mode** is set to **Sky Map**. Adjust **Orientation** to rotate the panorama around the scene.\n\nThis also rotates the sky projection used by the ground sky-dome material, so check the ground and reflections after changing it."
+            question: "如何旋轉天空背景？"
+            keywords: ["sky orientation", "rotate panorama", "skybox", "旋轉天空", "背景方向", "旋轉全景圖", "天空貼圖"]
+            related: [{"href": "features/sky", "label": "天空"}, {"href": "features/sky", "label": "天空"}]
+            answer: "開啟**環境 → 天空**，確認**模式**為**天空貼圖**。調整**方向**，即可讓全景背景繞場景旋轉。\n\n這也會旋轉地面天空穹頂材質所使用的天空投影，因此修改後請檢查地面和反射效果。"
           - id: "adjust-sky-lighting"
             category: "environment"
             type: "how-to"
-            question: "How do I adjust sky brightness and ambient lighting separately?"
-            keywords: ["ambient lighting", "sky exposure", "brightness", "washed out"]
+            question: "如何分別調整天空亮度和環境光？"
+            keywords: ["ambient lighting", "sky exposure", "brightness", "washed out", "天空亮度", "環境光", "曝光", "畫面泛白", "照明"]
             builds: ["HD", "RT", "LW"]
-            related: [{"href": "features/sky", "label": "Sky"}]
-            answer: "Open **Environment → Sky**.\n\nIn HD/RT builds, **Background** controls how bright the visible sky looks, while **Sky Ambient** controls its contribution to scene lighting. Lower Sky Ambient if a bright background is washing out the actor.\n\nIn the lightweight build, use **Sky Exposure** and **Intensity**. Sky Exposure also affects reflection brightness, so check reflective materials as you adjust it."
+            related: [{"href": "features/sky", "label": "天空"}]
+            answer: "開啟**環境 → 天空**。\n\n在HD/RT版本中，**背景**控制可見天空的亮度，**天空環境光**控制天空對場景照明的影響。如果明亮背景使角色的明暗層次變淡，請降低天空環境光。\n\n輕量版使用**天空曝光度**和**強度**。天空曝光度也會影響反射亮度，調整時請同時檢查反光材質。"
           - id: "load-stage"
             category: "environment"
             type: "how-to"
-            question: "How do I load my own stage?"
-            keywords: ["stage", "environment model", "Load Stage", "stages folder"]
-            related: [{"href": "features/stages", "label": "Stages"}]
-            answer: "Place the stage model and its required textures in `stages/` in your content library. Keep the model's folder structure intact, or put the complete package in a ZIP. Actor models tagged **stage** can also appear in the stage menu.\n\nRefresh the library if needed, then open **Scene → Load Stage** and select it. Loading a stage replaces the previous stage. Use the loaded stage's settings to adjust its appearance and placement.\n\nStage and prop models do not play motions. To animate one, keep its files in `actors/`, load it as an actor, and assign a motion. Sky maps are separate and belong in `texture/sky/`."
+            question: "如何載入自己的舞臺？"
+            keywords: ["stage", "environment model", "Load Stage", "stages folder", "載入舞臺", "舞臺模型", "舞臺標籤", "道具動畫"]
+            related: [{"href": "features/stages", "label": "舞台"}]
+            answer: "將舞臺模型和所需貼圖放入內容庫的 `stages/`，保留原有資料夾結構，或將整套資源打包成ZIP。標記為 **stage** 的角色模型也可以顯示在舞臺選單中。\n\n必要時重新整理內容庫，然後開啟**場景 → 載入舞臺**並選擇模型。載入新舞臺會替換舊舞臺。使用已載入舞臺的設定調整外觀和位置。\n\n舞臺和道具模型不能播放動作。要讓它們播放動作，請將檔案放入 `actors/`，作為角色載入，再指派動作。天空貼圖是另一類資源，應放在 `texture/sky/`。"
       - title: "相機與錄製"
         items:
           - id: "hide-ui"
             category: "camera"
             type: "how-to"
-            question: "How do I hide the menus and actor controls?"
-            keywords: ["hide UI", "immersive mode", "menus", "selection discs", "Esc"]
-            related: [{"href": "controls", "label": "Controls & UI"}]
-            answer: "Click empty space to cycle through **UI**, **Control** and **Immersive** modes. Immersive mode hides both the menus and the yellow actor selection discs for a clean view.\n\nYou can also use the assigned **Toggle UI** control; its default desktop key is **Esc**. Click empty space or use Toggle UI again to bring the interface back."
+            question: "如何隱藏選單和角色控制標記？"
+            keywords: ["hide UI", "immersive mode", "menus", "selection discs", "Esc", "隱藏介面", "隱藏選單", "沉浸模式", "選擇圓盤"]
+            related: [{"href": "controls", "label": "操作與介面"}]
+            answer: "點選空白處，在**介面**、**控制**和**沉浸**模式之間切換。沉浸模式會隱藏選單和黃色的角色選擇圓盤，讓畫面保持整潔。\n\n也可以使用已繫結的**切換介面**操作，桌面版預設按鍵為 **Esc**。再次點選空白處或使用切換介面，即可恢復顯示。"
           - id: "use-camera-motion"
             category: "camera"
             type: "how-to"
-            question: "How do I use the camera motion that comes with a dance?"
-            keywords: ["camera VMD", "camera motion", "dance camera", "imported camera"]
-            related: [{"href": "cameras", "label": "Cinematic Cameras"}, {"href": "features/assign_motion", "label": "Assigning Motion"}, {"href": "preparecontent#motion-files", "label": "Content Library"}]
-            answer: "Keep the camera VMD in the same dance-set folder or ZIP as the song and actor motions, then load that dance set.\n\nOpen **Camera** and select the camera motion from the loaded set. Built-in camera modes such as Freefly or Auto are separate choices; select the imported track to follow the dance's authored camera movement.\n\nIf the track is missing, check that its file is in the package you loaded. In VR, this controls the desktop/recording camera; the headset view follows your head."
+            question: "如何使用舞蹈附帶的鏡頭動作？"
+            keywords: ["camera VMD", "camera motion", "dance camera", "imported camera", "鏡頭動作", "相機動作", "鏡頭VMD", "舞蹈鏡頭"]
+            related: [{"href": "cameras", "label": "電影鏡頭"}, {"href": "features/assign_motion", "label": "動作指派"}, {"href": "preparecontent#motion-files", "label": "內容庫"}]
+            answer: "將鏡頭VMD與歌曲、角色動作放在同一個舞蹈套裝資料夾或ZIP中，然後載入該套裝。\n\n開啟**相機**，選擇已載入套裝中的鏡頭動作。Freefly、Auto等內建相機模式是其他選項；要跟隨舞蹈作者設計的鏡頭運動，請選擇匯入的軌道。\n\n如果軌道未出現，請檢查載入的包內是否包含該檔案。在VR中，這控制的是桌面顯示或錄製用的相機；頭戴裝置視角仍跟隨頭部移動。"
           - id: "record-4k"
             category: "camera"
             type: "how-to"
-            question: "How do I record a smooth 4K video?"
-            keywords: ["4K", "offline rendering", "Creator", "60fps", "recording"]
+            question: "如何錄製流暢的4K影片？"
+            keywords: ["4K", "offline rendering", "Creator", "60fps", "recording", "4K錄製", "離線渲染", "影格率", "影片輸出"]
             editions: ["Creator"]
-            related: [{"href": "features/recording_settings", "label": "Recording Settings"}, {"href": "creator", "label": "Creator Edition"}]
-            answer: "Use **Creator Edition** for offline rendering. Open the recording menu (red circle), then **Recording Settings**. Choose **UHD 3840x2160**, the desired **Frame Rate**, and the image format.\n\nPreview the scene to check framing and motion, then start a **2D** recording. DanceXR renders frames at the selected output rate even if playback cannot run that fast in real time.\n\nThe output is an image sequence. Convert it to a video after rendering; See the frame-to-video answer for that step."
+            related: [{"href": "features/recording_settings", "label": "錄製設定"}, {"href": "creator", "label": "Creator創作者版"}]
+            answer: "使用 **Creator Edition** 進行離線渲染。開啟錄製選單（紅色圓圈），進入**錄製設定**，選擇 **UHD 3840x2160**、所需**影格率**和圖片格式。\n\n先預覽場景，檢查構圖和動作，再開始 **2D** 錄製。即使即時播放達不到所選影格率，DanceXR仍會按目標輸出影格率渲染每一幀。\n\n輸出為圖片序列，需要在渲染完成後轉換為影片。具體步驟請參閱圖片序列轉影片的回答。"
           - id: "frames-to-video"
             category: "camera"
             type: "how-to"
-            question: "How do I turn recorded image frames into a video?"
-            keywords: ["FFmpeg", "image sequence", "frames to video", "MP4", "sound.wav"]
+            question: "如何把錄製的圖片幀轉換成影片？"
+            keywords: ["FFmpeg", "image sequence", "frames to video", "MP4", "sound.wav", "圖片序列", "圖片轉影片", "影片轉換", "音訊", "錄製幀"]
             editions: ["Creator"]
-            related: [{"href": "creator", "label": "Creator Edition"}]
-            answer: "Open the folder containing your rendered frames. If FFmpeg is installed and available on your system PATH, use the conversion batch file included with the recording. A video editor that imports image sequences also works.\n\nFor a manual conversion, this example assumes frames named `movie_0000.jpg`, `movie_0001.jpg`, and so on, recorded at 60 fps:\n\n```sh\nffmpeg -framerate 60 -i movie_%04d.jpg -i sound.wav movie.mp4\n```\n\nMatch the frame rate, numbering pattern and extension to your actual output. Omit `-i sound.wav` if you do not want audio."
+            related: [{"href": "creator", "label": "Creator創作者版"}]
+            answer: "開啟渲染幀所在的資料夾。如果已安裝FFmpeg，並且可以透過系統PATH執行它，可以使用錄製附帶的轉換批次處理檔案。也可以使用支援匯入圖片序列的影片編輯軟體。\n\n手動轉換示例：假設以60 fps錄製，檔名為 `movie_0000.jpg`、`movie_0001.jpg` 等。\n\n```sh\nffmpeg -framerate 60 -i movie_%04d.jpg -i sound.wav movie.mp4\n```\n\n請將影格率、編號格式和副檔名改為實際輸出所使用的值。不需要音訊時，省略 `-i sound.wav`。"
           - id: "record-without-creator"
             category: "camera"
             type: "how-to"
-            question: "How do I record a video without Creator Edition?"
-            keywords: ["screen recording", "OBS", "real-time capture", "non-Creator", "portrait", "landscape", "window resolution"]
+            question: "沒有Creator Edition時如何錄製影片？"
+            keywords: ["screen recording", "OBS", "real-time capture", "non-Creator", "portrait", "landscape", "window resolution", "螢幕錄製", "即時錄製", "直向", "橫向", "視窗解析度"]
             platforms: ["Windows", "macOS"]
-            related: [{"href": "features/display_settings", "label": "Display Settings"}, {"href": "controls", "label": "Controls & UI"}]
-            answer: "Use screen-recording software to capture DanceXR while it plays in real time; Creator Edition is not required.\n\n1. Open **System → Display & UI → Resolution** and turn **Fullscreen** off to use a window.\n2. Choose **Window Resolution**. Enable **Vertical** for portrait, or leave it off for landscape.\n3. Click **Apply Resolution**, then frame the scene and hide the UI if you want a clean recording.\n4. In your screen recorder, capture the DanceXR window and its audio, start recording, and play the motion.\n\nRecording smoothness follows your actual playback frame rate. Lower graphics settings or resolution if playback stutters."
+            related: [{"href": "features/display_settings", "label": "顯示設定"}, {"href": "controls", "label": "操作與介面"}]
+            answer: "使用螢幕錄製軟體，即時錄下DanceXR的播放畫面即可，不需要Creator Edition。\n\n1. 開啟**系統 → 顯示與介面 → 解析度**，關閉**全螢幕**，使用視窗模式。\n2. 選擇**視窗解析度**。直向時開啟**垂直**，橫向時關閉。\n3. 點選**套用解析度**，調整構圖；如需乾淨畫面，可以隱藏介面。\n4. 在螢幕錄製軟體中選擇DanceXR視窗及其音訊，開始錄製後播放動作。\n\n錄製流暢度取決於實際播放影格率。如果播放卡頓，請降低畫質設定或解析度。"
       - title: "儲存與分享"
         items:
           - id: "save-scene"
             category: "saving"
             type: "how-to"
-            question: "How do I save and reopen my scene?"
-            keywords: ["save scene", "load scene", "restore setup"]
-            related: [{"href": "features/save_scene", "label": "Save Scene"}]
-            answer: "Arrange the actors, stage, motions, environment and camera, then open **Scene** and use the saved-scene browser's save icon. Enter a name and choose **Save**.\n\nTo reopen the setup, return to the scene browser and select the saved name. A saved scene stores settings and references to content; keep the original models and motions in the library. Use a **Scene Bundle** when you need to transfer the assets too."
+            question: "如何儲存並重新開啟場景？"
+            keywords: ["save scene", "load scene", "restore setup", "儲存場景", "載入場景", "恢復配置", "已儲存場景"]
+            related: [{"href": "features/save_scene", "label": "儲存場景"}]
+            answer: "設定好角色、舞臺、動作、環境和相機後，開啟**場景**，使用已儲存場景瀏覽器中的儲存圖示。輸入名稱並選擇**儲存**。\n\n要恢復配置，返回場景瀏覽器，選擇儲存的名稱。場景儲存的是設定及對資源的引用，請將原始模型和動作保留在內容庫中。如果還需要傳輸資原始檔，請使用**場景包**。"
           - id: "share-scene-bundle"
             category: "saving"
             type: "how-to"
-            question: "How do I transfer a scene together with its models and motions?"
-            keywords: ["scene bundle", "transfer", "share scene", "ZIP", "assets"]
-            related: [{"href": "features/scene_bundle", "label": "Scene Bundle"}]
-            answer: "Use a **Scene Bundle** to package the scene together with its models, stages, props, accessories and dance sets.\n\nLoad and check the scene, open **Scene → Bundle**, and use the save action to give it a name. Wait for **Creating bundle...** to finish, then copy the archive to `bundles/` in the destination content library and open it there.\n\nCheck playback and materials on the destination device. Its build and edition still determine which features are available. The Bundle menu requires an activated paid edition."
+            question: "如何把場景及其模型和動作一起轉移到另一臺裝置？"
+            keywords: ["scene bundle", "transfer", "share scene", "ZIP", "assets", "場景包", "轉移場景", "共享資源", "另一臺裝置"]
+            related: [{"href": "features/scene_bundle", "label": "場景包"}]
+            answer: "使用**場景包**，將場景與模型、舞臺、道具、配件和舞蹈套裝一起打包。\n\n載入並檢查場景，開啟**場景 → 場景包**，使用儲存操作輸入名稱。等待**正在建立場景包...**結束後，將壓縮包複製到目的裝置內容庫的 `bundles/` 中並開啟。\n\n在目的裝置上檢查播放和材質。可用功能仍取決於目的裝置的構建版本和版本等級。場景包選單需要已啟用的付費版本。"
           - id: "save-actor-preset"
             category: "saving"
             type: "how-to"
-            question: "How do I save and reuse an actor’s settings?"
-            keywords: ["actor preset", "save actor settings", "global preset"]
-            related: [{"href": "features/actor_presets", "label": "Actor Presets"}]
-            answer: "Configure the actor, then open its **Presets** menu. Choose **Save Actor Preset** to associate the setup with that model, or **Save Global** to make it available to other actors. Enter a name and save.\n\nTo reuse it, select the actor, open Presets and choose the saved entry. Presets store settings rather than the model file. When applying one to a different model, check bone mapping, material slots and physics because these can differ."
+            question: "如何儲存並重複使用角色設定？"
+            keywords: ["actor preset", "save actor settings", "global preset", "角色預設", "儲存角色設定", "全域性預設", "重複使用"]
+            related: [{"href": "features/actor_presets", "label": "角色預設"}]
+            answer: "配置好角色，開啟其**預設**選單。選擇**儲存角色預設**，將設定與該模型關聯；選擇**儲存為全域性預設**，則可供其他角色使用。輸入名稱並儲存。\n\n使用時，選取的角色，在預設選單中選擇已儲存的條目。預設僅儲存設定，不包含模型檔案。應用到其他模型時，請檢查骨骼對映、材質槽位和物理設定，因為它們可能不同。"
           - id: "save-environment-preset"
             category: "saving"
             type: "how-to"
-            question: "How do I save and reuse my lighting and environment settings?"
-            keywords: ["system preset", "save lighting", "environment settings"]
-            related: [{"href": "features/system_presets", "label": "System Presets"}]
-            answer: "Configure the lighting, sky, ground and other application settings, then open **Environment → System Presets**. Use its save action, enter a name and choose **Save**.\n\nSelect the saved preset from the same menu to apply it later. These presets store settings under `presets/system/` in your library. To restore actors, loaded content and motion assignments too, save a scene."
+            question: "如何儲存並重複使用燈光和環境設定？"
+            keywords: ["system preset", "save lighting", "environment settings", "系統預設", "儲存燈光", "環境設定", "重複使用設定"]
+            related: [{"href": "features/system_presets", "label": "系統預設"}]
+            answer: "調整燈光、天空、地面等應用設定，然後開啟**環境 → 系統預設**。使用儲存操作，輸入名稱並選擇**儲存**。\n\n以後從同一選單中選擇已儲存的預設即可應用。設定儲存在內容庫的 `presets/system/` 中。如果還要恢復角色、已載入資源及動作指派，請儲存場景。"
       - title: "VR 與裝置"
         items:
           - id: "enable-vr"
             category: "vr"
             type: "how-to"
-            question: "How do I start DanceXR in VR?"
-            keywords: ["VR", "OpenXR", "headset", "SteamVR", "Meta"]
-            related: [{"href": "vr_operations", "label": "VR Operations"}, {"href": "faq", "label": "FAQ"}]
-            answer: "On PC, connect your headset and start its VR software. Make sure the runtime you use, such as SteamVR or Meta, is the active **OpenXR** runtime.\n\nLaunch a VR-capable DanceXR build, open **Environment**, and enable **VR**. On a standalone Quest, launch the installed Quest build from the headset.\n\nIf VR does not start, check the active runtime and follow the VR startup troubleshooting answer."
+            question: "如何在VR中啟動DanceXR？"
+            keywords: ["VR", "OpenXR", "headset", "SteamVR", "Meta", "啟動VR", "頭戴裝置", "執行時", "虛擬現實"]
+            related: [{"href": "vr_operations", "label": "VR操作"}, {"href": "faq", "label": "常見問題"}]
+            answer: "在PC上，連線頭戴裝置並啟動VR軟體。確認正在使用的執行時（如SteamVR或Meta）已被設定為當前 **OpenXR** 執行時。\n\n啟動支援VR的DanceXR構建版本，開啟**環境**並開啟 **VR**。使用獨立Quest時，從頭戴裝置中啟動已安裝的Quest版本。\n\n如果VR未啟動，請檢查當前執行時，並參閱VR啟動故障排查的回答。"
           - id: "android-quest-library"
             category: "vr"
             type: "how-to"
-            question: "How do I add content on Android or Meta Quest?"
-            keywords: ["Android", "Meta Quest", "storage permission", "content library", "Quest", "File Transfer", "storage"]
-            related: [{"href": "content_android_quest", "label": "Content Library For Android & Quest"}]
-            answer: "Grant DanceXR the storage permission needed to use the shared `/DanceXR/` folder. Put models in `actors/`, motions and audio in `motion/`, and other content in the corresponding library subfolders.\n\nYou can use the device's Files app, or connect it to a PC by USB and choose **File Transfer**. The Android **Content Manager** app can also add supported ZIP and image files to the library.\n\nFor older installations or internal-storage mode, use `/Android/data/com.vrstormlab.dancexr/files/`. Restart DanceXR or use **Refresh Content** after copying."
+            question: "如何在Android或Meta Quest上新增內容？"
+            keywords: ["Android", "Meta Quest", "storage permission", "content library", "Quest", "File Transfer", "storage", "Android內容", "Quest內容庫", "檔案傳輸", "儲存許可權"]
+            related: [{"href": "content_android_quest", "label": "Android與Quest內容庫"}]
+            answer: "授予DanceXR使用共享 `/DanceXR/` 資料夾所需的儲存許可權。模型放入 `actors/`，動作和音訊放入 `motion/`，其他資源放入對應的內容庫子資料夾。\n\n可以使用裝置上的“檔案”應用，或透過USB連線PC並選擇**檔案傳輸**。Android的**內容管理器**應用也能將支援的ZIP和圖片檔案新增到內容庫。\n\n舊版本或內部儲存模式使用 `/Android/data/com.vrstormlab.dancexr/files/`。複製後重新啟動DanceXR，或執行**重新整理內容**。"
           - id: "start-mobile-ar"
             category: "vr"
             type: "how-to"
-            question: "How do I start AR on a supported Android or iOS device?"
-            keywords: ["AR", "augmented reality", "Android", "iOS", "camera", "mobile"]
+            question: "如何在支援AR的Android或iOS裝置上啟動AR？"
+            keywords: ["AR", "augmented reality", "Android", "iOS", "camera", "mobile", "啟動AR", "擴增實境", "相機背景", "移動裝置", "裝置支援"]
             platforms: ["Android", "iOS"]
             editions: ["Pro"]
-            related: [{"href": "features/ar_mode", "label": "AR Settings"}]
-            answer: "On a supported Android or iOS device, launch DanceXR, open **Environment**, and select **AR** to start it. Allow camera access if your device asks, then wait for AR to initialize.\n\nUse **Show Camera** in AR settings to show the real-world background. Enable **Hide Ground** if you want the actors to appear directly on your physical floor. Use **Stop AR** to return to normal mode.\n\nAR requires an activated Pro edition and a compatible device/build. If the AR option is missing, check both device support and activation. Quest passthrough is covered separately."
+            related: [{"href": "features/ar_mode", "label": "AR設定"}]
+            answer: "在支援的Android或iOS裝置上啟動DanceXR，開啟**環境**，選擇 **AR**。如果裝置請求相機許可權，請允許訪問，然後等待AR初始化。\n\n在AR設定中使用**顯示相機**來顯示真實環境背景。若希望角色看起來直接站在實際地板上，啟用**隱藏地面**。使用**停止AR**返回普通模式。\n\nAR需要已啟用的Pro版本及相容的裝置／構建版本。如果沒有AR選項，請同時檢查裝置支援情況和啟用狀態。Quest穿透顯示功能另有說明。"
       - title: "疑難排解與授權"
         items:
           - id: "white-model"
             category: "help"
             type: "troubleshooting"
-            question: "How do I fix a model that appears completely white?"
-            keywords: ["missing textures", "white model", "ZIP encoding", "jis932", "gb2312"]
-            related: [{"href": "features/zip_format", "label": "ZIP format"}, {"href": "preparecontent", "label": "Content Library"}, {"href": "faq", "label": "FAQ"}]
-            answer: "A completely white model usually means its texture files could not be found. Keep the textures in their original locations relative to the model file.\n\nFor ZIP packages containing Japanese or Chinese filenames, try the matching encoding suffix: `model.jis932.zip` for Japanese or `model.gb2312.zip` for Chinese. Reload the model after renaming the archive. Android's Content Manager can set this encoding too.\n\nIf it is still white, inspect the model's texture references and check that filenames, folder paths and spaces match the actual files."
+            question: "如何修復顯示為全白的模型？"
+            keywords: ["missing textures", "white model", "ZIP encoding", "jis932", "gb2312", "白色模型", "缺失貼圖", "ZIP編碼", "檔名亂碼"]
+            related: [{"href": "features/zip_format", "label": "ZIP格式"}, {"href": "preparecontent", "label": "內容庫"}, {"href": "faq", "label": "常見問題"}]
+            answer: "模型全白通常表示無法找到貼圖檔案。請保持貼圖相對於模型檔案的原始位置。\n\n如果ZIP內包含日文或中文檔名，可以新增對應編碼字尾：日文使用 `model.jis932.zip`，中文使用 `model.gb2312.zip`。重新命名壓縮包後重新載入模型。Android的內容管理器也可以設定此編碼。\n\n如果仍然全白，請檢查模型的貼圖引用，確認檔名、資料夾路徑和空格與實際檔案完全一致。"
           - id: "transparent-hair"
             category: "help"
             type: "troubleshooting"
-            question: "How do I fix hair that looks see-through?"
-            keywords: ["hair", "see-through", "transparency", "depth prepass", "transparent hair", "sorting"]
+            question: "如何修復頭髮看起來透明的問題？"
+            keywords: ["hair", "see-through", "transparency", "depth prepass", "transparent hair", "sorting", "頭髮透明", "透明度", "深度預處理", "透明層", "渲染順序"]
             builds: ["HD", "RT"]
-            related: [{"href": "features/transparency", "label": "Transparent Materials"}, {"href": "faq", "label": "FAQ"}]
-            answer: "In HD/RT builds, layered transparent hair can lose its deeper layers because of the transparent depth prepass.\n\nTry turning off **System → Graphics → Options → Transparent Prepass** and compare the result. For a smaller change, adjust Transparent Prepass on the affected hair materials only.\n\nDisabling it can reveal other transparency sorting problems, so inspect the hair from several angles and keep the setting that gives the best result for that model."
+            related: [{"href": "features/transparency", "label": "透明材質"}, {"href": "faq", "label": "常見問題"}]
+            answer: "在HD/RT版本中，透明深度預處理可能使多層透明頭髮的內層消失。\n\n嘗試關閉**系統 → 圖形 → 選項 → 透明預處理**並比較結果。若希望只修改區域性，可以僅調整受影響的頭髮材質的透明預處理。\n\n關閉後可能出現其他透明排序問題。請從多個角度檢查，選擇最適合該模型的設定。"
           - id: "vr-will-not-start"
             category: "help"
             type: "troubleshooting"
-            question: "How do I fix VR when it will not start?"
-            keywords: ["OpenXR", "SteamVR", "Oculus", "VR launch", "VR startup", "Meta"]
-            related: [{"href": "troubleshooting", "label": "Troubleshooting"}, {"href": "faq", "label": "FAQ"}]
-            answer: "Make sure your VR software is running and the runtime for your headset is set as the active **OpenXR** runtime. If several runtimes are installed, select the one you intend to use in its own settings, then restart the runtime and DanceXR.\n\nTry enabling **Environment → VR** again. If startup still fails, disable unnecessary VR overlays or add-ons and check DanceXR's `Player.log` for the error. Include the log, app build and headset/runtime details when reporting the problem."
+            question: "VR無法啟動時該怎麼辦？"
+            keywords: ["OpenXR", "SteamVR", "Oculus", "VR launch", "VR startup", "Meta", "VR無法啟動", "VR啟動錯誤", "執行時", "疊加層"]
+            related: [{"href": "troubleshooting", "label": "疑難排解"}, {"href": "faq", "label": "常見問題"}]
+            answer: "確認VR軟體正在執行，頭戴裝置所用的執行時已設為當前 **OpenXR** 執行時。如果安裝了多個執行時，請在所選執行時的設定中將其啟用，再重新啟動該執行時和DanceXR。\n\n再次嘗試開啟**環境 → VR**。如果仍然失敗，請禁用不必要的VR疊加層或外掛，並檢視DanceXR的 `Player.log` 中的錯誤。報告問題時，請附上日誌、應用構建版本、頭戴裝置和執行時資訊。"
           - id: "reactivate-license"
             category: "help"
             type: "how-to"
-            question: "How do I activate or reactivate my copy?"
-            keywords: ["activation", "license", "hardware change", "activate", "reactivate", "purchase", "entitlement"]
-            related: [{"href": "activation", "label": "Activation & Licensing"}]
-            answer: "Steam and Google Play editions normally activate automatically when the store verifies your purchase.\n\nFor editions requiring manual activation, open **System → Activate Your Copy**. Follow the browser prompts, choose the platform you purchased from and sign in there. After the success page appears, return to DanceXR and click **Activate Your Copy** again to retrieve the license.\n\nIf the device has already been activated, DanceXR may restore the license without opening a browser. Reactivating after reinstalling, changing hardware or switching build variants does not charge you again."
+            question: "如何啟用或重新啟用我的版本？"
+            keywords: ["activation", "license", "hardware change", "activate", "reactivate", "purchase", "entitlement", "啟用", "重新啟用", "購買驗證", "授權恢復"]
+            related: [{"href": "activation", "label": "啟用與授權"}]
+            answer: "Steam和Google Play版本通常會在商店驗證購買後自動啟用。\n\n需要手動啟用的版本，請開啟**系統 → 啟用您的副本**。按照瀏覽器提示，選擇購買平臺並登入。成功頁面出現後，返回DanceXR，再次點選**啟用您的副本**以獲取授權。\n\n如果該裝置之前已啟用，DanceXR可能無需開啟瀏覽器即可還原授權。重新安裝、更換硬體或切換構建版本後再次啟用，不會額外收費。"
   - id: "faq"
     label: "常見問題"
     title: "常見問題解答 (FAQ)"

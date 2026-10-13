@@ -67,11 +67,26 @@ const base = process.env.SUPPORT_BASE_URL || "http://localhost:4000";
     await page.setViewportSize({ width: 390, height: 844 });
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), true, "mobile page must not overflow");
 
+    const localeQueries = { jp: "拡張現実", zh: "增强现实", tw: "擴增實境", kr: "증강 현실" };
+    const localeScripts = { jp: /[ぁ-んァ-ヶ一-龥]/, zh: /[一-龥]/, tw: /[一-龥]/, kr: /[가-힣]/ };
+    const englishQuestions = await page.locator(".support-question").allTextContents();
     for (const locale of ["jp", "zh", "tw", "kr"]) {
       await page.goto(`${base}/${locale}/dancexr/support.html`);
       await page.waitForSelector(".support-controls:visible");
       assert.equal(await visible().count(), 39);
-      assert.equal(await page.locator("#support-change-sky-map .support-question").textContent(), "How do I use my own sky map or HDRI background?");
+      const questions = await page.locator(".support-question").allTextContents();
+      const answers = await page.locator(".support-answer-content").allTextContents();
+      questions.forEach(question => {
+        assert.ok(localeScripts[locale].test(question), `${locale}: question must use the local language`);
+        assert.ok(!englishQuestions.includes(question), `${locale}: English fallback question`);
+      });
+      answers.forEach(answer => assert.ok(localeScripts[locale].test(answer), `${locale}: answer must use the local language`));
+      const guideLabels = await page.locator(".support-answer > ul a").allTextContents();
+      guideLabels.forEach(label => assert.ok(localeScripts[locale].test(label), `${locale}: guide label must use the local language`));
+      await page.locator("#supportSearch").fill(localeQueries[locale]);
+      assert.equal(await visible().count(), 1, `${locale}: local-language alias search`);
+      assert.equal(await visible().first().getAttribute("id"), "support-start-mobile-ar");
+      await page.locator(".support-reset").click();
       assert.notEqual(await page.locator('label[for="supportSearch"]').textContent(), "Find an answer");
       await page.locator("#supportSearch").fill("Player.log");
       assert.ok(await visible().count() > 0);
@@ -79,6 +94,20 @@ const base = process.env.SUPPORT_BASE_URL || "http://localhost:4000";
       assert.equal(await visible().count(), 39);
     }
     assert.deepEqual(errors, [], "all language pages should run without JavaScript errors");
+
+    // Direct localized links must remain localized on the first visit, even in an English browser.
+    for (const locale of ["jp", "zh", "tw", "kr"]) {
+      const fresh = await browser.newContext({ locale: "en-US" });
+      await fresh.route("**/*", route => new URL(route.request().url()).origin === new URL(base).origin
+        ? route.continue() : route.abort());
+      const direct = await fresh.newPage();
+      await direct.goto(`${base}/${locale}/dancexr/support.html#support-change-sky-map`);
+      await direct.waitForSelector("#support-change-sky-map[open]");
+      assert.ok(new URL(direct.url()).pathname.startsWith(`/${locale}/`), `${locale}: explicit locale must not redirect to English`);
+      assert.ok(localeScripts[locale].test(await direct.locator("#support-change-sky-map .support-question").textContent()));
+      assert.equal(await direct.evaluate(() => localStorage.getItem("dvvr-lang")), locale);
+      await fresh.close();
+    }
 
     const noJs = await browser.newContext({ javaScriptEnabled: false });
     const fallback = await noJs.newPage();

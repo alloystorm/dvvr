@@ -14,9 +14,11 @@ If a draft has a `replaces` field, update that existing entry while retaining it
 public ID, rather than adding a duplicate answer. `review_id`, `source`,
 `answer_notes`, `review_notes`, `code_sources`, `batch` and `replaces` are editorial
 metadata and do not need to be copied into the published catalogue.
-New or changed English answers use the English fallback on localized pages until
-translated. Remove stale question/answer translations when changing an answer;
-unchanged legacy translations can remain. Updated entries retain their public IDs.
+The catalogue's `required_locales` requires Japanese, Simplified Chinese,
+Traditional Chinese and Korean questions and answers before publication.
+Generation rejects missing translations or English text copied into a translation
+field. Keep new entries as drafts until their translations are complete. Updated
+entries retain their public IDs.
 
 Each entry needs:
 
@@ -29,7 +31,8 @@ Each entry needs:
 Optional fields:
 
 - `question_locales`, `answer_locales`, `keywords_locales`: translations keyed
-  by `jp`, `zh`, `tw` and `kr`. Missing question/answer translations fall back to English.
+  by `jp`, `zh`, `tw` and `kr`. Question/answer translations are required for
+  published entries when their locale appears in `required_locales`.
   Locale keywords are added to the shared keywords.
 - `platforms`, `builds`, `editions`, `versions`: lists shown as applicability notes.
 - `related`: a list of `{ "href": "features/sky", "label": "Sky guide" }`

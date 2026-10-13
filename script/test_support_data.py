@@ -1,6 +1,8 @@
 """Support publishing rules and multilingual serialization checks."""
 import copy
 import json
+import re
+from collections import Counter
 from pathlib import Path
 import tempfile
 import unittest
@@ -26,6 +28,32 @@ class SupportDataTests(unittest.TestCase):
             for before, after in zip(original, output):
                 self.assertEqual(after['answer'], before.get('answer_locales', {}).get(locale) or before['answer'])
                 self.assertEqual(after['id'], before['id'])
+
+    def test_every_published_entry_has_real_translations_and_preserves_literals(self):
+        self.assertEqual(set(self.data['required_locales']), {'jp', 'zh', 'tw', 'kr'})
+        _, sections = prepare_support(self.data)
+        patterns = {'jp': r'[ぁ-んァ-ヶ一-龥]', 'zh': r'[一-龥]', 'tw': r'[一-龥]', 'kr': r'[가-힣]'}
+        literals = lambda text: Counter(re.findall(r'```[\s\S]*?```|`[^`\n]+`', text))
+        for section in sections:
+            for sub in section['subsections']:
+                for item in sub['items']:
+                    for locale, pattern in patterns.items():
+                        with self.subTest(id=item['id'], locale=locale):
+                            for field in ('question', 'answer'):
+                                translated = item[field + '_locales'][locale]
+                                self.assertNotEqual(translated, item[field])
+                                self.assertRegex(translated, pattern)
+                            self.assertEqual(literals(item['answer_locales'][locale]), literals(item['answer']))
+                            for link in item.get('related', []):
+                                self.assertRegex(link['label_locales'][locale], pattern)
+
+    def test_missing_published_translation_blocks_generation(self):
+        for field in ('question', 'answer'):
+            data = copy.deepcopy(self.data)
+            item = data['sections'][0]['subsections'][0]['items'][0]
+            item[field + '_locales'].pop('kr')
+            with self.subTest(field=field), self.assertRaisesRegex(ValueError, 'Missing kr'):
+                prepare_support(data)
 
     def test_unanswered_draft_omitted_and_empty_groups_removed(self):
         self.data['sections'].append({'id': 'drafts', 'subsections': [{'items': [{'status': 'draft'}]}]})

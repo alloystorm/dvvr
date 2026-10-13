@@ -7,6 +7,7 @@ import re
 def prepare_support(data):
     data = copy.deepcopy(data)
     categories = data.get('categories', [])
+    required_locales = data.get('required_locales', [])
     category_ids = [category['id'] for category in categories]
     if len(set(category_ids)) != len(category_ids):
         raise ValueError('Duplicate support category ID')
@@ -33,6 +34,11 @@ def prepare_support(data):
                     raise ValueError(f'Invalid answer type for {identifier}')
                 if not item.get('question', '').strip() or not item.get('answer', '').strip():
                     raise ValueError(f'Published entry needs a question and answer: {identifier}')
+                for locale in required_locales:
+                    for field in ('question', 'answer'):
+                        translated = item.get(field + '_locales', {}).get(locale, '')
+                        if not translated.strip() or translated == item[field]:
+                            raise ValueError(f'Missing {locale} {field} translation: {identifier}')
                 items.append(item)
             if items:
                 sub['items'] = items

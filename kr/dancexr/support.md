@@ -34,248 +34,248 @@ support_sections:
           - id: "find-content-library"
             category: "content"
             type: "how-to"
-            question: "How do I find my content library?"
-            keywords: ["content library", "folder", "Explorer", "storage"]
-            related: [{"href": "preparecontent", "label": "Content Library"}]
-            answer: "Open the **System** menu (gear icon), then **Content Library → Show In Explorer** on Windows to open the library folder.\n\nOn Android and Meta Quest, the shared library is normally at `/DanceXR/`. Older installations or those using internal storage use `/Android/data/com.vrstormlab.dancexr/files/`. On iPhone and iPad, open the Files app and look for the DanceXR folder under **On My iPhone** or **On My iPad**."
+            question: "콘텐츠 라이브러리는 어디에 있나요?"
+            keywords: ["content library", "folder", "Explorer", "storage", "콘텐츠 라이브러리", "폴더", "저장 위치", "저장소"]
+            related: [{"href": "preparecontent", "label": "콘텐츠 라이브러리"}]
+            answer: "Windows에서는 **시스템** 메뉴(톱니바퀴 아이콘)를 열고 **콘텐츠 라이브러리 → 탐색기에서 보기**를 선택하면 라이브러리 폴더가 열립니다.\n\nAndroid와 Meta Quest의 공유 라이브러리는 보통 `/DanceXR/`에 있습니다. 이전 버전이나 내부 저장소를 사용하는 경우에는 `/Android/data/com.vrstormlab.dancexr/files/`를 사용합니다. iPhone과 iPad에서는 파일 앱의 **나의 iPhone** 또는 **나의 iPad**에서 DanceXR 폴더를 찾으세요."
           - id: "add-models"
             category: "content"
             type: "how-to"
-            question: "How do I add my own models?"
-            keywords: ["import model", "PMX", "XPS", "FBX", "ZIP", "drag and drop"]
-            related: [{"href": "getting-started", "label": "Getting Started"}]
-            answer: "Copy the model and its textures into `actors/` in your content library, keeping their original folder structure. You can also keep each model package in its own ZIP file.\n\nOpen the **Actor** menu, choose **Load Model**, and select the model. On desktop, you can drag a model file or model ZIP directly onto the DanceXR window.\n\nPMX and XPS are supported. FBX model loading is in preview; embedded FBX animations are not loaded."
+            question: "내 모델을 추가하려면 어떻게 하나요?"
+            keywords: ["import model", "PMX", "XPS", "FBX", "ZIP", "drag and drop", "모델 추가", "모델 불러오기", "끌어 놓기", "텍스처"]
+            related: [{"href": "getting-started", "label": "시작하기"}]
+            answer: "모델과 텍스처를 원래 폴더 구조를 유지한 채 콘텐츠 라이브러리의 `actors/`에 복사하세요. 모델별로 필요한 파일을 하나의 ZIP으로 묶어도 됩니다.\n\n**액터** 메뉴에서 **모델 불러오기**를 선택하고 원하는 모델을 고르세요. 데스크톱에서는 모델 파일이나 모델 ZIP을 DanceXR 창으로 끌어 놓을 수도 있습니다.\n\nPMX와 XPS를 지원합니다. FBX 모델 로딩은 미리보기 기능이며, FBX에 포함된 애니메이션은 불러오지 않습니다."
           - id: "add-motions-and-music"
             category: "content"
             type: "how-to"
-            question: "How do I add motions and music?"
-            keywords: ["VMD", "BVH", "audio", "music", "WAV", "OGG", "load motion"]
-            related: [{"href": "preparecontent#motion-files", "label": "Content Library"}]
-            answer: "Put your VMD or BVH motion files and their audio into `motion/` in the content library. WAV and OGG audio work for dance sets.\n\nOpen the **Audio/Motion** menu and choose **Load Audio / Motion** to select them. On desktop, you can also drag files onto the DanceXR window.\n\nTo have the music and motion load together, keep one song and its related motions in the same subfolder or ZIP. For a single motion/audio pair, matching names such as `dance.vmd` and `dance.ogg` also work."
+            question: "모션과 음악을 추가하려면 어떻게 하나요?"
+            keywords: ["VMD", "BVH", "audio", "music", "WAV", "OGG", "load motion", "모션 추가", "음악 추가", "오디오", "댄스 세트"]
+            related: [{"href": "preparecontent#motion-files", "label": "콘텐츠 라이브러리"}]
+            answer: "VMD 또는 BVH 모션 파일과 오디오를 콘텐츠 라이브러리의 `motion/`에 넣으세요. 댄스 세트에는 WAV 또는 OGG 오디오를 사용할 수 있습니다.\n\n**오디오/모션** 메뉴에서 **오디오/모션 불러오기**를 선택하세요. 데스크톱에서는 파일을 DanceXR 창으로 끌어 놓을 수도 있습니다.\n\n음악과 모션을 함께 불러오려면 한 곡의 오디오와 관련 모션을 같은 하위 폴더나 ZIP에 넣으세요. 모션과 오디오가 한 쌍이면 `dance.vmd`와 `dance.ogg`처럼 파일 이름을 맞춰도 됩니다."
           - id: "refresh-content-library"
             category: "content"
             type: "how-to"
-            question: "How do I make newly added files appear in the library?"
-            keywords: ["refresh", "rescan", "missing files", "new content"]
-            related: [{"href": "preparecontent", "label": "Content Library"}]
-            answer: "Open **System → Content Library → Refresh Content** and wait for the scan to finish. Use this after copying or moving files while DanceXR is running.\n\nThe app also checks for library changes when it starts. If a file still does not appear, make sure it is in the correct subfolder: `actors/` for models, `motion/` for motions and audio, `stages/` for stages, or `texture/sky/` for sky maps."
+            question: "새로 추가한 파일이 라이브러리에 보이게 하려면 어떻게 하나요?"
+            keywords: ["refresh", "rescan", "missing files", "new content", "라이브러리 새로 고침", "다시 검색", "파일이 안 보임", "새 콘텐츠"]
+            related: [{"href": "preparecontent", "label": "콘텐츠 라이브러리"}]
+            answer: "**시스템 → 콘텐츠 라이브러리 → 콘텐츠 새로 고침**을 선택하고 검색이 끝날 때까지 기다리세요. DanceXR 실행 중에 파일을 복사하거나 옮긴 뒤 사용하면 됩니다.\n\n앱을 시작할 때도 라이브러리 변경 사항을 확인합니다. 파일이 여전히 보이지 않으면 올바른 하위 폴더에 있는지 확인하세요. 모델은 `actors/`, 모션과 오디오는 `motion/`, 스테이지는 `stages/`, 스카이 맵은 `texture/sky/`에 넣어야 합니다."
       - title: "액터 및 외형"
         items:
           - id: "add-another-actor"
             category: "actors"
             type: "how-to"
-            question: "How do I add another actor without replacing the current one?"
-            keywords: ["multiple actors", "add character", "replace model", "plus"]
-            related: [{"href": "getting-started", "label": "Getting Started"}]
-            answer: "Open **Actor → Load Model**, then click the **+** icon next to the model you want to add. Selecting the model normally replaces the currently selected actor; the + action keeps that actor and adds another.\n\nMultiple actors require an activated paid edition. If the + action is unavailable, check your edition and activation status."
+            question: "현재 액터를 바꾸지 않고 다른 액터를 추가하려면 어떻게 하나요?"
+            keywords: ["multiple actors", "add character", "replace model", "plus", "액터 추가", "여러 액터", "모델 교체", "유료 버전"]
+            related: [{"href": "getting-started", "label": "시작하기"}]
+            answer: "**액터 → 모델 불러오기**를 열고 추가할 모델 옆의 **+** 아이콘을 클릭하세요. 모델을 일반적으로 선택하면 현재 선택된 액터가 바뀌지만, +를 사용하면 기존 액터를 유지하면서 새 액터를 추가합니다.\n\n여러 액터를 사용하려면 활성화된 유료 버전이 필요합니다. +를 사용할 수 없다면 에디션과 활성화 상태를 확인하세요."
           - id: "move-and-rotate-actor"
             category: "actors"
             type: "how-to"
-            question: "How do I move, rotate or resize an actor?"
-            keywords: ["scale", "resize", "position", "move", "rotate", "selection disc"]
-            related: [{"href": "actors", "label": "Working with Actors"}, {"href": "features/scale_offset", "label": "Scale & Offset"}, {"href": "controls", "label": "Controls & UI"}]
-            answer: "Drag the yellow selection disc under the actor to move it. While dragging, use the mouse wheel to rotate it; in VR, use the controller thumbstick left or right.\n\nFor precise adjustments, open the actor's **Scale & Offset** settings. Use **Model Scale** to resize, **Rotation** to turn, **Offset X/Z** to move horizontally, and **Ground Offset** to move vertically. Turn off **Uniform Height** if you want to preserve the model's original size."
+            question: "액터를 이동하거나 회전하고 크기를 바꾸려면 어떻게 하나요?"
+            keywords: ["scale", "resize", "position", "move", "rotate", "selection disc", "이동", "회전", "크기 조절", "확대 축소", "선택 디스크"]
+            related: [{"href": "actors", "label": "액터 사용하기"}, {"href": "features/scale_offset", "label": "크기 및 오프셋"}, {"href": "controls", "label": "조작 및 UI"}]
+            answer: "액터 발밑의 노란색 선택 디스크를 끌면 액터가 이동합니다. 끄는 동안 마우스 휠로 회전할 수 있고, VR에서는 컨트롤러 스틱을 좌우로 움직이면 됩니다.\n\n정밀하게 조정하려면 액터의 **크기 및 오프셋** 설정을 여세요. **모델 크기**로 크기, **회전**으로 방향, **오프셋 X/Z**로 수평 위치, **지면 오프셋**으로 높이를 조정합니다. 모델의 원래 크기를 유지하려면 **높이 통일**을 끄세요."
           - id: "change-model-textures"
             category: "actors"
             type: "how-to"
-            question: "How do I change a model’s textures?"
-            keywords: ["alternative textures", "replace texture", "skin", "base.png"]
-            related: [{"href": "features/alternative_textures", "label": "Alternative Textures"}]
-            answer: "For an alternative texture set, keep the replacement textures in a separate subfolder inside the model's folder, or anywhere inside the same model ZIP. Each replacement must have the same filename as the texture it replaces.\n\nFor example, if the model uses `base.png`, put another `base.png` in an `alternate/` subfolder. Reload the model, open **Alternative Textures** in its actor menu, and select the set that DanceXR detects. Keep the alternatives inside the model package so the scan can find them."
+            question: "모델의 텍스처를 바꾸려면 어떻게 하나요?"
+            keywords: ["alternative textures", "replace texture", "skin", "base.png", "텍스처 변경", "대체 텍스처", "모델 외형", "텍스처 교체"]
+            related: [{"href": "features/alternative_textures", "label": "대체 텍스처"}]
+            answer: "대체 텍스처를 모델 폴더 안의 별도 하위 폴더에 넣거나, 같은 모델 ZIP 안에 넣으세요. 대체 파일은 바꾸려는 원본 텍스처와 이름이 같아야 합니다.\n\n예를 들어 모델이 `base.png`를 사용한다면 `alternate/` 하위 폴더에 다른 `base.png`를 넣으세요. 모델을 다시 불러온 다음 액터 메뉴의 **대체 텍스처**에서 DanceXR이 찾은 세트를 선택하세요. 검색할 수 있도록 대체 파일도 모델 패키지 안에 두어야 합니다."
           - id: "attach-hand-prop"
             category: "actors"
             type: "how-to"
-            question: "How do I attach a prop to an actor’s hand?"
-            keywords: ["accessory", "prop", "hand", "grab pose", "attachment"]
-            related: [{"href": "features/accessory", "label": "Accessory"}]
-            answer: "Put the prop model and its textures in `accessory/` in your content library and refresh the library if needed.\n\nSelect the actor and open **Accessory**. Enable **Left Hand** or **Right Hand**, then choose the prop under **Model**. Adjust **Size & Alignment**, **Rotation** and **Offset** until it fits the hand. Use **Grab Pose** to adjust the grip where available.\n\nThis requires an edition with the Accessory feature."
+            question: "액터의 손에 소품을 붙이려면 어떻게 하나요?"
+            keywords: ["accessory", "prop", "hand", "grab pose", "attachment", "손에 소품", "액세서리", "소품 부착", "잡기 포즈"]
+            related: [{"href": "features/accessory", "label": "액세서리"}]
+            answer: "소품 모델과 텍스처를 콘텐츠 라이브러리의 `accessory/`에 넣고, 필요한 경우 라이브러리를 새로 고치세요.\n\n액터를 선택하고 **액세서리**를 여세요. **왼손** 또는 **오른손**을 켠 다음 **모델**에서 소품을 선택하세요. **크기 및 정렬**, **회전**, **오프셋**으로 손에 맞추세요. 제공되는 경우 **잡기 포즈**로 손의 쥐는 모양도 조정할 수 있습니다.\n\n액세서리 기능을 지원하는 에디션이 필요합니다."
       - title: "모션 및 재생"
         items:
           - id: "assign-motion"
             category: "motion"
             type: "how-to"
-            question: "How do I assign a motion to an actor?"
-            keywords: ["assign motion", "animation", "selected actor", "dance"]
-            related: [{"href": "features/assign_motion", "label": "Assigning Motion"}]
-            answer: "Load the motion from the **Audio/Motion** menu, then select the actor you want to animate.\n\nChoose the motion and use **Assign To Selected**. You can also open the actor's menu and select the loaded motion from its motion list. Use **Assign To All** when every actor should perform the same motion.\n\nIf an XPS or FBX actor stays in its standard pose, check its **Bone Mapper** assignments."
+            question: "액터에 모션을 할당하려면 어떻게 하나요?"
+            keywords: ["assign motion", "animation", "selected actor", "dance", "모션 할당", "애니메이션", "선택한 액터", "댄스"]
+            related: [{"href": "features/assign_motion", "label": "모션 할당"}]
+            answer: "**오디오/모션** 메뉴에서 모션을 불러온 다음 움직일 액터를 선택하세요.\n\n모션을 선택하고 **선택한 액터에 할당**을 사용하세요. 액터 메뉴의 모션 목록에서 불러온 모션을 고를 수도 있습니다. 모든 액터가 같은 동작을 하게 하려면 **모든 액터에 할당**을 사용하세요.\n\nXPS나 FBX 액터가 기본 포즈에서 움직이지 않으면 **본 매퍼**의 할당을 확인하세요."
           - id: "assign-group-dance"
             category: "motion"
             type: "how-to"
-            question: "How do I assign different dance tracks to multiple actors?"
-            keywords: ["group dance", "multiple tracks", "assign all actors"]
-            related: [{"href": "features/assign_motion", "label": "Assigning Motion"}]
-            answer: "Load the group dance set so all of its motion tracks are available. From the motion menu, use **Assign All Actors** to distribute different tracks across the actors already in the scene.\n\nUse **Load And Assign Actors** if you want DanceXR to load actors and assign a track to each automatically. For manual control, select each actor and use **Assign To Selected** on the desired track.\n\nA scene with multiple actors requires an activated paid edition."
+            question: "여러 액터에 서로 다른 댄스 트랙을 할당하려면 어떻게 하나요?"
+            keywords: ["group dance", "multiple tracks", "assign all actors", "그룹 댄스", "여러 트랙", "모든 액터 할당", "자동 할당"]
+            related: [{"href": "features/assign_motion", "label": "모션 할당"}]
+            answer: "그룹 댄스 세트를 불러와 모든 모션 트랙을 사용할 수 있게 하세요. 모션 메뉴의 **모든 액터 할당**을 사용하면 장면에 있는 액터들에게 서로 다른 트랙을 배분합니다.\n\nDanceXR이 액터를 불러오고 각 트랙까지 자동으로 할당하게 하려면 **액터 불러오기 및 할당**을 사용하세요. 직접 정하려면 액터를 하나씩 선택한 뒤 원하는 트랙에서 **선택한 액터에 할당**을 사용하세요.\n\n여러 액터가 있는 장면에는 활성화된 유료 버전이 필요합니다."
           - id: "organize-dance-set"
             category: "motion"
             type: "how-to"
-            question: "How do I group music, actor motions and camera motion into a dance set?"
-            keywords: ["dance set", "package", "group music", "camera VMD", "ZIP"]
-            related: [{"href": "preparecontent#motion-files", "label": "Content Library"}]
-            answer: "Create a subfolder or ZIP under `motion/` containing the song, its actor motion files and its camera motion. Keep only one audio file in that package. DanceXR recognizes the related files as a dance set so you can load them together.\n\nFor a simple motion/audio pair, matching filenames such as `dance.vmd` and `dance.ogg` also work. If unrelated files share a folder, separate them into individual packages to make the grouping clear."
+            question: "음악, 액터 모션, 카메라 모션을 댄스 세트로 묶으려면 어떻게 하나요?"
+            keywords: ["dance set", "package", "group music", "camera VMD", "ZIP", "댄스 세트", "음악과 모션", "파일 묶기", "카메라 모션"]
+            related: [{"href": "preparecontent#motion-files", "label": "콘텐츠 라이브러리"}]
+            answer: "`motion/` 안에 하위 폴더나 ZIP을 만들고 노래, 액터 모션 파일, 카메라 모션을 넣으세요. 패키지에는 오디오 파일을 하나만 두세요. DanceXR이 관련 파일을 댄스 세트로 인식해 함께 불러올 수 있습니다.\n\n모션과 오디오가 한 쌍이면 `dance.vmd`와 `dance.ogg`처럼 파일 이름을 맞춰도 됩니다. 같은 폴더에 관련 없는 파일이 있다면 별도 패키지로 나눠 묶음을 명확하게 만드세요."
           - id: "map-xps-fbx-bones"
             category: "motion"
             type: "how-to"
-            question: "How do I make an XPS or FBX model respond to motions?"
-            keywords: ["bone mapping", "XPS", "FBX", "T-pose", "Auto Map", "Chain Mapping"]
-            related: [{"href": "features/bone_mapper", "label": "Bone Mapper"}]
-            answer: "Load the model and open **Bone Mapper** in its actor menu. Run **Auto Map**, then check the slots marked with an exclamation mark: these are critical bones that still need assignments.\n\nMap each missing slot to the corresponding bone in the model. **Chain Mapping** can speed up mapping arms, hands and other bone chains. Once the critical mappings are complete, assign a motion and check the result.\n\nXPS and FBX require bone mapping. PMX models usually already include standard bone names."
+            question: "XPS나 FBX 모델이 모션에 따라 움직이게 하려면 어떻게 하나요?"
+            keywords: ["bone mapping", "XPS", "FBX", "T-pose", "Auto Map", "Chain Mapping", "본 매핑", "기본 포즈에서 안 움직임", "자동 매핑", "체인 매핑"]
+            related: [{"href": "features/bone_mapper", "label": "본 매퍼"}]
+            answer: "모델을 불러오고 액터 메뉴의 **본 매퍼**를 여세요. **자동 매핑**을 실행한 뒤 느낌표가 붙은 슬롯을 확인하세요. 움직임에 꼭 필요하지만 아직 할당되지 않은 본을 뜻합니다.\n\n빠진 슬롯마다 모델의 해당 본을 연결하세요. **체인 매핑**을 사용하면 팔이나 손 등 본 체인을 빠르게 설정할 수 있습니다. 필수 본을 모두 매핑한 뒤 모션을 할당하고 결과를 확인하세요.\n\nXPS와 FBX에는 본 매핑이 필요합니다. PMX 모델은 보통 표준 본 이름을 이미 포함하고 있습니다."
       - title: "환경 및 조명"
         items:
           - id: "change-sky-map"
             category: "environment"
             type: "how-to"
-            question: "How do I use my own sky map or HDRI background?"
-            keywords: ["HDRI", "skybox", "panorama", "background", "environment map"]
-            related: [{"href": "features/sky", "label": "Sky"}, {"href": "preparecontent", "label": "Content Library"}]
-            answer: "Put your panoramic sky image in `texture/sky/` inside the content library. HDR is recommended for environment maps. If you added it while DanceXR was running, use **System → Content Library → Refresh Content**.\n\nOpen **Environment → Sky**, set **Mode** to **Sky Map**, and select your image under **Sky Map**. Use **Orientation** if the background needs rotating."
+            question: "내 스카이 맵이나 HDRI 배경을 사용하려면 어떻게 하나요?"
+            keywords: ["HDRI", "skybox", "panorama", "background", "environment map", "스카이 맵", "하늘 배경", "환경 맵", "파노라마", "배경 변경", "스카이맵"]
+            related: [{"href": "features/sky", "label": "하늘"}, {"href": "preparecontent", "label": "콘텐츠 라이브러리"}]
+            answer: "파노라마 하늘 이미지를 콘텐츠 라이브러리의 `texture/sky/`에 넣으세요. 환경 맵에는 HDR 형식을 권장합니다. DanceXR 실행 중에 추가했다면 **시스템 → 콘텐츠 라이브러리 → 콘텐츠 새로 고침**을 사용하세요.\n\n**환경 → 하늘**을 열고 **모드**를 **스카이 맵**으로 바꾼 다음 **스카이 맵**에서 이미지를 선택하세요. 배경을 회전하려면 **방향**을 조정하세요."
           - id: "rotate-sky-map"
             category: "environment"
             type: "how-to"
-            question: "How do I rotate the sky background?"
-            keywords: ["sky orientation", "rotate panorama", "skybox"]
-            related: [{"href": "features/sky", "label": "Sky"}, {"href": "features/sky", "label": "Sky"}]
-            answer: "Open **Environment → Sky** and make sure **Mode** is set to **Sky Map**. Adjust **Orientation** to rotate the panorama around the scene.\n\nThis also rotates the sky projection used by the ground sky-dome material, so check the ground and reflections after changing it."
+            question: "하늘 배경을 회전하려면 어떻게 하나요?"
+            keywords: ["sky orientation", "rotate panorama", "skybox", "하늘 회전", "배경 방향", "파노라마 회전", "스카이 맵"]
+            related: [{"href": "features/sky", "label": "하늘"}, {"href": "features/sky", "label": "하늘"}]
+            answer: "**환경 → 하늘**을 열고 **모드**가 **스카이 맵**인지 확인하세요. **방향**을 조정하면 파노라마가 장면 주위를 회전합니다.\n\n지면 스카이 돔 재질에 사용하는 하늘 투영도 함께 회전하므로, 변경 후 지면과 반사도 확인하세요."
           - id: "adjust-sky-lighting"
             category: "environment"
             type: "how-to"
-            question: "How do I adjust sky brightness and ambient lighting separately?"
-            keywords: ["ambient lighting", "sky exposure", "brightness", "washed out"]
+            question: "하늘 밝기와 주변광을 따로 조정하려면 어떻게 하나요?"
+            keywords: ["ambient lighting", "sky exposure", "brightness", "washed out", "하늘 밝기", "주변광", "환경광", "노출", "조명"]
             builds: ["HD", "RT", "LW"]
-            related: [{"href": "features/sky", "label": "Sky"}]
-            answer: "Open **Environment → Sky**.\n\nIn HD/RT builds, **Background** controls how bright the visible sky looks, while **Sky Ambient** controls its contribution to scene lighting. Lower Sky Ambient if a bright background is washing out the actor.\n\nIn the lightweight build, use **Sky Exposure** and **Intensity**. Sky Exposure also affects reflection brightness, so check reflective materials as you adjust it."
+            related: [{"href": "features/sky", "label": "하늘"}]
+            answer: "**환경 → 하늘**을 여세요.\n\nHD/RT 빌드에서 **배경**은 눈에 보이는 하늘의 밝기를, **하늘 주변광**은 하늘이 장면 조명에 미치는 영향을 조절합니다. 밝은 배경 때문에 액터의 명암이 흐려지면 하늘 주변광을 낮추세요.\n\n경량 빌드에서는 **하늘 노출**과 **강도**를 사용합니다. 하늘 노출은 반사 밝기에도 영향을 주므로 반사 재질도 함께 확인하며 조정하세요."
           - id: "load-stage"
             category: "environment"
             type: "how-to"
-            question: "How do I load my own stage?"
-            keywords: ["stage", "environment model", "Load Stage", "stages folder"]
-            related: [{"href": "features/stages", "label": "Stages"}]
-            answer: "Place the stage model and its required textures in `stages/` in your content library. Keep the model's folder structure intact, or put the complete package in a ZIP. Actor models tagged **stage** can also appear in the stage menu.\n\nRefresh the library if needed, then open **Scene → Load Stage** and select it. Loading a stage replaces the previous stage. Use the loaded stage's settings to adjust its appearance and placement.\n\nStage and prop models do not play motions. To animate one, keep its files in `actors/`, load it as an actor, and assign a motion. Sky maps are separate and belong in `texture/sky/`."
+            question: "내 스테이지를 불러오려면 어떻게 하나요?"
+            keywords: ["stage", "environment model", "Load Stage", "stages folder", "스테이지 불러오기", "무대 모델", "스테이지 태그", "소품 애니메이션"]
+            related: [{"href": "features/stages", "label": "스테이지"}]
+            answer: "스테이지 모델과 필요한 텍스처를 콘텐츠 라이브러리의 `stages/`에 넣으세요. 원래 폴더 구조를 유지하거나 전체 패키지를 ZIP으로 묶으세요. **stage** 태그가 있는 액터 모델도 스테이지 메뉴에 표시할 수 있습니다.\n\n필요한 경우 라이브러리를 새로 고친 뒤 **장면 → 스테이지 불러오기**에서 선택하세요. 새 스테이지를 불러오면 이전 스테이지가 바뀝니다. 불러온 스테이지의 설정에서 외형과 배치를 조정하세요.\n\n스테이지와 소품 모델은 모션을 재생하지 않습니다. 움직이게 하려면 파일을 `actors/`에 넣고 액터로 불러온 뒤 모션을 할당하세요. 스카이 맵은 별도 콘텐츠이며 `texture/sky/`에 넣어야 합니다."
       - title: "카메라 및 녹화"
         items:
           - id: "hide-ui"
             category: "camera"
             type: "how-to"
-            question: "How do I hide the menus and actor controls?"
-            keywords: ["hide UI", "immersive mode", "menus", "selection discs", "Esc"]
-            related: [{"href": "controls", "label": "Controls & UI"}]
-            answer: "Click empty space to cycle through **UI**, **Control** and **Immersive** modes. Immersive mode hides both the menus and the yellow actor selection discs for a clean view.\n\nYou can also use the assigned **Toggle UI** control; its default desktop key is **Esc**. Click empty space or use Toggle UI again to bring the interface back."
+            question: "메뉴와 액터 조작 표시를 숨기려면 어떻게 하나요?"
+            keywords: ["hide UI", "immersive mode", "menus", "selection discs", "Esc", "UI 숨기기", "메뉴 숨기기", "몰입 모드", "선택 디스크"]
+            related: [{"href": "controls", "label": "조작 및 UI"}]
+            answer: "빈 공간을 클릭하면 **UI**, **조작**, **몰입** 모드가 차례로 바뀝니다. 몰입 모드에서는 메뉴와 노란색 액터 선택 디스크가 모두 숨겨져 깔끔한 화면을 볼 수 있습니다.\n\n지정된 **UI 전환** 조작도 사용할 수 있으며, 데스크톱 기본 키는 **Esc**입니다. 빈 공간을 다시 클릭하거나 UI 전환을 사용하면 인터페이스가 다시 표시됩니다."
           - id: "use-camera-motion"
             category: "camera"
             type: "how-to"
-            question: "How do I use the camera motion that comes with a dance?"
-            keywords: ["camera VMD", "camera motion", "dance camera", "imported camera"]
-            related: [{"href": "cameras", "label": "Cinematic Cameras"}, {"href": "features/assign_motion", "label": "Assigning Motion"}, {"href": "preparecontent#motion-files", "label": "Content Library"}]
-            answer: "Keep the camera VMD in the same dance-set folder or ZIP as the song and actor motions, then load that dance set.\n\nOpen **Camera** and select the camera motion from the loaded set. Built-in camera modes such as Freefly or Auto are separate choices; select the imported track to follow the dance's authored camera movement.\n\nIf the track is missing, check that its file is in the package you loaded. In VR, this controls the desktop/recording camera; the headset view follows your head."
+            question: "댄스에 포함된 카메라 모션을 사용하려면 어떻게 하나요?"
+            keywords: ["camera VMD", "camera motion", "dance camera", "imported camera", "카메라 모션", "카메라 VMD", "댄스 카메라", "카메라 트랙"]
+            related: [{"href": "cameras", "label": "시네마틱 카메라"}, {"href": "features/assign_motion", "label": "모션 할당"}, {"href": "preparecontent#motion-files", "label": "콘텐츠 라이브러리"}]
+            answer: "카메라 VMD를 음악과 액터 모션이 있는 댄스 세트 폴더나 ZIP에 넣고 그 세트를 불러오세요.\n\n**카메라**를 열어 불러온 세트의 카메라 모션을 선택하세요. Freefly나 Auto 같은 내장 카메라 모드는 별도 선택 항목입니다. 댄스 제작자가 만든 카메라 움직임을 사용하려면 가져온 트랙을 선택하세요.\n\n트랙이 보이지 않으면 불러온 패키지에 해당 파일이 있는지 확인하세요. VR에서는 데스크톱 표시나 녹화용 카메라에 적용되며, 헤드셋 시점은 머리 움직임을 따릅니다."
           - id: "record-4k"
             category: "camera"
             type: "how-to"
-            question: "How do I record a smooth 4K video?"
-            keywords: ["4K", "offline rendering", "Creator", "60fps", "recording"]
+            question: "부드러운 4K 영상을 녹화하려면 어떻게 하나요?"
+            keywords: ["4K", "offline rendering", "Creator", "60fps", "recording", "4K 녹화", "오프라인 렌더링", "프레임 레이트", "영상 출력"]
             editions: ["Creator"]
-            related: [{"href": "features/recording_settings", "label": "Recording Settings"}, {"href": "creator", "label": "Creator Edition"}]
-            answer: "Use **Creator Edition** for offline rendering. Open the recording menu (red circle), then **Recording Settings**. Choose **UHD 3840x2160**, the desired **Frame Rate**, and the image format.\n\nPreview the scene to check framing and motion, then start a **2D** recording. DanceXR renders frames at the selected output rate even if playback cannot run that fast in real time.\n\nThe output is an image sequence. Convert it to a video after rendering; See the frame-to-video answer for that step."
+            related: [{"href": "features/recording_settings", "label": "녹화 설정"}, {"href": "creator", "label": "Creator 에디션"}]
+            answer: "오프라인 렌더링에는 **Creator Edition**을 사용하세요. 녹화 메뉴(빨간 원)에서 **녹화 설정**을 열고 **UHD 3840x2160**, 원하는 **프레임 레이트**, 이미지 형식을 선택하세요.\n\n장면을 미리 보며 구도와 모션을 확인한 뒤 **2D** 녹화를 시작하세요. 실시간 재생이 해당 속도에 도달하지 못해도 DanceXR은 설정한 출력 프레임 레이트에 맞춰 프레임을 렌더링합니다.\n\n출력은 이미지 시퀀스입니다. 렌더링 후 영상으로 변환하세요. 자세한 과정은 이미지 프레임을 영상으로 변환하는 답변을 참고하세요."
           - id: "frames-to-video"
             category: "camera"
             type: "how-to"
-            question: "How do I turn recorded image frames into a video?"
-            keywords: ["FFmpeg", "image sequence", "frames to video", "MP4", "sound.wav"]
+            question: "녹화한 이미지 프레임을 영상으로 변환하려면 어떻게 하나요?"
+            keywords: ["FFmpeg", "image sequence", "frames to video", "MP4", "sound.wav", "이미지 시퀀스", "이미지를 영상으로", "영상 변환", "오디오", "녹화 프레임"]
             editions: ["Creator"]
-            related: [{"href": "creator", "label": "Creator Edition"}]
-            answer: "Open the folder containing your rendered frames. If FFmpeg is installed and available on your system PATH, use the conversion batch file included with the recording. A video editor that imports image sequences also works.\n\nFor a manual conversion, this example assumes frames named `movie_0000.jpg`, `movie_0001.jpg`, and so on, recorded at 60 fps:\n\n```sh\nffmpeg -framerate 60 -i movie_%04d.jpg -i sound.wav movie.mp4\n```\n\nMatch the frame rate, numbering pattern and extension to your actual output. Omit `-i sound.wav` if you do not want audio."
+            related: [{"href": "creator", "label": "Creator 에디션"}]
+            answer: "렌더링한 프레임이 있는 폴더를 여세요. FFmpeg가 설치되어 있고 시스템 PATH에서 실행할 수 있다면 녹화와 함께 생성된 변환 배치 파일을 사용하세요. 이미지 시퀀스를 가져올 수 있는 영상 편집 프로그램도 사용할 수 있습니다.\n\n다음은 60 fps로 녹화한 `movie_0000.jpg`, `movie_0001.jpg` 등의 파일을 수동 변환하는 예입니다.\n\n```sh\nffmpeg -framerate 60 -i movie_%04d.jpg -i sound.wav movie.mp4\n```\n\n프레임 레이트, 파일 번호 형식, 확장자를 실제 출력에 맞추세요. 오디오가 필요하지 않으면 `-i sound.wav`를 빼세요."
           - id: "record-without-creator"
             category: "camera"
             type: "how-to"
-            question: "How do I record a video without Creator Edition?"
-            keywords: ["screen recording", "OBS", "real-time capture", "non-Creator", "portrait", "landscape", "window resolution"]
+            question: "Creator Edition 없이 영상을 녹화하려면 어떻게 하나요?"
+            keywords: ["screen recording", "OBS", "real-time capture", "non-Creator", "portrait", "landscape", "window resolution", "화면 녹화", "실시간 녹화", "세로", "가로", "창 해상도"]
             platforms: ["Windows", "macOS"]
-            related: [{"href": "features/display_settings", "label": "Display Settings"}, {"href": "controls", "label": "Controls & UI"}]
-            answer: "Use screen-recording software to capture DanceXR while it plays in real time; Creator Edition is not required.\n\n1. Open **System → Display & UI → Resolution** and turn **Fullscreen** off to use a window.\n2. Choose **Window Resolution**. Enable **Vertical** for portrait, or leave it off for landscape.\n3. Click **Apply Resolution**, then frame the scene and hide the UI if you want a clean recording.\n4. In your screen recorder, capture the DanceXR window and its audio, start recording, and play the motion.\n\nRecording smoothness follows your actual playback frame rate. Lower graphics settings or resolution if playback stutters."
+            related: [{"href": "features/display_settings", "label": "디스플레이 설정"}, {"href": "controls", "label": "조작 및 UI"}]
+            answer: "화면 녹화 프로그램으로 DanceXR의 실시간 재생을 녹화할 수 있습니다. Creator Edition은 필요하지 않습니다.\n\n1. **시스템 → 디스플레이 및 UI → 해상도**를 열고 **전체 화면**을 꺼서 창 모드로 바꾸세요.\n2. **창 해상도**를 선택하세요. 세로 영상은 **세로**를 켜고 가로 영상은 끄세요.\n3. **해상도 적용**을 클릭하고 구도를 맞추세요. 깔끔한 영상이 필요하면 UI를 숨기세요.\n4. 녹화 프로그램에서 DanceXR 창과 오디오를 캡처하도록 설정하고, 녹화를 시작한 뒤 모션을 재생하세요.\n\n녹화의 부드러움은 실제 재생 프레임 레이트에 따라 달라집니다. 재생이 끊기면 그래픽 설정이나 해상도를 낮추세요."
       - title: "저장 및 공유"
         items:
           - id: "save-scene"
             category: "saving"
             type: "how-to"
-            question: "How do I save and reopen my scene?"
-            keywords: ["save scene", "load scene", "restore setup"]
-            related: [{"href": "features/save_scene", "label": "Save Scene"}]
-            answer: "Arrange the actors, stage, motions, environment and camera, then open **Scene** and use the saved-scene browser's save icon. Enter a name and choose **Save**.\n\nTo reopen the setup, return to the scene browser and select the saved name. A saved scene stores settings and references to content; keep the original models and motions in the library. Use a **Scene Bundle** when you need to transfer the assets too."
+            question: "장면을 저장하고 다시 열려면 어떻게 하나요?"
+            keywords: ["save scene", "load scene", "restore setup", "장면 저장", "장면 불러오기", "설정 복원", "저장된 장면"]
+            related: [{"href": "features/save_scene", "label": "장면 저장"}]
+            answer: "액터, 스테이지, 모션, 환경, 카메라를 설정한 다음 **장면**을 열고 저장된 장면 브라우저의 저장 아이콘을 사용하세요. 이름을 입력하고 **저장**을 선택하세요.\n\n다시 열려면 장면 브라우저에서 저장한 이름을 선택하세요. 저장된 장면은 설정과 콘텐츠 참조를 담으므로 원본 모델과 모션을 라이브러리에 유지해야 합니다. 콘텐츠 파일도 함께 옮기려면 **장면 번들**을 사용하세요."
           - id: "share-scene-bundle"
             category: "saving"
             type: "how-to"
-            question: "How do I transfer a scene together with its models and motions?"
-            keywords: ["scene bundle", "transfer", "share scene", "ZIP", "assets"]
-            related: [{"href": "features/scene_bundle", "label": "Scene Bundle"}]
-            answer: "Use a **Scene Bundle** to package the scene together with its models, stages, props, accessories and dance sets.\n\nLoad and check the scene, open **Scene → Bundle**, and use the save action to give it a name. Wait for **Creating bundle...** to finish, then copy the archive to `bundles/` in the destination content library and open it there.\n\nCheck playback and materials on the destination device. Its build and edition still determine which features are available. The Bundle menu requires an activated paid edition."
+            question: "장면을 모델과 모션까지 함께 다른 기기로 옮기려면 어떻게 하나요?"
+            keywords: ["scene bundle", "transfer", "share scene", "ZIP", "assets", "장면 번들", "장면 전송", "콘텐츠 공유", "다른 기기"]
+            related: [{"href": "features/scene_bundle", "label": "장면 번들"}]
+            answer: "**장면 번들**을 사용하면 장면과 모델, 스테이지, 소품, 액세서리, 댄스 세트를 함께 묶을 수 있습니다.\n\n장면을 불러와 확인한 뒤 **장면 → 번들**을 열고 저장 작업으로 이름을 지정하세요. **번들 생성 중...** 메시지가 끝나면 압축 파일을 대상 기기 콘텐츠 라이브러리의 `bundles/`에 복사하고 여세요.\n\n대상 기기에서 재생과 재질을 확인하세요. 사용할 수 있는 기능은 대상 빌드와 에디션에 따라 달라집니다. 번들 메뉴에는 활성화된 유료 버전이 필요합니다."
           - id: "save-actor-preset"
             category: "saving"
             type: "how-to"
-            question: "How do I save and reuse an actor’s settings?"
-            keywords: ["actor preset", "save actor settings", "global preset"]
-            related: [{"href": "features/actor_presets", "label": "Actor Presets"}]
-            answer: "Configure the actor, then open its **Presets** menu. Choose **Save Actor Preset** to associate the setup with that model, or **Save Global** to make it available to other actors. Enter a name and save.\n\nTo reuse it, select the actor, open Presets and choose the saved entry. Presets store settings rather than the model file. When applying one to a different model, check bone mapping, material slots and physics because these can differ."
+            question: "액터 설정을 저장해 다시 사용하려면 어떻게 하나요?"
+            keywords: ["actor preset", "save actor settings", "global preset", "액터 프리셋", "액터 설정 저장", "전역 프리셋", "재사용"]
+            related: [{"href": "features/actor_presets", "label": "액터 프리셋"}]
+            answer: "액터를 설정한 뒤 **프리셋** 메뉴를 여세요. **액터 프리셋 저장**을 선택하면 해당 모델에 연결되고, **전역 저장**을 선택하면 다른 액터에도 사용할 수 있습니다. 이름을 입력하고 저장하세요.\n\n다시 사용하려면 액터를 선택하고 프리셋 메뉴에서 저장한 항목을 고르세요. 프리셋에는 설정만 들어 있고 모델 파일은 포함되지 않습니다. 다른 모델에 적용할 때는 본 매핑, 재질 슬롯, 물리 설정이 다를 수 있으므로 확인하세요."
           - id: "save-environment-preset"
             category: "saving"
             type: "how-to"
-            question: "How do I save and reuse my lighting and environment settings?"
-            keywords: ["system preset", "save lighting", "environment settings"]
-            related: [{"href": "features/system_presets", "label": "System Presets"}]
-            answer: "Configure the lighting, sky, ground and other application settings, then open **Environment → System Presets**. Use its save action, enter a name and choose **Save**.\n\nSelect the saved preset from the same menu to apply it later. These presets store settings under `presets/system/` in your library. To restore actors, loaded content and motion assignments too, save a scene."
+            question: "조명과 환경 설정을 저장해 다시 사용하려면 어떻게 하나요?"
+            keywords: ["system preset", "save lighting", "environment settings", "시스템 프리셋", "조명 저장", "환경 설정", "설정 재사용"]
+            related: [{"href": "features/system_presets", "label": "시스템 프리셋"}]
+            answer: "조명, 하늘, 지면 등 앱 설정을 조정하고 **환경 → 시스템 프리셋**을 여세요. 저장 작업에서 이름을 입력한 뒤 **저장**을 선택하세요.\n\n나중에 같은 메뉴에서 저장된 프리셋을 선택하면 적용할 수 있습니다. 설정은 라이브러리의 `presets/system/`에 저장됩니다. 액터, 불러온 콘텐츠, 모션 할당까지 복원하려면 장면을 저장하세요."
       - title: "VR 및 기기"
         items:
           - id: "enable-vr"
             category: "vr"
             type: "how-to"
-            question: "How do I start DanceXR in VR?"
-            keywords: ["VR", "OpenXR", "headset", "SteamVR", "Meta"]
-            related: [{"href": "vr_operations", "label": "VR Operations"}, {"href": "faq", "label": "FAQ"}]
-            answer: "On PC, connect your headset and start its VR software. Make sure the runtime you use, such as SteamVR or Meta, is the active **OpenXR** runtime.\n\nLaunch a VR-capable DanceXR build, open **Environment**, and enable **VR**. On a standalone Quest, launch the installed Quest build from the headset.\n\nIf VR does not start, check the active runtime and follow the VR startup troubleshooting answer."
+            question: "DanceXR을 VR로 시작하려면 어떻게 하나요?"
+            keywords: ["VR", "OpenXR", "headset", "SteamVR", "Meta", "VR 시작", "헤드셋", "런타임", "가상 현실"]
+            related: [{"href": "vr_operations", "label": "VR 조작"}, {"href": "faq", "label": "자주 묻는 질문"}]
+            answer: "PC에서는 헤드셋을 연결하고 VR 프로그램을 실행하세요. 사용하는 런타임(예: SteamVR 또는 Meta)이 활성 **OpenXR** 런타임으로 설정되어 있는지 확인하세요.\n\nVR을 지원하는 DanceXR 빌드를 실행하고 **환경**에서 **VR**을 켜세요. 독립형 Quest에서는 헤드셋에 설치한 Quest 빌드를 실행하세요.\n\nVR이 시작되지 않으면 활성 런타임을 확인하고 VR 시작 문제 해결 답변을 참고하세요."
           - id: "android-quest-library"
             category: "vr"
             type: "how-to"
-            question: "How do I add content on Android or Meta Quest?"
-            keywords: ["Android", "Meta Quest", "storage permission", "content library", "Quest", "File Transfer", "storage"]
-            related: [{"href": "content_android_quest", "label": "Content Library For Android & Quest"}]
-            answer: "Grant DanceXR the storage permission needed to use the shared `/DanceXR/` folder. Put models in `actors/`, motions and audio in `motion/`, and other content in the corresponding library subfolders.\n\nYou can use the device's Files app, or connect it to a PC by USB and choose **File Transfer**. The Android **Content Manager** app can also add supported ZIP and image files to the library.\n\nFor older installations or internal-storage mode, use `/Android/data/com.vrstormlab.dancexr/files/`. Restart DanceXR or use **Refresh Content** after copying."
+            question: "Android나 Meta Quest에서 콘텐츠를 추가하려면 어떻게 하나요?"
+            keywords: ["Android", "Meta Quest", "storage permission", "content library", "Quest", "File Transfer", "storage", "Android 콘텐츠", "Quest 라이브러리", "파일 전송", "저장소 권한"]
+            related: [{"href": "content_android_quest", "label": "Android 및 Quest 콘텐츠 라이브러리"}]
+            answer: "공유 `/DanceXR/` 폴더를 사용할 수 있도록 DanceXR에 필요한 저장소 권한을 허용하세요. 모델은 `actors/`, 모션과 오디오는 `motion/`, 나머지는 해당 라이브러리 하위 폴더에 넣으세요.\n\n기기의 파일 앱을 사용하거나 USB로 PC에 연결해 **파일 전송**을 선택할 수 있습니다. Android의 **콘텐츠 관리자** 앱으로도 지원되는 ZIP과 이미지 파일을 라이브러리에 추가할 수 있습니다.\n\n이전 버전이나 내부 저장소 모드에서는 `/Android/data/com.vrstormlab.dancexr/files/`를 사용하세요. 복사한 뒤 DanceXR을 다시 시작하거나 **콘텐츠 새로 고침**을 실행하세요."
           - id: "start-mobile-ar"
             category: "vr"
             type: "how-to"
-            question: "How do I start AR on a supported Android or iOS device?"
-            keywords: ["AR", "augmented reality", "Android", "iOS", "camera", "mobile"]
+            question: "지원되는 Android나 iOS 기기에서 AR을 시작하려면 어떻게 하나요?"
+            keywords: ["AR", "augmented reality", "Android", "iOS", "camera", "mobile", "AR 시작", "증강 현실", "카메라 배경", "모바일", "지원 기기"]
             platforms: ["Android", "iOS"]
             editions: ["Pro"]
-            related: [{"href": "features/ar_mode", "label": "AR Settings"}]
-            answer: "On a supported Android or iOS device, launch DanceXR, open **Environment**, and select **AR** to start it. Allow camera access if your device asks, then wait for AR to initialize.\n\nUse **Show Camera** in AR settings to show the real-world background. Enable **Hide Ground** if you want the actors to appear directly on your physical floor. Use **Stop AR** to return to normal mode.\n\nAR requires an activated Pro edition and a compatible device/build. If the AR option is missing, check both device support and activation. Quest passthrough is covered separately."
+            related: [{"href": "features/ar_mode", "label": "AR 설정"}]
+            answer: "지원되는 Android 또는 iOS 기기에서 DanceXR을 실행하고 **환경**에서 **AR**을 선택하세요. 카메라 권한을 요청하면 허용한 뒤 AR 초기화가 끝날 때까지 기다리세요.\n\nAR 설정의 **카메라 표시**로 실제 환경 배경을 볼 수 있습니다. 액터가 실제 바닥에 서 있는 것처럼 보이게 하려면 **지면 숨기기**를 켜세요. **AR 중지**를 사용하면 일반 모드로 돌아갑니다.\n\nAR에는 활성화된 Pro 에디션과 호환 기기/빌드가 필요합니다. AR 항목이 없다면 기기 지원 여부와 활성화 상태를 모두 확인하세요. Quest 패스스루는 별도 항목에서 설명합니다."
       - title: "문제 해결 및 라이선스"
         items:
           - id: "white-model"
             category: "help"
             type: "troubleshooting"
-            question: "How do I fix a model that appears completely white?"
-            keywords: ["missing textures", "white model", "ZIP encoding", "jis932", "gb2312"]
-            related: [{"href": "features/zip_format", "label": "ZIP format"}, {"href": "preparecontent", "label": "Content Library"}, {"href": "faq", "label": "FAQ"}]
-            answer: "A completely white model usually means its texture files could not be found. Keep the textures in their original locations relative to the model file.\n\nFor ZIP packages containing Japanese or Chinese filenames, try the matching encoding suffix: `model.jis932.zip` for Japanese or `model.gb2312.zip` for Chinese. Reload the model after renaming the archive. Android's Content Manager can set this encoding too.\n\nIf it is still white, inspect the model's texture references and check that filenames, folder paths and spaces match the actual files."
+            question: "모델이 전부 하얗게 보이면 어떻게 해결하나요?"
+            keywords: ["missing textures", "white model", "ZIP encoding", "jis932", "gb2312", "하얀 모델", "텍스처 누락", "ZIP 인코딩", "파일 이름 깨짐"]
+            related: [{"href": "features/zip_format", "label": "ZIP 형식"}, {"href": "preparecontent", "label": "콘텐츠 라이브러리"}, {"href": "faq", "label": "자주 묻는 질문"}]
+            answer: "모델이 전부 하얗게 보이는 것은 보통 텍스처 파일을 찾지 못했기 때문입니다. 모델 파일을 기준으로 텍스처의 원래 위치를 유지하세요.\n\nZIP 안에 일본어나 중국어 파일 이름이 있다면 해당 인코딩 접미사를 사용해 보세요. 일본어는 `model.jis932.zip`, 중국어는 `model.gb2312.zip`입니다. 압축 파일 이름을 바꾼 뒤 모델을 다시 불러오세요. Android 콘텐츠 관리자에서도 인코딩을 설정할 수 있습니다.\n\n여전히 하얗다면 모델의 텍스처 참조를 확인하고 파일 이름, 폴더 경로, 공백이 실제 파일과 정확히 일치하는지 살펴보세요."
           - id: "transparent-hair"
             category: "help"
             type: "troubleshooting"
-            question: "How do I fix hair that looks see-through?"
-            keywords: ["hair", "see-through", "transparency", "depth prepass", "transparent hair", "sorting"]
+            question: "머리카락이 비쳐 보이는 문제를 해결하려면 어떻게 하나요?"
+            keywords: ["hair", "see-through", "transparency", "depth prepass", "transparent hair", "sorting", "머리카락이 비침", "투명도", "깊이 프리패스", "투명 레이어", "렌더링 순서"]
             builds: ["HD", "RT"]
-            related: [{"href": "features/transparency", "label": "Transparent Materials"}, {"href": "faq", "label": "FAQ"}]
-            answer: "In HD/RT builds, layered transparent hair can lose its deeper layers because of the transparent depth prepass.\n\nTry turning off **System → Graphics → Options → Transparent Prepass** and compare the result. For a smaller change, adjust Transparent Prepass on the affected hair materials only.\n\nDisabling it can reveal other transparency sorting problems, so inspect the hair from several angles and keep the setting that gives the best result for that model."
+            related: [{"href": "features/transparency", "label": "투명 재질"}, {"href": "faq", "label": "자주 묻는 질문"}]
+            answer: "HD/RT 빌드에서는 투명 깊이 프리패스 때문에 여러 겹의 투명 머리카락 중 안쪽 레이어가 사라질 수 있습니다.\n\n**시스템 → 그래픽 → 옵션 → 투명 프리패스**를 꺼서 결과를 비교해 보세요. 일부만 바꾸려면 문제가 있는 머리카락 재질의 투명 프리패스만 조정하세요.\n\n끄면 다른 투명도 정렬 문제가 나타날 수 있습니다. 여러 각도에서 확인하고 해당 모델에 가장 잘 맞는 설정을 유지하세요."
           - id: "vr-will-not-start"
             category: "help"
             type: "troubleshooting"
-            question: "How do I fix VR when it will not start?"
-            keywords: ["OpenXR", "SteamVR", "Oculus", "VR launch", "VR startup", "Meta"]
-            related: [{"href": "troubleshooting", "label": "Troubleshooting"}, {"href": "faq", "label": "FAQ"}]
-            answer: "Make sure your VR software is running and the runtime for your headset is set as the active **OpenXR** runtime. If several runtimes are installed, select the one you intend to use in its own settings, then restart the runtime and DanceXR.\n\nTry enabling **Environment → VR** again. If startup still fails, disable unnecessary VR overlays or add-ons and check DanceXR's `Player.log` for the error. Include the log, app build and headset/runtime details when reporting the problem."
+            question: "VR이 시작되지 않으면 어떻게 해결하나요?"
+            keywords: ["OpenXR", "SteamVR", "Oculus", "VR launch", "VR startup", "Meta", "VR 시작 실패", "VR 오류", "런타임", "오버레이"]
+            related: [{"href": "troubleshooting", "label": "문제 해결"}, {"href": "faq", "label": "자주 묻는 질문"}]
+            answer: "VR 프로그램이 실행 중이고 헤드셋에 사용할 런타임이 활성 **OpenXR** 런타임으로 설정되어 있는지 확인하세요. 여러 런타임이 설치되어 있다면 사용할 런타임의 설정에서 활성화한 뒤 런타임과 DanceXR을 다시 시작하세요.\n\n**환경 → VR**을 다시 켜보세요. 계속 실패하면 불필요한 VR 오버레이나 추가 기능을 끄고 DanceXR의 `Player.log`에서 오류를 확인하세요. 문제를 보고할 때 로그, 앱 빌드, 헤드셋 및 런타임 정보를 함께 보내세요."
           - id: "reactivate-license"
             category: "help"
             type: "how-to"
-            question: "How do I activate or reactivate my copy?"
-            keywords: ["activation", "license", "hardware change", "activate", "reactivate", "purchase", "entitlement"]
-            related: [{"href": "activation", "label": "Activation & Licensing"}]
-            answer: "Steam and Google Play editions normally activate automatically when the store verifies your purchase.\n\nFor editions requiring manual activation, open **System → Activate Your Copy**. Follow the browser prompts, choose the platform you purchased from and sign in there. After the success page appears, return to DanceXR and click **Activate Your Copy** again to retrieve the license.\n\nIf the device has already been activated, DanceXR may restore the license without opening a browser. Reactivating after reinstalling, changing hardware or switching build variants does not charge you again."
+            question: "라이선스를 활성화하거나 다시 활성화하려면 어떻게 하나요?"
+            keywords: ["activation", "license", "hardware change", "activate", "reactivate", "purchase", "entitlement", "라이선스 활성화", "재활성화", "구매 확인", "라이선스 복원"]
+            related: [{"href": "activation", "label": "활성화 및 라이선스"}]
+            answer: "Steam과 Google Play 버전은 보통 스토어에서 구매가 확인되면 자동으로 활성화됩니다.\n\n수동 활성화가 필요한 에디션은 **시스템 → 제품 활성화**를 여세요. 브라우저 안내에 따라 구매한 플랫폼을 선택하고 로그인하세요. 성공 페이지가 표시되면 DanceXR로 돌아와 **제품 활성화**를 다시 클릭해 라이선스를 받으세요.\n\n해당 기기를 이전에 활성화했다면 브라우저 없이 라이선스가 복원될 수도 있습니다. 재설치, 하드웨어 변경, 빌드 전환 후 다시 활성화해도 추가 요금은 없습니다."
   - id: "faq"
     label: "자주 묻는 질문"
     title: "자주 묻는 질문 (FAQ)"

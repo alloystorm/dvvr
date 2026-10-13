@@ -56,8 +56,8 @@
   var saved = localStorage.getItem(KEY);
 
   if (saved === null) {
-    // First ever visit: detect, save, and redirect if needed
-    var desired = detect();
+    // First visit: honour an explicit locale URL, otherwise detect the browser language.
+    var desired = cur || detect();
     localStorage.setItem(KEY, desired);
     var desiredPrefix = (desired === 'en') ? '' : desired;
     if (desiredPrefix !== cur) {

@@ -2,7 +2,7 @@
 
 Approved first batch: 32 English answers, including the two review additions (Q41 and Q42). These answers are in the published support catalogue. This review archive is excluded from the public site build. The remaining 10 later-batch questions have no answer yet.
 
-The published source is `script/support.json`; `script/support-questions.json` retains the review IDs and publication mapping. Existing answers updated by this batch keep their public links. New English answers also appear on localized support pages through the existing English fallback until translated.
+The published source is `script/support.json`; `script/support-questions.json` retains the review IDs and publication mapping. Existing answers updated by this batch keep their public links. All first-batch questions and answers now have Japanese, Simplified Chinese, Traditional Chinese and Korean translations, with localized guide labels and search aliases.
 
 The source links show the guides used; author notes record menu checks and the confirmed Stages update.
 
