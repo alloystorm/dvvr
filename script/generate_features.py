@@ -25,6 +25,7 @@ import re
 import sys
 import argparse
 from feature_media import generate_media, build_media
+from support_data import prepare_support, support_yaml
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -587,36 +588,11 @@ def generate_releases_locale(releases_by_year, locale_key):
 # Support generation
 # ---------------------------------------------------------------------------
 
-def build_support_yaml(support_data, locale=None):
-    """Build the support_sections YAML block as a string."""
-    lines = ["support_sections:"]
-    for section in support_data:
-        label = section.get("label_locales", {}).get(locale) or section.get("label", "")
-        title = section.get("title_locales", {}).get(locale) or section.get("title", "")
-        
-        lines.append(f"  - id: {section['id']}")
-        if section.get("light"):
-            lines.append(f"    light: true")
-        lines.append(f"    label: {yaml_str(label)}")
-        lines.append(f"    title: {yaml_str(title)}")
-        lines.append(f"    subsections:")
-        
-        for sub in section.get("subsections", []):
-            sub_title = sub.get("title_locales", {}).get(locale) or sub.get("title", "")
-            lines.append(f"      - title: {yaml_str(sub_title)}")
-            lines.append(f"        items:")
-            for item in sub.get("items", []):
-                q = item.get("question_locales", {}).get(locale) or item.get("question", "")
-                a = item.get("answer_locales", {}).get(locale) or item.get("answer", "")
-                
-                lines.append(f"          - question: {yaml_str(q)}")
-                lines.append(f"            answer: |")
-                for aline in a.splitlines():
-                    lines.append(f"              {aline}")
-    return "\n".join(lines)
+def build_support_yaml(support_data, locale=None, categories=None):
+    return support_yaml(support_data, locale, categories)
 
 
-def inject_support_sections(support_data, filepath, locale=None):
+def inject_support_sections(support_data, filepath, locale=None, categories=None):
     if not os.path.isfile(filepath):
         return
     with open(filepath, "r", encoding="utf-8") as f:
@@ -627,10 +603,10 @@ def inject_support_sections(support_data, filepath, locale=None):
     head, fm_text, tail_and_body = m.group(1), m.group(2), content[m.end(2):]
     
     # Remove existing support_sections block if it exists
-    pattern = re.compile(r"^support_sections:.*?(?=^[a-zA-Z0-9_]+:|\Z)", re.MULTILINE | re.DOTALL)
+    pattern = re.compile(r"^(?:support_sections|support_categories):.*?(?=^[a-zA-Z0-9_]+:|\Z)", re.MULTILINE | re.DOTALL)
     fm_text = pattern.sub("", fm_text).strip()
     
-    yaml_block = build_support_yaml(support_data, locale)
+    yaml_block = build_support_yaml(support_data, locale, categories)
     new_fm = fm_text + "\n" + yaml_block if fm_text else yaml_block
     new_content = head + new_fm + tail_and_body
     with open(filepath, "w", encoding="utf-8") as f:
@@ -709,7 +685,7 @@ def main():
     # -----------------------------------------------------------------------
     # Features generation
     # -----------------------------------------------------------------------
-    if not args.releases or args.features_only:
+    if (not args.releases and not args.support) or args.features_only:
         json_path = os.path.join(BASE, "script", "features.json")
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -756,7 +732,7 @@ def main():
         json_path = os.path.join(BASE, "script", "support.json")
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        sections = data.get("sections", [])
+        categories, sections = prepare_support(data)
 
         locales_to_gen = list(LOCALES.keys())
         gen_en = True
@@ -769,9 +745,9 @@ def main():
                 gen_en = False
 
         if gen_en:
-            inject_support_sections(sections, os.path.join(BASE, "dancexr", "support.md"), locale=None)
+            inject_support_sections(sections, os.path.join(BASE, "dancexr", "support.md"), locale=None, categories=categories)
         for locale_key in locales_to_gen:
-            inject_support_sections(sections, os.path.join(BASE, locale_key, "dancexr", "support.md"), locale=locale_key)
+            inject_support_sections(sections, os.path.join(BASE, locale_key, "dancexr", "support.md"), locale=locale_key, categories=categories)
 
 
 

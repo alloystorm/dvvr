@@ -7,15 +7,13 @@ toc: true
 
 # Stages
 
-<!-- TODO: confirm exact UI flow. Drafted from the actors / props / content-library structure. -->
-
 A stage is the static environment your actors perform on — a club floor, a concert hall, a city street, a procedural [room](room_stage). DanceXR loads stages from your content library the same way it loads actors and motions, and applies its own lighting, physics, and camera systems on top.
 
 ---
 
 ## Loading a stage
 
-Place stage models in your [content library](../preparecontent), tagged appropriately so they appear under the stage menu. PMX, XPS, and FBX models can all be used as stages.
+Place stage models in your [content library](../preparecontent) under stages folder. You can also tag actor models as "stage" so they appear under the stage menu. PMX, XPS, and FBX models can all be used as stages.
 
 From the scene menu, open the stage selector and pick the model to load. A stage replaces any previously loaded stage; only one stage is active at a time.
 
@@ -33,7 +31,7 @@ From the scene menu, open the stage selector and pick the model to load. A stage
 
 ## Stage and motion
 
-If the loaded motion includes a camera or a stage prop track, those tracks attach to the stage origin. Motion files authored for one stage may need [Scale & Offset](scale_offset) adjustments when loaded against a differently scaled stage.
+Motion on stage & prop models are not supported. However you can load them as actors (by keeping the model files under actors folder) and then assign motion.
 
 ---
 

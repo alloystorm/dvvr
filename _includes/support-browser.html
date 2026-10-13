@@ -1,0 +1,76 @@
+{% assign support_ui = site.data.support_ui[page.locale] | default: site.data.support_ui['en-US'] %}
+<link rel="stylesheet" href="{{ '/assets/css/support-browser.css' | relative_url }}">
+<div class="support-browser" data-support-browser>
+  <h1>{{ page.title | escape }}</h1>
+  <div class="support-controls" hidden>
+    <label for="supportSearch">{{ support_ui.search_label | escape }}</label>
+    <input type="search" id="supportSearch" class="support-search-input" placeholder="{{ support_ui.search_placeholder | escape }}" autocomplete="off">
+    <div class="support-filter-row">
+      <fieldset class="support-categories">
+        <legend>{{ support_ui.category_label | escape }}</legend>
+        <div class="support-category-buttons">
+          <button type="button" data-category="" aria-pressed="true">{{ support_ui.all_categories | escape }} <span data-category-count></span></button>
+          {% for category in page.support_categories %}
+          <button type="button" data-category="{{ category.id | escape }}" aria-pressed="false" hidden>{{ category.label | escape }} <span data-category-count></span></button>
+          {% endfor %}
+        </div>
+      </fieldset>
+      <div class="support-type-filter">
+        <label for="supportType">{{ support_ui.type_label | escape }}</label>
+        <select id="supportType">
+          <option value="">{{ support_ui.all_types | escape }}</option>
+          <option value="how-to">{{ support_ui.how_to | escape }}</option>
+          <option value="troubleshooting">{{ support_ui.troubleshooting | escape }}</option>
+          <option value="known-issue">{{ support_ui.known_issue | escape }}</option>
+        </select>
+      </div>
+    </div>
+    <div class="support-result-bar">
+      <p class="support-result-count" role="status" aria-live="polite" aria-atomic="true" data-count-template="{{ support_ui.result_count | escape }}"></p>
+      <button type="button" class="support-reset">{{ support_ui.reset | escape }}</button>
+    </div>
+  </div>
+  <div class="support-empty" hidden>
+    <p>{{ support_ui.empty | escape }}</p>
+    <a href="features">{{ support_ui.docs | escape }}</a> · <a href="#contact">{{ support_ui.contact | escape }}</a>
+  </div>
+  <div class="support-results">
+    {% for section in page.support_sections %}
+    {% for sub in section.subsections %}
+    {% for item in sub.items %}
+    {% assign category = page.support_categories | where: 'id', item.category | first %}
+    <details class="support-item" id="support-{{ item.id | escape }}" data-category="{{ item.category | escape }}" data-type="{{ item.type | escape }}" data-keywords="{{ item.keywords | join: ' ' | escape }}">
+      <summary>
+        <span class="support-question">{{ item.question | escape }}</span>
+        <span class="support-tags">
+          <span>{{ category.label | escape }}</span>
+          {% case item.type %}
+          {% when 'how-to' %}<span>{{ support_ui.how_to | escape }}</span>
+          {% when 'troubleshooting' %}<span>{{ support_ui.troubleshooting | escape }}</span>
+          {% when 'known-issue' %}<span class="support-known-issue">{{ support_ui.known_issue | escape }} · {{ sub.title | escape }}</span>
+          {% endcase %}
+        </span>
+      </summary>
+      <div class="support-answer">
+        {% if item.platforms or item.builds or item.editions or item.versions %}
+        <p class="support-applicability"><strong>{{ support_ui.applies_to | escape }}:</strong>
+          {% for value in item.platforms %}<span>{{ value | escape }}</span>{% endfor %}
+          {% for value in item.builds %}<span>{{ value | escape }}</span>{% endfor %}
+          {% for value in item.editions %}<span>{{ value | escape }}</span>{% endfor %}
+          {% for value in item.versions %}<span>{{ value | escape }}</span>{% endfor %}
+        </p>
+        {% endif %}
+        <div class="support-answer-content">{{ item.answer | markdownify }}</div>
+        {% if item.related %}
+        <p>{{ support_ui.related | escape }}:</p>
+        <ul>{% for link in item.related %}<li><a href="{{ link.href | escape }}">{{ link.label | escape }}</a></li>{% endfor %}</ul>
+        {% endif %}
+        <a class="support-permalink" href="#support-{{ item.id | escape }}">{{ support_ui.permalink | escape }}</a>
+      </div>
+    </details>
+    {% endfor %}
+    {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+<script src="{{ '/assets/js/support-search.js' | relative_url }}" defer></script>
