@@ -29,12 +29,10 @@ DanceXR 直接從 PMX 檔案讀取這些參數；您無法在 DanceXR 中自行�
 
 ## 使用形變參數列表
 
-<!-- TODO: confirm exact UI path and layout -->
-
 1. 開啟主體選單（點擊主體選取圓盤）。
-2. 在選單底部附近找到 **形變參數列表** (Morph List) 選項。
-3. 每個形變參數都會顯示名稱和一個 0 到 1 的滑桿。
-4. 拖動滑桿以應用形變參數；釋放滑桿則保持當前值。
+2. 開啟角色選單中的PMX變形控制。
+3. 啟用所需PMX變形的 **Override Value**。
+4. 調整数值。覆寫關閉時使用正常動作驅動的值，需要已解鎖該功能的版本。
 
 除非您更改或重新加載模型，否則形變參數都會保持應用狀態。某些形變參數（例如面部表情）在 [Facial control](facial_control) 和 [Blink, breathing & eye contact](lifelike_motions#eye-contact) 處於活躍狀態時，將會被覆蓋。
 
@@ -44,7 +42,7 @@ DanceXR 直接從 PMX 檔案讀取這些參數；您無法在 DanceXR 中自行�
 
 - **Morph names depend on the author**. 日本模型作者通常會用日語命名面部形變參數 (まばたき, あ, い…)。英文模型通常使用英文名稱。
 - **Material morphs** 在這裡顯示的通常與 [Dressing system](optionals) 呈現的相同；無論從哪個位置應用，效果都是一致的。
-- 對於擁有數百個形變參數的 PMX 模型，請捲動或使用搜尋框 <!-- TODO: confirm if search exists --> 查找您需要的形變參數。
+- 清單較長時捲動查看作者定義的名稱。使用 **Application Settings → Use Translated Names** 對照翻譯名稱與原名，必要時重新載入模型。
 
 ---
 

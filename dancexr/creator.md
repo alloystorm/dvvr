@@ -27,13 +27,11 @@ From the recording settings, you can also change the framerate, image format and
 
 ## Recording modes
 
-You can choose from 2D, 3D SBS and VR 180 recording modes when starting recording from the menu.
+The Creator recording menu offers **2D**, **3D Side by Side / Top Bottom**, **VR 120 3D**, **VR 180 3D**, and **VR 360 2D**. VR360 is monoscopic; do not select stereo playback for it. Older builds may expose fewer modes.
 
-With 3D SBS, 2 cameras are used to generate the output, one for each eye. The images are placed side by side. 
+Use **Resolution** for flat 2D/3D output and **VR Resolution** for panoramic output in [Recording Settings](features/recording_settings). **IPD (cm)** controls stereo eye separation. Check the framing with **Preview** and select the matching projection and stereo layout in your VR player.
 
-With VR 180, please note that this doesn't provide true 180 degrees field of view. Instead each camera renders at 120 degrees and the outside area is filled with black. This is a compromise for efficiency for now. We'll evaluate options to provide full 180 and 360 field of view VR videos in future updates. 
-
-2D and 3D SBS modes use the selected resolution in the settings whereas VR180 output is fixed at 4096x2048, that is 2048x2048 each eye. 
+See [stereo/VR recording support](support#support-record-vr-video) for the workflow and encoder requirements.
 
 ## Post processing
 

@@ -59,6 +59,36 @@ support_sections:
             keywords: ["refresh", "rescan", "missing files", "new content", "刷新内容库", "重新扫描", "文件不显示", "新内容"]
             related: [{"href": "preparecontent", "label": "内容库"}]
             answer: "打开**系统 → 内容库 → 刷新内容**，等待扫描完成。在DanceXR运行时复制或移动文件后，可以使用此功能。\n\n应用启动时也会检查内容库的变化。如果文件仍未出现，请确认放入了正确的子文件夹：模型放在 `actors/`，动作和音频放在 `motion/`，舞台放在 `stages/`，天空贴图放在 `texture/sky/`。"
+          - id: "native-and-launcher"
+            category: "content"
+            type: "how-to"
+            question: "Native是什么？必须使用Launcher吗？"
+            keywords: ["Native", "HD", "LW", "RT", "Launcher", "edition", "build", "path tracing", "raster", "Native是什么？必须使用Launcher吗？"]
+            platforms: ["Windows"]
+            related: [{"href": "features/native", "label": "Native指南"}, {"href": "download", "label": "下载与版本"}]
+            answer: "Native是拥有独立渲染和设置的Windows应用。HD、LW和RT是Unity版本。从2026.10起，Native可在支持DirectX 12但不支持光线追踪的电脑上使用光栅渲染；路径追踪需要兼容的光追GPU。\n\nLauncher负责安装、更新和启动运行程序与配套应用，也可以直接下载Native。请在下载页面核对当前版本、激活方式和功能限制。"
+          - id: "runtime-model-formats"
+            category: "content"
+            type: "how-to"
+            question: "支持哪些模型和动作格式？能直接转换或制作动画吗？"
+            keywords: ["PMX", "XPS", "FBX", "BVH", "VMD", "VRM", "VRChat", "DAZ", "OBJ", "conversion", "animation authoring", "支持哪些模型和动作格式？能直接转换或制作动画吗？"]
+            related: [{"href": "preparecontent", "label": "内容库"}, {"href": "features/native", "label": "Native指南"}, {"href": "features/bone_mapper", "label": "骨骼映射器"}]
+            answer: "Unity应用支持PMX/XPS模型、仅模型导入的FBX预览支持、VMD/BVH动作和OBJ场景道具。XPS/FBX模型可能需要骨骼映射。Native当前文档列出PMX/XPS模型和VMD动作。\n\nVRM、VRChat或DAZ工程不一定是可直接使用的模型包。导出或转换属于独立流程，请确认目标格式和骨骼。DanceXR播放导入的动作并提供程序化摆姿，不能替代完整的动画制作工具。"
+          - id: "change-content-library"
+            category: "content"
+            type: "how-to"
+            question: "如何移动或更换内容库？"
+            keywords: ["Switch Library", "Select Library Folder", "move", "relocate", "backup", "settings", "cache", "如何移动或更换内容库？"]
+            related: [{"href": "preparecontent", "label": "内容库"}, {"href": "features/scene_bundle", "label": "场景包"}]
+            answer: "在桌面Unity版本中，将完整内容库复制到新位置并保留备份。打开 **System → Content Library → Switch Library**，选择包含各内容子文件夹的根文件夹。需要浏览时使用 **Select Library Folder**。\n\n切换只改变DanceXR使用的位置，不会自动移动文件。等待扫描并检查已保存的场景。测试旧构建时，请使用独立设置。移动端和独立头显不提供此桌面文件夹选择器。"
+          - id: "add-content-ios"
+            category: "content"
+            type: "how-to"
+            question: "如何在iPhone或iPad上添加内容？"
+            keywords: ["iPhone", "iPad", "iOS", "Files", "iCloud", "Google Drive", "content", "如何在iPhone或iPad上添加内容？"]
+            platforms: ["iOS"]
+            related: [{"href": "preparecontent", "label": "内容库"}, {"href": "features/zip_format", "label": "ZIP格式"}]
+            answer: "先启动一次DanceXR。在**文件 → 我的iPhone / 我的iPad → DanceXR**中，打开应用创建的内容库（通常是 **content** 文件夹）。模型和贴图放入 **actors**，动作和音频放入 **motion**。保留原始贴图目录结构，也可使用完整模型ZIP。\n\n将云端下载复制到本地内容库；单独链接不等于导入模型。使用 **System → Content Library → Refresh Content** 或重启应用。旧版本请以应用创建的目录结构为准。"
       - title: "角色与外观"
         items:
           - id: "add-another-actor"
@@ -89,6 +119,59 @@ support_sections:
             keywords: ["accessory", "prop", "hand", "grab pose", "attachment", "手持道具", "配件", "道具附加", "抓握姿势"]
             related: [{"href": "features/accessory", "label": "配件"}]
             answer: "将道具模型和纹理放入内容库的 `accessory/`，必要时刷新内容库。\n\n选中角色，打开**配件**。启用**左手**或**右手**，然后在**模型**中选择道具。调整**大小与对齐**、**旋转**和**偏移**，使其贴合手部。如果提供**抓握姿势**选项，还可以调整握持方式。\n\n需要使用支持配件功能的版本。"
+          - id: "lip-sync-and-expressions"
+            category: "actors"
+            type: "troubleshooting"
+            question: "为什么嘴巴不动，或手动表情会变回去？"
+            keywords: ["lip sync", "mouth", "blink", "expression", "A I U E O", "facial mapping", "为什么嘴巴不动，或手动表情会变回去？"]
+            related: [{"href": "features/lipsync", "label": "口型同步"}, {"href": "features/facial_control", "label": "面部控制"}, {"href": "features/morph_list", "label": "PMX变形"}]
+            answer: "播放音频时，启用Playback Options中的 **Lip Sync** 和角色Facial Control中的 **Use Lip Sync**。确认音频正在播放，并手动测试各母音控制。若手动也无效，请检查面部映射和模型已有的骨骼或变形。\n\n手动调整嘴型时关闭 **Use Lip Sync**。加载的动作和Lifelike Motions也可能修改表情。AI聊天语音使用单独的口型驱动。"
+          - id: "hide-clothing-parts"
+            category: "actors"
+            type: "how-to"
+            question: "如何隐藏衣服？为什么下面的身体也没了？"
+            keywords: ["clothing", "dressing", "outfit", "hide", "missing body", "visibility", "如何隐藏衣服？为什么下面的身体也没了？"]
+            related: [{"href": "features/optionals", "label": "换装系统"}, {"href": "features/material_settings", "label": "材质设置"}, {"href": "appearance", "label": "外观与材质"}]
+            answer: "在角色的 **Dressing** 中控制PMX材质变形或XPS可选部件。必要时在 **Material List** 中检查单独材质，不要直接隐藏整个材质组。\n\n如果模型本身没有衣服下面的身体几何体，隐藏衣服不会生成身体。有些服装与身体共享材质。可用的换装选项取决于模型作者的制作方式。"
+          - id: "eye-contact-stare"
+            category: "actors"
+            type: "how-to"
+            question: "为什么Eye Contact会看向别处？能一直看着我吗？"
+            keywords: ["eye contact", "look away", "Stare Mode", "gaze", "blink", "为什么Eye Contact会看向别处？能一直看着我吗？"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/lifelike_motions#eye-contact", "label": "拟真动作"}]
+            answer: "Eye Contact会在摄像机、其他角色和身体部位之间转移注意。调整 **Look At Camera**、**Look At Peers** 和 **Look At Body** 的优先级。**Stare Mode** 会持续关注最近的有效目标，替代自然的视线切换。\n\n模型需要兼容的眼部骨骼。没有眼球骨骼时，可配置 **Shape Morph Eye Control**。Stare Mode不保证总是选择观看者。"
+          - id: "texture-map-purpose"
+            category: "actors"
+            type: "how-to"
+            question: "如何添加或修复法线、遮罩和发光贴图？"
+            keywords: ["normal map", "mask map", "emission", "emissive", "specular", "detail map", "ORM", "如何添加或修复法线、遮罩和发光贴图？"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/material_settings", "label": "材质设置"}, {"href": "features/texture_enhancement", "label": "贴图增强"}]
+            answer: "打开所选材质的 **Textures** 设置，检查检测到的贴图。识别错误时，修正贴图用途和通道映射。模型原始法线贴图与平铺细节贴图不同。\n\n自动关联取决于模型格式和导入器，改文件名不是通用修复。检查完整模型包和原始引用路径。仍然无效时，请提供模型格式、贴图文件名、构建版本和截图。"
+          - id: "translated-model-names"
+            category: "actors"
+            type: "how-to"
+            question: "可以切换变形或材质的翻译名称和原始名称吗？"
+            keywords: ["translation", "Japanese", "original name", "morph", "material", "Use Translated Names", "可以切换变形或材质的翻译名称和原始名称吗？"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/application_settings", "label": "应用设置"}, {"href": "features/morph_list", "label": "PMX变形"}]
+            answer: "在Unity版本中调整 **Application Settings → Use Translated Names**。需要与模型说明或编辑器中的原始名称对应时，将它关闭。已有标签未更新时，重新加载模型。\n\n作者自定义的名称可能没有完整翻译。此设置只改变显示名称，不修改模型原文件或骨骼。"
+          - id: "pmx-morph-override"
+            category: "actors"
+            type: "how-to"
+            question: "为什么调整PMX变形值没有效果？"
+            keywords: ["PMX", "morph", "Override Value", "checkbox", "expression", "manual", "为什么调整PMX变形值没有效果？"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/morph_list", "label": "PMX变形"}, {"href": "features/facial_control", "label": "面部控制"}]
+            answer: "在Unity版本中，对模型自带的PMX变形启用 **Override Value**，再调整数值。覆盖关闭时，仍由正常动作驱动的值控制。需要已解锁该功能的版本。\n\n面部表情还应检查口型同步、加载的动作和Lifelike Motions，它们可能驱动同一个表情。其他模型格式和Native不一定使用相同控制。"
+          - id: "adjust-hair-and-cloth"
+            category: "actors"
+            type: "how-to"
+            question: "如何调整头发和衣物物理？"
+            keywords: ["hair", "cloth", "skirt", "physics", "PMX", "XPS", "FBX", "PhysX", "XPBD", "Select Bones", "如何调整头发和衣物物理？"]
+            related: [{"href": "physics", "label": "物理系统"}, {"href": "features/pmx_physics", "label": "PMX物理"}, {"href": "features/hair_physics", "label": "头发物理"}, {"href": "features/skirt_physics", "label": "裙子物理"}]
+            answer: "先确认角色的物理方式。PMX自带刚体和关节可比较 **Physics Mode** 选项；**Auto** 使用系统 **PMX Default**。XPS/FBX自定义工具中，启用 **Hair Physics** 或 **Skirt Physics**，用 **Select Bones** 选择骨骼链根部，并检查身体碰撞体。\n\n一次只调一个设置：PhysX用弹簧和阻尼，XPBD用柔顺度和阻尼。用自定义工具替换PMX物理时，先将PMX **Physics Mode** 设为 **Off**。功能可用性随构建和版本而异，Native有独立物理设置。"
       - title: "动作与播放"
         items:
           - id: "assign-motion"
@@ -119,6 +202,28 @@ support_sections:
             keywords: ["bone mapping", "XPS", "FBX", "T-pose", "Auto Map", "Chain Mapping", "骨骼映射", "标准姿势不动", "自动映射", "链式映射"]
             related: [{"href": "features/bone_mapper", "label": "骨骼映射器"}]
             answer: "加载模型，在角色菜单中打开**骨骼映射器**。运行**自动映射**，检查带感叹号的槽位：这些是尚未分配、但正常动作所必需的骨骼。\n\n将每个缺失槽位映射到模型中对应的骨骼。**链式映射**可以加快手臂、手指等骨骼链的设置。完成必要映射后，分配动作并检查结果。\n\nXPS和FBX需要骨骼映射。PMX模型通常已包含标准骨骼名称。"
+          - id: "feet-slide-or-float"
+            category: "motion"
+            type: "troubleshooting"
+            question: "脚滑动、悬空或被拉向固定位置怎么办？"
+            keywords: ["feet", "sliding", "floating", "floor", "IK", "inverse kinematics", "rest pose", "脚滑动、悬空或被拉向固定位置怎么办？"]
+            related: [{"href": "features/feet_adjustment", "label": "脚部调整"}, {"href": "features/motion_settings", "label": "动作设置"}, {"href": "features/troubleshooting", "label": "角色故障排查"}]
+            answer: "先用默认设置比较同一个模型和动作，再一次调整一个控制项。检查 **Feet On Floor**、**Ground Offset** 和 **Reduce Sliding**。错误的骨骼映射或标准姿势也会影响结果。\n\nUnity版本中，请检查 **Motion Leg IK** 与 **Model IK** 是否产生冲突。不要把关闭全部IK当作通用修复。如果新版本破坏了原本正常的模型，请报告模型、动作、当前版本和最后正常的构建版本。"
+          - id: "motion-speed-sync"
+            category: "motion"
+            type: "troubleshooting"
+            question: "动作太慢、太快或与音乐不同步怎么办？"
+            keywords: ["speed", "slow motion", "60fps", "sync", "music offset", "BPM", "timing", "动作太慢、太快或与音乐不同步怎么办？"]
+            related: [{"href": "motion", "label": "动作系统"}, {"href": "features/playback_options", "label": "播放选项"}, {"href": "features/music_timing", "label": "音乐节拍"}]
+            answer: "检查整体播放速度和动作自身的速度设置。非标准源帧率可能需要单独调节动作速度，不要把所有动作都设为两倍速。录制FPS是另一项设置。\n\n音乐对齐时检查音轨的音频偏移；程序化舞蹈则检查 **Music Timing** 中的BPM和节拍偏移。一次改一个设置，并与预期播放效果比较。"
+          - id: "start-free-pose"
+            category: "motion"
+            type: "how-to"
+            question: "如何用Free Pose给角色摆姿？"
+            keywords: ["Free Pose", "posing", "pin", "grab", "limb", "reset", "如何用Free Pose给角色摆姿？"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/free_pose", "label": "自由摆姿"}]
+            answer: "从程序化动作列表选择 **Free Pose**，将当前动作替换为手动摆姿。拖动身体控制柄；鼠标用户可滚轮调整深度，VR用户可用射线拖动或直接握住控制柄。\n\n先让双脚着地。拖动脚后保持不动，标记变绿即可固定；红色时松开会回落。**Reset** 解除固定并恢复自然站姿。不要把临时固定理解为已保存的可复用姿势。"
       - title: "环境与灯光"
         items:
           - id: "change-sky-map"
@@ -165,7 +270,7 @@ support_sections:
             question: "如何使用舞蹈附带的镜头动作？"
             keywords: ["camera VMD", "camera motion", "dance camera", "imported camera", "镜头动作", "相机动作", "镜头VMD", "舞蹈镜头"]
             related: [{"href": "cameras", "label": "电影镜头"}, {"href": "features/assign_motion", "label": "动作分配"}, {"href": "preparecontent#motion-files", "label": "内容库"}]
-            answer: "将镜头VMD与歌曲、角色动作放在同一个舞蹈套装文件夹或ZIP中，然后加载该套装。\n\n打开**相机**，选择已加载套装中的镜头动作。Freefly、Auto等内置相机模式是其他选项；要跟随舞蹈作者设计的镜头运动，请选择导入的轨道。\n\n如果轨道未出现，请检查加载的包内是否包含该文件。在VR中，这控制的是桌面显示或录制用的相机；头显视角仍跟随头部移动。"
+            answer: "将镜头VMD与歌曲、角色动作放在同一个舞蹈套装文件夹或ZIP中，然后加载该套装。\n\n打开**相机**，选择已加载套装中的镜头动作。Freefly、Auto等内置相机模式是其他选项；要跟随舞蹈作者设计的镜头运动，请选择导入的轨道。\n\n轨道缺失时，请检查加载的包中是否有该文件。Unity VR版本结合头部追踪与摄像机整体移动，具体行为取决于所选相机模式。**Freeze in VR** 会在UI可见时暂停移动。Native有独立相机控制。"
           - id: "record-4k"
             category: "camera"
             type: "how-to"
@@ -190,6 +295,15 @@ support_sections:
             platforms: ["Windows", "macOS"]
             related: [{"href": "features/display_settings", "label": "显示设置"}, {"href": "controls", "label": "操作与界面"}]
             answer: "使用屏幕录制软件，实时录下DanceXR的播放画面即可，不需要Creator Edition。\n\n1. 打开**系统 → 显示与界面 → 分辨率**，关闭**全屏**，使用窗口模式。\n2. 选择**窗口分辨率**。竖屏时开启**垂直**，横屏时关闭。\n3. 点击**应用分辨率**，调整构图；如需干净画面，可以隐藏界面。\n4. 在录屏软件中选择DanceXR窗口及其音频，开始录制后播放动作。\n\n录制流畅度取决于实际播放帧率。如果播放卡顿，请降低画质设置或分辨率。"
+          - id: "record-vr-video"
+            category: "camera"
+            type: "how-to"
+            question: "如何录制立体或VR视频？"
+            keywords: ["stereo", "SBS", "Side by Side", "Top Bottom", "VR120", "VR180", "VR360", "FFmpeg", "encoder", "如何录制立体或VR视频？"]
+            builds: ["HD", "LW", "RT"]
+            editions: ["Creator"]
+            related: [{"href": "creator", "label": "Creator创作者版"}, {"href": "features/recording_settings", "label": "录制设置"}]
+            answer: "使用已激活的 **Creator Edition**。在录制菜单中选择 **Record 3D → Side by Side / Top Bottom**，或 **Record VR → VR 120 3D / VR 180 3D / VR 360 2D**。VR360是单目。先检查 **Preview** 和Recording Settings。\n\n录制会生成图像序列。用视频编辑器或生成的批处理转换；批处理需要FFmpeg。全景批处理使用NVIDIA编码器，其他GPU需改用可用编码器。在VR播放器中选择匹配的投影和立体模式。"
       - title: "保存与分享"
         items:
           - id: "save-scene"
@@ -245,6 +359,30 @@ support_sections:
             editions: ["Pro"]
             related: [{"href": "features/ar_mode", "label": "AR设置"}]
             answer: "在支持的Android或iOS设备上启动DanceXR，打开**环境**，选择 **AR**。如果设备请求相机权限，请允许访问，然后等待AR初始化。\n\n在AR设置中使用**显示相机**来显示真实环境背景。若希望角色看起来直接站在实际地板上，启用**隐藏地面**。使用**停止AR**返回普通模式。\n\nAR需要已激活的Pro版本及兼容的设备／构建版本。如果没有AR选项，请同时检查设备支持情况和激活状态。Quest透视功能另有说明。"
+          - id: "vr-camera-menu-freeze"
+            category: "vr"
+            type: "troubleshooting"
+            question: "为什么在VR中打开菜单后摄像机停止移动？"
+            keywords: ["VR", "camera", "joystick", "menu", "Freeze in VR", "first person", "auto camera", "为什么在VR中打开菜单后摄像机停止移动？"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/camera_settings", "label": "相机设置"}, {"href": "controls", "label": "操作与界面"}, {"href": "vr_operations", "label": "VR操作"}]
+            answer: "Unity版本中，**Freeze in VR** 会在菜单可见时暂停摄像机移动。隐藏菜单再试，或在Camera Settings中调整 **Freeze in VR**，允许操作菜单时移动。\n\n头部追踪与摄像机整体移动不同。如果隐藏菜单后控制器仍无法移动，请提供构建版本、头显、控制器和OpenXR运行时。Native使用独立的控制系统。"
+          - id: "vr-controller-options"
+            category: "vr"
+            type: "troubleshooting"
+            question: "为什么必须按下摇杆才能移动，或握持会误触动作？"
+            keywords: ["thumbstick", "Index", "grip", "Trackpad Mode", "Grip Threshold", "controller", "为什么必须按下摇杆才能移动，或握持会误触动作？"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/input_settings", "label": "控制器输入"}, {"href": "vr_operations", "label": "VR操作"}]
+            answer: "在Unity版本中检查 **Controller Input → Options**。关闭 **Trackpad Mode**，尝试不按下触摸板或摇杆的轴输入。握持误触时，可提高 **Grip Threshold** 或关闭 **Use Grip Input**；后者也会禁用基于握持的交互。\n\n一次只改一个选项。这些是可尝试的设置，不保证适用于所有头显。Native的控制设置独立。"
+          - id: "move-vr-ui"
+            category: "vr"
+            type: "how-to"
+            question: "如何移动VR菜单？"
+            keywords: ["menu", "grip drag", "UI Auto Return", "UI Distance", "floating panel", "如何移动VR菜单？"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "vr_operations", "label": "VR操作"}, {"href": "features/vr_settings", "label": "VR设置"}]
+            answer: "在Unity VR版本中指向菜单面板，按住控制器 **grip button** 并移动手来重新定位，松开后留在该位置。\n\n在 **Environment → VR → UI** 调整 **UI Distance** 和 **UI Auto Return**。Auto Return让移出视野的面板返回。菜单隐藏时，用已绑定的Toggle UI重新显示。Native使用独立界面。"
       - title: "故障排查与授权"
         items:
           - id: "white-model"
@@ -257,11 +395,11 @@ support_sections:
           - id: "transparent-hair"
             category: "help"
             type: "troubleshooting"
-            question: "如何修复头发看起来透明的问题？"
-            keywords: ["hair", "see-through", "transparency", "depth prepass", "transparent hair", "sorting", "头发透明", "透明度", "深度预处理", "透明层", "渲染顺序"]
+            question: "如何修复穿透的头发或消失的透明衣物？"
+            keywords: ["hair", "see-through", "transparency", "depth prepass", "transparent hair", "sorting", "stockings", "eyelashes", "opaque", "alpha", "classification", "头发透明", "透明度", "深度预处理", "透明层", "渲染顺序"]
             builds: ["HD", "RT"]
             related: [{"href": "features/transparency", "label": "透明材质"}, {"href": "faq", "label": "常见问题"}]
-            answer: "在HD/RT版本中，透明深度预处理可能使多层透明头发的内层消失。\n\n尝试关闭**系统 → 图形 → 选项 → 透明预处理**并比较结果。若希望只修改局部，可以仅调整受影响的头发材质的透明预处理。\n\n关闭后可能出现其他透明排序问题。请从多个角度检查，选择最适合该模型的设置。"
+            answer: "在HD/RT版本中，透明深度预处理可能使多层透明头发的内层消失。\n\n尝试关闭**系统 → 图形 → 选项 → 透明预处理**并比较结果。若希望只修改局部，可以仅调整受影响的头发材质的透明预处理。\n\n关闭后可能出现其他透明排序问题。请从多个角度检查，选择最适合该模型的设置。\n\n丝袜、睫毛或衣服不透明或消失时，还需检查材质 **Auto / Opaque / Transparent** 分类、可见性及分组/全局覆盖。缺失贴图与透明层问题不同。上述预处理建议适用于HD/RT，Native和其他渲染管线使用不同控制。"
           - id: "vr-will-not-start"
             category: "help"
             type: "troubleshooting"
@@ -276,6 +414,20 @@ support_sections:
             keywords: ["activation", "license", "hardware change", "activate", "reactivate", "purchase", "entitlement", "激活", "重新激活", "购买验证", "许可证恢复"]
             related: [{"href": "activation", "label": "激活与许可"}]
             answer: "Steam和Google Play版本通常会在商店验证购买后自动激活。\n\n需要手动激活的版本，请打开**系统 → 激活您的副本**。按照浏览器提示，选择购买平台并登录。成功页面出现后，返回DanceXR，再次点击**激活您的副本**以获取许可证。\n\n如果该设备之前已激活，DanceXR可能无需打开浏览器即可恢复许可证。重新安装、更换硬件或切换构建版本后再次激活，不会额外收费。"
+          - id: "platform-release-timing"
+            category: "help"
+            type: "how-to"
+            question: "为什么我的版本或平台还没有某个更新或功能？"
+            keywords: ["Steam", "beta", "default", "Patreon", "Android", "iOS", "update", "missing feature", "edition", "为什么我的版本或平台还没有某个更新或功能？"]
+            related: [{"href": "releases", "label": "更新说明"}, {"href": "download", "label": "下载与版本"}, {"href": "activation", "label": "激活与许可"}]
+            answer: "PC、Android和iOS不一定同时更新。Steam默认分支和测试分支可能使用不同构建；Patreon提前发布不代表所有商店版本都已获得相同功能。\n\n请检查当前更新说明、下载页面的版本信息和激活状态。询问缺失功能时，请提供平台、购买版本、运行程序、准确版本号以及Steam分支（如适用）。移动端有独立发布安排，PC发布日期不是移动端的交付承诺。"
+          - id: "slow-or-noisy-rendering"
+            category: "help"
+            type: "troubleshooting"
+            question: "如何排查低帧率、卡顿或路径追踪噪点？"
+            keywords: ["FPS", "lag", "stutter", "performance", "VRAM", "noise", "path tracing", "DLSS", "render scale", "如何排查低帧率、卡顿或路径追踪噪点？"]
+            related: [{"href": "features/graphics", "label": "图形设置"}, {"href": "features/native", "label": "Native指南"}, {"href": "troubleshooting", "label": "故障排查"}]
+            answer: "用默认场景和单个角色与问题场景比较。降低渲染比例，并逐项测试镜面、阴影和高开销效果。Unity HD/RT有画质预设；Native提供 **Detect best settings**、光栅画质档位及独立的桌面/VR图形设置。\n\n路径追踪噪点与卡顿不同：Native的Realtime使用降噪和超采样，Reference为静态画面积累采样。问题持续时，请提供设备/GPU、构建版本、场景、FPS和日志。不要假设一个设置能修复所有平台。"
   - id: "faq"
     label: "常见问题"
     title: "常见问题解答 (FAQ)"
@@ -300,8 +452,8 @@ support_sections:
             category: "help"
             type: "troubleshooting"
             question: "在哪里可以找到日志文件？"
-            keywords: ["logs", "Player.log", "Player-prev.log", "bug report"]
-            answer: "报告 bug 时，附上日志文件会非常有帮助。请在您的 bug 报告中附带 **`Player.log`**（当前会话）和 **`Player-prev.log`**（上一次会话）。\n\n**Windows PC 路径：**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*注意：请将 `[User]` 替换为您的 Windows 用户名。如果 AppData 文件夹被隐藏，请在 Windows 文件资源管理器中启用“隐藏的项目”。*\n\n**Android 和 Meta Quest 路径：**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*注意：通过 USB 将您的设备连接到电脑，并使用文件传输模式来定位此文件。*"
+            keywords: ["logs", "Player.log", "Player-prev.log", "bug report", "Native", "diagnostics", "report issue", "reproduction"]
+            answer: "报告 bug 时，附上日志文件会非常有帮助。请在您的 bug 报告中附带 **`Player.log`**（当前会话）和 **`Player-prev.log`**（上一次会话）。\n\n**Windows PC 路径：**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*注意：请将 `[User]` 替换为您的 Windows 用户名。如果 AppData 文件夹被隐藏，请在 Windows 文件资源管理器中启用“隐藏的项目”。*\n\n**Android 和 Meta Quest 路径：**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*注意：通过 USB 将您的设备连接到电脑，并使用文件传输模式来定位此文件。*\n\n**Native** 请使用 **System → Open Log**、**Copy Diagnostics** 或 **Report Issue**，不要套用Unity日志路径。报告中包含准确构建版本、平台、渲染器/VR运行时、复现步骤、预期结果和截图。仅分享有权提供的模型或动作。移动端存储访问随系统版本变化，USB不一定显示所有应用文件夹。"
       - title: "🖥️ 系统与 VR 启动"
         items:
           - id: "startup-sky-only"

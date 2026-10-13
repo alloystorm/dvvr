@@ -54,7 +54,7 @@ DanceXR searches for various types of content in distinct subfolders located wit
 ## Supported formats
 
 * 3D models: PMX, XPS, FBX (preview — since 2025.9, model only), and OBJ (for stage props)
-* Audio: OGG and MP3 (on mobile platforms only)
+* Audio: WAV and OGG in Unity desktop/mobile apps; MP3 on mobile. The WebGL player supports uncompressed WAV only.
 * Video: MP4
 * Motion: VMD, BVH
 * Textures: PNG, JPG, and HDR (for sky maps)

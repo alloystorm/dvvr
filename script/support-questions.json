@@ -1,6 +1,6 @@
 {
-  "status": "published-first-batch",
-  "description": "Approved first batch: 32 answers published in English, Japanese, Simplified Chinese, Traditional Chinese and Korean. The 10 later-batch questions remain drafts.",
+  "status": "approved-second-batch",
+  "description": "Second batch approved 13 October 2026: 20 additional support entries and expanded reporting/transparency/camera guidance in five languages. Remaining four questions stay drafts. Catalogue publication status means inclusion in generated pages; live deployment is tracked in supervisor.",
   "categories": [
     {
       "id": "content",
@@ -334,9 +334,68 @@
       "id": "change-content-library",
       "category": "content",
       "question": "How do I move or change my content library?",
-      "batch": "later",
-      "status": "draft",
-      "source": "preparecontent"
+      "batch": "second",
+      "status": "published",
+      "source": "preparecontent",
+      "type": "how-to",
+      "answer": "On desktop Unity builds, copy the complete library to its new location and keep a backup. Open **System → Content Library → Switch Library**, then choose the folder containing the library subfolders. Use **Select Library Folder** if you need to browse.\n\nSwitching changes the folder DanceXR uses; it does not move files for you. Wait for the scan and check saved scenes. Keep separate settings when testing older builds. Mobile and standalone headsets do not expose this desktop picker.",
+      "question_locales": {
+        "jp": "コンテンツライブラリを移動、変更するには？",
+        "zh": "如何移动或更换内容库？",
+        "tw": "如何移動或更換內容庫？",
+        "kr": "콘텐츠 라이브러리를 이동하거나 변경하려면 어떻게 하나요?"
+      },
+      "answer_locales": {
+        "jp": "デスクトップUnity版では、ライブラリ一式を移動先へコピーし、バックアップを残します。**System → Content Library → Switch Library** を開き、各サブフォルダーを含む親フォルダーを選んでください。必要なら **Select Library Folder** で参照します。\n\n切り替えは使用場所を変更するだけで、ファイルを移動しません。スキャン後に保存シーンも確認します。旧ビルドの試験では設定を分けてください。モバイルや単体型ヘッドセットにはこのデスクトップ用選択画面はありません。",
+        "zh": "在桌面Unity版本中，将完整内容库复制到新位置并保留备份。打开 **System → Content Library → Switch Library**，选择包含各内容子文件夹的根文件夹。需要浏览时使用 **Select Library Folder**。\n\n切换只改变DanceXR使用的位置，不会自动移动文件。等待扫描并检查已保存的场景。测试旧构建时，请使用独立设置。移动端和独立头显不提供此桌面文件夹选择器。",
+        "tw": "在桌面Unity版本中，將完整內容庫複製到新位置並保留備份。開啟 **System → Content Library → Switch Library**，選擇包含各內容子資料夾的根資料夾。需要瀏覽時使用 **Select Library Folder**。\n\n切換只改變DanceXR使用的位置，不會自動移動檔案。等待掃描並檢查已儲存的場景。測試舊組建時，請使用獨立設定。行動版和獨立頭戴裝置不提供此桌面資料夾選擇器。",
+        "kr": "데스크톱 Unity 버전에서는 전체 라이브러리를 새 위치로 복사하고 백업을 남기세요. **System → Content Library → Switch Library**를 열고 하위 폴더를 포함한 라이브러리 루트를 선택하세요. 필요하면 **Select Library Folder**로 찾아보세요.\n\n전환은 사용할 위치만 바꾸며 파일을 이동하지 않습니다. 스캔 후 저장된 장면을 확인하세요. 이전 빌드 시험 시 설정을 따로 유지하세요. 모바일과 독립형 헤드셋에는 이 데스크톱 선택기가 없습니다."
+      },
+      "keywords": [
+        "Switch Library",
+        "Select Library Folder",
+        "move",
+        "relocate",
+        "backup",
+        "settings",
+        "cache"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "コンテンツライブラリを移動、変更するには？"
+        ],
+        "zh": [
+          "如何移动或更换内容库？"
+        ],
+        "tw": [
+          "如何移動或更換內容庫？"
+        ],
+        "kr": [
+          "콘텐츠 라이브러리를 이동하거나 변경하려면 어떻게 하나요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "preparecontent",
+          "label": "Content Library",
+          "label_locales": {
+            "jp": "コンテンツライブラリ",
+            "zh": "内容库",
+            "tw": "內容庫",
+            "kr": "콘텐츠 라이브러리"
+          }
+        },
+        {
+          "href": "features/scene_bundle",
+          "label": "Scene Bundle",
+          "label_locales": {
+            "jp": "シーンバンドル",
+            "zh": "场景包",
+            "tw": "場景包",
+            "kr": "장면 번들"
+          }
+        }
+      ]
     },
     {
       "review_id": "Q06",
@@ -655,9 +714,91 @@
       "id": "adjust-hair-and-cloth",
       "category": "actors",
       "question": "How do I adjust hair and clothing physics?",
-      "batch": "later",
-      "status": "draft",
-      "source": "physics"
+      "batch": "second",
+      "status": "published",
+      "source": "physics",
+      "type": "how-to",
+      "answer": "First check the actor’s physics setup. For PMX-authored bodies and joints, compare **Physics Mode** options; **Auto** follows the system’s **PMX Default**. For XPS/FBX custom tools, enable **Hair Physics** or **Skirt Physics**, use **Select Bones** for chain roots, and check body colliders.\n\nTune one setting at a time: PhysX uses spring/damping controls; XPBD uses compliance/damping. To replace a PMX rig with custom tools, set PMX **Physics Mode** to **Off** first. Availability varies by build/edition. Native has separate physics controls.",
+      "question_locales": {
+        "jp": "髪や衣服の物理を調整するには？",
+        "zh": "如何调整头发和衣物物理？",
+        "tw": "如何調整頭髮和衣物物理？",
+        "kr": "머리카락과 의상 물리를 조절하려면 어떻게 하나요?"
+      },
+      "answer_locales": {
+        "jp": "まずアクターの物理方式を確認します。PMXの剛体・ジョイントには **Physics Mode** を使い、**Auto** はシステムの **PMX Default** に従います。XPS/FBXのツールは **Hair Physics** または **Skirt Physics** を有効にし、**Select Bones** でボーン列の根を選び、体のコライダーを確認します。\n\nPhysXはばねと減衰、XPBDはコンプライアンスと減衰を一つずつ調整します。PMXの物理をツールで置き換える場合は先に **Physics Mode** を **Off** にします。利用可能な機能はビルド/エディションで異なり、Nativeの設定は別です。",
+        "zh": "先确认角色的物理方式。PMX自带刚体和关节可比较 **Physics Mode** 选项；**Auto** 使用系统 **PMX Default**。XPS/FBX自定义工具中，启用 **Hair Physics** 或 **Skirt Physics**，用 **Select Bones** 选择骨骼链根部，并检查身体碰撞体。\n\n一次只调一个设置：PhysX用弹簧和阻尼，XPBD用柔顺度和阻尼。用自定义工具替换PMX物理时，先将PMX **Physics Mode** 设为 **Off**。功能可用性随构建和版本而异，Native有独立物理设置。",
+        "tw": "先確認角色的物理方式。PMX自帶剛體和關節可比較 **Physics Mode** 選項；**Auto** 使用系統 **PMX Default**。XPS/FBX自訂工具中，啟用 **Hair Physics** 或 **Skirt Physics**，用 **Select Bones** 選擇骨骼鏈根部，並檢查身體碰撞體。\n\n一次只調一個設定：PhysX用彈簧和阻尼，XPBD用柔順度和阻尼。用自訂工具替換PMX物理時，先將PMX **Physics Mode** 設為 **Off**。功能可用性隨組建和版本而異，Native有獨立物理設定。",
+        "kr": "먼저 배우의 물리 구성을 확인하세요. PMX의 강체와 관절은 **Physics Mode**를 비교하며 **Auto**는 시스템의 **PMX Default**를 따릅니다. XPS/FBX 사용자 도구에서는 **Hair Physics** 또는 **Skirt Physics**를 켜고 **Select Bones**로 체인 루트를 선택한 다음 몸 콜라이더를 확인하세요.\n\n한 번에 하나씩 조절하세요. PhysX는 스프링/댐핑, XPBD는 컴플라이언스/댐핑을 사용합니다. PMX 리그를 사용자 도구로 대체하려면 먼저 **Physics Mode**를 **Off**로 설정하세요. 기능은 빌드/에디션에 따라 다르며 Native는 별도 설정입니다."
+      },
+      "keywords": [
+        "hair",
+        "cloth",
+        "skirt",
+        "physics",
+        "PMX",
+        "XPS",
+        "FBX",
+        "PhysX",
+        "XPBD",
+        "Select Bones"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "髪や衣服の物理を調整するには？"
+        ],
+        "zh": [
+          "如何调整头发和衣物物理？"
+        ],
+        "tw": [
+          "如何調整頭髮和衣物物理？"
+        ],
+        "kr": [
+          "머리카락과 의상 물리를 조절하려면 어떻게 하나요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "physics",
+          "label": "Physics",
+          "label_locales": {
+            "jp": "物理システム",
+            "zh": "物理系统",
+            "tw": "物理系統",
+            "kr": "물리 시스템"
+          }
+        },
+        {
+          "href": "features/pmx_physics",
+          "label": "PMX Physics",
+          "label_locales": {
+            "jp": "PMX物理",
+            "zh": "PMX物理",
+            "tw": "PMX物理",
+            "kr": "PMX 물리"
+          }
+        },
+        {
+          "href": "features/hair_physics",
+          "label": "Hair Physics",
+          "label_locales": {
+            "jp": "髪の物理",
+            "zh": "头发物理",
+            "tw": "頭髮物理",
+            "kr": "머리카락 물리"
+          }
+        },
+        {
+          "href": "features/skirt_physics",
+          "label": "Skirt Physics",
+          "label_locales": {
+            "jp": "スカートの物理",
+            "zh": "裙子物理",
+            "tw": "裙子物理",
+            "kr": "치마 물리"
+          }
+        }
+      ]
     },
     {
       "review_id": "Q11",
@@ -940,7 +1081,8 @@
       "question": "How do I combine a primary and secondary motion?",
       "batch": "later",
       "status": "draft",
-      "source": "features/assign_motion"
+      "source": "features/assign_motion",
+      "related": []
     },
     {
       "review_id": "Q16",
@@ -1290,7 +1432,8 @@
       "question": "How do I add clouds, rain or snow?",
       "batch": "later",
       "status": "draft",
-      "source": "features/weather_particles"
+      "source": "features/weather_particles",
+      "related": []
     },
     {
       "review_id": "Q21",
@@ -1369,7 +1512,7 @@
       "batch": "first",
       "status": "published",
       "source": "cameras",
-      "answer": "Keep the camera VMD in the same dance-set folder or ZIP as the song and actor motions, then load that dance set.\n\nOpen **Camera** and select the camera motion from the loaded set. Built-in camera modes such as Freefly or Auto are separate choices; select the imported track to follow the dance's authored camera movement.\n\nIf the track is missing, check that its file is in the package you loaded. In VR, this controls the desktop/recording camera; the headset view follows your head.",
+      "answer": "Keep the camera VMD in the same dance-set folder or ZIP as the song and actor motions, then load that dance set.\n\nOpen **Camera** and select the camera motion from the loaded set. Built-in camera modes such as Freefly or Auto are separate choices; select the imported track to follow the dance's authored camera movement.\n\nIf the track is missing, check that its file is in the package you loaded. In Unity VR builds, head tracking is combined with camera-rig movement; the selected camera mode matters. **Freeze in VR** pauses camera movement while the UI is visible. Native has its own camera controls.",
       "type": "how-to",
       "keywords": [
         "camera VMD",
@@ -1423,10 +1566,10 @@
         "kr": "댄스에 포함된 카메라 모션을 사용하려면 어떻게 하나요?"
       },
       "answer_locales": {
-        "jp": "カメラVMDを、曲やアクターのモーションと同じダンスセットのフォルダーまたはZIPに入れ、そのセットを読み込みます。\n\n**カメラ** を開き、読み込んだセットのカメラモーションを選択します。FreeflyやAutoなどの内蔵カメラモードは別の選択肢です。ダンス用に作られたカメラの動きを使うには、読み込んだトラックを選んでください。\n\nトラックが表示されない場合は、読み込んだパッケージにファイルが含まれているか確認します。VRではデスクトップ表示や録画用のカメラに適用され、ヘッドセットの視点は頭の動きに従います。",
-        "zh": "将镜头VMD与歌曲、角色动作放在同一个舞蹈套装文件夹或ZIP中，然后加载该套装。\n\n打开**相机**，选择已加载套装中的镜头动作。Freefly、Auto等内置相机模式是其他选项；要跟随舞蹈作者设计的镜头运动，请选择导入的轨道。\n\n如果轨道未出现，请检查加载的包内是否包含该文件。在VR中，这控制的是桌面显示或录制用的相机；头显视角仍跟随头部移动。",
-        "tw": "將鏡頭VMD與歌曲、角色動作放在同一個舞蹈套裝資料夾或ZIP中，然後載入該套裝。\n\n開啟**相機**，選擇已載入套裝中的鏡頭動作。Freefly、Auto等內建相機模式是其他選項；要跟隨舞蹈作者設計的鏡頭運動，請選擇匯入的軌道。\n\n如果軌道未出現，請檢查載入的包內是否包含該檔案。在VR中，這控制的是桌面顯示或錄製用的相機；頭戴裝置視角仍跟隨頭部移動。",
-        "kr": "카메라 VMD를 음악과 액터 모션이 있는 댄스 세트 폴더나 ZIP에 넣고 그 세트를 불러오세요.\n\n**카메라**를 열어 불러온 세트의 카메라 모션을 선택하세요. Freefly나 Auto 같은 내장 카메라 모드는 별도 선택 항목입니다. 댄스 제작자가 만든 카메라 움직임을 사용하려면 가져온 트랙을 선택하세요.\n\n트랙이 보이지 않으면 불러온 패키지에 해당 파일이 있는지 확인하세요. VR에서는 데스크톱 표시나 녹화용 카메라에 적용되며, 헤드셋 시점은 머리 움직임을 따릅니다."
+        "jp": "カメラVMDを、曲やアクターのモーションと同じダンスセットのフォルダーまたはZIPに入れ、そのセットを読み込みます。\n\n**カメラ** を開き、読み込んだセットのカメラモーションを選択します。FreeflyやAutoなどの内蔵カメラモードは別の選択肢です。ダンス用に作られたカメラの動きを使うには、読み込んだトラックを選んでください。\n\nトラックが見つからなければ、読み込んだパッケージ内のファイルを確認してください。UnityのVR版では頭の追跡とカメラリグ移動が組み合わさり、選択したモードによって動作が変わります。**Freeze in VR** はUI表示中のカメラ移動を止めます。Nativeのカメラ設定は別です。",
+        "zh": "将镜头VMD与歌曲、角色动作放在同一个舞蹈套装文件夹或ZIP中，然后加载该套装。\n\n打开**相机**，选择已加载套装中的镜头动作。Freefly、Auto等内置相机模式是其他选项；要跟随舞蹈作者设计的镜头运动，请选择导入的轨道。\n\n轨道缺失时，请检查加载的包中是否有该文件。Unity VR版本结合头部追踪与摄像机整体移动，具体行为取决于所选相机模式。**Freeze in VR** 会在UI可见时暂停移动。Native有独立相机控制。",
+        "tw": "將鏡頭VMD與歌曲、角色動作放在同一個舞蹈套裝資料夾或ZIP中，然後載入該套裝。\n\n開啟**相機**，選擇已載入套裝中的鏡頭動作。Freefly、Auto等內建相機模式是其他選項；要跟隨舞蹈作者設計的鏡頭運動，請選擇匯入的軌道。\n\n軌道缺少時，請檢查載入的包中是否有該檔案。Unity VR版本結合頭部追蹤與攝影機整體移動，具體行為取決於所選相機模式。**Freeze in VR** 會在UI可見時暫停移動。Native有獨立攝影機控制。",
+        "kr": "카메라 VMD를 음악과 액터 모션이 있는 댄스 세트 폴더나 ZIP에 넣고 그 세트를 불러오세요.\n\n**카메라**를 열어 불러온 세트의 카메라 모션을 선택하세요. Freefly나 Auto 같은 내장 카메라 모드는 별도 선택 항목입니다. 댄스 제작자가 만든 카메라 움직임을 사용하려면 가져온 트랙을 선택하세요.\n\n트랙이 없으면 불러온 패키지에 파일이 있는지 확인하세요. Unity VR에서는 머리 추적과 카메라 리그 이동이 함께 적용되며 선택한 카메라 모드가 중요합니다. **Freeze in VR**는 UI 표시 중 이동을 멈춥니다. Native는 별도 카메라 조절을 사용합니다."
       },
       "keywords_locales": {
         "jp": [
@@ -1621,9 +1764,78 @@
       "id": "record-vr-video",
       "category": "camera",
       "question": "How do I record a stereo or VR video?",
-      "batch": "later",
-      "status": "draft",
-      "source": "features/recording_settings"
+      "batch": "second",
+      "status": "published",
+      "source": "features/recording_settings",
+      "type": "how-to",
+      "answer": "Use an activated **Creator Edition** build. In the recording menu, choose **Record 3D → Side by Side / Top Bottom**, or **Record VR → VR 120 3D / VR 180 3D / VR 360 2D**. VR360 is monoscopic. Check **Preview** and Recording Settings first.\n\nRecording creates image frames. Convert them with a video editor or the generated batch file, which needs FFmpeg. Panorama batch files use an NVIDIA encoder; other GPUs need an available encoder instead. Set the matching projection/stereo mode in your VR player.",
+      "question_locales": {
+        "jp": "ステレオやVR動画を録画するには？",
+        "zh": "如何录制立体或VR视频？",
+        "tw": "如何錄製立體或VR影片？",
+        "kr": "스테레오 또는 VR 영상을 녹화하려면 어떻게 하나요?"
+      },
+      "answer_locales": {
+        "jp": "認証済みの **Creator Edition** を使います。録画メニューの **Record 3D → Side by Side / Top Bottom**、または **Record VR → VR 120 3D / VR 180 3D / VR 360 2D** を選びます。VR360は単眼です。先に **Preview** とRecording Settingsを確認してください。\n\n録画結果は連番画像です。動画編集ソフト、またはFFmpegが必要な生成バッチで変換します。パノラマ用バッチはNVIDIAエンコーダーを使うため、他のGPUでは使用可能なエンコーダーへ変更してください。VRプレーヤーで投影・ステレオ方式を合わせます。",
+        "zh": "使用已激活的 **Creator Edition**。在录制菜单中选择 **Record 3D → Side by Side / Top Bottom**，或 **Record VR → VR 120 3D / VR 180 3D / VR 360 2D**。VR360是单目。先检查 **Preview** 和Recording Settings。\n\n录制会生成图像序列。用视频编辑器或生成的批处理转换；批处理需要FFmpeg。全景批处理使用NVIDIA编码器，其他GPU需改用可用编码器。在VR播放器中选择匹配的投影和立体模式。",
+        "tw": "使用已啟用的 **Creator Edition**。在錄製選單中選擇 **Record 3D → Side by Side / Top Bottom**，或 **Record VR → VR 120 3D / VR 180 3D / VR 360 2D**。VR360是單眼。先檢查 **Preview** 和Recording Settings。\n\n錄製會產生影像序列。用影片編輯器或產生的批次檔轉換；批次檔需要FFmpeg。全景批次檔使用NVIDIA編碼器，其他GPU需改用可用編碼器。在VR播放器中選擇相符的投影和立體模式。",
+        "kr": "활성화된 **Creator Edition**을 사용하세요. 녹화 메뉴에서 **Record 3D → Side by Side / Top Bottom** 또는 **Record VR → VR 120 3D / VR 180 3D / VR 360 2D**를 선택하세요. VR360은 단안입니다. 먼저 **Preview**와 Recording Settings를 확인하세요.\n\n녹화는 이미지 프레임을 만듭니다. 편집기 또는 FFmpeg가 필요한 생성 배치 파일로 변환하세요. 파노라마 배치는 NVIDIA 인코더를 사용하므로 다른 GPU에는 사용 가능한 인코더가 필요합니다. VR 플레이어에서 투영 및 스테레오 모드를 맞추세요."
+      },
+      "keywords": [
+        "stereo",
+        "SBS",
+        "Side by Side",
+        "Top Bottom",
+        "VR120",
+        "VR180",
+        "VR360",
+        "FFmpeg",
+        "encoder"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "ステレオやVR動画を録画するには？"
+        ],
+        "zh": [
+          "如何录制立体或VR视频？"
+        ],
+        "tw": [
+          "如何錄製立體或VR影片？"
+        ],
+        "kr": [
+          "스테레오 또는 VR 영상을 녹화하려면 어떻게 하나요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "creator",
+          "label": "Creator Edition",
+          "label_locales": {
+            "jp": "Creatorエディション",
+            "zh": "Creator创作者版",
+            "tw": "Creator創作者版",
+            "kr": "Creator 에디션"
+          }
+        },
+        {
+          "href": "features/recording_settings",
+          "label": "Recording Settings",
+          "label_locales": {
+            "jp": "録画設定",
+            "zh": "录制设置",
+            "tw": "錄製設定",
+            "kr": "녹화 설정"
+          }
+        }
+      ],
+      "editions": [
+        "Creator"
+      ],
+      "builds": [
+        "HD",
+        "LW",
+        "RT"
+      ]
     },
     {
       "review_id": "Q41",
@@ -2010,7 +2222,8 @@
       "question": "How do I organize models and motions with favorites and tags?",
       "batch": "later",
       "status": "draft",
-      "source": "features/tagging"
+      "source": "features/tagging",
+      "related": []
     },
     {
       "review_id": "Q31",
@@ -2112,8 +2325,10 @@
       "type": "how-to",
       "keywords": [
         "Android",
-        "Quest",
+        "Meta Quest",
+        "storage permission",
         "content library",
+        "Quest",
         "File Transfer",
         "storage"
       ],
@@ -2175,9 +2390,80 @@
       "id": "move-vr-ui",
       "category": "vr",
       "question": "How do I move the menu in VR?",
-      "batch": "later",
-      "status": "draft",
-      "source": "vr_operations"
+      "batch": "second",
+      "status": "published",
+      "source": "vr_operations",
+      "type": "how-to",
+      "answer": "In Unity VR builds, point at the menu panel, hold the controller’s **grip button**, and move your hand to reposition it. Release to leave it there.\n\nUnder **Environment → VR → UI**, adjust **UI Distance** and **UI Auto Return**. Auto Return brings the panel back into view when it drifts away. If hidden, bring it back with your assigned Toggle UI control. Native uses a separate interface.",
+      "question_locales": {
+        "jp": "VRのメニューを移動するには？",
+        "zh": "如何移动VR菜单？",
+        "tw": "如何移動VR選單？",
+        "kr": "VR 메뉴를 이동하려면 어떻게 하나요?"
+      },
+      "answer_locales": {
+        "jp": "UnityのVR版ではメニューへポインターを向け、コントローラーの **grip button** を押しながら手を動かします。離すとその位置に置けます。\n\n**Environment → VR → UI** の **UI Distance** と **UI Auto Return** で距離と自動復帰を調整します。Auto Returnは見失ったパネルを視界へ戻します。非表示なら割り当てたToggle UIで表示してください。Nativeの画面は別です。",
+        "zh": "在Unity VR版本中指向菜单面板，按住控制器 **grip button** 并移动手来重新定位，松开后留在该位置。\n\n在 **Environment → VR → UI** 调整 **UI Distance** 和 **UI Auto Return**。Auto Return让移出视野的面板返回。菜单隐藏时，用已绑定的Toggle UI重新显示。Native使用独立界面。",
+        "tw": "在Unity VR版本中指向選單面板，按住控制器 **grip button** 並移動手來重新定位，放開後留在該位置。\n\n在 **Environment → VR → UI** 調整 **UI Distance** 和 **UI Auto Return**。Auto Return讓移出視野的面板返回。選單隱藏時，用已綁定的Toggle UI重新顯示。Native使用獨立介面。",
+        "kr": "Unity VR 버전에서 메뉴 패널을 가리키고 컨트롤러의 **grip button**을 누른 채 손을 움직이세요. 놓으면 해당 위치에 둡니다.\n\n**Environment → VR → UI**에서 **UI Distance**와 **UI Auto Return**을 조절하세요. Auto Return은 시야 밖으로 간 패널을 다시 가져옵니다. 숨겨져 있으면 지정한 Toggle UI로 표시하세요. Native는 별도 인터페이스를 사용합니다."
+      },
+      "keywords": [
+        "menu",
+        "grip drag",
+        "UI Auto Return",
+        "UI Distance",
+        "floating panel"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "VRのメニューを移動するには？"
+        ],
+        "zh": [
+          "如何移动VR菜单？"
+        ],
+        "tw": [
+          "如何移動VR選單？"
+        ],
+        "kr": [
+          "VR 메뉴를 이동하려면 어떻게 하나요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "vr_operations#grip-drag-ui",
+          "label": "VR Operations",
+          "label_locales": {
+            "jp": "VR操作",
+            "zh": "VR操作",
+            "tw": "VR操作",
+            "kr": "VR 조작"
+          },
+          "href_locales": {
+            "jp": "vr_operations",
+            "zh": "vr_operations",
+            "tw": "vr_operations"
+          }
+        },
+        {
+          "href": "features/vr_settings#ui",
+          "label": "VR Settings",
+          "label_locales": {
+            "jp": "VR設定",
+            "zh": "VR设置",
+            "tw": "VR設定",
+            "kr": "VR 설정"
+          },
+          "href_locales": {
+            "zh": "features/vr_settings",
+            "tw": "features/vr_settings"
+          }
+        }
+      ],
+      "builds": [
+        "HD",
+        "LW",
+        "RT"
+      ]
     },
     {
       "review_id": "Q34",
@@ -2186,16 +2472,79 @@
       "question": "How do I use passthrough on Meta Quest?",
       "batch": "later",
       "status": "draft",
-      "source": "features/vr_settings"
+      "source": "features/vr_settings",
+      "related": []
     },
     {
       "review_id": "Q35",
       "id": "add-content-ios",
-      "category": "vr",
+      "category": "content",
       "question": "How do I add content on iPhone or iPad?",
-      "batch": "later",
-      "status": "draft",
-      "source": "preparecontent"
+      "batch": "second",
+      "status": "published",
+      "source": "preparecontent",
+      "type": "how-to",
+      "answer": "Launch DanceXR once. In **Files → On My iPhone / On My iPad → DanceXR**, open the app-created content library (normally its **content** folder). Put models and textures in **actors**, and motions/audio in **motion**. Keep original texture folders intact; complete model ZIPs also work.\n\nCopy cloud downloads into the local library; a link alone is not an imported model. Use **System → Content Library → Refresh Content** or restart. For older builds, follow the folders the app created.",
+      "question_locales": {
+        "jp": "iPhoneやiPadへコンテンツを追加するには？",
+        "zh": "如何在iPhone或iPad上添加内容？",
+        "tw": "如何在iPhone或iPad上新增內容？",
+        "kr": "iPhone이나 iPad에 콘텐츠를 추가하려면 어떻게 하나요?"
+      },
+      "answer_locales": {
+        "jp": "DanceXRを一度起動します。**ファイル → このiPhone内 / このiPad内 → DanceXR** で、アプリが作成したライブラリ（通常は **content** フォルダー）を開きます。モデルとテクスチャは **actors**、モーションと音声は **motion** へ入れます。テクスチャの元の構成を保ってください。モデル一式のZIPも使えます。\n\nクラウドのファイルはローカルライブラリへコピーしてください。リンクだけでは読み込まれません。**System → Content Library → Refresh Content** または再起動で更新します。旧版はアプリが作った構成に従ってください。",
+        "zh": "先启动一次DanceXR。在**文件 → 我的iPhone / 我的iPad → DanceXR**中，打开应用创建的内容库（通常是 **content** 文件夹）。模型和贴图放入 **actors**，动作和音频放入 **motion**。保留原始贴图目录结构，也可使用完整模型ZIP。\n\n将云端下载复制到本地内容库；单独链接不等于导入模型。使用 **System → Content Library → Refresh Content** 或重启应用。旧版本请以应用创建的目录结构为准。",
+        "tw": "先啟動一次DanceXR。在**檔案 → 我的iPhone / 我的iPad → DanceXR**中，開啟應用程式建立的內容庫（通常是 **content** 資料夾）。模型和貼圖放入 **actors**，動作和音訊放入 **motion**。保留原始貼圖目錄結構，也可使用完整模型ZIP。\n\n將雲端下載複製到本機內容庫；單獨連結不等於匯入模型。使用 **System → Content Library → Refresh Content** 或重新啟動應用。舊版本請以應用建立的目錄結構為準。",
+        "kr": "DanceXR를 한 번 실행하세요. **파일 → 나의 iPhone / 나의 iPad → DanceXR**에서 앱이 만든 라이브러리(보통 **content** 폴더)를 여세요. 모델과 텍스처는 **actors**, 모션과 오디오는 **motion**에 넣으세요. 원래 텍스처 폴더 구조를 유지하세요. 전체 모델 ZIP도 사용할 수 있습니다.\n\n클라우드 다운로드를 로컬 라이브러리로 복사하세요. 링크만으로 모델이 추가되지는 않습니다. **System → Content Library → Refresh Content** 또는 재시작으로 갱신하세요. 이전 버전은 앱이 만든 구조를 따르세요."
+      },
+      "keywords": [
+        "iPhone",
+        "iPad",
+        "iOS",
+        "Files",
+        "iCloud",
+        "Google Drive",
+        "content"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "iPhoneやiPadへコンテンツを追加するには？"
+        ],
+        "zh": [
+          "如何在iPhone或iPad上添加内容？"
+        ],
+        "tw": [
+          "如何在iPhone或iPad上新增內容？"
+        ],
+        "kr": [
+          "iPhone이나 iPad에 콘텐츠를 추가하려면 어떻게 하나요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "preparecontent",
+          "label": "Content Library",
+          "label_locales": {
+            "jp": "コンテンツライブラリ",
+            "zh": "内容库",
+            "tw": "內容庫",
+            "kr": "콘텐츠 라이브러리"
+          }
+        },
+        {
+          "href": "features/zip_format",
+          "label": "ZIP format",
+          "label_locales": {
+            "jp": "ZIP形式",
+            "zh": "ZIP格式",
+            "tw": "ZIP格式",
+            "kr": "ZIP 형식"
+          }
+        }
+      ],
+      "platforms": [
+        "iOS"
+      ]
     },
     {
       "review_id": "Q42",
@@ -2299,8 +2648,8 @@
       "answer": "A completely white model usually means its texture files could not be found. Keep the textures in their original locations relative to the model file.\n\nFor ZIP packages containing Japanese or Chinese filenames, try the matching encoding suffix: `model.jis932.zip` for Japanese or `model.gb2312.zip` for Chinese. Reload the model after renaming the archive. Android's Content Manager can set this encoding too.\n\nIf it is still white, inspect the model's texture references and check that filenames, folder paths and spaces match the actual files.",
       "type": "troubleshooting",
       "keywords": [
-        "white model",
         "missing textures",
+        "white model",
         "ZIP encoding",
         "jis932",
         "gb2312"
@@ -2382,17 +2731,24 @@
       "review_id": "Q37",
       "id": "fix-transparent-hair",
       "category": "help",
-      "question": "How do I fix hair that looks see-through?",
+      "question": "How do I fix see-through hair or missing transparent clothing?",
       "batch": "first",
       "status": "published",
       "source": "features/transparency",
-      "answer": "In HD/RT builds, layered transparent hair can lose its deeper layers because of the transparent depth prepass.\n\nTry turning off **System → Graphics → Options → Transparent Prepass** and compare the result. For a smaller change, adjust Transparent Prepass on the affected hair materials only.\n\nDisabling it can reveal other transparency sorting problems, so inspect the hair from several angles and keep the setting that gives the best result for that model.",
+      "answer": "In HD/RT builds, layered transparent hair can lose its deeper layers because of the transparent depth prepass.\n\nTry turning off **System → Graphics → Options → Transparent Prepass** and compare the result. For a smaller change, adjust Transparent Prepass on the affected hair materials only.\n\nDisabling it can reveal other transparency sorting problems, so inspect the hair from several angles and keep the setting that gives the best result for that model.\n\nFor opaque or missing stockings, eyelashes or clothing, also inspect the material’s **Auto / Opaque / Transparent** classification, visibility and group/global overrides. A missing texture and a transparent layer are different problems. The prepass advice above applies to HD/RT; Native and other pipelines use different controls.",
       "type": "troubleshooting",
       "keywords": [
-        "transparent hair",
+        "hair",
         "see-through",
+        "transparency",
         "depth prepass",
-        "sorting"
+        "transparent hair",
+        "sorting",
+        "stockings",
+        "eyelashes",
+        "opaque",
+        "alpha",
+        "classification"
       ],
       "related": [
         {
@@ -2427,16 +2783,16 @@
       ],
       "published_id": "transparent-hair",
       "question_locales": {
-        "jp": "髪が透けて見える問題を直すには？",
-        "zh": "如何修复头发看起来透明的问题？",
-        "tw": "如何修復頭髮看起來透明的問題？",
-        "kr": "머리카락이 비쳐 보이는 문제를 해결하려면 어떻게 하나요?"
+        "jp": "透ける髪や消える透明な服を直すには？",
+        "zh": "如何修复穿透的头发或消失的透明衣物？",
+        "tw": "如何修復透視的頭髮或消失的透明衣物？",
+        "kr": "비치는 머리카락이나 사라진 투명 의상을 고치려면 어떻게 하나요?"
       },
       "answer_locales": {
-        "jp": "HD/RT版では、透明度の深度プリパスにより、複数の透明レイヤーを持つ髪の奥側のレイヤーが消えることがあります。\n\n**システム → グラフィックス → オプション → 透明プリパス** をオフにして比較してください。影響を限定するには、問題のある髪の材質だけで透明プリパスを調整します。\n\nオフにすると別の透明度の描画順の問題が現れる場合があります。複数の角度から確認し、そのモデルで最もよい結果になる設定を選んでください。",
-        "zh": "在HD/RT版本中，透明深度预处理可能使多层透明头发的内层消失。\n\n尝试关闭**系统 → 图形 → 选项 → 透明预处理**并比较结果。若希望只修改局部，可以仅调整受影响的头发材质的透明预处理。\n\n关闭后可能出现其他透明排序问题。请从多个角度检查，选择最适合该模型的设置。",
-        "tw": "在HD/RT版本中，透明深度預處理可能使多層透明頭髮的內層消失。\n\n嘗試關閉**系統 → 圖形 → 選項 → 透明預處理**並比較結果。若希望只修改區域性，可以僅調整受影響的頭髮材質的透明預處理。\n\n關閉後可能出現其他透明排序問題。請從多個角度檢查，選擇最適合該模型的設定。",
-        "kr": "HD/RT 빌드에서는 투명 깊이 프리패스 때문에 여러 겹의 투명 머리카락 중 안쪽 레이어가 사라질 수 있습니다.\n\n**시스템 → 그래픽 → 옵션 → 투명 프리패스**를 꺼서 결과를 비교해 보세요. 일부만 바꾸려면 문제가 있는 머리카락 재질의 투명 프리패스만 조정하세요.\n\n끄면 다른 투명도 정렬 문제가 나타날 수 있습니다. 여러 각도에서 확인하고 해당 모델에 가장 잘 맞는 설정을 유지하세요."
+        "jp": "HD/RT版では、透明度の深度プリパスにより、複数の透明レイヤーを持つ髪の奥側のレイヤーが消えることがあります。\n\n**システム → グラフィックス → オプション → 透明プリパス** をオフにして比較してください。影響を限定するには、問題のある髪の材質だけで透明プリパスを調整します。\n\nオフにすると別の透明度の描画順の問題が現れる場合があります。複数の角度から確認し、そのモデルで最もよい結果になる設定を選んでください。\n\nストッキング・まつげ・服が不透明または消える場合は、材質の **Auto / Opaque / Transparent**、表示状態、グループ/全体の上書きも確認します。テクスチャ欠落と透明レイヤーは別の問題です。上記プリパスの説明はHD/RT用で、Nativeなどは設定が異なります。",
+        "zh": "在HD/RT版本中，透明深度预处理可能使多层透明头发的内层消失。\n\n尝试关闭**系统 → 图形 → 选项 → 透明预处理**并比较结果。若希望只修改局部，可以仅调整受影响的头发材质的透明预处理。\n\n关闭后可能出现其他透明排序问题。请从多个角度检查，选择最适合该模型的设置。\n\n丝袜、睫毛或衣服不透明或消失时，还需检查材质 **Auto / Opaque / Transparent** 分类、可见性及分组/全局覆盖。缺失贴图与透明层问题不同。上述预处理建议适用于HD/RT，Native和其他渲染管线使用不同控制。",
+        "tw": "在HD/RT版本中，透明深度預處理可能使多層透明頭髮的內層消失。\n\n嘗試關閉**系統 → 圖形 → 選項 → 透明預處理**並比較結果。若希望只修改區域性，可以僅調整受影響的頭髮材質的透明預處理。\n\n關閉後可能出現其他透明排序問題。請從多個角度檢查，選擇最適合該模型的設定。\n\n絲襪、睫毛或衣服不透明或消失時，還需檢查材質 **Auto / Opaque / Transparent** 分類、可見性及群組/全域覆寫。缺少貼圖與透明層問題不同。上述預處理建議適用於HD/RT，Native和其他算繪管線使用不同控制。",
+        "kr": "HD/RT 빌드에서는 투명 깊이 프리패스 때문에 여러 겹의 투명 머리카락 중 안쪽 레이어가 사라질 수 있습니다.\n\n**시스템 → 그래픽 → 옵션 → 투명 프리패스**를 꺼서 결과를 비교해 보세요. 일부만 바꾸려면 문제가 있는 머리카락 재질의 투명 프리패스만 조정하세요.\n\n끄면 다른 투명도 정렬 문제가 나타날 수 있습니다. 여러 각도에서 확인하고 해당 모델에 가장 잘 맞는 설정을 유지하세요.\n\n스타킹, 속눈썹, 옷이 불투명하거나 사라지면 재질의 **Auto / Opaque / Transparent** 분류, 표시 상태와 그룹/전체 오버라이드를 확인하세요. 텍스처 누락과 투명 레이어는 다른 문제입니다. 위 프리패스 안내는 HD/RT용이며 Native와 다른 파이프라인은 조절이 다릅니다."
       },
       "keywords_locales": {
         "jp": [
@@ -2480,11 +2836,12 @@
       "answer": "Make sure your VR software is running and the runtime for your headset is set as the active **OpenXR** runtime. If several runtimes are installed, select the one you intend to use in its own settings, then restart the runtime and DanceXR.\n\nTry enabling **Environment → VR** again. If startup still fails, disable unnecessary VR overlays or add-ons and check DanceXR's `Player.log` for the error. Include the log, app build and headset/runtime details when reporting the problem.",
       "type": "troubleshooting",
       "keywords": [
-        "VR startup",
         "OpenXR",
         "SteamVR",
-        "Meta",
-        "VR launch"
+        "Oculus",
+        "VR launch",
+        "VR startup",
+        "Meta"
       ],
       "related": [
         {
@@ -2566,9 +2923,11 @@
       "answer": "Steam and Google Play editions normally activate automatically when the store verifies your purchase.\n\nFor editions requiring manual activation, open **System → Activate Your Copy**. Follow the browser prompts, choose the platform you purchased from and sign in there. After the success page appears, return to DanceXR and click **Activate Your Copy** again to retrieve the license.\n\nIf the device has already been activated, DanceXR may restore the license without opening a browser. Reactivating after reinstalling, changing hardware or switching build variants does not charge you again.",
       "type": "how-to",
       "keywords": [
+        "activation",
+        "license",
+        "hardware change",
         "activate",
         "reactivate",
-        "license",
         "purchase",
         "entitlement"
       ],
@@ -2629,10 +2988,1168 @@
       "review_id": "Q40",
       "id": "collect-logs",
       "category": "help",
-      "question": "How do I find log files and report a bug?",
-      "batch": "later",
-      "status": "draft",
-      "source": "troubleshooting"
+      "question": "Where can I find the log files?",
+      "batch": "second",
+      "status": "published",
+      "source": "troubleshooting",
+      "replaces": "find-log-files",
+      "answer": "When reporting a bug, attaching your log files is extremely helpful. Please attach **`Player.log`** (current session) and **`Player-prev.log`** (previous session) to your bug report.\n\n**Windows PC Path:**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*Note: Replace `[User]` with your Windows username. If AppData is hidden, enable \"Hidden items\" in Windows Explorer.*\n\n**Android & Meta Quest Path:**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*Note: Connect your device to a PC via USB and use File Transfer to locate this file.*\n\nFor **Native**, use **System → Open Log**, **Copy Diagnostics** or **Report Issue** instead of assuming Unity log paths. Include the exact build, platform, renderer/VR runtime, steps to reproduce, expected result and a screenshot. Provide model/motion files only when you have permission to share them. Mobile storage access can vary by OS version; do not assume USB exposes every app folder.",
+      "type": "troubleshooting",
+      "keywords": [
+        "logs",
+        "Player.log",
+        "Player-prev.log",
+        "bug report",
+        "Native",
+        "diagnostics",
+        "report issue",
+        "reproduction"
+      ],
+      "related": [],
+      "question_locales": {
+        "jp": "ログファイルはどこにありますか？",
+        "zh": "在哪里可以找到日志文件？",
+        "tw": "在哪裡可以找到記錄檔？",
+        "kr": "로그 파일은 어디에서 찾을 수 있나요?"
+      },
+      "answer_locales": {
+        "jp": "バグを報告する際、ログファイルを添付すると非常に役立ちます。バグ報告には、**`Player.log`**（現在のセッション）と**`Player-prev.log`**（以前のセッション）を添付してください。\n\n**Windows PCのパス:**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*注: `[User]`をWindowsのユーザー名に置き換えてください。AppDataが隠しフォルダになっている場合は、エクスプローラーで「隠しファイル」を表示する設定にしてください。*\n\n**Android & Meta Questのパス:**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*注: デバイスをUSBでPCに接続し、ファイル転送モードを使用してこのファイルを見つけてください。*\n\n**Native** ではUnityのログ場所を前提にせず、**System → Open Log**、**Copy Diagnostics**、**Report Issue** を使ってください。正確なビルド、端末、描画/VRランタイム、再現手順、期待した結果、画像を記載します。モデルやモーションは共有許可がある場合だけ添付してください。モバイルの保存領域はOSにより異なり、USBで全フォルダーが見えるとは限りません。",
+        "zh": "报告 bug 时，附上日志文件会非常有帮助。请在您的 bug 报告中附带 **`Player.log`**（当前会话）和 **`Player-prev.log`**（上一次会话）。\n\n**Windows PC 路径：**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*注意：请将 `[User]` 替换为您的 Windows 用户名。如果 AppData 文件夹被隐藏，请在 Windows 文件资源管理器中启用“隐藏的项目”。*\n\n**Android 和 Meta Quest 路径：**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*注意：通过 USB 将您的设备连接到电脑，并使用文件传输模式来定位此文件。*\n\n**Native** 请使用 **System → Open Log**、**Copy Diagnostics** 或 **Report Issue**，不要套用Unity日志路径。报告中包含准确构建版本、平台、渲染器/VR运行时、复现步骤、预期结果和截图。仅分享有权提供的模型或动作。移动端存储访问随系统版本变化，USB不一定显示所有应用文件夹。",
+        "tw": "報告 bug 時，附上記錄檔會非常有幫助。請在您的 bug 報告中附帶 **`Player.log`**（目前工作階段）和 **`Player-prev.log`**（上一次工作階段）。\n\n**Windows PC 路徑：**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*注意：請將 `[User]` 替換為您的 Windows 使用者名稱。如果 AppData 資料夾被隱藏，請在 Windows 檔案總管中啟用「隱藏的項目」。*\n\n**Android 和 Meta Quest 路徑：**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*注意：透過 USB 將您的裝置連接到電腦，並使用檔案傳輸模式來定位此檔案。*\n\n**Native** 請使用 **System → Open Log**、**Copy Diagnostics** 或 **Report Issue**，不要套用Unity記錄檔路徑。報告中包含完整組建版本、平台、算繪器/VR執行環境、重現步驟、預期結果和截圖。僅分享有權提供的模型或動作。行動版儲存存取隨系統版本變化，USB不一定顯示所有應用資料夾。",
+        "kr": "버그를 보고할 때 로그 파일을 첨부해 주시면 문제 해결에 큰 도움이 됩니다. 버그 보고서에 **`Player.log`**(현재 세션) 및 **`Player-prev.log`**(이전 세션) 파일을 첨부해 주세요.\n\n**Windows PC 경로:**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*참고: `[User]`를 본인의 Windows 사용자 이름으로 바꾸십시오. AppData 폴더가 숨겨져 있는 경우 Windows 탐색기에서 '숨긴 항목' 표시를 활성화하십시오.*\n\n**Android 및 Meta Quest 경로:**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*참고: USB 케이블을 이용해 기기를 PC에 연결하고 '파일 전송' 모드를 사용하여 해당 파일을 찾으십시오.*\n\n**Native**는 Unity 로그 경로 대신 **System → Open Log**, **Copy Diagnostics**, **Report Issue**를 사용하세요. 정확한 빌드, 플랫폼, 렌더러/VR 런타임, 재현 단계, 기대 결과와 화면을 포함하세요. 공유 권한이 있는 모델/모션만 제공하세요. 모바일 저장소 접근은 OS 버전에 따라 달라 USB로 모든 앱 폴더가 보이지 않을 수 있습니다."
+      }
+    },
+    {
+      "id": "native-and-launcher",
+      "category": "content",
+      "type": "how-to",
+      "status": "published",
+      "question": "What is Native, and do I need the Launcher?",
+      "answer": "Native is a separate Windows application with its own rendering and settings. HD, LW and RT are the Unity-based runtimes. Since 2026.10, Native supports raster rendering on DirectX 12 PCs without ray-tracing hardware; path tracing needs a compatible ray-tracing GPU.\n\nThe Launcher installs, updates and starts runtimes and companion apps. You can also download Native directly. Check the download page for current editions, activation and feature limits.",
+      "question_locales": {
+        "jp": "Nativeとは何ですか？Launcherは必要ですか？",
+        "zh": "Native是什么？必须使用Launcher吗？",
+        "tw": "Native是什麼？必須使用Launcher嗎？",
+        "kr": "Native는 무엇이며 Launcher가 필요한가요?"
+      },
+      "answer_locales": {
+        "jp": "Nativeは独自の描画と設定を持つ別のWindowsアプリです。HD・LW・RTはUnity版です。2026.10以降のNativeは、レイトレーシング非対応のDirectX 12対応PCでもラスタ描画が可能です。パストレーシングには対応GPUが必要です。\n\nLauncherはランタイムや関連アプリのインストール・更新・起動を管理します。Nativeを直接ダウンロードすることもできます。エディション、認証、機能制限はダウンロードページで確認してください。",
+        "zh": "Native是拥有独立渲染和设置的Windows应用。HD、LW和RT是Unity版本。从2026.10起，Native可在支持DirectX 12但不支持光线追踪的电脑上使用光栅渲染；路径追踪需要兼容的光追GPU。\n\nLauncher负责安装、更新和启动运行程序与配套应用，也可以直接下载Native。请在下载页面核对当前版本、激活方式和功能限制。",
+        "tw": "Native是擁有獨立算繪和設定的Windows應用程式。HD、LW和RT是Unity版本。從2026.10起，Native可在支援DirectX 12但不支援光線追蹤的電腦上使用光柵算繪；路徑追蹤需要相容的光追GPU。\n\nLauncher負責安裝、更新和啟動執行程式與配套應用，也可以直接下載Native。請在下載頁面核對目前版本、啟用方式和功能限制。",
+        "kr": "Native는 자체 렌더링과 설정을 갖춘 별도의 Windows 앱입니다. HD, LW, RT는 Unity 기반 버전입니다. 2026.10부터 Native는 레이 트레이싱이 없는 DirectX 12 PC에서도 래스터 렌더링을 지원합니다. 패스 트레이싱에는 호환되는 레이 트레이싱 GPU가 필요합니다.\n\nLauncher는 런타임과 관련 앱의 설치, 업데이트, 실행을 관리합니다. Native를 직접 내려받아도 됩니다. 현재 에디션, 활성화 방법, 기능 제한은 다운로드 페이지에서 확인하세요."
+      },
+      "keywords": [
+        "Native",
+        "HD",
+        "LW",
+        "RT",
+        "Launcher",
+        "edition",
+        "build",
+        "path tracing",
+        "raster"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "Nativeとは何ですか？Launcherは必要ですか？"
+        ],
+        "zh": [
+          "Native是什么？必须使用Launcher吗？"
+        ],
+        "tw": [
+          "Native是什麼？必須使用Launcher嗎？"
+        ],
+        "kr": [
+          "Native는 무엇이며 Launcher가 필요한가요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "features/native",
+          "label": "Native",
+          "label_locales": {
+            "jp": "Nativeガイド",
+            "zh": "Native指南",
+            "tw": "Native指南",
+            "kr": "Native 안내"
+          }
+        },
+        {
+          "href": "download",
+          "label": "Downloads & editions",
+          "label_locales": {
+            "jp": "ダウンロードとエディション",
+            "zh": "下载与版本",
+            "tw": "下載與版本",
+            "kr": "다운로드 및 에디션"
+          }
+        }
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "review_id": "Q43",
+      "source": "features/native",
+      "batch": "second"
+    },
+    {
+      "id": "platform-release-timing",
+      "category": "help",
+      "type": "how-to",
+      "status": "published",
+      "question": "Why is an update or feature missing from my edition or platform?",
+      "answer": "PC, Android and iOS do not always update together. Steam default and beta branches can contain different builds; Patreon early access does not mean the same feature is available in every store build.\n\nCheck the current release notes, download/edition information and activation status. When asking about a missing feature, include your platform, edition, runtime, exact version and Steam branch if applicable. Mobile follows a separate schedule; a PC release date is not a mobile delivery promise.",
+      "question_locales": {
+        "jp": "自分のエディションや端末に更新・機能がないのはなぜですか？",
+        "zh": "为什么我的版本或平台还没有某个更新或功能？",
+        "tw": "為什麼我的版本或平台還沒有某個更新或功能？",
+        "kr": "내 에디션이나 플랫폼에 업데이트 또는 기능이 없는 이유는 무엇인가요?"
+      },
+      "answer_locales": {
+        "jp": "PC・Android・iOSは必ずしも同時に更新されません。Steamの通常版とベータ版でビルドが異なる場合があります。Patreonの先行公開は、全ストア版で同じ機能が使えることを意味しません。\n\n最新の更新情報、ダウンロードページのエディション情報、認証状態を確認してください。問い合わせ時はプラットフォーム、エディション、ランタイム、正確なバージョン、該当するSteamブランチを記載してください。PCの公開日はモバイル版の公開を保証しません。",
+        "zh": "PC、Android和iOS不一定同时更新。Steam默认分支和测试分支可能使用不同构建；Patreon提前发布不代表所有商店版本都已获得相同功能。\n\n请检查当前更新说明、下载页面的版本信息和激活状态。询问缺失功能时，请提供平台、购买版本、运行程序、准确版本号以及Steam分支（如适用）。移动端有独立发布安排，PC发布日期不是移动端的交付承诺。",
+        "tw": "PC、Android和iOS不一定同時更新。Steam預設分支和測試分支可能使用不同組建；Patreon提前發布不代表所有商店版本都已獲得相同功能。\n\n請檢查目前更新說明、下載頁面的版本資訊和啟用狀態。詢問缺少功能時，請提供平台、購買版本、執行程式、完整版本號及Steam分支（如適用）。行動版有獨立發布安排，PC發布日期並非行動版的交付承諾。",
+        "kr": "PC, Android, iOS는 항상 동시에 업데이트되지 않습니다. Steam 기본 및 베타 브랜치의 빌드가 다를 수 있으며, Patreon 조기 공개가 모든 스토어 빌드의 동일한 기능을 뜻하지는 않습니다.\n\n현재 릴리스 노트, 다운로드 페이지의 에디션 정보, 활성화 상태를 확인하세요. 문의할 때 플랫폼, 에디션, 런타임, 정확한 버전과 해당 Steam 브랜치를 알려 주세요. 모바일은 별도 일정으로 배포되며 PC 출시일이 모바일 배포를 보장하지 않습니다."
+      },
+      "keywords": [
+        "Steam",
+        "beta",
+        "default",
+        "Patreon",
+        "Android",
+        "iOS",
+        "update",
+        "missing feature",
+        "edition"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "自分のエディションや端末に更新・機能がないのはなぜですか？"
+        ],
+        "zh": [
+          "为什么我的版本或平台还没有某个更新或功能？"
+        ],
+        "tw": [
+          "為什麼我的版本或平台還沒有某個更新或功能？"
+        ],
+        "kr": [
+          "내 에디션이나 플랫폼에 업데이트 또는 기능이 없는 이유는 무엇인가요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "releases",
+          "label": "Release notes",
+          "label_locales": {
+            "jp": "更新情報",
+            "zh": "更新说明",
+            "tw": "更新說明",
+            "kr": "릴리스 노트"
+          }
+        },
+        {
+          "href": "download",
+          "label": "Downloads & editions",
+          "label_locales": {
+            "jp": "ダウンロードとエディション",
+            "zh": "下载与版本",
+            "tw": "下載與版本",
+            "kr": "다운로드 및 에디션"
+          }
+        },
+        {
+          "href": "activation",
+          "label": "Activation & Licensing",
+          "label_locales": {
+            "jp": "アクティベーションとライセンス",
+            "zh": "激活与许可",
+            "tw": "啟用與授權",
+            "kr": "활성화 및 라이선스"
+          }
+        }
+      ],
+      "review_id": "Q44",
+      "source": "releases",
+      "batch": "second"
+    },
+    {
+      "id": "vr-camera-menu-freeze",
+      "category": "vr",
+      "type": "troubleshooting",
+      "status": "published",
+      "question": "Why does camera movement stop when I open the menu in VR?",
+      "answer": "In the Unity-based runtimes, **Freeze in VR** pauses camera movement while the menu is visible. Hide the menu and try again, or change **Freeze in VR** in Camera Settings if you want movement during menu interaction.\n\nHead tracking and camera-rig movement are different. If controller movement still fails with the menu hidden, report your build, headset, controllers and OpenXR runtime. Native has a separate control system.",
+      "question_locales": {
+        "jp": "VRでメニューを開くとカメラが動かなくなるのはなぜですか？",
+        "zh": "为什么在VR中打开菜单后摄像机停止移动？",
+        "tw": "為什麼在VR中開啟選單後攝影機停止移動？",
+        "kr": "VR에서 메뉴를 열면 카메라 이동이 멈추는 이유는 무엇인가요?"
+      },
+      "answer_locales": {
+        "jp": "Unity版では、**Freeze in VR** が有効だとメニュー表示中にカメラ移動を停止します。メニューを隠して試すか、メニュー操作中も移動したい場合はCamera Settingsの **Freeze in VR** を変更してください。\n\n頭の追跡とカメラリグの移動は別です。メニューを隠しても操作できなければ、ビルド、ヘッドセット、コントローラー、OpenXRランタイムを報告してください。Nativeの操作系は別です。",
+        "zh": "Unity版本中，**Freeze in VR** 会在菜单可见时暂停摄像机移动。隐藏菜单再试，或在Camera Settings中调整 **Freeze in VR**，允许操作菜单时移动。\n\n头部追踪与摄像机整体移动不同。如果隐藏菜单后控制器仍无法移动，请提供构建版本、头显、控制器和OpenXR运行时。Native使用独立的控制系统。",
+        "tw": "Unity版本中，**Freeze in VR** 會在選單可見時暫停攝影機移動。隱藏選單再試，或在Camera Settings中調整 **Freeze in VR**，允許操作選單時移動。\n\n頭部追蹤與攝影機整體移動不同。如果隱藏選單後控制器仍無法移動，請提供組建版本、頭戴裝置、控制器和OpenXR執行環境。Native使用獨立控制系統。",
+        "kr": "Unity 기반 버전에서는 **Freeze in VR**가 켜져 있으면 메뉴 표시 중 카메라 이동이 멈춥니다. 메뉴를 숨기고 다시 시도하거나 Camera Settings의 **Freeze in VR**를 변경하세요.\n\n머리 추적과 카메라 리그 이동은 다릅니다. 메뉴를 숨겨도 이동 입력이 안 되면 빌드, 헤드셋, 컨트롤러, OpenXR 런타임을 알려 주세요. Native는 별도의 조작 체계를 사용합니다."
+      },
+      "keywords": [
+        "VR",
+        "camera",
+        "joystick",
+        "menu",
+        "Freeze in VR",
+        "first person",
+        "auto camera"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "VRでメニューを開くとカメラが動かなくなるのはなぜですか？"
+        ],
+        "zh": [
+          "为什么在VR中打开菜单后摄像机停止移动？"
+        ],
+        "tw": [
+          "為什麼在VR中開啟選單後攝影機停止移動？"
+        ],
+        "kr": [
+          "VR에서 메뉴를 열면 카메라 이동이 멈추는 이유는 무엇인가요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "features/camera_settings",
+          "label": "Camera Settings",
+          "label_locales": {
+            "jp": "カメラ設定",
+            "zh": "相机设置",
+            "tw": "相機設定",
+            "kr": "카메라 설정"
+          }
+        },
+        {
+          "href": "controls",
+          "label": "Controls & UI",
+          "label_locales": {
+            "jp": "操作とUI",
+            "zh": "操作与界面",
+            "tw": "操作與介面",
+            "kr": "조작 및 UI"
+          }
+        },
+        {
+          "href": "vr_operations",
+          "label": "VR Operations",
+          "label_locales": {
+            "jp": "VRでの操作",
+            "zh": "VR操作",
+            "tw": "VR操作",
+            "kr": "VR 조작"
+          }
+        }
+      ],
+      "builds": [
+        "HD",
+        "LW",
+        "RT"
+      ],
+      "review_id": "Q45",
+      "source": "features/camera_settings",
+      "batch": "second"
+    },
+    {
+      "id": "vr-controller-options",
+      "category": "vr",
+      "type": "troubleshooting",
+      "status": "published",
+      "question": "Why must I press the thumbstick, or why does grip trigger accidental actions?",
+      "answer": "In Unity-based runtimes, check **Controller Input → Options**. Turn **Trackpad Mode** off to try axis input without pressing the pad/stick. For accidental grip actions, increase **Grip Threshold** or turn **Use Grip Input** off; this also disables grip-based interactions.\n\nChange one option at a time. These are settings to try, not a guaranteed fix for every headset. Native uses separate controls.",
+      "question_locales": {
+        "jp": "スティックを押さないと動かない、またはグリップが誤反応する場合は？",
+        "zh": "为什么必须按下摇杆才能移动，或握持会误触动作？",
+        "tw": "為什麼必須按下搖桿才能移動，或握持會誤觸動作？",
+        "kr": "스틱을 눌러야 움직이거나 그립이 실수로 작동하면 어떻게 하나요?"
+      },
+      "answer_locales": {
+        "jp": "Unity版の **Controller Input → Options** を確認してください。押し込みなしで軸入力を試すには **Trackpad Mode** をオフにします。グリップの誤反応には **Grip Threshold** を上げるか **Use Grip Input** をオフにします。後者はグリップ操作自体も無効にします。\n\n一度に一つずつ変更してください。すべてのヘッドセットで直る保証はありません。Nativeの操作設定は別です。",
+        "zh": "在Unity版本中检查 **Controller Input → Options**。关闭 **Trackpad Mode**，尝试不按下触摸板或摇杆的轴输入。握持误触时，可提高 **Grip Threshold** 或关闭 **Use Grip Input**；后者也会禁用基于握持的交互。\n\n一次只改一个选项。这些是可尝试的设置，不保证适用于所有头显。Native的控制设置独立。",
+        "tw": "在Unity版本中檢查 **Controller Input → Options**。關閉 **Trackpad Mode**，嘗試不按下觸控板或搖桿的軸輸入。握持誤觸時，可提高 **Grip Threshold** 或關閉 **Use Grip Input**；後者也會停用握持互動。\n\n一次只改一個選項。這些是可嘗試的設定，不保證適用於所有頭戴裝置。Native的控制設定獨立。",
+        "kr": "Unity 기반 버전의 **Controller Input → Options**를 확인하세요. 누르지 않고 축 입력을 쓰려면 **Trackpad Mode**를 꺼 보세요. 그립이 너무 민감하면 **Grip Threshold**를 높이거나 **Use Grip Input**을 끄세요. 후자는 그립 기반 상호작용도 비활성화합니다.\n\n한 번에 하나씩 변경하세요. 모든 헤드셋에 대한 확정 해결책은 아닙니다. Native는 별도 설정을 사용합니다."
+      },
+      "keywords": [
+        "thumbstick",
+        "Index",
+        "grip",
+        "Trackpad Mode",
+        "Grip Threshold",
+        "controller"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "スティックを押さないと動かない、またはグリップが誤反応する場合は？"
+        ],
+        "zh": [
+          "为什么必须按下摇杆才能移动，或握持会误触动作？"
+        ],
+        "tw": [
+          "為什麼必須按下搖桿才能移動，或握持會誤觸動作？"
+        ],
+        "kr": [
+          "스틱을 눌러야 움직이거나 그립이 실수로 작동하면 어떻게 하나요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "features/input_settings",
+          "label": "Controller Input",
+          "label_locales": {
+            "jp": "コントローラー入力",
+            "zh": "控制器输入",
+            "tw": "控制器輸入",
+            "kr": "컨트롤러 입력"
+          }
+        },
+        {
+          "href": "vr_operations",
+          "label": "VR Operations",
+          "label_locales": {
+            "jp": "VRでの操作",
+            "zh": "VR操作",
+            "tw": "VR操作",
+            "kr": "VR 조작"
+          }
+        }
+      ],
+      "builds": [
+        "HD",
+        "LW",
+        "RT"
+      ],
+      "review_id": "Q46",
+      "source": "features/input_settings",
+      "batch": "second"
+    },
+    {
+      "id": "lip-sync-and-expressions",
+      "category": "actors",
+      "type": "troubleshooting",
+      "status": "published",
+      "question": "Why does the mouth not move, or why does my expression change back?",
+      "answer": "For playback audio, enable **Lip Sync** in Playback Options and **Use Lip Sync** in the actor’s Facial Control. Confirm audio playback and test the vowel controls manually. If those do not work, check facial mapping and the model’s available bones or morphs.\n\nDisable **Use Lip Sync** while arranging a manual mouth expression. Loaded motion and Lifelike Motions can also change facial values. AI chat speech uses a separate lip-sync driver.",
+      "question_locales": {
+        "jp": "口が動かない、または表情が元に戻るのはなぜですか？",
+        "zh": "为什么嘴巴不动，或手动表情会变回去？",
+        "tw": "為什麼嘴巴不動，或手動表情會變回去？",
+        "kr": "입이 움직이지 않거나 수동 표정이 되돌아가는 이유는 무엇인가요?"
+      },
+      "answer_locales": {
+        "jp": "再生音声にはPlayback Optionsの **Lip Sync** と、アクターのFacial Controlの **Use Lip Sync** を有効にしてください。音声が再生されているか確認し、母音の操作を手動で試します。反応しなければ表情の対応付けとモデルのボーン・モーフを確認してください。\n\n口の表情を手動調整するときは **Use Lip Sync** をオフにします。モーションやLifelike Motionsも表情を変えます。AIチャット音声は別のリップシンク処理を使います。",
+        "zh": "播放音频时，启用Playback Options中的 **Lip Sync** 和角色Facial Control中的 **Use Lip Sync**。确认音频正在播放，并手动测试各母音控制。若手动也无效，请检查面部映射和模型已有的骨骼或变形。\n\n手动调整嘴型时关闭 **Use Lip Sync**。加载的动作和Lifelike Motions也可能修改表情。AI聊天语音使用单独的口型驱动。",
+        "tw": "播放音訊時，啟用Playback Options中的 **Lip Sync** 和角色Facial Control中的 **Use Lip Sync**。確認音訊正在播放，並手動測試各母音控制。若手動也無效，請檢查面部映射與模型已有的骨骼或變形。\n\n手動調整嘴型時關閉 **Use Lip Sync**。載入的動作和Lifelike Motions也可能修改表情。AI聊天語音使用獨立的口型驅動。",
+        "kr": "재생 음성에는 Playback Options의 **Lip Sync**와 배우 Facial Control의 **Use Lip Sync**를 모두 켜세요. 음성 재생을 확인하고 모음 조절을 수동으로 시험하세요. 수동으로도 안 되면 얼굴 매핑과 모델의 뼈 또는 모프를 확인하세요.\n\n수동 입 모양을 설정할 때는 **Use Lip Sync**를 끄세요. 불러온 모션과 Lifelike Motions도 표정을 바꿀 수 있습니다. AI 채팅 음성은 별도의 립싱크 드라이버를 사용합니다."
+      },
+      "keywords": [
+        "lip sync",
+        "mouth",
+        "blink",
+        "expression",
+        "A I U E O",
+        "facial mapping"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "口が動かない、または表情が元に戻るのはなぜですか？"
+        ],
+        "zh": [
+          "为什么嘴巴不动，或手动表情会变回去？"
+        ],
+        "tw": [
+          "為什麼嘴巴不動，或手動表情會變回去？"
+        ],
+        "kr": [
+          "입이 움직이지 않거나 수동 표정이 되돌아가는 이유는 무엇인가요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "features/lipsync",
+          "label": "LipSync",
+          "label_locales": {
+            "jp": "リップシンク",
+            "zh": "口型同步",
+            "tw": "口型同步",
+            "kr": "립싱크"
+          }
+        },
+        {
+          "href": "features/facial_control",
+          "label": "Facial Control",
+          "label_locales": {
+            "jp": "表情の操作",
+            "zh": "面部控制",
+            "tw": "面部控制",
+            "kr": "표정 조절"
+          }
+        },
+        {
+          "href": "features/morph_list",
+          "label": "PMX Morphs",
+          "label_locales": {
+            "jp": "PMXモーフ",
+            "zh": "PMX变形",
+            "tw": "PMX變形",
+            "kr": "PMX 모프"
+          }
+        }
+      ],
+      "review_id": "Q47",
+      "source": "features/lipsync",
+      "batch": "second"
+    },
+    {
+      "id": "feet-slide-or-float",
+      "category": "motion",
+      "type": "troubleshooting",
+      "status": "published",
+      "question": "Why do feet slide, float or pull toward a fixed position?",
+      "answer": "Compare the same model and motion with default settings, then change one control at a time. Check **Feet On Floor**, **Ground Offset** and **Reduce Sliding**. Incorrect bone mapping or rest pose can also affect the result.\n\nIn Unity runtimes, inspect **Motion Leg IK** and **Model IK** for conflicting corrections. Do not disable all IK as a universal fix. If a new build breaks a previously working model, report the model, motion, version and last working build.",
+      "question_locales": {
+        "jp": "足が滑る・浮く・特定の場所へ引かれる場合は？",
+        "zh": "脚滑动、悬空或被拉向固定位置怎么办？",
+        "tw": "腳滑動、懸空或被拉向固定位置怎麼辦？",
+        "kr": "발이 미끄러지거나 뜨거나 고정된 위치로 당겨지면 어떻게 하나요?"
+      },
+      "answer_locales": {
+        "jp": "同じモデルとモーションを初期設定で比較し、一つずつ変更してください。**Feet On Floor**、**Ground Offset**、**Reduce Sliding** を確認します。ボーンの対応付けや基準姿勢も結果に影響します。\n\nUnity版では **Motion Leg IK** と **Model IK** の補正が競合していないか確認します。すべてのIKを無効にするのは万能な解決策ではありません。更新で問題が出た場合はモデル、モーション、バージョン、最後に動作したビルドを報告してください。",
+        "zh": "先用默认设置比较同一个模型和动作，再一次调整一个控制项。检查 **Feet On Floor**、**Ground Offset** 和 **Reduce Sliding**。错误的骨骼映射或标准姿势也会影响结果。\n\nUnity版本中，请检查 **Motion Leg IK** 与 **Model IK** 是否产生冲突。不要把关闭全部IK当作通用修复。如果新版本破坏了原本正常的模型，请报告模型、动作、当前版本和最后正常的构建版本。",
+        "tw": "先用預設設定比較同一個模型和動作，再一次調整一個控制項。檢查 **Feet On Floor**、**Ground Offset** 和 **Reduce Sliding**。錯誤的骨骼映射或標準姿勢也會影響結果。\n\nUnity版本中，請檢查 **Motion Leg IK** 與 **Model IK** 是否產生衝突。不要把關閉全部IK當作通用修復。如果新版本破壞了原本正常的模型，請報告模型、動作、目前版本和最後正常的組建版本。",
+        "kr": "같은 모델과 모션을 기본 설정으로 비교한 다음 하나씩 변경하세요. **Feet On Floor**, **Ground Offset**, **Reduce Sliding**를 확인하세요. 뼈 매핑과 기본 포즈도 영향을 줄 수 있습니다.\n\nUnity 버전에서는 **Motion Leg IK**와 **Model IK**의 보정 충돌을 확인하세요. 모든 IK를 끄는 것은 일반 해결책이 아닙니다. 업데이트 후 정상 모델이 깨졌다면 모델, 모션, 버전과 마지막 정상 빌드를 알려 주세요."
+      },
+      "keywords": [
+        "feet",
+        "sliding",
+        "floating",
+        "floor",
+        "IK",
+        "inverse kinematics",
+        "rest pose"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "足が滑る・浮く・特定の場所へ引かれる場合は？"
+        ],
+        "zh": [
+          "脚滑动、悬空或被拉向固定位置怎么办？"
+        ],
+        "tw": [
+          "腳滑動、懸空或被拉向固定位置怎麼辦？"
+        ],
+        "kr": [
+          "발이 미끄러지거나 뜨거나 고정된 위치로 당겨지면 어떻게 하나요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "features/feet_adjustment",
+          "label": "Feet Adjustment",
+          "label_locales": {
+            "jp": "足の調整",
+            "zh": "脚部调整",
+            "tw": "腳部調整",
+            "kr": "발 조절"
+          }
+        },
+        {
+          "href": "features/motion_settings",
+          "label": "Motion Settings",
+          "label_locales": {
+            "jp": "モーション設定",
+            "zh": "动作设置",
+            "tw": "動作設定",
+            "kr": "모션 설정"
+          }
+        },
+        {
+          "href": "features/troubleshooting",
+          "label": "Actor troubleshooting",
+          "label_locales": {
+            "jp": "アクターの問題対処",
+            "zh": "角色故障排查",
+            "tw": "角色故障排查",
+            "kr": "배우 문제 해결"
+          }
+        }
+      ],
+      "review_id": "Q48",
+      "source": "features/feet_adjustment",
+      "batch": "second"
+    },
+    {
+      "id": "hide-clothing-parts",
+      "category": "actors",
+      "type": "how-to",
+      "status": "published",
+      "question": "How do I hide clothing, and why is the body missing underneath?",
+      "answer": "Use the actor’s **Dressing** controls for PMX material morphs or XPS optional parts. Where needed, inspect individual materials in **Material List** instead of hiding an entire material group.\n\nIf the model does not contain body geometry beneath the garment, hiding the garment cannot create it. Some outfit parts share materials with the body. Available dressing choices depend on how the model was authored.",
+      "question_locales": {
+        "jp": "服を隠すには？下の体まで消えるのはなぜですか？",
+        "zh": "如何隐藏衣服？为什么下面的身体也没了？",
+        "tw": "如何隱藏衣服？為什麼下面的身體也沒了？",
+        "kr": "옷을 숨기는 방법과 그 아래 몸이 없는 이유는 무엇인가요?"
+      },
+      "answer_locales": {
+        "jp": "PMXの材質モーフやXPSの任意パーツは、アクターの **Dressing** で操作します。必要に応じて、材質グループ全体を隠すのではなく **Material List** の個別材質を確認してください。\n\n服の下に体の形状が作られていないモデルでは、服を隠しても体は生成されません。服と体が同じ材質を共有している場合もあります。選択肢はモデルの作り方によって異なります。",
+        "zh": "在角色的 **Dressing** 中控制PMX材质变形或XPS可选部件。必要时在 **Material List** 中检查单独材质，不要直接隐藏整个材质组。\n\n如果模型本身没有衣服下面的身体几何体，隐藏衣服不会生成身体。有些服装与身体共享材质。可用的换装选项取决于模型作者的制作方式。",
+        "tw": "在角色的 **Dressing** 中控制PMX材質變形或XPS可選部件。必要時在 **Material List** 中檢查個別材質，不要直接隱藏整個材質群組。\n\n如果模型本身沒有衣服下面的身體幾何體，隱藏衣服不會產生身體。有些服裝與身體共用材質。可用的換裝選項取決於模型作者的製作方式。",
+        "kr": "배우의 **Dressing**에서 PMX 재질 모프 또는 XPS 선택 부품을 조절하세요. 필요하면 재질 그룹 전체를 숨기지 말고 **Material List**에서 개별 재질을 확인하세요.\n\n모델에 옷 아래 몸의 지오메트리가 없으면 옷을 숨겨도 몸이 생성되지 않습니다. 옷과 몸이 같은 재질을 쓰기도 합니다. 가능한 의상 선택은 모델 제작 방식에 따라 다릅니다."
+      },
+      "keywords": [
+        "clothing",
+        "dressing",
+        "outfit",
+        "hide",
+        "missing body",
+        "visibility"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "服を隠すには？下の体まで消えるのはなぜですか？"
+        ],
+        "zh": [
+          "如何隐藏衣服？为什么下面的身体也没了？"
+        ],
+        "tw": [
+          "如何隱藏衣服？為什麼下面的身體也沒了？"
+        ],
+        "kr": [
+          "옷을 숨기는 방법과 그 아래 몸이 없는 이유는 무엇인가요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "features/optionals",
+          "label": "Dressing System",
+          "label_locales": {
+            "jp": "衣装システム",
+            "zh": "换装系统",
+            "tw": "換裝系統",
+            "kr": "의상 시스템"
+          }
+        },
+        {
+          "href": "features/material_settings",
+          "label": "Material Settings",
+          "label_locales": {
+            "jp": "材質設定",
+            "zh": "材质设置",
+            "tw": "材質設定",
+            "kr": "재질 설정"
+          }
+        },
+        {
+          "href": "appearance",
+          "label": "Appearance & materials",
+          "label_locales": {
+            "jp": "外観と材質",
+            "zh": "外观与材质",
+            "tw": "外觀與材質",
+            "kr": "외형과 재질"
+          }
+        }
+      ],
+      "review_id": "Q49",
+      "source": "features/optionals",
+      "batch": "second"
+    },
+    {
+      "id": "runtime-model-formats",
+      "category": "content",
+      "type": "how-to",
+      "status": "published",
+      "question": "Which model and motion formats work, and can DanceXR convert or author them?",
+      "answer": "The Unity-based app supports PMX/XPS models, model-only FBX preview import, VMD/BVH motions and OBJ stage props. XPS/FBX models may need bone mapping. Native currently documents PMX/XPS models and VMD motions.\n\nA VRM, VRChat or DAZ project is not automatically a compatible model package. Exporting/converting it is a separate workflow; verify the destination format and rig. DanceXR plays imported motions and offers procedural posing—it is not a replacement for a full animation authoring tool.",
+      "question_locales": {
+        "jp": "使えるモデル・モーション形式は？変換やアニメーション制作もできますか？",
+        "zh": "支持哪些模型和动作格式？能直接转换或制作动画吗？",
+        "tw": "支援哪些模型和動作格式？能直接轉換或製作動畫嗎？",
+        "kr": "어떤 모델과 모션 형식을 지원하며 변환이나 애니메이션 제작도 가능한가요?"
+      },
+      "answer_locales": {
+        "jp": "Unity版アプリはPMX/XPSモデル、モデルのみのFBXプレビュー読み込み、VMD/BVHモーション、OBJの舞台小物に対応します。XPS/FBXはボーンの対応付けが必要な場合があります。Nativeの現行ガイドはPMX/XPSモデルとVMDモーションを案内しています。\n\nVRM・VRChat・DAZのプロジェクトがそのまま使えるとは限りません。書き出しや変換は別の作業です。DanceXRはモーション再生と手続き型ポージングを提供しますが、本格的なアニメーション制作ツールの代わりではありません。",
+        "zh": "Unity应用支持PMX/XPS模型、仅模型导入的FBX预览支持、VMD/BVH动作和OBJ场景道具。XPS/FBX模型可能需要骨骼映射。Native当前文档列出PMX/XPS模型和VMD动作。\n\nVRM、VRChat或DAZ工程不一定是可直接使用的模型包。导出或转换属于独立流程，请确认目标格式和骨骼。DanceXR播放导入的动作并提供程序化摆姿，不能替代完整的动画制作工具。",
+        "tw": "Unity應用程式支援PMX/XPS模型、僅模型匯入的FBX預覽支援、VMD/BVH動作和OBJ場景道具。XPS/FBX模型可能需要骨骼映射。Native目前文件列出PMX/XPS模型和VMD動作。\n\nVRM、VRChat或DAZ專案不一定是可直接使用的模型包。匯出或轉換屬於獨立流程，請確認目標格式和骨骼。DanceXR播放匯入的動作並提供程序化擺姿，不能替代完整的動畫製作工具。",
+        "kr": "Unity 앱은 PMX/XPS 모델, 모델만 가져오는 FBX 미리보기 지원, VMD/BVH 모션, OBJ 무대 소품을 지원합니다. XPS/FBX에는 뼈 매핑이 필요할 수 있습니다. Native의 현재 문서는 PMX/XPS 모델과 VMD 모션을 안내합니다.\n\nVRM, VRChat, DAZ 프로젝트가 바로 호환 패키지가 되는 것은 아닙니다. 내보내기나 변환은 별도 작업입니다. DanceXR는 가져온 모션 재생과 절차적 포징을 제공하지만 전체 애니메이션 제작 도구를 대체하지는 않습니다."
+      },
+      "keywords": [
+        "PMX",
+        "XPS",
+        "FBX",
+        "BVH",
+        "VMD",
+        "VRM",
+        "VRChat",
+        "DAZ",
+        "OBJ",
+        "conversion",
+        "animation authoring"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "使えるモデル・モーション形式は？変換やアニメーション制作もできますか？"
+        ],
+        "zh": [
+          "支持哪些模型和动作格式？能直接转换或制作动画吗？"
+        ],
+        "tw": [
+          "支援哪些模型和動作格式？能直接轉換或製作動畫嗎？"
+        ],
+        "kr": [
+          "어떤 모델과 모션 형식을 지원하며 변환이나 애니메이션 제작도 가능한가요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "preparecontent",
+          "label": "Content Library",
+          "label_locales": {
+            "jp": "コンテンツライブラリ",
+            "zh": "内容库",
+            "tw": "內容庫",
+            "kr": "콘텐츠 라이브러리"
+          }
+        },
+        {
+          "href": "features/native",
+          "label": "Native",
+          "label_locales": {
+            "jp": "Nativeガイド",
+            "zh": "Native指南",
+            "tw": "Native指南",
+            "kr": "Native 안내"
+          }
+        },
+        {
+          "href": "features/bone_mapper",
+          "label": "Bone Mapper",
+          "label_locales": {
+            "jp": "ボーンマッパー",
+            "zh": "骨骼映射器",
+            "tw": "骨骼映射器",
+            "kr": "본 매퍼"
+          }
+        }
+      ],
+      "review_id": "Q50",
+      "source": "preparecontent",
+      "batch": "second"
+    },
+    {
+      "id": "slow-or-noisy-rendering",
+      "category": "help",
+      "type": "troubleshooting",
+      "status": "published",
+      "question": "How do I diagnose low FPS, stuttering or a noisy path-traced image?",
+      "answer": "Compare one actor in a default scene with the affected scene. Reduce render scale and test mirrors, shadows and costly effects one at a time. Unity HD/RT has graphics presets; Native has **Detect best settings**, raster quality tiers and separate desktop/VR graphics settings.\n\nPath-traced noise is different from stuttering: Native Realtime uses denoising/upscaling, while Reference accumulates samples for stills. If the problem persists, include your device/GPU, build, scene, FPS and logs. Avoid assuming one setting fixes every platform.",
+      "question_locales": {
+        "jp": "低FPS、カクつき、パストレーシングのノイズを調べるには？",
+        "zh": "如何排查低帧率、卡顿或路径追踪噪点？",
+        "tw": "如何排查低幀率、卡頓或路徑追蹤雜訊？",
+        "kr": "낮은 FPS, 끊김 또는 패스 트레이싱 노이즈를 어떻게 진단하나요?"
+      },
+      "answer_locales": {
+        "jp": "初期シーンにアクター一体だけを置き、問題のシーンと比較します。描画スケールを下げ、鏡・影・重い効果を一つずつ試してください。Unity HD/RTには画質プリセットがあり、Nativeには **Detect best settings**、ラスタ画質段階、デスクトップ/VR別設定があります。\n\nノイズとカクつきは別です。NativeのRealtimeはノイズ除去とアップスケーリング、Referenceは静止画用のサンプル蓄積を使います。改善しない場合は端末/GPU、ビルド、シーン、FPS、ログを添えてください。",
+        "zh": "用默认场景和单个角色与问题场景比较。降低渲染比例，并逐项测试镜面、阴影和高开销效果。Unity HD/RT有画质预设；Native提供 **Detect best settings**、光栅画质档位及独立的桌面/VR图形设置。\n\n路径追踪噪点与卡顿不同：Native的Realtime使用降噪和超采样，Reference为静态画面积累采样。问题持续时，请提供设备/GPU、构建版本、场景、FPS和日志。不要假设一个设置能修复所有平台。",
+        "tw": "用預設場景和單個角色與問題場景比較。降低算繪比例，並逐項測試鏡面、陰影和高負載效果。Unity HD/RT有畫質預設；Native提供 **Detect best settings**、光柵畫質檔位及獨立的桌面/VR圖形設定。\n\n路徑追蹤雜訊與卡頓不同：Native的Realtime使用降噪和升頻，Reference為靜態畫面累積採樣。問題持續時，請提供裝置/GPU、組建版本、場景、FPS和記錄檔。不要假設一個設定能修復所有平台。",
+        "kr": "기본 장면의 배우 한 명과 문제가 있는 장면을 비교하세요. 렌더 스케일을 낮추고 거울, 그림자, 무거운 효과를 하나씩 시험하세요. Unity HD/RT에는 그래픽 프리셋이 있으며 Native에는 **Detect best settings**, 래스터 품질 단계, 별도 데스크톱/VR 설정이 있습니다.\n\n노이즈와 끊김은 다릅니다. Native Realtime은 노이즈 제거와 업스케일링을, Reference는 정지 영상의 샘플 누적을 사용합니다. 계속 문제가 있으면 장치/GPU, 빌드, 장면, FPS와 로그를 알려 주세요."
+      },
+      "keywords": [
+        "FPS",
+        "lag",
+        "stutter",
+        "performance",
+        "VRAM",
+        "noise",
+        "path tracing",
+        "DLSS",
+        "render scale"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "低FPS、カクつき、パストレーシングのノイズを調べるには？"
+        ],
+        "zh": [
+          "如何排查低帧率、卡顿或路径追踪噪点？"
+        ],
+        "tw": [
+          "如何排查低幀率、卡頓或路徑追蹤雜訊？"
+        ],
+        "kr": [
+          "낮은 FPS, 끊김 또는 패스 트레이싱 노이즈를 어떻게 진단하나요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "features/graphics",
+          "label": "Graphics",
+          "label_locales": {
+            "jp": "グラフィックス",
+            "zh": "图形设置",
+            "tw": "圖形設定",
+            "kr": "그래픽"
+          }
+        },
+        {
+          "href": "features/native",
+          "label": "Native",
+          "label_locales": {
+            "jp": "Nativeガイド",
+            "zh": "Native指南",
+            "tw": "Native指南",
+            "kr": "Native 안내"
+          }
+        },
+        {
+          "href": "troubleshooting",
+          "label": "Troubleshooting",
+          "label_locales": {
+            "jp": "トラブルシューティング",
+            "zh": "故障排查",
+            "tw": "疑難排解",
+            "kr": "문제 해결"
+          }
+        }
+      ],
+      "review_id": "Q51",
+      "source": "features/graphics",
+      "batch": "second"
+    },
+    {
+      "id": "eye-contact-stare",
+      "category": "actors",
+      "type": "how-to",
+      "status": "published",
+      "question": "Why does Eye Contact look away, and can the actor keep looking at me?",
+      "answer": "Eye Contact can shift attention between the camera, other actors and body parts. Adjust **Look At Camera**, **Look At Peers** and **Look At Body** priorities. **Stare Mode** keeps attention on the closest eligible target instead of natural gaze shifts.\n\nThe model needs a compatible eye rig. If eye bones are unavailable, configure **Shape Morph Eye Control**. Stare Mode does not guarantee that the viewer is always the chosen target.",
+      "question_locales": {
+        "jp": "視線が外れるのはなぜですか？こちらを見続けさせられますか？",
+        "zh": "为什么Eye Contact会看向别处？能一直看着我吗？",
+        "tw": "為什麼Eye Contact會看向別處？能一直看著我嗎？",
+        "kr": "Eye Contact가 다른 곳을 보는 이유와 계속 나를 보게 하는 방법은 무엇인가요?"
+      },
+      "answer_locales": {
+        "jp": "Eye Contactはカメラ、他のアクター、体の部位へ注意を移します。**Look At Camera**、**Look At Peers**、**Look At Body** の優先度を調整してください。**Stare Mode** は自然な視線移動の代わりに、最も近い対象へ注意を保ちます。\n\n対応する目の構造が必要です。目のボーンがなければ **Shape Morph Eye Control** を設定します。Stare Modeが常に視聴者を選ぶとは限りません。",
+        "zh": "Eye Contact会在摄像机、其他角色和身体部位之间转移注意。调整 **Look At Camera**、**Look At Peers** 和 **Look At Body** 的优先级。**Stare Mode** 会持续关注最近的有效目标，替代自然的视线切换。\n\n模型需要兼容的眼部骨骼。没有眼球骨骼时，可配置 **Shape Morph Eye Control**。Stare Mode不保证总是选择观看者。",
+        "tw": "Eye Contact會在攝影機、其他角色和身體部位之間轉移注意。調整 **Look At Camera**、**Look At Peers** 和 **Look At Body** 的優先順序。**Stare Mode** 會持續關注最近的有效目標，替代自然的視線切換。\n\n模型需要相容的眼部骨骼。沒有眼球骨骼時，可設定 **Shape Morph Eye Control**。Stare Mode不保證總是選擇觀看者。",
+        "kr": "Eye Contact는 카메라, 다른 배우, 신체 부위 사이에서 주의를 바꿉니다. **Look At Camera**, **Look At Peers**, **Look At Body** 우선순위를 조절하세요. **Stare Mode**는 자연스러운 시선 전환 대신 가장 가까운 유효한 대상에 주의를 유지합니다.\n\n호환되는 눈 리그가 필요합니다. 눈 뼈가 없으면 **Shape Morph Eye Control**을 설정하세요. Stare Mode가 항상 관객을 선택하는 것은 아닙니다."
+      },
+      "keywords": [
+        "eye contact",
+        "look away",
+        "Stare Mode",
+        "gaze",
+        "blink"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "視線が外れるのはなぜですか？こちらを見続けさせられますか？"
+        ],
+        "zh": [
+          "为什么Eye Contact会看向别处？能一直看着我吗？"
+        ],
+        "tw": [
+          "為什麼Eye Contact會看向別處？能一直看著我嗎？"
+        ],
+        "kr": [
+          "Eye Contact가 다른 곳을 보는 이유와 계속 나를 보게 하는 방법은 무엇인가요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "features/lifelike_motions#eye-contact",
+          "label": "Lifelike Motions",
+          "label_locales": {
+            "jp": "自然な動作",
+            "zh": "拟真动作",
+            "tw": "擬真動作",
+            "kr": "자연스러운 동작"
+          }
+        }
+      ],
+      "builds": [
+        "HD",
+        "LW",
+        "RT"
+      ],
+      "review_id": "Q52",
+      "source": "features/lifelike_motions",
+      "batch": "second"
+    },
+    {
+      "id": "texture-map-purpose",
+      "category": "actors",
+      "type": "how-to",
+      "status": "published",
+      "question": "How do I add or fix normal, mask and emission textures?",
+      "answer": "Open the selected material’s **Textures** settings and inspect which maps were detected. Correct the texture purpose and channel mapping if detection is wrong. Keep authored normal maps separate from repeating detail maps.\n\nAutomatic attachment depends on the model format and importer; renaming a file alone is not a universal fix. Check the full model package and original references. If a map still fails, report the model format, texture filenames, build and screenshot.",
+      "question_locales": {
+        "jp": "法線・マスク・発光テクスチャを設定、修正するには？",
+        "zh": "如何添加或修复法线、遮罩和发光贴图？",
+        "tw": "如何新增或修復法線、遮罩和發光貼圖？",
+        "kr": "노멀, 마스크, 발광 텍스처를 추가하거나 수정하려면 어떻게 하나요?"
+      },
+      "answer_locales": {
+        "jp": "対象材質の **Textures** を開き、検出されたマップを確認します。誤検出の場合は用途とチャンネル対応を修正してください。モデル用の法線マップと繰り返し使用するディテールマップは別です。\n\n自動割り当ては形式と読み込み処理によって異なり、ファイル名変更だけでは直らない場合があります。モデル一式と参照先を確認し、改善しなければ形式、テクスチャ名、ビルド、画像を報告してください。",
+        "zh": "打开所选材质的 **Textures** 设置，检查检测到的贴图。识别错误时，修正贴图用途和通道映射。模型原始法线贴图与平铺细节贴图不同。\n\n自动关联取决于模型格式和导入器，改文件名不是通用修复。检查完整模型包和原始引用路径。仍然无效时，请提供模型格式、贴图文件名、构建版本和截图。",
+        "tw": "開啟所選材質的 **Textures** 設定，檢查偵測到的貼圖。識別錯誤時，修正貼圖用途和通道映射。模型原始法線貼圖與平鋪細節貼圖不同。\n\n自動關聯取決於模型格式和匯入器，改檔名並非通用修復。檢查完整模型包和原始參照路徑。仍然無效時，請提供模型格式、貼圖檔名、組建版本和截圖。",
+        "kr": "선택한 재질의 **Textures**를 열고 감지된 맵을 확인하세요. 잘못 감지했다면 텍스처 용도와 채널 매핑을 수정하세요. 모델의 노멀 맵과 반복 디테일 맵은 다릅니다.\n\n자동 연결은 모델 형식과 임포터에 따라 달라지며 파일명 변경만으로 해결되지는 않습니다. 전체 모델 패키지와 원래 참조를 확인하세요. 계속 실패하면 모델 형식, 텍스처 파일명, 빌드와 화면을 알려 주세요."
+      },
+      "keywords": [
+        "normal map",
+        "mask map",
+        "emission",
+        "emissive",
+        "specular",
+        "detail map",
+        "ORM"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "法線・マスク・発光テクスチャを設定、修正するには？"
+        ],
+        "zh": [
+          "如何添加或修复法线、遮罩和发光贴图？"
+        ],
+        "tw": [
+          "如何新增或修復法線、遮罩和發光貼圖？"
+        ],
+        "kr": [
+          "노멀, 마스크, 발광 텍스처를 추가하거나 수정하려면 어떻게 하나요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "features/material_settings#textures",
+          "label": "Material Settings",
+          "label_locales": {
+            "jp": "材質設定",
+            "zh": "材质设置",
+            "tw": "材質設定",
+            "kr": "재질 설정"
+          },
+          "href_locales": {
+            "jp": "features/material_settings",
+            "zh": "features/material_settings",
+            "tw": "features/material_settings",
+            "kr": "features/material_settings"
+          }
+        },
+        {
+          "href": "features/texture_enhancement",
+          "label": "Texture Enhancement",
+          "label_locales": {
+            "jp": "テクスチャ強化",
+            "zh": "贴图增强",
+            "tw": "貼圖增強",
+            "kr": "텍스처 개선"
+          }
+        }
+      ],
+      "builds": [
+        "HD",
+        "LW",
+        "RT"
+      ],
+      "review_id": "Q53",
+      "source": "features/material_settings",
+      "batch": "second"
+    },
+    {
+      "id": "translated-model-names",
+      "category": "actors",
+      "type": "how-to",
+      "status": "published",
+      "question": "Can I switch between translated and original morph or material names?",
+      "answer": "In the Unity-based runtimes, change **Application Settings → Use Translated Names**. Turn it off when matching original names in the model’s documentation or editor. Reload the model if existing labels do not refresh.\n\nTranslation can be incomplete for names chosen by the model author. This changes displayed labels, not the model’s original files or rig.",
+      "question_locales": {
+        "jp": "モーフや材質の名前を翻訳表示と原文で切り替えられますか？",
+        "zh": "可以切换变形或材质的翻译名称和原始名称吗？",
+        "tw": "可以切換變形或材質的翻譯名稱和原始名稱嗎？",
+        "kr": "모프나 재질 이름을 번역과 원문 사이에서 전환할 수 있나요?"
+      },
+      "answer_locales": {
+        "jp": "Unity版の **Application Settings → Use Translated Names** を変更します。モデルの説明やエディターの原名と照合するときはオフにしてください。表示が変わらない場合はモデルを読み込み直します。\n\n作者独自の名前は翻訳されない場合があります。変更するのは表示名であり、元ファイルや骨格ではありません。",
+        "zh": "在Unity版本中调整 **Application Settings → Use Translated Names**。需要与模型说明或编辑器中的原始名称对应时，将它关闭。已有标签未更新时，重新加载模型。\n\n作者自定义的名称可能没有完整翻译。此设置只改变显示名称，不修改模型原文件或骨骼。",
+        "tw": "在Unity版本中調整 **Application Settings → Use Translated Names**。需要與模型說明或編輯器中的原始名稱對應時，將它關閉。已有標籤未更新時，重新載入模型。\n\n作者自訂的名稱可能沒有完整翻譯。此設定只改變顯示名稱，不修改模型原始檔案或骨骼。",
+        "kr": "Unity 버전의 **Application Settings → Use Translated Names**를 변경하세요. 모델 설명이나 편집기의 원래 이름과 비교하려면 끄세요. 기존 표시가 갱신되지 않으면 모델을 다시 불러오세요.\n\n제작자가 정한 이름은 번역이 불완전할 수 있습니다. 표시 이름만 바뀌며 원본 모델 파일이나 리그는 바뀌지 않습니다."
+      },
+      "keywords": [
+        "translation",
+        "Japanese",
+        "original name",
+        "morph",
+        "material",
+        "Use Translated Names"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "モーフや材質の名前を翻訳表示と原文で切り替えられますか？"
+        ],
+        "zh": [
+          "可以切换变形或材质的翻译名称和原始名称吗？"
+        ],
+        "tw": [
+          "可以切換變形或材質的翻譯名稱和原始名稱嗎？"
+        ],
+        "kr": [
+          "모프나 재질 이름을 번역과 원문 사이에서 전환할 수 있나요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "features/application_settings",
+          "label": "Application Settings",
+          "label_locales": {
+            "jp": "アプリ設定",
+            "zh": "应用设置",
+            "tw": "應用設定",
+            "kr": "앱 설정"
+          }
+        },
+        {
+          "href": "features/morph_list",
+          "label": "PMX Morphs",
+          "label_locales": {
+            "jp": "PMXモーフ",
+            "zh": "PMX变形",
+            "tw": "PMX變形",
+            "kr": "PMX 모프"
+          }
+        }
+      ],
+      "builds": [
+        "HD",
+        "LW",
+        "RT"
+      ],
+      "review_id": "Q54",
+      "source": "features/application_settings",
+      "batch": "second"
+    },
+    {
+      "id": "pmx-morph-override",
+      "category": "actors",
+      "type": "how-to",
+      "status": "published",
+      "question": "Why does adjusting a PMX morph value have no effect?",
+      "answer": "For a PMX-authored morph in the Unity runtimes, enable its **Override Value** toggle, then adjust the value. With the override off, the normal motion-driven value stays in control. The control requires an edition with the feature unlocked.\n\nFor facial expressions, also check lip sync, loaded motion and Lifelike Motions. These can drive the same expression. Other model formats and Native do not necessarily use this control.",
+      "question_locales": {
+        "jp": "PMXモーフの値を変えても反映されないのはなぜですか？",
+        "zh": "为什么调整PMX变形值没有效果？",
+        "tw": "為什麼調整PMX變形值沒有效果？",
+        "kr": "PMX 모프 값을 조절해도 효과가 없는 이유는 무엇인가요?"
+      },
+      "answer_locales": {
+        "jp": "Unity版のPMXモーフでは、**Override Value** をオンにしてから値を調整します。オフのままだと通常のモーションによる値が使われます。この機能が解放されたエディションが必要です。\n\n表情の場合はリップシンク、モーション、Lifelike Motionsも確認してください。同じ表情を動かすことがあります。他形式やNativeが同じ操作とは限りません。",
+        "zh": "在Unity版本中，对模型自带的PMX变形启用 **Override Value**，再调整数值。覆盖关闭时，仍由正常动作驱动的值控制。需要已解锁该功能的版本。\n\n面部表情还应检查口型同步、加载的动作和Lifelike Motions，它们可能驱动同一个表情。其他模型格式和Native不一定使用相同控制。",
+        "tw": "在Unity版本中，對模型自帶的PMX變形啟用 **Override Value**，再調整数值。覆寫關閉時，仍由正常動作驅動的值控制。需要已解鎖該功能的版本。\n\n面部表情還應檢查口型同步、載入的動作和Lifelike Motions，它們可能驅動同一個表情。其他模型格式和Native不一定使用相同控制。",
+        "kr": "Unity 버전의 PMX 모델 모프는 **Override Value**를 켠 뒤 값을 조절하세요. 꺼져 있으면 일반 모션 값이 계속 사용됩니다. 해당 기능이 잠금 해제된 에디션이 필요합니다.\n\n얼굴 표정은 립싱크, 불러온 모션, Lifelike Motions도 확인하세요. 같은 표정을 구동할 수 있습니다. 다른 형식과 Native가 같은 조절을 쓰는 것은 아닙니다."
+      },
+      "keywords": [
+        "PMX",
+        "morph",
+        "Override Value",
+        "checkbox",
+        "expression",
+        "manual"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "PMXモーフの値を変えても反映されないのはなぜですか？"
+        ],
+        "zh": [
+          "为什么调整PMX变形值没有效果？"
+        ],
+        "tw": [
+          "為什麼調整PMX變形值沒有效果？"
+        ],
+        "kr": [
+          "PMX 모프 값을 조절해도 효과가 없는 이유는 무엇인가요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "features/morph_list",
+          "label": "PMX Morphs",
+          "label_locales": {
+            "jp": "PMXモーフ",
+            "zh": "PMX变形",
+            "tw": "PMX變形",
+            "kr": "PMX 모프"
+          }
+        },
+        {
+          "href": "features/facial_control",
+          "label": "Facial Control",
+          "label_locales": {
+            "jp": "表情の操作",
+            "zh": "面部控制",
+            "tw": "面部控制",
+            "kr": "표정 조절"
+          }
+        }
+      ],
+      "builds": [
+        "HD",
+        "LW",
+        "RT"
+      ],
+      "review_id": "Q55",
+      "source": "features/morph_list",
+      "batch": "second"
+    },
+    {
+      "id": "motion-speed-sync",
+      "category": "motion",
+      "type": "troubleshooting",
+      "status": "published",
+      "question": "Why does motion run too slowly, too quickly or out of sync with music?",
+      "answer": "Check overall playback speed and the motion’s own speed setting. An unusual source frame rate can need a per-motion speed adjustment; do not automatically set every motion to double speed. Recording FPS is a separate setting.\n\nFor music alignment, check the track’s audio offset. For procedural dance, check BPM and beat offset in **Music Timing**. Change one setting at a time and compare against the intended playback.",
+      "question_locales": {
+        "jp": "モーションの速さや音楽との同期が合わない場合は？",
+        "zh": "动作太慢、太快或与音乐不同步怎么办？",
+        "tw": "動作太慢、太快或與音樂不同步怎麼辦？",
+        "kr": "모션이 너무 느리거나 빠르거나 음악과 맞지 않으면 어떻게 하나요?"
+      },
+      "answer_locales": {
+        "jp": "全体の再生速度とモーション個別の速度を確認します。元のフレームレートによっては個別調整が必要ですが、すべてを二倍速にしないでください。録画FPSは別の設定です。\n\n曲との位置合わせには音声オフセットを確認します。手続き型ダンスは **Music Timing** のBPMと拍オフセットを確認してください。一つずつ変更し、本来の再生と比較します。",
+        "zh": "检查整体播放速度和动作自身的速度设置。非标准源帧率可能需要单独调节动作速度，不要把所有动作都设为两倍速。录制FPS是另一项设置。\n\n音乐对齐时检查音轨的音频偏移；程序化舞蹈则检查 **Music Timing** 中的BPM和节拍偏移。一次改一个设置，并与预期播放效果比较。",
+        "tw": "檢查整體播放速度和動作自身的速度設定。非標準來源幀率可能需要單獨調節動作速度，不要把所有動作都設為兩倍速。錄製FPS是另一項設定。\n\n音樂對齊時檢查音軌的音訊偏移；程序化舞蹈則檢查 **Music Timing** 中的BPM和節拍偏移。一次改一個設定，並與預期播放效果比較。",
+        "kr": "전체 재생 속도와 모션별 속도를 확인하세요. 특이한 원본 프레임률은 모션별 속도 조절이 필요할 수 있지만 모든 모션을 두 배로 설정하지 마세요. 녹화 FPS는 별도 설정입니다.\n\n음악 정렬은 트랙의 오디오 오프셋을 확인하세요. 절차적 춤은 **Music Timing**의 BPM과 비트 오프셋을 확인하세요. 하나씩 변경하고 의도된 재생과 비교하세요."
+      },
+      "keywords": [
+        "speed",
+        "slow motion",
+        "60fps",
+        "sync",
+        "music offset",
+        "BPM",
+        "timing"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "モーションの速さや音楽との同期が合わない場合は？"
+        ],
+        "zh": [
+          "动作太慢、太快或与音乐不同步怎么办？"
+        ],
+        "tw": [
+          "動作太慢、太快或與音樂不同步怎麼辦？"
+        ],
+        "kr": [
+          "모션이 너무 느리거나 빠르거나 음악과 맞지 않으면 어떻게 하나요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "motion",
+          "label": "Motion System",
+          "label_locales": {
+            "jp": "モーションシステム",
+            "zh": "动作系统",
+            "tw": "動作系統",
+            "kr": "모션 시스템"
+          }
+        },
+        {
+          "href": "features/playback_options#speed",
+          "label": "Playback Options",
+          "label_locales": {
+            "jp": "再生オプション",
+            "zh": "播放选项",
+            "tw": "播放選項",
+            "kr": "재생 옵션"
+          },
+          "href_locales": {
+            "jp": "features/playback_options",
+            "zh": "features/playback_options",
+            "tw": "features/playback_options",
+            "kr": "features/playback_options"
+          }
+        },
+        {
+          "href": "features/music_timing",
+          "label": "Music Timing",
+          "label_locales": {
+            "jp": "音楽タイミング",
+            "zh": "音乐节拍",
+            "tw": "音樂節拍",
+            "kr": "음악 타이밍"
+          }
+        }
+      ],
+      "review_id": "Q56",
+      "source": "motion",
+      "batch": "second"
+    },
+    {
+      "id": "start-free-pose",
+      "category": "motion",
+      "type": "how-to",
+      "status": "published",
+      "question": "How do I pose an actor with Free Pose?",
+      "answer": "Choose **Free Pose** from the procedural motion list to replace the active motion with manual posing. Drag a body handle; mouse users can scroll to adjust depth, while VR users can drag with the ray or grip a handle directly.\n\nStart with both feet on the floor. Hold a dragged foot still until its marker turns green to pin it; release while red to let it settle. **Reset** releases pins and returns to a neutral stand. Do not assume pins are a saved reusable pose.",
+      "question_locales": {
+        "jp": "Free Poseでアクターにポーズを付けるには？",
+        "zh": "如何用Free Pose给角色摆姿？",
+        "tw": "如何用Free Pose替角色擺姿？",
+        "kr": "Free Pose로 배우의 포즈를 잡으려면 어떻게 하나요?"
+      },
+      "answer_locales": {
+        "jp": "手続き型モーション一覧から **Free Pose** を選ぶと、再生中の動作を手動ポージングに置き換えます。体のハンドルをドラッグします。マウスではホイールで奥行きを調整し、VRではレーザーでドラッグするかハンドルを直接握ります。\n\n両足を床に置いて始めてください。足を動かさず保持し、印が緑になったら固定できます。赤の間に離すと床へ戻ります。**Reset** は固定を解除して立ち姿へ戻します。固定が保存用ポーズになるとは限りません。",
+        "zh": "从程序化动作列表选择 **Free Pose**，将当前动作替换为手动摆姿。拖动身体控制柄；鼠标用户可滚轮调整深度，VR用户可用射线拖动或直接握住控制柄。\n\n先让双脚着地。拖动脚后保持不动，标记变绿即可固定；红色时松开会回落。**Reset** 解除固定并恢复自然站姿。不要把临时固定理解为已保存的可复用姿势。",
+        "tw": "從程序化動作清單選擇 **Free Pose**，將目前動作替換為手動擺姿。拖動身體控制柄；滑鼠使用者可用滾輪調整深度，VR使用者可用射線拖動或直接握住控制柄。\n\n先讓雙腳著地。拖動腳後保持不動，標記變綠即可固定；紅色時放開會回落。**Reset** 解除固定並恢復自然站姿。不要把暫時固定理解為已儲存的可重用姿勢。",
+        "kr": "절차적 모션 목록에서 **Free Pose**를 선택해 현재 모션을 수동 포징으로 바꾸세요. 몸의 핸들을 드래그하세요. 마우스는 휠로 깊이를 조절하며 VR은 레이로 드래그하거나 핸들을 직접 잡을 수 있습니다.\n\n두 발을 바닥에 두고 시작하세요. 발을 끈 뒤 가만히 유지해 표시가 녹색이 되면 고정됩니다. 빨간색일 때 놓으면 내려옵니다. **Reset**은 고정을 풀고 중립 자세로 돌아갑니다. 고정이 저장된 재사용 포즈라는 뜻은 아닙니다."
+      },
+      "keywords": [
+        "Free Pose",
+        "posing",
+        "pin",
+        "grab",
+        "limb",
+        "reset"
+      ],
+      "keywords_locales": {
+        "jp": [
+          "Free Poseでアクターにポーズを付けるには？"
+        ],
+        "zh": [
+          "如何用Free Pose给角色摆姿？"
+        ],
+        "tw": [
+          "如何用Free Pose替角色擺姿？"
+        ],
+        "kr": [
+          "Free Pose로 배우의 포즈를 잡으려면 어떻게 하나요?"
+        ]
+      },
+      "related": [
+        {
+          "href": "features/free_pose",
+          "label": "Free Pose",
+          "label_locales": {
+            "jp": "自由ポーズ",
+            "zh": "自由摆姿",
+            "tw": "自由擺姿",
+            "kr": "자유 포즈"
+          }
+        }
+      ],
+      "builds": [
+        "HD",
+        "LW",
+        "RT"
+      ],
+      "review_id": "Q57",
+      "source": "features/free_pose",
+      "batch": "second"
     }
   ]
 }

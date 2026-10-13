@@ -29,12 +29,10 @@ DanceXR 直接从 PMX 文件中读取这些形态；您无法在 DanceXR 中创�
 
 ## 使用形态列表
 
-<!-- TODO: confirm exact UI path and layout -->
-
 1. 打开人格体菜单（点击该人格体的选择盘）。
-2. 在菜单底部找到 **形态列表**。
-3. 每个形态都会显示其名称和一个 0 到 1 的滑块。
-4. 拖动滑块来应用形态；松开滑块则使其保持在该数值。
+2. 打开角色菜单中的PMX变形控制。
+3. 启用所需PMX变形的 **Override Value**。
+4. 调整数值。覆盖关闭时使用正常动作驱动的值，需要已解锁该功能的版本。
 
 只要您更改或重新加载模型，形态就会保持应用状态。一些形态（例如面部表情）将在 [Facial control](facial_control) 和 [Blink, breathing & eye contact](lifelike_motions#eye-contact) 激活时被其覆盖。
 
@@ -44,7 +42,7 @@ DanceXR 直接从 PMX 文件中读取这些形态；您无法在 DanceXR 中创�
 
 - **形态名称取决于作者**。日本模型作者通常使用日文命名面部形态（まばたき, あ, い…）。英文模型则常使用英文名称。
 - 此处显示的 **材质形态** 通常与 [Dressing system](optionals) 提供的相同；无论从哪个位置应用，效果都是一样的。
-- 对于包含数百个形态的 PMX 模型，请滚动或使用搜索框 <!-- TODO: confirm if search exists --> 来查找您需要的形态。
+- 列表较长时滚动查看作者定义的名称。使用 **Application Settings → Use Translated Names** 对照翻译名称和原名，必要时重新加载模型。
 
 ---
 

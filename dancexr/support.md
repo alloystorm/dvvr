@@ -59,6 +59,36 @@ support_sections:
             keywords: ["refresh", "rescan", "missing files", "new content"]
             related: [{"href": "preparecontent", "label": "Content Library"}]
             answer: "Open **System → Content Library → Refresh Content** and wait for the scan to finish. Use this after copying or moving files while DanceXR is running.\n\nThe app also checks for library changes when it starts. If a file still does not appear, make sure it is in the correct subfolder: `actors/` for models, `motion/` for motions and audio, `stages/` for stages, or `texture/sky/` for sky maps."
+          - id: "native-and-launcher"
+            category: "content"
+            type: "how-to"
+            question: "What is Native, and do I need the Launcher?"
+            keywords: ["Native", "HD", "LW", "RT", "Launcher", "edition", "build", "path tracing", "raster"]
+            platforms: ["Windows"]
+            related: [{"href": "features/native", "label": "Native"}, {"href": "download", "label": "Downloads & editions"}]
+            answer: "Native is a separate Windows application with its own rendering and settings. HD, LW and RT are the Unity-based runtimes. Since 2026.10, Native supports raster rendering on DirectX 12 PCs without ray-tracing hardware; path tracing needs a compatible ray-tracing GPU.\n\nThe Launcher installs, updates and starts runtimes and companion apps. You can also download Native directly. Check the download page for current editions, activation and feature limits."
+          - id: "runtime-model-formats"
+            category: "content"
+            type: "how-to"
+            question: "Which model and motion formats work, and can DanceXR convert or author them?"
+            keywords: ["PMX", "XPS", "FBX", "BVH", "VMD", "VRM", "VRChat", "DAZ", "OBJ", "conversion", "animation authoring"]
+            related: [{"href": "preparecontent", "label": "Content Library"}, {"href": "features/native", "label": "Native"}, {"href": "features/bone_mapper", "label": "Bone Mapper"}]
+            answer: "The Unity-based app supports PMX/XPS models, model-only FBX preview import, VMD/BVH motions and OBJ stage props. XPS/FBX models may need bone mapping. Native currently documents PMX/XPS models and VMD motions.\n\nA VRM, VRChat or DAZ project is not automatically a compatible model package. Exporting/converting it is a separate workflow; verify the destination format and rig. DanceXR plays imported motions and offers procedural posing—it is not a replacement for a full animation authoring tool."
+          - id: "change-content-library"
+            category: "content"
+            type: "how-to"
+            question: "How do I move or change my content library?"
+            keywords: ["Switch Library", "Select Library Folder", "move", "relocate", "backup", "settings", "cache"]
+            related: [{"href": "preparecontent", "label": "Content Library"}, {"href": "features/scene_bundle", "label": "Scene Bundle"}]
+            answer: "On desktop Unity builds, copy the complete library to its new location and keep a backup. Open **System → Content Library → Switch Library**, then choose the folder containing the library subfolders. Use **Select Library Folder** if you need to browse.\n\nSwitching changes the folder DanceXR uses; it does not move files for you. Wait for the scan and check saved scenes. Keep separate settings when testing older builds. Mobile and standalone headsets do not expose this desktop picker."
+          - id: "add-content-ios"
+            category: "content"
+            type: "how-to"
+            question: "How do I add content on iPhone or iPad?"
+            keywords: ["iPhone", "iPad", "iOS", "Files", "iCloud", "Google Drive", "content"]
+            platforms: ["iOS"]
+            related: [{"href": "preparecontent", "label": "Content Library"}, {"href": "features/zip_format", "label": "ZIP format"}]
+            answer: "Launch DanceXR once. In **Files → On My iPhone / On My iPad → DanceXR**, open the app-created content library (normally its **content** folder). Put models and textures in **actors**, and motions/audio in **motion**. Keep original texture folders intact; complete model ZIPs also work.\n\nCopy cloud downloads into the local library; a link alone is not an imported model. Use **System → Content Library → Refresh Content** or restart. For older builds, follow the folders the app created."
       - title: "Actors & appearance"
         items:
           - id: "add-another-actor"
@@ -89,6 +119,59 @@ support_sections:
             keywords: ["accessory", "prop", "hand", "grab pose", "attachment"]
             related: [{"href": "features/accessory#first-attachment", "label": "Accessory"}]
             answer: "Put the prop model and its textures in `accessory/` in your content library and refresh the library if needed.\n\nSelect the actor and open **Accessory**. Enable **Left Hand** or **Right Hand**, then choose the prop under **Model**. Adjust **Size & Alignment**, **Rotation** and **Offset** until it fits the hand. Use **Grab Pose** to adjust the grip where available.\n\nThis requires an edition with the Accessory feature."
+          - id: "lip-sync-and-expressions"
+            category: "actors"
+            type: "troubleshooting"
+            question: "Why does the mouth not move, or why does my expression change back?"
+            keywords: ["lip sync", "mouth", "blink", "expression", "A I U E O", "facial mapping"]
+            related: [{"href": "features/lipsync", "label": "LipSync"}, {"href": "features/facial_control", "label": "Facial Control"}, {"href": "features/morph_list", "label": "PMX Morphs"}]
+            answer: "For playback audio, enable **Lip Sync** in Playback Options and **Use Lip Sync** in the actor’s Facial Control. Confirm audio playback and test the vowel controls manually. If those do not work, check facial mapping and the model’s available bones or morphs.\n\nDisable **Use Lip Sync** while arranging a manual mouth expression. Loaded motion and Lifelike Motions can also change facial values. AI chat speech uses a separate lip-sync driver."
+          - id: "hide-clothing-parts"
+            category: "actors"
+            type: "how-to"
+            question: "How do I hide clothing, and why is the body missing underneath?"
+            keywords: ["clothing", "dressing", "outfit", "hide", "missing body", "visibility"]
+            related: [{"href": "features/optionals", "label": "Dressing System"}, {"href": "features/material_settings", "label": "Material Settings"}, {"href": "appearance", "label": "Appearance & materials"}]
+            answer: "Use the actor’s **Dressing** controls for PMX material morphs or XPS optional parts. Where needed, inspect individual materials in **Material List** instead of hiding an entire material group.\n\nIf the model does not contain body geometry beneath the garment, hiding the garment cannot create it. Some outfit parts share materials with the body. Available dressing choices depend on how the model was authored."
+          - id: "eye-contact-stare"
+            category: "actors"
+            type: "how-to"
+            question: "Why does Eye Contact look away, and can the actor keep looking at me?"
+            keywords: ["eye contact", "look away", "Stare Mode", "gaze", "blink"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/lifelike_motions#eye-contact", "label": "Lifelike Motions"}]
+            answer: "Eye Contact can shift attention between the camera, other actors and body parts. Adjust **Look At Camera**, **Look At Peers** and **Look At Body** priorities. **Stare Mode** keeps attention on the closest eligible target instead of natural gaze shifts.\n\nThe model needs a compatible eye rig. If eye bones are unavailable, configure **Shape Morph Eye Control**. Stare Mode does not guarantee that the viewer is always the chosen target."
+          - id: "texture-map-purpose"
+            category: "actors"
+            type: "how-to"
+            question: "How do I add or fix normal, mask and emission textures?"
+            keywords: ["normal map", "mask map", "emission", "emissive", "specular", "detail map", "ORM"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/material_settings#textures", "label": "Material Settings"}, {"href": "features/texture_enhancement", "label": "Texture Enhancement"}]
+            answer: "Open the selected material’s **Textures** settings and inspect which maps were detected. Correct the texture purpose and channel mapping if detection is wrong. Keep authored normal maps separate from repeating detail maps.\n\nAutomatic attachment depends on the model format and importer; renaming a file alone is not a universal fix. Check the full model package and original references. If a map still fails, report the model format, texture filenames, build and screenshot."
+          - id: "translated-model-names"
+            category: "actors"
+            type: "how-to"
+            question: "Can I switch between translated and original morph or material names?"
+            keywords: ["translation", "Japanese", "original name", "morph", "material", "Use Translated Names"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/application_settings", "label": "Application Settings"}, {"href": "features/morph_list", "label": "PMX Morphs"}]
+            answer: "In the Unity-based runtimes, change **Application Settings → Use Translated Names**. Turn it off when matching original names in the model’s documentation or editor. Reload the model if existing labels do not refresh.\n\nTranslation can be incomplete for names chosen by the model author. This changes displayed labels, not the model’s original files or rig."
+          - id: "pmx-morph-override"
+            category: "actors"
+            type: "how-to"
+            question: "Why does adjusting a PMX morph value have no effect?"
+            keywords: ["PMX", "morph", "Override Value", "checkbox", "expression", "manual"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/morph_list", "label": "PMX Morphs"}, {"href": "features/facial_control", "label": "Facial Control"}]
+            answer: "For a PMX-authored morph in the Unity runtimes, enable its **Override Value** toggle, then adjust the value. With the override off, the normal motion-driven value stays in control. The control requires an edition with the feature unlocked.\n\nFor facial expressions, also check lip sync, loaded motion and Lifelike Motions. These can drive the same expression. Other model formats and Native do not necessarily use this control."
+          - id: "adjust-hair-and-cloth"
+            category: "actors"
+            type: "how-to"
+            question: "How do I adjust hair and clothing physics?"
+            keywords: ["hair", "cloth", "skirt", "physics", "PMX", "XPS", "FBX", "PhysX", "XPBD", "Select Bones"]
+            related: [{"href": "physics", "label": "Physics"}, {"href": "features/pmx_physics", "label": "PMX Physics"}, {"href": "features/hair_physics", "label": "Hair Physics"}, {"href": "features/skirt_physics", "label": "Skirt Physics"}]
+            answer: "First check the actor’s physics setup. For PMX-authored bodies and joints, compare **Physics Mode** options; **Auto** follows the system’s **PMX Default**. For XPS/FBX custom tools, enable **Hair Physics** or **Skirt Physics**, use **Select Bones** for chain roots, and check body colliders.\n\nTune one setting at a time: PhysX uses spring/damping controls; XPBD uses compliance/damping. To replace a PMX rig with custom tools, set PMX **Physics Mode** to **Off** first. Availability varies by build/edition. Native has separate physics controls."
       - title: "Motion & playback"
         items:
           - id: "assign-motion"
@@ -119,6 +202,28 @@ support_sections:
             keywords: ["bone mapping", "XPS", "FBX", "T-pose", "Auto Map", "Chain Mapping"]
             related: [{"href": "features/bone_mapper", "label": "Bone Mapper"}]
             answer: "Load the model and open **Bone Mapper** in its actor menu. Run **Auto Map**, then check the slots marked with an exclamation mark: these are critical bones that still need assignments.\n\nMap each missing slot to the corresponding bone in the model. **Chain Mapping** can speed up mapping arms, hands and other bone chains. Once the critical mappings are complete, assign a motion and check the result.\n\nXPS and FBX require bone mapping. PMX models usually already include standard bone names."
+          - id: "feet-slide-or-float"
+            category: "motion"
+            type: "troubleshooting"
+            question: "Why do feet slide, float or pull toward a fixed position?"
+            keywords: ["feet", "sliding", "floating", "floor", "IK", "inverse kinematics", "rest pose"]
+            related: [{"href": "features/feet_adjustment", "label": "Feet Adjustment"}, {"href": "features/motion_settings", "label": "Motion Settings"}, {"href": "features/troubleshooting", "label": "Actor troubleshooting"}]
+            answer: "Compare the same model and motion with default settings, then change one control at a time. Check **Feet On Floor**, **Ground Offset** and **Reduce Sliding**. Incorrect bone mapping or rest pose can also affect the result.\n\nIn Unity runtimes, inspect **Motion Leg IK** and **Model IK** for conflicting corrections. Do not disable all IK as a universal fix. If a new build breaks a previously working model, report the model, motion, version and last working build."
+          - id: "motion-speed-sync"
+            category: "motion"
+            type: "troubleshooting"
+            question: "Why does motion run too slowly, too quickly or out of sync with music?"
+            keywords: ["speed", "slow motion", "60fps", "sync", "music offset", "BPM", "timing"]
+            related: [{"href": "motion", "label": "Motion System"}, {"href": "features/playback_options#speed", "label": "Playback Options"}, {"href": "features/music_timing", "label": "Music Timing"}]
+            answer: "Check overall playback speed and the motion’s own speed setting. An unusual source frame rate can need a per-motion speed adjustment; do not automatically set every motion to double speed. Recording FPS is a separate setting.\n\nFor music alignment, check the track’s audio offset. For procedural dance, check BPM and beat offset in **Music Timing**. Change one setting at a time and compare against the intended playback."
+          - id: "start-free-pose"
+            category: "motion"
+            type: "how-to"
+            question: "How do I pose an actor with Free Pose?"
+            keywords: ["Free Pose", "posing", "pin", "grab", "limb", "reset"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/free_pose", "label": "Free Pose"}]
+            answer: "Choose **Free Pose** from the procedural motion list to replace the active motion with manual posing. Drag a body handle; mouse users can scroll to adjust depth, while VR users can drag with the ray or grip a handle directly.\n\nStart with both feet on the floor. Hold a dragged foot still until its marker turns green to pin it; release while red to let it settle. **Reset** releases pins and returns to a neutral stand. Do not assume pins are a saved reusable pose."
       - title: "Environment & lighting"
         items:
           - id: "change-sky-map"
@@ -165,7 +270,7 @@ support_sections:
             question: "How do I use the camera motion that comes with a dance?"
             keywords: ["camera VMD", "camera motion", "dance camera", "imported camera"]
             related: [{"href": "cameras", "label": "Cinematic Cameras"}, {"href": "features/assign_motion", "label": "Assigning Motion"}, {"href": "preparecontent#motion-files", "label": "Content Library"}]
-            answer: "Keep the camera VMD in the same dance-set folder or ZIP as the song and actor motions, then load that dance set.\n\nOpen **Camera** and select the camera motion from the loaded set. Built-in camera modes such as Freefly or Auto are separate choices; select the imported track to follow the dance's authored camera movement.\n\nIf the track is missing, check that its file is in the package you loaded. In VR, this controls the desktop/recording camera; the headset view follows your head."
+            answer: "Keep the camera VMD in the same dance-set folder or ZIP as the song and actor motions, then load that dance set.\n\nOpen **Camera** and select the camera motion from the loaded set. Built-in camera modes such as Freefly or Auto are separate choices; select the imported track to follow the dance's authored camera movement.\n\nIf the track is missing, check that its file is in the package you loaded. In Unity VR builds, head tracking is combined with camera-rig movement; the selected camera mode matters. **Freeze in VR** pauses camera movement while the UI is visible. Native has its own camera controls."
           - id: "record-4k"
             category: "camera"
             type: "how-to"
@@ -190,6 +295,15 @@ support_sections:
             platforms: ["Windows", "macOS"]
             related: [{"href": "features/display_settings", "label": "Display Settings"}, {"href": "controls#toggle-states", "label": "Controls & UI"}]
             answer: "Use screen-recording software to capture DanceXR while it plays in real time; Creator Edition is not required.\n\n1. Open **System → Display & UI → Resolution** and turn **Fullscreen** off to use a window.\n2. Choose **Window Resolution**. Enable **Vertical** for portrait, or leave it off for landscape.\n3. Click **Apply Resolution**, then frame the scene and hide the UI if you want a clean recording.\n4. In your screen recorder, capture the DanceXR window and its audio, start recording, and play the motion.\n\nRecording smoothness follows your actual playback frame rate. Lower graphics settings or resolution if playback stutters."
+          - id: "record-vr-video"
+            category: "camera"
+            type: "how-to"
+            question: "How do I record a stereo or VR video?"
+            keywords: ["stereo", "SBS", "Side by Side", "Top Bottom", "VR120", "VR180", "VR360", "FFmpeg", "encoder"]
+            builds: ["HD", "LW", "RT"]
+            editions: ["Creator"]
+            related: [{"href": "creator", "label": "Creator Edition"}, {"href": "features/recording_settings", "label": "Recording Settings"}]
+            answer: "Use an activated **Creator Edition** build. In the recording menu, choose **Record 3D → Side by Side / Top Bottom**, or **Record VR → VR 120 3D / VR 180 3D / VR 360 2D**. VR360 is monoscopic. Check **Preview** and Recording Settings first.\n\nRecording creates image frames. Convert them with a video editor or the generated batch file, which needs FFmpeg. Panorama batch files use an NVIDIA encoder; other GPUs need an available encoder instead. Set the matching projection/stereo mode in your VR player."
       - title: "Saving & sharing"
         items:
           - id: "save-scene"
@@ -245,6 +359,30 @@ support_sections:
             editions: ["Pro"]
             related: [{"href": "features/ar_mode", "label": "AR Settings"}]
             answer: "On a supported Android or iOS device, launch DanceXR, open **Environment**, and select **AR** to start it. Allow camera access if your device asks, then wait for AR to initialize.\n\nUse **Show Camera** in AR settings to show the real-world background. Enable **Hide Ground** if you want the actors to appear directly on your physical floor. Use **Stop AR** to return to normal mode.\n\nAR requires an activated Pro edition and a compatible device/build. If the AR option is missing, check both device support and activation. Quest passthrough is covered separately."
+          - id: "vr-camera-menu-freeze"
+            category: "vr"
+            type: "troubleshooting"
+            question: "Why does camera movement stop when I open the menu in VR?"
+            keywords: ["VR", "camera", "joystick", "menu", "Freeze in VR", "first person", "auto camera"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/camera_settings", "label": "Camera Settings"}, {"href": "controls", "label": "Controls & UI"}, {"href": "vr_operations", "label": "VR Operations"}]
+            answer: "In the Unity-based runtimes, **Freeze in VR** pauses camera movement while the menu is visible. Hide the menu and try again, or change **Freeze in VR** in Camera Settings if you want movement during menu interaction.\n\nHead tracking and camera-rig movement are different. If controller movement still fails with the menu hidden, report your build, headset, controllers and OpenXR runtime. Native has a separate control system."
+          - id: "vr-controller-options"
+            category: "vr"
+            type: "troubleshooting"
+            question: "Why must I press the thumbstick, or why does grip trigger accidental actions?"
+            keywords: ["thumbstick", "Index", "grip", "Trackpad Mode", "Grip Threshold", "controller"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/input_settings", "label": "Controller Input"}, {"href": "vr_operations", "label": "VR Operations"}]
+            answer: "In Unity-based runtimes, check **Controller Input → Options**. Turn **Trackpad Mode** off to try axis input without pressing the pad/stick. For accidental grip actions, increase **Grip Threshold** or turn **Use Grip Input** off; this also disables grip-based interactions.\n\nChange one option at a time. These are settings to try, not a guaranteed fix for every headset. Native uses separate controls."
+          - id: "move-vr-ui"
+            category: "vr"
+            type: "how-to"
+            question: "How do I move the menu in VR?"
+            keywords: ["menu", "grip drag", "UI Auto Return", "UI Distance", "floating panel"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "vr_operations#grip-drag-ui", "label": "VR Operations"}, {"href": "features/vr_settings#ui", "label": "VR Settings"}]
+            answer: "In Unity VR builds, point at the menu panel, hold the controller’s **grip button**, and move your hand to reposition it. Release to leave it there.\n\nUnder **Environment → VR → UI**, adjust **UI Distance** and **UI Auto Return**. Auto Return brings the panel back into view when it drifts away. If hidden, bring it back with your assigned Toggle UI control. Native uses a separate interface."
       - title: "Troubleshooting & licensing"
         items:
           - id: "white-model"
@@ -257,11 +395,11 @@ support_sections:
           - id: "transparent-hair"
             category: "help"
             type: "troubleshooting"
-            question: "How do I fix hair that looks see-through?"
-            keywords: ["hair", "see-through", "transparency", "depth prepass", "transparent hair", "sorting"]
+            question: "How do I fix see-through hair or missing transparent clothing?"
+            keywords: ["hair", "see-through", "transparency", "depth prepass", "transparent hair", "sorting", "stockings", "eyelashes", "opaque", "alpha", "classification"]
             builds: ["HD", "RT"]
             related: [{"href": "features/transparency", "label": "Transparent Materials"}, {"href": "faq", "label": "FAQ"}]
-            answer: "In HD/RT builds, layered transparent hair can lose its deeper layers because of the transparent depth prepass.\n\nTry turning off **System → Graphics → Options → Transparent Prepass** and compare the result. For a smaller change, adjust Transparent Prepass on the affected hair materials only.\n\nDisabling it can reveal other transparency sorting problems, so inspect the hair from several angles and keep the setting that gives the best result for that model."
+            answer: "In HD/RT builds, layered transparent hair can lose its deeper layers because of the transparent depth prepass.\n\nTry turning off **System → Graphics → Options → Transparent Prepass** and compare the result. For a smaller change, adjust Transparent Prepass on the affected hair materials only.\n\nDisabling it can reveal other transparency sorting problems, so inspect the hair from several angles and keep the setting that gives the best result for that model.\n\nFor opaque or missing stockings, eyelashes or clothing, also inspect the material’s **Auto / Opaque / Transparent** classification, visibility and group/global overrides. A missing texture and a transparent layer are different problems. The prepass advice above applies to HD/RT; Native and other pipelines use different controls."
           - id: "vr-will-not-start"
             category: "help"
             type: "troubleshooting"
@@ -276,6 +414,20 @@ support_sections:
             keywords: ["activation", "license", "hardware change", "activate", "reactivate", "purchase", "entitlement"]
             related: [{"href": "activation", "label": "Activation & Licensing"}]
             answer: "Steam and Google Play editions normally activate automatically when the store verifies your purchase.\n\nFor editions requiring manual activation, open **System → Activate Your Copy**. Follow the browser prompts, choose the platform you purchased from and sign in there. After the success page appears, return to DanceXR and click **Activate Your Copy** again to retrieve the license.\n\nIf the device has already been activated, DanceXR may restore the license without opening a browser. Reactivating after reinstalling, changing hardware or switching build variants does not charge you again."
+          - id: "platform-release-timing"
+            category: "help"
+            type: "how-to"
+            question: "Why is an update or feature missing from my edition or platform?"
+            keywords: ["Steam", "beta", "default", "Patreon", "Android", "iOS", "update", "missing feature", "edition"]
+            related: [{"href": "releases", "label": "Release notes"}, {"href": "download", "label": "Downloads & editions"}, {"href": "activation", "label": "Activation & Licensing"}]
+            answer: "PC, Android and iOS do not always update together. Steam default and beta branches can contain different builds; Patreon early access does not mean the same feature is available in every store build.\n\nCheck the current release notes, download/edition information and activation status. When asking about a missing feature, include your platform, edition, runtime, exact version and Steam branch if applicable. Mobile follows a separate schedule; a PC release date is not a mobile delivery promise."
+          - id: "slow-or-noisy-rendering"
+            category: "help"
+            type: "troubleshooting"
+            question: "How do I diagnose low FPS, stuttering or a noisy path-traced image?"
+            keywords: ["FPS", "lag", "stutter", "performance", "VRAM", "noise", "path tracing", "DLSS", "render scale"]
+            related: [{"href": "features/graphics", "label": "Graphics"}, {"href": "features/native", "label": "Native"}, {"href": "troubleshooting", "label": "Troubleshooting"}]
+            answer: "Compare one actor in a default scene with the affected scene. Reduce render scale and test mirrors, shadows and costly effects one at a time. Unity HD/RT has graphics presets; Native has **Detect best settings**, raster quality tiers and separate desktop/VR graphics settings.\n\nPath-traced noise is different from stuttering: Native Realtime uses denoising/upscaling, while Reference accumulates samples for stills. If the problem persists, include your device/GPU, build, scene, FPS and logs. Avoid assuming one setting fixes every platform."
   - id: "faq"
     label: "FAQ"
     title: "Frequently Asked Questions"
@@ -300,8 +452,8 @@ support_sections:
             category: "help"
             type: "troubleshooting"
             question: "Where can I find the log files?"
-            keywords: ["logs", "Player.log", "Player-prev.log", "bug report"]
-            answer: "When reporting a bug, attaching your log files is extremely helpful. Please attach **`Player.log`** (current session) and **`Player-prev.log`** (previous session) to your bug report.\n\n**Windows PC Path:**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*Note: Replace `[User]` with your Windows username. If AppData is hidden, enable \"Hidden items\" in Windows Explorer.*\n\n**Android & Meta Quest Path:**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*Note: Connect your device to a PC via USB and use File Transfer to locate this file.*"
+            keywords: ["logs", "Player.log", "Player-prev.log", "bug report", "Native", "diagnostics", "report issue", "reproduction"]
+            answer: "When reporting a bug, attaching your log files is extremely helpful. Please attach **`Player.log`** (current session) and **`Player-prev.log`** (previous session) to your bug report.\n\n**Windows PC Path:**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*Note: Replace `[User]` with your Windows username. If AppData is hidden, enable \"Hidden items\" in Windows Explorer.*\n\n**Android & Meta Quest Path:**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*Note: Connect your device to a PC via USB and use File Transfer to locate this file.*\n\nFor **Native**, use **System → Open Log**, **Copy Diagnostics** or **Report Issue** instead of assuming Unity log paths. Include the exact build, platform, renderer/VR runtime, steps to reproduce, expected result and a screenshot. Provide model/motion files only when you have permission to share them. Mobile storage access can vary by OS version; do not assume USB exposes every app folder."
       - title: "🖥️ System & VR Startup"
         items:
           - id: "startup-sky-only"

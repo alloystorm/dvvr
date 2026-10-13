@@ -18,7 +18,7 @@ const base = process.env.SUPPORT_BASE_URL || "http://localhost:4000";
     await page.goto(base + "/dancexr/support.html");
     const visible = () => page.locator(".support-item:visible");
     await page.waitForSelector(".support-controls:visible");
-    assert.equal(await visible().count(), 39);
+    assert.equal(await visible().count(), 59);
     assert.equal(await page.locator('[data-category="camera"][aria-pressed]').isVisible(), true);
 
     await page.locator("#supportSearch").fill("HDRI");
@@ -35,8 +35,9 @@ const base = process.env.SUPPORT_BASE_URL || "http://localhost:4000";
     await page.locator("#supportSearch").fill("");
 
     await page.locator("#supportSearch").fill("inverse kinematics");
-    assert.equal(await visible().count(), 1, "aliases must match even without the phrase in the answer");
-    assert.equal(await visible().first().getAttribute("id"), "support-model-ik-2026-5-6");
+    assert.ok(await visible().count() >= 2, "new IK diagnosis and versioned incident must both be searchable");
+    assert.equal(await page.locator("#support-model-ik-2026-5-6").isVisible(), true);
+    assert.equal(await page.locator("#support-feet-slide-or-float").isVisible(), true);
     await page.locator("#supportSearch").fill("hair prepass");
     assert.equal(await visible().count(), 1, "words may match across question and answer");
     assert.equal(await visible().first().getAttribute("id"), "support-transparent-hair");
@@ -45,20 +46,20 @@ const base = process.env.SUPPORT_BASE_URL || "http://localhost:4000";
     await page.locator("#supportSearch").fill("");
 
     await page.locator('[data-category="actors"][aria-pressed]').click();
-    assert.equal(await visible().count(), 4);
+    assert.equal(await visible().count(), 11);
     await page.locator("#supportType").selectOption("known-issue");
     assert.equal(await visible().count(), 0);
     assert.equal(await page.locator(".support-empty").isVisible(), true);
     assert.equal(await page.locator('[data-category="motion"][aria-pressed] [data-category-count]').textContent(), "2");
     await page.locator(".support-reset").click();
-    assert.equal(await visible().count(), 39);
+    assert.equal(await visible().count(), 59);
     assert.equal(await page.locator("#supportSearch").evaluate(element => element === document.activeElement), true);
     await page.locator("#supportSearch").fill("no-such-answer-12345");
     assert.equal(await page.locator(".support-empty").isVisible(), true);
     await page.evaluate(() => { window.location.hash = "support-white-model"; });
     await page.waitForSelector("#support-white-model[open]");
     assert.equal(await page.locator("#supportSearch").inputValue(), "");
-    assert.equal(await visible().count(), 39, "a linked answer clears filters that would hide it");
+    assert.equal(await visible().count(), 59, "a linked answer clears filters that would hide it");
     assert.equal(await page.locator("#contact").isVisible(), true);
 
     await page.goto(base + "/dancexr/support.html#support-find-log-files");
@@ -73,7 +74,7 @@ const base = process.env.SUPPORT_BASE_URL || "http://localhost:4000";
     for (const locale of ["jp", "zh", "tw", "kr"]) {
       await page.goto(`${base}/${locale}/dancexr/support.html`);
       await page.waitForSelector(".support-controls:visible");
-      assert.equal(await visible().count(), 39);
+      assert.equal(await visible().count(), 59);
       const questions = await page.locator(".support-question").allTextContents();
       const answers = await page.locator(".support-answer-content").allTextContents();
       questions.forEach(question => {
@@ -91,7 +92,7 @@ const base = process.env.SUPPORT_BASE_URL || "http://localhost:4000";
       await page.locator("#supportSearch").fill("Player.log");
       assert.ok(await visible().count() > 0);
       await page.locator(".support-reset").click();
-      assert.equal(await visible().count(), 39);
+      assert.equal(await visible().count(), 59);
     }
     assert.deepEqual(errors, [], "all language pages should run without JavaScript errors");
 
@@ -112,7 +113,7 @@ const base = process.env.SUPPORT_BASE_URL || "http://localhost:4000";
     const noJs = await browser.newContext({ javaScriptEnabled: false });
     const fallback = await noJs.newPage();
     await fallback.goto(base + "/dancexr/support.html");
-    assert.equal(await fallback.locator(".support-item").count(), 39);
+    assert.equal(await fallback.locator(".support-item").count(), 59);
     assert.equal(await fallback.locator(".support-controls").isVisible(), false);
     await fallback.locator("#support-white-model summary").click();
     assert.equal(await fallback.locator("#support-white-model .support-answer").isVisible(), true);

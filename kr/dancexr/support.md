@@ -59,6 +59,36 @@ support_sections:
             keywords: ["refresh", "rescan", "missing files", "new content", "라이브러리 새로 고침", "다시 검색", "파일이 안 보임", "새 콘텐츠"]
             related: [{"href": "preparecontent", "label": "콘텐츠 라이브러리"}]
             answer: "**시스템 → 콘텐츠 라이브러리 → 콘텐츠 새로 고침**을 선택하고 검색이 끝날 때까지 기다리세요. DanceXR 실행 중에 파일을 복사하거나 옮긴 뒤 사용하면 됩니다.\n\n앱을 시작할 때도 라이브러리 변경 사항을 확인합니다. 파일이 여전히 보이지 않으면 올바른 하위 폴더에 있는지 확인하세요. 모델은 `actors/`, 모션과 오디오는 `motion/`, 스테이지는 `stages/`, 스카이 맵은 `texture/sky/`에 넣어야 합니다."
+          - id: "native-and-launcher"
+            category: "content"
+            type: "how-to"
+            question: "Native는 무엇이며 Launcher가 필요한가요?"
+            keywords: ["Native", "HD", "LW", "RT", "Launcher", "edition", "build", "path tracing", "raster", "Native는 무엇이며 Launcher가 필요한가요?"]
+            platforms: ["Windows"]
+            related: [{"href": "features/native", "label": "Native 안내"}, {"href": "download", "label": "다운로드 및 에디션"}]
+            answer: "Native는 자체 렌더링과 설정을 갖춘 별도의 Windows 앱입니다. HD, LW, RT는 Unity 기반 버전입니다. 2026.10부터 Native는 레이 트레이싱이 없는 DirectX 12 PC에서도 래스터 렌더링을 지원합니다. 패스 트레이싱에는 호환되는 레이 트레이싱 GPU가 필요합니다.\n\nLauncher는 런타임과 관련 앱의 설치, 업데이트, 실행을 관리합니다. Native를 직접 내려받아도 됩니다. 현재 에디션, 활성화 방법, 기능 제한은 다운로드 페이지에서 확인하세요."
+          - id: "runtime-model-formats"
+            category: "content"
+            type: "how-to"
+            question: "어떤 모델과 모션 형식을 지원하며 변환이나 애니메이션 제작도 가능한가요?"
+            keywords: ["PMX", "XPS", "FBX", "BVH", "VMD", "VRM", "VRChat", "DAZ", "OBJ", "conversion", "animation authoring", "어떤 모델과 모션 형식을 지원하며 변환이나 애니메이션 제작도 가능한가요?"]
+            related: [{"href": "preparecontent", "label": "콘텐츠 라이브러리"}, {"href": "features/native", "label": "Native 안내"}, {"href": "features/bone_mapper", "label": "본 매퍼"}]
+            answer: "Unity 앱은 PMX/XPS 모델, 모델만 가져오는 FBX 미리보기 지원, VMD/BVH 모션, OBJ 무대 소품을 지원합니다. XPS/FBX에는 뼈 매핑이 필요할 수 있습니다. Native의 현재 문서는 PMX/XPS 모델과 VMD 모션을 안내합니다.\n\nVRM, VRChat, DAZ 프로젝트가 바로 호환 패키지가 되는 것은 아닙니다. 내보내기나 변환은 별도 작업입니다. DanceXR는 가져온 모션 재생과 절차적 포징을 제공하지만 전체 애니메이션 제작 도구를 대체하지는 않습니다."
+          - id: "change-content-library"
+            category: "content"
+            type: "how-to"
+            question: "콘텐츠 라이브러리를 이동하거나 변경하려면 어떻게 하나요?"
+            keywords: ["Switch Library", "Select Library Folder", "move", "relocate", "backup", "settings", "cache", "콘텐츠 라이브러리를 이동하거나 변경하려면 어떻게 하나요?"]
+            related: [{"href": "preparecontent", "label": "콘텐츠 라이브러리"}, {"href": "features/scene_bundle", "label": "장면 번들"}]
+            answer: "데스크톱 Unity 버전에서는 전체 라이브러리를 새 위치로 복사하고 백업을 남기세요. **System → Content Library → Switch Library**를 열고 하위 폴더를 포함한 라이브러리 루트를 선택하세요. 필요하면 **Select Library Folder**로 찾아보세요.\n\n전환은 사용할 위치만 바꾸며 파일을 이동하지 않습니다. 스캔 후 저장된 장면을 확인하세요. 이전 빌드 시험 시 설정을 따로 유지하세요. 모바일과 독립형 헤드셋에는 이 데스크톱 선택기가 없습니다."
+          - id: "add-content-ios"
+            category: "content"
+            type: "how-to"
+            question: "iPhone이나 iPad에 콘텐츠를 추가하려면 어떻게 하나요?"
+            keywords: ["iPhone", "iPad", "iOS", "Files", "iCloud", "Google Drive", "content", "iPhone이나 iPad에 콘텐츠를 추가하려면 어떻게 하나요?"]
+            platforms: ["iOS"]
+            related: [{"href": "preparecontent", "label": "콘텐츠 라이브러리"}, {"href": "features/zip_format", "label": "ZIP 형식"}]
+            answer: "DanceXR를 한 번 실행하세요. **파일 → 나의 iPhone / 나의 iPad → DanceXR**에서 앱이 만든 라이브러리(보통 **content** 폴더)를 여세요. 모델과 텍스처는 **actors**, 모션과 오디오는 **motion**에 넣으세요. 원래 텍스처 폴더 구조를 유지하세요. 전체 모델 ZIP도 사용할 수 있습니다.\n\n클라우드 다운로드를 로컬 라이브러리로 복사하세요. 링크만으로 모델이 추가되지는 않습니다. **System → Content Library → Refresh Content** 또는 재시작으로 갱신하세요. 이전 버전은 앱이 만든 구조를 따르세요."
       - title: "액터 및 외형"
         items:
           - id: "add-another-actor"
@@ -89,6 +119,59 @@ support_sections:
             keywords: ["accessory", "prop", "hand", "grab pose", "attachment", "손에 소품", "액세서리", "소품 부착", "잡기 포즈"]
             related: [{"href": "features/accessory", "label": "액세서리"}]
             answer: "소품 모델과 텍스처를 콘텐츠 라이브러리의 `accessory/`에 넣고, 필요한 경우 라이브러리를 새로 고치세요.\n\n액터를 선택하고 **액세서리**를 여세요. **왼손** 또는 **오른손**을 켠 다음 **모델**에서 소품을 선택하세요. **크기 및 정렬**, **회전**, **오프셋**으로 손에 맞추세요. 제공되는 경우 **잡기 포즈**로 손의 쥐는 모양도 조정할 수 있습니다.\n\n액세서리 기능을 지원하는 에디션이 필요합니다."
+          - id: "lip-sync-and-expressions"
+            category: "actors"
+            type: "troubleshooting"
+            question: "입이 움직이지 않거나 수동 표정이 되돌아가는 이유는 무엇인가요?"
+            keywords: ["lip sync", "mouth", "blink", "expression", "A I U E O", "facial mapping", "입이 움직이지 않거나 수동 표정이 되돌아가는 이유는 무엇인가요?"]
+            related: [{"href": "features/lipsync", "label": "립싱크"}, {"href": "features/facial_control", "label": "표정 조절"}, {"href": "features/morph_list", "label": "PMX 모프"}]
+            answer: "재생 음성에는 Playback Options의 **Lip Sync**와 배우 Facial Control의 **Use Lip Sync**를 모두 켜세요. 음성 재생을 확인하고 모음 조절을 수동으로 시험하세요. 수동으로도 안 되면 얼굴 매핑과 모델의 뼈 또는 모프를 확인하세요.\n\n수동 입 모양을 설정할 때는 **Use Lip Sync**를 끄세요. 불러온 모션과 Lifelike Motions도 표정을 바꿀 수 있습니다. AI 채팅 음성은 별도의 립싱크 드라이버를 사용합니다."
+          - id: "hide-clothing-parts"
+            category: "actors"
+            type: "how-to"
+            question: "옷을 숨기는 방법과 그 아래 몸이 없는 이유는 무엇인가요?"
+            keywords: ["clothing", "dressing", "outfit", "hide", "missing body", "visibility", "옷을 숨기는 방법과 그 아래 몸이 없는 이유는 무엇인가요?"]
+            related: [{"href": "features/optionals", "label": "의상 시스템"}, {"href": "features/material_settings", "label": "재질 설정"}, {"href": "appearance", "label": "외형과 재질"}]
+            answer: "배우의 **Dressing**에서 PMX 재질 모프 또는 XPS 선택 부품을 조절하세요. 필요하면 재질 그룹 전체를 숨기지 말고 **Material List**에서 개별 재질을 확인하세요.\n\n모델에 옷 아래 몸의 지오메트리가 없으면 옷을 숨겨도 몸이 생성되지 않습니다. 옷과 몸이 같은 재질을 쓰기도 합니다. 가능한 의상 선택은 모델 제작 방식에 따라 다릅니다."
+          - id: "eye-contact-stare"
+            category: "actors"
+            type: "how-to"
+            question: "Eye Contact가 다른 곳을 보는 이유와 계속 나를 보게 하는 방법은 무엇인가요?"
+            keywords: ["eye contact", "look away", "Stare Mode", "gaze", "blink", "Eye Contact가 다른 곳을 보는 이유와 계속 나를 보게 하는 방법은 무엇인가요?"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/lifelike_motions#eye-contact", "label": "자연스러운 동작"}]
+            answer: "Eye Contact는 카메라, 다른 배우, 신체 부위 사이에서 주의를 바꿉니다. **Look At Camera**, **Look At Peers**, **Look At Body** 우선순위를 조절하세요. **Stare Mode**는 자연스러운 시선 전환 대신 가장 가까운 유효한 대상에 주의를 유지합니다.\n\n호환되는 눈 리그가 필요합니다. 눈 뼈가 없으면 **Shape Morph Eye Control**을 설정하세요. Stare Mode가 항상 관객을 선택하는 것은 아닙니다."
+          - id: "texture-map-purpose"
+            category: "actors"
+            type: "how-to"
+            question: "노멀, 마스크, 발광 텍스처를 추가하거나 수정하려면 어떻게 하나요?"
+            keywords: ["normal map", "mask map", "emission", "emissive", "specular", "detail map", "ORM", "노멀, 마스크, 발광 텍스처를 추가하거나 수정하려면 어떻게 하나요?"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/material_settings", "label": "재질 설정"}, {"href": "features/texture_enhancement", "label": "텍스처 개선"}]
+            answer: "선택한 재질의 **Textures**를 열고 감지된 맵을 확인하세요. 잘못 감지했다면 텍스처 용도와 채널 매핑을 수정하세요. 모델의 노멀 맵과 반복 디테일 맵은 다릅니다.\n\n자동 연결은 모델 형식과 임포터에 따라 달라지며 파일명 변경만으로 해결되지는 않습니다. 전체 모델 패키지와 원래 참조를 확인하세요. 계속 실패하면 모델 형식, 텍스처 파일명, 빌드와 화면을 알려 주세요."
+          - id: "translated-model-names"
+            category: "actors"
+            type: "how-to"
+            question: "모프나 재질 이름을 번역과 원문 사이에서 전환할 수 있나요?"
+            keywords: ["translation", "Japanese", "original name", "morph", "material", "Use Translated Names", "모프나 재질 이름을 번역과 원문 사이에서 전환할 수 있나요?"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/application_settings", "label": "앱 설정"}, {"href": "features/morph_list", "label": "PMX 모프"}]
+            answer: "Unity 버전의 **Application Settings → Use Translated Names**를 변경하세요. 모델 설명이나 편집기의 원래 이름과 비교하려면 끄세요. 기존 표시가 갱신되지 않으면 모델을 다시 불러오세요.\n\n제작자가 정한 이름은 번역이 불완전할 수 있습니다. 표시 이름만 바뀌며 원본 모델 파일이나 리그는 바뀌지 않습니다."
+          - id: "pmx-morph-override"
+            category: "actors"
+            type: "how-to"
+            question: "PMX 모프 값을 조절해도 효과가 없는 이유는 무엇인가요?"
+            keywords: ["PMX", "morph", "Override Value", "checkbox", "expression", "manual", "PMX 모프 값을 조절해도 효과가 없는 이유는 무엇인가요?"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/morph_list", "label": "PMX 모프"}, {"href": "features/facial_control", "label": "표정 조절"}]
+            answer: "Unity 버전의 PMX 모델 모프는 **Override Value**를 켠 뒤 값을 조절하세요. 꺼져 있으면 일반 모션 값이 계속 사용됩니다. 해당 기능이 잠금 해제된 에디션이 필요합니다.\n\n얼굴 표정은 립싱크, 불러온 모션, Lifelike Motions도 확인하세요. 같은 표정을 구동할 수 있습니다. 다른 형식과 Native가 같은 조절을 쓰는 것은 아닙니다."
+          - id: "adjust-hair-and-cloth"
+            category: "actors"
+            type: "how-to"
+            question: "머리카락과 의상 물리를 조절하려면 어떻게 하나요?"
+            keywords: ["hair", "cloth", "skirt", "physics", "PMX", "XPS", "FBX", "PhysX", "XPBD", "Select Bones", "머리카락과 의상 물리를 조절하려면 어떻게 하나요?"]
+            related: [{"href": "physics", "label": "물리 시스템"}, {"href": "features/pmx_physics", "label": "PMX 물리"}, {"href": "features/hair_physics", "label": "머리카락 물리"}, {"href": "features/skirt_physics", "label": "치마 물리"}]
+            answer: "먼저 배우의 물리 구성을 확인하세요. PMX의 강체와 관절은 **Physics Mode**를 비교하며 **Auto**는 시스템의 **PMX Default**를 따릅니다. XPS/FBX 사용자 도구에서는 **Hair Physics** 또는 **Skirt Physics**를 켜고 **Select Bones**로 체인 루트를 선택한 다음 몸 콜라이더를 확인하세요.\n\n한 번에 하나씩 조절하세요. PhysX는 스프링/댐핑, XPBD는 컴플라이언스/댐핑을 사용합니다. PMX 리그를 사용자 도구로 대체하려면 먼저 **Physics Mode**를 **Off**로 설정하세요. 기능은 빌드/에디션에 따라 다르며 Native는 별도 설정입니다."
       - title: "모션 및 재생"
         items:
           - id: "assign-motion"
@@ -119,6 +202,28 @@ support_sections:
             keywords: ["bone mapping", "XPS", "FBX", "T-pose", "Auto Map", "Chain Mapping", "본 매핑", "기본 포즈에서 안 움직임", "자동 매핑", "체인 매핑"]
             related: [{"href": "features/bone_mapper", "label": "본 매퍼"}]
             answer: "모델을 불러오고 액터 메뉴의 **본 매퍼**를 여세요. **자동 매핑**을 실행한 뒤 느낌표가 붙은 슬롯을 확인하세요. 움직임에 꼭 필요하지만 아직 할당되지 않은 본을 뜻합니다.\n\n빠진 슬롯마다 모델의 해당 본을 연결하세요. **체인 매핑**을 사용하면 팔이나 손 등 본 체인을 빠르게 설정할 수 있습니다. 필수 본을 모두 매핑한 뒤 모션을 할당하고 결과를 확인하세요.\n\nXPS와 FBX에는 본 매핑이 필요합니다. PMX 모델은 보통 표준 본 이름을 이미 포함하고 있습니다."
+          - id: "feet-slide-or-float"
+            category: "motion"
+            type: "troubleshooting"
+            question: "발이 미끄러지거나 뜨거나 고정된 위치로 당겨지면 어떻게 하나요?"
+            keywords: ["feet", "sliding", "floating", "floor", "IK", "inverse kinematics", "rest pose", "발이 미끄러지거나 뜨거나 고정된 위치로 당겨지면 어떻게 하나요?"]
+            related: [{"href": "features/feet_adjustment", "label": "발 조절"}, {"href": "features/motion_settings", "label": "모션 설정"}, {"href": "features/troubleshooting", "label": "배우 문제 해결"}]
+            answer: "같은 모델과 모션을 기본 설정으로 비교한 다음 하나씩 변경하세요. **Feet On Floor**, **Ground Offset**, **Reduce Sliding**를 확인하세요. 뼈 매핑과 기본 포즈도 영향을 줄 수 있습니다.\n\nUnity 버전에서는 **Motion Leg IK**와 **Model IK**의 보정 충돌을 확인하세요. 모든 IK를 끄는 것은 일반 해결책이 아닙니다. 업데이트 후 정상 모델이 깨졌다면 모델, 모션, 버전과 마지막 정상 빌드를 알려 주세요."
+          - id: "motion-speed-sync"
+            category: "motion"
+            type: "troubleshooting"
+            question: "모션이 너무 느리거나 빠르거나 음악과 맞지 않으면 어떻게 하나요?"
+            keywords: ["speed", "slow motion", "60fps", "sync", "music offset", "BPM", "timing", "모션이 너무 느리거나 빠르거나 음악과 맞지 않으면 어떻게 하나요?"]
+            related: [{"href": "motion", "label": "모션 시스템"}, {"href": "features/playback_options", "label": "재생 옵션"}, {"href": "features/music_timing", "label": "음악 타이밍"}]
+            answer: "전체 재생 속도와 모션별 속도를 확인하세요. 특이한 원본 프레임률은 모션별 속도 조절이 필요할 수 있지만 모든 모션을 두 배로 설정하지 마세요. 녹화 FPS는 별도 설정입니다.\n\n음악 정렬은 트랙의 오디오 오프셋을 확인하세요. 절차적 춤은 **Music Timing**의 BPM과 비트 오프셋을 확인하세요. 하나씩 변경하고 의도된 재생과 비교하세요."
+          - id: "start-free-pose"
+            category: "motion"
+            type: "how-to"
+            question: "Free Pose로 배우의 포즈를 잡으려면 어떻게 하나요?"
+            keywords: ["Free Pose", "posing", "pin", "grab", "limb", "reset", "Free Pose로 배우의 포즈를 잡으려면 어떻게 하나요?"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/free_pose", "label": "자유 포즈"}]
+            answer: "절차적 모션 목록에서 **Free Pose**를 선택해 현재 모션을 수동 포징으로 바꾸세요. 몸의 핸들을 드래그하세요. 마우스는 휠로 깊이를 조절하며 VR은 레이로 드래그하거나 핸들을 직접 잡을 수 있습니다.\n\n두 발을 바닥에 두고 시작하세요. 발을 끈 뒤 가만히 유지해 표시가 녹색이 되면 고정됩니다. 빨간색일 때 놓으면 내려옵니다. **Reset**은 고정을 풀고 중립 자세로 돌아갑니다. 고정이 저장된 재사용 포즈라는 뜻은 아닙니다."
       - title: "환경 및 조명"
         items:
           - id: "change-sky-map"
@@ -165,7 +270,7 @@ support_sections:
             question: "댄스에 포함된 카메라 모션을 사용하려면 어떻게 하나요?"
             keywords: ["camera VMD", "camera motion", "dance camera", "imported camera", "카메라 모션", "카메라 VMD", "댄스 카메라", "카메라 트랙"]
             related: [{"href": "cameras", "label": "시네마틱 카메라"}, {"href": "features/assign_motion", "label": "모션 할당"}, {"href": "preparecontent#motion-files", "label": "콘텐츠 라이브러리"}]
-            answer: "카메라 VMD를 음악과 액터 모션이 있는 댄스 세트 폴더나 ZIP에 넣고 그 세트를 불러오세요.\n\n**카메라**를 열어 불러온 세트의 카메라 모션을 선택하세요. Freefly나 Auto 같은 내장 카메라 모드는 별도 선택 항목입니다. 댄스 제작자가 만든 카메라 움직임을 사용하려면 가져온 트랙을 선택하세요.\n\n트랙이 보이지 않으면 불러온 패키지에 해당 파일이 있는지 확인하세요. VR에서는 데스크톱 표시나 녹화용 카메라에 적용되며, 헤드셋 시점은 머리 움직임을 따릅니다."
+            answer: "카메라 VMD를 음악과 액터 모션이 있는 댄스 세트 폴더나 ZIP에 넣고 그 세트를 불러오세요.\n\n**카메라**를 열어 불러온 세트의 카메라 모션을 선택하세요. Freefly나 Auto 같은 내장 카메라 모드는 별도 선택 항목입니다. 댄스 제작자가 만든 카메라 움직임을 사용하려면 가져온 트랙을 선택하세요.\n\n트랙이 없으면 불러온 패키지에 파일이 있는지 확인하세요. Unity VR에서는 머리 추적과 카메라 리그 이동이 함께 적용되며 선택한 카메라 모드가 중요합니다. **Freeze in VR**는 UI 표시 중 이동을 멈춥니다. Native는 별도 카메라 조절을 사용합니다."
           - id: "record-4k"
             category: "camera"
             type: "how-to"
@@ -190,6 +295,15 @@ support_sections:
             platforms: ["Windows", "macOS"]
             related: [{"href": "features/display_settings", "label": "디스플레이 설정"}, {"href": "controls", "label": "조작 및 UI"}]
             answer: "화면 녹화 프로그램으로 DanceXR의 실시간 재생을 녹화할 수 있습니다. Creator Edition은 필요하지 않습니다.\n\n1. **시스템 → 디스플레이 및 UI → 해상도**를 열고 **전체 화면**을 꺼서 창 모드로 바꾸세요.\n2. **창 해상도**를 선택하세요. 세로 영상은 **세로**를 켜고 가로 영상은 끄세요.\n3. **해상도 적용**을 클릭하고 구도를 맞추세요. 깔끔한 영상이 필요하면 UI를 숨기세요.\n4. 녹화 프로그램에서 DanceXR 창과 오디오를 캡처하도록 설정하고, 녹화를 시작한 뒤 모션을 재생하세요.\n\n녹화의 부드러움은 실제 재생 프레임 레이트에 따라 달라집니다. 재생이 끊기면 그래픽 설정이나 해상도를 낮추세요."
+          - id: "record-vr-video"
+            category: "camera"
+            type: "how-to"
+            question: "스테레오 또는 VR 영상을 녹화하려면 어떻게 하나요?"
+            keywords: ["stereo", "SBS", "Side by Side", "Top Bottom", "VR120", "VR180", "VR360", "FFmpeg", "encoder", "스테레오 또는 VR 영상을 녹화하려면 어떻게 하나요?"]
+            builds: ["HD", "LW", "RT"]
+            editions: ["Creator"]
+            related: [{"href": "creator", "label": "Creator 에디션"}, {"href": "features/recording_settings", "label": "녹화 설정"}]
+            answer: "활성화된 **Creator Edition**을 사용하세요. 녹화 메뉴에서 **Record 3D → Side by Side / Top Bottom** 또는 **Record VR → VR 120 3D / VR 180 3D / VR 360 2D**를 선택하세요. VR360은 단안입니다. 먼저 **Preview**와 Recording Settings를 확인하세요.\n\n녹화는 이미지 프레임을 만듭니다. 편집기 또는 FFmpeg가 필요한 생성 배치 파일로 변환하세요. 파노라마 배치는 NVIDIA 인코더를 사용하므로 다른 GPU에는 사용 가능한 인코더가 필요합니다. VR 플레이어에서 투영 및 스테레오 모드를 맞추세요."
       - title: "저장 및 공유"
         items:
           - id: "save-scene"
@@ -245,6 +359,30 @@ support_sections:
             editions: ["Pro"]
             related: [{"href": "features/ar_mode", "label": "AR 설정"}]
             answer: "지원되는 Android 또는 iOS 기기에서 DanceXR을 실행하고 **환경**에서 **AR**을 선택하세요. 카메라 권한을 요청하면 허용한 뒤 AR 초기화가 끝날 때까지 기다리세요.\n\nAR 설정의 **카메라 표시**로 실제 환경 배경을 볼 수 있습니다. 액터가 실제 바닥에 서 있는 것처럼 보이게 하려면 **지면 숨기기**를 켜세요. **AR 중지**를 사용하면 일반 모드로 돌아갑니다.\n\nAR에는 활성화된 Pro 에디션과 호환 기기/빌드가 필요합니다. AR 항목이 없다면 기기 지원 여부와 활성화 상태를 모두 확인하세요. Quest 패스스루는 별도 항목에서 설명합니다."
+          - id: "vr-camera-menu-freeze"
+            category: "vr"
+            type: "troubleshooting"
+            question: "VR에서 메뉴를 열면 카메라 이동이 멈추는 이유는 무엇인가요?"
+            keywords: ["VR", "camera", "joystick", "menu", "Freeze in VR", "first person", "auto camera", "VR에서 메뉴를 열면 카메라 이동이 멈추는 이유는 무엇인가요?"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/camera_settings", "label": "카메라 설정"}, {"href": "controls", "label": "조작 및 UI"}, {"href": "vr_operations", "label": "VR 조작"}]
+            answer: "Unity 기반 버전에서는 **Freeze in VR**가 켜져 있으면 메뉴 표시 중 카메라 이동이 멈춥니다. 메뉴를 숨기고 다시 시도하거나 Camera Settings의 **Freeze in VR**를 변경하세요.\n\n머리 추적과 카메라 리그 이동은 다릅니다. 메뉴를 숨겨도 이동 입력이 안 되면 빌드, 헤드셋, 컨트롤러, OpenXR 런타임을 알려 주세요. Native는 별도의 조작 체계를 사용합니다."
+          - id: "vr-controller-options"
+            category: "vr"
+            type: "troubleshooting"
+            question: "스틱을 눌러야 움직이거나 그립이 실수로 작동하면 어떻게 하나요?"
+            keywords: ["thumbstick", "Index", "grip", "Trackpad Mode", "Grip Threshold", "controller", "스틱을 눌러야 움직이거나 그립이 실수로 작동하면 어떻게 하나요?"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "features/input_settings", "label": "컨트롤러 입력"}, {"href": "vr_operations", "label": "VR 조작"}]
+            answer: "Unity 기반 버전의 **Controller Input → Options**를 확인하세요. 누르지 않고 축 입력을 쓰려면 **Trackpad Mode**를 꺼 보세요. 그립이 너무 민감하면 **Grip Threshold**를 높이거나 **Use Grip Input**을 끄세요. 후자는 그립 기반 상호작용도 비활성화합니다.\n\n한 번에 하나씩 변경하세요. 모든 헤드셋에 대한 확정 해결책은 아닙니다. Native는 별도 설정을 사용합니다."
+          - id: "move-vr-ui"
+            category: "vr"
+            type: "how-to"
+            question: "VR 메뉴를 이동하려면 어떻게 하나요?"
+            keywords: ["menu", "grip drag", "UI Auto Return", "UI Distance", "floating panel", "VR 메뉴를 이동하려면 어떻게 하나요?"]
+            builds: ["HD", "LW", "RT"]
+            related: [{"href": "vr_operations#grip-drag-ui", "label": "VR 조작"}, {"href": "features/vr_settings#ui", "label": "VR 설정"}]
+            answer: "Unity VR 버전에서 메뉴 패널을 가리키고 컨트롤러의 **grip button**을 누른 채 손을 움직이세요. 놓으면 해당 위치에 둡니다.\n\n**Environment → VR → UI**에서 **UI Distance**와 **UI Auto Return**을 조절하세요. Auto Return은 시야 밖으로 간 패널을 다시 가져옵니다. 숨겨져 있으면 지정한 Toggle UI로 표시하세요. Native는 별도 인터페이스를 사용합니다."
       - title: "문제 해결 및 라이선스"
         items:
           - id: "white-model"
@@ -257,11 +395,11 @@ support_sections:
           - id: "transparent-hair"
             category: "help"
             type: "troubleshooting"
-            question: "머리카락이 비쳐 보이는 문제를 해결하려면 어떻게 하나요?"
-            keywords: ["hair", "see-through", "transparency", "depth prepass", "transparent hair", "sorting", "머리카락이 비침", "투명도", "깊이 프리패스", "투명 레이어", "렌더링 순서"]
+            question: "비치는 머리카락이나 사라진 투명 의상을 고치려면 어떻게 하나요?"
+            keywords: ["hair", "see-through", "transparency", "depth prepass", "transparent hair", "sorting", "stockings", "eyelashes", "opaque", "alpha", "classification", "머리카락이 비침", "투명도", "깊이 프리패스", "투명 레이어", "렌더링 순서"]
             builds: ["HD", "RT"]
             related: [{"href": "features/transparency", "label": "투명 재질"}, {"href": "faq", "label": "자주 묻는 질문"}]
-            answer: "HD/RT 빌드에서는 투명 깊이 프리패스 때문에 여러 겹의 투명 머리카락 중 안쪽 레이어가 사라질 수 있습니다.\n\n**시스템 → 그래픽 → 옵션 → 투명 프리패스**를 꺼서 결과를 비교해 보세요. 일부만 바꾸려면 문제가 있는 머리카락 재질의 투명 프리패스만 조정하세요.\n\n끄면 다른 투명도 정렬 문제가 나타날 수 있습니다. 여러 각도에서 확인하고 해당 모델에 가장 잘 맞는 설정을 유지하세요."
+            answer: "HD/RT 빌드에서는 투명 깊이 프리패스 때문에 여러 겹의 투명 머리카락 중 안쪽 레이어가 사라질 수 있습니다.\n\n**시스템 → 그래픽 → 옵션 → 투명 프리패스**를 꺼서 결과를 비교해 보세요. 일부만 바꾸려면 문제가 있는 머리카락 재질의 투명 프리패스만 조정하세요.\n\n끄면 다른 투명도 정렬 문제가 나타날 수 있습니다. 여러 각도에서 확인하고 해당 모델에 가장 잘 맞는 설정을 유지하세요.\n\n스타킹, 속눈썹, 옷이 불투명하거나 사라지면 재질의 **Auto / Opaque / Transparent** 분류, 표시 상태와 그룹/전체 오버라이드를 확인하세요. 텍스처 누락과 투명 레이어는 다른 문제입니다. 위 프리패스 안내는 HD/RT용이며 Native와 다른 파이프라인은 조절이 다릅니다."
           - id: "vr-will-not-start"
             category: "help"
             type: "troubleshooting"
@@ -276,6 +414,20 @@ support_sections:
             keywords: ["activation", "license", "hardware change", "activate", "reactivate", "purchase", "entitlement", "라이선스 활성화", "재활성화", "구매 확인", "라이선스 복원"]
             related: [{"href": "activation", "label": "활성화 및 라이선스"}]
             answer: "Steam과 Google Play 버전은 보통 스토어에서 구매가 확인되면 자동으로 활성화됩니다.\n\n수동 활성화가 필요한 에디션은 **시스템 → 제품 활성화**를 여세요. 브라우저 안내에 따라 구매한 플랫폼을 선택하고 로그인하세요. 성공 페이지가 표시되면 DanceXR로 돌아와 **제품 활성화**를 다시 클릭해 라이선스를 받으세요.\n\n해당 기기를 이전에 활성화했다면 브라우저 없이 라이선스가 복원될 수도 있습니다. 재설치, 하드웨어 변경, 빌드 전환 후 다시 활성화해도 추가 요금은 없습니다."
+          - id: "platform-release-timing"
+            category: "help"
+            type: "how-to"
+            question: "내 에디션이나 플랫폼에 업데이트 또는 기능이 없는 이유는 무엇인가요?"
+            keywords: ["Steam", "beta", "default", "Patreon", "Android", "iOS", "update", "missing feature", "edition", "내 에디션이나 플랫폼에 업데이트 또는 기능이 없는 이유는 무엇인가요?"]
+            related: [{"href": "releases", "label": "릴리스 노트"}, {"href": "download", "label": "다운로드 및 에디션"}, {"href": "activation", "label": "활성화 및 라이선스"}]
+            answer: "PC, Android, iOS는 항상 동시에 업데이트되지 않습니다. Steam 기본 및 베타 브랜치의 빌드가 다를 수 있으며, Patreon 조기 공개가 모든 스토어 빌드의 동일한 기능을 뜻하지는 않습니다.\n\n현재 릴리스 노트, 다운로드 페이지의 에디션 정보, 활성화 상태를 확인하세요. 문의할 때 플랫폼, 에디션, 런타임, 정확한 버전과 해당 Steam 브랜치를 알려 주세요. 모바일은 별도 일정으로 배포되며 PC 출시일이 모바일 배포를 보장하지 않습니다."
+          - id: "slow-or-noisy-rendering"
+            category: "help"
+            type: "troubleshooting"
+            question: "낮은 FPS, 끊김 또는 패스 트레이싱 노이즈를 어떻게 진단하나요?"
+            keywords: ["FPS", "lag", "stutter", "performance", "VRAM", "noise", "path tracing", "DLSS", "render scale", "낮은 FPS, 끊김 또는 패스 트레이싱 노이즈를 어떻게 진단하나요?"]
+            related: [{"href": "features/graphics", "label": "그래픽"}, {"href": "features/native", "label": "Native 안내"}, {"href": "troubleshooting", "label": "문제 해결"}]
+            answer: "기본 장면의 배우 한 명과 문제가 있는 장면을 비교하세요. 렌더 스케일을 낮추고 거울, 그림자, 무거운 효과를 하나씩 시험하세요. Unity HD/RT에는 그래픽 프리셋이 있으며 Native에는 **Detect best settings**, 래스터 품질 단계, 별도 데스크톱/VR 설정이 있습니다.\n\n노이즈와 끊김은 다릅니다. Native Realtime은 노이즈 제거와 업스케일링을, Reference는 정지 영상의 샘플 누적을 사용합니다. 계속 문제가 있으면 장치/GPU, 빌드, 장면, FPS와 로그를 알려 주세요."
   - id: "faq"
     label: "자주 묻는 질문"
     title: "자주 묻는 질문 (FAQ)"
@@ -300,8 +452,8 @@ support_sections:
             category: "help"
             type: "troubleshooting"
             question: "로그 파일은 어디에서 찾을 수 있나요?"
-            keywords: ["logs", "Player.log", "Player-prev.log", "bug report"]
-            answer: "버그를 보고할 때 로그 파일을 첨부해 주시면 문제 해결에 큰 도움이 됩니다. 버그 보고서에 **`Player.log`**(현재 세션) 및 **`Player-prev.log`**(이전 세션) 파일을 첨부해 주세요.\n\n**Windows PC 경로:**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*참고: `[User]`를 본인의 Windows 사용자 이름으로 바꾸십시오. AppData 폴더가 숨겨져 있는 경우 Windows 탐색기에서 '숨긴 항목' 표시를 활성화하십시오.*\n\n**Android 및 Meta Quest 경로:**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*참고: USB 케이블을 이용해 기기를 PC에 연결하고 '파일 전송' 모드를 사용하여 해당 파일을 찾으십시오.*"
+            keywords: ["logs", "Player.log", "Player-prev.log", "bug report", "Native", "diagnostics", "report issue", "reproduction"]
+            answer: "버그를 보고할 때 로그 파일을 첨부해 주시면 문제 해결에 큰 도움이 됩니다. 버그 보고서에 **`Player.log`**(현재 세션) 및 **`Player-prev.log`**(이전 세션) 파일을 첨부해 주세요.\n\n**Windows PC 경로:**\n```\nC:\\Users\\[User]\\AppData\\LocalLow\\VR Storm Lab\\DanceXR [HD|LW|RT]\\Player.log\n```\n*참고: `[User]`를 본인의 Windows 사용자 이름으로 바꾸십시오. AppData 폴더가 숨겨져 있는 경우 Windows 탐색기에서 '숨긴 항목' 표시를 활성화하십시오.*\n\n**Android 및 Meta Quest 경로:**\n```\n/Android/data/com.vrstormlab.dancexr/files/Player.log\n```\n*참고: USB 케이블을 이용해 기기를 PC에 연결하고 '파일 전송' 모드를 사용하여 해당 파일을 찾으십시오.*\n\n**Native**는 Unity 로그 경로 대신 **System → Open Log**, **Copy Diagnostics**, **Report Issue**를 사용하세요. 정확한 빌드, 플랫폼, 렌더러/VR 런타임, 재현 단계, 기대 결과와 화면을 포함하세요. 공유 권한이 있는 모델/모션만 제공하세요. 모바일 저장소 접근은 OS 버전에 따라 달라 USB로 모든 앱 폴더가 보이지 않을 수 있습니다."
       - title: "🖥️ 시스템 및 VR 실행"
         items:
           - id: "startup-sky-only"

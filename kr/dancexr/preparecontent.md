@@ -52,7 +52,7 @@ locale: ko-KR
 ## 지원되는 형식
 
 * 3D 모델: PMX, XPS, FBX (미리 보기 — 2025.9 이후, 모델 전용), 그리고 OBJ (무대 소품용)
-* 오디오: OGG 및 MP3 (모바일 플랫폼 전용)
+* 오디오: 네이티브 Unity 앱은 WAV와 OGG, 모바일은 MP3도 지원합니다. WebGL 플레이어는 비압축 WAV만 지원합니다.
 * 비디오: MP4
 * 모션: VMD, BVH
 * 텍스처: PNG, JPG, 그리고 HDR (하늘 맵용)

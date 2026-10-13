@@ -29,12 +29,10 @@ DanceXR reads these directly from the PMX file; you do not author them in DanceX
 
 ## Using the morph list
 
-<!-- TODO: confirm exact UI path and layout -->
-
 1. Open the actor menu (click the actor's selection disc).
-2. Find the **Morph List** entry near the bottom of the menu.
-3. Each morph is shown with its name and a slider 0 to 1.
-4. Drag the slider to apply the morph; release to leave it at that value.
+2. Open the PMX model’s morph controls in the actor menu.
+3. Enable **Override Value** for the PMX morph you want to adjust.
+4. Change its value. With the override off, the normal motion-driven value is used. These controls require an edition with the feature unlocked.
 
 Morphs stay applied until you change them or reload the model. Some morphs (like facial expressions) will be overridden by [Facial control](facial_control) and [Blink, breathing & eye contact](lifelike_motions#eye-contact) when those are active.
 
@@ -44,7 +42,7 @@ Morphs stay applied until you change them or reload the model. Some morphs (like
 
 - **Morph names depend on the author**. Japanese model authors usually name facial morphs in Japanese (まばたき, あ, い…). English models often use English names.
 - **Material morphs** showing up here are typically the same ones surfaced by the [Dressing system](optionals); applying from either place has the same effect.
-- For PMX models with hundreds of morphs, scroll or use the search box <!-- TODO: confirm if search exists --> to find the morph you want.
+- For a long list, scroll through the author-defined names. Use **Application Settings → Use Translated Names** to compare translated and original labels; reload the model if needed.
 
 ---
 

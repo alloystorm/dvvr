@@ -24,7 +24,7 @@ class SupportDataTests(unittest.TestCase):
             generated = yaml.safe_load(support_yaml(sections, locale, categories))
             original = [item for section in sections for sub in section['subsections'] for item in sub['items']]
             output = [item for section in generated['support_sections'] for sub in section['subsections'] for item in sub['items']]
-            self.assertEqual(len(output), 39)
+            self.assertEqual(len(output), 59)
             for before, after in zip(original, output):
                 self.assertEqual(after['answer'], before.get('answer_locales', {}).get(locale) or before['answer'])
                 self.assertEqual(after['id'], before['id'])
@@ -111,7 +111,7 @@ class SupportDataTests(unittest.TestCase):
         _, sections = prepare_support(self.data)
         entries = {item['id']: item for section in sections for sub in section['subsections'] for item in sub['items']}
         approved = [question for question in review['questions'] if question['status'] == 'published']
-        self.assertEqual(len(approved), 32)
+        self.assertEqual(len(approved), 53)
         for question in approved:
             identifier = question.get('replaces') or question['id']
             self.assertEqual(entries[identifier]['answer'], question['answer'])
