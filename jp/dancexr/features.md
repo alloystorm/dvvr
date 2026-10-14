@@ -17,9 +17,9 @@ feature_sections:
     tiles:
       - title: DanceXR Native
         link: /jp/dancexr/features/native
-        image: /images/features/youtube/kidbnBw78S8.jpg
-        video: "https://www.youtube.com/watch?v=kidbnBw78S8"
-        badge: "2026.9 | Native Path Tracing & Raster Rendering"
+        image: "https://i.ytimg.com/vi/59hT3g8t1Jg/sddefault.jpg"
+        video: "https://www.youtube.com/watch?v=59hT3g8t1Jg"
+        badge: "2026.10 | Native Path Tracing & Raster Rendering"
         badge_type: new
       - title: ディスカバリーアプリ
         link: /jp/dancexr/features/discovery

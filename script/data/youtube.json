@@ -9,11 +9,12 @@
       "id": "59hT3g8t1Jg",
       "url": "https://www.youtube.com/watch?v=59hT3g8t1Jg",
       "title": "DanceXR Native 2026.10",
-      "description": "",
+      "description": "DanceXR Native 2026.10 brings PMX and XPS character playback to Windows, with raster rendering for DirectX 12 GPUs, including integrated graphics, and full path tracing on ray-tracing-capable hardware. Use it on desktop or in OpenXR VR.\n\nDownload DanceXR for free and try it out yourself:\nhttps://vrstormlab.com/dancexr/download?utm_source=youtube&utm_medium=video&utm_campaign=description_backfill_2026_10&utm_content=59hT3g8t1Jg\n\nFull feature description:\nhttps://vrstormlab.com/dancexr/features/native",
       "thumbnail": "https://i.ytimg.com/vi/59hT3g8t1Jg/sddefault.jpg",
       "published_at": "2026-10-01T12:20:16Z",
       "metadata_status": "complete",
-      "embeddable": true
+      "embeddable": true,
+      "metadata_verified_at": "2026-10-14T05:07:38.948127+00:00"
     },
     {
       "id": "RtMze-_g8SM",
@@ -29,21 +30,23 @@
       "id": "_da8LYMY-S4",
       "url": "https://www.youtube.com/watch?v=_da8LYMY-S4",
       "title": "DanceXR Native Pathtracing Depth of Field Showcase",
-      "description": "",
+      "description": "A depth-of-field showcase rendered with DanceXR Native's path tracer. Learn more about Native rendering, supported content and hardware requirements in the full guide.\n\nDownload DanceXR for free and try it out yourself:\nhttps://vrstormlab.com/dancexr/download?utm_source=youtube&utm_medium=video&utm_campaign=description_backfill_2026_10&utm_content=_da8LYMY-S4\n\nFull feature description:\nhttps://vrstormlab.com/dancexr/features/native",
       "thumbnail": "https://i.ytimg.com/vi/_da8LYMY-S4/maxresdefault.jpg",
       "published_at": "2026-09-01T14:00:12Z",
       "metadata_status": "complete",
-      "embeddable": true
+      "embeddable": true,
+      "metadata_verified_at": "2026-10-14T05:07:38.948127+00:00"
     },
     {
       "id": "oFmxirj3pmw",
       "url": "https://www.youtube.com/watch?v=oFmxirj3pmw",
       "title": "Native Pathtracing With PMX Support",
-      "description": "",
+      "description": "PMX character rendering with DanceXR Native's path tracer. The full Native guide covers model support, rendering options, setup and hardware requirements.\n\nDownload DanceXR for free and try it out yourself:\nhttps://vrstormlab.com/dancexr/download?utm_source=youtube&utm_medium=video&utm_campaign=description_backfill_2026_10&utm_content=oFmxirj3pmw\n\nFull feature description:\nhttps://vrstormlab.com/dancexr/features/native",
       "thumbnail": "https://i.ytimg.com/vi/oFmxirj3pmw/maxresdefault.jpg",
       "published_at": "2026-09-01T08:47:51Z",
       "metadata_status": "complete",
-      "embeddable": true
+      "embeddable": true,
+      "metadata_verified_at": "2026-10-14T05:07:38.948127+00:00"
     },
     {
       "id": "kidbnBw78S8",

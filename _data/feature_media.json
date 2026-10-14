@@ -2,14 +2,28 @@
   "features/native": {
     "videos": [
       {
-        "id": "kidbnBw78S8",
-        "url": "https://www.youtube.com/watch?v=kidbnBw78S8",
-        "title": "[Anaglyph 3D] (Red Blue) Conqueror",
-        "thumbnail": "/images/features/youtube/kidbnBw78S8.jpg",
-        "published_at": "2026-08-07T04:46:04Z"
+        "id": "59hT3g8t1Jg",
+        "url": "https://www.youtube.com/watch?v=59hT3g8t1Jg",
+        "title": "DanceXR Native 2026.10",
+        "thumbnail": "https://i.ytimg.com/vi/59hT3g8t1Jg/sddefault.jpg",
+        "published_at": "2026-10-01T12:20:16Z"
+      },
+      {
+        "id": "_da8LYMY-S4",
+        "url": "https://www.youtube.com/watch?v=_da8LYMY-S4",
+        "title": "DanceXR Native Pathtracing Depth of Field Showcase",
+        "thumbnail": "https://i.ytimg.com/vi/_da8LYMY-S4/maxresdefault.jpg",
+        "published_at": "2026-09-01T14:00:12Z"
+      },
+      {
+        "id": "oFmxirj3pmw",
+        "url": "https://www.youtube.com/watch?v=oFmxirj3pmw",
+        "title": "Native Pathtracing With PMX Support",
+        "thumbnail": "https://i.ytimg.com/vi/oFmxirj3pmw/maxresdefault.jpg",
+        "published_at": "2026-09-01T08:47:51Z"
       }
     ],
-    "image": "/images/features/youtube/kidbnBw78S8.jpg"
+    "image": "https://i.ytimg.com/vi/59hT3g8t1Jg/sddefault.jpg"
   },
   "features/discovery": {
     "videos": [
