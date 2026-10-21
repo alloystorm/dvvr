@@ -472,6 +472,17 @@ support_sections:
     label: "已知問題"
     title: "已知問題與解決方法"
     subsections:
+      - title: "📌 2026.9–2026.10版本（Unity）"
+        items:
+          - id: "xps-physics-sticking-2026-9-10"
+            category: "actors"
+            type: "known-issue"
+            question: "為什麼在2026.9或2026.10中，XPS模型的裙子和頭髮會貼在身體附近並持續抖動？"
+            keywords: ["XPS", "XNALara", "skirt", "hair", "stuck", "sticking", "vibration", "jitter", "friction", "PhysX", "Unity"]
+            builds: ["Unity"]
+            versions: ["2026.9", "2026.10"]
+            related: [{"href": "features/skirt_physics", "label": "裙子物理"}, {"href": "features/hair_physics", "label": "頭髮物理"}]
+            answer: "這是 **Unity版DanceXR 2026.9和2026.10** 中XPS模型物理的已知問題。裙子和頭髮可能貼在身體附近並持續抖動。\n\n可使用以下任一暫時解決方法：\n\n1. 在受影響的 **Skirt Physics** 或 **Hair Physics** 設定中，將 **Physics Mode** 改為 **PhysX**。\n2. 或者，降低受影響裙子或頭髮物理的 **摩擦力（friction）**。\n\n預計在 **2026.11** 中修正。"
       - title: "📌 版本 2026.6"
         items:
           - id: "motion-smoothing-2026-6"
