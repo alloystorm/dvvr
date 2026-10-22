@@ -4093,6 +4093,78 @@
       },
       "subsections": [
         {
+          "title": "📌 Versions 2026.9–2026.10 (Unity)",
+          "title_locales": {
+            "jp": "📌 バージョン2026.9～2026.10（Unity版）",
+            "zh": "📌 2026.9–2026.10版本（Unity）",
+            "tw": "📌 2026.9–2026.10版本（Unity）",
+            "kr": "📌 버전 2026.9–2026.10 (Unity)"
+          },
+          "items": [
+            {
+              "id": "xps-physics-sticking-2026-9-10",
+              "category": "actors",
+              "type": "known-issue",
+              "question": "Why do XPS skirts and hair stick to the body and vibrate continuously in 2026.9 or 2026.10?",
+              "answer": "This is a known issue with XPS model physics in the **Unity-based versions of DanceXR 2026.9 and 2026.10**. Skirts and hair can stick close to the body and vibrate continuously.\n\nUse either workaround:\n\n1. In the affected **Skirt Physics** or **Hair Physics** settings, change **Physics Mode** to **PhysX**.\n2. Alternatively, reduce **friction** for the affected skirt or hair physics.\n\nA fix is planned for **2026.11**.",
+              "question_locales": {
+                "jp": "2026.9または2026.10で、XPSモデルのスカートや髪が体に張り付き、振動し続けるのはなぜですか？",
+                "zh": "为什么在2026.9或2026.10中，XPS模型的裙子和头发会贴在身体附近并持续抖动？",
+                "tw": "為什麼在2026.9或2026.10中，XPS模型的裙子和頭髮會貼在身體附近並持續抖動？",
+                "kr": "2026.9 또는 2026.10에서 XPS 모델의 치마와 머리카락이 몸에 붙어 계속 떨리는 이유는 무엇인가요?"
+              },
+              "answer_locales": {
+                "jp": "これは **Unity版DanceXR 2026.9および2026.10** のXPSモデルの物理演算に関する既知の問題です。スカートや髪が体の近くに張り付き、振動し続けることがあります。\n\n次のいずれかで回避できます。\n\n1. 対象の **Skirt Physics** または **Hair Physics** の設定で、**Physics Mode** を **PhysX** に変更します。\n2. または、対象のスカートや髪の物理演算の **摩擦（friction）** を下げます。\n\n**2026.11** で修正する予定です。",
+                "zh": "这是 **Unity版DanceXR 2026.9和2026.10** 中XPS模型物理的已知问题。裙子和头发可能贴在身体附近并持续抖动。\n\n可使用以下任一临时解决方法：\n\n1. 在受影响的 **Skirt Physics** 或 **Hair Physics** 设置中，将 **Physics Mode** 改为 **PhysX**。\n2. 或者，降低受影响裙子或头发物理的 **摩擦力（friction）**。\n\n计划在 **2026.11** 中修复。",
+                "tw": "這是 **Unity版DanceXR 2026.9和2026.10** 中XPS模型物理的已知問題。裙子和頭髮可能貼在身體附近並持續抖動。\n\n可使用以下任一暫時解決方法：\n\n1. 在受影響的 **Skirt Physics** 或 **Hair Physics** 設定中，將 **Physics Mode** 改為 **PhysX**。\n2. 或者，降低受影響裙子或頭髮物理的 **摩擦力（friction）**。\n\n預計在 **2026.11** 中修正。",
+                "kr": "**Unity 기반 DanceXR 2026.9 및 2026.10**의 XPS 모델 물리에서 발생하는 알려진 문제입니다. 치마와 머리카락이 몸 가까이에 붙어 계속 떨릴 수 있습니다.\n\n다음 중 한 가지 방법을 사용하세요.\n\n1. 해당 **Skirt Physics** 또는 **Hair Physics** 설정에서 **Physics Mode**를 **PhysX**로 변경합니다.\n2. 또는 해당 치마나 머리카락 물리의 **마찰(friction)** 값을 낮춥니다.\n\n**2026.11**에서 수정할 예정입니다."
+              },
+              "keywords": [
+                "XPS",
+                "XNALara",
+                "skirt",
+                "hair",
+                "stuck",
+                "sticking",
+                "vibration",
+                "jitter",
+                "friction",
+                "PhysX",
+                "Unity"
+              ],
+              "builds": [
+                "Unity"
+              ],
+              "versions": [
+                "2026.9",
+                "2026.10"
+              ],
+              "related": [
+                {
+                  "href": "features/skirt_physics",
+                  "label": "Skirt Physics",
+                  "label_locales": {
+                    "jp": "スカートの物理演算",
+                    "zh": "裙子物理",
+                    "tw": "裙子物理",
+                    "kr": "치마 물리"
+                  }
+                },
+                {
+                  "href": "features/hair_physics",
+                  "label": "Hair Physics",
+                  "label_locales": {
+                    "jp": "髪の物理演算",
+                    "zh": "头发物理",
+                    "tw": "頭髮物理",
+                    "kr": "머리카락 물리"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
           "title": "📌 Version 2026.6",
           "title_locales": {
             "jp": "📌 バージョン 2026.6",

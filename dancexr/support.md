@@ -472,6 +472,17 @@ support_sections:
     label: "Known Issues"
     title: "Known Issues & Workarounds"
     subsections:
+      - title: "📌 Versions 2026.9–2026.10 (Unity)"
+        items:
+          - id: "xps-physics-sticking-2026-9-10"
+            category: "actors"
+            type: "known-issue"
+            question: "Why do XPS skirts and hair stick to the body and vibrate continuously in 2026.9 or 2026.10?"
+            keywords: ["XPS", "XNALara", "skirt", "hair", "stuck", "sticking", "vibration", "jitter", "friction", "PhysX", "Unity"]
+            builds: ["Unity"]
+            versions: ["2026.9", "2026.10"]
+            related: [{"href": "features/skirt_physics", "label": "Skirt Physics"}, {"href": "features/hair_physics", "label": "Hair Physics"}]
+            answer: "This is a known issue with XPS model physics in the **Unity-based versions of DanceXR 2026.9 and 2026.10**. Skirts and hair can stick close to the body and vibrate continuously.\n\nUse either workaround:\n\n1. In the affected **Skirt Physics** or **Hair Physics** settings, change **Physics Mode** to **PhysX**.\n2. Alternatively, reduce **friction** for the affected skirt or hair physics.\n\nA fix is planned for **2026.11**."
       - title: "📌 Version 2026.6"
         items:
           - id: "motion-smoothing-2026-6"

@@ -472,6 +472,17 @@ support_sections:
     label: "알려진 문제"
     title: "알려진 문제 및 해결 방법"
     subsections:
+      - title: "📌 버전 2026.9–2026.10 (Unity)"
+        items:
+          - id: "xps-physics-sticking-2026-9-10"
+            category: "actors"
+            type: "known-issue"
+            question: "2026.9 또는 2026.10에서 XPS 모델의 치마와 머리카락이 몸에 붙어 계속 떨리는 이유는 무엇인가요?"
+            keywords: ["XPS", "XNALara", "skirt", "hair", "stuck", "sticking", "vibration", "jitter", "friction", "PhysX", "Unity"]
+            builds: ["Unity"]
+            versions: ["2026.9", "2026.10"]
+            related: [{"href": "features/skirt_physics", "label": "치마 물리"}, {"href": "features/hair_physics", "label": "머리카락 물리"}]
+            answer: "**Unity 기반 DanceXR 2026.9 및 2026.10**의 XPS 모델 물리에서 발생하는 알려진 문제입니다. 치마와 머리카락이 몸 가까이에 붙어 계속 떨릴 수 있습니다.\n\n다음 중 한 가지 방법을 사용하세요.\n\n1. 해당 **Skirt Physics** 또는 **Hair Physics** 설정에서 **Physics Mode**를 **PhysX**로 변경합니다.\n2. 또는 해당 치마나 머리카락 물리의 **마찰(friction)** 값을 낮춥니다.\n\n**2026.11**에서 수정할 예정입니다."
       - title: "📌 버전 2026.6"
         items:
           - id: "motion-smoothing-2026-6"
