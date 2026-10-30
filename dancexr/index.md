@@ -411,15 +411,15 @@ PC releases start on Patreon on the 1st, reach Steam beta and Itch.io around the
 
 </div>
 <div class="release-card">
-  <p class="release-version">Latest — 2026.10</p>
-  <p class="release-headline">October 2026</p>
+  <p class="release-version">Latest — 2026.11</p>
+  <p class="release-headline">November 2026</p>
   <div class="release-items">
-    <div class="release-item">Raster renderer brings Native to more PCs</div>
-    <div class="release-item">Wet Skin &amp; Fluid and a cloth garment</div>
-    <div class="release-item">Auto camera, shuffle, and video backdrops</div>
-    <div class="release-item">Enter and leave VR without restarting</div>
+    <div class="release-item">Pose any actor over any motion</div>
+    <div class="release-item">Body paint, spray, and player avatar</div>
+    <div class="release-item">FBX and VRM models, plus stockings</div>
+    <div class="release-item">Creator video recording</div>
   </div>
-  <a href="releases/2026.10" class="btn-ghost">Full release notes</a>
+  <a href="releases/2026.11" class="btn-ghost">Full release notes</a>
 </div>
 </div>
 </section>

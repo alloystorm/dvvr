@@ -411,15 +411,15 @@ PC版は毎月1日にPatreonで先行公開され、15日頃にSteamベータと
 
 </div>
 <div class="release-card">
-  <p class="release-version">最新 — 2026.10</p>
-  <p class="release-headline">2026年10月</p>
+  <p class="release-version">最新 — 2026.11</p>
+  <p class="release-headline">2026年11月</p>
   <div class="release-items">
-    <div class="release-item">ラスターレンダラーで Native がより多くの PC に対応</div>
-    <div class="release-item">Wet Skin &amp; Fluid と布の衣装</div>
-    <div class="release-item">オートカメラ、シャッフル、ビデオ背景</div>
-    <div class="release-item">再起動なしで VR に出入り</div>
+    <div class="release-item">どのアクターもポーズ編集</div>
+    <div class="release-item">ボディペイント、スプレー、アバター</div>
+    <div class="release-item">FBX と VRM、ストッキング対応</div>
+    <div class="release-item">Creator の動画収録</div>
   </div>
-  <a href="releases/2026.10" class="btn-ghost">完全なリリースノート</a>
+  <a href="releases/2026.11" class="btn-ghost">完全なリリースノート</a>
 </div>
 </div>
 </section>

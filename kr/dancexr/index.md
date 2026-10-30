@@ -411,15 +411,15 @@ PC 버전은 매월 1일 Patreon, 15일경 Steam 베타와 Itch.io, 월말까지
 
 </div>
 <div class="release-card">
-  <p class="release-version">최신 — 2026.10</p>
-  <p class="release-headline">2026년 10월</p>
+  <p class="release-version">최신 — 2026.11</p>
+  <p class="release-headline">2026년 11월</p>
   <div class="release-items">
-    <div class="release-item">래스터 렌더러로 더 많은 PC에서 Native 실행</div>
-    <div class="release-item">Wet Skin &amp; Fluid와 천 의상</div>
-    <div class="release-item">오토 카메라, 셔플, 비디오 배경</div>
-    <div class="release-item">재시작 없이 VR 출입</div>
+    <div class="release-item">모든 액터를 포즈 편집</div>
+    <div class="release-item">바디 페인트, 스프레이, 아바타</div>
+    <div class="release-item">FBX·VRM과 스타킹 지원</div>
+    <div class="release-item">Creator 영상 녹화</div>
   </div>
-  <a href="releases/2026.10" class="btn-ghost">전체 릴리스 노트</a>
+  <a href="releases/2026.11" class="btn-ghost">전체 릴리스 노트</a>
 </div>
 </div>
 </section>

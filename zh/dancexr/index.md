@@ -411,15 +411,15 @@ PC 版每月 1 日在 Patreon 抢先发布，15 日左右进入 Steam 测试版�
 
 </div>
 <div class="release-card">
-  <p class="release-version">最新 — 2026.10</p>
-  <p class="release-headline">2026年10月</p>
+  <p class="release-version">最新 — 2026.11</p>
+  <p class="release-headline">2026年11月</p>
   <div class="release-items">
-    <div class="release-item">光栅渲染器让 Native 支持更多 PC</div>
-    <div class="release-item">Wet Skin &amp; Fluid 与布料服装</div>
-    <div class="release-item">自动相机、随机播放与视频背景</div>
-    <div class="release-item">无需重启即可进出 VR</div>
+    <div class="release-item">任意角色、任意动作都能摆姿</div>
+    <div class="release-item">身体彩绘、喷洒与玩家化身</div>
+    <div class="release-item">支持 FBX、VRM 与丝袜</div>
+    <div class="release-item">Creator 视频录制</div>
   </div>
-  <a href="releases/2026.10" class="btn-ghost">完整版本说明</a>
+  <a href="releases/2026.11" class="btn-ghost">完整版本说明</a>
 </div>
 </div>
 </section>

@@ -5,12 +5,12 @@ title: Releases
 toc: false
 permalink: /dancexr/releases/
 hero_compact: true
-hero_title: Latest Release - 2026.10
-hero_sub: Native reaches more PCs with a raster renderer, plus wet skin, cloth, and an auto camera
+hero_title: Latest Release - 2026.11
+hero_sub: Native adds posing, body paint, a player avatar, stockings, and video recording, with FBX and VRM models in Unity too
 hero_image: /images/hero.png
 hero_ctas:
   - label: Full Release Notes
-    url: /dancexr/releases/2026.10
+    url: /dancexr/releases/2026.11
     style: neon
   - label: DOWNLOAD NOW
     url: /dancexr/download
@@ -19,6 +19,8 @@ feature_sections:
   - title: "2026"
     light: true
     tiles:
+      - title: "Release 2026.11"
+        link: "/dancexr/releases/2026.11"
       - title: "Release 2026.10"
         link: "/dancexr/releases/2026.10"
       - title: "Release 2026.9"

@@ -11,6 +11,8 @@ feature_sections:
   - title: "2026"
     light: true
     tiles:
+      - title: "출시 2026.11"
+        link: "/kr/dancexr/releases/2026.11"
       - title: "출시 2026.10"
         link: "/kr/dancexr/releases/2026.10"
       - title: "출시 2026.9"
