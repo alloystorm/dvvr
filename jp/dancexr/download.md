@@ -112,7 +112,7 @@ description: ランチャーで無料のHD・Native版をインストール・�
 
 ## PCでDanceXR Nativeを試す
 
-DanceXR Nativeは、WindowsのデスクトップやOpenXR VRでPMX・XPSキャラクターを描画します。2026.10以降はラスターレンダラーにより、内蔵GPUを含むレイトレーシング非対応のDirectX 12 PCでも利用できます。完全なパストレーシングには対応GPUが必要です。無料版は1体、アクティベート済みPro版は複数キャラクターに対応します。
+DanceXR Nativeは、WindowsのデスクトップやOpenXR VRでPMX・XPS・FBX・VRMキャラクターを描画します。2026.10以降はラスターレンダラーにより、内蔵GPUを含むレイトレーシング非対応のDirectX 12 PCでも利用できます。完全なパストレーシングには対応GPUが必要です。無料版は1体、アクティベート済みPro版は複数キャラクターに対応します。
 
 </div>
 <p style="text-align:center; margin-top: 20px;">

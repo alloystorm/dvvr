@@ -43,7 +43,7 @@ On first launch, complete the activation process if required. Steam and Google P
 
 We recommend preparing your content library before launching DanceXR, but you can also load content by dropping model and motion files directly onto the DanceXR window. You can skip this step for now and come back when you're ready to add your own models and motions. Keep in mind that the drag and drop only works for models and motions, for other content like stages, sky maps and textures, you still need to put them in the content library.
 
-DanceXR looks for models, motions, and other content inside a **content library** folder. This is where you'll copy your PMX and XPS model files.
+DanceXR looks for models, motions, and other content inside a **content library** folder. This is where you'll copy your PMX, XPS, FBX, and VRM model files.
 
 The location depends on your platform:
 
@@ -95,7 +95,7 @@ Click on empty space to toggle between these modes:
 
 ### Not in the content library yet?
 
-No problem. You can load models on the fly by dragging and dropping files directly onto the DanceXR window. Supported formats include `.pmx`, `.xps`, `.mesh`, `.mesh.ascii`, and `.fbx` (preview, since 2025.9 — model only, no animations). Just drop the file, and it will appear in the actor menu.
+No problem. You can load models on the fly by dragging and dropping files directly onto the DanceXR window. Supported formats include `.pmx`, `.xps`, `.mesh`, `.mesh.ascii`, `.fbx` (preview, since 2025.9 — model only, no animations), and `.vrm` (since 2026.11). Just drop the file, and it will appear in the actor menu.
 
 
 ### Within the content library

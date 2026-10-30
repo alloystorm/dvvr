@@ -13,7 +13,7 @@ A stage is the static environment your actors perform on — a club floor, a con
 
 ## Loading a stage
 
-Place stage models in your [content library](../preparecontent) under stages folder. You can also tag actor models as "stage" so they appear under the stage menu. PMX, XPS, and FBX models can all be used as stages.
+Place stage models in your [content library](../preparecontent) under stages folder. You can also tag actor models as "stage" so they appear under the stage menu. PMX, XPS, FBX, and VRM models can all be used as stages.
 
 From the scene menu, open the stage selector and pick the model to load. A stage replaces any previously loaded stage; only one stage is active at a time.
 

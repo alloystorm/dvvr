@@ -112,7 +112,7 @@ Release ready
 
 ## Try DanceXR Native on your PC
 
-DanceXR Native renders PMX and XPS characters on Windows, on desktop or in OpenXR VR. Since 2026.10, its raster renderer also supports DirectX 12 PCs without ray-tracing hardware, including integrated graphics. Full path tracing requires a ray-tracing-capable GPU. The free edition supports one character; activated Pro installations support multi-character scenes.
+DanceXR Native renders PMX, XPS, FBX, and VRM characters on Windows, on desktop or in OpenXR VR. Since 2026.10, its raster renderer also supports DirectX 12 PCs without ray-tracing hardware, including integrated graphics. Full path tracing requires a ray-tracing-capable GPU. The free edition supports one character; activated Pro installations support multi-character scenes.
 
 </div>
 <p style="text-align:center; margin-top: 20px;">

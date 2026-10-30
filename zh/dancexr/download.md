@@ -112,7 +112,7 @@ description: 启动器可安装和更新免费的 HD 与 Native 版本。
 
 ## 在 PC 上体验 DanceXR Native
 
-DanceXR Native 可在 Windows 桌面或 OpenXR VR 中渲染 PMX 与 XPS 角色。自 2026.10 起，光栅渲染器也支持不具备光线追踪硬件的 DirectX 12 PC，包括集成显卡。完整路径追踪需要支持光线追踪的 GPU。免费版支持一个角色；已激活的 Pro 版支持多角色场景。
+DanceXR Native 可在 Windows 桌面或 OpenXR VR 中渲染 PMX、XPS、FBX 与 VRM 角色。自 2026.10 起，光栅渲染器也支持不具备光线追踪硬件的 DirectX 12 PC，包括集成显卡。完整路径追踪需要支持光线追踪的 GPU。免费版支持一个角色；已激活的 Pro 版支持多角色场景。
 
 </div>
 <p style="text-align:center; margin-top: 20px;">

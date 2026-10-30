@@ -17,13 +17,14 @@ For a glossary of terms used here (actor, selection disc, gizmo cube, dressing s
 
 ## Loading an actor
 
-DanceXR reads three model formats:
+DanceXR reads four model formats:
 
 - **PMX** — the MikuMikuDance format. Includes its own bone hierarchy, physics rig, and morph list out of the box.
 - **XPS** — the XNALara / XPS format (`.xps`, `.mesh`, `.mesh.ascii`). Does **not** include physics or a standard skeleton, so you set those up in DanceXR.
-- **FBX** *(preview, since 2025.9)* — broad-purpose 3D format. DanceXR currently loads the model only, not embedded animations or other FBX-specific features. Like XPS, FBX requires [bone mapping](features/bone_mapper) before motions will play correctly.
+- **FBX** *(preview, since 2025.9)* — broad-purpose 3D format. DanceXR loads the model, its materials, and any morphs the file carries, but not embedded animations or other FBX-specific features. Bones are mapped automatically when the model loads; use the [bone mapper](features/bone_mapper) to correct anything it missed.
+- **VRM** *(since 2026.11)* — the avatar format used by VRoid and similar tools (`.vrm`). Bones come from the humanoid map stored in the file, and the file's license terms (author, who may use it as an avatar, commercial use, credit) are shown in the actor menu. Like FBX, DanceXR loads the model, its materials and expressions, but not the VRM spring bones, so hair and skirt physics are detected and configured in Physics Tools.
 
-All three formats can also be packaged in a **ZIP**. See [ZIP format](features/zip_format) for filename rules and encoding.
+These formats can also be packaged in a **ZIP**. See [ZIP format](features/zip_format) for filename rules and encoding.
 
 ### Two ways to load
 
@@ -40,18 +41,18 @@ By default, loading a model **replaces** the currently selected actor. Click the
 
 ---
 
-## PMX vs XPS vs FBX — what differs
+## PMX vs XPS vs FBX vs VRM — what differs
 
-Most settings work the same across all three formats. The places they diverge are worth knowing:
+Most settings work the same across all four formats. The places they diverge are worth knowing:
 
-| Topic | PMX | XPS | FBX (preview) |
-|---|---|---|---|
-| Skeleton | Standard bone names from the file | Mapped via [bone mapper](features/bone_mapper) | Mapped via [bone mapper](features/bone_mapper) |
-| Physics rig | Built into the file ([PMX physics](features/pmx_physics)) | Configured in Physics Tools | Configured in Physics Tools |
-| Morphs / blendshapes | [Morph list](features/morph_list) | None — use [Dressing system](features/optionals) instead | None |
-| Outfit toggles | Material morphs (PMX) | Optional items (XPS) — same UI ([Dressing system](features/optionals)) | None |
+| Topic | PMX | XPS | FBX (preview) | VRM |
+|---|---|---|---|---|
+| Skeleton | Standard bone names from the file | Mapped via [bone mapper](features/bone_mapper) | Mapped automatically, correctable in the [bone mapper](features/bone_mapper) | The file's humanoid map, correctable in the [bone mapper](features/bone_mapper) |
+| Physics rig | Built into the file ([PMX physics](features/pmx_physics)) | Configured in Physics Tools | Configured in Physics Tools | Configured in Physics Tools (hair and skirt chains are detected; the file's spring bones are not used) |
+| Morphs / blendshapes | [Morph list](features/morph_list) | None — use [Dressing system](features/optionals) instead | Imported from the file when present | Imported from the file (expressions) |
+| Outfit toggles | Material morphs (PMX) | Optional items (XPS) — same UI ([Dressing system](features/optionals)) | None | None |
 
-If something in this guide says "PMX only" or "XPS only", that is why. FBX support is in preview as of 2025.9 — model geometry and materials load, but animations and other FBX features inside the file are ignored.
+If something in this guide says "PMX only" or "XPS only", that is why. FBX support is in preview as of 2025.9 — model geometry, materials, and morphs load, but animations and other FBX features inside the file are ignored. VRM models (added in 2026.11) are read the same way, and the VRM license terms appear in the actor menu.
 
 ---
 

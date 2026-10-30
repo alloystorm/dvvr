@@ -60,7 +60,7 @@ The following are links to the detailed documentation for each of the settings.
 * Motion Assign & Settings
 * [Recently Modified](#recently-modified)
 * [Dressing System (Material Morphs and XPS Optionals)](optionals)
-* [Bone Mapper (XPS Only)](bone_mapper)
+* [Bone Mapper (XPS, FBX and VRM)](bone_mapper)
 * [Alternative Textures](alternative_textures)
 * Materials
     * Skin

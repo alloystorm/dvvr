@@ -73,7 +73,7 @@ support_sections:
             question: "支持哪些模型和动作格式？能直接转换或制作动画吗？"
             keywords: ["PMX", "XPS", "FBX", "BVH", "VMD", "VRM", "VRChat", "DAZ", "OBJ", "conversion", "animation authoring", "支持哪些模型和动作格式？能直接转换或制作动画吗？"]
             related: [{"href": "preparecontent", "label": "内容库"}, {"href": "features/native", "label": "Native指南"}, {"href": "features/bone_mapper", "label": "骨骼映射器"}]
-            answer: "Unity应用支持PMX/XPS模型、仅模型导入的FBX预览支持、VMD/BVH动作和OBJ场景道具。XPS/FBX模型可能需要骨骼映射。Native当前文档列出PMX/XPS模型和VMD动作。\n\nVRM、VRChat或DAZ工程不一定是可直接使用的模型包。导出或转换属于独立流程，请确认目标格式和骨骼。DanceXR播放导入的动作并提供程序化摆姿，不能替代完整的动画制作工具。"
+            answer: "Unity应用支持PMX/XPS模型、仅模型导入的FBX预览支持、VRM模型（2026.11起）、VMD/BVH动作和OBJ场景道具。XPS模型需要骨骼映射；FBX和VRM会自动映射，也可手动修正。Native支持PMX、XPS、FBX和VRM模型以及VMD动作。\n\nVRChat或DAZ工程不一定是可直接使用的模型包。导出或转换属于独立流程，请确认目标格式和骨骼。DanceXR播放导入的动作并提供程序化摆姿，不能替代完整的动画制作工具。"
           - id: "change-content-library"
             category: "content"
             type: "how-to"
@@ -171,7 +171,7 @@ support_sections:
             question: "如何调整头发和衣物物理？"
             keywords: ["hair", "cloth", "skirt", "physics", "PMX", "XPS", "FBX", "PhysX", "XPBD", "Select Bones", "如何调整头发和衣物物理？"]
             related: [{"href": "physics", "label": "物理系统"}, {"href": "features/pmx_physics", "label": "PMX物理"}, {"href": "features/hair_physics", "label": "头发物理"}, {"href": "features/skirt_physics", "label": "裙子物理"}]
-            answer: "先确认角色的物理方式。PMX自带刚体和关节可比较 **Physics Mode** 选项；**Auto** 使用系统 **PMX Default**。XPS/FBX自定义工具中，启用 **Hair Physics** 或 **Skirt Physics**，用 **Select Bones** 选择骨骼链根部，并检查身体碰撞体。\n\n一次只调一个设置：PhysX用弹簧和阻尼，XPBD用柔顺度和阻尼。用自定义工具替换PMX物理时，先将PMX **Physics Mode** 设为 **Off**。功能可用性随构建和版本而异，Native有独立物理设置。"
+            answer: "先确认角色的物理方式。PMX自带刚体和关节可比较 **Physics Mode** 选项；**Auto** 使用系统 **PMX Default**。XPS/FBX/VRM自定义工具中，启用 **Hair Physics** 或 **Skirt Physics**，用 **Select Bones** 选择骨骼链根部，并检查身体碰撞体。\n\n一次只调一个设置：PhysX用弹簧和阻尼，XPBD用柔顺度和阻尼。用自定义工具替换PMX物理时，先将PMX **Physics Mode** 设为 **Off**。功能可用性随构建和版本而异，Native有独立物理设置。"
       - title: "动作与播放"
         items:
           - id: "assign-motion"
@@ -198,10 +198,10 @@ support_sections:
           - id: "map-xps-fbx-bones"
             category: "motion"
             type: "how-to"
-            question: "如何让XPS或FBX模型播放动作？"
+            question: "如何让XPS、FBX或VRM模型播放动作？"
             keywords: ["bone mapping", "XPS", "FBX", "T-pose", "Auto Map", "Chain Mapping", "骨骼映射", "标准姿势不动", "自动映射", "链式映射"]
             related: [{"href": "features/bone_mapper", "label": "骨骼映射器"}]
-            answer: "加载模型，在角色菜单中打开**骨骼映射器**。运行**自动映射**，检查带感叹号的槽位：这些是尚未分配、但正常动作所必需的骨骼。\n\n将每个缺失槽位映射到模型中对应的骨骼。**链式映射**可以加快手臂、手指等骨骼链的设置。完成必要映射后，分配动作并检查结果。\n\nXPS和FBX需要骨骼映射。PMX模型通常已包含标准骨骼名称。"
+            answer: "加载模型，在角色菜单中打开**骨骼映射器**。运行**自动映射**，检查带感叹号的槽位：这些是尚未分配、但正常动作所必需的骨骼。\n\n将每个缺失槽位映射到模型中对应的骨骼。**链式映射**可以加快手臂、手指等骨骼链的设置。完成必要映射后，分配动作并检查结果。\n\nXPS需要骨骼映射。FBX和VRM模型会在加载时自动映射，只需在骨骼映射器中修正。PMX模型通常已包含标准骨骼名称。"
           - id: "feet-slide-or-float"
             category: "motion"
             type: "troubleshooting"

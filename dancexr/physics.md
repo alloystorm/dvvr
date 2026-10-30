@@ -11,7 +11,7 @@ DanceXR has model format-specific physics systems for character models, plus a c
 
 PMX models come with physics component definitions and it should work out of the box. You can customize and fine-tune the physics behavior for PMX models in the [PMX physics settings](features/pmx_physics). 
 
-For XPS and FBX models, you need to set up physics from scratch using the provided physics tools tailered for common usecases. See below for the list of tools and their recommended use cases. 
+For XPS, FBX, and VRM models, you need to set up physics from scratch using the provided physics tools tailered for common usecases. See below for the list of tools and their recommended use cases. 
 
 By default the physics system uses the built-in Unity physics engine based on PhysX. We also have a custom made physics engine based on XPBD (Extended Position-Based Dynamics) which provides better control and stability especially for cloth and hair.
 

@@ -79,7 +79,7 @@ feature_sections:
   - title: 模型支持
     light: true
     hub_url: /zh/dancexr/actors
-    hub_summary: Load PMX/MMD or XPS character models, position and configure them, and stage multi-actor scenes with formations and playlists.
+    hub_summary: Load PMX/MMD, XPS, FBX, or VRM character models, position and configure them, and stage multi-actor scenes with formations and playlists.
     subsections:
       - title: 内容管理
         tiles:

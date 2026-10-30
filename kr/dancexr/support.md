@@ -73,7 +73,7 @@ support_sections:
             question: "어떤 모델과 모션 형식을 지원하며 변환이나 애니메이션 제작도 가능한가요?"
             keywords: ["PMX", "XPS", "FBX", "BVH", "VMD", "VRM", "VRChat", "DAZ", "OBJ", "conversion", "animation authoring", "어떤 모델과 모션 형식을 지원하며 변환이나 애니메이션 제작도 가능한가요?"]
             related: [{"href": "preparecontent", "label": "콘텐츠 라이브러리"}, {"href": "features/native", "label": "Native 안내"}, {"href": "features/bone_mapper", "label": "본 매퍼"}]
-            answer: "Unity 앱은 PMX/XPS 모델, 모델만 가져오는 FBX 미리보기 지원, VMD/BVH 모션, OBJ 무대 소품을 지원합니다. XPS/FBX에는 뼈 매핑이 필요할 수 있습니다. Native의 현재 문서는 PMX/XPS 모델과 VMD 모션을 안내합니다.\n\nVRM, VRChat, DAZ 프로젝트가 바로 호환 패키지가 되는 것은 아닙니다. 내보내기나 변환은 별도 작업입니다. DanceXR는 가져온 모션 재생과 절차적 포징을 제공하지만 전체 애니메이션 제작 도구를 대체하지는 않습니다."
+            answer: "Unity 앱은 PMX/XPS 모델, 모델만 가져오는 FBX 미리보기 지원, VRM 모델(2026.11부터), VMD/BVH 모션, OBJ 무대 소품을 지원합니다. XPS에는 뼈 매핑이 필요하고, FBX와 VRM은 자동으로 매핑되며 수정할 수도 있습니다. Native는 PMX, XPS, FBX, VRM 모델과 VMD 모션을 지원합니다.\n\nVRChat, DAZ 프로젝트가 바로 호환 패키지가 되는 것은 아닙니다. 내보내기나 변환은 별도 작업입니다. DanceXR는 가져온 모션 재생과 절차적 포징을 제공하지만 전체 애니메이션 제작 도구를 대체하지는 않습니다."
           - id: "change-content-library"
             category: "content"
             type: "how-to"
@@ -171,7 +171,7 @@ support_sections:
             question: "머리카락과 의상 물리를 조절하려면 어떻게 하나요?"
             keywords: ["hair", "cloth", "skirt", "physics", "PMX", "XPS", "FBX", "PhysX", "XPBD", "Select Bones", "머리카락과 의상 물리를 조절하려면 어떻게 하나요?"]
             related: [{"href": "physics", "label": "물리 시스템"}, {"href": "features/pmx_physics", "label": "PMX 물리"}, {"href": "features/hair_physics", "label": "머리카락 물리"}, {"href": "features/skirt_physics", "label": "치마 물리"}]
-            answer: "먼저 배우의 물리 구성을 확인하세요. PMX의 강체와 관절은 **Physics Mode**를 비교하며 **Auto**는 시스템의 **PMX Default**를 따릅니다. XPS/FBX 사용자 도구에서는 **Hair Physics** 또는 **Skirt Physics**를 켜고 **Select Bones**로 체인 루트를 선택한 다음 몸 콜라이더를 확인하세요.\n\n한 번에 하나씩 조절하세요. PhysX는 스프링/댐핑, XPBD는 컴플라이언스/댐핑을 사용합니다. PMX 리그를 사용자 도구로 대체하려면 먼저 **Physics Mode**를 **Off**로 설정하세요. 기능은 빌드/에디션에 따라 다르며 Native는 별도 설정입니다."
+            answer: "먼저 배우의 물리 구성을 확인하세요. PMX의 강체와 관절은 **Physics Mode**를 비교하며 **Auto**는 시스템의 **PMX Default**를 따릅니다. XPS/FBX/VRM 사용자 도구에서는 **Hair Physics** 또는 **Skirt Physics**를 켜고 **Select Bones**로 체인 루트를 선택한 다음 몸 콜라이더를 확인하세요.\n\n한 번에 하나씩 조절하세요. PhysX는 스프링/댐핑, XPBD는 컴플라이언스/댐핑을 사용합니다. PMX 리그를 사용자 도구로 대체하려면 먼저 **Physics Mode**를 **Off**로 설정하세요. 기능은 빌드/에디션에 따라 다르며 Native는 별도 설정입니다."
       - title: "모션 및 재생"
         items:
           - id: "assign-motion"
@@ -198,10 +198,10 @@ support_sections:
           - id: "map-xps-fbx-bones"
             category: "motion"
             type: "how-to"
-            question: "XPS나 FBX 모델이 모션에 따라 움직이게 하려면 어떻게 하나요?"
+            question: "XPS, FBX, VRM 모델이 모션에 따라 움직이게 하려면 어떻게 하나요?"
             keywords: ["bone mapping", "XPS", "FBX", "T-pose", "Auto Map", "Chain Mapping", "본 매핑", "기본 포즈에서 안 움직임", "자동 매핑", "체인 매핑"]
             related: [{"href": "features/bone_mapper", "label": "본 매퍼"}]
-            answer: "모델을 불러오고 액터 메뉴의 **본 매퍼**를 여세요. **자동 매핑**을 실행한 뒤 느낌표가 붙은 슬롯을 확인하세요. 움직임에 꼭 필요하지만 아직 할당되지 않은 본을 뜻합니다.\n\n빠진 슬롯마다 모델의 해당 본을 연결하세요. **체인 매핑**을 사용하면 팔이나 손 등 본 체인을 빠르게 설정할 수 있습니다. 필수 본을 모두 매핑한 뒤 모션을 할당하고 결과를 확인하세요.\n\nXPS와 FBX에는 본 매핑이 필요합니다. PMX 모델은 보통 표준 본 이름을 이미 포함하고 있습니다."
+            answer: "모델을 불러오고 액터 메뉴의 **본 매퍼**를 여세요. **자동 매핑**을 실행한 뒤 느낌표가 붙은 슬롯을 확인하세요. 움직임에 꼭 필요하지만 아직 할당되지 않은 본을 뜻합니다.\n\n빠진 슬롯마다 모델의 해당 본을 연결하세요. **체인 매핑**을 사용하면 팔이나 손 등 본 체인을 빠르게 설정할 수 있습니다. 필수 본을 모두 매핑한 뒤 모션을 할당하고 결과를 확인하세요.\n\nXPS에는 본 매핑이 필요합니다. FBX와 VRM 모델은 로드할 때 자동으로 매핑되므로 본 매퍼에서 수정하기만 하면 됩니다. PMX 모델은 보통 표준 본 이름을 이미 포함하고 있습니다."
           - id: "feet-slide-or-float"
             category: "motion"
             type: "troubleshooting"

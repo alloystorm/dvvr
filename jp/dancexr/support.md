@@ -73,7 +73,7 @@ support_sections:
             question: "使えるモデル・モーション形式は？変換やアニメーション制作もできますか？"
             keywords: ["PMX", "XPS", "FBX", "BVH", "VMD", "VRM", "VRChat", "DAZ", "OBJ", "conversion", "animation authoring", "使えるモデル・モーション形式は？変換やアニメーション制作もできますか？"]
             related: [{"href": "preparecontent", "label": "コンテンツライブラリ"}, {"href": "features/native", "label": "Nativeガイド"}, {"href": "features/bone_mapper", "label": "ボーンマッパー"}]
-            answer: "Unity版アプリはPMX/XPSモデル、モデルのみのFBXプレビュー読み込み、VMD/BVHモーション、OBJの舞台小物に対応します。XPS/FBXはボーンの対応付けが必要な場合があります。Nativeの現行ガイドはPMX/XPSモデルとVMDモーションを案内しています。\n\nVRM・VRChat・DAZのプロジェクトがそのまま使えるとは限りません。書き出しや変換は別の作業です。DanceXRはモーション再生と手続き型ポージングを提供しますが、本格的なアニメーション制作ツールの代わりではありません。"
+            answer: "Unity版アプリはPMX/XPSモデル、モデルのみのFBXプレビュー読み込み、VRMモデル（2026.11以降）、VMD/BVHモーション、OBJの舞台小物に対応します。XPSはボーンの対応付けが必要で、FBXとVRMは自動で対応付けされ、修正もできます。NativeはPMX、XPS、FBX、VRMモデルとVMDモーションに対応します。\n\nVRChat・DAZのプロジェクトがそのまま使えるとは限りません。書き出しや変換は別の作業です。DanceXRはモーション再生と手続き型ポージングを提供しますが、本格的なアニメーション制作ツールの代わりではありません。"
           - id: "change-content-library"
             category: "content"
             type: "how-to"
@@ -171,7 +171,7 @@ support_sections:
             question: "髪や衣服の物理を調整するには？"
             keywords: ["hair", "cloth", "skirt", "physics", "PMX", "XPS", "FBX", "PhysX", "XPBD", "Select Bones", "髪や衣服の物理を調整するには？"]
             related: [{"href": "physics", "label": "物理システム"}, {"href": "features/pmx_physics", "label": "PMX物理"}, {"href": "features/hair_physics", "label": "髪の物理"}, {"href": "features/skirt_physics", "label": "スカートの物理"}]
-            answer: "まずアクターの物理方式を確認します。PMXの剛体・ジョイントには **Physics Mode** を使い、**Auto** はシステムの **PMX Default** に従います。XPS/FBXのツールは **Hair Physics** または **Skirt Physics** を有効にし、**Select Bones** でボーン列の根を選び、体のコライダーを確認します。\n\nPhysXはばねと減衰、XPBDはコンプライアンスと減衰を一つずつ調整します。PMXの物理をツールで置き換える場合は先に **Physics Mode** を **Off** にします。利用可能な機能はビルド/エディションで異なり、Nativeの設定は別です。"
+            answer: "まずアクターの物理方式を確認します。PMXの剛体・ジョイントには **Physics Mode** を使い、**Auto** はシステムの **PMX Default** に従います。XPS/FBX/VRMのツールは **Hair Physics** または **Skirt Physics** を有効にし、**Select Bones** でボーン列の根を選び、体のコライダーを確認します。\n\nPhysXはばねと減衰、XPBDはコンプライアンスと減衰を一つずつ調整します。PMXの物理をツールで置き換える場合は先に **Physics Mode** を **Off** にします。利用可能な機能はビルド/エディションで異なり、Nativeの設定は別です。"
       - title: "モーションと再生"
         items:
           - id: "assign-motion"
@@ -198,10 +198,10 @@ support_sections:
           - id: "map-xps-fbx-bones"
             category: "motion"
             type: "how-to"
-            question: "XPSやFBXモデルをモーションで動かすには？"
+            question: "XPS、FBX、VRMモデルをモーションで動かすには？"
             keywords: ["bone mapping", "XPS", "FBX", "T-pose", "Auto Map", "Chain Mapping", "ボーンマッピング", "標準ポーズのまま", "自動マッピング", "チェーンマッピング"]
             related: [{"href": "features/bone_mapper", "label": "ボーンマッパー"}]
-            answer: "モデルを読み込み、アクターメニューの **ボーンマッパー** を開きます。**自動マッピング** を実行し、感嘆符が付いたスロットを確認してください。動作に必要なボーンがまだ割り当てられていないことを示します。\n\n未割り当てのスロットに、モデルの対応するボーンを指定します。**チェーンマッピング** を使うと腕や手などのボーン列を素早く設定できます。必須ボーンの設定が終わったら、モーションを割り当てて確認してください。\n\nXPSとFBXにはボーンマッピングが必要です。PMXは通常、標準のボーン名を持っています。"
+            answer: "モデルを読み込み、アクターメニューの **ボーンマッパー** を開きます。**自動マッピング** を実行し、感嘆符が付いたスロットを確認してください。動作に必要なボーンがまだ割り当てられていないことを示します。\n\n未割り当てのスロットに、モデルの対応するボーンを指定します。**チェーンマッピング** を使うと腕や手などのボーン列を素早く設定できます。必須ボーンの設定が終わったら、モーションを割り当てて確認してください。\n\nXPSにはボーンマッピングが必要です。FBXとVRMは読み込み時に自動でマッピングされ、ボーンマッパーで修正するだけです。PMXは通常、標準のボーン名を持っています。"
           - id: "feet-slide-or-float"
             category: "motion"
             type: "troubleshooting"

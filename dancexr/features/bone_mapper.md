@@ -12,7 +12,8 @@ Bone mapping tells DanceXR which bone in your model corresponds to which slot in
 Bone mapping applies to:
 
 - **XPS / XNALara** models — required, since XPS does not include standard bone naming.
-- **FBX** models (preview, added in 2025.9) — required for the same reason; FBX bone names vary widely across sources.
+- **FBX** models (preview, added in 2025.9) — FBX bone names vary widely across sources, so DanceXR maps them automatically on load. Check the result here and correct what it missed.
+- **VRM** models (added in 2026.11) — the humanoid map stored in the file is applied on load. Use the bone mapper only to correct it.
 - **PMX** models — usually unnecessary; PMX files include standard bone names already.
 
 If you load a model and it stays stuck in T-pose / standard pose despite assigning a motion, missing bone mapping is the likely cause.
@@ -39,7 +40,7 @@ Most of the time DanceXR has already filled in the mapping automatically, and on
 
 ## Auto mapping
 
-Auto mapping fills in the bone assignments by matching names from the source model against DanceXR's standard skeleton. Improved in 2025.9 to handle a wider variety of FBX naming conventions, and works as a starting point you can then refine manually or with [chain mapping](#chain-mapping).
+Auto mapping fills in the bone assignments by matching names from the source model against DanceXR's standard skeleton. Improved in 2025.9 and again in 2026.11, when FBX and VRM models started using the same automatic mapping as DanceXR Native. It works as a starting point you can then refine manually or with [chain mapping](#chain-mapping).
 
 Click **Auto Map** (or reload the model) to (re)run it.
 

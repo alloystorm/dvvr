@@ -14,7 +14,7 @@ Structured routing table for the DanceXR documentation. Use it to map a user's q
 
 ## Product summary
 
-DanceXR is a multi-platform character viewer and motion player for **PMX/MMD** (MikuMikuDance) and **XPS/XNALara** models. It plays **VMD** and **BVH** motions, runs on PC, Mac, Android, Meta Quest, and the Web, and supports VR. The **Creator Edition** adds offline render / video recording. **Pro** is a paid tier that unlocks features such as AI Voice Chat. **DanceXR Operator** is a separate AI backend for hands-free / scripted control.
+DanceXR is a multi-platform character viewer and motion player for **PMX/MMD** (MikuMikuDance), **XPS/XNALara**, **FBX**, and **VRM** models. It plays **VMD** and **BVH** motions, runs on PC, Mac, Android, Meta Quest, and the Web, and supports VR. The **Creator Edition** adds offline render / video recording. **Pro** is a paid tier that unlocks features such as AI Voice Chat. **DanceXR Operator** is a separate AI backend for hands-free / scripted control.
 
 ## How to use this index
 
@@ -57,9 +57,10 @@ Use these when the user's wording does not match a topic title directly.
 | If the user says / asks about… | Route to |
 |---|---|
 | "What is X?" / unfamiliar term | `dancexr/concepts.md` first, then the linked feature page |
-| MMD, MikuMikuDance, PMX/PMD model loading | `dancexr/actors.md`, then `dancexr/features/loader_options.md` |
+| MMD, MikuMikuDance, PMX model loading | `dancexr/actors.md`, then `dancexr/features/loader_options.md` |
 | XPS, XNALara, generic XPS posing | `dancexr/actors.md` (PMX vs XPS section), `dancexr/features/bone_mapper.md`, `dancexr/features/xps_physics.md` |
-| FBX, .fbx model loading | `dancexr/actors.md` (FBX preview), `dancexr/features/bone_mapper.md` (FBX uses bone mapping; chain mapping mode is the fastest path) |
+| FBX, .fbx model loading | `dancexr/actors.md` (FBX preview), `dancexr/features/bone_mapper.md` (FBX bones are mapped automatically; chain mapping mode is the fastest way to correct them) |
+| VRM, .vrm, VRoid model loading | `dancexr/actors.md` (VRM section), `dancexr/features/bone_mapper.md` (VRM bones come from the file's humanoid map) |
 | VMD or BVH motion files, "how do I play a dance" | `dancexr/motion.md`, then `dancexr/features/assign_motion.md` |
 | Model floats / sinks / clips through ground, foot sliding | `dancexr/features/feet_adjustment.md` |
 | Model is too small / too big / wrong position | `dancexr/features/scale_offset.md` |
@@ -161,7 +162,7 @@ See the [Working with actors hub](dancexr/actors.md) for the actor lifecycle and
 | Actor Playlist | Queuing multiple actors to cycle through | `dancexr/features/actor_playlist.md` |
 | Formation | Positioning multiple actors in formation patterns (groups, lineups) | `dancexr/features/formation.md` |
 | ZIP Format | Loading models and motions directly from ZIP archives | `dancexr/features/zip_format.md` |
-| Bone Mapper | Mapping XPS/XNALara and FBX bones to the standard skeleton; includes the new chain mapping mode | `dancexr/features/bone_mapper.md` |
+| Bone Mapper | Mapping XPS/XNALara, FBX, and VRM bones to the standard skeleton; includes the new chain mapping mode | `dancexr/features/bone_mapper.md` |
 | Example Bone Structure | Reference bone hierarchy for PMX / XPS models | `dancexr/features/bones.md` |
 
 ---

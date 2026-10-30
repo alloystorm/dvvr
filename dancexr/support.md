@@ -73,7 +73,7 @@ support_sections:
             question: "Which model and motion formats work, and can DanceXR convert or author them?"
             keywords: ["PMX", "XPS", "FBX", "BVH", "VMD", "VRM", "VRChat", "DAZ", "OBJ", "conversion", "animation authoring"]
             related: [{"href": "preparecontent", "label": "Content Library"}, {"href": "features/native", "label": "Native"}, {"href": "features/bone_mapper", "label": "Bone Mapper"}]
-            answer: "The Unity-based app supports PMX/XPS models, model-only FBX preview import, VMD/BVH motions and OBJ stage props. XPS/FBX models may need bone mapping. Native currently documents PMX/XPS models and VMD motions.\n\nA VRM, VRChat or DAZ project is not automatically a compatible model package. Exporting/converting it is a separate workflow; verify the destination format and rig. DanceXR plays imported motions and offers procedural posing—it is not a replacement for a full animation authoring tool."
+            answer: "The Unity-based app supports PMX/XPS models, model-only FBX preview import, VRM models (since 2026.11), VMD/BVH motions and OBJ stage props. XPS models need bone mapping; FBX and VRM models are mapped automatically and can be corrected. Native supports PMX, XPS, FBX and VRM models and VMD motions.\n\nA VRChat or DAZ project is not automatically a compatible model package. Exporting/converting it is a separate workflow; verify the destination format and rig. DanceXR plays imported motions and offers procedural posing—it is not a replacement for a full animation authoring tool."
           - id: "change-content-library"
             category: "content"
             type: "how-to"
@@ -171,7 +171,7 @@ support_sections:
             question: "How do I adjust hair and clothing physics?"
             keywords: ["hair", "cloth", "skirt", "physics", "PMX", "XPS", "FBX", "PhysX", "XPBD", "Select Bones"]
             related: [{"href": "physics", "label": "Physics"}, {"href": "features/pmx_physics", "label": "PMX Physics"}, {"href": "features/hair_physics", "label": "Hair Physics"}, {"href": "features/skirt_physics", "label": "Skirt Physics"}]
-            answer: "First check the actor’s physics setup. For PMX-authored bodies and joints, compare **Physics Mode** options; **Auto** follows the system’s **PMX Default**. For XPS/FBX custom tools, enable **Hair Physics** or **Skirt Physics**, use **Select Bones** for chain roots, and check body colliders.\n\nTune one setting at a time: PhysX uses spring/damping controls; XPBD uses compliance/damping. To replace a PMX rig with custom tools, set PMX **Physics Mode** to **Off** first. Availability varies by build/edition. Native has separate physics controls."
+            answer: "First check the actor’s physics setup. For PMX-authored bodies and joints, compare **Physics Mode** options; **Auto** follows the system’s **PMX Default**. For XPS/FBX/VRM custom tools, enable **Hair Physics** or **Skirt Physics**, use **Select Bones** for chain roots, and check body colliders.\n\nTune one setting at a time: PhysX uses spring/damping controls; XPBD uses compliance/damping. To replace a PMX rig with custom tools, set PMX **Physics Mode** to **Off** first. Availability varies by build/edition. Native has separate physics controls."
       - title: "Motion & playback"
         items:
           - id: "assign-motion"
@@ -198,10 +198,10 @@ support_sections:
           - id: "map-xps-fbx-bones"
             category: "motion"
             type: "how-to"
-            question: "How do I make an XPS or FBX model respond to motions?"
+            question: "How do I make an XPS, FBX, or VRM model respond to motions?"
             keywords: ["bone mapping", "XPS", "FBX", "T-pose", "Auto Map", "Chain Mapping"]
             related: [{"href": "features/bone_mapper", "label": "Bone Mapper"}]
-            answer: "Load the model and open **Bone Mapper** in its actor menu. Run **Auto Map**, then check the slots marked with an exclamation mark: these are critical bones that still need assignments.\n\nMap each missing slot to the corresponding bone in the model. **Chain Mapping** can speed up mapping arms, hands and other bone chains. Once the critical mappings are complete, assign a motion and check the result.\n\nXPS and FBX require bone mapping. PMX models usually already include standard bone names."
+            answer: "Load the model and open **Bone Mapper** in its actor menu. Run **Auto Map**, then check the slots marked with an exclamation mark: these are critical bones that still need assignments.\n\nMap each missing slot to the corresponding bone in the model. **Chain Mapping** can speed up mapping arms, hands and other bone chains. Once the critical mappings are complete, assign a motion and check the result.\n\nXPS requires bone mapping. FBX and VRM models are mapped automatically on load, so you only need the Bone Mapper to correct them. PMX models usually already include standard bone names."
           - id: "feet-slide-or-float"
             category: "motion"
             type: "troubleshooting"

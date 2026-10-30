@@ -58,7 +58,7 @@ VR 모드에서는 써머스틱을 위/아래로 사용하여 배우를 수직�
 * 동작 할당 및 설정
 * 최근 수정된 설정
 * [드레싱 시스템 (재질 모프 및 XPS 옵션)](optionals)
-* [본 매퍼 (XPS 전용)](bone_mapper)
+* [본 매퍼 (XPS, FBX, VRM)](bone_mapper)
 * [대체 텍스처](alternative_textures)
 * 재질
     * 피부
