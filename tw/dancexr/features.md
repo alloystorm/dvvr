@@ -21,6 +21,26 @@ feature_sections:
         video: "https://www.youtube.com/watch?v=59hT3g8t1Jg"
         badge: "2026.10 | Native Path Tracing & Raster Rendering"
         badge_type: new
+      - title: 擺姿工具
+        link: /tw/dancexr/features/pose_tool
+        badge: "2026.11"
+        badge_type: new
+      - title: 身體彩繪與噴灑
+        link: /tw/dancexr/features/paint_and_spray
+        badge: "2026.11"
+        badge_type: new
+      - title: 玩家化身
+        link: /tw/dancexr/features/player_avatar
+        badge: "2026.11"
+        badge_type: new
+      - title: 絲襪
+        link: /tw/dancexr/features/stockings
+        badge: "2026.11"
+        badge_type: new
+      - title: Record Scene
+        link: /tw/dancexr/features/record_scene
+        badge: "2026.11"
+        badge_type: new
       - title: 探索應用程式
         link: /tw/dancexr/features/discovery
         image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp

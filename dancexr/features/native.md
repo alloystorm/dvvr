@@ -11,6 +11,8 @@ toc: true
 
 After entering public preview in 2026.8, Native became release ready in [2026.9](../releases/2026.9) with PMX models, multi-character scenes, and OpenXR VR support. **[2026.10](../releases/2026.10)** added the raster renderer, automatic graphics detection, cloth, Wet Skin & Fluid, an auto camera, and VR you can enter without restarting.
 
+**[2026.11](../releases/2026.11)** added the Pose tool, body paint and spray, a player avatar, stockings, FBX and VRM models, a right-click quick menu, and, in the Creator edition, offline video recording.
+
 Download: [github.com/alloystorm/dvvr/releases/tag/dxr-native](https://github.com/alloystorm/dvvr/releases/tag/dxr-native)
 
 ---
@@ -77,7 +79,8 @@ If your GPU cannot run the path tracer, Native starts in raster mode instead of 
 
 This is the most important thing to know before you download.
 
-- **Models: PMX and XPS / XNALara** (`.pmx`, `.xps`, `.mesh`, `.ascii`), loose or in a ZIP. A ZIP that holds several PMX models lets you choose which one to load.
+- **Models: PMX, XPS / XNALara, FBX, and VRM** (`.pmx`, `.xps`, `.mesh`, `.ascii`, `.fbx`, `.vrm`), loose or in a ZIP. A ZIP that holds several PMX models lets you choose which one to load.
+- **FBX and VRM** characters get automatic bone mapping, physics for hair and outfit parts, and texture lookup that copes with bad exporter paths. A VRM model's license terms show in the actor menu.
 - **Motions: VMD** (MikuMikuDance), including camera motion.
 - **Videos** in your content library's `videos` folder, for the room's video wall.
 
@@ -91,7 +94,7 @@ No model of your own yet? Load the built-in **Dummy** from **Actors > Load** to 
 
 The free edition renders **one character at a time**. Loading a second model replaces the first, and the app shows a notice when it does. An activated Pro installation supports multiple simultaneous characters: each can have its own model settings, materials, physics, placement, and motion. With Pro, the **Load mode** switch chooses whether a new model replaces the cast or joins it.
 
-Pro also unlocks Wet Skin & Fluid, described below.
+Pro also unlocks Wet Skin & Fluid, Body Paint and Spray, the Player Avatar, and Stockings, described below. The Creator edition adds Record Scene. A license is good for one release at a time, and one-time purchases carry forward automatically.
 
 ---
 
@@ -115,6 +118,16 @@ Native remembers your system settings between launches and restores your last se
 - Hair, clothing, and soft-body physics are organized into **named groups**, each with its own tuning, on/off switch, and presets. Pick bones directly in the viewport when setting a group up.
 - Body colliders, plus PMX-authored rigid-body physics.
 - A **cloth garment** can be added to any character from its Physics menu. The skirt fits itself to the waist, collides with the body, and comes with presets you can extend.
+
+### Tools, quick menu, and recording
+
+- The **[Pose Tool](pose_tool)** (free) drags a hand, foot, or the body of any actor over any motion, with a balance solver that keeps it standing, shifting weight, or sitting.
+- **[Body Paint and Spray](paint_and_spray)** (Pro) draws on skin and clothing and sprays water that washes the paint off.
+- The **[Player Avatar](player_avatar)** (Pro) puts a body in the scene, with a third-person over-the-shoulder view on the desktop.
+- **[Stockings](stockings)** (Pro) shade a sheer knit over the skin that follows how it stretches and folds.
+- **Right-click a character** for a quick menu: assign a motion, choose a variant or alternative textures, switch dressing groups, frame the character, face the camera, reset position or physics, or unload. Right-click empty space for tool, playback, and camera shortcuts.
+- Characters dissolve into flakes when replaced or removed and form out of flakes when they arrive, while the rest of the cast slides to its new place.
+- **[Record Scene](record_scene)** (Creator) renders the scene to an MP4 at up to 4K, independent of your frame rate.
 
 ### Wet Skin & Fluid (Pro)
 
@@ -163,3 +176,8 @@ Native writes a per-session log and a crash dump if it falls over. The **System*
 - [Raytracing Effects](raytracing) — raytraced effects in the DanceXR PC RT build
 - [Graphics](graphics)
 - [Organizing Model Files](../preparecontent#3d-models)
+- [Pose Tool](pose_tool)
+- [Body Paint and Spray](paint_and_spray)
+- [Player Avatar](player_avatar)
+- [Stockings](stockings)
+- [Record Scene](record_scene)

@@ -21,6 +21,26 @@ feature_sections:
         video: "https://www.youtube.com/watch?v=59hT3g8t1Jg"
         badge: "2026.10 | Native Path Tracing & Raster Rendering"
         badge_type: new
+      - title: ポーズツール
+        link: /jp/dancexr/features/pose_tool
+        badge: "2026.11"
+        badge_type: new
+      - title: ボディペイントとスプレー
+        link: /jp/dancexr/features/paint_and_spray
+        badge: "2026.11"
+        badge_type: new
+      - title: プレイヤーアバター
+        link: /jp/dancexr/features/player_avatar
+        badge: "2026.11"
+        badge_type: new
+      - title: ストッキング
+        link: /jp/dancexr/features/stockings
+        badge: "2026.11"
+        badge_type: new
+      - title: Record Scene
+        link: /jp/dancexr/features/record_scene
+        badge: "2026.11"
+        badge_type: new
       - title: ディスカバリーアプリ
         link: /jp/dancexr/features/discovery
         image: /images/slideshows/tools/Introducing%20DanceXR%20Discovery%20%5BbMtgN0cNJm8%5D.webp
