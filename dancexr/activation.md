@@ -31,7 +31,8 @@ Every other paid edition needs a short activation step the first time you run it
 - DanceXR **Pro** / **Pure** PC bought from **Itch.io**
 - **Android** version bought from **Itch.io**
 - **Quest** standalone (Itch.io)
-- **Creator Edition** (Patreon)
+- **DanceXR Native** (free download from Itch.io) activated as Pro, RT, or Creator
+- **Creator Edition** (Patreon or Itch.io)
 
 In short: anything not on Steam or Google Play.
 
@@ -43,7 +44,7 @@ In short: anything not on Steam or Google Play.
 2. Open the **system menu** (the gear icon at the bottom left).
 3. Select **Activate Your Copy**.
 4. DanceXR opens the activation website in your browser.
-5. **Choose the platform you bought the edition from** — Steam, Itch.io, or Patreon. The website only shows the platforms that sell your edition (for example, Creator Edition shows Patreon only).
+5. **Choose the platform you bought the edition from** — Steam, Itch.io, or Patreon. The website only shows the platforms that sell your edition (for example, Creator Edition shows Patreon and Itch.io). Native is activated with whichever edition you own: Pro, RT, or Creator.
 6. **Sign in to that platform** when prompted. DanceXR uses the platform's standard sign-in to confirm your purchase — no separate account is created.
 7. Once your purchase is confirmed, you'll see a **success page** telling you to return to DanceXR.
 8. Back in DanceXR, click **Activate Your Copy** again. DanceXR downloads your license automatically.
@@ -77,7 +78,7 @@ Each license is associated with the specific device you activated on. To use Dan
 
 ## One license per build variant
 
-Activation is **per build variant**, not just per device. The HD, LW, RT, and Creator builds each look like a different installation to the activation system, so even on the same machine each variant needs its own activation.
+Activation is **per build variant**, not just per device. The HD, LW, RT, Creator, and Native builds each look like a different installation to the activation system, so even on the same machine each variant needs its own activation.
 
 In practice, this means: if you have HD and LW installed side-by-side on the same PC, you activate HD once and LW once. The same applies if you switch between variants later. Re-activation is free, so this is a one-click step per variant rather than something to plan around.
 

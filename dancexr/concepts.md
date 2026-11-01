@@ -157,13 +157,13 @@ DanceXR has multiple builds and tiers. The full matrix is on the [Download page]
 : Paid PC build with adult content support. Raytracing sold as a separate DLC on this build.
 
 **Creator**
-: Adds offline rendering — 4K, VR 180, VR 360, frame-by-frame at any resolution, regardless of real-time framerate. Available via Patreon. See [Creator edition](creator).
+: Adds offline rendering — 4K, VR 180, VR 360, frame-by-frame at any resolution, regardless of real-time framerate. Available via Patreon or as a one-time purchase on Itch.io, and it also activates DanceXR Native as Creator. See [Creator edition](creator).
 
 **HD / RT / LW build variants**
 : Three rendering tiers of the PC build. **HD** is balanced quality. **RT** adds real-time raytracing. **LW** is the performance-optimized lightweight build. Choose based on GPU and use case.
 
 **Patreon tiers**
-: Patron / Pro / Creator on Patreon, in addition to one-time Steam/Itch.io purchase. Patreon includes early access to monthly releases.
+: Patron / Pro / Creator on Patreon, in addition to one-time Steam/Itch.io purchase (Creator is also sold on Itch.io). Patreon includes early access to monthly releases.
 
 ---
 

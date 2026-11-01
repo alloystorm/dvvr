@@ -33,7 +33,7 @@ For each edition, you can choose between RT, HD, or LW builds. RT enables ray tr
 
 Not all platforms supports all of these variants though. PC has all, while Mac currently only has HD, and Android is LW only.
 
-The Pure and Pro are sold on Steam while Pro is also available on Itch.io and Patreon. Creator edition is currently only offered on Patreon for the creator tier. 
+The Pure and Pro are sold on Steam while Pro is also available on Itch.io and Patreon. Creator edition is offered on Patreon (creator tier) and as a one-time purchase on Itch.io. DanceXR Native is a free download on Itch.io and can be activated as Pro, RT, or Creator based on what you own. 
 
 
 ## Release schedule

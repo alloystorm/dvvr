@@ -101,7 +101,7 @@ AR mode on Quest and supported mobile devices lets characters appear in your rea
 | **Pro** | Everything in Pure, plus adult content |
 | **Creator** | Everything in Pro, plus offline rendering and VR video |
 
-Pure and Pro are on **Steam** and **Itch.io**. Creator is available through **Patreon**. Updates ship every month — Patreon gets early access at the start of the month, Steam follows mid-month.
+Pure and Pro are on **Steam** and **Itch.io**. Creator is available through **Patreon** or as a one-time purchase on **Itch.io**. DanceXR Native is a free download on Itch.io and activates as Pro, RT, or Creator based on what you own. Updates ship every month — Patreon gets early access at the start of the month, Steam follows mid-month.
 
 [Download / Purchase →](download)
 

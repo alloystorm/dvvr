@@ -8,6 +8,8 @@ locale: en-US
 
 # Creator Edition
 
+Creator is available as a monthly subscription on [Patreon](https://www.patreon.com/dvvr) or as a one-time purchase on [Itch.io](https://stormlab.itch.io/dancexr-creator). It also unlocks offline video recording in [DanceXR Native](features/native), which you can download free from Itch.io.
+
 Creator edition offers offline render capabilities, which allow you to record videos without worrying about your actual frame rate and screen resolution. For example, you can record 4K video smoothly at 60fps even when your monitor is 1080p and your computer is not able to maintain that framerate. It can also generate 3D and VR 180 videos.
 
 ## Recording menu

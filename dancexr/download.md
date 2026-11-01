@@ -112,11 +112,11 @@ Release ready
 
 ## Try DanceXR Native on your PC
 
-DanceXR Native renders PMX, XPS, FBX, and VRM characters on Windows, on desktop or in OpenXR VR. Since 2026.10, its raster renderer also supports DirectX 12 PCs without ray-tracing hardware, including integrated graphics. Full path tracing requires a ray-tracing-capable GPU. The free edition supports one character; activated Pro installations support multi-character scenes.
+DanceXR Native renders PMX, XPS, FBX, and VRM characters on Windows, on desktop or in OpenXR VR. Since 2026.10, its raster renderer also supports DirectX 12 PCs without ray-tracing hardware, including integrated graphics. Full path tracing requires a ray-tracing-capable GPU. Native is free to download from Itch.io. The free edition supports one character; activate it as Pro, RT, or Creator with the edition you own to unlock multi-character scenes and the matching features.
 
 </div>
 <p style="text-align:center; margin-top: 20px;">
-  <a href="{{ site.data.dancexr_downloads.native }}" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native free' });">Download Native free</a>
+  <a href="{{ site.data.dancexr_downloads.native }}" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native free Itch.io' });">Download Native free on Itch.io</a>
 </p>
 <p style="text-align:center; margin-top: 8px;" markdown="1">[Learn more →](features/native)</p>
 </section>
@@ -221,8 +221,10 @@ Get early access to every monthly release before Steam and all other platforms.
       <li>Creator Edition — offline rendering</li>
       <li>4K, VR 180 &amp; VR 360 video output</li>
       <li>Frame-by-frame rendering at any resolution</li>
+      <li>Also available as a one-time purchase on Itch.io</li>
     </ul>
     <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'patreon', 'event_label': 'Creator $15' });">Join on Patreon</a>
+    <a href="{{ site.data.dancexr_downloads.creator }}" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'store_link_click', { 'event_category': 'itchio', 'event_label': 'Creator Itch.io' });">Buy on Itch.io</a>
   </div>
 
 </div>
@@ -238,7 +240,7 @@ After purchase
 
 ## Activating your copy
 
-Paid editions need to confirm your purchase before they unlock. **Steam** and **Google Play** purchases activate automatically on first launch — nothing to do. Everything else (Itch.io PC, Itch.io Android, Quest, Patreon Creator) needs a quick one-time activation step from the system menu.
+Paid editions need to confirm your purchase before they unlock. **Steam** and **Google Play** purchases activate automatically on first launch — nothing to do. Everything else (Itch.io PC, Itch.io Android, Quest, Patreon, Creator, and activating Native as Pro, RT, or Creator) needs a quick one-time activation step from the system menu.
 
 [Activation guide →](activation){: .btn-ghost}
 
@@ -250,7 +252,7 @@ Per device & per build
 
 ## License scope
 
-Each license is tied to the specific device and build variant you activated on. To run DanceXR on a second machine — or to run a different build (HD, LW, RT, Creator) on the same machine — just go through the activation flow again. No extra cost. The same applies after major hardware or OS upgrades.
+Each license is tied to the specific device and build variant you activated on. To run DanceXR on a second machine — or to run a different build (HD, LW, RT, Creator, Native) on the same machine — just go through the activation flow again. No extra cost. The same applies after major hardware or OS upgrades.
 
 [Activation details →](activation#multiple-devices){: .btn-ghost}
 

@@ -66,7 +66,7 @@ support_sections:
             keywords: ["Native", "HD", "LW", "RT", "Launcher", "edition", "build", "path tracing", "raster"]
             platforms: ["Windows"]
             related: [{"href": "features/native", "label": "Native"}, {"href": "download", "label": "Downloads & editions"}]
-            answer: "Native is a separate Windows application with its own rendering and settings. HD, LW and RT are the Unity-based runtimes. Since 2026.10, Native supports raster rendering on DirectX 12 PCs without ray-tracing hardware; path tracing needs a compatible ray-tracing GPU.\n\nThe Launcher installs, updates and starts runtimes and companion apps. You can also download Native directly. Check the download page for current editions, activation and feature limits."
+            answer: "Native is a separate Windows application with its own rendering and settings. HD, LW and RT are the Unity-based runtimes. Since 2026.10, Native supports raster rendering on DirectX 12 PCs without ray-tracing hardware; path tracing needs a compatible ray-tracing GPU.\n\nThe Launcher installs, updates and starts runtimes and companion apps. Native is a free download on Itch.io (stormlab.itch.io/dancexr-native), and it can be activated as Pro, RT or Creator based on the edition you own. Check the download page for current editions, activation and feature limits."
           - id: "runtime-model-formats"
             category: "content"
             type: "how-to"

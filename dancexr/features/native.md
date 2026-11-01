@@ -13,7 +13,7 @@ After entering public preview in 2026.8, Native became release ready in [2026.9]
 
 **[2026.11](../releases/2026.11)** added the Pose tool, body paint and spray, a player avatar, stockings, FBX and VRM models, a right-click quick menu, and, in the Creator edition, offline video recording.
 
-Download: [github.com/alloystorm/dvvr/releases/tag/dxr-native](https://github.com/alloystorm/dvvr/releases/tag/dxr-native)
+Download: [stormlab.itch.io/dancexr-native](https://stormlab.itch.io/dancexr-native) — Native is free to download from Itch.io, and the DanceXR Launcher can also install and update it.
 
 ---
 
@@ -92,7 +92,9 @@ No model of your own yet? Load the built-in **Dummy** from **Actors > Load** to 
 
 ### Editions and character limits
 
-The free edition renders **one character at a time**. Loading a second model replaces the first, and the app shows a notice when it does. An activated Pro installation supports multiple simultaneous characters: each can have its own model settings, materials, physics, placement, and motion. With Pro, the **Load mode** switch chooses whether a new model replaces the cast or joins it.
+Native is a free download on [Itch.io](https://stormlab.itch.io/dancexr-native), and one download covers every edition. What it unlocks depends on the license you activate from **System > Activate Your Copy** (see [Activation & licensing](../activation)): Native can be activated as **Pro**, **RT**, or **Creator**, based on the edition you own. If you own [Creator](../creator), which is sold on Patreon and as a one-time purchase on Itch.io, Native activates as Creator.
+
+The free edition renders **one character at a time**. Loading a second model replaces the first, and the app shows a notice when it does. An activated installation supports multiple simultaneous characters: each can have its own model settings, materials, physics, placement, and motion. With Pro or above, the **Load mode** switch chooses whether a new model replaces the cast or joins it.
 
 Pro also unlocks Wet Skin & Fluid, Body Paint and Spray, the Player Avatar, and Stockings, described below. The Creator edition adds Record Scene. A license is good for one release at a time, and one-time purchases carry forward automatically.
 

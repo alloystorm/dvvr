@@ -378,7 +378,7 @@ Pricing
   <div class="edition-card">
     <p class="edition-tier">Patreon</p>
     <p class="edition-name">Creator</p>
-    <p class="edition-price">Via Patreon — includes early access</p>
+    <p class="edition-price">Patreon (early access) or one-time on Itch.io</p>
     <div class="edition-divider"></div>
     <ul class="edition-features">
       <li>Everything in Pro</li>
@@ -387,6 +387,7 @@ Pricing
       <li>New features one month early</li>
     </ul>
     <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'engagement', 'event_label': 'Join on Patreon' });">Join on Patreon</a>
+    <a href="https://stormlab.itch.io/dancexr-creator" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'store_link_click', { 'event_category': 'itchio', 'event_label': 'Creator Itch.io' });">Buy on Itch.io</a>
   </div>
 
 </div>
