@@ -101,7 +101,7 @@ Quest 및 지원되는 모바일 장치에서 AR 모드를 사용하면 캐릭�
 | **프로버전** | Pure의 모든 기능, 성인 콘텐츠 포함 |
 | **크리에이터버전** | Pro의 모든 기능, 오프라인 렌더링 및 VR 비디오 포함 |
 
-Pure와 Pro는 **Steam** 및 **Itch.io**에서, Creator는 **Patreon**을 통해 이용할 수 있습니다. 업데이트는 매달 배포됩니다. Patreon이 월초에 조기 액세스를 받으며, Steam은 월 중반에 배포됩니다.
+Pure와 Pro는 **Steam** 및 **Itch.io**에서, Creator는 **Patreon** 또는 **Itch.io**의 일회성 구매로 이용할 수 있습니다. DanceXR Native는 Itch.io에서 무료로 다운로드할 수 있으며 보유한 에디션에 따라 Pro, RT 또는 Creator로 활성화됩니다. 업데이트는 매달 배포됩니다. Patreon이 월초에 조기 액세스를 받으며, Steam은 월 중반에 배포됩니다.
 
 [다운로드 / 구매하기 →](download)
 

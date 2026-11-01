@@ -157,13 +157,13 @@ DanceXRには複数のビルドと階層があります。完全な一覧は [Do
 : アダルトコンテンツのサポートを含む有料PCビルド。レイ トレーシングは、このビルドでは個別のDLCとして販売されます。
 
 **クリエイター版 (Creator)**
-: オフラインレンダリング機能を追加します — 4K、VR 180、VR 360、任意の解像度でのフレーム単位のレンダリング（リアルタイムフレームレートに関係なく）。Patreonから入手可能です。詳細は [Creator edition](creator) を参照してください。
+: オフラインレンダリング機能を追加します — 4K、VR 180、VR 360、任意の解像度でのフレーム単位のレンダリング（リアルタイムフレームレートに関係なく）。PatreonまたはItch.ioでの買い切り購入で入手でき、DanceXR NativeをCreatorとしてアクティベートすることもできます。詳細は [Creator edition](creator) を参照してください。
 
 **HD / RT / LW ビルドバリアント (HD / RT / LW build variants)**
 : PCビルドの3つのレンダリング階層。**HD**はバランスの取れた品質です。**RT**はリアルタイムレイ トレーシングを追加します。**LW**はパフォーマンス最適化された軽量ビルドです。GPUと使用目的に応じて選択してください。
 
 **Patreonの階層 (Patreon tiers)**
-: Steam/Itch.ioの買い切り購入に加え、PatreonのPatron / Pro / Creatorによるサブスクリプションです。Patreonには、毎月のリリースへの早期アクセスが含まれます。
+: Steam/Itch.ioの買い切り購入（CreatorもItch.ioで販売）に加え、PatreonのPatron / Pro / Creatorによるサブスクリプションです。Patreonには、毎月のリリースへの早期アクセスが含まれます。
 
 ---
 

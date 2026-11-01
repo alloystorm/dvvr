@@ -378,7 +378,7 @@ AIパワードのボイスチャットにより、キャラクターがリアル
   <div class="edition-card">
     <p class="edition-tier">Patreon</p>
     <p class="edition-name">Creator</p>
-    <p class="edition-price">Patreon経由 — 早期アクセス込み</p>
+    <p class="edition-price">Patreon（早期アクセス込み）またはItch.ioで買い切り</p>
     <div class="edition-divider"></div>
     <ul class="edition-features">
       <li>Proのすべての機能</li>
@@ -387,6 +387,7 @@ AIパワードのボイスチャットにより、キャラクターがリアル
       <li>新機能を1ヶ月早くアクセス</li>
     </ul>
     <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'engagement', 'event_label': 'Join on Patreon' });">Patreonに参加</a>
+    <a href="https://stormlab.itch.io/dancexr-creator" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'store_link_click', { 'event_category': 'itchio', 'event_label': 'Creator Itch.io' });">Itch.ioで購入</a>
   </div>
 
 </div>

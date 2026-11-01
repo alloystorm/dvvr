@@ -13,7 +13,7 @@ Native 於 2026.8 進入公開預覽，並在支援 PMX 模型、多角色場景
 
 **[2026.11](../releases/2026.11)** 新增了擺姿工具、身體彩繪與噴灑、玩家化身、絲襪、FBX 與 VRM 模型、右鍵快捷選單，以及 Creator 版本的離線影片錄製。
 
-下載：[github.com/alloystorm/dvvr/releases/tag/dxr-native](https://github.com/alloystorm/dvvr/releases/tag/dxr-native)
+下載：[stormlab.itch.io/dancexr-native](https://stormlab.itch.io/dancexr-native) — Native 可在 Itch.io 免費下載，DanceXR Launcher 也可安裝及更新。
 
 ---
 
@@ -92,7 +92,9 @@ XPS 模型與 PMX 模型以相同的方式適配動作，因此雙腳會穩穩�
 
 ### 版本與角色數量限制
 
-免費版一次可算繪**一個角色**。載入第二個模型會取代掉第一個，應用會在此時給出提示。已啟用的 Pro 安裝支援同時使用多個角色，每個角色都可擁有自己的模型設定、材質、物理、位置與動作。在 Pro 中，**Load mode** 開關用於選擇新模型是取代現有陣容還是加入其中。
+Native 可在 [Itch.io](https://stormlab.itch.io/dancexr-native) 免費下載，一個下載檔涵蓋所有版本。解鎖哪些功能取決於您在 **System > Activate Your Copy** 啟用的授權（參閱[啟用與授權](../activation)）：Native 可依您擁有的版本啟用為 **Pro**、**RT** 或 **Creator**。若您擁有 [Creator](../creator)（在 Patreon 販售，也可在 Itch.io 一次性買斷），Native 會啟用為 Creator。
+
+免費版一次可算繪**一個角色**。載入第二個模型會取代掉第一個，應用會在此時給出提示。已啟用的安裝支援同時使用多個角色，每個角色都可擁有自己的模型設定、材質、物理、位置與動作。在 Pro 或更高版本中，**Load mode** 開關用於選擇新模型是取代現有陣容還是加入其中。
 
 Pro 還可解鎖下文介紹的 Wet Skin & Fluid、身體彩繪與噴灑、玩家化身和絲襪。Creator 版本新增 Record Scene。授權每次僅對一個版本有效，買斷授權會自動沿用。
 

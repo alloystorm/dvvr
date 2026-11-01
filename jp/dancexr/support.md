@@ -66,7 +66,7 @@ support_sections:
             keywords: ["Native", "HD", "LW", "RT", "Launcher", "edition", "build", "path tracing", "raster", "Nativeとは何ですか？Launcherは必要ですか？"]
             platforms: ["Windows"]
             related: [{"href": "features/native", "label": "Nativeガイド"}, {"href": "download", "label": "ダウンロードとエディション"}]
-            answer: "Nativeは独自の描画と設定を持つ別のWindowsアプリです。HD・LW・RTはUnity版です。2026.10以降のNativeは、レイトレーシング非対応のDirectX 12対応PCでもラスタ描画が可能です。パストレーシングには対応GPUが必要です。\n\nLauncherはランタイムや関連アプリのインストール・更新・起動を管理します。Nativeを直接ダウンロードすることもできます。エディション、認証、機能制限はダウンロードページで確認してください。"
+            answer: "Nativeは独自の描画と設定を持つ別のWindowsアプリです。HD・LW・RTはUnity版です。2026.10以降のNativeは、レイトレーシング非対応のDirectX 12対応PCでもラスタ描画が可能です。パストレーシングには対応GPUが必要です。\n\nLauncherはランタイムや関連アプリのインストール・更新・起動を管理します。NativeはItch.io（stormlab.itch.io/dancexr-native）から無料でダウンロードでき、お持ちのエディションに応じてPro、RT、Creatorとしてアクティベートできます。エディション、認証、機能制限はダウンロードページで確認してください。"
           - id: "runtime-model-formats"
             category: "content"
             type: "how-to"

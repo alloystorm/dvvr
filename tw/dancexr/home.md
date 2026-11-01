@@ -101,7 +101,7 @@ DanceXR 內建了一個完整的即時模擬堆疊：
 | **Pro** | Pure 版的所有內容，外加成人內容 |
 | **Creator** | Pro 版的所有內容，外加離線渲染和 VR 影片 |
 
-Pure 和 Pro 可以在 **Steam** 和 **Itch.io** 上取得。Creator 可透過 **Patreon** 取得。每月發布更新 — Patreon 在月初可提前使用，Steam 在月中跟進。
+Pure 和 Pro 可以在 **Steam** 和 **Itch.io** 上取得。Creator 可透過 **Patreon** 取得，也可在 **Itch.io** 一次性買斷。DanceXR Native 可在 Itch.io 免費下載，並依您擁有的版本啟用為 Pro、RT 或 Creator。每月發布更新 — Patreon 在月初可提前使用，Steam 在月中跟進。
 
 [下載 / 購買 →](download)
 

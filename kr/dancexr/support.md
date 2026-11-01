@@ -66,7 +66,7 @@ support_sections:
             keywords: ["Native", "HD", "LW", "RT", "Launcher", "edition", "build", "path tracing", "raster", "Native는 무엇이며 Launcher가 필요한가요?"]
             platforms: ["Windows"]
             related: [{"href": "features/native", "label": "Native 안내"}, {"href": "download", "label": "다운로드 및 에디션"}]
-            answer: "Native는 자체 렌더링과 설정을 갖춘 별도의 Windows 앱입니다. HD, LW, RT는 Unity 기반 버전입니다. 2026.10부터 Native는 레이 트레이싱이 없는 DirectX 12 PC에서도 래스터 렌더링을 지원합니다. 패스 트레이싱에는 호환되는 레이 트레이싱 GPU가 필요합니다.\n\nLauncher는 런타임과 관련 앱의 설치, 업데이트, 실행을 관리합니다. Native를 직접 내려받아도 됩니다. 현재 에디션, 활성화 방법, 기능 제한은 다운로드 페이지에서 확인하세요."
+            answer: "Native는 자체 렌더링과 설정을 갖춘 별도의 Windows 앱입니다. HD, LW, RT는 Unity 기반 버전입니다. 2026.10부터 Native는 레이 트레이싱이 없는 DirectX 12 PC에서도 래스터 렌더링을 지원합니다. 패스 트레이싱에는 호환되는 레이 트레이싱 GPU가 필요합니다.\n\nLauncher는 런타임과 관련 앱의 설치, 업데이트, 실행을 관리합니다. Native는 Itch.io(stormlab.itch.io/dancexr-native)에서 무료로 내려받을 수 있으며, 보유한 에디션에 따라 Pro, RT 또는 Creator로 활성화할 수 있습니다. 현재 에디션, 활성화 방법, 기능 제한은 다운로드 페이지에서 확인하세요."
           - id: "runtime-model-formats"
             category: "content"
             type: "how-to"

@@ -112,11 +112,11 @@ description: ランチャーで無料のHD・Native版をインストール・�
 
 ## PCでDanceXR Nativeを試す
 
-DanceXR Nativeは、WindowsのデスクトップやOpenXR VRでPMX・XPS・FBX・VRMキャラクターを描画します。2026.10以降はラスターレンダラーにより、内蔵GPUを含むレイトレーシング非対応のDirectX 12 PCでも利用できます。完全なパストレーシングには対応GPUが必要です。無料版は1体、アクティベート済みPro版は複数キャラクターに対応します。
+DanceXR Nativeは、WindowsのデスクトップやOpenXR VRでPMX・XPS・FBX・VRMキャラクターを描画します。2026.10以降はラスターレンダラーにより、内蔵GPUを含むレイトレーシング非対応のDirectX 12 PCでも利用できます。完全なパストレーシングには対応GPUが必要です。NativeはItch.ioから無料でダウンロードできます。無料版は1体のキャラクターに対応し、お持ちのエディションでPro、RT、またはCreatorとしてアクティベートすると、複数キャラクターのシーンと対応する機能が利用できます。
 
 </div>
 <p style="text-align:center; margin-top: 20px;">
-  <a href="{{ site.data.dancexr_downloads.native }}" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native free' });">Native 無料版をダウンロード</a>
+  <a href="{{ site.data.dancexr_downloads.native }}" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native free Itch.io' });">Itch.ioでNative無料版をダウンロード</a>
 </p>
 <p style="text-align:center; margin-top: 8px;" markdown="1">[詳細はこちら →](features/native)</p>
 </section>
@@ -221,8 +221,10 @@ Steamやその他のすべてのプラットフォームより早く、毎月の
       <li>クリエイター版 — オフラインレンダリング</li>
       <li>4K、VR 180 &amp; VR 360 動画出力</li>
       <li>任意解像度でのフレーム単位のレンダリング</li>
+      <li>Itch.ioでの買い切り購入も可能</li>
     </ul>
     <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'patreon', 'event_label': 'Creator $15' });">Patreonで参加する</a>
+    <a href="{{ site.data.dancexr_downloads.creator }}" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'store_link_click', { 'event_category': 'itchio', 'event_label': 'Creator Itch.io' });">Itch.ioで購入</a>
   </div>
 
 </div>
@@ -238,7 +240,7 @@ Steamやその他のすべてのプラットフォームより早く、毎月の
 
 ## ライセンスの有効化
 
-有料エディションは、アンロック前に購入の確認が必要です。**Steam**と**Google Play**での購入は、初回起動時に自動で有効化されます。何もする必要はありません。その他（Itch.io PC、Itch.io Android、Quest、Patreon Creator）は、システムメニューから簡単な一度限りの有効化ステップが必要です。
+有料エディションは、アンロック前に購入の確認が必要です。**Steam**と**Google Play**での購入は、初回起動時に自動で有効化されます。何もする必要はありません。その他（Itch.io PC、Itch.io Android、Quest、Patreon、Creator、およびNativeをPro、RT、Creatorとしてアクティベートする場合）は、システムメニューから簡単な一度限りの有効化ステップが必要です。
 
 [有効化ガイド →](activation){: .btn-ghost}
 
@@ -250,7 +252,7 @@ Steamやその他のすべてのプラットフォームより早く、毎月の
 
 ## ライセンスの適用範囲
 
-各ライセンスは、有効化を行った特定のデバイスとビルドのバリアントに紐づいています。2台目のマシンでDanceXRを実行したり、同じマシンで別のビルド（HD、LW、RT、Creator）を実行したりするには、再度有効化プロセスを経るだけです。追加費用はかかりません。これは、主要なハードウェアまたはOSのアップグレード後も同様です。
+各ライセンスは、有効化を行った特定のデバイスとビルドのバリアントに紐づいています。2台目のマシンでDanceXRを実行したり、同じマシンで別のビルド（HD、LW、RT、Creator、Native）を実行したりするには、再度有効化プロセスを経るだけです。追加費用はかかりません。これは、主要なハードウェアまたはOSのアップグレード後も同様です。
 
 [有効化の詳細 →](activation#multiple-devices){: .btn-ghost}
 

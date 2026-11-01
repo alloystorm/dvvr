@@ -378,7 +378,7 @@ AI 功能
   <div class="edition-card">
     <p class="edition-tier">Patreon</p>
     <p class="edition-name">Creator</p>
-    <p class="edition-price">通过 Patreon 获取 — 含抢先体验</p>
+    <p class="edition-price">Patreon（含抢先体验）或 Itch.io 一次性购买</p>
     <div class="edition-divider"></div>
     <ul class="edition-features">
       <li>包含 Pro 的一切</li>
@@ -387,6 +387,7 @@ AI 功能
       <li>提前一个月获取新功能</li>
     </ul>
     <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'engagement', 'event_label': 'Join on Patreon' });">加入 Patreon</a>
+    <a href="https://stormlab.itch.io/dancexr-creator" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'store_link_click', { 'event_category': 'itchio', 'event_label': 'Creator Itch.io' });">在 Itch.io 购买</a>
   </div>
 
 </div>

@@ -112,11 +112,11 @@ description: 런처로 무료 HD 및 Native 에디션을 설치하고 업데이�
 
 ## PC에서 DanceXR Native 체험하기
 
-DanceXR Native는 Windows 데스크톱 또는 OpenXR VR에서 PMX, XPS, FBX, VRM 캐릭터를 렌더링합니다. 2026.10부터 래스터 렌더러는 내장 그래픽을 포함한 레이 트레이싱 미지원 DirectX 12 PC도 지원합니다. 완전한 패스 트레이싱에는 지원 GPU가 필요합니다. 무료 버전은 캐릭터 한 명, 활성화된 Pro 버전은 다중 캐릭터 장면을 지원합니다.
+DanceXR Native는 Windows 데스크톱 또는 OpenXR VR에서 PMX, XPS, FBX, VRM 캐릭터를 렌더링합니다. 2026.10부터 래스터 렌더러는 내장 그래픽을 포함한 레이 트레이싱 미지원 DirectX 12 PC도 지원합니다. 완전한 패스 트레이싱에는 지원 GPU가 필요합니다. Native는 Itch.io에서 무료로 다운로드할 수 있습니다. 무료 버전은 캐릭터 한 명을 지원하며, 보유한 에디션(Pro, RT 또는 Creator)으로 활성화하면 다중 캐릭터 장면과 해당 기능이 잠금 해제됩니다.
 
 </div>
 <p style="text-align:center; margin-top: 20px;">
-  <a href="{{ site.data.dancexr_downloads.native }}" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native free' });">Native 무료 버전 다운로드</a>
+  <a href="{{ site.data.dancexr_downloads.native }}" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native free Itch.io' });">Itch.io에서 Native 무료 다운로드</a>
 </p>
 <p style="text-align:center; margin-top: 8px;" markdown="1">[자세히 보기 →](features/native)</p>
 </section>
@@ -221,8 +221,10 @@ Steam 및 모든 다른 플랫폼보다 모든 월간 출시를 먼저 받아보
       <li>크리에이터 에디션 — 오프라인 렌더링</li>
       <li>4K, VR 180 &amp; VR 360 영상 출력</li>
       <li>원하는 해상도로 프레임 단위 렌더링</li>
+      <li>Itch.io에서 일회성 구매도 가능</li>
     </ul>
     <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'patreon', 'event_label': 'Creator $15' });">Patreon에서 참여</a>
+    <a href="{{ site.data.dancexr_downloads.creator }}" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'store_link_click', { 'event_category': 'itchio', 'event_label': 'Creator Itch.io' });">Itch.io에서 구매</a>
   </div>
 
 </div>
@@ -238,7 +240,7 @@ Steam 및 모든 다른 플랫폼보다 모든 월간 출시를 먼저 받아보
 
 ## 사용하시는 제품 활성화하기
 
-유료 버전은 잠금 해제 전에 구매를 확인해야 합니다. **Steam** 및 **Google Play** 구매는 첫 실행 시 자동으로 활성화되므로 별다른 조치가 필요하지 않습니다. 나머지 모든 것(Itch.io PC, Itch.io Android, Quest, Patreon Creator)은 시스템 메뉴에서 간편한 일회성 활성화 단계가 필요합니다.
+유료 버전은 잠금 해제 전에 구매를 확인해야 합니다. **Steam** 및 **Google Play** 구매는 첫 실행 시 자동으로 활성화되므로 별다른 조치가 필요하지 않습니다. 나머지 모든 것(Itch.io PC, Itch.io Android, Quest, Patreon, Creator, 그리고 Native를 Pro, RT 또는 Creator로 활성화하는 경우)은 시스템 메뉴에서 간편한 일회성 활성화 단계가 필요합니다.
 
 [활성화 가이드 →](activation){: .btn-ghost}
 

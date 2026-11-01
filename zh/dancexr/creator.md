@@ -6,6 +6,8 @@ locale: zh-CN
 
 # 创作者版
 
+创作者版可通过 [Patreon](https://www.patreon.com/dvvr) 按月订阅，也可在 [Itch.io](https://stormlab.itch.io/dancexr-creator) 一次性购买。它还能解锁 [DanceXR Native](features/native) 中的离线视频录制，Native 可在 Itch.io 免费下载。
+
 创作者版提供离线渲染功能，允许您在录制视频时不必担心实际帧率和屏幕分辨率。例如，即使您的显示器是1080p，您的计算机无法维持该帧率，您也可以以60fps的流畅度录制4K视频。它还可以生成3D和VR 180度视频。
 
 ## 录制菜单

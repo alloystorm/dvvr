@@ -101,7 +101,7 @@ Quest 和支持的移动设备上的 AR 模式允许角色出现在您的真实�
 | **专业版** | Pure 的所有功能，外加成人内容 |
 | **创作版** | 专业版的全部功能，外加离线渲染和 VR 视频 |
 
-Pure 和 Pro 在 **Steam** 和 **Itch.io** 上架。创作版可通过 **Patreon** 获取。每月都会有更新——Patreon 会在月初获得抢先体验权，Steam 会在月中跟进。
+Pure 和 Pro 在 **Steam** 和 **Itch.io** 上架。创作版可通过 **Patreon** 获取，也可在 **Itch.io** 一次性购买。DanceXR Native 可在 Itch.io 免费下载，并根据您拥有的版本激活为 Pro、RT 或 Creator。每月都会有更新——Patreon 会在月初获得抢先体验权，Steam 会在月中跟进。
 
 [下载 / 购买 →](download)
 

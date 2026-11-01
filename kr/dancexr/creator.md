@@ -6,6 +6,8 @@ locale: ko-KR
 
 # 크리에이터 에디션
 
+크리에이터 에디션은 [Patreon](https://www.patreon.com/dvvr)의 월 구독 또는 [Itch.io](https://stormlab.itch.io/dancexr-creator)의 일회성 구매로 이용할 수 있습니다. Itch.io에서 무료로 받을 수 있는 [DanceXR Native](features/native)의 오프라인 영상 녹화도 함께 잠금 해제됩니다.
+
 크리에이터 에디션은 오프라인 렌더링 기능을 제공하여 실제 프레임 속도와 화면 해상도에 대해 걱정하지 않고 비디오를 녹화할 수 있습니다. 예를 들어, 모니터가 1080p이고 컴퓨터가 해당 프레임 속도를 유지할 수 없을 때에도 4K 비디오를 매끄럽게 60fps로 녹화할 수 있습니다. 또한 3D 및 VR 180 비디오도 생성할 수 있습니다.
 
 ## 녹화 메뉴

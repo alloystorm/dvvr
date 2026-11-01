@@ -157,13 +157,13 @@ DanceXR 有多个构建和层级。完整的矩阵请参阅 [下载页面](downl
 : 支持成人内容的付费 PC **版本**。光线追踪作为单独的 DLC 在此版本中销售。
 
 **创作版 (Creator)**
-: 增加了离线渲染——支持 4K、VR 180、VR 360，无论实时帧率为多少，都可以以任何分辨率进行逐帧渲染。可通过 Patreon 获取。了解 [创作版](creator)。
+: 增加了离线渲染——支持 4K、VR 180、VR 360，无论实时帧率为多少，都可以以任何分辨率进行逐帧渲染。可通过 Patreon 或 Itch.io 一次性购买获取，也可将 DanceXR Native 激活为 Creator。了解 [创作版](creator)。
 
 **高清/实时/轻量化构建变体 (HD / RT / LW build variants)**
 : PC **版本**的三个渲染层级。**HD** 是均衡质量。**RT** 添加了实时光线追踪。**LW** 是性能优化的轻量级构建。选择时根据 GPU 和使用场景决定。
 
 **Patreon 层级 (Patreon tiers)**
-: 在单次 Steam/Itch.io 购买之外，还有 Patreon 的 Patron / Pro / Creator。Patreon 包括早期访问每月 **发布** 内容。
+: 在单次 Steam/Itch.io 购买之外（Creator 也在 Itch.io 销售），还有 Patreon 的 Patron / Pro / Creator。Patreon 包括早期访问每月 **发布** 内容。
 
 ---
 

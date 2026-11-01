@@ -378,7 +378,7 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
   <div class="edition-card">
     <p class="edition-tier">Patreon</p>
     <p class="edition-name">Creator</p>
-    <p class="edition-price">Patreon 경유 — 얼리 액세스 포함</p>
+    <p class="edition-price">Patreon(얼리 액세스) 또는 Itch.io 일회성 구매</p>
     <div class="edition-divider"></div>
     <ul class="edition-features">
       <li>Pro의 모든 기능 포함</li>
@@ -387,6 +387,7 @@ AI 기반 음성 채팅을 통해 캐릭터가 실시간으로 응답합니다.
       <li>새 기능 한 달 먼저 이용</li>
     </ul>
     <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'engagement', 'event_label': 'Join on Patreon' });">Patreon 가입</a>
+    <a href="https://stormlab.itch.io/dancexr-creator" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'store_link_click', { 'event_category': 'itchio', 'event_label': 'Creator Itch.io' });">Itch.io에서 구매</a>
   </div>
 
 </div>

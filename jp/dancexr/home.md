@@ -101,7 +101,7 @@ Quest および対応するモバイルデバイスでの幻境モードでは�
 | **Pro** | Pureの全てに加え、成人向けコンテンツ |
 | **Creator** | Proの全てに加え、オフラインレンダリングとVRビデオ |
 
-Pure および Pro は **Steam** および **Itch.io** で入手可能です。Creator は **Patreon** から入手できます。アップデートは毎月提供されます — Patreon は月の初めに早期アクセスし、Steam は月中旬に追随します。
+Pure および Pro は **Steam** および **Itch.io** で入手可能です。Creator は **Patreon** または **Itch.io** での買い切り購入で入手できます。DanceXR Native は Itch.io から無料でダウンロードでき、お持ちのエディションに応じて Pro、RT、Creator としてアクティベートできます。アップデートは毎月提供されます — Patreon は月の初めに早期アクセスし、Steam は月中旬に追随します。
 
 [ダウンロード / 購入 →](download)
 

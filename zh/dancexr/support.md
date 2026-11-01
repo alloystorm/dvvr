@@ -66,7 +66,7 @@ support_sections:
             keywords: ["Native", "HD", "LW", "RT", "Launcher", "edition", "build", "path tracing", "raster", "Native是什么？必须使用Launcher吗？"]
             platforms: ["Windows"]
             related: [{"href": "features/native", "label": "Native指南"}, {"href": "download", "label": "下载与版本"}]
-            answer: "Native是拥有独立渲染和设置的Windows应用。HD、LW和RT是Unity版本。从2026.10起，Native可在支持DirectX 12但不支持光线追踪的电脑上使用光栅渲染；路径追踪需要兼容的光追GPU。\n\nLauncher负责安装、更新和启动运行程序与配套应用，也可以直接下载Native。请在下载页面核对当前版本、激活方式和功能限制。"
+            answer: "Native是拥有独立渲染和设置的Windows应用。HD、LW和RT是Unity版本。从2026.10起，Native可在支持DirectX 12但不支持光线追踪的电脑上使用光栅渲染；路径追踪需要兼容的光追GPU。\n\nLauncher负责安装、更新和启动运行程序与配套应用，Native可在Itch.io免费下载（stormlab.itch.io/dancexr-native），并可根据您拥有的版本激活为Pro、RT或Creator。请在下载页面核对当前版本、激活方式和功能限制。"
           - id: "runtime-model-formats"
             category: "content"
             type: "how-to"

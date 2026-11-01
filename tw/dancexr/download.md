@@ -112,11 +112,11 @@ description: 啟動器可安裝及更新免費的 HD 與 Native 版本。
 
 ## 在 PC 上體驗 DanceXR Native
 
-DanceXR Native 可在 Windows 桌面或 OpenXR VR 中算繪 PMX、XPS、FBX 與 VRM 角色。自 2026.10 起，光柵算繪器也支援不具備光線追蹤硬體的 DirectX 12 PC，包括內建顯示晶片。完整路徑追蹤需要支援光線追蹤的 GPU。免費版支援一個角色；已啟用的 Pro 版支援多角色場景。
+DanceXR Native 可在 Windows 桌面或 OpenXR VR 中算繪 PMX、XPS、FBX 與 VRM 角色。自 2026.10 起，光柵算繪器也支援不具備光線追蹤硬體的 DirectX 12 PC，包括內建顯示晶片。完整路徑追蹤需要支援光線追蹤的 GPU。Native 可在 Itch.io 免費下載。免費版支援一個角色；依照您擁有的版本啟用為 Pro、RT 或 Creator 後，即可解鎖多角色場景與相應功能。
 
 </div>
 <p style="text-align:center; margin-top: 20px;">
-  <a href="{{ site.data.dancexr_downloads.native }}" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native free' });">下載 Native 免費版</a>
+  <a href="{{ site.data.dancexr_downloads.native }}" class="edition-cta" style="display:inline-block; min-width:280px;" onclick="gtag('event', 'download', { 'event_category': 'native', 'event_label': 'DanceXR Native free Itch.io' });">在 Itch.io 下載 Native 免費版</a>
 </p>
 <p style="text-align:center; margin-top: 8px;" markdown="1">[了解更多 →](features/native)</p>
 </section>
@@ -221,8 +221,10 @@ DanceXR Native 可在 Windows 桌面或 OpenXR VR 中算繪 PMX、XPS、FBX 與 
       <li>創作版 — 離線渲染</li>
       <li>4K、VR 180 與 VR 360 影片輸出</li>
       <li>逐幀渲染，任意解析度</li>
+      <li>也可在 Itch.io 一次性買斷</li>
     </ul>
     <a href="https://www.patreon.com/dvvr" class="edition-cta" onclick="gtag('event', 'store_link_click', { 'event_category': 'patreon', 'event_label': 'Creator $15' });">在 Patreon 上加入</a>
+    <a href="{{ site.data.dancexr_downloads.creator }}" class="edition-cta edition-cta--ghost" onclick="gtag('event', 'store_link_click', { 'event_category': 'itchio', 'event_label': 'Creator Itch.io' });">在 Itch.io 購買</a>
   </div>
 
 </div>
@@ -238,7 +240,7 @@ DanceXR Native 可在 Windows 桌面或 OpenXR VR 中算繪 PMX、XPS、FBX 與 
 
 ## 激活您的副本
 
-付費版本需要確認您的購買紀錄才能解鎖。**Steam** 和 **Google Play** 的購買在首次啟動時會自動激活 — 無需任何操作。所有其他版本（Itch.io PC、Itch.io Android、Quest、Patreon Creator）都需要從系統選單進行一次性快速激活步驟。
+付費版本需要確認您的購買紀錄才能解鎖。**Steam** 和 **Google Play** 的購買在首次啟動時會自動激活 — 無需任何操作。所有其他版本（Itch.io PC、Itch.io Android、Quest、Patreon、Creator，以及將 Native 啟用為 Pro、RT 或 Creator）都需要從系統選單進行一次性快速激活步驟。
 
 [激活指南 →](activation){: .btn-ghost}
 
@@ -250,7 +252,7 @@ DanceXR Native 可在 Windows 桌面或 OpenXR VR 中算繪 PMX、XPS、FBX 與 
 
 ## 許可範圍
 
-每份授權與您所激活的特定設備和版本變體綁定。若要在第二台機器上運行 DanceXR — 或要在同一機器上運行不同的版本（HD、LW、RT、Creator） — 只需再次經過激活流程即可。不會產生額外費用。在主要硬體或作業系統升級後亦是如此。
+每份授權與您所激活的特定設備和版本變體綁定。若要在第二台機器上運行 DanceXR — 或要在同一機器上運行不同的版本（HD、LW、RT、Creator、Native） — 只需再次經過激活流程即可。不會產生額外費用。在主要硬體或作業系統升級後亦是如此。
 
 [激活詳細資訊 →](activation#multiple-devices){: .btn-ghost}
 

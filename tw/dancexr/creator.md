@@ -6,6 +6,8 @@ locale: zh-TW
 
 # 創作版
 
+創作版可在 [Patreon](https://www.patreon.com/dvvr) 按月訂閱，或在 [Itch.io](https://stormlab.itch.io/dancexr-creator) 一次性買斷。它也會解鎖 [DanceXR Native](features/native) 的離線影片錄製，Native 可在 Itch.io 免費下載。
+
 創作版提供離線渲染功能，讓您能夠在不擔心實際幀率和螢幕解析度的情況下錄製視頻。例如，即使您的顯示器是1080p，您的電腦無法維持該幀率，您仍然可以流暢地錄製4K視頻，並且還可以生成3D和VR 180視頻。
 
 ## 錄製菜單

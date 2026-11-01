@@ -13,7 +13,7 @@ toc: true
 
 **[2026.11](../releases/2026.11)**에서는 포즈 도구, 바디 페인트와 스프레이, 플레이어 아바타, 스타킹, FBX 및 VRM 모델, 우클릭 퀵 메뉴, 그리고 Creator 에디션의 오프라인 영상 녹화가 추가되었습니다.
 
-다운로드: [github.com/alloystorm/dvvr/releases/tag/dxr-native](https://github.com/alloystorm/dvvr/releases/tag/dxr-native)
+다운로드: [stormlab.itch.io/dancexr-native](https://stormlab.itch.io/dancexr-native) — Native는 Itch.io에서 무료로 다운로드할 수 있으며, DanceXR Launcher로도 설치하고 업데이트할 수 있습니다.
 
 ---
 
@@ -92,7 +92,9 @@ XPS 모델은 PMX 모델과 같은 방식으로 모션에 맞춰지므로 발이
 
 ### 에디션과 캐릭터 수 제한
 
-무료 에디션은 한 번에 **한 캐릭터**를 렌더링합니다. 두 번째 모델을 불러오면 첫 번째가 교체되며, 그때 앱이 알림을 표시합니다. 활성화된 Pro 설치는 여러 캐릭터를 동시에 지원하며, 각 캐릭터에 개별 모델 설정, 머티리얼, 물리, 배치, 모션을 지정할 수 있습니다. Pro에서는 **Load mode** 스위치로 새 모델이 기존 출연진을 대체할지 합류할지 선택합니다.
+Native는 [Itch.io](https://stormlab.itch.io/dancexr-native)에서 무료로 다운로드할 수 있으며, 하나의 다운로드로 모든 에디션을 사용할 수 있습니다. 잠금 해제되는 기능은 **System > Activate Your Copy**에서 활성화하는 라이선스에 따라 달라집니다([활성화 및 라이선스](../activation) 참조). Native는 보유한 에디션에 따라 **Pro**, **RT** 또는 **Creator**로 활성화할 수 있습니다. [Creator](../creator)(Patreon 또는 Itch.io 일회성 구매)를 보유하고 있다면 Native는 Creator로 활성화됩니다.
+
+무료 에디션은 한 번에 **한 캐릭터**를 렌더링합니다. 두 번째 모델을 불러오면 첫 번째가 교체되며, 그때 앱이 알림을 표시합니다. 활성화된 설치는 여러 캐릭터를 동시에 지원하며, 각 캐릭터에 개별 모델 설정, 머티리얼, 물리, 배치, 모션을 지정할 수 있습니다. Pro 이상에서는 **Load mode** 스위치로 새 모델이 기존 출연진을 대체할지 합류할지 선택합니다.
 
 Pro에서는 아래에서 설명하는 Wet Skin & Fluid, 바디 페인트와 스프레이, 플레이어 아바타, 스타킹도 사용할 수 있습니다. Creator 에디션에는 Record Scene이 추가됩니다. 라이선스는 한 번의 릴리스 단위로 유효하며 일회성 구매는 자동으로 이어집니다.
 
