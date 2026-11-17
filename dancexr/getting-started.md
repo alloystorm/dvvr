@@ -6,8 +6,6 @@ locale: en-US
 
 # Getting Started with DanceXR
 
-{% include native-windows10-notice.html %}
-
 Welcome! This guide walks you through your first DanceXR experience, from downloading the app to loading a model and playing a motion. If you're new to DanceXR, don't worry: it is designed to be intuitive and user-friendly.
 
 ---

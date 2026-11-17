@@ -6,8 +6,6 @@ locale: ko-KR
 
 # DanceXR 시작하기
 
-{% include native-windows10-notice.html %}
-
 환영합니다! 이 가이드는 앱 다운로드부터 모델 불러오기, 모션 재생까지 첫 DanceXR 사용 과정을 안내합니다. DanceXR가 처음이라도 걱정하지 마세요. 직관적이고 사용하기 쉬운 경험을 제공하도록 설계되었습니다.
 
 ---

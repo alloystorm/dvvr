@@ -7,8 +7,6 @@ toc: true
 
 # DanceXR Native
 
-{% include native-windows10-notice.html %}
-
 **DanceXR Native**는 사용 중인 PC가 낼 수 있는 최고의 품질로 캐릭터를 렌더링하도록 만들어진 독립형 Windows 애플리케이션입니다. 레이 트레이싱을 지원하는 하드웨어에서는 완전한 **패스 트레이싱**을, 그 외에는 **래스터 렌더러**를 사용합니다. Unity 기반 DanceXR 런타임을 위해 제작된 컴패니언으로, 자체 렌더러와 설정을 사용하면서 동일하게 정리된 콘텐츠 라이브러리를 공유합니다.
 
 2026.8에 공개 프리뷰를 시작한 Native는 PMX 모델, 다중 캐릭터 장면, OpenXR VR을 지원하며 [2026.9](../releases/2026.9)에 정식 출시 준비를 마쳤습니다. **[2026.10](../releases/2026.10)**에서는 래스터 렌더러, 그래픽 자동 감지, 천, Wet Skin & Fluid, 오토 카메라, 그리고 재시작 없이 들어갈 수 있는 VR이 추가되었습니다.
@@ -16,6 +14,8 @@ toc: true
 **[2026.11](../releases/2026.11)**에서는 포즈 도구, 바디 페인트와 스프레이, 플레이어 아바타, 스타킹, FBX 및 VRM 모델, 우클릭 퀵 메뉴, 그리고 Creator 에디션의 오프라인 영상 녹화가 추가되었습니다.
 
 다운로드: [stormlab.itch.io/dancexr-native](https://stormlab.itch.io/dancexr-native) — Native는 Itch.io에서 무료로 다운로드할 수 있으며, DanceXR Launcher로도 설치하고 업데이트할 수 있습니다.
+
+{% include native-windows10-notice.html %}
 
 ---
 

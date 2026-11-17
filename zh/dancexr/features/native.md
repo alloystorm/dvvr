@@ -7,8 +7,6 @@ toc: true
 
 # DanceXR Native
 
-{% include native-windows10-notice.html %}
-
 **DanceXR Native** 是一款独立的 Windows 应用程序，旨在以你的 PC 所能达到的最高画质渲染角色：在支持光线追踪的硬件上使用完整的**路径追踪**，其余情况则使用**光栅渲染器**。它是专为基于 Unity 的 DanceXR 运行时打造的配套应用，拥有自己的渲染器和设置，同时使用同一套整理好的内容库。
 
 Native 于 2026.8 进入公开预览，并在支持 PMX 模型、多角色场景与 OpenXR VR 后，于 [2026.9](../releases/2026.9) 正式发布。**[2026.10](../releases/2026.10)** 新增了光栅渲染器、图形设置自动检测、布料、Wet Skin & Fluid、自动相机，以及无需重启即可进入的 VR。
@@ -16,6 +14,8 @@ Native 于 2026.8 进入公开预览，并在支持 PMX 模型、多角色场景
 **[2026.11](../releases/2026.11)** 新增了摆姿工具、身体彩绘与喷洒、玩家化身、丝袜、FBX 与 VRM 模型、右键快捷菜单，以及 Creator 版本的离线视频录制。
 
 下载：[stormlab.itch.io/dancexr-native](https://stormlab.itch.io/dancexr-native) — Native 可在 Itch.io 免费下载，也可通过 DanceXR Launcher 安装和更新。
+
+{% include native-windows10-notice.html %}
 
 ---
 

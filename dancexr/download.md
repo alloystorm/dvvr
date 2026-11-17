@@ -33,8 +33,6 @@ Load your own PMX / VMD files and play instantly — nothing to install.
 
 ## Choose your PC edition
 
-{% include native-windows10-notice.html %}
-
 </div>
 <div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
@@ -113,8 +111,6 @@ The launcher is included with the 2026.9 Windows release packages.
 Release ready
 
 ## Try DanceXR Native on your PC
-
-{% include native-windows10-notice.html %}
 
 DanceXR Native renders PMX, XPS, FBX, and VRM characters on Windows, on desktop or in OpenXR VR. Since 2026.10, its raster renderer also supports DirectX 12 PCs without ray-tracing hardware, including integrated graphics. Full path tracing requires a ray-tracing-capable GPU. Native is free to download from Itch.io. The free edition supports one character; activate it as Pro, RT, or Creator with the edition you own to unlock multi-character scenes and the matching features.
 

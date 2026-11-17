@@ -7,8 +7,6 @@ toc: true
 
 # DanceXR Native
 
-{% include native-windows10-notice.html %}
-
 **DanceXR Native** は、お使いの PC で可能な最高の品質でキャラクターを描画するために作られた、独立した Windows 向けアプリケーションです。レイトレーシング対応ハードウェアでは完全な**パストレーシング**を、それ以外では**ラスターレンダラー**を使用します。Unity ベースの DanceXR ランタイム専用のコンパニオンで、独自のレンダラーと設定を持ちながら、同じ整理されたコンテンツライブラリを使用します。
 
 2026.8 でパブリックプレビューを開始した Native は、PMX モデル、複数キャラクターのシーン、OpenXR VR に対応し、[2026.9](../releases/2026.9) で正式リリース対応となりました。**[2026.10](../releases/2026.10)** では、ラスターレンダラー、グラフィックの自動検出、布、Wet Skin & Fluid、オートカメラ、そして再起動なしで入れる VR が加わりました。
@@ -16,6 +14,8 @@ toc: true
 **[2026.11](../releases/2026.11)** では、ポーズツール、ボディペイントとスプレー、プレイヤーアバター、ストッキング、FBX と VRM モデル、右クリックのクイックメニュー、そして Creator エディションのオフライン動画収録が加わりました。
 
 ダウンロード：[stormlab.itch.io/dancexr-native](https://stormlab.itch.io/dancexr-native) — NativeはItch.ioから無料でダウンロードでき、DanceXR Launcherからもインストールと更新ができます。
+
+{% include native-windows10-notice.html %}
 
 ---
 
