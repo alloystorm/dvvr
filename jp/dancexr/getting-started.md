@@ -6,6 +6,8 @@ locale: ja-JP
 
 # DanceXR の始め方
 
+{% include native-windows10-notice.html %}
+
 ようこそ！このガイドでは、アプリのダウンロードからモデルの読み込み、モーションの再生まで、DanceXR で初めての体験をする流れを順を追って説明します。DanceXR は初めての方でもご安心ください。直感的で使いやすいように設計されています。
 
 ---

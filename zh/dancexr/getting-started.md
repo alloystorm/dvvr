@@ -6,6 +6,8 @@ locale: zh-CN
 
 # 开始使用 DanceXR
 
+{% include native-windows10-notice.html %}
+
 欢迎！本指南将带你完成第一次使用 DanceXR 的体验，从下载应用到加载模型和播放动作。如果你是 DanceXR 新手，不用担心：它被设计为直观且用户友好。
 
 ---

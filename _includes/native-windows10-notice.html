@@ -1,0 +1,5 @@
+{% assign native_notice = site.data.native_compatibility[page.locale] | default: site.data.native_compatibility["en-US"] %}
+<aside class="notice--warning" role="note">
+  <p><strong>{{ native_notice.label }}</strong><br>{{ native_notice.message }}</p>
+  <p><a href="{{ native_notice.prefix }}/dancexr/support#support-native-windows10-startup">{{ native_notice.link }}</a></p>
+</aside>

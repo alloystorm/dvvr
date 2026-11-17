@@ -7,6 +7,8 @@ toc: true
 
 # DanceXR Native
 
+{% include native-windows10-notice.html %}
+
 **DanceXR Native** is a separate, standalone Windows application built to render your characters at the highest quality your PC can manage: full **path tracing** on ray-tracing-capable hardware, and a **raster renderer** for everything else. It is a purpose-built companion to the Unity-based DanceXR runtimes, with its own renderers and settings while using the same organized content library.
 
 After entering public preview in 2026.8, Native became release ready in [2026.9](../releases/2026.9) with PMX models, multi-character scenes, and OpenXR VR support. **[2026.10](../releases/2026.10)** added the raster renderer, automatic graphics detection, cloth, Wet Skin & Fluid, an auto camera, and VR you can enter without restarting.
@@ -66,7 +68,7 @@ If a tier asks for something your GPU cannot do, Native falls back and tells you
 
 | | |
 |---|---|
-| OS | Windows |
+| OS | Windows (current build cannot start on Windows 10) |
 | GPU (raster) | DirectX 12 capable, including integrated graphics |
 | GPU (path tracing) | Ray-tracing capable discrete GPU (NVIDIA RTX recommended) |
 | VR | OpenXR-compatible headset and runtime |

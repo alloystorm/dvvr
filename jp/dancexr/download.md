@@ -33,6 +33,8 @@ description: ランチャーで無料のHD・Native版をインストール・�
 
 ## PCエディションを選ぶ
 
+{% include native-windows10-notice.html %}
+
 </div>
 <div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
@@ -111,6 +113,8 @@ description: ランチャーで無料のHD・Native版をインストール・�
 正式リリース対応
 
 ## PCでDanceXR Nativeを試す
+
+{% include native-windows10-notice.html %}
 
 DanceXR Nativeは、WindowsのデスクトップやOpenXR VRでPMX・XPS・FBX・VRMキャラクターを描画します。2026.10以降はラスターレンダラーにより、内蔵GPUを含むレイトレーシング非対応のDirectX 12 PCでも利用できます。完全なパストレーシングには対応GPUが必要です。NativeはItch.ioから無料でダウンロードできます。無料版は1体のキャラクターに対応し、お持ちのエディションでPro、RT、またはCreatorとしてアクティベートすると、複数キャラクターのシーンと対応する機能が利用できます。
 

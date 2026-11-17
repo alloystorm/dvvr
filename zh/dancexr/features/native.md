@@ -7,6 +7,8 @@ toc: true
 
 # DanceXR Native
 
+{% include native-windows10-notice.html %}
+
 **DanceXR Native** 是一款独立的 Windows 应用程序，旨在以你的 PC 所能达到的最高画质渲染角色：在支持光线追踪的硬件上使用完整的**路径追踪**，其余情况则使用**光栅渲染器**。它是专为基于 Unity 的 DanceXR 运行时打造的配套应用，拥有自己的渲染器和设置，同时使用同一套整理好的内容库。
 
 Native 于 2026.8 进入公开预览，并在支持 PMX 模型、多角色场景与 OpenXR VR 后，于 [2026.9](../releases/2026.9) 正式发布。**[2026.10](../releases/2026.10)** 新增了光栅渲染器、图形设置自动检测、布料、Wet Skin & Fluid、自动相机，以及无需重启即可进入的 VR。
@@ -66,7 +68,7 @@ DanceXR 的 PC RT 版本是在传统渲染器之上叠加光线追踪效果（�
 
 | | |
 |---|---|
-| 操作系统 | Windows |
+| 操作系统 | Windows（当前构建无法在 Windows 10 上启动） |
 | 显卡（光栅） | 支持 DirectX 12，包括集成显卡 |
 | 显卡（路径追踪） | 支持光线追踪的独立显卡（推荐 NVIDIA RTX） |
 | VR | 兼容 OpenXR 的头显与运行时 |

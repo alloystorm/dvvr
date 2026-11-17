@@ -1,0 +1,32 @@
+{
+  "en-US": {
+    "label": "Native: Windows 10 startup issue",
+    "message": "The current DanceXR Native build cannot start on Windows 10: it requires a newer DirectX 12 Agility SDK version that is not available on Windows 10. There is no user-side workaround. We will try to address this in the next release; a fix is not yet available.",
+    "link": "Known issue and reporting details",
+    "prefix": ""
+  },
+  "zh-CN": {
+    "label": "Native：Windows 10 启动问题",
+    "message": "当前的 DanceXR Native 构建无法在 Windows 10 上启动：它依赖较新版本的 DirectX 12 Agility SDK，而该版本在 Windows 10 上不可用。用户无法通过自行设置或操作绕过此问题。我们将尝试在下一个版本中解决，目前尚未提供修复。",
+    "link": "已知问题与反馈说明",
+    "prefix": "/zh"
+  },
+  "zh-TW": {
+    "label": "Native：Windows 10 啟動問題",
+    "message": "目前的 DanceXR Native 組建無法在 Windows 10 上啟動：它依賴較新版本的 DirectX 12 Agility SDK，而該版本在 Windows 10 上無法使用。使用者無法透過自行設定或操作繞過此問題。我們將嘗試在下一個版本中解決，目前尚未提供修正。",
+    "link": "已知問題與回報說明",
+    "prefix": "/tw"
+  },
+  "ja-JP": {
+    "label": "Native：Windows 10での起動時の問題",
+    "message": "現在のDanceXR NativeビルドはWindows 10では起動できません。Windows 10では利用できない新しいバージョンのDirectX 12 Agility SDKを必要とするためです。ユーザー側で行える回避策はありません。次のリリースでの対応を試みますが、現時点では修正版は提供されていません。",
+    "link": "既知の問題と報告方法",
+    "prefix": "/jp"
+  },
+  "ko-KR": {
+    "label": "Native: Windows 10 시작 문제",
+    "message": "현재 DanceXR Native 빌드는 Windows 10에서 시작할 수 없습니다. Windows 10에서 사용할 수 없는 더 높은 버전의 DirectX 12 Agility SDK가 필요하기 때문입니다. 사용자가 직접 적용할 수 있는 우회 방법은 없습니다. 다음 릴리스에서 해결을 시도할 예정이며, 현재 수정 버전은 제공되지 않았습니다.",
+    "link": "알려진 문제 및 제보 안내",
+    "prefix": "/kr"
+  }
+}

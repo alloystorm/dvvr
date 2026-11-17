@@ -33,6 +33,8 @@ description: 啟動器可安裝及更新免費的 HD 與 Native 版本。
 
 ## 選擇你的 PC 版本
 
+{% include native-windows10-notice.html %}
+
 </div>
 <div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
@@ -111,6 +113,8 @@ description: 啟動器可安裝及更新免費的 HD 與 Native 版本。
 正式發布
 
 ## 在 PC 上體驗 DanceXR Native
+
+{% include native-windows10-notice.html %}
 
 DanceXR Native 可在 Windows 桌面或 OpenXR VR 中算繪 PMX、XPS、FBX 與 VRM 角色。自 2026.10 起，光柵算繪器也支援不具備光線追蹤硬體的 DirectX 12 PC，包括內建顯示晶片。完整路徑追蹤需要支援光線追蹤的 GPU。Native 可在 Itch.io 免費下載。免費版支援一個角色；依照您擁有的版本啟用為 Pro、RT 或 Creator 後，即可解鎖多角色場景與相應功能。
 

@@ -472,6 +472,18 @@ support_sections:
     label: "已知問題"
     title: "已知問題與解決方法"
     subsections:
+      - title: "Native · Windows 10"
+        items:
+          - id: "native-windows10-startup"
+            category: "help"
+            type: "known-issue"
+            question: "為什麼目前的 DanceXR Native 組建在 Windows 10 上啟動時當機？"
+            keywords: ["Native", "Windows 10", "startup", "crash", "launch", "DirectX 12", "Agility SDK", "compatibility"]
+            platforms: ["Windows 10"]
+            builds: ["Native"]
+            versions: ["2026.11"]
+            related: [{"href": "features/native", "label": "DanceXR Native"}]
+            answer: "目前的 DanceXR Native 組建無法在 Windows 10 上啟動：它依賴較新版本的 DirectX 12 Agility SDK，而該版本在 Windows 10 上無法使用。使用者無法透過自行設定或操作繞過此問題。我們將嘗試在下一個版本中解決，目前尚未提供修正。\n\n這是組建相容性問題，修改圖形設定、驅動程式或重設應用程式無法繞過。本提示針對 Native 應用程式，不代表 Unity HD、LW 或 RT 組建存在相同問題。目前的需求請參閱 [Native 指南](features/native)。"
       - title: "📌 2026.9–2026.10版本（Unity）"
         items:
           - id: "xps-physics-sticking-2026-9-10"

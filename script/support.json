@@ -299,7 +299,7 @@
               "type": "how-to",
               "status": "published",
               "question": "What is Native, and do I need the Launcher?",
-              "answer": "Native is a separate Windows application with its own rendering and settings. HD, LW and RT are the Unity-based runtimes. Since 2026.10, Native supports raster rendering on DirectX 12 PCs without ray-tracing hardware; path tracing needs a compatible ray-tracing GPU.\n\nThe Launcher installs, updates and starts runtimes and companion apps. You can also download Native directly. Check the download page for current editions, activation and feature limits.",
+              "answer": "Native is a separate Windows application with its own rendering and settings. HD, LW and RT are the Unity-based runtimes. Since 2026.10, Native supports raster rendering on DirectX 12 PCs without ray-tracing hardware; path tracing needs a compatible ray-tracing GPU.\n\nThe Launcher installs, updates and starts runtimes and companion apps. Native is a free download on Itch.io (stormlab.itch.io/dancexr-native), and it can be activated as Pro, RT or Creator based on the edition you own. Check the download page for current editions, activation and feature limits.",
               "question_locales": {
                 "jp": "Nativeとは何ですか？Launcherは必要ですか？",
                 "zh": "Native是什么？必须使用Launcher吗？",
@@ -307,10 +307,10 @@
                 "kr": "Native는 무엇이며 Launcher가 필요한가요?"
               },
               "answer_locales": {
-                "jp": "Nativeは独自の描画と設定を持つ別のWindowsアプリです。HD・LW・RTはUnity版です。2026.10以降のNativeは、レイトレーシング非対応のDirectX 12対応PCでもラスタ描画が可能です。パストレーシングには対応GPUが必要です。\n\nLauncherはランタイムや関連アプリのインストール・更新・起動を管理します。Nativeを直接ダウンロードすることもできます。エディション、認証、機能制限はダウンロードページで確認してください。",
-                "zh": "Native是拥有独立渲染和设置的Windows应用。HD、LW和RT是Unity版本。从2026.10起，Native可在支持DirectX 12但不支持光线追踪的电脑上使用光栅渲染；路径追踪需要兼容的光追GPU。\n\nLauncher负责安装、更新和启动运行程序与配套应用，也可以直接下载Native。请在下载页面核对当前版本、激活方式和功能限制。",
-                "tw": "Native是擁有獨立算繪和設定的Windows應用程式。HD、LW和RT是Unity版本。從2026.10起，Native可在支援DirectX 12但不支援光線追蹤的電腦上使用光柵算繪；路徑追蹤需要相容的光追GPU。\n\nLauncher負責安裝、更新和啟動執行程式與配套應用，也可以直接下載Native。請在下載頁面核對目前版本、啟用方式和功能限制。",
-                "kr": "Native는 자체 렌더링과 설정을 갖춘 별도의 Windows 앱입니다. HD, LW, RT는 Unity 기반 버전입니다. 2026.10부터 Native는 레이 트레이싱이 없는 DirectX 12 PC에서도 래스터 렌더링을 지원합니다. 패스 트레이싱에는 호환되는 레이 트레이싱 GPU가 필요합니다.\n\nLauncher는 런타임과 관련 앱의 설치, 업데이트, 실행을 관리합니다. Native를 직접 내려받아도 됩니다. 현재 에디션, 활성화 방법, 기능 제한은 다운로드 페이지에서 확인하세요."
+                "jp": "Nativeは独自の描画と設定を持つ別のWindowsアプリです。HD・LW・RTはUnity版です。2026.10以降のNativeは、レイトレーシング非対応のDirectX 12対応PCでもラスタ描画が可能です。パストレーシングには対応GPUが必要です。\n\nLauncherはランタイムや関連アプリのインストール・更新・起動を管理します。NativeはItch.io（stormlab.itch.io/dancexr-native）から無料でダウンロードでき、お持ちのエディションに応じてPro、RT、Creatorとしてアクティベートできます。エディション、認証、機能制限はダウンロードページで確認してください。",
+                "zh": "Native是拥有独立渲染和设置的Windows应用。HD、LW和RT是Unity版本。从2026.10起，Native可在支持DirectX 12但不支持光线追踪的电脑上使用光栅渲染；路径追踪需要兼容的光追GPU。\n\nLauncher负责安装、更新和启动运行程序与配套应用，Native可在Itch.io免费下载（stormlab.itch.io/dancexr-native），并可根据您拥有的版本激活为Pro、RT或Creator。请在下载页面核对当前版本、激活方式和功能限制。",
+                "tw": "Native是擁有獨立算繪和設定的Windows應用程式。HD、LW和RT是Unity版本。從2026.10起，Native可在支援DirectX 12但不支援光線追蹤的電腦上使用光柵算繪；路徑追蹤需要相容的光追GPU。\n\nLauncher負責安裝、更新和啟動執行程式與配套應用，Native可在Itch.io免費下載（stormlab.itch.io/dancexr-native），並可依您擁有的版本啟用為Pro、RT或Creator。請在下載頁面核對目前版本、啟用方式和功能限制。",
+                "kr": "Native는 자체 렌더링과 설정을 갖춘 별도의 Windows 앱입니다. HD, LW, RT는 Unity 기반 버전입니다. 2026.10부터 Native는 레이 트레이싱이 없는 DirectX 12 PC에서도 래스터 렌더링을 지원합니다. 패스 트레이싱에는 호환되는 레이 트레이싱 GPU가 필요합니다.\n\nLauncher는 런타임과 관련 앱의 설치, 업데이트, 실행을 관리합니다. Native는 Itch.io(stormlab.itch.io/dancexr-native)에서 무료로 내려받을 수 있으며, 보유한 에디션에 따라 Pro, RT 또는 Creator로 활성화할 수 있습니다. 현재 에디션, 활성화 방법, 기능 제한은 다운로드 페이지에서 확인하세요."
               },
               "keywords": [
                 "Native",
@@ -369,7 +369,7 @@
               "type": "how-to",
               "status": "published",
               "question": "Which model and motion formats work, and can DanceXR convert or author them?",
-              "answer": "The Unity-based app supports PMX/XPS models, model-only FBX preview import, VMD/BVH motions and OBJ stage props. XPS/FBX models may need bone mapping. Native currently documents PMX/XPS models and VMD motions.\n\nA VRM, VRChat or DAZ project is not automatically a compatible model package. Exporting/converting it is a separate workflow; verify the destination format and rig. DanceXR plays imported motions and offers procedural posing—it is not a replacement for a full animation authoring tool.",
+              "answer": "The Unity-based app supports PMX/XPS models, model-only FBX preview import, VRM models (since 2026.11), VMD/BVH motions and OBJ stage props. XPS models need bone mapping; FBX and VRM models are mapped automatically and can be corrected. Native supports PMX, XPS, FBX and VRM models and VMD motions.\n\nA VRChat or DAZ project is not automatically a compatible model package. Exporting/converting it is a separate workflow; verify the destination format and rig. DanceXR plays imported motions and offers procedural posing—it is not a replacement for a full animation authoring tool.",
               "question_locales": {
                 "jp": "使えるモデル・モーション形式は？変換やアニメーション制作もできますか？",
                 "zh": "支持哪些模型和动作格式？能直接转换或制作动画吗？",
@@ -377,10 +377,10 @@
                 "kr": "어떤 모델과 모션 형식을 지원하며 변환이나 애니메이션 제작도 가능한가요?"
               },
               "answer_locales": {
-                "jp": "Unity版アプリはPMX/XPSモデル、モデルのみのFBXプレビュー読み込み、VMD/BVHモーション、OBJの舞台小物に対応します。XPS/FBXはボーンの対応付けが必要な場合があります。Nativeの現行ガイドはPMX/XPSモデルとVMDモーションを案内しています。\n\nVRM・VRChat・DAZのプロジェクトがそのまま使えるとは限りません。書き出しや変換は別の作業です。DanceXRはモーション再生と手続き型ポージングを提供しますが、本格的なアニメーション制作ツールの代わりではありません。",
-                "zh": "Unity应用支持PMX/XPS模型、仅模型导入的FBX预览支持、VMD/BVH动作和OBJ场景道具。XPS/FBX模型可能需要骨骼映射。Native当前文档列出PMX/XPS模型和VMD动作。\n\nVRM、VRChat或DAZ工程不一定是可直接使用的模型包。导出或转换属于独立流程，请确认目标格式和骨骼。DanceXR播放导入的动作并提供程序化摆姿，不能替代完整的动画制作工具。",
-                "tw": "Unity應用程式支援PMX/XPS模型、僅模型匯入的FBX預覽支援、VMD/BVH動作和OBJ場景道具。XPS/FBX模型可能需要骨骼映射。Native目前文件列出PMX/XPS模型和VMD動作。\n\nVRM、VRChat或DAZ專案不一定是可直接使用的模型包。匯出或轉換屬於獨立流程，請確認目標格式和骨骼。DanceXR播放匯入的動作並提供程序化擺姿，不能替代完整的動畫製作工具。",
-                "kr": "Unity 앱은 PMX/XPS 모델, 모델만 가져오는 FBX 미리보기 지원, VMD/BVH 모션, OBJ 무대 소품을 지원합니다. XPS/FBX에는 뼈 매핑이 필요할 수 있습니다. Native의 현재 문서는 PMX/XPS 모델과 VMD 모션을 안내합니다.\n\nVRM, VRChat, DAZ 프로젝트가 바로 호환 패키지가 되는 것은 아닙니다. 내보내기나 변환은 별도 작업입니다. DanceXR는 가져온 모션 재생과 절차적 포징을 제공하지만 전체 애니메이션 제작 도구를 대체하지는 않습니다."
+                "jp": "Unity版アプリはPMX/XPSモデル、モデルのみのFBXプレビュー読み込み、VRMモデル（2026.11以降）、VMD/BVHモーション、OBJの舞台小物に対応します。XPSはボーンの対応付けが必要で、FBXとVRMは自動で対応付けされ、修正もできます。NativeはPMX、XPS、FBX、VRMモデルとVMDモーションに対応します。\n\nVRChat・DAZのプロジェクトがそのまま使えるとは限りません。書き出しや変換は別の作業です。DanceXRはモーション再生と手続き型ポージングを提供しますが、本格的なアニメーション制作ツールの代わりではありません。",
+                "zh": "Unity应用支持PMX/XPS模型、仅模型导入的FBX预览支持、VRM模型（2026.11起）、VMD/BVH动作和OBJ场景道具。XPS模型需要骨骼映射；FBX和VRM会自动映射，也可手动修正。Native支持PMX、XPS、FBX和VRM模型以及VMD动作。\n\nVRChat或DAZ工程不一定是可直接使用的模型包。导出或转换属于独立流程，请确认目标格式和骨骼。DanceXR播放导入的动作并提供程序化摆姿，不能替代完整的动画制作工具。",
+                "tw": "Unity應用程式支援PMX/XPS模型、僅模型匯入的FBX預覽支援、VRM模型（2026.11起）、VMD/BVH動作和OBJ場景道具。XPS模型需要骨骼映射；FBX和VRM會自動映射，也可手動修正。Native支援PMX、XPS、FBX和VRM模型以及VMD動作。\n\nVRChat或DAZ專案不一定是可直接使用的模型包。匯出或轉換屬於獨立流程，請確認目標格式和骨骼。DanceXR播放匯入的動作並提供程序化擺姿，不能替代完整的動畫製作工具。",
+                "kr": "Unity 앱은 PMX/XPS 모델, 모델만 가져오는 FBX 미리보기 지원, VRM 모델(2026.11부터), VMD/BVH 모션, OBJ 무대 소품을 지원합니다. XPS에는 뼈 매핑이 필요하고, FBX와 VRM은 자동으로 매핑되며 수정할 수도 있습니다. Native는 PMX, XPS, FBX, VRM 모델과 VMD 모션을 지원합니다.\n\nVRChat, DAZ 프로젝트가 바로 호환 패키지가 되는 것은 아닙니다. 내보내기나 변환은 별도 작업입니다. DanceXR는 가져온 모션 재생과 절차적 포징을 제공하지만 전체 애니메이션 제작 도구를 대체하지는 않습니다."
               },
               "keywords": [
                 "PMX",
@@ -1308,7 +1308,7 @@
               "type": "how-to",
               "status": "published",
               "question": "How do I adjust hair and clothing physics?",
-              "answer": "First check the actor’s physics setup. For PMX-authored bodies and joints, compare **Physics Mode** options; **Auto** follows the system’s **PMX Default**. For XPS/FBX custom tools, enable **Hair Physics** or **Skirt Physics**, use **Select Bones** for chain roots, and check body colliders.\n\nTune one setting at a time: PhysX uses spring/damping controls; XPBD uses compliance/damping. To replace a PMX rig with custom tools, set PMX **Physics Mode** to **Off** first. Availability varies by build/edition. Native has separate physics controls.",
+              "answer": "First check the actor’s physics setup. For PMX-authored bodies and joints, compare **Physics Mode** options; **Auto** follows the system’s **PMX Default**. For XPS/FBX/VRM custom tools, enable **Hair Physics** or **Skirt Physics**, use **Select Bones** for chain roots, and check body colliders.\n\nTune one setting at a time: PhysX uses spring/damping controls; XPBD uses compliance/damping. To replace a PMX rig with custom tools, set PMX **Physics Mode** to **Off** first. Availability varies by build/edition. Native has separate physics controls.",
               "question_locales": {
                 "jp": "髪や衣服の物理を調整するには？",
                 "zh": "如何调整头发和衣物物理？",
@@ -1316,10 +1316,10 @@
                 "kr": "머리카락과 의상 물리를 조절하려면 어떻게 하나요?"
               },
               "answer_locales": {
-                "jp": "まずアクターの物理方式を確認します。PMXの剛体・ジョイントには **Physics Mode** を使い、**Auto** はシステムの **PMX Default** に従います。XPS/FBXのツールは **Hair Physics** または **Skirt Physics** を有効にし、**Select Bones** でボーン列の根を選び、体のコライダーを確認します。\n\nPhysXはばねと減衰、XPBDはコンプライアンスと減衰を一つずつ調整します。PMXの物理をツールで置き換える場合は先に **Physics Mode** を **Off** にします。利用可能な機能はビルド/エディションで異なり、Nativeの設定は別です。",
-                "zh": "先确认角色的物理方式。PMX自带刚体和关节可比较 **Physics Mode** 选项；**Auto** 使用系统 **PMX Default**。XPS/FBX自定义工具中，启用 **Hair Physics** 或 **Skirt Physics**，用 **Select Bones** 选择骨骼链根部，并检查身体碰撞体。\n\n一次只调一个设置：PhysX用弹簧和阻尼，XPBD用柔顺度和阻尼。用自定义工具替换PMX物理时，先将PMX **Physics Mode** 设为 **Off**。功能可用性随构建和版本而异，Native有独立物理设置。",
-                "tw": "先確認角色的物理方式。PMX自帶剛體和關節可比較 **Physics Mode** 選項；**Auto** 使用系統 **PMX Default**。XPS/FBX自訂工具中，啟用 **Hair Physics** 或 **Skirt Physics**，用 **Select Bones** 選擇骨骼鏈根部，並檢查身體碰撞體。\n\n一次只調一個設定：PhysX用彈簧和阻尼，XPBD用柔順度和阻尼。用自訂工具替換PMX物理時，先將PMX **Physics Mode** 設為 **Off**。功能可用性隨組建和版本而異，Native有獨立物理設定。",
-                "kr": "먼저 배우의 물리 구성을 확인하세요. PMX의 강체와 관절은 **Physics Mode**를 비교하며 **Auto**는 시스템의 **PMX Default**를 따릅니다. XPS/FBX 사용자 도구에서는 **Hair Physics** 또는 **Skirt Physics**를 켜고 **Select Bones**로 체인 루트를 선택한 다음 몸 콜라이더를 확인하세요.\n\n한 번에 하나씩 조절하세요. PhysX는 스프링/댐핑, XPBD는 컴플라이언스/댐핑을 사용합니다. PMX 리그를 사용자 도구로 대체하려면 먼저 **Physics Mode**를 **Off**로 설정하세요. 기능은 빌드/에디션에 따라 다르며 Native는 별도 설정입니다."
+                "jp": "まずアクターの物理方式を確認します。PMXの剛体・ジョイントには **Physics Mode** を使い、**Auto** はシステムの **PMX Default** に従います。XPS/FBX/VRMのツールは **Hair Physics** または **Skirt Physics** を有効にし、**Select Bones** でボーン列の根を選び、体のコライダーを確認します。\n\nPhysXはばねと減衰、XPBDはコンプライアンスと減衰を一つずつ調整します。PMXの物理をツールで置き換える場合は先に **Physics Mode** を **Off** にします。利用可能な機能はビルド/エディションで異なり、Nativeの設定は別です。",
+                "zh": "先确认角色的物理方式。PMX自带刚体和关节可比较 **Physics Mode** 选项；**Auto** 使用系统 **PMX Default**。XPS/FBX/VRM自定义工具中，启用 **Hair Physics** 或 **Skirt Physics**，用 **Select Bones** 选择骨骼链根部，并检查身体碰撞体。\n\n一次只调一个设置：PhysX用弹簧和阻尼，XPBD用柔顺度和阻尼。用自定义工具替换PMX物理时，先将PMX **Physics Mode** 设为 **Off**。功能可用性随构建和版本而异，Native有独立物理设置。",
+                "tw": "先確認角色的物理方式。PMX自帶剛體和關節可比較 **Physics Mode** 選項；**Auto** 使用系統 **PMX Default**。XPS/FBX/VRM自訂工具中，啟用 **Hair Physics** 或 **Skirt Physics**，用 **Select Bones** 選擇骨骼鏈根部，並檢查身體碰撞體。\n\n一次只調一個設定：PhysX用彈簧和阻尼，XPBD用柔順度和阻尼。用自訂工具替換PMX物理時，先將PMX **Physics Mode** 設為 **Off**。功能可用性隨組建和版本而異，Native有獨立物理設定。",
+                "kr": "먼저 배우의 물리 구성을 확인하세요. PMX의 강체와 관절은 **Physics Mode**를 비교하며 **Auto**는 시스템의 **PMX Default**를 따릅니다. XPS/FBX/VRM 사용자 도구에서는 **Hair Physics** 또는 **Skirt Physics**를 켜고 **Select Bones**로 체인 루트를 선택한 다음 몸 콜라이더를 확인하세요.\n\n한 번에 하나씩 조절하세요. PhysX는 스프링/댐핑, XPBD는 컴플라이언스/댐핑을 사용합니다. PMX 리그를 사용자 도구로 대체하려면 먼저 **Physics Mode**를 **Off**로 설정하세요. 기능은 빌드/에디션에 따라 다르며 Native는 별도 설정입니다."
               },
               "keywords": [
                 "hair",
@@ -1596,8 +1596,8 @@
             {
               "category": "motion",
               "type": "how-to",
-              "question": "How do I make an XPS or FBX model respond to motions?",
-              "answer": "Load the model and open **Bone Mapper** in its actor menu. Run **Auto Map**, then check the slots marked with an exclamation mark: these are critical bones that still need assignments.\n\nMap each missing slot to the corresponding bone in the model. **Chain Mapping** can speed up mapping arms, hands and other bone chains. Once the critical mappings are complete, assign a motion and check the result.\n\nXPS and FBX require bone mapping. PMX models usually already include standard bone names.",
+              "question": "How do I make an XPS, FBX, or VRM model respond to motions?",
+              "answer": "Load the model and open **Bone Mapper** in its actor menu. Run **Auto Map**, then check the slots marked with an exclamation mark: these are critical bones that still need assignments.\n\nMap each missing slot to the corresponding bone in the model. **Chain Mapping** can speed up mapping arms, hands and other bone chains. Once the critical mappings are complete, assign a motion and check the result.\n\nXPS requires bone mapping. FBX and VRM models are mapped automatically on load, so you only need the Bone Mapper to correct them. PMX models usually already include standard bone names.",
               "keywords": [
                 "bone mapping",
                 "XPS",
@@ -1621,16 +1621,16 @@
               "id": "map-xps-fbx-bones",
               "status": "published",
               "question_locales": {
-                "jp": "XPSやFBXモデルをモーションで動かすには？",
-                "zh": "如何让XPS或FBX模型播放动作？",
-                "tw": "如何讓XPS或FBX模型播放動作？",
-                "kr": "XPS나 FBX 모델이 모션에 따라 움직이게 하려면 어떻게 하나요?"
+                "jp": "XPS、FBX、VRMモデルをモーションで動かすには？",
+                "zh": "如何让XPS、FBX或VRM模型播放动作？",
+                "tw": "如何讓XPS、FBX或VRM模型播放動作？",
+                "kr": "XPS, FBX, VRM 모델이 모션에 따라 움직이게 하려면 어떻게 하나요?"
               },
               "answer_locales": {
-                "jp": "モデルを読み込み、アクターメニューの **ボーンマッパー** を開きます。**自動マッピング** を実行し、感嘆符が付いたスロットを確認してください。動作に必要なボーンがまだ割り当てられていないことを示します。\n\n未割り当てのスロットに、モデルの対応するボーンを指定します。**チェーンマッピング** を使うと腕や手などのボーン列を素早く設定できます。必須ボーンの設定が終わったら、モーションを割り当てて確認してください。\n\nXPSとFBXにはボーンマッピングが必要です。PMXは通常、標準のボーン名を持っています。",
-                "zh": "加载模型，在角色菜单中打开**骨骼映射器**。运行**自动映射**，检查带感叹号的槽位：这些是尚未分配、但正常动作所必需的骨骼。\n\n将每个缺失槽位映射到模型中对应的骨骼。**链式映射**可以加快手臂、手指等骨骼链的设置。完成必要映射后，分配动作并检查结果。\n\nXPS和FBX需要骨骼映射。PMX模型通常已包含标准骨骼名称。",
-                "tw": "載入模型，在角色選單中開啟**骨骼對映器**。執行**自動對映**，檢查帶感嘆號的槽位：這些是尚未指派、但正常動作所必需的骨骼。\n\n將每個缺失槽位對映到模型中對應的骨骼。**鏈式對映**可以加快手臂、手指等骨骼鏈的設定。完成必要對映後，指派動作並檢查結果。\n\nXPS和FBX需要骨骼對映。PMX模型通常已包含標準骨骼名稱。",
-                "kr": "모델을 불러오고 액터 메뉴의 **본 매퍼**를 여세요. **자동 매핑**을 실행한 뒤 느낌표가 붙은 슬롯을 확인하세요. 움직임에 꼭 필요하지만 아직 할당되지 않은 본을 뜻합니다.\n\n빠진 슬롯마다 모델의 해당 본을 연결하세요. **체인 매핑**을 사용하면 팔이나 손 등 본 체인을 빠르게 설정할 수 있습니다. 필수 본을 모두 매핑한 뒤 모션을 할당하고 결과를 확인하세요.\n\nXPS와 FBX에는 본 매핑이 필요합니다. PMX 모델은 보통 표준 본 이름을 이미 포함하고 있습니다."
+                "jp": "モデルを読み込み、アクターメニューの **ボーンマッパー** を開きます。**自動マッピング** を実行し、感嘆符が付いたスロットを確認してください。動作に必要なボーンがまだ割り当てられていないことを示します。\n\n未割り当てのスロットに、モデルの対応するボーンを指定します。**チェーンマッピング** を使うと腕や手などのボーン列を素早く設定できます。必須ボーンの設定が終わったら、モーションを割り当てて確認してください。\n\nXPSにはボーンマッピングが必要です。FBXとVRMは読み込み時に自動でマッピングされ、ボーンマッパーで修正するだけです。PMXは通常、標準のボーン名を持っています。",
+                "zh": "加载模型，在角色菜单中打开**骨骼映射器**。运行**自动映射**，检查带感叹号的槽位：这些是尚未分配、但正常动作所必需的骨骼。\n\n将每个缺失槽位映射到模型中对应的骨骼。**链式映射**可以加快手臂、手指等骨骼链的设置。完成必要映射后，分配动作并检查结果。\n\nXPS需要骨骼映射。FBX和VRM模型会在加载时自动映射，只需在骨骼映射器中修正。PMX模型通常已包含标准骨骼名称。",
+                "tw": "載入模型，在角色選單中開啟**骨骼對映器**。執行**自動對映**，檢查帶感嘆號的槽位：這些是尚未指派、但正常動作所必需的骨骼。\n\n將每個缺失槽位對映到模型中對應的骨骼。**鏈式對映**可以加快手臂、手指等骨骼鏈的設定。完成必要對映後，指派動作並檢查結果。\n\nXPS需要骨骼對映。FBX和VRM模型會在載入時自動對映，只需在骨骼對映器中修正。PMX模型通常已包含標準骨骼名稱。",
+                "kr": "모델을 불러오고 액터 메뉴의 **본 매퍼**를 여세요. **자동 매핑**을 실행한 뒤 느낌표가 붙은 슬롯을 확인하세요. 움직임에 꼭 필요하지만 아직 할당되지 않은 본을 뜻합니다.\n\n빠진 슬롯마다 모델의 해당 본을 연결하세요. **체인 매핑**을 사용하면 팔이나 손 등 본 체인을 빠르게 설정할 수 있습니다. 필수 본을 모두 매핑한 뒤 모션을 할당하고 결과를 확인하세요.\n\nXPS에는 본 매핑이 필요합니다. FBX와 VRM 모델은 로드할 때 자동으로 매핑되므로 본 매퍼에서 수정하기만 하면 됩니다. PMX 모델은 보통 표준 본 이름을 이미 포함하고 있습니다."
               },
               "keywords_locales": {
                 "jp": [
@@ -4093,6 +4093,56 @@
       },
       "subsections": [
         {
+          "title": "Native · Windows 10",
+          "items": [
+            {
+              "id": "native-windows10-startup",
+              "category": "help",
+              "type": "known-issue",
+              "status": "published",
+              "question": "Why does the current DanceXR Native build crash on startup on Windows 10?",
+              "answer": "The current DanceXR Native build cannot start on Windows 10: it requires a newer DirectX 12 Agility SDK version that is not available on Windows 10. There is no user-side workaround. We will try to address this in the next release; a fix is not yet available.\n\nThis is a build compatibility issue, so changing graphics settings, drivers or resetting the app is not a workaround. This notice concerns the Native app; it does not establish the same issue in the Unity HD, LW or RT builds. See the [Native guide](features/native) for current requirements.",
+              "keywords": [
+                "Native",
+                "Windows 10",
+                "startup",
+                "crash",
+                "launch",
+                "DirectX 12",
+                "Agility SDK",
+                "compatibility"
+              ],
+              "platforms": [
+                "Windows 10"
+              ],
+              "builds": [
+                "Native"
+              ],
+              "versions": [
+                "2026.11"
+              ],
+              "related": [
+                {
+                  "href": "features/native",
+                  "label": "DanceXR Native"
+                }
+              ],
+              "question_locales": {
+                "zh": "为什么当前的 DanceXR Native 构建在 Windows 10 上启动时崩溃？",
+                "tw": "為什麼目前的 DanceXR Native 組建在 Windows 10 上啟動時當機？",
+                "jp": "現在のDanceXR NativeがWindows 10で起動時にクラッシュするのはなぜですか？",
+                "kr": "현재 DanceXR Native 빌드가 Windows 10에서 시작 시 충돌하는 이유는 무엇인가요?"
+              },
+              "answer_locales": {
+                "zh": "当前的 DanceXR Native 构建无法在 Windows 10 上启动：它依赖较新版本的 DirectX 12 Agility SDK，而该版本在 Windows 10 上不可用。用户无法通过自行设置或操作绕过此问题。我们将尝试在下一个版本中解决，目前尚未提供修复。\n\n这是构建兼容性问题，修改图形设置、驱动程序或重置应用无法绕过。本提示针对 Native 应用，不代表 Unity HD、LW 或 RT 构建存在相同问题。当前要求请参阅 [Native 指南](features/native)。",
+                "tw": "目前的 DanceXR Native 組建無法在 Windows 10 上啟動：它依賴較新版本的 DirectX 12 Agility SDK，而該版本在 Windows 10 上無法使用。使用者無法透過自行設定或操作繞過此問題。我們將嘗試在下一個版本中解決，目前尚未提供修正。\n\n這是組建相容性問題，修改圖形設定、驅動程式或重設應用程式無法繞過。本提示針對 Native 應用程式，不代表 Unity HD、LW 或 RT 組建存在相同問題。目前的需求請參閱 [Native 指南](features/native)。",
+                "jp": "現在のDanceXR NativeビルドはWindows 10では起動できません。Windows 10では利用できない新しいバージョンのDirectX 12 Agility SDKを必要とするためです。ユーザー側で行える回避策はありません。次のリリースでの対応を試みますが、現時点では修正版は提供されていません。\n\nビルドの互換性の問題であり、グラフィック設定やドライバーの変更、アプリのリセットでは回避できません。この注意はNativeアプリに関するもので、UnityのHD、LW、RTビルドで同じ問題が発生することを示すものではありません。現在の要件は[Nativeガイド](features/native)をご覧ください。",
+                "kr": "현재 DanceXR Native 빌드는 Windows 10에서 시작할 수 없습니다. Windows 10에서 사용할 수 없는 더 높은 버전의 DirectX 12 Agility SDK가 필요하기 때문입니다. 사용자가 직접 적용할 수 있는 우회 방법은 없습니다. 다음 릴리스에서 해결을 시도할 예정이며, 현재 수정 버전은 제공되지 않았습니다.\n\n빌드 호환성 문제이므로 그래픽 설정이나 드라이버를 변경하거나 앱을 초기화해도 해결되지 않습니다. 이 안내는 Native 앱에 관한 것으로, Unity HD, LW, RT 빌드에도 같은 문제가 있다는 뜻은 아닙니다. 현재 요구 사항은 [Native 가이드](features/native)를 확인하세요."
+              }
+            }
+          ]
+        },
+        {
           "title": "📌 Versions 2026.9–2026.10 (Unity)",
           "title_locales": {
             "jp": "📌 バージョン2026.9～2026.10（Unity版）",
@@ -4106,7 +4156,7 @@
               "category": "actors",
               "type": "known-issue",
               "question": "Why do XPS skirts and hair stick to the body and vibrate continuously in 2026.9 or 2026.10?",
-              "answer": "This is a known issue with XPS model physics in the **Unity-based versions of DanceXR 2026.9 and 2026.10**. Skirts and hair can stick close to the body and vibrate continuously.\n\nUse either workaround:\n\n1. In the affected **Skirt Physics** or **Hair Physics** settings, change **Physics Mode** to **PhysX**.\n2. Alternatively, reduce **friction** for the affected skirt or hair physics.\n\nA fix is planned for **2026.11**.",
+              "answer": "This is a known issue with XPS model physics in the **Unity-based versions of DanceXR 2026.9 and 2026.10**. Skirts and hair can stick close to the body and vibrate continuously.\n\nUse either workaround:\n\n1. In the affected **Skirt Physics** or **Hair Physics** settings, change **Physics Mode** to **PhysX**.\n2. Alternatively, reduce **friction** for the affected skirt or hair physics.\n\nFixed in **2026.11**. If your platform or branch still provides 2026.9 or 2026.10, use either workaround above until you can update.",
               "question_locales": {
                 "jp": "2026.9または2026.10で、XPSモデルのスカートや髪が体に張り付き、振動し続けるのはなぜですか？",
                 "zh": "为什么在2026.9或2026.10中，XPS模型的裙子和头发会贴在身体附近并持续抖动？",
@@ -4114,10 +4164,10 @@
                 "kr": "2026.9 또는 2026.10에서 XPS 모델의 치마와 머리카락이 몸에 붙어 계속 떨리는 이유는 무엇인가요?"
               },
               "answer_locales": {
-                "jp": "これは **Unity版DanceXR 2026.9および2026.10** のXPSモデルの物理演算に関する既知の問題です。スカートや髪が体の近くに張り付き、振動し続けることがあります。\n\n次のいずれかで回避できます。\n\n1. 対象の **Skirt Physics** または **Hair Physics** の設定で、**Physics Mode** を **PhysX** に変更します。\n2. または、対象のスカートや髪の物理演算の **摩擦（friction）** を下げます。\n\n**2026.11** で修正する予定です。",
-                "zh": "这是 **Unity版DanceXR 2026.9和2026.10** 中XPS模型物理的已知问题。裙子和头发可能贴在身体附近并持续抖动。\n\n可使用以下任一临时解决方法：\n\n1. 在受影响的 **Skirt Physics** 或 **Hair Physics** 设置中，将 **Physics Mode** 改为 **PhysX**。\n2. 或者，降低受影响裙子或头发物理的 **摩擦力（friction）**。\n\n计划在 **2026.11** 中修复。",
-                "tw": "這是 **Unity版DanceXR 2026.9和2026.10** 中XPS模型物理的已知問題。裙子和頭髮可能貼在身體附近並持續抖動。\n\n可使用以下任一暫時解決方法：\n\n1. 在受影響的 **Skirt Physics** 或 **Hair Physics** 設定中，將 **Physics Mode** 改為 **PhysX**。\n2. 或者，降低受影響裙子或頭髮物理的 **摩擦力（friction）**。\n\n預計在 **2026.11** 中修正。",
-                "kr": "**Unity 기반 DanceXR 2026.9 및 2026.10**의 XPS 모델 물리에서 발생하는 알려진 문제입니다. 치마와 머리카락이 몸 가까이에 붙어 계속 떨릴 수 있습니다.\n\n다음 중 한 가지 방법을 사용하세요.\n\n1. 해당 **Skirt Physics** 또는 **Hair Physics** 설정에서 **Physics Mode**를 **PhysX**로 변경합니다.\n2. 또는 해당 치마나 머리카락 물리의 **마찰(friction)** 값을 낮춥니다.\n\n**2026.11**에서 수정할 예정입니다."
+                "jp": "これは **Unity版DanceXR 2026.9および2026.10** のXPSモデルの物理演算に関する既知の問題です。スカートや髪が体の近くに張り付き、振動し続けることがあります。\n\n次のいずれかで回避できます。\n\n1. 対象の **Skirt Physics** または **Hair Physics** の設定で、**Physics Mode** を **PhysX** に変更します。\n2. または、対象のスカートや髪の物理演算の **摩擦（friction）** を下げます。\n\n**2026.11** で修正されました。お使いのプラットフォームやブランチでまだ2026.9または2026.10が提供されている場合は、更新できるまで上記の回避策を使用してください。",
+                "zh": "这是 **Unity版DanceXR 2026.9和2026.10** 中XPS模型物理的已知问题。裙子和头发可能贴在身体附近并持续抖动。\n\n可使用以下任一临时解决方法：\n\n1. 在受影响的 **Skirt Physics** 或 **Hair Physics** 设置中，将 **Physics Mode** 改为 **PhysX**。\n2. 或者，降低受影响裙子或头发物理的 **摩擦力（friction）**。\n\n已在 **2026.11** 中修复。如果你的平台或分支仍提供2026.9或2026.10，请在能够更新前使用上述任一临时解决方法。",
+                "tw": "這是 **Unity版DanceXR 2026.9和2026.10** 中XPS模型物理的已知問題。裙子和頭髮可能貼在身體附近並持續抖動。\n\n可使用以下任一暫時解決方法：\n\n1. 在受影響的 **Skirt Physics** 或 **Hair Physics** 設定中，將 **Physics Mode** 改為 **PhysX**。\n2. 或者，降低受影響裙子或頭髮物理的 **摩擦力（friction）**。\n\n已在 **2026.11** 中修正。如果你的平台或分支仍提供2026.9或2026.10，請在能夠更新前使用上述任一暫時解決方法。",
+                "kr": "**Unity 기반 DanceXR 2026.9 및 2026.10**의 XPS 모델 물리에서 발생하는 알려진 문제입니다. 치마와 머리카락이 몸 가까이에 붙어 계속 떨릴 수 있습니다.\n\n다음 중 한 가지 방법을 사용하세요.\n\n1. 해당 **Skirt Physics** 또는 **Hair Physics** 설정에서 **Physics Mode**를 **PhysX**로 변경합니다.\n2. 또는 해당 치마나 머리카락 물리의 **마찰(friction)** 값을 낮춥니다.\n\n**2026.11**에서 수정되었습니다. 사용 중인 플랫폼이나 브랜치가 아직 2026.9 또는 2026.10을 제공한다면 업데이트할 수 있을 때까지 위 해결 방법 중 하나를 사용하세요."
               },
               "keywords": [
                 "XPS",

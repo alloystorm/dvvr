@@ -33,6 +33,8 @@ description: 런처로 무료 HD 및 Native 에디션을 설치하고 업데이�
 
 ## PC 에디션 선택
 
+{% include native-windows10-notice.html %}
+
 </div>
 <div class="editions-grid" style="grid-template-columns: repeat(3, 1fr);">
 
@@ -111,6 +113,8 @@ description: 런처로 무료 HD 및 Native 에디션을 설치하고 업데이�
 정식 출시 준비 완료
 
 ## PC에서 DanceXR Native 체험하기
+
+{% include native-windows10-notice.html %}
 
 DanceXR Native는 Windows 데스크톱 또는 OpenXR VR에서 PMX, XPS, FBX, VRM 캐릭터를 렌더링합니다. 2026.10부터 래스터 렌더러는 내장 그래픽을 포함한 레이 트레이싱 미지원 DirectX 12 PC도 지원합니다. 완전한 패스 트레이싱에는 지원 GPU가 필요합니다. Native는 Itch.io에서 무료로 다운로드할 수 있습니다. 무료 버전은 캐릭터 한 명을 지원하며, 보유한 에디션(Pro, RT 또는 Creator)으로 활성화하면 다중 캐릭터 장면과 해당 기능이 잠금 해제됩니다.
 
